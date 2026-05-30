@@ -1,0 +1,5 @@
+numpy
+matplotlib
+# PyPhi IIT-4.0 line (system-level big-phi via pyphi.new_big_phi):
+#   pip install "pyphi @ git+https://github.com/wmayner/pyphi@feature/iit-4.0"
+pyphi @ git+https://github.com/wmayner/pyphi@feature/iit-4.0

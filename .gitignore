@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.DS_Store
+__pyphi_cache__/
+pyphi.log
+proxy_audit/results/run.log

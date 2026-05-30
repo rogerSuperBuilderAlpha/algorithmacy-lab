@@ -1,0 +1,47 @@
+# iit-experiments
+
+Small, reproducible computational experiments in Integrated Information Theory,
+built on the [PyPhi](https://github.com/wmayner/pyphi) IIT‑4.0 implementation.
+
+## Experiments
+
+### [`proxy_audit/`](proxy_audit/) — Do cheap proxies track exact IIT‑4.0 Φ?
+
+Motivated by [Barrett et al. (2026), *IIT: the good, the bad and the
+misunderstood*](https://consensus.app/papers/details/64009340648f5403bda7a94fb6a62950/),
+which observes that the quantities computed on real data (Lempel‑Ziv complexity,
+correlation measures, PCI) are **proxies for** integrated information that have
+never been validated against the Φ that IIT actually defines.
+
+We run that validation on systems small enough to compute exact Φ: 270 random
+Boolean networks, exact IIT‑4.0 Φ via PyPhi, versus five cheap proxies.
+
+**Headline:** no proxy reliably tracks Φ. Total correlation *anti*‑correlates
+(Spearman ρ = −0.36); Lempel‑Ziv complexity is near chance; the best detector of
+"is the system integrated at all?" is a trivial edge count. The proxy↔Φ
+relationship is non‑monotonic and even sign‑flips between detecting and grading
+integration. See [`proxy_audit/FINDINGS.md`](proxy_audit/FINDINGS.md).
+
+![proxies vs phi](proxy_audit/results/proxy_vs_phi.png)
+
+## Setup
+
+Requires Python ≥ 3.10 and PyPhi's IIT‑4.0 line.
+
+```bash
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+# (PyPhi 4.0 currently installs from the feature/iit-4.0 branch:
+#  pip install "pyphi @ git+https://github.com/wmayner/pyphi@feature/iit-4.0")
+```
+
+Then, from the repo root:
+
+```bash
+python -m proxy_audit.run 15 1      # run the audit
+python -m proxy_audit.analyze       # correlations, summary, plot
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
