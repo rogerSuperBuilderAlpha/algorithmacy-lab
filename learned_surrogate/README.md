@@ -23,6 +23,12 @@ becomes quite reliable (AUC 0.90). `phi_wms` carries most of the signal. See
 
 ![surrogate](results/surrogate.png)
 
+**Size extrapolation** (`extrapolate.py`): trained on `n ∈ {3,4}` and tested on a
+fresh unseen `n=5` set, **detection extrapolates** (AUC 0.84, vs 0.90
+in‑distribution) but **magnitude prediction does not** (ρ 0.54 → 0.33). Cheap
+surrogates look usable for screening across scales, not yet for accurate Φ
+estimation.
+
 ## Files
 
 - `build_dataset.py` — generates `results/dataset.csv`: one row per network with

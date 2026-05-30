@@ -21,7 +21,8 @@ validation. Four experiments give a connected answer:
 3. **Even exact scalar Φ is an impoverished summary.** It is nearly orthogonal to
    the cause‑effect *structure* it comes from.
 4. **Yet integration is recoverable.** A model that *combines* cheap features
-   predicts Φ well — and detects integrated systems with AUC 0.90.
+   predicts Φ well — and detects integrated systems with AUC 0.90, with
+   detection (though not magnitude) still holding up on larger unseen systems.
 
 The throughline: *no single cheap number is integrated information, but the
 information needed to recover it is distributed across several cheap signals —
@@ -73,6 +74,12 @@ a random forest combining the cheap features lifts Φ‑prediction from ρ = 0.3
 one. So integration, invisible to any single cheap measure, is substantially
 recoverable from a combination — and *whether* a system is integrated is quite
 predictable, even if *how much* remains moderate.
+
+Crucially, we also test **size extrapolation** — the make‑or‑break property for a
+cheap surrogate. Trained on `n ∈ {3,4}` and applied to a fresh **unseen `n=5`**
+set, *detection* holds up (AUC 0.84, vs 0.90 in‑distribution) while *magnitude*
+prediction degrades (ρ 0.54 → 0.33). Screening for integration may transfer
+across scales; estimating its amount does not — yet.
 
 ## What this adds up to
 

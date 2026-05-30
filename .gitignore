@@ -9,3 +9,4 @@ ANNOUNCEMENT_DRAFT.md
 candidate_audit/results/run.log
 structure_suite/results/run.log
 learned_surrogate/results/build.log
+learned_surrogate/results/test_build.log

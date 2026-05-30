@@ -1,0 +1,4 @@
+setting,spearman,auc_phi_positive,n_test,n_test_positive
+train n=3  ->  test n=4,0.301787949304664,0.8091641957005189,360,76
+train n=4  ->  test n=3,0.3580688290210108,0.8211323062808211,360,101
+"train n=3,4  ->  test n=5 (unseen)",0.32657294452351404,0.8416131392796162,300,49

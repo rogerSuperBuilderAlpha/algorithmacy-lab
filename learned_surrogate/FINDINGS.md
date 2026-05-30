@@ -38,6 +38,28 @@ generated with PyPhi. Here the target is **exact IIT‑4.0 Φ**, and the
 720‑network feature dataset (`results/dataset.csv`) is published as a reusable
 benchmark for training and comparing surrogates against the current formalism.
 
+## Does it extrapolate to larger systems? (`extrapolate.py`)
+
+The central worry for any cheap Φ surrogate is **size extrapolation**: it is
+trained where exact Φ is computable (small systems) but must run where it is not
+(large ones). We train on `n ∈ {3,4}` and test on a **fresh, unseen `n=5` set**
+(300 networks):
+
+| Train → test | ρ (predict Φ) | AUC (detect Φ>0) |
+|--------------|------:|------:|
+| in‑distribution (5‑fold CV) | 0.54 | 0.90 |
+| n=3 → n=4 | 0.30 | 0.81 |
+| n=4 → n=3 | 0.36 | 0.82 |
+| **n=3,4 → n=5 (unseen)** | 0.33 | **0.84** |
+
+**Detection extrapolates; magnitude estimation does not.** Trained only on
+`n ≤ 4`, the surrogate still detects integrated systems at a larger unseen size
+(`n=5`) with AUC 0.84 — close to its in‑distribution 0.90. But predicting *how
+much* Φ a system has degrades sharply out‑of‑size (ρ 0.54 → 0.33). The practical
+read: cheap surrogates look usable for **screening/detection across scales**, but
+not yet for accurate Φ *estimation* — a concrete, testable caution for the
+surrogate program. (`results/test_n5.csv` extends the benchmark to `n=5`.)
+
 ## Caveats
 
 - Small systems (`n ∈ {3,4}`), specific Boolean‑gate ensemble; a surrogate that
