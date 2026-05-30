@@ -1,0 +1,8 @@
+dimension,spearman_with_phi
+n_distinctions,0.20752282775446154
+sum_phi_distinctions,0.11976233711351708
+n_relations,0.11692245505174668
+sum_phi_relations,0.06837961000673615
+mean_order,0.2111764005155711
+frac_higher_order,0.21081733338695108
+max_order,0.20613620228075946

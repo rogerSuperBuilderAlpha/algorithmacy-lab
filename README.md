@@ -42,6 +42,22 @@ the ones that track it. See [`candidate_audit/FINDINGS.md`](candidate_audit/FIND
 
 ![candidate measures vs phi](candidate_audit/results/candidate_vs_phi.png)
 
+### [`structure_suite/`](structure_suite/) — Is scalar Φ an impoverished summary?
+
+[Barrett et al. (2026)](https://consensus.app/papers/details/64009340648f5403bda7a94fb6a62950/)
+propose replacing the single number Φ with a *suite* of quantities. This
+experiment takes that literally: it extracts the full IIT‑4.0 Φ‑structure
+(distinctions, relations, composition) for 372 `(network, state)` pairs and asks
+what the suite captures that scalar Φ discards.
+
+**Headline:** scalar Φ is **nearly orthogonal** to every structural dimension it
+summarizes (ρ = 0.07–0.21). Reducible systems (Φ = 0) still have rich structure
+— *all* of them have ≥1 distinction. The suite has ~3 independent axes (Φ;
+structural size; composition); Φ is only one. Direct support for the
+multi‑dimensional view. See [`structure_suite/FINDINGS.md`](structure_suite/FINDINGS.md).
+
+![phi-structure correlations](structure_suite/results/suite_corr.png)
+
 ## Setup
 
 Requires Python ≥ 3.10 and PyPhi's IIT‑4.0 line.
