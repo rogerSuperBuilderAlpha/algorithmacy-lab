@@ -115,6 +115,23 @@ integrated → high). See [`phiid_vs_phi/FINDINGS.md`](phiid_vs_phi/FINDINGS.md)
 
 ![phiid vs phi](phiid_vs_phi/results/phiid_vs_phi.png)
 
+### [`consciousness_range/`](consciousness_range/) — does "level of consciousness" capture the mind? *(philosophical companion)*
+
+The six experiments above ask *what tracks Φ*. This one flips it: **assume IIT is
+true** — the Φ-structure *is* the experience — then build a bestiary of minds
+spanning low→high Φ and different structural characters, and ask whether the
+scalar "level of consciousness" captures the mind.
+
+**Headline:** it does not. Three systems with **identical Φ = 0.415** have
+cause-effect structures spanning **59 to 32 764 relations** (555×) — same level,
+radically different minds. Across the bestiary Φ and structural richness
+*anti*-correlate (the highest-Φ mind has one of the sparsest structures), and the
+*composition* differs in kind (one mind has no first-order distinctions at all).
+On IIT's own terms, a one-number consciousness scale discards almost everything
+that makes a mind what it is. See [`consciousness_range/FINDINGS.md`](consciousness_range/FINDINGS.md).
+
+![range of minds](consciousness_range/results/range_of_minds.png)
+
 ## Setup
 
 Requires Python ≥ 3.10 and PyPhi's IIT‑4.0 line.

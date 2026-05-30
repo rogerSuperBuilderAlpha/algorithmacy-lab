@@ -1,0 +1,11 @@
+name,desc,n_nodes,state,phi,n_distinctions,n_relations,sum_phi_distinctions,sum_phi_relations,mean_order,max_order
+feedforward,a feed-forward chain: no integrated subject (Phi=0),3,000,0.0,1,0,1.0,0.0,1.0,1
+dense_no_subject,rich cause-effect structure yet Phi=0: structure without a subject,3,000,0.0,6,63,4.658797503894244,32.76466250649041,1.5,2
+dim_busy,faint Phi but a surprisingly busy structure,4,0000,0.30459254503393174,9,318,2.905623354981039,12.700097067881398,1.8888888888888888,4
+dim_simple,"a faint, structurally simple experience",4,1010,0.31761387633413235,3,5,1.1196769465192802,0.5348194357734976,2.0,4
+twin_minimal,Phi=0.415 with a spare structure,4,0000,0.41503749927884376,6,59,2.8562031259014455,9.333740625180292,1.6666666666666667,4
+twin_rich,Phi=0.415 with a rich structure,4,0000,0.41503749927884376,11,2044,4.893796874098555,168.83843328333325,2.0,4
+twin_baroque,Phi=0.415 with a vast (32k-relation) structure,4,0000,0.41503749927884376,15,32764,11.252443751081735,3522.73922874277,2.1333333333333333,4
+synergic,a higher-order (synergistic) mind: structure dominated by order>=2,3,000,1.5,4,15,2.5,7.0,2.25,3
+canonical,the canonical OR/AND/XOR complex,3,000,2.0,4,10,3.0,4.583333333333333,1.75,3
+grid,"a 2x2 grid: the most vivid, spatially structured mind",4,1111,4.0,6,14,10.0,13.0,1.3333333333333333,2

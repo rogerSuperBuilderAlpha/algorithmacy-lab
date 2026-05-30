@@ -106,6 +106,15 @@ the same networks, exact Φ_WMS gives ρ = 0.28 (AUC 0.67) while the data-style
 quantity, degraded by finite-sample estimation and coarse-graining. A concrete
 caution for inferring integration from data-side ΦID.
 
+### Philosophical companion — [`consciousness_range/`](consciousness_range/)
+The six experiments ask *what tracks Φ*. A seventh flips the question: *assume IIT
+is true* (the Φ-structure is the experience) and build a bestiary of minds. Three
+systems with identical Φ = 0.415 have structures spanning 59–32 764 relations
+(555×); across the bestiary Φ and structural richness *anti*-correlate; and the
+composition differs in kind. On IIT's own terms, scalar Φ radically
+underdetermines the mind — a concrete, by-example case for the field's move from
+a single number to the full Φ-structure.
+
 ## What this adds up to
 
 - For **empirical practice** (Experiment 1): the proxies routinely used as stand‑ins
