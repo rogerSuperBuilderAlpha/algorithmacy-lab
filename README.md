@@ -81,6 +81,21 @@ predicting *how much* remains only moderate. See [`learned_surrogate/FINDINGS.md
 
 ![learned surrogate](learned_surrogate/results/surrogate.png)
 
+### [`emergence_vs_phi/`](emergence_vs_phi/) — Causal emergence vs IIT Φ
+
+Two information-theoretic accounts of macro-level causal power, head to head:
+[Hoel](https://www.mdpi.com/1099-4300/19/5/188)'s **effective information /
+causal emergence** vs IIT **Φ**, on the same small (n=3) systems, with the
+emergence search done exactly (all state coarse-grainings).
+
+**Headline:** they're **nearly orthogonal** (ρ = 0.02), and the *most integrated*
+systems show *no* causal emergence — emergence rewards degeneracy
+(coarse-graining recovers determinism), while Φ rewards irreducibility. Effective
+information does track Φ, but only *among already-integrated systems* (ρ = 0.77).
+See [`emergence_vs_phi/FINDINGS.md`](emergence_vs_phi/FINDINGS.md).
+
+![emergence vs phi](emergence_vs_phi/results/emergence_vs_phi.png)
+
 ## Setup
 
 Requires Python ≥ 3.10 and PyPhi's IIT‑4.0 line.
