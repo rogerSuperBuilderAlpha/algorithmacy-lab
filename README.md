@@ -4,7 +4,7 @@ Small, reproducible computational experiments in Integrated Information Theory,
 built on the [PyPhi](https://github.com/wmayner/pyphi) IIT‑4.0 implementation.
 
 **→ Start with [`SYNTHESIS.md`](SYNTHESIS.md)** for the connected story across all
-four experiments, or the short preprint‑style writeup in
+five experiments, or the short preprint‑style writeup in
 [`paper/manuscript.md`](paper/manuscript.md). In one line: *no single cheap number
 is integrated information, but the information needed to recover it is distributed
 across several cheap signals — and the closer a measure's structure is to IIT's

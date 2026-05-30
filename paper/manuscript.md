@@ -35,7 +35,7 @@ proposes replacing the single number Φ with a multi‑dimensional suite.
 
 Validation is possible on systems small enough that exact Φ is computable. The
 IIT‑4.0 formalism is implemented in PyPhi [2,3], and 3–4 node networks are well
-within reach. We use this to run four connected validation experiments.
+within reach. We use this to run five connected validation experiments.
 
 ## 2. Methods
 
@@ -99,9 +99,17 @@ exemplified by recent graph‑neural‑network work [8] (which targeted IIT 3.0
 without exact PyPhi ground truth) and scalable estimators such as M‑information
 [9].
 
+**(5) A neighbouring framework diverges from Φ.** Comparing Hoel's effective
+information and causal emergence to Φ on 180 n=3 systems (with the
+coarse-graining search done exactly), causal emergence is nearly orthogonal to Φ
+(ρ = 0.02), and the most integrated systems show no causal emergence at all —
+emergence rewards degeneracy (a coarse-graining recovers determinism) whereas Φ
+rewards irreducibility. Effective information, Φ's precursor, tracks Φ only
+*among already-integrated systems* (ρ = 0.77), not whether integration occurs.
+
 ## 4. Discussion
 
-The four results cohere into one statement: *no single cheap number is integrated
+The five results cohere into one statement: *no single cheap number is integrated
 information, but the information needed to recover it is distributed across
 several cheap signals, and the closer a measure's structure is to IIT's own
 whole‑minus‑parts move, the more of that information it carries.* For empirical
