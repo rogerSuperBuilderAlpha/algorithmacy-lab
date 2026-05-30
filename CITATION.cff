@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or its datasets, please cite it as below."
+title: "iit-experiments: validating integrated-information measures against exact IIT-4.0 Φ"
+# TODO: verify author name and add your ORCID before minting the DOI.
+authors:
+  - family-names: Hunt
+    given-names: Roger
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 0.1.0
+date-released: "2026-05-30"
+license: MIT
+repository-code: "https://github.com/rogerSuperBuilderAlpha/iit-experiments"
+url: "https://github.com/rogerSuperBuilderAlpha/iit-experiments"
+keywords:
+  - integrated information theory
+  - IIT
+  - PyPhi
+  - consciousness
+  - effective information
+  - causal emergence
+  - integrated information decomposition
+abstract: >-
+  A suite of small, reproducible computational experiments in Integrated
+  Information Theory, built on the IIT-4.0 implementation in PyPhi. On systems
+  small enough that exact Φ is computable, the experiments validate what tracks
+  integrated information: empirical proxies and theoretical candidate measures
+  against exact Φ, the relationship between scalar Φ and the full cause-effect
+  structure, a learned surrogate and its size-extrapolation, causal emergence
+  vs Φ, the data-style ΦID estimation gap, and a philosophical bestiary showing
+  that equal Φ can mean radically different minds.

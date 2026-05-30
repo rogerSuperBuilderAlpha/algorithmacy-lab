@@ -1,0 +1,41 @@
+{
+  "title": "iit-experiments: validating integrated-information measures against exact IIT-4.0 Φ",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Hunt, Roger",
+      "affiliation": ""
+    }
+  ],
+  "description": "<p>A suite of small, reproducible computational experiments in Integrated Information Theory, built on the IIT-4.0 implementation in <a href=\"https://github.com/wmayner/pyphi\">PyPhi</a>. On systems small enough that exact Φ is computable, the experiments ask, systematically, <em>what tracks integrated information</em>:</p><ul><li><strong>proxy_audit</strong> — empirical proxies (Lempel-Ziv complexity, correlation) do not track exact Φ;</li><li><strong>candidate_audit</strong> — theoretically-motivated candidate measures (whole-minus-sum Φ, stochastic interaction, causal density, …) track Φ only moderately;</li><li><strong>structure_suite</strong> — scalar Φ is nearly orthogonal to the cause-effect structure it summarizes;</li><li><strong>learned_surrogate</strong> — a model combining cheap features recovers Φ (detection AUC 0.90) and extrapolates to larger unseen systems for detection but not magnitude; includes a reusable exact-IIT-4.0 feature dataset;</li><li><strong>emergence_vs_phi</strong> — Hoel's causal emergence is nearly orthogonal to Φ;</li><li><strong>phiid_vs_phi</strong> — estimating Φ the data-style way (Integrated Information Decomposition via phyid) roughly halves how well it tracks exact Φ;</li><li><strong>consciousness_range</strong> — a philosophical companion: assuming IIT is true, systems with identical Φ can have cause-effect structures differing 500-fold, so a one-number 'level of consciousness' radically underdetermines the mind.</li></ul><p>Includes a synthesis, a preprint-style manuscript, and reusable exact-Φ datasets. See the repository README and SYNTHESIS.md.</p>",
+  "keywords": [
+    "integrated information theory",
+    "IIT",
+    "PyPhi",
+    "consciousness",
+    "Phi",
+    "effective information",
+    "causal emergence",
+    "integrated information decomposition",
+    "computational neuroscience",
+    "cause-effect structure"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wmayner/pyphi",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1371/journal.pcbi.1006343",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1371/journal.pcbi.1011465",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ]
+}
