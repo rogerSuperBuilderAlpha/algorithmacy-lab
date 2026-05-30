@@ -58,6 +58,22 @@ multi‑dimensional view. See [`structure_suite/FINDINGS.md`](structure_suite/FI
 
 ![phi-structure correlations](structure_suite/results/suite_corr.png)
 
+### [`learned_surrogate/`](learned_surrogate/) — Can cheap features *together* predict Φ?
+
+The constructive flip side of the two audits: no *single* cheap measure tracks
+Φ, so can a model that **combines** them? Also publishes a reusable
+**exact‑IIT‑4.0 feature dataset** (720 networks) — the 4.0 ground truth that
+surrogate work like [Hosaka et al. (2025)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335966)
+(IIT 3.0, no PyPhi) lacks.
+
+**Headline:** combining cheap features beats any single one. Out‑of‑fold, a
+random forest lifts Φ‑prediction from ρ = 0.32 (best single) to **0.54**, and
+**detection of Φ > 0 from AUC 0.69 to 0.90**. `Φ_WMS` carries most of the signal.
+Detecting *whether* a system is integrated is quite doable from cheap features;
+predicting *how much* remains only moderate. See [`learned_surrogate/FINDINGS.md`](learned_surrogate/FINDINGS.md).
+
+![learned surrogate](learned_surrogate/results/surrogate.png)
+
 ## Setup
 
 Requires Python ≥ 3.10 and PyPhi's IIT‑4.0 line.
