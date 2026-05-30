@@ -1,6 +1,6 @@
-# What does — and doesn't — track integrated information? Five experiments against exact IIT‑4.0 Φ
+# What does — and doesn't — track integrated information? Six experiments against exact IIT‑4.0 Φ
 
-*A synthesis of the five experiments in this repository.*
+*A synthesis of the six experiments in this repository.*
 
 ## Summary
 
@@ -11,7 +11,7 @@ compute on systems of any appreciable size. In practice researchers compute
 point out, these have rarely (if ever) been validated against the Φ they stand
 in for, because exact Φ was out of reach. On systems small enough to compute
 exact **IIT‑4.0** Φ with [PyPhi](https://github.com/wmayner/pyphi), we can do that
-validation. Five experiments give a connected answer:
+validation. Six experiments give a connected answer:
 
 1. **Empirical proxies don't track Φ.** Lempel‑Ziv complexity, correlation, and
    the like are uninformative or *anti*‑correlated.
@@ -25,13 +25,16 @@ validation. Five experiments give a connected answer:
    detection (though not magnitude) still holding up on larger unseen systems.
 5. **A neighbouring framework diverges too.** Hoel's causal emergence is nearly
    orthogonal to Φ; the most integrated systems show no emergence at all.
+6. **And it's worse on data than in principle.** Estimating the best measure the
+   realistic way — ΦID on a finite time series — roughly halves how well it
+   tracks Φ.
 
 The throughline: *no single cheap number is integrated information, but the
 information needed to recover it is distributed across several cheap signals —
 and the closer a measure's structure is to IIT's own "whole‑minus‑parts" move,
 the more of that information it carries.*
 
-## Setup common to all five
+## Setup common to all six
 
 - **Systems:** random binary networks, `n ∈ {3,4}` nodes, with noisy Boolean‑gate
   dynamics, swept across connectivity density and noise to span a wide range of Φ.
@@ -42,7 +45,7 @@ the more of that information it carries.*
   *between* experiments are qualitative; the comparisons that carry weight
   (best‑single‑measure vs. alternative, *within* an experiment) are like‑for‑like.
 
-## The five results
+## The six results
 
 ### 1 · Empirical proxies — [`proxy_audit/`](proxy_audit/)
 270 networks. The strongest association of any empirical proxy with Φ is total
@@ -92,6 +95,16 @@ systems show **no** emergence: emergence rewards degeneracy (a coarse‑graining
 recovers determinism), while Φ rewards irreducibility, so they pick out different
 systems. Effective information — Φ's precursor — does track Φ, but only *among
 already‑integrated systems* (ρ 0.77), not whether integration occurs.
+
+### 6 · ΦID-based Φ from data vs exact Φ — [`phiid_vs_phi/`](phiid_vs_phi/)
+The candidate audit computed measures exactly from the TPM; on real data they are
+estimated from finite time series via ΦID. Computing the revised Φ_R (with CCS
+redundancy — MMI assigns spurious synergy to independent variables) from
+trajectories via the `phyid` package, the tracking of exact Φ roughly halves: on
+the same networks, exact Φ_WMS gives ρ = 0.28 (AUC 0.67) while the data-style
+Φ_R gives ρ = 0.12 (AUC 0.56). Exact and estimated agree at ρ = 0.64 — the same
+quantity, degraded by finite-sample estimation and coarse-graining. A concrete
+caution for inferring integration from data-side ΦID.
 
 ## What this adds up to
 

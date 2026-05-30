@@ -4,7 +4,7 @@ Small, reproducible computational experiments in Integrated Information Theory,
 built on the [PyPhi](https://github.com/wmayner/pyphi) IIT‑4.0 implementation.
 
 **→ Start with [`SYNTHESIS.md`](SYNTHESIS.md)** for the connected story across all
-five experiments, or the short preprint‑style writeup in
+six experiments, or the short preprint‑style writeup in
 [`paper/manuscript.md`](paper/manuscript.md). In one line: *no single cheap number
 is integrated information, but the information needed to recover it is distributed
 across several cheap signals — and the closer a measure's structure is to IIT's
@@ -95,6 +95,25 @@ information does track Φ, but only *among already-integrated systems* (ρ = 0.7
 See [`emergence_vs_phi/FINDINGS.md`](emergence_vs_phi/FINDINGS.md).
 
 ![emergence vs phi](emergence_vs_phi/results/emergence_vs_phi.png)
+
+### [`phiid_vs_phi/`](phiid_vs_phi/) — Does ΦID-based Φ (estimated from data) track exact Φ?
+
+The candidate audit measured the whole-minus-sum family *exactly* from the TPM.
+But on real data, integrated information is *estimated* from a finite time series
+via Integrated Information Decomposition. This experiment computes the revised
+Φ_R (with **CCS** redundancy, since MMI assigns spurious synergy to independent
+variables) from simulated trajectories using the
+[`phyid`](https://github.com/Imperial-MIND-lab/integrated-info-decomp) package —
+bridging the two projects this repo contributes to (PyPhi + phyid).
+
+**Headline:** there's a large **estimation gap**. On the same networks, exact
+Φ_WMS tracks Φ at ρ = 0.28 (AUC 0.67); the data-style ΦID Φ_R **roughly halves
+that** (ρ = 0.12, AUC 0.56). Exact and estimated agree at ρ = 0.64 — it's the
+same quantity, degraded by finite-sample estimation and coarse-graining. The
+measure is validated on controls first (independent → 0, redundant → 0,
+integrated → high). See [`phiid_vs_phi/FINDINGS.md`](phiid_vs_phi/FINDINGS.md).
+
+![phiid vs phi](phiid_vs_phi/results/phiid_vs_phi.png)
 
 ## Setup
 

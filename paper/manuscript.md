@@ -35,7 +35,7 @@ proposes replacing the single number Φ with a multi‑dimensional suite.
 
 Validation is possible on systems small enough that exact Φ is computable. The
 IIT‑4.0 formalism is implemented in PyPhi [2,3], and 3–4 node networks are well
-within reach. We use this to run five connected validation experiments.
+within reach. We use this to run six connected validation experiments.
 
 ## 2. Methods
 
@@ -107,9 +107,20 @@ emergence rewards degeneracy (a coarse-graining recovers determinism) whereas Φ
 rewards irreducibility. Effective information, Φ's precursor, tracks Φ only
 *among already-integrated systems* (ρ = 0.77), not whether integration occurs.
 
+**(6) Estimating the best measure from data roughly halves its tracking.** On
+real data, integration is not computed exactly from a TPM but estimated from a
+finite time series via Integrated Information Decomposition (ΦID) [10]. Computing
+the revised Φ_R from simulated trajectories with the `phyid` package — using the
+CCS redundancy, since MMI assigns spurious synergy to independent variables — its
+tracking of exact Φ falls by about half relative to the exact whole-minus-sum on
+the same networks (ρ 0.28 → 0.12; AUC 0.67 → 0.56). Exact and estimated measures
+agree at ρ = 0.64, so this is an estimation gap (finite samples, coarse-graining),
+not a conceptual mismatch — a concrete caution for inferring integration from
+data-side ΦID.
+
 ## 4. Discussion
 
-The five results cohere into one statement: *no single cheap number is integrated
+The six results cohere into one statement: *no single cheap number is integrated
 information, but the information needed to recover it is distributed across
 several cheap signals, and the closer a measure's structure is to IIT's own
 whole‑minus‑parts move, the more of that information it carries.* For empirical
