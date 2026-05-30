@@ -24,6 +24,24 @@ integration. See [`proxy_audit/FINDINGS.md`](proxy_audit/FINDINGS.md).
 
 ![proxies vs phi](proxy_audit/results/proxy_vs_phi.png)
 
+### [`candidate_audit/`](candidate_audit/) — Do the published *candidate Φ measures* track exact IIT‑4.0 Φ?
+
+A companion to the proxy audit. Where that one tests *empirical* proxies, this
+tests the *theoretically motivated* candidate measures from the
+[Mediano–Seth–Barrett (2019)](https://www.mdpi.com/1099-4300/21/5/525) and
+Mediano–Rosas ΦID lineage (Φ whole‑minus‑sum, stochastic interaction, causal
+density, integrated synergy/co‑information, …) — comparing them, for the first
+time, against **exact IIT‑4.0 Φ** on the same 270 networks.
+
+**Headline:** the theoretical measures track Φ markedly better than the
+empirical proxies, but only moderately. **Φ whole‑minus‑sum** leads (ρ = 0.47,
+AUC 0.79) and improves with system size; integrated synergy is second. Measures
+of mere statistical dependence (total correlation, time‑delayed MI)
+*anti*‑correlate. The measures sharing IIT's "whole‑minus‑parts" structure are
+the ones that track it. See [`candidate_audit/FINDINGS.md`](candidate_audit/FINDINGS.md).
+
+![candidate measures vs phi](candidate_audit/results/candidate_vs_phi.png)
+
 ## Setup
 
 Requires Python ≥ 3.10 and PyPhi's IIT‑4.0 line.
