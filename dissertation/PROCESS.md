@@ -15,21 +15,35 @@ What differs is the *instrument* and the *ground truth*, which depend on the pap
 Full craft reference (with verified sources): `paper1_review/literature/integrative_review_methodology.md`.
 The genre standard, distilled:
 
+- **Align review purpose with review method** (Kunisch et al. 2023): a review is primary inquiry using prior
+  research as data to generate new knowledge — not a summary.
 - **An integrative review derives NEW insight through synthesis/critique — it is not a summary** (Cronin &
-  George 2023; Torraco 2005/2016). The contribution must be "beyond a review": a theoretical/construct
-  contribution (Post et al. 2020). A *theory-driven* review is both **integrative** (synthesize prior work)
-  and **generative** (produce the new construct/framework), aligning with prior work while diverging from it
-  (Breslin & Gatrell 2023). Payoff = a **new conceptual framework** (here: the algorithmacy construct).
+  George 2023; Torraco 2005/2016) — a "review with an attitude / a point of view" (Elsbach & van Knippenberg
+  2020; Fan et al. 2022), and the perspective is an *output* of the review, not an a priori input (Grønstad
+  2025). The contribution must be "beyond a review": a theoretical/construct contribution (Post et al. 2020).
+  A *theory-driven* review is both **integrative** (synthesize prior work) and **generative** (produce the
+  new construct/framework). Payoff = a **new conceptual framework** (here: the algorithmacy construct).
+- **Annals submission mechanics (target venue):** Annals reviews must take a **critical, provocative point of
+  view** ("challenge established concepts"); a perspective-less review is rejected, and Annals is *not* a
+  theory-development venue. Submission is a **5-page proposal**, not a full manuscript, with four mandated
+  headings — *Focus of the review · Related reviews · Review scope and process · New insights* (non-conforming
+  proposals rejected). **The dissertation chapter is the full review; the Annals submission is a 5-page
+  proposal derived from it to those four headings.**
 - **State the methodological warrant** (Torraco's case (b): an *emerging* topic needing a construct).
 - **Frame by problematization, not gap-spotting** (Alvesson & Sandberg 2011): the variance puzzle as the
   surface of a structural change; five-Cs intro (Lange & Pfarrer 2017).
 - **Instrument / ground truth = the literature.** "Validate before comparing" becomes the
   **charitable-extension test** — represent each foreclosed construct in its *strongest* form before showing
   it cannot reach the triad. A straw-manned foreclosure invalidates the contribution (the #1 failure mode).
-- **Auditability even though not systematic** (Snyder 2019; Sauer et al. 2023; Rousseau 2024): anchor the
-  corpus at the construct's level of analysis; construct-by-construct citation search (forward/backward
-  tracing, not keywords); explicit inclusion/exclusion criteria; a **comparison/synthesis table** of the
-  foreclosed constructs (× structural commitment × where each stops short).
+- **Auditability via "systematicity as an orientation"** (Simsek, Fox & Heavey 2023: transparency, coverage,
+  saturation, connectedness, universalism, coherence; Snyder 2019; Rousseau 2024) — integrative ≠
+  unsystematic. Anchor the corpus at the construct's level of analysis; construct-by-construct citation
+  search (forward/backward tracing, not keywords); explicit inclusion/exclusion criteria; a
+  **comparison/synthesis table** of the foreclosed constructs (× structural commitment × where each stops
+  short). This *is* the Annals "Review scope and process" disclosure.
+- **Dominant failure mode = over-descriptive without theoretical payoff** (Breslin & Bailey 2020): the most
+  valuable move is **crystallizing** the synthesis into the construct/framework — every section ends in a
+  synthesized claim, not a catalogue.
 - **Bridge across disciplines explicitly** (Cronin & George 2023): the contribution lives across fields no
   single one produced (communication / IS / org studies / literacy studies).
 - **Construct clarity** for the new construct (Suddaby 2010; Cronbach & Meehl 1955): definition, domain,
