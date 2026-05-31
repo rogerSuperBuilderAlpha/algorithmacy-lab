@@ -21,6 +21,15 @@ defensible, reproducible contribution — see [`RESEARCH_PLAYBOOK.md`](RESEARCH_
   Brain Hypothesis (Mago et al. 2026): on exactly‑computable systems, complexity (not
   entropy) indexes structure, and we identify which complexity measures realise the claim.
 
+## Application: the algorithmacy dissertation
+
+- [`dissertation/`](dissertation/) — the **application arc** of this repo's IIT work. A
+  three‑paper management dissertation (Roger Hunt, Bentley) that *uses* exact IIT‑4.0 Φ as
+  a measurement instrument: a coordination form is **triadic** when its application‑layer
+  cause‑effect structure is irreducible across the worker–system–counterpart partition,
+  **dyadic** when it factors. The earlier experiments validated Φ as ground truth; here it
+  becomes a tool. Currently scaffolded (outlines + per‑paper plans).
+
 ## Experiments
 
 ### [`proxy_audit/`](proxy_audit/) — Do cheap proxies track exact IIT‑4.0 Φ?

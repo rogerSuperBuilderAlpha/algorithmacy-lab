@@ -17,3 +17,7 @@ psi_vs_phi/results/run.log
 
 # extracted paper fulltext (OA arXiv source kept local, not committed)
 cbh_complexity/literature/cbh2026_fulltext.txt
+
+# Dissertation source PDFs (paywalled — kept local, DOIs in the bib) and media
+dissertation/sources/pdfs/
+*.m4a
