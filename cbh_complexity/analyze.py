@@ -45,6 +45,10 @@ def main():
     p(f"  => high-entropy disordered state has LOW complexity: high entropy does not imply complexity.")
     p(f"  (honest caveat) Cn is also high at low T ({Cn[0]:.2f}, ordered/redundant): TSE Cn resolves the")
     p(f"  conundrum at the high-entropy end but conflates order with complexity at the low-entropy end.")
+    Cfep = _col(A, "C_fep")
+    p(f"  FEP complexity term (mean-field posterior-prior KL): {Cfep[0]:.2f} (ordered) -> {Cfep[ipk]:.2f} "
+      f"(critical) -> {Cfep[-1]:.2f} (disordered); monotone-DECREASING in T, highest at order — it does NOT")
+    p(f"  match apparent complexity, and joins Cn/Phi in misfiring at the ordered end (see paper 5.3).")
 
     # Experiment B: grain sweep
     B = _load("cbh_complexity/results/ising_grain.csv")

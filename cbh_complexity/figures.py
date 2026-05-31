@@ -32,9 +32,11 @@ def main():
 
     # (a) exact Ising: entropy monotone, complexity peaks at Tc and collapses
     T, H, Cn = _col(A, "T"), _col(A, "H"), _col(A, "Cn")
+    Cfep = _col(A, "C_fep")
     a = ax[0, 0]
     a.plot(T, H / H.max(), "o-", color="#1f77b4", label="entropy H (norm.)")
     a.plot(T, Cn / Cn.max(), "s-", color="#d62728", label="TSE complexity Cₙ (norm.)")
+    a.plot(T, Cfep / Cfep.max(), "d--", color="#9467bd", label="FEP complexity (norm.)")
     a.axvline(2.27, ls=":", color="gray", lw=1); a.text(2.3, 0.05, "Tc", color="gray")
     a.set_xlabel("temperature T"); a.set_ylabel("normalised value")
     a.set_title("(a) exact 4×4 Ising: H monotone, Cₙ peaks at Tc then collapses")

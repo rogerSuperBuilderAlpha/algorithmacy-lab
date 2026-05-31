@@ -47,6 +47,12 @@ All three measures resolve the **high-entropy** end (disorder → low Cₙ, Φ=0
   XOR is integrative *by construction* — a mechanism property, independent of the stationary distribution.
   This is an artefact of the engineered rule; real ordered low-entropy brain states (sleep, anaesthesia)
   show *low* integration/PCI (Casali et al. 2013), consistent with apparent complexity.
+- **Free-energy complexity term** (posterior–prior KL, mean-field global-magnetization latent): computed
+  exactly on the Ising sweep, it is **highest at the ordered end (2.73 bits) and falls monotonically with
+  disorder (1.20)** — it does NOT peak at criticality and does NOT match apparent complexity; it joins Cₙ
+  and Φ in misfiring at the ordered limit. This refutes our earlier prediction and exposes a tension in the
+  CBH's own grounding: the KL-magnitude reading of complexity (large when data confidently pins the latent,
+  i.e. at order) diverges from the effective-degrees-of-freedom/grain reading.
 - **Apparent complexity under coarse-graining**: the only candidate reliably low at *both* extremes and
   high only for structured intermediates (the full Aaronson picture); shows the disordered-state collapse
   here (bootstrap-supported), but is the noisiest (sampled, finite-size). The construct the CBH's

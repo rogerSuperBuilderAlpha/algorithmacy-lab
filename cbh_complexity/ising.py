@@ -14,7 +14,8 @@ exactly, large enough to show the finite-size crossover near the 2D critical tem
 
 import numpy as np
 
-from .complexity import entropy_bits, apparent_complexity, tse_complexity, block_magnetizations
+from .complexity import (entropy_bits, apparent_complexity, tse_complexity, block_magnetizations,
+                         fep_complexity_meanfield)
 
 
 def _all_configs(L):
@@ -51,6 +52,7 @@ def sweep(L=4, temps=None, grains=(1, 2), compute_tse=True):
     N = L * L
     configs_pm, _ = _all_configs(L)
     energies = _energies(configs_pm, L)
+    kvals = ((configs_pm + 1) // 2).sum(axis=1)  # up-spin count per configuration
 
     # Precompute block magnetizations per grain once (configs are fixed).
     from .complexity import block_magnetizations
@@ -73,6 +75,10 @@ def sweep(L=4, temps=None, grains=(1, 2), compute_tse=True):
             row[f"AC_grain{b}"] = entropy_bits(hist)
         if compute_tse:
             row["Cn"] = tse_complexity(w, N, max_subsets=48)
+        # FEP complexity term (mean-field): Boltzmann distribution over up-spin count k, then E_k[KL].
+        Pk = np.zeros(N + 1)
+        np.add.at(Pk, kvals, w)
+        row["C_fep"] = fep_complexity_meanfield(Pk)
         rows.append(row)
     return rows
 

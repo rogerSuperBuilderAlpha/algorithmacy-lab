@@ -138,6 +138,37 @@ def apparent_complexity(configs, weights, L, block, n_bins=9):
 
 
 # --------------------------------------------------------------------------- #
+# Free-energy complexity term (posterior-prior KL) under a mean-field model
+# --------------------------------------------------------------------------- #
+
+def meanfield_kl_table(N, ngrid=400):
+    """KL(posterior(m | k up-spins) || prior(m)) in bits, for each k in 0..N, under a mean-field
+    generative model: given a global magnetization latent m, each of N spins is +1 with probability
+    (1+m)/2 independently; prior p(m) uniform on a grid of ``ngrid`` points in (-1,1). The likelihood
+    depends on the configuration only through k, so the posterior does too. With a uniform prior,
+    KL = log2(ngrid) - H(posterior). This is the free-energy 'complexity' term (degrees of freedom the
+    data forces into the latent) for the mean-field model."""
+    mgrid = np.linspace(-0.999, 0.999, ngrid)
+    out = np.empty(N + 1)
+    for k in range(N + 1):
+        ll = k * np.log((1 + mgrid) / 2) + (N - k) * np.log((1 - mgrid) / 2)
+        ll -= ll.max()
+        w = np.exp(ll)
+        post = w / w.sum()
+        out[k] = np.log2(ngrid) - entropy_bits(post)
+    return out
+
+
+def fep_complexity_meanfield(p_k, ngrid=400):
+    """Free-energy complexity term averaged over a distribution p_k over the up-spin count k
+    (length N+1): E_k[ KL(posterior(m|k) || prior(m)) ]. p_k is e.g. the Boltzmann distribution over k
+    at a given temperature."""
+    p_k = np.asarray(p_k, float)
+    N = len(p_k) - 1
+    return float((p_k * meanfield_kl_table(N, ngrid)).sum())
+
+
+# --------------------------------------------------------------------------- #
 # Validation controls
 # --------------------------------------------------------------------------- #
 
@@ -191,8 +222,14 @@ def _controls():
     print(f"apparent complexity (grain 2): ordered/uniform={ac_up:.3f} (expect ~0)  "
           f"two-domain={ac_struct:.3f} (expect > 0)")
 
+    # FEP complexity term (mean-field): KL(k) U-shaped in k, symmetric, max at the extremes.
+    kl = meanfield_kl_table(16)
+    print(f"FEP complexity KL(k): k=0 {kl[0]:.3f}, k=8 {kl[8]:.3f}, k=16 {kl[16]:.3f} "
+          f"(expect symmetric, extremes > middle, all >= 0)")
+
     ok = (abs(integration(indep, n)) < 1e-9 and abs(tse_complexity(indep, n)) < 1e-9
-          and tse_complexity(d, n) > 0 and ac_up < 1e-9 and ac_struct > ac_up)
+          and tse_complexity(d, n) > 0 and ac_up < 1e-9 and ac_struct > ac_up
+          and abs(kl[0] - kl[16]) < 1e-9 and kl[0] > kl[8] and kl.min() > -1e-9)
     print("-" * 50)
     print("ALL CONTROLS PASSED ✓" if ok else "CONTROLS FAILED ✗")
     return ok

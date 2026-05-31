@@ -21,16 +21,18 @@ arises in two regimes that complexity, but not entropy, separates. The CBH is a 
 provides no computable model. We supply one. On the systems the CBH itself invokes, the 2D Ising model
 across temperature and small dynamical networks where exact IIT-4.0 $\Phi$ is computable, we compute
 Shannon entropy $H$, Tononi–Sporns–Edelman neural complexity $C_N$, apparent complexity under
-coarse-graining, and exact $\Phi$. On the exact $4\times4$ Ising lattice $H$ rises monotonically with
+coarse-graining, the free-energy complexity term (a posterior–prior divergence under a mean-field model),
+and exact $\Phi$. On the exact $4\times4$ Ising lattice $H$ rises monotonically with
 temperature while $C_N$ peaks near the critical temperature ($C_N=8.26$ at $T\approx2.25$) and falls to
 $1.84$ at high temperature. On a parity ring driven from order to disorder by noise, $H$ rises
 monotonically, $C_N$ peaks at intermediate noise, and exact $\Phi$ falls. Two systems matched at
 $H=3.17$ bits are separated by complexity and integration ($C_N=0,\Phi=0$ versus $C_N=0.25,\Phi=0.39$).
 Apparent complexity collapses for the high-entropy disordered state under coarse-graining, with a
 non-overlapping bootstrap interval. Two qualifications follow from the exact numbers. First, the ordered,
-low-entropy limit is itself ambiguous: $C_N$ scores a redundant ordered ensemble high, and $\Phi$ scores
-an integrative deterministic rule high, so neither is low at both extremes, and for different,
-system-specific reasons. Only grain-dependent apparent complexity is reliably low at both extremes.
+low-entropy limit is itself ambiguous: $C_N$ scores a redundant ordered ensemble high, $\Phi$ scores an
+integrative deterministic rule high, and the free-energy complexity term is also highest at order, so none
+of the three is low at both extremes, and for different reasons. Only grain-dependent apparent complexity
+is reliably low at both extremes.
 Second, the rich high-entropy regime must sit below the maximal-entropy ceiling, where every system is
 uniform and complexity vanishes. The dissociation the CBH posits holds on exactly-computable systems, and
 its empirical analogue is already on record (Farnes et al. 2020, where signal diversity and perturbational
@@ -182,6 +184,9 @@ across wakefulness, sleep, sedation, and disorders of consciousness.
 These three candidates are properties of three different objects: the stationary distribution ($C_N$),
 the mechanism ($\Phi$), and the coarse-grained spatial representation (apparent complexity). Their
 disagreements at the ordered limit (§5.2) follow from this and are informative rather than contradictory.
+The CBH's second grounding of complexity, the free-energy term (the posterior–prior divergence under a
+generative model), is a property of a fourth object, the belief update; we define and instantiate it in
+§5.3, where its behaviour turns out to differ from all three.
 
 ### 2.3 Grain of inference and coarse-graining
 
@@ -326,7 +331,9 @@ do not coincide: complexity is maximal where the lattice has correlated domains 
 finite-size critical temperature, whereas entropy continues to rise monotonically past that point as the
 domains dissolve into uncorrelated noise. The crossing of the two normalised curves above $T_c$ (Figure 1a)
 is the high-entropy end of the conundrum in a single system: entropy still increasing, complexity already
-falling.
+falling. The free-energy complexity term, computed on the same sweep, behaves differently again: it is
+highest at the ordered end ($2.73$ bits at $T=0.5$) and falls monotonically to $1.20$ at $T=6.0$, neither
+monotone like entropy nor peaked like $C_N$. We defer its interpretation to §5.3.
 
 **Table 1.** Entropy, neural complexity, and integration for the key systems. Ising values are exact by
 enumeration; parity-ring and independent-bit values are exact by transition-matrix enumeration. Dashes
@@ -435,16 +442,51 @@ at both extremes, low for the uniform ordered field and low for the coarse-grain
 only for structured intermediates. This is the construct the CBH's coffee and Ising illustrations point to,
 and the instantiation identifies it as the right one by showing the others fail.
 
-### 5.3 The free-energy complexity term and the brain
+### 5.3 The free-energy complexity term
 
-The free-energy complexity term, the posterior–prior divergence, is not computed here, because it requires a
-specified generative model and prior that our dynamical systems do not carry. The natural extension posits a
-hierarchical generative model, treats the coarse-grained variables of §2.3 as higher-level latents, and
-computes the divergence between the posterior over those latents and a prior. The renormalization mapping of
-§2.3 predicts that this divergence tracks apparent complexity at the coarse grain, rising for structured
-intermediates and low for both the ordered and the disordered regimes, where a coarse model explains the
-data with few degrees of freedom. If so, the free-energy complexity term and grain-dependent apparent
-complexity coincide, unifying the CBH's two groundings on a computable system.
+The CBH's second grounding of complexity is the free-energy term, the Kullback–Leibler divergence between
+posterior and prior beliefs (Friston 2010). We instantiate it on the Ising system. The generative model is
+mean-field: a single latent, the global magnetization $m$, generates each spin independently as $+1$ with
+probability $(1+m)/2$, under a uniform prior over $m$. Observing a configuration yields a posterior over
+$m$, and the complexity term is the posterior–prior divergence $D_{\mathrm{KL}}(p(m\mid s)\,\|\,p(m))$,
+averaged over the equilibrium configurations at each temperature. The likelihood depends on a configuration
+only through its number of up-spins, so the term is computed exactly by enumeration.
+
+We had expected this divergence to track apparent complexity, peaking at intermediate structure and low at
+both extremes. The computation refutes that expectation. The free-energy complexity term is highest in the
+ordered state ($2.73$ bits at $T=0.5$) and falls monotonically with disorder, to $2.18$ at the critical
+temperature and $1.20$ at $T=6.0$ (Figure 1a). It does not peak at criticality and does not match apparent
+complexity; it joins $C_N$ and $\Phi$ in being high at the ordered, low-entropy end. The reason is
+instructive. In the ordered state the configurations pin the latent confidently to $m\approx\pm1$, so the
+posterior moves far from the uniform prior and the divergence is large; in the disordered state the
+configurations are consistent with $m\approx0$ and the posterior moves less. A large posterior–prior
+divergence marks a model whose single parameter is strongly constrained by the data, which happens at the
+ordered extreme, not at the structured intermediate.
+
+This exposes a tension in the CBH's own grounding. The free-energy term reads complexity as the magnitude
+of the posterior–prior divergence, the degrees of freedom the data forces into the latent. The grain story
+reads complexity as the effective dimension of the model, many latents for a fine grain, few for a coarse
+grain. These are different quantities and they disagree: the mean-field model is coarse, with a single
+latent, yet its posterior–prior divergence is largest at the ordered end, where the grain reading would
+call it simple. So instantiating the free-energy term does not unify the CBH's two groundings; it separates
+them, and it adds a fourth measure to the list that misfires at the ordered limit. Only grain-dependent
+apparent complexity, which reads complexity off the coarse-grained representation rather than off a belief
+update, is low at both extremes (§5.2). A free-energy term that matched apparent complexity would need to
+score model dimension across grains rather than the divergence at a fixed grain, which is a model-selection
+quantity (a Bayesian Occam penalty) rather than the single-model complexity term computed here, and remains
+to be built.
+
+### 5.4 Integrated information and the brain
+
+The Perturbational Complexity Index is the empirical relative of exact $\Phi$, and the relation clarifies
+what the exact computation adds. PCI perturbs cortex with TMS, which probes the system's causal
+responsiveness, and compresses the spatiotemporal response with Lempel–Ziv, which scores its
+differentiation; the product is a complexity of causal interactions, not a raw entropy (Casali et al. 2013;
+Casarotto et al. 2016). It is, in effect, a tractable approximation of the integration-plus-differentiation
+quantity that $\Phi$ defines exactly but that cannot be computed at brain scale. On our small systems no
+approximation is needed: exact $\Phi$ is the quantity PCI estimates, computed where it is computable, which
+is why the parity-ring $\Phi$ behaves as PCI does empirically, high for integrated dynamics and falling
+toward disorder.
 
 The Perturbational Complexity Index is the empirical relative of exact $\Phi$, and the relation clarifies
 what the exact computation adds. PCI perturbs cortex with TMS, which probes the system's causal
@@ -481,7 +523,7 @@ complexity curve that did not separate the conditions, or separated them in the 
 count against the grain account on real data. The handle the prediction offers experimenters is the analysis
 grain, not only the measure.
 
-### 5.4 Submaximal entropy
+### 5.5 Submaximal entropy
 
 A point the verbal account leaves implicit becomes unavoidable once the claim is computable. The high
 entropy with high complexity that the CBH attributes to fine-grained psychedelic states cannot occur at the
@@ -496,7 +538,7 @@ structure and richness declines, even as the EBH's entropy marker keeps climbing
 while entropy still rose would separate the CBH from a monotone entropic account, and the matched-entropy
 and high-noise endpoints of our systems are the exactly-computable form of that turning point.
 
-### 5.5 Measuring complexity in practice
+### 5.6 Measuring complexity in practice
 
 The lesson generalises beyond the CBH. A programme that uses complexity as a correlate of consciousness must
 specify which complexity, because the candidates diverge where it matters, and the divergences are
@@ -509,7 +551,7 @@ of noise, retaining only multi-scale structure. If richness is multi-scale organ
 measurement should be made at and across scales, which favours scale-resolved or renormalization-style
 estimators over single-scale ones.
 
-### 5.6 Scope
+### 5.7 Scope
 
 We have tested the information-theoretic content of the CBH, that entropy and complexity dissociate, that
 the dissociation is grain-dependent, and that complexity is the better index of structure. We have not

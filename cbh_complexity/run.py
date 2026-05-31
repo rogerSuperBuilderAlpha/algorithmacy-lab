@@ -31,7 +31,7 @@ def exp_A_ising_exact():
     rows = ising.sweep(L=4, grains=(1, 2), compute_tse=True)
     path = f"{RES}/ising_exact.csv"
     with open(path, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["T", "H", "h_per_spin", "AC_grain1", "AC_grain2", "Cn"])
+        w = csv.DictWriter(f, fieldnames=["T", "H", "h_per_spin", "AC_grain1", "AC_grain2", "Cn", "C_fep"])
         w.writeheader(); w.writerows(rows)
     print(f"Wrote {path} ({len(rows)} temperatures)")
 

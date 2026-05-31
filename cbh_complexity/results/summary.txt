@@ -4,6 +4,8 @@ EXPERIMENT A — exact 4x4 Ising (the authors' own example)
   => high-entropy disordered state has LOW complexity: high entropy does not imply complexity.
   (honest caveat) Cn is also high at low T (7.50, ordered/redundant): TSE Cn resolves the
   conundrum at the high-entropy end but conflates order with complexity at the low-entropy end.
+  FEP complexity term (mean-field posterior-prior KL): 2.73 (ordered) -> 2.18 (critical) -> 1.20 (disordered); monotone-DECREASING in T, highest at order — it does NOT
+  match apparent complexity, and joins Cn/Phi in misfiring at the ordered end (see paper 5.3).
 
 EXPERIMENT B — Metropolis L=16 apparent-complexity grain sweep (claim C2), bootstrap 95% CIs
   T=1.00: g1=0.98[0.98,0.99]  g2=1.76[1.75,1.77]  g4=2.77[2.76,2.79]  g8=2.53[2.49,2.57]
