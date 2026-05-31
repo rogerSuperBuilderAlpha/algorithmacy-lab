@@ -1,728 +1,639 @@
-# Complexity, not entropy, indexes structure: a computational instantiation of the Complex Brain Hypothesis on exactly-computable systems
+# Entropy, complexity, and integrated information on exactly-computable systems: a test of the Complex Brain Hypothesis
 
 **Roger Hunt**
 
 *Preprint draft, May 2026. Code, data, and figures:
 https://github.com/rogerSuperBuilderAlpha/iit-experiments (`cbh_complexity/`).
 Citations are author–year and resolve to `literature/references.bib`. This is a constructive response to
-Mago et al. (2026), supplying the computational instantiation that paper calls for.*
+Mago et al. (2026).*
 
 ---
 
 ## Abstract
 
 The Entropic Brain Hypothesis holds that the entropy of spontaneous brain activity indexes the richness
-of conscious experience. Minimal Phenomenal Experiences (MPEs), phenomenologically sparse states such as
-deep meditation, pose a problem, because they show elevated entropy despite low content, the same
-signature as high-content psychedelic experiences (HCPEs). Mago et al. (2026) name this the
+of conscious experience (Carhart-Harris et al. 2014). Minimal Phenomenal Experiences such as deep
+meditation are phenomenologically sparse yet show elevated entropy, the same signature as high-content
+psychedelic states; entropy alone therefore cannot index richness. Mago et al. (2026) call this the
 entropy–content conundrum and propose the Complex Brain Hypothesis (CBH): richness is indexed by
-complexity rather than entropy, where complexity is shaped by the grain of inference, so that high
-entropy can arise in two distinct regimes that complexity, but not entropy, separates. The CBH is
-conceptual; it provides no computable measure or worked model, and it explicitly asks for one. We supply
-it. On the authors' own example systems, the 2D Ising model across temperature and a small dynamical
-system where exact IIT-4.0 $\Phi$ is computable, we implement Shannon entropy $H$, Tononi–Sporns–Edelman
-neural complexity $C_N$, apparent complexity under coarse-graining, and exact $\Phi$, and test whether
-the CBH's claims hold with exact numbers. The central dissociation holds and is sharpened. On the exact
-$4\times4$ Ising lattice, $H$ is monotone in temperature while $C_N$ peaks near the critical temperature
-($C_N=8.26$ at $T\approx2.25$) and collapses to $1.84$ at high temperature: the highest-entropy state has
-low complexity. On a parity-ring dynamical system swept from order to disorder, $H$ rises monotonically
-while $C_N$ peaks at intermediate disorder and exact $\Phi$ falls. Two systems matched at $H=3.17$ bits
-are cleanly separated by complexity and integration ($C_N=0,\Phi=0$ versus $C_N=0.25,\Phi=0.39$); this
-matched-entropy dissociation, not the generic rise-and-fall, is the result that instantiates the CBH's
-distinctive claim. Apparent complexity collapses for the high-entropy disordered state under
-coarse-graining, with a non-overlapping bootstrap confidence interval ($1.81$ versus $2.10$ and $2.53$).
-The sharpening is a low-entropy conundrum that mirrors the high-entropy one: neither $C_N$ nor exact
-$\Phi$ is low at the ordered limit, but for different and system-specific reasons ($C_N$ scores a
-redundant ordered ensemble high; $\Phi$ scores an integrative deterministic rule high), so neither alone
-is a complete richness index. Only grain-dependent apparent complexity is reliably low at both extremes,
-which is exactly the construct the CBH's coffee and Ising illustrations point to. The CBH not only
-survives an exact instantiation; the instantiation identifies the right measure more precisely than the
-verbal hypothesis could.
+complexity rather than entropy, with complexity shaped by the grain of inference, so that high entropy
+arises in two regimes that complexity, but not entropy, separates. The CBH is a conceptual proposal and
+provides no computable model. We supply one. On the systems the CBH itself invokes, the 2D Ising model
+across temperature and small dynamical networks where exact IIT-4.0 $\Phi$ is computable, we compute
+Shannon entropy $H$, Tononi–Sporns–Edelman neural complexity $C_N$, apparent complexity under
+coarse-graining, and exact $\Phi$. On the exact $4\times4$ Ising lattice $H$ rises monotonically with
+temperature while $C_N$ peaks near the critical temperature ($C_N=8.26$ at $T\approx2.25$) and falls to
+$1.84$ at high temperature. On a parity ring driven from order to disorder by noise, $H$ rises
+monotonically, $C_N$ peaks at intermediate noise, and exact $\Phi$ falls. Two systems matched at
+$H=3.17$ bits are separated by complexity and integration ($C_N=0,\Phi=0$ versus $C_N=0.25,\Phi=0.39$).
+Apparent complexity collapses for the high-entropy disordered state under coarse-graining, with a
+non-overlapping bootstrap interval. Two qualifications follow from the exact numbers. First, the ordered,
+low-entropy limit is itself ambiguous: $C_N$ scores a redundant ordered ensemble high, and $\Phi$ scores
+an integrative deterministic rule high, so neither is low at both extremes, and for different,
+system-specific reasons. Only grain-dependent apparent complexity is reliably low at both extremes.
+Second, the rich high-entropy regime must sit below the maximal-entropy ceiling, where every system is
+uniform and complexity vanishes. The dissociation the CBH posits holds on exactly-computable systems, and
+its empirical analogue is already on record (Farnes et al. 2020, where signal diversity and perturbational
+complexity dissociate under ketamine). The contribution is the exact demonstration and the identification
+of which complexity measure realises the claim.
 
 ---
 
 ## 1. Introduction
 
-The Entropic Brain Hypothesis (EBH; Carhart-Harris et al. 2014) proposes that the entropy of spontaneous
-brain activity is a marker of the richness of conscious experience: more entropy, more phenomenal
-content. The proposal is motivated by the elevated signal diversity of high-content psychedelic
-experiences (HCPEs), and it has been influential precisely because it offers a single, measurable
-scalar, entropy, as a correlate of how much experience is present.
+The Entropic Brain Hypothesis (EBH; Carhart-Harris et al. 2014, 2018) proposes that the entropy of
+spontaneous brain activity scales with the richness of conscious experience, within bounds beyond which
+consciousness is lost. The proposal is supported by a body of neuroimaging evidence: spontaneous MEG
+signal diversity is reliably higher under psilocybin, ketamine, and LSD than in waking rest, even after
+controlling for spectral power (Schartner et al. 2017), and the brain explores a wider repertoire of
+dynamical states under psilocybin (Tagliazucchi et al. 2014). In the EBH the entropy of psychedelic
+"primary states" is read as elevated phenomenal richness (Carhart-Harris & Friston 2019, via Carhart-Harris
+2018).
 
-Minimal Phenomenal Experiences (MPEs) complicate this picture. MPEs are wakeful but phenomenologically
-sparse states, such as deep meditative absorption (jhāna) and certain 5-MeO-DMT states, in which
-content is low or absent while wakefulness is preserved. Recent neuroimaging suggests that MPEs also
-show *elevated* entropy, despite being content-poor. Entropy is therefore high for both rich (HCPE) and
-contentless (MPE) states, and so cannot, on its own, index richness. Mago et al. (2026) call this the
-entropy–content conundrum and make it the motivating puzzle for a refinement of the EBH.
+Minimal Phenomenal Experiences (MPEs) complicate the picture. MPEs are wakeful but phenomenologically
+sparse states, including deep meditative absorption (jhāna) and certain 5-MeO-DMT states, in which
+content is low or absent. Neuroimaging indicates that MPEs also show elevated entropy. Entropy is then
+high for both rich (psychedelic) and contentless (meditative) states, and so cannot by itself index
+richness. Mago et al. (2026) call this the entropy–content conundrum and make it the motivation for a
+refinement of the EBH.
 
-Their refinement, the Complex Brain Hypothesis (CBH), is that richness is better indexed by *complexity*
-than by entropy. Complexity, in their account, is the organised, structured part of a representation,
-with randomness filtered out, and it depends on the *grain of inference*, the scale or coarseness of the
-brain's generative model. High entropy can then arise in two regimes that complexity separates: a
-fine-grained, overfitting regime (some HCPEs), in which loosened top-down constraints amplify
-fluctuations into proliferating content, and a coarse-grained, underfitting regime (some MPEs), in which
-a simpler, lower-dimensional model dissolves variety into contentless awareness. The authors ground
-complexity in two ways. First, the free-energy "complexity" term: under the free energy principle
-(Friston 2010), variational free energy $F$ decomposes as $F = \underbrace{D_{\mathrm{KL}}(q\,\|\,p)}_{\text{complexity}} -
-\underbrace{\mathbb{E}_q[\log p(\text{data}\mid\cdot)]}_{\text{accuracy}}$, so minimising free energy
-trades off fitting the data (accuracy) against moving beliefs far from the prior (complexity). Here
-complexity is the Kullback–Leibler divergence $D_{\mathrm{KL}}(q\,\|\,p)$ between the posterior beliefs
-$q$ a system holds after inference and its prior beliefs $p$. It measures how far inference has moved
-beliefs from baseline, the degrees of freedom recruited to explain sensory data; a model that explains
-much with little belief-movement is low-complexity, one that recruits many fine-grained parameters is
-high-complexity. This is the same "structured content versus raw diversity" intuition as the neural and
-apparent complexities below, expressed in the currency of belief-updating. Second, "apparent complexity" in the sense of
-Aaronson, Carroll & Ouellette (2014)[^aaronson] and Gell-Mann & Lloyd's (1996) effective complexity: the
-algorithmic complexity of a *coarse-grained* representation, illustrated by a coffee–cream mixing
-process and by the Ising model across temperature.
+Their refinement, the Complex Brain Hypothesis (CBH), is that richness is better indexed by complexity
+than by entropy. Complexity in their account is the organised, structured part of a representation, with
+randomness removed, and it depends on the grain of inference, the scale of the brain's generative model.
+High entropy then arises in two regimes that complexity separates. In a fine-grained, overfitting regime
+(some psychedelic states), loosened top-down constraints amplify fluctuations into proliferating content.
+In a coarse-grained, underfitting regime (some MPEs), a simpler, lower-dimensional model dissolves
+variety into contentless awareness. The CBH grounds complexity two ways. The first is the free-energy
+complexity term: under the free energy principle (Friston 2010), variational free energy decomposes into
+accuracy minus complexity, where complexity is the Kullback–Leibler divergence between posterior and prior
+beliefs. The second is apparent complexity in the sense of Aaronson, Carroll & Ouellette (2014)[^aaronson]
+and Gell-Mann & Lloyd (1996), the algorithmic complexity of a coarse-grained representation, illustrated
+by a coffee–cream mixing process and by the Ising model across temperature.
 
-[^aaronson]: We use only the conceptual definition of apparent complexity from Aaronson et al. (2014),
-the Kolmogorov complexity of a coarse-grained approximation. A correction was later issued to the
-numerical complexity-curve section of that preprint; it does not bear on the conceptual construct we
-adopt.
+[^aaronson]: We use only the conceptual definition of apparent complexity from Aaronson et al. (2014), the
+Kolmogorov complexity of a coarse-grained approximation. A correction was later issued to the numerical
+complexity-curve section of that preprint; it does not bear on the conceptual construct we adopt.
 
-The CBH is a conceptual paper. It offers no computable complexity measure, no discrete-system model, and
-no worked demonstration. It states explicitly that "measures sensitive to model architecture … such as
-approximations of Kolmogorov Complexity, causal large-scale models … will be necessary to disambiguate
-high-entropy states that differ in complexity," and that "any adequate computational theory of
-consciousness must be able to account for how similarly high-entropy neural dynamics can support both
-densely structured HCPEs and minimally structured, 'contentless' awareness." This is an invitation.
+The CBH offers no computable complexity measure, no discrete-system model, and no worked demonstration.
+It states that "measures sensitive to model architecture … such as approximations of Kolmogorov
+Complexity, causal large-scale models … will be necessary to disambiguate high-entropy states that differ
+in complexity," and that "any adequate computational theory of consciousness must be able to account for
+how similarly high-entropy neural dynamics can support both densely structured HCPEs and minimally
+structured, 'contentless' awareness." This paper provides such an account. We compute, on the systems the
+CBH itself invokes and on systems where IIT-4.0 $\Phi$ is exact, the entropy, the candidate complexity
+measures, and exact $\Phi$ side by side, and report whether the dissociation the CBH posits holds.
 
-We accept it. We hold tools the CBH does not deploy: implementations of entropy and of established
-complexity measures, an exact block coarse-graining apparatus, and an exact IIT-4.0 $\Phi$ oracle that
-runs on small systems (reused from a companion project, `proxy_audit`). On the authors' own example
-systems, the Ising model and a small dynamical system where $\Phi$ is exactly computable, we instantiate
-the CBH's quantities and test, with exact numbers, whether its claims hold. This is a *constructive*
-engagement rather than an audit: we build the model the hypothesis requires and report whether it
-behaves as claimed, including the measures and regimes where it does not. We find that it does, and that
-the instantiation does more than confirm the hypothesis: it identifies which complexity measure realises
-the CBH picture, and it surfaces a symmetric low-entropy conundrum that the verbal account leaves
-implicit.
-
-We are not the first to pursue the CBH computationally. A companion effort, Vohryzek et al. (2025),
-fits whole-brain dynamical models to jhāna-meditation data and studies their approach to criticality.
-That work and ours are complementary and answer different questions. Whole-brain models test whether a
-biophysically-fitted system reproduces the empirical signatures of an MPE; they cannot compute exact
-$\Phi$, exact neural complexity, or exact entropy, because those quantities are intractable at brain
-scale, so they cannot directly exhibit the entropy-versus-complexity dissociation that is the CBH's core
-logical claim. Our systems are tiny and biologically unrealistic precisely so that every quantity is
-exact, which is what lets us show the dissociation as an identity rather than an approximation. The two
-approaches meet in the middle: the whole-brain models supply ecological validity, the exact systems
-supply the proof of principle.
+A companion computational effort exists. Vohryzek et al. (2025) fit whole-brain dynamical models to
+jhāna-meditation data and study their approach to criticality. That work and the present one answer
+different questions and are complementary. Whole-brain models test whether a biophysically fitted system
+reproduces the empirical signatures of an MPE, but they cannot compute exact $\Phi$, exact neural
+complexity, or exact entropy, because those quantities are intractable at brain scale. Our systems are
+small and biologically unrealistic so that every quantity is exact, which is what allows the
+entropy–complexity dissociation to be exhibited as an identity rather than estimated. The whole-brain
+models supply ecological validity; the exact systems supply a proof of principle.
 
 ## 2. Background
 
-### 2.1 Entropy, and why it cannot be the whole story
+### 2.1 Entropy and signal diversity
 
 Entropy here is the Shannon entropy of the distribution over a system's states,
-$H(X) = -\sum_x p(x)\log_2 p(x)$, the formal counterpart of the EBH's "signal diversity." It is maximal,
-$H = \log_2 |\mathcal{X}|$, for a uniform distribution and zero for a system locked in one state. A
-clarification for readers coming from the empirical literature: the EBH's "entropy" is estimated in many
-ways, by Lempel–Ziv complexity of binarised time series, by sample or spectral entropy, by the diversity
-of microstates, and these estimators do not always agree. What they share, and what our exact $H$
-captures in idealised form, is that they all measure *diversity*, how spread the system's activity is over
-its possible states, without reference to how that activity is organised. The empirical basis for the EBH
-is real: spontaneous MEG signal diversity is reliably higher under psilocybin, ketamine, and LSD than in
-waking rest, even controlling for spectral power (Schartner et al. 2017), and the brain explores a wider
-repertoire of dynamical states under psilocybin (Tagliazucchi et al. 2014); these results motivate the
-reading of entropy as elevated richness (Carhart-Harris 2018) that the CBH then complicates. The conundrum is a statement
-about any such diversity measure: two systems can share high $H$ yet differ in the structure of what that
-entropy is distributed over. Entropy counts the diversity of states; it does not register how those
-states are organised. A maximally random system and a richly structured system can both have high
-entropy, and at the maximal-entropy limit every system is uniform, hence factorises into independent
-parts, so any measure of organised structure must vanish there by construction. This last point will
-recur: it forces the CBH's "high entropy with high complexity" regime to live at high-but-submaximal
-entropy.
+$H(X) = -\sum_x p(x)\log_2 p(x)$, the formal counterpart of the EBH's signal diversity. It is maximal,
+$H=\log_2|\mathcal{X}|$, for a uniform distribution and zero for a system locked in one state. In the
+empirical literature, signal diversity is estimated several ways: Lempel–Ziv complexity of a binarised time
+series (the compressibility of the activity pattern), amplitude coalition entropy and synchrony coalition
+entropy (the variability of which channels are co-active or co-synchronised), spectral entropy, and the
+diversity of EEG microstates. Under psychedelics these measures rise together (Schartner et al. 2017), and
+under anaesthesia and NREM sleep they fall together (Schartner et al. 2015, 2017), so as indices of
+conscious level they largely agree even though they are computed differently. What they share, and what our exact $H$ captures in idealised
+form, is that they measure diversity, the spread of activity over possible states, with no reference to
+how that activity is organised. Two systems can share high $H$ and differ entirely in the structure of
+what the entropy is distributed over.
 
 ### 2.2 Complexity measures
 
-We use three computable complexity constructs, chosen to match the CBH's own references, and define each
-fully because the paper's conclusions turn on their differences.
+We use three computable complexity constructs, matched to the CBH's references, and define each fully
+because the results depend on their differences.
 
-**Tononi–Sporns–Edelman neural complexity.** $C_N$ (Tononi, Sporns & Edelman 1994; the construct the CBH
-cites as neural complexity) combines *integration*, the degree to which the whole is more than the sum of
-its parts, with *differentiation*, the degree to which the parts are not all doing the same thing. Let
-the system have $N$ units with joint distribution $p(X)$, and let the total correlation (multi-information)
-be
-
-$$I(X) = \sum_{i=1}^{N} H(x_i) - H(X),$$
-
-which is zero exactly when the units are independent and grows with statistical dependence. The TSE
-complexity is the integration-based form
+Tononi–Sporns–Edelman neural complexity, $C_N$ (Tononi, Sporns & Edelman 1994), combines integration, the
+degree to which the whole exceeds the sum of its parts, with differentiation, the degree to which the
+parts are not all doing the same thing. With total correlation
+$I(X) = \sum_{i=1}^{N} H(x_i) - H(X)$, which is zero exactly when the units are independent, the complexity
+is
 
 $$C_N = \sum_{k=1}^{N} \left[ \frac{k}{N}\,I(X) - \langle I(X_k) \rangle \right],$$
 
-where $\langle I(X_k)\rangle$ is the average total correlation over all subsets of $k$ units. The term in
-brackets compares the actual integration carried by size-$k$ subsets against the linear interpolation
-$\tfrac{k}{N}I(X)$; $C_N$ is large when intermediate subsets carry more (or less) integration than a
-linear scaling predicts, which is the signature of a system with structure at multiple scales.
+where $\langle I(X_k)\rangle$ is the average total correlation over subsets of $k$ units, so the bracket
+compares the integration carried by size-$k$ subsets against a linear scaling. Tononi et al. (1994) show
+$C_N$ is high only when functional segregation and integration coexist, and low when units are either
+fully independent or fully dependent. Three exact cases (computed for $N=6$) anchor this and serve as our
+validation controls. Six independent fair bits give $C_N=0$. Three perfectly-correlated pairs, the pairs
+mutually independent, give $C_N=3.5$. Six fully-redundant bits give $C_N=2.5$. The redundant case has a
+closed form. If all $N$ spins are aligned, the distribution is supported on the all-up and all-down states
+with equal weight, so $I(X)=N-1$, every size-$k$ subset is a redundant two-state ensemble with
+$\langle I(X_k)\rangle = k-1$, and
 
-Three worked cases, which we use as validation controls, fix the intuition (computed exactly for
-$N=6$). For six *independent* fair bits, $I(X)=0$ and every subset integration is zero, so $C_N = 0$.
-For a *structured* system of three perfectly-correlated pairs (bits 1–2, 3–4, 5–6 each identical, the
-pairs independent of one another), $C_N = 3.5$, larger than either extreme. For six *fully-redundant*
-bits (all identical), $C_N = 2.5$. The redundant case has a closed form worth stating, because it drives
-a key qualification later. If all $N$ spins are aligned, the distribution is supported on the two states
-all-up and all-down with equal weight, so $I(X) = N\cdot 1 - 1 = N-1$, and every size-$k$ subset is
-likewise a redundant two-state ensemble with $\langle I(X_k)\rangle = k-1$. Then
+$$C_N = \sum_{k=1}^{N}\left[\tfrac{k}{N}(N-1) - (k-1)\right] = \sum_{k=1}^{N}\left(1 - \tfrac{k}{N}\right) = \frac{N-1}{2}.$$
 
-$$C_N = \sum_{k=1}^{N}\left[\frac{k}{N}(N-1) - (k-1)\right] = \sum_{k=1}^{N}\left(1 - \frac{k}{N}\right) = N - \frac{N+1}{2} = \frac{N-1}{2}.$$
+For $N=16$ this is $7.5$. The fully-dependent extreme is therefore below the intermediate peak but not near
+zero, which qualifies the textbook statement that $C_N$ is low at both extremes and matters for the
+ordered-limit results below. The three-pairs case scores highest of the three because it is the only one
+with structure at an intermediate scale: each pair is internally integrated (deviation from independence at
+size two), while pairs are mutually independent (no excess integration at larger sizes), so the size-$k$
+integration grows faster than linearly at small $k$ and the bracketed terms accumulate. Independent units
+have no integration at any scale and fully-redundant units have the same redundancy at every scale; only the
+intermediate case has the scale-dependent structure $C_N$ rewards. This is the segregation-with-integration
+the measure was designed to capture, and it is why $C_N$ peaks for the Ising lattice near its critical
+temperature rather than at either thermal extreme.
 
-For $N=16$ this is $7.5$, matching the value we measure for the ordered Ising lattice below. The lesson:
-$C_N$ is *not* low for an ordered, fully-redundant ensemble. It is high there, because such a system is
-maximally integrated, every unit predicting every other. $C_N$ vanishes only for independent units, not
-for all "simple" systems.
+Apparent complexity in the strict sense (Aaronson et al. 2014; Gell-Mann & Lloyd 1996) is the Kolmogorov
+complexity of a coarse-grained representation, which is uncomputable. We use a computable surrogate. For a
+spin configuration on an $L\times L$ lattice, coarse-grain at block size $b$ by taking each $b\times b$
+block's mean magnetization $M_b\in[-1,1]$, giving $(L/b)^2$ values per configuration; pooled over an
+ensemble these yield an empirical distribution $P(M_b)$, and apparent complexity at grain $b$ is its
+Shannon entropy, $H_{\mathrm{app}}(b) = -\sum_{M_b} P(M_b)\log_2 P(M_b)$. This is the entropy of the
+coarse-grained representation, which behaves differently from the entropy of the microstate. A uniform
+ordered field has every block at $\pm 1$, so $P(M_b)$ is concentrated and $H_{\mathrm{app}}$ is low. A
+microscopically random field has block means that concentrate near zero as $b$ grows, by the central limit
+theorem (the variance of a block mean of independent spins falls as $1/b^2$), so $H_{\mathrm{app}}$ is again
+low at coarse grain. A domain-structured field, with correlated regions of all sizes, gives block means
+spanning $[-1,1]$ and high $H_{\mathrm{app}}$. Apparent complexity is thus low for both the ordered and the
+random extremes and high for structured intermediates, the rise-and-fall the CBH's coffee and Ising
+illustrations describe.
 
-**Apparent complexity under coarse-graining.** Strict apparent complexity (Aaronson et al. 2014;
-Gell-Mann & Lloyd 1996) is the Kolmogorov complexity of a coarse-grained representation, which is
-uncomputable. We use a principled computable surrogate. For a spin configuration on an $L\times L$
-lattice, coarse-grain at block size $b$ by computing each $b\times b$ block's mean (block magnetization)
-$M_b \in [-1,1]$, giving $(L/b)^2$ coarse values per configuration. Pooling these over an ensemble of
-configurations gives an empirical distribution $P(M_b)$, and apparent complexity at grain $b$ is its
-Shannon entropy,
+Exact IIT-4.0 $\Phi$ (Oizumi et al. 2014; Albantakis et al. 2023) is the integrated information a system
+specifies for itself. IIT begins from a system's transition probability matrix (TPM), the mechanism giving
+the probability of each next state from each current state. From the TPM, IIT builds for each subset of
+units, in a given state, a cause repertoire and an effect repertoire, the distributions over states that
+could have produced and that will be produced by the current state. A subset contributes only if these
+repertoires are irreducible, that is, cannot be reconstructed from those of its parts under the partition
+that destroys least information (the minimum information partition); the degree of irreducibility is the
+integrated information, and at the system level $\Phi$ is the irreducibility of the whole across its
+minimum information partition. A further operation, exclusion, selects the substrate of maximal integrated
+information. Two features matter here. $\Phi$ is a property of the mechanism, not of the stationary
+distribution, so a deterministic system that visits one state can still have high $\Phi$. And $\Phi$ is
+expensive, its cost growing super-exponentially in the number of units, so exact $\Phi$ is feasible only
+for the smallest systems; we cap the dynamical experiment at $n=4$ and evaluate $\Phi$ over reachable
+states (those with at least one predecessor), reporting the mean and maximum with reducible negative values
+clamped to zero. The Perturbational Complexity Index (Casali et al. 2013; Casarotto et al. 2016) is the
+empirical relative of $\Phi$: a TMS perturbation followed by Lempel–Ziv compression of the cortical
+response, a complexity of causal interactions rather than a raw entropy, which grades conscious level
+across wakefulness, sleep, sedation, and disorders of consciousness.
 
-$$H_{\mathrm{app}}(b) = -\sum_{M_b} P(M_b)\,\log_2 P(M_b).$$
+These three candidates are properties of three different objects: the stationary distribution ($C_N$),
+the mechanism ($\Phi$), and the coarse-grained spatial representation (apparent complexity). Their
+disagreements at the ordered limit (§5.2) follow from this and are informative rather than contradictory.
 
-This is entropy, but entropy *of the coarse-grained representation*, and that distinction is the whole
-point. Consider three cases. A *uniform ordered* field (all spins aligned) has every block at $M_b = \pm1$,
-so $P(M_b)$ is concentrated and $H_{\mathrm{app}}$ is low. A *microscopically random* field has block
-means that concentrate near $0$ as $b$ grows, by the central limit theorem (the variance of a block mean
-of independent spins falls as $1/b^2$), so $P(M_b)$ narrows toward a spike at $0$ and $H_{\mathrm{app}}$
-is again low at coarse grain. A *domain-structured* field, with correlated regions of all sizes, produces
-block means spanning the whole range $[-1,1]$, so $P(M_b)$ is broad and $H_{\mathrm{app}}$ is high.
-Apparent complexity is thus low for both the uniform and the random extremes and high only for structured
-intermediates, which is exactly the rise-and-fall the CBH's coffee and Ising illustrations describe, and
-exactly what neither raw entropy nor (as we will see) $C_N$ or $\Phi$ delivers across the whole axis.
+### 2.3 Grain of inference and coarse-graining
 
-**Exact IIT-4.0 $\Phi$.** $\Phi$ (Oizumi et al. 2014; Albantakis et al. 2023) is the integrated
-information a system specifies for itself. It is worth unpacking, because we treat it as one of three
-pillars and it is the least familiar to a general audience. IIT begins not from a system's states but
-from its *transition probability matrix* (TPM), the mechanism that says, for each current state, the
-probability of each next state. From the TPM, IIT builds for each subset of units, in a given state, a
-*cause repertoire* and an *effect repertoire*, the probability distributions over the states that could
-have produced, and that will be produced by, the current state. A subset contributes to consciousness
-only if these repertoires are *irreducible*: if one can partition the subset into independent parts and
-reconstruct the same repertoires from the parts alone, the subset adds nothing over its parts and is
-discarded. The degree of irreducibility, across the partition that destroys the least information (the
-*minimum information partition*, MIP), is the integrated information; at the system level, $\Phi$ is the
-irreducibility of the whole's cause–effect structure across its MIP. A second operation, *exclusion*,
-selects among overlapping candidate substrates the one of maximal integrated information, so $\Phi$ is the
-outcome of a maximisation over candidate sets, each scored by an irreducibility computation. Two features
-follow that matter here. First, $\Phi$ is a property of the *mechanism* (the TPM), not of the stationary
-distribution: a deterministic system that visits a single state can still have high $\Phi$, because its
-cause–effect structure is richly irreducible even though its occupancy is concentrated. Second, $\Phi$ is
-expensive: computing it requires evaluating repertoires over candidate substrates and partitions, a cost
-that grows super-exponentially in the number of units, which is why exact $\Phi$ is feasible only for the
-smallest systems and we cap the dynamical experiment at $n=4$. We evaluate $\Phi$ over the system's
-*reachable* states (those with at least one predecessor under the dynamics, which the formalism will
-analyse), reporting the mean and maximum, with reducible (negative) values clamped to zero to match IIT's
-treatment of non-complexes. We include $\Phi$ as an independent, theory-grounded index of organised causal
-structure, distinct from $C_N$ (a property of the stationary distribution) and from apparent complexity (a
-property of the spatial representation). That these three "complexity" candidates are properties of three
-different objects, the distribution, the mechanism, and the coarse-grained field, is not a defect of the
-study; it is why their disagreements at the ordered limit (§5.2) are informative rather than
-contradictory.
+The CBH's grain of inference is the scale of the generative model: a fine-grained model has many effective
+parameters and resolves detail, a coarse-grained model has few and smooths over it. The formal counterpart
+is block coarse-graining, which is a block-spin renormalization-group transformation; Mehta & Schwab
+(2014) show the variational renormalization group maps onto hierarchical inference, so the grain is the
+renormalization scale and ascending levels of a hierarchical model is iterated coarse-graining. Block
+averaging is the standard real-space renormalization move, which is why it is the appropriate
+coarse-graining rather than an arbitrary one. The two groundings of complexity meet here: a coarser grain
+has fewer effective parameters, which in the free-energy reading is a smaller posterior–prior divergence,
+so a coarser grain is a lower-complexity model in both senses at once.
 
-### 2.3 Grain of inference and coarse-graining as renormalization
+### 2.4 Entropy and complexity as distinct quantities
 
-The CBH's "grain of inference" is the scale of the generative model: a fine-grained model has many
-effective parameters and resolves fine detail, while a coarse-grained model has few and smooths over it.
-The formal counterpart is block coarse-graining, replacing groups of units by their average, which is
-precisely a block-spin renormalization-group (RG) transformation (Mehta & Schwab 2014, who show the
-variational RG maps onto hierarchical inference). The grain $b$ is the RG scale, and "ascending levels in
-a hierarchical generative model" is iterated coarse-graining. This is also why block-averaging is the
-*right* coarse-graining rather than an arbitrary one: it is the standard real-space RG move, and it is the
-operation under which apparent complexity exhibits scale-dependence. The link back to the CBH's other
-grounding is direct: increasing the grain reduces the model's effective parameters, which in the
-free-energy reading reduces the posterior–prior KL divergence (the FEP complexity term), so a coarser
-grain is a lower-complexity model in both senses simultaneously.
+Entropy and complexity are close to independent quantities, and the conundrum follows from their
+independence. Entropy measures the size of the set of states a system effectively occupies, the count of
+distinguishable things it does. Complexity, in all three senses above, measures structure within that set,
+the regularity that survives once randomness is removed. The two pick out different things. A long fair-coin
+sequence has maximal entropy and essentially no structure; a single repeated symbol has zero entropy and no
+structure; structure lives between the extremes and is a different axis from the count of states.
+Kolmogorov's framework makes the split explicit: a description divides into a structured part, the program
+for the regularities, and an incompressible random residue, and Gell-Mann & Lloyd's (1996) effective
+complexity is the first part alone, while entropy reflects mostly the second. Because the two quantities
+read different parts of the same description, a high value of one does not entail a high value of the other,
+and a system can be high-entropy with low complexity, low-entropy with high complexity, or anything between.
+The entropy–content conundrum is the empirical shadow of this decomposition. The contribution below is not
+the abstract point, which is old, but its demonstration on consciousness-relevant systems with exact numbers
+and the identification of the measure that tracks the structured part at every scale.
 
-### 2.4 Why entropy and complexity must come apart
+### 2.5 The two regimes in our systems
 
-It is worth saying, before the experiments, why the conundrum is not a surprise but a near-necessity, so
-that the results read as a confirmation of something principled rather than an accident of our systems.
-Entropy measures the size of the set of states a system effectively occupies; in the asymptotic picture it
-is the logarithm of the typical set, the count of distinguishable things the system does. Complexity, in
-all three of our senses, measures *structure within* that set, the regularities that survive once
-randomness is filtered out. These are close to orthogonal by construction. A fair coin flipped a thousand
-times has maximal entropy and essentially zero structure: the sequence is incompressible but featureless.
-A single repeated symbol has zero entropy and zero structure. Structure, the thing complexity tracks,
-lives in between, and it is a different axis from the count of states. Kolmogorov's own framework makes
-this precise: the description length of a string splits into a "structured" part, the length of the
-program for its regularities, and a "random" part, the incompressible residue, and Gell-Mann & Lloyd's
-effective complexity is essentially the first part alone. Entropy, by contrast, sees mostly the second.
-Because the two quantities read off different parts of the same description, there is no reason a high
-value of one should entail a high value of the other, and a system can be high-entropy-low-complexity
-(noise) or low-entropy-high-complexity (a long deterministic computation) or anything between. The
-entropy–content conundrum is the empirical shadow of this decomposition. What our instantiation adds is
-not the abstract point, which is old, but the demonstration that on concrete consciousness-relevant
-systems the two axes do separate in exactly the places the CBH needs, and the identification of which
-computable measure tracks the structured part cleanly at every scale.
+The CBH distinguishes two regimes that both raise entropy. In the fine-grained, overfitting regime, the
+generative model recruits many parameters and fits fine structure, producing high entropy with high
+complexity; this is the side the CBH assigns to some high-content psychedelic states. In the coarse-grained,
+underfitting regime, a simpler model smooths over detail, producing high entropy with low complexity; this
+is the side it assigns to some MPEs. The two regimes have a concrete counterpart in our systems, which is
+what makes them testable. The fine-grained, structured high-entropy regime corresponds to the parity ring at
+intermediate noise and to the near-critical Ising lattice: occupancy is broad, so entropy is high, but the
+dynamics retain organised dependence, so complexity and integration are positive and apparent complexity
+survives coarse-graining. The coarse-grained, contentless high-entropy regime corresponds to independent
+biased bits and to the disordered Ising lattice read at coarse grain: entropy is high at the microscale, but
+there is no organised dependence, so complexity is low and apparent complexity collapses once the
+fine-scale variability is averaged away. The matched-entropy comparison (§3.6, §4.4) places one system from
+each regime at the same entropy, and the grain sweep (§3.4, §4.2) realises the coarse-grained regime by
+coarsening a high-entropy state. We do not claim these toy systems are the brain's regimes; we claim they
+are the minimal exactly-computable carriers of the same entropy-versus-structure distinction.
 
 ## 3. Methods
 
-### 3.1 Claims fixed before computation
+### 3.1 Hypotheses
 
-We fixed two claims before computing any sweep (there is no external preregistration; we state them in
-advance for transparency). **C1, resolution of the conundrum:** entropy is monotone in disorder and so
-cannot separate the structured from the maximally-disordered regime, whereas a complexity measure ($C_N$,
-apparent complexity, or $\Phi$) is non-monotone, peaking at an intermediate structured regime, and so
-separates them. **C2, grain-dependence:** the apparent complexity of a high-entropy disordered state is
-high at fine grain but collapses under coarse-graining, while a structured state retains complexity
-across grains. We regarded C1 as plausible and C2 as the more demanding claim, since C2 is the CBH's
-actual mechanism and rests on coarse-graining specifically.
+Two claims were fixed before any computation (there is no external preregistration; we state them in
+advance for transparency). C1: entropy is monotone in disorder and cannot separate the structured from the
+maximally-disordered regime, while a complexity measure is non-monotone, peaking at an intermediate
+structured regime, and so separates them. C2: the apparent complexity of a high-entropy disordered state is
+high at fine grain and collapses under coarse-graining, while a structured state retains complexity across
+grains. C1 is plausible; C2 is the more demanding claim, since it is the CBH's mechanism and rests on
+coarse-graining specifically.
 
-### 3.2 Validation of the instruments, before any sweep
+### 3.2 Instrument validation
 
-Each measure was validated on controls (`complexity.py`), and the controls pass before any experiment is
-run. $C_N$ and $I$ are zero for $N$ independent fair bits; $C_N$ is larger for the three-correlated-pairs
-system (3.5) than for either independent (0) or fully-redundant (2.5) units; apparent complexity is zero
-for a uniform field and positive (1.0) for a two-domain field; entropy is maximal for the uniform
-distribution. The redundant closed form $(N-1)/2$ of §2.2 is reproduced numerically. This discipline,
-validating each instrument against analytic cases before trusting it on data, is the practice that has
-caught implementation errors in companion projects.
+Each measure was validated on controls (`complexity.py`) before any experiment. $C_N$ and $I$ are zero for
+independent fair bits; $C_N$ is larger for three correlated pairs ($3.5$) than for independent ($0$) or
+fully-redundant ($2.5$) units; apparent complexity is zero for a uniform field and positive for a two-domain
+field; entropy is maximal for the uniform distribution. The redundant closed form $(N-1)/2$ is reproduced
+numerically.
 
-### 3.3 Experiment A: the exact 2D Ising model
+### 3.3 The exact Ising model
 
-The Ising model is the CBH's own example. We use an $L\times L = 4\times4$ square lattice with periodic
-boundary conditions and coupling $J=1$, with energy
+The Ising model is the CBH's own example. We use a $4\times4$ square lattice with periodic boundaries and
+coupling $J=1$, energy $E(s) = -\sum_{\langle ij\rangle} s_i s_j$ with $s_i\in\{-1,+1\}$ summed over the
+$32$ nearest-neighbour bonds. At temperature $T$ (with $k_B=1$) the Boltzmann distribution is
+$P(s) = e^{-E(s)/T}/Z$ with $Z=\sum_s e^{-E(s)/T}$. Because $N=16$, we enumerate all $2^{16}=65{,}536$
+configurations exactly, so $Z$ and every expectation are computed without sampling. From $P(s)$ we obtain
+the exact entropy $H(T)$ and the exact Boltzmann-weighted $C_N(T)$ and apparent complexity. The lattice is
+small enough to enumerate and large enough to show the finite-size crossover near the 2D critical
+temperature $T_c\approx 2.27$; we claim the qualitative non-monotonicity, not critical exponents.
 
-$$E(s) = -\sum_{\langle ij\rangle} s_i s_j, \qquad s_i \in \{-1,+1\},$$
+The three systems are chosen to cover the comparison cleanly. The Ising model is the CBH's own
+illustration and the canonical system in which structure peaks at an intermediate temperature, and at
+$4\times4$ it is exactly enumerable. The parity ring adds two things the Ising lattice lacks: a transition
+mechanism, so that exact $\Phi$ is defined, and a single tunable order parameter, the noise, that carries
+the system continuously from order to disorder. Independent biased bits provide a clean unstructured
+baseline at any target entropy, with $C_N=\Phi=0$ by construction. Together they let us vary the
+order–disorder axis (Ising temperature, ring noise), the grain (Ising coarse-graining), and the entropy at
+fixed structure (matched bits), each on a system where the relevant quantity is exact.
 
-summed over nearest-neighbour bonds (32 bonds for the periodic $4\times4$ lattice). At inverse
-temperature $1/T$ (with $k_B=1$) the Boltzmann distribution over configurations is
-$P(s) = e^{-E(s)/T}/Z$ with partition function $Z = \sum_s e^{-E(s)/T}$. Because $N=16$, we enumerate all
-$2^{16}=65{,}536$ configurations exactly, so $Z$, $P(s)$, and every expectation are computed without
-sampling or approximation. From $P(s)$ we obtain the exact Shannon entropy $H(T)$ of the configuration
-distribution and the exact, Boltzmann-weighted TSE complexity $C_N(T)$ and apparent complexity. A
-$4\times4$ lattice is small enough to enumerate exactly and large enough to show the finite-size crossover
-near the 2D critical temperature $T_c\approx 2.27$; we do not claim a sharp transition or critical
-exponents, only the qualitative non-monotonicity.
+### 3.4 The coarse-graining sweep
 
-### 3.4 Experiment B: grain-dependence
+To vary the grain over a range we use a $16\times16$ lattice, where exact enumeration is infeasible and we
+sample. Equilibrium configurations are drawn by single-spin-flip Metropolis Monte Carlo, accepting each
+proposed flip with probability $\min(1, e^{-\Delta E/T})$; we discard a burn-in and retain $400$
+configurations spaced by a thinning interval, at low ($T=1.0$), critical ($T=2.27$), and high ($T=6.0$)
+temperature. Apparent complexity is computed at block sizes $b\in\{1,2,4,8\}$, with bootstrap $95\%$
+confidence intervals over the sampled configurations ($400$ resamples), since this is the only non-exact
+experiment.
 
-Varying the grain over a usable range requires more than 16 spins, so we use a larger $16\times16$ lattice
-where exact enumeration ($2^{256}$ states) is infeasible and we sample instead. Equilibrium configurations
-are drawn by single-spin-flip Metropolis Monte Carlo: starting from a random configuration, each proposed
-flip of a random spin is accepted with probability $\min(1, e^{-\Delta E/T})$; we discard a burn-in of
-2000 sweeps-worth of steps and then retain 400 configurations spaced by a thinning interval of 20 steps,
-at low ($T=1.0$), critical ($T=2.27$), and high ($T=6.0$) temperature. Apparent complexity is computed at
-block sizes $b\in\{1,2,4,8\}$. Because this is the only non-exact experiment, we report bootstrap 95%
-confidence intervals over the sampled configurations (400 resamples). We expected, and confirm, that the
-disordered-state collapse survives the bootstrap while the ordered-versus-critical ordering, being
-finite-size dependent, is less robust.
+### 3.5 Integrated information on a parity ring
 
-### 3.5 Experiment C: exact IIT-4.0 $\Phi$ on a dynamical system
+To relate complexity to integration where $\Phi$ is exact, we use a parity ring of $n=4$ binary nodes in a
+cycle. Each node updates synchronously to the parity of its two neighbours,
+$x_i(t{+}1) = x_{i-1}(t)\oplus x_{i+1}(t)$, a rule that is maximally integrative because a node's next state
+depends jointly and irreducibly on its inputs. Noise $\nu\in[0,0.5]$ flips each node's output independently
+with probability $\nu$ after the deterministic update, an order parameter analogous to temperature: $\nu=0$
+is ordered, $\nu=0.5$ is uniform random. The $16\times16$ state-by-state TPM is enumerated exactly and the
+stationary distribution $\pi$ obtained by power iteration. At $\nu=0$ the deterministic ring has an
+absorbing fixed point, so $\pi$ is a point mass and $H=0$; for $\nu>0$ the chain is ergodic. From $\pi$ we
+compute exact $H$ and $C_N$, and from the TPM exact IIT-4.0 $\Phi$ (mean and maximum over reachable states),
+reusing the `proxy_audit` oracle. $H$ and $C_N$ are properties of the stationary distribution and $\Phi$ of
+the mechanism; the sweep is coherent because noise moves all three, but the cross-measure comparison is read
+with this distinction in mind, not as competing estimates of one scalar.
 
-To connect complexity to integration on a system where $\Phi$ is exact, we use a *parity ring*: $n=4$
-binary nodes arranged in a cycle. In the deterministic limit each node updates synchronously to the
-parity (XOR) of its two immediate neighbours, $x_i(t{+}1) = x_{i-1}(t) \oplus x_{i+1}(t)$, a rule that is
-maximally integrative because a node's next state depends jointly and irreducibly on its inputs. We add
-noise $\nu \in [0,0.5]$ as a per-node bit-flip applied after the deterministic update (each node's output
-is flipped independently with probability $\nu$, equivalently mixed toward $0.5$), an order parameter
-analogous to Ising temperature: $\nu=0$ is fully ordered, $\nu=0.5$ is fully random. The state-by-state
-transition matrix ($16\times16$ for the $2^4$ states) is enumerated exactly, and the stationary
-distribution $\pi$ is obtained by power iteration to convergence (the normalised left eigenvector of the
-transition matrix with eigenvalue 1). At $\nu=0$ the deterministic ring has an absorbing fixed point (the
-all-off state), so $\pi$ is a point mass and $H=0$; for $\nu>0$ the chain is ergodic and $\pi$ has full
-support. From $\pi$ we compute exact $H$ and $C_N$. We compute exact IIT-4.0 $\Phi$ from the transition
-matrix as the mean and maximum over reachable states (states with at least one predecessor, which PyPhi
-will analyse), with reducible negative values clamped to zero, matching IIT's treatment of complexes.
-$n=4$ is the practical ceiling for exact $\Phi$, whose cost grows super-exponentially.
+### 3.6 Matched-entropy systems
 
-We flag a conceptual point that the comparison requires. $H$ and $C_N$ are properties of the *stationary
-distribution*, whereas $\Phi$ is a property of the *transition structure*. They are different objects.
-$\Phi$ can be high for a deterministic mechanism whose stationary distribution is a single state, because
-$\Phi$ scores the cause–effect structure, not the spread of occupancy. The order-to-disorder sweep is
-coherent because noise moves all three quantities, but the cross-measure comparisons should be read with
-this distinction in mind, not as competing estimates of one underlying scalar.
-
-### 3.6 The matched-entropy dissociation
-
-The conundrum's distinctive claim is two states at *matched* high entropy that differ in richness, and we
-exhibit it exactly. Because every maximal-entropy system is uniform and hence independent (forcing
-complexity to zero), the informative comparison is at high-but-submaximal entropy. We take the parity ring
-at $\nu = 0.125$, which has stationary entropy $H=3.17$ bits, and match it to a system of $n=4$
-*independent* biased bits, each ON with probability $p \approx 0.24$ chosen so that $4\,H_b(p) = 3.17$
-bits (where $H_b$ is the binary entropy). The two systems then have identical entropy by construction, and
-we compare their $C_N$ and $\Phi$. The independent system has $\Phi=0$ by construction (no connections),
-which we report as $0$ rather than recomputing.
+The conundrum's distinctive claim is two states at matched entropy that differ in richness. Because every
+maximal-entropy system is uniform and hence independent, forcing complexity to zero, the comparison is made
+at high-but-submaximal entropy. We take the parity ring at $\nu=0.125$, with stationary entropy $H=3.17$
+bits, and match it to a system of four independent biased bits, each ON with probability $p\approx0.24$
+chosen so that $4\,H_b(p)=3.17$ bits, then compare $C_N$ and $\Phi$. The independent system has $\Phi=0$ by
+construction.
 
 ## 4. Results
 
-### 4.1 Exact Ising: entropy is monotone, complexity peaks then collapses (C1)
+### 4.1 Entropy and complexity in the Ising model
 
-On the exact $4\times4$ Ising lattice (Figure 1a, Table 1), entropy increases monotonically with
-temperature, from $H=1.0$ bit at $T=0.5$ (the two ordered ground states) to $H=15.3$ bits at $T=6.0$ (near
-the 16-bit ceiling); Spearman$(T,H)=+1.0$. TSE complexity behaves differently. $C_N$ is non-monotone: it
-rises to a peak of $8.26$ at $T=2.25$, essentially the finite-size critical temperature, and collapses to
-$1.84$ at $T=6.0$. The highest-entropy state therefore has low complexity. This is the conundrum's
-resolution made exact on the authors' own example system: high entropy does not imply high complexity,
-because complexity tracks organised structure and the maximally-disordered state, though maximally
-diverse, is structureless.
+On the exact $4\times4$ lattice (Figure 1a, Table 1), entropy rises monotonically with temperature, from
+$H=1.0$ bit at $T=0.5$ (the two ordered ground states) to $H=15.3$ bits at $T=6.0$ (near the 16-bit
+ceiling); Spearman$(T,H)=+1.0$. $C_N$ is non-monotone, rising to a peak of $8.26$ at $T=2.25$, at the
+finite-size critical temperature, and falling to $1.84$ at $T=6.0$. The highest-entropy state has low
+complexity. High entropy does not imply high complexity, because complexity tracks organised structure and
+the maximally-disordered state, though maximally diverse, is structureless. $C_N$ is also high at low
+temperature ($7.5$ at $T=0.5$), the value $(N-1)/2$ for a redundant 16-spin ensemble; the ordered Ising
+state is a redundant two-ground-state ensemble, maximally integrated and hence high $C_N$, though
+phenomenologically simple. $C_N$ thus resolves the high-entropy end of the conundrum but not the
+low-entropy end, which §5.2 takes up.
 
-The qualification noted in §2.2 appears here concretely. $C_N$ is also high at low temperature ($7.5$ at
-$T=0.5$), the value predicted by the closed form $(N-1)/2 = 15/2$ for a redundant 16-spin ensemble. The
-ordered Ising state is a redundant two-ground-state ensemble, hence maximally integrated, hence high
-$C_N$, even though it is phenomenologically simple. TSE complexity thus resolves the high-entropy end of
-the conundrum but not the low-entropy end. We take this up as a finding in §5.2 rather than burying it.
+The trajectory between the extremes is informative. As temperature rises from $0.5$, entropy climbs
+smoothly through $H=6.31$ bits at $T=2.25$ to $H=15.3$ at $T=6.0$, while $C_N$ first rises, from $7.5$ at
+$T=0.5$ to its peak $8.26$ at $T=2.25$, then declines steadily to $1.84$. The peak and the entropy midpoint
+do not coincide: complexity is maximal where the lattice has correlated domains at many scales, near the
+finite-size critical temperature, whereas entropy continues to rise monotonically past that point as the
+domains dissolve into uncorrelated noise. The crossing of the two normalised curves above $T_c$ (Figure 1a)
+is the high-entropy end of the conundrum in a single system: entropy still increasing, complexity already
+falling.
 
-**Table 1. Key systems and their entropy, complexity, and integration.** Ising values are exact
-(enumeration); parity-ring and independent-bit values are exact (transition-matrix enumeration). Dashes
-mark quantities not defined for that system (Ising has no IIT TPM here).
+**Table 1.** Entropy, neural complexity, and integration for the key systems. Ising values are exact by
+enumeration; parity-ring and independent-bit values are exact by transition-matrix enumeration. Dashes
+mark quantities not defined for that system.
 
 | System | Temp / noise | $H$ (bits) | $C_N$ | $\Phi_{\max}$ | regime |
 |---|---|---:|---:|---:|---|
 | $4\times4$ Ising | $T=0.5$ | 1.0 | 7.50 | — | ordered, redundant |
 | $4\times4$ Ising | $T=2.25$ | 6.31 | 8.26 | — | critical (complexity peak) |
-| $4\times4$ Ising | $T=6.0$ | 15.27 | 1.84 | — | disordered (high $H$, low $C_N$) |
+| $4\times4$ Ising | $T=6.0$ | 15.27 | 1.84 | — | disordered |
 | parity ring | $\nu=0.0$ | 0.00 | 0.00 | 0.50 | deterministic cycle |
-| parity ring | $\nu=0.125$ | 3.17 | 0.25 | 0.39 | matched high-$H$, rich |
-| independent bits | $p\approx0.24$ | 3.17 | 0.00 | 0.00 | matched high-$H$, contentless |
+| parity ring | $\nu=0.125$ | 3.17 | 0.25 | 0.39 | matched high-$H$, structured |
+| independent bits | $p\approx0.24$ | 3.17 | 0.00 | 0.00 | matched high-$H$, unstructured |
 | parity ring | $\nu=0.5$ | 4.00 | 0.00 | 0.00 | fully disordered |
 
-### 4.2 Grain-dependence: the disordered state collapses when coarsened (C2)
+### 4.2 Apparent complexity across grains
 
-On the sampled $16\times16$ lattice (Figure 1c, bootstrap 95% CIs), apparent complexity depends on grain
-in the predicted direction. At the coarsest grain examined (block size 8), the high-temperature
-disordered state ($T=6.0$) has the lowest apparent complexity, $1.81$ bits $[1.76, 1.86]$, below both the
-critical state ($2.10\ [2.02, 2.18]$) and the ordered state ($2.53\ [2.49, 2.57]$), with non-overlapping
-intervals. Coarse-graining reveals the high-entropy state as the simplest: its fine-scale fluctuations
-average out, by the central-limit argument of §2.2, to a near-homogeneous coarse description, exactly the
-coffee-automaton picture. We are candid that this is our one sampled, finite-size experiment, and that it
-carries the most CBH-specific load, since grain-dependence is the hypothesis's actual mechanism. The
-robust, bootstrap-supported signal is the collapse of the disordered state; the ordering of the ordered
-and critical states is finite-size dependent and we do not lean on it. A clean ordered-end collapse would
-require the block size to exceed the correlation length, which at $L=16$ it only marginally does.
+On the sampled $16\times16$ lattice (Figure 1c, bootstrap $95\%$ CIs), apparent complexity depends on grain
+in the predicted direction. The full trajectory across block sizes is as follows. At the finest grain
+($b=1$, single spins) all three temperatures sit near $1$ bit, because a single spin takes two values with
+roughly equal weight regardless of temperature; the grain carries no structural information. As the block
+size grows the curves separate. The disordered state ($T=6.0$) rises to $2.59$ at $b=4$ and then falls to
+$1.81$ at $b=8$, the signature collapse: its block means concentrate toward zero as the averaging window
+exceeds its short correlation length. At the coarsest grain ($b=8$) the disordered state has the lowest
+apparent complexity, $1.81$ bits $[1.76, 1.86]$, below both the critical state ($2.10\ [2.02, 2.18]$) and
+the ordered state ($2.53\ [2.49, 2.57]$), with non-overlapping intervals. Coarse-graining renders the
+high-entropy state simplest: its fine-scale fluctuations average to a near-homogeneous coarse description,
+the central-limit behaviour of §2.2. This is the only sampled experiment, and it carries the most
+hypothesis-specific load, since grain-dependence is the CBH's mechanism. The bootstrap-supported signal is
+the collapse of the disordered state; the ordering of the ordered and critical states is finite-size
+dependent and we do not rely on it. A clean ordered-end collapse would require the block size to exceed the
+correlation length, which at $L=16$ it only marginally does.
 
-### 4.3 Exact $\Phi$: integration is destroyed by disorder, complexity peaks (C1 with $\Phi$)
+### 4.3 Integrated information across the order–disorder axis
 
 On the parity ring (Figure 1b, Table 1), entropy of the stationary distribution rises monotonically with
-noise, from $0$ (the deterministic absorbing cycle) to $4.0$ bits (uniform). TSE complexity peaks at
-intermediate noise ($C_N=0.31$ at $\nu=0.075$) and falls to $0$ at maximal noise. Exact IIT-4.0
-$\Phi_{\max}$ falls monotonically from $0.50$ in the ordered system to $0$ in the disordered one:
-integration requires the structured dependencies that noise destroys. The maximal-entropy state has
-$H=4.0$ (maximal), $C_N=0$, and $\Phi=0$, maximally diverse with zero complexity and zero integration, the
-formal counterpart of contentless awareness. The rank correlations over the sweep are Spearman$(H,C_N) =
--0.71$ and Spearman$(H,\Phi_{\max}) = -1.0$; complexity and integration are not functions of entropy.
-(The latter correlation relates a stationary-distribution quantity to a mechanism quantity across the
-sweep, per §3.5; it is coherent because noise drives both, not because they measure the same thing.)
+noise, from $0$ (the deterministic absorbing cycle) to $4.0$ bits (uniform). $C_N$ peaks at intermediate
+noise ($0.31$ at $\nu=0.075$) and falls to $0$; it is zero at $\nu=0$ (the deterministic ring has a
+point-mass stationary distribution with no variability to integrate) and zero at $\nu=0.5$ (the uniform
+distribution is independent), rising and falling between, so on this system $C_N$ is well-behaved at both
+ends. Exact $\Phi_{\max}$ follows a different curve. It falls monotonically from $0.50$ in the ordered
+system to $0$ in the disordered one, because integration is a property of the transition structure rather
+than the stationary distribution: the deterministic parity rule is maximally irreducible, and noise erodes
+that irreducibility. The two curves part company at the ordered end, where $C_N=0$ but $\Phi=0.50$, the
+discrepancy §5.2 analyses. The maximal-entropy state has $H=4.0$, $C_N=0$, and $\Phi=0$, maximally diverse with zero
+complexity and zero integration. Over the sweep Spearman$(H,C_N)=-0.71$ and Spearman$(H,\Phi_{\max})=-1.0$;
+neither complexity nor integration is a function of entropy.
 
-The endpoint deserves emphasis because it is forced rather than fitted. At $\nu=0.5$ the parity ring's
-stationary distribution is exactly uniform over its 16 states, $H=4.0$ bits, and a uniform distribution
-factorises into independent units, so $I(X)=0$, hence $C_N=0$; the dynamics are likewise a uniform random
-map, so $\Phi=0$. This is not a contingent finding but a structural identity: at maximal entropy every
-system is uniform, hence independent, hence has zero integration and zero complexity by *any* of our
-measures. The maximal-entropy state is therefore guaranteed to be "contentless" on the structure axis,
-which is exactly why entropy and richness cannot be the same quantity and why the rich high-entropy regime
-must sit below the ceiling (§5.4).
+The endpoint is an identity, not a fit. At $\nu=0.5$ the stationary distribution is exactly uniform over the
+16 states, $H=4.0$ bits, and a uniform distribution factorises into independent units, so $I(X)=0$ and
+$C_N=0$; the dynamics are a uniform random map, so $\Phi=0$. At maximal entropy every system is uniform,
+hence independent, hence has zero integration and zero complexity by any of our measures. The
+maximal-entropy state is guaranteed to be unstructured, which is why entropy and richness cannot be the same
+quantity and why the structured high-entropy regime must sit below the ceiling (§5.4).
 
-### 4.4 The matched-entropy dissociation: the conundrum in four units
+### 4.4 The matched-entropy dissociation
 
-This is the result that instantiates the CBH's distinctive claim, and we foreground it accordingly. The
-generic Ising rise-and-fall (§4.1) shows complexity peaking at *intermediate* entropy; it does not by
-itself exhibit *two states at the same high entropy* that differ in richness, which is the specific shape
-of the entropy–content conundrum. The matched-entropy construction does. Two systems, both at $H=3.17$
-bits, are cleanly separated by complexity and integration (Table 1, Figure 1d): four independent biased
-bits have $C_N=0$ and $\Phi=0$ (the contentless, coarse-grained analogue), while the parity ring at the
-matching noise has $C_N=0.25$ and $\Phi_{\max}=0.39$ (the structured, fine-grained analogue). Entropy
-cannot tell the two systems apart; complexity and $\Phi$ can. This is the entropy–content conundrum
-exhibited exactly in four units, with no appeal to the coffee automaton or to large-system criticality,
-and it is the cleanest evidence that entropy underdetermines structure.
+Two systems at $H=3.17$ bits are separated by complexity and integration (Table 1, Figure 1d). Four
+independent biased bits have $C_N=0$ and $\Phi=0$; the parity ring at the matching noise has $C_N=0.25$ and
+$\Phi_{\max}=0.39$. Entropy cannot distinguish them; complexity and $\Phi$ can. This is the entropy–content
+conundrum in four units, with no appeal to the coffee automaton or to large-system criticality, and it is
+the result that exhibits the CBH's specific claim, two high-entropy states differing in structure, rather
+than the generic complexity peak at intermediate entropy.
 
-### 4.5 Figure 1, panel by panel
+### 4.5 Figure 1
 
-Figure 1 collects the four results so the dissociation can be read at a glance; each panel is
-self-contained. **Panel (a)** plots, against Ising temperature, the entropy $H$ and the TSE complexity
-$C_N$, each normalised to its own maximum. The entropy curve rises monotonically and saturates; the
-complexity curve rises to a peak at the dashed line marking $T_c \approx 2.27$ and then falls, so the two
-curves cross and diverge above $T_c$: this is the high-entropy end of the conundrum, where entropy is
-still climbing while complexity is already collapsing. **Panel (b)** plots, against parity-ring noise,
-the normalised entropy, $C_N$, and exact $\Phi_{\max}$. Entropy rises monotonically; $C_N$ traces a hump
-peaking near $\nu=0.075$; $\Phi_{\max}$ falls monotonically from its ordered maximum. Three measures, three
-shapes, on one system, none of them a function of entropy. **Panel (c)** plots apparent complexity against
-coarse-graining grain (block size) for the ordered, critical, and disordered temperatures, with bootstrap
-95% error bars. The disordered curve (blue) sits lowest at the coarsest grain, its interval not
-overlapping the others: the high-entropy state, coarsened, is the simplest. **Panel (d)** is the
-matched-entropy dissociation as a grouped bar chart: the contentless (independent-bit) and rich (parity-
-ring) systems have equal-height entropy bars but the rich system alone has non-zero complexity and $\Phi$
-bars. Panel (d) is the figure's punchline, the conundrum reduced to two bars of equal entropy and unequal
-structure.
-
-It helps to hold a schematic of the two regimes the CBH posits, now anchored to our systems. The
-fine-grained, "rich" HCPE regime corresponds to a structured high-entropy state, the parity ring at
-$\nu=0.125$ or the near-critical Ising lattice: occupancy is broad (high $H$) but organised (high $C_N$,
-positive $\Phi$, high apparent complexity at the measured grain). The coarse-grained, "contentless" MPE
-regime corresponds to a high-entropy state whose structure is absent or averaged away: independent biased
-bits (high $H$, zero $C_N$ and $\Phi$), or the disordered Ising lattice viewed at coarse grain (high
-microscopic $H$, low apparent complexity). Same entropy axis, opposite structure, which is the whole
-content of the conundrum.
+Figure 1 has four panels. Panel (a) plots normalised $H$ and $C_N$ against Ising temperature: $H$ rises and
+saturates, $C_N$ peaks at the marked $T_c$ and falls, and the curves diverge above $T_c$. Panel (b) plots
+normalised $H$, $C_N$, and $\Phi_{\max}$ against parity-ring noise: $H$ rises, $C_N$ humps, $\Phi_{\max}$
+falls. Panel (c) plots apparent complexity against block size for the three temperatures with bootstrap
+error bars; the disordered curve is lowest at the coarsest grain, its interval not overlapping the others.
+Panel (d) is the matched-entropy comparison: equal-height entropy bars, non-zero complexity and $\Phi$ bars
+for the structured system only.
 
 ## 5. Discussion
 
-### 5.1 The CBH's central claim survives, and is sharpened by, an exact instantiation
+### 5.1 The dissociation on exactly-computable systems
 
-On exactly-computable systems, including the authors' own Ising example, the CBH's central dissociation
-holds. Entropy is monotone in disorder; complexity ($C_N$, apparent complexity, exact $\Phi$) is
-non-monotone or anti-monotone, so the highest-entropy state is the least structured; and two systems at
-matched high entropy are separated by complexity and by $\Phi$. The verbal hypothesis becomes a worked
-model with exact numbers, and the resolution of the conundrum is concrete rather than asserted. A hostile
-reading of a weaker version of this paper would say we merely re-derived the Aaronson coffee automaton and
-relabelled it for brains. The matched-entropy result (§4.4) is the reply: it instantiates the CBH's
-*specific* move, two high-entropy states separated by structure, in a minimal system, which the generic
-rise-and-fall does not.
+On exactly-computable systems, including the Ising model the CBH invokes, the dissociation holds. Entropy
+is monotone in disorder; complexity is non-monotone or anti-monotone, so the highest-entropy state is the
+least structured; and two systems at matched high entropy are separated by complexity and by $\Phi$. The
+matched-entropy result is the central one, because it exhibits the CBH's specific claim, two high-entropy
+states separated by structure, in a minimal system, whereas the generic rise-and-fall of the Ising sweep
+shows only a complexity peak at intermediate entropy.
 
-### 5.2 The failure of integration at the ordered limit: a symmetric low-entropy conundrum
+### 5.2 Behaviour at the ordered limit
 
-The CBH needs a complexity measure that is low for *both* a maximally chaotic, high-entropy state and a
-completely rigid, low-entropy state, and high only for organised intermediates; that is what
-distinguishes "rich" from both "noise" and "blank." Our instantiation shows that the two obvious
-candidates, $C_N$ and exact $\Phi$, each fail this test at the ordered, low-entropy end, but for different
-and instructive reasons, so the failure is not one phenomenon but two.
+The CBH needs a complexity measure that is low for both a high-entropy disordered state and a low-entropy
+rigid state, and high only for organised intermediates. $C_N$ and exact $\Phi$ both fail this at the
+ordered, low-entropy end, for different and system-specific reasons. For $C_N$ the failure is specific to
+redundant order. The ordered Ising lattice is a two-ground-state ensemble with high mutual information,
+hence maximally integrated and high $C_N$ ($7.5$), but this is a property of redundant ensembles, not of
+order as such: the parity ring at $\nu=0$ is also ordered, yet its stationary distribution is a single
+absorbing state with no variability, so its $C_N$ is $0$. On the ring $C_N$ is low at both ends and behaves
+as a richness index should; on the lattice it does not. For exact $\Phi$ the failure is mechanism-specific.
+On the parity ring $\Phi_{\max}$ is highest at $\nu=0$ and falls with disorder, because the parity rule is
+integrative by construction: a deterministic system whose nodes depend irreducibly on each other has high
+integrated information regardless of how concentrated its stationary distribution is. So $\Phi$ rates the
+ordered, undifferentiated cycle as maximally integrated, a false positive for richness by the CBH's
+differentiation criterion, and an artefact of the engineered rule rather than a property of integration.
+The empirical pattern goes the other way: ordered, low-entropy brain states such as slow-wave sleep and deep
+anaesthesia show low perturbational complexity and low integration (Casali et al. 2013), consistent with
+apparent complexity. The ring is a worst case for $\Phi$ as a richness index precisely because it was built
+to be maximally integrative. Of the three measures, only grain-dependent apparent complexity is reliably low
+at both extremes, low for the uniform ordered field and low for the coarse-grained disordered field, high
+only for structured intermediates. This is the construct the CBH's coffee and Ising illustrations point to,
+and the instantiation identifies it as the right one by showing the others fail.
 
-For TSE complexity, the failure is specific to *redundant* order. The ordered Ising lattice is a
-two-ground-state ensemble with high mutual information, hence maximally integrated, hence high $C_N$
-($7.5$). But this is a property of redundant ensembles, not of order as such. The parity ring at $\nu=0$
-is also ordered, yet its stationary distribution is a single absorbing state with no variability, so its
-$C_N$ is $0$. On the ring, $C_N$ is low at both ends and behaves exactly as a richness index should; on
-the Ising lattice it does not. The "$C_N$ misfires at order" claim is therefore system-specific: it holds
-for redundant ensembles and fails for point-mass order. A weaker draft that imported a single "$C_N$
-misfires" story from the Ising case to all systems would have been wrong, and the parity-ring numbers say
-so directly.
+### 5.3 The free-energy complexity term and the brain
 
-For exact $\Phi$, the failure at the ordered end is mechanism-specific. On the parity ring $\Phi_{\max}$
-is *highest* at $\nu=0$ ($0.50$) and falls monotonically with disorder. This is because the XOR rule is
-integrative by construction: a deterministic system whose every node depends irreducibly on its neighbours
-has high integrated information regardless of how concentrated its stationary distribution is. So $\Phi$
-rates the ordered, low-entropy, undifferentiated cycle as maximally integrated, which by the CBH's own
-differentiation criterion is a false positive for richness. Crucially, this is an artefact of the
-engineered rule, not a general property of integration. In real cortex the ordered, low-entropy states,
-slow-wave sleep and deep anaesthesia, show *low* perturbational complexity and low integration (Casali et
-al. 2013), consistent with apparent complexity and inconsistent with the parity ring's ordered-end
-$\Phi$. The ring is a worst case for $\Phi$ as a richness index precisely because we built it to be
-maximally integrative; one should not generalise from it to the claim that integration always misfires at
-order.
+The free-energy complexity term, the posterior–prior divergence, is not computed here, because it requires a
+specified generative model and prior that our dynamical systems do not carry. The natural extension posits a
+hierarchical generative model, treats the coarse-grained variables of §2.3 as higher-level latents, and
+computes the divergence between the posterior over those latents and a prior. The renormalization mapping of
+§2.3 predicts that this divergence tracks apparent complexity at the coarse grain, rising for structured
+intermediates and low for both the ordered and the disordered regimes, where a coarse model explains the
+data with few degrees of freedom. If so, the free-energy complexity term and grain-dependent apparent
+complexity coincide, unifying the CBH's two groundings on a computable system.
 
-The net result is sharper than "use complexity instead of entropy." Each obvious complexity candidate
-resolves the high-entropy conundrum but introduces, or fails to resolve, a low-entropy one, and it does so
-for a measure- and system-specific reason. Only grain-dependent apparent complexity is reliably low at
-*both* extremes: it is low for the uniform ordered field and low for the coarse-grained disordered field,
-high only for structured intermediates (§2.2, §4.2). This is precisely the construct the CBH's coffee and
-Ising illustrations point to, and our instantiation identifies it as the right one more decisively than the
-conceptual paper could, because we can show the other candidates failing.
+The Perturbational Complexity Index is the empirical relative of exact $\Phi$, and the relation clarifies
+what the exact computation adds. PCI perturbs cortex with TMS, which probes the system's causal
+responsiveness, and compresses the spatiotemporal response with Lempel–Ziv, which scores its
+differentiation; the product is a complexity of causal interactions, not a raw entropy (Casali et al. 2013;
+Casarotto et al. 2016). It is, in effect, a tractable approximation of the integration-plus-differentiation
+quantity that $\Phi$ defines exactly but that cannot be computed at brain scale. On our small systems no
+approximation is needed: exact $\Phi$ is the quantity PCI estimates, computed where it is computable, which
+is why the parity-ring $\Phi$ behaves as PCI does empirically, high for integrated dynamics and falling
+toward disorder.
 
-### 5.3 The FEP complexity term, and bridging to the brain
+An empirical dissociation of the kind our toy systems model is on record. Farnes et al. (2020) found that
+under sub-anaesthetic ketamine, spontaneous EEG signal diversity rose while the TMS-evoked Perturbational
+Complexity Index did not differ from normal wakefulness, and they read integration or capacity (PCI) and
+content-complexity as distinct quantities. This is the brain-scale analogue of our result, a diversity measure and a
+complexity/integration measure coming apart in one state. More broadly, complexity measures track conscious
+level where entropy does not, falling under propofol and in NREM sleep (Schartner et al. 2015, 2017) and
+grading disorders of consciousness (Casali et al. 2013; Casarotto et al. 2016). The CBH adds the converse
+case, high entropy with low content in MPEs, and the instantiation shows why a complexity measure can
+capture both directions while entropy captures neither.
 
-We did not compute the free-energy complexity term, the posterior–prior KL divergence, because it requires
-a specified generative model and prior, which our dynamical systems do not carry intrinsically. The
-natural next step instantiates it directly. On the same Ising or parity-ring systems one would posit a
-hierarchical generative model, treat the coarse-grained variables of §2.3 as higher-level latents, and
-compute $D_{\mathrm{KL}}(q\,\|\,p)$ between the posterior over those latents (after conditioning on the
-microstate) and a prior. The RG mapping of §2.3 predicts the outcome: this KL should track apparent
-complexity at the coarse grain, rising for structured intermediates and remaining low for both the ordered
-and the fully-disordered regimes, because in both of those a coarse model explains the data with few
-degrees of freedom (small KL). If so, the FEP complexity term and grain-dependent apparent complexity
-would coincide, unifying the CBH's two groundings on a computable system. We flag this as the most
-valuable extension.
+The link from the toy systems to neuroimaging runs through coarse-graining. Block-averaging the Ising
+lattice is an analogue of the spatial averaging neuroimaging performs: an fMRI voxel sums over roughly a
+million neurons, and EEG and MEG sensors integrate over large cortical patches. The finding that the
+high-entropy disordered state has high microscopic entropy but low apparent complexity under coarse-graining
+is then a model of a specific possibility, that a state rich in fine-scale neuronal variability may present
+to a macroscale readout as unstructured noise, while a critical or domain-structured state retains
+complexity at the measured scale. This yields a differential prediction. For two conditions the EBH treats
+alike because both elevate entropy, a high-dose psychedelic and deep meditative absorption, the CBH predicts
+a crossing under coarse-graining: at fine grain both show high apparent complexity, but as the analysis grain
+coarsens toward large cortical fields or slow timescales, the MPE's apparent complexity should fall faster
+and further, because it is the coarse-grained regime whose structure averages out. A grain-resolved
+complexity curve that did not separate the conditions, or separated them in the opposite direction, would
+count against the grain account on real data. The handle the prediction offers experimenters is the analysis
+grain, not only the measure.
 
-There is already an empirical dissociation of the kind our toy systems model. Farnes et al. (2020) found
-that under sub-anaesthetic ketamine, spontaneous EEG signal diversity (Lempel-Ziv complexity, coalition
-entropies) rose significantly, while the TMS-evoked Perturbational Complexity Index did not differ from
-normal wakefulness, and they read this as integration/capacity (PCI) and content-complexity being
-different quantities. That is the real-brain analogue of our result: a diversity measure and a
-complexity/integration measure come apart in the same state. More broadly, complexity measures track
-conscious *level* where raw entropy does not, falling under propofol and in NREM sleep (Schartner et al.
-2015, 2017) and grading disorders of consciousness (Casali et al. 2013; Casarotto et al. 2016). The CBH's
-contribution is to point out that the *other* direction, high entropy with low content, also occurs, in
-MPEs, and our instantiation shows why a complexity measure can capture both directions while entropy
-captures neither.
+### 5.4 Submaximal entropy
 
-The bridge to the brain runs through coarse-graining itself. Block-averaging the Ising lattice is a direct
-analogue of the spatial averaging that neuroimaging performs: an fMRI voxel sums over roughly a million
-neurons, and EEG and MEG sensors integrate over large cortical patches. Our finding that the high-entropy
-disordered state has high microscopic entropy but collapses to low apparent complexity under coarse-graining
-is then a concrete model of a specific empirical possibility: a brain state that is "rich" in
-fine-scale neuronal variability may present to a macroscale readout as unstructured noise, low in apparent
-complexity, whereas a critical or domain-structured state retains complexity at the measured scale. This is
-a sharpening of the CBH's grain-of-inference idea into a statement about *measurement* scale, and it
-predicts that complexity estimators applied to neuroimaging, such as Lempel–Ziv complexity, the Block
-Decomposition Method, or perturbational complexity (Casali et al. 2013), should diverge from raw signal
-entropy precisely in the high-entropy MPE states, in the direction the CBH anticipates. That is an
-empirically testable consequence, on human data, of the formal dissociation we demonstrate here.
+A point the verbal account leaves implicit becomes unavoidable once the claim is computable. The high
+entropy with high complexity that the CBH attributes to fine-grained psychedelic states cannot occur at the
+maximal-entropy limit, where every system is uniform and structureless, forcing $C_N=\Phi=0$. The structured
+high-entropy state in our framework is the matched system at $H=3.17$ of a 4-bit maximum of $4.0$, with
+positive $C_N$ and $\Phi$; pushed to the ceiling, complexity vanishes. High entropy with high complexity must
+therefore mean high relative to baseline, not maximal, which bounds how far up the entropy axis the
+structured regime can sit. The bound has an empirical edge: it predicts a non-monotonic relation between a
+richness-raising perturbation and richness itself. Increasing a manipulation that raises brain entropy
+should raise apparent complexity only up to a point, beyond which further entropy erodes the multi-scale
+structure and richness declines, even as the EBH's entropy marker keeps climbing. Observing richness fall
+while entropy still rose would separate the CBH from a monotone entropic account, and the matched-entropy
+and high-noise endpoints of our systems are the exactly-computable form of that turning point.
 
-The prediction can be made sharp enough to be wrong. Take two conditions that the EBH treats alike because
-both elevate signal entropy: a high-dose psychedelic (HCPE) and deep jhāna absorption (MPE). The CBH, in
-our instantiation, predicts a *crossing* under coarse-graining: at fine spatial or temporal grain both
-should show high apparent complexity (both are high-entropy), but as the analysis grain coarsens, toward
-the scale of large cortical fields or slow timescales, the MPE's apparent complexity should fall faster
-and further than the HCPE's, because the MPE is the coarse-grained, low-effective-parameter regime whose
-structure averages out, whereas the HCPE retains fine-scale structure that survives partial coarsening.
-A measured grain-resolved complexity curve that did *not* separate these conditions, or that separated
-them in the opposite direction, would falsify the CBH's grain account on real data. This is precisely the
-kind of differential, scale-resolved prediction that the verbal hypothesis gestures at but cannot state
-quantitatively, and that a computational instantiation makes available. It also tells experimenters what
-to vary, the analysis grain, rather than only what to measure, and that is a more useful handle than a
-single entropy number.
+### 5.5 Measuring complexity in practice
 
-### 5.4 The submaximal-entropy sharpening
+The lesson generalises beyond the CBH. A programme that uses complexity as a correlate of consciousness must
+specify which complexity, because the candidates diverge where it matters, and the divergences are
+informative. A measure read off the occupancy distribution, such as $C_N$, rates a redundant, synchronised,
+low-entropy state as complex, the failure mode relevant to hypersynchronous states such as seizures. A
+measure read off the mechanism, such as $\Phi$, rates a strongly-coupled deterministic system as integrated
+regardless of richness. A measure read off a coarse-grained representation is low for both the rigid and the
+chaotic extremes, because coarse-graining discards both the uniformity of order and the unstructured detail
+of noise, retaining only multi-scale structure. If richness is multi-scale organised structure, the
+measurement should be made at and across scales, which favours scale-resolved or renormalization-style
+estimators over single-scale ones.
 
-A point that the CBH's verbal account leaves implicit becomes unavoidable once the claim is made
-computable. The "high entropy and high complexity together" regime that the CBH attributes to fine-grained
-HCPEs cannot live at the maximal-entropy limit, because at maximal entropy every system is uniform and
-hence structureless, forcing $C_N = \Phi = 0$. In our framework the rich high-entropy state is the matched
-system at $H=3.17$ of a 4-bit maximum of $4.0$, with positive $C_N$ and $\Phi$; push entropy to its
-ceiling and complexity must vanish. So "high entropy with high complexity" must mean high relative to
-baseline wakefulness, not maximal. This is not a quibble: it bounds how far up the entropy axis the rich
-regime can sit, and it predicts that pushing a system toward maximal disorder, however that is achieved
-pharmacologically, should eventually reduce rather than increase phenomenal richness, even on the EBH's own
-entropy measure.
+### 5.6 Scope
 
-### 5.5 What the result does and does not establish
-
-We have tested the information-theoretic content of the CBH: that entropy and complexity dissociate, that
+We have tested the information-theoretic content of the CBH, that entropy and complexity dissociate, that
 the dissociation is grain-dependent, and that complexity is the better index of structure. We have not
-tested the neuroscientific or phenomenological claims, whether meditation or particular psychedelics
-realise the coarse- and fine-grained regimes in the brain, which is an empirical question about human data,
-not about small dynamical systems. Our contribution is to show that the formal core of the hypothesis is
-coherent and demonstrable, to identify which complexity measure carries it, and to surface two
-consequences, the low-entropy conundrum and the submaximal-entropy bound, that the verbal account does not
-make explicit.
+tested the neuroscientific or phenomenological claims, whether meditation or particular psychedelics realise
+the coarse- and fine-grained regimes in the brain, which is an empirical question about human data. The
+contribution is to show the formal core coherent and demonstrable, to identify the measure that carries it,
+and to surface the ordered-limit and submaximal-entropy consequences that the verbal account leaves implicit.
+
+The exact-$\Phi$ oracle used here is shared with a companion line of work that validates candidate
+consciousness measures against exact $\Phi$ on small systems, where computing the ground-truth quantity
+rather than a proxy has shown that several widely-used measures track exact $\Phi$ poorly. The present
+study applies the same discipline in the other direction: rather than asking whether a proxy tracks $\Phi$,
+it asks whether a theoretical claim about entropy and complexity survives exact computation, and which of
+the available exact measures carries it. Both rest on the premise that, on the rare systems where the
+quantities consciousness science cares about are exactly computable, claims about those quantities should
+be settled by computing them.
 
 ## 6. Limitations
 
-The systems are small: a $4\times4$ exact Ising lattice (a finite-size crossover, not a sharp transition),
-a $16\times16$ sampled lattice for the grain sweep, and $n=4$ for the exact-$\Phi$ experiment. We claim the
+The systems are small: a $4\times4$ exact Ising lattice (a finite-size crossover, not a sharp transition), a
+$16\times16$ sampled lattice for the grain sweep, and $n=4$ for the exact-$\Phi$ experiment. We claim the
 qualitative dissociation, not critical exponents. Apparent complexity is operationalised by a computable
-surrogate, the entropy of coarse-grained block values, not Kolmogorov complexity, which is uncomputable;
-the surrogate captures the rise-and-fall but is one reasonable choice among several. The grain sweep is
-sampled rather than exact and shows finite-size sensitivity in the ordered-versus-critical ordering, though
-the disordered-state collapse survives bootstrap CIs. $C_N$ conflates redundancy with complexity for
-ordered ensembles, and $\Phi$ rates an engineered integrative rule as integrated even when ordered; both
-are discussed as findings rather than hidden. The FEP complexity term is part of the CBH's grounding but is
-not computed here, for want of a specified generative model. Concrete next steps follow from these limits:
-larger lattices via tensor-network or transfer-matrix methods to reach a genuine critical regime and a
-clean ordered-end collapse; direct instantiation of the FEP KL term on a hierarchical model (§5.3);
-approximate large-scale $\Phi$ or $\Phi$-proxies to extend the integration analysis beyond $n=4$; and
-application of the same entropy-versus-complexity contrast to real fMRI and EEG, using Lempel–Ziv, the
-Block Decomposition Method, or perturbational complexity, in the high-entropy states the CBH is about.
+surrogate, the entropy of coarse-grained block values, not Kolmogorov complexity; the surrogate captures the
+rise-and-fall but is one reasonable choice. The grain sweep is sampled and shows finite-size sensitivity in
+the ordered-versus-critical ordering, though the disordered-state collapse survives bootstrap intervals.
+$C_N$ conflates redundancy with complexity for ordered ensembles, and $\Phi$ rates an engineered integrative
+rule as integrated even when ordered; both are reported as findings. The free-energy complexity term is part
+of the CBH's grounding but is not computed here, for want of a specified generative model. The next steps
+follow from these limits: larger lattices by tensor-network or transfer-matrix methods to reach a genuine
+critical regime; direct computation of the free-energy divergence on a hierarchical model (§5.3); approximate
+large-scale $\Phi$ to extend the integration analysis beyond $n=4$; and the entropy-versus-complexity
+contrast on real fMRI and EEG, using Lempel–Ziv complexity, the Block Decomposition Method, or perturbational
+complexity, in the high-entropy MPE states the CBH concerns.
 
 ## 7. Conclusion
 
 The Complex Brain Hypothesis proposes that complexity, not entropy, indexes the richness of conscious
 experience, and that high entropy can accompany both rich and contentless states depending on the grain of
-inference. The hypothesis was conceptual, and its authors called for a computational instantiation. We
-supplied one, on their own example systems and on systems where IIT-4.0 $\Phi$ is exact. Entropy is
+inference. It was a conceptual proposal, and its authors called for a computational instantiation. We
+provided one on the systems the hypothesis invokes and on systems where IIT-4.0 $\Phi$ is exact. Entropy is
 monotone in disorder; complexity peaks at intermediate structure and collapses at maximal disorder; exact
 $\Phi$ is destroyed by disorder; and two systems matched at high entropy are separated by complexity and
-$\Phi$. The CBH's central dissociation holds with exact numbers. The instantiation goes further than
-confirmation: it identifies grain-dependent apparent complexity as the measure that realises the full CBH
-picture, because it alone is low at both the ordered and disordered extremes, where raw TSE complexity and
-exact $\Phi$ each misfire for distinct, system-specific reasons; and it surfaces two consequences the
-verbal account leaves implicit, a symmetric low-entropy conundrum and a ceiling on the entropy at which
-rich states can sit. The entropy–content conundrum is resolvable on computable systems, and the resolution
-names its own instrument.
-
-### 5.6 Implications for measuring complexity in practice
-
-The practical lesson generalises beyond the CBH. A research programme that wishes to use "complexity" as
-a correlate of consciousness must specify which complexity, because the candidates diverge exactly where
-it matters. Our three measures are properties of three different objects, and their divergences are not
-noise but information. A measure read off the *occupancy distribution* (such as $C_N$, or any
-multi-information-based quantity) will rate a redundant, synchronised, low-entropy state as complex,
-because redundancy is integration; this is the failure mode relevant to hypersynchronous states such as
-seizures, which are low-entropy and low-richness yet highly integrated. A measure read off the *mechanism*
-(such as $\Phi$) will rate any strongly-coupled deterministic system as integrated regardless of its
-phenomenological richness, the failure mode our parity ring exhibits. A measure read off a *coarse-grained
-representation* (apparent complexity) is the only one of the three that is low for both the rigid and the
-chaotic extremes, because coarse-graining discards both the trivial uniformity of order and the
-unstructured detail of noise, retaining only multi-scale structure. If the CBH is right that richness is
-multi-scale organised structure, then the measurement should be done at, and across, scales, which is an
-argument for scale-resolved or renormalization-style complexity estimators over single-scale ones in
-empirical work. This is a concrete methodological recommendation that falls out of the instantiation and
-that the verbal hypothesis could not have delivered.
-
-## Appendix A: algorithms and reproducibility
-
-We give compact pseudocode for the four computations; the executable versions are in the cited modules.
-
-**A.1 Exact Ising sweep (`ising.py`, Experiment A).** Enumerate all $2^{16}$ configurations of the
-$4\times4$ periodic lattice once; for each, compute $E(s)=-\sum_{\langle ij\rangle}s_i s_j$ vectorised
-over the right- and down-neighbour bonds. For each temperature $T$: form Boltzmann weights
-$w(s)\propto e^{-E(s)/T}$ normalised to sum to 1; compute $H=-\sum_s w(s)\log_2 w(s)$; compute $C_N$ on
-the 16-spin joint $w$ by marginalising onto subsets (subsets sampled when $\binom{16}{k}$ is large); and
-compute apparent complexity by histogramming Boltzmann-weighted block magnetizations. All quantities are
-exact expectations under $w$, no sampling.
-
-**A.2 Grain sweep (`ising.py`, Experiment B).** For each $T\in\{1.0,2.27,6.0\}$: run single-spin
-Metropolis on the $16\times16$ lattice (burn-in, then 400 configurations thinned by 20 steps); for each
-block size $b$, precompute the $(400 \times (16/b)^2)$ matrix of block magnetizations once; apparent
-complexity is the entropy of the pooled block-magnetization histogram; bootstrap 95% CIs by resampling
-the 400 configurations 400 times and recomputing.
-
-**A.3 Parity ring with exact $\Phi$ (`run.py`, Experiment C).** Build the $16\times16$ state-by-state
-TPM: for each current state $s$, apply $x_i\mapsto x_{i-1}\oplus x_{i+1}$, then mix each node's output
-toward $0.5$ by noise $\nu$; this defines $P(s'\mid s)$. Obtain $\pi$ by power iteration ($\pi \leftarrow
-\pi P$ to convergence). Compute $H(\pi)$ and $C_N(\pi)$. For exact $\Phi$, hand the state-by-node TPM and
-connectivity to PyPhi's IIT-4.0 `sia` over each reachable state (the `proxy_audit.exact_phi` oracle),
-returning the mean and max with negatives clamped to 0.
-
-**A.4 Matched-entropy dissociation (`dissociation.py`, §3.6).** Compute $H(\pi)$ for the parity ring at
-$\nu=0.125$ (giving $3.17$ bits). Solve $4\,H_b(p)=3.17$ for the bit-bias $p$ by bisection (giving
-$p\approx0.24$); construct the independent-bit joint $\prod_i \mathrm{Bernoulli}(p)$; compute its $C_N$
-(zero by independence) and report $\Phi=0$. Compare against the ring's $C_N$ and exact $\Phi$ at the same
-entropy.
+$\Phi$. The dissociation holds with exact numbers, and an empirical analogue is already on record (Farnes et
+al. 2020). The instantiation identifies grain-dependent apparent complexity as the measure that realises the
+full picture, since it alone is low at both the ordered and disordered extremes where $C_N$ and $\Phi$ each
+misfire, and it bounds the structured high-entropy regime below the maximal-entropy ceiling. The
+entropy–content conundrum is resolvable on computable systems, and the resolution names its instrument.
 
 ## Data and code availability
 
 All code, data, and figures are at https://github.com/rogerSuperBuilderAlpha/iit-experiments
-(`cbh_complexity/`). Reproduce end-to-end: `python -m cbh_complexity.complexity` (instrument controls),
+(`cbh_complexity/`). Reproduce end to end: `python -m cbh_complexity.complexity` (instrument controls),
 `python -m cbh_complexity.run` (the three experiments, including the bootstrap grain sweep),
-`python -m cbh_complexity.dissociation` (matched-entropy dissociation), `python -m cbh_complexity.analyze`
+`python -m cbh_complexity.dissociation` (matched-entropy systems), `python -m cbh_complexity.analyze`
 (summary statistics), and `python -m cbh_complexity.figures` (Figure 1). The exact-$\Phi$ oracle is reused
-from `proxy_audit/`. Exact enumeration scripts and the parity-ring transition matrices are included.
+from `proxy_audit/`. The literature scan behind the references is in `literature/deep_research_report.md`.
+
+## Appendix A. Algorithms
+
+**A.1 Exact Ising sweep (`ising.py`).** Enumerate all $2^{16}$ configurations of the $4\times4$ periodic
+lattice once; compute $E(s)$ vectorised over right- and down-neighbour bonds. Per temperature: form
+Boltzmann weights $w(s)\propto e^{-E(s)/T}$ normalised to sum to one; compute $H=-\sum_s w(s)\log_2 w(s)$;
+compute $C_N$ on the 16-spin joint $w$ by marginalising onto subsets (sampled when $\binom{16}{k}$ is large);
+compute apparent complexity by histogramming Boltzmann-weighted block magnetizations. All quantities are
+exact expectations under $w$.
+
+**A.2 Grain sweep (`ising.py`).** Per temperature, run single-spin Metropolis on the $16\times16$ lattice
+(burn-in, then $400$ configurations thinned by $20$ steps); per block size, precompute the block-magnetization
+matrix once; apparent complexity is the entropy of the pooled histogram; bootstrap $95\%$ intervals by
+resampling the $400$ configurations $400$ times.
+
+**A.3 Parity ring with exact $\Phi$ (`run.py`).** Build the $16\times16$ TPM: per current state, apply
+$x_i\mapsto x_{i-1}\oplus x_{i+1}$, then mix each node's output toward $0.5$ by noise $\nu$. Obtain $\pi$ by
+power iteration. Compute $H(\pi)$ and $C_N(\pi)$. For exact $\Phi$, hand the state-by-node TPM and
+connectivity to PyPhi's IIT-4.0 analysis over each reachable state, returning mean and max with negatives
+clamped to zero.
+
+**A.4 Matched-entropy systems (`dissociation.py`).** Compute $H(\pi)$ for the ring at $\nu=0.125$ ($3.17$
+bits). Solve $4\,H_b(p)=3.17$ for the bias $p$ by bisection ($p\approx0.24$); construct the independent-bit
+joint $\prod_i\mathrm{Bernoulli}(p)$; compute its $C_N$ (zero) and report $\Phi=0$. Compare against the ring's
+$C_N$ and exact $\Phi$ at the same entropy.
 
 ## Acknowledgments
 
 This study was developed with AI assistance (Anthropic's Claude) for code, analysis, and drafting; all
 quantitative claims were checked against computed results. We thank the authors of the Complex Brain
-Hypothesis for an open preprint; this constructive response is offered collegially, and a courtesy copy
-will be sent.
+Hypothesis for an open preprint; this response is offered collegially, and a courtesy copy will be sent.
 
 ## References
 
-Citations resolve to `literature/references.bib`. Key sources:
+Citations resolve to `literature/references.bib`.
 
 - Aaronson, S., Carroll, S. M., & Ouellette, L. (2014). Quantifying the rise and fall of complexity in
   closed systems: the coffee automaton. arXiv:1405.6903.
-- Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0: formulating the properties of
-  phenomenal existence in physical terms. *PLOS Comput. Biol.* 19(10):e1011465.
+- Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0. *PLOS Comput. Biol.*
+  19(10):e1011465.
 - Carhart-Harris, R. L., et al. (2014). The entropic brain. *Front. Hum. Neurosci.* 8:20.
 - Carhart-Harris, R. L. (2018). The entropic brain — revisited. *Neuropharmacology* 142:167–178.
+- Carhart-Harris, R. L., & Friston, K. J. (2019). REBUS and the anarchic brain: toward a unified model of
+  the brain action of psychedelics. *Pharmacol. Rev.* 71(3):316–344.
 - Casali, A. G., et al. (2013). A theoretically based index of consciousness independent of sensory
   processing and behavior. *Sci. Transl. Med.* 5(198):198ra105.
-- Casarotto, S., et al. (2016). Stratification of unresponsive patients by an independently validated
-  index of brain complexity. *Ann. Neurol.* 80(5):718–729.
+- Casarotto, S., et al. (2016). Stratification of unresponsive patients by an independently validated index
+  of brain complexity. *Ann. Neurol.* 80(5):718–729.
 - Farnes, N., et al. (2020). Increased signal diversity/complexity of spontaneous EEG, but not evoked EEG
   responses, in sub-anesthetic ketamine in healthy volunteers. *PLOS ONE* 15(11):e0242056.
-- Friston, K. (2010). The free-energy principle: a unified brain theory? *Nat. Rev. Neurosci.*
-  11:127–138.
+- Friston, K. (2010). The free-energy principle: a unified brain theory? *Nat. Rev. Neurosci.* 11:127–138.
 - Gell-Mann, M., & Lloyd, S. (1996). Information measures, effective complexity, and total information.
   *Complexity* 2(1):44–52.
 - Mago, J., Lopez-Sola, E., Vohryzek, J., Lifshitz, M., Carhart-Harris, R., Friston, K., & Chandaria, S.
   (2026). The Complex Brain Hypothesis: Resolving the Entropy–Content Conundrum in Minimal Phenomenal
   Experience. arXiv:2605.16146.
-- Mehta, P., & Schwab, D. J. (2014). An exact mapping between the variational renormalization group and
-  deep learning. arXiv:1410.3831.
+- Mehta, P., & Schwab, D. J. (2014). An exact mapping between the variational renormalization group and deep
+  learning. arXiv:1410.3831.
 - Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of
   consciousness: IIT 3.0. *PLOS Comput. Biol.* 10(5):e1003588.
 - Schartner, M. M., et al. (2015). Complexity of multidimensional spontaneous EEG decreases during
   propofol-induced general anaesthesia. *PLOS ONE* 10(8):e0133532.
 - Schartner, M. M., et al. (2017). Increased spontaneous MEG signal diversity for psychoactive doses of
   ketamine, LSD and psilocybin. *Sci. Rep.* 7:46421.
+- Schartner, M. M., et al. (2017). Global and local complexity of intracranial EEG decreases during NREM
+  sleep. *Neurosci. Conscious.* 2017(1):niw022.
 - Tagliazucchi, E., et al. (2014). Enhanced repertoire of brain dynamical states during the psychedelic
   experience. *Hum. Brain Mapp.* 35(11):5442–5456.
-- Tononi, G., Sporns, O., & Edelman, G. M. (1994). A measure for brain complexity: relating functional
-  segregation and integration in the nervous system. *PNAS* 91(11):5033–5037.
-- Vohryzek, J., et al. (2025). Whole-brain models of minimal phenomenal experience: approaching
-  criticality through jhāna meditation. bioRxiv 2025.09.25.678574.
+- Tononi, G., Sporns, O., & Edelman, G. M. (1994). A measure for brain complexity. *PNAS* 91(11):5033–5037.
+- Vohryzek, J., et al. (2025). Whole-brain models of minimal phenomenal experience: approaching criticality
+  through jhāna meditation. bioRxiv 2025.09.25.678574.
