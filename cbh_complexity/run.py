@@ -38,11 +38,15 @@ def exp_A_ising_exact():
 
 def exp_B_ising_grain(seed=1):
     rng = np.random.default_rng(seed)
-    rows = ising.grain_sweep(L=16, temps=(1.0, 2.27, 6.0), grains=(1, 2, 4, 8),
-                             n_samples=400, rng=rng)
+    grains = (1, 2, 4, 8)
+    rows = ising.grain_sweep(L=16, temps=(1.0, 2.27, 6.0), grains=grains,
+                             n_samples=400, n_boot=400, rng=rng)
+    fields = ["T"]
+    for b in grains:
+        fields += [f"AC_grain{b}", f"AC_grain{b}_lo", f"AC_grain{b}_hi"]
     path = f"{RES}/ising_grain.csv"
     with open(path, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["T", "AC_grain1", "AC_grain2", "AC_grain4", "AC_grain8"])
+        w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader(); w.writerows(rows)
     print(f"Wrote {path}")
 

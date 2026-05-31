@@ -14,7 +14,7 @@ exactly, large enough to show the finite-size crossover near the 2D critical tem
 
 import numpy as np
 
-from .complexity import entropy_bits, apparent_complexity, tse_complexity
+from .complexity import entropy_bits, apparent_complexity, tse_complexity, block_magnetizations
 
 
 def _all_configs(L):
@@ -96,20 +96,41 @@ def metropolis_samples(L, T, n_samples=400, burn=2000, thin=20, rng=None):
     return np.array(out, dtype=np.int8)
 
 
-def grain_sweep(L=16, temps=(1.0, 2.27, 6.0), grains=(1, 2, 4, 8), n_samples=300, rng=None):
-    """Apparent complexity vs grain at several temperatures, on a sampled L×L lattice. Demonstrates the
-    grain-dependence (CBH claim C2): a high-T disordered state's apparent complexity is high at fine
-    grain and collapses under coarse-graining, while a critical state retains it across grains."""
+def grain_sweep(L=16, temps=(1.0, 2.27, 6.0), grains=(1, 2, 4, 8), n_samples=400,
+                n_boot=400, rng=None):
+    """Apparent complexity vs grain at several temperatures, on a sampled L×L lattice, with bootstrap
+    95% CIs over the sampled configurations. Demonstrates the grain-dependence (CBH claim C2): a high-T
+    disordered state's apparent complexity collapses under coarse-graining. CIs are reported because
+    this is the one non-exact experiment; the ordered/critical ordering is not expected to survive
+    them, while the disordered-state collapse should."""
     if rng is None:
         rng = np.random.default_rng(0)
+    bins = np.linspace(-1.0, 1.0, 10)
+
+    def ac_from_blockmags(bm_matrix, idx):
+        # entropy of the pooled block-magnetization histogram over the configs in idx
+        sub = bm_matrix[idx].ravel()
+        hist, _ = np.histogram(sub, bins=bins)
+        if hist.sum() == 0:
+            return 0.0
+        return entropy_bits(hist / hist.sum())
+
     rows = []
     for T in temps:
         configs = metropolis_samples(L, T, n_samples=n_samples, rng=rng)
-        w = np.full(len(configs), 1.0 / len(configs))
+        m = len(configs)
         row = {"T": float(T)}
         for b in grains:
-            if b <= L:
-                row[f"AC_grain{b}"] = apparent_complexity(configs, w, L, b)
+            if b > L:
+                continue
+            # precompute block magnetizations once: (n_samples, n_blocks)
+            bm = np.array([block_magnetizations(c, L, b) for c in configs])
+            idx_all = np.arange(m)
+            row[f"AC_grain{b}"] = ac_from_blockmags(bm, idx_all)
+            boots = [ac_from_blockmags(bm, rng.choice(idx_all, m, replace=True))
+                     for _ in range(n_boot)]
+            row[f"AC_grain{b}_lo"] = float(np.percentile(boots, 2.5))
+            row[f"AC_grain{b}_hi"] = float(np.percentile(boots, 97.5))
         rows.append(row)
     return rows
 

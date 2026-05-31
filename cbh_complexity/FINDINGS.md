@@ -36,20 +36,25 @@ systems matched at high entropy are cleanly separated by complexity and exact II
 
 Same entropy; complexity and Φ separate them.
 
-## Which measure realises the CBH claim
-- **Exact Φ**: cleanly rejects the disordered high-entropy state (Φ=0), but is *highest* at the ordered
-  low-entropy end (Φ_max=0.50, monotone decreasing in disorder) — it tracks integration, so a
-  deterministic ordered cycle counts as maximally integrated. Resolves the high-entropy conundrum; not a
-  low-at-both-ends richness index.
-- **TSE neural complexity Cₙ**: separates the two high-entropy regimes, but conflates order with
-  complexity at the low-entropy end (redundancy). Same profile as Φ in that respect.
-- **Apparent complexity under coarse-graining**: the only candidate low at *both* extremes and high only
-  for structured intermediates (the full Aaronson picture); shows the disordered-state collapse here, but
-  is the noisiest (sampled, finite-size). This is the construct the CBH's coffee/Ising illustrations
-  actually point to.
-- **Net:** neither raw Cₙ nor exact Φ is a complete richness index; both resolve the high-entropy
-  conundrum the CBH is about, and coarse-grained apparent complexity is the measure that matches the full
-  claim.
+## Which measure realises the CBH claim (the ordered-end misfire is system-specific)
+All three measures resolve the **high-entropy** end (disorder → low Cₙ, Φ=0). They differ at the
+**low-entropy ordered** end, and the differences are system- and measure-specific, not one uniform story:
+- **TSE neural complexity Cₙ**: high (7.5) at the *Ising* ordered end, because that order is a redundant
+  two-ground-state ensemble (high mutual information). But on the *parity ring* at noise 0 (a single
+  absorbing fixed point), Cₙ = 0 — low at both ends, behaving well. So "Cₙ misfires at order" is true only
+  for redundant ensembles, not point-mass order.
+- **Exact Φ**: highest (0.50) at the parity-ring ordered end and monotone-decreasing in disorder, because
+  XOR is integrative *by construction* — a mechanism property, independent of the stationary distribution.
+  This is an artefact of the engineered rule; real ordered low-entropy brain states (sleep, anaesthesia)
+  show *low* integration/PCI (Casali et al. 2013), consistent with apparent complexity.
+- **Apparent complexity under coarse-graining**: the only candidate reliably low at *both* extremes and
+  high only for structured intermediates (the full Aaronson picture); shows the disordered-state collapse
+  here (bootstrap-supported), but is the noisiest (sampled, finite-size). The construct the CBH's
+  coffee/Ising illustrations actually point to.
+- **Net:** neither raw Cₙ nor exact Φ is a complete richness index — each introduces a *low-entropy*
+  conundrum for a distinct, system-specific reason — and grain-dependent apparent complexity is the measure
+  that matches the full claim. (Note: Cₙ/H are stationary-distribution quantities, Φ a mechanism quantity;
+  they describe different objects, which is why they disagree at the ordered limit.)
 
 ## What this does and does not say
 - It shows the CBH's information-theoretic core (entropy ≠ complexity; grain-dependence; complexity

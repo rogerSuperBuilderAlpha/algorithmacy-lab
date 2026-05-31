@@ -59,8 +59,11 @@ def main():
     for r in B:
         Tv = float(r["T"])
         c, lab = styles.get(round(Tv, 2), ("k", f"T={Tv}"))
-        vals = [float(r[f"AC_grain{g}"]) for g in grains]
-        a.plot(grains, vals, "o-", color=c, label=lab)
+        vals = np.array([float(r[f"AC_grain{g}"]) for g in grains])
+        lo = np.array([float(r.get(f"AC_grain{g}_lo", v)) for g, v in zip(grains, vals)])
+        hi = np.array([float(r.get(f"AC_grain{g}_hi", v)) for g, v in zip(grains, vals)])
+        a.errorbar(grains, vals, yerr=[vals - lo, hi - vals], fmt="o-", color=c, label=lab,
+                   capsize=3, lw=1.5, ms=5)
     a.set_xlabel("coarse-graining grain (block size)"); a.set_ylabel("apparent complexity (bits)")
     a.set_title("(c) grain-dependence: disordered state collapses when coarsened")
     a.set_xticks(grains); a.legend(frameon=False, fontsize=9)

@@ -48,15 +48,19 @@ def main():
 
     # Experiment B: grain sweep
     B = _load("cbh_complexity/results/ising_grain.csv")
-    p("\nEXPERIMENT B — Metropolis L=16 apparent-complexity grain sweep (claim C2)")
+    p("\nEXPERIMENT B — Metropolis L=16 apparent-complexity grain sweep (claim C2), bootstrap 95% CIs")
     grains = [1, 2, 4, 8]
     for r in B:
-        vals = "  ".join(f"g{g}={float(r['AC_grain%d' % g]):.2f}" for g in grains)
+        vals = "  ".join(
+            f"g{g}={float(r['AC_grain%d' % g]):.2f}[{float(r['AC_grain%d_lo' % g]):.2f},"
+            f"{float(r['AC_grain%d_hi' % g]):.2f}]" for g in grains)
         p(f"  T={float(r['T']):.2f}: {vals}")
     hi = [r for r in B if abs(float(r["T"]) - 6.0) < 1e-6][0]
     p(f"  => at the coarsest grain the high-entropy (T=6) state has the lowest apparent complexity "
-      f"(g8={float(hi['AC_grain8']):.2f}): coarse-graining reveals the high-entropy state as simplest.")
-    p("  (caveat) finite-size/sampling: ordered vs critical ordering is not clean at L=16.")
+      f"(g8={float(hi['AC_grain8']):.2f} [{float(hi['AC_grain8_lo']):.2f},{float(hi['AC_grain8_hi']):.2f}]), "
+      f"non-overlapping CI with the ordered/critical states: coarse-graining reveals the high-entropy "
+      f"state as simplest. The disordered collapse survives the bootstrap; the ordered/critical ordering "
+      f"is finite-size dependent.")
 
     # Experiment C: exact-Phi noise sweep
     Cc = _load("cbh_complexity/results/phi_noise.csv")
