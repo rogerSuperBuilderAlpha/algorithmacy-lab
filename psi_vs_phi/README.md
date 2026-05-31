@@ -23,6 +23,9 @@ and has no analogue of Φ's partition/exclusion structure). This is a direct, ne
 question Kearney (2026) explicitly posed. See [`FINDINGS.md`](FINDINGS.md) and
 [`results_section.md`](results_section.md).
 
+**→ Full assembled paper: [`paper_draft.md`](paper_draft.md)** (abstract, introduction, background,
+methods, results, discussion, limitations, conclusion, references).
+
 ![psi vs phi](results/psi_vs_phi.png)
 
 ## Contents
