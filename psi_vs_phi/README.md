@@ -12,9 +12,23 @@ framework (see the sibling `proxy_audit/`, `candidate_audit/`, `phiid_vs_phi/`).
 **Research question (Tier A):** does ψ(π) = log κ − H(π) − h(π) track exact IIT‑4.0 Φ?
 See [`research_question.md`](research_question.md).
 
-## Status
+## Result (Tier A complete)
 
-This folder currently holds the **literature foundation** for the study:
+**No — ψ does not track exact IIT‑4.0 Φ.** Across 181 ergodic networks, ψ vs Φ gives Spearman
+ρ ≈ 0.09 (95% CI includes 0; detection AUC ≈ chance), stable across two seeds; ψ ranks near the
+bottom of the candidate‑measure leaderboard while the whole‑minus‑sum family (which *has* a
+partition step) tracks Φ at ρ = 0.58 on the same networks. ψ is a complexity‑type quantity, not an
+integration measure — the theoretically anticipated outcome (the MaxCal–FEP duality is system‑level
+and has no analogue of Φ's partition/exclusion structure). This is a direct, negative answer to the
+question Kearney (2026) explicitly posed. See [`FINDINGS.md`](FINDINGS.md) and
+[`results_section.md`](results_section.md).
+
+![psi vs phi](results/psi_vs_phi.png)
+
+## Contents
+
+The study (`psi.py` measure + controls, `run.py`, `analyze.py`, `results/`, `FINDINGS.md`,
+`results_section.md`, `methods.md`) plus the literature foundation:
 
 | File | Contents |
 |------|----------|
@@ -26,9 +40,10 @@ This folder currently holds the **literature foundation** for the study:
 | `literature/pdfs/` | open‑access PDFs only |
 | `literature/deep_research_report.md` | output of the deep‑research scan |
 
-The ψ measure implementation and the ψ‑vs‑Φ experiment (`psi.py`, `run.py`, `analyze.py`,
-`results/`, `FINDINGS.md`) are a **later phase**, deferred so the exact definition of the MaxCal
-partition constant κ gets proper care before any numbers are trusted.
+The κ definition was transcribed exactly from Kearney §5.1–5.2 (κ = Σₓ 2^H(P(x,·)); ψ = D_KL(π‖µ)),
+verified against the paper's worked cases, and ψ validated on controls (`python -m psi_vs_phi.psi`)
+*before* any ψ–Φ number was computed. **Tier B** (extending the MaxCal *repertoire* derivation from
+IIT 3.0 to 4.0) remains future work.
 
 ## Copyright note
 `literature/pdfs/` contains **only open‑access** PDFs (arXiv, PLOS, Frontiers, MDPI/Entropy,
