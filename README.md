@@ -10,6 +10,9 @@ is integrated information, but the information needed to recover it is distribut
 across several cheap signals — and the closer a measure's structure is to IIT's
 own "whole‑minus‑parts" move, the more of that information it carries.*
 
+For the reusable method behind these studies — how to go from a recent paper to a
+defensible, reproducible contribution — see [`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md).
+
 ## Experiments
 
 ### [`proxy_audit/`](proxy_audit/) — Do cheap proxies track exact IIT‑4.0 Φ?
