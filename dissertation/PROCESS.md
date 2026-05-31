@@ -12,13 +12,34 @@ What differs is the *instrument* and the *ground truth*, which depend on the pap
 
 ## Mode A — integrative review (Paper 1)
 
-- **Instrument / ground truth:** the literature itself. "Validate before comparing" becomes the
-  **charitable-extension test** — represent each competing construct in its strongest form before showing it
-  cannot reach the triad. A straw-manned foreclosure is the failure mode.
-- **Register & length:** *Academy of Management Annals* (the existing draft and the cited *Annals* reviews
-  are the style anchor); ~12–20k words, not the 8k of the IIT papers.
+Full craft reference (with verified sources): `paper1_review/literature/integrative_review_methodology.md`.
+The genre standard, distilled:
+
+- **An integrative review derives NEW insight through synthesis/critique — it is not a summary** (Cronin &
+  George 2023; Torraco 2005/2016). The contribution must be "beyond a review": a theoretical/construct
+  contribution (Post et al. 2020). A *theory-driven* review is both **integrative** (synthesize prior work)
+  and **generative** (produce the new construct/framework), aligning with prior work while diverging from it
+  (Breslin & Gatrell 2023). Payoff = a **new conceptual framework** (here: the algorithmacy construct).
+- **State the methodological warrant** (Torraco's case (b): an *emerging* topic needing a construct).
+- **Frame by problematization, not gap-spotting** (Alvesson & Sandberg 2011): the variance puzzle as the
+  surface of a structural change; five-Cs intro (Lange & Pfarrer 2017).
+- **Instrument / ground truth = the literature.** "Validate before comparing" becomes the
+  **charitable-extension test** — represent each foreclosed construct in its *strongest* form before showing
+  it cannot reach the triad. A straw-manned foreclosure invalidates the contribution (the #1 failure mode).
+- **Auditability even though not systematic** (Snyder 2019; Sauer et al. 2023; Rousseau 2024): anchor the
+  corpus at the construct's level of analysis; construct-by-construct citation search (forward/backward
+  tracing, not keywords); explicit inclusion/exclusion criteria; a **comparison/synthesis table** of the
+  foreclosed constructs (× structural commitment × where each stops short).
+- **Bridge across disciplines explicitly** (Cronin & George 2023): the contribution lives across fields no
+  single one produced (communication / IS / org studies / literacy studies).
+- **Construct clarity** for the new construct (Suddaby 2010; Cronbach & Meehl 1955): definition, domain,
+  dimensions, discriminant position, nomological network.
+- **Future-research agenda is a real contribution** (Elsbach & van Knippenberg 2020): it opens the
+  measurement program (Papers 2–3).
 - **No measurement formalism** (scope discipline): the construct stands on the triad's structure alone.
-- **Citation integrity is the binding constraint:** management reviewers verify every cite.
+- **Register & length:** *Academy of Management Annals* (the existing draft + cited *Annals* reviews are the
+  style anchor); ~12–20k words, not the 8k of the IIT papers. **Citation integrity is binding** — management
+  reviewers verify every cite; resolve every cite to the `.bib` and confirm it directly.
 
 ## Mode B — construct development + measurement (Paper 2)
 

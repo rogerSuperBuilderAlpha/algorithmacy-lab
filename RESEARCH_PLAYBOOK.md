@@ -104,6 +104,16 @@ The order matters less than the discipline. Two rules carry most of the weight:
 
 ## Phase 7 — Write the paper
 
+> **Paper-type matters.** The structure and length below are for an *empirical* paper. For an **integrative
+> literature review** (theory/construct-building review for a management journal), the genre is different:
+> the contribution is a new framework derived by synthesis/critique, not a Methods/Results/Discussion report.
+> See `dissertation/PROCESS.md` "Mode A" and `dissertation/paper1_review/literature/integrative_review_methodology.md`
+> for the review-specific process — problematization framing, the charitable-extension foreclosure, a
+> synthesis table, construct clarity, auditable (non-systematic) search, ~12–20k words. The deep-research and
+> citation-integrity disciplines below still apply in full; for academic methodology/literature, the
+> **academic connectors** (Consensus, Scholar Gateway) return better peer-reviewed sources than web search,
+> so use them — the deep-research harness is web-only because its subagents can't reach those connectors.
+
 - Structure: Abstract, Introduction, Background (explain every construct), Methods, Results, Discussion,
   Limitations, Conclusion, Data/code availability, Acknowledgments, References.
 - **Target ~8000 words.** Explain every construct, every decision in the methods, and every inferential

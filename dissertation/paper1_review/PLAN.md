@@ -3,6 +3,13 @@
 **Mode:** theory / integrative review. **Target:** *Academy of Management Annals*. **Status:** scaffolded,
 not executed. **Decision (user):** rebuild from `OUTLINE.md`, using the prior draft as raw material.
 
+**Genre craft reference:** `literature/integrative_review_methodology.md` (the standard for a top-tier
+integrative review — methodological warrant, problematization framing, charitable-extension foreclosure,
+synthesis table, construct clarity, auditable search, ~12–20k words). Built from the methodology canon via
+the **academic connectors** (Consensus + Scholar Gateway), which return better peer-reviewed sources for
+methodology/literature than the web-only deep-research harness — use the connectors for the substantive
+construct literature too.
+
 ## What exists already (raw material, in `../sources/`)
 
 - `dissertation_5_3_26.md` — a polished 8-section working draft (§1 Introduction, §2 Method, §3 Triadic
