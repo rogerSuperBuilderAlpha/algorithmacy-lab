@@ -113,8 +113,9 @@ what the entropy is distributed over.
 
 ### 2.2 Complexity measures
 
-We use three computable complexity constructs, matched to the CBH's references, and define each fully
-because the results depend on their differences.
+We use three computable complexity constructs here, matched to the CBH's references, and define each fully
+because the results depend on their differences; a fourth, the CBH's free-energy complexity term, is defined
+and computed in §5.3.
 
 Tononi–Sporns–Edelman neural complexity, $C_N$ (Tononi, Sporns & Edelman 1994), combines integration, the
 degree to which the whole exceeds the sum of its parts, with differentiation, the degree to which the
@@ -488,16 +489,6 @@ approximation is needed: exact $\Phi$ is the quantity PCI estimates, computed wh
 is why the parity-ring $\Phi$ behaves as PCI does empirically, high for integrated dynamics and falling
 toward disorder.
 
-The Perturbational Complexity Index is the empirical relative of exact $\Phi$, and the relation clarifies
-what the exact computation adds. PCI perturbs cortex with TMS, which probes the system's causal
-responsiveness, and compresses the spatiotemporal response with Lempel–Ziv, which scores its
-differentiation; the product is a complexity of causal interactions, not a raw entropy (Casali et al. 2013;
-Casarotto et al. 2016). It is, in effect, a tractable approximation of the integration-plus-differentiation
-quantity that $\Phi$ defines exactly but that cannot be computed at brain scale. On our small systems no
-approximation is needed: exact $\Phi$ is the quantity PCI estimates, computed where it is computable, which
-is why the parity-ring $\Phi$ behaves as PCI does empirically, high for integrated dynamics and falling
-toward disorder.
-
 An empirical dissociation of the kind our toy systems model is on record. Farnes et al. (2020) found that
 under sub-anaesthetic ketamine, spontaneous EEG signal diversity rose while the TMS-evoked Perturbational
 Complexity Index did not differ from normal wakefulness, and they read integration or capacity (PCI) and
@@ -578,13 +569,14 @@ surrogate, the entropy of coarse-grained block values, not Kolmogorov complexity
 rise-and-fall but is one reasonable choice. The grain sweep is sampled and shows finite-size sensitivity in
 the ordered-versus-critical ordering, though the disordered-state collapse survives bootstrap intervals.
 $C_N$ conflates redundancy with complexity for ordered ensembles, and $\Phi$ rates an engineered integrative
-rule as integrated even when ordered; both are reported as findings. The free-energy complexity term is part
-of the CBH's grounding but is not computed here, for want of a specified generative model. The next steps
-follow from these limits: larger lattices by tensor-network or transfer-matrix methods to reach a genuine
-critical regime; direct computation of the free-energy divergence on a hierarchical model (§5.3); approximate
-large-scale $\Phi$ to extend the integration analysis beyond $n=4$; and the entropy-versus-complexity
-contrast on real fMRI and EEG, using Lempel–Ziv complexity, the Block Decomposition Method, or perturbational
-complexity, in the high-entropy MPE states the CBH concerns.
+rule as integrated even when ordered; both are reported as findings. The free-energy complexity term is
+computed here only for a mean-field, single-latent generative model (§5.3); the model-selection version that
+scores effective model dimension across grains, which §5.3 argues is the one that might match apparent
+complexity, is not built. The next steps follow from these limits: larger lattices by tensor-network or
+transfer-matrix methods to reach a genuine critical regime; the across-grain (Bayesian-Occam) free-energy
+quantity of §5.3; approximate large-scale $\Phi$ to extend the integration analysis beyond $n=4$; and the
+entropy-versus-complexity contrast on real fMRI and EEG, using Lempel–Ziv complexity, the Block Decomposition
+Method, or perturbational complexity, in the high-entropy MPE states the CBH concerns.
 
 ## 7. Conclusion
 
