@@ -100,6 +100,17 @@ the instantiation does more than confirm the hypothesis: it identifies which com
 the CBH picture, and it surfaces a symmetric low-entropy conundrum that the verbal account leaves
 implicit.
 
+We are not the first to pursue the CBH computationally. A companion effort, Vohryzek et al. (2025),
+fits whole-brain dynamical models to jhāna-meditation data and studies their approach to criticality.
+That work and ours are complementary and answer different questions. Whole-brain models test whether a
+biophysically-fitted system reproduces the empirical signatures of an MPE; they cannot compute exact
+$\Phi$, exact neural complexity, or exact entropy, because those quantities are intractable at brain
+scale, so they cannot directly exhibit the entropy-versus-complexity dissociation that is the CBH's core
+logical claim. Our systems are tiny and biologically unrealistic precisely so that every quantity is
+exact, which is what lets us show the dissociation as an identity rather than an approximation. The two
+approaches meet in the middle: the whole-brain models supply ecological validity, the exact systems
+supply the proof of principle.
+
 ## 2. Background
 
 ### 2.1 Entropy, and why it cannot be the whole story
@@ -111,7 +122,11 @@ clarification for readers coming from the empirical literature: the EBH's "entro
 ways, by Lempel–Ziv complexity of binarised time series, by sample or spectral entropy, by the diversity
 of microstates, and these estimators do not always agree. What they share, and what our exact $H$
 captures in idealised form, is that they all measure *diversity*, how spread the system's activity is over
-its possible states, without reference to how that activity is organised. The conundrum is a statement
+its possible states, without reference to how that activity is organised. The empirical basis for the EBH
+is real: spontaneous MEG signal diversity is reliably higher under psilocybin, ketamine, and LSD than in
+waking rest, even controlling for spectral power (Schartner et al. 2017), and the brain explores a wider
+repertoire of dynamical states under psilocybin (Tagliazucchi et al. 2014); these results motivate the
+reading of entropy as elevated richness (Carhart-Harris 2018) that the CBH then complicates. The conundrum is a statement
 about any such diversity measure: two systems can share high $H$ yet differ in the structure of what that
 entropy is distributed over. Entropy counts the diversity of states; it does not register how those
 states are organised. A maximally random system and a richly structured system can both have high
@@ -511,6 +526,18 @@ degrees of freedom (small KL). If so, the FEP complexity term and grain-dependen
 would coincide, unifying the CBH's two groundings on a computable system. We flag this as the most
 valuable extension.
 
+There is already an empirical dissociation of the kind our toy systems model. Farnes et al. (2020) found
+that under sub-anaesthetic ketamine, spontaneous EEG signal diversity (Lempel-Ziv complexity, coalition
+entropies) rose significantly, while the TMS-evoked Perturbational Complexity Index did not differ from
+normal wakefulness, and they read this as integration/capacity (PCI) and content-complexity being
+different quantities. That is the real-brain analogue of our result: a diversity measure and a
+complexity/integration measure come apart in the same state. More broadly, complexity measures track
+conscious *level* where raw entropy does not, falling under propofol and in NREM sleep (Schartner et al.
+2015, 2017) and grading disorders of consciousness (Casali et al. 2013; Casarotto et al. 2016). The CBH's
+contribution is to point out that the *other* direction, high entropy with low content, also occurs, in
+MPEs, and our instantiation shows why a complexity measure can capture both directions while entropy
+captures neither.
+
 The bridge to the brain runs through coarse-graining itself. Block-averaging the Ising lattice is a direct
 analogue of the spatial averaging that neuroimaging performs: an fMRI voxel sums over roughly a million
 neurons, and EEG and MEG sensors integrate over large cortical patches. Our finding that the high-entropy
@@ -671,8 +698,13 @@ Citations resolve to `literature/references.bib`. Key sources:
 - Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0: formulating the properties of
   phenomenal existence in physical terms. *PLOS Comput. Biol.* 19(10):e1011465.
 - Carhart-Harris, R. L., et al. (2014). The entropic brain. *Front. Hum. Neurosci.* 8:20.
+- Carhart-Harris, R. L. (2018). The entropic brain — revisited. *Neuropharmacology* 142:167–178.
 - Casali, A. G., et al. (2013). A theoretically based index of consciousness independent of sensory
   processing and behavior. *Sci. Transl. Med.* 5(198):198ra105.
+- Casarotto, S., et al. (2016). Stratification of unresponsive patients by an independently validated
+  index of brain complexity. *Ann. Neurol.* 80(5):718–729.
+- Farnes, N., et al. (2020). Increased signal diversity/complexity of spontaneous EEG, but not evoked EEG
+  responses, in sub-anesthetic ketamine in healthy volunteers. *PLOS ONE* 15(11):e0242056.
 - Friston, K. (2010). The free-energy principle: a unified brain theory? *Nat. Rev. Neurosci.*
   11:127–138.
 - Gell-Mann, M., & Lloyd, S. (1996). Information measures, effective complexity, and total information.
@@ -684,5 +716,13 @@ Citations resolve to `literature/references.bib`. Key sources:
   deep learning. arXiv:1410.3831.
 - Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of
   consciousness: IIT 3.0. *PLOS Comput. Biol.* 10(5):e1003588.
+- Schartner, M. M., et al. (2015). Complexity of multidimensional spontaneous EEG decreases during
+  propofol-induced general anaesthesia. *PLOS ONE* 10(8):e0133532.
+- Schartner, M. M., et al. (2017). Increased spontaneous MEG signal diversity for psychoactive doses of
+  ketamine, LSD and psilocybin. *Sci. Rep.* 7:46421.
+- Tagliazucchi, E., et al. (2014). Enhanced repertoire of brain dynamical states during the psychedelic
+  experience. *Hum. Brain Mapp.* 35(11):5442–5456.
 - Tononi, G., Sporns, O., & Edelman, G. M. (1994). A measure for brain complexity: relating functional
   segregation and integration in the nervous system. *PNAS* 91(11):5033–5037.
+- Vohryzek, J., et al. (2025). Whole-brain models of minimal phenomenal experience: approaching
+  criticality through jhāna meditation. bioRxiv 2025.09.25.678574.
