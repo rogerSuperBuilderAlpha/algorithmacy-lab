@@ -13,6 +13,14 @@ own "whole‑minus‑parts" move, the more of that information it carries.*
 For the reusable method behind these studies — how to go from a recent paper to a
 defensible, reproducible contribution — see [`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md).
 
+## Engagements with recent papers
+
+- [`psi_vs_phi/`](psi_vs_phi/) — does the maximum‑caliber information ψ (Kearney 2026)
+  track exact IIT‑4.0 Φ? **No**, and a partition step does not rescue it.
+- [`cbh_complexity/`](cbh_complexity/) — a computational instantiation of the Complex
+  Brain Hypothesis (Mago et al. 2026): on exactly‑computable systems, complexity (not
+  entropy) indexes structure, and we identify which complexity measures realise the claim.
+
 ## Experiments
 
 ### [`proxy_audit/`](proxy_audit/) — Do cheap proxies track exact IIT‑4.0 Φ?

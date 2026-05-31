@@ -1,0 +1,20 @@
+EXPERIMENT A — exact 4x4 Ising (the authors' own example)
+  entropy H: monotone 1.00 -> 15.27 over T=0.5..6.0 (Spearman(T,H)=+1.000, i.e. monotone increasing)
+  TSE complexity Cn: NON-monotone, peaks at T=2.25 (Cn=8.26; 2D Tc≈2.27) and collapses to Cn=1.84 at T=6.0 (highest entropy)
+  => high-entropy disordered state has LOW complexity: high entropy does not imply complexity.
+  (honest caveat) Cn is also high at low T (7.50, ordered/redundant): TSE Cn resolves the
+  conundrum at the high-entropy end but conflates order with complexity at the low-entropy end.
+
+EXPERIMENT B — Metropolis L=16 apparent-complexity grain sweep (claim C2)
+  T=1.00: g1=0.98  g2=1.76  g4=2.77  g8=2.53
+  T=2.27: g1=0.68  g2=1.65  g4=2.24  g8=2.02
+  T=6.00: g1=1.00  g2=2.23  g4=2.62  g8=1.89
+  => at the coarsest grain the high-entropy (T=6) state has the lowest apparent complexity (g8=1.89): coarse-graining reveals the high-entropy state as simplest.
+  (caveat) finite-size/sampling: ordered vs critical ordering is not clean at L=16.
+
+EXPERIMENT C — parity ring (n=4), exact IIT-4.0 Φ, order->disorder by noise
+  entropy H: monotone -0.00 -> 4.00 (Spearman(noise,H)=+1.000)
+  TSE complexity Cn: peaks at noise=0.075 (Cn=0.308), -> 0.000 at max noise
+  exact Φ_max: 0.50 (ordered) -> 0.00 (disordered); integration destroyed by disorder
+  => max-entropy state (noise 0.5): H=4.00 (max), Cn=0.000, Φ=0.000 -> maximal entropy, zero complexity/integration = 'contentless'.
+  Spearman(H, Cn)=-0.713, Spearman(H, Φmax)=-1.000: complexity and Φ are NOT monotone functions of entropy.

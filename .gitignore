@@ -14,3 +14,6 @@ emergence_vs_phi/results/run.log
 phiid_vs_phi/results/run.log
 psi_vs_phi/literature/kearney2026_fulltext.txt
 psi_vs_phi/results/run.log
+
+# extracted paper fulltext (OA arXiv source kept local, not committed)
+cbh_complexity/literature/cbh2026_fulltext.txt
