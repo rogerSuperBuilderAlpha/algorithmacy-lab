@@ -30,9 +30,16 @@ The order matters less than the discipline. Two rules carry most of the weight:
 - Create a dedicated project folder with a clear `README.md` stating the question and the result slot.
 - **Concept map** (`concepts.md`): list every theory and construct the target bridges, so you know what
   must be explained and what the failure modes are.
-- **Deep research** (the `deep-research` harness): fan out searches, fetch sources, return the ~25–30
-  most important papers with full citations, DOIs/arXiv IDs, open-access status, and — most importantly
-  — an explicit statement of the open gap your test would fill, and whether anyone has already done it.
+- **Deep research — run the actual harness, do not shortcut it.** Invoke the `deep-research` workflow;
+  fan out searches, fetch sources, adversarially verify, and write the result to
+  `literature/deep_research_report.md`. It must return the ~25–30 most important papers with full
+  citations, DOIs/arXiv IDs, open-access status, and — most importantly — an explicit statement of the
+  open gap your test fills and **whether anyone has already done it**. A "targeted scan" of the few
+  papers you already know is not a substitute: on the CBH engagement that shortcut produced a 10-entry
+  bibliography, missed a directly-relevant companion paper (a whole-brain model of the same hypothesis),
+  and nearly let a novelty overclaim and an unsupported empirical bridge through. The full run found the
+  companion paper, confirmed the gap, and supplied the empirical evidence base. A target bibliography is
+  ~25–30 entries, not ~10.
 - **Ingest** into `literature/`: per-paper notes, a `references.bib`, and PDFs.
   - **Copyright discipline (non-negotiable):** commit only open-access PDFs. For paywalled sources,
     store a note + DOI link, never the PDF. Flag OA status in the `.bib` `note` field.
@@ -41,10 +48,13 @@ The order matters less than the discipline. Two rules carry most of the weight:
 
 ## Phase 2 — Question and hypotheses
 
-- Write `research_question.md`: one falsifiable question, with **pre-registered** hypotheses. State both
-  the affirmative (H1) and the structurally-expected null (H0) so that a null is informative rather than
-  a non-result. Record any caveats (definitional ambiguities, regimes where the measure is undefined).
-- Name the outcome that each hypothesis predicts before running anything.
+- Write `research_question.md`: one falsifiable question, with hypotheses **fixed before computation**.
+  State both the affirmative (H1) and the structurally-expected null (H0) so that a null is informative
+  rather than a non-result. Record any caveats (definitional ambiguities, regimes where the measure is
+  undefined).
+- Name the outcome that each hypothesis predicts before running anything. Do **not** call this
+  "pre-registration" in the paper unless there is an actual OSF/registry record; write "claims fixed
+  before computation." A reviewer will flag the stronger word.
 
 ## Phase 3 — Methods (study comparators first)
 
@@ -96,14 +106,35 @@ The order matters less than the discipline. Two rules carry most of the weight:
 
 - Structure: Abstract, Introduction, Background (explain every construct), Methods, Results, Discussion,
   Limitations, Conclusion, Data/code availability, Acknowledgments, References.
-- **Explain every construct and every inferential step.** A reader should not need the source paper to
-  follow the argument.
-- **Argue, but in the register of the field.** Take positions and rebut objections, using
-  concession-then-claim structure ("There are encouraging results. However, …"). Study the actual
-  writing of the papers you cite (extract them with `pdftotext`) and match it.
-- **Avoid the AI-prose tells:** em-dash punches, bold-for-drama, argument meta-commentary ("we will
-  argue four claims"), breathless adjectives ("decisive", "with teeth"), and rhetorical asides ("Hold
-  onto this:"). Plain declarative sentences carry more weight.
+- **Target ~8000 words.** Explain every construct, every decision in the methods, and every inferential
+  step, so a reader needs neither the source paper nor the code to follow the argument. Include worked
+  examples (with arithmetic verified in code), full formulas, the robustness battery, and an appendix of
+  algorithms/pseudocode. Note the tension with the de-slop pass below: removing slop *shortens* the
+  draft, so reach ~8000 by adding substance (more results detail, a fuller construct treatment, a
+  mechanism mapping), never by reinflating with filler.
+- **Match the register of the papers you cite, by reading them first.** Before drafting, extract several
+  cited papers with `pdftotext` and study two things: their section-title convention and their prose
+  voice. Then match both. Argue and take positions, but through content and concession-then-claim
+  structure ("There are encouraging results. However, the measures are proxies, limiting their value"),
+  not through adjectives.
+- **Section titles conform to the field's convention: short noun phrases.** Real papers title sections
+  like "Two Inferential Regimes", "Apparent Complexity and Coarse-Graining", "Methods", "Discussion".
+  Do **not** use declarative-sentence titles ("The failure of integration at the ordered limit"),
+  colon-subtitle constructions, rhetorical titles ("Why entropy and complexity must come apart"), or
+  blog/slide headers ("Figure 1, panel by panel"). When in doubt, grep the cited papers' own headers and
+  copy the form.
+- **Run a dedicated de-slop pass, with checks.** The AI-prose tells, in rough order of how badly they
+  give the draft away:
+  - **Meta-narration about the argument**: "it is worth saying/unpacking", "the endpoint deserves
+    emphasis", "we are candid that", "the figure's punchline", "a hostile reading would say", "we will
+    argue four claims", "this is the crux".
+  - **Rhetorical asides and second person**: "Hold onto this:", "make no mistake", "hit the reader".
+  - **Em-dash punches** (target near zero; a few genuine parentheticals are fine), **bold-for-drama**
+    mid-sentence, **X-not-Y** constructions, and **triadic climaxes** ("cleanly, decisively, and at
+    every scale").
+  - **Breathless adjectives**: "decisive", "with teeth", "in miniature", "definitive", "striking".
+  Mechanise the check: `grep -c '—'` for em-dashes, grep for the phrase list above, and read the
+  section-title list on its own. Plain declarative sentences carry more weight than any of these.
 - Scope claims precisely to what was tested (here: the system-level scalar, not the repertoire-level
   derivation). State what the result does *not* establish.
 
@@ -125,12 +156,21 @@ The order matters less than the discipline. Two rules carry most of the weight:
 
 ## Phase 10 — Review cycles
 
-- Solicit external review. Treat every flagged item as one of three kinds:
+- **Run a self-review pass before, and after every substantial change, not only when external review
+  arrives.** A clean critical read of the assembled draft catches the inconsistencies that incremental
+  edits introduce (an added experiment that contradicts an earlier sentence, a claim the new numbers
+  refute). Do this even if no one has asked.
+- Treat every flagged item (yours or a reviewer's) as one of three kinds:
   - **A reasoning error** — fix by computing the truth, then rewrite. (Two of our §5/§4 claims were
     wrong and only computation revealed it.)
   - **An overstatement** — soften the modal (a structural *argument*, not a *theorem*).
   - **Polish** — titles, prose, citations, figure captions.
-- Re-run the full pipeline after substantive changes so the cited numbers always match the code.
+- **When a reviewer asks for a construct the draft deferred, instantiate and compute it, then report
+  what it actually does** — including when the result refutes your own earlier prediction. On the CBH
+  engagement, computing the deferred free-energy complexity term showed it behaved opposite to the
+  prediction the draft had made; reporting that honestly was a stronger result than the deferral.
+- Re-run the full pipeline after substantive changes so the cited numbers always match the code, and
+  re-run the de-slop checks (Phase 7) after any rewrite.
 
 ## Phase 11 — Outreach
 
@@ -168,7 +208,12 @@ The order matters less than the discipline. Two rules carry most of the weight:
 
 ## The short version
 
-Find an explicit open question you can answer with ground truth the authors lacked. Pre-register the
-hypotheses. Validate the instrument on the source's own controls before computing anything. Run the
-robustness battery and a positive control up front. Answer objections by building, not arguing. Compute
-every claim. Write plainly and cite honestly. Make it reproducible end to end. Then tell the author.
+Find an explicit open question you can answer with ground truth the authors lacked. Fix the hypotheses
+before computing. **Run the full deep-research harness** (not a quick scan) and confirm no one has
+already closed the gap. Validate the instrument on the source's own controls before computing anything.
+Run the robustness battery and a positive control up front. Answer objections by building, not arguing,
+and compute every claim, including ones a reviewer asks you to defer. **Write a ~8000-word paper that
+explains every construct, in the register of the papers you cite** — read them first, match their
+section-title convention (short noun phrases) and voice, and run a de-slop pass with mechanical checks.
+Cite honestly. Self-review before and after every substantial change. Make it reproducible end to end.
+Then tell the author.
