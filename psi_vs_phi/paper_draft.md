@@ -670,7 +670,7 @@ version.
 This study was developed with AI assistance (Anthropic's Claude) for code, analysis, and drafting; all
 scientific claims were checked against computed results. The exact-Φ oracle and candidate-measure
 framework reused here were built in the companion `iit-experiments` study. We thank A. Kearney for
-posting the motivating preprint openly; a courtesy copy of this response will be sent.
+posting the motivating preprint openly; a courtesy copy of this response was sent to the author.
 
 ## References
 
