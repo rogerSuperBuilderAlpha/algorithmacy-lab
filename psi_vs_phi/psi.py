@@ -71,12 +71,14 @@ def maxcal_marginal(P):
     return PP / kappa, float(np.log2(kappa)), Hc
 
 
-def psi(tpm_sbn):
-    """Maximum-caliber information ψ(π) of a state-by-node TPM.
+def psi_core(P):
+    """Maximum-caliber information ψ(π) directly from a state-by-state TPM ``P``.
 
     Returns dict with psi (= log2κ − H(π) − h(π)), psi_kl (= D_KL(π‖µ); must match),
-    i (= H(π) − h(π)), log2_kappa, H_pi, h_pi, and ergodic (bool)."""
-    P = convert.state_by_node2state_by_state(np.asarray(tpm_sbn, float))
+    i (= H(π) − h(π)), log2_kappa, H_pi, h_pi. This is the engine that ``psi`` and
+    the partitioned measure ``psi_partitioned`` both call; ``psi`` is just this on
+    the whole system's TPM, the partition measure calls it on reduced subchains."""
+    P = np.asarray(P, float)
     mu, log2_kappa, Hc = maxcal_marginal(P)
     pi = stationary_distribution(P)
     H_pi = _entropy_bits(pi)
@@ -92,8 +94,66 @@ def psi(tpm_sbn):
         "log2_kappa": log2_kappa,
         "H_pi": H_pi,
         "h_pi": h_pi,
-        "ergodic": is_ergodic(P),
     }
+
+
+def psi(tpm_sbn):
+    """Maximum-caliber information ψ(π) of a state-by-node TPM.
+
+    Returns dict with psi (= log2κ − H(π) − h(π)), psi_kl (= D_KL(π‖µ); must match),
+    i (= H(π) − h(π)), log2_kappa, H_pi, h_pi, and ergodic (bool)."""
+    P = convert.state_by_node2state_by_state(np.asarray(tpm_sbn, float))
+    out = psi_core(P)
+    out["ergodic"] = is_ergodic(P)
+    return out
+
+
+# --------------------------------------------------------------------------- #
+# Partitioned MaxCal integration ϕ_ψ — ψ given the partition step it lacks.
+# --------------------------------------------------------------------------- #
+
+def _reduced_subchain(J, sub, n):
+    """Marginal Markov sub-chain on node-subset ``sub`` from the lagged joint
+    ``J[s,s'] = π(s)·P(s'|s)`` over full states.
+
+    Projecting J onto (sub_prev, sub_next) gives the stationary-weighted joint of
+    the subsystem's consecutive states; row-normalising yields its reduced TPM
+    P_sub(a'|a). This is the same marginalisation the whole-minus-sum measure uses,
+    so ϕ_ψ and Φ_WMS treat the partition identically and differ only in the scalar."""
+    from candidate_audit.measures import marginal_lagged
+    Js = marginal_lagged(J, n, tuple(sub), tuple(sub))   # (2^|sub|, 2^|sub|)
+    row = Js.sum(axis=1, keepdims=True)
+    P_sub = np.divide(Js, row, out=np.full_like(Js, 1.0 / Js.shape[1]), where=row > _EPS)
+    return P_sub
+
+
+def psi_partitioned(tpm_sbn, n):
+    """Partitioned MaxCal integration ϕ_ψ: the IIT-style analogue that *adds a
+    partition step* to ψ.
+
+        ϕ_ψ = ψ(whole) − min_{bipartition (A,B)} [ ψ(A) + ψ(B) ]
+
+    where ψ(A) is ψ of the marginal sub-chain on node-set A. For independent A,B
+    the deviation is exactly additive (ψ(whole) = ψ(A)+ψ(B)), so ϕ_ψ measures the
+    irreducibility of the system's MaxCal deviation across its weakest cut —
+    exactly the operation ψ alone lacks and that Φ is built on. We minimise the
+    normalised difference (per IIT's MIP) and report the un-normalised value
+    there, mirroring ``phi_wms`` so the two are directly comparable. May be
+    negative (a known property of whole-minus-sum constructions)."""
+    from candidate_audit.measures import _bipartitions
+    P = convert.state_by_node2state_by_state(np.asarray(tpm_sbn, float))
+    pi = stationary_distribution(P)
+    J = pi[:, None] * P
+    psi_whole = psi_core(P)["psi"]
+    best, best_norm = 0.0, np.inf
+    for a, b in _bipartitions(n):
+        psi_a = psi_core(_reduced_subchain(J, a, n))["psi"]
+        psi_b = psi_core(_reduced_subchain(J, b, n))["psi"]
+        phi = psi_whole - psi_a - psi_b
+        norm = phi / min(len(a), len(b))
+        if norm < best_norm:
+            best_norm, best = norm, phi
+    return float(best)
 
 
 # --------------------------------------------------------------------------- #

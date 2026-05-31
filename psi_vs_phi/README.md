@@ -14,14 +14,26 @@ See [`research_question.md`](research_question.md).
 
 ## Result (Tier A complete)
 
-**No — ψ does not track exact IIT‑4.0 Φ.** Across 181 ergodic networks, ψ vs Φ gives Spearman
-ρ ≈ 0.09 (95% CI includes 0; detection AUC ≈ chance), stable across two seeds; ψ ranks near the
-bottom of the candidate‑measure leaderboard while the whole‑minus‑sum family (which *has* a
-partition step) tracks Φ at ρ = 0.58 on the same networks. ψ is a complexity‑type quantity, not an
-integration measure — the theoretically anticipated outcome (the MaxCal–FEP duality is system‑level
-and has no analogue of Φ's partition/exclusion structure). This is a direct, negative answer to the
-question Kearney (2026) explicitly posed. See [`FINDINGS.md`](FINDINGS.md) and
-[`results_section.md`](results_section.md).
+**No — ψ does not track exact IIT‑4.0 Φ, and giving it a partition step does not rescue it.** Across
+181 ergodic networks, ψ vs Φ gives Spearman ρ ≈ 0.09 (95% CI includes 0; detection AUC ≈ chance),
+robust to how Φ is aggregated (π‑weighted ρ = 0.02, max ρ = 0.13), stable across **five** seeds, and
+absent within every density/noise/gate stratum. ψ ranks near the bottom of the candidate‑measure
+leaderboard while the whole‑minus‑sum family (which *has* a partition step) tracks Φ at ρ = 0.58 on
+the same networks.
+
+We then tested the obvious rescue. A **partitioned MaxCal integration measure ϕ_ψ** (ψ given IIT's
+minimum‑information‑partition step) does *not* track Φ — it weakly **anti‑correlates** (ρ = −0.28),
+while the identical partition operation on a mutual information (Φ_WMS) tracks Φ at ρ = 0.58. So the
+missing ingredient is not the partition; it is that ψ is a KL **self‑divergence** (a complexity
+quantity), not a mutual‑information‑type comparison. We also rule out the version objection: ψ misses
+IIT **3.0** (the version Kearney derives) as badly as **4.0** (ρ = 0.11 vs 0.10), and 3.0 and 4.0 Φ
+agree (ρ = 0.86). Two hand‑built minimal systems show ψ ranking an *un*integrated system (ψ = 1.75,
+Φ = 0) above a maximally integrated one (ψ = 0.43, Φ = 1.38).
+
+ψ is a complexity‑type quantity, not an integration measure — the theoretically anticipated outcome
+(the MaxCal–FEP duality is system‑level and has no analogue of Φ's partition/exclusion structure).
+This is a direct, negative answer to the question Kearney (2026) explicitly posed. See
+[`FINDINGS.md`](FINDINGS.md) and [`results_section.md`](results_section.md).
 
 **→ Full assembled paper: [`paper_draft.md`](paper_draft.md)** (abstract, introduction, background,
 methods, results, discussion, limitations, conclusion, references).
@@ -30,8 +42,11 @@ methods, results, discussion, limitations, conclusion, references).
 
 ## Contents
 
-The study (`psi.py` measure + controls, `run.py`, `analyze.py`, `results/`, `FINDINGS.md`,
-`results_section.md`, `methods.md`) plus the literature foundation:
+The study — `psi.py` (ψ measure + the partitioned `psi_partitioned` ϕ_ψ + controls), `run.py`
+(dataset, seeds 1–5), `exact_phi3.py` (IIT‑3.0 comparator, n=3), `dissociation.py` (analytic
+ψ/Φ dissociation cases), `analyze.py` (all statistics: aggregation robustness, per‑cell, power,
+3.0), `figures.py` (`results/psi_vs_phi.png` + `psi_vs_phi_supp.png`), `FINDINGS.md`,
+`results_section.md`, `methods.md` — plus the literature foundation:
 
 | File | Contents |
 |------|----------|

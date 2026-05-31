@@ -22,18 +22,22 @@ from candidate_audit import measures as candmeas
 from . import psi as psimod
 
 SIZES = [3, 4]
-RESULTS_PATH = "psi_vs_phi/results/psi_audit.csv"
 
 
 def main(per_cell=15, seed=1):
     rng = np.random.default_rng(seed)
     ensemble = list(networks.generate_ensemble(SIZES, per_cell, rng))
     total = len(ensemble)
-    print(f"ψ vs exact IIT-4.0 Φ on {total} networks (seed={seed})...")
+    # seed 1 is the canonical file (psi_audit.csv); all seeds also get a per-seed file.
+    results_path = ("psi_vs_phi/results/psi_audit.csv" if seed == 1
+                    else f"psi_vs_phi/results/psi_audit_seed{seed}.csv")
+    global RESULTS_PATH
+    RESULTS_PATH = results_path
+    print(f"ψ vs exact IIT-4.0 Φ on {total} networks (seed={seed}) → {results_path}...")
 
     fields = ["idx", "n", "density", "noise", "ergodic",
-              "psi", "i", "log2_kappa", "H_pi", "h_pi",
-              "phi_mean", "phi_max",
+              "psi", "i", "log2_kappa", "H_pi", "h_pi", "phi_psi",
+              "phi_mean", "phi_max", "phi_piw", "gates",
               # candidate-audit measures on the same nets (for the leaderboard)
               "phi_wms", "stochastic_interaction", "total_correlation",
               "causal_density", "integrated_synergy", "tdmi"]
@@ -44,14 +48,16 @@ def main(per_cell=15, seed=1):
         for idx, (tpm, cm, meta) in enumerate(ensemble):
             n = meta["n"]
             p = psimod.psi(tpm)
+            phi_psi = psimod.psi_partitioned(tpm, n)
             cand = candmeas.all_measures(tpm, n)
-            phi_mean, phi_max, _ = exact_phi.network_phi(tpm, cm, n, rng)
+            phi_mean, phi_max, phi_piw, _ = exact_phi.network_phi_aggregations(tpm, cm, n, rng)
             w.writerow({
                 "idx": idx, "n": n, "density": meta["density"], "noise": meta["noise"],
                 "ergodic": int(p["ergodic"]),
                 "psi": p["psi"], "i": p["i"], "log2_kappa": p["log2_kappa"],
-                "H_pi": p["H_pi"], "h_pi": p["h_pi"],
-                "phi_mean": phi_mean, "phi_max": phi_max,
+                "H_pi": p["H_pi"], "h_pi": p["h_pi"], "phi_psi": phi_psi,
+                "phi_mean": phi_mean, "phi_max": phi_max, "phi_piw": phi_piw,
+                "gates": "|".join(meta["gates"]),
                 "phi_wms": cand["phi_wms"], "stochastic_interaction": cand["stochastic_interaction"],
                 "total_correlation": cand["total_correlation"], "causal_density": cand["causal_density"],
                 "integrated_synergy": cand["integrated_synergy"], "tdmi": cand["tdmi"],

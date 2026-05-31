@@ -89,6 +89,41 @@ def network_phi(tpm_sbn, cm, n, rng, max_states=16):
     return float(np.mean(phis)), float(np.max(phis)), len(phis)
 
 
+def network_phi_aggregations(tpm_sbn, cm, n, rng, max_states=16):
+    """Exact IIT-4.0 Φ aggregated over reachable states three ways: uniform mean,
+    max, and stationary-π-weighted mean.
+
+    The π-weighted aggregation is the most defensible comparator for a stationary
+    quantity like ψ, since it weights each state by how often the system actually
+    occupies it. For n ∈ {3,4} every reachable state is evaluated (≤16), so the
+    three aggregations are computed on the same exact per-state Φ values.
+
+    Returns (mean_phi, max_phi, piw_phi, n_evaluated)."""
+    from candidate_audit.measures import stationary_distribution
+    network = pyphi.Network(tpm_sbn, cm=cm)
+    states = reachable_states(tpm_sbn, n)
+    if len(states) > max_states:
+        idx = rng.choice(len(states), size=max_states, replace=False)
+        states = sorted(states[i] for i in idx)
+    pi = stationary_distribution(tpm_sbn)
+    phis, weights = [], []
+    for s in states:
+        state = tuple((s >> i) & 1 for i in range(n))
+        try:
+            subsystem = pyphi.Subsystem(network, state)
+        except exceptions.StateUnreachableError:
+            continue
+        phi = max(0.0, float(new_big_phi.sia(subsystem).phi))
+        phis.append(phi)
+        weights.append(pi[s])
+    if not phis:
+        return 0.0, 0.0, 0.0, 0
+    phis = np.array(phis)
+    w = np.array(weights)
+    w = w / w.sum() if w.sum() > 1e-12 else np.full(len(phis), 1.0 / len(phis))
+    return float(phis.mean()), float(phis.max()), float((w * phis).sum()), len(phis)
+
+
 def evaluate_network(tpm_sbn, cm, n, rng, trajectory_len=500, max_states=16):
     """Full evaluation of one network.
 
