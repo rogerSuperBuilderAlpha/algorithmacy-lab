@@ -53,7 +53,7 @@ and 4.0 Φ agree (ρ = 0.858). The version of IIT Kearney re-derives (3.0) is no
 
 ## 3.5 Analytic dissociation
 
-Two hand-built systems make the mechanism concrete: a segregated, biased system scores ψ = 1.749 with
+Two hand-built systems at matched size (n=3) make the mechanism concrete: a segregated, biased system scores ψ = 2.623 with
 Φ = 0, while a parity-coupled integrated system scores ψ = 0.428 with Φ_max = 1.378. ψ ranks the
 unintegrated system above the integrated one — the aggregate null in its purest analytic form.
 

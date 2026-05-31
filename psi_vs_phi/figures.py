@@ -107,8 +107,8 @@ def main():
 
     # dissociation cases
     a = ax2[2]
-    cases = ["(A) segregated\nbiased", "(B) parity\ncoupled"]
-    psi_vals = [1.749, 0.428]
+    cases = ["(A) segregated\nbiased (n=3)", "(B) parity\ncoupled (n=3)"]
+    psi_vals = [2.623, 0.428]
     phi_vals = [0.000, 0.689]
     xpos = np.arange(2)
     a.bar(xpos - 0.2, psi_vals, 0.4, label="ψ", color="#d62728")

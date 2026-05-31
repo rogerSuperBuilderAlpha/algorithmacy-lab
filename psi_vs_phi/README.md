@@ -27,7 +27,7 @@ while the identical partition operation on a mutual information (Φ_WMS) tracks 
 missing ingredient is not the partition; it is that ψ is a KL **self‑divergence** (a complexity
 quantity), not a mutual‑information‑type comparison. We also rule out the version objection: ψ misses
 IIT **3.0** (the version Kearney derives) as badly as **4.0** (ρ = 0.11 vs 0.10), and 3.0 and 4.0 Φ
-agree (ρ = 0.86). Two hand‑built minimal systems show ψ ranking an *un*integrated system (ψ = 1.75,
+agree (ρ = 0.86). Two hand‑built minimal systems (both n=3) show ψ ranking an *un*integrated system (ψ = 2.62,
 Φ = 0) above a maximally integrated one (ψ = 0.43, Φ = 1.38).
 
 ψ is a complexity‑type quantity, not an integration measure — the theoretically anticipated outcome

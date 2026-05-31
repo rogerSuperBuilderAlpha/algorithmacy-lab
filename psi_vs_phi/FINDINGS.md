@@ -58,11 +58,11 @@ choice is not the confound. (n=4 3.0 omitted: EMD path unstable in this 4.0 chec
 
 | case | ψ | i(π) | ϕ_ψ | Φ_mean | Φ_max |
 |---|---:|---:|---:|---:|---:|
-| (A) segregated, biased COPY nodes (Φ=0) | 1.749 | 0.018 | 0.000 | 0.000 | 0.000 |
-| (B) parity-coupled, integrated | 0.428 | 1.713 | 0.428 | 0.689 | 1.378 |
+| (A) segregated, biased COPY nodes, n=3 (Φ=0) | 2.623 | 0.027 | 0.000 | 0.000 | 0.000 |
+| (B) parity-coupled, integrated, n=3 | 0.428 | 1.713 | 0.428 | 0.689 | 1.378 |
 
-ψ ranks the *un*integrated system (A) more than 4× above the maximally integrated one (B), which has
-zero Φ. A clean sign-inversion of the ranking in 2–3 nodes.
+ψ ranks the *un*integrated system (A) about 6× above the maximally integrated one (B), which has zero
+Φ. A clean sign-inversion of the ranking at equal state-space size (both n=3).
 
 ## Verdict: H0 (structural)
 

@@ -4,8 +4,8 @@
 
 *Preprint draft, May 2026. Code, data, figures, and the literature corpus:
 https://github.com/rogerSuperBuilderAlpha/iit-experiments (`psi_vs_phi/`).
-Citations are author–year and resolve to `literature/references.bib`. This responds to an unrefereed
-preprint (Kearney 2026) posted three weeks earlier, and is offered in that spirit.*
+Citations are author–year and resolve to `literature/references.bib`. This responds to Kearney (2026),
+posted shortly before this work.*
 
 ---
 
@@ -18,27 +18,31 @@ of conscious experience. A rigorous bridge between them would be a significant r
 dynamics from a constrained maximum-caliber (MaxCal) path ensemble, he re-derives IIT 3.0's
 cause–effect repertoires from this principle and relates ψ to prediction error and the FEP. For a
 stationary ergodic Markov chain the proposal reduces to a closed-form scalar, ψ(π) = log₂κ − H(π) −
-h(π). The proposal is not, however, compared against integrated information Φ, the quantity the bridge
-is meant to reach, and the paper explicitly calls for that test. We carry it out. On an ensemble of
-small discrete networks where exact IIT-4.0 Φ is computable without approximation, we implement ψ
-(validated against the paper's own worked controls to machine precision) and ask whether it tracks
-exact Φ. It does not. Across 181 ergodic networks ψ is essentially uncorrelated with Φ (Spearman ρ =
-0.085, 95% CI [−0.08, +0.24]; detection AUC = 0.52), and the result is robust to how Φ is aggregated,
-stable across five random seeds, and absent within every density, noise, and gate-type stratum. We
-then test the natural objection that ψ lacks a partition step by constructing one: a MaxCal
+h(π). However, the proposal is never directly compared against integrated information Φ, the quantity
+the bridge is meant to reach, and the paper explicitly calls for that test. We perform it.
+
+On an ensemble of small discrete networks where exact IIT-4.0 Φ is computable without approximation, we
+implement ψ (validated against the paper's own worked controls to machine precision) and ask whether
+it tracks exact Φ. It does not. Across 181 ergodic networks ψ is essentially uncorrelated with Φ
+(Spearman ρ = 0.085, 95% CI [−0.08, +0.24]; detection AUC = 0.52), and the result is robust to how Φ
+is aggregated, stable across five random seeds, and absent within every density, noise, and gate-type
+stratum. We then test the objection that ψ lacks a partition step by constructing one: a MaxCal
 integration measure ϕ_ψ, built on IIT's minimum-information-partition logic. It does not help. ϕ_ψ is
 weakly anti-correlated with Φ (ρ = −0.28), whereas the same partition operation applied to a mutual
 information (whole-minus-sum Φ) tracks exact Φ at ρ = 0.58 on the same networks. We also address the
-objection that ψ might track the IIT 3.0 repertoires Kearney actually re-derives: ψ misses 3.0 Φ as
-badly as 4.0 Φ (ρ = 0.11 vs 0.10), while 3.0 and 4.0 Φ agree with each other (ρ = 0.86). Two
-hand-built minimal systems make the mechanism concrete: a segregated, biased system scores ψ = 1.75
-with Φ = 0, while an integrated parity-coupled system scores ψ = 0.43 with Φ = 1.38, so ψ ranks them
-in the wrong order. We argue that this is a structural fact rather than an artefact of the chosen
-reduction. ψ is a divergence of one distribution from a reference derived from the same dynamics, an
-order/disorder complexity quantity, and partitioning such a quantity does not yield a measure of
-irreducibility. The MaxCal–IIT–FEP bridge holds at the level at which it is proven, a system-level
-duality between free energy and constrained entropy, but it does not descend to a scalar ψ ≈ Φ
-relationship. The result leaves Kearney's separate repertoire-level derivation untouched.
+objection that ψ might track the IIT 3.0 repertoires Kearney re-derives: ψ misses 3.0 Φ as badly as
+4.0 Φ (ρ = 0.11 vs 0.10), while 3.0 and 4.0 Φ agree with each other (ρ = 0.86).
+
+Two hand-built minimal systems at matched size (n = 3) make the dissociation concrete: a segregated,
+biased system scores ψ = 2.62 with Φ = 0, while an integrated parity-coupled system scores ψ = 0.43
+with Φ = 1.38, so ψ ranks them in the wrong order. We argue that this reflects a structural property of
+ψ rather than an artefact of the chosen reduction. ψ is the divergence of one distribution from a
+reference derived from the same dynamics, an order/disorder complexity quantity, and the analysis of
+the leaderboard suggests that tracking Φ requires a whole-minus-parts comparison of cause-effect
+structure across a cut, which ψ does not perform. The MaxCal–IIT–FEP bridge holds at the level at which
+it is proven, a system-level duality between free energy and constrained entropy, but it does not
+descend to a scalar ψ ≈ Φ relationship. The result leaves Kearney's separate repertoire-level
+derivation untouched.
 
 ---
 
@@ -77,7 +81,7 @@ The construction is elegant and potentially useful, but it has a self-acknowledg
 compared against Φ, the integrated information it is meant to bridge toward. The paper is candid about
 this: "the explanatory power of our proposal here remains unconfirmed. Experimental or theoretical
 work must be conducted to … connect the metrics observed here to those in IIT." The bridge is
-assembled and asserted but not load-tested. The purpose of this paper is to test it.
+asserted but empirically unverified. This paper provides that verification.
 
 We are in an unusually good position to do so, because we hold an instrument most consciousness
 research lacks: an exact IIT-4.0 Φ oracle. Φ has never been computed for a brain or for any system of
@@ -88,8 +92,8 @@ formalism. This is the regime in which a candidate bridge quantity can be held a
 companion line of work in the same repository uses this strategy to audit empirical proxies and
 candidate integration measures; here we apply the same apparatus to ψ.
 
-The contribution has four parts, each anticipating an objection a defender of the bridge would raise.
-First, the direct test: we implement ψ exactly, validate it against the paper's own worked cases, and
+Our contribution is organised around four objections such a test must answer. First, the direct test:
+we implement ψ exactly, validate it against the paper's own worked cases, and
 correlate it with exact IIT-4.0 Φ across a 270-network ensemble, with robustness checks on Φ
 aggregation, five seeds, and within-regime structure. Second, the partition objection: because the
 bare scalar might be a degenerate reduction of the integration structure Kearney sketches at the
@@ -170,7 +174,7 @@ no exclusion, and no maximisation over candidate substrates. The absence is not 
 later; it is what the proof is about. The duality is a system-level fact, whereas Φ is a fact about
 how the system decomposes.
 
-### 2.4 Kearney's ψ, in full
+### 2.4 The definition of ψ
 
 The argument depends on what is and is not inside ψ, so we define it completely. Let the system be a
 homogeneous Markov chain on N states with transition matrix P, where P(x, ·) is the distribution over
@@ -240,8 +244,8 @@ failure of the test.
 
 Each network has n binary units. Every unit updates as a possibly-noisy Boolean function of the units
 feeding into it, drawn uniformly from five gate types chosen to span the integration range: OR and AND
-(low integration), COPY (near-trivial), MAJORITY (intermediate), and PARITY/XOR (maximally integrative,
-since a node's next value depends jointly and irreducibly on all its inputs). For each network we draw
+(low integration), COPY (near-trivial), MAJORITY (intermediate), and PARITY (the maximally integrative
+case, since a node's next value depends jointly and irreducibly on all its inputs). For each network we draw
 a connectivity matrix by including each directed edge independently with probability equal to the
 density, guaranteeing every node at least one input; assign each node a random gate; and build the
 state-by-node TPM, mixing each node's deterministic output toward 0.5 by the noise level (noise 0 gives
@@ -281,7 +285,7 @@ distribution. This catches reducible chains and gross periodicity, though it is 
 aperiodicity certificate, and we report it as a practical filter. The primary analysis is restricted to
 the ergodic subset; non-ergodic networks are flagged, excluded, and counted.
 
-### 3.5 The partitioned MaxCal integration measure ϕ_ψ
+### 3.5 A partitioned MaxCal integration measure (ϕ_ψ)
 
 The objection that the bare scalar ψ is a degenerate reduction, and that the integration content of
 Kearney's proposal lives in the repertoire-level construction with its partition step, is reasonable.
@@ -296,9 +300,12 @@ identically and differ only in the underlying scalar. We then define
 minimising the per-part-normalised difference and reporting the un-normalised value at that minimum
 information bipartition, mirroring `phi_wms`. The construction is principled: ψ is exactly additive
 over independent subsystems (if A and B evolve independently, κ, H, and h factorise and ψ(whole) =
-ψ(A) + ψ(B)), so ϕ_ψ measures the irreducibility of the system's MaxCal deviation across its weakest
-cut, the operation ψ alone omits and that Φ is built on. If giving ψ a partition step makes it track
-Φ, ϕ_ψ will show it. §4.3 reports the outcome.
+ψ(A) + ψ(B), so ϕ_ψ = 0 on a fully separable system, which we confirm as a control), so ϕ_ψ measures
+the irreducibility of the system's MaxCal deviation across its weakest cut, the operation ψ alone omits
+and that Φ is built on. This is an operationalisation of the partition logic Kearney sketches at the
+repertoire level (his §6.4), using the same marginalisation as Φ_WMS so that the two measures differ
+only in the scalar being partitioned. If giving ψ a partition step makes it track Φ, ϕ_ψ will show it.
+§4.3 reports the outcome.
 
 ### 3.6 The IIT-3.0 comparator
 
@@ -312,13 +319,14 @@ repertoires, so the 3.0 comparator is computed on the n = 3 subset only, where e
 stable (0 errors across 90 ergodic networks). This is a limitation of the present run, and §4.4 shows
 the n = 3 evidence settles the question on its own.
 
-### 3.7 The candidate-measure leaderboard
+### 3.7 Comparison measures
 
 To establish that the apparatus can detect integration, we rank ψ and ϕ_ψ against six practical
 measures computed on the identical ergodic networks (`candidate_audit`): whole-minus-sum Φ (Φ_WMS;
-Balduzzi & Tononi 2008; Barrett & Seth 2011), integrated synergy (a co-information net-synergy measure
-that avoids the spurious-synergy pathology of MMI-based decompositions), stochastic interaction (Ay
-2001), causal density (Seth 2008), total correlation, and time-delayed mutual information. Φ_WMS is the
+Balduzzi & Tononi 2008; Barrett & Seth 2011), integrated synergy (a net co-information measure in the
+sense of Williams & Beer 2010 and the ΦID lineage of Mediano, Seth & Barrett 2019, which avoids the
+spurious-synergy pathology of MMI-based decompositions), stochastic interaction (Ay 2015), causal
+density (Seth 2008), total correlation, and time-delayed mutual information. Φ_WMS is the
 key positive control: it is a partition-based whole-minus-parts measure, and if the test is alive it
 should track Φ.
 
@@ -341,7 +349,7 @@ sample size, the correlation whose Fisher-z 95% interval just excludes zero.
 
 ## 4. Results
 
-### 4.1 ψ is implemented exactly
+### 4.1 Implementation verification
 
 All controls passed. ψ = 0 for circulant and uniform-row chains; ψ = log₂N − H(π) for deterministic
 permutations; ψ ≥ 0 across 200 random chains; and the entropy form and KL form agreed to a maximum
@@ -368,29 +376,34 @@ networks), the small positive rank association becomes statistically distinguish
 0.096, CI [+0.02, +0.17], p = 0.004). With roughly 900 samples even a trivially small effect crosses
 significance, so the interpretation must turn on effect size. ρ ≈ 0.10 means ψ accounts for about 1%
 of the rank variance in Φ. The genuine integration measure Φ_WMS, on the same networks, reaches ρ =
-0.58, about 34% of the rank variance, a factor of thirty higher. ψ's small association is also not of
-stable sign, being positive overall, negative within the Φ > 0 subset, and negative as ϕ_ψ (§4.3),
-which is the pattern of noise around zero rather than of a weak but real signal. The defensible claim
-is therefore not that ψ is exactly orthogonal to Φ, but that ψ carries no usable integration signal:
-an order of magnitude weaker than a real proxy, of inconsistent sign, and below the threshold at which
+0.58, about 34% of the rank variance, a factor of thirty higher. ψ's own small association is also not
+of stable sign, being positive over the full ergodic set and negative within the Φ > 0 subset, which
+is the pattern of noise around zero rather than of a weak but real signal. (The partitioned ϕ_ψ has a
+distinct and more stable negative association, discussed separately in §4.3; it is a different measure
+and does not bear on the stability of ψ itself.) The defensible claim is therefore not that ψ is
+exactly orthogonal to Φ, but that ψ carries no usable integration signal: an order of magnitude weaker
+than a real proxy, of inconsistent sign, and below the threshold at which
 one would call it tracking.
 
-### 4.3 Giving ψ a partition step does not rescue it
+### 4.3 A partitioned MaxCal measure also fails to track Φ
 
 If ψ's failure were merely the absence of a partition, then ϕ_ψ, which adds IIT's minimum-information-
 partition logic, should recover the signal. It does not. Across the ergodic set, ϕ_ψ vs Φ gives ρ =
-−0.276 (p < 0.001, AUC = 0.359), a significant negative association: the most integrated-looking
-systems under the MaxCal whole-minus-parts construction are among the least integrated under Φ. Figure
-1c shows the pattern, with the high-Φ networks clustered at ϕ_ψ ≈ 0 and the most negative ϕ_ψ values
-belonging to low-Φ networks.
+−0.276 (p < 0.001, AUC = 0.359): a significant negative association, in which higher Φ is associated
+with more negative ϕ_ψ. The mean ϕ_ψ is −0.20 among the Φ > 0 networks against −0.06 among the Φ = 0
+networks (Figure 1c).
 
-The negative sign is itself informative. For a strongly coupled system such as a parity network, the
-marginal sub-chain on a single node, obtained by averaging over the states of the nodes it depends on,
-is close to a fair coin, but its long-run occupancy can still be biased, so each part can carry a
-sizeable self-divergence ψ(A). The undivided system, meanwhile, spreads its occupancy broadly and so
-has a smaller ψ(whole). The whole-minus-parts difference ψ(whole) − Σ ψ(parts) is then negative, and
-it is most negative for the systems whose coupling most scrambles the marginals, which are also the
-systems with the highest Φ. The construction inverts precisely where Φ is largest.
+The sign can be traced to the two terms of ϕ_ψ = ψ(whole) − Σ ψ(parts). Neither term tracks Φ on its
+own: ρ(ψ(whole), Φ) = +0.085 and ρ(Σ ψ(parts), Φ) = +0.099, both small. The summed deviation of the
+parts is the larger of the two in 71% of networks, and it grows with Φ slightly faster than the
+whole's: among the Φ > 0 networks the mean ψ(whole) is 0.84 bits against a mean Σ ψ(parts) of 1.04
+bits. Marginalising an integrated system onto a node subset tends to concentrate that sub-chain's
+occupancy and so raise its self-divergence, so the parts typically deviate from their MaxCal reference
+more than the whole does, and the difference ψ(whole) − Σ ψ(parts) is negative. The symmetric
+noisy-parity system used as System B in §4.8 is an exception, with single-node marginals near uniform
+and ϕ_ψ positive; it is not representative of the ensemble. The general point is that the KL
+self-divergence is not subadditive across these cuts in the way a mutual information is, so a
+whole-minus-parts construction built on it does not behave like Φ.
 
 The contrast with the positive control is the point. The identical partition operation, the identical
 marginalisation and MIP search and whole-minus-parts arithmetic, applied to a mutual information rather
@@ -399,7 +412,7 @@ exactly one respect: the scalar that is partitioned. Φ_WMS partitions a mutual 
 partitions a KL self-divergence. The partition step is therefore not the missing ingredient. The
 missing ingredient is the kind of quantity being partitioned, a point we develop in §5.1.
 
-### 4.4 ψ misses IIT 3.0 as badly as IIT 4.0
+### 4.4 ψ is orthogonal to both IIT 3.0 and IIT 4.0
 
 Because Kearney re-derives 3.0, we computed exact IIT-3.0 Φ on the n = 3 subset (90 ergodic networks,
 37 with Φ₃ > 0). The objection that ψ might track the 3.0 repertoires it was derived from, rather than
@@ -413,7 +426,7 @@ measure but share the partition-and-exclusion skeleton, and that skeleton is wha
 shows ψ missing 3.0 by the same margin it misses 4.0, and that 3.0 ≈ 4.0, the missing n = 4 cells are
 not material to the conclusion.
 
-### 4.5 No hidden within-regime tracking
+### 4.5 Absence of within-stratum correlation
 
 The pooled null does not conceal a strong within-stratum association that cancels on aggregation. By
 size, ρ = 0.096 (n = 3) and 0.028 (n = 4). Across the nine (density, noise) cells the per-cell ρ
@@ -430,7 +443,7 @@ none reaching the magnitude of a genuine proxy. With n = 181 the minimum detecta
 power to detect a useful association and did not, while detecting one for the positive control on the
 same data.
 
-### 4.7 Leaderboard
+### 4.7 Comparative performance of candidate measures
 
 **Table 1.** Association with exact IIT-4.0 Φ (mean aggregation) across the 181 ergodic networks (seed
 1), ranked by |ρ|. CIs are 2000-sample bootstrap; p is the exact two-sided Spearman p-value.
@@ -447,50 +460,63 @@ same data.
 | ψ (maximum-caliber information) | +0.085 | [−0.08, +0.24] | 0.254 | 0.524 |
 | causal density | −0.011 | [−0.16, +0.13] | 0.880 | 0.513 |
 
-The two measures that track Φ are the two that combine a mutual-information base with a partition step.
-ψ and ϕ_ψ sit with the complexity quantities at the bottom, ϕ_ψ on the negative side of zero.
+The two measures that track Φ are the two built on a whole-minus-parts comparison of time-lagged
+(predictive) mutual information: Φ_WMS and integrated synergy. Total correlation has a joint-versus-
+factorised form but is a static, single-time redundancy with no predictive content and no comparison
+across a transition cut, and it anti-correlates. ψ and ϕ_ψ sit with the complexity quantities at the
+bottom, ϕ_ψ on the negative side of zero. §5.1 develops the distinction these rankings imply.
 
 ### 4.8 Analytic dissociation
 
-To make the mechanism concrete, consider two hand-built systems (Figure 2c). System A is two
-independent COPY nodes, each strongly biased to stay ON: no node influences any other, so the system is
-reducible and Φ = 0, yet the stationary distribution concentrates in one corner of state space far from
-the MaxCal marginal, giving a large ψ = 1.749. System B is three nodes each updating to the parity of
-the other two, maximally integrative since every node depends irreducibly on the rest, giving Φ_max =
-1.378 (mean 0.689), yet its broad occupancy keeps it close to its MaxCal reference, giving a modest ψ =
-0.428. ψ assigns the segregated, unintegrated system more than four times the score of the maximally
-integrated one, while Φ assigns the segregated system zero. The ranking is reversed, in two and three
-nodes, by construction. This is the aggregate null of §4.2 in analytic form, and it shows what ψ
-responds to: bias and order in the occupancy distribution, which is complexity, not irreducibility.
+To make the mechanism concrete, consider two hand-built systems of the same size, n = 3 (Figure 2c).
+System A is three independent COPY nodes, each strongly biased to stay ON: no node influences any other,
+so the system is reducible and Φ = 0, yet the stationary distribution concentrates in one corner of
+state space far from the MaxCal marginal, giving a large ψ = 2.623. System B is three nodes each
+updating to the parity of the other two, maximally integrative since every node depends irreducibly on
+the rest, giving Φ_max = 1.378 (mean 0.689), yet its broad occupancy keeps it close to its MaxCal
+reference, giving a modest ψ = 0.428. ψ assigns the segregated, unintegrated system about six times the
+score of the maximally integrated one, while Φ assigns the segregated system zero. The ranking is
+reversed at equal state-space size, by construction. This is the aggregate null of §4.2 in analytic
+form, and it shows what ψ responds to: bias and order in the occupancy distribution, which is
+complexity, not irreducibility.
 
 ## 5. Discussion
 
-### 5.1 The failure is structural
+### 5.1 The divergence between ψ and Φ is structural
 
-The clearest way to see why ψ does not track Φ is the result of §4.3: the obstacle is not the absence
-of a partition but the type of quantity being partitioned. Φ is irreducibility, the information the
-whole specifies that its parts cannot. Any measure of irreducibility must at bottom compare a joint
-object to a factorised one, the whole's cause–effect structure against the product of its parts'.
-Mutual information is such a comparison, since I(X;Y) is the KL divergence of a joint from the product
-of its marginals, which is why partitioning a mutual information (Φ_WMS) exposes integration and tracks
-Φ at ρ = 0.58.
+The result of §4.3 locates the obstacle: it is not the absence of a partition but the type of quantity
+being partitioned. The leaderboard makes the requirement precise. Two features must be present together
+for a measure to track Φ. The measure must compare the whole's cause-effect (predictive) structure
+against its parts', and it must do so across a partition. Φ_WMS and integrated synergy have both: each
+is a whole-minus-parts comparison of time-lagged mutual information, I(X_{t−1}; X_t), and each tracks Φ
+(ρ = 0.58 and 0.48).
 
-ψ is not that kind of object. ψ = D_KL(π ‖ µ) is the divergence of one distribution from a reference
-derived from the same dynamics. It has the form of a divergence, but both arguments are properties of
-the single, undivided system; there is no second system and nothing held apart and compared.
-Partitioning ψ, as ϕ_ψ does, subtracts self-divergences of sub-chains from the self-divergence of the
-whole, and there is no reason that difference should equal the irreducibility of anything. Empirically
-it does not, and it anti-correlates. We therefore make the general claim: no partition-free scalar
-built from whole-system entropies can track Φ, and adding a partition to the wrong kind of scalar does
-not fix it. A measure of irreducibility must partition a quantity that is already a joint-versus-
-factorised comparison, and ψ is not one. ψ is a complexity measure, a measure of how far a system's
-occupancy departs from maximal non-committal spread, and complexity and integration coincide only in
-special cases. Systems A and B show them coming apart.
+Neither feature alone suffices, and the leaderboard contains the relevant controls. Total correlation
+is a joint-versus-factorised divergence (Σ_i H(X_i) − H(X) = D_KL of the joint from the product of its
+marginals), so it has the divergence form one might think is the key. It nonetheless anti-correlates
+with Φ (ρ = −0.37), because it is static, an instantaneous redundancy among nodes with no reference to
+the dynamics and no comparison across a transition cut. The divergence form is therefore not the
+operative feature; the comparison of predictive structure across a cut is.
 
-This is a claim about the algebra rather than about the particular ensemble. The ensemble demonstrates
-the structural fact and rules out the escape routes; it is not the source of the conclusion.
+ψ has neither feature. ψ = D_KL(π ‖ µ) is the divergence of one distribution, the stationary
+occupancy, from a reference derived from the same dynamics. Both arguments are properties of the single,
+undivided system, so ψ compares nothing across a cut, and although it involves the transition matrix
+through κ and the entropy rate, it summarises the dynamics into a scalar bias of occupancy rather than
+comparing the whole's transition structure to its parts'. Partitioning ψ, as ϕ_ψ does, subtracts
+self-divergences of sub-chains from the self-divergence of the whole; §4.3 showed that neither the
+whole term nor the parts term tracks Φ, and their difference anti-correlates. On this analysis a
+partition-free self-divergence of the stationary distribution is not positioned to track Φ, and adding
+a partition to it does not change its character, because it still compares occupancy bias rather than
+predictive structure. We present this as a structural argument, supported by the leaderboard and the
+two analytic systems, rather than as a theorem.
 
-### 5.2 The objection that this is tautological
+The argument concerns the algebraic form of ψ, not features of the ensemble, so it is not specific to
+n ≤ 4; a larger ensemble could shift the small correlations but would not give a self-divergence the
+predictive whole-minus-parts structure it lacks. ψ measures how far a system's occupancy departs from
+its least-committal reference, which is a form of complexity, and complexity and integration coincide
+only in special cases. Systems A and B show them coming apart.
+
+### 5.2 Why the result is not tautological
 
 A sceptic may object that of course the measures with a partition track Φ and those without do not, so
 the study only confirms that Φ has a partition. There are two replies.
@@ -499,9 +525,9 @@ First, nothing guaranteed that ψ lacked an effective partition. Kearney's centr
 derives from the same constrained-maximum-entropy principle he uses to reconstruct IIT's repertoires.
 A reasonable hypothesis, the one we pre-registered as H1, was that this shared origin would give the
 scalar integration-tracking behaviour even without an explicit cut, because the MaxCal reference µ
-already encodes the system's branching structure. That hypothesis was the bridge's best case, and it
-lost. Finding that a quantity derived to be close to IIT nonetheless fails to track IIT's central
-number is an empirical result, not a restatement of definitions.
+already encodes the system's branching structure. That hypothesis was the strongest case for the
+bridge, and the results reject it. Finding that a quantity derived to be close to IIT nonetheless fails
+to track IIT's central number is an empirical result, not a restatement of definitions.
 
 Second, the ϕ_ψ result answers the charge directly. We did not merely note that ψ lacks a partition
 and stop; we added the partition that makes Φ_WMS work, and ψ still failed, indeed reversed. If "has a
@@ -510,7 +536,7 @@ therefore not that partitions matter, which is granted, but that the base quanti
 mutual-information-type comparison; the MaxCal deviation is not one, so the MaxCal bridge does not
 reach Φ even when given IIT's own partition machinery.
 
-### 5.3 The objection that we tested a degenerate limit
+### 5.3 Robustness to the degenerate-limit objection
 
 The strongest defence is that we tested the cheap stationary scalar rather than the repertoire-level
 construction that carries Kearney's integration content, and so refuted a degenerate limit rather than
@@ -532,7 +558,7 @@ expectation that a system-level scalar should descend to Φ was not licensed by 
 first place. The stationary scalar is not an impoverished shadow of an integration quantity defined
 elsewhere; it is a faithful expression of a duality that is not about irreducibility.
 
-### 5.4 The version objection is empirically closed
+### 5.4 The IIT version objection
 
 We pre-empted the objection that we used 4.0 while Kearney derived 3.0 by computing 3.0 directly
 (§4.4). ψ misses 3.0 (ρ = 0.11) by the same margin it misses 4.0 (ρ = 0.10), and 3.0 and 4.0 agree
@@ -541,7 +567,7 @@ difference, but share the partition-and-exclusion skeleton, and it is that skele
 that ψ lacks. Changing the distance measure changes which integrated systems score how much; it does
 not introduce a partition into a partition-free scalar.
 
-### 5.5 What survives, and the role of learning dynamics
+### 5.5 The limits of the system-level duality and the role of learning dynamics
 
 None of this refutes the MaxCal–FEP duality at the level Ramstead et al. (2023) prove it. The
 correspondence between free energy and constrained entropy at a system's steady state stands, and
@@ -550,10 +576,11 @@ construction. What the present result bounds is the reach of the duality as a cl
 consciousness. The duality yields a system-level correspondence between two scalar descriptions of the
 same steady state. It does not yield Φ, because Φ is not a system-level scalar in the relevant sense;
 it is the output of a partition and a maximisation over the system's decomposition, and the duality is
-silent on decomposition. The proven part of the bridge is a statement about whole-system
-thermodynamics, which is the level at which IIT holds that the quantity of consciousness does not
-arise. Integration is a property of the cut, the duality is a property of the whole, and the cut does
-not follow from the whole.
+silent on decomposition. The proven part of the bridge is a statement about a system's steady-state
+thermodynamics that does not involve decomposition, whereas Φ essentially involves it. Φ is itself a
+whole-system property, but one obtained through a partition and a maximisation over the system's
+decomposition, and that decomposition does not follow from a decomposition-free description of the
+steady state.
 
 One route remains open, and we regard it as the productive direction rather than a caveat. The
 empirical Φ–surprise couplings that motivate this programme, in Lundbak Olesen et al. (2023) and Mayama
@@ -564,8 +591,10 @@ with everything here that the genuine relationship is diachronic: that as a syst
 energy over learning time it tends to build more integrated cause–effect structure, so that ΔΦ
 correlates with the trajectory of surprise even though instantaneous ψ does not correlate with
 instantaneous Φ. If so, the relevant bridge quantity is not ψ(π) but something like dψ/dt against
-dΦ/dt along a learning trajectory. That is a testable proposal, and it concedes the present point: the
-static scalar ψ is not the bridge to Φ.
+dΦ/dt along a learning trajectory. A natural test would train simple reinforcement-learning agents, or
+record adapting neuronal cultures, while tracking both ψ(t) and Φ(t) over adaptation time, and ask
+whether their changes covary even though their static values do not. That is a testable proposal, and
+it concedes the present point: the static scalar ψ is not the bridge to Φ.
 
 ### 5.6 Implications
 
@@ -619,10 +648,11 @@ with Φ (ρ = −0.28), while the same partition on a mutual information tracks 
 the result does not hinge on which IIT is meant. Two minimal hand-built systems show ψ ranking an
 unintegrated system above a maximally integrated one. We argue that this is structural rather than a
 defect of the chosen reduction: ψ is a self-divergence, a complexity quantity, and complexity is not
-integration, with or without a partition step. The MaxCal–FEP duality holds where it is proven, at the
-level of whole-system thermodynamics, which is the level at which IIT holds the quantity of
-consciousness does not arise. A bridge between IIT and the FEP, if there is one, will be built from the
-dynamics of learning rather than from a static scalar, which is the experiment we would do next.
+integration, with or without a partition step. The MaxCal–FEP duality holds where it is proven, as a
+decomposition-free description of a system's steady state, whereas Φ is obtained through a partition and
+a maximisation over the system's decomposition, which that description does not determine. A bridge
+between IIT and the FEP, if there is one, will be built from the dynamics of learning rather than from a
+static scalar, which is the experiment we would do next.
 
 ## Data and code availability
 
@@ -662,7 +692,7 @@ Citations resolve to `literature/references.bib`. Key sources:
   Cogn.* 72:49–59.
 - Friston, K. (2010). The free-energy principle: a unified brain theory? *Nat. Rev. Neurosci.*
   11:127–138.
-- Friston, K., et al. (2019). A free energy principle for a particular physics. arXiv:1906.10184.
+- Friston, K. (2019). A free energy principle for a particular physics. arXiv:1906.10184.
 - Hanson, J. R., & Walker, S. I. (2021). Formalizing falsification for theories of consciousness.
   *Neurosci. Conscious.* 2021(2):niab014. (arXiv:2006.07390)
 - Kearney, A. (2026). Information as Maximum-Caliber Deviation: A bridge between Integrated Information
@@ -685,3 +715,5 @@ Citations resolve to `literature/references.bib`. Key sources:
   Intell.* 3:30.
 - Seth, A. K. (2008). Causal networks in simulated neural systems. *Cogn. Neurodyn.* 2:49–64.
 - Tononi, G. (2004). An information integration theory of consciousness. *BMC Neurosci.* 5:42.
+- Williams, P. L., & Beer, R. D. (2010). Nonnegative decomposition of multivariate information.
+  arXiv:1004.2515.

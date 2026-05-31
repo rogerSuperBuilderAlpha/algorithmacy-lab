@@ -33,12 +33,13 @@ def _phi(tpm, cm, n):
 
 
 def case_segregated_biased(noise=0.05):
-    """(A) Two independent COPY nodes, each strongly biased toward staying ON.
+    """(A) Three independent COPY nodes, each strongly biased toward staying ON.
 
     No node influences any other → the system is reducible → Φ = 0. But the
     stationary distribution piles up on a corner of state space, far from the
-    MaxCal marginal, so ψ is large. High ψ, zero Φ."""
-    n = 2
+    MaxCal marginal, so ψ is large. High ψ, zero Φ. Built at n = 3 to match the
+    integrated case (B), so the comparison is at equal state-space size."""
+    n = 3
     cm = np.eye(n, dtype=int)  # each node feeds only itself
     tpm = np.zeros((2 ** n, n))
     for s in range(2 ** n):
