@@ -42,8 +42,29 @@ to re-pull the live sample).
 *Honest bounds on the anchor:* (a) the Φ→friction relation runs through party count — bigger pools both
 raise Φ and add detour — so the anchor validates the *party-count axis* of Φ; the typology below shows Φ
 *also* separates forms at fixed party count (partial 0.83 vs strict 2.0 vs parity 0.5 at n=3), which
-party count alone cannot. (b) One calibration window (2018 sample); stability across windows is a noted
-robustness step. (c) Observational association, not a causal claim.
+party count alone cannot. (b) Observational association, not a causal claim.
+
+### Stage-1 robustness battery (full)
+
+Run on a 193,028-trip clean sample of shared-authorized trips spanning the full pooling era
+(2018-11 → 2020-03; outliers filtered to 0.5–60 mi, 120–7200 s, pace 20–1200 s/mi). Reproduce:
+`anchor_chicago.py --refresh` (headline) and `robustness_anchor.py` (battery).
+
+| robustness check | result | reading |
+|---|---|---|
+| **Effect size (trip-level)** | regression pace ~ Φ across all 193k trips: **slope +16.8 sec/mi per +1 Φ**, r=+0.139, **R²=0.019** | the aggregate r=+0.98 is across 4 points; per-trip the effect is small-but-robust — Φ is a *form-level* measure, not a per-trip predictor (this **reinforces Claim A**) |
+| **Temporal stability** | split at median date: aggregate r **+0.976 (early) vs +0.975 (late)**; trip-level slope +16.5 vs +15.2 | the Φ→outcome relation is stable across time windows |
+| **Within-stratum (Simpson's)** | friction rises monotonically with pool size in **7 of 8** top community areas | the trend holds *inside* strata — not a pooling/Simpson's artifact |
+| **Alternative aggregation** | r(Φ, friction) = **+0.98** (sum/sum), **+0.95** (mean pace), **+0.94** (median pace) | robust to the friction-aggregation choice |
+| **Achievement (replicated)** | share 33/35/26/6% by pool size; log(share)~Φ slope −0.544 (**×0.58 per +1 Φ**); r=−0.88 | replicates the rarity axis at larger N |
+| **Power** | N=193k → significance is trivial; report **R² and the slope**, not p | effect-size-first reporting |
+
+**Controls (labeled).** *Negative control:* the dyadic baselines (Φ=0; §2.C of Paper 2 / typology floor)
+— forms that should and do score zero. *Positive control:* Φ separates forms at **fixed party count**
+(partial 0.83 vs strict 2.0 vs parity 0.5, all n=3) — Φ carries signal that raw party count cannot, the
+answer to the party-count confound. **The confound, named:** the anchor's Φ→friction relation runs
+through party count; the fixed-n positive control is what shows Φ is more than a party counter, and the
+typology is where that extra signal lives.
 
 ## The baseline (Stage 2: the typology placed by Φ)
 
