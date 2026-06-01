@@ -1,15 +1,11 @@
 # 2. Method of the review
 
-*Section draft (deepened). Working reference list at the end merges into the consolidated bibliography at
-combine time.*
-
-A review is primary scientific inquiry that uses prior research as its data, and its quality depends on
-aligning the review's purpose with its method rather than defaulting to a familiar format (Kunisch, Denyer,
-Bartunek, Menz, & Cardinal, 2023). The purpose of this review is to recover a competency-level construct that
-the existing literature has not named, and that purpose dictates an integrative rather than an aggregative
-method, a corpus anchored at the competency level, a search organized by construct rather than by keyword,
-and a synthesis that reads each construct against a shared structural form. This section specifies each of
-those choices at the level of detail that makes the review auditable without a PRISMA protocol.
+A review is primary inquiry that uses prior research as its data, and its quality turns on fitting the method
+to the purpose rather than to a familiar format (Kunisch, Denyer, Bartunek, Menz, & Cardinal, 2023). Our
+purpose is to recover a competency-level construct the existing literature has not named. That purpose sets
+the rest: an integrative rather than an aggregative method, a corpus anchored at the competency level, a
+search organized by construct rather than keyword, and a synthesis that reads each construct against a shared
+structural form. We specify each choice below in enough detail to audit without a PRISMA protocol.
 
 ## 2.1 Scope and corpus
 
@@ -23,139 +19,115 @@ mechanism workers operate inside but does not constitute the corpus on its own, 
 sits one level above competency and cannot answer the worker-level question. Anchoring the corpus at the
 competency level is the methodological commitment from which everything else in this section follows.
 
-The review is integrative, and the choice follows from what the contribution requires. The methodological
-warrant is the one Torraco (2005, 2016) names as the second justification for an integrative review: not a
-mature literature that has fragmented and needs reconceptualizing, but a new and emerging topic that needs
-initial conceptualization. A systematic review aggregates findings across studies that share a unit of
-analysis and produces conclusions about effects, prevalence, or mechanisms within that unit. The question
-this review takes up is whether the existing competency constructs, each built around a sender-medium-receiver
-assumption, can extend to a coordination form they were not built for, and the question cannot be answered
-through aggregation. It can only be answered by reading the existing constructs against the structural form
-they share and naming the construct the form requires that the existing literature has not supplied. The
-contribution sits in what the literature on theoretical reviews calls the clarifying-constructs function, and
-it is meant to deliver a contribution beyond a review rather than a summary of one (Cronin & George, 2023;
-Post, Sarala, Gatrell, & Prescott, 2020).
+We read integratively because the contribution requires it, not because the genre is fashionable. Torraco
+(2005, 2016) names two warrants for an integrative review; ours is the second, a new and emerging topic that
+needs initial conceptualization rather than a mature literature that needs reorganizing. A systematic review
+aggregates findings across studies that share a unit of analysis. Our question is whether constructs built
+around a sender-medium-receiver assumption can extend to a form they were not built for, and aggregation
+cannot answer it. Only reading the constructs against the form they share, and naming the one the form
+requires, can. This is the clarifying-constructs function, and it should deliver something beyond a review
+rather than a summary of one (Cronin & George, 2023; Post, Sarala, Gatrell, & Prescott, 2020).
 
-The primary corpus comes from three fields, and the choice of fields follows from where competency-level
-constructs in human-algorithm interaction have been built. The lineage from CMC competence through
-human-machine communication and AI-mediated communication originates in communication studies, where each
-construct locates a worker in a coordination form and asks what she has to do to work effectively inside it
-(Guzman & Lewis, 2020; Hancock, Naaman, & Levy, 2020; Spitzberg, 2006). Information systems produced
-algorithm sensemaking and the algorithmic and AI literacy frameworks, which locate a worker in relation to an
-algorithmic system and ask what she knows or how she comes to know it (Möhlmann, Alves de Lima Salge, &
-Marabelli, 2023). Organization studies produced algorithmic competency and the structural-form theory of the
-platform, which specify the form workers operate inside (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The
-gap the review identifies is visible only across the three fields, because no single field has produced the
-construct the paper specifies.
+The primary corpus comes from three fields, because that is where competency-level constructs in
+human-algorithm interaction grew up. CMC competence and its successors in human-machine and AI-mediated
+communication come from communication studies, where each construct puts a worker in a coordination form and
+asks what she must do to work inside it (Guzman & Lewis, 2020; Hancock, Naaman, & Levy, 2020; Spitzberg,
+2006). Algorithm sensemaking and the algorithmic and AI literacies come from information systems, where each
+puts a worker in relation to a system and asks what she knows or how she learns it (Möhlmann, Alves de Lima
+Salge, & Marabelli, 2023). Algorithmic competency and the structural-form theory of the platform come from
+organization studies, where the object is the form workers operate inside (Stark & Pais, 2020; Stark & Vanden
+Broeck, 2024). The gap shows only across the three fields, because no one of them produced the construct this
+paper specifies.
 
-Specifying a construct demands a different corpus than aggregating findings about one. The corpus the review
-uses is built around the seven existing competency constructs in their specified form, where conceptual
-commitments are explicit. Across the three fields, the corpus contains [N — to be finalized from the
-screening log] peer-reviewed sources organized around the seven constructs: CMC competence, human-machine communication, AI-mediated communication,
-algorithmic literacy, AI literacy, algorithm sensemaking, and algorithmic competency. Each construct is
-represented by its foundational specification, the work that has carried the construct since, and the
-empirical applications that bear on whether the construct extends. Saturation across each construct family
-bounded inclusion; bearing on the dyadic-inheritance argument set the criterion within the bounds.
+Specifying a construct demands a different corpus than aggregating findings about one. Ours is built around
+the seven existing competency constructs in their specified form, where the conceptual commitments are
+explicit: CMC competence, human-machine communication, AI-mediated communication, algorithmic literacy, AI
+literacy, algorithm sensemaking, and algorithmic competency. Across the three fields it holds [N — to be
+finalized from the screening log] peer-reviewed sources. Each construct enters through its foundational
+specification, the work that has carried it since, and the empirical applications that bear on whether it
+extends. Saturation within each family bounded inclusion; bearing on the dyadic-inheritance argument set the
+criterion within those bounds.
 
-A second corpus, separately assembled, supplies the structural and historical foundations the
-competency-level argument depends on. Simmel's account of triadic geometry and Krackhardt's recovery of it
-for organizational network analysis establish what is structurally distinct about a three-party coordination
-form, and the distinctness is what the existing competency constructs cannot accommodate (Krackhardt, 1999;
-Simmel, 1908/1950). Latour's intermediary-mediator distinction supplies the network-theoretic vocabulary for
+A second corpus, assembled separately, supplies the structural and historical foundations the competency
+argument leans on. Simmel's account of triadic geometry, and Krackhardt's recovery of it for organizational
+network analysis, establish what a three-party form has that the competency constructs cannot accommodate
+(Krackhardt, 1999; Simmel, 1908/1950). Latour's intermediary-mediator distinction gives the vocabulary for
 what an active third party does that a passive channel does not (Latour, 2005). Stark and Pais and Stark and
-Vanden Broeck specify the platform as an organizational form whose operative principle is co-optation
-alongside hierarchy, market, and network (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The
-literacy-studies tradition supplies the historical case that coordination forms have produced new
-competencies before, and that the new competencies were not refinements of the prior ones. The adjacent
-corpus is selective by design, because its function is to anchor the structural argument and not to be
-reviewed in its own right.
+Vanden Broeck specify the platform as a form whose principle is co-optation, beside hierarchy, market, and
+network (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The literacy-studies tradition supplies the
+historical case that earlier coordination shifts produced new competencies rather than refinements of the
+old. We assemble this corpus selectively, to anchor the structural argument, not to review it in its own
+right.
 
-Several large bodies of work fall outside both corpora, and the exclusions follow from the same anchoring
-decision. Empirical studies of platform work motivate the puzzle the introduction names but do not bear on
-whether the existing competency constructs can extend to it. Human-robot interaction and the broader
-human-computer interaction literatures fall outside the corpus where they treat the system as the unit of
-analysis rather than the worker. AI ethics and algorithmic accountability literatures fall outside where they
-address what algorithms ought to do rather than what workers must do to coordinate through them. Each
-exclusion is principled, and each follows from the commitment to specify a competency-level construct.
+Several large literatures fall outside both corpora, for the same reason. Empirical platform-work studies
+motivate the puzzle but do not bear on whether the competency constructs extend to it. Human-robot and
+human-computer interaction fall outside where they make the system, not the worker, the unit of analysis. AI
+ethics and algorithmic accountability fall outside where they ask what algorithms ought to do rather than
+what workers must do to coordinate through them. Each exclusion follows from the same commitment to a
+competency-level construct.
 
 ## 2.2 Search and selection
 
-The search proceeded construct by construct, and the choice followed from what the review needs to recover. A
-topic search for "platform work" or "algorithmic management" returns the empirical literature that motivates
-the puzzle, not the conceptual lineages where competency constructs live. A construct search for each of the
-seven labels returns the foundational specifications and the works that have carried each construct since.
-Constructs travel through citation networks more reliably than through keyword searches, and the citation
-network is what makes the lineage visible. A keyword search for "communication competence" does not recover
-the dyadic inheritance that links CMC competence, human-machine communication, and AI-mediated communication
-across the changes each successor made to its predecessor. The construct-by-construct search does.
+We searched construct by construct, because that is what the review needs to recover. A topic search for
+"platform work" or "algorithmic management" returns the empirical literature that motivates the puzzle, not
+the conceptual lineages where competency constructs live. A construct search for each of the seven labels
+returns the foundational specifications and the work that has carried each since. Constructs travel through
+citation networks more reliably than through keywords, and the network is what makes a lineage visible: a
+keyword search for "communication competence" never recovers the dyadic inheritance that links CMC
+competence, human-machine communication, and AI-mediated communication across the changes each successor
+made. A construct search does.
 
-Database searches across Web of Science, Business Source Complete, ABI/INFORM, and Google Scholar covered each
-construct label, and forward and backward citation tracing extended the search from each foundational paper.
-Forward tracing recovered the empirical and theoretical work that has carried each construct since its
-specification. Backward tracing recovered the parent traditions each construct inherited from. Searches ran
-through April 2026 with no language or publication-form restrictions, although the corpus that resulted is
-overwhelmingly English-language and journal-published, which reflects where the constructs have been built
-rather than a search-side restriction.
+We ran database searches across Web of Science, Business Source Complete, ABI/INFORM, and Google Scholar for
+each construct label, then traced citations forward and backward from each foundational paper. Forward tracing
+recovered the work that has carried each construct since; backward tracing recovered the parent tradition each
+inherited from. The searches ran through April 2026 with no language or publication-form limits, though the
+resulting corpus is overwhelmingly English-language and journal-published, which reflects where the constructs
+were built rather than a limit we imposed.
 
-That the gap is real rather than an artifact of where the search stopped can be checked against the field's
-own recent stocktaking. The adjacent literatures have been reviewed repeatedly and at scale in the period
-this construct was forming: systematic and integrative reviews of algorithmic management in the gig economy
-(Kadolkar et al., 2024; Keegan & Meijerink, 2025), a multilevel review of artificial
-intelligence in organizations (Bankins et al., 2024), an integrative review of algorithm literacy
-(Gagrčin et al., 2026), and a socio-technical review of the
-platform-mediated gig economy (Dedema & Rosenbaum, 2024). Each of these reviews surveys a literature adjacent
-to the one this paper synthesizes, and none of them names a worker coordinating with another human party
-through an algorithm that pursues its own objectives across both as a distinct construct or object. The
-saturation is therefore not a stopping artifact; the axis is absent from the syntheses that would have
-surfaced it.
+Whether the gap is real or just an artifact of where we stopped can be checked against the field's own recent
+stocktaking. Other authors have reviewed the adjacent literatures repeatedly and at scale while this construct
+was forming: systematic and integrative reviews of algorithmic management in the gig economy (Kadolkar et al.,
+2024; Keegan & Meijerink, 2025), a multilevel review of AI in organizations (Bankins et al., 2024), an
+integrative review of algorithm literacy (Gagrčin et al., 2026), and a socio-technical review of the
+platform-mediated gig economy (Dedema & Rosenbaum, 2024). Each surveys a literature next to the one we
+synthesize, and none names a worker coordinating with another human party through an algorithm that pursues
+its own objectives across both. The axis is absent from the very syntheses that would have surfaced it, so the
+saturation is not a stopping artifact.
 
-A source enters the corpus when it bears on whether the existing competency constructs can extend to triadic
-algorithmic coordination, and a source is excluded when it does not. Two categories of inclusion follow from
-the criterion: sources that specify a competency-level construct, which constitute the existing landscape the
-paper tests for completeness, and sources that contribute structural or historical foundations the
-competency-level argument depends on. Two categories of exclusion follow as well. Empirical applications that
-did not extend a construct's conceptual domain are excluded, because empirical findings, however numerous, do
-not change what a construct can or cannot accommodate at its unit of analysis. Uses of construct labels that
-did not commit to a definition the review could engage with are excluded, because there is nothing specified
-to engage. Trustworthy synthesis at *Annals* requires pre-specified inclusion criteria, recorded screening
-decisions, and an explicit distinction between study quality and methodological appropriateness, and the
-review applies each (Rousseau, 2024).
+A source enters the corpus when it bears on whether the competency constructs can extend to triadic
+algorithmic coordination, and it stays out when it does not. Two kinds enter: sources that specify a
+competency-level construct, which make up the landscape we test for completeness, and sources that supply the
+structural or historical foundations the argument needs. Two kinds stay out. Empirical applications that do
+not extend a construct's conceptual domain stay out, because no number of findings changes what a construct
+can accommodate at its unit of analysis. Label-uses that commit to no definition we can engage stay out,
+because there is nothing specified to engage. Trustworthy synthesis at *Annals* asks for pre-specified
+inclusion criteria, recorded screening decisions, and a clear line between study quality and methodological
+fit, and we apply each (Rousseau, 2024).
 
 ## 2.3 Synthesis approach
 
-The synthesis is integrative because the gap the paper addresses is conceptual (Cronin & George, 2023).
-Aggregation across studies sharing a unit of analysis cannot answer whether constructs from outside that unit
-can extend to it, and the question the review takes up is whether the competency constructs built for
-sender-medium-receiver coordination can extend to a coordination form built around a third party with its own
-objectives across both human parties. The question is conceptual at every step. The synthesis is therefore
-conceptual: each construct is read against the structural form it shares with the others, and the points where
-each construct stops short of the triadic form are identified.
+The synthesis is conceptual because the gap is conceptual (Cronin & George, 2023). Aggregation across studies
+that share a unit of analysis cannot tell us whether constructs from outside that unit can reach it, and our
+question is exactly whether constructs built for sender-medium-receiver coordination can reach a form built
+around a third party with its own objectives across both parties. So we read each construct against the
+structural form it shares with the others and mark where it stops short of the triad.
 
-The synthesis logic is the dyadic-inheritance argument, and it carries through the rest of the paper. The
-competency constructs that descend from CMC competence — human-machine communication, AI-mediated
-communication, the literacy frameworks, and algorithm sensemaking — share a structural assumption their
-predecessor made: a worker on one side, a system on the other. The shared assumption is the inheritance, and
-the inheritance is what the triadic form breaks. Reading each construct against the triadic form makes the
-inheritance visible at the construct level; reading the seven constructs together makes the structural pattern
-visible at the field level. The competency the form requires is the construct the inheritance has prevented
-the existing literature from naming.
+The logic that carries the rest of the paper is dyadic inheritance. The constructs that descend from CMC
+competence (human-machine communication, AI-mediated communication, the literacy frameworks, algorithm
+sensemaking) all keep the assumption their predecessor made: a worker on one side, a system on the other.
+That inherited assumption is what the triadic form breaks. Read one construct against the form and the
+inheritance shows at the construct level; read all seven together and it shows at the field level. The
+competency the form requires is the one this inheritance kept the literature from naming.
 
-Because an integrative review carries no PRISMA protocol, its rigor rests on systematicity as an orientation
-rather than as a checklist — an encompassing commitment to explicit method constituted by transparency,
-coverage, saturation, connectedness, universalism, and coherence (Simsek, Fox, & Heavey, 2023). This section
-has supplied each: the corpus-anchoring decision and its rationale (transparency), the three-field span and
-the citation-traced search (coverage), the construct-family stopping rule and the recent-reviews check
-(saturation), the dyadic-inheritance logic that connects the constructs to one another and to the structural
-form (connectedness and coherence), and inclusion criteria stated independently of any construct's standing
-(universalism). Together these constitute the review's scope-and-process disclosure, and they make the
-foreclosure that follows auditable without converting a conceptual review into an effects aggregation.
-
-Section 3 develops the triadic form and the three conditions that distinguish it from the dyadic forms the
-existing competency constructs were built around. Section 4 takes up each competency construct in turn and
-identifies where each stops short of the triadic form. Section 5 places the moment in the historical sequence
-of coordination forms and engages the closest theoretical adjacents. Section 6 specifies algorithmacy through
-the four elements of construct clarity. Sections 7 and 8 develop the research agenda and the institutional
-stakes.
+An integrative review carries no PRISMA protocol, so its rigor rests on systematicity as an orientation
+rather than a checklist: a commitment to explicit method along six lines, transparency, coverage, saturation,
+connectedness, universalism, and coherence (Simsek, Fox, & Heavey, 2023). This section has supplied each. It
+states the corpus-anchoring decision and its rationale (transparency), spans three fields with a
+citation-traced search (coverage), stops on a construct-family rule checked against recent reviews
+(saturation), connects the constructs to one another and to the form through dyadic inheritance (connectedness
+and coherence), and sets inclusion criteria independent of any construct's standing (universalism). Together
+these are the review's scope-and-process disclosure, and they let the foreclosure that follows be audited
+without turning a conceptual review into an effects aggregation.
 
 ---
 

@@ -19,249 +19,213 @@ Communication theory has measured how a worker engages an algorithmic system; it
 
 ## 1. Introduction
 
-
 Hold two rideshare drivers at the same skill and the same effort, put them on the same platform in the same
 city, and the system will still pay them differently. This is not a claim about discrimination, and it is not
-a claim about hidden differences in how hard they work. In a ride-hailing model calibrated to real
-operating data, small changes in the matching parameters distribute "vastly different incomes to identically
-performing drivers," producing a system whose payouts are effectively unpredictable from the driver's side
-(Bokányi & Hannák, 2020). The largest empirical study of platform earnings finds the same divergence in the
-field: across more than a million Uber drivers, a roughly seven percent gender earnings gap resolves entirely
-into where and when people drive, how much experience they have accumulated, and how fast they drive — not
-into discrimination by the platform or its customers (Cook, Diamond, Hall, List, & Oyer, 2021). The gap is
-real, and it is produced by something the drivers do in relation to the system, which the study can measure
-the residue of but cannot name. Interview evidence across seven platforms reaches the conclusion from the
-other direction: worker satisfaction, autonomy, and earnings "vary significantly across and within
-platforms," and the two dominant explanations for platform outcomes — precarity and algorithmic control —
-cannot account for the within-platform spread, because both predict that workers in the same position will
-have the same experience (Schor, Attwood-Charles, Cansoy, Ladegaard, & Wengronowitz, 2020).
+a claim about hidden differences in how hard they work. In a ride-hailing model calibrated to real operating
+data, small changes in the matching parameters distribute "vastly different incomes to identically performing
+drivers," producing a system whose payouts are effectively unpredictable from the driver's side (Bokányi &
+Hannák, 2020). The largest field study of platform earnings finds the same divergence: across more than a
+million Uber drivers, a roughly seven percent gender earnings gap resolves entirely into where and when people
+drive, how much experience they have accumulated, and how fast they drive, with no role for discrimination by
+the platform or its customers (Cook, Diamond, Hall, List, & Oyer, 2021). The gap is real, and something the
+drivers do in relation to the system produces it. The study measures the residue but cannot name the activity.
+Interview evidence across seven platforms reaches the same point from the other side: worker satisfaction,
+autonomy, and earnings "vary significantly across and within platforms," and the two dominant explanations for
+platform outcomes, precarity and algorithmic control, cannot account for the within-platform spread, because
+both predict that workers in the same position will have the same experience (Schor, Attwood-Charles, Cansoy,
+Ladegaard, & Wengronowitz, 2020).
 
-This is the puzzle the paper begins from. Equivalently positioned workers, sending their inputs into an
-identical algorithmic system, arrive at divergent outcomes, and the field has no competency construct that
-explains the divergence. The vocabulary available for what a worker does in relation to an algorithm —
-computer-mediated communication competence, human-machine communication, AI-mediated communication, the
-algorithmic and AI literacies, algorithm sensemaking — was built around a picture of a worker on one side and
-a system on the other. None of it describes a worker coordinating, through a third party that pursues its own
-objectives, with another human party on the far side of that system. The competency the variance points to is
-the one the existing vocabulary cannot supply. Naming it, specifying it, and locating it among its neighbors
-is the work of this review.
+Equivalently positioned workers send their inputs into one system and come out the other side with different
+outcomes, and no construct in the field explains why. The vocabulary available for what a worker does in
+relation to an algorithm (computer-mediated communication competence, human-machine communication, AI-mediated
+communication, the algorithmic and AI literacies, algorithm sensemaking) was built around a worker on one side
+and a system on the other. None of it describes a worker coordinating, through a third party that pursues its
+own objectives, with another human party on the far side of that system. That worker is exercising a
+competency the field has not named. We name it here, specify it, and place it among its neighbors.
 
 ### 1.1 Common ground
 
-Coordination through a third party with its own objectives is a structurally distinct form of human
-cooperation, and it predates platforms by centuries. Two lawyers in court each address the judge, who rules
-on what evidence is admissible, what arguments are permitted, and how the dispute resolves; what the lawyers
-can do for their clients depends on what the judge will allow. Two traders on a stock exchange rarely interact
-directly; their orders flow through a market maker who matches buyers and sellers, sets the bid-ask spread,
-and profits from each transaction; what executes and at what price depends on the maker's inventory and risk
-position. A driver and a rider on a platform do not negotiate. The matching algorithm assigns the trip, sets
-the price, and routes the payment; what either side accomplishes depends on what the algorithm has been built
-to optimize for. A job applicant and a hiring manager do not make first contact at most large employers. An
-applicant tracking system parses the resume, scores it against the position's keyword profile, and forwards a
-short list; the manager never sees the rejected resumes.
+Coordination through a third party with its own objectives is an old form of human cooperation, older than
+platforms by centuries. Two lawyers in court reach each other only through the judge, who rules on what
+evidence is admissible and what arguments are allowed; what a lawyer can win for a client depends on what the
+judge will permit. Two traders reach each other only through a market maker, who matches their orders, sets
+the spread, and takes a cut of each transaction; what executes, and at what price, depends on the maker's
+inventory and risk. The pattern recurs wherever a third party stands between two others and runs the exchange
+on its own terms: a matching algorithm between driver and rider, an applicant tracking system between a
+candidate and a hiring manager who never sees the resumes it screens out.
 
-In each of these arrangements the third party's objectives, not the human parties' intentions, determine what
-passes between them. The judge is committed to procedural fairness, precedent consistency, and docket
-efficiency; an argument well-suited to the client's case but poorly suited to those commitments will not reach
-the opposing counsel in usable form. The market maker is committed to spread capture, inventory management,
-and risk minimization; an order that would be advantageous against another order on the book may not execute
-if the maker's inventory position would suffer. The matching algorithm is committed to utilization, surge
-optimization, and retention; a driver's willingness and a rider's preference are inputs to be reconciled with
-those targets, not the targets themselves. The applicant tracking system is committed to throughput,
-compliance documentation, and statistical fit; an applicant whose strengths fall outside the keyword profile
-will not reach the hiring manager regardless of those strengths.
+What passes between the two parties is set by the third party's objectives, not their intentions. The judge
+serves procedural fairness and a crowded docket; an argument well-made for the client's case but ill-suited to
+those commitments never reaches the other side in usable form. The matching algorithm serves utilization,
+surge, and retention; the driver's willingness and the rider's preference are inputs to be reconciled with
+those targets, not the targets themselves. In each case the worker's effort is refracted through priorities
+she did not set and usually cannot see.
 
-Sociology and organization theory have established that this structure is real and consequential, but they
-have established it at the level of organizational form, not at the level of individual competency. Simmel
-showed that triads have structural properties dyads cannot reproduce, and Krackhardt recovered the argument
-for organizational network analysis (Krackhardt, 1999; Simmel, 1950). Latour (2005) drew the distinction
-between media that transform what passes through and media that merely convey. Stark and Pais (2020) brought
-this geometry into platform research, describing the platform model as one in which an owner enrolls both
-providers and users in algorithmic management without delegating authority; Stark and Vanden Broeck (2024)
-treat the form as a fourth coordination mechanism alongside hierarchy, market, and network. What none of this
-work supplies is an account of what the form requires of the individual inside it — and that worker-level
-requirement is exactly where the variance puzzle lives.
+Sociologists and organization theorists have established that this structure is real and consequential, but at
+the level of organizational form, not individual capacity. Simmel showed that a triad has properties no dyad
+can reproduce, and Krackhardt carried the argument into organizational network analysis (Krackhardt, 1999; Simmel,
+1950). Latour (2005) separated media that transform what passes through them from media that merely convey it.
+Stark and Pais (2020) brought this geometry into platform research, and Stark and Vanden Broeck (2024) named
+the platform a fourth coordination mechanism beside hierarchy, market, and network. None of this work says
+what the form asks of the person inside it. That is where the variance puzzle lives.
 
 ### 1.2 Complication
 
-The existing competency constructs measure how a worker manages a medium, and they cannot extend to measure
-how a worker coordinates through a third party that pursues objectives of its own across both human parties.
-CMC competence (Spitzberg, 2006) is the most fully specified of these and the closest cousin to what
-algorithmacy will need to do. It integrates motivation, knowledge, skill, context, and outcomes into an
-individual capacity for communicating through a medium that conveys what the sender produces, where the medium
-has properties that shape latency, format, and persistence but does not score the message before forwarding or
-adjust the wording for engagement. The descendants of CMC competence carry the same structural assumption
-forward into more sophisticated terrain: HMC into machines as communicating partners (Guzman & Lewis, 2020),
-AI-MC into communication that an AI on the sender's side has shaped (Hancock, Naaman, & Levy, 2020), the
-literacy frameworks into what users know about the systems they engage, algorithm sensemaking into how workers
-interpret algorithmic management (Möhlmann, Alves de Lima Salge, & Marabelli, 2023). The structural assumption
-is the same throughout: a worker on one side, a system on the other.
+The existing competency constructs measure how a worker manages a medium; they do not extend to how a worker
+coordinates through a third party that pursues objectives of its own across both human parties. CMC competence
+(Spitzberg, 2006) is the most fully specified of them and the closest cousin to what algorithmacy must do. It
+integrates motivation, knowledge, skill, context, and outcomes into an individual capacity for communicating
+through a medium that conveys what the sender produces, a medium whose properties shape latency, format, and
+persistence but that does not score the message before forwarding it or rewrite it for engagement. Its
+descendants carry the same assumption into more sophisticated terrain: human-machine communication makes the
+machine a communicating partner (Guzman & Lewis, 2020), AI-mediated communication treats the message as
+something an AI on the sender's side has shaped (Hancock, Naaman, & Levy, 2020), the literacy frameworks ask
+what users know about the systems they engage, and algorithm sensemaking asks how workers interpret
+algorithmic management (Möhlmann, Alves de Lima Salge, & Marabelli, 2023). The structural assumption holds
+throughout: a worker on one side, a system on the other.
 
-A driver coordinating with a rider through Uber's matching algorithm is doing something the existing
-constructs cannot fully describe, and what falls outside the description is the activity that determines
-whether her work succeeds. She sends inputs — when she logs on, where she positions her vehicle, which rides
-she accepts and declines — to a system that pursues platform objectives and uses those inputs to match her
-with a rider she has not chosen. The system transforms her signals through its surge model, its dispatch
-model, its retention model. The rider receives a price and a wait time. Neither party sees what the algorithm
-did between them. Driver-side data studies make the opacity concrete: the variability in a driver's hours and
-pay "depends on the behavior of the market, which is invisible to drivers," and the platform passes the
-resulting losses and gains to each driver individually as what one ethnography calls algorithmic
-predictability risk (Pidoux, Kypraiou, & Dehaye, 2025). The existing constructs reach pieces of what the driver
-does — how she makes sense of the system, what she knows about it, how she communicates through it — but the
-activity that determines her earnings is none of these. It is coordinating with a rider whose preferences she
-will only learn after a match, through a system whose objectives shape both her inputs and the rider's
-outputs.
+A driver coordinating with a rider through Uber's matching algorithm is doing something these constructs
+cannot fully describe, and what falls outside the description is what decides whether her work pays. She sends
+inputs (when she logs on, where she parks, which rides she takes and declines) into a system that pursues
+platform objectives and uses those inputs to match her with a rider she did not choose. The system transforms
+her signals through its surge model, its dispatch model, its retention model; the rider receives a price and a
+wait time; neither party sees what the algorithm did between them. Driver-side data make the opacity concrete:
+a driver's hours and pay vary with "the behavior of the market, which is invisible to drivers," and the
+platform passes the resulting losses and gains to each driver individually as what one ethnography calls
+algorithmic predictability risk (Pidoux, Kypraiou, & Dehaye, 2025). The existing constructs each reach a piece
+of what she does, how she makes sense of the system, what she knows about it, how she sends through it, but the
+activity that sets her earnings is none of these. It is coordinating with a rider whose preferences she learns
+only after the match, through a system whose objectives shape both her inputs and his outcomes.
 
-The structural literature has named the form and the empirical literature has documented the asymmetries it
-produces, but the worker's competency inside the form has remained unspecified. The empirical case has been
-worked out in detail for eBay sellers caught between buyers and the platform's evaluation system, with close
-attention to how the asymmetries get produced (Curchod, Patriotta, Cohen, & Neysen, 2020), and for
-higher-skill freelancers whose cumulative exposure to opaque evaluation Rahman (2021) names the invisible
-cage. The variance these conditions produce is not noise around a stable mean; it is the dependent variable
-the missing competency would explain. Stark and Vanden Broeck (2024) place this kind of structure alongside
-hierarchy, market, and network as a fourth coordination mechanism and call its operative principle
-co-optation; they describe what platforms do at the level of organizational form. The actor-network tradition
-long ago drew the line between a third party that transforms what passes through and one that conveys it
-intact (Latour, 2005); the distinction operates at the level of network theory. What an individual working
-inside the form has to know, perceive, or do to coordinate effectively with the human party on the other
-side has not been worked out at the corresponding level of detail.
+Curchod and colleagues (2020) documented this in detail for eBay sellers caught between buyers and the
+platform's rating system; Rahman (2021) followed freelancers as their exposure to opaque evaluation hardened
+into what he calls the invisible cage. The variance these conditions produce is not noise around a stable
+mean. It is the dependent variable the missing competency would explain. Stark and Vanden Broeck (2024) set
+the structure beside hierarchy, market, and network and call its principle co-optation; Latour (2005) had long
+since separated a third party that transforms from one that conveys. These accounts show what the form does to
+workers. None of them says what the worker does back.
 
 ### 1.3 Concern
 
-A new coordination form has produced a new competency before, and the new competency was not a refinement of
-the prior one. Before writing, communication happened face-to-face: speaker and listener in the same place at
-the same time, with social memory carrying what the moment did not. Storytellers preserved what cultures
-needed to remember. Orators persuaded assemblies. Elders adjudicated disputes. People who did this work well
-were practicing what came to be called oracy. Writing changed what communication could do. An author addressed
-a reader through a medium that conveyed without acting, and the two parties might never share a place, a time,
-or even a kind of party — an institution could be the author, a population could be the reader. The competency
-this form required was not a more proficient version of oracy; it was reading, writing, citing, archiving,
-navigating documents whose authors were not present to clarify, working through institutions that ran on text.
-The institutions that grew up around documents — schools, archives, courts, codes of law — required this
-competency at scale, and it took on a name that survived: literacy. Oracy stayed valid for the form it had
-been built to serve.
+A new coordination form has produced a new competency before, and not as a refinement of the old one. Before
+writing, communication was face-to-face: speaker and listener in one place at one time, with social memory
+holding what the moment let go. The people who did this work well, the storytellers and orators and settlers
+of disputes, were practicing what we now call oracy. Writing changed what communication could do. An author
+reached a reader through a medium that conveyed without acting, and the two need never share a place, a time,
+or even a kind: an institution could be the author and a population the reader. The competency this demanded
+was not better oracy. It was reading, writing, citing, archiving, working through documents whose authors were
+absent and institutions that ran on text, and the schools and archives and courts that grew up around those
+documents required it at scale. It took a name that stuck: literacy. Oracy stayed valid for the world it was
+built for.
 
 The literacy frameworks treat the algorithm as a complex text, and the treatment misses what makes algorithmic
-engagement structurally different from reading. The user encounters the algorithm, develops an imagined model
-of how it works, and engages it through that model; the activity has the shape of a reader confronting a
-difficult text, and the literacy frameworks describe the reader's side of that activity well. A document,
-however, conveys what its author wrote without acting on it. An algorithm transforms each input as part of its
-operation, and it does so in pursuit of objectives that span both the worker and the counterpart on the other
-side. The activity of coordinating with that counterpart, through transformations the algorithm performs in
-pursuit of its own ends, is not reading the algorithm. Stretching literacy to cover algorithmic coordination
-is the move oracy-extension would have been at literacy's emergence. It produces real findings about the
-reading-like aspects of the encounter and leaves the coordination outside its frame.
+engagement different from reading. A user meets the algorithm, forms an imagined model of how it works, and
+acts through that model; the activity has the shape of a reader working through a difficult text, and the
+literacy frameworks describe the reader's side of it well. But a document conveys what its author wrote without
+acting on it, and an algorithm transforms each input as part of its operation, in pursuit of objectives that
+span both the worker and the counterpart on the far side. Coordinating with that counterpart, through
+transformations the algorithm performs for its own ends, is not reading the algorithm. To stretch literacy
+over it is the move oracy-extension would have been at literacy's emergence: it yields real findings about the
+reading-like part of the encounter and leaves the coordination outside the frame.
 
-The institutions that will develop the new competency at scale are already forming, and the vocabulary
-academic scholarship hands them will determine what those institutions build. The convergence is visible, and
-it is converging on a term its own authors describe as under-specified. The European Union's AI Act now
-imposes a binding obligation, in force since February 2025, that providers and deployers ensure "a sufficient
-level of AI literacy" among the people who operate these systems — and defines that competency only by
-reference to the worker's technical knowledge, experience, training, and "the context in which the AI systems
-are to be used" (European Parliament & Council, 2024a, Art. 4). The same body's Platform Work Directive, the
-first European legislation to regulate workplace algorithms directly, codifies transparency and human-review
-rights for precisely the case of algorithmic management — and confines them to platform workers, leaving the
-rest of the workforce that coordinates through algorithms uncovered (European Parliament & Council, 2024b).
-The labor market has moved in parallel and with the same vocabulary: LinkedIn names AI literacy the
-fastest-growing skill of 2025, the OECD partitions the workforce into a small tier needing "advanced AI
-skills" and a vast majority needing "general AI literacy" while reporting that training supply meets almost
-none of that demand, and the World Economic Forum's skills taxonomy places "AI and big data" at the top of
-its fastest-growing list (LinkedIn, 2025; OECD, 2025; World Economic Forum, 2025). Bootcamps, certification
-programs, gig-worker advocacy organizations, and workforce-development agencies are building curricula, and
-regulators are building law, on top of these terms — algorithmic skill, AI literacy, AI fluency, platform
-literacy. Each reaches for a competency the existing scholarly vocabulary cannot supply, and each risks
-producing programs that train workers for a coordination form different from the one they actually face.
-Literacy became an institutional competency of the modern nation-state through schools, universities,
-libraries, and the legal recognition of textual instruments, and whatever competency the new coordination form
-requires will become institutional in the same way. The vocabulary the field hands those institutions in the
-next several years will determine whether they train workers for the form they face or for the one the
-existing literature was built around.
+The institutions that will build the new competency at scale are already forming, and the vocabulary
+scholarship hands them will shape what they build. The convergence is visible, and it has settled on a term its
+own authors call under-specified. The European Union's AI Act, in force since February 2025, requires
+providers and deployers to ensure "a sufficient level of AI literacy" among the people who operate these
+systems, and defines that competency only by reference to a worker's technical knowledge, experience,
+training, and "the context in which the AI systems are to be used" (European Parliament & Council, 2024a, Art.
+4). The same body's Platform Work Directive, the first European law to regulate workplace algorithms directly,
+grants transparency and human-review rights for algorithmic management, then confines them to platform workers
+and leaves the rest of the workforce that coordinates through algorithms uncovered (European Parliament &
+Council, 2024b). The labor market has moved with the same word: LinkedIn calls AI literacy the fastest-growing
+skill of 2025, the OECD splits the workforce into a small tier needing "advanced AI skills" and a vast majority
+needing "general AI literacy" while reporting that training supply meets almost none of that demand, and the
+World Economic Forum's skills taxonomy puts "AI and big data" at the top of its fastest-growing list (LinkedIn,
+2025; OECD, 2025; World Economic Forum, 2025). Bootcamps, certification programs, gig-worker advocacy
+organizations, and workforce agencies are building curricula, and regulators are building law, on terms like
+algorithmic skill, AI literacy, AI fluency, and platform literacy. Each reaches for a competency the existing
+scholarly vocabulary cannot supply, and each risks training workers for a coordination form other than the one
+they face. Literacy became an institutional competency of the modern state through schools, libraries, and the
+legal recognition of written instruments, and whatever the new form requires will be institutionalized the same
+way. The vocabulary the field supplies over the next several years will decide whether those institutions train
+workers for the form in front of them or for the one the older literature was built around.
 
 ### 1.4 Course of action
 
-Algorithmacy is the communication competency for working through a third party that has its own objectives and
-acts on what passes through, and it is not a refinement of CMC competence or the literacy frameworks. The
-construct operates at the individual level, integrates knowledge, skill, motivation, and situated practice
-into a measurable capacity, and develops through participation in the form rather than through instruction
-about it — a developmental pattern visible in evidence that drivers learn, with experience, to read and
-discount the platform's nudges rather than to comply with them (Uzunca & Kas, 2022). CMC competence
-is the closest cousin in the existing landscape (Spitzberg, 2006), and the family resemblance is structural:
-both constructs locate a worker in a coordination form and ask what she has to do to work effectively inside
-it. CMC competence locates her on one side of a passive channel; algorithmacy locates her on one side of an
-active intermediary that pursues its own objectives across both her and the human party she is trying to
-reach.
+Algorithmacy[^term] is the communication competency for working through a third party that pursues its own
+objectives and acts on what passes through, and it is not a more advanced CMC competence or a richer literacy.
+It is an individual capacity; it integrates knowledge, skill, motivation, and situated practice; and it
+develops through participation in the form rather than instruction about it. Drivers, for one, learn with
+experience to read and discount the platform's nudges rather than obey them (Uzunca & Kas, 2022). CMC
+competence is the closest cousin (Spitzberg, 2006), and the resemblance is structural: both constructs put a
+worker in a coordination form and ask what she must do to work well inside it. CMC competence puts her on one
+side of a passive channel. Algorithmacy puts her on one side of an active intermediary that pursues its own
+objectives across both her and the party she is trying to reach.
 
 A worker on a triadic platform acts on her counterpart only through transformations she cannot witness. A
-driver who turns left toward a denser passenger zone sends an input to the matching algorithm; the algorithm
-transforms the input through its surge model and produces an outcome she experiences as a ride or as no ride.
-A passenger requests a ride; the algorithm transforms the request through its dispatch model and produces an
-outcome he experiences as a wait time and a price. Neither party sees what the algorithm did to the other's
-input. A lawyer's argument reaches the opposing counsel only through what the judge has admitted, ruled on, or
-excluded; the judge's transformation is between them. Each party sends, and neither sees what reached the
-other side or what the third party did between: *signal asymmetry*.
+driver who turns toward a denser passenger zone sends an input to the matching algorithm, which transforms it
+through its surge model and returns an outcome she experiences as a ride or as no ride. A passenger requests a
+ride, and the algorithm transforms the request through its dispatch model into a wait time and a price. Neither
+sees what the algorithm did to the other's input, just as a lawyer reaches the opposing counsel only through
+what the judge has admitted or excluded. Each party sends; neither sees what reached the other side or what the
+third party did between: *signal asymmetry*.
 
-The third party accepts inputs in its own vocabulary or not at all, and a worker's situated intent will not
-always translate without loss. A driver who is willing to take long rides ending near home cannot tell the
-algorithm so. She can only do things — accept rides in certain directions, decline others, position her
-vehicle in particular places — that the algorithm may or may not read as that preference. An applicant who has
-rare and relevant experience cannot describe it freely on a resume that an applicant tracking system will
-parse against a keyword profile; she has to translate the experience into the system's vocabulary, and the
-translation is lossy in ways that depend on a vocabulary she did not design. The loss between situated intent
-and the input the system will accept is *intent compression*.
+The third party accepts inputs in its own vocabulary or not at all, and a worker's situated intent rarely
+survives the translation. A driver willing to take long rides that end near home cannot tell the algorithm so.
+She can only do things, accept rides in some directions, decline others, park in particular places, that the
+algorithm may or may not read as that preference. An applicant with rare and relevant experience cannot
+describe it freely on a resume an applicant tracking system will parse against a keyword profile; she has to
+render the experience in the system's terms, and the rendering loses whatever those terms were not built to
+hold: *intent compression*.
 
-The third condition is *opaque mediation*: the rules governing what the third party does to inputs are
-unpublished, unstable, and subject to change as the system learns from the interactions it mediates (Faraj,
-Pachidi, & Sayegh, 2018). What worked in March may stop working in April. The worker has no way to know the
-rules have moved except by noticing that her outcomes have, and disclosure does not resolve the problem:
-even where platforms publish information about how their controls work, the transparency does not relieve the
-stress or the uncertainty the controls impose (Cram, Wiener, Tarafdar, & Benlian, 2022).
+The third condition is *opaque mediation*. The rules governing what the third party does to inputs are
+unpublished, unstable, and revised as the system learns from the interactions it mediates (Faraj, Pachidi, &
+Sayegh, 2018). What worked in March can stop working in April, and the worker learns the rules have moved only
+because her outcomes have. Disclosure does not fix this: where platforms do publish how their controls work,
+the transparency does not relieve the stress or the uncertainty the controls impose (Cram, Wiener, Tarafdar, &
+Benlian, 2022).
 
-Algorithmacy is what holds coordination together when the older mechanisms cannot. Any coordination form has
-to secure the same three integrating conditions: accountability, predictability, and common understanding
-(Okhuysen & Bechky, 2009). Hierarchies secure them through delegated authority workers can appeal to. Markets
-secure them through prices and contracts workers can observe and enforce. Networks secure them through trust
-and reciprocity workers build over time. Triadic coordination through algorithmic intermediaries has none of
-these. There is no manager to escalate to, no contract that specifies the terms, no relational history that
-constrains the next interaction. The integrating conditions hold only insofar as workers exercise algorithmacy
-under signal asymmetry, intent compression, and opaque mediation — and the degree to which they can is what
-separates the driver who earns from the identically performing driver who does not.
+Something has to hold coordination together when the older mechanisms cannot. Every coordination form must
+secure the same three things: accountability, predictability, and common understanding (Okhuysen & Bechky,
+2009). Hierarchies secure them by command, markets by contract, networks by accumulated trust. Triadic
+algorithmic coordination secures them by none of these. There is no manager to escalate to, no contract the
+worker can hold the platform to, no counterpart who comes back. What secures the three conditions instead is
+whatever the worker can do under signal asymmetry, intent compression, and opaque mediation. How well she can
+do it is what separates the driver who earns from the identically performing driver who does not.
 
 ### 1.5 Contribution
 
-The existing literature operates at the wrong levels of analysis to produce a competency-level construct for
-triadic algorithmic coordination. The competency vocabulary rests on a sender-medium-receiver assumption; it
-can be extended to richer media, more agential machines, more sophisticated readers, but not to a worker on
-one side of a third party with its own objectives across both human parties. The structural literature has
-produced organizational-form theory (Stark & Pais, 2020; Stark & Vanden Broeck, 2024), network theory (Latour,
-2005; Simmel, 1950), and empirical accounts of platform asymmetries (Curchod et al., 2020; Rahman, 2021); none
-of it operates at the level of what an individual worker has to know, perceive, and do. The contribution of
-this paper is a competency-level construct that fills the gap: a definition shaped to the structural form,
-dimensions derived from its three constitutive conditions, semantic relations to the existing landscape, and a
-position in the nomological network of antecedents and outcomes — the four elements of construct clarity
-(Suddaby, 2010) that any subsequent measurement work depends on.
+The existing constructs sit at the wrong level to answer the question. The competency vocabulary rests on a
+sender-medium-receiver picture; it stretches to richer media, more agentic machines, and more sophisticated
+readers, but not to a worker facing a third party with its own objectives on both sides of her. The structural
+accounts (Stark & Pais, 2020; Stark & Vanden Broeck, 2024; Latour, 2005; Simmel, 1950) and the empirical ones
+(Curchod et al., 2020; Rahman, 2021) work a level above the individual. We specify the construct that level
+leaves out: a definition shaped to the form, three dimensions drawn from its three conditions, a discriminant
+position among the existing constructs, and a place in a nomological network of antecedents and outcomes.
+These are the four elements of construct clarity (Suddaby, 2010) on which any later measurement depends.
 
-The construct opens a research program the existing competency landscape has not been positioned to undertake.
-The development of algorithmacy across worker populations, whether uniform or unequal, has direct implications
-for who succeeds in platform-coordinated work — and it is the candidate explanation for the variance the
-introduction began with. Its transferability across platforms is open: each algorithmic architecture may
-require a separate competency, or one capacity may travel across architectures, and which of these holds
-determines whether platform-mobile work is a coherent category. The relationship between algorithmacy and
-algorithm sensemaking — antecedent, consequence, or independent capacity — decides whether the
-information-systems literature on sensemaking and the management literature on competency describe a single
-phenomenon or different ones. Scale is a separate question: a competency that holds at the individual level may
-or may not aggregate to teams and institutions, and the answer determines whether organizational-level
-interventions are possible. The dissertation's three-paper sequence builds and tests the measurement
-instrument these questions require.
+The construct opens a research program the existing landscape was not built to undertake. How algorithmacy is
+distributed across workers, evenly or not, bears directly on who succeeds in platform-coordinated work, and it
+is the candidate explanation for the variance this introduction began with. Whether it transfers across
+platforms is open: each architecture may demand its own competency, or one capacity may travel, and which holds
+decides whether "platform-mobile work" is a coherent category at all. Its relation to algorithm sensemaking,
+whether antecedent, consequence, or independent capacity, decides whether the information-systems literature on
+sensemaking and the management literature on competency are describing one phenomenon or two. And a capacity
+that holds for the individual may or may not aggregate to teams and institutions, which decides whether
+organizational interventions can reach it. Papers 2 and 3 of this dissertation build and test the instrument
+these questions require.
 
-The remainder of the paper proceeds as follows. Section 2 specifies the method of the integrative review.
-Section 3 develops the structural form and the three conditions in detail. Section 4 takes up the existing
-construct landscape construct by construct, identifying what each one captures and showing where it stops short
-of the form. Section 5 develops the historical reading that places the current moment in the oracy → literacy →
-algorithmacy sequence, and engages the closest theoretical adjacents, Latour's (2005) intermediary/mediator
-distinction and Stark and Pais's (2020) triangular geometry. Section 6 specifies algorithmacy through the four
-elements of construct clarity. Section 7 positions the construct within a nomological network and lays out the
-future research agenda. Section 8 closes with the institutional stakes and the next moves in the dissertation's
-measurement program.
+The argument runs as follows. Section 2 sets out the method. Section 3 fixes the object, the triadic form and
+its three conditions. Section 4 takes each existing construct in turn and shows where it stops short of that
+form. Section 5 makes the historical and theoretical case for naming a new competency rather than extending an
+old one. Section 6 specifies algorithmacy to construct-clarity discipline, and Sections 7 and 8 lay out the
+program it opens and the stakes of getting the vocabulary right.
+
+[^term]: We call algorithmacy a *competency* throughout. The term keeps the construct legible to the
+    literatures it must be distinguished from (CMC competence, algorithmic competency) and to the
+    construct-clarity and measurement program the later papers build on it. We think *sensibility* is the
+    better long-run name for a capacity exercised under opacity and constant change, and we are developing the
+    construct in that direction; we retain *competency* here to stay within the standard.
 
 
 ---
@@ -269,14 +233,12 @@ measurement program.
 
 ## 2. Method of the review
 
-
-A review is primary scientific inquiry that uses prior research as its data, and its quality depends on
-aligning the review's purpose with its method rather than defaulting to a familiar format (Kunisch, Denyer,
-Bartunek, Menz, & Cardinal, 2023). The purpose of this review is to recover a competency-level construct that
-the existing literature has not named, and that purpose dictates an integrative rather than an aggregative
-method, a corpus anchored at the competency level, a search organized by construct rather than by keyword,
-and a synthesis that reads each construct against a shared structural form. This section specifies each of
-those choices at the level of detail that makes the review auditable without a PRISMA protocol.
+A review is primary inquiry that uses prior research as its data, and its quality turns on fitting the method
+to the purpose rather than to a familiar format (Kunisch, Denyer, Bartunek, Menz, & Cardinal, 2023). Our
+purpose is to recover a competency-level construct the existing literature has not named. That purpose sets
+the rest: an integrative rather than an aggregative method, a corpus anchored at the competency level, a
+search organized by construct rather than keyword, and a synthesis that reads each construct against a shared
+structural form. We specify each choice below in enough detail to audit without a PRISMA protocol.
 
 ### 2.1 Scope and corpus
 
@@ -290,139 +252,115 @@ mechanism workers operate inside but does not constitute the corpus on its own, 
 sits one level above competency and cannot answer the worker-level question. Anchoring the corpus at the
 competency level is the methodological commitment from which everything else in this section follows.
 
-The review is integrative, and the choice follows from what the contribution requires. The methodological
-warrant is the one Torraco (2005, 2016) names as the second justification for an integrative review: not a
-mature literature that has fragmented and needs reconceptualizing, but a new and emerging topic that needs
-initial conceptualization. A systematic review aggregates findings across studies that share a unit of
-analysis and produces conclusions about effects, prevalence, or mechanisms within that unit. The question
-this review takes up is whether the existing competency constructs, each built around a sender-medium-receiver
-assumption, can extend to a coordination form they were not built for, and the question cannot be answered
-through aggregation. It can only be answered by reading the existing constructs against the structural form
-they share and naming the construct the form requires that the existing literature has not supplied. The
-contribution sits in what the literature on theoretical reviews calls the clarifying-constructs function, and
-it is meant to deliver a contribution beyond a review rather than a summary of one (Cronin & George, 2023;
-Post, Sarala, Gatrell, & Prescott, 2020).
+We read integratively because the contribution requires it, not because the genre is fashionable. Torraco
+(2005, 2016) names two warrants for an integrative review; ours is the second, a new and emerging topic that
+needs initial conceptualization rather than a mature literature that needs reorganizing. A systematic review
+aggregates findings across studies that share a unit of analysis. Our question is whether constructs built
+around a sender-medium-receiver assumption can extend to a form they were not built for, and aggregation
+cannot answer it. Only reading the constructs against the form they share, and naming the one the form
+requires, can. This is the clarifying-constructs function, and it should deliver something beyond a review
+rather than a summary of one (Cronin & George, 2023; Post, Sarala, Gatrell, & Prescott, 2020).
 
-The primary corpus comes from three fields, and the choice of fields follows from where competency-level
-constructs in human-algorithm interaction have been built. The lineage from CMC competence through
-human-machine communication and AI-mediated communication originates in communication studies, where each
-construct locates a worker in a coordination form and asks what she has to do to work effectively inside it
-(Guzman & Lewis, 2020; Hancock, Naaman, & Levy, 2020; Spitzberg, 2006). Information systems produced
-algorithm sensemaking and the algorithmic and AI literacy frameworks, which locate a worker in relation to an
-algorithmic system and ask what she knows or how she comes to know it (Möhlmann, Alves de Lima Salge, &
-Marabelli, 2023). Organization studies produced algorithmic competency and the structural-form theory of the
-platform, which specify the form workers operate inside (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The
-gap the review identifies is visible only across the three fields, because no single field has produced the
-construct the paper specifies.
+The primary corpus comes from three fields, because that is where competency-level constructs in
+human-algorithm interaction grew up. CMC competence and its successors in human-machine and AI-mediated
+communication come from communication studies, where each construct puts a worker in a coordination form and
+asks what she must do to work inside it (Guzman & Lewis, 2020; Hancock, Naaman, & Levy, 2020; Spitzberg,
+2006). Algorithm sensemaking and the algorithmic and AI literacies come from information systems, where each
+puts a worker in relation to a system and asks what she knows or how she learns it (Möhlmann, Alves de Lima
+Salge, & Marabelli, 2023). Algorithmic competency and the structural-form theory of the platform come from
+organization studies, where the object is the form workers operate inside (Stark & Pais, 2020; Stark & Vanden
+Broeck, 2024). The gap shows only across the three fields, because no one of them produced the construct this
+paper specifies.
 
-Specifying a construct demands a different corpus than aggregating findings about one. The corpus the review
-uses is built around the seven existing competency constructs in their specified form, where conceptual
-commitments are explicit. Across the three fields, the corpus contains [N — to be finalized from the
-screening log] peer-reviewed sources organized around the seven constructs: CMC competence, human-machine communication, AI-mediated communication,
-algorithmic literacy, AI literacy, algorithm sensemaking, and algorithmic competency. Each construct is
-represented by its foundational specification, the work that has carried the construct since, and the
-empirical applications that bear on whether the construct extends. Saturation across each construct family
-bounded inclusion; bearing on the dyadic-inheritance argument set the criterion within the bounds.
+Specifying a construct demands a different corpus than aggregating findings about one. Ours is built around
+the seven existing competency constructs in their specified form, where the conceptual commitments are
+explicit: CMC competence, human-machine communication, AI-mediated communication, algorithmic literacy, AI
+literacy, algorithm sensemaking, and algorithmic competency. Across the three fields it holds [N — to be
+finalized from the screening log] peer-reviewed sources. Each construct enters through its foundational
+specification, the work that has carried it since, and the empirical applications that bear on whether it
+extends. Saturation within each family bounded inclusion; bearing on the dyadic-inheritance argument set the
+criterion within those bounds.
 
-A second corpus, separately assembled, supplies the structural and historical foundations the
-competency-level argument depends on. Simmel's account of triadic geometry and Krackhardt's recovery of it
-for organizational network analysis establish what is structurally distinct about a three-party coordination
-form, and the distinctness is what the existing competency constructs cannot accommodate (Krackhardt, 1999;
-Simmel, 1908/1950). Latour's intermediary-mediator distinction supplies the network-theoretic vocabulary for
+A second corpus, assembled separately, supplies the structural and historical foundations the competency
+argument leans on. Simmel's account of triadic geometry, and Krackhardt's recovery of it for organizational
+network analysis, establish what a three-party form has that the competency constructs cannot accommodate
+(Krackhardt, 1999; Simmel, 1908/1950). Latour's intermediary-mediator distinction gives the vocabulary for
 what an active third party does that a passive channel does not (Latour, 2005). Stark and Pais and Stark and
-Vanden Broeck specify the platform as an organizational form whose operative principle is co-optation
-alongside hierarchy, market, and network (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The
-literacy-studies tradition supplies the historical case that coordination forms have produced new
-competencies before, and that the new competencies were not refinements of the prior ones. The adjacent
-corpus is selective by design, because its function is to anchor the structural argument and not to be
-reviewed in its own right.
+Vanden Broeck specify the platform as a form whose principle is co-optation, beside hierarchy, market, and
+network (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The literacy-studies tradition supplies the
+historical case that earlier coordination shifts produced new competencies rather than refinements of the
+old. We assemble this corpus selectively, to anchor the structural argument, not to review it in its own
+right.
 
-Several large bodies of work fall outside both corpora, and the exclusions follow from the same anchoring
-decision. Empirical studies of platform work motivate the puzzle the introduction names but do not bear on
-whether the existing competency constructs can extend to it. Human-robot interaction and the broader
-human-computer interaction literatures fall outside the corpus where they treat the system as the unit of
-analysis rather than the worker. AI ethics and algorithmic accountability literatures fall outside where they
-address what algorithms ought to do rather than what workers must do to coordinate through them. Each
-exclusion is principled, and each follows from the commitment to specify a competency-level construct.
+Several large literatures fall outside both corpora, for the same reason. Empirical platform-work studies
+motivate the puzzle but do not bear on whether the competency constructs extend to it. Human-robot and
+human-computer interaction fall outside where they make the system, not the worker, the unit of analysis. AI
+ethics and algorithmic accountability fall outside where they ask what algorithms ought to do rather than
+what workers must do to coordinate through them. Each exclusion follows from the same commitment to a
+competency-level construct.
 
 ### 2.2 Search and selection
 
-The search proceeded construct by construct, and the choice followed from what the review needs to recover. A
-topic search for "platform work" or "algorithmic management" returns the empirical literature that motivates
-the puzzle, not the conceptual lineages where competency constructs live. A construct search for each of the
-seven labels returns the foundational specifications and the works that have carried each construct since.
-Constructs travel through citation networks more reliably than through keyword searches, and the citation
-network is what makes the lineage visible. A keyword search for "communication competence" does not recover
-the dyadic inheritance that links CMC competence, human-machine communication, and AI-mediated communication
-across the changes each successor made to its predecessor. The construct-by-construct search does.
+We searched construct by construct, because that is what the review needs to recover. A topic search for
+"platform work" or "algorithmic management" returns the empirical literature that motivates the puzzle, not
+the conceptual lineages where competency constructs live. A construct search for each of the seven labels
+returns the foundational specifications and the work that has carried each since. Constructs travel through
+citation networks more reliably than through keywords, and the network is what makes a lineage visible: a
+keyword search for "communication competence" never recovers the dyadic inheritance that links CMC
+competence, human-machine communication, and AI-mediated communication across the changes each successor
+made. A construct search does.
 
-Database searches across Web of Science, Business Source Complete, ABI/INFORM, and Google Scholar covered each
-construct label, and forward and backward citation tracing extended the search from each foundational paper.
-Forward tracing recovered the empirical and theoretical work that has carried each construct since its
-specification. Backward tracing recovered the parent traditions each construct inherited from. Searches ran
-through April 2026 with no language or publication-form restrictions, although the corpus that resulted is
-overwhelmingly English-language and journal-published, which reflects where the constructs have been built
-rather than a search-side restriction.
+We ran database searches across Web of Science, Business Source Complete, ABI/INFORM, and Google Scholar for
+each construct label, then traced citations forward and backward from each foundational paper. Forward tracing
+recovered the work that has carried each construct since; backward tracing recovered the parent tradition each
+inherited from. The searches ran through April 2026 with no language or publication-form limits, though the
+resulting corpus is overwhelmingly English-language and journal-published, which reflects where the constructs
+were built rather than a limit we imposed.
 
-That the gap is real rather than an artifact of where the search stopped can be checked against the field's
-own recent stocktaking. The adjacent literatures have been reviewed repeatedly and at scale in the period
-this construct was forming: systematic and integrative reviews of algorithmic management in the gig economy
-(Kadolkar et al., 2024; Keegan & Meijerink, 2025), a multilevel review of artificial
-intelligence in organizations (Bankins et al., 2024), an integrative review of algorithm literacy
-(Gagrčin et al., 2026), and a socio-technical review of the
-platform-mediated gig economy (Dedema & Rosenbaum, 2024). Each of these reviews surveys a literature adjacent
-to the one this paper synthesizes, and none of them names a worker coordinating with another human party
-through an algorithm that pursues its own objectives across both as a distinct construct or object. The
-saturation is therefore not a stopping artifact; the axis is absent from the syntheses that would have
-surfaced it.
+Whether the gap is real or just an artifact of where we stopped can be checked against the field's own recent
+stocktaking. Other authors have reviewed the adjacent literatures repeatedly and at scale while this construct
+was forming: systematic and integrative reviews of algorithmic management in the gig economy (Kadolkar et al.,
+2024; Keegan & Meijerink, 2025), a multilevel review of AI in organizations (Bankins et al., 2024), an
+integrative review of algorithm literacy (Gagrčin et al., 2026), and a socio-technical review of the
+platform-mediated gig economy (Dedema & Rosenbaum, 2024). Each surveys a literature next to the one we
+synthesize, and none names a worker coordinating with another human party through an algorithm that pursues
+its own objectives across both. The axis is absent from the very syntheses that would have surfaced it, so the
+saturation is not a stopping artifact.
 
-A source enters the corpus when it bears on whether the existing competency constructs can extend to triadic
-algorithmic coordination, and a source is excluded when it does not. Two categories of inclusion follow from
-the criterion: sources that specify a competency-level construct, which constitute the existing landscape the
-paper tests for completeness, and sources that contribute structural or historical foundations the
-competency-level argument depends on. Two categories of exclusion follow as well. Empirical applications that
-did not extend a construct's conceptual domain are excluded, because empirical findings, however numerous, do
-not change what a construct can or cannot accommodate at its unit of analysis. Uses of construct labels that
-did not commit to a definition the review could engage with are excluded, because there is nothing specified
-to engage. Trustworthy synthesis at *Annals* requires pre-specified inclusion criteria, recorded screening
-decisions, and an explicit distinction between study quality and methodological appropriateness, and the
-review applies each (Rousseau, 2024).
+A source enters the corpus when it bears on whether the competency constructs can extend to triadic
+algorithmic coordination, and it stays out when it does not. Two kinds enter: sources that specify a
+competency-level construct, which make up the landscape we test for completeness, and sources that supply the
+structural or historical foundations the argument needs. Two kinds stay out. Empirical applications that do
+not extend a construct's conceptual domain stay out, because no number of findings changes what a construct
+can accommodate at its unit of analysis. Label-uses that commit to no definition we can engage stay out,
+because there is nothing specified to engage. Trustworthy synthesis at *Annals* asks for pre-specified
+inclusion criteria, recorded screening decisions, and a clear line between study quality and methodological
+fit, and we apply each (Rousseau, 2024).
 
 ### 2.3 Synthesis approach
 
-The synthesis is integrative because the gap the paper addresses is conceptual (Cronin & George, 2023).
-Aggregation across studies sharing a unit of analysis cannot answer whether constructs from outside that unit
-can extend to it, and the question the review takes up is whether the competency constructs built for
-sender-medium-receiver coordination can extend to a coordination form built around a third party with its own
-objectives across both human parties. The question is conceptual at every step. The synthesis is therefore
-conceptual: each construct is read against the structural form it shares with the others, and the points where
-each construct stops short of the triadic form are identified.
+The synthesis is conceptual because the gap is conceptual (Cronin & George, 2023). Aggregation across studies
+that share a unit of analysis cannot tell us whether constructs from outside that unit can reach it, and our
+question is exactly whether constructs built for sender-medium-receiver coordination can reach a form built
+around a third party with its own objectives across both parties. So we read each construct against the
+structural form it shares with the others and mark where it stops short of the triad.
 
-The synthesis logic is the dyadic-inheritance argument, and it carries through the rest of the paper. The
-competency constructs that descend from CMC competence — human-machine communication, AI-mediated
-communication, the literacy frameworks, and algorithm sensemaking — share a structural assumption their
-predecessor made: a worker on one side, a system on the other. The shared assumption is the inheritance, and
-the inheritance is what the triadic form breaks. Reading each construct against the triadic form makes the
-inheritance visible at the construct level; reading the seven constructs together makes the structural pattern
-visible at the field level. The competency the form requires is the construct the inheritance has prevented
-the existing literature from naming.
+The logic that carries the rest of the paper is dyadic inheritance. The constructs that descend from CMC
+competence (human-machine communication, AI-mediated communication, the literacy frameworks, algorithm
+sensemaking) all keep the assumption their predecessor made: a worker on one side, a system on the other.
+That inherited assumption is what the triadic form breaks. Read one construct against the form and the
+inheritance shows at the construct level; read all seven together and it shows at the field level. The
+competency the form requires is the one this inheritance kept the literature from naming.
 
-Because an integrative review carries no PRISMA protocol, its rigor rests on systematicity as an orientation
-rather than as a checklist — an encompassing commitment to explicit method constituted by transparency,
-coverage, saturation, connectedness, universalism, and coherence (Simsek, Fox, & Heavey, 2023). This section
-has supplied each: the corpus-anchoring decision and its rationale (transparency), the three-field span and
-the citation-traced search (coverage), the construct-family stopping rule and the recent-reviews check
-(saturation), the dyadic-inheritance logic that connects the constructs to one another and to the structural
-form (connectedness and coherence), and inclusion criteria stated independently of any construct's standing
-(universalism). Together these constitute the review's scope-and-process disclosure, and they make the
-foreclosure that follows auditable without converting a conceptual review into an effects aggregation.
-
-Section 3 develops the triadic form and the three conditions that distinguish it from the dyadic forms the
-existing competency constructs were built around. Section 4 takes up each competency construct in turn and
-identifies where each stops short of the triadic form. Section 5 places the moment in the historical sequence
-of coordination forms and engages the closest theoretical adjacents. Section 6 specifies algorithmacy through
-the four elements of construct clarity. Sections 7 and 8 develop the research agenda and the institutional
-stakes.
+An integrative review carries no PRISMA protocol, so its rigor rests on systematicity as an orientation
+rather than a checklist: a commitment to explicit method along six lines, transparency, coverage, saturation,
+connectedness, universalism, and coherence (Simsek, Fox, & Heavey, 2023). This section has supplied each. It
+states the corpus-anchoring decision and its rationale (transparency), spans three fields with a
+citation-traced search (coverage), stops on a construct-family rule checked against recent reviews
+(saturation), connects the constructs to one another and to the form through dyadic inheritance (connectedness
+and coherence), and sets inclusion criteria independent of any construct's standing (universalism). Together
+these are the review's scope-and-process disclosure, and they let the foreclosure that follows be audited
+without turning a conceptual review into an effects aggregation.
 
 
 ---
@@ -432,14 +370,14 @@ stakes.
 ### 3.1 The structural form
 Triadic coordination through a third party with autonomous objectives cannot be modeled as a dyad with extra steps. The irreducibility is a structural property of the form, and dyadic models lose what the third party contributes whether or not the modeler insists on dyadic vocabulary. The move from dyad to triad introduces possibilities that two-party arrangements cannot reproduce; one party can stand outside another's exit threats, broker between two who cannot reach each other, and profit from disagreement neither participant alone could have monetized (Simmel, 1908/1950). Dyads embedded in closed triads constrain the action repertoire of the dyad in ways pure dyadic analysis cannot capture, an effect that has carried into organizational research as Simmelian-tie analysis (Krackhardt, 1999). The philosophical version closes the same argument: a relation involving sign, object, and interpretant cannot be analyzed into actions between pairs without losing the interpretant's mediating role, and any attempt to model it as a chain of dyads loses what the third term contributes (Peirce, 1931–1958, vol. 5, par. 484, in Short, 2007). Empirical work on Simmelian embedding has confirmed the structural distinctness across innovation outcomes (Tortoriello & Krackhardt, 2010), retaliation patterns (Goh, Krackhardt, Weingart, & Koh, 2014), and the social-psychological experience of exclusion (Yoon, Thye, & Lawler, 2013). The same irreducibility is now recovered at the frontier of network science, where higher-order interactions among three or more actors generate collective dynamics that pairwise models cannot represent and that projecting onto dyadic ties discards as if it were noise (Battiston et al., 2025); on this account the triad is the smallest unit at which a network exists at all, the smallest structure whose indirect ties a purely dyadic analysis cannot recover (Siltaloppi & Vargo, 2017). The triadic form has structural and philosophical anchors that long predate the platform case, and what the form requires of its participants is the question those anchors do not answer.
 
-The brokerage tradition in organizational network analysis describes a different triadic figure than the one platforms have built. The structural-hole broker profits from keeping disconnected alters apart, and the broker's value derives from the disconnection (Burt, 1992). The iungens broker joins disconnected actors, and the broker's value derives from the joining (Obstfeld, 2005). Brokerage as a structural position is conceptually separable from brokering as a process, and the integrative literature treats them as analytically distinct (Halevy, Halali, & Zlatev, 2019). Brokers in both traditions are human and agential, and individual brokers shift between gaudens and iungens orientations as the situation demands (Quintane & Carnabuci, 2016; Soda, Tortoriello, & Iorio, 2018). The algorithmic third party differs from both kinds of human broker. Its objectives are coded into the system before any specific interaction begins, and those objectives span both human parties at once. The system acts on the content of what passes through, while the brokerage tradition operates on connectivity. The two are different kinds of action through a triadic position.
+The brokerage tradition in organizational network analysis describes a different triadic figure than the one platforms have built. The structural-hole broker profits from keeping disconnected alters apart, and the broker's value derives from the disconnection (Burt, 1992). The iungens broker joins disconnected actors, and the broker's value derives from the joining (Obstfeld, 2005). Brokerage as a structural position is conceptually separable from brokering as a process, and the integrative literature treats them as analytically distinct (Halevy, Halali, & Zlatev, 2019). Brokers in both traditions are human and agential, and individual brokers shift between gaudens and iungens orientations as the situation demands (Quintane & Carnabuci, 2016; Soda, Tortoriello, & Iorio, 2018). The algorithmic third party differs from both kinds of human broker. Its objectives are coded into the system before any specific interaction begins, and they span both human parties at once. The system acts on the content of what passes through; the human broker acts only on who is connected to whom.
 
-Algorithmic management is a fourth coordination mechanism alongside hierarchy, market, and network, and it operates through co-optation. The platform enrolls providers and assets the firm does not own and routes their activity through systems that optimize toward the platform's objectives, without delegating authority and without making the optimization visible to those enrolled (Stark & Vanden Broeck, 2024). Platforms govern through a triangular geometry that supplies, in one summary, "rules but not bureaucracy; rankings but not ranks; accounts but no accountability" (Stark & Pais, 2020). Rule by code differs structurally from rule by bureaucracy and rule by price (Aneesh, 2009), and platforms govern through means that hierarchy, market, and network do not exhaust (Vallas & Schor, 2020). Community-as-mechanism, proposed as a coordination mechanism alongside market and hierarchy, is collaborative and reciprocal; the platform mode is appropriative; the two are distinct fourth-mechanism candidates (Adler, 2001; Powell, 1990). The structural literature settles the form's distinctness at the level of organizational governance, and the participant-level question of what the form requires of those it enrolls remains open.
+Algorithmic management is a fourth coordination mechanism alongside hierarchy, market, and network, and it operates through co-optation. The platform enrolls providers and assets the firm does not own and routes their activity through systems that optimize toward the platform's objectives, without delegating authority and without making the optimization visible to those enrolled (Stark & Vanden Broeck, 2024). Platforms govern through a triangular geometry that supplies, in one summary, "rules but not bureaucracy; rankings but not ranks; accounts but no accountability" (Stark & Pais, 2020). Rule by code differs structurally from rule by bureaucracy and rule by price (Aneesh, 2009), and platforms govern through means that hierarchy, market, and network do not exhaust (Vallas & Schor, 2020). Community-as-mechanism, proposed as a coordination mechanism alongside market and hierarchy, is collaborative and reciprocal; the platform mode is appropriative; the two are distinct fourth-mechanism candidates (Adler, 2001; Powell, 1990). Together these accounts fix the platform's distinctness as an organizational form. None of them says what that form asks of the people it enrolls.
 
 What the form does to the participant inside it imposes three conditions on what coordination through the form can look like. Each condition has anchors in older organizational and communication research that make the specification tractable independent of features of the digital infrastructure.
 
 ### 3.2 Signal asymmetry
-The signal asymmetry the triadic form imposes on its participants is a structural condition of the form. Each party sends an input that the third party transforms before it reaches the other side, and neither party sees what the third party did between the input and the output. The asymmetry holds even when the system is functioning as designed. A driver's signal flows through the matching algorithm's surge and dispatch models and produces an outcome the rider experiences as a wait time and a price; the rider's request flows through symmetrical transformations and produces an outcome the driver experiences as a ride or as no ride (Möhlmann, Zalmanson, Henfridsson, & Gregory, 2021). The same operating condition has been documented at the eBay platform, where power asymmetries appear at both transactional and governance levels (Curchod, Patriotta, Cohen, & Neysen, 2020), and at higher-skill freelance platforms, where the cumulative effect of asymmetric evaluation produces what the longitudinal record names the invisible cage (Rahman, 2021, 2024). The pattern carries across remote gig work in the Global South, where algorithmic asymmetry intersects with thin labor protections to produce particular forms of vulnerability (Wood, Graham, Lehdonvirta, & Hjorth, 2019). The asymmetry is the operating condition under which any participant-level competency in the form has to function.
+The signal asymmetry the triadic form imposes on its participants is a structural condition of the form. Each party sends an input that the third party transforms before it reaches the other side, and neither party sees what the third party did between the input and the output. The asymmetry holds even when the system is functioning as designed. A driver's signal flows through the matching algorithm's surge and dispatch models and produces an outcome the rider experiences as a wait time and a price; the rider's request flows through symmetrical transformations and produces an outcome the driver experiences as a ride or as no ride (Möhlmann, Zalmanson, Henfridsson, & Gregory, 2021). Curchod and colleagues (2020) documented the same condition at eBay, where the asymmetries surface at both the transactional and the governance level, and Rahman (2021, 2024) followed its cumulative effect on higher-skill freelancers into what he calls the invisible cage. The pattern carries across remote gig work in the Global South, where algorithmic asymmetry intersects with thin labor protections to produce particular forms of vulnerability (Wood, Graham, Lehdonvirta, & Hjorth, 2019). The asymmetry is the operating condition under which any participant-level competency in the form has to function.
 
 The information-economics tradition addresses a different problem under similar vocabulary. The market for lemons identifies asymmetric information about counterpart quality as the source of market failure: buyers cannot distinguish good cars from bad, and the price collapses (Akerlof, 1970). Signaling and screening describe how informed and uninformed parties respond to that asymmetry (Spence, 1973; Stiglitz, 1975). In organization theory, information asymmetry produces moral hazard and adverse selection in the principal-agent relationship (Eisenhardt, 1989; Jensen & Meckling, 1976), and the management field's own synthesis of more than two hundred studies fixes the concept as a condition in which one party holds better or more information than another and catalogs the devices parties use to manage it (Bergh, Ketchen, Orlandi, Heugens, & Boyd, 2019). The triadic form's asymmetry runs through a different mechanism. Two-party models of asymmetric information address what each party knows about the other; the platform produces asymmetric reception of what each party sent the other, an outcome the older models do not generate. The information-economics tradition supplies useful background on what asymmetric information does to coordination, and the platform case adds a structural feature the tradition does not theorize.
 
@@ -450,7 +388,7 @@ The triadic form's third party accepts inputs in its own vocabulary or not at al
 
 Platform participants spend continuous effort encoding their intent into vocabularies the system will accept, and the effort is consistent across gig platforms, content platforms, and high-skill freelance work. The encoding work has three component activities: focused enactment through which workers test what the system reads, selection modes through which they choose which signals to attend to, and retention sources through which they store what they learn (Möhlmann, Alves de Lima Salge, & Marabelli, 2023). The same activity surfaces in studies of resistance and control, where workers' encoding choices are shaped by and shape the platform's response (Cameron & Rahman, 2022). Influencers on Instagram and YouTube craft content for algorithmic visibility. The practice involves both visibility-game tactics (Cotter, 2019) and algorithmic gossip through which creators share informal theories of what the system reads (Bishop, 2019). Content producers across categories converge on similar production practices under common algorithmic vocabularies, an isomorphism that reproduces the vocabulary's biases at scale (Caplan & boyd, 2018). The folk theories users build to anticipate platform behavior have to adapt as platform rules change, and the adaptation itself is part of the encoding work (DeVito, 2021; Eslami et al., 2015). Across these settings, the encoding work is consequential for what reaches the counterpart on the other side.
 
-The intent-compression condition is structurally different from the channel-constraint conditions communication theory has long studied. A channel constrains what can be transmitted by its physical or formal properties: bandwidth, format, persistence, modality. The compression vocabulary in the triadic form is itself an artifact of the third party's objectives, since what the system will accept reflects what the system is built to do. The structural reason the vocabulary is non-neutral comes from the politics that learning algorithms encode: the system has been built to optimize particular outcomes, and the inputs it accepts are the inputs that admit of those outcomes (Faraj, Pachidi, & Sayegh, 2018). The same dynamic operates on the applicant side of hiring algorithms: the keyword profile reflects the platform's parsing logic, and the applicant's experience must be translated into terms the parser will recognize (Bogen & Rieke, 2018; Raghavan et al., 2020). The encoding-loss problem in the triadic form follows from the third party's authored objectives. The channel literature does not theorize objectives the channel might pursue.
+The intent-compression condition is structurally different from the channel-constraint conditions communication theory has long studied. A channel constrains what can be transmitted by its physical or formal properties: bandwidth, format, persistence, modality. The compression vocabulary in the triadic form is itself an artifact of the third party's objectives, since what the system will accept reflects what the system is built to do. The structural reason the vocabulary is non-neutral comes from the politics that learning algorithms encode: the platform builds the system to optimize particular outcomes, and the inputs it accepts are the ones that admit of those outcomes (Faraj, Pachidi, & Sayegh, 2018). The same dynamic operates on the applicant side of hiring algorithms: the keyword profile reflects the platform's parsing logic, and the applicant's experience must be translated into terms the parser will recognize (Bogen & Rieke, 2018; Raghavan et al., 2020). The encoding-loss problem in the triadic form follows from the third party's authored objectives. The channel literature does not theorize objectives the channel might pursue.
 
 ### 3.4 Opaque mediation
 The rules governing the third party's transformations are unpublished, unstable, and subject to change as the system learns from the interactions it mediates. Algorithmic opacity has three sources, of which the third is structurally consequential: intentional corporate or state secrecy about how the system is configured, technical illiteracy on the user's part regarding how the system computes, and intrinsic opacity that emerges from machine-learning's scale and complexity even when the code is public and the user is technically expert (Burrell, 2016). The first two sources are contingent and could in principle be remedied. The third is constitutive of how the systems function. The condition extends across finance, search, and reputation systems (Pasquale, 2015), and its organizational consequences include black-boxed performance, anticipatory quantification, comprehensive digitization, and the hidden politics encoded in the rules through which inputs are evaluated (Faraj, Pachidi, & Sayegh, 2018). Disclosure alone cannot remedy what the constitutive form of opacity produces (Ananny & Crawford, 2018; Selbst & Barocas, 2018), and survey evidence bears this out at the level of the worker: even platform-provided transparency about how the controls operate does not relieve the uncertainty and technostress those controls impose on drivers (Cram, Wiener, Tarafdar, & Benlian, 2022).
@@ -462,17 +400,17 @@ The closure of the publicity dimension distinguishes the algorithmic case from t
 The opacity is constitutive of how adaptive systems function, and the constitution holds against the move that the platform could simply publish the rules and end the condition. The general result holds in audit cultures decades before the machine-learning case: when an evaluative measure becomes a target, the measured parties optimize toward the measure, and the measure ceases to track the underlying activity it was designed to measure (Strathern, 1997, 2000). The result generalizes from human evaluation to machine evaluation. Adaptive systems learn from the inputs they receive; if the rules under which inputs are scored were public, the inputs would optimize against the rules and the system's function would erode. Explanation under adaptive systems is multiply ambiguous as a request, and post hoc explanation does not deliver accountability under the conditions the systems impose (Lipton, 2018; Rudin, 2019). Opacity in the triadic form is a structural requirement of the form, and the worker's relation to the rules has to be different in kind from the relation a litigant has to the rules of evidence or a trader has to the rules of an exchange.
 
 ### 3.5 The integrating-conditions test
-Coordination forms differ in their substantive mechanisms but converge on what coordination has to deliver: accountability, predictability, and common understanding among participants (Okhuysen & Bechky, 2009). Hierarchy delivers these through delegated authority and codified procedure, markets through observable price and enforceable contract, networks through trust accumulated between named counterparts who interact repeatedly (Beckert, 2009; Burt, 1992; Granovetter, 1973, 1985; Hayek, 1945; Mintzberg, 1979; Rousseau, Sitkin, Burt, & Camerer, 1998; Uzzi, 1996, 1997; Weber, 1978; Williamson, 1975, 1985). Each of the three mechanisms supplies a route to the integrating conditions, and the triadic form blocks each route in turn.
+Coordination forms differ in their mechanisms but converge on what coordination must deliver: accountability, predictability, and common understanding among participants (Okhuysen & Bechky, 2009). Hierarchies deliver these by authority and procedure, markets by price and contract, networks by accumulated trust (Beckert, 2009; Burt, 1992; Granovetter, 1973, 1985; Hayek, 1945; Mintzberg, 1979; Rousseau, Sitkin, Burt, & Camerer, 1998; Uzzi, 1996, 1997; Weber, 1978; Williamson, 1975, 1985). The triadic form blocks all three routes at once, each for a different reason.
 
 Hierarchy's route to accountability and predictability does not run inside the triadic algorithmic form. There is no manager to escalate to and no procedure that constrains the third party's behavior the worker could invoke against the next interaction; the role the worker plays as a counterpart to the algorithm is unstable across encounters. The form has rules without bureaucracy, rankings without ranks, and accounts without accountability (Stark & Vanden Broeck, 2024). The rules and rankings direct work and compensation; the appellate structure a hierarchical worker would invoke against the entity issuing them is absent. The form sidesteps the appellate function through accountability deflection (Stark & Pais, 2020).
 
-Market's route does not run inside the form either. The platform's prices are dynamic functions of the third party's objectives, recomputed continuously, and not observable to the participant in advance (Möhlmann et al., 2021; Rosenblat & Stark, 2016). The contracts are terms of service the worker accepts en bloc as a condition of participation and cannot enforce against the platform's subsequent decisions. Reputation and the threat of withdrawal, which markets rely on for accountability, are vulnerable to the same opacity that produces the asymmetry condition: the worker cannot be sure her reputation tracks her performance, and the threat of withdrawal has limited bite when the platform's matching is the labor market she has access to (Rahman, 2021). The features that give a market its coordinating power — its capacity to aggregate dispersed information and to match counterparties — are precisely the ones the platform internalizes and conceals, so that what presents itself as a market in fact runs on aggregation and matching the participant cannot observe or contest (Felin & Zenger, 2011). The market mechanism is foreclosed by the form's transformation of what price and contract do, even where price and contract appear nominally.
+Market's route does not run inside the form either. The platform's prices are dynamic functions of the third party's objectives, recomputed continuously, and not observable to the participant in advance (Möhlmann et al., 2021; Rosenblat & Stark, 2016). The contracts are terms of service the worker accepts en bloc as a condition of participation and cannot enforce against the platform's subsequent decisions. Reputation and the threat of withdrawal, which markets rely on for accountability, are vulnerable to the same opacity that produces the asymmetry condition: the worker cannot be sure her reputation tracks her performance, and the threat of withdrawal has limited bite when the platform's matching is the labor market she has access to (Rahman, 2021). The very features that give a market its coordinating power, the capacity to aggregate dispersed information and to match counterparties, are the ones the platform internalizes and conceals, so that what looks like a market in fact runs on aggregation and matching the participant cannot observe or contest (Felin & Zenger, 2011). The market mechanism is foreclosed by the form's transformation of what price and contract do, even where price and contract appear nominally.
 
 The network mechanism's route is foreclosed by the form's rotation of counterparts. Trust and reciprocity build between named counterparts who interact repeatedly, and the relational history one party builds with another constrains the next interaction between them. The triadic form rotates counterparts. A driver does not interact with the same rider twice, and an applicant does not negotiate with the same hiring algorithm again on the same terms. Even where the human counterpart is the same across interactions, the relational history runs through the third party's evaluation and rating systems, and direct relational sanction is unavailable (Cameron & Rahman, 2022; Curchod et al., 2020). The trust the relational sanction would secure cannot accumulate where the third party's transformations stand between every interaction.
 
-The integrating conditions still hold inside the form when work goes well, and the empirical record on platform coordination is consistent on this point. Drivers and riders complete trips; applicants land jobs; lawyers reach settlements through algorithmically screened processes. The customer-rating mechanisms platforms have built substitute partially for the accountability hierarchies and networks would otherwise secure (Cameron & Rahman, 2022). Workers build functional predictability through algorithmic tactics that compensate for the form's failure to supply predictability through its native mechanisms (Wood, Graham, Lehdonvirta, & Hjorth, 2019). Coordination on platforms continues to function despite the failures of the older mechanisms (Vallas & Schor, 2020). What is securing the integrating conditions, given that hierarchy, market, and network no longer can, is the question the existing competency literature has not been positioned to answer.
+The integrating conditions still hold inside the form when work goes well, and the empirical record on platform coordination is consistent on this point. Drivers and riders complete trips; applicants land jobs; lawyers reach settlements through algorithmically screened processes. The customer-rating mechanisms platforms have built substitute partially for the accountability hierarchies and networks would otherwise secure (Cameron & Rahman, 2022). Workers build functional predictability through algorithmic tactics that compensate for the form's failure to supply predictability through its native mechanisms (Wood, Graham, Lehdonvirta, & Hjorth, 2019). Coordination on platforms continues to function despite the failures of the older mechanisms (Vallas & Schor, 2020). Something secures the three conditions where hierarchy, market, and network cannot. What the worker contributes to that is the question the competency literature has not taken up.
 
-The worker-level competency question remains open in the most recent integrative reviews of human-AI coordination (Hillebrand, Raisch, & Schad, 2025; Murray, Rhymer, & Sirmon, 2021; Raisch & Krakowski, 2021). The triadic form imposes signal asymmetry, intent compression, and opaque mediation as the conditions under which any participant has to coordinate, and the older coordination mechanisms do not secure the integrating conditions inside the form. What the participant has to know, perceive, and do under these conditions to coordinate effectively with her counterpart has not been specified at the corresponding level of detail in the existing competency literature.
+The worker-level competency question remains open in the most recent integrative reviews of human-AI coordination (Hillebrand, Raisch, & Schad, 2025; Murray, Rhymer, & Sirmon, 2021; Raisch & Krakowski, 2021). The triadic form imposes signal asymmetry, intent compression, and opaque mediation as the conditions under which any participant must coordinate, and the older mechanisms do not secure the integrating conditions inside it. No one has yet specified what the participant actually does under these three conditions to reach her counterpart. That is the competency the rest of this paper names.
 
 
 ---
@@ -507,16 +445,16 @@ The algorithmic and AI literacies measure what a user knows about the systems sh
 
 The AI literacy lineage operates in parallel and aims at a more ambitious competency taxonomy. Sixteen competencies organize around five high-level questions about AI (what it is, what it can do, how it works, how it should be used, how people perceive it), and a Bloom-derived four-aspect taxonomy covers knowing and understanding, using and applying, evaluating and creating, and ethical engagement (Long & Magerko, 2020; Ng, Leung, Chu, & Qiao, 2021). The Meta AI Literacy Scale extends the cognitive scaffolding into psychological meta-competencies, adding self-efficacy in learning AI, self-management around AI, and a sub-facet for AI persuasion to the use-understand-detect-ethics-create core, and a validated short version reduces the instrument to ten items (Carolus, Koch, Straka, Latoschik, & Wienrich, 2023; Koch, Carolus, Wienrich, & Latoschik, 2024). The unit across both lineages is the user in relation to the system. The other human party whose communication runs through the same system is absent from the conceptual frame.
 
-Knowledge of an algorithm does not entail action with respect to it, and the empirical record in this cluster has documented the gap. Knowledge by itself does not produce more critical engagement with algorithmic systems (Lomborg & Kapsch, 2020). Pragmatically effective folk theories of algorithmic behavior can be mechanistically wrong, which means the literacy construct measures something workers may not need at high resolution to coordinate effectively (DeVito, 2021). Stretching literacy to cover algorithmic coordination repeats the move oracy-extension would have been at literacy's emergence: productive on what it covers, silent on the activity that distinguishes the new form. The family has by now been integratively reviewed in its own right, and the synthesis organizes the entire lineage around the user's awareness of, knowledge about, and competence toward algorithms — never around coordination with another party through them — confirming the user-system axis at the level of the literature's own self-description (Gagrčin et al., 2026). The cluster reads the algorithm. The activity that distinguishes coordination through it with another human party stays outside the frame.
+Knowledge of an algorithm does not entail action with respect to it, and the studies in this cluster bear the gap out. Knowledge by itself does not produce more critical engagement with algorithmic systems (Lomborg & Kapsch, 2020). Pragmatically effective folk theories of algorithmic behavior can be mechanistically wrong, which means the literacy construct measures something workers may not need at high resolution to coordinate effectively (DeVito, 2021). Stretching literacy to cover algorithmic coordination repeats the move oracy-extension would have been at literacy's emergence: productive on what it covers, silent on the activity that distinguishes the new form. The family has by now been integratively reviewed in its own right, and the synthesis organizes the whole lineage around the user's awareness of, knowledge about, and competence toward algorithms, never around coordination with another party through them, which confirms the user-system axis in the literature's own self-description (Gagrčin et al., 2026). What the cluster measures is reading the algorithm; what it leaves out is coordinating through it with another party.
 
 ### 4.5 Algorithmic competency and adjacent measurement scales
 Algorithmic competency is the construct closest to algorithmacy by label, and the proximity at the level of label conceals a structural difference at the level of unit of analysis that the methodological tradition algorithmacy will rest on was built to expose. The construct names on-demand labor platform workers' "understanding of platform algorithms that assign and evaluate their work and their ability to adapt to and navigate those algorithms," and its lineage runs from earlier qualitative work on Upwork freelancers (Jarrahi & Sutherland, 2019; Zhou, Lei, Liu, Huang, & Hou, 2025). Four dimensions emerge through deductive specification and inductive coding of interviews with ride-hailing and food-delivery workers. Understanding gives the worker sophisticated comprehension of how the system operates and the capacity to navigate its dynamic nature. Embracing captures her willingness to trust the system for matching and other functionalities, a dimension added against the earlier qualitative model that reflects observed patterns of higher trust in algorithmic systems among Chinese platform workers. Leveraging is her capacity to use the system strategically, with the label chosen to replace "Manipulating" and remove its negative connotations. Remediating is her ability to address or supplement the system's deficiencies, with the label chosen to replace "Circumventing" and indicate active engagement (Zhou et al., 2025).
 
 The construct describes worker proficiency with respect to the algorithmic management system, and the empirical validation that supports it does not extend to worker coordination with the counterpart through that system. Five samples support the second-order four-factor structure through exploratory and confirmatory factor analysis, with convergent validity against digital competence and competence need satisfaction and discriminant validity against the Algorithmic Management Questionnaire at r = 0.17 (Zhou et al., 2025). The construct adds explanatory variance beyond perceived algorithmic management, digital competence, and competence need satisfaction in predicting customer-oriented service behavior and identification with gig work. The customer or rider appears in scale items only instrumentally: politeness toward customers is framed as leveraging the algorithm via behavior toward the customer, since high customer ratings feed the platform's matching and incentive systems. The construct's domain is worker proficiency with respect to the system. Coordination with the counterpart through the system is outside the scope the validation addresses.
 
-A second instrument operates one structural level up from algorithmic competency. The Algorithmic Management Questionnaire measures workers' perceived exposure to algorithmic management practices across five dimensions (monitoring, goal setting, scheduling, performance rating, compensation), and the unit of analysis is the algorithmic stimulus the worker experiences (Parent-Rocheleau, Parker, Bujold, & Gaudet, 2024); recent agenda-setting work on the "duality" of algorithmic management — its simultaneously constraining and enabling character — likewise theorizes the worker's relation to the management system, keeping the worker-system dyad as its unit (Jiang, Hu, & Li, 2025). The worker's response to that stimulus operates at a different level. The two scales are complementary inside the worker-system unit. The Questionnaire measures the algorithmic stimulus, the competency scale measures the worker's response, and neither measures the worker's coordination with a counterpart through the algorithm.
+A second instrument operates one structural level up from algorithmic competency. The Algorithmic Management Questionnaire measures workers' perceived exposure to algorithmic management practices across five dimensions (monitoring, goal setting, scheduling, performance rating, compensation), and the unit of analysis is the algorithmic stimulus the worker experiences (Parent-Rocheleau, Parker, Bujold, & Gaudet, 2024); recent agenda-setting work on the "duality" of algorithmic management, its simultaneously constraining and enabling character, likewise theorizes the worker's relation to the management system and keeps the worker-system dyad as its unit (Jiang, Hu, & Li, 2025). The worker's response to that stimulus operates at a different level. The two scales are complementary inside the worker-system unit. The Questionnaire measures the algorithmic stimulus, the competency scale measures the worker's response, and neither measures the worker's coordination with a counterpart through the algorithm.
 
-The methodological warrant for distinguishing algorithmacy from algorithmic competency comes from the construct identity fallacy framework. Two errors threaten any new construct that shares lexical overlap with an existing one: the jingle fallacy uses the same name for substantively different constructs, and the jangle fallacy uses different names for the same construct (Larsen & Bong, 2016). The first defense against the jangle fallacy is conceptual specification of how the construct's domain differs from related constructs in unit of analysis, and the empirical defense that follows it — representing each construct's nomological network and testing whether the indicators cohere separately — is the discriminant-validity procedure developed precisely to arrest construct proliferation (Lawson & Robins, 2021; Shaffer, DeGeest, & Li, 2016). Algorithmic competency is dyadic in unit of analysis (worker, algorithm). Algorithmacy is triadic (worker, algorithm, counterpart). The behavioral lexical overlap between the two constructs is real, and the structural domain is different in kind.
+The methodological warrant for distinguishing algorithmacy from algorithmic competency comes from the construct identity fallacy framework. Two errors threaten any new construct that shares lexical overlap with an existing one: the jingle fallacy uses the same name for substantively different constructs, and the jangle fallacy uses different names for the same construct (Larsen & Bong, 2016). The first defense against the jangle fallacy is conceptual specification of how the construct's domain differs from related constructs in unit of analysis. The empirical defense that follows it, representing each construct's nomological network and testing whether the indicators cohere separately, is the discriminant-validity procedure developed to arrest construct proliferation (Lawson & Robins, 2021; Shaffer, DeGeest, & Li, 2016). Algorithmic competency is dyadic in unit of analysis (worker, algorithm). Algorithmacy is triadic (worker, algorithm, counterpart). The behavioral lexical overlap between the two constructs is real, and the structural domain is different in kind.
 
 ### 4.6 Algorithm sensemaking
 Algorithm sensemaking is the closest cousin algorithmacy has at the level of cognitive process, and the structural difference between them is that sensemaking is located inside the worker while algorithmacy operates between two human parties through a third, a difference the parent literature itself has begun to name. The construct draws on Weick's enactment theory and specifies three sub-elements platform workers use to keep up with algorithmic instructions (Möhlmann, Alves de Lima Salge, & Marabelli, 2023). Focused enactment is the bracketing move: a worker seeks information by searching, requesting, and finding cues on online communication platforms, and she conducts backward testing to validate hunches about algorithmic actions through data acquired on the job. Selection operates through finding glitches, where the worker compares algorithmic instructions against real-time conditions, and through discovering patterns, where she analyzes data to develop a stable interpretation of what happened. Retention runs through physical encounter, where the driver remembers incidents she experienced herself, and through community-shared theorizing, where she tests other drivers' interpretations against her own data. The model frames algorithm sensemaking as a mediator linking workers' perceived tensions in the work environment and their behavioral responses.
@@ -530,18 +468,18 @@ The directional relationship between sensemaking and algorithmacy is an empirica
 ### 4.7 The shared structural limit
 The constructs reviewed share a commitment that links them across the changes each made to its predecessors: each locates a worker on one side of a medium, channel, partner, system, knowledge object, or cognitive process, and none locates her on one side of a third party that acts on inputs from both her and the human party she is trying to reach. The commitment is the dyadic ontology each construct inherited from its parent tradition. CMC competence and its descendants in human-machine communication and AI-mediated communication carry the sender-channel-receiver frame forward from interpersonal communication theory (Spitzberg, 2006); the channel becomes a partner (Guzman & Lewis, 2020) or the AI takes a sender-side production role (Hancock et al., 2020), and the dyad survives each repositioning. The algorithmic and AI literacies carry forward the user-reads-system axis from media and digital literacy (Dogruel et al., 2022; Long & Magerko, 2020). Algorithmic competency carries forward the user-system axis from sociotechnical systems theory (Zhou et al., 2025), and algorithm sensemaking carries forward Weick's enactment-theoretic actor making sense of an environment (Möhlmann et al., 2023). None of the parent traditions theorized a third party that simultaneously sits between two human parties, accepts inputs from both, and pursues objectives that span both.
 
-The parent traditions did productive work within their own units of analysis. The structural fact that separates these constructs from triadic algorithmic coordination operates at the level of conceptual domain. Measurement refinement does not reach the difference. A construct's domain is fixed by its unit of analysis, and refining a construct whose unit is dyadic produces a more sophisticated dyadic measure; the triadic form requires a different construct (Larsen & Bong, 2016). The shared limit holds across the cluster because the unit of analysis holds across the cluster.
+Each parent tradition did real work at its own unit of analysis. What separates these constructs from triadic coordination is not a deficiency to be refined away but a difference of domain: a construct's domain is fixed by its unit of analysis, and refining a dyadic construct yields a more sophisticated dyadic measure, never a triadic one (Larsen & Bong, 2016). The limit holds across the whole cluster because the unit does.
 
-The recent integrative reviews of human-AI interaction at the field's leading venues confirm the absence at the level of theoretical synthesis. The Annals integrative framework integrates human-AI collaboration and algorithmic management along context, agency, interaction, and outcome, reading the two literatures as analyses of how humans use AI to manage and how humans are managed by AI (Hillebrand, Raisch, & Schad, 2025). Adjacent frameworks extend conjoined-agency theory into organizational routines and develop the automation-augmentation paradox in manager-machine terms (Murray, Rhymer, & Sirmon, 2021; Raisch & Krakowski, 2021). None of the three reviews names the worker-counterpart axis through the algorithm as a distinct theoretical object. The empirical reality of platform work, where the worker coordinates with a counterpart through algorithmic management without managing or being managed by it, has not yet entered the field's leading integrative frames as a structural object in its own right.
+The field's most recent integrative reviews leave the same axis out. Hillebrand, Raisch, and Schad (2025) integrate human-AI collaboration and algorithmic management along context, agency, interaction, and outcome, reading the two literatures as accounts of how humans use AI to manage and how humans are managed by AI. Murray, Rhymer, and Sirmon (2021) and Raisch and Krakowski (2021) extend conjoined-agency theory into organizational routines and work out the automation-augmentation paradox in manager-machine terms. None of the three names the worker-counterpart axis through the algorithm as a distinct object. The everyday case of platform work, where the worker coordinates with a counterpart through algorithmic management without managing it or being managed by it, has no place in the field's leading frames.
 
-The construct the form requires is built from the form, and refinement of any of the existing constructs will preserve the dyadic unit they share.
+The construct the form requires has to be built from the form. Refine any of the existing constructs and the dyadic unit survives.
 
 
 ---
 
 
 ## 5. The historical and theoretical adjacents
-Three traditions have come close to algorithmacy without naming it. The literacy lineage shows that each historical change in how humans coordinate produced new competencies that prior practice could not produce, and a body of contemporary scholarship treats the algorithmic shift as the latest such change. Bruno Latour distinguished media that transport from media that transform, and his successors traced how transforming media operate. David Stark and his collaborators showed that platforms are a distinct organizational form whose operating principle is neither hierarchy, market, nor community. None of these traditions specifies what individual workers must do to coordinate through an algorithmic intermediary that has its own interests. Algorithmacy fills the gap each leaves in its own way.
+Three traditions have come close to algorithmacy without naming it. The literacy lineage shows that each historical change in how humans coordinate produced new competencies that prior practice could not produce, and a body of contemporary scholarship treats the algorithmic shift as the latest such change. Bruno Latour distinguished media that transport from media that transform, and his successors traced how transforming media operate. David Stark and his collaborators showed that platforms are a distinct organizational form whose operating principle is neither hierarchy, market, nor community. None of these traditions specifies what individual workers must do to coordinate through an algorithmic intermediary that has its own interests. Each stops short of the same thing, and that is what algorithmacy names.
 
 ### 5.1 Oracy, literacy, and the shape of the argument algorithmacy needs to make
 Writing did more than record speech. It produced cognitive operations that oral culture could not sustain. Eric Havelock argued that Plato could not have composed the *Republic* in a purely oral setting, since the dialogue's analytical operations require holding a text still long enough to dispute it. Walter Ong and Jack Goody developed the case across settings from ancient Greece to medieval Europe to West Africa: the literate person reasons through operations the orator did not have access to (Goody, 1977, 1986; Havelock, 1963, 1986; Ong, 1982). Cognitive neuroscience has confirmed the claim at the level of the brain. Reading reorganizes the visual word-form area in the left occipitotemporal cortex through neuronal recycling, a process by which evolutionarily older visual circuitry is repurposed for orthographic recognition (Dehaene, 2009). The deep-reading circuits literacy builds, including inference, analogy, and perspective-taking, are fragile under digital environments that reward scanning over sustained attention (Wolf, 2018). Writing also makes implicit linguistic structure explicit: a reader can examine and dispute a written sentence as an object in ways the listener of speech cannot, and the conceptual revolutions of Greek philosophy and the European Renaissance depended on that capacity (Olson, 1994, 2016). The neural reorganization is not autonomous from the cultural environments that demand and reward it. Brain plasticity and cultural niche construction operate together (Menary, 2014). Literacy changes cognition in kind rather than in degree.
@@ -550,13 +488,13 @@ Writing also produced new ways of coordinating people across distance and time. 
 
 The literacy transition is not unique. Print produced its own structural shift between manuscript culture and modern bureaucratic literacy, and the print case is closer to the algorithmic case than the oracy-to-literacy contrast is on its own. Standardized printed texts at scale enabled comparative collation, cumulative critique, and authoritative reference that medieval manuscript culture could not sustain (Eisenstein, 1979). The reliability and authority of printed texts depended on the work of printers, regulators, and readers whose coordinated practices made print what it became: printers had to be policed, errata had to be circulated, and reading communities had to be cultivated (Johns, 1998). Print did not arrive ready-made. It was constructed, contested, and slow, and each step of its construction left specific institutional residues. Each successive shift, from manuscript to print to telegraph to broadcast to digital, restructured what coordination at scale could be (Briggs & Burke, 2009). The print case strengthens the structural argument because it shows that an in-kind transition need not be sudden, automatic, or universal to count as a transition in kind.
 
-The New Literacy Studies tradition has rejected the autonomous-cognitive reading of literacy that Goody and Ong are typically read to endorse, and the rejection does not reach the coordinative claim. Brian Street's ideological model frames literacy as a context-bound social practice whose effects depend on the institutional arrangements through which literacy is acquired and used (Street, 1984, 2003). The Vai people of Liberia practice three distinct literacies in English, Vai script, and Arabic, with cognitive consequences that diverge across each, and the divergence undermines any single-effect reading of literacy at the cognitive level (Scribner & Cole, 1981). The literacy practices of the Tracton, Roadville, and Maintown communities in the Carolina Piedmont produce different child outcomes despite using the same orthographic system, and the difference is traceable to the social practices through which literacy is learned (Heath, 1983). Coding-as-literacy is treated through the same frame and explicitly distanced from cognitive determinism (Vee, 2017). The resolution of the older "great divide" debate is by now a settled review finding: literacy's effects are specific to the practices and contexts in which it is acquired, not universal cognitive endowments (Reder & Davila, 2005). The cognitive worry is real. The coordinative claim survives it because the coordinative claim does not depend on cognitive universalism. It depends on material and institutional enablement: writing makes codified law, double-entry bookkeeping, and the bureaucratic file possible, and these practices are historically locatable, contestable, and asymmetrically distributed in ways the New Literacy Studies tradition has documented in detail. The mechanism is preserved across the practice variation. It is the mechanism algorithmacy invokes when treating the algorithmic shift as a coordination shift in kind.
+The New Literacy Studies tradition has rejected the autonomous-cognitive reading of literacy that Goody and Ong are typically read to endorse, and the rejection does not reach the coordinative claim. Brian Street's ideological model frames literacy as a context-bound social practice whose effects depend on the institutional arrangements through which literacy is acquired and used (Street, 1984, 2003). The Vai people of Liberia practice three distinct literacies in English, Vai script, and Arabic, with cognitive consequences that diverge across each, and the divergence undermines any single-effect reading of literacy at the cognitive level (Scribner & Cole, 1981). The literacy practices of the Tracton, Roadville, and Maintown communities in the Carolina Piedmont produce different child outcomes despite using the same orthographic system, and the difference is traceable to the social practices through which literacy is learned (Heath, 1983). Coding-as-literacy is treated through the same frame and explicitly distanced from cognitive determinism (Vee, 2017). The resolution of the older "great divide" debate is by now a settled review finding: literacy's effects are specific to the practices and contexts in which it is acquired, not universal cognitive endowments (Reder & Davila, 2005). The cognitive worry is real. The coordinative claim survives it because the coordinative claim does not depend on cognitive universalism. It depends on material and institutional enablement: writing makes codified law, double-entry bookkeeping, and the bureaucratic file possible, and these practices are historically locatable, contestable, and asymmetrically distributed in ways the New Literacy Studies tradition has documented in detail. What survives the variation in practice is the mechanism, and it is the one algorithmacy invokes in treating the algorithmic shift as a coordination shift in kind.
 
 A body of contemporary philosophical work treats the digital and algorithmic shift as structurally analogous to the literacy transition. Calculation displaces noesis in a move structurally parallel to writing's displacement of oral practice; the argument is pharmacological rather than declensionist, and the new arrangement opens new capacities at the same time it produces new dependencies (Stiegler, 2016). The shift is a fourth revolution that reframes humans as informational organisms inhabiting an infosphere, alongside the Copernican, Darwinian, and Freudian decenterings (Floridi, 2014). The digital is a plural configuration of technical relations whose pluralization is itself the right way to take the analogy seriously, rather than a single epochal rupture (Hui, 2016). Twenty-first-century media operate beneath conscious perception and restructure sensibility through sensor networks and microtemporal data flows the literate vocabulary cannot describe (Hansen, 2015). The articulations differ in vocabulary and emphasis. They converge on a structural claim: the digital-algorithmic shift restructures the conditions of being and acting in ways earlier tools did not.
 
 The same convergence runs through social and cultural scholarship. Software is a memory and inscription technology continuous with the literacy lineage, but updating-as-habit captures users in continuous reinscription rather than in emancipatory restructuring (Chun, 2011, 2016). Machine learning is a knowledge-production strategy that reshapes critical thought through plural local archaeologies, restructuring what counts as knowing in ways the literate vocabulary did not anticipate (Mackenzie, 2017). Algorithms constitute a programmed sociality that is world-making, multiple, and event-driven rather than a passive medium for pre-existing social arrangements (Bucher, 2018). The term *algorithmic culture* names a cultural-epistemic shift comparable in scale to earlier print-cultural transformations, where the term *culture* itself reorganizes around the algorithmic operations that now produce and circulate cultural objects (Hallinan & Striphas, 2016; Striphas, 2015). The contemporary sociological synthesis names the resulting power formation directly: algorithms are proprietary, opaque, scaled, and hard-to-challenge models, and a coding elite consolidates power over the digital means of production while a cybertariat works under conditions the elite has authored (Burrell & Fourcade, 2021). The convergence on the structural-analogy claim is broad. None of the converging accounts specifies what individual workers must do to coordinate effectively through algorithmic systems.
 
-The literacy lineage establishes the shape of the argument algorithmacy needs to make. It does not establish the substance. Treating the algorithm as a complex text repeats the move that treating writing as a complex utterance would have been at literacy's emergence: productive in some directions, silent on the activity that distinguishes the new arrangement. Reading is a real activity. Reading the algorithm is a real activity. Neither is the activity that distinguishes coordinating through an algorithmic intermediary from coordinating through any prior medium. The algorithmic and AI literacy frameworks treat the algorithm as an object users read, and the framing reproduces literacy's structure at the level of cognition. Even the most advanced critical-literacy response to computational agency reaches only the threshold of the activity algorithmacy specifies: reconceiving reading itself as something people do with and through nonhuman actants that produce and process text, it arrives at a posture of critical consciousness toward the human-machine assemblage rather than a specification of what a worker must do to coordinate, through that assemblage, with a party on its far side (Leander & Burriss, 2020). Algorithmacy operates at a different level. It specifies what an individual has to do when working through a third party that has its own objectives, operates at scale, lacks accountability, and continuously updates without renegotiation. The literacy lineage gives algorithmacy the warrant to make the move. The substance comes from somewhere else.
+The literacy lineage establishes the shape of the argument algorithmacy needs to make. It does not establish the substance. Treating the algorithm as a complex text repeats the move that treating writing as a complex utterance would have been at literacy's emergence: useful on the reading it can see, blind to the coordinating it cannot. Reading is a real activity. Reading the algorithm is a real activity. Neither is the activity that distinguishes coordinating through an algorithmic intermediary from coordinating through any prior medium. The algorithmic and AI literacy frameworks treat the algorithm as an object users read, and the framing reproduces literacy's structure at the level of cognition. Even the most advanced critical-literacy response to computational agency reaches only the threshold of the activity algorithmacy specifies: reconceiving reading itself as something people do with and through nonhuman actants that produce and process text, it arrives at a posture of critical consciousness toward the human-machine assemblage rather than a specification of what a worker must do to coordinate, through that assemblage, with a party on its far side (Leander & Burriss, 2020). Algorithmacy operates at a different level. It specifies what an individual has to do when working through a third party that has its own objectives, operates at scale, lacks accountability, and continuously updates without renegotiation. The literacy lineage gives algorithmacy the warrant to make the move. The substance comes from somewhere else.
 
 ### 5.2 Latour, actor-network theory, and the fractal-dyads limit
 Bruno Latour distinguished between intermediaries that transport without transforming and mediators that change what passes through them. An intermediary connects two parties without altering what flows between them: its inputs determine its outputs, and the connection is transparent. A mediator "transforms, translates, distorts, and modifies the meaning or the elements" it carries, and any analysis has to follow the transformations rather than assume them away (Latour, 2005, p. 39). The distinction has been productive across science studies, organization studies, and digital sociology. Markets are framed by socio-technical devices whose framings systematically overflow into terrain the framing did not anticipate (Callon, 1998). Financial markets work the way they work because the economic models economists develop function as engines that shape market behavior rather than cameras that record it (MacKenzie, 2006; MacKenzie, Muniesa, & Siu, 2007). Algorithms on platforms recommend, sort, filter, and rank in ways that are mediating in the strict sense Latour's distinction picks out (Bucher, 2018; Gillespie, 2014; Mackenzie, 2017). The distinction picks out a property of platform algorithms that channel-based vocabularies cannot register. It does not specify what working through such a mediator demands of the workers themselves.
@@ -565,7 +503,7 @@ Actor-network theory developed the mediator insight by treating networks of pair
 
 The structural distinctness of triads from dyads is one of the oldest results in social theory. Georg Simmel established in 1908 that adding a third party to a dyad does not produce a larger dyad but a structurally different configuration. The third party can mediate between the original two, profit from their conflict, or maintain its position by preventing them from forming an alliance, and none of these positions can be reduced to the dyadic relations the configuration contains (Simmel, 1908/1950). Simmel called the third-party-who-profits the *tertius gaudens*, and its structural properties have been studied in social theory ever since. Platforms occupy the divide-and-conquer variant of the position structurally rather than as a strategic choice. The drivers and riders of a ride-hail platform cannot collectively bargain with one another about pricing, because the platform's matching system never lets them encounter one another as a collectivity. The structural distinctness Simmel identified at the level of social geometry is the same distinctness contemporary mathematics has confirmed at the level of relational algebra and contemporary network science has confirmed at the level of dynamics. Algorithmacy stands on a result that classical sociology established more than a century before the platform existed.
 
-Mathematics confirms what Simmel argued. Higher-order network theory has shown that interactions in groups of three or more nodes cannot be described as combinations of dyads; projecting higher-order data onto pairwise links discards information that is empirically and dynamically consequential, and the discarded information is observable in convergence, synchronization, and contagion patterns pairwise models cannot reproduce (Battiston et al., 2020). The synthesis at the level of complex-systems physics confirms that pairwise networks are intrinsically limited and that hypergraphs and simplicial complexes are required to model real social, biological, and engineered systems (Battiston et al., 2021). Pairwise memoryless-path network models systematically fail when actual flows show higher-order dependencies; the failure is observable in routing, diffusion, and information-spreading data and is not a contingent limitation of any particular model (Lambiotte, Rosvall, & Scholtes, 2019). The philosophical version closes the argument formally: triadic relations cannot be analyzed into combinations of monadic and dyadic relations, while all higher-arity relations reduce to triadic. The Peircean reduction thesis is a theorem in the algebra of relations rather than a sociological metaphor about how researchers should treat triads (Burch, 1991). Organization studies has its own triadic anchor in the brokerage literature, where third-party influence is grounded in triadic configurations that produce possibilities the constituent dyads cannot reproduce on their own (Halevy, Halali, & Zlatev, 2019). The formal warrant for treating platform structure as irreducibly triadic is independent of any sociological account of any particular platform.
+Mathematics confirms what Simmel argued. Battiston and colleagues (2020) showed that interactions among three or more nodes cannot be described as combinations of dyads; projecting higher-order data onto pairwise links discards information that is empirically and dynamically consequential, observable in convergence, synchronization, and contagion patterns that pairwise models cannot reproduce. The synthesis at the level of complex-systems physics confirms that pairwise networks are intrinsically limited and that hypergraphs and simplicial complexes are required to model real social, biological, and engineered systems (Battiston et al., 2021). Pairwise memoryless-path network models systematically fail when actual flows show higher-order dependencies; the failure is observable in routing, diffusion, and information-spreading data and is not a contingent limitation of any particular model (Lambiotte, Rosvall, & Scholtes, 2019). The philosophical version closes the argument formally: triadic relations cannot be analyzed into combinations of monadic and dyadic relations, while all higher-arity relations reduce to triadic. The Peircean reduction thesis is a theorem in the algebra of relations rather than a sociological metaphor about how researchers should treat triads (Burch, 1991). Organization studies has its own triadic anchor in the brokerage literature, where third-party influence is grounded in triadic configurations that produce possibilities the constituent dyads cannot reproduce on their own (Halevy, Halali, & Zlatev, 2019). The formal warrant for treating platform structure as irreducibly triadic is independent of any sociological account of any particular platform.
 
 Mathematical economics has independently identified the structural significance of triadic correlation devices. A correlation device sitting between two players produces equilibrium outcomes neither player can produce through direct communication alone, and the device's existence in the formal model is a structural feature rather than a notational shortcut (Aumann, 1987). Any equilibrium achievable through complex multilateral mechanisms can be implemented through a centralized mediator that receives reports from all parties and recommends actions to each; the mediator is structurally distinct from the parties, and its existence is what makes the equilibrium attainable (Myerson, 1982). Under asymmetric information and learning, the set of outcomes achievable across information structures forms a tractable class strictly larger than what common knowledge alone can reach, and the correlation-device position is what generates the additional outcomes (Bergemann & Morris, 2016). The formal economics literature does not analyze the platform case directly. It establishes that a triadic correlation device produces coordination outcomes the parties cannot produce through dyadic communication, and the result holds independent of any sociological characterization of the device. The platform algorithm sits in the position the formal literature analyzes. The mathematics confirms the structural claim from a direction the network-theoretic and sociological literatures cannot reach.
 
@@ -576,7 +514,7 @@ The contemporary sociological synthesis names the four-feature complex in a sing
 ### 5.3 Stark, Pais, and the structural-form theory of the platform
 David Stark and Pieter Vanden Broeck argue that the platform is an organizational form distinct from hierarchy, market, and network, and that its operating principle is co-optation rather than command, contract, or collaboration (Stark & Vanden Broeck, 2024). Several converging accounts share the organizational-form claim while differing on which feature carries it. The form has been called algocracy because its operating principle is rule by code, distinguished from bureaucracy by the absence of legal-rational appeal and from market by the absence of price-based contract (Aneesh, 2009). Its triangular geometry has been analyzed at the level of how providers and users are enrolled in the platform's practices without authority having been delegated to them, and how the institutional supports the older mechanisms relied on are absent in the platform case (Stark & Pais, 2020). Six routes of algorithmic control restrict, recommend, record, rate, replace, and reward worker activity in ways that constitute an algorithmic regime not reducible to the bureaucratic or market regimes that preceded it (Kellogg, Valentine, & Christin, 2020). The platform externalizes responsibility while concentrating power, and the externalization is itself a distinguishing feature (Vallas & Schor, 2020). The converging accounts settle the platform's identity at the organizational level. They do not say what an individual participant has to know, perceive, and do under its conditions.
 
-The platform-form analysis is not freshly invented. Organization studies has been theorizing distinct organizational forms beyond hierarchy and market for several decades, and Stark's earlier work on heterarchy is one direct predecessor of the platform analysis. Heterarchy names the form in which multiple ranking principles operate simultaneously, and the dissonance between them is constitutive of the form's adaptability rather than a malfunction to be eliminated (Stark, 2009). The post-bureaucratic organization literature anchored the structural-distinctness claim through analyses of knowledge-intensive work organizations whose coordination requirements bureaucratic principles could not meet (Heckscher & Donnellon, 1994). The hybrid-organization literature has documented organizational arrangements that cross institutional boundaries and operate through principles the hierarchy-market dichotomy did not anticipate (Battilana & Lee, 2014). The platform analysis is the most recent move in this longer trajectory, and the recency does not make it ungrounded. It stands on a longer record of post-Powell scholarship that established the conditions under which a new organizational mechanism could be theoretically distinguished.
+The platform-form analysis is not freshly invented. Organization theorists have distinguished forms beyond hierarchy and market for several decades, and Stark's own earlier work on heterarchy is a direct predecessor of the platform analysis. Heterarchy names the form in which multiple ranking principles operate simultaneously, and the dissonance between them is constitutive of the form's adaptability rather than a malfunction to be eliminated (Stark, 2009). The post-bureaucratic organization literature anchored the structural-distinctness claim through analyses of knowledge-intensive work organizations whose coordination requirements bureaucratic principles could not meet (Heckscher & Donnellon, 1994). Battilana and Lee (2014) documented hybrid organizations that cross institutional boundaries and operate through principles the hierarchy-market dichotomy did not anticipate. The platform analysis is the most recent move in this longer trajectory, and the recency does not make it ungrounded. It stands on a longer record of post-Powell scholarship that established the conditions under which a new organizational mechanism could be theoretically distinguished.
 
 Other candidates for a fourth coordination mechanism beyond hierarchy, market, and network have been proposed, and the platform is structurally distinct from each. The community mechanism described in organization theory operates through trust, reciprocity, and shared identity, where members enter through invitation and ongoing obligation rather than through systems that route their activity through a principal's optimization (Adler, 2001). The gift economy operates through reciprocal obligation across time, where each party gives in expectation that future return will balance the present asymmetry (Mauss, 1925/1990). The platform mechanism does not generate reciprocal obligation among its participants, and its asymmetry does not balance over time but accumulates through the platform's continuous extraction of surplus. Commons-based peer production names a mechanism organized through voluntary coordination on shared resources without the principal-agent structure markets and firms require (Benkler, 2006). The platform is principal-agent in its most asymmetric form, and the principal's authored objectives do not correspond to a shared resource the contributors collectively produce. The platform-cooperative literature proposes a structural alternative within the platform form by collectivizing the principal position (Scholz & Schneider, 2017). The proposal confirms by contrast that the platform mechanism's distinctness lies in the principal's structural position rather than in the mediation technology itself: cooperative reform changes who occupies the principal corner without changing the underlying triangular geometry. None of the alternatives reproduces the platform's specific structural features by combining or modifying its operating principles.
 
@@ -585,7 +523,7 @@ Power asymmetries are not contingent on platform policy. They are constitutive o
 What a platform does to its participants and what its participants have to do to coordinate inside it are different questions. The structural account answers the first question and leaves the second open. The platform is hierarchy, market, network, or something else, and the answer at that level is something else. The answer does not say what an individual driver has to know, perceive, and do when the matching algorithm is opaque, the rules of evaluation change without notice, and the counterpart's reading of the same algorithm differs from the driver's. Refining the structural account at its own level cannot generate the worker-level account, and specifying the worker-level account presupposes the structural account already in place. Recent work from inside the same author network as the algorithm-sensemaking program has begun explicit three-party theorizing at the participant level, framing platform settings as drawing on human drivers, human passengers, and algorithms that regulate their interactions, and analyzing how a collective of algorithms delegates to drivers and riders alike through complex interactions among multiple algorithms and many humans (Stelmaszak, Möhlmann, & Sørensen, 2025). The territory is recognized as theoretically open at the participant level. Algorithmacy is the worker-level complement the structural account presupposes but does not provide.
 
 ### 5.4 What competency-level theory adds
-Network theory describes the geometry of how parties connect and the dynamics of how connection produces flow. Form theory describes the governance arrangements through which coordination works and the institutional supports each arrangement does or does not have. Neither describes what an individual has to do to coordinate inside a particular geometry under a particular form. The capacity an individual has to act inside a platform belongs to a different level of analysis from the geometry of platform networks or the governance principles of platform organizations. Each level needs its own vocabulary. The historical and philosophical accounts of ontological transitions supply the structural argument for why the algorithmic shift requires its own competency vocabulary; they do not supply the vocabulary itself. The operational specification is the work of competency literatures. What those literatures got right at the level of architecture is what algorithmacy preserves: an individual capacity, measurable, anchored in a specific structural setting. The architecture stays. The setting changes.
+Network theory describes the geometry of how parties connect and the dynamics of how connection produces flow. Form theory describes the governance arrangements through which coordination works and the institutional supports each arrangement does or does not have. Neither describes what an individual has to do to coordinate inside a particular geometry under a particular form. The capacity an individual has to act inside a platform belongs to a different level of analysis from the geometry of platform networks or the governance principles of platform organizations. Each level needs its own vocabulary. The historical and philosophical accounts of ontological transitions supply the structural argument for why the algorithmic shift requires its own competency vocabulary; they do not supply the vocabulary itself. The operational specification is the work of competency literatures. What those literatures got right at the level of architecture is what algorithmacy preserves: an individual capacity, measurable, anchored in a specific structural setting. What changes is the setting, not the architecture.
 
 Competency theory in organization studies works by specifying what an individual has to know, perceive, and do to function effectively in a particular structural position. The literacy-as-competency tradition is the historical model. Specifying what literate individuals do in literate environments has supported pedagogical and assessment infrastructures across multiple national contexts, and the portability of the specification follows from operating at the level of measurable individual capacity rather than at the level of cultural form (Kress, 2003; Street, 2003). The dynamic-capabilities tradition operates the same logic at the organizational level: specifying what firms do under conditions of environmental change has produced a measurable construct nested in a structural account of the firm's environment (Teece, Pisano, & Shuen, 1997). Algorithm sensemaking operates the same logic at the level of platform-worker cognition: specifying what individual workers do under algorithmic management has produced a measurable foothold for the structural account of how platforms operate (Möhlmann, Salge, & Marabelli, 2023). Each of these literatures got the operational specification right at its own structural unit. Algorithmacy adds the operational specification at the structural unit a platform actually imposes: triadic, adaptive, opaque, and authored by a corporate principal.
 
@@ -608,7 +546,7 @@ The worker is the unit of analysis, and the unit matters because the variance th
 The scope of the construct runs to coordination forms that satisfy three structural conditions: signal asymmetry, intent compression, and opaque mediation. Where the third party is transparent and accountable through prior coordination mechanisms (a published procedure, an enforceable contract), workers face a different form, and the competency the form requires is one of the older capacities the literature has long specified. Where any of the three conditions fails, the worker is no longer coordinating through the kind of intermediary algorithmacy theorizes. The conditions are jointly sufficient and individually necessary.
 
 ### 6.2 Dimensions
-The three structural conditions of the triadic form impose three demands on the worker, and the three corresponding capacities are the three dimensions of algorithmacy. Signal asymmetry calls for the capacity to read outcomes back to inputs, intent compression calls for the capacity to translate situated meaning into the system's vocabulary, and opaque mediation calls for the capacity to track shifts in the rules over time. The dimensions are formative: each carries distinct conceptual content, and the construct is what they compose (Edwards, 2001; Jarvis, MacKenzie, & Podsakoff, 2003; Law, Wong, & Mobley, 1998; MacKenzie, Podsakoff, & Jarvis, 2005). The dimensions follow from the form.
+The three structural conditions of the triadic form impose three demands on the worker, and the three corresponding capacities are the three dimensions of algorithmacy. Signal asymmetry calls for the capacity to read outcomes back to inputs, intent compression calls for the capacity to translate situated meaning into the system's vocabulary, and opaque mediation calls for the capacity to track shifts in the rules over time. The dimensions are formative: each carries distinct conceptual content, and the construct is what they compose, one dimension answering to each condition the form imposes (Edwards, 2001; Jarvis, MacKenzie, & Podsakoff, 2003; Law, Wong, & Mobley, 1998; MacKenzie, Podsakoff, & Jarvis, 2005).
 
 A worker who cannot see what reached the other side or what the third party did between has to infer the third party's transformation rule from the outcomes she observes, and the inferential capacity to do so is the first dimension of algorithmacy. Workers do this all the time. They develop folk theories of how algorithmic systems behave, share those theories with one another as algorithmic gossip, and adapt their behavior to what the theories predict (Bishop, 2019; Bucher, 2017; Cotter, 2019; DeVito, 2017, 2021; Eslami et al., 2015; Heiland, 2023; Karizat, Delmonaco, Eslami, & Andalibi, 2021). Recent field studies confirm that the inference is effortful, consequential for what workers earn, and unevenly distributed across a workforce facing the same system (Heiland, 2023). The folk theories are socially produced, and the social production is itself the developmental mechanism the dimension theorizes (Gran, Booth, & Bucher, 2021). Workers facing the same system end up with sophisticated working models or impoverished ones, and the gap between them is what the dimension measures (Hargittai, Gruber, Djukaric, Fuchs, & Brombach, 2020). The dimension picks out the inferential capacity. The declarative knowledge that some workers possess and some do not belongs to a different construct.
 
@@ -616,18 +554,18 @@ A worker whose intent does not translate without loss into what the system reads
 
 A worker whose third party operates by rules that are unpublished, unstable, and adaptive has to detect when the rules have moved and update her practice accordingly, and the temporal-tracking capacity to do so is the third dimension. Learning algorithms have four properties that make their rules hard to track: black-boxed performance, comprehensive digitization, anticipatory quantification, and hidden politics (Faraj, Pachidi, & Sayegh, 2018). Workers adapt to algorithmic-management updates and platform policy shifts unevenly. Across seven years of ride-hailing ethnography, workers responded to the same policy changes in heterogeneous ways (Cameron, 2024), and the matching-and-control hybrid that platforms now deploy makes the policy environment continuous rather than punctuated (Möhlmann, Zalmanson, Henfridsson, & Gregory, 2021). The third party is itself a distributed system of algorithms, with the temporal-tracking demand multiplied accordingly (Stelmaszak, Möhlmann, & Sørensen, 2025). The closest analogue in organization theory is the shadow learning workers develop when sanctioned learning paths fail in algorithmically mediated work (Beane, 2019). The dimension picks out what workers do when the rules of the system change without announcement, and they have to figure out what changed before they can adjust.
 
-The three dimensions together compose algorithmacy, and the integration is what makes the construct a construct. A worker who scores high on one dimension and low on another produces different coordination outcomes from a worker who scores moderately on all three. The capacity that produces the difference is the integrated whole.
+The three dimensions together compose algorithmacy, and the integration is what makes the construct a construct. A worker who scores high on one dimension and low on another produces different coordination outcomes from a worker who scores moderately on all three; the construct is that integration, not any single dimension.
 
 ### 6.3 Semantic relations to the existing landscape
 The existing constructs in the human-AI interaction space each capture something real about communication in algorithmic settings, and each does so within a unit of analysis that excludes the triadic form. The CMC tradition locates a worker opposite a conveying medium (Spitzberg, 2006). The HMC tradition locates her opposite an algorithmic partner understood through the cognitive frame she brings to it (Banks, 2020; Edwards, Edwards, Spence, Harris, & Gambino, 2016; Guzman & Lewis, 2020). The AI-MC tradition locates her inside her own message-production process while the algorithm shapes what she sends before it reaches a receiver (Hancock, Naaman, & Levy, 2020; Hohenstein et al., 2023; Jakesch, French, Ma, Hancock, & Naaman, 2019; Jakesch, Hancock, & Naaman, 2023; Mieczkowski et al., 2021). None positions a worker on one side of a third party that acts on inputs from both sides in pursuit of its own objectives. Algorithmacy occupies that position.
 
 The literacy frameworks operate at a different level entirely. Algorithmic literacy and AI literacy measure what users know about algorithmic systems (Dogruel, Masur, & Joeckel, 2022; Long & Magerko, 2020; Ng, Leung, Chu, & Qiao, 2021). The broader algorithmic-literacy family has stayed at the knowledge-state level across a decade of empirical refinement (Cotter & Reisdorf, 2020; Hargittai et al., 2020; Klawitter & Hargittai, 2018; Swart, 2021; Gagrčin et al., 2026). Knowledge of how a system works leaves the question of what a worker can do inside one untouched. A literate user may be algorithmate. A literate user may not be. The empirical relationship between knowledge and capacity is open.
 
-Algorithm sensemaking comes the closest to algorithmacy of any existing construct, and the distinction between the two is a distinction at the level of unit of analysis. Sensemaking is the cognitive process by which a worker arrives at a working model of an algorithmic system, with three sub-processes carrying the analytic work: focused enactment, selection modes, and retention sources (Möhlmann et al., 2023). The construct does work the literacy frameworks cannot do, because it captures how workers come to a model through participation. The cognitive process happens inside an individual worker's head. The integrated competency operates between the worker and the third parties she coordinates with. Whether sensemaking is an antecedent of algorithmacy, a component of it, or an empirically correlated but conceptually distinct capacity is an open empirical question. The conceptual distinction between process and capacity is sufficient on its own.
+Algorithm sensemaking comes the closest to algorithmacy of any existing construct, and the distinction between the two is a distinction at the level of unit of analysis. Sensemaking is the cognitive process by which a worker arrives at a working model of an algorithmic system, with three sub-processes carrying the analytic work: focused enactment, selection modes, and retention sources (Möhlmann et al., 2023). The construct does work the literacy frameworks cannot do, because it captures how workers come to a model through participation. The cognitive process happens inside an individual worker's head. The integrated competency operates between the worker and the third parties she coordinates with. Whether sensemaking is an antecedent of algorithmacy, a component of it, or an empirically correlated but conceptually distinct capacity is an open empirical question. The empirical relation is open; the conceptual distinction between process and capacity is not.
 
 Zhou and colleagues' algorithmic competency comes closest to algorithmacy by name, and three substantive differences separate them. Algorithmacy is a communication competency for triadic coordination, and adaptation to algorithmic management is one possible behavioral expression of it. Algorithmacy's dimensions follow from the three structural conditions of the triadic form, while Zhou and colleagues' dimensions follow from inductive coding of an empirical record in one national-organizational context (Zhou, Lei, Liu, Huang, & Hou, 2025). The constructs apply across different scopes: algorithmacy reaches any setting where the three structural conditions hold, while Zhou's construct applies where on-demand algorithmic management is the explicit organizational form. The two would correlate empirically in gig settings and diverge in cases without explicit on-demand framing.
 
-No prior study has tested whether algorithmic literacy, AI literacy, algorithm sensemaking, and algorithmic competency are jingle or jangle problems with respect to one another — a test that requires representing each construct's nomological network and examining whether their indicators cohere separately, the discriminant-validity procedure developed to arrest construct proliferation (Larsen & Bong, 2016; Lawson & Robins, 2021; Shaffer, DeGeest, & Li, 2016). The most recent integrative review of the algorithm-literacy family does not reach the question (Gagrčin et al., 2026). Algorithmacy is the first construct in the family that takes the construct-clarity discipline of Suddaby (2010), Podsakoff, MacKenzie, and Podsakoff (2016), and Lambert and Newman (2023) as its starting point. The conceptual specification stands on its own. The empirical jingle-and-jangle test is a separate question.
+No prior study has tested whether algorithmic literacy, AI literacy, algorithm sensemaking, and algorithmic competency are jingle or jangle problems with respect to one another. Such a test would represent each construct's nomological network and examine whether their indicators cohere separately, the discriminant-validity procedure developed to arrest construct proliferation (Larsen & Bong, 2016; Lawson & Robins, 2021; Shaffer, DeGeest, & Li, 2016). The most recent integrative review of the algorithm-literacy family does not reach the question (Gagrčin et al., 2026). Algorithmacy is the first construct in the family that takes the construct-clarity discipline of Suddaby (2010), Podsakoff, MacKenzie, and Podsakoff (2016), and Lambert and Newman (2023) as its starting point. The conceptual specification stands on its own. The empirical jingle-and-jangle test is a separate question.
 
 ### 6.4 Nomological position
 Algorithmacy develops through participation in the triadic form, predicts coordination outcomes when workers coordinate through algorithmic intermediaries, and stands in specifiable relations to algorithm sensemaking, CMC competence, the literacy frameworks, and algorithmic competency. The development pattern gives the construct its scale-development standing. The prediction pattern makes the construct useful for explaining the variance puzzle that organized its specification. The relational pattern places it within the existing landscape, with the empirical correlations strong enough to demonstrate adjacency and the structural distinctions sharp enough to demonstrate distinctness.
@@ -643,59 +581,134 @@ Algorithmacy correlates positively with algorithm sensemaking at the strongest m
 
 
 ## 7. Future research agenda
-Five questions decide what the construct does. The institutions that will use it aren't waiting for the field to answer them. The field has to choose, in the next several years, which questions it answers fast enough to matter and which ones the institutions answer first.
+
+Five questions decide what the construct does, and the institutions that will use it are not waiting for the
+field to answer them. Over the next several years the field will settle some of these questions and the
+institutions will settle the rest by default. Which fall to which is partly the field's to choose.
 
 ### 7.1 Distribution
-Workers in the same conditions earn different amounts. Whether the gap reflects competency they developed or competency they arrived with decides whether algorithmacy describes a skill the form rewards or an inequality the form reproduces.
 
-Some workers get better at coordinating through the algorithm than others. The gender earnings gap among more than a million Uber drivers comes down to within-platform behavioral differences in experience, location preference, and driving speed (Cook et al., 2021). The within-platform spread is wide and survives the controls that precarity and algorithmic-control accounts would impose (Schor et al., 2020), and it appears even in simulation when driver performance is held constant and only the matching parameters move (Bokányi & Hannák, 2020). Freelancers facing the same opaque evaluations respond differently; some experiment, some constrain, some leave (Rahman, 2021). Drivers working under the same algorithmic system experience it differently (Cameron, 2024). On this reading, the form rewards what workers do, and the spread of outcomes tracks the spread of competency.
+Workers in the same conditions earn different amounts. Whether that gap reflects a competency they developed
+or one they arrived with decides whether algorithmacy names a skill the form rewards or an inequality the form
+reproduces.
 
-Or workers arrive with the conditions for developing the competency, and the conditions are unequally distributed. Algorithmic awareness varies by class, region, and prior digital exposure (Cotter & Reisdorf, 2020; Gran, Booth, & Bucher, 2021). The broader political economy puts a coding elite on one side and a cybertariat on the other, working through proprietary, opaque models the second group cannot get inside (Burrell & Fourcade, 2021). On this reading, the form rewards what workers brought with them, and the spread of outcomes tracks the spread of who got to develop in the first place.
+Some workers get better at coordinating through the algorithm than others. The gender earnings gap among more
+than a million Uber drivers resolves into within-platform differences in experience, location, and driving
+speed (Cook et al., 2021). The within-platform spread is wide and survives the controls that precarity and
+algorithmic-control accounts would impose (Schor et al., 2020), and it appears even in simulation when driver
+performance is held constant and only the matching parameters move (Bokányi & Hannák, 2020). Freelancers under
+the same opaque evaluations respond differently: some experiment, some pull back, some leave (Rahman, 2021).
+Drivers under the same system experience it differently (Cameron, 2024). Read this way, the form rewards what
+workers do, and the spread of outcomes tracks the spread of competency.
 
-The two readings make algorithmacy do opposite work. The first lines up with human capital: skill explains earnings, and the form rewards what workers do under it. The second lines up with the digital divide: access explains earnings, and the form reproduces an inequality already in place. A measurement program that doesn't test for stratified access can't tell the readings apart. Whether algorithmacy enters the political-economy debate as a defense of platform meritocracy or as a name for a new vector of stratification depends on what the measurement shows.
+The other reading is that workers arrive with the conditions for developing the competency, and those
+conditions are unequally distributed. Algorithmic awareness varies by class, region, and prior digital
+exposure (Cotter & Reisdorf, 2020; Gran, Booth, & Bucher, 2021). The wider political economy sets a coding
+elite on one side and a cybertariat on the other, working through proprietary, opaque models the second group
+cannot get inside (Burrell & Fourcade, 2021). Read this way, the form rewards what workers brought with them,
+and the spread of outcomes tracks who got to develop in the first place.
+
+The two readings make algorithmacy do opposite work. The first aligns it with human capital: skill explains
+earnings, and the form rewards what workers do under it. The second aligns it with the digital divide: access
+explains earnings, and the form reproduces an inequality already in place. A measurement program that does not
+test for stratified access cannot tell the two apart. Whether algorithmacy enters the political-economy debate
+as a defense of platform meritocracy or as a name for a new line of stratification depends on what the
+measurement shows.
 
 ### 7.2 Transferability
-Algorithmacy might transfer across platforms or it might not. The answer decides whether "platform worker" names a coherent worker or a sequence of unrelated jobs.
 
-People who think the competency transfers point to what platforms have in common. Monitoring, scheduling, performance ratings, and pay rules show up across systems, and a worker who learns to coordinate under one set learns something about coordinating under another (Jarrahi et al., 2021; Parent-Rocheleau, Parker, Bujold, & Gaudet, 2024). People who think it stays put point to what platforms don't share. Ride-hailing matches workers to riders, food delivery dispatches them to orders, search-and-list platforms rank their listings against others, and micro-task platforms assign work without choice. The mechanisms work differently, and the inputs that succeed under one don't succeed under another (Lehdonvirta, 2018; Sun, 2019; Sun & Chen, 2021).
+Algorithmacy may transfer across platforms or it may not, and the answer decides whether "platform worker"
+names a coherent worker or a run of unrelated jobs.
 
-Economists have studied multi-homing as a market-structure question (Bryan & Gans, 2019); the worker-skill question has not been measured.
+The case for transfer rests on what platforms share. Monitoring, scheduling, performance ratings, and pay
+rules recur across systems, and a worker who learns to coordinate under one set learns something about
+coordinating under another (Jarrahi et al., 2021; Parent-Rocheleau, Parker, Bujold, & Gaudet, 2024). The case
+against rests on what they do not share. Ride-hailing matches workers to riders, food delivery dispatches them
+to orders, search-and-list platforms rank their listings against others, and micro-task platforms assign work
+without choice; the mechanisms differ, and the inputs that succeed under one do not succeed under another
+(Lehdonvirta, 2018; Sun, 2019; Sun & Chen, 2021). Economists have studied multi-homing as a market-structure
+question (Bryan & Gans, 2019), but no one has yet measured it as a question of worker skill.
 
-A credential is portable only if the underlying skill is. A training program returns value across employers only if the training generalizes. "Platform worker" names a career only if something connects one platform to the next. Without transfer, the term names a sequence of unrelated jobs whose only common feature is that an algorithm assigned each one.
+The stakes are practical. A credential is portable only if the underlying skill is; a training program returns
+value across employers only if the training generalizes; "platform worker" names a career only if something
+connects one platform to the next. Without transfer, the term names a sequence of unrelated jobs whose only
+common feature is that an algorithm assigned each one.
 
 ### 7.3 Relation to algorithm sensemaking
-Algorithm sensemaking and algorithmacy might be the same thing under two names. The conceptual definitions are different. Sensemaking is what a worker does to figure out a system she's working under. Algorithmacy is what she does to coordinate with another person through it. When you measure the behavioral signatures, they might collapse into one factor or stay distinct, and which it is decides whether the field needs both labels.
 
-A driver builds a model of the matching algorithm by searching forums, running informal experiments, comparing notes with other drivers, and updating her theory when she sees outcomes she can't explain (Möhlmann, Alves de Lima Salge, & Marabelli, 2023). That work is between the worker and the system. Algorithmacy is what she does with the model once she has it: how she coordinates with riders she'll only meet after the algorithm matches them.
+Algorithm sensemaking and algorithmacy may be one thing under two names. Their definitions differ: sensemaking
+is what a worker does to make out the system she works under, and algorithmacy is what she does to coordinate
+with another person through it. Measured as behavioral signatures, the two might collapse into a single factor
+or hold apart, and which one holds decides whether the field needs both labels.
 
-Sensemaking might be a causal antecedent: a worker has to know roughly what the algorithm is doing before she can coordinate through it. Or the two might be one construct empirically, with two literatures describing the same phenomenon under different labels (Larsen & Bong, 2016). Or they might be independent, each picking up variance and predicting outcomes the other can't.
+A driver builds a model of the matching algorithm by searching forums, running informal experiments, comparing
+notes with other drivers, and revising her theory when an outcome surprises her (Möhlmann, Alves de Lima Salge,
+& Marabelli, 2023). That work runs between the worker and the system. Algorithmacy is what she does with the
+model once she has it: how she coordinates with riders she will meet only after the algorithm matches them.
 
-If they collapse, the IS sensemaking literature and the management competency literature have been describing the same phenomenon and should consolidate. If they hold apart, algorithmacy adds the work of distinguishing knowing the system from coordinating through it.
+Sensemaking may be a causal antecedent, since a worker has to know roughly what the algorithm is doing before
+she can coordinate through it. The two may instead be one construct empirically, two literatures describing the
+same phenomenon under different labels (Larsen & Bong, 2016). Or they may be independent, each carrying
+variance and predicting outcomes the other cannot. If they collapse, the information-systems literature on
+sensemaking and the management literature on competency have been describing one phenomenon and should
+consolidate. If they hold apart, algorithmacy adds the work of separating knowing a system from coordinating
+through it.
 
 ### 7.4 Aggregation
-Twelve drivers can each have algorithmacy without Lyft having algorithmacy. Whether individual capacity adds up to organizational capacity decides whether organizational interventions can do anything.
 
-Most worker competencies aggregate through specific mechanisms: shared mental models in teams, distributed knowledge across roles, cultural norms that persist when individuals leave. The mechanisms aren't interchangeable, and which one operates for a given competency has to be tested for that competency.
+A dozen drivers can each be highly algorithmate without the platform that coordinates them being so. Whether
+individual capacity aggregates to organizational capacity decides whether organizational interventions can
+reach it at all.
 
-Aggregation in the team and organizational literatures was built on firms. Platforms aren't firms. Hierarchies aggregate through delegation, markets through contract, networks through trust. Platforms aggregate through co-optation: the platform enrolls workers and counterparts as participants in a system whose management it owns (Stark & Vanden Broeck, 2024). The form doesn't naturally produce teams, departments, or communities; the structures the aggregation literature is built on aren't there.
+Most worker competencies aggregate through specific mechanisms: shared mental models within teams, knowledge
+distributed across roles, cultural norms that outlast the individuals who held them. These mechanisms are not
+interchangeable, and which one operates for a given competency has to be established for that competency.
 
-Sometimes the form does produce peer networks. Drivers compare notes on forums. Freelancers swap strategies in private chats. Workers build their gig literacies through these networks (Sutherland, Jarrahi, Dunn, & Nelson, 2020). Nobody has measured whether peer-network learning generalizes across platforms or whether it produces the kind of collective capacity organizational interventions can build on.
+The aggregation literature was built on firms, and platforms are not firms. Hierarchies aggregate by
+delegation, markets by contract, networks by trust. Platforms aggregate by co-optation: the platform enrols
+workers and counterparts in a system whose management it owns (Stark & Vanden Broeck, 2024). The form does not
+produce teams, departments, or communities on its own, so the structures the aggregation literature relies on
+are simply absent.
 
-A union, a training program, or a credentialing body that designs interventions at the organizational level assumes individual capacity becomes collective capacity through some mechanism. If the form actively resists that aggregation, the assumption is wrong, and the intervention designs that follow from it are aimed at structures that don't exist.
+Sometimes the form does produce peer networks. Drivers compare notes on forums; freelancers swap strategies in
+private chats; workers build their gig literacies through these channels (Sutherland, Jarrahi, Dunn, & Nelson,
+2020). No one has measured whether peer-network learning travels across platforms, or whether it produces the
+kind of collective capacity an organizational intervention could build on. A union, a training program, or a
+credentialing body that designs at the organizational level assumes that individual capacity becomes
+collective through some mechanism. If the form resists that aggregation, the assumption is wrong, and the
+designs that follow from it aim at structures that do not exist.
 
 ### 7.5 Institutional implications
-Bootcamps train workers, certification bodies issue credentials, labor organizers fight for protections, and policy makers write rules. They are doing it now, and they are doing it without a vocabulary that fits the form workers face. Whatever vocabulary gets installed in the next few years becomes the target workers are trained for, regulators write against, and unions organize around for a generation.
 
-AI engineering bootcamps train participants by routing them through algorithmically-mediated coordination tasks, on the assumption that the underlying capacity develops through participation rather than through instruction. Workforce-development programs route gig workers through "algorithmic literacy" curricula, which teach what the algorithm is rather than how to coordinate with another person through it (Vallas & Schor, 2020). Labor protections written for the employer-employee relation don't fit the platform; the platform owns the relationship between the worker and her counterpart, and the legal vocabulary doesn't name that arrangement (Pasquale, 2020). The regulatory state has begun to write directly against the form, and the vocabulary it has chosen carries the same gap: the European Union's Platform Work Directive is the first legislation to regulate workplace algorithms, but it confines its transparency and human-oversight rights to platform workers, and the AI Act's binding requirement that workers possess "a sufficient level of AI literacy" leaves the competency itself undefined (European Parliament & Council, 2024a, 2024b). The rules are being written around a competency the law names but does not specify.
+Bootcamps train workers, certification bodies issue credentials, labor organizers fight for protections, and
+policy makers write rules. They are doing it now, and doing it without a vocabulary that fits the form workers
+face. Whatever vocabulary gets installed in the next few years becomes the target workers are trained for,
+regulators write against, and unions organize around for a generation.
 
-Each of these decisions takes a position on what algorithmacy is before the construct's empirical questions are settled. Naming the construct doesn't settle them either, but it makes the positions visible, which is the precondition for choosing differently. If algorithmacy turns out to track unequal access to the conditions for developing it, the credentialing infrastructure being built right now will either reproduce that inequality or interrupt it (Burrell & Fourcade, 2021). Which one is not a decision the academic field gets to defer.
+The mismatch is already visible across each of these actors. AI-engineering bootcamps train participants by
+routing them through algorithmically mediated coordination tasks, on the premise that the capacity develops
+through participation rather than instruction. Workforce-development programs route gig workers through
+"algorithmic literacy" curricula that teach what the algorithm is rather than how to coordinate with another
+person through it (Vallas & Schor, 2020). Labor protections written for the employer-employee relation do not
+fit the platform, which owns the relationship between the worker and her counterpart in a way the legal
+vocabulary does not name (Pasquale, 2020). The regulatory state has started to write directly against the
+form, and its chosen vocabulary carries the same gap: the European Union's Platform Work Directive, the first
+legislation to regulate workplace algorithms, confines its transparency and oversight rights to platform
+workers, and the AI Act's binding requirement that workers hold "a sufficient level of AI literacy" never says
+what the competency is (European Parliament & Council, 2024a, 2024b).
+
+Each of these decisions takes a position on what algorithmacy is before the construct's empirical questions are
+settled. Naming the construct does not settle them, but it makes the positions visible, which is the
+precondition for choosing among them. If algorithmacy turns out to track unequal access to the conditions for
+developing it, the credentialing infrastructure being built right now will either reproduce that inequality or
+interrupt it (Burrell & Fourcade, 2021), and which one is not a choice the field gets to defer.
 
 
 ---
 
 
 ## 8. Conclusion
-Coordination through a third party that pursues its own objectives across both human parties is a structurally distinct form of human cooperation, and the worker-level competency the form requires is what the field's existing literature has not had a name for. Two lawyers reach the opposing counsel only through what the judge admits, rules on, or excludes. Two traders reach each other only through what the market maker matches. An applicant reaches a hiring manager only through what the applicant tracking system forwards. A driver reaches a rider only through what the matching algorithm assigns. In each case the third party's objectives, not the human parties' intentions, determine what passes between them, and the human parties' competence inside the form is something distinct from competence in any of the dyadic arrangements the third party displaces.
+Coordination through a third party that pursues its own objectives across both parties is an old form of human cooperation, and the worker-level competency it demands is the one the field has had no name for. A lawyer reaches the opposing counsel only through what the judge admits; a driver reaches a rider only through what the matching algorithm assigns; in every such case the third party's objectives, not the parties' intentions, set what passes between them. Competence inside that form is not competence in any of the dyadic arrangements the third party displaces.
 
 Three conditions hold across every instance of the form, and they are constitutive of the form rather than incidental to particular implementations. Each party sends, and neither sees what reached the other side or what the third party did between: signal asymmetry. The third party accepts inputs in its own vocabulary or not at all, and a worker's situated intent will not always translate without loss: intent compression. The rules governing the transformation are unpublished, unstable, and revised as the system learns from the interactions it mediates: opaque mediation (Faraj, Pachidi, & Sayegh, 2018). Coordination forms have to secure accountability, predictability, and common understanding (Okhuysen & Bechky, 2009); hierarchies secure them through delegated authority, markets through prices and contracts, networks through trust and reciprocity. Triadic algorithmic coordination has none of those mechanisms, and the integrating conditions hold only insofar as workers exercise some competency under the three conditions the form imposes.
 

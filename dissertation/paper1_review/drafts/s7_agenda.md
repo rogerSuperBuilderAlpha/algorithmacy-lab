@@ -1,62 +1,129 @@
-## **7\. Future research agenda**
+## 7. Future research agenda
 
-Five questions decide what the construct does. The institutions that will use it aren't waiting for the field to answer them. The field has to choose, in the next several years, which questions it answers fast enough to matter and which ones the institutions answer first.
+Five questions decide what the construct does, and the institutions that will use it are not waiting for the
+field to answer them. Over the next several years the field will settle some of these questions and the
+institutions will settle the rest by default. Which fall to which is partly the field's to choose.
 
-### **7.1 Distribution**
+### 7.1 Distribution
 
-Workers in the same conditions earn different amounts. Whether the gap reflects competency they developed or competency they arrived with decides whether algorithmacy describes a skill the form rewards or an inequality the form reproduces.
+Workers in the same conditions earn different amounts. Whether that gap reflects a competency they developed
+or one they arrived with decides whether algorithmacy names a skill the form rewards or an inequality the form
+reproduces.
 
-Some workers get better at coordinating through the algorithm than others. The gender earnings gap among more than a million Uber drivers comes down to within-platform behavioral differences in experience, location preference, and driving speed (Cook et al., 2021). The within-platform spread is wide and survives the controls that precarity and algorithmic-control accounts would impose (Schor et al., 2020), and it appears even in simulation when driver performance is held constant and only the matching parameters move (Bokányi & Hannák, 2020). Freelancers facing the same opaque evaluations respond differently; some experiment, some constrain, some leave (Rahman, 2021). Drivers working under the same algorithmic system experience it differently (Cameron, 2024). On this reading, the form rewards what workers do, and the spread of outcomes tracks the spread of competency.
+Some workers get better at coordinating through the algorithm than others. The gender earnings gap among more
+than a million Uber drivers resolves into within-platform differences in experience, location, and driving
+speed (Cook et al., 2021). The within-platform spread is wide and survives the controls that precarity and
+algorithmic-control accounts would impose (Schor et al., 2020), and it appears even in simulation when driver
+performance is held constant and only the matching parameters move (Bokányi & Hannák, 2020). Freelancers under
+the same opaque evaluations respond differently: some experiment, some pull back, some leave (Rahman, 2021).
+Drivers under the same system experience it differently (Cameron, 2024). Read this way, the form rewards what
+workers do, and the spread of outcomes tracks the spread of competency.
 
-Or workers arrive with the conditions for developing the competency, and the conditions are unequally distributed. Algorithmic awareness varies by class, region, and prior digital exposure (Cotter & Reisdorf, 2020; Gran, Booth, & Bucher, 2021). The broader political economy puts a coding elite on one side and a cybertariat on the other, working through proprietary, opaque models the second group cannot get inside (Burrell & Fourcade, 2021). On this reading, the form rewards what workers brought with them, and the spread of outcomes tracks the spread of who got to develop in the first place.
+The other reading is that workers arrive with the conditions for developing the competency, and those
+conditions are unequally distributed. Algorithmic awareness varies by class, region, and prior digital
+exposure (Cotter & Reisdorf, 2020; Gran, Booth, & Bucher, 2021). The wider political economy sets a coding
+elite on one side and a cybertariat on the other, working through proprietary, opaque models the second group
+cannot get inside (Burrell & Fourcade, 2021). Read this way, the form rewards what workers brought with them,
+and the spread of outcomes tracks who got to develop in the first place.
 
-The two readings make algorithmacy do opposite work. The first lines up with human capital: skill explains earnings, and the form rewards what workers do under it. The second lines up with the digital divide: access explains earnings, and the form reproduces an inequality already in place. A measurement program that doesn't test for stratified access can't tell the readings apart. Whether algorithmacy enters the political-economy debate as a defense of platform meritocracy or as a name for a new vector of stratification depends on what the measurement shows.
+The two readings make algorithmacy do opposite work. The first aligns it with human capital: skill explains
+earnings, and the form rewards what workers do under it. The second aligns it with the digital divide: access
+explains earnings, and the form reproduces an inequality already in place. A measurement program that does not
+test for stratified access cannot tell the two apart. Whether algorithmacy enters the political-economy debate
+as a defense of platform meritocracy or as a name for a new line of stratification depends on what the
+measurement shows.
 
-### **7.2 Transferability**
+### 7.2 Transferability
 
-Algorithmacy might transfer across platforms or it might not. The answer decides whether "platform worker" names a coherent worker or a sequence of unrelated jobs.
+Algorithmacy may transfer across platforms or it may not, and the answer decides whether "platform worker"
+names a coherent worker or a run of unrelated jobs.
 
-People who think the competency transfers point to what platforms have in common. Monitoring, scheduling, performance ratings, and pay rules show up across systems, and a worker who learns to coordinate under one set learns something about coordinating under another (Jarrahi et al., 2021; Parent-Rocheleau, Parker, Bujold, & Gaudet, 2024). People who think it stays put point to what platforms don't share. Ride-hailing matches workers to riders, food delivery dispatches them to orders, search-and-list platforms rank their listings against others, and micro-task platforms assign work without choice. The mechanisms work differently, and the inputs that succeed under one don't succeed under another (Lehdonvirta, 2018; Sun, 2019; Sun & Chen, 2021).
+The case for transfer rests on what platforms share. Monitoring, scheduling, performance ratings, and pay
+rules recur across systems, and a worker who learns to coordinate under one set learns something about
+coordinating under another (Jarrahi et al., 2021; Parent-Rocheleau, Parker, Bujold, & Gaudet, 2024). The case
+against rests on what they do not share. Ride-hailing matches workers to riders, food delivery dispatches them
+to orders, search-and-list platforms rank their listings against others, and micro-task platforms assign work
+without choice; the mechanisms differ, and the inputs that succeed under one do not succeed under another
+(Lehdonvirta, 2018; Sun, 2019; Sun & Chen, 2021). Economists have studied multi-homing as a market-structure
+question (Bryan & Gans, 2019), but no one has yet measured it as a question of worker skill.
 
-Economists have studied multi-homing as a market-structure question (Bryan & Gans, 2019); the worker-skill question has not been measured.
+The stakes are practical. A credential is portable only if the underlying skill is; a training program returns
+value across employers only if the training generalizes; "platform worker" names a career only if something
+connects one platform to the next. Without transfer, the term names a sequence of unrelated jobs whose only
+common feature is that an algorithm assigned each one.
 
-A credential is portable only if the underlying skill is. A training program returns value across employers only if the training generalizes. "Platform worker" names a career only if something connects one platform to the next. Without transfer, the term names a sequence of unrelated jobs whose only common feature is that an algorithm assigned each one.
+### 7.3 Relation to algorithm sensemaking
 
-### **7.3 Relation to algorithm sensemaking**
+Algorithm sensemaking and algorithmacy may be one thing under two names. Their definitions differ: sensemaking
+is what a worker does to make out the system she works under, and algorithmacy is what she does to coordinate
+with another person through it. Measured as behavioral signatures, the two might collapse into a single factor
+or hold apart, and which one holds decides whether the field needs both labels.
 
-Algorithm sensemaking and algorithmacy might be the same thing under two names. The conceptual definitions are different. Sensemaking is what a worker does to figure out a system she's working under. Algorithmacy is what she does to coordinate with another person through it. When you measure the behavioral signatures, they might collapse into one factor or stay distinct, and which it is decides whether the field needs both labels.
+A driver builds a model of the matching algorithm by searching forums, running informal experiments, comparing
+notes with other drivers, and revising her theory when an outcome surprises her (Möhlmann, Alves de Lima Salge,
+& Marabelli, 2023). That work runs between the worker and the system. Algorithmacy is what she does with the
+model once she has it: how she coordinates with riders she will meet only after the algorithm matches them.
 
-A driver builds a model of the matching algorithm by searching forums, running informal experiments, comparing notes with other drivers, and updating her theory when she sees outcomes she can't explain (Möhlmann, Alves de Lima Salge, & Marabelli, 2023). That work is between the worker and the system. Algorithmacy is what she does with the model once she has it: how she coordinates with riders she'll only meet after the algorithm matches them.
+Sensemaking may be a causal antecedent, since a worker has to know roughly what the algorithm is doing before
+she can coordinate through it. The two may instead be one construct empirically, two literatures describing the
+same phenomenon under different labels (Larsen & Bong, 2016). Or they may be independent, each carrying
+variance and predicting outcomes the other cannot. If they collapse, the information-systems literature on
+sensemaking and the management literature on competency have been describing one phenomenon and should
+consolidate. If they hold apart, algorithmacy adds the work of separating knowing a system from coordinating
+through it.
 
-Sensemaking might be a causal antecedent: a worker has to know roughly what the algorithm is doing before she can coordinate through it. Or the two might be one construct empirically, with two literatures describing the same phenomenon under different labels (Larsen & Bong, 2016). Or they might be independent, each picking up variance and predicting outcomes the other can't.
+### 7.4 Aggregation
 
-If they collapse, the IS sensemaking literature and the management competency literature have been describing the same phenomenon and should consolidate. If they hold apart, algorithmacy adds the work of distinguishing knowing the system from coordinating through it.
+A dozen drivers can each be highly algorithmate without the platform that coordinates them being so. Whether
+individual capacity aggregates to organizational capacity decides whether organizational interventions can
+reach it at all.
 
-### **7.4 Aggregation**
+Most worker competencies aggregate through specific mechanisms: shared mental models within teams, knowledge
+distributed across roles, cultural norms that outlast the individuals who held them. These mechanisms are not
+interchangeable, and which one operates for a given competency has to be established for that competency.
 
-Twelve drivers can each have algorithmacy without Lyft having algorithmacy. Whether individual capacity adds up to organizational capacity decides whether organizational interventions can do anything.
+The aggregation literature was built on firms, and platforms are not firms. Hierarchies aggregate by
+delegation, markets by contract, networks by trust. Platforms aggregate by co-optation: the platform enrols
+workers and counterparts in a system whose management it owns (Stark & Vanden Broeck, 2024). The form does not
+produce teams, departments, or communities on its own, so the structures the aggregation literature relies on
+are simply absent.
 
-Most worker competencies aggregate through specific mechanisms: shared mental models in teams, distributed knowledge across roles, cultural norms that persist when individuals leave. The mechanisms aren't interchangeable, and which one operates for a given competency has to be tested for that competency.
+Sometimes the form does produce peer networks. Drivers compare notes on forums; freelancers swap strategies in
+private chats; workers build their gig literacies through these channels (Sutherland, Jarrahi, Dunn, & Nelson,
+2020). No one has measured whether peer-network learning travels across platforms, or whether it produces the
+kind of collective capacity an organizational intervention could build on. A union, a training program, or a
+credentialing body that designs at the organizational level assumes that individual capacity becomes
+collective through some mechanism. If the form resists that aggregation, the assumption is wrong, and the
+designs that follow from it aim at structures that do not exist.
 
-Aggregation in the team and organizational literatures was built on firms. Platforms aren't firms. Hierarchies aggregate through delegation, markets through contract, networks through trust. Platforms aggregate through co-optation: the platform enrolls workers and counterparts as participants in a system whose management it owns (Stark & Vanden Broeck, 2024). The form doesn't naturally produce teams, departments, or communities; the structures the aggregation literature is built on aren't there.
+### 7.5 Institutional implications
 
-Sometimes the form does produce peer networks. Drivers compare notes on forums. Freelancers swap strategies in private chats. Workers build their gig literacies through these networks (Sutherland, Jarrahi, Dunn, & Nelson, 2020). Nobody has measured whether peer-network learning generalizes across platforms or whether it produces the kind of collective capacity organizational interventions can build on.
+Bootcamps train workers, certification bodies issue credentials, labor organizers fight for protections, and
+policy makers write rules. They are doing it now, and doing it without a vocabulary that fits the form workers
+face. Whatever vocabulary gets installed in the next few years becomes the target workers are trained for,
+regulators write against, and unions organize around for a generation.
 
-A union, a training program, or a credentialing body that designs interventions at the organizational level assumes individual capacity becomes collective capacity through some mechanism. If the form actively resists that aggregation, the assumption is wrong, and the intervention designs that follow from it are aimed at structures that don't exist.
+The mismatch is already visible across each of these actors. AI-engineering bootcamps train participants by
+routing them through algorithmically mediated coordination tasks, on the premise that the capacity develops
+through participation rather than instruction. Workforce-development programs route gig workers through
+"algorithmic literacy" curricula that teach what the algorithm is rather than how to coordinate with another
+person through it (Vallas & Schor, 2020). Labor protections written for the employer-employee relation do not
+fit the platform, which owns the relationship between the worker and her counterpart in a way the legal
+vocabulary does not name (Pasquale, 2020). The regulatory state has started to write directly against the
+form, and its chosen vocabulary carries the same gap: the European Union's Platform Work Directive, the first
+legislation to regulate workplace algorithms, confines its transparency and oversight rights to platform
+workers, and the AI Act's binding requirement that workers hold "a sufficient level of AI literacy" never says
+what the competency is (European Parliament & Council, 2024a, 2024b).
 
-### **7.5 Institutional implications**
-
-Bootcamps train workers, certification bodies issue credentials, labor organizers fight for protections, and policy makers write rules. They are doing it now, and they are doing it without a vocabulary that fits the form workers face. Whatever vocabulary gets installed in the next few years becomes the target workers are trained for, regulators write against, and unions organize around for a generation.
-
-AI engineering bootcamps train participants by routing them through algorithmically-mediated coordination tasks, on the assumption that the underlying capacity develops through participation rather than through instruction. Workforce-development programs route gig workers through "algorithmic literacy" curricula, which teach what the algorithm is rather than how to coordinate with another person through it (Vallas & Schor, 2020). Labor protections written for the employer-employee relation don't fit the platform; the platform owns the relationship between the worker and her counterpart, and the legal vocabulary doesn't name that arrangement (Pasquale, 2020). The regulatory state has begun to write directly against the form, and the vocabulary it has chosen carries the same gap: the European Union's Platform Work Directive is the first legislation to regulate workplace algorithms, but it confines its transparency and human-oversight rights to platform workers, and the AI Act's binding requirement that workers possess "a sufficient level of AI literacy" leaves the competency itself undefined (European Parliament & Council, 2024a, 2024b). The rules are being written around a competency the law names but does not specify.
-
-Each of these decisions takes a position on what algorithmacy is before the construct's empirical questions are settled. Naming the construct doesn't settle them either, but it makes the positions visible, which is the precondition for choosing differently. If algorithmacy turns out to track unequal access to the conditions for developing it, the credentialing infrastructure being built right now will either reproduce that inequality or interrupt it (Burrell & Fourcade, 2021). Which one is not a decision the academic field gets to defer.
+Each of these decisions takes a position on what algorithmacy is before the construct's empirical questions are
+settled. Naming the construct does not settle them, but it makes the positions visible, which is the
+precondition for choosing among them. If algorithmacy turns out to track unequal access to the conditions for
+developing it, the credentialing infrastructure being built right now will either reproduce that inequality or
+interrupt it (Burrell & Fourcade, 2021), and which one is not a choice the field gets to defer.
 
 ---
 
 ## Working references (§7)
-
-*Deepening additions flagged `[new]`; full list merges into the consolidated bibliography at combine time.*
 
 Bryan, K. A., & Gans, J. S. (2019). A theory of multihoming in rideshare competition. *Journal of Economics & Management Strategy, 28*(1), 89–96. https://doi.org/10.1111/jems.12306
 
@@ -94,10 +161,10 @@ Sutherland, W., Jarrahi, M. H., Dunn, M., & Nelson, S. B. (2020). Work precarity
 
 Vallas, S., & Schor, J. B. (2020). What do platforms do? Understanding the gig economy. *Annual Review of Sociology, 46*, 273–294. https://doi.org/10.1146/annurev-soc-121919-054857
 
-Bokányi, E., & Hannák, A. (2020). Understanding inequalities in ride-hailing services through simulations. *Scientific Reports, 10*, 6500. https://doi.org/10.1038/s41598-020-63171-9 [new; shared with §1]
+Bokányi, E., & Hannák, A. (2020). Understanding inequalities in ride-hailing services through simulations. *Scientific Reports, 10*, 6500. https://doi.org/10.1038/s41598-020-63171-9
 
-European Parliament & Council. (2024a). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act), Article 4 (AI literacy). *Official Journal of the European Union.* https://artificialintelligenceact.eu/article/4/ [new; shared with §1]
+European Parliament & Council. (2024a). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act), Article 4 (AI literacy). *Official Journal of the European Union.* https://artificialintelligenceact.eu/article/4/
 
-European Parliament & Council. (2024b). Directive (EU) 2024/2831 on improving working conditions in platform work. *Official Journal of the European Union.* [new; shared with §1]
+European Parliament & Council. (2024b). Directive (EU) 2024/2831 on improving working conditions in platform work. *Official Journal of the European Union.*
 
-Schor, J. B., Attwood-Charles, W., Cansoy, M., Ladegaard, I., & Wengronowitz, R. (2020). Dependence and precarity in the platform economy. *Theory and Society, 49*, 833–861. https://doi.org/10.1007/s11186-020-09408-y [new; shared with §1]
+Schor, J. B., Attwood-Charles, W., Cansoy, M., Ladegaard, I., & Wengronowitz, R. (2020). Dependence and precarity in the platform economy. *Theory and Society, 49*, 833–861. https://doi.org/10.1007/s11186-020-09408-y
