@@ -36,17 +36,23 @@ dissertation/
   README.md                       this file
   PROCESS.md                      the repo playbook adapted to the three paper-types
   THREE_PAPER_STRUCTURE_REVIEW.md the format standard + our state against it
+  FRONT_MATTER.md                 title page · whole-dissertation abstract · ToC · list of tables
   INTRODUCTION.md                 Chapter 1 — framing: the overarching problem + how the papers connect
   CONCLUSION.md                   Chapter 5 — integrative discussion: the combined contribution
+  BACK_MATTER.md                  reference handling · Appendix A (computational artifacts) · Appendix B
   sources/                        ingested raw material (existing drafts; PDFs gitignored, DOIs in the bibs)
   paper1_review/    (Chapter 2)   integrative review — draft/DRAFT.md (~25k)
   paper2_construct/ (Chapter 3)   construct + measurement — draft/DRAFT.md (~8k)
   paper3_baseline/  (Chapter 4)   empirical calibration — draft/DRAFT.md (~8k)
 ```
 
-**Dissertation structure (now complete):** Chapter 1 (Introduction) · Chapters 2–4 (the three papers) ·
-Chapter 5 (integrative Conclusion). The framing chapters bind the three standalone papers into one
-argument around the shared through-line, per the three-paper format (see `THREE_PAPER_STRUCTURE_REVIEW.md`).
+**Dissertation structure (complete, with front/back matter):**
+Front matter (`FRONT_MATTER.md`: title page, whole-dissertation abstract, ToC, list of tables) ·
+Chapter 1 (Introduction) · Chapters 2–4 (the three papers) · Chapter 5 (integrative Conclusion) ·
+Back matter (`BACK_MATTER.md`: per-chapter references, Appendix A computational artifacts, Appendix B).
+The framing chapters bind the three standalone papers into one argument around the shared through-line,
+per the verified three-paper format (see `THREE_PAPER_STRUCTURE_REVIEW.md`). Remaining for final assembly:
+author-supplied items (committee, date, acknowledgments) and Bentley's specific format rules.
 
 ## Reuse & environment
 
