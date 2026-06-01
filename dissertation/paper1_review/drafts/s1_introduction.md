@@ -143,36 +143,20 @@ worker in a coordination form and ask what she must do to work well inside it. C
 side of a passive channel. Algorithmacy puts her on one side of an active intermediary that pursues its own
 objectives across both her and the party she is trying to reach.
 
-A worker on a triadic platform acts on her counterpart only through transformations she cannot witness. A
-driver who turns toward a denser passenger zone sends an input to the matching algorithm, which transforms it
-through its surge model and returns an outcome she experiences as a ride or as no ride. A passenger requests a
-ride, and the algorithm transforms the request through its dispatch model into a wait time and a price. Neither
-sees what the algorithm did to the other's input, just as a lawyer reaches the opposing counsel only through
-what the judge has admitted or excluded. Each party sends; neither sees what reached the other side or what the
-third party did between: *signal asymmetry*.
-
-The third party accepts inputs in its own vocabulary or not at all, and a worker's situated intent rarely
-survives the translation. A driver willing to take long rides that end near home cannot tell the algorithm so.
-She can only do things, accept rides in some directions, decline others, park in particular places, that the
-algorithm may or may not read as that preference. An applicant with rare and relevant experience cannot
-describe it freely on a resume an applicant tracking system will parse against a keyword profile; she has to
-render the experience in the system's terms, and the rendering loses whatever those terms were not built to
-hold: *intent compression*.
-
-The third condition is *opaque mediation*. The rules governing what the third party does to inputs are
-unpublished, unstable, and revised as the system learns from the interactions it mediates (Faraj, Pachidi, &
-Sayegh, 2018). What worked in March can stop working in April, and the worker learns the rules have moved only
-because her outcomes have. Disclosure does not fix this: where platforms do publish how their controls work,
-the transparency does not relieve the stress or the uncertainty the controls impose (Cram, Wiener, Tarafdar, &
-Benlian, 2022).
+Three structural conditions make coordination of this kind what it is, and the next section specifies each.
+The worker and her counterpart each send signals the third party transforms before the other can see them.
+The system accepts inputs only in its own vocabulary, so a worker's situated intent is lost on the way in.
+And the rules of transformation stay unpublished and shift as the system learns from what it mediates. A
+driver cannot tell the matching algorithm she prefers long rides that end near home, cannot see what it did
+with her last input, and cannot know when its rules have changed except by watching her outcomes move.
 
 Something has to hold coordination together when the older mechanisms cannot. Every coordination form must
 secure the same three things: accountability, predictability, and common understanding (Okhuysen & Bechky,
 2009). Hierarchies secure them by command, markets by contract, networks by accumulated trust. Triadic
 algorithmic coordination secures them by none of these. There is no manager to escalate to, no contract the
-worker can hold the platform to, no counterpart who comes back. What secures the three conditions instead is
-whatever the worker can do under signal asymmetry, intent compression, and opaque mediation. How well she can
-do it is what separates the driver who earns from the identically performing driver who does not.
+worker can hold the platform to, no counterpart who comes back. What secures them instead is
+whatever the worker can do under the form's three structural conditions. How well she can do it is what
+separates the driver who earns from the identically performing driver who does not.
 
 ## 1.5 Contribution
 
