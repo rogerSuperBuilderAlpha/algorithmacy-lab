@@ -74,6 +74,46 @@ def ats_triad_feedback():
     return tpm_from_rules(rules), cm_from_rules(rules)
 
 
+# --------------------------------------------------------------------------------------
+# C. The false dyad: rideshare driver -> platform -> rider
+#    PRESENTS as a driver<->app two-party relationship — the driver only ever touches the
+#    app and can neither see nor choose the rider — yet the rider is causally constitutive
+#    of the platform's dispatch determination. Strict mediator topology (no direct W-C edge).
+#    The whole dyad/triad verdict turns on ONE dependency: whether the dispatch reads C.
+# --------------------------------------------------------------------------------------
+def gig_false_dyad():
+    """Rideshare with the rider constitutive of the determination.
+        W' = NOT S        : the driver's availability is consumed by a dispatch, returns otherwise.
+        S' = W AND C      : the platform dispatches iff a driver is available AND a rider is
+                            waiting — the determination reads BOTH sides.
+        C' = C AND NOT S  : the rider keeps waiting until a dispatch serves the request.
+    The driver and rider never directly interact (no W-C edge); the driver experiences only
+    the app. Is the structure she cannot see irreducible? Compute."""
+    rules = [
+        lambda x: 1 - x[1],            # W' = NOT S
+        lambda x: x[0] & x[2],         # S' = W AND C
+        lambda x: x[2] & (1 - x[1]),   # C' = C AND NOT S
+    ]
+    return tpm_from_rules(rules), cm_from_rules(rules)
+
+
+def gig_dyadic_model():
+    """The SAME situation as a dyadic construct models it: the analyst sees only the visible
+    driver<->app channel and treats the (invisible) rider as non-constitutive, so the dispatch
+    is read as a function of the driver alone.
+        W' = NOT S        : unchanged.
+        S' = W            : dispatch tracks the driver only — the rider is dropped from the
+                            determination (the one edge the dyadic model omits).
+        C' = C AND NOT S  : the rider is still on the interface, but reads nothing into S.
+    Exactly one dependency removed (S no longer reads C). Recompute the verdict."""
+    rules = [
+        lambda x: 1 - x[1],            # W' = NOT S
+        lambda x: x[0],                # S' = W   (rider not constitutive)
+        lambda x: x[2] & (1 - x[1]),   # C' = C AND NOT S
+    ]
+    return tpm_from_rules(rules), cm_from_rules(rules)
+
+
 def report(name, builder, expect):
     tpm, cm = builder()
     print(f"\n### {name}")
@@ -104,7 +144,12 @@ if __name__ == "__main__":
     a = report("A. Chat with a language model (dyadic limit)", chat_dyad, "Φ ≈ 0")
     b1 = report("B1. Résumé -> ATS -> hiring manager (strict bottleneck)", ats_triad_mediator, "Φ ?")
     b2 = report("B2. Résumé -> ATS -> hiring manager (with feedback)", ats_triad_feedback, "Φ ?")
+    c1 = report("C1. Rideshare driver–app–rider (rider constitutive: the FALSE DYAD)", gig_false_dyad, "Φ ?")
+    c2 = report("C2. Same case, dyadic model (rider dropped from determination)", gig_dyadic_model, "Φ ≈ 0")
     print("\n" + "=" * 78)
     print(f"CONTRAST:  dyad Φ = {a:.4f}   |   triad(bottleneck) Φ = {b1:.4f}   |   "
           f"triad(feedback) Φ = {b2:.4f}")
+    print(f"FALSE DYAD:  full triad (rider constitutive) Φ = {c1:.4f}   |   "
+          f"dyadic model (rider dropped) Φ = {c2:.4f}")
+    print("  -> the dyad/triad verdict turns on the single edge S'<-C (does the determination read the unseen third party)")
     print("=" * 78)

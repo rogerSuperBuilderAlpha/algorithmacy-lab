@@ -34,6 +34,34 @@ manager's configured profile is active). Sweep of the committed determination:
 | `f = W` (ignores the manager) | 0.000 | 0.000 | none | no — reduces |
 | `f = C` (ignores the applicant) | 0.000 | 0.000 | none | no — reduces |
 
+### C. The false dyad — rideshare driver → app → rider
+
+The classifier's hardest direction: a form that **presents to the worker as a two-party relationship
+with an app** — the driver only ever touches the platform and can neither see nor choose the rider —
+yet is causally a three-party system, because the rider is constitutive of the dispatch the platform
+commits while never directly interacting with the driver (strict mediator topology, no W–C edge). The
+mechanism: `W' = ¬S` (the driver's availability is consumed by a dispatch), `S' = W ∧ C` (the platform
+dispatches iff an available driver *and* a waiting rider), `C' = C ∧ ¬S` (the rider keeps waiting until
+served).
+
+| model of the same situation | structure | result |
+|---|---|---|
+| **Full triad** — rider constitutive | `S' = W ∧ C` (dispatch reads both sides) | Φ = **2.000** at state (1,1,1); MIP = **{W, SC}**; mean 0.400 over 5 reachable states. **Triad.** |
+| **Dyadic model** — rider dropped | `S' = W` (dispatch reads the driver only) | Φ = **0.000** at every state; MIP = none. **Dyad.** |
+
+The two models differ by **exactly one dependency** — whether the platform's determination reads the
+unseen third party. Everything else (`W' = ¬S`, `C' = C ∧ ¬S`, the topology the driver experiences) is
+identical. So the dyad/triad verdict is carried by the single edge `S ← C`: include the constitutive
+rider and the structure the driver cannot see scores Φ = 2.0 (irreducible triad); model only the
+visible driver↔app channel and it collapses to Φ = 0 (a dyad). **This is the false dyad made
+computable**: a dyadic construct — algorithmic competence, human-app interaction — scores the case 0
+because it omits C, while the case *is* an irreducible triad. The misclassification is the modeling
+choice, and Φ catches it.
+
+(The companion direction, the **false triad** — three parties present, structure still factors — is the
+party-ignoring mediator in §2.B: `f = W` or `f = C` → Φ = 0 despite three visible parties. The
+classifier cuts against appearance both ways.)
+
 ## 3. The central finding — eliminating the dyad maximizes irreducibility
 
 The 3-party *topology* alone does not make a form triadic. Irreducibility turns on (a) **the
