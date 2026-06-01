@@ -26,6 +26,15 @@ The empirical paper has a rigid, conventional structure (unlike the bespoke Pape
 
 - **~8,000 words**, with **Methods + Results ≈ half** the paper (the center of gravity of a quantitative
   paper is the design and the numbers, not the framing).
+
+  *(Harness `w8k0fxi0c`, completed: the **AMJ Style Guide (2021)** confirms IMRaD, short-noun-phrase
+  headings, an abstract under 200 words, first person and active voice, references/tables/figures at the
+  end, and two-decimal statistics — and the harness **refuted** any rigid heading-level scheme and any
+  mandatory titled "outlier" section, so neither is required. For the large-N honesty point, the citable
+  anchors are **Lin, Lucas & Shmueli (2013), "Too Big to Fail: Large Samples and the p-Value Problem,"
+  Information Systems Research 24(4), DOI 10.1287/isre.2013.0480** and **Bettis et al. (2016), SMJ** —
+  a p-value converges to zero as N grows, so report effect sizes; cite Lin et al. where the draft says
+  significance is uninformative at N≈193k. Kincaid et al. 1975 confirmed OA, DOI 10.21236/ADA006655.)*
 - **Hypotheses fixed before computation** (state H1 and the informative structural H0); call it "claims
   fixed before computation," not "pre-registered," absent a registry record.
 - **Report effect size, not just significance** — with large N everything is significant; report the
