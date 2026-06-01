@@ -1,55 +1,78 @@
-# Paper 3 — execution plan (experiment: calibrated baseline scale)
+# Paper 3 — execution plan (a portable model for analyzing organizations)
 
-**Mode:** experiment. **Status:** scaffolded, not executed. **Dependency:** the calibration dataset (Chicago
-TNC) — deferred per user decision; sort out when we reach this paper.
+**Mode:** model + empirical calibration. **Status:** reframed and scaffolded; not executed.
 
-## What it does
+## What it does (reframed)
 
-Compute Φ (Paper 2's instrument) across a sample of real platforms under the **pre-registered
-state-individuation rule applied uniformly**, then regress Φ against an **observed coordination outcome** to
-calibrate a difficulty scale. The score is a property of the **platform, not the person** (the
-readability-analogy: a text-difficulty score is validated against measured comprehension and says nothing
-about a given reader). The matched supply-side (individual) scale is later work.
+Turn Paper 2's instrument into a **portable model for analyzing organizations**: map any organization's
+coordination to a W–S–C application-layer system, individuate states by the pre-registered rule, compute
+Φ, and place the organization on one scale of triadic demand. Calibrate the scale against an observed
+coordination outcome in **one data-rich anchor domain** (rideshare pooling), then **place a typology of
+organization types** on the validated scale. The score is a property of the **coordination form, not the
+person** (the readability analogy). The matched supply-side (individual) scale is later work.
+
+## Decisions taken (this session)
+
+- **Scale design: anchor-then-place** (author).
+- **Dataset scope: one anchor domain, model applied broadly** (delegated to me) — Chicago TNC Trips as the
+  single calibration weight, with the paper's reach being the organization typology, per the author's
+  steer to "explore different types of organizations and come up with a model to analyze them."
+- **Anchor outcome:** to confirm with author — candidate is pooled-match success (P(pooled | shared
+  authorized) by area×time), with detour cost as a robustness companion. (The Chicago Trips data is
+  completed-trips only: no cancellations or wait times, so the pooling outcome is the clean available one.)
 
 ## How "our process" maps here
 
-- **The load-bearing decision is the calibration anchor** (outline §3), the way the state alphabet was
-  Paper 2's. Name the observed coordination outcome Φ is validated against, and argue the dataset choice
-  (large-scale interaction records with outcomes, not self-report).
-- **Reuse the instrument** from Paper 2 (`phi_instrument.py`) and the repo's `proxy_audit.exact_phi`; apply
-  the *same* individuation rule to every platform so scores are comparable.
-- **Robustness/honesty battery** as in the IIT experiments: granularity discipline from the tractability
-  limit (small, principled state alphabets); seeds where any step is stochastic; report what is dropped.
-- **Validation is feature-tied-to-outcome**, per the readability precedent (successful difficulty
-  instruments are feature measures tied to outcomes, not deep models of internal structure).
+- **The model (§3) is the contribution; the anchor (§4) only licenses the scale.** Keep them distinct.
+- **Reuse the instrument** from Paper 2 (`phi_instrument.py`, `proxy_audit.exact_phi`); apply the *same*
+  individuation rule, node convention, and granularity discipline to every organization so scores compare.
+- **Validate the anchor on real outcomes** (feature-tied-to-outcome, per the readability precedent), not a
+  deep model of internal structure.
+- **Compute, don't assert:** every Φ is computed and reproducible; the anchor fit is reported, not claimed.
+- **Honesty battery:** uniform granularity; report what is coarsened; the human-mediated contrast class as
+  the falsification test (model measures triadic structure, not algorithms).
+
+## The organization typology (proposal — refine with author)
+
+Four classes spanning mediated coordination, each modeled as W–S–C and scored by Φ:
+
+1. **Dyadic baselines** (floor, Φ ≈ 0): direct two-party exchange; chat with a language model.
+2. **Algorithmic platforms**: rideshare (solo & pooled), food delivery, freelance marketplace, crowdwork.
+3. **Algorithmic-institutional gatekeepers**: applicant-tracking/hiring, content moderation, credit/benefit
+   scoring.
+4. **Human-mediated intermediaries** (the contrast class): a court (judge between parties), a healthcare
+   staffing agency (worker–facility), a broker (buyer–seller). Same determination structure, human in the
+   mediator seat — the test that the model measures coordination, not algorithms.
+
+## Steps (execution)
+
+1. **Confirm the typology** (author) and the anchor outcome.
+2. **Model each organization type** as a W–S–C application-layer system; pre-register each determination
+   structure before computing (as Paper 2 did for its worked examples).
+3. **Compute Φ per organization** via `phi_instrument.py`, uniform rule.
+4. **Acquire/curate the Chicago TNC anchor**; define the pooled-match outcome; compute Φ for solo vs
+   pooled configurations and regress Φ against the outcome by area×time. Report the anchor fit.
+5. **Place the typology** on the calibrated scale; report the spread; foreground the human-mediated
+   contrast.
+6. **Write the paper** (intro → unit → model → anchor → baseline-across-types → contribution), de-slop
+   pass, consolidated bibliography pass (as Papers 1–2).
 
 ## Dependency to resolve at execution time
 
-- **Chicago TNC dataset:** the public Chicago Data Portal "Transportation Network Providers — Trips" data
-  carries coordination outcomes at scale. When we reach this paper: confirm access, pick the observed
-  outcome (e.g. match/cancellation/wait-time behaviour that varies with coordination difficulty), and wire
-  the validation regression. (User chose to decide this when we reach Paper 3.)
-
-## Steps (deferred to an execution session)
-
-1. Specify the platform sample and each platform's application-layer state alphabet under the fixed rule.
-2. Compute Φ per platform via `phi_instrument.py`.
-3. Acquire/curate the calibration dataset; define the observed coordination outcome.
-4. Regress platform Φ against the outcome; report the scale and the anchor fit.
-5. Report the baseline: the dyadic-limit case low, the irreducible cases high (as Paper 2 predicts); the
-   spread establishes that coordination forms differ in measurable triadicity and that the difference
-   predicts how coordination goes.
-6. Write the paper (intro → unit-is-the-platform → calibration anchor → method → results → contribution).
+- **Chicago TNC dataset:** public Chicago Data Portal "Transportation Network Providers — Trips" (2018–
+  present). Confirm access path; the outcome is built from `Shared Trip Authorized` + `Trips Pooled` +
+  trip seconds/miles. No cancellations/wait in the data — pooling is the clean coordination outcome.
 
 ## Deliverable and scope
 
-A **calibrated, portable instrument** for placing any coordination form on a scale of triadic demand,
-validated against observed coordination. Names the matched supply-side individual scale, additional
-calibration domains, and the within-platform variance puzzle (Paper 1's opening) as the program the baseline
-opens. Concede the single-domain generalization limit in one sentence and return: a calibrated scale in one
-domain is the precondition for porting the method.
+A **portable, calibrated model** for placing any organization's coordination on a scale of triadic demand,
+validated against an observed outcome in one domain and demonstrated across a typology of organization
+types. Names the matched supply-side individual scale, additional calibration domains, and the within-form
+variance puzzle (Paper 1's opening) as the program it opens. Concede the single-anchor-domain limit in one
+sentence and return: a calibrated scale in one domain is the precondition for porting the model.
 
-## Load-bearing decision
+## Load-bearing decisions
 
-The **calibration anchor** (and the dataset that supplies it). Not a doubt about algorithmacy — a question
-about the instrument that measures it; naming it is what makes the result defensible.
+The **calibration anchor** (Claim C) and the **model's portability across organization types** (Claim B).
+Not doubts about algorithmacy — questions about the instrument that measures it; naming them is what makes
+the result defensible.
