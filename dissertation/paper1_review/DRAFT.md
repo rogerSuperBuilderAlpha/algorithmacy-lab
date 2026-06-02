@@ -24,13 +24,13 @@ city, and the system can still pay them differently. This is not a claim about d
 a claim about hidden differences in how hard they work. In a ride-hailing model calibrated to real operating
 data, small changes in the matching parameters distribute "vastly different incomes to identically performing
 drivers," producing a system whose payouts are effectively unpredictable from the driver's side (Bokányi &
-Hannák, 2020). It is worth marking, first, the part of platform-earnings variance that *is* already named, so
-the puzzle is not confused with it. The largest field study of the gig gender gap decomposes a roughly seven
+Hannák, 2020). Part of the variance in platform earnings already has a name, and the puzzle should not be
+confused with it. The largest field study of the gig gender gap decomposes a roughly seven
 percent gap among more than a million Uber drivers entirely into accumulated experience, where and when people
-drive, and driving speed — conventional human-capital and labor-supply differences that would generate earnings
+drive, and driving speed. These are conventional human-capital and labor-supply differences that would generate earnings
 dispersion under any piece rate, algorithm or no algorithm, with no role for discrimination by the platform or
-its customers (Cook, Diamond, Hall, List, & Oyer, 2021). That component is explained, and it is not our
-subject. What the field's constructs cannot name is the *residual* divergence — the spread that remains among
+its customers (Cook, Diamond, Hall, List, & Oyer, 2021). That component is explained, and it is not the
+subject here. What the field's constructs cannot name is the *residual* divergence, the spread that remains among
 workers who do not differ on experience, location, or effort and yet still fare differently through the same
 system. Interview evidence across seven platforms isolates exactly this residual: worker satisfaction,
 autonomy, and earnings "vary significantly across and within platforms," and the two dominant explanations for
@@ -44,7 +44,7 @@ relation to an algorithm (computer-mediated communication competence, human-mach
 communication, the algorithmic and AI literacies, algorithm sensemaking) was built around a worker on one side
 and a system on the other. None of it describes a worker coordinating, through a third party that pursues its
 own objectives, with another human party on the far side of that system. That worker is exercising a
-competency the field has not named. We name it here, specify it, and place it among its neighbors.
+competency the field has not named. This review names the competency, specifies it, and places it among its neighbors.
 
 ### 1.1 Common ground
 
@@ -113,7 +113,7 @@ workers. None of them says what the worker does back.
 A new coordination form has produced a new competency before, and not as a refinement of the old one. Before
 writing, communication was face-to-face: speaker and listener in one place at one time, with social memory
 holding what the moment let go. The people who did this work well, the storytellers and orators and settlers
-of disputes, were practicing what we now call oracy. Writing changed what communication could do. An author
+of disputes, were practicing what is now called oracy. Writing changed what communication could do. An author
 reached a reader through a medium that conveyed without acting, and the two need never share a place, a time,
 or even a kind: an institution could be the author and a population the reader. The competency this demanded
 was not better oracy. It was reading, writing, citing, archiving, working through documents whose authors were
@@ -186,7 +186,7 @@ The existing constructs sit at the wrong level to answer the question. The compe
 sender-medium-receiver picture; it stretches to richer media, more agentic machines, and more sophisticated
 readers, but not to a worker facing a third party with its own objectives on both sides of her. The structural
 accounts (Stark & Pais, 2020; Stark & Vanden Broeck, 2024; Latour, 2005; Simmel, 1950) and the empirical ones
-(Curchod et al., 2020; Rahman, 2021) work a level above the individual. We specify the construct that level
+(Curchod et al., 2020; Rahman, 2021) work a level above the individual. This review specifies the construct that level
 leaves out: a definition shaped to the form, three dimensions drawn from its three conditions, a discriminant
 position among the existing constructs, and a place in a nomological network of antecedents and outcomes.
 These are the four elements of construct clarity (Suddaby, 2010) on which any later measurement depends.
@@ -208,11 +208,11 @@ form. Section 5 makes the historical and theoretical case for naming a new compe
 old one. Section 6 specifies algorithmacy to construct-clarity discipline, and Sections 7 and 8 lay out the
 program it opens and the stakes of getting the vocabulary right.
 
-[^term]: We call algorithmacy a *competency* throughout. The term keeps the construct legible to the
+[^term]: This review calls algorithmacy a *competency* throughout. The term keeps the construct legible to the
     literatures it must be distinguished from (CMC competence, algorithmic competency) and to the
-    construct-clarity and measurement program the later papers build on it. We think *sensibility* is the
-    better long-run name for a capacity exercised under opacity and constant change, and we are developing the
-    construct in that direction; we retain *competency* here to stay within the standard.
+    construct-clarity and measurement program the later papers build on it. *Sensibility* is the
+    better long-run name for a capacity exercised under opacity and constant change, and the dissertation develops the
+    construct in that direction. *Competency* stays here to keep within the standard.
 
 
 ---
@@ -221,11 +221,11 @@ program it opens and the stakes of getting the vocabulary right.
 ## 2. Method of the review
 
 A review is primary inquiry that uses prior research as its data, and its quality turns on fitting the method
-to the purpose rather than to a familiar format (Kunisch, Denyer, Bartunek, Menz, & Cardinal, 2023). Our
-purpose is to recover a competency-level construct the existing literature has not named. That purpose sets
+to the purpose rather than to a familiar format (Kunisch, Denyer, Bartunek, Menz, & Cardinal, 2023). The
+purpose here is to recover a competency-level construct the existing literature has not named. That purpose sets
 the rest: an integrative rather than an aggregative method, a corpus anchored at the competency level, a
 search organized by construct rather than keyword, and a synthesis that reads each construct against a shared
-structural form. We specify each choice below in enough detail to audit without a PRISMA protocol.
+structural form. This section specifies each choice in enough detail to audit without a PRISMA protocol.
 
 ### 2.1 Scope and corpus
 
@@ -239,10 +239,10 @@ mechanism workers operate inside but does not constitute the corpus on its own, 
 sits one level above competency and cannot answer the worker-level question. Anchoring the corpus at the
 competency level is the methodological commitment from which everything else in this section follows.
 
-We read integratively because the contribution requires it, not because the genre is fashionable. Torraco
-(2005, 2016) names two warrants for an integrative review; ours is the second, a new and emerging topic that
+The review reads integratively because the contribution requires it, not because the genre is fashionable. Torraco
+(2005, 2016) names two warrants for an integrative review, and this review fits the second, a new and emerging topic that
 needs initial conceptualization rather than a mature literature that needs reorganizing. A systematic review
-aggregates findings across studies that share a unit of analysis. Our question is whether constructs built
+aggregates findings across studies that share a unit of analysis. The question here is whether constructs built
 around a sender-medium-receiver assumption can extend to a form they were not built for, and aggregation
 cannot answer it. Only reading the constructs against the form they share, and naming the one the form
 requires, can. This is the clarifying-constructs function, and it should deliver something beyond a review
@@ -259,17 +259,17 @@ organization studies, where the object is the form workers operate inside (Stark
 Broeck, 2024). The gap shows only across the three fields, because no one of them produced the construct this
 paper specifies.
 
-Specifying a construct demands a different corpus than aggregating findings about one. Ours is built around
+Specifying a construct demands a different corpus than aggregating findings about one. The corpus here is built around
 the seven existing competency constructs in their specified form, where the conceptual commitments are
 explicit: CMC competence, human-machine communication, AI-mediated communication, algorithmic literacy, AI
 literacy, algorithm sensemaking, and algorithmic competency. For each construct the corpus admits three
 strata: its foundational specification, the work that has carried it since, and the empirical applications
 that bear on whether it extends to the triad. Inclusion within each construct's stratum was bounded by
-saturation — sources were added until the construct's specification and its boundary cases stopped changing —
+saturation. Sources were added until the construct's specification and its boundary cases stopped changing,
 and the criterion within those bounds was bearing on the dyadic-inheritance argument. Together with the second
 corpus described next, the consolidated bibliography totals 221 peer-reviewed sources. Because the unit of the
-review is the construct rather than the finding, this is a specification corpus, not a meta-analytic sample,
-and we make no completeness claim over the empirical platform-work literature — only over the conceptual
+review is the construct rather than the finding, this is a specification corpus, not a meta-analytic sample.
+The review makes no completeness claim over the empirical platform-work literature, only over the conceptual
 specifications of the seven constructs, which are finite and individually named in §4.
 
 A second corpus, assembled separately, supplies the structural and historical foundations the competency
@@ -280,7 +280,7 @@ what an active third party does that a passive channel does not (Latour, 2005). 
 Vanden Broeck specify the platform as a form whose principle is co-optation, beside hierarchy, market, and
 network (Stark & Pais, 2020; Stark & Vanden Broeck, 2024). The literacy-studies tradition supplies the
 historical case that earlier coordination shifts produced new competencies rather than refinements of the
-old. We assemble this corpus selectively, to anchor the structural argument, not to review it in its own
+old. This second corpus is assembled selectively, to anchor the structural argument, not to review it in its own
 right.
 
 Several large literatures fall outside both corpora, for the same reason. Empirical platform-work studies
@@ -292,7 +292,7 @@ competency-level construct.
 
 ### 2.2 Search and selection
 
-We searched construct by construct, because that is what the review needs to recover. A topic search for
+The search ran construct by construct, because that is what the review needs to recover. A topic search for
 "platform work" or "algorithmic management" returns the empirical literature that motivates the puzzle, not
 the conceptual lineages where competency constructs live. A construct search for each of the seven labels
 returns the foundational specifications and the work that has carried each since. Constructs travel through
@@ -301,40 +301,40 @@ keyword search for "communication competence" never recovers the dyadic inherita
 competence, human-machine communication, and AI-mediated communication across the changes each successor
 made. A construct search does.
 
-We ran database searches across Web of Science, Business Source Complete, ABI/INFORM, and Google Scholar for
+Database searches ran across Web of Science, Business Source Complete, ABI/INFORM, and Google Scholar for
 each construct label, then traced citations forward and backward from each foundational paper. Forward tracing
 recovered the work that has carried each construct since; backward tracing recovered the parent tradition each
 inherited from. The searches ran through April 2026 with no language or publication-form limits, though the
 resulting corpus is overwhelmingly English-language and journal-published, which reflects where the constructs
-were built rather than a limit we imposed.
+were built rather than a limit the review imposed.
 
-Whether the gap is real or just an artifact of where we stopped can be checked against the field's own recent
+Whether the gap is real or just an artifact of where the search stopped can be checked against the field's own recent
 stocktaking. Other authors have reviewed the adjacent literatures repeatedly and at scale while this construct
 was forming: systematic and integrative reviews of algorithmic management in the gig economy (Kadolkar et al.,
 2024; Keegan & Meijerink, 2025), a multilevel review of AI in organizations (Bankins et al., 2024), an
 integrative review of algorithm literacy (Gagrčin et al., 2024), and a socio-technical review of the
-platform-mediated gig economy (Dedema & Rosenbaum, 2024). Each surveys a literature next to the one we
-synthesize, and none names a worker coordinating with another human party through an algorithm that pursues
+platform-mediated gig economy (Dedema & Rosenbaum, 2024). Each surveys a literature next to the one this review
+synthesizes, and none names a worker coordinating with another human party through an algorithm that pursues
 its own objectives across both. The axis is absent from the very syntheses that would have surfaced it, so the
 saturation is not a stopping artifact.
 
 A source enters the corpus when it bears on whether the competency constructs can extend to triadic
 algorithmic coordination, and it stays out when it does not. Two kinds enter: sources that specify a
-competency-level construct, which make up the landscape we test for completeness, and sources that supply the
+competency-level construct, which make up the landscape the review tests for completeness, and sources that supply the
 structural or historical foundations the argument needs. Two kinds stay out. Empirical applications that do
 not extend a construct's conceptual domain stay out, because no number of findings changes what a construct
-can accommodate at its unit of analysis. Label-uses that commit to no definition we can engage stay out,
+can accommodate at its unit of analysis. Label-uses that commit to no definition the review can engage stay out,
 because there is nothing specified to engage. Trustworthy synthesis at *Annals* asks for pre-specified
 inclusion criteria, recorded screening decisions, and a clear line between study quality and methodological
-fit, and we apply each (Rousseau, 2024).
+fit, and this review applies each (Rousseau, 2024).
 
 ### 2.3 Synthesis approach
 
 The synthesis is conceptual because the gap is conceptual (Cronin & George, 2023). Aggregation across studies
-that share a unit of analysis cannot tell us whether constructs from outside that unit can reach it, and our
-question is exactly whether constructs built for sender-medium-receiver coordination can reach a form built
-around a third party with its own objectives across both parties. So we read each construct against the
-structural form it shares with the others and mark where it stops short of the triad.
+that share a unit of analysis cannot say whether constructs from outside that unit can reach it, and the
+question here is exactly whether constructs built for sender-medium-receiver coordination can reach a form built
+around a third party with its own objectives across both parties. The synthesis reads each construct against the
+structural form it shares with the others and marks where it stops short of the triad.
 
 The logic that carries the rest of the paper is dyadic inheritance. The constructs that descend from CMC
 competence (human-machine communication, AI-mediated communication, the literacy frameworks, algorithm
@@ -459,7 +459,7 @@ The directional relationship between sensemaking and algorithmacy is an empirica
 ### 4.7 The shared structural limit
 The constructs reviewed share a commitment that links them across the changes each made to its predecessors: each locates a worker on one side of a medium, channel, partner, system, knowledge object, or cognitive process, and none locates her on one side of a third party that acts on inputs from both her and the human party she is trying to reach. The commitment is the dyadic ontology each construct inherited from its parent tradition. CMC competence and its descendants in human-machine communication and AI-mediated communication carry the sender-channel-receiver frame forward from interpersonal communication theory (Spitzberg, 2006); the channel becomes a partner (Guzman & Lewis, 2020) or the AI takes a sender-side production role (Hancock et al., 2020), and the dyad survives each repositioning. The algorithmic and AI literacies carry forward the user-reads-system axis from media and digital literacy (Dogruel et al., 2022; Long & Magerko, 2020). Algorithmic competency carries forward the user-system axis from sociotechnical systems theory (Zhou et al., 2025), and algorithm sensemaking carries forward Weick's enactment-theoretic actor making sense of an environment (Möhlmann et al., 2023). None of the parent traditions theorized a third party that simultaneously sits between two human parties, accepts inputs from both, and pursues objectives that span both.
 
-Each parent tradition did real work at its own unit of analysis. What separates these constructs from triadic coordination is not a deficiency to be refined away but a difference of domain: a construct's domain is fixed by its unit of analysis, and refining a dyadic construct yields a more sophisticated dyadic measure, never a triadic one (Larsen & Bong, 2016). The limit holds across the whole cluster because the unit does.
+Each parent tradition did real work at its own unit of analysis. What separates these constructs from triadic coordination is a difference of domain, not a deficiency to be refined away. A construct's domain is fixed by its unit of analysis, and refining a dyadic construct yields a more sophisticated dyadic measure, never a triadic one (Larsen & Bong, 2016). The limit holds across the whole cluster because the unit does.
 
 Where Section 2 checked that the recent reviews had not simply missed the axis in their search, the point returns here at the level of theoretical synthesis: the field's most recent integrative frameworks leave it out. Hillebrand, Raisch, and Schad (2025) integrate human-AI collaboration and algorithmic management along context, agency, interaction, and outcome, reading the two literatures as accounts of how humans use AI to manage and how humans are managed by AI. Murray, Rhymer, and Sirmon (2021) and Raisch and Krakowski (2021) extend conjoined-agency theory into organizational routines and work out the automation-augmentation paradox in manager-machine terms. None of the three names the worker-counterpart axis through the algorithm as a distinct object. The everyday case of platform work, where the worker coordinates with a counterpart through algorithmic management without managing it or being managed by it, has no place in the field's leading frames.
 
@@ -503,7 +503,7 @@ Section 3 took co-optation as the platform's operating principle, following Star
 
 The platform-form analysis is not freshly invented. Organization theorists have distinguished forms beyond hierarchy and market for several decades, and Stark's own earlier work on heterarchy is a direct predecessor of the platform analysis. Heterarchy names the form in which multiple ranking principles operate simultaneously, and the dissonance between them is constitutive of the form's adaptability rather than a malfunction to be eliminated (Stark, 2009). The post-bureaucratic organization literature anchored the structural-distinctness claim through analyses of knowledge-intensive work organizations whose coordination requirements bureaucratic principles could not meet (Heckscher & Donnellon, 1994). Battilana and Lee (2014) documented hybrid organizations that cross institutional boundaries and operate through principles the hierarchy-market dichotomy did not anticipate. The platform analysis is the most recent move in this longer trajectory, and the recency does not make it ungrounded. It stands on a longer record of post-Powell scholarship that established the conditions under which a new organizational mechanism could be theoretically distinguished.
 
-Other candidates for a fourth coordination mechanism beyond hierarchy, market, and network have been proposed, and the platform is structurally distinct from each. The community mechanism described in organization theory operates through trust, reciprocity, and shared identity, where members enter through invitation and ongoing obligation rather than through systems that route their activity through a principal's optimization (Adler, 2001). The gift economy operates through reciprocal obligation across time, where each party gives in expectation that future return will balance the present asymmetry (Mauss, 1925/1990). The platform mechanism does not generate reciprocal obligation among its participants, and its asymmetry does not balance over time but accumulates through the platform's continuous extraction of surplus. Commons-based peer production names a mechanism organized through voluntary coordination on shared resources without the principal-agent structure markets and firms require (Benkler, 2006). The platform is principal-agent in its most asymmetric form, and the principal's authored objectives do not correspond to a shared resource the contributors collectively produce. The platform-cooperative literature proposes a structural alternative within the platform form by collectivizing the principal position (Scholz & Schneider, 2017). The proposal confirms by contrast that the platform mechanism's distinctness lies in the principal's structural position rather than in the mediation technology itself: cooperative reform changes who occupies the principal corner without changing the underlying triangular geometry. None of the alternatives reproduces the platform's specific structural features by combining or modifying its operating principles.
+Other candidates for a fourth coordination mechanism beyond hierarchy, market, and network have been proposed, and the platform is structurally distinct from each. The community mechanism described in organization theory operates through trust, reciprocity, and shared identity, where members enter through invitation and ongoing obligation rather than through systems that route their activity through a principal's optimization (Adler, 2001). The gift economy operates through reciprocal obligation across time, where each party gives in expectation that future return will balance the present asymmetry (Mauss, 1925/1990). The platform mechanism does not generate reciprocal obligation among its participants. Its asymmetry does not balance over time; it accumulates through the platform's continuous extraction of surplus. Commons-based peer production names a mechanism organized through voluntary coordination on shared resources without the principal-agent structure markets and firms require (Benkler, 2006). The platform is principal-agent in its most asymmetric form, and the principal's authored objectives do not correspond to a shared resource the contributors collectively produce. The platform-cooperative literature proposes a structural alternative within the platform form by collectivizing the principal position (Scholz & Schneider, 2017). The proposal confirms by contrast that the platform mechanism's distinctness lies in the principal's structural position rather than in the mediation technology itself: cooperative reform changes who occupies the principal corner without changing the underlying triangular geometry. None of the alternatives reproduces the platform's specific structural features by combining or modifying its operating principles.
 
 Power asymmetries are not contingent on platform policy. They are constitutive of how a platform works as an organization. A platform sits in a structural position from which it can extract economic surplus from both sides of the market while exposing both sides to risks the platform itself does not bear, and the asymmetry holds across particular policy choices rather than depending on them (Cutolo & Kenney, 2021). Platform regulation has to operate under conditions where the platform's technical architecture forecloses the regulatory levers that worked under earlier coordination arrangements; algorithmic management is unilateral, opaque, and constantly adaptive in ways the regulatory state is built to handle in retrospect rather than in real time (Gillespie, 2010, 2018). The empirical record across multiple platform contexts converges on the same structural reading: the dependency relations a platform produces among providers and users are features of how the platform itself is built, not features of how a particular platform happens to be governed (Curchod, Patriotta, Cohen, & Neysen, 2020). The political economy of platform capitalism specifies how the platform's operation produces particular economic relations the older mechanisms did not (Srnicek, 2017). The platform's distinctness at the organizational level is the foundation algorithmacy builds on at the worker level.
 
@@ -512,7 +512,7 @@ What a platform does to its participants and what its participants have to do to
 ### 5.4 What competency-level theory adds
 Network theory describes the geometry of how parties connect and the dynamics of how connection produces flow. Form theory describes the governance arrangements through which coordination works and the institutional supports each arrangement does or does not have. Neither describes what an individual has to do to coordinate inside a particular geometry under a particular form.
 
-One inference has to be made explicit here, because the structural claim does not license the competency claim on its own. That a coordination form is structurally irreducible — that it does not factor into the pairwise dealings of its parties — is a fact about the form, not yet a fact about what it demands of a participant. The bridge is this: in a form that *does* factor, a worker can coordinate one hop at a time, reasoning only about the party she deals with directly, because the local picture is the whole picture; the competency such a form demands is the dyadic one the existing constructs already measure. A form that does not factor denies her that economy. Because no part of the structure is self-contained, she must reason forward through a determination she does not control to a counterpart she cannot see, and backward from the determination to what produced it, holding the three-party structure in view at once — a demand a one-hop, dyadic competency does not meet. Structural irreducibility is therefore not merely correlated with a new competency; it is what makes the dyadic competency *insufficient*, and that insufficiency is the specific thing algorithmacy names. (Paper 2 makes the irreducibility itself computable, so that the antecedent of this inference can be checked rather than asserted; Paper 1's claim is the competency consequent.) This is the one place the argument must not be left to analogy, and we do not leave it there. The capacity an individual has to act inside a platform belongs to a different level of analysis from the geometry of platform networks or the governance principles of platform organizations. Each level needs its own vocabulary. The historical and philosophical accounts of ontological transitions supply the structural argument for why the algorithmic shift requires its own competency vocabulary; they do not supply the vocabulary itself. The operational specification is the work of competency literatures. What those literatures got right at the level of architecture is what algorithmacy preserves: an individual capacity, measurable, anchored in a specific structural setting. What changes is the setting, not the architecture.
+One inference has to be made explicit here, because the structural claim does not license the competency claim on its own. A coordination form that is structurally irreducible does not factor into the pairwise dealings of its parties. That is a fact about the form, not yet a fact about what it demands of a participant. The bridge runs as follows. In a form that *does* factor, a worker can coordinate one hop at a time, reasoning only about the party she deals with directly, because the local picture is the whole picture. The competency such a form demands is the dyadic one the existing constructs already measure. A form that does not factor denies her that economy. Because no part of the structure is self-contained, she must reason forward through a determination she does not control to a counterpart she cannot see, and backward from the determination to what produced it, holding the three-party structure in view at once. A one-hop, dyadic competency does not meet that demand. Structural irreducibility is therefore more than a correlate of a new competency. It is what makes the dyadic competency *insufficient*, and that insufficiency is the specific thing algorithmacy names. Paper 2 makes the irreducibility itself computable, so that the antecedent of this inference can be checked rather than asserted; Paper 1's claim is the competency consequent. The argument must not rest on analogy at this one point, and it does not. The capacity an individual has to act inside a platform belongs to a different level of analysis from the geometry of platform networks or the governance principles of platform organizations. Each level needs its own vocabulary. The historical and philosophical accounts of ontological transitions supply the structural argument for why the algorithmic shift requires its own competency vocabulary; they do not supply the vocabulary itself. The operational specification is the work of competency literatures. What those literatures got right at the level of architecture is what algorithmacy preserves: an individual capacity, measurable, anchored in a specific structural setting. The setting changes; the architecture stays.
 
 Competency theory in organization studies works by specifying what an individual has to know, perceive, and do to function effectively in a particular structural position. The literacy-as-competency tradition is the historical model. Specifying what literate individuals do in literate environments has supported pedagogical and assessment infrastructures across multiple national contexts, and the portability of the specification follows from operating at the level of measurable individual capacity rather than at the level of cultural form (Kress, 2003; Street, 2003). The dynamic-capabilities tradition operates the same logic at the organizational level: specifying what firms do under conditions of environmental change has produced a measurable construct nested in a structural account of the firm's environment (Teece, Pisano, & Shuen, 1997). Algorithm sensemaking operates the same logic at the level of platform-worker cognition: specifying what individual workers do under algorithmic management has produced a measurable foothold for the structural account of how platforms operate (Möhlmann, Salge, & Marabelli, 2023). Each of these literatures got the operational specification right at its own structural unit. Algorithmacy adds the operational specification at the structural unit a platform actually imposes: triadic, adaptive, opaque, and authored by a corporate principal.
 
