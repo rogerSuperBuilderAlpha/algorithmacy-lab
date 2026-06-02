@@ -109,3 +109,34 @@ competency — is asserted via analogy and runs against the control literature i
 Everything else is a cluster of concrete, fixable errors (C–H) that should be corrected regardless.
 The reviewers' hostility is calibrated to a viva; the core objections (A, B, B′, C, D) are real and
 would be raised by a real committee.
+
+## Response applied (revision pass)
+Direction chosen: strengthen Paper 1 now, revise to completion.
+
+- **A (deferred existence test):** §6 now states a provisional, defeasible four-question decision
+  criterion an analyst can run (assign-vs-choose; commit-vs-carry; kept-apart-vs-route-around;
+  interest-vs-neutral); the rigorous version stays Paper 2's. Abstract, §1, §3.4 reconciled from
+  "cannot answer / does not supply a method" to "answers in part / supplies a provisional one."
+- **B (structure→competency leap):** §3.9 adds a control-vs-competency passage confronting Rahman,
+  Cameron, Rosenblat & Stark, and Kellogg, Valentine & Christin (now cited) head-on — control and
+  competency are not exclusive; the documented variation in how workers adapt is the competency.
+- **B′ (two-sided markets absent):** §3.8 adds two-sided-market theory (Rochet & Tirole; Hagiu &
+  Wright) and the worker-platform-customer triangle (Vallas & Schor) as the near-neighbor that does
+  capture the structure — at the level of platform economics, not worker competency. Used to ground
+  the irreducibility claim in cross-side externalities, reducing the Peirce dependence.
+- **C (r=.17 category error):** removed from §4.7 and §5.4; replaced with an honest statement that
+  no study has measured the two competencies together, so the association must be estimated.
+- **D (scope conditions vs definition):** §5.2 adds the second-human-party requirement and drops the
+  overstated "jointly sufficient and individually necessary," handling the opaque-recommender case.
+- **E (AI-MC concession):** §4.3 reframed — the dyad/triad distinction tracks constitution, not
+  body-count; AI-MC has three bodies but reduces to the pair, so it stays a moderated dyad.
+- **F (sensemaking inside/outside):** resolved consistently as an antecedent/input across §5.4, §5.5.
+- **G (market-maker accountability contradiction):** §5.2 example swapped to algorithmic credit
+  scoring (cleanly non-gig, genuinely opaque); §3.5 accountability claim rescoped from "no outside
+  body" to "reasoning sealed to the parties"; Peirce downgraded from proof to conceptual shape.
+- **H (Curchod source mismatch):** §5.2 ATS cite changed Curchod (eBay study) → Pasquale (black box).
+
+Deliberately NOT changed (judged overreach): the Latour stable-type/unstable-relation "contradiction"
+(answerable, and §3.2 already states it); the claim that the seriality is "decorative" (it carries the
+generalization arc). The Simmel "all four roles at once" overreach and the literacy-seating clarity
+point remain minor open items, not addressed in this pass.
