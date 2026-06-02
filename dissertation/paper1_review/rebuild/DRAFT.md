@@ -89,6 +89,12 @@ The arc does not need the strong cognitive reading. The claim that carries the s
 
 Print sharpens the point rather than softening it. The shift from script to print was in kind but slow. Eisenstein traced how print brought standardization and a cumulative, correctable record that manuscript culture could not sustain (Eisenstein, 1979). Johns answered that print's reliability was not automatic. It was constructed, policed, contested, and won over a long time against forgery and piracy (Johns, 1998). Both accounts describe a real transition that was neither sudden nor universal. That is what makes the print case useful. An in-kind transition need not be abrupt, automatic, or evenly spread to count as a transition in kind. The move from literacy to algorithmacy can be gradual and contested and still be a move to a new coordination form, on the same terms that the move into print was.
 
+A criterion sits behind the phrase "in kind." A coordination shift is a change in kind when the new form is irreducible to the old, when the coordination it produces cannot be recovered by composing the relations of the prior form. The move from literacy to algorithmacy is in kind in this sense. A mediated triad does not reduce to a moderated dyad with an extra step, because removing the third party leaves no residual two-party relation to recover. Section 3.7 grounds that irreducibility in Peirce. The practical signature of the irreducible form is the set of three conditions Section 5.2 develops: signal asymmetry, intent compression, and opaque mediation. Where all three hold, the third party constitutes the coordination rather than carrying it, and the shift into that form is a shift in kind. Deciding the question for a particular network, by a procedure an analyst can run, is the work Paper 2 takes up. This paper fixes the criterion and leaves its measurement to the next.
+
+A different objection rejects the series itself. Its strongest form comes from the critics of the "great divide" between orality and literacy, who hold that ordering oral and literate cultures into a sequence imposes a clean break on a continuum and ranks whole peoples by a standard outside them (Finnegan, 1988; Halverson, 1992; Collins & Blot, 2003). Goody and Watt's early claim that literacy carried broad cognitive and social consequences is the position those critics formed against (Goody & Watt, 1963). An oracy-literacy-algorithmacy series that worked the same way would inherit the same fault.
+
+The series here does not work that way. It orders coordination forms by their structure. It does not rank people by sophistication, and it carries no claim that a later form improves on an earlier one or that the people inside it are more capable. Oracy did not end when writing spread. Direct speech remains the form most coordination takes, and the moderated dyad and the mediated triad run alongside it rather than replacing it. The series is a typology of forms that coexist, ordered by when each became a common condition of work, and a single worker moves among all three in a day. Read this way it makes no developmental or evaluative claim, and the great-divide objection does not reach it.
+
 ### 3.5 Platform work is a mediated triad
 
 The mediated triad is not a thought experiment. It is the documented structure of platform work, and this subsection reads that record for structure alone. The record shows what the form is. It is not used here to make any claim about what the form produces.
@@ -213,6 +219,8 @@ Opaque mediation is the condition that the rules the mediator applies are unpubl
 
 The domain is the structure, not the technology. A coordination form is in the domain because its third party mediates, whether that party is a dispatch algorithm, a hiring system, or a ranking engine. A form is out of the domain when its third party only moderates, however computational and sophisticated it is. Where the third party is transparent and accountable through prior coordination mechanisms, such as a published procedure or an enforceable contract, the worker faces a different form and a different competency governs it. The exclusion of the moderated dyad is what gives the construct an edge.
 
+A case from outside platform labor shows the three conditions holding together. An electronic exchange matches two traders who never meet, and it is the algorithmic successor to the human market maker that ran the older triadic form. Each condition holds in turn. Signal asymmetry: a trader sees her fills and the quotes the venue chooses to show, not the state of the order book, the routing of her order, or the priority rules that decide whether she trades at all. Intent compression: she cannot state what she wants in her own terms. She must encode it as an order of a permitted type, a limit or a market or a stop, and whatever the order type cannot carry is discarded before the venue acts. Opaque mediation: the matching logic, the routing, and the latency that decide her execution are partly undisclosed and change without notice, and a strategy tuned to last quarter's microstructure misfires under this quarter's. The counterpart on the far side is another trader the venue selects, reached only through a determination the venue commits on terms that serve the venue. No party to it is a gig worker, and the form is a mediated triad.
+
 ### 5.3 Dimensions
 
 Three capacities compose algorithmacy. Each follows from one scope condition, and each aims at the counterpart, not the system. The dimensions are formative, not reflective (Edwards, 2001; Jarvis, MacKenzie, & Podsakoff, 2003; Law, Wong, & Mobley, 1998; MacKenzie, Podsakoff, & Jarvis, 2005). They are not interchangeable indicators of one underlying trait that causes them all. They are distinct capacities that together constitute the competency, and a worker can be strong in one and weak in another. The competency is the composite they form.
@@ -235,7 +243,7 @@ The first axis separates algorithmacy from algorithm sensemaking. Sensemaking is
 
 The second axis separates algorithmacy from the algorithmic competency of Zhou, Lei, Liu, Huang, and Hou (2025). That construct is a competency, which makes it closer than sensemaking on the first axis. It differs on a second axis: its theoretical object. Algorithmic competency is a worker-to-system relation, a dyad. Its dimensions target the worker's relation to the algorithm, the understanding of it, the acceptance of it, the leveraging of it, the working around it. The counterpart enters only as a downstream outcome that the algorithm rewards. Algorithmacy is a worker-to-counterpart relation reached through the system, a triad. The two constructs differ by what the form introduces, the constitutive third party between two human principals, not by what the worker does cognitively.
 
-The discriminant strategy is empirical, and the review names it without running it. Place algorithmacy items alongside the nearest neighbors and test for incremental validity above all of them. The neighbors are Spitzberg's measure of computer-mediated-communication competence, the twelve-item algorithmic-competency scale of Zhou and colleagues, the algorithmic-awareness scale of Zarouali, Boerman, and de Vreese (2021), and an operationalized measure of algorithm sensemaking. The outcomes are coordination outcomes with the counterpart: counterpart ratings, repeat-coordination success, and dispute rates. The target pattern is low-to-moderate correlation with each neighbor combined with significant incremental prediction of the coordination outcomes. The neighboring literature reports correlations in that range for related associations, near r equals .17, which is the magnitude the discriminant test should expect to see and to clear (Zhou et al., 2025).
+The discriminant strategy is empirical, and the review names it without running it. Place algorithmacy items alongside the nearest neighbors and test for incremental validity above all of them. The neighbors are Spitzberg's measure of computer-mediated-communication competence, the twelve-item algorithmic-competency scale of Zhou and colleagues, the algorithmic-awareness scale of Zarouali, Boerman, and de Vreese (2021), and an operationalized measure of algorithm sensemaking. Algorithm sensemaking has no published scale, so the discriminant test has to build one, and its shape is specifiable now. The measure follows Möhlmann's structure. It needs items for focused enactment, where the worker tries actions on the system and reads what comes back. It needs items for the modes of selection, the signals she treats as informative. And it needs items for the sources of retention, the working model she keeps and reuses. Existing validated instruments supply the starting material. The awareness scale of Zarouali, Boerman, and de Vreese (2021) captures whether a worker registers that an algorithm is acting at all, and the folk-theory measures built around the algorithmic imaginary capture the content of the model she holds (Bucher, 2017; DeVito, 2021). Sensemaking measured this way is the process of arriving at that model, and the full item development belongs to the measurement program. The outcomes are coordination outcomes with the counterpart: counterpart ratings, repeat-coordination success, and dispute rates. The target pattern is low-to-moderate correlation with each neighbor combined with significant incremental prediction of the coordination outcomes. The neighboring literature reports correlations in that range for related associations, near r equals .17, which is the magnitude the discriminant test should expect to see and to clear (Zhou et al., 2025).
 
 ### 5.5 Nomological net
 
@@ -300,6 +308,8 @@ Carlile, P. R. (2004). Transferring, translating, and transforming: An integrati
 
 Carolus, A., Koch, M. J., Straka, S., Latoschik, M. E., & Wienrich, C. (2023). MAILS — Meta AI Literacy Scale: Development and testing of an AI literacy questionnaire. *Computers in Human Behavior: Artificial Humans, 1*(2), 100014. https://doi.org/10.1016/j.chbah.2023.100014
 
+Collins, J., & Blot, R. K. (2003). *Literacy and literacies: Texts, power, and identity*. Cambridge University Press.
+
 Cotter, K. (2019). Playing the visibility game: How digital influencers and algorithms negotiate influence on Instagram. *New Media & Society, 21*(4), 895–913. https://doi.org/10.1177/1461444818815684
 
 Cotter, K., & Reisdorf, B. C. (2020). Algorithmic knowledge gaps: A new horizon of (digital) inequality. *International Journal of Communication, 14*, 745–765.
@@ -326,9 +336,13 @@ Etzrodt, K. (2022). The third party will make a difference — A study on the im
 
 Faraj, S., Pachidi, S., & Sayegh, K. (2018). Working and organizing in the age of the learning algorithm. *Information and Organization, 28*(1), 62–70. https://doi.org/10.1016/j.infoandorg.2018.02.005
 
+Finnegan, R. (1988). *Literacy and orality: Studies in the technology of communication*. Basil Blackwell.
+
 Goodchild, B., & Ferrari, E. (2024). Intermediaries and mediators: An actor-network understanding of online property platforms. *Housing Studies, 39*(1), 102–123. https://doi.org/10.1080/02673037.2021.2015297
 
 Goody, J. (1986). *The logic of writing and the organization of society*. Cambridge University Press.
+
+Goody, J., & Watt, I. (1963). The consequences of literacy. *Comparative Studies in Society and History, 5*(3), 304–345. https://doi.org/10.1017/S0010417500001730
 
 Graff, H. J. (1979). *The literacy myth: Literacy and social structure in the nineteenth-century city*. Academic Press.
 
@@ -337,6 +351,8 @@ Gran, A.-B., Booth, P., & Bucher, T. (2021). To be or not to be algorithm aware:
 Guzman, A. L. (2020). Ontological boundaries between humans and computers and the implications for human-machine communication. *Human-Machine Communication, 1*, 37–54. https://doi.org/10.30658/hmc.1.3
 
 Guzman, A. L., & Lewis, S. C. (2020). Artificial intelligence and communication: A Human-Machine Communication research agenda. *New Media & Society, 22*(1), 70–86. https://doi.org/10.1177/1461444819858691
+
+Halverson, J. (1992). Goody and the implosion of the literacy thesis. *Man, 27*(2), 301–317. https://doi.org/10.2307/2804055
 
 Hancock, J. T., Naaman, M., & Levy, K. (2020). AI-mediated communication: Definition, research agenda, and ethical considerations. *Journal of Computer-Mediated Communication, 25*(1), 89–100. https://doi.org/10.1093/jcmc/zmz022
 
