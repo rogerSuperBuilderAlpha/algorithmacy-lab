@@ -140,3 +140,86 @@ Deliberately NOT changed (judged overreach): the Latour stable-type/unstable-rel
 (answerable, and §3.2 already states it); the claim that the seriality is "decorative" (it carries the
 generalization arc). The Simmel "all four roles at once" overreach and the literacy-seating clarity
 point remain minor open items, not addressed in this pass.
+
+---
+
+# Round 2 — full panel on the revised draft
+
+Same three reviewers, fresh/cold read of the revised draft. Verdicts: **methodologist
+pass-with-heavy-revisions; domain expert reject; theory skeptic pass-with-major-revisions (close to
+reject).** Improved from round 1 (2 reject → 1 reject), and all three now name genuine strengths
+(the charitable-extension test, the §4 foreclosures, the §3.8 two-sided-market honesty, the §5.2
+second-party condition, the §4.8 Weberian boundary).
+
+## What the round-1 fixes accomplished
+- The r=.17 category error is GONE — no reviewer raised it.
+- The Curchod mis-cite is GONE.
+- The scope-condition/definition contradiction is largely resolved; the new second-party requirement
+  is now cited by the theory skeptic as "the paper's best falsifiability move."
+
+## The fix that backfired (same failure mode as the market-maker)
+- **The credit-scoring example (gap-2 swap) trips the paper's own scope condition.** US consumer
+  credit scoring is heavily regulated (ECOA/FCRA mandate adverse-action notices and reason codes) —
+  i.e. "transparent and accountable through prior coordination mechanisms," which §5.2 says puts a
+  form OUTSIDE the domain. Two non-gig examples in a row (market-maker, then credit scoring) have an
+  accountability/regulation structure that contradicts the opacity premise. The lesson is itself
+  informative: clean, genuinely-unaccountable, discrete-counterpart non-gig cases are hard to find.
+
+## The convergent core (this is thesis-level, not sentence-level)
+Two independent panels now converge on one thing, and the round-1 revision SURFACED it rather than
+created it:
+
+1. **The structure is conceded.** §3.8 now honestly says two-sided-market theory and platform
+   sociology already own the constitutive, self-interested, parties-apart, irreducible structure.
+   So the novelty rests ENTIRELY on the worker-side competency — yet the abstract, title, and the
+   oracy→literacy→algorithmacy arc still foreground the structure as the contribution. Domain
+   expert and theory skeptic both rate this FATAL: the "mediated triad" reads as the known platform
+   triangle relabeled, and the paper admits it.
+
+2. **The competency is not yet shown distinct from compliance/sensemaking (the real problem, B).**
+   The §3.9 control passage answers "control and competency aren't exclusive," but the evidence it
+   marshals (Bishop algorithmic gossip, Bucher imaginary, Beane shadow learning, Cameron adaptation
+   variation) is all worker-vis-à-vis-SYSTEM — which by the paper's own taxonomy belongs to algorithm
+   sensemaking / Zhou, not to algorithmacy. And the §4.8 "compliance side" concession lets "reaching
+   the counterpart" collapse into "pleasing the platform" (the platform rewards counterpart-facing
+   behavior). "Variation in adaptation ⟹ a competency" is circular. Both panels' single most damaging
+   objection.
+
+3. **Discriminant from Zhou is deferred, not demonstrated.** Larsen & Bong's "demonstrate, don't
+   assert" — the methodologist wants a CONCEPTUAL discriminant now (an observable case algorithmacy
+   classifies differently from Zhou's competency), not a promised future correlation.
+
+4. **The §6 four-question criterion restates the §3.1 definition.** It decides the undisputed cases
+   (Uber: yes on all four) and admits it punts the disguised cases — the ones that motivate the
+   paper — to Paper 2. So it does not make the distinction operable in THIS paper. Theory skeptic
+   rates this FATAL (tied).
+
+## Concrete, actionable bugs (fixable without touching the thesis)
+- Credit-scoring example trips §5.2 (regulated/accountable). Needs a genuinely-opaque,
+  discrete-counterpart, low-formal-accountability non-gig case — or honest acknowledgment that the
+  cleanest cases are gig.
+- **Two contradictory opacity rationales:** §3.5 says opacity is strategic anti-gaming ("transparency
+  would let applicants game them"); §3.6/§5.1 say it is emergent ("operational autonomy outruns its
+  authors' ability to predict"). These are different and partly incompatible. Reconcile.
+- **A "mediated" terminological jingle:** the field's "mediated communication" / "AI-mediated
+  communication" uses "mediated" = channel, which is the paper's "moderate" sense. The paper's
+  "mediated triad" uses "mediated" = constitutive (Latour). The keystone term collides with
+  established usage and is never flagged. At minimum, flag it.
+- **Simmel "all four roles at once and opaquely"** overreaches; soften to "unobservable / may shift,"
+  so the parties cannot tell which posture governs a given determination.
+- **Latour type-invariant underspecified:** the moderate/mediate "type" needs a stated type-level
+  invariant (constitutes-vs-carries) to answer the stable-type/fluid-line charge cleanly.
+
+## Adjudication
+The improvement is real, and the concrete bugs are fixable. But the two FATAL-rated objections are
+thesis-level, not bugs: (1) the structure is genuinely not novel (the paper now concedes it), so the
+contribution must be reframed onto the competency; and (2) the competency is not yet shown to be a
+distinct COORDINATIVE achievement rather than relabeled compliance/sensemaking. Both reviewers'
+prescribed fix is the same: concede the structure openly, drop or earn the epochal literacy arc, and
+do the conceptual work of distinguishing the competency from compliance — which directly touches the
+dissertation's core thesis ("The Transition to Algorithmacy," the oracy→literacy→algorithmacy spine).
+That is a strategic decision for the author, not a copy-edit. Also note: some objections (deferred
+measurement = "self-sealing / unfalsifiable in this paper") are the inherent vulnerability of any
+construct paper that separates clarity from validation, which Suddaby sanctions; a sufficiently
+hostile panel will always raise them. The point of diminishing returns on sentence-level fixes has
+been reached. The remaining moves are a framing decision and one genuine evidentiary problem.
