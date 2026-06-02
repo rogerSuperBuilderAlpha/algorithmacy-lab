@@ -20,16 +20,19 @@ Communication theory has measured how a worker engages an algorithmic system; it
 ## 1. Introduction
 
 Hold two rideshare drivers at the same skill and the same effort, put them on the same platform in the same
-city, and the system will still pay them differently. This is not a claim about discrimination, and it is not
+city, and the system can still pay them differently. This is not a claim about discrimination, and it is not
 a claim about hidden differences in how hard they work. In a ride-hailing model calibrated to real operating
 data, small changes in the matching parameters distribute "vastly different incomes to identically performing
 drivers," producing a system whose payouts are effectively unpredictable from the driver's side (Bokányi &
-Hannák, 2020). The largest field study of platform earnings finds the same divergence: across more than a
-million Uber drivers, a roughly seven percent gender earnings gap resolves entirely into where and when people
-drive, how much experience they have accumulated, and how fast they drive, with no role for discrimination by
-the platform or its customers (Cook, Diamond, Hall, List, & Oyer, 2021). The gap is real, and something the
-drivers do in relation to the system produces it. The study measures the residue but cannot name the activity.
-Interview evidence across seven platforms reaches the same point from the other side: worker satisfaction,
+Hannák, 2020). It is worth marking, first, the part of platform-earnings variance that *is* already named, so
+the puzzle is not confused with it. The largest field study of the gig gender gap decomposes a roughly seven
+percent gap among more than a million Uber drivers entirely into accumulated experience, where and when people
+drive, and driving speed — conventional human-capital and labor-supply differences that would generate earnings
+dispersion under any piece rate, algorithm or no algorithm, with no role for discrimination by the platform or
+its customers (Cook, Diamond, Hall, List, & Oyer, 2021). That component is explained, and it is not our
+subject. What the field's constructs cannot name is the *residual* divergence — the spread that remains among
+workers who do not differ on experience, location, or effort and yet still fare differently through the same
+system. Interview evidence across seven platforms isolates exactly this residual: worker satisfaction,
 autonomy, and earnings "vary significantly across and within platforms," and the two dominant explanations for
 platform outcomes, precarity and algorithmic control, cannot account for the within-platform spread, because
 both predict that workers in the same position will have the same experience (Schor, Attwood-Charles, Cansoy,
@@ -259,11 +262,15 @@ paper specifies.
 Specifying a construct demands a different corpus than aggregating findings about one. Ours is built around
 the seven existing competency constructs in their specified form, where the conceptual commitments are
 explicit: CMC competence, human-machine communication, AI-mediated communication, algorithmic literacy, AI
-literacy, algorithm sensemaking, and algorithmic competency. Across the three fields it holds [N — to be
-finalized from the screening log] peer-reviewed sources. Each construct enters through its foundational
-specification, the work that has carried it since, and the empirical applications that bear on whether it
-extends. Saturation within each family bounded inclusion; bearing on the dyadic-inheritance argument set the
-criterion within those bounds.
+literacy, algorithm sensemaking, and algorithmic competency. For each construct the corpus admits three
+strata: its foundational specification, the work that has carried it since, and the empirical applications
+that bear on whether it extends to the triad. Inclusion within each construct's stratum was bounded by
+saturation — sources were added until the construct's specification and its boundary cases stopped changing —
+and the criterion within those bounds was bearing on the dyadic-inheritance argument. Together with the second
+corpus described next, the consolidated bibliography totals 221 peer-reviewed sources. Because the unit of the
+review is the construct rather than the finding, this is a specification corpus, not a meta-analytic sample,
+and we make no completeness claim over the empirical platform-work literature — only over the conceptual
+specifications of the seven constructs, which are finite and individually named in §4.
 
 A second corpus, assembled separately, supplies the structural and historical foundations the competency
 argument leans on. Simmel's account of triadic geometry, and Krackhardt's recovery of it for organizational
@@ -503,7 +510,9 @@ Power asymmetries are not contingent on platform policy. They are constitutive o
 What a platform does to its participants and what its participants have to do to coordinate inside it are different questions. The structural account answers the first question and leaves the second open. The platform is hierarchy, market, network, or something else, and the answer at that level is something else. The answer does not say what an individual driver must actually do when the matching algorithm is opaque, the rules of evaluation change without notice, and the counterpart reads the same algorithm differently than she does. Refining the structural account at its own level cannot generate the worker-level account, and specifying the worker-level account presupposes the structural account already in place. Recent work from inside the same author network as the algorithm-sensemaking program has begun explicit three-party theorizing at the participant level, framing platform settings as drawing on human drivers, human passengers, and algorithms that regulate their interactions, and analyzing how a collective of algorithms delegates to drivers and riders alike through complex interactions among multiple algorithms and many humans (Stelmaszak, Möhlmann, & Sørensen, 2025). The territory is recognized as theoretically open at the participant level. Algorithmacy is the worker-level complement the structural account presupposes but does not provide.
 
 ### 5.4 What competency-level theory adds
-Network theory describes the geometry of how parties connect and the dynamics of how connection produces flow. Form theory describes the governance arrangements through which coordination works and the institutional supports each arrangement does or does not have. Neither describes what an individual has to do to coordinate inside a particular geometry under a particular form. The capacity an individual has to act inside a platform belongs to a different level of analysis from the geometry of platform networks or the governance principles of platform organizations. Each level needs its own vocabulary. The historical and philosophical accounts of ontological transitions supply the structural argument for why the algorithmic shift requires its own competency vocabulary; they do not supply the vocabulary itself. The operational specification is the work of competency literatures. What those literatures got right at the level of architecture is what algorithmacy preserves: an individual capacity, measurable, anchored in a specific structural setting. What changes is the setting, not the architecture.
+Network theory describes the geometry of how parties connect and the dynamics of how connection produces flow. Form theory describes the governance arrangements through which coordination works and the institutional supports each arrangement does or does not have. Neither describes what an individual has to do to coordinate inside a particular geometry under a particular form.
+
+One inference has to be made explicit here, because the structural claim does not license the competency claim on its own. That a coordination form is structurally irreducible — that it does not factor into the pairwise dealings of its parties — is a fact about the form, not yet a fact about what it demands of a participant. The bridge is this: in a form that *does* factor, a worker can coordinate one hop at a time, reasoning only about the party she deals with directly, because the local picture is the whole picture; the competency such a form demands is the dyadic one the existing constructs already measure. A form that does not factor denies her that economy. Because no part of the structure is self-contained, she must reason forward through a determination she does not control to a counterpart she cannot see, and backward from the determination to what produced it, holding the three-party structure in view at once — a demand a one-hop, dyadic competency does not meet. Structural irreducibility is therefore not merely correlated with a new competency; it is what makes the dyadic competency *insufficient*, and that insufficiency is the specific thing algorithmacy names. (Paper 2 makes the irreducibility itself computable, so that the antecedent of this inference can be checked rather than asserted; Paper 1's claim is the competency consequent.) This is the one place the argument must not be left to analogy, and we do not leave it there. The capacity an individual has to act inside a platform belongs to a different level of analysis from the geometry of platform networks or the governance principles of platform organizations. Each level needs its own vocabulary. The historical and philosophical accounts of ontological transitions supply the structural argument for why the algorithmic shift requires its own competency vocabulary; they do not supply the vocabulary itself. The operational specification is the work of competency literatures. What those literatures got right at the level of architecture is what algorithmacy preserves: an individual capacity, measurable, anchored in a specific structural setting. What changes is the setting, not the architecture.
 
 Competency theory in organization studies works by specifying what an individual has to know, perceive, and do to function effectively in a particular structural position. The literacy-as-competency tradition is the historical model. Specifying what literate individuals do in literate environments has supported pedagogical and assessment infrastructures across multiple national contexts, and the portability of the specification follows from operating at the level of measurable individual capacity rather than at the level of cultural form (Kress, 2003; Street, 2003). The dynamic-capabilities tradition operates the same logic at the organizational level: specifying what firms do under conditions of environmental change has produced a measurable construct nested in a structural account of the firm's environment (Teece, Pisano, & Shuen, 1997). Algorithm sensemaking operates the same logic at the level of platform-worker cognition: specifying what individual workers do under algorithmic management has produced a measurable foothold for the structural account of how platforms operate (Möhlmann, Salge, & Marabelli, 2023). Each of these literatures got the operational specification right at its own structural unit. Algorithmacy adds the operational specification at the structural unit a platform actually imposes: triadic, adaptive, opaque, and authored by a corporate principal.
 
