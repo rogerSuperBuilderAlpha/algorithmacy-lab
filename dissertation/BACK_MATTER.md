@@ -10,7 +10,7 @@ of the three papers carries its own complete, citation-integrity-verified biblio
 
 - **Chapter 2 (Paper 1)** — "Consolidated bibliography" (the integrative review's full reference list).
 - **Chapter 3 (Paper 2)** — "References" (34 entries; every in-text cite verified, no orphans).
-- **Chapter 4 (Paper 3)** — "References" (22 entries; every in-text cite verified, no orphans).
+- **Chapter 4 (Paper 3)** — "References" (21 entries; every in-text cite verified, no orphans).
 
 The two **framing chapters** cite sparingly, and every framing-chapter citation also appears in the papers'
 bibliographies. For completeness, the framing chapters' references are:
@@ -52,8 +52,11 @@ end to end from the public repository. The instrument and the analysis scripts a
 | Artifact | What it computes |
 |---|---|
 | `dissertation/paper3_baseline/catalog.py` | the complete W–S–C model family — all 16³ = 4,096 three-node wirings plus a 48-wiring higher-order family; exact Φ for each, with structural features; writes `results/catalog.csv`. |
-| `dissertation/paper3_baseline/analyze_catalog.py` | the Φ landscape (the discrete bands), the feature→Φ regression (R² = 0.20), the placement of the organizations, and Figure 4.1 (`results/catalog_landscape.png`). |
-| `dissertation/paper3_baseline/typology_phi.py` | the typology of organizations modeled as application-layer systems; Φ per organization (the five bands); the human-mediated contrast class. |
+| `dissertation/paper3_baseline/analyze_catalog.py` | the Φ landscape (the discrete bands), the feature→Φ regression (R² = 0.20), and Figure 4.1 (`results/catalog_landscape.png`). |
+| `dissertation/paper3_baseline/simulated_orgs.py` | the parametric population of 86 simulated organizations (n = 3–5; mediation regime × determination × back-channel); exact Φ for each; writes `results/simulated_orgs.csv`. |
+| `dissertation/paper3_baseline/analyze_simulated.py` | the population Φ distribution, the design-features OLS (R² = 0.475), the OR-determination magnitude pathology, and the placement of the named organizations (Figure 4.x; `results/simulated_orgs.png`). |
+| `dissertation/paper3_baseline/typology_phi.py` | the typology of named organizations modeled as application-layer systems; Φ per organization (the five bands); the human-mediated contrast class. |
+| `dissertation/paper3_baseline/experiment/sim/coordination_sim.py`, `experiment/analyze.py` | the structure-axis test — non-circular agent-based coordination experiment (frozen a-priori agent rule); strict mediation harder, parity anomalous; `results/sim_*`. |
 
 **Data.** The dissertation's claims use no outside data: every reported Φ value is computed from the model.
 An exploratory analysis against the City of Chicago "Transportation Network Providers — Trips" dataset
