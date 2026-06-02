@@ -49,7 +49,8 @@ end to end from the public repository. The instrument and the analysis scripts a
 | `dissertation/paper2_construct/eliminate_dyad_sweep.py` | the encoding-robustness of the "eliminate-the-dyad" result: the magnitude is non-monotone (no channel 2.0; disjunctive 0.83; conjunctive 6.0; full bypass 0.0), so only the binary endpoint result is claimed |
 | `dissertation/paper2_construct/read_structure_sweep.py` | Φ across read structures with the joint determination fixed: only 22% keep Φ > 0, so a joint determination is necessary but not sufficient (the realistic-feedback reads collapse to 0) |
 | `dissertation/paper2_construct/party_partition.py` | Φ over the complete {W}{S}{C} cut vs the MIP: the complete cut over-calls (positive even for dyads), so the binary verdict is Φ over the minimum-information partition |
-| `dissertation/paper2_construct/phi_vs_separability.py` | the binary Φ verdict vs a cheap factorization/connectivity test over all 4,096 triads: agreement only 57.8%, 1,728 connected-but-Φ=0 forms, 0 reverses — Φ is strictly stronger |
+| `dissertation/paper2_construct/phi_vs_separability.py` | the binary Φ verdict vs a cheap *static* factorization/connectivity test over all 4,096 triads: agreement only 57.8%, 1,728 connected-but-Φ=0 forms, 0 reverses |
+| `dissertation/paper2_construct/dynamical_comparator.py` | the binary Φ verdict vs a *dynamical, state-conditioned* conditional-independence test: agreement 59.6%, 0 reverses, and 456 NON-degenerate forms (incl. a maximally-connected one) where Φ reduces but both cheap tests over-call — Φ is strictly stronger than a dynamical CI test, and the apparatus is not decorative |
 
 **The model family and typology (Chapter 4, Paper 3).** All compute exact Φ and use no outside data.
 

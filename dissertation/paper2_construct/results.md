@@ -118,9 +118,15 @@ magnitude gradient is not claimed.
   1.0), so the complete cut over-calls and is *not* the test. The binary verdict is Φ over the
   minimum-information partition = 0; the MIP is party-respecting (e.g. {W,SC}) but not the complete
   cut. The draft (abstract, §2.2, §5) is corrected to say this.
-- **Φ vs a cheap test — resolved** (`phi_vs_separability.py`). Over all 4,096 triads the binary Φ
-  verdict agrees with a static factorization test only 57.8% of the time; 1,728 forms (42.2%) are
-  connected yet Φ = 0, with 0 reverses — Φ is strictly stronger than a conditional-independence
-  check. Added to the draft as §2.3.
+- **Φ vs the cheap tests, static AND dynamical — resolved** (`phi_vs_separability.py`,
+  `dynamical_comparator.py`). Over all 4,096 triads the binary Φ verdict agrees with a *static*
+  factorization test only 57.8% of the time, and with a *dynamical, state-conditioned*
+  conditional-independence test 59.6% — both with **0 reverses** (Φ never reduces less than the
+  cheap test, only more). The static disagreement set (1,728 connected-but-Φ=0 forms) is 73.6%
+  pinned-constant degeneracy, but **456 non-degenerate forms (11.1% of the family)** remain where
+  both cheap tests over-call triad and exact Φ correctly reduces — including the maximally-connected
+  `W=NOR, S=W∧¬C, C=NAND` (all six edges, no constants, yet Φ=0 at every reachable state, verified).
+  So Φ is strictly stronger than a *dynamical* conditional-independence test, on non-degenerate
+  forms — the apparatus is not a factorization test in disguise and not decorative. Draft §2.3.
 - The continuous-platform hardest case (Uber commits in a stream) — the rule's stress test (§4),
   handed to Paper 3 / the empirical program.
