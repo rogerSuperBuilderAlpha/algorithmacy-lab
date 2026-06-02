@@ -63,7 +63,7 @@ A third element can also *mediate*. A mediating element constitutes the coordina
 
 Algorithmacy does not name the whole class of Latourian mediators. The class is far wider than the construct needs. By Latour's account nearly every transformation in a network is a mediator, since almost nothing transports its inputs untouched. The construct picks out a proper subset: third parties that stand between human principals and pursue objectives of their own, objectives authored elsewhere but operating across both principals at once. A matching system between a driver and a rider is in the subset. A chemical reaction that transforms a reagent is a Latourian mediator and is not. The mediated triad is the subset where the mediator sits between two human parties and commits determinations that span them.
 
-This proper-subset move is also the answer to the charge that Latour already did this. He did not. Latour gave a general property of network transformation. He did not give a competency, and he did not single out the third-party-between-principals case as a structural type with conditions of its own. Algorithmacy takes that subset and raises it to a competency-level concept. The actor-network tradition itself treats the intermediary–mediator line as fluid rather than fixed, and recent work in that tradition reads the same digital systems now as transporting, now as transforming (Wiard & Maréchal, 2022; McStay et al., 2024). The construct depends on that fluidity rather than contradicting it.
+This proper-subset move is also the answer to the charge that Latour already did this. He did not. Latour gave a general property of network transformation. He did not give a competency, and he did not single out the third-party-between-principals case as a structural type with conditions of its own. Algorithmacy takes that subset and raises it to a competency-level concept. The actor-network tradition itself treats the intermediary–mediator line as fluid rather than fixed, and recent work in that tradition reads the same digital systems now as transporting, now as transforming (Goodchild & Ferrari, 2024; McGowan, MacKenzie, & Caliskan, 2024). The construct depends on that fluidity rather than contradicting it.
 
 ### 3.2 The distinction is empirical, and that is the point
 
@@ -270,13 +270,13 @@ The vocabulary the field has for working with algorithms describes a moderated d
 
 ## 8. Bibliography
 
-*Citation-integrity pass pending. Entries marked **[verify]** need their exact volume, pages, or DOI confirmed against the source before submission; the author, year, title, and venue are given at the confidence the rebuild reached.*
+*Citation-integrity pass complete. Every entry was checked against Crossref or the publisher of record. Two rebuild-era placeholders that could not be verified as real publications — "Wiard & Maréchal (2022)" and "McStay et al. (2024)" — were replaced with verified sources that support the same claim (Goodchild & Ferrari, 2024; McGowan, MacKenzie, & Caliskan, 2024).*
 
 Alvesson, M., & Sandberg, J. (2011). Generating research questions through problematization. *Academy of Management Review, 36*(2), 247–271. https://doi.org/10.5465/amr.2009.0188
 
-Anthony, C., Bechky, B. A., & Fayard, A.-L. (2023). "Collaborating" with AI: Taking a system view to explore the future of work. *Organization Science, 34*(5), 1672–1694. https://doi.org/10.1287/orsc.2022.1651 **[verify]**
+Anthony, C., Bechky, B. A., & Fayard, A.-L. (2023). "Collaborating" with AI: Taking a system view to explore the future of work. *Organization Science, 34*(5), 1672–1694. https://doi.org/10.1287/orsc.2022.1651
 
-Bailey, D. E., Faraj, S., Hinds, P. J., Leonardi, P. M., & von Krogh, G. (2022). We are all theorists of technology now: A relational perspective on emerging technology and organizing. *Organization Science, 33*(1), 1–18. https://doi.org/10.1287/orsc.2021.1562 **[verify]**
+Bailey, D. E., Faraj, S., Hinds, P. J., Leonardi, P. M., & von Krogh, G. (2022). We are all theorists of technology now: A relational perspective on emerging technology and organizing. *Organization Science, 33*(1), 1–18. https://doi.org/10.1287/orsc.2021.1562
 
 Beane, M. (2019). Shadow learning: Building robotic surgical skill when approved means fail. *Administrative Science Quarterly, 64*(1), 87–123. https://doi.org/10.1177/0001839217751692
 
@@ -286,7 +286,7 @@ Bowen, M. (1978). *Family therapy in clinical practice*. Jason Aronson.
 
 Bowker, G. C., & Star, S. L. (1999). *Sorting things out: Classification and its consequences*. MIT Press.
 
-Breslin, D., & Bailey, K. (2020). Expanding the conversation through "dialogical" review papers. *International Journal of Management Reviews, 22*(4), 359–362. https://doi.org/10.1111/ijmr.12230 **[verify]**
+Breslin, D., & Bailey, K. (2020). Expanding the conversation through "Debate Essays" and "Review Methodology" papers. *International Journal of Management Reviews, 22*(3), 219–221. https://doi.org/10.1111/ijmr.12234
 
 Bucher, T. (2017). The algorithmic imaginary: Exploring the ordinary affects of Facebook algorithms. *Information, Communication & Society, 20*(1), 30–44. https://doi.org/10.1080/1369118X.2016.1154086
 
@@ -298,7 +298,7 @@ Carlile, P. R. (2002). A pragmatic view of knowledge and boundaries: Boundary ob
 
 Carlile, P. R. (2004). Transferring, translating, and transforming: An integrative framework for managing knowledge across boundaries. *Organization Science, 15*(5), 555–568. https://doi.org/10.1287/orsc.1040.0094
 
-Carolus, A., Koch, M. J., Straka, S., Latoschik, M. E., & Wienrich, C. (2023). MAILS — Meta AI Literacy Scale: Development and testing of an AI literacy questionnaire. *Computers in Human Behavior: Artificial Humans, 1*(2), 100014. https://doi.org/10.1016/j.chbah.2023.100014 **[verify]**
+Carolus, A., Koch, M. J., Straka, S., Latoschik, M. E., & Wienrich, C. (2023). MAILS — Meta AI Literacy Scale: Development and testing of an AI literacy questionnaire. *Computers in Human Behavior: Artificial Humans, 1*(2), 100014. https://doi.org/10.1016/j.chbah.2023.100014
 
 Cotter, K. (2019). Playing the visibility game: How digital influencers and algorithms negotiate influence on Instagram. *New Media & Society, 21*(4), 895–913. https://doi.org/10.1177/1461444818815684
 
@@ -308,7 +308,7 @@ Cronin, M. A., & George, E. (2023). The why and how of the integrative review. *
 
 Curchod, C., Patriotta, G., Cohen, L., & Neysen, N. (2020). Working for an algorithm: Power asymmetries and agency in online work settings. *Administrative Science Quarterly, 65*(3), 644–676. https://doi.org/10.1177/0001839219867024
 
-DeVito, M. A. (2021). Adaptive folk theorization as a path to algorithmic literacy on changing platforms. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 339. https://doi.org/10.1145/3476080 **[verify]**
+DeVito, M. A. (2021). Adaptive folk theorization as a path to algorithmic literacy on changing platforms. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 339. https://doi.org/10.1145/3476080
 
 Dogruel, L., Masur, P., & Joeckel, S. (2022). Development and validation of an algorithm literacy scale for internet users. *Communication Methods and Measures, 16*(2), 115–133. https://doi.org/10.1080/19312458.2021.1968361
 
@@ -322,9 +322,11 @@ Eslami, M., Rickman, A., Vaccaro, K., Aleyasen, A., Vuong, A., Karahalios, K., H
 
 Eslami, M., Karahalios, K., Sandvig, C., Vaccaro, K., Rickman, A., Hamilton, K., & Kirlik, A. (2016). First I "like" it, then I hide it: Folk theories of social feeds. In *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems* (pp. 2371–2382). ACM. https://doi.org/10.1145/2858036.2858494
 
-Etzrodt, K. (2022). The third party will make a difference — A study on the specifics of triadic human-machine communication. *Publizistik, 67*, 575–602. **[verify]**
+Etzrodt, K. (2022). The third party will make a difference — A study on the impact of dyadic and triadic social situations on the relationship with a voice-based personal agent. *International Journal of Human-Computer Studies, 168*, 102901. https://doi.org/10.1016/j.ijhcs.2022.102901
 
 Faraj, S., Pachidi, S., & Sayegh, K. (2018). Working and organizing in the age of the learning algorithm. *Information and Organization, 28*(1), 62–70. https://doi.org/10.1016/j.infoandorg.2018.02.005
+
+Goodchild, B., & Ferrari, E. (2024). Intermediaries and mediators: An actor-network understanding of online property platforms. *Housing Studies, 39*(1), 102–123. https://doi.org/10.1080/02673037.2021.2015297
 
 Goody, J. (1986). *The logic of writing and the organization of society*. Cambridge University Press.
 
@@ -350,19 +352,19 @@ Jarvis, C. B., MacKenzie, S. B., & Podsakoff, P. M. (2003). A critical review of
 
 Johns, A. (1998). *The nature of the book: Print and knowledge in the making*. University of Chicago Press.
 
-Karizat, N., Delmonaco, D., Eslami, M., & Andalibi, N. (2021). Algorithmic folk theories and identity: How TikTok users co-produce knowledge of identity and engage in algorithmic resistance. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 305. https://doi.org/10.1145/3476046 **[verify]**
+Karizat, N., Delmonaco, D., Eslami, M., & Andalibi, N. (2021). Algorithmic folk theories and identity: How TikTok users co-produce knowledge of identity and engage in algorithmic resistance. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 305. https://doi.org/10.1145/3476046
 
-Koch, M. J., Carolus, A., Wienrich, C., & Markus, A. (2024). [Short-form Meta AI Literacy Scale]. **[verify — full coordinates needed]**
+Koch, M. J., Carolus, A., Wienrich, C., & Latoschik, M. E. (2024). Meta AI literacy scale: Further validation and development of a short version. *Heliyon, 10*(21), e39686. https://doi.org/10.1016/j.heliyon.2024.e39686
 
-Koponen, J., Turunen, T., Laajalahti, A., Julkunen, S., & Spitzberg, B. H. (2025). [Managerial technology-mediated communication competence]. **[verify — full coordinates needed]**
+Koponen, J., Turunen, M., Laajalahti, A., Julkunen, S., & Spitzberg, B. H. (2025). Managers' technology-mediated communication competence: A theoretical framework. *Journal of Business and Technical Communication, 39*(3), 338–397. https://doi.org/10.1177/10506519251326558
 
-Larsen, K. R., & Bong, C. H. (2016). A tool for addressing construct identity in literature reviews and meta-analyses. *MIS Quarterly, 40*(3), 529–551. https://doi.org/10.25300/MISQ/2016/40.3.01 **[verify]**
+Larsen, K. R., & Bong, C. H. (2016). A tool for addressing construct identity in literature reviews and meta-analyses. *MIS Quarterly, 40*(3), 529–551. https://doi.org/10.25300/MISQ/2016/40.3.01
 
 Latour, B. (2005). *Reassembling the social: An introduction to actor-network-theory*. Oxford University Press.
 
 Law, K. S., Wong, C.-S., & Mobley, W. H. (1998). Toward a taxonomy of multidimensional constructs. *Academy of Management Review, 23*(4), 741–755. https://doi.org/10.5465/amr.1998.1255636
 
-Lebovitz, S., Levina, N., & Lifshitz-Assaf, H. (2021). Is AI ground truth really true? The dangers of training and evaluating AI tools based on experts' know-what. *MIS Quarterly, 45*(3), 1501–1525. https://doi.org/10.25300/MISQ/2021/16564 **[verify]**
+Lebovitz, S., Levina, N., & Lifshitz-Assaf, H. (2021). Is AI ground truth really true? The dangers of training and evaluating AI tools based on experts' know-what. *MIS Quarterly, 45*(3), 1501–1526. https://doi.org/10.25300/MISQ/2021/16564
 
 Lomborg, S., & Kapsch, P. H. (2020). Decoding algorithms. *Media, Culture & Society, 42*(5), 745–761. https://doi.org/10.1177/0163443719855301
 
@@ -370,9 +372,9 @@ Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design con
 
 MacKenzie, S. B., Podsakoff, P. M., & Jarvis, C. B. (2005). The problem of measurement model misspecification in behavioral and organizational research and some recommended solutions. *Journal of Applied Psychology, 90*(4), 710–730. https://doi.org/10.1037/0021-9010.90.4.710
 
-McStay, A., et al. (2024). [Intermediary/mediator fluidity in actor-network accounts]. **[verify — full coordinates needed]**
+McGowan, A., MacKenzie, D., & Caliskan, K. (2024). Intermediaries, mediators and digital advertising's tensions. *Journal of Cultural Economy, 17*(5), 513–531. https://doi.org/10.1080/17530350.2024.2360919
 
-Mieczkowski, H., Hancock, J. T., Naaman, M., Jung, M., & Hohenstein, J. (2021). AI-mediated communication: Language use and interpersonal effects in a referential communication task. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW1), Article 17. https://doi.org/10.1145/3449091 **[verify]**
+Mieczkowski, H., Hancock, J. T., Naaman, M., Jung, M., & Hohenstein, J. (2021). AI-mediated communication: Language use and interpersonal effects in a referential communication task. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW1), Article 17. https://doi.org/10.1145/3449091
 
 Möhlmann, M., Salge, C. A. de L., & Marabelli, M. (2023). Algorithm sensemaking: How platform workers make sense of algorithmic management. *Journal of the Association for Information Systems, 24*(1), 35–64. https://doi.org/10.17705/1jais.00774
 
@@ -412,7 +414,7 @@ Seaver, N. (2017). Algorithms as culture: Some tactics for the ethnography of al
 
 Simmel, G. (1950). *The sociology of Georg Simmel* (K. H. Wolff, Ed. & Trans.). Free Press. (Original work published 1908.)
 
-Simsek, Z., Fox, B., & Heavey, C. (2023). Systematicity in organizational research literature reviews: A framework and assessment. *Organizational Research Methods, 26*(2), 292–321. https://doi.org/10.1177/10944281211008652 **[verify]**
+Simsek, Z., Fox, B., & Heavey, C. (2023). Systematicity in organizational research literature reviews: A framework and assessment. *Organizational Research Methods, 26*(2), 292–321. https://doi.org/10.1177/10944281211008652
 
 Spitzberg, B. H. (2006). Preliminary development of a model and measure of computer-mediated communication (CMC) competence. *Journal of Computer-Mediated Communication, 11*(2), 629–666. https://doi.org/10.1111/j.1083-6101.2006.00030.x
 
@@ -422,9 +424,9 @@ Star, S. L., & Strauss, A. (1999). Layers of silence, arenas of voice: The ecolo
 
 Stark, D., & Pais, I. (2020). Algorithmic management in the platform economy. *Sociologica, 14*(3), 47–72. https://doi.org/10.6092/issn.1971-8853/12221
 
-Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory, 5*(2), 1–24. https://doi.org/10.1177/26317877241257213 **[verify title]**
+Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory, 5*(2), 1–24. https://doi.org/10.1177/26317877241257213
 
-Stelmaszak, M., Möhlmann, M., & Sørensen, C. (2025). [Title to confirm]. *MIS Quarterly, 49*(1), 305–330. https://doi.org/10.25300/MISQ/2024/17911 **[verify]**
+Stelmaszak, M., Möhlmann, M., & Sørensen, C. (2025). When algorithms delegate to humans: Exploring human-algorithm interaction at Uber. *MIS Quarterly, 49*(1), 305–330. https://doi.org/10.25300/MISQ/2024/17911
 
 Street, B. V. (1984). *Literacy in theory and practice*. Cambridge University Press.
 
@@ -437,8 +439,6 @@ Torraco, R. J. (2005). Writing integrative literature reviews: Guidelines and ex
 Vee, A. (2017). *Coding literacy: How computer programming is changing writing*. MIT Press.
 
 Weber, M. (1978). *Economy and society: An outline of interpretive sociology* (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1922.)
-
-Wiard, V., & Maréchal, N. (2022). [Intermediary/mediator distinction in actor-network analyses of platforms]. **[verify — full coordinates needed]**
 
 Williamson, O. E. (1975). *Markets and hierarchies: Analysis and antitrust implications*. Free Press.
 
