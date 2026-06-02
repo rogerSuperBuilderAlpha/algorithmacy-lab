@@ -33,14 +33,14 @@ PAPER 3 CATALOG ANALYSIS — 4144 distinct forms (4096 triad, 48 higher-order)
   by mediator function (only forms where the mediator reads both parties):
       S=  XNOR:  n= 256  meanΦ=0.8493  maxΦ=2.0000
       S=   XOR:  n= 256  meanΦ=0.8493  maxΦ=2.0000
+      S=  A|~B:  n= 256  meanΦ=0.5350  maxΦ=6.0000
       S=   NOR:  n= 256  meanΦ=0.5350  maxΦ=6.0000
       S=    OR:  n= 256  meanΦ=0.5350  maxΦ=6.0000
-      S=  ~A|B:  n= 256  meanΦ=0.5350  maxΦ=6.0000
+      S=  A&~B:  n= 256  meanΦ=0.5350  maxΦ=6.0000
       S=   AND:  n= 256  meanΦ=0.5350  maxΦ=6.0000
-      S=  A|~B:  n= 256  meanΦ=0.5350  maxΦ=6.0000
       S=  NAND:  n= 256  meanΦ=0.5350  maxΦ=6.0000
-      S=  W&~C:  n= 256  meanΦ=0.5350  maxΦ=6.0000
-      S=  ~W&C:  n= 256  meanΦ=0.5350  maxΦ=6.0000
+      S=  ~A&B:  n= 256  meanΦ=0.5350  maxΦ=6.0000
+      S=  ~A|B:  n= 256  meanΦ=0.5350  maxΦ=6.0000
 
   linear model  max Φ ~ structural features   (R² = 0.196):
                    intercept: -0.4513
