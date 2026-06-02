@@ -45,7 +45,11 @@ end to end from the public repository. The instrument and the analysis scripts a
 | Artifact | What it computes |
 |---|---|
 | `dissertation/paper2_construct/phi_instrument.py` | the Worker–System–Counterpart application-layer instrument; exact IIT-4.0 system Φ over the MIP; the two validation controls (factoring → Φ = 0; irreducible → Φ > 0) |
-| `dissertation/paper2_construct/worked_examples.py` | the dyadic limit (Φ = 0), the irreducible triad (Φ = 2.0), the false triad (Φ = 0), the false dyad (Φ = 2.0), and the eliminate-the-dyad sweep (2.0 → 0.83 → 0.0) |
+| `dissertation/paper2_construct/worked_examples.py` | the dyadic limit (Φ = 0), the irreducible triad under bottleneck reads (Φ = 2.0), the same triad under realistic-feedback reads (Φ = 0), the false triad (Φ = 0), and the false dyad (Φ = 2.0) |
+| `dissertation/paper2_construct/eliminate_dyad_sweep.py` | the encoding-robustness of the "eliminate-the-dyad" result: the magnitude is non-monotone (no channel 2.0; disjunctive 0.83; conjunctive 6.0; full bypass 0.0), so only the binary endpoint result is claimed |
+| `dissertation/paper2_construct/read_structure_sweep.py` | Φ across read structures with the joint determination fixed: only 22% keep Φ > 0, so a joint determination is necessary but not sufficient (the realistic-feedback reads collapse to 0) |
+| `dissertation/paper2_construct/party_partition.py` | Φ over the complete {W}{S}{C} cut vs the MIP: the complete cut over-calls (positive even for dyads), so the binary verdict is Φ over the minimum-information partition |
+| `dissertation/paper2_construct/phi_vs_separability.py` | the binary Φ verdict vs a cheap factorization/connectivity test over all 4,096 triads: agreement only 57.8%, 1,728 connected-but-Φ=0 forms, 0 reverses — Φ is strictly stronger |
 
 **The model family and typology (Chapter 4, Paper 3).** All compute exact Φ and use no outside data.
 
@@ -54,9 +58,10 @@ end to end from the public repository. The instrument and the analysis scripts a
 | `dissertation/paper3_baseline/catalog.py` | the complete W–S–C model family — all 16³ = 4,096 three-node wirings plus a 48-wiring higher-order family; exact Φ for each, with structural features; writes `results/catalog.csv`. |
 | `dissertation/paper3_baseline/analyze_catalog.py` | the Φ landscape (the discrete bands), the feature→Φ regression (R² = 0.20), and Figure 4.1 (`results/catalog_landscape.png`). |
 | `dissertation/paper3_baseline/simulated_orgs.py` | the parametric population of 86 simulated organizations (n = 3–5; mediation regime × determination × back-channel); exact Φ for each; writes `results/simulated_orgs.csv`. |
-| `dissertation/paper3_baseline/analyze_simulated.py` | the population Φ distribution, the design-features OLS (R² = 0.475), the OR-determination magnitude pathology, and the placement of the named organizations (Figure 4.x; `results/simulated_orgs.png`). |
+| `dissertation/paper3_baseline/analyze_simulated.py` | the population Φ distribution, the OR-determination magnitude pathology, the placement of the named organizations (`results/simulated_orgs.png`), a **full-rank OLS + standard errors** (the naive design is rank-deficient: regime=partial aliased with the back-channel count, so only the determination function is significant), and the regime-by-n stratified table. |
 | `dissertation/paper3_baseline/typology_phi.py` | the typology of named organizations modeled as application-layer systems; Φ per organization (the five bands); the human-mediated contrast class. |
-| `dissertation/paper3_baseline/experiment/sim/coordination_sim.py`, `experiment/analyze.py` | the structure-axis test — non-circular agent-based coordination experiment (frozen a-priori agent rule); strict mediation harder, parity anomalous; `results/sim_*`. |
+| `dissertation/paper3_baseline/typology_sensitivity.py` | how each placement moves under alternative determination codings (regime fixed): strict n=3 robust at 2.0 (4/5 codings), partial fragile (OR → 6.0); court=platform is by construction. |
+| `dissertation/paper3_baseline/experiment/sim/coordination_sim.py`, `experiment/analyze.py` | the structure-axis test — an agent-based coordination **consistency check** (frozen a-priori agent rule; agents never see Φ, but Φ and difficulty share a structural cause, so it is a consistency check, not an independent validation); strict mediation harder (0.71 vs 0.95), parity anomalous; robust at 3,000 rounds (`results/sim_runs.csv`, `sim_runs_3000.csv`). |
 
 **Data.** The dissertation's claims use no outside data: every reported Φ value is computed from the model.
 An exploratory analysis against the City of Chicago "Transportation Network Providers — Trips" dataset
