@@ -24,15 +24,20 @@ way literacy was new against oracy. That competency is **algorithmacy**.
 |---|---|---|---|---|
 | [1](paper1_review/) | Has coordination become triadic, and can existing constructs describe it? | integrative review | the literature (charitable-extension test) | draft complete (~25k) |
 | [2](paper2_construct/) | Do we model a given coordination form as triadic? | construct + formal model | exact IIT-4.0 Φ over the application layer, adopted as a model | draft complete (recast) |
-| [3](paper3_baseline/) | What does the model say across organizations, and does its central prediction hold? | formal model + population study + experiment | Φ over the model family, an 86-org simulated population, and a named typology; a non-circular agent-based test of the structure axis | draft complete (full paper) |
+| [3](paper3_baseline/) | What does the model say across organizations, and does its central prediction hold? | formal model + population study + experiment | Φ over the model family, an 86-org simulated population, and a named typology; an agent-based consistency check of the structure axis | draft complete (full paper) |
 
 **Through-line:** Φ measures the one thing the dyadic/triadic distinction needs — the degree to which a
 system's cause-effect structure is irreducible to its parts. A coordination form is **triadic** when its
-application-layer structure is irreducible across the worker–system–counterpart partition, **dyadic** when it
-factors. Paper 2 builds that formal model; Paper 3 grades it across a population of organizations and tests its
-central prediction in a controlled experiment — finding the binary classification and the mediation-regime
-ordering robust, but the graded magnitude unreliable, so it reads Φ as a structural classifier and an
-ordinal indicator rather than a finished scale.
+application-layer structure does not factor into independent parties (Φ over its minimum-information partition
+is positive), **dyadic** when some partition factors it. (The binary verdict is *strictly stronger* than a
+cheap factorization test — it diverges on >40% of the 4,096-form family.) Paper 2 builds that formal model;
+Paper 3 grades it across a population of organizations and tests its central prediction in a controlled
+experiment — finding **the binary classification robust** and the **strict-mediation prediction confirmed
+behaviorally**, but the **regime ordering weak in the population magnitude** (only the determination function
+robustly moves Φ; strict and partial are indistinguishable once size is fixed, so the ordering rests on the
+experiment) and the **graded magnitude unreliable**. It reads Φ as a structural classifier and, at most, an
+ordinal indicator anchored at one behavioral contrast, not a finished scale — and treats the experiment as a
+consistency check rather than an independent validation.
 
 ## Layout
 

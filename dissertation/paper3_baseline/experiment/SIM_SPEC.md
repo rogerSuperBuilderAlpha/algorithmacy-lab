@@ -1,7 +1,9 @@
 # Simulation spec — agent-based coordination experiment (buildable now)
 
-**Internal working doc.** The runnable, non-circular computational version of the experiment. Tests whether
-Φ(structure) predicts how hard independently-motivated agents find it to coordinate through that structure.
+**Internal working doc.** The runnable computational version of the experiment, read as a behavioral
+*consistency check* (the agents never see Φ, but Φ and difficulty both derive from the wiring, so this is not
+an independent validation). Tests whether Φ(structure) tracks how hard independently-motivated agents find it
+to coordinate through that structure.
 
 ## The task: transmit-and-agree through a structured channel
 

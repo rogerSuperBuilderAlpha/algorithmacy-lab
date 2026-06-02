@@ -90,9 +90,13 @@ coordinates its parties — not chosen for a target Φ. Each lands on a populate
 
 ### The headline: structure sets the score, not the seat of the mediator
 
-The human-mediated contrast class is the test that the model responds to *triadic structure* and not to
-*algorithms*, and the model passes it cleanly — and this result needs no empirical anchor, because it is a
-statement about what the model does:
+The human-mediated contrast class illustrates that the model responds to *triadic structure* and not to
+*algorithms* — but read this as a modeling property, not an empirical discovery. The court and the platform
+get the same Φ **because they are coded with the same strict-mediation structure**; the equality is true by
+construction. It shows the model is indifferent to the mediator's seat once the structure is fixed (the
+property we want), not that a court and a platform are observed to be structurally identical — that would
+need independent inter-rater coding (see `typology_sensitivity.py` for how placements move under alternative
+codings). With that reading:
 
 - **A court is modeled at Φ = 2.00 — the same as Uber, the ATS, and content moderation.** A judge between two
   parties who reach each other only through rulings is, in the model, the same strict mediator as the

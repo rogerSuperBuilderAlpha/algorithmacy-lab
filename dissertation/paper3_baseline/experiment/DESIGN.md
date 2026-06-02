@@ -91,9 +91,11 @@ design), then **(1)** if an empirical chapter is required or wanted.
 
 ## Threats to validity / pre-commitments
 
-- **Sim non-circularity (critical).** The agent decision rule must be fixed *a priori* and independently
+- **Sim discipline (critical).** The agent decision rule must be fixed *a priori* and independently
   motivated (bounded-rational best-response to observed signals), never tuned to make Φ win. Document the
-  rule before running; report it verbatim.
+  rule before running; report it verbatim. NB: this avoids *trivial* circularity (the agents are told
+  nothing), but Φ and difficulty both derive from the wiring, so the result is a consistency check, not an
+  independent validation — report it as such.
 - **External validity (sim).** State plainly that a simulation establishes internal/construct validity of
   the mechanism, not field generalization.
 - **Confound control.** Party count fixed at 3 across all conditions (the whole point). Hold task payoff

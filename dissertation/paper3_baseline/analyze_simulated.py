@@ -41,9 +41,28 @@ def grp(rows, key):
             for k, v in sorted(g.items(), key=lambda kv: str(kv[0]))}
 
 
+def _full_rank_columns(X):
+    """Greedily keep a maximal set of linearly independent columns (prefers earlier columns:
+    intercept, n, edges, ...). Returns the kept indices. This makes the design full rank so the
+    fit is an actual estimate rather than an arbitrary minimum-norm pseudoinverse split."""
+    keep = []
+    for j in range(X.shape[1]):
+        trial = keep + [j]
+        if np.linalg.matrix_rank(X[:, trial]) == len(trial):
+            keep.append(j)
+    return keep
+
+
 def ols(rows):
+    """Full-rank OLS with standard errors. The simulated population confounds `regime` with the
+    `back_channel` count (back_channel is nonzero only for the partial regime), so the naive
+    11-column design is rank-deficient; we drop aliased columns and report which. NOTE: the
+    predictors here ARE the generator's own design dimensions, so this characterizes the model
+    family, not an empirical discovery — see Paper 3 §4.2."""
     regimes = ["dyadic", "strict", "partial"]
     dets = ["AND", "OR", "MAJ", "XOR", "THRESH2"]
+    names = ["intercept", "n", "edges", "back_channel_links", "mediator_reads_all"] \
+        + [f"regime={g}" for g in regimes[1:]] + [f"det={d}" for d in dets[1:]]
     X, y = [], []
     for r in rows:
         row = [1.0, r["n"], r["edges"], r["back_channel"], float(r["mediator_reads_all"])]
@@ -52,12 +71,25 @@ def ols(rows):
         X.append(row)
         y.append(r["max_phi"])
     X, y = np.array(X), np.array(y)
-    beta, *_ = np.linalg.lstsq(X, y, rcond=None)
-    yhat = X @ beta
-    r2 = 1 - np.sum((y - yhat) ** 2) / np.sum((y - y.mean()) ** 2)
-    names = ["intercept", "n", "edges", "back_channel_links", "mediator_reads_all"] \
-        + [f"regime={g}" for g in regimes[1:]] + [f"det={d}" for d in dets[1:]]
-    return names, beta, r2
+
+    full_rank = np.linalg.matrix_rank(X)
+    keep = _full_rank_columns(X)
+    dropped = [names[j] for j in range(len(names)) if j not in keep]
+    Xr = X[:, keep]
+    namesr = [names[j] for j in keep]
+
+    beta, *_ = np.linalg.lstsq(Xr, y, rcond=None)
+    resid = y - Xr @ beta
+    dof = len(y) - Xr.shape[1]
+    sigma2 = float(resid @ resid) / dof
+    XtX_inv = np.linalg.inv(Xr.T @ Xr)
+    se = np.sqrt(np.maximum(np.diag(sigma2 * XtX_inv), 0.0))
+    tstat = beta / se
+    r2 = 1 - np.sum(resid ** 2) / np.sum((y - y.mean()) ** 2)
+    return {
+        "names": namesr, "beta": beta, "se": se, "t": tstat, "r2": r2,
+        "rank": full_rank, "ncol": X.shape[1], "dropped": dropped, "dof": dof,
+    }
 
 
 def real_orgs():
@@ -95,10 +127,30 @@ def main():
     for k, (nn, m, md, mx) in grp(rows, "n").items():
         print(f"  n={k:<8} {nn:>5} {m:>7.3f} {md:>7.2f} {mx:>7.2f}")
 
-    names, beta, r2 = ols(rows)
-    print(f"\n[what drives Φ]  OLS  max Φ ~ design features   (R² = {r2:.3f})")
-    for nm, b in zip(names, beta):
-        print(f"    {nm:>22}: {b:+.3f}")
+    # Φ by regime WITHIN each party count, so the regime effect is not confounded by size
+    # (the population is dominated by larger n; only a few forms are n=3).
+    print("\n[Φ by regime, stratified by party count n]   (mean max Φ; count in parens)")
+    regimes_order = ["dyadic", "strict", "partial"]
+    ns = sorted(set(r["n"] for r in rows))
+    print(f"  {'n':<5}" + "".join(f"{g:>16}" for g in regimes_order))
+    for nv in ns:
+        cells = []
+        for g in regimes_order:
+            vs = [r["max_phi"] for r in rows if r["n"] == nv and r["regime"] == g]
+            cells.append(f"{np.mean(vs):.2f} (n={len(vs)})" if vs else "—")
+        print(f"  {nv:<5}" + "".join(f"{c:>16}" for c in cells))
+
+    fit = ols(rows)
+    print(f"\n[what drives Φ]  OLS  max Φ ~ design features   (R² = {fit['r2']:.3f}, "
+          f"dof={fit['dof']})")
+    print(f"  design rank {fit['rank']} of {fit['ncol']} columns; "
+          f"dropped as aliased: {', '.join(fit['dropped']) or '(none)'}")
+    print(f"    {'term':>22} {'coef':>9} {'std.err':>9} {'t':>7}")
+    for nm, b, s, t in zip(fit["names"], fit["beta"], fit["se"], fit["t"]):
+        star = "  *" if abs(t) >= 2 else ""
+        print(f"    {nm:>22} {b:>+9.3f} {s:>9.3f} {t:>7.2f}{star}")
+    print("  NOTE: predictors are the generator's own design dimensions — this characterizes")
+    print("  the model family, not an empirical finding (Paper 3 §4.2). '*' = |t| >= 2.")
 
     print("\n[the 13 real organizations, placed in the simulated population]")
     try:

@@ -56,9 +56,12 @@ def _bin(tt):
 
 BIN = {tt: _bin(tt) for tt in range(16)}
 
+# Labels are in terms of the node's two inputs A, B in the order given in the grammar above
+# (for S: A=W, B=C). value of tt at (a,b) is bit ((a<<1)|b). These were previously A/B-swapped
+# on the asymmetric functions (2,3,4,5,10,11,12,13); corrected here so labels match truth tables.
 BIN_LABEL = {
-    0: "FALSE", 1: "NOR", 2: "W&~C", 3: "~C", 4: "~W&C", 5: "~W", 6: "XOR", 7: "NAND",
-    8: "AND", 9: "XNOR", 10: "copyA", 11: "A|~B", 12: "copyB", 13: "~A|B", 14: "OR", 15: "TRUE",
+    0: "FALSE", 1: "NOR", 2: "~A&B", 3: "~A", 4: "A&~B", 5: "~B", 6: "XOR", 7: "NAND",
+    8: "AND", 9: "XNOR", 10: "B", 11: "~A|B", 12: "A", 13: "A|~B", 14: "OR", 15: "TRUE",
 }
 # Functions that genuinely depend on BOTH inputs (a real two-party determination):
 DEPENDS_BOTH = {1, 2, 4, 6, 7, 8, 9, 11, 13, 14}

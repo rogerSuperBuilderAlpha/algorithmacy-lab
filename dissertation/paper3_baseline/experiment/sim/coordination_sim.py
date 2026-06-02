@@ -1,11 +1,20 @@
-"""Agent-based coordination experiment: does Φ predict coordination difficulty
-at FIXED party count (n=3), when only the determination structure varies?
+"""Agent-based coordination experiment: does the determination STRUCTURE that Φ keys on
+predict coordination difficulty at FIXED party count (n=3), when only that structure varies?
 
-NON-CIRCULAR BY DESIGN: the agents are independent contextual-bandit learners that
-maximize joint reward from the information their structural position gives them. They
-never see Φ, the condition label, or each other's policy. Φ is computed elsewhere
-(typology_phi.py); here we only measure how well agents coordinate. So Φ predicting
-their difficulty is a real test, not a built-in result.
+WHAT THIS IS, AND IS NOT. The agents are independent contextual-bandit learners that maximize
+joint reward from the information their structural position gives them; they never see Φ, the
+condition label, or each other's policy. So the result is not circular in the trivial sense —
+nothing tells the agents the answer. But it is NOT an independent validation of Φ either: a
+condition's Φ and its coordination difficulty are BOTH deterministic consequences of the same
+wiring + mediator function (e.g. a lossy AND determination both raises Φ and destroys the
+information the receiver needs). This experiment is therefore a behavioral CONSISTENCY CHECK —
+it shows the structural classifier tracks a real coordination cost — not a test of Φ against a
+criterion measured separately from the structure. The honest claim is consistency, not
+non-circular validation. (See Paper 3 §4.5.)
+
+ROUNDS is configurable via the SIM_ROUNDS env var (default 600, the committed run). A longer run
+(e.g. SIM_ROUNDS=3000) tests whether the difficulty gap is an asymptote rather than under-training;
+non-default runs write a suffixed CSV so the committed 600-round artifact stays reproducible.
 
 TASK (transmit-and-agree, fresh target every round, sequential within-round flow):
   1. A target bit T is drawn iid each round and shown to the SENDER only.
@@ -28,13 +37,20 @@ Writes ../results/sim_runs.csv
 
 import csv
 import os
+import zlib
 
 import numpy as np
+
+
+def _cell_seed(seed, name, sender):
+    """Deterministic per-cell seed. Uses zlib.crc32 (stable across processes) rather than
+    the built-in hash(), which is salted per-process and made the experiment irreproducible."""
+    return seed * 100003 + (zlib.crc32((name + sender).encode()) % 9973)
 
 # ---- a-priori hyperparameters (frozen; identical across conditions) -------------------
 LR = 0.1
 EPS_START, EPS_FLOOR, EPS_DECAY_FRAC = 1.0, 0.05, 0.7
-ROUNDS = 600
+ROUNDS = int(os.environ.get("SIM_ROUNDS", "600"))   # 600 = committed run; set 3000 for robustness
 PAIRS_PER_CELL = 120
 SEEDS = [1, 2, 3, 4, 5]
 TAIL_FRAC = 0.2
@@ -115,8 +131,10 @@ def run_episode(cond, sender, rng):
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
-    out = os.path.join(here, "..", "results", "sim_runs.csv")
+    fname = "sim_runs.csv" if ROUNDS == 600 else f"sim_runs_{ROUNDS}.csv"
+    out = os.path.join(here, "..", "results", fname)
     os.makedirs(os.path.dirname(out), exist_ok=True)
+    print(f"[ROUNDS={ROUNDS}]")
     rows = []
     print(f"{'condition':<12}{'Φ':>6}  {'success (mean over senders, seeds)':>34}")
     for cond in CONDITIONS:
@@ -124,7 +142,7 @@ def main():
         cell_means = []
         for sender in ("W", "C"):
             for seed in SEEDS:
-                rng = np.random.default_rng(seed * 100003 + (hash(name + sender) % 9973))
+                rng = np.random.default_rng(_cell_seed(seed, name, sender))
                 s = [run_episode(cond, sender, rng) for _ in range(PAIRS_PER_CELL)]
                 m = float(np.mean(s))
                 rows.append({"condition": name, "phi": phi, "sender": sender,

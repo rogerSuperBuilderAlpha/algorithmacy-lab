@@ -246,9 +246,11 @@ illustrations); the false triad and false dyad; the generative eliminate-the-dya
    et al. 2024; Dieuaide & Azaïs 2020; Stark & Pais 2020) and does not reduce to the two-sided model (Sun
    et al. 2023, *ISR*; Rochet & Tirole 2003; Hagiu & Wright); the no-W–C-edge is engineered (Rosenblat &
    Stark 2016; Stein et al. 2023).
-6. **The central, generative result — eliminate-the-dyad.** Holding the determination fixed (S'=W∧C), Φ
-   falls monotonically as direct W–C interaction is added: none **2.00** → weak **0.83** → strong **0.00
-   (reduces to a dyad)**. Frame it the way the genre wants (Davis, Eisenhardt & Bingham 2007): the
+6. **The central, generative result — eliminate-the-dyad (binary only).** Holding the determination fixed
+   (S'=W∧C), the form is a triad with no direct channel (**2.00**) and reduces to a dyad with a full direct
+   channel (**0.00**). The intermediate magnitude is encoding-dependent (disjunctive 0.83, conjunctive 6.00),
+   so the "falls monotonically" framing is withdrawn — only the binary endpoint result is claimed
+   (`eliminate_dyad_sweep.py`). Frame it the way the genre wants (Davis, Eisenhardt & Bingham 2007): the
    instrument is *generative* — this computed regularity **produces** a proposition (the platform's
    structural incentive to design the dyad out) that Paper 3 will calibrate. The political-economy
    reading is computed, not asserted: coordination is most irreducible when the dyad is eliminated, so

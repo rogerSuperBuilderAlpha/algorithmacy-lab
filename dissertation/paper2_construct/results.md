@@ -62,53 +62,74 @@ choice, and Φ catches it.
 party-ignoring mediator in §2.B: `f = W` or `f = C` → Φ = 0 despite three visible parties. The
 classifier cuts against appearance both ways.)
 
-## 3. The central finding — eliminating the dyad maximizes irreducibility
+## 3. The eliminate-the-dyad result — binary, not a magnitude gradient (corrected)
 
 The 3-party *topology* alone does not make a form triadic. Irreducibility turns on (a) **the
-determination the mediator commits** and (b) **whether the parties can interact directly**.
+determination the mediator commits**, (b) **the read structure** (§4), and (c) **whether the
+parties can interact directly**.
 
-First, the form is irreducible for *every* determination that is a genuine joint function of both
-parties, and reduces to a dyad precisely when the mediator's determination ignores one party.
+The determination being a genuine joint function of both parties is **necessary but not
+sufficient**: holding `S' = W∧C` fixed and sweeping the read structure (`read_structure_sweep.py`),
+only **22%** of strict-mediation read pairs keep Φ > 0; the "realistic feedback" reads collapse it
+to 0 (§4). So the earlier claim that the form is irreducible for *every* joint determination is
+withdrawn — it holds only for the faithful (bottleneck) reads.
 
-Second, and the paper's spine: holding the determination fixed (S' = W AND C), Φ **falls
-monotonically as direct worker–counterpart interaction is added**.
+The "design the dyad out" result is now stated at the **binary** level only, because the magnitude
+sweep is **not monotone** in directness. Holding `S' = W∧C` fixed and sweeping encodings of an
+added direct W–C channel (`eliminate_dyad_sweep.py`):
 
-| direct W–C channel | max Φ |
-|---|---|
-| none (parties reach each other only through S) | **2.00** |
-| weak (parties also read each other directly) | **0.83** |
-| strong (parties coordinate directly) | **0.00 — reduces to a dyad** |
+| direct W–C channel | encoding | max Φ |
+|---|---|---|
+| none (only through S) | W'=S, C'=S | **2.00** |
+| weak, disjunctive | W'=S∨C, C'=S∨W | **0.83** |
+| weak, conjunctive | W'=S∧C, C'=S∧W | **6.00** ← *larger than baseline* |
+| weak, parity | W'=S⊕C, C'=S⊕W | **2.00** |
+| full bypass | W'=C, C'=W | **0.00 — reduces to a dyad** |
 
-So coordination is **most irreducible when the dyad is eliminated**. The political-economy reading
-is immediate and computed, not asserted: the platform's position is constituted by triadic
-irreducibility, direct dyadic contact destroys that irreducibility, and the platform therefore has
-a structural **incentive to design the dyad out** — to prevent the worker and counterpart from
-coordinating except through its committed determination. This is what platforms do (drivers cannot
-contact riders off-app; applicants cannot reach hiring managers around the ATS), and Φ explains why:
-removing the dyad maximizes the irreducibility on which the form, and the demand for algorithmacy,
-depends.
+The **endpoints are robust** (no channel → triad; full bypass → dyad) but the middle is
+encoding-dependent (0.83 vs 6.00), so the old "Φ falls monotonically" / "irreducibility bleeds
+away" framing was an artifact of the disjunctive encoding and is dropped. The political-economy
+reading is kept at the binary level only: eliminating the direct channel is what keeps the form
+**classified** as a triad, so a platform has a structural reason to design the direct dyad out. The
+magnitude gradient is not claimed.
 
-> A coordination form is triadic **iff** the mediator commits a determination both parties depend on
-> and the parties cannot coordinate around it. Φ over the application-layer matrix is the computed
-> test: Φ > 0 demands algorithmacy; Φ = 0 is navigable with literacy. The chat dyad and the
-> "mediator-that-ignores-a-party" both score 0; the genuine ATS triad scores > 0, and the score
-> rises as the dyad is suppressed.
+> A coordination form is triadic **iff** Φ over its minimum-information partition is > 0: the
+> mediator commits a determination both parties depend on, the reads keep each party tracking it,
+> and the parties cannot coordinate around it. Φ > 0 demands algorithmacy; Φ = 0 is navigable with
+> literacy. The chat dyad and the "mediator-that-ignores-a-party" both score 0; the bottleneck ATS
+> triad scores > 0; restoring a full direct channel collapses it back to 0.
 
-## 4. Caveats already visible (for the write-up)
+## 4. Read structure, and why the magnitude is not a scale
 
-- **Read functions matter too.** A separate feedback variant (W'=¬S, S'=W∧C, C'=S∨C) reduced to
-  Φ = 0, so irreducibility depends on how the parties read the determination as well as on the
-  determination itself. The clean worked example uses faithful reads (each party tracks the
-  committed determination); the dependence on read structure is a point to state honestly, not
-  hide.
-- **State-alphabet dependence** (the §4 pre-registered rule) governs how these binary nodes are
-  individuated; the controls and worked examples all use the same rule.
+- **Read functions decide the verdict, not just the determination.** Sweeping the strict-mediation
+  read space with `S'=W∧C` fixed (`read_structure_sweep.py`): Φ ranges 0–2; only 22% of read pairs
+  give Φ > 0. The pure bottleneck (W'=S, C'=S) gives Φ = 2.0; the realistic feedback (W'=¬S,
+  C'=S∨C) gives Φ = 0.0. The reads that preserve the triad verdict are those keeping each party's
+  state a live function of the mediator's commit. This is now in the draft (§6), not a hidden caveat.
+- **State-alphabet dependence** (the §4 pre-registered rule) governs how the nodes are individuated;
+  but the rule does *not* fix the node update functions, which is where the magnitude lives. Hence
+  the magnitude is read only ordinally and the paper leans on the binary classification.
 - **No outcome anchor** — a Φ value is not yet a difficulty scale. That is Paper 3.
 
-## 5. Still to do
+## 5. Resolved / handed forward
 
-- Evaluate the explicit {W}{S}{C} tripartition via `pyphi.new_big_phi` for the irreducible case (to
-  state the "the W–S–C partition cannot reduce it" claim directly, beyond the MIP).
+- **Party-partition vs MIP — resolved** (`party_partition.py`). Φ over the complete {W}{S}{C} cut is
+  positive even for dyads (it severs the genuine {W,S} coupling: chat dyad → 2.0, dyadic model →
+  1.0), so the complete cut over-calls and is *not* the test. The binary verdict is Φ over the
+  minimum-information partition = 0; the MIP is party-respecting (e.g. {W,SC}) but not the complete
+  cut. The draft (abstract, §2.2, §5) is corrected to say this.
+- **Φ vs the cheap tests, static AND dynamical — resolved** (`phi_vs_separability.py`,
+  `dynamical_comparator.py`; now in draft §6, "the apparatus earns its weight"). The robust claim
+  is an EXHIBIT, not an aggregate percentage: the maximally-connected, non-degenerate form
+  **W′=NOR(S,C), S′=¬W∧C, C′=NAND(W,S)** (all six edges, strongly connected, no constants) has
+  exact Φ=0 at every reachable state (verified) — a form every connectivity/CI test calls triadic
+  and the MIP machinery alone reduces. Aggregate counts are comparator-dependent and deliberately
+  NOT the headline: vs a static test, 57.8% agree (1,728 connected-but-Φ=0, of which 73.6% are
+  pinned-constant degeneracy); vs an all-combinations dynamical test, 59.6% / 0-reverse / 456
+  non-degenerate over-calls; vs the *fair reachable-only* dynamical test, **89.8% / 8-reverse / 408
+  non-degenerate over-calls**. So "Φ strictly stronger / 0-reverse" is an artifact of the weaker
+  comparator; what is robust across comparators is the direction (hundreds of non-degenerate forms
+  Φ reduces that cheap tests over-call) and the exhibit. NOTE: an earlier draft mis-transcribed the
+  exhibit as `S=W∧¬C` (which gives Φ=0.83) — a `catalog.py` BIN_LABEL A/B-swap bug, now fixed.
 - The continuous-platform hardest case (Uber commits in a stream) — the rule's stress test (§4),
-  handed to Paper 3.
-- `state_alphabet.md` (pre-registered individuation rule + TPM-from-logs construction) and the paper.
+  handed to Paper 3 / the empirical program.
