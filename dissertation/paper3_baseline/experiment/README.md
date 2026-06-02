@@ -40,12 +40,17 @@ possible at all.
 
 ## Status
 
-- [x] Design, conditions, and sim spec drafted (this folder).
-- [ ] Confirm the four Φ values reproduce (`../typology_phi.py`).
-- [ ] Decision: Paper 3 §4.x vs Paper 4; sim-first vs human-first.
-- [ ] Freeze agent rule + hyperparameters (a priori).
-- [ ] Build `sim/` and run smoke test.
-- [ ] Full runs + analysis (H1 / H1a / H2 / Φ-beyond-features).
-- [ ] (If pursued) human-study protocol + IRB.
+- [x] Design, conditions, and sim spec drafted.
+- [x] Decision: experiment folded into **Paper 3** (§3.5 method, §4.4 result); **sim-first**.
+- [x] Agent rule + hyperparameters frozen a priori (`sim/coordination_sim.py` docstring).
+- [x] Built `sim/` and ran it; `sim/analyze.py` produces stats + figure.
+- [x] Full runs + analysis done — see `RESULTS.md`. **Headline: H1a (strict mediation harder,
+      back-channel contrast) CONFIRMED, d≈29, robust; H2 (parity anomaly / Cerullo) CONFIRMED;
+      H1 (clean Φ-monotonicity) NOT supported — magnitude is ordinal.**
+- [x] Integrated into Paper 3 draft (abstract, §3.5, §4.4, discussion, limitations, conclusion);
+      Paper 2 §7 handoff re-pointed to the test.
+- [ ] (Future / external validity) human-study protocol + IRB; replication on other tasks; ΦID
+      decomposition to separate the parity case.
 
-Nothing here is committed to the dissertation's claims yet; it is planning.
+The **in-silico** result is now part of the dissertation's claims (Paper 3 §4.4), carefully bounded as
+one controlled test with agents, not a field validation.

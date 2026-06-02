@@ -98,7 +98,7 @@ Together the three papers turn "coordination is becoming triadic" from an observ
 | 3.6 | The model at work | |
 | 3.7 | What the instrument establishes, and what it does not | |
 | | | |
-| **4** | **Toward a Readability Score for Coordination: A Formal Model of Triadic Demand Across Organizations** (Paper 3) | |
+| **4** | **Toward a Readability Score for Coordination: A Formal Model of Triadic Demand and a Test of Its Structural Axis** (Paper 3) | |
 | 4.1 | Introduction | |
 | 4.2 | The coordination form as unit | |
 | 4.3 | Data and methods | |
@@ -136,6 +136,7 @@ paper's internal numbering is preserved in its own chapter file.)*
 | 3.1 | Model controls and worked Φ values (factoring, irreducible, the worked cases) | 3 (Paper 2) |
 | 4.1 | The Φ landscape of the W–S–C model family | 4 (Paper 3) |
 | 4.2 | The typology on the triadic-demand bands | 4 (Paper 3) |
+| 4.3 | Coordination success by condition (the structure-axis test) | 4 (Paper 3) |
 
 *Tables are numbered by chapter. Tables 4.1–4.2 are formally numbered in Paper 3; the Chapter 2 synthesis
 table and the Chapter 3 controls/worked-values table appear in those chapters and should be given the
@@ -146,5 +147,6 @@ numbers above when the chapters are assembled into the single document.*
 | Figure | Title | Chapter |
 |---|---|---|
 | 4.1 | The Φ landscape of the W–S–C model family (Φ over all 4,096 three-node wirings) | 4 (Paper 3) |
+| 4.2 | Coordination success by determination structure (the structure-axis test) | 4 (Paper 3) |
 
-*The dissertation reports its results chiefly in tables; the single figure is the Paper 3 model-family landscape.*
+*The dissertation reports most results in tables; the two figures are the Paper 3 model-family landscape and the structure-axis test.*
