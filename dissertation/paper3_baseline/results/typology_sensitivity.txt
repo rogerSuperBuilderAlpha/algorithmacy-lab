@@ -1,0 +1,21 @@
+====================================================================================================
+PAPER 3 — typology placement sensitivity to the determination coding (regime fixed)
+====================================================================================================
+organization                       assigned  Φ@assigned        AND      OR     MAJ     XOR THRESH2    range
+----------------------------------------------------------------------------------------------------
+Rideshare, solo (Uber/Lyft)             AND        2.00       2.00    2.00    2.00    0.50    2.00     1.50
+Food delivery                           AND        2.00       2.00    2.00    2.00    0.50    2.00     1.50
+Hiring / applicant-tracking system      AND        2.00       2.00    2.00    2.00    0.50    2.00     1.50
+Content moderation                      AND        2.00       2.00    2.00    2.00    0.50    2.00     1.50
+Court (judge between parties)           AND        2.00       2.00    2.00    2.00    0.50    2.00     1.50
+Complementary skill matching            XOR        0.50       2.00    2.00    2.00    0.50    2.00     1.50
+Freelance marketplace (Upwork)          AND        0.83       0.83    6.00    0.83    1.00    0.83     5.17
+Healthcare staffing agency              AND        0.83       0.83    6.00    0.83    1.00    0.83     5.17
+Real-estate broker                      AND        0.83       0.83    6.00    0.83    1.00    0.83     5.17
+----------------------------------------------------------------------------------------------------
+READING: where the row swings across bands as the determination changes, the placement
+is an artifact of the coding, not a robust fact about the organization. The strict forms
+(rideshare, ATS, court) all share one row BY CONSTRUCTION — their equal Φ reflects an
+identical assigned structure, which is why 'court = platform' is a modeling statement,
+not a discovery. Paper 3 §4.4 now reports these placements with this sensitivity band.
+====================================================================================================

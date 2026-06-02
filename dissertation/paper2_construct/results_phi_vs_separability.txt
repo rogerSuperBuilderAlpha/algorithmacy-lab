@@ -1,0 +1,23 @@
+====================================================================================
+PAPER 2 — Φ binary verdict vs cheap structural tests, over all 4096 triad wirings
+====================================================================================
+  Φ verdict agrees with STATIC-SEPARABILITY test : 2368/4096 (57.8%)
+  Φ verdict agrees with STRONG-CONNECTIVITY test : 3808/4096 (93.0%)
+------------------------------------------------------------------------------------
+  WHERE Φ IS STRICTLY STRONGER (cheap test says triadic, Φ says reducible):
+    connected-graph but Φ=0           : 1728  (42.2% of all triads)
+    strongly-connected but Φ=0        : 288
+    factors-statically but Φ>0 (rev.) : 0  (expect 0)
+  example forms with a connected graph yet Φ=0 (cheap test would mis-call triadic):
+    Φ=0.000   W=FALSE,S=FALSE,C=NOR
+    Φ=0.000   W=FALSE,S=FALSE,C=W&~C
+    Φ=0.000   W=FALSE,S=FALSE,C=~W&C
+    Φ=0.000   W=FALSE,S=FALSE,C=XOR
+    Φ=0.000   W=FALSE,S=FALSE,C=NAND
+    Φ=0.000   W=FALSE,S=FALSE,C=AND
+------------------------------------------------------------------------------------
+CONCLUSION: the verdicts do NOT coincide. A static factorization / connectivity test
+over-calls triads on feed-forward and copy structures that IIT-4.0 correctly scores
+as reducible in-state. The binary Φ verdict is therefore not a trivial conditional-
+independence check — it is strictly stronger — which is the warrant for importing it.
+====================================================================================

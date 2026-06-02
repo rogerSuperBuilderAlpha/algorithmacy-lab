@@ -1,0 +1,17 @@
+======================================================================================
+PAPER 2 — Φ over the complete {W}{S}{C} party cut vs the global MIP
+======================================================================================
+case                             state     Φ_MIP     MIP cut   Φ_party
+--------------------------------------------------------------------------------------
+A.  chat dyad                (0, 0, 0)    0.0000         n/a    2.0000
+B1. ATS strict bottleneck    (1, 1, 1)    2.0000      2-part    4.0000
+B2. ATS feedback             (1, 0, 0)    0.0000      2-part    1.2075
+C1. rideshare false dyad     (1, 1, 1)    2.0000      2-part    4.0000
+C2. rideshare dyadic model   (0, 0, 0)    0.0000         n/a    1.0000
+--------------------------------------------------------------------------------------
+READING: Φ_party > 0 for the DYADS too (chat 2.00, dyadic model 1.00) — the complete
+{W}{S}{C} cut severs the real {W,S} coupling a dyad has, so it over-calls every coupled
+dyad a triad. The binary verdict is therefore Φ_MIP = 0 (the system factors along its
+least-damaging cut: {W,S}|{C} for a dyad), NOT Φ over the complete cut. The MIP is a
+party-respecting partition, so the test is still about party-line factorization.
+======================================================================================

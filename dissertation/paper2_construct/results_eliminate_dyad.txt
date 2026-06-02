@@ -1,0 +1,20 @@
+==================================================================================
+PAPER 2 — robustness of the 'eliminate-the-dyad' decline
+S' = W AND C held fixed; worker/counterpart reads vary by channel encoding
+==================================================================================
+channel encoding                       max Φ    mean Φ  #states
+----------------------------------------------------------------------------------
+no channel  (W'=S, C'=S)              2.0000    0.5000        4
+weak OR     (W'=S|C, C'=S|W)          0.8301    0.4150        5
+weak AND    (W'=S&C, C'=S&W)          6.0000    1.2000        5
+weak XOR    (W'=S^C, C'=S^W)          2.0000    0.6100        6
+full bypass (W'=C, C'=W)              0.0000    0.0000        4
+----------------------------------------------------------------------------------
+max-Φ sequence (none->or->and->xor->bypass): [2.0, 0.83, 6.0, 2.0, 0.0]
+monotone non-increasing in 'directness'? False
+
+READING: the draft's monotone 2.00 -> 0.83 -> 0.00 holds ONLY for the OR encoding
+of a weak channel. The AND encoding of the same verbal description gives a LARGER Φ
+than the no-channel baseline, so 'more direct contact lowers Φ' is not robust to the
+encoding choice. The political-economy claim cannot rest on the magnitude gradient.
+==================================================================================

@@ -1,0 +1,64 @@
+============================================================================
+SIMULATED-ORGANIZATION POPULATION — 86 organizations (n=[3, 4, 5])
+============================================================================
+
+Φ distribution: min=0.00  median=0.50  mean=1.37  max=20.00
+  reducible (Φ=0): 21/86 (24%)
+  exotic high-Φ tail (Φ≥4): 9 — partial/OR, strict/AND, strict/OR (OR + dense back-channel; Cerullo territory, read with caution)
+
+[by mediation regime]   n   meanΦ  medianΦ  maxΦ
+  dyadic         3   0.000    0.00    0.00
+  partial       71   1.390    0.50   20.00
+  strict        12   1.573    1.25    4.00
+
+[by determination function]
+  -              3   0.000    0.00    0.00
+  AND           19   0.568    0.09    4.00
+  MAJ           17   0.372    0.42    1.00
+  OR            19   4.263    2.00   20.00
+  THRESH2        9   0.620    0.42    1.68
+  XOR           19   0.730    1.00    1.00
+
+[by party count n]
+  n=3            7   1.761    1.00    6.00
+  n=4           33   1.493    1.00   12.00
+  n=5           46   1.217    0.42   20.00
+
+[Φ by regime, stratified by party count n]   (mean max Φ; count in parens)
+  n              dyadic          strict         partial
+  3          0.00 (n=1)      1.50 (n=3)      2.61 (n=3)
+  4          0.00 (n=1)      1.56 (n=4)     1.54 (n=28)
+  5          0.00 (n=1)      1.62 (n=5)     1.20 (n=40)
+
+[what drives Φ]  OLS  max Φ ~ design features   (R² = 0.475, dof=76)
+  design rank 10 of 11 columns; dropped as aliased: regime=partial
+                      term      coef   std.err       t
+                 intercept    +1.331     1.974    0.67
+                         n    -0.532     1.135   -0.47
+                     edges    +0.104     0.487    0.21
+        back_channel_links    +0.552     0.986    0.56
+        mediator_reads_all    -0.511     1.562   -0.33
+             regime=strict    +1.342     0.716    1.88
+                    det=OR    +3.695     0.661    5.59  *
+                   det=MAJ    -0.136     0.683   -0.20
+                   det=XOR    +0.203     0.661    0.31
+               det=THRESH2    +0.213     0.858    0.25
+  NOTE: predictors are the generator's own design dimensions — this characterizes
+  the model family, not an empirical finding (Paper 3 §4.2). '*' = |t| >= 2.
+
+[the 13 real organizations, placed in the simulated population]
+  Φ= 0.00  ( 24th pct)  Direct exchange (no mediator)                  [dyadic baseline]
+  Φ= 0.00  ( 24th pct)  Chat with a language model                     [dyadic baseline]
+  Φ= 0.50  ( 52th pct)  Complementary skill matching                   [algorithmic platform]
+  Φ= 0.83  ( 55th pct)  Freelance marketplace (Upwork)                 [algorithmic platform]
+  Φ= 0.83  ( 55th pct)  Healthcare staffing agency                     [human-mediated]
+  Φ= 0.83  ( 55th pct)  Real-estate broker                             [human-mediated]
+  Φ= 2.00  ( 87th pct)  Rideshare, solo (Uber/Lyft)                    [algorithmic platform]
+  Φ= 2.00  ( 87th pct)  Food delivery (courier-platform-customer)      [algorithmic platform]
+  Φ= 2.00  ( 87th pct)  Hiring / applicant-tracking system             [algorithmic-institutional]
+  Φ= 2.00  ( 87th pct)  Content moderation (creator-platform-audience) [algorithmic-institutional]
+  Φ= 2.00  ( 87th pct)  Court (judge between parties)                  [human-mediated]
+  Φ= 3.00  ( 90th pct)  Rideshare, POOLED (driver + 2 riders)          [algorithmic platform (higher-order)]
+  Φ= 3.00  ( 90th pct)  Crowdwork (requester + platform + 2 workers)   [algorithmic platform (higher-order)]
+
+figure -> /Users/ludwitt/iit-playground/pyphi-experiments/dissertation/paper3_baseline/results/simulated_orgs.png
