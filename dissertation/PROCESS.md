@@ -73,19 +73,25 @@ The genre standard, distilled:
   discriminant position, nomological network.
 - **Compute the worked examples; report the actual Φ values.**
 
-## Mode C — formal model / model-family analysis (Paper 3)
+## Mode C — formal model, population study, and a behavioral test (Paper 3)
 
-- **The model:** Paper 2's, applied uniformly. There is **no external ground truth and no outcome
-  validation** — Paper 3 characterizes what the model yields (it is model-internal throughout) and is
-  explicit that validation against an observed outcome is future work.
-- **Enumerate the whole model family** (all 16³ three-node wirings) as a coverage check, not a census of
-  coordination: most wirings are not coordination forms; the payoff is locating real organizations on
-  populated bands and showing the score is not a feature count (low R²).
-- **Carry the magnitude caveat openly** (Cerullo 2015): parity scores highest Φ, so read magnitude ordinally
-  and lean on the binary Φ=0/Φ>0 distinction.
-- **No empirical anchor.** An earlier rideshare-pooling anchor was cut because Φ=k+1 made it validate only
-  the party-count axis; it is demoted to `paper3_baseline/exploratory/`. The validation the model needs must
-  vary determination structure at a fixed party count.
+- **The model across three computed domains:** Paper 2's instrument applied uniformly to the complete
+  three-node family (a coverage check), a parametric population of ~86 simulated organizations
+  (n = 3–5; regime × determination × back-channel — the empirical body), and a named typology (familiar
+  cases), then put to one controlled test.
+- **Compute, don't assert, at population scale.** Report the Φ distribution, a design-feature OLS, and where
+  the named organizations fall in the population — not a handful of points.
+- **The honest headline (what to claim):** the binary dyad/triad classification and the regime-level
+  ordering (strict mediation most demanding, once determination is controlled) are robust; the **graded
+  magnitude is NOT a reliable scale** — it is dominated by the determination function, with a disjunctive
+  determination inflating Φ to ~20, orthogonal to demand (Cerullo 2015). Present Φ as a structural
+  classifier and ordinal regime-indicator, not a graded scale.
+- **The behavioral test (sim-first, non-circular):** manipulate determination structure at fixed party
+  count; independent agents that never see Φ; strict mediation behaviorally hardest (d ≈ 29), parity
+  anomalous. **In silico, not human** — a field/human validation remains future work.
+- **The cut anchor:** the rideshare-pooling anchor was cut because Φ = k+1 made it validate only the
+  party-count axis; demoted to `paper3_baseline/exploratory/`. The fuller validation still needed varies
+  determination structure at fixed party count against real outcomes.
 - **Unit is the coordination form, not the person.**
 
 ## Per-paper load-bearing decisions (name them, don't hide them)
@@ -94,7 +100,7 @@ The genre standard, distilled:
 |---|---|
 | 1 | fair representation of each foreclosed construct (charitable-extension test) |
 | 2 | the three modeling choices (W–S–C representation; the state-individuation rule; the party partition), and adopting Φ as a model rather than asserting it as identity |
-| 3 | characterizing the model (model-internal), not validating it against an outcome — the rideshare anchor was cut for validating only the party-count axis |
+| 3 | claiming only the binary classification + ordinal regime ordering (not a graded scale — magnitude is determination-dominated); validating the central prediction in silico (agents, not field) while naming fuller validation as future work; the rideshare anchor was cut for validating only the party-count axis |
 
 ## Reuse & environment
 

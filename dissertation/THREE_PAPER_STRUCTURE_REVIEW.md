@@ -99,9 +99,9 @@ study rather than Morse directly; cite Morse for the phrase, the policy sources 
 
 | Standard component | Our state |
 |---|---|
-| Three standalone, publishable papers | ✅ Three complete drafts: Paper 1 (integrative review, ~25k words), Paper 2 (construct + formal model, ~8k), Paper 3 (formal model / model-family analysis, ~8k) — each with its own intro/methods/results and its own verified bibliography |
+| Three standalone, publishable papers | ✅ Three complete drafts: Paper 1 (integrative review, ~25k words), Paper 2 (construct + formal model, ~8k), Paper 3 (formal model + population study + a behavioral test, ~6k) — each with its own intro/methods/results and its own verified bibliography |
 | Distinct contribution per paper | ✅ A construct (algorithmacy), a formal model (Φ over the application layer), and a graded model-internal landscape — three different contributions, not three slices |
-| Conceptual → formal ordering | ✅ Review → construct/formal-model → model-family analysis. NB: this is a deliberate departure from the canonical conceptual→**empirical** close — the empirical-validation stage is deferred to the program rather than performed, and the dissertation states this plainly. |
+| Conceptual → formal/empirical ordering | ✅ Review → construct/formal-model → model-analysis with a first behavioral test. NB: Paper 3 now includes a controlled (in-silico) agent-based experiment testing the model's central prediction, so the dissertation is not fully non-empirical; a field/human validation remains future work, stated plainly. |
 | The middle paper bridges | ✅ Paper 2 explicitly frames itself as the bridge (it operationalizes Paper 1's distinction and hands Paper 3 the instrument) |
 | An explicit through-line | ✅ Stated in `README.md`: Φ measures the one thing the dyadic/triadic distinction needs — irreducibility of coordination to its parts; the shared object runs through all three papers |
 | Cross-paper coherence devices | ✅ Each paper references the others and the shared object; the load-bearing decisions are named per paper (`PROCESS.md`) |
@@ -139,8 +139,9 @@ Two framing chapters, drafted from material we already have.
   application-layer structure does not factor across the worker–system–counterpart partition.
 - **How the three papers connect:** Paper 1 establishes that the form exists and the existing constructs
   miss it (the construct); Paper 2 builds the formal model that classifies whether a given form is triadic
-  (the model); Paper 3 grades that model across organizations (the graded landscape). Conceptual →
-  operational → formal; the empirical validation is the program's next arc, not a chapter here.
+  (the model); Paper 3 grades that model across a population of organizations and tests its central
+  prediction in a controlled experiment (the classifier, behaviorally tested). Conceptual → operational →
+  formal-with-a-first-test; a fuller field/human validation is the program's next arc.
 - **The combined contribution, previewed**, and a brief preview of each chapter.
 
 ### B. Integrative discussion / conclusion chapter
