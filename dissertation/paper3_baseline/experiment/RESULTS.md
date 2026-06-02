@@ -1,9 +1,12 @@
 # Experiment results — the structure axis, tested in silico
 
-**The experiment the dissertation was missing now exists and has run.** Non-circular agent-based test
+**The experiment the dissertation was missing now exists and has run.** Behavioral *consistency check*
 (`sim/coordination_sim.py`): independent contextual-bandit agents coordinate through a determination
-structure they do not understand; we measure how well they coordinate; Φ is computed separately. Party count
-fixed at 3; only the determination structure varies. Reproduce: `sim/coordination_sim.py` then `sim/analyze.py`.
+structure they do not understand; we measure how well they coordinate; Φ is computed separately. The agents
+are told nothing about the structure (so the test is not trivially circular), but Φ and difficulty both
+derive from the same wiring, so this is a consistency check between the structural classifier and behavior,
+NOT an independent validation of Φ against a separately measured criterion. Party count fixed at 3; only the
+determination structure varies. Reproduce: `sim/coordination_sim.py` then `sim/analyze.py`.
 
 ## Headline
 
@@ -14,8 +17,9 @@ fixed at 3; only the determination structure varies. Reproduce: `sim/coordinatio
 | C2 partial (S = W∧C, back-channel) | 0.83 | 0.951 | 0.049 |
 | **C3 strict (S = W∧C, no back-channel)** | **2.00** | **0.713** | **0.287** |
 
-Robust: C3 asymptotes at ~0.73 even at 3,000 rounds (a genuine information ceiling, not under-training);
-C2 stays ~0.95. CIs are tight (2 senders × 5 seeds × 120 pairs/cell).
+Robust: C3 asymptotes at 0.713 at 3,000 rounds vs 0.712 at the committed 600-round run (a genuine
+information ceiling, not under-training); the other three hold at 0.951. Committed: `results/sim_runs.csv`
+(600) and `results/sim_runs_3000.csv` (3,000). CIs are tight (2 senders × 5 seeds × 120 pairs/cell).
 
 ## What it shows
 
@@ -23,9 +27,10 @@ C2 stays ~0.95. CIs are tight (2 senders × 5 seeds × 120 pairs/cell).
    coordination through a joint AND determination (partial Φ=0.83 → strict Φ=2.0, the determination held
    fixed) makes coordination *much* harder: Δsuccess = +0.238, Cohen's d ≈ 29, robust. This is the
    dissertation's "eliminate the dyad" result and its political-economy claim (a platform's structural
-   position is strongest when the parties cannot coordinate except through its determination), **validated
-   behaviorally and non-circularly** — the thing the cut Chicago anchor could never do, because here party
-   count is fixed and the structure is built, not inferred.
+   position is strongest when the parties cannot coordinate except through its determination), **confirmed
+   behaviorally as a consistency check** — Φ and difficulty share a structural cause, so this is not an
+   independent validation, but it is the behavioral demonstration the cut Chicago anchor could never give,
+   because here party count is fixed and the structure is built, not inferred.
 
 2. **H1 — Φ monotonicity — PARTIAL.** Spearman(Φ, difficulty) = +0.40 across the four conditions: positive,
    but driven entirely by C3. Φ magnitude is **not** a clean predictor of difficulty.
