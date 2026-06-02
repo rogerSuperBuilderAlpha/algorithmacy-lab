@@ -88,7 +88,7 @@ The genre standard, distilled:
   classifier and ordinal regime-indicator, not a graded scale.
 - **The behavioral test (sim-first, a consistency check — not an independent validation):** manipulate
   determination structure at fixed party count; independent agents that never see Φ; strict mediation
-  behaviorally hardest (d ≈ 29, robust at 3,000 rounds), parity anomalous. Φ and difficulty both derive from
+  behaviorally hardest (d ≈ 50, robust at 3,000 rounds), parity anomalous. Φ and difficulty both derive from
   the wiring, so this is a consistency check, not a test against a separately measured criterion. **In silico,
   not human** — a field/human validation remains future work.
 - **The cut anchor:** the rideshare-pooling anchor was cut because Φ = k+1 made it validate only the

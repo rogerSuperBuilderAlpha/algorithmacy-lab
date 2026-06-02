@@ -37,8 +37,15 @@ Writes ../results/sim_runs.csv
 
 import csv
 import os
+import zlib
 
 import numpy as np
+
+
+def _cell_seed(seed, name, sender):
+    """Deterministic per-cell seed. Uses zlib.crc32 (stable across processes) rather than
+    the built-in hash(), which is salted per-process and made the experiment irreproducible."""
+    return seed * 100003 + (zlib.crc32((name + sender).encode()) % 9973)
 
 # ---- a-priori hyperparameters (frozen; identical across conditions) -------------------
 LR = 0.1
@@ -135,7 +142,7 @@ def main():
         cell_means = []
         for sender in ("W", "C"):
             for seed in SEEDS:
-                rng = np.random.default_rng(seed * 100003 + (hash(name + sender) % 9973))
+                rng = np.random.default_rng(_cell_seed(seed, name, sender))
                 s = [run_episode(cond, sender, rng) for _ in range(PAIRS_PER_CELL)]
                 m = float(np.mean(s))
                 rows.append({"condition": name, "phi": phi, "sender": sender,
