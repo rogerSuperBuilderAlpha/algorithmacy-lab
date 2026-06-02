@@ -1,7 +1,13 @@
 # Paper 2 — expanded outline (the drafting blueprint)
 
+> **SUPERSEDED.** This expanded blueprint predates the formal-model recast and `../DRAFT.md` is now the
+> authoritative paper. The recast: Φ is **adopted as a formal model** under three named modeling choices, not
+> asserted as the **same formal object** as triadicity; "decision procedure / verdict" → "formal model /
+> classification"; the paper claims **no validation against the world** and the "calibration anchor handed to
+> Paper 3" was **cut**; the borrowed measure's critics are acknowledged and answered. Retained for provenance.
+
 **Roger Hunt III · Bentley University**
-Working title: *Is it a triad? Integrated information as a decision procedure for non-dyadic
+Working title: *Is it a triad? Integrated information as a formal model of non-dyadic
 algorithmic coordination*
 
 This is the expanded outline produced by the pipeline: general outline → reviewed against the

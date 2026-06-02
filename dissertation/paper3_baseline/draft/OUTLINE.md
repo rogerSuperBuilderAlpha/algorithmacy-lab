@@ -1,8 +1,15 @@
 # Paper 3 — expanded outline (the drafting blueprint)
 
+> **SUPERSEDED.** This expanded outline guided an earlier draft built around an empirical "calibration
+> anchor." The dissertation was recast as a **formal-model** contribution and `draft/DRAFT.md` is now the
+> authoritative paper. The anchor was **cut** (it validated only the party-count axis, Φ = k+1; scripts
+> demoted to `exploratory/`); the paper claims **no validation against the world** and characterizes the
+> W–S–C **model family**. Use `../OUTLINE.md` (v4) and `../ARGUMENT.md` for the current structure; the
+> blueprint below is retained for provenance only and its anchor/calibration sections are obsolete.
+
 **Roger Hunt III · Bentley University**
-Working title: *A readability score for coordination: calibrating integrated information as a measure of
-triadic demand across organizations*
+Working title: *Toward a readability score for coordination: a formal model of triadic demand across
+organizations*
 
 The drafting blueprint produced by the pipeline (genre research → general outline → topic research +
 robustness battery → this expanded outline). Empirical/quantitative genre, structured as a

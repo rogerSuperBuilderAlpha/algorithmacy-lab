@@ -21,3 +21,7 @@ cbh_complexity/literature/cbh2026_fulltext.txt
 # Dissertation source PDFs (paywalled — kept local, DOIs in the bib) and media
 dissertation/sources/pdfs/
 *.m4a
+
+# Paper 3 catalog: keep catalog.csv/analysis/figure, drop run log + smoke artifact
+dissertation/paper3_baseline/results/catalog_run.log
+dissertation/paper3_baseline/results/catalog_smoke.csv

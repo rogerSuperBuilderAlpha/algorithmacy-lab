@@ -1,4 +1,10 @@
-# Paper 2 outline: measuring whether a coordination form is triadic
+# Paper 2 outline: modeling whether a coordination form is triadic
+
+> **SUPERSEDED.** This outline predates the formal-model recast; `draft/DRAFT.md` and `../ARGUMENT.md` are
+> authoritative. Read "decision procedure / measure / verdict / calibration anchor" below as the old framing:
+> Φ is now **adopted as a formal model** (a modeling choice, not a claimed identity), the paper claims **no
+> validation against the world**, and the calibration anchor was **cut**. The critiques of the borrowed
+> measure are now acknowledged and answered.
 
 Roger Hunt III
 Bentley University

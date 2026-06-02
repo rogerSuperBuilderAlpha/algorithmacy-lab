@@ -1,6 +1,15 @@
-# Paper 2 — execution plan (construct development + IIT measurement instrument)
+# Paper 2 — execution plan (construct development + IIT formal model)
 
-**Mode:** construct / measurement. The IIT instrument is literal here. **Status:** scaffolded, not executed.
+> **RECAST NOTICE (superseding).** This plan predates the formal-model recast. The authoritative artifacts
+> are now `draft/DRAFT.md`, `ARGUMENT.md`, and `state_alphabet.md`. Φ is **adopted as a formal model** under
+> three named modeling choices (W–S–C representation, the state-individuation rule, the party partition), not
+> asserted as *identical* to triadicity; "decision procedure / verdict" below should read as "formal model /
+> classification," and the "calibration anchor handed to Paper 3" is obsolete (that anchor was cut). The
+> paper also now acknowledges the borrowed measure's critics (the 2023 IIT pseudoscience debate; Cerullo's
+> XOR-grid result).
+
+**Mode:** construct + formal model. The IIT model is literal here. **Status:** executed and drafted
+(`draft/DRAFT.md`).
 
 ## The instrument (reuse from this repo)
 

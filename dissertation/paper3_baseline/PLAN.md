@@ -1,6 +1,15 @@
-# Paper 3 — execution plan (a portable model for analyzing organizations)
+# Paper 3 — execution plan (formal model of triadic demand)
 
-**Mode:** model + empirical calibration. **Status:** reframed and scaffolded; not executed.
+> **RECAST NOTICE (superseding).** This plan predates the formal-model recast. The authoritative artifacts
+> are now `draft/DRAFT.md`, `results.md`, and `ARGUMENT.md`. Two things below are obsolete: (1) the
+> empirical-**calibration / anchor** spine was **cut** — in the pooling model Φ = k+1, so the Chicago anchor
+> validated only the party-count axis (the scripts are demoted to `exploratory/`); (2) the paper claims **no
+> validation against the world** — it characterizes the W–S–C **model family** and places organizations on
+> it. Read references to "calibration," "anchor," and "calibrated scale" below as superseded.
+
+**Mode:** formal model (no empirical validation). **Status:** executed and drafted — model family enumerated
+(4,144 wirings, `catalog.py`/`analyze_catalog.py`), typology placed (`typology_phi.py`), full draft written
+(`draft/DRAFT.md`); the rideshare anchor cut to `exploratory/`. Results in `results.md`.
 
 ## What it does (reframed)
 

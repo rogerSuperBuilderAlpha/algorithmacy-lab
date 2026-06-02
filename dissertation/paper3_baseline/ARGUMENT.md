@@ -1,139 +1,100 @@
 # Paper 3 — the argument (spine)
 
-Paper 2 built an instrument that decides *whether* a coordination form is triadic. Paper 3 turns that
-instrument into a **portable model for analyzing organizations** — a procedure that takes any
-organization's coordination structure, maps it to the Worker–System–Counterpart application layer,
-computes Φ, and places it on a single scale of triadic demand. The model is the contribution. We
-validate it against an observed coordination outcome in one data-rich domain so the scale is calibrated
-rather than arbitrary, then we demonstrate it across a typology of organization types — showing the model
-discriminates across the full range of how organizations coordinate, from the purely dyadic to the
-strongly triadic.
+Paper 2 built a formal model that classifies *whether* a coordination form is triadic (Φ > 0). Paper 3 puts
+that model to work across the **whole W–S–C model family**: it enumerates every way three nodes can be wired
+to depend on one another (all 4,096 three-node wirings, plus a higher-order family), computes exact Φ for
+each, and shows the scores fall onto a handful of discrete bands rather than spreading continuously. Real
+organizations are then placed on the populated bands. The headline result is a statement about the model and
+needs no empirical anchor: the score tracks the **structure** of how parties reach one another, not the
+**technology** in the middle — a human-run court is modeled at the same score as an algorithmic platform of
+the same shape. The paper is explicit that it does **not** validate the model against any observed
+coordination outcome; that is the empirical program it opens.
 
-The unit is the coordination form, not the person, exactly as a readability score is a property of a
-text and not of a reader. This paper places *organizations* on the scale; the matched person-level
-instrument is later work.
+The unit is the coordination form, not the person, exactly as a readability score is a property of a text
+and not of a reader. This paper places *organizations* on the model's bands; the matched person-level
+instrument, and the outcome validation, are later work.
 
 ## The thesis (one sentence)
 
-The demand a coordination form makes for algorithmacy is **measurable as a property of the form**, by a
-portable model that computes Φ over the form's application-layer structure and reads it on a scale
-calibrated against an observed coordination outcome — a model general enough to place organizations of
-very different types (algorithmic platforms, institutional gatekeepers, human intermediaries, and dyadic
-baselines) on one continuum of triadic demand.
+Computing the Paper 2 Φ model across the complete W–S–C family yields a graded, model-internal score whose
+levels fall out of the family rather than being assigned; real organizations occupy a few of its bands, and
+the score is set by the determination structure of the coordination form rather than by whether the mediator
+is software or a human — a formal-model result, not a measurement validated against the world.
 
 ## The three load-bearing claims
 
-**Claim A — the unit is the coordination form, not the person.** A difficulty score is a property of how
-an organization coordinates, validated against how coordination through it actually goes; it carries no
-claim about any individual. This is the readability move made exactly: a text-difficulty score is
-validated against measured comprehension and says nothing about a given reader. The person-level
-(supply-side) competency is the matched sibling the program builds later. The variance puzzle that opened
-Paper 1 — why two workers facing the same form fare differently — is the destination of the matched pair,
-not of this paper, and we say so rather than smuggle individuals in through the back.
+**Claim A — the unit is the coordination form, not the person.** A demand score is a property of how an
+organization coordinates its parties; it carries no claim about any individual. This is the readability move
+about the unit: a text-difficulty score is a property of the text and says nothing about a given reader. The
+variance puzzle that opened Paper 1 — why two workers facing the same form fare differently — is the
+destination of the matched person-level instrument (later work), not of this paper.
 
-**Claim B — the model is portable across organization types.** The same procedure — map the
-organization's coordination to W–S–C, individuate states by the pre-registered rule, compute Φ — applies
-whether the mediator is an algorithm, an institution, or a person, and whether the organization is a
-rideshare platform, a hiring pipeline, a court, or a staffing agency. Portability is the point of a
-*model*, as against a study of one case: one method, applied uniformly, yields comparable scores across
-organizations that otherwise share no vocabulary. The diversity of what the model can place is the
-evidence that it is a model and not a description.
+**Claim B — the score spans the whole family, and the levels emerge from it.** One procedure — model
+coordination as a Worker–System–Counterpart system under Paper 2's individuation rule, compute Φ — is
+applied not just to chosen cases but to the *complete* enumeration of three-node wirings (16³ = 4,096) plus a
+higher-order family. The levels are not set by hand: nearly half of all wirings are reducible (Φ = 0), and
+the rest collapse onto a handful of discrete bands. Most wirings are not coordination forms at all — the
+enumeration is a coverage/null check — and its payoff is that real organizations fall on *populated* bands of
+the family, so their levels are a property of the family, not an artifact of which cases the author chose.
 
-**Claim C — a measure becomes a scale only when it is anchored.** Φ gives a number, and a number is not
-a difficulty scale until it is tied to an observable outcome that moves with difficulty. The
-**calibration anchor is the empirical load-bearing decision**, exactly as the state-individuation rule
-was Paper 2's. We anchor in one data-rich domain — rideshare pooling, where the platform coordinates two
-riders who never meet plus a driver entirely through its matching determination, and where the public
-record carries the outcome (whether the match happened; what it cost). The anchor proves Φ tracks real
-coordination difficulty; having proved it, the anchor recedes and the model does the work.
+**Claim C — the score responds to structure, not to the mediator's nature.** This is the paper's headline and
+it is a claim about the model, requiring no outcome data. Modeled by determination structure, a human-run
+court scores the same as an algorithmic platform of the same shape (both strict mediation, Φ = 2.00), and a
+human staffing agency the same as an algorithmic freelance marketplace (both partial mediation, Φ = 0.83).
+The human-mediated forms interleave with the algorithmic ones at every level, sorted by structure — the
+decisive evidence that the model measures triadic *coordination* and not *algorithms*.
 
-## How the computation serves the argument (anchor, then place the field)
+## What the computation actually does
 
-The empirical work runs in two stages, and the order is the argument.
+*The catalog (the model family).* We enumerate the complete family of three-node W–S–C wirings — every way
+each node's next value can depend on the other two, all 16³ = 4,096 wirings — plus a 48-wiring higher-order
+family, and compute exact Φ for each (`catalog.py`; 4,144 distinct wirings after deduplication). Most are not
+coordination forms; the enumeration is a coverage check, not a census of coordination. The result
+(`analyze_catalog.py`, `catalog_landscape.png`): **44.1%** of wirings are reducible (Φ = 0), and the rest
+fall onto **seven discrete non-zero bands**. A structural model of Φ shows **strict mediation is the
+strongest single driver** (partial coef +0.54), then parity (+0.27) and edge density (+0.24) — but the model
+reaches only **R² = 0.20**, so Φ is *not* reducible to a feature checklist; that residual is the
+irreducibility the construct is meant to capture. One result we read against ourselves: parity determinations
+score the highest Φ, the model-internal echo of Cerullo's (2015) XOR-grid caution that high Φ does not mean
+sophisticated coordination — so we read magnitude only ordinally.
 
-*Stage 1 — anchor.* In the calibration domain (rideshare pooling), Φ varies with the coordination
-structure: a solo dispatch is the rideshare triad of Paper 2, a pooled dispatch is a higher-order
-coordination binding more strangers through one determination. We compute Φ under the uniform rule and
-show it tracks the observed outcome — pooled-match success and detour cost, by area and time — as the
-construct predicts: where the coordination is more demanding, it succeeds less cleanly. This is the
-validation that turns the number into a scale. (Chicago Transportation Network Providers — Trips is the
-anchor dataset: large-scale, public, and the one carrying a coordination outcome at scale. It is the
-calibration weight, not the subject.)
+*The typology (organizations on the bands).* Each of ~13 organizations is modeled by hand as a small Boolean
+system over W–S–C nodes (a fourth node for higher-order forms), its determination structure fixed *before*
+computing in `typology_phi.py`, derived from how that organization actually coordinates — not chosen for a
+target Φ. Each lands on a populated band:
 
-*Stage 2 — place the field.* We then place a **typology of organization types** on the calibrated scale
-by their computed Φ alone. The dyadic baselines (a direct exchange; a chat with a model) sit at the
-floor; the strongly triadic forms (the mediator-bound platform triad, the pooled ride, the hiring
-pipeline) sit high; institutional and human-mediated intermediaries fall where their determination
-structure puts them. The spread is the result: organizations differ in measurable degree of triadic
-demand, the model places them all by one procedure, and the placements track how coordination through
-each actually goes.
-
-The calibration also resolves what Paper 2 pre-registered as open. The continuous-stream case — a
-platform that commits determinations without pause, where the analyst must choose a window and Φ depends
-on the choice — is settled here not by fiat but by the anchor: the granularity is fixed at the scale on
-which Φ best tracks the outcome it is meant to predict. The window that calibrates is the window that
-counts.
-
-## The typology of organization types (the spread the model places)
-
-The candidate set spans the range of mediated coordination, chosen so the model is tested across kinds,
-not just instances. (To be refined with the author; each is modeled as a W–S–C application-layer system
-and scored by Φ.)
-
-- **Dyadic baselines** (floor): a direct two-party exchange with no constitutive mediator; a worker in
-  conversation with a language model. Expected Φ ≈ 0 — the cases literacy already handles.
-- **Algorithmic platforms**: rideshare (solo and pooled), food delivery, freelance marketplace,
-  microtask/crowdwork. The mediator is an algorithm pursuing its own objectives across both sides.
-- **Algorithmic-institutional gatekeepers**: applicant-tracking/hiring, content moderation, credit or
-  benefits scoring. A determination an institution commits between a person and an outcome.
-- **Human-mediated intermediaries** (the contrast that shows the model is not about algorithms): a court
-  (a judge between opposing parties), a healthcare staffing agency (between a worker and a facility), a
-  broker between buyer and seller. Triadic by structure, with a human in the mediator seat.
-
-The point of the contrast class is decisive: if the model is really measuring *triadic coordination* and
-not *algorithms*, a human-mediated court should score as triadic as an algorithmic platform when its
-determination structure is the same. That is a prediction the model makes and the typology tests.
+| Φ | what it is | examples |
+|---|---|---|
+| 0.00 | no constitutive mediator | direct exchange; chat with a language model |
+| 0.50 | parity-coupled determination | complementary skill matching (XOR) |
+| 0.83 | partial mediation (parties keep a direct channel) | freelance marketplace; staffing agency; broker |
+| 2.00 | strict mediation (parties reach each other only through a joint determination) | rideshare solo; food delivery; hiring/ATS; content moderation; **court** |
+| 3.00 | higher-order (a determination binding >3 parties; 4-node) | pooled rideshare; crowdwork |
 
 ## What is claimed, exactly (the honest bounds)
 
-1. **The scale measures the form, not the person.** Every claim is about the coordination form and its
-   observed outcomes; none is about an individual's competency. The supply-side instrument is named as
-   next work, not delivered.
-2. **One calibration domain limits generalization of the anchor.** The Φ→outcome relationship is
-   validated in one domain; a calibrated scale in one domain is the precondition for porting the model to
-   others, not a claim that the same outcome would be observed everywhere. The *model's* portability and
-   the *anchor's* domain are different claims, and we keep them apart.
-3. **Placement by Φ is a structural claim; only the anchor is outcome-validated.** Organizations placed
-   in Stage 2 are placed by their determination structure; we are explicit that their positions are
-   model outputs, outcome-validated only insofar as the anchor licenses the scale.
-4. **The anchor is an association, argued carefully.** We show Φ and the observed outcome move together
-   as the construct predicts; we do not overclaim causation from observational records.
-5. **Tractability bounds the state alphabet**, applied uniformly so scores are comparable; what is
-   coarsened is reported, not hidden.
+1. **The score measures the form, not the person.** Every claim is about the coordination form as modeled;
+   none is about an individual's competency. The supply-side instrument is named as next work, not delivered.
+2. **Everything here is model-internal; nothing is validated against the world.** The catalog and the
+   typology characterize what the model computes; they are not an outcome validation, and this paper performs
+   none. The earlier rideshare "anchor" was cut because, in the pooling model, Φ = k+1, so it validated only
+   the party-count axis — the one axis the model does not need to be interesting (see `exploratory/`).
+   Outcome-validation must vary determination structure at a *fixed* party count; that is future work.
+3. **The structure axis is a model result.** That Φ separates forms at fixed party count (parity 0.50 vs
+   partial 0.83 vs strict 2.00 at n=3) is the model's novel content, shown across the whole family — a
+   structural finding, not an outcome-validated one.
+4. **Magnitude is ordinal only.** High Φ does not certify sophistication (Cerullo, 2015); we lean on the
+   binary Φ = 0 / Φ > 0 distinction and read positive Φ only as a within-model ordering.
+5. **Tractability bounds the state alphabet**, applied uniformly so scores compare; the cross-node 3.00 level
+   is partly a function of system size and is not strictly comparable to the 0–2.00 bands.
 
 ## Section map
 
-| § | Function in the argument |
+| § | function in the argument |
 |---|---|
-| 1 Introduction | from a decision procedure (Paper 2) to a portable, calibrated model; the unit is the coordination form, across organization types |
-| 2 The unit | the coordination form, not the person; the readability parallel; the matched individual instrument as later work |
-| 3 The model | the portable procedure — map any organization to W–S–C, individuate, compute Φ; uniform application is what makes scores comparable |
-| 4 The anchor | **the load-bearing decision** — validating Φ against an observed outcome in one data-rich domain (rideshare pooling) |
-| 5 The baseline across organization types | the typology placed on the validated scale; the human-mediated contrast class; the spread |
-| 6 What the model establishes | a portable instrument for analyzing coordination in any organization; the matched supply-side scale and added domains as next work |
-
-The center of gravity is §3 (the model) and §5 (the spread it produces across organization types). §4
-(the anchor) is what licenses the scale; §2 protects the contribution from the "where are the
-individuals?" objection; §6 hands the program forward.
-
-## Decisions taken (this session)
-
-- **Scale design: anchor-then-place** (author). Validate Φ→outcome in one domain, then place the
-  organization typology by Φ.
-- **Dataset scope: one anchor domain, model applied broadly** (delegated to me). Chicago TNC Trips is the
-  single calibration anchor — chosen because it is the accessible large-scale dataset carrying a
-  coordination outcome — while the paper's reach is the typology of organization types, per the author's
-  steer to "explore different types of organizations and come up with a model to analyze them."
-- **Open for the author:** the final typology of organization types in §5 (the candidate set above is a
-  proposal to refine), and whether the human-mediated contrast class stays in this paper or is flagged
-  for the next.
+| 1 Introduction | from a yes/no model (Paper 2) to a graded model-internal score; the readability score named as the goal, not delivered; the unit is the coordination form |
+| 2 The unit | the coordination form, not the person; the readability parallel (and what we do not borrow — the completed validation); the matched instrument as later work |
+| 3 Model and methods | the modeling procedure (W–S–C → individuate → Φ); the complete-family catalog (a coverage check); the typology fixed before computing; what we compute and report (incl. the Cerullo caution) |
+| 4 Results | the family's Φ landscape (emergent bands; what drives Φ; R² = 0.20); the typology on the populated bands; the structure-not-seat headline |
+| 5 Discussion | structure, not the mediator's seat, sets the score; the catalog makes it more than extrapolation; orthogonal to governance schemes; the precedent (Engel & Malone) and the limits (no validation; vary structure at fixed n next) |
+| 6 Limitations / conclusion | model-internal, not validated; the party-count axis is why the anchor was cut; magnitude ordinal; the validation and matched supply-side scale handed forward |

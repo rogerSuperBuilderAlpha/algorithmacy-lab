@@ -55,33 +55,46 @@ The genre standard, distilled:
   style anchor); ~12–20k words, not the 8k of the IIT papers. **Citation integrity is binding** — management
   reviewers verify every cite; resolve every cite to the `.bib` and confirm it directly.
 
-## Mode B — construct development + measurement (Paper 2)
+## Mode B — construct development + formal model (Paper 2)
 
-- **Instrument is literal:** exact IIT-4.0 Φ over an application-layer transition matrix, reusing
+- **The model is literal:** exact IIT-4.0 Φ over an application-layer transition matrix, reusing
   `proxy_audit.exact_phi` and `pyphi.new_big_phi.evaluate_partition` (the worker–system–counterpart
-  partition) under `~/iit-playground/venv-4.0/bin/python`.
-- **Validate on controls first:** a factoring TPM → Φ ≈ 0; a known-irreducible coupling → Φ > 0 that the
-  W–S–C partition cannot reduce. Pre-register the **state-individuation rule** (the single empirical
-  commitment) before any computation.
+  partition) under `~/iit-playground/venv-4.0/bin/python`. Φ is **adopted as a model**, not asserted to *be*
+  triadic demand.
+- **Name the modeling choices, don't hide them:** the three load-bearing choices are (i) the W–S–C Boolean
+  representation, (ii) the **state-individuation rule**, and (iii) the party partition. Fix all three before
+  any computation; the score is a property of the model they define.
+- **Check on controls first:** a factoring TPM → Φ ≈ 0; a known-irreducible coupling → Φ > 0 that the W–S–C
+  partition cannot reduce.
+- **Acknowledge the borrowed measure's critics** (the 2023 IIT pseudoscience debate; Cerullo's XOR-grid
+  result) and answer them with the formal-model framing: borrow the irreducibility mathematics, not the
+  consciousness theory; read magnitude only ordinally.
 - **Construct-clarity discipline** (Suddaby 2010; Cronbach & Meehl 1955): definition, domain, dimensions,
   discriminant position, nomological network.
 - **Compute the worked examples; report the actual Φ values.**
 
-## Mode C — experiment (Paper 3)
+## Mode C — formal model / model-family analysis (Paper 3)
 
-- **Instrument:** Paper 2's, applied uniformly across platforms; ground truth = an **observed coordination
-  outcome** (the calibration anchor — the load-bearing decision).
-- **Robustness/honesty battery** as in the IIT experiments: granularity discipline, seeds where stochastic,
-  report what is dropped; validation is feature-tied-to-outcome (the readability precedent).
-- **Unit is the platform, not the person.**
+- **The model:** Paper 2's, applied uniformly. There is **no external ground truth and no outcome
+  validation** — Paper 3 characterizes what the model yields (it is model-internal throughout) and is
+  explicit that validation against an observed outcome is future work.
+- **Enumerate the whole model family** (all 16³ three-node wirings) as a coverage check, not a census of
+  coordination: most wirings are not coordination forms; the payoff is locating real organizations on
+  populated bands and showing the score is not a feature count (low R²).
+- **Carry the magnitude caveat openly** (Cerullo 2015): parity scores highest Φ, so read magnitude ordinally
+  and lean on the binary Φ=0/Φ>0 distinction.
+- **No empirical anchor.** An earlier rideshare-pooling anchor was cut because Φ=k+1 made it validate only
+  the party-count axis; it is demoted to `paper3_baseline/exploratory/`. The validation the model needs must
+  vary determination structure at a fixed party count.
+- **Unit is the coordination form, not the person.**
 
 ## Per-paper load-bearing decisions (name them, don't hide them)
 
 | Paper | Load-bearing decision |
 |---|---|
 | 1 | fair representation of each foreclosed construct (charitable-extension test) |
-| 2 | the state-individuation rule (pre-registered) |
-| 3 | the calibration anchor (and the Chicago TNC dataset that supplies it) |
+| 2 | the three modeling choices (W–S–C representation; the state-individuation rule; the party partition), and adopting Φ as a model rather than asserting it as identity |
+| 3 | characterizing the model (model-internal), not validating it against an outcome — the rideshare anchor was cut for validating only the party-count axis |
 
 ## Reuse & environment
 

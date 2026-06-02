@@ -9,8 +9,8 @@ practice for a manuscript-style (three-paper) dissertation in which each paper m
 of the three papers carries its own complete, citation-integrity-verified bibliography within its chapter:
 
 - **Chapter 2 (Paper 1)** — "Consolidated bibliography" (the integrative review's full reference list).
-- **Chapter 3 (Paper 2)** — "References" (31 entries; every in-text cite verified, no orphans).
-- **Chapter 4 (Paper 3)** — "References" (23 entries; every in-text cite verified, no orphans).
+- **Chapter 3 (Paper 2)** — "References" (34 entries; every in-text cite verified, no orphans).
+- **Chapter 4 (Paper 3)** — "References" (22 entries; every in-text cite verified, no orphans).
 
 The two **framing chapters** cite sparingly, and every framing-chapter citation also appears in the papers'
 bibliographies. For completeness, the framing chapters' references are:
@@ -47,31 +47,33 @@ end to end from the public repository. The instrument and the analysis scripts a
 | `dissertation/paper2_construct/phi_instrument.py` | the Worker–System–Counterpart application-layer instrument; exact IIT-4.0 system Φ over the MIP; the two validation controls (factoring → Φ = 0; irreducible → Φ > 0) |
 | `dissertation/paper2_construct/worked_examples.py` | the dyadic limit (Φ = 0), the irreducible triad (Φ = 2.0), the false triad (Φ = 0), the false dyad (Φ = 2.0), and the eliminate-the-dyad sweep (2.0 → 0.83 → 0.0) |
 
-**The empirical model and calibration (Chapter 4, Paper 3).**
+**The model family and typology (Chapter 4, Paper 3).** All compute exact Φ and use no outside data.
 
 | Artifact | What it computes |
 |---|---|
-| `dissertation/paper3_baseline/typology_phi.py` | Stage 2 — the typology of organizations modeled as application-layer systems; Φ per organization (the five structural levels); the human-mediated contrast class. Uses no data. |
-| `dissertation/paper3_baseline/anchor_chicago.py` | Stage 1 — the calibration anchor; Φ by pool size; the Φ-versus-outcome correlations. `--refresh` re-pulls the live sample. |
-| `dissertation/paper3_baseline/robustness_anchor.py` | the robustness battery — temporal stability, the within-stratum (Simpson's) check, alternative aggregations, the trip-level effect size, and the power note. |
+| `dissertation/paper3_baseline/catalog.py` | the complete W–S–C model family — all 16³ = 4,096 three-node wirings plus a 48-wiring higher-order family; exact Φ for each, with structural features; writes `results/catalog.csv`. |
+| `dissertation/paper3_baseline/analyze_catalog.py` | the Φ landscape (the discrete bands), the feature→Φ regression (R² = 0.20), the placement of the organizations, and Figure 4.1 (`results/catalog_landscape.png`). |
+| `dissertation/paper3_baseline/typology_phi.py` | the typology of organizations modeled as application-layer systems; Φ per organization (the five bands); the human-mediated contrast class. |
 
-**Data.** The calibration anchor uses the City of Chicago open dataset "Transportation Network Providers —
-Trips (2018–2022)," Socrata resource `m6dm-c72p`, queried through the bounded requests documented in
-`anchor_chicago.py` and `robustness_anchor.py`. The dataset is public; no credentials are required. Raw
-bulk data is not redistributed in the repository; the per-pool-size aggregates needed to reproduce the
-reported numbers offline are embedded in `anchor_chicago.py`.
+**Data.** The dissertation's claims use no outside data: every reported Φ value is computed from the model.
+An exploratory analysis against the City of Chicago "Transportation Network Providers — Trips" dataset
+(Socrata resource `m6dm-c72p`) was **cut from the dissertation** because, in the pooling model, Φ is a
+linear function of pool size and so the analysis validated only the party-count axis of the score. Its
+scripts (`anchor_chicago.py`, `robustness_anchor.py`) are retained, clearly labeled as outside the
+dissertation's claims, in `paper3_baseline/exploratory/` as a template for the structure-varying validation
+the model would actually require. Their numbers are not cited anywhere in the dissertation.
 
 **Reproduce the computed results.**
 
 ```
-# Chapter 3 (Paper 2): instrument controls + worked examples
+# Chapter 3 (Paper 2): model controls + worked examples
 ~/iit-playground/venv-4.0/bin/python dissertation/paper2_construct/phi_instrument.py
 ~/iit-playground/venv-4.0/bin/python dissertation/paper2_construct/worked_examples.py
 
-# Chapter 4 (Paper 3): typology, calibration anchor, robustness battery
+# Chapter 4 (Paper 3): the model family + the typology (no outside data)
+~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/catalog.py
+~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/analyze_catalog.py
 ~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/typology_phi.py
-~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/anchor_chicago.py        # add --refresh for live data
-~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/robustness_anchor.py     # needs network
 ```
 
 ---

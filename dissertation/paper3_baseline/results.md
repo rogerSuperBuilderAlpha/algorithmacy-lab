@@ -1,74 +1,78 @@
-# Paper 3 — computed results: the typology on the triadic-demand scale
+# Paper 3 — computed results: the Φ landscape of the W–S–C model family and the typology on it
 
 Exact IIT-4.0 system Φ via `proxy_audit.exact_phi` (PyPhi `new_big_phi.sia`), over application-layer
-systems built under Paper 2's pre-registered state-individuation rule. Each organization's determination
-structure is fixed *before* computing (pre-registered in `typology_phi.py`), derived from how that
-organization actually coordinates its parties — not chosen for a target Φ. Reproduce:
-`~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/typology_phi.py`.
+systems built under Paper 2's pre-registered state-individuation rule. Everything here is **model-internal**:
+it characterizes what the formal model of Paper 2 yields across its whole domain and where hand-modeled
+organizations fall within it. The dissertation makes **no claim that these scores are validated against any
+observed coordination outcome** — that is future work (see `exploratory/` for why the earlier rideshare
+"anchor" was cut). Reproduce:
+`~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/catalog.py` then
+`… analyze_catalog.py` (writes `results/catalog.csv`, `catalog_analysis.txt`, `catalog_landscape.png`).
 
-## Stage 1: the calibration anchor (Chicago rideshare pooling)
+## Stage 1: the model family — the complete space of W–S–C wirings
 
-The anchor ties Φ to an observed coordination outcome, so the scale is calibrated rather than asserted.
-In rideshare pooling the platform coordinates a driver and *k* riders who never meet, entirely through
-the dispatch it commits; each pool size is a distinct coordination form, modeled as a (k+2)-node strict
-higher-order mediation system. Computed Φ rises with the number of bound parties: **Φ = k + 1** (solo
-2.0, 2-pool 3.0, 3-pool 4.0, 4-pool 5.0 — computed in `anchor_chicago.py` / `typology_phi.py`, zero
-reference to data). The model therefore predicts larger pools are harder to realize and costlier.
+A three-node system in our modeling vocabulary is *any* way each node's next value can depend on the other
+two: `W' = f_W(S,C)`, `S' = f_S(W,C)`, `C' = f_C(W,S)`. There are exactly 16 Boolean functions of two
+inputs, so the complete family is **16³ = 4096 wirings** — we enumerate all of them (plus 48 higher-order
+four-node wirings), with no curation, and compute exact Φ for each. **4,144 distinct wirings** result
+(after deduplicating identical transition matrices).
 
-Tested against City of Chicago open data ("Transportation Network Providers — Trips, 2018–2022",
-resource `m6dm-c72p`; 48,676-trip shared-authorized sample from the 2018 pooling era; completed-trips
-only, so pooling is the available outcome). Per pool size, among shared-authorized trips:
+**Read this correctly.** Most of these 4,096 wirings are *not* recognizable coordination forms; they are
+simply every Boolean way three nodes can be coupled. The enumeration is a **coverage / null check**, not a
+census of real coordination. Its value is twofold: it characterizes what the model does across its whole
+domain, and it shows that the hand-modeled organizations of Stage 2 are not cherry-picked but fall on
+populated, structurally meaningful bands of the family.
 
-| pool | model Φ | n | achievement share | friction (sec/mi) |
-|---|---|---|---|---|
-| 1 (solo) | 2.0 | 16,765 | 34.4% | 156.0 |
-| 2 | 3.0 | 17,135 | 35.2% | 182.4 |
-| 3 | 4.0 | 11,892 | 24.4% | 217.5 |
-| 4 | 5.0 | 2,884 | 5.9% | 227.1 |
+**The bands are a property of the family, not assigned.** Across all 4,096 three-node wirings, Φ takes only
+a handful of values:
 
-- **Φ vs friction (sec/mi): r = +0.980** — higher-Φ forms cost more time per mile (more coordination →
-  more detour), monotone across the four pool sizes (156 → 182 → 218 → 227).
-- **Φ vs achievement share: r = −0.912** — higher-Φ forms are realized less often; `log(share) ~ Φ`
-  slope = −0.565, so **each +1 in Φ multiplies how often the platform pulls the coordination off by
-  ~0.57** (roughly halving it per step of demand).
-- Match success P(pooled ≥ 2 | authorized) = 0.66.
-
-**The anchor result:** Φ, computed from determination structure alone, orders the pooling forms exactly
-as observed coordination difficulty does — on both the cost axis (friction) and the rarity axis
-(achievement). The scale is calibrated against behaviour. Reproduce:
-`~/iit-playground/venv-4.0/bin/python dissertation/paper3_baseline/anchor_chicago.py` (add `--refresh`
-to re-pull the live sample).
-
-*Honest bounds on the anchor:* (a) the Φ→friction relation runs through party count — bigger pools both
-raise Φ and add detour — so the anchor validates the *party-count axis* of Φ; the typology below shows Φ
-*also* separates forms at fixed party count (partial 0.83 vs strict 2.0 vs parity 0.5 at n=3), which
-party count alone cannot. (b) Observational association, not a causal claim.
-
-### Stage-1 robustness battery (full)
-
-Run on a 193,028-trip clean sample of shared-authorized trips spanning the full pooling era
-(2018-11 → 2020-03; outliers filtered to 0.5–60 mi, 120–7200 s, pace 20–1200 s/mi). Reproduce:
-`anchor_chicago.py --refresh` (headline) and `robustness_anchor.py` (battery).
-
-| robustness check | result | reading |
+| Φ band | # wirings | reading |
 |---|---|---|
-| **Effect size (trip-level)** | regression pace ~ Φ across all 193k trips: **slope +16.8 sec/mi per +1 Φ**, r=+0.139, **R²=0.019** | the aggregate r=+0.98 is across 4 points; per-trip the effect is small-but-robust — Φ is a *form-level* measure, not a per-trip predictor (this **reinforces Claim A**) |
-| **Temporal stability** | split at median date: aggregate r **+0.976 (early) vs +0.975 (late)**; trip-level slope +16.5 vs +15.2 | the Φ→outcome relation is stable across time windows |
-| **Within-stratum (Simpson's)** | friction rises monotonically with pool size in **7 of 8** top community areas | the trend holds *inside* strata — not a pooling/Simpson's artifact |
-| **Alternative aggregation** | r(Φ, friction) = **+0.98** (sum/sum), **+0.95** (mean pace), **+0.94** (median pace) | robust to the friction-aggregation choice |
-| **Achievement (replicated)** | share 33/35/26/6% by pool size; log(share)~Φ slope −0.544 (**×0.58 per +1 Φ**); r=−0.88 | replicates the rarity axis at larger N |
-| **Power** | N=193k → significance is trivial; report **R² and the slope**, not p | effect-size-first reporting |
+| 0.00 | 1,808 (44.1%) | reducible — the wiring factors along the party lines |
+| 0.42 | 856 | the most common nonzero level in the family |
+| 0.50 | 24 | parity-coupled determination |
+| 0.84 | 824 | partial-mediation band |
+| 1.00 | 72 | |
+| 1.50 | 8 | |
+| 2.00 | 496 | strict-mediation band |
+| 6.00 | 8 | a small tail of exotic high-Φ wirings |
 
-**Controls (labeled).** *Negative control:* the dyadic baselines (Φ=0; §2.C of Paper 2 / typology floor)
-— forms that should and do score zero. *Positive control:* Φ separates forms at **fixed party count**
-(partial 0.83 vs strict 2.0 vs parity 0.5, all n=3) — Φ carries signal that raw party count cannot, the
-answer to the party-count confound. **The confound, named:** the anchor's Φ→friction relation runs
-through party count; the fixed-n positive control is what shows Φ is more than a party counter, and the
-typology is where that extra signal lives.
+Nearly half of all wirings are reducible (Φ = 0): most ways of coupling three nodes do *not* produce an
+irreducible structure. The non-zero wirings collapse onto **seven discrete bands**, and the levels the
+organization typology occupies below (0, 0.5, 0.84, 2.0) are *populated bands of this family* — they fall
+out of the enumeration, they are not set by hand. (`catalog_landscape.png`.)
 
-## The baseline (Stage 2: the typology placed by Φ)
+### What drives Φ within the family
 
-| Φ (max) | Organization | Class | Structure |
+Group means and an OLS of max Φ on structural features (all 4,096 triads):
+
+| feature | effect | reading |
+|---|---|---|
+| **strict mediation** (parties read only a mediator that reads both) | meanΦ 0.90 vs 0.53; **partial coef +0.54** | the strongest single driver of the score |
+| **parity** (an XOR/XNOR coupling present) | meanΦ 0.79 vs 0.40; coef +0.27 | parity couplings score higher than monotone ones |
+| **edge density** | coef +0.24 per edge | more coupling, higher score |
+| mediator reads both parties | meanΦ 0.60 vs 0.42 (confounded with edges) | necessary but not sufficient |
+| back-channel present | negligible once controlled (coef −0.06) | a direct channel does not by itself lower the score |
+| **model R²** | **0.196** | **Φ is not reducible to a feature checklist** |
+
+The headline is that last line: simple structural flags explain only ~20% of the variance in Φ. Strict
+mediation and parity raise the score, but Φ registers an irreducibility that a count of parties or edges
+does not reproduce — which is exactly why the construct uses Φ and not a checklist.
+
+**A caution we carry openly (Cerullo, 2015).** Among genuine two-party mediators, **XOR/XNOR (parity)
+mediators score the highest Φ** (meanΦ 0.85) while the monotone ones (AND/OR/NAND/NOR/inhibition) sit at
+0.535. This is the model-internal echo of a known critique: Cerullo showed that trivially regular XOR
+structures can carry very high Φ, so **a high Φ does not certify sophisticated coordination.** We therefore
+read positive Φ only *ordinally and within the model*, lean on the binary Φ = 0 / Φ > 0 distinction for the
+dyad/triad question, and do not treat magnitude as a measure of how sophisticated a coordination is.
+
+## Stage 2: hand-modeled organizations placed in the family
+
+Each of 13 organizations is modeled as a W–S–C system (a fourth node for higher-order forms), its
+determination structure fixed *before* computing in `typology_phi.py`, derived from how it actually
+coordinates its parties — not chosen for a target Φ. Each lands on a populated band of the family:
+
+| Φ (max) | Organization | Class | Modeled structure |
 |---|---|---|---|
 | **0.00** | Direct exchange (no mediator) | dyadic baseline | parties deal directly; mediator inert |
 | **0.00** | Chat with a language model | dyadic baseline | two-party loop; nothing couples a third |
@@ -84,46 +88,34 @@ typology is where that extra signal lives.
 | **3.00** | Rideshare, POOLED (driver + 2 riders) | higher-order (n=4) | S′ = W ∧ C ∧ D |
 | **3.00** | Crowdwork (requester + 2 workers) | higher-order (n=4) | S′ = W ∧ C ∧ D |
 
-Five structural levels emerge: **0** (dyadic / no constitutive mediator), **0.5** (parity-coupled
-determination), **0.83** (partial mediation — the parties retain a direct channel), **2.0** (strict
-mediation — the parties reach each other only through a joint determination), and **3.0** (higher-order —
-a determination binding more than three parties). The level is set by the determination structure, and
-the model returns each form's place by one uniform procedure.
+### The headline: structure sets the score, not the seat of the mediator
 
-## The headline: structure sets the score, not the seat of the mediator
+The human-mediated contrast class is the test that the model responds to *triadic structure* and not to
+*algorithms*, and the model passes it cleanly — and this result needs no empirical anchor, because it is a
+statement about what the model does:
 
-The human-mediated contrast class is the test that the model measures *triadic coordination* and not
-*algorithms*, and it passes cleanly:
+- **A court is modeled at Φ = 2.00 — the same as Uber, the ATS, and content moderation.** A judge between two
+  parties who reach each other only through rulings is, in the model, the same strict mediator as the
+  dispatch algorithm. The human in the seat does not change the modeled score.
+- **A staffing agency and a real-estate broker are modeled at Φ = 0.83 — the same as Upwork.** All three
+  match the parties but leave them a direct channel; partial mediation lands at the same level whether the
+  matcher is an algorithm or a person.
 
-- **A court scores Φ = 2.00 — identical to Uber, the ATS, and content moderation.** A judge between two
-  parties who reach each other only through rulings is, structurally, the same strict mediator as the
-  dispatch algorithm. The human in the seat does not change the demand.
-- **A staffing agency and a real-estate broker score Φ = 0.83 — identical to Upwork.** All three match the
-  parties but leave them a direct channel; partial mediation lands at the same level whether the matcher
-  is an algorithm or a person.
-
-The human-mediated forms interleave with the algorithmic ones at every level, sorted by structure. This
-is the decisive evidence that algorithmacy is a demand of the *coordination form*, not a reaction to
-software — and that the model travels across organization types, which is what makes it a model rather
-than a platform study.
+The human-mediated forms interleave with the algorithmic ones at every level, sorted by structure — and the
+Stage-1 family shows these are not 13 special cases but populated bands of the whole model family.
 
 ## Notes and honest bounds
 
-- **The 3-node scale (0 → 2.0) is directly comparable.** The two higher-order cases are 4-node systems,
-  so their Φ = 3.0 is partly a function of system size; they show the scale *extends upward* when a
-  determination binds more parties (the pooled ride is the anchor domain's own higher-order form), but
-  cross-node magnitudes are not strictly comparable and we say so. A size-normalized companion measure is
-  a candidate for the write-up.
-- **Several organizations share a structure and therefore a score** (e.g., the four strict-mediation forms
-  at 2.0). This is a finding, not a defect: the model says forms that coordinate the same way make the
-  same demand, regardless of industry vocabulary.
-- **Partial vs strict mediation is a modeling choice that must reflect the real coordination** (does the
-  platform forbid off-app contact, or only introduce the parties?). Each placement's structure is
-  pre-registered and defensible from how the organization actually operates; the staffing-agency case in
-  particular (workers and facilities do coordinate directly once placed) is the reason it sits at 0.83
-  rather than 2.0.
-- **These are Stage-2 placements, validated insofar as the anchor licenses the scale.** Stage 1 above —
-  the Chicago rideshare-pooling anchor — ties Φ to observed coordination difficulty (friction r = +0.98,
-  achievement r = −0.91), which is what turns these structural scores into a calibrated scale. The anchor
-  validates the party-count axis of Φ; the typology shows Φ additionally separates forms at fixed party
-  count by determination structure. Together they establish Φ as a difficulty scale, not a party counter.
+- **Everything here is model-internal.** The catalog and the typology characterize the model; neither shows
+  that Φ tracks an observed coordination outcome. The dissertation makes no validation claim. The earlier
+  rideshare "anchor" was cut because, in the pooling model, Φ = k + 1, so it validated only the party-count
+  axis — the one axis Φ is not needed for (see `exploratory/README.md`). Outcome-validation, with a dataset
+  that varies determination structure at a *fixed* party count, is named as future work.
+- **The 3-node scale (0 → 2.0) is comparable; cross-node is not.** The higher-order cases are 4-node
+  systems, so their Φ (3.0 in the typology; up to 12.0 in the family's HO wirings) is partly a function of
+  system size. They show the score extends upward when a determination binds more parties, but cross-node
+  magnitudes are not strictly comparable and we say so. A size-normalized companion is a candidate.
+- **Many wirings share a score** (496 distinct triads at Φ = 2.0). This is a finding, not a defect: forms
+  the model couples the same way receive the same score, regardless of industry vocabulary.
+- **Φ is not a feature count.** The R² = 0.20 of the structural model is the evidence; and Cerullo's
+  XOR-grid result is the reason we never read magnitude as sophistication.

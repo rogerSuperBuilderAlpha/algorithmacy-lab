@@ -99,9 +99,9 @@ study rather than Morse directly; cite Morse for the phrase, the policy sources 
 
 | Standard component | Our state |
 |---|---|
-| Three standalone, publishable papers | ✅ Three complete drafts: Paper 1 (integrative review, ~25k words), Paper 2 (construct + measurement, ~8k), Paper 3 (empirical calibration, ~8k) — each with its own intro/methods/results and its own verified bibliography |
-| Distinct contribution per paper | ✅ A construct (algorithmacy), an instrument (Φ over the application layer), and a calibrated scale — three different contributions, not three slices |
-| Conceptual → empirical ordering | ✅ Review → construct/measurement → empirical, the canonical progression |
+| Three standalone, publishable papers | ✅ Three complete drafts: Paper 1 (integrative review, ~25k words), Paper 2 (construct + formal model, ~8k), Paper 3 (formal model / model-family analysis, ~8k) — each with its own intro/methods/results and its own verified bibliography |
+| Distinct contribution per paper | ✅ A construct (algorithmacy), a formal model (Φ over the application layer), and a graded model-internal landscape — three different contributions, not three slices |
+| Conceptual → formal ordering | ✅ Review → construct/formal-model → model-family analysis. NB: this is a deliberate departure from the canonical conceptual→**empirical** close — the empirical-validation stage is deferred to the program rather than performed, and the dissertation states this plainly. |
 | The middle paper bridges | ✅ Paper 2 explicitly frames itself as the bridge (it operationalizes Paper 1's distinction and hands Paper 3 the instrument) |
 | An explicit through-line | ✅ Stated in `README.md`: Φ measures the one thing the dyadic/triadic distinction needs — irreducibility of coordination to its parts; the shared object runs through all three papers |
 | Cross-paper coherence devices | ✅ Each paper references the others and the shared object; the load-bearing decisions are named per paper (`PROCESS.md`) |
@@ -138,22 +138,24 @@ Two framing chapters, drafted from material we already have.
 - **The through-line:** Φ as the measure of irreducibility; a coordination form is triadic when its
   application-layer structure does not factor across the worker–system–counterpart partition.
 - **How the three papers connect:** Paper 1 establishes that the form exists and the existing constructs
-  miss it (the construct); Paper 2 builds the decision procedure that says whether a given form is triadic
-  (the instrument); Paper 3 calibrates that procedure into a scale and reads organizations on it (the
-  measure). Conceptual → operational → empirical.
+  miss it (the construct); Paper 2 builds the formal model that classifies whether a given form is triadic
+  (the model); Paper 3 grades that model across organizations (the graded landscape). Conceptual →
+  operational → formal; the empirical validation is the program's next arc, not a chapter here.
 - **The combined contribution, previewed**, and a brief preview of each chapter.
 
 ### B. Integrative discussion / conclusion chapter
-- **The combined contribution:** a named construct, a validated instrument, and a calibrated, portable
-  scale for triadic coordination — three results that together turn "coordination is becoming triadic"
-  from a claim into something defined, measurable, and measured.
+- **The combined contribution:** a named construct, a formal model, and a graded model-internal landscape
+  for triadic coordination — three results that together turn "coordination is becoming triadic" from a
+  claim into something defined, computable, and graded (with empirical validation named as the next arc).
 - **Overall significance and implications:** for communication/organization theory (a competency the
   dyadic constructs miss), for platform work and its design pressures (the eliminate-the-dyad result), and
   for regulation and worker organization (the scale locates the lever).
-- **The unified future-research program:** the matched person-level instrument (the supply-side sibling),
-  additional calibration domains, and the within-form variance the matched pair will explain.
-- **Honest limits of the whole arc:** the three named load-bearing decisions (fair representation; the
-  state-individuation rule; the calibration anchor) and the bounds each imposes.
+- **The unified future-research program:** the empirical validation of the model (varying determination
+  structure at a fixed party count), the matched person-level instrument (the supply-side sibling), and the
+  within-form variance the matched pair will explain.
+- **Honest limits of the whole arc:** the named load-bearing decisions (fair representation; the
+  state-individuation rule and the other modeling choices; the decision to characterize the model rather
+  than validate it against an outcome) and the bounds each imposes.
 
 ### Optional but advisable
 - A short **front-matter abstract of the whole dissertation** (distinct from each paper's abstract).

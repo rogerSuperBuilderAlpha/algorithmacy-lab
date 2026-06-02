@@ -3,7 +3,7 @@ typesetting (PDF/Word assembly); markdown carries no pagination. Items in [brack
 the author/program to complete. -->
 
 # The Transition to Algorithmacy
-## A Construct, an Instrument, and a Scale for Triadic Algorithmic Coordination
+## A Construct and a Formal Model of Triadic Algorithmic Coordination
 
 <br>
 
@@ -43,11 +43,11 @@ Waltham, Massachusetts
 
 Equivalently positioned workers passing through identical algorithmic systems receive divergent coordination outcomes, and the constructs the field has for studying work with algorithms do not explain the variance. This dissertation argues that the puzzle is the surface of a structural change: coordination has become triadic. A worker now coordinates with a counterpart she may never meet, a rider, a hiring manager, a customer, through a system that interprets both, acts on both, and commits determinations neither party controls. The existing constructs are built around a dyad, a person and a system, and cannot reach this triad; the competency it demands, which the dissertation names algorithmacy, was unnamed and unmeasured.
 
-The dissertation develops the construct, builds an instrument to measure the condition that demands it, and calibrates the measure across organizations, in three papers ordered from the conceptual to the empirical. Paper 1, an integrative review, establishes that the triadic coordination form is real, that the dyadic constructs cannot be extended to it, and specifies algorithmacy to the discipline of construct clarity. Paper 2 imports integrated information theory's measure of irreducibility, Φ, as a found tool and builds a decision procedure: a coordination form is triadic exactly when its application-layer structure does not factor across the worker–system–counterpart partition, a condition that is computable and that the paper validates on controls whose answers are known. Paper 3 calibrates the procedure into a portable scale, anchoring it against an observed coordination outcome in rideshare pooling, where Φ computed from structure tracks the friction of the coordination that the data record, and then places a typology of organizations on the calibrated scale. Its central finding is that the scale measures coordination and not technology: a human-mediated court scores the same as an algorithmic platform of the same structure.
+The dissertation develops the construct and builds a formal model of the condition that demands it, then grades that model across organizations, in three papers ordered from the conceptual to the formal. Paper 1, an integrative review, establishes that the triadic coordination form is real, that the dyadic constructs cannot be extended to it, and specifies algorithmacy to the discipline of construct clarity. Paper 2 adopts integrated information theory's measure of irreducibility, Φ, as a formal model: a coordination form is modeled as triadic exactly when its application-layer structure does not factor across the worker–system–counterpart partition, a condition that is computable, that the paper checks on controls whose answers are known, and that it presents as a modeling choice — with the measure's standing critiques acknowledged — rather than as a claimed identity. Paper 3 develops the graded, model-internal side by computing Φ across the complete family of three-node forms, finding the scores fall onto a few discrete bands, and placing a typology of organizations on them. Its central result, a statement about the model that requires no observed outcome, is that the score responds to determination structure and not to technology: a human-mediated court is modeled at the same score as an algorithmic platform of the same structure. The dissertation does not claim the model has been validated against any coordination outcome; that validation is the empirical program it opens.
 
-Together the three papers turn "coordination is becoming triadic" from an observation into an apparatus, a construct, a validated instrument, and a calibrated scale. The dissertation measures the demand a coordination form makes; the matched, person-level instrument that would measure a worker's capacity against it is the program this work opens.
+Together the three papers turn "coordination is becoming triadic" from an observation into a formal apparatus: a construct, a formal model of the condition that demands it, and a model-internal landscape that grades it. The dissertation models the demand a coordination form makes; the empirical validation of that model, and the matched, person-level instrument that would measure a worker's capacity against it, are the program this work opens.
 
-*Keywords:* algorithmacy; triadic coordination; algorithmic management; platform work; integrated information; construct development; measurement; calibration.
+*Keywords:* algorithmacy; triadic coordination; algorithmic management; platform work; integrated information; construct development; formal modeling.
 
 <br><br>
 
@@ -89,16 +89,16 @@ Together the three papers turn "coordination is becoming triadic" from an observ
 | 2.7 | Future research agenda | |
 | 2.8 | Conclusion | |
 | | | |
-| **3** | **Is It a Triad? Integrated Information as a Decision Procedure for Non-Dyadic Algorithmic Coordination** (Paper 2) | |
+| **3** | **Is It a Triad? Integrated Information as a Formal Model of Non-Dyadic Algorithmic Coordination** (Paper 2) | |
 | 3.1 | Introduction: the form question | |
 | 3.2 | The borrowing | |
 | 3.3 | The application layer | |
 | 3.4 | The state alphabet | |
-| 3.5 | The instrument and its validation | |
-| 3.6 | The classifier at work | |
+| 3.5 | The model and its controls | |
+| 3.6 | The model at work | |
 | 3.7 | What the instrument establishes, and what it does not | |
 | | | |
-| **4** | **A Readability Score for Coordination: Calibrating Integrated Information as a Measure of Triadic Demand Across Organizations** (Paper 3) | |
+| **4** | **Toward a Readability Score for Coordination: A Formal Model of Triadic Demand Across Organizations** (Paper 3) | |
 | 4.1 | Introduction | |
 | 4.2 | The coordination form as unit | |
 | 4.3 | Data and methods | |
@@ -133,12 +133,18 @@ paper's internal numbering is preserved in its own chapter file.)*
 | Table | Title | Chapter |
 |---|---|---|
 | 2.1 | Synthesis of the foreclosed constructs (structural commitment × where each stops short) | 2 (Paper 1) |
-| 3.1 | Validation controls and worked Φ values (factoring, irreducible, the worked cases) | 3 (Paper 2) |
-| 4.1 | The calibration anchor (Chicago rideshare pooling) | 4 (Paper 3) |
-| 4.2 | The typology on the triadic-demand scale | 4 (Paper 3) |
+| 3.1 | Model controls and worked Φ values (factoring, irreducible, the worked cases) | 3 (Paper 2) |
+| 4.1 | The Φ landscape of the W–S–C model family | 4 (Paper 3) |
+| 4.2 | The typology on the triadic-demand bands | 4 (Paper 3) |
 
 *Tables are numbered by chapter. Tables 4.1–4.2 are formally numbered in Paper 3; the Chapter 2 synthesis
 table and the Chapter 3 controls/worked-values table appear in those chapters and should be given the
 numbers above when the chapters are assembled into the single document.*
 
-*List of Figures: none. The dissertation reports its results in tables; it contains no figures.*
+**List of Figures**
+
+| Figure | Title | Chapter |
+|---|---|---|
+| 4.1 | The Φ landscape of the W–S–C model family (Φ over all 4,096 three-node wirings) | 4 (Paper 3) |
+
+*The dissertation reports its results chiefly in tables; the single figure is the Paper 3 model-family landscape.*

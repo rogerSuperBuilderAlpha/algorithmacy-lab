@@ -130,7 +130,7 @@ and three distinct literatures converge on why:
   thesis) **[cornerstone: Peirce; Burch 1991]**; and pairwise projection of a higher-order interaction
   discards dynamically consequential information — group-level mechanisms are "invisible in dyadic models"
   **[recent: Battiston et al. 2025, *Nature Human Behaviour*]** (forward-references Paper 2's formal
-  irreducibility test without importing it).
+  model of irreducibility without importing it).
 - *Mechanism-design.* A correlation device (here, the platform) produces equilibria the parties cannot reach
   by direct communication **[cornerstone: Aumann 1987; Myerson 1982]**.
 
@@ -182,7 +182,7 @@ no longer can.**
 
 **Lands on:** the form is irreducible to worker-system + system-counterpart links, and the integrating
 conditions hold only insofar as workers exercise *something* under the three conditions — the worker-level
-competency the literature has not specified. *(Scope: the formal irreducibility test belongs to Paper 2.)*
+competency the literature has not specified. *(Scope: the formal model of irreducibility belongs to Paper 2.)*
 
 ---
 
@@ -360,7 +360,8 @@ Newman 2023 (Define→Operationalize→Confirm); Podsakoff, MacKenzie & Podsakof
   literacies; **transfer across platforms is the thinnest link — named as what the program must fill.**
 
 **Lands on:** algorithmacy is a single, bounded, measurable construct distinct from its neighbours — the
-framework the review crystallizes into, and the answer to the variance puzzle.
+framework the review crystallizes into, and the construct that lets the variance puzzle be posed precisely
+(the program it opens, not this review, answers it).
 
 ---
 
@@ -370,10 +371,11 @@ framework the review crystallizes into, and the answer to the variance puzzle.
 
 ### The technical argument (motivate Papers 2–3 without importing their method)
 
-- **The matched-instrument structure.** A **demand-side** scale (how much algorithmacy a platform's
-  coordination form demands — Papers 2–3) and a **supply-side** scale (an individual's competency — later
-  work). Calibrating the *form* precedes matching participants to it — the readability analogy: a text's grade
-  level is a property of the text, scored before any reader is matched to it.
+- **The matched-instrument structure.** A **demand-side** model (how much algorithmacy a platform's
+  coordination form demands — Papers 2–3 build and grade the model; validating it against an outcome is later
+  work) and a **supply-side** scale (an individual's competency — later work). Modelling the *form* precedes
+  matching participants to it — the readability analogy: a text's grade level is a property of the text,
+  scored before any reader is matched to it.
 - **Open questions as the agenda.** *Distribution* — uniform or unequal across worker populations (who
   succeeds, and whether the variance is structured by who can exercise the competency). *Transferability* —
   one capacity across architectures or one per architecture (whether "platform-mobile work" is a coherent
@@ -417,7 +419,7 @@ it has, and algorithmacy is the construct that describes it.
   (Halevy/Battiston/Felin ↔ Simmel/Spence/Powell), §4 (Gagrčin/Kadolkar/Stelmaszak ↔ Spitzberg/Guzman/
   Hancock), §5 (Reder&Davila/Leander ↔ Ong/Street/Latour), §6 (Lambert&Newman/Shaffer/Lawson&Robins ↔
   Suddaby/Cronbach&Meehl).
-- **Scope discipline:** §3 and §7 forward-reference Paper 2's formal irreducibility test without importing it.
+- **Scope discipline:** §3 and §7 forward-reference Paper 2's formal model of irreducibility without importing it.
 - **Open placeholders to resolve in the citation pass:** the `[N]` corpus count (§2); the Gagrčin year (2024
   per connector vs draft's 2026); confirm the §5 historical spine (Goody/Olson/Eisenstein/Johns/Street/
   Scribner&Cole) and the §3 coordination base (Spence/Bergh/Malone&Crowston/Clark&Brennan/Powell/Williamson/

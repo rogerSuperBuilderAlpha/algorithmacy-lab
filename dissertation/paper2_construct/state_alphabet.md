@@ -55,8 +55,12 @@ cause and effect repertoires are unmoved by the disclosure, so it does not begin
 is not committing.
 
 Both criteria conflate the surface of the interaction with its causal structure. The rule individuates
-on the causal structure — the committed determination — which is why it can be applied to a log without
-the analyst's judgment entering, and why the resulting Φ is a fact rather than a choice.
+on the causal structure — the committed determination — which is why two analysts applying it to the same
+log reach the same states and the same Φ. The rule does not make Φ analyst-independent in an absolute
+sense: Φ is a property of the model these choices define, and a different defensible individuation rule
+could carve different states and change Φ. What the rule buys is reproducibility — the value follows from
+the stated choices rather than from discretion exercised after the fact — not a claim that Φ is a fact
+about the coordination free of any modeling choice.
 
 ## 4. Building the transition matrix from observable logs
 
