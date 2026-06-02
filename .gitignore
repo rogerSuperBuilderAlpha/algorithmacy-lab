@@ -25,3 +25,4 @@ dissertation/sources/pdfs/
 # Paper 3 catalog: keep catalog.csv/analysis/figure, drop run log + smoke artifact
 dissertation/paper3_baseline/results/catalog_run.log
 dissertation/paper3_baseline/results/catalog_smoke.csv
+dissertation/paper3_baseline/results/simulated_orgs_run.log
