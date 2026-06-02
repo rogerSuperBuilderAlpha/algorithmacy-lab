@@ -50,7 +50,7 @@ end to end from the public repository. The instrument and the analysis scripts a
 | `dissertation/paper2_construct/read_structure_sweep.py` | Φ across read structures with the joint determination fixed: only 22% keep Φ > 0, so a joint determination is necessary but not sufficient (the realistic-feedback reads collapse to 0) |
 | `dissertation/paper2_construct/party_partition.py` | Φ over the complete {W}{S}{C} cut vs the MIP: the complete cut over-calls (positive even for dyads), so the binary verdict is Φ over the minimum-information partition |
 | `dissertation/paper2_construct/phi_vs_separability.py` | the binary Φ verdict vs a cheap *static* factorization/connectivity test over all 4,096 triads: agreement only 57.8%, 1,728 connected-but-Φ=0 forms, 0 reverses |
-| `dissertation/paper2_construct/dynamical_comparator.py` | the binary Φ verdict vs a *dynamical, state-conditioned* conditional-independence test: agreement 59.6%, 0 reverses, and 456 NON-degenerate forms (incl. a maximally-connected one) where Φ reduces but both cheap tests over-call — Φ is strictly stronger than a dynamical CI test, and the apparatus is not decorative |
+| `dissertation/paper2_construct/dynamical_comparator.py` | the binary Φ verdict vs *dynamical* conditional-independence tests (all-combinations 59.6%/0-reverse; fair reachable-only 89.8%/8-reverse — aggregate is comparator-dependent). The robust result is the verified EXHIBIT: `W′=NOR(S,C), S′=¬W∧C, C′=NAND(W,S)` (6/6 edges, no constants) has Φ=0 though every cheap test calls it triadic — the apparatus is not decorative |
 
 **The model family and typology (Chapter 4, Paper 3).** All compute exact Φ and use no outside data.
 

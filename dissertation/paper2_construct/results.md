@@ -119,14 +119,17 @@ magnitude gradient is not claimed.
   minimum-information partition = 0; the MIP is party-respecting (e.g. {W,SC}) but not the complete
   cut. The draft (abstract, §2.2, §5) is corrected to say this.
 - **Φ vs the cheap tests, static AND dynamical — resolved** (`phi_vs_separability.py`,
-  `dynamical_comparator.py`). Over all 4,096 triads the binary Φ verdict agrees with a *static*
-  factorization test only 57.8% of the time, and with a *dynamical, state-conditioned*
-  conditional-independence test 59.6% — both with **0 reverses** (Φ never reduces less than the
-  cheap test, only more). The static disagreement set (1,728 connected-but-Φ=0 forms) is 73.6%
-  pinned-constant degeneracy, but **456 non-degenerate forms (11.1% of the family)** remain where
-  both cheap tests over-call triad and exact Φ correctly reduces — including the maximally-connected
-  `W=NOR, S=W∧¬C, C=NAND` (all six edges, no constants, yet Φ=0 at every reachable state, verified).
-  So Φ is strictly stronger than a *dynamical* conditional-independence test, on non-degenerate
-  forms — the apparatus is not a factorization test in disguise and not decorative. Draft §2.3.
+  `dynamical_comparator.py`; now in draft §6, "the apparatus earns its weight"). The robust claim
+  is an EXHIBIT, not an aggregate percentage: the maximally-connected, non-degenerate form
+  **W′=NOR(S,C), S′=¬W∧C, C′=NAND(W,S)** (all six edges, strongly connected, no constants) has
+  exact Φ=0 at every reachable state (verified) — a form every connectivity/CI test calls triadic
+  and the MIP machinery alone reduces. Aggregate counts are comparator-dependent and deliberately
+  NOT the headline: vs a static test, 57.8% agree (1,728 connected-but-Φ=0, of which 73.6% are
+  pinned-constant degeneracy); vs an all-combinations dynamical test, 59.6% / 0-reverse / 456
+  non-degenerate over-calls; vs the *fair reachable-only* dynamical test, **89.8% / 8-reverse / 408
+  non-degenerate over-calls**. So "Φ strictly stronger / 0-reverse" is an artifact of the weaker
+  comparator; what is robust across comparators is the direction (hundreds of non-degenerate forms
+  Φ reduces that cheap tests over-call) and the exhibit. NOTE: an earlier draft mis-transcribed the
+  exhibit as `S=W∧¬C` (which gives Φ=0.83) — a `catalog.py` BIN_LABEL A/B-swap bug, now fixed.
 - The continuous-platform hardest case (Uber commits in a stream) — the rule's stress test (§4),
   handed to Paper 3 / the empirical program.
