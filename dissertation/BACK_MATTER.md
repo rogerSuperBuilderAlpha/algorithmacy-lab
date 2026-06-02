@@ -9,7 +9,7 @@ practice for a manuscript-style (three-paper) dissertation in which each paper m
 of the three papers carries its own complete, citation-integrity-verified bibliography within its chapter:
 
 - **Chapter 2 (Paper 1)** — "Consolidated bibliography" (the integrative review's full reference list).
-- **Chapter 3 (Paper 2)** — "References" (34 entries; every in-text cite verified, no orphans).
+- **Chapter 3 (Paper 2)** — "References" (44 entries; every in-text cite verified, no orphans).
 - **Chapter 4 (Paper 3)** — "References" (21 entries; every in-text cite verified, no orphans).
 
 The two **framing chapters** cite sparingly, and every framing-chapter citation also appears in the papers'

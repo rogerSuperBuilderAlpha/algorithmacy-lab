@@ -3,9 +3,13 @@
 **Roger Hunt III**
 Bentley University
 
-*Paper 2 of the dissertation. Draft; recast as a formal model (Φ adopted as a modeling device under stated choices, not asserted as identical to triadicity); consolidated bibliography (34 references) verified for citation integrity. Inline cites and reference list cross-checked: every cite resolves, no orphan entries.*
+*Paper 2 of the dissertation. Draft; recast as a formal model (Φ adopted as a modeling device under stated choices, not asserted as identical to triadicity); consolidated bibliography (44 references) verified for citation integrity. Inline cites and reference list cross-checked: every cite resolves, no orphan entries.*
 
 ---
+
+## Abstract
+
+Paper 1 argued that platform-mediated coordination is structurally triadic, a worker reaching a counterpart only through a determination a system commits between them, and that the existing constructs, built around a dyad, cannot see it. That argument carries a debt: an analyst handed a particular case must be able to say whether it is a triad, and inspection cannot settle it, since a setting with three parties can be a dyad with an extra body in the room and a worker alone with an app can be an irreducible triad the interface hides. This paper supplies a formal model that answers the question by computation. It adopts integrated information theory's measure, Φ, as a model of structural irreducibility: a coordination form is modeled as triadic when its application-layer transition structure does not factor across the worker–system–counterpart partition (Φ > 0) and as dyadic when it does (Φ = 0). The adoption is a disciplined interdisciplinary borrowing and a modeling choice resting on three stated commitments — the application-layer representation, a pre-registered state-individuation rule, and the party partition — not a claimed identity between Φ and triadic demand, and the paper acknowledges and answers the standing critiques of the measure. Run on worked cases, the model classifies against appearance in both directions, scoring a three-party arrangement as a dyad and a worker-alone-with-an-app arrangement as a triad, and a sensitivity analysis shows the modeled irreducibility is greatest when the parties are kept from coordinating directly, a proposition the model generates about platform design. The paper is explicit about its bound: Φ is a property of the model, not yet validated against any observed coordination outcome, which is the work Paper 3 and the empirical program take up.
 
 ## 1. Introduction: the form question
 
