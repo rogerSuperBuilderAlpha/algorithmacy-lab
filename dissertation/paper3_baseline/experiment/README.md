@@ -18,7 +18,7 @@ possible at all.
 |---|---|
 | `DESIGN.md` | Master design: the problem it fixes, RQ, hypotheses (H1 structure axis; H1a "eliminate the dyad"; H0 null; H2 Cerullo/parity), IV/DV, the three run-modes, threats to validity, success/failure criteria. |
 | `CONDITIONS.md` | The 4 conditions (C0 dyadic Φ=0 / C1 parity Φ=0.5 / C2 partial Φ=0.83 / C3 strict Φ=2.0), exact node rules, and how the **three modeling choices map to exact experimental controls**. |
-| `SIM_SPEC.md` | The agent-based simulation — the runnable, non-circular version (transmit-and-agree task, a-priori Q-learning agents, analysis incl. the Φ-beyond-features test). Buildable now. |
+| `SIM_SPEC.md` | The agent-based simulation — the runnable version, read as a consistency check (transmit-and-agree task, a-priori Q-learning agents, analysis incl. the Φ-beyond-features test). Buildable now. |
 
 ## Why this is worth doing (in one place)
 

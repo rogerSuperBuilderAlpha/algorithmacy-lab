@@ -2,7 +2,7 @@
 
 Roger Hunt III · Bentley University
 
-*Target venue: Academy of Management Annals. Combined full draft (deepened build). Consolidated bibliography follows the body; in-text citations resolve to it. Entries flagged for verification in the citation-integrity pass are marked there.*
+*Target venue: Academy of Management Annals. Combined full draft (deepened build). Consolidated bibliography (221 entries) follows the body; in-text citations resolve to it. Citation-integrity pass completed: duplicate Simmel entry merged; Gagrčin et al. (2024), Battiston et al. (2025), and the two distinct Möhlmann et al. entries (2021, 2023) verified; no placeholders remain.*
 
 
 ## Abstract
@@ -1242,10 +1242,9 @@ Short, T. L. (2007). *Peirce's theory of signs*. Cambridge University Press.
 Siltaloppi, J., & Vargo, S. L. (2017). Triads: A review and analytical framework. *Marketing Theory, 17*(4), 395–414. https://doi.org/10.1177/1470593117705694
 
 
-Simmel, G. (1950). *The sociology of Georg Simmel* (K. H. Wolff, Ed. & Trans.). Free Press. (Original work published 1908)
+Simmel, G. (1950). The triad. In *The sociology of Georg Simmel* (K. H. Wolff, Ed. & Trans., pp. 145–169). Free Press. (Original work published 1908)
 
 
-Simmel, G. (1950). The triad. In K. H. Wolff (Ed. & Trans.), *The sociology of Georg Simmel* (pp. 145–169). Free Press. (Original work published 1908)
 
 
 Simsek, Z., Fox, B. C., & Heavey, C. (2023). Systematicity in organizational research literature reviews: A framework and assessment. *Organizational Research Methods*, 26(2), 292–321. https://doi.org/10.1177/10944281211008652

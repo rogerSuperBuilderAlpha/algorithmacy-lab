@@ -86,9 +86,11 @@ The genre standard, distilled:
   magnitude is NOT a reliable scale** — it is dominated by the determination function, with a disjunctive
   determination inflating Φ to ~20, orthogonal to demand (Cerullo 2015). Present Φ as a structural
   classifier and ordinal regime-indicator, not a graded scale.
-- **The behavioral test (sim-first, non-circular):** manipulate determination structure at fixed party
-  count; independent agents that never see Φ; strict mediation behaviorally hardest (d ≈ 29), parity
-  anomalous. **In silico, not human** — a field/human validation remains future work.
+- **The behavioral test (sim-first, a consistency check — not an independent validation):** manipulate
+  determination structure at fixed party count; independent agents that never see Φ; strict mediation
+  behaviorally hardest (d ≈ 29, robust at 3,000 rounds), parity anomalous. Φ and difficulty both derive from
+  the wiring, so this is a consistency check, not a test against a separately measured criterion. **In silico,
+  not human** — a field/human validation remains future work.
 - **The cut anchor:** the rideshare-pooling anchor was cut because Φ = k+1 made it validate only the
   party-count axis; demoted to `paper3_baseline/exploratory/`. The fuller validation still needed varies
   determination structure at fixed party count against real outcomes.

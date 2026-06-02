@@ -118,10 +118,12 @@ classifications land where the model should put them. The dyadic limit (chat wit
 dyad, Φ = 0. The irreducible triad (résumé → ATS → hiring manager) is classified a triad, Φ = 2.00 — and is
 the modeled false dyad above, since the two parties never touch yet the modeled structure does not factor.
 The model *discriminates*: the party-ignoring "mediator" is the modeled false triad, Φ = 0 despite three
-parties. The sharpest demonstration tracks the classification as it flips: holding the determination fixed,
-**Φ falls monotonically as direct dyadic interaction is added to the model (2.00 → 0.83 → 0.00)**, so a
-modeled triad collapses into a dyad as the dyadic channel grows. Read as a model result, this says that the
-model scores coordination as most irreducible when the dyad is designed out — a proposition the model
+parties. The sharpest demonstration tracks the classification as it flips at the **binary** level: holding the
+determination fixed, the form is a triad with no direct channel (Φ = 2.00) and reduces to a dyad once a full
+direct channel is opened (Φ = 0.00). The intermediate magnitude is *not* monotone — it depends on the channel
+encoding (disjunctive 0.83, conjunctive 6.00) — so the earlier "falls monotonically (2.00 → 0.83 → 0.00)"
+claim is withdrawn; only the binary endpoint result is kept (`eliminate_dyad_sweep.py`). Read as a model
+result, this says the model classifies coordination as a triad only while the dyad is designed out — a proposition the model
 *generates* about the platform's structural incentive, to be taken as a hypothesis the model suggests rather
 than a fact it establishes. (Full numbers in `results.md`.)
 

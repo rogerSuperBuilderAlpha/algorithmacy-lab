@@ -69,7 +69,11 @@ An exploratory analysis against the City of Chicago "Transportation Network Prov
 linear function of pool size and so the analysis validated only the party-count axis of the score. Its
 scripts (`anchor_chicago.py`, `robustness_anchor.py`) are retained, clearly labeled as outside the
 dissertation's claims, in `paper3_baseline/exploratory/` as a template for the structure-varying validation
-the model would actually require. Their numbers are not cited anywhere in the dissertation.
+the model would actually require. Their numbers are not cited anywhere in the dissertation. The design of the
+validation that *would* license a claim about the world — varying determination structure at a fixed party
+count against an independently measured coordination outcome, with blind inter-rater structural coding — is
+specified in `paper3_baseline/VALIDATION_PROTOCOL.md`; it is named as the program's next arc, not executed
+here.
 
 **Reproduce the computed results.**
 

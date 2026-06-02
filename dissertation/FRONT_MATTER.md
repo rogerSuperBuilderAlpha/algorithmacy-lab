@@ -96,7 +96,7 @@ Together the three papers turn "coordination is becoming triadic" from an observ
 | 3.4 | The state alphabet | |
 | 3.5 | The model and its controls | |
 | 3.6 | The model at work | |
-| 3.7 | What the instrument establishes, and what it does not | |
+| 3.7 | What the model establishes, and what it does not | |
 | | | |
 | **4** | **Toward a Readability Score for Coordination: Modeling Triadic Demand Across a Population of Organizations, and Testing the Structural Axis** (Paper 3) | |
 | 4.1 | Introduction | |
@@ -138,9 +138,10 @@ paper's internal numbering is preserved in its own chapter file.)*
 | 4.2 | The typology on the triadic-demand bands | 4 (Paper 3) |
 | 4.3 | Coordination success by condition (the structure-axis test) | 4 (Paper 3) |
 
-*Tables are numbered by chapter. Tables 4.1–4.2 are formally numbered in Paper 3; the Chapter 2 synthesis
-table and the Chapter 3 controls/worked-values table appear in those chapters and should be given the
-numbers above when the chapters are assembled into the single document.*
+*Tables are numbered by chapter, and this list is the authoritative numbering for the assembled document:
+Table 2.1 is the Paper 1 synthesis of foreclosed constructs, Table 3.1 the Paper 2 controls and worked Φ
+values, and Tables 4.1–4.3 the Paper 3 landscape, typology, and structure-axis results. Each table carries
+this number where it appears in its chapter.*
 
 **List of Figures**
 
