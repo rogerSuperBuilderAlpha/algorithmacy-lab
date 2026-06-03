@@ -72,9 +72,13 @@ if __name__ == "__main__":
     print("THE FIVE CASES — placed by structure (max Φ)")
     print("=" * 96)
     for name, structure, industry, seat, r, n in sorted(rows, key=lambda t: t[4]["max"]):
-        print(f"  Φ = {r['max']:5.2f}   {name:42s} [{structure:28s}] {seat}")
+        norm = r["max"] / (n - 1) if n > 1 else r["max"]
+        print(f"  Φ = {r['max']:5.2f}  (Φ/(n-1) = {norm:4.2f})  {name:42s} [{structure:28s}] {seat}")
     print("=" * 96)
-    print("Equal-Φ seat-contrast pairs (structure sets the score, not the seat):")
-    print("  2.00 : Uber (algorithmic)  ==  NYSE/Nasdaq (market institution)")
+    print("Two organizations coded to the same structure compute the same Φ (identity by")
+    print("construction, not a finding):")
+    print("  2.00 : Uber (algorithmic)    ==  NYSE/Nasdaq (market institution)")
     print("  0.83 : Upwork (algorithmic)  ==  ManpowerGroup (human-institutional)")
-    print("  3.00 : Amazon Mechanical Turk — higher-order (n=4), cross-node Φ not strictly comparable")
+    print("Size-normalized Φ/(n-1) = 1.00 for strict mediation at every n, so MTurk's raw 3.00")
+    print("(= n-1 at n=4) is strict mediation scaled by party count -> normalized 1.00, the same")
+    print("structural level as Uber and the exchange, not a higher band.")
