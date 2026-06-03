@@ -34,6 +34,10 @@ compute rather than assert, and write in the house style in [`../CLAUDE.md`](../
 - [`principal/`](principal/) — does the corporate principal who authors the system join the
   irreducible core? *Built; only under bidirectional coupling (gates AND monitors) — ownership alone
   leaves it outside, the core stays the W–S–C triad. Uses the major complex, not whole-system Φ.*
+- [`probes/`](probes/) — an iterative hypothesis loop over the dissertation's construct dimensions
+  and scope conditions. *Ongoing logbook ([`PROBES.md`](probes/PROBES.md)): coalition ejects the
+  worker (H1 ✓), intent compression drops non-pivotal dimensions (H2 ✓), a switching rule does not
+  bind the regime (H3 ✗).*
 - [`essays/`](essays/) — public-facing writeups. First essay:
   [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — how the world uses PyPhi, and
   the theory that exact Φ decides whether a coordination form demands literacy or algorithmacy.
