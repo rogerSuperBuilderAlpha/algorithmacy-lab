@@ -32,8 +32,10 @@ it: dropping the mediator's dependence on the counterpart flips every triadic fo
 
 - `forms_library.py` — the forms, each with rationale, validation flag, and structural tags.
 - `build.py` — computes Φ for every form; runs the toggle ablations; writes the CSVs.
-- `results/corpus.csv`, `results/toggles.csv` — the labeled dataset and the ablation table.
-- `FINDINGS.md` — numbers and the structure-first reading.
+- `population.py` — enumerates the full strict-mediation family (256 forms) and reports the
+  conditional probabilities that make the structure-first finding a population result.
+- `results/corpus.csv`, `results/toggles.csv`, `results/population.csv` — the datasets.
+- `FINDINGS.md` — numbers and the structure-first reading (curated + population).
 
 ## Extending it
 

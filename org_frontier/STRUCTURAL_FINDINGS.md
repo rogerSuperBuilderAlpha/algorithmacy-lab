@@ -1,0 +1,76 @@
+# Structural findings: what makes a coordination form irreducible
+
+A synthesis of the org_frontier experiments. Each claim is computed with exact IIT-4.0 Φ via PyPhi,
+on systems small enough to compute it exactly, and is reproducible from the named module. The
+verdict throughout is Φ over the minimum-information partition: Φ_MIP = 0 means the form factors
+(dyadic, demands only literacy); Φ_MIP > 0 means it does not (triadic, demands algorithmacy).
+
+These are domain-neutral structural results about small mediated systems. The organizational reading
+is in [`essays/literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) and
+[`COMMUNITY_NOTE.md`](COMMUNITY_NOTE.md).
+
+## The seven findings
+
+1. **The surface does not decide the verdict.** Party count and interface underdetermine it. A
+   three-party arrangement can factor to a dyad; a worker alone with an app can be triadic.
+   (`classifier/`)
+
+2. **Topology does not decide it either.** Strict mediation — no direct edge between the outer
+   parties — is necessary but not sufficient. In the complete 256-form strict-mediation n=3 family,
+   only **9.4%** are triadic; 90.6% still factor. (`corpus/population.py`)
+
+3. **Irreducibility needs two things together.** The mediator must read all parties (necessary:
+   0% triadic without it), and the parties' own reads must keep each of them live to the mediator's
+   commit. Neither alone suffices — a form with strict mediation and a both-reading mediator still
+   factors if the downstream reads break liveness (P(triadic | mediator reads both) = 15.0% at n=3).
+   (`corpus/`, `corpus/population.py`)
+
+4. **Parity determinations support irreducibility most readily.** Among the two-input mediator
+   functions, XOR and XNOR each yield 4/16 triadic forms, twice the 2/16 of monotone functions
+   (AND, OR, NAND, NOR). One-input and constant functions yield none. (`corpus/determination.py`)
+
+5. **Substitutability collapses irreducibility.** With multiple counterparts, the form is triadic
+   only if the determination binds them all jointly (all-required, e.g. W ∧ C1 ∧ C2, Φ = 3.0). If a
+   counterpart is substitutable (W ∧ (C1 ∨ C2)) or optional, the form factors. (`multiparty/`)
+
+6. **Breadth dilutes, depth preserves.** Adding parties makes irreducibility rarer, to vanishing:
+   the random strict-mediation triadic rate falls **9.4% (n=3) → 2.3% (n=4) → 0% (n=5)**, confirmed
+   genuine by noise robustness checks (not a reachability artifact). Adding mediation depth does the
+   opposite: a chain W → S1 → ... → Sk → C stays triadic with **Φ = 2.0 at every length** (n=3-6),
+   cut at a single balanced partition. Depth does not rescue substitutability, and breadth does not
+   undo depth — the two act independently. (`multiparty/scaling.py`, `multiparty/chains.py`)
+
+7. **Cheap proxies cannot recover the verdict.** A ΦID or whole-minus-sum proxy estimated from a
+   form's time series separates dyadic from triadic only near chance (rank-AUC ≤ 0.63). It confuses
+   statistical dependence with integration — a dyadic form with a back-channel scores highest. The
+   route past the exact-Φ size ceiling does not hold for this verdict; the exact computation is
+   needed, and is feasible because coordination units are small. (`proxy_bridge/`)
+
+## The law they reduce to
+
+A coordination form is triadic — it demands algorithmacy — **if and only if every party is bound
+into a single irreducible joint determination.** Substitutability or optionality of any party
+collapses it to dyadic. Mediation depth never does. The number of parties is not the variable; the
+irreducibility of the joint determination is. Random coupling meets this condition ever more rarely
+as parties multiply, but specific structures (an all-binding conjunction, a non-factoring chain,
+a parity determination) meet it at any size.
+
+## What this contributes
+
+For the PyPhi community: a new application class (small mediated/coordination systems), a curated
+labeled corpus, a reusable classifier, and clean minimal test cases where a single edge, read
+function, or party toggles Φ. For organization theory: a computable criterion for when a coordination
+form demands a new competency, with the structural conditions that produce it made precise.
+
+## Reproduce
+
+```bash
+~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.validate
+~/iit-playground/venv-4.0/bin/python -m org_frontier.corpus.build
+~/iit-playground/venv-4.0/bin/python -m org_frontier.corpus.population
+~/iit-playground/venv-4.0/bin/python -m org_frontier.corpus.determination
+~/iit-playground/venv-4.0/bin/python -m org_frontier.multiparty.run
+~/iit-playground/venv-4.0/bin/python -m org_frontier.multiparty.chains 4
+~/iit-playground/venv-4.0/bin/python -m org_frontier.multiparty.scaling 5 400 7
+~/iit-playground/venv-4.0/bin/python -m org_frontier.proxy_bridge.run
+```

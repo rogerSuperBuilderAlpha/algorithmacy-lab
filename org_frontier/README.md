@@ -25,9 +25,22 @@ compute rather than assert, and write in the house style in [`../CLAUDE.md`](../
 - [`corpus/`](corpus/) — a curated, reusable library of named coordination forms with exact
   IIT-4.0 Φ, the verdict, and structural tags, plus a single-edge ablation table. *Built; 8 forms,
   0 mismatches.*
+- [`proxy_bridge/`](proxy_bridge/) — does a cheap time-series proxy (ΦID Φ_R, Φ_WMS) recover the
+  verdict, as a route past the exact-Φ size ceiling? *Built; the answer is no (rank-AUC ≤ 0.63) —
+  the proxy confuses statistical dependence with integration.*
+- [`multiparty/`](multiparty/) — does adding parties change the verdict? *Built; substitutable
+  counterparts collapse irreducibility, layered mediation keeps it, and triadicity gets rarer with
+  more parties (9.4% → ~3% from n=3 to n=4) — confirmed against a reachability robustness check.*
 - [`essays/`](essays/) — public-facing writeups. First essay:
   [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — how the world uses PyPhi, and
   the theory that exact Φ decides whether a coordination form demands literacy or algorithmacy.
+
+## Research synthesis
+
+[`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the seven structural findings across the
+experiments and the single law they reduce to: **a coordination form demands algorithmacy iff every
+party is bound into one irreducible joint determination.** Substitutability collapses it; mediation
+depth never does; cheap proxies can't detect it.
 
 ## Contributing back to the PyPhi community
 

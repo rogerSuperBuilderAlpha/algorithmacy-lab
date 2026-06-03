@@ -1,0 +1,8 @@
+key,structure,competence,max_phi,n_states,expected
+pool_all_required,triadic,algorithmacy,3.000000,4,triadic
+substitutable_counterparts,dyadic,literacy,0.000000,4,dyadic
+one_counterpart_constitutive,dyadic,literacy,0.000000,4,dyadic
+decoupled_control,dyadic,literacy,0.000000,8,dyadic
+mediator_chain,triadic,algorithmacy,2.000000,9,?
+deep_pool_all,triadic,algorithmacy,2.000000,9,triadic
+deep_substitutable,dyadic,literacy,0.000000,9,dyadic

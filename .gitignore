@@ -26,3 +26,6 @@ dissertation/sources/pdfs/
 dissertation/paper3_baseline/results/catalog_run.log
 dissertation/paper3_baseline/results/catalog_smoke.csv
 dissertation/paper3_baseline/results/simulated_orgs_run.log
+
+# org_frontier run logs (data is in the CSVs)
+org_frontier/**/results/*.log

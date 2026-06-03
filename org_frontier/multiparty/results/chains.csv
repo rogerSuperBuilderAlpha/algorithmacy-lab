@@ -1,0 +1,5 @@
+k_mediators,n,structure,max_phi,n_states,mip
+1,3,triadic,2.000000,4,"2 parts: {W,S1C}"
+2,4,triadic,2.000000,9,"2 parts: {WS1,S2C}"
+3,5,triadic,2.000000,16,"2 parts: {WS1,S2S3C}"
+4,6,triadic,2.000000,25,"2 parts: {WS1S2,S3S4C}"

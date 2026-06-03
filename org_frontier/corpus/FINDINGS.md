@@ -47,6 +47,47 @@ the joint determination is load-bearing. A partial back-channel only grades Φ d
 flipping the verdict; a full direct channel would be needed to collapse it (dissertation Paper 2,
 the eliminate-the-dyad endpoint).
 
+## Population check: the finding holds across the whole strict-mediation family
+
+`population.py` enumerates the complete strict-mediation three-node family — every Boolean form with
+no direct worker–counterpart edge: `W' = f_W(S)`, `C' = f_C(S)`, `S' = f_S(W, C)`, so
+4 × 16 × 4 = 256 forms. Exact IIT-4.0 Φ for each (`results/population.csv`). This turns the
+eight-form illustration into a population result.
+
+| Quantity | Value |
+|---|---|
+| strict-mediation forms | 256 |
+| triadic (Φ > 0) | 24 (**9.4%**) |
+| P(triadic \| mediator reads both parties) | **15.0%** (24/160) |
+| P(triadic \| mediator does not read both) | **0.0%** (0/96) |
+
+Two precise claims fall out. Strict mediation is far from sufficient: 90.6% of forms with no
+back-channel still factor. And the mediator reading both parties is **necessary** (0% triadic
+without it) but **not sufficient** (only 15% triadic with it) — the parties' own read functions
+decide the remaining 85%. This is the same result the curated forms showed, now quantified over the
+whole family. (The complete 4,096-wiring family, including back-channels, is the dissertation's
+`paper3_baseline/catalog.py`; this is the strict-mediation slice with the conditional breakdown.)
+
+## Which determination functions support irreducibility
+
+`determination.py` re-analyzes the 256-form population by the mediator's Boolean function. The
+dissertation found the function dominates Φ *magnitude*; this asks the prior question — which
+functions support the triadic *verdict* at all.
+
+- **One-input and constant functions support none.** A mediator whose commit reduces to W alone, C
+  alone, or a constant (W, C, ~W, ~C, TRUE, FALSE) yields 0/16 triadic forms — it never reads both
+  parties, so the necessity result holds at the function level.
+- **Among genuine two-input functions, parity leads.** XOR and XNOR each support 4/16 triadic forms,
+  twice the 2/16 of the monotone functions (AND, OR, NAND, NOR) and the mixed functions. A parity
+  determination — the outcome flips on either party's change — binds the parties into irreducibility
+  across more read-function combinations than a simple all-required (AND) or either-suffices (OR)
+  commit. This matches IIT's standing result that XOR mechanisms are highly integrated, and the
+  dissertation's `parity_present` structural feature.
+
+The org-theory reading: a mediator whose rule is exclusive/parity-like (e.g. "act only if exactly
+one side signals") produces irreducible coordination more readily than a threshold or
+all-or-nothing rule.
+
 ## Why this is of general interest
 
 The result is about what makes a small discrete system integrated, stated in structural terms that

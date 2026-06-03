@@ -42,19 +42,17 @@ coordination classifier). This lab takes it further and faster, and contributes 
 
 ### Candidate sub-experiments (shortlist)
 
-1. **The literacy/algorithmacy classifier as a public tool.** Φ = 0 (dyadic, factorable) → a
-   coordination form demands only literacy; Φ > 0 (triadic, irreducible) → it demands algorithmacy.
-   Package the classifier so others can drop in a coordination model and get a verdict. This is the
-   essay's thesis and the most direct contribution. Stays under the element ceiling by construction
-   (coordination units are small).
-2. **Proxy bridge for organizations.** Neuroscience hit the ceiling and moved to Φ_AR on time
-   series. Organizational coordination also produces time series (messages, handoffs, decisions).
-   Test whether Φ_AR on organizational interaction data tracks exact Φ on the underlying small
-   structure — reusing this repo's proxy-audit machinery.
-3. **A reusable org-coordination TPM library.** The substantive blocker the survey names is the
-   transition-probability-matrix model. Build and validate a small library of TPMs for canonical
-   coordination forms (dyad, mediated triad, broadcast, market, hierarchy), so org researchers have
-   a defensible input format.
+1. **[DONE — `../classifier/`] The literacy/algorithmacy classifier as a public tool.** Φ = 0
+   (dyadic, factorable) → literacy; Φ > 0 (triadic, irreducible) → algorithmacy. Built, validated on
+   its own controls, importable + CLI.
+2. **[DONE — `../proxy_bridge/`] Proxy bridge for organizations.** Tested whether a cheap
+   time-series proxy (ΦID Φ_R, Φ_WMS) estimated from a form's trajectory recovers the exact verdict.
+   **Result: no** (rank-AUC ≤ 0.63). The proxy confuses statistical dependence with integration — a
+   dyadic form with a back-channel draws the highest proxy of all. The route past the size ceiling
+   does not hold for this verdict, which strengthens the case for the exact classifier.
+3. **[STARTED — `../corpus/`] A reusable org-coordination TPM library.** A curated, documented set
+   of named forms with exact Φ + structural tags + ablations. 8 forms so far; broaden to defensibly
+   modeled broadcast / two-sided market / multi-level (n>3) hierarchy / commons.
 
 ### Community contribution angle
 
@@ -66,5 +64,8 @@ relies on.
 
 ## Next step
 
-Write the public-facing essay (the literacy/algorithmacy thesis grounded in this usage map), then
-pick sub-experiment 1 or 3 to build first.
+Sub-experiments 1 and 2 are done; the essay and community note are written. Remaining open work:
+broaden the corpus (#3) with defensibly-modeled larger forms (n > 3), and run the structural finding
+(topology does not decide irreducibility) over a larger family to make it a population result rather
+than an 8-form illustration. The proxy-bridge negative result is itself a community-facing finding
+worth folding into the announcement.
