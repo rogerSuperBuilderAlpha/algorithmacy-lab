@@ -1,10 +1,32 @@
 # Paper 2 rebuild — handoff / state
 
 ## Where we are
-Stage 1 (research) ✓ · Stage 2 (outline) ✓ · Stage 3 computation ✓ · Stage 3 draft ✓ (`DRAFT.md`,
-11 sections, ORM register, Nagel style — 0 first person, 0 em-dashes; every number traceable to a
-`rebuild/` script; all 20 bib entries Crossref-verified) · **Stage 4 (adversarial review) = NEXT**.
-Branch `rebuild/paper-by-paper`.
+Stage 1 (research) ✓ · Stage 2 (outline) ✓ · Stage 3 computation ✓ · Stage 3 draft ✓ · Stage 4
+review round 1 ✓ + corrective passes ✓. Branch `rebuild/paper-by-paper`. **Next: optional round-2
+re-review + the deferred computations (below).**
+
+Draft: `DRAFT.md` (~9.7k words, 11 sections, ORM register, Nagel style — 0 first person, 0 em-dashes;
+every number traceable to a `rebuild/` script; all 20 bib entries Crossref-verified).
+Review: `ADVERSARIAL_REVIEW.md` (round 1: 3 hostile reviewers, all MAJOR REVISIONS, all reproduced
+the numbers). New computation answering the review: `review_response.py`.
+
+## Stage 4 corrective passes applied
+- **Technical/honesty fixes** (round 1): deleted the false "Φ = EI at the MIP" identity and the
+  unearned "provably"; replaced with the computed EI result (EI=2.0 bits on the exhibit where Φ=0;
+  true dyad has the HIGHEST EI, 3.0). Retreated the untested geometric-Φ/Φ* robustness claim to an
+  open check. "cause-effect structure" → "cause-effect power" (system measure, not the unfolded
+  structure the paper drops). "validation gate" → correctness controls (a unit test, not a construct
+  validation). Rule 110 "same" → "analogous". Full per-state Φ disclosure in §7.
+- **Strengthen-and-narrow** (round 2, per author steer — keep the warrant, condition it): the
+  "material reality / objective / analyst-independent" framing is now CONDITIONAL — objective *given
+  a faithful model*, where the four-question criterion disciplines faithfulness. §5 reports the
+  carving-invariance check (verdict holds across faithful re-encodings, e.g. variant B → triad at
+  Φ=0.415; flips only when an encoding freezes a party (A) or loosens the determination off a
+  constitutive conjunction (C)). §7 dyadic-limit verdict now derived from the rivals' published
+  unit (channel/context that conveys, not commits) — kills the "circular by construction" charge.
+  §7 false-dyad reframed (reading the rider is NOT sufficient; the OR-dispatch reads both and
+  factors). §8 exhibit given a coordination reading (a mediator whose determination is redundant
+  given the parties — a dyad that looks like a triad). §10 warrant restated in conditional form.
 
 ## Draft notes (for the review pass)
 - One open competitor flagged, not computed: PID/ΦID synergy on the exhibit (§8). The strongest move
