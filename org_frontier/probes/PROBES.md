@@ -17,7 +17,25 @@ interprets both and commits determinations neither controls).
 
 | 3 | Temporal-tracking (regime switch) | A switching rule pulls the regime node into the core | **H3 refuted** | A switching rule does NOT integrate the regime. An exogenous rule-clock stays a spectator (emit-only); an outcome-tracking regime *destabilizes* the core (Φ 2.0→0.28, worker drops out). Temporal-tracking is a worker competency, not a structural property of the form — consistent with the dissertation's worker-level framing. `probe_regime.py` |
 
-## Reading across probes 1–3
+| 4 | Inferential (folk-theory node) | A used inference joins the core | **H4 supported, striking** | An unused inference is a sink (out). A *blended* inference (W'=S∧M) joins the core as {W,S,M} and **displaces the actual counterpart C**. Acting purely on the model (W'=M) decouples the worker. The worker coordinates with its *model* of the other, not the other. `probe_inference.py` |
+| 5 | Signal asymmetry (scope cond.) | Both parties need feedback; one-sided collapses it | **H5 supported** | Symmetric feedback → triadic {W,S,C}. One-sided feedback drops the no-feedback party (worker-only → {W,S}; counterpart-only → {S,C}). An emit-only party leaves the core. `probe_asymmetry.py` |
+| 6 | Exit option (Hirschman) | An absorbing exit erodes the triad | **H6 partial** | An absorbing exit erodes the counterpart's core membership (core → {W,S} in exited states). The reversible-reentry form is **confounded** — it accidentally adds a W→C back-channel, so its collapse is not a clean exit result. Flagged, not claimed. `probe_exit.py` |
+
+## Reading across probes 1–6
+
+Two principles now hold across every probe and the `principal/` study:
+1. **A node is in the irreducible core only via constraining bidirectional coupling.** Emit-only
+   sources (no-feedback parties, exogenous rule-clocks, static principals) and read-only sinks
+   (unused inference, monitors) stay outside. Probes 3, 4, 5 and `principal/` all show this.
+2. **Adding a tightly-coupled node often displaces another from the core (a tendency, not a law).**
+   A counterpart coalition displaces the worker (1); a blended inference displaces the counterpart
+   (4); a maximally-coupled principal contracts to {S,P} (`principal/`). But it is not a fixed
+   budget — `gates_and_monitors` binds all four into one core. The tendency is real, the strict
+   conservation claim is false (and the counterexample is logged so it is not overstated).
+
+The worker-competency dimensions (temporal-tracking #3, inference #4-unused) correctly do NOT add
+structural irreducibility; they are burdens on the worker, as the dissertation frames them. The
+structural conditions (signal asymmetry #5, opaque mediation, joint determination) DO.
 
 The major complex tracks *who is bound into the coordination*, and the probes move parties in and
 out of it. A counterpart coalition (1) ejects the worker; intent compression (2) drops unread/
