@@ -229,3 +229,46 @@ reducible) has no *documented* platform instance in the paper. Two honest option
 discipline against inspection-based over-calling (the exhibit as a cautionary stress-test, which the
 softened §8 already leans toward); or (b) search the platform-work literature for a cited case in that
 zone. Deferred computations still open and committed: geometric Φ/Φ* family-robustness, ΦID synergy.
+
+---
+
+# Stage 4, round 3 (re-review of the round-3 draft) + copy-edit pass
+
+The round-3 draft (with the §5/§9 reconciliation, the variant-A fix, R2's disclosures, and the
+literature integration) went back through all three roles. **Verdict trajectory across three rounds:
+3× MAJOR-bordering-reject → 1 MINOR + 2 MAJOR → ACCEPT + 2 MINOR.** No reviewer remains at MAJOR.
+
+- **R2 (IIT expert): ACCEPT.** All three disclosures landed and reproduce; the EI implementation is
+  the correct Hoel construction; no round-3 edit regressed a technical claim. Only non-blocking note:
+  "realistic perturbation" → "perturbation" (the noise model is a toy).
+- **R1 (methodologist): MINOR.** The §5/§9 contradiction is gone at the sentence level across all five
+  loci (abstract, §1, §5, §9, §10); the bounded warrant survives the necessary-not-sufficient concession
+  because it rests on construct-proliferation (rivals factor, platform does not), not on
+  verdict-uniqueness; the paper does not over-correct. Asks: name the read-faithfulness as the open
+  discipline in §5; de-hedge the abstract. "Resolve and this is ready to ACCEPT."
+- **R3 (org theorist): MINOR.** Off MAJOR. The §5/script contradiction is fixed; the operator-choice
+  tautology is conceded and correctly bounded; Φ-earns-its-keep is narrowed — the exhibit now has a
+  documented organizational kin (fauxtomation, route-around), no longer only Rule 110 — but the
+  cheap-test-defeating zone remains empirically unoccupied, which is acceptable to defer for a methods
+  paper IF stated in §10 in those exact terms. Asks: state the empty-zone limit in §10; disjoin the
+  §9 route-around axis from the exhibit's conditional-redundancy zone.
+
+## Copy-edit pass (applied; all reviewer-requested, no judgment calls)
+- §7: "realistic perturbation" → "perturbation," with a note that the mixing is a crude noise model
+  (R2).
+- §9: added a sentence disjoining the channel-opens axis (Öborn/Maffie) from the exhibit's
+  conditional-redundancy zone, so a reader cannot slide from "route-around documented" to "Φ's unique
+  zone documented" (R3).
+- §5: named the read-faithfulness as the method's thinnest joint and an open discipline — the reads
+  are disciplined by case-argument, not by a rule as tight as the alphabet's (R1, R3).
+- §10: added the specific limit — the strongly-connected-yet-reducible zone where Φ uniquely beats the
+  cheap tests is the one with no documented platform instance; the unique-necessity claim rests there
+  on a constructed exhibit plus conceptual kin, and confirming a real instance is Paper 3's (R3).
+- Abstract: de-hedged the bounded-objectivity pile-up (R1).
+
+## Standing
+Panel at ACCEPT + 2 MINOR, with the MINOR items now addressed in copy-edit. Genuine remaining loose
+ends, all flagged in-draft as future work, none blocking: (1) compute a ΦID/PID synergy measure on the
+exhibit (the most plausible cheap rival that might also fire in Φ's unique zone — the obvious next
+computation); (2) geometric Φ / Φ* zero-set agreement on the controls + exhibit; (3) the empirical
+confirmation of the exhibit's zone, which is Paper 3's measurement task.

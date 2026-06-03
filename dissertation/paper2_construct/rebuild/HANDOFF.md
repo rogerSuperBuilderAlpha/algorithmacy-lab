@@ -2,11 +2,16 @@
 
 ## Where we are
 Stage 1 (research) ✓ · Stage 2 (outline) ✓ · Stage 3 computation ✓ · Stage 3 draft ✓ · Stage 4
-review round 1 ✓ → round 2 re-review ✓ → round-3 corrective pass ✓. Branch `rebuild/paper-by-paper`.
-Panel trajectory: 3× MAJOR-bordering-reject → (after round-2 reframe) 1 MINOR + 2 MAJOR → round-3
-fixed both standing MAJOR items (the §5/§9 contradiction and the variant-A script inconsistency) by
-correction. **Next: optional round-3 re-review; the one open author decision (R3's empirical-emptiness
-fork); the deferred computations (geometric Φ/Φ*, ΦID synergy).** See ADVERSARIAL_REVIEW.md tail.
+review: round 1 → round-2 re-review → round-3 corrective → **round-3 re-review ✓ + copy-edit ✓**.
+Branch `rebuild/paper-by-paper`. **Paper 2 is at defensible-accept state.**
+Panel trajectory: 3× MAJOR-bordering-reject → 1 MINOR + 2 MAJOR → **ACCEPT (R2) + 2 MINOR (R1, R3)**,
+with the MINOR items now addressed in copy-edit. Literature hunt (author choice) integrated:
+Öborn et al. (2025) + Maffie (2023) anchor §9's route-around result; fauxtomation (Hamblin 2022)
+gives §8's exhibit a documented kin, with the honest limit (the exhibit's exact zone has no documented
+instance) stated in §10. Draft ~11k words, 23 Crossref-verified bib entries, style clean.
+**Next (all optional, none blocking, all flagged in-draft): ΦID/PID synergy on the exhibit (the
+obvious next computation); geometric Φ/Φ* zero-set agreement; or move to Paper 3 (calibration).**
+See ADVERSARIAL_REVIEW.md tail.
 
 Draft: `DRAFT.md` (~9.7k words, 11 sections, ORM register, Nagel style — 0 first person, 0 em-dashes;
 every number traceable to a `rebuild/` script; all 20 bib entries Crossref-verified).
