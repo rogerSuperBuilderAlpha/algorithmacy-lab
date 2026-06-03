@@ -1,31 +1,37 @@
-# Paper 3 rebuild — plan and scope
+# Paper 3 rebuild — plan, scope, and final state
 
-> **FROM-SCRATCH REWORK (author steer, superseding).** Paper 3 is being rethought and rebuilt
-> from scratch with brand-new deep research and five real-organization case studies as the spine.
-> The pipeline is: deep research (case-study methodology) -> foundational rework + deep research
-> -> outline -> per-section deep research -> detailed outline -> write five provisional cases
-> (all required sections/features) -> write the whole paper. The cases are written provisionally
-> now; the author replaces provisional content with field data later.
+> **STATUS: COMPLETE — unanimous ACCEPT (Stage 4).** Paper 3 was rebuilt from scratch with
+> brand-new deep research and five real-corporation case studies as the spine, then taken through
+> a five-round adversarial panel to unanimous ACCEPT, including a §7 discriminant-checks section
+> (dyadic controls + a micro-scenario catalog) added and re-reviewed to ACCEPT. No reviewer found a
+> computational error in any round; every load-bearing number has reproduced five times. Cases are
+> provisional (public-documentation evidence; the author replaces them with field data). The full
+> adjudication is in `ADVERSARIAL_REVIEW.md`.
 
-## What stays vs. what is rebuilt
+## Review trajectory and commits (branch `rebuild/paper-by-paper`)
 
-- **Stays (the computation).** `phi_core.py` (PyPhi-only, n-general), `catalog.py` +
-  `analyze_catalog.py` (the 4,144-form family landscape), and `typology.py` are re-derived from
-  scratch this session and verified to reproduce the recast numbers exactly. This is the model
-  inherited from the ACCEPTed Paper 2; it is not re-derived again.
-- **Rebuilt from scratch (the paper).** Framing, research base, architecture, and the case
-  studies. The catalog and typology become supporting breadth; the five real-organization case
-  studies become the spine.
+- `700fec7` — from-scratch rework: research, computation, draft.
+- `469625e` — Stage 4 round 1: 2 MAJOR + 1 MINOR (all framing; no computational error).
+- `05193ef` — round 2: ACCEPT + 2 MINOR + copy-edit.
+- `7edc656` — round 3: **unanimous ACCEPT**.
+- `3e35f85` — merge §7 discriminant checks (dyadic controls + micro-catalog).
+- `31369bc` — round 4 (full panel on merged draft): 1 MINOR + 2 ACCEPT-conditional + corrective.
+- `44c1ee3` — round 5: **unanimous ACCEPT** with §7 included.
+
+## What stays vs. what was rebuilt
+
+- **Stayed (the computation).** The model inherited from the ACCEPTed Paper 2. `phi_core.py`
+  (PyPhi-only, n-general) reproduces Paper 2's controls exactly at n=3 (0.000 / 0.830 / 2.000).
+- **Rebuilt from scratch (the paper).** Framing, research base, architecture, and the cases. The
+  4,144-form catalog and the typology are supporting breadth; the five real-corporation case
+  studies are the spine.
 
 ## The five case studies (LOCKED slate; provisional content, field data later)
 
-Designed to span industries and exercise the structural claim (score tracks determination
-structure, not the mediator's seat) via two "same structure, different seat" twins plus a
-higher-order extension. Hold party count fixed, vary structure (the cut-anchor lesson).
-
-All five are large, publicly documented corporations. Cases use public information only (filings,
-terms of service, reporting) — no insider or personal knowledge. The author replaces provisional
-content with field data later.
+Diverse-case theoretical sampling: span industries and exercise the structural claim (the score
+tracks determination structure, not the mediator's seat) via two "same structure, different seat"
+twins plus a higher-order extension. Hold party count fixed, vary structure (the cut-anchor lesson).
+All five are large, publicly documented corporations; cases use public information only.
 
 | # | Organization | Industry | Structure | Φ band | Seat |
 |---|---|---|---|---|---|
@@ -35,107 +41,75 @@ content with field data later.
 | 4 | ManpowerGroup | staffing & workforce solutions | partial mediation | 0.83 | human-institutional (twin of #3) |
 | 5 | Amazon Mechanical Turk | crowdwork / digital labor | higher-order strict | 3.00 (n=4) | algorithmic |
 
-Replication design (per `research/case_study_methodology.md`): the two equal-Φ pairs (1≈2 at 2.00;
-3≈4 at 0.83) are each a literal replication on Φ and a theoretical contrast on the mediator's seat,
-carrying the structure-not-seat headline; #5 is the higher-order theoretical replication.
+The two equal-Φ pairs (1≈2 at 2.00; 3≈4 at 0.83) are each an identity-by-construction (not a
+"replication") on Φ and a theoretical contrast on the seat, carrying the structure-not-seat
+headline; #5 is the higher-order theoretical replication, reported with its size-normalized value
+(Φ/(n−1) = 1.00, the strict level). The earlier (vetoed) healthcare-staffing case was dropped; the
+slate is corporate-only.
 
-## Stage status
+## §7 — discriminant checks (added in the merge, reviewed to ACCEPT)
 
-- Stage 1 (case-study methodology deep research): DONE -> `research/case_study_methodology.md`.
-- Stage 2a (foundational rework deep research): DONE -> `research/framing_and_positioning.md`.
-- Outline (architectural): DONE -> `OUTLINE.md`.
-- Stage 2c (per-section / per-organization mechanism research): DONE ->
-  `research/organization_mechanisms.md`. All five mechanisms confirmed; `cases.py` computes the
-  five case models (Upwork=ManpowerGroup=0.83; Uber=NYSE/Nasdaq=2.00; MTurk=3.00).
-- Computation: `phi_core.py` (PyPhi-only, n-general, passes Paper 2 controls), `catalog.py` +
-  `analyze_catalog.py` (4,144-form landscape reproduces the recast exactly), `typology.py`,
-  `cases.py` — all re-derived from scratch and verified.
-- NEXT: detailed outline -> five provisional cases -> full paper -> Stage 4 adversarial review.
-- Open framing items to handle at draft time from existing knowledge + Crossref: Doty & Glick
-  typology-as-theory criteria (§3); any org-theory precedent for a graded structural score.
+- **Dyadic negative-control class** (`dyadic_cases.py`, in-body): five real forms judged dyadic,
+  predicted Φ=0. Three come up dyadic (telecom, email, SaaS tool); two are reported findings — a
+  payment processor at 0.83 (joint authorization) and Craigslist at 1.00 (a contestable coding; a
+  clean route-around factors to 0). The control falsified its own predicted zero in 2 of 5, which is
+  what a control is for. This is the discriminant-validity evidence the paper lacked.
+- **Micro-scenario catalog** (`micro_scenarios.py` → `MICRO_SCENARIOS.md`, an illustration, table in
+  the supplement): 103 surface-distinct everyday activities coded by mechanism land on a few
+  structural levels; the per-band counts are a property of the authored sample, not a world
+  frequency. The point is qualitative: the score reads mechanism, not surface.
 
 ## Scope (what Paper 3 does)
 
-1. **Applies the tool generally.** Enumerate the whole W–S–C model family, compute Φ for every
-   wiring, show the scores fall onto a few discrete bands, and place a typology of organization
-   types on the populated bands. The headline is model-internal: the score tracks the *structure*
-   of how parties reach each other, not the *technology* in the middle.
-2. **Runs case studies on five real organizations.** Model each from how it actually coordinates
-   its parties, compute Φ, read the case. The case studies are the paper's contact with the
-   world — grounded analytic applications, not a statistical outcome-calibration (the cut-anchor
-   lesson below). Provisional now; field data later.
+1. **Applies the tool generally.** Enumerate the whole W–S–C model family (4,144 wirings), compute Φ
+   for each, show the discrete bands, place a typology on the populated bands. Model-internal: the
+   score tracks the structure of how parties reach each other, not the technology in the middle. The
+   2.00 band is not the "strict-mediation band" — only 16 of 40 strict wirings reach it, the sharper
+   "Φ is not a feature checklist" result.
+2. **Case studies on five real corporations.** Model each from how it actually coordinates, compute
+   Φ, read the case. Grounded analytic applications, not statistical outcome-calibration. The
+   equality within a pair is a modeling property (identical coding), not a discovery; the
+   contribution is the sector- and seat-blind coding discipline.
+3. **Discriminant checks (§7).** The dyadic control class and the micro-catalog (above).
 
-## Process (locked, same as Paper 2)
+## Artifacts
 
-- **Full from-scratch rebuild** in `rebuild/`, depending only on PyPhi. No import of prior
-  project code. `phi_core.py` re-derives the measure n-generally and reproduces Paper 2's
-  controls exactly at n=3 (0.000 / 0.830 / 2.000).
-- **Compute, don't assert.** Every Φ is computed and reproducible from a `rebuild/` script.
-- **Nagel style** (CLAUDE.md) for the draft. ORM register.
-- **Stage 4 adversarial review** to close — three hostile reviewers, reproduce every number,
-  iterate to ACCEPT, as Paper 2 did.
+- Computation: `phi_core.py`, `catalog.py`, `analyze_catalog.py`, `typology.py`, `cases.py`,
+  `dyadic_cases.py`, `micro_scenarios.py`, `review_response.py`.
+- Paper: `DRAFT.md` (10 sections, Nagel/ORM, no first person). Scaffold: `OUTLINE.md`,
+  `OUTLINE_DETAILED.md`. Supplement: `MICRO_SCENARIOS.md`.
+- Research notes: `research/{case_study_methodology,framing_and_positioning,organization_mechanisms}.md`.
+- Review log: `ADVERSARIAL_REVIEW.md` (five rounds).
+- `CASES_FIELDWORK_TEMPLATE.md` — fabricated, conspicuously-tagged fieldwork scaffold, **kept OUT of
+  `DRAFT.md` by design**; the author replaces its tagged placeholders with real field data.
 
-## The cut-anchor lesson (carries into the case-study design)
+## Process (locked, executed, same as Paper 2)
 
-The earlier rideshare "anchor" was cut because, in the pooling model, Φ = k + 1 for a pool of
-k riders, so Φ was a linear function of party count. Correlating it with pooling friction only
-validated the party-count axis — the one axis you do not need Φ to see. The novel content of
-the scale is that determination *structure* separates forms at a *fixed* party count (parity
-0.50 vs partial 0.83 vs strict 2.00 at n=3). So the case studies must hold party count fixed
-and vary structure, or they repeat the cut anchor's mistake. The cut scripts live in
-`../exploratory/` and their numbers are cited nowhere.
+Full from-scratch rebuild, PyPhi-only, compute-don't-assert, Nagel style (CLAUDE.md), ORM register,
+Stage 4 adversarial review iterated to ACCEPT.
 
-## Stages and status
+## The cut-anchor lesson (the methodological rationale, retained)
 
-- **Stage 0 — scaffolding + foundation.** DONE. `rebuild/` created; `phi_core.py` (PyPhi-only,
-  n-general) passes the Paper 2 control self-check.
-- **Stage 1 — general application (catalog + typology).** IN PROGRESS.
-  - `catalog.py` re-derived (PyPhi-only via `phi_core`); full run reproduces the recast
-    landscape (target: ~44% reducible, seven non-zero bands, strict mediation the strongest
-    driver, R² ≈ 0.20, parity caution). `analyze_catalog.py` reports the bands, the OLS, and
-    the Cerullo caution.
-  - `typology.py` re-derived; reproduces the recast placements exactly (0 / 0.50 / 0.83 / 2.00
-    / 3.00; court = Uber = ATS at 2.00; staffing = broker = Upwork at 0.83).
-- **Stage 2 — live-organization case studies.** TO DO. The new contribution. Design below.
-- **Stage 3 — draft.** TO DO. Nagel style; intro -> unit -> model + general application ->
-  case studies -> discussion -> limits. Every number from the rebuild scripts.
-- **Stage 4 — adversarial review.** TO DO.
+The earlier rideshare "anchor" was cut because, in the pooling model, Φ = k + 1 for a pool of k
+riders, so Φ was a linear function of party count. Correlating it with pooling friction only
+validated the party-count axis — the one axis you do not need Φ to see. The scale's novel content is
+that determination *structure* separates forms at a *fixed* party count (parity 0.50 vs partial 0.83
+vs strict 2.00 at n=3). So the cases hold party count fixed and vary structure. The cut scripts live
+in `../exploratory/`; their numbers are cited nowhere.
 
-## Stage 2 design — live-organization case studies (to refine with author)
+## Remaining work (standing posture, none blocking, all disclosed in-draft)
 
-Goal: a handful of case studies on real, named organizations where the tool does analytic work,
-built to exercise the *structure* axis (fixed party count, varied determination), not party
-count. Candidate shape, to confirm:
-
-- **Pick real organizations with documented coordination**, not toy archetypes. Model each from
-  public evidence of how it actually routes its parties (terms of service, how a match/dispatch
-  is committed, whether the parties can reach each other off-platform). Pre-register the
-  determination structure before computing, as the typology does.
-- **Exercise the structure axis at fixed n.** Contrast organizations that have the same party
-  count but different determination structure — e.g. a strict-mediation platform vs a
-  partial-mediation marketplace in the same sector — so the case shows Φ separating them by
-  structure, the scale's novel content.
-- **Exercise the human-vs-algorithmic contrast on real instances**, not only by construction.
-  The healthcare staffing agency is a strong candidate (insider knowledge available) against an
-  algorithmic platform of the same partial-mediation shape.
-- **Read each case for where structure cuts against appearance** — a form that looks dyadic but
-  is strict (Paper 2's false dyad), or looks triadic but factors (the exhibit), if a real
-  instance can be documented.
-- **Honesty bounds:** the case studies are grounded analytic applications, not outcome
-  validation. State plainly that no Φ here is regressed against an observed coordination
-  outcome; that remains future work. Magnitude read ordinally only (Cerullo).
-
-Open questions for the author:
-- Which real organizations to study, and how many.
-- How much to lean on the author's own healthcare-staffing access as a deep case vs documented
-  public platforms as breadth.
-- Whether any case can responsibly claim a structure-cuts-against-appearance reading on a real
-  named org, or whether that stays a modeled illustration.
-
-## Paper 2 coherence note (act on after Paper 3 claims are settled)
-
-Paper 2 (ACCEPTed) says "Calibration against coordination outcomes is Paper 3" (abstract, §4,
-§10, §11). Paper 3 does case-study application, not statistical outcome-calibration. Once
-Paper 3's claims are fixed, soften Paper 2's forward-promise to match — e.g. "applying and
-case-studying the instrument is Paper 3; outcome-calibration is the empirical program it opens."
-Flag, do not touch Paper 2 yet.
+- **Fieldwork.** The five cases are provisional; the author gathers primary data to replace the
+  public-documentation evidence, using `CASES_FIELDWORK_TEMPLATE.md` as the scaffold (and the
+  per-case "what field data must establish" checklists in it).
+- **Outcome-validation.** Vary determination structure at a *fixed* party count against an observed
+  coordination outcome — the named empirical program the paper opens.
+- **Citations.** Re-verify every academic citation against Crossref before submission (the Paper 1/2
+  discipline). Firm up the Doty & Glick typology-as-theory specifics.
+- **Title.** Open author choice. Working default: "The Structure of the Middle: A Graded Score of
+  Coordination Forms and Five Corporate Cases." Alternatives offered; author to pick.
+- **Paper 2 coherence (flagged, not yet acted on).** Paper 2 (ACCEPTed) says "Calibration against
+  coordination outcomes is Paper 3" (abstract, §4, §10, §11). Paper 3 does case-study application and
+  discriminant checks, not statistical outcome-calibration. Soften Paper 2's forward-promise to match
+  — e.g. "applying and case-studying the instrument is Paper 3; outcome-calibration is the empirical
+  program it opens." An author decision; do not touch Paper 2 unprompted.
