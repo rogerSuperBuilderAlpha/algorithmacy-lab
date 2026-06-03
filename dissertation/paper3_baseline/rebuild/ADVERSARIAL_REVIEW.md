@@ -161,3 +161,59 @@ becomes the checklist result, and the equal-Φ pairs become an explicit demonstr
 coding rather than an oversold discovery. None of the eight real charges requires fieldwork; all are
 reframing, disclosure, a sensitivity table, and a unit-selection rule. This is the Paper-2-grade
 round-1 outcome: MAJOR on framing, fixable without retreating from the contribution.
+
+---
+
+# Stage 4, round 2 (re-review of the corrected draft) + copy-edit pass
+
+The corrected draft went back through the same three reviewers, each diffing it against the round-1
+commit (`git diff 700fec7 HEAD -- DRAFT.md`) and re-running the scripts. **Verdict trajectory:
+2 MAJOR + 1 MINOR → ACCEPT + 2 MINOR.**
+
+- **R2 (IIT / formal): ACCEPT, up from MINOR.** All five Obj1–Obj5 resolved with the numerically
+  correct fix and no new technical error. Every load-bearing number reproduces (the 16/40 split, the
+  Φ=n−1 size law, Φ/(n−1)=1.00, dedup=0, Upwork OR→6.00, exchange MM→0.00, partial max 0.83 reducible
+  at all-on). Two one-line wording asks, not conditions of acceptance.
+- **R1 (case-study methodologist): MINOR, up from MAJOR.** B2/B3/B4/B5 resolved; B1 substantially
+  resolved (the §5/§6 reframe separates the cases' contribution from the typology and concedes the
+  within-case operation is a coding decision, now disclosed not hidden). Residual: minor wording and
+  the MTurk slate placement.
+- **R3 (org theorist): MINOR, up from MAJOR.** All five resolved (Obj2 fully on
+  coding/sensitivity/layer-rule, partial on MTurk's slate placement). The headline demotion is honest
+  and did not hollow the contribution; the §7 power-laundering is fixed (necessary-not-sufficient, no
+  substitutability, power/accountability not claimed cleanly bracketed); the gap is now fair to
+  Vallas & Schor; §6 concedes the right cherry-picking degree of freedom.
+
+## Convergent residual items (all MINOR; applied in this copy-edit pass)
+
+All three flagged the same short list of wording/labeling items. None needs computation or fieldwork.
+Applied this pass:
+- **MTurk slate placement (R1, R3).** §4 now reads "Four cases form the replication design; the fifth
+  extends it to a higher-order determination," and the §6 table adds a size-normalized row
+  (Φ/(n−1): 0.42 / 0.42 / 1.00 / 1.00 / 1.00) so the MTurk cell is no longer raw-next-to-raw.
+- **§5.3 state description (R2).** "the two states where one party and the platform are live" →
+  "where one party is live" (the platform is off at the maximizing states).
+- **§6 "the fixing survives" (R3).** → "the coding reaching the same structure across …" (drops the
+  empirical-robustness connotation).
+- **§5.5 normalization tautology (R1).** "what the case shows … strict mediation generalizes" → "Read
+  normalized, the case is a scope extension … the equal normalized score follows from the n−1
+  identity, not from a new finding."
+- **§3 meta tics (R1).** "against the paper's convenience" and "read against the paper's own interest"
+  removed (rule-7).
+- **§7 ¶3 residual (R1).** "both errors corrected, a market scored like a platform" → "the coding
+  avoiding both errors: a market coded like a platform … by structure rather than by label or seat."
+- **§4 diverse-case vs author-choice (R1, R3).** Added a clause: diverse-case selection is a
+  disciplined choice along a declared axis, not the absence of one, with the discipline resting on the
+  coding rule (§6).
+
+## Standing after round 2
+
+The panel is at ACCEPT + 2 MINOR, and the MINOR items are now addressed in the copy-edit pass above.
+No reviewer found a computational error in either round; every load-bearing number reproduced twice.
+The round-1 strategy held: the two defects became the paper's stronger material (the 16/40 strict
+split is the headline "Φ is not a checklist" result; the equal-Φ pairs are an explicit seat-blind
+coding demonstration), and the contribution is stated at the altitude the evidence supports — a claim
+about the coder, not the world. Genuine remaining loose ends, all standing posture, none blocking:
+the cases are provisional pending the author's fieldwork; outcome-validation (vary structure at fixed
+party count against an observed outcome) is the named empirical program; academic citations to be
+Crossref-verified at finalization; Doty & Glick typology-as-theory specifics to firm up.
