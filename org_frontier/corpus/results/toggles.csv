@@ -1,0 +1,7 @@
+form,base_structure,base_phi,ablation,ablated_structure,ablated_phi,flipped_to_dyadic
+ats_strict_bottleneck,triadic,2.0000,drop_C_from_S,dyadic,0.0000,True
+ats_strict_bottleneck,triadic,2.0000,add_backchannel,triadic,0.4150,False
+gig_false_dyad,triadic,2.0000,drop_C_from_S,dyadic,0.0000,True
+gig_false_dyad,triadic,2.0000,add_backchannel,triadic,0.4150,False
+two_sided_match,triadic,2.0000,drop_C_from_S,dyadic,0.0000,True
+two_sided_match,triadic,2.0000,add_backchannel,triadic,0.4150,False

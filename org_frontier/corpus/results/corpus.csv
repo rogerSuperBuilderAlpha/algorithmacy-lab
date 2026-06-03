@@ -1,0 +1,9 @@
+key,title,validated,structure,competence,max_phi_mip,strict_mediation,mediator_reads_both,back_channel,expected,expected_check
+chat_dyad,Chat with a language model (dyadic limit),True,dyadic,literacy,0.000000,True,False,False,dyadic,ok
+gig_dyadic_model,"Rideshare, modeled dyadically (rider dropped from dispatch)",True,dyadic,literacy,0.000000,True,False,False,dyadic,ok
+ats_strict_bottleneck,Resume -> ATS -> hiring manager (strict bottleneck),True,triadic,algorithmacy,2.000000,True,True,False,triadic,ok
+ats_feedback_factors,Resume -> ATS -> hiring manager (realistic feedback — yet factors),True,dyadic,literacy,0.000000,True,True,False,dyadic,ok
+gig_false_dyad,Rideshare driver -> platform -> rider (rider constitutive: the false dyad),True,triadic,algorithmacy,2.000000,True,True,False,triadic,ok
+pure_relay,Pure relay / broadcast (S copies W to C),False,dyadic,literacy,0.000000,True,False,False,dyadic,ok
+two_sided_match,Two-sided match (both parties act on the system's joint commit),False,triadic,algorithmacy,2.000000,True,True,False,triadic,ok
+hierarchy_backchannel,Hierarchy with a direct back-channel (W<->C edge present),False,dyadic,literacy,0.000000,False,True,True,dyadic,ok

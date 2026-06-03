@@ -1,0 +1,6 @@
+form,structure,competence,max_phi_mip,n_states_evaluated,n_states_irreducible,max_phi_state,mip_partition,expected_structure
+chat_dyad,dyadic,literacy,0.000000,8,0,,(factors),dyadic
+gig_dyadic_model,dyadic,literacy,0.000000,6,0,,(factors),dyadic
+ats_triad_mediator,triadic,algorithmacy,2.000000,4,1,111,"2 parts: {W,SC}",triadic
+ats_feedback_factors,dyadic,literacy,0.000000,5,0,,(factors),dyadic
+gig_false_dyad,triadic,algorithmacy,2.000000,5,1,111,"2 parts: {W,SC}",triadic
