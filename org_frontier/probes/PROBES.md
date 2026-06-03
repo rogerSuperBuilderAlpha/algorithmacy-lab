@@ -21,6 +21,17 @@ interprets both and commits determinations neither controls).
 | 5 | Signal asymmetry (scope cond.) | Both parties need feedback; one-sided collapses it | **H5 supported** | Symmetric feedback → triadic {W,S,C}. One-sided feedback drops the no-feedback party (worker-only → {W,S}; counterpart-only → {S,C}). An emit-only party leaves the core. `probe_asymmetry.py` |
 | 6 | Exit option (Hirschman) | An absorbing exit erodes the triad | **H6 partial** | An absorbing exit erodes the counterpart's core membership (core → {W,S} in exited states). The reversible-reentry form is **confounded** — it accidentally adds a W→C back-channel, so its collapse is not a clean exit result. Flagged, not claimed. `probe_exit.py` |
 
+| 7 | "Determinations neither party controls" | One-party control collapses the triad | **H7 supported, refined** | S following one party alone (S=W or S=C) is dyadic — the ignored party drops. But *both* mutual-veto (AND) and either-forces (OR) are triadic. The criterion is "S genuinely reads both," not "requires both." `probe_control.py` |
+| 8 | Coalition displacement, as a rate | Worker far less often in core under coalition | **H8 weak / tempers Probe 1** | Over all 256 counterpart-couplings: worker-in-core 20.8% with a coalition vs 31.2% without. Real direction, but a modest 10-pt effect — NOT the categorical ejection the 3 named forms in Probe 1 showed. The vivid forms were unrepresentative. `probe_coalition_sweep.py` |
+
+## Reading across probes 1–8
+
+Probe 8 is a methodological flag for this whole logbook: **named-form findings are existence proofs,
+not rates.** Probe 1's "coalition ejects the worker" is true for the forms shown but is a 10-point
+population effect, not a law. The same caution applies to probes 4 (inference displacement) and the
+principal core-contraction — they demonstrate that a structure *can* occur, not how often it does. A
+population sweep is the right follow-up before any of these is stated as a general claim.
+
 ## Reading across probes 1–6
 
 Two principles now hold across every probe and the `principal/` study:
