@@ -6,22 +6,50 @@ cross-checked against `../results.md`. Operationalizes Paper 1's provisional fou
 
 ## The claim (one paragraph)
 Paper 1 named algorithmacy and gave a provisional, four-question test for telling a moderated dyad
-from a mediated triad, then deferred the rigorous version. Paper 2 supplies it. Whether a
-coordination form is triadic is an empirical question with a formal answer: the form is a mediated
-triad when its application-layer cause-effect structure is irreducible, and a moderated dyad when it
-factors. Integrated information theory's Φ, a tool built in another field to measure irreducibility,
-computes the answer. Φ over the minimum-information partition (MIP) = 0 → dyad (navigable with
-literacy); Φ > 0 → triad (demands algorithmacy). The paper builds and validates the instrument. It
-does not calibrate it against outcomes; that is Paper 3.
+from a mediated triad, then deferred the rigorous version. Paper 2 supplies it, and in doing so
+establishes the **material reality** of the mediated triad. Whether a coordination form is triadic is
+not a matter of appearance or framing; it is an objective structural fact, determinable by a method.
+The form is a mediated triad when its application-layer cause-effect structure is irreducible, and a
+moderated dyad when it factors, and integrated information theory's Φ — a tool built in another field
+to measure irreducibility — computes which. Φ over the minimum-information partition (MIP) = 0 → dyad
+(navigable with literacy); Φ > 0 → triad (demands algorithmacy). The instrument does the work the
+rest of the dissertation needs. It gives an objective way to ask whether an interaction is dyadic,
+and the existing constructs all model the dyadic case: the channel, the partner, the message, the
+knowledge object, the system — each a structure that factors, each a Φ = 0 form. If the platform
+interaction is triadic (Φ > 0) while every existing construct models a dyad (Φ = 0), a new construct
+is not a preference but a requirement, because the dyadic constructs cannot reach a structure they
+reduce away. This is what makes the dissertation's argument non-circular: Paper 1 named the triad and
+argued the constructs were dyadic; Paper 2 shows it, by a method that does not depend on the
+analyst's framing. The paper builds and validates the instrument; calibration against outcomes is
+Paper 3.
+
+## The argumentative role (the dissertation-level payoff)
+Paper 2 is the objective hinge of the dissertation. Its contribution is not only a classifier but a
+**warrant**: an analyst-independent way to establish (a) that the structures the existing competency
+constructs assume are dyadic — they reduce, Φ = 0 — so those constructs are accounts of how a worker
+engages a platform dyadically; and (b) that the platform interaction is, in its causal structure,
+triadic — it does not reduce, Φ > 0 — even when it presents to the worker as a two-party app
+relationship (the false dyad). From (a) and (b) the construct-proliferation question Paper 1 could
+only argue (Suddaby; Larsen & Bong: a new construct is warranted only when the existing ones cannot
+reach the phenomenon) is answered objectively: the existing constructs model Φ = 0; the phenomenon is
+Φ > 0; the gap is real and a triadic construct is required. The Φ instrument turns Paper 1's
+deferred, asserted distinctness into a demonstrated one. The thread runs §1 (state the role) → §7
+(show the dyadic constructs' structures score 0 and the platform scores > 0) → §10 (state the
+warrant as the contribution).
 
 ## Section structure
 
 **1. Introduction: the form question and why it has a formal answer.**
 The open question Paper 1 leaves (handed a network, which form is it?), and why inspection fails
 (the false dyad: a worker may sit inside a triad she cannot see). Declare: triadicity is structural
-irreducibility; irreducibility is computable; IIT's Φ computes it. Commit to importing a foreign
-formalism and to defending the import on the merits. Preview the contribution: a decision procedure,
-not a calibrated scale.
+irreducibility; irreducibility is computable; IIT's Φ computes it. Then state the argumentative role.
+The existing competency constructs are accounts of how a worker engages a platform dyadically — a
+worker and a channel, a partner, a system. The instrument gives an objective, analyst-independent way
+to ask whether a given interaction is in fact dyadic. If the existing constructs all model dyadic
+(Φ = 0) structures, and the platform interaction is triadic (Φ > 0), then a new construct is required,
+not merely proposed. The paper commits to importing a foreign formalism and defending the import on
+the merits. Preview the contribution: a decision procedure that establishes the material reality of
+the triad and warrants the construct, not a calibrated scale.
 
 **2. The borrowing, and the discipline it requires.**
 Organization theory imports formal models from other fields — population ecology from biology
@@ -72,10 +100,18 @@ triad). The validation controls run before any worked example: a form built to f
 the complete {W}{S}{C} cut over-calls (positive even for dyads); the test is Φ over the MIP, which is
 party-respecting (e.g. {W, SC}).
 
-**7. Worked applications: the classifier cuts against appearance both ways.**
-- *Dyadic limit* — chat with a language model: the model commits nothing coupling a third → Φ = 0.
+**7. Worked applications: the classifier cuts against appearance both ways, and forecloses the
+dyadic constructs objectively.**
+The dyadic limit is not a toy case. It is the structure the existing competency constructs assume —
+a worker relating to a channel, a partner, a message, or a system — and the instrument scores that
+structure Φ = 0. That is the objective foreclosure: the constructs model a form that reduces. The
+triad cases score Φ > 0, the structure those constructs reduce away.
+- *Dyadic limit* — chat with a language model (the HMC / channel structure the dyadic constructs
+  assume): the model commits nothing coupling a third → Φ = 0. The dyadic construct is an accurate
+  account of a Φ = 0 form.
 - *Irreducible triad* — résumé → ATS → hiring manager: the system commits f(W,C) neither controls →
-  Φ > 0.
+  Φ > 0. The dyadic construct, applied here, scores the case 0 by omitting the third party — and is
+  wrong, by a method.
 - *The false dyad* (the centerpiece) — rideshare: presents to the driver as a two-party app
   relationship, is causally a three-party system; identical except the one edge S←C (rider
   constitutive of dispatch). Include it → Φ = 2.0 (triad the driver cannot see); drop it → Φ = 0
@@ -107,11 +143,18 @@ the binary level: removing the direct channel keeps the form classified a triad,
 structural reason to design the direct dyad out. No magnitude gradient claimed.
 
 **10. What the instrument establishes, and what it does not.**
-The contribution: a formal decision procedure for triadicity that makes Paper 1's provisional
-criterion rigorous. The honest limits: the verdict is binary, not a difficulty scale (the magnitude
-is read only ordinally; node update functions, not the state rule, drive it); state-alphabet
-dependence; no validation against the world; tractability as a discipline on granularity, not a
-defect. Hand the outcome anchor — a Φ value as a coordination-difficulty scale — to Paper 3.
+The contribution is two-layered. First, a formal decision procedure for triadicity that makes Paper
+1's provisional criterion rigorous. Second, and for the dissertation the deeper one, an **objective
+warrant for the new construct**: because the instrument is analyst-independent, it converts Paper 1's
+asserted distinctness into a demonstrated one — the existing constructs model Φ = 0 structures, the
+platform interaction is Φ > 0, so the construct-proliferation bar (a new construct only when the old
+ones cannot reach the phenomenon) is cleared by a method, not a claim. The honest limits: the verdict
+is binary, not a difficulty scale (the magnitude is read only ordinally; node update functions, not
+the state rule, drive it); state-alphabet dependence; no validation against the world; tractability
+as a discipline on granularity, not a defect. The "material reality" the paper establishes is
+structural and objective — that the dyadic/triadic distinction carves a real joint, determinable by a
+method — not a claim that Φ predicts coordination outcomes. That outcome anchor — a Φ value as a
+coordination-difficulty scale — is handed to Paper 3.
 
 **11. Conclusion / bridge to Paper 3.**
 
