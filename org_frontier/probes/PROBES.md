@@ -24,6 +24,18 @@ interprets both and commits determinations neither controls).
 | 7 | "Determinations neither party controls" | One-party control collapses the triad | **H7 supported, refined** | S following one party alone (S=W or S=C) is dyadic — the ignored party drops. But *both* mutual-veto (AND) and either-forces (OR) are triadic. The criterion is "S genuinely reads both," not "requires both." `probe_control.py` |
 | 8 | Coalition displacement, as a rate | Worker far less often in core under coalition | **H8 weak / tempers Probe 1** | Over all 256 counterpart-couplings: worker-in-core 20.8% with a coalition vs 31.2% without. Real direction, but a modest 10-pt effect — NOT the categorical ejection the 3 named forms in Probe 1 showed. The vivid forms were unrepresentative. `probe_coalition_sweep.py` |
 
+| 9 | Inference displacement, as a rate | C and M trade off in the core | **H9 confirmed, categorical** | Over 64 forms, C and M **never coexist** in the core (0 forms). P(C in core \| M in)=0%; P(C in core \| M out)=91%. The inferred model *substitutes for* the real counterpart, never supplements it. The sweep confirms Probe 4 (vs Probe 8, which tempered Probe 1). `probe_inference_sweep.py` |
+| 10 | Determination type vs multi-party core | Parity keeps all parties most robustly | **H10 refuted, surprising** | AND and OR keep all parties at Φ=3.0; parity keeps all but at Φ=0.25; **majority (2-of-3) factors entirely → dyadic**. Redundancy (no party pivotal) destroys irreducibility, extending Probe 2 to the determination level. `probe_parity_multiparty.py` |
+
+## A unifying thread: pivotality
+
+Probes 2, 7, and 10 converge on one mechanism. **A party is in the irreducible core only if the
+determination makes it pivotal** — its state must be able to change the outcome given the others.
+Redundant readings (OR of two intent bits in #2; majority 2-of-3 in #10) make parties non-pivotal
+and drop them, even to the point of collapsing the whole form (majority → dyadic). Reading a party
+is necessary but not sufficient; the determination must let that party *matter*. This is the
+function-level twin of the structural "reads all parties" condition.
+
 ## Reading across probes 1–8
 
 Probe 8 is a methodological flag for this whole logbook: **named-form findings are existence proofs,
