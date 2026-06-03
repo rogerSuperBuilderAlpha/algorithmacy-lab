@@ -133,7 +133,7 @@
 | 21 | Getting matched to a therapist on a platform | client, therapist | the platform commits the match | STRICT | 2.00 |
 | 22 | A warehouse pick assigned by a WMS | picker, order | the system jointly assigns pick to picker | STRICT | 2.00 |
 
-### Φ = 3.00 — higher-order strict (size-normalized 1.50 for n=3; raw 3.0 for n=4)
+### Φ = 3.00 — higher-order strict (n=4 form; size-normalized Φ/(n−1) = 1.00, the strict level)
 
 | # | micro-activity | coordinating parties | coordination mechanism (coded) | structure | Φ |
 |---|---|---|---|---|---|

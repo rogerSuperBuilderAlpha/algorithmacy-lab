@@ -213,7 +213,7 @@ def main():
                  "mechanism / structural coding / Φ-verdict\n\n")
         for b in sorted(by_band):
             fh.write(f"\n### Φ = {b:.2f} — {BANDLABEL.get(b, '?')}"
-                     + (f" (size-normalized {b/2:.2f} for n=3; raw {b} for n=4)\n\n" if b == 3.0 else "\n\n"))
+                     + (f" (n=4 form; size-normalized Φ/(n−1) = {b/3:.2f}, the strict level)\n\n" if b == 3.0 else "\n\n"))
             fh.write("| # | micro-activity | coordinating parties | coordination mechanism (coded) | structure | Φ |\n")
             fh.write("|---|---|---|---|---|---|\n")
             for i, x in enumerate(by_band[b], 1):

@@ -257,3 +257,61 @@ necessary-not-sufficient, cases provisional). Remaining work is standing posture
 all disclosed in-draft: the author's fieldwork replaces the provisional case evidence; outcome-
 validation is the named empirical program; academic citations to be Crossref-verified at finalization;
 the Doty & Glick typology-as-theory specifics to firm up; and the title is an open author choice.
+
+---
+
+# Stage 4, round 4 (full re-assessment of the MERGED draft: §7 discriminant checks)
+
+After the round-3 unanimous ACCEPT, the author merged a new §7 folding in two negative-control
+bodies: a five-case dyadic control class (`dyadic_cases.py`) and a 103-scenario micro-coordination
+catalog (`micro_scenarios.py` / `MICRO_SCENARIOS.md`), with section renumbering. The full panel
+re-assessed the merged draft, diffing `git diff 7edc656 HEAD -- DRAFT.md` and reproducing every §7
+number. **Verdict: R1 MINOR (down from ACCEPT), R2 ACCEPT-conditional, R3 ACCEPT-with-asks.** All
+three: merge mechanically clean (renumbering and cross-refs intact, no fabricated content leaked,
+every number reproduces a fourth time); the **dyadic controls strengthen** the paper (the genuine
+negative control prior rounds lacked, honestly reporting its 2-of-5 falsifications); the
+**micro-catalog is the liability**.
+
+## The convergent findings (all settled, applied this pass)
+
+1. **The "47% ≈ 44.1% at two scales" convergence (R1, R2, R3) — REAL over-reach, removed.** The
+   44.1% is an exhaustive property of the enumerated 4,096-wiring family; the 47% is the dyadic
+   share of an author-chosen, author-coded sample of 103. Comparing them as "the same … at two
+   scales" stages a coincidence as a structural parallel and lets a sample fraction read as a world
+   base rate — exactly the construction-vs-discovery slip the paper spent three rounds removing.
+   **Fixed:** §7 ¶3 now states the point is qualitative, that the per-band counts are "a property of
+   which activities the catalog happens to list and how each is coded, not a frequency in the world,
+   so no count is read as a base rate." The 47%/44.1% comparison is deleted.
+2. **A real bug in `MICRO_SCENARIOS.md` (R2) — fixed.** The higher-order header printed
+   "size-normalized 1.50 for n=3" (a stray `b/2` applied to an n=4 value). Corrected to Φ/(n−1) =
+   1.00, the strict level, matching §5.5/§9 and the per-row cells. (Never reached the draft prose.)
+   R2 also independently verified the draft's Craigslist claim: the clean buyer↔seller route-around
+   coding factors to 0.00.
+3. **"5 Φ values" inconsistent with the paper's own normalization (R2) — fixed.** §7 ¶3 now says the
+   activities land on "the dyadic, parity, partial, and strict bands, with the higher-order forms
+   folding onto the strict level once size is normalized," reconciling the catalog with §5.5/§9
+   rather than counting the raw n=4 3.0 as a fifth structural level.
+4. **Catalog reads as padding / dilutes the focused contribution (R1, R3) — demoted.** §7 now frames
+   the catalog as "an illustration, not a second measurement," the §7 heading and ¶1, the abstract,
+   and the §1 roadmap all demote it from a co-equal "check" to an illustration; the 103 rows stay in
+   `MICRO_SCENARIOS.md` as the supplement. The dyadic controls stay in-body as the real check.
+5. **Contestability disclosure under-inclusive (R3) — broadened.** §7 ¶4 now concedes the conduit /
+   partial / strict assignments are "contestable as a class, not only at named edges," and owns the
+   weakest coding R3 spot-checked: "Ordering through a waiter is coded a conduit, and a reader who
+   treats the kitchen as a joint determiner would code it otherwise." The load-bearing headline
+   example was changed from the contestable waiter contrast to a clean one (counter purchase, a
+   two-party exchange at zero, vs a delivery app's joint dispatch at strict).
+6. **Craigslist owned more squarely (R3) — applied.** §7 now states the control "falsified the
+   predicted zero in two of five forms, which is what a control is for," and that the instrument
+   "does not track a casual dyad intuition; it tracks the coded mechanism."
+
+## Standing after round 4
+
+With the convergent fixes applied, the merge holds at the round-3 altitude: the dyadic controls add
+the discriminant-validity evidence the paper lacked, and the micro-catalog is now an honestly-bounded
+illustration of mechanism-over-surface rather than an engineered-frequency claim. No computational
+result changed; the real numbers reproduce a fourth time and the one defect (the normalization-header
+bug) is fixed in the generated artifact. The standing posture is unchanged: cases provisional pending
+fieldwork; outcome-validation the named program; citations to Crossref-verify at finalization; title
+an open author choice. A confirmatory re-read of §7 is the only thing between this and a re-restored
+unanimous ACCEPT.
