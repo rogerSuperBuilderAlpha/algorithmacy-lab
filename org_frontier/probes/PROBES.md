@@ -55,7 +55,26 @@ interprets both parties and commits determinations neither controls" means, made
 | 16 | Power asymmetry ("neither controls") | Triadic requires balanced influence | **H16 confirmed, sharp** | Over 16 determinations: every triadic form has influence-asymmetry 0 (balanced); any asymmetry → dyadic (mean asymmetry 0.40 for dyadic, 0.00 for triadic). "Neither party controls" = equal influence, made quantitative. `probe_power.py` |
 | 17 | What Φ magnitude tracks | Magnitude indexes structural quantities | **H17 supported** | Over the 256-form family, Φ magnitude correlates most with party feedback (ρ=+0.45, how many parties read S), then mediator arity (+0.24), then weakly parity (+0.18). Magnitude is not a readability scale but it does index feedback richness and arity. `probe_magnitude.py` |
 | 18 | Φ vs coordination difficulty | Triadic ⇔ coordination-required | **H18 supported, caveated** | Verdict agrees with the analytic "coordination-required" proxy on 12/16 determinations (75%); bottleneck (no channel) Φ=2.0 vs open-channel Φ=0.83 — difficulty higher for the bottleneck, both triadic (a channel grades Φ down, not always to 0). **Circularity explicit**: both derive from the determination, so this is structural consistency, not independent validation. `probe_difficulty.py` |
+| 19 | CMC (conveying medium) | A conveyor factors; only a joint determination is triadic | **H19 confirmed** | All conveying-medium forms (S relays/echoes/displays) are dyadic; only the joint determination is triadic. A system that conveys but does not commit is a wire. `probe_cmc.py` |
+| 20 | AI-MC (AI in the worker's production) | AI-MC is not structurally triadic | **H20 refuted — a real limit** | The W→A→C loop is triadic (Φ=2.0, core {W,A,C}) just like external algorithmacy. The structural verdict CANNOT distinguish AI-MC from algorithmacy; the distinction depends on whether the AI is modeled as part of the worker (a unit-of-analysis choice), not on structure. Φ separates HMC/CMC cleanly (probes 15, 19) but not AI-MC. `probe_aimc.py` |
+| 21 | Contestability / accountability | Contestability decouples the worker | **H21 confirmed, sharp** | An uncontestable determination (worker bound, W'=S) is triadic with W in core; ANY contestability (sticky, override, autonomous) drops the worker out → dyadic {S,C}. Accountability-vacancy is what binds the worker into the triad — and the effect is categorical, not graded. `probe_contestability.py` |
+| 22 | Worker competition | Worker side mirrors counterpart side | **H22 confirmed** | Substitutable workers (platform matches either) factor → dyadic {S,C}; both-required is triadic {W1,S,C,W2}; a worker coalition relocates the core to {W1,W2}. Perfectly mirrors the counterpart results (probes 1, multi-homing) — the structure is symmetric in worker/counterpart roles. `probe_competition.py` |
+| 23 | System memory / reputation | A reputation node joins the core | **H23 refuted** | As a sticky accumulator (M'=W∨M), the memory never enters the core; scoring purely on reputation (S reads M not present W) even decouples the present worker → core {S,C}. A reputation that is too inertial is non-pivotal. (Caveat: a more responsive memory might differ — sticky accumulation is what makes it non-pivotal, consistent with the pivotality principle.) `probe_memory.py` |
 
+## Probes 19–23 — second batch (neighbor constructs + platform features)
+
+Three confirmations (19 CMC, 21 contestability, 22 competition) and two informative refutations:
+- **Probe 20 is the most important: a limit on the structural instrument.** The verdict cleanly
+  separates HMC and CMC from algorithmacy (both dyadic), but it does **not** separate AI-MC — the
+  W→A→C loop is structurally triadic. So the AI-MC/algorithmacy distinction is not a structural fact;
+  it is a unit-of-analysis choice (is the AI inside the worker, or a third party?). This says exactly
+  where the Φ-classifier can and cannot adjudicate a construct boundary.
+- **Probe 21 sharpens accountability:** uncontestability is categorically what binds the worker —
+  any contestability at all decouples her. This is the structural content of "accountability-vacant."
+- **Probe 22 establishes a symmetry:** worker-side and counterpart-side behave identically
+  (substitutability factors, coalition relocates the core). The triad is role-symmetric.
+- **Probe 23** warns that not every added platform mechanism binds: an inertial reputation score is
+  non-pivotal and stays out — consistent with the pivotality principle (probes 2, 7, 10, 11).
 ## Probes 14–18 — five independent experiments (batch)
 
 Run as one continuous pass. Outcomes: **four clean confirmations** (14 robustness, 15 discriminant,
