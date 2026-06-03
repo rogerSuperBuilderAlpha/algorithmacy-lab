@@ -2,21 +2,33 @@
 
 ## Where we are
 Stage 1 (research) ✓ · Stage 2 (outline) ✓ · Stage 3 computation ✓ · Stage 3 draft ✓ · Stage 4
-review: round 1 → round-2 re-review → round-3 corrective → **round-3 re-review ✓ + copy-edit ✓**.
-Branch `rebuild/paper-by-paper`. **Paper 2 is at defensible-accept state.**
-Panel trajectory: 3× MAJOR-bordering-reject → 1 MINOR + 2 MAJOR → **ACCEPT (R2) + 2 MINOR (R1, R3)**,
-with the MINOR items now addressed in copy-edit. Literature hunt (author choice) integrated:
-Öborn et al. (2025) + Maffie (2023) anchor §9's route-around result; fauxtomation (Hamblin 2022)
-gives §8's exhibit a documented kin, with the honest limit (the exhibit's exact zone has no documented
-instance) stated in §10. Draft ~11k words, 23 Crossref-verified bib entries, style clean.
-**Next (all optional, none blocking, all flagged in-draft): ΦID/PID synergy on the exhibit (the
-obvious next computation); geometric Φ/Φ* zero-set agreement; or move to Paper 3 (calibration).**
-See ADVERSARIAL_REVIEW.md tail.
+review: six rounds complete. Branch `rebuild/paper-by-paper`.
+**Paper 2 is at unanimous-ACCEPT state (round 6).**
 
-Draft: `DRAFT.md` (~9.7k words, 11 sections, ORM register, Nagel style — 0 first person, 0 em-dashes;
-every number traceable to a `rebuild/` script; all 20 bib entries Crossref-verified).
-Review: `ADVERSARIAL_REVIEW.md` (round 1: 3 hostile reviewers, all MAJOR REVISIONS, all reproduced
-the numbers). New computation answering the review: `review_response.py`.
+Panel trajectory across six rounds:
+3× MAJOR-bordering-reject → 1 MINOR + 2 MAJOR → ACCEPT + 2 MINOR → 1 MAJOR + 2 MINOR → 3× MINOR →
+**unanimous ACCEPT**. No reviewer found a computational error in any round; every load-bearing number
+has reproduced six times.
+
+All fix-now items are applied. The draft is Nagel-restyled (style-only pass, verified by three
+independent diff audits to have moved no claim/number/citation), and the round-4/5 corrections plus
+the A5 front-matter promotion are in. The only open items are deferred to Paper 3 and openly conceded
+in §10: ΦID/PID synergy on the exhibit, geometric Φ/Φ* zero-set agreement, and the empirical
+confirmation of the exhibit's strongly-connected-yet-reducible zone (which has no documented platform
+instance — the standing honest limit). **Next: move to Paper 3 (calibration).**
+
+Literature anchors (author choice, integrated round 3): Öborn et al. (2025) + Maffie (2023) anchor
+§9's route-around result; fauxtomation (Hamblin 2022) gives §8's exhibit a documented kin.
+
+Draft: `DRAFT.md` (~11k words, 11 sections, ORM register, Nagel style — 0 first person, 0 em-dashes;
+every number traceable to a `rebuild/` script; 23 Crossref-verified bib entries).
+Review log: `ADVERSARIAL_REVIEW.md` (six rounds; each round reproduced every number).
+New computation answering the review: `review_response.py` (now §§1–9).
+
+Latest commits on `rebuild/paper-by-paper`:
+- `316ec6e` — round 6: A5 front-matter conditional + re-review (unanimous ACCEPT)
+- `76b02b0` — rounds 4–5: re-reviews, Nagel rewrite, fix-now pass
+- `c3ff61e` — round-3 re-review (ACCEPT + 2 MINOR) + copy-edit
 
 ## Stage 4 corrective passes applied
 - **Technical/honesty fixes** (round 1): deleted the false "Φ = EI at the MIP" identity and the
@@ -35,6 +47,28 @@ the numbers). New computation answering the review: `review_response.py`.
   §7 false-dyad reframed (reading the rider is NOT sufficient; the OR-dispatch reads both and
   factors). §8 exhibit given a coordination reading (a mediator whose determination is redundant
   given the parties — a dyad that looks like a triad). §10 warrant restated in conditional form.
+- **Round 4 (re-review + compute-don't-assert):** added `review_response.py` §§8–9. §8 settles R2's
+  new charge — the reported Φ is the raw integration at the *normalized* MIP, not the raw minimum
+  (conjunctive channel reports 6.0, raw-min 2.0), so §3's "least damage" gloss is loose on the
+  *magnitude*; but the binary zero-set is invariant at every state, so the classifier is untouched.
+  §9 refutes the "sympathetic caricature" charge: the rivals' Φ=0 survives non-inert live-context
+  encodings (even a joint S'=W∧C with C'=C factors, since a frozen C is not closed into the cycle).
+  Scrubbed the stale ~22% comment in `sweeps.py` (now 12.5%, 32/256).
+- **Nagel rewrite (style-only):** full plain-prose pass over 26 paragraphs — removed rule-7
+  meta-commentary about the writing's own honesty and the periodic/clause-stacked sentences. Verified
+  by three independent round-5 diff audits to have preserved every claim, number, and citation.
+- **Round 5 (re-review) + fixes:** restored the §5 read-faithfulness limit as an owed discipline (a
+  concession the style pass had inadvertently quieted). Then applied the remaining fix-now items:
+  abstract "validates" → "checks" (resolves the §6 contradiction); §6 names the reachability
+  convention (predecessor sense, in-degree ≥ 1, matching `instrument.py`); §9 discloses the
+  normalized-MIP magnitude gap (6.0 vs 2.0 raw-min, zero invariant).
+- **Round 6 (re-review) + A5:** promoted the bounded/conditional objectivity qualifier into the
+  abstract and §1 so it travels in the same breath as "structural fact" (kept, not retired). R1 and
+  R3 converged on the seam the edit opened — "a different *faithful model* can give a different
+  verdict" over-conceded; fixed to "a different *declaration*" (aligns abstract with §1, drops the
+  honorific that read as "the criterion does no work"), moved the "fixed and auditable" lock adjacent
+  so the abstract runs the §10 three-beat in order, and removed the now-redundant §1 sentence.
+  **Result: unanimous ACCEPT.**
 
 ## Draft notes (for the review pass)
 - One open competitor flagged, not computed: PID/ΦID synergy on the exhibit (§8). The strongest move
@@ -88,7 +122,11 @@ verdict) holds either way.
 - Party-partition complete-cut numbers — the observed MIPs (party-respecting, never the complete
   cut) already make the point; re-derive the explicit complete-cut Φ only if §6 needs the numbers.
 
-## Next: write the draft
-Nagel style (CLAUDE.md), ORM register, 11 sections per OUTLINE.md. Every number from RESULTS.md.
-Re-verify all bibliography citations against Crossref before they enter the draft (the Paper 1
-discipline — two fabricated citations were caught there). Then Stage 4 adversarial review.
+## Next: Paper 3 (calibration)
+Paper 2 is complete and at unanimous ACCEPT. The draft, the six-round review log, and all computation
+are committed. Paper 3 is the calibration paper: it takes the instrument to data, where the binary
+verdict meets coordination outcomes and the conditional-independence check on estimated transition
+matrices becomes the first gate (see §4, §10). Paper 3 is also where the deferred Paper-2 items land:
+ΦID/PID synergy on the exhibit, geometric Φ/Φ* zero-set agreement, and the empirical confirmation of
+the exhibit's strongly-connected-yet-reducible zone. If any new citation enters later, re-verify it
+against Crossref first (the Paper 1 discipline — two fabricated citations were caught there).
