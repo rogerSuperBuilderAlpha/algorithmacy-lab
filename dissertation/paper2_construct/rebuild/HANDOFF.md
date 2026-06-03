@@ -1,8 +1,20 @@
 # Paper 2 rebuild — handoff / state
 
 ## Where we are
-Stage 1 (research) ✓ · Stage 2 (outline) ✓ · Stage 3 computation ✓ · **Stage 3 draft = NEXT** ·
-Stage 4 (review) pending. Branch `rebuild/paper-by-paper`.
+Stage 1 (research) ✓ · Stage 2 (outline) ✓ · Stage 3 computation ✓ · Stage 3 draft ✓ (`DRAFT.md`,
+11 sections, ORM register, Nagel style — 0 first person, 0 em-dashes; every number traceable to a
+`rebuild/` script; all 20 bib entries Crossref-verified) · **Stage 4 (adversarial review) = NEXT**.
+Branch `rebuild/paper-by-paper`.
+
+## Draft notes (for the review pass)
+- One open competitor flagged, not computed: PID/ΦID synergy on the exhibit (§8). The strongest move
+  would be to compute it; the draft flags it as the single open comparison and a limitation.
+- Read-structure fraction reported as 12.5% (32/256) under the all-functions read space, stated as
+  read-space-dependent (RESULTS.md §5). Qualitative claim robust either way.
+- Caught during the citation pass: Oswick et al. (2011) correct DOI is 10.5465/amr.2011.59330932,
+  not the amr.2009.0155 listed in RESEARCH.md. Draft uses the verified one.
+- Party-partition complete-cut magnitudes (prior 2.0/1.0) were NOT re-derived in rebuild/, so the
+  draft makes the over-call point qualitatively from the observed party-respecting MIPs only.
 
 ## Locked decisions
 Re-derive computation from scratch (DONE) · borrowing-led spine · methods venue (ORM register) ·
