@@ -1,0 +1,8 @@
+reliability,phi_max,verdict
+1.0,2.0,triadic
+0.95,1.5446,triadic
+0.9,1.1887,triadic
+0.8,0.6815,triadic
+0.7,0.3532,triadic
+0.6,0.1383,triadic
+0.5,0.0,dyadic

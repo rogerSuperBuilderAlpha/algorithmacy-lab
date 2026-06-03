@@ -23,6 +23,22 @@ def verdict(rules, labels):
     return classify_rules(rules, labels=labels)
 
 
+def max_phi_float(tpm_sbn):
+    """Max exact IIT-4.0 Φ over states for a (possibly stochastic) state-by-node TPM.
+    Infers the connectivity matrix numerically. Returns (max_phi, cm)."""
+    import numpy as np
+    from proxy_audit import exact_phi
+    n = tpm_sbn.shape[1]
+    cm = np.zeros((n, n), dtype=int)
+    for j in range(n):
+        for i in range(n):
+            if any(abs(tpm_sbn[s, j] - tpm_sbn[s ^ (1 << i), j]) > 1e-9 for s in range(2 ** n)):
+                cm[i, j] = 1
+    rng = np.random.default_rng(0)
+    _, mx, _ = exact_phi.network_phi(tpm_sbn, cm, n, rng)
+    return float(mx), cm
+
+
 def major_complex(rules, labels):
     """(core_label_tuple, phi) of the maximal complex, max over reachable states."""
     n = len(rules)

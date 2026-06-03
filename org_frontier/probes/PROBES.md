@@ -60,7 +60,26 @@ interprets both parties and commits determinations neither controls" means, made
 | 21 | Contestability / accountability | Contestability decouples the worker | **H21 confirmed, sharp** | An uncontestable determination (worker bound, W'=S) is triadic with W in core; ANY contestability (sticky, override, autonomous) drops the worker out → dyadic {S,C}. Accountability-vacancy is what binds the worker into the triad — and the effect is categorical, not graded. `probe_contestability.py` |
 | 22 | Worker competition | Worker side mirrors counterpart side | **H22 confirmed** | Substitutable workers (platform matches either) factor → dyadic {S,C}; both-required is triadic {W1,S,C,W2}; a worker coalition relocates the core to {W1,W2}. Perfectly mirrors the counterpart results (probes 1, multi-homing) — the structure is symmetric in worker/counterpart roles. `probe_competition.py` |
 | 23 | System memory / reputation | A reputation node joins the core | **H23 refuted** | As a sticky accumulator (M'=W∨M), the memory never enters the core; scoring purely on reputation (S reads M not present W) even decouples the present worker → core {S,C}. A reputation that is too inertial is non-pivotal. (Caveat: a more responsive memory might differ — sticky accumulation is what makes it non-pivotal, consistent with the pivotality principle.) `probe_memory.py` |
+| 24 | Opaque mediation as a gradient | Transparency collapses the triad at a threshold | **H24 refuted, refined** | Blending a direct worker→counterpart observation channel (p: 0→1) leaves Φ at 2.0 and the verdict triadic at every level — even full transparency. Opacity is about the *binding pathway* (the counterpart reaching the worker only through the committed determination), not mutual visibility. The worker can see the counterpart and still be bound. `probe_opacity.py` |
+| 25 | Joint vs decomposable determination | Only a genuine joint commit is triadic | **H25 confirmed** | A single joint determination is triadic; a split mediator with independent per-party channels factors to dyadic (two independent dyads); cross-coupled mediators that recombine are triadic again. The "joint" in joint determination is load-bearing. `probe_joint.py` |
+| 26 | MIP as a structural fault line | The MIP isolates the weakest link | **H26 confirmed** | Every triadic corpus form cuts at {W,SC} — the worker is the most separable element; the system+counterpart cohere more tightly than the worker attaches. The MIP names the coordination's weakest seam: structurally, the worker is the most peripheral party. `probe_mip.py` |
+| 27 | Mediator reliability | The triad degrades gracefully with unreliability | **H27 confirmed** | Φ falls smoothly with mediator unreliability (2.0 → 1.5 → 1.2 → 0.68 → 0.35 → 0.14) and the verdict holds triadic until reliability = 0.5 (random), where it collapses. Reliability is a genuine *continuous* Φ axis (unlike encoding). The triad tolerates a noisy system. `probe_reliability.py` |
+| 28 | Information-richness asymmetry | The richer party occupies more of the core | **H28 partial** | A determination reading both worker bits jointly with the counterpart binds all four (Φ=3.0); reading one bit drops the other (compression, cf. Probe 2). But coupling the worker's bits to *each other* (XOR) binds the worker internally and *excludes* the counterpart. Richness helps the core only when channeled through a cross-party pivotal read. `probe_richness.py` |
 
+## Probes 24–28 — third batch (scope conditions, robustness, structure)
+
+Three confirmations (25 joint, 26 MIP, 27 reliability), one refined refutation (24 opacity), one
+partial (28 richness). Highlights:
+- **Probe 24 refines the opacity condition:** what binds the worker is not the absence of mutual
+  visibility but the routing of the counterpart's influence through the committed determination. The
+  worker can watch the counterpart and remain bound, as long as the counterpart reaches her only via
+  the system's commit. This corrects a naive reading of "opaque mediation."
+- **Probe 26 gives the triad an anatomy:** the worker is structurally the most separable element
+  (MIP cut {W,SC}). The coordination's weak seam is the worker's attachment, not the system–
+  counterpart bond.
+- **Probe 27 finds a real continuous Φ axis:** mediator reliability degrades Φ smoothly, unlike the
+  encoding-dependence that made magnitude unreliable elsewhere. The triad tolerates an unreliable
+  system down to the random limit.
 ## Probes 19–23 — second batch (neighbor constructs + platform features)
 
 Three confirmations (19 CMC, 21 contestability, 22 competition) and two informative refutations:
