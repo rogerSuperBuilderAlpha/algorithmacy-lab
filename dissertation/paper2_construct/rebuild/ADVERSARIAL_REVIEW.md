@@ -179,3 +179,53 @@ Paper-1-grade corrective round, and it is the next stage.
 
 **Deferred computation (commit, do not fake):** B4 (ΦID synergy), and optionally geometric Φ / Φ* on
 the controls + exhibit to convert A5 from a retreat into a tested claim.
+
+---
+
+# Stage 4, round 2 (re-review of the revised draft) + round-3 corrective pass
+
+The revised draft went back through the same three roles. **The panel moved from unanimous
+MAJOR-bordering-reject to one MINOR + two MAJOR.**
+
+- **R2 (IIT expert): MINOR REVISIONS** (moved off MAJOR). All three technical errors fixed (EI
+  identity deleted and replaced with the computed result; cause-effect power vs structure; geometric-Φ
+  retreat). Single-state fragility resolved and independently noise-robust. Remaining asks were
+  disclosure, not correction: disclose the exhibit reachable set (the all-on state is unreachable),
+  add a noise-robustness line, add worked-case EI rows. R2: "the paper is close."
+- **R1 (methodologist): MAJOR** (moved off bordering-reject). Accepted the conditional warrant, the
+  unit-test relabel, the rival-encoding derivation as improved. **Found a real internal contradiction:**
+  §5's "flips exactly when the criterion breaks" is refuted by §9's 12.5% — the four-question criterion
+  is necessary, not sufficient, because the worker/counterpart reads are a second free choice it does
+  not discipline, and criterion-satisfying reads can flip the centerpiece.
+- **R3 (org theorist): MAJOR** (moved off bordering-reject). Granted the conditional warrant is honest
+  (not motte-and-bailey) and the EI computation is the strongest new work. Two standing objections:
+  (a) the §5 carving check is undercut by its own script comment, which called variant A "defensible"
+  while the prose treated it as an unfaithful flip; (b) Φ still earns its keep on no *documented*
+  coordination form — the exhibit's only real-world anchor is Rule 110, a cellular automaton.
+
+## Round-3 corrective pass (applied)
+New computation (`review_response.py` §§4–7) grounded every fix:
+- **§5/§9 reconciliation (R1, the gate):** confirmed two criterion-satisfying reads (`C'=C∨¬S`,
+  `C'=S∨C`, both keep `S'=W∧C`, no W–C edge) still flip to Φ=0. §5, §1, §10, and the abstract were
+  rewritten to the honest claim: the criterion is **necessary not sufficient**; a faithful model needs
+  the criterion met AND the reads declared; the objectivity is bounded to "given a fully specified,
+  declared mechanism," and a different declaration can give a different verdict in the open. This
+  weakens the warrant, honestly.
+- **Variant-A script comment (R3):** corrected. `C'=C` is a frozen node, not the defensible
+  "rider persists until served" (that is the baseline `C'=C∧¬S`); the comment now says so, removing the
+  contradiction R3 caught.
+- **R2 disclosures:** §7 notes the carrying state is noise-robust (Φ at the all-on state 2.0 → 1.53 at
+  10% noise); §8 discloses the exhibit reachable set and that `(1,1,1)` is unreachable, symmetric with
+  §7's thin-triad disclosure; §8 adds the worked-case EI inversion (false-dyad dyadic 2.5 > triad 2.16;
+  ATS triad 1.81, the lowest).
+- **Exhibit "common pattern" overreach (R3):** softened. The draft no longer claims the pattern is
+  common; it states the claim is not made and that naming a documented platform of this shape is open.
+
+## Standing after round 3
+The §5 contradiction (R1's gate) and the variant-A inconsistency (R3) are fixed by correction, not
+spin. The remaining open item is **R3's deepest objection**: Φ's unique zone (strongly-connected-yet-
+reducible) has no *documented* platform instance in the paper. Two honest options, an author decision:
+(a) concede the zone may be empirically thin and scope the contribution to the binary verdict plus the
+discipline against inspection-based over-calling (the exhibit as a cautionary stress-test, which the
+softened §8 already leans toward); or (b) search the platform-work literature for a cited case in that
+zone. Deferred computations still open and committed: geometric Φ/Φ* family-robustness, ΦID synergy.
