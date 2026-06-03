@@ -29,9 +29,12 @@ is in [`essays/literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md)
    functions, XOR and XNOR each yield 4/16 triadic forms, twice the 2/16 of monotone functions
    (AND, OR, NAND, NOR). One-input and constant functions yield none. (`corpus/determination.py`)
 
-5. **Substitutability collapses irreducibility.** With multiple counterparts, the form is triadic
-   only if the determination binds them all jointly (all-required, e.g. W ∧ C1 ∧ C2, Φ = 3.0). If a
-   counterpart is substitutable (W ∧ (C1 ∨ C2)) or optional, the form factors. (`multiparty/`)
+5. **Substitutability collapses irreducibility — for any role.** With multiple counterparts, the
+   form is triadic only if the determination binds them all jointly (all-required, e.g. W ∧ C1 ∧ C2,
+   Φ = 3.0); a substitutable (W ∧ (C1 ∨ C2)) or optional counterpart factors it. The same holds when
+   the *mediator* is substitutable: a worker multi-homing across two platforms where either suffices
+   factors (dyadic), while requiring both stays triadic. Interchangeability of any role — counterpart
+   or platform — collapses the triad. (`multiparty/`)
 
 6. **Breadth dilutes, depth preserves.** Adding parties makes irreducibility rarer, to vanishing:
    the random strict-mediation triadic rate falls **9.4% (n=3) → 2.3% (n=4) → 0% (n=5)**, confirmed
@@ -47,11 +50,13 @@ is in [`essays/literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md)
    needed, and is feasible because coordination units are small. (`proxy_bridge/`)
 
 8. **Ownership is not constitutive; bidirectional participation is.** A corporate principal who
-   authors the mediator joins the irreducible core (the major complex) only when it both gates the
-   determination and responds to outcomes. Owning the system, only gating it, or only monitoring it
-   leaves the principal outside — the irreducible core stays the worker–system–counterpart triad.
-   This finding needs the major complex, not whole-system Φ: an idle principal makes the whole system
-   factor while the triad inside stays irreducible. (`principal/`)
+   authors the mediator joins the irreducible core (the major complex) **iff the coupling is
+   bidirectional** — S reads P (gating) and P reads at least one party (a 16-form sweep pins this
+   exactly). Owning the system, gating-only, or monitoring-only leaves the principal outside; the
+   core stays the worker–system–counterpart triad. A heavily-coupled principal can even *contract*
+   the core to {S, P}, displacing the worker and counterpart it ostensibly coordinates. This finding
+   needs the major complex, not whole-system Φ: an idle principal makes the whole system factor while
+   the triad inside stays irreducible. (`principal/`)
 
 ## The law they reduce to
 

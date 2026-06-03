@@ -1,0 +1,17 @@
+s_reads_p,p_reads,major_complex,core_phi,p_in_core
+0,(static),WSC,2.0000,False
+0,W,SC,2.0000,False
+0,S,WSC,2.0000,False
+0,C,WS,2.0000,False
+0,WS,SC,2.0000,False
+0,WC,WSC,2.0000,False
+0,SC,WS,2.0000,False
+0,WSC,WSC,2.0000,False
+1,(static),WSC,2.0000,False
+1,W,WSP,2.0000,True
+1,S,WSCP,3.0000,True
+1,C,SCP,2.0000,True
+1,WS,WSCP,2.0000,True
+1,WC,WSCP,2.0000,True
+1,SC,WSCP,2.0000,True
+1,WSC,SP,2.0000,True

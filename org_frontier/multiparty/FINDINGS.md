@@ -27,6 +27,14 @@ only literacy. A platform that binds all parties into one joint determination de
 **Layered mediation stays triadic.** Two mediators in series (W → S1 → S2 → C, no direct end-to-end
 edge) is irreducible (Φ = 2.0). Routing coordination through a chain of systems does not factor it.
 
+**Substitutability collapses irreducibility on the mediator side too (multi-homing).** Connect the
+worker and counterpart through two platforms. If either platform suffices (`multihome_either`), the
+form factors — dyadic, Φ = 0 — exactly as substitutable *counterparts* do. If the worker must clear
+*both* platforms (`multihome_both`), it stays triadic (Φ = 4.0). So substitutability collapses the
+triad whether it is the counterpart or the mediator that is interchangeable. A worker multi-homing
+across redundant, interchangeable platforms is, structurally, in a bundle of independent dyads;
+demanding all platforms jointly is what binds it.
+
 ## Mediator-chain depth: Φ is invariant to chain length
 
 `chains.py` lengthens the chain W → S1 → ... → Sk → C, each mediator committing jointly from its two

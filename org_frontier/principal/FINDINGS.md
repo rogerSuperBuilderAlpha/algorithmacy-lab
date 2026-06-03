@@ -39,8 +39,29 @@ profits from. A principal that gates and monitors fuses into a single four-party
 verdict for a form with possible spectator nodes must be read on the major complex, not the whole
 system — a refinement the other org_frontier experiments (all minimal, no spectators) did not need.
 
+## Population sweep: the precise condition
+
+`sweep.py` makes the finding a population result. Over the W–S–C triad it sweeps both the gating
+(does S read P) and what P reads (each subset of {W, S, C}), 16 forms, computing the major complex
+for each.
+
+P joins the core in **7/16** forms, and the condition is exact:
+
+> **P joins the irreducible core iff the coupling is bidirectional: S reads P (gating) AND P reads at
+> least one party.** The party P reads need not be S. Pure ownership (static P), gating-only, and
+> response-only all leave P outside.
+
+So bidirectionality is the criterion, and it is symmetric in a precise sense: P must both feed the
+determination and be fed by the coordination, but the specific channel back to P does not matter.
+
+**Wrinkle — a heavily-coupled principal hollows the core.** In 3 of the 7 P-in-core forms the major
+complex *contracts*: a worker or counterpart drops out. At the extreme (S reads P; P reads W, S, and
+C) the core is just **{S, P}** — the system and its principal — with the worker and counterpart
+pushed out of the irreducible coordination entirely. A principal that both authors the determination
+and watches everything can become the core, displacing the parties it ostensibly coordinates.
+
 ## Caveats
 
-- Four hand-built forms, defensibly coupled (no target Φ), illustrating the mechanism; not a
-  population. A population sweep over principal-coupling patterns is the natural extension.
+- Forms are defensibly coupled (no target Φ); the sweep is over the canonical triad with P's
+  function fixed to AND over its reads. Other P-functions (OR, parity) are a further extension.
 - Binary/structural reading only; cross-node Φ magnitudes (2.0 vs 3.0) are not comparable.

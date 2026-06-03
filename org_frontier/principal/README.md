@@ -27,7 +27,10 @@ while the W–S–C triad inside stays irreducible at Φ = 2.0.
 
 ## Files
 
-- `forms.py` — the four principal-coupling forms with rationale.
+- `forms.py` — the four named principal-coupling forms with rationale.
 - `run.py` — whole-system verdict + major complex per form.
-- `results/principal.csv` — the table.
-- `FINDINGS.md` — the result, the org-theory reading, and the methodological note.
+- `sweep.py` — population sweep (16 forms) pinning the exact condition: P joins iff S reads P AND P
+  reads ≥1 party (bidirectional). Also surfaces the core-contraction wrinkle ({S,P} can displace
+  W and C).
+- `results/principal.csv`, `results/sweep.csv` — the tables.
+- `FINDINGS.md` — the result, the population sweep, the org-theory reading, and the methodological note.

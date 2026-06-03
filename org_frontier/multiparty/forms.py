@@ -90,4 +90,25 @@ FORMS = [
         rationale="Depth does NOT rescue substitutability: still factors (dyadic).",
         expected="dyadic",
     ),
+
+    # Multi-homing: worker and counterpart connected through TWO platforms (S1, S2). Tests whether
+    # substitutability of the MEDIATOR factors the form, as substitutability of the counterpart did.
+    MPForm(
+        key="multihome_either",
+        title="Multi-homing: worker/counterpart use either of two platforms",
+        rules=[lambda x: x[1] | x[2], lambda x: x[0] & x[3], lambda x: x[0] & x[3],
+               lambda x: x[1] | x[2]],
+        labels=("W", "S1", "S2", "C"),
+        rationale="Redundant platforms, either suffices. Substitutable mediators factor (dyadic).",
+        expected="dyadic",
+    ),
+    MPForm(
+        key="multihome_both",
+        title="Multi-homing: worker/counterpart must clear both platforms",
+        rules=[lambda x: x[1] & x[2], lambda x: x[0] & x[3], lambda x: x[0] & x[3],
+               lambda x: x[1] & x[2]],
+        labels=("W", "S1", "S2", "C"),
+        rationale="Both platforms required (all-binding). Stays triadic.",
+        expected="triadic",
+    ),
 ]
