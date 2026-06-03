@@ -97,3 +97,76 @@ dependence problem and the place a methods reviewer will press hardest after the
 - Christin, "Algorithms at Work" (opacity in algorithmic management).
 
 *Citations to be re-verified against Crossref before any enter the draft bibliography.*
+
+---
+
+# Stage 1b — alternative-measures comparison (the "why Φ, not X" gap, now filled)
+
+Follow-up run wf_6da1f4bc-a7a. 25 primary sources, 25 claims verified (23 confirmed, 2 killed).
+**Verdict: among the assessed measures, NONE dominates Φ on the load-bearing task** — correctly
+calling a strongly-connected-yet-reducible structure *reducible*. Φ (MIP-irreducibility) is
+effectively unique in doing so, firmly established against the closest competitor and by the
+connectivity argument; honest gaps remain on a few measures (below).
+
+## What the MIP step buys (the load-bearing operation)
+- Φ=0 iff the cause-effect structure factors over *some* partition (the MIP makes the least
+  difference). This is a within-scale partition-minimization — distinct from any connectivity or
+  coarse-graining test. Unanimous across IIT 3.0/4.0 + PyPhi sources.
+- **A canonical citable instance of the hard case:** PyPhi's Rule 110 "magic cut" — a fully
+  connected 3-node automaton whose ABC component has φ=0 "because knowing two elements are OFF is
+  enough to know the third must also be OFF." Conditional dependence makes a strongly-connected
+  component reducible. This independently corroborates our exhibit with an IIT-native example, and
+  is a clean teaching case for the paper.
+
+## The alternatives, on the hard case
+- **Effective Information / causal emergence (Hoel, Albantakis & Tononi 2013; Comolatti & Hoel)** —
+  the closest IIT-lineage competitor, and it **provably OVER-CALLS** the hard case. EI is
+  partition-free: EI = log₂(n)·[determinism − degeneracy], no partition term; causal emergence is a
+  cross-scale (macro-vs-micro) coarse-graining comparison, not a same-scale factorization test. Since
+  Φ in IIT is EI evaluated *at the MIP*, standalone EI is "EI minus the MIP step that detects
+  factorizability." A strongly-connected, deterministic, low-degeneracy structure registers high EI
+  regardless of whether it factors. So EI behaves like the cheap connectivity test and is NOT a
+  substitute. (This is the single strongest verified result of the follow-up.)
+- **Network modularity / community detection** — by the connectivity argument (feed-forward Φ=0;
+  Rule 110), any structural proxy keyed on edge presence detects only the disconnected/sparse case
+  and over-calls strongly-connected-reducible structures. Not a substitute. (Medium confidence — by
+  entailment, not a modularity-specific source.)
+- **Cost is moot at N=3.** Exact Φ is exponential O(n⁵·3ⁿ), but at n=3 (W,S,C) it is trivially cheap
+  in absolute terms. The cost objection only bites at scale, so no "cheaper measure" gains anything
+  on the paper's actual 3-party problem. This neutralizes the cost-based case for substitution.
+
+## Honest gaps (carry as limitations or address by computation in the draft)
+- **The Φ-family alternatives draw the SAME line.** Geometric Φ (Oizumi, Tsuchiya & Amari 2016), Φ*
+  (Barrett & Seth 2011), stochastic interaction (Ay 2015) are *partition-based* irreducibility
+  measures (unlike EI). They were NOT verified against the hard case here, but conceptually they draw
+  the same MIP-style reducible/irreducible line. So choosing IIT-4.0 Φ over geometric Φ is a
+  WITHIN-FAMILY pragmatic choice (canonical, exact, PyPhi-implemented), NOT a "wrong kind of measure"
+  substitution that would flip dyad/triad verdicts. State this honestly — it is a strength, not a
+  weakness: the verdict is robust across the partition-minimizing family.
+- **PID / Integrated Information Decomposition (ΦID) synergy** (Williams & Beer 2010; Mediano, Rosas
+  et al.) is the one genuinely open competitor and the most likely reviewer-proposed substitute. Not
+  verified whether synergy performs a MIP-equivalent partition-minimization or merely correlates with
+  Φ>0 and over-calls the hard case. **Decision for the draft:** either compute a synergy measure on
+  the exhibit and report whether it over-calls (the strongest move), or flag it as the one open
+  comparison and a limitation.
+- **Simon's near-decomposability** and Granger/transfer-entropy were not adjudicated by primary
+  sources; their verdicts rest on conceptual argument. Near-decomposability keys on interaction
+  strength / block structure, so it most likely over-calls a strongly-connected uniform-strength
+  structure that factors under a MIP — but flag as conceptual.
+
+## Net for "why Φ"
+The argument the paper makes: (1) cheap connectivity/CI tests catch the disconnected dyad for free
+but over-call the hard case; (2) the closest cross-family alternative, EI/causal emergence, provably
+over-calls it too; (3) cost is not an issue at N=3; (4) the partition-minimizing family (geometric Φ,
+Φ*) draws the same line, so the verdict is robust and the IIT-4.0 Φ choice is pragmatic; (5) the one
+open competitor (PID synergy) is addressed by computation or flagged. The load-bearing demonstration
+is the exhibit (strongly-connected-yet-reducible), now backed by both the prior computation and the
+Rule 110 magic-cut.
+
+## Added verified sources
+- Albantakis et al. (2023) IIT 4.0; Mayner et al. (2018) PyPhi (both above).
+- Hoel, Albantakis & Tononi (2013), *PNAS* 110 — quantifying causal emergence / effective information.
+- Comolatti & Hoel (2022/2025) — EI as generic causal strength, distinct from irreducibility.
+- PyPhi docs, Rule 110 "magic cut" example (strongly-connected-yet-reducible, canonical instance).
+- Oizumi, Tsuchiya & Amari (2016), *PNAS* 113 — geometric Φ (Φ-family alternative).
+- Barrett & Seth (2011), *PLOS Comp Biol* — Φ* / practical integrated-information measures.
