@@ -31,6 +31,9 @@ compute rather than assert, and write in the house style in [`../CLAUDE.md`](../
 - [`multiparty/`](multiparty/) — does adding parties change the verdict? *Built; substitutable
   counterparts collapse irreducibility, layered mediation keeps it, and triadicity gets rarer with
   more parties (9.4% → ~3% from n=3 to n=4) — confirmed against a reachability robustness check.*
+- [`principal/`](principal/) — does the corporate principal who authors the system join the
+  irreducible core? *Built; only under bidirectional coupling (gates AND monitors) — ownership alone
+  leaves it outside, the core stays the W–S–C triad. Uses the major complex, not whole-system Φ.*
 - [`essays/`](essays/) — public-facing writeups. First essay:
   [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — how the world uses PyPhi, and
   the theory that exact Φ decides whether a coordination form demands literacy or algorithmacy.

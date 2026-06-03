@@ -1,0 +1,5 @@
+key,whole_system_structure,whole_system_phi,major_complex,major_complex_phi,principal_in_core
+passive_principal,dyadic,0.000000,WSC,2.000000,False
+extractive_monitor,dyadic,0.000000,WSC,2.000000,False
+gates_static_P,dyadic,0.000000,WSC,2.000000,False
+gates_and_monitors,triadic,3.000000,WSCP,3.000000,True

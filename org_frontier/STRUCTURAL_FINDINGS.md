@@ -9,7 +9,7 @@ These are domain-neutral structural results about small mediated systems. The or
 is in [`essays/literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) and
 [`COMMUNITY_NOTE.md`](COMMUNITY_NOTE.md).
 
-## The seven findings
+## The eight findings
 
 1. **The surface does not decide the verdict.** Party count and interface underdetermine it. A
    three-party arrangement can factor to a dyad; a worker alone with an app can be triadic.
@@ -46,6 +46,13 @@ is in [`essays/literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md)
    route past the exact-Φ size ceiling does not hold for this verdict; the exact computation is
    needed, and is feasible because coordination units are small. (`proxy_bridge/`)
 
+8. **Ownership is not constitutive; bidirectional participation is.** A corporate principal who
+   authors the mediator joins the irreducible core (the major complex) only when it both gates the
+   determination and responds to outcomes. Owning the system, only gating it, or only monitoring it
+   leaves the principal outside — the irreducible core stays the worker–system–counterpart triad.
+   This finding needs the major complex, not whole-system Φ: an idle principal makes the whole system
+   factor while the triad inside stays irreducible. (`principal/`)
+
 ## The law they reduce to
 
 A coordination form is triadic — it demands algorithmacy — **if and only if every party is bound
@@ -73,4 +80,5 @@ form demands a new competency, with the structural conditions that produce it ma
 ~/iit-playground/venv-4.0/bin/python -m org_frontier.multiparty.chains 4
 ~/iit-playground/venv-4.0/bin/python -m org_frontier.multiparty.scaling 5 400 7
 ~/iit-playground/venv-4.0/bin/python -m org_frontier.proxy_bridge.run
+~/iit-playground/venv-4.0/bin/python -m org_frontier.principal.run
 ```
