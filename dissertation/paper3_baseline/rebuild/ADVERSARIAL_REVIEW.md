@@ -217,3 +217,43 @@ about the coder, not the world. Genuine remaining loose ends, all standing postu
 the cases are provisional pending the author's fieldwork; outcome-validation (vary structure at fixed
 party count against an observed outcome) is the named empirical program; academic citations to be
 Crossref-verified at finalization; Doty & Glick typology-as-theory specifics to firm up.
+
+---
+
+# Stage 4, round 3 (re-review of the copy-edited draft)
+
+The copy-edited draft went back through the same three reviewers, each diffing it against the round-2
+corrective commit (`git diff 469625e HEAD -- DRAFT.md`) and re-running the scripts. **Verdict:
+unanimous ACCEPT.** Trajectory across three rounds: 2 MAJOR + 1 MINOR → ACCEPT + 2 MINOR →
+**3× ACCEPT.**
+
+- **R2 (IIT / formal): ACCEPT, confirmed.** Both round-2 wording asks resolved correctly (§5.3 "where
+  one party is live" — the platform is off at the maximizing states; the §6 table split into a raw row
+  and a size-normalized row, 0.42/0.42/1.00/1.00/1.00). Every cited number reproduces a third time;
+  the copy-edit introduced no technical error. The normalized row checks by hand (0.83/2 = 0.42,
+  2.00/2 = 1.00, 3.00/3 = 1.00).
+- **R1 (case-study methodologist): ACCEPT, up from MINOR.** All five round-2 residuals resolved with
+  verbatim text changes (MTurk relabeled four-case-core-plus-extension with the normalized table row;
+  §3 rule-7 meta tics removed; §7 ¶3 re-attributed from "scored" to "coded by structure"; §5.5
+  normalization stated as following from the n−1 identity, not a finding; the §4 diverse-case clause).
+  No regression. "The paper is ready."
+- **R3 (org theorist): ACCEPT, up from MINOR.** All three residuals resolved, two with the exact fix
+  named (the MTurk slate relabel; the §6 "survives" → "the coding reaching the same structure"). The
+  demotion did not hollow the contribution; no new over-sell. One trivial style note: the new §4
+  clause used a "not X, but Y" construction (CLAUDE.md rule 5).
+
+## Applied this pass
+- The §4 "not the absence of a choice" construction (R3's lone style note) → "Diverse-case selection
+  is still an author's choice, disciplined along a declared axis: …" (removes the banned tic, keeps
+  the concession).
+
+## Standing after round 3
+The panel is at unanimous ACCEPT. No reviewer found a computational error in any of the three rounds;
+every load-bearing number reproduced three times. The contribution is stated at the altitude the
+evidence supports — a claim about the coding procedure (sector- and seat-blind structural coding of
+real organizations), not a discovery about the world. The honesty postures all hold end to end
+(demonstration-not-validation, construction-not-discovery, magnitude-ordinal, power
+necessary-not-sufficient, cases provisional). Remaining work is standing posture, none blocking and
+all disclosed in-draft: the author's fieldwork replaces the provisional case evidence; outcome-
+validation is the named empirical program; academic citations to be Crossref-verified at finalization;
+the Doty & Glick typology-as-theory specifics to firm up; and the title is an open author choice.
