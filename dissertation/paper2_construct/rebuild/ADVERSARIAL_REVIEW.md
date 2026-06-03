@@ -580,3 +580,86 @@ fixed. Everything else between this draft and acceptance is the same short list 
 disclosures and one word that round 4 already named, plus the standing author-steer on the front-matter
 conditional. No reviewer found a computational error in five rounds. No new citation entered, so no
 Crossref check was required.
+
+---
+
+# Stage 4, round 6 (re-review of the A5 front-matter edit) + adjudication
+
+Between round 5 and this round, the author applied the remaining fix-now items (abstract "validates"
+→ "checks", the §3/§9 normalized-MIP sentence, the §6 reachability clause) and then the A5 author-steer
+item: promoting the bounded/conditional objectivity qualifier forward so it travels in the same breath
+as the "structural fact" claim in the abstract and §1. This round reviewed the A5 edit. The panel
+diffed it against the round-5 commit (`git diff HEAD -- DRAFT.md` = exactly the A5 change) and re-ran
+every script.
+
+**Verdict: 2 ACCEPT + 1 MINOR, the MINOR conditioned on one clause that this round then fixed.**
+With that clause applied, all three reviewers' stated ACCEPT conditions are met.
+
+- **R2 (IIT expert): ACCEPT, up from round-5 MINOR.** Confirmed A5 is a pure framing edit that
+  disturbed no technical claim, no measure description, and no number; all sixteen load-bearing numbers
+  reproduce a sixth time. Verified the two round-5 disclosures landed correctly: the §9 normalized-MIP
+  sentence matches `review_response.py` §8 (reported 6.0 vs raw-min 2.0, zero-set invariant), and the
+  §6 reachability clause matches `instrument.py`'s `reachable_states()` (in-degree ≥ 1, the
+  predecessor sense).
+- **R3 (org theorist): ACCEPT, up from round-5 MINOR.** A5 was R3's single deferred item. Confirmed the
+  bound now travels with the bold claim in the abstract, the correction is balanced (relocated, not
+  inflated into a hedge-pile), the construct-proliferation warrant still carries, and the §10 empty-zone
+  concession is untouched and still loud.
+- **R1 (methodologist): MINOR, conditioned on C1 below; A5 otherwise substantially closed.** R1
+  confirmed the restructure preserved every content item from the old abstract and lost nothing, and
+  that the edit aligned the abstract with §10 by disclaiming verdict-uniqueness more cleanly than round
+  5 did.
+
+## The convergent finding (R1 C1 + R3 C1; REAL; FIXED this round)
+
+R1 and R3 independently flagged the same new seam the A5 edit introduced. The promoted abstract sentence
+read "A different faithful model, declared in the open, can give a different verdict." Two problems with
+one cause: (R1) "faithful model" drops the locator the bounded-objectivity architecture turns on — the
+residual freedom §5 and §10 localize to the reads, not to faithful models at large, so "faithful models
+disagree, full stop" concedes more than §5/§10 prove and reads as if the criterion does no disciplining
+work; (R3) the same phrase lets a hostile reader stage a reverse motte-and-bailey on the two adjacent
+abstract sentences — "structural fact" then "faithful models give different verdicts" looks like
+assert-then-retract. Both noted the contradiction does not survive contact with §5/§10 (within-model
+determinacy and between-model underdetermination are not contradictory, and the warrant rests on the
+construct-proliferation asymmetry, not verdict-uniqueness), and both proposed a one-clause repair.
+
+**Fixed.** The abstract now reads "A different declaration, argued in the open, can give a different
+verdict," which (a) drops "faithful model" so it no longer concedes that criterion-meeting models
+disagree as such, and (b) matches §1's exact wording, removing the abstract/§1 asymmetry R1 flagged.
+R1's secondary point (C2) — the reconciling lock was stranded two sentences downstream of the
+concession — is also fixed: "Given a declared mechanism, the verdict is fixed and auditable" was moved
+up to sit immediately after the concession, so the abstract now runs the §10 three-beat in order:
+bounded → a different declaration can differ → given a declared mechanism the verdict is fixed and
+auditable. With C1 applied, R1's stated ACCEPT condition is met.
+
+## The §1 redundancy (R1 C3 + R3 C2; FIXED this round)
+
+Both reviewers noted that the sentence the A5 pass appended to §1 ¶3 ("A different declaration can give
+a different verdict, argued in the open") was redundant: §1 ¶3 already carried the full conditional
+(the objectivity "is conditional," the criterion "necessary but not sufficient," "the criterion does
+not fix the reads," "So the claim is bounded," "auditable against the declaration"), and R3 tied the
+addition to the style guide's rule-7 ban on re-explaining a point already made. The abstract was the
+real A5 gap; §1 was already bounded in the same breath at its own bold claim ("not a matter of
+interpretation once the mechanism is fixed … so the objectivity claimed here is conditional"). **Fixed
+by removing the redundant sentence.** §1 retains its full conditional and the consequence (the reads
+move the verdict) without the fourth restatement.
+
+## Standing items, unchanged
+
+- **Front-matter conditional (A5): now closed.** The author-steer item is resolved in the locus that
+  mattered (the abstract), with the convergent C1/C2 polish applied.
+- **Deferred computation (unchanged across rounds):** geometric Φ / Φ* zero-set agreement; ΦID/PID
+  synergy on the exhibit; empirical confirmation of the exhibit's zone (Paper 3's). R3's deepest
+  standing objection — Φ earns its unique keep on no documented coordination form — remains openly
+  conceded in §10 and was not touched by this edit. The standing instruction holds: that concession
+  must stay loud through any future edit.
+
+## Standing after round 6
+
+The panel is at unanimous ACCEPT once this round's fixes are counted: R2 and R3 accepted as reviewed,
+and R1's MINOR was conditioned solely on C1, which is now applied. The A5 promotion closed the
+front-matter seam the panel had carried since round 4 — "structural fact" is kept, and the conditional
+now lands in the same breath and is reconciled in the next. The one seam the edit itself opened (the
+over-exposed "faithful model" wording) was caught by two reviewers and is fixed in one clause. No number
+moved across the A5 round; every load-bearing value reproduced a sixth time. No new citation entered, so
+no Crossref check was required.
