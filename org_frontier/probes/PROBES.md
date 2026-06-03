@@ -49,6 +49,18 @@ interprets both parties and commits determinations neither controls" means, made
 
 | 12 | Two-condition account on the full family | Coupling + pivotality predict core membership for arbitrary wirings | **H12 supported, generalizes** | Sample of the 4,096-wiring family: non-bidirectional nodes in core **0/435 (categorically necessary)**; among coupled nodes P(in core) rises 41%→63%→83%→89% with influence (AUC 0.695, lower than the controlled 0.89 — single-node influence misses higher-order effects). The account is not an artifact of the mediated setup. `probe_family_validation.py` |
 
+| 13 | Joint vs isolated influence | Context-sensitive influence closes the AUC gap | **H13 refuted** | Total context influence does *worse* (AUC 0.649) than isolated per-function influence (0.695). The full-family gap to 0.89 is NOT a missing per-node feature — it is genuinely holistic. Per-node pivotality has a prediction ceiling because the major complex is not a function of per-node features (as expected for an irreducibility measure). `probe_joint_influence.py` |
+
+## Bound on the pivotality account (from Probe 13)
+
+The two-condition account is not a complete reduction. Coupling is categorically necessary, and
+pivotality predicts membership monotonically, but no single-node influence measure — isolated or
+context-sensitive — pushes the full-family AUC past ~0.70. The residual is holistic: which parties
+form the irreducible core depends on the global cause-effect structure, not just each party's own
+influence. This is the honest ceiling of a per-node account, and it is what an irreducibility
+measure should do. The account explains *necessity* exactly and *gradation* partially; the rest is
+irreducibly whole.
+
 ## A unifying thread: pivotality
 
 Probes 2, 7, and 10 converge on one mechanism. **A party is in the irreducible core only if the
