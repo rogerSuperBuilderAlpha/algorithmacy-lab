@@ -79,6 +79,13 @@ validated account of *which parties are bound into the irreducible coordination*
   rises monotonically with the determination's Boolean sensitivity to it — zero influence excludes,
   influence ≥ 0.75 guarantees inclusion (rank-AUC 0.89 over 256 determinations).
 
+Both conditions **generalize beyond mediated forms** to a sample of the complete 4,096-wiring
+three-node family: non-bidirectional nodes are in the core 0/435 of the time (coupling is
+categorically necessary), and influence predicts membership monotonically among coupled nodes
+(41%→89%; AUC 0.695, lower in the unconstrained family because single-node influence misses
+higher-order joint effects). The necessity half is airtight; the pivotality half is real but partial
+where higher-order interactions are in play.
+
 Notable probe results: a counterpart coalition can eject the worker; a worker's internal model of
 the counterpart *substitutes for* the real counterpart in the core (they never coexist); a switching
 rule does not bind the regime (temporal-tracking is a worker burden, not structural); majority/

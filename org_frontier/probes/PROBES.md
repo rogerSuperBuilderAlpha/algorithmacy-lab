@@ -47,6 +47,8 @@ the algorithmacy thesis: a coordination form binds a party into an irreducible t
 that party is both two-way coupled and pivotal to the determination — which is what "a system that
 interprets both parties and commits determinations neither controls" means, made computable.
 
+| 12 | Two-condition account on the full family | Coupling + pivotality predict core membership for arbitrary wirings | **H12 supported, generalizes** | Sample of the 4,096-wiring family: non-bidirectional nodes in core **0/435 (categorically necessary)**; among coupled nodes P(in core) rises 41%→63%→83%→89% with influence (AUC 0.695, lower than the controlled 0.89 — single-node influence misses higher-order effects). The account is not an artifact of the mediated setup. `probe_family_validation.py` |
+
 ## A unifying thread: pivotality
 
 Probes 2, 7, and 10 converge on one mechanism. **A party is in the irreducible core only if the
