@@ -272,3 +272,311 @@ ends, all flagged in-draft as future work, none blocking: (1) compute a ΦID/PID
 exhibit (the most plausible cheap rival that might also fire in Φ's unique zone — the obvious next
 computation); (2) geometric Φ / Φ* zero-set agreement on the controls + exhibit; (3) the empirical
 confirmation of the exhibit's zone, which is Paper 3's measurement task.
+
+---
+
+# Stage 4, round 4 (re-review of the round-3 draft) + adjudication
+
+The round-3 draft went back through the same three roles a fourth time: a measurement /
+construct-validity methodologist (R1), an IIT-4.0 / complexity expert (R2), and a senior
+organization theorist / platform-work skeptic (R3). **Verdict trajectory across four rounds:
+3× MAJOR-bordering-reject → 1 MINOR + 2 MAJOR → ACCEPT + 2 MINOR → 1 MAJOR + 2 MINOR.**
+
+- **R2 (IIT expert): MINOR.** All three round-1 technical errors stay fixed (verified each locus:
+  the EI identity is gone, "cause-effect power" not "structure," the geometric-Φ retreat). The engine
+  computes the genuine Marshall et al. 2023 system measure. One *new* technical finding (the Φ=6.0 /
+  normalized-MIP description gap), plus two disclosure refinements (reachability convention, EI
+  support). None touches the verdict.
+- **R3 (org theorist): MINOR.** Off the round-3 ACCEPT by one notch, on a single ground: the front
+  matter still lets "structural fact / material reality" land before the §10 conditional. Standing
+  objections (empty unique-zone, operator-choice discretion) are conceded in-draft; R3 credits the
+  concessions and asks for cross-references and one promoted clause. No new work.
+- **R1 (methodologist): MAJOR.** The dissenter. R1 does not contest a single number. R1 contests the
+  *category*: a paper that calls itself an "instrument" and says it "validates" it has, on its own
+  §6 admission, validated nothing against the world, and its one zone of unique formal value is
+  empirically empty. R1 wants the paper reframed from "instrument validated" to "decision procedure
+  specified and demonstrated."
+
+**All three reproduced every load-bearing number exactly.** The arithmetic is not in dispute at
+round 4 any more than at round 1. R2 additionally re-derived the complete-cut over-call directly
+(chat dyad: every complete tripartition gives Φ ≥ 1 > 0, so a complete-cut test would call the
+moderated dyad a triad — the draft's qualitative claim is correct and the deferred numbers in
+RESULTS.md were not load-bearing).
+
+## New computation that settles the round-4 charges (`review_response.py` §§8–9)
+
+Two charges were settleable by number rather than rhetoric. Both were computed.
+
+1. **The MIP-normalization charge (R2, new) — CONFIRMED as a description gap, REFUTED as a verdict
+   problem (`review_response.py` §8).** §3 describes the test as "find the cut that changes the
+   probabilities least … Φ is the damage that cut still does." That is a *raw-minimum* reading. The
+   IIT-4.0 measure instead selects the MIP by a *normalized* integration value and reports the
+   un-normalized Φ over that partition. The two come apart on magnitude: at the conjunctive channel's
+   all-on state the reported Φ is **6.0** while the **minimum raw integration over partitions is 2.0**;
+   at the false-dyad triad's all-on state the reported Φ is **2.0** while the raw minimum is **1.0**.
+   So §3's prose is loose about the magnitude. But the binary verdict is **invariant**: at every
+   reachable state of every case tested, `[reported Φ > 0]` equals `[min-raw Φ > 0]`. The reason is
+   structural — a normalization factor is positive and finite, so a partition has normalized Φ = 0
+   iff it has raw Φ = 0, and the zero-set is identical whichever minimum is taken. **The classifier is
+   untouched, and the finding strengthens the binary-only thesis**: even the reported number is the
+   integration at the normalized-MIP, not the raw minimum, which is one more reason it is not a scale.
+2. **The "sympathetic caricature" charge (R1) — partly REFUTED by computation
+   (`review_response.py` §9).** R1 charges that the rivals' Φ=0 rides on the maximally-favorable inert
+   encoding `C'=C` (a frozen spectator). Tested: the dyad verdict survives a *live* context read by
+   both parties — `W'=S∨C, S'=W∨C, C'=C` factors, and even `S'=W∧C` (the mediator reading both parties
+   jointly) with `C'=C` factors, because a frozen C is not closed into the cycle and the system is not
+   strongly connected. So the Φ=0 is **not** an artifact of the inert spectator. What a triad requires
+   is C constitutive *and* fed back into the loop (the ATS `C'=S`, the false-dyad `C'=C∧¬S`), which the
+   rivals' own channel/context account does not supply. The half of R1's charge that survives is not
+   computational: the rival encodings are still the *author's* formalizations of the rival literature,
+   and that should be disclosed as a refereeable step rather than asserted as settled.
+
+---
+
+## A. Charges that are REAL (confirmed or refuted by computation; must be addressed)
+
+### A1. §3 mis-describes its own measure on the magnitude (R2, new; CONFIRMED, magnitude-only)
+Confirmed by `review_response.py` §8 above. **Real, and a fix-now correction**, but narrow: it is a
+description error about a quantity the paper already disclaims as not-a-scale, and it does not touch
+the binary verdict (zero-set invariant). Fix: one sentence in §9, where the 6.0 already appears,
+noting the reported Φ is the integration at the normalized-MIP and need not be the raw minimum (the
+conjunctive channel leaves 6.0 at the selected cut while another cut leaves 2.0), and that the zero —
+which is what the classifier uses — is the same whichever way the minimum is read. This *strengthens*
+§9's "the number is not a dose." Do not over-correct §3's intuition, which is right for the binary
+(some cut does no damage ⟺ Φ=0).
+
+### A2. The reachability convention is predecessor-based, not forward-reachability (R2, new; real disclosure)
+`reachable_states()` marks a state reachable iff it has ≥1 predecessor (not "forward-reachable from a
+start state"). This is load-bearing: the exhibit's `(1,1,1)` is excluded because it has zero
+predecessors, and the draft (§6) does say "states the system has at least one way to enter," which is
+the predecessor reading. **Real disclosure gap, fix-now.** A reader will assume forward-reachability
+and suspect the exhibit's exclusion is gameable by initial-condition choice; it is not. Fix: one
+sentence in §6 or §8 stating "reachable" means "has a predecessor," so the exclusion is principled.
+
+### A3. The EI comparison runs over a different support than Φ (R2, new; real disclosure, conclusion survives)
+EI is computed over the full do(uniform) intervention space (all 8 states); Φ is scored over reachable
+states only. The inversion claim (§8) is therefore "EI on its own terms does not track the line," not
+"EI scored head-to-head against Φ inverts." **Real, fix-now**, one clause in §8 noting the supports
+differ by construction. The conclusion is unaffected — EI cannot fall to zero on the strongly-connected
+exhibit regardless of support, which is the whole point.
+
+### A4. The pre-registration analogy is a category error (R1; real, not previously raised)
+§5 calls the state-alphabet rule "pre-registered … prevents fishing." Pre-registration controls error
+inflation across analytic forks in the presence of sampling noise. The model is deterministic — no
+sample, no noise, no family of tests, nothing to fish in. What declaring the alphabet in advance
+actually prevents is *motivated specification of a deterministic model*, which is a transparency
+commitment, not the inferential protection pre-registration supplies. **Real, fix-now.** Fix: replace
+"pre-registered … prevents fishing" with the transparency framing (it lets a referee check the rule
+was not reverse-engineered from the answer). This is the same boundary §2 polices for IIT — borrowed
+authority — and the paper should police it here too.
+
+### A5. The front matter over-states the conditional objectivity (R1, R3; real, the load-bearing honesty seam)
+The abstract and §1 say the triad is "a structural fact about that mechanism rather than the analyst's
+framing of it" and "not a matter of interpretation once the mechanism is fixed." §10 is precise and
+conditional. §4's necessary-not-sufficient result (`review_response.py` §4) shows two criterion-
+satisfying reads reach opposite verdicts, so "the eye cannot see it but Φ can" over-reads what is a
+function of a declared, contestable model. **Real.** The qualification exists, in the same paper, with
+numbers behind it — it just arrives 4,000 words after the strong claim. R3 makes this the single
+blocking edit; R1 names the same loci. **This is a framing decision, flagged for author steer in
+Section C, not silently rewritten.** The recommended fix is to promote §10's conditional clause into
+the abstract and §1, in the same breath as "structural fact," not to retire "structural fact."
+
+### A6. The operator-choice discretion should be cross-referenced, not left implicit (R3; real, fix-now)
+§7 defends the conjunction `S'=W∧C` as "the faithful model" of dispatch and states the triad verdict
+firmly. §5 concedes the reads are "the method's thinnest joint," disciplined only by case-argument.
+The original tautology charge (you added the edge, then reported it matters) is **refuted** — reading
+both parties is not sufficient for Φ>0 (the exhibit and the OR-dispatch both read both and factor,
+reproduced) — but the discretion is *relocated* to the operator, not dissolved. **Real, fix-now,
+cross-reference only:** where §7 calls the conjunction "faithful," point to §5's admission that the
+operator is a declared choice an analyst could contest. §7 currently reads as if the conjunction were
+given by the phenomenon; §5 knows better.
+
+## B. Charges that are reviewer overreach or already met — hold the line
+
+- **"Not an ORM contribution / measurement paper with no measurement" (R1, MAJOR driver).** This is
+  the dissent, and it is overreach *as a rejection ground*, though it carries a real wording fix. R2
+  (MINOR) and R3 — an organization theorist, the venue's own constituency — both find the contribution
+  ORM-appropriate: a reproducible decision procedure plus a *computed* demonstration that inspection
+  over-calls in a way only partition-minimization catches (the exhibit + the EI inversion). R3 is
+  explicit that ORM is defensible *because* the exhibit gives the procedure a case where eyeballing
+  demonstrably fails. A formal/analytical methods contribution can stand on its formal properties plus
+  a discriminating demonstration; world-calibration is Paper 3's by design and is disclosed as such.
+  **What is real inside R1's charge** is the word-level inconsistency: the abstract says "validates the
+  instrument on controls and worked cases" while §6 says the controls "are a correctness check, not a
+  validation." The body is right; the abstract should say "checks," not "validates." That is a fix-now
+  wording correction (Section C), not a reframe of the contribution. **Hold the line on the
+  contribution; fix the word.**
+- **"The conditional warrant does no epistemic work / is nearly trivial" (R1).** Partly overreach. The
+  warrant does not rest on verdict-uniqueness (which §4 refutes) but on the construct-proliferation
+  *asymmetry*: the rivals, modeled from their own account of their unit, factor, and no live-context
+  encoding of them flips to a triad (`review_response.py` §9, new); a faithful platform model does not
+  factor. That asymmetry is non-trivial and is the paper's actual §10 position. **Hold the line:** keep
+  the warrant resting on the asymmetry, and state it as such. The fix is front-matter tightening (A5),
+  not abandonment.
+- **"§2 under-stress-tests the disanalogy" (R3).** Minor and partly overreach. §8's exhibit and the EI
+  inversion *are* the counterfactual checks Oswick and Ketokivi demand — the cases where the analogy
+  would fail if Φ-irreducibility and coordination-irreducibility came apart, built and computed. What
+  is fair: §2 should name that "shares a form" is itself the analogical premise (constitution modeled
+  as state-coupling), argued by its construct payoff and the EI contrast rather than proven against all
+  comers. A one-sentence disclosure in §2 or §10, optional, not blocking.
+- **Single-state triad rule (R2, re-raised, now cleared).** R2 itself clears it this round: the rule
+  "Φ>0 where both parties are live" is principled, the noise check (2.0→1.53 at 10%) is a legitimate
+  if toy robustness argument, and round 3 already disclosed the per-state thinness. No action.
+
+## C. Disposition
+
+**Fix-now (technical corrections and disclosures; no judgment call):**
+- A1 — §9 sentence on the normalized-MIP magnitude (computation in `review_response.py` §8).
+- A2 — §6/§8 sentence: "reachable" = "has a predecessor," not forward-reachable.
+- A3 — §8 clause: EI is computed over the full intervention support, Φ over reachable states.
+- A4 — §5: replace "pre-registered … prevents fishing" with the transparency-commitment framing.
+- A6 — §7→§5 cross-reference on the operator as a declared, contestable choice.
+- Abstract wording: "validates the instrument on controls and worked cases" → "checks," consistent
+  with §6 (B, the real core of R1's charge).
+- Code hygiene: the stale `~22%` comment in `sweeps.py` line 73 contradicted the 12.5% the script
+  computes. **Already scrubbed** in this pass; the script now prints and comments 12.5% (32/256).
+
+**Needs author steer (framing decisions — flagged, not silently rewritten):**
+- A5 — how far to promote §10's conditional into the abstract and §1. The recommended move, consistent
+  with the standing posture, is to carry the conditional in the same breath as "structural fact," not
+  to retire "structural fact." This is the warrant's public face and is the author's call. R3 makes it
+  the one edit between MINOR and ACCEPT.
+- R1's venue framing — whether to relabel the contribution from "instrument validated" toward "decision
+  procedure specified and demonstrated" throughout, or to hold "instrument" and rest on the
+  formal-contribution-plus-demonstration defense (R2 and R3's position). The panel majority supports
+  holding; R1 dissents. An author decision about self-presentation, not a correctness issue.
+- The warrant's strength — state it explicitly as the construct-proliferation asymmetry (rivals factor,
+  no faithful rival flips, platform does not), rather than letting "structural fact" imply verdict-
+  uniqueness the §4 result denies. Recommended; consistent with §10 already.
+
+**Deferred computation (unchanged from round 3; committed, not faked):**
+- ΦID / PID synergy on the exhibit — the single open competitor that might also fire in Φ's unique zone.
+- Geometric Φ / Φ* zero-set agreement on the controls + exhibit — converts the §8 family-robustness
+  retreat into a tested claim.
+- Empirical confirmation of a platform in the strongly-connected-yet-reducible zone — Paper 3's
+  measurement task. R3's deepest standing objection (Φ earns its unique keep on no *documented* form)
+  is conceded in §10 and stays conceded; the concession must remain loud and not be softened by any
+  later edit.
+
+## Standing after round 4
+
+No reviewer found a computational error; every load-bearing number reproduces a fourth time. The one
+new technical finding (A1) is magnitude-only and strengthens the binary-only thesis. The split is 1
+MAJOR + 2 MINOR, and the MAJOR rests on a venue/framing stance the org-theory reviewer does not share,
+plus a real word-level overclaim ("validates") that is a fix-now correction, not a structural defect.
+The fix-now items are wording and disclosure; none requires new data or a new model. The author-steer
+items are the same warrant-framing decision the paper has faced since round 1: keep the bounded warrant
+and the construct-proliferation asymmetry, promote the conditional to the front matter, and decide how
+far to relabel "instrument" — held to the standing posture of binary-not-magnitude, no world-validation,
+analogy-not-homology, conditional-not-unconditional objectivity, and the conceded empty zone. No new
+citation entered the draft this round, so no Crossref check was required.
+
+---
+
+# Stage 4, round 5 (re-review after the Nagel-style rewrite) + adjudication
+
+Between round 4 and this round the draft went through a style-only rewrite (the repo's plain
+"Nagel" register: blunt declaratives, no first person, no self-referential hedging). The author
+states the rewrite preserved every claim, number, and citation, and did not apply round-4's content
+fix-now items. The panel's job this round was new: audit whether a prose pass quietly moved any
+claim, then re-press what stands. All three reviewers diffed the restyled draft against the
+pre-restyle commit (`git diff HEAD -- DRAFT.md`; round 4 left DRAFT.md untouched, so the diff is the
+rewrite in full) and re-ran every script.
+
+**Verdict trajectory across five rounds: 3× MAJOR-bordering-reject → 1 MINOR + 2 MAJOR →
+ACCEPT + 2 MINOR → 1 MAJOR + 2 MINOR → 3× MINOR.** The panel is unanimous MINOR for the first time.
+
+- **R2 (IIT expert): MINOR, unchanged — the correct outcome for a style-only pass.** Verified the
+  restyle is technically faithful: no changed line altered a measure statement, the power-vs-structure
+  fix survives (§3 ¶1 was never touched), the MIP argument, Markov/CI-by-construction, the EI
+  inversion, and the exhibit are intact. Every load-bearing number reproduces a fifth time.
+- **R3 (org theorist): MINOR, unchanged.** Confirmed the §10 empty-zone concession stayed loud and
+  verbatim (the round-4 standing instruction). Judged the blunter prose "on net more honest, not less"
+  — it stripped self-praise ("honest limits" → "stated limits", "not hiding a weakness", "not buried")
+  that performed rigor rather than stating it. Found one real restyle regression (below).
+- **R1 (methodologist): MINOR, down from round-4 MAJOR.** The downgrade is earned by the cumulative
+  record, not by the restyle. R1's round-4 MAJOR had two legs: (a) the "not an ORM contribution /
+  measurement paper with no measurement" venue stance, which the panel majority — including the
+  org-theory reviewer, the venue's own constituency — rejected across four rounds as a rejection
+  ground; and (b) the live "validates"/"not a validation" contradiction, a one-word fix-now. With
+  leg (a) spent, leg (b) is the definition of MINOR, not MAJOR.
+
+## Restyle fidelity — verified
+
+All three reviewers independently confirmed the rewrite is faithful. No number changed (every value
+from 0.415 to the EI row to the 2.0/0.83/6.0/0.0 channel sweep reproduces verbatim). No citation
+changed. No section cross-reference was severed. R1 and R2 both checked the warrant/objectivity seam
+(abstract, §1, §5, §10) line by line and found the bounded-objectivity claim did not move: the
+de-hedging removed exactly the rule-7 meta-commentary the repo's own style guide bans, and the
+conditionals those phrases decorated survive in plain declarative form. The §3 four-condition
+dependency still reads correctly (the closing noun-piles sit on a stated four-part antecedent, not in
+place of it). This is the round's central result: a prose pass that changed 26 paragraphs moved no
+claim.
+
+## The one restyle regression (R3; REAL, minor; FIXED this round)
+
+Cutting the §5 clause "and it is named here as an open discipline rather than smoothed over" — a
+rule-7 banned tic — also dropped a concession round 3 had added at R1/R3's request: the framing of
+the read-faithfulness limit as a discipline the model owes, not merely a fact stated in passing. The
+substance survived (the reads "have no rule as tight as the one that fixes the state alphabet,"
+"disciplined only by argument about the case," "the method's thinnest joint," "weaker than a verdict
+no analyst could move"), so the bold claim did not harden. But R3 is right that the ownership was
+quieter. **Fixed:** §5 now reads "That is the method's thinnest joint, and the model has to meet it in
+the open, by declaring the reads and defending them on the case." This restores the limit as an owed
+discipline in plain substance (an obligation the method carries publicly), without re-importing the
+self-referential phrasing the style guide rejects.
+
+## Standing items, all carried from round 4, all still open (deferred by the style-only scope)
+
+The restyle deliberately applied no round-4 content fix. So the round-4 fix-now and author-steer items
+remain exactly where they were. The panel re-confirms them:
+
+- **"validates" vs "not a validation" (R1, now panel-agreed fix-now).** Abstract: "validates the
+  instrument on controls and worked cases." §6: the controls "are a correctness check, not a
+  validation." A live internal contradiction on the paper's self-description, and a one-word fix:
+  abstract "validates" → "checks" (the §11 conclusion already says "checked on controls"). Not fatal —
+  the body is internally correct — but it should not survive another round.
+- **The §3 magnitude gloss / normalization gap (R2 A1, C1–C2).** §3's "the cut that does the least
+  damage … Φ is the damage that cut still does" describes a raw-minimum; the measure selects the MIP by
+  a normalized value and reports the raw Φ over it (conjunctive channel reports 6.0, raw-min 2.0;
+  `review_response.py` §8). Magnitude-only — the binary zero-set is invariant at every state — but §3's
+  gloss is literally loose, and §9/§10 do not reconcile it. One sentence in §3 or §9 closes it.
+- **The reachability convention (R2 A2, C3).** "Reachable" means has-a-predecessor (in-degree ≥ 1),
+  not forward-reachable from a start state. Load-bearing for the exhibit's exclusion of `(1,1,1)`. §6's
+  "states the system has at least one way to enter" is in fact this definition, so the draft is
+  accurate, but the notion is never named. One clause in §6.
+- **Front-matter conditional (R1, R3 A5; author-steer).** "Structural fact / material reality" still
+  lands in the abstract and §1 before the §10 conditional is developed. All three agree the conditional
+  does travel inside the abstract, so this is a MINOR seam, not a motte-and-bailey. The recommended move
+  is unchanged: promote one §10 conditional clause forward. Author's call.
+- **Surface the live-context computation in §10 (R1 C3; disclosure, optional).** `review_response.py`
+  §9 shows the rivals' Φ=0 survives non-inert "live context" reads (even a joint `S'=W∧C` with `C'=C`
+  factors, because a frozen C is not closed into the cycle). The draft does not cite this. One sentence
+  in §10 would convert the construct-proliferation asymmetry from a refereeable assertion into a
+  computed one the paper already owns.
+
+## Disposition
+
+**Fix-now applied this round:** the §5 restyle regression (R3 C.1) — the only item the rewrite itself
+introduced.
+
+**Fix-now still pending (round-4 carryover, deferred by the style-only scope):** abstract
+"validates" → "checks"; the §3/§9 normalization-gap sentence; the §6 reachability-convention clause.
+All three are one sentence or one word, none changes a claim or a number.
+
+**Author steer (unchanged):** how far to promote the §10 conditional into the front matter; whether to
+relabel "instrument" (the panel majority holds it stands as a formal-methods contribution); optionally
+cite `review_response.py` §9 in §10.
+
+**Deferred computation (unchanged across rounds):** geometric Φ / Φ* zero-set agreement; ΦID/PID
+synergy on the exhibit; the empirical confirmation of the exhibit's zone, which is Paper 3's.
+
+## Standing after round 5
+
+The panel is unanimous MINOR. The Nagel rewrite is verified faithful by three independent diff audits
+and a fifth full reproduction of every load-bearing number; it moved no claim and, on net, made the
+prose more honest by removing performed rigor. Its single regression — a quieted §5 concession — is
+fixed. Everything else between this draft and acceptance is the same short list of one-sentence
+disclosures and one word that round 4 already named, plus the standing author-steer on the front-matter
+conditional. No reviewer found a computational error in five rounds. No new citation entered, so no
+Crossref check was required.

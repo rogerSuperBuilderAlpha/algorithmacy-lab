@@ -219,6 +219,85 @@ def section7_exhibit_reachability():
     print(f"   (1,1,1) reachable? : {(1,1,1) in reach}  -- the all-on state that carries every other triad verdict")
 
 
+def section8_mip_normalization():
+    """R2 (round-4) charge: §3 describes the test as 'find the cut that changes the
+    probabilities least; Φ is the damage that cut still does' (a RAW-min reading). The
+    IIT-4.0 system measure instead selects the MIP by the NORMALIZED integration value and
+    reports the (un-normalized) Φ over that partition. The two come apart on the magnitude:
+    the conjunctive channel reports Φ=6.0 at (1,1,1) while the minimum RAW integration over
+    partitions is 2.0. This section computes both and shows (a) the reported Φ is the raw
+    value at the normalized-MIP, not the raw minimum, so the §3 description is loose, and
+    (b) the BINARY verdict is invariant: at every reachable state, raw-min and normalized-MIP
+    agree on whether Φ is zero. So the issue is magnitude-only; the classifier is untouched."""
+    import pyphi
+    from pyphi import new_big_phi
+    pyphi.config.PROGRESS_BARS = False
+    pyphi.config.PARALLEL = False
+    print("\n" + "=" * 78)
+    print("8. MIP SELECTION: RAW-MIN vs NORMALIZED  (does §3's 'least damage' describe the measure?)")
+    print("=" * 78)
+
+    def raw_min_and_reported(rules, state):
+        tpm, cm = tpm_from_rules(rules), cm_from_rules(rules)
+        net = pyphi.Network(tpm, cm=cm, node_labels=("W", "S", "C"))
+        sub = pyphi.Subsystem(net, tuple(state))
+        sia = new_big_phi.sia(sub)
+        reported = max(0.0, float(sia.phi))      # raw Φ at the normalized-MIP (what the instrument uses)
+        ss = sia.system_state
+        if ss is None:                            # Φ=0 systems carry no system_state
+            return reported, 0.0
+        raws = [float(new_big_phi.evaluate_partition(p, sub, ss).phi)
+                for p in new_big_phi.system_partitions(sub.node_indices, sub.node_indices)]
+        return reported, min(raws)
+
+    cases = {
+        "conjunctive channel (maxΦ=6.0)": [lambda s: s[1] and s[2], lambda s: s[0] and s[2], lambda s: s[1] and s[0]],
+        "false-dyad triad    (maxΦ=2.0)": [lambda s: not s[1], lambda s: s[0] and s[2], lambda s: s[2] and not s[1]],
+        "exhibit             (Φ=0 dyad)": [lambda s: not (s[1] or s[2]), lambda s: (not s[0]) and s[2], lambda s: not (s[0] and s[1])],
+    }
+    binary_agrees = True
+    for name, rules in cases.items():
+        tpm = tpm_from_rules(rules)
+        print(f"\n  {name}")
+        for s in reachable_states(tpm):
+            st = tuple((s >> i) & 1 for i in range(3))
+            rep, mraw = raw_min_and_reported(rules, st)
+            agree = (rep > 1e-9) == (mraw > 1e-9)
+            binary_agrees = binary_agrees and agree
+            gap = "  <-- reported raw Φ > raw minimum" if rep > mraw + 1e-9 else ""
+            print(f"     {st}: reported(norm-MIP)Φ={rep:.4f}  min-raw Φ={mraw:.4f}  "
+                  f"binary-agree={agree}{gap}")
+    print(f"\n   binary verdict invariant across raw-min vs normalized-MIP at every state: {binary_agrees}")
+    print("   => §3's 'cut that changes them least' is a loose description of the reported MAGNITUDE")
+    print("      (6.0 is the raw value at the normalized-MIP, not the 2.0 raw minimum), but the")
+    print("      zero-set is identical, so the dyad/triad CLASSIFIER is unaffected. Magnitude-only.")
+
+
+def section9_rival_live_context():
+    """R1 (round-4) charge: the rivals' Φ=0 rides on the maximally-favorable INERT encoding
+    C'=C (a frozen spectator). Test whether the dyad verdict survives a LIVE context, where C
+    is read by both parties -- even read jointly by the mediator -- but is not driven back into
+    a loop. If the rivals still factor under live-context encodings, the Φ=0 is not an artifact
+    of the inert caricature."""
+    print("\n" + "=" * 78)
+    print("9. RIVAL ENCODING ROBUSTNESS  (does the dyad verdict ride on the inert C'=C spectator?)")
+    print("=" * 78)
+    cases = {
+        "inert spectator   W'=S,   S'=W,   C'=C":   [lambda s: s[1], lambda s: s[0], lambda s: s[2]],
+        "live ctx (sep OR) W'=S∨C, S'=W∨C, C'=C":   [lambda s: s[1] or s[2], lambda s: s[0] or s[2], lambda s: s[2]],
+        "live ctx (joint)  W'=S,   S'=W∧C, C'=C":   [lambda s: s[1], lambda s: s[0] and s[2], lambda s: s[2]],
+        "live ctx (drift)  W'=S∨C, S'=W,   C'=¬C":  [lambda s: s[1] or s[2], lambda s: s[0], lambda s: not s[2]],
+    }
+    for name, rules in cases.items():
+        r = classify(rules, name)
+        print(f"   {name:<38} {r['verdict']:<15} maxΦ={r['max_phi']:.3f}  strongly_conn={r['strongly_connected']}")
+    print("   All four factor (Φ=0). The dyad verdict survives a context read by both parties,")
+    print("   even a joint S'=W∧C read, as long as C is not fed back into a loop (not strongly")
+    print("   connected). So the rivals' Φ=0 is not an artifact of the inert C'=C encoding; what")
+    print("   a triad needs is C constitutive AND closed into the cycle (the ATS C'=S, false-dyad")
+    print("   C'=C∧¬S), which the rival constructs' own channel/context account does not supply.")
+
+
 if __name__ == "__main__":
     section1_profiles()
     section2_rideshare_invariance()
@@ -227,3 +306,5 @@ if __name__ == "__main__":
     section5_noise_robustness()
     section6_worked_case_ei()
     section7_exhibit_reachability()
+    section8_mip_normalization()
+    section9_rival_live_context()

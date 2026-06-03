@@ -70,7 +70,8 @@ def read_structure():
     feedback   = [lambda s: not s[1], S_AND, lambda s: s[1] or s[2]]  # W'=¬S, C'=S∨C
     print(f"   pure bottleneck  W'=S,  C'=S    -> maxΦ = {max_phi(bottleneck):.2f}  (expect 2.0)")
     print(f"   realistic feedbk W'=¬S, C'=S∨C  -> maxΦ = {max_phi(feedback):.2f}  (expect 0.0)")
-    print("   expect ~22% keep Φ>0  (../results.md §4) — the reads decide the verdict, not just the determination.")
+    print("   expect 12.5% (32/256) keep Φ>0 under the all-functions read space (../results.md §5;")
+    print("   read-space-dependent — a narrower admissible set raises it) — the reads decide the verdict.")
 
 
 if __name__ == "__main__":
