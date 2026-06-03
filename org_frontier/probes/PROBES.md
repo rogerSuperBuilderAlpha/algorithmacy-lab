@@ -27,6 +27,26 @@ interprets both and commits determinations neither controls).
 | 9 | Inference displacement, as a rate | C and M trade off in the core | **H9 confirmed, categorical** | Over 64 forms, C and M **never coexist** in the core (0 forms). P(C in core \| M in)=0%; P(C in core \| M out)=91%. The inferred model *substitutes for* the real counterpart, never supplements it. The sweep confirms Probe 4 (vs Probe 8, which tempered Probe 1). `probe_inference_sweep.py` |
 | 10 | Determination type vs multi-party core | Parity keeps all parties most robustly | **H10 refuted, surprising** | AND and OR keep all parties at Φ=3.0; parity keeps all but at Φ=0.25; **majority (2-of-3) factors entirely → dyadic**. Redundancy (no party pivotal) destroys irreducibility, extending Probe 2 to the determination level. `probe_parity_multiparty.py` |
 
+| 11 | Pivotality as a predictor | Influence predicts core membership | **H11 validated** | Across 256 determinations × 3 parties: P(in core) rises monotonically with influence — 0% at influence 0 (never), 12.5%, 37.5%, then **100% at influence ≥ 0.75**. Rank-AUC = **0.891**. The discovered mechanism is quantitatively confirmed, not just illustrated. `probe_pivotality.py` |
+
+## A validated two-condition account of core membership
+
+The loop did not just illustrate a theory; Probe 11 validated it. Given the structural object (the
+major complex of a small mediated system), **which parties are in the irreducible coordination is
+governed by two conditions**:
+
+1. **Bidirectional constraining coupling** (necessary; probes 3–5, principal): the party must both
+   feed and be fed by the coordination. Emit-only sources and read-only sinks are out.
+2. **Pivotality / influence** (graded predictor; probes 2, 7, 10, validated in 11): given coupling,
+   P(in core) rises monotonically with the determination's Boolean sensitivity to the party — zero
+   influence excludes (0/48), influence ≥ 0.75 guarantees inclusion (AUC 0.89).
+
+This is the loop's headline result: a discovery (probes 1–7) → population rating (8–10) → mechanism
+synthesis → quantitative validation (11) arc, all on exact IIT-4.0 Φ via PyPhi. It also re-grounds
+the algorithmacy thesis: a coordination form binds a party into an irreducible triad exactly when
+that party is both two-way coupled and pivotal to the determination — which is what "a system that
+interprets both parties and commits determinations neither controls" means, made computable.
+
 ## A unifying thread: pivotality
 
 Probes 2, 7, and 10 converge on one mechanism. **A party is in the irreducible core only if the

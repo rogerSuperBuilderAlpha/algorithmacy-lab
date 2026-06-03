@@ -67,6 +67,24 @@ irreducibility of the joint determination is. Random coupling meets this conditi
 as parties multiply, but specific structures (an all-binding conjunction, a non-factoring chain,
 a parity determination) meet it at any size.
 
+## A validated account of core membership (the probe loop)
+
+The `probes/` hypothesis loop (see `probes/PROBES.md`) ran eleven hypothesis → PyPhi-test cycles on
+the construct's dimensions and scope conditions, and converged on a two-condition, quantitatively
+validated account of *which parties are bound into the irreducible coordination*:
+
+- **Bidirectional constraining coupling** (necessary): a party must both feed and be fed by the
+  coordination; emit-only sources and read-only sinks stay out.
+- **Pivotality** (graded, validated): given coupling, the probability a party is in the major complex
+  rises monotonically with the determination's Boolean sensitivity to it — zero influence excludes,
+  influence ≥ 0.75 guarantees inclusion (rank-AUC 0.89 over 256 determinations).
+
+Notable probe results: a counterpart coalition can eject the worker; a worker's internal model of
+the counterpart *substitutes for* the real counterpart in the core (they never coexist); a switching
+rule does not bind the regime (temporal-tracking is a worker burden, not structural); majority/
+redundant determinations factor entirely. The worker-competency dimensions correctly show up as not
+structural; the structural scope conditions do.
+
 ## What this contributes
 
 For the PyPhi community: a new application class (small mediated/coordination systems), a curated
