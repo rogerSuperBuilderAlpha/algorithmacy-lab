@@ -70,7 +70,25 @@ interprets both parties and commits determinations neither controls" means, made
 | 31 | Comprehensive discriminant map | Verdict maps the construct space | **H31 confirmed** | 6/6 neighbor constructs classify as expected: CMC, HMC, AI-literacy, sensemaking dyadic; algorithmacy and AI-MC triadic. One clean map, with AI-MC flagged as the lone structural boundary case (triadic by structure, dyadic-by-unit). `probe_discriminant_map.py` |
 | 32 | Temporal grain (1-step vs 2-step) | Verdict is grain-relative | **H32 confirmed, consequential** | ALL three triadic corpus forms flip to **dyadic** under the 2-step composed map (Φ 2.0→0); dyadic forms stay dyadic. Observing the coordination too coarsely washes out the triad entirely. A real caveat for empirical sampling cadence. `probe_temporal_grain.py` |
 | 33 | MIP fault line across the family | The worker is the weakest seam | **H33 refines Probe 26** | Over the 24 triadic family forms: 67% cut at {W,SC} (worker is the severed singleton), 33% cut at the complete {W,S,C} (the parity Φ=0.5 forms). Worker-as-weakest-seam is the dominant pattern, not universal. `probe_mip_population.py` |
+| 34 | Graded contestability | Triad survives partial contestability | **H34 refines Probe 21** | Stochastic contestability q: Φ falls smoothly (2.0→0.86→0.62→0.42→0.19) but the verdict stays triadic until total autonomy (q=1). The triad tolerates *partial* contestability; only a worker who fully ignores the determination escapes it. Magnitude sensitive, verdict robust. `probe_graded_contestability.py` |
+| 35 | Minimal-edge triad at n=4 | The edge budget rises with parties | **H35 confirmed** | Every triadic n=4 strict-mediation form has exactly **6 edges** (n=3 was 4). The minimal triad scales as 2(n−1): the joint determination reads all outer parties and they read back. A clean structural scaling law. `probe_min_triad_n4.py` |
+| 36 | Cause-effect-structure richness | Triadic forms are structurally richer | **H36 confirmed** | Triadic forms carry more distinctions (4.0 vs 2.6) and far more **relations** (7.0 vs 2.8, ~2.5×) than dyadic. The irreducible coordination is richer in kind, not just higher in Φ — the relations gap is the bigger differentiator. `probe_ces_richness.py` |
+| 37 | Feature interaction: principal × coalition | The two displacements compete | **H37 — coalition dominates** | A counterpart coalition relocates the core to {C1,C2} even when an active gating+monitoring principal is present, ejecting worker, system, AND principal. Counterpart solidarity trumps principal control over the irreducible coordination. `probe_interaction.py` |
+| 38 | Asymmetric reliability | Degrading the system's read of the counterpart factors it | **H38 confirmed** | As the system's perception of the counterpart degrades (r_c: 1→0), Φ falls smoothly (2.0→0.88→0.44→0.20) and the verdict holds triadic until the counterpart is fully invisible (r_c=0). Graceful degradation, verdict robust until the extreme. `probe_asym_reliability.py` |
 
+## Probes 34–38 — fifth batch (graded perturbations, structure, interaction)
+
+A recurring theme sharpens across 34, 38 (and 27): **under stochastic perturbation Φ degrades
+smoothly while the verdict is robust until the extreme** — the binary classification is the stable
+object, magnitude the sensitive one, now confirmed under noise as well as encoding (Probe 14).
+Standouts:
+- **Probe 35 gives a scaling law:** the minimal strict-mediation triad needs 2(n−1) edges (4 at
+  n=3, 6 at n=4). Irreducible coordination has a fixed, party-count-dependent structural cost.
+- **Probe 36:** triadic coordination is structurally richer (≈2.5× the relations of dyadic), so the
+  triad/dyad distinction is qualitative, not merely a Φ threshold.
+- **Probe 37 is a genuine interaction result:** counterpart solidarity dominates principal control —
+  an organized counterpart pair becomes the irreducible core and ejects even an active corporate
+  principal. The most politically suggestive finding in the logbook.
 ## Probes 29–33 — fourth batch (the motivating puzzle, structure, grain)
 
 Highlights:

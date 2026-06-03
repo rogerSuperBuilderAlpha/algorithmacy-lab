@@ -1,0 +1,8 @@
+q,phi_max,verdict
+0.0,2.0,triadic
+0.1,0.8625,triadic
+0.2,0.737,triadic
+0.3,0.6215,triadic
+0.5,0.415,triadic
+0.75,0.1926,triadic
+1.0,0.0,dyadic
