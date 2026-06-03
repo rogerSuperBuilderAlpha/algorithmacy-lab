@@ -315,3 +315,38 @@ bug) is fixed in the generated artifact. The standing posture is unchanged: case
 fieldwork; outcome-validation the named program; citations to Crossref-verify at finalization; title
 an open author choice. A confirmatory re-read of §7 is the only thing between this and a re-restored
 unanimous ACCEPT.
+
+---
+
+# Stage 4, round 5 (confirmatory re-review of the corrected §7)
+
+The three reviewers re-read the corrected §7, diffing `git diff 3e35f85 HEAD -- DRAFT.md` and
+reproducing the §7 numbers a fifth time. **Verdict: unanimous ACCEPT.** Trajectory across the §7
+arc: merge → R4 (1 MINOR + 2 ACCEPT-conditional) → **R5 3× ACCEPT**.
+
+- **R1 (case-study methodologist): ACCEPT, up from MINOR.** C1–C3 resolved with verbatim changes;
+  the catalog demotion did not over-correct (the surface-vs-structure point stands on the clean
+  counter-vs-delivery-app contrast); the artifact bug is fixed; both scripts reproduce.
+- **R2 (IIT / formal): ACCEPT, confirmed.** Obj1 (the `b/2` header bug → Φ/(n−1)=1.00), Obj2 (the
+  "5 Φ values" reconciled with normalization), Obj3 (the 47%/44.1% comparison deleted) all
+  satisfied and reproduced; normalization consistent across §5.5/§7/§9/MICRO_SCENARIOS.md; no new
+  numeric inconsistency.
+- **R3 (org theorist): ACCEPT, asks met.** D1 (convergence deleted), D2 (catalog demoted to
+  illustration, controls kept in-body), D3 (contestability conceded as a class, waiter example fixed
+  and removed from its load-bearing role), D5 (abstract/§1 co-equal billing removed) all met; the
+  control reads sharper, no new over-sell.
+
+## Trivial residuals (both applied this pass)
+- §7 ¶2 "Both are findings, not failures" tripped the rule-5 not-X-but-Y tic (R1) → "Both are
+  findings. Neither is a failure."
+- The MICRO_SCENARIOS.md "Honest bounds" note under-listed contestable codings (R1, R3) → broadened
+  to "the conduit/partial/strict assignments are contestable as a class," naming the waiter.
+
+## Standing after round 5
+Paper 3 is back to unanimous ACCEPT with §7 included. Five rounds, no computational error in any of
+them; every load-bearing number has reproduced five times. The dyadic control class is the
+discriminant-validity evidence the paper lacked, and the micro-catalog is an honestly-bounded
+illustration of mechanism-over-surface. Standing posture only, none blocking: cases provisional
+pending fieldwork; outcome-validation the named empirical program; citations to Crossref-verify at
+finalization; Doty & Glick specifics to firm up; the title an open author choice; and the fabricated
+fieldwork TEMPLATE (`CASES_FIELDWORK_TEMPLATE.md`) kept out of the draft by design.

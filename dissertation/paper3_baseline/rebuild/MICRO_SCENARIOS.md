@@ -154,5 +154,5 @@
 ## Honest bounds
 
 - The Φ of each scenario follows from its **pre-registered structural coding**, not from a per-scenario discovery; the catalog's claim is about the coding (surface variety, structural sparsity), not about the world.
-- Codings are contestable and sit at the boundaries the dyadic controls exposed: a peer payment is coded PARTIAL (the processor authorizes jointly), a GitHub PR PARTIAL (direct discussion plus a merge gate); a reasonable analyst could re-code these, and the band would move. Each rationale is the auditable coding decision.
+- The conduit/partial/strict assignments are contestable as a class, not only at named edges: a peer payment is coded PARTIAL (the processor authorizes jointly) and could be read CONDUIT; a GitHub PR PARTIAL (direct discussion plus a merge gate) and could be read HIGHER where the gate is multi-party; ordering through a waiter CONDUIT, where a reader who treats the kitchen as a joint determiner would code it otherwise. A reasonable analyst could re-code many and move their bands; each rationale is the auditable coding decision.
 - Magnitude is ordinal; the higher-order raw Φ is size-scaled (normalized in the table).
