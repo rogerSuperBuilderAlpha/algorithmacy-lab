@@ -75,7 +75,25 @@ interprets both parties and commits determinations neither controls" means, made
 | 36 | Cause-effect-structure richness | Triadic forms are structurally richer | **H36 confirmed** | Triadic forms carry more distinctions (4.0 vs 2.6) and far more **relations** (7.0 vs 2.8, ~2.5×) than dyadic. The irreducible coordination is richer in kind, not just higher in Φ — the relations gap is the bigger differentiator. `probe_ces_richness.py` |
 | 37 | Feature interaction: principal × coalition | The two displacements compete | **H37 — coalition dominates** | A counterpart coalition relocates the core to {C1,C2} even when an active gating+monitoring principal is present, ejecting worker, system, AND principal. Counterpart solidarity trumps principal control over the irreducible coordination. `probe_interaction.py` |
 | 38 | Asymmetric reliability | Degrading the system's read of the counterpart factors it | **H38 confirmed** | As the system's perception of the counterpart degrades (r_c: 1→0), Φ falls smoothly (2.0→0.88→0.44→0.20) and the verdict holds triadic until the counterpart is fully invisible (r_c=0). Graceful degradation, verdict robust until the extreme. `probe_asym_reliability.py` |
+| 39 | Feedback cycle necessity | A cycle is needed for the triad | **H39 confirmed** | An acyclic joint determination (parties as sources, system as sink) is dyadic; one feedback edge is dyadic; only the full cycle (both parties read the system back) is triadic. Irreducible coordination requires recurrence through both parties. `probe_cycle.py` |
+| 40 | Broadcast topology | Fan-out factors into dyads | **H40 confirmed** | A system that relays/broadcasts the worker to many counterparts without a joint determination over them is dyadic (core {W,S}); only a joint determination over the counterparts (the pool) is triadic. Broadcast ≠ triad. `probe_broadcast.py` |
+| 41 | Dashboard vs determination | A decoupled dashboard factors the worker out | **H41 confirmed (transparency theater)** | When the worker reads a dashboard decoupled from the committing determination, the system *splits*: {W, dashboard} factors off from {commit, counterpart}. The worker is bound to the display, not the decision. A decoupled metric literally removes the worker from the irreducible coordination. `probe_dashboard.py` |
+| 42 | Redundant determination paths | Duplicate mediators are reducible | **H42 refuted/nuanced** | Two mediators both committing W∧C, read *conjunctively*, RAISE Φ (2.0→4.0) and both join the core — requiring both makes each pivotal. Read *disjunctively* (either suffices) they factor. Redundancy is not monolithic: AND-duplication binds, OR-duplication collapses (cf. the pivotality principle). `probe_redundant.py` |
+| 43 | Self-referential mediator | A self-loop on S shifts magnitude only | **H43 refuted/nuanced** | A *sticky* mediator (S'=(W∧C)∨S) COLLAPSES the triad to a self-absorbed core {S} — a system running on its own inertia stops being a live joint determination and factors the parties out. A parity-memory mediator (XOR) stays triadic. Mediator inertia can break the triad. `probe_self_ref.py` |
 
+## Probes 39–43 — sixth batch (topology, transparency theater, mediator dynamics)
+
+Three confirmations (39 cycle, 40 broadcast, 41 dashboard) and two instructive refutations (42, 43):
+- **Probe 41 (transparency theater)** is the org-richest: a dashboard decoupled from the real
+  determination splits the system into {worker, display} and {commit, counterpart} — the worker is
+  bound to what she sees, not to what decides her. Showing a worker a metric that is not the
+  determination structurally *removes* her from the coordination.
+- **Probe 42** sharpens redundancy: conjunctive duplication (both required) raises Φ and binds both
+  mediators; disjunctive duplication (either suffices) factors. Same pivotality logic as probes 2/10.
+- **Probe 43** finds a new collapse mode: an inertial (sticky) mediator latches onto its own state
+  and ejects the parties — a system coasting on momentum is not a live joint determination.
+- **Probe 39** completes the structural necessity picture: feedback recurrence through both parties
+  is required, alongside the joint determination (25), the 2(n−1) edge budget (35), and pivotality.
 ## Probes 34–38 — fifth batch (graded perturbations, structure, interaction)
 
 A recurring theme sharpens across 34, 38 (and 27): **under stochastic perturbation Φ degrades
