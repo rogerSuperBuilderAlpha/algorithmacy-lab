@@ -65,7 +65,25 @@ interprets both parties and commits determinations neither controls" means, made
 | 26 | MIP as a structural fault line | The MIP isolates the weakest link | **H26 confirmed** | Every triadic corpus form cuts at {W,SC} — the worker is the most separable element; the system+counterpart cohere more tightly than the worker attaches. The MIP names the coordination's weakest seam: structurally, the worker is the most peripheral party. `probe_mip.py` |
 | 27 | Mediator reliability | The triad degrades gracefully with unreliability | **H27 confirmed** | Φ falls smoothly with mediator unreliability (2.0 → 1.5 → 1.2 → 0.68 → 0.35 → 0.14) and the verdict holds triadic until reliability = 0.5 (random), where it collapses. Reliability is a genuine *continuous* Φ axis (unlike encoding). The triad tolerates a noisy system. `probe_reliability.py` |
 | 28 | Information-richness asymmetry | The richer party occupies more of the core | **H28 partial** | A determination reading both worker bits jointly with the counterpart binds all four (Φ=3.0); reading one bit drops the other (compression, cf. Probe 2). But coupling the worker's bits to *each other* (XOR) binds the worker internally and *excludes* the counterpart. Richness helps the core only when channeled through a cross-party pivotal read. `probe_richness.py` |
+| 29 | The variance puzzle (equifinality) | Same system, divergent outcomes | **H29 confirmed, nuanced** | Holding the system fixed and varying the worker's policy: success ranges 0.00–0.38 and the verdict itself varies — only a worker who stays live to the determination instantiates the triad; contrarian/withdrawn workers fail AND break it; eager workers succeed equally but dyadically. Triadicity is co-determined by worker engagement, and triadic ≠ higher success. The variance puzzle, structurally. `probe_variance.py` |
+| 30 | Structural extremes of the triad | Minimal/maximal irreducible forms | **H30 confirmed, clean** | Every one of the 24 triadic strict-mediation forms has **exactly 4 edges** (joint determination S←W,S←C + both parties reading S); none has more or fewer. The triad has a fixed edge budget. Φ is 2.0 (16 forms) or 0.5 (8 parity forms). `probe_extremes.py` |
+| 31 | Comprehensive discriminant map | Verdict maps the construct space | **H31 confirmed** | 6/6 neighbor constructs classify as expected: CMC, HMC, AI-literacy, sensemaking dyadic; algorithmacy and AI-MC triadic. One clean map, with AI-MC flagged as the lone structural boundary case (triadic by structure, dyadic-by-unit). `probe_discriminant_map.py` |
+| 32 | Temporal grain (1-step vs 2-step) | Verdict is grain-relative | **H32 confirmed, consequential** | ALL three triadic corpus forms flip to **dyadic** under the 2-step composed map (Φ 2.0→0); dyadic forms stay dyadic. Observing the coordination too coarsely washes out the triad entirely. A real caveat for empirical sampling cadence. `probe_temporal_grain.py` |
+| 33 | MIP fault line across the family | The worker is the weakest seam | **H33 refines Probe 26** | Over the 24 triadic family forms: 67% cut at {W,SC} (worker is the severed singleton), 33% cut at the complete {W,S,C} (the parity Φ=0.5 forms). Worker-as-weakest-seam is the dominant pattern, not universal. `probe_mip_population.py` |
 
+## Probes 29–33 — fourth batch (the motivating puzzle, structure, grain)
+
+Highlights:
+- **Probe 29 grounds the dissertation's opening puzzle structurally:** one system, worker policy
+  varied, outcomes diverge (0.00–0.38) — and triadicity is itself co-determined by whether the
+  worker stays live to the determination. Being in the triad is not the same as succeeding; it is a
+  different *kind* of coordination, exactly the construct's claim.
+- **Probe 30 gives the triad a fixed cost:** in strict mediation, irreducibility requires exactly
+  four edges — the lean joint determination both parties read back. There is no fat triad and no
+  sub-4-edge triad.
+- **Probe 32 is the most consequential caveat in the whole logbook:** the verdict is *grain-relative*
+  — sampling the coordination every two steps washes the triad out completely. Any empirical use of
+  this classifier must match the observation cadence to the coordination's own timescale.
 ## Probes 24–28 — third batch (scope conditions, robustness, structure)
 
 Three confirmations (25 joint, 26 MIP, 27 reliability), one refined refutation (24 opacity), one
