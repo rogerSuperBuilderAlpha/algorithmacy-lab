@@ -38,9 +38,12 @@ compute rather than assert, and write in the house style in [`../CLAUDE.md`](../
   and scope conditions. *Ongoing logbook ([`PROBES.md`](probes/PROBES.md)): coalition ejects the
   worker (H1 ✓), intent compression drops non-pivotal dimensions (H2 ✓), a switching rule does not
   bind the regime (H3 ✗).*
-- [`essays/`](essays/) — public-facing writeups. First essay:
+- [`essays/`](essays/) — public-facing writeups.
   [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — how the world uses PyPhi, and
   the theory that exact Φ decides whether a coordination form demands literacy or algorithmacy.
+  [`pyphi_org_theory_catalog.md`](essays/pyphi_org_theory_catalog.md) — a ~10k-word catalog of every
+  PyPhi experiment in this line (the classifier, corpus, multiparty, principal, proxy bridge, and all
+  53 probes), each with question/hypothesis/method/result, plus a foundations appendix.
 
 ## Research synthesis
 
