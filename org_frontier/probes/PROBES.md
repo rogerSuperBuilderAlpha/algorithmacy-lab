@@ -109,6 +109,21 @@ subset, the structural seed of the group-beyond-members result (Probe 52). #44 s
 pivotality, not just edges. #58 refines the breadth/depth picture: mediator branching preserves the
 triad (like depth); only substitutable parties dilute it.
 
+### Program Wave 2 — robustness (agenda #6, #7, #9, #10, #16)
+
+| 59 | Isomorphism invariance (#6) | Verdict invariant under the full relabeling group | **confirmed** | 0/384 verdict flips and 0 Φ difference across 8 forms × 6 node-permutations × 8 state-flips. The verdict is an exact invariant of the system up to relabeling; the state-individuation choice does not move it. (A first run had a relabeling bug, fixed.) `probe_individuation.py` |
+| 60 | Temporal-grain threshold (#7) | A detectable band tied to the attractor period | **confirmed (short)** | The triadic corpus forms flip to dyadic at grain k=2, with attractor periods 1–2. For these short-period forms the detectable band is narrow; empirical sampling must be fine relative to the coordination's cycle (refines Probe 32). `probe_grain_threshold.py` |
+| 61 | Shared exogenous shock (#9) | Correlated noise changes the verdict | **not shown (modeling limit)** | A static common source both parties read leaves the major complex the {W,S,C} triad (Φ=2.0) and stays out itself. A static shared input does not change the verdict. True correlated *output* noise needs a state-by-state TPM, which the state-by-node form cannot express; flagged. `probe_shared_shock.py` |
+| 62 | Update scheduling (#10) | Verdict can depend on the update schedule | **confirmed, consequential** | Every triadic corpus form becomes DYADIC under sequential (one-node-at-a-time) update, for all 6 orders, while simultaneous update is triadic. The verdict is schedule-relative: within-step sequential composition lets information pass through in one step and collapses the joint determination. A modeling caveat alongside grain-relativity (Probe 32). `probe_async.py` |
+| 63 | Bidirectionally-coupled regime (#16) | A two-way-coupled regime binds where the clock did not | **refuted** | A regime that switches the rule and is read into it does not join the core; the switching destabilizes the worker out (core {S,C}), as the outcome-tracking regime did in Probe 3. Temporal-tracking is not structural even with bidirectional coupling — the switch itself disrupts. `probe_lifted_regime.py` |
+
+**Wave 2 reading.** The verdict is an exact relabeling invariant (#59) but **relative to two modeling
+choices that must be stated**: the observation grain (#60, Probe 32) and the update schedule (#62,
+new). Sequential update collapses the triad, so the synchronous-update assumption is load-bearing.
+Temporal-tracking stays non-structural even when the regime is coupled both ways (#63), and structured
+noise as a static shared source does not move the verdict (#61), with true correlated output noise
+flagged as needing a state-by-state representation.
+
 ## Probes 49–53 — eighth batch (emergence, group agency, the integration claim)
 
 More literature/dissertation engagement. Standouts:

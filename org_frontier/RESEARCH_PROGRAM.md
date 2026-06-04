@@ -237,7 +237,7 @@ Update on each run: `pending → running → done` (or `blocked`). Probe numberi
 | Wave | Projects | Lane | Status |
 |---|---|---|---|
 | 1 | #44 #46 #47 #12 #13 | R | **done** (probes 54–58; #44 partial, #46/#47/#12 confirmed, #13 refuted) |
-| 2 | #6 #7 #9 #10 #16 | R | pending |
+| 2 | #6 #7 #9 #10 #16 | R | **done** (probes 59–63; #6/#7/#10 confirmed, #16 refuted, #9 modeling-limited) |
 | 3 | #14 #15 #33 #49 #48 | R | pending |
 | 4 | #25 #26 #27 #28 #29 | R | pending |
 | 5 | #30 #31 #32 #34 #35 | R | pending |
