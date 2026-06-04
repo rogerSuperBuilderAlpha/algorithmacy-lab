@@ -29,3 +29,6 @@ dissertation/paper3_baseline/results/simulated_orgs_run.log
 
 # org_frontier run logs (data is in the CSVs)
 org_frontier/**/results/*.log
+
+# dissertation: kept local, not tracked in this repo
+dissertation/
