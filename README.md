@@ -3,6 +3,11 @@
 Small, reproducible computational experiments in Integrated Information Theory,
 built on the [PyPhi](https://github.com/wmayner/pyphi) IIT‑4.0 implementation.
 
+> ⚠️ **Two repos live in this tree.** `dissertation/` is a *separate, private* git
+> repository (`algorithmacy-dissertation`) nested inside this one and gitignored
+> here. Where you run git from decides which remote you push to. **Read
+> [`REPO_LAYOUT.md`](REPO_LAYOUT.md) before committing or pushing.**
+
 **→ Start with [`SYNTHESIS.md`](SYNTHESIS.md)** for the connected story across all
 six experiments, or the short preprint‑style writeup in
 [`paper/manuscript.md`](paper/manuscript.md). In one line: *no single cheap number
