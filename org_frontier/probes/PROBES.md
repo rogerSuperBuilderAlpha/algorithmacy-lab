@@ -148,6 +148,23 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 72 | Sensemaking family (#28) | Internal-process sensemaking is dyadic | **confirmed** | All three internal-process forms are dyadic. A process inside the worker that interprets the system, with no third party jointly committed, is dyadic across the family — sensemaking is a worker-side construct, not algorithmacy (extends Probe 31). `probe_sensemaking.py` |
 | 73 | Multi-role agents (#29) | The two coordinations stay separate | **confirmed** | An agent who is worker on one platform and counterpart on another has a single triad as its major complex ({X,S1,C1}), not a merged five-element whole. Sharing one agent does not fuse two coordinations into one irreducible structure. `probe_multirole.py` |
 
+### Program Wave 5 — political economy (agenda #30, #31, #32, #34, #35)
+
+| 74 | Generic {S,P} core? (#30) | The platform-and-owner core is generic | **refuted (rare regime)** | Over the 16 principal-coupling forms, the core is {S,P} (both parties ejected) in only 1 (6%), at maximum coupling (S gates P, P reads all). The platform-and-owner core is a high-coupling regime, not the default. `probe_principal_regime.py` |
+| 75 | Control, exposure, value capture (#31) | Structure predicts who captures surplus | **partial** | A Φ-free leverage proxy (control = the commit's sensitivity to a party; exposure = the party's sensitivity to the commit) is computable. In balanced triads every party is "captured" (exposure 1.0 > control 0.25–0.5), including a symmetric principal — differential capture needs an asymmetric/extractive commit (see #35). `probe_value_capture.py` |
+| 76 | The regulator node (#32) | Effective oversight must join the core | **confirmed** | A read-only observer and a static veto stay out of the core; only a regulator that both vetoes the commit and responds to outcomes joins it. Toothless oversight (observe-only) is structurally outside the coordination it oversees — the acted-on/bidirectional principle for oversight. `probe_regulator.py` |
+| 77 | Observability asymmetry (#34) | The asymmetry is necessary for the triad | **partial** | The Φ-maximal triad sits at S-reads-both / no-direct-channel (Φ=2.0). But a symmetric direct W↔C channel only grades Φ down (2.0→0.83) without collapsing, and S-reads-one + a channel is triadic at Φ=1.0. The asymmetry maximizes integration but is not strictly necessary; reading only one party is dyadic. `probe_info_asymmetry.py` |
+| 78 | Fairness signature (#35) | Extractive commits carry a distinct signature | **confirmed** | A balanced commit keeps the parties in the core ({W,S,C}, P out); as the commit tilts toward the principal (P can force it) the parties are ejected and the core becomes {S,P}; a fully extractive commit (S follows P) leaves {S,P}. An extractive determination structurally excludes the parties from the irreducible coordination. `probe_fairness.py` |
+
+**Wave 5 reading.** A coherent political economy falls out. As a platform's determination tilts from
+balanced toward the owner (#78), the worker and counterpart lose their place in the irreducible core
+and it contracts to the platform-and-owner {S,P} — though that contraction is a specific extractive/
+high-coupling regime, not the generic case (#74). Oversight is structurally inside the coordination
+only when it both constrains and is fed by the commit (#76); a watchdog that only watches is a sink.
+The leverage proxy (#75) is computable but shows balanced triads expose everyone symmetrically, so
+differential value capture is a property of the *asymmetry* of the commit, the same axis #78 varies.
+Observability asymmetry (#77) maximizes the triad's Φ rather than being strictly necessary.
+
 **Wave 4 reading.** The dimensions and neighbors behave as the construct says, with one sharpening.
 The worker's model displaces the counterpart as its fidelity rises (#69), and recursive mentalizing
 binds only when acted on (#71) — the acted-on/bidirectional principle holds for inference too.
