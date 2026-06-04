@@ -88,7 +88,27 @@ interprets both parties and commits determinations neither controls" means, made
 | 46 | O-information (Rosas 2019) | Triadic = synergy-dominated | **H46 weak** | Means lean the right way (triadic O=−0.004, dyadic O=+0.012) but individual forms are mixed and near-zero — a dyadic back-channel form is strongly synergistic, a dyadic relay strongly redundant. O-information on the present-state joint does not cleanly separate the verdict. `probe_o_information.py` |
 | 47 | ΦID atoms on a coordination series (white-space) | Triadic = more persistent synergy | **H47 supported, directional** | First application of ΦID to a coordination series (a gap the dossier flags). Triadic forms carry more persistent synergy (mean sts −0.072 vs −0.009 for dyadic). Directionally clean; not a perfect separator (estimated-measure degradation, cf. proxy_bridge). `probe_phiid_social.py` |
 | 48 | Φ vs performance (Engel & Malone 2018) | Higher Φ → better coordination | **H48 null** | Spearman ρ(Φ, success-proxy) = +0.00; triadic and dyadic forms have identical mean success (0.50). Φ is orthogonal to the match-reaching proxy — being triadic is about the *kind* of coordination, not the *level* of success. Contrasts Engel-Malone's performance correlation; aligns with the dissertation (the triad demands a competency, it is not itself success) and with Probe 29. `probe_phi_performance.py` |
+| 49 | Causal emergence (Hoel / Klein) | Triadic = more emergence, higher EI | **H49 nuanced** | Triadic forms show MORE causal emergence (0.16 vs 0.04) but LOWER raw effective information (1.93 vs 2.33). Emergence leans triadic; EI does not — a non-trivial relationship, partly contrasting emergence_vs_phi's random-net orthogonality. `probe_emergence.py` |
+| 50 | Adversarial / anti-coordination | Irreducibility is valence-free | **H50 mostly confirmed** | Adversarial determinations (W⊕C, ¬(W∧C)) are triadic just like cooperative (W∧C); only the one-sided W∧¬C factors. Whether the parties' interests align does not bear on irreducibility — structure does. `probe_adversarial.py` |
+| 51 | Team's irreducible subset (Watson) | The core is a proper subset of the team | **H51 confirmed** | A homogeneous pool integrates over all members; a heterogeneous team (tight triad + peripherals) integrates only over its tight subset {W,S,C1} — the core is a proper subset of the roster, matching Watson's subset-Φ. `probe_team_core.py` |
+| 52 | Group vs members (List 2018) | Group Φ exceeds any member's | **H52 nuanced, refines List** | The 4-party pool's whole Φ (3.0) exceeds its best pair (2.0) — genuine group-level integration absent in the parts. But the 3-node triad's whole (2.0) equals its best pair (2.0) — no surplus. Group integration beyond members emerges at n≥4, not at the minimal triad. A precise answer to the List/Kramer debate. `probe_group_vs_members.py` |
+| 53 | Dimension composition (integration claim) | Both dimensions individually necessary | **H53 confirmed** | The worker is bound (in the core, triadic) only with BOTH inference (reads S) and translation (intent reaches S); removing either drops her out. The construct is the composition of its dimensions, not either alone — the dissertation's integration claim, structurally. `probe_dimension_composition.py` |
 
+## Probes 49–53 — eighth batch (emergence, group agency, the integration claim)
+
+More literature/dissertation engagement. Standouts:
+- **Probe 52 gives a precise answer to the group-agency debate (List 2018 / Kramer 2021):** group
+  integration that exceeds the members' emerges at n≥4 (the pool's Φ=3.0 > best pair 2.0), but not
+  at the minimal triad (whole=pair=2.0). Whether a group has integration its members lack is a
+  matter of size and binding, settled per-form by exact Φ.
+- **Probe 51** confirms a heterogeneous team integrates over its tight subset, not the whole roster
+  (Watson's subset-Φ picture).
+- **Probe 53** closes the construct-validity loop: the worker's binding requires both competency
+  dimensions (inference and translation), so the structural model reproduces the dissertation's core
+  claim that algorithmacy is the *integration* of its dimensions, individually necessary.
+- **Probe 49** is a non-trivial nuance: triadic forms show more causal emergence but lower raw
+  effective information — Φ, emergence, and EI are three different things, as the repo's
+  emergence_vs_phi already argued.
 ## Probes 44–48 — seventh batch (engaging the Φ-on-social-systems literature)
 
 Grounded in the sourced dossier (Niizato et al. 2020 fish schools; Rosas et al. 2019 O-information;
