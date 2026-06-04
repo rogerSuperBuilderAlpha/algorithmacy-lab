@@ -291,6 +291,21 @@ too, so an exact test needs the learned combination, not a single cut (#124). Th
 instrument follows: a coupling-based screen, trained on the topology it will face, read as a ranked
 likelihood rather than a definition.
 
+### Program v5 Wave Y1 — the holistic residual (M1, M2, M3)
+
+| 125 | Residual characterization (M1) | The misclassified wirings share a dynamical signature | **confirmed** | Under the connectivity rule (n_bidir==3 ⇒ triadic), the residual is 288 forms, all false positives — 3-bidirectionally coupled yet dyadic, with zero false negatives. So all-three coupling is necessary and not sufficient. The residual forms collapse fast to a fixed point (mean max-period 1.08 vs 2.32 for the rest) and are never invertible. There is a dynamical signature connectivity does not see. `probe_residual_characterization.py` |
+| 126 | Cheap-feature ceiling (M2) | No cheap panel reaches 100% | **confirmed** | A random forest on the full 10-feature panel (connectivity, synergy, global dynamics) reaches 95.2% 5-fold CV accuracy, short of perfect. Top features are n_bidir, strong connectivity, and reachable-set size. Even with dynamics added, the verdict is not defined by cheap features; about 5% stays irreducibly holistic, a property of the whole cause-effect structure (confirms #13, #106). `probe_residual_ceiling.py` |
+| 127 | Dynamics ablation (M3) | Global dynamics adds nothing beyond connectivity and synergy | **refuted (it helps)** | Decision-tree accuracy is 0.9297 for connectivity, 0.9297 with synergy added (no lift, matching #106), and 0.9590 with global dynamics added (+0.029). Attractor structure — reachability and period — carries part of the residual that the graph and the function tables miss, closing roughly half of the 7% gap. The rest remains beyond cheap features. `probe_dynamics_ablation.py` |
+
+**Wave Y1 reading.** The standing edge gives ground, partly. The residual is one-sided: every misclassified
+wiring is a false positive, three-way coupled yet dyadic, so bidirectional coupling is a clean necessary
+condition with no exceptions (#125). Those false-positive forms carry a dynamical tell — they collapse to a
+fixed point in one step and never run an invertible map — and feeding global-dynamics features to the
+classifier lifts accuracy by about three points where per-function synergy lifted nothing (#127). The win
+stops there. The full cheap panel tops out near 95% (#126), so dynamics closes about half the 7% and the
+rest stays holistic. The verdict's last few percent live in the whole cause-effect structure, reachable by
+the exact partition and by no summary of the graph, the functions, or the coarse dynamics.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty
