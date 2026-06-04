@@ -208,6 +208,22 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 108 | Resilience (D2) | Φ tracks recovery from perturbation | **partial (weak)** | Triadic forms take longer to recover from a flipped node (7.08 vs 5.17 steps) but rank-AUC is only 0.618 — a weak directional signal, not a clean tracker. Φ is closer to orthogonal here than to predictive; resilience leans the expected way but does not carry the verdict. `probe_resilience.py` |
 | 109 | Hysteresis (D3) | Rebinding an ejected party is path-dependent | **confirmed** | A sticky mediator produces a hysteresis loop in coordination as the engagement drive is ramped up then down (loop area 0.071); a memoryless mediator does not (0.005, up and down legs coincide). With memory, a coordination latches and stays alive as engagement falls, so re-including a party is not the mirror of dropping it — the dynamical face of Probe 43. `probe_hysteresis.py` |
 
+### Program v2 Wave V4 — political economy and instrument hardening (E1, E2, F1)
+
+| 110 | Ejection order (E1) | Parties drop in a fixed order as the commit tilts | **confirmed, nuanced** | Sweeping the principal's weight in a threshold commit (S=1 iff W+C+w_P·P ≥ 2): w_P=0 gives the balanced core {W,S,C}; w_P=1 (the 2-of-3 majority) factors entirely — no irreducible core, the majority-rule null of #10/#67; w_P≥2 gives the extractive {S,P}. The worker and counterpart drop together (symmetric, #55) and the principal enters, but the path passes through a factored regime rather than an all-four core. `probe_ejection_order.py` |
+| 111 | Regulator coalition (E2) | Two weak regulators jointly bind where one does not | **confirmed** | One observe-only regulator stays out (core {W,S,C}); a second observe-only regulator also stays out (still {W,S,C}); only when both regulators' approval gates the commit do they enter (core {W,S,C,R1,R2}, Φ=4.0). Number does not rescue observe-only oversight — a watchdog without a lever is a sink at any count; joint gating is the coalition analogue of veto+responsive (Probes 76, 66). `probe_regulator_coalition.py` |
+| 112 | Modeling-invariant verdict (F1) | An aggregate verdict is robust to grain and schedule | **confirmed (no invariant)** | Of 24 canonically-triadic forms, grain-1 synchronous keeps all 24; grain-2 keeps 0; sequential update keeps 0; an across-condition majority keeps 0. Coarse grain (#32) and sequential update (#62) both call triadic forms dyadic, so aggregating destroys the verdict. There is no modeling-free invariant — the verdict must be reported at the finest grain with synchronous update, and that convention declared. Robustness is a declaration, not a result. `probe_invariant_verdict.py` |
+
+**Wave V4 reading.** Two political-economy results sharpen Wave 5, and the instrument question resolves
+cleanly. The tilt from a balanced to an extractive commit is not a smooth slide: it passes through a
+factored regime at the 2-of-3 majority point before settling on the {S,P} extractive core, and the two
+parties leave together by role symmetry (#110). Oversight does not scale by count — observe-only
+regulators are sinks whether one or two; only joint gating binds them (#111), the coalition form of the
+veto+responsive condition. And the verdict has no modeling-free invariant: grain and update schedule each
+flip every triadic form to dyadic, so an aggregate vote calls them all dyadic (#112). The instrument is
+exact, but only relative to a stated grain and a synchronous schedule — that convention is part of the
+measurement, not a defect to average away.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty

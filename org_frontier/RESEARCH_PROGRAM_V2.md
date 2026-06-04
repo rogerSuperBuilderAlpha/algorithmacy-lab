@@ -102,7 +102,12 @@ Probe numbering continues from 98.
 | V1 | A1 A2 A3 A4 | R/X | **done** (probes 99–102; A1/A2 confirmed, A3 partial, A4 refuted-clean) |
 | V2 | B1 B2 B3 | X | **done** (probes 103–105; B2/B3 confirmed, B1 refuted — single all-required hub scales best) |
 | V3 | C1 D1 D2 D3 | R | **done** (probes 106–109; D3 confirmed, D2 weak-partial, C1/D1 refuted) |
-| V4 | E1 E2 F1 | R/X | pending |
+| V4 | E1 E2 F1 | R/X | **done** (probes 110–112; all confirmed; F1 = no invariant) |
+
+**Program v2 complete.** All four waves done — probes 99–112 close every project. The estimation
+surrogate transfers across scale (V1), the all-required commit is what scales a large triad (V2), the N&S
+residual is holistic and the verdict is not a behavioral-difficulty measure (V3), and the verdict has no
+modeling-free invariant — it is reported at the finest grain with synchronous update (V4).
 
 Definition of done (per project): a committed script, a result with exact numbers, and a log entry in
 `probes/PROBES.md` continuing the numbering. Stop rule: all Lane-R/X projects done.
