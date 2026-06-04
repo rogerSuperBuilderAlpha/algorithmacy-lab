@@ -13,9 +13,11 @@ human's call; this folder records what was prepared and what was actually submit
 
 ## Correspondence — status
 
-- [`niizato_note.md`](niizato_note.md) — **SENT 2026-06-03** to `t_niizato@yahoo.co.jp` (Takayuki
-  Niizato's published corresponding-author address). Shares the Φ-vs-MI/TE replication (probe 45) and
-  cites the fish-school work as the exact-Φ-on-collectives precedent.
+- [`niizato_note.md`](niizato_note.md) — **SENT 2026-06-03** to both co-corresponding authors of the
+  PLOS ONE 2020 paper: `t_niizato@yahoo.co.jp` (Takayuki Niizato) and `sakamoto@ccs.tsukuba.ac.jp`
+  (Kotaro Sakamoto, institutional — the fallback in case the Yahoo address is stale; salutation
+  adjusted and a note added that Niizato also received it). Shares the Φ-vs-MI/TE replication
+  (probe 45) and cites the fish-school work as the exact-Φ-on-collectives precedent.
 - **`pyphi-users` group post — SENT 2026-06-03** via Gmail to `pyphi-users@googlegroups.com` (subject
   "Using exact IIT-4.0 Φ as a structural classifier for small mediated systems"). NOTE: group
   membership was still pending at send time, so the message is most likely held in the list's
