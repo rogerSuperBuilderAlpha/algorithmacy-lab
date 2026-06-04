@@ -245,7 +245,11 @@ Update on each run: `pending → running → done` (or `blocked`). Probe numberi
 | 7 | #20 #21 #22 #23 #50 | R | **done** (probes 84–88; #20/#21/#50 confirmed-recovers, #22/#23 confirmed-null) |
 | 8 | #36 #37 #39 #2 #1 | X | **done** (probes 89–93; #36/#37/#2 confirmed, #39 partial, #1 refuted) |
 | 9 | #45 #4 #3 #11 #40 | X | **done** (probes 94–98; #4/#3 confirmed, #45/#11/#40 refuted-or-sharpening) |
-| 10 | #5 #8 #24 #41 #42 | T/D/H | pending (parked: document only) |
+| 10 | #5 #8 #24 #41 #42 | T/D/H | **done (designs written)** — `designs/WAVE10_PARKED_DESIGNS.md` |
+
+**Program complete.** All 10 waves are done. Probes 54–98 close every runnable (Lane-R/X) project; the
+five tooling-absent / data-needed / human-subjects projects are written as runnable designs in
+`designs/WAVE10_PARKED_DESIGNS.md`. The agenda's 50 projects are all either computed or designed.
 
 ## Conventions (carried from the lab)
 
