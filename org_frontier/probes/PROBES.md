@@ -195,6 +195,21 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 101 | Φ_AR failure mode (A3) | Φ_AR's misses are the parity / pure-higher-order forms | **partial** | The parity triadic forms (Φ=0.5) score lower under Φ_AR (mean 0.457, mean rank 41.5) than the conjunctive triadic forms (0.655, rank 10.8) but still above dyadic (0.136, rank 138.5). The linear-AR proxy partly sees the synergistic forms, so they are a partial blind spot, not a total one. `probe_phi_ar_failure.py` |
 | 102 | Exact cheap-CES predicate (A4) | A single CES count is an exact verdict equivalent | **refuted (clean residual)** | No single-count threshold gives zero error. The best predicates (n_distinctions ≥ 3, frac_higher_order > 0, max_order ≥ 2) each have 8 errors, all false negatives, all on the same 8 parity / pure-higher-order forms (#56); no predicate ever produces a false positive. CES counts rank the verdict but do not define it — the parity forms have minimal cause-effect structure despite being triadic. `probe_ces_predicate.py` |
 
+### Program v2 Wave V2 — topology and scaling (B1, B2, B3)
+
+| 103 | Distributed vs single mediation at scale (B1) | Two linked mediators sustain a larger core than one hub | **refuted** | At n=6 and n=7 the single all-required hub holds the whole group in one core (Φ=5 core 6 at n=6; Φ=6 core 7 at n=7); the two-hub form keeps a smaller core (4, then 5) at lower Φ (3, 4) — one party-group drops out. Distributing the mediation fragments the coordination rather than scaling it. What scales a large irreducible group is one all-demanding commit, not splitting the mediator. `probe_distributed_mediators.py` |
+| 104 | Topology map (B2) | Topology classes differ in whether and how fast Φ grows | **confirmed** | At n=4→5, all four conjunctive topologies stay triadic but scale Φ differently: chain flat at 2.0 (fixed bottleneck, matches #57), single-hub and two-hub +1.0 per added member, all-to-all pool 12→20 (+8.0). Topology, not size, sets the scaling rate — serial mediation keeps one bottleneck while all-to-all coupling compounds. `probe_topology_map.py` |
+| 105 | Lean triad at n=6 (B3) | A lean triadic n=6 form exists despite 0/300 random | **confirmed** | The conjunctive single-hub form is triadic at every size with the full node set as its core and Φ = n−1: n=4 Φ=3, n=5 Φ=4, n=6 Φ=5, each at the 2(n−1) edge floor. Probe 97's 0/300 means triadic n=6 forms are vanishingly rare under random function fills, not absent — the all-required commit is the surviving triadic structure at scale. `probe_lean_n6.py` |
+
+**Wave V2 reading.** The all-required commit is what scales. A single conjunctive hub stays triadic with
+the full group in its core and Φ = n−1 at every size from n=4 to n=7 (#105), so the n=6 collapse Probe 97
+found was about random commits, not the structure itself. Splitting the mediation across two hubs does
+not help — it shrinks the core and drops a party-group (#103). The growth rate is set by topology: a
+serial chain keeps one fixed bottleneck (Φ=2.0), hub topologies grow Φ linearly, all-to-all coupling
+compounds it (#104). The org-design reading is blunt. A large group is held in one irreducible
+coordination by a commit that genuinely requires everyone, not by modularizing the mediator; modular
+mediation buys separability at the cost of wholeness.
+
 **Wave V1 reading.** The estimation frontier resolves into one payoff and one obstacle. The payoff: the
 cheap surrogate generalizes. A random forest over eight size-invariant features, trained only on n=3,
 ranks the verdict at n=4 (AUC 0.98) and n=5, so the dyadic/triadic call is estimable at scales the exact
