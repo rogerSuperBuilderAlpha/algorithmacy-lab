@@ -188,6 +188,23 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 97 | Triadic rate past n=5 (#11) | The rate floors at a small positive value | **refuted (vanishes)** | The strict-mediation triadic rate falls 9.4% (n=3) → 2.4% (n=4) → 0.67% (n=5) → 0/300 ≈ 0% (n=6). It does not floor at a positive rate; irreducible coordination through a single mediator effectively disappears as the group grows. A single mediator cannot sustain triadicity at scale. `probe_scale_n6.py` |
 | 98 | Agent-based difficulty (#40) | The verdict tracks independent-learner coordination difficulty | **refuted** | Two independent Q-learning bandits coordinating to hit each form's commit show no verdict signal: triadic mean difficulty 68.4 vs dyadic 76.8, rank-AUC 0.567. Coordination hardness for selfish learners and irreducibility of the form are different things — the structural verdict is not a behavioral-difficulty measure. `probe_abm_difficulty.py` |
 
+### Program v2 Wave V1 — the estimation frontier (A1, A2, A3, A4)
+
+| 99 | Surrogate transfer across scale (A1) | A cheap model trained on n=3 predicts the verdict at larger n | **confirmed** | Eight size-invariant aggregate features (mean/min/max over nodes and pairs of entropy, MI, TE, plus full-joint O-information), random forest trained on the 256 n=3 forms (CV-AUC 1.000), transfers to n=4 at AUC 0.984 (10 triadic in 400) and n=5 at 0.983 (2 triadic — noisy). A surrogate fit on cheap small forms ranks the verdict at sizes where exact Φ is costly. `probe_surrogate_transfer.py` |
+| 100 | Minimal feature set (A2) | Two or three features carry the perfect recovery | **confirmed (one feature)** | Greedy forward selection reaches CV-AUC 1.000 with a single feature — one party's marginal entropy H[C] (H[W] equivalent by the role-symmetry automorphism #55). The verdict's cheap fingerprint on the corpus is essentially party liveness; single-feature rank-AUC was 0.81 (the RF uses a non-monotone band). Corpus-specific to strict mediation; the aggregate features transfer (#99). `probe_minimal_features.py` |
+| 101 | Φ_AR failure mode (A3) | Φ_AR's misses are the parity / pure-higher-order forms | **partial** | The parity triadic forms (Φ=0.5) score lower under Φ_AR (mean 0.457, mean rank 41.5) than the conjunctive triadic forms (0.655, rank 10.8) but still above dyadic (0.136, rank 138.5). The linear-AR proxy partly sees the synergistic forms, so they are a partial blind spot, not a total one. `probe_phi_ar_failure.py` |
+| 102 | Exact cheap-CES predicate (A4) | A single CES count is an exact verdict equivalent | **refuted (clean residual)** | No single-count threshold gives zero error. The best predicates (n_distinctions ≥ 3, frac_higher_order > 0, max_order ≥ 2) each have 8 errors, all false negatives, all on the same 8 parity / pure-higher-order forms (#56); no predicate ever produces a false positive. CES counts rank the verdict but do not define it — the parity forms have minimal cause-effect structure despite being triadic. `probe_ces_predicate.py` |
+
+**Wave V1 reading.** The estimation frontier resolves into one payoff and one obstacle. The payoff: the
+cheap surrogate generalizes. A random forest over eight size-invariant features, trained only on n=3,
+ranks the verdict at n=4 (AUC 0.98) and n=5, so the dyadic/triadic call is estimable at scales the exact
+computation cannot reach (#99), and the fingerprint is small — a single party-liveness feature suffices
+on the corpus (#100). The obstacle: the 8 parity / pure-higher-order determinations (#56) are the
+universal hard case. Φ_AR under-ranks them (#101) and every cheap CES predicate misses exactly them
+(#102), never producing a false positive. Cheap measures fail in one direction only — they miss
+synergistic binding that exists solely in the whole, the same forms the exact partition was built to
+catch.
+
 **Wave 9 reading.** Triadic coordination through a single mediator is rare, lean, and shrinking with
 size. The rate falls from 9.4% at n=3 to effectively zero by n=6 (#97), and wherever triadic forms do
 exist they sit exactly at the 2(n−1) edge floor — six edges at n=4, eight at n=5 (#95, #96). Two

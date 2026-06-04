@@ -99,7 +99,7 @@ Probe numbering continues from 98.
 
 | Wave | Projects | Lane | Status |
 |------|----------|------|--------|
-| V1 | A1 A2 A3 A4 | R/X | pending |
+| V1 | A1 A2 A3 A4 | R/X | **done** (probes 99–102; A1/A2 confirmed, A3 partial, A4 refuted-clean) |
 | V2 | B1 B2 B3 | X | pending |
 | V3 | C1 D1 D2 D3 | R | pending |
 | V4 | E1 E2 F1 | R/X | pending |
