@@ -1,36 +1,60 @@
 # Writing style (applies to all prose in this repo)
 
 Write like Thomas Nagel in "What Is It Like to Be a Bat?": plain, blunt, concrete. The
-difficulty belongs in the ideas, not the sentences. Do not perform rigor; state it.
+difficulty belongs in the ideas, not the sentences. State a claim; do not perform the act of
+stating it.
 
-Do not match the existing mannered house style of the drafts. Follow these rules instead.
+The drafts have a recognizable machine cadence. Three constructions produce most of it, and
+they are the priority. Cut them on sight.
+
+## The three priority tics
+
+**1. The antithesis machine.** The drafts define almost everything by what it is not, then
+pivot. This is the dominant sentence engine and it must be cut by roughly two-thirds. The
+forms it takes:
+- `, not X` — "a property of the coding, not a discovery that a market and a platform are alike."
+- `X rather than Y` — "reports what the model yields rather than asserting it."
+- `It is not X. It is Y.` — "It is not, and the instrument is needed because it is not."
+- `is not a / the / an …` — "This is not a thought experiment. It is the documented structure."
+
+Default to stating the positive claim alone. Use a contrast only when the wrong alternative
+is one a reader would actually reach for, and then at most once per paragraph. If a paragraph
+has two of these, one is decoration — delete it.
+
+**2. Self-narrating honesty and rigor.** The prose constantly announces its own care instead
+of being careful. Cut every instance. Offenders seen in the drafts: "stated plainly," "said
+plainly," "the blunt version belongs here," "not waved past," "names its load-bearing
+decisions rather than hiding them," "one honest qualifier belongs here," "stating it honestly
+matters more than stating it strongly," "the status is stated plainly," "and the dissertation
+says so," "precision about what it can say marks the boundary." State the limitation. Do not
+narrate the virtue of stating it.
+
+**3. The mechanized punchy opener.** A short blunt opener is good once; as the shape of nearly
+every paragraph it becomes a metronome ("The level is wrong." "Cost is not an issue." "The
+exhibit is not a one-off."). Vary how paragraphs begin. Let some open on the long sentence
+that carries the idea.
 
 ## Rules
-1. Open each section or paragraph with a short, blunt claim.
-2. Use plain, ordinary words. Prefer concrete examples to abstract nouns.
-3. Write declarative sentences: subject, verb, object. Vary length, but keep long sentences
-   clear by coordinating clauses, not by stacking subordinate clauses before the verb.
-4. **No first person. No "I" and no "we."** Make the subject the paper, the model, the
-   section, or the thing itself, and use an active verb: "Paper 2 shows," "The model
-   classifies," "This section argues."
-5. Build contrast by repeating a frame, not by ornament. Write "Without consciousness the
-   problem is dull. With it the problem is hopeless," not "not X but Y."
-6. Dashes are rare and purposeful: at most one em-dash per paragraph, often none. No
-   semicolon splices.
-7. No meta-commentary about the writing's own honesty, care, or rigor. Cut "we want to be
-   exact," "the honest reader will ask," "it is worth holding still for," "and saying so is
-   what makes it defensible."
-8. State uncertainty plainly: "this is not yet shown," "the result is unclear."
-9. One idea per sentence where possible.
+1. **No first person.** No "I," no "we." The subject is the paper, the model, the section, or
+   the thing itself, with an active verb: "Paper 2 shows," "The model classifies."
+2. Plain, ordinary words. Concrete examples over abstract nouns.
+3. Declarative sentences: subject, verb, object. Vary length. Keep long sentences clear by
+   coordinating clauses, not by stacking subordinate clauses ahead of the verb. No periodic
+   sentences that defer the verb behind several clauses.
+4. Say each point once, in the place it belongs. Do not restate a conclusion in near-identical
+   words across sections. The "seat-blind / property of the coding" point, the "program the
+   dissertation opens," and the limitation recaps are the repeat offenders: one clean statement
+   each, then refer back, do not re-argue.
+5. Em-dashes rare: at most one per paragraph, usually none. No em-dash pile-ups. No semicolon
+   splices.
+6. State uncertainty flatly: "this is not yet shown," "the result is unclear."
+7. Rhetorical triads ("a name, a procedure, and a placement"; "name, formalize, grade") only
+   when each member carries distinct content. Not for cadence.
+8. One idea per sentence where possible.
 
-## Banned tics
-- Em-dash pile-ups (two or three per sentence).
-- "not X, but Y" as decoration.
-- Periodic sentences that defer the verb behind several clauses.
-- Openers: "We want to," "The honest reader," "It is worth," "Crucially," "Precisely,"
-  "Importantly."
-- Self-referential hedging that re-explains a point already made.
-- Rhetorical triads used for cadence ("name, formalize, test") unless they carry real content.
+## Banned openers
+"We want to," "The honest reader," "It is worth," "Crucially," "Precisely," "Importantly,"
+"Note that," "Stated plainly," "To be clear."
 
 ## Before / after
 - Mannered: "Reaching into another discipline for a formal model is not a novelty in
@@ -41,9 +65,13 @@ Do not match the existing mannered house style of the drafts. Follow these rules
   theory. Integrated information is the next thing it borrows, and this paper claims its
   place in that line."
 
-## Self-check
-Before showing any prose, scan it against the banned-tics list and fix violations. Flag any
-that remain.
+## Self-check (run before showing prose)
+Scan the new prose and count, per ~1,000 words:
+- `, not` + ` rather than ` + `is not a/the/an` + `It is not/does not` → target well under 5
+  combined (the drafts ran ~7). If a paragraph has more than one, cut to one.
+- Self-honesty phrases (list above) → target zero.
+- Paragraphs opening with a fragment under six words → at most one in three.
+Fix violations before showing. Flag any you deliberately kept and why.
 
 ---
 
