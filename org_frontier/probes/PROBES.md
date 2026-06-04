@@ -94,6 +94,21 @@ interprets both parties and commits determinations neither controls" means, made
 | 52 | Group vs members (List 2018) | Group Φ exceeds any member's | **H52 nuanced, refines List** | The 4-party pool's whole Φ (3.0) exceeds its best pair (2.0) — genuine group-level integration absent in the parts. But the 3-node triad's whole (2.0) equals its best pair (2.0) — no surplus. Group integration beyond members emerges at n≥4, not at the minimal triad. A precise answer to the List/Kramer debate. `probe_group_vs_members.py` |
 | 53 | Dimension composition (integration claim) | Both dimensions individually necessary | **H53 confirmed** | The worker is bound (in the core, triadic) only with BOTH inference (reads S) and translation (intent reaches S); removing either drops her out. The construct is the composition of its dimensions, not either alone — the dissertation's integration claim, structurally. `probe_dimension_composition.py` |
 
+### Program Wave 1 — formal core (agenda #44, #46, #47, #12, #13)
+
+| 54 | Φ-free structural test (#44) | A graph predicate matches the verdict | **partial** | A connectivity predicate (S reads W and C; W and C read S) is NECESSARY (0 false negatives) but over-predicts (16 false positives), accuracy 0.938 over 256 forms. A purely connectivity-based Φ-free test is impossible; the function-level liveness Φ captures needs a pivotality term. `probe_phi_free_test.py` |
+| 55 | Role-symmetry automorphism (#46) | W↔C swap preserves the verdict exactly | **confirmed** | 0/256 verdict flips and max |Φ−Φ_swapped| = 0.000000. Worker↔counterpart relabeling is an exact automorphism of the verdict, confirming Probe 22's behavioral symmetry as a structural identity. `probe_role_symmetry.py` |
+| 56 | Pure higher-order binding (#47) | A triadic form can have no irreducible proper subset | **confirmed** | 8 of 24 triadic family forms are purely higher-order: whole Φ=0.5 with best-proper-subset Φ=0.0. These are the parity determinations — irreducibility appears only at the whole, with no lower-order seed. The 16 conjunctive forms are seeded (a pair already has Φ=2.0). `probe_pure_higher_order.py` |
+| 57 | Mediator-chain invariance (#12) | Φ=2.0 at every chain depth, balanced MIP | **confirmed** | Chains k=1..4 (n=3..6) are all triadic with Φ exactly 2.0, the MIP a balanced two-part cut near the middle. Depth adds intermediaries but not integration; the chain has one irreducible bottleneck that lengthening neither factors nor raises. `probe_chain_theorem.py` |
+| 58 | Tree (branching) mediation (#13) | Branching dilutes like breadth | **refuted** | Tree-mediation forms (a root joining two branch mediators) are triadic at Φ=2.0, like chains, not dyadic like breadth. Branching mediation PRESERVES the triad. What dilutes irreducibility is added *parties* with substitutability, not added mediator structure. `probe_trees.py` |
+
+**Wave 1 reading.** Two formal results land: role-symmetry is an exact automorphism (#55), and pure
+higher-order forms exist (#56) — the parity determinations bind synergistically with no irreducible
+subset, the structural seed of the group-beyond-members result (Probe 52). #44 sharpens the
+Φ-free-test question: connectivity is necessary but not sufficient, so an exact cheap test must encode
+pivotality, not just edges. #58 refines the breadth/depth picture: mediator branching preserves the
+triad (like depth); only substitutable parties dilute it.
+
 ## Probes 49–53 — eighth batch (emergence, group agency, the integration claim)
 
 More literature/dissertation engagement. Standouts:
