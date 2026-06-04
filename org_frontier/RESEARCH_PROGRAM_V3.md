@@ -48,6 +48,12 @@ The three edges:
 | Wave | Projects | Lane | Status |
 |------|----------|------|--------|
 | W1 | G1 G2 G3 | R | **done** (probes 113–115; all confirmed — blind spot = XOR family, caught by MI[W;C], scales as Φ=2^(2−n)) |
-| W2 | H1 H2 H3 | X | pending |
+| W2 | H1 H2 H3 | X | **done** (probes 116–118; all confirmed — Φ=n−1 law, extremes-only, symmetric multi-hub revises #103) |
+
+**Program v3 complete.** Probes 113–118 close both waves. The parity blind spot is the XOR family,
+caught by party coupling and scaling as Φ = 2^(2−n) (W1). The all-required commit is a Φ = n−1 scaling
+law that holds only at the extreme thresholds, and symmetric distributed mediation raises integration
+above a single hub — correcting the #103 fragmentation reading (W2). The holistic 7% residual (#106, #13)
+remains the open edge for a future round.
 
 Stop rule: all Lane-R/X projects done. Probe numbering continues from 112.

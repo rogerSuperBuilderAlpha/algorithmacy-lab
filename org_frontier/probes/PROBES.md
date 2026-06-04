@@ -197,7 +197,7 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 
 ### Program v2 Wave V2 — topology and scaling (B1, B2, B3)
 
-| 103 | Distributed vs single mediation at scale (B1) | Two linked mediators sustain a larger core than one hub | **refuted** | At n=6 and n=7 the single all-required hub holds the whole group in one core (Φ=5 core 6 at n=6; Φ=6 core 7 at n=7); the two-hub form keeps a smaller core (4, then 5) at lower Φ (3, 4) — one party-group drops out. Distributing the mediation fragments the coordination rather than scaling it. What scales a large irreducible group is one all-demanding commit, not splitting the mediator. `probe_distributed_mediators.py` |
+| 103 | Distributed vs single mediation at scale (B1) | Two linked mediators sustain a larger core than one hub | **refuted** | At n=6 and n=7 the single all-required hub holds the whole group in one core (Φ=5 core 6 at n=6; Φ=6 core 7 at n=7); the two-hub form keeps a smaller core (4, then 5) at lower Φ (3, 4) — one party-group drops out. Distributing the mediation fragments the coordination rather than scaling it. What scales a large irreducible group is one all-demanding commit, not splitting the mediator. **(Revised by #118: this fragmentation is an artifact of the asymmetric build; a symmetric two-hub keeps the full core at higher Φ.)** `probe_distributed_mediators.py` |
 | 104 | Topology map (B2) | Topology classes differ in whether and how fast Φ grows | **confirmed** | At n=4→5, all four conjunctive topologies stay triadic but scale Φ differently: chain flat at 2.0 (fixed bottleneck, matches #57), single-hub and two-hub +1.0 per added member, all-to-all pool 12→20 (+8.0). Topology, not size, sets the scaling rate — serial mediation keeps one bottleneck while all-to-all coupling compounds. `probe_topology_map.py` |
 | 105 | Lean triad at n=6 (B3) | A lean triadic n=6 form exists despite 0/300 random | **confirmed** | The conjunctive single-hub form is triadic at every size with the full node set as its core and Φ = n−1: n=4 Φ=3, n=5 Φ=4, n=6 Φ=5, each at the 2(n−1) edge floor. Probe 97's 0/300 means triadic n=6 forms are vanishingly rare under random function fills, not absent — the all-required commit is the surviving triadic structure at scale. `probe_lean_n6.py` |
 
@@ -240,6 +240,23 @@ find (#115). Two commit families both hold the whole group in one irreducible co
 opposite directions. The conjunctive hub grows stronger with size at Φ = n−1; the parity hub fades at
 Φ = 2^(2−n), irreducible at every size and ever closer to nothing. Binding everyone through a shared
 all-or-nothing demand compounds; binding everyone through a parity check thins out as the group grows.
+
+### Program v3 Wave W2 — the all-required scaling law (H1, H2, H3)
+
+| 116 | The conjunctive law (H1) | Φ = n−1 holds and OR scales like AND | **confirmed** | The AND-all hub holds the full node set as its core with Φ = n−1 at n=4,5,6,7 (Φ = 3,4,5,6); the OR-all hub matches exactly at n=4,5,6. The law is verified across four sizes (n=8 exact SIA does not finish in reasonable time, so the check stops at n=7). An all-required commit binds every member into one irreducible whole whose Φ grows one bit per added member. `probe_conjunctive_law.py` |
+| 117 | Threshold commits (H2) | Only extreme thresholds keep the full core | **confirmed** | Across the k-of-n threshold commits at n=4 and n=5, the full core survives only at the extremes: OR (k=1) and AND (k=all), both at Φ = n−1. Every intermediate threshold (2-of-3, 2-of-4, 3-of-4) factors to a dyadic verdict with no irreducible core. Whole-group irreducibility needs an all-or-nothing commit; a genuine threshold leaves no member pivotal enough to stay bound (extends #10, #67). `probe_threshold_scaling.py` |
+| 118 | Symmetric vs asymmetric multi-hub (H3) | The two-hub fragmentation was an asymmetry artifact | **confirmed (revises #103)** | A symmetric two-hub (both hubs read all parties and each other; each party reads both hubs) holds the full core at higher Φ than the single hub: Φ=8 vs 5 at n=6, Φ=10 vs 6 at n=7. The asymmetric two-hub of #103 dropped a party-group (core 4, 5). Distributed mediation scales integration above a single hub when symmetric; the earlier fragmentation came from the asymmetric build, where one group reached the rest through a longer path. `probe_symmetric_multihub.py` |
+
+**Wave W2 reading.** The all-required commit is a scaling law with one strict condition, and distributed
+mediation is rehabilitated. Φ = n−1 holds for the AND-all hub across every size checked, and OR-all
+matches it (#116), so an all-or-nothing commit binds the whole group into one irreducible core whose
+integration grows a bit per member. The condition is sharp: only the two extreme thresholds keep the full
+core, and every majority-style threshold in between factors the group apart (#117). The Wave V2 reading
+that splitting mediation fragments the coordination held only for the asymmetric build. A symmetric
+two-hub keeps the full core at Φ above the single hub (#118), so multiple mediators integrate a large
+group more when each sees everyone. The org-design picture sharpens accordingly: hold a whole group
+together with an all-or-nothing demand, and add symmetric mediators to raise integration rather than to
+shed it.
 
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
