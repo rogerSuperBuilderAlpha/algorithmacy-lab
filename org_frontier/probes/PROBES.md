@@ -275,6 +275,22 @@ where it matters. The controls organizations actually run — dual authorization
 conjunctive and scale robustly; the parity structures that fade are the exotic ones, allocate-to-one and
 require-agreement (#121). The fragile family is rare in practice, and the robust family is the default.
 
+### Program v4 Wave X2 — the cheap instrument, hardened (K1, K2, K3)
+
+| 122 | Single coupling feature transfers (K1) | Mean pairwise MI transfers across size | **confirmed** | Mean pairwise mutual information alone ranks the verdict at AUC 0.942 at n=3, 0.947 at n=4, and 0.962 at n=5 (n=5 has one triadic, so its number is noisy). The cheap instrument reduces to one quantity — the mutual information between coordinating parties — and it carries across sizes the exact computation cannot reach, close to the eight-feature surrogate (#99). `probe_coupling_transfer.py` |
+| 123 | Out-of-distribution generalization (K2) | The surrogate generalizes to new topology families | **refuted** | The n=3 strict-mediation surrogate scores 8/20 (40%) on families it never trained on. Hub-shaped forms that resemble the training family pass (single-hub, OR-hub); chains, pools, and multi-hub forms fail. The transfer of #99 holds across size within a topology family, and it does not hold across topology. The instrument must be trained on the structural class it is applied to. `probe_ood_surrogate.py` |
+| 124 | Hybrid exact predicate (K3) | CES-or-coupling is an exact cheap test | **refuted** | The CES higher-order flag misses the 8 parity forms (fp=0, fn=8); adding an MI[W;C] threshold lowers nothing to zero — dyadic back-channel forms (#45, #46) carry high party coupling, so a hard MI cut false-positives them. MI ranks the verdict well (#122) yet does not separate it cleanly, so only a learned combination is exact (#85). The verdict resists an exact cheap definition (reaffirms #13, #106). `probe_hybrid_predicate.py` |
+
+**Wave X2 reading.** The cheap instrument is powerful and bounded, and the boundary is now drawn. Within
+the strict-mediation family it collapses to one number: mean pairwise mutual information ranks the verdict
+at AUC ~0.95 and transfers across size (#122). Two limits hold it in. It does not transfer across topology
+— a surrogate trained on strict mediation scores at chance on chains, pools, and multi-hub forms (#123),
+so the instrument is family-specific and must be trained on the structural class it will read. And no hard
+cheap threshold defines the verdict: coupling ranks it but dyadic back-channel forms carry high coupling
+too, so an exact test needs the learned combination, not a single cut (#124). The practical shape of the
+instrument follows: a coupling-based screen, trained on the topology it will face, read as a ranked
+likelihood rather than a definition.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty

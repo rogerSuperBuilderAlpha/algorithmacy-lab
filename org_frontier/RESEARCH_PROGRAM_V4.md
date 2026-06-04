@@ -45,6 +45,12 @@ The freshest results, and the questions they raise:
 | Wave | Projects | Lane | Status |
 |------|----------|------|--------|
 | X1 | J1 J3 L1 | R/X | **done** (probes 119–121; all confirmed — Φ rises with hubs toward the pool, parity dissolves at n=22, everyday controls are conjunctive) |
-| X2 | K1 K2 K3 | R/X | pending |
+| X2 | K1 K2 K3 | R/X | **done** (probes 122–124; K1 confirmed, K2/K3 refuted — instrument is family-specific and a screen, not exact) |
+
+**Program v4 complete.** Probes 119–124 close both waves. The scaling laws gained a geometry (Φ rises
+with symmetric mediators toward the pool; parity dissolves near n=22) and a real-world reading (everyday
+controls are conjunctive, parity is exotic). The cheap instrument reduces to party coupling and transfers
+across size, but not across topology, and no hard threshold makes it exact — it is a family-specific
+ranked screen. The logbook stands at 124 probes.
 
 Stop rule: all Lane-R/X projects done. Probe numbering continues from 118.
