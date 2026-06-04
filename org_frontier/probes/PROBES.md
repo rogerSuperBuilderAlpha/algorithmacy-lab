@@ -140,6 +140,22 @@ substitutability law predicts. Structurally, #65 maps the group-surplus onset to
 solidarity beats the principal at every coalition size, and #64 confirms the core is a connectivity
 *superset* but not graph-predictable (the holistic residual again).
 
+### Program Wave 4 — dimensions & neighbors (agenda #25, #26, #27, #28, #29)
+
+| 69 | Model fidelity vs displacement (#25) | A better model displaces the counterpart more | **confirmed** | With the worker acting on its model (W'=S∧M), the counterpart stays in the core at dead/static/lagged fidelity but is displaced at FULL fidelity (M'=S → core {W,S,M}, C out). Displacement strengthens with model fidelity (extends Probes 4/9). `probe_model_fidelity.py` |
+| 70 | AI-MC boundary by timescale (#26) | A timescale criterion recovers the AI-MC distinction | **refuted, clarifying** | Absorbing the AI into the worker does NOT flip the Φ verdict: the 2-element W–C loop is still irreducible (Φ=2.0). The discriminator is the major-complex ELEMENT COUNT (2 vs 3), not Φ>0. "Triadic" in the construct must mean an irreducible complex with a genuine third party — sharpening Probe 20: AI-MC vs algorithmacy is a counting/boundary question the scalar verdict cannot settle. `probe_aimc_boundary.py` |
+| 71 | Second-order theory of mind (#27) | A used second model joins the core | **confirmed** | The second-order model M2 stays a sink when unused (core {W,S,M1}, M2 out); it joins the core only when the worker acts on it (W reads M2 → core all five). Recursive mentalizing is structural only when used, else a worker burden — the acted-on/bidirectional principle again. `probe_second_order_tom.py` |
+| 72 | Sensemaking family (#28) | Internal-process sensemaking is dyadic | **confirmed** | All three internal-process forms are dyadic. A process inside the worker that interprets the system, with no third party jointly committed, is dyadic across the family — sensemaking is a worker-side construct, not algorithmacy (extends Probe 31). `probe_sensemaking.py` |
+| 73 | Multi-role agents (#29) | The two coordinations stay separate | **confirmed** | An agent who is worker on one platform and counterpart on another has a single triad as its major complex ({X,S1,C1}), not a merged five-element whole. Sharing one agent does not fuse two coordinations into one irreducible structure. `probe_multirole.py` |
+
+**Wave 4 reading.** The dimensions and neighbors behave as the construct says, with one sharpening.
+The worker's model displaces the counterpart as its fidelity rises (#69), and recursive mentalizing
+binds only when acted on (#71) — the acted-on/bidirectional principle holds for inference too.
+Sensemaking is dyadic across a family (#72), and one agent in two platforms keeps the two cores
+separate (#73). The sharpening is #70: the scalar Φ>0 verdict conflates 2-party and 3-party
+irreducibility, so the AI-MC/algorithmacy boundary is read on the major-complex *element count*, not
+the verdict — which is exactly why Probe 20 found it a unit-of-analysis choice.
+
 ## Probes 49–53 — eighth batch (emergence, group agency, the integration claim)
 
 More literature/dissertation engagement. Standouts:
