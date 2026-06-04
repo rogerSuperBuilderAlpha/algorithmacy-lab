@@ -34,6 +34,11 @@ the rest. This round attacks the residual directly and follows two surprises fro
 | Wave | Projects | Lane | Status |
 |------|----------|------|--------|
 | Y1 | M1 M2 M3 | R/X | **done** (probes 125–127; residual all-FP, dynamics closes ~half, ~5% stays holistic) |
-| Y2 | N1 N2 | X | pending |
+| Y2 | N1 N2 | X | **done** (probes 128–129; N1 confirmed center-periphery, N2 partial — diverse training helps but stays family-bound) |
+
+**Program v5 complete.** Probes 125–129 close both waves. The holistic residual is one-sided (all false
+positives, coupling necessary not sufficient); global dynamics closes about half of it and ~5% stays
+irreducibly holistic (Y1). The multi-hub non-monotone core is a center-periphery effect, and diverse
+training only partly broadens the cheap surrogate's topology reach (Y2). The logbook stands at 129 probes.
 
 Stop rule: all Lane-R/X projects done. Probe numbering continues from 124.

@@ -306,6 +306,20 @@ stops there. The full cheap panel tops out near 95% (#126), so dynamics closes a
 rest stays holistic. The verdict's last few percent live in the whole cause-effect structure, reachable by
 the exact partition and by no summary of the graph, the functions, or the coarse dynamics.
 
+### Program v5 Wave Y2 — following v4's surprises (N1, N2)
+
+| 128 | Intermediate-hub drop (N1) | The dropped members are the peripheral parties | **confirmed** | At the intermediate hub counts where the core is not full (#119), every hub stays in the core and the parties drop: n=6 m=3 gives core {H0,H1,H2,P2} with P0,P1 out; n=6 m=4 gives the four hubs plus one party. The hub cluster carries the integration once it is large enough and the peripheral parties lose their pivotal hold — a center-periphery effect, which explains why the core refills only at the symmetric extremes. `probe_intermediate_hub.py` |
+| 129 | Mixed-topology surrogate (N2) | Diverse training fixes the family-specificity | **partial** | Training on strict mediation plus random arbitrary wirings lifts held-out archetype accuracy from 45% to 60%, but both sit below the 85% majority-triadic baseline. Mixing topologies broadens the signal without reaching cross-topology generalization; the cheap features carry a family-specific verdict signal that diverse data only partly widens. The screen stays family-bound (tempers, does not overturn, #123). `probe_mixed_topology_surrogate.py` |
+
+**Wave Y2 reading.** Two v4 surprises resolve, one cleanly and one only partway. The non-monotone core of
+the multi-hub law is a center-periphery effect: at intermediate mediator counts the hubs hold the core and
+the parties fall out, so full membership returns only when the structure is symmetric at either extreme
+(#128). The family-specificity of the cheap surrogate is softer than #123 made it look but not gone.
+Feeding the surrogate random arbitrary wirings alongside strict mediation raises its accuracy on unseen
+topology archetypes from 45% to 60%, yet both trail a trivial majority guess (#129). Diverse training
+widens the signal; it does not make the cheap features carry a topology-general verdict. The screen
+remains something to train on the structural class it will read.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty
