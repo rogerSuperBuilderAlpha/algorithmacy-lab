@@ -101,7 +101,7 @@ Probe numbering continues from 98.
 |------|----------|------|--------|
 | V1 | A1 A2 A3 A4 | R/X | **done** (probes 99–102; A1/A2 confirmed, A3 partial, A4 refuted-clean) |
 | V2 | B1 B2 B3 | X | **done** (probes 103–105; B2/B3 confirmed, B1 refuted — single all-required hub scales best) |
-| V3 | C1 D1 D2 D3 | R | pending |
+| V3 | C1 D1 D2 D3 | R | **done** (probes 106–109; D3 confirmed, D2 weak-partial, C1/D1 refuted) |
 | V4 | E1 E2 F1 | R/X | pending |
 
 Definition of done (per project): a committed script, a result with exact numbers, and a log entry in

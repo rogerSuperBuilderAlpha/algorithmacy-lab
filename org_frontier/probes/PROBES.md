@@ -201,6 +201,24 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 104 | Topology map (B2) | Topology classes differ in whether and how fast Φ grows | **confirmed** | At n=4→5, all four conjunctive topologies stay triadic but scale Φ differently: chain flat at 2.0 (fixed bottleneck, matches #57), single-hub and two-hub +1.0 per added member, all-to-all pool 12→20 (+8.0). Topology, not size, sets the scaling rate — serial mediation keeps one bottleneck while all-to-all coupling compounds. `probe_topology_map.py` |
 | 105 | Lean triad at n=6 (B3) | A lean triadic n=6 form exists despite 0/300 random | **confirmed** | The conjunctive single-hub form is triadic at every size with the full node set as its core and Φ = n−1: n=4 Φ=3, n=5 Φ=4, n=6 Φ=5, each at the 2(n−1) edge floor. Probe 97's 0/300 means triadic n=6 forms are vanishingly rare under random function fills, not absent — the all-required commit is the surviving triadic structure at scale. `probe_lean_n6.py` |
 
+### Program v2 Wave V3 — the N&S residual and the behavioral gap (C1, D1, D2, D3)
+
+| 106 | Non-separability as the N&S residual (C1) | Connectivity + synergy is an exact condition | **refuted** | Over the 4096 wirings, connectivity+synergy reaches 92.97% — identical to connectivity alone; the per-function interaction term lifts nothing. The 7% the graph cannot decide is not a non-separability feature; it is genuinely holistic (per-node/per-function features have a ceiling, as Probe 13 found). No exact structural N&S condition for n=3 triadicity. `probe_nonseparability.py` |
+| 107 | Partner-modeling agents (D1) | Theory-of-mind agents show the difficulty gap | **refuted** | Fictitious-play learners that best-respond to the partner's observed action distribution show rank-AUC 0.541 (triadic mean difficulty 66.6 vs dyadic 77.4) — no better than independent bandits (Probe 98, 0.567). The verdict is not a coordination-game-difficulty measure for any agent model tried; irreducibility and learning-to-coordinate are different things. `probe_tom_agents.py` |
+| 108 | Resilience (D2) | Φ tracks recovery from perturbation | **partial (weak)** | Triadic forms take longer to recover from a flipped node (7.08 vs 5.17 steps) but rank-AUC is only 0.618 — a weak directional signal, not a clean tracker. Φ is closer to orthogonal here than to predictive; resilience leans the expected way but does not carry the verdict. `probe_resilience.py` |
+| 109 | Hysteresis (D3) | Rebinding an ejected party is path-dependent | **confirmed** | A sticky mediator produces a hysteresis loop in coordination as the engagement drive is ramped up then down (loop area 0.071); a memoryless mediator does not (0.005, up and down legs coincide). With memory, a coordination latches and stays alive as engagement falls, so re-including a party is not the mirror of dropping it — the dynamical face of Probe 43. `probe_hysteresis.py` |
+
+**Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
+7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
+ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty
+measure: neither independent learners (Probe 98) nor partner-modeling ones (#107) find triadic commits
+harder, and triadic forms are if anything marginally easier to coordinate on. The one behavioral signal
+is weak — triadic forms recover a little more slowly from a shock (#108), leaning the expected way but
+far from a tracker. Dynamics, though, do matter once the mediator has memory: a sticky mediator makes
+coordination path-dependent (#109), so dropping and re-binding a party are not symmetric. The verdict is
+a structural fact; behavior reflects it only faintly, and the way to move it behaviorally is memory, not
+agent sophistication.
+
 **Wave V2 reading.** The all-required commit is what scales. A single conjunctive hub stays triadic with
 the full group in its core and Φ = n−1 at every size from n=4 to n=7 (#105), so the n=6 collapse Probe 97
 found was about random commits, not the structure itself. Splitting the mediation across two hubs does
