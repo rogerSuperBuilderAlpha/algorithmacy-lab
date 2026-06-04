@@ -1,11 +1,7 @@
-DRAFT — courtesy note to Niizato et al. Review and send yourself; NOT sent automatically.
-
-PRE-SEND CHECKLIST (yours to do):
-  [ ] Find a current correspondence address for Takayuki Niizato (or a co-author) — e.g. from the
-      PLOS ONE 2020 paper's corresponding-author line or the lab page. Do NOT guess an address.
-  [ ] Confirm the repo links resolve (org_frontier pushed to main, repo public).
-  [ ] Replace [your name] and trim to taste — keep it short.
-  [ ] Optional: attach or link the essay (essays/literacy_or_algorithmacy.md) only if wanted.
+SENT — 2026-06-03 to t_niizato@yahoo.co.jp (Takayuki Niizato's published corresponding-author
+address from the PLOS ONE 2020 paper), via Gmail from regorhunt02052@gmail.com. The phone number
+from the auto-signature was removed before sending. Text as sent below (closing was "Roger Hunt /
+Bentley University").
 
 -----------------------------------------------------------------------
 Subject: Your IIT fish-school work as a precedent for Φ on human coordination
