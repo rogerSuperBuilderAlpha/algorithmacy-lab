@@ -156,6 +156,25 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 77 | Observability asymmetry (#34) | The asymmetry is necessary for the triad | **partial** | The Φ-maximal triad sits at S-reads-both / no-direct-channel (Φ=2.0). But a symmetric direct W↔C channel only grades Φ down (2.0→0.83) without collapsing, and S-reads-one + a channel is triadic at Φ=1.0. The asymmetry maximizes integration but is not strictly necessary; reading only one party is dyadic. `probe_info_asymmetry.py` |
 | 78 | Fairness signature (#35) | Extractive commits carry a distinct signature | **confirmed** | A balanced commit keeps the parties in the core ({W,S,C}, P out); as the commit tilts toward the principal (P can force it) the parties are ejected and the core becomes {S,P}; a fully extractive commit (S follows P) leaves {S,P}. An extractive determination structurally excludes the parties from the irreducible coordination. `probe_fairness.py` |
 
+### Program Wave 6 — dynamics (agenda #17, #18, #19, #43, #38)
+
+| 79 | Adaptive mediator's verdict path (#17) | An adapting mediator traces a verdict path | **confirmed** | As the mediator's reliance on the counterpart degrades over epochs (r: 1.0→0.0), Φ falls 2.0→0.71→0.44→0.20→0.0 and the verdict crosses from triadic to dyadic at the final epoch. The form's kind is not fixed; it moves as the mediator adapts (a learning analogue of Probe 38). `probe_adaptive.py` |
+| 80 | Φ vs success over learning (#18) | Training for success raises Φ | **refuted** | Across worker policies ordered by coordination success, Φ is non-monotone: a cautious policy at 0.12 success has Φ=2.0, while persistent/eager policies at 0.38 success have Φ=0. Climbing in success need not climb in Φ — success is the level, Φ is the kind (confirms Probe 48). `probe_learning.py` |
+| 81 | Criticality / interior Φ peak (#19) | Φ peaks at intermediate coupling | **refuted (trough, not peak)** | Sweeping the parties' tracking phase p, Φ is symmetric: 2.0 at both deterministic extremes (in-phase p=1 and anti-phase p=0) and 0 at random tracking (p=0.5). Φ tracks coupling determinism, not phase sign; the interior point is a trough. No critical interior maximum (matches Probes 27, 38). `probe_criticality.py` |
+| 82 | Non-collapsing Niizato size jump (#43) | A size-four Φ rise appears under richer dynamics | **refuted (opposite)** | Under all-to-all noisy majority coupling, max Φ peaks at n=3 (3.47) and falls — n=2:1.37, n=3:3.47, n=4:0.95, n=5:0.0. No Niizato-style rise at n=4; added members make the consensus more redundant and less integrated, so the size dependence runs the other way for this dynamics. `probe_noncollapse.py` |
+| 83 | O-information on transitions (#38) | Transition O-info separates better than present-state | **partial** | Across 16 triadic and 16 dyadic corpus forms, present-state O-info gives no group gap (0.0). The present⊕next transition joint opens a gap of 0.25 (triadic 0.36 > dyadic 0.10, more redundancy-dominated). The transition structure carries discriminating synergy the static joint misses, but the gap is modest — a partial gain over Probe 46, not a clean separator. `probe_transition_oinfo.py` |
+
+**Wave 6 reading.** Dynamics confirm that the verdict is a property of the form in motion, not a fixed
+label. A mediator that adapts away from a party walks the form from triadic to dyadic (#79), and along
+a path of rising coordination success Φ does not rise with it (#80) — the level and the kind stay
+orthogonal under learning, as Probe 48 found statically. Two searches for richer structure came back
+negative. There is no interior critical Φ peak: Φ tracks coupling determinism and is symmetric in phase,
+so the random-tracking midpoint is a trough, not a peak (#81). A non-collapsing all-to-all pool shows no
+Niizato-style size-four rise; under majority coupling Φ peaks at the triad and degrades as the group
+grows (#82), the opposite dependence. One methodological gain: moving O-information from the present
+state to the present⊕next transition opens a modest group gap where the static joint opens none (#83),
+so transitions carry some discriminating synergy, though still well short of the exact verdict.
+
 **Wave 5 reading.** A coherent political economy falls out. As a platform's determination tilts from
 balanced toward the owner (#78), the worker and counterpart lose their place in the irreducible core
 and it contracts to the platform-and-owner {S,P} — though that contraction is a specific extractive/

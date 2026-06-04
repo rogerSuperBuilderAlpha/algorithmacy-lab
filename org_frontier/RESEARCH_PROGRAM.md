@@ -241,7 +241,7 @@ Update on each run: `pending → running → done` (or `blocked`). Probe numberi
 | 3 | #14 #15 #33 #49 #48 | R | **done** (probes 64–68; #15/#33/#49/#48 confirmed, #14 partial) |
 | 4 | #25 #26 #27 #28 #29 | R | **done** (probes 69–73; #25/#27/#28/#29 confirmed, #26 clarifying refutation) |
 | 5 | #30 #31 #32 #34 #35 | R | **done** (probes 74–78; #32/#35 confirmed, #30/#34/#31 partial-or-refined) |
-| 6 | #17 #18 #19 #43 #38 | R | pending |
+| 6 | #17 #18 #19 #43 #38 | R | **done** (probes 79–83; #17 confirmed, #18/#19/#43 refuted, #38 partial) |
 | 7 | #20 #21 #22 #23 #50 | R | pending |
 | 8 | #36 #37 #39 #2 #1 | X | pending |
 | 9 | #45 #4 #3 #11 #40 | X | pending |
