@@ -81,6 +81,28 @@ interprets both parties and commits determinations neither controls" means, made
 | 42 | Redundant determination paths | Duplicate mediators are reducible | **H42 refuted/nuanced** | Two mediators both committing W∧C, read *conjunctively*, RAISE Φ (2.0→4.0) and both join the core — requiring both makes each pivotal. Read *disjunctively* (either suffices) they factor. Redundancy is not monolithic: AND-duplication binds, OR-duplication collapses (cf. the pivotality principle). `probe_redundant.py` |
 | 43 | Self-referential mediator | A self-loop on S shifts magnitude only | **H43 refuted/nuanced** | A *sticky* mediator (S'=(W∧C)∨S) COLLAPSES the triad to a self-absorbed core {S} — a system running on its own inertia stops being a live joint determination and factors the parties out. A parity-memory mediator (XOR) stays triadic. Mediator inertia can break the triad. `probe_self_ref.py` |
 
+### Literature-inspired batch (from the Φ-on-social-systems dossier)
+
+| 44 | Group-size transition (Niizato 2020) | A Niizato-style size discontinuity appears | **H44 partial** | The all-required pool's Φ rises with size (2,2,3,4 for n=2–5); the random triadic rate collapses (9.4%→2.3%→0%). Size strongly governs irreducibility, but the sharp 3→4 discontinuity Niizato found in fish-school Φ distributions is dynamics-specific, not reproduced here. `probe_group_size.py` |
+| 45 | Φ vs MI / transfer entropy (Niizato contrast) | Φ separates what MI/TE miss | **H45 confirmed** | MI(W;C) ranges overlap across classes (triadic 0.006–0.281 vs dyadic 0.001–0.119); transfer entropy is worse — a dyadic back-channel form has the HIGHEST TE (0.54) of all. MI/TE measure dependence, not integration. Replicates Niizato's contrast on coordination forms (and this repo's proxy results). `probe_phi_vs_mi_te.py` |
+| 46 | O-information (Rosas 2019) | Triadic = synergy-dominated | **H46 weak** | Means lean the right way (triadic O=−0.004, dyadic O=+0.012) but individual forms are mixed and near-zero — a dyadic back-channel form is strongly synergistic, a dyadic relay strongly redundant. O-information on the present-state joint does not cleanly separate the verdict. `probe_o_information.py` |
+| 47 | ΦID atoms on a coordination series (white-space) | Triadic = more persistent synergy | **H47 supported, directional** | First application of ΦID to a coordination series (a gap the dossier flags). Triadic forms carry more persistent synergy (mean sts −0.072 vs −0.009 for dyadic). Directionally clean; not a perfect separator (estimated-measure degradation, cf. proxy_bridge). `probe_phiid_social.py` |
+| 48 | Φ vs performance (Engel & Malone 2018) | Higher Φ → better coordination | **H48 null** | Spearman ρ(Φ, success-proxy) = +0.00; triadic and dyadic forms have identical mean success (0.50). Φ is orthogonal to the match-reaching proxy — being triadic is about the *kind* of coordination, not the *level* of success. Contrasts Engel-Malone's performance correlation; aligns with the dissertation (the triad demands a competency, it is not itself success) and with Probe 29. `probe_phi_performance.py` |
+
+## Probes 44–48 — seventh batch (engaging the Φ-on-social-systems literature)
+
+Grounded in the sourced dossier (Niizato et al. 2020 fish schools; Rosas et al. 2019 O-information;
+Mediano–Rosas ΦID; Engel & Malone 2018). Three results matter:
+- **Probe 45 replicates Niizato's headline contrast** on coordination forms: Φ separates dyadic from
+  triadic where mutual information and transfer entropy do not — and transfer entropy is actively
+  *fooled* by a back-channel (highest TE of all on a dyadic form). This is the fish-school result's
+  methodological core, reproduced in the coordination domain.
+- **Probe 47 fills a stated white-space**: ΦID has never been applied to a social/behavioral series;
+  applied here it shows triadic coordination carries more persistent synergy than dyadic.
+- **Probe 48 is a clean, important null**: exact Φ does NOT track a coordination-success proxy. The
+  structural verdict is about the kind of coordination, not whether it succeeds — distinguishing this
+  program's claim from Engel & Malone's performance correlation, and matching the dissertation's own
+  position that the triad *demands* a competency rather than *being* good performance.
 ## Probes 39–43 — sixth batch (topology, transparency theater, mediator dynamics)
 
 Three confirmations (39 cycle, 40 broadcast, 41 dashboard) and two instructive refutations (42, 43):

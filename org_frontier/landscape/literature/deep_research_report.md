@@ -1,5 +1,12 @@
 # How the world uses PyPhi — a usage survey
 
+> **Update:** a deeper multi-database sweep is in [`social_systems_dossier.md`](social_systems_dossier.md).
+> It confirms the white-space (no exact Φ on any human coordination system) and adds the key
+> precedent — Niizato et al. (2020) on fish schools, with a Φ discontinuity at group size four that
+> mutual information and transfer entropy miss — plus the two estimated-Φ social studies (Engel &
+> Malone 2018; Watson et al. 2025/2026) and the clean ΦID gap. Probes 44–48 engage it directly.
+
+
 Deep-research run, June 2026. Five search angles, 21 primary sources fetched, 102 claims
 extracted, 25 verified by 3-vote adversarial check, 25 confirmed and 0 killed. Nine
 high-confidence findings survive synthesis. Every load-bearing source is peer-reviewed (PLOS,
