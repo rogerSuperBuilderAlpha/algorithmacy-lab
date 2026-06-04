@@ -320,6 +320,20 @@ topology archetypes from 45% to 60%, yet both trail a trivial majority guess (#1
 widens the signal; it does not make the cheap features carry a topology-general verdict. The screen
 remains something to train on the structural class it will read.
 
+### Program v6 Wave Z1 — pinning the residual (P1, P2)
+
+| 130 | Attractor condition (P1) | Collapsing dynamics is the dyadic condition given coupling | **refuted** | Among the 2576 three-way-coupled wirings (2288 triadic, 288 dyadic), no attractor predicate separates the verdict. A collapsed map (max_period 1) covers 264 of the 288 dyadic residual forms, but 562 triadic forms collapse the same way, so the predicate runs below the majority baseline; the best combination reaches only 0.92. Collapsing dynamics does not isolate the residual. `probe_attractor_condition.py` |
+| 131 | The holistic core (P2) | The unreachable ~5% is a scattered near-boundary tail | **confirmed** | A full-feature random forest misclassifies 196 wirings (4.8%), all three-way-coupled. Their predicted probability sits at the boundary — mean |p−0.5| = 0.08 against 0.48 for the correctly classified, and 91% fall within 0.25 of 0.5. The irreducible tail is a set of forms the cheap features cannot tell apart, not a coherent structure a single missing feature would resolve. `probe_holistic_core.py` |
+
+**Wave Z1 reading.** The residual closes as a question even though it does not close as a number. No clean
+condition recovers it: attractor type, the one dynamical feature that helped in aggregate (#127), fails to
+separate the coupled wirings on its own, because collapsing to a fixed point is common to the dyadic
+residual and to many triadic forms alike (#130). And the part no cheap panel reaches is a near-boundary
+tail — 196 coupled forms the classifier scores at almost exactly even odds (#131). The last five percent
+of the verdict is not a hidden feature waiting to be named. It is a set of forms whose kind lives in the
+whole cause-effect structure, where cheap summaries of the graph, the functions, and the dynamics all read
+the same on both sides. Coupling is necessary and clean; the rest is exact computation or nothing.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty
