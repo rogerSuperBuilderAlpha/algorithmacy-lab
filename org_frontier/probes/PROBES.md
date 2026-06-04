@@ -124,6 +124,22 @@ Temporal-tracking stays non-structural even when the regime is coupled both ways
 noise as a static shared source does not move the verdict (#61), with true correlated output noise
 flagged as needing a state-by-state representation.
 
+### Program Wave 3 — structure & aggregation (agenda #14, #15, #33, #49, #48)
+
+| 64 | Core from the graph (#14) | A connectivity rule predicts the major complex | **partial** | Over 300 n=4 forms the bidirectional-coupling rule has recall 1.000 (never misses a core node — coupling is necessary, cf. Probe 12) but precision 0.543 (over-predicts), exact core-set match 33.3%. The core is not predictable graph-only; coupling gives a superset, and the rest is the holistic residual. `probe_team_core_rule.py` |
+| 65 | Group surplus by size (#15) | Whole-Φ-beyond-members emerges with n | **confirmed, mapped** | All-required pool: surplus (whole Φ − best proper-subset Φ) is 0.0 at n=3, +1.0 at n=4, +1.0 at n=5. Group-level integration beyond the members appears at n≥4, not at the minimal triad (sharpens Probe 52). `probe_group_surplus.py` |
+| 66 | Coalition size vs principal (#33) | A larger coalition still wins | **confirmed** | The counterpart coalition is the core at k=2 (n=5, core {C1,C2}) and k=3 (n=6, core {C1,C2,C3}, Φ=6.0), ejecting the active gating+monitoring principal both times. Solidarity dominates principal control regardless of coalition size (extends Probe 37). `probe_coalition_size.py` |
+| 67 | Voting/aggregation rules (#49) | Which rules make a triadic collective decision | **clean, novel** | Unanimity (AND) and any-suffices (OR) bind all members (triadic, Φ=3.0); **majority (2-of-3) factors to dyadic** (no member pivotal); veto reduces to the vetoer (dyadic, core {W}); parity binds weakly (Φ=0.25). A majority-rule body is structurally not an irreducible collective. `probe_voting.py` |
+| 68 | Market clearinghouse (#48) | A clearinghouse is triadic, a price-poster dyadic | **confirmed, new domain** | A clearinghouse jointly matching a buyer and seller is triadic (Φ=2.0, core {B,S,Se}); a one-way price-poster is a conveyor and factors (core {Se}); substitutable buyers (either clears) dilute to dyadic; an all-required two-buyer clear is triadic (Φ=3.0). The framework extends to markets. `probe_market.py` |
+
+**Wave 3 reading.** The framework reaches two new domains with crisp verdicts. Governance (#67):
+unanimity binds an irreducible collective, but **majority rule factors** — a majority body is not, by
+this measure, a single irreducible decider. Markets (#68): a clearinghouse that jointly matches is
+triadic, a price-poster is a conveyor, and substitutable buyers dilute, exactly as the
+substitutability law predicts. Structurally, #65 maps the group-surplus onset to n≥4, #66 shows
+solidarity beats the principal at every coalition size, and #64 confirms the core is a connectivity
+*superset* but not graph-predictable (the holistic residual again).
+
 ## Probes 49–53 — eighth batch (emergence, group agency, the integration claim)
 
 More literature/dissertation engagement. Standouts:
