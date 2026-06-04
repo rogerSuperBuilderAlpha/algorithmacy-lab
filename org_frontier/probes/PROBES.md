@@ -172,6 +172,24 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 87 | Redundancy lattice and noise (#23) | MMI/CCS or noise changes ΦID separation | **confirmed (no rescue)** | Across MMI and CCS redundancy at noise 0.05/0.15, the Φ_R group gap stays small (0.04–0.07) in every cell and collapses toward zero at high noise. Neither the lattice nor the noise level is why ΦID misses the verdict — the limitation is the measure. `probe_phiid_sweep.py` |
 | 88 | Multi-agent-AI protocol (#50) | An AI-agent protocol is dyadic or triadic by design | **confirmed** | A relay protocol (P forwards A1 to A2) and a broadcast protocol are dyadic (Φ=0); a joint-commit protocol whose state both agents determine and act on (P=A1∧A2, both read P) is triadic (Φ=2.0, core {A1,P,A2}). AI-agent coordination sits on the same conveyor-vs-committing-third-party cut as human coordination. `probe_mas.py` |
 
+### Program Wave 8 — consilience of measures (agenda #36, #37, #39, #2, #1)
+
+| 89 | Consilience map (#36) | Adjacent measures agree on clear cases, diverge mappably | **confirmed** | Over the 256 family (24 triadic), each measure's best single threshold agrees with the verdict only partly: EI and causal emergence default to all-dyadic (0.906), O-info catches 1/24, Φ_R catches 7/24 (2 false positives), Φ_AR catches 9/24 at 0 false positives (0.941). No scalar reproduces the verdict at one threshold; the divergence is structured (panel cached). `probe_consilience.py` |
+| 90 | Cheap-measure search (#37) | No single cheap measure cleanly separates the verdict | **confirmed** | Ranking each measure by rank-AUC against the verdict: Φ_AR 0.959, causal emergence 0.661, EI 0.655, Φ_R 0.593, O-info 0.464. The autoregressive Φ_AR is the strongest single proxy but none reaches the perfect separation a learned feature combination gives (Probe 85). `probe_cheap_search.py` |
+| 91 | EI / causal emergence across the family (#39) | The EI–Φ link from Probe 49 generalizes | **partial** | corr(EI, exact Φ) across the family is +0.164 — weakly positive. Triadic forms carry more effective information (mean EI 1.87 vs 1.50) and slightly more causal emergence (0.126 vs 0.074). EI tracks integration weakly across the whole family, less tightly than the few-form Probe 49 suggested. `probe_ei_family.py` |
+| 92 | Joint-influence (synergy) term (#1) | A pairwise synergy feature lifts the family AUC toward 0.89 | **refuted** | Adding an explicit interaction/synergy feature to marginal out-influence gives a CV-AUC of 0.695 vs 0.690 for marginal alone — a +0.005 lift. The gap from ~0.69 to the controlled 0.89 is not closed by a pairwise synergy term (consistent with Probe 13's null). Marginal influence already carries what this feature would add. `probe_joint_influence_v2.py` |
+| 93 | CES counts predict the verdict (#2) | Distinction/relation counts predict triadicity | **confirmed (perfectly)** | Cause-effect-structure counts from phi_structure separate the verdict: n_distinctions AUC 0.920, mean_order 0.897, n_relations 0.867, frac_higher_order 0.833; a combined logistic model reaches CV-AUC 1.000. The higher-order structure carries the verdict where per-node influence (#1, 0.69) cannot — an irreducible third party shows up as higher-order CES. `probe_ces_predictor.py` |
+
+**Wave 8 reading.** Among measures computed without the exact system partition, two recover the verdict
+fully and the rest only partly. A learned combination of cheap features (Probe 85) and the cause-effect-
+structure counts (#93) both reach AUC 1.0. Single scalars max out below that: Φ_AR 0.96, causal emergence
+and EI ~0.66, Φ_R 0.59, O-information at chance (#90). Per-node influence plateaus near 0.69 and a
+pairwise synergy term does not lift it (#92), so the gap to the controlled 0.89 is not a missing
+interaction feature. What separates the verdict cleanly is higher-order structure — the distinction and
+relation counts of the cause-effect structure (#93) — which is the irreducibility the verdict measures
+in the first place. EI tracks integration only weakly across the family (#39), and the measures' single-
+threshold agreement is partial but structured, not random (#89).
+
 **Wave 7 reading.** The verdict is estimable from time series, but not by every route. The ΦID-based
 proxy Φ_R fails structurally: its triadic−dyadic gap stays near 0.06 no matter how long the trajectory
 (#86) and no matter the redundancy lattice or noise (#87), never approaching the exact gap. Two other
