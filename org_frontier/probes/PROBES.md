@@ -164,6 +164,25 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 82 | Non-collapsing Niizato size jump (#43) | A size-four Φ rise appears under richer dynamics | **refuted (opposite)** | Under all-to-all noisy majority coupling, max Φ peaks at n=3 (3.47) and falls — n=2:1.37, n=3:3.47, n=4:0.95, n=5:0.0. No Niizato-style rise at n=4; added members make the consensus more redundant and less integrated, so the size dependence runs the other way for this dynamics. `probe_noncollapse.py` |
 | 83 | O-information on transitions (#38) | Transition O-info separates better than present-state | **partial** | Across 16 triadic and 16 dyadic corpus forms, present-state O-info gives no group gap (0.0). The present⊕next transition joint opens a gap of 0.25 (triadic 0.36 > dyadic 0.10, more redundancy-dominated). The transition structure carries discriminating synergy the static joint misses, but the gap is modest — a partial gain over Probe 46, not a clean separator. `probe_transition_oinfo.py` |
 
+### Program Wave 7 — estimation and the data bridge (agenda #20, #21, #22, #23, #50)
+
+| 84 | Barrett–Seth Φ_AR proxy (#20) | Φ_AR recovers the verdict better than Φ_R/Φ_WMS | **confirmed (recovers it)** | An autoregressive Φ_AR (min over bipartitions of summed-part minus whole residual entropy), fit to noisy trajectories, separates exact-triadic from exact-dyadic at rank-AUC 0.925 (triadic mean 0.60 vs dyadic 0.16). Where Φ_R/Φ_WMS failed, the AR proxy recovers most of the verdict from time series. `probe_phi_ar.py` |
+| 85 | Learned surrogate over cheap features (#21) | A feature-combiner recovers the verdict | **confirmed (perfectly)** | A random forest over 13 cheap time-series features (per-node entropy, pairwise MI, transfer entropy, O-information) recovers the verdict at 5-fold CV accuracy 1.000 and ROC-AUC 1.000, against a 0.906 majority-class baseline. No single proxy works; the combination is a complete fingerprint. `probe_learned_surrogate.py` |
+| 86 | Trajectory length (#22) | Longer trajectories never recover the missed Φ_R verdict | **confirmed** | Sweeping length 1k→64k, the triadic−dyadic Φ_R gap stays ~0.04–0.08 and never grows toward the exact gap (~2.0). Φ_R's failure is structural, not a finite-sample artifact — more data does not fix it. `probe_phiid_length.py` |
+| 87 | Redundancy lattice and noise (#23) | MMI/CCS or noise changes ΦID separation | **confirmed (no rescue)** | Across MMI and CCS redundancy at noise 0.05/0.15, the Φ_R group gap stays small (0.04–0.07) in every cell and collapses toward zero at high noise. Neither the lattice nor the noise level is why ΦID misses the verdict — the limitation is the measure. `probe_phiid_sweep.py` |
+| 88 | Multi-agent-AI protocol (#50) | An AI-agent protocol is dyadic or triadic by design | **confirmed** | A relay protocol (P forwards A1 to A2) and a broadcast protocol are dyadic (Φ=0); a joint-commit protocol whose state both agents determine and act on (P=A1∧A2, both read P) is triadic (Φ=2.0, core {A1,P,A2}). AI-agent coordination sits on the same conveyor-vs-committing-third-party cut as human coordination. `probe_mas.py` |
+
+**Wave 7 reading.** The verdict is estimable from time series, but not by every route. The ΦID-based
+proxy Φ_R fails structurally: its triadic−dyadic gap stays near 0.06 no matter how long the trajectory
+(#86) and no matter the redundancy lattice or noise (#87), never approaching the exact gap. Two other
+routes succeed. The Barrett–Seth autoregressive Φ_AR separates the groups at AUC 0.925 (#84), and a
+random forest over cheap features recovers the verdict outright, AUC 1.000 (#85). So an organization's
+interaction logs do carry the dyadic/triadic signal — the earlier proxy-bridge nulls were a fact about
+Φ_R, not about estimability. Probe 88 extends the cut to AI-agent protocols: a relay or broadcast
+channel is a conveyor (dyadic), a jointly determined and acted-on protocol is a committing third party
+(triadic). The estimation route that works is a learned combination of cheap features, not any single
+information-theoretic Φ surrogate.
+
 **Wave 6 reading.** Dynamics confirm that the verdict is a property of the form in motion, not a fixed
 label. A mediator that adapts away from a party walks the form from triadic to dyadic (#79), and along
 a path of rising coordination success Φ does not rise with it (#80) — the level and the kind stay
