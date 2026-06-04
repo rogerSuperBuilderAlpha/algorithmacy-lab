@@ -224,6 +224,23 @@ flip every triadic form to dyadic, so an aggregate vote calls them all dyadic (#
 exact, but only relative to a stated grain and a synchronous schedule — that convention is part of the
 measurement, not a defect to average away.
 
+### Program v3 Wave W1 — the parity blind spot (G1, G2, G3)
+
+| 113 | What the parity forms are (G1) | The blind spot is exactly the XOR-family commits | **confirmed** | Among the 24 triadic corpus forms, the 8 with a parity (XOR/XNOR) commit all carry Φ=0.5 and the 16 with a conjunctive commit all carry Φ=2.0. The pure-higher-order forms (#56) that Φ_AR (#101) and every CES predicate (#102) miss are precisely the parity determinations. `probe_parity_characterization.py` |
+| 114 | The parity detector (G2) | A cheap feature separates parity-triadic from dyadic | **confirmed** | Of the 13 cheap features, MI[W;C] ranks parity-triadic against dyadic at AUC 0.931, close to its 0.948 on conjunctive-triadic. Party coupling is the signal. The magnitude proxies miss parity because parity Φ is tiny; the coupling between the parties stays normal, which is how the learned surrogate (#85) recovers these forms. `probe_parity_detector.py` |
+| 115 | How parity scales (G3) | The parity family scales differently from the conjunctive hub | **confirmed** | The XOR hub stays triadic with the full node set as its core at every size, while Φ halves each step: 0.5 at n=3, 0.25 at n=4, 0.125 at n=5 (Φ = 2^(2−n)). The conjunctive hub grows the other way, Φ = n−1. Two routes bind the whole group; one strengthens with size, one fades toward zero. `probe_parity_scaling.py` |
+
+**Wave W1 reading.** The cheap-measure blind spot has a single identity. The eight forms that Φ_AR and
+the CES counts miss are the XOR-family commits, the Φ=0.5 pure-higher-order forms (#113). Their Φ is tiny,
+so any magnitude-based proxy under-ranks them, yet the mutual information between the two parties stays as
+high as in the conjunctive forms (#114). That is why a learned model built on coupling features recovers
+them while a magnitude proxy cannot, and it locates the blind spot precisely: it belongs to proxies that
+track Φ size, and it disappears for features that track party coupling. The scaling result is the sharper
+find (#115). Two commit families both hold the whole group in one irreducible core, and they scale in
+opposite directions. The conjunctive hub grows stronger with size at Φ = n−1; the parity hub fades at
+Φ = 2^(2−n), irreducible at every size and ever closer to nothing. Binding everyone through a shared
+all-or-nothing demand compounds; binding everyone through a parity check thins out as the group grows.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty
