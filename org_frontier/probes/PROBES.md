@@ -258,6 +258,23 @@ group more when each sees everyone. The org-design picture sharpens accordingly:
 together with an all-or-nothing demand, and add symmetric mediators to raise integration rather than to
 shed it.
 
+### Program v4 Wave X1 — the geometry of the scaling laws (J1, J3, L1)
+
+| 119 | Multi-hub Φ law (J1) | Φ rises with mediator count toward the all-to-all pool | **confirmed, nuanced** | A symmetric m-hub at fixed n raises Φ as m grows: at n=6, Φ = 5, 8, 12, 20, 30 for m = 1..5, reaching the pool value when nearly every node is a mediator. Core membership is non-monotone, though: the full core holds at the extremes (single hub, near-pool) while intermediate hub counts (m=3,4 at n=6) raise Φ yet drop members. More mediators means more integration; keeping everyone in the core needs an extreme. `probe_multihub_law.py` |
+| 120 | Parity dissolution size (J3) | The parity hub fades below any floor at a computable size | **confirmed** | Φ = 2^(2−n) holds exactly at n=3..7 (0.5, 0.25, 0.125, 0.0625, 0.03125). The law puts Φ below 1e−6 at n > 21.9, so the parity hub is numerically dyadic from n=22. XOR coordination is irreducible at every size in exact arithmetic and undetectable past about two dozen members. `probe_parity_dissolution.py` |
+| 121 | Control structures by type (L1) | Everyday controls are conjunctive, parity controls are rare | **confirmed** | Dual authorization (W∧C) and escalation (W∨C) are conjunctive triads at Φ=2; allocate-to-exactly-one (XOR) and require-agreement (XNOR) are parity triads at Φ=0.5; a unilateral directive is dyadic. The familiar controls are the robust conjunctive kind that scales by the n−1 law (#116); the fragile parity kind (#115) is the exception, which is why the parity blind spot seldom bites real coordination. `probe_control_structures.py` |
+
+**Wave X1 reading.** The two scaling laws acquire a geometry and a real-world reading. Spreading mediation
+across more symmetric hubs raises Φ all the way to the all-to-all pool, so the most integrated arrangement
+is one where nearly every node mediates (#119). That rise hides a non-monotone catch: intermediate hub
+counts raise total Φ while dropping members from the core, so maximal integration and full membership are
+distinct goals that coincide only at the extremes. The parity law gets a horizon: Φ = 2^(2−n) holds
+exactly through n=7 and falls below any measurement floor near two dozen members (#120), so XOR
+coordination cannot hold a large group in any detectable sense. The org reading lands the parity result
+where it matters. The controls organizations actually run — dual authorization, escalation — are
+conjunctive and scale robustly; the parity structures that fade are the exotic ones, allocate-to-one and
+require-agreement (#121). The fragile family is rare in practice, and the robust family is the default.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty
