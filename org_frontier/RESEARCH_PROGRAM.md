@@ -244,7 +244,7 @@ Update on each run: `pending → running → done` (or `blocked`). Probe numberi
 | 6 | #17 #18 #19 #43 #38 | R | **done** (probes 79–83; #17 confirmed, #18/#19/#43 refuted, #38 partial) |
 | 7 | #20 #21 #22 #23 #50 | R | **done** (probes 84–88; #20/#21/#50 confirmed-recovers, #22/#23 confirmed-null) |
 | 8 | #36 #37 #39 #2 #1 | X | **done** (probes 89–93; #36/#37/#2 confirmed, #39 partial, #1 refuted) |
-| 9 | #45 #4 #3 #11 #40 | X | pending |
+| 9 | #45 #4 #3 #11 #40 | X | **done** (probes 94–98; #4/#3 confirmed, #45/#11/#40 refuted-or-sharpening) |
 | 10 | #5 #8 #24 #41 #42 | T/D/H | pending (parked: document only) |
 
 ## Conventions (carried from the lab)

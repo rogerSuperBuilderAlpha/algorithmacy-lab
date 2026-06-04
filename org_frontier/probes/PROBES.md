@@ -180,6 +180,24 @@ solidarity beats the principal at every coalition size, and #64 confirms the cor
 | 92 | Joint-influence (synergy) term (#1) | A pairwise synergy feature lifts the family AUC toward 0.89 | **refuted** | Adding an explicit interaction/synergy feature to marginal out-influence gives a CV-AUC of 0.695 vs 0.690 for marginal alone — a +0.005 lift. The gap from ~0.69 to the controlled 0.89 is not closed by a pairwise synergy term (consistent with Probe 13's null). Marginal influence already carries what this feature would add. `probe_joint_influence_v2.py` |
 | 93 | CES counts predict the verdict (#2) | Distinction/relation counts predict triadicity | **confirmed (perfectly)** | Cause-effect-structure counts from phi_structure separate the verdict: n_distinctions AUC 0.920, mean_order 0.897, n_relations 0.867, frac_higher_order 0.833; a combined logistic model reaches CV-AUC 1.000. The higher-order structure carries the verdict where per-node influence (#1, 0.69) cannot — an irreducible third party shows up as higher-order CES. `probe_ces_predictor.py` |
 
+### Program Wave 9 — heavy enumerations and scaling (agenda #45, #4, #3, #11, #40)
+
+| 94 | N&S structural condition for n=3 (#45) | Connectivity exactly decides triadicity | **refuted (almost)** | Over all 4096 arbitrary 3-node wirings (55.9% triadic), structural features (edge count, bidirectional-node count, strong connectivity) reach 92.97% — not 100%. The mined rule is essentially "all three nodes bidirectionally coupled"; that condition is necessary and ~93% sufficient. The ~7% residual is decided by the Boolean function content, so there is no purely-graph N&S condition — sharpening the two-condition account (coupling necessary, pivotality function-dependent). `probe_ns_theorem.py` |
+| 95 | n=4 census (#4) | Low triadic rate, triadic forms near the edge floor | **confirmed** | Large-sampling the n=4 strict-mediation family (N=3000): triadic rate 2.4% (vs 9.4% at n=3). Every triadic form sits at exactly the 2(n−1)=6 edge floor (min=mean=6); dyadic forms average 4.3 edges. Irreducible n=4 coordination is sparse and maximally lean. `probe_n4_census.py` |
+| 96 | Edge floor at n=5, n=6 (#3) | The 2(n−1) edge floor is tight as size grows | **confirmed (n=5)** | At n=5 the leanest triadic form has exactly 8 edges = 2(n−1) (2 triadic in 300, both at the floor). At n=6 no triadic form appeared in 150 samples, so the floor could not be bounded there. The bidirectional-coupling floor is tight at every size it can be measured. `probe_min_triad_n56.py` |
+| 97 | Triadic rate past n=5 (#11) | The rate floors at a small positive value | **refuted (vanishes)** | The strict-mediation triadic rate falls 9.4% (n=3) → 2.4% (n=4) → 0.67% (n=5) → 0/300 ≈ 0% (n=6). It does not floor at a positive rate; irreducible coordination through a single mediator effectively disappears as the group grows. A single mediator cannot sustain triadicity at scale. `probe_scale_n6.py` |
+| 98 | Agent-based difficulty (#40) | The verdict tracks independent-learner coordination difficulty | **refuted** | Two independent Q-learning bandits coordinating to hit each form's commit show no verdict signal: triadic mean difficulty 68.4 vs dyadic 76.8, rank-AUC 0.567. Coordination hardness for selfish learners and irreducibility of the form are different things — the structural verdict is not a behavioral-difficulty measure. `probe_abm_difficulty.py` |
+
+**Wave 9 reading.** Triadic coordination through a single mediator is rare, lean, and shrinking with
+size. The rate falls from 9.4% at n=3 to effectively zero by n=6 (#97), and wherever triadic forms do
+exist they sit exactly at the 2(n−1) edge floor — six edges at n=4, eight at n=5 (#95, #96). Two
+reductions fail. There is no purely-structural necessary-and-sufficient condition for the verdict: across
+all 4096 n=3 wirings, connectivity (all three nodes bidirectionally coupled) is necessary and 93%
+sufficient, but the last 7% turn on the Boolean function content (#94). And the verdict is not a
+behavioral-difficulty measure: independent learners do not find triadic commits harder to coordinate on
+(#98). The structural kind stands on its own — not reducible to the wiring graph, not to selfish-learner
+difficulty.
+
 **Wave 8 reading.** Among measures computed without the exact system partition, two recover the verdict
 fully and the rest only partly. A learned combination of cheap features (Probe 85) and the cause-effect-
 structure counts (#93) both reach AUC 1.0. Single scalars max out below that: Φ_AR 0.96, causal emergence
