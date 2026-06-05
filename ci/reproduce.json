@@ -381,6 +381,61 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q55-h1-misaligned-partition",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_misaligned_partition",
+      "expect": [
+        "below misaligned one-sided: 16/16",
+        "below symmetric: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q55-h2-mid-rung-uniform",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_mid_rung_uniform",
+      "expect": [
+        "below off mid rung 0.415037: 0/16",
+        "ceiling below 2.0: 0/32",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q55-h3-seam-entropy-split",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_seam_entropy_split",
+      "expect": [
+        "mean H(W,C|S) below: 1.494161",
+        "mean delta (ceiling - below): 0.136472",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q55-h4-mip-singleton",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_mip_singleton",
+      "expect": [
+        "below at 2 parts: {S,WC}: 16/16",
+        "ceiling at 2 parts: {S,WC}: 0/32",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q55-h5-xnor-alignment-flip",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_xnor_alignment_flip",
+      "expect": [
+        "XNOR ceiling misalignments: 0",
+        "XOR aligned one-sided at ceiling: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H5)"
     }
   ]
 }

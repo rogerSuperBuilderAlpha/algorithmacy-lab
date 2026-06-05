@@ -740,3 +740,24 @@ non-permutation dynamics (171 refuted). Seam conditional entropy H(W,C|S) rises 
 restoration tracks commit-class alignment: worker_xor on C-centric {4,11}, counterpart_xor on W-centric
 {2,13} (173). The mechanism is local parity bijectivity plus elevated seam distinguishability, gated by
 topology-commit alignment — not whole-system permutation.
+
+### Question Q55 — bijective_discriminator
+
+| # | Concept (Q55) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 175 | Misaligned partition (H1) | Below-ceiling bijective pairs are misaligned one-sided only | **confirmed** | 16/16 below misaligned one-sided; 0 below symmetric; 0 below aligned; 32 ceiling (16 one-sided + 16 symmetric). `probe_misaligned_partition.py` |
+| 176 | Mid-rung uniform (H2) | Below half at 0.415037; ceiling at 2.0 | **confirmed** | 16/16 below at 0.415037 (spread 0); 32/32 ceiling at 2.0 (spread 0). `probe_mid_rung_uniform.py` |
+| 177 | Seam entropy split (H3) | Mean H(W,C\|S) lower on below half | **confirmed** | Mean H below=1.494161 vs ceiling=1.630633; delta=0.136472 bits; 384/512 pair-wise below<ceiling. `probe_seam_entropy_split.py` |
+| 178 | MIP S-singleton (H4) | Below half at MIP {S,WC} exclusively | **confirmed** | 16/16 below at `2 parts: {S,WC}`; 0/32 ceiling at that partition. `probe_mip_singleton.py` |
+| 179 | XNOR alignment flip (H5) | XNOR inverts one-sided alignment vs XOR | **confirmed** | 0 XNOR ceiling misalignments; worker_xnor 4/4 W-centric; counterpart_xnor 4/4 C-centric; XOR aligned 8/8 at ceiling. `probe_xnor_alignment_flip.py` |
+
+## Reading across Q55 (probes 175–179)
+
+Q54 (#170) left sixteen bijective parity pairs below Phi=2.0 without a complete partition rule. The
+forty-eight bijective pairs split into two disjoint classes. Every below-ceiling pair is a misaligned
+one-sided topology at the Q52 mid rung 0.415037 with MIP mediator singleton `{S,WC}` and lower seam
+entropy (175, 176, 177, 178). Every ceiling pair is symmetric or commit-aligned one-sided at Phi=2.0 with
+outer-party or complete MIP cuts. XNOR inverts the one-sided alignment polarity relative to XOR without
+breaking the partition: worker_xnor ceiling hits require W-centric commits, counterpart_xnor require
+C-centric — the complement of the XOR rule from Q54 #173 (179). Bijectivity remains necessary; the
+discriminator is sidedness-alignment geometry plus MIP seam class, not gate invertibility alone.
