@@ -718,3 +718,25 @@ every matched form (167), and one-sided XOR reaches 2.0 on four of eight by comm
 C-centric {4,11}, counterpart_xor on W-centric {2,13}. The 0.830075 equilibrium is the absolute maximum
 for conjunctive outer-party coupling only; parity coupling restores the strict-mediation ceiling that
 matched reads cannot reach at the four-edge floor without a channel.
+
+### Question Q54 — xor_parity_mechanism
+
+| # | Concept (Q54) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 170 | Gate bijectivity (H1) | Bijective channel gates separate Phi=2.0 from monotone caps | **confirmed** | 32/32 Phi=2.0 pairs bijective; 0 non-bijective at ceiling; 16 bijective below ceiling. `probe_gate_bijectivity.py` |
+| 171 | TPM permutation (H2) | Global TPM permutation accompanies Phi=2.0 | **refuted** | 24/24 Phi=2.0 pairs non-permutation TPM; 0/8 symmetric-AND permutation. `probe_tpm_permutation.py` |
+| 172 | Seam entropy (H3) | H(W,C\|S) peaks at XOR Phi=2.0 pairs | **confirmed** | Mean H xor=1.811497 vs and=0.902747; delta=0.908749 bits; 8/8 xor>and. `probe_seam_entropy.py` |
+| 173 | Commit alignment (H4) | One-sided Phi=2.0 requires commit-topology match | **confirmed** | 0 misalignments; worker_xor 4/8 (C-centric); counterpart_xor 4/8 (W-centric); symmetric_xor 8/8. `probe_commit_alignment.py` |
+| 174 | Parity necessity (H5) | Only parity-class gates restore Phi=2.0 | **confirmed** | 0/64 monotone at ceiling; symmetric_xnor 8/8 at Phi=2.0. `probe_parity_necessity.py` |
+
+## Reading across Q54 (probes 170–174)
+
+Q53 (#167, #169) restored Phi=2.0 via XOR without naming the load-bearing structure. Channel-gate
+bijectivity in the coupled bit is necessary: every ceiling pair uses XOR or XNOR, and no monotone gate
+reaches 2.0 (170, 174). Bijectivity alone is insufficient — sixteen one-sided parity pairs stay below the
+ceiling. Global TPM permutation is not required: all twenty-four checked Phi=2.0 parity pairs have
+non-permutation dynamics (171 refuted). Seam conditional entropy H(W,C|S) rises under symmetric_xor to
+1.811497 bits versus 0.903 for symmetric-AND, a 0.909-bit gap on all eight forms (172). One-sided
+restoration tracks commit-class alignment: worker_xor on C-centric {4,11}, counterpart_xor on W-centric
+{2,13} (173). The mechanism is local parity bijectivity plus elevated seam distinguishability, gated by
+topology-commit alignment — not whole-system permutation.
