@@ -13,7 +13,11 @@ export const meta = {
 }
 
 // args = { id: "43", slug: "thompson_interdependence", question: "<full question text>", startProbe: 135 }
-const Q = args || {}
+// args may arrive as an object or as a JSON string depending on the runtime.
+let Q = args || {}
+if (typeof Q === 'string') {
+  try { Q = JSON.parse(Q) } catch (e) { throw new Error('args must be a JSON object or JSON string: ' + e.message) }
+}
 const id = String(Q.id)
 const slug = Q.slug
 const question = Q.question
