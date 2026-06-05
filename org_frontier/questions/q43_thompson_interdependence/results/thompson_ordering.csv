@@ -1,0 +1,4 @@
+thompson_type,form,structure,max_phi,mip_partition,n_states_irreducible
+pooled,independent-contribution relay,dyadic,0.0,(factors),0
+sequential,pass-through chain,triadic,2.0,"2 parts: {W,SC}",1
+reciprocal,feedback cycle (cyclic),triadic,2.0,"2 parts: {W,SC}",1

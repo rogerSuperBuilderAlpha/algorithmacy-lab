@@ -1,0 +1,4 @@
+encoding,n,structure,max_phi,major_complex_core,major_complex_phi,best_proper_subset_phi,group_surplus
+independent_contribution_pool,3,dyadic,0.000000,WS,2.000000,,
+all_required_pool,3,triadic,2.000000,,,2.000000,+0.000000
+all_required_pool,4,triadic,3.000000,,,2.000000,+1.000000

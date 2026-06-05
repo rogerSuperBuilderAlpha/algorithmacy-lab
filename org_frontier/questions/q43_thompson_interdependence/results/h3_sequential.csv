@@ -1,0 +1,3 @@
+form,rules,structure,max_phi,mip_partition
+propagating_chain_#57,"W'=S, S'=W&C, C'=S",triadic,2.000000,"2 parts: {W,SC}"
+acyclic_handoff_#39,"W'=W, S'=W&C, C'=C",dyadic,0.000000,(factors)

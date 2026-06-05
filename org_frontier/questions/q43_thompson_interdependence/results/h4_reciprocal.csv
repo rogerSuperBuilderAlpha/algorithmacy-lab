@@ -1,0 +1,4 @@
+form,rules,edges,structure,max_phi,mip_partition,major_complex_core,major_complex_phi
+instrument_control,"[x[1], x[0]&x[2], x[1]]",W->S; S->W; S->C; C->S,triadic,2.000000,"2 parts: {W,SC}",,
+cyclic_reciprocal,"[x[1], x[0]&x[2], x[1]]",W->S; S->W; S->C; C->S,triadic,2.000000,"2 parts: {W,SC}","('W', 'S', 'C')",2.000000
+acyclic_bidirectional,"[x[1], x[0]&x[2], x[2]]",W->S; S->W; C->S; C->C,dyadic,0.000000,(factors),,

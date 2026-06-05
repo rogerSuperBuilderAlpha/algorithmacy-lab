@@ -1,0 +1,7 @@
+thompson_type,encoding,joint_determination,feedback_cycle,verdict,max_phi,mip_partition
+pooled,independent-contribution,False,True,dyadic,0.0,(factors)
+pooled,all-required,True,True,triadic,2.0,"2 parts: {W,SC}"
+sequential,propagating-chain,True,True,triadic,2.0,"2 parts: {W,SC}"
+sequential,acyclic-handoff,True,False,dyadic,0.0,(factors)
+reciprocal,cyclic,True,True,triadic,2.0,"2 parts: {W,SC}"
+reciprocal,bidirectional-acyclic,True,True,dyadic,0.0,(factors)
