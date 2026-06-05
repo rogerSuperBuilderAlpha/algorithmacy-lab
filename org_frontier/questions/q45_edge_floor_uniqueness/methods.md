@@ -43,7 +43,7 @@ Must read **triadic**, max_phi = 2.0, MIP `2 parts: {W,SC}`. Abort if it fails.
 - **Script:** `probe_parity_floor.py`
 
 ## H4 test — OR does not bind in strict mediation
-- **Ensemble:** all 256 strict-mediation forms with S-index 7 (expect 64).
+- **Ensemble:** all 256 strict-mediation forms with S-index 7 (expect 16).
 - **Measure:** verdict; count of triadic OR forms.
 - **Controls:** instrument control.
 - **Decision rule:** H4 confirmed if zero OR forms are triadic. H4 refuted if at least one OR form is

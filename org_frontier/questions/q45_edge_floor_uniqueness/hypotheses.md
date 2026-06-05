@@ -33,8 +33,8 @@ Prior probes (#30, #56, #113, #115, #116, #94, #7) supply the structural priors 
   cannot achieve even parity-level irreducibility at the strict-mediation topology, despite matching AND
   at larger n in the all-required hub (#116).
 - **H0:** At least one OR-commit strict-mediation form is triadic.
-- **Predicted outcome:** Zero OR forms among the 24 triadic rows; all 64 OR-labelled forms (4 W' × 16
-  S × 1 C' pattern with S-index 7) are dyadic. H0 is refuted.
+- **Predicted outcome:** Zero OR forms among the 24 triadic rows; all 16 OR-labelled forms (4 W' × 4 C'
+  pattern with S-index 7) are dyadic. H0 is refuted. [See erratum below.]
 
 ## H5 — Global 4-edge triadic maximum is conjunctive-only
 - **Claim:** Across all 4096 arbitrary n=3 wirings, every triadic form at exactly 4 edges with Φ = 2.0
@@ -44,3 +44,11 @@ Prior probes (#30, #56, #113, #115, #116, #94, #7) supply the structural priors 
 - **Predicted outcome:** The set of max-Φ 4-edge triadic forms equals the 16 conjunctive strict-mediation
   forms (possibly relabeled). H0 is refuted; the conjunctive hub is the unique max-Φ achiever at the
   global 4-edge floor.
+
+## Erratum (post-publication correction)
+
+The pre-registered H4 stated the OR commit-class holds 64 forms (from a "4 W' × 16 S × 1 C'" count). The
+class holds 16 forms: with the S-function fixed to OR (index 7), only the worker and counterpart reads
+vary, 4 × 4 = 16. The probe and methods that said "expect 64" are corrected to "expect 16." The H4
+prediction (zero OR forms triadic) and its refutation (two OR forms, W1_S7_C1 and W2_S7_C2, are triadic
+at Φ = 2.0) are unaffected by the count, and every number reported in `paper.md` already used 16.
