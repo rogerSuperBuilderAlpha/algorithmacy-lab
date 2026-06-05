@@ -490,6 +490,59 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q57-h1-recipient-seam-rule",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_recipient_seam_rule",
+      "expect": [
+        "recipient matches tied singleton: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q57-h2-dual-norm-split",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_dual_norm_split",
+      "expect": [
+        "both outer cuts at system Phi: 16/16",
+        "tied norm 0.5, excluded norm 1.0: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q57-h3-norm-ratio",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_norm_ratio",
+      "expect": [
+        "excluded/tied norm ratio 2.0: 16/16",
+        "ratio spread: 0.000000",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q57-h4-complete-norm-equal",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_complete_norm_equal",
+      "expect": [
+        "complete norm equals tied outer: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q57-h5-gate-invariant-direction",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_gate_invariant_direction",
+      "expect": [
+        "worker topologies at 2 parts: {W,SC}: 8/8",
+        "counterpart topologies at 2 parts: {WS,C}: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H5)"
     }
   ]
 }

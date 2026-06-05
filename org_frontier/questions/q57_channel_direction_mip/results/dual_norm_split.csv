@@ -1,0 +1,17 @@
+label,topology,dual_at_sys,tied_norm,excl_norm
+W1_S2_C1,counterpart_xor,True,0.5,1.0
+W1_S2_C1,worker_xnor,True,0.5,1.0
+W1_S4_C1,worker_xor,True,0.5,1.0
+W1_S4_C1,counterpart_xnor,True,0.5,1.0
+W1_S11_C1,worker_xor,True,0.5,1.0
+W1_S11_C1,counterpart_xnor,True,0.5,1.0
+W1_S13_C1,counterpart_xor,True,0.5,1.0
+W1_S13_C1,worker_xnor,True,0.5,1.0
+W2_S2_C2,counterpart_xor,True,0.5,1.0
+W2_S2_C2,worker_xnor,True,0.5,1.0
+W2_S4_C2,worker_xor,True,0.5,1.0
+W2_S4_C2,counterpart_xnor,True,0.5,1.0
+W2_S11_C2,worker_xor,True,0.5,1.0
+W2_S11_C2,counterpart_xnor,True,0.5,1.0
+W2_S13_C2,counterpart_xor,True,0.5,1.0
+W2_S13_C2,worker_xnor,True,0.5,1.0
