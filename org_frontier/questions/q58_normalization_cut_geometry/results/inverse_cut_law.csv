@@ -1,0 +1,17 @@
+label,topology,norm_phi_ratio,cut_ones_ratio
+W1_S2_C1,counterpart_xor,2.0,2.0
+W1_S2_C1,worker_xnor,2.0,2.0
+W1_S4_C1,worker_xor,2.0,2.0
+W1_S4_C1,counterpart_xnor,2.0,2.0
+W1_S11_C1,worker_xor,2.0,2.0
+W1_S11_C1,counterpart_xnor,2.0,2.0
+W1_S13_C1,counterpart_xor,2.0,2.0
+W1_S13_C1,worker_xnor,2.0,2.0
+W2_S2_C2,counterpart_xor,2.0,2.0
+W2_S2_C2,worker_xnor,2.0,2.0
+W2_S4_C2,worker_xor,2.0,2.0
+W2_S4_C2,counterpart_xnor,2.0,2.0
+W2_S11_C2,worker_xor,2.0,2.0
+W2_S11_C2,counterpart_xnor,2.0,2.0
+W2_S13_C2,counterpart_xor,2.0,2.0
+W2_S13_C2,worker_xnor,2.0,2.0
