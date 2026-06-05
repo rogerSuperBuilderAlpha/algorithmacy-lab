@@ -1,0 +1,17 @@
+label,topology,singleton,thompson_type,heterogeneous
+W1_S2_C1,counterpart_xor,C,reciprocal,False
+W1_S2_C1,worker_xnor,W,sequential,False
+W1_S4_C1,worker_xor,W,sequential,False
+W1_S4_C1,counterpart_xnor,C,reciprocal,False
+W1_S11_C1,worker_xor,W,sequential,False
+W1_S11_C1,counterpart_xnor,C,reciprocal,False
+W1_S13_C1,counterpart_xor,C,reciprocal,False
+W1_S13_C1,worker_xnor,W,sequential,False
+W2_S2_C2,counterpart_xor,C,reciprocal,False
+W2_S2_C2,worker_xnor,W,sequential,False
+W2_S4_C2,worker_xor,W,sequential,False
+W2_S4_C2,counterpart_xnor,C,reciprocal,False
+W2_S11_C2,worker_xor,W,sequential,False
+W2_S11_C2,counterpart_xnor,C,reciprocal,False
+W2_S13_C2,counterpart_xor,C,reciprocal,False
+W2_S13_C2,worker_xnor,W,sequential,False
