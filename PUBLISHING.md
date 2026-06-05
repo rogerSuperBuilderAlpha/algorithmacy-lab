@@ -74,9 +74,11 @@ without disturbing the published record.
 
 A reviewer works a submission in four passes, in order. The first two are mechanical and gate the rest.
 
-1. **Reproduction.** Check out the branch, run each command in the PR description, and confirm every
-   number in the prose matches the output. A number that does not reproduce blocks the merge until it is
-   fixed or withdrawn.
+1. **Reproduction.** Continuous integration runs this pass automatically. A submission registers each
+   number it reports in [`ci/reproduce.json`](ci/reproduce.json) — a command and the output strings that
+   must appear — and the `reproduce-the-numbers` workflow re-derives them on every pull request. A number
+   that does not reproduce fails the check and blocks the merge until it is fixed or withdrawn. A reviewer
+   can also run `python ci/reproduce.py` locally.
 2. **Pre-commitment audit.** For a study, confirm the git history shows the hypotheses and decision
    rules committed before the result. Confirm nulls and refutations are reported, not buried.
 3. **Argument.** Judge the claim itself: whether the model represents what it says it does, whether the

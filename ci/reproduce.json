@@ -1,0 +1,25 @@
+{
+  "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
+  "checks": [
+    {
+      "name": "instrument-controls",
+      "cmd": "python -m org_frontier.classifier.validate",
+      "expect": [
+        "Instrument validated",
+        "ats_triad_mediator     -> triadic",
+        "gig_dyadic_model       -> dyadic"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/classifier/FINDINGS.md"
+    },
+    {
+      "name": "parity-determination",
+      "cmd": "python -m org_frontier.corpus.determination",
+      "expect": [
+        "parity functions ['XOR', 'XNOR'] lead: 4/16 each vs 2/16 for monotone"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/STRUCTURAL_FINDINGS.md (finding 4)"
+    }
+  ]
+}
