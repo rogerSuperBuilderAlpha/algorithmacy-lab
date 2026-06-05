@@ -1,0 +1,4 @@
+form,structure,max_phi,seam_set,expected,match
+"worker_side  (W'=S&C, adds C->W)",triadic,1.000000,C|W,C,False
+"counterpart  (C'=S&W, adds W->C)",triadic,1.000000,C|W,W,False
+symmetric    (both channels),triadic,6.000000,,C|W,False
