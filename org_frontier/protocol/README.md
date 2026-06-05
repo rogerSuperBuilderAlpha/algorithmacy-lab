@@ -46,8 +46,8 @@ replacement fails. The run validated the orchestration with no manual fallback.
 
 ## The public write-up
 
-`../essays/how_to_research_with_ai.md` argues the general method, grounded in the methodology research and
-the 134-probe track record, with the Q43 pilot as the worked example.
+`../essays/studying_algorithmacy.md` lays out the method this lab runs, grounded in the methodology
+research and the 134-probe track record, with the Q43 pilot as the worked example.
 
 ## The queue
 

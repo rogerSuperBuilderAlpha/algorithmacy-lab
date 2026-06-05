@@ -3,6 +3,10 @@
 Contributions are welcome: a new research question, a probe, a foundations experiment, a bug fix, or a
 correction to a result. This repository runs on a few firm conventions.
 
+To **publish an essay or a study** through the public, reproducibility-first review process — fork, pull
+request into the `contrib` branch, maintainer sign-off, merge — see [`PUBLISHING.md`](PUBLISHING.md).
+This file covers the code, probe, and house-style conventions that a submission has to meet.
+
 ## Setup
 
 ```bash

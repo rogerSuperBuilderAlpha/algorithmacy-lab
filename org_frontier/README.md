@@ -61,8 +61,9 @@ methods, probes, results, and a paper.
 
 ## Essays — [`essays/`](essays/)
 
-- [`how_to_research_with_ai.md`](essays/how_to_research_with_ai.md) — the AI-assisted research method,
-  grounded in the methodology research and the 134-probe record.
+- [`studying_algorithmacy.md`](essays/studying_algorithmacy.md) — the method this lab runs: the instrument,
+  how a form of work becomes a system PyPhi can read, the validate/pre-commit/report-nulls discipline, what
+  it has established, and what it cannot do. The repo-specific methodology essay.
 - [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — the thesis and how exact Φ decides
   which literacy a coordination form demands.
 - [`pyphi_org_theory_catalog.md`](essays/pyphi_org_theory_catalog.md) — a ~10k-word catalog of every

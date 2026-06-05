@@ -21,7 +21,7 @@ The active program. Start at [`org_frontier/README.md`](org_frontier/README.md).
 - **The research protocol** — a fixed six-stage pipeline (review → deep research → five hypotheses fixed
   before computing → methods → run against the exact-Φ instrument → full paper), made runnable end to end.
   See [`org_frontier/protocol/`](org_frontier/protocol/) and the method essay
-  [`org_frontier/essays/how_to_research_with_ai.md`](org_frontier/essays/how_to_research_with_ai.md).
+  [`org_frontier/essays/studying_algorithmacy.md`](org_frontier/essays/studying_algorithmacy.md).
 - **The logbook** — 134 exact-Φ experiments ("probes"), each with question, hypothesis, method, and
   result, about a third of them nulls or refinements. [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 - **A worked paper** — the first question run through the automated pipeline (does the verdict reproduce
@@ -63,5 +63,12 @@ gitignored and invisible to this repo. Where you run git from decides which remo
 
 ## License and citation
 
-MIT — see [LICENSE](LICENSE). To cite, see [CITATION.cff](CITATION.cff). Contributions welcome; see
-[CONTRIBUTING.md](CONTRIBUTING.md).
+MIT — see [LICENSE](LICENSE). To cite, see [CITATION.cff](CITATION.cff).
+
+## Contributing and publishing
+
+Contributions are welcome, and the record is meant to grow by them. [`PUBLISHING.md`](PUBLISHING.md)
+describes how to publish an essay or a study here: fork, open a pull request into the `contrib` branch,
+pass a reproducibility-first public review, and get merged. The aspiration is a community of maintainers
+who sign off on submissions in a peer review that is reproducible by construction. Code and probe
+conventions are in [`CONTRIBUTING.md`](CONTRIBUTING.md).

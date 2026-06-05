@@ -43,7 +43,7 @@ and a draft before publishing or deploying — do not push live without confirma
 
 **Links to feature (verify each resolves before publishing):**
 - The repository: **https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab**
-- The method write-up: `org_frontier/essays/how_to_research_with_ai.md`
+- The method write-up: `org_frontier/essays/studying_algorithmacy.md`
 - The protocol spec: `org_frontier/protocol/RESEARCH_PROTOCOL.md`
 - The experiment catalog: `org_frontier/essays/pyphi_org_theory_catalog.md`
 - The logbook: `org_frontier/probes/PROBES.md`
