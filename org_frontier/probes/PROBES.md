@@ -803,3 +803,24 @@ reach system Phi on every aligned one-sided pair; the recipient-singleton cut ca
 Complete shares the 0.5 minimum, which explains its co-entry (188). XOR and XNOR gate polarity preserve
 the same recipient→singleton mapping (189). Direction fixes the favored seam through partition
 normalization on the recipient singleton, not through gate bijectivity or commit alignment alone.
+
+### Question Q58 — normalization_cut_geometry
+
+| # | Concept (Q58) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 190 | Severed-edge ratio (H1) | Recipient severs twice as many cut-matrix ones | **confirmed** | 16/16 cut_ones ratio 2.0 (4 vs 2); spread 0. `probe_severed_edge_ratio.py` |
+| 191 | Norm factor ratio (H2) | Excluded/tied normalization_factor ratio 2.0 | **confirmed** | 16/16 ratio 2.0 (0.5 vs 0.25); spread 0. `probe_norm_factor_ratio.py` |
+| 192 | Equal phi baseline (H3) | Unnormalized phi identical on both outer cuts | **confirmed** | 16/16 phi ratio 1.0 (both 2.0). `probe_equal_phi_baseline.py` |
+| 193 | Complete cut match (H4) | Complete shares recipient cut geometry | **confirmed** | 16/16 cut_ones=4 and norm_factor=0.25 match. `probe_complete_cut_match.py` |
+| 194 | Inverse cut law (H5) | norm_phi ratio equals cut_ones ratio | **confirmed** | 16/16 identity holds (ratio 2.0). `probe_inverse_cut_law.py` |
+
+## Reading across Q58 (probes 190–194)
+
+Q57 (#187) left the two-to-one normalized_phi ratio documented without inspecting the normalization
+denominator. The ratio follows from IIT-4.0 `NUM_CONNECTIONS_CUT` on min-norm at-system-Phi partition
+representatives. Both outer cuts carry unnormalized phi=2.0; the recipient singleton severs four
+cut-matrix connections, the non-recipient severs two (190). Normalization_factor is 0.25 on the recipient
+and 0.5 on the non-recipient, producing normalized_phi 0.5 and 1.0 (191). Unnormalized phi asymmetry does
+not drive the split (192). Complete co-enters the tie set because its min-norm representative shares the
+recipient's four-connection cut geometry (193). The normalized_phi ratio equals the inverse cut-ones ratio
+on every pair (194).

@@ -543,6 +543,59 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q58-h1-severed-edge-ratio",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_severed_edge_ratio",
+      "expect": [
+        "cut_ones tied/excl ratio 2.0: 16/16",
+        "cut_ones spread: 0.000000",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q58-h2-norm-factor-ratio",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_norm_factor_ratio",
+      "expect": [
+        "norm_factor excl/tied ratio 2.0: 16/16",
+        "norm_factor spread: 0.000000",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q58-h3-equal-phi-baseline",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_equal_phi_baseline",
+      "expect": [
+        "phi tied/excl ratio 1.0: 16/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q58-h4-complete-cut-match",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_complete_cut_match",
+      "expect": [
+        "complete cut_ones matches recipient: 16/16",
+        "complete norm_factor matches recipient: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q58-h5-inverse-cut-law",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_inverse_cut_law",
+      "expect": [
+        "norm_phi ratio equals cut_ones ratio: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H5)"
     }
   ]
 }
