@@ -40,6 +40,15 @@ gates:
 - Reuse the shared infrastructure rather than rebuilding it: `org_frontier/classifier/`,
   `org_frontier/probes/lib.py`, `org_frontier/probes/_info.py`, `foundations/proxy_audit/exact_phi.py`.
 
+## Register your numbers for CI
+
+Every number a submission reports has to reproduce from a committed script, and the
+`reproduce-the-numbers` workflow checks this on every pull request. Add an entry to
+[`ci/reproduce.json`](ci/reproduce.json) for each claimed result: a `name`, the `cmd` to run from the
+repo root, and the `expect` strings its output must contain (include the number verbatim). Run
+`python ci/reproduce.py` locally to confirm it passes before opening the PR. Keep checks fast and
+deterministic; exact Φ past a few nodes is too slow for CI.
+
 ## Prose
 
 All prose follows the house style in [`CLAUDE.md`](CLAUDE.md): no first person, plain declarative
