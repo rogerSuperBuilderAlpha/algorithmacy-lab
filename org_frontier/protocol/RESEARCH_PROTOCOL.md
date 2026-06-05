@@ -42,7 +42,11 @@ the gap is already closed. A scan of two or three known papers is not a substitu
 spirit of multiple working hypotheses rather than one favored guess. **Artifact:** `hypotheses.md` — H1
 through H5, each with the structurally-expected null H0 stated alongside, and the outcome each predicts
 named in advance. **Gate:** all five are written and committed before any computation; each is falsifiable
-by a test the next stage can design; the five are distinct, not rephrasings of one.
+by a test the next stage can design; the five are distinct, not rephrasings of one. **The count is a
+discipline, not a principle.** Chamberlin (1890) prescribes "every tenable hypothesis," and the number is
+set by the phenomenon. Five guards against single-hypothesis attachment; it is informative only if the
+five are identifiable under the instrument (Yanco 2020). Drop to fewer when the question genuinely admits
+fewer distinct, separable predictions, and say so.
 
 ### Stage 4 — Methods
 **Purpose.** Specify, per hypothesis, the exact test. **Artifact:** `methods.md` — for each hypothesis: the
@@ -52,7 +56,10 @@ infrastructure:** `classifier/classifier.py` (`classify_rules`, `tpm_from_rules`
 `probes/lib.py` (`verdict`, `major_complex`, `max_phi_float`), `probes/_info.py` (entropy, mutual
 information, transfer entropy, O-information), `proxy_audit/exact_phi.py` (exact Φ, trajectories). **Gate:**
 a reader could reproduce every test from `methods.md` without the code; each hypothesis has a decision
-rule fixed before the run.
+rule fixed before the run. **This stage carries the credibility.** The evidence on pre-registration is that
+fixing hypotheses alone changes little; the complete pre-analysis plan is what reduces p-hacking (Brodeur
+2024). The decision rule named here, before the run, is the load-bearing commitment — not the bare act of
+listing hypotheses in Stage 3.
 
 ### Stage 5 — Run the tests
 **Purpose.** Execute the methods and capture results. **Artifact:** `probe_*.py` scripts (the existing
@@ -75,6 +82,10 @@ hypotheses are reported as refuted; the prose passes the de-slop checks below; e
 
 - **Instrument validation before comparison.** Stage 5 will not produce a comparison number until a known
   control passes. Most real bugs surface here.
+- **The validation gap.** A passed computational test is evidence about the model, and at most about a
+  second model that reproduces it (docking; Axtell 1996). It is not yet evidence about a real organization.
+  Cross-model agreement establishes internal validity; external validity to organizations is a separate,
+  unmet claim. Every paper states this in Limitations and does not overread the in-silico result.
 - **Honest nulls.** A refuted or partial hypothesis is a first-class result. The 134-probe logbook is
   roughly one-third nulls and refinements, and that mix is what makes it credible.
 - **De-slop pass on all prose** (`CLAUDE.md`). No first person. Cut the antithesis machine (`, not X`,
