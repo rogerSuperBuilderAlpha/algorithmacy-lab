@@ -69,6 +69,8 @@ MIT — see [LICENSE](LICENSE). To cite, see [CITATION.cff](CITATION.cff).
 
 Contributions are welcome, and the record is meant to grow by them. [`PUBLISHING.md`](PUBLISHING.md)
 describes how to publish an essay or a study here: fork, open a pull request into the `contrib` branch,
-pass a reproducibility-first public review, and get merged. The aspiration is a community of maintainers
-who sign off on submissions in a peer review that is reproducible by construction. Code and probe
-conventions are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+pass a reproducibility-first public review, and get merged. Both `contrib` and `main` are branch-protected;
+every change is a pull request, the `reproduce-the-numbers` workflow re-derives each registered number,
+and a merge needs one approving review. The aspiration is a community of maintainers who sign off on
+submissions in a peer review that is reproducible by construction. Code and probe conventions are in
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
