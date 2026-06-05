@@ -648,6 +648,58 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q60-h1-return-path-recipient",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_return_path_tracks_recipient",
+      "expect": [
+        "worker -> sequential: 8/8",
+        "counterpart -> reciprocal: 8/8",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q60-h2-uniform-triadic",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_uniform_triadic_verdict",
+      "expect": [
+        "triadic structure: 16/16",
+        "max_phi=2.0: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q60-h3-cycle-collapse",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_cycle_collapse",
+      "expect": [
+        "feedback_cycle=True: 16/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q60-h4-type-tracks-template",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_type_tracks_template",
+      "expect": [
+        "template match total: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q60-h5-no-phi-discrimination",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_no_phi_discrimination",
+      "expect": [
+        "max_phi spread: 0.000000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H5)"
     }
   ]
 }

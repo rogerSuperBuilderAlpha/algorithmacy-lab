@@ -846,3 +846,25 @@ difference, fixing the adjusted ratio at 3.0 (198). Worker and counterpart recip
 edge templates preserved under XOR and XNOR (199). The Q51–Q58 cut-geometry thread closes here: mediator
 severance in the recipient-only difference is the residual source of partition asymmetry beyond the shared
 cross-edge.
+
+### Question Q60 — thompson_backchannel
+
+| # | Concept (Q60) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 200 | Return-path recipient (H1) | Q43 return-path typing tracks back-channel recipient | **confirmed** | 8/8 worker→sequential, 8/8 counterpart→reciprocal; 0 other. `probe_return_path_tracks_recipient.py` |
+| 201 | Uniform triadic (H2) | All ceiling pairs triadic at max_phi=2.0 | **confirmed** | 16/16 triadic; max_phi spread 0. `probe_uniform_triadic_verdict.py` |
+| 202 | Cycle collapse (H3) | Feedback-cycle predicate assigns all reciprocal | **confirmed** | 16/16 cycle=True; 0 sequential by cycle. `probe_cycle_collapse.py` |
+| 203 | Type tracks template (H4) | Return-path type aligns with Q59 edge template | **confirmed** | 16/16 template match; 8/8 each subpanel. `probe_type_tracks_template.py` |
+| 204 | No Phi split (H5) | Sequential/reciprocal subpanels identical at verdict | **confirmed** | Both subpanels triadic mean 2.0 spread 0. `probe_no_phi_discrimination.py` |
+
+## Reading across Q60 (probes 200–204)
+
+Q59 (#198, #199) fixed recipient-class mediator-severance templates without reconnecting to Q43 Thompson
+interdependence. Q43 (#135–#139) showed sequential/reciprocal splits turn on return path and feedback cycle on
+the baseline triple. On sixteen aligned one-sided back-channel forms all held at triadic max_phi=2.0, return-path
+typing and recipient templates are the same partition (200, 203): worker halves sequential with worker edge
+template, counterpart halves reciprocal with counterpart template. The IIT verdict offers no
+sequential-vs-reciprocal discrimination (201, 204). Q43's feedback-cycle predicate assigns every form
+reciprocal (202), so cycle presence alone cannot track the recipient split return-path typing preserves.
+Interdependence typing survives at partition-template level after the back-channel raises every form to the
+triadic ceiling; it collapses at the verdict and cycle-predicate levels.
