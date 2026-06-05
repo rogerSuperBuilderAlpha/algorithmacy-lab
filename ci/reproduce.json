@@ -69,6 +69,60 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q45-h1-edge-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_edge_floor",
+      "expect": [
+        "triadic forms: 24",
+        "forms off the 4-edge floor: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q45-h2-conjunctive-max",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_conjunctive_max",
+      "expect": [
+        "triadic forms at max Phi=2.0: 16",
+        "non-AND counterexamples: 14",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q45-h3-parity-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_parity_floor",
+      "expect": [
+        "parity triadic forms: 8",
+        "off-ceiling or off-floor: 0",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q45-h4-or-strict",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_or_strict",
+      "expect": [
+        "triadic OR forms: 2",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q45-h5-global-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_global_floor",
+      "expect": [
+        "triadic at 4 edges with max Phi=2.0: 192",
+        "non-conjunctive-strict counterexamples: 190",
+        "H5 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H5)"
     }
   ]
 }
