@@ -1,0 +1,17 @@
+label,topology,excluded_singleton,thompson_type,inverse_type_match,direct_type_match
+W1_S2_C1,counterpart_xor,W,reciprocal,True,False
+W1_S2_C1,worker_xnor,C,sequential,True,False
+W1_S4_C1,worker_xor,C,sequential,True,False
+W1_S4_C1,counterpart_xnor,W,reciprocal,True,False
+W1_S11_C1,worker_xor,C,sequential,True,False
+W1_S11_C1,counterpart_xnor,W,reciprocal,True,False
+W1_S13_C1,counterpart_xor,W,reciprocal,True,False
+W1_S13_C1,worker_xnor,C,sequential,True,False
+W2_S2_C2,counterpart_xor,W,reciprocal,True,False
+W2_S2_C2,worker_xnor,C,sequential,True,False
+W2_S4_C2,worker_xor,C,sequential,True,False
+W2_S4_C2,counterpart_xnor,W,reciprocal,True,False
+W2_S11_C2,worker_xor,C,sequential,True,False
+W2_S11_C2,counterpart_xnor,W,reciprocal,True,False
+W2_S13_C2,counterpart_xor,W,reciprocal,True,False
+W2_S13_C2,worker_xnor,C,sequential,True,False

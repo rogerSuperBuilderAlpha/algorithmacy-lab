@@ -888,3 +888,24 @@ reciprocal. Seam is neither strictly finer nor coarser than return-path type (20
 singleton seam recovers the sequential/reciprocal partition max_phi loses (209) without adding information
 beyond return-path typing. Recipient party remains the common cause; seam and type are redundant encodings
 of the same two-way partition at the verdict level.
+
+### Question Q62 — excluded_cut_signal
+
+| # | Concept (Q62) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 210 | Excluded complement (H1) | Excluded singleton is complement of tied | **confirmed** | complement matches 16/16; mismatches 0/16. `probe_excluded_complement.py` |
+| 211 | Inverse type track (H2) | Excluded inversely tracks return-path type | **confirmed** | inverse 16/16; direct 0/16. `probe_inverse_type_track.py` |
+| 212 | Tied determines excluded (H3) | Excluded unique within each tied class | **confirmed** | within-tied heterogeneity 0/16. `probe_tied_determines_excluded.py` |
+| 213 | No third joint (H4) | Triple collapses to exactly two joint cells | **confirmed** | distinct joints 2; (W,seq,C) 8/8; (C,rec,W) 8/8. `probe_no_third_joint.py` |
+| 214 | Excluded norm uniform (H5) | Excluded norm 1.0 with no Phi subpanel lift | **confirmed** | norm 16/16; excluded-W/C spread 0. `probe_excluded_norm_phi.py` |
+
+## Reading across Q62 (probes 210–214)
+
+Q61 (#206, #208) showed tied singleton seam and return-path type are co-extensive on the identical panel.
+Q57 (#186) documented the excluded outer cut at normalized_phi=1.0 alongside the tied cut at 0.5. The
+excluded singleton is the tied complement on 16/16 pairs (210) and inversely encodes the same two-way
+partition type names (211): excluded C with sequential, excluded W with reciprocal. Conditional on tied seam,
+excluded is unique (212). The triple (tied, type, excluded) collapses to two joint cells with no third
+independent label (213). Norm asymmetry does not lift max_phi discrimination at excluded subpanels (214).
+The Q57–Q61 seam/typing micro-thread closes: recipient direction fixes both outer cuts, and the excluded cut
+carries no signal beyond the tied complement once seam and type are known.

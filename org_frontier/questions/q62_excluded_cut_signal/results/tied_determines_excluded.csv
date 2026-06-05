@@ -1,0 +1,17 @@
+label,topology,tied_singleton,excluded_singleton
+W1_S2_C1,counterpart_xor,C,W
+W1_S2_C1,worker_xnor,W,C
+W1_S4_C1,worker_xor,W,C
+W1_S4_C1,counterpart_xnor,C,W
+W1_S11_C1,worker_xor,W,C
+W1_S11_C1,counterpart_xnor,C,W
+W1_S13_C1,counterpart_xor,C,W
+W1_S13_C1,worker_xnor,W,C
+W2_S2_C2,counterpart_xor,C,W
+W2_S2_C2,worker_xnor,W,C
+W2_S4_C2,worker_xor,W,C
+W2_S4_C2,counterpart_xnor,C,W
+W2_S11_C2,worker_xor,W,C
+W2_S11_C2,counterpart_xnor,C,W
+W2_S13_C2,counterpart_xor,C,W
+W2_S13_C2,worker_xnor,W,C
