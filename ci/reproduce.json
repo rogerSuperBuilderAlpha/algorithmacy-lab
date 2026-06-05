@@ -224,6 +224,57 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q52-h1-wcentric-polarity",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_wcentric_polarity",
+      "expect": [
+        "W-centric matched forms: 4  mismatches: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q52-h2-ccentric-plateau",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_ccentric_plateau",
+      "expect": [
+        "C-centric matched at mid rung (0.415037): 4/4",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q52-h3-mid-invariant",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_mid_invariant",
+      "expect": [
+        "s in {4,11} at mid rung: 8/8",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q52-h4-symmetric-lift",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_symmetric_lift",
+      "expect": [
+        "dyadic W-centric lifted to high rung: 2/2",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q52-h5-symmetric-collapse",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_symmetric_collapse",
+      "expect": [
+        "at high rung 0.830075: 8/8",
+        "max_phi spread: 0.000000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H5)"
     }
   ]
 }

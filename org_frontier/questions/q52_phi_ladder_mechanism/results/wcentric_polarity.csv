@@ -1,0 +1,5 @@
+label,s_index,w_index,out_10,predicted_rung,observed_rung,structure,max_phi,match
+W1_S2_C1,2,1,1,high,high,triadic,0.830075,True
+W1_S13_C1,13,1,0,dyadic,dyadic,dyadic,0.000000,True
+W2_S2_C2,2,2,1,dyadic,dyadic,dyadic,0.000000,True
+W2_S13_C2,13,2,0,high,high,triadic,0.830075,True
