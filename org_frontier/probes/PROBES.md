@@ -334,6 +334,24 @@ of the verdict is not a hidden feature waiting to be named. It is a set of forms
 whole cause-effect structure, where cheap summaries of the graph, the functions, and the dynamics all read
 the same on both sides. Coupling is necessary and clean; the rest is exact computation or nothing.
 
+### Program v6 Wave Z2 — the scaling-law zoo and two fixes (Q1, R1, R2)
+
+| 132 | The scaling-law zoo (Q1) | Topologies fall into distinct Φ(n) law classes | **confirmed** | Five families, four laws. The chain is constant at Φ=2 and the ring is constant at Φ=4 for n≥4 — local two-neighbor coupling caps integration at a size-independent value. The conjunctive hub is linear (Φ=n−1), the pool is super-linear (Φ=n(n−1): 6, 12, 20, 30), and the parity hub decays (Φ=2^(2−n)). How integration responds to added members is set by the topology, from flat through serial or local coupling to quadratic through all-to-all. `probe_scaling_zoo.py` |
+| 133 | Party peer coupling (R1) | Peer edges keep the parties in the core | **confirmed** | Adding party-to-party edges restores the full core at every intermediate hub count where the plain m-hub dropped members: n=6 m=3 goes from core 4 (Φ=12) to the full core 6 (Φ=30); n=6 m=4 from core 5 to 6. The parties dropped only because they reached the group through the hubs; a lateral tie among them keeps each pivotal, and the integration climbs to the pool value. The center-periphery drop (#128) is a missing-edge effect. `probe_party_peer_coupling.py` |
+| 134 | Cross-topology coupling feature (R2) | A normalized coupling feature separates the verdict across topologies | **refuted** | Triadic pools carry near-zero mean pairwise MI (0.0002) — all-to-all coupling spreads integration so thin that pairs look independent — while dyadic back-channel forms carry high MI, so triadic forms average lower coupling (0.092) than dyadic ones (0.225) across topologies. Every coupling feature, raw or normalized, scores below chance (AUC 0.10–0.20). Coupling measures invert across topology, so the verdict has no topology-invariant cheap proxy. `probe_invariant_feature.py` |
+
+**Wave Z2 reading.** The geometry of coordination sorts into a small zoo of laws, the center-periphery
+drop has a fix, and the cross-topology instrument question gets a hard no. Adding members raises Φ
+differently by shape: a serial chain or a local ring holds integration flat, a single all-required hub
+grows it linearly, all-to-all coupling grows it quadratically, and a parity check decays it (#132). The
+parties that fell out of the multi-hub core return the moment they are given lateral edges, which also
+lifts integration to the pool value (#133), so the earlier fragmentation was a missing-link artifact, not
+a law. The instrument hits a wall the same probe explains. A pool's all-to-all integration drives its
+pairwise mutual information to zero, the opposite of a dyadic back-channel, so coupling measures rank the
+verdict backwards across topologies and no normalization repairs it (#134). The cheap screen is not just
+family-specific by training; it is family-specific in principle, because the quantity it reads means
+opposite things in different shapes.
+
 **Wave V3 reading.** Both the structural and behavioral reductions fail, and the dynamics add memory. The
 7% of the n=3 verdict the graph cannot decide is not a non-separability term — it is holistic, the same
 ceiling per-node features hit at Probe 13 (#106). The verdict is not a coordination-game-difficulty

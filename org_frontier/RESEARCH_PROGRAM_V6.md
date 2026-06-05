@@ -39,6 +39,12 @@ continue at 130. Runs on `worktree/org-frontier`.
 | Wave | Projects | Lane | Status |
 |------|----------|------|--------|
 | Z1 | P1 P2 | R | **done** (probes 130–131; P1 refuted — no attractor condition; P2 confirmed — near-boundary holistic tail) |
-| Z2 | Q1 R1 R2 | X | pending |
+| Z2 | Q1 R1 R2 | X | **done** (probes 132–134; Q1/R1 confirmed, R2 refuted — coupling inverts across topology) |
+
+**Program v6 complete.** Probes 130–134 close both waves. The residual is settled as a question — no
+attractor condition recovers it (P1), and the irreducible tail is a near-boundary holistic set (P2). The
+scaling laws form a small zoo (Q1), the center-periphery drop is fixed by party peer edges (R1), and the
+cheap instrument is family-specific in principle because coupling inverts across topology (R2). The
+logbook stands at 134 probes.
 
 Stop rule: all Lane-R/X projects done. Probe numbering continues from 129.
