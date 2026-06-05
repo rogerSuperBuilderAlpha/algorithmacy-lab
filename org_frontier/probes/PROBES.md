@@ -651,3 +651,17 @@ The worker is never the unique weakest seam of a triadic coordination form. Read
 ## Reading across Q45 (probes 145–149)
 
 Agenda #48 asked whether the conjunctive hub is the unique form achieving its Phi at the 2(n−1) edge floor. The floor itself is universal: every triadic strict-mediation form sits at exactly four edges (145), confirming #30. What is not unique is which commit saturates which Phi budget at that floor. All eight parity forms reach their class ceiling at Phi=0.5 on the same four edges (147), while sixteen monotone forms reach Phi=2.0 — but only two of those sixteen are AND commits; the rest include OR, NOR, NAND, and implication variants (146). OR is not categorically excluded: two of sixteen OR-labelled forms bind triadically at Phi=2.0 (148). In the full 4096 wiring space, 192 triadic forms at four edges reach Phi=2.0, and 190 lie outside strict-mediation AND (149). Uniqueness at the edge floor is a class property — monotone versus parity — not a property of the AND hub alone. The conjunctive scaling law (#116) describes the strongest monotone route, not the only commit that saturates the high ceiling at lean wiring.
+
+### Question Q50 — or_triadic_seam
+
+| # | Concept (Q50) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 150 | Matched party reads (H1) | OR binds iff W and C share the same non-constant read of S | **confirmed** | 2/16 OR forms triadic (W1_S7_C1, W2_S7_C2); matched-live predicate (iw=ic in {1,2}) has 0 false positives and 0 false negatives. `probe_or_matched.py` |
+| 151 | Constant reads (H2) | Constant party reads block OR binding | **confirmed** | 12/16 OR forms have iw or ic in {0,3}; 0 triadic among them. `probe_or_constant.py` |
+| 152 | Asymmetric reads (H3) | Mismatched party reads collapse OR | **confirmed** | 12/16 OR forms have iw != ic; 0 triadic among asymmetric forms. `probe_or_asymmetric.py` |
+| 153 | Seam tie (H4) | Binding OR forms share the canonical {W,C} seam | **confirmed** | W1_S7_C1 and W2_S7_C2 both triadic at max_phi=2.0; seam set {W,C} matches instrument control. `probe_or_seam.py` |
+| 154 | Commit symmetry (H5) | Symmetric commits need matched reads; implications need complementary | **confirmed** | 16 monotone Phi=2.0 forms: 8 symmetric (AND/OR/NOR/NAND) on matched diagonal; 8 implications on complementary anti-diagonal; 0 violations. `probe_commit_symmetry.py` |
+
+## Reading across Q50 (probes 150–154)
+
+Probe #148 left two OR-labelled forms binding at Phi=2.0 without explaining why fourteen siblings collapsed. The party-read structure is the separator. Both binding forms use matched non-constant reads of S — W'=S/C'=S for W1_S7_C1, W'=NOT S/C'=NOT S for W2_S7_C2 (150) — while constant reads (151) and asymmetric identity/NOT pairings (152) always stay dyadic. The binding pair reaches the same Phi=2.0 and {W,C} seam tie as the canonical conjunctive triad (153), so OR at the floor is not a distinct integration geometry. The rule splits by commit symmetry (154): commutative monotone functions (AND, OR, NOR, NAND) require matched party reads; implication commits require complementary reads instead. OR is not uniquely permissive — it is one of four symmetric commits sharing the matched-read rule, with only two of sixteen party-read combinations satisfying it.

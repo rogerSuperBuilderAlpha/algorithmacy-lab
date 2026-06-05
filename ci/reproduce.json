@@ -123,6 +123,56 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q50-h1-or-matched",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_matched",
+      "expect": [
+        "triadic OR forms: 2",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q50-h2-or-constant",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_constant",
+      "expect": [
+        "triadic among constant-read forms: 0",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q50-h3-or-asymmetric",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_asymmetric",
+      "expect": [
+        "triadic among asymmetric forms: 0",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q50-h4-or-seam",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_seam",
+      "expect": [
+        "both binding OR forms triadic Phi=2.0 with control seam?  True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q50-h5-commit-symmetry",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_commit_symmetry",
+      "expect": [
+        "cross-rule violations: 0",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H5)"
     }
   ]
 }
