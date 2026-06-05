@@ -94,3 +94,7 @@ the repo and remote** — not intent. Before any commit or push:
    `algorithmacy-lab`. Never mix them.
 3. State the target remote to the user before pushing.
 4. Never `git add -f dissertation/` in the outer repo, and never re-`git init` either tree.
+5. `algorithmacy-lab`'s `main` and `contrib` branches are protected: direct pushes are rejected, so
+   land changes through a pull request into `contrib` (branch off `contrib`, push the branch, open a
+   PR). One approving review is required; the owner can merge as admin while there is one maintainer.
+   The nested `dissertation/` repo is not protected and still takes direct pushes. See `PUBLISHING.md`.

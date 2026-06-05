@@ -39,12 +39,18 @@ otherwise you are pushing **algorithmacy-lab**.
 
 ## Worked examples
 
-**Pushing PyPhi / code work (→ algorithmacy-lab):**
+**Pushing PyPhi / code work (→ algorithmacy-lab):** `main` and `contrib` are branch-protected, so
+changes go through a pull request, not a direct push to `main` (see [`PUBLISHING.md`](PUBLISHING.md)).
 ```bash
 cd ~/iit-playground/pyphi-experiments        # outer repo (NOT dissertation/)
+git checkout contrib && git pull
+git checkout -b topic/my-change              # branch off contrib
 git add <files> && git commit -m "..."
-git push origin main
+git push -u origin topic/my-change
+gh pr create --base contrib                  # open a PR into contrib; merge after review
 ```
+The owner can still merge as a repository admin while there is one maintainer. Promotion to `main` is a
+separate `contrib` → `main` pull request.
 
 **Pushing dissertation work (→ algorithmacy-dissertation, private):**
 ```bash
