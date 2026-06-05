@@ -674,3 +674,25 @@ Probe #148 left two OR-labelled forms binding at Phi=2.0 without explaining why 
 ## Reading across Q51 (probes 155–159)
 
 Probe #154 left back-channel coupling untested. A minimal worker-side back-channel does not let matched-read implication forms reach Phi=2.0 (155 partial): zero of eight hit the ceiling though six bind triadically below it (156). Strict mediation keeps all eight matched forms dyadic (157), so the back-channel is load-bearing for verdict but not for ceiling strength. The same one-sided edge grades every complementary-read implication form down from Phi=2.0 while preserving triadicity (158 partial). A symmetric two-sided back-channel is sharper: all eight matched forms collapse to a single shared Phi=0.830075 (159), erasing the commit-index ladder that one-sided wiring leaves. The Q50 party-read rule stands at full strength; matched implication reads can bind only after coupling is added and only below the four-edge ceiling, unless the channel is symmetric on both sides.
+
+### Question Q52 — phi_ladder_mechanism
+
+| # | Concept (Q52) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 160 | W-centric polarity (H1) | S'(1,0) vs party-read index predicts high vs dyadic rung | **confirmed** | 4/4 W-centric matched forms: high (0.830075) iff S'(1,0) != (iw=2); zero mismatches. W1_S2_C1, W2_S13_C2 high; W1_S13_C1, W2_S2_C2 dyadic. `probe_wcentric_polarity.py` |
+| 161 | C-centric plateau (H2) | C-centric commits {4,11} always mid rung | **confirmed** | 4/4 C-centric matched forms triadic at 0.415037. `probe_ccentric_plateau.py` |
+| 162 | Mid invariant (H3) | Mid rung independent of party-read pairing | **confirmed** | 8/8 forms with s in {4,11} at 0.415037 (four matched, four complementary). `probe_mid_invariant.py` |
+| 163 | Symmetric lift (H4) | Two-sided channel lifts dyadic W-centric forms | **confirmed** | W1_S13_C1 and W2_S2_C2: one-sided dyadic -> symmetric triadic at 0.830075. `probe_symmetric_lift.py` |
+| 164 | Symmetric collapse (H5) | Symmetric panel unifies at one-sided high rung | **confirmed** | 8/8 matched symmetric forms triadic at uniform 0.830075; spread 0. `probe_symmetric_collapse.py` |
+
+## Reading across Q52 (probes 160–164)
+
+Q51 (#156) documented the ladder without naming its predictor. The mechanism is commit-class structure.
+W-centric implication commits {2,13} split by party-read polarity at the distinguishing state W=1,C=0:
+the high rung 0.830075 arrives when S'(1,0) differs from the negated-read flag (iw=2), and integration
+fails when they align (160). C-centric commits {4,11} never reach the high rung under one-sided wiring;
+all four matched and all four complementary forms share the mid plateau 0.415037 (161, 162). Symmetric
+two-sided coupling lifts the two dyadic W-centric mismatches and pulls the C-centric mid forms to the same
+0.830075 equilibrium (163, 164). Ladder collapse tracks restored bilateral outer-party coupling: one-sided
+channels leave commit-class-specific partial integration; symmetric channels reach the equilibrium probe #77
+graded on conjunctive triads.
