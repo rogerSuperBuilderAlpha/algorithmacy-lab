@@ -751,6 +751,56 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q62-h1-excluded-complement",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_complement",
+      "expect": [
+        "complement matches: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q62-h2-inverse-type-track",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_inverse_type_track",
+      "expect": [
+        "inverse type matches: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q62-h3-tied-determines-excluded",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_tied_determines_excluded",
+      "expect": [
+        "within-tied excluded heterogeneity: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q62-h4-no-third-joint",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_no_third_joint",
+      "expect": [
+        "distinct joint labels: 2",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q62-h5-excluded-norm-phi",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_norm_phi",
+      "expect": [
+        "excluded norm 1.0: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H5)"
     }
   ]
 }
