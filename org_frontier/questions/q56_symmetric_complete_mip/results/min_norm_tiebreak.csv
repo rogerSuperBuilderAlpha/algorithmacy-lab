@@ -1,0 +1,33 @@
+label,topology,official,predicted,match
+W1_S2_C1,counterpart_xor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W1_S2_C1,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S2_C1,worker_xnor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W1_S2_C1,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S4_C1,worker_xor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W1_S4_C1,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S4_C1,counterpart_xnor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W1_S4_C1,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S11_C1,worker_xor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W1_S11_C1,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S11_C1,counterpart_xnor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W1_S11_C1,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S13_C1,counterpart_xor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W1_S13_C1,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W1_S13_C1,worker_xnor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W1_S13_C1,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S2_C2,counterpart_xor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W2_S2_C2,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S2_C2,worker_xnor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W2_S2_C2,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S4_C2,worker_xor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W2_S4_C2,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S4_C2,counterpart_xnor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W2_S4_C2,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S11_C2,worker_xor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W2_S11_C2,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S11_C2,counterpart_xnor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W2_S11_C2,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S13_C2,counterpart_xor,"2 parts: {WS,C}|3 parts: {W,S,C}","2 parts: {WS,C}|3 parts: {W,S,C}",True
+W2_S13_C2,symmetric_xor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True
+W2_S13_C2,worker_xnor,"2 parts: {W,SC}|3 parts: {W,S,C}","2 parts: {W,SC}|3 parts: {W,S,C}",True
+W2_S13_C2,symmetric_xnor,"3 parts: {W,S,C}","3 parts: {W,S,C}",True

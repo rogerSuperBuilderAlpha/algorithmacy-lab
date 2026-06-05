@@ -1,0 +1,17 @@
+label,topology,at_sys_W_SC,at_sys_WS_C,outer_count_official
+W1_S2_C1,symmetric_xor,True,True,0
+W1_S2_C1,symmetric_xnor,True,True,0
+W1_S4_C1,symmetric_xor,True,True,0
+W1_S4_C1,symmetric_xnor,True,True,0
+W1_S11_C1,symmetric_xor,True,True,0
+W1_S11_C1,symmetric_xnor,True,True,0
+W1_S13_C1,symmetric_xor,True,True,0
+W1_S13_C1,symmetric_xnor,True,True,0
+W2_S2_C2,symmetric_xor,True,True,0
+W2_S2_C2,symmetric_xnor,True,True,0
+W2_S4_C2,symmetric_xor,True,True,0
+W2_S4_C2,symmetric_xnor,True,True,0
+W2_S11_C2,symmetric_xor,True,True,0
+W2_S11_C2,symmetric_xnor,True,True,0
+W2_S13_C2,symmetric_xor,True,True,0
+W2_S13_C2,symmetric_xnor,True,True,0
