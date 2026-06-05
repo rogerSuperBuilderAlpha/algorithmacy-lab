@@ -20,6 +20,55 @@
       ],
       "timeout": 300,
       "source": "org_frontier/STRUCTURAL_FINDINGS.md (finding 4)"
+    },
+    {
+      "name": "q49-h1-seam-tie",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_tie",
+      "expect": [
+        "seam set (singleton-severing two-part cuts): ['C', 'W']",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q49-h2-seam-family",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_family",
+      "expect": [
+        "triadic forms found: 24",
+        "worker-unique-seam violations: 0",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q49-h3-seam-break",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_break",
+      "expect": [
+        "H3 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q49-h4-seam-direction",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_direction",
+      "expect": [
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q49-h5-seam-mincut",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_mincut",
+      "expect": [
+        "min-cut: 8/11",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H5)"
     }
   ]
 }

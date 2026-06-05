@@ -1,0 +1,12 @@
+form,kind,structure,max_phi,phi_seam,graph_mincut,agree
+canonical_triad,conjunctive,triadic,2.000000,C|W,C|W,True
+worker_side  (C->W),asymmetric,triadic,1.000000,C|W,C|W,True
+counterpart  (W->C),asymmetric,triadic,1.000000,C|W,C|W,True
+W1_S6_C1,parity,triadic,0.500000,(none),C|W,False
+W1_S9_C1,parity,triadic,0.500000,(none),C|W,False
+W1_S6_C2,parity,triadic,0.500000,(none),C|W,False
+W1_S9_C2,parity,triadic,0.500000,(none),C|W,False
+W2_S6_C1,parity,triadic,0.500000,(none),C|W,False
+W2_S9_C1,parity,triadic,0.500000,(none),C|W,False
+W2_S6_C2,parity,triadic,0.500000,(none),C|W,False
+W2_S9_C2,parity,triadic,0.500000,(none),C|W,False
