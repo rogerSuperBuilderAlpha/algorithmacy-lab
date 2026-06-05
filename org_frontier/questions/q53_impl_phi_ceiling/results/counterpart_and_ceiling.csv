@@ -1,0 +1,9 @@
+label,structure,max_phi,edges,at_phi2
+W1_S2_C1,triadic,0.415037,5,False
+W1_S4_C1,triadic,0.830075,5,False
+W1_S11_C1,dyadic,0.000000,5,False
+W1_S13_C1,triadic,0.415037,5,False
+W2_S2_C2,triadic,0.415037,5,False
+W2_S4_C2,dyadic,0.000000,5,False
+W2_S11_C2,triadic,0.830075,5,False
+W2_S13_C2,triadic,0.415037,5,False

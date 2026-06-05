@@ -623,3 +623,120 @@ Caveat: read on the major complex; a coupling sweep would test robustness beyond
 ## Reading across Q43 (probes 135–139)
 
 Thompson's three interdependence types do not line up with the verdict as cleanly as the names suggest. The ordering probe (135) finds pooled coordination dyadic at Φ=0 while sequential and reciprocal both reach Φ=2.0, so the predicted pooled<sequential<reciprocal step collapses at the top: sequential ties reciprocal. The pooled probe (136) locates the real switch. Two pools at the same size n=3 in the same AND family land on opposite verdicts, and the difference is joint determination: an independent-contribution pool stays dyadic with a {W,S} complex, while an all-required pool binds the triad at Φ=2.0. Probes 137 and 138 isolate what makes sequential and reciprocal forms triadic, and in both cases it is a single edge. A propagating chain with a return edge is triadic; an acyclic hand-off is dyadic. A feedback cycle is triadic; a form carrying bidirectional labels but no cycle is dyadic. The primitives probe (139) then refutes the obvious account. Four forms share the pair (joint-determination, feedback-cycle) = (True, True), three of them with identical connectivity matrices, yet they split across both verdicts, and the cycle predicate also fires on a dyadic pool. The Thompson type spans both verdicts, but the {joint-det, feedback-cycle} pair does not predict which verdict a form gets. The verdict turns on closed causal loops in the actual cause-effect structure, and the named types are too coarse to track them.
+
+### Question Q49 — mip_seam_mincut
+
+| # | Concept (Q49) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 140 | The canonical worker seam (H1) | The {W,SC} MIP is a tie, not a unique fault line | **confirmed** | The canonical triad (S=W∧C) has system Φ=2.0 with 4 tied MIPs: {W,SC}, {WS,C}, and the complete {W,S,C} twice. Seam set {W,C}, {S,WC} absent. PyPhi prints {W,SC} by the IIT-4.0 maximal-existence tie-break, not because the worker is unique. Refines #26. `probe_seam_tie.py` |
+| 141 | No worker-unique seam (H2) | No triadic strict-mediation form severs the worker alone | **confirmed** | All 24 triadic n=3 forms have (W in seam) iff (C in seam); 0 worker-unique violations. 16 conjunctive forms seam {W,C} (Φ=2.0); 8 parity forms empty seam (Φ=0.5, complete-partition MIP). Recovers #33's 67%/33% as a W/C-symmetric tie, not a worker seam. `probe_seam_family.py` |
+| 142 | Back-channel breaks the tie (H3) | A one-sided W←C read makes the seam unique | **refuted** | Worker-side back-channel W'=S∧C stays triadic but drops to Φ=1.0; seam set stays {W,C}. A one-sided wiring asymmetry lowers integration without breaking the seam tie. `probe_seam_break.py` |
+| 143 | Seam follows read direction (H4) | The broken seam falls on the party without the extra read | **refuted** | Worker-side channel seam {W,C}; counterpart-side channel seam {W,C}; symmetric two-sided channel Φ=6.0 with empty seam. The read direction changes Φ magnitude, not which parties the MIP severs. `probe_seam_direction.py` |
+| 144 | Seam vs connectivity min-cut (H5) | The Φ-seam is not the graph min-cut in general | **confirmed** | Φ-seam and graph min-cut disagree on 8/11 forms. Conjunctive and one-sided forms agree ({W,C}); all 8 parity forms have empty Φ-seam (complete-partition MIP) vs min-cut {W,C}. No min-cut theorem for the seam (answers agenda #49: no). Extends #54/#94/#106 from the verdict to the partition's location. `probe_seam_mincut.py` |
+
+## Reading across Q49 (probes 140–144)
+
+The worker is never the unique weakest seam of a triadic coordination form. Reading the full MIP tie set instead of the single representative PyPhi prints, the canonical triad turns out to have four tied minimum-information partitions, and the {W,SC} cut that #26 read as the worker's seam ties exactly with its mirror {WS,C} (140). Across the whole strict-mediation family the pattern holds without exception: all 24 triadic forms sever the worker and the counterpart on equal terms, the 16 conjunctive forms as a {W,SC}/{WS,C} tie and the 8 parity forms as a complete partition with no singleton seam (141). So #33's 67% cutting {W,SC} are 16 W/C-symmetric ties, and its 33% are the parity forms, neither of which singles the worker out. The symmetry survives a structural asymmetry: a one-sided back-channel makes the wiring asymmetric and halves Φ, yet the seam stays tied (142), and the side carrying the extra read does not move it (143). The seam is a property of the cause-effect structure, which stays symmetric in the two parties as long as the determination does, and every triadic form has balanced determination influence (#16). That is why a connectivity min-cut, which sees only edges, matches the seam on the symmetric conjunctive forms and fails on every parity form, where there is no singleton seam to find (144). Agenda #49 asked for a min-cut theorem placing the MIP at the least-coupled node; for this family there is none, and the graph underdetermines not only the verdict (#54, #94, #106) but the location of the partition.
+
+### Question Q45 — edge_floor_uniqueness
+
+| # | Concept (Q45) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 145 | Edge floor binds triads (H1) | All triadic strict-mediation forms sit at 4 edges | **confirmed** | All 24 triadic forms have exactly 4 edges (= 2(n−1)); 0 off-floor. Replicates #30 at family scale. `probe_edge_floor.py` |
+| 146 | AND-only max Phi (H2) | Only AND commits reach Phi=2.0 at the floor | **refuted** | 16 triadic forms at Phi=2.0; only 2 use S-index 1 (AND). Other 14 use monotone non-AND commits (OR 7, NOR 8, NAND 14, implications 2/4/11/13). Max-Phi at floor is monotone-class, not AND-specific. `probe_conjunctive_max.py` |
+| 147 | Parity ceiling at floor (H3) | Parity forms saturate Phi=0.5 at 4 edges | **confirmed** | All 8 XOR/XNOR triadic forms: 4 edges, Phi=0.5 = 2^(2−3); 0 off-ceiling. Parity shares the floor but not the high Phi budget. `probe_parity_floor.py` |
+| 148 | OR excluded (H4) | No OR-commit strict-mediation form is triadic | **refuted** | 2/16 OR forms triadic at Phi=2.0 (W1_S7_C1, W2_S7_C2); 14 dyadic. OR binds in strict mediation for a subset of party reads. `probe_or_strict.py` |
+| 149 | Global AND-only max (H5) | Every 4-edge triadic Phi=2.0 form is strict-mediation AND | **refuted** | 312 triadic at 4 edges in 4096 space; 192 at Phi=2.0; only 2 strict-mediation AND; 190 counterexamples. The global max-Phi floor is not conjunctive-hub-unique. `probe_global_floor.py` |
+
+## Reading across Q45 (probes 145–149)
+
+Agenda #48 asked whether the conjunctive hub is the unique form achieving its Phi at the 2(n−1) edge floor. The floor itself is universal: every triadic strict-mediation form sits at exactly four edges (145), confirming #30. What is not unique is which commit saturates which Phi budget at that floor. All eight parity forms reach their class ceiling at Phi=0.5 on the same four edges (147), while sixteen monotone forms reach Phi=2.0 — but only two of those sixteen are AND commits; the rest include OR, NOR, NAND, and implication variants (146). OR is not categorically excluded: two of sixteen OR-labelled forms bind triadically at Phi=2.0 (148). In the full 4096 wiring space, 192 triadic forms at four edges reach Phi=2.0, and 190 lie outside strict-mediation AND (149). Uniqueness at the edge floor is a class property — monotone versus parity — not a property of the AND hub alone. The conjunctive scaling law (#116) describes the strongest monotone route, not the only commit that saturates the high ceiling at lean wiring.
+
+### Question Q50 — or_triadic_seam
+
+| # | Concept (Q50) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 150 | Matched party reads (H1) | OR binds iff W and C share the same non-constant read of S | **confirmed** | 2/16 OR forms triadic (W1_S7_C1, W2_S7_C2); matched-live predicate (iw=ic in {1,2}) has 0 false positives and 0 false negatives. `probe_or_matched.py` |
+| 151 | Constant reads (H2) | Constant party reads block OR binding | **confirmed** | 12/16 OR forms have iw or ic in {0,3}; 0 triadic among them. `probe_or_constant.py` |
+| 152 | Asymmetric reads (H3) | Mismatched party reads collapse OR | **confirmed** | 12/16 OR forms have iw != ic; 0 triadic among asymmetric forms. `probe_or_asymmetric.py` |
+| 153 | Seam tie (H4) | Binding OR forms share the canonical {W,C} seam | **confirmed** | W1_S7_C1 and W2_S7_C2 both triadic at max_phi=2.0; seam set {W,C} matches instrument control. `probe_or_seam.py` |
+| 154 | Commit symmetry (H5) | Symmetric commits need matched reads; implications need complementary | **confirmed** | 16 monotone Phi=2.0 forms: 8 symmetric (AND/OR/NOR/NAND) on matched diagonal; 8 implications on complementary anti-diagonal; 0 violations. `probe_commit_symmetry.py` |
+| 155 | Matched Phi=2.0 (H1) | Worker back-channel lifts matched implication to Phi=2.0 | **partial** | 0/8 matched-read implication forms reach Phi=2.0 with worker-side W'=f_W(S)&C; 6/8 triadic below ceiling (max 0.830075). `probe_impl_phi2_matched.py` |
+| 156 | Matched triadic (H2) | Worker back-channel makes most matched implication triadic | **confirmed** | 6/8 matched-read implication forms triadic with worker-side back-channel; magnitudes 0.830075 or 0.415037. `probe_impl_triadic_matched.py` |
+| 157 | Strict control (H3) | Matched implication dyadic without back-channel | **confirmed** | 0/8 matched-read implication forms triadic under strict mediation (all Phi=0). `probe_impl_strict_control.py` |
+| 158 | Complementary preserve (H4) | Back-channel keeps complementary implication at Phi=2.0 | **partial** | 8/8 complementary forms stay triadic with back-channel but all drop below Phi=2.0 (0.830075 or 0.415037). `probe_impl_complementary_preserve.py` |
+| 159 | Symmetric unify (H5) | Two-sided back-channel unifies matched implication binding | **confirmed** | 8/8 matched-read implication forms triadic at uniform max_phi=0.830075 with six edges under symmetric W'=f_W(S)&C, C'=f_C(S)&W. `probe_impl_symmetric_unify.py` |
+
+## Reading across Q50 (probes 150–154)
+
+Probe #148 left two OR-labelled forms binding at Phi=2.0 without explaining why fourteen siblings collapsed. The party-read structure is the separator. Both binding forms use matched non-constant reads of S — W'=S/C'=S for W1_S7_C1, W'=NOT S/C'=NOT S for W2_S7_C2 (150) — while constant reads (151) and asymmetric identity/NOT pairings (152) always stay dyadic. The binding pair reaches the same Phi=2.0 and {W,C} seam tie as the canonical conjunctive triad (153), so OR at the floor is not a distinct integration geometry. The rule splits by commit symmetry (154): commutative monotone functions (AND, OR, NOR, NAND) require matched party reads; implication commits require complementary reads instead. OR is not uniquely permissive — it is one of four symmetric commits sharing the matched-read rule, with only two of sixteen party-read combinations satisfying it.
+
+## Reading across Q51 (probes 155–159)
+
+Probe #154 left back-channel coupling untested. A minimal worker-side back-channel does not let matched-read implication forms reach Phi=2.0 (155 partial): zero of eight hit the ceiling though six bind triadically below it (156). Strict mediation keeps all eight matched forms dyadic (157), so the back-channel is load-bearing for verdict but not for ceiling strength. The same one-sided edge grades every complementary-read implication form down from Phi=2.0 while preserving triadicity (158 partial). A symmetric two-sided back-channel is sharper: all eight matched forms collapse to a single shared Phi=0.830075 (159), erasing the commit-index ladder that one-sided wiring leaves. The Q50 party-read rule stands at full strength; matched implication reads can bind only after coupling is added and only below the four-edge ceiling, unless the channel is symmetric on both sides.
+
+### Question Q52 — phi_ladder_mechanism
+
+| # | Concept (Q52) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 160 | W-centric polarity (H1) | S'(1,0) vs party-read index predicts high vs dyadic rung | **confirmed** | 4/4 W-centric matched forms: high (0.830075) iff S'(1,0) != (iw=2); zero mismatches. W1_S2_C1, W2_S13_C2 high; W1_S13_C1, W2_S2_C2 dyadic. `probe_wcentric_polarity.py` |
+| 161 | C-centric plateau (H2) | C-centric commits {4,11} always mid rung | **confirmed** | 4/4 C-centric matched forms triadic at 0.415037. `probe_ccentric_plateau.py` |
+| 162 | Mid invariant (H3) | Mid rung independent of party-read pairing | **confirmed** | 8/8 forms with s in {4,11} at 0.415037 (four matched, four complementary). `probe_mid_invariant.py` |
+| 163 | Symmetric lift (H4) | Two-sided channel lifts dyadic W-centric forms | **confirmed** | W1_S13_C1 and W2_S2_C2: one-sided dyadic -> symmetric triadic at 0.830075. `probe_symmetric_lift.py` |
+| 164 | Symmetric collapse (H5) | Symmetric panel unifies at one-sided high rung | **confirmed** | 8/8 matched symmetric forms triadic at uniform 0.830075; spread 0. `probe_symmetric_collapse.py` |
+
+## Reading across Q52 (probes 160–164)
+
+Q51 (#156) documented the ladder without naming its predictor. The mechanism is commit-class structure.
+W-centric implication commits {2,13} split by party-read polarity at the distinguishing state W=1,C=0:
+the high rung 0.830075 arrives when S'(1,0) differs from the negated-read flag (iw=2), and integration
+fails when they align (160). C-centric commits {4,11} never reach the high rung under one-sided wiring;
+all four matched and all four complementary forms share the mid plateau 0.415037 (161, 162). Symmetric
+two-sided coupling lifts the two dyadic W-centric mismatches and pulls the C-centric mid forms to the same
+0.830075 equilibrium (163, 164). Ladder collapse tracks restored bilateral outer-party coupling: one-sided
+channels leave commit-class-specific partial integration; symmetric channels reach the equilibrium probe #77
+graded on conjunctive triads.
+
+### Question Q53 — impl_phi_ceiling
+
+| # | Concept (Q53) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 165 | Counterpart AND ceiling (H1) | Counterpart-side AND restores Phi=2.0 | **partial** | 0/8 matched implication forms at Phi=2.0 with counterpart AND; 6/8 triadic below (max 0.830075). Ladder mirrors worker-side AND with W/C roles exchanged. `probe_counterpart_and_ceiling.py` |
+| 166 | Worker OR ceiling (H2) | OR-graded worker channel restores Phi=2.0 | **partial** | 0/8 at Phi=2.0 with worker OR; 6/8 triadic below (max 0.830075). Weaker OR gate does not recover ceiling. `probe_worker_or_ceiling.py` |
+| 167 | XOR exceeds equilibrium (H3) | XOR gates exceed 0.830075 | **confirmed** | 16/24 XOR pairs exceed 0.830075; symmetric_xor reaches Phi=2.0 on all 8 matched forms. `probe_xor_exceed_equilibrium.py` |
+| 168 | AND/OR/cross sweep (H4) | No conjunctive-style topology restores Phi=2.0 | **confirmed** | 0/64 pairs at Phi=2.0 across 8 AND/OR/cross topologies x 8 matched forms. `probe_topology_sweep_phi2.py` |
+| 169 | Supremum characterization (H5) | Global supremum is 0.830075 | **refuted** | Global max Phi=2.0 via XOR (16 argmax pairs); symmetric-AND uniform at 0.830075 (8/8, spread 0). Conjunctive supremum 0.830075; overall supremum 2.0. `probe_supremum_characterization.py` |
+
+## Reading across Q53 (probes 165–169)
+
+Q51–Q52 left 0.830075 as the apparent ceiling for matched-read implication under back-channel coupling.
+The topology-and-gate sweep splits that story. Conjunctive-style channels — AND, OR, and mixed cross
+combinations — never restore Phi=2.0 (168); their supremum stays 0.830075, saturated by symmetric-AND on
+all eight matched forms (169 partial). Counterpart-AND (165) and worker-OR (166) grade differently but
+still cap below the four-edge ceiling. XOR parity gates break the bound: symmetric_xor reaches Phi=2.0 on
+every matched form (167), and one-sided XOR reaches 2.0 on four of eight by commit class — worker_xor on
+C-centric {4,11}, counterpart_xor on W-centric {2,13}. The 0.830075 equilibrium is the absolute maximum
+for conjunctive outer-party coupling only; parity coupling restores the strict-mediation ceiling that
+matched reads cannot reach at the four-edge floor without a channel.
+
+### Question Q54 — xor_parity_mechanism
+
+| # | Concept (Q54) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 170 | Gate bijectivity (H1) | Bijective channel gates separate Phi=2.0 from monotone caps | **confirmed** | 32/32 Phi=2.0 pairs bijective; 0 non-bijective at ceiling; 16 bijective below ceiling. `probe_gate_bijectivity.py` |
+| 171 | TPM permutation (H2) | Global TPM permutation accompanies Phi=2.0 | **refuted** | 24/24 Phi=2.0 pairs non-permutation TPM; 0/8 symmetric-AND permutation. `probe_tpm_permutation.py` |
+| 172 | Seam entropy (H3) | H(W,C\|S) peaks at XOR Phi=2.0 pairs | **confirmed** | Mean H xor=1.811497 vs and=0.902747; delta=0.908749 bits; 8/8 xor>and. `probe_seam_entropy.py` |
+| 173 | Commit alignment (H4) | One-sided Phi=2.0 requires commit-topology match | **confirmed** | 0 misalignments; worker_xor 4/8 (C-centric); counterpart_xor 4/8 (W-centric); symmetric_xor 8/8. `probe_commit_alignment.py` |
+| 174 | Parity necessity (H5) | Only parity-class gates restore Phi=2.0 | **confirmed** | 0/64 monotone at ceiling; symmetric_xnor 8/8 at Phi=2.0. `probe_parity_necessity.py` |
+
+## Reading across Q54 (probes 170–174)
+
+Q53 (#167, #169) restored Phi=2.0 via XOR without naming the load-bearing structure. Channel-gate
+bijectivity in the coupled bit is necessary: every ceiling pair uses XOR or XNOR, and no monotone gate
+reaches 2.0 (170, 174). Bijectivity alone is insufficient — sixteen one-sided parity pairs stay below the
+ceiling. Global TPM permutation is not required: all twenty-four checked Phi=2.0 parity pairs have
+non-permutation dynamics (171 refuted). Seam conditional entropy H(W,C|S) rises under symmetric_xor to
+1.811497 bits versus 0.903 for symmetric-AND, a 0.909-bit gap on all eight forms (172). One-sided
+restoration tracks commit-class alignment: worker_xor on C-centric {4,11}, counterpart_xor on W-centric
+{2,13} (173). The mechanism is local parity bijectivity plus elevated seam distinguishability, gated by
+topology-commit alignment — not whole-system permutation.

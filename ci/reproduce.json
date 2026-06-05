@@ -20,6 +20,367 @@
       ],
       "timeout": 300,
       "source": "org_frontier/STRUCTURAL_FINDINGS.md (finding 4)"
+    },
+    {
+      "name": "q49-h1-seam-tie",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_tie",
+      "expect": [
+        "seam set (singleton-severing two-part cuts): ['C', 'W']",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q49-h2-seam-family",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_family",
+      "expect": [
+        "triadic forms found: 24",
+        "worker-unique-seam violations: 0",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q49-h3-seam-break",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_break",
+      "expect": [
+        "H3 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q49-h4-seam-direction",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_direction",
+      "expect": [
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q49-h5-seam-mincut",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_mincut",
+      "expect": [
+        "min-cut: 8/11",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q45-h1-edge-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_edge_floor",
+      "expect": [
+        "triadic forms: 24",
+        "forms off the 4-edge floor: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q45-h2-conjunctive-max",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_conjunctive_max",
+      "expect": [
+        "triadic forms at max Phi=2.0: 16",
+        "non-AND counterexamples: 14",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q45-h3-parity-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_parity_floor",
+      "expect": [
+        "parity triadic forms: 8",
+        "off-ceiling or off-floor: 0",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q45-h4-or-strict",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_or_strict",
+      "expect": [
+        "triadic OR forms: 2",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q45-h5-global-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_global_floor",
+      "expect": [
+        "triadic at 4 edges with max Phi=2.0: 192",
+        "non-conjunctive-strict counterexamples: 190",
+        "H5 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q50-h1-or-matched",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_matched",
+      "expect": [
+        "triadic OR forms: 2",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q50-h2-or-constant",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_constant",
+      "expect": [
+        "triadic among constant-read forms: 0",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q50-h3-or-asymmetric",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_asymmetric",
+      "expect": [
+        "triadic among asymmetric forms: 0",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q50-h4-or-seam",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_seam",
+      "expect": [
+        "both binding OR forms triadic Phi=2.0 with control seam?  True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q50-h5-commit-symmetry",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_commit_symmetry",
+      "expect": [
+        "cross-rule violations: 0",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q51-h1-impl-phi2-matched",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_phi2_matched",
+      "expect": [
+        "matched implication + worker back-channel at Phi=2.0: 0/8",
+        "H1 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q51-h2-impl-triadic-matched",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_triadic_matched",
+      "expect": [
+        "triadic matched implication + worker back-channel: 6/8",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q51-h3-impl-strict-control",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_strict_control",
+      "expect": [
+        "triadic matched implication strict mediation: 0/8",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q51-h4-impl-complementary-preserve",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_complementary_preserve",
+      "expect": [
+        "complementary + worker back-channel at Phi=2.0: 0/8",
+        "H4 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q51-h5-impl-symmetric-unify",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_symmetric_unify",
+      "expect": [
+        "triadic symmetric matched implication: 8/8",
+        "shared max_phi: 0.830075",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q52-h1-wcentric-polarity",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_wcentric_polarity",
+      "expect": [
+        "W-centric matched forms: 4  mismatches: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q52-h2-ccentric-plateau",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_ccentric_plateau",
+      "expect": [
+        "C-centric matched at mid rung (0.415037): 4/4",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q52-h3-mid-invariant",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_mid_invariant",
+      "expect": [
+        "s in {4,11} at mid rung: 8/8",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q52-h4-symmetric-lift",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_symmetric_lift",
+      "expect": [
+        "dyadic W-centric lifted to high rung: 2/2",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q52-h5-symmetric-collapse",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_symmetric_collapse",
+      "expect": [
+        "at high rung 0.830075: 8/8",
+        "max_phi spread: 0.000000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q53-h1-counterpart-and-ceiling",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_counterpart_and_ceiling",
+      "expect": [
+        "matched implication + counterpart AND at Phi=2.0: 0/8",
+        "H1 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q53-h2-worker-or-ceiling",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_worker_or_ceiling",
+      "expect": [
+        "matched implication + worker OR at Phi=2.0: 0/8",
+        "H2 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q53-h3-xor-exceed-equilibrium",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_xor_exceed_equilibrium",
+      "expect": [
+        "pairs exceeding symmetric equilibrium: 16/24",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q53-h4-topology-sweep-phi2",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_topology_sweep_phi2",
+      "expect": [
+        "at Phi=2.0 across 64 pairs: 0/64",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q53-h5-supremum-characterization",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_supremum_characterization",
+      "expect": [
+        "global max_phi: 2.000000",
+        "symmetric-AND at equilibrium 0.830075: 8/8",
+        "H5 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q54-h1-gate-bijectivity",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_gate_bijectivity",
+      "expect": [
+        "pairs at Phi=2.0: 32",
+        "Phi=2.0 with non-bijective channel: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q54-h2-tpm-permutation",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_tpm_permutation",
+      "expect": [
+        "Phi=2.0 non-permutation TPM: 24",
+        "symmetric-AND permutation TPM: 0/8",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q54-h3-seam-entropy",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_seam_entropy",
+      "expect": [
+        "mean H(W,C|S) symmetric_xor: 1.811497",
+        "mean delta (xor - and): 0.908749",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q54-h4-commit-alignment",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_commit_alignment",
+      "expect": [
+        "misaligned one-sided Phi=2.0 hits: 0",
+        "symmetric_xor at ceiling: 8/8",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q54-h5-parity-necessity",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_parity_necessity",
+      "expect": [
+        "monotone pairs at Phi=2.0: 0/64",
+        "symmetric_xnor at Phi=2.0: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H5)"
     }
   ]
 }
