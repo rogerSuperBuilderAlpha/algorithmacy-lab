@@ -173,6 +173,57 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q51-h1-impl-phi2-matched",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_phi2_matched",
+      "expect": [
+        "matched implication + worker back-channel at Phi=2.0: 0/8",
+        "H1 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q51-h2-impl-triadic-matched",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_triadic_matched",
+      "expect": [
+        "triadic matched implication + worker back-channel: 6/8",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q51-h3-impl-strict-control",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_strict_control",
+      "expect": [
+        "triadic matched implication strict mediation: 0/8",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q51-h4-impl-complementary-preserve",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_complementary_preserve",
+      "expect": [
+        "complementary + worker back-channel at Phi=2.0: 0/8",
+        "H4 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q51-h5-impl-symmetric-unify",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_symmetric_unify",
+      "expect": [
+        "triadic symmetric matched implication: 8/8",
+        "shared max_phi: 0.830075",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H5)"
     }
   ]
 }
