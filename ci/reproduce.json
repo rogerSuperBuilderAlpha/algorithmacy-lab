@@ -275,6 +275,57 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q53-h1-counterpart-and-ceiling",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_counterpart_and_ceiling",
+      "expect": [
+        "matched implication + counterpart AND at Phi=2.0: 0/8",
+        "H1 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q53-h2-worker-or-ceiling",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_worker_or_ceiling",
+      "expect": [
+        "matched implication + worker OR at Phi=2.0: 0/8",
+        "H2 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q53-h3-xor-exceed-equilibrium",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_xor_exceed_equilibrium",
+      "expect": [
+        "pairs exceeding symmetric equilibrium: 16/24",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q53-h4-topology-sweep-phi2",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_topology_sweep_phi2",
+      "expect": [
+        "at Phi=2.0 across 64 pairs: 0/64",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q53-h5-supremum-characterization",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_supremum_characterization",
+      "expect": [
+        "global max_phi: 2.000000",
+        "symmetric-AND at equilibrium 0.830075: 8/8",
+        "H5 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H5)"
     }
   ]
 }

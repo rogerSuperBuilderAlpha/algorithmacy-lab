@@ -696,3 +696,25 @@ two-sided coupling lifts the two dyadic W-centric mismatches and pulls the C-cen
 0.830075 equilibrium (163, 164). Ladder collapse tracks restored bilateral outer-party coupling: one-sided
 channels leave commit-class-specific partial integration; symmetric channels reach the equilibrium probe #77
 graded on conjunctive triads.
+
+### Question Q53 — impl_phi_ceiling
+
+| # | Concept (Q53) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 165 | Counterpart AND ceiling (H1) | Counterpart-side AND restores Phi=2.0 | **partial** | 0/8 matched implication forms at Phi=2.0 with counterpart AND; 6/8 triadic below (max 0.830075). Ladder mirrors worker-side AND with W/C roles exchanged. `probe_counterpart_and_ceiling.py` |
+| 166 | Worker OR ceiling (H2) | OR-graded worker channel restores Phi=2.0 | **partial** | 0/8 at Phi=2.0 with worker OR; 6/8 triadic below (max 0.830075). Weaker OR gate does not recover ceiling. `probe_worker_or_ceiling.py` |
+| 167 | XOR exceeds equilibrium (H3) | XOR gates exceed 0.830075 | **confirmed** | 16/24 XOR pairs exceed 0.830075; symmetric_xor reaches Phi=2.0 on all 8 matched forms. `probe_xor_exceed_equilibrium.py` |
+| 168 | AND/OR/cross sweep (H4) | No conjunctive-style topology restores Phi=2.0 | **confirmed** | 0/64 pairs at Phi=2.0 across 8 AND/OR/cross topologies x 8 matched forms. `probe_topology_sweep_phi2.py` |
+| 169 | Supremum characterization (H5) | Global supremum is 0.830075 | **refuted** | Global max Phi=2.0 via XOR (16 argmax pairs); symmetric-AND uniform at 0.830075 (8/8, spread 0). Conjunctive supremum 0.830075; overall supremum 2.0. `probe_supremum_characterization.py` |
+
+## Reading across Q53 (probes 165–169)
+
+Q51–Q52 left 0.830075 as the apparent ceiling for matched-read implication under back-channel coupling.
+The topology-and-gate sweep splits that story. Conjunctive-style channels — AND, OR, and mixed cross
+combinations — never restore Phi=2.0 (168); their supremum stays 0.830075, saturated by symmetric-AND on
+all eight matched forms (169 partial). Counterpart-AND (165) and worker-OR (166) grade differently but
+still cap below the four-edge ceiling. XOR parity gates break the bound: symmetric_xor reaches Phi=2.0 on
+every matched form (167), and one-sided XOR reaches 2.0 on four of eight by commit class — worker_xor on
+C-centric {4,11}, counterpart_xor on W-centric {2,13}. The 0.830075 equilibrium is the absolute maximum
+for conjunctive outer-party coupling only; parity coupling restores the strict-mediation ceiling that
+matched reads cannot reach at the four-edge floor without a channel.
