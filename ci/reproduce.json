@@ -700,6 +700,57 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q61-h1-seam-tracks-type",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_tracks_type",
+      "expect": [
+        "seam-type matches: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q61-h2-coextensive-partitions",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_coextensive_partitions",
+      "expect": [
+        "partition equality: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q61-h3-seam-not-finer",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_finer",
+      "expect": [
+        "within-type seam heterogeneity: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q61-h4-seam-not-coarser",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_coarser",
+      "expect": [
+        "within-seam type heterogeneity: 0/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q61-h5-seam-recover-discrimination",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_recover_discrimination",
+      "expect": [
+        "max_phi spread (panel): 0.000000",
+        "subpanel match total: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H5)"
     }
   ]
 }

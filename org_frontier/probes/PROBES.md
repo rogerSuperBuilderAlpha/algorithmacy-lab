@@ -868,3 +868,23 @@ sequential-vs-reciprocal discrimination (201, 204). Q43's feedback-cycle predica
 reciprocal (202), so cycle presence alone cannot track the recipient split return-path typing preserves.
 Interdependence typing survives at partition-template level after the back-channel raises every form to the
 triadic ceiling; it collapses at the verdict and cycle-predicate levels.
+
+### Question Q61 — seam_return_typing
+
+| # | Concept (Q61) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 205 | Seam-type bijection (H1) | Official singleton seam tracks return-path type | **confirmed** | W seam+sequential 8/8; C seam+reciprocal 8/8; matches 16/16. `probe_seam_tracks_type.py` |
+| 206 | Co-extensive partitions (H2) | Seam and type induce identical 8+8 partition | **confirmed** | partition equality 16/16; both labels 8+8. `probe_coextensive_partitions.py` |
+| 207 | Seam not finer (H3) | No within-type seam heterogeneity | **confirmed** | heterogeneity 0/16; seq+C seam 0/8; rec+W seam 0/8. `probe_seam_not_finer.py` |
+| 208 | Seam not coarser (H4) | No within-seam type heterogeneity | **confirmed** | heterogeneity 0/16; W seam+rec 0/8; C seam+seq 0/8. `probe_seam_not_coarser.py` |
+| 209 | Verdict recovery (H5) | Seam subpanels match type despite uniform max_phi | **confirmed** | spread 0.000000; W-seam=seq 8/8; C-seam=rec 8/8. `probe_seam_recover_discrimination.py` |
+
+## Reading across Q61 (probes 205–209)
+
+Q60 (#200, #204) showed recipient→return-path type and uniform max_phi with no subpanel discrimination.
+Q57 (#185) showed recipient→singleton seam on the same panel. Direct cross-tabulation confirms perfect
+seam↔type co-extensiveness (205, 206): W singleton ({W,SC}) iff sequential, C singleton ({WS,C}) iff
+reciprocal. Seam is neither strictly finer nor coarser than return-path type (207, 208). The official
+singleton seam recovers the sequential/reciprocal partition max_phi loses (209) without adding information
+beyond return-path typing. Recipient party remains the common cause; seam and type are redundant encodings
+of the same two-way partition at the verdict level.
