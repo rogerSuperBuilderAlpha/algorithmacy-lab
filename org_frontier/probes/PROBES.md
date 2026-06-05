@@ -824,3 +824,25 @@ and 0.5 on the non-recipient, producing normalized_phi 0.5 and 1.0 (191). Unnorm
 not drive the split (192). Complete co-enters the tie set because its min-norm representative shares the
 recipient's four-connection cut geometry (193). The normalized_phi ratio equals the inverse cut-ones ratio
 on every pair (194).
+
+### Question Q59 — directed_cut_edges
+
+| # | Concept (Q59) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 195 | Cross-edge shared (H1) | Back-channel cross-edge severed in both outer cuts | **confirmed** | 16/16 cross-edge in both tied and excluded sets; 0 exclusive. `probe_cross_edge_shared.py` |
+| 196 | Symdiff size (H2) | Symmetric difference exactly four directed edges | **confirmed** | 16/16 at |only_tied|=3, |only_excl|=1. `probe_symdiff_size.py` |
+| 197 | Cross subtract (H3) | Removing cross-edge equalizes severed counts | **refuted** | 0/16 equal; adj 3 vs 1 on all pairs. `probe_cross_subtract_equal.py` |
+| 198 | Mediator-only diff (H4) | Two mediator edges in recipient-only difference | **confirmed** | 16/16 mediator count 2; adj ratio 3.0, spread 0. `probe_mediator_only_diff.py` |
+| 199 | Recipient template (H5) | Worker/counterpart edge templates gate-invariant | **confirmed** | 8/8 worker and 8/8 counterpart match fixed templates. `probe_recipient_template.py` |
+
+## Reading across Q59 (probes 195–199)
+
+Q58 (#190) counted severed connections without naming directed edges. The back-channel cross-edge is
+severed in both the recipient and non-recipient min-norm cuts on every pair (195). The symmetric difference
+is exactly four directed edges—three only in the recipient cut, one only in the non-recipient cut (196).
+Subtracting the shared cross-edge leaves a 3-versus-1 gap; cross-edge placement alone does not account for
+the 4-versus-2 split (197 refuted). Exactly two mediator-incident edges sit in the recipient-only
+difference, fixing the adjusted ratio at 3.0 (198). Worker and counterpart recipient classes carry fixed
+edge templates preserved under XOR and XNOR (199). The Q51–Q58 cut-geometry thread closes here: mediator
+severance in the recipient-only difference is the residual source of partition asymmetry beyond the shared
+cross-edge.

@@ -596,6 +596,58 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q59-h1-cross-edge-shared",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_edge_shared",
+      "expect": [
+        "cross-edge in both cuts: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q59-h2-symdiff-size",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_symdiff_size",
+      "expect": [
+        "|only_tied|=3, |only_excl|=1: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q59-h3-cross-subtract-equal",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_subtract_equal",
+      "expect": [
+        "adj_tied == adj_excl: 0/16",
+        "H3 VERDICT: REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q59-h4-mediator-only-diff",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_mediator_only_diff",
+      "expect": [
+        "mediator edges in only_tied == 2: 16/16",
+        "adj ratio 3.0: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q59-h5-recipient-template",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_recipient_template",
+      "expect": [
+        "worker template match: 8/8",
+        "counterpart template match: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H5)"
     }
   ]
 }
