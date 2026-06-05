@@ -63,9 +63,10 @@ is the integration branch where reviewed work collects before it is promoted. Co
    exact commands a reviewer runs to reproduce every number, and names the scope.
 4. **Review happens on the PR**, in the open (next section). You respond to it in commits on the same
    branch.
-5. **Sign-off.** When the required maintainers approve, the owner merges the PR into `contrib`.
-6. **Promotion.** Periodically the owner promotes `contrib` to `main`. A promotion is a publication
-   event: the work is now part of the standing record.
+5. **Sign-off.** A reviewer approves the PR, and it merges into `contrib`. Branch protection requires
+   one approving review on every pull request.
+6. **Promotion.** Periodically the owner promotes `contrib` to `main` through a pull request. A promotion
+   is a publication event: the work is now part of the standing record.
 
 This keeps `main` clean and gives every submission a staging buffer where it can be checked and revised
 without disturbing the published record.
@@ -86,12 +87,14 @@ A reviewer works a submission in four passes, in order. The first two are mechan
    scope statement is honest about the validation gap.
 4. **Prose.** Check the house style and that citations resolve.
 
-Approval is given as a GitHub review on the PR, signed and public. The branches are protected so that
-nobody, the owner included, pushes to `main` or `contrib` directly; every change arrives as a pull
-request. Until a maintainer group exists, the owner reviews and merges. As maintainers join, sign-off
-becomes a required count of their approvals, and that count rises with the group. The PR thread is the
-review record and is never squashed away, so anyone can later see exactly how a published claim was
-checked and who vouched for it.
+Approval is given as a GitHub review on the PR, signed and public. Both `contrib` and `main` are
+branch-protected: every change arrives as a pull request, nobody pushes to either branch directly, and a
+merge needs one approving review. While the project has a single maintainer, that maintainer merges as a
+repository admin, because GitHub does not let an author approve their own pull request; contributor
+submissions still need the maintainer's review and approval. When a second maintainer joins, admin
+exemption is turned off so every pull request, the owner's included, needs an approval, and the required
+count rises as the group grows. The PR thread is the review record and is never squashed away, so anyone
+can later see exactly how a published claim was checked and who vouched for it.
 
 ## Becoming a maintainer
 
