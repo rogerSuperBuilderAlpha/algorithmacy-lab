@@ -98,11 +98,13 @@ can later see exactly how a published claim was checked and who vouched for it.
 
 ## Becoming a maintainer
 
-Maintainers are contributors with a track record. Several merged submissions, careful reviews of other
-people's work, and corrections filed honestly are how the role is earned. A maintainer can review and
-sign off on submissions; the owner promotes `contrib` to `main` and grants the role. The intent is to
-distribute sign-off authority as the group proves itself, so the review process becomes a community's
-rather than one person's.
+Maintainers are the review board: the people who review submissions and sign off on them. The role is
+earned by a track record here — merged submissions, careful reviews, honest corrections — or shown
+through a sample review by someone new. Either way, applying is itself a pull request: copy the form in
+[`applications/TEMPLATE.md`](applications/TEMPLATE.md) and open it into the `maintainer-applications`
+branch. The role, the responsibilities, the current roster, and how sign-off authority grows are in
+[`MAINTAINERS.md`](MAINTAINERS.md). The intent is to distribute that authority as the board proves itself,
+so the review process becomes a community's rather than one person's.
 
 ## A note on the two repositories
 
