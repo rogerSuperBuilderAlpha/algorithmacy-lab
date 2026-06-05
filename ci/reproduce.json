@@ -326,6 +326,61 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q54-h1-gate-bijectivity",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_gate_bijectivity",
+      "expect": [
+        "pairs at Phi=2.0: 32",
+        "Phi=2.0 with non-bijective channel: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q54-h2-tpm-permutation",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_tpm_permutation",
+      "expect": [
+        "Phi=2.0 non-permutation TPM: 24",
+        "symmetric-AND permutation TPM: 0/8",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q54-h3-seam-entropy",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_seam_entropy",
+      "expect": [
+        "mean H(W,C|S) symmetric_xor: 1.811497",
+        "mean delta (xor - and): 0.908749",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q54-h4-commit-alignment",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_commit_alignment",
+      "expect": [
+        "misaligned one-sided Phi=2.0 hits: 0",
+        "symmetric_xor at ceiling: 8/8",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q54-h5-parity-necessity",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_parity_necessity",
+      "expect": [
+        "monotone pairs at Phi=2.0: 0/64",
+        "symmetric_xnor at Phi=2.0: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H5)"
     }
   ]
 }
