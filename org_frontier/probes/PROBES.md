@@ -782,3 +782,24 @@ symmetry; one outer-party cut shares the minimum normalized_phi with complete an
 (181). The printed MIP first line follows that tie set: complete-only on symmetric pairs (180), one
 outer-party singleton seam plus complete on one-sided pairs. The mechanism is partition-landscape
 tie-breaking under restored bilateral symmetry, not a separate complete-partition forcing rule.
+
+### Question Q57 — channel_direction_mip
+
+| # | Concept (Q57) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 185 | Recipient seam rule (H1) | Back-channel recipient determines tied singleton | **confirmed** | 16/16 recipient matches tied cut; worker→{W,SC}, counterpart→{WS,C}. `probe_recipient_seam_rule.py` |
+| 186 | Dual norm split (H2) | Dual at-system outer cuts with 0.5/1.0 norm split | **confirmed** | 16/16 both outer at system Phi; tied norm 0.5, excluded 1.0. `probe_dual_norm_split.py` |
+| 187 | Norm ratio (H3) | Excluded/tied normalized_phi ratio exactly 2.0 | **confirmed** | 16/16 at ratio 2.0; spread 0. `probe_norm_ratio.py` |
+| 188 | Complete norm equal (H4) | Complete min norm equals tied outer cut | **confirmed** | 16/16 complete norm equals tied outer (0.5). `probe_complete_norm_equal.py` |
+| 189 | Gate-invariant direction (H5) | XOR/XNOR preserve recipient→singleton mapping | **confirmed** | 8/8 worker at {W,SC}; 8/8 counterpart at {WS,C}. `probe_gate_invariant_direction.py` |
+
+## Reading across Q57 (probes 185–189)
+
+Q56 (#181, #184) left the one-sided dual tie and min-norm rule documented without a directional mechanism.
+The back-channel recipient — the outer party whose update rule gains the extra incoming cross-edge — always
+determines which singleton seam co-enters the official tie set with complete (185). Both outer-party cuts
+reach system Phi on every aligned one-sided pair; the recipient-singleton cut carries minimum normalized_phi
+0.5, the non-recipient cut carries 1.0, and the ratio is exactly two-to-one with zero spread (186, 187).
+Complete shares the 0.5 minimum, which explains its co-entry (188). XOR and XNOR gate polarity preserve
+the same recipient→singleton mapping (189). Direction fixes the favored seam through partition
+normalization on the recipient singleton, not through gate bijectivity or commit alignment alone.
