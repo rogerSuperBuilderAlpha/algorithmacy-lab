@@ -436,6 +436,60 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q56-h1-complete-only-tie",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_complete_only_tie",
+      "expect": [
+        "complete-only official ties: 16/16",
+        "with outer-party in official ties: 0/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q56-h2-one-sided-outer-tie",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_one_sided_outer_tie",
+      "expect": [
+        "one outer-party + complete ties: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q56-h3-directional-symmetry",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_directional_symmetry",
+      "expect": [
+        "symmetric directionally symmetric: 16/16",
+        "one-sided directionally symmetric: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q56-h4-dual-outer-excluded",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_dual_outer_excluded",
+      "expect": [
+        "both outer-party at system Phi: 16/16",
+        "zero outer-party in official ties: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q56-h5-min-norm-tiebreak",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_min_norm_tiebreak",
+      "expect": [
+        "predicted matches official ties: 32/32",
+        "mismatches: 0",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H5)"
     }
   ]
 }

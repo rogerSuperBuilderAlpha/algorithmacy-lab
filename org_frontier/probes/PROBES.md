@@ -761,3 +761,24 @@ outer-party or complete MIP cuts. XNOR inverts the one-sided alignment polarity 
 breaking the partition: worker_xnor ceiling hits require W-centric commits, counterpart_xnor require
 C-centric — the complement of the XOR rule from Q54 #173 (179). Bijectivity remains necessary; the
 discriminator is sidedness-alignment geometry plus MIP seam class, not gate invertibility alone.
+
+### Question Q56 — symmetric_complete_mip
+
+| # | Concept (Q56) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 180 | Complete-only tie (H1) | Symmetric ceiling has complete-only official tie set | **confirmed** | 16/16 symmetric at `3 parts: {W,S,C}` only; 0/16 with outer-party in ties. `probe_complete_only_tie.py` |
+| 181 | One-sided dual tie (H2) | One-sided ceiling ties one outer-party cut with complete | **confirmed** | 16/16 one-sided with exactly one outer-party two-part plus complete in official ties. `probe_one_sided_outer_tie.py` |
+| 182 | Directional symmetry (H3) | Directional W/C symmetry distinguishes topology classes | **confirmed** | 16/16 symmetric directionally symmetric; 0/16 one-sided. `probe_directional_symmetry.py` |
+| 183 | Dual outer excluded (H4) | Both outer-party cuts at system Phi but excluded on symmetric | **confirmed** | 16/16 symmetric with both `{W,SC}` and `{WS,C}` at system Phi; 0/16 outer-party in official ties. `probe_dual_outer_excluded.py` |
+| 184 | Min norm tie-break (H5) | Minimum normalized_phi predicts official tie set | **confirmed** | 32/32 ceiling pairs match min-norm prediction; 0 mismatches. `probe_min_norm_tiebreak.py` |
+
+## Reading across Q56 (probes 180–184)
+
+Q55 (#178) left the symmetric-vs-one-sided MIP split documented but unexplained. Symmetric bijective parity
+coupling restores full directional W/C symmetry (182). Both outer-party two-part cuts reach system Phi on
+every symmetric pair, yet IIT-4.0 tie-break admits only the complete partition into the official tie set
+because outer-party cuts carry higher normalized_phi (183, 184). One-sided aligned pairs break directional
+symmetry; one outer-party cut shares the minimum normalized_phi with complete and co-enters the tie set
+(181). The printed MIP first line follows that tie set: complete-only on symmetric pairs (180), one
+outer-party singleton seam plus complete on one-sided pairs. The mechanism is partition-landscape
+tie-breaking under restored bilateral symmetry, not a separate complete-partition forcing rule.
