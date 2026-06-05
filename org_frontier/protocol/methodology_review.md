@@ -76,4 +76,3 @@ Whether the five-hypothesis count has support or is arbitrary; whether an intern
 accepted as pre-registration-equivalent; how autonomous-discovery systems are evaluated and where they
 fail; and what validity standards simulation science applies, so the validation gap is addressed by a known
 standard rather than a disclaimer.
-</content>

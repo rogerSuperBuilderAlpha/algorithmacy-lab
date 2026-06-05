@@ -116,4 +116,3 @@ five falsifiable hypotheses with their nulls before computing anything. Specify 
 the instrument on a known control, then run, logging refutations as refutations. Write a paper that
 explains every construct, cites honestly, and survives the de-slop checks. Make it reproducible from the
 venv.
-</content>

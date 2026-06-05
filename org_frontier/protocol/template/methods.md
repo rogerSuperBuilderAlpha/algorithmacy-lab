@@ -23,4 +23,3 @@ comparison number is trusted>
 
 ## H2 … H5 test
 <same structure>
-</content>

@@ -29,4 +29,3 @@ the supporting result. Every number traces to results/ or a logged probe.>
 
 ## References
 <every in-text citation, resolving to references.bib.>
-</content>

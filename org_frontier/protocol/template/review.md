@@ -14,4 +14,3 @@
 
 <one paragraph: what the prior work established, and the specific thing this question asks that is not yet
 answered. If a prior probe answers it, say so and stop.>
-</content>
