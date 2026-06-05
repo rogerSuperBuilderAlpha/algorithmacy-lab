@@ -18,8 +18,8 @@ from phyid.calculate import calc_PhiID
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules
 from org_frontier.corpus import forms_library as lib
 from org_frontier.proxy_bridge.bridge import add_noise
-from phiid_vs_phi.phiid_measure import _part_int_series
-from proxy_audit import exact_phi
+from foundations.phiid_vs_phi.phiid_measure import _part_int_series
+from foundations.proxy_audit import exact_phi
 
 LABELS = ("W", "S", "C")
 

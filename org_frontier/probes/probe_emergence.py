@@ -16,7 +16,7 @@ from pyphi import convert
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules
 from org_frontier.corpus import forms_library as lib
-from emergence_vs_phi.emergence import effective_information, causal_emergence
+from foundations.emergence_vs_phi.emergence import effective_information, causal_emergence
 
 LABELS = ("W", "S", "C")
 

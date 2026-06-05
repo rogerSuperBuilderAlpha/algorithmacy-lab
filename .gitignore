@@ -4,31 +4,16 @@ venv/
 .DS_Store
 __pyphi_cache__/
 pyphi.log
-proxy_audit/results/run.log
 ANNOUNCEMENT_DRAFT.md
-candidate_audit/results/run.log
-structure_suite/results/run.log
-learned_surrogate/results/build.log
-learned_surrogate/results/test_build.log
-emergence_vs_phi/results/run.log
-phiid_vs_phi/results/run.log
-psi_vs_phi/literature/kearney2026_fulltext.txt
-psi_vs_phi/results/run.log
 
-# extracted paper fulltext (OA arXiv source kept local, not committed)
-cbh_complexity/literature/cbh2026_fulltext.txt
-
-# Dissertation source PDFs (paywalled — kept local, DOIs in the bib) and media
-dissertation/sources/pdfs/
-*.m4a
-
-# Paper 3 catalog: keep catalog.csv/analysis/figure, drop run log + smoke artifact
-dissertation/paper3_baseline/results/catalog_run.log
-dissertation/paper3_baseline/results/catalog_smoke.csv
-dissertation/paper3_baseline/results/simulated_orgs_run.log
+# foundations experiment run logs / locally-kept paper fulltext (data is in the CSVs)
+foundations/**/results/*.log
+foundations/psi_vs_phi/literature/kearney2026_fulltext.txt
+foundations/cbh_complexity/literature/cbh2026_fulltext.txt
 
 # org_frontier run logs (data is in the CSVs)
 org_frontier/**/results/*.log
 
-# dissertation: kept local, not tracked in this repo
+# Dissertation: a separate, private repo nested here — kept local, never tracked by this repo
 dissertation/
+*.m4a

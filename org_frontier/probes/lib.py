@@ -12,7 +12,7 @@ import pyphi
 from pyphi import new_big_phi
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
-from proxy_audit.exact_phi import reachable_states
+from foundations.proxy_audit.exact_phi import reachable_states
 
 pyphi.config.PROGRESS_BARS = False
 pyphi.config.PARALLEL = False
@@ -27,7 +27,7 @@ def max_phi_float(tpm_sbn):
     """Max exact IIT-4.0 Φ over states for a (possibly stochastic) state-by-node TPM.
     Infers the connectivity matrix numerically. Returns (max_phi, cm)."""
     import numpy as np
-    from proxy_audit import exact_phi
+    from foundations.proxy_audit import exact_phi
     n = tpm_sbn.shape[1]
     cm = np.zeros((n, n), dtype=int)
     for j in range(n):

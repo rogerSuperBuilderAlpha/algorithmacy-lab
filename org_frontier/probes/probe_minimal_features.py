@@ -24,7 +24,7 @@ from sklearn.metrics import roc_auc_score
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules
 from org_frontier.corpus.population import enumerate_family
 from org_frontier.proxy_bridge.bridge import add_noise
-from proxy_audit import exact_phi
+from foundations.proxy_audit import exact_phi
 from ._info import entropy, mutual_information, transfer_entropy, o_information
 from .probe_phi_ar import _auc
 

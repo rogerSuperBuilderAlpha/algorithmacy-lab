@@ -22,8 +22,8 @@ import numpy as np
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules
 from org_frontier.corpus.population import enumerate_family
 from org_frontier.proxy_bridge.bridge import add_noise
-from proxy_audit import exact_phi
-from phiid_vs_phi.phiid_measure import _bipartitions, _part_int_series, phi_r_bipartition
+from foundations.proxy_audit import exact_phi
+from foundations.phiid_vs_phi.phiid_measure import _bipartitions, _part_int_series, phi_r_bipartition
 
 LABELS = ("W", "S", "C")
 PER_GROUP = 8

@@ -1,69 +1,76 @@
-# org_frontier — an aggressive, collaborative pyphi applications lab
+# org_frontier — the algorithmacy lab
 
-This directory is the companion to [`../dissertation/`](../dissertation/), run without the
-dissertation's constraints. The dissertation develops a measurement methodology through case
-studies and lets that play out carefully. This lab moves faster. It exists to do two things:
+A computational lab applying exact IIT-4.0 Φ to organizational coordination, with a runnable research
+protocol that takes a question to a finished paper.
 
-1. **Map how the world uses PyPhi.** Understand who runs IIT computations, in what fields, on
-   what systems, with what code and what open problems. The survey lives in
-   [`landscape/`](landscape/).
-2. **Build new organizational-theory applications of exact IIT-4.0 Φ**, and contribute the tools
-   and findings back to the PyPhi research community.
+The thesis: a coordination form is **dyadic** when its cause-effect structure factors across the
+worker–system–counterpart partition (it demands *literacy*), and **triadic** when the structure stays
+irreducible (it demands *algorithmacy*). The classifier reads the verdict off exact Φ over the
+minimum-information partition. The instrument is validated on its own controls (the
+[`foundations/`](../foundations/) arc).
 
-The repo's [`../RESEARCH_PLAYBOOK.md`](../RESEARCH_PLAYBOOK.md) governs every sub-project here: run
-the full deep-research harness, validate the instrument on its own controls before any comparison,
-compute rather than assert, and write in the house style in [`../CLAUDE.md`](../CLAUDE.md).
+> Results are in-silico: exact Φ on small Boolean models of coordination. They are evidence about the
+> models. A validation gap separates them from claims about real organizations. Every paper states this.
 
-## Sub-projects
+## The research protocol — [`protocol/`](protocol/)
 
-- [`landscape/`](landscape/) — a worldwide survey of PyPhi usage. Who uses it, for what, and where
-  the open application gaps are, with organizational and social-system applications flagged.
-  *Complete: report, bibliography, and synthesis in [`landscape/`](landscape/).*
-- [`classifier/`](classifier/) — the literacy-or-algorithmacy classifier. Drop in a coordination
-  model, get a structural verdict: Φ_MIP = 0 → dyadic → literacy; Φ_MIP > 0 → triadic →
-  algorithmacy. *Scaffolded and validated; reuses the dissertation's proven 3-node oracle.*
-- [`corpus/`](corpus/) — a curated, reusable library of named coordination forms with exact
-  IIT-4.0 Φ, the verdict, and structural tags, plus a single-edge ablation table. *Built; 8 forms,
-  0 mismatches.*
-- [`proxy_bridge/`](proxy_bridge/) — does a cheap time-series proxy (ΦID Φ_R, Φ_WMS) recover the
-  verdict, as a route past the exact-Φ size ceiling? *Built; the answer is no (rank-AUC ≤ 0.63) —
-  the proxy confuses statistical dependence with integration.*
-- [`multiparty/`](multiparty/) — does adding parties change the verdict? *Built; substitutable
-  counterparts collapse irreducibility, layered mediation keeps it, and triadicity gets rarer with
-  more parties (9.4% → ~3% from n=3 to n=4) — confirmed against a reachability robustness check.*
-- [`principal/`](principal/) — does the corporate principal who authors the system join the
-  irreducible core? *Built; only under bidirectional coupling (gates AND monitors) — ownership alone
-  leaves it outside, the core stays the W–S–C triad. Uses the major complex, not whole-system Φ.*
-- [`probes/`](probes/) — an iterative hypothesis loop over the dissertation's construct dimensions
-  and scope conditions. *Ongoing logbook ([`PROBES.md`](probes/PROBES.md)): coalition ejects the
-  worker (H1 ✓), intent compression drops non-pivotal dimensions (H2 ✓), a switching rule does not
-  bind the regime (H3 ✗).*
-- [`essays/`](essays/) — public-facing writeups.
-  [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — how the world uses PyPhi, and
-  the theory that exact Φ decides whether a coordination form demands literacy or algorithmacy.
-  [`pyphi_org_theory_catalog.md`](essays/pyphi_org_theory_catalog.md) — a ~10k-word catalog of every
-  PyPhi experiment in this line (the classifier, corpus, multiparty, principal, proxy bridge, and all
-  53 probes), each with question/hypothesis/method/result, plus a foundations appendix.
+A fixed six-stage pipeline, made runnable: review → deep research → five hypotheses fixed before computing
+→ methods → run against the exact-Φ instrument → full quantitative paper, reporting nulls and refutations
+as first-class results.
 
-## Research synthesis
+- [`protocol/RESEARCH_PROTOCOL.md`](protocol/RESEARCH_PROTOCOL.md) — the spec and quality gates.
+- [`protocol/question_pipeline.js`](protocol/question_pipeline.js) — the orchestration that runs all six
+  stages for one question.
+- [`protocol/methodology_review.md`](protocol/methodology_review.md) and
+  [`protocol/literature/deep_research_report.md`](protocol/literature/deep_research_report.md) — the
+  methodology validated against established norms (strong inference, multiple working hypotheses,
+  pre-registration; the pre-analysis plan, not the bare pre-commitment, is what buys credibility).
 
-[`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the seven structural findings across the
-experiments and the single law they reduce to: **a coordination form demands algorithmacy iff every
-party is bound into one irreducible joint determination.** Substitutability collapses it; mediation
-depth never does; cheap proxies can't detect it.
+## The logbook and programs
 
-## Contributing back to the PyPhi community
+- [`probes/PROBES.md`](probes/PROBES.md) — 134 exact-Φ experiments, each with question, hypothesis,
+  method, and result. About a third are nulls or refinements.
+- [`RESEARCH_PROGRAM_V2.md`](RESEARCH_PROGRAM_V2.md) … [`RESEARCH_PROGRAM_V6.md`](RESEARCH_PROGRAM_V6.md) —
+  six iterative programs that produced the logbook, each closing a wave and opening the next.
+- [`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the synthesis: a coordination form demands
+  algorithmacy when every party is bound into one irreducible joint determination. Substitutability
+  collapses it; mediation depth does not; cheap proxies cannot detect it.
+- [`RESEARCH_AGENDA_50_V2.md`](RESEARCH_AGENDA_50_V2.md) — 50 open questions queued for the pipeline.
 
-The framing is **two layers, explicit**: lead with the domain-neutral structural result for the
-PyPhi audience, keep the organizational application as a clearly-marked second layer.
+## Worked questions — [`questions/`](questions/)
 
-- [`COMMUNITY_NOTE.md`](COMMUNITY_NOTE.md) — the two-layer writeup: the structural finding
-  (topology does not decide irreducibility), the reusable artifacts, and the org application.
-- [`ANNOUNCEMENT_DRAFT.md`](ANNOUNCEMENT_DRAFT.md) — a `pyphi-users` post **staged for the human to
-  send** (outward correspondence is the human's call; see its pre-send checklist). Not sent
-  automatically.
+Each question taken through the protocol gets its own directory with the review, literature, hypotheses,
+methods, probes, results, and a paper.
 
-Further sub-experiments are added as the survey surfaces opportunities. Each gets its own folder
-following the playbook's reusable layout. The survey's shortlist of next builds is in
-[`landscape/SURVEY_FINDINGS.md`](landscape/SURVEY_FINDINGS.md): a public classifier, a proxy bridge
-for organizational time-series data, and a reusable coordination-form TPM library.
+- [`questions/q43_thompson_interdependence/`](questions/q43_thompson_interdependence/) — the first question
+  run end to end through the automated pipeline: does the verdict reproduce Thompson's pooled/sequential/
+  reciprocal interdependence ordering? It does not. Four hypotheses confirmed, one refuted (probes
+  135–139). [paper](questions/q43_thompson_interdependence/paper.md).
+
+## Sub-studies
+
+- [`classifier/`](classifier/) — the literacy-or-algorithmacy classifier (Φ over the MIP → verdict).
+- [`corpus/`](corpus/) — a curated library of named coordination forms with exact Φ, the verdict, and
+  structural tags; plus the 256-form population census.
+- [`multiparty/`](multiparty/) — how the verdict changes as parties are added.
+- [`principal/`](principal/) — does the corporate principal join the irreducible core? Only under
+  bidirectional coupling.
+- [`proxy_bridge/`](proxy_bridge/) — can a cheap time-series proxy recover the verdict past the exact-Φ
+  size ceiling?
+- [`landscape/`](landscape/) — a worldwide survey of PyPhi usage and the open application gaps.
+
+## Essays — [`essays/`](essays/)
+
+- [`how_to_research_with_ai.md`](essays/how_to_research_with_ai.md) — the AI-assisted research method,
+  grounded in the methodology research and the 134-probe record.
+- [`literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md) — the thesis and how exact Φ decides
+  which literacy a coordination form demands.
+- [`pyphi_org_theory_catalog.md`](essays/pyphi_org_theory_catalog.md) — a ~10k-word catalog of every
+  experiment, with question/hypothesis/method/result.
+
+## Conventions
+
+Every sub-project follows the protocol: validate the instrument on its own controls before any comparison,
+fix hypotheses before computing, compute rather than assert, report nulls as results, and write in the
+house style ([`../CLAUDE.md`](../CLAUDE.md)). Read the verdict on the major complex when a form has
+spectator nodes.

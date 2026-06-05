@@ -16,7 +16,7 @@ import numpy as np
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
 from org_frontier.corpus import forms_library as lib
 from org_frontier.proxy_bridge.bridge import add_noise
-from proxy_audit import exact_phi
+from foundations.proxy_audit import exact_phi
 from . import _info
 
 LABELS = ("W", "S", "C")

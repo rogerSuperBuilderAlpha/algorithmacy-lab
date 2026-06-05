@@ -23,9 +23,9 @@ import numpy as np
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
 from org_frontier.corpus.population import enumerate_family
 from org_frontier.proxy_bridge.bridge import add_noise
-from proxy_audit import exact_phi
-from proxy_audit.exact_phi import reachable_states
-from structure_suite.suite import extract_suite
+from foundations.proxy_audit import exact_phi
+from foundations.proxy_audit.exact_phi import reachable_states
+from foundations.structure_suite.suite import extract_suite
 from ._info import mutual_information
 
 NOISE = 0.08

@@ -29,8 +29,8 @@ os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 import numpy as np
 
 from org_frontier.classifier.classifier import tpm_from_rules, cm_from_rules, classify, PHI_EPS
-from phiid_vs_phi.phiid_measure import phi_r_integration
-from proxy_audit import exact_phi
+from foundations.phiid_vs_phi.phiid_measure import phi_r_integration
+from foundations.proxy_audit import exact_phi
 
 
 def add_noise(tpm_sbn, noise):

@@ -22,7 +22,7 @@ import pyphi
 from pyphi import new_big_phi
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
-from proxy_audit.exact_phi import reachable_states
+from foundations.proxy_audit.exact_phi import reachable_states
 from . import forms as pf
 
 pyphi.config.PROGRESS_BARS = False

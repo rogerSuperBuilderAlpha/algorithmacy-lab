@@ -83,14 +83,14 @@ explanation. The short version, which must be respected on every git operation:
 - **`dissertation/`** is its own **nested, private** repo (`dissertation/.git`) whose
   remote is `github.com/rogerSuperBuilderAlpha/algorithmacy-dissertation` (PRIVATE).
   It is gitignored by the outer repo.
-- **Everything else** belongs to the outer repo `iit-experiments`, remote
-  `github.com/rogerSuperBuilderAlpha/iit-experiments`.
+- **Everything else** belongs to the outer repo `algorithmacy-lab`, remote
+  `github.com/rogerSuperBuilderAlpha/algorithmacy-lab`.
 
 Git uses the nearest enclosing `.git`, so **the directory a command runs from decides
 the repo and remote** — not intent. Before any commit or push:
 
 1. Run `git rev-parse --show-toplevel` and `git remote -v` to confirm which repo/remote.
 2. Dissertation work pushes to `algorithmacy-dissertation`; PyPhi/code work pushes to
-   `iit-experiments`. Never mix them.
+   `algorithmacy-lab`. Never mix them.
 3. State the target remote to the user before pushing.
 4. Never `git add -f dissertation/` in the outer repo, and never re-`git init` either tree.

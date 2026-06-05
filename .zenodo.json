@@ -1,25 +1,28 @@
 {
-  "title": "iit-experiments: validating integrated-information measures against exact IIT-4.0 Φ",
+  "title": "algorithmacy-lab: exact IIT-4.0 Φ applied to organizational coordination, with an AI-assisted research protocol",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
     {
       "name": "Hunt, Roger",
+      "orcid": "0009-0000-7262-1779",
       "affiliation": ""
     }
   ],
-  "description": "<p>A suite of small, reproducible computational experiments in Integrated Information Theory, built on the IIT-4.0 implementation in <a href=\"https://github.com/wmayner/pyphi\">PyPhi</a>. On systems small enough that exact Φ is computable, the experiments ask, systematically, <em>what tracks integrated information</em>:</p><ul><li><strong>proxy_audit</strong> — empirical proxies (Lempel-Ziv complexity, correlation) do not track exact Φ;</li><li><strong>candidate_audit</strong> — theoretically-motivated candidate measures (whole-minus-sum Φ, stochastic interaction, causal density, …) track Φ only moderately;</li><li><strong>structure_suite</strong> — scalar Φ is nearly orthogonal to the cause-effect structure it summarizes;</li><li><strong>learned_surrogate</strong> — a model combining cheap features recovers Φ (detection AUC 0.90) and extrapolates to larger unseen systems for detection but not magnitude; includes a reusable exact-IIT-4.0 feature dataset;</li><li><strong>emergence_vs_phi</strong> — Hoel's causal emergence is nearly orthogonal to Φ;</li><li><strong>phiid_vs_phi</strong> — estimating Φ the data-style way (Integrated Information Decomposition via phyid) roughly halves how well it tracks exact Φ;</li><li><strong>consciousness_range</strong> — a philosophical companion: assuming IIT is true, systems with identical Φ can have cause-effect structures differing 500-fold, so a one-number 'level of consciousness' radically underdetermines the mind.</li></ul><p>Includes a synthesis, a preprint-style manuscript, and reusable exact-Φ datasets. See the repository README and SYNTHESIS.md.</p>",
+  "description": "<p>An open computational lab applying exact IIT-4.0 Φ, computed with <a href=\"https://github.com/wmayner/pyphi\">PyPhi</a>, to organizational coordination theory, with an AI-assisted research protocol that takes a question to a finished quantitative paper.</p><p><strong>The lab (org_frontier)</strong> classifies a coordination form as <em>dyadic</em> when its cause-effect structure factors across the worker–system–counterpart partition (demanding literacy) and <em>triadic</em> when it stays irreducible (demanding algorithmacy), and runs a 134-experiment hypothesis-testing program over the construct — including a worked question taken end to end through the automated pipeline to a full paper. A six-stage protocol (review, deep research, hypotheses fixed before computing, methods, run against the exact-Φ instrument, paper) is documented and runnable.</p><p><strong>The foundations arc</strong> validates the instrument first: on systems small enough that exact Φ is computable, it tests what tracks integrated information — empirical proxies and theoretical candidate measures against exact Φ, scalar Φ versus the full cause-effect structure, a learned surrogate and its size-extrapolation, causal emergence versus Φ, and the data-style ΦID estimation gap.</p><p>Results are in-silico; a validation gap separates them from claims about real organizations. See the repository README, org_frontier/, and foundations/SYNTHESIS.md.</p>",
   "keywords": [
     "integrated information theory",
     "IIT",
     "PyPhi",
-    "consciousness",
+    "organization theory",
+    "coordination",
+    "algorithmacy",
     "Phi",
+    "cause-effect structure",
     "effective information",
     "causal emergence",
     "integrated information decomposition",
-    "computational neuroscience",
-    "cause-effect structure"
+    "AI-assisted research"
   ],
   "related_identifiers": [
     {

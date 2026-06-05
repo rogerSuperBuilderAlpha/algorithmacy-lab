@@ -12,8 +12,8 @@ Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ces_rich
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
 from org_frontier.corpus import forms_library as lib
-from proxy_audit.exact_phi import reachable_states
-from structure_suite.suite import extract_suite
+from foundations.proxy_audit.exact_phi import reachable_states
+from foundations.structure_suite.suite import extract_suite
 
 LABELS = ("W", "S", "C")
 

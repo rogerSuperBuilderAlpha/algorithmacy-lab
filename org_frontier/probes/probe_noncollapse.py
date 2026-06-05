@@ -22,7 +22,7 @@ os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 import numpy as np
 
 from org_frontier.proxy_bridge.bridge import add_noise
-from proxy_audit import exact_phi
+from foundations.proxy_audit import exact_phi
 
 NOISE = 0.1
 

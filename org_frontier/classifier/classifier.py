@@ -43,7 +43,7 @@ import numpy as np
 import pyphi
 from pyphi import new_big_phi
 
-from proxy_audit.exact_phi import exact_big_phi, reachable_states
+from foundations.proxy_audit.exact_phi import exact_big_phi, reachable_states
 
 pyphi.config.PROGRESS_BARS = False
 pyphi.config.PARALLEL = False

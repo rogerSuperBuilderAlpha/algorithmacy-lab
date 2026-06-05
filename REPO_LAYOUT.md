@@ -8,11 +8,11 @@ read it once.
 
 | If you are working in… | Git repo | Remote (`origin`) | Visibility |
 |---|---|---|---|
-| anything **except** `dissertation/` (PyPhi experiments, `org_frontier/`, code, etc.) | `iit-experiments` (this repo) | `github.com/rogerSuperBuilderAlpha/iit-experiments` | as-is |
+| anything **except** `dissertation/` (PyPhi experiments, `org_frontier/`, code, etc.) | `algorithmacy-lab` (this repo) | `github.com/rogerSuperBuilderAlpha/algorithmacy-lab` | as-is |
 | **`dissertation/`** (the three-paper dissertation) | `algorithmacy-dissertation` (a **nested, separate** repo at `dissertation/.git`) | `github.com/rogerSuperBuilderAlpha/algorithmacy-dissertation` | **PRIVATE** |
 
 `dissertation/` is listed in this repo's `.gitignore`, so the outer
-`iit-experiments` repo **cannot see or track** anything inside it. The dissertation
+`algorithmacy-lab` repo **cannot see or track** anything inside it. The dissertation
 is versioned only by its own nested repo.
 
 ## The one rule
@@ -22,8 +22,8 @@ command from decides which repo and which remote you touch* — not what you int
 
 - Run git from **inside `dissertation/`** → you are in the **dissertation** repo →
   commits/pushes go to **`algorithmacy-dissertation`** (private).
-- Run git from **anywhere else** in the tree → you are in **`iit-experiments`** →
-  commits/pushes go to **`iit-experiments`**, and the dissertation is invisible
+- Run git from **anywhere else** in the tree → you are in **`algorithmacy-lab`** →
+  commits/pushes go to **`algorithmacy-lab`**, and the dissertation is invisible
   (gitignored), so it can never be swept in by a stray `git add -A`.
 
 ## Check before you push (always)
@@ -35,11 +35,11 @@ git status                      # what would I be committing?
 ```
 
 If `--show-toplevel` ends in `…/dissertation` you are pushing the **dissertation**;
-otherwise you are pushing **iit-experiments**.
+otherwise you are pushing **algorithmacy-lab**.
 
 ## Worked examples
 
-**Pushing PyPhi / code work (→ iit-experiments):**
+**Pushing PyPhi / code work (→ algorithmacy-lab):**
 ```bash
 cd ~/iit-playground/pyphi-experiments        # outer repo (NOT dissertation/)
 git add <files> && git commit -m "..."
@@ -59,7 +59,7 @@ git push origin main
   commit meaning to save code, you will commit to the dissertation repo. Always
   check `git rev-parse --show-toplevel` first.
 - **The two repos do not sync.** A push from `dissertation/` updates only the
-  dissertation remote; a push from the outer tree updates only `iit-experiments`.
+  dissertation remote; a push from the outer tree updates only `algorithmacy-lab`.
   If you changed both in one session, that is **two** separate commits and pushes.
 - **Do not `git add dissertation/` in the outer repo.** It is gitignored on
   purpose; adding it back (e.g. with `git add -f`) would re-track the dissertation

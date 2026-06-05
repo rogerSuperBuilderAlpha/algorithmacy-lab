@@ -23,7 +23,7 @@ from sklearn.ensemble import RandomForestClassifier
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules
 from org_frontier.corpus.population import enumerate_family
 from org_frontier.proxy_bridge.bridge import add_noise
-from proxy_audit import exact_phi
+from foundations.proxy_audit import exact_phi
 from .probe_surrogate_transfer import dataset, feats
 from .probe_distributed_mediators import single_hub, two_hub
 from .probe_conjunctive_law import or_hub

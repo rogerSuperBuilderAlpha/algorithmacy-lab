@@ -25,7 +25,7 @@ your fish-school work makes.
 I'd genuinely welcome any reaction — especially on whether the size-dependent transition you found
 has an analogue you'd expect in coordination structures, and on pitfalls in reading these small-system
 verdicts. The code and write-ups are here (MIT):
-https://github.com/rogerSuperBuilderAlpha/iit-experiments  (start with org_frontier/)
+https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab  (start with org_frontier/)
 
 With thanks and admiration for the fish-school papers,
 [your name]

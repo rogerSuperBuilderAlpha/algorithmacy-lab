@@ -20,7 +20,7 @@ import numpy as np
 from org_frontier.classifier.classifier import cm_from_rules, classify_rules
 from org_frontier.proxy_bridge.bridge import add_noise
 from org_frontier.multiparty.run import _rand_table, _fn, LABELS4
-from proxy_audit import exact_phi
+from foundations.proxy_audit import exact_phi
 
 _RESULTS = os.path.join(os.path.dirname(__file__), "results")
 EPS = 1e-3
