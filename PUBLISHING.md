@@ -84,10 +84,12 @@ A reviewer works a submission in four passes, in order. The first two are mechan
    scope statement is honest about the validation gap.
 4. **Prose.** Check the house style and that citations resolve.
 
-Approval is given as a GitHub review on the PR, signed and public. Two maintainer approvals merge a
-submission into `contrib` today; that threshold will move as the maintainer group grows. The PR thread
-is the review record and is never squashed away, so anyone can later see exactly how a published claim
-was checked and who vouched for it.
+Approval is given as a GitHub review on the PR, signed and public. The branches are protected so that
+nobody, the owner included, pushes to `main` or `contrib` directly; every change arrives as a pull
+request. Until a maintainer group exists, the owner reviews and merges. As maintainers join, sign-off
+becomes a required count of their approvals, and that count rises with the group. The PR thread is the
+review record and is never squashed away, so anyone can later see exactly how a published claim was
+checked and who vouched for it.
 
 ## Becoming a maintainer
 
