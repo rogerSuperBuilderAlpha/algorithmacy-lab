@@ -1,0 +1,17 @@
+label,structure,max_phi
+W0_S7_C0,dyadic,0.000000
+W0_S7_C1,dyadic,0.000000
+W0_S7_C2,dyadic,0.000000
+W0_S7_C3,dyadic,0.000000
+W1_S7_C0,dyadic,0.000000
+W1_S7_C1,triadic,2.000000
+W1_S7_C2,dyadic,0.000000
+W1_S7_C3,dyadic,0.000000
+W2_S7_C0,dyadic,0.000000
+W2_S7_C1,dyadic,0.000000
+W2_S7_C2,triadic,2.000000
+W2_S7_C3,dyadic,0.000000
+W3_S7_C0,dyadic,0.000000
+W3_S7_C1,dyadic,0.000000
+W3_S7_C2,dyadic,0.000000
+W3_S7_C3,dyadic,0.000000
