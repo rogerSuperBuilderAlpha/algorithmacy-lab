@@ -1023,6 +1023,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q71_noise_robustness/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q72-cost-proxy-frontier",
+      "cmd": "python -m org_frontier.questions.q72_cost_proxy_frontier.probe_cost_proxy_frontier",
+      "expect": [
+        "no structural cost proxy recovers the verdict: True",
+        "H1 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q72_cost_proxy_frontier/FINDINGS.md (H1-H4)"
     }
   ]
 }
