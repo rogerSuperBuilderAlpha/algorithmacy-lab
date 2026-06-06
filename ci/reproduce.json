@@ -3,6 +3,7 @@
   "checks": [
     {
       "name": "instrument-controls",
+      "core": true,
       "cmd": "python -m org_frontier.classifier.validate",
       "expect": [
         "Instrument validated",
@@ -115,6 +116,7 @@
     },
     {
       "name": "q45-h5-global-floor",
+      "slow": true,
       "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_global_floor",
       "expect": [
         "triadic at 4 edges with max Phi=2.0: 192",
