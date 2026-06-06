@@ -965,6 +965,18 @@
       ],
       "timeout": 400,
       "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H3,H4)"
+    },
+    {
+      "name": "q67-reciprocity-gradient",
+      "cmd": "python -m org_frontier.questions.q67_reciprocity_gradient.probe_reciprocity_gradient",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "core jumps 2 (L2) -> 4 (L3) at closure: True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q67_reciprocity_gradient/FINDINGS.md (H1-H4)"
     }
   ]
 }
