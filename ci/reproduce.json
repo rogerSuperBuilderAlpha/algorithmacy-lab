@@ -977,6 +977,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q67_reciprocity_gradient/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q68-triage-gating",
+      "cmd": "python -m org_frontier.questions.q68_triage_gating.probe_triage_gating",
+      "expect": [
+        "monitoring T out: True | gating T out: True | bidirectional T in: True",
+        "core=('M', 'R', 'T')",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q68_triage_gating/FINDINGS.md (H1-H4)"
     }
   ]
 }
