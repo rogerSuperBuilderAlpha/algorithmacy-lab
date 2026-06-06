@@ -943,6 +943,28 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q66-h1h2-chain-core-depth",
+      "cmd": "python -m org_frontier.questions.q66_chain_core_boundary.probe_chain_core_depth",
+      "expect": [
+        "core size two at every depth: True",
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H1 refuted, H2)"
+    },
+    {
+      "name": "q66-h3h4-ring-core",
+      "cmd": "python -m org_frontier.questions.q66_chain_core_boundary.probe_ring_core",
+      "expect": [
+        "ring core is full set at d=2,3: True",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H3,H4)"
     }
   ]
 }

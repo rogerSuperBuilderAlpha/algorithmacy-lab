@@ -912,6 +912,8 @@ of the same two-way partition at the verdict level.
 | 226 | Agent-chain outreach: relay gap (Q65 H3) | An agent reading only upstream collapses the chain | **confirmed** | intact triadic Φ=2.0; relay-gap dyadic Φ=0. `q65/probe_relay_gap.py` |
 | 227 | Agent-chain outreach: core localizes (Q65 H4) | The chain core is the recipient end, not the whole chain | **refuted** | d=2 major complex {A2,R} Φ=2.0, not {E,A1,A2,R}; sender + upstream agent feed the core without joining it. `q65/probe_chain_core.py` |
 | 228 | Agent-chain outreach: depth atop breadth (Q65 H5) | Depth does not undo breadth | **confirmed** | agent before all-binding 2-recipient commit triadic Φ=2.0. `q65/probe_depth_breadth.py` |
+| 229 | Chain core boundary: end pair across depth (Q66 H1/H2) | Open-chain core is a size-2 end pair, symmetric not recipient-biased | **H1 refuted, H2 confirmed** | core size 2 at d=2,3,4; {A2,R},{A3,R} but {E,A1} at d=4 — revises Q65's recipient-facing reading to a tie-break. `q66/probe_chain_core_depth.py` |
+| 230 | Chain core boundary: closed ring (Q66 H3/H4) | Closing the chain into a loop binds the whole structure | **confirmed** | conjunctive ring core = full set, Φ=4.0 vs open chain 2.0. `q66/probe_ring_core.py` |
 
 ## Reading across Q62 (probes 210–214)
 
