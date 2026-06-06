@@ -915,6 +915,7 @@ of the same two-way partition at the verdict level.
 | 229 | Chain core boundary: end pair across depth (Q66 H1/H2) | Open-chain core is a size-2 end pair, symmetric not recipient-biased | **H1 refuted, H2 confirmed** | core size 2 at d=2,3,4; {A2,R},{A3,R} but {E,A1} at d=4 — revises Q65's recipient-facing reading to a tie-break. `q66/probe_chain_core_depth.py` |
 | 230 | Chain core boundary: closed ring (Q66 H3/H4) | Closing the chain into a loop binds the whole structure | **confirmed** | conjunctive ring core = full set, Φ=4.0 vs open chain 2.0. `q66/probe_ring_core.py` |
 | 231 | Reciprocity gradient (Q67 H1-H4) | Partial reciprocity seeds a local core but full coupling binds the exchange | **H2 refuted, H1/H3/H4 confirmed** | L0 relay dyadic; L1 one end-loop whole-system dyadic Φ=0 (local {A2,R} complex Φ=2.0); core jumps 2→4 at closure; Φ monotone 0<2<4. `q67/probe_reciprocity_gradient.py` |
+| 232 | Recipient-side triage agent (Q68 H1-H4) | A triage agent joins the core only when bidirectionally coupled, and displaces the sender | **confirmed** | monitoring-only & gating-only T out (core {E,M,R}); bidirectional T in, core {M,R,T} (sender displaced), all Φ=2.0. `q68/probe_triage_gating.py` |
 
 ## Reading across Q62 (probes 210–214)
 
