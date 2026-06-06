@@ -898,6 +898,11 @@ of the same two-way partition at the verdict level.
 | 212 | Tied determines excluded (H3) | Excluded unique within each tied class | **confirmed** | within-tied heterogeneity 0/16. `probe_tied_determines_excluded.py` |
 | 213 | No third joint (H4) | Triple collapses to exactly two joint cells | **confirmed** | distinct joints 2; (W,seq,C) 8/8; (C,rec,W) 8/8. `probe_no_third_joint.py` |
 | 214 | Excluded norm uniform (H5) | Excluded norm 1.0 with no Phi subpanel lift | **confirmed** | norm 16/16; excluded-W/C spread 0. `probe_excluded_norm_phi.py` |
+| 215 | Outreach: read-recipient vs broadcast (Q63 H1) | Reading the recipient makes outreach triadic; broadcast is dyadic | **confirmed** | read_recipient triadic Φ=2.0; broadcast dyadic Φ=0. `q63/probe_read_recipient.py` |
+| 216 | Outreach: substitutable recipients (Q63 H2) | Interchangeable recipients collapse the triad | **confirmed** | all_required triadic Φ=3.0; substitutable (E∧(R1∨R2)) dyadic Φ=0. `q63/probe_substitutable.py` |
+| 217 | Outreach: disclosure is a label (Q63 H3) | Announcing the agent does not change the structure | **confirmed** | disclosed major complex {E,M,R} Φ=2.0, D excluded, = read-recipient triad. `q63/probe_disclosure.py` |
+| 218 | Outreach: cost proxy fails (Q63 H4) | Mediator in-degree does not recover the verdict | **confirmed** | substitutable (dyadic) reads 3 sources ≥ read_recipient (triadic) 2; proxy non-monotone. `q63/probe_cost_proxy.py` |
+| 219 | Outreach: liveness carries the verdict (Q63 H5) | A read-but-frozen recipient leaves outreach dyadic | **confirmed** | conversation (R live) triadic Φ=2.0; one_shot (R frozen) dyadic Φ=0. `q63/probe_liveness.py` |
 
 ## Reading across Q62 (probes 210–214)
 
