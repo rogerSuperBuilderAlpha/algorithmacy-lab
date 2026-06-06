@@ -1034,6 +1034,16 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q72_cost_proxy_frontier/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q73-outreach-law",
+      "cmd": "python -m org_frontier.questions.q73_outreach_law.probe_law_pillars",
+      "expect": [
+        "OUTREACH-COORDINATION LAW pillars hold: True",
+        "Q73 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q73_outreach_law/FINDINGS.md (law pillars)"
     }
   ]
 }
