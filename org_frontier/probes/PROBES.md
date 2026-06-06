@@ -917,6 +917,7 @@ of the same two-way partition at the verdict level.
 | 231 | Reciprocity gradient (Q67 H1-H4) | Partial reciprocity seeds a local core but full coupling binds the exchange | **H2 refuted, H1/H3/H4 confirmed** | L0 relay dyadic; L1 one end-loop whole-system dyadic Φ=0 (local {A2,R} complex Φ=2.0); core jumps 2→4 at closure; Φ monotone 0<2<4. `q67/probe_reciprocity_gradient.py` |
 | 232 | Recipient-side triage agent (Q68 H1-H4) | A triage agent joins the core only when bidirectionally coupled, and displaces the sender | **confirmed** | monitoring-only & gating-only T out (core {E,M,R}); bidirectional T in, core {M,R,T} (sender displaced), all Φ=2.0. `q68/probe_triage_gating.py` |
 | 233 | Two-sided agent exchange (Q69 H1-H4) | When both sides delegate, the irreducible core is the two agents | **confirmed** | live chain core {Ar,R} (human in core); delegated core {As,Ar} (both humans displaced) Φ=2.0; closed ring all four Φ=4.0. `q69/probe_two_sided.py` |
+| 234 | Agent substitutability (Q70 H1-H4) | Multi-homing across interchangeable agents collapses the coordination | **confirmed** | single agent triadic Φ=2.0; substitutable (M1∨M2) dyadic Φ=0; required-both (M1∧M2) triadic Φ=4.0, core {E,M1,M2,C}. `q70/probe_agent_substitutability.py` |
 
 ## Reading across Q62 (probes 210–214)
 

@@ -1001,6 +1001,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q69_two_sided_agents/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q70-agent-substitutability",
+      "cmd": "python -m org_frontier.questions.q70_agent_substitutability.probe_agent_substitutability",
+      "expect": [
+        "single triadic: True | substitutable dyadic: True | required triadic: True | both agents in core: True",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q70_agent_substitutability/FINDINGS.md (H1-H4)"
     }
   ]
 }
