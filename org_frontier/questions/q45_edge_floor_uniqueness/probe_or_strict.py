@@ -41,7 +41,7 @@ def main():
         if v.structure == "triadic":
             triadic_or.append(label)
 
-    print(f"\n  OR-commit forms (S-index {OR_INDEX}): {len(rows)}  (expect 64)")
+    print(f"\n  OR-commit forms (S-index {OR_INDEX}): {len(rows)}  (expect 16)")
     print(f"  triadic OR forms: {len(triadic_or)}")
     for lab in triadic_or[:5]:
         print(f"      {lab}")
