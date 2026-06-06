@@ -989,6 +989,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q68_triage_gating/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q69-two-sided-agents",
+      "cmd": "python -m org_frontier.questions.q69_two_sided_agents.probe_two_sided",
+      "expect": [
+        "live_chain core human-agent pair: True | delegated core == {As,Ar}: True",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q69_two_sided_agents/FINDINGS.md (H1-H4)"
     }
   ]
 }
