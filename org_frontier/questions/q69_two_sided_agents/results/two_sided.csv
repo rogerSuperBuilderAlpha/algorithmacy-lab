@@ -1,0 +1,4 @@
+config,core,phi,size
+live_chain,Ar|R,2.000000,2
+delegated,As|Ar,2.000000,2
+closed_ring,E|As|Ar|R,4.000000,4
