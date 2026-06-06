@@ -1,0 +1,5 @@
+k,n,structure,max_phi,n_minus_1,law_holds
+1,3,triadic,2.000000,2,True
+2,4,triadic,3.000000,3,True
+3,5,triadic,4.000000,4,True
+4,6,triadic,5.000000,5,True

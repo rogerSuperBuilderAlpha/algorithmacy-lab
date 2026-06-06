@@ -853,6 +853,56 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q64-h1-all-required-scaling",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_all_required_scaling",
+      "expect": [
+        "(n-1=5) law_holds=True",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q64-h2-substitutable-scaling",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_substitutable_scaling",
+      "expect": [
+        "all k dyadic: True",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q64-h3-pooled-broadcast",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_pooled_broadcast",
+      "expect": [
+        "all k dyadic: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q64-h4-mixed-collapse",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_mixed_collapse",
+      "expect": [
+        "mixed dyadic: True | all_required triadic: True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q64-h5-core-membership",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_core_membership",
+      "expect": [
+        "every recipient in core (k=2,3): True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H5)"
     }
   ]
 }
