@@ -903,6 +903,11 @@ of the same two-way partition at the verdict level.
 | 217 | Outreach: disclosure is a label (Q63 H3) | Announcing the agent does not change the structure | **confirmed** | disclosed major complex {E,M,R} Φ=2.0, D excluded, = read-recipient triad. `q63/probe_disclosure.py` |
 | 218 | Outreach: cost proxy fails (Q63 H4) | Mediator in-degree does not recover the verdict | **confirmed** | substitutable (dyadic) reads 3 sources ≥ read_recipient (triadic) 2; proxy non-monotone. `q63/probe_cost_proxy.py` |
 | 219 | Outreach: liveness carries the verdict (Q63 H5) | A read-but-frozen recipient leaves outreach dyadic | **confirmed** | conversation (R live) triadic Φ=2.0; one_shot (R frozen) dyadic Φ=0. `q63/probe_liveness.py` |
+| 220 | Outreach breadth: all-required scaling (Q64 H1) | All-binding campaign stays triadic at Φ=n−1 as recipients grow | **confirmed** | k=1..4 (n=3..6) triadic, Φ=2,3,4,5 = n−1. Conjunctive-hub law in the outreach frame. `q64/probe_all_required_scaling.py` |
+| 221 | Outreach breadth: substitutable scaling (Q64 H2) | A substitutable campaign factors at every breadth | **confirmed** | k=2,3,4 dyadic Φ=0. `q64/probe_substitutable_scaling.py` |
+| 222 | Outreach breadth: pooled broadcast (Q64 H3) | A broadcast that ignores recipients factors at every breadth | **confirmed** | k=2,3,4 dyadic Φ=0. `q64/probe_pooled_broadcast.py` |
+| 223 | Outreach breadth: one substitutable recipient (Q64 H4) | One swappable recipient collapses an otherwise all-binding campaign | **confirmed** | k=3 mixed E∧R1∧(R2∨R3) dyadic; all-required Φ=4.0 triadic. `q64/probe_mixed_collapse.py` |
+| 224 | Outreach breadth: core membership (Q64 H5) | Every recipient sits in the irreducible core | **confirmed** | all-required core {E,M,R1..Rk} full at k=2,3. `q64/probe_core_membership.py` |
 
 ## Reading across Q62 (probes 210–214)
 
