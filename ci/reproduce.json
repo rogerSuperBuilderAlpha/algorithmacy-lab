@@ -3,6 +3,7 @@
   "checks": [
     {
       "name": "instrument-controls",
+      "core": true,
       "cmd": "python -m org_frontier.classifier.validate",
       "expect": [
         "Instrument validated",
@@ -115,6 +116,7 @@
     },
     {
       "name": "q45-h5-global-floor",
+      "slow": true,
       "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_global_floor",
       "expect": [
         "triadic at 4 edges with max Phi=2.0: 192",
@@ -381,6 +383,426 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q55-h1-misaligned-partition",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_misaligned_partition",
+      "expect": [
+        "below misaligned one-sided: 16/16",
+        "below symmetric: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q55-h2-mid-rung-uniform",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_mid_rung_uniform",
+      "expect": [
+        "below off mid rung 0.415037: 0/16",
+        "ceiling below 2.0: 0/32",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q55-h3-seam-entropy-split",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_seam_entropy_split",
+      "expect": [
+        "mean H(W,C|S) below: 1.494161",
+        "mean delta (ceiling - below): 0.136472",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q55-h4-mip-singleton",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_mip_singleton",
+      "expect": [
+        "below at 2 parts: {S,WC}: 16/16",
+        "ceiling at 2 parts: {S,WC}: 0/32",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q55-h5-xnor-alignment-flip",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_xnor_alignment_flip",
+      "expect": [
+        "XNOR ceiling misalignments: 0",
+        "XOR aligned one-sided at ceiling: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q56-h1-complete-only-tie",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_complete_only_tie",
+      "expect": [
+        "complete-only official ties: 16/16",
+        "with outer-party in official ties: 0/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q56-h2-one-sided-outer-tie",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_one_sided_outer_tie",
+      "expect": [
+        "one outer-party + complete ties: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q56-h3-directional-symmetry",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_directional_symmetry",
+      "expect": [
+        "symmetric directionally symmetric: 16/16",
+        "one-sided directionally symmetric: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q56-h4-dual-outer-excluded",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_dual_outer_excluded",
+      "expect": [
+        "both outer-party at system Phi: 16/16",
+        "zero outer-party in official ties: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q56-h5-min-norm-tiebreak",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_min_norm_tiebreak",
+      "expect": [
+        "predicted matches official ties: 32/32",
+        "mismatches: 0",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q57-h1-recipient-seam-rule",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_recipient_seam_rule",
+      "expect": [
+        "recipient matches tied singleton: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q57-h2-dual-norm-split",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_dual_norm_split",
+      "expect": [
+        "both outer cuts at system Phi: 16/16",
+        "tied norm 0.5, excluded norm 1.0: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q57-h3-norm-ratio",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_norm_ratio",
+      "expect": [
+        "excluded/tied norm ratio 2.0: 16/16",
+        "ratio spread: 0.000000",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q57-h4-complete-norm-equal",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_complete_norm_equal",
+      "expect": [
+        "complete norm equals tied outer: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q57-h5-gate-invariant-direction",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_gate_invariant_direction",
+      "expect": [
+        "worker topologies at 2 parts: {W,SC}: 8/8",
+        "counterpart topologies at 2 parts: {WS,C}: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q58-h1-severed-edge-ratio",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_severed_edge_ratio",
+      "expect": [
+        "cut_ones tied/excl ratio 2.0: 16/16",
+        "cut_ones spread: 0.000000",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q58-h2-norm-factor-ratio",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_norm_factor_ratio",
+      "expect": [
+        "norm_factor excl/tied ratio 2.0: 16/16",
+        "norm_factor spread: 0.000000",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q58-h3-equal-phi-baseline",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_equal_phi_baseline",
+      "expect": [
+        "phi tied/excl ratio 1.0: 16/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q58-h4-complete-cut-match",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_complete_cut_match",
+      "expect": [
+        "complete cut_ones matches recipient: 16/16",
+        "complete norm_factor matches recipient: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q58-h5-inverse-cut-law",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_inverse_cut_law",
+      "expect": [
+        "norm_phi ratio equals cut_ones ratio: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q59-h1-cross-edge-shared",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_edge_shared",
+      "expect": [
+        "cross-edge in both cuts: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q59-h2-symdiff-size",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_symdiff_size",
+      "expect": [
+        "|only_tied|=3, |only_excl|=1: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q59-h3-cross-subtract-equal",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_subtract_equal",
+      "expect": [
+        "adj_tied == adj_excl: 0/16",
+        "H3 VERDICT: REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q59-h4-mediator-only-diff",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_mediator_only_diff",
+      "expect": [
+        "mediator edges in only_tied == 2: 16/16",
+        "adj ratio 3.0: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q59-h5-recipient-template",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_recipient_template",
+      "expect": [
+        "worker template match: 8/8",
+        "counterpart template match: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q60-h1-return-path-recipient",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_return_path_tracks_recipient",
+      "expect": [
+        "worker -> sequential: 8/8",
+        "counterpart -> reciprocal: 8/8",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q60-h2-uniform-triadic",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_uniform_triadic_verdict",
+      "expect": [
+        "triadic structure: 16/16",
+        "max_phi=2.0: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q60-h3-cycle-collapse",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_cycle_collapse",
+      "expect": [
+        "feedback_cycle=True: 16/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q60-h4-type-tracks-template",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_type_tracks_template",
+      "expect": [
+        "template match total: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q60-h5-no-phi-discrimination",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_no_phi_discrimination",
+      "expect": [
+        "max_phi spread: 0.000000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q61-h1-seam-tracks-type",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_tracks_type",
+      "expect": [
+        "seam-type matches: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q61-h2-coextensive-partitions",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_coextensive_partitions",
+      "expect": [
+        "partition equality: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q61-h3-seam-not-finer",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_finer",
+      "expect": [
+        "within-type seam heterogeneity: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q61-h4-seam-not-coarser",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_coarser",
+      "expect": [
+        "within-seam type heterogeneity: 0/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q61-h5-seam-recover-discrimination",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_recover_discrimination",
+      "expect": [
+        "max_phi spread (panel): 0.000000",
+        "subpanel match total: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q62-h1-excluded-complement",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_complement",
+      "expect": [
+        "complement matches: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q62-h2-inverse-type-track",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_inverse_type_track",
+      "expect": [
+        "inverse type matches: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q62-h3-tied-determines-excluded",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_tied_determines_excluded",
+      "expect": [
+        "within-tied excluded heterogeneity: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q62-h4-no-third-joint",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_no_third_joint",
+      "expect": [
+        "distinct joint labels: 2",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q62-h5-excluded-norm-phi",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_norm_phi",
+      "expect": [
+        "excluded norm 1.0: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H5)"
     }
   ]
 }

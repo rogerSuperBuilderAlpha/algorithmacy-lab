@@ -1,0 +1,17 @@
+label,topology,recipient,feedback_cycle
+W1_S2_C1,counterpart_xor,C,True
+W1_S2_C1,worker_xnor,W,True
+W1_S4_C1,worker_xor,W,True
+W1_S4_C1,counterpart_xnor,C,True
+W1_S11_C1,worker_xor,W,True
+W1_S11_C1,counterpart_xnor,C,True
+W1_S13_C1,counterpart_xor,C,True
+W1_S13_C1,worker_xnor,W,True
+W2_S2_C2,counterpart_xor,C,True
+W2_S2_C2,worker_xnor,W,True
+W2_S4_C2,worker_xor,W,True
+W2_S4_C2,counterpart_xnor,C,True
+W2_S11_C2,worker_xor,W,True
+W2_S11_C2,counterpart_xnor,C,True
+W2_S13_C2,counterpart_xor,C,True
+W2_S13_C2,worker_xnor,W,True
