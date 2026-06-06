@@ -761,3 +761,151 @@ outer-party or complete MIP cuts. XNOR inverts the one-sided alignment polarity 
 breaking the partition: worker_xnor ceiling hits require W-centric commits, counterpart_xnor require
 C-centric — the complement of the XOR rule from Q54 #173 (179). Bijectivity remains necessary; the
 discriminator is sidedness-alignment geometry plus MIP seam class, not gate invertibility alone.
+
+### Question Q56 — symmetric_complete_mip
+
+| # | Concept (Q56) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 180 | Complete-only tie (H1) | Symmetric ceiling has complete-only official tie set | **confirmed** | 16/16 symmetric at `3 parts: {W,S,C}` only; 0/16 with outer-party in ties. `probe_complete_only_tie.py` |
+| 181 | One-sided dual tie (H2) | One-sided ceiling ties one outer-party cut with complete | **confirmed** | 16/16 one-sided with exactly one outer-party two-part plus complete in official ties. `probe_one_sided_outer_tie.py` |
+| 182 | Directional symmetry (H3) | Directional W/C symmetry distinguishes topology classes | **confirmed** | 16/16 symmetric directionally symmetric; 0/16 one-sided. `probe_directional_symmetry.py` |
+| 183 | Dual outer excluded (H4) | Both outer-party cuts at system Phi but excluded on symmetric | **confirmed** | 16/16 symmetric with both `{W,SC}` and `{WS,C}` at system Phi; 0/16 outer-party in official ties. `probe_dual_outer_excluded.py` |
+| 184 | Min norm tie-break (H5) | Minimum normalized_phi predicts official tie set | **confirmed** | 32/32 ceiling pairs match min-norm prediction; 0 mismatches. `probe_min_norm_tiebreak.py` |
+
+## Reading across Q56 (probes 180–184)
+
+Q55 (#178) left the symmetric-vs-one-sided MIP split documented but unexplained. Symmetric bijective parity
+coupling restores full directional W/C symmetry (182). Both outer-party two-part cuts reach system Phi on
+every symmetric pair, yet IIT-4.0 tie-break admits only the complete partition into the official tie set
+because outer-party cuts carry higher normalized_phi (183, 184). One-sided aligned pairs break directional
+symmetry; one outer-party cut shares the minimum normalized_phi with complete and co-enters the tie set
+(181). The printed MIP first line follows that tie set: complete-only on symmetric pairs (180), one
+outer-party singleton seam plus complete on one-sided pairs. The mechanism is partition-landscape
+tie-breaking under restored bilateral symmetry, not a separate complete-partition forcing rule.
+
+### Question Q57 — channel_direction_mip
+
+| # | Concept (Q57) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 185 | Recipient seam rule (H1) | Back-channel recipient determines tied singleton | **confirmed** | 16/16 recipient matches tied cut; worker→{W,SC}, counterpart→{WS,C}. `probe_recipient_seam_rule.py` |
+| 186 | Dual norm split (H2) | Dual at-system outer cuts with 0.5/1.0 norm split | **confirmed** | 16/16 both outer at system Phi; tied norm 0.5, excluded 1.0. `probe_dual_norm_split.py` |
+| 187 | Norm ratio (H3) | Excluded/tied normalized_phi ratio exactly 2.0 | **confirmed** | 16/16 at ratio 2.0; spread 0. `probe_norm_ratio.py` |
+| 188 | Complete norm equal (H4) | Complete min norm equals tied outer cut | **confirmed** | 16/16 complete norm equals tied outer (0.5). `probe_complete_norm_equal.py` |
+| 189 | Gate-invariant direction (H5) | XOR/XNOR preserve recipient→singleton mapping | **confirmed** | 8/8 worker at {W,SC}; 8/8 counterpart at {WS,C}. `probe_gate_invariant_direction.py` |
+
+## Reading across Q57 (probes 185–189)
+
+Q56 (#181, #184) left the one-sided dual tie and min-norm rule documented without a directional mechanism.
+The back-channel recipient — the outer party whose update rule gains the extra incoming cross-edge — always
+determines which singleton seam co-enters the official tie set with complete (185). Both outer-party cuts
+reach system Phi on every aligned one-sided pair; the recipient-singleton cut carries minimum normalized_phi
+0.5, the non-recipient cut carries 1.0, and the ratio is exactly two-to-one with zero spread (186, 187).
+Complete shares the 0.5 minimum, which explains its co-entry (188). XOR and XNOR gate polarity preserve
+the same recipient→singleton mapping (189). Direction fixes the favored seam through partition
+normalization on the recipient singleton, not through gate bijectivity or commit alignment alone.
+
+### Question Q58 — normalization_cut_geometry
+
+| # | Concept (Q58) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 190 | Severed-edge ratio (H1) | Recipient severs twice as many cut-matrix ones | **confirmed** | 16/16 cut_ones ratio 2.0 (4 vs 2); spread 0. `probe_severed_edge_ratio.py` |
+| 191 | Norm factor ratio (H2) | Excluded/tied normalization_factor ratio 2.0 | **confirmed** | 16/16 ratio 2.0 (0.5 vs 0.25); spread 0. `probe_norm_factor_ratio.py` |
+| 192 | Equal phi baseline (H3) | Unnormalized phi identical on both outer cuts | **confirmed** | 16/16 phi ratio 1.0 (both 2.0). `probe_equal_phi_baseline.py` |
+| 193 | Complete cut match (H4) | Complete shares recipient cut geometry | **confirmed** | 16/16 cut_ones=4 and norm_factor=0.25 match. `probe_complete_cut_match.py` |
+| 194 | Inverse cut law (H5) | norm_phi ratio equals cut_ones ratio | **confirmed** | 16/16 identity holds (ratio 2.0). `probe_inverse_cut_law.py` |
+
+## Reading across Q58 (probes 190–194)
+
+Q57 (#187) left the two-to-one normalized_phi ratio documented without inspecting the normalization
+denominator. The ratio follows from IIT-4.0 `NUM_CONNECTIONS_CUT` on min-norm at-system-Phi partition
+representatives. Both outer cuts carry unnormalized phi=2.0; the recipient singleton severs four
+cut-matrix connections, the non-recipient severs two (190). Normalization_factor is 0.25 on the recipient
+and 0.5 on the non-recipient, producing normalized_phi 0.5 and 1.0 (191). Unnormalized phi asymmetry does
+not drive the split (192). Complete co-enters the tie set because its min-norm representative shares the
+recipient's four-connection cut geometry (193). The normalized_phi ratio equals the inverse cut-ones ratio
+on every pair (194).
+
+### Question Q59 — directed_cut_edges
+
+| # | Concept (Q59) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 195 | Cross-edge shared (H1) | Back-channel cross-edge severed in both outer cuts | **confirmed** | 16/16 cross-edge in both tied and excluded sets; 0 exclusive. `probe_cross_edge_shared.py` |
+| 196 | Symdiff size (H2) | Symmetric difference exactly four directed edges | **confirmed** | 16/16 at |only_tied|=3, |only_excl|=1. `probe_symdiff_size.py` |
+| 197 | Cross subtract (H3) | Removing cross-edge equalizes severed counts | **refuted** | 0/16 equal; adj 3 vs 1 on all pairs. `probe_cross_subtract_equal.py` |
+| 198 | Mediator-only diff (H4) | Two mediator edges in recipient-only difference | **confirmed** | 16/16 mediator count 2; adj ratio 3.0, spread 0. `probe_mediator_only_diff.py` |
+| 199 | Recipient template (H5) | Worker/counterpart edge templates gate-invariant | **confirmed** | 8/8 worker and 8/8 counterpart match fixed templates. `probe_recipient_template.py` |
+
+## Reading across Q59 (probes 195–199)
+
+Q58 (#190) counted severed connections without naming directed edges. The back-channel cross-edge is
+severed in both the recipient and non-recipient min-norm cuts on every pair (195). The symmetric difference
+is exactly four directed edges—three only in the recipient cut, one only in the non-recipient cut (196).
+Subtracting the shared cross-edge leaves a 3-versus-1 gap; cross-edge placement alone does not account for
+the 4-versus-2 split (197 refuted). Exactly two mediator-incident edges sit in the recipient-only
+difference, fixing the adjusted ratio at 3.0 (198). Worker and counterpart recipient classes carry fixed
+edge templates preserved under XOR and XNOR (199). The Q51–Q58 cut-geometry thread closes here: mediator
+severance in the recipient-only difference is the residual source of partition asymmetry beyond the shared
+cross-edge.
+
+### Question Q60 — thompson_backchannel
+
+| # | Concept (Q60) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 200 | Return-path recipient (H1) | Q43 return-path typing tracks back-channel recipient | **confirmed** | 8/8 worker→sequential, 8/8 counterpart→reciprocal; 0 other. `probe_return_path_tracks_recipient.py` |
+| 201 | Uniform triadic (H2) | All ceiling pairs triadic at max_phi=2.0 | **confirmed** | 16/16 triadic; max_phi spread 0. `probe_uniform_triadic_verdict.py` |
+| 202 | Cycle collapse (H3) | Feedback-cycle predicate assigns all reciprocal | **confirmed** | 16/16 cycle=True; 0 sequential by cycle. `probe_cycle_collapse.py` |
+| 203 | Type tracks template (H4) | Return-path type aligns with Q59 edge template | **confirmed** | 16/16 template match; 8/8 each subpanel. `probe_type_tracks_template.py` |
+| 204 | No Phi split (H5) | Sequential/reciprocal subpanels identical at verdict | **confirmed** | Both subpanels triadic mean 2.0 spread 0. `probe_no_phi_discrimination.py` |
+
+## Reading across Q60 (probes 200–204)
+
+Q59 (#198, #199) fixed recipient-class mediator-severance templates without reconnecting to Q43 Thompson
+interdependence. Q43 (#135–#139) showed sequential/reciprocal splits turn on return path and feedback cycle on
+the baseline triple. On sixteen aligned one-sided back-channel forms all held at triadic max_phi=2.0, return-path
+typing and recipient templates are the same partition (200, 203): worker halves sequential with worker edge
+template, counterpart halves reciprocal with counterpart template. The IIT verdict offers no
+sequential-vs-reciprocal discrimination (201, 204). Q43's feedback-cycle predicate assigns every form
+reciprocal (202), so cycle presence alone cannot track the recipient split return-path typing preserves.
+Interdependence typing survives at partition-template level after the back-channel raises every form to the
+triadic ceiling; it collapses at the verdict and cycle-predicate levels.
+
+### Question Q61 — seam_return_typing
+
+| # | Concept (Q61) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 205 | Seam-type bijection (H1) | Official singleton seam tracks return-path type | **confirmed** | W seam+sequential 8/8; C seam+reciprocal 8/8; matches 16/16. `probe_seam_tracks_type.py` |
+| 206 | Co-extensive partitions (H2) | Seam and type induce identical 8+8 partition | **confirmed** | partition equality 16/16; both labels 8+8. `probe_coextensive_partitions.py` |
+| 207 | Seam not finer (H3) | No within-type seam heterogeneity | **confirmed** | heterogeneity 0/16; seq+C seam 0/8; rec+W seam 0/8. `probe_seam_not_finer.py` |
+| 208 | Seam not coarser (H4) | No within-seam type heterogeneity | **confirmed** | heterogeneity 0/16; W seam+rec 0/8; C seam+seq 0/8. `probe_seam_not_coarser.py` |
+| 209 | Verdict recovery (H5) | Seam subpanels match type despite uniform max_phi | **confirmed** | spread 0.000000; W-seam=seq 8/8; C-seam=rec 8/8. `probe_seam_recover_discrimination.py` |
+
+## Reading across Q61 (probes 205–209)
+
+Q60 (#200, #204) showed recipient→return-path type and uniform max_phi with no subpanel discrimination.
+Q57 (#185) showed recipient→singleton seam on the same panel. Direct cross-tabulation confirms perfect
+seam↔type co-extensiveness (205, 206): W singleton ({W,SC}) iff sequential, C singleton ({WS,C}) iff
+reciprocal. Seam is neither strictly finer nor coarser than return-path type (207, 208). The official
+singleton seam recovers the sequential/reciprocal partition max_phi loses (209) without adding information
+beyond return-path typing. Recipient party remains the common cause; seam and type are redundant encodings
+of the same two-way partition at the verdict level.
+
+### Question Q62 — excluded_cut_signal
+
+| # | Concept (Q62) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 210 | Excluded complement (H1) | Excluded singleton is complement of tied | **confirmed** | complement matches 16/16; mismatches 0/16. `probe_excluded_complement.py` |
+| 211 | Inverse type track (H2) | Excluded inversely tracks return-path type | **confirmed** | inverse 16/16; direct 0/16. `probe_inverse_type_track.py` |
+| 212 | Tied determines excluded (H3) | Excluded unique within each tied class | **confirmed** | within-tied heterogeneity 0/16. `probe_tied_determines_excluded.py` |
+| 213 | No third joint (H4) | Triple collapses to exactly two joint cells | **confirmed** | distinct joints 2; (W,seq,C) 8/8; (C,rec,W) 8/8. `probe_no_third_joint.py` |
+| 214 | Excluded norm uniform (H5) | Excluded norm 1.0 with no Phi subpanel lift | **confirmed** | norm 16/16; excluded-W/C spread 0. `probe_excluded_norm_phi.py` |
+
+## Reading across Q62 (probes 210–214)
+
+Q61 (#206, #208) showed tied singleton seam and return-path type are co-extensive on the identical panel.
+Q57 (#186) documented the excluded outer cut at normalized_phi=1.0 alongside the tied cut at 0.5. The
+excluded singleton is the tied complement on 16/16 pairs (210) and inversely encodes the same two-way
+partition type names (211): excluded C with sequential, excluded W with reciprocal. Conditional on tied seam,
+excluded is unique (212). The triple (tied, type, excluded) collapses to two joint cells with no third
+independent label (213). Norm asymmetry does not lift max_phi discrimination at excluded subpanels (214).
+The Q57–Q61 seam/typing micro-thread closes: recipient direction fixes both outer cuts, and the excluded cut
+carries no signal beyond the tied complement once seam and type are known.

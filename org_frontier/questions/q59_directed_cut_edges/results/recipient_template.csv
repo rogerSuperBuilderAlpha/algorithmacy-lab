@@ -1,0 +1,17 @@
+label,topology,only_tied,only_excl,match
+W1_S2_C1,counterpart_xor,C->S;C->W;S->C,W->S,True
+W1_S2_C1,worker_xnor,S->W;W->C;W->S,C->S,True
+W1_S4_C1,worker_xor,S->W;W->C;W->S,C->S,True
+W1_S4_C1,counterpart_xnor,C->S;C->W;S->C,W->S,True
+W1_S11_C1,worker_xor,S->W;W->C;W->S,C->S,True
+W1_S11_C1,counterpart_xnor,C->S;C->W;S->C,W->S,True
+W1_S13_C1,counterpart_xor,C->S;C->W;S->C,W->S,True
+W1_S13_C1,worker_xnor,S->W;W->C;W->S,C->S,True
+W2_S2_C2,counterpart_xor,C->S;C->W;S->C,W->S,True
+W2_S2_C2,worker_xnor,S->W;W->C;W->S,C->S,True
+W2_S4_C2,worker_xor,S->W;W->C;W->S,C->S,True
+W2_S4_C2,counterpart_xnor,C->S;C->W;S->C,W->S,True
+W2_S11_C2,worker_xor,S->W;W->C;W->S,C->S,True
+W2_S11_C2,counterpart_xnor,C->S;C->W;S->C,W->S,True
+W2_S13_C2,counterpart_xor,C->S;C->W;S->C,W->S,True
+W2_S13_C2,worker_xnor,S->W;W->C;W->S,C->S,True
