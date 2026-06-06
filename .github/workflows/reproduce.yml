@@ -18,7 +18,9 @@ permissions:
 jobs:
   reproduce:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Most PRs select a small subset and finish in seconds. The exception is a shared-infra change, which
+    # re-verifies the whole non-slow manifest; that path grows with the study count, so the budget is 60m.
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
         with:

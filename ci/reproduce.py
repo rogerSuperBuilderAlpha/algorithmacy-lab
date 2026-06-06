@@ -40,9 +40,11 @@ SHARED_PREFIXES = (
     "org_frontier/probes/lib.py",
     "org_frontier/probes/_info.py",
     "foundations/proxy_audit/",
-    "ci/reproduce.json",
     "ci/reproduce.py",
 )
+# Note: ci/reproduce.json (the manifest) is deliberately NOT a shared-infra trigger. Adding a study's
+# checks should run only that study's checks (selected by its changed dir) plus core, not the whole
+# manifest. Modifications to an existing check's expected value are caught by the nightly full run.
 
 
 def load_checks():

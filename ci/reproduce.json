@@ -803,6 +803,247 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q63-h1-read-recipient",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_read_recipient",
+      "expect": [
+        "read_recipient triadic: True | broadcast dyadic: True",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q63-h2-substitutable",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_substitutable",
+      "expect": [
+        "all_required triadic: True | substitutable dyadic: True",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q63-h3-disclosure-label",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_disclosure",
+      "expect": [
+        "core == {E,M,R}: True | D excluded: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q63-h4-cost-proxy",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_cost_proxy",
+      "expect": [
+        "triadic costs=[2, 3] | dyadic costs=[1, 3]",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q63-h5-liveness",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_liveness",
+      "expect": [
+        "conversation triadic: True | one_shot dyadic: True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q64-h1-all-required-scaling",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_all_required_scaling",
+      "expect": [
+        "(n-1=5) law_holds=True",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q64-h2-substitutable-scaling",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_substitutable_scaling",
+      "expect": [
+        "all k dyadic: True",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q64-h3-pooled-broadcast",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_pooled_broadcast",
+      "expect": [
+        "all k dyadic: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q64-h4-mixed-collapse",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_mixed_collapse",
+      "expect": [
+        "mixed dyadic: True | all_required triadic: True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q64-h5-core-membership",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_core_membership",
+      "expect": [
+        "every recipient in core (k=2,3): True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q65-h1h2-chain-depth",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_chain_depth",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H1,H2)"
+    },
+    {
+      "name": "q65-h3-relay-gap",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_relay_gap",
+      "expect": [
+        "relay_gap dyadic: True | intact triadic: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q65-h4-chain-core",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_chain_core",
+      "expect": [
+        "core=('A2', 'R')",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H4, refuted)"
+    },
+    {
+      "name": "q65-h5-depth-breadth",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_depth_breadth",
+      "expect": [
+        "depth+breadth triadic: True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q66-h1h2-chain-core-depth",
+      "cmd": "python -m org_frontier.questions.q66_chain_core_boundary.probe_chain_core_depth",
+      "expect": [
+        "core size two at every depth: True",
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H1 refuted, H2)"
+    },
+    {
+      "name": "q66-h3h4-ring-core",
+      "cmd": "python -m org_frontier.questions.q66_chain_core_boundary.probe_ring_core",
+      "expect": [
+        "ring core is full set at d=2,3: True",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H3,H4)"
+    },
+    {
+      "name": "q67-reciprocity-gradient",
+      "cmd": "python -m org_frontier.questions.q67_reciprocity_gradient.probe_reciprocity_gradient",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "core jumps 2 (L2) -> 4 (L3) at closure: True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q67_reciprocity_gradient/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q68-triage-gating",
+      "cmd": "python -m org_frontier.questions.q68_triage_gating.probe_triage_gating",
+      "expect": [
+        "monitoring T out: True | gating T out: True | bidirectional T in: True",
+        "core=('M', 'R', 'T')",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q68_triage_gating/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q69-two-sided-agents",
+      "cmd": "python -m org_frontier.questions.q69_two_sided_agents.probe_two_sided",
+      "expect": [
+        "live_chain core human-agent pair: True | delegated core == {As,Ar}: True",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q69_two_sided_agents/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q70-agent-substitutability",
+      "cmd": "python -m org_frontier.questions.q70_agent_substitutability.probe_agent_substitutability",
+      "expect": [
+        "single triadic: True | substitutable dyadic: True | required triadic: True | both agents in core: True",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q70_agent_substitutability/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q71-noise-robustness",
+      "cmd": "python -m org_frontier.questions.q71_noise_robustness.probe_noise_robustness",
+      "expect": [
+        "triad survives small noise (eps<=0.1): True",
+        "H2 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q71_noise_robustness/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q72-cost-proxy-frontier",
+      "cmd": "python -m org_frontier.questions.q72_cost_proxy_frontier.probe_cost_proxy_frontier",
+      "expect": [
+        "no structural cost proxy recovers the verdict: True",
+        "H1 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q72_cost_proxy_frontier/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q73-outreach-law",
+      "cmd": "python -m org_frontier.questions.q73_outreach_law.probe_law_pillars",
+      "expect": [
+        "OUTREACH-COORDINATION LAW pillars hold: True",
+        "Q73 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q73_outreach_law/FINDINGS.md (law pillars)"
     }
   ]
 }

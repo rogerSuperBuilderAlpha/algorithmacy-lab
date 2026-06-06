@@ -1,0 +1,7 @@
+form,structure,med_in_degree,total_edges
+read_recipient,triadic,2,4
+broadcast,dyadic,1,3
+one_shot,dyadic,2,4
+relay_decoupled,dyadic,1,3
+all_required,triadic,3,6
+substitutable,dyadic,3,6
