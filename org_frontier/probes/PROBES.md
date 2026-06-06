@@ -908,6 +908,10 @@ of the same two-way partition at the verdict level.
 | 222 | Outreach breadth: pooled broadcast (Q64 H3) | A broadcast that ignores recipients factors at every breadth | **confirmed** | k=2,3,4 dyadic Φ=0. `q64/probe_pooled_broadcast.py` |
 | 223 | Outreach breadth: one substitutable recipient (Q64 H4) | One swappable recipient collapses an otherwise all-binding campaign | **confirmed** | k=3 mixed E∧R1∧(R2∨R3) dyadic; all-required Φ=4.0 triadic. `q64/probe_mixed_collapse.py` |
 | 224 | Outreach breadth: core membership (Q64 H5) | Every recipient sits in the irreducible core | **confirmed** | all-required core {E,M,R1..Rk} full at k=2,3. `q64/probe_core_membership.py` |
+| 225 | Agent-chain outreach: depth (Q65 H1/H2) | Agent chain stays triadic at Φ=2.0 constant across depth | **confirmed** | d=1..4 (n=3..6) triadic, Φ=2.0 at every depth (depth preserves, vs breadth n−1). `q65/probe_chain_depth.py` |
+| 226 | Agent-chain outreach: relay gap (Q65 H3) | An agent reading only upstream collapses the chain | **confirmed** | intact triadic Φ=2.0; relay-gap dyadic Φ=0. `q65/probe_relay_gap.py` |
+| 227 | Agent-chain outreach: core localizes (Q65 H4) | The chain core is the recipient end, not the whole chain | **refuted** | d=2 major complex {A2,R} Φ=2.0, not {E,A1,A2,R}; sender + upstream agent feed the core without joining it. `q65/probe_chain_core.py` |
+| 228 | Agent-chain outreach: depth atop breadth (Q65 H5) | Depth does not undo breadth | **confirmed** | agent before all-binding 2-recipient commit triadic Φ=2.0. `q65/probe_depth_breadth.py` |
 
 ## Reading across Q62 (probes 210–214)
 
