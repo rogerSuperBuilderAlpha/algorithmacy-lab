@@ -1,0 +1,5 @@
+form,structure,mediator_in_degree
+read_recipient,triadic,2
+broadcast,dyadic,1
+all_required,triadic,3
+substitutable,dyadic,3

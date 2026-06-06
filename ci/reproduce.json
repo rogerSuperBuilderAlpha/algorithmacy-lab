@@ -803,6 +803,56 @@
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q63-h1-read-recipient",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_read_recipient",
+      "expect": [
+        "read_recipient triadic: True | broadcast dyadic: True",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q63-h2-substitutable",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_substitutable",
+      "expect": [
+        "all_required triadic: True | substitutable dyadic: True",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q63-h3-disclosure-label",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_disclosure",
+      "expect": [
+        "core == {E,M,R}: True | D excluded: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q63-h4-cost-proxy",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_cost_proxy",
+      "expect": [
+        "triadic costs=[2, 3] | dyadic costs=[1, 3]",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q63-h5-liveness",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_liveness",
+      "expect": [
+        "conversation triadic: True | one_shot dyadic: True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H5)"
     }
   ]
 }
