@@ -1,14 +1,12 @@
 name: reproduce-the-numbers
 
-# Mechanical first pass of the review in PUBLISHING.md: re-derive every registered number from its
-# committed script. Runs on pull requests into the integration and published branches.
+# Mechanical first pass of the review in PUBLISHING.md. A pull request re-derives only the numbers it
+# could have affected: the instrument control plus the studies whose files it changed. The full
+# manifest is reproduced by reproduce-all-nightly.yml.
 
 on:
   pull_request:
     branches: [contrib, main]
-  push:
-    branches: [contrib, main]
-  workflow_dispatch:
 
 concurrency:
   group: reproduce-${{ github.ref }}
@@ -23,6 +21,8 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v6
         with:
@@ -35,7 +35,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Reproduce the numbers
+      - name: List changed files
+        run: git diff --name-only "${{ github.event.pull_request.base.sha }}...HEAD" > changed.txt && cat changed.txt
+
+      - name: Reproduce the numbers this PR could affect
         env:
           PYPHI_WELCOME_OFF: "true"
-        run: python ci/reproduce.py
+        run: python ci/reproduce.py --changed-file changed.txt
