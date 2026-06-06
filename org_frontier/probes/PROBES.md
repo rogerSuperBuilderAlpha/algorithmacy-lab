@@ -918,6 +918,7 @@ of the same two-way partition at the verdict level.
 | 232 | Recipient-side triage agent (Q68 H1-H4) | A triage agent joins the core only when bidirectionally coupled, and displaces the sender | **confirmed** | monitoring-only & gating-only T out (core {E,M,R}); bidirectional T in, core {M,R,T} (sender displaced), all Φ=2.0. `q68/probe_triage_gating.py` |
 | 233 | Two-sided agent exchange (Q69 H1-H4) | When both sides delegate, the irreducible core is the two agents | **confirmed** | live chain core {Ar,R} (human in core); delegated core {As,Ar} (both humans displaced) Φ=2.0; closed ring all four Φ=4.0. `q69/probe_two_sided.py` |
 | 234 | Agent substitutability (Q70 H1-H4) | Multi-homing across interchangeable agents collapses the coordination | **confirmed** | single agent triadic Φ=2.0; substitutable (M1∨M2) dyadic Φ=0; required-both (M1∧M2) triadic Φ=4.0, core {E,M1,M2,C}. `q70/probe_agent_substitutability.py` |
+| 235 | Noise robustness (Q71 H1-H4) | The outreach verdict is robust to stochastic noise | **confirmed** | triad Φ degrades 2.0→1.53→1.16→0.61→0.28→0 as eps 0→0.5; broadcast stays 0 (no spurious triad). `q71/probe_noise_robustness.py` |
 
 ## Reading across Q62 (probes 210–214)
 

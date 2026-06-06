@@ -1012,6 +1012,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q70_agent_substitutability/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q71-noise-robustness",
+      "cmd": "python -m org_frontier.questions.q71_noise_robustness.probe_noise_robustness",
+      "expect": [
+        "triad survives small noise (eps<=0.1): True",
+        "H2 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q71_noise_robustness/FINDINGS.md (H1-H4)"
     }
   ]
 }
