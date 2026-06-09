@@ -88,3 +88,8 @@ detailed as runnable questions in `RESEARCH_AGENDA_Q74.md`.
 
 The order is the recommendation: harden the construct, then commit to the empirical anchor, because every
 other direction compounds in value once one result has crossed from the model to the world.
+
+The construct-hardening step is now done: Q74, Q75, Q79, Q80, Q83, Q84, and Q85 are on the record, and the
+whole program is synthesized in the capstone, [`essays/algorithmacy_outreach_paper.md`](essays/algorithmacy_outreach_paper.md).
+The remaining agenda questions that need a tool, a dataset, or a written correspondence are staged as
+runnable designs in [`RESEARCH_DESIGNS_Q76plus.md`](RESEARCH_DESIGNS_Q76plus.md).
