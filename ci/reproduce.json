@@ -1127,6 +1127,48 @@
       ],
       "timeout": 600,
       "source": "org_frontier/questions/q85_agent_market/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q43-thompson-ordering",
+      "cmd": "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_ordering",
+      "expect": [
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q43_thompson_interdependence/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q43-thompson-sequential",
+      "cmd": "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_sequential",
+      "expect": [
+        "H3 verdict: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q43_thompson_interdependence/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q81-learned-surrogate",
+      "cmd": "python -m org_frontier.questions.q81_learned_surrogate.probe_learned_surrogate",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q81_learned_surrogate/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q82-surrogate-vs-proxy",
+      "cmd": "python -m org_frontier.questions.q82_surrogate_vs_proxy.probe_surrogate_vs_proxy",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q82_surrogate_vs_proxy/FINDINGS.md (H1-H4)"
     }
   ]
 }

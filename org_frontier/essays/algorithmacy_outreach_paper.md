@@ -12,7 +12,7 @@ zero, and triadic, demanding algorithmacy, when it is positive. On systems small
 exactly, the verdict is exact rather than estimated. Across roughly 244 reproducible probes and a hundred
 continuously-checked numbers, the program establishes a structural law (a form is triadic iff every party
 is bound into a single irreducible joint determination), applies it to agent-mediated outreach through a
-ten-study program that ends in a five-pillar law, and hardens that law through seven further studies on the
+ten-study program that ends in a five-pillar law, and hardens that law through nine further studies on the
 verdict's foundations and extensions. The work is in-silico throughout: every result is evidence about the
 Boolean models, separated from claims about real organizations by a validation gap that no amount of
 computing closes. The program's method, its findings, and its honest limits are the subject of this paper.
@@ -112,7 +112,7 @@ contingent on that model.
 
 ## Construct-hardening and extensions (Q74–Q85)
 
-Seven studies tested the verdict's foundations and pushed its edges. The reporting rule (Q74) and spectator
+Nine studies tested the verdict's foundations and pushed its edges. The reporting rule (Q74) and spectator
 robustness (Q75) hardened the construct: the rule says which verdict to report when the readings diverge,
 and the core is stable when the coordination is surrounded by idle, observing, or emitting parties. The
 verdict is a graded quantity in its stochastic limit (Q79): when the agent reads the recipient with
@@ -131,6 +131,16 @@ coordination requires membership in it. And a market of interchangeable agents (
 broadcast at every size: a substitutable market of two, three, or four agents is dyadic, while an
 all-required set is triadic with Φ growing as 2N and every agent in the core, and a single substitutable
 pair collapses the whole market.
+
+The estimation frontier closed with a refutation. A learned surrogate (Q81) — a random forest over ten
+size-invariant cheap features — recovers the verdict perfectly within a fixed size (cross-validated
+ROC-AUC 1.000 on the 256-form n=3 family), and trained on n=3 it classifies held-out n=4,5,6 forms at
+accuracy 0.250, below chance. The exact-Φ size ceiling holds even for a learned student, which agrees with
+the proxy-bridge result and strengthens the case for exact computation. Within a fixed size the surrogate
+beats every single cheap proxy (Q82): it exceeds edge count (rank-AUC 0.966), mediator in-degree (0.707),
+and the time-series proxies Φ_R and Φ_WMS (0.621, 0.547), and it separates the verdict perfectly on the
+collision subset where in-degree is constant. Edge count is a stronger single rank than the earlier
+two-pair view of Q72 showed, and still an imperfect separator, capped by the same collisions.
 
 ## Limitations and the validation gap
 

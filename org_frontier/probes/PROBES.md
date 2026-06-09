@@ -928,6 +928,8 @@ of the same two-way partition at the verdict level.
 | 242 | Recipient-side gating coalition (Q83) | A gating coalition keeps a size-3 core; only one of two required agents enters | **H1 refuted, H2-H4 confirmed** | both-required core {M,R,T2} (one agent absorbed, vs regulator coalition probe 111 where both enter); either-suffices keeps {E,M,R}; single agent enters. `q83/probe_agent_coalition.py` |
 | 243 | Adversarial agent (Q84 H1-H4) | Influence requires membership: a non-core agent cannot flip the verdict | **confirmed** | read-only & emit-only X leave core {E,M,R} triadic; only bidirectional-pivotal X joins (core {E,M,R,X} Φ=3.0). `q84/probe_adversarial_agent.py` |
 | 244 | Agent market (Q85 H1-H4) | A market of interchangeable agents is a broadcast at every size | **confirmed** | substitutable dyadic at N=2,3,4; all-required triadic Φ=4,6,8 with full core; one substitutable pair collapses it. `q85/probe_agent_market.py` |
+| 245 | Learned surrogate (Q81 H1-H4) | A surrogate over cheap features recovers the verdict in-distribution but fails to cross sizes | **H1 confirmed, H2-H4 refuted** | n=3 family CV AUC 1.000; trained on n=3, generalizes to n=4,5,6 at accuracy 0.250 (below the 0.600 majority); the exact ceiling holds for a learned student. `q81/probe_learned_surrogate.py` |
+| 246 | Surrogate vs proxy (Q82 H1-H4) | The surrogate beats every single proxy; edge count is a strong but imperfect rank | **H1 refuted, H2-H4 confirmed** | surrogate CV AUC 1.000 > edges 0.966 > in-degree 0.707 > Φ_R 0.621 > Φ_WMS 0.547; surrogate OOF acc 1.000 on the constant-in-degree subset where structure cannot separate. `q82/probe_surrogate_vs_proxy.py` |
 
 ## Reading across Q62 (probes 210–214)
 
