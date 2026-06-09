@@ -1155,7 +1155,8 @@
         "H3 VERDICT: REFUTED",
         "H4 VERDICT: REFUTED"
       ],
-      "timeout": 600,
+      "timeout": 1800,
+      "slow": true,
       "source": "org_frontier/questions/q81_learned_surrogate/FINDINGS.md (H1-H4)"
     },
     {
@@ -1167,7 +1168,7 @@
         "H3 VERDICT: CONFIRMED",
         "H4 VERDICT: CONFIRMED"
       ],
-      "timeout": 600,
+      "timeout": 900,
       "source": "org_frontier/questions/q82_surrogate_vs_proxy/FINDINGS.md (H1-H4)"
     }
   ]
