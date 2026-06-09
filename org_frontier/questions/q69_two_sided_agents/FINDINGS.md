@@ -1,5 +1,11 @@
 # Q69 findings — the two-sided agent exchange
 
+> **Clarification (post-review).** The verdicts below are read on the maximal complex. The delegated
+> form's whole-system verdict is dyadic (Φ_MIP = 0): freezing the humans into a constant source (E'=E) and
+> sink (R'=R) makes them non-integrating by construction, so "both humans displaced" is partly built into
+> the form. The substantive content is that the two agents form a Φ=2.0 maximal complex, equal in strength
+> to the live exchange's {Ar, R}. The headline holds only under this frozen-human model of delegation.
+
 All four hypotheses confirmed. Instrument control passed (dyadic relay Φ=0.000, triad Φ=0.830).
 
 | H | Test | Result | Verdict |

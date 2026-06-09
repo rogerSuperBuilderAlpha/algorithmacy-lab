@@ -1,6 +1,11 @@
-# Agent-to-agent outreach: depth preserves the triad, but the core sits at the recipient end
+# Agent-to-agent outreach: depth preserves the triad, but localises the core to an end pair
 
 ## Abstract
+
+> **Correction (superseded by Q66).** This paper read the d=2 core {A2, R} as "recipient-facing." Q66
+> showed the chain is reversal-symmetric and the d=4 core is the sender end {E, A1} at equal Φ=2.0, so the
+> end the computation returns is a tie-break, not a recipient bias. The size-2-end-pair result stands;
+> read "recipient-facing pair" / "where the message meets the recipient" below as **a symmetric end pair**.
 
 When a sender's agent composes a message that a recipient's agent receives, the two humans coordinate
 through a chain of agents. This study reads that chain with exact IIT-4.0 Φ as agents are added between

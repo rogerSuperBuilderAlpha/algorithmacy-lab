@@ -2,6 +2,15 @@
 
 ## Abstract
 
+> **Clarification (post-review).** The "both humans displaced" result is read on the maximal complex. The
+> delegated form's whole-system verdict is dyadic (Φ_MIP = 0): modelling delegation as a frozen intent
+> source (E'=E) and a passive readout (R'=R) makes the humans non-integrating stubs by construction, so
+> their exclusion from the core is partly built into the form rather than discovered. The substantive,
+> non-trivial content is that the two agents form a maximal complex at Φ = 2.0, equal in strength to the
+> live exchange's human-agent core {Ar, R}. Read "the irreducible coordination is the agents" as a
+> statement about the maximal complex of a whole-system-reducible form, contingent on this frozen-human
+> model of delegation.
+
 This study reads the two-sided agent exchange, where a sender and a recipient each delegate to an agent,
 with exact IIT-4.0 Φ and the major complex. Four pre-registered hypotheses are tested over four elements:
 sender intent (E), sender's agent (As), recipient's agent (Ar), recipient (R). In a live exchange the
