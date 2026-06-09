@@ -3,7 +3,7 @@
 Deterministic Boolean systems, synchronous update, read on the maximal complex
 (`probes.lib.major_complex`) and classified by exact IIT-4.0 Φ where needed (`classifier.classify_rules`).
 The open chain reuses `multiparty.chains.chain_rules`. Every probe validates the instrument first: a
-decoupled relay reads dyadic and a fully-coupled triad reads triadic at Φ = 2.0. Run on
+decoupled relay reads dyadic and a fully-coupled triad reads triadic at Φ = 0.83. Run on
 `~/iit-playground/venv-4.0/bin/python`. Decision rules fixed here.
 
 ## H1 and H2 test — open-chain core across depth

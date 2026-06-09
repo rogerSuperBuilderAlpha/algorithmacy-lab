@@ -11,7 +11,7 @@ Decision rules are fixed here.
 
 - **Forms:** for k = 1..4, the all-required campaign on n = k + 2 elements: E'=M, M'=E∧R1∧…∧Rk, Ri'=M.
 - **Measure:** verdict and Φ_MIP from `classify_rules`.
-- **Control:** the canonical triad reads triadic at Φ = 2.0.
+- **Control:** the fully-coupled control triad reads triadic at Φ = 0.83.
 - **Decision rule:** H1 confirmed if every k is triadic and Φ_MIP = n − 1 (within 1e-6 of 2, 3, 4, 5).
   Refuted if any k is dyadic or any Φ_MIP departs from n − 1.
 

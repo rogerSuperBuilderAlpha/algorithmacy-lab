@@ -55,7 +55,7 @@ coordination triadic. Equally important, noise never works in the other directio
 stays at zero Φ at every noise level, so the instrument does not manufacture irreducibility from
 randomness. For the program's in-silico results this is the robustness the deterministic verdicts needed:
 the structure the instrument reads is not an artifact of perfect determinism, and the dyadic-triadic line
-is stable under perturbation. The smooth decay also means there is no sharp noise threshold to calibrate;
+is stable under perturbation for these two forms. The smooth decay also means there is no sharp noise threshold to calibrate;
 the verdict weakens continuously as coordination becomes noisier.
 
 ## Limitations
