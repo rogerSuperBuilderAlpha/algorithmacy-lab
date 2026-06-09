@@ -1055,6 +1055,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q74_verdict_vs_complex/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q75-spectator-robustness",
+      "cmd": "python -m org_frontier.questions.q75_spectator_robustness.probe_spectator_robustness",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q75_spectator_robustness/FINDINGS.md (H1-H4)"
     }
   ]
 }
