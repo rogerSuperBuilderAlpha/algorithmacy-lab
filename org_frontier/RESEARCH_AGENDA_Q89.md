@@ -22,19 +22,19 @@ control, report nulls.
   noise-fragile ones (Φ 0.38 vs 1.16), so the structural margin does not predict noise survival. See
   `questions/q93_fragility_margin/`.
 
-## Priority 2 — Heterogeneity and asymmetry
+## Priority 2 — Heterogeneity and asymmetry (done)
 
-- **Q89 — The heterogeneous agent market.** Q85's market was symmetric, and its caveat marks heterogeneous
-  agents as untested. When agents differ in what they read (one reads the recipient, one only the sender,
-  one a back-channel), which enter the major complex, and does a stable heterogeneous core subset form?
-  *Reuse:* the Q85 market with `major_complex`. *Discriminator:* a core that tracks each agent's coupling
-  and pivotality (Finding 8) rather than the all-or-nothing collapse of the interchangeable market.
+- **Q89 — The heterogeneous agent market.** *Done.* Membership is a property of the joint determination,
+  not the agent: a passive agent is excluded and substitutability still collapses, but a partial-reading
+  required agent drops out in a two-agent market (the core localizes to {M1, C}) and binds in a three-agent
+  mixed market (full core). Composition decides which heterogeneous agents are core, refining Finding 8's
+  pivotality. See `questions/q89_heterogeneous_market/`.
 
-- **Q98 — Decoupling pivotality from bidirectionality.** Finding 8 ties membership to bidirectional
-  coupling and pivotality together; their interplay at the extremes is unmapped. Can a party sit in the
-  core with near-zero outgoing influence (a near-pure sink that is still pivotal), or near-zero incoming?
-  *Reuse:* the 16-form principal sweep, extended to asymmetric coupling strengths. *Discriminator:* whether
-  bidirectionality is strictly necessary, or extreme pivotality on one side alone suffices.
+- **Q98 — Decoupling pivotality from bidirectionality.** *Done.* The membership gate is hard-conjunctive at
+  the corners (P(core) is 0.000 at zero reading or zero influence, 1.000 at strong both) but additive in
+  the interior, where the sum of the two influences predicts membership as well as
+  the minimum (rank-AUC 0.783 vs 0.772). Each side is strictly necessary; within the bidirectional region
+  they substitute. See `questions/q98_pivotality_bidirectionality/`.
 
 ## Priority 3 — Beyond a single core
 

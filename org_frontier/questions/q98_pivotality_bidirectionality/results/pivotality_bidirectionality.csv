@@ -1,0 +1,6 @@
+metric,value,n
+p_core_strongout_noread,0.0000,33
+p_core_strongread_noinfl,0.0000,29
+p_core_strong_both,1.0000,28
+rank_auc_min,0.7721,3600
+rank_auc_sum,0.7827,3600
