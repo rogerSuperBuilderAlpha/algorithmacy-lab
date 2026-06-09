@@ -3,7 +3,7 @@
 Deterministic Boolean systems on four elements (E, A1, A2, R), synchronous update, classified by exact
 IIT-4.0 Φ over the minimum-information partition (`classifier.classify_rules`) and read on the maximal
 complex (`probes.lib.major_complex`). The instrument is validated on a decoupled relay (dyadic) and a
-fully-coupled triad (triadic, Φ = 2.0) first. Run on `~/iit-playground/venv-4.0/bin/python`. Decision
+fully-coupled triad (triadic, Φ = 0.83) first. Run on `~/iit-playground/venv-4.0/bin/python`. Decision
 rules fixed here.
 
 The four reciprocity levels (rules over state tuple x = (E, A1, A2, R)):

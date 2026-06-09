@@ -11,7 +11,7 @@ reads triadic (Φ = 0.83). Run on `~/iit-playground/venv-4.0/bin/python`. Decisi
 
 - **Forms:** `chain_rules(d)` for d = 1..4 (n = d + 2): E'=A1, Aj'=A_{j-1}∧A_{j+1}, R'=Ad.
 - **Measure:** verdict and Φ_MIP.
-- **Control:** the canonical triad reads triadic at Φ = 2.0.
+- **Control:** the fully-coupled control triad reads triadic at Φ = 0.83.
 - **Decision rule:** H1 confirmed if every depth is triadic. Refuted if any depth is dyadic.
 
 ## H2 test — Φ constant across depth
