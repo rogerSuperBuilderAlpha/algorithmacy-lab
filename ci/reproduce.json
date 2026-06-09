@@ -1115,6 +1115,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q84_adversarial_agent/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q85-agent-market",
+      "cmd": "python -m org_frontier.questions.q85_agent_market.probe_agent_market",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q85_agent_market/FINDINGS.md (H1-H4)"
     }
   ]
 }

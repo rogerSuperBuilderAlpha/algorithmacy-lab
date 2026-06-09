@@ -927,6 +927,7 @@ of the same two-way partition at the verdict level.
 | 241 | Asynchronous update (Q80 H1-H4) | The dyadic/triadic verdict survives asynchronous update | **confirmed** | read_recipient & all_required stay triadic (Φ 2.0→0.25, 3.0→0.20); broadcast stays dyadic; verdict preserved, magnitude falls. `q80/probe_async_update.py` |
 | 242 | Recipient-side gating coalition (Q83) | A gating coalition keeps a size-3 core; only one of two required agents enters | **H1 refuted, H2-H4 confirmed** | both-required core {M,R,T2} (one agent absorbed, vs regulator coalition probe 111 where both enter); either-suffices keeps {E,M,R}; single agent enters. `q83/probe_agent_coalition.py` |
 | 243 | Adversarial agent (Q84 H1-H4) | Influence requires membership: a non-core agent cannot flip the verdict | **confirmed** | read-only & emit-only X leave core {E,M,R} triadic; only bidirectional-pivotal X joins (core {E,M,R,X} Φ=3.0). `q84/probe_adversarial_agent.py` |
+| 244 | Agent market (Q85 H1-H4) | A market of interchangeable agents is a broadcast at every size | **confirmed** | substitutable dyadic at N=2,3,4; all-required triadic Φ=4,6,8 with full core; one substitutable pair collapses it. `q85/probe_agent_market.py` |
 
 ## Reading across Q62 (probes 210–214)
 
