@@ -924,6 +924,7 @@ of the same two-way partition at the verdict level.
 | 238 | Verdict vs maximal complex (Q74 H1-H4) | A connectivity check on excluded elements selects which verdict to report | **confirmed** | spectator/frozen forms whole-dyadic + core-triadic (excluded non-bidirectional); chain whole-triadic + localized core (excluded A1 bidirectional); excluded bidirectional iff whole-system triadic. `q74/probe_verdict_vs_complex.py` |
 | 239 | Spectator robustness (Q75 H1-H4) | The triadic core is stable under added non-participating parties | **confirmed** | core stays {E,M,R} Φ=2.0 with 1-3 uncoupled, a read-only, and an emit-only spectator. `q75/probe_spectator_robustness.py` |
 | 240 | Stochastic threshold (Q79 H1-H4) | The triad emerges gradually with the agent's probability of reading the recipient | **confirmed** | Φ 0→0.11→0.28→0.54→2.0 as p 0→1; partial reading already gives Φ>0; graded, no threshold. `q79/probe_stochastic_threshold.py` |
+| 241 | Asynchronous update (Q80 H1-H4) | The dyadic/triadic verdict survives asynchronous update | **confirmed** | read_recipient & all_required stay triadic (Φ 2.0→0.25, 3.0→0.20); broadcast stays dyadic; verdict preserved, magnitude falls. `q80/probe_async_update.py` |
 
 ## Reading across Q62 (probes 210–214)
 
