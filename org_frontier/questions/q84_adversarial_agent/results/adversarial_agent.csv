@@ -1,0 +1,4 @@
+coupling,whole,whole_phi,core,core_phi
+read_only,dyadic,0.0000,E|M|R,2.0000
+emit_only,dyadic,0.0000,E|M|R,2.0000
+bidir_pivotal,triadic,3.0000,E|M|R|X,3.0000
