@@ -92,3 +92,8 @@ Q74–Q75 first (cheap, computational, hardens the foundation). Then Q79–Q85 a
 interleaving the estimation-frontier work (Q81–Q82) with the multi-agent extensions (Q83–Q85). Q76–Q78
 and Q86 wait on a tool, a dataset, or a written correspondence, and are staged so the work is ready when
 the anchor exists.
+
+The computable backlog through Q85 is done. A second wave of ten gaps (Q89–Q98) is staged in
+[`RESEARCH_AGENDA_Q89.md`](RESEARCH_AGENDA_Q89.md): size-generalization of the laws, a fragility metric,
+heterogeneous agents, multiple complexes, composition, degraded reads, memory, contingency, and
+coordinated adversaries, all runnable on the existing instrument.
