@@ -36,6 +36,10 @@ as first-class results.
   algorithmacy when every party is bound into one irreducible joint determination. Substitutability
   collapses it; mediation depth does not; cheap proxies cannot detect it.
 - [`RESEARCH_AGENDA_50_V2.md`](RESEARCH_AGENDA_50_V2.md) — 50 open questions queued for the pipeline.
+- [`RESEARCH_NARRATIVE.md`](RESEARCH_NARRATIVE.md) — how the program has progressed through Q73 (instrument
+  → seam thread → outreach law → self-audit) and the path forward.
+- [`RESEARCH_AGENDA_Q74.md`](RESEARCH_AGENDA_Q74.md) — the runnable next questions (Q74+) derived from the
+  path forward, ordered by priority.
 
 ## Worked questions — [`questions/`](questions/)
 
