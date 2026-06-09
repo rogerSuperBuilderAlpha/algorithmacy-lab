@@ -1170,6 +1170,31 @@
       ],
       "timeout": 900,
       "source": "org_frontier/questions/q82_surrogate_vs_proxy/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q90-membership-law-scaling",
+      "cmd": "python -m org_frontier.questions.q90_membership_law_scaling.probe_membership_law_scaling",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 1800,
+      "slow": true,
+      "source": "org_frontier/questions/q90_membership_law_scaling/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q93-fragility-margin",
+      "cmd": "python -m org_frontier.questions.q93_fragility_margin.probe_fragility_margin",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q93_fragility_margin/FINDINGS.md (H1-H4)"
     }
   ]
 }
