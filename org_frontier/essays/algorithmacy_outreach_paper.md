@@ -157,15 +157,17 @@ than hidden from it.
 
 ## Future work
 
-The program plateaus as interesting in-silico until one result touches data, and four designs are staged
+The program plateaus as interesting in-silico until one result touches data, and six designs are staged
 for when the anchor exists (`RESEARCH_DESIGNS_Q76plus.md`). Q76 wires the dissertation's agent-based
 coordination experiment to the outreach forms, to test whether the verdict predicts a behavioural
 difficulty gap. Q77 tests cheap proxies against the exact verdict on real interaction logs, where the
 in-silico finding says they should fail. Q78 lifts the binary forms to multivalued parties, once
 multivalued IIT is available, to test whether the verdict survives graded state. Q86 writes the formal
 correspondence between the five-pillar law and the organizational constructs of literacy, algorithmacy, and
-the platform as a third coordination mechanism. The first of these is the defining next chapter: crossing
-the validation gap is what would turn a structural account into a claim about the world.
+the platform as a third coordination mechanism. Q87 and Q88 model the two remaining coordination
+mechanisms, hierarchy and the commons, each waiting on a defensible application-layer coupling argued from
+organization theory before it is computed. The first of these is the defining next chapter: crossing the
+validation gap is what would turn a structural account into a claim about the world.
 
 ## References
 
