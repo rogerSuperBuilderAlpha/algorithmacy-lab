@@ -27,6 +27,11 @@ size three and triadic at Φ = 2.0; its membership shifts from the sender end to
 
 ## Caveats
 
+- **Whole-system vs core.** The verdicts are read on the major complex. The monitoring-only and
+  gating-only forms are whole-system dyadic (Φ_MIP=0): T hangs off as a read-only or emit-only spectator,
+  and only the {E,M,R} complex inside is triadic. The bidirectional form's whole-system Φ is also below
+  its major-complex Φ=2.0. Reading the core is the right call when there are spectators; the whole-system
+  numbers are noted here for completeness.
 - **Confirmatory.** The four predictions followed from the principal/gating finding applied to triage;
   none was refuted. The displacement of the sender is the notable detail.
 - **In-silico.** Boolean models, evidence about the models. Φ read ordinally.

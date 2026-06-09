@@ -1,6 +1,6 @@
-pillar,holds
-P1,True
-P2,True
-P3,True
-P4,True
-P5,True
+pillar,status
+P1,rederived
+P2,rederived
+P3,rederived
+P4,rederived
+P5,carried_from_q71_q72

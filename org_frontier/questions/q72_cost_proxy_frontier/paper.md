@@ -55,7 +55,7 @@ both have six edges. Edge count cannot separate the verdict.
 
 The cost question the program opened closes here. The intuition that invested cost signals value does not
 become a structural shortcut for the verdict. Two pairs show why. The read-recipient triad and the
-one-shot form are structurally identical by these proxies and differ only in whether the recipient stays
+one-shot form are identical on both proxies (mediator in-degree and edge count) and differ only in whether the recipient stays
 live; the all-required triad and the substitutable broadcast are identical by these proxies and differ
 only in whether the determination binds the recipients jointly. Liveness and joint determination are
 properties of the cause-effect structure, invisible to a count of edges or read sources. The exact
