@@ -1091,6 +1091,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q80_async_update/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q83-agent-coalition",
+      "cmd": "python -m org_frontier.questions.q83_agent_coalition.probe_agent_coalition",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q83_agent_coalition/FINDINGS.md (H1 refuted, H2-H4)"
     }
   ]
 }
