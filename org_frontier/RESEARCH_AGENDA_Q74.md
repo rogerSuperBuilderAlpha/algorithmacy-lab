@@ -53,15 +53,17 @@ The single largest gap: no result touches data. These are the cheapest anchors.
   asynchronous or mixed update and test whether the verdict survives. *Discriminator:* whether
   synchronicity is load-bearing for the outreach law.
 
-## Priority 4 — The estimation frontier
+## Priority 4 — The estimation frontier (done)
 
-- **Q81 — Learned surrogate for the outreach verdict.** Train a surrogate on the exact-Φ outreach corpus
-  (the labelled Q63–Q73 forms, extended by enumeration) to predict the dyadic/triadic verdict, reusing the
-  `proxy_bridge/` features and the `learned_surrogate/` approach. *Discriminator:* held-out verdict
-  accuracy; whether the surrogate generalises past the exact-Φ size ceiling.
-- **Q82 — Surrogate vs. cheap proxy.** Compare the learned surrogate of Q81 to the structural and
-  time-series proxies that failed (Q72, Finding 7) on the same labelled set. *Discriminator:* whether a
-  trained surrogate recovers the verdict where hand-picked proxies collide.
+- **Q81 — Learned surrogate for the outreach verdict.** *Done.* A random forest over ten size-invariant
+  cheap features recovers the verdict perfectly in-distribution on the 256-form n=3 family (CV ROC-AUC
+  1.000) and fails to generalize to held-out n=4,5,6 forms (accuracy 0.250, below chance). The exact-Φ
+  size ceiling holds for a learned student; the estimation route past it does not. See
+  `questions/q81_learned_surrogate/`.
+- **Q82 — Surrogate vs. cheap proxy.** *Done.* The surrogate beats every single proxy on the n=3 family
+  (CV AUC 1.000 vs edges 0.966, in-degree 0.707, Φ_R 0.621, Φ_WMS 0.547) and separates the verdict
+  perfectly on the constant-in-degree collision subset. Total edge count is a stronger single rank than
+  expected but an imperfect separator. See `questions/q82_surrogate_vs_proxy/`.
 
 ## Priority 5 — Multi-agent extensions
 
