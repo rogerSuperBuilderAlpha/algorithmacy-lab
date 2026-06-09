@@ -1044,6 +1044,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q73_outreach_law/FINDINGS.md (law pillars)"
+    },
+    {
+      "name": "q74-verdict-vs-complex",
+      "cmd": "python -m org_frontier.questions.q74_verdict_vs_complex.probe_verdict_vs_complex",
+      "expect": [
+        "H4 excluded bidirectional iff whole-system triadic: True",
+        "H1 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q74_verdict_vs_complex/FINDINGS.md (H1-H4)"
     }
   ]
 }
