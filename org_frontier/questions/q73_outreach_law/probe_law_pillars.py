@@ -25,17 +25,20 @@ def main():
     p2 = rr.structure == "triadic" and os_.structure == "dyadic"          # liveness decides (same wiring)
     p3 = ar.structure == "triadic" and su.structure == "dyadic"           # substitutability collapses
     p4 = set(ringcore or ()) == set(LR) and ringphi > 2.0 + 1e-9          # closure binds the whole
-    p5 = True  # structural-not-cheap pillar established in q71/q72 (noise-robust, proxy-irrecoverable)
+    # P5 (structural-not-cheap: noise-robust, proxy-irrecoverable) is NOT re-derived here. It is carried
+    # from the registered Q71 and Q72 checks; this probe only re-derives P1-P4.
+    rederived = p1 and p2 and p3 and p4
     print("=" * 72)
     print(f"  P1 joint determination: {p1} | P2 liveness decides: {p2} | P3 substitutability collapses: {p3}")
-    print(f"  P4 closure binds the whole: {p4} | P5 structural-not-cheap (q71/q72): {p5}")
-    law = p1 and p2 and p3 and p4 and p5
-    print(f"  OUTREACH-COORDINATION LAW pillars hold: {law}")
-    print(f"  Q73 VERDICT: {'CONFIRMED' if law else 'REFUTED'}")
+    print(f"  P4 closure binds the whole: {p4}")
+    print(f"  P5 structural-not-cheap: CARRIED from q71/q72 (asserted, not re-derived here)")
+    print(f"  OUTREACH-COORDINATION LAW pillars hold: {rederived}")  # P1-P4 re-derived here; P5 carried
+    print(f"  Q73 VERDICT: {'CONFIRMED' if rederived else 'REFUTED'}")
     d_ = os.path.join(os.path.dirname(__file__), "results"); os.makedirs(d_, exist_ok=True)
     with open(os.path.join(d_, "law_pillars.csv"), "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["pillar", "holds"])
-        for i, p in enumerate([p1, p2, p3, p4, p5], 1): w.writerow([f"P{i}", p])
+        w = csv.writer(f); w.writerow(["pillar", "status"])
+        for i, p in enumerate([p1, p2, p3, p4], 1): w.writerow([f"P{i}", "rederived" if p else "FAILED"])
+        w.writerow(["P5", "carried_from_q71_q72"])
 
 
 if __name__ == "__main__":

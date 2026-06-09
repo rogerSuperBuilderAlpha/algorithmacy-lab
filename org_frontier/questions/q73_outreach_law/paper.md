@@ -7,8 +7,10 @@ stated law and re-derives its pillars in a single reproducible probe. The law: a
 demands algorithmacy if and only if every party in the exchange is bound into a single irreducible joint
 determination that stays live end to end. Five conditions govern the verdict — joint determination,
 liveness and reciprocity, non-substitutability, the core's localization under depth and delegation, and
-the verdict's structural (not cheap) character. The keystone re-derivation confirms all five; the synthesis
-stands on results each pre-registered and CI-backed in its own study.
+the verdict's structural (not cheap) character. The keystone probe re-derives the first four pillars and
+carries the fifth from the registered Q71 and Q72 checks; the synthesis stands on results each
+pre-registered and CI-backed in its own study. The law is stated as a summarizing slogan over the studied
+forms, not proven as a biconditional over the whole form space.
 
 ## Introduction
 
@@ -29,8 +31,11 @@ jakesch2019aimc]; coordination theory treats the mediator as part of the structu
 
 ## The law
 
-**Agent-mediated outreach demands algorithmacy iff every party in the exchange is bound into a single
-irreducible joint determination that stays live end to end.** Five conditions govern it.
+**Agent-mediated outreach demands algorithmacy iff the parties that constitute its irreducible core are
+bound into a single joint determination that stays live.** The core is not always every party: under
+mediation depth it localizes to an end pair, with the interior parties feeding it without joining (Q65,
+Q66), so the binding is of the core, not necessarily of every element end to end. Five conditions govern
+the verdict.
 
 1. *Joint determination.* The agent must read all parties; an agent that ignores the recipient broadcasts
    and the form factors (Q63, Q64).
@@ -54,8 +59,9 @@ one_shot, all_required, substitutable, and a closed ring.
 
 P1: read_recipient is triadic (Φ = 2.0); broadcast is dyadic. P2: read_recipient is triadic and one_shot,
 the same wiring with a frozen recipient, is dyadic. P3: all_required is triadic (Φ = 3.0); substitutable is
-dyadic. P4: the closed ring's major complex is the full set {E, A1, A2, R} at Φ = 4.0. P5: the registered
-Q71 and Q72 checks establish noise robustness and proxy irrecoverability. All five pillars hold.
+dyadic. P4: the closed ring's major complex is the full set {E, A1, A2, R} at Φ = 4.0. P5 is not
+re-derived here; the registered Q71 and Q72 checks establish noise robustness and proxy irrecoverability,
+and it is carried as a pillar. The four re-derived pillars hold and the fifth is carried.
 
 ## Discussion
 
