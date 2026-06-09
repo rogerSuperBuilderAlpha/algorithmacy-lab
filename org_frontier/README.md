@@ -74,7 +74,7 @@ methods, probes, results, and a paper.
   experiment, with question/hypothesis/method/result.
 - [`algorithmacy_outreach_paper.md`](essays/algorithmacy_outreach_paper.md) — the capstone synthesis:
   the instrument and method, the structural law, the ten-study outreach program and its five-pillar law,
-  the seven construct-hardening studies (Q74–Q85), and the validation gap. Cites CI-backed numbers.
+  the nine construct-hardening studies (Q74–Q85), and the validation gap. Cites CI-backed numbers.
 
 ## Conventions
 
