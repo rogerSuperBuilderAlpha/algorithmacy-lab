@@ -8,20 +8,19 @@ to reuse, and the discriminator that would settle it. Entries are ordered by exp
 through the six-stage protocol: pre-register the hypotheses before computing, validate the instrument on a
 control, report nulls.
 
-## Priority 1 — Do the laws generalize, and how robust are they?
+## Priority 1 — Do the laws generalize, and how robust are they? (done)
 
-- **Q90 — Does the core-membership law generalize in size?** The bidirectional-plus-pivotality account of
-  major-complex membership was validated at rank-AUC 0.89 on the 256-form **n=3** family. Q81 showed a
-  *learned* surrogate fails to cross sizes; the *structural* law's size-generalization is untested.
-  *Reuse:* `corpus/determination.py` lifted to n = 4, 5, 6. *Discriminator:* whether the pivotality →
-  membership monotonicity holds, degrades, or breaks as parties multiply — a structural counterpart to
-  Q81's null.
+- **Q90 — Does the core-membership law generalize in size?** *Done.* The law generalizes in kind:
+  bidirectional coupling stays strictly necessary (non-bidir in-core 0.000 at n = 3, 4, 5) and the
+  pivotality gradient persists without collapsing (rank-AUC 0.71/0.62/0.73, flat across size). The
+  single-scalar pivotality predictor is moderately strong on the full family, below the 0.75 bar set from
+  the strict-mediation 0.89. n = 6 is beyond the exact ceiling. See `questions/q90_membership_law_scaling/`.
 
-- **Q93 — Margin-to-dyadic: a fragility metric.** The verdict is binary at Φ_MIP = 0, with no measure of
-  how close a triadic form sits to collapse. For each triadic form, find the minimal structural
-  perturbation (a single edge or function-bit flip) that collapses it to dyadic. *Reuse:* the 256-form
-  census with a perturbation sweep. *Discriminator:* whether this structural margin predicts which triads
-  survive the Q71 noise, connecting structure to robustness.
+- **Q93 — Margin-to-dyadic: a fragility metric.** *Done.* Every triadic form sits one single-bit flip from
+  collapse, and the margin is near-binary, set by the mediator's function. Structural and dynamical
+  robustness come apart: parity mediators give the structurally sturdier triads (0.250 vs 0.125) but the
+  noise-fragile ones (Φ 0.38 vs 1.16), so the structural margin does not predict noise survival. See
+  `questions/q93_fragility_margin/`.
 
 ## Priority 2 — Heterogeneity and asymmetry
 
