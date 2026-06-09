@@ -1067,6 +1067,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q75_spectator_robustness/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q79-stochastic-threshold",
+      "cmd": "python -m org_frontier.questions.q79_stochastic_threshold.probe_stochastic_threshold",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q79_stochastic_threshold/FINDINGS.md (H1-H4)"
     }
   ]
 }
