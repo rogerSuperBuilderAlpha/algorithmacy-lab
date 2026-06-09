@@ -921,6 +921,7 @@ of the same two-way partition at the verdict level.
 | 235 | Noise robustness (Q71 H1-H4) | The outreach verdict is robust to stochastic noise | **confirmed** | triad Φ degrades 2.0→1.53→1.16→0.61→0.28→0 as eps 0→0.5; broadcast stays 0 (no spurious triad). `q71/probe_noise_robustness.py` |
 | 236 | Cost/proxy frontier (Q72 H1-H4) | No cheap structural proxy recovers the outreach verdict | **confirmed** | read_recipient(tri)+one_shot(dy) share in-degree 2 & 4 edges; substitutable(dy)+all_required(tri) share in-degree 3 & 6 edges; verdict needs exact Φ. `q72/probe_cost_proxy_frontier.py` |
 | 237 | Outreach-coordination law (Q73 synthesis) | The five-pillar law of when agent-mediated outreach demands algorithmacy | **confirmed** | P1 joint determination, P2 liveness, P3 non-substitutability, P4 closure binds all (ring Φ=4.0), P5 structural-not-cheap — all hold. `q73/probe_law_pillars.py` |
+| 238 | Verdict vs maximal complex (Q74 H1-H4) | A connectivity check on excluded elements selects which verdict to report | **confirmed** | spectator/frozen forms whole-dyadic + core-triadic (excluded non-bidirectional); chain whole-triadic + localized core (excluded A1 bidirectional); excluded bidirectional iff whole-system triadic. `q74/probe_verdict_vs_complex.py` |
 
 ## Reading across Q62 (probes 210–214)
 
