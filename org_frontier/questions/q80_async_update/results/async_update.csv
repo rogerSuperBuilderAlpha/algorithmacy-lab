@@ -1,0 +1,4 @@
+form,sync,sync_phi,async,async_phi
+read_recipient,triadic,2.0000,triadic,0.2490
+broadcast,dyadic,0.0000,dyadic,0.0000
+all_required,triadic,3.0000,triadic,0.1956

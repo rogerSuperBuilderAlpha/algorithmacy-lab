@@ -72,6 +72,9 @@ methods, probes, results, and a paper.
   which literacy a coordination form demands.
 - [`pyphi_org_theory_catalog.md`](essays/pyphi_org_theory_catalog.md) — a ~10k-word catalog of every
   experiment, with question/hypothesis/method/result.
+- [`algorithmacy_outreach_paper.md`](essays/algorithmacy_outreach_paper.md) — the capstone synthesis:
+  the instrument and method, the structural law, the ten-study outreach program and its five-pillar law,
+  the seven construct-hardening studies (Q74–Q85), and the validation gap. Cites CI-backed numbers.
 
 ## Conventions
 

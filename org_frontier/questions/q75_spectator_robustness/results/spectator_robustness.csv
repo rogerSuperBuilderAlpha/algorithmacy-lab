@@ -1,0 +1,6 @@
+form,core,core_phi
+uncoupled_k1,E|M|R,2.0000
+uncoupled_k2,E|M|R,2.0000
+uncoupled_k3,E|M|R,2.0000
+read_only,E|M|R,2.0000
+emit_only,E|M|R,2.0000

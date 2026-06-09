@@ -1,0 +1,4 @@
+config,core,phi
+both_required,M|R|T2,2.0000
+either_suffices,E|M|R,2.0000
+single_bidir,M|R|T,2.0000
