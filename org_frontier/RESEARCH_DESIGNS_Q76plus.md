@@ -1,10 +1,13 @@
-# Parked designs (Q76, Q77, Q78, Q86)
+# Parked designs (Q76, Q77, Q78, Q86, Q87, Q88)
 
-Four agenda questions that need a tool, a dataset, or a written correspondence the lab does not yet have.
-Each is stated as a runnable plan, so the work is ready when the anchor exists. The format follows the
-earlier parked designs: the question, what is missing, the procedure once it exists, and the discriminator
-that would settle it. These are the design-stage entries from `RESEARCH_AGENDA_Q74.md`; the computable
-questions (Q74, Q75, Q79, Q80, Q83, Q84, Q85) are done and on the record.
+Six questions that need a tool, a dataset, a written correspondence, or a defensible modeling commitment
+the lab does not yet have. Each is stated as a runnable plan, so the work is ready when the anchor exists.
+The format follows the earlier parked designs: the question, what is missing, the procedure once it exists,
+and the discriminator that would settle it. Q76–Q78 and Q86 are the design-stage entries from
+`RESEARCH_AGENDA_Q74.md`; Q87 (hierarchy) and Q88 (commons) are the two remaining coordination-mechanism
+forms, promoted here from a code comment in `classifier/forms.py` so they are tracked rather than buried.
+The computable questions (Q74, Q75, Q79, Q80, Q83, Q84, Q85) are done and on the record, as are the
+broadcast (Q63), two-sided (Q69, Q70), and market (Q85) forms the same comment once listed.
 
 ## Q76 — Behavioural validation of the dyadic/triadic verdict
 
@@ -83,3 +86,55 @@ borrowings.
 boundary of the analogy marked. The borrowing is formal, not metaphysical: the claim is that Φ measures
 irreducibility, the same property that separates a third coordination mechanism from a faster version of an
 old one, and not that a platform is conscious.
+
+## Q87 — The hierarchy form
+
+**Question.** Is hierarchical coordination dyadic or triadic? When a superior's decision sits between two
+subordinates, or stands at the top of a chain of command, does authority bind the parties into one
+irreducible joint determination, or pass through as a relay that factors?
+
+**What is missing.** A defensible application-layer coupling for authority. A hierarchy can be modelled
+many ways, and the verdict depends on which: a superior who merely forwards a subordinate's input is a
+relay, while a superior whose decision is jointly determined by the subordinates and in turn constrains
+them is a genuine third party. The modeling commitment, how a command integrates its inputs and how far
+down it binds, has to be argued from organization theory before it is computed, not chosen to produce a
+verdict.
+
+**Procedure once it exists.** Build the authority form as a small Boolean system: subordinates W1, W2,
+superior S, with S' a stated function of the subordinates' states and each Wi' constrained by S. Classify
+it with the exact instrument, read the major complex, and vary the coupling across the defensible range —
+pure command (S forwards one input), joint command (S integrates both), and a chain of two authority
+levels. Compare to the chain (Q65, Q66) and triage (Q68) results, which are the depth and delegation
+readings already on the record.
+
+**Discriminator.** The hierarchy is triadic if and only if the superior's decision is jointly determined
+by the subordinates and constrains them back, so that no party is substitutable out of the command.
+Authority that forwards a single input factors along the minimum-information partition and is dyadic, the
+same way the relay-gap agent broke the chain in Q65. The test says whether command coordination is
+structurally literacy or algorithmacy, and where on the authority chain the core sits.
+
+## Q88 — The commons form
+
+**Question.** Is commons coordination triadic? When several parties draw on and contribute to one shared
+pool, each acting on the pool state the others set, does the pool bind every party into a single
+irreducible joint determination?
+
+**What is missing.** A defensible application-layer coupling for the shared pool. The pool's next state is
+some function of every party's contribution, and each party's outcome is some function of the pool, and the
+form of those two functions decides the verdict. An additive pool, where each party contributes
+independently, is the pooled case Q64 already showed factors; a threshold or conjunctive pool, where the
+resource holds only if the parties jointly sustain it, is the candidate triad. Which coupling represents a
+real common-pool resource has to be argued from the commons literature before it is computed.
+
+**Procedure once it exists.** Build the commons form as parties P1..Pk and a pool R, with R' a stated
+function of all contributions and each Pi' constrained by R. Classify it exactly, read the major complex,
+and vary the pool coupling across the defensible range (additive, threshold, and conjunctive) at k = 2,
+3, 4. Compare to the breadth scaling (Q64) and the market (Q85), which are the substitutable and
+all-required readings already on the record.
+
+**Discriminator.** The commons is triadic if and only if the pool binds every party into one joint
+determination, so that dropping any party changes the pool that all others read. An additive or
+substitutable pool factors and is dyadic, matching the pooled-campaign and interchangeable-market
+collapses; a pool that survives only on the parties' joint sustenance stays triadic with the whole set in
+the core. The test places the tragedy-of-the-commons structure against the irreducibility law and says
+when shared-resource coordination demands algorithmacy.
