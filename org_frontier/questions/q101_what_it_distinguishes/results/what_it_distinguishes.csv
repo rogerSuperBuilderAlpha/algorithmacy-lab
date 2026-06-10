@@ -1,0 +1,6 @@
+form,class,binding_purview,effect_state,cause_state
+read_recipient,triadic,E|R,"(1, 1)","(1, 1)"
+all_required_k2,triadic,E|R1|R2,"(1, 1, 1)","(1, 1, 1)"
+market_N2,triadic,,,
+broadcast,dyadic,,,
+one_shot,dyadic,,,
