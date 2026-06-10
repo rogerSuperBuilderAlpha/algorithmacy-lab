@@ -1,0 +1,5 @@
+form,structure,sys_phi,major_complex
+live,triadic,2.0,E|M|R
+tracking_memory,triadic,2.0,M|R|Mem
+frozen_memory,dyadic,0.0,E|M
+self_memory,dyadic,0.0,E|M
