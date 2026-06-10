@@ -1,0 +1,17 @@
+form,party,structural_phi_d_share,strategic_shapley_share
+triad,E,0.1667,0.1666
+triad,M,0.6667,0.6668
+triad,R,0.1667,0.1666
+principal,E,0.0667,0.139
+principal,M,0.8,0.5831
+principal,R,0.0667,0.139
+principal,P,0.0667,0.139
+market2,E,0.25,0.25
+market2,M1,0.25,0.25
+market2,M2,0.25,0.25
+market2,C,0.25,0.25
+market3,E,0.2857,0.2583
+market3,M1,0.1429,0.1611
+market3,M2,0.1429,0.1611
+market3,M3,0.1429,0.1611
+market3,C,0.2857,0.2583
