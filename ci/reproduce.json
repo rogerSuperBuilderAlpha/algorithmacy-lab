@@ -1303,6 +1303,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q99_binding_distinction/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q100-structure-fingerprint",
+      "cmd": "python -m org_frontier.questions.q100_structure_fingerprint.probe_structure_fingerprint",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q100_structure_fingerprint/FINDINGS.md (H1-H4)"
     }
   ]
 }

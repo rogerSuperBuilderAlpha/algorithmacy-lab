@@ -1,0 +1,7 @@
+kind,phi,n_distinctions,n_relations,max_order,dual_type
+joint_determination,2.0,4,8,2,mediated
+breadth_market_k2,3.0,8,128,3,mediated
+depth_chain_d2,2.0,6,14,2,distributed
+ring_d2,4.0,6,14,2,symmetric
+market_N2,4.0,6,14,2,symmetric
+delegation_triage,1.0,5,17,2,distributed
