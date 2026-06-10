@@ -1,0 +1,9 @@
+element,type,value
+M->E|R,distinction_phi,2.0
+E|R->M,distinction_phi,2.0
+E->M,distinction_phi,0.5
+R->M,distinction_phi,0.5
+M_reads_R,knockout_verdict,dyadic:0.0
+M_reads_E,knockout_verdict,dyadic:0.0
+E_reads_M,knockout_verdict,dyadic:0.0
+R_reads_M,knockout_verdict,dyadic:0.0

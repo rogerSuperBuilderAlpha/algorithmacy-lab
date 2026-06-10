@@ -1,0 +1,5 @@
+operation,phi,dual_type,joint_mechanism_parties
+baseline_read_recipient,2.0,mediated,E|R
+substitution,0.0,none,
+tracking_memory,2.0,none,
+delegation_triage,1.0,distributed,E|R
