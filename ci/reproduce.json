@@ -1291,6 +1291,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q97_coordinated_adversary/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q99-binding-distinction",
+      "cmd": "python -m org_frontier.questions.q99_binding_distinction.probe_binding_distinction",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q99_binding_distinction/FINDINGS.md (H1-H4)"
     }
   ]
 }
