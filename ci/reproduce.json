@@ -1435,6 +1435,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q111_shapley_value/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q112-veto-power",
+      "cmd": "python -m org_frontier.questions.q112_veto_power.probe_veto_power",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q112_veto_power/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q113-substitutability-value",
+      "cmd": "python -m org_frontier.questions.q113_substitutability_value.probe_substitutability_value",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q113_substitutability_value/FINDINGS.md (H1-H4)"
     }
   ]
 }
