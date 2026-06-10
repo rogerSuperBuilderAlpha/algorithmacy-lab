@@ -49,19 +49,19 @@ control, report nulls.
   add (stays 2.0), and the shared node binds only the upstream core. Composition keeps units modular. H4
   confirmed; H1, H2, H3 refuted. See `questions/q95_composition_of_triads/`.
 
-## Priority 4 — Degraded information and memory
+## Priority 4 — Degraded information and memory (done)
 
-- **Q91 — Partial observability: the lossy channel.** Every read in the corpus is exact, and Q79 made the
-  *commit* stochastic, but the *input* read is never degraded. When the mediator reads a coarsened or noisy
-  version of a party at fidelity f, at what fidelity does the triad collapse? *Reuse:* `max_phi_float` on a
-  TPM with a noisy input map. *Discriminator:* a fidelity threshold for triadicity against a smooth decay,
-  distinct from Q79's commit-side noise.
+- **Q91 — Partial observability: the lossy channel.** *Done.* The triad degrades gracefully under a lossy
+  read: with the mediator reading the recipient through a binary symmetric channel, Φ falls monotonically
+  (2.0 → 0.16) and stays triadic until the channel carries no information (error 0.5). Input-side
+  degradation mirrors Q79's commit-side emergence. All four hypotheses confirmed. See
+  `questions/q91_lossy_channel/`.
 
-- **Q92 — The stateful mediator.** All determinations are memoryless, with the next state a function of the
-  current state alone. If the mediator's update depends on its own history, a two-bit memory, does
-  internal memory substitute for a live read, manufacturing or destroying a triad? *Reuse:* the classifier
-  with an augmented mediator node. *Discriminator:* whether memory can stand in for liveness (Finding 3),
-  or whether liveness is irreducibly about the current read.
+- **Q92 — The stateful mediator.** *Done.* A memory that tracks the recipient substitutes for a live read:
+  the tracking-memory triad stays triadic at Φ = 2.0, the core reorganizing to {M, R, Mem} with the worker
+  displaced. A frozen memory and a self-referential mediator are dyadic. Liveness (Finding 3) is the
+  recipient being bound through some path, not the current read. All four hypotheses confirmed. See
+  `questions/q92_stateful_mediator/`.
 
 ## Priority 5 — Contingency and adversarial security
 
