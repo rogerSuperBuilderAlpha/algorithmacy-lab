@@ -36,18 +36,18 @@ control, report nulls.
   the minimum (rank-AUC 0.783 vs 0.772). Each side is strictly necessary; within the bidirectional region
   they substitute. See `questions/q98_pivotality_bidirectionality/`.
 
-## Priority 3 — Beyond a single core
+## Priority 3 — Beyond a single core (done)
 
-- **Q94 — Multiple coexisting complexes.** Finding 8 always reads the *major* complex; the corpus never
-  asks whether coordination fragments into two disjoint irreducible cores. Build two mediated pairs sharing
-  a spectator or a channel and ask when the form holds two separate triads, one merged core, or none.
-  *Reuse:* PyPhi's full complex enumeration, not only the maximal. *Discriminator:* the structural
-  condition for multi-complex coordination, a regime the program has not entered.
+- **Q94 — Multiple coexisting complexes.** *Done.* Coordination holds multiple cores: two uncoupled units
+  give two disjoint complexes and a one-way bridge keeps both. But coupling does not fuse cores — a mutual
+  bridge collapses to one smaller core rather than a spanning one (the cores compete), and a
+  self-referential spectator forms its own complex. H1, H3 confirmed; H2, H4 refuted. See
+  `questions/q94_multiple_complexes/`.
 
-- **Q95 — Composition of coordination units.** Q65 chained mediators; no study chains whole triads, where
-  the output of one triadic unit becomes a party in the next. Does Φ compose additively, unify into a
-  higher-order core spanning both units, or fragment? *Reuse:* the read-recipient triad composed with
-  itself. *Discriminator:* additive Φ, a single spanning complex, or decoupling — the modularity question.
+- **Q95 — Composition of coordination units.** *Done.* Composing two read-recipient triads through a shared
+  node fragments rather than unifies: the form is whole-system dyadic, splits into two complexes, Φ does not
+  add (stays 2.0), and the shared node binds only the upstream core. Composition keeps units modular. H4
+  confirmed; H1, H2, H3 refuted. See `questions/q95_composition_of_triads/`.
 
 ## Priority 4 — Degraded information and memory
 

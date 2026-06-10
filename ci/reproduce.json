@@ -1219,6 +1219,30 @@
       ],
       "timeout": 600,
       "source": "org_frontier/questions/q98_pivotality_bidirectionality/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q94-multiple-complexes",
+      "cmd": "python -m org_frontier.questions.q94_multiple_complexes.probe_multiple_complexes",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q94_multiple_complexes/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q95-composition-of-triads",
+      "cmd": "python -m org_frontier.questions.q95_composition_of_triads.probe_composition_of_triads",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q95_composition_of_triads/FINDINGS.md (H1-H4)"
     }
   ]
 }
