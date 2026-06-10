@@ -1459,6 +1459,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q113_substitutability_value/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q114-principal-rent",
+      "cmd": "python -m org_frontier.questions.q114_principal_rent.probe_principal_rent",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q114_principal_rent/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q115-market-value",
+      "cmd": "python -m org_frontier.questions.q115_market_value.probe_market_value",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q115_market_value/FINDINGS.md (H1-H4)"
     }
   ]
 }
