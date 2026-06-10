@@ -65,3 +65,26 @@ cause-effect structure (Q104)?
 **What it reads.** The Shapley value against the φ_d of each party's distinction. *Discriminator:* whether
 strategic value and structural contribution are the same quantity, closing the loop between the
 political-economy wave and the cause-effect-structure wave.
+
+## Wave closed — what it found
+
+All six studies ran; every probe confirmed its pre-registered hypotheses (probes #268–#273).
+
+- **Q111.** The mediator captures two-thirds of the value; a read-only spectator captures negative value.
+  Value concentrates at the productive position.
+- **Q112.** Every core party holds a veto, yet the value those vetoes command is unequal: power to destroy is
+  democratic, power to capture is not.
+- **Q113.** Substitutability destroys all value; an all-required market at N = 2 shares it equally.
+  Interchangeability is catastrophic, not a discount.
+- **Q114.** A principal captures value by creating it: a bidirectional principal grows Φ from 2 to 3 and every
+  party rises, while ownership without coupling captures −0.833. The rent of Q111 is the productive position,
+  with ownership as such incidental.
+- **Q115.** A growing required market commoditizes its agents (~0.967 each) and pays the scarce parties
+  (1.0 → 1.55 → 2.067). Scale rewards scarcity over requiredness, recovering the law of scarcity from exact Φ.
+- **Q116.** Strategic value (Shapley) and structural depth (singleton φ_d) rank the parties alike on every
+  form and coincide exactly on the minimal triad, diverging in magnitude as parties are added, where structure
+  over-concentrates on the dominant party. Strategic value is structural depth, smoothed by marginal
+  contribution.
+
+The wave gives the structural program its strategic half and ties the two together: who captures value, and
+why the answer is already written in the cause-effect structure.
