@@ -1,0 +1,7 @@
+operation,lever,direction,before,after
+add_binding,binding,build,dyadic,triadic
+remove_binding,binding,break,triadic,dyadic
+restore_liveness,liveness,build,dyadic,triadic
+break_liveness,liveness,break,triadic,dyadic
+require_all,requirement,build,dyadic,triadic
+substitute,requirement,break,triadic,dyadic
