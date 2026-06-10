@@ -60,7 +60,7 @@ at k parties, against the dyadic forms below it.
 
 ## Q110 — Reversibility of the boundary
 
-**Question.** Is the dyad/triad boundary symmetric — the same edit distance to cross in each direction — or
+**Question.** Is the dyad/triad boundary symmetric, the same edit distance to cross in each direction, or
 is it cheaper to build a triad than to break one, or the reverse?
 
 **What it reads.** The construction distance (Q105) against the fragility margin (Q93) on the same forms.
