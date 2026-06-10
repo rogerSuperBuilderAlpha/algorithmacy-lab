@@ -102,3 +102,25 @@ def dual_pair(dists):
             if len(jm) >= 2 and set(jm) == set(sp) and set(jp) == set(sm):
                 return {"spanning": (sm, sp, spd), "joint": (jm, jp, jpd)}
     return None
+
+
+def joint_joint_dual(dists):
+    """Find a symmetric dual: two multi-party mechanisms A, B with A's purview = B and B's purview = A."""
+    higher = [(m, p, pd) for m, p, pd in dists if len(m) >= 2]
+    for am, ap, _ in higher:
+        for bm, bp, _ in higher:
+            if set(am) != set(bm) and set(ap) == set(bm) and set(bp) == set(am):
+                return {"a": (am, ap), "b": (bm, bp)}
+    return None
+
+
+def dual_type(dists):
+    """Classify the dual structure: 'mediated' (a party binds a group), 'symmetric' (two groups bind
+    each other), 'distributed' (higher-order structure but no clean global dual), or 'none'."""
+    if dual_pair(dists):
+        return "mediated"
+    if joint_joint_dual(dists):
+        return "symmetric"
+    if any(len(m) >= 2 for m, _, _ in dists):
+        return "distributed"
+    return "none"

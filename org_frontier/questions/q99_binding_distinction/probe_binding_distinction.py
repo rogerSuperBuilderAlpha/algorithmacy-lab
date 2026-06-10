@@ -15,6 +15,7 @@ from org_frontier.questions.q99_binding_distinction import forms as F
 def analyse(name, rules, labels):
     phi, dists = F.ces(rules, labels)
     dp = F.dual_pair(dists)
+    dtype = F.dual_type(dists)
     max_pd = max((pd for _, _, pd in dists), default=0.0)
     max_is_joint = any(len(m) >= 2 and abs(pd - max_pd) < 1e-9 and abs(pd - phi) < 1e-9
                        for m, _, pd in dists)
@@ -25,12 +26,12 @@ def analyse(name, rules, labels):
             covered |= set(m) | set(p)
     spans_all = covered == set(labels)
     print(f"  {name:<24} Φ={phi:<5} dual_pair={'yes' if dp else 'no ':<3}"
-          f" max_is_joint={max_is_joint} spans_all={spans_all}")
+          f" type={dtype:<11} max_is_joint={max_is_joint} spans_all={spans_all}")
     if dp:
         print(f"  {'':24} spanning {dp['spanning'][0]}->{dp['spanning'][1]} | "
               f"joint {dp['joint'][0]}->{dp['joint'][1]}")
-    return {"name": name, "phi": phi, "dual": bool(dp), "max_is_joint": max_is_joint,
-            "spans_all": spans_all}
+    return {"name": name, "phi": phi, "dual": bool(dp), "dual_type": dtype,
+            "max_is_joint": max_is_joint, "spans_all": spans_all}
 
 
 def main():
@@ -57,11 +58,13 @@ def main():
     os.makedirs(d_, exist_ok=True)
     with open(os.path.join(d_, "binding_distinction.csv"), "w", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["form", "class", "phi", "dual_pair", "max_is_joint", "spans_all"])
+        w.writerow(["form", "class", "phi", "dual_pair", "dual_type", "max_is_joint", "spans_all"])
         for t in tri:
-            w.writerow([t["name"], "triadic", t["phi"], t["dual"], t["max_is_joint"], t["spans_all"]])
+            w.writerow([t["name"], "triadic", t["phi"], t["dual"], t["dual_type"],
+                        t["max_is_joint"], t["spans_all"]])
         for d in dya:
-            w.writerow([d["name"], "dyadic", d["phi"], d["dual"], d["max_is_joint"], d["spans_all"]])
+            w.writerow([d["name"], "dyadic", d["phi"], d["dual"], d["dual_type"],
+                        d["max_is_joint"], d["spans_all"]])
 
 
 if __name__ == "__main__":
