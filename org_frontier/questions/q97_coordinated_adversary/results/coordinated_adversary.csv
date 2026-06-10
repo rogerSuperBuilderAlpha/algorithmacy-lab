@@ -1,0 +1,5 @@
+form,structure,sys_phi,major_complex
+two_read_only,dyadic,0.0,E|M|R
+two_emit_only,dyadic,0.0,E|M
+external_loop,triadic,2.0,M|X1|X2
+single_bidir,triadic,3.0,E|M|R|X
