@@ -1,0 +1,9 @@
+market,party,shapley_value
+all_required,E,1.0
+all_required,M1,1.0
+all_required,M2,1.0
+all_required,C,1.0
+substitutable,E,0.0
+substitutable,M1,0.0
+substitutable,M2,0.0
+substitutable,C,0.0
