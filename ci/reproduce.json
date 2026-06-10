@@ -1339,6 +1339,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q102_relation_skeleton/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q103-structure-under-operations",
+      "cmd": "python -m org_frontier.questions.q103_structure_under_operations.probe_structure_under_operations",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q103_structure_under_operations/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q104-load-bearing",
+      "cmd": "python -m org_frontier.questions.q104_load_bearing.probe_load_bearing",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q104_load_bearing/FINDINGS.md (H1-H4)"
     }
   ]
 }
