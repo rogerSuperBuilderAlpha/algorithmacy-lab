@@ -1243,6 +1243,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q95_composition_of_triads/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q91-lossy-channel",
+      "cmd": "python -m org_frontier.questions.q91_lossy_channel.probe_lossy_channel",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q91_lossy_channel/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q92-stateful-mediator",
+      "cmd": "python -m org_frontier.questions.q92_stateful_mediator.probe_stateful_mediator",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q92_stateful_mediator/FINDINGS.md (H1-H4)"
     }
   ]
 }
