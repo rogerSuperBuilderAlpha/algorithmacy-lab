@@ -1,4 +1,10 @@
-# Agenda: ten gaps in the corpus (Q89–Q98)
+# Agenda: ten gaps in the corpus (Q89–Q98) — done
+
+All ten questions below have been run through the six-stage protocol and are on the record; each entry
+links its study. The results were mixed by design: confirmations, refutations, and several surprises
+(composition decides heterogeneous membership; cores compete rather than fuse; structural and dynamical
+robustness anti-align; the membership gate is hard-cornered but soft inside; a coalition can capture the
+mediator). The headings are kept for the record, each now marked done.
 
 Ten runnable questions that probe gaps the program has left open. Each is grounded in a specific finding
 or a stated caveat, reuses existing machinery, and is computable now on the binary IIT-4.0 instrument —
@@ -63,19 +69,19 @@ control, report nulls.
   recipient being bound through some path, not the current read. All four hypotheses confirmed. See
   `questions/q92_stateful_mediator/`.
 
-## Priority 5 — Contingency and adversarial security
+## Priority 5 — Contingency and adversarial security (done)
 
-- **Q96 — State-contingent membership.** Finding 5 shows substitutability collapses the triad, but
-  participation is always unconditional; a party bound into the core only in some states is untested. Does
-  contingent binding yield a state-averaged triad, or factor? *Reuse:* the Q67 reciprocity machinery with a
-  gating condition. *Discriminator:* whether contingent participation integrates on average, or the
-  conditionality factors it out.
+- **Q96 — State-contingent membership.** *Done.* Contingent participation factors the whole, the way
+  optionality does (Finding 5): gating the recipient's read gives a whole-system dyadic form with a
+  localized {M, R} core, the recipient bound to the mediator while the worker and the gate are excluded.
+  H2, H3 confirmed; H1, H4 refuted. See `questions/q96_contingent_membership/`.
 
-- **Q97 — The coordinated adversary.** Q84 showed a single read-only agent cannot flip the verdict; a
-  coalition of outside agents is untested. Can two or more non-core agents jointly manufacture or destroy a
-  triad that none can alone? *Reuse:* the Q84 adversarial form with several external agents.
-  *Discriminator:* whether influence-without-membership becomes possible for a coalition, sharpening the
-  single-agent boundary that matters for security.
+- **Q97 — The coordinated adversary.** *Done.* A coalition gains no influence without membership — but it
+  can. Two observers leave the core {E, M, R} intact and two sources cannot manufacture a triad, while a
+  bridging coalition becomes triadic with core {M, X1, X2}, capturing the mediator and displacing the
+  legitimate worker and recipient. Influence still requires membership; a coalition can achieve it
+  collectively. H2, H3, H4 confirmed; H1 refuted on the whole-system reading. See
+  `questions/q97_coordinated_adversary/`.
 
 ## Sequencing
 

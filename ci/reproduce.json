@@ -1267,6 +1267,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q92_stateful_mediator/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q96-contingent-membership",
+      "cmd": "python -m org_frontier.questions.q96_contingent_membership.probe_contingent_membership",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q96_contingent_membership/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q97-coordinated-adversary",
+      "cmd": "python -m org_frontier.questions.q97_coordinated_adversary.probe_coordinated_adversary",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q97_coordinated_adversary/FINDINGS.md (H1-H4)"
     }
   ]
 }
