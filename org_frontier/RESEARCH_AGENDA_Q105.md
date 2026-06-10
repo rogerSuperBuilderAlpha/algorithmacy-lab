@@ -1,4 +1,6 @@
-# Agenda: designing coordination — the inverse problem (Q105–Q110)
+# Agenda: designing coordination — the inverse problem (Q105–Q110) — done
+
+The wave is on the record. Q105 (construction distance), Q106 (the design operations), Q107 (repair), Q108 (controllability), and Q110 (reversibility) are studies; Q109 (the cheapest triad) is subsumed by Q45, which already established the four-edge floor (2(n-1)) for the n=3 triadic forms. The wave gives a prescriptive account of crossing the dyad/triad boundary: the boundary is thin from the build side (Q105), the operations are the law's three reversible levers (Q106), repair is lever-specific (Q107), the parties are knife-edge controls and the hub the robust one (Q108), and the boundary is asymmetric — cheap to break, dear to build (Q110).
 
 A new angle, and a new mode. The program has been descriptive throughout: it reads the verdict of a given
 coordination form, the membership of its core, and the shape of its structure. It has never asked the
