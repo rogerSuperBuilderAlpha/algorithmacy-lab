@@ -1,4 +1,6 @@
-# Agenda: the cause-effect structure of coordination (Q99–Q104)
+# Agenda: the cause-effect structure of coordination (Q99–Q104) — done
+
+All six questions below are on the record; each is a study. The wave showed that the dyadic/triadic verdict is one projection of a structured object with a shape (Q99: a taxonomy of triads), a fingerprint orthogonal to the scalar (Q100), a content (Q101: the joint-success state), a relation skeleton (Q102: a hub in mediated coordination), a boundary where it tracks the verdict but not membership (Q103: the Q74 split at the structure level), and a load-bearing element (Q104: the binding distinction, with no redundancy).
 
 A new angle. The program has read coordination through the scalar verdict — Φ over the minimum-information
 partition, dyadic or triadic — and through which parties join the major complex. It has used the
@@ -7,7 +9,7 @@ found the counts classify the verdict. The structure itself, what the coordinati
 its distinctions relate, has never been read as meaning.
 
 IIT 4.0 unfolds more than a number. For each subset of parties (a mechanism) it specifies a cause and an
-effect — what the subset constrains and is constrained by — and it specifies relations, the overlaps among
+effect, what the subset constrains and is constrained by, and it specifies relations, the overlaps among
 those distinctions. The read-recipient triad, for instance, carries a distinction whose mechanism is the
 mediator alone but whose purview is both outer parties, and a higher-order distinction whose mechanism is
 the two outer parties jointly and whose purview is the mediator. The irreducible coordination is visible in
@@ -31,7 +33,7 @@ dyadic one, and that names the third party as a specific distinction rather than
 
 ## Q100 — Does the structure fingerprint the coordination type?
 
-**Question.** The five pillars — joint determination, reciprocity, depth, breadth, delegation — are all
+**Question.** The five pillars (joint determination, reciprocity, depth, breadth, delegation) are all
 triadic by the scalar verdict. Do they carry distinguishable cause-effect structures, so the portrait is a
 finer classifier than the binary verdict?
 
