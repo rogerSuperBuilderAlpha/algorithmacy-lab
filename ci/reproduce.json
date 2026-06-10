@@ -1315,6 +1315,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q100_structure_fingerprint/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q101-what-it-distinguishes",
+      "cmd": "python -m org_frontier.questions.q101_what_it_distinguishes.probe_what_it_distinguishes",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q101_what_it_distinguishes/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q102-relation-skeleton",
+      "cmd": "python -m org_frontier.questions.q102_relation_skeleton.probe_relation_skeleton",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q102_relation_skeleton/FINDINGS.md (H1-H4)"
     }
   ]
 }

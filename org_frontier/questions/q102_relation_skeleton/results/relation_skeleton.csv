@@ -1,0 +1,5 @@
+form,group,n_distinctions,n_relations,hub,hub_share,max_order
+read_recipient,mediated,4,8,M,0.875,3
+all_required_k2,mediated,8,128,M,0.992,7
+ring_d2,symmetric,6,14,A2|E,0.357,3
+market_N2,symmetric,6,14,M1|M2,0.357,3
