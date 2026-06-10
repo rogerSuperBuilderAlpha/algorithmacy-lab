@@ -1399,6 +1399,30 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q107_repair/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q108-controllability",
+      "cmd": "python -m org_frontier.questions.q108_controllability.probe_controllability",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q108_controllability/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q110-reversibility",
+      "cmd": "python -m org_frontier.questions.q110_reversibility.probe_reversibility",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q110_reversibility/FINDINGS.md (H1-H4)"
     }
   ]
 }
