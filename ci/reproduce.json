@@ -1495,6 +1495,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q116_value_against_structure/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q117-phi-free-test",
+      "cmd": "python -m org_frontier.questions.q117_phi_free_test.probe_phi_free_test",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q117_phi_free_test/FINDINGS.md (H1-H4)"
     }
   ]
 }
