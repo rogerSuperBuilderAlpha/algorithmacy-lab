@@ -194,6 +194,12 @@ Ordered by leverage. The first three decide whether the program's claims stand; 
    triadic forms are reliably distinct at AUC well above 0.5? The program tried three agent models and failed.
    Until this is answered, should the classifier docstring's "validated behaviourally" be retracted, and the
    economic claims be labeled conditional on it?
+   *Status (Q121): partially answered.* The weak form holds sharply: an interventional non-Φ criterion (Boolean-network
+   damage spreading) separates the verdict at AUC 1.000 on the hard 40 full-cycle forms, where an observational
+   criterion is at chance (0.500). This also showed the naive "AUC above 0.5 on the family" bar is trivial (the
+   cycle alone scores 0.966 under class imbalance), and explained the prior failures (they measured observational
+   difficulty; the verdict is interventional). The strong form, a criterion on real behavioral or empirical data,
+   remains open, and the "validated behaviourally" claim should still be qualified until it is met.
 2. **Φ-to-value bridge (T2, T3).** Can we derive or calibrate a relationship between subsystem-Φ and any actual
    economic value, and certify that v(S) is monotone and superadditive on the forms used? If not, will we
    restate Q111–Q116 as "the Shapley decomposition of integrated information," dropping the rent/scarcity/value
