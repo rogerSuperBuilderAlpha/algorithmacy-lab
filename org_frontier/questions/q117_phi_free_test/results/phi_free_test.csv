@@ -1,0 +1,5 @@
+predicate,tp,fp,fn,tn,errors
+cycle_only,24,16,0,216,16
+full_phi_free,24,0,0,232,0
+full_cycle_forms_triadic,24,,,,
+full_cycle_forms_dyadic,16,,,,
