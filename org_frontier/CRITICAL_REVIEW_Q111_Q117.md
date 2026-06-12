@@ -220,6 +220,14 @@ Ordered by leverage. The first three decide whether the program's claims stand; 
    states other than the max? Show invariance or report the dependence.
 5. **Reproducibility of "exact" (T6).** Will we pin the PyPhi commit, dump `pyphi.config` into every FINDINGS,
    and show the binary verdict is invariant across the plausible IIT-4.0 config cells and a version bump?
+   *Status (Q123): largely answered, with one correction and one concession.* The build is pinned (pyphi @
+   b78d0e342) and the config recorded; the binary verdict is bit-identical across all 256 forms under
+   SYSTEM_CUTS=CONCEPT_STYLE, SHORTCIRCUIT_SIA=False, PARALLEL=True, and rerun (0/256 each). **Correction:**
+   SYSTEM_CUTS is a legacy IIT-3.0 knob the 4.0 system-Φ path never reads, so the "SYSTEM_CUTS=3.0_STYLE ⇒
+   non-canonical" inference is mistaken. Of 13 alternative repertoire measures, 12 error and EMD is degenerate
+   (Φ=0), so GID is the unique admissible non-degenerate measure (no silent config menu). **Concession:** the
+   verdict is specific to the 4.0 intrinsic-difference measure (version-bound), and a *version bump* / genuine
+   IIT-3.0 agreement is still untested (agenda #8).
 6. **Pre-registration integrity (T7).** Will we register a hash of the hypotheses to an external timestamp
    before any code exists, separate the answer-computing probe from the pre-registration commit, and commit the
    Stage-1 review in its own commit before the hypotheses? Can we show, by history, that predictions preceded
