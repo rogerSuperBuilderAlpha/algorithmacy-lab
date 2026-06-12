@@ -1531,6 +1531,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q122_game_validity/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q123-reproducibility",
+      "cmd": "python -m org_frontier.questions.q123_reproducibility.probe_reproducibility",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q123_reproducibility/FINDINGS.md (H1-H4)"
     }
   ]
 }
