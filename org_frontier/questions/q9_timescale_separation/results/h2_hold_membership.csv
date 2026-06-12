@@ -1,0 +1,7 @@
+k,verdict,phi_mip,core,core_is_WSC,core_is_WC,core_is_S,mip_state,phi_s,phi_wc
+1,triadic,2.0,WSC,True,False,False,111,0.0,0.0
+2,dyadic,0.0,S,False,False,True,000,1.0,0.0
+3,dyadic,0.0,S,False,False,True,000,1.0,0.0
+4,dyadic,0.0,S,False,False,True,000,1.0,0.0
+5,dyadic,0.0,S,False,False,True,000,1.0,0.0
+6,dyadic,0.0,S,False,False,True,000,1.0,0.0

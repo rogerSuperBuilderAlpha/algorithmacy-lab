@@ -1,0 +1,7 @@
+k,det_phi_mip,det_structure,det_mip,prob_phi_mip,prob_structure
+1,2,triadic,"2 parts: {W,SC}",2,triadic
+2,0,dyadic,(factors),0.271228762,triadic
+3,0,dyadic,(factors),0.1383458331,triadic
+4,0,dyadic,(factors),0.09217239442,triadic
+5,0,dyadic,(factors),0.06896036872,triadic
+6,0,dyadic,(factors),0.05504145084,triadic

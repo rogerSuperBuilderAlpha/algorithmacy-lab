@@ -1,0 +1,7 @@
+form,construction,k,structure,phi_mip,mip_partition,mip_state,k_star_det,is_k_star
+two_sided_match,hold_for_k,1,triadic,2,"2 parts: {W,SC}","(1, 1, 1)",2,False
+two_sided_match,hold_for_k,2,dyadic,0,(factors),,2,True
+two_sided_match,hold_for_k,3,dyadic,0,(factors),,2,False
+two_sided_match,hold_for_k,4,dyadic,0,(factors),,2,False
+two_sided_match,hold_for_k,5,dyadic,0,(factors),,2,False
+two_sided_match,hold_for_k,6,dyadic,0,(factors),,2,False
