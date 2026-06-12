@@ -204,6 +204,14 @@ Ordered by leverage. The first three decide whether the program's claims stand; 
    economic value, and certify that v(S) is monotone and superadditive on the forms used? If not, will we
    restate Q111–Q116 as "the Shapley decomposition of integrated information," dropping the rent/scarcity/value
    vocabulary?
+   *Status (Q122): split verdict on the cooperative-game half (T2/T3); the Φ-to-economic-value half (the harder
+   one) is still open.* The value function is monotone AND superadditive on every productive form (the triad, the
+   bidirectional principal, the markets N=2,3: 0 violations), so the surplus-division reading is licensed there.
+   It is non-monotone only on the degenerate monitor-only form, whose −0.833 is therefore value destruction, not
+   rent (the prose should say so). The negatives survive unclamping identically (not a clamp artifact, that
+   sub-charge refuted), but every vector collapses to zero at the all-zeros background (the values are
+   background-relative to the integrating state, that sub-charge conceded). Still unaddressed: that subsystem-Φ
+   tracks any actual *economic* value — Q122 validates the game, not the welfare interpretation of its units.
 3. **Cardinal-versus-ordinal (T4).** Do we defend Φ magnitude as a cardinal scale, or do we downgrade every
    magnitude claim (Φ 2→3, Φ=2N, the 0.217 gap) to ordinal? The classifier docstring currently forbids the
    cardinal use the findings make. Which way do we resolve the contradiction?
