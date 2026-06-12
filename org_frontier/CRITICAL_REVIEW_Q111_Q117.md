@@ -218,6 +218,14 @@ Ordered by leverage. The first three decide whether the program's claims stand; 
 4. **Robustness of the game (T5).** Do the Shapley vectors and the verdict survive (a) alternative background
    states for the frozen complement, (b) marginalizing rather than freezing it, and (c) aggregation rules over
    states other than the max? Show invariance or report the dependence.
+   *Status (Q124, and the fatal-rated F1): the aggregation half is answered; the background half (a)/(b) is
+   partly open.* The triadic verdict survives **max, mean, and stationary** (long-run occupancy) aggregation on
+   all 24 triadic forms, and the integrating state carries positive stationary weight in every case — refuting
+   the "verdict rests on one cherry-picked, unoccupied state" charge. Only the strict **min** (integrate in
+   *every* state) flips the 16 single-state integrators, so the verdict is a **capacity** claim (supports
+   irreducible coordination in an occupied state), which should be stated. No aggregation turns a dyadic form
+   triadic (one-sided). Still open: the Shapley **background** sensitivity (Q122 showed all-zeros collapses the
+   values; marginalizing rather than freezing the complement is untested).
 5. **Reproducibility of "exact" (T6).** Will we pin the PyPhi commit, dump `pyphi.config` into every FINDINGS,
    and show the binary verdict is invariant across the plausible IIT-4.0 config cells and a version bump?
    *Status (Q123): largely answered, with one correction and one concession.* The build is pinned (pyphi @
