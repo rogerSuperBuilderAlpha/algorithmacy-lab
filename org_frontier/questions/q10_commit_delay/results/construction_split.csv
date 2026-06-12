@@ -1,0 +1,5 @@
+d,buf_phi_mip,buf_structure,buf_mip,buf_core_full,buf_core_wsc,buf_is_single_3node_tpm,lag_phi_mip,lag_structure,lag_mip,lag_core_wsc,lag_is_single_3node_tpm,verdict_disagree,mc_disagree,pair_disagrees
+0,2,triadic,"2 parts: {W,SC}",W|S|C,C|S|W,True,2,triadic,"2 parts: {W,SC}",C|S|W,True,False,False,False
+1,1,triadic,"2 parts: {WS,CB1}",S|C|B1,C|S,False,2,triadic,"2 parts: {W,SC}",C|S|W,True,False,True,True
+2,2,triadic,"3 parts: {WS,B1,CB2}",W|S|C|B1|B2,C|S|W,False,0,dyadic,(factors),,True,True,False,True
+3,2,triadic,"3 parts: {WS,B1B2,CB3}",W|S|C|B1|B2|B3,C|S|W,False,2,triadic,"2 parts: {W,SC}",C|S|W,True,False,False,False

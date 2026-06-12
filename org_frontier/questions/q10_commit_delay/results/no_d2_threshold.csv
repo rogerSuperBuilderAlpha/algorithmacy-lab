@@ -1,0 +1,9 @@
+form,P,d,n_nodes,phi_mip,structure,mip
+two_sided_match,2,0,3,2,triadic,"2 parts: {W,SC}"
+two_sided_match,2,1,4,1,triadic,"2 parts: {WS,CB1}"
+two_sided_match,2,2,5,2,triadic,"3 parts: {WS,B1,CB2}"
+two_sided_match,2,3,6,2,triadic,"3 parts: {WS,B1B2,CB3}"
+gig_false_dyad,1,0,3,2,triadic,"2 parts: {W,SC}"
+gig_false_dyad,1,1,4,1,triadic,"2 parts: {WS,CB1}"
+gig_false_dyad,1,2,5,2,triadic,"3 parts: {WS,B1,CB2}"
+gig_false_dyad,1,3,6,2,triadic,"3 parts: {WS,B1B2,CB3}"
