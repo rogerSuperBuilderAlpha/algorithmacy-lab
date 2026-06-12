@@ -1543,6 +1543,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q123_reproducibility/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q124-aggregation-robustness",
+      "cmd": "python -m org_frontier.questions.q124_aggregation_robustness.probe_aggregation_robustness",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q124_aggregation_robustness/FINDINGS.md (H1-H4)"
     }
   ]
 }
