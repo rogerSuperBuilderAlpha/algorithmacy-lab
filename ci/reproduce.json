@@ -1519,6 +1519,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q121_external_criterion/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q122-game-validity",
+      "cmd": "python -m org_frontier.questions.q122_game_validity.probe_game_validity",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q122_game_validity/FINDINGS.md (H1-H4)"
     }
   ]
 }
