@@ -25,7 +25,8 @@ Entropies are in bits.
 """
 
 import numpy as np
-from pyphi import convert
+
+from foundations.candidate_audit.measures import stationary_distribution
 
 _EPS = 1e-12
 
@@ -41,21 +42,6 @@ def _entropy(dist):
     dist = np.asarray(dist, dtype=float)
     dist = dist[dist > _EPS]
     return float(-(dist * np.log2(dist)).sum())
-
-
-def stationary_distribution(tpm_sbn):
-    """Stationary distribution over states via power iteration on the
-    state-by-state transition matrix."""
-    sbs = convert.state_by_node2state_by_state(tpm_sbn)
-    n_states = sbs.shape[0]
-    pi = np.full(n_states, 1.0 / n_states)
-    for _ in range(2000):
-        nxt = pi @ sbs
-        if np.abs(nxt - pi).sum() < 1e-12:
-            pi = nxt
-            break
-        pi = nxt
-    return pi / pi.sum()
 
 
 def total_correlation(tpm_sbn, n):
