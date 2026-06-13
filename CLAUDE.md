@@ -75,6 +75,32 @@ Fix violations before showing. Flag any you deliberately kept and why.
 
 ---
 
+# Dissertation guiding structure (the spine — do not drift from this)
+
+The three-paper dissertation makes ONE affirmative argument, and every edit serves it:
+
+- **Paper 1 — a literature review that finds space for algorithmacy.** It reviews the existing
+  constructs, shows they do not reach the mediated triad, and names the construct that fills the gap.
+- **Paper 2 — argues that integrated information (Φ / IIT) is a great tool for exploring the mediated
+  triad.** This is an affirmative case FOR the tool: Φ is a principled, powerful lens on whether and how
+  a coordination form is irreducible.
+- **Paper 3 — walks through a bunch of experiments** with that tool: major-complex membership, the
+  design operations, the worked case models.
+
+**Make the argument. Do NOT demote IIT.** Φ/IIT are never to be called decorative, hollow, unnecessary,
+or "a calculator," and "demote the apparatus" is NOT an option on the table. That a cheap factorization
+test reaches the same verdict on some field cases does not mean Φ does no work — the contribution is the
+principled exploration IIT enables, not a claim that Φ is necessary or beats cheap tests. Committee or
+reviewer pushback toward demoting the apparatus is adversarial stress-testing to ANSWER by making the
+affirmative case better, not a mandate to gut the thesis.
+
+**Altitude.** Be modest about what is *proven* (no worker is measured; irreducibility is *explored*, not
+established as necessary) and confident about the *thesis* (algorithmacy fills a real gap; IIT is a great
+tool for exploring it; the experiments are worth running). Modest ≠ self-defeating. Never trade the
+tool's value away to look humble.
+
+---
+
 # Repository layout & git pushes (IMPORTANT — applies every session)
 
 This tree holds **two separate git repositories**. See `REPO_LAYOUT.md` for the full
