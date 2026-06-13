@@ -34,7 +34,11 @@ _EPS = 1e-12
 # --------------------------------------------------------------------------- #
 
 def stationary_distribution(tpm_sbn):
-    """Stationary distribution over states (power iteration)."""
+    """Stationary distribution over states (power iteration).
+
+    Canonical state-by-node implementation; ``foundations.proxy_audit.proxies``
+    re-exports this so every measure converges with the same parameters.
+    """
     sbs = convert.state_by_node2state_by_state(tpm_sbn)
     n_states = sbs.shape[0]
     pi = np.full(n_states, 1.0 / n_states)

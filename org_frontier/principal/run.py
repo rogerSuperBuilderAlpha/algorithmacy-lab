@@ -19,7 +19,7 @@ if _REPO_ROOT not in sys.path:
 os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 
 import pyphi
-from pyphi import new_big_phi
+from pyphi import exceptions, new_big_phi
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
 from foundations.proxy_audit.exact_phi import reachable_states
@@ -39,12 +39,14 @@ def major_complex(rules):
         state = tuple((s >> i) & 1 for i in range(4))
         try:
             mc = new_big_phi.maximal_complex(net, state)
-            if float(mc.phi) > best[1]:
-                # node_labels is the full network's labels; the complex's nodes are node_indices.
-                core = tuple(pf.LABELS[i] for i in mc.node_indices)
-                best = (core, float(mc.phi))
-        except Exception:
+        except (exceptions.StateUnreachableError, ValueError):
             continue
+        if isinstance(mc, new_big_phi.NullPhiStructure):
+            continue  # no irreducible complex at this state
+        if float(mc.phi) > best[1]:
+            # node_labels is the full network's labels; the complex's nodes are node_indices.
+            core = tuple(pf.LABELS[i] for i in mc.node_indices)
+            best = (core, float(mc.phi))
     return best
 
 
