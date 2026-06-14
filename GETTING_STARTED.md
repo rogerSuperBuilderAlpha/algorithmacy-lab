@@ -102,7 +102,19 @@ python ci/reproduce.py your-check-name      # one check
 python ci/reproduce.py                       # the full manifest
 ```
 
-## 7. Open a pull request
+## 7. Refresh the README directory
+
+The README carries a generated directory of every question, study, essay, and review
+(`tools/build_index.py`). Regenerate it so your work shows up:
+
+```bash
+python tools/build_index.py
+```
+
+A pull request from this repo regenerates it automatically; the `directory-current` CI check
+fails if it is stale, so run it before pushing (it commits a one-line change to README.md).
+
+## 8. Open a pull request
 
 Work lands through `contrib`, never `main` directly. Read `REPO_LAYOUT.md` first if you have not —
 this tree nests a second, private git repo under `dissertation/`, and the directory you run git
