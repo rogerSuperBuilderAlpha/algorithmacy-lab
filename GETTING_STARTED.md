@@ -1,0 +1,120 @@
+# Getting started
+
+This is the contributor path from a fresh clone to a pull request, by hand. It does not depend
+on any automation: the `org_frontier/protocol/question_pipeline.js` orchestration runs the same
+stages but needs the Claude Code Workflow tool, which an ordinary contributor does not have. The
+manual path below is the authoritative one, and the protocol calls it the fallback for exactly
+that reason.
+
+## 1. Environment
+
+Python 3.10 or newer. From the repo root:
+
+```bash
+python -m venv venv
+source venv/bin/activate          # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+`requirements.txt` pulls PyPhi's IIT-4.0 line and `phyid` from git, so the install needs network
+access and takes a few minutes. Every command below assumes this venv is active and that you run
+**from the repo root**, so that `org_frontier.*` and `foundations.*` resolve.
+
+## 2. Confirm the instrument before you trust anything
+
+```bash
+python -m org_frontier.classifier.validate
+```
+
+This must print `Instrument validated`. It checks two controls — a decoupled form that must read
+`dyadic`, a fully coupled form that must read `triadic` — plus the built-in regression forms. If
+it fails, stop: no verdict is trustworthy until it passes. This control gate is non-negotiable and
+every probe you write repeats it.
+
+## 3. Run an existing experiment
+
+```bash
+python -m org_frontier.probes.probe_conjunctive_law
+```
+
+A "probe" is one script that tests one hypothesis with exact Φ and prints a verdict. The log of
+every probe run is `org_frontier/probes/PROBES.md`; the worked end-to-end question is
+`org_frontier/questions/q43_thompson_interdependence/`. Read one of each before writing your own.
+
+## 4. The model in one paragraph
+
+A coordination form is a small Boolean dynamical system. Each party — Worker (`W`), the
+mediating System (`S`), Counterpart (`C`), and any others — is a node whose next value is a fixed
+function of the current node values. `classify_rules(rules, labels)` returns a verdict:
+`Φ_MIP = 0` means the form factors along a party-line cut (**dyadic** → literacy); `Φ_MIP > 0`
+means no cut factors it (**triadic** → algorithmacy). `major_complex(rules, labels)` returns which
+nodes form the irreducible core. Rules are little-endian: `rules[j](x)` reads `x[0], x[1], ...` and
+returns node `j`'s next bit.
+
+```python
+from org_frontier.probes.lib import verdict, major_complex
+rules  = [lambda x: x[1], lambda x: x[0] & x[2], lambda x: x[1]]  # W'=S, S'=W∧C, C'=S
+labels = ("W", "S", "C")
+v = verdict(rules, labels)                 # v.structure -> "triadic", v.max_phi -> 2.0
+core, phi = major_complex(rules, labels)   # ("W","S","C"), 2.0
+```
+
+The shared API lives in `org_frontier/classifier/classifier.py` (`classify_rules`,
+`tpm_from_rules`, `cm_from_rules`), `org_frontier/probes/lib.py` (`verdict`, `major_complex`,
+`max_phi_float`), and `foundations/proxy_audit/exact_phi.py` (`exact_big_phi`, `reachable_states`).
+Exact Φ is feasible up to roughly 10–12 nodes; keep forms small.
+
+## 5. Scaffold a new question
+
+```bash
+python -m org_frontier.protocol.new_question --slug your_slug \
+    --question "Your one-line research question"
+```
+
+This copies `org_frontier/protocol/template/` to `org_frontier/questions/q<NN>_<slug>/`, fills in
+the next free question number and probe number, and prints the next steps. Read
+`org_frontier/protocol/RESEARCH_PROTOCOL.md` for what each artifact (`review.md`, `hypotheses.md`,
+`methods.md`, the `probe_*.py` scripts, `FINDINGS.md`, `paper.md`) must contain.
+
+The one rule that makes the record credible: **commit `hypotheses.md` before you compute the
+results.** The git history is the evidence that the claims were fixed first.
+
+## 6. Register your numbers and check reproduction
+
+Every published number is re-derived by CI from its script. After your probes run, add one entry
+per number to `ci/reproduce.json`:
+
+```json
+{
+  "name": "your-check-name",
+  "cmd": "python -m org_frontier.questions.q<NN>_<slug>.probe_<slug>",
+  "expect": ["a verbatim substring of the probe's stdout, including the number"],
+  "timeout": 300,
+  "source": "org_frontier/questions/q<NN>_<slug>/FINDINGS.md"
+}
+```
+
+The `expect` strings must appear verbatim in the command's stdout, so copy them from a real run —
+match the printed precision (`Φ=2.000`, not `Φ = 2.0`). Then confirm it passes locally:
+
+```bash
+python ci/reproduce.py your-check-name      # one check
+python ci/reproduce.py                       # the full manifest
+```
+
+## 7. Open a pull request
+
+Work lands through `contrib`, never `main` directly. Read `REPO_LAYOUT.md` first if you have not —
+this tree nests a second, private git repo under `dissertation/`, and the directory you run git
+from decides which repo you touch.
+
+```bash
+git checkout contrib && git pull
+git checkout -b study/your-slug
+git add <your files> && git commit -m "..."   # hypotheses committed before results
+git push -u origin study/your-slug
+gh pr create --base contrib
+```
+
+`PUBLISHING.md` describes the four-pass review your PR will get (reproduction, pre-commitment
+audit, argument, prose) and `CONTRIBUTING.md` covers house style.

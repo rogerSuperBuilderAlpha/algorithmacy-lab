@@ -1,0 +1,51 @@
+id,theme,experiment,n_nodes,predict,binds,core,core_phi,core_size,whole_system_structure,whole_system_phi,n_irreducible_states,matched,anchor,rationale
+A21,quorum,2-party k=1-of-2,3,triadic,True,P0P1S,2.000000,3,triadic,2.000000,1,True,True,"any-one: every party can trigger alone, so every party is pivotal"
+A22,quorum,2-party k=2-of-2,3,triadic,True,P0P1S,2.000000,3,triadic,2.000000,1,True,True,"unanimity: every party can veto, so every party is pivotal"
+A31,quorum,3-party k=1-of-3,4,triadic,True,P0P1P2S,3.000000,4,triadic,3.000000,1,True,True,"any-one: every party can trigger alone, so every party is pivotal"
+A32,quorum,3-party k=2-of-3,4,dyadic,False,,0.000000,0,dyadic,0.000000,0,True,False,"interior quorum 2/3: each party is substitutable, none individually pivotal"
+A33,quorum,3-party k=3-of-3,4,triadic,True,P0P1P2S,3.000000,4,triadic,3.000000,1,True,True,"unanimity: every party can veto, so every party is pivotal"
+A41,quorum,4-party k=1-of-4,5,triadic,True,P0P1P2P3S,4.000000,5,triadic,4.000000,1,True,True,"any-one: every party can trigger alone, so every party is pivotal"
+A42,quorum,4-party k=2-of-4,5,dyadic,False,,0.000000,0,dyadic,0.000000,0,True,False,"interior quorum 2/4: each party is substitutable, none individually pivotal"
+A43,quorum,4-party k=3-of-4,5,dyadic,False,,0.000000,0,dyadic,0.000000,0,True,False,"interior quorum 3/4: each party is substitutable, none individually pivotal"
+A44,quorum,4-party k=4-of-4,5,triadic,True,P0P1P2P3S,4.000000,5,triadic,4.000000,1,True,True,"unanimity: every party can veto, so every party is pivotal"
+A51,quorum,5-party k=1-of-5,6,triadic,True,P0P1P2P3P4S,5.000000,6,triadic,5.000000,1,True,True,"any-one: every party can trigger alone, so every party is pivotal"
+A53,quorum,5-party k=3-of-5,6,dyadic,False,,0.000000,0,dyadic,0.000000,0,True,False,"interior quorum 3/5: each party is substitutable, none individually pivotal"
+A55,quorum,5-party k=5-of-5,6,triadic,True,P0P1P2P3P4S,5.000000,6,triadic,5.000000,1,True,True,"unanimity: every party can veto, so every party is pivotal"
+B1,topology,"star (hub B reads all, spokes read hub)",4,triadic,True,ABCD,3.000000,4,triadic,3.000000,1,True,False,centralized hub binds all spokes through one determination
+B2,topology,complete (each reads the other three),4,triadic,True,ABCD,12.000000,4,triadic,12.000000,1,True,False,fully coupled; no party-line cut survives
+B3,topology,"ring (each reads its two neighbours, AND)",4,triadic,True,ABCD,4.000000,4,triadic,4.000000,1,True,False,"closed cycle of mutual reads, no factorizing cut"
+B4,topology,line/chain (A-B-C-D with back-reads),4,triadic,True,CD,2.000000,2,triadic,2.000000,1,True,False,"connected chain, every interior node mediates two sides"
+B5,topology,"two independent dyads ({A,B},{C,D})",4,dyadic,True,CD,2.000000,2,dyadic,0.000000,0,True,True,factors into two disjoint pairs
+B6,topology,"two-hub matrix (B,C hubs; A,D read both)",4,triadic,True,ABCD,4.000000,4,triadic,4.000000,1,True,False,matrix org: two mediators jointly bind the workers
+B7,topology,feed-forward star (spokes do not read hub),4,dyadic,True,D,1.000000,1,dyadic,0.000000,0,True,False,spokes are emit-only sources; the hub is a downstream sink
+B8,topology,"hub + isolated node (star on A,B,C; D self-loop)",4,triadic,True,ABC,2.000000,3,dyadic,0.000000,0,False,False,"triad {A,B,C} binds; D is decoupled and should shed from the core"
+B9,topology,bipartite (each side reads the other side's AND),4,triadic,True,ABCD,4.000000,4,triadic,4.000000,1,True,False,"complete bipartite coupling, no within-side factorization"
+B10,topology,"directed cycle (pure copy ring, no AND)",4,dyadic,True,ABCD,2.000000,4,triadic,2.000000,16,False,False,"a permutation/relabelling; each node copied, determination is reducible"
+C1,redundancy,"duplicate mediator (S1,S2 both = W&C; parties read S1|S2)",4,triadic,True,CS2,0.189385,2,dyadic,0.000000,0,False,False,two mediators carry the same determination; degenerate but still irreducible
+C2,redundancy,"parallel channels (W->C via S1, W->C via S2, independent)",4,dyadic,True,W,1.000000,1,dyadic,0.000000,0,True,False,"W feeds two one-way relays to C; no back-coupling, factors W from C"
+C3,redundancy,"triple-modular mediator (3 copies, majority vote)",5,triadic,True,WCS3,2.000000,3,dyadic,0.000000,0,False,False,"TMR over the same AND; the vote node S-stack binds W,C, redundantly"
+C4,redundancy,hot standby (S2 acts only when S1 is down),4,triadic,True,WCS1,0.664060,3,dyadic,0.000000,0,False,False,primary plus failover; the live mediator still binds the parties
+C5,redundancy,"degenerate parties (W1,W2 identical inputs to S)",4,triadic,True,W2SC,2.000000,3,triadic,1.000000,1,True,False,two interchangeable workers; AND keeps each pivotal (each can veto)
+C6,redundancy,"substitutable workers (S = W1 OR W2, either suffices)",4,dyadic,True,SC,2.000000,2,dyadic,0.000000,0,True,False,OR makes either worker droppable; neither W is individually pivotal
+C7,redundancy,redundant copy decoupled (S2 mirrors S1 but nobody reads it),4,triadic,True,WCS1,2.000000,3,dyadic,0.000000,0,False,False,"core is {W,S1,C}; the unread copy S2 should shed from the major complex"
+C8,redundancy,dual mediators in series (W -> S1 -> S2 -> C and back),4,triadic,True,CS2,2.000000,2,triadic,2.000000,1,True,False,two mediators chained with feedback; the loop binds all four
+C9,redundancy,"backup that factors (independent {W,S1} and {C,S2} pairs)",4,dyadic,True,CS2,2.000000,2,dyadic,0.000000,0,True,False,"two private worker-mediator pairs, no shared determination"
+C10,redundancy,"shared mediator, redundant readout (C reads S twice-over)",3,triadic,True,WSC,2.000000,3,triadic,2.000000,1,True,True,"trivial readout redundancy; identical to the canonical triad, a control"
+D1,inhibition,veto (S = W AND NOT C),3,triadic,True,WS,2.000000,2,dyadic,0.000000,0,False,False,counterpart vetoes; both parties still feed and read the determination
+D2,inhibition,NAND (S = NOT(W AND C)),3,triadic,True,WSC,2.000000,3,triadic,2.000000,1,True,False,"De Morgan dual of AND; same irreducible coupling, inverted output"
+D3,inhibition,NOR (S = NOT(W OR C)),3,triadic,True,WSC,2.000000,3,triadic,2.000000,1,True,False,"dual of OR; monotone-inhibitory, verdict should match OR"
+D4,inhibition,implication (S = NOT W OR C),3,triadic,True,WS,2.000000,2,dyadic,0.000000,0,False,False,asymmetric mixed-sign gate; both parties determine S
+D5,inhibition,inverting feedback (parties read NOT S),3,triadic,True,WSC,2.000000,3,triadic,2.000000,1,True,False,"AND mediator but parties read its negation; coupling is intact, just inverted"
+D6,inhibition,mutual inhibition (S = NOT W AND NOT C),3,triadic,True,WSC,2.000000,3,triadic,2.000000,1,True,False,"both parties suppress the determination; symmetric, irreducible"
+D7,inhibition,"one-sided veto, no back-read (C vetoes, C static)",3,dyadic,True,WS,2.000000,2,dyadic,0.000000,0,True,False,"C never reads S (emit-only veto source); it should drop out, leaving a dyad"
+D8,inhibition,double negation control (S = NOT NOT (W AND C)),3,triadic,True,WSC,2.000000,3,triadic,2.000000,1,True,True,logically identical to AND; a valence control that must read triadic
+D9,inhibition,XNOR veto-parity (S = NOT(W XOR C)),3,triadic,True,WSC,0.500000,3,triadic,0.500000,4,True,True,"parity agreement gate; known irreducible, anchors the inhibition theme"
+E1,heterogeneity,"asymmetric arity (W reads S&C, C reads S only)",3,triadic,True,WS,2.000000,2,triadic,1.000000,2,True,False,worker reads more than counterpart; both still bidirectionally coupled
+E2,heterogeneity,party with memory (W' = W OR S),3,triadic,True,SC,2.000000,2,dyadic,0.000000,0,False,False,"worker self-loop adds memory; coupling to S persists, stays irreducible"
+E3,heterogeneity,constant policy node (B always 1; S = W&C&B),4,triadic,True,WSC,2.000000,3,dyadic,0.000000,0,False,False,"policy bias B is a constant self-loop; triad {W,S,C} binds, B should shed"
+E4,heterogeneity,"read-only manager (M reads S, feeds nothing)",4,triadic,True,WSC,2.000000,3,dyadic,0.000000,0,False,False,"M is a read-only sink; core is {W,S,C}, M should drop out (cf. spectator)"
+E5,heterogeneity,dominated party (S follows W; C marginal: S = W AND (C OR 1)),3,dyadic,True,WS,2.000000,2,dyadic,0.000000,0,True,False,"C has zero influence on S (C OR 1 == 1); zero pivotality, C drops, leaves a dyad"
+E6,heterogeneity,policy overrides counterpart (S = W AND (C OR B)),4,triadic,True,WSC,2.000000,3,dyadic,0.000000,0,False,False,"B can substitute for C when B=1; C is conditionally pivotal, expect triadic core"
+E7,heterogeneity,one-way manager (M gates S but never reads back),4,triadic,True,WSC,2.000000,3,dyadic,0.000000,0,False,False,"M feeds the determination but is a constant source; {W,S,C} core, M sheds"
+E8,heterogeneity,graded fan-out (W feeds S and C; C feeds only S),3,triadic,True,SC,2.000000,2,triadic,1.000000,2,True,False,worker reaches the counterpart both directly and through S; still irreducible
+E9,heterogeneity,"two managers, both read-only (M1,M2 watch S)",5,triadic,True,WSC,2.000000,3,dyadic,0.000000,0,False,False,"two read-only observers; core stays {W,S,C}, both managers shed"

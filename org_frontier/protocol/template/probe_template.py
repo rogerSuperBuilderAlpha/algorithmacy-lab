@@ -3,7 +3,7 @@
 Question: <the sub-question this test answers>. Hypothesis: <H_k claim>. Method: <the form/ensemble, the
 measure, the decision rule>. Instrument control: <the known form and value verified before the comparison>.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.questions.q<NN>_<slug>.probe_<slug>
+Run (from the repo root, with the venv active):  python -m org_frontier.questions.q<NN>_<slug>.probe_<slug>
 """
 
 import os

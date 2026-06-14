@@ -1555,6 +1555,19 @@
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q124_aggregation_robustness/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "coordination-logic-atlas",
+      "slow": true,
+      "cmd": "python -m org_frontier.studies.coordination_logic_atlas.run",
+      "expect": [
+        "Instrument validated",
+        "50 experiments | predictions matched: 36/50",
+        "B10 directed cycle (pure copy ring, no AND): predicted dyadic, got triadic",
+        "D1 veto (S = W AND NOT C): predicted triadic, got dyadic"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/coordination_logic_atlas/FINDINGS.md"
     }
   ]
 }
