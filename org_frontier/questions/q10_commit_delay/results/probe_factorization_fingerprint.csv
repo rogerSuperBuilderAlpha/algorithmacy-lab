@@ -1,0 +1,12 @@
+map,param,verdict,phi_mip,mip_partition,read_state,major_complex,wsc_projection,buffers_excluded,s_only_core,buffer_self_edges
+buffer_pipeline,1,triadic,1.000000,"2 parts: {WS,CB1}","(1, 1, 1, 0)",S|C|B1,S|C,False,False,
+buffer_pipeline,2,triadic,2.000000,"3 parts: {WS,B1,CB2}","(1, 1, 1, 0, 0)",W|S|C|B1|B2,W|S|C,False,False,
+buffer_pipeline,3,triadic,2.000000,"3 parts: {WS,B1B2,CB3}","(1, 1, 1, 0, 0, 0)",W|S|C|B1|B2|B3,W|S|C,False,False,
+hold_for_k,2,dyadic,0.000000,None,"(0, 0, 0)",S,,,True,
+sequential,012,dyadic,0.000000,None,"(0, 0, 0)",S|C,,,,
+sequential,021,dyadic,0.000000,None,"(0, 0, 0)",S,,,,
+sequential,102,dyadic,0.000000,None,"(0, 0, 0)",W|C,,,,
+sequential,120,dyadic,0.000000,None,"(0, 0, 0)",W|C,,,,
+sequential,201,dyadic,0.000000,None,"(0, 0, 0)",S,,,,
+sequential,210,dyadic,0.000000,None,"(0, 0, 0)",W|S,,,,
+DECISION,k*_det=2,confirmed,hold_mip=None,hold_core=S,s_core_pass=True,mip_differs_all=True,passthrough_ok=True,,,

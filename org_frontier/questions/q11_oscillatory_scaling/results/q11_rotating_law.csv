@@ -1,0 +1,11 @@
+form,n,phi_mip,verdict,core_size,period,phi_and_matched,gap_rot_minus_and
+rot_ring,3,2.000000,triadic,3,3,,
+rot_ring,4,2.000000,triadic,4,4,4.000000,-2.000000
+rot_ring,5,2.000000,triadic,5,5,4.000000,-2.000000
+rot_ring,6,2.000000,triadic,6,6,4.000000,-2.000000
+and_ring,4,4.000000,triadic,4,2,,
+and_ring,5,4.000000,triadic,5,1,,
+and_ring,6,4.000000,triadic,6,2,,
+
+law_class_rot,constant
+verdict,CONFIRMED

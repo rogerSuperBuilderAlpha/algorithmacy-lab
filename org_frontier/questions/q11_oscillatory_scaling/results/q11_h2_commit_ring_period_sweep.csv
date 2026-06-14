@@ -1,0 +1,13 @@
+form,n,p,structure,phi_mip,period,mip_partition,delta_p_phi_at_n
+commit_ring,3,1,triadic,2,2,"2 parts: {x0x1,x2}",-2
+commit_ring,3,2,dyadic,0,1,(factors),-2
+commit_ring,3,3,dyadic,0,1,(factors),-2
+commit_ring,4,1,triadic,3,2,"4 parts: {x0,x1,x2,x3}",-3
+commit_ring,4,2,dyadic,0,1,(factors),-3
+commit_ring,4,3,dyadic,0,1,(factors),-3
+commit_ring,5,1,triadic,4,2,"5 parts: {x0,x1,x2,x3,x4}",-4
+commit_ring,5,2,dyadic,0,1,(factors),-4
+commit_ring,5,3,dyadic,0,1,(factors),-4
+commit_ring,6,1,triadic,5,2,"6 parts: {x0,x1,x2,x3,x4,x5}",-5
+commit_ring,6,2,dyadic,0,1,(factors),-5
+commit_ring,6,3,dyadic,0,1,(factors),-5
