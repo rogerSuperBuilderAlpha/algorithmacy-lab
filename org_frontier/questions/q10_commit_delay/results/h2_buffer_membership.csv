@@ -1,0 +1,4 @@
+d,verdict,phi_mip,core_full,WSC_subset_core,interior_excluded,mip_state,phi_WSC,bb_verdict,bb_phi_mip,bb_core,bb_core_phi,bb_absorbs_buffer,core,phi_B1,phi_B2,phi_B3
+1,triadic,1.0,"S,C,B1",False,True,1110,0.0,triadic,2.0,"W,S,C",2.0,False,SCB1,0.0,,
+2,triadic,2.0,"W,S,C,B1,B2",True,False,11100,0.0,dyadic,0.0,S,1.0,False,WSCB1B2,0.0,0.0,
+3,triadic,2.0,"W,S,C,B1,B2,B3",True,False,111000,0.0,dyadic,0.0,S,1.0,False,WSCB1B2B3,0.0,0.0,0.0

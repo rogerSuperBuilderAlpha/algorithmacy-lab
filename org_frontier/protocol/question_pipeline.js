@@ -70,13 +70,13 @@ const METHODS_SCHEMA = {
 
 const RESULT_SCHEMA = {
   type: 'object',
-  required: ['hypothesis', 'verdict', 'numbers', 'probe_file'],
+  required: ['hypothesis', 'verdict', 'numbers', 'probe_file', 'probes_row'],
   properties: {
     hypothesis: { type: 'string' },
     verdict: { type: 'string', enum: ['confirmed', 'partial', 'refuted'] },
     numbers: { type: 'string', description: 'the key numeric results' },
     probe_file: { type: 'string' },
-    probes_row: { type: 'string', description: 'a one-line PROBES.md-style result row for this test' },
+    probes_row: { type: 'string', description: 'a one-line PROBES.md-style result row for this test (required, never empty)' },
   },
 }
 

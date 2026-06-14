@@ -14,6 +14,18 @@ foundations/cbh_complexity/literature/cbh2026_fulltext.txt
 # org_frontier run logs (data is in the CSVs)
 org_frontier/**/results/*.log
 
+# root-level runtime debris (caches/logs materialized when running foundations
+# modules from the repo root; the real packages live under foundations/)
+/candidate_audit/
+/cbh_complexity/
+/consciousness_range/
+/emergence_vs_phi/
+/learned_surrogate/
+/phiid_vs_phi/
+/proxy_audit/
+/psi_vs_phi/
+/structure_suite/
+
 # Dissertation: a separate, private repo nested here — kept local, never tracked by this repo
 dissertation/
 *.m4a

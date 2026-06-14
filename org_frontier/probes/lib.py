@@ -9,7 +9,7 @@ if _REPO_ROOT not in sys.path:
 os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 
 import pyphi
-from pyphi import new_big_phi
+from pyphi import exceptions, new_big_phi
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules, cm_from_rules
 from foundations.proxy_audit.exact_phi import reachable_states
@@ -23,9 +23,12 @@ def verdict(rules, labels):
     return classify_rules(rules, labels=labels)
 
 
-def max_phi_float(tpm_sbn):
+def max_phi_float(tpm_sbn, rng=None):
     """Max exact IIT-4.0 Φ over states for a (possibly stochastic) state-by-node TPM.
-    Infers the connectivity matrix numerically. Returns (max_phi, cm)."""
+    Infers the connectivity matrix numerically. Returns (max_phi, cm).
+
+    ``rng`` defaults to a fixed seed so repeated calls are deterministic; pass an
+    explicit generator when sweeping stochastic ensembles."""
     import numpy as np
     from foundations.proxy_audit import exact_phi
     n = tpm_sbn.shape[1]
@@ -34,7 +37,8 @@ def max_phi_float(tpm_sbn):
         for i in range(n):
             if any(abs(tpm_sbn[s, j] - tpm_sbn[s ^ (1 << i), j]) > 1e-9 for s in range(2 ** n)):
                 cm[i, j] = 1
-    rng = np.random.default_rng(0)
+    if rng is None:
+        rng = np.random.default_rng(0)
     _, mx, _ = exact_phi.network_phi(tpm_sbn, cm, n, rng)
     return float(mx), cm
 
@@ -49,8 +53,10 @@ def major_complex(rules, labels):
         state = tuple((s >> i) & 1 for i in range(n))
         try:
             mc = new_big_phi.maximal_complex(net, state)
-            if float(mc.phi) > best[1]:
-                best = (tuple(labels[i] for i in mc.node_indices), float(mc.phi))
-        except Exception:
+        except (exceptions.StateUnreachableError, ValueError):
             continue
+        if isinstance(mc, new_big_phi.NullPhiStructure):
+            continue  # no irreducible complex at this state
+        if float(mc.phi) > best[1]:
+            best = (tuple(labels[i] for i in mc.node_indices), float(mc.phi))
     return best
