@@ -34,6 +34,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Literacy or Algorithmacy? Borrowing a Consciousness Measure to Read an Org Chart](org_frontier/essays/literacy_or_algorithmacy.md)
 - [What Exact Φ Can Do for Organization Theory: A Complete Experiment Catalog](org_frontier/essays/pyphi_org_theory_catalog.md)
 - [How this lab studies algorithmacy](org_frontier/essays/studying_algorithmacy.md)
+- [Action self-test essay (throwaway)](org_frontier/essays/zzz_action_selftest.md)
 
 ### Programs, syntheses & the open agenda
 
