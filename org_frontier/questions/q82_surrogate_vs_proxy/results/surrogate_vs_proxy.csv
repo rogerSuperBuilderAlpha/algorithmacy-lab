@@ -1,0 +1,7 @@
+proxy,rank_auc,best_threshold_acc
+mediator_in_degree,0.7069,0.9062
+total_edges,0.9655,0.9375
+phi_r,0.6214,0.9219
+phi_wms,0.5469,0.9219
+learned_surrogate_cv,1.0000,1.0000
+surrogate_oof_indeg2_subset,,1.0000

@@ -1,0 +1,4 @@
+form,structure,sys_phi,major_complex
+contingent,dyadic,0.0,M|R
+always,triadic,2.0,E|M|R
+never,dyadic,0.0,E|M

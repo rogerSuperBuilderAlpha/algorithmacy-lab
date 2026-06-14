@@ -1,0 +1,8 @@
+form,party,shapley_value
+read_recipient,E,0.333
+read_recipient,M,1.333
+read_recipient,R,0.333
+with_spectator,E,0.167
+with_spectator,M,0.5
+with_spectator,R,0.167
+with_spectator,X,-0.833

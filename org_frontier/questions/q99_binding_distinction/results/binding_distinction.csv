@@ -1,0 +1,9 @@
+form,class,phi,dual_pair,dual_type,max_is_joint,spans_all
+read_recipient,triadic,2.0,True,mediated,True,True
+all_required_k2,triadic,3.0,True,mediated,True,True
+open_chain_d2,triadic,2.0,False,distributed,True,False
+ring_d2,triadic,4.0,False,symmetric,True,False
+market_all_required_N2,triadic,4.0,False,symmetric,True,False
+broadcast,dyadic,0.0,False,none,False,False
+one_shot,dyadic,0.0,False,none,False,False
+substitutable_k2,dyadic,0.0,False,distributed,False,False

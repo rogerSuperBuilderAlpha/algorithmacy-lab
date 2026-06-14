@@ -1,0 +1,17 @@
+label,s_index,w_index,c_index,commit_class,matched_live,complementary,rule_ok
+W1_S1_C1,1,1,1,symmetric,True,False,True
+W1_S7_C1,7,1,1,symmetric,True,False,True
+W1_S8_C1,8,1,1,symmetric,True,False,True
+W1_S14_C1,14,1,1,symmetric,True,False,True
+W1_S2_C2,2,1,2,implication,False,True,True
+W1_S4_C2,4,1,2,implication,False,True,True
+W1_S11_C2,11,1,2,implication,False,True,True
+W1_S13_C2,13,1,2,implication,False,True,True
+W2_S2_C1,2,2,1,implication,False,True,True
+W2_S4_C1,4,2,1,implication,False,True,True
+W2_S11_C1,11,2,1,implication,False,True,True
+W2_S13_C1,13,2,1,implication,False,True,True
+W2_S1_C2,1,2,2,symmetric,True,False,True
+W2_S7_C2,7,2,2,symmetric,True,False,True
+W2_S8_C2,8,2,2,symmetric,True,False,True
+W2_S14_C2,14,2,2,symmetric,True,False,True

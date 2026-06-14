@@ -1,0 +1,9 @@
+label,pairing,structure,max_phi,rung,at_mid
+W1_S4_C1,matched,triadic,0.415037,mid,True
+W1_S11_C1,matched,triadic,0.415037,mid,True
+W1_S4_C2,complementary,triadic,0.415037,mid,True
+W1_S11_C2,complementary,triadic,0.415037,mid,True
+W2_S4_C1,complementary,triadic,0.415037,mid,True
+W2_S11_C1,complementary,triadic,0.415037,mid,True
+W2_S4_C2,matched,triadic,0.415037,mid,True
+W2_S11_C2,matched,triadic,0.415037,mid,True

@@ -1,0 +1,12 @@
+form,party,shapley_value
+base_triad,E,0.333
+base_triad,M,1.333
+base_triad,R,0.333
+bidirectional_principal,E,0.417
+bidirectional_principal,M,1.75
+bidirectional_principal,R,0.417
+bidirectional_principal,P,0.417
+monitor_only_principal,E,0.167
+monitor_only_principal,M,0.5
+monitor_only_principal,R,0.167
+monitor_only_principal,P,-0.833

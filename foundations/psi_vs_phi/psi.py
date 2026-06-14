@@ -33,7 +33,12 @@ def _entropy_bits(p):
 
 
 def stationary_distribution(P, start=None, iters=20000, tol=1e-14):
-    """Stationary distribution of a state-by-state TPM by power iteration."""
+    """Stationary distribution of a state-by-state TPM by power iteration.
+
+    Deliberately separate from the state-by-node version in
+    ``foundations.candidate_audit.measures``: this one takes a state-by-state
+    matrix ``P`` directly and supports a warm start.
+    """
     n = P.shape[0]
     pi = np.full(n, 1.0 / n) if start is None else np.asarray(start, float)
     pi = pi / pi.sum()

@@ -1,0 +1,5 @@
+config,n_complexes,tiling
+disjoint,2,"{C,D}=2.0; {A,B}=2.0"
+shared_spectator,3,"{C,D}=2.0; {A,B}=2.0; {E}=1.0"
+one_way_bridge,2,"{C,D}=2.0; {A,B}=2.0"
+mutual_bridge,1,"{C,D}=2.0"

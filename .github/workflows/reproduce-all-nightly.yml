@@ -1,0 +1,36 @@
+name: reproduce-all-nightly
+
+# The full reproduce-the-numbers manifest, including slow checks (e.g. whole-space sweeps) that are too
+# heavy for the per-pull-request gate. Runs nightly and on demand. A red run means a published number
+# has drifted from its script.
+
+on:
+  schedule:
+    - cron: "0 7 * * *"  # daily at 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Reproduce every registered number
+        env:
+          PYPHI_WELCOME_OFF: "true"
+        run: python ci/reproduce.py

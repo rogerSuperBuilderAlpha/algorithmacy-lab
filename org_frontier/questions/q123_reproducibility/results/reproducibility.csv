@@ -1,0 +1,28 @@
+item,value
+build_commit,b78d0e342d37175cbd55cf35a6d52ae035b4c50f
+config.IIT_VERSION,4.0
+config.SYSTEM_PARTITION_TYPE,SET_UNI/BI
+config.REPERTOIRE_DISTANCE,GENERALIZED_INTRINSIC_DIFFERENCE
+config.CES_DISTANCE,SUM_SMALL_PHI
+config.SYSTEM_CUTS,3.0_STYLE
+config.SHORTCIRCUIT_SIA,True
+config.PARALLEL,False
+disagree_system_cuts,0
+disagree_shortcircuit,0
+disagree_parallel,0
+disagree_rerun,0
+alt_measures_tested,13
+alt_measures_admissible_nondegenerate,0
+alt.AID,"('error', 'TypeError', None)"
+alt.APMI,"('error', 'IndexError', None)"
+alt.BLD,"('error', 'TypeError', None)"
+alt.EMD,"('ran', 0.0, 'dyadic')"
+alt.ENTROPY_DIFFERENCE,"('error', 'TypeError', None)"
+alt.ID,"('error', 'TypeError', None)"
+alt.IIT_4.0_SMALL_PHI,"('error', 'IndexError', None)"
+alt.IIT_4.0_SMALL_PHI_NO_ABSOLUTE_VALUE,"('error', 'IndexError', None)"
+alt.KLD,"('error', 'TypeError', None)"
+alt.KLM,"('error', 'TypeError', None)"
+alt.L1,"('error', 'TypeError', None)"
+alt.MP2Q,"('error', 'TypeError', None)"
+alt.PSQ2,"('error', 'TypeError', None)"

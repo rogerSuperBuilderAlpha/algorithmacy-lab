@@ -1,0 +1,5 @@
+label,s_index,structure,max_phi,rung,at_mid
+W1_S4_C1,4,triadic,0.415037,mid,True
+W1_S11_C1,11,triadic,0.415037,mid,True
+W2_S4_C2,4,triadic,0.415037,mid,True
+W2_S11_C2,11,triadic,0.415037,mid,True

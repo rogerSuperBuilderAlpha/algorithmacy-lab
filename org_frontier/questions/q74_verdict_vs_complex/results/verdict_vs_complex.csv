@@ -1,0 +1,5 @@
+form,whole,whole_phi,core,core_phi,excluded_coupling
+disclosed,dyadic,0.0000,E|M|R,2.0000,D:read-only
+delegated,dyadic,0.0000,As|Ar,2.0000,E:emit-only;R:emit-only
+monitoring,dyadic,0.0000,E|M|R,2.0000,T:read-only
+chain,triadic,2.0000,A2|R,2.0000,E:uncoupled;A1:bidirectional

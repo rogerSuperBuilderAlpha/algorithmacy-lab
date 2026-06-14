@@ -624,6 +624,356 @@ Caveat: read on the major complex; a coupling sweep would test robustness beyond
 
 Thompson's three interdependence types do not line up with the verdict as cleanly as the names suggest. The ordering probe (135) finds pooled coordination dyadic at Φ=0 while sequential and reciprocal both reach Φ=2.0, so the predicted pooled<sequential<reciprocal step collapses at the top: sequential ties reciprocal. The pooled probe (136) locates the real switch. Two pools at the same size n=3 in the same AND family land on opposite verdicts, and the difference is joint determination: an independent-contribution pool stays dyadic with a {W,S} complex, while an all-required pool binds the triad at Φ=2.0. Probes 137 and 138 isolate what makes sequential and reciprocal forms triadic, and in both cases it is a single edge. A propagating chain with a return edge is triadic; an acyclic hand-off is dyadic. A feedback cycle is triadic; a form carrying bidirectional labels but no cycle is dyadic. The primitives probe (139) then refutes the obvious account. Four forms share the pair (joint-determination, feedback-cycle) = (True, True), three of them with identical connectivity matrices, yet they split across both verdicts, and the cycle predicate also fires on a dyadic pool. The Thompson type spans both verdicts, but the {joint-det, feedback-cycle} pair does not predict which verdict a form gets. The verdict turns on closed causal loops in the actual cause-effect structure, and the named types are too coarse to track them.
 
+### Question Q49 — mip_seam_mincut
+
+| # | Concept (Q49) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 140 | The canonical worker seam (H1) | The {W,SC} MIP is a tie, not a unique fault line | **confirmed** | The canonical triad (S=W∧C) has system Φ=2.0 with 4 tied MIPs: {W,SC}, {WS,C}, and the complete {W,S,C} twice. Seam set {W,C}, {S,WC} absent. PyPhi prints {W,SC} by the IIT-4.0 maximal-existence tie-break, not because the worker is unique. Refines #26. `probe_seam_tie.py` |
+| 141 | No worker-unique seam (H2) | No triadic strict-mediation form severs the worker alone | **confirmed** | All 24 triadic n=3 forms have (W in seam) iff (C in seam); 0 worker-unique violations. 16 conjunctive forms seam {W,C} (Φ=2.0); 8 parity forms empty seam (Φ=0.5, complete-partition MIP). Recovers #33's 67%/33% as a W/C-symmetric tie, not a worker seam. `probe_seam_family.py` |
+| 142 | Back-channel breaks the tie (H3) | A one-sided W←C read makes the seam unique | **refuted** | Worker-side back-channel W'=S∧C stays triadic but drops to Φ=1.0; seam set stays {W,C}. A one-sided wiring asymmetry lowers integration without breaking the seam tie. `probe_seam_break.py` |
+| 143 | Seam follows read direction (H4) | The broken seam falls on the party without the extra read | **refuted** | Worker-side channel seam {W,C}; counterpart-side channel seam {W,C}; symmetric two-sided channel Φ=6.0 with empty seam. The read direction changes Φ magnitude, not which parties the MIP severs. `probe_seam_direction.py` |
+| 144 | Seam vs connectivity min-cut (H5) | The Φ-seam is not the graph min-cut in general | **confirmed** | Φ-seam and graph min-cut disagree on 8/11 forms. Conjunctive and one-sided forms agree ({W,C}); all 8 parity forms have empty Φ-seam (complete-partition MIP) vs min-cut {W,C}. No min-cut theorem for the seam (answers agenda #49: no). Extends #54/#94/#106 from the verdict to the partition's location. `probe_seam_mincut.py` |
+
+## Reading across Q49 (probes 140–144)
+
+The worker is never the unique weakest seam of a triadic coordination form. Reading the full MIP tie set instead of the single representative PyPhi prints, the canonical triad turns out to have four tied minimum-information partitions, and the {W,SC} cut that #26 read as the worker's seam ties exactly with its mirror {WS,C} (140). Across the whole strict-mediation family the pattern holds without exception: all 24 triadic forms sever the worker and the counterpart on equal terms, the 16 conjunctive forms as a {W,SC}/{WS,C} tie and the 8 parity forms as a complete partition with no singleton seam (141). So #33's 67% cutting {W,SC} are 16 W/C-symmetric ties, and its 33% are the parity forms, neither of which singles the worker out. The symmetry survives a structural asymmetry: a one-sided back-channel makes the wiring asymmetric and halves Φ, yet the seam stays tied (142), and the side carrying the extra read does not move it (143). The seam is a property of the cause-effect structure, which stays symmetric in the two parties as long as the determination does, and every triadic form has balanced determination influence (#16). That is why a connectivity min-cut, which sees only edges, matches the seam on the symmetric conjunctive forms and fails on every parity form, where there is no singleton seam to find (144). Agenda #49 asked for a min-cut theorem placing the MIP at the least-coupled node; for this family there is none, and the graph underdetermines not only the verdict (#54, #94, #106) but the location of the partition.
+
+### Question Q45 — edge_floor_uniqueness
+
+| # | Concept (Q45) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 145 | Edge floor binds triads (H1) | All triadic strict-mediation forms sit at 4 edges | **confirmed** | All 24 triadic forms have exactly 4 edges (= 2(n−1)); 0 off-floor. Replicates #30 at family scale. `probe_edge_floor.py` |
+| 146 | AND-only max Phi (H2) | Only AND commits reach Phi=2.0 at the floor | **refuted** | 16 triadic forms at Phi=2.0; only 2 use S-index 1 (AND). Other 14 use monotone non-AND commits (OR 7, NOR 8, NAND 14, implications 2/4/11/13). Max-Phi at floor is monotone-class, not AND-specific. `probe_conjunctive_max.py` |
+| 147 | Parity ceiling at floor (H3) | Parity forms saturate Phi=0.5 at 4 edges | **confirmed** | All 8 XOR/XNOR triadic forms: 4 edges, Phi=0.5 = 2^(2−3); 0 off-ceiling. Parity shares the floor but not the high Phi budget. `probe_parity_floor.py` |
+| 148 | OR excluded (H4) | No OR-commit strict-mediation form is triadic | **refuted** | 2/16 OR forms triadic at Phi=2.0 (W1_S7_C1, W2_S7_C2); 14 dyadic. OR binds in strict mediation for a subset of party reads. `probe_or_strict.py` |
+| 149 | Global AND-only max (H5) | Every 4-edge triadic Phi=2.0 form is strict-mediation AND | **refuted** | 312 triadic at 4 edges in 4096 space; 192 at Phi=2.0; only 2 strict-mediation AND; 190 counterexamples. The global max-Phi floor is not conjunctive-hub-unique. `probe_global_floor.py` |
+
+## Reading across Q45 (probes 145–149)
+
+Agenda #48 asked whether the conjunctive hub is the unique form achieving its Phi at the 2(n−1) edge floor. The floor itself is universal: every triadic strict-mediation form sits at exactly four edges (145), confirming #30. What is not unique is which commit saturates which Phi budget at that floor. All eight parity forms reach their class ceiling at Phi=0.5 on the same four edges (147), while sixteen monotone forms reach Phi=2.0 — but only two of those sixteen are AND commits; the rest include OR, NOR, NAND, and implication variants (146). OR is not categorically excluded: two of sixteen OR-labelled forms bind triadically at Phi=2.0 (148). In the full 4096 wiring space, 192 triadic forms at four edges reach Phi=2.0, and 190 lie outside strict-mediation AND (149). Uniqueness at the edge floor is a class property — monotone versus parity — not a property of the AND hub alone. The conjunctive scaling law (#116) describes the strongest monotone route, not the only commit that saturates the high ceiling at lean wiring.
+
+### Question Q50 — or_triadic_seam
+
+| # | Concept (Q50) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 150 | Matched party reads (H1) | OR binds iff W and C share the same non-constant read of S | **confirmed** | 2/16 OR forms triadic (W1_S7_C1, W2_S7_C2); matched-live predicate (iw=ic in {1,2}) has 0 false positives and 0 false negatives. `probe_or_matched.py` |
+| 151 | Constant reads (H2) | Constant party reads block OR binding | **confirmed** | 12/16 OR forms have iw or ic in {0,3}; 0 triadic among them. `probe_or_constant.py` |
+| 152 | Asymmetric reads (H3) | Mismatched party reads collapse OR | **confirmed** | 12/16 OR forms have iw != ic; 0 triadic among asymmetric forms. `probe_or_asymmetric.py` |
+| 153 | Seam tie (H4) | Binding OR forms share the canonical {W,C} seam | **confirmed** | W1_S7_C1 and W2_S7_C2 both triadic at max_phi=2.0; seam set {W,C} matches instrument control. `probe_or_seam.py` |
+| 154 | Commit symmetry (H5) | Symmetric commits need matched reads; implications need complementary | **confirmed** | 16 monotone Phi=2.0 forms: 8 symmetric (AND/OR/NOR/NAND) on matched diagonal; 8 implications on complementary anti-diagonal; 0 violations. `probe_commit_symmetry.py` |
+| 155 | Matched Phi=2.0 (H1) | Worker back-channel lifts matched implication to Phi=2.0 | **partial** | 0/8 matched-read implication forms reach Phi=2.0 with worker-side W'=f_W(S)&C; 6/8 triadic below ceiling (max 0.830075). `probe_impl_phi2_matched.py` |
+| 156 | Matched triadic (H2) | Worker back-channel makes most matched implication triadic | **confirmed** | 6/8 matched-read implication forms triadic with worker-side back-channel; magnitudes 0.830075 or 0.415037. `probe_impl_triadic_matched.py` |
+| 157 | Strict control (H3) | Matched implication dyadic without back-channel | **confirmed** | 0/8 matched-read implication forms triadic under strict mediation (all Phi=0). `probe_impl_strict_control.py` |
+| 158 | Complementary preserve (H4) | Back-channel keeps complementary implication at Phi=2.0 | **partial** | 8/8 complementary forms stay triadic with back-channel but all drop below Phi=2.0 (0.830075 or 0.415037). `probe_impl_complementary_preserve.py` |
+| 159 | Symmetric unify (H5) | Two-sided back-channel unifies matched implication binding | **confirmed** | 8/8 matched-read implication forms triadic at uniform max_phi=0.830075 with six edges under symmetric W'=f_W(S)&C, C'=f_C(S)&W. `probe_impl_symmetric_unify.py` |
+
+## Reading across Q50 (probes 150–154)
+
+Probe #148 left two OR-labelled forms binding at Phi=2.0 without explaining why fourteen siblings collapsed. The party-read structure is the separator. Both binding forms use matched non-constant reads of S — W'=S/C'=S for W1_S7_C1, W'=NOT S/C'=NOT S for W2_S7_C2 (150) — while constant reads (151) and asymmetric identity/NOT pairings (152) always stay dyadic. The binding pair reaches the same Phi=2.0 and {W,C} seam tie as the canonical conjunctive triad (153), so OR at the floor is not a distinct integration geometry. The rule splits by commit symmetry (154): commutative monotone functions (AND, OR, NOR, NAND) require matched party reads; implication commits require complementary reads instead. OR is not uniquely permissive — it is one of four symmetric commits sharing the matched-read rule, with only two of sixteen party-read combinations satisfying it.
+
+## Reading across Q51 (probes 155–159)
+
+Probe #154 left back-channel coupling untested. A minimal worker-side back-channel does not let matched-read implication forms reach Phi=2.0 (155 partial): zero of eight hit the ceiling though six bind triadically below it (156). Strict mediation keeps all eight matched forms dyadic (157), so the back-channel is load-bearing for verdict but not for ceiling strength. The same one-sided edge grades every complementary-read implication form down from Phi=2.0 while preserving triadicity (158 partial). A symmetric two-sided back-channel is sharper: all eight matched forms collapse to a single shared Phi=0.830075 (159), erasing the commit-index ladder that one-sided wiring leaves. The Q50 party-read rule stands at full strength; matched implication reads can bind only after coupling is added and only below the four-edge ceiling, unless the channel is symmetric on both sides.
+
+### Question Q52 — phi_ladder_mechanism
+
+| # | Concept (Q52) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 160 | W-centric polarity (H1) | S'(1,0) vs party-read index predicts high vs dyadic rung | **confirmed** | 4/4 W-centric matched forms: high (0.830075) iff S'(1,0) != (iw=2); zero mismatches. W1_S2_C1, W2_S13_C2 high; W1_S13_C1, W2_S2_C2 dyadic. `probe_wcentric_polarity.py` |
+| 161 | C-centric plateau (H2) | C-centric commits {4,11} always mid rung | **confirmed** | 4/4 C-centric matched forms triadic at 0.415037. `probe_ccentric_plateau.py` |
+| 162 | Mid invariant (H3) | Mid rung independent of party-read pairing | **confirmed** | 8/8 forms with s in {4,11} at 0.415037 (four matched, four complementary). `probe_mid_invariant.py` |
+| 163 | Symmetric lift (H4) | Two-sided channel lifts dyadic W-centric forms | **confirmed** | W1_S13_C1 and W2_S2_C2: one-sided dyadic -> symmetric triadic at 0.830075. `probe_symmetric_lift.py` |
+| 164 | Symmetric collapse (H5) | Symmetric panel unifies at one-sided high rung | **confirmed** | 8/8 matched symmetric forms triadic at uniform 0.830075; spread 0. `probe_symmetric_collapse.py` |
+
+## Reading across Q52 (probes 160–164)
+
+Q51 (#156) documented the ladder without naming its predictor. The mechanism is commit-class structure.
+W-centric implication commits {2,13} split by party-read polarity at the distinguishing state W=1,C=0:
+the high rung 0.830075 arrives when S'(1,0) differs from the negated-read flag (iw=2), and integration
+fails when they align (160). C-centric commits {4,11} never reach the high rung under one-sided wiring;
+all four matched and all four complementary forms share the mid plateau 0.415037 (161, 162). Symmetric
+two-sided coupling lifts the two dyadic W-centric mismatches and pulls the C-centric mid forms to the same
+0.830075 equilibrium (163, 164). Ladder collapse tracks restored bilateral outer-party coupling: one-sided
+channels leave commit-class-specific partial integration; symmetric channels reach the equilibrium probe #77
+graded on conjunctive triads.
+
+### Question Q53 — impl_phi_ceiling
+
+| # | Concept (Q53) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 165 | Counterpart AND ceiling (H1) | Counterpart-side AND restores Phi=2.0 | **partial** | 0/8 matched implication forms at Phi=2.0 with counterpart AND; 6/8 triadic below (max 0.830075). Ladder mirrors worker-side AND with W/C roles exchanged. `probe_counterpart_and_ceiling.py` |
+| 166 | Worker OR ceiling (H2) | OR-graded worker channel restores Phi=2.0 | **partial** | 0/8 at Phi=2.0 with worker OR; 6/8 triadic below (max 0.830075). Weaker OR gate does not recover ceiling. `probe_worker_or_ceiling.py` |
+| 167 | XOR exceeds equilibrium (H3) | XOR gates exceed 0.830075 | **confirmed** | 16/24 XOR pairs exceed 0.830075; symmetric_xor reaches Phi=2.0 on all 8 matched forms. `probe_xor_exceed_equilibrium.py` |
+| 168 | AND/OR/cross sweep (H4) | No conjunctive-style topology restores Phi=2.0 | **confirmed** | 0/64 pairs at Phi=2.0 across 8 AND/OR/cross topologies x 8 matched forms. `probe_topology_sweep_phi2.py` |
+| 169 | Supremum characterization (H5) | Global supremum is 0.830075 | **refuted** | Global max Phi=2.0 via XOR (16 argmax pairs); symmetric-AND uniform at 0.830075 (8/8, spread 0). Conjunctive supremum 0.830075; overall supremum 2.0. `probe_supremum_characterization.py` |
+
+## Reading across Q53 (probes 165–169)
+
+Q51–Q52 left 0.830075 as the apparent ceiling for matched-read implication under back-channel coupling.
+The topology-and-gate sweep splits that story. Conjunctive-style channels — AND, OR, and mixed cross
+combinations — never restore Phi=2.0 (168); their supremum stays 0.830075, saturated by symmetric-AND on
+all eight matched forms (169 partial). Counterpart-AND (165) and worker-OR (166) grade differently but
+still cap below the four-edge ceiling. XOR parity gates break the bound: symmetric_xor reaches Phi=2.0 on
+every matched form (167), and one-sided XOR reaches 2.0 on four of eight by commit class — worker_xor on
+C-centric {4,11}, counterpart_xor on W-centric {2,13}. The 0.830075 equilibrium is the absolute maximum
+for conjunctive outer-party coupling only; parity coupling restores the strict-mediation ceiling that
+matched reads cannot reach at the four-edge floor without a channel.
+
+### Question Q54 — xor_parity_mechanism
+
+| # | Concept (Q54) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 170 | Gate bijectivity (H1) | Bijective channel gates separate Phi=2.0 from monotone caps | **confirmed** | 32/32 Phi=2.0 pairs bijective; 0 non-bijective at ceiling; 16 bijective below ceiling. `probe_gate_bijectivity.py` |
+| 171 | TPM permutation (H2) | Global TPM permutation accompanies Phi=2.0 | **refuted** | 24/24 Phi=2.0 pairs non-permutation TPM; 0/8 symmetric-AND permutation. `probe_tpm_permutation.py` |
+| 172 | Seam entropy (H3) | H(W,C\|S) peaks at XOR Phi=2.0 pairs | **confirmed** | Mean H xor=1.811497 vs and=0.902747; delta=0.908749 bits; 8/8 xor>and. `probe_seam_entropy.py` |
+| 173 | Commit alignment (H4) | One-sided Phi=2.0 requires commit-topology match | **confirmed** | 0 misalignments; worker_xor 4/8 (C-centric); counterpart_xor 4/8 (W-centric); symmetric_xor 8/8. `probe_commit_alignment.py` |
+| 174 | Parity necessity (H5) | Only parity-class gates restore Phi=2.0 | **confirmed** | 0/64 monotone at ceiling; symmetric_xnor 8/8 at Phi=2.0. `probe_parity_necessity.py` |
+
+## Reading across Q54 (probes 170–174)
+
+Q53 (#167, #169) restored Phi=2.0 via XOR without naming the load-bearing structure. Channel-gate
+bijectivity in the coupled bit is necessary: every ceiling pair uses XOR or XNOR, and no monotone gate
+reaches 2.0 (170, 174). Bijectivity alone is insufficient — sixteen one-sided parity pairs stay below the
+ceiling. Global TPM permutation is not required: all twenty-four checked Phi=2.0 parity pairs have
+non-permutation dynamics (171 refuted). Seam conditional entropy H(W,C|S) rises under symmetric_xor to
+1.811497 bits versus 0.903 for symmetric-AND, a 0.909-bit gap on all eight forms (172). One-sided
+restoration tracks commit-class alignment: worker_xor on C-centric {4,11}, counterpart_xor on W-centric
+{2,13} (173). The mechanism is local parity bijectivity plus elevated seam distinguishability, gated by
+topology-commit alignment — not whole-system permutation.
+
+### Question Q55 — bijective_discriminator
+
+| # | Concept (Q55) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 175 | Misaligned partition (H1) | Below-ceiling bijective pairs are misaligned one-sided only | **confirmed** | 16/16 below misaligned one-sided; 0 below symmetric; 0 below aligned; 32 ceiling (16 one-sided + 16 symmetric). `probe_misaligned_partition.py` |
+| 176 | Mid-rung uniform (H2) | Below half at 0.415037; ceiling at 2.0 | **confirmed** | 16/16 below at 0.415037 (spread 0); 32/32 ceiling at 2.0 (spread 0). `probe_mid_rung_uniform.py` |
+| 177 | Seam entropy split (H3) | Mean H(W,C\|S) lower on below half | **confirmed** | Mean H below=1.494161 vs ceiling=1.630633; delta=0.136472 bits; 384/512 pair-wise below<ceiling. `probe_seam_entropy_split.py` |
+| 178 | MIP S-singleton (H4) | Below half at MIP {S,WC} exclusively | **confirmed** | 16/16 below at `2 parts: {S,WC}`; 0/32 ceiling at that partition. `probe_mip_singleton.py` |
+| 179 | XNOR alignment flip (H5) | XNOR inverts one-sided alignment vs XOR | **confirmed** | 0 XNOR ceiling misalignments; worker_xnor 4/4 W-centric; counterpart_xnor 4/4 C-centric; XOR aligned 8/8 at ceiling. `probe_xnor_alignment_flip.py` |
+
+## Reading across Q55 (probes 175–179)
+
+Q54 (#170) left sixteen bijective parity pairs below Phi=2.0 without a complete partition rule. The
+forty-eight bijective pairs split into two disjoint classes. Every below-ceiling pair is a misaligned
+one-sided topology at the Q52 mid rung 0.415037 with MIP mediator singleton `{S,WC}` and lower seam
+entropy (175, 176, 177, 178). Every ceiling pair is symmetric or commit-aligned one-sided at Phi=2.0 with
+outer-party or complete MIP cuts. XNOR inverts the one-sided alignment polarity relative to XOR without
+breaking the partition: worker_xnor ceiling hits require W-centric commits, counterpart_xnor require
+C-centric — the complement of the XOR rule from Q54 #173 (179). Bijectivity remains necessary; the
+discriminator is sidedness-alignment geometry plus MIP seam class, not gate invertibility alone.
+
+### Question Q56 — symmetric_complete_mip
+
+| # | Concept (Q56) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 180 | Complete-only tie (H1) | Symmetric ceiling has complete-only official tie set | **confirmed** | 16/16 symmetric at `3 parts: {W,S,C}` only; 0/16 with outer-party in ties. `probe_complete_only_tie.py` |
+| 181 | One-sided dual tie (H2) | One-sided ceiling ties one outer-party cut with complete | **confirmed** | 16/16 one-sided with exactly one outer-party two-part plus complete in official ties. `probe_one_sided_outer_tie.py` |
+| 182 | Directional symmetry (H3) | Directional W/C symmetry distinguishes topology classes | **confirmed** | 16/16 symmetric directionally symmetric; 0/16 one-sided. `probe_directional_symmetry.py` |
+| 183 | Dual outer excluded (H4) | Both outer-party cuts at system Phi but excluded on symmetric | **confirmed** | 16/16 symmetric with both `{W,SC}` and `{WS,C}` at system Phi; 0/16 outer-party in official ties. `probe_dual_outer_excluded.py` |
+| 184 | Min norm tie-break (H5) | Minimum normalized_phi predicts official tie set | **confirmed** | 32/32 ceiling pairs match min-norm prediction; 0 mismatches. `probe_min_norm_tiebreak.py` |
+
+## Reading across Q56 (probes 180–184)
+
+Q55 (#178) left the symmetric-vs-one-sided MIP split documented but unexplained. Symmetric bijective parity
+coupling restores full directional W/C symmetry (182). Both outer-party two-part cuts reach system Phi on
+every symmetric pair, yet IIT-4.0 tie-break admits only the complete partition into the official tie set
+because outer-party cuts carry higher normalized_phi (183, 184). One-sided aligned pairs break directional
+symmetry; one outer-party cut shares the minimum normalized_phi with complete and co-enters the tie set
+(181). The printed MIP first line follows that tie set: complete-only on symmetric pairs (180), one
+outer-party singleton seam plus complete on one-sided pairs. The mechanism is partition-landscape
+tie-breaking under restored bilateral symmetry, not a separate complete-partition forcing rule.
+
+### Question Q57 — channel_direction_mip
+
+| # | Concept (Q57) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 185 | Recipient seam rule (H1) | Back-channel recipient determines tied singleton | **confirmed** | 16/16 recipient matches tied cut; worker→{W,SC}, counterpart→{WS,C}. `probe_recipient_seam_rule.py` |
+| 186 | Dual norm split (H2) | Dual at-system outer cuts with 0.5/1.0 norm split | **confirmed** | 16/16 both outer at system Phi; tied norm 0.5, excluded 1.0. `probe_dual_norm_split.py` |
+| 187 | Norm ratio (H3) | Excluded/tied normalized_phi ratio exactly 2.0 | **confirmed** | 16/16 at ratio 2.0; spread 0. `probe_norm_ratio.py` |
+| 188 | Complete norm equal (H4) | Complete min norm equals tied outer cut | **confirmed** | 16/16 complete norm equals tied outer (0.5). `probe_complete_norm_equal.py` |
+| 189 | Gate-invariant direction (H5) | XOR/XNOR preserve recipient→singleton mapping | **confirmed** | 8/8 worker at {W,SC}; 8/8 counterpart at {WS,C}. `probe_gate_invariant_direction.py` |
+
+## Reading across Q57 (probes 185–189)
+
+Q56 (#181, #184) left the one-sided dual tie and min-norm rule documented without a directional mechanism.
+The back-channel recipient — the outer party whose update rule gains the extra incoming cross-edge — always
+determines which singleton seam co-enters the official tie set with complete (185). Both outer-party cuts
+reach system Phi on every aligned one-sided pair; the recipient-singleton cut carries minimum normalized_phi
+0.5, the non-recipient cut carries 1.0, and the ratio is exactly two-to-one with zero spread (186, 187).
+Complete shares the 0.5 minimum, which explains its co-entry (188). XOR and XNOR gate polarity preserve
+the same recipient→singleton mapping (189). Direction fixes the favored seam through partition
+normalization on the recipient singleton, not through gate bijectivity or commit alignment alone.
+
+### Question Q58 — normalization_cut_geometry
+
+| # | Concept (Q58) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 190 | Severed-edge ratio (H1) | Recipient severs twice as many cut-matrix ones | **confirmed** | 16/16 cut_ones ratio 2.0 (4 vs 2); spread 0. `probe_severed_edge_ratio.py` |
+| 191 | Norm factor ratio (H2) | Excluded/tied normalization_factor ratio 2.0 | **confirmed** | 16/16 ratio 2.0 (0.5 vs 0.25); spread 0. `probe_norm_factor_ratio.py` |
+| 192 | Equal phi baseline (H3) | Unnormalized phi identical on both outer cuts | **confirmed** | 16/16 phi ratio 1.0 (both 2.0). `probe_equal_phi_baseline.py` |
+| 193 | Complete cut match (H4) | Complete shares recipient cut geometry | **confirmed** | 16/16 cut_ones=4 and norm_factor=0.25 match. `probe_complete_cut_match.py` |
+| 194 | Inverse cut law (H5) | norm_phi ratio equals cut_ones ratio | **confirmed** | 16/16 identity holds (ratio 2.0). `probe_inverse_cut_law.py` |
+
+## Reading across Q58 (probes 190–194)
+
+Q57 (#187) left the two-to-one normalized_phi ratio documented without inspecting the normalization
+denominator. The ratio follows from IIT-4.0 `NUM_CONNECTIONS_CUT` on min-norm at-system-Phi partition
+representatives. Both outer cuts carry unnormalized phi=2.0; the recipient singleton severs four
+cut-matrix connections, the non-recipient severs two (190). Normalization_factor is 0.25 on the recipient
+and 0.5 on the non-recipient, producing normalized_phi 0.5 and 1.0 (191). Unnormalized phi asymmetry does
+not drive the split (192). Complete co-enters the tie set because its min-norm representative shares the
+recipient's four-connection cut geometry (193). The normalized_phi ratio equals the inverse cut-ones ratio
+on every pair (194).
+
+### Question Q59 — directed_cut_edges
+
+| # | Concept (Q59) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 195 | Cross-edge shared (H1) | Back-channel cross-edge severed in both outer cuts | **confirmed** | 16/16 cross-edge in both tied and excluded sets; 0 exclusive. `probe_cross_edge_shared.py` |
+| 196 | Symdiff size (H2) | Symmetric difference exactly four directed edges | **confirmed** | 16/16 at |only_tied|=3, |only_excl|=1. `probe_symdiff_size.py` |
+| 197 | Cross subtract (H3) | Removing cross-edge equalizes severed counts | **refuted** | 0/16 equal; adj 3 vs 1 on all pairs. `probe_cross_subtract_equal.py` |
+| 198 | Mediator-only diff (H4) | Two mediator edges in recipient-only difference | **confirmed** | 16/16 mediator count 2; adj ratio 3.0, spread 0. `probe_mediator_only_diff.py` |
+| 199 | Recipient template (H5) | Worker/counterpart edge templates gate-invariant | **confirmed** | 8/8 worker and 8/8 counterpart match fixed templates. `probe_recipient_template.py` |
+
+## Reading across Q59 (probes 195–199)
+
+Q58 (#190) counted severed connections without naming directed edges. The back-channel cross-edge is
+severed in both the recipient and non-recipient min-norm cuts on every pair (195). The symmetric difference
+is exactly four directed edges—three only in the recipient cut, one only in the non-recipient cut (196).
+Subtracting the shared cross-edge leaves a 3-versus-1 gap; cross-edge placement alone does not account for
+the 4-versus-2 split (197 refuted). Exactly two mediator-incident edges sit in the recipient-only
+difference, fixing the adjusted ratio at 3.0 (198). Worker and counterpart recipient classes carry fixed
+edge templates preserved under XOR and XNOR (199). The Q51–Q58 cut-geometry thread closes here: mediator
+severance in the recipient-only difference is the residual source of partition asymmetry beyond the shared
+cross-edge.
+
+### Question Q60 — thompson_backchannel
+
+| # | Concept (Q60) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 200 | Return-path recipient (H1) | Q43 return-path typing tracks back-channel recipient | **confirmed** | 8/8 worker→sequential, 8/8 counterpart→reciprocal; 0 other. `probe_return_path_tracks_recipient.py` |
+| 201 | Uniform triadic (H2) | All ceiling pairs triadic at max_phi=2.0 | **confirmed** | 16/16 triadic; max_phi spread 0. `probe_uniform_triadic_verdict.py` |
+| 202 | Cycle collapse (H3) | Feedback-cycle predicate assigns all reciprocal | **confirmed** | 16/16 cycle=True; 0 sequential by cycle. `probe_cycle_collapse.py` |
+| 203 | Type tracks template (H4) | Return-path type aligns with Q59 edge template | **confirmed** | 16/16 template match; 8/8 each subpanel. `probe_type_tracks_template.py` |
+| 204 | No Phi split (H5) | Sequential/reciprocal subpanels identical at verdict | **confirmed** | Both subpanels triadic mean 2.0 spread 0. `probe_no_phi_discrimination.py` |
+
+## Reading across Q60 (probes 200–204)
+
+Q59 (#198, #199) fixed recipient-class mediator-severance templates without reconnecting to Q43 Thompson
+interdependence. Q43 (#135–#139) showed sequential/reciprocal splits turn on return path and feedback cycle on
+the baseline triple. On sixteen aligned one-sided back-channel forms all held at triadic max_phi=2.0, return-path
+typing and recipient templates are the same partition (200, 203): worker halves sequential with worker edge
+template, counterpart halves reciprocal with counterpart template. The IIT verdict offers no
+sequential-vs-reciprocal discrimination (201, 204). Q43's feedback-cycle predicate assigns every form
+reciprocal (202), so cycle presence alone cannot track the recipient split return-path typing preserves.
+Interdependence typing survives at partition-template level after the back-channel raises every form to the
+triadic ceiling; it collapses at the verdict and cycle-predicate levels.
+
+### Question Q61 — seam_return_typing
+
+| # | Concept (Q61) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 205 | Seam-type bijection (H1) | Official singleton seam tracks return-path type | **confirmed** | W seam+sequential 8/8; C seam+reciprocal 8/8; matches 16/16. `probe_seam_tracks_type.py` |
+| 206 | Co-extensive partitions (H2) | Seam and type induce identical 8+8 partition | **confirmed** | partition equality 16/16; both labels 8+8. `probe_coextensive_partitions.py` |
+| 207 | Seam not finer (H3) | No within-type seam heterogeneity | **confirmed** | heterogeneity 0/16; seq+C seam 0/8; rec+W seam 0/8. `probe_seam_not_finer.py` |
+| 208 | Seam not coarser (H4) | No within-seam type heterogeneity | **confirmed** | heterogeneity 0/16; W seam+rec 0/8; C seam+seq 0/8. `probe_seam_not_coarser.py` |
+| 209 | Verdict recovery (H5) | Seam subpanels match type despite uniform max_phi | **confirmed** | spread 0.000000; W-seam=seq 8/8; C-seam=rec 8/8. `probe_seam_recover_discrimination.py` |
+
+## Reading across Q61 (probes 205–209)
+
+Q60 (#200, #204) showed recipient→return-path type and uniform max_phi with no subpanel discrimination.
+Q57 (#185) showed recipient→singleton seam on the same panel. Direct cross-tabulation confirms perfect
+seam↔type co-extensiveness (205, 206): W singleton ({W,SC}) iff sequential, C singleton ({WS,C}) iff
+reciprocal. Seam is neither strictly finer nor coarser than return-path type (207, 208). The official
+singleton seam recovers the sequential/reciprocal partition max_phi loses (209) without adding information
+beyond return-path typing. Recipient party remains the common cause; seam and type are redundant encodings
+of the same two-way partition at the verdict level.
+
+### Question Q62 — excluded_cut_signal
+
+| # | Concept (Q62) | Hypothesis | Verdict | Result |
+|---|---|---|---|---|
+| 210 | Excluded complement (H1) | Excluded singleton is complement of tied | **confirmed** | complement matches 16/16; mismatches 0/16. `probe_excluded_complement.py` |
+| 211 | Inverse type track (H2) | Excluded inversely tracks return-path type | **confirmed** | inverse 16/16; direct 0/16. `probe_inverse_type_track.py` |
+| 212 | Tied determines excluded (H3) | Excluded unique within each tied class | **confirmed** | within-tied heterogeneity 0/16. `probe_tied_determines_excluded.py` |
+| 213 | No third joint (H4) | Triple collapses to exactly two joint cells | **confirmed** | distinct joints 2; (W,seq,C) 8/8; (C,rec,W) 8/8. `probe_no_third_joint.py` |
+| 214 | Excluded norm uniform (H5) | Excluded norm 1.0 with no Phi subpanel lift | **confirmed** | norm 16/16; excluded-W/C spread 0. `probe_excluded_norm_phi.py` |
+| 215 | Outreach: read-recipient vs broadcast (Q63 H1) | Reading the recipient makes outreach triadic; broadcast is dyadic | **confirmed** | read_recipient triadic Φ=2.0; broadcast dyadic Φ=0. `q63/probe_read_recipient.py` |
+| 216 | Outreach: substitutable recipients (Q63 H2) | Interchangeable recipients collapse the triad | **confirmed** | all_required triadic Φ=3.0; substitutable (E∧(R1∨R2)) dyadic Φ=0. `q63/probe_substitutable.py` |
+| 217 | Outreach: disclosure is a label (Q63 H3) | Announcing the agent does not change the structure | **confirmed** | disclosed major complex {E,M,R} Φ=2.0, D excluded, = read-recipient triad. `q63/probe_disclosure.py` |
+| 218 | Outreach: cost proxy fails (Q63 H4) | Mediator in-degree does not recover the verdict | **confirmed** | substitutable (dyadic) reads 3 sources ≥ read_recipient (triadic) 2; proxy non-monotone. `q63/probe_cost_proxy.py` |
+| 219 | Outreach: liveness carries the verdict (Q63 H5) | A read-but-frozen recipient leaves outreach dyadic | **confirmed** | conversation (R live) triadic Φ=2.0; one_shot (R frozen) dyadic Φ=0. `q63/probe_liveness.py` |
+| 220 | Outreach breadth: all-required scaling (Q64 H1) | All-binding campaign stays triadic at Φ=n−1 as recipients grow | **confirmed** | k=1..4 (n=3..6) triadic, Φ=2,3,4,5 = n−1. Conjunctive-hub law in the outreach frame. `q64/probe_all_required_scaling.py` |
+| 221 | Outreach breadth: substitutable scaling (Q64 H2) | A substitutable campaign factors at every breadth | **confirmed** | k=2,3,4 dyadic Φ=0. `q64/probe_substitutable_scaling.py` |
+| 222 | Outreach breadth: pooled broadcast (Q64 H3) | A broadcast that ignores recipients factors at every breadth | **confirmed** | k=2,3,4 dyadic Φ=0. `q64/probe_pooled_broadcast.py` |
+| 223 | Outreach breadth: one substitutable recipient (Q64 H4) | One swappable recipient collapses an otherwise all-binding campaign | **confirmed** | k=3 mixed E∧R1∧(R2∨R3) dyadic; all-required Φ=4.0 triadic. `q64/probe_mixed_collapse.py` |
+| 224 | Outreach breadth: core membership (Q64 H5) | Every recipient sits in the irreducible core | **confirmed** | all-required core {E,M,R1..Rk} full at k=2,3. `q64/probe_core_membership.py` |
+| 225 | Agent-chain outreach: depth (Q65 H1/H2) | Agent chain stays triadic at Φ=2.0 constant across depth | **confirmed** | d=1..4 (n=3..6) triadic, Φ=2.0 at every depth (depth preserves, vs breadth n−1). `q65/probe_chain_depth.py` |
+| 226 | Agent-chain outreach: relay gap (Q65 H3) | An agent reading only upstream collapses the chain | **confirmed** | intact triadic Φ=2.0; relay-gap dyadic Φ=0. `q65/probe_relay_gap.py` |
+| 227 | Agent-chain outreach: core localizes (Q65 H4) | The chain core is the recipient end, not the whole chain | **refuted** | d=2 major complex {A2,R} Φ=2.0, not {E,A1,A2,R}; sender + upstream agent feed the core without joining it. `q65/probe_chain_core.py` |
+| 228 | Agent-chain outreach: depth atop breadth (Q65 H5) | Depth does not undo breadth | **confirmed** | agent before all-binding 2-recipient commit triadic Φ=2.0. `q65/probe_depth_breadth.py` |
+| 229 | Chain core boundary: end pair across depth (Q66 H1/H2) | Open-chain core is a size-2 end pair, symmetric not recipient-biased | **H1 refuted, H2 confirmed** | core size 2 at d=2,3,4; {A2,R},{A3,R} but {E,A1} at d=4 — revises Q65's recipient-facing reading to a tie-break. `q66/probe_chain_core_depth.py` |
+| 230 | Chain core boundary: closed ring (Q66 H3/H4) | Closing the chain into a loop binds the whole structure | **confirmed** | conjunctive ring core = full set, Φ=4.0 vs open chain 2.0. `q66/probe_ring_core.py` |
+| 231 | Reciprocity gradient (Q67 H1-H4) | Partial reciprocity seeds a local core but full coupling binds the exchange | **H2 refuted, H1/H3/H4 confirmed** | L0 relay dyadic; L1 one end-loop whole-system dyadic Φ=0 (local {A2,R} complex Φ=2.0); core jumps 2→4 at closure; Φ monotone 0<2<4. `q67/probe_reciprocity_gradient.py` |
+| 232 | Recipient-side triage agent (Q68 H1-H4) | A triage agent joins the core only when bidirectionally coupled, and displaces the sender | **confirmed** | monitoring-only & gating-only T out (core {E,M,R}); bidirectional T in, core {M,R,T} (sender displaced), all Φ=2.0. `q68/probe_triage_gating.py` |
+| 233 | Two-sided agent exchange (Q69 H1-H4) | When both sides delegate, the irreducible core is the two agents | **confirmed** | live chain core {Ar,R} (human in core); delegated core {As,Ar} (both humans displaced) Φ=2.0; closed ring all four Φ=4.0. `q69/probe_two_sided.py` |
+| 234 | Agent substitutability (Q70 H1-H4) | Multi-homing across interchangeable agents collapses the coordination | **confirmed** | single agent triadic Φ=2.0; substitutable (M1∨M2) dyadic Φ=0; required-both (M1∧M2) triadic Φ=4.0, core {E,M1,M2,C}. `q70/probe_agent_substitutability.py` |
+| 235 | Noise robustness (Q71 H1-H4) | The outreach verdict is robust to stochastic noise | **confirmed** | triad Φ degrades 2.0→1.53→1.16→0.61→0.28→0 as eps 0→0.5; broadcast stays 0 (no spurious triad). `q71/probe_noise_robustness.py` |
+| 236 | Cost/proxy frontier (Q72 H1-H4) | No cheap structural proxy recovers the outreach verdict | **confirmed** | read_recipient(tri)+one_shot(dy) share in-degree 2 & 4 edges; substitutable(dy)+all_required(tri) share in-degree 3 & 6 edges; verdict needs exact Φ. `q72/probe_cost_proxy_frontier.py` |
+| 237 | Outreach-coordination law (Q73 synthesis) | The five-pillar law of when agent-mediated outreach demands algorithmacy | **confirmed** | P1 joint determination, P2 liveness, P3 non-substitutability, P4 closure binds all (ring Φ=4.0), P5 structural-not-cheap — all hold. `q73/probe_law_pillars.py` |
+| 238 | Verdict vs maximal complex (Q74 H1-H4) | A connectivity check on excluded elements selects which verdict to report | **confirmed** | spectator/frozen forms whole-dyadic + core-triadic (excluded non-bidirectional); chain whole-triadic + localized core (excluded A1 bidirectional); excluded bidirectional iff whole-system triadic. `q74/probe_verdict_vs_complex.py` |
+| 239 | Spectator robustness (Q75 H1-H4) | The triadic core is stable under added non-participating parties | **confirmed** | core stays {E,M,R} Φ=2.0 with 1-3 uncoupled, a read-only, and an emit-only spectator. `q75/probe_spectator_robustness.py` |
+| 240 | Stochastic threshold (Q79 H1-H4) | The triad emerges gradually with the agent's probability of reading the recipient | **confirmed** | Φ 0→0.11→0.28→0.54→2.0 as p 0→1; partial reading already gives Φ>0; graded, no threshold. `q79/probe_stochastic_threshold.py` |
+| 241 | Asynchronous update (Q80 H1-H4) | The dyadic/triadic verdict survives asynchronous update | **confirmed** | read_recipient & all_required stay triadic (Φ 2.0→0.25, 3.0→0.20); broadcast stays dyadic; verdict preserved, magnitude falls. `q80/probe_async_update.py` |
+| 242 | Recipient-side gating coalition (Q83) | A gating coalition keeps a size-3 core; only one of two required agents enters | **H1 refuted, H2-H4 confirmed** | both-required core {M,R,T2} (one agent absorbed, vs regulator coalition probe 111 where both enter); either-suffices keeps {E,M,R}; single agent enters. `q83/probe_agent_coalition.py` |
+| 243 | Adversarial agent (Q84 H1-H4) | Influence requires membership: a non-core agent cannot flip the verdict | **confirmed** | read-only & emit-only X leave core {E,M,R} triadic; only bidirectional-pivotal X joins (core {E,M,R,X} Φ=3.0). `q84/probe_adversarial_agent.py` |
+| 244 | Agent market (Q85 H1-H4) | A market of interchangeable agents is a broadcast at every size | **confirmed** | substitutable dyadic at N=2,3,4; all-required triadic Φ=4,6,8 with full core; one substitutable pair collapses it. `q85/probe_agent_market.py` |
+| 245 | Learned surrogate (Q81 H1-H4) | A surrogate over cheap features recovers the verdict in-distribution but fails to cross sizes | **H1 confirmed, H2-H4 refuted** | n=3 family CV AUC 1.000; trained on n=3, generalizes to n=4,5,6 at accuracy 0.250 (below the 0.600 majority); the exact ceiling holds for a learned student. `q81/probe_learned_surrogate.py` |
+| 246 | Surrogate vs proxy (Q82 H1-H4) | The surrogate beats every single proxy; edge count is a strong but imperfect rank | **H1 refuted, H2-H4 confirmed** | surrogate CV AUC 1.000 > edges 0.966 > in-degree 0.707 > Φ_R 0.621 > Φ_WMS 0.547; surrogate OOF acc 1.000 on the constant-in-degree subset where structure cannot separate. `q82/probe_surrogate_vs_proxy.py` |
+| 247 | Membership law scaling (Q90 H1-H4) | The core-membership law generalizes past n=3 in kind, at moderate strength | **H1,H3,H4 confirmed, H2 refuted** | non-bidir in-core 0.000 at n=3,4,5 (coupling strictly necessary); P(core) rises with influence at every n; rank-AUC 0.71/0.62/0.73 (flat, below the 0.75 bar set from the strict-mediation 0.89); n=6 out of reach. `q90/probe_membership_law_scaling.py` |
+| 248 | Fragility margin (Q93 H1-H4) | Structural and dynamical robustness come apart through the mediator | **H1,H4 confirmed, H2,H3 refuted** | all 24 triadic forms collapse under one single-bit flip; robustness near-binary (0.125 vs 0.250); parity mediators structurally sturdier (0.250) but noise-fragile (Φ 0.38 vs 1.16), the two robustness notions anti-align. `q93/probe_fragility_margin.py` |
+| 249 | Heterogeneous market (Q89 H1-H4) | Heterogeneous agent membership is a property of the joint determination, not the agent | **H1,H4 confirmed, H2,H3 refuted** | passive agent excluded, substitutability still collapses; a partial-reading required agent drops out in a 2-agent market (core localizes to {M1,C}) but binds in a 3-agent mixed market (full core) — composition decides membership. `q89/probe_heterogeneous_market.py` |
+| 250 | Pivotality vs bidirectionality (Q98 H1-H4) | The membership gate is hard-conjunctive at the corners, additive inside | **H1,H2,H4 confirmed, H3 refuted** | P(core)=0.000 at zero reading or zero influence (neither compensates), =1.000 at strong both; but the sum predicts membership as well as the minimum (AUC 0.783 vs 0.772), so the interior is compensatory, not a strict min-gate. `q98/probe_pivotality_bidirectionality.py` |
+| 251 | Multiple complexes (Q94 H1-H4) | Coordination holds multiple coexisting cores; coupling does not fuse them | **H1,H3 confirmed, H2,H4 refuted** | two uncoupled units = 2 complexes; one-way bridge keeps 2; mutual bridge collapses to one smaller core {C,D} (compete, not fuse); a self-looping spectator forms its own 3rd complex. `q94/probe_multiple_complexes.py` |
+| 252 | Composition of triads (Q95 H1-H4) | Composing two triads fragments rather than unifies | **H4 confirmed, H1,H2,H3 refuted** | two triads sharing a node give whole-system dyadic, 2 complexes {E1,M1,S}@2 and {M2,R2}@2; Φ does not add (stays 2.0); the shared node binds only the upstream core. Composition keeps units modular. `q95/probe_composition_of_triads.py` |
+| 253 | Lossy channel (Q91 H1-H4) | The triad degrades gracefully under a lossy read; collapses only at zero channel capacity | **all confirmed** | mediator reads R through a binary symmetric channel: Φ 2.0→0.76→0.54→0.34→0.16→0 as error 0→0.5; triadic through e=0.4, dyadic at e=0.5; input-side mirror of Q79's commit-side emergence. `q91/probe_lossy_channel.py` |
+| 254 | Stateful mediator (Q92 H1-H4) | A tracking memory substitutes for a live read and reorganizes the core | **all confirmed** | tracking memory (M'=E∧Mem, Mem'=R) stays triadic Φ=2, core shifts to {M,R,Mem} (worker displaced); frozen memory and self-memory are dyadic. Liveness = recipient bound through any path, not the current read. `q92/probe_stateful_mediator.py` |
+| 255 | Contingent membership (Q96 H1-H4) | State-contingent participation factors the whole but keeps a local core | **H2,H3 confirmed, H1,H4 refuted** | gating the recipient's read (M'=E∧(R∨¬T), T'=E) gives whole-system dyadic with a localized {M,R} core (φ=2); recipient bound locally, worker and gate excluded. Contingency behaves like optionality (Finding 5). `q96/probe_contingent_membership.py` |
+| 256 | Coordinated adversary (Q97 H1-H4) | A coalition gains no influence without membership, but can capture the mediator | **H2,H3,H4 confirmed, H1 refuted (whole-system)** | two observers leave the core {E,M,R}; two sources can't manufacture; a bridging coalition becomes triadic with core {M,X1,X2}, capturing the mediator and displacing the legitimate worker and recipient — influence still requires membership. `q97/probe_coordinated_adversary.py` |
+| 257 | Binding distinction (Q99 H1-H4) | The CES gives the verdict a face: integration lives in a joint mechanism; triads come in structural types | **H2,H3 confirmed, H1,H4 refuted** | every triad's maximal distinction is a joint (≥2-party) mechanism with φ_d=Φ; the single-party dual pair is the *mediated* signature only — rings/markets are *symmetric* ({E,C}↔{M1,M2}), chains *distributed*. The verdict hides a taxonomy. Opens the CES-semantics wave. `q99/probe_binding_distinction.py` |
+| 258 | Structure fingerprint (Q100 H1-H4) | The CES fingerprints the coordination kind and is orthogonal to the scalar | **H1,H2,H3 confirmed, H4 refuted** | 5/6 keystones have distinct fingerprints (all 3 dual types); equal Φ → different structure (joint-det Φ=2 vs chain Φ=2); relations DON'T track Φ (ρ=0.14): breadth market 128 relations at Φ=3 vs ring 14 at Φ=4. Richness is the kind, not the magnitude. `q100/probe_structure_fingerprint.py` |
+| 259 | What it distinguishes (Q101 H1-H4) | Coordination distinguishes the all-present, determination-firing joint state | **H1,H2,H3 confirmed, H4 refuted** | read_recipient binding {E,R} specifies (1,1), all_required {E,R1,R2}=(1,1,1) — the joint-success state; dyadic forms distinguish no joint state. H4 refuted: symmetric market has no single-party binder (its joint distinction still specifies all-present). `q101/probe_what_it_distinguishes.py` |
+| 260 | Relation skeleton (Q102 H1-H4) | Mediated coordination relates through a hub; the breadth count is combinatorial | **all confirmed** | mediated triads concentrate relations on the mediator (read_recipient 88%, breadth market 99%); the 128 = every subset of 7 hub-sharing distinctions (max relation binds 7); symmetric triads spread (36%, no hub). Explains Q100's Φ-orthogonal relation count. `q102/probe_relation_skeleton.py` |
+| 261 | Structure under operations (Q103 H1-H4) | The whole-system CES collapses under substitution but diverges from major-complex membership | **H1 confirmed, H2,H3,H4 refuted** | substitution empties the structure (Φ=0); but a tracking memory (Mem as relay) and delegation (T in spanning purview {M}→{E,T}) keep the joint mechanism at {E,R} — the whole-system CES is not a membership readout (Q74 at the structure level). `q103/probe_structure_under_operations.py` |
+| 262 | Load-bearing distinction (Q104 H1-H4) | The integration concentrates in the binding distinction; every edge bears load | **all confirmed** | binding distinctions {M}↔{E,R} carry φ_d=Φ=2.0, singletons 0.5 each; all 4 edge knockouts collapse the triad to dyadic — no redundancy. The CES form of the law (whole 4x any part) and of Q93's fragility. `q104/probe_load_bearing.py` |
+| 263 | Construction distance (Q105 H1-H4) | The dyad/triad boundary is thin from the build side; triads are built at the parties, not the mediator | **H1,H2,H3 confirmed, H4 refuted** | 90% of dyadic forms are within 2 edits of triadic ({1:120,2:88,3:24}); but only 33% of single-edit builds are at the mediator — 67% restore LIVENESS at a party's read (the binding is already present; Finding 3). Opens the design wave. `q105/probe_construction_distance.py` |
+| 264 | Design operations (Q106 H1-H4) | The design vocabulary is the law's three conditions read as moves | **all confirmed** | six operations on three levers (binding, liveness, requirement), each a build (dyadic→triadic) paired with an inverse break; the design account and the diagnostic criterion are one law read two ways. Delivers the Paper 3 vocabulary. `q106/probe_design_operations.py` |
+| 265 | Repair (Q107 H1-H4) | Repair is lever-specific: the broken condition must be the one restored | **all confirmed** | binding damage repairs at the mediator (bits {5,6}), liveness damage at the party's read (bit {3}); neither routes around the other. No repair redundancy — the conditions don't substitute. The repair form of Q104. `q107/probe_repair.py` |
+| 266 | Controllability (Q108 H1-H4) | Every party is a control node; the mediator is dominant, the parties knife-edge | **all confirmed** | varying any party reaches both verdicts; the mediator has 6/16 triad-preserving functions, each outer party only 1/4 (its live read) — Finding 3 as a control statement. The hub steers robustly, the spokes on a knife-edge. `q108/probe_controllability.py` |
+| 267 | Reversibility (Q110 H1-H4) | The dyad/triad boundary is asymmetric: easy to break, harder to build | **all confirmed** | every triad is 1 edit from a dyad (fragility margin all 1), but building a triad costs 1-3 edits (mean 1.59); the boundary favors destruction. Closes the design wave — algorithmacy is cheap to break, dear to build. `q110/probe_reversibility.py` |
+| 268 | Shapley value of integration (Q111 H1-H4) | The mediator captures two-thirds of the coordination's value; an outsider captures negative | **all confirmed** | Shapley value of subsystem-Φ: mediator 1.333 (67%), each party 0.333 (17%), sum=Φ; a read-only spectator captures -0.833 (it factors the whole system). Platform power, quantified. Opens the political-economy wave. `q111/probe_shapley_value.py` |
+| 269 | Veto power (Q112 H1-H4) | Destruction is democratic, value is concentrated | **all confirmed** | every core party can collapse the triad (universal veto), a spectator cannot; yet value concentrates at the mediator (Q111) because the coordination is not a unanimity game (sub-coalition {E,R}=0). Workers can hold the platform hostage; the platform captures the rent. `q112/probe_veto_power.py` |
+| 270 | Substitutability and value (Q113 H1-H4) | Substitutability destroys all value; a required set shares it equally | **all confirmed** | all-required market distributes Φ=4 equally (1 each); substitutable market captures 0 — the loss is the whole Φ, borne by all. Value concentrates only under asymmetric essentiality; interchangeability is catastrophic, not a discount. `q113/probe_substitutability_value.py` |
+| 271 | Principal's rent (Q114 H1-H4) | A principal captures value by creating it; ownership alone captures nothing | **all confirmed** | bidirectional principal Shapley +0.417, Φ grows 2→3, every party rises (creation over extraction); monitor-only principal captures −0.833 and factors the system to Φ=0. The rent of Q111 is the productive position; ownership as such adds nothing. `q114/probe_principal_rent.py` |
+| 272 | Market value at scale (Q115 H1-H4) | A growing required market commoditizes its agents and pays the scarce parties | **all confirmed** | Σ Shapley = Φ = 2N at N=2,3,4; outer-party value climbs 1.0→1.55→2.067 while each agent holds ~0.967. Scale rewards scarcity over requiredness; the economic law of scarcity falls out of the structure. `q115/probe_market_value.py` |
+| 273 | Strategic value vs structural depth (Q116 H1-H4) | Shapley value and singleton φ_d rank the parties alike and coincide only in the small | **all confirmed** | on the triad normalized φ_d = Shapley shares exactly (M 0.667, E/R 0.167); both rank parties identically on every form; on the principal they diverge (M structural 0.800 vs strategic 0.583), structure over-concentrating where they part. Strategic value is structural depth smoothed by marginal contribution; closes the value wave. `q116/probe_value_against_structure.py` |
+| 274 | Φ-free test for triadicity (Q117 H1-H4) | A predicate computed without Φ matches the exact verdict on all 256 forms, but reads the logic, not the wiring | **all confirmed** | feedback cycle necessary (0 false negatives) but not sufficient (16 cyclic dyadic forms on identical wiring); cycle + a composition condition (parity mediator always binds; non-parity binds iff outer-read phase matches mediator symmetry) matches the oracle with 0/256 errors. 40 full-cycle forms split 24 triadic / 16 dyadic on logic alone. Opens the structural-law wave. `q117/probe_phi_free_test.py` |
+| 275 | External criterion for the verdict (Q121 H1-H4) | An interventional non-Φ criterion recovers the verdict where observation fails (answering critical-review T1) | **all confirmed** | on the 40 hard full-cycle forms, observational total-correlation is at chance (AUC 0.500) while interventional damage spreading (Kauffman/Derrida) separates perfectly (AUC 1.000, stable horizon≥2); full-family AUC is a trivial bar (cycle alone 0.966). Explains the prior behavioral-validation failures (observational/difficulty) and names the interventional criterion-type that grounds the construct; weak form of T1 met, strong (behavioral) form still open. `q121/probe_external_criterion.py` |
+| 276 | Cooperative-game validity audit (Q122 H1-H4) | The value function is a valid game where the wave used it; the critique holds for the degenerate case (answering T2/T3/T5) | **all confirmed (two-sided)** | v=subsystem-Φ is monotone AND superadditive (0 violations) on the triad, bidirectional principal, and markets N=2,3 — surplus reading licensed there; non-monotone on the monitor-only form (3 mono / 5 superadd violations), so its −0.833 is value destruction, not rent. Negatives survive unclamping identically (not a clamp artifact, refutes that charge) but all vectors collapse to 0 at the all-zeros background (background-relative to the integrating state, concedes that charge). `q122/probe_game_validity.py` |
+| 277 | Reproducibility / config-invariance (Q123 H1-H4) | The verdict is reproducible within IIT-4.0 and the SYSTEM_CUTS charge is misdirected (answering T6) | **all confirmed** | build pinned (pyphi @ b78d0e342); binary verdict bit-identical across all 256 forms under SYSTEM_CUTS=CONCEPT_STYLE, SHORTCIRCUIT_SIA=False, PARALLEL=True, and rerun (0/256 each). SYSTEM_CUTS is a legacy 3.0 knob off the 4.0 path (corrects the review). Of 13 alternative repertoire measures, 12 error and EMD is degenerate (Φ=0) — GID is the unique admissible non-degenerate measure. Honest residue: verdict is 4.0-measure-specific; genuine 3.0 agreement untested (agenda #8). `q123/probe_reproducibility.py` |
+| 278 | Aggregation robustness (Q124 H1-H4) | The verdict survives every reasonable state-aggregation; only the strict every-state rule flips it (answering F1/T4) | **all confirmed** | all 24 triadic forms stay triadic under max, mean, AND stationary (long-run occupancy) aggregation; the integrating state is genuinely occupied (stationary Φ>0 for all 24), refuting the "cherry-picked unoccupied state" charge. Only the strict min (integrate in every state) flips the 16 single-state integrators (8/24 survive), so the verdict is a capacity claim. No dyadic form flips under any rule (one-sided sensitivity). `q124/probe_aggregation_robustness.py` |
+
+## Reading across Q62 (probes 210–214)
+
+Q61 (#206, #208) showed tied singleton seam and return-path type are co-extensive on the identical panel.
+Q57 (#186) documented the excluded outer cut at normalized_phi=1.0 alongside the tied cut at 0.5. The
+excluded singleton is the tied complement on 16/16 pairs (210) and inversely encodes the same two-way
+partition type names (211): excluded C with sequential, excluded W with reciprocal. Conditional on tied seam,
+excluded is unique (212). The triple (tied, type, excluded) collapses to two joint cells with no third
+independent label (213). Norm asymmetry does not lift max_phi discrimination at excluded subpanels (214).
+The Q57–Q61 seam/typing micro-thread closes: recipient direction fixes both outer cuts, and the excluded cut
+carries no signal beyond the tied complement once seam and type are known.
+
 ### Question Q6 — noise_phase_transition
 
 | # | Concept (Q6) | Hypothesis | Verdict | Result |

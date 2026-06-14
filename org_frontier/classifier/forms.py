@@ -79,6 +79,3 @@ EXPECTED = {
     "ats_feedback_factors": "dyadic",
     "gig_false_dyad": "triadic",
 }
-
-# TODO (sub-experiment: coordination-form TPM library): broadcast, two-sided market,
-# hierarchy, commons. Each needs a defensible application-layer coupling before inclusion.

@@ -1,0 +1,4 @@
+config,structure,sys_phi,major_complex,core_phi,n_complexes
+single_triad,triadic,2.0,E|M|R,2.0,1
+two_disjoint_triads,dyadic,0.0,E1|M1|R1,2.0,2
+composed,dyadic,0.0,E1|M1|S,2.0,2

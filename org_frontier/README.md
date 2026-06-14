@@ -36,6 +36,10 @@ as first-class results.
   algorithmacy when every party is bound into one irreducible joint determination. Substitutability
   collapses it; mediation depth does not; cheap proxies cannot detect it.
 - [`RESEARCH_AGENDA_50_V2.md`](RESEARCH_AGENDA_50_V2.md) — 50 open questions queued for the pipeline.
+- [`RESEARCH_NARRATIVE.md`](RESEARCH_NARRATIVE.md) — how the program has progressed through Q73 (instrument
+  → seam thread → outreach law → self-audit) and the path forward.
+- [`RESEARCH_AGENDA_Q74.md`](RESEARCH_AGENDA_Q74.md) — the runnable next questions (Q74+) derived from the
+  path forward, ordered by priority.
 
 ## Worked questions — [`questions/`](questions/)
 
@@ -68,6 +72,9 @@ methods, probes, results, and a paper.
   which literacy a coordination form demands.
 - [`pyphi_org_theory_catalog.md`](essays/pyphi_org_theory_catalog.md) — a ~10k-word catalog of every
   experiment, with question/hypothesis/method/result.
+- [`algorithmacy_outreach_paper.md`](essays/algorithmacy_outreach_paper.md) — the capstone synthesis:
+  the instrument and method, the structural law, the ten-study outreach program and its five-pillar law,
+  the nine construct-hardening studies (Q74–Q85), and the validation gap. Cites CI-backed numbers.
 
 ## Conventions
 

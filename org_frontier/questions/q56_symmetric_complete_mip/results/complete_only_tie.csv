@@ -1,0 +1,17 @@
+label,topology,official,outer_count_official
+W1_S2_C1,symmetric_xor,"3 parts: {W,S,C}",0
+W1_S2_C1,symmetric_xnor,"3 parts: {W,S,C}",0
+W1_S4_C1,symmetric_xor,"3 parts: {W,S,C}",0
+W1_S4_C1,symmetric_xnor,"3 parts: {W,S,C}",0
+W1_S11_C1,symmetric_xor,"3 parts: {W,S,C}",0
+W1_S11_C1,symmetric_xnor,"3 parts: {W,S,C}",0
+W1_S13_C1,symmetric_xor,"3 parts: {W,S,C}",0
+W1_S13_C1,symmetric_xnor,"3 parts: {W,S,C}",0
+W2_S2_C2,symmetric_xor,"3 parts: {W,S,C}",0
+W2_S2_C2,symmetric_xnor,"3 parts: {W,S,C}",0
+W2_S4_C2,symmetric_xor,"3 parts: {W,S,C}",0
+W2_S4_C2,symmetric_xnor,"3 parts: {W,S,C}",0
+W2_S11_C2,symmetric_xor,"3 parts: {W,S,C}",0
+W2_S11_C2,symmetric_xnor,"3 parts: {W,S,C}",0
+W2_S13_C2,symmetric_xor,"3 parts: {W,S,C}",0
+W2_S13_C2,symmetric_xnor,"3 parts: {W,S,C}",0

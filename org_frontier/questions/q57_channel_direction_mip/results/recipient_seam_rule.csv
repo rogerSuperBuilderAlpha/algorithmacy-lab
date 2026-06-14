@@ -1,0 +1,17 @@
+label,topology,recipient,expected_tied,actual_tied,match
+W1_S2_C1,counterpart_xor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W1_S2_C1,worker_xnor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W1_S4_C1,worker_xor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W1_S4_C1,counterpart_xnor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W1_S11_C1,worker_xor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W1_S11_C1,counterpart_xnor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W1_S13_C1,counterpart_xor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W1_S13_C1,worker_xnor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W2_S2_C2,counterpart_xor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W2_S2_C2,worker_xnor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W2_S4_C2,worker_xor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W2_S4_C2,counterpart_xnor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W2_S11_C2,worker_xor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True
+W2_S11_C2,counterpart_xnor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W2_S13_C2,counterpart_xor,C,"2 parts: {WS,C}","2 parts: {WS,C}",True
+W2_S13_C2,worker_xnor,W,"2 parts: {W,SC}","2 parts: {W,SC}",True

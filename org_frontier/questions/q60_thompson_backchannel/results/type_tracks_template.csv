@@ -1,0 +1,17 @@
+label,topology,thompson_type,template_match
+W1_S2_C1,counterpart_xor,reciprocal,True
+W1_S2_C1,worker_xnor,sequential,True
+W1_S4_C1,worker_xor,sequential,True
+W1_S4_C1,counterpart_xnor,reciprocal,True
+W1_S11_C1,worker_xor,sequential,True
+W1_S11_C1,counterpart_xnor,reciprocal,True
+W1_S13_C1,counterpart_xor,reciprocal,True
+W1_S13_C1,worker_xnor,sequential,True
+W2_S2_C2,counterpart_xor,reciprocal,True
+W2_S2_C2,worker_xnor,sequential,True
+W2_S4_C2,worker_xor,sequential,True
+W2_S4_C2,counterpart_xnor,reciprocal,True
+W2_S11_C2,worker_xor,sequential,True
+W2_S11_C2,counterpart_xnor,reciprocal,True
+W2_S13_C2,counterpart_xor,reciprocal,True
+W2_S13_C2,worker_xnor,sequential,True

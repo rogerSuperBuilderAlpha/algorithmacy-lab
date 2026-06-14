@@ -75,3 +75,9 @@ and a merge needs one approving review. The aspiration is a community of maintai
 submissions in a peer review that is reproducible by construction. To join that review board — the
 reviewers and editors — apply through the `maintainer-applications` branch; see
 [`MAINTAINERS.md`](MAINTAINERS.md). Code and probe conventions are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## For AI agents and LLM tools
+
+[`llms.txt`](llms.txt) is a lean, token-light brief: a canonical summary safe to copy into an agent's
+memory, framing rules for representing the project honestly, and links to the key documents. Read it
+instead of crawling the repo.

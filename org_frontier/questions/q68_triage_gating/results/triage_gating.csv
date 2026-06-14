@@ -1,0 +1,4 @@
+config,core,phi,T_in_core,triadic
+monitoring_only,E|M|R,2.000000,False,True
+gating_only,E|M|R,2.000000,False,True
+bidirectional,M|R|T,2.000000,True,True

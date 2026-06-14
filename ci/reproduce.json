@@ -3,6 +3,7 @@
   "checks": [
     {
       "name": "instrument-controls",
+      "core": true,
       "cmd": "python -m org_frontier.classifier.validate",
       "expect": [
         "Instrument validated",
@@ -20,6 +21,1540 @@
       ],
       "timeout": 300,
       "source": "org_frontier/STRUCTURAL_FINDINGS.md (finding 4)"
+    },
+    {
+      "name": "q49-h1-seam-tie",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_tie",
+      "expect": [
+        "seam set (singleton-severing two-part cuts): ['C', 'W']",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q49-h2-seam-family",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_family",
+      "expect": [
+        "triadic forms found: 24",
+        "worker-unique-seam violations: 0",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q49-h3-seam-break",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_break",
+      "expect": [
+        "H3 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q49-h4-seam-direction",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_direction",
+      "expect": [
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q49-h5-seam-mincut",
+      "cmd": "python -m org_frontier.questions.q49_mip_seam_mincut.probe_seam_mincut",
+      "expect": [
+        "min-cut: 8/11",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q49_mip_seam_mincut/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q45-h1-edge-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_edge_floor",
+      "expect": [
+        "triadic forms: 24",
+        "forms off the 4-edge floor: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q45-h2-conjunctive-max",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_conjunctive_max",
+      "expect": [
+        "triadic forms at max Phi=2.0: 16",
+        "non-AND counterexamples: 14",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q45-h3-parity-floor",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_parity_floor",
+      "expect": [
+        "parity triadic forms: 8",
+        "off-ceiling or off-floor: 0",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q45-h4-or-strict",
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_or_strict",
+      "expect": [
+        "triadic OR forms: 2",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q45-h5-global-floor",
+      "slow": true,
+      "cmd": "python -m org_frontier.questions.q45_edge_floor_uniqueness.probe_global_floor",
+      "expect": [
+        "triadic at 4 edges with max Phi=2.0: 192",
+        "non-conjunctive-strict counterexamples: 190",
+        "H5 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q45_edge_floor_uniqueness/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q50-h1-or-matched",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_matched",
+      "expect": [
+        "triadic OR forms: 2",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q50-h2-or-constant",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_constant",
+      "expect": [
+        "triadic among constant-read forms: 0",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q50-h3-or-asymmetric",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_asymmetric",
+      "expect": [
+        "triadic among asymmetric forms: 0",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q50-h4-or-seam",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_or_seam",
+      "expect": [
+        "both binding OR forms triadic Phi=2.0 with control seam?  True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q50-h5-commit-symmetry",
+      "cmd": "python -m org_frontier.questions.q50_or_triadic_seam.probe_commit_symmetry",
+      "expect": [
+        "cross-rule violations: 0",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q50_or_triadic_seam/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q51-h1-impl-phi2-matched",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_phi2_matched",
+      "expect": [
+        "matched implication + worker back-channel at Phi=2.0: 0/8",
+        "H1 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q51-h2-impl-triadic-matched",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_triadic_matched",
+      "expect": [
+        "triadic matched implication + worker back-channel: 6/8",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q51-h3-impl-strict-control",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_strict_control",
+      "expect": [
+        "triadic matched implication strict mediation: 0/8",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q51-h4-impl-complementary-preserve",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_complementary_preserve",
+      "expect": [
+        "complementary + worker back-channel at Phi=2.0: 0/8",
+        "H4 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q51-h5-impl-symmetric-unify",
+      "cmd": "python -m org_frontier.questions.q51_implication_backchannel.probe_impl_symmetric_unify",
+      "expect": [
+        "triadic symmetric matched implication: 8/8",
+        "shared max_phi: 0.830075",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q51_implication_backchannel/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q52-h1-wcentric-polarity",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_wcentric_polarity",
+      "expect": [
+        "W-centric matched forms: 4  mismatches: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q52-h2-ccentric-plateau",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_ccentric_plateau",
+      "expect": [
+        "C-centric matched at mid rung (0.415037): 4/4",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q52-h3-mid-invariant",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_mid_invariant",
+      "expect": [
+        "s in {4,11} at mid rung: 8/8",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q52-h4-symmetric-lift",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_symmetric_lift",
+      "expect": [
+        "dyadic W-centric lifted to high rung: 2/2",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q52-h5-symmetric-collapse",
+      "cmd": "python -m org_frontier.questions.q52_phi_ladder_mechanism.probe_symmetric_collapse",
+      "expect": [
+        "at high rung 0.830075: 8/8",
+        "max_phi spread: 0.000000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q52_phi_ladder_mechanism/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q53-h1-counterpart-and-ceiling",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_counterpart_and_ceiling",
+      "expect": [
+        "matched implication + counterpart AND at Phi=2.0: 0/8",
+        "H1 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q53-h2-worker-or-ceiling",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_worker_or_ceiling",
+      "expect": [
+        "matched implication + worker OR at Phi=2.0: 0/8",
+        "H2 VERDICT: PARTIAL"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q53-h3-xor-exceed-equilibrium",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_xor_exceed_equilibrium",
+      "expect": [
+        "pairs exceeding symmetric equilibrium: 16/24",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q53-h4-topology-sweep-phi2",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_topology_sweep_phi2",
+      "expect": [
+        "at Phi=2.0 across 64 pairs: 0/64",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q53-h5-supremum-characterization",
+      "cmd": "python -m org_frontier.questions.q53_impl_phi_ceiling.probe_supremum_characterization",
+      "expect": [
+        "global max_phi: 2.000000",
+        "symmetric-AND at equilibrium 0.830075: 8/8",
+        "H5 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q53_impl_phi_ceiling/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q54-h1-gate-bijectivity",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_gate_bijectivity",
+      "expect": [
+        "pairs at Phi=2.0: 32",
+        "Phi=2.0 with non-bijective channel: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q54-h2-tpm-permutation",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_tpm_permutation",
+      "expect": [
+        "Phi=2.0 non-permutation TPM: 24",
+        "symmetric-AND permutation TPM: 0/8",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q54-h3-seam-entropy",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_seam_entropy",
+      "expect": [
+        "mean H(W,C|S) symmetric_xor: 1.811497",
+        "mean delta (xor - and): 0.908749",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q54-h4-commit-alignment",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_commit_alignment",
+      "expect": [
+        "misaligned one-sided Phi=2.0 hits: 0",
+        "symmetric_xor at ceiling: 8/8",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q54-h5-parity-necessity",
+      "cmd": "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_parity_necessity",
+      "expect": [
+        "monotone pairs at Phi=2.0: 0/64",
+        "symmetric_xnor at Phi=2.0: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q54_xor_parity_mechanism/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q55-h1-misaligned-partition",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_misaligned_partition",
+      "expect": [
+        "below misaligned one-sided: 16/16",
+        "below symmetric: 0",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q55-h2-mid-rung-uniform",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_mid_rung_uniform",
+      "expect": [
+        "below off mid rung 0.415037: 0/16",
+        "ceiling below 2.0: 0/32",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q55-h3-seam-entropy-split",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_seam_entropy_split",
+      "expect": [
+        "mean H(W,C|S) below: 1.494161",
+        "mean delta (ceiling - below): 0.136472",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q55-h4-mip-singleton",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_mip_singleton",
+      "expect": [
+        "below at 2 parts: {S,WC}: 16/16",
+        "ceiling at 2 parts: {S,WC}: 0/32",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q55-h5-xnor-alignment-flip",
+      "cmd": "python -m org_frontier.questions.q55_bijective_discriminator.probe_xnor_alignment_flip",
+      "expect": [
+        "XNOR ceiling misalignments: 0",
+        "XOR aligned one-sided at ceiling: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q55_bijective_discriminator/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q56-h1-complete-only-tie",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_complete_only_tie",
+      "expect": [
+        "complete-only official ties: 16/16",
+        "with outer-party in official ties: 0/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q56-h2-one-sided-outer-tie",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_one_sided_outer_tie",
+      "expect": [
+        "one outer-party + complete ties: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q56-h3-directional-symmetry",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_directional_symmetry",
+      "expect": [
+        "symmetric directionally symmetric: 16/16",
+        "one-sided directionally symmetric: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q56-h4-dual-outer-excluded",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_dual_outer_excluded",
+      "expect": [
+        "both outer-party at system Phi: 16/16",
+        "zero outer-party in official ties: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q56-h5-min-norm-tiebreak",
+      "cmd": "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_min_norm_tiebreak",
+      "expect": [
+        "predicted matches official ties: 32/32",
+        "mismatches: 0",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q56_symmetric_complete_mip/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q57-h1-recipient-seam-rule",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_recipient_seam_rule",
+      "expect": [
+        "recipient matches tied singleton: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q57-h2-dual-norm-split",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_dual_norm_split",
+      "expect": [
+        "both outer cuts at system Phi: 16/16",
+        "tied norm 0.5, excluded norm 1.0: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q57-h3-norm-ratio",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_norm_ratio",
+      "expect": [
+        "excluded/tied norm ratio 2.0: 16/16",
+        "ratio spread: 0.000000",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q57-h4-complete-norm-equal",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_complete_norm_equal",
+      "expect": [
+        "complete norm equals tied outer: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q57-h5-gate-invariant-direction",
+      "cmd": "python -m org_frontier.questions.q57_channel_direction_mip.probe_gate_invariant_direction",
+      "expect": [
+        "worker topologies at 2 parts: {W,SC}: 8/8",
+        "counterpart topologies at 2 parts: {WS,C}: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q57_channel_direction_mip/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q58-h1-severed-edge-ratio",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_severed_edge_ratio",
+      "expect": [
+        "cut_ones tied/excl ratio 2.0: 16/16",
+        "cut_ones spread: 0.000000",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q58-h2-norm-factor-ratio",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_norm_factor_ratio",
+      "expect": [
+        "norm_factor excl/tied ratio 2.0: 16/16",
+        "norm_factor spread: 0.000000",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q58-h3-equal-phi-baseline",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_equal_phi_baseline",
+      "expect": [
+        "phi tied/excl ratio 1.0: 16/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q58-h4-complete-cut-match",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_complete_cut_match",
+      "expect": [
+        "complete cut_ones matches recipient: 16/16",
+        "complete norm_factor matches recipient: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q58-h5-inverse-cut-law",
+      "cmd": "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_inverse_cut_law",
+      "expect": [
+        "norm_phi ratio equals cut_ones ratio: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q58_normalization_cut_geometry/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q59-h1-cross-edge-shared",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_edge_shared",
+      "expect": [
+        "cross-edge in both cuts: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q59-h2-symdiff-size",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_symdiff_size",
+      "expect": [
+        "|only_tied|=3, |only_excl|=1: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q59-h3-cross-subtract-equal",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_subtract_equal",
+      "expect": [
+        "adj_tied == adj_excl: 0/16",
+        "H3 VERDICT: REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q59-h4-mediator-only-diff",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_mediator_only_diff",
+      "expect": [
+        "mediator edges in only_tied == 2: 16/16",
+        "adj ratio 3.0: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q59-h5-recipient-template",
+      "cmd": "python -m org_frontier.questions.q59_directed_cut_edges.probe_recipient_template",
+      "expect": [
+        "worker template match: 8/8",
+        "counterpart template match: 8/8",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q59_directed_cut_edges/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q60-h1-return-path-recipient",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_return_path_tracks_recipient",
+      "expect": [
+        "worker -> sequential: 8/8",
+        "counterpart -> reciprocal: 8/8",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q60-h2-uniform-triadic",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_uniform_triadic_verdict",
+      "expect": [
+        "triadic structure: 16/16",
+        "max_phi=2.0: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q60-h3-cycle-collapse",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_cycle_collapse",
+      "expect": [
+        "feedback_cycle=True: 16/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q60-h4-type-tracks-template",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_type_tracks_template",
+      "expect": [
+        "template match total: 16/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q60-h5-no-phi-discrimination",
+      "cmd": "python -m org_frontier.questions.q60_thompson_backchannel.probe_no_phi_discrimination",
+      "expect": [
+        "max_phi spread: 0.000000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q60_thompson_backchannel/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q61-h1-seam-tracks-type",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_tracks_type",
+      "expect": [
+        "seam-type matches: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q61-h2-coextensive-partitions",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_coextensive_partitions",
+      "expect": [
+        "partition equality: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q61-h3-seam-not-finer",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_finer",
+      "expect": [
+        "within-type seam heterogeneity: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q61-h4-seam-not-coarser",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_coarser",
+      "expect": [
+        "within-seam type heterogeneity: 0/16",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q61-h5-seam-recover-discrimination",
+      "cmd": "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_recover_discrimination",
+      "expect": [
+        "max_phi spread (panel): 0.000000",
+        "subpanel match total: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q61_seam_return_typing/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q62-h1-excluded-complement",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_complement",
+      "expect": [
+        "complement matches: 16/16",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q62-h2-inverse-type-track",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_inverse_type_track",
+      "expect": [
+        "inverse type matches: 16/16",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q62-h3-tied-determines-excluded",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_tied_determines_excluded",
+      "expect": [
+        "within-tied excluded heterogeneity: 0/16",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q62-h4-no-third-joint",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_no_third_joint",
+      "expect": [
+        "distinct joint labels: 2",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q62-h5-excluded-norm-phi",
+      "cmd": "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_norm_phi",
+      "expect": [
+        "excluded norm 1.0: 16/16",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q62_excluded_cut_signal/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q63-h1-read-recipient",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_read_recipient",
+      "expect": [
+        "read_recipient triadic: True | broadcast dyadic: True",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q63-h2-substitutable",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_substitutable",
+      "expect": [
+        "all_required triadic: True | substitutable dyadic: True",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q63-h3-disclosure-label",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_disclosure",
+      "expect": [
+        "core == {E,M,R}: True | D excluded: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q63-h4-cost-proxy",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_cost_proxy",
+      "expect": [
+        "triadic costs=[2, 3] | dyadic costs=[1, 3]",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q63-h5-liveness",
+      "cmd": "python -m org_frontier.questions.q63_outreach_coordination.probe_liveness",
+      "expect": [
+        "conversation triadic: True | one_shot dyadic: True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q63_outreach_coordination/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q64-h1-all-required-scaling",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_all_required_scaling",
+      "expect": [
+        "(n-1=5) law_holds=True",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q64-h2-substitutable-scaling",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_substitutable_scaling",
+      "expect": [
+        "all k dyadic: True",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H2)"
+    },
+    {
+      "name": "q64-h3-pooled-broadcast",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_pooled_broadcast",
+      "expect": [
+        "all k dyadic: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q64-h4-mixed-collapse",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_mixed_collapse",
+      "expect": [
+        "mixed dyadic: True | all_required triadic: True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H4)"
+    },
+    {
+      "name": "q64-h5-core-membership",
+      "cmd": "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_core_membership",
+      "expect": [
+        "every recipient in core (k=2,3): True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q64_outreach_breadth_scaling/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q65-h1h2-chain-depth",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_chain_depth",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H1,H2)"
+    },
+    {
+      "name": "q65-h3-relay-gap",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_relay_gap",
+      "expect": [
+        "relay_gap dyadic: True | intact triadic: True",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q65-h4-chain-core",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_chain_core",
+      "expect": [
+        "core=('A2', 'R')",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H4, refuted)"
+    },
+    {
+      "name": "q65-h5-depth-breadth",
+      "cmd": "python -m org_frontier.questions.q65_agent_chain_outreach.probe_depth_breadth",
+      "expect": [
+        "depth+breadth triadic: True",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q65_agent_chain_outreach/FINDINGS.md (H5)"
+    },
+    {
+      "name": "q66-h1h2-chain-core-depth",
+      "cmd": "python -m org_frontier.questions.q66_chain_core_boundary.probe_chain_core_depth",
+      "expect": [
+        "core size two at every depth: True",
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H1 refuted, H2)"
+    },
+    {
+      "name": "q66-h3h4-ring-core",
+      "cmd": "python -m org_frontier.questions.q66_chain_core_boundary.probe_ring_core",
+      "expect": [
+        "ring core is full set at d=2,3: True",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/questions/q66_chain_core_boundary/FINDINGS.md (H3,H4)"
+    },
+    {
+      "name": "q67-reciprocity-gradient",
+      "cmd": "python -m org_frontier.questions.q67_reciprocity_gradient.probe_reciprocity_gradient",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "core jumps 2 (L2) -> 4 (L3) at closure: True",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q67_reciprocity_gradient/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q68-triage-gating",
+      "cmd": "python -m org_frontier.questions.q68_triage_gating.probe_triage_gating",
+      "expect": [
+        "monitoring T out: True | gating T out: True | bidirectional T in: True",
+        "core=('M', 'R', 'T')",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q68_triage_gating/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q69-two-sided-agents",
+      "cmd": "python -m org_frontier.questions.q69_two_sided_agents.probe_two_sided",
+      "expect": [
+        "live_chain core human-agent pair: True | delegated core == {As,Ar}: True",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q69_two_sided_agents/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q70-agent-substitutability",
+      "cmd": "python -m org_frontier.questions.q70_agent_substitutability.probe_agent_substitutability",
+      "expect": [
+        "single triadic: True | substitutable dyadic: True | required triadic: True | both agents in core: True",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q70_agent_substitutability/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q71-noise-robustness",
+      "cmd": "python -m org_frontier.questions.q71_noise_robustness.probe_noise_robustness",
+      "expect": [
+        "triad survives small noise (eps<=0.1): True",
+        "H2 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q71_noise_robustness/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q72-cost-proxy-frontier",
+      "cmd": "python -m org_frontier.questions.q72_cost_proxy_frontier.probe_cost_proxy_frontier",
+      "expect": [
+        "no structural cost proxy recovers the verdict: True",
+        "H1 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q72_cost_proxy_frontier/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q73-outreach-law",
+      "cmd": "python -m org_frontier.questions.q73_outreach_law.probe_law_pillars",
+      "expect": [
+        "OUTREACH-COORDINATION LAW pillars hold: True",
+        "Q73 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q73_outreach_law/FINDINGS.md (law pillars)"
+    },
+    {
+      "name": "q74-verdict-vs-complex",
+      "cmd": "python -m org_frontier.questions.q74_verdict_vs_complex.probe_verdict_vs_complex",
+      "expect": [
+        "H4 excluded bidirectional iff whole-system triadic: True",
+        "H1 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q74_verdict_vs_complex/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q75-spectator-robustness",
+      "cmd": "python -m org_frontier.questions.q75_spectator_robustness.probe_spectator_robustness",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q75_spectator_robustness/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q79-stochastic-threshold",
+      "cmd": "python -m org_frontier.questions.q79_stochastic_threshold.probe_stochastic_threshold",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q79_stochastic_threshold/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q80-async-update",
+      "cmd": "python -m org_frontier.questions.q80_async_update.probe_async_update",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q80_async_update/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q83-agent-coalition",
+      "cmd": "python -m org_frontier.questions.q83_agent_coalition.probe_agent_coalition",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q83_agent_coalition/FINDINGS.md (H1 refuted, H2-H4)"
+    },
+    {
+      "name": "q84-adversarial-agent",
+      "cmd": "python -m org_frontier.questions.q84_adversarial_agent.probe_adversarial_agent",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q84_adversarial_agent/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q85-agent-market",
+      "cmd": "python -m org_frontier.questions.q85_agent_market.probe_agent_market",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q85_agent_market/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q43-thompson-ordering",
+      "cmd": "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_ordering",
+      "expect": [
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q43_thompson_interdependence/FINDINGS.md (H1)"
+    },
+    {
+      "name": "q43-thompson-sequential",
+      "cmd": "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_sequential",
+      "expect": [
+        "H3 verdict: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q43_thompson_interdependence/FINDINGS.md (H3)"
+    },
+    {
+      "name": "q81-learned-surrogate",
+      "cmd": "python -m org_frontier.questions.q81_learned_surrogate.probe_learned_surrogate",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 1800,
+      "slow": true,
+      "source": "org_frontier/questions/q81_learned_surrogate/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q82-surrogate-vs-proxy",
+      "cmd": "python -m org_frontier.questions.q82_surrogate_vs_proxy.probe_surrogate_vs_proxy",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/questions/q82_surrogate_vs_proxy/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q90-membership-law-scaling",
+      "cmd": "python -m org_frontier.questions.q90_membership_law_scaling.probe_membership_law_scaling",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 1800,
+      "slow": true,
+      "source": "org_frontier/questions/q90_membership_law_scaling/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q93-fragility-margin",
+      "cmd": "python -m org_frontier.questions.q93_fragility_margin.probe_fragility_margin",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q93_fragility_margin/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q89-heterogeneous-market",
+      "cmd": "python -m org_frontier.questions.q89_heterogeneous_market.probe_heterogeneous_market",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q89_heterogeneous_market/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q98-pivotality-bidirectionality",
+      "cmd": "python -m org_frontier.questions.q98_pivotality_bidirectionality.probe_pivotality_bidirectionality",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q98_pivotality_bidirectionality/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q94-multiple-complexes",
+      "cmd": "python -m org_frontier.questions.q94_multiple_complexes.probe_multiple_complexes",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q94_multiple_complexes/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q95-composition-of-triads",
+      "cmd": "python -m org_frontier.questions.q95_composition_of_triads.probe_composition_of_triads",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q95_composition_of_triads/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q91-lossy-channel",
+      "cmd": "python -m org_frontier.questions.q91_lossy_channel.probe_lossy_channel",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q91_lossy_channel/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q92-stateful-mediator",
+      "cmd": "python -m org_frontier.questions.q92_stateful_mediator.probe_stateful_mediator",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q92_stateful_mediator/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q96-contingent-membership",
+      "cmd": "python -m org_frontier.questions.q96_contingent_membership.probe_contingent_membership",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q96_contingent_membership/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q97-coordinated-adversary",
+      "cmd": "python -m org_frontier.questions.q97_coordinated_adversary.probe_coordinated_adversary",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q97_coordinated_adversary/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q99-binding-distinction",
+      "cmd": "python -m org_frontier.questions.q99_binding_distinction.probe_binding_distinction",
+      "expect": [
+        "H1 VERDICT: REFUTED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q99_binding_distinction/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q100-structure-fingerprint",
+      "cmd": "python -m org_frontier.questions.q100_structure_fingerprint.probe_structure_fingerprint",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q100_structure_fingerprint/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q101-what-it-distinguishes",
+      "cmd": "python -m org_frontier.questions.q101_what_it_distinguishes.probe_what_it_distinguishes",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q101_what_it_distinguishes/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q102-relation-skeleton",
+      "cmd": "python -m org_frontier.questions.q102_relation_skeleton.probe_relation_skeleton",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q102_relation_skeleton/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q103-structure-under-operations",
+      "cmd": "python -m org_frontier.questions.q103_structure_under_operations.probe_structure_under_operations",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: REFUTED",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q103_structure_under_operations/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q104-load-bearing",
+      "cmd": "python -m org_frontier.questions.q104_load_bearing.probe_load_bearing",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q104_load_bearing/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q105-construction-distance",
+      "cmd": "python -m org_frontier.questions.q105_construction_distance.probe_construction_distance",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q105_construction_distance/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q106-design-operations",
+      "cmd": "python -m org_frontier.questions.q106_design_operations.probe_design_operations",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q106_design_operations/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q107-repair",
+      "cmd": "python -m org_frontier.questions.q107_repair.probe_repair",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q107_repair/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q108-controllability",
+      "cmd": "python -m org_frontier.questions.q108_controllability.probe_controllability",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q108_controllability/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q110-reversibility",
+      "cmd": "python -m org_frontier.questions.q110_reversibility.probe_reversibility",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q110_reversibility/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q111-shapley-value",
+      "cmd": "python -m org_frontier.questions.q111_shapley_value.probe_shapley_value",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q111_shapley_value/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q112-veto-power",
+      "cmd": "python -m org_frontier.questions.q112_veto_power.probe_veto_power",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q112_veto_power/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q113-substitutability-value",
+      "cmd": "python -m org_frontier.questions.q113_substitutability_value.probe_substitutability_value",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q113_substitutability_value/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q114-principal-rent",
+      "cmd": "python -m org_frontier.questions.q114_principal_rent.probe_principal_rent",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q114_principal_rent/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q115-market-value",
+      "cmd": "python -m org_frontier.questions.q115_market_value.probe_market_value",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q115_market_value/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q116-value-against-structure",
+      "cmd": "python -m org_frontier.questions.q116_value_against_structure.probe_value_against_structure",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q116_value_against_structure/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q117-phi-free-test",
+      "cmd": "python -m org_frontier.questions.q117_phi_free_test.probe_phi_free_test",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q117_phi_free_test/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q121-external-criterion",
+      "cmd": "python -m org_frontier.questions.q121_external_criterion.probe_external_criterion",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q121_external_criterion/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q122-game-validity",
+      "cmd": "python -m org_frontier.questions.q122_game_validity.probe_game_validity",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q122_game_validity/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q123-reproducibility",
+      "cmd": "python -m org_frontier.questions.q123_reproducibility.probe_reproducibility",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q123_reproducibility/FINDINGS.md (H1-H4)"
+    },
+    {
+      "name": "q124-aggregation-robustness",
+      "cmd": "python -m org_frontier.questions.q124_aggregation_robustness.probe_aggregation_robustness",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "H2 VERDICT: CONFIRMED",
+        "H3 VERDICT: CONFIRMED",
+        "H4 VERDICT: CONFIRMED"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q124_aggregation_robustness/FINDINGS.md (H1-H4)"
     }
   ]
 }

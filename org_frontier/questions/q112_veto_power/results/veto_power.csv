@@ -1,0 +1,5 @@
+party,has_veto,shapley_value
+E,True,0.333
+M,True,1.333
+R,True,0.333
+X_spectator,False,

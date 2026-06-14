@@ -1,0 +1,7 @@
+config,structure,phi,core
+full_pair_required,triadic,4.0,E|M1|M2|C
+one_passive,dyadic,0.0,E|M1|C
+sender_only_req,triadic,1.0,M1|C
+recipient_only_req,triadic,1.0,E|M1
+mixed3_required,triadic,2.0,E|M1|M2|M3|C
+hetero_substitutable,dyadic,0.0,E|M2

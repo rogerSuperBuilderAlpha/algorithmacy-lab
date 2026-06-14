@@ -1,0 +1,6 @@
+scope,criterion,auc
+full,cycle_topology,0.9655
+full,observational_total_correlation,0.9138
+full,interventional_damage_spreading,0.8506
+hard_full_cycle,observational_total_correlation,0.5
+hard_full_cycle,interventional_damage_spreading,1.0

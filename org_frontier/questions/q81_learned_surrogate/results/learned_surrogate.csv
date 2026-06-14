@@ -1,0 +1,13 @@
+metric,value
+n3_majority_baseline,0.9062
+cv_accuracy,1.0000
+cv_roc_auc,1.0000
+larger_majority_baseline,0.6000
+gen_accuracy_seed1,0.2500
+gen_dyadic_recall_seed1,0.2500
+gen_accuracy_seed2,0.2500
+gen_dyadic_recall_seed2,0.2500
+gen_accuracy_seed3,0.2500
+gen_dyadic_recall_seed3,0.2500
+gen_accuracy_mean,0.2500
+gen_dyadic_recall_mean,0.2500

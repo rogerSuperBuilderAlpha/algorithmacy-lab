@@ -44,12 +44,16 @@ gates:
 
 ## Register your numbers for CI
 
-Every number a submission reports has to reproduce from a committed script, and the
-`reproduce-the-numbers` workflow checks this on every pull request. Add an entry to
+Every number a submission reports has to reproduce from a committed script. Add an entry to
 [`ci/reproduce.json`](ci/reproduce.json) for each claimed result: a `name`, the `cmd` to run from the
 repo root, and the `expect` strings its output must contain (include the number verbatim). Run
-`python ci/reproduce.py` locally to confirm it passes before opening the PR. Keep checks fast and
-deterministic; exact Φ past a few nodes is too slow for CI.
+`python ci/reproduce.py` locally to confirm it passes before opening the PR.
+
+A pull request runs only the checks it could have affected — the instrument control (`"core": true`)
+plus the checks for studies whose files the PR changed. The full manifest is reproduced nightly by
+`reproduce-all-nightly.yml`. Keep checks fast and deterministic; a check that takes minutes (a
+whole-space sweep, exact Φ past a few nodes) gets `"slow": true`, which keeps it out of the per-PR gate
+and leaves it to the nightly job.
 
 ## Prose
 

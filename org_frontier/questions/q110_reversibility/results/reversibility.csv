@@ -1,0 +1,5 @@
+direction,distance,n_forms
+break_triad_fragility,1,24
+build_triad_construction,1,120
+build_triad_construction,2,88
+build_triad_construction,3,24

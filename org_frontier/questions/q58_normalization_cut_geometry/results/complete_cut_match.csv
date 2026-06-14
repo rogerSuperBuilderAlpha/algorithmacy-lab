@@ -1,0 +1,17 @@
+label,topology,tied_cut_ones,complete_cut_ones,tied_norm_factor,complete_norm_factor
+W1_S2_C1,counterpart_xor,4,4,0.25,0.25
+W1_S2_C1,worker_xnor,4,4,0.25,0.25
+W1_S4_C1,worker_xor,4,4,0.25,0.25
+W1_S4_C1,counterpart_xnor,4,4,0.25,0.25
+W1_S11_C1,worker_xor,4,4,0.25,0.25
+W1_S11_C1,counterpart_xnor,4,4,0.25,0.25
+W1_S13_C1,counterpart_xor,4,4,0.25,0.25
+W1_S13_C1,worker_xnor,4,4,0.25,0.25
+W2_S2_C2,counterpart_xor,4,4,0.25,0.25
+W2_S2_C2,worker_xnor,4,4,0.25,0.25
+W2_S4_C2,worker_xor,4,4,0.25,0.25
+W2_S4_C2,counterpart_xnor,4,4,0.25,0.25
+W2_S11_C2,worker_xor,4,4,0.25,0.25
+W2_S11_C2,counterpart_xnor,4,4,0.25,0.25
+W2_S13_C2,counterpart_xor,4,4,0.25,0.25
+W2_S13_C2,worker_xnor,4,4,0.25,0.25

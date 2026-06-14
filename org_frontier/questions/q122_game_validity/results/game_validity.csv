@@ -1,0 +1,6 @@
+form,monotonicity_violations,superadditivity_violations,class
+read_recipient,0,0,productive
+bidirectional_principal,0,0,productive
+market_N2,0,0,productive
+market_N3,0,0,productive
+monitor_only_principal,3,5,degenerate

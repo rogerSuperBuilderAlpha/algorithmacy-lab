@@ -1,0 +1,5 @@
+level,structure,max_phi,core,core_size,core_phi
+L0_relay,dyadic,0.000000,E,1,1.000000
+L1_end_loop,dyadic,0.000000,A2|R,2,2.000000
+L2_open_chain,triadic,2.000000,A2|R,2,2.000000
+L3_closed_ring,triadic,4.000000,E|A1|A2|R,4,4.000000
