@@ -90,6 +90,7 @@ def main() -> int:
     print(f"  1. fill review.md, then hypotheses.md, and commit BEFORE computing")
     print(f"  2. write methods.md and the probe_*.py scripts; run them from the repo root")
     print(f"  3. write FINDINGS.md and paper.md, then register numbers in ci/reproduce.json")
+    print(f"  4. run `python tools/build_index.py` to add your question to the README directory")
     return 0
 
 

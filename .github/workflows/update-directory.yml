@@ -1,0 +1,49 @@
+name: update-directory
+
+# Keeps the generated directory in README.md current. On a pull request from this repo, it
+# regenerates the directory and commits the result back to the PR branch, so a contributor who
+# adds an experiment does not have to remember to run the generator. The `directory-current` check
+# in ci/reproduce.json is the safety net: on fork PRs (where this job cannot push) a stale README
+# fails CI, and the contributor runs `python tools/build_index.py` themselves.
+
+on:
+  pull_request:
+    branches: [contrib, main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-directory-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    # Skip on fork PRs: the token is read-only there and cannot push. The CI gate covers them.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # build_index.py uses only the standard library, so no dependency install is needed.
+      - name: Regenerate the directory
+        run: python tools/build_index.py
+
+      - name: Commit if the directory changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Directory already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: regenerate README directory [skip ci]"
+          git push origin HEAD:${{ github.head_ref }}
