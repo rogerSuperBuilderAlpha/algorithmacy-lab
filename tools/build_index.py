@@ -142,6 +142,25 @@ def _syntheses() -> list:
     return out
 
 
+def _field() -> list:
+    """The real-organizations field program, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "field")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Field"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    links = []
+    for fname, label in [("PROTOCOL.md", "Protocol"), ("FINDINGS.md", "Findings")]:
+        path = os.path.join(base, fname)
+        if os.path.exists(path):
+            links.append(f"[{label}]({_link(path)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    return out
+
+
 def _studies() -> list:
     out = []
     for d in sorted(glob.glob(os.path.join(_ROOT, "org_frontier", "studies", "*"))):
@@ -199,6 +218,7 @@ def _question_rows() -> list:
 def build_directory() -> str:
     articles = _articles()
     syntheses = _syntheses()
+    field = _field()
     studies = _studies()
     foundations = _foundations()
     qrows = _question_rows()
@@ -220,6 +240,13 @@ def build_directory() -> str:
     if syntheses:
         L += ["### Programs, syntheses & the open agenda", ""]
         L += syntheses
+        L.append("")
+
+    if field:
+        L += ["### Field — reading real organizations", "",
+              "Bridging the in-silico work to real coordination arrangements: a field protocol "
+              "and a worked demonstration.", ""]
+        L += field
         L.append("")
 
     if studies:
