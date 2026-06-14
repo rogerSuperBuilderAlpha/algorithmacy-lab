@@ -47,3 +47,12 @@ and writes [`results/field_mocks.csv`](results/field_mocks.csv).
 
 These are inventions. They are a starting template for fieldwork, meant to break in contact with a
 real case.
+
+## Threads
+
+Deep single-question dives that grow out of the mocks.
+
+- [`threads/THREAD.md`](threads/THREAD.md) — **is the mediator in the irreducible core?** Twenty
+  steps from the M4 anomaly to a structural theory of platform disintermediation: a mediating system
+  is a bottleneck, an enricher, or bypassed, and which one is a property of the whole arrangement,
+  not the platform. Reproduce with `python -m org_frontier.field.threads.mediator_in_core`.

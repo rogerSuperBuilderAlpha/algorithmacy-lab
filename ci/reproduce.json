@@ -1590,6 +1590,19 @@
       ],
       "timeout": 180,
       "source": "org_frontier/field/FINDINGS.md"
+    },
+    {
+      "name": "field-mediator-in-core",
+      "cmd": "python -m org_frontier.field.threads.mediator_in_core",
+      "expect": [
+        "Instrument validated",
+        "M4 CI code-review gate              med=G    -> BYPASSED",
+        "M9 Grievance arbitration            med=Ar   -> BOTTLENECK",
+        "1 complement off-platform    -> ENRICHER",
+        "BOTTLENECK     68  (13.6%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/field/threads/THREAD.md"
     }
   ]
 }
