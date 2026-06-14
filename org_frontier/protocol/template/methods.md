@@ -8,7 +8,7 @@ decision rule fixed before the run. A reader should reproduce every test from th
   `cm_from_rules`), `probes/lib.py` (`verdict`, `major_complex`, `max_phi_float`).
 - Information measures: `probes/_info.py` (entropy, mutual_information, transfer_entropy, o_information).
 - Exact Φ / trajectories: `proxy_audit/exact_phi.py`.
-- Python: `~/iit-playground/venv-4.0/bin/python`.
+- Python: run from the repo root with the project venv active (see `GETTING_STARTED.md`).
 
 ## Instrument control (run first)
 <the known form whose verdict is already established, and the value it must reproduce before any

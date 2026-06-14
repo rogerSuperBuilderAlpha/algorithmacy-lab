@@ -55,6 +55,11 @@ python -m org_frontier.probes.probe_conjunctive_law          # a lab probe
 python -m foundations.proxy_audit.run 15 1 && python -m foundations.proxy_audit.analyze
 ```
 
+**New here and want to contribute an experiment?** [`GETTING_STARTED.md`](GETTING_STARTED.md)
+walks the whole path by hand — environment, the instrument-validation gate, the model in one
+paragraph, scaffolding a new question with `python -m org_frontier.protocol.new_question`,
+registering numbers for CI, and opening the pull request.
+
 ## Repository note
 
 This working tree also contains a separate, private dissertation repository nested at `dissertation/`,
