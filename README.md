@@ -43,6 +43,13 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review
 - [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the open agenda — questions waiting for a contributor
 
+### Field — reading real organizations
+
+Bridging the in-silico work to real coordination arrangements: a field protocol and a worked demonstration.
+
+- **[Field — reading real organizations with exact Φ](org_frontier/field/README.md)** — The lab's verdicts are in-silico: exact Φ on small Boolean models, evidence about the models, with a
+  - [Protocol](org_frontier/field/PROTOCOL.md) · [Findings](org_frontier/field/FINDINGS.md)
+
 ### Studies
 
 Multi-experiment batteries on one theme.

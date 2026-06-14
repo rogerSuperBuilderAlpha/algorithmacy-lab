@@ -1,0 +1,11 @@
+id,org,parties,predict,verdict,system_phi,core,core_phi,matched,sensitivity,sens_verdict,sens_flips
+M1,Ride-hail dispatch,D P R,triadic,triadic,2.0,DPR,2.0,True,substitutable drivers,dyadic,True
+M2,Relay manager,W1 M W2,dyadic,dyadic,0.0,W1M,2.0,True,synthesizing manager,triadic,True
+M3,Substitutable-seller marketplace,B P S1 S2,dyadic,dyadic,0.0,BP,2.0,True,specialized seller,triadic,True
+M4,CI code-review gate,A G M,triadic,triadic,1.0,AM,2.0,True,,,
+M5,EHR shift handoff,N1 E N2,dyadic,dyadic,0.0,N1E,2.0,True,active-checklist EHR,triadic,True
+M6,Franchise with ratings feedback,F S C,triadic,triadic,2.0,FS,2.0,True,,,
+M7,Algorithmic ranking,Cr A Ad,triadic,triadic,2.0,CrAAd,2.0,True,,,
+M8,Support-ticket triage,Cu T Ag,dyadic,triadic,2.0,CuTAg,2.0,False,,,
+M9,Grievance arbitration,W Ar E,triadic,triadic,2.0,WArE,2.0,True,,,
+M10,ERP / EDI supply link,Su ERP Bu,dyadic,dyadic,0.0,SuBu,2.0,True,,,

@@ -1578,6 +1578,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/studies/coordination_logic_atlas/FINDINGS.md"
+    },
+    {
+      "name": "field-mocks",
+      "cmd": "python -m org_frontier.field.run",
+      "expect": [
+        "Instrument validated",
+        "verdict matched the pre-registered reading: 9/10",
+        "6 triadic (algorithmacy), 4 dyadic (literacy)",
+        "M1 Ride-hail dispatch: triadic -> dyadic under [substitutable drivers]"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/field/FINDINGS.md"
     }
   ]
 }
