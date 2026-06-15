@@ -1,0 +1,30 @@
+============================================================================================
+CORE-MEMBERSHIP LAW — confirmatory battery (bidirectional coupling + pivotality)
+============================================================================================
+  Instrument validated.
+
+PRIMARY (pre-registered): unconstrained random 3-node family
+
+[H1 necessity] non-bidirectional nodes in the major complex: 6/38 (15.79%) — of these, 6 have a self-loop and 0 do not (the exceptions are self-coupled nodes)
+[H2 pivotality] influence predicts membership among coupled nodes: rank-AUC = 0.629
+              inclusion rate by influence bucket:
+                influence≈0.00: 1/2 =  50.0% in core
+                influence≈0.25: 121/311 =  38.9% in core
+                influence≈0.50: 647/1118 =  57.9% in core
+                influence≈0.75: 238/323 =  73.7% in core
+                influence≈1.00: 7/8 =  87.5% in core
+[H4 rarity]   triadic rate over 600 random 3-node forms: 55.7%
+
+RECONCILIATION: strict-mediation family (the construct's natural domain, no W-C edge)
+[H1 strict]   non-bidirectional in core: 0/660 (categorical necessity holds in this family)
+[H4 strict]   triadic rate: 9.5% (vs 55.7% unconstrained — triadicity is population-dependent)
+
+[H5 conjunctive law] AND-all mediator, Φ and core by size:
+   n=3: Φ=2.0  core=PAB (size 3)  [Φ = n-1 = 2]
+   n=4: Φ=3.0  core=PABC (size 4)  [Φ = n-1 = 3]
+   n=5: Φ=4.0  core=PABCD (size 5)  [Φ = n-1 = 4]
+
+============================================================================================
+  Membership in the major complex is decided by bidirectional coupling (necessary) and
+  pivotality (graded), not by party count or interface.
+============================================================================================
