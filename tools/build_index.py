@@ -143,6 +143,19 @@ def _syntheses() -> list:
     return out
 
 
+def _threads() -> list:
+    """Deep exploratory single-question threads under org_frontier/threads/."""
+    out = []
+    for d in sorted(glob.glob(os.path.join(_ROOT, "org_frontier", "threads", "*"))):
+        thread = os.path.join(d, "THREAD.md")
+        if not os.path.isdir(d) or not os.path.exists(thread):
+            continue
+        title = _first_heading(thread) or os.path.basename(d).replace("_", " ")
+        summary = _clip(_first_paragraph(thread))
+        out.append(f"- [{title}]({_link(thread)}) — {summary}")
+    return out
+
+
 def _field() -> list:
     """The real-organizations field program, if present."""
     base = os.path.join(_ROOT, "org_frontier", "field")
@@ -220,6 +233,7 @@ def build_directory() -> str:
     articles = _articles()
     syntheses = _syntheses()
     field = _field()
+    threads = _threads()
     studies = _studies()
     foundations = _foundations()
     qrows = _question_rows()
@@ -248,6 +262,12 @@ def build_directory() -> str:
               "Bridging the in-silico work to real coordination arrangements: a field protocol "
               "and a worked demonstration.", ""]
         L += field
+        L.append("")
+
+    if threads:
+        L += ["### Threads", "",
+              "Deep single-question dives, each driven by its own results.", ""]
+        L += threads
         L.append("")
 
     if studies:

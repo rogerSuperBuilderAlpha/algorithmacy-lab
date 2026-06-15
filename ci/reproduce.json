@@ -1640,6 +1640,18 @@
       ],
       "timeout": 120,
       "source": "org_frontier/studies/discriminant_boundaries/FINDINGS.md"
+    },
+    {
+      "name": "shapley-membership",
+      "cmd": "python -m org_frontier.threads.shapley_membership.shapley_membership",
+      "expect": [
+        "Instrument validated",
+        "Shapley value (avg marginal over all coalitions): 0.870",
+        "single-node influence (the study-A measure):      0.632",
+        "Shapley\u2248+1: 57/57 = 100.0% in core"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/shapley_membership/THREAD.md"
     }
   ]
 }

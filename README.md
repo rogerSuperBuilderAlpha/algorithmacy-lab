@@ -57,6 +57,12 @@ Bridging the in-silico work to real coordination arrangements: a field protocol 
 - **[Field — reading real organizations with exact Φ](org_frontier/field/README.md)** — The lab's verdicts are in-silico: exact Φ on small Boolean models, evidence about the models, with a
   - [Protocol](org_frontier/field/PROTOCOL.md) · [Findings](org_frontier/field/FINDINGS.md)
 
+### Threads
+
+Deep single-question dives, each driven by its own results.
+
+- [Thread — does major-complex membership track Shapley pivotality?](org_frontier/threads/shapley_membership/THREAD.md) — A deep dive into the program's one genuinely novel claim, and the one the committee pressed hardest
+
 ### Studies
 
 Multi-experiment batteries on one theme.
