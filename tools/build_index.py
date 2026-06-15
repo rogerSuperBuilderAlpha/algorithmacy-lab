@@ -130,6 +130,7 @@ def _syntheses() -> list:
         ("RESEARCH_NARRATIVE.md", "the narrative arc across questions"),
         ("STRUCTURAL_FINDINGS.md", "the standing structural findings"),
         ("CRITICAL_REVIEW_Q111_Q117.md", "a critical self-review"),
+        ("PAPER_PIPELINE.md", "the plan to turn paper-less work into full papers"),
         ("RESEARCH_AGENDA_50_V2.md", "the open agenda — questions waiting for a contributor"),
     ]:
         path = os.path.join(of, name)
