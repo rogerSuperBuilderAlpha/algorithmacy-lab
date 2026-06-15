@@ -14,10 +14,12 @@ The verified finding is that the mediated-communication literatures distinguish 
   with the human communicator. The conduit/channel pole.
 - **AI-mediated communication (AI-MC)** — Hancock, Naaman & Levy (2020): a computational agent
   *modifies, augments, or generates* a message *on behalf of the communicator, toward the
-  communicator's own goals*. The literature frames AI-MC explicitly as an extension of and distinct
-  from CMC on a transmit-versus-transform axis, and explicitly excludes systems that do not represent
-  a human communicator. The distinguishing variable is content authorship/transformation, not the
-  system committing a determination both parties must heed.
+  communicator's own goals*. The framing is **principal–agent**: the AI is a delegated agent and the
+  human communicator remains the principal. The literature frames AI-MC as an extension of and distinct
+  from CMC on a transmit-versus-transform axis, and explicitly **excludes** systems that commit
+  determinations of their own (the canonical excluded case is an algorithmic feed). The distinguishing
+  variable is content authorship/transformation on a principal's behalf, not the system committing a
+  determination both parties must heed — so that exclusion is itself the discriminant.
 - **Human-machine communication (HMC)** — Guzman: the machine is itself the communicator (Siri,
   Alexa), not representing another person. A human-machine dyad with no third human party.
 - **Algorithmic management** — Kellogg, Valentine & Christin (2020): algorithms direct, evaluate, and
