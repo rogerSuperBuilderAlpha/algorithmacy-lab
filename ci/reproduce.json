@@ -1616,6 +1616,18 @@
       ],
       "timeout": 180,
       "source": "org_frontier/field/threads/THREAD_enricher.md"
+    },
+    {
+      "name": "core-membership-law",
+      "cmd": "python -m org_frontier.studies.core_membership_law.core_membership",
+      "expect": [
+        "Instrument validated",
+        "non-bidirectional in core: 0/660 (categorical necessity holds in this family)",
+        "triadic rate: 9.5%",
+        "n=5: Φ=4.0  core=PABCD (size 5)"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/core_membership_law/FINDINGS.md"
     }
   ]
 }

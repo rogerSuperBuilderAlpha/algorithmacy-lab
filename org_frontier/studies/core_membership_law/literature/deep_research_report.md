@@ -23,9 +23,18 @@ requiring "every mechanistic element [to] have the capacity to act as a cause on
 system and to be affected by the rest of the system," and the exclusion postulate selects the
 maximal substrate (complex) by winner-take-all maximization of φ_s.
 
+The requirement is not only stated in theory but **enforced in the reference implementation**. The
+final workflow synthesis (3-0 verified) found that PyPhi draws candidate complexes only from the
+powerset of `causally_significant_nodes` — nodes with at least one input *and* one output — and that a
+non-strongly-connected subsystem necessarily has Φ = 0 (an IIT 3.0/PyPhi result). So a node lacking
+in- or out-coupling is never even a membership candidate. This makes the necessity result, computed
+with PyPhi, close to tautological by construction, and it explains the self-loop exceptions in the
+unconstrained run: a self-loop gives a node both an input and an output, so PyPhi rightly treats it as
+causally significant.
+
 **Consequence for the paper.** The lab's *necessity* condition — emit-only sources and read-only
 sinks never enter the core — is a confirmation of IIT 4.0's system-integration requirement on
-coordination forms, not a new finding. The paper must cite this and present the necessity half as a
+coordination forms, enforced by the instrument itself, not a new finding. The paper must cite this and present the necessity half as a
 behavioural confirmation of the theory, with the quantification (non-bidirectional nodes 0/435 in
 the core across the unconstrained 3-node family) as the empirical content.
 

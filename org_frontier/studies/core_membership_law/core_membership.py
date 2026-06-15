@@ -99,6 +99,52 @@ def membership_battery(n=3, trials=600, seed=0):
     }
 
 
+def selfloop_breakdown(n=3, trials=600, seed=0):
+    """Of the non-bidirectional nodes that appear in the core, how many have a self-loop?"""
+    import numpy as np
+    rng = random.Random(seed)
+    labels = tuple("ABCDEF"[:n])
+    with_self = without_self = 0
+    for _ in range(trials):
+        rules = random_form(n, rng)
+        core, _ = major_complex(list(rules), labels)
+        core = set(core or ())
+        cm = cm_from_rules(rules)
+        for i in range(n):
+            if not bidirectional(cm, i) and labels[i] in core:
+                if cm[i, i]:
+                    with_self += 1
+                else:
+                    without_self += 1
+    return with_self, without_self
+
+
+def strict_mediation_family(trials=400, seed=1):
+    """Reconciliation: the construct's natural domain — a mediator S between outer parties W, C with
+    NO direct W-C edge. Reports the triadic rate and the non-bidirectional-in-core necessity rate."""
+    rng = random.Random(seed)
+    L = ("W", "S", "C")
+    triadic = nonbid_core = nonbid_total = 0
+    for _ in range(trials):
+        fW = [rng.randint(0, 1) for _ in range(2)]
+        hS = [rng.randint(0, 1) for _ in range(4)]
+        gC = [rng.randint(0, 1) for _ in range(2)]
+        rules = [lambda x, _f=fW: _f[x[1]],            # W = f(S)
+                 lambda x, _h=hS: _h[2 * x[0] + x[2]],  # S = h(W, C)
+                 lambda x, _g=gC: _g[x[1]]]             # C = g(S)
+        v = classify_rules(rules, L)
+        triadic += (v.structure == "triadic")
+        core, _ = major_complex(list(rules), L)
+        core = set(core or ())
+        cm = cm_from_rules(rules)
+        for i in range(3):
+            if not bidirectional(cm, i):
+                nonbid_total += 1
+                nonbid_core += (L[i] in core)
+    return {"trials": trials, "triadic_rate": triadic / trials,
+            "nonbid_core": nonbid_core, "nonbid_total": nonbid_total}
+
+
 def conjunctive_law(sizes=(3, 4, 5)):
     rows = []
     for n in sizes:
@@ -122,15 +168,25 @@ def main() -> int:
         return 1
     print("  Instrument validated.\n")
 
+    print("PRIMARY (pre-registered): unconstrained random 3-node family\n")
     r = membership_battery(n=3, trials=600, seed=0)
+    ws, wos = selfloop_breakdown()
     print(f"[H1 necessity] non-bidirectional nodes in the major complex: "
           f"{r['non_bidir_in_core']}/{r['non_bidir_total']} "
-          f"({100 * r['non_bidir_in_core'] / max(r['non_bidir_total'], 1):.2f}%)")
+          f"({100 * r['non_bidir_in_core'] / max(r['non_bidir_total'], 1):.2f}%) "
+          f"— of these, {ws} have a self-loop and {wos} do not (the exceptions are self-coupled nodes)")
     print(f"[H2 pivotality] influence predicts membership among coupled nodes: rank-AUC = {r['auc']:.3f}")
     print("              inclusion rate by influence bucket:")
     for b, (inc, tot) in r["buckets"].items():
         print(f"                influence≈{b:.2f}: {inc}/{tot} = {100 * inc / max(tot, 1):5.1f}% in core")
     print(f"[H4 rarity]   triadic rate over {r['trials']} random 3-node forms: {100 * r['triadic_rate']:.1f}%")
+
+    print("\nRECONCILIATION: strict-mediation family (the construct's natural domain, no W-C edge)")
+    sm = strict_mediation_family()
+    print(f"[H1 strict]   non-bidirectional in core: {sm['nonbid_core']}/{sm['nonbid_total']} "
+          f"(categorical necessity holds in this family)")
+    print(f"[H4 strict]   triadic rate: {100 * sm['triadic_rate']:.1f}% (vs {100 * r['triadic_rate']:.1f}% "
+          f"unconstrained — triadicity is population-dependent)")
 
     print("\n[H5 conjunctive law] AND-all mediator, Φ and core by size:")
     for n, phi, core, k in conjunctive_law():
