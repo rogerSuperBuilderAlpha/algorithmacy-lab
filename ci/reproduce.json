@@ -1628,6 +1628,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/studies/core_membership_law/FINDINGS.md"
+    },
+    {
+      "name": "discriminant-boundaries",
+      "cmd": "python -m org_frontier.studies.discriminant_boundaries.discriminant",
+      "expect": [
+        "Instrument validated",
+        "predictions matched: 5/6",
+        "convey constructs reading dyadic: 4/5 | commit constructs reading triadic: 1/1",
+        "the convey CMC flips to commit/triadic"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/discriminant_boundaries/FINDINGS.md"
     }
   ]
 }
