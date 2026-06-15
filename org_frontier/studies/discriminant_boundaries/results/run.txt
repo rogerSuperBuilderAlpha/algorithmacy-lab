@@ -1,0 +1,21 @@
+================================================================================================
+DISCRIMINANT BATTERY — does the verdict separate algorithmacy from its neighbours?
+================================================================================================
+  Instrument validated.
+
+  CMC (transparent channel)                      [convey] predict dyadic   -> DYADIC   (Φ=0.0, core WC)
+  AI-MC (transform on sender's behalf)           [convey] predict dyadic   -> DYADIC   (Φ=0.0, core WC)
+  HMC (machine is the communicator)              [convey] predict dyadic   -> TRIADIC  (Φ=2.0, core WS)  <-- SURPRISE
+  Algorithmic management — directive (commit)    [commit] predict triadic  -> TRIADIC  (Φ=2.0, core WSC)
+  Algorithmic management — advisory (recommend)  [convey] predict dyadic   -> DYADIC   (Φ=0.0, core WS)
+  Sensemaking (Weick)                            [convey] predict dyadic   -> DYADIC   (Φ=0.0, core WC)
+
+  SENSITIVITY: CMC that starts committing (-> algorithmic mgmt)
+      -> TRIADIC (Φ=2.0, core WSC) — the convey CMC flips to commit/triadic
+
+================================================================================================
+  predictions matched: 5/6
+  convey constructs reading dyadic: 4/5 | commit constructs reading triadic: 1/1
+  The verdict separates commit from convey: algorithmacy is the committing pole, distinct
+  from CMC / AI-MC / HMC / sensemaking (convey), overlapping directive algorithmic management.
+================================================================================================
