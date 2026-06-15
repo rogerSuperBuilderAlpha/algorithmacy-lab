@@ -85,3 +85,10 @@ unconstrained AUC). The bidirectionality definition is structural (the connectiv
 dynamical definition over reachable states would absorb the self-loop edge case. The mapping to Shapley
 pivotality is an analogy made precise only at the Null Player corner; a full correspondence between
 major-complex membership and the Shapley value is not established here and is the natural next study.
+
+**Follow-up.** That next study has been started in
+[`threads/shapley_membership`](../../threads/shapley_membership/THREAD.md): computing the *exact*
+Shapley value over the φ_s coalition game (not the single-node proxy) predicts major-complex membership
+at rank-AUC ≈ 0.87, against ≈ 0.63 for the influence measure here — and the Shapley value is the best
+predictor among pivotality notions. The moderate AUC above was the proxy's weakness, not the
+correspondence's; the bridge holds well past the Null Player corner, as a magnitude relation.

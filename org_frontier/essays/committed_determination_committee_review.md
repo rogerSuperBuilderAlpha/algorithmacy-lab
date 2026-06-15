@@ -77,6 +77,15 @@ its place" trope repeats across two papers, and the closing section restates the
 6. Move the 40%-flip-under-re-encoding fact beside the convergence table; cut the antithesis tics;
    rescope headline claims to "Boolean models of coordination."
 
+**Update.** The panel's fourth point — that the Shapley bridge was verified only at the null-player
+corner on a single-node proxy — has since been taken up directly in
+[`threads/shapley_membership`](../threads/shapley_membership/THREAD.md): the *exact* Shapley value over
+the φ_s coalition game predicts major-complex membership at rank-AUC ≈ 0.87, against ≈ 0.63 for the
+single-node influence the study used, and is the best predictor among pivotality notions. The moderate
+AUC was the proxy's weakness, not the correspondence's; the bridge holds well past the corner as a
+magnitude relation, though not as a clean equivalence. This strengthens the program's one genuinely new
+result rather than retracting it.
+
 The chair notes, with the panel, that none of this demotes the apparatus. The affirmative case — exact
 Φ is a principled, unified, structure-naming lens on coordination irreducibility — is intact and, by the
 methods member's reading, *stronger* once stated outright. The revisions match the paper's claims to the

@@ -68,6 +68,9 @@ Concrete open threads, roughly easiest to hardest. Each is a real gap, not busyw
 - **Stress a standing result.** The extremes-only quorum law (study D) uses clean threshold counts; does it
   survive *weighted or noisy* quorums? The membership law (study A) uses a single-node influence proxy;
   does a higher-order pivotality measure sharpen the Shapley correspondence past the null-player corner?
+  (A first pass exists in [`org_frontier/threads/shapley_membership`](org_frontier/threads/shapley_membership/THREAD.md)
+  — the exact Shapley value reaches AUC ≈ 0.87 vs ≈ 0.63 for single-node influence; extending it to
+  larger forms and a coalition-formation account is open.)
 - **Settle a construct question the committee flagged.** Find one coordination arrangement that is
   *algorithmacy but not directive algorithmic management* (or show none exists). That case is what would
   establish the construct's marginal value.
