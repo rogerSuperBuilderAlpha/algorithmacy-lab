@@ -32,8 +32,12 @@ operationalizes a distinction the literatures already draw.
 A literature pass (`literature/`) establishes a transmit / transform / commit ladder. CMC transmits a
 human message; agency stays with the communicator. AI-MC (Hancock, Naaman & Levy 2020) has a
 computational agent modify or augment a message on the sender's behalf, toward the sender's goals — a
-transform, not a third-party commitment. HMC (Guzman 2018) is a human communicating with a machine that
-represents no other person. Algorithmic management (Kellogg, Valentine & Christin 2020) directs,
+transform, not a third-party commitment. The AI-MC framing is explicitly **principal–agent**: the
+computational agent is a delegated agent acting for the human communicator, who remains the principal,
+and systems that commit determinations of their own — the canonical excluded example is an algorithmic
+feed — fall outside AI-MC by definition. That exclusion is the discriminant in the construct's own
+terms: a system that commits rather than serves a principal's message is not AI-MC. HMC (Guzman 2018) is
+a human communicating with a machine that represents no other person. Algorithmic management (Kellogg, Valentine & Christin 2020) directs,
 evaluates, and disciplines through six mechanisms; its directive mechanisms commit determinations
 workers must heed, its advisory ones merely recommend. Sensemaking (Weick 1995) is shared
 interpretation, not a committing mediator. Algorithmacy — a system that commits a determination neither
