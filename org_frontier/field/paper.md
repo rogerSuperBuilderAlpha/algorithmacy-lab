@@ -43,7 +43,8 @@ any verdict, and the verdict is read on the major complex, not whole-system Φ, 
 **Its validation-gap language is the field's.** Simulation is a theory-building method whose strength is
 internal validity (Davis, Eisenhardt & Bingham 2007). Operationalizing a verbal account forces
 "specificity gaps" filled with defensible assumptions, and equifinality means many models fit the same
-account, so one model "working" does not validate it. The protocol's mandatory sensitivity step is the
+account, so one model "working" does not validate it (Poile & Safayeni 2016). The protocol's mandatory
+sensitivity step is the
 direct response: it re-encodes the load-bearing rules to show whether the verdict is a property of the
 arrangement or of the encoding. The validation gap — internal validity established, external validity a
 separate empirical claim — is stated in the field's own terms.
@@ -91,6 +92,8 @@ Davis J. P., Eisenhardt K. M. & Bingham C. B. (2007). Developing theory through 
 Rivkin J. W. & Siggelkow N. (2003). Balancing search and stability. *Manag. Sci.* 49(3): 290–311.
 Rivkin J. W. & Siggelkow N. (2002). Organizational sticking points on NK landscapes. *Complexity* 7(5):
 31–43.
+Poile C. & Safayeni F. (2016). Using computational modeling for building theory. *J. Artif. Soc. Soc.
+Simul.* 19(3): 8.
 Malone T. W. & Crowston K. (1994). The interdisciplinary study of coordination. *ACM Comput. Surv.*
 26(1): 87–119.
 Thompson J. D. (1967). *Organizations in Action*. McGraw-Hill.

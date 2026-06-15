@@ -22,7 +22,8 @@ between theory-creating and theory-testing methods. Two of its points are load-b
 First, operationalizing a verbal theory forces researchers to fill unanticipated "specificity gaps" with
 defensible but arbitrary assumptions — the modeling judgment the protocol makes explicit. Second,
 **equifinality**: many defensible models can operationalize the same theory, so one model "working" does
-not validate the theory it stands for. This is exactly the rationale for the protocol's mandatory
+not validate the theory it stands for (Poile & Safayeni 2016, the dedicated treatment of this
+"double-edged sword"). This is exactly the rationale for the protocol's mandatory
 sensitivity step, and the accepted language for the protocol's validation gap (internal validity
 established; external validity a separate empirical claim) is this paper's, not an idiosyncratic framing.
 
