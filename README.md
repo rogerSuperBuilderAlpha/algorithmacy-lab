@@ -30,6 +30,7 @@ live map of both; it is regenerated from the content on every merge, so it is al
 Cross-program essays and reviews — the best places to start window-shopping.
 
 - [Reading coordination with a consciousness measure: a structural law for agent-mediated outreach](org_frontier/essays/algorithmacy_outreach_paper.md)
+- [Committed determination: one axis across six exact-Φ studies of coordination](org_frontier/essays/committed_determination_synthesis.md)
 - [The seam carries what the scalar drops: a review of the floor-to-seam program (Q45–Q62)](org_frontier/essays/floor_to_seam_review.md)
 - [Literacy or Algorithmacy? Borrowing a Consciousness Measure to Read an Org Chart](org_frontier/essays/literacy_or_algorithmacy.md)
 - [What Exact Φ Can Do for Organization Theory: A Complete Experiment Catalog](org_frontier/essays/pyphi_org_theory_catalog.md)
