@@ -1603,6 +1603,19 @@
       ],
       "timeout": 180,
       "source": "org_frontier/field/threads/THREAD.md"
+    },
+    {
+      "name": "field-enricher-regime",
+      "cmd": "python -m org_frontier.field.threads.enricher_regime",
+      "expect": [
+        "Instrument validated",
+        "CAPTURE      141  (28.2%)",
+        "ENRICHER      30  ( 6.0%)",
+        "law holds on 60/60 random option configurations",
+        "captive worker, mobile counterpart     [none/full] -> CAPTURE"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/field/threads/THREAD_enricher.md"
     }
   ]
 }
