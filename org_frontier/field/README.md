@@ -56,3 +56,7 @@ Deep single-question dives that grow out of the mocks.
   steps from the M4 anomaly to a structural theory of platform disintermediation: a mediating system
   is a bottleneck, an enricher, or bypassed, and which one is a property of the whole arrangement,
   not the platform. Reproduce with `python -m org_frontier.field.threads.mediator_in_core`.
+- [`threads/THREAD_enricher.md`](threads/THREAD_enricher.md) — **the enricher regime, twenty deeper.**
+  Genuine enrichment turns out rare (6%) and fragile, capture dominates (28%), and an outside-option
+  theory falls out: a platform's irreducible core is itself plus exactly the parties with no outside
+  option. Reproduce with `python -m org_frontier.field.threads.enricher_regime`.
