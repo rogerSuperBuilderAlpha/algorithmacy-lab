@@ -1,0 +1,23 @@
+============================================================================================
+SHAPLEY vs MAJOR-COMPLEX MEMBERSHIP — does membership track Shapley pivotality?
+============================================================================================
+  Instrument validated.
+
+[1] Which pivotality notion predicts membership? (rank-AUC over 150 random 3-node forms)
+    Shapley value (avg marginal over all coalitions): 0.870
+    best-coalition marginal:                          0.827
+    grand-coalition marginal v(N)-v(N\i):             0.728
+    single-node influence (the study-A measure):      0.632
+    The Shapley value is the best predictor, and beats single-node influence decisively.
+
+[2] Membership is monotone in the Shapley value, with categorical extremes
+    Shapley≈-1: 0/33 =   0.0% in core
+    Shapley≈+0: 198/360 =  55.0% in core
+    Shapley≈+1: 57/57 = 100.0% in core
+    Negative Shapley -> excluded; high-positive Shapley -> included; ambiguity near zero.
+
+============================================================================================
+  Major-complex membership tracks Shapley pivotality (the higher-order measure), far better
+  than the single-node influence the core-membership study used. It is a magnitude relation,
+  not a clean sign law: a node can have positive Shapley yet miss the argmax coalition.
+============================================================================================
