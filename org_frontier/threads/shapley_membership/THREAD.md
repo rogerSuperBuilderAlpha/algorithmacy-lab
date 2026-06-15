@@ -76,3 +76,10 @@ directly) might fit better and is the natural next question. Everything is in-si
 models; the AUCs are over a sampled population of forms and depend on it; exact Shapley is feasible only
 at the small sizes exact Φ already restricts the lab to. The result strengthens an analogy between two
 formal objects on these models; it does not derive one from the other.
+
+The coalition-structure thread takes up that next question and revises this account of the gap. Scoring
+each coalition by its φ_s maximized across all states mixes states the way the major complex does not:
+the complex forms at one state. Score the same node-level marginal at that state and it predicts
+membership at AUC 0.98, so most of the 0.87 ceiling here is the cost of state aggregation rather than the
+argmax-versus-average mismatch this section blamed it on. See
+`org_frontier/threads/coalition_structure/THREAD.md`.
