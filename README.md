@@ -61,6 +61,7 @@ Bridging the in-silico work to real coordination arrangements: a field protocol 
 
 Deep single-question dives, each driven by its own results.
 
+- [Thread — the major complex as a coalition structure](org_frontier/threads/coalition_structure/THREAD.md) — The Shapley thread closed on a residual it called structural. Major-complex membership tracks the exact
 - [Thread — does major-complex membership track Shapley pivotality?](org_frontier/threads/shapley_membership/THREAD.md) — A deep dive into the program's one genuinely novel claim, and the one the committee pressed hardest
 
 ### Studies

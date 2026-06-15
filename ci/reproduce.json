@@ -1652,6 +1652,17 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/shapley_membership/THREAD.md"
+    },
+    {
+      "name": "coalition-structure",
+      "cmd": "python -m org_frontier.threads.coalition_structure.coalition_structure",
+      "expect": [
+        "complex in argmax set (tie-tolerant):               149/149 = 100.0%",
+        "AUC(score -> in major complex) = 0.982",
+        "131/149 = 87.9%"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/coalition_structure/THREAD.md"
     }
   ]
 }
