@@ -63,6 +63,7 @@ Deep single-question dives, each driven by its own results.
 
 - [Thread — the major complex as a coalition structure](org_frontier/threads/coalition_structure/THREAD.md) — The Shapley thread closed on a residual it called structural. Major-complex membership tracks the exact
 - [Thread — does major-complex membership track Shapley pivotality?](org_frontier/threads/shapley_membership/THREAD.md) — A deep dive into the program's one genuinely novel claim, and the one the committee pressed hardest
+- [Thread — the mediator is a veto player](org_frontier/threads/veto_player/THREAD.md) — The Shapley thread showed the mediator carries the largest Shapley value over the game v(S) = φ_s(S) and
 
 ### Studies
 

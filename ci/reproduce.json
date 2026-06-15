@@ -1663,6 +1663,18 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/coalition_structure/THREAD.md"
+    },
+    {
+      "name": "veto-player",
+      "cmd": "python -m org_frontier.threads.veto_player.veto_player",
+      "expect": [
+        "single-bottleneck forms (one veto player): 115/400",
+        "veto player == argmax-Shapley party: 115/115 = 100.0%",
+        "every dyadic bottleneck is a two-dyad hub: 26/26",
+        "veto player sits in the major complex: 105/115 = 91.3%"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/veto_player/THREAD.md"
     }
   ]
 }

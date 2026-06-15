@@ -1,0 +1,12 @@
+single-bottleneck forms (one veto player): 115/400
+
+The veto player is the Shapley-dominant party:
+    veto player == argmax-Shapley party: 115/115 = 100.0%
+    veto player has positive Shapley:    115/115 = 100.0%
+
+A veto player is necessary but not sufficient for an irreducible determination:
+    triadic (commits a determination): 89/115 = 77.4%
+    dyadic  (a hub that conveys):       26/115 = 22.6%
+    every dyadic bottleneck is a two-dyad hub: 26/26
+
+veto player sits in the major complex: 105/115 = 91.3%
