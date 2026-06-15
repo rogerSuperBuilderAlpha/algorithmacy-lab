@@ -4,6 +4,10 @@ An open computational lab that applies **exact integrated information** (Φ, fro
 [PyPhi](https://github.com/wmayner/pyphi)) to **organizational coordination theory**, and runs an
 **AI-assisted research protocol** that takes a question to a finished quantitative paper.
 
+> **New here? Start with [`OVERVIEW.md`](OVERVIEW.md)** — a five-minute, honest review of what the lab
+> argues, where it actually stands (including what is recovered from other fields and what is genuinely
+> new), and where you could contribute. The directory below is the map; the overview is the orientation.
+
 The thesis it tests: a coordination form is **dyadic** when its cause-effect structure factors into
 independent pieces (it demands *literacy*), and **triadic** when the structure stays irreducible across
 the worker–system–counterpart partition (it demands *algorithmacy*). On systems small enough to compute
