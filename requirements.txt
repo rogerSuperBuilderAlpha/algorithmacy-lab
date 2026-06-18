@@ -1,4 +1,5 @@
 numpy
+scipy  # linear programs for cooperative-game cores (org_frontier/threads/core_stability/)
 matplotlib
 scikit-learn  # learned_surrogate/ and several org_frontier estimation probes
 # phyid — Integrated Information Decomposition, for foundations/phiid_vs_phi/ and the proxy bridge:
