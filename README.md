@@ -63,6 +63,7 @@ Deep single-question dives, each driven by its own results.
 
 - [Thread — the major complex as a coalition structure](org_frontier/threads/coalition_structure/THREAD.md) — The Shapley thread closed on a residual it called structural. Major-complex membership tracks the exact
 - [Thread — the integration credit has no stable split](org_frontier/threads/core_stability/THREAD.md) — The subadditivity thread showed φ_s does not aggregate: a tight pair often out-values the whole that
+- [Thread — normalizing Φ collapses the core to one party](org_frontier/threads/normalization/THREAD.md) — A standing objection to integrated information is that Φ rises with system size, so it should be normalized
 - [Thread — does major-complex membership track Shapley pivotality?](org_frontier/threads/shapley_membership/THREAD.md) — A deep dive into the program's one genuinely novel claim, and the one the committee pressed hardest
 - [Thread — integration does not aggregate](org_frontier/threads/subadditivity/THREAD.md) — "The whole is more than the sum of its parts" is the slogan integrated information is supposed to make
 - [Thread — the mediator is a veto player](org_frontier/threads/veto_player/THREAD.md) — The Shapley thread showed the mediator carries the largest Shapley value over the game v(S) = φ_s(S) and
