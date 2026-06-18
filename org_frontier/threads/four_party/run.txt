@@ -1,0 +1,12 @@
+four-party forms with a defined major complex: 50/50
+
+The three-party structural laws hold at four parties:
+    major complex in argmax set (tie-tolerant): 50/50 = 100.0%
+    subadditive split exists:                   50/50 = 100.0%
+    core empty (no stable split):               50/50 = 100.0%
+    single bottleneck is the Shapley-argmax party: 7/7 = 100.0%
+    mean top-party Shapley share (irreducible forms): 0.753
+
+New at four parties — the bottleneck can be a set of parties:
+    veto-set sizes (parties in every integrating coalition): {0: 42, 1: 7, 3: 1}
+    forms with a joint bottleneck (>=2 parties): 1/50 = 2.0%
