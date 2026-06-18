@@ -65,6 +65,7 @@ Deep single-question dives, each driven by its own results.
 - [Thread — the integration credit has no stable split](org_frontier/threads/core_stability/THREAD.md) — The subadditivity thread showed φ_s does not aggregate: a tight pair often out-values the whole that
 - [Thread — the mediator takes the credit, the excluded party owes it](org_frontier/threads/credit_concentration/THREAD.md) — The veto thread showed the mediator carries the largest Shapley value. This thread measures how much
 - [Thread — the cooperative-game laws at four parties](org_frontier/threads/four_party/THREAD.md) — Seven threads read integrated information as a cooperative game, and all of them ran on three-party forms
+- [Thread — inside a joint bottleneck the credit is shared](org_frontier/threads/joint_bottleneck/THREAD.md) — The four-party thread found a structure three parties cannot show: a bottleneck that is a set of parties,
 - [Thread — normalizing Φ collapses the core to one party](org_frontier/threads/normalization/THREAD.md) — A standing objection to integrated information is that Φ rises with system size, so it should be normalized
 - [Thread — does major-complex membership track Shapley pivotality?](org_frontier/threads/shapley_membership/THREAD.md) — A deep dive into the program's one genuinely novel claim, and the one the committee pressed hardest
 - [Thread — integration does not aggregate](org_frontier/threads/subadditivity/THREAD.md) — "The whole is more than the sum of its parts" is the slogan integrated information is supposed to make

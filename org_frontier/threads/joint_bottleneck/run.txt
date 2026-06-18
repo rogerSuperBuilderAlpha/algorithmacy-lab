@@ -1,0 +1,11 @@
+four-party forms scanned: 400
+forms with a joint bottleneck (veto set >= 2 parties): 16
+
+The credit concentrates on the bottleneck set:
+    bottleneck members are the top Shapley parties: 16/16 = 100.0%
+    every bottleneck member has positive Shapley:   15/16 = 93.8%
+    every outsider has non-positive Shapley:        9/16 = 56.2%
+
+Inside the set the credit is shared, not winner-take-all:
+    mean within-set Shapley ratio (min/max, 1 = equal): 0.783
+    lowest within-set ratio seen (most unequal):        0.122

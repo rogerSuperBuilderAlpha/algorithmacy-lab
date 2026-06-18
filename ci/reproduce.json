@@ -1736,6 +1736,18 @@
       ],
       "timeout": 900,
       "source": "org_frontier/threads/four_party/THREAD.md"
+    },
+    {
+      "name": "joint-bottleneck",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.joint_bottleneck.joint_bottleneck",
+      "expect": [
+        "forms with a joint bottleneck (veto set >= 2 parties): 16",
+        "bottleneck members are the top Shapley parties: 16/16 = 100.0%",
+        "mean within-set Shapley ratio (min/max, 1 = equal): 0.783"
+      ],
+      "timeout": 1800,
+      "source": "org_frontier/threads/joint_bottleneck/THREAD.md"
     }
   ]
 }
