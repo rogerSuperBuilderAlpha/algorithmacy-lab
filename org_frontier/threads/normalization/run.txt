@@ -1,0 +1,9 @@
+usable forms: 298/300
+
+Normalizing exclusion (max phi_s per element) collapses the core to one party:
+    density-maximal subset is a single party: 281/298 = 94.3%
+    mean size — absolute major complex: 1.70 | density-maximal: 1.07
+
+It also mis-reads multi-party coordinations:
+    triadic forms whose density-maximal subset is a lone party: 146/158 = 92.4%
+    multi-party complexes that density shrinks (over size>=2): 16/184 = 8.7%
