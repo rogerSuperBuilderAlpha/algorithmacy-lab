@@ -1675,6 +1675,18 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/veto_player/THREAD.md"
+    },
+    {
+      "name": "subadditivity",
+      "cmd": "python -m org_frontier.threads.subadditivity.subadditivity",
+      "expect": [
+        "forms with a subadditive split (whole < parts): 296/300 = 98.7%",
+        "forms that are superadditive everywhere:        4/300 = 1.3%",
+        "dilution at the top (phi_s(whole) < best pair):                               197/300 = 65.7%",
+        "dilution coincides with a proper-subset major complex (exclusion): 197/197 = 100.0%"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/subadditivity/THREAD.md"
     }
   ]
 }
