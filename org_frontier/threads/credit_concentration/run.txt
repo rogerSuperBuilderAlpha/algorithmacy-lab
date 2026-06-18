@@ -1,0 +1,12 @@
+triadic forms with v(N) > 0: 158
+
+The integration credit concentrates on one party:
+    mean top-party Shapley share: 1.023
+    top party holds a majority (> 50%): 136/158 = 86.1%
+    top party holds almost all (> 90%): 85/158 = 53.8%
+    mean Gini of the credit (0 equal, 1 concentrated): 0.429
+
+Concentration tracks exclusion:
+    full triads (|core| = 3), mean top share: 0.531  (n=25)
+    sub  triads (|core| < 3), mean top share: 1.116  (n=133)
+    sub triads where an excluded party has negative Shapley: 104/133 = 78.2%
