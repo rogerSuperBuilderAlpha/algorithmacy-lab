@@ -1711,6 +1711,18 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/normalization/THREAD.md"
+    },
+    {
+      "name": "credit-concentration",
+      "cmd": "python -m org_frontier.threads.credit_concentration.credit_concentration",
+      "expect": [
+        "triadic forms with v(N) > 0: 158",
+        "top party holds a majority (> 50%): 136/158 = 86.1%",
+        "full triads (|core| = 3), mean top share: 0.531  (n=25)",
+        "sub triads where an excluded party has negative Shapley: 104/133 = 78.2%"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/credit_concentration/THREAD.md"
     }
   ]
 }
