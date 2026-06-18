@@ -1687,6 +1687,18 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/subadditivity/THREAD.md"
+    },
+    {
+      "name": "core-stability",
+      "cmd": "python -m org_frontier.threads.core_stability.core_stability",
+      "expect": [
+        "core non-empty (a stable allocation exists): 11/300 = 3.7%",
+        "Shapley value lies in the core:              7/300 = 2.3%",
+        "dilution forms (v(N) < best pair), core non-empty:    0/197 = 0.0%",
+        "veto-player forms with a non-empty core: 8/236 = 3.4%"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/core_stability/THREAD.md"
     }
   ]
 }

@@ -1,0 +1,12 @@
+forms: 300
+
+A stable division of the integration credit rarely exists:
+    core non-empty (a stable allocation exists): 11/300 = 3.7%
+    Shapley value lies in the core:              7/300 = 2.3%
+
+Subadditive dilution is what empties the core:
+    dilution forms (v(N) < best pair), core non-empty:    0/197 = 0.0%
+    no-dilution forms (v(N) >= best pair), core non-empty: 11/103 = 10.7%
+
+A bottleneck confers power, not stability:
+    veto-player forms with a non-empty core: 8/236 = 3.4%
