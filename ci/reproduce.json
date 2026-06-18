@@ -1723,6 +1723,19 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/credit_concentration/THREAD.md"
+    },
+    {
+      "name": "four-party",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.four_party.four_party",
+      "expect": [
+        "major complex in argmax set (tie-tolerant): 50/50 = 100.0%",
+        "subadditive split exists:                   50/50 = 100.0%",
+        "core empty (no stable split):               50/50 = 100.0%",
+        "single bottleneck is the Shapley-argmax party: 7/7 = 100.0%"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/threads/four_party/THREAD.md"
     }
   ]
 }
