@@ -53,3 +53,9 @@ weaker, is not settled here — the within-set ratio sits near 0.78, not at 1. T
 forms at one seed, and the count of joint bottlenecks will move with the population. Everything is in-silico.
 The result is the next step the four-party thread named: the joint bottleneck is real, its members each
 inherit veto standing, and the credit they capture they share.
+
+The bottleneck-symmetry thread takes the sharing question further and revises this picture. The 0.78
+average is a blend of two regimes: veto pairs that are interchangeable in the game split the credit exactly
+evenly (ratio 1.000), and pairs that are merely both indispensable but distinct split it about 0.4. The
+within-set sharing is the symmetry axiom, bimodal, not a single tendency toward even. See
+`org_frontier/threads/bottleneck_symmetry/THREAD.md`.
