@@ -1748,6 +1748,19 @@
       ],
       "timeout": 1800,
       "source": "org_frontier/threads/joint_bottleneck/THREAD.md"
+    },
+    {
+      "name": "bottleneck-symmetry",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.bottleneck_symmetry.bottleneck_symmetry",
+      "expect": [
+        "veto-pair forms (bottleneck of exactly two parties): 22",
+        "interchangeable pairs: 13/22 = 59.1%",
+        "mean within-set Shapley ratio when interchangeable:     1.000",
+        "mean within-set Shapley ratio when not interchangeable: 0.408"
+      ],
+      "timeout": 1800,
+      "source": "org_frontier/threads/bottleneck_symmetry/THREAD.md"
     }
   ]
 }

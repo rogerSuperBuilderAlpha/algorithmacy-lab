@@ -1,0 +1,9 @@
+four-party forms scanned: 600
+veto-pair forms (bottleneck of exactly two parties): 22
+
+The within-set sharing is the symmetry axiom, and it is bimodal:
+    interchangeable pairs: 13/22 = 59.1%
+    mean within-set Shapley ratio when interchangeable:     1.000
+    mean within-set Shapley ratio when not interchangeable: 0.408
+
+    (the joint-bottleneck thread's 0.78 average was a blend of these two regimes)
