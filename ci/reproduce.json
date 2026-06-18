@@ -1699,6 +1699,18 @@
       ],
       "timeout": 180,
       "source": "org_frontier/threads/core_stability/THREAD.md"
+    },
+    {
+      "name": "normalization",
+      "cmd": "python -m org_frontier.threads.normalization.normalization",
+      "expect": [
+        "density-maximal subset is a single party: 281/298 = 94.3%",
+        "mean size — absolute major complex: 1.70 | density-maximal: 1.07",
+        "triadic forms whose density-maximal subset is a lone party: 146/158 = 92.4%",
+        "multi-party complexes that density shrinks (over size>=2): 16/184 = 8.7%"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/threads/normalization/THREAD.md"
     }
   ]
 }
