@@ -186,10 +186,15 @@ share against an equal 0.33, because committing binds every party while the winn
 to exclusion. The [back-edge thread](../threads/back_edge/THREAD.md) isolates what earns the power: a
 broadcast or a chain, which cut the return path, produce no integration at all, so the feedback edge is what
 lets a mediator commit. The bridge to organizations is still unbuilt, since the parties remain nodes in a
-Boolean model.
-Irreducibility is explored on these models, not established for organizations. None of this replaces Φ.
-Integrated information is the object, and cooperative game theory is a language that makes the shape of that
-object legible and ties it to how coordination is theorized elsewhere.
+Boolean model, and irreducibility is explored on these models, not established for organizations. That gap is
+where these results do their work, and it does not diminish them: the cluster is a set of priors, pre-disclosed
+baselines for how a coordination's integration and credit should behave under stated couplings, fixed and
+reproducible before any real arrangement is read. The [prior-catalog essay](the_prior_catalog.md) sets out
+why building the baselines first, in quantity, is the method itself — a mediated triad that should hold a
+stable core, a forward-only mediator that should not integrate, are expectations a real case can later be
+measured against, fixed before the data and never after. None of this replaces Φ. Integrated information is the
+object, and cooperative game theory is a language that makes the shape of that object legible and ties it to
+how coordination is theorized elsewhere.
 
 ## Revision note
 
