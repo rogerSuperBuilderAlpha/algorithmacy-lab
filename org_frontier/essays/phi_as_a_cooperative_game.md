@@ -15,36 +15,53 @@ over the states the subset can reach. Read φ_s as the worth of a coalition: v(S
 the players, and a coalition's worth is how irreducibly it coordinates.
 
 This turns IIT's central object into a game-theoretic one. The **major complex** — the subset IIT's
-exclusion postulate keeps as the locus of integration — is the subset that maximizes φ_s. In the game it
-is a solution concept: the coalition that forms. The threads ask what kind of game v is, what solution
-concept the major complex implements, and how the credit for the coordination's integration distributes
-among the parties. The construction is a re-description of structure φ_s already has, in a language built
-for exactly these questions.
+exclusion postulate keeps as the locus of integration — is the subset that maximizes φ_s, the argmax of
+the characteristic function. The threads ask what kind of game v is, how the major complex sits in it, and
+how the credit for the coordination's integration distributes among the parties. The construction is a
+re-description of structure φ_s already has, in a language built for exactly these questions.
+
+Two scope conditions govern everything below, and both qualify the numbers. First, **the forms are random
+Boolean truth tables** — each node's update rule is drawn by independent coin-flips — sampled for coverage,
+not a model of any organizational population. Every percentage here is a frequency over that distribution,
+and a uniform-random Boolean network is generically near-chaotic or near-constant; coordination forms are a
+structured corner of the space. The rates are properties of φ_s on a coverage sample, and they move with
+the population. A prior study in the program, [q122](../questions/q122_game_validity/paper.md), audited the
+same value function on the *structured* coordination forms the dissertation actually uses and returned a
+split verdict: there the game was monotone and superadditive with zero violations, the opposite of the
+random-form behavior reported below. Where the two populations disagree, the structured one carries the
+dissertation's claims. Second, **the singleton convention is not uniform across the threads**: the
+membership game scores a lone party at zero, the allocation games at the party's intrinsic φ. Several
+results below depend on which, and the text flags it where it bites.
 
 ## The major complex is the coalition that forms
 
-The exclusion postulate, in coalition language, selects the maximally integrated coalition. The
-coalition-structure thread confirms this directly: the major complex is the φ_s-argmax subset in every
-form, up to ties. The same postulate, applied recursively — keep the maximal complex, remove it, recurse —
-is a greedy generator of a coalition structure, and that structure matches the partition of maximal total
-worth 88% of the time. Exclusion is a winner-take-all coalition-formation rule, near-optimal as a
-structure generator and myopic in the rest.
+The exclusion postulate, in coalition language, selects the maximally integrated coalition: the major
+complex is the φ_s-argmax subset, up to ties, in every form. This is near-definitional, since IIT defines
+the major complex as the subset of maximal φ_s, so the 100% is a consistency check that the translation
+v(S) = φ_s(S) is faithful. The empirical content sits in the next step. The same postulate
+applied recursively — keep the maximal complex, remove it, recurse — is a greedy generator of a coalition
+structure, and that structure matches the partition of maximal total worth 88% of the time, near-optimal
+and myopic in the rest. The argmax of a set function is not itself a named cooperative-game solution
+concept; the clean object here is the correspondence between exclusion and argmax selection, and between
+condensation and greedy coalition-structure generation.
 
 This reading also settled a residual the program had read as deep. Single-node membership in the major
 complex tracks the exact Shapley value over v at rank-AUC 0.87, not 1.0, and the gap looked structural.
-Scoring each coalition by its worth across all states, rather than at the one state where the complex
+Scoring each coalition by its worth across all states, instead of at the one state where the complex
 forms, was the source: at the right state a node-level marginal recovers membership at AUC 0.98. The
 ceiling was state aggregation.
 
 ## The mediator has three names
 
-In a mediated triad the same party answers to three descriptions, and the game ties them together. It is
-the **pivotal** party, carrying the largest Shapley value. It is the **bottleneck**, a party in every
-integrating coalition — a veto player. And it is the party with **no outside option**, the platform
-position. The veto reading explains the Shapley reading: a veto player carries the maximal Shapley value
-by a standard theorem, so the mediator dominates the credit because every productive coalition needs it.
-On the models this holds exactly — when a single bottleneck exists, it is the Shapley-argmax party in every
-case.
+When a form has a single bottleneck — a party in every integrating coalition — that party answers to three
+descriptions at once, and the game ties them together. It is the **pivotal** party, carrying the largest
+Shapley value. It is the **bottleneck** itself, a veto player. And it sits where a platform sits, with **no
+outside option** for the others. The standard theorem that a veto player carries the maximal Shapley value
+is about simple or monotone games and a party in every *winning* coalition; this game is neither simple nor
+monotone, and the bottleneck is defined over *integrating* coalitions, so the theorem motivates the question
+but does not apply. The result is therefore empirical, not deductive: when a single bottleneck exists, it is
+the Shapley-argmax party in every form found, 115 of 115. The motivating intuition holds, and the proof that
+would guarantee it does not transfer.
 
 A bottleneck is necessary for irreducible mediation and not sufficient for it. A quarter of single-
 bottleneck forms are dyadic hubs: a party bridges two parties one at a time, indispensable to each pairing,
@@ -55,51 +72,66 @@ keeps structural indispensability and committed determination as two different p
 ## Integration does not aggregate
 
 The slogan that integrated information is supposed to make precise — the whole is more than the sum of its
-parts — is, as a claim about φ_s, false. Read as superadditivity, v(S ∪ T) ≥ v(S) + v(T), it almost never
-holds: 99% of forms have a disjoint split where the whole is worth less than its parts, and adding a party
-to a coalition usually lowers its integration. The synergy the slogan reaches for is real only at the
-bottom edge, where two parties that integrate with no one alone form an integrating dyad. Above that edge a
-third party dilutes, dropping the whole below its tightest pair by more than a full unit of φ. The word the
-structure supports is irreducible, not more-than-the-sum: a selected subset is irreducible, and integration
+parts — has a wrong formalization that is worth ruling out. Read as superadditivity, v(S ∪ T) ≥ v(S) + v(T),
+it almost never holds on these random forms: 99% have a disjoint split where the whole is worth less than
+its parts. Two caveats keep this from being a refutation of IIT. The sum v(S) + v(T) is inflated by scoring
+each lone party at its intrinsic φ, and comparing φ across system sizes is a comparison IIT itself treats as
+not meaningful, so part of the subadditivity is a bookkeeping choice rather than a fact about integration.
+And IIT never claimed φ is superadditive: it cashes out "more than the sum of the parts" as irreducibility,
+φ > 0 for the whole, not as φ_whole > Σφ_parts. So the finding concerns the formalization: superadditivity
+is the wrong reading of the slogan. The synergy the slogan reaches for is real at the bottom edge,
+where two parties that integrate with no one alone form an integrating dyad. Above that edge a third party
+dilutes, dropping the whole below its tightest pair. The word the structure supports is irreducible: a
+selected subset is irreducible, and integration
 is a property that subset has, not a quantity that accumulates across a merge.
 
 ## The credit has no stable split
 
-Subadditivity has a sharp consequence on the allocation side. If a tight pair out-values the whole, no way
-of dividing the whole's worth keeps that pair in, so the core is empty. It is empty in 96% of three-party
-forms and in every four-party form tested, and the Shapley value — the canonical fair split — is stable in
-2%. The contestation has an exact cause: among the forms where a pair out-values the whole, the core is
-empty in every one. And the bottleneck that captures the credit does not stabilize it. A veto player
-guarantees a non-empty core in a monotone simple game, but this game is neither, and the guarantee fails.
-The mediator holds the credit and not the peace.
+The empty core, the credit concentration below, and the subadditivity above are one mechanism seen three
+times: φ_s does not aggregate across a merge, so a tight subset out-values the whole that contains it. On
+the allocation side this is sharp. If a pair out-values the whole, no way of dividing the whole's worth
+keeps that pair in, so the core is empty — in 96% of three-party random forms and in every four-party random
+form tested, with the Shapley value stable in 2%. The cause is exact: among the forms where a pair
+out-values the whole, the core is empty in every one, which is the dilution restated as a blocking pair, not
+a second finding. And the bottleneck that captures the credit does not stabilize it. A veto player
+guarantees a non-empty core in a monotone simple game; this game is neither, and the guarantee fails. The
+mediator holds the credit and not the peace.
 
-Who is paid follows the same logic. In a triadic form the credit concentrates on one party — a majority of
-it in 86% of forms — and the degree tracks exclusion. When all parties are in the major complex the credit
-is shared; when exclusion drops a party the credit goes winner-take-all, and the dropped party's Shapley
-value turns negative. A party outside the irreducible core does not merely fail to add integration. Its
-presence lowers the integration of the coalitions it joins, so it is charged for the drop, and the central
-party is credited past the whole's worth.
+Who is paid follows the same mechanism. In a triadic form the credit concentrates on one party — a majority
+of it in 86% of random forms — and the degree tracks exclusion. When all parties are in the major complex
+the credit is shared; when exclusion drops a party it goes to one, and the dropped party's Shapley value
+turns negative. A party outside the irreducible core lowers the integration of the coalitions it joins, so
+its marginal contribution is below zero, and the central party is credited past the whole's worth to balance
+the books. This is the same dilution again, now read as a payment.
 
-## Why the credit cannot be normalized away
+## Normalizing exclusion, and what it would cost
 
 A standing objection to integrated information is that Φ grows with system size and should be normalized
-before systems are compared. The game says what normalizing would cost. A per-element exclusion rule keeps
-the subset of largest φ_s per party, and that subset is a single party in 94% of forms and in 92% of
-triadic ones, against an absolute major complex that averages well above one. Dividing by size rewards the
-smallest unit, so the multi-party core the whole framework is about collapses to a point. Absolute φ_s is
-what lets IIT pick out a coordination at all. The objection, run on the models, argues for the choice it
-meant to question.
+before systems are compared. A per-element exclusion rule keeps the subset of largest φ_s per party, and on
+these forms that subset is a single party in 94% of cases, against an absolute major complex that averages
+above one. The mechanism is mundane: dividing by size rewards the smallest unit, so a lone party with
+intrinsic φ wins the per-element contest. The control settles how much this is about coordinations. Forbid
+singletons and score density over coalitions of two or more, and the per-element and absolute rules agree in
+91% of forms — the collapse is the lone party winning, not a re-ranking of multi-party coordinations. So the
+claim this supports is narrow: per-element normalization, applied across the whole lattice, lets a single
+element win on density, and absolute φ_s avoids that. The literature's normalization critique is about large
+systems where un-normalized Φ assigns high values to intuitively inert grids, a regime these three- and
+four-node models do not reach, so this is a small point in its favor, not an answer to it.
 
 ## Four parties, and bottlenecks that are sets
 
 Every result above was first found on three-party forms, the smallest case with a mediated triad, and the
-four-party thread checks them against the charge of being artifacts of a six-coalition lattice. They hold:
-the major complex is still the argmax coalition, the game is still subadditive, a single bottleneck is
-still the Shapley-argmax party, and the empty core holds more strongly. One structure appears that three
-parties cannot show — a bottleneck that is a set, a group of parties each in every integrating coalition.
-Inside such a set the credit is governed by the symmetry axiom and nothing softer: two co-bottlenecks are
-paid identically when they are interchangeable in the game and split the credit about 0.4 to 1 when they
-are not. Joint indispensability shares the reward only between parties that play the same role.
+four-party thread checks them against the charge of being artifacts of a six-coalition lattice. They hold on
+the fifty four-party forms tested: the major complex is still the argmax coalition, the game is still
+subadditive, a single bottleneck is still the Shapley-argmax party, and the empty core holds in every one.
+One structure appears that three parties cannot show — a bottleneck that is a set, a group of parties each in
+every integrating coalition. The frequencies here rest on small single-seed samples — a joint bottleneck
+turned up in one of fifty forms, and the within-set sharing is measured over twenty-two veto pairs — so the
+counts are unstable and only the qualitative shape is claimed. Inside such a set the credit splits two ways,
+governed by the symmetry axiom: two co-bottlenecks are paid identically when they are interchangeable in the
+game, a theorem, and split it unevenly, around 0.4, when they are not. The mix of the two regimes is roughly
+even in the sample but its rate is a small-sample estimate. Joint indispensability shares the reward only
+between parties that play the same role.
 
 ## What is recovered and what is added
 
@@ -108,27 +140,50 @@ a check that the translation is faithful rather than a discovery. A veto player 
 value; interchangeable players carry equal Shapley; a subcoalition worth more than the whole empties the
 core. These had to hold, and they do, exactly.
 
-What the program adds is the mapping and the measurements. That IIT's exclusion postulate is the argmax of
-the φ_s coalition game, and condensation a greedy coalition-structure generator, is a translation of a
-physical postulate into a solution concept, and it is exact on the models. That φ_s is subadditive, that
-its core is almost always empty, that normalizing it collapses the major complex to a point — these are
-properties of integrated information read through the game, not properties of the game alone. And the
-quantitative findings are the program's own: the 0.87 membership-AUC and its diagnosis as state
-aggregation, the 96% empty-core rate, the concentration of credit and its tracking of exclusion, the mix of
-interchangeable and distinct co-bottlenecks. The game theory supplies the questions and the names; the
-answers are facts about Φ.
+What the program adds, stripped of the recovered theorems and the near-definitional argmax identity, is
+narrower than the list of threads suggests. The subadditivity, the empty core, and the credit concentration
+are one mechanism — φ_s not aggregating across a merge — read three ways, and that mechanism is itself the
+exclusion postulate seen as a set function. So the genuinely standalone additions are two. One is a
+diagnostic correction: the prior 0.87 membership ceiling was an artifact of scoring coalitions across all
+reachable states instead of at the state where the complex forms, and at the right state a node-level
+marginal recovers membership at 0.98. That is the strongest result here, a real self-correction. The other
+is a set of measured frequencies on the random-form population — the empty-core rate, the condensation gap,
+the concentration of credit, the interchangeable-pair mix — which describe φ_s on a coverage sample and
+await an organizationally motivated population to mean more. The game theory supplies the questions and the
+names; the answers are facts about Φ on these models, and the lens re-describes rather than predicts.
 
 ## What it says for the dissertation
 
-The cooperative-game lens grounds the dissertation's claims about mediated coordination in precise objects.
-Algorithmacy — a mediating system that commits a determination both parties must heed — is a form whose
-major complex binds the parties irreducibly, and the committing system is the veto player that captures the
-credit and has no outside option. Commit-versus-convey is the line between the triadic mediator and the
-dyadic hub, between a bottleneck that binds and one that relays. The platform's hold on value is the
-mediator's Shapley dominance, and the instability of that hold is the empty core: the arrangement runs as a
-process while the credit for it stays contested. None of this replaces Φ. The exploration is the
-contribution — integrated information is the object, and cooperative game theory is a language that makes
+The cooperative-game objects are candidate formalizations of the dissertation's constructs, offered for
+their suggestiveness, with one gap that sets the limit: the forms are random Boolean truth tables, and there is
+no mediator, platform, or party-with-an-outside-option wired into the population. A node is called the
+mediator after the fact, because a random form happened to make it indispensable. So these are analogies,
+not identities. Algorithmacy — a mediating system that commits a determination both parties must heed —
+has a candidate image as a form whose major complex binds the parties irreducibly, with the committing
+system the veto player that carries the credit. Commit-versus-convey has the firmest contact with the math,
+since it is a structural distinction the models exhibit: the triadic mediator binds where the dyadic hub
+relays, and a quarter of single-bottleneck forms fall on the relay side. The platform reading and the
+contestability reading are looser, the second especially, since the empty core is a mechanical consequence
+of φ_s being subadditive on this sample, a property of the measure more than of coordination. The experiment
+that would turn the analogies into findings is not yet built: a population with a designated mediator
+architecture, on which one could test whether the veto player coincides with the designed mediator above
+chance. Until then irreducibility is explored on these models, not established for organizations. None of
+this replaces Φ. Integrated information is the object, and cooperative game theory is a language that makes
 the shape of that object legible and ties it to how coordination is theorized elsewhere.
+
+## Revision note
+
+This essay was revised in response to a four-member committee panel
+(`cooperative_game_committee_review.md`). The changes, by the panel's consolidated list: every percentage is
+now marked a frequency over a random-Boolean coverage sample chosen for breadth (1); q122's
+split verdict on the structured forms is cited in the construction section (2); the dissertation section is
+demoted from identity to analogy with the missing-experiment gap named (3); the veto–Shapley and symmetry
+results are stated as empirical, with the theorems flagged as motivating but inapplicable on a non-monotone
+game (4); the argmax-is-major-complex identity is labelled near-definitional where it appears, beyond
+the recovery section alone (5); the size-≥2 normalization control (91% agreement) is added and the claim narrowed
+(6); the singleton convention is named and "the slogan is false" reframed as "superadditivity is the wrong
+reading" (7); the empty-core, concentration, and subadditivity results are stated once as one mechanism, and
+"solution concept" and "winner-take-all coalition formation" are demoted to argmax language (8).
 
 ## The threads
 
