@@ -1844,6 +1844,17 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/gate_logic/THREAD.md"
+    },
+    {
+      "name": "substitutability",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.substitutability.substitutability",
+      "expect": [
+        "team (platform needs both: S=A&B&C): triadic=12/400 S-veto|integrating=158/158 both-workers-in-core=12/12 workers-interchangeable=12/12",
+        "pool (either suffices:    S=(A|B)&C): triadic=0/400 S-veto|integrating=225/225 both-workers-in-core=0/0 workers-interchangeable=0/0"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/substitutability/THREAD.md"
     }
   ]
 }
