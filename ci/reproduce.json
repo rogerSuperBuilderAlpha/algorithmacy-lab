@@ -1832,6 +1832,18 @@
       "timeout": 900,
       "source": "org_frontier/threads/cyclic/THREAD.md",
       "slow": true
+    },
+    {
+      "name": "gate-logic",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.gate_logic.gate_logic",
+      "expect": [
+        "AND  mediator: triadic=71/600 (12%) S-veto|integrating=287/287=100% S-share|triadic=0.667",
+        "XOR  mediator: triadic=143/600 (24%) S-veto|integrating=143/143=100% S-share|triadic=0.333",
+        "XNOR mediator: triadic=143/600 (24%) S-veto|integrating=143/143=100% S-share|triadic=0.333"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/gate_logic/THREAD.md"
     }
   ]
 }

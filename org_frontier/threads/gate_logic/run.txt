@@ -1,0 +1,5 @@
+Coordination logic in the mediated star: S = gate(W,C); parties heed S with random rules.
+AND  mediator: triadic=71/600 (12%) S-veto|integrating=287/287=100% S-share|triadic=0.667
+OR   mediator: triadic=71/600 (12%) S-veto|integrating=300/300=100% S-share|triadic=0.667
+XOR  mediator: triadic=143/600 (24%) S-veto|integrating=143/143=100% S-share|triadic=0.333
+XNOR mediator: triadic=143/600 (24%) S-veto|integrating=143/143=100% S-share|triadic=0.333
