@@ -2003,6 +2003,17 @@
       ],
       "timeout": 400,
       "source": "org_frontier/threads/topology_four/THREAD.md"
+    },
+    {
+      "name": "competing-platforms",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.competing_platforms.competing_platforms",
+      "expect": [
+        "identical platforms (both AND): triadic=141/400 a-platform-is-veto|integrating=103/343 S1<->S2-credit-ratio=0.715",
+        "different platforms (AND, OR) : triadic=178/400 a-platform-is-veto|integrating=171/319 S1<->S2-credit-ratio=0.569"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/threads/competing_platforms/THREAD.md"
     }
   ]
 }
