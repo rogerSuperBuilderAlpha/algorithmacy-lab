@@ -1786,6 +1786,17 @@
       ],
       "timeout": 400,
       "source": "org_frontier/threads/back_edge/THREAD.md"
+    },
+    {
+      "name": "structured-forms",
+      "cmd": "python -m org_frontier.threads.structured_forms.structured_forms",
+      "expect": [
+        "core non-empty (a stable split exists): 110/110 = 100.0%",
+        "a pair out-values the whole (dilution): 0/110 = 0.0%",
+        "curated triadic forms with a non-empty core: 2/3"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/structured_forms/THREAD.md"
     }
   ]
 }
