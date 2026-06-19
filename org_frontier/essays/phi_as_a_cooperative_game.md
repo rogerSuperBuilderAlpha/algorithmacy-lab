@@ -164,12 +164,19 @@ system the veto player that carries the credit. Commit-versus-convey has the fir
 since it is a structural distinction the models exhibit: the triadic mediator binds where the dyadic hub
 relays, and a quarter of single-bottleneck forms fall on the relay side. The platform reading and the
 contestability reading are looser, the second especially, since the empty core is a mechanical consequence
-of φ_s being subadditive on this sample, a property of the measure more than of coordination. The experiment
-that would turn the analogies into findings is not yet built: a population with a designated mediator
-architecture, on which one could test whether the veto player coincides with the designed mediator above
-chance. Until then irreducibility is explored on these models, not established for organizations. None of
-this replaces Φ. Integrated information is the object, and cooperative game theory is a language that makes
-the shape of that object legible and ties it to how coordination is theorized elsewhere.
+of φ_s being subadditive on this sample, a property of the measure more than of coordination. The
+[designed-mediator thread](../threads/designed_mediator/THREAD.md) takes the first step the committee asked
+for: it wires a mediator into the architecture and checks whether the cooperative-game structure lands on
+it. It does — the wired bottleneck is the veto player and a major-complex member where a symmetric control
+privileges no position — so the program's mediator tracks a designed architecture and is no label on
+noise. But the experiment disciplines the reading rather than confirming it. Wiring buys the mediator its
+position and not its power: only 9% of designed-mediator forms commit, so the irreducible determination is
+earned by the rules; and a mediator that does commit shares the credit, a 0.53 Shapley share against an
+equal 0.33, because committing binds every party, while the winner-take-all capture belongs to exclusion.
+The bridge to organizations is still unbuilt, since the parties remain nodes in a Boolean model.
+Irreducibility is explored on these models, not established for organizations. None of this replaces Φ.
+Integrated information is the object, and cooperative game theory is a language that makes the shape of that
+object legible and ties it to how coordination is theorized elsewhere.
 
 ## Revision note
 
@@ -192,10 +199,11 @@ reading" (7); the empty-core, concentration, and subadditivity results are state
 | [shapley_membership](../threads/shapley_membership/THREAD.md) | Major-complex membership tracks the exact Shapley value (AUC 0.87); the mediator dominates it. |
 | [coalition_structure](../threads/coalition_structure/THREAD.md) | The major complex is the argmax-φ_s coalition; condensation ≈ the optimal coalition structure (88%). |
 | [veto_player](../threads/veto_player/THREAD.md) | The mediator is a veto player (Shapley-argmax, 100%); a veto player is necessary, not sufficient, for an irreducible determination. |
-| [subadditivity](../threads/subadditivity/THREAD.md) | Integration does not aggregate: φ_s is subadditive in 99% of forms; the slogan is false. |
+| [subadditivity](../threads/subadditivity/THREAD.md) | Integration does not aggregate: φ_s is subadditive in 99% of random forms; superadditivity is the wrong reading of the slogan. |
 | [core_stability](../threads/core_stability/THREAD.md) | The integration credit has no stable split: the core is empty in 96%, emptied by subadditive dilution. |
 | [credit_concentration](../threads/credit_concentration/THREAD.md) | The credit concentrates on one party, by an amount exclusion sets; excluded parties carry negative Shapley. |
 | [normalization](../threads/normalization/THREAD.md) | Normalizing φ_s collapses the major complex to one party (94%); absolute φ_s is load-bearing. |
 | [four_party](../threads/four_party/THREAD.md) | The laws hold at four parties, the empty core more strongly; a bottleneck can be a set. |
 | [joint_bottleneck](../threads/joint_bottleneck/THREAD.md) | A joint bottleneck captures the credit as a set and shares it among its members. |
 | [bottleneck_symmetry](../threads/bottleneck_symmetry/THREAD.md) | Co-bottlenecks are paid equally exactly when interchangeable; the sharing is the symmetry axiom, bimodal. |
+| [designed_mediator](../threads/designed_mediator/THREAD.md) | Wire a mediator and the structure tracks it; wiring buys position, not power — committing is rare (9%) and shares the credit. |

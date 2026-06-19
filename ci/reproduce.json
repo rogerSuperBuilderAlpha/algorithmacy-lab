@@ -1761,6 +1761,19 @@
       ],
       "timeout": 1800,
       "source": "org_frontier/threads/bottleneck_symmetry/THREAD.md"
+    },
+    {
+      "name": "designed-mediator",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.designed_mediator.designed_mediator",
+      "expect": [
+        "wiring a mediator does not force commitment: triadic in 110/1200 = 9.2%",
+        "B is the veto player when anything integrates: 499/499 = 100.0%",
+        "B is in the major complex when triadic: 110/110 = 100.0%",
+        "B's mean Shapley share when triadic: 0.533  (equal split = 0.333)"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/threads/designed_mediator/THREAD.md"
     }
   ]
 }
