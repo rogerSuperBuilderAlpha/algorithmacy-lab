@@ -63,6 +63,7 @@ Bridging the in-silico work to real coordination arrangements: a field protocol 
 
 Deep single-question dives, each driven by its own results.
 
+- [Thread — the back-edge commits; forward-only mediators convey](org_frontier/threads/back_edge/THREAD.md) — The designed-mediator thread wired one architecture, a bidirectional star where the mediator reads the outer
 - [Thread — co-bottlenecks share equally only when interchangeable](org_frontier/threads/bottleneck_symmetry/THREAD.md) — The joint-bottleneck thread reported that the two members of a veto pair share the credit roughly evenly, a
 - [Thread — the major complex as a coalition structure](org_frontier/threads/coalition_structure/THREAD.md) — The Shapley thread closed on a residual it called structural. Major-complex membership tracks the exact
 - [Thread — the integration credit has no stable split](org_frontier/threads/core_stability/THREAD.md) — The subadditivity thread showed φ_s does not aggregate: a tight pair often out-values the whole that

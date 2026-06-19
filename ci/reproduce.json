@@ -1774,6 +1774,18 @@
       ],
       "timeout": 900,
       "source": "org_frontier/threads/designed_mediator/THREAD.md"
+    },
+    {
+      "name": "back-edge",
+      "cmd": "python -m org_frontier.threads.back_edge.back_edge",
+      "expect": [
+        "broadcast (no back-edge)       : forms=400 integrating=0 triadic=0",
+        "chain A->B->C                  : forms=400 integrating=0 triadic=0",
+        "bidirectional star (back-edge): forms=400 integrating=159 triadic=41 veto|integrating=159/159 complex|triadic=41/41 B-share|triadic=0.545",
+        "four-party star (back-edge)    : forms=250 integrating=156 triadic=5 veto|integrating=156/156 complex|triadic=5/5 B-share|triadic=0.556"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/threads/back_edge/THREAD.md"
     }
   ]
 }
