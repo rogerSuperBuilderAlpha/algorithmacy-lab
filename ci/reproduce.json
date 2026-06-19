@@ -1624,7 +1624,7 @@
         "Instrument validated",
         "non-bidirectional in core: 0/660 (categorical necessity holds in this family)",
         "triadic rate: 9.5%",
-        "n=5: Φ=4.0  core=PABCD (size 5)"
+        "n=5: \u03a6=4.0  core=PABCD (size 5)"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/core_membership_law/FINDINGS.md"
@@ -1648,7 +1648,7 @@
         "Instrument validated",
         "Shapley value (avg marginal over all coalitions): 0.870",
         "single-node influence (the study-A measure):      0.632",
-        "Shapley≈+1: 57/57 = 100.0% in core"
+        "Shapley\u2248+1: 57/57 = 100.0% in core"
       ],
       "timeout": 180,
       "source": "org_frontier/threads/shapley_membership/THREAD.md"
@@ -1705,7 +1705,7 @@
       "cmd": "python -m org_frontier.threads.normalization.normalization",
       "expect": [
         "density-maximal subset is a single party: 281/298 = 94.3%",
-        "mean size — absolute major complex: 1.70 | density-maximal: 1.07",
+        "mean size \u2014 absolute major complex: 1.70 | density-maximal: 1.07",
         "triadic forms whose density-maximal subset is a lone party: 146/158 = 92.4%",
         "multi-party complexes that density shrinks (over size>=2): 16/184 = 8.7%"
       ],
@@ -1829,8 +1829,21 @@
         "directed ring (A->B->C->A) : triadic=78/600 (13%) empty-veto|integrating=0/78=0% single-veto|integrating=0/78=0% top-credit-share|triadic=0.333",
         "fully connected (all<->all): triadic=341/600 (57%) empty-veto|integrating=55/453=12% single-veto|integrating=182/453=40% top-credit-share|triadic=0.944"
       ],
-      "timeout": 300,
-      "source": "org_frontier/threads/cyclic/THREAD.md"
+      "timeout": 900,
+      "source": "org_frontier/threads/cyclic/THREAD.md",
+      "slow": true
+    },
+    {
+      "name": "gate-logic",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.gate_logic.gate_logic",
+      "expect": [
+        "AND  mediator: triadic=71/600 (12%) S-veto|integrating=287/287=100% S-share|triadic=0.667",
+        "XOR  mediator: triadic=143/600 (24%) S-veto|integrating=143/143=100% S-share|triadic=0.333",
+        "XNOR mediator: triadic=143/600 (24%) S-veto|integrating=143/143=100% S-share|triadic=0.333"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/gate_logic/THREAD.md"
     }
   ]
 }
