@@ -1855,6 +1855,130 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/substitutability/THREAD.md"
+    },
+    {
+      "name": "memory",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.memory.memory",
+      "expect": [
+        "memoryless S (reads W,C)    : triadic=62/600 (10%) S-veto|integrating=252/252=100% S-share|triadic=0.554",
+        "S remembers (reads W,S,C)   : triadic=61/600 (10%) S-veto|integrating=341/341=100% S-share|triadic=0.881",
+        "everyone remembers          : triadic=55/600 (9%) S-veto|integrating=372/372=100% S-share|triadic=0.716"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/memory/THREAD.md"
+    },
+    {
+      "name": "observer",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.observer.observer",
+      "expect": [
+        "P observes S (reads S, read by none) : usable=164 S-veto|integrating=164/164 P-in-major-complex=0/164",
+        "P acts on C (reads S, and C reads P) : usable=203 S-veto|integrating=203/203 P-in-major-complex=49/203"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/observer/THREAD.md"
+    },
+    {
+      "name": "noise",
+      "cmd": "python -m org_frontier.threads.noise.noise",
+      "expect": [
+        "AND mediator (S=W&C): e=0.00:Phi=2.000(100%)  e=0.02:Phi=1.802(90%)  e=0.05:Phi=1.533(77%)  e=0.10:Phi=1.155(58%)  e=0.20:Phi=0.611(31%)  e=0.30:Phi=0.277(14%)",
+        "XOR mediator (S=W^C): e=0.00:Phi=0.500(100%)  e=0.02:Phi=0.476(95%)  e=0.05:Phi=0.439(88%)  e=0.10:Phi=0.377(75%)  e=0.20:Phi=0.255(51%)  e=0.30:Phi=0.144(29%)"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/noise/THREAD.md"
+    },
+    {
+      "name": "fragility",
+      "cmd": "python -m org_frontier.threads.fragility.fragility",
+      "expect": [
+        "AND  mediator: triadic=48 fraction-of-Phi-lost removing the MEDIATOR=1.000 a PARTY=0.000",
+        "XOR  mediator: triadic=98 fraction-of-Phi-lost removing the MEDIATOR=1.000 a PARTY=1.000"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/fragility/THREAD.md"
+    },
+    {
+      "name": "oversight",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.oversight.oversight",
+      "expect": [
+        "no oversight (P only observes S)     : S-veto=164/164 P-veto=0/164 P-in-core=0/164 S-share=n/a P-share=n/a",
+        "oversight (S heeds P; P<->S coupled) : S-veto=255/255 P-veto=53/255 P-in-core=184/350 S-share=0.807 P-share=0.260"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/oversight/THREAD.md"
+    },
+    {
+      "name": "position-of-memory",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.position_of_memory.position_of_memory",
+      "expect": [
+        "mediator credit share: no memory=0.554  with memory=0.881  gain=+0.327",
+        "party    credit share: no memory=0.223  with memory=0.180  gain=-0.043"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/position_of_memory/THREAD.md"
+    },
+    {
+      "name": "coupling-density",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.coupling_density.coupling_density",
+      "expect": [
+        "  4 edges: triadic 0/4 = 0%",
+        "  6 edges: triadic 18/90 = 20%",
+        "  9 edges: triadic 1157/1867 = 62%"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/coupling_density/THREAD.md"
+    },
+    {
+      "name": "phi-ladder",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.phi_ladder.phi_ladder",
+      "expect": [
+        "  Phi=0.415: 616 (37%)",
+        "  Phi=2.000: 251 (15%)",
+        "  on a ladder rung: 1500/1659 = 90%"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/phi_ladder/THREAD.md"
+    },
+    {
+      "name": "quorum",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.quorum.quorum",
+      "expect": [
+        "quorum k=1 (any     ): triadic=12/400 (3%) S-veto|integrating=170/170",
+        "quorum k=2 (majority): triadic=0/400 (0%) S-veto|integrating=247/247",
+        "quorum k=3 (all     ): triadic=12/400 (3%) S-veto|integrating=158/158"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/quorum/THREAD.md"
+    },
+    {
+      "name": "influence-membership",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.influence_membership.influence_membership",
+      "expect": [
+        "  in-core & influential:      2062",
+        "  in-core & no influence:     0",
+        "  out-of-core & influential:  1184"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/threads/influence_membership/THREAD.md"
+    },
+    {
+      "name": "interdependence",
+      "cmd": "python -m org_frontier.threads.interdependence.interdependence",
+      "expect": [
+        "pooled     (parties autonomous, S reads both): triadic=0/600 (0%) integrating-forms=0",
+        "sequential (W->S->C feedforward)             : triadic=0/600 (0%) integrating-forms=0",
+        "reciprocal (W<->S<->C bidirectional)         : triadic=62/600 (10%) integrating-forms=252"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/interdependence/THREAD.md"
     }
   ]
 }

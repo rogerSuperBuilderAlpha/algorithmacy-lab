@@ -1,0 +1,4 @@
+Quorum mediator: S fires if at least k of three parties are active; parties heed S.
+quorum k=1 (any     ): triadic=12/400 (3%) S-veto|integrating=170/170
+quorum k=2 (majority): triadic=0/400 (0%) S-veto|integrating=247/247
+quorum k=3 (all     ): triadic=12/400 (3%) S-veto|integrating=158/158

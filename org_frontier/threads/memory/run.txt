@@ -1,0 +1,4 @@
+Mediator memory: a self-loop gives intrinsic activity. Does it concentrate credit?
+memoryless S (reads W,C)    : triadic=62/600 (10%) S-veto|integrating=252/252=100% S-share|triadic=0.554
+S remembers (reads W,S,C)   : triadic=61/600 (10%) S-veto|integrating=341/341=100% S-share|triadic=0.881
+everyone remembers          : triadic=55/600 (9%) S-veto|integrating=372/372=100% S-share|triadic=0.716

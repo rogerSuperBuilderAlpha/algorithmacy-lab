@@ -1,0 +1,4 @@
+Thompson's interdependence types, read through exact Phi.
+pooled     (parties autonomous, S reads both): triadic=0/600 (0%) integrating-forms=0
+sequential (W->S->C feedforward)             : triadic=0/600 (0%) integrating-forms=0
+reciprocal (W<->S<->C bidirectional)         : triadic=62/600 (10%) integrating-forms=252
