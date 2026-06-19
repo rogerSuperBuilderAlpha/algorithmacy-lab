@@ -2026,6 +2026,18 @@
       ],
       "timeout": 120,
       "source": "org_frontier/threads/canonical_reference/THREAD.md"
+    },
+    {
+      "name": "degree-bottleneck",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.degree_bottleneck.degree_bottleneck",
+      "expect": [
+        "single-veto forms: 788",
+        "  veto player has the max degree:      719/788 = 91%",
+        "  veto player is the unique max-degree: 141/788 = 18%"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/degree_bottleneck/THREAD.md"
     }
   ]
 }
