@@ -1,0 +1,13 @@
+Random-form baselines (from the cluster): core empty in 96%, a pair out-values the whole in 66%.
+
+=== structured mediated-triad family (strict mediation), triadic forms ===
+    triadic forms: 110/1200
+    core non-empty (a stable split exists): 110/110 = 100.0%
+    a pair out-values the whole (dilution): 0/110 = 0.0%
+    mediator mean credit share: 0.533
+
+=== curated, named coordination forms ===
+    ats_strict_bottleneck    core_nonempty=True  dilution=False S-share=0.67
+    gig_false_dyad           core_nonempty=False dilution=False S-share=0.58
+    two_sided_match          core_nonempty=True  dilution=False S-share=0.67
+    curated triadic forms with a non-empty core: 2/3
