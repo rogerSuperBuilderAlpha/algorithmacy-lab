@@ -1,0 +1,9 @@
+Named coordination forms read through the cooperative game (S = the mediator).
+  chat_dyad                dyadic   veto=WS   S-share=n/a 
+  gig_dyadic_model         dyadic   veto=WS   S-share=n/a 
+  ats_strict_bottleneck    triadic  veto=S    S-share=0.67
+  ats_feedback_factors     dyadic   veto=S    S-share=n/a 
+  gig_false_dyad           triadic  veto=S    S-share=0.58
+  pure_relay               dyadic   veto=none S-share=n/a 
+  two_sided_match          triadic  veto=S    S-share=0.67
+  hierarchy_backchannel    dyadic   veto=WC   S-share=n/a 

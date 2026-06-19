@@ -66,6 +66,7 @@ Deep single-question dives, each driven by its own results.
 
 - [Thread — the back-edge commits; forward-only mediators convey](org_frontier/threads/back_edge/THREAD.md) — The designed-mediator thread wired one architecture, a bidirectional star where the mediator reads the outer
 - [Thread — co-bottlenecks share equally only when interchangeable](org_frontier/threads/bottleneck_symmetry/THREAD.md) — The joint-bottleneck thread reported that the two members of a veto pair share the credit roughly evenly, a
+- [Thread — the named coordination forms, read through the cooperative game](org_frontier/threads/canonical_reference/THREAD.md) — A reference for the catalog. The catalog's priors are drawn from random forms; this thread grounds them in
 - [Thread — the major complex as a coalition structure](org_frontier/threads/coalition_structure/THREAD.md) — The Shapley thread closed on a residual it called structural. Major-complex membership tracks the exact
 - [Thread — a genuine substitute loosens a platform's hold](org_frontier/threads/competing_platforms/THREAD.md) — A prior for the catalog. Two platforms connect the same two parties. When the platforms are identical, a
 - [Thread — the integration credit has no stable split](org_frontier/threads/core_stability/THREAD.md) — The subadditivity thread showed φ_s does not aggregate: a tight pair often out-values the whole that
