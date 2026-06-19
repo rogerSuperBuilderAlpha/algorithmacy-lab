@@ -1809,6 +1809,17 @@
       ],
       "timeout": 900,
       "source": "org_frontier/threads/disintermediation/THREAD.md"
+    },
+    {
+      "name": "engagement",
+      "cmd": "python -m org_frontier.threads.engagement.engagement",
+      "expect": [
+        "C heeds S (bidirectional)        : triadic=62/600 (10%) S-veto|integrating=252/252=100% S-share|triadic=0.554 C-in-core|triadic=62/62",
+        "C autonomous (reads only itself) : triadic=0/600 (0%) S-veto|integrating=140/140=100% S-share|triadic=n/a   C-in-core|triadic=0/0",
+        "C reads W, not S (coupled to W)  : triadic=113/600 (19%) S-veto|integrating=197/197=100% S-share|triadic=0.457 C-in-core|triadic=92/113"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/engagement/THREAD.md"
     }
   ]
 }
