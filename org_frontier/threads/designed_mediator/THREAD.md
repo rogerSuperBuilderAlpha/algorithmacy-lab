@@ -56,8 +56,10 @@ mediator binds everyone.
 The veto and membership recoveries are forced by the wiring — A and C cannot integrate without B — so the
 100% figures are consistency checks the wiring forces, and the thread says so. The triadic rate, the
 dyadic-membership rate, and the shared-credit figure are over one designed architecture at one seed; a
-different wiring (a chain, a mediator without back-edges, four parties) would have its own rates, and this
-thread does not survey them. The experiment answers the committee's specific challenge — wire a mediator,
+different wiring (a chain, a mediator without back-edges, four parties) would have its own rates. The
+[back-edge thread](../back_edge/THREAD.md) surveys exactly those: it finds that a broadcast and a chain,
+which cut the return path, produce no integration at all and so only convey, while the four-party star
+behaves like the three-party one. The experiment answers the committee's specific challenge — wire a mediator,
 check the structure tracks it — and the answer is yes for position and a qualified no for power. It does not
 build the organizational bridge, since the parties are still nodes in a Boolean model; it shows that when an
 architecture encodes a mediator, the cooperative-game objects read it correctly, and that committing and
