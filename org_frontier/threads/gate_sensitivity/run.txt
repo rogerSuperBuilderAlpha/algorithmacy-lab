@@ -1,0 +1,5 @@
+Mediator gate sensitivity vs commitment rate (all sixteen two-input gates):
+  sensitivity=0.00: mean commit=0.000  (n_gates=2)
+  sensitivity=0.50: mean commit=0.081  (n_gates=12)
+  sensitivity=1.00: mean commit=0.243  (n_gates=2)
+  correlation(sensitivity, commit) = 0.755
