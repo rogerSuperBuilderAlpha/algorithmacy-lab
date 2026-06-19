@@ -1844,6 +1844,18 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/gate_logic/THREAD.md"
+    },
+    {
+      "name": "phi-ladder",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.phi_ladder.phi_ladder",
+      "expect": [
+        "  Phi=0.415: 616 (37%)",
+        "  Phi=2.000: 251 (15%)",
+        "  on a ladder rung: 1500/1659 = 90%"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/phi_ladder/THREAD.md"
     }
   ]
 }
