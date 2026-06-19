@@ -1844,6 +1844,18 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/gate_logic/THREAD.md"
+    },
+    {
+      "name": "influence-membership",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.influence_membership.influence_membership",
+      "expect": [
+        "  in-core & influential:      2062",
+        "  in-core & no influence:     0",
+        "  out-of-core & influential:  1184"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/threads/influence_membership/THREAD.md"
     }
   ]
 }
