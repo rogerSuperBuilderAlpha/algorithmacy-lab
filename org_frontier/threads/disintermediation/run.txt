@@ -1,0 +1,4 @@
+A direct W<->C channel is the structural outside option. One-way entrenches; two-way disintermediates.
+no back-channel (strict mediator): triadic=62/600 (10%) S-veto|integrating=252/252=100% S-share|triadic=0.554
+one-way back-channel (C reads W) : triadic=175/600 (29%) S-veto|integrating=311/311=100% S-share|triadic=0.881
+two-way back-channel (W<->C)     : triadic=344/600 (57%) S-veto|integrating=200/446=45% S-share|triadic=0.311
