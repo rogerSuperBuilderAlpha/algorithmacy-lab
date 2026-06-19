@@ -1,0 +1,4 @@
+single-veto forms: 788
+  veto player has the max degree:      719/788 = 91%
+  veto player is the unique max-degree: 141/788 = 18%
+Degree predicts the bottleneck (91%) but does not determine it (9% are below max degree).

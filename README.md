@@ -66,11 +66,15 @@ Deep single-question dives, each driven by its own results.
 
 - [Thread — the back-edge commits; forward-only mediators convey](org_frontier/threads/back_edge/THREAD.md) — The designed-mediator thread wired one architecture, a bidirectional star where the mediator reads the outer
 - [Thread — co-bottlenecks share equally only when interchangeable](org_frontier/threads/bottleneck_symmetry/THREAD.md) — The joint-bottleneck thread reported that the two members of a veto pair share the credit roughly evenly, a
+- [Thread — the named coordination forms, read through the cooperative game](org_frontier/threads/canonical_reference/THREAD.md) — A reference for the catalog. The catalog's priors are drawn from random forms; this thread grounds them in
 - [Thread — the major complex as a coalition structure](org_frontier/threads/coalition_structure/THREAD.md) — The Shapley thread closed on a residual it called structural. Major-complex membership tracks the exact
+- [Thread — a genuine substitute loosens a platform's hold](org_frontier/threads/competing_platforms/THREAD.md) — A prior for the catalog. Two platforms connect the same two parties. When the platforms are identical, a
 - [Thread — the integration credit has no stable split](org_frontier/threads/core_stability/THREAD.md) — The subadditivity thread showed φ_s does not aggregate: a tight pair often out-values the whole that
 - [Thread — a coordination needs a threshold of coupling, and commits more readily as it densifies](org_frontier/threads/coupling_density/THREAD.md) — A prior for the catalog. The cyclic thread found a sparse coordination has no bottleneck and a dense one
 - [Thread — the mediator takes the credit, the excluded party owes it](org_frontier/threads/credit_concentration/THREAD.md) — The veto thread showed the mediator carries the largest Shapley value. This thread measures how much
 - [Thread — cyclic coordination has no bottleneck and shares the credit](org_frontier/threads/cyclic/THREAD.md) — A prior for the catalog. The engagement thread found that closing a feedback cycle raises commitment. This
+- [Thread — degree predicts the bottleneck but does not determine it](org_frontier/threads/degree_bottleneck/THREAD.md) — A prior for the catalog. Is a coordination's bottleneck simply the most-connected party? Almost, and not
+- [Thread — delegation moves standing from the worker to its agent](org_frontier/threads/delegation/THREAD.md) — A prior for the catalog. A worker reaches the platform through an agent, a chain of worker, agent, platform
 - [Thread — a designed mediator: position is wired, power is earned](org_frontier/threads/designed_mediator/THREAD.md) — The committee that reviewed the cooperative-game synthesis pressed one objection hardest. Every form in the
 - [Thread — disintermediation needs a symmetric channel; a one-way channel entrenches the mediator](org_frontier/threads/disintermediation/THREAD.md) — A prior for the catalog. The designed-mediator and back-edge threads built a mediator and asked what makes it
 - [Thread — a party is bound by coupling, not by heeding the mediator](org_frontier/threads/engagement/THREAD.md) — A prior for the catalog. The back-edge thread asked what makes a mediator commit and answered the return
@@ -81,6 +85,7 @@ Deep single-question dives, each driven by its own results.
 - [Thread — only reciprocal interdependence binds; pooled and sequential carry no integration](org_frontier/threads/interdependence/THREAD.md) — A prior for the catalog. Thompson's typology of interdependence — pooled, sequential, reciprocal — read
 - [Thread — inside a joint bottleneck the credit is shared](org_frontier/threads/joint_bottleneck/THREAD.md) — The four-party thread found a structure three parties cannot show: a bottleneck that is a set of parties,
 - [Thread — a mediator that remembers takes more of the credit](org_frontier/threads/memory/THREAD.md) — A prior for the catalog. The gate-logic thread varied what the mediator computes. This one varies whether it
+- [Thread — coordination is momentary: a triad is irreducible at a minority of its states](org_frontier/threads/momentary/THREAD.md) — A prior for the catalog, and the one that qualifies the rest. Being a triadic coordination does not mean
 - [Thread — a mediated triad degrades gracefully under noise, and parity degrades slower](org_frontier/threads/noise/THREAD.md) — A prior for the catalog. Real coordination is noisy. This thread perturbs a mediated triad — each node's
 - [Thread — normalizing Φ collapses the core to one party](org_frontier/threads/normalization/THREAD.md) — A standing objection to integrated information is that Φ rises with system size, so it should be normalized
 - [Thread — an observer is never in the core; a member must act, not only watch](org_frontier/threads/observer/THREAD.md) — A prior for the catalog. A coordination often has an audience — a party that watches but is not watched,
@@ -92,6 +97,7 @@ Deep single-question dives, each driven by its own results.
 - [Thread — the empty core is a property of the random sample, not of coordination](org_frontier/threads/structured_forms/THREAD.md) — The committee that reviewed the cooperative-game synthesis pressed one objection above the rest. Every
 - [Thread — integration does not aggregate](org_frontier/threads/subadditivity/THREAD.md) — "The whole is more than the sum of its parts" is the slogan integrated information is supposed to make
 - [Thread — substitutability is the enemy of integration: a pool never binds, a team binds both](org_frontier/threads/substitutability/THREAD.md) — A prior for the catalog. A platform connects two workers to a counterpart. Whether the workers are a team or
+- [Thread — topology sets the credit distribution at four parties too](org_frontier/threads/topology_four/THREAD.md) — A prior for the catalog. The cyclic thread found, at three parties, that a symmetric ring shares the credit
 - [Thread — the mediator is a veto player](org_frontier/threads/veto_player/THREAD.md) — The Shapley thread showed the mediator carries the largest Shapley value over the game v(S) = φ_s(S) and
 
 ### Studies

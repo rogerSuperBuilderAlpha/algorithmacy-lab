@@ -1,0 +1,7 @@
+Delegation chain: worker <-> agent <-> platform <-> counterpart.
+usable forms: 314
+  worker     in major complex: 103/314
+  agent      in major complex: 185/314
+  platform   in major complex: 231/314
+  counterpart in major complex: 148/314
+The agent sits in the core more than the worker it acts for.
