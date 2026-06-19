@@ -2014,6 +2014,18 @@
       ],
       "timeout": 900,
       "source": "org_frontier/threads/competing_platforms/THREAD.md"
+    },
+    {
+      "name": "canonical-reference",
+      "cmd": "python -m org_frontier.threads.canonical_reference.canonical_reference",
+      "expect": [
+        "  ats_strict_bottleneck    triadic  veto=S    S-share=0.67",
+        "  gig_false_dyad           triadic  veto=S    S-share=0.58",
+        "  pure_relay               dyadic   veto=none",
+        "  hierarchy_backchannel    dyadic   veto=WC"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/canonical_reference/THREAD.md"
     }
   ]
 }
