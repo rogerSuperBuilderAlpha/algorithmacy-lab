@@ -2038,6 +2038,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/threads/degree_bottleneck/THREAD.md"
+    },
+    {
+      "name": "momentary",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.momentary.momentary",
+      "expect": [
+        "triadic forms: 1659",
+        "  mean fraction of reachable states that are irreducible: 0.362",
+        "  irreducible at only ONE state: 822/1659 = 50%"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/momentary/THREAD.md"
     }
   ]
 }
