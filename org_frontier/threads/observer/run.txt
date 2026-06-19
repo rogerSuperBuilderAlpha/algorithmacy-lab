@@ -1,0 +1,3 @@
+The fourth party P, around the W-S-C triad. Does it join the core?
+P observes S (reads S, read by none) : usable=164 S-veto|integrating=164/164 P-in-major-complex=0/164
+P acts on C (reads S, and C reads P) : usable=203 S-veto|integrating=203/203 P-in-major-complex=49/203

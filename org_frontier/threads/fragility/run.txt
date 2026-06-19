@@ -1,0 +1,3 @@
+Single point of failure: fraction of integration lost when a node is removed.
+AND  mediator: triadic=48 fraction-of-Phi-lost removing the MEDIATOR=1.000 a PARTY=0.000
+XOR  mediator: triadic=98 fraction-of-Phi-lost removing the MEDIATOR=1.000 a PARTY=1.000
