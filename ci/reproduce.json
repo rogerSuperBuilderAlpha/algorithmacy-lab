@@ -1844,6 +1844,18 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/gate_logic/THREAD.md"
+    },
+    {
+      "name": "quorum",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.quorum.quorum",
+      "expect": [
+        "quorum k=1 (any     ): triadic=12/400 (3%) S-veto|integrating=170/170",
+        "quorum k=2 (majority): triadic=0/400 (0%) S-veto|integrating=247/247",
+        "quorum k=3 (all     ): triadic=12/400 (3%) S-veto|integrating=158/158"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/quorum/THREAD.md"
     }
   ]
 }
