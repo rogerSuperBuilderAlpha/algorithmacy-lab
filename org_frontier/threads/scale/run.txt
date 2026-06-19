@@ -1,0 +1,5 @@
+A single-hub star at growing size. How large a coordination can one mediator bind?
+  3 parties (1 hub + 2): commit=30/300 (10%)  hub-share=0.533
+  4 parties (1 hub + 3): commit=6/300 (2%)  hub-share=0.578
+  5 parties (1 hub + 4): commit=0/300 (0%)  hub-share=n/a
+Commitment collapses with scale (10% -> 2% -> 0%); the hub's share stays near constant.
