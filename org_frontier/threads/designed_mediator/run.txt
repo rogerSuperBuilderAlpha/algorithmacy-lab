@@ -1,0 +1,13 @@
+=== designed mediator (B wired as the bottleneck) ===
+wiring a mediator does not force commitment: triadic in 110/1200 = 9.2%
+
+position is recovered by construction:
+    B is the veto player when anything integrates: 499/499 = 100.0%
+    B is in the major complex when triadic: 110/110 = 100.0%
+    B is in the major complex when dyadic:  389/1090 = 35.7%
+
+a committing mediator shares the credit, it does not seize it:
+    B's mean Shapley share when triadic: 0.533  (equal split = 0.333)
+
+=== symmetric control (no wired mediator) ===
+    in-major-complex rate by position: A=49% B=54% C=56%  (no position privileged)
