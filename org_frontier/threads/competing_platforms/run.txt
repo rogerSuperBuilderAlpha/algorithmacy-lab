@@ -1,0 +1,3 @@
+Two platforms connect W and C; the parties read both.
+identical platforms (both AND): triadic=141/400 a-platform-is-veto|integrating=103/343 S1<->S2-credit-ratio=0.715
+different platforms (AND, OR) : triadic=178/400 a-platform-is-veto|integrating=171/319 S1<->S2-credit-ratio=0.569
