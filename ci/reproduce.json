@@ -1844,6 +1844,18 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/gate_logic/THREAD.md"
+    },
+    {
+      "name": "coupling-density",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.coupling_density.coupling_density",
+      "expect": [
+        "  4 edges: triadic 0/4 = 0%",
+        "  6 edges: triadic 18/90 = 20%",
+        "  9 edges: triadic 1157/1867 = 62%"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/coupling_density/THREAD.md"
     }
   ]
 }
