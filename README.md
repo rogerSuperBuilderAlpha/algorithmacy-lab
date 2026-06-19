@@ -80,6 +80,7 @@ Deep single-question dives, each driven by its own results.
 - [Thread — does major-complex membership track Shapley pivotality?](org_frontier/threads/shapley_membership/THREAD.md) — A deep dive into the program's one genuinely novel claim, and the one the committee pressed hardest
 - [Thread — the empty core is a property of the random sample, not of coordination](org_frontier/threads/structured_forms/THREAD.md) — The committee that reviewed the cooperative-game synthesis pressed one objection above the rest. Every
 - [Thread — integration does not aggregate](org_frontier/threads/subadditivity/THREAD.md) — "The whole is more than the sum of its parts" is the slogan integrated information is supposed to make
+- [Thread — substitutability is the enemy of integration: a pool never binds, a team binds both](org_frontier/threads/substitutability/THREAD.md) — A prior for the catalog. A platform connects two workers to a counterpart. Whether the workers are a team or
 - [Thread — the mediator is a veto player](org_frontier/threads/veto_player/THREAD.md) — The Shapley thread showed the mediator carries the largest Shapley value over the game v(S) = φ_s(S) and
 
 ### Studies

@@ -1,0 +1,3 @@
+Team vs pool: two workers, one platform, one counterpart.
+team (platform needs both: S=A&B&C): triadic=12/400 S-veto|integrating=158/158 both-workers-in-core=12/12 workers-interchangeable=12/12
+pool (either suffices:    S=(A|B)&C): triadic=0/400 S-veto|integrating=225/225 both-workers-in-core=0/0 workers-interchangeable=0/0
