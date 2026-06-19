@@ -1991,6 +1991,18 @@
       ],
       "timeout": 300,
       "source": "org_frontier/threads/delegation/THREAD.md"
+    },
+    {
+      "name": "topology-four",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.topology_four.topology_four",
+      "expect": [
+        "ring (A->B->C->D->A): triadic=18/250 empty-veto|integrating=0/18 top-credit-share=0.250",
+        "star (hub=B)        : triadic=5/250 empty-veto|integrating=0/156 top-credit-share=0.556",
+        "line (A-B-C-D)      : triadic=4/250 empty-veto|integrating=26/149 top-credit-share=0.469"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/threads/topology_four/THREAD.md"
     }
   ]
 }
