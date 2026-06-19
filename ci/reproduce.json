@@ -2075,6 +2075,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/threads/gate_sensitivity/THREAD.md"
+    },
+    {
+      "name": "conflict",
+      "cmd": "python -m org_frontier.threads.conflict.conflict",
+      "expect": [
+        "  C agrees    (C = S)    : triadic-S-gates= 6/16  mediator-share=0.556",
+        "  C conflicts (C = not S): triadic-S-gates= 6/16  mediator-share=0.556",
+        "  C ignores   (C = const): triadic-S-gates= 0/16  mediator-share=n/a"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/conflict/THREAD.md"
     }
   ]
 }
