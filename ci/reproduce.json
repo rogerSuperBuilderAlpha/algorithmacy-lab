@@ -2050,6 +2050,54 @@
       ],
       "timeout": 300,
       "source": "org_frontier/threads/momentary/THREAD.md"
+    },
+    {
+      "name": "engagement-blind",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.engagement_blind.engagement_blind",
+      "expect": [
+        "mean active parties at IRREDUCIBLE states: 1.468  (n=3371)",
+        "mean active parties at reducible  states:  1.512  (n=5795)",
+        "  irreducible-state activity counts (0-3 active): {0: 440, 1: 1301, 2: 1241, 3: 389}"
+      ],
+      "timeout": 400,
+      "source": "org_frontier/threads/engagement_blind/THREAD.md"
+    },
+    {
+      "name": "gate-sensitivity",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.gate_sensitivity.gate_sensitivity",
+      "expect": [
+        "  sensitivity=0.00: mean commit=0.000  (n_gates=2)",
+        "  sensitivity=0.50: mean commit=0.081  (n_gates=12)",
+        "  sensitivity=1.00: mean commit=0.243  (n_gates=2)",
+        "  correlation(sensitivity, commit) = 0.755"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/gate_sensitivity/THREAD.md"
+    },
+    {
+      "name": "conflict",
+      "cmd": "python -m org_frontier.threads.conflict.conflict",
+      "expect": [
+        "  C agrees    (C = S)    : triadic-S-gates= 6/16  mediator-share=0.556",
+        "  C conflicts (C = not S): triadic-S-gates= 6/16  mediator-share=0.556",
+        "  C ignores   (C = const): triadic-S-gates= 0/16  mediator-share=n/a"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/conflict/THREAD.md"
+    },
+    {
+      "name": "scale",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.scale.scale",
+      "expect": [
+        "  3 parties (1 hub + 2): commit=30/300 (10%)  hub-share=0.533",
+        "  4 parties (1 hub + 3): commit=6/300 (2%)  hub-share=0.578",
+        "  5 parties (1 hub + 4): commit=0/300 (0%)  hub-share=n/a"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/scale/THREAD.md"
     }
   ]
 }
