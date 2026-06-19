@@ -1844,6 +1844,17 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/gate_logic/THREAD.md"
+    },
+    {
+      "name": "position-of-memory",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.position_of_memory.position_of_memory",
+      "expect": [
+        "mediator credit share: no memory=0.554  with memory=0.881  gain=+0.327",
+        "party    credit share: no memory=0.223  with memory=0.180  gain=-0.043"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/position_of_memory/THREAD.md"
     }
   ]
 }

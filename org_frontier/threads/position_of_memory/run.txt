@@ -1,0 +1,4 @@
+Does memory pay at the center (mediator) or the periphery (a party)?
+mediator credit share: no memory=0.554  with memory=0.881  gain=+0.327
+party    credit share: no memory=0.223  with memory=0.180  gain=-0.043
+Memory pays at the center; at the periphery it does not.
