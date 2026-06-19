@@ -57,3 +57,10 @@ a surprise once the game is seen to be non-monotone. Everything is in-silico on 
 over a sampled population. The organizational reading is the result worth carrying: a mediated coordination
 holds together as a process while its credit stays contestable, and the party at the bottleneck takes the
 largest share without securing the peace.
+
+The population caveat turns out to be load-bearing. The [structured-forms thread](../structured_forms/THREAD.md)
+re-runs the empty core and the dilution that empties it on the strict-mediation mediated triad, the structure
+the dissertation models, and both reverse: the core is non-empty in every triadic form and no pair out-values
+the whole. The contestability above is the random sample's; on the structured coordination forms the credit
+splits stably. The "no stable split" headline holds for the random population and fails for the structured
+one.
