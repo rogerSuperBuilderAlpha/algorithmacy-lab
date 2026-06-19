@@ -1,0 +1,4 @@
+mean active parties at IRREDUCIBLE states: 1.468  (n=3371)
+mean active parties at reducible  states:  1.512  (n=5795)
+  irreducible-state activity counts (0-3 active): {0: 440, 1: 1301, 2: 1241, 3: 389}
+The irreducible moments are engagement-blind: activity is near the uniform 1.5 either way.
