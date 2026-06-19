@@ -1,0 +1,8 @@
+Commitment rate by number of dependency edges in the three-party coordination:
+  4 edges: triadic 0/4 = 0%
+  5 edges: triadic 0/32 = 0%
+  6 edges: triadic 18/90 = 20%
+  7 edges: triadic 121/270 = 45%
+  8 edges: triadic 363/737 = 49%
+  9 edges: triadic 1157/1867 = 62%
+Below 6 edges the form never commits; commitment rises monotonically with coupling density.

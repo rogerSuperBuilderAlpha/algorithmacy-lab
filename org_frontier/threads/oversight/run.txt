@@ -1,0 +1,3 @@
+A principal P over the mediator S. Does oversight break the bottleneck or join the top?
+no oversight (P only observes S)     : S-veto=164/164 P-veto=0/164 P-in-core=0/164 S-share=n/a P-share=n/a
+oversight (S heeds P; P<->S coupled) : S-veto=255/255 P-veto=53/255 P-in-core=184/350 S-share=0.807 P-share=0.260

@@ -1,0 +1,6 @@
+triadic forms: 1082 (party-instances cross-tabbed)
+  in-core & influential:      2062
+  in-core & no influence:     0
+  out-of-core & influential:  1184
+  out-of-core & no influence: 0
+Every party is influential; a third of the influential are outside the core.
