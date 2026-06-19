@@ -1832,6 +1832,16 @@
       "timeout": 900,
       "source": "org_frontier/threads/cyclic/THREAD.md",
       "slow": true
+    },
+    {
+      "name": "fragility",
+      "cmd": "python -m org_frontier.threads.fragility.fragility",
+      "expect": [
+        "AND  mediator: triadic=48 fraction-of-Phi-lost removing the MEDIATOR=1.000 a PARTY=0.000",
+        "XOR  mediator: triadic=98 fraction-of-Phi-lost removing the MEDIATOR=1.000 a PARTY=1.000"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/threads/fragility/THREAD.md"
     }
   ]
 }
