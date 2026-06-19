@@ -18,8 +18,8 @@ irreducible at exactly one state.
 
 **A triad is irreducible at a minority of its states.** Across 1659 triadic forms the mean fraction of
 reachable states at which the system is irreducible is 0.36. For most of the time a triadic coordination
-spends moving through its states, it is not an irreducible whole; the verdict names the one state where it is
-most integrated, and that state is the exception rather than the rule.
+spends moving through its states, it factors; the verdict names the one state where it is
+most integrated, and that state is the exception.
 
 **Half of triads are irreducible at a single state.** Of the triadic forms, 822 — half — are irreducible at
 exactly one configuration, and the count falls off from there: 367 at two states, 242 at three, and a thin
@@ -30,8 +30,8 @@ determination at one configuration and factoring at every other.
 
 Coordination is momentary. A triadic form is irreducible at about a third of its states on average and at
 only one state half the time, so being a coordination means committing an irreducible determination at some
-moments, not holding one continuously. As a prior for reading real coordination: an arrangement that reads as
-irreducible should be expected to be so intermittently, at particular configurations, rather than at all
+moments, without holding one continuously. As a prior for reading real coordination: an arrangement that reads as
+irreducible should be expected to be so intermittently, at particular configurations, and not at all
 times, and a snapshot that finds it factoring is consistent with its being a genuine coordination caught
 between its moments. This qualifies the rest of the catalog: the bottleneck and credit findings describe the
 states where the coordination is irreducible, and those are the minority the verdict is read from.
