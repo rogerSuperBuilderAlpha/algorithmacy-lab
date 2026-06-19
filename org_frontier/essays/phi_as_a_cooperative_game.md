@@ -25,11 +25,15 @@ Boolean truth tables** — each node's update rule is drawn by independent coin-
 not a model of any organizational population. Every percentage here is a frequency over that distribution,
 and a uniform-random Boolean network is generically near-chaotic or near-constant; coordination forms are a
 structured corner of the space. The rates are properties of φ_s on a coverage sample, and they move with
-the population. A prior study in the program, [q122](../questions/q122_game_validity/paper.md), audited the
-same value function on the *structured* coordination forms the dissertation actually uses and returned a
-split verdict: there the game was monotone and superadditive with zero violations, the opposite of the
-random-form behavior reported below. Where the two populations disagree, the structured one carries the
-dissertation's claims. Second, **the singleton convention is not uniform across the threads**: the
+the population. This is not a hedge but a measured fact. A prior study, q122, audited a value function on the
+*structured* coordination forms the dissertation uses and found it monotone and superadditive there, and the
+[structured-forms thread](../threads/structured_forms/THREAD.md) re-ran two of the headline rates below — the
+empty core and the dilution that empties it — on the strict-mediation mediated triad with the cluster's own
+value function. Both reverse: on the structured forms the core is non-empty in every triadic form and no pair
+out-values the whole, against the 96%-empty and 66%-dilution of the random sample. The dramatic rates below
+describe the coverage sample; the coordinations the program is about sit in its well-behaved corner, and
+where the two populations disagree the structured one carries the dissertation's claims. Second, **the
+singleton convention is not uniform across the threads**: the
 membership game scores a lone party at zero, the allocation games at the party's intrinsic φ. Several
 results below depend on which, and the text flags it where it bites.
 
@@ -85,7 +89,7 @@ dilutes, dropping the whole below its tightest pair. The word the structure supp
 selected subset is irreducible, and integration
 is a property that subset has, not a quantity that accumulates across a merge.
 
-## The credit has no stable split
+## The credit has no stable split — in the random sample
 
 The empty core, the credit concentration below, and the subadditivity above are one mechanism seen three
 times: φ_s does not aggregate across a merge, so a tight subset out-values the whole that contains it. On
@@ -96,6 +100,12 @@ out-values the whole, the core is empty in every one, which is the dilution rest
 a second finding. And the bottleneck that captures the credit does not stabilize it. A veto player
 guarantees a non-empty core in a monotone simple game; this game is neither, and the guarantee fails. The
 mediator holds the credit and not the peace.
+
+This holds for the random sample and reverses on the structured forms. The structured-forms thread re-ran it
+on the strict-mediation mediated triad and found the core non-empty in every triadic form, with no pair
+out-valuing the whole, because a committed mediated triad binds all three parties into a full triad whose
+whole is the major complex. So the contestability is the coverage sample's. On the forms the dissertation
+models, the integration credit splits stably and the mediator takes a little over half.
 
 Who is paid follows the same mechanism. In a triadic form the credit concentrates on one party — a majority
 of it in 86% of random forms — and the degree tracks exclusion. When all parties are in the major complex
@@ -162,18 +172,21 @@ not identities. Algorithmacy — a mediating system that commits a determination
 has a candidate image as a form whose major complex binds the parties irreducibly, with the committing
 system the veto player that carries the credit. Commit-versus-convey has the firmest contact with the math,
 since it is a structural distinction the models exhibit: the triadic mediator binds where the dyadic hub
-relays, and a quarter of single-bottleneck forms fall on the relay side. The platform reading and the
-contestability reading are looser, the second especially, since the empty core is a mechanical consequence
-of φ_s being subadditive on this sample, a property of the measure more than of coordination. The
-[designed-mediator thread](../threads/designed_mediator/THREAD.md) takes the first step the committee asked
-for: it wires a mediator into the architecture and checks whether the cooperative-game structure lands on
-it. It does — the wired bottleneck is the veto player and a major-complex member where a symmetric control
-privileges no position — so the program's mediator tracks a designed architecture and is no label on
-noise. But the experiment disciplines the reading rather than confirming it. Wiring buys the mediator its
-position and not its power: only 9% of designed-mediator forms commit, so the irreducible determination is
-earned by the rules; and a mediator that does commit shares the credit, a 0.53 Shapley share against an
-equal 0.33, because committing binds every party, while the winner-take-all capture belongs to exclusion.
-The bridge to organizations is still unbuilt, since the parties remain nodes in a Boolean model.
+relays, and a quarter of single-bottleneck forms fall on the relay side. The platform reading is looser, and
+the contestability reading does not survive the move to structured forms at all: the structured-forms thread
+shows the empty core is the random sample's, and on the mediated triad the credit splits stably, so the
+platform's hold is not unstable in the way the empty core suggested. Three architecture threads carried the
+program from random forms toward the structure it cares about. The
+[designed-mediator thread](../threads/designed_mediator/THREAD.md) wires a mediator and finds the
+cooperative-game structure lands on it — the wired bottleneck is the veto player and a major-complex member
+where a symmetric control privileges no position — so the program's mediator tracks a designed architecture
+and is no label on noise. But wiring buys position, not power: only 9% of designed-mediator forms commit, the
+irreducible determination is earned by the rules, and a committing mediator shares the credit, a 0.53 Shapley
+share against an equal 0.33, because committing binds every party while the winner-take-all capture belongs
+to exclusion. The [back-edge thread](../threads/back_edge/THREAD.md) isolates what earns the power: a
+broadcast or a chain, which cut the return path, produce no integration at all, so the feedback edge is what
+lets a mediator commit. The bridge to organizations is still unbuilt, since the parties remain nodes in a
+Boolean model.
 Irreducibility is explored on these models, not established for organizations. None of this replaces Φ.
 Integrated information is the object, and cooperative game theory is a language that makes the shape of that
 object legible and ties it to how coordination is theorized elsewhere.
@@ -192,6 +205,12 @@ the recovery section alone (5); the size-≥2 normalization control (91% agreeme
 reading" (7); the empty-core, concentration, and subadditivity results are stated once as one mechanism, and
 "solution concept" and "winner-take-all coalition formation" are demoted to argmax language (8).
 
+A later pass folded in three architecture threads that answer the committee's population objection on the
+program's own terms: the designed-mediator and back-edge threads wire a mediator and find that position is
+recovered while power requires the return path, and the structured-forms thread re-runs the empty core and
+the dilution on the strict-mediation mediated triad and finds both reverse, so the contestability reading is
+the random sample's and the structured forms split the credit stably.
+
 ## The threads
 
 | Thread | Headline |
@@ -200,10 +219,12 @@ reading" (7); the empty-core, concentration, and subadditivity results are state
 | [coalition_structure](../threads/coalition_structure/THREAD.md) | The major complex is the argmax-φ_s coalition; condensation ≈ the optimal coalition structure (88%). |
 | [veto_player](../threads/veto_player/THREAD.md) | The mediator is a veto player (Shapley-argmax, 100%); a veto player is necessary, not sufficient, for an irreducible determination. |
 | [subadditivity](../threads/subadditivity/THREAD.md) | Integration does not aggregate: φ_s is subadditive in 99% of random forms; superadditivity is the wrong reading of the slogan. |
-| [core_stability](../threads/core_stability/THREAD.md) | The integration credit has no stable split: the core is empty in 96%, emptied by subadditive dilution. |
+| [core_stability](../threads/core_stability/THREAD.md) | The integration credit has no stable split *in the random sample*: the core is empty in 96%, emptied by subadditive dilution. |
 | [credit_concentration](../threads/credit_concentration/THREAD.md) | The credit concentrates on one party, by an amount exclusion sets; excluded parties carry negative Shapley. |
 | [normalization](../threads/normalization/THREAD.md) | Normalizing φ_s collapses the major complex to one party (94%); absolute φ_s is load-bearing. |
 | [four_party](../threads/four_party/THREAD.md) | The laws hold at four parties, the empty core more strongly; a bottleneck can be a set. |
 | [joint_bottleneck](../threads/joint_bottleneck/THREAD.md) | A joint bottleneck captures the credit as a set and shares it among its members. |
 | [bottleneck_symmetry](../threads/bottleneck_symmetry/THREAD.md) | Co-bottlenecks are paid equally exactly when interchangeable; the sharing is the symmetry axiom, bimodal. |
 | [designed_mediator](../threads/designed_mediator/THREAD.md) | Wire a mediator and the structure tracks it; wiring buys position, not power — committing is rare (9%) and shares the credit. |
+| [back_edge](../threads/back_edge/THREAD.md) | Forward-only mediators (broadcast, chain) produce no integration; the return path is what lets a mediator commit. Generalizes to four parties. |
+| [structured_forms](../threads/structured_forms/THREAD.md) | The empty core and dilution are random-sampling artifacts: on structured mediated triads the core is non-empty (100%) and no pair out-values the whole. |
