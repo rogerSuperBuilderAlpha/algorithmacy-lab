@@ -38,6 +38,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Committed determination: one axis across six exact-Φ studies of Boolean coordination models](org_frontier/essays/committed_determination_synthesis.md)
 - [The seam carries what the scalar drops: a review of the floor-to-seam program (Q45–Q62)](org_frontier/essays/floor_to_seam_review.md)
 - [Literacy or Algorithmacy? Borrowing a Consciousness Measure to Read an Org Chart](org_frontier/essays/literacy_or_algorithmacy.md)
+- [Integrated information as a cooperative game](org_frontier/essays/phi_as_a_cooperative_game.md)
 - [What Exact Φ Can Do for Organization Theory: A Complete Experiment Catalog](org_frontier/essays/pyphi_org_theory_catalog.md)
 - [How this lab studies algorithmacy](org_frontier/essays/studying_algorithmacy.md)
 
