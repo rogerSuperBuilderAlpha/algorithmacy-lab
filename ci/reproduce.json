@@ -1648,7 +1648,7 @@
         "Instrument validated",
         "Shapley value (avg marginal over all coalitions): 0.870",
         "single-node influence (the study-A measure):      0.632",
-        "Shapley\u2248+1: 57/57 = 100.0% in core"
+        "Shapley≈+1: 57/57 = 100.0% in core"
       ],
       "timeout": 180,
       "source": "org_frontier/threads/shapley_membership/THREAD.md"
@@ -1820,6 +1820,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/threads/engagement/THREAD.md"
+    },
+    {
+      "name": "cyclic",
+      "cmd": "python -m org_frontier.threads.cyclic.cyclic",
+      "expect": [
+        "mediated star (S=node 1)   : triadic=62/600 (10%) empty-veto|integrating=0/252=0% single-veto|integrating=76/252=30% top-credit-share|triadic=0.554",
+        "directed ring (A->B->C->A) : triadic=78/600 (13%) empty-veto|integrating=0/78=0% single-veto|integrating=0/78=0% top-credit-share|triadic=0.333",
+        "fully connected (all<->all): triadic=341/600 (57%) empty-veto|integrating=55/453=12% single-veto|integrating=182/453=40% top-credit-share|triadic=0.944"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/cyclic/THREAD.md"
     }
   ]
 }
