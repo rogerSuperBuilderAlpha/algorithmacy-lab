@@ -1,0 +1,4 @@
+Four-party topologies: ring vs star vs line (equal share = 0.25).
+ring (A->B->C->D->A): triadic=18/250 empty-veto|integrating=0/18 top-credit-share=0.250
+star (hub=B)        : triadic=5/250 empty-veto|integrating=0/156 top-credit-share=0.556
+line (A-B-C-D)      : triadic=4/250 empty-veto|integrating=26/149 top-credit-share=0.469
