@@ -1832,6 +1832,17 @@
       "timeout": 900,
       "source": "org_frontier/threads/cyclic/THREAD.md",
       "slow": true
+    },
+    {
+      "name": "observer",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.observer.observer",
+      "expect": [
+        "P observes S (reads S, read by none) : usable=164 S-veto|integrating=164/164 P-in-major-complex=0/164",
+        "P acts on C (reads S, and C reads P) : usable=203 S-veto|integrating=203/203 P-in-major-complex=49/203"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/observer/THREAD.md"
     }
   ]
 }
