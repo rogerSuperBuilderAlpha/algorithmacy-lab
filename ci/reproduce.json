@@ -2062,6 +2062,19 @@
       ],
       "timeout": 400,
       "source": "org_frontier/threads/engagement_blind/THREAD.md"
+    },
+    {
+      "name": "gate-sensitivity",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.gate_sensitivity.gate_sensitivity",
+      "expect": [
+        "  sensitivity=0.00: mean commit=0.000  (n_gates=2)",
+        "  sensitivity=0.50: mean commit=0.081  (n_gates=12)",
+        "  sensitivity=1.00: mean commit=0.243  (n_gates=2)",
+        "  correlation(sensitivity, commit) = 0.755"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/threads/gate_sensitivity/THREAD.md"
     }
   ]
 }
