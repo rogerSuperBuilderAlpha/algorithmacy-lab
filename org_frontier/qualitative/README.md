@@ -42,6 +42,8 @@ parties about what determines an action is data, modeled both ways and reported 
   field protocol and to the question of whether a system commits a determination or conveys a signal.
 - [TOPICS.md](TOPICS.md) — an open agenda of coordination settings, each paired with the prior it would test
   and the qualitative questions it raises.
+- [PUBLISHING.md](PUBLISHING.md) — preparing a study for a real journal, grounded in Bansal and Corley's 2012
+  AMJ editorial on what is different about qualitative research.
 - [template/](template/README.md) — the scaffold for a study, with the pre-registration discipline.
 - [The field protocol](../field/PROTOCOL.md) — the nine-step method a model-bound study follows.
 
