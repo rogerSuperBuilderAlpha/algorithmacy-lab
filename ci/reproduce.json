@@ -2109,6 +2109,20 @@
       ],
       "timeout": 600,
       "source": "org_frontier/threads/two_hubs/THREAD.md"
+    },
+    {
+      "name": "hierarchy",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.hierarchy.hierarchy",
+      "expect": [
+        "Q1  1 hub, 2 workers (n=3): 12/100 = 12%",
+        "Q3  2 hubs share both workers:        32/100 = 32%",
+        "Q5  2 hubs split the workers (one each): 2/100 = 2%",
+        "Q12 flat triangle (all-to-all, n=3): 51/100 = 51%",
+        "Q16 drop a hub, rest still triadic:    2/32"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/threads/hierarchy/THREAD.md"
     }
   ]
 }

@@ -1,0 +1,42 @@
+# The architecture of scale — twenty questions (n<=4; five-party anchors cited).
+# Anchors (scale, two-hubs threads): 1 hub binds 4 workers 0%; 2 hubs bind 3 workers 40%.
+
+## Span of one hub
+Q1  1 hub, 2 workers (n=3): 12/100 = 12%
+Q2  1 hub, 3 workers (n=4): 1/100 = 1%
+
+## A second hub, two workers (n=4)
+Q3  2 hubs share both workers:        32/100 = 32%
+Q4  2 hubs, also reading each other:  57/100 = 57%
+Q5  2 hubs split the workers (one each): 2/100 = 2%
+Q6  2 hubs, one reads both, one reads one: 14/100 = 14%
+
+## What the hub reads (n=3, 1 hub + 2 workers)
+Q7  hub reads both workers:  12/100 = 12%
+Q8  hub reads one worker:    0/100 = 0%
+Q9  workers also read each other (back-channel): 51/100 = 51%
+
+## Depth — layers (n=4)
+Q10 chain 2 workers -> mid -> top: 3/100 = 3%
+Q11 top also reads the workers (matrix): 57/100 = 57%
+
+## Flat vs mediated at three parties
+Q12 flat triangle (all-to-all, n=3): 51/100 = 51%
+Q13 hub-mediated (n=3):              12/100 = 12%
+
+## Redundant vs differentiated hubs (n=4, 2 hubs 2 workers)
+Q14 hubs identical (redundant):   9/100 = 9%
+Q15 hubs independent (default):   32/100 = 32%
+
+## Resilience — lesion a node from the committed two-hub form (n=4 -> n=3)
+Q16 drop a hub, rest still triadic:    2/32
+Q17 drop a worker, rest still triadic: 6/32
+
+## The hub's gate at scale (n=4, 1 hub + 3 workers)
+Q18 hub = AND of 3 workers:    4/100 = 4%
+Q19 hub = parity of 3 workers: 10/100 = 10%
+
+## The law
+Q20 commitment by (hubs, workers), n<=4 plus cited five-party anchors:
+     1 hub : 2w=12/100 = 12%  3w=1/100 = 1%  4w=0% (cited)
+     2 hubs: 2w=32/100 = 32%  3w=40% (cited)
