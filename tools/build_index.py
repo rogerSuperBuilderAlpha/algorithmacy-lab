@@ -175,6 +175,34 @@ def _field() -> list:
     return out
 
 
+def _qualitative() -> list:
+    """The qualitative-research arm under org_frontier/qualitative/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "qualitative")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Qualitative research"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    links = []
+    for fname, label in [("METHODS.md", "Methods"), ("TOPICS.md", "Topics")]:
+        path = os.path.join(base, fname)
+        if os.path.exists(path):
+            links.append(f"[{label}]({_link(path)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    for d in sorted(glob.glob(os.path.join(base, "*"))):
+        name = os.path.basename(d)
+        if not os.path.isdir(d) or name == "template" or name.startswith("__"):
+            continue
+        study = os.path.join(d, "STUDY.md")
+        if not os.path.exists(study):
+            continue
+        s_title = _first_heading(study) or name.replace("_", " ")
+        out.append(f"- [{s_title}]({_link(study)}) — {_clip(_first_paragraph(study))}")
+    return out
+
+
 def _studies() -> list:
     out = []
     for d in sorted(glob.glob(os.path.join(_ROOT, "org_frontier", "studies", "*"))):
@@ -233,6 +261,7 @@ def build_directory() -> str:
     articles = _articles()
     syntheses = _syntheses()
     field = _field()
+    qualitative = _qualitative()
     threads = _threads()
     studies = _studies()
     foundations = _foundations()
@@ -262,6 +291,13 @@ def build_directory() -> str:
               "Bridging the in-silico work to real coordination arrangements: a field protocol "
               "and a worked demonstration.", ""]
         L += field
+        L.append("")
+
+    if qualitative:
+        L += ["### Qualitative research", "",
+              "The empirical arm: reading real coordination against the pre-disclosed priors, with "
+              "methods and an open topic agenda for qualitative contributors.", ""]
+        L += qualitative
         L.append("")
 
     if threads:

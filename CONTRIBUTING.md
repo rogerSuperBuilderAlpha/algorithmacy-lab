@@ -42,6 +42,22 @@ gates:
 - Reuse the shared infrastructure rather than rebuilding it: `org_frontier/classifier/`,
   `org_frontier/probes/lib.py`, `org_frontier/probes/_info.py`, `foundations/proxy_audit/exact_phi.py`.
 
+## Adding a qualitative study
+
+The empirical arm reads real coordination against the priors. A qualitative study lands under
+`org_frontier/qualitative/<slug>/`, built from
+[`org_frontier/qualitative/template/`](org_frontier/qualitative/template/). It may stand on its own as a
+thick description of a coordination setting, or take one arrangement through the
+[field protocol](org_frontier/field/PROTOCOL.md) to a verdict. See
+[`org_frontier/qualitative/README.md`](org_frontier/qualitative/README.md) for the arm,
+[`METHODS.md`](org_frontier/qualitative/METHODS.md) for the methods, and
+[`TOPICS.md`](org_frontier/qualitative/TOPICS.md) for the open agenda.
+
+The pre-commitment discipline carries over in qualitative form: commit the coding scheme, interview guide,
+and bit calibration **before** the fieldwork, so the git history shows the questions were fixed before the
+answers. A qualitative study registers no number in `ci/reproduce.json`, since it computes none; the
+`directory-current` check confirms it is indexed once you run `python tools/build_index.py`.
+
 ## Register your numbers for CI
 
 Every number a submission reports has to reproduce from a committed script. Add an entry to

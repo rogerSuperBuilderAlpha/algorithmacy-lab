@@ -57,6 +57,9 @@ deep research and an adversarial committee and reports what survives, read the
 - **The field arc** — [`org_frontier/field/`](org_frontier/field/): a protocol for modeling one real
   coordination arrangement and the verdict it yields, demonstrated on ten mock organizations, with the
   validation gap kept explicit.
+- **The qualitative arm** — [`org_frontier/qualitative/`](org_frontier/qualitative/): the empirical partner
+  to the prior catalog, where real coordination is read against the priors. It carries a methods guide and an
+  open topic agenda, and a study may stand on its own or feed the field protocol toward a verdict.
 
 ## Where you could contribute
 
@@ -78,6 +81,11 @@ Concrete open threads, roughly easiest to hardest. Each is a real gap, not busyw
   is ready and its weakest step — eliciting determination rules from evidence with reported inter-rater
   reliability — is specified but undemonstrated. A single honest real-world case, run and reported, is the
   highest-value contribution available, because it begins to close the validation gap.
+- **Bring qualitative methods.** The qualitative arm
+  ([`org_frontier/qualitative/`](org_frontier/qualitative/)) opens the program to interview-based,
+  ethnographic, and document work — reading a real coordination setting against a named prior, as a
+  stand-alone description or upstream of a field verdict. The methods and an open agenda of settings are laid
+  out for contributors.
 - **Push past the size ceiling.** Exact Φ is feasible to ~10–12 elements. The proxy-bridge attempt
   (foundations) does not yet recover the verdict from cheap signals; making it work would unlock larger
   arrangements.

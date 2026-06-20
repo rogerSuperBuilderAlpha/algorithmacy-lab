@@ -60,6 +60,13 @@ Bridging the in-silico work to real coordination arrangements: a field protocol 
 - **[Field — reading real organizations with exact Φ](org_frontier/field/README.md)** — The lab's verdicts are in-silico: exact Φ on small Boolean models, evidence about the models, with a
   - [Protocol](org_frontier/field/PROTOCOL.md) · [Findings](org_frontier/field/FINDINGS.md)
 
+### Qualitative research
+
+The empirical arm: reading real coordination against the pre-disclosed priors, with methods and an open topic agenda for qualitative contributors.
+
+- **[Qualitative research — reading real coordination against the priors](org_frontier/qualitative/README.md)** — The lab's in-silico work builds a catalog of priors: Boolean coordination forms carried to an exact Φ
+  - [Methods](org_frontier/qualitative/METHODS.md) · [Topics](org_frontier/qualitative/TOPICS.md)
+
 ### Threads
 
 Deep single-question dives, each driven by its own results.
