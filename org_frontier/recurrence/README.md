@@ -65,6 +65,8 @@ reproduced in [FINDINGS.md](FINDINGS.md):
   experiments seeded by the sweep.
 - [`crqa_experiments.py`](crqa_experiments.py), [`CRQA_EXPERIMENTS.md`](CRQA_EXPERIMENTS.md) — ten
   CRQA experiments seeded by the sweep.
+- [`bridge_four.py`](bridge_four.py), [`BRIDGE_FOUR.md`](BRIDGE_FOUR.md) — the bridge at four and five
+  parties: the lead-lag matrix that reads several lags at once, on the named multiparty forms.
 
 ## The agenda
 
@@ -74,10 +76,11 @@ and the back-channel. Edge recovery from the profile lag was characterized at sc
 C1–C7): about 40%, held back by common drivers and by coupling too fast or too frozen to track. The
 neonatal cross-reference was measured on the committing-triad model (CRQA_EXPERIMENTS C10) and is
 designed for bedside series in [`../qualitative/neonatal_third/PRIOR_ANALYSIS.md`](../qualitative/neonatal_third/PRIOR_ANALYSIS.md).
-Continuous CRQA with phase-space embedding was demonstrated on graded signals (C8). What remains:
+Continuous CRQA with phase-space embedding was demonstrated on graded signals (C8). The bridge now
+runs at four and five parties (BRIDGE_FOUR.md): the lead-lag matrix reads the several lags a
+multiparty coordination carries, recovering chain order and hop distance, while structure and
+behavior agree less as parties multiply. What remains:
 
-- Take the bridge to four-party and larger forms, where the multiparty and hierarchy threads already
-  compute Φ, and the diagonal profile must read more than one lag at once.
 - Move from synthetic trajectories to a real recorded series through the field protocol, the first
   time the behavioral instrument runs on data the lab did not generate.
 - A model-bound neonatal study: elicit the determination rules, then read the bedside series with

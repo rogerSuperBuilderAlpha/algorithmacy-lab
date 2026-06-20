@@ -78,7 +78,7 @@ The empirical arm: reading real coordination against the pre-disclosed priors, w
 Pairing exact Φ with cross-recurrence quantification: the structural measure on the model and the behavioral measure on a run of it.
 
 - **[Recurrence — reading coordination off behavior, paired with Φ](org_frontier/recurrence/README.md)** — A coordination arrangement can be read two ways. Its structure says whether the parties form a
-  - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Bridge](org_frontier/recurrence/FINDINGS.md) · [Sweep](org_frontier/recurrence/SWEEP.md) · [Φ experiments](org_frontier/recurrence/IIT_EXPERIMENTS.md) · [CRQA experiments](org_frontier/recurrence/CRQA_EXPERIMENTS.md)
+  - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Bridge](org_frontier/recurrence/FINDINGS.md) · [Sweep](org_frontier/recurrence/SWEEP.md) · [Φ experiments](org_frontier/recurrence/IIT_EXPERIMENTS.md) · [CRQA experiments](org_frontier/recurrence/CRQA_EXPERIMENTS.md) · [Four-party](org_frontier/recurrence/BRIDGE_FOUR.md)
 
 ### Threads
 
