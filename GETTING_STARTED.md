@@ -79,6 +79,13 @@ the next free question number and probe number, and prints the next steps. Read
 The one rule that makes the record credible: **commit `hypotheses.md` before you compute the
 results.** The git history is the evidence that the claims were fixed first.
 
+For qualitative research — reading a real coordination setting against the priors through interviews,
+observation, or document work — start instead from
+[`org_frontier/qualitative/`](org_frontier/qualitative/): the arm's [README](org_frontier/qualitative/README.md),
+its [methods](org_frontier/qualitative/METHODS.md), the open [topics](org_frontier/qualitative/TOPICS.md), and
+the study [template](org_frontier/qualitative/template/). The same pre-commitment rule applies in qualitative
+form: commit the coding scheme before the fieldwork.
+
 ## 6. Register your numbers and check reproduction
 
 Every published number is re-derived by CI from its script. After your probes run, add one entry
