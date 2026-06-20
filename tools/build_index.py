@@ -204,6 +204,25 @@ def _qualitative() -> list:
     return out
 
 
+def _recurrence() -> list:
+    """The recurrence arm under org_frontier/recurrence/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "recurrence")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Recurrence"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    links = []
+    for fname, label in [("CONCEPTS.md", "Concepts"), ("FINDINGS.md", "Findings")]:
+        path = os.path.join(base, fname)
+        if os.path.exists(path):
+            links.append(f"[{label}]({_link(path)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    return out
+
+
 def _studies() -> list:
     out = []
     for d in sorted(glob.glob(os.path.join(_ROOT, "org_frontier", "studies", "*"))):
@@ -263,6 +282,7 @@ def build_directory() -> str:
     syntheses = _syntheses()
     field = _field()
     qualitative = _qualitative()
+    recurrence = _recurrence()
     threads = _threads()
     studies = _studies()
     foundations = _foundations()
@@ -299,6 +319,13 @@ def build_directory() -> str:
               "The empirical arm: reading real coordination against the pre-disclosed priors, with "
               "methods and an open topic agenda for qualitative contributors.", ""]
         L += qualitative
+        L.append("")
+
+    if recurrence:
+        L += ["### Recurrence — coordination read off behavior", "",
+              "Pairing exact Φ with cross-recurrence quantification: the structural measure on the "
+              "model and the behavioral measure on a run of it.", ""]
+        L += recurrence
         L.append("")
 
     if threads:

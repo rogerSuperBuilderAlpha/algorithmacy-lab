@@ -68,6 +68,13 @@ The empirical arm: reading real coordination against the pre-disclosed priors, w
   - [Methods](org_frontier/qualitative/METHODS.md) · [Topics](org_frontier/qualitative/TOPICS.md) · [Publishing](org_frontier/qualitative/PUBLISHING.md)
 - [The Third in the Room: How Neonatal Nurses Coordinate Care Between Parents and an Infant Who Cannot](org_frontier/qualitative/neonatal_third/STUDY.md) — Coordination is increasingly accomplished through a third party that stands between two others, and the case that most demands explanation, coordination through an…
 
+### Recurrence — coordination read off behavior
+
+Pairing exact Φ with cross-recurrence quantification: the structural measure on the model and the behavioral measure on a run of it.
+
+- **[Recurrence — reading coordination off behavior, paired with Φ](org_frontier/recurrence/README.md)** — A coordination arrangement can be read two ways. Its structure says whether the parties form a
+  - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Findings](org_frontier/recurrence/FINDINGS.md)
+
 ### Threads
 
 Deep single-question dives, each driven by its own results.
