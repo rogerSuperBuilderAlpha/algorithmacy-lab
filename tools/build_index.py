@@ -185,7 +185,8 @@ def _qualitative() -> list:
     summary = _clip(_first_paragraph(readme))
     out = [f"- **[{title}]({_link(readme)})** — {summary}"]
     links = []
-    for fname, label in [("METHODS.md", "Methods"), ("TOPICS.md", "Topics")]:
+    for fname, label in [("METHODS.md", "Methods"), ("TOPICS.md", "Topics"),
+                         ("PUBLISHING.md", "Publishing")]:
         path = os.path.join(base, fname)
         if os.path.exists(path):
             links.append(f"[{label}]({_link(path)})")

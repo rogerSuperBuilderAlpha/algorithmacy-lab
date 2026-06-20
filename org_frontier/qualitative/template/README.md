@@ -27,6 +27,10 @@ in evidence and record one alternative the evidence does not rule out. Where the
 determines an action, model both readings and report the finding under each. Follow the house style in the
 repo `CLAUDE.md`.
 
+For work aimed at a real journal, [PUBLISHING.md](../PUBLISHING.md) sets the bar — fit, authenticity,
+trustworthiness, a transparent path from data to theory, and a theoretical contribution — grounded in Bansal
+and Corley's 2012 AMJ editorial. The `STUDY.md` sections carry those elements.
+
 ## Indexing and review
 
 Run `python tools/build_index.py` so the study appears in the README directory. A qualitative study registers
