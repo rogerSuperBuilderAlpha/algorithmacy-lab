@@ -59,19 +59,29 @@ reproduced in [FINDINGS.md](FINDINGS.md):
   and the method citations.
 - [`bridge_demo.py`](bridge_demo.py) — the two-instrument demonstration on one model.
 - [`FINDINGS.md`](FINDINGS.md) — the demonstration's numbers and what they show.
+- [`sweep.py`](sweep.py), [`SWEEP.md`](SWEEP.md) — the corpus-wide sweep: Φ against CRQA on every
+  named form, plus the random-ensemble statistics.
+- [`iit_experiments.py`](iit_experiments.py), [`IIT_EXPERIMENTS.md`](IIT_EXPERIMENTS.md) — ten Φ
+  experiments seeded by the sweep.
+- [`crqa_experiments.py`](crqa_experiments.py), [`CRQA_EXPERIMENTS.md`](CRQA_EXPERIMENTS.md) — ten
+  CRQA experiments seeded by the sweep.
 
 ## The agenda
 
-- Run the bridge across the corpus: for every form, the Φ verdict against the CRQA reading of its
-  trajectory, to map where structure and behavior agree and where they part.
-- Recover directed wiring from trajectories at scale: how often the DCRP lag profile reconstructs the
-  connectivity matrix, and where it fails (common-driver confounds, fast coupling).
-- The neonatal cross-reference: a CRQA design for bedside time series that measures the infant's
-  causal coupling to the apparatus and its communicative non-coupling to the parties, the gap the
-  prior analysis predicts. See the cross-reference in
-  [`../qualitative/neonatal_third/`](../qualitative/neonatal_third/).
-- Continuous CRQA with phase-space embedding for graded signals (vitals, movement), beyond the
-  categorical case the Boolean models need.
+The sweep and the two experiment batteries close the first wave. The corpus-wide comparison ran
+(SWEEP.md): structure and behavior agree on most named forms and part on the false dyad, the relay,
+and the back-channel. Edge recovery from the profile lag was characterized at scale (CRQA_EXPERIMENTS
+C1–C7): about 40%, held back by common drivers and by coupling too fast or too frozen to track. The
+neonatal cross-reference was measured on the committing-triad model (CRQA_EXPERIMENTS C10) and is
+designed for bedside series in [`../qualitative/neonatal_third/PRIOR_ANALYSIS.md`](../qualitative/neonatal_third/PRIOR_ANALYSIS.md).
+Continuous CRQA with phase-space embedding was demonstrated on graded signals (C8). What remains:
+
+- Take the bridge to four-party and larger forms, where the multiparty and hierarchy threads already
+  compute Φ, and the diagonal profile must read more than one lag at once.
+- Move from synthetic trajectories to a real recorded series through the field protocol, the first
+  time the behavioral instrument runs on data the lab did not generate.
+- A model-bound neonatal study: elicit the determination rules, then read the bedside series with
+  both instruments against the pre-registered verdict.
 
 ## Method note
 

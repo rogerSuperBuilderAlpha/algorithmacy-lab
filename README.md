@@ -66,14 +66,19 @@ The empirical arm: reading real coordination against the pre-disclosed priors, w
 
 - **[Qualitative research — reading real coordination against the priors](org_frontier/qualitative/README.md)** — The lab's in-silico work builds a catalog of priors: Boolean coordination forms carried to an exact Φ
   - [Methods](org_frontier/qualitative/METHODS.md) · [Topics](org_frontier/qualitative/TOPICS.md) · [Publishing](org_frontier/qualitative/PUBLISHING.md)
+- [Whose Reach Is It: When a Worker Goes to Market Through an Agent, Who Becomes the Central Party](org_frontier/qualitative/broker_delegation/STUDY.md) — A worker who reaches a market through an agent hands the work of dealing to a party who stands between the worker and the platform
+- [The Record as a Third Party: How Clinicians Coordinate Care Across the Shift Boundary Through a Handoff Tool](org_frontier/qualitative/clinical_handoff/STUDY.md) — Care continuity at shift change runs through a record. An outgoing clinician writes the patient into a handoff tool, an incoming clinician reads it, and the care…
+- [Who Holds the Decision: How a Poster, an Automated Moderator, and a Trust-and-Safety Team Settle a Takedown](org_frontier/qualitative/moderation_memory/STUDY.md) — A takedown decision is settled by three parties: a poster who writes, an automated system that flags and acts, and a policy team that sets the rules and hears…
 - [The Third in the Room: How Neonatal Nurses Coordinate Care Between Parents and an Infant Who Cannot](org_frontier/qualitative/neonatal_third/STUDY.md) — Coordination is increasingly accomplished through a third party that stands between two others, and the case that most demands explanation, coordination through an…
+- [Who Decides the Manuscript: How Authors, Editors, and Reviewers Locate the Editorial Verdict](org_frontier/qualitative/peer_review_gate/STUDY.md) — An editorial decision on a manuscript passes through three parties and a software system: an author who submits, reviewers who advise, and an editor who decides…
+- [Watching the Queue: Whether a Triage Supervisor Is a Member of Service Coordination or Only Its Spectator](org_frontier/qualitative/triage_spectator/STUDY.md) — Customer-service triage routes a contact through an automated classifier to a human agent, with a supervisor watching the queue from a dashboard
 
 ### Recurrence — coordination read off behavior
 
 Pairing exact Φ with cross-recurrence quantification: the structural measure on the model and the behavioral measure on a run of it.
 
 - **[Recurrence — reading coordination off behavior, paired with Φ](org_frontier/recurrence/README.md)** — A coordination arrangement can be read two ways. Its structure says whether the parties form a
-  - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Findings](org_frontier/recurrence/FINDINGS.md)
+  - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Bridge](org_frontier/recurrence/FINDINGS.md) · [Sweep](org_frontier/recurrence/SWEEP.md) · [Φ experiments](org_frontier/recurrence/IIT_EXPERIMENTS.md) · [CRQA experiments](org_frontier/recurrence/CRQA_EXPERIMENTS.md)
 
 ### Threads
 
