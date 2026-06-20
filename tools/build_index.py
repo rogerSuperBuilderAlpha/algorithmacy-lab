@@ -216,7 +216,8 @@ def _recurrence() -> list:
     links = []
     for fname, label in [("CONCEPTS.md", "Concepts"), ("FINDINGS.md", "Bridge"),
                          ("SWEEP.md", "Sweep"), ("IIT_EXPERIMENTS.md", "Φ experiments"),
-                         ("CRQA_EXPERIMENTS.md", "CRQA experiments")]:
+                         ("CRQA_EXPERIMENTS.md", "CRQA experiments"),
+                         ("BRIDGE_FOUR.md", "Four-party")]:
         path = os.path.join(base, fname)
         if os.path.exists(path):
             links.append(f"[{label}]({_link(path)})")

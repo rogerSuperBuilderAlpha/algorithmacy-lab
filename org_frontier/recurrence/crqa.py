@@ -131,3 +131,67 @@ def peak(x, y, max_lag=20):
     lags, profile = dcrp(x, y, max_lag)
     i = int(np.argmax(profile))
     return int(lags[i]), float(profile[i] - np.median(profile))
+
+
+# ---------------------------------------------------------------------------------------------
+# Multiparty: a coupling matrix across all pairs, and whole-system recurrence
+# ---------------------------------------------------------------------------------------------
+
+def coupling_matrix(traj, max_lag=10):
+    """Pairwise lead-lag over every ordered pair of an n-node trajectory (steps x n).
+
+    Returns (lag, prom), two n x n arrays. lag[a, b] is the DCRP peak lag of (column a, column b):
+    positive means a leads b. prom[a, b] is its prominence. A coordination of more than two parties
+    has several lags at once, and this matrix reads them together: it locates the hub a star couples
+    through, and recovers the order and hop distance of a chain.
+    """
+    n = traj.shape[1]
+    lag = np.zeros((n, n), dtype=int)
+    prom = np.zeros((n, n))
+    for a in range(n):
+        for b in range(n):
+            if a == b:
+                continue
+            lag[a, b], prom[a, b] = peak(traj[:, a], traj[:, b], max_lag)
+    return lag, prom
+
+
+def coupling_centrality(traj, max_lag=10, prom_floor=0.05):
+    """Each node's summed prominent coupling to the others — a behavioral centrality. The nodes the
+    structural major complex includes should score higher than the spectators it excludes."""
+    _, prom = coupling_matrix(traj, max_lag)
+    np.fill_diagonal(prom, 0.0)
+    masked = np.where(prom > prom_floor, prom, 0.0)
+    return (masked.sum(0) + masked.sum(1)) / 2.0
+
+
+def md_recurrence(traj, minline=2, theiler=1):
+    """Multidimensional categorical recurrence of the whole-system trajectory (steps x n).
+
+    Two times recur when the full state vectors match on every node. This is the whole-system
+    behavioral reading that pairs with whole-system Φ: RR is how often the system revisits a global
+    state, DET the share of that revisiting on deterministic diagonal lines. The Theiler window
+    excludes the trivial main diagonal of an auto-recurrence.
+    """
+    T = np.asarray(traj)
+    eq = (T[:, None, :] == T[None, :, :]).all(axis=2).astype(int)
+    nrows = eq.shape[0]
+    mask = np.abs(np.subtract.outer(np.arange(nrows), np.arange(nrows))) > theiler
+    R = eq * mask
+    total = int(R.sum())
+    if total == 0:
+        return {"rr": 0.0, "det": 0.0}
+    lines = []
+    for k in range(-(nrows - 1), nrows):
+        if abs(k) <= theiler:
+            continue
+        run = 0
+        for v in np.diagonal(R, offset=k):
+            if v:
+                run += 1
+            elif run:
+                lines.append(run); run = 0
+        if run:
+            lines.append(run)
+    on = sum(L for L in lines if L >= minline)
+    return {"rr": total / (R.size - nrows), "det": on / total}
