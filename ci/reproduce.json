@@ -2098,6 +2098,17 @@
       ],
       "timeout": 300,
       "source": "org_frontier/threads/scale/THREAD.md"
+    },
+    {
+      "name": "two-hubs",
+      "slow": true,
+      "cmd": "python -m org_frontier.threads.two_hubs.two_hubs",
+      "expect": [
+        "  one hub  (A,B,C->H1; H1->all) : triadic=0/300 (0%)",
+        "  two hubs (A,B,C<->H1,H2)      : triadic=121/300 (40%)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/threads/two_hubs/THREAD.md"
     }
   ]
 }
