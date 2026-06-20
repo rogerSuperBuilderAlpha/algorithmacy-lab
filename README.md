@@ -66,6 +66,7 @@ The empirical arm: reading real coordination against the pre-disclosed priors, w
 
 - **[Qualitative research — reading real coordination against the priors](org_frontier/qualitative/README.md)** — The lab's in-silico work builds a catalog of priors: Boolean coordination forms carried to an exact Φ
   - [Methods](org_frontier/qualitative/METHODS.md) · [Topics](org_frontier/qualitative/TOPICS.md) · [Publishing](org_frontier/qualitative/PUBLISHING.md)
+- [The Third in the Room: How Neonatal Nurses Coordinate Care Between Parents and an Infant Who Cannot](org_frontier/qualitative/neonatal_third/STUDY.md) — Coordination is increasingly accomplished through a third party that stands between two others, and the case that most demands explanation, coordination through an…
 
 ### Threads
 
