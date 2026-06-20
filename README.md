@@ -65,7 +65,7 @@ Bridging the in-silico work to real coordination arrangements: a field protocol 
 The empirical arm: reading real coordination against the pre-disclosed priors, with methods and an open topic agenda for qualitative contributors.
 
 - **[Qualitative research — reading real coordination against the priors](org_frontier/qualitative/README.md)** — The lab's in-silico work builds a catalog of priors: Boolean coordination forms carried to an exact Φ
-  - [Methods](org_frontier/qualitative/METHODS.md) · [Topics](org_frontier/qualitative/TOPICS.md)
+  - [Methods](org_frontier/qualitative/METHODS.md) · [Topics](org_frontier/qualitative/TOPICS.md) · [Publishing](org_frontier/qualitative/PUBLISHING.md)
 
 ### Threads
 
