@@ -95,6 +95,30 @@ not feeling the difference. That is the thing to watch for in the interviews.
   unseen counterpart is constitutive; the infant is its limiting case, a counterpart that can never
   communicate at all.
 
+## Measuring the gap on bedside time series
+
+The causal-versus-communicative split is a prediction, and the [recurrence](../../recurrence/README.md)
+arm is the instrument that could test it on recorded behavior. Cross-recurrence quantification reads
+coordination from two time series without a model, which is what the bedside produces: the infant's
+vitals, the monitor's readings, the nurse's actions, the parent's presence at the cot. The design
+follows from the probes.
+
+The infant's *causal* coupling to the apparatus should be visible and directional. The monitor reads
+the infant's physiology, so a cross-recurrence of infant vitals against monitor state should show
+sustained diagonal coupling with the infant leading, the apparatus following at a short lag. Mother
+and infant cardiac rhythms are known to couple within a second during interaction (Feldman et al.
+2011), so the signal is real and measurable. That coupling is the 17 to 34% causal membership the
+probes assign the infant, made observable.
+
+The infant's *communicative* non-coupling to the parties should show as the absence of the other
+signature. A cross-recurrence of parent behavior against infant state should lack the lead-lag of a
+party answering a partner, since the infant takes up nothing. Where coordination appears, the profile
+should place the infant's apparent response *after* the apparatus, which is the parent reading the
+machine's reading. The gap the study names becomes two distinguishable recurrence signatures: causal
+coupling to the apparatus present, communicative coupling to the parties absent. The
+[bridge demonstration](../../recurrence/FINDINGS.md) shows the directional read-out works on the
+lab's own models; the bedside is where it would be turned on real coordination.
+
 ## What would change these numbers
 
 The forms are random Booleans, not elicited rules. A model-bound run of this study would replace the
