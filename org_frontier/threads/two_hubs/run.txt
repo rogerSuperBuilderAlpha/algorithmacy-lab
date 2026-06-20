@@ -1,0 +1,4 @@
+Five parties, one hub vs two. Does a second mediator beat the size limit?
+  one hub  (A,B,C->H1; H1->all) : triadic=0/300 (0%)
+  two hubs (A,B,C<->H1,H2)      : triadic=121/300 (40%)
+A second hub takes commitment from 0% to 40% at five parties.

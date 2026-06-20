@@ -84,6 +84,7 @@ Deep single-question dives, each driven by its own results.
 - [Thread — fragility tracks coordination logic: monotone has one point of failure, parity has three](org_frontier/threads/fragility/THREAD.md) — A prior for the catalog. The gate-logic thread found that a parity mediator binds all three parties equally
 - [Thread — a parity mediator binds twice as readily and shares the credit](org_frontier/threads/gate_logic/THREAD.md) — A prior for the catalog. The cyclic thread found that topology decides whether a coordination has a
 - [Thread — commitment scales with the mediator's information throughput](org_frontier/threads/gate_sensitivity/THREAD.md) — A prior for the catalog. The gate-logic thread found a parity mediator binds more readily than a monotone
+- [Thread — the architecture of scale: twenty questions on coordination beyond one mediator](org_frontier/threads/hierarchy/THREAD.md) — A deep line for the catalog. The scale thread found one mediator cannot bind a large coordination, and the
 - [Thread — influence is universal and does not determine membership](org_frontier/threads/influence_membership/THREAD.md) — A prior for the catalog. A party can shape what the others do without being part of the coordination's
 - [Thread — only reciprocal interdependence binds; pooled and sequential carry no integration](org_frontier/threads/interdependence/THREAD.md) — A prior for the catalog. Thompson's typology of interdependence — pooled, sequential, reciprocal — read
 - [Thread — inside a joint bottleneck the credit is shared](org_frontier/threads/joint_bottleneck/THREAD.md) — The four-party thread found a structure three parties cannot show: a bottleneck that is a set of parties,
@@ -102,6 +103,7 @@ Deep single-question dives, each driven by its own results.
 - [Thread — integration does not aggregate](org_frontier/threads/subadditivity/THREAD.md) — "The whole is more than the sum of its parts" is the slogan integrated information is supposed to make
 - [Thread — substitutability is the enemy of integration: a pool never binds, a team binds both](org_frontier/threads/substitutability/THREAD.md) — A prior for the catalog. A platform connects two workers to a counterpart. Whether the workers are a team or
 - [Thread — topology sets the credit distribution at four parties too](org_frontier/threads/topology_four/THREAD.md) — A prior for the catalog. The cyclic thread found, at three parties, that a symmetric ring shares the credit
+- [Thread — a second hub beats the size limit one mediator hits](org_frontier/threads/two_hubs/THREAD.md) — A prior for the catalog, and the opening of the scale-and-hierarchy line. The scale thread found a single hub
 - [Thread — the mediator is a veto player](org_frontier/threads/veto_player/THREAD.md) — The Shapley thread showed the mediator carries the largest Shapley value over the game v(S) = φ_s(S) and
 
 ### Studies
