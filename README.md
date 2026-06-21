@@ -13,10 +13,12 @@ independent pieces (it demands *literacy*), and **triadic** when the structure s
 the worker–system–counterpart partition (it demands *algorithmacy*). On systems small enough to compute
 exact Φ, that verdict is exact, not a proxy.
 
-> **Scope, stated up front.** Results here are *in-silico*: exact Φ on small Boolean dynamical models of
-> coordination. They are evidence about the models. A validation gap separates them from empirical claims
-> about real organizations (cross-model agreement is internal validity, not external validity). This is a
-> research program and a proof-of-method, not peer-reviewed findings about real firms.
+> **Scope, stated up front.** The core results are *in-silico*: exact Φ on small Boolean dynamical models
+> of coordination. They are evidence about the models. A validation gap separates them from empirical
+> claims about real organizations (cross-model agreement is internal validity, not external validity).
+> This is a research program and a proof-of-method, not peer-reviewed findings about real firms. The
+> recurrence program has begun reading real coordination data (the empirical ask below has the detail),
+> on a methodological side rather than the core thesis.
 
 ## The empirical ask — bring the lab real data
 

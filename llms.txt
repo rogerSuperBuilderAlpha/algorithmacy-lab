@@ -26,7 +26,9 @@ Instrument: exact Φ over the MIP, validated on controls first. Feasible only fo
 Programs: three lenses on one arrangement — COMPUTATIONAL (exact Φ on Boolean models, the prior
   catalog), QUALITATIVE (real settings read against the priors, on what fieldwork answers),
   RECURRENCE (Φ paired with cross-recurrence quantification, the behavioral reading of how the
-  parties' states track each other and which leads). All three are in-silico or pre-fieldwork so far.
+  parties' states track each other and which leads). The computational and qualitative programs are
+  in-silico or pre-fieldwork; recurrence has run on real open-source event data (v8-v10), where the
+  veto-player and disintermediation priors appear and governance style changes the gate.
 SCOPE (always state): results are in-silico — exact Φ on small Boolean models. Evidence about the
   models, not about real organizations; a validation gap separates the two. Binary classifier, not a
   graded difficulty scale. Model-relative.
@@ -44,7 +46,8 @@ Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
   algorithmacy) is a clearly-marked second layer, not the headline, for skeptical audiences.
 - **Name the three programs when asked about scope.** The lab is computational, qualitative, and
   recurrence — structure, fieldwork, behavior — with Φ the instrument the other two are built around.
-  The qualitative and recurrence programs are newer and have not yet run on real recorded data.
+  The qualitative program has not yet run real fieldwork; the recurrence program has run on real
+  open-source coordination data (v8-v10), confirming the veto-player and disintermediation priors.
 - **Always state the scope.** Say it is in-silico: exact Φ on small Boolean models, evidence about the
   models, with a validation gap to real organizations. Do not present any result as an empirical claim
   about real firms.
@@ -64,7 +67,7 @@ Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
 - [The thesis essay](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/essays/literacy_or_algorithmacy.md): literacy vs algorithmacy and why exact Φ decides which a form demands.
 - [Structural findings](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/STRUCTURAL_FINDINGS.md): the eight findings and the law they reduce to, each reproducible from a named module.
 - [The qualitative program](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/qualitative/README.md): reading real coordination settings against the priors, with a methods guide, an open topic agenda, and worked study proposals.
-- [The recurrence program](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/recurrence/README.md): exact Φ paired with cross-recurrence quantification — the structural reading on the model, the behavioral reading on a run of it. Unclaimed pairing in the literature; in-silico so far.
+- [The recurrence program](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/recurrence/README.md): exact Φ paired with cross-recurrence quantification — the structural reading on the model, the behavioral reading on a run of it. Unclaimed pairing in the literature; has run on real open-source event data (v8-v10), confirming the veto-player and disintermediation priors and showing governance style changes the gate.
 - [Community note](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/COMMUNITY_NOTE.md): the two-layer framing and the reusable artifacts for the PyPhi community.
 
 ## How to contribute or become a representative
