@@ -70,6 +70,9 @@ reproduced in [FINDINGS.md](FINDINGS.md):
 - [`real_series/`](real_series/) — v8: the behavioral instrument on a real recorded series the lab did
   not generate (the PyPhi commit history). Hypotheses committed before the analysis; the findings are a
   mostly-null first run that locates the validation gap in the encoding.
+- [`event_series/`](event_series/) — v9: event-level PR and review data, where the merge actor is
+  observed. The veto-player and disintermediation priors both appear in a real organization, and Φ runs
+  on an elicited institutional model. Mostly confirms v8's failed predictions, closing the encoding gap.
 
 ## The agenda
 
@@ -84,11 +87,11 @@ runs at four and five parties (BRIDGE_FOUR.md): the lead-lag matrix reads the se
 multiparty coordination carries, recovering chain order and hop distance, while structure and
 behavior agree less as parties multiply. What remains:
 
-- Move to event-level real data — pull requests, reviews, merges — where the maintainer's gatekeeping
-  lives and Φ would have an elicited model instead of a fitted one. The first real series
-  ([`real_series/`](real_series/)) ran the behavioral instrument on weekly commit activity and found
-  the encoding too coarse to carry the coordination's causal structure; the event graph is where the
-  structural and behavioral readings could meet on real organizational coordination.
+- Run the same event-level analysis on a project with a heavier review process, where the reviewer
+  role carries more of the coordination and the gate's grip can be compared across governance styles.
+  v9 ([`event_series/`](event_series/)) read PyPhi's merge graph and confirmed the veto-player and
+  disintermediation priors on a real organization, with Φ on an elicited model; its review culture was
+  light (33 review events across 104 PRs), so a review-heavy project is the natural next series.
 - A model-bound neonatal study: elicit the determination rules, then read the bedside series with
   both instruments against the pre-registered verdict.
 
