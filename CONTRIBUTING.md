@@ -58,6 +58,16 @@ and bit calibration **before** the fieldwork, so the git history shows the quest
 answers. A qualitative study registers no number in `ci/reproduce.json`, since it computes none; the
 `directory-current` check confirms it is indexed once you run `python tools/build_index.py`.
 
+## Adding a recurrence experiment
+
+The recurrence program pairs exact Φ with cross-recurrence quantification: Φ reads a coordination model's
+structure, cross-recurrence reads a run of it. Work lands under `org_frontier/recurrence/`, building on
+[`crqa.py`](org_frontier/recurrence/crqa.py) (the measures and the trajectory generator) and the existing
+Φ harnesses. Each experiment script is seeded so its numbers reproduce, and its findings go in a paired
+markdown file. See [`org_frontier/recurrence/README.md`](org_frontier/recurrence/README.md) for the arm
+and [`CONCEPTS.md`](org_frontier/recurrence/CONCEPTS.md) for what each measure indexes and how Φ and CRQA
+differ. The pre-commitment and report-the-nulls rules apply as in the computational program.
+
 ## Register your numbers for CI
 
 Every number a submission reports has to reproduce from a committed script. Add an entry to
