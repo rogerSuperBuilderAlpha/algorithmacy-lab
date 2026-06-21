@@ -67,6 +67,9 @@ reproduced in [FINDINGS.md](FINDINGS.md):
   CRQA experiments seeded by the sweep.
 - [`bridge_four.py`](bridge_four.py), [`BRIDGE_FOUR.md`](BRIDGE_FOUR.md) — the bridge at four and five
   parties: the lead-lag matrix that reads several lags at once, on the named multiparty forms.
+- [`real_series/`](real_series/) — v8: the behavioral instrument on a real recorded series the lab did
+  not generate (the PyPhi commit history). Hypotheses committed before the analysis; the findings are a
+  mostly-null first run that locates the validation gap in the encoding.
 
 ## The agenda
 
@@ -81,8 +84,11 @@ runs at four and five parties (BRIDGE_FOUR.md): the lead-lag matrix reads the se
 multiparty coordination carries, recovering chain order and hop distance, while structure and
 behavior agree less as parties multiply. What remains:
 
-- Move from synthetic trajectories to a real recorded series through the field protocol, the first
-  time the behavioral instrument runs on data the lab did not generate.
+- Move to event-level real data — pull requests, reviews, merges — where the maintainer's gatekeeping
+  lives and Φ would have an elicited model instead of a fitted one. The first real series
+  ([`real_series/`](real_series/)) ran the behavioral instrument on weekly commit activity and found
+  the encoding too coarse to carry the coordination's causal structure; the event graph is where the
+  structural and behavioral readings could meet on real organizational coordination.
 - A model-bound neonatal study: elicit the determination rules, then read the bedside series with
   both instruments against the pre-registered verdict.
 
