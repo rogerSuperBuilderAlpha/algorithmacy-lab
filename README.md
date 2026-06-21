@@ -62,7 +62,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 
 ### Programs, syntheses & the open agenda
 
-- [Research program v6 — questions from the v5 results](org_frontier/RESEARCH_PROGRAM_V6.md) — the current research program
+- [Research program v7 — the qualitative and recurrence wave](org_frontier/RESEARCH_PROGRAM_V7.md) — the current research program
 - [Research narrative: how the program has progressed, and a path forward](org_frontier/RESEARCH_NARRATIVE.md) — the narrative arc across questions
 - [Structural findings: what makes a coordination form irreducible](org_frontier/STRUCTURAL_FINDINGS.md) — the standing structural findings
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review

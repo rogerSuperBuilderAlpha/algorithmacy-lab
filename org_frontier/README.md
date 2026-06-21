@@ -48,8 +48,10 @@ as first-class results.
 
 - [`probes/PROBES.md`](probes/PROBES.md) — 134 exact-Φ experiments, each with question, hypothesis,
   method, and result. About a third are nulls or refinements.
-- [`RESEARCH_PROGRAM_V2.md`](RESEARCH_PROGRAM_V2.md) … [`RESEARCH_PROGRAM_V6.md`](RESEARCH_PROGRAM_V6.md) —
-  six iterative programs that produced the logbook, each closing a wave and opening the next.
+- [`RESEARCH_PROGRAM_V2.md`](RESEARCH_PROGRAM_V2.md) … [`RESEARCH_PROGRAM_V7.md`](RESEARCH_PROGRAM_V7.md) —
+  the iterative programs, each closing a wave and opening the next. V2–V6 produced the computational
+  logbook; [v7](RESEARCH_PROGRAM_V7.md) broadens the lab into three programs, adding the qualitative and
+  recurrence arms.
 - [`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the synthesis: a coordination form demands
   algorithmacy when every party is bound into one irreducible joint determination. Substitutability
   collapses it; mediation depth does not; cheap proxies cannot detect it.
