@@ -37,8 +37,11 @@ before contributing.
 - **A little is genuinely new.** A graded membership relation (complex membership rising with causal
   pivotality, where IIT membership is per-form binary) and an extremes-only quorum law. Both are bounded;
   see the synthesis and its committee review for how much weight they bear. The recurrence program adds a
-  newer one: pairing exact Φ with cross-recurrence quantification is unclaimed in the literature, though it
-  rests on synthetic trajectories so far.
+  newer one: pairing exact Φ with cross-recurrence quantification is unclaimed in the literature. It began
+  on synthetic trajectories and has since run on real open-source coordination data (v8–v10), where the
+  veto-player and disintermediation priors appear in a real organization and governance style changes the
+  gate. That is the first real-data evidence in the lab, on a methodological side rather than the core
+  thesis.
 - **The real contribution is the bridge, not any single law.** One exact, computable criterion — Φ
   irreducibility on a coordination model — turns out to be the common image of five separate disciplines'
   tests, and it names *which* parties are bound (the major complex), which a one-line heuristic cannot.
@@ -84,7 +87,10 @@ The **recurrence program** — Φ paired with a behavioral measure of coordinati
   quantification paired with exact Φ. Φ reads a coordination's structure; cross-recurrence reads a run of
   it — how strongly the parties' states track each other, and which one leads. A corpus sweep, twenty
   experiments, and the bridge at four and five parties show where structure and behavior agree and where
-  they part. The pairing is unclaimed in the literature, and like the rest it is in-silico so far.
+  they part. It has since read real coordination data: three open-source projects' commit, pull-request,
+  and review histories (v8–v10), where the veto-player and disintermediation priors appear and a heavy
+  review process spreads the merge gate and binds a deeper core. The pairing is unclaimed in the
+  literature.
 
 ## Where you could contribute
 
@@ -111,11 +117,13 @@ Concrete open threads, roughly easiest to hardest. Each is a real gap, not busyw
   ethnographic, and document work — reading a real coordination setting against a named prior, as a
   stand-alone description or upstream of a field verdict. The methods and an open agenda of settings are laid
   out for contributors.
-- **Run cross-recurrence on a real series.** The recurrence arm
-  ([`org_frontier/recurrence/`](org_frontier/recurrence/)) has paired Φ with cross-recurrence on synthetic
-  trajectories of the lab's own models. The open step is the first recorded series — a dispatch log, a set
-  of vitals, a handoff record — read with both instruments through the field protocol. That is the first
-  time the behavioral measure would run on data the lab did not generate.
+- **Bring the recurrence instrument a new real series.** The recurrence arm
+  ([`org_frontier/recurrence/`](org_frontier/recurrence/)) has read three open-source projects' event
+  histories (v8–v10), confirming the veto-player and disintermediation priors and measuring how a heavy
+  review process changes the gate. The open edges are a different kind of coordination: a bot-merged
+  project where the merge actor is a machine, a physiological series such as the neonatal vitals, or a
+  dispatch or handoff log with a named gatekeeper — ideally where the determination actor is recorded so
+  both instruments run.
 - **Push past the size ceiling.** Exact Φ is feasible to ~10–12 elements. The proxy-bridge attempt
   (foundations) does not yet recover the verdict from cheap signals; making it work would unlock larger
   arrangements.
