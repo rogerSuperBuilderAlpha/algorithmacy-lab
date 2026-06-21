@@ -73,6 +73,9 @@ reproduced in [FINDINGS.md](FINDINGS.md):
 - [`event_series/`](event_series/) — v9: event-level PR and review data, where the merge actor is
   observed. The veto-player and disintermediation priors both appear in a real organization, and Φ runs
   on an elicited institutional model. Mostly confirms v8's failed predictions, closing the encoding gap.
+- [`review_heavy/`](review_heavy/) — v10: the same analysis on a review-heavy project (scikit-learn),
+  contrasted with PyPhi. Heavy review spreads the merge gate, ends self-merging, and binds a deeper
+  two-gate core that excludes the author. The same instrument tells two governance styles apart.
 
 ## The agenda
 
@@ -87,11 +90,12 @@ runs at four and five parties (BRIDGE_FOUR.md): the lead-lag matrix reads the se
 multiparty coordination carries, recovering chain order and hop distance, while structure and
 behavior agree less as parties multiply. What remains:
 
-- Run the same event-level analysis on a project with a heavier review process, where the reviewer
-  role carries more of the coordination and the gate's grip can be compared across governance styles.
-  v9 ([`event_series/`](event_series/)) read PyPhi's merge graph and confirmed the veto-player and
-  disintermediation priors on a real organization, with Φ on an elicited model; its review culture was
-  light (33 review events across 104 PRs), so a review-heavy project is the natural next series.
+- Read a third governance style: a bot-merged project (bors, a CI robot, a merge queue), where the
+  merge actor is a machine and the human veto lives entirely in the approval. v9
+  ([`event_series/`](event_series/)) read PyPhi's single-maintainer gate and v10
+  ([`review_heavy/`](review_heavy/)) read scikit-learn's distributed review gate; a bot-merged project
+  would complete the spectrum, from one human gate, to a human core team, to a machine executor behind a
+  human approval.
 - A model-bound neonatal study: elicit the determination rules, then read the bedside series with
   both instruments against the pre-registered verdict.
 
