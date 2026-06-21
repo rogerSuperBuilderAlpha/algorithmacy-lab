@@ -12,10 +12,15 @@ and computing exact integrated information (Φ, from IIT 4.0, via [PyPhi](https:
 A form is **triadic** (irreducible; the lab's name for it is *algorithmacy*) or **dyadic** (it factors;
 *literacy*). On systems small enough, that verdict is exact, not a proxy.
 
-The work runs as a fixed protocol: every question gets a literature pass, five hypotheses fixed before any
-computation, an instrument-validated run, and a paper. There are 74 such questions, a measure-validation
-arc that established Φ as the instrument first, six synthesis papers that tie threads together, and a
-field arc that begins the bridge to real organizations.
+The work runs as three programs on that one question, each a different lens on the same arrangement. The
+**computational program** fixes a protocol — a literature pass, five hypotheses set before any
+computation, an instrument-validated run, a paper — and has carried 74 questions through it, with a
+measure-validation arc that established Φ as the instrument first and six synthesis papers tying threads
+together. The **qualitative program** reads real coordination settings against that catalog of priors, on
+the questions of process and meaning fieldwork answers. The **recurrence program** pairs Φ with
+cross-recurrence quantification, a behavioral measure of how the parties' states track each other over
+time and which one leads. Structure, fieldwork, behavior, on one arrangement, with Φ the instrument the
+other two are built around.
 
 ## The honest standing
 
@@ -31,7 +36,9 @@ before contributing.
   the communication literature's own. The synthesis paper states this plainly.
 - **A little is genuinely new.** A graded membership relation (complex membership rising with causal
   pivotality, where IIT membership is per-form binary) and an extremes-only quorum law. Both are bounded;
-  see the synthesis and its committee review for how much weight they bear.
+  see the synthesis and its committee review for how much weight they bear. The recurrence program adds a
+  newer one: pairing exact Φ with cross-recurrence quantification is unclaimed in the literature, though it
+  rests on synthetic trajectories so far.
 - **The real contribution is the bridge, not any single law.** One exact, computable criterion — Φ
   irreducibility on a coordination model — turns out to be the common image of five separate disciplines'
   tests, and it names *which* parties are bound (the major complex), which a one-line heuristic cannot.
@@ -46,20 +53,38 @@ deep research and an adversarial committee and reports what survives, read the
 
 ## What is already here
 
+The instrument is the shared base; the three programs build around it.
+
 - **The instrument and its validation** — [`foundations/`](foundations/): a complete manuscript showing
   no cheap proxy recovers exact Φ, so the exact computation is needed. The classifier, controls, and the
   major-complex reading live in [`org_frontier/classifier/`](org_frontier/classifier/).
+
+The **computational program** — exact Φ on Boolean models, the structural reading and the prior catalog:
+
 - **The logbook** — 74 questions in [`org_frontier/questions/`](org_frontier/questions/), each a full
-  paper, plus a per-probe log in [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
+  paper, plus a per-probe log in [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md), and the
+  thread and study corpus the catalog of priors is drawn from.
 - **Synthesis & reviews** — the six pipeline papers (core-membership law, coordination-logic atlas,
   discriminant boundaries, platform position, the field protocol) and the cross-program
   [synthesis](org_frontier/essays/committed_determination_synthesis.md).
+
+The **qualitative program** — real settings read against the priors:
+
+- **The qualitative arm** — [`org_frontier/qualitative/`](org_frontier/qualitative/): a methods guide, an
+  open topic agenda, and worked study proposals, where a real coordination setting is read against a named
+  prior and the prior is held open. A study may stand on its own or feed the field protocol toward a
+  verdict.
 - **The field arc** — [`org_frontier/field/`](org_frontier/field/): a protocol for modeling one real
   coordination arrangement and the verdict it yields, demonstrated on ten mock organizations, with the
   validation gap kept explicit.
-- **The qualitative arm** — [`org_frontier/qualitative/`](org_frontier/qualitative/): the empirical partner
-  to the prior catalog, where real coordination is read against the priors. It carries a methods guide and an
-  open topic agenda, and a study may stand on its own or feed the field protocol toward a verdict.
+
+The **recurrence program** — Φ paired with a behavioral measure of coordination:
+
+- **The recurrence arm** — [`org_frontier/recurrence/`](org_frontier/recurrence/): cross-recurrence
+  quantification paired with exact Φ. Φ reads a coordination's structure; cross-recurrence reads a run of
+  it — how strongly the parties' states track each other, and which one leads. A corpus sweep, twenty
+  experiments, and the bridge at four and five parties show where structure and behavior agree and where
+  they part. The pairing is unclaimed in the literature, and like the rest it is in-silico so far.
 
 ## Where you could contribute
 
@@ -86,6 +111,11 @@ Concrete open threads, roughly easiest to hardest. Each is a real gap, not busyw
   ethnographic, and document work — reading a real coordination setting against a named prior, as a
   stand-alone description or upstream of a field verdict. The methods and an open agenda of settings are laid
   out for contributors.
+- **Run cross-recurrence on a real series.** The recurrence arm
+  ([`org_frontier/recurrence/`](org_frontier/recurrence/)) has paired Φ with cross-recurrence on synthetic
+  trajectories of the lab's own models. The open step is the first recorded series — a dispatch log, a set
+  of vitals, a handoff record — read with both instruments through the field protocol. That is the first
+  time the behavioral measure would run on data the lab did not generate.
 - **Push past the size ceiling.** Exact Φ is feasible to ~10–12 elements. The proxy-bridge attempt
   (foundations) does not yet recover the verdict from cheap signals; making it work would unlock larger
   arrangements.
