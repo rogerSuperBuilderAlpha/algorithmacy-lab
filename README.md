@@ -18,6 +18,36 @@ exact Φ, that verdict is exact, not a proxy.
 > about real organizations (cross-model agreement is internal validity, not external validity). This is a
 > research program and a proof-of-method, not peer-reviewed findings about real firms.
 
+## The empirical ask — bring the lab real data
+
+Every result here is in-silico or pre-fieldwork, and the validation gap is the program's largest open
+need. Closing it is community work: each of the three programs below is waiting on a different kind of
+real data, and the highest-value contribution available is to go get one piece of it. Bring it through a
+pull request into `contrib` (see [`CONTRIBUTING.md`](CONTRIBUTING.md)); the lab is reproducibility-first
+and fixes its claims before computing, so a contributor commits the questions before the data.
+
+- **Computational — one real arrangement, modeled to a Φ verdict.** No real worker, platform, or message
+  has been measured. The [field protocol](org_frontier/field/PROTOCOL.md) needs one real coordination — a
+  team, the system that mediates it, the counterpart — with the determination rules (what each party's
+  next action depends on, who reads whom) elicited from interviews, observation, or system documentation,
+  and a second coder's agreement on the encoding. That turns a real arrangement into a Boolean model and
+  an exact-Φ verdict. This is the deepest gap.
+- **Qualitative — one worked study, run as fieldwork.** The studies under
+  [`org_frontier/qualitative/`](org_frontier/qualitative/) are designs awaiting data: a neonatal bedside,
+  a content-moderation team, a clinical handoff, a brokered market, each read against a named prior. Each
+  needs access to the setting and the interviews, observation hours, and documents to read it. Run one,
+  hold the prior open, and report where the real setting departs from the catalog's expectation.
+- **Recurrence — one recorded series the lab has not touched.** The behavioral instrument has read
+  open-source merge graphs ([v8–v10](org_frontier/recurrence/)) and wants more, ideally where the
+  determination actor is recorded so both Φ and cross-recurrence can run: a bot-merged project, a dispatch
+  or handoff log with a named gatekeeper, or a physiological series such as the infant vitals the neonatal
+  study describes.
+
+Each program README carries the specifics, and the [overview](OVERVIEW.md) lists the open contributions in
+order of value. Dig as deep as you like from there.
+
+## The three programs
+
 The lab runs three research programs on this thesis, each a different lens on the same coordination
 arrangement.
 
