@@ -25,7 +25,8 @@ instrument the other two are built around.
 - **Recurrence** — [`recurrence/`](recurrence/): Φ paired with cross-recurrence quantification, the
   behavioral reading of how the parties' states track each other over time and which one leads. A corpus
   sweep, twenty experiments, and the bridge at four and five parties map where structure and behavior
-  agree and where they part.
+  agree and where they part; v8–v10 then read three open-source projects' real event histories, where the
+  veto-player and disintermediation priors appear and governance style measurably changes the gate.
 
 The computational program is detailed below. The qualitative and recurrence programs carry their own
 READMEs at the links above.
