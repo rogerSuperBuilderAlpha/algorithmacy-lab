@@ -18,11 +18,27 @@ exact Φ, that verdict is exact, not a proxy.
 > about real organizations (cross-model agreement is internal validity, not external validity). This is a
 > research program and a proof-of-method, not peer-reviewed findings about real firms.
 
-The active program is the lab in [`org_frontier/`](org_frontier/), which runs a fixed six-stage
-protocol — review → deep research → five hypotheses fixed before computing → methods → run against
-the exact-Φ instrument → paper — for each question. The measure-validation arc in
-[`foundations/`](foundations/) established exact Φ as the instrument first. The directory below is a
-live map of both; it is regenerated from the content on every merge, so it is always current.
+The lab runs three research programs on this thesis, each a different lens on the same coordination
+arrangement.
+
+- **The computational program** in [`org_frontier/`](org_frontier/) computes exact Φ on Boolean
+  models through a fixed six-stage protocol — review → deep research → five hypotheses fixed before
+  computing → methods → run against the exact-Φ instrument → paper. Its corpus of threads, studies,
+  and questions stands as a catalog of pre-disclosed priors: the structural reading of what a
+  coordination form is.
+- **The qualitative program** in [`org_frontier/qualitative/`](org_frontier/qualitative/) reads real
+  coordination settings against those priors, on the questions of process and meaning that fieldwork
+  answers and a model cannot. It holds each prior open, and builds its contribution where a real
+  setting departs from the catalog's expectation.
+- **The recurrence program** in [`org_frontier/recurrence/`](org_frontier/recurrence/) pairs Φ with
+  cross-recurrence quantification, the behavioral reading of how the parties' states track each other
+  over time. Φ says whether a coordination is irreducible; cross-recurrence says how its signal
+  moves, and which party leads.
+
+Structure, fieldwork, behavior: the three meet on one arrangement, and Φ is the instrument the other
+two are built around. The measure-validation arc in [`foundations/`](foundations/) established exact Φ
+first. The directory below is a live map of all three, regenerated from the content on every merge,
+so it is always current.
 
 <!-- BEGIN GENERATED DIRECTORY (tools/build_index.py) -->
 ## Directory
