@@ -86,6 +86,12 @@ its [methods](org_frontier/qualitative/METHODS.md), the open [topics](org_fronti
 the study [template](org_frontier/qualitative/template/). The same pre-commitment rule applies in qualitative
 form: commit the coding scheme before the fieldwork.
 
+For the recurrence program — pairing exact Φ with cross-recurrence quantification, the behavioral reading of
+how the parties' states track each other — start from [`org_frontier/recurrence/`](org_frontier/recurrence/):
+the arm's [README](org_frontier/recurrence/README.md) and [CONCEPTS.md](org_frontier/recurrence/CONCEPTS.md),
+then the worked [bridge demonstration](org_frontier/recurrence/bridge_demo.py) and its
+[findings](org_frontier/recurrence/FINDINGS.md). Each experiment script is seeded so its numbers reproduce.
+
 ## 6. Register your numbers and check reproduction
 
 Every published number is re-derived by CI from its script. After your probes run, add one entry

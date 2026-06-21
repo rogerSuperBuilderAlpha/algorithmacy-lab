@@ -12,6 +12,24 @@ minimum-information partition. The instrument is validated on its own controls (
 > Results are in-silico: exact Φ on small Boolean models of coordination. They are evidence about the
 > models. A validation gap separates them from claims about real organizations. Every paper states this.
 
+## The three programs
+
+The lab runs three programs on the one thesis, each a different lens on the same arrangement, with Φ the
+instrument the other two are built around.
+
+- **Computational** — exact Φ on Boolean models through the protocol below: the structural reading, and
+  the corpus of threads, studies, and questions that forms the catalog of pre-disclosed priors.
+- **Qualitative** — [`qualitative/`](qualitative/): real coordination settings read against those
+  priors, on the questions of process and meaning fieldwork answers, each prior held open. Its forward
+  bridge is the field protocol in [`field/`](field/), which takes one real arrangement to a Φ verdict.
+- **Recurrence** — [`recurrence/`](recurrence/): Φ paired with cross-recurrence quantification, the
+  behavioral reading of how the parties' states track each other over time and which one leads. A corpus
+  sweep, twenty experiments, and the bridge at four and five parties map where structure and behavior
+  agree and where they part.
+
+The computational program is detailed below. The qualitative and recurrence programs carry their own
+READMEs at the links above.
+
 ## The research protocol — [`protocol/`](protocol/)
 
 A fixed six-stage pipeline, made runnable: review → deep research → five hypotheses fixed before computing
