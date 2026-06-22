@@ -47,7 +47,7 @@ against what the eight structural findings already settle.
 | 7 | Q1 parity at scale | 2 | 2 | 1 | 2 | 7 |
 | 8 | Q5 depth for every function | 2 | 2 | 1 | 2 | 7 |
 | 9 | Q8 the excluded proposer | 2 | 2 | 2 | 1 | 7 |
-| 10 | Q10 behavioral discriminability | 2 | 2 | 1 | 1 | 6 |
+| 10 | Q10 behavioral discriminability ([taken deep](../behavioral_discriminant/THREAD.md)) | 2 | 2 | 1 | 1 | 6 |
 
 ## The choice
 
