@@ -80,6 +80,10 @@ reproduced in [FINDINGS.md](FINDINGS.md):
   where the merge actor is a machine. The bot is a member of the irreducible core but a functional
   conduit that commits nothing; the human approval upstream is the actor. It refines the cognition arm's
   channel-versus-actor distinction: membership and committing come apart.
+- [`packets/template/`](packets/template/) — the **handoff packet**: the pipeline packaged so a researcher
+  can take a new coordination from recorded series to a paired Φ-and-cross-recurrence verdict, with a
+  pre-registration template and a runnable end-to-end scaffold. The fifth run starts from a template
+  instead of from the four worked instances.
 
 ## The agenda
 
