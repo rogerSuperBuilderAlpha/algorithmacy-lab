@@ -40,6 +40,17 @@ is taken several experiments deeper in [`theory_batteries.py`](theory_batteries.
   interest supplants her input to the system, she is displaced from the irreducible core at a low
   threshold, and the coordination runs on without her.
 
+## Beyond the paper, and toward the survey
+
+The paper engages five theories; the arm adds a sixth it did not, predictive processing, in
+[`predictive_processing.py`](predictive_processing.py) and
+[`PREDICTIVE_PROCESSING.md`](PREDICTIVE_PROCESSING.md): the worker as a generative model of a process she
+cannot fully invert and that retrains underneath her, with an opacity floor of half a bit she cannot
+predict away and a binding that thins as the rule drifts. The three failure points that map to the survey
+arm's three-facet scale — counterpart inference, signal compression, rule-change tracking — are drawn
+together in [`survey_bridge.md`](survey_bridge.md), which turns the formal results into moderation
+predictions a study of real workers could test.
+
 ## What is formal and what is not
 
 The arm formalizes the structural skeleton of the paper's account, where it has one. It leaves aside
