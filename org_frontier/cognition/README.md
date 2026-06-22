@@ -22,7 +22,9 @@ what the major complex holds.
 ## The five experiments
 
 [`five_theories.py`](five_theories.py) runs one experiment per theory, each formalizing a structural
-claim from the paper. The results and their reading are in [`FINDINGS.md`](FINDINGS.md).
+claim from the paper. The results and their reading are in [`FINDINGS.md`](FINDINGS.md), and each theory
+is taken several experiments deeper in [`theory_batteries.py`](theory_batteries.py) and
+[`THEORIES.md`](THEORIES.md).
 
 - **Computationalism** casts the algorithm as a channel that carries symbols. The channel is the
   zero-Φ special case; a system that reads its own objective adds an irreducible contribution the
