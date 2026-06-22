@@ -122,6 +122,13 @@ The empirical arm: reading real coordination against the pre-disclosed priors, w
 - [Who Decides the Manuscript: How Authors, Editors, and Reviewers Locate the Editorial Verdict](org_frontier/qualitative/peer_review_gate/STUDY.md) — An editorial decision on a manuscript passes through three parties and a software system: an author who submits, reviewers who advise, and an editor who decides…
 - [Watching the Queue: Whether a Triage Supervisor Is a Member of Service Coordination or Only Its Spectator](org_frontier/qualitative/triage_spectator/STUDY.md) — Customer-service triage routes a contact through an automated classifier to a human agent, with a supervisor watching the queue from a dashboard
 
+### Survey — measuring algorithmacy in real workers
+
+The first human-subjects arm: self-report from people inside a real coordination arrangement, with the instrument and hypotheses committed before the data.
+
+- **[Survey — measuring algorithmacy in real workers](org_frontier/survey/README.md)** — The lab's instrument is exact and its results reproduce, and every one of them is in-silico. No real
+- [Learning to Read the Machine: A Three-Wave Panel of Algorithmacy in a Developer Cohort](org_frontier/survey/cohort_algorithmacy/STUDY.md) — A three-wave panel of a sixteen-week developer cohort that coordinates through platforms it builds and a peer-review gate, developing a scale for algorithmacy as a…
+
 ### Recurrence — coordination read off behavior
 
 Pairing exact Φ with cross-recurrence quantification: the structural measure on the model and the behavioral measure on a run of it.
