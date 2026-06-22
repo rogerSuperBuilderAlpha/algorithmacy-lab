@@ -152,7 +152,7 @@ Pairing exact Φ with cross-recurrence quantification: the structural measure on
 Where the formal apparatus meets the cognitive theories of coordination: the third party that two-party theories cannot represent, held as a member of the irreducible core.
 
 - **[Cognition — the formal bridge to the cognitive theories of coordination](org_frontier/cognition/README.md)** — A coordination through an opaque, interested third party is something the standard theories of mind
-  - [Paper](org_frontier/cognition/coordinating_through_the_opaque_third.md) · [Findings](org_frontier/cognition/FINDINGS.md) · [Theory batteries](org_frontier/cognition/THEORIES.md)
+  - [Paper](org_frontier/cognition/coordinating_through_the_opaque_third.md) · [Findings](org_frontier/cognition/FINDINGS.md) · [Theory batteries](org_frontier/cognition/THEORIES.md) · [Predictive processing](org_frontier/cognition/PREDICTIVE_PROCESSING.md) · [Survey bridge](org_frontier/cognition/survey_bridge.md)
 
 ### Threads
 
