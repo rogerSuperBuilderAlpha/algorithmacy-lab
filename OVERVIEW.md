@@ -12,15 +12,17 @@ and computing exact integrated information (Φ, from IIT 4.0, via [PyPhi](https:
 A form is **triadic** (irreducible; the lab's name for it is *algorithmacy*) or **dyadic** (it factors;
 *literacy*). On systems small enough, that verdict is exact, not a proxy.
 
-The work runs as three programs on that one question, each a different lens on the same arrangement. The
+The work runs as four programs on that one question, each a different lens on the same arrangement. The
 **computational program** fixes a protocol — a literature pass, five hypotheses set before any
 computation, an instrument-validated run, a paper — and has carried 74 questions through it, with a
 measure-validation arc that established Φ as the instrument first and six synthesis papers tying threads
 together. The **qualitative program** reads real coordination settings against that catalog of priors, on
 the questions of process and meaning fieldwork answers. The **recurrence program** pairs Φ with
 cross-recurrence quantification, a behavioral measure of how the parties' states track each other over
-time and which one leads. Structure, fieldwork, behavior, on one arrangement, with Φ the instrument the
-other two are built around.
+time and which one leads. The **survey program** measures algorithmacy as a lived competence in real
+workers through self-report, the measurement side of the validation gap. Structure, fieldwork, behavior,
+measurement, on one arrangement, with Φ the structural instrument the qualitative and recurrence arms are
+built around.
 
 ## The honest standing
 
@@ -56,7 +58,7 @@ deep research and an adversarial committee and reports what survives, read the
 
 ## What is already here
 
-The instrument is the shared base; the three programs build around it.
+The instrument is the shared base; the four programs build around it.
 
 - **The instrument and its validation** — [`foundations/`](foundations/): a complete manuscript showing
   no cheap proxy recovers exact Φ, so the exact computation is needed. The classifier, controls, and the
@@ -92,6 +94,15 @@ The **recurrence program** — Φ paired with a behavioral measure of coordinati
   review process spreads the merge gate and binds a deeper core. The pairing is unclaimed in the
   literature.
 
+The **survey program** — measuring the competence in people:
+
+- **The survey arm** — [`org_frontier/survey/`](org_frontier/survey/): the human-subjects arm. It carries
+  algorithmacy from theory into measurement, a self-report scale for the construct's three facets —
+  counterpart inference, signal compression, rule-change tracking — fielded on people inside a real
+  coordination arrangement. Its first study is a pre-registered three-wave panel, the instrument and
+  hypotheses committed before any data. This is the measurement side of the validation gap; no data is
+  collected yet.
+
 ## Where you could contribute
 
 Concrete open threads, roughly easiest to hardest. Each is a real gap, not busywork.
@@ -124,6 +135,11 @@ Concrete open threads, roughly easiest to hardest. Each is a real gap, not busyw
   project where the merge actor is a machine, a physiological series such as the neonatal vitals, or a
   dispatch or handoff log with a named gatekeeper — ideally where the determination actor is recorded so
   both instruments run.
+- **Field the survey with a real cohort.** The survey arm
+  ([`org_frontier/survey/`](org_frontier/survey/)) has a pre-registered three-wave panel ready, with the
+  instrument, scoring, and hypotheses committed. It needs a cohort that coordinates through a system it
+  does not control, and the access and ethics clearance to run it. Collecting the first wave is what
+  turns the algorithmacy scale from an instrument into a measurement.
 - **Push past the size ceiling.** Exact Φ is feasible to ~10–12 elements. The proxy-bridge attempt
   (foundations) does not yet recover the verdict from cheap signals; making it work would unlock larger
   arrangements.

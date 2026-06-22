@@ -92,6 +92,11 @@ the arm's [README](org_frontier/recurrence/README.md) and [CONCEPTS.md](org_fron
 then the worked [bridge demonstration](org_frontier/recurrence/bridge_demo.py) and its
 [findings](org_frontier/recurrence/FINDINGS.md). Each experiment script is seeded so its numbers reproduce.
 
+For the survey program — the human-subjects arm measuring algorithmacy as a lived competence through
+self-report — start from [`org_frontier/survey/`](org_frontier/survey/): the arm's README and its first
+pre-registered three-wave panel study. The same pre-commitment rule applies in survey form: commit the
+instrument, scoring, and hypotheses before any data.
+
 ## 6. Register your numbers and check reproduction
 
 Every published number is re-derived by CI from its script. After your probes run, add one entry
