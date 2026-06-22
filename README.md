@@ -18,12 +18,12 @@ exact Φ, that verdict is exact, not a proxy.
 > claims about real organizations (cross-model agreement is internal validity, not external validity).
 > This is a research program and a proof-of-method, not peer-reviewed findings about real firms. The
 > recurrence program has begun reading real coordination data (the empirical ask below has the detail),
-> on a methodological side rather than the core thesis.
+> on a methodological side, away from the core thesis.
 
 ## The empirical ask — bring the lab real data
 
 Every result here is in-silico or pre-fieldwork, and the validation gap is the program's largest open
-need. Closing it is community work: each of the three programs below is waiting on a different kind of
+need. Closing it is community work: each of the four programs below is waiting on a different kind of
 real data, and the highest-value contribution available is to go get one piece of it. Bring it through a
 pull request into `contrib` (see [`CONTRIBUTING.md`](CONTRIBUTING.md)); the lab is reproducibility-first
 and fixes its claims before computing, so a contributor commits the questions before the data.
@@ -44,13 +44,18 @@ and fixes its claims before computing, so a contributor commits the questions be
   determination actor is recorded so both Φ and cross-recurrence can run: a bot-merged project, a dispatch
   or handoff log with a named gatekeeper, or a physiological series such as the infant vitals the neonatal
   study describes.
+- **Survey — field the instrument with a real cohort.** The
+  [survey arm](org_frontier/survey/) measures the competence directly: self-report from people inside a
+  real coordination arrangement, on a fixed schedule, the questions committed before the answers. The
+  pre-registered panel needs a cohort and the access to run it; any workforce coordinating through a
+  system beyond its control is a candidate.
 
 Each program README carries the specifics, and the [overview](OVERVIEW.md) lists the open contributions in
 order of value. Dig as deep as you like from there.
 
-## The three programs
+## The four programs
 
-The lab runs three research programs on this thesis, each a different lens on the same coordination
+The lab runs four research programs on this thesis, each a different lens on the same coordination
 arrangement.
 
 - **The computational program** in [`org_frontier/`](org_frontier/) computes exact Φ on Boolean
@@ -66,9 +71,14 @@ arrangement.
   cross-recurrence quantification, the behavioral reading of how the parties' states track each other
   over time. Φ says whether a coordination is irreducible; cross-recurrence says how its signal
   moves, and which party leads.
+- **The survey program** in [`org_frontier/survey/`](org_frontier/survey/) measures the competence in
+  people: a human-subjects arm that reads algorithmacy as a lived skill through self-report from workers
+  inside a real coordination arrangement, the measurement side of the validation gap the other three
+  cannot reach.
 
-Structure, fieldwork, behavior: the three meet on one arrangement, and Φ is the instrument the other
-two are built around. The measure-validation arc in [`foundations/`](foundations/) established exact Φ
+Structure, fieldwork, behavior, measurement: the four meet on one arrangement. Φ is the structural
+instrument the qualitative and recurrence arms are built around, and the survey arm measures the
+competence the structure is meant to demand. The measure-validation arc in [`foundations/`](foundations/) established exact Φ
 first. The directory below is a live map of all three, regenerated from the content on every merge,
 so it is always current.
 

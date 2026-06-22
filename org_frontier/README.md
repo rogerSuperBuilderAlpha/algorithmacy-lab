@@ -12,10 +12,10 @@ minimum-information partition. The instrument is validated on its own controls (
 > Results are in-silico: exact Φ on small Boolean models of coordination. They are evidence about the
 > models. A validation gap separates them from claims about real organizations. Every paper states this.
 
-## The three programs
+## The four programs
 
-The lab runs three programs on the one thesis, each a different lens on the same arrangement, with Φ the
-instrument the other two are built around.
+The lab runs four programs on the one thesis, each a different lens on the same arrangement, with Φ the
+structural instrument the qualitative and recurrence arms are built around.
 
 - **Computational** — exact Φ on Boolean models through the protocol below: the structural reading, and
   the corpus of threads, studies, and questions that forms the catalog of pre-disclosed priors.
@@ -27,9 +27,12 @@ instrument the other two are built around.
   sweep, twenty experiments, and the bridge at four and five parties map where structure and behavior
   agree and where they part; v8–v10 then read three open-source projects' real event histories, where the
   veto-player and disintermediation priors appear and governance style measurably changes the gate.
+- **Survey** — [`survey/`](survey/): the human-subjects arm. It measures algorithmacy as a lived
+  competence through self-report from workers inside a real coordination arrangement, the measurement
+  side of the validation gap the other three cannot reach. A pre-registered panel study; pre-fieldwork.
 
-The computational program is detailed below. The qualitative and recurrence programs carry their own
-READMEs at the links above.
+The computational program is detailed below. The qualitative, recurrence, and survey programs carry
+their own READMEs at the links above.
 
 ## The research protocol — [`protocol/`](protocol/)
 
@@ -51,8 +54,8 @@ as first-class results.
   method, and result. About a third are nulls or refinements.
 - [`RESEARCH_PROGRAM_V2.md`](RESEARCH_PROGRAM_V2.md) … [`RESEARCH_PROGRAM_V7.md`](RESEARCH_PROGRAM_V7.md) —
   the iterative programs, each closing a wave and opening the next. V2–V6 produced the computational
-  logbook; [v7](RESEARCH_PROGRAM_V7.md) broadens the lab into three programs, adding the qualitative and
-  recurrence arms.
+  logbook; [v7](RESEARCH_PROGRAM_V7.md) broadened the lab beyond the single computational line, adding the
+  qualitative and recurrence arms, and the survey arm followed.
 - [`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the synthesis: a coordination form demands
   algorithmacy when every party is bound into one irreducible joint determination. Substitutability
   collapses it; mediation depth does not; cheap proxies cannot detect it.
