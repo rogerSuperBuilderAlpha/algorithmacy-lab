@@ -18,6 +18,9 @@ what will find its limits and turn it into a field-tested method.
 - [`FINDINGS.md`](FINDINGS.md) — what the ten mocks show: a system in the middle is not enough; the
   verdict turns on the encoding; compute rather than assert; a triadic verdict still needs the
   complex to name who binds.
+- [`packets/gig_dispatch/`](packets/gig_dispatch/) — a ready-to-execute field-study packet: the
+  protocol instantiated for gig dispatch, with the interview guide, coding scheme, pre-registration,
+  ethics, and a runnable analysis. The handoff for the first interview-based study on real workers.
 
 ## Run the demo
 
