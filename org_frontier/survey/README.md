@@ -31,6 +31,8 @@ computing.
 
 ## Read next
 
+- [`cohort_algorithmacy/README.md`](cohort_algorithmacy/README.md) — the **handoff packet**: the front
+  door to the first study, packaged so a researcher can field it and run the pre-registered analysis.
 - [`cohort_algorithmacy/STUDY.md`](cohort_algorithmacy/STUDY.md) — the first study: a three-wave panel
   of a real developer cohort that coordinates through platforms it builds, gated by peer review.
 - [`cohort_algorithmacy/PRE_REGISTRATION.md`](cohort_algorithmacy/PRE_REGISTRATION.md) — the locked
@@ -41,6 +43,8 @@ computing.
   the growth model, the planned tests, missing-data handling, and the small-sample stance.
 - [`cohort_algorithmacy/instruments/`](cohort_algorithmacy/instruments/) — the consent form and the three
   survey waves as administered.
+- [`cohort_algorithmacy/analysis.py`](cohort_algorithmacy/analysis.py) — the analysis pipeline, runnable
+  now on a simulated cohort and completed by pointing it at the real wave files.
 
 ## How to contribute
 
