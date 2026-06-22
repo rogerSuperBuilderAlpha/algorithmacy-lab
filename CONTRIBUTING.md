@@ -68,6 +68,16 @@ markdown file. See [`org_frontier/recurrence/README.md`](org_frontier/recurrence
 and [`CONCEPTS.md`](org_frontier/recurrence/CONCEPTS.md) for what each measure indexes and how Φ and CRQA
 differ. The pre-commitment and report-the-nulls rules apply as in the computational program.
 
+## Adding a survey study
+
+The survey program is the human-subjects arm: self-report measuring algorithmacy as a lived competence in
+workers inside a real coordination arrangement. Work lands under `org_frontier/survey/<study>/`, with the
+instrument, scoring, hypotheses, and analysis plan committed **before** any data, the pre-commitment
+discipline in its human-subjects form. A study carries its consent and ethics materials, and reports no
+`ci/reproduce.json` number until it has data; the `directory-current` check confirms it is indexed. See
+[`org_frontier/survey/README.md`](org_frontier/survey/README.md) for the arm and its first pre-registered
+panel study.
+
 ## Register your numbers for CI
 
 Every number a submission reports has to reproduce from a committed script. Add an entry to
