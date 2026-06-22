@@ -1,7 +1,11 @@
 # Qualitative study template
 
 A study lands in `org_frontier/qualitative/<slug>/` as its own subdirectory, built from this template. Copy
-the two files into the new directory and fill them.
+the files into the new directory and fill them. The template is the qualitative arm's handoff packet: a
+researcher picks it up and takes a coordination setting from fieldwork to a writeup, and for a model-bound
+study to a Φ verdict — the same shape the [survey](../../survey/cohort_algorithmacy/),
+[field](../../field/packets/gig_dispatch/), [recurrence](../../recurrence/packets/template/), and
+[cognition](../../cognition/packets/template/) packets carry.
 
 ## Files
 
@@ -10,6 +14,10 @@ the two files into the new directory and fill them.
   form of the lab's hypotheses-before-results discipline.
 - `STUDY.md` — the writeup. Its first heading is the study title and its first paragraph is the summary the
   directory builder shows, so open with a one-line statement of the setting and the finding.
+- `analyze.py` — the model-bound endpoint: it takes the elicited Boolean rules to a Φ verdict, the
+  major-complex membership, the sensitivity re-encoding, and the verdict under each account where the parties
+  disagreed. A stand-alone study computes no verdict and does not use it. It runs now on a bundled
+  committing-triad example; a model-bound study replaces the rules with the elicited ones.
 
 ## The two modes
 
@@ -18,7 +26,9 @@ the two files into the new directory and fill them.
   sections marked not applicable.
 - **Model-bound.** A study that takes the arrangement through the [field protocol](../../field/PROTOCOL.md)
   to a dyadic or triadic verdict. Fill every section, including the elicited rules and the verdict
-  pre-registered before computing.
+  pre-registered before computing, then put the rules into `analyze.py` and run it for the verdict, the
+  major-complex membership, the sensitivity re-encoding, and the reading under each account where the
+  parties disagreed.
 
 ## Discipline
 
