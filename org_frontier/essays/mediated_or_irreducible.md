@@ -123,19 +123,54 @@ demand, is called for only when the three conditions hold at once. A great deal 
 coordinating with a system through a mediator is coordinating with a conduit, and the conditions say
 which is which.
 
+## What the deep dives found
+
+Four deep dives took the open questions twenty computational steps each, every step's question drawn from
+the previous step's result. Together they sharpen the integrating-determination condition into a law, make
+the verdict continuous, test whether behavior can stand in for the structure, and map which parties the
+structure binds.
+
+The first dive, the [mediation boundary](../threads/mediation_boundary/THREAD.md), sharpens the
+integrating-determination condition into the co-monotonicity law. A mediator binds a triad into a strong,
+bipartition-irreducible whole exactly when it depends on every party in the same monotone direction; a
+mixed-direction dependence factors the whole and excludes the against-the-grain party; a parity dependence
+binds only weakly, against the full atomization. The split is invisible to connectivity and reachable
+states, living in the cause-effect structure exact Φ computes. The law has a floor in the next dive and a
+membership face in the last.
+
+The second dive, the [margin to the dyad](../threads/margin_to_dyad/THREAD.md), makes the binary verdict
+continuous. A mediator that commits its determination with probability p, read by parties with fidelity q,
+sits at a distance from the dyad that Φ measures: a convex curve with no threshold, so there is no weakest
+commit, set by two knobs that do not separate and dominated by the commit. The perturbations have ordered
+fragilities, from a back-channel tolerated to nearly half strength down to substitutability, which tears the
+margin down at the first increment. Read as a compliance rate, the margin is how far a gate's practice sits
+from the determination it claims to make.
+
+The third dive, the [behavioral discriminant](../threads/behavioral_discriminant/THREAD.md), tests whether
+cross-recurrence can recover the commit-or-convey verdict from a run, without the model. It is a sensitive,
+low-specificity screen, about AUC 0.70, bounded not by noise but by the genuine ambiguity of behavior: a
+large class of conveying mediators runs with behavior identical to a committing one. The verdict stays with
+exact Φ, the structural instrument vindicated on a third measure. Behavior does recover the mediator's core
+membership exactly, and its detectability of commitment tracks the second dive's margin.
+
+The fourth dive, [core membership](../threads/core_membership/THREAD.md), reads the major complex to ask
+which parties are in the irreducible whole. They reduce to one principle: the core is the tightest-coupled
+subset, and parties compete for a place. A party is shed when it is decoupled, half-coupled, read against
+the grain, substitutable, a feedforward relay, or out-coupled by a rival, and a system can contract its core
+to itself and its owner or push the proposer out under heavy review. The parties a coordination exists to
+bind can sit outside the whole it runs.
+
+The four lock together. The first names which mediators commit, the second how far from the boundary they
+sit, the third that the margin is what makes commitment behaviorally visible while behavior cannot replace
+the structural verdict, and the fourth that the verdict is the special case where every party is in the core.
+
 ## What is open
 
-The [mediation-boundary thread](../threads/mediation_boundary/THREAD.md) takes the integrating-determination
-condition twenty steps deep and sharpens it into the co-monotonicity law: a mediator binds a triad when it
-depends on every party in the same monotone direction, and a party read against the grain drops from the
-core. The remaining edges follow.
-
-The conditions are characterized at three nodes and confirmed at four and five for the dilution rate;
-a full robustness check of each condition at four and five parties, where a coordination carries more
-than one mediator, is the next computation, and whether the parity-robustness result survives more
-parties is open. The behavioral signature is demonstrated on synthetic trajectories and on open-source
-event data; a convey-versus-commit characterization on a real arrangement, where a known conduit and a
-known committing gate are read side by side, would test it directly. The validation gap stays marked:
+A full robustness check of each condition at four and five parties, where a coordination carries more than
+one mediator, is the next computation. The behavioral signature is demonstrated on synthetic trajectories
+and on open-source event data; a convey-versus-commit characterization on a real arrangement, where a known
+conduit and a known committing gate are read side by side, would test it directly. The validation gap stays
+marked:
 the structural results are evidence about the models, and the real-data work so far reads coordination
 the lab did not generate without yet measuring a worker, a platform, or a message in an organization.
 The conditions are stated as predictions a field study could check: a mediated arrangement is
@@ -150,4 +185,9 @@ the census and the eight structural findings, [`multiparty/`](../multiparty/) fo
 the breadth-and-depth laws, [`recurrence/iit_experiments.py`](../recurrence/iit_experiments.py) for the
 feedforward, reciprocity, and commit-versus-store experiments, [`recurrence/`](../recurrence/) for the
 behavioral bridge, and [`recurrence/event_series/`](../recurrence/event_series/) and
-[`recurrence/review_heavy/`](../recurrence/review_heavy/) for the real merge-gate instances.
+[`recurrence/review_heavy/`](../recurrence/review_heavy/) for the real merge-gate instances. The four
+deep dives are [`threads/mediation_boundary/`](../threads/mediation_boundary/THREAD.md) (the
+co-monotonicity law), [`threads/margin_to_dyad/`](../threads/margin_to_dyad/THREAD.md) (the continuous
+margin), [`threads/behavioral_discriminant/`](../threads/behavioral_discriminant/THREAD.md) (the
+behavioral screen), and [`threads/core_membership/`](../threads/core_membership/THREAD.md) (the rules of
+membership), each reproducible from its own `chain.py`.
