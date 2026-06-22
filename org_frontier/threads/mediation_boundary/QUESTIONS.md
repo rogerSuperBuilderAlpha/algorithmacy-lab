@@ -46,7 +46,7 @@ against what the eight structural findings already settle.
 | 6 | Q4 distance to dyad ([taken deep](../margin_to_dyad/THREAD.md)) | 2 | 3 | 2 | 1 | 8 |
 | 7 | Q1 parity at scale | 2 | 2 | 1 | 2 | 7 |
 | 8 | Q5 depth for every function | 2 | 2 | 1 | 2 | 7 |
-| 9 | Q8 the excluded proposer | 2 | 2 | 2 | 1 | 7 |
+| 9 | Q8 the excluded proposer ([taken deep](../core_membership/THREAD.md)) | 2 | 2 | 2 | 1 | 7 |
 | 10 | Q10 behavioral discriminability ([taken deep](../behavioral_discriminant/THREAD.md)) | 2 | 2 | 1 | 1 | 6 |
 
 ## The choice
