@@ -204,6 +204,27 @@ def _qualitative() -> list:
     return out
 
 
+def _survey() -> list:
+    """The survey arm under org_frontier/survey/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "survey")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Survey research"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    for d in sorted(glob.glob(os.path.join(base, "*"))):
+        name = os.path.basename(d)
+        if not os.path.isdir(d) or name == "template" or name.startswith("__"):
+            continue
+        study = os.path.join(d, "STUDY.md")
+        if not os.path.exists(study):
+            continue
+        s_title = _first_heading(study) or name.replace("_", " ")
+        out.append(f"- [{s_title}]({_link(study)}) — {_clip(_first_paragraph(study))}")
+    return out
+
+
 def _recurrence() -> list:
     """The recurrence arm under org_frontier/recurrence/, if present."""
     base = os.path.join(_ROOT, "org_frontier", "recurrence")
@@ -285,6 +306,7 @@ def build_directory() -> str:
     syntheses = _syntheses()
     field = _field()
     qualitative = _qualitative()
+    survey = _survey()
     recurrence = _recurrence()
     threads = _threads()
     studies = _studies()
@@ -322,6 +344,13 @@ def build_directory() -> str:
               "The empirical arm: reading real coordination against the pre-disclosed priors, with "
               "methods and an open topic agenda for qualitative contributors.", ""]
         L += qualitative
+        L.append("")
+
+    if survey:
+        L += ["### Survey — measuring algorithmacy in real workers", "",
+              "The first human-subjects arm: self-report from people inside a real coordination "
+              "arrangement, with the instrument and hypotheses committed before the data.", ""]
+        L += survey
         L.append("")
 
     if recurrence:
