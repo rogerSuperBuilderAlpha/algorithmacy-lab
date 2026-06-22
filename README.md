@@ -96,6 +96,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Committed determination: one axis across six exact-Φ studies of Boolean coordination models](org_frontier/essays/committed_determination_synthesis.md)
 - [Committee panel review — "Integrated information as a cooperative game"](org_frontier/essays/cooperative_game_committee_review.md)
 - [The seam carries what the scalar drops: a review of the floor-to-seam program (Q45–Q62)](org_frontier/essays/floor_to_seam_review.md)
+- [What integrated information adds to the theories of coordinating minds](org_frontier/essays/integrated_information_and_coordinating_minds.md)
 - [Literacy or Algorithmacy? Borrowing a Consciousness Measure to Read an Org Chart](org_frontier/essays/literacy_or_algorithmacy.md)
 - [Mediated, or Irreducible? When the Third Party Is Constitutive and When It Is a Conduit](org_frontier/essays/mediated_or_irreducible.md)
 - [Integrated information as a cooperative game](org_frontier/essays/phi_as_a_cooperative_game.md)
@@ -151,7 +152,7 @@ Pairing exact Φ with cross-recurrence quantification: the structural measure on
 Where the formal apparatus meets the cognitive theories of coordination: the third party that two-party theories cannot represent, held as a member of the irreducible core.
 
 - **[Cognition — the formal bridge to the cognitive theories of coordination](org_frontier/cognition/README.md)** — A coordination through an opaque, interested third party is something the standard theories of mind
-  - [Paper](org_frontier/cognition/coordinating_through_the_opaque_third.md) · [Findings](org_frontier/cognition/FINDINGS.md)
+  - [Paper](org_frontier/cognition/coordinating_through_the_opaque_third.md) · [Findings](org_frontier/cognition/FINDINGS.md) · [Theory batteries](org_frontier/cognition/THEORIES.md)
 
 ### Threads
 

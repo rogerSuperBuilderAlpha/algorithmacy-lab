@@ -236,7 +236,7 @@ def _cognition() -> list:
     out = [f"- **[{title}]({_link(readme)})** — {summary}"]
     links = []
     for fname, label in [("coordinating_through_the_opaque_third.md", "Paper"),
-                         ("FINDINGS.md", "Findings")]:
+                         ("FINDINGS.md", "Findings"), ("THEORIES.md", "Theory batteries")]:
         path = os.path.join(base, fname)
         if os.path.exists(path):
             links.append(f"[{label}]({_link(path)})")
