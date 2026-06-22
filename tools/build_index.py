@@ -225,6 +225,26 @@ def _survey() -> list:
     return out
 
 
+def _cognition() -> list:
+    """The cognition arm under org_frontier/cognition/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "cognition")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Cognition"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    links = []
+    for fname, label in [("coordinating_through_the_opaque_third.md", "Paper"),
+                         ("FINDINGS.md", "Findings")]:
+        path = os.path.join(base, fname)
+        if os.path.exists(path):
+            links.append(f"[{label}]({_link(path)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    return out
+
+
 def _recurrence() -> list:
     """The recurrence arm under org_frontier/recurrence/, if present."""
     base = os.path.join(_ROOT, "org_frontier", "recurrence")
@@ -308,6 +328,7 @@ def build_directory() -> str:
     qualitative = _qualitative()
     survey = _survey()
     recurrence = _recurrence()
+    cognition = _cognition()
     threads = _threads()
     studies = _studies()
     foundations = _foundations()
@@ -358,6 +379,14 @@ def build_directory() -> str:
               "Pairing exact Φ with cross-recurrence quantification: the structural measure on the "
               "model and the behavioral measure on a run of it.", ""]
         L += recurrence
+        L.append("")
+
+    if cognition:
+        L += ["### Cognition — the formal bridge to cognitive science", "",
+              "Where the formal apparatus meets the cognitive theories of coordination: the third "
+              "party that two-party theories cannot represent, held as a member of the irreducible "
+              "core.", ""]
+        L += cognition
         L.append("")
 
     if threads:

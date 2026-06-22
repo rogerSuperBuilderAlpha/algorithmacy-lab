@@ -146,6 +146,13 @@ Pairing exact Φ with cross-recurrence quantification: the structural measure on
 - **[Recurrence — reading coordination off behavior, paired with Φ](org_frontier/recurrence/README.md)** — A coordination arrangement can be read two ways. Its structure says whether the parties form a
   - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Bridge](org_frontier/recurrence/FINDINGS.md) · [Sweep](org_frontier/recurrence/SWEEP.md) · [Φ experiments](org_frontier/recurrence/IIT_EXPERIMENTS.md) · [CRQA experiments](org_frontier/recurrence/CRQA_EXPERIMENTS.md) · [Four-party](org_frontier/recurrence/BRIDGE_FOUR.md)
 
+### Cognition — the formal bridge to cognitive science
+
+Where the formal apparatus meets the cognitive theories of coordination: the third party that two-party theories cannot represent, held as a member of the irreducible core.
+
+- **[Cognition — the formal bridge to the cognitive theories of coordination](org_frontier/cognition/README.md)** — A coordination through an opaque, interested third party is something the standard theories of mind
+  - [Paper](org_frontier/cognition/coordinating_through_the_opaque_third.md) · [Findings](org_frontier/cognition/FINDINGS.md)
+
 ### Threads
 
 Deep single-question dives, each driven by its own results.
