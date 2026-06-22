@@ -50,8 +50,11 @@ and fixes its claims before computing, so a contributor commits the questions be
   pre-registered panel needs a cohort and the access to run it; any workforce coordinating through a
   system beyond its control is a candidate.
 
-Each program README carries the specifics, and the [overview](OVERVIEW.md) lists the open contributions in
-order of value. Dig as deep as you like from there.
+Each ask now has a ready-to-run **handoff packet** — a front-door README, the pre-registration discipline,
+and a runnable scaffold that takes a real input to a verdict. The five are indexed in
+[`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md). Each program README carries the
+specifics, and the [overview](OVERVIEW.md) lists the open contributions in order of value. Dig as deep as
+you like from there.
 
 ## The four programs
 
