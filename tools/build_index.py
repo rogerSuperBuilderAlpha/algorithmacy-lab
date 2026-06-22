@@ -319,6 +319,28 @@ def _question_rows() -> list:
     return [r for _, r in rows]
 
 
+def _handoff() -> list:
+    """The cross-arm handoff-packet index under org_frontier/HANDOFF_PACKETS.md, if present."""
+    path = os.path.join(_ROOT, "org_frontier", "HANDOFF_PACKETS.md")
+    if not os.path.exists(path):
+        return []
+    title = _first_heading(path) or "Handoff packets"
+    summary = _clip(_first_paragraph(path))
+    out = [f"- **[{title}]({_link(path)})** — {summary}"]
+    links = []
+    for rel, label in [("survey/cohort_algorithmacy/README.md", "Survey"),
+                       ("field/packets/gig_dispatch/README.md", "Field"),
+                       ("recurrence/packets/template/README.md", "Recurrence"),
+                       ("cognition/packets/template/README.md", "Cognition"),
+                       ("qualitative/template/README.md", "Qualitative")]:
+        p = os.path.join(_ROOT, "org_frontier", rel)
+        if os.path.exists(p):
+            links.append(f"[{label}]({_link(p)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    return out
+
+
 # ---------------------------------------------------------------------------------------------
 # Assembly
 # ---------------------------------------------------------------------------------------------
@@ -326,6 +348,7 @@ def _question_rows() -> list:
 def build_directory() -> str:
     articles = _articles()
     syntheses = _syntheses()
+    handoff = _handoff()
     field = _field()
     qualitative = _qualitative()
     survey = _survey()
@@ -353,6 +376,14 @@ def build_directory() -> str:
     if syntheses:
         L += ["### Programs, syntheses & the open agenda", ""]
         L += syntheses
+        L.append("")
+
+    if handoff:
+        L += ["### Handoff packets — pick one up and run it", "",
+              "The five empirical and bridge arms, each packaged so a researcher can take a real "
+              "input to a verdict: a front-door README, the pre-registration discipline, and a "
+              "runnable scaffold.", ""]
+        L += handoff
         L.append("")
 
     if field:
