@@ -43,7 +43,7 @@ against what the eight structural findings already settle.
 | 3 | Q2 the weakest commit | 3 | 3 | 2 | 2 | 10 |
 | 4 | Q6 back-channel threshold | 2 | 3 | 2 | 2 | 9 |
 | 5 | Q7 partial substitutability | 2 | 3 | 2 | 2 | 9 |
-| 6 | Q4 distance to dyad | 2 | 3 | 2 | 1 | 8 |
+| 6 | Q4 distance to dyad ([taken deep](../margin_to_dyad/THREAD.md)) | 2 | 3 | 2 | 1 | 8 |
 | 7 | Q1 parity at scale | 2 | 2 | 1 | 2 | 7 |
 | 8 | Q5 depth for every function | 2 | 2 | 1 | 2 | 7 |
 | 9 | Q8 the excluded proposer | 2 | 2 | 2 | 1 | 7 |
