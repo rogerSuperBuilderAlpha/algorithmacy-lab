@@ -125,6 +125,11 @@ which is which.
 
 ## What is open
 
+The [mediation-boundary thread](../threads/mediation_boundary/THREAD.md) takes the integrating-determination
+condition twenty steps deep and sharpens it into the co-monotonicity law: a mediator binds a triad when it
+depends on every party in the same monotone direction, and a party read against the grain drops from the
+core. The remaining edges follow.
+
 The conditions are characterized at three nodes and confirmed at four and five for the dilution rate;
 a full robustness check of each condition at four and five parties, where a coordination carries more
 than one mediator, is the next computation, and whether the parity-robustness result survives more
