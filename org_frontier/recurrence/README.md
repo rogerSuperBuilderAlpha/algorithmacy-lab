@@ -76,6 +76,10 @@ reproduced in [FINDINGS.md](FINDINGS.md):
 - [`review_heavy/`](review_heavy/) — v10: the same analysis on a review-heavy project (scikit-learn),
   contrasted with PyPhi. Heavy review spreads the merge gate, ends self-merging, and binds a deeper
   two-gate core that excludes the author. The same instrument tells two governance styles apart.
+- [`bot_merged/`](bot_merged/) — v11: a model-bound field study of a bot-merged project (Kubernetes),
+  where the merge actor is a machine. The bot is a member of the irreducible core but a functional
+  conduit that commits nothing; the human approval upstream is the actor. It refines the cognition arm's
+  channel-versus-actor distinction: membership and committing come apart.
 
 ## The agenda
 
@@ -90,12 +94,11 @@ runs at four and five parties (BRIDGE_FOUR.md): the lead-lag matrix reads the se
 multiparty coordination carries, recovering chain order and hop distance, while structure and
 behavior agree less as parties multiply. What remains:
 
-- Read a third governance style: a bot-merged project (bors, a CI robot, a merge queue), where the
-  merge actor is a machine and the human veto lives entirely in the approval. v9
-  ([`event_series/`](event_series/)) read PyPhi's single-maintainer gate and v10
-  ([`review_heavy/`](review_heavy/)) read scikit-learn's distributed review gate; a bot-merged project
-  would complete the spectrum, from one human gate, to a human core team, to a machine executor behind a
-  human approval.
+- Run an interview-based field study of a coordination whose determination rule is not documented, the
+  harder elicitation the field protocol's weakest step names. v8–v11 read coordinations with public,
+  documented rules (commit logs, merge graphs, institutional merge processes); a coordination whose rule
+  must be recovered from interviews, observation, and disagreement among the parties is the open step,
+  and the one that measures a worker's experience rather than the platform's record.
 - A model-bound neonatal study: elicit the determination rules, then read the bedside series with
   both instruments against the pre-registered verdict.
 
