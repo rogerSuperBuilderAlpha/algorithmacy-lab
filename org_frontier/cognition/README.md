@@ -51,6 +51,14 @@ arm's three-facet scale — counterpart inference, signal compression, rule-chan
 together in [`survey_bridge.md`](survey_bridge.md), which turns the formal results into moderation
 predictions a study of real workers could test.
 
+## The handoff packet
+
+[`packets/template/`](packets/template/) packages the mapping method for handoff, so a cognitive scientist
+can take a seventh theory through the same apparatus. It holds a front-door README, a mapping template, and
+[`map_theory.py`](packets/template/map_theory.py), a runnable scaffold that runs the channel and committing
+models through the probe and reads whether the third party is held. The six worked mappings are the
+instances; the packet is the template a new one starts from.
+
 ## What is formal and what is not
 
 The arm formalizes the structural skeleton of the paper's account, where it has one. It leaves aside
