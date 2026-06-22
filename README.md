@@ -113,6 +113,13 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Paper pipeline — turning paper-less work into full-package research papers](org_frontier/PAPER_PIPELINE.md) — the plan to turn paper-less work into full papers
 - [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the open agenda — questions waiting for a contributor
 
+### Handoff packets — pick one up and run it
+
+The five empirical and bridge arms, each packaged so a researcher can take a real input to a verdict: a front-door README, the pre-registration discipline, and a runnable scaffold.
+
+- **[Handoff packets — pick one up and run it](org_frontier/HANDOFF_PACKETS.md)** — The lab's empirical and bridge arms are each packaged so a researcher can pick one up and take it from a
+  - [Survey](org_frontier/survey/cohort_algorithmacy/README.md) · [Field](org_frontier/field/packets/gig_dispatch/README.md) · [Recurrence](org_frontier/recurrence/packets/template/README.md) · [Cognition](org_frontier/cognition/packets/template/README.md) · [Qualitative](org_frontier/qualitative/template/README.md)
+
 ### Field — reading real organizations
 
 Bridging the in-silico work to real coordination arrangements: a field protocol and a worked demonstration.
