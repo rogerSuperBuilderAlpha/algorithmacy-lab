@@ -75,6 +75,7 @@ Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
 
 ## How to contribute or become a representative
 
+- [AGENTS.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/AGENTS.md): the operating manual for an agent working *in* the repo — the map, run/verify commands, the two-repo git rule, the land flow, and the definition-of-done checklist. Start here to make a change; this `llms.txt` is for describing the project, AGENTS.md is for operating it.
 - [PUBLISHING.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/PUBLISHING.md): publish an essay or study — fork, PR into `contrib`, reproducibility-first signed review, merge.
 - [MAINTAINERS.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/MAINTAINERS.md): the review board (reviewers/editors) and how to apply, via the `maintainer-applications` branch.
 - [CONTRIBUTING.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/CONTRIBUTING.md): code, probe, and house-style conventions, and how to register a number for the CI reproduce gate.
