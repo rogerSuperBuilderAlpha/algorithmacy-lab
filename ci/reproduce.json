@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q129-mediator-interpolation",
+      "cmd": "python -m org_frontier.questions.q129_mediator_interpolation.probe_mediator_interpolation",
+      "expect": [
+        "CONTROL faithful mediator (m=0): core=('W', 'S', 'C') coordination-Φ=2.000  PASS",
+        "PARTIES BOUND IN THE CORE: frozen holds to m=3, adaptive only to m=0.",
+        "WHOLE-SYSTEM IRREDUCIBLE:  frozen to m=-1, adaptive to m=4."
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q129_mediator_interpolation/FINDINGS.md (divergence)"
+    },
+    {
       "name": "q128-adaptive-mediator",
       "cmd": "python -m org_frontier.questions.q128_adaptive_mediator.probe_adaptive_mediator",
       "expect": [

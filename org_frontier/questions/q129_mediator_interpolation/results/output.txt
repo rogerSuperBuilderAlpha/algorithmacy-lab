@@ -1,0 +1,41 @@
+PROBE 284 (Q129) — faithful → predatory: the phase boundary an adaptive objective holds open
+========================================================================================
+  CONTROL faithful mediator (m=0): core=('W', 'S', 'C') coordination-Φ=2.000  PASS
+
+  Fixed-order interpolation (m = states where the mediator serves its objective O):
+  m | frozen O'=O : Φ / core / bound? | adaptive O'=W&C : Φ / core / bound?
+  --+--------------------------------+-----------------------------------
+  0 | 2.000 / WSC  / yes             | 2.000 / WSC  / yes
+  1 | 2.000 / WSC  / yes             | 0.000 / SC   / no
+  2 | 2.000 / WSC  / yes             | 0.000 / SC   / no
+  3 | 2.000 / WSC  / yes             | 0.000 / SC   / no
+  4 | 0.000 / O    / no              | 0.000 / SCO  / no
+
+  Order-averaged (mean coordination-Φ over all C(4,m) serve-sets):
+  m | sets | mean Φ frozen | mean Φ adaptive
+  --+------+---------------+----------------
+  0 |    1 |         2.000 |          2.000
+  1 |    4 |         2.000 |          0.500
+  2 |    6 |         1.000 |          0.000
+  3 |    4 |         1.000 |          0.000
+  4 |    1 |         0.000 |          0.000
+
+  Whole-system reading (is the four-node system irreducible? Q128's measure):
+  m | frozen: structure / Φ | adaptive: structure / Φ
+  --+------------------------+------------------------
+  0 | dyadic / 0.000         | dyadic / 0.000
+  1 | dyadic / 0.000         | dyadic / 0.000
+  2 | dyadic / 0.000         | dyadic / 0.000
+  3 | dyadic / 0.000         | dyadic / 0.000
+  4 | dyadic / 0.000         | triadic / 1.000
+
+========================================================================================
+  Two readings of 'the coordination survives' diverge, and that divergence is the finding.
+  PARTIES BOUND IN THE CORE: frozen holds to m=3, adaptive only to m=0.
+  WHOLE-SYSTEM IRREDUCIBLE:  frozen to m=-1, adaptive to m=4.
+  DISPLACEMENT: an adaptive objective sustains whole-system irreducibility further (it joins the
+  core itself), but it does so by displacing a party — so the parties' own binding survives LONGER
+  under a frozen objective. Q128's 're-integration' is the system staying irreducible, not the
+  parties staying bound. Adaptive self-interest preserves the coordination by entering it and
+  pushing a party out; frozen self-interest preserves the parties' bind until it fully defects.
+========================================================================================
