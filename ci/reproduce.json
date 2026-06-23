@@ -1609,6 +1609,28 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q125-four-party-higher-order",
+      "cmd": "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order --quick",
+      "expect": [
+        "CONTROL 3-party triad: triadic Φ=2.000, pivotal=3/3  PASS",
+        "[homogeneous symmetric (16)]  16 forms, 14 irreducible",
+        "H1 REFUTED: no four-party form tested is a pure higher-order bind"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q125_four_party_higher_order/FINDINGS.md (H1, symmetric+curated+named)"
+    },
+    {
+      "name": "q125-four-party-higher-order-full",
+      "slow": true,
+      "cmd": "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order",
+      "expect": [
+        "[canonical heterogeneous (256)]  256 forms, 244 irreducible",
+        "pure higher-order (zero-pivot under both defs) four-party forms found: 0"
+      ],
+      "timeout": 1800,
+      "source": "org_frontier/questions/q125_four_party_higher_order/FINDINGS.md (H1, all families)"
+    },
+    {
       "name": "coordination-logic-atlas",
       "slow": true,
       "cmd": "python -m org_frontier.studies.coordination_logic_atlas.run",
