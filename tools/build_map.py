@@ -177,16 +177,28 @@ def _machinery() -> list:
 
 
 def _at_a_glance() -> list:
+    # (label, count, source) — the source names exactly what each count measures, so a reader cannot
+    # mis-attribute it (e.g. studies counts org_frontier/studies/, not the survey arm).
     counts = [
-        ("questions", _count_dirs("org_frontier/questions/q*_*")),
-        ("probes", _count_files("org_frontier/probes/probe_*.py")),
-        ("studies", _count_dirs("org_frontier/studies/*")),
-        ("essays", _count_files("org_frontier/essays/*.md")),
-        ("foundations experiments", _count_dirs("foundations/*", marker="FINDINGS.md")),
-        ("watch entries (program-level)", _count_bib("org_frontier/research/*/literature/references.bib")),
+        ("questions", _count_dirs("org_frontier/questions/q*_*"),
+         "`org_frontier/questions/q*_*/`"),
+        ("probes", _count_files("org_frontier/probes/probe_*.py"),
+         "`org_frontier/probes/probe_*.py`"),
+        ("studies", _count_dirs("org_frontier/studies/*"),
+         "`org_frontier/studies/*/`"),
+        ("essays", _count_files("org_frontier/essays/*.md"),
+         "`org_frontier/essays/*.md`"),
+        ("foundations experiments", _count_dirs("foundations/*", marker="FINDINGS.md"),
+         "`foundations/*/` with a `FINDINGS.md`"),
+        ("watch entries (program-level)", _count_bib("org_frontier/research/*/literature/references.bib"),
+         "`org_frontier/research/*/literature/references.bib`"),
     ]
-    parts = ", ".join(f"{n} {label}" for label, n in counts if n)
-    return ["## At a glance", "", parts + ".", ""]
+    out = ["## At a glance", "", "| count | what | source |", "|---|---|---|"]
+    for label, n, source in counts:
+        if n:
+            out.append(f"| {n} | {label} | {source} |")
+    out.append("")
+    return out
 
 
 # ---------------------------------------------------------------------------------------------
