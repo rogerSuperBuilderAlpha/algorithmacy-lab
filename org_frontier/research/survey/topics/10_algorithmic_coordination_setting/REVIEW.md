@@ -1,0 +1,27 @@
+# Coordination Through Opaque Interested Intermediaries
+<!-- run: 2026-06-23 | sources: 13 -->
+Method: searches across Consensus, Semantic Scholar / Scholar Gateway, and web search, with each DOI confirmed against the publisher; run 2026-06-23.
+
+Platform-labor and algorithmic-management research describes a setting where workers coordinate their conduct through a system that is opaque to them and interested against them, supplying a substantive measurement target for the program. Foundational work establishes that online labor platforms perform coordination and control functions once held by human managers, and that intelligent algorithms automate task allocation, evaluation, and discipline at scale (Kellogg, Valentine, & Christin, 2020; Wood, Graham, Lehdonvirta, & Hjorth, 2019). The intermediary is interested: information and power asymmetries produced by the application are constitutive of the firm's leverage over drivers, who see only a partial interface onto a system optimized for the platform (Rosenblat & Stark, 2016). The intermediary is opaque: limited transparency impedes workers' grasp of the mechanisms governing them, forcing sustained interpretive effort (Möhlmann, Salge, & Marabelli, 2023).
+
+Workers do not face the algorithm passively; they adapt their behavior to an inferred model of it. Anticipatory compliance practices—undervaluing work, staying under the radar, managing emotion—are oriented toward an assumed algorithmic logic, and through that orientation workers co-construct the algorithm's power (Bucher, Schou, & Waldkirch, 2021). Resistance and control are co-constituted across the labor process, with workers manipulating ratings and timing in ways platforms cannot fully observe (Cameron & Rahman, 2022). This coupling of opacity, interest, and worker inference is the phenomenon the program targets with integrated-information measurement.
+
+Coordination among workers themselves runs through the same opaque channels. Platform architecture—the technological, legal, and organizational configuration—shapes whether grievances aggregate into collective contention or stay diffuse (Lei, 2021). Mobilization proceeds without traditional unions, drawing on supportive communities and activist traditions to build action repertoires and solidarities (Cini, 2023; Soriano & Cabañes, 2020). Online forums function as coordination substrates: scraped Mechanical Turk and Upwork communities show solidarity emerging through shared deprivation and injustice frames, while also fragmenting when interests and identities diverge (Hertwig, Holz, & others, 2023; Schou & Bucher, 2022). Algorithmic management can be weaponized against organizing, repurposing control devices and social-media patterns to blunt collective action (Wiggin, 2025).
+
+Systematic reviews converge on a fragmented field lacking shared conceptualization and measurement of algorithmic management, its dimensions, and the mechanisms linking it to worker outcomes (Kadolkar, Kepes, & Hamori, 2024). The opacity-interest-coordination configuration recurs across ride-hailing, delivery, crowdwork, and remote freelancing, yet a formal measure of how much workers' coordination is integrated through the intermediary remains absent—the gap this program addresses.
+
+## References
+
+Bucher, E. L., Schou, P. K., & Waldkirch, M. (2021). Pacifying the algorithm — Anticipatory compliance in the face of algorithmic management in the gig economy. *Organization*.
+Cameron, L. D., & Rahman, H. (2022). Expanding the locus of resistance: Understanding the co-constitution of control and resistance in the gig economy. *Organization Science*.
+Cini, L. (2023). Resisting algorithmic control: Understanding the rise and variety of platform worker mobilisations. *New Technology, Work and Employment*.
+Hertwig, M., Holz, M., & others. (2023). Solidarity and collective issues in remote crowd work: A mixed methods study of the Amazon Mechanical Turk online forum. *New Technology, Work and Employment*.
+Kadolkar, I., Kepes, S., & Hamori, M. (2024). Algorithmic management in the gig economy: A systematic review and research integration. *Journal of Organizational Behavior*.
+Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The new contested terrain of control. *Academy of Management Annals*.
+Lei, Y.-W. (2021). Delivering solidarity: Platform architecture and collective contention in China's platform economy. *American Sociological Review*.
+Möhlmann, M., Salge, C. A. de L., & Marabelli, M. (2023). Algorithm sensemaking: How platform workers make sense of algorithmic management. *Journal of the Association for Information Systems*.
+Rosenblat, A., & Stark, L. (2016). Algorithmic labor and information asymmetries: A case study of Uber's drivers. *International Journal of Communication*.
+Schou, P. K., & Bucher, E. (2022). Divided we fall: The breakdown of gig worker solidarity in online communities. *New Technology, Work and Employment*.
+Soriano, C. R. R., & Cabañes, J. V. A. (2020). Entrepreneurial solidarities: Social media collectives and Filipino digital platform workers. *Social Media + Society*.
+Wiggin, T. (2025). Weaponizing the workplace: How algorithmic management shaped Amazon's antiunion campaign in Bessemer, Alabama. *Socius*.
+Wood, A. J., Graham, M., Lehdonvirta, V., & Hjorth, I. (2019). Good gig, bad gig: Autonomy and algorithmic control in the global gig economy. *Work, Employment and Society*.

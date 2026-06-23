@@ -132,6 +132,14 @@ The five empirical and bridge arms, each packaged so a researcher can take a rea
 - **[Handoff packets — pick one up and run it](org_frontier/HANDOFF_PACKETS.md)** — The lab's empirical and bridge arms are each packaged so a researcher can pick one up and take it from a
   - [Survey](org_frontier/survey/cohort_algorithmacy/README.md) · [Field](org_frontier/field/packets/gig_dispatch/README.md) · [Recurrence](org_frontier/recurrence/packets/template/README.md) · [Cognition](org_frontier/cognition/packets/template/README.md) · [Qualitative](org_frontier/qualitative/template/README.md)
 
+### Research monitoring — a standing literature watch
+
+A live bibliography and review for each program, decomposed into ten topics and refreshed daily so new work is caught as it appears.
+
+- **[Research monitoring — a standing literature watch for each program](org_frontier/research/README.md)** — A live bibliography and literature review for each of the lab's six programs, refreshed daily so new work is
+  - [Master index](org_frontier/research/INDEX.md) · [Changelog](org_frontier/research/CHANGELOG.md) · [Daily playbook](org_frontier/research/DAILY_REFRESH.md)
+  - programs: [computational](org_frontier/research/computational/README.md) · [field](org_frontier/research/field/README.md) · [qualitative](org_frontier/research/qualitative/README.md) · [recurrence](org_frontier/research/recurrence/README.md) · [survey](org_frontier/research/survey/README.md) · [cognition](org_frontier/research/cognition/README.md)
+
 ### Field — reading real organizations
 
 Bridging the in-silico work to real coordination arrangements: a field protocol and a worked demonstration.

@@ -1,0 +1,25 @@
+# Physiological and Inter-Brain Synchrony
+<!-- run: 2026-06-23 | sources: 14 -->
+Search method: parallel queries across Consensus, Semantic Scholar (Scholar Gateway), and web search, with every DOI confirmed against publisher or PubMed records; run 2026-06-23.
+
+Recurrence-based methods treat two or more interacting agents as a coupled dynamical system and quantify the geometry of their joint trajectories in reconstructed phase space, an approach grounded in the recurrence-plot framework consolidated by (Marwan et al., 2007). Cross-recurrence quantification analysis (CRQA) extends auto-recurrence to two signals, yielding indices such as recurrence rate, determinism, laminarity, and entropy, along with diagonal-cross-recurrence profiles that expose leader-follower lags (Wallot & Leonardi, 2018). For groups, multidimensional RQA (MdRQA) embeds all members' signals in a shared space to characterize collective dynamics at individual and group levels (Wallot et al., 2016), and open implementations now span R and Python (Hudson et al., 2023).
+
+The physiological strand applies these tools to cardiac, electrodermal, and respiratory coupling. RQA distinguishes collaborating dyads from ECG-derived heart-rate variability with robustness in short windows (Veerabhadrappa et al., 2021). MdRQA links change in cardiac interbeat-interval synchrony to perceived group cohesion across two laboratory datasets (Tomashin et al., 2022), and a lagged extension recovers directional leader-follower structure in facial-expression and heart-rate streams (Tomashin et al., 2024). Inter-system recurrence networks combine auto- and cross-recurrence matrices to estimate coupling direction among five physiological variables in a caregiver-client dyad, while flagging the difficulty of separating weak bidirectional coupling from no coupling (Hasselman et al., 2023).
+
+Methodological reflection accompanies this growth. A review of CRQA in social interaction catalogues its sensitivity alongside calls for consistent index reporting and theory-driven designs (Fusaroli et al., 2014).
+
+The inter-brain strand imports the same machinery into hyperscanning. A systematic review of 215 studies documents 27 quantification methods across fNIRS, EEG, fMRI, and MEG, with wavelet coherence dominant in fNIRS work and limited cross-study comparability (Hakim et al., 2023). Against that backdrop, CRQA applied to fNIRS signals from medial prefrontal cortex and temporoparietal junction during free-flowing budget negotiation reveals that balanced, symmetric lead-lag coordination predicts collaborative adjustment and positive social experience, whereas inter-subject correlation and wavelet coherence show no such associations (Goldstein et al., 2025). Parallel multidimensional neural recurrence analyses of fNIRS in human-human-agent teams separate trust from team-process signals across cortical regions and timescales (Eloy et al., 2023). Common threads include sensitivity to embedding and threshold choices, surrogate-based significance testing, and the promise of recurrence indices as interpretable markers of asymmetry and complexity in coordination that linear coherence measures miss.
+
+## References
+- Eloy, L., et al. (2023). Capturing the dynamics of trust and team processes in human-human-agent teams via multidimensional neural recurrence analyses. *Proceedings of the ACM on Human-Computer Interaction*.
+- Fusaroli, R., Konvalinka, I., & Wallot, S. (2014). Analyzing social interactions: The promises and challenges of using cross recurrence quantification analysis. *Springer Proceedings in Mathematics & Statistics*.
+- Goldstein, B. M., Burns, S. M., Peck, F. C., Dale, R., & Lieberman, M. D. (2025). Cross-recurrence quantification analysis captures inter-brain coupling during naturalistic negotiation. *Frontiers in Neuroscience*.
+- Hakim, U., et al. (2023). Quantification of inter-brain coupling: A review of current methods. *NeuroImage*.
+- Hasselman, F., den Uil, L., Koordeman, R., de Looff, P., & Otten, R. (2023). The geometry of synchronization: Inter-system recurrence networks. *Frontiers in Network Physiology*.
+- Hudson, D., Wiltshire, T. J., & Atzmueller, M. (2023). multiSyncPy: A Python package for assessing multivariate coordination dynamics. *Behavior Research Methods*.
+- Marwan, N., Romano, M. C., Thiel, M., & Kurths, J. (2007). Recurrence plots for the analysis of complex systems. *Physics Reports*.
+- Tomashin, A., Gordon, I., & Wallot, S. (2022). Interpersonal physiological synchrony predicts group cohesion. *Frontiers in Human Neuroscience*.
+- Tomashin, A., et al. (2024). Lagged multidimensional recurrence quantification analysis. *Psychological Methods*.
+- Veerabhadrappa, R., Hettiarachchi, I. T., & Bhatti, A. (2021). Using RQA to quantify physiological synchrony in dyadic ECG data. *IEEE SysCon*.
+- Wallot, S., & Leonardi, G. (2018). Analyzing multivariate dynamics using CRQA, DCRP, and MdRQA: A tutorial in R. *Frontiers in Psychology*.
+- Wallot, S., Roepstorff, A., & Mønster, D. (2016). Multidimensional recurrence quantification analysis (MdRQA). *Frontiers in Psychology*.

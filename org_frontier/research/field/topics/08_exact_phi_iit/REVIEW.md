@@ -1,0 +1,23 @@
+# Exact integrated information (IIT/Phi)
+<!-- run: 2026-06-23 | sources: 12 -->
+Search method: queries across Scholar Gateway (Semantic Scholar/PubMed/Scopus/arXiv), Consensus, and targeted web search with DOI verification via publisher pages; run 2026-06-23.
+
+Integrated information theory defines Phi as the irreducibility of a system's intrinsic cause-effect power, formalized through axioms of phenomenal existence translated into postulates a physical substrate must satisfy. The 3.0 formulation established the central machinery: mechanisms in a state specify cause-effect repertoires, integration is measured against a minimum-information partition, and an experience is identified with a maximally irreducible conceptual structure whose quantity is ΦMax (Oizumi, 2014). The 4.0 reformulation revises this apparatus, introducing a unique measure of intrinsic information consistent with the postulates and an explicit treatment of relations among distinctions, so that the cause-effect structure ("Φ-structure") unfolded from a complex accounts for the quality of experience while structure integrated information Φ measures its quantity (Albantakis, 2023). The grounding quantity is system integrated information φs, computed as the minimum over partitions of integrated cause and effect information, used to identify the complex as the subset of units that maximizes φs against all overlapping candidates (Marshall, 2023).
+
+Two refinements extend the measurement target. The causal grain of units is itself optimized: rather than fixing a micro description, IIT 4.0 selects the grain, from micro to macro, that maximizes φs, defining a system's intrinsic units (Marshall, 2026). The structural quality has been given geometric interpretation, with grid-connected substrates yielding cause-effect structures whose properties model spatial experience (Haun, 2019). The framework also generalizes beyond classical binary networks: a density-matrix formulation evaluates mechanism integrated information for finite-dimensional quantum systems (Albantakis, 2023b), and an extended toolbox handles multi-valued discrete elements (Gómez, 2020).
+
+Exact computation remains the binding constraint. Phi requires evaluating partitions, candidate substrates, and the full set of distinctions and relations, which scales super-exponentially; the reference implementation PyPhi unfolds the complete cause-effect structure of discrete dynamical systems but is tractable only for small systems (Mayner, 2018). Probabilistic reformulations express Φ entirely through a system's joint distribution over adjacent time steps, clarifying the operations of marginalization and virtualization (Krohn, 2016), and an axiomatic treatment separates the essential mathematical structure from auxiliary tools, recovering IIT 3.0 as a special case (Kleiner, 2020). Recent work derives theoretical upper bounds on the integrated information of distinctions, relations, and the resulting Φ-structure, enabling pruning that reduces the combinatorial search (Zaeemzadeh, 2024). Conceptual scrutiny continues alongside the formalism, with arguments that φs* should mark consciousness without entailing IIT's strong ontological "true existence" claims, and noting that exact computation remains feasible only for idealized few-unit systems (Cea, 2025).
+
+## References
+- Albantakis, L., et al. (2023). Integrated information theory (IIT) 4.0. PLOS Computational Biology.
+- Albantakis, L., et al. (2023b). Computing the Integrated Information of a Quantum Mechanism. Entropy.
+- Cea, I., et al. (2025). How to be an integrated information theorist without losing your body. Frontiers in Computational Neuroscience.
+- Gómez, J. D., et al. (2020). Computing Integrated Information (Φ) in Discrete Dynamical Systems with Multi-Valued Elements. Entropy.
+- Haun, A., & Tononi, G. (2019). Why Does Space Feel the Way it Does? Entropy.
+- Kleiner, J., & Tull, S. (2020). The Mathematical Structure of Integrated Information Theory. Frontiers in Applied Mathematics and Statistics.
+- Krohn, S., & Ostwald, D. (2016). Computing integrated information. Neuroscience of Consciousness.
+- Marshall, W., et al. (2023). System Integrated Information. Entropy.
+- Marshall, W., Findlay, G., Albantakis, L., & Tononi, G. (2026). Intrinsic units: identifying a system's causal grain. Neuroscience of Consciousness.
+- Mayner, W. G. P., et al. (2018). PyPhi: A toolbox for integrated information theory. PLOS Computational Biology.
+- Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the Phenomenology to the Mechanisms of Consciousness: IIT 3.0. PLOS Computational Biology.
+- Zaeemzadeh, A., & Tononi, G. (2024). Upper bounds for integrated information. PLOS Computational Biology.
