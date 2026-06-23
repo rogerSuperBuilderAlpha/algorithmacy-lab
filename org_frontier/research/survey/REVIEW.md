@@ -1,0 +1,23 @@
+# Survey research — literature review
+
+Search method: WebSearch plus the Consensus and Scholar Gateway academic tools, with every identifier confirmed through Crossref. Run date 2026-06-23.
+
+The survey program of algorithmacy-lab sits at the intersection of three literatures: psychometric scale development, the measurement of algorithmic literacy and awareness, and longitudinal panel methods for tracking skill acquisition. Each supplies a piece of the instrument-building task for studying how workers coordinate through opaque, interested algorithmic intermediaries.
+
+## Scale development and psychometrics
+
+Boateng et al. (2018) furnish the canonical three-phase template (item development, scale development, scale evaluation) that most applied instruments now follow, and Streiner and Kottner (2014) set reporting standards for such studies. Reliability practice has moved from coefficient alpha toward model-based omega. Dunn et al. (2014) and Green and Yang (2015) document alpha's dependence on tau-equivalence and recommend omega coefficients computed within a factor model; Kelley and Terry (2011) add sample-size planning for narrow reliability confidence intervals. El-Den et al. (2020) and DeVon et al. (2007) consolidate content-validity and exploratory/confirmatory factor analysis procedures. For cross-group comparison, the measurement-invariance canon runs from Vandenberg and Lance (2000) and Cheung and Rensvold (2002) to the state-of-the-art synthesis by Putnick and Bornstein (2016), which fixes the configural-metric-scalar sequence and the change-in-fit conventions that any invariance claim must meet.
+
+## Algorithmic literacy, awareness, and competence
+
+Hargittai et al. (2020) frame the measurement problem directly, asking how to study a "black box" people cannot inspect. Dogruel et al. (2021) operationalize an algorithm literacy scale for internet users on two cognitive dimensions, awareness and knowledge, validated through item response theory. Zarouali et al. (2021) develop the Algorithmic Media Content Awareness (AMCA) scale across four dimensions and three platforms. Recent additions extend the construct: Marôco-style recommender-system work yields the ALRS scale across five dimensions (Technology in Society, 2026), and Scheibenzuber et al. (2026) separate instrumental from critical-reflective AI skills in a scenario-based instrument. Survey-population studies map the social distribution of the construct. Gran et al. (2021) identify a six-group awareness typology and a new digital divide; Gruber and Hargittai (2024) document an algorithmic knowledge gap within and between countries; Oeldorf-Hirsch and Neubaum (2023) link awareness to attitudes and behavior across German and U.S. users; and Klawitter-style work connects skill to disengagement, with knowing more sometimes meaning doing less (Gran-adjacent HKS work, 2025). Qualitative roots ground these scales: Rader and Gray (2015) on Facebook news-feed beliefs, DeVito et al. (2017) on resistance to algorithmic change, and DeVito (2021) on adaptive folk theorization as a developmental path toward literacy.
+
+## Panel designs for skill acquisition
+
+Tracking competence over time requires growth and panel models. Hamaker et al. (2015) show that the standard cross-lagged panel model conflates within- and between-person variance, motivating the random-intercept variant; Lucas (2023) sharpens the critique and the conditions for valid model choice. These methods let a literacy program separate stable worker traits from genuine learning trajectories when coordination is mediated by systems that themselves change. Zhang and Liu (2024) and the platform-labor reviews supply the substantive setting: algorithmic management of gig workers, where opacity and the platform's own interest shape what workers can learn.
+
+The program's distinctive demand is an instrument that travels across worker populations and survey waves while remaining sensitive to a moving target, since the algorithms workers coordinate through are revised by interested parties. Invariance testing and growth modeling are therefore not optional add-ons but the load-bearing methods.
+
+## References
+
+Boateng et al. (2018); Cheung and Rensvold (2002); DeVito (2021); DeVito et al. (2017); DeVon et al. (2007); Dogruel et al. (2021); Dunn et al. (2014); El-Den et al. (2020); Gran et al. (2021); Green and Yang (2015); Gruber and Hargittai (2024); Hamaker et al. (2015); Hargittai et al. (2020); Kelley and Terry (2011); Lucas (2023); Oeldorf-Hirsch and Neubaum (2023); Putnick and Bornstein (2016); Rader and Gray (2015); Scheibenzuber et al. (2026); Streiner and Kottner (2014); Vandenberg and Lance (2000); Zarouali et al. (2021); Zhang and Liu (2024).
