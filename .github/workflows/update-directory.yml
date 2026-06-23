@@ -1,10 +1,11 @@
 name: update-directory
 
-# Keeps the generated directory in README.md current. On a pull request from this repo, it
-# regenerates the directory and commits the result back to the PR branch, so a contributor who
-# adds an experiment does not have to remember to run the generator. The `directory-current` check
-# in ci/reproduce.json is the safety net: on fork PRs (where this job cannot push) a stale README
-# fails CI, and the contributor runs `python tools/build_index.py` themselves.
+# Keeps the generated surfaces current: the directory in README.md, MAP.md, and the research-watch
+# INDEX.md. On a pull request from this repo, it regenerates all three and commits the result back to
+# the PR branch, so a contributor who adds an experiment does not have to remember to run the
+# generators. The `directory-current`, `map-current`, and `research-index-current` checks in
+# ci/reproduce.json are the safety net: on fork PRs (where this job cannot push) a stale file fails CI,
+# and the contributor runs the generator themselves.
 
 on:
   pull_request:
@@ -32,20 +33,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      # build_index.py and build_map.py use only the standard library, so no dependency install is needed.
-      - name: Regenerate the directory and the map
+      # The generators use only the standard library, so no dependency install is needed.
+      - name: Regenerate the directory, the map, and the research index
         run: |
           python tools/build_index.py
           python tools/build_map.py
+          python org_frontier/research/build_research_index.py
 
-      - name: Commit if the directory or map changed
+      - name: Commit if any generated surface changed
         run: |
-          if git diff --quiet -- README.md MAP.md; then
-            echo "Directory and map already current."
+          if git diff --quiet -- README.md MAP.md org_frontier/research/INDEX.md; then
+            echo "Directory, map, and research index already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md MAP.md
-          git commit -m "docs: regenerate README directory and MAP [skip ci]"
+          git add README.md MAP.md org_frontier/research/INDEX.md
+          git commit -m "docs: regenerate README directory, MAP, and research index [skip ci]"
           git push origin HEAD:${{ github.head_ref }}
