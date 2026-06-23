@@ -32,6 +32,12 @@ gates:
 - **Report nulls and refutations as first-class results.** A refuted hypothesis is logged as refuted.
 - **State the validation gap.** A computational result is evidence about the model, not the organization.
 
+The empirical and bridge arms each ship a ready-to-run **handoff packet** for the survey, field, recurrence,
+cognition, and qualitative work the sections below describe: a front-door README, the pre-registration
+discipline, and a runnable scaffold. The five are indexed in
+[`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md); start there to take an arm from a real
+input to a verdict.
+
 ## Adding a probe or a question
 
 - A probe is a `org_frontier/probes/probe_<slug>.py` script whose module docstring states the question,
