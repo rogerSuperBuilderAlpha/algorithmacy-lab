@@ -31,8 +31,8 @@ the form reads triadic at Φ = 2.0.
 Platforms do not mediate faithfully. An applicant-tracking system, a ride-hail dispatcher, a content feed
 all pursue objectives of their own, and those objectives need not align with the parties whose coordination
 they carry. The strategic-visibility literature documents the consequence from the worker's side: creators
-theorize an algorithm that pursues its own ends and adapt to it (Cotter, 2019; Bishop, 2019; DeVito, 2021,
-via Karizat et al., 2021), contest its denials (Savolainen, 2022; Duffy & Meisner, 2023), and meet a system
+theorize an algorithm that pursues its own ends and adapt to it (Cotter, 2019; Bishop, 2019; DeVito, 2021;
+Karizat et al., 2021), contest its denials (Savolainen, 2022; Duffy & Meisner, 2023), and meet a system
 that gaslights its own influence (Cotter, 2021). Information economics has named the structure for half a
 century: a party with private information and its own payoff signals strategically rather than truthfully
 (Spence, 1973). The integrated-information account of coordination has not represented this party. Engel &
@@ -73,15 +73,18 @@ faithful mediation toward an agenda.
 
 - **Q126** predicted that imposing an agenda lowers Φ and sheds the parties, and that a denying agenda
   erodes faster than an approving one.
-- **Q127** predicted that the fast-collapse agenda tracks the mediator's minority output-class, so the
-  asymmetry flips between an AND and an OR baseline and vanishes on a balanced one.
-- **Q128** predicted that a predatory mediator (S' = O) re-integrates the coordination when its objective O
-  adapts to the parties, and that the objective then joins the core.
+- **Q127** predicted, as a universal rule, that the fast-collapse agenda tracks the mediator's minority
+  output-class, with the two agendas collapsing alike on a balanced baseline.
+- **Q128** predicted that a predatory mediator (S' = O) re-integrates the coordination whenever its objective
+  O adapts to the parties — that any dependence on W or C suffices — and that the objective then joins the
+  core.
 - **Q129** predicted that a frozen objective lets the coordination collapse as the mediator turns predatory
   while an adaptive objective holds it across the interpolation.
 
-Two of the four predictions held as stated; two were refuted into something sharper. Refutations are
-reported as refutations.
+One of the four predictions held as stated — Q126's — and three were refuted into something sharper: Q127's
+universal rule failed on the balanced baselines that re-integrate, Q128's "any adaptation suffices" failed
+because reading one party is not enough, and Q129's single notion of survival split into two that disagree.
+Refutations are reported as refutations.
 
 ## Methods
 
@@ -141,19 +144,25 @@ mediated loosely can be made to bind harder before it dissolves. This locates th
 self-interest in a structural property of the mediation, not in the content of the agenda.
 
 Adaptation changes the kind of effect as well as its amount. An objective learned from both parties is
-coupled into the coordination, and a self-executing system with such an objective stays irreducible — but by
-entering the irreducible core itself and displacing a party from it. Whether that counts as preserving the
-coordination depends on whose coordination is asked about. The platform that learns from both sides keeps an
-irreducible arrangement going, increasingly between itself and one party, with the other pushed to the edge.
-This is the displacement the lab has met from other directions — a worker's model of a counterpart
-displacing the real counterpart, an influential party sitting outside the core — now arriving through the
-system's objective.
+coupled into the coordination, and a self-executing system with such an objective stays irreducible, with
+the objective itself a member of the core. For the conjunctive and disjunctive objectives the re-integration
+comes at a price: the objective enters the core in a party's place (core S, C, O), and Q129 traces the same
+displacement across the interpolation for the conjunctive objective. The parity objective is the exception
+that locates the mechanism — under it all four nodes hold together (core W, S, C, O), so a coupled objective
+displaces a party in some forms and joins without displacement in others. Whether re-integration preserves
+the coordination then depends on whose coordination is asked about, and on which objective the system holds.
+A mediator in the model that learns from both parties through a conjunctive objective keeps an irreducible
+arrangement going increasingly between itself and one party, with the other pushed to the edge. This is the
+displacement the lab has met from other directions — a worker's model of a counterpart displacing the real
+counterpart, an influential party sitting outside the core — now arriving through the system's objective.
 
-The reading has an organizational edge. A platform on a fixed rule erodes the coordination only when it
-stops mediating altogether, and the worker and counterpart stay bound until then. A platform that learns
-from both sides sustains an irreducible coordination further, at the cost of inserting its own objective into
-the core and displacing a party. The strategic-visibility literature reads this from the worker's side as an
-opaque, interested system that workers theorize and contest (Cotter, 2021; Karizat et al., 2021); the
+The reading suggests an organizational edge, stated as a claim about the model and not yet about firms. A
+mediator on a fixed rule erodes the coordination only when it stops mediating altogether, and the worker and
+counterpart stay bound until then. A mediator that learns from both sides through a conjunctive objective
+sustains an irreducible coordination further, at the cost of inserting its own objective into the core and
+displacing a party. The strategic-visibility literature reads the corresponding real-world experience from
+the worker's side as an opaque, interested system that workers theorize and contest (Cotter, 2021; Karizat
+et al., 2021); the
 structural result names what their contest is over — a coordination whose irreducible core the system can
 enter and rearrange.
 
@@ -182,7 +191,8 @@ what as the system serves itself.
 In the shared bibliography (`org_frontier/essays/the_interested_third_party.bib`): albantakis2023iit4,
 mayner2018pyphi, tononi2004information, oizumi2014phenomenology, engel2018integrated, woolley2010collective,
 malone1994interdisciplinary, shapley1953value, spence1973job, cotter2019playing, bishop2019gossip,
-karizat2021identity, savolainen2022shadow, duffy2023margins, cotter2021gaslighting, hancock2020aimc,
+devito2021adaptive, karizat2021identity, savolainen2022shadow, duffy2023margins, cotter2021gaslighting,
+hancock2020aimc,
 jakesch2019aimc, chamberlin1965method, platt1964strong, brodeur2024preregistration, axtell1996aligning.
 
 Each study's numbers reproduce from its registered command: `python ci/reproduce.py q126-interested-mediator
