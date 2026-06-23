@@ -12,12 +12,14 @@ conventions that a submission has to meet.
 ## Setup
 
 ```bash
-python -m venv venv && source venv/bin/activate
+python3 --version                              # PyPhi's IIT-4.0 line needs 3.10+; stock python3 is often 3.9
+python3.12 -m venv venv && source venv/bin/activate    # use any 3.10+ interpreter explicitly if so
 pip install -r requirements.txt
 ```
 
-PyPhi installs from its IIT-4.0 line (see `requirements.txt`). Run probes and experiments from the repo
-root so `org_frontier.*` and `foundations.*` resolve.
+PyPhi installs from its IIT-4.0 line (see `requirements.txt`) and requires **Python 3.10 or newer** — the
+install fails with `requires a different Python` on an older default interpreter. Run probes and
+experiments from the repo root so `org_frontier.*` and `foundations.*` resolve.
 
 ## The research protocol
 
@@ -100,6 +102,13 @@ plus the checks for studies whose files the PR changed. The full manifest is rep
 `reproduce-all-nightly.yml`. Keep checks fast and deterministic; a check that takes minutes (a
 whole-space sweep, exact Φ past a few nodes) gets `"slow": true`, which keeps it out of the per-PR gate
 and leaves it to the nightly job.
+
+A contribution that registers no number — a qualitative or survey study — still triggers the `core`
+instrument control on the per-PR gate, and that control needs a working PyPhi environment (Python 3.10+).
+CI runs it for you on every PR, so a contributor without a compute environment verifies locally with the
+three index `--check`s (`build_index.py`, `build_map.py`, `build_research_index.py`) and lets CI run the
+control. The study stands on `directory-current`: once `python tools/build_index.py` indexes it, the gate
+confirms it is listed.
 
 ## Prose
 
