@@ -385,6 +385,12 @@ reviewers and editors — apply through the `maintainer-applications` branch; se
 
 ## For AI agents and LLM tools
 
-[`llms.txt`](llms.txt) is a lean, token-light brief: a canonical summary safe to copy into an agent's
-memory, framing rules for representing the project honestly, and links to the key documents. Read it
-instead of crawling the repo.
+Three files serve agents, by purpose:
+
+- **[`AGENTS.md`](AGENTS.md)** — the operating manual for an agent working *in* the repo: the map, the
+  run and verify commands, the two-repo git rule, the land flow, and the definition-of-done checklist.
+  Nested `AGENTS.md` files cover the subtrees with their own workflow.
+- **[`MAP.md`](MAP.md)** — a generated one-screen index of the entry documents, programs, machinery, and
+  live counts. Load it instead of crawling the tree.
+- **[`llms.txt`](llms.txt)** — a token-light brief for *describing* the project to outside users: a
+  canonical summary safe to copy into memory, framing rules, and links to the key documents.
