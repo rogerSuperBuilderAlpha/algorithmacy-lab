@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q126-interested-mediator",
+      "cmd": "python -m org_frontier.questions.q126_interested_mediator.probe_interested_mediator",
+      "expect": [
+        "CONTROL faithful mediator (k=0): triadic Φ=2.000 core=('W', 'S', 'C')  PASS",
+        "H1 (Φ falls monotonically to 0 as interestedness rises): SUPPORTED",
+        "H2 (the mediator sheds the parties as it serves its agenda): SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q126_interested_mediator/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q125-four-party-higher-order",
       "cmd": "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order --quick",
       "expect": [
