@@ -42,7 +42,11 @@ input to a verdict.
 
 - A probe is a `org_frontier/probes/probe_<slug>.py` script whose module docstring states the question,
   the hypothesis, the method, and the run command. It prints exact numbers and gets a row in
-  [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md) continuing the global numbering.
+  [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md) continuing the global numbering. That
+  numbering is global across both standalone probe scripts and question probes and the rows are not in
+  strict numeric order, so there is no scaffolder for a plain probe number — take the next free one as the
+  current maximum plus one:
+  `grep -oE '^\| [0-9]+' org_frontier/probes/PROBES.md | grep -oE '[0-9]+' | sort -n | tail -1`.
 - A full question goes through the pipeline and lands under `org_frontier/questions/q<NN>_<slug>/`. Copy
   [`org_frontier/protocol/template/`](org_frontier/protocol/template/), or run the orchestration.
 - Reuse the shared infrastructure rather than rebuilding it: `org_frontier/classifier/`,

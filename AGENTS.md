@@ -43,8 +43,9 @@ full explanation and worked examples are in [`REPO_LAYOUT.md`](REPO_LAYOUT.md).
 ## Set up and run
 
 ```bash
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
+python3 --version                              # PyPhi needs 3.10+; stock python3 is often 3.9 and will fail
+python3.12 -m venv venv && source venv/bin/activate    # use any 3.10+ interpreter explicitly
+pip install -r requirements.txt                # pulls PyPhi + phyid from git: needs network, a few minutes
 ```
 
 Run everything from the repo root so `org_frontier.*` and `foundations.*` resolve. Confirm the instrument
