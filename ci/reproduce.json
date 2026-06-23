@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q130-pivotal-excluded",
+      "cmd": "python -m org_frontier.questions.q130_pivotal_excluded.probe_pivotal_excluded",
+      "expect": [
+        "CONTROL 3-party triad: triadic, core=('W', 'S', 'C') (all in core)  PASS",
+        "H1 (pivotal-but-excluded parties exist): SUPPORTED (14 found)",
+        "H2 (the core reads every pivotal-but-excluded party): SUPPORTED (core reads 14, does not 0)"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q130_pivotal_excluded/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q129-mediator-interpolation",
       "cmd": "python -m org_frontier.questions.q129_mediator_interpolation.probe_mediator_interpolation",
       "expect": [

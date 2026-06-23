@@ -1,0 +1,28 @@
+PROBE 285 (Q130) — pivotal but excluded: necessity without core membership
+================================================================================
+  CONTROL 3-party triad: triadic, core=('W', 'S', 'C') (all in core)  PASS
+
+[homogeneous symmetric (Q125 family)]  14 irreducible forms
+  party classes (in_core, pivotal): (True, True)=42, (True, False)=0, (False, True)=14, (False, False)=0
+  core sizes: 2:6, 3:2, 4:6
+  pivotal-but-excluded parties: 14  (core reads them: 14; core does not: 0)
+    sym1: core={AD}, 2 pivotal-but-excluded
+    sym2: core={BD}, 2 pivotal-but-excluded
+    sym3: core={BD}, 2 pivotal-but-excluded
+    sym4: core={ABC}, 1 pivotal-but-excluded
+    sym7: core={CD}, 2 pivotal-but-excluded
+    sym11: core={CD}, 2 pivotal-but-excluded
+
+[curated asymmetric (scaffold / emit-only)]  0 irreducible forms
+  party classes (in_core, pivotal): (True, True)=0, (True, False)=0, (False, True)=0, (False, False)=0
+  core sizes: 
+  pivotal-but-excluded parties: 0  (core reads them: 0; core does not: 0)
+
+================================================================================
+  H1 (pivotal-but-excluded parties exist): SUPPORTED (14 found)
+  H2 (the core reads every pivotal-but-excluded party): SUPPORTED (core reads 14, does not 0)
+  core-but-not-pivotal parties: 0
+  Reading: necessity and membership are distinct. A party can be required for the coordination's
+  irreducibility — its removal collapses the form — while sitting outside the maximal-Φ core,
+  because the core depends on it as an input without it being part of the integrated whole.
+================================================================================
