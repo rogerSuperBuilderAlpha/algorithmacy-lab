@@ -253,12 +253,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (76)
+### Questions — the logbook (77)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 76 questions</summary>
+<summary>Browse all 77 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -338,6 +338,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q123](org_frontier/questions/q123_reproducibility/paper.md) | The verdict is reproducible within IIT-4.0, and version-bound | the verdict is reproducible within IIT-4.0, and the SYSTEM_CUTS charge is misdirected |
 | [Q124](org_frontier/questions/q124_aggregation_robustness/paper.md) | The verdict is a robust capacity reading, not an artifact of the maximum | the verdict survives every reasonable aggregation; only the strict every-state rule flips it |
 | [Q125](org_frontier/questions/q125_four_party_higher_order/paper.md) | No pure higher-order bind at four parties: redundancy keeps every party pivotal | no pure higher-order bind at four parties either: redundancy does not free the bind |
+| [Q126](org_frontier/questions/q126_interested_mediator/paper.md) | The interested mediator: self-interest erodes coordination irreducibility | self-interest disintegrates the coordination, and a gatekeeping agenda corrodes it fastest |
 
 </details>
 
