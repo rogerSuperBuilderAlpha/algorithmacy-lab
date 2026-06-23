@@ -253,12 +253,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (74)
+### Questions — the logbook (75)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 74 questions</summary>
+<summary>Browse all 75 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -332,6 +332,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q115](org_frontier/questions/q115_market_value/paper.md) | Scale pays the scarce, not the required | a growing required market commoditizes its agents and pays the scarce parties |
 | [Q116](org_frontier/questions/q116_value_against_structure/paper.md) | Strategic value is structural depth, smoothed | strategic value and structural depth rank the parties alike, and coincide only in the small |
 | [Q117](org_frontier/questions/q117_phi_free_test/paper.md) | Triadicity has a Φ-free test, and it reads the logic | triadicity has a Φ-free test, but it reads the logic, not the wiring |
+| [Q120](org_frontier/questions/q120_higher_order_binding/paper.md) | No pure higher-order bind: every party in a triadic form is pivotal | no pure higher-order bind: every party in a triadic form is pivotal |
 | [Q121](org_frontier/questions/q121_external_criterion/paper.md) | The verdict is interventional: an external criterion where observation fails | the verdict has an interventional correlate where observation fails |
 | [Q122](org_frontier/questions/q122_game_validity/paper.md) | Is the value function a valid cooperative game? A split verdict | the game is valid where the wave used it, and the critique holds where it bites |
 | [Q123](org_frontier/questions/q123_reproducibility/paper.md) | The verdict is reproducible within IIT-4.0, and version-bound | the verdict is reproducible within IIT-4.0, and the SYSTEM_CUTS charge is misdirected |

@@ -1587,6 +1587,28 @@
       "source": "org_frontier/questions/q124_aggregation_robustness/FINDINGS.md (H1-H4)"
     },
     {
+      "name": "q120-higher-order-binding",
+      "cmd": "python -m org_frontier.questions.q120_higher_order_binding.probe_higher_order_binding --quick",
+      "expect": [
+        "CONTROL strict triad: triadic Φ=2.000",
+        "[strict mediation (256)]  24 triadic forms",
+        "H1 SUPPORTED: under both knockout definitions, every triadic form has all three"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, strict-mediation)"
+    },
+    {
+      "name": "q120-higher-order-binding-full",
+      "slow": true,
+      "cmd": "python -m org_frontier.questions.q120_higher_order_binding.probe_higher_order_binding",
+      "expect": [
+        "triadic forms: 24 strict-mediation + 2288 fully-coupled = 2312",
+        "pure higher-order (zero-pivot) forms, summed over both knockout defs: 0"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
+    },
+    {
       "name": "coordination-logic-atlas",
       "slow": true,
       "cmd": "python -m org_frontier.studies.coordination_logic_atlas.run",
