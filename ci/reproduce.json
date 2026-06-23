@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q128-adaptive-mediator",
+      "cmd": "python -m org_frontier.questions.q128_adaptive_mediator.probe_adaptive_mediator",
+      "expect": [
+        "CONTROL faithful 3-party triad: triadic Φ=2.000  PASS",
+        "RE-INTEGRATION IFF THE OBJECTIVE READS BOTH PARTIES: CONFIRMED",
+        "THE OBJECTIVE IS THE CONDUIT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q128_adaptive_mediator/FINDINGS.md (refined findings 1-2)"
+    },
+    {
       "name": "q127-interest-baselines",
       "cmd": "python -m org_frontier.questions.q127_interest_baselines.probe_interest_baselines",
       "expect": [
