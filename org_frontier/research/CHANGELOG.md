@@ -15,4 +15,6 @@ The watch's first pass: six program-level deep researches and sixty topic-level 
 
 **Total: 694 unique entries across the six programs, 60 topics, run 2026-06-23.**
 
-<!-- Each future entry: ## YYYY-MM-DD, then one line per program with +added / -removed and the new count. -->
+<!-- Future entries: ## YYYY-MM-DD — sweep (or deep refresh), then one line per program. A daily sweep
+     records +added and the new total (+0 when nothing new). A deep refresh records +added / -removed and
+     the new count. See DAILY_REFRESH.md for the two modes. -->

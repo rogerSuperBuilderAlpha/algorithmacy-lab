@@ -20,16 +20,21 @@ kept current.
 
 ## How a refresh works
 
-Each run does deep research per program and per topic: real search across the web and the academic databases,
-a synthesis written to the review, and a bibliography written to the `.bib` file. Every program-level report
-opens with a metadata line the index reads:
+The watch runs in two modes, both spelled out in [`DAILY_REFRESH.md`](DAILY_REFRESH.md).
+
+The **daily sweep** is what the cron fires. It searches each program's seed question for work dated after
+that program's last run, verifies the hits, and appends the new ones to the bibliography. The reviews stay
+as they are. Every program-level report opens with a metadata line the index reads, and the sweep updates
+its date and counts in place:
 
 ```
 <!-- run: YYYY-MM-DD | sources: N | verified: M -->
 ```
 
-A full refresh overwrites the reviews and bibliographies in place. Nothing is lost: git history holds every
-prior version, and [`CHANGELOG.md`](CHANGELOG.md) records what each run added and removed.
+The **deep refresh** re-researches every program and topic and rewrites the reviews and bibliographies from
+scratch, catching reframings and displaced topics an append-only sweep misses. It runs on a monthly or
+on-demand cadence. Nothing is lost in either mode: git history holds every prior version, and
+[`CHANGELOG.md`](CHANGELOG.md) records what each run caught.
 
 ## The integrity rules
 
