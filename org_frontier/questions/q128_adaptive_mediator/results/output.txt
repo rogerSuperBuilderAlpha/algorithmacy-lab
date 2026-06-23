@@ -1,0 +1,25 @@
+PROBE 283 (Q128) — the adaptive interested mediator: does a learning agenda re-integrate?
+====================================================================================
+  CONTROL faithful 3-party triad: triadic Φ=2.000  PASS
+
+  A predatory mediator S'=O, with the objective's adaptation rule O'=g(W,C) swept:
+  adaptation                |  structure | Φ_MIP | major complex   | O in core | parties in core
+  --------------------------+------------+-------+-----------------+-----------+----------------
+  frozen (O'=O)             | dyadic     | 0.000 | O               | yes       | 0/2
+  reads worker (O'=W)       | dyadic     | 0.000 | WSO             | yes       | 1/2
+  reads counterpart (O'=C)  | dyadic     | 0.000 | SCO             | yes       | 1/2
+  joint AND (O'=W&C)        | triadic    | 1.000 | SCO             | yes       | 1/2
+  either OR (O'=W|C)        | triadic    | 1.000 | SCO             | yes       | 1/2
+  differ XOR (O'=W^C)       | triadic    | 0.500 | WSCO            | yes       | 2/2
+
+====================================================================================
+  Pre-registered H1/H2 (any adaptation re-integrates): REFUTED — reading one party is not
+  enough (O'=W and O'=C stay dyadic). The refined finding the data supports:
+  (1) RE-INTEGRATION IFF THE OBJECTIVE READS BOTH PARTIES: CONFIRMED — the predatory
+      mediator is triadic exactly when its objective encodes both W and C (AND/OR/XOR), and
+      dyadic when the objective is frozen or reads only one party.
+  (2) THE OBJECTIVE IS THE CONDUIT: CONFIRMED — whenever the
+      coordination re-integrates, O is in the core; the parties bind through it, and under XOR all four nodes enter the core.
+  Adaptation lets self-interest and irreducible coordination coexist, but only an objective
+  that encodes both parties carries the bind: W,C -> O -> S -> W,C.
+====================================================================================
