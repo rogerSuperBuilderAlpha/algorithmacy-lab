@@ -1,0 +1,38 @@
+PROBE 281 (Q126) — the interested mediator: self-interest vs coordination irreducibility
+====================================================================================
+  CONTROL faithful mediator (k=0): triadic Φ=2.000 core=('W', 'S', 'C')  PASS
+
+[agenda = approve (a=1)]  k = interestedness (states where the agenda overrides the parties)
+  k | structure | Φ_MIP | core            | S reads
+  --+-----------+-------+-----------------+--------
+  0 | triadic   | 2.000 | WSC             | W,C
+  1 | triadic   | 0.500 | WSC             | W,C
+  2 | dyadic    | 0.000 | WS              | W,C
+  3 | dyadic    | 0.000 | (none)          | (neither)
+  4 | dyadic    | 0.000 | (none)          | (neither)
+
+[agenda = deny (a=0)]  k = interestedness (states where the agenda overrides the parties)
+  k | structure | Φ_MIP | core            | S reads
+  --+-----------+-------+-----------------+--------
+  0 | triadic   | 2.000 | WSC             | W,C
+  1 | dyadic    | 0.000 | (none)          | (neither)
+  2 | dyadic    | 0.000 | (none)          | (neither)
+  3 | dyadic    | 0.000 | (none)          | (neither)
+  4 | dyadic    | 0.000 | (none)          | (neither)
+
+[order-averaged]  mean Φ over all C(4,k) override sets, per interestedness level k
+  k | sets | mean Φ (approve) | mean Φ (deny)
+  --+------+------------------+-------------
+  0 |    1 |            2.000 |       2.000
+  1 |    4 |            0.625 |       1.500
+  2 |    6 |            0.417 |       1.000
+  3 |    4 |            0.500 |       0.500
+  4 |    1 |            0.000 |       0.000
+
+====================================================================================
+  H1 (Φ falls monotonically to 0 as interestedness rises): SUPPORTED
+  H2 (the mediator sheds the parties as it serves its agenda): SUPPORTED
+  Reading: a mediator that imposes its own agenda over the parties' joint determination
+  stops reading them; the coordination's irreducibility erodes and collapses to dyadic when
+  the agenda fully displaces the parties. Self-interest is structurally disintegrating.
+====================================================================================
