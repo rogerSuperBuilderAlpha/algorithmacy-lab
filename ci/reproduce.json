@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q127-interest-baselines",
+      "cmd": "python -m org_frontier.questions.q127_interest_baselines.probe_interest_baselines",
+      "expect": [
+        "CONTROL AND faithful: triadic Φ=2.000  PASS",
+        "MINORITY-OUTPUT FLIP on sparse baselines (AND, OR): CONFIRMED",
+        "RE-INTEGRATION on balanced baselines"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q127_interest_baselines/FINDINGS.md (refined findings 1-2)"
+    },
+    {
       "name": "q126-interested-mediator",
       "cmd": "python -m org_frontier.questions.q126_interested_mediator.probe_interested_mediator",
       "expect": [
