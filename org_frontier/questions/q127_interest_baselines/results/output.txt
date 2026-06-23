@@ -1,0 +1,21 @@
+PROBE 282 (Q127) — self-interest collapse vs the minority output-class
+================================================================================
+  CONTROL AND faithful: triadic Φ=2.000  PASS
+
+  baseline           minority  approve Φ ladder             k* deny Φ ladder                k* | fast
+  AND  (iff both)    out=1     2.00,0.50,0.00,0.00,0.00     2  2.00,0.00,0.00,0.00,0.00     1  | deny
+  OR   (iff either)  out=0     2.00,0.00,0.00,0.00,0.00     1  2.00,0.50,0.00,0.00,0.00     2  | approve
+  AGREE (iff W==C)   balanced  0.50,0.50,0.00,0.00,0.00     2  0.50,2.00,2.00,2.00,0.00     4  | approve
+  DIFFER (iff W!=C)  balanced  0.50,2.00,2.00,2.00,0.00     4  0.50,0.50,0.00,0.00,0.00     2  | deny
+
+================================================================================
+  Pre-registered H1 (universal minority-output principle): REFUTED — the balanced baselines
+  do not collapse symmetrically. The refined finding the data supports:
+  (1) MINORITY-OUTPUT FLIP on sparse baselines (AND, OR): CONFIRMED — the agenda
+      overriding the rare output collapses fastest, so denial is special only for AND; OR flips
+      to approve. The Q126 asymmetry is baseline-relative, not about denial.
+  (2) RE-INTEGRATION on balanced baselines ['AGREE (iff W==C)', 'DIFFER (iff W!=C)']: a faithful balanced mediator is
+      only weakly irreducible (Φ=0.5), and a dose of self-interest sharpens it into a
+      discriminating mediator — Φ RISES above the faithful level before finally collapsing.
+      Self-interest is not uniformly corrosive; on a balanced mediator it first integrates.
+================================================================================
