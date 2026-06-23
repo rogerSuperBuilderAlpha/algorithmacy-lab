@@ -18,7 +18,7 @@ points back here for the shared rules.
 2. **[`OVERVIEW.md`](OVERVIEW.md)** — what the lab argues and where it actually stands.
 3. **This file** — the operating rules below.
 
-The repository is large (over 500 directories, 46 READMEs). `MAP.md` and the generated directory in
+The repository is large (hundreds of directories and dozens of READMEs). `MAP.md` and the generated directory in
 `README.md` are the cheap ways in. Reach for a README in the specific subtree only once the map has
 pointed you there.
 
