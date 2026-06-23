@@ -23,12 +23,12 @@ exact Φ, that verdict is exact, not a proxy.
 ## The empirical ask — bring the lab real data
 
 Every result here is in-silico or pre-fieldwork, and the validation gap is the program's largest open
-need. Closing it is community work: each of the four programs below is waiting on a different kind of
+need. Closing it is community work: each of the four empirical arms below is waiting on a different kind of
 real data, and the highest-value contribution available is to go get one piece of it. Bring it through a
 pull request into `contrib` (see [`CONTRIBUTING.md`](CONTRIBUTING.md)); the lab is reproducibility-first
 and fixes its claims before computing, so a contributor commits the questions before the data.
 
-- **Computational — one real arrangement, modeled to a Φ verdict.** No real worker, platform, or message
+- **Field — one real arrangement, modeled to a Φ verdict.** No real worker, platform, or message
   has been measured. The [field protocol](org_frontier/field/PROTOCOL.md) needs one real coordination — a
   team, the system that mediates it, the counterpart — with the determination rules (what each party's
   next action depends on, who reads whom) elicited from interviews, observation, or system documentation,
@@ -56,16 +56,20 @@ and a runnable scaffold that takes a real input to a verdict. The five are index
 specifics, and the [overview](OVERVIEW.md) lists the open contributions in order of value. Dig as deep as
 you like from there.
 
-## The four programs
+## The programs
 
-The lab runs four research programs on this thesis, each a different lens on the same coordination
-arrangement.
+The lab runs a computational program and five arms that carry it onto real coordination and into cognitive
+theory. Each is a different lens on the same coordination arrangement.
 
 - **The computational program** in [`org_frontier/`](org_frontier/) computes exact Φ on Boolean
   models through a fixed six-stage protocol — review → deep research → five hypotheses fixed before
   computing → methods → run against the exact-Φ instrument → paper. Its corpus of threads, studies,
   and questions stands as a catalog of pre-disclosed priors: the structural reading of what a
   coordination form is.
+- **The field program** in [`org_frontier/field/`](org_frontier/field/) takes one real coordination
+  arrangement through a nine-step protocol to a dyadic or triadic verdict on an explicit model of it. It is
+  the bridge from the in-silico priors to a real case, where the determination rules are elicited from
+  interviews, observation, and documents.
 - **The qualitative program** in [`org_frontier/qualitative/`](org_frontier/qualitative/) reads real
   coordination settings against those priors, on the questions of process and meaning that fieldwork
   answers and a model cannot. It holds each prior open, and builds its contribution where a real
@@ -76,14 +80,19 @@ arrangement.
   moves, and which party leads.
 - **The survey program** in [`org_frontier/survey/`](org_frontier/survey/) measures the competence in
   people: a human-subjects arm that reads algorithmacy as a lived skill through self-report from workers
-  inside a real coordination arrangement, the measurement side of the validation gap the other three
+  inside a real coordination arrangement, the measurement side of the validation gap the structural arms
   cannot reach.
+- **The cognition program** in [`org_frontier/cognition/`](org_frontier/cognition/) is the formal bridge to
+  the cognitive theories of coordination. Each theory of mind models a channel between two parties and has
+  nowhere to put an opaque, interested third; the major complex holds that third as a member of the
+  irreducible core, and each failure point becomes a computable Φ prediction.
 
-Structure, fieldwork, behavior, measurement: the four meet on one arrangement. Φ is the structural
-instrument the qualitative and recurrence arms are built around, and the survey arm measures the
-competence the structure is meant to demand. The measure-validation arc in [`foundations/`](foundations/) established exact Φ
-first. The directory below is a live map of all three, regenerated from the content on every merge,
-so it is always current.
+Four readings meet on one arrangement: structure, fieldwork, behavior, and measurement. The field protocol
+turns real evidence into the structural reading, and the cognition program ties that structure back to the
+theories of mind it answers. Φ is the structural instrument the field, qualitative, and recurrence arms are
+built around, and the survey arm measures the competence the structure is meant to demand. The
+measure-validation arc in [`foundations/`](foundations/) established exact Φ first. The directory below is a
+live map of the lab, regenerated from the content on every merge, so it is always current.
 
 <!-- BEGIN GENERATED DIRECTORY (tools/build_index.py) -->
 ## Directory
