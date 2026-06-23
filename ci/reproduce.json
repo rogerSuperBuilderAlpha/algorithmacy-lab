@@ -2143,6 +2143,17 @@
       ],
       "timeout": 900,
       "source": "org_frontier/threads/hierarchy/THREAD.md"
+    },
+    {
+      "name": "probe-spectator-robustness",
+      "cmd": "python -m org_frontier.probes.probe_spectator_robustness",
+      "expect": [
+        "CONTROL  bare triad           core=('W', 'S', 'C') Φ=2.000  PASS",
+        "TEST     triad + spectator X   core=('W', 'S', 'C') Φ=2.000",
+        "H1 supported: the decoupled spectator does not enter the major complex and does not move Φ."
+      ],
+      "timeout": 180,
+      "source": "org_frontier/probes/PROBES.md"
     }
   ]
 }
