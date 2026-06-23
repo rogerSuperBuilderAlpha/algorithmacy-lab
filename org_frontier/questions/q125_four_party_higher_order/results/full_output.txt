@@ -1,0 +1,30 @@
+PROBE 280 (Q125) — does a pure higher-order bind exist at four parties?
+============================================================================
+  CONTROL 3-party triad: triadic Φ=2.000, pivotal=3/3  PASS
+
+[homogeneous symmetric (16)]  16 forms, 14 irreducible
+  knockout=spectator pivot-count[0:0 1:0 2:0 3:0 4:14]  zero-pivot=0
+  knockout=silenced  pivot-count[0:0 1:0 2:0 3:0 4:14]  zero-pivot=0
+  PURE HIGHER-ORDER (zero-pivot under both defs): 0
+
+[curated redundant constructions]  8 forms, 6 irreducible
+  knockout=spectator pivot-count[0:0 1:0 2:0 3:0 4:6]  zero-pivot=0
+  knockout=silenced  pivot-count[0:0 1:0 2:0 3:0 4:6]  zero-pivot=0
+  PURE HIGHER-ORDER (zero-pivot under both defs): 0
+
+[named multiparty 4-party]  7 forms, 3 irreducible
+  knockout=spectator pivot-count[0:0 1:0 2:0 3:0 4:3]  zero-pivot=0
+  knockout=silenced  pivot-count[0:0 1:0 2:0 3:0 4:3]  zero-pivot=0
+  PURE HIGHER-ORDER (zero-pivot under both defs): 0
+
+[canonical heterogeneous (256)]  256 forms, 244 irreducible
+  knockout=spectator pivot-count[0:0 1:0 2:0 3:0 4:244]  zero-pivot=0
+  knockout=silenced  pivot-count[0:0 1:0 2:0 3:0 4:244]  zero-pivot=0
+  PURE HIGHER-ORDER (zero-pivot under both defs): 0
+
+============================================================================
+  pure higher-order (zero-pivot under both defs) four-party forms found: 0
+  H1 REFUTED: no four-party form tested is a pure higher-order bind. Every irreducible
+  form has a pivotal party, extending the Q120 result past three parties: even with
+  four-party redundancy, irreducible coordination keeps an individual lynchpin.
+============================================================================
