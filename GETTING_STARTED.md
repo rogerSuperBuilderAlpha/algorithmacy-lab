@@ -8,10 +8,13 @@ that reason.
 
 ## 1. Environment
 
-Python 3.10 or newer. From the repo root:
+PyPhi's IIT-4.0 line requires **Python 3.10 or newer**. Check your interpreter first — a stock machine's
+default `python3` is often 3.9, and the install below fails with `requires a different Python` if it is.
+Build the venv with an explicit modern interpreter when the default is too old:
 
 ```bash
-python -m venv venv
+python3 --version                 # if < 3.10, use python3.12 (or any 3.10+) explicitly on the next line
+python3.12 -m venv venv           # plain `python -m venv venv` is fine only if `python` is already 3.10+
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
