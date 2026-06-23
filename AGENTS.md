@@ -31,6 +31,11 @@ a command runs from decides the repo and remote — not intent.
 - Inside **`dissertation/`** → a nested, private `algorithmacy-dissertation` repo, gitignored by the outer
   one.
 
+A normal clone of this public repo has **no `dissertation/` directory** — only the `.gitignore` line for
+it. The tree appears solely when the private dissertation repo is separately checked out there. The rule
+below matters whenever it is present; if you do not see `dissertation/`, you are working in the public repo
+and there is nothing to keep separate.
+
 Before any commit or push, run `git rev-parse --show-toplevel` and `git remote -v` to confirm which repo
 you are in. Never `git add -f dissertation/` from the outer repo, and never `git init` either tree. The
 full explanation and worked examples are in [`REPO_LAYOUT.md`](REPO_LAYOUT.md).

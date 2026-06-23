@@ -15,6 +15,11 @@ read it once.
 `algorithmacy-lab` repo **cannot see or track** anything inside it. The dissertation
 is versioned only by its own nested repo.
 
+**A normal clone of the public repo has no `dissertation/` directory at all** — only the `.gitignore`
+line for it. The tree appears solely when someone with access separately clones the private dissertation
+repo into that path. If you do not see `dissertation/`, you are working purely in `algorithmacy-lab` and
+the two-repo rule below has nothing to act on; it matters once the tree is present.
+
 ## The one rule
 
 **Git always uses the nearest enclosing `.git` directory.** So *where you run the
