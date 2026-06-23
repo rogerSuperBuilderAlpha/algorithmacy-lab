@@ -1,3 +1,6 @@
+> For how to navigate, run, verify, and land a change, read [`AGENTS.md`](AGENTS.md) and [`MAP.md`](MAP.md).
+> This file is the writing style, the dissertation spine, and the git-push rules.
+
 # Writing style (applies to all prose in this repo)
 
 Write like Thomas Nagel in "What Is It Like to Be a Bat?": plain, blunt, concrete. The
