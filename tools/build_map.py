@@ -56,9 +56,17 @@ def _exists(rel: str) -> bool:
     return os.path.exists(os.path.join(_ROOT, rel))
 
 
-def _count_dirs(pattern: str) -> int:
-    return sum(1 for d in glob.glob(os.path.join(_ROOT, pattern))
-               if os.path.isdir(d) and not os.path.basename(d).startswith("__"))
+def _count_dirs(pattern: str, marker: str = None) -> int:
+    """Count directories matching the glob, skipping dunder dirs. With a marker filename, count only
+    the directories that contain it — the repo's definition of a real experiment or study."""
+    n = 0
+    for d in glob.glob(os.path.join(_ROOT, pattern)):
+        if not os.path.isdir(d) or os.path.basename(d).startswith("__"):
+            continue
+        if marker and not os.path.exists(os.path.join(d, marker)):
+            continue
+        n += 1
+    return n
 
 
 def _count_files(pattern: str) -> int:
@@ -174,7 +182,7 @@ def _at_a_glance() -> list:
         ("probes", _count_files("org_frontier/probes/probe_*.py")),
         ("studies", _count_dirs("org_frontier/studies/*")),
         ("essays", _count_files("org_frontier/essays/*.md")),
-        ("foundations experiments", _count_dirs("foundations/*")),
+        ("foundations experiments", _count_dirs("foundations/*", marker="FINDINGS.md")),
         ("watch entries (program-level)", _count_bib("org_frontier/research/*/literature/references.bib")),
     ]
     parts = ", ".join(f"{n} {label}" for label, n in counts if n)

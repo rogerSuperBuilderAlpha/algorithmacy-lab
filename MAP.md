@@ -56,4 +56,4 @@ Run the relevant generator after adding content, then verify with its `--check`.
 
 ## At a glance
 
-74 questions, 134 probes, 3 studies, 12 essays, 10 foundations experiments, 694 watch entries (program-level).
+74 questions, 134 probes, 3 studies, 12 essays, 9 foundations experiments, 694 watch entries (program-level).
