@@ -1,0 +1,15 @@
+PROBE 279 (Q120) — is there a triadic form with no pivotal party? [--quick: strict-mediation only]
+========================================================================
+  CONTROL strict triad: triadic Φ=2.000, pivotal={'spectator': ['W', 'S', 'C'], 'silenced': ['W', 'S', 'C']}  PASS
+
+[strict mediation (256)]  24 triadic forms
+  knockout=spectator pivot-count[0:0 1:0 2:0 3:24]  (W 24/24 S 24/24 C 24/24)  zero-pivot=0
+  knockout=silenced  pivot-count[0:0 1:0 2:0 3:24]  (W 24/24 S 24/24 C 24/24)  zero-pivot=0
+
+========================================================================
+  triadic forms: 24 strict-mediation + 0 fully-coupled = 24
+  pure higher-order (zero-pivot) forms, summed over both knockout defs: 0
+  H1 SUPPORTED: under both knockout definitions, every triadic form has all three
+  parties pivotal — no pure higher-order bind. Triadic coordination is maximally
+  fragile: every party is a lynchpin, none is dispensable.
+========================================================================
