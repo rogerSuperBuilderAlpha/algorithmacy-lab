@@ -341,6 +341,33 @@ def _handoff() -> list:
     return out
 
 
+def _research() -> list:
+    """The research-monitoring home under org_frontier/research/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "research")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Research monitoring"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    links = []
+    for fname, label in [("INDEX.md", "Master index"), ("CHANGELOG.md", "Changelog"),
+                         ("DAILY_REFRESH.md", "Daily playbook")]:
+        path = os.path.join(base, fname)
+        if os.path.exists(path):
+            links.append(f"[{label}]({_link(path)})")
+    progs = []
+    for p in ("computational", "field", "qualitative", "recurrence", "survey", "cognition"):
+        pr = os.path.join(base, p, "README.md")
+        if os.path.exists(pr):
+            progs.append(f"[{p}]({_link(pr)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    if progs:
+        out.append("  - programs: " + " · ".join(progs))
+    return out
+
+
 # ---------------------------------------------------------------------------------------------
 # Assembly
 # ---------------------------------------------------------------------------------------------
@@ -349,6 +376,7 @@ def build_directory() -> str:
     articles = _articles()
     syntheses = _syntheses()
     handoff = _handoff()
+    research = _research()
     field = _field()
     qualitative = _qualitative()
     survey = _survey()
@@ -384,6 +412,13 @@ def build_directory() -> str:
               "input to a verdict: a front-door README, the pre-registration discipline, and a "
               "runnable scaffold.", ""]
         L += handoff
+        L.append("")
+
+    if research:
+        L += ["### Research monitoring — a standing literature watch", "",
+              "A live bibliography and review for each program, decomposed into ten topics and refreshed "
+              "daily so new work is caught as it appears.", ""]
+        L += research
         L.append("")
 
     if field:
