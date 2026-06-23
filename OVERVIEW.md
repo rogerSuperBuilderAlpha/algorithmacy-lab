@@ -105,7 +105,10 @@ The **survey program** — measuring the competence in people:
 
 ## Where you could contribute
 
-Concrete open threads, roughly easiest to hardest. Each is a real gap, not busywork.
+Concrete open threads, roughly easiest to hardest. Each is a real gap, not busywork. The empirical and
+bridge arms below each come as a ready-to-run **handoff packet** — a front-door README, the pre-registration
+discipline, and a runnable scaffold that takes a real input to a verdict. The five are indexed in
+[`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md).
 
 - **Pick an open question.** Fifty are pre-written and waiting in
   [`org_frontier/RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md). Scaffold one with
