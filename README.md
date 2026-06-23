@@ -253,12 +253,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (79)
+### Questions — the logbook (80)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 79 questions</summary>
+<summary>Browse all 80 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -341,6 +341,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q126](org_frontier/questions/q126_interested_mediator/paper.md) | The interested mediator: self-interest erodes coordination irreducibility | self-interest disintegrates the coordination, and a gatekeeping agenda corrodes it fastest |
 | [Q127](org_frontier/questions/q127_interest_baselines/paper.md) | Denial is not special: self-interest collapse depends on the mediator's rare output | denial is not special: the collapse agenda flips with the baseline, and balanced mediators re-integrate |
 | [Q128](org_frontier/questions/q128_adaptive_mediator/paper.md) | The adaptive mediator: self-interest and irreducible coordination can coexist | adaptation re-integrates a predatory mediator, but only if its objective reads both parties |
+| [Q129](org_frontier/questions/q129_mediator_interpolation/paper.md) | Faithful to predatory: an adaptive objective re-integrates the system by displacing a party | two readings of coordination survival diverge: adaptation re-integrates the system by displacing a party |
 
 </details>
 
