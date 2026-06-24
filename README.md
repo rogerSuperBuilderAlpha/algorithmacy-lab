@@ -255,12 +255,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (86)
+### Questions — the logbook (87)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 86 questions</summary>
+<summary>Browse all 87 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -350,6 +350,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q133](org_frontier/questions/q133_deny_symmetry/paper.md) | Agenda symmetry of value capture: deny extracts on XNOR as approve extracts on XOR | the destruction-vs-extraction split is symmetric in the agenda |
 | [Q134](org_frontier/questions/q134_rent_scaling/paper.md) | The mediator's rent dilutes: two-thirds is a three-party number | the mediator's rent dilutes as the coordination grows |
 | [Q135](org_frontier/questions/q135_objective_rent/paper.md) | The objective's rent: the system's agenda is a co-owner of the coordination | the system's agenda is a rentier on a par with the system |
+| [Q136](org_frontier/questions/q136_competing_mediators/paper.md) | Two competing mediators: competition destroys the coordination or stacks another toll | competition does not return the rent: substitutes destroy the value, complements split it |
 
 </details>
 

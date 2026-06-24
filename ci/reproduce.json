@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q136-competing-mediators",
+      "cmd": "python -m org_frontier.questions.q136_competing_mediators.probe_competing_mediators",
+      "expect": [
+        "CONTROL single faithful mediator: share 66.6% (two-thirds)  PASS",
+        "H1 (substitutable mediators eliminate the coordination — Φ -> 0, no rent): SUPPORTED",
+        "H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (Φ=4.0, each mediator 25%, each party 25%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q136_competing_mediators/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q135-objective-rent",
       "cmd": "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent",
       "expect": [
