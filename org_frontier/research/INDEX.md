@@ -8,12 +8,12 @@ One row per program with its last refresh and source count, then the ten topics 
 
 | program | last run | sources | topics |
 |---|---|---|---|
-| [computational](computational/README.md) | 2026-06-23 | 106 | 10 |
-| [field](field/README.md) | 2026-06-23 | 114 | 10 |
-| [qualitative](qualitative/README.md) | 2026-06-23 | 119 | 10 |
-| [recurrence](recurrence/README.md) | 2026-06-23 | 106 | 10 |
-| [survey](survey/README.md) | 2026-06-23 | 120 | 10 |
-| [cognition](cognition/README.md) | 2026-06-23 | 129 | 10 |
+| [computational](computational/README.md) | 2026-06-24 | 106 | 10 |
+| [field](field/README.md) | 2026-06-24 | 114 | 10 |
+| [qualitative](qualitative/README.md) | 2026-06-24 | 119 | 10 |
+| [recurrence](recurrence/README.md) | 2026-06-24 | 106 | 10 |
+| [survey](survey/README.md) | 2026-06-24 | 120 | 10 |
+| [cognition](cognition/README.md) | 2026-06-24 | 129 | 10 |
 
 **Total program-level bibliography: 694 entries across 6 programs.**
 
