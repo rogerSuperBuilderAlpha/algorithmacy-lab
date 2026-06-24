@@ -1,0 +1,21 @@
+PROBE 293 (Q138) — regulation: the minimum faithful fraction that revives the coordination
+====================================================================================
+  CONTROL fully faithful (4/4): Φ=2.000, mediator share 67%  PASS
+
+  faithful states | Φ | mediator share | parties (collective)
+  ----------------+-------+----------------+---------------------
+  0/4              | 0.000 |     —          |   — 
+  1/4              | 0.000 |     —          |   — 
+  2/4              | 0.000 |     —          |   — 
+  3/4              | 0.500 |    33%         | 67%
+  4/4              | 2.000 |    67%         | 33%
+
+====================================================================================
+  H1 (a minimum faithful fraction revives the coordination): SUPPORTED  (minimum = 3/4 = 75% faithful)
+  H2 (threshold regulation gives an egalitarian split; mediator dominance only at full faith): SUPPORTED  (at 3/4 mediator 33%, at 4/4 mediator 67%)
+  Reading: reviving the coordination takes a sharp minimum of faithfulness — below three-quarters
+  the form is dead. At that minimum the value splits evenly, the parties holding the majority; the
+  mediator's two-thirds returns only with the last faithful state. The platform's rent is the
+  fully-faithful commit, so light-touch regulation that merely revives the coordination does not
+  hand the rent back to the platform — full restoration does.
+====================================================================================

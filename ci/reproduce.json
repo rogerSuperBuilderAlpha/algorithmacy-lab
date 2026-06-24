@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q138-faithful-fraction",
+      "cmd": "python -m org_frontier.questions.q138_faithful_fraction.probe_faithful_fraction",
+      "expect": [
+        "CONTROL fully faithful (4/4): Φ=2.000, mediator share 67%  PASS",
+        "H1 (a minimum faithful fraction revives the coordination): SUPPORTED  (minimum = 3/4 = 75% faithful)",
+        "H2 (threshold regulation gives an egalitarian split; mediator dominance only at full faith): SUPPORTED  (at 3/4 mediator 33%, at 4/4 mediator 67%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q138_faithful_fraction/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q137-interested-worker",
       "cmd": "python -m org_frontier.questions.q137_interested_worker.probe_interested_worker",
       "expect": [
