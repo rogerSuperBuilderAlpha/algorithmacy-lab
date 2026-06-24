@@ -1,0 +1,49 @@
+PROBE 287 (Q132) — value capture across baselines: destruction or extraction is baseline-relative
+============================================================================================
+  CONTROL faithful AND @ (1, 1, 1): total Φ=2.000, mediator share 66.6%  PASS
+
+[baseline AND]
+  k | verdict Φ | @maxstate share | all-ones Φ | reading
+  --+-----------+-----------------+------------+--------
+  0 |     2.000 |  66.6%          |      2.000 |
+  1 |     0.500 |  33.4%          |      0.500 |
+  2 |     0.000 |    —            |      0.000 |
+  3 |     0.000 |    —            |      0.000 |
+  4 |     0.000 |    —            |      0.000 |
+
+[baseline OR]
+  k | verdict Φ | @maxstate share | all-ones Φ | reading
+  --+-----------+-----------------+------------+--------
+  0 |     2.000 |  66.6%          |      0.000 |
+  1 |     0.000 |    —            |      0.000 |
+  2 |     0.000 |    —            |      0.000 |
+  3 |     0.000 |    —            |      0.000 |
+  4 |     0.000 |    —            |      0.000 |
+
+[baseline XNOR]
+  k | verdict Φ | @maxstate share | all-ones Φ | reading
+  --+-----------+-----------------+------------+--------
+  0 |     0.500 |  33.4%          |      0.500 |
+  1 |     0.500 |  33.4%          |      0.500 |
+  2 |     0.000 |    —            |      0.000 |
+  3 |     0.000 |    —            |      0.000 |
+  4 |     0.000 |    —            |      0.000 |
+
+[baseline XOR]
+  k | verdict Φ | @maxstate share | all-ones Φ | reading
+  --+-----------+-----------------+------------+--------
+  0 |     0.500 |  33.4%          |      0.500 |
+  1 |     2.000 |  66.6%          |      0.000 |
+  2 |     2.000 |  66.6%          |      0.000 |
+  3 |     2.000 |  66.6%          |      0.000 |
+  4 |     0.000 |    —            |      0.000 |
+
+============================================================================================
+  H1 (all-ones value reading agrees with the verdict only on AND): NOT SUPPORTED  (agrees on: ['AND', 'XNOR', 'XOR'])
+  H2 (verdict-aligned: re-integrating baselines concentrate the rent — extraction): SUPPORTED  (extraction on: ['XOR'])
+  Reading: destruction or extraction is baseline-relative, mirroring Q127. On a sparse mediator
+  (AND) self-interest destroys the value and the mediator's two-thirds rent with it. On a balanced
+  mediator that re-integrates (XOR, approve), self-interest raises the value to Φ=2.0 and the
+  mediator captures it as the same two-thirds rent — extraction. The all-ones value reading sees
+  none of this off the AND baseline, isolating the Q122 background-state problem as the blocker.
+============================================================================================
