@@ -2,6 +2,72 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "q183-build-disagreement-bridge",
+      "cmd": "python -m org_frontier.questions.q183_build_disagreement_bridge.probe_build_disagreement_bridge",
+      "expect": [
+        "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
+        "H1 zero-anchored spread on identical accounts: SUPPORTED",
+        "H2 spread symmetric under party relabelling: SUPPORTED"
+      ],
+      "timeout": 500,
+      "source": "org_frontier/questions/q183_build_disagreement_bridge/FINDINGS.md"
+    },
+    {
+      "name": "q151-hub-failure-resilience",
+      "cmd": "python -m org_frontier.questions.q151_hub_failure_resilience.probe_hub_failure_resilience",
+      "expect": [
+        "CONTROL faithful triad: structure=triadic max_phi=2.000 core=('W', 'S', 'C') phi=2.000 -> PASS",
+        "H1 (redundant mediation buys verdict resilience): SUPPORTED",
+        "H2 (retained Φ scales with non-hub cycle count): NOT SUPPORTED"
+      ],
+      "timeout": 500,
+      "source": "org_frontier/questions/q151_hub_failure_resilience/FINDINGS.md"
+    },
+    {
+      "name": "q150-ring-chord-integration",
+      "cmd": "python -m org_frontier.questions.q150_ring_chord_integration.probe_ring_chord_integration",
+      "expect": [
+        "CONTROL faithful triad: structure=triadic, max Φ_MIP=2.000000: PASS",
+        "H1 chord raises ring Φ and shifts MIP cut off the chord: REFUTED",
+        "H2 chord endpoints gain Shapley value at the expense of the far arc: SUPPORTED"
+      ],
+      "timeout": 500,
+      "source": "org_frontier/questions/q150_ring_chord_integration/FINDINGS.md"
+    },
+    {
+      "name": "q148-multihub-chain-hierarchy",
+      "cmd": "python -m org_frontier.questions.q148_multihub_chain_hierarchy.probe_multihub_chain_hierarchy",
+      "expect": [
+        "CONTROL faithful triad: structure=triadic max_phi=2.000 core=('W', 'S', 'C') phi=2.000 -> PASS",
+        "H1 (depth caps integrable group size): SUPPORTED",
+        "H2 (MIP/core break falls at a hub seam): CONFIRMED"
+      ],
+      "timeout": 500,
+      "source": "org_frontier/questions/q148_multihub_chain_hierarchy/FINDINGS.md"
+    },
+    {
+      "name": "q145-spanning-mediator-law",
+      "cmd": "python -m org_frontier.questions.q145_spanning_mediator_law.probe_spanning_mediator_law",
+      "expect": [
+        "CONTROL faithful triad: structure=triadic max_phi=2.0 core=('W', 'S', 'C') phi=2.0 -> PASS",
+        "H1 spanning-mediator law (full span holds all, Φ linear in n; partial caps at span+1): SUPPORTED",
+        "H2 Φ(f) collapses across n (span fraction is the controlling variable): REFUTED"
+      ],
+      "timeout": 500,
+      "source": "org_frontier/questions/q145_spanning_mediator_law/FINDINGS.md"
+    },
+    {
+      "name": "q144-mediator-hierarchy-depth",
+      "cmd": "python -m org_frontier.questions.q144_mediator_hierarchy_depth.probe_mediator_hierarchy_depth",
+      "expect": [
+        "CONTROL faithful triad -> structure=triadic max_phi=2.000 (expect triadic 2.0): PASS",
+        "H1 depth-is-flat-at-chain-constant: SUPPORTED",
+        "H2 breadth-grows-toward-pool: SUPPORTED (linear, not super-linear)"
+      ],
+      "timeout": 500,
+      "source": "org_frontier/questions/q144_mediator_hierarchy_depth/FINDINGS.md"
+    },
+    {
       "name": "instrument-controls",
       "core": true,
       "cmd": "python -m org_frontier.classifier.validate",

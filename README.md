@@ -256,12 +256,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (92)
+### Questions — the logbook (98)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 92 questions</summary>
+<summary>Browse all 98 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -357,6 +357,12 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q139](org_frontier/questions/q139_value_veto/paper.md) | Value and veto: Q112's decoupling is the integration | veto is always universal; the value-veto gap is the integration |
 | [Q140](org_frontier/questions/q140_coalition_stability/paper.md) | The core inverts the rent: faithful mediation monopolizes, interest frees the value | faithful mediation monopolizes the core; interest frees it |
 | [Q141](org_frontier/questions/q141_lagging_objective/paper.md) | The lagging objective: slow learning keeps the worker in the coordination | a lagging objective rescues the worker that immediate adaptation displaces |
+| [Q144](org_frontier/questions/q144_mediator_hierarchy_depth/paper.md) | Mediator hierarchy: does Φ track depth like a chain or breadth like a pool? | depth holds Φ at the chain constant; breadth grows it linearly |
+| [Q145](org_frontier/questions/q145_spanning_mediator_law/paper.md) | The spanning-mediator law | A single mediator that spans every party binds the whole set into the core, and Φ rises one |
+| [Q148](org_frontier/questions/q148_multihub_chain_hierarchy/paper.md) | Hierarchy depth and the hub-seam: where a chain of hubs stops integrating | A feedforward chain of gating hubs does not hold a core that spans its groups. At every tested depth the |
+| [Q150](org_frontier/questions/q150_ring_chord_integration/paper.md) | Adding one chord to a conjunctive ring: where the integration goes | A single chord across a conjunctive ring leaves the whole-system Φ flat but moves the cut and |
+| [Q151](org_frontier/questions/q151_hub_failure_resilience/paper.md) | Hub-failure resilience: redundant mediation protects the triadic verdict, but the cycle is not the reserve | A single hub loses the triadic verdict when it is frozen. A backup hub and a non-hub ring each keep it. The |
+| [Q183](org_frontier/questions/q183_build_disagreement_bridge/paper.md) | A Φ-spread bridge for two divergent party accounts of one coordination | The bridge module `org_frontier/qualitative/disagreement_phi.py` reads two party accounts of one |
 
 </details>
 

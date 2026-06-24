@@ -1,0 +1,21 @@
+CONTROL faithful triad: structure=triadic max_phi=2.000 core=('W', 'S', 'C') phi=2.000 -> PASS
+
+Hub chain (hub_k = hub_{k-1} AND its group; parties read their hub), group size g=1
+L     n    core                       |core|  groups whole-Φ   MIP cut (whole system, all-ones)
+2     4    H0,p0_0                    2       1      0.000     None
+3     6    H0,p0_0                    2       1      0.000     None
+4     8    H0,p0_0                    2       1      0.000     None
+
+Control: single all-spanning hub of the same n (one hub = AND of all parties; every party reads it)
+L     n    |core|  control core spans all n nodes?
+2     4    4       yes (core size 4 of 4, Φ=3.000)
+3     6    -       skipped (all-spanning n=6 intractable; control established at n<=4)
+4     8    -       skipped (all-spanning n=8 intractable; control established at n<=4)
+
+H1 (depth caps integrable group size): SUPPORTED
+    the hub chain never spans all groups: it holds at most 1 group(s) of the core while the chain grows to L=4, so terminal groups drop out and hierarchy depth caps the integrable group size
+    chain group-span by L: {2: 1, 3: 1, 4: 1}
+
+H2 (MIP/core break falls at a hub seam): CONFIRMED
+    at every chain length the core breaks at a between-group hub seam, leaving whole upstream groups intact and dropping whole downstream groups, so the hub-to-hub link is the integration bottleneck, not a single party
+    seam-break by L: {2: True, 3: True, 4: True}

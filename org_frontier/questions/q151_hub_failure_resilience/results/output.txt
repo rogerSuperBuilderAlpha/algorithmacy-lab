@@ -1,0 +1,22 @@
+CONTROL faithful triad: structure=triadic max_phi=2.000 core=('W', 'S', 'C') phi=2.000 -> PASS
+
+Hub ablation at n=6 (ablate = freeze the node-0 hub to constant 0)
+topology         nonhub_cyc Φ_intact  verdict   Φ_ablate  verdict   Φ_retained
+single_hub       0          5.000     triadic   0.000     dyadic    0.000
+two_hub_backup   0          0.015     triadic   0.879     triadic   0.879
+ring_hub         1          2.000     triadic   2.000     triadic   2.000
+
+Cores (intact -> ablated):
+  single_hub       ('H', 'p1', 'p2', 'p3', 'p4', 'p5') -> None
+  two_hub_backup   ('H2', 'p5') -> ('H2', 'p2', 'p3', 'p4', 'p5')
+  ring_hub         ('r0', 'r1', 'r2', 'r3', 'r4') -> ('r0', 'r1', 'r2', 'r3', 'r4')
+
+Control: every unablated topology reads triadic? yes
+
+H1 (redundant mediation buys verdict resilience): SUPPORTED
+    the single hub collapses to dyadic on ablation while two_hub_backup, ring_hub retains triadic, so every redundant form keeps the verdict the single hub loses
+    ablated verdicts: {'single_hub': 'dyadic', 'two_hub_backup': 'triadic', 'ring_hub': 'triadic'}
+
+H2 (retained Φ scales with non-hub cycle count): NOT SUPPORTED
+    a form with no non-hub cycle still retains substantial Φ (two_hub_backup (cyc=0, retained=0.879)), so the non-hub cycle is not necessary for retention: the reserve is the backup mediator, not the cycle, and the cycle-count account does not hold
+    (non-hub cycles, retained Φ) by form: {'single_hub': (0, 0.0), 'two_hub_backup': (0, 0.879), 'ring_hub': (1, 2.0)}
