@@ -27,8 +27,7 @@ nothing without it, captures two-thirds of the system's Φ = 2.0, each party a s
 like platform power written in bits.
 
 That reading assumed a faithful mediator, one that commits the parties' joint determination. Real platforms
-are interested. Algorithmic management is the control of matching in the platform's own interest (Jarrahi &
-Sutherland, 2021; Griesbach et al., 2019; Duggan et al., 2023), and workers experience the system as an
+are interested. Algorithmic management is the control of matching in the platform's own interest (Jarrahi et al., 2021; Griesbach et al., 2019; Duggan et al., 2023), and workers experience the system as an
 opaque agent pursuing ends of its own (Savolainen, 2022; Cotter, 2021). If the faithful mediator's
 two-thirds is platform power, the natural conjecture is that an interested platform presses it further —
 serves its agenda and takes a larger cut. This paper tests the conjecture with exact Φ and finds it false in
@@ -37,13 +36,13 @@ general and true only under a condition that inverts its meaning.
 ## Related work
 
 The value function is the cooperative-game route applied to integrated information: coalition value as
-subsystem Φ, a party's worth as its Shapley value (Shapley, 1953; Shapley, 1969; Aumann, 1974). The
+subsystem Φ, a party's worth as its Shapley value (Shapley, 1953; Shapley & Shubik, 1969; Aumann, 1974). The
 integrated-information reading of coordination follows Engel & Malone (2018), who computed Φ over a group as
 a measure of interaction, against the collective-intelligence factor of Woolley et al. (2010) and Malone &
 Crowston's (1994) coordination theory; the instrument is IIT 4.0 (Tononi, 2004; Oizumi, Albantakis & Tononi,
 2014; Albantakis et al., 2023) computed with PyPhi (Mayner et al., 2018). The interested mediator is the
 platform of the algorithmic-management literature — a system that matches and controls in its own interest
-(Jarrahi & Sutherland, 2021; Griesbach et al., 2019; Duggan et al., 2023) and that workers theorize as an
+(Jarrahi et al., 2021; Griesbach et al., 2019; Duggan et al., 2023) and that workers theorize as an
 interested, opaque agent (Cotter, 2021; Savolainen, 2022). Information economics supplies the prior that a
 party with private information and its own payoff acts strategically (Spence, 1973). None of this work reads
 the platform's value capture off the structure of the coordination it mediates. That is the gap this paper
@@ -56,7 +55,7 @@ pre-analysis discipline of Brodeur et al., 2024). Every number reproduces from a
 `q111-shapley-value`, `q131-value-capture`, `q132-value-baselines`.
 
 **The faithful mediator's rent (Q111).** The value function is the Shapley value of subsystem Φ. On the
-faithful triad the mediator captures 1.333 of Φ = 2.0 — two-thirds — and each outer party 0.333. A read-only
+faithful triad the mediator captures 1.333 of Φ = 2.0, two-thirds, and each outer party 0.333. A read-only
 spectator, contributing nothing, captures zero, and can capture negative value when its presence factors the
 system. The two-thirds is the mediator's marginal indispensability: it is in every coalition that produces
 anything.
@@ -64,7 +63,7 @@ anything.
 **Destruction, not extraction (Q131).** The Q126 interested mediator imposes its agenda on the states where
 the parties least warrant it, committing the faithful conjunction elsewhere. As it does, the total value
 falls and the mediator's share falls faster. At the first interested step the value halves, from 2.0 to 0.5,
-and the split equalizes — the mediator drops from two-thirds to a co-equal third — before the coordination
+and the split equalizes, the mediator dropping from two-thirds to a co-equal third, before the coordination
 collapses to zero. Serving its agenda costs the mediator the bottleneck position that gave it the rent. On
 this mediator, self-interest destroys value instead of extracting rent.
 
@@ -96,7 +95,7 @@ ruin if the coordination was already tight, rent if it was slack enough to be ti
 This reframes the platform-power reading of the faithful result. The two-thirds is not a floor an interested
 platform presses higher by serving itself; it is contingent on the platform mediating the parties rather than
 overriding them. The algorithmic-management literature describes platforms that control matching in their own
-interest and workers who read the control as extraction (Jarrahi & Sutherland, 2021; Cotter, 2021). The
+interest and workers who read the control as extraction (Jarrahi et al., 2021; Cotter, 2021). The
 structural account locates what the extraction can and cannot be: a platform takes its share by being the
 coordination both parties need, and whatever it gains by pursuing its own ends sits outside the
 coordination's integrated value, except in the one case where the pursuit happens to make the platform more
@@ -112,7 +111,7 @@ background-state question, and the Φ-to-economic-value bridge is unproven, so "
 "extraction" name Shapley allocations of Φ, not money — the paper claims that the integrated value and its
 distribution behave as reported, leaving willingness-to-pay unclaimed. The mediators are two-party-input
 Boolean functions and the agenda is a fixed stance; the approve agenda is shown, and under the deny agenda
-the re-integrating baseline is the other balanced rule, by the symmetry the studies establish. Small negative
+the re-integrating baseline is the other balanced rule, by the collapse-versus-re-integrate symmetry Q127 establishes. Small negative
 Shapley values at collapsed forms are non-monotonicity artifacts carrying no allocation.
 
 ## Future work
