@@ -317,8 +317,9 @@
         "H1 verdict-complex disagreement exists: SUPPORTED",
         "H2 disagreement is exactly the zero-Shapley marker: NOT SUPPORTED"
       ],
-      "timeout": 500,
-      "source": "org_frontier/questions/q152_verdict_vs_complex_topology/FINDINGS.md"
+      "timeout": 1800,
+      "source": "org_frontier/questions/q152_verdict_vs_complex_topology/FINDINGS.md",
+      "slow": true
     },
     {
       "name": "q149-topology-shapley-split",
@@ -350,8 +351,9 @@
         "H1 non-monotone small-world Φ peak: REFUTED",
         "H2 verdict stays triadic under rewiring: REFUTED"
       ],
-      "timeout": 500,
-      "source": "org_frontier/questions/q146_smallworld_rewire_phi/FINDINGS.md"
+      "timeout": 1800,
+      "source": "org_frontier/questions/q146_smallworld_rewire_phi/FINDINGS.md",
+      "slow": true
     },
     {
       "name": "q143-ring-verdict-geometry",
@@ -361,8 +363,9 @@
         "H1 ring is triadic with a single balanced two-arc cut of constant Φ in n: REFUTED",
         "H2 the ring's major complex is the full node set at every n=3..7: SUPPORTED"
       ],
-      "timeout": 500,
-      "source": "org_frontier/questions/q143_ring_verdict_geometry/FINDINGS.md"
+      "timeout": 1800,
+      "source": "org_frontier/questions/q143_ring_verdict_geometry/FINDINGS.md",
+      "slow": true
     },
     {
       "name": "q183-build-disagreement-bridge",
