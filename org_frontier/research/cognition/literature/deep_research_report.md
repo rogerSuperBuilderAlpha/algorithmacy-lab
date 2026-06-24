@@ -1,4 +1,4 @@
-<!-- run: 2026-06-23 | sources: 31 | verified: 31 -->
+<!-- run: 2026-06-24 | sources: 129 | verified: 129 -->
 Deep-research run, 2026-06-23. 14 search angles, 31 sources, 31 verified.
 
 ## 1. Foundations: where cognition lives
