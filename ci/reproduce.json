@@ -1609,6 +1609,28 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q140-coalition-stability",
+      "cmd": "python -m org_frontier.questions.q140_coalition_stability.probe_coalition_stability",
+      "expect": [
+        "CONTROL faithful triad: v(WSC)=2.0, v(WC)=0.0 (parties need the mediator)  PASS",
+        "H1 (faithful core gives the mediator everything, parties zero): SUPPORTED  (faithful parties' max = 0.0)",
+        "H2 (interested core lets the parties keep the whole (reduced) value): SUPPORTED  (interested parties can keep 100%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q140_coalition_stability/FINDINGS.md (H1-H2)"
+    },
+    {
+      "name": "q139-value-veto",
+      "cmd": "python -m org_frontier.questions.q139_value_veto.probe_value_veto",
+      "expect": [
+        "CONTROL faithful triad: Φ=2.0, veto 3/3, mediator value 67%, gap +0.33  PASS",
+        "H1 (veto power universal at every level with positive Φ): SUPPORTED",
+        "H2 (the value-veto gap tracks integration: +1/3 at Φ=2.0, 0 at Φ=0.5): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q139_value_veto/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q138-faithful-fraction",
       "cmd": "python -m org_frontier.questions.q138_faithful_fraction.probe_faithful_fraction",
       "expect": [

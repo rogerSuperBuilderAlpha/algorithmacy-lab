@@ -1,0 +1,19 @@
+PROBE 295 (Q140) — coalition stability: the cooperative-game core under an interested mediator
+========================================================================================
+  CONTROL faithful triad: v(WSC)=2.0, v(WC)=0.0 (parties need the mediator)  PASS
+
+  k | Φ=v(N) | v(WS) v(SC) v(WC) | parties' max core payoff | mediator's core take
+  --+--------+-------------------+--------------------------+---------------------
+  0 |  2.000 | 2.00  2.00  0.00  |      0.000 (0% of value)   | 2.000 (100%)
+  1 |  0.500 | 0.00  0.00  0.00  |      0.500 (100% of value)   | 0.000 (0%)
+
+========================================================================================
+  H1 (faithful core gives the mediator everything, parties zero): SUPPORTED  (faithful parties' max = 0.0)
+  H2 (interested core lets the parties keep the whole (reduced) value): SUPPORTED  (interested parties can keep 100%)
+  Reading: the faithful mediator's hold is harsher than its Shapley two-thirds. Because either
+  party with the mediator reaches the full value, neither party is essential, and the only stable
+  allocation gives the mediator everything and the parties nothing. When the mediator turns
+  interested and the sub-coalition values collapse, that substitutability is destroyed, the core
+  opens to the whole simplex, and the parties can hold the entire reduced value stably. Interest
+  shrinks the pie but frees its division; faithful mediation grows it but monopolizes it.
+========================================================================================

@@ -58,7 +58,7 @@ Run the relevant generator after adding content, then verify with its `--check`.
 
 | count | what | source |
 |---|---|---|
-| 89 | questions | `org_frontier/questions/q*_*/` |
+| 91 | questions | `org_frontier/questions/q*_*/` |
 | 134 | probes | `org_frontier/probes/probe_*.py` |
 | 3 | studies | `org_frontier/studies/*/` |
 | 14 | essays | `org_frontier/essays/*.md` |
