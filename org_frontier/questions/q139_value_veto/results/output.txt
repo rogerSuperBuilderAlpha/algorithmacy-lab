@@ -1,0 +1,27 @@
+PROBE 294 (Q139) — value and veto: does interested mediation align them?
+====================================================================================
+  CONTROL faithful triad: Φ=2.0, veto 3/3, mediator value 67%, gap +0.33  PASS
+
+[AND baseline, approve agenda]
+  k | Φ | veto count | mediator value share | gap (share - 1/3)
+  --+------+------------+----------------------+------------------
+  0 | 2.00 | 3/3        |                67%   | +0.33
+  1 | 0.50 | 3/3        |                33%   | +0.00
+  2 | 0.00 | (dead)     | —                    | —
+
+[XOR baseline, approve agenda]
+  k | Φ | veto count | mediator value share | gap (share - 1/3)
+  --+------+------------+----------------------+------------------
+  0 | 0.50 | 3/3        |                33%   | +0.00
+  1 | 2.00 | 3/3        |                67%   | +0.33
+  2 | 2.00 | 3/3        |                67%   | +0.33
+
+====================================================================================
+  H1 (veto power universal at every level with positive Φ): SUPPORTED
+  H2 (the value-veto gap tracks integration: +1/3 at Φ=2.0, 0 at Φ=0.5): SUPPORTED
+  Reading: every party can always veto the coordination, at every interestedness level — Q112's
+  democratic destruction is robust to interest. What moves is the value-veto gap, the mediator's
+  share above its equal third of the veto. The gap is the integration: full at Φ=2.0, none at
+  Φ=0.5. So self-interest that destroys (AND) democratizes value to match the equal veto, and
+  self-interest that re-integrates (XOR) re-concentrates it. Q112's decoupling is integration.
+====================================================================================
