@@ -1,0 +1,22 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+CONTROL A  honest consensus  panel=['AND']*4
+  consensus = triadic; adversary opposite-kind reading available = False
+
+CONTROL B  unique reading  panel=['copyW']*3
+  consensus = dyadic; adversary opposite-kind reading available = False; CI degenerate = True (CI=[0.000,0.000])
+
+POPULATION ATTACK (synthetic accounts)
+  accounts generated     : 200
+  tied (no consensus)    : 42
+  powerless (unique pool): 57
+  attacked               : 101
+  forced flips           : 101   flip_rate     = 1.000
+  CI contains adv. point : 22   contain_rate  = 0.218
+
+metric                         value   threshold
+H1 forced-flip rate            1.000      > 0.40
+H2 CI-containment rate         0.218      > 0.90
+
+H1 adversary flips point verdict on >40% of attacked accounts: SUPPORTED
+H2 agreement-weighted CI brackets the adversarial point estimate on >90%: NOT SUPPORTED

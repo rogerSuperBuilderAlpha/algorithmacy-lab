@@ -1,0 +1,28 @@
+PROBE 323 (Q169) — the lagging objective and the worker's predictive model
+============================================================================================
+  CONTROL faithful triad: triadic max_phi=2.000  PASS
+  Q141 anchor: immediate triadic Φ=1.0  |  lagging triadic Φ=2.0
+
+  drift period | immediate acc | lagging acc | advantage (lag - imm)
+  -------------+---------------+-------------+----------------------
+          5000 |         0.749 |       1.000 | +0.251
+           800 |         0.750 |       1.000 | +0.250
+           300 |         0.738 |       0.999 | +0.261
+           120 |         0.743 |       0.998 | +0.255
+            60 |         0.727 |       0.996 | +0.269
+            30 |         0.677 |       0.992 | +0.315
+            15 |         0.614 |       0.984 | +0.370
+             8 |         0.576 |       0.969 | +0.393
+
+============================================================================================
+  H1 (lagging objective predicts the platform better at matched drift): SUPPORTED
+  H2 (the lagging advantage vanishes as drift speeds up): NOT SUPPORTED  (advantage slow +0.251 -> fast +0.393; moderate mean +0.257)
+  Reading: the Q141 re-integration is visible in the predictive measure. A lagging
+  objective routes the displaced counterpart's contribution to the worker as a memory
+  she already observed, so her model reads the commit off that memory and tracks the
+  platform far better than against an immediate self-executing objective whose commit
+  turns on the hidden counterpart in real time. The advantage does not vanish as drift
+  speeds up; the stored memory suffers only a small same-step staleness, while the
+  immediate model degrades steeply, so the advantage grows. Re-integration through a
+  realized memory is drift-robust, not fragile.
+============================================================================================

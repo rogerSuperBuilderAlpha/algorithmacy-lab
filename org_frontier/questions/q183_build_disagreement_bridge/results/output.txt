@@ -1,0 +1,17 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+H1 identity control  A == B (faithful triad vs itself)
+  verdict_agreement = 1
+  phi_gap           = 0.000000
+  core_jaccard      = 1.000000
+  both_verdicts     = ('triadic', 'triadic')
+
+Divergent pair  triad account vs dyad account of one coordination
+orientation    verdict_agree     phi_gap  core_jaccard   both_verdicts
+A=triad B=dyad             0    2.000000      0.666667   ('triadic', 'dyadic')
+A=dyad B=triad             0    2.000000      0.666667   ('dyadic', 'triadic')
+
+divergent pair actually diverges: True
+
+H1 zero-anchored spread on identical accounts: SUPPORTED
+H2 spread symmetric under party relabelling: SUPPORTED

@@ -1,0 +1,33 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+Building signature map over 6^3 = 216 accounts (exact Φ each)...
+  accounts scored: 216
+
+RECONCILE controls
+  identity pair [x1, x0&x2, x1] vs itself: distance = 0 (expect 0): PASS
+  one-rule-apart [x1, x0&x2, x1] -> [x0, x0&x2, x1]: distance = 1 (expect 1): PASS
+  reconcile controls: PASS
+
+Panel: account A vs account B = [x1, x0&x2, x1] (triadic, core ['C', 'S', 'W'])
+account A              vagree   phi_gap   core_J  core_div   spread  edit_dist
+[x0, x1, x2]                0    2.0000   0.3333    0.6667   2.6667          3
+[x1, x0, x1]                0    2.0000   0.6667    0.3333   2.3333          1
+[x1, x1, x1]                0    2.0000   0.3333    0.6667   2.6667          1
+[x1, x0&x2, x1]             1    0.0000   1.0000    0.0000   0.0000          0
+[x1, x0|x2, x1]             1    0.0000   1.0000    0.0000   0.0000          0
+[x2, x2, x2]                0    2.0000   0.3333    0.6667   2.6667          2
+[x0&x2, x0&x2, x0&x2]       0    2.0000   0.6667    0.3333   2.3333          2
+[0, 0, 0]                   0    2.0000   0.0000    1.0000   3.0000          3
+
+H1 check: Spearman(spread, edit_distance) = 0.8355; non-decreasing across sorted panel = False; zero-spread anchors at distance 0 = True
+H1 edit distance increases with the Φ spread: REFUTED
+
+H2 check: per pair, shortest-path lengths and symmetry
+account A               dist    shortest_lengths  unique  symmetric
+[x0, x1, x2]               3                 [3]    True      False
+[x1, x0, x1]               1                 [1]    True       True
+[x1, x1, x1]               1                 [1]    True       True
+[x2, x2, x2]               2                 [2]    True       True
+[x0&x2, x0&x2, x0&x2]      2                 [2]    True       True
+[0, 0, 0]                  3                 [3]    True      False
+H2 every shortest reconciliation path has one length and distance is symmetric: NOT SUPPORTED

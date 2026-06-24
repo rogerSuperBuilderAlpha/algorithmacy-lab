@@ -1,0 +1,24 @@
+CONTROL faithful triad: core=['W', 'S', 'C'] phi=2.000 S_top_coupled=True -> PASS
+
+Named five-node forms: major complex vs coupling-centrality separation (seed 5)
+form                   Φ      core           split   note
+deep_pool_all          3.00   S1S2C1C2       yes     core out-couples rest
+deep_substitutable     2.00   WS1            no      mixed
+relay_chain5           1.00   W              no      mixed
+central_hub5           4.00   ABHCD          n/a     core is all/none (n/a)
+pool_with_spectator5   3.00   WSC1C2         yes     core out-couples rest
+  full separation on testable named forms: 2/4
+
+Random five-node ensemble: 40 draws (form seed 1), trajectory seeds 7000..
+  full separation: 13/39 testable forms = 33.3%
+
+Pooled five-node full-separation fraction (named + ensemble): 15/43 = 34.9%
+  four-node baseline (control, BRIDGE_FOUR.md): 36%
+
+H2 — deep_pool_all worker (node W) coupling rank (Φ=3.00, core=S1S2C1C2, excludes W)
+  worker out-couples the weakest core member in 5/20 seeds; mean worker rank 3.45 (0=top of 5, 4=bottom)
+
+H1 (five-node full-separation fraction is LOWER than the four-node 36% rate, dissociation widens with scale): SUPPORTED
+   five-node 34.9% vs four-node 36% (pooled 15/43 testable forms)
+H2 (the excluded worker is nonetheless among the top-coupled nodes, a relay-style false positive): REFUTED
+   worker out-couples the weakest core member in 5/20 seeds, mean rank 3.45 of 5 — behavior agrees with the structural exclusion

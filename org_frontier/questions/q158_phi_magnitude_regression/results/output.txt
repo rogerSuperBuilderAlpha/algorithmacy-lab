@@ -1,0 +1,21 @@
+CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, mc_phi=2.000, core=('W', 'S', 'C'): PASS
+========================================================================================
+q158 — whole-system CRQA predicting the magnitude of major-complex Φ
+========================================================================================
+pool: n=188 forms with major-complex Φ > 0 (Φ range 0.277–2.000, median 1.000)
+----------------------------------------------------------------------------------------
+  x                           Spearman rho vs Φ     p-value
+  md_recurrence DET           -0.1878               9.87e-03
+  whole-system RR             -0.4011               1.17e-08
+----------------------------------------------------------------------------------------
+  linear fit Φ ~ DET: slope=-2.1036, intercept=3.1632
+  high-Φ residual mean (top quartile)     +0.5280
+  rest residual mean                      -0.4747
+  linear RMSE                             0.5263
+  isotonic (monotone) RMSE                0.5360
+========================================================================================
+H1 summary: Spearman rho(DET, Φ) = -0.1878 <= 0.4 (p=9.87e-03).
+H2 summary: high-Φ residual mean +0.5280 (rest -0.4747); isotonic RMSE 0.5360 >= linear RMSE 0.5263.
+========================================================================================
+H1 DET correlates positively with major-complex Φ (rho>0.4): REFUTED
+H2 the DET-Φ relation saturates (high-Φ underprediction): REFUTED

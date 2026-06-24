@@ -1,0 +1,25 @@
+CONTROL faithful triad triadic Φ=2.0; ring/hub graph stats match hand values: PASS
+
+Ensemble: 160 random Boolean networks (n=4 x120, n=5 x40); triadic 32, dyadic 128.
+
+H1  point-biserial correlation of each graph statistic with the triadic verdict
+    statistic       r vs triadic           p
+    mean_degree            0.431      0.0000
+    clustering             0.253      0.0012
+    diameter              -0.304      0.0001
+    cycle_density          0.501      0.0000
+
+    best separator: cycle_density (|r|=0.501)
+    cycle_density r=+0.501 (p=0.0000); diameter r=-0.304 (p=0.0001); mean_degree r=+0.431 (p=0.0000)
+    recurrence (cycle/diameter) beats mean degree: True
+
+H2  among 32 triadic networks: Φ vs mean in-degree of the core
+    Pearson r(core in-degree, Φ_core) = -0.252  (p=0.1657)
+
+Summary (mean statistic by verdict):
+    group       mean_deg   cluster    diam  cyc_dens  core_indeg   Φ_core
+    dyadic          4.08     0.652    2.14      4.18        2.43    1.294
+    triadic         5.62     0.861    1.47      8.78        2.98    1.875
+
+H1 (recurrence topology beats mean degree at predicting triadicity): SUPPORTED
+H2 (among triadic nets, Φ rises with core in-degree): REFUTED

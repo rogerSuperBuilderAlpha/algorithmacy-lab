@@ -1,0 +1,46 @@
+==============================================================================
+Q202 — does the Φ-bridge survive its falsification battery? (SIMULATED cohorts)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+------------------------------------------------------------------------------
+Cohort: whole-system (2 forms: commit AND / convey)  (N=400)
+  distinct Φ_coord readings: [np.float64(0.0), np.float64(2.0)]
+  distinct edge-density proxy readings: [np.float64(0.333), np.float64(0.444)]
+
+  H1 worker-form-shuffle null (1000 shuffles, seed 0):
+    r(Φ_coord, ACS) real = +0.3825
+    shuffled null: mean = -0.0031, sd = 0.0502, two-sided p = 0.0010
+
+  H2 incremental validity over edge-density proxy (bootstrap 2000, seed 0):
+    r(Φ_coord, proxy) = +1.0000
+    R^2(proxy) = 0.1463   R^2(proxy + Φ_coord) = 0.1463
+    ΔR^2 = +0.0000   95% CI [-0.0000, +0.0000]
+
+------------------------------------------------------------------------------
+Cohort: facet (4 forms: Φ and edge density rank differently)  (N=400)
+  distinct Φ_coord readings: [np.float64(0.0), np.float64(1.0), np.float64(2.0)]
+  distinct edge-density proxy readings: [np.float64(0.333), np.float64(0.444), np.float64(0.556)]
+
+  H1 worker-form-shuffle null (1000 shuffles, seed 0):
+    r(Φ_coord, ACS) real = +0.8283
+    shuffled null: mean = -0.0019, sd = 0.0515, two-sided p = 0.0010
+
+  H2 incremental validity over edge-density proxy (bootstrap 2000, seed 0):
+    r(Φ_coord, proxy) = +0.6636
+    R^2(proxy) = 0.3090   R^2(proxy + Φ_coord) = 0.6862
+    ΔR^2 = +0.3772   95% CI [+0.3179, +0.4390]
+
+==============================================================================
+Falsification battery (across the simulated cohorts):
+  cohort                               r_real  null_mean        p     ΔR^2    CI_lo    CI_hi
+  whole-system (2 forms: commit AND   +0.3825    -0.0031   0.0010  +0.0000  -0.0000  +0.0000
+  facet (4 forms: Φ and edge density  +0.8283    -0.0019   0.0010  +0.3772  +0.3179  +0.4390
+==============================================================================
+
+H1 (worker-form shuffle destroys every Φ_coord-to-ACS relation; real r outside null at p<.05 in all cohorts): SUPPORTED
+   whole-system: r=+0.3825, p=0.0010; facet: r=+0.8283, p=0.0010
+H2 (Φ_coord predicts ACS incrementally over the cheap edge-density proxy; ΔR^2>0, CI excludes 0): SUPPORTED
+   facet (4 forms): ΔR^2=+0.3772, CI=[+0.3179, +0.4390], r(Φ,proxy)=+0.6636
+   whole-system (2 forms, boundary): ΔR^2=+0.0000, r(Φ,proxy)=+1.0000 -> proxy ties Φ where only two forms exist (subsumed)
+==============================================================================

@@ -1,0 +1,17 @@
+CONTROL faithful triad: structure=triadic, max Φ_MIP=2.000000: PASS
+
+Φ_MIP and the major complex (max over reachable states)
+  form            struct        maxΦ   MIP cut         major complex     coreΦ
+  unchorded ring  triadic     4.0000   {ABC,DEF}       ABCDEF           4.0000
+  chord A-D       triadic     4.0000   {BC,ADEF}       ABCDEF           4.0000
+
+Shapley share of subsystem Φ at the all-ones integrating state
+  form                  A      B      C      D      E      F    total
+  unchorded ring    0.667  0.667  0.667  0.667  0.667  0.667    4.000
+  chord A-D         1.100  0.450  0.450  1.100  0.450  0.450    4.000
+
+  chord endpoints ('A', 'D'): 1.334 -> 2.200   far arc ('B', 'C', 'E', 'F'): 2.668 -> 1.800
+
+H1 detail: Φ 4.0000 -> 4.0000 (rose=False); chord endpoints share a part: unchorded=False, chorded=True (cut moved off chord=True)
+H1 chord raises ring Φ and shifts MIP cut off the chord: REFUTED
+H2 chord endpoints gain Shapley value at the expense of the far arc: SUPPORTED

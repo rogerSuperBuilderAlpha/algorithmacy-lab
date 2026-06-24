@@ -1,0 +1,93 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+CONTROL identity merge (re-aggregable split merges back to base TPM, all cases): PASS
+CONTROL known flip (function-changing split of and_triad reads 'dyadic'): PASS
+
+Split census  base verdict vs split verdict for every (account, party, mode)
+  account    k mode       base  base_phi    split  split_phi  flip
+  and_triad  0 reagg   triadic    2.0000  triadic     3.0000     0
+  and_triad  0 fchg    triadic    2.0000   dyadic     0.0000     1
+  and_triad  1 reagg   triadic    2.0000  triadic     4.0000     0
+  and_triad  1 fchg    triadic    2.0000   dyadic     0.0000     1
+  and_triad  2 reagg   triadic    2.0000  triadic     3.0000     0
+  and_triad  2 fchg    triadic    2.0000   dyadic     0.0000     1
+  or_triad   0 reagg   triadic    2.0000   dyadic     0.0000     1
+  or_triad   0 fchg    triadic    2.0000   dyadic     0.0000     1
+  or_triad   1 reagg   triadic    2.0000   dyadic     0.0000     1
+  or_triad   1 fchg    triadic    2.0000   dyadic     0.0000     1
+  or_triad   2 reagg   triadic    2.0000   dyadic     0.0000     1
+  or_triad   2 fchg    triadic    2.0000   dyadic     0.0000     1
+  xor_triad  0 reagg   triadic    0.5000  triadic     0.2500     0
+  xor_triad  0 fchg    triadic    0.5000   dyadic     0.0000     1
+  xor_triad  1 reagg   triadic    0.5000  triadic     1.0000     0
+  xor_triad  1 fchg    triadic    0.5000   dyadic     0.0000     1
+  xor_triad  2 reagg   triadic    0.5000   dyadic     0.0000     1
+  xor_triad  2 fchg    triadic    0.5000   dyadic     0.0000     1
+  chain      0 reagg   triadic    2.0000  triadic     1.0000     0
+  chain      0 fchg    triadic    2.0000   dyadic     0.0000     1
+  chain      1 reagg   triadic    2.0000  triadic     1.0000     0
+  chain      1 fchg    triadic    2.0000   dyadic     0.0000     1
+  chain      2 reagg   triadic    2.0000  triadic     1.0000     0
+  chain      2 fchg    triadic    2.0000   dyadic     0.0000     1
+  and_all    0 reagg   triadic    6.0000  triadic     4.0000     0
+  and_all    0 fchg    triadic    6.0000   dyadic     0.0000     1
+  and_all    1 reagg   triadic    6.0000  triadic     4.0000     0
+  and_all    1 fchg    triadic    6.0000   dyadic     0.0000     1
+  and_all    2 reagg   triadic    6.0000  triadic     4.0000     0
+  and_all    2 fchg    triadic    6.0000   dyadic     0.0000     1
+  dyad_AB    0 reagg    dyadic    0.0000   dyadic     0.0000     0
+  dyad_AB    0 fchg     dyadic    0.0000   dyadic     0.0000     0
+  dyad_AB    1 reagg    dyadic    0.0000   dyadic     0.0000     0
+  dyad_AB    1 fchg     dyadic    0.0000   dyadic     0.0000     0
+  dyad_AB    2 reagg    dyadic    0.0000   dyadic     0.0000     0
+  dyad_AB    2 fchg     dyadic    0.0000   dyadic     0.0000     0
+  self_all   0 reagg    dyadic    0.0000   dyadic     0.0000     0
+  self_all   0 fchg     dyadic    0.0000   dyadic     0.0000     0
+  self_all   1 reagg    dyadic    0.0000   dyadic     0.0000     0
+  self_all   1 fchg     dyadic    0.0000   dyadic     0.0000     0
+  self_all   2 reagg    dyadic    0.0000   dyadic     0.0000     0
+  self_all   2 fchg     dyadic    0.0000   dyadic     0.0000     0
+
+Flip rates
+  all splits:                  19/42 = 0.452
+  re-aggregable, triadic base: 4/15 = 0.267
+  function-changing, tri base: 15/15 = 1.000
+
+Phi CI by split mode (triadic-base cases)  CI crosses 0 means could-be-dyadic
+  account    k mode   phi_point   ci_low  ci_high   alpha crosses0
+  and_triad  0 reagg     3.0000   3.0000   3.0000   1.000    False
+  and_triad  1 reagg     4.0000   4.0000   4.0000   1.000    False
+  and_triad  2 reagg     2.1429   1.5896   2.9253  -0.167    False
+  or_triad   0 reagg     0.0000   0.0000   0.0000  -0.167     True
+  or_triad   1 reagg     0.0000   0.0000   0.0000  -0.167     True
+  or_triad   2 reagg     0.0000   0.0000   0.0000  -0.167     True
+  xor_triad  0 reagg     0.1786   0.1325   0.2857  -0.167    False
+  xor_triad  1 reagg     0.5714   0.1674   0.8844  -0.167    False
+  xor_triad  2 reagg     0.0000   0.0000   0.0000  -0.167     True
+  chain      0 reagg     0.8571   0.8571   1.0592  -0.167    False
+  chain      1 reagg     0.7143   0.5299   0.9751  -0.167    False
+  chain      2 reagg     0.7143   0.5299   0.9751  -0.167    False
+  and_all    0 reagg     2.8571   2.1194   3.9172  -0.167    False
+  and_all    1 reagg     2.2857   0.6695   3.5377  -0.167    False
+  and_all    2 reagg     1.7143  -0.7101   3.3305  -0.167     True
+  and_triad  0 fchg      0.0000   0.0000   0.0000   1.000     True
+  and_triad  1 fchg      0.0000   0.0000   0.0000   1.000     True
+  and_triad  2 fchg      0.4286  -0.1775   0.4286  -0.167     True
+  or_triad   0 fchg      0.0000   0.0000   0.0000  -0.167     True
+  or_triad   1 fchg      0.0000   0.0000   0.0000  -0.167     True
+  or_triad   2 fchg      0.0000   0.0000   0.0000  -0.167     True
+  xor_triad  0 fchg      0.0714   0.0062   0.1175  -0.167    False
+  xor_triad  1 fchg      0.1429  -0.0592   0.1429  -0.167     True
+  xor_triad  2 fchg      0.0000   0.0000   0.0000  -0.167     True
+  chain      0 fchg      0.4286  -0.1775   0.8326  -0.167     True
+  chain      1 fchg      0.0000   0.0000   0.0000   1.000     True
+  chain      2 fchg      0.2857  -0.1429   0.4701  -0.167     True
+  and_all    0 fchg      1.7143  -0.7101   3.3305  -0.167     True
+  and_all    1 fchg      0.5714  -0.2367   0.5714  -0.167     True
+  and_all    2 fchg      2.2857   0.6695   3.5670  -0.167    False
+
+CI crosses 0
+  function-changing splits: 13/15 = 0.867
+  re-aggregable splits:     5/15 = 0.333
+
+H1 splitting flips the verdict for >20% of accounts (flip rate 0.452): SUPPORTED
+H2 CI separates function-changing from re-aggregable splits (fchg crosses 0 0.867 > 0.90, reagg 0.333 lower; fchg flip 1.000 > reagg flip 0.267): REFUTED

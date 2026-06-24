@@ -1,0 +1,63 @@
+CONTROL faithful triad reads triadic max_phi=2.0; idle spectator sinks whole-system to 0 with core (W,S,C)=2.0 intact; active party enters core; self-loop not idle: PASS
+
+Per-account whole-system verdict vs major complex, with idle spectator injected
+account       spec    base        bΦ  +spec       sΦ  core0    Φ0  core+sp   Φsp  stable
+--------------------------------------------------------------------------------------------
+AND/id/id     const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+AND/id/id     const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+AND/id/not    const0  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+AND/id/not    const1  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+AND/not/id    const0  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+AND/not/id    const1  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+AND/not/not   const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+AND/not/not   const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+OR/id/id      const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+OR/id/id      const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+OR/id/not     const0  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+OR/id/not     const1  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+OR/not/id     const0  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+OR/not/id     const1  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+OR/not/not    const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+OR/not/not    const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+XOR/id/id     const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/id/id     const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/id/not    const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/id/not    const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/not/id    const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/not/id    const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/not/not   const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XOR/not/not   const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+NAND/id/id    const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NAND/id/id    const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NAND/id/not   const0  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+NAND/id/not   const1  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+NAND/not/id   const0  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+NAND/not/id   const1  dyadic   0.000  dyadic   0.000  SC    2.000  SC      2.000  yes   
+NAND/not/not  const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NAND/not/not  const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NOR/id/id     const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NOR/id/id     const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NOR/id/not    const0  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+NOR/id/not    const1  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+NOR/not/id    const0  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+NOR/not/id    const1  dyadic   0.000  dyadic   0.000  WS    2.000  WS      2.000  yes   
+NOR/not/not   const0  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+NOR/not/not   const1  triadic  2.000  dyadic   0.000  WSC   2.000  WSC     2.000  yes   
+XNOR/id/id    const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/id/id    const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/id/not   const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/id/not   const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/not/id   const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/not/id   const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/not/not  const0  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+XNOR/not/not  const1  triadic  0.500  dyadic   0.000  WSC   0.500  WSC     0.500  yes   
+
+Summary
+  (account, spectator) pairs            : 48
+  triadic-core accounts (over pairs)    : 32
+  core stable (orig W,S,C core, same Φ) : 32/32 = 1.000
+  whole-system verdict disagrees        : 32/48 = 0.667
+  core-aware verdict disagrees          : 0/48 = 0.000
+
+H1 (idle spectator leaves the triadic core intact in >95% of accounts): SUPPORTED (core stable in 1.000 of triadic-core accounts)
+H2 (core-aware verdict agrees in 100%, whole-system disagrees in >50%): SUPPORTED (core-aware disagree 0.000; whole-system disagree 0.667)

@@ -1,0 +1,19 @@
+CONTROL specific reads 'triadic' max_phi=2.000000; unanimous-pool CI collapses to [0.000000,0.000000]: PASS
+
+H1 substitutable pool re-encoding vs verdict
+  reading                   k  structure  max_phi
+  specific (S = W & R)      1  triadic    2.000000
+  pooled (S = OR(D) & R)    2  dyadic     0.000000
+  pooled (S = OR(D) & R)    3  dyadic     0.000000
+  pooled (S = OR(D) & R)    4  dyadic     0.000000
+
+H2 contested-reading interval (synthetic coder panels)
+  specific-reading Φ        : 2.000000
+  coder panels drawn        : 600
+  contested forms           : 597
+  coders per panel          : 12
+  interval spans [0, Φ_spec]: 582
+  span fraction             : 0.9749  (support threshold > 0.90)
+
+H1 substitutable pool drives max_phi to 0 (dyadic) for all k>=2: SUPPORTED
+H2 contested-reading interval spans [0, specific Φ] in >90% of forms: SUPPORTED

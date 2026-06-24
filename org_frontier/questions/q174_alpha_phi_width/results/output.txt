@@ -1,0 +1,19 @@
+PROBE q174 — propagated Φ-CI width vs coder disagreement (1 - alpha)
+==============================================================================
+CONTROL faithful triad: structure=triadic max_phi=2.0000 | alpha=1 width=0.000000 (degenerate) | invariant width=1.1339 ci_low=1.9331 (>0, no zero-cross) ... PASS
+==============================================================================
+f_disagree |  alpha_A  width_A  cross_A ||  alpha_B  width_B  cross_B
+------------------------------------------------------------------------------
+      0.00 |    1.000   0.0000     0.00 ||    1.000   0.0000     0.00
+      0.05 |    0.904   0.0000     0.00 ||    0.904   0.0000     0.00
+      0.10 |    0.863   0.3416     0.00 ||    0.863   0.3416     0.00
+      0.15 |    0.768   0.3416     0.00 ||    0.768   0.3416     0.00
+      0.20 |    0.738   0.9209     0.00 ||    0.738   0.9189     0.00
+      0.25 |    0.642   0.9981     0.00 ||    0.642   0.8416     0.00
+      0.35 |    0.528   1.5705     0.00 ||    0.528   1.5705     0.00
+      0.50 |    0.329   2.2678     1.00 ||    0.329   2.0823     1.00
+==============================================================================
+H1  Spearman rho(alpha, CI width) = -0.9880, p = 4.26e-06 (target rho<=-0.9, p<0.01)
+H1 monotone CI width tracks agreement: SUPPORTED
+H2  alpha*_A = 0.329, alpha*_B = 0.329, |diff| = 0.000 (target <= 0.10)
+H2 stable agreement threshold for indeterminacy: CONFIRMED

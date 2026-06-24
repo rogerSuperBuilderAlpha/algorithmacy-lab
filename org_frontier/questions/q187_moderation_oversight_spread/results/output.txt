@@ -1,0 +1,23 @@
+CONTROL faithful triad: structure=triadic max_phi=2.0000 -> PASS
+
+PER-ACCOUNT VERDICTS
+account                 structure   max_phi   core        
+poster (spectator, T out)triadic     2.0000    {P,S}       
+system (oversight, T in)triadic     2.0000    {P,S,T}     
+control A (T external)  triadic     2.0000    {P,S}       
+control B (T external)  triadic     2.0000    {P,S}       
+
+SPREAD
+pair                        verdict_agree  phi_gap   core_jaccard  disputed  
+treatment (poster|system)   1              0.0000    0.6667        {T}       
+control (ext|ext)           1              0.0000    1.0000        {}        
+signed phi_gap (oversight - spectator) = +0.0000
+
+PER-NODE CORE-DIVERGENCE ATTRIBUTION (treatment)
+node  in poster-core  in system-core  disputed  
+P     True            True            False     
+S     True            True            False     
+T     False           True            True      
+
+H1 disagreement localizes to the policy-team node: SUPPORTED
+H2 oversight account has strictly higher Phi: REFUTED (H2-null holds: equal Phi, core membership changes without changing integration)

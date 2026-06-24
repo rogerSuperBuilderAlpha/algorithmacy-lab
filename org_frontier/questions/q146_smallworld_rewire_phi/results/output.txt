@@ -1,0 +1,41 @@
+PROBE Q146 — small-world rewiring and Φ (conjunctive ring, n=6)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic max_phi=2.000000 (expect triadic / 2.0) ... PASS
+
+per-network results (Watts-Strogatz endpoint rewiring of a conjunctive ring):
+------------------------------------------------------------------------------
+    p   seed  verdict    maxΦ_MIP  core_size  core_Φ   core
+  0.00    0   triadic     4.0000      6       4.0000  {N0,N1,N2,N3,N4,N5}
+  0.10    0   triadic     4.0000      6       4.0000  {N0,N1,N2,N3,N4,N5}
+  0.10    1   triadic     1.0000      2       2.0000  {N4,N5}
+  0.10    2   triadic     4.0000      6       4.0000  {N0,N1,N2,N3,N4,N5}
+  0.25    0   triadic     4.0000      6       4.0000  {N0,N1,N2,N3,N4,N5}
+  0.25    1   triadic     1.4150      5       3.0000  {N0,N1,N3,N4,N5}
+  0.25    2   triadic     1.0000      2       2.0000  {N2,N3}
+  0.50    0   dyadic      0.0000      2       2.0000  {N2,N3}
+  0.50    1   triadic     1.0000      3       2.0000  {N2,N3,N5}
+  0.50    2   triadic     1.0000      5       3.0000  {N0,N1,N2,N4,N5}
+  1.00    0   triadic     1.4150      2       2.0000  {N2,N4}
+  1.00    1   dyadic      0.0000      2       2.0000  {N2,N4}
+  1.00    2   dyadic      0.0000      2       2.0000  {N3,N5}
+
+mean max-Φ_MIP by rewiring probability p:
+------------------------------------------------------------------------------
+     p    n_seeds   mean_maxΦ_MIP
+   0.00      1            4.0000
+   0.10      3            3.0000
+   0.25      3            2.1383
+   0.50      3            0.6667
+   1.00      3            0.4717
+
+H1 — non-monotone small-world peak in Φ:
+    ring (p=0) mean max-Φ_MIP     = 4.0000
+    random (p=1) mean max-Φ_MIP   = 0.4717
+    interior peak at p=0.10       = 3.0000
+    peak exceeds BOTH ring and random: False
+H1 non-monotone small-world Φ peak: REFUTED
+
+H2 — verdict holds triadic across the whole sweep:
+    every evaluated network triadic: False
+    distinct major-complex cores observed: 8 (core churn)
+H2 verdict stays triadic under rewiring: REFUTED

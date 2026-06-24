@@ -1,0 +1,22 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+CONSENSUS control  both parties narrate the same commit account
+  verdict_agreement = 1
+  phi_gap           = 0.000000
+  core_jaccard      = 1.000000
+  both_verdicts     = ('triadic', 'triadic')
+  consensus gives zero spread: True
+
+Gig dispatch  driver suggestion account (A) vs platform commit account (B)
+account                  structure     max_phi   core
+A=driver suggestion         dyadic    0.000000   ['D', 'P']
+B=platform commit          triadic    2.000000   ['D', 'P', 'R']
+
+Spread
+  verdict_agreement = 0
+  phi_gap           = 2.000000
+  core_jaccard      = 0.666667
+  both_verdicts     = ('dyadic', 'triadic')
+
+H1 driver-dyad vs platform-triad split, phi_gap = platform Φ (2.000000): SUPPORTED
+H2 rider bound in the platform core but not the driver core (core_jaccard<1): SUPPORTED

@@ -1,0 +1,23 @@
+==============================================================================
+Q193 — per-worker Φ_coord vs the latent algorithmacy construct (SIMULATED cohort)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Bridge map — the two W-S-C forms a worker can map to:
+  commit S'=W AND C : triadic   Φ_coord=2.000000
+  convey S'=W       : dyadic    Φ_coord=0.000000
+
+Cohort: N=300; bridge cohort has 49 irreducible (commit) forms, 251 factorizable (convey) forms.
+  control cohort irreducible forms: 0 (0 by construction).
+
+------------------------------------------------------------------------------
+cohort      Φ_coord range     r(Φ_coord, ACS-total)     95% CI                
+------------------------------------------------------------------------------
+bridge      [0.00, 2.00]      +0.4234                   [+0.3257, +0.5121]
+control     [0.00, 0.00]      +0.0000                   [+0.0000, +0.0000]
+------------------------------------------------------------------------------
+
+H1 (Φ_coord predicts ACS-total, r>0.20 & CI excludes 0): SUPPORTED
+   bridge r=+0.4234, CI=[+0.3257, +0.5121]
+H2 (control association vanishes, |r|<0.10, bridge survives): CONFIRMED
+   control r=+0.0000 (|r|=0.0000); bridge r=+0.4234

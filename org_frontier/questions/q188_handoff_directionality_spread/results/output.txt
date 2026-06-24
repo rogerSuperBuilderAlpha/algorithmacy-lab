@@ -1,0 +1,21 @@
+CONTROL faithful-triad triadic @ max_phi 2.000000; zero-back-channel gap 0.000000: PASS
+
+H1  two accounts of one handoff (one-way vs reciprocal)
+  account                 verdict   core          
+  A one-way (outgoing)    dyadic    ('O',)        
+  B reciprocal (incoming) triadic   ('I', 'R')    
+  verdict_agreement = 0   phi_gap = 2.000000   core_jaccard = 0.000000
+  incoming clinician I in core:  one-way=False   reciprocal=True
+
+H2  phi_gap vs back-channel strength beta (one-way held at phi=0)
+  beta    phi_recip     phi_gap     
+  0.00    0.000000      0.000000    
+  0.20    0.152003      0.152003    
+  0.40    0.321928      0.321928    
+  0.60    0.514573      0.514573    
+  0.80    0.736966      0.736966    
+  1.00    2.000000      2.000000    
+  strictly increasing in beta: True  (min step 0.152003)
+
+H1 one-way dyadic / reciprocal triadic, I in core only under reciprocal: SUPPORTED
+H2 phi_gap monotone increasing in back-channel strength: CONFIRMED
