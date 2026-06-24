@@ -1,0 +1,33 @@
+==============================================================================
+Q144  mediator hierarchy: does Φ track depth (chain, flat) or breadth (pool, grow)?
+==============================================================================
+CONTROL faithful triad -> structure=triadic max_phi=2.000 (expect triadic 2.0): PASS
+
+Base-triad Shapley split of Φ at the integrating state: {'W': 0.333, 'S': 1.333, 'C': 0.333}  (total Φ = 2.0)
+
+DEPTH AXIS (H1): one leaf, b=1, mediator layers between leaf and apex grow
+   d   n              core      phi
+   1   2        ('A', 'B')    2.000
+   2   3   ('A', 'B', 'C')    2.000
+   3   4  ('A', 'B', 'C', 'D')    2.000
+   4   5  ('A', 'B', 'C', 'D', 'E')    2.000
+
+BREADTH AXIS (H2): one mediator layer, d=1, leaves per apex grow
+   b   n              core      phi
+   2   3   ('A', 'B', 'C')    2.000
+   3   4  ('A', 'B', 'C', 'D')    3.000
+   4   5  ('A', 'B', 'C', 'D', 'E')    4.000
+
+BASELINES (scaling-zoo laws):
+            form   n      phi             predicted
+           chain   3    2.000          2 (constant)
+           chain   4    2.000          2 (constant)
+           chain   5    2.000          2 (constant)
+            pool   3    1.500              n(n-1)=6
+            pool   4    4.000             n(n-1)=12
+            pool   5    2.500             n(n-1)=20
+
+DEPTH Φ across d=1..4: [2.0, 2.0, 2.0, 2.0]  (flat=True, at chain-constant 2.0=True)
+H1 depth-is-flat-at-chain-constant: SUPPORTED
+BREADTH Φ across b=2,3,4: [2.0, 3.0, 4.0]  (increasing=True, 2nd-diff=+0.000)
+H2 breadth-grows-toward-pool: SUPPORTED (linear, not super-linear)
