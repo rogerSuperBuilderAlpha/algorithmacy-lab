@@ -1,0 +1,26 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+Unread supervisor  agent party account (A) vs system spectator account (B)
+account                      structure     max_phi   core
+A=agent party                   dyadic    0.000000   ['A', 'C']
+B=system spectator              dyadic    0.000000   ['A', 'C']
+Spread (unread)
+  verdict_agreement = 1
+  phi_gap           = 0.000000
+  core_jaccard      = 1.000000
+  both_verdicts     = ('dyadic', 'dyadic')
+  supervisor in core: A=False  B=False
+
+Back-edge  one node now reads the supervisor (Customer reads S)
+account                      structure     max_phi   core
+A=agent party                  triadic    2.000000   ['A', 'C', 'S']
+B=system spectator             triadic    2.000000   ['A', 'C', 'S']
+Spread (back-edge)
+  verdict_agreement = 1
+  phi_gap           = 0.000000
+  core_jaccard      = 1.000000
+  both_verdicts     = ('triadic', 'triadic')
+  supervisor in core: A=True  B=True
+
+H1 unread spectator leaves no Φ trace (spread=0 despite membership disagreement): SUPPORTED
+H2 one back-edge binds the supervisor jointly in-core, accounts agree (verdict_agreement=1, core_jaccard=1): CONFIRMED

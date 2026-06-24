@@ -1,0 +1,27 @@
+==============================================================================
+Q195 — Φ_coord incremental over self-efficacy and belonging (SIMULATED cohort)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Cohort: N=400; 53 irreducible (commit) forms, 347 factorizable (convey) forms; Φ_coord in [0.00, 2.00].
+
+Zero-order correlations (Pearson r):
+  r(Φ_coord, ACS) = +0.4044   r(Φ_coord, SE) = +0.1034   r(Φ_coord, BE) = +0.0236
+  r(SE, ACS)      = +0.4503   r(BE, ACS)      = +0.1456   (SE is generic competence: correlated with ACS)
+
+------------------------------------------------------------------------------
+Hierarchical regression of ACS-total:
+  block 1  SE + BE            : R^2 = 0.2069
+  block 2  SE + BE + Φ_coord  : R^2 = 0.3361   ΔR^2 = +0.1293
+  partial r(Φ_coord, ACS | SE, BE) = +0.4037   95% CI [+0.3180, +0.4828]
+------------------------------------------------------------------------------
+
+Discriminant test  Δ = r(Φ, ACS) - r(Φ, SE)  (bootstrap, 5000 resamples, seed 0):
+  r(Φ, ACS) = +0.4044   r(Φ, SE) = +0.1034   Δ = +0.3011   95% CI [+0.2029, +0.3935]
+
+==============================================================================
+H1 (partial r(Φ,ACS|SE,BE) > 0.15 & CI excludes 0): SUPPORTED
+   partial r = +0.4037, CI = [+0.3180, +0.4828]; ΔR^2 = +0.1293
+H2 (r(Φ,ACS) > r(Φ,SE), Δ CI excludes 0): SUPPORTED
+   Δ = +0.3011, CI = [+0.2029, +0.3935]
+==============================================================================

@@ -1,0 +1,37 @@
+==============================================================================
+Q196 — Φ_coord × commit moderation on ACS-total (SIMULATED cohort)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Bridge map — S-rule strength scales with reported commit:
+  commit S'=W AND C : triadic   Φ_coord=2.000000
+  convey S'=W       : dyadic    Φ_coord=0.000000
+
+Cohorts: N=600 per arm.
+  commit arm:  84 irreducible (commit) forms, 516 convey forms; Φ_coord range [0.00, 2.00]
+  convey arm:  0 irreducible forms (0 by construction); Φ_coord range [0.00, 0.00]
+
+------------------------------------------------------------------------------
+Moderated OLS (commit cohort):  ACS-total ~ 1 + Φ_coord + SA(z) + Φ_coord×SA
+------------------------------------------------------------------------------
+term                    coef        SE                    95% CI
+intercept            -0.2094    0.0321   [-0.2724, -0.1465]
+Φ_coord              +0.1002    0.0964   [-0.0889, +0.2892]
+SA(z)                +0.2131    0.0352   [+0.1441, +0.2821]
+Φ_coord×SA           +0.5006    0.0694   [+0.3646, +0.6365]
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+cohort             Φ-ACS slope      Φ variance
+------------------------------------------------------------------------------
+commit                 +0.9084          0.4816
+convey                 +0.0000          0.0000
+------------------------------------------------------------------------------
+slope difference (commit - convey) = +0.9084  bootstrap 95% CI [+0.7997, +1.0194]
+
+==============================================================================
+H1 (Φ_coord×SA-commit interaction on ACS-total is positive, CI excludes 0): SUPPORTED
+   interaction coef=+0.5006, CI=[+0.3646, +0.6365]
+H2 (commit Φ-ACS slope positive, convey slope flat, slope diff CI excludes 0): CONFIRMED
+   commit slope=+0.9084, convey slope=+0.0000, diff CI=[+0.7997, +1.0194]
+==============================================================================

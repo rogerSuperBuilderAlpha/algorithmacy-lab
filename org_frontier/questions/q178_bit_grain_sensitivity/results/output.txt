@@ -1,0 +1,24 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+CONTROL monotone accounts (g in {0,2}) are threshold-invariant: PASS
+
+Per-grade verdict by threshold
+ grade   t=1 verdict    t=1 Φ   t=2 verdict    t=2 Φ  flips
+     0        dyadic    0.000        dyadic    0.000  False
+     1       triadic    2.000        dyadic    0.000   True
+     2       triadic    2.000       triadic    2.000  False
+
+H1  threshold-induced verdict flips over the account panel
+  accounts                 = 200
+  threshold-sensitive grade(s) = [1]
+  accounts that flip       = 66
+  flip rate                = 0.3300
+
+H2  CI width: split-threshold coders vs same-threshold coders (g=1 account, 8 coders)
+panel                      point Φ   alpha                      CI     width
+split (t=1 / t=2)           0.9928  -0.143       [-0.1405, 2.1064]    2.2469
+same (all t=1)              1.9942   1.000        [1.9576, 2.0048]    0.0472
+  width ratio (split / same) = 47.6080
+
+H1 threshold flips verdict for >20% of accounts (flip rate 0.3300): SUPPORTED
+H2 split-threshold CI width exceeds same-threshold width by >2x (ratio 47.6080): SUPPORTED

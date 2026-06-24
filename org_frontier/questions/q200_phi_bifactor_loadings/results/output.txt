@@ -1,0 +1,32 @@
+================================================================================
+Q200 — does Φ_coord load on the GENERAL algorithmacy factor, not a facet? (SIMULATED W2)
+================================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Bridge map — the two W-S-C forms a worker can map to:
+  commit S'=W AND C : triadic   Φ_coord=2.000000
+  convey S'=W       : dyadic    Φ_coord=0.000000
+
+Cohort: N=400; 51 irreducible (commit) forms, 349 factorizable (convey); 9 ACS items (3 per facet CI/SC/RT).
+
+--------------------------------------------------------------------------------
+Φ_coord path target       β (std)     95% CI                  Δ vs g (β_g−β)    
+--------------------------------------------------------------------------------
+GENERAL g                 +0.4610     [+0.3738, +0.5481]
+specific CI               +0.0568     [-0.0413, +0.1549]   +0.4029 [+0.2874, +0.5146]
+specific SC               +0.0430     [-0.0551, +0.1412]   +0.4167 [+0.2987, +0.5301]
+specific RT               -0.0966     [-0.1943, +0.0012]   +0.5565 [+0.4364, +0.6743]
+--------------------------------------------------------------------------------
+
+Model fit (CFI on the augmented 9-item + Φ covariance):
+  Φ→g  model (Φ routed to the general factor):  CFI=0.9917  (discrepancy 0.2128)
+  Φ→SC model (Φ routed to the SC specific):     CFI=0.9006  (discrepancy 2.5469)
+  ΔCFI (Φ→g minus Φ→SC) = +0.0911   (null-model discrepancy 25.6179)
+
+  general-factor path positive & CI excludes 0: True
+  general path exceeds each specific path (all Δ CI exclude 0): True
+
+H1 (Φ_coord loads on the GENERAL factor, β>0 & CI excludes 0, and the general path exceeds each specific-facet path): SUPPORTED
+   β_g=+0.4610 CI=[+0.3738, +0.5481]; facet βs CI=+0.0568, SC=+0.0430, RT=-0.0966
+H2 (the Φ→general model fits better than the Φ→SC-specific model by ΔCFI ≥ .01): SUPPORTED
+   ΔCFI=+0.0911 (Φ→g CFI=0.9917, Φ→SC CFI=0.9006)

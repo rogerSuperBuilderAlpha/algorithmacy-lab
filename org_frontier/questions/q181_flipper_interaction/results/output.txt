@@ -1,0 +1,20 @@
+CONTROL no-flipper triad triadic@2.0, double-flipper dyadic@0.0, spectator-only keeps major complex (W,S,C)@2.0 ... PASS
+
+H1  2x2 flipper grid (substitutability x pass-through), pool size k=2
+    flippers            k  system  structure  max_phi
+    none                1  commit  triadic    2.000000
+    substitutability    2  commit  dyadic     0.000000
+    pass-through        1   relay  dyadic     0.000000
+    both                2   relay  dyadic     0.000000
+
+H2  contested-case CI composition (coders split on each flipper independently)
+    panel             ci_low   ci_high     width   alpha
+    substitut.        0.4090    1.3391    0.9301   0.386
+    pass-through      0.9778    1.7945    0.8167   0.106
+    joint             0.4763    1.2821    0.8058  -0.043
+    union of singles: [0.4090, 1.7945]  width 1.3855
+    joint width 0.8058  vs union width 1.3855  relative gap -0.418
+
+H1 flippers do not interact to restore irreducibility (no triadic re-emergence): SUPPORTED
+H2 flipper disagreements compose (joint CI = union to within 10% width): NOT SUPPORTED
+   joint vs union relative gap -0.418: disagreements contract (joint is 41.8% narrower than the union); the amplification null also fails.

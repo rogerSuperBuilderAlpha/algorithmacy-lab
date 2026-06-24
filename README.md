@@ -256,12 +256,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (131)
+### Questions — the logbook (152)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 131 questions</summary>
+<summary>Browse all 152 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -388,14 +388,35 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q171](org_frontier/questions/q171_drift_binding_with_agenda/paper.md) | Drift Binding with an Agenda: Whether the Two Opacities Stack | The two opacities do not stack. Both hypotheses about how drift and interest combine were fixed before |
 | [Q172](org_frontier/questions/q172_facet_difficulty_under_interest/paper.md) | Where interest concentrates: a facet signature, not a uniform tax | Interest does not tax every facet equally, and it does not tax the facets the survey scale names |
 | [Q173](org_frontier/questions/q173_build_rule_to_phi/paper.md) | A rule-to-Φ field bridge with a coder-disagreement confidence interval | The field bridge `org_frontier/field/rule_to_phi.py` encodes per-party coded determination rules |
+| [Q174](org_frontier/questions/q174_alpha_phi_width/paper.md) | Propagated Φ confidence-interval width as a read of coder disagreement | CI width tracks coder agreement, and a stable agreement floor turns the verdict indeterminate |
+| [Q175](org_frontier/questions/q175_substitutability_flipper/paper.md) | The substitutability flipper: coding a worker as interchangeable dissolves the triad | Coding the worker as one slot in an interchangeable pool flips the exact-Φ verdict from triadic to |
+| [Q176](org_frontier/questions/q176_passthrough_flipper/paper.md) | The pass-through flip and the rule the verdict is most sensitive to | The pass-through flip does not universally collapse the verdict, and the system's |
+| [Q177](org_frontier/questions/q177_spectator_complex/paper.md) | Idle spectators sink whole-system Φ; the major complex keeps the triadic core | an idle spectator sinks whole-system Φ but leaves the major complex untouched |
+| [Q178](org_frontier/questions/q178_bit_grain_sensitivity/paper.md) | The Bit Cut on a Graded Action Is Verdict-Bearing | Collapsing a graded coded action to one bit at different cut points changes the structural Φ |
+| [Q179](org_frontier/questions/q179_time_grain_sensitivity/paper.md) | The update time-grain is a coding choice that moves the Φ verdict | the update time-grain changes the verdict, and the flip is predictable |
+| [Q180](org_frontier/questions/q180_individuation_boundary/paper.md) | Individuation and the Party Boundary | Where the coder draws the party boundary moves the Phi verdict. Splitting a coded party flips the |
+| [Q181](org_frontier/questions/q181_flipper_interaction/paper.md) | Two flippers at once: redundancy, not interaction | The two flippers do not interact to restore irreducibility, and their coding |
+| [Q182](org_frontier/questions/q182_adversarial_coding/paper.md) | Adversarial coding against the agreement-weighted Φ confidence interval | An adversary restricted to evidence-permitted readings forces the point verdict at will, and the |
 | [Q183](org_frontier/questions/q183_build_disagreement_bridge/paper.md) | A Φ-spread bridge for two divergent party accounts of one coordination | The bridge module `org_frontier/qualitative/disagreement_phi.py` reads two party accounts of one |
 | [Q184](org_frontier/questions/q184_gig_dispatch_spread/paper.md) | Φ spread between a driver's suggestion and a platform's commit account of dispatch | The driver and the platform give two accounts of one dispatch. The driver's suggestion account |
 | [Q185](org_frontier/questions/q185_ats_commit_convey_spread/paper.md) | Commit and convey on one wiring diagram: a disagreement-Φ spread in algorithmic hiring | The disagreement-Φ spread separates the candidate's commit account from the manager's convey |
 | [Q186](org_frontier/questions/q186_spread_decomposition_law/paper.md) | Three spread components vary independently across an account-pair census | The three spread components carry separate information across the synthetic census. They do not |
 | [Q187](org_frontier/questions/q187_moderation_oversight_spread/paper.md) | Where Two Accounts of a Takedown Disagree: Localizing the Policy Team in the Phi Spread | Two accounts of one takedown coordination, differing only in the policy team's rule, were |
 | [Q188](org_frontier/questions/q188_handoff_directionality_spread/paper.md) | Handoff Directionality Spread: When Narrated Reciprocity Moves the Phi Verdict | The two narrations of one handoff read as different structures. The outgoing clinician's one-way |
+| [Q189](org_frontier/questions/q189_peer_review_veto_spread/paper.md) | The Editor's Core Membership in Dispute: A Gate/Conduit Spread | The gate and conduit accounts read the same whole-system verdict (both triadic, max_phi = 2.0, |
 | [Q190](org_frontier/questions/q190_spread_robustness_noise/paper.md) | Is the disagreement-Φ spread robust to elicitation noise? | The disagreement-Φ spread survives synthetic elicitation noise. Under bounded Bernoulli jitter on |
+| [Q191](org_frontier/questions/q191_triage_spectator_spread/paper.md) | Φ spread between an agent's party account and a system's spectator account of a triage | An agent and a system give two accounts of one triage. The agent counts a monitoring supervisor a |
+| [Q192](org_frontier/questions/q192_spread_reconciliation_cost/paper.md) | Reconciliation cost: edit distance between two accounts and the Φ spread | Two accounts of one coordination are reconciled by single-rule edits. The reconcile routine runs |
 | [Q193](org_frontier/questions/q193_phi_bridge_build/paper.md) | A per-worker Φ coordination measure for the algorithmacy panel | A per-worker Φ-based coordination measure can be derived from each simulated worker's coordination form, |
+| [Q194](org_frontier/questions/q194_phi_facet_specificity/paper.md) | Facet specificity: a partition-restricted Φ for counterpart inference | The exact-Φ coordination measure predicts the three ACS facets differentially, and a |
+| [Q195](org_frontier/questions/q195_phi_incremental_over_se/paper.md) | Discriminant validity of the Φ bridge: incremental association over self-efficacy and belonging | On the simulated cohort Φ_coord carries association with ACS-total that survives controlling for |
+| [Q196](org_frontier/questions/q196_phi_commit_moderation/paper.md) | Φ_coord predicts algorithmacy more where the system commits | The Φ_coord-to-ACS association strengthens under perceived system commitment. In the commit cohort, |
+| [Q197](org_frontier/questions/q197_phi_invariance_waves/paper.md) | Invariance of the Φ_coord-to-ACS bridge across panel waves | The Φ_coord-to-ACS bridge holds metric and scalar invariance across the three simulated panel waves. A |
+| [Q198](org_frontier/questions/q198_phi_predicts_growth/paper.md) | Baseline Φ_coord predicts the algorithmacy growth slope in the simulated panel | On the simulated panel, a worker's baseline (W1) Φ_coord predicts the individual latent ACS-growth slope |
+| [Q199](org_frontier/questions/q199_phi_growth_mechanism/paper.md) | Φ_coord moves with the construct within a person across waves | On the simulated panel, within-person change in Φ_coord tracks within-person change in algorithmacy. A |
+| [Q200](org_frontier/questions/q200_phi_bifactor_loadings/paper.md) | Φ_coord loads on the general algorithmacy factor, not a specific facet | On the simulated W2 cohort, Φ_coord loads on the general algorithmacy factor, not on a specific facet |
+| [Q201](org_frontier/questions/q201_phi_substitutability_capture/paper.md) | substitutability degrades Φ_coord and captures algorithmacy | Substitutability degrades Φ_coord, and the degraded Φ_coord captures the substitutability-to- |
+| [Q202](org_frontier/questions/q202_phi_bridge_falsification/paper.md) | Does the Φ-bridge survive its own falsification battery? | The Φ-bridge survives the worker-form-shuffle null in both simulated cohorts, and exact Φ adds |
 
 </details>
 
