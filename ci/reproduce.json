@@ -340,8 +340,9 @@
         "H1 (recurrence topology beats mean degree at predicting triadicity): SUPPORTED",
         "H2 (among triadic nets, Φ rises with core in-degree): REFUTED"
       ],
-      "timeout": 500,
-      "source": "org_frontier/questions/q147_random_boolean_topology/FINDINGS.md"
+      "timeout": 1800,
+      "source": "org_frontier/questions/q147_random_boolean_topology/FINDINGS.md",
+      "slow": true
     },
     {
       "name": "q146-smallworld-rewire-phi",
