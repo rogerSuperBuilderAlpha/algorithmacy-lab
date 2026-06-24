@@ -1,0 +1,20 @@
+PROBE 290 (Q135) — the objective's rent: what the system's agenda captures when it joins the core
+============================================================================================
+  CONTROL faithful triad: mediator 1.333 of Φ=2.000 (two-thirds)  PASS
+
+  objective adaptation | Φ | core | Shapley W/S/C/O | O-share | S-share | parties
+  ---------------------+---+------+-----------------+---------+---------+--------
+  frozen (O'=O)        | 0.0 |      | -0.08/-0.08/-0.08/0.25 |     0%  |     0%  | -0.17
+  AND (O'=W&C)         | 1.0 |      | -0.08/0.58/-0.08/0.58 |    58%  |    58%  | -0.17
+  OR (O'=W|C)          | 1.0 |      | -0.08/0.58/-0.08/0.58 |    58%  |    58%  | -0.17
+  XOR (O'=W^C)         | 0.5 |      | 0.12/0.12/0.12/0.12 |    25%  |    25%  | +0.25
+
+============================================================================================
+  H1 (the adaptive objective captures positive value — a claimant, not a passive goal): SUPPORTED
+  REFINED (the objective captures exactly what the system does — a co-equal rentier): CONFIRMED
+  REFINED (the parties' value tracks displacement — negative under AND/OR, positive under XOR): CONFIRMED
+  Reading: the system's own agenda is a rentier on a par with the system — O-share = S-share in
+  every adaptive form. Whether the human parties keep anything tracks Q129's displacement: under
+  the conjunctive/disjunctive objective, which displaces a party from the core, the parties take
+  negative value; under the parity objective, which keeps all four bound, they take an equal share.
+============================================================================================
