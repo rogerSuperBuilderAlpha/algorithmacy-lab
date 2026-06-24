@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q133-deny-symmetry",
+      "cmd": "python -m org_frontier.questions.q133_deny_symmetry.probe_deny_symmetry",
+      "expect": [
+        "CONTROL faithful AND: total Φ=2.000, mediator share 66.6%  PASS",
+        "H1 (deny: XNOR re-integrates and extracts, mirroring XOR-under-approve): SUPPORTED  (extraction on: ['XNOR'])",
+        "H2 (AND/OR destroy under deny; XOR does not re-integrate under deny): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q133_deny_symmetry/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q132-value-baselines",
       "cmd": "python -m org_frontier.questions.q132_value_baselines.probe_value_baselines",
       "expect": [
