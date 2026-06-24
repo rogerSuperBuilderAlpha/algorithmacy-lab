@@ -1609,6 +1609,18 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q135-objective-rent",
+      "cmd": "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent",
+      "expect": [
+        "CONTROL faithful triad: mediator 1.333 of Φ=2.000 (two-thirds)  PASS",
+        "H1 (the adaptive objective captures positive value — a claimant, not a passive goal): SUPPORTED",
+        "REFINED (the objective captures exactly what the system does — a co-equal rentier): CONFIRMED",
+        "REFINED (the parties' value tracks displacement — negative under AND/OR, positive under XOR): CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q135_objective_rent/FINDINGS.md (H1 + refined)"
+    },
+    {
       "name": "q134-rent-scaling",
       "cmd": "python -m org_frontier.questions.q134_rent_scaling.probe_rent_scaling",
       "expect": [
