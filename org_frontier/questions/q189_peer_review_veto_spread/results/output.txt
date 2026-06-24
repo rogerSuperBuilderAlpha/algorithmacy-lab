@@ -1,0 +1,23 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+Gate (reviewers) vs Conduit (authors) account of the editorial triad
+account    structure   max_phi   core
+gate         triadic  2.000000   ('R', 'E', 'A')
+conduit      triadic  2.000000   ('R', 'A')
+
+  verdict_agreement   : 1
+  phi_gap             : 0.000000
+  core_jaccard        : 0.666667
+  both_verdicts       : ('triadic', 'triadic')
+  editor pivotal gate : True
+  editor pivotal cond : False
+  pivotality_agrees   : 0
+
+Control: no-editor two-reviewer pair (editor pivotality vacuous)
+  pair core           : ('R1', 'R2')  (phi=2.000000)
+  core_jaccard        : 1.000000
+  editor pivotal both : False / False
+  pivotality_agrees   : 1
+
+H1 gate/conduit spread puts editor core membership in dispute (core_jaccard<1): SUPPORTED
+H2 added editor-pivotality flag disagrees across accounts (veto-player claim): CONFIRMED

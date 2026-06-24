@@ -1,0 +1,27 @@
+==============================================================================
+Q199 — within-person ΔΦ_coord vs within-person ΔACS-total (SIMULATED panel)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Panel: 300 persons x 5 waves = 1500 rows.
+  irreducible (commit) form rows: 319 / 1500 (Φ_coord = 2.0); rest factorize (Φ_coord = 0.0).
+  persons with within-person Φ_coord change across waves: 152 / 300.
+  within-person Φ_coord deviation std = 0.6367 (wave-to-wave movement the within slope reads).
+
+------------------------------------------------------------------------------
+panel     term        slope (ACS on Φ_coord)    95% CI (cluster bootstrap)
+------------------------------------------------------------------------------
+bridge    within      +0.6906                   [+0.6315, +0.7491]
+bridge    between     +0.4947                   [+0.4077, +0.5851]
+bridge    Δ w−b       +0.1958                   [+0.0928, +0.2978]
+control   within      +0.0000                   [+0.0000, +0.0000]
+control   between     +0.0000                   [+0.0000, +0.0000]
+------------------------------------------------------------------------------
+
+==============================================================================
+H1 (within-person ΔΦ tracks ΔACS, within slope > 0 & CI excludes 0): SUPPORTED
+   within slope = +0.6906, 95% CI [+0.6315, +0.7491]
+H2 (within coupling exceeds between, Δ CI excludes 0): SUPPORTED
+   within = +0.6906, between = +0.4947, Δ = +0.1958, 95% CI [+0.0928, +0.2978]
+   control panel (Φ_coord ≡ 0): within = +0.0000, between = +0.0000 (both 0 by construction)
+==============================================================================

@@ -1,0 +1,36 @@
+==============================================================================
+PROBE 333 (q179) — update time-grain sensitivity of the Φ verdict
+==============================================================================
+CONTROL faithful triad: triadic, max_phi=2.0000; cyclic 2-tick=dyadic; feedforward grain-invariant (dyadic/dyadic); struct score cyclic=4.0 > feedforward=2.0 ... PASS
+
+Ensemble: 80 synthetic coded accounts triadic at the per-tick grain (seed=0, drawn in 134 tries). SYNTHETIC coded data.
+
+Per-account (first 12 of the ensemble):
+  tick      Φ_tick  2-tick     Φ_2tk   flip   collapse even    CI_low CI_high
+  triadic    0.415  triadic    0.208  False          1    0     0.218   0.404
+  triadic    0.415  triadic    0.415  False          1    1     0.415   0.415
+  triadic    0.415  triadic    0.830  False          2    0     0.437   0.808
+  triadic    1.000  dyadic     0.000   True          1    1     0.053   0.947
+  triadic    1.000  dyadic     0.000   True          1    0     0.053   0.947
+  triadic    0.830  dyadic     0.000   True          1    1     0.044   0.786
+  triadic    2.000  triadic    0.415  False          0    0     0.499   1.916
+  triadic    0.830  triadic    0.415  False          0    1     0.437   0.808
+  triadic    0.415  triadic    1.000  False          1    0     0.446   0.969
+  triadic    0.830  dyadic     0.000   True          2    1     0.044   0.786
+  triadic    0.830  dyadic     0.000   True          2    0     0.044   0.786
+  triadic    1.000  triadic    0.830  False          0    0     0.839   0.991
+
+------------------------------------------------------------------------------
+SUMMARY (synthetic coded data)
+  accounts triadic per-tick ............ 80
+  flipped triadic->dyadic at 2-tick .... 43 (fraction = 0.537)
+  structural predictor AUC (flip) ...... 0.666
+  panel verdict indeterminate | flip ... 43/43 (= 1.000)
+  panel verdict indeterminate | no flip  0/37 (= 0.000)
+------------------------------------------------------------------------------
+
+H1 (>15% of triadic accounts flip under the 2-tick grain): SUPPORTED
+    flip fraction 0.537 > 0.15: the 2-tick grain flips a measurable share of triadic accounts to dyadic
+H2 (grain-sensitive subset is indeterminate under coder disagreement and predictable a priori): SUPPORTED
+    the flipping subset is verdict-indeterminate under grain disagreement (1.000) while grain-invariant accounts stay determinate (0.000), and structure predicts the flip a priori (AUC 0.666 > 0.60)
+==============================================================================

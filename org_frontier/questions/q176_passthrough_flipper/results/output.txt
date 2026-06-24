@@ -1,0 +1,35 @@
+CONTROL faithful-triad triadic@2.0, decoupled-relay dyadic, committed-account triadic w/ zero-width CI ... PASS
+
+H1  pass-through flip: commit (S=D&R) -> relay (S=D), over the basis account family
+    worker   counterpart   commit    relay  relayphi  flips
+    W<-S     C<-W         triadic   dyadic     0.000   True
+    W<-S     C<-S         triadic   dyadic     0.000   True
+    W<-S     C<-W&S       triadic   dyadic     0.000   True
+    W<-S     C<-W|S       triadic   dyadic     0.000   True
+    W<-C     C<-S         triadic  triadic     2.000  False
+    W<-C     C<-W&S       triadic  triadic     2.000  False
+    W<-C     C<-W|S       triadic  triadic     2.000  False
+    W<-S&C   C<-W         triadic  triadic     2.000  False
+    W<-S&C   C<-S         triadic  triadic     2.000  False
+    W<-S&C   C<-W&S       triadic  triadic     1.000  False
+    W<-S&C   C<-W|S       triadic  triadic     0.415  False
+    W<-S|C   C<-W         triadic  triadic     2.000  False
+    W<-S|C   C<-S         triadic  triadic     2.000  False
+    W<-S|C   C<-W&S       triadic  triadic     0.415  False
+    W<-S|C   C<-W|S       triadic  triadic     1.000  False
+    in-scope (triadic under commit): 15   flipped to dyadic under relay: 4
+    flip rate: 0.267
+
+H2  per-rule CI-sensitivity decomposition (induced Phi-CI width by party, share of total)
+    account     W width  S width  C width    W sh  S sh  C sh
+    mutual        0.000    0.667    0.000    0.00  1.00  0.00
+    wfeedback     0.000    0.667    0.000    0.00  1.00  0.00
+    cfollows      0.000    0.667    0.000    0.00  1.00  0.00
+    sdriven       0.000    0.667    0.000    0.00  1.00  0.00
+    andmix        0.000    2.309    0.000    0.00  1.00  0.00
+    accounts with nonzero induced width: 5 / 5
+    median system (S) share of CI width: 1.000
+
+H1 pass-through flip is universal (100% flip rate): REFUTED
+   NULL holds: 11 of 15 triadic-under-commit accounts stay triadic under pure relay, so relaying does not guarantee a literacy pipe.
+H2 commit-vs-convey bit is the dominant CI driver (median S share > 0.5): SUPPORTED

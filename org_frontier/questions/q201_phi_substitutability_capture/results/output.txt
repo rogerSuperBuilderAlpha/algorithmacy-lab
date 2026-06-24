@@ -1,0 +1,39 @@
+==============================================================================
+Q201 — substitutability degrades Φ_coord and captures algorithmacy (SIMULATED cohort)
+==============================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Bridge map — substitutability gates the W-node's duplicability:
+  pivotal-W  S'=W AND C     : triadic   Φ_coord=2.000000
+  substitut. S'=W (factors) : dyadic    Φ_coord=0.000000
+
+Cohorts: N=600 per arm.
+  bridge arm:   172 pivotal (irreducible) forms, 428 substitutable (convey) forms; Φ_coord range [0.00, 2.00]
+  control arm:  pivotal-W throughout (600 irreducible); Φ_coord held constant at 2.00, variance 0.0000
+
+------------------------------------------------------------------------------
+H1 structural leg — Φ_coord ~ 1 + SU(z), per arm
+------------------------------------------------------------------------------
+arm              SU->Φ slope                      95% CI
+bridge               -0.6720   [-0.7206, -0.6234]
+control       flat (Φ const)     [ n/a — no Φ variance ]
+------------------------------------------------------------------------------
+H1 construct leg — ACS-total ~ 1 + Φ_coord (bridge arm)
+   Φ_coord -> ACS slope = +0.6569  95% CI [+0.5857, +0.7281]
+
+------------------------------------------------------------------------------
+H2 mediation (bridge arm) — SU -> Φ_coord -> ACS, standardized, 5000-boot
+------------------------------------------------------------------------------
+  path a  (SU -> Φ_coord)        = -0.7424  CI [-0.7701, -0.7107]
+  path b  (Φ_coord -> ACS | SU)  = +0.4894  CI [+0.3971, +0.5804]
+  indirect (a*b)                = -0.3634  CI [-0.4335, -0.2939]
+  direct   (c', SU -> ACS | Φ)  = -0.1416  CI [-0.2342, -0.0465]
+  |indirect| vs |direct|        : 0.3634  vs  0.1416
+------------------------------------------------------------------------------
+
+==============================================================================
+H1 (SU lowers Φ_coord, CI<0; lower Φ_coord predicts lower ACS, CI>0): SUPPORTED
+   SU->Φ_coord=-0.6720 CI[-0.7206,-0.6234]; Φ_coord->ACS=+0.6569 CI[+0.5857,+0.7281]; control SU->Φ flat
+H2 (indirect SU->Φ_coord->ACS nonzero and exceeds direct SU->ACS): CONFIRMED
+   indirect=-0.3634 CI[-0.4335,-0.2939]; direct=-0.1416 CI[-0.2342,-0.0465]; |ind|>|dir|=True
+==============================================================================

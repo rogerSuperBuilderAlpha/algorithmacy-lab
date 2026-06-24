@@ -1,0 +1,32 @@
+CONTROL faithful triad: verdict 'triadic', max Φ_MIP 2.0, W-C component 1.0 ... PASS
+
+Coordination forms (exact Φ readings, deterministic):
+  commit coupled    Φ_whole   Φ_WC
+       0       0     0.0000 0.0000
+       0       1     0.0000 0.0000
+       1       0     2.0000 1.0000
+       1       1     1.0000 1.0000
+
+SIMULATED facet cohort (n=300, seed=0):
+  commit rate 0.463, coupled rate 0.517
+  corr(Φ_whole, Φ_WC) = +0.908
+
+Φ-to-facet correlations (whole-system Φ and the W-C component):
+   construct  r(Φ_whole)   r(Φ_WC)
+      ACS-CI      +0.802    +0.868
+      ACS-SC      +0.833    +0.780
+      ACS-RT      +0.828    +0.774
+          SE      -0.166    -0.129
+
+H1 — Φ predicts ACS-CI more than the discriminant covariate (SE):
+  standardized slope ACS-CI on Φ_whole = +0.802
+  standardized slope SE     on Φ_whole = -0.166
+  Δr [r(Φ,CI) - r(Φ,SE)] = +0.967  95% CI [+0.859, +1.083]
+
+H2 — W-C-restricted Φ adds variance over whole-system Φ for ACS-CI:
+  R^2 (Φ_whole only)      = 0.6426
+  R^2 (Φ_whole + Φ_WC)    = 0.7550
+  incremental ΔR^2        = +0.1124  95% CI [+0.0762, +0.1519]
+
+H1 (Φ predicts CI more than SE; Δr CI excludes 0): SUPPORTED
+H2 (W-C component adds ΔR^2 over whole-system Φ; CI excludes 0): SUPPORTED

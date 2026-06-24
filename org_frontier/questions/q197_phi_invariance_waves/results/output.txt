@@ -1,0 +1,21 @@
+======================================================================================
+Q197 — is the Φ_coord-to-ACS bridge invariant across the three panel waves? (SIMULATED panel)
+======================================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS
+
+Panel: 240 workers per wave, 3 waves; Φ_coord recomputed per wave from that wave's (TI, SA, SU).
+Per-wave bridge structure (Φ_coord recomputed from wave-specific reports):
+  wave      n    mean Φ     var Φ   r(Φ,ACS)    slope b  intercept a
+  W1      240    0.3667    0.5989     0.4589     0.5917      -0.2170
+  W2      240    0.3750    0.6094     0.3681     0.4705      -0.1765
+  W3      240    0.2917    0.4983     0.4650     0.6573      -0.1917
+
+Multigroup-by-wave invariance of ACS-on-Φ:
+  [bridge ] CFI: configural=1.0000  metric=0.9937  scalar=1.0000
+  [bridge ] ΔCFI(configural->metric)=+0.0063   ΔCFI(metric->scalar)=-0.0063   (cutoff 0.01)
+  [control] mean ΔCFI over 200 permuted-label splits: metric=+0.0036  scalar=-0.0026
+
+Control check (permuted-wave labels, mean over 200): invariance holds trivially -> PASS (mean ΔCFI metric=+0.0036, scalar=-0.0026)
+
+H1 (metric invariance, slope equal across W1-W3, ΔCFI<= 0.01): SUPPORTED
+H2 (scalar invariance, intercept equal across W1-W3, ΔCFI<= 0.01): SUPPORTED
