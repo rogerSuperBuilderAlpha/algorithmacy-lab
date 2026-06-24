@@ -1,0 +1,16 @@
+PROBE 296 (Q141) — the lagging objective: does adaptation on a delay rescue the displaced party?
+============================================================================================
+  CONTROL faithful triad: triadic Φ=2.000  PASS
+
+  immediate (O' = W ∧ C):  triadic Φ=1.000 | major complex=('S', 'C', 'O') | worker in core: False
+  lagged (O' = M, M' = W ∧ C): triadic Φ=2.000 | major complex=('W', 'S', 'C', 'O', 'M') | worker in core: True
+
+============================================================================================
+  H1 (the lag re-integrates the displaced worker — out of core when immediate, in when lagged): SUPPORTED
+  H2 (the lagged form is more integrated than the immediate one): SUPPORTED  (Φ lagged 2.0 > immediate 1.0)
+  Reading: the timescale of the system's learning decides the worker's place in the coordination.
+  An objective that adapts to the parties instantly substitutes for the worker and pushes it out of
+  the core; an objective that adapts on a delay, through a memory of the parties' joint state, keeps
+  the worker constitutive and binds the whole into one irreducible core at higher Φ. A platform that
+  learns slowly keeps the worker in the coordination; one that learns in real time displaces it.
+============================================================================================

@@ -110,6 +110,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [The seam carries what the scalar drops: a review of the floor-to-seam program (Q45–Q62)](org_frontier/essays/floor_to_seam_review.md)
 - [What integrated information adds to the theories of coordinating minds](org_frontier/essays/integrated_information_and_coordinating_minds.md)
 - [Literacy or Algorithmacy? Borrowing a Consciousness Measure to Read an Org Chart](org_frontier/essays/literacy_or_algorithmacy.md)
+- [Market structure, regulation, and time in interested mediation](org_frontier/essays/market_structure_of_interested_mediation.md)
 - [Mediated, or Irreducible? When the Third Party Is Constitutive and When It Is a Conduit](org_frontier/essays/mediated_or_irreducible.md)
 - [Integrated information as a cooperative game](org_frontier/essays/phi_as_a_cooperative_game.md)
 - [The political economy of interested mediation: when the platform's rent survives its self-interest](org_frontier/essays/political_economy_of_interested_mediation.md)
@@ -255,12 +256,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (91)
+### Questions — the logbook (92)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 91 questions</summary>
+<summary>Browse all 92 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -355,6 +356,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q138](org_frontier/questions/q138_faithful_fraction/paper.md) | The minimum faithful fraction: reviving the coordination, and who pays for it | reviving the coordination takes three-quarters faithfulness, and the rent is the last quarter |
 | [Q139](org_frontier/questions/q139_value_veto/paper.md) | Value and veto: Q112's decoupling is the integration | veto is always universal; the value-veto gap is the integration |
 | [Q140](org_frontier/questions/q140_coalition_stability/paper.md) | The core inverts the rent: faithful mediation monopolizes, interest frees the value | faithful mediation monopolizes the core; interest frees it |
+| [Q141](org_frontier/questions/q141_lagging_objective/paper.md) | The lagging objective: slow learning keeps the worker in the coordination | a lagging objective rescues the worker that immediate adaptation displaces |
 
 </details>
 
