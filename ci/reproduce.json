@@ -1609,6 +1609,16 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q132-value-baselines",
+      "cmd": "python -m org_frontier.questions.q132_value_baselines.probe_value_baselines",
+      "expect": [
+        "CONTROL faithful AND @ (1, 1, 1): total Φ=2.000, mediator share 66.6%  PASS",
+        "H2 (verdict-aligned: re-integrating baselines concentrate the rent — extraction): SUPPORTED  (extraction on: ['XOR'])"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q132_value_baselines/FINDINGS.md (H2)"
+    },
+    {
       "name": "q131-value-capture",
       "cmd": "python -m org_frontier.questions.q131_value_capture.probe_value_capture",
       "expect": [
