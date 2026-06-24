@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q137-interested-worker",
+      "cmd": "python -m org_frontier.questions.q137_interested_worker.probe_interested_worker",
+      "expect": [
+        "CONTROL faithful triad: Φ=2.000, worker Shapley 0.333 (share 17%)  PASS",
+        "H1 (worker gaming collapses the coordination — Φ -> 0 whenever k_W >= 1): SUPPORTED",
+        "H2 (worker's share rises only when the system defects; absolute value never gains): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q137_interested_worker/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q136-competing-mediators",
       "cmd": "python -m org_frontier.questions.q136_competing_mediators.probe_competing_mediators",
       "expect": [
