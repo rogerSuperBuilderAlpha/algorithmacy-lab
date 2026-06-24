@@ -1,0 +1,20 @@
+PROBE 291 (Q136) — two competing mediators: does competition return value to the parties?
+========================================================================================
+  CONTROL single faithful mediator: share 66.6% (two-thirds)  PASS
+
+[substitutes (W,C read S1|S2)]
+  whole-system: dyadic Φ=0.000 | major complex=('S2', 'C') coreΦ=0.189
+  Shapley {'W': 0.0, 'S1': 0.0, 'S2': 0.0, 'C': 0.0} | each-mediator share 0% | parties collective 0%
+
+[complements (W,C read S1&S2)]
+  whole-system: triadic Φ=4.000 | major complex=('W', 'S1', 'S2', 'C') coreΦ=4.000
+  Shapley {'W': 1.0, 'S1': 1.0, 'S2': 1.0, 'C': 1.0} | each-mediator share 25% | parties collective 50%
+
+========================================================================================
+  H1 (substitutable mediators eliminate the coordination — Φ -> 0, no rent): SUPPORTED
+  H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (Φ=4.0, each mediator 25%, each party 25%)
+  Reading: competition does not simply return the mediator's cut to the parties. Substitutable
+  mediators dissolve the irreducible coordination entirely — Φ goes to zero, and there is no value
+  for anyone to capture. Complementary mediators raise the total value and split it evenly, each of
+  the four taking a quarter, so a second required mediator dilutes the rent toward the parties.
+========================================================================================
