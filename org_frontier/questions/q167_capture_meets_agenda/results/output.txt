@@ -1,0 +1,41 @@
+PROBE 321 (Q167) — the capture threshold meets the agenda: does interest lower g*?
+====================================================================================
+  CONTROL faithful triad reads 'triadic' max_phi 2.0; core4 g=0 core WSC Φ 2.0, g=0.1 core SC (worker captured) ... PASS
+
+[g-sweep]  core4 major complex as the platform's capture share g rises
+  setting     |  g* (W exits) | post-core | core at g=0.0 -> 0.25 -> 0.50
+  ------------+---------------+-----------+------------------------------
+  faithful    |     0.05      |    SC     | WSC -> SC -> SC
+  approve k=1 |     0.40      |    SC     | WSC -> WSC -> SCP
+  approve k=2 |     0.05      |    SC     | WSC -> SC -> SC
+  approve k=3 |      none     |     -     | WSC -> WSC -> WSC
+  approve k=4 |      none     |     -     | WSC -> WSC -> WSC
+  deny k=1    |      none     |     -     | WSC -> WSC -> WSC
+
+[Φ trajectory]  major-complex Φ at each g (W in core marked *)
+  g    | faithful    | approve k=1 | approve k=2 | approve k=3 | approve k=4 | deny k=1   
+  -----+-------------+-------------+-------------+-------------+-------------+------------
+  0.00 | 2.000* WSC  | 2.000* WSC  | 2.000* WSC  | 2.000* WSC  | 2.000* WSC  | 2.000* WSC 
+  0.05 | 2.000  SC   | 1.758* WSC  | 0.934  SC   | 1.564* WSC  | 1.564* WSC  | 1.900* WSC 
+  0.10 | 2.000  SC   | 1.545* WSC  | 0.862  SC   | 1.247* WSC  | 1.247* WSC  | 1.800* WSC 
+  0.15 | 2.000  SC   | 1.356* WSC  | 0.788  SC   | 1.010* WSC  | 1.010* WSC  | 1.700* WSC 
+  0.20 | 2.000  SC   | 1.189* WSC  | 0.715  SC   | 0.826* WSC  | 0.826* WSC  | 1.600* WSC 
+  0.25 | 2.000  SC   | 1.040* WSC  | 0.646  SC   | 0.682* WSC  | 0.682* WSC  | 1.500* WSC 
+  0.30 | 2.000  SC   | 0.907* WSC  | 0.582  SC   | 0.565* WSC  | 0.565* WSC  | 1.400* WSC 
+  0.35 | 2.000  SC   | 0.788* WSC  | 0.524  SC   | 0.470* WSC  | 0.470* WSC  | 1.300* WSC 
+  0.40 | 2.000  SC   | 0.800  SC   | 0.471  SC   | 0.392* WSC  | 0.392* WSC  | 1.200* WSC 
+  0.45 | 2.000  SC   | 0.586* WSC  | 0.425  SC   | 0.327* WSC  | 0.327* WSC  | 1.100* WSC 
+  0.50 | 2.000  SC   | 0.500  SCP  | 0.383  SC   | 0.271* WSC  | 0.271* WSC  | 1.000* WSC 
+
+====================================================================================
+  H1 (an interested platform displaces the worker at a lower g* than a faithful one, monotonically in interest): REFUTED
+  H2 (beyond g*, the interested core retains the agenda node P where the faithful core retained C): NOT SUPPORTED
+  Reading: faithful g*=0.05 (post-core SC); approve g* by k = k1:0.40, k2:0.05, k3:none, k4:none; deny k=1 g*=none.
+  g* is non-monotone in interest: the agenda lowers the capture threshold only where its
+  platform branch stays informative about (P,C) (approve k=2 displaces W at g*=0.05, like
+  the faithful branch), and raises it where the agenda goes constant and carries no
+  information to compete with the worker (approve k=3,4 and deny k=1 keep W across the
+  grid). Where W is displaced the replacement core is S,C, not the agenda node P; only
+  approve k=1 recruits P, and only at the high end (g=0.50, core SCP). Interest does not
+  simply compound capture; it reshapes which input the worker is replaced by.
+====================================================================================

@@ -1,0 +1,24 @@
+CONTROL faithful triad: structure=triadic max_phi=2.000 base_phi=2.000 cc_pick=1 te_pick=1 -> PASS
+
+Structural bottleneck (leave-one-node-out drop in major-complex Φ) vs behavioral recovery
+recovery = behavioral argmax lies in the ground-truth argmax-drop set, over 30 seeds
+
+form                   base_Φ  loo_drops              gt_set    unique cc_rec  te_rec 
+ats_strict_bottleneck  2.00    [2.0, 2.0, 2.0]        [0, 1, 2] False  30/30   30/30  
+joint_bottleneck       2.00    [0.0, 2.0, 0.0, 0.0]   [1]       True   0/30    24/30  
+degree_bottleneck      2.00    [2.0, 0.0, 0.0, 0.0]   [0]       True   17/30   16/30  
+
+Pooled recovery rate (behavioral argmax in structural argmax-drop set):
+  all forms:                 coupling_centrality 52.2%   TE_throughput 77.8%
+  unique-articulation forms: coupling_centrality 28.3%   TE_throughput 66.7%
+  (a tied ground-truth set makes recovery automatic, so the unique-articulation subset is the real test)
+
+Control (degree-matched symmetric XOR-ring, no structural bottleneck):
+  base_Φ=0.500  loo_drops=[0.5, 0.5, 0.5, 0.5]  gt_set=[0, 1, 2, 3] (no unique articulation point)
+  cc picks per node=[6, 7, 11, 6]  te picks per node=[9, 7, 7, 7]  chance=25%
+  max single-node share: cc 37%  te 30% (no node grabbed beyond chance => instrument invents no bottleneck)
+
+H1 (coupling centrality recovers the structural bottleneck in >70% of seeded runs): REFUTED
+   coupling_centrality recovers 28.3% on unique-articulation forms (threshold 70%, chance ~25%)
+H2 (coupling centrality beats TE-throughput at locating the bottleneck): NOT SUPPORTED
+   coupling_centrality 28.3% vs TE_throughput 66.7% on unique-articulation forms

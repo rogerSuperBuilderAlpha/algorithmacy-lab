@@ -1,0 +1,39 @@
+PROBE 320 (Q166) — the phantom addressee displaced: worker-bind vs the agenda as addressee
+========================================================================================
+  CONTROL faithful triad reads 'triadic' max_phi 2.0; phantom T1 core WS coreΦ 2.0 S<-W 1 W<-C 0 ... PASS
+
+[agenda = approve (a=1)]  k = interestedness (states where the agenda overrides the parties)
+  k | structure | core | coreΦ | S<-W (cm01) | W<-C (cm20) | W in core
+  --+-----------+------+-------+-------------+-------------+----------
+  0 | dyadic    | WS   | 2.000 |      1      |      0      | True     
+  1 | dyadic    | WS   | 2.000 |      1      |      0      | True     
+  2 | dyadic    | WS   | 2.000 |      1      |      0      | True     
+  3 | dyadic    | C    | 1.000 |      0      |      0      | False    
+  4 | dyadic    | C    | 1.000 |      0      |      0      | False    
+
+[agenda = deny (a=0)]  k = interestedness (states where the agenda overrides the parties)
+  k | structure | core | coreΦ | S<-W (cm01) | W<-C (cm20) | W in core
+  --+-----------+------+-------+-------------+-------------+----------
+  0 | dyadic    | WS   | 2.000 |      1      |      0      | True     
+  1 | dyadic    | C    | 1.000 |      0      |      0      | False    
+  2 | dyadic    | C    | 1.000 |      0      |      0      | False    
+  3 | dyadic    | C    | 1.000 |      0      |      0      | False    
+  4 | dyadic    | C    | 1.000 |      0      |      0      | False    
+
+[order-averaged]  mean major-complex Φ over all C(4,k) override sets, per level k
+  k | sets | mean coreΦ (approve) | mean coreΦ (deny)
+  --+------+----------------------+-----------------
+  0 |    1 |                2.000 |           2.000
+  1 |    4 |                1.750 |           1.750
+  2 |    6 |                1.833 |           1.500
+  3 |    4 |                1.750 |           1.250
+  4 |    1 |                1.000 |           1.000
+
+========================================================================================
+  H1 (the addressee inverts: W exits the core for an agenda-governed bind as k rises): SUPPORTED
+  H2 (the interested mediator stops reading the worker while a bind survives): SUPPORTED
+  Reading: under a faithful gate the worker binds the held position S and the major
+  complex is {W,S}; under an interested gate the worker drops out of the core and out
+  of S's read while a positive-Φ bind survives around the agenda's invariant. The
+  addressee has become the agenda itself; the worker is pushed to referent status.
+========================================================================================

@@ -1,0 +1,52 @@
+PROBE 326 (q172) — facet difficulty under interest: uniform tax or facet signature?
+============================================================================================
+CONTROL faithful triad [x1, x0&x2, x1] reads verdict 'triadic' max_phi 2.0: PASS
+
+[interested − opaque difficulty gap]  agenda-averaged (approve, deny), per facet x baseline
+  facet                 scale |     AND      OR    XNOR     XOR |   tax
+  ----------------------------+---------------------------------+------
+  commitment                 |   1.750   1.750  -0.750  -0.750 | 1.250
+  counterpart_inference    * |   0.000   0.000  -0.125  -0.125 | 0.062
+  signal_compression       * |  -1.317  -1.317   0.646   0.646 | 0.981
+  phantom_addressee          |   0.500   0.500   0.000   0.000 | 0.250
+  opacity_floor              |   0.000   0.000  -0.250  -0.250 | 0.125
+  rule_change_tracking     * |  -1.644   0.000   0.693   0.431 | 0.692
+  (* = facet the survey scale names; tax = mean |gap| over the four baselines)
+
+[per-facet normalized gap]  each facet's gap rescaled to [0,1] across the four baselines
+  facet                 |     AND      OR    XNOR     XOR
+  ----------------------+--------------------------------
+  commitment            |   1.000   1.000   0.000   0.000
+  counterpart_inference |   1.000   1.000   0.000   0.000
+  signal_compression    |   0.000   0.000   1.000   1.000
+  phantom_addressee     |   1.000   1.000   0.000   0.000
+  opacity_floor         |   1.000   1.000   0.000   0.000
+  rule_change_tracking  |   0.000   0.703   1.000   0.888
+
+[facet ranking by interest tax]  largest difficulty shift first
+  rank | facet                 | tax   | survey-named
+  -----+-----------------------+-------+-------------
+     1 | commitment            | 1.250 | no
+     2 | signal_compression    | 0.981 | yes
+     3 | rule_change_tracking  | 0.692 | yes
+     4 | phantom_addressee     | 0.250 | no
+     5 | opacity_floor         | 0.125 | no
+     6 | counterpart_inference | 0.062 | yes
+
+[per-baseline facet ranking by |gap|]  for H2 (ordering stability)
+  AND  : commitment > rule_change_tracking > signal_compression > phantom_addressee > counterpart_inference > opacity_floor
+  OR   : commitment > signal_compression > phantom_addressee > counterpart_inference > opacity_floor > rule_change_tracking
+  XNOR : commitment > rule_change_tracking > signal_compression > opacity_floor > counterpart_inference > phantom_addressee
+  XOR  : commitment > signal_compression > rule_change_tracking > opacity_floor > counterpart_inference > phantom_addressee
+
+============================================================================================
+  H1 named facets ('counterpart_inference', 'rule_change_tracking') top the tax ranking: False (top-2 = ['commitment', 'signal_compression'])
+     at least one other facet near zero: False ('opacity_floor' tax 0.125 vs named-min 0.062)
+  H1 (interest is facet-selective, concentrated on the named survey facets): REFUTED
+  H2 facet ordering concordant across all four baselines: 11/15 pairs agree; discordant [('counterpart_inference', 'phantom_addressee'), ('signal_compression', 'rule_change_tracking'), ('phantom_addressee', 'opacity_floor'), ('phantom_addressee', 'rule_change_tracking')]
+  H2 (the facet signature of interest is baseline-invariant): NOT SUPPORTED
+============================================================================================
+  Reading H1: the null stands or the named facets are not the two largest. Tax ranking:
+  ['commitment', 'signal_compression', 'rule_change_tracking', 'phantom_addressee', 'opacity_floor', 'counterpart_inference']. Interest does not concentrate exactly on the two pre-named survey facets.
+  Reading H2: the facet ordering re-shuffles across baselines on [('counterpart_inference', 'phantom_addressee'), ('signal_compression', 'rule_change_tracking'), ('phantom_addressee', 'opacity_floor'), ('phantom_addressee', 'rule_change_tracking')]; the
+  magnitude of the tax is baseline-dependent and so is which facet it hits hardest.

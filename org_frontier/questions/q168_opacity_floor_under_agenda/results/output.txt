@@ -1,0 +1,28 @@
+PROBE 322 (Q168) — opacity floor under an agenda: interest vs the hidden-counterpart floor
+============================================================================================
+CONTROL faithful gate H(out|W)=0.50 bits (PP1 floor 0.50); faithful triad triadic max_phi=2.0 -- PASS
+
+[agenda = approve (a=1)]  C hidden and uniform; floor = 0.50 bits (faithful, k=0)
+  k | H(out|W) | vs floor | after probing W | probing removes
+  --+----------+----------+-----------------+----------------
+  0 |     0.50 |    =     |            0.50 |            0.00
+  1 |     1.00 | > floor  |            1.00 |            0.00
+  2 |     0.50 |    =     |            0.50 |            0.00
+  3 |     0.00 | < floor  |            0.00 |            0.00
+  4 |     0.00 | < floor  |            0.00 |            0.00
+
+[agenda = deny (a=0)]  C hidden and uniform; floor = 0.50 bits (faithful, k=0)
+  k | H(out|W) | vs floor | after probing W | probing removes
+  --+----------+----------+-----------------+----------------
+  0 |     0.50 |    =     |            0.50 |            0.00
+  1 |     0.00 | < floor  |            0.00 |            0.00
+  2 |     0.00 | < floor  |            0.00 |            0.00
+  3 |     0.00 | < floor  |            0.00 |            0.00
+  4 |     0.00 | < floor  |            0.00 |            0.00
+
+============================================================================================
+  H1 interest raises H(out|W) above the 0.50-bit faithful floor: SUPPORTED
+  H2 probing W leaves interested H(out|W) unchanged (agenda joins the opacity floor): CONFIRMED
+============================================================================================
+  Reading H1: the interested residual exceeds 0.50 bits at k=1 (1.00 bits) under the approve agenda. Overriding a low-warrant state aliases C-driven variance into a W-value the faithful gate left determinate, so the agenda adds surprise the worker can neither set nor see.
+  Reading H2: probing W removes none of H(out|W) at any k. The surplus is C-aliased, so setting and observing W learns P(out|W) exactly yet leaves the C-driven part intact. The agenda's contribution sits on the opacity floor, not in the channel the worker controls.

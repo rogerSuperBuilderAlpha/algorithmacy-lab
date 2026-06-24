@@ -46,6 +46,93 @@ def pp1_irreducible_surprise():
     print(f"  -> {res:.2f} bits of surprise no amount of modeling removes, set by what she cannot see")
 
 
+# ---------------------------------------------------------------------------
+# Interested-mediator extension (q168). PP1 and PP2 above fix the output to the
+# faithful AND gate, where C is hidden and uniform and the worker faces a 0.50-bit
+# residual she cannot reduce. These functions reuse the same surprise accounting
+# with the output drawn from Q126's mediator(agenda, k): the worker still sees only
+# W, C is still hidden and uniform, but the mediator imposes an agenda on the k
+# states where the parties least warrant it. A study can then ask whether interest
+# raises the residual floor above the 0.50 bits a merely hidden counterpart sets.
+# ---------------------------------------------------------------------------
+
+
+def residual_surprise_under_mediator(gate):
+    """H(out | W) with C hidden and uniform, for an arbitrary mediator gate(w, c).
+
+    The worker's best model from W alone predicts P(out=1 | W=w); the residual is the
+    mean binary entropy of that prediction over W ~ uniform. For the faithful AND gate
+    this returns the 0.50-bit floor that pp1_irreducible_surprise reports. Used by q168
+    with gate = Q126's mediator(agenda, k)."""
+    res = 0.0
+    for w in (0, 1):
+        p1 = 0.5 * sum(gate(w, c) for c in (0, 1))   # P(out=1 | W=w), C ~ Bernoulli(0.5)
+        res += 0.5 * _H(p1)
+    return res
+
+
+def probed_w_limit_under_mediator(gate):
+    """The residual surprise that remains after the worker probes W (PP2), for gate(w, c).
+
+    Probing W lets the worker learn P(out | W) exactly, removing the epistemic uncertainty
+    about her own channel. It cannot set or see C, so the C-aliased part of the output
+    survives. That surviving part is exactly H(out | W). The function returns it, so a
+    study can check whether probing W drives the interested residual toward 0 (the agenda's
+    surprise is self-resolvable) or leaves it at H(out | W) (the agenda joins the opacity
+    floor)."""
+    return residual_surprise_under_mediator(gate)
+
+
+# ---------------------------------------------------------------------------
+# Active-inference probing bridge (empirical line, q170 study 1). The functions
+# above work in closed form on the gate's exact marginals. The empirical arm
+# instead samples: the worker runs a finite probing budget against the gate and
+# fits a recovered generative model from counts, so the line can study how a
+# recovered model degrades under a finite budget rather than in the limit. These
+# helpers are shared across the empirical studies; results from them are on
+# synthetic probing data, not a measured worker.
+# ---------------------------------------------------------------------------
+
+
+def probe_recover_marginal(gate, budget, rng):
+    """Run the pp2 active-inference loop against gate(W, C) for a finite budget.
+
+    The worker sets W uniformly and observes the output with the counterpart C hidden and uniform.
+    After ``budget`` probes she fits her recovered generative model P̂(out=1 | W) from Laplace-smoothed
+    counts. Returns {W: P̂(out=1|W)}. She cannot set C, so the C-dependence stays outside the recovered
+    model — the opacity floor pp1/pp2 names. ``rng`` is a numpy Generator; seed it for determinism."""
+    cnt = {0: [0, 0], 1: [0, 0]}
+    for _ in range(budget):
+        w = int(rng.integers(0, 2))
+        c = int(rng.integers(0, 2))
+        cnt[w][int(gate(w, c))] += 1
+    return {w: (cnt[w][1] + 1) / (cnt[w][0] + cnt[w][1] + 2) for w in (0, 1)}
+
+
+def recovered_model_kl(gate, phat, states=((0, 0), (0, 1), (1, 0), (1, 1))):
+    """KL of the recovered model P̂(out|W) from the true gate, averaged over the (W,C) states.
+
+    Each true output is deterministic, so the per-state divergence is the surprise the recovered model
+    assigns to the realized output. The average over the four states is the bits of the true rule the
+    W-only model fails to carry — the model-fidelity loss."""
+    eps = 1e-9
+    kl = 0.0
+    for (w, c) in states:
+        q = int(gate(w, c))
+        p = phat[w]
+        kl += -math.log2(max(p, eps)) if q == 1 else -math.log2(max(1 - p, eps))
+    return kl / len(states)
+
+
+def recoverable_fraction(gate, phat, states=((0, 0), (0, 1), (1, 0), (1, 1))):
+    """Fraction of (W,C) states where the MAP read of the recovered model matches the true output."""
+    hit = 0
+    for (w, c) in states:
+        pred = 1 if phat[w] >= 0.5 else 0
+        hit += int(pred == int(gate(w, c)))
+    return hit / len(states)
+
+
 def pp2_active_inference():
     """She acts to test her model; probing closes the channel she controls, not the hidden one."""
     print("\nPP2 active inference — probing reduces the uncertainty she controls, not the hidden part:")

@@ -1,0 +1,22 @@
+PROBE Q143 (297) — the ring's verdict and MIP geometry as n grows
+==============================================================================
+INSTRUMENT CONTROL: triad [x1, x0&x2, x1] -> structure=triadic max_phi=2.0000
+CONTROL faithful-triad reads triadic at Φ=2.0: PASS
+ANCHOR chain(5): structure=triadic max_phi=2.0000 MIP='2 parts: {x0x1,x2x3x4}' core=('x3', 'x4')
+ANCHOR pool(5):  Φ=20.0000 core=('x0', 'x1', 'x2', 'x3', 'x4') (|core|=5)
+------------------------------------------------------------------------------
+  n    structure  max_phi   MIP cut                       |core|  core=full?
+  3    triadic    6.0000    3 parts: {x0,x1,x2}           3       yes
+  4    triadic    4.0000    2 parts: {x0x1,x2x3}          4       yes
+  5    triadic    4.0000    2 parts: {x0x1,x2x3x4}        5       yes
+  6    triadic    4.0000    2 parts: {x0x1x2,x3x4x5}      6       yes
+  7    triadic    4.0000    2 parts: {x0x1x2,x3x4x5x6}    7       yes
+==============================================================================
+H1 clauses:
+  triadic with Φ>0 at every n:        True
+  MIP is a two-arc (2-part) cut at every n: False
+  MIP-Φ constant across n=3..7:        False (min=4.0000 max=6.0000)
+H2 check: core is the full node set at every n=3..7: True
+==============================================================================
+H1 ring is triadic with a single balanced two-arc cut of constant Φ in n: REFUTED
+H2 the ring's major complex is the full node set at every n=3..7: SUPPORTED

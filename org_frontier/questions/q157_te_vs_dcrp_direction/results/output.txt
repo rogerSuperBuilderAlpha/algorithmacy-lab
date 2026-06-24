@@ -1,0 +1,23 @@
+CONTROL triad verdict=triadic max_phi=2.0000; TE driver fwd=0.9986 > rev=0.0006: PASS
+
+PER-ENSEMBLE recovery of true directed-edge orientation
+  ensemble      forms  w/edges  edges     DCRP       TE
+  rand_form3      200      184    440    58.4%    80.7%
+  rand_form4      120      118    576    55.0%    74.5%
+  POOLED                         1016    56.5%    77.2%
+
+AGREEMENT contingency (per directed edge, pooled)
+  both correct       : 498
+  DCRP only correct  : 76
+  TE only correct    : 286
+  both wrong         : 156
+  phi(DCRP hit, TE hit) = +0.2605
+
+COMBINE (either method correct = OR-rule)
+  DCRP recovery : 56.5%
+  TE recovery   : 77.2%
+  OR recovery   : 84.6%
+  OR lift over best single = 7.5 pp
+
+H1 (TE beats DCRP peak-lag by > 5 pp on directed-edge orientation): SUPPORTED [TE 77.2% - DCRP 56.5% = +20.7 pp]
+H2 (errors correlated, not complementary; phi>0 and OR-lift<=1pp): REFUTED [phi=+0.2605, OR-lift=+7.5 pp]

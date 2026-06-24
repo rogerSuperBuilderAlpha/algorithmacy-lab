@@ -1,0 +1,30 @@
+CONTROL read-recipient/worker-system-counterpart triad: verdict=triadic, max_phi=2.000, core=('W', 'S', 'C') (full), zero-Shapley parties=0: PASS
+============================================================================================
+q152 — whole-system verdict vs major-complex membership across studied topologies (n=5,6)
+============================================================================================
+  topology                  n  verdict  maxΦ    core_size  full?  zeroShap disagree
+  chain(n=5)                5  triadic  2.000   2          no     0        YES
+  ring(n=5)                 5  triadic  4.000   5          yes    0        no
+  pool(n=5)                 5  triadic  20.000  5          yes    0        no
+  single_hub(n=5)           5  triadic  4.000   5          yes    0        no
+  two_hub(n=5)              5  triadic  2.000   4          no     0        YES
+  sym_multihub(n=5,m=1)     5  triadic  4.000   5          yes    0        no
+  sym_multihub(n=5,m=2)     5  triadic  6.000   5          yes    0        no
+  sym_multihub(n=5,m=3)     5  triadic  6.000   4          no     0        YES
+  chain(n=6)                6  triadic  2.000   2          no     0        YES
+  ring(n=6)                 6  triadic  4.000   6          yes    0        no
+  pool(n=6)                 6  triadic  30.000  6          yes    0        no
+  single_hub(n=6)           6  triadic  5.000   6          yes    0        no
+  two_hub(n=6)              6  triadic  2.000   4          no     0        YES
+  sym_multihub(n=6,m=1)     6  triadic  5.000   6          yes    0        no
+  sym_multihub(n=6,m=2)     6  triadic  8.000   6          yes    0        no
+  sym_multihub(n=6,m=3)     6  triadic  9.000   4          no     0        YES
+  sym_multihub(n=6,m=4)     6  triadic  8.000   5          no     0        YES
+  hub_chain(L=2,g=2,n=6)    6  dyadic   0.000   3          no     0        no
+  hub_chain(L=3,g=1,n=6)    6  dyadic   0.000   2          no     6        no
+--------------------------------------------------------------------------------------------
+H1 summary: 7/19 studied topologies are triadic-verdict yet exclude >=1 party from the major complex.
+H2 summary: disagree<=>has-zero-Shapley holds for all topologies: False. Triadic-exclusions with NO zero-Shapley node: 7 (chain(n=5), two_hub(n=5), sym_multihub(n=5,m=3), chain(n=6), two_hub(n=6), sym_multihub(n=6,m=3), sym_multihub(n=6,m=4)). Zero-Shapley nodes sitting inside a full triadic core: 0 (none).
+============================================================================================
+H1 verdict-complex disagreement exists: SUPPORTED
+H2 disagreement is exactly the zero-Shapley marker: NOT SUPPORTED

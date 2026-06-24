@@ -1,0 +1,19 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+H1  candidate's commit account vs manager's convey account (one wiring diagram)
+account    structure   max_phi
+commit       triadic  2.000000
+convey        dyadic  0.000000
+  connectivity matrices identical : True
+  verdict_agreement               : 0
+  phi_gap                         : 2.000000
+  core_jaccard                    : 0.666667
+  both_verdicts                   : ('triadic', 'dyadic')
+
+H2  hold topology, vary only the manager-update rule (ATS->manager coupling)
+manager rule            cm_eq  v_agree   phi_gap  jaccard   both_verdicts
+heeds commit (M=S)       True        1  0.000000   1.0000   ('triadic', 'triadic')
+rules alone (M=1-S)      True        0  2.000000   0.6667   ('triadic', 'dyadic')
+
+H1 commit/convey spread on identical topology: SUPPORTED
+H2 spread tracks the manager-update rule, not the wiring: CONFIRMED

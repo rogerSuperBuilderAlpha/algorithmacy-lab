@@ -1,0 +1,33 @@
+PROBE 318 (Q164) — is an imposed agenda recoverable from the outcomes the worker sees?
+====================================================================================
+CONTROL faithful triad reads verdict 'triadic' max_phi 2.0: PASS
+
+D1 — perceivability of the agenda from W<->C outcome traces (interested k=2 vs faithful k=0)
+  agenda          | discrimination AUC | raw AUC (interested scores higher)
+  ----------------+--------------------+-----------------------------------
+  approve (a=1)   |               0.92 | 0.08
+  deny    (a=0)   |               1.00 | 0.00
+  mean            |               0.96 |
+  triadic-detection AUC (battery control) = 0.67
+
+D2 — worker-marginal fit error with the counterpart hidden (interested vs matched random gate)
+  k | err interested | err random-gate(matched k) | interested larger?
+  --+----------------+----------------------------+-------------------
+  0 |          0.250 |                      0.255 | no
+  1 |          0.500 |                      0.241 | yes
+  2 |          0.250 |                      0.206 | yes
+  3 |          0.000 |                      0.111 | no
+  4 |          0.000 |                      0.000 | tie
+  plain random strict gate (D2 baseline marginal error) = 0.23
+  partial regime k in (1, 2, 3): mean err interested=0.250  random-gate=0.186
+
+====================================================================================
+  H1 (agenda LESS perceivable than a hidden rule: AUC 0.96 < 0.67): REFUTED
+  H2 (agenda adds opacity: marginal fit error larger at matched k, regime mean 0.250 > 0.186): SUPPORTED
+====================================================================================
+  Reading: the agenda decouples the worker and counterpart outcomes, so it leaves a
+  STRONGER trace than the faithful structure's verdict (D1) — an imposed agenda is more,
+  not less, perceivable from outcomes than a merely hidden rule. With the counterpart
+  hidden (D2), the agenda does add marginal-fit opacity while the override is partial,
+  and the opacity vanishes once the agenda goes constant and the rule stops reading the
+  parties at all.

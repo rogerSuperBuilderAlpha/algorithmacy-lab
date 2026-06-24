@@ -92,3 +92,93 @@ def spread(accountA_rules: Sequence[Callable],
         "core_jaccard": core_jaccard,
         "both_verdicts": (vA.structure, vB.structure),
     }
+
+
+def node_pivotal(rules: Sequence[Callable], labels: Sequence[str], node_label: str) -> bool:
+    """Whether ``node_label`` is a member of the major complex under ``rules``.
+
+    A party in the integrated core is in every integrating coalition: its removal takes it out
+    of the structure that carries Φ. This is the pivotal/veto-player reading of membership
+    (Probe 11: a party is in the irreducible core only if its determination makes it pivotal).
+    A party outside the core is droppable, since the coordination integrates without it.
+    """
+    return node_label in _core_set(rules, labels)
+
+
+def pivotality_spread(accountA_rules: Sequence[Callable],
+                      accountB_rules: Sequence[Callable],
+                      labels: Sequence[str],
+                      node_label: str) -> dict:
+    """Add a node-pivotality flag to the spread between two accounts.
+
+    Returns the full ``spread`` dict extended with:
+
+        pivotalA          : bool   ``node_label`` is in account A's major complex.
+        pivotalB          : bool   ``node_label`` is in account B's major complex.
+        pivotality_agrees : int    1 iff the flag matches across the two accounts.
+
+    A ``pivotality_agrees`` of 0 records that the two accounts disagree on whether the named
+    party is pivotal, the veto-player divergence the bridge is meant to register.
+    """
+    base = spread(accountA_rules, accountB_rules, labels)
+    pa = node_pivotal(accountA_rules, labels, node_label)
+    pb = node_pivotal(accountB_rules, labels, node_label)
+    base.update({
+        "pivotalA": pa,
+        "pivotalB": pb,
+        "pivotality_agrees": int(pa == pb),
+    })
+    return base
+
+
+def signed_phi_gap(accountA_rules: Sequence[Callable],
+                   accountB_rules: Sequence[Callable],
+                   labels: Sequence[str]) -> float:
+    """max Φ_MIP(A) - max Φ_MIP(B), with sign. Positive means account A integrates more.
+
+    The ``spread`` field ``phi_gap`` is the absolute value of this. The signed form lets a
+    study ask whether one named account is the more-integrated one, not only how far apart the
+    two sit.
+    """
+    labels = tuple(labels)
+    vA = verdict(list(accountA_rules), labels)
+    vB = verdict(list(accountB_rules), labels)
+    return float(vA.max_phi) - float(vB.max_phi)
+
+
+def core_node_divergence(accountA_rules: Sequence[Callable],
+                         accountB_rules: Sequence[Callable],
+                         labels: Sequence[str]) -> dict:
+    """Per-node attribution of where two accounts' major-complex cores diverge.
+
+    Returns the core party set under each account and, for every label, whether that party sits
+    in account A's core, in account B's core, and whether the two accounts disagree about it. A
+    party flagged ``disputed`` is one the two accounts place differently: in the core under one
+    account and outside it under the other. The keys:
+
+        coreA       : frozenset   account A's major-complex parties.
+        coreB       : frozenset   account B's major-complex parties.
+        per_node    : dict        label -> {"inA": bool, "inB": bool, "disputed": bool}.
+        disputed    : tuple       labels the two accounts place differently, in ``labels`` order.
+
+    When the two cores agree on every party, ``disputed`` is empty. When they differ on exactly
+    one party, that single label names the disputed member.
+    """
+    labels = tuple(labels)
+    coreA = _core_set(accountA_rules, labels)
+    coreB = _core_set(accountB_rules, labels)
+    per_node = {}
+    disputed = []
+    for lab in labels:
+        inA = lab in coreA
+        inB = lab in coreB
+        d = inA != inB
+        per_node[lab] = {"inA": inA, "inB": inB, "disputed": d}
+        if d:
+            disputed.append(lab)
+    return {
+        "coreA": coreA,
+        "coreB": coreB,
+        "per_node": per_node,
+        "disputed": tuple(disputed),
+    }

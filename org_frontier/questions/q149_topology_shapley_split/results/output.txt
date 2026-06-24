@@ -1,0 +1,40 @@
+CONTROL read-recipient triad: total Φ=2.000, mediator M share=0.666 (~2/3), outer parties E=R=0.333: PASS
+==============================================================================
+q149 — Shapley split of subsystem Φ across topologies
+==============================================================================
+
+Hub topologies — hub-vs-party Shapley split (share of total Φ):
+  topology        n   hubs  Φ_total   hub_sum   party_sum  hub_share  per_hub
+  single_hub      5   1     4.000     2.200     1.800      0.550      2.200
+  two_hub         5   2     2.000     2.167     -0.167     1.084      1.083
+  sym_multihub(m=1)5   1     4.000     2.200     1.800      0.550      2.200
+  sym_multihub(m=2)5   2     6.000     4.100     1.899      0.683      2.050
+  sym_multihub(m=3)5   3     6.000     6.999     -1.000     1.167      2.333
+  single_hub      6   1     5.000     2.667     2.335      0.533      2.667
+  two_hub         6   2     2.000     2.200     -0.200     1.100      1.100
+  sym_multihub(m=1)6   1     5.000     2.667     2.335      0.533      2.667
+  sym_multihub(m=2)6   2     8.000     4.800     3.200      0.600      2.400
+  sym_multihub(m=3)6   3     9.000     7.050     1.950      0.783      2.350
+  sym_multihub(m=4)6   4     8.000     11.332    -3.334     1.417      2.833
+
+Symmetric topologies — spread of Shapley values across nodes:
+  topology  n   Φ_total   min_val   max_val   spread    equal
+  ring      5   4.000     0.800     0.800     0.000     True
+  pool      5   20.000    4.000     4.000     0.000     True
+  ring      6   4.000     0.667     0.667     0.000     True
+  pool      6   30.000    5.000     5.000     0.000     True
+
+H1 — does the per-hub Shapley share fall as mediation distributes?
+  n=5: per-hub share by hub count [2.2, 2.2, 2.05, 2.333]  monotone_down=False  falls=False
+  n=6: per-hub share by hub count [2.667, 2.667, 2.4, 2.35, 2.833]  monotone_down=False  falls=False
+
+H2 — are ring and pool Shapley values equal across all nodes (within tol)?
+  ring       n=5: spread=0.000  equal=True
+  pool       n=5: spread=0.000  equal=True
+  ring       n=6: spread=0.000  equal=True
+  pool       n=6: spread=0.000  equal=True
+==============================================================================
+  Control mediator share = 0.666 (read-recipient ~2/3 rent).
+H1 (per-hub Shapley share falls monotonically as mediation distributes): REFUTED
+H2 (symmetric topologies ring/pool yield equal Shapley values within tol): SUPPORTED
+==============================================================================
