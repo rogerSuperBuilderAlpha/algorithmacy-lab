@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q141-lagging-objective",
+      "cmd": "python -m org_frontier.questions.q141_lagging_objective.probe_lagging_objective",
+      "expect": [
+        "CONTROL faithful triad: triadic Φ=2.000  PASS",
+        "H1 (the lag re-integrates the displaced worker — out of core when immediate, in when lagged): SUPPORTED",
+        "H2 (the lagged form is more integrated than the immediate one): SUPPORTED  (Φ lagged 2.0 > immediate 1.0)"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q141_lagging_objective/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q140-coalition-stability",
       "cmd": "python -m org_frontier.questions.q140_coalition_stability.probe_coalition_stability",
       "expect": [
