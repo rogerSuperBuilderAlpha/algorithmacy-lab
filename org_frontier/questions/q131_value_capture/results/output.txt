@@ -1,0 +1,29 @@
+PROBE 286 (Q131) — value capture under an interested mediator
+========================================================================
+  CONTROL faithful mediator: total Φ=2.000, Shapley S=1.333 (share 66.6%)  PASS
+
+[agenda = approve (a=1)]  k = interestedness level
+  k | total Φ | Shapley W / S / C        | mediator share
+  --+---------+--------------------------+---------------
+  0 |   2.000 |  0.333 /  1.333 /  0.333   |  66.6%
+  1 |   0.500 |  0.167 /  0.167 /  0.167   |  33.4%
+  2 |   0.000 | -0.053 /  0.026 /  0.026   |   0.0%
+  3 |   0.000 |  0.000 /  0.000 /  0.000   |   0.0%
+  4 |   0.000 |  0.000 /  0.000 /  0.000   |   0.0%
+
+[agenda = deny (a=0)]  k = interestedness level
+  k | total Φ | Shapley W / S / C        | mediator share
+  --+---------+--------------------------+---------------
+  0 |   2.000 |  0.333 /  1.333 /  0.333   |  66.6%
+  1 |   0.000 |  0.000 /  0.000 /  0.000   |   0.0%
+  2 |   0.000 |  0.000 /  0.000 /  0.000   |   0.0%
+  3 |   0.000 |  0.000 /  0.000 /  0.000   |   0.0%
+  4 |   0.000 |  0.000 /  0.000 /  0.000   |   0.0%
+
+========================================================================
+  H1 (total value falls to zero as interestedness rises): SUPPORTED  (Φ: 2.00, 0.50, 0.00, 0.00, 0.00)
+  H2 (the mediator's share falls, not rises — value destruction not rent extraction): SUPPORTED  (share while positive: 67%, 33%)
+  Reading: an interested mediator does not extract a larger share by serving itself. The
+  coordination's value shrinks and the mediator's own capture shrinks with it, because the share
+  came from being the bottleneck both parties needed — exactly what self-interest gives up.
+========================================================================
