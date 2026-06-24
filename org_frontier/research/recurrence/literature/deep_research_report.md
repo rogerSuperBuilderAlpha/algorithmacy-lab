@@ -1,4 +1,4 @@
-<!-- run: 2026-06-23 | sources: 24 | verified: 24 -->
+<!-- run: 2026-06-24 | sources: 106 | verified: 106 -->
 Deep-research run, 2026-06-23. 12 search angles, 24 sources, 24 verified.
 
 ## 1. Recurrence plots and RQA foundations
