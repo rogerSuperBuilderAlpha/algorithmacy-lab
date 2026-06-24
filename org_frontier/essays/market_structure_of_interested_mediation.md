@@ -35,9 +35,7 @@ The two-thirds is a three-party number. In the conjunctive star, where a mediato
 parties warrant it, the total integrated value grows as Φ = n − 1, but the mediator's share of it falls — 66.6%
 at three parties, 58.3% at four, 55.0% at five — toward one-half, while the outer parties collectively keep
 more (Q134). The mediator is in every productive coalition at every size and still its slice shrinks, because
-the value the additional parties bring is increasingly held by the parties together. Concentrated platform
-power is a small-coordination phenomenon; the platform that mediates a crowd is structurally less dominant than
-the one that mediates a pair.
+the value the additional parties bring is increasingly held by the parties together. In the model, concentrated mediator dominance is a small-coordination phenomenon: the mediator of a crowd is structurally less dominant than the mediator of a pair.
 
 ## Competition: it does not return the rent
 
@@ -90,6 +88,15 @@ sub-coalition values collapse, no coalition can secure anything by breaking away
 simplex, and the parties can hold the entire reduced value. Faithful mediation grows the pie and monopolizes
 it; interested mediation frees the pie and shrinks it. The parties are never offered both a large value and a
 stable claim on it.
+
+## The objective: the agenda is a co-owner
+
+When the interested system's objective is itself learned from both parties, it does not merely re-integrate
+the coordination — it captures value on a par with the system. The objective takes exactly the share the
+system takes in every adaptive form, and the human parties' fate tracks displacement: negative value where the
+objective displaces a party from the core, an equal quarter where it keeps all four bound (Q135). An interested
+system that learns from both sides installs its own goal as a co-owner of the coordination, and the value flows
+to the system and its goal with the parties holding the remainder, which can be nothing.
 
 ## Time: slow learning is inclusive
 
