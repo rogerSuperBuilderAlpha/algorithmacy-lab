@@ -1609,6 +1609,40 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q135-objective-rent",
+      "cmd": "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent",
+      "expect": [
+        "CONTROL faithful triad: mediator 1.333 of Φ=2.000 (two-thirds)  PASS",
+        "H1 (the adaptive objective captures positive value — a claimant, not a passive goal): SUPPORTED",
+        "REFINED (the objective captures exactly what the system does — a co-equal rentier): CONFIRMED",
+        "REFINED (the parties' value tracks displacement — negative under AND/OR, positive under XOR): CONFIRMED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q135_objective_rent/FINDINGS.md (H1 + refined)"
+    },
+    {
+      "name": "q134-rent-scaling",
+      "cmd": "python -m org_frontier.questions.q134_rent_scaling.probe_rent_scaling",
+      "expect": [
+        "CONTROL 3-party triad: total Φ=2.000, mediator 1.333 share 66.6%  PASS",
+        "H1 (mediator share is scale-invariant at two-thirds): NOT SUPPORTED",
+        "H2 (the share declines as parties are added — the rent dilutes): SUPPORTED  (share 66.6% -> 58.3% -> 55.0%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q134_rent_scaling/FINDINGS.md (H1-H2)"
+    },
+    {
+      "name": "q133-deny-symmetry",
+      "cmd": "python -m org_frontier.questions.q133_deny_symmetry.probe_deny_symmetry",
+      "expect": [
+        "CONTROL faithful AND: total Φ=2.000, mediator share 66.6%  PASS",
+        "H1 (deny: XNOR re-integrates and extracts, mirroring XOR-under-approve): SUPPORTED  (extraction on: ['XNOR'])",
+        "H2 (AND/OR destroy under deny; XOR does not re-integrate under deny): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q133_deny_symmetry/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q132-value-baselines",
       "cmd": "python -m org_frontier.questions.q132_value_baselines.probe_value_baselines",
       "expect": [

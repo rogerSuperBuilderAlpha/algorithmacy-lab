@@ -1,0 +1,47 @@
+PROBE 288 (Q133) — value capture under the deny agenda: completing the Q132 symmetry
+====================================================================================
+  CONTROL faithful AND: total Φ=2.000, mediator share 66.6%  PASS
+
+[baseline AND, deny agenda]
+  k | verdict Φ | mediator share
+  --+-----------+---------------
+  0 |     2.000 |  66.6%
+  1 |     0.000 |    —  
+  2 |     0.000 |    —  
+  3 |     0.000 |    —  
+  4 |     0.000 |    —  
+
+[baseline OR, deny agenda]
+  k | verdict Φ | mediator share
+  --+-----------+---------------
+  0 |     2.000 |  66.6%
+  1 |     0.500 |  33.4%
+  2 |     0.000 |    —  
+  3 |     0.000 |    —  
+  4 |     0.000 |    —  
+
+[baseline XNOR, deny agenda]
+  k | verdict Φ | mediator share
+  --+-----------+---------------
+  0 |     0.500 |  33.4%
+  1 |     2.000 |  66.6%
+  2 |     2.000 |  66.6%
+  3 |     2.000 |  66.6%
+  4 |     0.000 |    —  
+
+[baseline XOR, deny agenda]
+  k | verdict Φ | mediator share
+  --+-----------+---------------
+  0 |     0.500 |  33.4%
+  1 |     0.500 |  33.4%
+  2 |     0.000 |    —  
+  3 |     0.000 |    —  
+  4 |     0.000 |    —  
+
+====================================================================================
+  H1 (deny: XNOR re-integrates and extracts, mirroring XOR-under-approve): SUPPORTED  (extraction on: ['XNOR'])
+  H2 (AND/OR destroy under deny; XOR does not re-integrate under deny): SUPPORTED
+  Reading: the destruction-vs-extraction split is symmetric in the agenda — approve extracts on
+  XOR, deny extracts on XNOR — because each agenda re-integrates the balanced baseline whose
+  minority output it overrides. The value image of Q127's agenda symmetry.
+====================================================================================
