@@ -1609,6 +1609,17 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q134-rent-scaling",
+      "cmd": "python -m org_frontier.questions.q134_rent_scaling.probe_rent_scaling",
+      "expect": [
+        "CONTROL 3-party triad: total Φ=2.000, mediator 1.333 share 66.6%  PASS",
+        "H1 (mediator share is scale-invariant at two-thirds): NOT SUPPORTED",
+        "H2 (the share declines as parties are added — the rent dilutes): SUPPORTED  (share 66.6% -> 58.3% -> 55.0%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q134_rent_scaling/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q133-deny-symmetry",
       "cmd": "python -m org_frontier.questions.q133_deny_symmetry.probe_deny_symmetry",
       "expect": [
