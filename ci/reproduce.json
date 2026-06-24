@@ -1609,6 +1609,39 @@
       "source": "org_frontier/questions/q120_higher_order_binding/FINDINGS.md (H1, both families)"
     },
     {
+      "name": "q138-faithful-fraction",
+      "cmd": "python -m org_frontier.questions.q138_faithful_fraction.probe_faithful_fraction",
+      "expect": [
+        "CONTROL fully faithful (4/4): Φ=2.000, mediator share 67%  PASS",
+        "H1 (a minimum faithful fraction revives the coordination): SUPPORTED  (minimum = 3/4 = 75% faithful)",
+        "H2 (threshold regulation gives an egalitarian split; mediator dominance only at full faith): SUPPORTED  (at 3/4 mediator 33%, at 4/4 mediator 67%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q138_faithful_fraction/FINDINGS.md (H1-H2)"
+    },
+    {
+      "name": "q137-interested-worker",
+      "cmd": "python -m org_frontier.questions.q137_interested_worker.probe_interested_worker",
+      "expect": [
+        "CONTROL faithful triad: Φ=2.000, worker Shapley 0.333 (share 17%)  PASS",
+        "H1 (worker gaming collapses the coordination — Φ -> 0 whenever k_W >= 1): SUPPORTED",
+        "H2 (worker's share rises only when the system defects; absolute value never gains): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q137_interested_worker/FINDINGS.md (H1-H2)"
+    },
+    {
+      "name": "q136-competing-mediators",
+      "cmd": "python -m org_frontier.questions.q136_competing_mediators.probe_competing_mediators",
+      "expect": [
+        "CONTROL single faithful mediator: share 66.6% (two-thirds)  PASS",
+        "H1 (substitutable mediators eliminate the coordination — Φ -> 0, no rent): SUPPORTED",
+        "H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (Φ=4.0, each mediator 25%, each party 25%)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q136_competing_mediators/FINDINGS.md (H1-H2)"
+    },
+    {
       "name": "q135-objective-rent",
       "cmd": "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent",
       "expect": [

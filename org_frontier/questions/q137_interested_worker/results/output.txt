@@ -1,0 +1,19 @@
+PROBE 292 (Q137) — the interested worker: can gaming the system reclaim value?
+================================================================================
+  CONTROL faithful triad: Φ=2.000, worker Shapley 0.333 (share 17%)  PASS
+
+  Worker absolute Shapley value (and Φ) by interestedness:
+  k_S \ k_W |   0 (faithful)   |   1 (gaming)   |   2 (ignores system)
+  ----------+------------------+----------------+---------------------
+  0 (faithful  ) | Φ2.00 W=+0.333   | Φ0.00 W=-0.667 | Φ0.00 W=-0.667
+  1 (interested) | Φ0.50 W=+0.167   | Φ0.00 W=+0.000 | Φ0.00 W=+0.000
+  2 (predatory ) | Φ0.00 W=-0.053   | Φ0.00 W=-0.053 | Φ0.00 W=-0.053
+
+================================================================================
+  H1 (worker gaming collapses the coordination — Φ -> 0 whenever k_W >= 1): SUPPORTED
+  H2 (worker's share rises only when the system defects; absolute value never gains): SUPPORTED  (share at k_S=1: 33% vs baseline 17%; max worker abs = 0.333)
+  Reading: the worker has no structural lever to capture value. Acting on its own agenda rather
+  than the system's signal collapses the irreducible bind, so gaming yields nothing. Its share
+  rises only when the SYSTEM defects and the shrinking value equalizes, but its absolute take falls
+  in every interested cell. Resistance breaks the coordination; it does not redistribute it.
+================================================================================
