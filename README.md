@@ -255,12 +255,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (90)
+### Questions — the logbook (91)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 90 questions</summary>
+<summary>Browse all 91 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -354,6 +354,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q137](org_frontier/questions/q137_interested_worker/paper.md) | The interested worker: gaming the system breaks the coordination, it does not reclaim value | the worker cannot reclaim value by gaming; resistance breaks the coordination |
 | [Q138](org_frontier/questions/q138_faithful_fraction/paper.md) | The minimum faithful fraction: reviving the coordination, and who pays for it | reviving the coordination takes three-quarters faithfulness, and the rent is the last quarter |
 | [Q139](org_frontier/questions/q139_value_veto/paper.md) | Value and veto: Q112's decoupling is the integration | veto is always universal; the value-veto gap is the integration |
+| [Q140](org_frontier/questions/q140_coalition_stability/paper.md) | The core inverts the rent: faithful mediation monopolizes, interest frees the value | faithful mediation monopolizes the core; interest frees it |
 
 </details>
 
