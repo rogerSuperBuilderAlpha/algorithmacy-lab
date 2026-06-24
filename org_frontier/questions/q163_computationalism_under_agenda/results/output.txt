@@ -1,0 +1,42 @@
+PROBE 317 (Q163) — computationalism under an agenda: the interested mediator as a third object
+============================================================================================
+CONTROL faithful actor: triadic Φ=2.000; channel Φ=0.000 -- PASS
+
+[ordered ladder, agenda = approve (a=1)]  (channel Φ=0 at every k, so surplus = actor Φ)
+  k | actor Φ | channel Φ | surplus | S reads      | actor core
+  --+---------+-----------+---------+--------------+-----------
+  0 |   2.000 |     0.000 |   2.000 | W,C          | WSC
+  1 |   0.500 |     0.000 |   0.500 | W,C          | WSC
+  2 |   0.000 |     0.000 |   0.000 | W,C          | WS
+  3 |   0.000 |     0.000 |   0.000 | (neither)    | (none)
+  4 |   0.000 |     0.000 |   0.000 | (neither)    | (none)
+
+[ordered ladder, agenda = deny (a=0)]  (channel Φ=0 at every k, so surplus = actor Φ)
+  k | actor Φ | channel Φ | surplus | S reads      | actor core
+  --+---------+-----------+---------+--------------+-----------
+  0 |   2.000 |     0.000 |   2.000 | W,C          | WSC
+  1 |   0.000 |     0.000 |   0.000 | (neither)    | (none)
+  2 |   0.000 |     0.000 |   0.000 | (neither)    | (none)
+  3 |   0.000 |     0.000 |   0.000 | (neither)    | (none)
+  4 |   0.000 |     0.000 |   0.000 | (neither)    | (none)
+
+[order-averaged ladder]  mean actor Φ over all C(4,k) override sets (= mean surplus)
+  k | sets | surplus (approve) | surplus (deny)
+  --+------+-------------------+---------------
+  0 |    1 |            2.0000 |         2.0000
+  1 |    4 |            0.6250 |         1.5000
+  2 |    6 |            0.4167 |         1.0000
+  3 |    4 |            0.5000 |         0.5000
+  4 |    1 |            0.0000 |         0.0000
+
+============================================================================================
+  H1 surplus rises then collapses (interested actor is a third object): SUPPORTED  [approve rises, deny monotone]
+  H2 S sheds a party before Φ reaches 0 (agenda-reading dissociates from party-reading): REFUTED
+============================================================================================
+  Reading H1: under the approve agenda the order-averaged surplus dips at k=2 and rises
+  again at k=3 before collapsing at k=4. A monotone channel-degradation cannot produce
+  that bump, so the interested actor sits outside the channel/actor dichotomy.
+  Reading H2: the null holds. On the ordered ladder S's rule still depends on both W and C
+  (flip-test) while whole-system Φ has already dropped to 0. Reading-the-agenda does not
+  substitute for reading-the-parties before the bind collapses; the two do not dissociate
+  on this coarse connectivity test.

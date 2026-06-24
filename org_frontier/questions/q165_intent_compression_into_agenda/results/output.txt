@@ -1,0 +1,31 @@
+PROBE 319 (q165) — intent compression into an agenda: self-interest and embodiment loss
+======================================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: triadic Φ=2.000; faithful reads_n core=WSN reads N=True ... PASS
+
+[H1] read-fidelity compression curve Φ(q): faithful vs interested mediator
+  q    | faithful (k0) | interested approve (k1) | interested deny (k1)
+  -----+---------------+-------------------------+---------------------
+  1.00 |        2.0000 |                  0.5000 |              0.0000
+  0.90 |        1.6714 |                  0.4986 |              0.0000
+  0.75 |        1.2363 |                  0.4900 |              0.0000
+  0.60 |        0.8679 |                  0.4706 |              0.0000
+  0.50 |        0.6581 |                  0.4500 |              0.0000
+  interested approve strictly below faithful at every q<1: True
+  interested deny    strictly below faithful at every q<1: True
+
+[H2] nuance bit N in the core: faithful reads_n vs interested mediator (full fidelity q=1)
+  mediator              | S reads N | core            | N in core
+  ----------------------+-----------+-----------------+----------
+  faithful (reads_n)    |      True | WSN             | True
+  interested approve    |     False | SC              | False
+  interested deny       |     False | (none)          | False
+  faithful carries N into core: True
+  interested mediator evicts N (both agendas), at full fidelity: True
+
+======================================================================================
+H1 (interested Φ(q) strictly below faithful at every q<1 — interest steepens embodiment loss): SUPPORTED
+H2 (interest evicts the nuance bit N from the core independently of read-fidelity): SUPPORTED
+Reading: an interested mediator compresses the worker's intent faster than a faithful one —
+the agenda crowds out the channel for her meaning — and it drops the nuance the faithful
+mediator carried, even at perfect read fidelity. Self-interest, not opacity alone, sheds intent.
+======================================================================================

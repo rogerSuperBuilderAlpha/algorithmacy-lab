@@ -1,0 +1,22 @@
+CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, core=('W', 'S', 'C') (label=triadic): PASS
+========================================================================================
+q153 — CRQA features classifying the triadic-vs-dyadic exact-Φ verdict
+========================================================================================
+pool: 18 triadic + 77 dyadic forms; balanced corpus: n=45 (18 triadic, 27 dyadic), majority-class baseline=0.6000
+----------------------------------------------------------------------------------------
+  metric                            value
+  5-fold held-out accuracy (real)   0.5556
+  5-fold held-out accuracy (shuffled)0.5778
+  majority-class baseline           0.6000
+----------------------------------------------------------------------------------------
+  feature     standardized coef   |coef|
+  det         -0.0673             0.0673
+  rr          0.0459              0.0459
+  lag_var     -0.2211             0.2211
+  spread      0.5440              0.5440  <- largest
+========================================================================================
+H1 summary: real held-out accuracy 0.5556 <= baseline 0.6000; shuffle control 0.5778.
+H2 summary: largest standardized coefficient is 'spread' (|coef|=0.5440).
+========================================================================================
+H1 CRQA features beat the majority baseline: REFUTED
+H2 prominence spread is the most predictive feature: CONFIRMED

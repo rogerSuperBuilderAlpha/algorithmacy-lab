@@ -1,0 +1,16 @@
+CONTROL decoupled reads 'dyadic'; faithful triad reads 'triadic' max_phi=2.000000; alpha=1 CI degenerate [2.000000,2.000000]: PASS
+
+H1 verdict reproducibility (bridge vs classify_rules)
+  rule forms sampled        : 250
+  verdict-flips             : 0
+  alpha=1 CI degenerate     : True
+
+H2 CI coverage of the consensus Φ (synthetic coder panels)
+  consensus Φ               : 2.000000
+  coder panels drawn        : 500
+  coders per panel          : 12
+  empirical coverage        : 0.9440
+  nominal target            : 0.95  (support band [0.93,0.97])
+
+H1 verdict reproducibility + degenerate CI under agreement: SUPPORTED
+H2 coder-weighted CI brackets the consensus Φ at nominal 95%: SUPPORTED

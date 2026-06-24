@@ -1,0 +1,65 @@
+PROBE 325 (Q171) — drift binding with an agenda: drift x interest, do the erosions add?
+======================================================================================
+  CONTROL faithful triad: verdict=triadic max_phi=2.000  sphi(d=0,k=0)=2.000  PASS
+
+[agenda = approve (a=1)]  Φ over the drift x interest grid
+  d\k |  k=0   k=1   k=2   k=3   k=4 
+  ----+------------------------------
+  0.0 | 2.000 0.500 0.000 0.000 0.000
+  0.1 | 0.719 0.500 0.000 0.000 0.000
+  0.25| 0.452 0.500 0.000 0.000 0.000
+  0.5 | 0.207 0.415 0.000 0.000 0.000
+    edges: k=0 row is pure-drift PP4 (A=W&C drifting to W|C); d=0 column is pure-interest Q126.
+
+[agenda = deny (a=0)]  Φ over the drift x interest grid
+  d\k |  k=0   k=1   k=2   k=3   k=4 
+  ----+------------------------------
+  0.0 | 2.000 0.000 0.000 0.000 0.000
+  0.1 | 0.719 0.074 0.000 0.000 0.000
+  0.25| 0.452 0.193 0.000 0.000 0.000
+  0.5 | 0.207 0.415 0.000 0.000 0.000
+    edges: k=0 row is pure-drift PP4 (A=W&C drifting to W|C); d=0 column is pure-interest Q126.
+
+[H1] interior cells vs the multiplicative null  Φ(d,0)·Φ(0,k)/Φ(0,0)
+  agenda |  d   | k | Φ_combined | null_product | Φ<null (super-additive)
+  -------+------+---+------------+--------------+------------------------
+  approve | 0.1  | 1 |      0.500 |        0.180 | False
+  approve | 0.1  | 2 |      0.000 |        0.000 | False
+  approve | 0.1  | 3 |      0.000 |        0.000 | False
+  approve | 0.1  | 4 |      0.000 |        0.000 | False
+  approve | 0.25 | 1 |      0.500 |        0.113 | False
+  approve | 0.25 | 2 |      0.000 |        0.000 | False
+  approve | 0.25 | 3 |      0.000 |        0.000 | False
+  approve | 0.25 | 4 |      0.000 |        0.000 | False
+  approve | 0.5  | 1 |      0.415 |        0.052 | False
+  approve | 0.5  | 2 |      0.000 |        0.000 | False
+  approve | 0.5  | 3 |      0.000 |        0.000 | False
+  approve | 0.5  | 4 |      0.000 |        0.000 | False
+  deny   | 0.1  | 1 |      0.074 |        0.000 | False
+  deny   | 0.1  | 2 |      0.000 |        0.000 | False
+  deny   | 0.1  | 3 |      0.000 |        0.000 | False
+  deny   | 0.1  | 4 |      0.000 |        0.000 | False
+  deny   | 0.25 | 1 |      0.193 |        0.000 | False
+  deny   | 0.25 | 2 |      0.000 |        0.000 | False
+  deny   | 0.25 | 3 |      0.000 |        0.000 | False
+  deny   | 0.25 | 4 |      0.000 |        0.000 | False
+  deny   | 0.5  | 1 |      0.415 |        0.000 | False
+  deny   | 0.5  | 2 |      0.000 |        0.000 | False
+  deny   | 0.5  | 3 |      0.000 |        0.000 | False
+  deny   | 0.5  | 4 |      0.000 |        0.000 | False
+
+[H2] cells where adding drift raises Φ above the d=0 baseline at the same k
+  agenda |  d   | k | Φ(d=0,k) baseline | Φ(d,k) with drift
+  -------+------+---+-------------------+------------------
+  deny   | 0.1  | 1 |             0.000 |             0.074
+  deny   | 0.25 | 1 |             0.000 |             0.193
+  deny   | 0.5  | 1 |             0.000 |             0.415
+
+======================================================================================
+  H1 (drift and agenda super-additively destroy the binding): REFUTED
+  H2 (drift can partially re-integrate an interested mediator): SUPPORTED
+  Reading: the two erosions do not stack. Where interest has already overridden a state,
+  drift on the remaining faithful states re-introduces party-dependence, so combined Φ sits
+  far above the multiplicative null and, on the deny agenda at k=1, rises from 0 as drift
+  enters. One opacity masks the other rather than adding to it.
+======================================================================================

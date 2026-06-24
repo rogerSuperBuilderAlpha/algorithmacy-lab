@@ -1,0 +1,33 @@
+CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, mc_phi=2.000, core=('W', 'S', 'C') (label=triadic): PASS
+========================================================================================
+q159 — length to a stable CRQA triadic/dyadic verdict
+========================================================================================
+pool: n=95 forms (18 triadic, 77 dyadic); Φ range 0.342-2.000, median 2.000
+spread threshold fit at 2400 steps: spread >= 9.0 => triadic (balanced accuracy 0.6230)
+----------------------------------------------------------------------------------------
+  steps     agree exact-Φ     matches ref verdict   
+  150       0.7158            0.8211                
+  300       0.7684            0.9158                
+  600       0.8000            0.9474                
+  1200      0.8105            0.9579                
+  2400      0.7684            1.0000                
+----------------------------------------------------------------------------------------
+convergence length (steps to a verdict that stays at the reference reading):
+  converged at 150          74  (77.89%)
+  converged at 300           9  ( 9.47%)
+  converged at 600           5  ( 5.26%)
+  converged at 1200          3  ( 3.16%)
+  converged at 2400          4  ( 4.21%)
+  share converged by 600  92.63%
+----------------------------------------------------------------------------------------
+convergence length by exact-Φ tertile (rank split: low Φ<= 2.000, high Φ>= 2.000):
+  Φ tertile           n     mean conv. length
+  low                31                 159.7
+  mid                33                 336.4
+  high               31                 450.0
+========================================================================================
+H1 summary: 92.63% of forms converged by 600 steps (threshold 80%); agreement at 1200=0.8105, at 2400=0.7684 (no gain past 1200).
+H2 summary: mean convergence length low-Φ=159.7, high-Φ=450.0 (high >= low).
+========================================================================================
+H1 CRQA verdict converges by 600 steps for >80% of forms with no gain past 1200: SUPPORTED
+H2 required convergence length decreases with Φ magnitude: REFUTED

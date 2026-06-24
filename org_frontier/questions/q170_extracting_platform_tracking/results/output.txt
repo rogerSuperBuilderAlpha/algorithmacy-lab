@@ -1,0 +1,25 @@
+PROBE 324 (Q170) — does the worker's generative model track an extracting platform?
+======================================================================================
+  CONTROL faithful triad [x1, x0&x2, x1]: verdict 'triadic' max_phi 2.000  -> PASS
+
+[approve agenda]  worker probing budget = 4000 per mediator; counterpart C hidden and uniform
+  k | S share | KL(true||recovered) | recoverable frac | note
+  --+---------+---------------------+------------------+-----
+  0 |  66.6%  |              0.5009 |             0.75 | faithful
+  1 |  33.4%  |              1.0008 |             0.50 | value-equalization
+  2 |   0.0%  |              0.5003 |             0.75 | 
+  3 |   0.0%  |              0.0007 |             1.00 | 
+  4 |   0.0%  |              0.0007 |             1.00 | 
+
+======================================================================================
+  value-equalization k (Q131 mediator share -> parity): k = 1
+  KL faithful (k=0) = 0.5009 bits; max interested KL = 1.0008 bits at k = 1
+  steepest recoverable-fraction drop at k = 1
+  H1 (recovered-model KL is higher for the interested mediator than the faithful one): SUPPORTED
+  H2 (fidelity loss peaks at the value-equalization k from Q131): CONFIRMED
+  Reading: probing recovers a faithful gate up to the half-bit floor the hidden counterpart
+  sets, and recovers an interested gate worse, with the loss peaking exactly where the
+  agenda has extracted the mediator's share down to parity — extraction and unrecoverability
+  are the same point. Past it the mediator goes constant and the rule becomes fully
+  recoverable from W alone, the worker's model tracking a platform that no longer reads her.
+======================================================================================

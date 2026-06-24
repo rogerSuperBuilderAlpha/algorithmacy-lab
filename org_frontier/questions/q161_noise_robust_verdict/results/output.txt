@@ -1,0 +1,46 @@
+CONTROL faithful triad: structure=triadic max_phi=2.000 core=(0, 1, 2) cc_pick=1 -> PASS
+============================================================================================
+q161 — noise-robust structural verdict (triadic/dyadic vs membership vs bottleneck)
+============================================================================================
+corpus: 16 forms (7 triadic, 9 dyadic); flips swept: (0.02, 0.05, 0.08, 0.12, 0.18, 0.3); 20 seeds/form/flip
+ground truth fixed by exact IIT-4.0 Φ; thresholds calibrated once at natural flip 0.08
+
+Corpus-mean verdict agreement vs flip (1.0 = always matches fixed exact-Φ ground truth)
+--------------------------------------------------------------------------------------------
+  flip            0.02      0.05      0.08      0.12      0.18      0.30
+  triad/dyad     0.619     0.531     0.487     0.456     0.478     0.484
+  membership     0.436     0.462     0.484     0.524     0.539     0.553
+  bottleneck     0.753     0.809     0.822     0.838     0.838     0.844
+--------------------------------------------------------------------------------------------
+  best-minus-worst across flip:  triad/dyad 0.162   membership 0.117   bottleneck 0.091
+
+triadic/dyadic correct (seed-majority) at EVERY swept flip: 5/16 forms = 0.312
+bottleneck recovery best=0.844 worst=0.753 drop=0.091
+
+Per-form optimal flip (argmax mean three-verdict agreement) vs intrinsic update entropy
+--------------------------------------------------------------------------------------------
+  form                       opt_flip   best_agree   intrinsic_H
+  chat_dyad                  0.02       0.722        1.0000    
+  gig_dyadic_model           0.02       0.778        0.9371    
+  ats_strict_bottleneck      0.02       0.778        0.9371    
+  ats_feedback_factors       0.02       0.389        0.8742    
+  gig_false_dyad             0.02       0.444        0.8742    
+  two_sided_match            0.02       0.778        0.9371    
+  hierarchy_backchannel      0.02       0.667        0.9371    
+  pool_all_required          0.02       0.833        0.8859    
+  substitutable_counterparts 0.30       0.567        0.9886    
+  one_counterpart_constitutive 0.12       0.900        0.9528    
+  decoupled_control          0.30       0.833        0.9528    
+  mediator_chain             0.12       0.533        0.9056    
+  deep_pool_all              0.18       0.850        0.8710    
+  deep_substitutable         0.02       0.713        0.9531    
+  multihome_either           0.30       0.333        0.8113    
+  multihome_both             0.18       0.817        0.8113    
+--------------------------------------------------------------------------------------------
+distinct optimal flips across forms: [0.02, 0.12, 0.18, 0.3]
+Spearman(intrinsic_H, optimal_flip) = -0.148
+
+H1 (triad/dyad robust > 80% of forms AND bottleneck degrades > 20 pts): REFUTED
+    triad/dyad correct-at-every-flip fraction 0.312 (> 0.80: False); bottleneck drop 0.091 (> 0.20: False)
+H2 (per-form optimal flip varies AND tracks intrinsic update entropy): NOT SUPPORTED
+    optima vary across forms: True (4 distinct); Spearman vs entropy = -0.148 (needs > 0.30 in the positive direction)

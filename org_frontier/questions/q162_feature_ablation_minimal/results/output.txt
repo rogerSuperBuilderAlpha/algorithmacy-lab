@@ -1,0 +1,24 @@
+CONTROL faithful triad: structure=triadic max_phi=2.000 core=(0, 1, 2) msize=3 cc_pick=1 -> PASS
+============================================================================================
+q162 — minimal CRQA feature set for the joint structural verdict (td, msize, bneck)
+============================================================================================
+corpus: 16 curated forms + 112 random-ensemble forms (sub-dyadic dropped)
+train: 83 forms (curated 16 + random 67); held-out test: 45 random forms
+held-out test label mix: triadic 5/45, unique-bottleneck 27/45, msize classes [2, 3]
+
+Held-out joint accuracy by feature set (1-NN, identical train/test split)
+--------------------------------------------------------------------------------------------
+  feature set                        joint    td       msize    bneck   
+  A      (coupling prominence)       0.422    0.711    0.711    0.489   
+  B      (md_recurrence)             0.244    0.422    0.422    0.467   
+  A+B    (full CRQA)                 0.489    0.756    0.756    0.578   
+  A+B+C  (CRQA + transfer entropy)   0.444    0.667    0.667    0.578   
+--------------------------------------------------------------------------------------------
+
+A joint 0.422 ; A+B joint 0.489 ; md_recurrence drop (A+B - A) = 0.067
+A+B joint 0.489 ; A+B+C joint 0.444 ; transfer-entropy gain (A+B+C - A+B) = -0.044
+
+H1 (coupling prominence A within 3 pts of full CRQA A+B): REFUTED
+    md_recurrence drop 0.067 (6.7 pts); within tolerance 0.030: False
+H2 (transfer entropy adds no held-out joint accuracy beyond CRQA): CONFIRMED
+    transfer-entropy gain -0.044 (-4.4 pts); within tolerance 0.030: True

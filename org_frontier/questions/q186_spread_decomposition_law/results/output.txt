@@ -1,0 +1,39 @@
+CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS
+
+BRIDGE check  cached components reproduce q183 spread() on a sample pair: PASS
+
+ANCHOR control  identical-account pairs give (1, 0.0, 1.0): PASS
+
+Account census  per-account verdict and major-complex core
+  settingaccount      structure     max_phi   core
+  n3    triad          triadic    2.000000   ['A', 'B', 'C']
+  n3    or_triad       triadic    2.000000   ['A', 'B', 'C']
+  n3    xor_triad      triadic    0.500000   ['A', 'B', 'C']
+  n3    chain          triadic    2.000000   ['A', 'B', 'C']
+  n3    and_all        triadic    6.000000   ['A', 'B', 'C']
+  n3    or_all         triadic    6.000000   ['A', 'B', 'C']
+  n3    dyad_AB         dyadic    0.000000   ['A', 'B']
+  n3    self_C          dyadic    0.000000   ['C']
+  n4    quad_and       triadic    4.000000   ['A', 'B', 'C', 'D']
+  n4    chain4         triadic    2.000000   ['A', 'B', 'C', 'D']
+  n4    triad_free      dyadic    0.000000   ['A', 'B', 'C']
+  n4    dyad_AB4        dyadic    0.000000   ['A', 'B']
+  n4    tri_coreAB     triadic    0.415037   ['A', 'B']
+  n4    two_dyads       dyadic    0.000000   ['C', 'D']
+
+Census size  43 account pairs (28 at n=3, 15 at n=4)
+Spearman rank correlation between the three divergence axes
+  verdict_disagree vs phi_gap   rho = +0.2302
+  verdict_disagree vs core_div  rho = +0.5122
+  phi_gap          vs core_div  rho = -0.0946
+
+Off-diagonal patterns (components disagreeing about how far apart the accounts sit)
+  agree-but-gapped      (verdict_agreement=1, phi_gap>0):       14
+  disagree-but-samecore (verdict_agreement=0, core_jaccard=1):  1
+  any off-diagonal pair: 15 / 43 = 0.3488 of the census
+
+  example agree-but-gapped:      n3 triad/xor_triad  phi_gap=1.5000 core_jaccard=1.0000
+  example disagree-but-samecore: n4 dyad_AB4/tri_coreAB  phi_gap=0.4150 core_jaccard=1.0000
+
+H1 three components not rank-one collinear (both off-diagonal cells non-empty: 14, 1; some rho<1: True): SUPPORTED
+H2 off-diagonal fraction 0.3488 exceeds 0.10: CONFIRMED

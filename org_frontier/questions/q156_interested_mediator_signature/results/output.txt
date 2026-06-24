@@ -1,0 +1,25 @@
+PROBE 310 (q156) — interested vs faithful mediator: a CRQA outgoing-edge signature
+====================================================================================
+CONTROL faithful triad [x1, x0&x2, x1]: triadic max_phi=2.000 core=('W', 'S', 'C') -> PASS
+
+matched pools on the wiring graph W'=S, C'=S, S'=f(W,S,C):
+  faithful (symmetric rule):   27 forms
+  interested (asymmetric rule): 18 forms
+
+STRUCTURAL CORES (exact IIT-4.0 Φ major complex)
+  faithful cores:   [('W', 'S', 'C')]
+  interested cores: [('W', 'S', 'C')]
+  membership distinguishes the pools: False
+
+OUTGOING DCRP PROMINENCE (mean over 16 seeded trajectories per form)
+  faithful:   mean=0.3303  sd=0.1113  n=27
+  interested: mean=0.3041  sd=0.0975  n=18
+
+H1 MATCHED PAIRS (every interested x faithful pair on the identical wiring graph)
+  pairs with interested prominence < faithful: 278/486 = 0.5720
+  one-sided Mann-Whitney (interested < faithful): U=208.0  p=0.2121
+  separation threshold: 0.70   significance alpha: 0.05
+
+====================================================================================
+H1 (interested mediators show lower outgoing prominence, separating >70% of pairs): REFUTED
+H2 (structural Φ-core is unchanged, so membership alone misses interestedness): CONFIRMED

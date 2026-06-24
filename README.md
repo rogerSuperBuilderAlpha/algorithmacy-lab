@@ -256,12 +256,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (98)
+### Questions — the logbook (131)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 98 questions</summary>
+<summary>Browse all 131 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -357,12 +357,45 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q139](org_frontier/questions/q139_value_veto/paper.md) | Value and veto: Q112's decoupling is the integration | veto is always universal; the value-veto gap is the integration |
 | [Q140](org_frontier/questions/q140_coalition_stability/paper.md) | The core inverts the rent: faithful mediation monopolizes, interest frees the value | faithful mediation monopolizes the core; interest frees it |
 | [Q141](org_frontier/questions/q141_lagging_objective/paper.md) | The lagging objective: slow learning keeps the worker in the coordination | a lagging objective rescues the worker that immediate adaptation displaces |
+| [Q143](org_frontier/questions/q143_ring_verdict_geometry/paper.md) | The Ring's Verdict and Where Its MIP Cut Falls | The conjunctive ring reads triadic at every size from n=3 to n=7. The core is the full node set |
 | [Q144](org_frontier/questions/q144_mediator_hierarchy_depth/paper.md) | Mediator hierarchy: does Φ track depth like a chain or breadth like a pool? | depth holds Φ at the chain constant; breadth grows it linearly |
 | [Q145](org_frontier/questions/q145_spanning_mediator_law/paper.md) | The spanning-mediator law | A single mediator that spans every party binds the whole set into the core, and Φ rises one |
+| [Q146](org_frontier/questions/q146_smallworld_rewire_phi/paper.md) | Rewiring a conjunctive ring lowers Phi; there is no small-world peak | rewiring lowers Φ monotonically; no small-world peak |
+| [Q147](org_frontier/questions/q147_random_boolean_topology/paper.md) | Which graph statistic predicts a triadic verdict, and how large Φ is | short cycles predict a triadic verdict; core in-degree does not predict Φ |
 | [Q148](org_frontier/questions/q148_multihub_chain_hierarchy/paper.md) | Hierarchy depth and the hub-seam: where a chain of hubs stops integrating | A feedforward chain of gating hubs does not hold a core that spans its groups. At every tested depth the |
+| [Q149](org_frontier/questions/q149_topology_shapley_split/paper.md) | The Shapley split of subsystem Φ across topologies | The mediator rent does not spread out as mediation is carried by more hubs. It concentrates. The |
 | [Q150](org_frontier/questions/q150_ring_chord_integration/paper.md) | Adding one chord to a conjunctive ring: where the integration goes | A single chord across a conjunctive ring leaves the whole-system Φ flat but moves the cut and |
 | [Q151](org_frontier/questions/q151_hub_failure_resilience/paper.md) | Hub-failure resilience: redundant mediation protects the triadic verdict, but the cycle is not the reserve | A single hub loses the triadic verdict when it is frozen. A backup hub and a non-hub ring each keep it. The |
+| [Q152](org_frontier/questions/q152_verdict_vs_complex_topology/paper.md) | The whole-system verdict and the major complex are not interchangeable diagnostics | The whole-system verdict and major-complex membership disagree on the studied catalog |
+| [Q153](org_frontier/questions/q153_triadic_dyadic_classifier/paper.md) | Classifying the triadic-vs-dyadic Φ verdict from CRQA features | CRQA features read from sampled runs do not recover the triadic-vs-dyadic exact-Φ verdict above |
+| [Q154](org_frontier/questions/q154_bottleneck_node_recovery/paper.md) | Behavioral centrality misses the structural articulation point | Coupling centrality does not recover the node exact-Φ marks as the form's articulation point. On the |
+| [Q155](org_frontier/questions/q155_mc_membership_threshold/paper.md) | A coupling-centrality threshold recovers major-complex membership only weakly, and fails on reciprocal coupling | Coupling centrality carries a real but weak signal for major-complex membership. Pooled over 361 |
+| [Q156](org_frontier/questions/q156_interested_mediator_signature/paper.md) | A CRQA signature for the interested mediator | Interested and faithful mediators that share a wiring graph and a full {W, S, C} Φ-core do not |
+| [Q157](org_frontier/questions/q157_te_vs_dcrp_direction/paper.md) | Transfer entropy reads directed read edges better than the recurrence peak lag | Pairwise transfer entropy recovers the true orientation of a directed read edge far more often |
+| [Q158](org_frontier/questions/q158_phi_magnitude_regression/paper.md) | Whole-system recurrence does not track the magnitude of major-complex Φ | Whole-system CRQA measures do not predict the magnitude of exact major-complex Φ across the |
+| [Q159](org_frontier/questions/q159_length_to_verdict_curve/paper.md) | How Long a Run a Stable CRQA Verdict Needs | The CRQA triadic/dyadic verdict settles fast. Convergence length does not track Φ magnitude in this |
+| [Q160](org_frontier/questions/q160_five_node_complex_recovery/paper.md) | Coupling-centrality recovery of the major complex at five parties | q160 |
+| [Q161](org_frontier/questions/q161_noise_robust_verdict/paper.md) | Which structural verdict survives update-noise misspecification | Both hypotheses were fixed before computing. Both fail, and the way they fail reverses the |
+| [Q162](org_frontier/questions/q162_feature_ablation_minimal/paper.md) | The minimal CRQA feature set for the joint structural verdict | The minimal CRQA feature set for the joint structural verdict keeps whole-system recurrence. On a |
+| [Q163](org_frontier/questions/q163_computationalism_under_agenda/paper.md) | Computationalism under an agenda: the interested mediator as a third object |  |
+| [Q164](org_frontier/questions/q164_perceivable_agenda_fraction/paper.md) | The perceivable agenda: an imposed rule is louder in outcomes than a hidden one | An imposed agenda is more perceivable from outcomes than a merely hidden rule, and it adds marginal- |
+| [Q165](org_frontier/questions/q165_intent_compression_into_agenda/paper.md) | Intent compression into an agenda: self-interest steepens embodiment loss | the agenda crowds out the channel for the worker's meaning |
+| [Q166](org_frontier/questions/q166_phantom_addressee_displaced/paper.md) | The phantom addressee displaced: when the mediator's agenda becomes the addressee | the addressee becomes the agenda, and the worker drops to referent |
+| [Q167](org_frontier/questions/q167_capture_meets_agenda/paper.md) | Capture meets the agenda: interest does not lower the worker's displacement threshold | interest does not simply lower the capture threshold |
+| [Q168](org_frontier/questions/q168_opacity_floor_under_agenda/paper.md) | The opacity floor under an agenda: does interest raise the worker's surprise floor? |  |
+| [Q169](org_frontier/questions/q169_lagging_objective_prediction_lag/paper.md) | A Lagging Objective Lets the Displaced Worker's Model Track the Platform | the lagging objective lets the worker's model track the platform better |
+| [Q170](org_frontier/questions/q170_extracting_platform_tracking/paper.md) | Does the worker's generative model track an extracting platform? | the worker tracks an extractor worse, and worst where extraction equalizes |
+| [Q171](org_frontier/questions/q171_drift_binding_with_agenda/paper.md) | Drift Binding with an Agenda: Whether the Two Opacities Stack | The two opacities do not stack. Both hypotheses about how drift and interest combine were fixed before |
+| [Q172](org_frontier/questions/q172_facet_difficulty_under_interest/paper.md) | Where interest concentrates: a facet signature, not a uniform tax | Interest does not tax every facet equally, and it does not tax the facets the survey scale names |
+| [Q173](org_frontier/questions/q173_build_rule_to_phi/paper.md) | A rule-to-Φ field bridge with a coder-disagreement confidence interval | The field bridge `org_frontier/field/rule_to_phi.py` encodes per-party coded determination rules |
 | [Q183](org_frontier/questions/q183_build_disagreement_bridge/paper.md) | A Φ-spread bridge for two divergent party accounts of one coordination | The bridge module `org_frontier/qualitative/disagreement_phi.py` reads two party accounts of one |
+| [Q184](org_frontier/questions/q184_gig_dispatch_spread/paper.md) | Φ spread between a driver's suggestion and a platform's commit account of dispatch | The driver and the platform give two accounts of one dispatch. The driver's suggestion account |
+| [Q185](org_frontier/questions/q185_ats_commit_convey_spread/paper.md) | Commit and convey on one wiring diagram: a disagreement-Φ spread in algorithmic hiring | The disagreement-Φ spread separates the candidate's commit account from the manager's convey |
+| [Q186](org_frontier/questions/q186_spread_decomposition_law/paper.md) | Three spread components vary independently across an account-pair census | The three spread components carry separate information across the synthetic census. They do not |
+| [Q187](org_frontier/questions/q187_moderation_oversight_spread/paper.md) | Where Two Accounts of a Takedown Disagree: Localizing the Policy Team in the Phi Spread | Two accounts of one takedown coordination, differing only in the policy team's rule, were |
+| [Q188](org_frontier/questions/q188_handoff_directionality_spread/paper.md) | Handoff Directionality Spread: When Narrated Reciprocity Moves the Phi Verdict | The two narrations of one handoff read as different structures. The outgoing clinician's one-way |
+| [Q190](org_frontier/questions/q190_spread_robustness_noise/paper.md) | Is the disagreement-Φ spread robust to elicitation noise? | The disagreement-Φ spread survives synthetic elicitation noise. Under bounded Bernoulli jitter on |
+| [Q193](org_frontier/questions/q193_phi_bridge_build/paper.md) | A per-worker Φ coordination measure for the algorithmacy panel | A per-worker Φ-based coordination measure can be derived from each simulated worker's coordination form, |
 
 </details>
 

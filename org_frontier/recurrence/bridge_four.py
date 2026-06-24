@@ -106,6 +106,20 @@ def rand_form4(rng):
     return rules
 
 
+def rand_form5(rng):
+    """A random five-node Boolean form, the n=5 counterpart of rand_form4. Each node reads a random
+    subset of the five nodes (at least one) and applies a copy/invert of a single input or an
+    arbitrary truth table over the subset."""
+    rules = []
+    for _ in range(5):
+        ins = [i for i in range(5) if rng.random() < 0.45] or [rng.randrange(5)]
+        if len(ins) == 1:
+            rules.append(_rule_of_one(rng.randint(0, 3), ins[0]))
+        else:
+            rules.append(_rule_of_set([rng.randint(0, 1) for _ in range(2 ** len(ins))], ins))
+    return rules
+
+
 def panel_c(n_forms=80, seed=0):
     print(f"PANEL C - random four-node ensemble: {n_forms} forms, seed {seed}")
     rng = random.Random(seed)

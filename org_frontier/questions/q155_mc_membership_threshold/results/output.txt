@@ -1,0 +1,18 @@
+CONTROL faithful triad reads triadic Φ=2.0 full core; AUC machinery 1.000/0.500, shuffled null 0.522: PASS
+
+POOLED MEMBERSHIP RECOVERY (per-node, corpus = 9 named + 80 random forms)
+  nodes pooled        : 361  (in-core 122, spectator 239)
+  pooled ROC-AUC      : 0.649
+  label-shuffled null : 0.494
+  best threshold (>=) : 0.2281  balanced-acc 0.638
+
+PER-TOPOLOGY BREAKDOWN (threshold from the pooled sweep)
+  topology    nodes  core  spec     AUC  FP/node   FP
+  star           37    16    21   0.731    0.243    9
+  chain          32     2    30   0.367    0.000    0
+  reciprocal    205    85   120   0.561    0.244   50
+  mediator       37     7    30   0.729    0.189    7
+  other          50    12    38   0.604    0.060    3
+
+H1 (single coupling-centrality threshold recovers membership at pooled AUC>0.65): REFUTED  [AUC=0.649, null=0.494]
+H2 (chain/relay forms are the systematic false-positive class): NOT SUPPORTED  [chain FP/node=0.000, worst topology=reciprocal @ 0.244]
