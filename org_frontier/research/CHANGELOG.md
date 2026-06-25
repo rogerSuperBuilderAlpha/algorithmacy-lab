@@ -2,6 +2,26 @@
 
 A dated entry per refresh: the papers added and removed per program and the new source counts. Newest first.
 
+## 2026-06-25 — deep research (cross-track concepts)
+
+A deep, non-recency-bounded pass on the ten concepts the six tracks share (see
+[`CROSS_TRACK_CONCEPTS.md`](CROSS_TRACK_CONCEPTS.md)). Ten concept searches across the web and the academic
+indexes returned 149 candidate references; every identifier was re-verified against Crossref (canonical
+metadata pulled for the BibTeX) and deduped against the existing bibliography. 67 were already cited, 3 were
+dropped for an identifier that did not resolve, and 79 genuinely-new verified entries were added — mostly
+foundational and cross-cutting works the single-program seeds had missed (e.g. Shannon 1948 on a mathematical
+theory of communication, Tononi et al. 1994 on brain complexity, Dietvorst et al. 2015 on algorithm aversion,
+Cronbach & Meehl 1955 on construct validity).
+
+- **computational** — +32; bibliography 138.
+- **recurrence** — +2; bibliography 108.
+- **cognition** — +17; bibliography 146.
+- **field** — +6; bibliography 120.
+- **qualitative** — +6; bibliography 125.
+- **survey** — +16; bibliography 136.
+
+**Total: +79 added; 773 entries across the six programs, deep research 2026-06-25.**
+
 ## 2026-06-25 — sweep
 
 The recency window opened the day after the previous sweep, so each program's seed question was searched

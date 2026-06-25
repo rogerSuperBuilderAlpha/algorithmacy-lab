@@ -1,4 +1,4 @@
-<!-- run: 2026-06-25 | sources: 114 | verified: 114 -->
+<!-- run: 2026-06-25 | sources: 120 | verified: 120 -->
 Deep-research run, 2026-06-23. 14 search angles, 25 sources, 25 verified.
 
 ## 1. Studying opaque algorithmic systems in the field
