@@ -1,0 +1,1006 @@
+[
+ {
+  "citekey": "tononi2004information",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://bmcneurosci.biomedcentral.com/counter/pdf/10.1186/1471-2202-5-42",
+  "sha256": "27a598c5c538d7c1e9a1e4e60ae081483313db298736e84645dc561cf5e83ef7",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "oizumi2014phenomenology",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "albantakis2023iit40",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+  "sha256": "96129cb9589703e30663969cb0f0f329f706778b88b6b5f4b967a19f994783db",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "marshall2023system",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://vtechworks.lib.vt.edu/bitstreams/918fdd25-c1b3-4197-b2af-15796d7a970d/download",
+  "sha256": "231b19ce5aa2409be610cffe460b8fa3c28dc5a8ac706913f3228d2a10c8f2ff",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "mayner2018pyphi",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006343&type=printable",
+  "sha256": "1e55c0fca745c3518ec046b9b277c0e430c20e6ea572ea21dceb7ec01ae0f85d",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "tononi2015here",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1098/rstb.2014.0167",
+  "title": "Consciousness: Here, There and Everywhere?"
+ },
+ {
+  "citekey": "hoel2013causal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1073/pnas.1314922110",
+  "title": "Quantifying Causal Emergence Shows That Macro Can Beat Micro"
+ },
+ {
+  "citekey": "engel2018group",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0205335&type=printable",
+  "sha256": "82d666848c70dc55e717c754434b2434e633a40d07bbfeeeb80993ea8574bec5",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "woolley2010collective",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1126/science.1193147",
+  "title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups"
+ },
+ {
+  "citekey": "malone1994coordination",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1145/174666.174668",
+  "title": "The Interdisciplinary Study of Coordination"
+ },
+ {
+  "citekey": "crowston2006retrospective",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "Coordination Theory: A Ten-Year Retrospective"
+ },
+ {
+  "citekey": "bratman1992shared",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.2307/2185537",
+  "title": "Shared Cooperative Activity"
+ },
+ {
+  "citekey": "sun2025multiagent",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2502.14743",
+  "sha256": "de8fbdff90b586fdd478ef5009e7584a5a1e7d37fd3c15eeab5d66fd495aab8e",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "souzasantanna2026information",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1002/sres.70027",
+  "title": "Information Dynamics and Learning in Complex Adaptive Systems: Toward a Transdisciplinary Framework"
+ },
+ {
+  "citekey": "barrett2011practical",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1001052&type=printable",
+  "sha256": "4d3b3e11a6b3569e0bb7383cfd0e449e53a9e92248881f912620803456953e07",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "oizumi2016geometry",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1510.04455",
+  "sha256": "e7159d3eb8f9931a1b486320f58cf3b7c8a5990d0cc09ffdbc785a6cb009e008",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "tegmark2016improved",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005123&type=printable",
+  "sha256": "d9742c2417eb790cf523ade3283a5ba9f4c5690044032b09ac0726f1005f8e39",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "mediano2019measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1806.09373",
+  "sha256": "b024d5b2c1ad86936527b211e7593cea2050deaa3893ea61fdc5b2fb54af993e",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "nilsen2019evaluating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.3390/e21050525",
+  "title": "Evaluating Approximations and Heuristic Measures of Integrated Information"
+ },
+ {
+  "citekey": "zaeemzadeh2024upperbounds",
+  "status": "ACQUIRED",
+  "oa_source": "plos-template",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pcbi.1012323&type=printable",
+  "sha256": "f3a8af380eca898308e553d6dd39e7f7781def62175ee9427ff98ac6a71a1a0b",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "hosaka2025gnn",
+  "status": "ACQUIRED",
+  "oa_source": "plos-template",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0335966&type=printable",
+  "sha256": "caf6b1e40988534b75e62339c952bec34cfc69187ec5ea35be8ddb3877fbe234",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "danilczuk2026integrate",
+  "status": "ACQUIRED",
+  "oa_source": "plos-template",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pcbi.1014085&type=printable",
+  "sha256": "f22fba42126eba7486bb2b1237e97a5fc31939c8454622f421bfe3783af13a2f",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "cerullo2015problem",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004286&type=printable",
+  "sha256": "8fa57f7c0461b2291f6f1b138f0edcff05188072e1ae2bdd64de7a6a02392d87",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "barrett2019notwelldefined",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/1902.04321",
+  "sha256": "13b4d5447796aee3e9f0a2334824c731ef63497d72126b166b0ce87d5792f5a9",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "mediano2022strength",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.tics.2022.04.008",
+  "title": "The Strength of Weak Integrated Information Theory"
+ },
+ {
+  "citekey": "barbosa2020intrinsic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41598-020-75943-4.pdf",
+  "sha256": "d05770af15e50b492f81a647907a743e75232bcf8ed0a76821dc3f9bc76c44fe",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "barbosa2021mechanism",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.3390/e23030362",
+  "title": "Mechanism Integrated Information"
+ },
+ {
+  "citekey": "grasso2021causal",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1038/s41593-021-00911-8",
+  "title": "Causal reductionism and causal structures"
+ },
+ {
+  "citekey": "zaeemzadeh2024upper",
+  "status": "ACQUIRED",
+  "oa_source": "plos-template",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pcbi.1012323&type=printable",
+  "sha256": "f3a8af380eca898308e553d6dd39e7f7781def62175ee9427ff98ac6a71a1a0b",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "mayner2025intrinsic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2510.03881",
+  "sha256": "4374aeddbaf4076e67ff1eff6ccddc0f43518b43b0bf9417f2162f11ee6cb1de",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "kleiner2020mathematical",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2002.07655",
+  "sha256": "c2c6e51751280c44d618150f4d8264d54cb0a888d902705de67fb25e400a3571",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "mediano2019evaluating",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1806.09373",
+  "sha256": "b024d5b2c1ad86936527b211e7593cea2050deaa3893ea61fdc5b2fb54af993e",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "tononi2016iit",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1038/nrn.2016.44",
+  "title": "Integrated information theory: from consciousness to its physical substrate"
+ },
+ {
+  "citekey": "oizumi2014iit3",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "albantakis2023iit4",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+  "sha256": "96129cb9589703e30663969cb0f0f329f706778b88b6b5f4b967a19f994783db",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "gomez2020multivalued",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.3390/e23010006",
+  "title": "Computing Integrated Information ($\\Phi$) in Discrete Dynamical Systems with Multi-Valued Elements"
+ },
+ {
+  "citekey": "seveniusnilsen2019approximations",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.3390/e21050525",
+  "title": "Evaluating Approximations and Heuristic Measures of Integrated Information"
+ },
+ {
+  "citekey": "albantakis2023quantum",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.3390/e25030449",
+  "title": "Computing the Integrated Information of a Quantum Mechanism"
+ },
+ {
+  "citekey": "garridomerchan2022optimizing",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2212.04589",
+  "sha256": "0f2a0860c23cb7ecd1bdf6cae0dec1aeb52a42a0cb476131cc8180863807d6ba",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "guerrero2024pyphi",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1007/978-3-031-45642-8_44",
+  "title": "Integrated Information Theory with {PyPhi}: Testing and Improvement Strategies"
+ },
+ {
+  "citekey": "kitazono2018efficient",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1712.06745",
+  "sha256": "e026347096f87f40ba4dd4db1525e36882993c2f2388f1e3e256ecc70768ea55",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "hidaka2018fast",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0201126&type=printable",
+  "sha256": "99480746f209589213793d14d834a3ab0694c5df692d48f5c11c061122f21ab5",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "krohn2017computing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1093/nc/nix017",
+  "title": "Computing integrated information"
+ },
+ {
+  "citekey": "toker2019information",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006807&type=printable",
+  "sha256": "b89f97b07415067a83611d2230779ee617e966b3608b03039cfe57d1801ec50d",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "zaeemzadeh2023upper",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2305.09826",
+  "sha256": "66249859c2269f7198020fa7cb4e60fe0f3bc14370d967306328df338b8433c0",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "hosaka2025graph",
+  "status": "ACQUIRED",
+  "oa_source": "plos-template",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0335966&type=printable",
+  "sha256": "caf6b1e40988534b75e62339c952bec34cfc69187ec5ea35be8ddb3877fbe234",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "albantakis2014animats",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003966&type=printable",
+  "sha256": "dddab0e9f87af7f6151ea4eb5bf9eb29a6ce153edc15390ede326047fd6f7bad",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "oizumi2016unified",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1510.04455",
+  "sha256": "e7159d3eb8f9931a1b486320f58cf3b7c8a5990d0cc09ffdbc785a6cb009e008",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "oizumi2016decoding",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004654&type=printable",
+  "sha256": "03a31c21c8c6b310333ca97f4cb14c5da420a203fc3d410c270f7e9ee2e128a7",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "casali2013theoretically",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://orbi.uliege.be/bitstream/2268/171542/1/A%20theoretically%20based%20index%20of%20consciousness%20independent%20of%20sensory%20processing%20and%20behavior.pdf",
+  "sha256": "732f3514eff4c2ad0dc27fdbb7dd0f422c5b3c593b096d42e7cf5a6b806c2626",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "comolatti2019fast",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.brs.2019.05.013",
+  "title": "A fast and general method to empirically estimate the complexity of brain responses to transcranial and intracranial stimulations"
+ },
+ {
+  "citekey": "kim2018estimating",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2018.00042/pdf",
+  "sha256": "a316cb040856f7d31da8f3de2fe84c0a78afc61bdd9a6ec0daab85e3463b1c81",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "aguilera2019integrated",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1806.07879",
+  "sha256": "bf23106840ab917e4cf1f09f5ee80b116bfd117a4170163ea2d2db46ec1d93d3",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "liardi2025scalable",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2506.18498",
+  "sha256": "4bdfeb04e0cf97eb97e0bb4123a6f4557e776eacfa26c00367bf094e818e6923",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "diazarancibia2026geomip",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.3390/app16020809",
+  "title": "GeoMIP: A Geometric-Topological and Dynamic Programming Framework for Enhanced Computational Tractability of Minimum Information Partition in Integrated Information Theory"
+ },
+ {
+  "citekey": "tononi2003measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://bmcneurosci.biomedcentral.com/counter/pdf/10.1186/1471-2202-4-31",
+  "sha256": "16bcbc50604d9d1f2bd34367d7b271a5039de08c171d92e1fee32f92130bda7d",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "balduzzi2008integrated",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1000091&type=printable",
+  "sha256": "f3cb9a6bbf4ba56cd304ef2b1769d6c8aa54ce75d74de954c7605d7e7cfe71a7",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "gamez2011accuracy",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.concog.2011.05.016",
+  "title": "Accuracy and performance of the state-based Phi and liveliness measures of information integration"
+ },
+ {
+  "citekey": "oizumi2016measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004654&type=printable",
+  "sha256": "03a31c21c8c6b310333ca97f4cb14c5da420a203fc3d410c270f7e9ee2e128a7",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "mediano2022integrated",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2106.10211",
+  "sha256": "8432b116c09404be78dbfcc8d6d6c65fed710fc2a294e198942f28d75a22ceb4",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "barrett2026integrated",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "Integrated information theory: the good, the bad and the misunderstood"
+ },
+ {
+  "citekey": "christensen2024beyond",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s10670-024-00845-0.pdf",
+  "sha256": "9667f48f80af228425793549166791321534936530a730fccec0c1f48af8b8eb",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "engel2018integrated",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0205335&type=printable",
+  "sha256": "82d666848c70dc55e717c754434b2434e633a40d07bbfeeeb80993ea8574bec5",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "findlay2024dissociating",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2412.04571",
+  "sha256": "592bfcbf6d38a8a04e315b30b60845f66f1fcde367ed531b9dc269a72dc2e8d6",
+  "retrieved": "2026-06-25",
+  "card": "held-verify-flagged"
+ },
+ {
+  "citekey": "guerrero2023systematic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1007/s00521-023-08328-z",
+  "title": "A systematic review of integrated information theory: a perspective from artificial intelligence and the cognitive sciences"
+ },
+ {
+  "citekey": "mcmillen2024collective",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s42003-024-06037-4.pdf",
+  "sha256": "71491865881c757411df2a7d7812a238f6ac3e98a5a11614a21ca893269f2c30",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "mediano2021towards",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2109.13186",
+  "sha256": "98b0e23fa2dca89fcd8ac73a901c9e09d27561cb51aa8dbd625bfe4291a6270a",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "niizato2020finding",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0229573&type=printable",
+  "sha256": "2668df962aab1399f915f4e9d9326ee383f402032db67bbdc2304a5e848633ca",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "niizato2024information",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1038/s41598-024-79232-2",
+  "title": "Information structure of heterogeneous criticality in a fish school"
+ },
+ {
+  "citekey": "woolley2010evidence",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1126/science.1193147",
+  "title": "Evidence for a collective intelligence factor in the performance of human groups"
+ },
+ {
+  "citekey": "riedl2021quantifying",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1073/pnas.2005737118",
+  "title": "Quantifying collective intelligence in human groups"
+ },
+ {
+  "citekey": "oizumi2014from",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "rosas2020reconciling",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2004.08220",
+  "sha256": "741f96bf6550c8b6dd22942d7fbe720e8d5c9865dd85b4be34e7512f7e7b7e23",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "reinero2020interbrain",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1093/scan/nsaa135",
+  "title": "Inter-brain synchrony in teams predicts collective performance"
+ },
+ {
+  "citekey": "hu2024using",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.neubiorev.2024.105593",
+  "title": "Using interbrain synchrony to study teamwork: A systematic review and meta-analysis"
+ },
+ {
+  "citekey": "reveille2025trajectories",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1093/scan/nsaf081",
+  "title": "Trajectories of interbrain synchrony during teamwork: links with team composition and performance"
+ },
+ {
+  "citekey": "amon2019beyond",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1111/cogs.12787",
+  "title": "Beyond Dyadic Coordination: Multimodal Behavioral Irregularity in Triads Predicts Facets of Collaborative Problem Solving"
+ },
+ {
+  "citekey": "riedl2025emergent",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2510.05174",
+  "sha256": "e87be0141277bd3ef4e641a72b7ec2bd5c117b5539b23d6b88ae346db3585de3",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "crowston2006coordination",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "Coordination Theory: A Ten-Year Retrospective"
+ },
+ {
+  "citekey": "sailer2023coordinated",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1111/joms.12960",
+  "title": "Coordinated Interdependence: How Patterning Governs Flexibility in a Routine Cluster"
+ },
+ {
+  "citekey": "ju2026coordination",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "When Coordination Is Avoidable: A Monotonicity Analysis of Organizational Tasks"
+ },
+ {
+  "citekey": "xu2006supply",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1111/j.1745-493X.2006.04201002.x",
+  "title": "Supply Chain Coordination and Cooperation Mechanisms: An Attribute-Based Approach"
+ },
+ {
+  "citekey": "yokoi2026organizing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1002/smj.70089",
+  "title": "Organizing across Cognitive Asymmetry in Human-AI Collaboration: A Study of Perfume Creation"
+ },
+ {
+  "citekey": "shapley1953value",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1515/9781400829156-012",
+  "title": "A Value for n-Person Games"
+ },
+ {
+  "citekey": "bacharach2006beyond",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "Beyond Individual Choice: Teams and Frames in Game Theory"
+ },
+ {
+  "citekey": "faigle1992precedence",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1007/BF01258278",
+  "title": "The Shapley value for cooperative games under precedence constraints"
+ },
+ {
+  "citekey": "thomson2019crown",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1201/9781351241410-1",
+  "title": "The Shapley Value, a Crown Jewel of Cooperative Game Theory"
+ },
+ {
+  "citekey": "pacherie2011framing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1007/s13164-011-0052-5",
+  "title": "Framing Joint Action"
+ },
+ {
+  "citekey": "alonso2016dualaspect",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1515/jso-2015-0024",
+  "title": "A Dual Aspect Theory of Shared Intention"
+ },
+ {
+  "citekey": "sugden2015teamreasoning",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1515/jso-2014-0006",
+  "title": "Team Reasoning and Intentional Cooperation for Mutual Benefit"
+ },
+ {
+  "citekey": "crone2025foundations",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1080/09515089.2025.2491907",
+  "title": "Foundations of joint action: what are minimal forms of shared intentionality?"
+ },
+ {
+  "citekey": "jankovic2018routledge",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.4324/9781315768571",
+  "title": "The Routledge Handbook of Collective Intentionality"
+ },
+ {
+  "citekey": "li2024shapley",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s43684-023-00060-8.pdf",
+  "sha256": "1e3e7dab2548d31374471395f900db8b65131e44d0d18cf693669ae426aac2c9",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "rozemberczki2022shapley",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.ijcai.org/proceedings/2022/0778.pdf",
+  "sha256": "da3c4b8afc85f6ede5a4f2dd4a6f5a61da80394b11b6f44509a8a1a6f3f349ba",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "ilidrissi2025beyond",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2506.13900",
+  "sha256": "b08dc5998f5f951e3e8495799338fc5fa9e50e201d74d3714732b169347194ff",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "barrett2019phi",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "The {Phi} measure of integrated information is not well-defined for general physical systems"
+ },
+ {
+  "citekey": "barrett2026good",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": null,
+  "title": "Integrated information theory: the good, the bad and the misunderstood"
+ },
+ {
+  "citekey": "bayne2018axiomatic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://researchmgt.monash.edu/ws/files/256055714/256055579_oa.pdf",
+  "sha256": "1c0503c29e3058a3f0a0950d07d2904c28de58286bed3a35ef7d2708563e422b",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "doerig2019unfolding",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.concog.2019.04.002",
+  "title": "The unfolding argument: Why {IIT} and other causal structure theories cannot explain consciousness"
+ },
+ {
+  "citekey": "hanson2021falsification",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2006.07390",
+  "sha256": "403515932bec193f16508ccf5879614a03ba206e741ab4d63c8549e456d97285",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "herzog2022firstperson",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.concog.2021.103261",
+  "title": "First-person experience cannot rescue causal structure theories from the unfolding argument"
+ },
+ {
+  "citekey": "negro2020phenomenology",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1007/s11097-020-09681-3",
+  "title": "Phenomenology-first versus third-person approaches in the science of consciousness: the case of the integrated information theory and the unfolding argument"
+ },
+ {
+  "citekey": "negro2022emergentist",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s10670-022-00612-z.pdf",
+  "sha256": "ed8a9411282f7695cc289df609594d4ac18c87ada1c24935d5b11a125bfee25a",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ },
+ {
+  "citekey": "mediano2022weak",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1016/j.tics.2022.04.008",
+  "title": "The strength of weak integrated information theory"
+ },
+ {
+  "citekey": "hoel2013causalemergence",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "retrieved": "2026-06-25",
+  "doi": "10.1073/pnas.1314922110",
+  "title": "Quantifying causal emergence shows that macro can beat micro"
+ },
+ {
+  "citekey": "fleming2023pseudoscience",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:?",
+  "source_url": "https://osf.io/zsr78/download",
+  "sha256": "380bd3b55f13456033c680dd95c6af602e35e3b7e5d7bbf8cef8dce976689ebd",
+  "retrieved": "2026-06-25",
+  "card": "verified"
+ }
+]
