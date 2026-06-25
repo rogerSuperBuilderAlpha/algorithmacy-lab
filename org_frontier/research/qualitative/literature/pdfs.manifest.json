@@ -1,0 +1,1073 @@
+[
+ {
+  "citekey": "lincoln1985naturalistic",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Naturalistic Inquiry"
+ },
+ {
+  "citekey": "gioia2013seeking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1094428112452151",
+  "title": "Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia Methodology"
+ },
+ {
+  "citekey": "weick1995sensemaking",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Sensemaking in Organizations"
+ },
+ {
+  "citekey": "weick1993collapse",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2307/2393339",
+  "title": "The Collapse of Sensemaking in Organizations: The Mann Gulch Disaster"
+ },
+ {
+  "citekey": "weick2005organizing",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1287/orsc.1050.0133",
+  "title": "Organizing and the Process of Sensemaking"
+ },
+ {
+  "citekey": "rosenblat2016algorithmic",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers"
+ },
+ {
+  "citekey": "mohlmann2017hands",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Hands on the Wheel: Navigating Algorithmic Management and Uber Drivers' Autonomy"
+ },
+ {
+  "citekey": "kellogg2020algorithms",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/annals.2018.0174",
+  "title": "Algorithms at Work: The New Contested Terrain of Control"
+ },
+ {
+  "citekey": "christin2020ethnographer",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://arxiv.org/pdf/1912.04883.pdf",
+  "sha256": "35613c609ad1c41e9a79a1c8bbbe84eba6a29e182399102ed2b6da64bc9641e6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "folktheories2025data",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/sea2.70004",
+  "title": "Exploring Folk Theories of Data Labor in Human Services"
+ },
+ {
+  "citekey": "patching2025delivery",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.70029",
+  "title": "Patching Algorithmic Management: The Invisible Role of Support in Digital Delivery Work"
+ },
+ {
+  "citekey": "darkside2024platform",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/hrm.22211",
+  "title": "Dark Side of Algorithmic Management on Platform Worker Behaviors: A Mixed-Methods Study"
+ },
+ {
+  "citekey": "consent2021foucauldian",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12177",
+  "title": "When Food-Delivery Platform Workers Consent to Algorithmic Management: A Foucauldian Perspective"
+ },
+ {
+  "citekey": "corley2004identity",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2307/4131471",
+  "title": "Identity Ambiguity and Change in the Wake of a Corporate Spin-off"
+ },
+ {
+  "citekey": "gioia1990multiparadigm",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/amr.1990.4310758",
+  "title": "Multiparadigm Perspectives on Theory Building"
+ },
+ {
+  "citekey": "magnani2022using",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.ibusrev.2022.102097",
+  "title": "Using the Gioia Methodology in International Business and Entrepreneurship Research"
+ },
+ {
+  "citekey": "meesbuss2022templates",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1094428120967716",
+  "title": "From Templates to Heuristics: How and Why to Move Beyond the Gioia Methodology"
+ },
+ {
+  "citekey": "harley2022rigor",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1094428120937786",
+  "title": "Rigor With or Without Templates? The Pursuit of Methodological Rigor in Qualitative Research"
+ },
+ {
+  "citekey": "gehman2018finding",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1056492617706029",
+  "title": "Finding Theory--Method Fit: A Comparison of Three Qualitative Approaches to Theory Building"
+ },
+ {
+  "citekey": "kohler2022templates",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/10944281211060710",
+  "title": "Templates in Qualitative Research Methods: Origins, Limitations, and New Directions"
+ },
+ {
+  "citekey": "gioia2022curated",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/10564926221098955",
+  "title": "A Curated Debate: On Using ``Templates'' in Qualitative Research"
+ },
+ {
+  "citekey": "langley1999strategies",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/amr.1999.2553248",
+  "title": "Strategies for Theorizing from Process Data"
+ },
+ {
+  "citekey": "kibler2025cultivating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.jbvi.2025.e00567",
+  "title": "Cultivating Insightful Theory-Building in Qualitative Research"
+ },
+ {
+  "citekey": "kressmann2025harmonizing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/16094069251342540",
+  "title": "Harmonizing Rigor, Relevance, and Insight: A Mixed Inductive Approach for Qualitative Analysis With the Gioia Methodology and the GABEK Method"
+ },
+ {
+  "citekey": "krefting1991rigor",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5014/ajot.45.3.214",
+  "title": "Rigor in Qualitative Research: The Assessment of Trustworthiness"
+ },
+ {
+  "citekey": "shenton2004strategies",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3233/EFI-2004-22201",
+  "title": "Strategies for Ensuring Trustworthiness in Qualitative Research Projects"
+ },
+ {
+  "citekey": "morse2015critical",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1049732315588501",
+  "title": "Critical Analysis of Strategies for Determining Rigor in Qualitative Inquiry"
+ },
+ {
+  "citekey": "nowell2017thematic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1609406917733847",
+  "title": "Thematic Analysis: Striving to Meet the Trustworthiness Criteria"
+ },
+ {
+  "citekey": "amin2020establishing",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://curis.ku.dk/ws/files/254462315/1_s2.0_S1551741119309155_main.pdf",
+  "sha256": "6e5ab50995464df2def06ce32314f7f213a5051cbeef4101d1401417d18f4040",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "johnson2017qualitative",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://purehost.bath.ac.uk/ws/files/190478661/JDE_author_accepted_version_March_2017.pdf",
+  "sha256": "de07881c9933f91e37d4f80185917a4d10d746f8b93e2a4075908f85dbf4d34d",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "enworo2023application",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://repository.up.ac.za/bitstreams/49c8e386-966f-43a2-afdf-a22bc5df9e0e/download",
+  "sha256": "fda6b99dea10de02d4851145d00681b6ff23cffc7c7938bcdbd768101eac55ec",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "ahmed2024pillars",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://hal.science/hal-04699461/document",
+  "sha256": "46ea20e6f05af27594ad1c42f34c118bef1e52965e0f5c6cee075bebad4a5a1b",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "stalmeijer2024howto",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/tct.13762",
+  "title": "How to Discuss Transferability of Qualitative Research in Health Professions Education"
+ },
+ {
+  "citekey": "brown2025transferability",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s10459-025-10439-2.pdf",
+  "sha256": "b2e9ac61b857cacc6f8cd34b76bce5196e12d89557d4ddcc572cf5f30b7c0da4",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sharifzadeh2024science",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00483931241245931",
+  "title": "A Science and Technology Studies Challenge to Trustworthiness Criteria: Toward a More Naturalistic Approach"
+ },
+ {
+  "citekey": "maitlis2014sensemaking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/19416520.2014.873177",
+  "title": "Sensemaking in Organizations: Taking Stock and Moving Forward"
+ },
+ {
+  "citekey": "sandberg2015making",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/job.1937",
+  "title": "Making Sense of the Sensemaking Perspective: Its Constituents, Limitations, and Opportunities for Further Development"
+ },
+ {
+  "citekey": "brown2015making",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0170840614559259",
+  "title": "Making Sense of Sensemaking in Organization Studies"
+ },
+ {
+  "citekey": "holt2014sensemaking",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1350507613486422",
+  "title": "Sensemaking Revisited"
+ },
+ {
+  "citekey": "sandberg2020sensemaking",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2631787719879937",
+  "title": "Sensemaking Reconsidered: Towards a Broader Understanding through Phenomenology"
+ },
+ {
+  "citekey": "glynn2020organizing",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/joms.12613",
+  "title": "Of Organizing and Sensemaking: From Action to Meaning and Back Again in a Half-Century of Weick's Theorizing"
+ },
+ {
+  "citekey": "weber2006making",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0170840606068343",
+  "title": "Making Sense with Institutions: Context, Thought and Action in Karl Weick's Theory"
+ },
+ {
+  "citekey": "cristofaro2022organizational",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.emj.2021.07.003",
+  "title": "Organizational Sensemaking: A Systematic Review and a Co-evolutionary Model"
+ },
+ {
+  "citekey": "hernes2022temporal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/26317877221131585",
+  "title": "A Temporal Narrative View of Sensemaking"
+ },
+ {
+  "citekey": "eckstein2024thirtyfive",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s11301-024-00458-5.pdf",
+  "sha256": "6cf1154b899d85f05fe04ee7d78798e1ad72d23b029f1da9bc719b08980b4d01",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kuiken2026rethinking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/978-3-032-11631-4_3",
+  "title": "Rethinking Sensemaking: Critiques and Lines of Flight"
+ },
+ {
+  "citekey": "armstrong1997place",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0038038597031003015",
+  "title": "The Place of Inter-Rater Reliability in Qualitative Research: An Empirical Study"
+ },
+ {
+  "citekey": "braun2019reflecting",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/2159676X.2019.1628806",
+  "title": "Reflecting on reflexive thematic analysis"
+ },
+ {
+  "citekey": "braun2020onesize",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/14780887.2020.1769238",
+  "title": "One size fits all? What counts as quality practice in (reflexive) thematic analysis?"
+ },
+ {
+  "citekey": "braun2021conceptual",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/qup0000196",
+  "title": "Conceptual and design thinking for thematic analysis"
+ },
+ {
+  "citekey": "oconnor2020intercoder",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1609406919899220",
+  "title": "Intercoder Reliability in Qualitative Research: Debates and Practical Guidelines"
+ },
+ {
+  "citekey": "cofie2022eight",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journalhosting.ucalgary.ca/index.php/cmej/article/download/72504/55758",
+  "sha256": "3342852710a8237df7c77a13a462d402a752142e46bc50958b3d256a5b56f4d0",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hammer2014confusing",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10508406.2013.802652",
+  "title": "Confusing Claims for Data: A Critique of Common Practices for Presenting Qualitative Research on Learning"
+ },
+ {
+  "citekey": "zade2018conceptualizing",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3173574.3173733",
+  "title": "Conceptualizing Disagreement in Qualitative Coding"
+ },
+ {
+  "citekey": "uma2021learning",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://jair.org/index.php/jair/article/download/12752/26751",
+  "sha256": "b1fbc1b22ade5dc8f60828b5ca843d47156630edad48a29d5ac38f4794b0590f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "ye2026reflexis",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2601.15445",
+  "sha256": "ea5929cc8f341e93084d074086067cc14046c8c63c5d0017935d2ea1824ec9cd",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tajik2026disagreement",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2601.12618",
+  "sha256": "c5090a149a89331650d46248906829c67313a3b4a73c628eaf194f8944c89946",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "christin2017algorithms",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2053951717718855",
+  "title": "Algorithms in practice: Comparing web journalism and criminal justice"
+ },
+ {
+  "citekey": "seaver2017algorithms",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2053951717738104",
+  "title": "Algorithms as culture: Some tactics for the ethnography of algorithmic systems"
+ },
+ {
+  "citekey": "kitchin2017thinking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154087",
+  "title": "Thinking critically about and researching algorithms"
+ },
+ {
+  "citekey": "bucher2017algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154086",
+  "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms"
+ },
+ {
+  "citekey": "lange2019studying",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1350508418808230",
+  "title": "On studying algorithms ethnographically: Making sense of objects of ignorance"
+ },
+ {
+  "citekey": "rahman2021invisible",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00018392211010118",
+  "title": "The Invisible Cage: Workers' Reactivity to Opaque Algorithmic Evaluations"
+ },
+ {
+  "citekey": "sandvig2014auditing",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms"
+ },
+ {
+  "citekey": "metaxa2021auditing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1561/1100000083",
+  "title": "Auditing Algorithms: Understanding Algorithmic Systems from the Outside In"
+ },
+ {
+  "citekey": "bandy2021problematic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3449148",
+  "title": "Problematic Machine Behavior: A Systematic Literature Review of Algorithm Audits"
+ },
+ {
+  "citekey": "lam2023sociotechnical",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2308.15768",
+  "sha256": "83afc7acec36914b853c6d80840da89e5bdb5b536f81004725f7d4ea3a95c063",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "mosnar2025revisiting",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2504.18140",
+  "sha256": "f45f3b449f3deda62c5585ed0f523070694297da75752014a87e75fe6d4dbbdb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "devito2021adaptive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476080",
+  "title": "Adaptive Folk Theorization as a Path to Algorithmic Literacy on Changing Platforms"
+ },
+ {
+  "citekey": "mohlmann2021algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.25300/MISQ/2021/15333",
+  "title": "Algorithmic Management of Work on Online Labor Platforms: When Matching Meets Control"
+ },
+ {
+  "citekey": "griesbach2019algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2378023119870041",
+  "title": "Algorithmic Control in Platform Food Delivery Work"
+ },
+ {
+  "citekey": "duggan2023algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/hrm.22168",
+  "title": "Algorithmic HRM Control in the Gig Economy: The App-Worker Perspective"
+ },
+ {
+  "citekey": "cameron2022expanding",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1287/orsc.2021.1557",
+  "title": "Expanding the Locus of Resistance: Understanding the Co-constitution of Control and Resistance in the Gig Economy"
+ },
+ {
+  "citekey": "bucher2021pacifying",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1350508420961531",
+  "title": "Pacifying the Algorithm: Anticipatory Compliance in the Face of Algorithmic Management in the Gig Economy"
+ },
+ {
+  "citekey": "cini2023resisting",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12257",
+  "title": "Resisting Algorithmic Control: Understanding the Rise and Variety of Platform Worker Mobilisations"
+ },
+ {
+  "citekey": "jarrahi2021algorithmic",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "http://cdr.lib.unc.edu/downloads/3b591r20r",
+  "sha256": "b7b6e0e7d9a4fa2ce511e579333406833b4e786f6294133c672611f45807c484",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "dedema2024sociotechnical",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/asi.24868",
+  "title": "Socio-technical Issues in the Platform-Mediated Gig Economy: A Systematic Literature Review"
+ },
+ {
+  "citekey": "zhang2025rise",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12343",
+  "title": "The Rise of Algorithmic Management and Implications for Work and Organisations"
+ },
+ {
+  "citekey": "bucher2017imaginary",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154086",
+  "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms"
+ },
+ {
+  "citekey": "eslami2016folk",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2858036.2858494",
+  "title": "First I ``like'' it, then I hide it: Folk Theories of Social Feeds"
+ },
+ {
+  "citekey": "lee2015machines",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2702123.2702548",
+  "title": "Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers"
+ },
+ {
+  "citekey": "bishop2019gossip",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://kclpure.kcl.ac.uk/ws/files/139130145/Managing_visibility_on_YouTube_BISHOP_Acc14_May2019Epub15Jun2019_GREEN_AAM.pdf",
+  "sha256": "77992d06eefd2daa3c0123df7695cd39ef4aa2079379385ad3053f7ebef308b3",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "cotter2024practical",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448221081802",
+  "title": "Practical knowledge of algorithms: The case of BreadTube"
+ },
+ {
+  "citekey": "cameron2022locus",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1287/orsc.2021.1557",
+  "title": "Expanding the Locus of Resistance: Understanding the Co-constitution of Control and Resistance in the Gig Economy"
+ },
+ {
+  "citekey": "jhaver2018airbnb",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3173574.3173995",
+  "title": "Algorithmic Anxiety and Coping Strategies of Airbnb Hosts"
+ },
+ {
+  "citekey": "sannon2022privacy",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3491102.3502083",
+  "title": "Privacy, Surveillance, and Power in the Gig Economy"
+ },
+ {
+  "citekey": "zhang2022reimagined",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3491102.3501866",
+  "title": "Algorithmic Management Reimagined For Workers and By Workers: Centering Worker Well-Being in Gig Work"
+ },
+ {
+  "citekey": "veen2019appetite",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0950017019836911",
+  "title": "Platform-Capital's `App-etite' for Control: A Labour Process Analysis of Food-Delivery Work in Australia"
+ },
+ {
+  "citekey": "huang2025weapons",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10670564.2025.2493883",
+  "title": "Weapons of the Riders: Everyday Algorithmic Resistance of Migrant Food-Delivery Workers in China's Gig Economy"
+ },
+ {
+  "citekey": "vasudevan2022gamification",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448221079028",
+  "title": "Gamification and Work Games: Examining Consent and Resistance among Uber Drivers"
+ },
+ {
+  "citekey": "cheon2025fulfillment",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2508.09438",
+  "sha256": "7f7b62f5e26f6ff8c372e8ec54d2ad16683977b9e2647f16f00097b36650c8cd",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "alasoini2023making",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fsoc.2023.1063613/pdf",
+  "sha256": "484cee38a00128fb972e2a55b6a6c1da6c04d4121d842e04c32fd962497fc265",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "lata2025algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00380261251335371",
+  "title": "Algorithmic Control and Resistance in the Gig Economy: A Case of Uber Drivers in Dhaka"
+ },
+ {
+  "citekey": "novianto2024gamification",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12324",
+  "title": "Gamification From Below as a Form of Resistance: Algorithm Control, Precarity, and Resistance Dynamics of Indonesian Gig Workers"
+ },
+ {
+  "citekey": "mcdaid2023politics",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.aos.2023.101465",
+  "title": "Algorithmic Management and the Politics of Demand: Control and Resistance at Uber"
+ },
+ {
+  "citekey": "alacovska2025paranoia",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12317",
+  "title": "Algorithmic Paranoia: Gig Workers' Affective Experience of Abusive Algorithmic Management"
+ },
+ {
+  "citekey": "lee2018perception",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2053951718756684",
+  "title": "Understanding Perception of Algorithmic Decisions: Fairness, Trust, and Emotion in Response to Algorithmic Management"
+ },
+ {
+  "citekey": "starke2022fairness",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://pure.uva.nl/ws/files/116332911/20539517221115189_1_.pdf",
+  "sha256": "6ecf65f842da101e9bafd09cc999d6501939d576ab376d0cc730586566ad7e44",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "jago2019authenticity",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/amd.2017.0002",
+  "title": "Algorithms and Authenticity"
+ },
+ {
+  "citekey": "mirbabaie2025transparency",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s12599-025-00963-1.pdf",
+  "sha256": "a34822e3654d3f1417f4e704e3c76c6a66db28453a9f653ad7c150e2ecfdebb7",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "xiang2025judging",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://www.annualreports.co.uk/HostedData/AnnualReportArchive/d/LSE_ROO_2022.pdf",
+  "sha256": "7a2adb6ce9d209d6832252f7e565c3715d4873c9e2590f0180fc154fc9836c4c",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "srinivasan2021algorithms",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0022242921997082",
+  "title": "When Algorithms Fail: Consumers' Responses to Brand Harm Crises Caused by Algorithm Errors"
+ },
+ {
+  "citekey": "ochmann2024perceived",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/isj.12482",
+  "title": "Perceived Algorithmic Fairness: An Empirical Study of Transparency and Anthropomorphism in Algorithmic Recruiting"
+ },
+ {
+  "citekey": "crolic2022blame",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://ora.ox.ac.uk/objects/uuid:73d46bba-35d1-465c-be00-aa6f4f4ccb84/files/r5x21tf917",
+  "sha256": "5e00289536b1c44adba50f4aedb3cffcc9aa7551dd24922d55b42a8cae99b2c5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "fousiani2026algorithmic",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0340860&type=printable",
+  "sha256": "e1024825bf01855906d711c564e08c173f1edfb5ad33ff6affd630d8d82e0833",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sherman2025anthropomorphising",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/1748-8583.12599",
+  "title": "Anthropomorphising the Algorithm: A 'Theory of Mind' Perspective on Psychological Contract Creation in Gig Work Arrangements"
+ },
+ {
+  "citekey": "wachter2017explanation",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/idpl/ipx005",
+  "title": "Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation"
+ },
+ {
+  "citekey": "malgieri2017legibility",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/idpl/ipx019",
+  "title": "Why a Right to Legibility of Automated Decision-Making Exists in the General Data Protection Regulation"
+ },
+ {
+  "citekey": "bayamlioglu2021contest",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/rego.12391",
+  "title": "The right to contest automated decisions under the General Data Protection Regulation: Beyond the so-called \"right to explanation\""
+ },
+ {
+  "citekey": "kaminski2019binary",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2139/ssrn.3351404",
+  "title": "Binary Governance: Lessons from the GDPR's Approach to Algorithmic Accountability"
+ },
+ {
+  "citekey": "kaminski2020impact",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/idpl/ipaa020",
+  "title": "Algorithmic impact assessments under the GDPR: producing multi-layered explanations"
+ },
+ {
+  "citekey": "almada2019intervention",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3322640.3326699",
+  "title": "Human intervention in automated decision-making: Toward the construction of contestable systems"
+ },
+ {
+  "citekey": "alfrink2022contestable",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s11023-022-09611-z.pdf",
+  "sha256": "2d9f5424f022b095e303d0ad116cd13800b321d8995112cd0872f2fb4ba6f326",
+  "retrieved": "2026-06-25",
+  "card": "writer-grounded"
+ },
+ {
+  "citekey": "mulligan2019shaping",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2139/ssrn.3311894",
+  "title": "Shaping Our Tools: Contestability as a Means to Promote Responsible Algorithmic Decision Making in the Professions"
+ },
+ {
+  "citekey": "shaikh2025contesting",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1108/tg-05-2025-0148",
+  "title": "Contesting the algorithm: advancing a right to challenge AI decisions under the GDPR for algorithmic fairness"
+ },
+ {
+  "citekey": "busuioc2020accountable",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf",
+  "sha256": "e9e6d944715d14b03c383b1e1e2f4f7aa7ffaa9bd610708bd06645f03c64e7fa",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "ulbricht2021algorithmic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "http://pure-oai.bham.ac.uk/ws/files/147113125/ulbrichtl2021algorithmic.pdf",
+  "sha256": "e71d0f8de86397983d4574581cf227830a2c850673efdda060c5c10c5e9d5938",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "vaccaro2021contestability",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476059",
+  "title": "Contestability For Content Moderation"
+ },
+ {
+  "citekey": "lazcoz2023humans",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.clsr.2023.105833",
+  "title": "Humans in the GDPR and AIA governance of automated and algorithmic systems. Essential pre-requisites against abdicating responsibilities"
+ }
+]
