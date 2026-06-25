@@ -16,6 +16,16 @@ kept current.
   research and verification procedure, and how the outputs are written and landed.
 - [`CROSS_TRACK_CONCEPTS.md`](CROSS_TRACK_CONCEPTS.md) — the ten concepts the six tracks share, read off the
   per-paper reference cards (`*/literature/cards/`, indexed by each program's `REFERENCES.md`).
+- Per-paper **reference cards** under `<program>/literature/cards/<citekey>.md` — a summary, the key facts,
+  critical notes, and topics for each reference whose open-access full text was acquired. PDFs are gitignored
+  and refetchable from each program's `literature/pdfs.manifest.json` (status, OA source, `source_url`,
+  `sha256`). The cards are built by acquiring the OA PDF ([`oa_acquire.py`](oa_acquire.py)) and writing a
+  card with an independent adversarial verify pass. A reference with no free full text is left uncarded and
+  recorded in the manifest.
+- [`card_backfill.py`](card_backfill.py) — the on-demand backfill: `python card_backfill.py` retries OA
+  acquisition over every uncarded reference and reports which have become open-access; `--write` downloads
+  the new PDFs and stages a card-writing config. Run it to pick up papers that were paywalled at first pass
+  and have since opened (a preprint posted, an embargo lifted), then write their cards and land as usual.
 - One directory per program — `computational/`, `field/`, `qualitative/`, `recurrence/`, `survey/`,
   `cognition/` — each with a `README.md` (scope and the ten topics), a `REVIEW.md` (the curated synthesis),
   `literature/{deep_research_report.md, references.bib}`, and `topics/NN_<slug>/{REVIEW.md, references.bib}`.
