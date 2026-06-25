@@ -11,6 +11,9 @@ foundations/**/results/*.log
 foundations/psi_vs_phi/literature/kearney2026_fulltext.txt
 foundations/cbh_complexity/literature/cbh2026_fulltext.txt
 
+# research-watch reference-card PDFs — acquired locally, refetchable from pdfs.manifest.json
+org_frontier/research/**/literature/pdfs/*.pdf
+
 # org_frontier run logs (data is in the CSVs)
 org_frontier/**/results/*.log
 

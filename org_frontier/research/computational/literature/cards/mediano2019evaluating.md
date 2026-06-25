@@ -1,0 +1,44 @@
+---
+citekey: mediano2019evaluating
+title: Measuring Integrated Information: Comparison of Candidate Measures in Theory and Simulation
+authors: Mediano, Pedro A. M. and Seth, Anil K. and Barrett, Adam B.
+year: 2019
+doi: 10.3390/e21010017
+arxiv: null
+journal: Entropy
+programs: [computational]
+pdf_status: ACQUIRED
+source_basis: full-text
+oa_source: unpaywall:repository
+source_url: https://arxiv.org/pdf/1806.09373
+sha256: b024d5b2c1ad86936527b211e7593cea2050deaa3893ea61fdc5b2fb54af993e
+pdf_path: literature/pdfs/mediano2019evaluating.pdf
+verified: true
+generated_run: 2026-06-25
+---
+
+## Summary
+Integrated Information Theory (IIT) centers on measures of integrated information (Φ) that quantify the extent to which a system generates more information than the sum of its parts, but it is unclear how the several competing candidate measures compare on non-trivial systems. This paper provides unified, intuitive descriptions of six distinct candidate measures and then compares their behaviour empirically by simulating networks of up to eight nodes animated with Gaussian linear autoregressive (AR) dynamics. The six measures are whole-minus-sum integrated information Φ, integrated stochastic interaction Φ̃, integrated synergy ψ, decoder-based integrated information Φ*, geometric integrated information Φ_G, and causal density (CD). The authors find striking diversity in the behaviour of these measures, with no two showing consistent agreement across all analyses, and find that only a subset (ψ, Φ*, and CD) appears to genuinely reflect dynamical complexity in the sense of simultaneous segregation and integration. They examine how each measure responds to coupling strength, network topology, connection density, and noise-input correlation, comparing against control measures time-delayed mutual information (TDMI) and average correlation Σ̄. The paper also derives a corrected closed-form expression for Φ* in Gaussian systems (Appendix A), proves CD is upper-bounded by TDMI (Appendix B), and proves properties of all measures (Appendix C). The results are framed as operationalising IIT and guiding development of more generally applicable measures of integrated information.
+
+## Key facts it relies on
+- Six candidate measures are reviewed and compared: whole-minus-sum integrated information Φ [5], integrated stochastic interaction Φ̃ [11], integrated synergy ψ [19], decoder-based integrated information Φ* [35], geometric integrated information Φ_G [37], and causal density CD [39]; ψ and Φ_G fall outside Tegmark's [41] taxonomy.
+- All measures except CD were inspired by Balduzzi and Tononi's Φ_2008 [5], which was based on information the current state contains about a hypothetical maximum-entropy past state, making it applicable only to discrete Markovian systems; the measures studied here are instead built on the system's spontaneous information dynamics p(X_t, X_{t-τ}), so they are well-defined for any stochastic system with a well-defined Lebesgue measure.
+- Integrated information is effective information beyond the minimum information partition (MIP), defined as the partition minimising normalised effective information f[X;τ,P]/K(P); Φ and Φ̃ use this MIP scheme, ψ uses unnormalised effective information, and Φ*, Φ_G, and CD are defined via the atomic partition without reference to the MIP. All results in the paper minimise each unnormalised effective-information measure over even-sized bipartitions to avoid conflating partition-search effects with the measure itself.
+- Simulations use order-1 stochastic linear AR processes X_{t+1} = A X_t + ε_t with zero-mean Gaussian noise; a process is stable and stationary if the spectral radius of coupling matrix A is below 1. The two-node model uses A with all entries a (set a = 0.4 to match Fig. 3 of Ref. [35]) and noise covariance with off-diagonal correlation c.
+- In the two-node network (Fig. 2), TDMI and Φ_G are unaffected by noise correlation; Φ̃ and Σ̄ grow monotonically with c (Φ̃ diverges to infinity as c → 1); ψ, Φ*, and CD decrease monotonically to 0; and Φ decreases monotonically and becomes negative for large enough c.
+- Table 4 summary: Φ shows erratic behaviour and goes negative when nodes are strongly correlated; Φ̃ mostly reflects noise-input correlation and is insensitive to coupling changes; Φ_G mostly reflects coupling changes and is insensitive to noise-input correlation; and ψ, Φ*, and CD are consistent with reflecting both segregation and integration.
+- On a suite of six 8-node networks (fully connected, Φ-optimal binary, Φ-optimal weighted, bidirectional ring, small-world, unidirectional ring; all normalised to spectral radius 0.9), the unidirectional ring network is judged most complex by all measures except Φ̃, and the fully connected network is consistently judged least complex; the Spearman correlation between the small-world-index ranking and the rankings by TDMI, Φ_G, Φ*, and ψ is around −0.4.
+- For Erdős-Rényi random networks parametrised by edge density ρ and noise correlation c (50 networks averaged per (ρ,c) point), Φ*, ψ, Φ_G, and CD show a peak at an intermediate value of average correlation Σ̄ (Fig. 8), consistent with a valid complexity index; Φ̃ has a stronger positive trend with Σ̄ and Φ an overall negative trend.
+- Computational cost of partition search: searching all partitions (as in Balduzzi and Tononi [5]) is O(n^n) (Bell number B_n); restricting to bipartitions is O(2^n); restricting to even bipartitions is O(n^2).
+- Appendix A derives a corrected closed-form formula for Ĩ(β) (used in Φ*) for Gaussian systems, stating the version in Ref. [35] is incorrect and verifying the corrected version against numerical integration; Ĩ(β) is shown concave in β (via a log-sum-exp argument from Boyd and Vandenberghe [14]). Appendix B proves CD ≤ TDMI I(X_t; X_{t+τ}).
+
+## Critical notes from the literature
+- The authors state that proponents' claim that integrated-information measures relate to the quantity of consciousness is controversial, and that empirical evidence linking any particular measure to consciousness remains scarce [15]; they explicitly do not focus on consciousness and treat the measures as operationalisations of dynamical complexity.
+- Φ is described as a poor measure because it can be negative [35]; the paper reports Φ's behaviour is erratic across all simulations, undermining prospects for empirical application (more so if optimised over all bipartitions rather than even ones).
+- The measures are compared only on continuous Gaussian linear AR systems; the authors note the Gaussian assumption is not always a good fit to real data (e.g., spiking neuron populations exhibit exponentially distributed dynamics [17]), and call for future comparison on discrete and non-Gaussian systems.
+- The measures quantify information with respect to the empirical/spontaneous distribution rather than the maximum-entropy distribution of IIT versions 2 and 3 [5,34]; the authors caution this yields a measure "not of mechanism, but of dynamics," so the measures should not be considered straightforward generalisations or approximations of the proposed "fundamental" Φ of IIT 2.0/3.0. They also note Φ-3.0 is conceptually distinct and far more computationally expensive, and constructing a spontaneous-dynamics analogue is beyond scope.
+- ψ inherits the shortcoming of Partial Information Decomposition (PID): there is no agreed consensus on a definition of redundancy [9,12], and PID is underdetermined; the authors adopt Griffith and Koch's minimum-mutual-information redundancy [20] and generalise Barrett's MMI-PID formula to multivariate targets for Gaussians.
+- Different measures embed different definitions of effective information and different partition schemes, which is a confounding factor when comparing them; the paper controls for partition scheme by using even bipartitions throughout, but notes further research is needed on MIP approximation methods (e.g., graph-modularity/spectral heuristics of Toker and Sommer [42,43], submodularity-based optimisation of Hidaka and Oizumi [21]).
+
+## Key topics covered
+Integrated Information Theory (IIT); integrated information measures; whole-minus-sum Φ; integrated stochastic interaction Φ̃; integrated synergy ψ; decoder-based integrated information Φ*; geometric integrated information Φ_G; causal density (CD); minimum information partition (MIP); effective information; partition search and normalisation; dynamical complexity (integration vs segregation); Gaussian linear autoregressive (AR) processes; time-delayed mutual information (TDMI); transfer entropy; Partial Information Decomposition (PID) and redundancy; information geometry; mismatched decoding information; Erdős-Rényi random networks; small-world index; eight-node network topologies; mismatched-decoder formula correction for Gaussians; concavity/convex optimisation proof; bounds on causal density.
