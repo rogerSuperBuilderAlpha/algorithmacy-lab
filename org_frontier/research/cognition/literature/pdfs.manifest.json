@@ -1,0 +1,1163 @@
+[
+ {
+  "citekey": "newell1976computer",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/360018.360022",
+  "title": "Computer Science as Empirical Inquiry: Symbols and Search"
+ },
+ {
+  "citekey": "varela1991embodied",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "The Embodied Mind: Cognitive Science and Human Experience"
+ },
+ {
+  "citekey": "clark1998extended",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/analys/58.1.7",
+  "title": "The Extended Mind"
+ },
+ {
+  "citekey": "clark2013whatever",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/33542C736E17E3D1D44E8D03BE5F4CD9/S0140525X12000477a.pdf/div-class-title-whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science-div.pdf",
+  "sha256": "870cdb457bf54f44330b9a63538d67a7d4a05a0d3618359c6e4ea3e9a1fe89fe",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "friston2010free",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnrn2787/MediaObjects/41583_2010_BFnrn2787_MOESM251_ESM.pdf",
+  "sha256": "0aaabefd8361bc35d0060770df14624ba11a5407ef2d8e7218578d2072df8370",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hohwy2020new",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/mila.12281",
+  "title": "New Directions in Predictive Processing"
+ },
+ {
+  "citekey": "premack1978does",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1E96B02CD9850016B7C93BC6D2FEF1D0/S0140525X00076512a.pdf/div-class-title-does-the-chimpanzee-have-a-theory-of-mind-div.pdf",
+  "sha256": "b0b76e5961e3adf033edd83f75f23827d6ca1581a4a54f73aca772079c3606c0",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tomasello2005understanding",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1017/S0140525X05000129",
+  "title": "Understanding and Sharing Intentions: The Origins of Cultural Cognition"
+ },
+ {
+  "citekey": "bucher2017algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154086",
+  "title": "The Algorithmic Imaginary: Exploring the Ordinary Affects of Facebook Algorithms"
+ },
+ {
+  "citekey": "eslami2015always",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2702123.2702556",
+  "title": "{``}I Always Assumed That I Wasn't Really That Close to [Her]{''}: Reasoning About Invisible Algorithms in News Feeds"
+ },
+ {
+  "citekey": "devito2017algorithms",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3025453.3025659",
+  "title": "{``}Algorithms Ruin Everything{''}: #RIPTwitter, Folk Theories, and Resistance to Algorithmic Change in Social Media"
+ },
+ {
+  "citekey": "ytrearne2021folk",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0163443720972314",
+  "title": "Folk Theories of Algorithms: Understanding Digital Irritation"
+ },
+ {
+  "citekey": "seaver2018what",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journal.culanth.org/index.php/ca/article/download/ca33.3.04/90",
+  "sha256": "33f5eb777a46f464d519a162396896ed0253230fac353228e24d02b528dbf73f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "cotter2019playing",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:?",
+  "source_url": "https://repositorio.ufba.br/bitstream/ri/36633/1/COMO%20O%20USO%20INSTAGRAM%20ALTERA%20O%20TRABALHO%20DOS%20TATUADORES%20PROFISSIONAIS%20-%20Helen%20Fernandes%20de%20Sousa.pdf",
+  "sha256": "1476064be26d0b6453742dae83b37937f874c0671fbddca3b0d1127a81e96857",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "gran2021tobe",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2020.1736124",
+  "title": "To Be or Not to Be Algorithm Aware: A Question of a New Digital Divide?"
+ },
+ {
+  "citekey": "swart2021experiencing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20563051211008828",
+  "title": "Experiencing Algorithms: How Young People Understand, Feel About, and Engage With Algorithmic News Selection on Social Media"
+ },
+ {
+  "citekey": "gagrcin2024algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448241291137",
+  "title": "Algorithmic Media Use and Algorithm Literacy: An Integrative Literature Review"
+ },
+ {
+  "citekey": "ridley2022informing",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Informing Algorithmic Literacy Through User Folk Theories"
+ },
+ {
+  "citekey": "ostinelli2024unintended",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/jcpy.1416",
+  "title": "Unintended Effects of Algorithmic Transparency: The Mere Prospect of an Explanation Can Foster the Illusion of Understanding How an Algorithm Works"
+ },
+ {
+  "citekey": "das2024howdo",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448241232589",
+  "title": "How Do We Speak About Algorithms and Algorithmic Media Futures? Using Vignettes and Scenarios in a Citizen Council on Data-Driven Media Personalisation"
+ },
+ {
+  "citekey": "nass1994computers",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/191666.191703",
+  "title": "Computers Are Social Actors"
+ },
+ {
+  "citekey": "reeves1996media",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places"
+ },
+ {
+  "citekey": "guzman2020ontological",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.30658/hmc.1.3",
+  "title": "Ontological Boundaries Between Humans and Computers and the Implications for Human-Machine Communication"
+ },
+ {
+  "citekey": "guzman2020artificial",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1461444819858691",
+  "title": "Artificial Intelligence and Communication: A Human-Machine Communication Research Agenda"
+ },
+ {
+  "citekey": "hancock2020aimediated",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/jcmc/zmz022",
+  "title": "AI-Mediated Communication: Definition, Research Agenda, and Ethical Considerations"
+ },
+ {
+  "citekey": "jakesch2019aimediated",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3290605.3300469",
+  "title": "AI-Mediated Communication: How the Perception That Profile Text Was Written by AI Affects Trustworthiness"
+ },
+ {
+  "citekey": "mieczkowski2021aimediated",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3449091",
+  "title": "AI-Mediated Communication: Language Use and Interpersonal Effects in a Referential Communication Task"
+ },
+ {
+  "citekey": "hohenstein2023artificial",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41598-023-30938-9.pdf",
+  "sha256": "7853d76e8618f4fdd436d60372202ad5beb43cdca970de6908112e021c763ac3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "strachan2024testing",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41562-024-01882-z.pdf",
+  "sha256": "1c8cf5e026069f85ebe571c06e9170fb045b33112ae08c182aa9ff5c9163bc3e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tononi2016integrated",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnrn.2016.44/MediaObjects/41583_2016_BFnrn201644_MOESM12_ESM.pdf",
+  "sha256": "d25e1e17f1da4b639bbe9be3f6470bd3ea4f1b686f2f15b76e542eccfc4374c2",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "hutchins1995cockpit",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1207/s15516709cog1903_1",
+  "title": "How a Cockpit Remembers Its Speeds"
+ },
+ {
+  "citekey": "heersmink2014dimensions",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/s11097-014-9355-1",
+  "title": "Dimensions of Integration in Embedded and Extended Cognitive Systems"
+ },
+ {
+  "citekey": "sutton2010psychology",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/s11097-010-9182-y",
+  "title": "The Psychology of Memory, Extended Cognition, and Socially Distributed Remembering"
+ },
+ {
+  "citekey": "smart2017internet",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007%2Fs13347-016-0250-2.pdf",
+  "sha256": "4ba92e6fc09ec0d6e4146052b7f24c26072ebe2c76faac0050832d94584fc7d6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hernandezorallo2019aiextenders",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3306618.3314238",
+  "title": "AI Extenders: The Ethical and Societal Implications of Humans Cognitively Extended by AI"
+ },
+ {
+  "citekey": "farina2022incorporation",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/s13347-022-00508-4",
+  "title": "Incorporation, Transparency and Cognitive Extension: Why the Distinction Between Embedded and Extended Might Be More Important to Ethics Than to Metaphysics"
+ },
+ {
+  "citekey": "grumbach2026cognitive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/bdcc10020063",
+  "title": "Cognitive Assemblages: Living with Algorithms"
+ },
+ {
+  "citekey": "tomczyk2023locus",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s10838-023-09666-1.pdf",
+  "sha256": "8022f9e3b125a5af0d6737ae6410f065edda067592ab90b14471b24243fb3848",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "loock2025extracted",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s11229-025-04962-3.pdf",
+  "sha256": "b3ef61cab66677a8e0286e14e77f56e3e4615455da83dac85a1766cb2b3a3a49",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "friston2009predictive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1098/rstb.2008.0300",
+  "title": "Predictive coding under the free-energy principle"
+ },
+ {
+  "citekey": "dacosta2020active",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2001.07203",
+  "sha256": "66bfbf026448835f5f4641859794d2f766a50690778fd91738a3b45f88c3a6e9",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sprevak2023introduction",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/tops.12704",
+  "title": "An Introduction to Predictive Processing Models of Perception and Decision-Making"
+ },
+ {
+  "citekey": "ondobaka2017role",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.bandc.2015.08.002",
+  "title": "The role of interoceptive inference in theory of mind"
+ },
+ {
+  "citekey": "poppel2022resonating",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s12559-021-09960-4.pdf",
+  "sha256": "13cd382857d090beb832f5f740345212a3cbbc958add06653936eeb4c35c9aa7",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "friston2024federated",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://kops.uni-konstanz.de/bitstreams/f8a5010e-455d-4b08-87c5-dcc0d9a54461/download",
+  "sha256": "9f5e22b87a1568ed94ee7b9d2c844d8e97b37067970cbfcf40a06a5733d3b014",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "albarracin2024shared",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e26040303",
+  "title": "Shared Protentions in Multi-Agent Active Inference"
+ },
+ {
+  "citekey": "pezzulo2024neural",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/nyas.15118",
+  "title": "Neural representation in active inference: Using generative models to interact with---and understand---the lived world"
+ },
+ {
+  "citekey": "waade2025asone",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e27020143",
+  "title": "As One and Many: Relating Individual and Emergent Group-Level Generative Models in Active Inference"
+ },
+ {
+  "citekey": "pitliya2025theory",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2508.00401",
+  "sha256": "98ef3545afb76562c541614fa7245fd1d3176ce361afc366d787c2146ae981e8",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "friston2025active",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1162/neco_a_01738",
+  "title": "Active Inference and Intentional Behavior"
+ },
+ {
+  "citekey": "wellman2001metaanalysis",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/1467-8624.00304",
+  "title": "Meta-Analysis of Theory-of-Mind Development: The Truth about False Belief"
+ },
+ {
+  "citekey": "sebanz2006joint",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.tics.2005.12.009",
+  "title": "Joint Action: Bodies and Minds Moving Together"
+ },
+ {
+  "citekey": "tomasello2018howchildren",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1073/pnas.1804761115",
+  "title": "How Children Come to Understand False Beliefs: A Shared Intentionality Account"
+ },
+ {
+  "citekey": "rakoczy2022foundations",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1038/s44159-022-00037-z",
+  "title": "Foundations of Theory of Mind and Its Development in Early Childhood"
+ },
+ {
+  "citekey": "spaulding2019mindreading",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/wcs.1523",
+  "title": "What Is Mindreading?"
+ },
+ {
+  "citekey": "gallagher2015social",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/wps.20173",
+  "title": "Social Cognition and Psychopathology: A Critical Overview"
+ },
+ {
+  "citekey": "taylor2023reading",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://research-repository.st-andrews.ac.uk/bitstream/10023/28176/1/Taylor_2023_BR_Readingminds_CCBYNCND.pdf",
+  "sha256": "552fe0420e0b7672edd54a3ffbf659e907b95a5706f7731b8c4635e49198b9e6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kosinski2023evaluating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1073/pnas.2405460121",
+  "title": "Evaluating Large Language Models in Theory of Mind Tasks"
+ },
+ {
+  "citekey": "ullman2023large",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2302.08399",
+  "sha256": "78eb9acbd9798ff754c4a8a63cba88dfc82d72bae1caab275b5505a9fc8a8484",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "bucher2017imaginary",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154086",
+  "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms"
+ },
+ {
+  "citekey": "schulz2023imaginary",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/01634437221136014",
+  "title": "A new algorithmic imaginary"
+ },
+ {
+  "citekey": "eslami2016folk",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2858036.2858494",
+  "title": "First I ``like'' it, then I hide it: Folk Theories of Social Feeds"
+ },
+ {
+  "citekey": "devito2017riptwitter",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3025453.3025659",
+  "title": "``Algorithms ruin everything'': \\#RIPTwitter, Folk Theories, and Resistance to Algorithmic Change in Social Media"
+ },
+ {
+  "citekey": "karizat2021identity",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476046",
+  "title": "Algorithmic Folk Theories and Identity: How TikTok Users Co-Produce Knowledge of Identity and Engage in Algorithmic Resistance"
+ },
+ {
+  "citekey": "savolainen2022shadow",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/01634437221077174",
+  "title": "The shadow banning controversy: perceived governance and algorithmic folklore"
+ },
+ {
+  "citekey": "cotter2018visibility",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:?",
+  "source_url": "https://repositorio.ufba.br/bitstream/ri/36633/1/COMO%20O%20USO%20INSTAGRAM%20ALTERA%20O%20TRABALHO%20DOS%20TATUADORES%20PROFISSIONAIS%20-%20Helen%20Fernandes%20de%20Sousa.pdf",
+  "sha256": "1476064be26d0b6453742dae83b37937f874c0671fbddca3b0d1127a81e96857",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "low2023booktok",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448231206466",
+  "title": "Algorithmic imaginings and critical digital literacy on \\#BookTok"
+ },
+ {
+  "citekey": "stanusch2024imgur",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://pure.uva.nl/ws/files/307997439/Imgur_image_macros_and_algorithms_memes_as_imaginary_issue_spaces_of_users_encounters_with_algorithmic_recommendations.pdf",
+  "sha256": "b2bd38fe98c85ba5b6dc40cae9dacfdf4cc1cf8dc6834791ddc6ea7f5b09e549",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "lin2025oscillation",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://kclpure.kcl.ac.uk/ws/files/358195628/Oscillation_Between_Resist_and_to_Not_Version_of_Record.pdf",
+  "sha256": "01e487f5b54f68da4bece280850ada71d2355cfef7232e1f55fe9d995061adb1",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "lin2025vernacular",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/01292986.2025.2596734",
+  "title": "On vernacular sensemaking: how Douyin's algorithm discourse shapes users' algorithmic imaginaries"
+ },
+ {
+  "citekey": "devito2018howpeople",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3173574.3173694",
+  "title": "How People Form Folk Theories of Social Media Feeds and What it Means for How We Study Self-Presentation"
+ },
+ {
+  "citekey": "dogruel2021folk",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/01972243.2021.1949768",
+  "title": "Folk theories of algorithmic operations during Internet use: A mixed methods study"
+ },
+ {
+  "citekey": "french2017whats",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2139/ssrn.2910571",
+  "title": "What's the Folk Theory? Reasoning About Cyber-Social Systems"
+ },
+ {
+  "citekey": "dreston2025whatis",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/tmb0000170",
+  "title": "What is an algorithm? A cross-cultural examination of social media users' mental associations on algorithms"
+ },
+ {
+  "citekey": "karizat2021algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476046",
+  "title": "Algorithmic Folk Theories and Identity: How TikTok Users Co-Produce Knowledge of Identity and Engage in Algorithmic Resistance"
+ },
+ {
+  "citekey": "delmonaco2024whatare",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3637431",
+  "title": "\"What are you doing, TikTok?\": How Marginalized Social Media Users Perceive, Theorize, and \"Prove\" Shadowbanning"
+ },
+ {
+  "citekey": "devito2021adaptive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476080",
+  "title": "Adaptive Folk Theorization as a Path to Algorithmic Literacy on Changing Platforms"
+ },
+ {
+  "citekey": "schellewald2022theorizing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20563051221077025",
+  "title": "Theorizing \"Stories About Algorithms\" as a Mechanism in the Formation and Maintenance of Algorithmic Imaginaries"
+ },
+ {
+  "citekey": "milton2026unraveling",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2602.15745",
+  "sha256": "02e4dcccdd1e757aa1a98def06a8b1085bafddabeedd7edcea886b58bfa464f6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "popowski2026people",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3788067",
+  "title": "People Can Accurately Predict Behavior of Complex Algorithms That Are Available, Compact, and Aligned"
+ },
+ {
+  "citekey": "dogruel2021scale",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312458.2021.1968361",
+  "title": "Development and Validation of an Algorithm Literacy Scale for Internet Users"
+ },
+ {
+  "citekey": "eslami2016like",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2858036.2858494",
+  "title": "First I ``like'' it, then I hide it: Folk Theories of Social Feeds"
+ },
+ {
+  "citekey": "gagrcin2024review",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448241291137",
+  "title": "Algorithmic media use and algorithm literacy: An integrative literature review"
+ },
+ {
+  "citekey": "gran2021algorithm",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2020.1736124",
+  "title": "To be or not to be algorithm aware: a question of a new digital divide?"
+ },
+ {
+  "citekey": "gruber2023skills",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20539517231168100",
+  "title": "The importance of algorithm skills for informed Internet use"
+ },
+ {
+  "citekey": "oeldorfhirsch2023correlates",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/jcmc/zmad035",
+  "title": "Attitudinal and behavioral correlates of algorithmic awareness among German and U.S. social media users"
+ },
+ {
+  "citekey": "cotter2019visibility",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:?",
+  "source_url": "https://repositorio.ufba.br/bitstream/ri/36633/1/COMO%20O%20USO%20INSTAGRAM%20ALTERA%20O%20TRABALHO%20DOS%20TATUADORES%20PROFISSIONAIS%20-%20Helen%20Fernandes%20de%20Sousa.pdf",
+  "sha256": "1476064be26d0b6453742dae83b37937f874c0671fbddca3b0d1127a81e96857",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "bishop2019gossip",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://kclpure.kcl.ac.uk/ws/files/139130145/Managing_visibility_on_YouTube_BISHOP_Acc14_May2019Epub15Jun2019_GREEN_AAM.pdf",
+  "sha256": "a777a6c22e53aa8a365f1c833b3229834756a60cc08be88b17acf4ac9beb6f82",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "devito2018folktheories",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3173574.3173694",
+  "title": "How People Form Folk Theories of Social Media Feeds and What it Means for How We Study Self-Presentation"
+ },
+ {
+  "citekey": "devito2022transfeminine",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3555105",
+  "title": "How Transfeminine TikTok Creators Navigate the Algorithmic Trap of Visibility Via Folk Theorization"
+ },
+ {
+  "citekey": "delmonaco2024tiktok",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3637431",
+  "title": "''What are you doing, TikTok?'': How Marginalized Social Media Users Perceive, Theorize, and ''Prove'' Shadowbanning"
+ },
+ {
+  "citekey": "duffy2023margins",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/01634437221111923",
+  "title": "Platform governance at the margins: Social media creators' experiences with algorithmic (in)visibility"
+ },
+ {
+  "citekey": "savolainen2022shadowban",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/01634437221077174",
+  "title": "The shadow banning controversy: perceived governance and algorithmic folklore"
+ },
+ {
+  "citekey": "cotter2021gaslighting",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2021.1994624",
+  "title": "''Shadowbanning is not a thing'': black box gaslighting and the power to independently know and credibly critique algorithms"
+ },
+ {
+  "citekey": "petre2019gaming",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2056305119879995",
+  "title": "''Gaming the System'': Platform Paternalism and the Politics of Algorithmic Visibility"
+ },
+ {
+  "citekey": "hron2022exposuregame",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Modeling Content Creator Incentives on Algorithm-Curated Platforms"
+ },
+ {
+  "citekey": "fedorova2025users",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Can Users Fix Algorithms? A Game-Theoretic Analysis of Collective Content Amplification in Recommender Systems"
+ },
+ {
+  "citekey": "guzman2019artificial",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1461444819858691",
+  "title": "Artificial intelligence and communication: A Human--Machine Communication research agenda"
+ },
+ {
+  "citekey": "gambino2020building",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.30658/hmc.1.5",
+  "title": "Building a Stronger CASA: Extending the Computers Are Social Actors Paradigm"
+ },
+ {
+  "citekey": "lombard2021social",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.30658/hmc.2.2",
+  "title": "Social Responses to Media Technologies in the 21st Century: The Media are Social Actors Paradigm"
+ },
+ {
+  "citekey": "heyselaar2023casa",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41598-023-46527-9.pdf",
+  "sha256": "83ab40cd235a5385ed402ae117f19e9b950761c259a798a108dd9a07bd9eb36a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "xu2022deep",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.chb.2022.107321",
+  "title": "Deep mind in social responses to technologies: A new approach to explaining the Computers are Social Actors phenomena"
+ },
+ {
+  "citekey": "edwards2025being",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.30658/hmc.10.1",
+  "title": "Being and Becoming in Human-Machine Communication: Core Commitments and Conceptual Foundations of a Trans-Ontological Field"
+ },
+ {
+  "citekey": "westerman2020itit",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10510974.2020.1749683",
+  "title": "I-It, I-Thou, I-Robot: The Perceived Humanness of AI in Human-Machine Communication"
+ },
+ {
+  "citekey": "banks2020toward",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.30658/hmc.1.2",
+  "title": "Toward an Agent-Agnostic Transmission Model: Synthesizing Anthropocentric and Technocentric Paradigms in Communication"
+ },
+ {
+  "citekey": "lewis2019automation",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/21670811.2019.1577147",
+  "title": "Automation, Journalism, and Human-Machine Communication: Rethinking Roles and Relationships of Humans and Machines in News"
+ },
+ {
+  "citekey": "fortunati2021moving",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://air.uniud.it/bitstream/11390/1246431/2/Fortunati_Moving%20ahead%20with%20human%20machine_2021.pdf",
+  "sha256": "a5fa28368f1afc6505712ea52a77ef44959cbcff23658f1c30e8f8a3aed9f874",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hancock2020aimc",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/jcmc/zmz022",
+  "title": "{AI}-Mediated Communication: Definition, Research Agenda, and Ethical Considerations"
+ },
+ {
+  "citekey": "jakesch2019replicant",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3290605.3300469",
+  "title": "{AI}-Mediated Communication: How the Perception that Profile Text was Written by {AI} Affects Trustworthiness"
+ },
+ {
+  "citekey": "hohenstein2020crumple",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.chb.2019.106190",
+  "title": "{AI} as a moral crumple zone: The effects of {AI}-mediated communication on attribution and trust"
+ },
+ {
+  "citekey": "hohenstein2023language",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41598-023-30938-9.pdf",
+  "sha256": "7853d76e8618f4fdd436d60372202ad5beb43cdca970de6908112e021c763ac3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "mieczkowski2021aimc",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3449091",
+  "title": "{AI}-Mediated Communication: Language Use and Interpersonal Effects in a Referential Communication Task"
+ },
+ {
+  "citekey": "hennighausen2025ecommerce",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://www.econstor.eu/bitstream/10419/330201/1/IJCS_IJCS70111.pdf",
+  "sha256": "0a430db5b333b1664524656d49f364349a82f05599f8582fb8c3968bc745ab34",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kirk2025authorship",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.jbusres.2024.114984",
+  "title": "The {AI}-authorship effect: Understanding authenticity, moral disgust, and consumer responses to {AI}-generated marketing communications"
+ },
+ {
+  "citekey": "coman2024professionalism",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/23294906241233224",
+  "title": "Perceptions of Professionalism and Authenticity in {AI}-Assisted Writing"
+ },
+ {
+  "citekey": "hass2025remorse",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/cb.70057",
+  "title": "{AI} Ghostwriting Remorse: Guilt for Using Generative {AI} in Interpersonal Heartfelt Messages"
+ },
+ {
+  "citekey": "purcell2025efficiency",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://hdl.handle.net/21.11116/0000-0012-4DDD-E",
+  "sha256": "ded0e4d670b0666b8aefa6d185616c0391c22900793e1629a72a0d96289bb22c",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sahebi2025dilemma",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s11229-025-04963-2.pdf",
+  "sha256": "284a9298238434ed2728ab10269732e3e91d7b30e51daab2503e12874c6a3ffc",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tononi2004information",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://bmcneurosci.biomedcentral.com/counter/pdf/10.1186/1471-2202-5-42",
+  "sha256": "27a598c5c538d7c1e9a1e4e60ae081483313db298736e84645dc561cf5e83ef7",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "tononi2008consciousness",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2307/25470707",
+  "title": "Consciousness as Integrated Information: a Provisional Manifesto"
+ },
+ {
+  "citekey": "oizumi2014phenomenology",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "barbosa2021mechanism",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e23030362",
+  "title": "Mechanism Integrated Information"
+ },
+ {
+  "citekey": "albantakis2023iit40",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+  "sha256": "96129cb9589703e30663969cb0f0f329f706778b88b6b5f4b967a19f994783db",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "marshall2024upper",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012323&type=printable",
+  "sha256": "f3a8af380eca898308e553d6dd39e7f7781def62175ee9427ff98ac6a71a1a0b",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "cerullo2015problem",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004286&type=printable",
+  "sha256": "8fa57f7c0461b2291f6f1b138f0edcff05188072e1ae2bdd64de7a6a02392d87",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "barrett2019phi",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "The Phi measure of integrated information is not well-defined for general physical systems"
+ },
+ {
+  "citekey": "mediano2022strength",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.tics.2022.04.008",
+  "title": "The strength of weak integrated information theory"
+ },
+ {
+  "citekey": "barrett2026good",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Integrated information theory: the good, the bad and the misunderstood"
+ },
+ {
+  "citekey": "engel2018integrated",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0205335&type=printable",
+  "sha256": "82d666848c70dc55e717c754434b2434e633a40d07bbfeeeb80993ea8574bec5",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ }
+]
