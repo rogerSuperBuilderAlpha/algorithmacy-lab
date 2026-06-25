@@ -1,4 +1,4 @@
-<!-- run: 2026-06-25 | sources: 106 | verified: 106 -->
+<!-- run: 2026-06-25 | sources: 138 | verified: 138 -->
 Deep-research run, 2026-06-23. 16 search angles, 25 sources, 25 verified.
 
 ## 1. The exact-Phi lineage and its formal core
