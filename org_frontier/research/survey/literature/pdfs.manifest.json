@@ -1,0 +1,1082 @@
+[
+ {
+  "citekey": "boateng2018best",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2018.00149/pdf",
+  "sha256": "e2fcdbb06a17c249970b2c980c0b8fa183bd1122c755c2b74271716dd13d3541",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "streiner2014recommendations",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/jan.12402",
+  "title": "Recommendations for reporting the results of studies of instrument and scale development and testing"
+ },
+ {
+  "citekey": "elden2020howtomeasure",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ijpp.12600",
+  "title": "How to measure a latent construct: Psychometric principles for the development and validation of measurement instruments"
+ },
+ {
+  "citekey": "devon2007psychometric",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.1547-5069.2007.00161.x",
+  "title": "A Psychometric Toolbox for Testing Validity and Reliability"
+ },
+ {
+  "citekey": "dunn2014alphaomega",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/bjop.12046",
+  "title": "From alpha to omega: A practical solution to the pervasive problem of internal consistency estimation"
+ },
+ {
+  "citekey": "green2015evaluation",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/emip.12100",
+  "title": "Evaluation of Dimensionality in the Assessment of Internal Consistency Reliability: Coefficient Alpha and Omega Coefficients"
+ },
+ {
+  "citekey": "terry2011samplesize",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.2044-8317.2011.02030.x",
+  "title": "Sample size planning for composite reliability coefficients: Accuracy in parameter estimation via narrow confidence intervals"
+ },
+ {
+  "citekey": "vandenberg2000review",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/109442810031002",
+  "title": "A Review and Synthesis of the Measurement Invariance Literature: Suggestions, Practices, and Recommendations for Organizational Research"
+ },
+ {
+  "citekey": "cheung2002evaluating",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1207/S15328007SEM0902_5",
+  "title": "Evaluating Goodness-of-Fit Indexes for Testing Measurement Invariance"
+ },
+ {
+  "citekey": "putnick2016measurement",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "http://www.statmodel.com/download/webnotes/CatMGLong.pdf",
+  "sha256": "d1f5ffe94cd5a0433d1bef25fb885fc9597a7dede0d4e557f848738bfdc2af7e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "dogruel2021development",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312458.2021.1968361",
+  "title": "Development and Validation of an Algorithm Literacy Scale for Internet Users"
+ },
+ {
+  "citekey": "hargittai2020blackbox",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2020.1713846",
+  "title": "Black box measures? How to study people's algorithm skills"
+ },
+ {
+  "citekey": "zarouali2021amca",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://pure.uva.nl/ws/files/62327390/1_s2.0_S0736585321000460_main.pdf",
+  "sha256": "c0ff86835ea3bb1626cdec017839953d419717522f17e2fa9c128c0fe25ff1d2",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "scheibenzuber2026sails",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/bjet.70065",
+  "title": "Scenario-Based AI Literacy Scale (SAILS): Evidence for distinct instrumental and critical-reflective AI skills and their difference from traditional digital skills"
+ },
+ {
+  "citekey": "gran2021tobe",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2020.1736124",
+  "title": "To be or not to be algorithm aware: a question of a new digital divide?"
+ },
+ {
+  "citekey": "oeldorfhirsch2023attitudinal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/jcmc/zmad035",
+  "title": "Attitudinal and behavioral correlates of algorithmic awareness among German and U.S. social media users"
+ },
+ {
+  "citekey": "rader2015understanding",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2702123.2702174",
+  "title": "Understanding User Beliefs About Algorithmic Curation in the Facebook News Feed"
+ },
+ {
+  "citekey": "devito2017algorithms",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3025453.3025659",
+  "title": "{\"}Algorithms ruin everything{\"}: \\#RIPTwitter, Folk Theories, and Resistance to Algorithmic Change in Social Media"
+ },
+ {
+  "citekey": "devito2021adaptive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476080",
+  "title": "Adaptive Folk Theorization as a Path to Algorithmic Literacy on Changing Platforms"
+ },
+ {
+  "citekey": "hamaker2015critique",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://pure.uva.nl/ws/files/2688454/168970_Hamaker_Kuiper_Grasman_2015_A_Critique_of_Cross_Lagged_Panel_Model.pdf",
+  "sha256": "f9f521b27cc945bcad4fbb102a53c2ac9fdc0358c1c552f235372f4966a45f8b",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "lucas2023why",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/25152459231158378",
+  "title": "Why the Cross-Lagged Panel Model Is Almost Never the Right Choice"
+ },
+ {
+  "citekey": "carpenter2018ten",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312458.2017.1396583",
+  "title": "Ten Steps in Scale Development and Reporting: A Guide for Researchers"
+ },
+ {
+  "citekey": "clark1995constructing",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/1040-3590.7.3.309",
+  "title": "Constructing Validity: Basic Issues in Objective Scale Development"
+ },
+ {
+  "citekey": "clark2019constructing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/pas0000626",
+  "title": "Constructing Validity: New Developments in Creating Objective Measuring Instruments"
+ },
+ {
+  "citekey": "dogruel2022development",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312458.2021.1968361",
+  "title": "Development and Validation of an Algorithm Literacy Scale for Internet Users"
+ },
+ {
+  "citekey": "gagnier2021cosmin",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/s11136-021-02822-4",
+  "title": "COSMIN Reporting Guideline for Studies on Measurement Properties of Patient-Reported Outcome Measures"
+ },
+ {
+  "citekey": "lambert2022construct",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/10944281221115374",
+  "title": "Construct Development and Validation in Three Practical Steps: Recommendations for Reviewers, Editors, and Authors"
+ },
+ {
+  "citekey": "lintner2024systematic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41539-024-00264-4.pdf",
+  "sha256": "0fcf7a4374d483fec7dca04e55f1428c631bfa197a5f108182a077fb372ac0bb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "morgado2017scale",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://prc.springeropen.com/track/pdf/10.1186/s41155-016-0057-1",
+  "sha256": "ce07dbce3f2c6bad33b5f8a6f8f42f9ca41fd2dbe1afe9dda182dcc53d850724",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "stefana2025psychological",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3389/fpsyg.2025.1531946",
+  "title": "Psychological, Psychiatric, and Behavioral Sciences Measurement Scales: Best Practice Guidelines for Their Development and Validation"
+ },
+ {
+  "citekey": "mcneish2018thanks",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000144",
+  "title": "Thanks Coefficient Alpha, We'll Take It From Here"
+ },
+ {
+  "citekey": "dunn2014alpha",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/bjop.12046",
+  "title": "From Alpha to Omega: A Practical Solution to the Pervasive Problem of Internal Consistency Estimation"
+ },
+ {
+  "citekey": "trizano2016best",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.00769/pdf",
+  "sha256": "32c7bb50a69d2e972e9959d638b2b2bd3b84dbcce622429b3b69c6a9258bb64f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hayes2020omega",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312458.2020.1718629",
+  "title": "Use Omega Rather than Cronbach's Alpha for Estimating Reliability. But..."
+ },
+ {
+  "citekey": "flora2020alpha",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2515245920951747",
+  "title": "Your Coefficient Alpha Is Probably Wrong, but Which Coefficient Omega Is Right? A Tutorial on Using R to Obtain Better Reliability Estimates"
+ },
+ {
+  "citekey": "doval2023alpha",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://evaluacionarce.fecyt.es/Publico/Resolucion/__Recursos/2025ResolucionProvisional.pdf",
+  "sha256": "6025bd752fddba16adc924a18b7e3b0675f7c8be171e69081abf454cbdc9702e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "rodriguez2016evaluating",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000045",
+  "title": "Evaluating Bifactor Models: Calculating and Interpreting Statistical Indices"
+ },
+ {
+  "citekey": "watkins2017reliability",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/13854046.2017.1317364",
+  "title": "The Reliability of Multidimensional Neuropsychological Measures: From Alpha to Omega"
+ },
+ {
+  "citekey": "cho2022reliability",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000525",
+  "title": "Reliability and Omega Hierarchical in Multidimensional Data: A Comparison of Various Estimators"
+ },
+ {
+  "citekey": "kelley2016confidence",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/a0040086",
+  "title": "Confidence Intervals for Population Reliability Coefficients: Evaluation of Methods, Recommendations, and Software for Composite Measures"
+ },
+ {
+  "citekey": "terry2012sample",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.2044-8317.2011.02030.x",
+  "title": "Sample Size Planning for Composite Reliability Coefficients: Accuracy in Parameter Estimation via Narrow Confidence Intervals"
+ },
+ {
+  "citekey": "bonett2015cronbach",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/job.1960",
+  "title": "Cronbach's Alpha Reliability: Interval Estimation, Hypothesis Testing, and Sample Size Planning"
+ },
+ {
+  "citekey": "meredith1993invariance",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/BF02294825",
+  "title": "Measurement Invariance, Factor Analysis and Factorial Invariance"
+ },
+ {
+  "citekey": "chen2007sensitivity",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10705510701301834",
+  "title": "Sensitivity of Goodness of Fit Indexes to Lack of Measurement Invariance"
+ },
+ {
+  "citekey": "asparouhov2014alignment",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10705511.2014.919210",
+  "title": "Multiple-Group Factor Analysis Alignment"
+ },
+ {
+  "citekey": "putnick2016conventions",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "http://www.statmodel.com/download/webnotes/CatMGLong.pdf",
+  "sha256": "d1f5ffe94cd5a0433d1bef25fb885fc9597a7dede0d4e557f848738bfdc2af7e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kim2017manygroups",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10705511.2017.1304822",
+  "title": "Measurement Invariance Testing with Many Groups: A Comparison of Five Approaches"
+ },
+ {
+  "citekey": "marsh2018alignment",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000113",
+  "title": "What to Do When Scalar Invariance Fails: The Extended Alignment Method for Multi-Group Factor Analysis Comparison of Latent Means Across Many Groups"
+ },
+ {
+  "citekey": "cieciuch2018approximate",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0049124117701478",
+  "title": "Testing for Approximate Measurement Invariance of Human Values in the European Social Survey"
+ },
+ {
+  "citekey": "seddig2018approximate",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://ojs.ub.uni-konstanz.de/srm/article/download/7210/6571",
+  "sha256": "44df941345a28c7680007f7aebb7feaeb43d516bee23921ffc8394d300c77a07",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "jorgensen2018permutation",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://pure.uva.nl/ws/files/32815315/00060744_201812000_00008.pdf",
+  "sha256": "2a099ee7513418f3a15d6ab872b7cf4cc5865aa01b8a508010ec344e9dd160a9",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "mackinnon2022tutorial",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://open.lnu.se/index.php/metapsychology/article/download/2595/2599",
+  "sha256": "3c9404cdb2e4a7aeeaaa4ed1f417dffb7da2ec8f6f47d21fadda7054113a296e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "luong2023alignment",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000441",
+  "title": "Measurement Invariance Testing Using Confirmatory Factor Analysis and Alignment Optimization: A Tutorial for Transparent Analysis Planning and Reporting"
+ },
+ {
+  "citekey": "leitgob2023socialsciences",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://pure.uva.nl/ws/files/148229281/1-s2.0-S0049089X22001168-main.pdf",
+  "sha256": "70bc1d8649d8bd345b8c6af5a253dde72b1c29897d4eb03e3b7cd810ac7a17bf",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "flora2017purpose",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/cbs0000069",
+  "title": "The Purpose and Practice of Exploratory and Confirmatory Factor Analysis in Psychological Research: Decisions for Scale Development and Validation"
+ },
+ {
+  "citekey": "schmitt2011current",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0734282911406653",
+  "title": "Current Methodological Considerations in Exploratory and Confirmatory Factor Analysis"
+ },
+ {
+  "citekey": "hu1999cutoff",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10705519909540118",
+  "title": "Cutoff Criteria for Fit Indexes in Covariance Structure Analysis: Conventional Criteria versus New Alternatives"
+ },
+ {
+  "citekey": "marsh2014exploratory",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1146/annurev-clinpsy-032813-153700",
+  "title": "Exploratory Structural Equation Modeling: An Integration of the Best Features of Exploratory and Confirmatory Factor Analysis"
+ },
+ {
+  "citekey": "goretzko2023evaluating",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://epub.ub.uni-muenchen.de/106065/1/goretzko-et-al-2023-evaluating-model-fit-of-measurement-models-in-confirmatory-factor-analysis.pdf",
+  "sha256": "03e5bbdb09d1a6a6edfa9cfeac899e65ff57bc6b98cc1f6046c1c3baa1c4856a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "groskurth2023abandon",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.3758/s13428-023-02193-3.pdf",
+  "sha256": "5ea8bed04624cb47b111e5d055984571a0e0d76302ae36b396528dbd6d6ffdd6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "mcneishwolf2023dynamic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000425",
+  "title": "Dynamic Fit Index Cutoffs for Confirmatory Factor Analysis Models"
+ },
+ {
+  "citekey": "wolf2023dynamicpkg",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/00273171.2022.2163476",
+  "title": "dynamic: An R Package for Deriving Dynamic Fit Index Cutoffs for Factor Analysis"
+ },
+ {
+  "citekey": "montoya2021poorfit",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0013164420942899",
+  "title": "The Poor Fit of Model Fit for Selecting Number of Factors in Exploratory Factor Analysis for Scale Evaluation"
+ },
+ {
+  "citekey": "pretorius2025dimensionality",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/ijop.13266",
+  "title": "Dimensionality in Confirmatory Factor Analysis Is Not in the Eye of the Beholder: Ancillary Bifactor Statistical Indices Illuminate Dimensionality and Reliability"
+ },
+ {
+  "citekey": "laupichler2023snail",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/20.500.11811/13554/4/OA-2023-033.pdf",
+  "sha256": "ff10c34e6a1f9ad6b35211091a87424e4a4f9673ca0906d4ba1dd4a68dce6e2e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "klawitter2018language",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "{\"It's Like Learning a Whole Other Language\"}: The Role of Algorithmic Skills in the Curation of Creative Goods"
+ },
+ {
+  "citekey": "gran2021algorithm",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2020.1736124",
+  "title": "To be or not to be algorithm aware: a question of a new digital divide?"
+ },
+ {
+  "citekey": "swart2021experiencing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20563051211008828",
+  "title": "Experiencing Algorithms: How Young People Understand, Feel About, and Engage With Algorithmic News Selection on Social Media"
+ },
+ {
+  "citekey": "dogruel2021folk",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/01972243.2021.1949768",
+  "title": "Folk theories of algorithmic operations during Internet use: A mixed methods study"
+ },
+ {
+  "citekey": "oeldorfhirsch2025review",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448231182662",
+  "title": "What do we know about algorithmic literacy? The status quo and a research agenda for a growing field"
+ },
+ {
+  "citekey": "gagrcin2024integrative",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448241291137",
+  "title": "Algorithmic media use and algorithm literacy: An integrative literature review"
+ },
+ {
+  "citekey": "schmitt2025compass",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s12599-025-00984-w.pdf",
+  "sha256": "1d720960ec11687d0bf9e1e31e1c391a853bd6c3c2cf58ffc46f3718aaac8915",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "almatrafi2024systematic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.caeo.2024.100173",
+  "title": "A Systematic Review of AI Literacy Conceptualization, Constructs, and Implementation and Assessment Efforts (2019--2023)"
+ },
+ {
+  "citekey": "yasanak2024amca",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://dergipark.org.tr/en/download/article-file/3773169",
+  "sha256": "91e0f924eb1924d366b7bd360641acb057cccb8a57265aa76ec82dcde3bba25a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "dogruel2021algorithm",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312458.2021.1968361",
+  "title": "Development and Validation of an Algorithm Literacy Scale for Internet Users"
+ },
+ {
+  "citekey": "sotero2026alrs",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.techsoc.2026.102026",
+  "title": "Development and validation of a scale to assess algorithmic literacy in the context of recommender systems (ALRS)"
+ },
+ {
+  "citekey": "wang2022ailiteracy",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/0144929X.2022.2072768",
+  "title": "Measuring user competence in using artificial intelligence: validity and reliability of artificial intelligence literacy scale"
+ },
+ {
+  "citekey": "koch2024mails",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://opus.bibliothek.uni-wuerzburg.de/files/41162/1-s2.0-S2405844024157179-main.pdf",
+  "sha256": "b10a9921fd08f17244fc3139187088e172163d974d5783681eee23c0092adb84",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "scheibenzuber2025sails",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/bjet.70065",
+  "title": "Scenario-Based AI Literacy Scale (SAILS): Evidence for distinct instrumental and critical-reflective AI skills and their difference from traditional digital skills"
+ },
+ {
+  "citekey": "lintner2024review",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41539-024-00264-4.pdf",
+  "sha256": "0fcf7a4374d483fec7dca04e55f1428c631bfa197a5f108182a077fb372ac0bb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "oeldorfhirsch2025whatweknow",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448231182662",
+  "title": "What do we know about algorithmic literacy? The status quo and a research agenda for a growing field"
+ },
+ {
+  "citekey": "oeldorfhirsch2023correlates",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/jcmc/zmad035",
+  "title": "Attitudinal and behavioral correlates of algorithmic awareness among German and U.S. social media users"
+ },
+ {
+  "citekey": "ng2023ailq",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/bjet.13411",
+  "title": "Design and validation of the AI literacy questionnaire: The affective, behavioural, cognitive and ethical approach"
+ },
+ {
+  "citekey": "carolus2023mails",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.chbah.2023.100014",
+  "title": "MAILS -- Meta AI literacy scale: Development and testing of an AI literacy questionnaire based on well-founded competency models and psychological change- and meta-competencies"
+ },
+ {
+  "citekey": "gran2020algorithm",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2020.1736124",
+  "title": "To be or not to be algorithm aware: a question of a new digital divide?"
+ },
+ {
+  "citekey": "cotter2020algorithmic",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Algorithmic Knowledge Gaps: A New Dimension of (Digital) Inequality"
+ },
+ {
+  "citekey": "zarouali2021investigating",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://pure.uva.nl/ws/files/77356256/MaC_9_4_Investigating_Algorithmic_Misconceptions_in_a_Media_Context_Source_of_a_New_Digital_Divide_.pdf",
+  "sha256": "1748b4769a1c91637ed8e520962adb9d7efa06775e15d6f4ecfa61dff2e1f898",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "chung2024algorithmic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://misinforeview.hks.harvard.edu/wp-content/uploads/2024/08/chung_algorithmic_knowledge_gap_20240828.pdf",
+  "sha256": "340f9f2cb1b381e0b823c537a0d530969772c68a06f148cf60c20e3ffdcc0400",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "chung2025knowing",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://misinforeview.hks.harvard.edu/wp-content/uploads/2025/10/chung_algorithmic_literacy_youth_20251013.pdf",
+  "sha256": "32dc61f950d56ea5132d2eb1c4bbefd0057f87a56f876ded4b608ffafea8f691",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "petrovcic2024disentangling",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://repozitorij.uni-lj.si/Dokument.php?id=200532&dn=",
+  "sha256": "3ae106417c1ba25e9f26c9b634aef191fce6c41ed77e67ff7b19e691571049bb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "moravec2025algorithmic",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41599-025-04593-6.pdf",
+  "sha256": "ad18483147e4867361d42252d39335d159c2b44ac0a023c2be3e58b5318aaa40",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "gagrcin2024algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448241291137",
+  "title": "Algorithmic media use and algorithm literacy: An integrative literature review"
+ },
+ {
+  "citekey": "eslami2016first",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2858036.2858494",
+  "title": "First I \"like\" it, then I hide it: Folk Theories of Social Feeds"
+ },
+ {
+  "citekey": "bucher2017algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154086",
+  "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms"
+ },
+ {
+  "citekey": "devito2018howpeople",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3173574.3173694",
+  "title": "How People Form Folk Theories of Social Media Feeds and What it Means for How We Study Self-Presentation"
+ },
+ {
+  "citekey": "karizat2021algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3476046",
+  "title": "Algorithmic Folk Theories and Identity: How TikTok Users Co-Produce Knowledge of Identity and Engage in Algorithmic Resistance"
+ },
+ {
+  "citekey": "ytrearne2021folk",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0163443720972314",
+  "title": "Folk theories of algorithms: Understanding digital irritation"
+ },
+ {
+  "citekey": "savolainen2022shadow",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/01634437221077174",
+  "title": "The shadow banning controversy: perceived governance and algorithmic folklore"
+ },
+ {
+  "citekey": "oeldorfhirsch2025whatdo",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448231182662",
+  "title": "What do we know about algorithmic literacy? The status quo and a research agenda for a growing field"
+ },
+ {
+  "citekey": "low2025algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448231206466",
+  "title": "Algorithmic imaginings and critical digital literacy on \\#BookTok"
+ },
+ {
+  "citekey": "starks2024children",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1108/ILS-12-2023-0201",
+  "title": "Children's sensemaking of algorithms and data flows across YouTube and social media"
+ },
+ {
+  "citekey": "gagrcin2026algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448241291137",
+  "title": "Algorithmic media use and algorithm literacy: An integrative literature review"
+ },
+ {
+  "citekey": "mulder2021three",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://dspace.library.uu.nl/bitstreams/80097868-3d2a-46f8-a423-34c20e605138/download",
+  "sha256": "bff7536587f897251c166aab54397a11a29d994280f9c3a924e0fdeb364f0504",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "curran2014separation",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/a0035297",
+  "title": "The Separation of Between-Person and Within-Person Components of Individual Change Over Time: A Latent Curve Model with Structured Residuals"
+ },
+ {
+  "citekey": "mcardle2009latent",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1146/annurev.psych.60.110707.163612",
+  "title": "Latent Variable Modeling of Differences and Changes with Longitudinal Data"
+ },
+ {
+  "citekey": "voelkle2006abilities",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.lindif.2006.01.001",
+  "title": "Abilities and Skill Acquisition: A Latent Growth Curve Approach"
+ },
+ {
+  "citekey": "burki2014individual",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/s00426-014-0559-3",
+  "title": "Individual Differences in Cognitive Plasticity: An Investigation of Training Curves in Younger and Older Adults"
+ },
+ {
+  "citekey": "karay2018validity",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/0142159X.2018.1472370",
+  "title": "A Validity Argument for Progress Testing: Examining the Relation Between Growth Trajectories Obtained by Progress Tests and National Licensing Examinations Using a Latent Growth Curve Approach"
+ },
+ {
+  "citekey": "burns2020reexamining",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/bjep.12265",
+  "title": "Re-examining the Reciprocal Effects Model of Self-Concept, Self-Efficacy, and Academic Achievement in a Comparison of the Cross-Lagged Panel and Random-Intercept Cross-Lagged Panel Frameworks"
+ },
+ {
+  "citekey": "hamaker2023withinbetween",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://dspace.library.uu.nl/bitstreams/316e95e6-12e5-4466-bfca-205b25d98555/download",
+  "sha256": "00a121d311f41d4e83f8d943a3d7afed9c475c6e0ed54b2b798c71e324ad8a2a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "orth2020testing",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://boris-portal.unibe.ch/bitstreams/87790120-0db8-4764-a3b4-0c0c32f38eda/download",
+  "sha256": "d64b1eba4fbc71a1b8bf5cd8a7d3a3faea19d95b57e822dd7577d65efa6424fb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kellogg2020algorithms",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/annals.2018.0174",
+  "title": "Algorithms at Work: The New Contested Terrain of Control"
+ },
+ {
+  "citekey": "wood2019goodgig",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://www.cipd.co.uk/Images/to-gig-or-not-to-gig_2017-stories-from-the-modern-economy_tcm18-18955.pdf",
+  "sha256": "b0059d212701524e9f8fb114857f6c79bccea06d49ce1aa114c1f41368e3d722",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "rosenblat2016algorithmic",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers"
+ },
+ {
+  "citekey": "mohlmann2023sensemaking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.17705/1jais.00774",
+  "title": "Algorithm Sensemaking: How Platform Workers Make Sense of Algorithmic Management"
+ },
+ {
+  "citekey": "bucher2021pacifying",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1350508420961531",
+  "title": "Pacifying the Algorithm -- Anticipatory Compliance in the Face of Algorithmic Management in the Gig Economy"
+ },
+ {
+  "citekey": "cameron2022expanding",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1287/orsc.2021.1557",
+  "title": "Expanding the Locus of Resistance: Understanding the Co-constitution of Control and Resistance in the Gig Economy"
+ },
+ {
+  "citekey": "lei2021delivering",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0003122420979980",
+  "title": "Delivering Solidarity: Platform Architecture and Collective Contention in China's Platform Economy"
+ },
+ {
+  "citekey": "cini2023resisting",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12257",
+  "title": "Resisting Algorithmic Control: Understanding the Rise and Variety of Platform Worker Mobilisations"
+ },
+ {
+  "citekey": "soriano2020entrepreneurial",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2056305120926484",
+  "title": "Entrepreneurial Solidarities: Social Media Collectives and Filipino Digital Platform Workers"
+ }
+]
