@@ -1069,5 +1069,47 @@
   "sha256": null,
   "doi": "10.1016/j.clsr.2023.105833",
   "title": "Humans in the GDPR and AIA governance of automated and algorithmic systems. Essential pre-requisites against abdicating responsibilities"
+ },
+ {
+  "citekey": "lhaven2019preregistering",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.tandfonline.com/doi/pdf/10.1080/08989621.2019.1580147?needAccess=true",
+  "sha256": "c8af1c7015514ccdf6db37a59530e05235e226b47bb2d42c6a8aadf95bdc02e9",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tong2007consolidated",
+  "status": "NOT_FREE",
+  "doi": "10.1093/intqhc/mzm042",
+  "title": "Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups"
+ },
+ {
+  "citekey": "tkke2025sociological",
+  "status": "NOT_FREE",
+  "doi": "10.1002/sres.3123",
+  "title": "Sociological Perspectives on AI, Intelligence and Communication"
+ },
+ {
+  "citekey": "gandini2019labour",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://air.unimi.it/bitstream/2434/619116/4/DLPT%205%281%29.pdf",
+  "sha256": "8552e795614b7ba2881cad35f3ca1b65d79c666a78298f8c6c03a3ad7321f8ad",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "born2025bypassing",
+  "status": "NOT_FREE",
+  "doi": "10.1111/ntwe.12323",
+  "title": "Bypassing the Limitations of Algorithmic Management via Out‐of‐App Activities and the Emergence of Opportunistic Agency in the Swedish Gig economy"
+ },
+ {
+  "citekey": "burrell2016machine",
+  "status": "NOT_FREE",
+  "doi": "10.1177/2053951715622512",
+  "title": "How the machine ‘thinks’: Understanding opacity in machine learning algorithms"
  }
 ]

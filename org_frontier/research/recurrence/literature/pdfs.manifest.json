@@ -952,5 +952,20 @@
   "sha256": "e22d95abd959a722afa11ee293a03d8114887c6d7f6cbb2dcf404c2cf99e7fc3",
   "retrieved": "2026-06-25",
   "card": "true"
+ },
+ {
+  "citekey": "tononi1994measure",
+  "status": "NOT_FREE",
+  "doi": "10.1073/pnas.91.11.5033",
+  "title": "A measure for brain complexity: relating functional segregation and integration in the nervous system."
+ },
+ {
+  "citekey": "mediano2019beyond",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/1909.02297",
+  "sha256": "a23c34890d7f9c34ea8a8d8860dd0ce08a7bdb4664d93f17ffcbc25071a79fdf",
+  "retrieved": "2026-06-25",
+  "card": "true"
  }
 ]

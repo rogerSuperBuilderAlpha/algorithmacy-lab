@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**28 cards.**
+**33 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | chung2025knowing | When knowing more means doing less: Algorithmic knowledge and digital (dis)engagement a… | 2025 | ACQUIRED | true | [card](cards/chung2025knowing.md) |
 | doval2023alpha | Coefficient Alpha: The Resistance of a Classic | 2023 | ACQUIRED | true | [card](cards/doval2023alpha.md) |
 | goretzko2023evaluating | Evaluating Model Fit of Measurement Models in Confirmatory Factor Analysis | 2023 | ACQUIRED | true | [card](cards/goretzko2023evaluating.md) |
+| grimmelikhuijsen2023explaining | Explaining Why the Computer Says No: Algorithmic Transparency Affects the Perceived Tru… | 2023 | ACQUIRED | true | [card](cards/grimmelikhuijsen2023explaining.md) |
 | groskurth2023abandon | Why We Need to Abandon Fixed Cutoffs for Goodness-of-Fit Indices: An Extensive Simulati… | 2023 | ACQUIRED | true | [card](cards/groskurth2023abandon.md) |
 | hamaker2015critique | A critique of the cross-lagged panel model | 2015 | ACQUIRED | true | [card](cards/hamaker2015critique.md) |
 | hamaker2023withinbetween | The Within-Between Dispute in Cross-Lagged Panel Research and How to Move Forward | 2023 | ACQUIRED | true | [card](cards/hamaker2023withinbetween.md) |
@@ -26,13 +27,17 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | moravec2025algorithmic | Algorithmic personalization: a study of knowledge gaps and digital media literacy | 2025 | ACQUIRED | true | [card](cards/moravec2025algorithmic.md) |
 | morgado2017scale | Scale Development: Ten Main Limitations and Recommendations to Improve Future Research … | 2017 | ACQUIRED | true | [card](cards/morgado2017scale.md) |
 | mulder2021three | Three Extensions of the Random Intercept Cross-Lagged Panel Model | 2021 | ACQUIRED | true | [card](cards/mulder2021three.md) |
+| munaf2017manifesto | A manifesto for reproducible science | 2017 | ACQUIRED | true | [card](cards/munaf2017manifesto.md) |
+| muthn2014studies | IRT studies of many groups: the alignment method | 2014 | ACQUIRED | true | [card](cards/muthn2014studies.md) |
 | orth2020testing | Testing Prospective Effects in Longitudinal Research: Comparing Seven Competing Cross-L… | 2020 | ACQUIRED | true | [card](cards/orth2020testing.md) |
 | petrovcic2024disentangling | Disentangling the role of algorithm awareness and knowledge in digital inequalities: an… | 2024 | ACQUIRED | true | [card](cards/petrovcic2024disentangling.md) |
 | putnick2016conventions | Measurement Invariance Conventions and Reporting: The State of the Art and Future Direc… | 2016 | ACQUIRED | true | [card](cards/putnick2016conventions.md) |
 | putnick2016measurement | Measurement invariance conventions and reporting: The state of the art and future direc… | 2016 | ACQUIRED | true | [card](cards/putnick2016measurement.md) |
 | schmitt2025compass | Algorithmic Literacy: A Compass to Successfully Navigate the Algorithm-Driven World? | 2025 | ACQUIRED | true | [card](cards/schmitt2025compass.md) |
 | seddig2018approximate | Approximate Measurement Invariance and Longitudinal Confirmatory Factor Analysis: Conce… | 2018 | ACQUIRED | true | [card](cards/seddig2018approximate.md) |
+| sterner2025developments | New Developments in Measurement Invariance Testing: An Overview and Comparison of EFA-B… | 2025 | ACQUIRED | true | [card](cards/sterner2025developments.md) |
 | trizano2016best | Best Alternatives to Cronbach's Alpha Reliability in Realistic Conditions: Congeneric a… | 2016 | ACQUIRED | true | [card](cards/trizano2016best.md) |
+| unknown2015estimating | Estimating the reproducibility of psychological science | 2015 | ACQUIRED | true | [card](cards/unknown2015estimating.md) |
 | yasanak2024amca | Psychometric Properties of the Turkish Version of the Algorithmic Media Content Awarene… | 2024 | ACQUIRED | true | [card](cards/yasanak2024amca.md) |
 | zarouali2021amca | Is this recommended by an algorithm? The development and validation of the algorithmic … | 2021 | ACQUIRED | true | [card](cards/zarouali2021amca.md) |
 | zarouali2021investigating | Investigating Algorithmic Misconceptions in a Media Context: Source of a New Digital Di… | 2021 | ACQUIRED | true | [card](cards/zarouali2021investigating.md) |

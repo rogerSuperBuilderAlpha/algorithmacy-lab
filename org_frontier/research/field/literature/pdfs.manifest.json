@@ -1024,5 +1024,47 @@
   "sha256": null,
   "doi": "10.1109/CVPR.2019.01150",
   "title": "Learning From Noisy Labels by Regularized Estimation of Annotator Confusion"
+ },
+ {
+  "citekey": "kadolkar2025algorithmic",
+  "status": "NOT_FREE",
+  "doi": "10.1002/job.2831",
+  "title": "Algorithmic management in the gig economy: A systematic review and research integration"
+ },
+ {
+  "citekey": "mendona2023disconnecting",
+  "status": "NOT_FREE",
+  "doi": "10.1111/ntwe.12251",
+  "title": "Disconnecting labour: The impact of intraplatform algorithmic changes on the labour process and workers' capacity to organise collectively"
+ },
+ {
+  "citekey": "rudin2019explaining",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs42256-019-0048-x/MediaObjects/42256_2019_48_MOESM1_ESM.pdf",
+  "sha256": "d0c3603982bbeeeca1dca04f28f88f2b3c3ca13ad0bd23b89f548bbeb8cbd131",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "lipton2018mythos",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1606.03490",
+  "sha256": "0f20f650ff7357e3ea4a1875048b39a28bbd7110e5f569f15ba8a161cd9d9437",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "gunning2021scpdarpascps",
+  "status": "NOT_FREE",
+  "doi": "10.1002/ail2.61",
+  "title": "<scp>DARPA</scp>'s explainable<scp>AI</scp>(<scp>XAI</scp>) program: A retrospective"
+ },
+ {
+  "citekey": "voneschenbach2021transparency",
+  "status": "NOT_FREE",
+  "doi": "10.1007/s13347-021-00477-0",
+  "title": "Transparency and the Black Box Problem: Why We Do Not Trust AI"
  }
 ]

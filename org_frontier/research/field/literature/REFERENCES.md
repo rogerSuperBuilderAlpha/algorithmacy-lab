@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**18 cards.**
+**20 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -17,8 +17,10 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | geiger2017blackbox | Beyond Opening Up the Black Box: Investigating the Role of Algorithmic Systems in Wikip… | 2017 | ACQUIRED | true | [card](cards/geiger2017blackbox.md) |
 | glaser1967discovery | The Discovery of Grounded Theory: Strategies for Qualitative Research | 1967 | ACQUIRED | true | [card](cards/glaser1967discovery.md) |
 | jarrahi2021algorithmic | Algorithmic management in a work context | 2021 | ACQUIRED | true | [card](cards/jarrahi2021algorithmic.md) |
+| lipton2018mythos | The mythos of model interpretability | 2018 | ACQUIRED | true | [card](cards/lipton2018mythos.md) |
 | marzi2024kalpha | K-Alpha Calculator--Krippendorff's Alpha Calculator: A user-friendly tool for computing… | 2024 | ACQUIRED | true | [card](cards/marzi2024kalpha.md) |
 | pieper2023use | The Use of the Institutional Grammar 1.0 for Institutional Analysis: A Literature Review | 2023 | ACQUIRED | true | [card](cards/pieper2023use.md) |
+| rudin2019explaining | Stop explaining black box machine learning models for high stakes decisions and use int… | 2019 | ACQUIRED | true | [card](cards/rudin2019explaining.md) |
 | swaby2022use | The use of cognitive task analysis in clinical and health services research --- a syste… | 2022 | ACQUIRED | true | [card](cards/swaby2022use.md) |
 | taylor2026laion | The Algorithmic Gaze of Image Quality Assessment: An Audit and Trace Ethnography of the… | 2026 | ACQUIRED | writer-grounded | [card](cards/taylor2026laion.md) |
 | vallas2020platforms | What Do Platforms Do? Understanding the Gig Economy | 2020 | ACQUIRED | true | [card](cards/vallas2020platforms.md) |

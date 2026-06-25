@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**26 cards.**
+**31 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | clark2013whatever | Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science | 2013 | ACQUIRED | true | [card](cards/clark2013whatever.md) |
 | cotter2019playing | Playing the Visibility Game: How Digital Influencers and Algorithms Negotiate Influence… | 2019 | ACQUIRED | true | [card](cards/cotter2019playing.md) |
 | dacosta2020active | Active inference on discrete state-spaces: A synthesis | 2020 | ACQUIRED | true | [card](cards/dacosta2020active.md) |
+| dietvorst2018overcoming | Overcoming Algorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even S… | 2018 | ACQUIRED | true | [card](cards/dietvorst2018overcoming.md) |
 | fortunati2021moving | Moving Ahead With Human-Machine Communication | 2021 | ACQUIRED | true | [card](cards/fortunati2021moving.md) |
 | friston2010free | The Free-Energy Principle: A Unified Brain Theory? | 2010 | ACQUIRED | true | [card](cards/friston2010free.md) |
 | friston2024federated | Federated inference and belief sharing | 2024 | ACQUIRED | true | [card](cards/friston2024federated.md) |
@@ -21,6 +22,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | hohenstein2023language | Artificial intelligence in communication impacts language and social relationships | 2023 | ACQUIRED | true | [card](cards/hohenstein2023language.md) |
 | lin2025oscillation | Oscillation Between Resist and to Not? Users' Folk Theories and Resistance to Algorithm… | 2025 | ACQUIRED | true | [card](cards/lin2025oscillation.md) |
 | loock2025extracted | The Extracted Mind | 2025 | ACQUIRED | true | [card](cards/loock2025extracted.md) |
+| luppi2022synergistic | A synergistic core for human brain evolution and cognition | 2022 | ACQUIRED | true | [card](cards/luppi2022synergistic.md) |
 | milton2026unraveling | Unraveling Entangled Feeds: Rethinking Social Media Design to Enhance User Well-being | 2026 | ACQUIRED | true | [card](cards/milton2026unraveling.md) |
 | pitliya2025theory | Theory of Mind Using Active Inference: A Framework for Multi-Agent Cooperation | 2025 | ACQUIRED | true | [card](cards/pitliya2025theory.md) |
 | poppel2022resonating | Resonating Minds---Emergent Collaboration Through Hierarchical Active Inference | 2022 | ACQUIRED | true | [card](cards/poppel2022resonating.md) |
@@ -34,3 +36,6 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | taylor2023reading | Reading Minds or Reading Scripts? De-intellectualising Theory of Mind | 2023 | ACQUIRED | true | [card](cards/taylor2023reading.md) |
 | tomczyk2023locus | The Locus of Agency in Extended Cognitive Systems | 2023 | ACQUIRED | true | [card](cards/tomczyk2023locus.md) |
 | ullman2023large | Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks | 2023 | ACQUIRED | true | [card](cards/ullman2023large.md) |
+| varley2023multivariate | Multivariate information theory uncovers synergistic subsystems of the human cerebral c… | 2023 | ACQUIRED | true | [card](cards/varley2023multivariate.md) |
+| wang2022mutual | Mutual Theory of Mind for Human-AI Communication | 2022 | ACQUIRED | true | [card](cards/wang2022mutual.md) |
+| zhang2024mutual | Mutual Theory of Mind in Human-AI Collaboration: An Empirical Study with LLM-driven AI … | 2024 | ACQUIRED | true | [card](cards/zhang2024mutual.md) |

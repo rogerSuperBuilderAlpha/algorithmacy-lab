@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**21 cards.**
+**23 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -20,8 +20,10 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | eckstein2024thirtyfive | Thirty-Five Years of Sensemaking in the Business and Management Research: A Bibliometri… | 2024 | ACQUIRED | true | [card](cards/eckstein2024thirtyfive.md) |
 | enworo2023application | Application of Guba and Lincoln's Parallel Criteria to Assess Trustworthiness of Qualit… | 2023 | ACQUIRED | true | [card](cards/enworo2023application.md) |
 | fousiani2026algorithmic | When Algorithmic Managers Fail to Fulfill Their Promises: The Role of Anthropomorphism … | 2026 | ACQUIRED | true | [card](cards/fousiani2026algorithmic.md) |
+| gandini2019labour | Labour process theory and the gig economy | 2019 | ACQUIRED | true | [card](cards/gandini2019labour.md) |
 | johnson2017qualitative | Qualitative Research and the Evaluation of Development Impact: Incorporating Authentici… | 2017 | ACQUIRED | true | [card](cards/johnson2017qualitative.md) |
 | lam2023sociotechnical | Sociotechnical Audits: Broadening the Algorithm Auditing Lens to Investigate Targeted A… | 2023 | ACQUIRED | true | [card](cards/lam2023sociotechnical.md) |
+| lhaven2019preregistering | Preregistering qualitative research | 2019 | ACQUIRED | true | [card](cards/lhaven2019preregistering.md) |
 | mirbabaie2025transparency | Transparency Fallacy: Perceived Fairness in Algorithmic Management | 2025 | ACQUIRED | true | [card](cards/mirbabaie2025transparency.md) |
 | mosnar2025revisiting | Revisiting Algorithmic Audits of TikTok: Poor Reproducibility and Short-term Validity o… | 2025 | ACQUIRED | true | [card](cards/mosnar2025revisiting.md) |
 | starke2022fairness | Fairness Perceptions of Algorithmic Decision-Making: A Systematic Review of the Empiric… | 2022 | ACQUIRED | true | [card](cards/starke2022fairness.md) |

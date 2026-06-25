@@ -1159,5 +1159,122 @@
   "sha256": "82d666848c70dc55e717c754434b2434e633a40d07bbfeeeb80993ea8574bec5",
   "retrieved": "2026-06-25",
   "card": "no-card"
+ },
+ {
+  "citekey": "dietvorst2015algorithm",
+  "status": "NOT_FREE",
+  "doi": "10.1037/xge0000033",
+  "title": "Algorithm aversion: People erroneously avoid algorithms after seeing them err."
+ },
+ {
+  "citekey": "dietvorst2018overcoming",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://repository.upenn.edu/bitstreams/ac9f1367-c0e9-4a52-a90b-c7e30e6c4910/download",
+  "sha256": "8c2107e3dec92cfe2735ba7b854fdb0edd99c273057133deec279db88c34961d",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "logg2019algorithm",
+  "status": "NOT_FREE",
+  "doi": "10.1016/j.obhdp.2018.12.005",
+  "title": "Algorithm appreciation: People prefer algorithmic to human judgment"
+ },
+ {
+  "citekey": "castelo2019taskdependent",
+  "status": "NOT_FREE",
+  "doi": "10.1177/0022243719851788",
+  "title": "Task-Dependent Algorithm Aversion"
+ },
+ {
+  "citekey": "burton2020systematic",
+  "status": "NOT_FREE",
+  "doi": "10.1002/bdm.2155",
+  "title": "A systematic review of algorithm aversion in augmented decision making"
+ },
+ {
+  "citekey": "jussupow2024integrative",
+  "status": "NOT_FREE",
+  "doi": "10.25300/misq/2024/18512",
+  "title": "An Integrative Perspective on Algorithm Aversion and Appreciation in Decision-Making"
+ },
+ {
+  "citekey": "lee2004trust",
+  "status": "NOT_FREE",
+  "doi": "10.1518/hfes.46.1.50_30392",
+  "title": "Trust in Automation: Designing for Appropriate Reliance"
+ },
+ {
+  "citekey": "hoff2015trust",
+  "status": "NOT_FREE",
+  "doi": "10.1177/0018720814547570",
+  "title": "Trust in Automation"
+ },
+ {
+  "citekey": "luppi2022synergistic",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-022-01070-0/MediaObjects/41593_2022_1070_MOESM1_ESM.pdf",
+  "sha256": "31f4d352fcc86f65769bc38f259fd9c8ca8f7481ed3afdf28ce19e37f85566d1",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "varley2023multivariate",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s42003-023-04843-w.pdf",
+  "sha256": "7c152a78b25c9604571e989ffc334266204e51e2038899ec58c48bab312b040f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "nass1993anthropomorphism",
+  "status": "NOT_FREE",
+  "doi": "10.1145/259964.260137",
+  "title": "Anthropomorphism, agency, and ethopoeia"
+ },
+ {
+  "citekey": "wang2021towards",
+  "status": "NOT_FREE",
+  "doi": "10.1145/3411764.3445645",
+  "title": "Towards Mutual Theory of Mind in Human-AI Interaction: How Language Reflects What Students Perceive About a Virtual Teaching Assistant"
+ },
+ {
+  "citekey": "wang2022mutual",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2210.03842",
+  "sha256": "c9776eec758bcbb1d53270929cdfa400f62aab348325ec2d2a762f7786137ddf",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "zhang2024mutual",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2409.08811",
+  "sha256": "3f73d37b1d9cc740633d7184b7762441cc2668eff6e7dc8d5cd4a3e586538f80",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "marsh2009social",
+  "status": "NOT_FREE",
+  "doi": "10.1111/j.1756-8765.2009.01022.x",
+  "title": "Social Connection Through Joint Action and Interpersonal Coordination"
+ },
+ {
+  "citekey": "mu2018neural",
+  "status": "NOT_FREE",
+  "doi": "10.1111/spc3.12421",
+  "title": "Neural mechanisms underlying interpersonal coordination: A review of hyperscanning research"
+ },
+ {
+  "citekey": "sebanz2021progress",
+  "status": "NOT_FREE",
+  "doi": "10.1177/0963721420984425",
+  "title": "Progress in Joint-Action Research"
  }
 ]
