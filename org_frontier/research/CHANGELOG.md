@@ -2,6 +2,24 @@
 
 A dated entry per refresh: the papers added and removed per program and the new source counts. Newest first.
 
+## 2026-06-25 — sweep
+
+The recency window opened the day after the previous sweep, so each program's seed question was searched
+only for work dated after 2026-06-24. The searchable corpus still does not reach that window — the academic
+index reports its freshness as May 2026, the latest hits it returned were dated 2026-04-30, and the web and
+arXiv passes surfaced only pre-window material — so nothing dated after the previous run was available to
+verify or append. No fabricated entry filled the gap. Run dates were bumped to 2026-06-25 and the
+bibliographies left unchanged.
+
+- **computational** — +0; bibliography 106.
+- **field** — +0; bibliography 114.
+- **qualitative** — +0; bibliography 119.
+- **recurrence** — +0; bibliography 106.
+- **survey** — +0; bibliography 120.
+- **cognition** — +0; bibliography 129.
+
+**Total: +0 added; 694 unique entries across the six programs, sweep 2026-06-25.**
+
 ## 2026-06-24 — sweep
 
 The first daily sweep. The recency window opened the day after the genesis run, so each program's seed
