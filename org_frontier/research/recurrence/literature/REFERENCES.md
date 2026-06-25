@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**59 cards.**
+**60 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -49,6 +49,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | marwan2023trends | Trends in Recurrence Analysis of Dynamical Systems | 2023 | ACQUIRED | true | [card](cards/marwan2023trends.md) |
 | marwan2025complexreport | Recurrence plots for the analysis of complex systems | 2007 | ACQUIRED | true | [card](cards/marwan2025complexreport.md) |
 | mccracken2014convergent | Convergent cross-mapping and pairwise asymmetric inference | 2014 | ACQUIRED | true | [card](cards/mccracken2014convergent.md) |
+| mediano2019beyond | Beyond integrated information: A taxonomy of information dynamics phenomena | 2019 | ACQUIRED | true | [card](cards/mediano2019beyond.md) |
 | miles2023behavioral | Behavioral dynamics of conversation, (mis)communication and coordination in noisy envir… | 2023 | ACQUIRED | writer-grounded | [card](cards/miles2023behavioral.md) |
 | novelli2019largescale | Large-Scale Directed Network Inference with Multivariate Transfer Entropy and Hierarchi… | 2019 | ACQUIRED | true | [card](cards/novelli2019largescale.md) |
 | schreiber2000measuring | Measuring Information Transfer | 2000 | ACQUIRED | true | [card](cards/schreiber2000measuring.md) |

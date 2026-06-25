@@ -952,5 +952,260 @@
   "sha256": "380bd3b55f13456033c680dd95c6af602e35e3b7e5d7bbf8cef8dce976689ebd",
   "retrieved": "2026-06-25",
   "card": "true"
+ },
+ {
+  "citekey": "shannon1948mathematical",
+  "status": "NOT_FREE",
+  "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+  "title": "A Mathematical Theory of Communication"
+ },
+ {
+  "citekey": "williams2010nonnegative",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/1004.2515",
+  "sha256": "5654e8083b45f1c4fc92669996f647712322a3563a56252dbeb1d0ec46b24678",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "bertschinger2014quantifying",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1311.2852",
+  "sha256": "d9d90da2a964039588b1eed45458b02b197e6d5605964b14e0eb048ce557e0ac",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "ince2017measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1602.05063",
+  "sha256": "2fb512f06e065a201ac94459a49a06fe480c0d3b304acb8ab2bab1df7e6e9ad4",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "lizier2018information",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "http://publikationen.ub.uni-frankfurt.de/files/51480/entropy-20-00307-v2.pdf",
+  "sha256": "ba7bc3d44b1ccf68d9333c54155474af26e4b842905c832140b1101ddc7febb2",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "rosas2019quantifying",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1902.11239",
+  "sha256": "592364820feb12e94ff87d32ac8c09a751f445d6bf26653f340985919f6cc91d",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "gutknecht2021pieces",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2008.09535",
+  "sha256": "dc65320690c85aa9617a0af469692200f991f24784aac5d7399fa2c6854533d3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "varley2023decomposing",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0282950&type=printable",
+  "sha256": "2220589bb6fdd9820de51ecd2faa779a2892aedf0301d1b381ad28fb472712ba",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "yadav2025collective",
+  "status": "NOT_FREE",
+  "doi": "10.1103/physreve.111.014313",
+  "title": "Collective dynamics of pulse-coupled swarmalators"
+ },
+ {
+  "citekey": "ioannidis2005published",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.0020124&type=printable",
+  "sha256": "ffc1005680cb620eec4c913437dfabbf311b535cfe16cbaeb2faec1f92afc362",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "simmons2011falsepositive",
+  "status": "NOT_FREE",
+  "doi": "10.1177/0956797611417632",
+  "title": "False-Positive Psychology"
+ },
+ {
+  "citekey": "unknown2019reproducibility",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://nap.nationalacademies.org/resource/25303/Combined%20Reproducibility%20Brief%20vs2.pdf",
+  "sha256": "211f8a7b8855752fbfec2fc16e2536b2346e18aee862c4e33489d2a0b1170818",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hutton2016computational",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://research-information.bris.ac.uk/ws/files/87904220/main_text_resubmitted.pdf",
+  "sha256": "646d7ecdeacf9f146479d04db69a3f9f588916265d8bc1cbbe608858690c3ac3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "dreber2025framework",
+  "status": "NOT_FREE",
+  "doi": "10.1111/ecin.13244",
+  "title": "A framework for evaluating reproducibility and replicability in economics"
+ },
+ {
+  "citekey": "pineau2021improving",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2003.12206",
+  "sha256": "0ea62d8ae3eede31d18faedf4246d59f9c07346df59b4ca99407ef4323d2307f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "antunes2024reproducibility",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2402.07530",
+  "sha256": "8556d6ef318f223540f276bf73fd355e1f0c8f9cc6646acc33d65905bb8c10ae",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "massey1990causality",
+  "status": "NOT_FREE",
+  "doi": null,
+  "title": "Causality, Feedback and Directed Information"
+ },
+ {
+  "citekey": "runge2019detecting",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.science.org/doi/pdf/10.1126/sciadv.aau4996?download=true",
+  "sha256": "c68a1468f82ccbd9f00e404e04643f1bf8fb4c1ddc61753157d419b897d6af6e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "runge2019inferring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41467-019-10105-3.pdf",
+  "sha256": "63d4f11148b5ec121b5daa3cc0a9d5bbfe8e4a060dcd35b039ccb0ebd9a7bbe6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "liang2016information",
+  "status": "NOT_FREE",
+  "doi": "10.1103/physreve.94.052201",
+  "title": "Information flow and causality as rigorous notions<i>ab initio</i>"
+ },
+ {
+  "citekey": "wergen2011correlations",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1105.3915",
+  "sha256": "d4c17c7b02324b00ccdf52f880c4ad5e42f3c4a75c37d3d8184271e87e65e5db",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sheth2024causality",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2404.05746",
+  "sha256": "c8614631d23060284d545f373ffb3e8895ae2f51023dd7359888485a4366d944",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tsur2024treet",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2402.06919",
+  "sha256": "8182aece54c8d5dba28404eead130184f4405d2b1f0ab434582c52990ef5ffd6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "schmidt1990phase",
+  "status": "NOT_FREE",
+  "doi": "10.1037/0096-1523.16.2.227",
+  "title": "Phase transitions and critical fluctuations in the visual coordination of rhythmic movements between people."
+ },
+ {
+  "citekey": "schmidt1997evaluating",
+  "status": "NOT_FREE",
+  "doi": "10.1207/s15326969eco0903_2",
+  "title": "Evaluating the Dynamics of Unintended Interpersonal Coordination"
+ },
+ {
+  "citekey": "schmidt1998comparison",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://research.vu.nl/ws/files/2786346/111415.pdf",
+  "sha256": "b1da337f8ac954de8288ae714e2796b0f74d08c258d78c5a0b3d1469486d58c2",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "richardson2007rocking",
+  "status": "NOT_FREE",
+  "doi": "10.1016/j.humov.2007.07.002",
+  "title": "Rocking together: Dynamics of intentional and unintentional interpersonal coordination"
+ },
+ {
+  "citekey": "dumas2010interbrain",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0012166&type=printable",
+  "sha256": "7968d0a64018a9a21d78e169c4581acc61899ddc9656568aa176b20d8f8399fa",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "zhao2024interpersonal",
+  "status": "NOT_FREE",
+  "doi": "10.1016/j.neubiorev.2024.105565",
+  "title": "Interpersonal neural synchronization during social interactions in close relationships: A systematic review and meta-analysis of fNIRS hyperscanning studies"
+ },
+ {
+  "citekey": "chidichimo2026towards",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41583-025-00989-0/MediaObjects/41583_2025_989_MOESM1_ESM.pdf",
+  "sha256": "06321db24ca17d903a100f83d69e5fc68e3d1fca510bfe0406934bfc1aa4adde",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hoel2016macro",
+  "status": "NOT_FREE",
+  "doi": "10.1093/nc/niw012",
+  "title": "Can the macro beat the micro? Integrated information across spatiotemporal scales"
+ },
+ {
+  "citekey": "albantakis2020macro",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/1909.07393",
+  "sha256": "9d609c97f2b2441df724854ab38b4aadf2c40715201e592001d60aa2b53144c4",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
  }
 ]

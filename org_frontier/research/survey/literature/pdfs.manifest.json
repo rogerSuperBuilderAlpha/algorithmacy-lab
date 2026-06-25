@@ -1078,5 +1078,116 @@
   "sha256": null,
   "doi": "10.1177/2056305120926484",
   "title": "Entrepreneurial Solidarities: Social Media Collectives and Filipino Digital Platform Workers"
+ },
+ {
+  "citekey": "cronbach1955construct",
+  "status": "NOT_FREE",
+  "doi": "10.1037/h0040957",
+  "title": "Construct validity in psychological tests."
+ },
+ {
+  "citekey": "cronbach1951coefficient",
+  "status": "NOT_FREE",
+  "doi": "10.1007/bf02310555",
+  "title": "Coefficient Alpha and the Internal Structure of Tests"
+ },
+ {
+  "citekey": "muthn2014studies",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00978/pdf",
+  "sha256": "2c5d06e6cd125a700254b7ecd347e0b46db239323c050281e4edd5398f634a99",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "muthn2018recent",
+  "status": "NOT_FREE",
+  "doi": "10.1177/0049124117701488",
+  "title": "Recent Methods for the Study of Measurement Invariance With Many Groups"
+ },
+ {
+  "citekey": "flake2020measurement",
+  "status": "NOT_FREE",
+  "doi": "10.1177/2515245920952393",
+  "title": "Measurement Schmeasurement: Questionable Measurement Practices and How to Avoid Them"
+ },
+ {
+  "citekey": "sterner2025developments",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://lirias.kuleuven.be/retrieve/34183e6b-d880-41bb-8a63-8e4de600d3e7",
+  "sha256": "032e37efd76a2046ab824a6d1b457287d264ba98ce7428ccc1bd4fa37fe6fc24",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kalkbrenner2026stepbystep",
+  "status": "NOT_FREE",
+  "doi": "10.1080/07481756.2025.2595033",
+  "title": "A Step-by-Step Tutorial to Conducting and Interpreting Measurement Invariance Testing for Counselors and Assessment Professionals"
+ },
+ {
+  "citekey": "feng2025accountability",
+  "status": "NOT_FREE",
+  "doi": "10.1111/padm.70030",
+  "title": "Accountability in Government Use of\n                    <scp>AI</scp>\n                    : Citizen Concerns and Preferences"
+ },
+ {
+  "citekey": "li2025algorithmic",
+  "status": "NOT_FREE",
+  "doi": "10.1111/gove.70067",
+  "title": "Is Algorithmic Accessibility Sufficient? The Pivotal Role of Accessibility and Accountability in Shaping Trust in Automated Decision‐Making"
+ },
+ {
+  "citekey": "unknown2015estimating",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://discovery.dundee.ac.uk/ws/files/7385883/RPP_SCIENCE_2015.pdf",
+  "sha256": "3766b201e6c7c9bd3c16db490c310a2633db8c86d171322475a22df121e767cb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "nosek2015promoting",
+  "status": "NOT_FREE",
+  "doi": "10.1126/science.aab2374",
+  "title": "Promoting an open research culture"
+ },
+ {
+  "citekey": "baker2016",
+  "status": "NOT_FREE",
+  "doi": "10.1038/533452a",
+  "title": "1,500 scientists lift the lid on reproducibility"
+ },
+ {
+  "citekey": "munaf2017manifesto",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41562-016-0021.pdf",
+  "sha256": "607a381bcdaf7d16e5801a570f64c7eb38eeb89bcbf30e343eb00a4ffcfeefd6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "nosek2018preregistration",
+  "status": "NOT_FREE",
+  "doi": "10.1073/pnas.1708274114",
+  "title": "The preregistration revolution"
+ },
+ {
+  "citekey": "willroth2024plans",
+  "status": "NOT_FREE",
+  "doi": "10.1177/25152459231213802",
+  "title": "Best Laid Plans: A Guide to Reporting Preregistration Deviations"
+ },
+ {
+  "citekey": "grimmelikhuijsen2023explaining",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://dspace.library.uu.nl/bitstreams/5cf88adb-8525-4e3d-96a6-95faac50d55b/download",
+  "sha256": "677cc62ce683bc996a4bb6954e02e9611de97cc4b82dce012b164cb403b34bdc",
+  "retrieved": "2026-06-25",
+  "card": "true"
  }
 ]
