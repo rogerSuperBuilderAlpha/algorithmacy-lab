@@ -14,6 +14,8 @@ kept current.
   per-track counts, so the history of what the watch caught is legible at a glance.
 - [`DAILY_REFRESH.md`](DAILY_REFRESH.md) — the playbook the daily run follows: the six seed questions, the
   research and verification procedure, and how the outputs are written and landed.
+- [`CROSS_TRACK_CONCEPTS.md`](CROSS_TRACK_CONCEPTS.md) — the ten concepts the six tracks share, read off the
+  per-paper reference cards (`*/literature/cards/`, indexed by each program's `REFERENCES.md`).
 - One directory per program — `computational/`, `field/`, `qualitative/`, `recurrence/`, `survey/`,
   `cognition/` — each with a `README.md` (scope and the ten topics), a `REVIEW.md` (the curated synthesis),
   `literature/{deep_research_report.md, references.bib}`, and `topics/NN_<slug>/{REVIEW.md, references.bib}`.
