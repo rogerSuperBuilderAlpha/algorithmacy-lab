@@ -1,0 +1,1028 @@
+[
+ {
+  "citekey": "seaver2017algorithms",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2053951717738104",
+  "title": "Algorithms as culture: Some tactics for the ethnography of algorithmic systems"
+ },
+ {
+  "citekey": "christin2020ethnographer",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://arxiv.org/pdf/1912.04883.pdf",
+  "sha256": "35613c609ad1c41e9a79a1c8bbbe84eba6a29e182399102ed2b6da64bc9641e6",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "geiger2011trace",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1109/HICSS.2011.455",
+  "title": "Trace Ethnography: Following Coordination through Documentary Practices"
+ },
+ {
+  "citekey": "light2018walkthrough",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1461444816675438",
+  "title": "The walkthrough method: An approach to the study of apps"
+ },
+ {
+  "citekey": "hoffman1998critical",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1518/001872098779480442",
+  "title": "Use of the Critical Decision Method to Elicit Expert Knowledge: A Case Study in the Methodology of Cognitive Task Analysis"
+ },
+ {
+  "citekey": "brown2024cta",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/10944281241271216",
+  "title": "Cognitive Task Analysis: Eliciting Expert Cognition in Context"
+ },
+ {
+  "citekey": "glaser1967discovery",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&amp;identifierValue=10.4324/9780203793206&amp;type=googlepdf",
+  "sha256": "4d8d635e499f563af6ffb691e95207bcc10d394c9f12ffc54c2d0e2f204e96ac",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "charmaz2006constructing",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Constructing Grounded Theory: A Practical Guide through Qualitative Analysis"
+ },
+ {
+  "citekey": "krippendorff2019content",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.4135/9781071878781",
+  "title": "Content Analysis: An Introduction to Its Methodology"
+ },
+ {
+  "citekey": "kellogg2020algorithms",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.5465/annals.2018.0174",
+  "title": "Algorithms at Work: The New Contested Terrain of Control"
+ },
+ {
+  "citekey": "vallas2020platforms",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://www.oii.ox.ac.uk/publications/platform-sourcing.pdf",
+  "sha256": "2ccbc4045e8ef50bc6ff81ef22267d1f8f1bf06c0616e5d936acac1fe63faaff",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "jarrahi2021algorithmic",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "http://cdr.lib.unc.edu/downloads/3b591r20r",
+  "sha256": "b7b6e0e7d9a4fa2ce511e579333406833b4e786f6294133c672611f45807c484",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wood2019goodgig",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://www.cipd.co.uk/Images/to-gig-or-not-to-gig_2017-stories-from-the-modern-economy_tcm18-18955.pdf",
+  "sha256": "b0059d212701524e9f8fb114857f6c79bccea06d49ce1aa114c1f41368e3d722",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "griesbach2019algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2378023119870041",
+  "title": "Algorithmic Control in Platform Food Delivery Work"
+ },
+ {
+  "citekey": "mcdaid2023algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.aos.2023.101465",
+  "title": "Algorithmic management and the politics of demand: Control and resistance at Uber"
+ },
+ {
+  "citekey": "cameron2022expanding",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1287/orsc.2021.1557",
+  "title": "Expanding the Locus of Resistance: Understanding the Co-constitution of Control and Resistance in the Gig Economy"
+ },
+ {
+  "citekey": "tononi2004information",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://bmcneurosci.biomedcentral.com/counter/pdf/10.1186/1471-2202-5-42",
+  "sha256": "27a598c5c538d7c1e9a1e4e60ae081483313db298736e84645dc561cf5e83ef7",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "tononi2008consciousness",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2307/25470707",
+  "title": "Consciousness as Integrated Information: a Provisional Manifesto"
+ },
+ {
+  "citekey": "oizumi2014phenomenology",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "tononi2016iit",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnrn.2016.44/MediaObjects/41583_2016_BFnrn201644_MOESM12_ESM.pdf",
+  "sha256": "d25e1e17f1da4b639bbe9be3f6470bd3ea4f1b686f2f15b76e542eccfc4374c2",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "albantakis2023iit4",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+  "sha256": "96129cb9589703e30663969cb0f0f329f706778b88b6b5f4b967a19f994783db",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "mayner2018pyphi",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006343&type=printable",
+  "sha256": "1e55c0fca745c3518ec046b9b277c0e430c20e6ea572ea21dceb7ec01ae0f85d",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "barrett2026iit",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2604.11482",
+  "sha256": "92ea4d2dc85c108a0b8ff93164cbabc6cbce69b850feebdb25f124085546d4ed",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "oconnor2020intercoder",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1609406919899220",
+  "title": "Intercoder Reliability in Qualitative Research: Debates and Practical Guidelines"
+ },
+ {
+  "citekey": "mcdonald2019reliability",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3359174",
+  "title": "Reliability and Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW and HCI Practice"
+ },
+ {
+  "citekey": "marzi2024kalpha",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://iris.unive.it/bitstream/10278/5046412/1/Marzi-Balzano-Marchiori_MethodsX-2024.pdf",
+  "sha256": "109aa4d30431daa954479b32328ad7a568d6f146ad731219fa9d8d9a35fafa5b",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "christin2020algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/2057047320959850",
+  "title": "Algorithmic ethnography, during and after COVID-19"
+ },
+ {
+  "citekey": "bucher2017algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154086",
+  "title": "The algorithmic imaginary: exploring the ordinary affects of Facebook algorithms"
+ },
+ {
+  "citekey": "kitchin2017thinking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/1369118X.2016.1154087",
+  "title": "Thinking critically about and researching algorithms"
+ },
+ {
+  "citekey": "ytrearne2021folk",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0163443720972314",
+  "title": "Folk theories of algorithms: Understanding digital irritation"
+ },
+ {
+  "citekey": "seaver2019captivating",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1359183518820366",
+  "title": "Captivating algorithms: Recommender systems as traps"
+ },
+ {
+  "citekey": "cellard2022algorithms",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://hal.science/hal-04778600/document",
+  "sha256": "0bf9fc366a2366c2b617c2bc129972e66433442a203dcf6de3ac5df1eb542ca9",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "vanvoorst2024key",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41599-024-02854-4.pdf",
+  "sha256": "784a67bceaed4ce9f7b0dd32c46bc5a5911add60521814fcd4374bf0799115b0",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "devito2022transfeminine",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3555105",
+  "title": "How Transfeminine TikTok Creators Navigate the Algorithmic Trap of Visibility Via Folk Theorization"
+ },
+ {
+  "citekey": "savolainen2024dimensions",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/14614448221100802",
+  "title": "Dimensions of autonomy in human-algorithm relations"
+ },
+ {
+  "citekey": "geiger2010vandal",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/1718918.1718941",
+  "title": "The Work of Sustaining Order in Wikipedia: The Banning of a Vandal"
+ },
+ {
+  "citekey": "ribes2014scaling",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/2531602.2531624",
+  "title": "Ethnography of Scaling, or, How to Fit a National Research Infrastructure in the Room"
+ },
+ {
+  "citekey": "geiger2017conflict",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1145/3134684",
+  "title": "Operationalizing Conflict and Cooperation between Automated Software Agents in Wikipedia: A Replication and Expansion of 'Even Good Bots Fight'"
+ },
+ {
+  "citekey": "geiger2017blackbox",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1709.09093",
+  "sha256": "9157848c4cb69a0037e9cfd8fbb8c3d2e3c276c09b04df784eaa1faae9a4cc4b",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "star1996ecology",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1287/isre.7.1.111",
+  "title": "Steps toward an Ecology of Infrastructure: Design and Access for Large Information Spaces"
+ },
+ {
+  "citekey": "moraiti2024platformwork",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/17508487.2024.2409661",
+  "title": "Digital Platform Work Reinforcing Performativity: Teacher Responses to Work Intensification Explored through Trace Ethnography"
+ },
+ {
+  "citekey": "taylor2026laion",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2601.09896",
+  "sha256": "67711f0aaba706d7ce8ee79bfba01de7f260b324bb809e51137a88064d0b0ced",
+  "retrieved": "2026-06-25",
+  "card": "writer-grounded"
+ },
+ {
+  "citekey": "duguay2023stumbling",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20563051231158822",
+  "title": "Stumbling Blocks and Alternative Paths: Reconsidering the Walkthrough Method for Analyzing Apps"
+ },
+ {
+  "citekey": "duguay2018patchwork",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://eprints.qut.edu.au/119319/1/Duguay%20Burgess%20%26%20Suzor%20-%20Patchwork%20Platform%20Governance%20-%20Convergence%20-%20FA%20version.pdf",
+  "sha256": "86fd5e76c996aff0d5b7949298a8f6d84570ca0322f2876507a5941997fed74b",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "dieter2019multisituated",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://pure.uva.nl/ws/files/46421717/2056305119846486.pdf",
+  "sha256": "062e4b45942e3a1a1930740983ded58f6625e0232608664bbfb9790d9630d077",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "zavala2025platformized",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://pure.uva.nl/ws/files/261194107/zavala-barreda-milan-2025-platformized-childhood-how-app-stores-construct-children-s-software-audiences-through.pdf",
+  "sha256": "59ee819767600f09eaf1097a81063520ae89ac455fff9fb985bfc117d9781d15",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tan2026affective",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1329878X261453656",
+  "title": "Navigating emotions: contingent affective governance in an AI-powered mental health APP"
+ },
+ {
+  "citekey": "riggs2024lex",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/14680777.2024.2372463",
+  "title": "For queer lovers and friends: an exploration of queer connection by design in the Lex mobile app"
+ },
+ {
+  "citekey": "taylor2023bereal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20563051231216959",
+  "title": "Everyone Stop What You're Doing and BeReal: Live Networked Publics and Authenticity on BeReal"
+ },
+ {
+  "citekey": "poliakova2022wattpad",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "The prospects of Wattpad: Virtual library of the future or a publisher's submission site?"
+ },
+ {
+  "citekey": "klein1989critical",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1109/21.31053",
+  "title": "Critical decision method for eliciting knowledge"
+ },
+ {
+  "citekey": "militello1998applied",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/001401398186108",
+  "title": "Applied cognitive task analysis (ACTA): a practitioner's toolkit for understanding cognitive task demands"
+ },
+ {
+  "citekey": "hoffman1998use",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1518/001872098779480442",
+  "title": "Use of the Critical Decision Method to Elicit Expert Knowledge: A Case Study in the Methodology of Cognitive Task Analysis"
+ },
+ {
+  "citekey": "wong2003critical",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Data Analysis for the Critical Decision Method"
+ },
+ {
+  "citekey": "swaby2022use",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://pilotfeasibilitystudies.biomedcentral.com/track/pdf/10.1186/s40814-022-01002-6",
+  "sha256": "727650e81a737494f0a6d52de8a394f0dafd81b6cfd3008771b03d4f66d0513d",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "brown2024cognitive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/10944281241271216",
+  "title": "Cognitive Task Analysis: Eliciting Expert Cognition in Context"
+ },
+ {
+  "citekey": "militello2023adapting",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/15553434231192283",
+  "title": "Adapting Cognitive Task Analysis Methods for Use in a Large Sample Simulation Study of High-Risk Healthcare Events"
+ },
+ {
+  "citekey": "mansoori2025cognitive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.34197/ats-scholar.2025-0009OC",
+  "title": "Cognitive Task Analysis to Evaluate Resident Physician Decision Making in the Intensive Care Unit"
+ },
+ {
+  "citekey": "gyles2025integrated",
+  "status": "ACQUIRED",
+  "oa_source": "doi-landing",
+  "source_url": "https://www.airservices.gov.au/wp-content/uploads/ANS-Safety-Reporting-and-Performance30Apr2020.pdf",
+  "sha256": "20cdd997bb0ee5bd8871149c1d742b41057e52dd4780a00eab709bfed67bf767",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "gioia2013seeking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1094428112452151",
+  "title": "Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia Methodology"
+ },
+ {
+  "citekey": "deterding2021flexible",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0049124118799377",
+  "title": "Flexible Coding of In-depth Interviews: A Twenty-first-century Approach"
+ },
+ {
+  "citekey": "vilahenninger2024abductive",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00491241211067508",
+  "title": "Abductive Coding: Theory Building and Qualitative (Re)Analysis"
+ },
+ {
+  "citekey": "timmermans2012theory",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0735275112457914",
+  "title": "Theory Construction in Qualitative Research: From Grounded Theory to Abductive Analysis"
+ },
+ {
+  "citekey": "fereday2006demonstrating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/160940690600500107",
+  "title": "Demonstrating Rigor Using Thematic Analysis: A Hybrid Approach of Inductive and Deductive Coding and Theme Development"
+ },
+ {
+  "citekey": "cascio2019team",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1525822X19838237",
+  "title": "A Team-based Approach to Open Coding: Considerations for Creating Intercoder Consensus"
+ },
+ {
+  "citekey": "nelson2020computational",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0049124117729703",
+  "title": "Computational Grounded Theory: A Methodological Framework"
+ },
+ {
+  "citekey": "basurto2010systematic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/1065912909334430",
+  "title": "A Systematic Approach to Institutional Analysis: Applying Crawford and Ostrom's Grammar"
+ },
+ {
+  "citekey": "frantz2021institutional",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/padm.12719",
+  "title": "Institutional Grammar 2.0: A Specification for Encoding and Analyzing Institutional Design"
+ },
+ {
+  "citekey": "pieper2023use",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://storage.googleapis.com/jnl-up-j-ijc-files/journals/1/articles/1214/64d23013820e8.pdf",
+  "sha256": "aacaa0ead66606601b7f4eedb613be307688d6564c0c9892568a2c3c76eb37af",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "than2025updating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00491241251339188",
+  "title": "Updating ``The Future of Coding'': Qualitative Coding with Generative Large Language Models"
+ },
+ {
+  "citekey": "depaoli2024performing",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://rke.abertay.ac.uk/ws/files/81658175/DePaoli_PerformingAnInductiveThematicAnalysis_Published_2024.pdf",
+  "sha256": "5d7298f03029e4604c6d2844d59a4c9dfb27d55909cf4da5948a76a54f5cfc54",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "rosenblat2016algorithmic",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers"
+ },
+ {
+  "citekey": "wood2018goodgig",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://www.cipd.co.uk/Images/to-gig-or-not-to-gig_2017-stories-from-the-modern-economy_tcm18-18955.pdf",
+  "sha256": "b0059d212701524e9f8fb114857f6c79bccea06d49ce1aa114c1f41368e3d722",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "mohlmann2021algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.25300/MISQ/2021/15333",
+  "title": "Algorithmic Management of Work on Online Labor Platforms: When Matching Meets Control"
+ },
+ {
+  "citekey": "wiener2021algorithmic",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/0960085X.2021.1977729",
+  "title": "Algorithmic Control and Gig Workers: A Legitimacy Perspective of Uber Drivers"
+ },
+ {
+  "citekey": "rahman2021invisible",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00018392211010118",
+  "title": "The Invisible Cage: Workers' Reactivity to Opaque Algorithmic Evaluations"
+ },
+ {
+  "citekey": "cameron2024goodbad",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00018392241236163",
+  "title": "The Making of the ``Good Bad'' Job: How Algorithmic Management Manufactures Consent Through Constant and Confined Choices"
+ },
+ {
+  "citekey": "duggan2023algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/hrm.22168",
+  "title": "Algorithmic HRM Control in the Gig Economy: The App-Worker Perspective"
+ },
+ {
+  "citekey": "anwar2020hidden",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/0308518X19894584",
+  "title": "Hidden transcripts of the gig economy: labour agency and the new art of resistance among African gig workers"
+ },
+ {
+  "citekey": "lata2025algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/00380261251335371",
+  "title": "Algorithmic control and resistance in the gig economy: A case of Uber drivers in Dhaka"
+ },
+ {
+  "citekey": "huang2025weapons",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10670564.2025.2493883",
+  "title": "Weapons of the Riders: Everyday Algorithmic Resistance of Migrant Food-Delivery Workers in China's Gig Economy"
+ },
+ {
+  "citekey": "novianto2024gamification",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/ntwe.12324",
+  "title": "Gamification From Below as a Form of Resistance: Algorithm Control, Precarity, and Resistance Dynamic of Indonesian Gig Workers"
+ },
+ {
+  "citekey": "popan2021embodied",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/10630732.2021.2001714",
+  "title": "Embodied Precariat and Digital Control in the ``Gig Economy'': The Mobile Labor of Food Delivery Workers"
+ },
+ {
+  "citekey": "chan2022algorithmic",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1177/20539517221133779",
+  "title": "Algorithmic precarity and metric power: Managing the affective measures and customers in the gig economy"
+ },
+ {
+  "citekey": "albantakis2023iit40",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011465&type=printable",
+  "sha256": "96129cb9589703e30663969cb0f0f329f706778b88b6b5f4b967a19f994783db",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "oizumi2014iit30",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "marshall2023systemii",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://vtechworks.lib.vt.edu/bitstreams/918fdd25-c1b3-4197-b2af-15796d7a970d/download",
+  "sha256": "231b19ce5aa2409be610cffe460b8fa3c28dc5a8ac706913f3228d2a10c8f2ff",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "marshall2026intrinsicunits",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/nc/niag013",
+  "title": "Intrinsic units: identifying a system's causal grain"
+ },
+ {
+  "citekey": "zaeemzadeh2024upperbounds",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012323&type=printable",
+  "sha256": "f3a8af380eca898308e553d6dd39e7f7781def62175ee9427ff98ac6a71a1a0b",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "albantakis2023quantum",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e25030449",
+  "title": "Computing the Integrated Information of a Quantum Mechanism"
+ },
+ {
+  "citekey": "gomez2020multivalued",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e23010006",
+  "title": "Computing Integrated Information ({\\Phi}) in Discrete Dynamical Systems with Multi-Valued Elements"
+ },
+ {
+  "citekey": "haun2019space",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e21121160",
+  "title": "Why Does Space Feel the Way it Does? Towards a Principled Account of Spatial Experience"
+ },
+ {
+  "citekey": "krohn2016computing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/nc/nix017",
+  "title": "Computing integrated information"
+ },
+ {
+  "citekey": "kleiner2020mathematical",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fams.2020.602973/pdf",
+  "sha256": "4e07462b400947d09a1b8fa6f685dfd8405a3dcd06d0aa63fb06ac45769e91a4",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "cea2025body",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2024.1510066/pdf",
+  "sha256": "68875e10f18270ee35d9e89499547298130b306322e4d64913eb0254341c08b5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "gomez2020computing",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e23010006",
+  "title": "Computing Integrated Information ({\\Phi}) in Discrete Dynamical Systems with Multi-Valued Elements"
+ },
+ {
+  "citekey": "oizumi2014from",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003588&type=printable",
+  "sha256": "589dcc7d2cc3c8e4f72a76a43d0daaa5fce53ab52770b8e599c826b766b963c6",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "marshall2023system",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://vtechworks.lib.vt.edu/bitstreams/918fdd25-c1b3-4197-b2af-15796d7a970d/download",
+  "sha256": "231b19ce5aa2409be610cffe460b8fa3c28dc5a8ac706913f3228d2a10c8f2ff",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "kitazono2018efficient",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1712.06745",
+  "sha256": "e026347096f87f40ba4dd4db1525e36882993c2f2388f1e3e256ecc70768ea55",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "diazarancibia2026geomip",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/app16020809",
+  "title": "GeoMIP: A Geometric-Topological and Dynamic Programming Framework for Enhanced Computational Tractability of Minimum Information Partition in Integrated Information Theory"
+ },
+ {
+  "citekey": "zaeemzadeh2024upper",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1012323&type=printable",
+  "sha256": "f3a8af380eca898308e553d6dd39e7f7781def62175ee9427ff98ac6a71a1a0b",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "aguilera2019scaling",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e21121198",
+  "title": "Scaling Behaviour and Critical Phase Transitions in Integrated Information Theory"
+ },
+ {
+  "citekey": "nilsen2019evaluating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/e21050525",
+  "title": "Evaluating Approximations and Heuristic Measures of Integrated Information"
+ },
+ {
+  "citekey": "cerullo2015problem",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004286&type=printable",
+  "sha256": "8fa57f7c0461b2291f6f1b138f0edcff05188072e1ae2bdd64de7a6a02392d87",
+  "retrieved": "2026-06-25",
+  "card": "no-card"
+ },
+ {
+  "citekey": "hanson2023nonuniqueness",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/nc/niad014",
+  "title": "On the non-uniqueness problem in integrated information theory"
+ },
+ {
+  "citekey": "hayes2007answering",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/19312450709336664",
+  "title": "Answering the Call for a Standard Reliability Measure for Coding Data"
+ },
+ {
+  "citekey": "krippendorff2004reliability",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.1468-2958.2004.tb00738.x",
+  "title": "Reliability in Content Analysis: Some Common Misconceptions and Recommendations"
+ },
+ {
+  "citekey": "krippendorff2011computing",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "Computing Krippendorff's Alpha-Reliability"
+ },
+ {
+  "citekey": "lombard2002content",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.1468-2958.2002.tb00826.x",
+  "title": "Content Analysis in Mass Communication: Assessment and Reporting of Intercoder Reliability"
+ },
+ {
+  "citekey": "zapf2016measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-016-0200-9",
+  "sha256": "eb63c051cbab6da8fd261f31c221d6e7de6562c03939b578ae53f437f3fd8e9f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kim2024interrater",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.rmal.2024.100097",
+  "title": "Interrater Agreement in Genre Analysis: A Methodological Review and a Comparison of Three Measures"
+ },
+ {
+  "citekey": "paninski2003estimation",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1162/089976603321780272",
+  "title": "Estimation of Entropy and Mutual Information"
+ },
+ {
+  "citekey": "roulston1999estimating",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/S0167-2789(98)00269-3",
+  "title": "Estimating the Errors on Measured Entropy and Mutual Information"
+ },
+ {
+  "citekey": "tanno2019learning",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1109/CVPR.2019.01150",
+  "title": "Learning From Noisy Labels by Regularized Estimation of Annotator Confusion"
+ }
+]
