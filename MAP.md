@@ -63,4 +63,4 @@ Run the relevant generator after adding content, then verify with its `--check`.
 | 3 | studies | `org_frontier/studies/*/` |
 | 16 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
-| 694 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |
+| 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |

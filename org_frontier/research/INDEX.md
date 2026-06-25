@@ -8,14 +8,14 @@ One row per program with its last refresh and source count, then the ten topics 
 
 | program | last run | sources | topics |
 |---|---|---|---|
-| [computational](computational/README.md) | 2026-06-25 | 106 | 10 |
-| [field](field/README.md) | 2026-06-25 | 114 | 10 |
-| [qualitative](qualitative/README.md) | 2026-06-25 | 119 | 10 |
-| [recurrence](recurrence/README.md) | 2026-06-25 | 106 | 10 |
-| [survey](survey/README.md) | 2026-06-25 | 120 | 10 |
-| [cognition](cognition/README.md) | 2026-06-25 | 129 | 10 |
+| [computational](computational/README.md) | 2026-06-25 | 138 | 10 |
+| [field](field/README.md) | 2026-06-25 | 120 | 10 |
+| [qualitative](qualitative/README.md) | 2026-06-25 | 125 | 10 |
+| [recurrence](recurrence/README.md) | 2026-06-25 | 108 | 10 |
+| [survey](survey/README.md) | 2026-06-25 | 136 | 10 |
+| [cognition](cognition/README.md) | 2026-06-25 | 146 | 10 |
 
-**Total program-level bibliography: 694 entries across 6 programs.**
+**Total program-level bibliography: 773 entries across 6 programs.**
 
 ## Computational research — exact integrated information and coordination
 
