@@ -4,30 +4,41 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**47 cards.**
+**65 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
 | aguilera2019integrated | Integrated information in the thermodynamic limit | 2019 | ACQUIRED | true | [card](cards/aguilera2019integrated.md) |
+| albantakis2014animats | Evolution of Integrated Causal Structures in Animats Exposed to Environments of Increas… | 2014 | ACQUIRED | writer-grounded | [card](cards/albantakis2014animats.md) |
 | albantakis2023iit4 | Integrated information theory ({IIT}) 4.0: Formulating the properties of phenomenal exi… | 2023 | ACQUIRED | true | [card](cards/albantakis2023iit4.md) |
+| albantakis2023iit40 | Integrated Information Theory (IIT) 4.0: Formulating the Properties of Phenomenal Exist… | 2023 | ACQUIRED | writer-grounded | [card](cards/albantakis2023iit40.md) |
 | balduzzi2008integrated | Integrated information in discrete dynamical systems: motivation and theoretical framework | 2008 | ACQUIRED | true | [card](cards/balduzzi2008integrated.md) |
+| barbosa2020intrinsic | A measure for intrinsic information | 2020 | ACQUIRED | writer-grounded | [card](cards/barbosa2020intrinsic.md) |
 | barrett2011practical | Practical Measures of Integrated Information for Time-Series Data | 2011 | ACQUIRED | true | [card](cards/barrett2011practical.md) |
 | barrett2019notwelldefined | The Phi Measure of Integrated Information is Not Well-Defined for General Physical Systems | 2019 | ACQUIRED | true | [card](cards/barrett2019notwelldefined.md) |
 | bayne2018axiomatic | On the axiomatic foundations of the integrated information theory of consciousness | 2018 | ACQUIRED | true | [card](cards/bayne2018axiomatic.md) |
 | casali2013theoretically | A Theoretically Based Index of Consciousness Independent of Sensory Processing and Beha… | 2013 | ACQUIRED | true | [card](cards/casali2013theoretically.md) |
 | cerullo2015problem | The Problem with Phi: A Critique of Integrated Information Theory | 2015 | ACQUIRED | true | [card](cards/cerullo2015problem.md) |
 | christensen2024beyond | Beyond Individualism and Holism: Integrated Information Theory as Formal Framework for … | 2024 | ACQUIRED | true | [card](cards/christensen2024beyond.md) |
+| crone2025foundations | Foundations of joint action: what are minimal forms of shared intentionality? | 2025 | ACQUIRED | true | [card](cards/crone2025foundations.md) |
+| danilczuk2026integrate | The Integrated Information {$\Phi$} of an Integrate and Fire Network | 2026 | ACQUIRED | true | [card](cards/danilczuk2026integrate.md) |
+| doerig2019unfolding | The unfolding argument: Why {IIT} and other causal structure theories cannot explain co… | 2019 | ACQUIRED | true | [card](cards/doerig2019unfolding.md) |
 | engel2018group | Integrated Information as a Metric for Group Interaction | 2018 | ACQUIRED | true | [card](cards/engel2018group.md) |
 | engel2018integrated | Integrated information as a metric for group interaction | 2018 | ACQUIRED | true | [card](cards/engel2018integrated.md) |
+| findlay2024dissociating | Dissociating Artificial Intelligence from Artificial Consciousness | 2024 | ACQUIRED | writer-grounded | [card](cards/findlay2024dissociating.md) |
 | fleming2023pseudoscience | The Integrated Information Theory of Consciousness as Pseudoscience | 2023 | ACQUIRED | true | [card](cards/fleming2023pseudoscience.md) |
 | garridomerchan2022optimizing | Optimizing Integrated Information with a Prior Guided Random Search Algorithm | 2022 | ACQUIRED | true | [card](cards/garridomerchan2022optimizing.md) |
+| grasso2021causal | Causal reductionism and causal structures | 2021 | ACQUIRED | writer-grounded | [card](cards/grasso2021causal.md) |
+| guerrero2023systematic | A systematic review of integrated information theory: a perspective from artificial int… | 2023 | ACQUIRED | true | [card](cards/guerrero2023systematic.md) |
 | hanson2021falsification | Formalizing falsification for theories of consciousness across computational hierarchies | 2021 | ACQUIRED | true | [card](cards/hanson2021falsification.md) |
+| herzog2022firstperson | First-person experience cannot rescue causal structure theories from the unfolding argu… | 2022 | ACQUIRED | true | [card](cards/herzog2022firstperson.md) |
 | hidaka2018fast | Fast and exact search for the partition with minimal information loss | 2018 | ACQUIRED | true | [card](cards/hidaka2018fast.md) |
 | hosaka2025gnn | Graph Neural Networks for Integrated Information and Major Complex Estimation | 2025 | ACQUIRED | true | [card](cards/hosaka2025gnn.md) |
 | hosaka2025graph | Graph neural networks for integrated information and major complex estimation | 2025 | ACQUIRED | true | [card](cards/hosaka2025graph.md) |
 | ilidrissi2025beyond | Beyond Shapley Values: Cooperative Games for the Interpretation of Machine Learning Models | 2025 | ACQUIRED | true | [card](cards/ilidrissi2025beyond.md) |
 | kim2018estimating | Estimating the Integrated Information Measure Phi from High-Density Electroencephalogra… | 2018 | ACQUIRED | true | [card](cards/kim2018estimating.md) |
 | kitazono2018efficient | Efficient Algorithms for Searching the Minimum Information Partition in Integrated Info… | 2018 | ACQUIRED | true | [card](cards/kitazono2018efficient.md) |
+| kleiner2020mathematical | The Mathematical Structure of Integrated Information Theory | 2020 | ACQUIRED | writer-grounded | [card](cards/kleiner2020mathematical.md) |
 | li2024shapley | Shapley value: from cooperative game to explainable artificial intelligence | 2024 | ACQUIRED | true | [card](cards/li2024shapley.md) |
 | liardi2025scalable | A scalable estimator of higher-order information in complex dynamical systems | 2025 | ACQUIRED | true | [card](cards/liardi2025scalable.md) |
 | marshall2023system | System Integrated Information | 2023 | ACQUIRED | true | [card](cards/marshall2023system.md) |
@@ -35,15 +46,21 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | mayner2025intrinsic | Intrinsic Cause--Effect Power: The Tradeoff Between Differentiation and Specification | 2026 | ACQUIRED | true | [card](cards/mayner2025intrinsic.md) |
 | mcmillen2024collective | Collective intelligence: A unifying concept for integrating biology across scales and s… | 2024 | ACQUIRED | true | [card](cards/mcmillen2024collective.md) |
 | mediano2019evaluating | Measuring Integrated Information: Comparison of Candidate Measures in Theory and Simula… | 2019 | ACQUIRED | true | [card](cards/mediano2019evaluating.md) |
+| mediano2019measuring | Measuring Integrated Information: Comparison of Candidate Measures in Theory and Simula… | 2019 | ACQUIRED | writer-grounded | [card](cards/mediano2019measuring.md) |
 | mediano2021towards | Towards an extended taxonomy of information dynamics via Integrated Information Decompo… | 2021 | ACQUIRED | true | [card](cards/mediano2021towards.md) |
 | mediano2022integrated | Integrated information as a common signature of dynamical and information-processing co… | 2022 | ACQUIRED | true | [card](cards/mediano2022integrated.md) |
 | negro2022emergentist | Emergentist Integrated Information Theory | 2022 | ACQUIRED | true | [card](cards/negro2022emergentist.md) |
 | niizato2020finding | Finding continuity and discontinuity in fish schools via integrated information theory | 2020 | ACQUIRED | true | [card](cards/niizato2020finding.md) |
+| niizato2024information | Information structure of heterogeneous criticality in a fish school | 2024 | ACQUIRED | true | [card](cards/niizato2024information.md) |
 | oizumi2014from | From the phenomenology to the mechanisms of consciousness: Integrated Information Theor… | 2014 | ACQUIRED | true | [card](cards/oizumi2014from.md) |
+| oizumi2014iit3 | From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theor… | 2014 | ACQUIRED | writer-grounded | [card](cards/oizumi2014iit3.md) |
 | oizumi2014phenomenology | From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theor… | 2014 | ACQUIRED | true | [card](cards/oizumi2014phenomenology.md) |
 | oizumi2016decoding | Measuring Integrated Information from the Decoding Perspective | 2016 | ACQUIRED | true | [card](cards/oizumi2016decoding.md) |
 | oizumi2016geometry | Unified Framework for Information Integration Based on Information Geometry | 2016 | ACQUIRED | true | [card](cards/oizumi2016geometry.md) |
+| oizumi2016measuring | Measuring integrated information from the decoding perspective | 2016 | ACQUIRED | writer-grounded | [card](cards/oizumi2016measuring.md) |
 | oizumi2016unified | Unified framework for information integration based on information geometry | 2016 | ACQUIRED | true | [card](cards/oizumi2016unified.md) |
+| pacherie2011framing | Framing Joint Action | 2011 | ACQUIRED | true | [card](cards/pacherie2011framing.md) |
+| reveille2025trajectories | Trajectories of interbrain synchrony during teamwork: links with team composition and p… | 2025 | ACQUIRED | true | [card](cards/reveille2025trajectories.md) |
 | riedl2025emergent | Emergent Coordination in Multi-Agent Language Models | 2025 | ACQUIRED | true | [card](cards/riedl2025emergent.md) |
 | rosas2020reconciling | Reconciling emergences: An information-theoretic approach to identify causal emergence … | 2020 | ACQUIRED | true | [card](cards/rosas2020reconciling.md) |
 | rozemberczki2022shapley | The Shapley Value in Machine Learning | 2022 | ACQUIRED | true | [card](cards/rozemberczki2022shapley.md) |
@@ -52,6 +69,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | toker2019information | Information integration in large brain networks | 2019 | ACQUIRED | true | [card](cards/toker2019information.md) |
 | tononi2003measuring | Measuring information integration | 2003 | ACQUIRED | true | [card](cards/tononi2003measuring.md) |
 | tononi2004information | An Information Integration Theory of Consciousness | 2004 | ACQUIRED | true | [card](cards/tononi2004information.md) |
+| tononi2016iit | Integrated information theory: from consciousness to its physical substrate | 2016 | ACQUIRED | true | [card](cards/tononi2016iit.md) |
 | zaeemzadeh2023upper | Upper bounds for integrated information | 2023 | ACQUIRED | true | [card](cards/zaeemzadeh2023upper.md) |
 | zaeemzadeh2024upper | Upper bounds for integrated information | 2024 | ACQUIRED | true | [card](cards/zaeemzadeh2024upper.md) |
 | zaeemzadeh2024upperbounds | Upper Bounds for Integrated Information | 2024 | ACQUIRED | true | [card](cards/zaeemzadeh2024upperbounds.md) |
