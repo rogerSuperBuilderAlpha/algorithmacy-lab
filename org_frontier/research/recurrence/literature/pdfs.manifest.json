@@ -1,0 +1,956 @@
+[
+ {
+  "citekey": "eckmann1987recurrence",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1209/0295-5075/4/9/004",
+  "title": "Recurrence Plots of Dynamical Systems"
+ },
+ {
+  "citekey": "webber1994dynamical",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1152/jappl.1994.76.2.965",
+  "title": "Dynamical Assessment of Physiological Systems and States Using Recurrence Plot Strategies"
+ },
+ {
+  "citekey": "marwan2007recurrence",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2501.13933",
+  "sha256": "a3336d94c9015bfffc64058cd6a93e160df616139d84f2ff4ee970a110ea8d3a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "marwan2008historical",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1709.09971",
+  "sha256": "06bb428285fcadd86b4fbcaab1ca691e4939b7d72d934dad7402830478adf1f7",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "marwan2011howto",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1007.2215",
+  "sha256": "a6050c44ca2b6e150b08ae41689761734ad1fbcd9bdee000202643822cc64cfc",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "webber2015recurrence",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/978-3-319-07155-8",
+  "title": "Recurrence Quantification Analysis: Theory and Best Practices"
+ },
+ {
+  "citekey": "marwan2023trends",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1140/epjs/s11734-022-00739-8.pdf",
+  "sha256": "7e144324583f5d5deb3b7b943ede8b5d066a2b8d2e2fb72cab61f60887471cf5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "shockley2003mutual",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/0096-1523.29.2.326",
+  "title": "Mutual Interpersonal Postural Constraints Are Involved in Cooperative Conversation"
+ },
+ {
+  "citekey": "richardson2005looking",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1207/s15516709cog0000_29",
+  "title": "Looking To Understand: The Coupling Between Speakers' and Listeners' Eye Movements and Its Relationship to Discourse Comprehension"
+ },
+ {
+  "citekey": "dale2011nominal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1142/S0218127411028970",
+  "title": "Nominal Cross Recurrence as a Generalized Lag Sequential Analysis for Behavioral Streams"
+ },
+ {
+  "citekey": "konvalinka2011synchronized",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1073/pnas.1016955108",
+  "title": "Synchronized Arousal Between Performers and Related Spectators in a Fire-Walking Ritual"
+ },
+ {
+  "citekey": "coco2014cross",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00510/pdf",
+  "sha256": "519e46dc330f25494cd1a099367c843fc495f7f5bee0abb9e5c4cad660dd2aa9",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "fusaroli2016investigating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/cogs.12251",
+  "title": "Investigating Conversational Dynamics: Interactive Alignment, Interpersonal Synergy, and Collective Task Performance"
+ },
+ {
+  "citekey": "wallot2018analyzing",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02232/pdf",
+  "sha256": "d0c8870cc3750e05ff324a92ba8ea93c1e98d53596abfbeb3ffa84fc2d8a5f33",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wallot2019multidimensional",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/00273171.2018.1512846",
+  "title": "Multidimensional Cross-Recurrence Quantification Analysis (MdCRQA) -- A Method for Quantifying Correlation Between Multivariate Time-Series"
+ },
+ {
+  "citekey": "angus2019recurrence",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fams.2019.00054/pdf",
+  "sha256": "5441ee9b50b735fdc33b49c43bb2827685969fb06ecfe39e397a583f7ca34782",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "coco2021unidimensional",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journal.r-project.org/archive/2021/RJ-2021-062/RJ-2021-062.pdf",
+  "sha256": "bb4da661101c7d3ee03bfaf792644207f6c0c04afc1d9953cea83f469229ed70",
+  "retrieved": "2026-06-25",
+  "card": "writer-grounded"
+ },
+ {
+  "citekey": "wallot2023multivariate",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2303.16907",
+  "sha256": "1b19b4926b05b60714f3f303e7e6e51a968f44571a1bbfc6aa77342db84baa23",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "goldstein2025cross",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1713357/pdf",
+  "sha256": "dea9b17886c3be9f38560503968740ae6d6d52f1f9b9d5e455dd77fad76bc2b5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "schreiber2000measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/nlin/0001042",
+  "sha256": "7f1ac77dbdabe04d2dc6039c28aa8bc15ce826f1f70d06d228873e3aebfb2e63",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sugihara2012detecting",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1126/science.1227079",
+  "title": "Detecting Causality in Complex Ecosystems"
+ },
+ {
+  "citekey": "wibral2014transfer",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/978-3-642-54474-3",
+  "title": "Directed Information Measures in Neuroscience"
+ },
+ {
+  "citekey": "edinburgh2021causality",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2104.00718",
+  "sha256": "ff5a70621cd97b635ed82de4491a60d7df70fe973a5887ab6c19f0283bdc6ccb",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "zbilut1992embeddings",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/0375-9601(92)90426-M",
+  "title": "Embeddings and delays as derived from quantification of recurrence plots"
+ },
+ {
+  "citekey": "marwan2002recurrence",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/physics/0201064",
+  "sha256": "d121b311828bcdc124ced59bb750b9970da7ca18cbc684cc2a2a1e496c385557",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "marwan2015mathematical",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/978-3-319-07155-8_1",
+  "title": "Mathematical and Computational Foundations of Recurrence Quantifications"
+ },
+ {
+  "citekey": "goswami2019brief",
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://publications.pik-potsdam.de/pubman/item/item_23612_2/component/file_23613/8782oa.pdf",
+  "sha256": "4d70bb0285642cde7c0961a1895183e743e0d88f68e11e7a77e0204bbc3f41ed",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hirata2023recurrence",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1063/5.0156945",
+  "title": "Recurrence plots bridge deterministic systems and stochastic systems topologically and measure-theoretically"
+ },
+ {
+  "citekey": "dacruz2025density",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1103/PhysRevE.111.044212",
+  "title": "Density-based recurrence measures from microstates"
+ },
+ {
+  "citekey": "marwan2025complexreport",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2501.13933",
+  "sha256": "a3336d94c9015bfffc64058cd6a93e160df616139d84f2ff4ee970a110ea8d3a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "coco2014crqa",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00510/pdf",
+  "sha256": "519e46dc330f25494cd1a099367c843fc495f7f5bee0abb9e5c4cad660dd2aa9",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wallot2018tutorial",
+  "status": "ACQUIRED",
+  "oa_source": "landing:publisher",
+  "source_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.02232/pdf",
+  "sha256": "d0c8870cc3750e05ff324a92ba8ea93c1e98d53596abfbeb3ffa84fc2d8a5f33",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wallot2018mdcrqa",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.tandfonline.com/doi/pdf/10.1080/00273171.2018.1512846?needAccess=true&",
+  "sha256": "a2d0dc9078e6c4e26c01dcc296b36ff40f74c834c4388d713fd310d5cbd4ce2c",
+  "retrieved": "2026-06-25",
+  "card": "writer-grounded"
+ },
+ {
+  "citekey": "schinkel2008threshold",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1140/epjst/e2008-00833-5",
+  "title": "Selection of Recurrence Threshold for Signal Detection"
+ },
+ {
+  "citekey": "kraemer2018threshold",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2502.13036",
+  "sha256": "5581d820633573af02bbe5ace089b08fd95dd820e36840cb97ca20e76fa3acb6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tan2023delays",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1063/5.0137223",
+  "title": "Selecting Embedding Delays: An Overview of Embedding Techniques and a New Method Using Persistent Homology"
+ },
+ {
+  "citekey": "delage2023bottomup",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1063/5.0160832",
+  "title": "A Bottom-Up Approach for Recurrence Detection Based on Sampling Distance"
+ },
+ {
+  "citekey": "drews2024unequal",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41598-024-73225-x.pdf",
+  "sha256": "6b66d9396f636fc1179dd3f4943c30d21b23eb4e17a5734c018f41019bd71017",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "martinezgonzalez2018rqaparams",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0194462&type=printable",
+  "sha256": "ef7330d95372d15c8ad155c51c21cd683e0b0508231f8f83044ed35f21b1969f",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "shockley2009conversation",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.1756-8765.2009.01021.x",
+  "title": "Conversation and Coordinative Structures"
+ },
+ {
+  "citekey": "louwerse2012behavior",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.1551-6709.2012.01269.x",
+  "title": "Behavior Matching in Multimodal Communication Is Synchronized"
+ },
+ {
+  "citekey": "fusaroli2015conversational",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/cogs.12251",
+  "title": "Investigating Conversational Dynamics: Interactive Alignment, Interpersonal Synergy, and Collective Task Performance"
+ },
+ {
+  "citekey": "paxton2013argument",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/17470218.2013.853089",
+  "title": "Argument disrupts interpersonal synchrony"
+ },
+ {
+  "citekey": "walton2017creating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/tops.12306",
+  "title": "Creating Time: Social Collaboration in Music Improvisation"
+ },
+ {
+  "citekey": "miles2023behavioral",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41598-023-47396-y.pdf",
+  "sha256": "c8c97b13375c2a5ac7af4ca1575dc747ac48d63936aed54d464a40d187548510",
+  "retrieved": "2026-06-25",
+  "card": "writer-grounded"
+ },
+ {
+  "citekey": "hartmann2023postural",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://jyx.jyu.fi/bitstreams/9e32329b-9894-43eb-bcbb-e600eb353e60/download",
+  "sha256": "4357d52a722b3c10bfeb3b6dbfef578711a75e2459ef7c2882068feba7fbda25",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "richardson2007art",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/j.1467-9280.2007.01914.x",
+  "title": "The Art of Conversation Is Coordination: Common Ground and the Coupling of Eye Movements During Dialogue"
+ },
+ {
+  "citekey": "warlaumont2011nominal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1142/S0218127411028970",
+  "title": "Nominal Cross Recurrence as a Generalized Lag Sequential Analysis for Behavioral Streams"
+ },
+ {
+  "citekey": "anderson2013recurrence",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.3758%2Fs13428-012-0299-5.pdf",
+  "sha256": "92e7329c7d1c6489ceb12883c235ff090af81e88a92aa458441cd5118333189a",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "brone2017eye",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://lirias.kuleuven.be/retrieve/8a922e20-a727-464e-a051-8678774eedc2",
+  "sha256": "1e3b0429b86614ee740c7225ef4d58e5b90c406c4b9f79410a2cdbe8e66661c6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "haraped2024looking",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0315728&type=printable",
+  "sha256": "277048f267041db883226acfad58c41a4d078c3a43c8c461b1e07a40ff293cf4",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "haraped2025coordinating",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/cogs.70123",
+  "title": "Coordinating Attention in Face-to-Face Collaboration: The Dynamics of Gaze, Pointing, and Verbal Reference"
+ },
+ {
+  "citekey": "duong2024exploring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.tqmp.org/RegularArticles/vol20-2/p121/p121.pdf",
+  "sha256": "9f6f0ba8241c2719350e93d28ce4abd643f87f2ddba296c6f39c9cf5b317319b",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "kruyt2023measuring",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://sfera.unife.it/bitstream/11392/2561853/1/2023-JSLHR.pdf",
+  "sha256": "d5112b5511959b5a57c6c16ae2461a601ee4bba5ce57e5234c2530b9fe96f389",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "xia2023investigating",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.specom.2023.102961",
+  "title": "Investigating prosodic entrainment from global conversations to local turns and tones in Mandarin conversations"
+ },
+ {
+  "citekey": "goldstein2026cross",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1713357/pdf",
+  "sha256": "dea9b17886c3be9f38560503968740ae6d6d52f1f9b9d5e455dd77fad76bc2b5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "marwan2002cross",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://npg.copernicus.org/articles/9/325/2002/npg-9-325-2002.pdf",
+  "sha256": "3877857d49ffcf35784015e367502d55d498f4dcc4f5e572438a9e5b2a30b7e3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "coco2021crqa",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://journal.r-project.org/archive/2021/RJ-2021-062/RJ-2021-062.pdf",
+  "sha256": "bb4da661101c7d3ee03bfaf792644207f6c0c04afc1d9953cea83f469229ed70",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "likens2020windowed",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1093/scan/nsaa130",
+  "title": "Windowed multiscale synchrony: modeling time-varying and scale-localized interpersonal coordination dynamics"
+ },
+ {
+  "citekey": "tomashin2024lagged",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1037/met0000691",
+  "title": "Lagged multidimensional recurrence quantification analysis for determining leader-follower relationships within multidimensional time series"
+ },
+ {
+  "citekey": "hasselman2023geometry",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fnetp.2023.1289983/pdf?isPublishedV2=False",
+  "sha256": "389c773127c067205ecb01e16bc34e040d61d3a2f05857a424613644db2e6266",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "coco2017multilevel",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1109/TCDS.2016.2545739",
+  "title": "Multilevel Behavioral Synchronization in a Joint Tower-Building Task"
+ },
+ {
+  "citekey": "darici2025leaderfollower",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1080/0142159X.2025.2517719",
+  "title": "Leader-follower dynamics in medical training: A dual mobile eye-tracking analysis of teacher-student gaze patterns"
+ },
+ {
+  "citekey": "goldstein2026crqa",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1713357/pdf",
+  "sha256": "dea9b17886c3be9f38560503968740ae6d6d52f1f9b9d5e455dd77fad76bc2b5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "romano2004multivariate",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.physleta.2004.07.066",
+  "title": "Multivariate recurrence plots"
+ },
+ {
+  "citekey": "wallot2016mdrqa",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01835/pdf",
+  "sha256": "4beab78ff9990ad3c7df8c9949552d3c2bde74f9a97895250bb54a3f28494d61",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wallot2018ami",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01679/pdf",
+  "sha256": "c00f794842158d24be4c75fef7d4148d6fe306ec53983d53056b8ce1b0df0cb3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wallot2023mvjrqa",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2303.16907",
+  "sha256": "1b19b4926b05b60714f3f303e7e6e51a968f44571a1bbfc6aa77342db84baa23",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "thaikkandi2023unequal",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2307.11675",
+  "sha256": "7bb671c820b4cd45d0d772a9a64bd37831ec51780079ba5153228baeaddf4309",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "tolston2020joint",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fams.2020.00001/pdf",
+  "sha256": "f04bfe9e68665b407c3e3eaf7ff4f35842e526407d01f3ba49a7e99e77f6facf",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "sharika2024interpersonal",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1073/pnas.2313801121",
+  "title": "Interpersonal heart rate synchrony predicts effective information processing in a naturalistic group decision-making task"
+ },
+ {
+  "citekey": "fusaroli2014analyzing",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:?",
+  "source_url": "https://pure.au.dk/ws/files/89938143/2014_springer_maths_and_stats_analyzing_social_interactions.pdf",
+  "sha256": "719ef05f20e7d4a64f8287f64820eb3de27e635767585593b657cc6858b218e5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wallot2016multidimensional",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2016.01835/pdf",
+  "sha256": "4beab78ff9990ad3c7df8c9949552d3c2bde74f9a97895250bb54a3f28494d61",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "veerabhadrappa2021using",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1109/SysCon48628.2021.9447059",
+  "title": "Using Recurrence Quantification Analysis to Quantify the Physiological Synchrony in Dyadic ECG Data"
+ },
+ {
+  "citekey": "tomashin2022interpersonal",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2022.903407/pdf",
+  "sha256": "79f0031d0162d8b8987c45cb467e0b1952dbcdb52bc41041944f9ba78208c922",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hudson2023multisyncpy",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.3758/s13428-022-01855-y.pdf",
+  "sha256": "a7d012ba80f9e2787df5dc833014d9bc1913cba37338e756c6452f16b5ba58d8",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "hakim2023quantification",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.neuroimage.2023.120354",
+  "title": "Quantification of inter-brain coupling: A review of current methods used in haemodynamic and electrophysiological hyperscanning studies"
+ },
+ {
+  "citekey": "goldstein2025crossrecurrence",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1713357/pdf",
+  "sha256": "dea9b17886c3be9f38560503968740ae6d6d52f1f9b9d5e455dd77fad76bc2b5",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "algumaei2023physiological",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.3390/s23042268",
+  "title": "Physiological Synchrony Predict Task Performance and Negative Emotional State during a Three-Member Collaborative Task"
+ },
+ {
+  "citekey": "granger1969investigating",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.2307/1912791",
+  "title": "Investigating Causal Relations by Econometric Models and Cross-Spectral Methods"
+ },
+ {
+  "citekey": "barnett2009granger",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/0910.4514",
+  "sha256": "9b67c3020c9cc9b4d1032e76eca314c9052cd5d1033d795c5515663886c77cf1",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "vicente2011transfer",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://link.springer.com/content/pdf/10.1007/s10827-010-0262-3.pdf",
+  "sha256": "5721ebb6704b434f7e6f9db71c8adcbce5e1155521eabf5c01e007750b91bea4",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "amblard2011directed",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1002.1446",
+  "sha256": "5f9eb3e0389a4a3a6b393e35ee466d98032074d03437cca52b6fc3fc7ee42bc1",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "amblard2012relation",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1211.3169",
+  "sha256": "af530f33794a10984b98f03c4d6d22bf5a20de6546fd1e53000862b02e498fd3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "barnett2014mvgc",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1016/j.jneumeth.2013.10.018",
+  "title": "The MVGC Multivariate Granger Causality Toolbox: A New Approach to Granger-Causal Inference"
+ },
+ {
+  "citekey": "faes2014lagspecific",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1109/TBME.2014.2323131",
+  "title": "Lag-Specific Transfer Entropy as a Tool to Assess Cardiovascular and Cardiorespiratory Information Transfer"
+ },
+ {
+  "citekey": "novelli2019largescale",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.mitpressjournals.org/doi/pdf/10.1162/netn_a_00092",
+  "sha256": "8a66df8eaa4ba3387d5dbbedb255fd52375505bf35e17c8a51cee6a4c4e87f79",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "wollstadt2019idtxl",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://joss.theoj.org/papers/10.21105/joss.01081.pdf",
+  "sha256": "c98dfa1e553f139632a347427081ded0a12bb625c9348d2f7bd80e01ccd165b2",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "stramaglia2020local",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2010.13833",
+  "sha256": "2e211b79230262da396392a45768f0938db75138887125f1845133a082c6a5e3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "jizba2022causal",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2203.11407",
+  "sha256": "3230c899e552a1685b241f8c4d58392a7ea5a5538c0ef6049693a5be23d016ac",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "luxembourg2024treet",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2402.06919",
+  "sha256": "8182aece54c8d5dba28404eead130184f4405d2b1f0ab434582c52990ef5ffd6",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "takens1981detecting",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1007/BFb0091924",
+  "title": "Detecting Strange Attractors in Turbulence"
+ },
+ {
+  "citekey": "mccracken2014convergent",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/1407.5696",
+  "sha256": "c15a00684b4233b0a25b1d04f22cac1be37fb03d8f373e8ae9d76e4bfb1c60cf",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "clark2015spatial",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1890/14-1479.1",
+  "title": "Spatial convergent cross mapping to detect causal relationships from short time series"
+ },
+ {
+  "citekey": "ye2015distinguishing",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/srep14750.pdf",
+  "sha256": "fe474488b8b996dea1e0f22a63f317dee2edd2f9d5a1518891c474f701887144",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "leng2020partial",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.nature.com/articles/s41467-020-16238-0.pdf",
+  "sha256": "ed4287d5f3e1f20095cef90b1c35e0c110896a9b06565cc34b4cf55b0b4703cc",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "munch2023recent",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1111/2041-210X.13983",
+  "title": "Recent developments in empirical dynamic modelling"
+ },
+ {
+  "citekey": "benko2024detecting",
+  "status": "ACQUIRED",
+  "oa_source": "arxiv",
+  "source_url": "https://arxiv.org/pdf/2407.20694",
+  "sha256": "28bacf97b4276a3ea4d6f9622c338842efff46a6f7fb0484432a09caecc26907",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "krakovska2018comparison",
+  "status": "PAYWALLED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1103/PhysRevE.97.042207",
+  "title": "Comparison of Six Methods for the Detection of Causality in a Bivariate Time Series"
+ },
+ {
+  "citekey": "osada2023unified",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1101/2023.04.20.537743",
+  "title": "Unified Understanding of Nonparametric Causality Detection in Time Series"
+ },
+ {
+  "citekey": "deltatto2024robust",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1073/pnas.2317256121",
+  "title": "Robust Inference of Causality in High-Dimensional Dynamical Processes from the Information Imbalance of Distance Ranks"
+ },
+ {
+  "citekey": "docquier2024comparison",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://npg.copernicus.org/articles/31/115/2024/npg-31-115-2024.pdf",
+  "sha256": "308a6919b57cf1c58c68d1285a21650e459dafe46f24aeed705421efceaacb5e",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "suzuki2026advances",
+  "status": "OA-METADATA-ONLY",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": "10.1002/brv.70180",
+  "title": "Advances in Causal Discovery Methods for Ecological Time Series"
+ },
+ {
+  "citekey": "lizier2014jidt",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:publisher",
+  "source_url": "https://www.frontiersin.org/articles/10.3389/frobt.2014.00011/pdf",
+  "sha256": "5df89faa3fbc9069c6ee9f1319bac8f852de3bf6e6a18f4f63916da4d4f494cc",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ },
+ {
+  "citekey": "park2024redm",
+  "status": "UNRESOLVED",
+  "oa_source": null,
+  "source_url": null,
+  "sha256": null,
+  "doi": null,
+  "title": "rEDM: Empirical Dynamic Modeling ('EDM')"
+ },
+ {
+  "citekey": "amornbunchornvej2021variable",
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://arxiv.org/pdf/2002.00208",
+  "sha256": "e22d95abd959a722afa11ee293a03d8114887c6d7f6cbb2dcf404c2cf99e7fc3",
+  "retrieved": "2026-06-25",
+  "card": "true"
+ }
+]
