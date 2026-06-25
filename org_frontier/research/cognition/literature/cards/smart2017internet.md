@@ -1,0 +1,42 @@
+---
+citekey: smart2017internet
+title: Extended Cognition and the Internet
+authors: Smart, Paul R.
+year: 2017
+doi: 10.1007/s13347-016-0250-2
+arxiv: null
+journal: Philosophy \& Technology
+programs: [cognition]
+pdf_status: ACQUIRED
+source_basis: full-text
+oa_source: unpaywall:publisher
+source_url: https://link.springer.com/content/pdf/10.1007%2Fs13347-016-0250-2.pdf
+sha256: 4ba92e6fc09ec0d6e4146052b7f24c26072ebe2c76faac0050832d94584fc7d6
+pdf_path: literature/pdfs/smart2017internet.pdf
+verified: true
+generated_run: 2026-06-25
+---
+
+## Summary
+This is a review article surveying issues and controversies that arise when active externalist theorizing (extended cognition, the extended mind) is applied to the Internet, yielding the notion of "Internet-extended cognition"—the idea that the Internet can on occasion form part of an integrated material nexus that realizes human mental states and processes. The author's method is conceptual/philosophical analysis: he first clarifies the notion of a "Web-extended mind" (defined as a system that is both a Web-based system and an extended cognitive system) and tests whether the Web meets Clark and Chalmers' (1998) "trust and glue" criteria of availability, trust, and accessibility. He argues that focusing on the Internet (rather than technologically "low-grade" cases like Otto's notebook) reveals issues otherwise hidden, including the need to revise the availability criterion (since what matters is availability of information, not the device) and the difficulty of treating Web information as reliably "located." The review then highlights several issues weakly represented in the prior literature: network-extended cognitive bloat (worries about physically remote/distributed realizers), "conjoined minds" (a single online resource serving as a shared supervenience base for multiple individuals' mental states), extended knowledge (whether Internet-extended cognizers are "extended knowers" under virtue epistemology), socially extended cognition via the Social Web, and a novel form he calls "Human-Extended Machine Cognition" (HEMC), in which human agents form part of the realization base for machine-based cognitive processing. The overarching argument is that Internet-extended cognition is philosophically valuable precisely because it surfaces problems—and points of progress—that the low-grade cases tend to obscure.
+
+## Key facts it relies on
+- The paper defines a **Web-Extended Mind** as "an extended cognitive system whose processes supervene on a set of constituent material elements that includes one or more Web resources"; it is presented (Fig. 1) as a sub-type of both an extended cognitive system and a Web-based system, and therefore also a type of Internet-extended cognitive system.
+- It defines a **Web-Based System** as "any system in which at least some of the constituent elements are Web resources (i.e. resources that form part of the Web)," and the **World Wide Web** as a set of globally-distributed resources identified using URIs and accessed via HTTP.
+- It uses Clark's (2010b, p. 46) three "trust and glue" criteria from Clark and Chalmers (1998): the **Availability Criterion** (resource reliably available and typically invoked), the **Trust Criterion** (retrieved information more-or-less automatically endorsed, not usually subject to critical scrutiny, trusted like biological memory), and the **Accessibility Criterion** (information easily accessible as and when required).
+- The author argues the availability criterion needs revision: for a networked device (e.g. a smartphone), what matters is the availability of the online *information*, not of the *device*; a disconnected smartphone "might thus be next to useless" as an extended-mind resource, unlike Otto's notebook whose informational encodings are co-located with it.
+- On trust, the paper engages Clark's worry that Google-derived information is subject to critical evaluation, and Michaelian (2012a, p. 1156) who argues even bio-memory retrieval involves endorsement/rejection via retrieval-metamemory processes; it cites Clark (2015, p. 3770) conceding that *some* form of evaluative assessment is permissible for extended cognitive systems.
+- The paper introduces **conjoined minds** (Fig. 4): the idea that one online resource (e.g. a Wikipedia article) could serve as a shared bio-external supervenience base for the dispositional beliefs of multiple human individuals; it notes Halpin et al. (2010, p. 2) as one exception in a literature where the topic "has seldom been discussed."
+- On **extended knowledge**, using virtue reliabilism (Greco 2007; 2012), the author argues that Internet-extended cognizers are unlikely to qualify as "extended knowers," because the agent holding the extended dispositional belief typically plays no significant role in creating the material resources (e.g. Wikipedia/Google) on which the belief supervenes, and run-time retrieval yields *occurrent* (non-dispositional) beliefs realized by internal factors.
+- The paper introduces **Human-Extended Machine Cognition (HEMC)**: the idea that bidirectional "plug points" of contact with the Internet let human agents be co-opted into extended nexuses realizing machine-based cognitive processing—inverting the organism-centered view (Clark's HOC, 2008, p. 139: cognition is "organism centered even when it is not organism bound").
+- Worked examples include asking Siri "When was Charles Darwin born?" with the response "Charles Darwin was born the 12th February 1809" (Fig. 2), a forest tree-species/leaf-classification scenario using a head-mounted AR display querying linked data, and the VizWiz crowdsourcing system (Bigham et al. 2010) supporting blind users in near-real-time.
+
+## Critical notes from the literature
+- The paper is explicitly a **review/survey of issues and controversies**, not an empirical study; the author repeatedly flags that several key questions (e.g. whether Web users really endorse online information without critical scrutiny, and whether they vet it differently from neural information) "require empirical attention" and cannot be "resolved solely from the comfort of the philosophical armchair."
+- The author concedes the **cognitive bloat** objection (Allen-Hermanson 2013, p. 792) and a network-specific variant: the Internet's global, distributed nature raises worries about the physical (spatial) distribution of bio-external realizers (e.g. cloud storage "on the other side of the planet"), which the "spatial proximity criterion" addresses but only at the cost of ruling out Internet-extended cognition.
+- Several proposals are presented as **tentative and acknowledged as controversial/underdeveloped**: HEMC is described as warranting "a more detailed treatment than the one that can be offered here," with the main contested point being whether machines can be "cognitive" at all (computationalism, Piccinini 2012; computational functionalism, Polger 2009); claims about socially extended cognition "remain controversial" (Tollefsen 2006).
+- The author pushes back on optimistic "explosion of knowledge" claims (Ludwig 2015; Bjerring and Pedersen 2014, on "restricted epistemic omniscience"), arguing the move from extended cognition to *extended knowledge* is far less straightforward than assumed once virtue-theoretic constraints are imposed.
+- The work was funded under the SOCIAM project (EPSRC grant EP/J017728/1), situating it within Web Science / Web and Internet Science (WAIS); the author repeatedly calls for inter-disciplinary collaboration between philosophy of mind, cognitive science, and the WAIS community.
+
+## Key topics covered
+Extended cognition; extended mind; active externalism; Internet-extended cognition; Web-extended mind; World Wide Web / Web-based system; Web of Data / Linked Data / Semantic Web / Internet of Things; trust-and-glue criteria (availability, trust, accessibility); Otto's notebook thought experiment; cognitive bloat; network-extended cognitive bloat; spatial proximity criterion; cognitive cabling / information transfer; conjoined minds (shared supervenience bases); extended knowledge and virtue epistemology (virtue reliabilism); dispositional vs occurrent belief; socially extended cognition and the Social Web; intelligent personal assistants (Siri, Cortana); real-time crowdsourcing (VizWiz); Human-Extended Machine Cognition (HEMC); Hypothesis of Organism-Centred Cognition (HOC); machine cognition / computationalism; human computation and citizen science.
