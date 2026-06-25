@@ -118,6 +118,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [How this lab studies algorithmacy](org_frontier/essays/studying_algorithmacy.md)
 - [The interested third party: how a self-interested mediator changes the irreducibility of coordination](org_frontier/essays/the_interested_third_party.md)
 - [The Boolean corpus is a pre-disclosed prior catalog](org_frontier/essays/the_prior_catalog.md)
+- [What the six research lines found](org_frontier/essays/what_the_six_lines_found.md)
 
 ### Programs, syntheses & the open agenda
 
