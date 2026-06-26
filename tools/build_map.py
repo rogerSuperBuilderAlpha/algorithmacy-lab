@@ -95,6 +95,7 @@ def _row(label_link: str, gloss: str) -> str:
 # Curated entry documents, in reading order. Each row is emitted only if the file exists, so a
 # removed document drops out of the map.
 _ENTRY_DOCS = [
+    ("START_HERE.md", "Guided onboarding an AI assistant runs for a newcomer: from \"what is this?\" to a first computed verdict"),
     ("AGENTS.md", "Operating manual for agents: map, run/verify, git rule, land flow, done-checklist"),
     ("README.md", "What the lab is, the thesis, setup, and the full generated directory"),
     ("OVERVIEW.md", "Five-minute orientation: the argument, where it stands, where to contribute"),

@@ -10,6 +10,7 @@ Start here. The full directory lives in [`README.md`](README.md); the operating 
 
 | file | what it is |
 |---|---|
+| [`START_HERE.md`](START_HERE.md) | Guided onboarding an AI assistant runs for a newcomer: from "what is this?" to a first computed verdict |
 | [`AGENTS.md`](AGENTS.md) | Operating manual for agents: map, run/verify, git rule, land flow, done-checklist |
 | [`README.md`](README.md) | What the lab is, the thesis, setup, and the full generated directory |
 | [`OVERVIEW.md`](OVERVIEW.md) | Five-minute orientation: the argument, where it stands, where to contribute |
