@@ -257,12 +257,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (152)
+### Questions — the logbook (153)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 152 questions</summary>
+<summary>Browse all 153 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -418,6 +418,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q200](org_frontier/questions/q200_phi_bifactor_loadings/paper.md) | Φ_coord loads on the general algorithmacy factor, not a specific facet | On the simulated W2 cohort, Φ_coord loads on the general algorithmacy factor, not on a specific facet |
 | [Q201](org_frontier/questions/q201_phi_substitutability_capture/paper.md) | substitutability degrades Φ_coord and captures algorithmacy | Substitutability degrades Φ_coord, and the degraded Φ_coord captures the substitutability-to- |
 | [Q202](org_frontier/questions/q202_phi_bridge_falsification/paper.md) | Does the Φ-bridge survive its own falsification battery? | The Φ-bridge survives the worker-form-shuffle null in both simulated cohorts, and exact Φ adds |
+| [Q203](org_frontier/questions/q203_real_coordination_coupling/paper.md) | Reading a real coordination four ways | the lab's first real coordination, read four ways |
 
 </details>
 
