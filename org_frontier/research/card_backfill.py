@@ -42,19 +42,33 @@ def parse_bib(path):
     return out
 
 
+def global_carded():
+    """Every carded citekey and DOI across all programs. Dedup is global: a paper carded in one
+    program (the canonical owner of a cross-program reference) is not re-carded in another."""
+    ck, doi = set(), set()
+    for p in PROGRAMS:
+        for c in glob.glob(os.path.join(HERE, p, "literature", "cards", "*.md")):
+            ck.add(os.path.basename(c)[:-3])
+            m = re.search(r"^doi: (.+)$", open(c, encoding="utf-8").read(), re.M)
+            if m and m.group(1).strip() != "null":
+                doi.add(m.group(1).strip().lower())
+    return ck, doi
+
+
 def main():
     write = "--write" in sys.argv
     config = {}
     summary = {}
+    carded_ck, carded_doi = global_carded()
     for p in PROGRAMS:
         lit = os.path.join(HERE, p, "literature")
         entries = parse_bib(os.path.join(lit, "references.bib"))
-        carded = {os.path.basename(c)[:-3] for c in glob.glob(os.path.join(lit, "cards", "*.md"))}
         pdir = os.path.join(lit, "pdfs")
         newly = []
         for e in entries:
             ck = e["citekey"]
-            if ck in carded:
+            doi = (e.get("doi") or "").strip().lower()
+            if ck in carded_ck or (doi and doi in carded_doi):
                 continue
             if not (e.get("doi") or e.get("eprint")):
                 continue
@@ -70,6 +84,9 @@ def main():
                     open(dest, "wb").write(r["_data"])
                 e["_oa"] = (r.get("oa_source"), r.get("source_url"), r.get("sha256"))
             newly.append(e)
+            carded_ck.add(ck)  # within-run dedup: don't re-stage a shared paper for another program
+            if doi:
+                carded_doi.add(doi)
         summary[p] = len(newly)
         if newly and write:
             cards_abs = os.path.join(lit, "cards")

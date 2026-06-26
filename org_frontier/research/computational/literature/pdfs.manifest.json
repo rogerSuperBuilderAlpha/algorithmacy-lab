@@ -47,11 +47,11 @@
  {
   "citekey": "tononi2015here",
   "status": "ACQUIRED",
-  "oa_source": null,
-  "source_url": null,
+  "oa_source": "landing:repository",
+  "source_url": "http://consc.net/papers/combination.pdf",
   "sha256": "e7948184f9db70613d5dd8048436d640cd0ab1059018e979bd0d55772e40f8ee",
   "retrieved": "2026-06-25",
-  "card": "no-card"
+  "card": "true"
  },
  {
   "citekey": "hoel2013causal",
@@ -631,12 +631,14 @@
  },
  {
   "citekey": "riedl2021quantifying",
-  "status": "OA-METADATA-ONLY",
-  "oa_source": null,
-  "source_url": null,
-  "sha256": null,
+  "status": "ACQUIRED",
+  "oa_source": "landing:repository",
+  "source_url": "https://dspace.mit.edu/bitstreams/ced7cb70-89e2-40db-931f-65ea3291e9c5/download",
+  "sha256": "50d013c4cda9b81ac351d5735cc182bbbe3b73bc09bf867d38dc309e0ad48991",
   "doi": "10.1073/pnas.2005737118",
-  "title": "Quantifying collective intelligence in human groups"
+  "title": "Quantifying collective intelligence in human groups",
+  "retrieved": "2026-06-25",
+  "card": "true"
  },
  {
   "citekey": "oizumi2014from",
@@ -1206,6 +1208,6 @@
   "source_url": "https://arxiv.org/pdf/1909.07393",
   "sha256": "9d609c97f2b2441df724854ab38b4aadf2c40715201e592001d60aa2b53144c4",
   "retrieved": "2026-06-25",
-  "card": "no-card"
+  "card": "true"
  }
 ]
