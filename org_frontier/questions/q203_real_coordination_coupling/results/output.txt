@@ -1,0 +1,22 @@
+PROBE 307 (Q203) — directed-coupling head-to-head on a REAL two-party coordination
+============================================================================================
+  CONTROL linear AR X->Y: TE/Granger read X->Y=True; logistic X->Y: CCM reads X->Y=True  -> PASS
+
+  REAL data: handmovement (LEGO joint construction), P1 vs P2 dominant-hand transfer, n=5799
+  CRQA (symmetric):  %REC=4.96  %DET=59.8
+  Transfer entropy:  P1->P2=0.0248  P2->P1=0.0327 bits  (surrogate p=0.078)
+  Granger F:         P1->P2=1.15    P2->P1=3.03        (surrogate p=0.510)
+  CCM rho:           P1xmapP2=0.104  P2xmapP1=0.057      (surrogate p=0.235)
+
+  directionality: {'TE': 'P2->P1', 'Granger': 'P2->P1', 'CCM': 'P2->P1'}
+  significant coupling (p<.05 vs surrogate): {'TE': False, 'Granger': False, 'CCM': False}
+============================================================================================
+  H1 (all three directed measures reach significance vs surrogate): NOT SUPPORTED
+  H2 (the directed measures agree on direction): SUPPORTED  (all P2->P1)
+  Reading: CRQA reads strong symmetric recurrent structure (%DET ~60%), so the coordination is
+  genuinely structured. The three directed measures agree in sign (all P2->P1) yet none clears the
+  circular-shift surrogate at p<.05. On this real dyad the directional signal is consistent but
+  weak: a single behavioral measure would not confidently call the direction even where the three
+  agree. This is the real-data face of the synthetic null (q153-162) — behavioral coupling does not
+  confidently recover a directional coordination verdict, here because the signal sits below
+  significance rather than because the measures contradict each other.
