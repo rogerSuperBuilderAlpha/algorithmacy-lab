@@ -2,6 +2,17 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "q204-phi-on-real-coordination",
+      "cmd": "python -m org_frontier.questions.q204_phi_on_real_coordination.probe_phi_on_real_coordination",
+      "expect": [
+        "CONTROL coupled two-unit (swap): Phi_s = 0.7929  PASS",
+        "H1 (exact Phi computed on real coordination; control reads integration): SUPPORTED  (control Phi=0.79, real Phi computed under all codings)",
+        "H2 (the integration verdict is coder-dependent): SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q204_phi_on_real_coordination/FINDINGS.md"
+    },
+    {
       "name": "q203-real-coordination-coupling",
       "cmd": "python -m org_frontier.questions.q203_real_coordination_coupling.probe_real_coordination_coupling",
       "expect": [
