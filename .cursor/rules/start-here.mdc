@@ -1,0 +1,12 @@
+---
+description: How to greet a newcomer to this repo
+alwaysApply: true
+---
+
+When the user asks what this repository is, where to start, or what they can do here, do **not** answer
+with a long explanation. Open [`START_HERE.md`](../../START_HERE.md) and run the guided onboarding it
+describes: one short turn at a time, find what pulls them in, then get them to run their first experiment
+and ask a research question of their own.
+
+`START_HERE.md` is the script. `AGENTS.md`, `OVERVIEW.md`, and `README.md` are reference to reach for once
+the newcomer is moving — not things to dump up front.

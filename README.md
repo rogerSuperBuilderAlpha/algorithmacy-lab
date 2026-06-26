@@ -7,6 +7,10 @@ An open computational lab that applies **exact integrated information** (Φ, fro
 > **New here? Start with [`OVERVIEW.md`](OVERVIEW.md)** — a five-minute, honest review of what the lab
 > argues, where it actually stands (including what is recovered from other fields and what is genuinely
 > new), and where you could contribute. The directory below is the map; the overview is the orientation.
+>
+> **Exploring with an AI assistant (Cursor, Claude Code)?** Ask it *"what is this and where do I start?"* —
+> it follows [`START_HERE.md`](START_HERE.md), a guided onboarding that gets you to your first computed
+> Φ verdict and your own research question in about fifteen minutes.
 
 The thesis it tests: a coordination form is **dyadic** when its cause-effect structure factors into
 independent pieces (it demands *literacy*), and **triadic** when the structure stays irreducible across
