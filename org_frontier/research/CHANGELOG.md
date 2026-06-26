@@ -2,6 +2,23 @@
 
 A dated entry per refresh: the papers added and removed per program and the new source counts. Newest first.
 
+## 2026-06-26 — sweep
+
+The recency window opened the day after the previous run, so each program's seed question was searched only
+for work dated after 2026-06-25. The searchable corpus still does not reach that window — the academic index
+reports its freshness as May 2026 and the web passes surfaced only pre-window material — so nothing dated
+after the previous run was available to verify or append. No fabricated entry filled the gap. Run dates were
+bumped to 2026-06-26 and the bibliographies left unchanged.
+
+- **computational** — +0; bibliography 138.
+- **field** — +0; bibliography 120.
+- **qualitative** — +0; bibliography 125.
+- **recurrence** — +0; bibliography 108.
+- **survey** — +0; bibliography 136.
+- **cognition** — +0; bibliography 146.
+
+**Total: +0 added; 773 entries across the six programs, sweep 2026-06-26.**
+
 ## 2026-06-25 — deep research (cross-track concepts)
 
 A deep, non-recency-bounded pass on the ten concepts the six tracks share (see
