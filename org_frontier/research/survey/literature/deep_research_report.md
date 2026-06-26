@@ -1,4 +1,4 @@
-<!-- run: 2026-06-25 | sources: 136 | verified: 136 -->
+<!-- run: 2026-06-26 | sources: 136 | verified: 136 -->
 Deep-research run, 2026-06-23. 9 search angles, 25 sources, 25 verified.
 
 ## 1. Psychometric scale-development frameworks
