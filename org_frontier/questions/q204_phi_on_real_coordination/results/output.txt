@@ -1,0 +1,21 @@
+PROBE 308 (Q204) — exact Phi on a REAL coordination, coder-dependence of the verdict
+============================================================================================
+  CONTROL coupled two-unit (swap): Phi_s = 0.7929  PASS
+
+  REAL data: eyemovement (Richardson & Dale 2005), narrator vs listener gaze, n=2000
+  exact Phi at the most-visited state, with a 60-sample bootstrap CI over the estimated TPM:
+
+  per-person mode-region       Phi_s=0.0004  95% CI [-0.0088, +0.0038]  -> reducible (CI includes 0)
+  per-person lower-half        Phi_s=0.0095  95% CI [-0.0013, +0.0212]  -> reducible (CI includes 0)
+  folded joint (same region)   Phi_s=0.5256  95% CI [+0.5154, +0.5334]  -> INTEGRATED (CI excludes 0)
+
+============================================================================================
+  H1 (exact Phi computed on real coordination; control reads integration): SUPPORTED  (control Phi=0.79, real Phi computed under all codings)
+  H2 (the integration verdict is coder-dependent): SUPPORTED
+  Reading: exact Phi can be computed on a real coordination. At the one-step grain the gaze streams
+  factorize under honest per-person codings (Phi ~ 0, CI includes 0): each person's next gaze is
+  driven by their own persistence, and the real narrator-leads-listener coupling is lagged, which a
+  one-step Phi does not see. A coding that folds the joint state into both units manufactures a high
+  Phi (CI excludes 0) from the same data. The integration verdict on real coordination is decided by
+  the coding choice, not the raw data — the field bridge's coder-dependence (q178, q180), outside
+  synthetic data, with the folded coding as a concrete cautionary artifact.
