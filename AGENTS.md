@@ -1,5 +1,9 @@
 # AGENTS.md — operating manual for agents working in this repo
 
+> **Helping a newcomer who just opened this repo?** If they ask what this is, where to start, or what they
+> can do, do not explain at length — open [`START_HERE.md`](START_HERE.md) and run the guided onboarding
+> it scripts. This file is for operating *inside* the repo once they are moving.
+
 How to navigate the lab, run it, verify a change, and land it. This is the tool-agnostic entry point for
 any coding agent. Three files divide the work and cross-reference each other:
 
