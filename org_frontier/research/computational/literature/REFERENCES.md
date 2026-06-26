@@ -4,12 +4,13 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**85 cards.**
+**88 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
 | aguilera2019integrated | Integrated information in the thermodynamic limit | 2019 | ACQUIRED | true | [card](cards/aguilera2019integrated.md) |
 | albantakis2014animats | Evolution of Integrated Causal Structures in Animats Exposed to Environments of Increas… | 2014 | ACQUIRED | writer-grounded | [card](cards/albantakis2014animats.md) |
+| albantakis2020macro | A macro agent and its actions | 2020 | ACQUIRED | true | [card](cards/albantakis2020macro.md) |
 | albantakis2023iit4 | Integrated information theory ({IIT}) 4.0: Formulating the properties of phenomenal exi… | 2023 | ACQUIRED | true | [card](cards/albantakis2023iit4.md) |
 | albantakis2023iit40 | Integrated Information Theory (IIT) 4.0: Formulating the Properties of Phenomenal Exist… | 2023 | ACQUIRED | writer-grounded | [card](cards/albantakis2023iit40.md) |
 | antunes2024reproducibility | Reproducibility, Replicability and Repeatability: A survey of reproducible research wit… | 2024 | ACQUIRED | true | [card](cards/antunes2024reproducibility.md) |
@@ -71,6 +72,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | pacherie2011framing | Framing Joint Action | 2011 | ACQUIRED | true | [card](cards/pacherie2011framing.md) |
 | pineau2021improving | Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 … | 2021 | ACQUIRED | true | [card](cards/pineau2021improving.md) |
 | reveille2025trajectories | Trajectories of interbrain synchrony during teamwork: links with team composition and p… | 2025 | ACQUIRED | true | [card](cards/reveille2025trajectories.md) |
+| riedl2021quantifying | Quantifying collective intelligence in human groups | 2021 | ACQUIRED | true | [card](cards/riedl2021quantifying.md) |
 | riedl2025emergent | Emergent Coordination in Multi-Agent Language Models | 2025 | ACQUIRED | true | [card](cards/riedl2025emergent.md) |
 | rosas2019quantifying | Quantifying high-order interdependencies via multivariate extensions of the mutual info… | 2019 | ACQUIRED | true | [card](cards/rosas2019quantifying.md) |
 | rosas2020reconciling | Reconciling emergences: An information-theoretic approach to identify causal emergence … | 2020 | ACQUIRED | true | [card](cards/rosas2020reconciling.md) |
@@ -84,6 +86,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | toker2019information | Information integration in large brain networks | 2019 | ACQUIRED | true | [card](cards/toker2019information.md) |
 | tononi2003measuring | Measuring information integration | 2003 | ACQUIRED | true | [card](cards/tononi2003measuring.md) |
 | tononi2004information | An Information Integration Theory of Consciousness | 2004 | ACQUIRED | true | [card](cards/tononi2004information.md) |
+| tononi2015here | Consciousness: Here, There and Everywhere? | 2015 | ACQUIRED | true | [card](cards/tononi2015here.md) |
 | tononi2016iit | Integrated information theory: from consciousness to its physical substrate | 2016 | ACQUIRED | true | [card](cards/tononi2016iit.md) |
 | tsur2024treet | TREET: TRansfer Entropy Estimation via Transformers | 2024 | ACQUIRED | true | [card](cards/tsur2024treet.md) |
 | unknown2019reproducibility | Reproducibility and Replicability in Science | 2019 | ACQUIRED | true | [card](cards/unknown2019reproducibility.md) |

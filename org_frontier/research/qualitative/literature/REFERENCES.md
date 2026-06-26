@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**23 cards.**
+**25 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -13,6 +13,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | alfrink2022contestable | Contestable AI by Design: Towards a Framework | 2022 | ACQUIRED | writer-grounded | [card](cards/alfrink2022contestable.md) |
 | amin2020establishing | Establishing Trustworthiness and Authenticity in Qualitative Pharmacy Research | 2020 | ACQUIRED | true | [card](cards/amin2020establishing.md) |
 | brown2025transferability | Transferability in Three Dimensions (3D): Applicability, Theoretical Engagement, and Re… | 2025 | ACQUIRED | true | [card](cards/brown2025transferability.md) |
+| busuioc2020accountable | Accountable Artificial Intelligence: Holding Algorithms to Account | 2020 | ACQUIRED | true | [card](cards/busuioc2020accountable.md) |
 | cheon2025fulfillment | Fulfillment of the Work Games: Warehouse Workers' Experiences with Algorithmic Management | 2025 | ACQUIRED | true | [card](cards/cheon2025fulfillment.md) |
 | christin2020ethnographer | The Ethnographer and the Algorithm: Beyond the Black Box | 2020 | ACQUIRED | true | [card](cards/christin2020ethnographer.md) |
 | cofie2022eight | Eight ways to get a grip on intercoder reliability using qualitative-based measures | 2022 | ACQUIRED | true | [card](cards/cofie2022eight.md) |
@@ -30,4 +31,5 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | tajik2026disagreement | Disagreement as Data: Reasoning Trace Analytics in Multi-Agent Systems | 2026 | ACQUIRED | true | [card](cards/tajik2026disagreement.md) |
 | ulbricht2021algorithmic | Algorithmic regulation: A maturing concept for investigating regulation of and through … | 2021 | ACQUIRED | true | [card](cards/ulbricht2021algorithmic.md) |
 | uma2021learning | Learning from Disagreement: A Survey | 2021 | ACQUIRED | true | [card](cards/uma2021learning.md) |
+| xiang2025judging | Judging in the Dark: How Delivery Riders Form Fairness Perceptions Under Algorithmic Ma… | 2025 | ACQUIRED | true | [card](cards/xiang2025judging.md) |
 | ye2026reflexis | Reflexis: Supporting Reflexivity and Rigor in Collaborative Qualitative Analysis throug… | 2026 | ACQUIRED | true | [card](cards/ye2026reflexis.md) |

@@ -892,12 +892,14 @@
  },
  {
   "citekey": "osada2023unified",
-  "status": "OA-METADATA-ONLY",
-  "oa_source": null,
-  "source_url": null,
-  "sha256": null,
+  "status": "ACQUIRED",
+  "oa_source": "unpaywall:repository",
+  "source_url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/13/2023.04.20.537743.full.pdf",
+  "sha256": "a0f8fa967be8060dda28ff8f58217fa49e072e497ae77a011a4cfd35c2132b55",
   "doi": "10.1101/2023.04.20.537743",
-  "title": "Unified Understanding of Nonparametric Causality Detection in Time Series"
+  "title": "Unified Understanding of Nonparametric Causality Detection in Time Series",
+  "retrieved": "2026-06-25",
+  "card": "true"
  },
  {
   "citekey": "deltatto2024robust",
