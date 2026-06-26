@@ -14,6 +14,7 @@ kept current.
   per-track counts, so the history of what the watch caught is legible at a glance.
 - [`DAILY_REFRESH.md`](DAILY_REFRESH.md) — the playbook the daily run follows: the six seed questions, the
   research and verification procedure, and how the outputs are written and landed.
+- [`DATA_SOURCES.md`](DATA_SOURCES.md) — where the community can get real data for the empirical questions: verified open datasets and repositories per research line, with the runnable-now starting points flagged.
 - [`CROSS_TRACK_CONCEPTS.md`](CROSS_TRACK_CONCEPTS.md) — the ten concepts the six tracks share, read off the
   per-paper reference cards (`*/literature/cards/`, indexed by each program's `REFERENCES.md`).
 - Per-paper **reference cards** under `<program>/literature/cards/<citekey>.md` — a summary, the key facts,
