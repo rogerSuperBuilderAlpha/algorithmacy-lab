@@ -1,4 +1,4 @@
-<!-- run: 2026-06-25 | sources: 125 | verified: 125 -->
+<!-- run: 2026-06-26 | sources: 125 | verified: 125 -->
 Deep-research run, 2026-06-23. 8 search angles, 24 sources, 24 verified.
 
 ## 1. Methodological foundations for interpretive organizational research
