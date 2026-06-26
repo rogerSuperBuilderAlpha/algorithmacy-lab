@@ -4,7 +4,7 @@
 
 Per-paper annotation cards: summary, key facts, critical notes, and topics, each grounded in the paper's open-access full text. PDFs are gitignored; see [`pdfs.manifest.json`](pdfs.manifest.json) for acquisition status of every reference.
 
-**20 cards.**
+**21 cards.**
 
 | citekey | title | year | status | verified | card |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@ Per-paper annotation cards: summary, key facts, critical notes, and topics, each
 | duguay2018patchwork | Queer women's experiences of patchwork platform governance on Tinder, Instagram, and Vine | 2020 | ACQUIRED | true | [card](cards/duguay2018patchwork.md) |
 | geiger2017blackbox | Beyond Opening Up the Black Box: Investigating the Role of Algorithmic Systems in Wikip… | 2017 | ACQUIRED | true | [card](cards/geiger2017blackbox.md) |
 | glaser1967discovery | The Discovery of Grounded Theory: Strategies for Qualitative Research | 1967 | ACQUIRED | true | [card](cards/glaser1967discovery.md) |
+| gyles2025integrated | An integrated intuitive and deliberative model of expert decision-making in air traffic… | 2025 | ACQUIRED | true | [card](cards/gyles2025integrated.md) |
 | jarrahi2021algorithmic | Algorithmic management in a work context | 2021 | ACQUIRED | true | [card](cards/jarrahi2021algorithmic.md) |
 | lipton2018mythos | The mythos of model interpretability | 2018 | ACQUIRED | true | [card](cards/lipton2018mythos.md) |
 | marzi2024kalpha | K-Alpha Calculator--Krippendorff's Alpha Calculator: A user-friendly tool for computing… | 2024 | ACQUIRED | true | [card](cards/marzi2024kalpha.md) |

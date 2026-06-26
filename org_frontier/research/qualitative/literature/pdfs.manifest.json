@@ -906,7 +906,7 @@
   "source_url": "https://www.annualreports.co.uk/HostedData/AnnualReportArchive/d/LSE_ROO_2022.pdf",
   "sha256": "7a2adb6ce9d209d6832252f7e565c3715d4873c9e2590f0180fc154fc9836c4c",
   "retrieved": "2026-06-25",
-  "card": "no-card"
+  "card": "true"
  },
  {
   "citekey": "srinivasan2021algorithms",
@@ -1041,7 +1041,7 @@
   "source_url": "http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf",
   "sha256": "e9e6d944715d14b03c383b1e1e2f4f7aa7ffaa9bd610708bd06645f03c64e7fa",
   "retrieved": "2026-06-25",
-  "card": "no-card"
+  "card": "true"
  },
  {
   "citekey": "ulbricht2021algorithmic",

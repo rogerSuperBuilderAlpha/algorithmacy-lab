@@ -32,3 +32,6 @@ org_frontier/**/results/*.log
 # Dissertation: a separate, private repo nested here — kept local, never tracked by this repo
 dissertation/
 *.m4a
+
+# transient staging file from card_backfill.py --write
+org_frontier/research/backfill_cards_config.json
