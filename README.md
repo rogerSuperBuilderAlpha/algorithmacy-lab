@@ -262,12 +262,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (161)
+### Questions — the logbook (162)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 161 questions</summary>
+<summary>Browse all 162 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -432,6 +432,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q209](org_frontier/questions/q209_commit_period/paper.md) | Only synchronous commitment binds: the commit-period sweep | The conjunctive triad with its mediator gated by a mod-p counter, swept the commit period p = 1, 2, 3, 4 |
 | [Q210](org_frontier/questions/q210_shared_counterpart/paper.md) | A shared counterpart does not merge two triads | Two conjunctive triads sharing one counterpart C, with the counterpart's update bridging the two mediators |
 | [Q211](org_frontier/questions/q211_direct_mediator_channel/paper.md) | A direct mediator channel merges two triads | Two complete conjunctive triads, joined only by a direct channel between their two mediators (S1 reads S2, |
+| [Q212](org_frontier/questions/q212_channel_location/paper.md) | The merging channel must run between the mediators | The same single AND cross-triad channel moved across three homologous node pairs — mediator (the q211 |
 
 </details>
 
