@@ -17,13 +17,22 @@ switch and a finer p-grid.
   that is not the node itself and not already an input (in-degree 2 preserved). Identical to q146's
   `rewire`.
 
-## Sweep
-- **Conjunctive grid** (locating the inflection): p ∈ {0.0, 0.1, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1.0}.
-  q146's points are included for continuity; the added points are the interior of (0.25, 0.5).
-- **Parity grid**: p ∈ {0.0, 0.1, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1.0}.
-- p=0 is the single deterministic lattice; every p>0 averages three seeds (BASE_SEED offset per (coupling,
-  p, seed) so each draws an independent stream). Per network: whole-system verdict, max Φ_MIP, and the
-  major complex (core, core Φ).
+## Sweep (as run)
+- **Conjunctive grid**: p ∈ {0.0, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 1.0}, five seeds per stochastic point.
+  The added points fill the interior of q146's unresolved (0.25, 0.5).
+- **Parity grid**: p ∈ {0.0, 0.35, 1.0}, one seed per stochastic point. p=0.35 is the conjunctive collapse
+  point, chosen for the decisive coupling comparison; p=1.0 is the disorder extreme.
+- p=0 is the single deterministic lattice; every p>0 draws a seeded rewiring (BASE_SEED + a per-(coupling,
+  p, seed) offset so each draws an independent stream). Per network: whole-system verdict and max Φ_MIP.
+
+**Deviation from pre-registration (compute-driven, documented).** The Stage-3 methods specified a nine-point
+grid and three seeds for *both* couplings, and the whole-system major complex per network. Two costs forced
+a reduction discovered only at run time: a parity (XOR) ring at n=6 costs ≈ 416 s per exact-Φ evaluation
+(vs ≈ 26 s conjunctive), so a full parity sweep is infeasible in this environment; and `major_complex` is
+not needed by any hypothesis here, so it is dropped. The conjunctive arm therefore runs the fuller grid at
+five seeds, and the parity arm runs three diagnostic points at one seed. The hypotheses are unchanged; the
+parity arm's coarseness is itself a reported result (the cost asymmetry) and the finer parity grid is left
+as an open edge.
 
 ## Instrument control (run first)
 The faithful triad `[x1, x0&x2, x1]` must read triadic at Φ_MIP = 2.000000 before any sweep number is

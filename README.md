@@ -261,12 +261,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (155)
+### Questions — the logbook (156)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 155 questions</summary>
+<summary>Browse all 156 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -425,6 +425,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q203](org_frontier/questions/q203_real_coordination_coupling/paper.md) | Reading a real coordination four ways | the lab's first real coordination, read four ways |
 | [Q204](org_frontier/questions/q204_phi_on_real_coordination/paper.md) | Exact Φ on a real coordination, decided by the coding | exact Φ on a real coordination, decided by the coding |
 | [Q205](org_frontier/questions/q205_latency_feedback/paper.md) | Representing the delay: when one-step Φ misses lagged coordination | The integrated conjunctive triad keeps its triadic verdict when a one-step delay is inserted as a buffer |
+| [Q206](org_frontier/questions/q206_ring_parity_rewire/paper.md) | Coupling sets the rewiring response: a parity ring resists what a conjunctive ring cannot | Six-node rings under in-degree-2 Watts-Strogatz rewiring, exact IIT-4.0 Φ_MIP. Conjunctive (AND) ring on |
 
 </details>
 

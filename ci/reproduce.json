@@ -2,6 +2,19 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "q206-ring-parity-rewire",
+      "cmd": "python -m org_frontier.questions.q206_ring_parity_rewire.probe_ring_parity_rewire --ci",
+      "expect": [
+        "H1 control faithful triad: triadic Φ=2.000000 PASS",
+        "conjunctive p=0.00  Φ=4.0000  verdict=triadic",
+        "conjunctive p=0.30  Φ=1.0000  verdict=triadic",
+        "conjunctive p=0.35  Φ=0.0000  verdict=dyadic",
+        "H2 conjunctive: p=0.30 triadic then p=0.35 DYADIC — a dyadic window the q146 grid missed"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q206_ring_parity_rewire/FINDINGS.md"
+    },
+    {
       "name": "event-crqa-behavioral-gate",
       "cmd": "python org_frontier/recurrence/event_crqa/analyze_crqa.py",
       "expect": [
