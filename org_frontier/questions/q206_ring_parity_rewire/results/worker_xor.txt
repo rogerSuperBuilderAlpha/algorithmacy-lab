@@ -1,0 +1,6 @@
+PROBE 360 (Q206) — parity vs conjunctive ring under rewiring (n=6)
+======================================================================================
+  --- xor ring (cached to /Users/ludwitt/iit-playground/pyphi-experiments/org_frontier/questions/q206_ring_parity_rewire/results/rows_xor.json) ---
+    p=0.00  meanΦ=0.5000  verdicts=triadic
+    p=0.35  meanΦ=0.2500  verdicts=triadic
+    p=1.00  meanΦ=1.0000  verdicts=triadic

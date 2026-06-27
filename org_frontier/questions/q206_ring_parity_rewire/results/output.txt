@@ -1,0 +1,23 @@
+PROBE 360 (Q206) — parity vs conjunctive ring under rewiring (n=6)
+======================================================================================
+  H1 control faithful triad: triadic Φ=2.000000 PASS
+  --- conjunctive ring ---
+    p=0.00  meanΦ=4.0000  verdicts=triadic
+    p=0.25  meanΦ=2.0000  verdicts=triadic,triadic
+    p=0.30  meanΦ=1.0000  verdicts=triadic,triadic
+    p=0.35  meanΦ=0.0000  verdicts=dyadic,dyadic
+    p=0.40  meanΦ=0.0000  verdicts=dyadic,dyadic
+    p=0.45  meanΦ=2.7075  verdicts=triadic,triadic
+    p=0.50  meanΦ=2.6226  verdicts=triadic,triadic
+    p=1.00  meanΦ=1.0000  verdicts=triadic,dyadic
+  --- parity ring ---
+    p=0.00  meanΦ=0.5000  verdicts=triadic
+    p=0.35  meanΦ=0.2500  verdicts=triadic
+    p=1.00  meanΦ=1.0000  verdicts=triadic
+======================================================================================
+  conjunctive first-dyadic p = 0.35 ; parity first-dyadic p = None ; parity p0 Φ = 0.5000
+  H2 (conjunctive verdict inflects in (0.25,0.5), Φ monotone): REFUTED
+  H3 (parity ring starts at Φ != 4.0): SUPPORTED
+  H4 (parity also declines under rewiring): REFUTED
+  H5 (parity holds its verdict to a higher p than conjunctive): SUPPORTED
+======================================================================================
