@@ -2,6 +2,35 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "event-crqa-behavioral-gate",
+      "cmd": "python org_frontier/recurrence/event_crqa/analyze_crqa.py",
+      "expect": [
+        "coupling centrality: merge=0.241, author=0.182, review=0.059",
+        "merge centrality 0.241 vs shuffle null mean 0.035  p=0.0005",
+        "bH1 (merge is the behavioral hub, beats shuffle null): SUPPORTED",
+        "bH2 (the gate does not lead: author/review lags >= 0): SUPPORTED",
+        "bH3 (author-merge is the highest-determinism pair): REFUTED",
+        "bH4 (the behaviorally-central role is the structural gate, merge): SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/recurrence/event_crqa/FINDINGS.md"
+    },
+    {
+      "name": "q205-latency-feedback",
+      "cmd": "python -m org_frontier.questions.q205_latency_feedback.probe_latency_feedback",
+      "expect": [
+        "H1 control  F0 immediate triad     : triadic  Φ=2.000  PASS",
+        "H2 represented latency  F1 (n=4)    : triadic  Φ=1.000",
+        "H3 major complex of F1             : core=('S', 'C', 'B')  Φ=2.000  (B in core: True)",
+        "H2 (represented latency stays triadic): SUPPORTED",
+        "H3 (the delay node B is in the core): SUPPORTED",
+        "H4 (hidden latency hides integration: F2 dyadic, F1 triadic): SUPPORTED",
+        "H5 (estimation alone preserves integration: estF0 triadic): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q205_latency_feedback/FINDINGS.md"
+    },
+    {
       "name": "q204-phi-on-real-coordination",
       "cmd": "python -m org_frontier.questions.q204_phi_on_real_coordination.probe_phi_on_real_coordination",
       "expect": [
