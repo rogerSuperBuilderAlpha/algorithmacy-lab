@@ -2,6 +2,21 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "q207-slow-mediator",
+      "cmd": "python -m org_frontier.questions.q207_slow_mediator.probe_slow_mediator",
+      "expect": [
+        "H1 control  F0 synchronous triad : triadic Φ=2.000000 PASS",
+        "F_slow half-rate mediator        : dyadic Φ=0.000",
+        "F_slow major complex             : core=('K',) Φ=1.000",
+        "H2 (half-rate mediator keeps {W,S,C} in the core): REFUTED",
+        "H3 (the gating clock K is a spectator, not in the core): REFUTED",
+        "H4 (half-rate mediation lowers core Φ below 2.0): SUPPORTED",
+        "H5 (a never-committing mediator factors): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q207_slow_mediator/FINDINGS.md"
+    },
+    {
       "name": "q206-ring-parity-rewire",
       "cmd": "python -m org_frontier.questions.q206_ring_parity_rewire.probe_ring_parity_rewire --ci",
       "expect": [

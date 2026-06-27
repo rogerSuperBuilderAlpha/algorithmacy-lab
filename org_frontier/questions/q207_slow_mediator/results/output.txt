@@ -1,0 +1,12 @@
+PROBE 361 (Q207) — half-rate mediator and the triad
+==============================================================================
+  H1 control  F0 synchronous triad : triadic Φ=2.000000 PASS
+  F_slow half-rate mediator        : dyadic Φ=0.000
+  F_slow major complex             : core=('K',) Φ=1.000
+  F_held frozen mediator           : dyadic Φ=0.000  core=('K',) Φ=1.000
+==============================================================================
+  H2 (half-rate mediator keeps {W,S,C} in the core): REFUTED
+  H3 (the gating clock K is a spectator, not in the core): REFUTED
+  H4 (half-rate mediation lowers core Φ below 2.0): SUPPORTED
+  H5 (a never-committing mediator factors): SUPPORTED
+==============================================================================
