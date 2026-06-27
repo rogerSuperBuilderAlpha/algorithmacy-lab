@@ -113,6 +113,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Committee panel review — "Integrated information as a cooperative game"](org_frontier/essays/cooperative_game_committee_review.md)
 - [The seam carries what the scalar drops: a review of the floor-to-seam program (Q45–Q62)](org_frontier/essays/floor_to_seam_review.md)
 - [What integrated information adds to the theories of coordinating minds](org_frontier/essays/integrated_information_and_coordinating_minds.md)
+- [Lateness and intermittency: how a mediator's timing shapes irreducibility](org_frontier/essays/lateness_and_intermittency.md)
 - [Literacy or Algorithmacy? Borrowing a Consciousness Measure to Read an Org Chart](org_frontier/essays/literacy_or_algorithmacy.md)
 - [Market structure, regulation, and time in interested mediation](org_frontier/essays/market_structure_of_interested_mediation.md)
 - [Mediated, or Irreducible? When the Third Party Is Constitutive and When It Is a Conduit](org_frontier/essays/mediated_or_irreducible.md)
