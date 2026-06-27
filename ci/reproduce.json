@@ -2,6 +2,20 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "q210-shared-counterpart",
+      "cmd": "python -m org_frontier.questions.q210_shared_counterpart.probe_shared_counterpart",
+      "expect": [
+        "H1 control  single triad : triadic Φ=2.000000 PASS",
+        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=('W2', 'S2') coreΦ=2.000",
+        "bridge=none  dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C') coreΦ=2.000",
+        "H2 (AND bridge merges both mediators into one core): REFUTED",
+        "H4 (merging two triads is super-additive, core Φ > 2.0): REFUTED",
+        "H5 (AND bridge core Φ > OR bridge core Φ): REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q210_shared_counterpart/FINDINGS.md"
+    },
+    {
       "name": "q209-commit-period",
       "cmd": "python -m org_frontier.questions.q209_commit_period.probe_commit_period",
       "expect": [
