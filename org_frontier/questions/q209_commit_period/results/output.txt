@@ -1,0 +1,14 @@
+PROBE 363 (Q209) — is rate-1 the unique binding cadence?
+================================================================================
+  H1 control  F_1 synchronous triad : triadic Φ=2.000000 PASS
+  p=1 (n=3)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C') coreΦ=2.000
+  p=2 (n=4)  dyadic   wholeΦ_MIP=0.0000  core=('K',) coreΦ=1.000
+  p=3 (n=5)  dyadic   wholeΦ_MIP=0.0000  core=('c0',) coreΦ=1.000
+  p=4 (n=5)  dyadic   wholeΦ_MIP=0.0000  core=('c1',) coreΦ=1.000
+================================================================================
+  surviving core Φ by period p=2,3,4: 1.000, 1.000, 1.000
+  H2 (rate-1 is the unique binding cadence: p>=2 all dyadic): SUPPORTED
+  H3 (the triad leaves the core at every p>=2): SUPPORTED
+  H4 (the surviving counter's Φ is non-decreasing in period): SUPPORTED
+  H5 (whole-system Φ_MIP is zero at every p>=2): SUPPORTED
+================================================================================

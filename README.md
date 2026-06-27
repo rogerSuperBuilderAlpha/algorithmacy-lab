@@ -261,12 +261,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (158)
+### Questions — the logbook (159)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 158 questions</summary>
+<summary>Browse all 159 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -428,6 +428,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q206](org_frontier/questions/q206_ring_parity_rewire/paper.md) | Coupling sets the rewiring response: a parity ring resists what a conjunctive ring cannot | Six-node rings under in-degree-2 Watts-Strogatz rewiring, exact IIT-4.0 Φ_MIP. Conjunctive (AND) ring on |
 | [Q207](org_frontier/questions/q207_slow_mediator/paper.md) | Commit rate, not arrival time: a half-rate mediator factors the triad | Small deterministic Boolean forms, exact IIT-4.0 Φ. The mediator's update rate is slowed with a gating |
 | [Q208](org_frontier/questions/q208_latency_depth/paper.md) | Represented delay is benign: the single-buffer anomaly and the recovery of full integration | The conjunctive triad with a delay line of k buffers on the mediator's feedback path, swept k = 0, 1, 2, 3 |
+| [Q209](org_frontier/questions/q209_commit_period/paper.md) | Only synchronous commitment binds: the commit-period sweep | The conjunctive triad with its mediator gated by a mod-p counter, swept the commit period p = 1, 2, 3, 4 |
 
 </details>
 
