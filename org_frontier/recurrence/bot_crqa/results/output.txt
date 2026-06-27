@@ -1,0 +1,16 @@
+BOT_CRQA — behavioral cross-recurrence on the v11 bot-merged history
+====================================================================================
+  span: 2026-06-01 .. 2026-06-22  (22 days)
+  totals: author opens 150, approvals 50 (partial), bot merges 150
+  coupling centrality: author=0.325, merge=0.182, approval=0.143
+  merge centrality 0.182 vs shuffle null mean 0.316  p=0.9370
+  peak lag open->merge: +0 d (prom 0.182); approval->merge: -1 d (prom 0.026)
+  determinism: approval-merge=0.548, author-approval=0.572, author-merge=0.720  (highest: author-merge)
+====================================================================================
+  bH1 (the conduit fires downstream: upstream->merge lags >= 0): REFUTED
+  bH2 (the bot merge is the behavioral hub, beats shuffle null): REFUTED
+  bH3 (approval-merge is the highest-determinism pair): REFUTED
+  bH4 (the author is the least central role): REFUTED
+====================================================================================
+  Reading: whether the machine merger reads behaviorally as a transparent conduit driven by upstream events, against v9's human gate that was the behavioral hub.
+====================================================================================
