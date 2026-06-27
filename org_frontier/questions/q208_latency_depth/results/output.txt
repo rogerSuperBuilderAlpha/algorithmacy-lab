@@ -1,0 +1,14 @@
+PROBE 362 (Q208) — depth of represented latency vs the triad
+================================================================================
+  H1 control  F_0 synchronous triad : triadic Φ=2.000000 PASS
+  k=0 (n=3)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C') coreΦ=2.000
+  k=1 (n=4)  triadic  wholeΦ_MIP=1.0000  core=('S', 'C', 'B1') coreΦ=2.000
+  k=2 (n=5)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C', 'B1', 'B2') coreΦ=2.000
+  k=3 (n=6)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C', 'B1', 'B2', 'B3') coreΦ=2.000
+================================================================================
+  whole-system Φ_MIP by depth k=0..3: 2.0000, 1.0000, 2.0000, 2.0000
+  H2 (represented latency stays triadic at every depth): SUPPORTED
+  H3 (whole-system Φ_MIP strictly decreases with depth): REFUTED
+  H4 (every buffer is in the major complex at every depth): SUPPORTED
+  H5 (the worker stays out of the major complex for all k>=1): REFUTED
+================================================================================
