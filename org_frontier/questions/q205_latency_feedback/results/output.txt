@@ -1,0 +1,15 @@
+PROBE 359 (Q205) — latency in the mediator's feedback path vs one-step Φ
+==================================================================================
+  H1 control  F0 immediate triad     : triadic  Φ=2.000  PASS
+  H2 represented latency  F1 (n=4)    : triadic  Φ=1.000
+  H3 major complex of F1             : core=('S', 'C', 'B')  Φ=2.000  (B in core: True)
+  H4 hidden latency  F2 est (W,S,C)   : dyadic   Φ=-0.000
+  H5 estimation control  estF0        : triadic  Φ=0.765
+==================================================================================
+  H2 (represented latency stays triadic): SUPPORTED
+  H3 (the delay node B is in the core): SUPPORTED
+  H4 (hidden latency hides integration: F2 dyadic, F1 triadic): SUPPORTED
+  H5 (estimation alone preserves integration: estF0 triadic): SUPPORTED
+==================================================================================
+  Reading: a one-step Φ misses lagged coordination only when the delay is left out of the model; representing the delay as a node recovers the integration the q204 caveat flags.
+==================================================================================
