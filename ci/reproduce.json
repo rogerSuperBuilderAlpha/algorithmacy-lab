@@ -2,6 +2,20 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "bot-crqa-machine-conduit",
+      "cmd": "python org_frontier/recurrence/bot_crqa/analyze_crqa.py",
+      "expect": [
+        "coupling centrality: author=0.325, merge=0.182, approval=0.143",
+        "merge centrality 0.182 vs shuffle null mean 0.316  p=0.9370",
+        "bH1 (the conduit fires downstream: upstream->merge lags >= 0): REFUTED",
+        "bH2 (the bot merge is the behavioral hub, beats shuffle null): REFUTED",
+        "bH3 (approval-merge is the highest-determinism pair): REFUTED",
+        "bH4 (the author is the least central role): REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/recurrence/bot_crqa/FINDINGS.md"
+    },
+    {
       "name": "q208-latency-depth",
       "cmd": "python -m org_frontier.questions.q208_latency_depth.probe_latency_depth --ci",
       "expect": [
