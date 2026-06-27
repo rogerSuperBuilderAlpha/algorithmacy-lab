@@ -1,0 +1,13 @@
+PROBE 364 (Q210) — two triads sharing a counterpart: one core or two?
+================================================================================
+  H1 control  single triad : triadic Φ=2.000000 PASS
+  bridge=none  dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C') coreΦ=2.000
+  bridge=AND   triadic  wholeΦ_MIP=2.0000  core=('W2', 'S2') coreΦ=2.000
+  bridge=OR    dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C') coreΦ=2.000
+================================================================================
+  AND-bridge core Φ = 2.000 ; OR-bridge core Φ = 2.000
+  H2 (AND bridge merges both mediators into one core): REFUTED
+  H3 (the shared counterpart C is in the merged core): REFUTED
+  H4 (merging two triads is super-additive, core Φ > 2.0): REFUTED
+  H5 (AND bridge core Φ > OR bridge core Φ): REFUTED
+================================================================================
