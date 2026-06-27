@@ -1,0 +1,16 @@
+EVENT_CRQA — behavioral cross-recurrence on the v9 PR/review history
+====================================================================================
+  span: 2014-12 .. 2026-05  (138 months)
+  totals: author opens 104, reviews 33, merges 71
+  coupling centrality: merge=0.241, author=0.182, review=0.059
+  merge centrality 0.241 vs shuffle null mean 0.035  p=0.0005
+  peak lag author->merge: +0 months (prom 0.182); review->merge: +1 (prom 0.059)
+  determinism: author-merge=0.856, author-review=0.892, review-merge=0.958  (highest: review-merge)
+====================================================================================
+  bH1 (merge is the behavioral hub, beats shuffle null): SUPPORTED
+  bH2 (the gate does not lead: author/review lags >= 0): SUPPORTED
+  bH3 (author-merge is the highest-determinism pair): REFUTED
+  bH4 (the behaviorally-central role is the structural gate, merge): SUPPORTED
+====================================================================================
+  Reading: whether the merge gate v9 names structurally also reads as the behavioral hub, and whether the monthly grain can resolve the lead-lag the time-compressed lifecycle hides.
+====================================================================================
