@@ -2,6 +2,21 @@
   "_help": "Each check re-derives a published number from a committed script. A submission that reports a number adds an entry here: name it, give the exact command (use 'python -m ...' run from the repo root), and list strings from its output that must appear (verbatim, including the number). CI runs ci/reproduce.py on every pull request; a check fails if the command exits non-zero or any expected string is missing. Keep checks fast and deterministic. See PUBLISHING.md.",
   "checks": [
     {
+      "name": "q209-commit-period",
+      "cmd": "python -m org_frontier.questions.q209_commit_period.probe_commit_period",
+      "expect": [
+        "H1 control  F_1 synchronous triad : triadic Φ=2.000000 PASS",
+        "p=1 (n=3)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C') coreΦ=2.000",
+        "p=2 (n=4)  dyadic   wholeΦ_MIP=0.0000  core=('K',) coreΦ=1.000",
+        "p=4 (n=5)  dyadic   wholeΦ_MIP=0.0000  core=('c1',) coreΦ=1.000",
+        "surviving core Φ by period p=2,3,4: 1.000, 1.000, 1.000",
+        "H2 (rate-1 is the unique binding cadence: p>=2 all dyadic): SUPPORTED",
+        "H5 (whole-system Φ_MIP is zero at every p>=2): SUPPORTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q209_commit_period/FINDINGS.md"
+    },
+    {
       "name": "bot-crqa-machine-conduit",
       "cmd": "python org_frontier/recurrence/bot_crqa/analyze_crqa.py",
       "expect": [
