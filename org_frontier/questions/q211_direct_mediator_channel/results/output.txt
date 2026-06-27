@@ -1,0 +1,13 @@
+PROBE 365 (Q211) — direct mediator-mediator channel: one merged core or two?
+================================================================================
+  H1 control  single triad : triadic Φ=2.000000 PASS
+  channel=none dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C1') coreΦ=2.000 spans_both=False
+  channel=AND  triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True
+  channel=OR   dyadic   wholeΦ_MIP=0.0000  core=('S1', 'S2') coreΦ=2.000 spans_both=True
+================================================================================
+  AND core Φ = 3.000 spans_both=True ; OR core Φ = 2.000
+  H2 (AND channel major complex spans both triads): SUPPORTED
+  H3 (merged core is super-additive, Φ > 2.0): SUPPORTED
+  H4 (a direct channel merges where the shared counterpart did not): SUPPORTED
+  H5 (channel rule matters; AND and OR cores differ): SUPPORTED
+================================================================================
