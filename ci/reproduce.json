@@ -32,6 +32,22 @@
       "source": "org_frontier/questions/q211_direct_mediator_channel/FINDINGS.md"
     },
     {
+      "name": "q212-channel-location",
+      "cmd": "python -m org_frontier.questions.q212_channel_location.probe_channel_location",
+      "expect": [
+        "H1 control  single triad : triadic Φ=2.000000 PASS",
+        "channel@mediator    triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True",
+        "channel@worker      triadic  wholeΦ_MIP=2.0000  core=('S1', 'C1') coreΦ=2.000 spans_both=False",
+        "channel@counterpart triadic  wholeΦ_MIP=2.0000  core=('W1', 'S1') coreΦ=2.000 spans_both=False",
+        "H1 (mediator channel reproduces q211: spans both, Φ=3.0): SUPPORTED",
+        "H2 (worker-worker channel merges): REFUTED",
+        "H4 (mediator channel gives the highest core Φ): SUPPORTED",
+        "H5 (channel location matters): SUPPORTED"
+      ],
+      "timeout": 480,
+      "source": "org_frontier/questions/q212_channel_location/FINDINGS.md"
+    },
+    {
       "name": "q209-commit-period",
       "cmd": "python -m org_frontier.questions.q209_commit_period.probe_commit_period",
       "expect": [
