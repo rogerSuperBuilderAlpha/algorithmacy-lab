@@ -1,0 +1,5 @@
+response_id,progress,equity_critique,value_base,geo_frame,epistemic,hedge_then_commit,equity_placement
+r1,2,1,-1,0,1,1,2
+r2,2,2,-1,-1,1,1,3
+r3,2,1,-1,0,1,1,2
+r4,2,1,-1,0,1,1,2

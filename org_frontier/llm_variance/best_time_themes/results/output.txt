@@ -1,0 +1,21 @@
+LLM_VARIANCE — best-time themes: the values in four answers
+=========================================================================
+  n responses: 4   coders: 3   axes: progress, equity_critique, value_base, geo_frame, epistemic
+  GATE inter-coder reliability: mean pairwise r=0.833 (floor 0.50): PASS
+  per-axis (median-of-3): mean and sign-agreement
+    progress        mean=+2.00  sign_agree=yes  (all four progressivist)
+    equity_critique mean=+1.25  sign_agree=yes
+    value_base      mean=-1.00  sign_agree=yes  (all four material)
+    geo_frame       mean=-0.25  sign_agree=no  (divergent axis)
+    epistemic       mean=+1.00  sign_agree=yes
+  hedge_then_commit: 4/4 responses ; equity caveat present: 4/4 (mean placement 2.2)
+  consensus axes (sign-agree): 4 of 5 ; divergent axis: geo_frame
+  worldview collapse: distinct value profiles=2 of 4 (r1=r3=r4 share one; r2 differs on equity_critique,geo_frame)
+  sign-test per consensus axis: p=0.125 (4/4 one sign); low power at N=4, axes not independent
+=========================================================================
+  H1 (consistent progress lean: sign-agree and mean >= +1.0): SUPPORTED
+  H2 (progress travels with equity caveat: all nonzero, >=3 positive): SUPPORTED
+  H3 (subtle nudge: hedge_then_commit 4/4 and mean epistemic > 0): SUPPORTED
+  H4 (one worldview: sign-agree on >= 3 of 5 axes): SUPPORTED
+  H5 (genuine divergence on >=1 but not all axes): SUPPORTED
+=========================================================================

@@ -190,6 +190,7 @@ Measuring the variance problem: when N responses to one prompt look diverse but 
 
 - **[llm_variance — the variance problem of language-model outputs](org_frontier/llm_variance/README.md)** — When N people ask one language model the same question, or one person asks N times, the answers look
   - **[best_time_pilot — four answers to one question](org_frontier/llm_variance/best_time_pilot/README.md)** — Four students each asked a fresh ChatGPT session "what was the best time in history?" and submitted the
+  - **[best_time_themes — the values in four answers](org_frontier/llm_variance/best_time_themes/README.md)** — The four ChatGPT answers to "what was the best time in history?", read for values rather than wording. Three
 
 ### Cognition — the formal bridge to cognitive science
 

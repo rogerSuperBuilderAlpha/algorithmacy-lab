@@ -3226,6 +3226,26 @@
       ],
       "timeout": 60,
       "source": "org_frontier/llm_variance/best_time_pilot/FINDINGS.md"
+    },
+    {
+      "name": "llm-variance-best-time-themes",
+      "cmd": "python org_frontier/llm_variance/best_time_themes/analyze_themes.py",
+      "expect": [
+        "GATE inter-coder reliability: mean pairwise r=0.833 (floor 0.50): PASS",
+        "progress        mean=+2.00  sign_agree=yes  (all four progressivist)",
+        "value_base      mean=-1.00  sign_agree=yes  (all four material)",
+        "geo_frame       mean=-0.25  sign_agree=no  (divergent axis)",
+        "hedge_then_commit: 4/4 responses ; equity caveat present: 4/4 (mean placement 2.2)",
+        "consensus axes (sign-agree): 4 of 5 ; divergent axis: geo_frame",
+        "worldview collapse: distinct value profiles=2 of 4 (r1=r3=r4 share one; r2 differs on equity_critique,geo_frame)",
+        "H1 (consistent progress lean: sign-agree and mean >= +1.0): SUPPORTED",
+        "H2 (progress travels with equity caveat: all nonzero, >=3 positive): SUPPORTED",
+        "H3 (subtle nudge: hedge_then_commit 4/4 and mean epistemic > 0): SUPPORTED",
+        "H4 (one worldview: sign-agree on >= 3 of 5 axes): SUPPORTED",
+        "H5 (genuine divergence on >=1 but not all axes): SUPPORTED"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/llm_variance/best_time_themes/FINDINGS.md"
     }
   ]
 }
