@@ -1,0 +1,20 @@
+LLM_VARIANCE — best-time pilot: the variance problem, four responses
+====================================================================================
+  n responses: 4   prompt: "what was the best time in history?"   model: chatgpt
+  GATE instrument control: duplicate pair sim=1.000 ; max distinct lexical sim=0.382 : PASS
+  lexical    token-Jaccard mean=0.342 (min 0.315, max 0.382) ; TF-IDF cosine mean=0.685
+  structural n_families=2 (ward, silhouette over K in {2,3}) ; grouping=[['r1', 'r2'], ['r3', 'r4']]
+  semantic   claim-Jaccard mean=0.754 (min 0.538, max 1.000)
+  effective N (n_eff = N^2 / sum K): lexical=1.98  structural=2.30  semantic=1.23  (nominal 4)
+    [flagged] ICC/deff n_eff lexical=1.98 semantic=1.23 (degenerate at N=4, scaled-study only)
+  era concentration: Gini=0.268  norm_entropy=0.932  head(p=1.0)=3  singletons(p=0.25)=3
+  verdict unanimity=1.000
+  integration: mean pairwise MI over varying claims=0.582 bits ; o_information(eras)=1.745 bits [exploratory]
+  semantic Jaccard vs column-shuffle null: mean_obs=0.754  p=0.0170
+====================================================================================
+  H1 (surface divergence: token-Jaccard mean < 0.45 and cosine < 0.80): SUPPORTED
+  H2 (template convergence: K=3 families, non-singleton {r3,r4}): REFUTED
+  H3 (semantic beats lexical: claim-Jaccard - token-Jaccard >= 0.25): SUPPORTED
+  H4 (effective-N collapse: n_eff_sem <= 1.5 and n_eff_lex >= 1.5x n_eff_sem): SUPPORTED
+  H5 (consensus core: verdict unanimous, >=3 head eras, >=2 singletons, Gini > 0.20): SUPPORTED
+====================================================================================

@@ -37,6 +37,7 @@ Four programs on one thesis, plus the bridge and support arms. Each directory's 
 | [`org_frontier/corpus/`](org_frontier/corpus/) | corpus — a curated coordination-form library with exact IIT-4.0 Φ |
 | [`org_frontier/field/`](org_frontier/field/) | Field — reading real organizations with exact Φ |
 | [`org_frontier/landscape/`](org_frontier/landscape/) | landscape — how the world uses PyPhi |
+| [`org_frontier/llm_variance/`](org_frontier/llm_variance/) | llm_variance — the variance problem of language-model outputs |
 | [`org_frontier/multiparty/`](org_frontier/multiparty/) | multiparty — does adding parties change the verdict? |
 | [`org_frontier/outreach/`](org_frontier/outreach/) | outreach & upstream contributions |
 | [`org_frontier/principal/`](org_frontier/principal/) | principal — does the corporate principal join the irreducible core? |
@@ -62,6 +63,6 @@ Run the relevant generator after adding content, then verify with its `--check`.
 | 162 | questions | `org_frontier/questions/q*_*/` |
 | 134 | probes | `org_frontier/probes/probe_*.py` |
 | 3 | studies | `org_frontier/studies/*/` |
-| 17 | essays | `org_frontier/essays/*.md` |
+| 18 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |
