@@ -1,0 +1,5 @@
+response_id,verdict_present_best,verdict_hedged_nobest,era_classical_athens,era_pax_romana,era_islamic_golden_age,era_renaissance,era_age_of_discovery,era_late_1990s,era_post_wwii,era_present_day,frame_subjective_disclaimer,frame_lists_criteria,frame_best_for_whom,template_family
+r1,1,1,1,0,1,1,0,0,1,1,1,1,1,1
+r2,1,1,0,1,0,1,0,1,1,1,1,0,1,3
+r3,1,1,1,0,1,1,1,0,1,1,1,1,1,2
+r4,1,1,1,0,1,1,0,0,1,1,1,1,1,2
