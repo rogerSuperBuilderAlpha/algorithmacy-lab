@@ -1,0 +1,14 @@
+PROBE 366 (Q212) — where must the cross-triad channel sit to merge two triads?
+================================================================================
+  H1 control  single triad : triadic Φ=2.000000 PASS
+  channel@mediator    triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True
+  channel@worker      triadic  wholeΦ_MIP=2.0000  core=('S1', 'C1') coreΦ=2.000 spans_both=False
+  channel@counterpart triadic  wholeΦ_MIP=2.0000  core=('W1', 'S1') coreΦ=2.000 spans_both=False
+================================================================================
+  mediator coreΦ=3.000 span=True ; worker coreΦ=2.000 span=False ; counterpart coreΦ=2.000 span=False
+  H1 (mediator channel reproduces q211: spans both, Φ=3.0): SUPPORTED
+  H2 (worker-worker channel merges): REFUTED
+  H3 (counterpart channel merges, matches worker by symmetry): REFUTED
+  H4 (mediator channel gives the highest core Φ): SUPPORTED
+  H5 (channel location matters): SUPPORTED
+================================================================================
