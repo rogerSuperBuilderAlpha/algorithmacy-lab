@@ -269,6 +269,29 @@ def _recurrence() -> list:
     return out
 
 
+def _llm_variance() -> list:
+    """The llm_variance program under org_frontier/llm_variance/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "llm_variance")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "LLM variance"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    for d in sorted(glob.glob(os.path.join(base, "*"))):
+        if not os.path.isdir(d) or os.path.basename(d).startswith("__"):
+            continue
+        sreadme = os.path.join(d, "README.md")
+        findings = os.path.join(d, "FINDINGS.md")
+        if not os.path.exists(sreadme):
+            continue
+        stitle = _first_heading(sreadme) or os.path.basename(d).replace("_", " ")
+        ssum = _clip(_first_paragraph(findings) or _finding_for(findings))
+        link = f"  - **[{stitle}]({_link(sreadme)})**"
+        out.append(f"{link} — {ssum}" if ssum else link)
+    return out
+
+
 def _studies() -> list:
     out = []
     for d in sorted(glob.glob(os.path.join(_ROOT, "org_frontier", "studies", "*"))):
@@ -381,6 +404,7 @@ def build_directory() -> str:
     qualitative = _qualitative()
     survey = _survey()
     recurrence = _recurrence()
+    llm_variance = _llm_variance()
     cognition = _cognition()
     threads = _threads()
     studies = _studies()
@@ -447,6 +471,13 @@ def build_directory() -> str:
               "Pairing exact Φ with cross-recurrence quantification: the structural measure on the "
               "model and the behavioral measure on a run of it.", ""]
         L += recurrence
+        L.append("")
+
+    if llm_variance:
+        L += ["### LLM variance — how independent are model answers", "",
+              "Measuring the variance problem: when N responses to one prompt look diverse but collapse to "
+              "far fewer independent answers, read across lexical, structural, and semantic layers.", ""]
+        L += llm_variance
         L.append("")
 
     if cognition:
