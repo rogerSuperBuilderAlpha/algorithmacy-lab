@@ -123,6 +123,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [How this lab studies algorithmacy](org_frontier/essays/studying_algorithmacy.md)
 - [The interested third party: how a self-interested mediator changes the irreducibility of coordination](org_frontier/essays/the_interested_third_party.md)
 - [The Boolean corpus is a pre-disclosed prior catalog](org_frontier/essays/the_prior_catalog.md)
+- [The variance problem](org_frontier/essays/the_variance_problem.md)
 - [What the six research lines found](org_frontier/essays/what_the_six_lines_found.md)
 
 ### Programs, syntheses & the open agenda
@@ -182,6 +183,13 @@ Pairing exact Φ with cross-recurrence quantification: the structural measure on
 
 - **[Recurrence — reading coordination off behavior, paired with Φ](org_frontier/recurrence/README.md)** — A coordination arrangement can be read two ways. Its structure says whether the parties form a
   - [Concepts](org_frontier/recurrence/CONCEPTS.md) · [Bridge](org_frontier/recurrence/FINDINGS.md) · [Sweep](org_frontier/recurrence/SWEEP.md) · [Φ experiments](org_frontier/recurrence/IIT_EXPERIMENTS.md) · [CRQA experiments](org_frontier/recurrence/CRQA_EXPERIMENTS.md) · [Four-party](org_frontier/recurrence/BRIDGE_FOUR.md)
+
+### LLM variance — how independent are model answers
+
+Measuring the variance problem: when N responses to one prompt look diverse but collapse to far fewer independent answers, read across lexical, structural, and semantic layers.
+
+- **[llm_variance — the variance problem of language-model outputs](org_frontier/llm_variance/README.md)** — When N people ask one language model the same question, or one person asks N times, the answers look
+  - **[best_time_pilot — four answers to one question](org_frontier/llm_variance/best_time_pilot/README.md)** — Four students each asked a fresh ChatGPT session "what was the best time in history?" and submitted the
 
 ### Cognition — the formal bridge to cognitive science
 
