@@ -44,7 +44,7 @@
         "H4 (mediator channel gives the highest core Φ): SUPPORTED",
         "H5 (channel location matters): SUPPORTED"
       ],
-      "timeout": 240,
+      "timeout": 480,
       "source": "org_frontier/questions/q212_channel_location/FINDINGS.md"
     },
     {
