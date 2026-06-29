@@ -3246,6 +3246,24 @@
       ],
       "timeout": 60,
       "source": "org_frontier/llm_variance/best_time_themes/FINDINGS.md"
+    },
+    {
+      "name": "q213-contingent-irreducibility",
+      "cmd": "python -m org_frontier.questions.q213_contingent_irreducibility.probe_contingent_irreducibility",
+      "expect": [
+        "H1 control  conjunctive triad : triadic Φ=2.000000 PASS",
+        "car dealer (constrained)      : triadic Φ=2.000 core=('M', 'D', 'B')  D in core: True",
+        "intrinsic   (clearinghouse)   : intrinsic  margin=0.000  S in core: constrained=True bypass=True  (Phi 2.000 -> 2.000)",
+        "contingent  (car dealer)      : contingent margin=2.000  D in core: constrained=True bypass=False  (Phi 2.000 -> 0.000)",
+        "partial     (+ back-channel)  : partial    margin=1.585  S in core: constrained=True bypass=True  (Phi 2.000 -> 0.415)",
+        "reducible   (free conduit)    : reducible  margin=0.000  D in core: constrained=False bypass=False  (Phi 0.000 -> 0.000)",
+        "H2 (a conduit is irreducible under constraint: dealer in core): SUPPORTED",
+        "H3 (bypass removes the contingent party: kind=contingent, margin=2.0): SUPPORTED",
+        "H4 (same bypass leaves the intrinsic mediator: kind=intrinsic, margin=0): SUPPORTED",
+        "H5 (taxonomy realized; margins order contingent>=partial>intrinsic): SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q213_contingent_irreducibility/FINDINGS.md"
     }
   ]
 }
