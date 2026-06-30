@@ -1,0 +1,32 @@
+PROBE 368 (Q214) — classifying the literature's triad types
+============================================================================================
+  control  conjunctive triad : triadic Φ=2.000000 PASS
+  triad type                       theory          class       margin
+  simmelian_mediator               simmel1950      necessary    0.000
+  tertius_gaudens                  obstfeld2014    contingent   2.000
+  tertius_separans                 lee2023         contingent   2.000
+  divide_et_impera                 simmel1950      contingent   2.000
+  tertius_iungens_integrating      obstfeld2005    necessary    0.000
+  tertius_iungens_selfliquidating  obstfeld2005    reducible    0.000
+  conduit_unmandated               obstfeld2014    reducible    0.000
+  conduit_mandated                 obstfeld2014    contingent   2.000
+  gf_coordinator                   gould1989       reducible    0.000
+  gf_gatekeeper                    gould1989       contingent   2.000
+  gf_representative                gould1989       contingent   2.000
+  gf_liaison                       gould1989       contingent   2.000
+  gf_itinerant                     gould1989       partial      1.585
+  structural_hole_broker           burt1992        contingent   2.000
+  granovetter_bridge               granovetter1973 contingent   2.000
+  two_sided_platform               rochet2003      necessary    0.000
+  gatekeeping_platform             hagiu2009       contingent   2.000
+  market_maker                     rubinstein1987  partial      1.585
+  arbitrageur_friction             rubinstein1987  contingent   2.000
+  heider_balance (boundary)        heider1946      triadic Φ=6.000 core=('P', 'Q', 'R')  (mutual: every party reads both others)
+    forcing the test removes an existing edge, not a forbidden one -> spurious 'partial' (margin 5.000)
+============================================================================================
+  H1 (gaudens family all contingent, margin 2.0): SUPPORTED
+  H2 (iungens splits: integrating necessary, self-liquidating reducible): SUPPORTED
+  H3 (integrators necessary: Simmelian mediator, two-sided platform): SUPPORTED
+  H4 (Gould-Fernandez roles sort by group boundary): SUPPORTED
+  H5 (Heider balance triad is mutual, not mediated; test N/A): SUPPORTED
+============================================================================================

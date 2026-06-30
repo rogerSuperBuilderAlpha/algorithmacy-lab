@@ -54,3 +54,29 @@ The travel agent and the insurance broker integrate complex cases but run beside
 simple ones. They keep a foothold in the core and shed most of the system's integration — partial, margin
 1.585. The unexclusive reseller has no exclusivity and no integrating role; the customer can already buy
 direct, so it is out of the core to begin with — reducible.
+
+## The literature canon (q214)
+
+The second batch is theoretical rather than empirical: the canonical triad types of the brokerage, sociology,
+and economics literature, modeled and classified the same way. The full study, with citations, is
+`org_frontier/questions/q214_triadic_classification/`.
+
+| type | theory | class | margin |
+|---|---|---|---|
+| tertius_gaudens | Simmel 1908 | contingent | 2.000 |
+| structural_hole_broker | Burt 1992 | contingent | 2.000 |
+| granovetter_bridge | Granovetter 1973 | contingent | 2.000 |
+| gf_gatekeeper / gf_liaison | Gould & Fernandez 1989 | contingent | 2.000 |
+| gatekeeping_platform | Hagiu 2009 | contingent | 2.000 |
+| arbitrageur_friction | Rubinstein & Wolinsky 1987 | contingent | 2.000 |
+| tertius_iungens_integrating | Obstfeld 2005 | necessary | 0.000 |
+| simmelian_mediator | Simmel 1908 | necessary | 0.000 |
+| two_sided_platform | Rochet & Tirole 2003 | necessary | 0.000 |
+| market_maker | Rubinstein & Wolinsky 1987 | partial | 1.585 |
+| tertius_iungens_selfliquidating | Obstfeld 2005 | reducible | 0.000 |
+| gf_coordinator | Gould & Fernandez 1989 | reducible | 0.000 |
+
+The verbal *gaudens* / *iungens* line is the formal contingent / necessary line. The one refinement the formal
+test adds: a *tertius iungens* that fully joins its two parties creates the direct tie — the bypass — and writes
+itself out of the core, landing reducible. The broker who most completely embodies the joining orientation makes
+itself dispensable.
