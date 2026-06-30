@@ -1,0 +1,37 @@
+DUAL-FUNCTION ENTITIES — one entity, several roles, several cells
+================================================================================
+  Visa
+    authorization              necessary   margin=0.000  (merchant - issuer)
+    network_acceptance_gate    contingent  margin=2.000  (merchant - cardholder bank)
+    profile: necessary + contingent
+  Amazon
+    fulfillment_fba            necessary   margin=0.000  (seller - buyer)
+    marketplace_matching       partial     margin=1.585  (buyer - seller)
+    buybox_gate                contingent  margin=2.000  (seller - buyer)
+    first_party_reseller       reducible   margin=0.000  (brand - customer)
+    profile: necessary + partial + contingent + reducible
+  Apple_App_Store
+    developer_distribution     partial     margin=1.585  (developer - user)
+    in_app_payment_gate        contingent  margin=2.000  (developer - user)
+    profile: partial + contingent
+  Google
+    organic_matching           necessary   margin=0.000  (searcher - page)
+    ad_auction_gate            contingent  margin=2.000  (advertiser - searcher)
+    profile: necessary + contingent
+  Uber
+    realtime_matching          necessary   margin=0.000  (rider - driver)
+    rider_driver_gate          contingent  margin=2.000  (rider - driver)
+    profile: necessary + contingent
+  Ticketmaster
+    distribution_antifraud     partial     margin=1.585  (venue - fan)
+    exclusive_venue_gate       contingent  margin=2.000  (venue - fan)
+    profile: partial + contingent
+  GDS_Sabre
+    inventory_aggregation      necessary   margin=0.000  (airline - travel agent)
+    booking_gate               contingent  margin=2.000  (airline - travel agent)
+    profile: necessary + contingent
+================================================================================
+  entities: 7   functions: 16
+  every entity bundles an integrating function with a contingent gate: True
+  all functions classify as expected: True
+================================================================================
