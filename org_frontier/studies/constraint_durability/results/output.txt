@@ -1,0 +1,38 @@
+CONSTRAINT DURABILITY — how soon does a contingent gate fall?
+====================================================================================
+  the formal class says IF a gate is contingent; durability says HOW SOON it falls.
+  predicted fall-risk: reducible=4 (already), necessary=0 (never), else 3 - durability
+  --------------------------------------------------------------------------------
+  name                       class       family     dur risk  observed
+  indie_record_label         reducible   none        0   4    fell
+  newspaper_classifieds      reducible   none        0   4    fell
+  retail_middleman_dtc       reducible   none        0   4    fell
+  freight_broker             contingent  friction    0   3    falling
+  stockbroker_commission     contingent  regulation  0   3    fell
+  travel_agent               partial     friction    0   3    fell
+  app_store_30pct            contingent  monopoly    1   2    falling
+  bail_bondsman              contingent  law         1   2    falling
+  mls_realty                 contingent  monopoly    1   2    falling
+  pharmacy_benefit_manager   partial     gate        1   2    falling
+  talent_agent               partial     gate        1   2    pressured
+  ticketmaster               contingent  monopoly    1   2    falling
+  accreditation_body         contingent  law         2   1    pressured
+  customs_broker             contingent  law         2   1    holding
+  domain_registrar           contingent  monopoly    2   1    holding
+  notary                     contingent  law         2   1    holding
+  prescription_refill        contingent  law         2   1    holding
+  ride_hail_platform         partial     gate        2   1    holding
+  swift_messaging            contingent  network     2   1    pressured
+  title_insurer              contingent  law         2   1    pressured
+  union_hiring_hall          contingent  collective  2   1    pressured
+  car_dealer                 contingent  law         3   0    holding
+  clearinghouse_ccp          necessary   none        3   0    na
+  interpreter                necessary   none        3   0    na
+  liquor_distributor         contingent  law         3   0    holding
+  stock_exchange             necessary   none        3   0    na
+  --------------------------------------------------------------------------------
+  backtest vs 1995-2025 outcomes (n=26)
+  predicted-vs-observed correlation r=0.925
+  binary erode forecast (risk>=2 vs observed>=pressured): accuracy=0.85  TP=12 FP=0 TN=10 FN=4
+  false positives (predicted fall, actually held): 0
+====================================================================================

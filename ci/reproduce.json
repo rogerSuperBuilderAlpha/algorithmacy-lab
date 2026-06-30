@@ -3320,6 +3320,21 @@
       ],
       "timeout": 60,
       "source": "org_frontier/studies/dual_function_entities/FINDINGS.md"
+    },
+    {
+      "name": "constraint-durability",
+      "cmd": "python org_frontier/studies/constraint_durability/analyze_durability.py",
+      "expect": [
+        "freight_broker             contingent  friction    0   3    falling",
+        "app_store_30pct            contingent  monopoly    1   2    falling",
+        "car_dealer                 contingent  law         3   0    holding",
+        "backtest vs 1995-2025 outcomes (n=26)",
+        "predicted-vs-observed correlation r=0.925",
+        "binary erode forecast (risk>=2 vs observed>=pressured): accuracy=0.85  TP=12 FP=0 TN=10 FN=4",
+        "false positives (predicted fall, actually held): 0"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/studies/constraint_durability/FINDINGS.md"
     }
   ]
 }
