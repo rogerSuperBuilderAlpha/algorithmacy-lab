@@ -3349,6 +3349,22 @@
       ],
       "timeout": 30,
       "source": "org_frontier/studies/constraint_durability/FINDINGS.md"
+    },
+    {
+      "name": "contingency-transitions",
+      "cmd": "python org_frontier/studies/contingency_transitions/analyze_transitions.py",
+      "expect": [
+        "contingent  -> reducible    open_the_bypass",
+        "reducible   -> contingent   erect_a_constraint",
+        "contingent  -> necessary    integrate",
+        "necessary   -> reducible    commoditize",
+        "partial     -> contingent   raise_the_gate",
+        "partial     -> reducible    lower_the_gate",
+        "operations: 6   all transitions classify as expected: True",
+        "necessary is the only cell opening the bypass cannot evict: True"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/contingency_transitions/FINDINGS.md"
     }
   ]
 }
