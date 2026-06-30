@@ -257,6 +257,7 @@ Multi-experiment batteries on one theme.
 - **[Coordination-logic atlas](org_frontier/studies/coordination_logic_atlas/README.md)** — Fifty coordination forms, classified by exact IIT-4.0 Φ. Thirty-six verdicts matched the
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
+- **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 51 entries classified by the bypass-counterfactual (q213): 38 real-world arrangements and 13
 
 ### Foundations — what tracks Φ

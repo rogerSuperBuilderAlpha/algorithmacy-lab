@@ -3303,6 +3303,23 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q214_triadic_classification/FINDINGS.md"
+    },
+    {
+      "name": "dual-function-entities",
+      "cmd": "python org_frontier/studies/dual_function_entities/analyze_dual.py",
+      "expect": [
+        "authorization              necessary   margin=0.000  (merchant - issuer)",
+        "network_acceptance_gate    contingent  margin=2.000  (merchant - cardholder bank)",
+        "buybox_gate                contingent  margin=2.000  (seller - buyer)",
+        "first_party_reseller       reducible   margin=0.000  (brand - customer)",
+        "profile: necessary + partial + contingent + reducible",
+        "ad_auction_gate            contingent  margin=2.000  (advertiser - searcher)",
+        "entities: 7   functions: 16",
+        "every entity bundles an integrating function with a contingent gate: True",
+        "all functions classify as expected: True"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/dual_function_entities/FINDINGS.md"
     }
   ]
 }
