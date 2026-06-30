@@ -80,3 +80,31 @@ The verbal *gaudens* / *iungens* line is the formal contingent / necessary line.
 test adds: a *tertius iungens* that fully joins its two parties creates the direct tie — the bypass — and writes
 itself out of the core, landing reducible. The broker who most completely embodies the joining orientation makes
 itself dispensable.
+
+## Real-world expansion: the contingent class by constraint family
+
+The 25 contingent entries split by *what holds the bypass shut*. The structure is identical (relay, margin 2.0);
+the constraint family is the variable.
+
+| family | entries |
+|---|---|
+| law / regulation | car_dealer, liquor_distributor, customs_broker, notary, prescription_refill, title_passthrough, bail_bondsman, title_insurer, real_estate_appraiser, immigration_attorney, accreditation_body |
+| monopoly / exclusive | app_store_30pct, ticketmaster, mls_realty, domain_registrar |
+| network / standard | swift_messaging |
+| search friction | freight_broker, arbitrageur_friction |
+| collective bargaining | union_hiring_hall |
+| brokerage strategy (q214) | tertius_gaudens, structural_hole_broker, granovetter_bridge, gf_gatekeeper, gf_liaison, gatekeeping_platform |
+
+## The disintermediation prediction
+
+The class is a forecast of an intermediary's fate when the internet lowers the cost of the direct tie.
+
+| class | fate | examples |
+|---|---|---|
+| reducible | disintermediated — the friction it stood on is gone | newspaper_classifieds, indie_record_label, retail_middleman_dtc |
+| contingent | survives by its constraint, not its work | car_dealer, bail_bondsman, app_store_30pct, ticketmaster |
+| necessary | never threatened — integrates a joint condition | clearinghouse_ccp, stock_exchange, air_traffic_control, payment_network_auth |
+| partial | the contested middle, under live pressure | pharmacy_benefit_manager, ride_hail_platform, gpo_healthcare, talent_agent |
+
+See `essays/what_survives_disintermediation.md` for the argument: disintermediation removes the *friction* a
+middleman stood on, and removes the middleman only when the friction was all that held it up.

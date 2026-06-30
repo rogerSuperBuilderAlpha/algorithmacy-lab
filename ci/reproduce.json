@@ -3269,17 +3269,19 @@
       "name": "irreducibility-catalog",
       "cmd": "python org_frontier/studies/irreducibility_catalog/build_catalog.py",
       "expect": [
-        "entries: 26   instrument: bypass-counterfactual (classifier/contingency.py)",
+        "entries: 51   instrument: bypass-counterfactual (classifier/contingency.py)",
         "car_dealer             auto retail    franchise law          contingent   2.000",
-        "clearinghouse_ccp      finance        none (integrates)      necessary    0.000",
         "tertius_gaudens        brokerage      maintained gap [Simmel contingent   2.000",
-        "tertius_iungens_selfliquidating brokerage      none [Obstfeld 2005]   reducible    0.000",
-        "two_sided_platform     economics      none [Rochet-Tirole 20 necessary    0.000",
-        "by class: necessary=7  contingent=13  partial=3  reducible=3",
-        "necessary vs contingent: 7 vs 13",
+        "bail_bondsman          criminal justi law: cash bail         contingent   2.000",
+        "app_store_30pct        software       monopoly: walled garde contingent   2.000",
+        "payment_network_auth   finance        none (joint authorizat necessary    0.000",
+        "ride_hail_platform     mobility       matching + bypassable  partial      1.585",
+        "newspaper_classifieds  media          none (Craigslist opene reducible    0.000",
+        "by class: necessary=13  contingent=25  partial=7  reducible=6",
+        "necessary vs contingent: 13 vs 25",
         "all entries classify as cataloged: True"
       ],
-      "timeout": 60,
+      "timeout": 120,
       "source": "org_frontier/studies/irreducibility_catalog/FINDINGS.md"
     },
     {

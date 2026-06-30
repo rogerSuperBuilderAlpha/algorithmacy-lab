@@ -1,6 +1,6 @@
 IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
 ====================================================================================
-  entries: 26   instrument: bypass-counterfactual (classifier/contingency.py)
+  entries: 51   instrument: bypass-counterfactual (classifier/contingency.py)
   --------------------------------------------------------------------------------
   entry                  domain         constraint_type        class       margin
   car_dealer             auto retail    franchise law          contingent   2.000
@@ -29,8 +29,33 @@ IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
   gatekeeping_platform   economics      access control [Hagiu  contingent   2.000
   market_maker           economics      none [Rubinstein-Wolin partial      1.585
   arbitrageur_friction   economics      search friction [Rubin contingent   2.000
+  bail_bondsman          criminal justi law: cash bail         contingent   2.000
+  title_insurer          real estate    law: lender requiremen contingent   2.000
+  real_estate_appraiser  real estate    law: lender requiremen contingent   2.000
+  immigration_attorney   legal          law: representation ru contingent   2.000
+  accreditation_body     education      law: funding gate      contingent   2.000
+  app_store_30pct        software       monopoly: walled garde contingent   2.000
+  ticketmaster           live events    monopoly: exclusive co contingent   2.000
+  mls_realty             real estate    monopoly: cartel rules contingent   2.000
+  domain_registrar       internet       monopoly: root authori contingent   2.000
+  swift_messaging        finance        network: standard lock contingent   2.000
+  freight_broker         logistics      friction: fragmentatio contingent   2.000
+  union_hiring_hall      labor          collective bargaining  contingent   2.000
+  payment_network_auth   finance        none (joint authorizat necessary    0.000
+  stock_exchange         finance        none (order matching)  necessary    0.000
+  credit_bureau          finance        none (cross-lender agg necessary    0.000
+  air_traffic_control    aviation       none (joint deconflict necessary    0.000
+  auction_house          art & collecti none (price discovery) necessary    0.000
+  patent_pool_sso        standards      none (pools licensors) necessary    0.000
+  pharmacy_benefit_manager healthcare     formulary + rent gate  partial      1.585
+  ride_hail_platform     mobility       matching + bypassable  partial      1.585
+  gpo_healthcare         healthcare     aggregation + bypassab partial      1.585
+  talent_agent           entertainment  curation + access gate partial      1.585
+  newspaper_classifieds  media          none (Craigslist opene reducible    0.000
+  indie_record_label     music          none (direct distribut reducible    0.000
+  retail_middleman_dtc   retail         none (DTC brands)      reducible    0.000
   --------------------------------------------------------------------------------
-  by class: necessary=7  contingent=13  partial=3  reducible=3
-  necessary vs contingent: 7 vs 13
+  by class: necessary=13  contingent=25  partial=7  reducible=6
+  necessary vs contingent: 13 vs 25
   all entries classify as cataloged: True
 ====================================================================================
