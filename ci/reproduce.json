@@ -3335,6 +3335,20 @@
       ],
       "timeout": 30,
       "source": "org_frontier/studies/constraint_durability/FINDINGS.md"
+    },
+    {
+      "name": "durability-intercoder",
+      "cmd": "python org_frontier/studies/constraint_durability/analyze_intercoder.py",
+      "expect": [
+        "coders: 3   items: 20   pairwise r: 0.975 0.890 0.854",
+        "GATE inter-coder reliability: mean pairwise r=0.907 (floor 0.60): PASS",
+        "consensus differs from the single-coder durability on 6 of 20 items: accreditation_body, bail_bondsman, prescription_refill, ride_hail_platform, swift_messaging, union_hiring_hall",
+        "single-coder baseline : r=0.925  acc=0.85  FP=0",
+        "blind-consensus       : r=0.859  acc=0.85  TP=13 FP=1 TN=9 FN=3",
+        "the forecast survives blind coding: True"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/studies/constraint_durability/FINDINGS.md"
     }
   ]
 }
