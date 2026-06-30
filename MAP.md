@@ -62,7 +62,7 @@ Run the relevant generator after adding content, then verify with its `--check`.
 |---|---|---|
 | 163 | questions | `org_frontier/questions/q*_*/` |
 | 134 | probes | `org_frontier/probes/probe_*.py` |
-| 3 | studies | `org_frontier/studies/*/` |
+| 4 | studies | `org_frontier/studies/*/` |
 | 18 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |
