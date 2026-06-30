@@ -1,0 +1,19 @@
+CONTINGENCY TRANSITIONS — the operations that move an intermediary between cells
+============================================================================================
+  contingent  -> reducible    open_the_bypass     
+               deregulation / mandated interoperability: franchise-law repeal, DMA sideloading, the NAR settlement
+  reducible   -> contingent   erect_a_constraint  
+               a new law, license, exclusive contract, or walled garden goes up around a free conduit
+  contingent  -> necessary    integrate           
+               a relay builds a joint-condition service: a payments pipe adds fraud-scoring, a pipe becomes a clearinghouse
+  necessary   -> reducible    commoditize         
+               the integration becomes reproducible: open-standard matching, credit data opened, so the direct tie can do it
+  partial     -> contingent   raise_the_gate      
+               a partial intermediary closes its direct channel and forces routing through the gate
+  partial     -> reducible    lower_the_gate      
+               the direct channel takes over a partial intermediary: self-service erodes the agent until the bypass is default
+============================================================================================
+  operations: 6   all transitions classify as expected: True
+  opening the bypass evicts a contingent party (-> reducible): True
+  necessary is the only cell opening the bypass cannot evict: True
+============================================================================================
