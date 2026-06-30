@@ -1,6 +1,6 @@
 IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
 ====================================================================================
-  entries: 13   instrument: bypass-counterfactual (classifier/contingency.py)
+  entries: 26   instrument: bypass-counterfactual (classifier/contingency.py)
   --------------------------------------------------------------------------------
   entry                  domain         constraint_type        class       margin
   car_dealer             auto retail    franchise law          contingent   2.000
@@ -16,8 +16,21 @@ IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
   travel_agent           travel         none (eroding)         partial      1.585
   insurance_broker       insurance      none (eroding)         partial      1.585
   unexclusive_reseller   retail         none                   reducible    0.000
+  tertius_gaudens        brokerage      maintained gap [Simmel contingent   2.000
+  structural_hole_broker brokerage      structural hole [Burt  contingent   2.000
+  granovetter_bridge     networks       bridge tie [Granovette contingent   2.000
+  tertius_iungens_integrating brokerage      none [Obstfeld 2005]   necessary    0.000
+  tertius_iungens_selfliquidating brokerage      none [Obstfeld 2005]   reducible    0.000
+  simmelian_mediator     sociology      none [Simmel 1908]     necessary    0.000
+  gf_coordinator         brokerage      within-group [Gould-Fe reducible    0.000
+  gf_gatekeeper          brokerage      group boundary [Gould- contingent   2.000
+  gf_liaison             brokerage      two boundaries [Gould- contingent   2.000
+  two_sided_platform     economics      none [Rochet-Tirole 20 necessary    0.000
+  gatekeeping_platform   economics      access control [Hagiu  contingent   2.000
+  market_maker           economics      none [Rubinstein-Wolin partial      1.585
+  arbitrageur_friction   economics      search friction [Rubin contingent   2.000
   --------------------------------------------------------------------------------
-  by class: necessary=4  contingent=6  partial=2  reducible=1
-  necessary vs contingent: 4 vs 6
+  by class: necessary=7  contingent=13  partial=3  reducible=3
+  necessary vs contingent: 7 vs 13
   all entries classify as cataloged: True
 ====================================================================================

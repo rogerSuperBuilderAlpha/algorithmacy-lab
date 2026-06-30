@@ -3269,19 +3269,38 @@
       "name": "irreducibility-catalog",
       "cmd": "python org_frontier/studies/irreducibility_catalog/build_catalog.py",
       "expect": [
-        "entries: 13   instrument: bypass-counterfactual (classifier/contingency.py)",
+        "entries: 26   instrument: bypass-counterfactual (classifier/contingency.py)",
         "car_dealer             auto retail    franchise law          contingent   2.000",
-        "title_passthrough      real estate    recording requirement  contingent   2.000",
         "clearinghouse_ccp      finance        none (integrates)      necessary    0.000",
-        "escrow_conditional     real estate    none (integrates)      necessary    0.000",
-        "travel_agent           travel         none (eroding)         partial      1.585",
-        "unexclusive_reseller   retail         none                   reducible    0.000",
-        "by class: necessary=4  contingent=6  partial=2  reducible=1",
-        "necessary vs contingent: 4 vs 6",
+        "tertius_gaudens        brokerage      maintained gap [Simmel contingent   2.000",
+        "tertius_iungens_selfliquidating brokerage      none [Obstfeld 2005]   reducible    0.000",
+        "two_sided_platform     economics      none [Rochet-Tirole 20 necessary    0.000",
+        "by class: necessary=7  contingent=13  partial=3  reducible=3",
+        "necessary vs contingent: 7 vs 13",
         "all entries classify as cataloged: True"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/irreducibility_catalog/FINDINGS.md"
+    },
+    {
+      "name": "q214-triadic-classification",
+      "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
+      "expect": [
+        "control  conjunctive triad : triadic Φ=2.000000 PASS",
+        "tertius_gaudens                  obstfeld2014    contingent   2.000",
+        "tertius_iungens_integrating      obstfeld2005    necessary    0.000",
+        "tertius_iungens_selfliquidating  obstfeld2005    reducible    0.000",
+        "gf_coordinator                   gould1989       reducible    0.000",
+        "gf_itinerant                     gould1989       partial      1.585",
+        "two_sided_platform               rochet2003      necessary    0.000",
+        "H1 (gaudens family all contingent, margin 2.0): SUPPORTED",
+        "H2 (iungens splits: integrating necessary, self-liquidating reducible): SUPPORTED",
+        "H3 (integrators necessary: Simmelian mediator, two-sided platform): SUPPORTED",
+        "H4 (Gould-Fernandez roles sort by group boundary): SUPPORTED",
+        "H5 (Heider balance triad is mutual, not mediated; test N/A): SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q214_triadic_classification/FINDINGS.md"
     }
   ]
 }
