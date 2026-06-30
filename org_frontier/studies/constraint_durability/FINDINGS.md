@@ -44,10 +44,27 @@ the bypass-counterfactual, durability from the rubric — predicts which is whic
 result is the zero false positives: the formal class plus a durable constraint is a reliable "this holds," and
 the cases it called wrong are only ones it called too safe.
 
+## Blind inter-coder validation
+
+The forecast above rested on durability scored by one coder who also knew the outcomes. To test whether the
+durability signal is recoverable independently, three coders re-scored every constraint blind to the outcomes,
+to the predictor, and to the contingent/necessary framework — they saw only each intermediary and a neutral
+description of its constraint, and rated how hard it would be to remove (`analyze_intercoder.py`).
+
+The blind coders agree: mean pairwise reliability r=0.907, and their median consensus differs from the
+single-coder durability on only 6 of 20 items, each by one notch. Re-running the backtest on the blind
+consensus, the forecast holds — r=0.859, accuracy 0.85 — down from the single-coder r=0.925 but well clear of
+chance. The blind pass also corrects an optimism: the single-coder version had zero false positives, the blind
+version has one. It is ride-hail, which the coders rated a less durable gate than it has proven; the forecast
+calls it falling and it is holding. The durability that drives the forecast is not an artifact of
+outcome-aware coding — independent readers recover it, and it still predicts history — and the one place the
+author's coding flattered the forecast is now visible.
+
 ## Caveats
 
-Durability (0-3) and the observed outcome are hand-coded by one coder against a stated rubric; the backtest,
-not coder agreement, is the validation, and a blind multi-coder durability pass is the next step. The observed
+Durability (0-3) and the observed outcome are hand-coded; the blind inter-coder pass (r=0.907) shows the
+durability is recoverable, but the observed outcomes are still single-coded and the backtest, not coder
+agreement, is the validation of the forecast itself. The observed
 outcomes are read as of 2026 and several are mid-transition (an intermediary "falling" has not fully fallen).
 The dataset is 26 intermediaries chosen to span the classes and include known historical casualties, not a
 random sample, so the correlation is a consistency check against history, not an out-of-sample test. The
