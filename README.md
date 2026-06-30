@@ -256,7 +256,7 @@ Multi-experiment batteries on one theme.
 - **[Coordination-logic atlas](org_frontier/studies/coordination_logic_atlas/README.md)** — Fifty coordination forms, classified by exact IIT-4.0 Φ. Thirty-six verdicts matched the
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
-- **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — Thirteen real coordination arrangements classified by the bypass-counterfactual (q213). First batch:
+- **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 26 entries classified by the bypass-counterfactual (q213): 13 real coordination arrangements and 13
 
 ### Foundations — what tracks Φ
 
@@ -272,12 +272,12 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
-### Questions — the logbook (163)
+### Questions — the logbook (164)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 163 questions</summary>
+<summary>Browse all 164 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -444,6 +444,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q211](org_frontier/questions/q211_direct_mediator_channel/paper.md) | A direct mediator channel merges two triads | Two complete conjunctive triads, joined only by a direct channel between their two mediators (S1 reads S2, |
 | [Q212](org_frontier/questions/q212_channel_location/paper.md) | The merging channel must run between the mediators | The same single AND cross-triad channel moved across three homologous node pairs — mediator (the q211 |
 | [Q213](org_frontier/questions/q213_contingent_irreducibility/paper.md) | Contingent irreducibility: a party held in the core by a constraint, not a role | A new category of irreducibility and a reusable instrument to detect it. A mediator can sit in a triad's core |
+| [Q214](org_frontier/questions/q214_triadic_classification/paper.md) | A formal criterion for a verbal distinction: classifying the literature's triad types | The canonical triad types of the brokerage, sociology, and economics literature, classified by the q213 |
 
 </details>
 

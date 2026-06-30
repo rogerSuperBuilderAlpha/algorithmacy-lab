@@ -1,14 +1,24 @@
 # irreducibility_catalog — findings
 
-Thirteen real coordination arrangements classified by the bypass-counterfactual (q213). First batch:
-necessary 4, contingent 6, partial 2, reducible 1. Every entry classifies as cataloged. n=3 per form, exact Φ.
+26 entries classified by the bypass-counterfactual (q213): 13 real coordination arrangements and 13
+literature-grounded triad types (q214, the brokerage/sociology/economics canon). Totals: necessary 7,
+contingent 13, partial 3, reducible 3. Every entry classifies as cataloged. n=3 per form, exact Φ.
 
-| reading | count | entries |
-|---|---|---|
-| contingent | 6 | car_dealer, liquor_distributor, customs_broker, notary, prescription_refill, title_passthrough |
-| necessary (intrinsic) | 4 | clearinghouse_ccp, interpreter, court_adjudication, escrow_conditional |
-| partial | 2 | travel_agent, insurance_broker |
-| reducible | 1 | unexclusive_reseller |
+| reading | count | real arrangements | literature types (q214) |
+|---|---|---|---|
+| contingent | 13 | car_dealer, liquor_distributor, customs_broker, notary, prescription_refill, title_passthrough | tertius_gaudens, structural_hole_broker, granovetter_bridge, gf_gatekeeper, gf_liaison, gatekeeping_platform, arbitrageur_friction |
+| necessary | 7 | clearinghouse_ccp, interpreter, court_adjudication, escrow_conditional | tertius_iungens_integrating, simmelian_mediator, two_sided_platform |
+| partial | 3 | travel_agent, insurance_broker | market_maker |
+| reducible | 3 | unexclusive_reseller | tertius_iungens_selfliquidating, gf_coordinator |
+
+## The literature batch (q214)
+
+The brokerage canon's verbal line — the third who joins versus the third who profits by keeping the parties
+apart — sorts under the bypass-counterfactual as necessary versus contingent. Every gaudens-family broker
+(Simmel's *tertius gaudens*, Burt's structural-hole broker, the Granovetter bridge) reads contingent; every
+integrator (the Simmelian mediator, the two-sided platform) reads necessary. The *tertius iungens* splits: the
+broker that keeps integrating is necessary, the one that fully joins its parties writes itself out of the core
+(reducible). See `org_frontier/questions/q214_triadic_classification/` for the full study and citations.
 
 ## Many constraints, one structure
 
