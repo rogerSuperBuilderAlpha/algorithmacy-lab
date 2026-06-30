@@ -3264,6 +3264,24 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q213_contingent_irreducibility/FINDINGS.md"
+    },
+    {
+      "name": "irreducibility-catalog",
+      "cmd": "python org_frontier/studies/irreducibility_catalog/build_catalog.py",
+      "expect": [
+        "entries: 13   instrument: bypass-counterfactual (classifier/contingency.py)",
+        "car_dealer             auto retail    franchise law          contingent   2.000",
+        "title_passthrough      real estate    recording requirement  contingent   2.000",
+        "clearinghouse_ccp      finance        none (integrates)      necessary    0.000",
+        "escrow_conditional     real estate    none (integrates)      necessary    0.000",
+        "travel_agent           travel         none (eroding)         partial      1.585",
+        "unexclusive_reseller   retail         none                   reducible    0.000",
+        "by class: necessary=4  contingent=6  partial=2  reducible=1",
+        "necessary vs contingent: 4 vs 6",
+        "all entries classify as cataloged: True"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/irreducibility_catalog/FINDINGS.md"
     }
   ]
 }

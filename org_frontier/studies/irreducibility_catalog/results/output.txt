@@ -1,0 +1,23 @@
+IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
+====================================================================================
+  entries: 13   instrument: bypass-counterfactual (classifier/contingency.py)
+  --------------------------------------------------------------------------------
+  entry                  domain         constraint_type        class       margin
+  car_dealer             auto retail    franchise law          contingent   2.000
+  liquor_distributor     alcohol        three-tier law         contingent   2.000
+  customs_broker         trade          licensing mandate      contingent   2.000
+  notary                 legal instrume statutory witnessing   contingent   2.000
+  prescription_refill    pharmacy       dispensing law         contingent   2.000
+  title_passthrough      real estate    recording requirement  contingent   2.000
+  clearinghouse_ccp      finance        none (integrates)      necessary    0.000
+  interpreter            language       none (integrates)      necessary    0.000
+  court_adjudication     law            none (integrates)      necessary    0.000
+  escrow_conditional     real estate    none (integrates)      necessary    0.000
+  travel_agent           travel         none (eroding)         partial      1.585
+  insurance_broker       insurance      none (eroding)         partial      1.585
+  unexclusive_reseller   retail         none                   reducible    0.000
+  --------------------------------------------------------------------------------
+  by class: necessary=4  contingent=6  partial=2  reducible=1
+  necessary vs contingent: 4 vs 6
+  all entries classify as cataloged: True
+====================================================================================
