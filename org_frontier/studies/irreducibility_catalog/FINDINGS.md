@@ -1,15 +1,41 @@
 # irreducibility_catalog — findings
 
-26 entries classified by the bypass-counterfactual (q213): 13 real coordination arrangements and 13
-literature-grounded triad types (q214, the brokerage/sociology/economics canon). Totals: necessary 7,
-contingent 13, partial 3, reducible 3. Every entry classifies as cataloged. n=3 per form, exact Φ.
+51 entries classified by the bypass-counterfactual (q213): 38 real-world arrangements and 13
+literature-grounded triad types (q214). Totals: necessary 13, contingent 25, partial 7, reducible 6. Every
+entry classifies as cataloged. n=3 per form, exact Φ.
 
-| reading | count | real arrangements | literature types (q214) |
+## The contingent class subdivides by what holds the bypass shut
+
+The 25 contingent entries are not one thing. What keeps the parties from connecting directly varies, and the
+catalog records it. **Law / regulation:** the car dealer (franchise law), liquor distributor (three-tier), bail
+bondsman (cash bail), title insurer and appraiser (lender requirements), notary, prescription pharmacist,
+customs broker, accreditation body. **Monopoly / exclusive control:** the app store (walled garden),
+Ticketmaster (exclusive venue contracts), the MLS (association rules), the domain registrar (root authority).
+**Network / standard lock-in:** SWIFT. **Search friction:** the freight broker, the friction-bound middleman.
+**Collective bargaining:** the union hiring hall. The structural signature is identical — a relay dissolving to
+a dyad on the bypass, margin = full Φ — and the *kind* of constraint is the real-world variable. The
+contingency margin says how much; the family says what.
+
+## The taxonomy predicts what survives disintermediation
+
+The class is a prediction about an intermediary's fate when the internet lowers the cost of the direct tie.
+A **reducible** intermediary has no constraint holding the bypass shut, so when the bypass opens it is removed:
+newspaper classifieds (Craigslist), the indie record label (direct distribution), the retail middleman (DTC
+brands) — all disintermediated. A **contingent** intermediary is held by a constraint the internet cannot
+lower, so it survives: the car dealer kept its franchise law, the bail bondsman kept cash bail, the app store
+kept its walled garden. A **necessary** intermediary integrates a joint condition the direct tie cannot
+reproduce, so the bypass never threatened it: the clearinghouse, the exchange, air traffic control. The
+**partial** cases are the contested middle — the PBM, the ride-hail platform, the GPO, the talent agent — doing
+real integration beside a bypassable gate, and these are exactly the intermediaries under live disintermediation
+pressure. Which intermediaries the internet killed and which it could not is read off the class: reducible dies,
+contingent survives by its constraint, necessary survives by its work.
+
+| reading | count | margin | what it means |
 |---|---|---|---|
-| contingent | 13 | car_dealer, liquor_distributor, customs_broker, notary, prescription_refill, title_passthrough | tertius_gaudens, structural_hole_broker, granovetter_bridge, gf_gatekeeper, gf_liaison, gatekeeping_platform, arbitrageur_friction |
-| necessary | 7 | clearinghouse_ccp, interpreter, court_adjudication, escrow_conditional | tertius_iungens_integrating, simmelian_mediator, two_sided_platform |
-| partial | 3 | travel_agent, insurance_broker | market_maker |
-| reducible | 3 | unexclusive_reseller | tertius_iungens_selfliquidating, gf_coordinator |
+| contingent | 25 | 2.0 (full Φ) | a conduit held in the core only by a constraint; dissolves when the bypass opens |
+| necessary | 13 | 0.0 | integrates a joint condition the direct tie cannot reproduce |
+| partial | 7 | 1.585 | real integration beside a bypassable channel |
+| reducible | 6 | 0.0 | already out of the core; no constraint and no integration |
 
 ## The literature batch (q214)
 
