@@ -2,23 +2,15 @@
 
 ## Abstract
 
-The European Union has assembled the world's most extensive digital regulatory architecture, yet an
-organization can be fully compliant with it and still hold no leverage over the algorithms that determine its
-market position. This chapter argues that the gap is not an oversight but a structural limit. Sovereignty has
-always been paired with a communicative sensibility: oral orders were governed through oracy, literate states
-through literacy, and digital infrastructures through an extended literacy that reads code, data, and
-regulation. Platform coordination introduces a situation the prior sensibilities cannot govern, in which actors are enrolled
-into an algorithmic third party that interprets them and commits outcomes they do not control. Governing that situation
-requires a different sensibility, algorithmacy, and it calls for a form of sovereignty that the prior forms
-cannot supply. The chapter names and defines that form as coordinative sovereignty: the standing to shape the
-terms of a mediation one cannot leave, to contest the mediator's arbitrary power, and to hold a share in the
-governance of the coordination itself. To make the account precise, the chapter foregrounds a formal
-diagnostic. Modeling a coordination as a small causal system, it distinguishes mediators that a direct tie
-could replace from mediators that no direct tie can replace, and shows that the distinction decides whether an
-actor's remaining power is exit or voice. Coordinative sovereignty is the theory of that voice. The chapter
-develops the construct, distinguishes it from digital sovereignty, sets out the institutions that could realize
-it, and closes on whether algorithmacy can be democratized as literacy was, or will remain concentrated in a
-narrow algorithmate class.
+An organization can comply with Europe's digital regulation and still hold no leverage over the algorithms that
+set its market position — a structural limit, not an oversight. Each historical sovereignty has been paired with
+a communicative sensibility: oracy for oral orders, literacy for the literate state, an extended literacy of
+code and data for digital infrastructure. Platform coordination introduces a situation these cannot govern, in
+which actors are enrolled into an algorithmic third party that commits outcomes they cannot control. Governing it
+requires a different sensibility, algorithmacy, and a new form of sovereignty: coordinative sovereignty, the
+standing to shape the terms of a mediation one cannot leave and to contest the mediator's arbitrary power. The
+chapter gives it a formal diagnostic — which mediators an actor can exit and which it can only contest — and
+sets out the institutions that could build such standing.
 
 **Keywords:** digital sovereignty, coordinative sovereignty, algorithmacy, platform coordination, co-optation,
 algorithmic management, non-domination, exit and voice, contestability, data trusts
@@ -363,10 +355,15 @@ message; it commits an outcome that depends on both parties at once and that nei
 actor governs a triadic arrangement, if at all, by algorithmacy.
 
 The distinction is not a metaphor. Given the rules of a coordination, whether it factors can be computed instead
-of judged; the companion work does so with integrated-information measures, which quantify how much of a
-system's joint behavior is lost when it is split along its least damaging partition (Author, 2026). A form that
-loses nothing under the split is dyadic, and literacy suffices; a form that cannot be split without loss is
-triadic, and demands algorithmacy. The competence question is an irreducibility question in different clothes.
+of judged; the companion work does so with the integrated-information measures of integrated information theory
+(Oizumi et al., 2014; Albantakis et al., 2023), which quantify how much of a system's joint behavior is lost
+when it is split along its least damaging partition (Author, 2026). A form that loses nothing under the split is
+dyadic, and literacy suffices; a form that cannot be split without loss is triadic, and demands algorithmacy.
+The competence question is an irreducibility question in different clothes. A plain factorization check can reach
+the same verdict on a simple case, and integrated information earns its place not by overturning that verdict but
+by grounding it: it supplies a principled measure of how much integration a mediator carries, extends to the
+partial and multi-party cases a binary check handles only awkwardly, and connects the diagnostic to an
+established formal account of when a whole is irreducible to its parts.
 
 ### 5.2 The bypass test: necessary versus contingent mediators
 
@@ -658,12 +655,16 @@ conceptual chapter settles. Algorithmacy has been named as a competence but has 
 coordinative sovereignty is introduced here for the first time. Until both can be measured, the typology's
 central empirical claim — that the two vary independently and predict different outcomes — can be argued but not
 tested. Building the instruments is the precondition of the research program the typology opens, and the paths
-to it are set out in the future-directions section below.
+to it are set out in the future-directions section below. Disaggregating a construct the field has measured as
+one is itself a contribution to the operationalization of digital sovereignty this volume calls for, prior to
+and enabling any instrument.
 
-For managers, the argument identifies a strategic exposure that compliance investment does not address. A firm
-that invests in regulatory compliance secures a digital position and acquires no ability to predict or contest
-the algorithmic determinations that set its market outcomes. The exposure is an algorithmacy gap, and it is
-distinct from the compliance posture that dominates digital-sovereignty practice. The diagnostic gives managers
+For managers, the argument identifies a strategic exposure that compliance investment does not address, and it
+falls hardest on the small and medium-sized enterprises that depend on platforms they have no scale to
+influence — the independent software vendor, the marketplace seller, the gig operator. A firm that invests in
+regulatory compliance secures a digital position and acquires no ability to predict or contest the algorithmic
+determinations that set its market outcomes. The exposure is an algorithmacy gap, and it is distinct from the
+compliance posture that dominates digital-sovereignty practice. The diagnostic gives managers
 a decision procedure. Where the firm depends on a contingent mediator, the strategic move is to press for exit —
 to support interoperability, to build or back an alternative, to break the lock-in. Where the firm depends on a
 necessary mediator, exit is a mirage, and the strategic move is to build voice — to organize with other
@@ -801,6 +802,11 @@ secures it.
 Adler, P. S. (2001). Market, hierarchy, and trust: The knowledge economy and the future of capitalism.
 *Organization Science, 12*(2), 215–234. https://doi.org/10.1287/orsc.12.2.215.10117
 
+Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W., Mayner, W. G. P., Zaeemzadeh,
+A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., & Tononi, G. (2023).
+Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms.
+*PLOS Computational Biology, 19*(10), Article e1011465. https://doi.org/10.1371/journal.pcbi.1011465
+
 Alfrink, K., Keller, I., Kortuem, G., & Doorn, N. (2023). Contestable AI by design: Towards a framework. *Minds
 and Machines, 33*(4), 613–639. https://doi.org/10.1007/s11023-022-09611-z
 
@@ -899,6 +905,10 @@ Nedelsky, J. (2011). *Law's relations: A relational theory of self, autonomy, an
 Nussbaum, M. C. (2006). Education and democratic citizenship: Capabilities and quality education. *Journal of
 Human Development, 7*(3), 385–395. https://doi.org/10.1080/14649880600815974
 
+Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness:
+Integrated Information Theory 3.0. *PLOS Computational Biology, 10*(5), Article e1003588.
+https://doi.org/10.1371/journal.pcbi.1003588
+
 Ong, W. J. (1982). *Orality and literacy: The technologizing of the word*. Methuen.
 
 Ostrom, E. (1990). *Governing the commons: The evolution of institutions for collective action*. Cambridge
@@ -982,3 +992,73 @@ Williamson, O. E. (1975). *Markets and hierarchies: Analysis and antitrust impli
 
 Zuboff, S. (2019). *The age of surveillance capitalism: The fight for a human future at the new frontier of
 power*. PublicAffairs.
+
+## Additional Reading
+
+Benkler, Y. (2006). *The wealth of networks: How social production transforms markets and freedom*. Yale
+University Press.
+
+Bratton, B. H. (2015). *The stack: On software and sovereignty*. MIT Press.
+
+Couldry, N., & Mejias, U. A. (2019). *The costs of connection: How data is colonizing human life and
+appropriating it for capitalism*. Stanford University Press.
+
+Crawford, K. (2021). *Atlas of AI: Power, politics, and the planetary costs of artificial intelligence*. Yale
+University Press.
+
+Gillespie, T. (2018). *Custodians of the Internet: Platforms, content moderation, and the hidden decisions that
+shape social media*. Yale University Press.
+
+Pasquale, F. (2015). *The black box society: The secret algorithms that control money and information*. Harvard
+University Press.
+
+Srnicek, N. (2017). *Platform capitalism*. Polity Press.
+
+van Dijck, J., Poell, T., & de Waal, M. (2018). *The platform society: Public values in a connective world*.
+Oxford University Press.
+
+## Key Terms and Definitions
+
+**Digital sovereignty:** The capacity of a state, organization, or community to exercise control over its
+digital infrastructure, data, and technologies. In this chapter it is treated as a literacy-based form of
+governance, attained by reading and holding to account what a digital system discloses.
+
+**Coordinative sovereignty:** The autonomy proper to being irreducibly coordinated. It is the standing to shape
+the terms on which one is mediated, to contest the mediator's arbitrary power, and to hold a share in the
+governance of an arrangement one cannot leave. Its currency is effective voice.
+
+**Algorithmacy:** The integrated competence through which an actor coordinates with another party through an
+algorithmic third party that interprets both sides and commits determinations neither controls. It has three
+parts: inferential (modeling an unseen system), translational (acting in the system's terms), and temporal
+(holding a strategy through undisclosed change).
+
+**Communicative sensibility:** A competence for handling the medium through which authority is exercised and
+contested. Oracy, literacy, and algorithmacy are the three the chapter tracks, each paired with a form of
+sovereignty.
+
+**Mediated triad:** A coordination in which two parties are bound together through a third party that interprets
+both and commits outcomes neither controls, rather than dealing with each other directly.
+
+**Co-optation:** Enrollment of an actor into a coordination authored by an interested third party, without the
+delegated authority of a hierarchy or the negotiated terms of a contract; the platform form is a harder variant
+of the organizational co-optation Selznick named, conferring no seat and no share.
+
+**Necessary mediator:** A mediator that remains constitutive of a coordination even when a direct tie between the
+parties it stands between is restored, because its position rests on integrating work the direct tie cannot
+reproduce. It cannot be exited, so the coordinated actor's remaining power is voice.
+
+**Contingent mediator:** A mediator that ceases to bind when a direct tie between the parties is restored,
+because its position rested on the absence of that tie, usually held in place by an external constraint such as a
+law or a lock-in. It can be exited, so the actor's remaining power includes exit.
+
+**Exit and voice:** Hirschman's two responses to a declining relationship — leaving it (exit) or staying and
+pressing for change (voice). In this chapter, exit is available against a contingent mediator and only voice
+remains against a necessary one.
+
+**Non-domination:** The republican conception of freedom as the absence of another's arbitrary power, rather
+than the mere absence of interference. A coordinated actor is dominated to the degree the mediator's power over
+it is unconstrained by rules the actor can contest.
+
+**Irreducibility:** The property of a coordination that does not factor into separable parts. A triadic
+(irreducible) coordination binds its parties into a joint determination no partition recovers and demands
+algorithmacy; a dyadic (reducible) one comes apart and is governed by literacy.
