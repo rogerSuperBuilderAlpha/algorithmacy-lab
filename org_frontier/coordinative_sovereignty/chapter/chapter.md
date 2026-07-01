@@ -650,7 +650,18 @@ separates two phenomena that vary independently across firms. Digital sovereignt
 measures an organization's capacity to read and control its data, infrastructure, and code. Coordinative
 sovereignty is an algorithmacy construct: it measures an organization's standing within the algorithmic
 coordination on which it depends. A firm can be high on the first and low on the second — impeccably compliant
-and strategically captured — and the two predict different outcomes. Coordinative sovereignty invites its own
+and strategically captured — and the two predict different outcomes. The independent variation is visible in
+concrete cases. An application developer or an online-marketplace seller can own its code and data, hold
+data-portability rights, and comply fully with the GDPR and the Digital Markets Act, and still hold no leverage
+over the ranking and review algorithms that set its visibility; the market-conduct remedies of 2025 reached
+platforms' anti-steering rules and mandated ranking transparency, which lets a firm see how it ranks without
+letting it contest the ranking (Cutolo & Kenney, 2021). That is high digital sovereignty beside low coordinative
+sovereignty. The reverse pairing is equally real: a platform worker owns none of the infrastructure that
+coordinates the work, yet under the European platform-work directive now holds information rights over the
+automated systems, a right to human review of consequential automated decisions, limits on the data the platform
+may process, and a mandated channel for collective bargaining — standing over the coordination that rose while
+infrastructure control stayed at zero (European Parliament & Council, 2024). Because the two sovereignties move
+apart in this way, coordinative sovereignty invites its own
 measurement. Its components follow from the definition and the sensibility that enables it: recognizing that one
 is triadically coordinated, modeling and anticipating the mediator's determinations, and acting to shape and
 contest them. Algorithm sensemaking (Möhlmann et al., 2023) is one measured dimension of the first component.
@@ -709,9 +720,14 @@ debate. That debate is usually staged as a choice: openness invites dependence o
 control invites fragmentation and lost efficiency. The framing here cuts across the choice. For the coordinated
 actor, the relevant question is not whether the system is open or closed but whether the actor has standing
 within it, and standing is compatible with either. A closed, sovereign national platform in which its users have
-no voice reproduces the co-optation it was meant to escape, now under a domestic flag. An open, global platform
-governed with genuine contestation and collective standing may deliver more coordinative sovereignty than a
-walled alternative that its users cannot govern. Openness and control are properties of the infrastructure;
+no voice reproduces the co-optation it was meant to escape, now under a domestic flag. State-integrated
+national platforms illustrate the point: where a domestic platform is woven into public administration and
+content control, the state secures a strong digital sovereignty over the infrastructure while the users
+coordinated through it hold no standing within it at all. An open, cooperatively or federally governed platform
+can run the other way — a member-governed mobility cooperative deciding its terms by assembly, or a federated
+social network whose users hold both exit to another instance and a voice in local governance — delivering more
+coordinative sovereignty than a walled alternative its users cannot govern, and owing none of it to state
+control (Couture & Toupin, 2019). Openness and control are properties of the infrastructure;
 coordinative sovereignty is a property of the coordinated actor's relation to it, and the two do not track each
 other. A policy that maximizes national control while leaving its citizens co-opted has secured digital
 sovereignty and forfeited the coordinative kind. Keeping the two apart is what lets a policymaker ask the
@@ -807,6 +823,10 @@ https://doi.org/10.1080/19312458.2021.1968361
 
 Eisenstein, E. L. (1979). *The printing press as an agent of change: Communications and cultural
 transformations in early modern Europe*. Cambridge University Press.
+
+European Parliament & Council of the European Union. (2024). *Directive (EU) 2024/2831 of the European
+Parliament and of the Council of 23 October 2024 on improving working conditions in platform work* (Official
+Journal of the European Union, L 2024/2831). http://data.europa.eu/eli/dir/2024/2831/oj
 
 Floridi, L. (2020). The fight for digital sovereignty: What it is, and why it matters, especially for the EU.
 *Philosophy & Technology, 33*(3), 369–378. https://doi.org/10.1007/s13347-020-00423-6
