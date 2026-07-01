@@ -653,24 +653,12 @@ coordinates the work, yet under the European platform-work directive now holds i
 automated systems, a right to human review of consequential automated decisions, limits on the data the platform
 may process, and a mandated channel for collective bargaining — standing over the coordination that rose while
 infrastructure control stayed at zero (European Parliament & Council, 2024). Because the two sovereignties move
-apart in this way, coordinative sovereignty invites its own
-measurement. Its components follow from the definition and the sensibility that enables it: recognizing that one
-is triadically coordinated, modeling and anticipating the mediator's determinations, and acting to shape and
-contest them. Algorithm sensemaking (Möhlmann et al., 2023) is one measured dimension of the first component.
-Scale development, dimensional analysis, and discriminant validation of algorithmacy and coordinative
-sovereignty as distinct from existing digital-sovereignty constructs follow from the typology, and they take up
-the volume's explicit invitation to measure and operationalize digital sovereignty by showing that the single
-construct conceals two.
-
-The operationalization also inherits a diagnostic the typology already provides. Because the necessary/contingent
-test can be computed for a modeled coordination, an empirical program can classify the mediators an organization
-depends on before it measures the organization's response to them, and can then ask whether firms match their
-strategy to the classification — whether they press for exit against contingent gates and build voice against
-necessary ones, or whether they misallocate. A firm's coordinative sovereignty is not only how much standing it
-holds but whether it holds the right kind of standing given the mediators it faces. That two-step design —
-classify the mediation, then measure the fit of the response — is available to this construct in a way it is not
-available to a monolithic digital-sovereignty measure, and it is where the formal apparatus earns its place in an
-empirical management program rather than remaining a conceptual ornament.
+apart in this way, they call for separate measurement, and here the typology reaches the boundary of what a
+conceptual chapter settles. Algorithmacy has been named as a competence but has no validated instrument, and
+coordinative sovereignty is introduced here for the first time. Until both can be measured, the typology's
+central empirical claim — that the two vary independently and predict different outcomes — can be argued but not
+tested. Building the instruments is the precondition of the research program the typology opens, and the paths
+to it are set out in the future-directions section below.
 
 For managers, the argument identifies a strategic exposure that compliance investment does not address. A firm
 that invests in regulatory compliance secures a digital position and acquires no ability to predict or contest
@@ -726,7 +714,53 @@ sovereignty and forfeited the coordinative kind. Keeping the two apart is what l
 question that matters: not only who owns the platform, but what standing the people coordinated through it will
 hold.
 
-## 9. Conclusion
+## 9. Future research directions
+
+The typology's contribution is conceptual, and the empirical program it opens begins with measurement. Four
+directions follow, in rough order of dependence, and the first two are the precondition for the rest.
+
+The first is a validated instrument for algorithmacy. The construct's three dimensions — inferential,
+translational, and temporal — point to a multidimensional scale, and the central difficulty is discriminant
+validity. Algorithmic-literacy instruments already measure awareness that algorithms operate and knowledge of
+how they work in principle (Dogruel et al., 2022), and an algorithmacy scale would have to establish that it
+captures what those do not: the competence to act within an opaque system and to hold a strategy through its
+undisclosed changes, as against recognizing and understanding the system from outside. Because self-reported
+competence invites over-confidence, such an instrument should be anchored to a behavioral criterion, for example
+the accuracy of an actor's predictions of how a system will treat a set of moves, scored against the system's
+behavior. Algorithm sensemaking (Möhlmann et al., 2023) offers a validated point of departure for the
+inferential dimension.
+
+The second is a validated instrument for coordinative sovereignty. Its standing dimensions — freedom from the
+mediator's arbitrary power, effective voice over the terms of mediation, and a share in the coordination's
+governance — would have to be measured under the condition that defines the construct: a mediator the actor
+cannot readily leave. The nearest validated construct is psychological empowerment (Spreitzer, 1995), and the
+task would be to show that coordinative sovereignty is distinct from it — that standing within an unexitable
+external mediation differs from felt empowerment inside an organization one could leave — and distinct as well
+from the digital-sovereignty measures with which the typology predicts it will barely correlate. That last
+discrimination is the empirical form of the chapter's central claim, and it is where the two-construct thesis
+stands or falls.
+
+The third is the two-step research design the diagnostic affords. Because the necessary/contingent distinction
+can be applied to a modeled coordination, an empirical study could classify the mediators an organization
+depends on before measuring the organization's response, and then ask whether the response fits the mediator
+type — exit-seeking against contingent gates, voice-building against necessary ones. A firm's coordinative
+sovereignty would then be not only how much standing it holds but whether it holds the right kind given the
+mediators it faces, and misallocation would become a measurable predictor of poor outcomes. This design is
+open to the construct in a way it is not open to a monolithic digital-sovereignty measure.
+
+The fourth is the correspondence between reported and afforded standing. Coordinative sovereignty can be
+operationalized twice: as a survey of the standing an actor reports, and as a structural property of a formal
+model of the actor's coordination, developed in the companion work (Author, 2026). Whether the two agree —
+whether actors who report high coordinative sovereignty are those a model would place as pivotal and secure in
+their coordination — is a construct-validity test a self-report alone cannot supply, and it is available to this
+construct because the coordination it names has a formal model.
+
+Beyond measurement, the chapter's framing question is itself a research program. Whether algorithmacy can be
+democratized as literacy was is an empirical matter: how the competence is distributed across platform-dependent
+populations, and whether that distribution widens or narrows as platforms and the instruments to govern them
+evolve.
+
+## 10. Conclusion
 
 Sovereignty has always been the standing to hold power to account through the medium in which power was
 exercised, and the standing has always required a sensibility equal to the medium. Oracy held the oral order to
@@ -929,6 +963,9 @@ Skinner, Q. (1998). *Liberty before liberalism*. Cambridge University Press.
 
 Smith, H., & Burrows, R. (2021). Software, sovereignty and the post-neoliberal politics of exit. *Theory,
 Culture & Society, 38*(6), 143–166. https://doi.org/10.1177/0263276421999439
+
+Spreitzer, G. M. (1995). Psychological empowerment in the workplace: Dimensions, measurement, and validation.
+*Academy of Management Journal, 38*(5), 1442–1465. https://doi.org/10.5465/256865
 
 Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory, 5*(2), 1–24.
 https://doi.org/10.1177/26317877241257213
