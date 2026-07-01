@@ -3365,6 +3365,21 @@
       ],
       "timeout": 60,
       "source": "org_frontier/studies/contingency_transitions/FINDINGS.md"
+    },
+    {
+      "name": "durability-holdout",
+      "cmd": "python org_frontier/studies/constraint_durability/analyze_holdout.py",
+      "expect": [
+        "held-out items: 12   coders: 3   inter-coder reliability r=0.805",
+        "taxi_medallion             contingent   1   2    fell",
+        "buyer_realtor              contingent   2   1    falling",
+        "stock_transfer_agent       contingent   3   0    holding",
+        "yellow_pages               reducible    -   4    fell",
+        "OUT-OF-SAMPLE backtest (n=12): r=0.754  acc=0.83  TP=8 FP=0 TN=2 FN=2",
+        "false positives out-of-sample: 0"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/studies/constraint_durability/FINDINGS.md"
     }
   ]
 }

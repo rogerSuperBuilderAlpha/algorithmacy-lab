@@ -1,0 +1,21 @@
+DURABILITY — out-of-sample holdout (blind-coded, fixed predictor)
+==================================================================================
+  held-out items: 12   coders: 3   inter-coder reliability r=0.805
+  name                       class       dur risk  observed
+  buyer_realtor              contingent   2   1    falling
+  correspondent_bank         contingent   1   2    pressured
+  literary_agent             partial      0   3    pressured
+  money_transfer_legacy      contingent   2   1    pressured
+  mortgage_broker            partial      1   2    pressured
+  pawnbroker                 contingent   2   1    holding
+  record_store               reducible    -   4    fell
+  stock_transfer_agent       contingent   3   0    holding
+  taxi_medallion             contingent   1   2    fell
+  travel_insurance_broker    partial      0   3    falling
+  video_rental_store         reducible    -   4    fell
+  yellow_pages               reducible    -   4    fell
+  ------------------------------------------------------------------------------
+  OUT-OF-SAMPLE backtest (n=12): r=0.754  acc=0.83  TP=8 FP=0 TN=2 FN=2
+  in-sample r=0.925 -> blind in-sample r=0.859 -> out-of-sample r=0.754 (graceful degradation)
+  false positives out-of-sample: 0
+==================================================================================
