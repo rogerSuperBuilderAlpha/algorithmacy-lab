@@ -34,7 +34,7 @@ nowhere. Compliance governs how these actors handle data. Their market positions
 inside the algorithmic systems through which the platform chooses what to surface and what to bury (Cutolo &
 Kenney, 2021; Rahman, 2021; Rahman et al., 2024).
 
-The gap opens onto a broader observation: sovereignty has never stood alone. Each historical form of
+Behind the gap lies a pattern older than the platforms: sovereignty has never stood alone. Each historical form of
 sovereignty was paired with, and made possible by, a communicative sensibility, a competence for handling the
 medium through which authority was exercised and contested. Oral orders required oracy. The literate state
 required literacy, and its digital extension requires an enlarged literacy that can read code and data. The
@@ -312,10 +312,10 @@ its part, does more than neglect to make its rules legible. Opacity is a rent-pr
 the cost of effective contestation and protects the discretion over ranking, matching, and pricing from which
 the platform's surplus is drawn (Cutolo & Kenney, 2021; Zuboff, 2019), and the same incentive sets platforms
 against the institutions — contestability, collective voice, researcher access — that would diffuse the
-competence. The scarcity of algorithmacy is partly the mediator's own product. Coordinative sovereignty,
-which algorithmacy makes possible, therefore concentrates where algorithmacy is already held, and a
-competence distributed like capital distributes standing like capital. Who can afford to see the systems that
-coordinate them has become a political question.
+competence. The scarcity of algorithmacy is therefore partly the mediator's own product. Coordinative
+sovereignty, which algorithmacy makes possible, concentrates where algorithmacy is already held, and a
+competence distributed like capital distributes standing like capital. Who gets to see the systems that
+coordinate economic life is now a political question about the distribution of a costly competence.
 
 The parallel with the earlier transitions has to be drawn with care. The claim that a change of communicative
 medium is a change in kind descends from the orality-literacy scholarship (Goody, 1977; Ong, 1982), and its
@@ -335,7 +335,7 @@ by a new form of coordination, and, at present, unevenly held.
 
 The claim that the platform situation is new in kind can be made precise, and the precision pays. It
 determines what sovereignty is available to the coordinated actor at all. The companion paper develops the
-formal measures. The test itself needs nothing beyond the rules of the coordination.
+formal measures. The test below asks only for the coordination's rules.
 
 ### 5.1 When is the coordination genuinely triadic
 
@@ -348,11 +348,11 @@ mediator binds the two humans into a joint determination that no division into p
 mediator is constitutive. It commits an outcome that depends on both parties at once and that neither could
 produce alone, and an actor governs such an arrangement, if at all, by algorithmacy.
 
-Whether a coordination factors is a mathematical question about its rules: whether the joint cause-effect
-structure of the modeled system decomposes into the product of its parts, so that some partition of the
-system loses no causal information. The companion paper develops the integrated-information measures that
-make the check exact and that grade the borderline cases, where the answer is close or the parties are many
-(Author, 2026). For the argument here, the runnable counterfactual of the next section is enough.
+Whether a coordination factors is a question about its rules: whether some cut of the modeled system loses
+causal information that exists only in the joint behavior of its parts. The companion paper develops the
+integrated-information measures that make the check exact and that grade the borderline cases, where the
+answer is close or the parties are many (Author, 2026). For the argument here, the runnable counterfactual of
+the next section is enough.
 
 ### 5.2 The bypass test: necessary versus contingent mediators
 
@@ -442,9 +442,8 @@ site, a gate held by a contract. Hotels have pushed hard on the contingent gate.
 loyalty perks, and metasearch, together with the rate-parity bans enacted in several European jurisdictions,
 are all moves to open it, and they have recovered margin on guests the hotel would have won anyway. The demand
 aggregation has not budged. Direct-booking shares climb to roughly a third and then plateau, because the
-traveler who did not know the hotel existed is reached through the agency or not at all. The agency, like the
-marketplace, straddles the typology. Exit is the right move against the parity gate and a mirage against the
-billboard, and a hotel that
+traveler who did not know the hotel existed is reached through the agency or not at all. Exit is the right
+move against the parity gate and a mirage against the billboard, and a hotel that
 spends its whole effort trying to leave the agency has mistaken the necessary function for the contingent one.
 
 ## 6. Coordinative sovereignty: a definition
@@ -502,18 +501,14 @@ mediation-native. It seeks standing within the platform while owning none of it 
 nearer neighbors mark the space without occupying it.
 
 Bannerman's (2024) relational sovereignty reads platform
-power through a relational and historical lens but centers structural asymmetry and its rebalancing, where
-coordinative sovereignty takes the mediation as given, often as necessary, and asks after the actor's voice
-within it. The republican analysis of algorithmic domination (Muldoon & Raekstad, 2022) shares the
-non-domination foundation but centers protection from arbitrary power and frequently proposes exit through
-cooperative ownership, where coordinative sovereignty adds the positive theory of standing that non-domination
-leaves undone and treats voice as the operative form under a necessary mediator. Functional sovereignty
-(Pasquale, 2023) and the platform sovereign (Cohen, 2017) theorize the authority the platform exercises over
-the coordinated. Coordinative sovereignty theorizes the authority the coordinated could hold within the
-platform, the same relationship seen from the other end. What earns the construct its name is the object it
-picks out — voice-bearing standing within necessary mediation, paired with a diagnostic that says when such
-standing is the only autonomy available — an object the crowded neighborhood describes around and leaves
-unoccupied.
+power through a relational and historical lens and works toward rebalancing the structural asymmetry. The
+republican analysis of algorithmic domination (Muldoon & Raekstad, 2022) centers protection from arbitrary
+power and often recommends exit through cooperative ownership. Functional sovereignty (Pasquale, 2023) and
+the platform sovereign (Cohen, 2017) theorize the authority the platform exercises over the coordinated.
+Coordinative sovereignty looks at the same relationship from the other end. It asks what standing the
+coordinated can hold inside a mediation they cannot leave, and it comes paired with a diagnostic that says
+when such standing is the only autonomy available. That is the object the crowded neighborhood describes
+around and leaves unoccupied.
 
 Three clarifications guard the definition against familiar misreadings. First, coordinative sovereignty is
 more than worker rights or consumer protection, though it bears on both. Rights and protections are guarantees
@@ -533,11 +528,11 @@ Algorithmacy makes a coordinated actor capable of the standing that coordinative
 cannot contest a mediator's arbitrary power without modeling how the mediator sorts and optimizes, cannot
 press for terms without translating between its conduct and the system's, cannot hold a share in governance
 across a shifting system without temporal coherence. The sensibility is the precondition of the sovereignty,
-and the sovereignty is the political form of the competence. The precondition bears on exercise, though, and
-on nothing more. An institution can endow standing before the competence is widely held: the platform-work
-directive grants collective rights to workers whether or not they can yet model the systems that manage them.
-What the sensibility decides is whether granted standing becomes effective voice or sits idle, which is why
-the two must be built together.
+and the sovereignty is the political form of the competence. The precondition governs exercise, not
+endowment. An institution can grant standing before the competence is widely held: the platform-work
+directive already gives workers collective rights whether or not they can yet model the systems that manage
+them. What algorithmacy decides is whether those rights become real leverage or stay formal, which is why the
+competence and the institutions must be built together.
 
 ## 7. Realizing coordinative sovereignty
 
@@ -660,8 +655,6 @@ problem. The inferential capacity to model the systems that coordinate it, the t
 render its conduct into the terms those systems read, the temporal capacity to hold a course as the systems
 change — each can be trained, budgeted, and audited the way compliance now is. The firms that build the
 competence will hold a sovereignty their competitors lack, and none of it will show up on a compliance audit.
-A diffuse anxiety about platform dependence becomes a specific capability gap, which is the form in which
-strategy problems become tractable.
 
 For policymakers, the argument specifies what instruments must do to reach the layer where the harm lives. The
 European architecture governs data, infrastructure, and code with unmatched thoroughness, and it inherits the
