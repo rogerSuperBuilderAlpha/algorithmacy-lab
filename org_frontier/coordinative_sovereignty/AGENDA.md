@@ -4,6 +4,13 @@ Open questions, in rough order of priority. Each is a piece of the program the f
 (`coordinative_sovereignty.md`). The lab's asset is the formal apparatus for mediated coordination; the agenda
 puts it to work on a political construct.
 
+**Progress.** The chapter (`chapter/`) and its research passes (`research/`) cover much of this agenda. Item 1 is
+addressed by the operationalization in `instruments/`: `formal_standing.md` reads standing as a coordinated
+actor's Shapley pivotality and core membership in the integrated-information game, and
+`coordinative_sovereignty_instrument.md` gives the survey construct, with a predicted correspondence between the
+two. Item 4 (worked cases) is done in `research/worked_cases.md`. Item 5 (institutional forms) is chapter §7.
+Item 8 (analogy modesty) is honored throughout `formal_standing.md`. Items 2, 3, 6, and 7 remain open.
+
 1. **Operationalize voice under irreducible coordination.** The necessary/contingent test (q213) says when only
    voice is available. What makes voice *effective* inside a mediation that cannot be exited? Candidate formal
    handle: a coordinated actor's standing is its membership and pivotality in the irreducible core (q98,
