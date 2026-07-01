@@ -34,28 +34,24 @@ governs how these actors handle data. It does not govern the algorithmic systems
 decides what to surface and what to bury, and those systems are where the actors' market positions are
 determined (Cutolo & Kenney, 2021; Rahman, 2021; Rahman et al., 2024).
 
-This chapter treats that gap as the point of departure for a broader argument about sovereignty. The argument
-has three moves. The first is historical and conceptual: sovereignty has never stood alone. Each historical
-form of sovereignty has been paired with, and made possible by, a communicative sensibility — a competence for
-handling the medium through which authority was exercised and contested. Oral orders required oracy. The
-literate state required literacy, and its digital extension requires an enlarged literacy that reads code and
-data. The platform era introduces a situation the prior sensibilities cannot govern, and it requires a new one,
-which the companion literature to this chapter names algorithmacy.
+That gap opens onto a broader argument about sovereignty, which has never stood alone. Each historical form of
+sovereignty has been paired with, and made possible by, a communicative sensibility — a competence for handling
+the medium through which authority was exercised and contested. Oral orders required oracy. The literate state
+required literacy, and its digital extension requires an enlarged literacy that reads code and data. The
+platform era introduces a situation the prior sensibilities cannot govern, and it requires a new one, which the
+companion literature to this chapter names algorithmacy.
 
-The second move is diagnostic and formal. The chapter distinguishes the platform situation from its
-predecessors precisely, by modeling a coordination as a small causal system and asking whether the mediating
-third party can be replaced by a direct tie between the parties it stands between. Some mediators can; others
-cannot. That distinction is not rhetorical. It decides whether an actor's remaining power is the power to leave
-or only the power to be heard, and it can be computed.
+What sets the platform situation apart from its predecessors can be stated exactly. Model a coordination as a
+small causal system and ask whether the mediating third party can be replaced by a direct tie between the two it
+stands between. Some mediators can be; others cannot. That single distinction decides whether an actor's
+remaining power is the power to leave or only the power to be heard.
 
-The third move is constructive. Where the mediator cannot be left, the sovereignty of independence is empty,
-and the actor's autonomy has to be reconceived. The chapter names the reconceived form coordinative
-sovereignty and defines it positively: standing within a coordination one cannot exit, the power to shape the
-terms of one's mediation and to contest the mediator's arbitrary power. Coordinative sovereignty is not
-digital sovereignty by another name. Digital sovereignty asks who controls the infrastructure; coordinative
-sovereignty asks what autonomy the actor coordinating through that infrastructure can hold. The chapter defines
-the construct, distinguishes it from its neighbors, sets out the institutions that could realize it, and draws
-the implications for scholars, managers, and policymakers navigating the tension between openness and control.
+Where the mediator cannot be left, the sovereignty of independence is empty, and the actor's autonomy has to be
+reconceived. This chapter names the reconceived form coordinative sovereignty: standing within a coordination
+one cannot exit, the power to shape the terms of one's mediation and to contest the mediator's arbitrary power.
+Coordinative sovereignty is not digital sovereignty by another name. Digital sovereignty asks who controls the
+infrastructure; coordinative sovereignty asks what autonomy the actor coordinating through that infrastructure
+can hold. The two vary independently, and telling them apart is what the argument turns on.
 
 ## 2. Sovereignty and its sensibilities
 
@@ -78,11 +74,10 @@ rules that constituted the group. The oral order's sovereignty was real, and it 
 sustain. It could not be laid down in a fixed text, checked against a prior version, or transmitted beyond the
 range of living memory.
 
-The point of beginning here is not antiquarian. The oral order shows, in its simplest form, the general
-relation the chapter tracks: a form of authority, a medium through which the authority is exercised, and a
-sensibility that lets those subject to the authority participate in it and hold it to account. When the medium
-changes, the sensibility that governed the old medium does not automatically govern the new one, and a period
-follows in which authority outruns the capacity of the governed to contest it. The transition from oral to
+Oracy is the right place to start because the pattern is naked there: a form of authority, a medium through
+which it is exercised, and a sensibility that lets those subject to it participate and hold it to account. When
+the medium changes, the old sensibility does not automatically govern the new one, and a period follows in
+which authority outruns the capacity of the governed to contest it. The transition from oral to
 literate order was such a period; the powers that could write governed those who could not, and the extension of
 literacy was, among other things, the slow closing of that gap. The chapter's claim is that platform
 coordination has opened a gap of the same shape, between those who can work the systems that coordinate economic
@@ -106,16 +101,13 @@ literacy in this constitutive sense: citizens govern themselves to the degree th
 write and hold those institutions accountable through textual means (Nussbaum, 2006; Sen, 1999). Literacy is
 the sensibility of democratic sovereignty, and the reach of that sovereignty is the reach of a literate public.
 
-The pairing of a form of authority with a communicative medium has a lineage in media theory, and the relation
-is best stated as co-constitution rather than one-way causation. Innis (1951) traced how the dominant medium of
-a civilization biases its characteristic form of power, and Eisenstein (1979) showed how the printing press
-reorganized the authority of church and state. The claim here is not that the medium determines the polity, a
-determinism the record does not support: authority also selects and institutionalizes the media that amplify
-it, and media coexist rather than replace one another cleanly. A medium enables a scale of coordination and a
-form of authority; an authority entrenches the media that serve it; and the two develop together. What holds
-across the cases is the weaker and defensible claim that a form of sovereignty and a communicative sensibility
-are co-constituted, and that a sovereignty cannot be exercised or contested by those who lack the sensibility
-its medium requires.
+Media theory has long paired forms of authority with the media that carry them. Innis (1951) traced how a
+civilization's dominant medium biases its characteristic form of power, and Eisenstein (1979) showed how the
+printing press reorganized the authority of church and state. The medium does not simply determine the polity;
+a medium enables a scale of coordination and a form of authority, and an authority in turn entrenches the media
+that serve it, so the two develop together. The claim this chapter needs is the modest one that survives the
+qualification: a form of sovereignty and a communicative sensibility are made together, and a sovereignty
+cannot be exercised or contested by those who lack the sensibility its medium requires.
 
 ### 2.3 Digital sovereignty as extended literacy
 
@@ -207,9 +199,8 @@ chapter works with.
 
 ### 3.2 Why literacy cannot reach it
 
-The competencies that govern data, infrastructure, and code cannot govern this. The reason is not a failure of
-will or a gap in coverage that a further regulation would close. It is a mismatch between the sensibility and
-the object.
+The competencies that govern data, infrastructure, and code cannot govern this, and the reason is structural
+rather than a matter of will or coverage. The sensibility and the object are mismatched, in four specific ways.
 
 First, the object resists reading. High-dimensional algorithmic systems are opaque in ways that disclosure does
 not cure. Burrell (2016) distinguishes opacity that is intentional, opacity that follows from technical
@@ -288,16 +279,13 @@ algorithmacy must be positioned in relation to it rather than asserted apart fro
 theorized as awareness, understanding, and skill in interacting with algorithmic systems (Dogruel et al.,
 2022), and critical data literacy adds reflexive and tactical dimensions — the capacity
 to identify how one's data are used and to act on that knowledge (Pangrazio & Selwyn, 2019; Sander, 2020).
-These competencies are largely oriented to understanding algorithms from the outside: recognizing that a system
-is at work, interpreting its outputs, reflecting critically on its effects. Algorithmacy names the part these
-frameworks underdevelop, the competence exercised from the inside. It is the practiced ability to model an
-opaque system's behavior while enrolled in it, to act strategically within a coordination whose rules one
-cannot see and whose objectives one does not share, and to hold a course as the system adapts. The distinction
-is structural rather than a matter of skill level. Critical understanding reads the system as a text presented
-for inspection; algorithmacy operates within it as an agent whose own conduct is an input the system reads back.
-Algorithmacy, on this account, is algorithmic literacy carried into action under opacity and inside the triad,
-and the from-within, triadic character is what marks it off from the from-without competence the literacy
-literature describes.
+These competencies mostly describe spectatorship: recognizing that a system is at work, interpreting its
+outputs, reflecting critically on its effects. Algorithmacy is what algorithmic literacy becomes when your own
+conduct is one of the variables the system is optimizing and the system is reading your moves back to you as
+inputs. It is the practiced ability to model an opaque system while enrolled in it, to act on a coordination
+whose rules one cannot see and whose objectives one does not share, and to hold a strategy alive across changes
+the system never announces. The distinction is one of kind, not skill level: reading the system from the outside
+is a different act from working it from within, where you are one of the things it optimizes.
 
 The empirical literature on algorithmic management supplies one component of this competence under a different
 name. Möhlmann and colleagues (2023) describe how platform workers engage in algorithm sensemaking: they
@@ -317,8 +305,27 @@ across a system that is re-tuned without notice, holding a coherent strategy thr
 only from their effects, which is the temporal part. None of this is reading in the literate sense, and none of
 it is reducible to the platform's disclosures, because the disclosures do not contain what she needs to know.
 She is exercising algorithmacy, and her position relative to a competitor who lacks it is the position of a
-literate merchant relative to an illiterate one in an economy run on written contracts. The competence is
-unevenly held, and the unevenness is consequential.
+literate merchant beside an illiterate one in an economy run on written contracts.
+
+Make it concrete. One morning her orders halve, with no message from the platform and no change she made. She
+checks the obvious things — price, stock, a lapsed promotion — and they are fine. Watching which listings fell
+and which held, she infers that the system has begun to weight delivery speed more heavily, and her older
+listings, shipped from a slower warehouse, have dropped. She has read nothing; the change was announced nowhere.
+She moves the affected listings to the faster fulfillment option, watches placement recover over a week, and
+files the episode as one more revision to a model she will revise again. A seller without the competence sees
+only that sales fell, and waits, or blames the market, or abandons a channel that was working. The difference is
+not information, which neither had. It is the competence to build a working theory from effects and act on it
+inside a system that will not explain itself.
+
+The competence is unevenly held, and the unevenness is not random. Building it costs time, attention, and often
+paid analysts and tooling that read a platform's signals at a scale a small operator cannot match, so the actors
+who can best afford to model the system are the large ones already advantaged within it. The platform has little
+reason to make its rules legible: opacity guards the system against gaming and preserves the discretion from
+which its rent is drawn, so the scarcity of algorithmacy is partly produced by the very mediator the competence
+would contest. Coordinative sovereignty, which algorithmacy makes possible, therefore concentrates where
+algorithmacy is already held, and a competence distributed like capital distributes standing like capital.
+Whether it can be spread more widely, as literacy eventually was, is the political question the chapter closes
+on.
 
 The relation between the sensibilities parallels the earlier transitions, and the parallel must be stated with
 care. The claim that a change of communicative medium is a change in kind has its lineage in the
@@ -335,14 +342,13 @@ fluent speaker facing a written contract in a script she cannot read. She can pe
 work within it. Algorithmacy is to platform coordination what literacy was to written coordination: a change in
 kind, demanded by a new form of coordination, and, at present, unevenly held.
 
-## 5. A formal diagnostic: irreducibility and the necessary/contingent test
+## 5. A diagnostic: necessary and contingent mediators
 
-The claim that the platform situation is new in kind can be made precise, and the precision matters because it
-determines what kind of sovereignty is even available to the coordinated actor. This section presents the
-diagnostic in accessible terms; the underlying computational apparatus and its results are developed in the
-companion work (Author, 2026).
+The claim that the platform situation is new in kind can be made precise, and the precision matters: it
+determines what sovereignty is available to the coordinated actor at all. The companion paper develops the
+formal measures; the test that follows can be run with the rules of a coordination in front of you.
 
-### 5.1 Irreducibility: when is coordination genuinely triadic
+### 5.1 When is the coordination genuinely triadic
 
 Model a coordination as a small system whose elements — a worker, a mediator, and a counterpart — influence one
 another by fixed rules. Such a system can be analyzed for whether it factors. A coordination is dyadic when its
@@ -350,20 +356,16 @@ cause-and-effect structure comes apart: cut it the right way and nothing is lost
 never acted as one thing. The mediator, in that case, is a conduit. It relays between two parties who remain
 separable, and an actor governs the arrangement by reading the interface and the terms — that is, by literacy.
 A coordination is triadic when no cut recovers the whole, because the mediator binds the two humans into a joint
-determination that survives no partition. The mediator, in that case, is constitutive. It does not relay a
+determination that no division into parts reproduces. The mediator, in that case, is constitutive. It does not relay a
 message; it commits an outcome that depends on both parties at once and that neither could produce alone. An
 actor governs a triadic arrangement, if at all, by algorithmacy.
 
-The distinction is not a metaphor. Given the rules of a coordination, whether it factors can be computed instead
-of judged; the companion work does so with the integrated-information measures of integrated information theory
-(Oizumi et al., 2014; Albantakis et al., 2023), which quantify how much of a system's joint behavior is lost
-when it is split along its least damaging partition (Author, 2026). A form that loses nothing under the split is
-dyadic, and literacy suffices; a form that cannot be split without loss is triadic, and demands algorithmacy.
-The competence question is an irreducibility question in different clothes. A plain factorization check can reach
-the same verdict on a simple case, and integrated information earns its place not by overturning that verdict but
-by grounding it: it supplies a principled measure of how much integration a mediator carries, extends to the
-partial and multi-party cases a binary check handles only awkwardly, and connects the diagnostic to an
-established formal account of when a whole is irreducible to its parts.
+Whether a coordination factors is a question about its rules, not a verdict about how powerful the platform
+feels, and it is settled by a single counterfactual that the next section makes precise. The competence question
+is that structural question in different clothes: where the coordination factors, an actor governs it by reading
+the interface, and where it does not, reading is not enough. The companion paper develops formal measures of how
+much a mediator integrates, for cases where the answer is close or the parties are many. For the argument here,
+what matters is the test you can run with the rules of the coordination in front of you.
 
 ### 5.2 The bypass test: necessary versus contingent mediators
 
@@ -390,7 +392,7 @@ Two further cases complete the picture. A mediator not in the coordination's cor
 parties can already deal directly, and nothing holds the mediator in place. A mediator that keeps a
 constitutive role under the open tie but loses part of its integration is partial; it does real integrating work
 alongside a bypassable gate. The four cases — necessary, contingent, partial, reducible — form the diagnostic's
-output, and each can be read off the computation (Author, 2026).
+output, and each follows from the same counterfactual (Author, 2026).
 
 ### 5.3 Exit and voice: what the diagnostic decides
 
@@ -399,11 +401,10 @@ The diagnostic decides which sovereignty is available, and here the argument tur
 leave, and voice, the power to stay and press for change. Hirschman's framework has been applied to platforms
 before — to the constrained voice of platform workers (Dasgupta et al., 2025) and to the politics of exit from
 digital infrastructures (Smith & Burrows, 2021) — and Hirschman himself observed that monopoly restricts exit and
-so elevates voice. The contribution here is not the framework but its formalization and its consequence. Exit
-maps onto bypassability and voice onto necessity, and the necessary/contingent test computes which obtains. The
-mapping matters because it makes the availability of exit a designable fact rather than a natural one: whether a
-coordinated actor can leave is set by whether the mediator is contingent, and contingency is a policy and
-strategy variable. The sovereignty of independence — the sovereignty of Bodin's indivisible authority and
+so elevates voice. Formalizing his categories yields the payoff: exit maps onto bypassability and voice onto
+necessity, and the necessary/contingent test tells which obtains. That mapping makes the availability of exit a
+designable fact rather than a natural one. Whether a coordinated actor can leave is set by whether the mediator
+is contingent, and contingency is a policy and strategy variable. The sovereignty of independence — the sovereignty of Bodin's indivisible authority and
 Mill's private sphere — is a sovereignty of exit. Its power is the power to stand apart, to deal directly, to
 not be mediated.
 
@@ -454,6 +455,20 @@ could in principle re-contact directly, which is a bypassable relationship gate.
 functions for which exit is a live option from those for which the coordinated actor's autonomy has to take the
 form of voice.
 
+The travel sector shows the test under real bypass pressure. An independent hotel reaches many of its guests
+through an online travel agency that charges fifteen to thirty percent commission, and the agency does two very
+different things. It aggregates demand, putting the hotel in front of travelers who would never have found it —
+the effect the trade calls the billboard — which is integrating work a single hotel's website does not
+reproduce at scale, and closer to necessary. And it holds a rate-parity clause forbidding the hotel to price
+lower on its own site, a gate held by a contract rather than by any service. Hotels have pushed hard on the
+contingent gate: book-direct campaigns, loyalty perks, and metasearch, together with the rate-parity bans
+enacted in several European jurisdictions, are all moves to open it, and they have recovered margin on guests
+the hotel would have won anyway. What they have not done is dislodge the demand aggregation. Direct-booking
+shares climb to roughly a third and then plateau, because the traveler who did not know the hotel existed is
+reached through the agency or not at all. One firm, again, sits in two cells: exit is the right move against the
+parity gate and a mirage against the billboard, and a hotel that spends its whole effort trying to leave the
+agency has mistaken the necessary function for the contingent one.
+
 ## 6. Coordinative sovereignty: a definition
 
 Where the mediator is necessary and only voice remains, autonomy has to be reconceived. The received idea of
@@ -469,39 +484,35 @@ terms that hold because the coordinated actors have the standing to make them ho
 from the mediator nor command of the infrastructure, the two forms of sovereignty the platform situation puts
 out of reach.
 
-The definition rests on four foundations in political theory, each of which the platform situation makes newly
-concrete.
+Four strands of political theory converge on the construct, each made newly concrete by the platform situation.
 
-The first is non-domination. Republican theory holds that freedom is the absence of another's arbitrary power,
-not merely the absence of interference (Pettit, 1997; Skinner, 1998). An actor can be uninterfered with and
-still unfree if it lives at the mercy of a power that could interfere at will, on terms it cannot contest. This
-is the exact condition of the platform-dependent actor, and republican theory has begun to name it: algorithmic
-management, Muldoon and Raekstad (2022) argue, is a relationship of domination, a socio-technical system in
-which owners and managers hold arbitrary power over those enrolled in it. Coordinative sovereignty's first
-condition is that the mediator's power over the coordinated actor not be arbitrary — that it be constrained by
-rules the actor can know and contest.
+Coordinative sovereignty takes from republican theory the idea of freedom as non-domination — the absence of
+another's arbitrary power rather than the mere absence of interference (Pettit, 1997; Skinner, 1998). An actor
+can be left alone and still unfree if it lives at the mercy of a power that could interfere at will, on terms it
+cannot contest, which is the exact condition of the platform-dependent actor. Republican theory has begun to
+name it: algorithmic management, Muldoon and Raekstad (2022) argue, is a relationship of domination, a
+socio-technical system in which owners and managers hold arbitrary power over those enrolled in it. So the first
+thing coordinative sovereignty requires is that the mediator's power over the actor be constrained by rules the
+actor can know and contest.
 
-The second is relational autonomy. Autonomy, on the relational account, is not a property one has by standing
-apart but a capacity constituted through the relationships that structure a person (Mackenzie & Stoljar, 2000;
-Nedelsky, 2011). A relationship can enlarge autonomy or diminish it, and the question is the shape of the
-relationship rather than its presence. Applied to mediation, this reframing dissolves the false choice between
-being mediated and being autonomous. A well-shaped mediation can enlarge the coordinated actor's autonomy; a
-badly-shaped one shrinks it; and the object of sovereignty is the shape.
+It takes from relational autonomy the recognition that autonomy is not a possession one holds by standing apart
+but a capacity constituted through the relationships that structure a person (Mackenzie & Stoljar, 2000;
+Nedelsky, 2011). A relationship can enlarge autonomy or shrink it, and what matters is its shape. Applied to
+mediation, this dissolves the choice between being mediated and being autonomous: a well-shaped mediation
+enlarges the coordinated actor's autonomy and a badly-shaped one diminishes it, and the object of sovereignty
+is the shape.
 
-The third is involvement. Non-domination secures an actor against arbitrary power but does not by itself give
-the actor a share in the determinations that govern it. Markell (2008) argues that non-domination is
-insufficient for just this reason: it protects without including. Coordinative sovereignty requires more than
-protection from the mediator's arbitrariness; it requires a place in the determination, a standing to
-participate in how the coordination is governed. Voice, in the sense intended here, is involvement and not only
-insulation.
+From Markell (2008) it takes a correction to non-domination, which protects without including. Securing an actor
+against arbitrary power does not by itself give it a share in the determinations that govern it. Coordinative
+sovereignty asks for that share: a place in the determination, a standing to participate in how the coordination
+is governed. The voice it names is involvement, not only insulation.
 
-The fourth is commons governance. Ostrom (1990) showed that actors interdependent on a shared resource can
-govern it themselves, through institutions of their own design, without either privatizing the resource or
-surrendering it to a central authority. The design principles she identified — collective-choice arrangements,
-graduated sanctions, accessible conflict resolution, recognized rights to organize — are institutional forms of
-effective voice under interdependence. Coordinative sovereignty extends the commons model from a shared resource
-to a shared mediation. The coordinated actors are interdependent not on a pasture but on a platform, and the
-question is whether they can hold a share in its governance.
+And from Ostrom (1990) it takes commons governance: actors interdependent on a shared resource can govern it
+themselves, through institutions of their own design, without either privatizing the resource or handing it to a
+central authority. Her design principles — collective-choice arrangements, graduated sanctions, accessible
+conflict resolution, recognized rights to organize — are institutional forms of effective voice under
+interdependence. Coordinative sovereignty carries the commons model from a shared pasture to a shared platform,
+and asks whether the coordinated can hold a share in its governance.
 
 Coordinative sovereignty must be distinguished from its neighbors. It is not the sovereignty of the oral or the
 literate order, both of which located autonomy in a capacity to stand within a bounded community and hold its
@@ -510,12 +521,12 @@ sovereignty, across its variants, is a move to centralize control: a state, a co
 authority over a digital domain (Couture & Toupin, 2019; Floridi, 2020; Pohle & Thiel, 2020; Roberts et al.,
 2021). Digital sovereignty asks who owns the infrastructure and answers with a wall, a standard, or a domestic
 alternative. Coordinative sovereignty is actor-centric and mediation-native. It does not seek to own the
-platform or to escape it; it seeks standing within it. The proliferation of sovereignty concepts invites a
-reasonable suspicion. The digital-sovereignty literature has been charged with concept stretching, applying the
-term to so many actors — states, firms, communities, individuals, movements — that it loses precision (Repetto,
-2025). A new coinage must answer the charge by specifying a distinct object rather than adding a synonym, and
-coordinative sovereignty does so: its object is the standing of a coordinated actor within a mediation it cannot
-exit, which the neighboring constructs do not theorize. The differences are specific. Bannerman's (2024)
+platform or to escape it; it seeks standing within it. The proliferation of sovereignty concepts invites
+suspicion, and rightly: the digital-sovereignty literature has been charged with concept stretching, applying
+the term to so many actors — states, firms, communities, individuals, movements — that it loses precision
+(Repetto, 2025). Coordinative sovereignty escapes the charge by naming a distinct object, the standing of a
+coordinated actor within a mediation it cannot exit, which the neighboring constructs describe around but do not
+occupy. The differences are specific. Bannerman's (2024)
 relational sovereignty reads platform power through a relational and historical lens but centers structural
 asymmetry and its rebalancing; coordinative sovereignty takes the mediation as given, often as necessary, and
 asks after the actor's voice within it. The republican analysis of algorithmic domination (Muldoon & Raekstad,
@@ -544,9 +555,8 @@ necessary — and asks what autonomy is possible within it. The construct is, in
 platform condition: it concedes that the mediator cannot be wished away and locates freedom in the terms of the
 mediation rather than in its absence.
 
-Coordinative sovereignty is not a diminished version of the sovereignties that preceded it. It is a distinct
-form, with its own foundations, its own currency, and its own institutions, and it is the one the platform era
-requires.
+Coordinative sovereignty is a distinct form, with its own foundations, its own currency, and its own
+institutions, and it is the one the platform era requires.
 
 The construct also clarifies what is at stake in calling algorithmacy a sensibility. Oracy made a member of an
 oral order capable of holding it to account; literacy made a citizen capable of auditing a literate state; and
@@ -802,11 +812,6 @@ secures it.
 Adler, P. S. (2001). Market, hierarchy, and trust: The knowledge economy and the future of capitalism.
 *Organization Science, 12*(2), 215–234. https://doi.org/10.1287/orsc.12.2.215.10117
 
-Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W., Mayner, W. G. P., Zaeemzadeh,
-A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., & Tononi, G. (2023).
-Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms.
-*PLOS Computational Biology, 19*(10), Article e1011465. https://doi.org/10.1371/journal.pcbi.1011465
-
 Alfrink, K., Keller, I., Kortuem, G., & Doorn, N. (2023). Contestable AI by design: Towards a framework. *Minds
 and Machines, 33*(4), 613–639. https://doi.org/10.1007/s11023-022-09611-z
 
@@ -904,10 +909,6 @@ Nedelsky, J. (2011). *Law's relations: A relational theory of self, autonomy, an
 
 Nussbaum, M. C. (2006). Education and democratic citizenship: Capabilities and quality education. *Journal of
 Human Development, 7*(3), 385–395. https://doi.org/10.1080/14649880600815974
-
-Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness:
-Integrated Information Theory 3.0. *PLOS Computational Biology, 10*(5), Article e1003588.
-https://doi.org/10.1371/journal.pcbi.1003588
 
 Ong, W. J. (1982). *Orality and literacy: The technologizing of the word*. Methuen.
 
@@ -1060,5 +1061,5 @@ than the mere absence of interference. A coordinated actor is dominated to the d
 it is unconstrained by rules the actor can contest.
 
 **Irreducibility:** The property of a coordination that does not factor into separable parts. A triadic
-(irreducible) coordination binds its parties into a joint determination no partition recovers and demands
-algorithmacy; a dyadic (reducible) one comes apart and is governed by literacy.
+(irreducible) coordination binds its parties into a joint determination no division into parts recovers and
+demands algorithmacy; a dyadic (reducible) one comes apart and is governed by literacy.
