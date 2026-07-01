@@ -34,6 +34,7 @@ Four programs on one thesis, plus the bridge and support arms. Each directory's 
 | [`org_frontier/survey/`](org_frontier/survey/) | Survey — measuring algorithmacy in real workers |
 | [`org_frontier/classifier/`](org_frontier/classifier/) | classifier — does a coordination form demand literacy or algorithmacy? |
 | [`org_frontier/cognition/`](org_frontier/cognition/) | Cognition — the formal bridge to the cognitive theories of coordination |
+| [`org_frontier/coordinative_sovereignty/`](org_frontier/coordinative_sovereignty/) | Coordinative sovereignty — autonomy for a coordinated world |
 | [`org_frontier/corpus/`](org_frontier/corpus/) | corpus — a curated coordination-form library with exact IIT-4.0 Φ |
 | [`org_frontier/field/`](org_frontier/field/) | Field — reading real organizations with exact Φ |
 | [`org_frontier/landscape/`](org_frontier/landscape/) | landscape — how the world uses PyPhi |
