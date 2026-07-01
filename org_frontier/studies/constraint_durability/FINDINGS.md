@@ -60,9 +60,27 @@ calls it falling and it is holding. The durability that drives the forecast is n
 outcome-aware coding — independent readers recover it, and it still predicts history — and the one place the
 author's coding flattered the forecast is now visible.
 
+## Out-of-sample holdout
+
+The backtests above scored the same intermediaries used to shape the rubric, so they measure consistency, not
+prediction. The holdout tests prediction. Twelve intermediaries the rubric never saw — the taxi medallion, the
+buyer's agent, the correspondent bank, the pawnbroker, the yellow pages, the video store, and others — were
+held out, three coders scored their constraint durability blind to the outcomes, and the fixed predictor was
+applied unchanged.
+
+On this held-out set the forecast holds: r=0.754, accuracy 0.83, and again zero false positives. The blind
+coders agree on the new cases at r=0.805, so the durability judgment transfers to intermediaries none of the
+original coding touched. The correlation degrades from the in-sample 0.925 to the blind in-sample 0.859 to the
+out-of-sample 0.754, a graceful decline rather than a collapse, which is the signature of a predictor that
+generalizes instead of fitting its own training set. The two out-of-sample misses are the familiar
+conservative kind — the buyer's agent and the legacy money-transfer network were scored durable and are in
+fact eroding (the buyer's agent under the 2024 commission settlement) — and the zero false positives mean every
+"this holds" call held on data the forecast had never seen.
+
 ## Caveats
 
-Durability (0-3) and the observed outcome are hand-coded; the blind inter-coder pass (r=0.907) shows the
+Durability (0-3) and the observed outcome are hand-coded; the blind inter-coder pass (r=0.907) and the
+out-of-sample holdout (r=0.754, zero false positives) show the
 durability is recoverable, but the observed outcomes are still single-coded and the backtest, not coder
 agreement, is the validation of the forecast itself. The observed
 outcomes are read as of 2026 and several are mid-transition (an intermediary "falling" has not fully fallen).
