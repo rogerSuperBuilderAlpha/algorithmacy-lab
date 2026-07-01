@@ -843,7 +843,7 @@ Mackenzie, C., & Stoljar, N. (Eds.). (2000). *Relational autonomy: Feminist pers
 and the social self*. Oxford University Press.
 
 Markell, P. (2008). The insufficiency of non-domination. *Political Theory, 36*(1), 9–36.
-https://doi.org/10.1177/0090591707310220
+https://doi.org/10.1177/0090591707310084
 
 Möhlmann, M., Alves de Lima Salge, C., & Marabelli, M. (2023). Algorithm sensemaking: How platform workers make
 sense of algorithmic management. *Journal of the Association for Information Systems, 24*(1), 35–64.
