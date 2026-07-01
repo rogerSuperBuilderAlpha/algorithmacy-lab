@@ -8,8 +8,15 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
 - **Status:** abstract accepted; full chapter due 2026-08-30 (min. 10,000 words incl. references);
   double-anonymized review; academic APA.
 - **File:** `chapter.md` — the manuscript. References are inline in APA 7 style; every in-text citation resolves
-  to a reference-list entry.
-- **Length:** ~10,080 words including references.
+  to a reference-list entry (and every entry is cited).
+- **Length:** ~11,540 words including references.
+- **Grounding:** every load-bearing claim has been adversarially deep-researched; verdicts and the sources that
+  would otherwise be raised against the chapter are recorded in [`../research/`](../research/). The manuscript
+  incorporates the pass-1 revisions (co-optation reframed from a "fourth mechanism" to the governance challenge
+  of opaque interested mediation; algorithmacy positioned against the algorithmic-literacy literature; the
+  change-in-kind claim pinned to coordination not cognition; coordinative sovereignty positioned against the
+  concept-stretching critique and its nearest neighbors; the exit/voice bridge pitched as an actionable
+  formalization).
 
 ## The pivot from the accepted abstract
 

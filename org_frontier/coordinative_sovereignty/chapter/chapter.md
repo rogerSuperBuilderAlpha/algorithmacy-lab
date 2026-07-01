@@ -114,6 +114,17 @@ literacy in this constitutive sense: citizens govern themselves to the degree th
 write and hold those institutions accountable through textual means (Nussbaum, 2006; Sen, 1999). Literacy is
 the sensibility of democratic sovereignty, and the reach of that sovereignty is the reach of a literate public.
 
+The pairing of a form of authority with a communicative medium has a lineage in media theory, and the relation
+is best stated as co-constitution rather than one-way causation. Innis (1951) traced how the dominant medium of
+a civilization biases its characteristic form of power, and Eisenstein (1979) showed how the printing press
+reorganized the authority of church and state. The claim here is not that the medium determines the polity, a
+determinism the record does not support: authority also selects and institutionalizes the media that amplify
+it, and media coexist rather than replace one another cleanly. A medium enables a scale of coordination and a
+form of authority; an authority entrenches the media that serve it; and the two develop together. What holds
+across the cases is the weaker and defensible claim that a form of sovereignty and a communicative sensibility
+are co-constituted, and that a sovereignty cannot be exercised or contested by those who lack the sensibility
+its medium requires.
+
 ### 2.3 Digital sovereignty as extended literacy
 
 Digital sovereignty, in most of its current forms, is the literate sensibility carried into the digital domain.
@@ -152,15 +163,38 @@ The question this chapter pursues, then, is whether platform coordination introd
 situation that reading — however extended — cannot govern, and therefore a sovereignty that literacy cannot
 supply.
 
-## 3. The platform turn: co-optation as a fourth coordination mechanism
+## 3. The platform turn: coordination through an opaque, interested mediator
 
-Organizational theory has long recognized three mechanisms for coordinating economic activity: markets,
-hierarchies, and networks. Platforms introduce a fourth. Stark and Vanden Broeck (2024) argue that platforms
-do not coordinate through price, authority, or trust so much as through co-optation: they enroll workers,
-suppliers, and users into an algorithmic logic without delegated authority and without the explicit contracts
-that mark employment or exchange. The coordinated actor is neither an employee taking orders nor a party to a
-negotiated deal. It is drawn into a system that assigns, ranks, prices, and recommends, and its compliance is
-produced by the system's operation rather than commanded by a manager or agreed in a contract.
+Organizational theory recognizes three mechanisms for coordinating economic activity, distinguished by the
+logic through which actors align: markets coordinate through price, hierarchies through authority, and networks
+through trust and reciprocity (Adler, 2001; Powell, 1990; Thompson, 2003; Williamson, 1975). Platform
+coordination is sometimes described as a fourth term; Stark and Vanden Broeck (2024) write that where actors in
+hierarchies command, in markets contract, and in networks collaborate, on platforms they are co-opted, enrolled
+into an algorithmic system without delegated authority and without the explicit contracts that mark employment
+or exchange. The term co-optation carries an older meaning in organizational theory — Selznick's (1949)
+absorption of outside actors into an organization's leadership to secure its stability — and platform enrollment
+departs from it in a way worth marking: the enrolled gain no seat and no share, only a determination. The
+observation is important, but the analytic care it requires is easy to lose. Platforms do not obviously
+introduce a new coordination logic in Powell's sense. What they run is largely the existing logics in
+algorithmic form: algorithmic pricing that clears supply and demand, algorithmic command that assigns and
+deactivates, algorithmic reputation that scores and ranks. Read as a claim about coordination logic, "a fourth
+mechanism" invites the objection that algorithmic management is hierarchy in new clothes — digital Taylorism,
+the automation of managerial control (Kellogg et al., 2020; Rahman, 2021) — or that platforms are hybrids of
+market and hierarchy rather than a distinct type (Robinson & Meijerink, 2026; Vallas & Schor, 2020).
+
+The novelty lies elsewhere, and locating it precisely is the point of this section. Three things must be kept
+apart. The coordination logic — price, authority, trust — is not new; the platform runs algorithmic versions of
+it. The organizational topology — a third party standing between two others who do not deal directly — is not
+new either; markets have always been mediated by brokers, dealers, exchanges, and auctioneers, and the
+sociological analysis of the triad is a century old (Simmel, 1908/1950). What is new is the conjunction of two
+features of the mediator. The mediator is opaque: its determinations are produced by high-dimensional systems
+that resist interpretation. And the mediator is interested and adaptive: it pursues objectives of its own and
+revises its rules continuously in pursuit of them. Coordination through an opaque, interested, adaptive
+mediator is the governance challenge that none of the three classical mechanisms was built to address, and it
+is what the rest of the chapter treats. The coordinated actor is neither an employee taking orders nor a party
+to a negotiated deal. It is drawn into a system that assigns, ranks, prices, and recommends, whose rules it
+cannot see and whose objectives it does not share, and its compliance is produced by the system's operation
+rather than commanded by a manager or agreed in a contract.
 
 ### 3.1 The mediated triad
 
@@ -260,13 +294,21 @@ own conduct into the terms the system reads, and to read the system's determinat
 oneself and one's counterpart. The third is temporal: the capacity to hold strategic coherence across a system
 whose rules shift without notice, adapting to undisclosed changes while maintaining a course.
 
-Algorithmacy is not advanced digital literacy. Digital literacy means recognizing that algorithms exist,
-detecting bias, and interpreting outputs from the outside. It reads the system as a text presented for
-inspection. Algorithmacy means working inside an opaque system by iteratively modeling its behavior and
-adapting to its shifting, undisclosed rules, while maintaining strategic coherence within a coordination that
-serves someone else's objectives. The distinction is structural rather than a matter of skill level.
-Co-optation introduces a third-party logic that reading alone cannot overcome, and the competence that meets it
-is a competence of modeling and acting from within, not of inspecting from without.
+A growing literature on algorithmic and critical data literacy has begun to name adjacent competencies, and
+algorithmacy must be positioned in relation to it rather than asserted apart from it. Algorithmic literacy is
+theorized as awareness, understanding, and skill in interacting with algorithmic systems (Dogruel et al.,
+2022), and critical data literacy adds reflexive and tactical dimensions — the capacity
+to identify how one's data are used and to act on that knowledge (Pangrazio & Selwyn, 2019; Sander, 2020).
+These competencies are largely oriented to understanding algorithms from the outside: recognizing that a system
+is at work, interpreting its outputs, reflecting critically on its effects. Algorithmacy names the part these
+frameworks underdevelop, the competence exercised from the inside. It is the practiced ability to model an
+opaque system's behavior while enrolled in it, to act strategically within a coordination whose rules one
+cannot see and whose objectives one does not share, and to hold a course as the system adapts. The distinction
+is structural rather than a matter of skill level. Critical understanding reads the system as a text presented
+for inspection; algorithmacy operates within it as an agent whose own conduct is an input the system reads back.
+Algorithmacy, on this account, is algorithmic literacy carried into action under opacity and inside the triad,
+and the from-within, triadic character is what marks it off from the from-without competence the literacy
+literature describes.
 
 The empirical literature on algorithmic management supplies one component of this competence under a different
 name. Möhlmann and colleagues (2023) describe how platform workers engage in algorithm sensemaking: they
@@ -289,10 +331,18 @@ She is exercising algorithmacy, and her position relative to a competitor who la
 literate merchant relative to an illiterate one in an economy run on written contracts. The competence is
 unevenly held, and the unevenness is consequential.
 
-The relation between the sensibilities parallels the earlier transitions. Literacy did not grow out of oracy by
-degree, and algorithmacy does not grow out of literacy by degree. A citizen with excellent legal and technical
-literacy who cannot model the behavior of the system coordinating her is in the position of a fluent speaker
-facing a written contract in a script she cannot read. She can perceive that something binds her and cannot
+The relation between the sensibilities parallels the earlier transitions, and the parallel must be stated with
+care. The claim that a change of communicative medium is a change in kind has its lineage in the
+orality–literacy scholarship (Goody, 1977; Ong, 1982). Its strong version — that writing restructures the mind —
+was refuted by empirical and ethnographic work showing that literacy's cognitive effects are practice-specific
+and socially embedded rather than general (Scribner & Cole, 1981; Street, 1984). The claim advanced here is not the strong
+cognitive one. It is a claim about coordination. Oracy, literacy, and algorithmacy are qualitatively distinct
+coordination regimes — coordination through presence and memory, through the persistent and comparable
+document, and through the opaque and adaptive algorithmic mediator — and each enables forms of authority the
+prior regime structurally cannot instantiate. In that infrastructural sense the transitions are changes in kind
+and not degree, whatever the truth about their effects on individual cognition. A citizen with excellent legal
+and technical literacy who cannot model the behavior of the system coordinating her is in the position of a
+fluent speaker facing a written contract in a script she cannot read. She can perceive that something binds her and cannot
 work within it. Algorithmacy is to platform coordination what literacy was to written coordination: a change in
 kind, demanded by a new form of coordination, and, at present, unevenly held.
 
@@ -352,9 +402,16 @@ output, and each can be read off the computation (Author, 2026).
 
 The diagnostic decides which sovereignty is available, and here the argument turns on a distinction Hirschman
 (1970) drew for organizations in decline. A member of a failing organization has two powers: exit, the power to
-leave, and voice, the power to stay and press for change. The sovereignty of independence — the sovereignty of
-Bodin's indivisible authority and Mill's private sphere — is a sovereignty of exit. Its power is the power to
-stand apart, to deal directly, to not be mediated.
+leave, and voice, the power to stay and press for change. Hirschman's framework has been applied to platforms
+before — to the constrained voice of platform workers (Dasgupta et al., 2025) and to the politics of exit from
+digital infrastructures (Smith & Burrows, 2021) — and Hirschman himself observed that monopoly restricts exit and
+so elevates voice. The contribution here is not the framework but its formalization and its consequence. Exit
+maps onto bypassability and voice onto necessity, and the necessary/contingent test computes which obtains. The
+mapping matters because it makes the availability of exit a designable fact rather than a natural one: whether a
+coordinated actor can leave is set by whether the mediator is contingent, and contingency is a policy and
+strategy variable. The sovereignty of independence — the sovereignty of Bodin's indivisible authority and
+Mill's private sphere — is a sovereignty of exit. Its power is the power to stand apart, to deal directly, to
+not be mediated.
 
 For a contingent mediator, exit is available in principle. Because the mediator is held by a liftable
 constraint, removing the constraint restores the direct tie and returns the parties to unmediated dealing.
@@ -458,14 +515,24 @@ sovereignty, across its variants, is a move to centralize control: a state, a co
 authority over a digital domain (Couture & Toupin, 2019; Floridi, 2020; Pohle & Thiel, 2020; Roberts et al.,
 2021). Digital sovereignty asks who owns the infrastructure and answers with a wall, a standard, or a domestic
 alternative. Coordinative sovereignty is actor-centric and mediation-native. It does not seek to own the
-platform or to escape it; it seeks standing within it. The nearest existing constructs approach coordinative
-sovereignty without occupying it. Bannerman (2024) develops a relational sovereignty that reads platform power
-through a relational lens but remains at the level of communications law and states. The republican analysis of
-algorithmic domination (Muldoon & Raekstad, 2022) supplies the diagnosis of the harm without a positive theory
-of the standing that would remedy it. Two adjacent legal concepts, functional sovereignty (Pasquale, 2023) and
-the platform sovereign (Cohen, 2017), describe the power that coordinative sovereignty would answer, but
-theorize the platform's authority rather than the coordinated actor's standing. Coordinative sovereignty names
-the standing.
+platform or to escape it; it seeks standing within it. The proliferation of sovereignty concepts invites a
+reasonable suspicion. The digital-sovereignty literature has been charged with concept stretching, applying the
+term to so many actors — states, firms, communities, individuals, movements — that it loses precision (Repetto,
+2025). A new coinage must answer the charge by specifying a distinct object rather than adding a synonym, and
+coordinative sovereignty does so: its object is the standing of a coordinated actor within a mediation it cannot
+exit, which the neighboring constructs do not theorize. The differences are specific. Bannerman's (2024)
+relational sovereignty reads platform power through a relational and historical lens but centers structural
+asymmetry and its rebalancing; coordinative sovereignty takes the mediation as given, often as necessary, and
+asks after the actor's voice within it. The republican analysis of algorithmic domination (Muldoon & Raekstad,
+2022) shares the non-domination foundation but centers protection from arbitrary power and frequently proposes
+exit through cooperative ownership; coordinative sovereignty adds the positive theory of standing that
+non-domination leaves undone and treats voice, not exit, as the operative form where the mediator is necessary.
+Functional sovereignty (Pasquale, 2023) and the platform sovereign (Cohen, 2017) theorize the authority the
+platform exercises over the coordinated; coordinative sovereignty theorizes the authority the coordinated could
+hold within the platform, the same relationship seen from the other end. The construct is an innovation and not
+a stretch because it names an object — voice-bearing standing within necessary mediation, paired with a
+diagnostic that says when such standing is the only autonomy available — that the crowded neighborhood describes
+around but does not occupy.
 
 Three clarifications guard the definition against familiar misreadings. First, coordinative sovereignty is not
 a synonym for worker rights or consumer protection, though it bears on both. Rights and protections are
@@ -693,6 +760,9 @@ and by the diffusion of the competence that standing requires.
 
 ## References
 
+Adler, P. S. (2001). Market, hierarchy, and trust: The knowledge economy and the future of capitalism.
+*Organization Science, 12*(2), 215–234. https://doi.org/10.1287/orsc.12.2.215.10117
+
 Alfrink, K., Keller, I., Kortuem, G., & Doorn, N. (2023). Contestable AI by design: Towards a framework. *Minds
 and Machines, 33*(4), 613–639. https://doi.org/10.1007/s11023-022-09611-z
 
@@ -724,8 +794,19 @@ Cutolo, D., & Kenney, M. (2021). Platform-dependent entrepreneurs: Power asymmet
 the platform economy. *Academy of Management Perspectives, 35*(4), 584–605.
 https://doi.org/10.5465/amp.2019.0103
 
+Dasgupta, P., McDonnell, A., Carbery, R., & Jooss, S. (2025). A systematic review on worker voice in the
+platform economy: The constitution of a grassroots voice mechanism. *Human Resource Management Journal, 35*(3),
+649–666. https://doi.org/10.1111/1748-8583.12587
+
 Delacroix, S., & Lawrence, N. D. (2019). Bottom-up data trusts: Disturbing the "one size fits all" approach to
 data governance. *International Data Privacy Law, 9*(4), 236–252. https://doi.org/10.1093/idpl/ipz014
+
+Dogruel, L., Masur, P., & Joeckel, S. (2022). Development and validation of an algorithm literacy scale for
+internet users. *Communication Methods and Measures, 16*(2), 115–133.
+https://doi.org/10.1080/19312458.2021.1968361
+
+Eisenstein, E. L. (1979). *The printing press as an agent of change: Communications and cultural
+transformations in early modern Europe*. Cambridge University Press.
 
 Floridi, L. (2020). The fight for digital sovereignty: What it is, and why it matters, especially for the EU.
 *Philosophy & Technology, 33*(3), 369–378. https://doi.org/10.1007/s13347-020-00423-6
@@ -733,6 +814,8 @@ Floridi, L. (2020). The fight for digital sovereignty: What it is, and why it ma
 Fratini, S., Hine, E., Novelli, C., Roberts, H., & Floridi, L. (2024). Digital sovereignty: A descriptive
 analysis and a critical evaluation of existing models. *Digital Society, 3*(3), Article 59.
 https://doi.org/10.1007/s44206-024-00146-7
+
+Goody, J. (1977). *The domestication of the savage mind*. Cambridge University Press.
 
 Habermas, J. (1989). *The structural transformation of the public sphere: An inquiry into a category of
 bourgeois society* (T. Burger & F. Lawrence, Trans.). MIT Press. (Original work published 1962)
@@ -745,6 +828,8 @@ Harvard University Press.
 
 Hummel, P., Braun, M., Tretter, M., & Dabrock, P. (2021). Data sovereignty: A review. *Big Data & Society,
 8*(1). https://doi.org/10.1177/2053951720982012
+
+Innis, H. A. (1951). *The bias of communication*. University of Toronto Press.
 
 Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The new contested terrain of
 control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.5465/annals.2018.0174
@@ -772,8 +857,14 @@ Nedelsky, J. (2011). *Law's relations: A relational theory of self, autonomy, an
 Nussbaum, M. C. (2006). Education and democratic citizenship: Capabilities and quality education. *Journal of
 Human Development, 7*(3), 385–395. https://doi.org/10.1080/14649880600815974
 
+Ong, W. J. (1982). *Orality and literacy: The technologizing of the word*. Methuen.
+
 Ostrom, E. (1990). *Governing the commons: The evolution of institutions for collective action*. Cambridge
 University Press.
+
+Pangrazio, L., & Selwyn, N. (2019). "Personal data literacies": A critical literacies approach to enhancing
+understandings of personal digital data. *New Media & Society, 21*(2), 419–437.
+https://doi.org/10.1177/1461444818799523
 
 Pasquale, F. (2023). Two visions for data governance: Territorial vs. functional sovereignty. In A. Chander &
 H. Sun (Eds.), *Data sovereignty: From the digital silk road to the return of the state* (pp. 33–55). Oxford
@@ -784,6 +875,9 @@ Pettit, P. (1997). *Republicanism: A theory of freedom and government*. Oxford U
 Pohle, J., & Thiel, T. (2020). Digital sovereignty. *Internet Policy Review, 9*(4).
 https://doi.org/10.14763/2020.4.1532
 
+Powell, W. W. (1990). Neither market nor hierarchy: Network forms of organization. *Research in Organizational
+Behavior, 12*, 295–336.
+
 Rahman, H. A. (2021). The invisible cage: Workers' reactivity to opaque algorithmic evaluations. *Administrative
 Science Quarterly, 66*(4), 945–988. https://doi.org/10.1177/00018392211010118
 
@@ -791,9 +885,19 @@ Rahman, H. A., Karunakaran, A., & Cameron, L. D. (2024). Taming platform power: 
 account in platform management. *Academy of Management Annals, 18*(1), 251–294.
 https://doi.org/10.5465/annals.2022.0090
 
+Repetto, E. (2025). Concept "stretching" or concept innovation? A review of the usages of sovereignty in the
+digital sovereignty literature. *Policy & Internet, 17*(3). https://doi.org/10.1002/poi3.70011
+
 Roberts, H., Cowls, J., Casolari, F., Morley, J., Taddeo, M., & Floridi, L. (2021). Safeguarding European values
 with digital sovereignty: An analysis of statements and policies. *Internet Policy Review, 10*(3).
 https://doi.org/10.14763/2021.3.1575
+
+Robinson, A. P., & Meijerink, J. G. (2026). Algorithmic management in limbo: Task-driven interweaving of
+hierarchy and market management. *Human Resource Management, 65*(1), 117–131.
+https://doi.org/10.1002/hrm.70019
+
+Sander, I. (2020). What is critical big data literacy and how can it be implemented? *Internet Policy Review,
+9*(2). https://doi.org/10.14763/2020.2.1479
 
 Schmuntzsch, U., Shajek, A., & Hartmann, E. A. (Eds.). (2025). *New digital work II: Digital sovereignty of
 companies and organizations*. Springer. https://doi.org/10.1007/978-3-031-69994-8
@@ -803,12 +907,33 @@ Scholz, T. (2016). *Platform cooperativism: Challenging the corporate sharing ec
 Scott, J. C. (1998). *Seeing like a state: How certain schemes to improve the human condition have failed*. Yale
 University Press.
 
+Scribner, S., & Cole, M. (1981). *The psychology of literacy*. Harvard University Press.
+
+Selznick, P. (1949). *TVA and the grass roots: A study in the sociology of formal organization*. University of
+California Press.
+
 Sen, A. (1999). *Development as freedom*. Alfred A. Knopf.
+
+Simmel, G. (1950). *The sociology of Georg Simmel* (K. H. Wolff, Ed. & Trans.). Free Press. (Original work
+published 1908)
 
 Skinner, Q. (1998). *Liberty before liberalism*. Cambridge University Press.
 
+Smith, H., & Burrows, R. (2021). Software, sovereignty and the post-neoliberal politics of exit. *Theory,
+Culture & Society, 38*(6), 143–166. https://doi.org/10.1177/0263276421999439
+
 Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory, 5*(2), 1–24.
 https://doi.org/10.1177/26317877241257213
+
+Street, B. V. (1984). *Literacy in theory and practice*. Cambridge University Press.
+
+Thompson, G. F. (2003). *Between hierarchies and markets: The logic and limits of network forms of
+organization*. Oxford University Press.
+
+Vallas, S., & Schor, J. B. (2020). What do platforms do? Understanding the gig economy. *Annual Review of
+Sociology, 46*, 273–294. https://doi.org/10.1146/annurev-soc-121919-054857
+
+Williamson, O. E. (1975). *Markets and hierarchies: Analysis and antitrust implications*. Free Press.
 
 Zuboff, S. (2019). *The age of surveillance capitalism: The fight for a human future at the new frontier of
 power*. PublicAffairs.
