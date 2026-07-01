@@ -9,7 +9,10 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   double-anonymized review; academic APA.
 - **File:** `chapter.md` — the manuscript. References are inline in APA 7 style; every in-text citation resolves
   to a reference-list entry (and every entry is cited).
-- **Length:** ~11,590 words including references.
+- **Length:** ~12,030 words including references.
+- **Scope on measurement:** the chapter *argues* that algorithmacy and coordinative sovereignty need validated
+  instruments and sketches the paths in a "Future research directions" section (§9); it does not develop the
+  instruments. The actual instrument development lives in `../instruments/` (the follow-on paper's material).
 - **Grounding:** every load-bearing claim has been adversarially deep-researched; verdicts and the sources that
   would otherwise be raised against the chapter are recorded in [`../research/`](../research/). The manuscript
   incorporates the pass-1 revisions (co-optation reframed from a "fourth mechanism" to the governance challenge
