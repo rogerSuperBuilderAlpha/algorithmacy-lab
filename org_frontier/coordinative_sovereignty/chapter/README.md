@@ -9,7 +9,12 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   double-anonymized review; academic APA.
 - **File:** `chapter.md` — the manuscript. References are inline in APA 7 style; every in-text citation resolves
   to a reference-list entry (and every entry is cited).
-- **Length:** ~12,760 words including references, additional reading, and key terms.
+- **Length:** ~12,900 words including references, additional reading, and key terms.
+- **Review-driven rewrite:** two peer reviews (recorded in [`../research/findings/review_rewrite.md`](../research/findings/review_rewrite.md))
+  drove a pass that **removed IIT from the chapter** (the plain bypass/counterfactual test now carries the
+  diagnostic; the companion paper owns the formalism), cut the flagged AI-slop prose, wove §6's foundations
+  narratively, and added three substantive pieces (a gritty algorithmacy vignette, the political economy of
+  algorithmacy's uneven distribution, and a hotels-vs-OTA worked bypass case).
 - **IGI template conformance:** Abstract (146 words, no citations) · Keywords · numbered sections §1 Introduction
   through §10 Conclusion · References (APA) · Additional Reading · Key Terms and Definitions (11 terms). Meets
   the ≥10,000-word minimum, the ≤150-word abstract limit, and the double-anonymized requirement. An independent
