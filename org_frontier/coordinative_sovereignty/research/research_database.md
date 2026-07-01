@@ -30,9 +30,9 @@ Verdict is filled from the deep-research passes in `findings/` and summarized he
 | H12 | The necessary/contingent distinction maps onto Hirschman's exit/voice: contingent → exit available, necessary → only voice. | §5.3 | novel | **survives as formalization** — cite Dasgupta et al. (2025), Smith et al. (2021); pitch as actionable (contingency is a policy variable), not a new reading of Hirschman |
 | H13 | Coordinative sovereignty is a novel construct, distinct from digital, relational, functional, and platform sovereignty. | §6 | novel | **survives with positioning** — engage Repetto (2025) concept-stretching; differentiate from Bannerman relational & Muldoon non-domination |
 | H14 | Coordinative sovereignty rests on non-domination, relational autonomy, involvement, and commons governance. | §6 | grounded | **verified** (pass 2) — Pettit, Skinner, Nedelsky, Mackenzie & Stoljar, Markell (DOI corrected), Ostrom confirmed |
-| H15 | Digital sovereignty (literacy) and coordinative sovereignty (algorithmacy) vary independently across firms. | §8 | novel | open — empirical; flagged for the measurement program |
+| H15 | Digital sovereignty (literacy) and coordinative sovereignty (algorithmacy) vary independently across firms. | §8 | novel | **supported** (worked case) — off-diagonal cells filled: App Store dev / Amazon seller (high digital, low coord.) vs. platform workers under EU Dir. 2024/2831 / CoopCycle (low digital, high coord.) |
 | H16 | The realizing institutions (cooperativism, data trusts, bargaining, contestability, interoperability, oversight) confer graded voice and sort by the exit/voice diagnostic. | §7 | grounded | **verified** (pass 2) — Scholz, Delacroix & Lawrence, Alfrink, Klonick, Hirschman confirmed |
-| H17 | Openness/control of infrastructure and coordinative sovereignty are orthogonal (a closed national platform can still co-opt its users). | §8 | novel | open — plausible; needs a worked case |
+| H17 | Openness/control of infrastructure and coordinative sovereignty are orthogonal (a closed national platform can still co-opt its users). | §8 | novel | **supported** (worked case) — closed/co-opting (WeChat, RuNet) vs. open/empowering (Som Mobilitat, fediverse); state vs. user sovereignty distinct (Couture & Toupin 2019) |
 | H18 | Algorithmacy, like literacy, may or may not be democratizable; whether it is decides whether coordinative sovereignty is general or elite. | §9 | novel | holds as the framing question |
 
 ## Concepts requiring definitional grounding
@@ -75,10 +75,10 @@ what would refute each, not to confirm it.
 
 Findings from each pass are written to `research/findings/` and the verdicts folded back into the tables above.
 
-**Status after two passes.** Pass 1 (adversarial) tested the novel/contested claims and forced the chapter
+**Status after three passes.** Pass 1 (adversarial) tested the novel/contested claims and forced the chapter
 revisions recorded in `findings/adversarial_pass_1.md`. Pass 2 (verification) fact-checked the 36 grounded
 sources: all real and correctly attributed, one DOI corrected (Markell), recorded in
-`findings/verification_pass_2.md`. Remaining open: **H15** (digital vs coordinative sovereignty vary
-independently) and **H17** (openness/coordinative-sovereignty orthogonality) are empirical and await worked
-cases; **H11/H12** rest on the authors' formal apparatus, sound internally and now positioned against the
-literature.
+`findings/verification_pass_2.md`. Pass 3 (worked cases) filled the two empirical claims **H15** and **H17**
+with verified real cases, recorded in `worked_cases.md`. Every proto-hypothesis now has a verdict; **H11/H12**
+rest on the authors' formal apparatus, sound internally and positioned against the literature. No claim in the
+chapter remains a bare assertion.
