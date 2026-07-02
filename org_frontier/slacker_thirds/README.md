@@ -41,6 +41,13 @@ chapter bibliography.
       engaged (Macor, Speed, Ciafone added), training claim qualified as a reception hypothesis, Möhlmann
       folk-competence moved to §6. Author's voice pass still recommended (§1 opening, §3 scene
       descriptions, §7 close; one more close-read handoff flagged in a §4 comment).
+- [x] **Human-voice rewrite (2026-07-02):** full-body rewrite in the first person, modeled on real samples
+      from the bibliography's own stylists (Bordwell's *Poetics of Cinema* introduction; Hansen's "Mass
+      Production of the Senses") and on the accepted abstract's voice ("I'll argue…", "(cult, if one
+      must!)"). Analysis in `research/style_models.md`. The prior draft had zero first person while the
+      accepted abstract runs on it — the rewrite restores the "I", contractions, questions answered in
+      stride, concessions mid-paragraph. Citations byte-for-byte preserved (verified by inventory diff);
+      References/Filmography untouched; body 4,721 words.
 - [x] **Parallel literature gap-check (2026-07-02):** two web agents (film theory; place/indie) + Consensus
       sweeps (brokerage typology; matching markets); findings in `research/gap_film_theory.md` and
       `research/gap_place_indie.md`. Twelve must-cites added, all primary-verified: Gould & Fernandez +
