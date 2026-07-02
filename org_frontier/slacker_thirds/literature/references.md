@@ -116,6 +116,10 @@ Journalism / data (cite as web sources with access date 2026-07-02):
 - Hallinan, Blake, and Ted Striphas. "Recommended for You: The Netflix Prize and the Production of Algorithmic Culture." *New Media & Society* 18, no. 1 (2016): 117–137. https://doi.org/10.1177/1461444814538646.
 - Lee, Min Kyung, Daniel Kusbit, Evan Metsky, and Laura Dabbish. "Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers." In *Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15)*, 1603–1612. New York: ACM, 2015. https://doi.org/10.1145/2702123.2702548.
 - Lobato, Ramon. *Netflix Nations: The Geography of Digital Distribution.* New York: NYU Press, 2019.
+- Möhlmann, Mareike, Carolina Alves de Lima Salge, and Marco Marabelli. "Algorithm Sensemaking: How Platform
+  Workers Make Sense of Algorithmic Management." *Journal of the Association for Information Systems* 24,
+  no. 1 (2023): 35–64. https://doi.org/10.17705/1jais.00774. [carried over, verified in the IGI chapter
+  bibliography]
 - Pierson, John. *Spike, Mike, Slackers & Dykes: A Guided Tour across a Decade of American Independent Cinema.* Austin: University of Texas Press, 2014. First published 1995.
 - Rosenblat, Alex, and Luke Stark. "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers." *International Journal of Communication* 10 (2016): 3758–3784. https://ijoc.org/index.php/ijoc/article/view/4892. [pages verified against PDF running header]
 - Sirůček, Jiří. "Apparatus Theory, Post-Cinematic Dispositifs, and the Algorithmic Interpellation of the Subject." *Iluminace* 37, no. 1 (2025): 99–121. https://doi.org/10.58193/ilu.1799. [name, pages, DOI verified at journal page]
