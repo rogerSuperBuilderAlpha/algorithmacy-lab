@@ -34,9 +34,13 @@ chapter bibliography.
 - [x] Research sweep (four verified files in `research/` + `SYNTHESIS.md`); all digital verifications closed
 - [x] Structure proposal (`outline.md`) and §1 drafting kit (`drafting/section1_kit.md`)
 - [x] Full draft v0 (`drafting/draft_v0.md`, strawman at the author's request)
-- [x] **Prepared manuscript: `chapter/chapter.md`** — ~3,700-word body + complete References (43 entries,
+- [x] **Prepared manuscript: `chapter/chapter.md`** — ~4,500-word body + complete References (46 entries,
       Chicago author-date) + Filmography; citation resolution verified both directions; do-not-use list
-      respected. Author's voice pass still recommended (§1 opening, §3 scene descriptions, §7 close).
+      respected. Review-driven revision applied: host/engineer operationalized (three questions in §2),
+      §5 asymmetry paragraph (composes vs governs), close reading of the opening relay in §4, rivals
+      engaged (Macor, Speed, Ciafone added), training claim qualified as a reception hypothesis, Möhlmann
+      folk-competence moved to §6. Author's voice pass still recommended (§1 opening, §3 scene
+      descriptions, §7 close; one more close-read handoff flagged in a §4 comment).
 - [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
       confirmation; conversion to notes-bibliography or MLA is mechanical)
 - [ ] Exact collection title / editor / deadline
