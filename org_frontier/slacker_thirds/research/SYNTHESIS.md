@@ -32,8 +32,11 @@ weeks after the national release**: the city naming its hosting function after t
 connects. Linklater's "100 percent Austin product" is the primary-source hosting anchor.
 
 **§4 The camera engineers** — Bordwell, *Poetics of Cinema* ch. 7, section titled **"Narration Makes
-Networks"** (p. 207): connectivity is a narrational product. Slacker's taxonomic home is Ramírez Berg's
-**"daisy chain plot"** (2006) — never revisit a protagonist; *Slacker* is his named example — the limit case
+Networks"** (p. 207): connectivity is a narrational product. And Bordwell on Slacker itself, p. 215
+(verified wording): "Another borderline case, I think, is Slacker (1991)… This isn't a network so much as a
+wiggly, knotted string" — his own image concedes the film has no story-world network, which is the section's
+point: the string is the camera's path. Slacker's taxonomic home is Ramírez Berg's **"daisy chain plot"**
+(2006) — never revisit a protagonist; *Slacker* is his named example — the limit case
 where the only edges are the camera's relay: **a star graph whose hub is off-screen.** Linklater's own
 words: "a comprehensive architecture that you can pass through and not feel completely disoriented" (Savlov
 2011). Discipline the metaphor with narrator theory (Bordwell 1985: personified camera is "an
@@ -95,10 +98,14 @@ case — the daisy chain whose only network edges are narrational. The database-
 
 ## Library checks before final draft
 
-Goffman 1963 civil-inattention pages (commonly 83–88); Simmel Wolff-volume page ranges; Jacobs ballet page;
-Bordwell p. 215 wording; the 1992 St. Martin's *Slacker* book contents; Stone ch. 4 / Macor ch. 4 contents;
-Rosenblat & Stark page range; Sirůček full first name; Benjamin SW3 editor/translator front matter; whether
-Azcona mentions Slacker.
+Most items closed digitally 2026-07-02 (see `verification_log.md`): Goffman civil inattention 83–88;
+Jacobs ballet p. 50; Bordwell p. 215 exact wording captured; Rosenblat & Stark 3758–3784; Sirůček = Jiří
+(DOI 10.58193/ilu.1799); Benjamin SW3 eds. Eiland & Jennings, trans. Jephcott & Zohn; Azcona mentions
+Slacker only in a list (p. 21) — cite as taxonomy context, not as discussion; Milgram reprint pp. 51–53.
+
+**Still open:** Simmel Wolff-volume page ranges (physical copy); the 1992 St. Martin's *Slacker* book
+contents; Stone ch. 4 / Macor ch. 4 contents; the Criterion 2004 commentary (verify Copeland's secondhand
+quotes against the disc); Dobie premiere day (write "July 1990").
 
 ## Next step
 
