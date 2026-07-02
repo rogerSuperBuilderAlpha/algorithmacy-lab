@@ -9,7 +9,14 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   double-anonymized review; academic APA.
 - **File:** `chapter.md` — the manuscript. References are inline in APA 7 style; every in-text citation resolves
   to a reference-list entry (and every entry is cited).
-- **Length:** ~12,900 words including references, additional reading, and key terms.
+- **Length:** ~12,600 words including references, additional reading, and key terms.
+- **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
+  verified references closing three gaps flagged as reviewer-exploitable: the brokerage literature behind the
+  mediated triad (Burt; Obstfeld; Hahl et al. on disintermediation), the two-sided-market economics behind the
+  bottleneck and multihoming (Rochet & Tirole; Armstrong & Wright; Eisenmann et al.), and the folk-theory /
+  algorithmic-management evidence base under algorithmacy (Eslami et al.; DeVito; Bucher et al.; Wood et al.),
+  plus Lei on platform architecture and collective contention and Micheli et al. on data-governance models. All
+  entries verified against primary records (issue years, DOIs).
 - **Review-driven rewrite:** two peer reviews (recorded in [`../research/findings/review_rewrite.md`](../research/findings/review_rewrite.md))
   drove a pass that **removed IIT from the chapter** (the plain bypass/counterfactual test now carries the
   diagnostic; the companion paper owns the formalism), cut the flagged AI-slop prose, wove §6's foundations
