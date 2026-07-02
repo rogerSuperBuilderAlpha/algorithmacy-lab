@@ -129,3 +129,52 @@ Journalism / data (cite as web sources with access date 2026-07-02):
 - Tzioumakis, Yannis. "After the 'Great Studio Pullback of '08': Late Indiewood and American Independent Film Theatrical Distribution in the Age of Streaming (2008–2019)." *Media Industries* 10, no. 1 (2023). https://journals.publishing.umich.edu/mij/article/id/1482/.
 - "Slacker (film)." Wikipedia. https://en.wikipedia.org/wiki/Slacker_(film). [production/distribution facts; replace with Pierson chapter and Criterion materials for print citation]
 
+# Gap-check additions (2026-07-02, all primary-verified)
+
+Anderson, Elijah. 2011. *The Cosmopolitan Canopy: Race and Civility in Everyday Life*. New York: W. W.
+Norton.
+
+--
+Chatman, Seymour. 1990. *Coming to Terms: The Rhetoric of Narrative in Fiction and Film*. Ithaca, NY:
+Cornell University Press.
+
+--
+Frey, Mattias. 2021. *Netflix Recommends: Algorithms, Film Choice, and the History of Taste*. Oakland:
+University of California Press.
+
+--
+Gould, Roger V., and Roberto M. Fernandez. 1989. "Structures of Mediation: A Formal Approach to Brokerage
+in Transaction Networks." *Sociological Methodology* 19: 89–126. https://doi.org/10.2307/270949.
+
+--
+Hansen, Miriam Bratu. 1999. "The Mass Production of the Senses: Classical Cinema as Vernacular Modernism."
+*Modernism/Modernity* 6 (2): 59–77.
+
+--
+Klinenberg, Eric. 2018. *Palaces for the People: How Social Infrastructure Can Help Fight Inequality,
+Polarization, and the Decline of Civic Life*. New York: Crown.
+
+--
+Long, Joshua. 2010. *Weird City: Sense of Place and Creative Resistance in Austin, Texas*. Austin:
+University of Texas Press.
+
+--
+Newman, Michael Z. 2011. *Indie: An American Film Culture*. New York: Columbia University Press.
+
+Obstfeld, David. 2005. "Social Networks, the *Tertius Iungens* Orientation, and Involvement in Innovation."
+--
+Perren, Alisa. 2012. *Indie, Inc.: Miramax and the Transformation of Hollywood in the 1990s*. Austin:
+University of Texas Press.
+
+--
+Poulaki, Maria. 2014. "Network Films and Complex Causality." *Screen* 55 (3): 379–395.
+https://doi.org/10.1093/screen/hju020.
+
+--
+Smits, Roderik. 2019. *Gatekeeping in the Evolving Business of Independent Film Distribution*. Cham:
+Palgrave Macmillan.
+
+--
+Stovel, Katherine, and Lynette Shaw. 2012. "Brokerage." *Annual Review of Sociology* 38: 139–158.
+https://doi.org/10.1146/annurev-soc-081309-150054.
+

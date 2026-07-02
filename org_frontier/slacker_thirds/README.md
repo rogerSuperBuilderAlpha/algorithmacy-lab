@@ -41,6 +41,18 @@ chapter bibliography.
       engaged (Macor, Speed, Ciafone added), training claim qualified as a reception hypothesis, Möhlmann
       folk-competence moved to §6. Author's voice pass still recommended (§1 opening, §3 scene
       descriptions, §7 close; one more close-read handoff flagged in a §4 comment).
+- [x] **Parallel literature gap-check (2026-07-02):** two web agents (film theory; place/indie) + Consensus
+      sweeps (brokerage typology; matching markets); findings in `research/gap_film_theory.md` and
+      `research/gap_place_indie.md`. Twelve must-cites added, all primary-verified: Gould & Fernandez +
+      Stovel & Shaw (missing-cell claim now stated against the formal typology), Chatman (narrator debate),
+      Hansen (vernacular modernism carries the training claim), Poulaki (self-organization as the direct
+      rival, answered), Stone's Deleuzian reading engaged as foil, Newman (his Slacker daisy-chain reading
+      was uncited in our own file), Anderson (cosmopolitan canopy differentiated), Klinenberg, Long (Weird
+      City), Perren (streaming as the second enclosure), Smits + Frey (enclosure repitched at infrastructure
+      level, Frey as the reception boundary). The "no scholarship links Slacker to algorithms" novelty claim
+      survived six falsification probes (one library-database sweep still recommended pre-submission). Body
+      ~4,940 words (ceiling 5,000); 58 references. Noted-not-added: Elsaesser, Crary, Cameron, Gunning,
+      Sennett, market-design economics (Roth) — see gap files.
 - [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
       confirmation; conversion to notes-bibliography or MLA is mechanical)
 - [ ] Exact collection title / editor / deadline
