@@ -53,7 +53,7 @@ Metadata verified per markers above; items flagged (†) have one or more detail
 
 - Azcona, María del Mar. *The Multi-Protagonist Film*. Chichester: Wiley-Blackwell, 2010.
 - Beller, Jonathan. *The Cinematic Mode of Production: Attention Economy and the Society of the Spectacle*. Hanover, NH: Dartmouth College Press, 2006.
-- Benjamin, Walter. "The Work of Art in the Age of Its Technological Reproducibility: Second Version." In *Selected Writings, Volume 3: 1935–1938*. Cambridge, MA: Belknap Press of Harvard University Press, 2002. († editors/translators; quote at 3:108)
+- Benjamin, Walter. "The Work of Art in the Age of Its Technological Reproducibility: Second Version." Translated by Edmund Jephcott and Harry Zohn. In *Selected Writings, Volume 3: 1935–1938*, edited by Howard Eiland and Michael W. Jennings. Cambridge, MA: Belknap Press of Harvard University Press, 2002. [editors/translators verified from title page and essay source note; training sentence at 3:108]
 - Benjamin, Walter. "The Work of Art in the Age of Mechanical Reproduction." Translated by Harry Zohn. In *Illuminations*, edited by Hannah Arendt. New York: Schocken. († year of printing used)
 - Berg, Charles Ramírez. "A Taxonomy of Alternative Plots in Recent Films: Classifying the 'Tarantino Effect.'" *Film Criticism* 31, no. 1–2 (2006): 5–61.
 - Bordwell, David. *Narration in the Fiction Film*. Madison: University of Wisconsin Press, 1985.
@@ -86,11 +86,11 @@ Metadata verified per markers above; items flagged (†) have one or more detail
 - Burt, Ronald S. *Structural Holes: The Social Structure of Competition*. Cambridge, MA: Harvard University Press, 1992. [publisher page verified]
 - Duranton, Gilles, and Diego Puga. "Micro-Foundations of Urban Agglomeration Economies." In *Handbook of Regional and Urban Economics*, vol. 4, edited by J. Vernon Henderson and Jacques-François Thisse, 2063–2117. Amsterdam: North-Holland, 2004. [author page verified]
 - Glaeser, Edward. *Triumph of the City: How Our Greatest Invention Makes Us Richer, Smarter, Greener, Healthier, and Happier*. New York: Penguin Press, 2011. [metadata verified]
-- Goffman, Erving. *Behavior in Public Places: Notes on the Social Organization of Gatherings*. New York: Free Press, 1963. [civil inattention commonly cited at 83–88 — LIBRARY CHECK]
-- Jacobs, Jane. *The Death and Life of Great American Cities*. New York: Random House, 1961. [ballet quote verified; page number — LIBRARY CHECK]
+- Goffman, Erving. *Behavior in Public Places: Notes on the Social Organization of Gatherings*. New York: Free Press of Glencoe, 1963. ["Civil Inattention" section verified at 83–88, definitional passage 83–84, via archive.org scan]
+- Jacobs, Jane. *The Death and Life of Great American Cities*. New York: Random House, 1961. [sidewalk ballet verified at p. 50 of the 1961 edition via archive.org scan]
 - Lofland, Lyn H. *A World of Strangers: Order and Action in Urban Public Space*. New York: Basic Books, 1973. [metadata verified via Social Forces review]
 - Lofland, Lyn H. *The Public Realm: Exploring the City's Quintessential Social Territory*. Hawthorne, NY: Aldine de Gruyter, 1998. [metadata verified via Social Forces review and WorldCat]
-- Milgram, Stanley. "The Familiar Stranger: An Aspect of Urban Anonymity." *Division 8 Newsletter*, Division of Personality and Social Psychology, American Psychological Association, 1972. Reprinted in Milgram, *The Individual in a Social World: Essays and Experiments*. Reading, MA: Addison-Wesley, 1977. [cite the reprint]
+- Milgram, Stanley. "The Familiar Stranger: An Aspect of Urban Anonymity." In *The Individual in a Social World: Essays and Experiments*, 51–53. Reading, MA: Addison-Wesley, 1977. First circulated 1972. [pages verified from 1977 scan TOC]
 - Obstfeld, David. "Social Networks, the Tertius Iungens Orientation, and Involvement in Innovation." *Administrative Science Quarterly* 50, no. 1 (2005): 100–130. [journal page verified]
 - Oldenburg, Ray. *The Great Good Place: Cafes, Coffee Shops, Community Centers, Beauty Parlors, General Stores, Bars, Hangouts and How They Get You Through the Day*. New York: Paragon House, 1989. [first-edition publisher verified; beware Berkshire reissue attribution]
 - Simmel, Georg. "The Metropolis and Mental Life." In *The Sociology of Georg Simmel*, translated and edited by Kurt H. Wolff, 409–24. Glencoe, IL: Free Press, 1950. First published 1903.
@@ -117,8 +117,8 @@ Journalism / data (cite as web sources with access date 2026-07-02):
 - Lee, Min Kyung, Daniel Kusbit, Evan Metsky, and Laura Dabbish. "Working with Machines: The Impact of Algorithmic and Data-Driven Management on Human Workers." In *Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15)*, 1603–1612. New York: ACM, 2015. https://doi.org/10.1145/2702123.2702548.
 - Lobato, Ramon. *Netflix Nations: The Geography of Digital Distribution.* New York: NYU Press, 2019.
 - Pierson, John. *Spike, Mike, Slackers & Dykes: A Guided Tour across a Decade of American Independent Cinema.* Austin: University of Texas Press, 2014. First published 1995.
-- Rosenblat, Alex, and Luke Stark. "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers." *International Journal of Communication* 10 (2016). https://ijoc.org/index.php/ijoc/article/view/4892. [page range to be confirmed against PDF]
-- Sirůček, J. "Apparatus Theory, Post-Cinematic Dispositifs, and the Algorithmic Interpellation of the Subject." *Iluminace* 37, no. 1 (2025): 99–121. [author's full first name to be confirmed]
+- Rosenblat, Alex, and Luke Stark. "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers." *International Journal of Communication* 10 (2016): 3758–3784. https://ijoc.org/index.php/ijoc/article/view/4892. [pages verified against PDF running header]
+- Sirůček, Jiří. "Apparatus Theory, Post-Cinematic Dispositifs, and the Algorithmic Interpellation of the Subject." *Iluminace* 37, no. 1 (2025): 99–121. https://doi.org/10.58193/ilu.1799. [name, pages, DOI verified at journal page]
 - Stark, David, and Ivana Pais. "Algorithmic Management in the Platform Economy." *Sociologica* 14, no. 3 (2020): 47–72. https://doi.org/10.6092/issn.1971-8853/12221.
 - Stark, David, and Pieter Vanden Broeck. "Principles of Algorithmic Management." *Organization Theory* 5, no. 2 (2024). https://doi.org/10.1177/26317877241257213.
 - Striphas, Ted. "Algorithmic Culture." *European Journal of Cultural Studies* 18, nos. 4–5 (2015): 395–412. https://doi.org/10.1177/1367549415577392.
