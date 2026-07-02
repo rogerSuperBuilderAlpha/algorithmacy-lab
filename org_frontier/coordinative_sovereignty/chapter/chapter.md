@@ -166,7 +166,9 @@ managerial control (Kellogg et al., 2020; Rahman, 2021), or that platforms are h
 The novelty lies elsewhere, and three things have to be kept apart to find it. The coordination logic — price,
 authority, trust — is old. The topology is old too: a third party standing between two others who never deal
 directly has been the broker's, the dealer's, and the auctioneer's position for centuries, and the
-sociological analysis of the triad is itself a century old (Simmel, 1908/1950). What is new is a conjunction
+sociological analysis of the triad is itself a century old (Simmel, 1908/1950). Network sociology built a
+whole literature on the profits of that position, from the broker who bridges disconnected others (Burt,
+2004) to the broker who joins the parties it stands between (Obstfeld, 2005). What is new is a conjunction
 of two features of the mediator. It is opaque: its determinations are produced by high-dimensional systems
 that resist interpretation. And it is interested and adaptive: it pursues objectives of its own and revises
 its rules continuously in their pursuit. Coordination through an opaque, interested, adaptive mediator is the
@@ -213,7 +215,9 @@ Third, the actors who most need to contest the system have no leverage over it. 
 entrepreneurs operate under power asymmetries that diversification cannot relieve, because in many sectors no
 alternative platform exists at the required scale (Cutolo & Kenney, 2021). Workers under opaque algorithmic
 evaluation inhabit what Rahman (2021) calls an invisible cage. They react to a system whose rules they cannot
-see, adjusting their behavior to a shifting target, and the reaction is itself a form of control. Taming
+see, adjusting their behavior to a shifting target, and the reaction is itself a form of control. The
+flexibility such platforms advertise is real and sits inside that control: the worker chooses her hours and
+cannot see what her choices are measured against (Wood et al., 2019). Taming
 platform power, Rahman and colleagues (2024) argue, requires treating accountability as a problem of its own,
 because the ordinary levers of market exit and legal challenge do not reach the algorithmic layer.
 
@@ -235,7 +239,8 @@ literate sensibility can grasp, and no refinement of reading reaches it.
 
 Attending to what the mediator captures sharpens the point. In a market the parties transact directly, and the
 surplus of their exchange is theirs to divide. In the mediated triad both parties must pass through the third
-party to produce anything at all, and that structural position, the bottleneck, is a source of rent
+party to produce anything at all, and that structural position, which the economics of two-sided markets
+names the competitive bottleneck (Armstrong & Wright, 2007; Rochet & Tirole, 2003), is a source of rent
 independent of any service the mediator provides. A mediator through which all coordination must flow captures
 a share of the value of that coordination simply by standing where it stands. The share follows from the
 topology of mediation, which is how platform-dependent actors come to be essential to a platform's value and
@@ -270,7 +275,9 @@ should be positioned among them. Algorithmic literacy is theorized as awareness,
 interacting with algorithmic systems (Dogruel et al., 2022), and critical data literacy adds reflexive and
 tactical dimensions, the capacity to identify how one's data are used and to act on that knowledge (Pangrazio
 & Selwyn, 2019; Sander, 2020). These competencies mostly describe spectatorship: recognizing that a system is
-at work, interpreting its outputs, reflecting on its effects. Algorithmacy is what algorithmic literacy
+at work, interpreting its outputs, reflecting on its effects. A parallel line in human–computer interaction
+has documented the practice itself: ordinary users build and revise folk theories of the feeds that curate
+them, and keep revising as the platforms change (DeVito, 2021; Eslami et al., 2016). Algorithmacy is what algorithmic literacy
 becomes when your own conduct is one of the variables the system is optimizing and the system is reading your
 moves back to you as inputs. Reading a system from the outside and working it from within are different acts,
 and the difference is one of kind.
@@ -279,7 +286,9 @@ The empirical literature on algorithmic management has already observed one comp
 field. Möhlmann and colleagues (2023) describe platform workers engaged in algorithm sensemaking: building
 informal, iteratively revised theories of the algorithm that manages them, precisely because formal disclosure
 does not reach the mechanisms that control their work. Algorithm sensemaking is the inferential part of
-algorithmacy under another name. The full competence adds the translational and temporal parts and places all
+algorithmacy under another name, and the translational part has a field record too: gig workers shape their
+conduct in advance to pacify an algorithm they cannot see (Bucher et al., 2021). The full competence adds the
+temporal part and places all
 three inside the triad, where the point is to coordinate with a counterpart through the system while the
 system pursues ends of its own.
 
@@ -379,6 +388,10 @@ constitutive role under the open tie while losing part of its integration is par
 alongside a bypassable gate. The same counterfactual thus sorts every mediator into one of four kinds:
 necessary, contingent, partial, or reducible (Author, 2026).
 
+Network sociology reached the same variable informally: a broker's advantage lasts only while the brokered
+parties cannot close the gap themselves (Hahl et al., 2016). The bypass test turns that observation into a
+computable property of the coordination's rules.
+
 ### 5.3 Exit and voice: what the diagnostic decides
 
 The diagnostic decides which sovereignty is available, and here the argument turns on a distinction Hirschman
@@ -396,7 +409,9 @@ For a contingent mediator, exit is available in principle. The mediator is held 
 lifting the constraint restores the direct tie and returns the parties to unmediated dealing. Deregulation,
 mandated interoperability, an antitrust remedy, the breaking of an exclusive — each is an exit move, and each
 is the right move where the mediator is contingent. Digital-sovereignty instruments that force open a gate
-belong here.
+belong here. Platform economics reads the same fact through multihoming: where an actor can hold more than
+one platform at once, the bottleneck is contestable, and exclusivity is what forecloses it (Eisenmann et al.,
+2006).
 
 For a necessary mediator, the bypass takes nothing, because the mediator's position never rested on the tie's
 absence. To demand independence from a necessary mediator is to demand the dissolution of the coordination
@@ -551,7 +566,7 @@ cooperative alternative struggles to match, and in sectors where a single platfo
 the route may be foreclosed for want of a viable competitor.
 
 Data trusts and data cooperatives pursue standing through collective control of the data on which the
-mediation runs. A bottom-up data trust pools the data rights of many individuals under a fiduciary bound to
+mediation runs (Micheli et al., 2020). A bottom-up data trust pools the data rights of many individuals under a fiduciary bound to
 act in their interest, giving a collective the bargaining power that no individual data subject possesses, and
 it works alongside top-down regulation as a complement (Delacroix & Lawrence, 2019). The trust leaves the
 mediator in place and changes the terms on which the mediator obtains the input it depends on. It is a
@@ -562,7 +577,8 @@ Where platform workers or platform-dependent firms can organize, they can negoti
 mediation — how assignments are made, how deactivation is decided, how ranking is governed — and can establish
 a standing channel through which disclosure becomes accountability. This answers the failure Ananny and
 Crawford (2018) identify. Transparency without an institution to act on it yields nothing, and a bargaining
-unit is such an institution.
+unit is such an institution. Whether one can form is itself a fact about the mediation: the architecture of a
+platform shapes where grievances pool and whether contention can organize at all (Lei, 2021).
 
 Contestability builds voice into the algorithmic system itself. Where explainability provides reasons for a
 determination, contestability provides a channel to challenge it: a contestable system is open and responsive
@@ -783,6 +799,9 @@ https://doi.org/10.1177/1461444816676645
 Anderson, B. (2006). *Imagined communities: Reflections on the origin and spread of nationalism* (Rev. ed.).
 Verso. (Original work published 1983)
 
+Armstrong, M., & Wright, J. (2007). Two-sided markets, competitive bottlenecks and exclusive contracts.
+*Economic Theory, 32*(2), 353–380. https://doi.org/10.1007/s00199-006-0114-6
+
 Bannerman, S. (2024). Platform imperialism, communications law and relational sovereignty. *New Media &
 Society, 26*(4), 2140–2158. https://doi.org/10.1177/14614448221077284
 
@@ -792,8 +811,15 @@ https://doi.org/10.1093/oso/9780190088583.001.0001
 Braun, M., & Hummel, P. (2025). Is digital sovereignty normatively desirable? *Information, Communication &
 Society, 28*(10), 1721–1734. https://doi.org/10.1080/1369118X.2024.2332624
 
+Bucher, E. L., Schou, P. K., & Waldkirch, M. (2021). Pacifying the algorithm – Anticipatory compliance in the
+face of algorithmic management in the gig economy. *Organization, 28*(1), 44–67.
+https://doi.org/10.1177/1350508420961531
+
 Burrell, J. (2016). How the machine "thinks": Understanding opacity in machine learning algorithms. *Big Data &
 Society, 3*(1). https://doi.org/10.1177/2053951715622512
+
+Burt, R. S. (2004). Structural holes and good ideas. *American Journal of Sociology, 110*(2), 349–399.
+https://doi.org/10.1086/421787
 
 Cohen, J. E. (2017). Law for the platform economy. *UC Davis Law Review, 51*(1), 133–204.
 
@@ -811,12 +837,22 @@ platform economy: The constitution of a grassroots voice mechanism. *Human Resou
 Delacroix, S., & Lawrence, N. D. (2019). Bottom-up data trusts: Disturbing the "one size fits all" approach to
 data governance. *International Data Privacy Law, 9*(4), 236–252. https://doi.org/10.1093/idpl/ipz014
 
+DeVito, M. A. (2021). Adaptive folk theorization as a path to algorithmic literacy on changing platforms.
+*Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 339. https://doi.org/10.1145/3476080
+
 Dogruel, L., Masur, P., & Joeckel, S. (2022). Development and validation of an algorithm literacy scale for
 internet users. *Communication Methods and Measures, 16*(2), 115–133.
 https://doi.org/10.1080/19312458.2021.1968361
 
+Eisenmann, T. R., Parker, G., & Van Alstyne, M. W. (2006). Strategies for two-sided markets. *Harvard
+Business Review, 84*(10), 92–101.
+
 Eisenstein, E. L. (1979). *The printing press as an agent of change: Communications and cultural
 transformations in early modern Europe*. Cambridge University Press.
+
+Eslami, M., Karahalios, K., Sandvig, C., Vaccaro, K., Rickman, A., Hamilton, K., & Kirlik, A. (2016). First I
+"like" it, then I hide it: Folk theories of social feeds. In *Proceedings of the 2016 CHI Conference on Human
+Factors in Computing Systems* (pp. 2371–2382). ACM. https://doi.org/10.1145/2858036.2858494
 
 European Parliament & Council of the European Union. (2024). *Directive (EU) 2024/2831 of the European
 Parliament and of the Council of 23 October 2024 on improving working conditions in platform work* (Official
@@ -833,6 +869,10 @@ Goody, J. (1977). *The domestication of the savage mind*. Cambridge University P
 
 Habermas, J. (1989). *The structural transformation of the public sphere: An inquiry into a category of
 bourgeois society* (T. Burger & F. Lawrence, Trans.). MIT Press. (Original work published 1962)
+
+Hahl, O., Kacperczyk, A., & Davis, J. P. (2016). Knowledge asymmetry and brokerage: Linking network perception
+to position in structural holes. *Strategic Organization, 14*(2), 118–143.
+https://doi.org/10.1177/1476127015624274
 
 Hildebrandt, M. (2015). *Smart technologies and the end(s) of law: Novel entanglements of law and technology*.
 Edward Elgar Publishing.
@@ -853,11 +893,17 @@ Review, 131*(6), 1598–1670.
 
 Krasner, S. D. (1999). *Sovereignty: Organized hypocrisy*. Princeton University Press.
 
+Lei, Y.-W. (2021). Delivering solidarity: Platform architecture and collective contention in China's platform
+economy. *American Sociological Review, 86*(2), 279–309. https://doi.org/10.1177/0003122420979980
+
 Mackenzie, C., & Stoljar, N. (Eds.). (2000). *Relational autonomy: Feminist perspectives on autonomy, agency,
 and the social self*. Oxford University Press.
 
 Markell, P. (2008). The insufficiency of non-domination. *Political Theory, 36*(1), 9–36.
 https://doi.org/10.1177/0090591707310084
+
+Micheli, M., Ponti, M., Craglia, M., & Berti Suman, A. (2020). Emerging models of data governance in the age of
+datafication. *Big Data & Society, 7*(2). https://doi.org/10.1177/2053951720948087
 
 Möhlmann, M., Alves de Lima Salge, C., & Marabelli, M. (2023). Algorithm sensemaking: How platform workers make
 sense of algorithmic management. *Journal of the Association for Information Systems, 24*(1), 35–64.
@@ -870,6 +916,9 @@ Nedelsky, J. (2011). *Law's relations: A relational theory of self, autonomy, an
 
 Nussbaum, M. C. (2006). Education and democratic citizenship: Capabilities and quality education. *Journal of
 Human Development, 7*(3), 385–395. https://doi.org/10.1080/14649880600815974
+
+Obstfeld, D. (2005). Social networks, the *tertius iungens* orientation, and involvement in innovation.
+*Administrative Science Quarterly, 50*(1), 100–130. https://doi.org/10.2189/asqu.2005.50.1.100
 
 Ong, W. J. (1982). *Orality and literacy: The technologizing of the word*. Methuen.
 
@@ -909,6 +958,9 @@ https://doi.org/10.14763/2021.3.1575
 Robinson, A. P., & Meijerink, J. G. (2026). Algorithmic management in limbo: Task-driven interweaving of
 hierarchy and market management. *Human Resource Management, 65*(1), 117–131.
 https://doi.org/10.1002/hrm.70019
+
+Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. *Journal of the European
+Economic Association, 1*(4), 990–1029. https://doi.org/10.1162/154247603322493212
 
 Sander, I. (2020). What is critical big data literacy and how can it be implemented? *Internet Policy Review,
 9*(2). https://doi.org/10.14763/2020.2.1479
@@ -951,6 +1003,10 @@ Vallas, S., & Schor, J. B. (2020). What do platforms do? Understanding the gig e
 Sociology, 46*, 273–294. https://doi.org/10.1146/annurev-soc-121919-054857
 
 Williamson, O. E. (1975). *Markets and hierarchies: Analysis and antitrust implications*. Free Press.
+
+Wood, A. J., Graham, M., Lehdonvirta, V., & Hjorth, I. (2019). Good gig, bad gig: Autonomy and algorithmic
+control in the global gig economy. *Work, Employment and Society, 33*(1), 56–75.
+https://doi.org/10.1177/0950017018785616
 
 Zuboff, S. (2019). *The age of surveillance capitalism: The fight for a human future at the new frontier of
 power*. PublicAffairs.
