@@ -73,8 +73,8 @@ their word, carry the customary rules that constituted the group. Within its ran
 Beyond its range it simply stopped. An oral order could not lay its law down in a fixed text, check today's
 ruling against last year's, or transmit a rule past the reach of living memory.
 
-The oral case is the right place to start because the pattern is naked there: a form of authority, a medium
-through which it runs, and a sensibility that lets the governed participate and push back. When the medium
+The pattern is naked in the oral case: a form of authority, a medium through which it runs, and a sensibility
+that lets the governed participate and push back. When the medium
 changes, the old sensibility does not automatically govern the new one, and a period follows in which
 authority outruns the capacity of the governed to contest it. The transition from oral to literate order was
 such a period. Those who could write governed those who could not, and the spread of literacy was, among other
@@ -126,7 +126,7 @@ is attainable.
 The three sensibilities are nested. Literacy presupposes the structured communication that oracy names and
 adds persistence, portability, and comparability. Digital sovereignty presupposes literacy and extends it to
 new objects: a compliance officer is still a reader, working new registers on new material. The one completed
-change in kind is the first, from speech to writing. A scribe is a different creature from a better speaker.
+change in kind is the first, from speech to writing: a scribe is a different creature from a better speaker.
 
 The nesting matters in two ways. First, each new sovereignty layers on the old instead of replacing it. A
 digital sovereign still needs the literate institutions of the state, and the state still rests on the
@@ -216,8 +216,8 @@ entrepreneurs operate under power asymmetries that diversification cannot reliev
 alternative platform exists at the required scale (Cutolo & Kenney, 2021). Workers under opaque algorithmic
 evaluation inhabit what Rahman (2021) calls an invisible cage. They react to a system whose rules they cannot
 see, adjusting their behavior to a shifting target, and the reaction is itself a form of control. The
-flexibility such platforms advertise is real and sits inside that control: the worker chooses her hours and
-cannot see what her choices are measured against (Wood et al., 2019). Taming
+flexibility such platforms advertise is real, and it operates inside that control. A worker chooses her hours
+and cannot see what her choices are measured against (Wood et al., 2019). Taming
 platform power, Rahman et al. (2024) argue, requires treating accountability as a problem of its own,
 because the ordinary levers of market exit and legal challenge do not reach the algorithmic layer.
 
@@ -260,7 +260,8 @@ the coordinated actor has no standing to contest is still an objective imposed o
 
 ## 4. Algorithmacy: the sensibility for the platform era
 
-Governing the mediated triad requires a competence that differs in kind from digital literacy. The companion
+Governing the mediated triad, and contesting the terms it imposes, requires a competence that differs in kind
+from digital literacy. The companion
 work to this chapter names it algorithmacy: the integrated competence through which an actor coordinates with
 another party through an algorithmic third party that interprets both sides and commits determinations neither
 side controls (Author, 2026). The competence has three parts. The first is inferential, the capacity to model
@@ -307,8 +308,8 @@ merchant beside an illiterate one in an economy run on written contracts.
 One morning her orders halve, with no message from the platform and no change she made. She
 checks the obvious things — price, stock, a lapsed promotion — and they are fine. Watching which listings fell
 and which held, she infers that the system has begun to weight delivery speed more heavily, and her older
-listings, shipped from a slower warehouse, have dropped. She has read nothing, because there was nothing to
-read. She moves the affected listings to the faster fulfillment option, watches placement recover over a
+listings, shipped from a slower warehouse, have dropped. She has read nothing. There was nothing to read. She
+moves the affected listings to the faster fulfillment option, watches placement recover over a
 week, and files the episode as one more revision to a model she will revise again. A seller without the
 competence sees only that sales fell, and waits, or blames the market, or abandons a channel that was working.
 The difference between them is the competence to build a working theory from effects and act on it inside a
@@ -357,8 +358,8 @@ mediator binds the two humans into a joint determination that no division into p
 mediator is constitutive. It commits an outcome that depends on both parties at once and that neither could
 produce alone, and an actor governs such an arrangement, if at all, by algorithmacy.
 
-Whether a coordination factors is a question about its rules: whether some cut of the modeled system loses
-causal information that exists only in the joint behavior of its parts. The companion paper develops the
+Whether a coordination factors is a question about its rules: does some cut of the modeled system lose causal
+information that exists only in the joint behavior of its parts? The companion paper develops the
 integrated-information measures that make the check exact and that grade the borderline cases, where the
 answer is close or the parties are many (Author, 2026). For the argument here, the runnable counterfactual of
 the next section is enough.
@@ -366,9 +367,11 @@ the next section is enough.
 ### 5.2 The bypass test: necessary versus contingent mediators
 
 Triadic coordination comes in two kinds that look identical from the outside and differ decisively in what
-they permit. The difference is revealed by a single counterfactual. Take a mediator that binds two parties.
-Restore the direct tie between them, the tie that strict mediation forbids, and recompute whether the mediator
-still binds.
+they permit. Brokerage research reached the difference informally: a broker's returns depend on whether the
+brokered parties can credibly threaten to close the gap themselves (Hahl et al., 2016). A single
+counterfactual turns that observation into a computable property of the coordination's rules. Take a mediator
+that binds two parties. Restore the direct tie between them, the tie that strict mediation forbids, and
+recompute whether the mediator still binds.
 
 Some mediators keep their grip. Such a mediator is necessary: its position rests on integrating work that the
 direct tie cannot reproduce. A clearinghouse that guarantees both sides of a trade, an exchange that matches
@@ -387,10 +390,6 @@ parties can already deal directly, and nothing holds the mediator in place. A me
 constitutive role under the open tie while losing part of its integration is partial: real integrating work
 alongside a bypassable gate. The same counterfactual thus sorts every mediator into one of four kinds:
 necessary, contingent, partial, or reducible (Author, 2026).
-
-Brokerage research reached the same variable informally: a broker's returns depend on whether the brokered
-parties can credibly threaten to close the gap themselves (Hahl et al., 2016). The bypass test turns that
-observation into a computable property of the coordination's rules.
 
 ### 5.3 Exit and voice: what the diagnostic decides
 
@@ -608,14 +607,13 @@ some standing to act, and the platform-work directive, now in transposition acro
 begins to attach collective rights to the algorithmically managed. These are partial steps, and they are instructive
 in their partiality. A provision that creates standing — a right to organize, a right to contest, a channel
 that turns a disclosure into a consequence — builds coordinative sovereignty, while one that stops at
-legibility extends digital sovereignty and leaves the coordination layer untouched. The measure sorts the
-provisions as it sorts the institutions.
+legibility extends digital sovereignty and leaves the coordination layer untouched.
 
 Across all of these forms, the common measure is the one the definition supplies: how much effective voice
 does the institution confer on the coordinated actor, and does that voice amount to a genuine share in the
 governance of the arrangement, or only a protection against its worst conduct. The institutions compose. A
-data trust can supply the collective leverage that makes a bargaining unit's demands credible. A
-contestability mechanism gives that unit case-level evidence. An interoperability mandate, correctly aimed at
+data trust can supply the collective leverage that makes a bargaining unit's demands credible, and the data
+it pools can feed the audits that give contestation its evidence. An interoperability mandate, correctly aimed at
 the contingent functions, relieves the pressure on the necessary ones by giving the actor somewhere else to go
 for what can be gotten elsewhere. No single instrument is likely to deliver coordinative sovereignty. It is
 the cumulative standing that a stack of such institutions confers, and the diagnostic is what keeps the stack
@@ -659,10 +657,10 @@ falls hardest on the small and medium-sized enterprises that depend on platforms
 influence: the independent software vendor, the marketplace seller, the gig operator. A firm that invests in
 regulatory compliance secures a digital position and acquires no ability to predict or contest the algorithmic
 determinations that set its market outcomes. The exposure is an algorithmacy gap, and the diagnostic gives
-managers a decision procedure for it. Where the firm depends on a contingent mediator, press for exit: support
-interoperability, build or back an alternative, break the lock-in. Where the firm depends on a necessary
-mediator, exit is closed, and the move is to build voice: organize with other dependent firms, pool data,
-demand contestable systems, seek a standing channel of governance. Treating a necessary mediator as contingent
+managers a decision procedure for it. Where the firm depends on a contingent mediator, the move is toward
+exit: support interoperability, build or back an alternative, break the lock-in. Where it depends on a
+necessary mediator, exit is closed and the move is toward voice: organize with other dependent firms, pool
+data, demand contestable systems, seek a standing channel of governance. Treating a necessary mediator as contingent
 wastes effort on an exit that cannot be had. Treating a contingent one as necessary concedes a bypass that
 could be opened. Knowing which is which is the first return on algorithmacy.
 
