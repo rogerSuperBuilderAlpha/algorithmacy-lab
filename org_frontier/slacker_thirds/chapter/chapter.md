@@ -32,7 +32,9 @@ placed the drifting camera in a surrealist tradition, Buñuel's *The Phantom of 
 Schnitzler's *La Ronde* without the returns — Ebert's image was a camera that caroms through Austin "like a
 cue ball" (Ebert 1991; Canby 1991; Barker 2004). A third answer is the city itself; a fourth is the
 day-in-the-life frame, morning to morning; a fifth is the talk, wall-to-wall philosophizing that gives every
-scene the same texture (Hinson 1991; Stone 2018).
+scene the same texture (Hinson 1991) — or, in Stone's Deleuzian register, the loosened link between seeing
+and acting, wandering itself becoming the form (Stone 2018). The Deleuzian account names what is loosened;
+it does not name what still binds.
 
 And there is a sixth answer that pushes against the other five. Macor's production history presents
 *Slacker* as "the least auteur film ever made" — its coherence the property of a whole scene's collective
@@ -58,7 +60,10 @@ The third's later career in sociology has been, almost entirely, the career of t
 holes are positions between disconnected others, worth money to whoever occupies them (Burt 1992);
 Obstfeld's *tertius iungens* is the third who joins the parties instead of playing them (Obstfeld 2005).
 What these have in common is that the third acts on particular pairs. It stands between this person and that
-one, and does something to their connection.
+one, and does something to their connection. Even the formal typologies stay inside that frame: Gould and
+Fernandez's five structures of mediation — coordinator, itinerant broker, gatekeeper, representative,
+liaison — classify thirds by the memberships of the pair being brokered (Gould and Fernandez 1989), and the
+field's own review treats brokerage as the third's defining act (Stovel and Shaw 2012).
 
 But there is another way to occupy the position, and it has no name in that lineage. Some thirds coordinate
 a whole field of encounters while brokering none of them. A city does not introduce anyone to anyone. It
@@ -82,6 +87,11 @@ host who greets the regulars (Oldenburg 1989). A hosting third in this chapter's
 has no greeter. Third places are part of what a hosting third provides: furniture for a coordination nobody
 is running. The near-collision is actually the argument in miniature. Oldenburg's host stands at the door of
 one establishment. The structural host is the reason there is a door-to-door world to walk through at all.
+Two nearby concepts map the same terrain: Klinenberg's social infrastructure names the places that shape
+whether people interact at all (Klinenberg 2018), and Anderson's cosmopolitan canopy names bounded settings
+where strangers mix under a shared code of civility (Anderson 2011). Both describe what a hosting third
+furnishes, and what it feels like to be furnished. The hosting third is the position behind the furniture —
+and its output, in *Slacker* as in a market, is coordination, not only civil coexistence.
 
 *Slacker* is a useful film because it contains both kinds of third at once, working the same crowd. Austin
 hosts while the camera engineers.
@@ -125,7 +135,9 @@ holding onto, because the platforms in section 5 differ from the city on exactly
 The historical record supplies a detail almost too good: Austin's city council passed the resolution
 declaring the city the "Live Music Capital of the World" on August 29, 1991 — seven weeks after *Slacker*'s
 national release (KUT News 2016). The city began naming its own hosting function just as the film finished
-documenting it.
+documenting it. The naming had a future, too: Long's study of Austin's place identity treats the film as
+definitive of the subculture and reads the "Keep Austin Weird" campaigns of the following decade as creative
+resistance to the enclosure of exactly this milieu (Long 2010).
 
 The record also supplies a complication, and the complication is the pivot. The film's geography is quietly
 fictional. Gaughen, retracing the locations, found that consecutive scenes join places at implausible
@@ -163,9 +175,11 @@ operation abolished it: a dispatch algorithm is not limited to whoever happens t
 
 Film theory has a precise way to talk about this. Bordwell's account of narration insists that what
 organizes a fiction film is a process, not a person — he warns that treating the camera as a little
-storyteller is "an anthropomorphic fiction" (Bordwell 1985). That warning helps rather than hurts here. The
-engineering third is not a character either; it is an impersonal agency whose selections the viewer
-experiences simply as what happens next. And in his taxonomy of ensemble films — the "network narratives" of
+storyteller is "an anthropomorphic fiction" (Bordwell 1985); Chatman answered that every film nonetheless
+implies a cinematic narrator, an immanent agency that presents what we see and hear (Chatman 1990). The
+engineering third takes no side in that dispute, because it is defined relationally — by what the agency
+does to a field of strangers — not semiotically, by what kind of teller it is. Either way it is not a
+character; it is an impersonal agency whose selections the viewer experiences simply as what happens next. And in his taxonomy of ensemble films — the "network narratives" of
 mutual friends and chronologies of chance — Bordwell titles a section "Narration Makes Networks": the
 connectedness of such films is a narrational product before it is a fact about the story world (Bordwell
 2008). *Slacker* he treats as a limit: "Another borderline case, I think, is *Slacker*… This isn't a network
@@ -173,13 +187,17 @@ so much as a wiggly, knotted string" (Bordwell 2008, 215).
 
 The string is the camera's path. In Ramírez Berg's taxonomy of alternative plots, *Slacker* is the named
 example of the "daisy chain": a film that "jumps from one protagonist to the next, never to revisit"
-(Ramírez Berg 2006). Take a standard network narrative and strip out every connection between characters —
+(Ramírez Berg 2006) — the same figure Newman's study of indie film culture reaches for in its own reading
+of the film (Newman 2011). Take a standard network narrative and strip out every connection between characters —
 the shared pasts, the collisions, the coincidences — and what remains, still producing a connected whole,
 is the narration itself. As a network, *Slacker* is a star graph whose hub is off-screen. The characters
 have no edges to each other. Each has exactly one relationship: with the third that selected them. The
 taxonomies, in other words, register the position without naming it: Bordwell shows that narration makes
-networks and files *Slacker* as a limit case, but the account stops at the mechanism. What the structural
-third adds is the seat — the same position that a city or a matchmaker or a matching engine can occupy, now
+networks and files *Slacker* as a limit case, but the account stops at the mechanism. Poulaki, the most
+direct rival, explains multi-character coherence without any broker at all: parts interacting until a
+system self-organizes (Poulaki 2014). *Slacker* is the case her account cannot reach — its encounters are
+one-shot and pairwise, no feedback loop ever forms, and coherence arrives anyway. What the structural third
+adds is the seat — the same position that a city or a matchmaker or a matching engine can occupy, now
 occupied by a camera.
 
 For a while in the 2000s, critics called films of distributed storylines "hyperlink cinema" (Quart 2005).
@@ -253,7 +271,10 @@ been training viewers in exactly this for a century.
 Benjamin made the strong version of the claim in 1936: the function of film is to train human beings in "the
 apperceptions and reactions needed to deal with a vast apparatus whose role in their lives is expanding
 almost daily" (Benjamin [1936] 2002, 108). He meant the industrial city; the sentence has not aged in the
-direction he expected. The training mechanism is concrete and well documented. Kuleshov showed that viewers
+direction he expected. Hansen's account of classical Hollywood as "vernacular modernism" gives the claim its
+scholarly body: the movies were "the single most inclusive cultural horizon" in which the experience of
+industrial modernity was negotiated — sense training at industrial scale (Hansen 1999). The training
+mechanism is concrete and well documented. Kuleshov showed that viewers
 reliably infer relations between shots that were never co-present — the same neutral face reads as hunger or
 grief depending on what an editor placed beside it (Kuleshov 1974). Continuity editing turned that inference
 into an invisible convention: a hundred years of practice at trusting a third party's composition of
@@ -308,13 +329,19 @@ about it from other people (Pierson [1995] 2014). Every link in that chain could
 The film's $23,000-to-$1.2-million path is a tour of what distribution looks like when its thirds host and
 broker in the open.
 
-That chain is gone. The studio specialty divisions that institutionalized it were shuttered in a wave around
-2008–2010 (Tzioumakis 2023); theatrical indie distribution contracted; and the festival market now clears
-through streamers — *CODA* to Apple for a record $25 million, *Fair Play* to Netflix for $20 million (Bloom
-2023). What replaced the chain is a recommender: a proprietary engine that decides, viewer by viewer, which
-films exist (Hallinan and Striphas 2016; Lobato 2019). The infrastructure that made *Slacker* has been
-enclosed by the kind of system the film's own form anticipated. An engineering third now stands over cinema
-— the training ground itself — brokering what the trained get to watch.
+That chain had been captured once before — Perren's history of Miramax shows the 1990s independent boom
+ending as a studio niche-market strategy, indie inside Disney (Perren 2012) — but capture kept the thirds
+addressable. The streaming turn is the second enclosure, and the more complete one. The specialty divisions
+were shuttered in a wave around 2008–2010 (Tzioumakis 2023); theatrical indie distribution contracted; the
+festival market now clears through streamers — *CODA* to Apple for a record $25 million, *Fair Play* to
+Netflix for $20 million (Bloom 2023). And the platforms are absorbing the brokers themselves: the sales
+agents and distributors who carried films toward audiences increasingly work inside the streamers whose
+catalogs they feed (Smits 2019), fronted by a proprietary recommender (Hallinan and Striphas 2016; Lobato
+2019). The enclosure should be stated carefully: reception research finds viewers neither trust nor much
+use the recommendations (Frey 2021). But the enclosure does not need them to. By the time a viewer ignores
+the recommender, the platform has already decided which films were acquired, licensed, and surfaced —
+enclosure operates at the infrastructure, not the interface. An engineering third now stands over cinema —
+the training ground itself — brokering what the trained get to watch.
 
 So the questions this chapter opened with are not rhetorical. Under what conditions does a hosting third
 become an engineering third? Section 2's three questions give the test: when the third's selections stop
@@ -339,6 +366,9 @@ where an audience could watch, and learn to read them.
 Ajunwa, Ifeoma. 2020. "The Algorithmic Capture of Employment and the Tertius Bifrons." *LPE Project*
 (blog), October 5. https://lpeproject.org/blog/the-algorithmic-capture-of-employment-and-the-tertius-bifrons/.
 
+Anderson, Elijah. 2011. *The Cosmopolitan Canopy: Race and Civility in Everyday Life*. New York: W. W.
+Norton.
+
 Barker, Michael. 2004. "Slacker: Looking Back." The Criterion Collection, September 13.
 https://www.criterion.com/current/posts/1060-slacker-looking-back.
 
@@ -362,11 +392,14 @@ https://alcalde.texasexes.org/2014/05/slacker-austin-then-and-now.
 Burt, Ronald S. 1992. *Structural Holes: The Social Structure of Competition*. Cambridge, MA: Harvard
 University Press.
 
-Ciafone, Amanda. 2014. "The Magical Neoliberalism of Network Films." *International Journal of
-Communication* 8: 2680–2704.
-
 Canby, Vincent. 1991. "'Slacker,' a Collection of Eccentrics and Lunacies." *New York Times*, July 5.
 https://www.nytimes.com/1991/07/05/movies/review-film-slacker-a-collection-of-eccentrics-and-lunacies.html.
+
+Chatman, Seymour. 1990. *Coming to Terms: The Rhetoric of Narrative in Fiction and Film*. Ithaca, NY:
+Cornell University Press.
+
+Ciafone, Amanda. 2014. "The Magical Neoliberalism of Network Films." *International Journal of
+Communication* 8: 2680–2704.
 
 Criterion Collection. 2011. "Slacker Twenty Years Later." January 20.
 https://www.criterion.com/current/posts/1722-slacker-twenty-years-later.
@@ -378,23 +411,35 @@ of Regional and Urban Economics*, vol. 4, edited by J. Vernon Henderson and Jacq
 Ebert, Roger. 1991. Review of *Slacker*, directed by Richard Linklater. RogerEbert.com.
 https://www.rogerebert.com/reviews/slacker-1991.
 
+Frey, Mattias. 2021. *Netflix Recommends: Algorithms, Film Choice, and the History of Taste*. Oakland:
+University of California Press.
+
 Gaughen, Brendan. 2014. "Slacker Geography, 25 Years Later." *The End of Austin*, May 22.
 https://endofaustin.com/2014/05/22/the-geography-of-slacker-25-years-later/.
 
 Goffman, Erving. 1963. *Behavior in Public Places: Notes on the Social Organization of Gatherings*. New
 York: Free Press of Glencoe.
 
+Gould, Roger V., and Roberto M. Fernandez. 1989. "Structures of Mediation: A Formal Approach to Brokerage
+in Transaction Networks." *Sociological Methodology* 19: 89–126. https://doi.org/10.2307/270949.
+
 Hallinan, Blake, and Ted Striphas. 2016. "Recommended for You: The Netflix Prize and the Production of
 Algorithmic Culture." *New Media & Society* 18 (1): 117–137. https://doi.org/10.1177/1461444814538646.
+
+Hansen, Miriam Bratu. 1999. "The Mass Production of the Senses: Classical Cinema as Vernacular Modernism."
+*Modernism/Modernity* 6 (2): 59–77.
 
 Hinson, Hal. 1991. "'Slacker': Loaf on the Edge." *Washington Post*, August 23.
 https://www.washingtonpost.com/archive/lifestyle/1991/08/23/slacker-loaf-on-the-edge/7345af35-7730-4f3d-bd20-6be90d433f7b/.
 
-KUT News. 2016. "How Did Austin Become the 'Live Music Capital of the World'?" September 21.
-https://www.kut.org/austin/2016-09-21/how-did-austin-become-the-live-music-capital-of-the-world.
+Klinenberg, Eric. 2018. *Palaces for the People: How Social Infrastructure Can Help Fight Inequality,
+Polarization, and the Decline of Civic Life*. New York: Crown.
 
 Kuleshov, Lev. 1974. *Kuleshov on Film: Writings by Lev Kuleshov*. Translated and edited by Ron Levaco.
 Berkeley: University of California Press.
+
+KUT News. 2016. "How Did Austin Become the 'Live Music Capital of the World'?" September 21.
+https://www.kut.org/austin/2016-09-21/how-did-austin-become-the-live-music-capital-of-the-world.
 
 Lee, Min Kyung, Daniel Kusbit, Evan Metsky, and Laura Dabbish. 2015. "Working with Machines: The Impact of
 Algorithmic and Data-Driven Management on Human Workers." In *Proceedings of the 33rd Annual ACM Conference
@@ -409,6 +454,9 @@ Lobato, Ramon. 2019. *Netflix Nations: The Geography of Digital Distribution*. N
 Lofland, Lyn H. 1973. *A World of Strangers: Order and Action in Urban Public Space*. New York: Basic
 Books.
 
+Long, Joshua. 2010. *Weird City: Sense of Place and Creative Resistance in Austin, Texas*. Austin:
+University of Texas Press.
+
 Macor, Alison. 2010. *Chainsaws, Slackers, and Spy Kids: Thirty Years of Filmmaking in Austin, Texas*.
 Austin: University of Texas Press.
 
@@ -421,14 +469,22 @@ Möhlmann, Mareike, Carolina Alves de Lima Salge, and Marco Marabelli. 2023. "Al
 Platform Workers Make Sense of Algorithmic Management." *Journal of the Association for Information Systems*
 24 (1): 35–64. https://doi.org/10.17705/1jais.00774.
 
+Newman, Michael Z. 2011. *Indie: An American Film Culture*. New York: Columbia University Press.
+
 Obstfeld, David. 2005. "Social Networks, the *Tertius Iungens* Orientation, and Involvement in Innovation."
 *Administrative Science Quarterly* 50 (1): 100–130. https://doi.org/10.2189/asqu.2005.50.1.100.
 
 Oldenburg, Ray. 1989. *The Great Good Place: Cafes, Coffee Shops, Community Centers, Beauty Parlors,
 General Stores, Bars, Hangouts and How They Get You Through the Day*. New York: Paragon House.
 
+Perren, Alisa. 2012. *Indie, Inc.: Miramax and the Transformation of Hollywood in the 1990s*. Austin:
+University of Texas Press.
+
 Pierson, John. (1995) 2014. *Spike, Mike, Slackers & Dykes: A Guided Tour Across a Decade of American
 Independent Cinema*. Austin: University of Texas Press.
+
+Poulaki, Maria. 2014. "Network Films and Complex Causality." *Screen* 55 (3): 379–395.
+https://doi.org/10.1093/screen/hju020.
 
 Quart, Alissa. 2005. "Networked: Dysfunctional Families, Reproductive Acts, and Multitasking Minds Make for
 Happy Endings." *Film Comment* 41 (4): 48–51.
@@ -449,11 +505,14 @@ https://www.austinchronicle.com/screens/2011-01-21/slack-to-the-future/.
 Simmel, Georg. (1908) 1950. *The Sociology of Georg Simmel*. Translated and edited by Kurt H. Wolff.
 Glencoe, IL: Free Press.
 
-Speed, Lesley. 2007. "The Possibilities of Roads Not Taken: Intellect and Utopia in the Films of Richard
-Linklater." *Journal of Popular Film and Television* 35 (3): 98–106. https://doi.org/10.3200/JPFT.35.3.98-106.
-
 Sirůček, Jiří. 2025. "Apparatus Theory, Post-Cinematic Dispositifs, and the Algorithmic Interpellation of
 the Subject." *Iluminace* 37 (1): 99–121. https://doi.org/10.58193/ilu.1799.
+
+Smits, Roderik. 2019. *Gatekeeping in the Evolving Business of Independent Film Distribution*. Cham:
+Palgrave Macmillan.
+
+Speed, Lesley. 2007. "The Possibilities of Roads Not Taken: Intellect and Utopia in the Films of Richard
+Linklater." *Journal of Popular Film and Television* 35 (3): 98–106. https://doi.org/10.3200/JPFT.35.3.98-106.
 
 Stark, David, and Ivana Pais. 2020. "Algorithmic Management in the Platform Economy." *Sociologica* 14
 (3): 47–72. https://doi.org/10.6092/issn.1971-8853/12221.
@@ -463,6 +522,9 @@ Stark, David, and Pieter Vanden Broeck. 2024. "Principles of Algorithmic Managem
 
 Stone, Rob. 2018. *The Cinema of Richard Linklater: Walk, Don't Run*. Rev. ed. New York: Wallflower
 Press/Columbia University Press.
+
+Stovel, Katherine, and Lynette Shaw. 2012. "Brokerage." *Annual Review of Sociology* 38: 139–158.
+https://doi.org/10.1146/annurev-soc-081309-150054.
 
 Texas State Library and Archives Commission. n.d. "1990 Census: Population of Texas Cities Arranged in
 Descending Order." Accessed July 2, 2026. https://www.tsl.texas.gov/ref/abouttx/popcity3.html.
