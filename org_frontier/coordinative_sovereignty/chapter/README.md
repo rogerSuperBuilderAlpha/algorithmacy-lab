@@ -22,11 +22,19 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   diagnostic; the companion paper owns the formalism), cut the flagged AI-slop prose, wove §6's foundations
   narratively, and added three substantive pieces (a gritty algorithmacy vignette, the political economy of
   algorithmacy's uneven distribution, and a hotels-vs-OTA worked bypass case).
-- **IGI template conformance:** Abstract (146 words, no citations) · Keywords · numbered sections §1 Introduction
-  through §10 Conclusion · References (APA) · Additional Reading · Key Terms and Definitions (11 terms). Meets
-  the ≥10,000-word minimum, the ≤150-word abstract limit, and the double-anonymized requirement. An independent
-  submission-readiness review returned "submission-ready"; its three minor fixes are applied (external grounding
-  of the formal diagnostic via IIT citations; SMEs named; abstract trimmed for margin).
+- **IGI template conformance:** Abstract (148 words, no citations) · Keywords · numbered sections §1 Introduction
+  through §10 Conclusion · References (APA, incl. masked "Author (2026)" entry for the anonymized companion
+  work) · Additional Reading · Key Terms and Definitions (11 terms). Meets the ≥10,000-word minimum, the
+  ≤150-word abstract limit, and the double-anonymized requirement.
+- **Final submission-readiness review (2026-07-01):** four parallel reviewers (template/anonymization, citation
+  integrity, argument coherence, prose). All findings fixed: abstract re-trimmed under the 150 limit after the
+  prose rewrite had inflated it; §2.3's nesting paragraph no longer calls literacy→digital a change in kind
+  (the chapter's architecture has exactly two — oral→literate and literate→algorithmic); §5.3's dangling
+  "next section" cross-reference now points at §6; the §7 directive wording matches §6/§8 (adopted, in
+  transposition); irreducible-vs-necessary usage disentangled (§7, §10, Key Terms); abstract/§1 now carry the
+  full three-part definition; plus APA nits ("et al." forms, group-author full form, misplaced Cutolo & Kenney
+  citation) and a prose pass (broken parallelism in §9, three overlong sentences split, competences/competencies
+  standardized).
 - **Scope on measurement:** the chapter *argues* that algorithmacy and coordinative sovereignty need validated
   instruments and sketches the paths in a "Future research directions" section (§9); it does not develop the
   instruments. The actual instrument development lives in `../instruments/` (the follow-on paper's material).
