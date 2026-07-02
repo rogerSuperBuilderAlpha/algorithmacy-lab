@@ -40,9 +40,9 @@ register, reads the film through the loosened link between seeing and acting: wa
 form (Stone 2018).
 
 And then there's Alison Macor, whose production history calls *Slacker* "the least auteur film ever made" —
-its coherence belonging to a whole scene, not to anybody's design (Macor 2010). I find the standoff between
-Macor and Rosenbaum genuinely instructive. A subtle, well-crafted structure and a structure nobody authored
-can't both be the right answer. Unless — and this is the way out I want to take — the thing doing the
+its coherence belonging to a whole scene, not to anybody's design (Macor 2010). The standoff between Macor and
+Rosenbaum is a clue. A subtle, well-crafted structure and a structure nobody authored can't both be right.
+Unless — and this is the way out I want to take — the thing doing the
 coordinating isn't a person at all.
 
 That's this chapter's answer: what holds *Slacker* together is a structural third, a *position* rather than
@@ -76,8 +76,7 @@ brokers each coordination — this rider and this driver, this scene and the nex
 When I need to tell the two apart, I ask three questions. What does the third act on: the field, or a pair?
 Could the parties have gotten there without it: is the third dispensable, or constitutive? And does the
 third read the parties: is it blind, or watching and adjusting? A host is field, dispensable, blind. An
-engineer is pair, constitutive, reading. Keep the three questions in hand — they'll matter at the end, when
-we watch a host turn into an engineer.
+engineer is pair, constitutive, reading.
 
 A word about the neighbors, because this terrain is crowded. Oldenburg's "third place" — the café, the bar,
 the barbershop, third after home and work — is a room, and it comes with a literal host who greets the
@@ -86,15 +85,15 @@ interact at all (Klinenberg 2018); Anderson's cosmopolitan canopy names bounded 
 under a shared code of civility (Anderson 2011). I like all three concepts, and none of them is what I mean.
 They describe the furniture of being hosted, and what it feels like to sit in it. The hosting third is the
 position behind the furniture, and what I care about is its output — which, in *Slacker* as in a market, is
-coordination, not just civil coexistence. (Oldenburg's greeter at the door of one establishment is actually
-a perfect foil: the structural host is the reason there's a door-to-door world to walk through at all.)
+coordination, not just civil coexistence. (Oldenburg's greeter at the door makes a good foil, though: the
+structural host is the reason there's a door-to-door world to walk through at all.)
 
 *Slacker* interests me because it holds both kinds of third at once, working the same crowd. Austin hosts
 while the camera engineers.
 
 ## 3. Austin hosts
 
-Look at what the city gives these people. The film's whole territory is a walkable corridor running from
+The film's whole territory is a walkable corridor running from
 the University of Texas campus down the Drag and into downtown: coffee shops, used bookstores, clubs, front
 porches. Its population is dense with one particular type — the over-educated, under-employed,
 theory-saturated twenty-something with time on their hands. And its public life runs on a learned etiquette
@@ -121,12 +120,12 @@ near campus — one musician of the period remembered his rent dropping from $51
 Tribune 2020; Boyd 2014). Cheap rent buys unstructured time, and unstructured time is what this film is
 actually about. The slack in *Slacker* is an economic fact before it's an attitude. The 1990 census counted
 465,622 people in Austin, with a fifty-thousand-student university in the middle (Texas State Library and
-Archives Commission n.d.). A city that size, that cheap, that dense with the underemployed, hosts a lot.
+Archives Commission n.d.). A city that size and that cheap hosts a lot.
 
 Urban economists have a dry way of saying all this: cities thicken markets. Agglomeration works through
 sharing, matching, and learning — a dense city improves everyone's odds of a good match without ever
-proposing one (Duranton and Puga 2004). Hold onto that last clause. It's the hosting third in a sentence,
-and it's exactly where the platforms in section 5 part company with the city.
+proposing one (Duranton and Puga 2004). That last clause — improves the odds without proposing a match — is
+the hosting third in a sentence.
 
 Two things in the historical record are almost too good to use, but they're true, so I'll use them. Austin's
 city council passed the resolution declaring the city the "Live Music Capital of the World" on August 29,
@@ -135,8 +134,7 @@ hosting function just as the film finished documenting it. And the naming had a 
 Austin's place identity treats the film as definitive of the subculture, and reads the "Keep Austin Weird"
 campaigns of the next decade as creative resistance to the enclosure of exactly this milieu (Long 2010).
 
-The record also holds a complication, and the complication is my pivot. The film's geography is quietly
-fictional. Gaughen went back and retraced the locations and found that consecutive scenes join places at
+The record also holds a complication. The film's geography is quietly fictional. Gaughen went back and retraced the locations and found that consecutive scenes join places at
 implausible walking distances; the seamless single day is stitched together from a city that doesn't
 actually connect that way (Gaughen 2014). Linklater called the film "a 100 percent Austin product"
 (Linklater 1991), and it is — but the product is the milieu, not the map. The city hosts these people. It
@@ -164,8 +162,8 @@ cut, always in a flow (Savlov 2011). Every transfer happens on screen, in the mi
 moving camera. The characters never hand each other anything. The camera takes it.
 
 Notice, too, what constrains the taking. The camera can only leave with a body the city has already put in
-the frame. Its selections are drawn from co-presence — from whoever the walkable corridor, the cheap rent,
-and the conventions of the street have assembled within reach of the lens. The engineering rides on the
+the frame. Its selections are drawn from co-presence — from whoever the street has assembled within reach of
+the lens. The engineering rides on the
 hosting. I stress this because it's easy to miss, and because the platforms that later industrialized the
 operation abolished it: a dispatch algorithm is not limited to whoever happens to be standing nearby.
 
@@ -183,8 +181,8 @@ is a narrational product before it's a fact about the story world — his sectio
 borderline case, I think, is *Slacker*… This isn't a network so much as a wiggly, knotted string" (Bordwell
 2008, 215). Exactly. The string is the camera's path. In Ramírez Berg's taxonomy of alternative plots the
 film is the named example of the "daisy chain," the plot that "jumps from one protagonist to the next, never
-to revisit" (Ramírez Berg 2006) — the same figure Newman reaches for in his own reading of the film's indie
-poetics (Newman 2011). Take an ordinary network narrative and strip out every connection between characters
+to revisit" (Ramírez Berg 2006) — the same figure Newman reaches for in his own reading of the film (Newman
+2011). Take an ordinary network narrative and strip out every connection between characters
 — the shared pasts, the collisions, the coincidences — and what's left, still producing a connected whole,
 is the narration. As a network, *Slacker* is a star graph whose hub is off-screen. Each character has
 exactly one relationship: with the third that selected them.
@@ -204,16 +202,16 @@ makes an algorithmic feed feel like browsing.
 Linklater, for his part, described the design in terms a systems engineer could countersign: "We're not
 going to offer a story but at least we'll offer a comprehensive architecture that you can pass through and
 not feel completely disoriented" (Savlov 2011). An architecture you pass through, in place of a story. That
-is a coordination system, described by its builder. Austin supplies the strangers and the conditions; the
-camera decides which stranger, and when, and for how long.
+is a coordination system, described by its builder. Austin supplies the strangers; the camera decides which
+stranger, and when, and for how long.
 
 ## 5. The new engineers
 
 Now put the film's two thirds next to the ones we live inside.
 
 Uber does not facilitate coordination between drivers and riders the way Austin hosts strangers. Uber
-brokers each match, selects which driver receives which ride, and enforces the terms of the exchange. None
-of that is a metaphor; the mechanics are documented. A driver gets an offer with roughly fifteen seconds to
+brokers each match, selects which driver receives which ride, and enforces the terms of the exchange. A
+driver gets an offer with roughly fifteen seconds to
 accept, and for most of the period studied, no destination shown — take it blind or decline and be scored
 for declining. Only the algorithm sees the queue of riders. No rider and no driver ever negotiate anything
 (Rosenblat and Stark 2016; Lee et al. 2015). Stark and Pais, studying the platform as an organizational
@@ -222,22 +220,22 @@ market; it co-opts, holding a "triangular geometry" with providers and users, ke
 ranks… accounts but no accountability" (Stark and Pais 2020; Stark and Vanden Broeck 2024). I should say
 that Simmel has been spotted in this neighborhood before — Ajunwa reads the hiring platform as a two-faced
 *tertius* (Ajunwa 2020), and Stark and Vanden Broeck build their theory of the platform directly on the
-triad. What I'm adding is narrower, and I think sharper: the platform is an engineering third, and we had
-all already spent a century watching one work.
+triad. What I'm adding is narrower, and I think sharper: the platform is an engineering third, and by the time
+it arrived we'd spent a century watching one work.
 
 The parallel between Linklater's camera and Uber's algorithm is formal and specific. Both select, rank, and
-filter among parties that never negotiate directly with each other. Both take a field of mutual strangers
-and produce a sequence of coordinated encounters that no participant designed. Both are impersonal — there's
-no one to argue with, which is what Bordwell's warning about anthropomorphizing the camera and the driver's
-experience of dispatch have oddly in common. And both make their selections invisible at the moment of
-experience. The next scene arrives. The next ride arrives.
+filter among parties that never negotiate directly with each other. What comes out, in the film and on the
+platform, is a sequence of encounters among mutual strangers that nobody in the sequence designed — and
+there's no one to argue with, which is what Bordwell's warning about anthropomorphizing the camera and the
+driver's experience of dispatch have oddly in common. The selections stay invisible at the moment of
+experience. The next scene just arrives, and so does the next ride.
 
 But I don't want to over-claim the symmetry, because the places it breaks are where the politics live. The
 camera selects and sequences; it does not score. Nothing a character does feeds back into the next
 selection. A character the camera passes over loses nothing, and the film's third optimizes no criterion
 beyond its maker's sense of the day. The platform's third reads everything back. A driver's acceptance rate,
-rating, and location shape the next match, and a driver passed over loses income. The selection is a
-verdict, and the verdicts accumulate. One third composes; the other governs.
+rating, and location shape the next match, and a driver passed over loses income. One third composes; the
+other governs.
 
 Cinema engineers for aesthetic ends. Platforms engineer for extraction through coordination — or, in Stark's
 sharper word, co-optation. Think of Simmel's *tertius gaudens*, the third who profits from the gap between
@@ -269,7 +267,7 @@ as hunger or grief depending on what an editor placed beside it (Kuleshov 1974).
 that inference into an invisible convention. A hundred years of practice at trusting a third party's
 composition of adjacency, at experiencing a sequence of selections as a world. A filmgoer is a person who
 has learned to be handed things — the next face, the next place — and to build coherence out of the handing.
-That is, precisely, the posture a feed asks of its user.
+It's also the posture a feed asks of its user.
 
 What makes *Slacker* a landmark in this training is that it removes the alibi. In a conventional film the
 editor's brokerage hides behind the story: the cut serves the plot, so you credit the plot. Linklater takes
@@ -279,7 +277,7 @@ remote, "creating our own narratives by watching five minutes of this and then o
 *Slacker* was conceived as "you're either channel surfing or you're going in and out of different movies"
 (Criterion Collection 2011).
 
-Others have been near this thought, and I want to be precise about what's mine and what isn't. Beller argued
+Others have been near this thought. Beller argued
 the hardest version — that cinema trained perception for the digital economy in the sense that looking
 itself became value-productive labor, montage the assembly line of attention (Beller 2006). Manovich staged
 database against narrative and described reception as reconstructing the author's algorithm (Manovich 2001).
@@ -292,8 +290,7 @@ specific structural skill — reading brokered matching, following handoffs made
 mass-produced by cinema before platforms industrialized the thing the skill reads. Platforms didn't have to
 teach anyone how to be coordinated by an invisible selector. The movies had done it.
 
-Stated that baldly, I admit, this is a hypothesis about reception, and the reception research that would
-test it — whether the spectator's trained inference actually transfers to the feed and the dispatch queue —
+Stated that baldly, this is a hypothesis about reception, and the research that would test it — whether the spectator's trained inference actually transfers to the feed and the dispatch queue —
 hasn't been done. What the record supports is narrower and still worth having: the perceptual posture the
 platform requires was mass-distributed decades before the platform existed, and *Slacker* is evidence that
 by 1991 it could hold up a whole film with nothing else underneath.
@@ -306,8 +303,6 @@ algorithm together (Möhlmann, Alves de Lima Salge, and Marabelli 2023). The con
 relearned adversarially, against a third with interests.
 
 ## 7. Enclosure
-
-There's a last turn, and it lands on cinema itself.
 
 The infrastructure that carried *Slacker* to its audience was a chain of thirds, all of them human, all of
 them addressable. Pierson — a producer's rep, which is to say a professional *tertius iungens* — saw the film
@@ -324,15 +319,15 @@ were shuttered in a wave around 2008–2010 (Tzioumakis 2023); theatrical indie 
 festival market now clears through streamers — *CODA* to Apple for a record $25 million, *Fair Play* to
 Netflix for $20 million (Bloom 2023). The platforms are absorbing the brokers themselves: the sales agents
 and distributors who carried films toward audiences increasingly work inside the streamers whose catalogs
-they feed (Smits 2019), fronted by a proprietary recommender (Hallinan and Striphas 2016; Lobato 2019). I
-should state the enclosure carefully, because the reception evidence cuts against the easy version: viewers,
-it turns out, neither trust nor much use the recommendations (Frey 2021). But the enclosure doesn't need
+they feed (Smits 2019), fronted by a proprietary recommender (Hallinan and Striphas 2016; Lobato 2019). The
+reception evidence cuts against the easy version of this: viewers neither trust nor much use the
+recommendations (Frey 2021). But the enclosure doesn't need
 them to. By the time you ignore the recommender, the platform has already decided which films were acquired,
 licensed, and surfaced. The enclosure operates at the infrastructure, not the interface. An engineering
 third now stands over cinema — the training ground itself — brokering what the trained get to watch.
 
-So the questions I opened with aren't rhetorical, and my three questions from section 2 give them teeth.
-When does a hosting third become an engineering third? When its selections stop being one path through a
+So the questions I opened with aren't rhetorical. When does a hosting third become an engineering third?
+When its selections stop being one path through a
 field the parties could also cross on their own and become the only way across — when it starts acting on
 pairs, reading the parties, and admitting no route around. What interpretive skills does collective
 navigation of an engineering third require? Section 6 ended with the beginnings of an answer being built in
