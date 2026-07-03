@@ -231,7 +231,7 @@ directly. Out of a field of strangers, each hands you a sequence of encounters n
 designed, and there's no one in either to argue with — which is what Bordwell's anti-anthropomorphism and the
 driver's experience of dispatch have oddly in common. The next scene arrives; so does the next ride.
 
-I won't over-claim the symmetry, because the breaks are the politics. The camera selects and sequences; it
+The symmetry breaks in two places, and the breaks are the politics. The camera selects and sequences; it
 doesn't score. Nothing a character does feeds into the next pick, and a character passed over loses nothing.
 The platform's third reads everything back (acceptance rate, rating, and location shape the next match), and
 it does two things no camera can. It prices each encounter it composes: surge is composition as incentive. And
@@ -303,7 +303,7 @@ moviegoer brings to a cut is the skill a driver brings to the dispatch queue, an
 could. Here is a falsifiable version, if anyone wants it — measured fluency with continuity editing should
 predict how fast a person builds a working theory of an algorithm, in the way platform workers do (Möhlmann,
 Alves de Lima Salge, and Marabelli 2023). What the record already supports is smaller and still worth having:
-the perceptual posture was mass-distributed decades before the platform, and *Slacker* is the proof that by
+the movies mass-distributed that posture decades before the platform, and *Slacker* is the proof that by
 1991 it could carry a whole film with nothing underneath it.
 
 Two limits. Training to follow is not training to contest: the century produced audiences fluent at riding a
@@ -320,8 +320,9 @@ national release. Video stores bought it and rented it to people who'd heard abo
 (Pierson [1995] 2014). Every link could be argued with, and was. Twenty-three thousand dollars to $1.2
 million is what distribution looks like when its thirds broker in the open.
 
-That chain had been captured once already. Perren's history of Miramax shows the nineties boom absorbed into
-a studio niche-market strategy, indie inside Disney, booming harder for the capture (Perren 2012). But
+The studios had captured that chain once already. Perren's history of Miramax shows the nineties boom
+absorbed into a studio niche-market strategy, indie inside Disney, booming harder for the capture (Perren
+2012). But
 addressable was never the same as accountable: Miramax recut what it bought and shelved some of it outright,
 and a film it buried had no route around the third either. The point is only that the third was still a
 person you could name and fight.
