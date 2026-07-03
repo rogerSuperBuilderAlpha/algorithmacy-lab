@@ -31,6 +31,20 @@ Three ways out, all the author's call (do not paper over with a sentence):
 Whichever is chosen, promote §4's self-correction into an explicit reconciling paragraph and flag at §2 that
 the camera is a hybrid on axis 3.
 
+**RESOLVED (2026-07-03): Option 3, the doubling, executed.** Option 1 guts the three-question test; Option 2
+throws out the labor politics and contradicts the accepted abstract. Option 3 turns the objection into the
+thesis and the chapter already contained it ("One third composes; the other governs" was the doubling stated
+as two modes). The engineering third now has two faces — a **consumption face** (camera → feed; composes what
+a spectator meets next; can run blind) and a **production face** (dispatcher → Uber; brokers producers into
+transactions; reads and scores). §4's concession is promoted into the reconciling paragraph naming the two
+faces and the one genus; §5 takes the production face first (sharpest breaks) and now carries the information-
+asymmetry point (the platform withholds as much as it reads); §7's recommender is named as the camera's own
+consumption face, industrialized. Body held to exactly 5,000 words by trimming the flagged over-dense spots
+(Klinenberg cut from the §2 neighbors; Manovich from the §6 turf-marking paragraph — both orphan entries
+removed; the hyperlink riff and two epigram-buttons tightened). Verified §7 facts added: Orion's Chapter 11
+five months post-release and the Classics team founding Sony Pictures Classics; "sums no theatrical buyer
+would match" qualified (Neon/A24).
+
 ## Apply-ready fixes (architecture-independent; verified)
 
 **Citations (verified this pass):**
