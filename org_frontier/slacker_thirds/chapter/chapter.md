@@ -69,9 +69,8 @@ There is another way to hold the position, and network sociology has a name for 
 for the seat. Feld called it a focus: a person, place, or activity around which people organize, so that
 ties form among them as a byproduct (Feld 1981). A focus brokers no pair and reads no one; it furnishes an
 environment and lets encounters fall out of it. A city is a focus at scale. So, I'll argue, is Linklater's
-Austin. What the brokerage lineage never did was seat the focus in Simmel's triad beside the broker and ask
-what separates them — focus theory and brokerage theory have somehow never been introduced. Consider this
-the introduction. I'll call the focus-as-third a *host*, and the pair-brokering third an *engineer*.
+Austin. What the brokerage lineage never did was seat the focus in Simmel's triad beside the broker and hold
+the two to the same test. That is the move here. I'll call the focus-as-third a *host*, and the pair-brokering third an *engineer*.
 
 To tell them apart I ask three questions. What does the third act on — the whole field, or these two parties?
 Could this encounter have happened without it — is the third dispensable to the match, or constitutive of
@@ -83,13 +82,12 @@ feed that reads everyone while brokering no one. Host and engineer are the corne
 
 A word about the neighbors, because the terrain is crowded. Oldenburg's third place, the café, the bar,
 third after home and work, is a room with a literal host who greets the regulars (Oldenburg 1989).
-Klinenberg's social infrastructure names the places that shape whether people meet at all (Klinenberg 2018);
 Anderson's cosmopolitan canopy names bounded settings where strangers observe one another across difference,
 canopies being exceptions a segregated city permits rather than what the city is (Anderson 2011). Lofland is
 closest of all: her locational order, strangers managed by appearances and places instead of introductions,
 already *is* the host's code (Lofland 1973). But she names the code and the economists name the odds, and
 what I'm after is the seat, the position itself, because a seat is the one thing you can also put a camera
-in. That's what lets Austin and the camera share a sentence.
+in.
 
 *Slacker* holds both kinds at once, working the same crowd. Austin hosts while the camera engineers.
 
@@ -98,8 +96,8 @@ in. That's what lets Austin and the camera share a sentence.
 Start on the street. A man leaves a coffee shop and a stranger falls into step beside him, delivering an
 unbroken monologue about the moon landings; the man can't easily shake him. A woman works the sidewalk
 selling what she swears is Madonna's pap smear, and gets a hearing. These play as oddly plausible, and the
-plausibility is the city's doing. Austin stages none of them. It makes all of them possible, in bulk, and
-how it does that is worth being precise about, because the precision is the argument.
+plausibility is the city's doing. Austin stages none of them. It makes all of them possible, in bulk. How it
+does that is the argument.
 
 The city manages a crowd of strangers without introducing anyone. Lofland showed how: appearances and
 locations, a legible code of who is likely to be found where, so the corridor from the University down the
@@ -183,13 +181,15 @@ graph into the second. Strip out every durable character-to-character tie (the s
 the coincidences that make an ordinary ensemble cohere), and what still holds the film together is the
 welding.
 
-I should be plain about who is being coordinated, because it isn't the characters. The moon-landing man and
-his captive listener coordinate with each other; the camera coordinates *me*, the viewer, with the next of
-them. The dyad the camera brokers is viewer-and-character, run serially down the chain. That will matter
-when the platforms arrive, because the camera's nearest kin is not Uber's dispatcher, which brings two
-parties into a transaction, but the feed, which brings a viewer to the next thing to look at. I'll still push
-the harder comparison to dispatch, since the way it breaks is instructive — but the honest first parallel is
-the recommender, and it's the one the training argument will lean on.
+Who is being coordinated here is the viewer, not the characters. The moon-landing man and his captive
+listener coordinate with each other; the camera coordinates *me*, the viewer, with the next of them, run
+serially down the chain. That is a real difference from Uber, and it is the key to the comparison rather than
+a hole in it. The engineering third comes in two faces. One composes what a spectator meets next — the
+camera, and after it the feed; it works on attention, and it can do its job blind, reading nobody. The other
+brokers producers into transactions — the dispatcher, and after it Uber; it works on labor, and it reads and
+scores the parties it matches. *Slacker*'s camera is the first face in its oldest, purest form: an interested
+selector arranging what reaches you, without the machinery that would later read you back. Its nearest kin is
+the recommender, its cousin the dispatcher, and the three are one genus.
 
 The most serious rival to this reading is Poulaki's. She explains coherence in centerless, multi-character
 films without any broker: parts interacting until the film self-organizes, often through reflexive loops and
@@ -199,10 +199,10 @@ the resonance. What recurrence can't do is make the join from this scene to the 
 the cuts but doesn't cause them. The host supplies the rhyming, the relay supplies the joins, and her
 mechanism has no seat for the relayer.
 
-Critics in the 2000s called films like this "hyperlink cinema" (Quart 2005), and the label misses *Slacker*
-in a useful way. A hyperlink waits for you to click. Nobody clicks in *Slacker*; you're carried, and the
-carriage is smooth enough to feel like drift. That confusion, curation taken for navigation, is the same
-one that makes an algorithmic feed feel like browsing.
+Critics in the 2000s called films like this "hyperlink cinema" (Quart 2005), and the label misses *Slacker*:
+a hyperlink waits for you to click, and nobody clicks here. You're carried, the carriage smooth enough to
+feel like drift — curation taken for navigation, the same confusion that makes an algorithmic feed feel like
+browsing.
 
 Linklater described the design in terms a systems engineer could sign: "We're not going to offer a story but
 at least we'll offer a comprehensive architecture that you can pass through and not feel completely
@@ -211,7 +211,8 @@ coordination system. Austin supplies the strangers; the camera picks which one, 
 
 ## 5. The new engineers
 
-Now put the film's two thirds next to the ones we live inside.
+Now put the film's two thirds next to the ones we live inside. Take the production face first; its breaks are
+the sharpest, and the consumption face returns in the last section, when it closes over cinema itself.
 
 Uber doesn't host the way Austin hosts. It brokers each match — picks which driver gets which ride, enforces
 the terms. In the years the field studied it, a driver got an offer with about fifteen seconds to take it and
@@ -223,21 +224,21 @@ hires like a firm nor contracts like a market but co-opts, sitting in a "triangu
 and users, keeping "rankings but not ranks … accounts but no accountability" (Stark and Pais 2020). Scholars have
 spotted Simmel here before — Ajunwa reads the hiring platform as a two-faced *tertius* (Ajunwa 2020), and
 Stark and Vanden Broeck build the platform's theory straight from the triad (Stark and Vanden Broeck 2024).
-What I'm adding is narrower: the platform is an engineering third, and by the time it arrived we'd spent a
-century watching one work.
+The platform is an engineering third, and by the time it arrived we'd spent a century watching one work.
 
 The parallel is formal and specific. Both select, rank, and filter among parties who never negotiate
-directly. Out of a field of strangers, each hands you a sequence of encounters nobody in the sequence
-designed, and there's no one in either to argue with — which is what Bordwell's anti-anthropomorphism and the
+directly, and there's no one in either to argue with — which is what Bordwell's anti-anthropomorphism and the
 driver's experience of dispatch have oddly in common. The next scene arrives; so does the next ride.
 
-The symmetry breaks in two places, and the breaks are the politics. The camera selects and sequences; it
-doesn't score. Nothing a character does feeds into the next pick, and a character passed over loses nothing.
-The platform's third reads everything back (acceptance rate, rating, and location shape the next match), and
-it does two things no camera can. It prices each encounter it composes: surge is composition as incentive. And
-it can deactivate, which is to say delete a party from the field (the control repertoire Kellogg, Valentine,
-and Christin catalogue as evaluation and discipline, 2020). The camera can pass you over. It cannot remove
-you from Austin. One third composes; the other governs.
+The symmetry breaks where the faces diverge, and the breaks are the politics. The camera selects and
+sequences; it doesn't score. Nothing a character does feeds into the next pick, and a character passed over
+loses nothing. The production face reads everything back — acceptance rate, rating, and location shape the
+next match — and it withholds as much as it reads: the driver never sees the destination, the queue, the
+logic, or the reason for a deactivation, and that asymmetry is itself the control (Rosenblat and Stark 2016).
+It does two things no camera can. It prices each encounter it composes: surge is composition as incentive.
+And it can deactivate, which is to say delete a party from the field (the repertoire Kellogg, Valentine, and
+Christin catalogue as evaluation and discipline, 2020). The camera can pass you over. It cannot remove you
+from Austin. One face composes; the other governs.
 
 Cinema engineers for aesthetic ends. Platforms engineer for extraction through coordination — co-optation,
 in Stark and Pais's word, which isn't extraction renamed but enrollment without the obligations of employing
@@ -287,12 +288,10 @@ five minutes of this and then one minute of that"; he built *Slacker* as channel
 of different movies" (Criterion Collection 2011).
 
 Others have been near this. Beller's is the hardest version: cinema trained perception for the digital
-economy in the strong sense that looking became value-productive labor, montage the assembly line of
-attention (Beller 2006). Manovich set database against narrative and read watching as reconstructing the
-author's algorithm (Manovich 2001); Ciafone reads the network film as neoliberalism's flattering
-self-portrait, connectivity made to feel providential (Ciafone 2014), and the daisy chain, on my reading, is
-that form with the flattery stripped, the connective labor left showing. My claim is narrower than Beller's,
-and I'm bracketing his value theory rather than refuting it: if he's right that looking was already labor,
+economy in the strong sense that looking became value-productive labor (Beller 2006); Ciafone reads the
+network film as neoliberalism's flattering self-portrait, connectivity made to feel providential (Ciafone
+2014), and the daisy chain, on my reading, is that form with the flattery stripped. My claim is narrower, and
+I'm bracketing Beller's value theory rather than refuting it: if he's right that looking was already labor,
 the split I drew a section ago is a difference in the machinery of extraction, not its date of arrival. What
 I want is one specific skill — reading brokered matching, following handoffs made by an unseen third, the
 move apparatus theory's heirs now track from cinema into the platform (Sirůček 2025). Platforms didn't have
@@ -318,7 +317,9 @@ reachable. Pierson, a producer's rep and a professional *tertius iungens*, saw i
 The Dobie booked it on its own judgment and held it a year. Orion Classics put up a $100,000 advance and a
 national release. Video stores bought it and rented it to people who'd heard about it from other people
 (Pierson [1995] 2014). Every link could be argued with, and was. Twenty-three thousand dollars to $1.2
-million is what distribution looks like when its thirds broker in the open.
+million is what distribution looks like when its thirds broker in the open. The chain was fragile as well as
+reachable — Orion filed for bankruptcy five months after the national release, and its Classics team left to
+found Sony Pictures Classics — but every link in it was a person you could name.
 
 The studios had captured that chain once already. Perren's history of Miramax shows the nineties boom
 absorbed into a studio niche-market strategy, indie inside Disney, booming harder for the capture (Perren
@@ -329,16 +330,18 @@ person you could name and fight.
 
 The streaming turn is the second enclosure, and the more complete one. Most of the specialty divisions
 closed in a wave around 2008–2010 (Tzioumakis 2023), and theatrical indie distribution thinned. At the
-peak of the streamer market, festival films sold to platforms for sums no theatrical buyer would match —
+peak of the streamer market, festival films sold to platforms for sums theatrical buyers rarely matched —
 *CODA* to Apple for a record $25 million; even in the chillier market after the 2022 correction, *Fair Play*
-to Netflix for $20 million (Bloom 2023). The brokers didn't vanish so much as reorient: Smits finds sales
+to Netflix for $20 million, with theatrical houses like Neon and A24 still outbidding the streamers on select
+titles (Bloom 2023). The brokers didn't vanish so much as reorient: Smits finds sales
 agents and distributors persisting, adapting to Netflix and Amazon as the powerful new buyers they now broker
 toward (Smits 2019), while a proprietary recommender fronts the catalog (Hallinan and Striphas 2016; Lobato
 2019). The easy version of this story overreaches — viewers, it turns out, neither trust nor much use the
-recommendations (Frey 2021). But the enclosure doesn't run through the recommendation. By the time you ignore
-it, the platform has already chosen what was acquired, licensed, and surfaced. It works in the
-infrastructure, not at the interface. An engineering third now stands over cinema itself, the training
-ground, and brokers what the trained are shown.
+recommendations (Frey 2021). But the enclosure doesn't run through the recommendation. By then the platform
+has already chosen what was acquired, licensed, and surfaced — it works in the infrastructure, not at the
+interface. The engineering third now standing over cinema itself, the training
+ground, is the camera's own face — the consumption face, grown a memory and a market — and it brokers what
+the trained are shown.
 
 So the three questions I've been circling aren't rhetorical. When does a hosting third become an engineering
 one? When its selections stop being one path across a field the parties could also cross on their own and
@@ -435,9 +438,6 @@ Kellogg, Katherine C., Melissa A. Valentine, and Angèle Christin. 2020. "Algori
 Contested Terrain of Control." *Academy of Management Annals* 14 (1): 366–410.
 https://doi.org/10.5465/annals.2018.0174.
 
-Klinenberg, Eric. 2018. *Palaces for the People: How Social Infrastructure Can Help Fight Inequality,
-Polarization, and the Decline of Civic Life*. New York: Crown.
-
 Kuleshov, Lev. 1974. *Kuleshov on Film: Writings by Lev Kuleshov*. Translated and edited by Ron Levaco.
 Berkeley: University of California Press.
 
@@ -465,8 +465,6 @@ University of Texas Press.
 
 Macor, Alison. 2010. *Chainsaws, Slackers, and Spy Kids: Thirty Years of Filmmaking in Austin, Texas*.
 Austin: University of Texas Press.
-
-Manovich, Lev. 2001. *The Language of New Media*. Cambridge, MA: MIT Press.
 
 Milgram, Stanley. (1972) 1977. "The Familiar Stranger: An Aspect of Urban Anonymity." In *The Individual in
 a Social World: Essays and Experiments*, 51–53. Reading, MA: Addison-Wesley.
