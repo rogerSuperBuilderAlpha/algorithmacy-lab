@@ -12,7 +12,7 @@ of a hit-and-run, and the movie leaves him. He never comes back. In the credits 
 "Should have stayed at the bus station."
 
 That monologue is the film's own account of its method, delivered five minutes in to a driver who isn't
-listening. Scholarship has read Linklater through this speech before (Speed 2007), so I'm not claiming a
+listening. Scholars have read Linklater through this speech before (Speed 2007), so I'm not claiming a
 discovery — only that we should hold the film to its word. Every handoff that follows is a road taken while
 ninety-nine others fraction off.
 
@@ -105,11 +105,11 @@ The city manages a crowd of strangers without introducing anyone. Lofland showed
 locations, a legible code of who is likely to be found where, so the corridor from the University down the
 Drag into downtown sorts its people without anyone arranging a meeting (Lofland 1973). Strictly this is what
 she later called a parochial realm, a world of the scene's regulars, half-acquainted, with public edges
-where the strangers actually collide. And what licenses the monologue is *not* Goffman's civil inattention,
+where the strangers actually collide (Lofland 1998). And what licenses the monologue is *not* Goffman's civil inattention,
 the glance-and-withdraw by which strangers leave each other alone. It's the opposite rule: the one that
 makes an encounter, once opened, cost more to close than to endure (Goffman 1963). The moon-landing man
-exploits it, and the pap-smear seller works what Goffman called an open region, a setting where anyone
-present may start something, a coffee-shop sidewalk exactly. The blindness that matters here is blindness
+exploits it, and the pap-smear seller works a setting where the convention lets anyone present start
+something, a coffee-shop sidewalk exactly. The blindness that matters here is blindness
 to persons, not to kinds: the same code that lets a white twenty-something pitch Madonna's pap smear on the
 Drag polices other bodies off it, and a mile east the film hosts no one at all. Milgram's familiar stranger,
 seen daily and never addressed, is the resting state of this world; Milgram also noted what breaks the
@@ -220,8 +220,8 @@ al. 2015). Uber has since put destinations and fares up front in many markets; w
 the algorithm sees the queue, and nothing in the design lets a rider and a driver settle anything between
 themselves. Stark and Pais catch the organizational strangeness in a run of refusals: the platform neither
 hires like a firm nor contracts like a market but co-opts, sitting in a "triangular geometry" with providers
-and users, keeping "rankings but not ranks … accounts but no accountability" (Stark and Pais 2020). Simmel
-has been seen here before — Ajunwa reads the hiring platform as a two-faced *tertius* (Ajunwa 2020), and
+and users, keeping "rankings but not ranks … accounts but no accountability" (Stark and Pais 2020). Scholars have
+spotted Simmel here before — Ajunwa reads the hiring platform as a two-faced *tertius* (Ajunwa 2020), and
 Stark and Vanden Broeck build the platform's theory straight from the triad (Stark and Vanden Broeck 2024).
 What I'm adding is narrower: the platform is an engineering third, and by the time it arrived we'd spent a
 century watching one work.
@@ -327,8 +327,8 @@ addressable was never the same as accountable: Miramax recut what it bought and 
 and a film it buried had no route around the third either. The point is only that the third was still a
 person you could name and fight.
 
-The streaming turn is the second enclosure, and the more complete one. Most of the specialty divisions were
-shuttered in a wave around 2008–2010 (Tzioumakis 2023), and theatrical indie distribution thinned. At the
+The streaming turn is the second enclosure, and the more complete one. Most of the specialty divisions
+closed in a wave around 2008–2010 (Tzioumakis 2023), and theatrical indie distribution thinned. At the
 peak of the streamer market, festival films sold to platforms for sums no theatrical buyer would match —
 *CODA* to Apple for a record $25 million; even in the chillier market after the 2022 correction, *Fair Play*
 to Netflix for $20 million (Bloom 2023). The brokers didn't vanish so much as reorient: Smits finds sales
@@ -348,8 +348,9 @@ half-built, assembled adversarially. And what could make engineering thirds cont
 proprietary? That one I can't answer. I only note that you can't contest what you can't read, and the
 reading, at least, has a century of pedagogy behind it.
 
-*Slacker*'s politics got mistaken for apathy, and the film headed off the charge itself, on a card from
-Eno's Oblique Strategies: "Withdrawing in disgust is not the same thing as apathy" (Rosenbaum 2001). Its
+*Slacker*'s politics got mistaken for apathy, and the film headed off the charge itself, on one of the
+oblique-strategies cards a passerby hands out in it: "Withdrawing in disgust is not the same thing as
+apathy" (Rosenbaum 2001). Its
 slackers withdrew from plot, from career, from convergence, and stayed visibly coordinated all the same,
 hosted by a cheap, legible city, relayed by a camera that took nothing from them but their day and gave the
 day back, watchable. The platform keeps the day. That's the difference the film lets you see, because it's
@@ -455,6 +456,9 @@ Lobato, Ramon. 2019. *Netflix Nations: The Geography of Digital Distribution*. N
 
 Lofland, Lyn H. 1973. *A World of Strangers: Order and Action in Urban Public Space*. New York: Basic
 Books.
+
+Lofland, Lyn H. 1998. *The Public Realm: Exploring the City's Quintessential Social Territory*. Hawthorne,
+NY: Aldine de Gruyter.
 
 Long, Joshua. 2010. *Weird City: Sense of Place and Creative Resistance in Austin, Texas*. Austin:
 University of Texas Press.
