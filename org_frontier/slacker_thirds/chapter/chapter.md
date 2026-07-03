@@ -336,9 +336,9 @@ to Netflix for $20 million, with theatrical houses like Neon and A24 still outbi
 titles (Bloom 2023). The brokers didn't vanish so much as reorient: Smits finds sales
 agents and distributors persisting, adapting to Netflix and Amazon as the powerful new buyers they now broker
 toward (Smits 2019), while a proprietary recommender fronts the catalog (Hallinan and Striphas 2016; Lobato
-2019). The easy version of this story overreaches — viewers, it turns out, neither trust nor much use the
+2019). The easy version of this story overreaches. Viewers, it turns out, neither trust nor much use the
 recommendations (Frey 2021). But the enclosure doesn't run through the recommendation. By then the platform
-has already chosen what was acquired, licensed, and surfaced — it works in the infrastructure, not at the
+has already chosen what was acquired, licensed, and surfaced. It works in the infrastructure, not at the
 interface. The engineering third now standing over cinema itself, the training
 ground, is the camera's own face — the consumption face, grown a memory and a market — and it brokers what
 the trained are shown.
