@@ -57,15 +57,15 @@ The word "sovereignty" needs defending here, because its classic sense resists e
 through voice can read as a misuse of the term. The sense this chapter takes is the later, democratic one: sovereignty as the
 standing to hold power to account through the medium in which power is exercised, the sense in which a
 literate public governs a state whose writing it can read and contest. Read that way, coordinative
-sovereignty specifies the concept rather than stretching it. It adds attributes — a mediation the actor
-cannot exit, a standing carried by voice rather than by command — and narrows the term's extension rather
-than widening it, which is the discipline the concept-stretching critique demands (Repetto, 2025). The
+sovereignty specifies the concept rather than stretching it. It adds two attributes, a mediation the actor
+cannot exit and a standing carried by voice rather than by command, and it narrows the term's extension
+rather than widening it. That is the discipline the concept-stretching critique demands (Repetto, 2025). The
 democratic register also fixes the reference: the sovereign here is the coordinated party, and what it holds
 to account is the mediator that commits its outcomes.
 
 ## 2. Sovereignty and its sensibilities
 
-Sovereignty is usually sorted by what it governs, by who claims it, or by which layer of technology is at
+Scholars usually sort sovereignty by what it governs, who claims it, or which layer of technology is at
 issue (Couture & Toupin, 2019; Krasner, 1999; Pohle & Thiel, 2020; Roberts et al., 2021). This chapter adds a
 different axis. Every historical form of sovereignty has depended on a communicative sensibility that made the
 authority legible and contestable to those subject to it. Without the competence, the sovereignty can be
@@ -157,7 +157,7 @@ supply.
 
 Organizational theory recognizes three mechanisms for coordinating economic activity: markets coordinate
 through price, hierarchies through authority, and networks through trust and reciprocity (Adler, 2001; Powell,
-1990; G. F. Thompson, 2003; Williamson, 1975). Platform coordination is sometimes offered as a fourth term. Stark
+1990; G. F. Thompson, 2003; Williamson, 1975). Some read platform coordination as a fourth term. Stark
 and Pais (2020) and Stark and Vanden Broeck (2024) argue that where actors in hierarchies command, in markets
 contract, and in networks collaborate, on platforms they are co-opted: enrolled into an algorithmic system
 without delegated authority and without the explicit contracts that mark employment or exchange. The word
@@ -211,8 +211,8 @@ they did not make and cannot see. That is the shape the rest of the chapter work
 
 ### 3.2 Why literacy cannot reach it
 
-Why can the competences that govern data, infrastructure, and code not govern this? The reason is structural,
-and it comes in four parts.
+Four structural features put platform coordination beyond the competences that govern data, infrastructure,
+and code, and each blocks the literate model of accountability at a different point.
 
 First, the object resists reading. High-dimensional algorithmic systems are opaque in ways disclosure does not
 cure. Burrell (2016) distinguishes three opacities: the intentional kind, the kind that follows from technical
@@ -221,8 +221,8 @@ release of source code. The behavior of a model over millions of parameters and 
 statute is legible. One can read the code and still not know what the system will do.
 
 Second, reading without a channel to act produces no accountability. Ananny and Crawford (2018) show that the
-transparency ideal — see inside the system and accountability will follow — fails when no institution can act
-on what is seen. A disclosure that no party has standing to contest is a fact without a consequence. The
+transparency ideal, the promise that seeing inside a system produces accountability, fails when no
+institution can act on what is seen. A disclosure that no party has standing to contest is a fact without a consequence. The
 literate model of governance assumes that a legible object can be brought before an institution that will hold
 its operator to account. Platform coordination routinely supplies the legibility, or a simulacrum of it, and
 withholds the institution.
@@ -332,7 +332,7 @@ exercising algorithmacy, and her position beside a competitor who lacks it is th
 merchant beside an illiterate one in an economy run on written contracts.
 
 One morning her orders halve, with no message from the platform and no change she made. She
-checks the obvious things — price, stock, a lapsed promotion — and they are fine. Watching which listings fell
+checks the obvious things: price, stock, a lapsed promotion. They are fine. Watching which listings fell
 and which held, she infers that the system has begun to weight delivery speed more heavily, and her older
 listings, shipped from a slower warehouse, have dropped. She has read nothing. There was nothing to read. She
 moves the affected listings to the faster fulfillment option, watches placement recover over a
@@ -347,8 +347,8 @@ the actors best placed to model the system are the large ones already advantaged
 its part, does more than neglect to make its rules legible. Opacity is a rent-preserving strategy. It raises
 the cost of effective contestation and protects the discretion over ranking, matching, and pricing from which
 the platform's surplus is drawn (Cutolo & Kenney, 2021; Zuboff, 2019). The same incentive sets platforms
-against the institutions — contestability, collective voice, researcher access — that would diffuse the
-competence. The scarcity of algorithmacy is therefore partly the mediator's own product. Coordinative
+against the institutions that would diffuse the competence: contestability, collective voice, researcher
+access. The scarcity of algorithmacy is therefore partly the mediator's own product. Coordinative
 sovereignty, which algorithmacy makes possible, concentrates where algorithmacy is already held, and a
 competence distributed like capital distributes standing like capital. Who gets to see the systems that
 coordinate economic life is now a political question about the distribution of a costly competence.
@@ -358,9 +358,9 @@ medium is a change in kind descends from the orality-literacy scholarship (Goody
 strong version, that writing restructures the mind, did not survive the ethnographers, who showed literacy's
 cognitive effects to be practice-specific and socially embedded (Scribner & Cole, 1981; Street, 1984). The
 claim advanced here concerns coordination, whatever the truth about individual cognition. Oracy, literacy, and
-algorithmacy are qualitatively distinct coordination regimes — coordination through presence and memory,
-through the persistent and comparable document, and through the opaque and adaptive algorithmic mediator — and
-each enables forms of authority the prior regime structurally cannot instantiate. In that infrastructural
+algorithmacy are qualitatively distinct coordination regimes: coordination through presence and memory,
+through the persistent and comparable document, and through the opaque and adaptive algorithmic mediator.
+Each enables forms of authority the prior regime structurally cannot instantiate. In that infrastructural
 sense the transitions are changes in kind. A citizen with excellent legal and technical literacy who cannot
 model the system coordinating her stands where a fluent speaker once stood before a written contract in a
 script she could not read. She can perceive that something binds her, and she cannot work within it.
@@ -375,7 +375,7 @@ the test below asks only for the coordination's rules.
 
 ### 5.1 When is the coordination genuinely triadic?
 
-Model a coordination as a small system whose elements — a worker, a mediator, a counterpart — influence one
+Model a coordination as a small system whose elements, a worker, a mediator, and a counterpart, influence one
 another by fixed rules, and ask whether the system factors. Some coordinations come apart cleanly. Cut them
 the right way and nothing is lost, because the three parties never acted as one thing. There the mediator is a
 conduit. It relays between two parties who remain separable, and an actor governs the arrangement by reading
@@ -543,9 +543,10 @@ to a central authority. Her design principles, collective-choice arrangements, g
 accessible conflict resolution, and recognized rights to organize, are institutional forms of effective voice
 under interdependence. The platform is not an unowned pasture, and that difference has to be faced. It is
 enclosed, owned and tuned by the mediator, so the coordinated cannot simply convene and govern a resource
-that is already someone's property. What the commons model offers under enclosure is narrower and still real:
-a claim to commons-like governance rights over the coordination itself, won against the owner rather than in
-the owner's absence. Coordinative sovereignty asks whether the coordinated can hold that share.
+that is already someone's property. What the commons model offers under enclosure is narrower and still real.
+It is not collective ownership of the resource but a claim to collective-choice arrangements over the
+coordination's rules, standing the owner cannot unilaterally rewrite without contest. Coordinative
+sovereignty asks whether the coordinated can hold that share.
 
 The construct needs distinguishing from its neighbors, because the neighborhood is crowded and suspicious of
 newcomers. Repetto (2025) has charged the digital-sovereignty literature with concept stretching: the term
@@ -658,9 +659,9 @@ The Digital Services Act's provisions for vetted-researcher access to platform d
 assessments begin to create channels through which the platform's coordination can be examined by parties with
 some standing to act, and the platform-work directive, now in transposition across European jurisdictions,
 begins to attach collective rights to the algorithmically managed. These are partial steps, and they are instructive
-in their partiality. A provision that creates standing — a right to organize, a right to contest, a channel
-that turns a disclosure into a consequence — builds coordinative sovereignty, while one that stops at
-legibility extends digital sovereignty and leaves the coordination layer untouched.
+in their partiality. A provision that creates standing builds coordinative sovereignty: a right to organize, a right to contest, a
+channel that turns disclosure into consequence. A provision that stops at legibility extends digital
+sovereignty and leaves the coordination layer untouched.
 
 Across all of these forms, the common measure is the one the definition supplies: how much effective voice
 does the institution confer on the coordinated actor, and does that voice amount to a genuine share in the
