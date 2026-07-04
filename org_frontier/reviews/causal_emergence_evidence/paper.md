@@ -170,12 +170,13 @@ third of the formal work runs on other machinery — dynamical independence and 
 state-space dynamics on one side, interventionist and causal-primitive accounts on the other. The
 coded fragmentation supports H3.
 
-The citation-matrix half of H3 is reported partial. The Semantic Scholar harvest is unauthenticated
-and rate-limited; the resolved seeds (led by the Hoel papers, with 127 to 345 forward citers each)
-confirm the graph is rich, but too few seeds resolved within the harvest window to freeze a
-formalism-to-formalism matrix. The reproduce block below re-runs the harvest, which is checkpointed
-and resumes where it stopped. The coded distribution stands on its own as evidence of fragmentation;
-the cross-citation structure is left for the completed harvest.
+The citation matrix confirms the coded split. Over the formalism clusters, within-cluster citation
+links outnumber cross-cluster links 69 to 22, roughly three to one. Information theory is the one
+connective hub — it carries 61 within-links and reaches across to the statistical cluster (15 links)
+and the dynamical cluster (5) — but the dynamical and statistical treatments barely cite each other.
+The wider literature is more siloed still: of the external papers citing these seeds, 1,407 stay
+inside a single formalism and only 14 span two. Ninety-nine percent of the field's citers read one
+formalism. The formalisms fragment, with information theory as a partial bridge.
 
 ## Discussion
 
@@ -219,9 +220,10 @@ shared priors could inflate it relative to independent humans; the codes are aud
 corpus abstracts. The corpus is the screened union of two search backends and numbers sixty sources —
 a sample, not a census, and a different backend or query set could shift the mix. Coders saw abstracts,
 not full texts, which biases the empirical count downward if a paper's data work sits past its
-abstract; the 93/7 split is too wide for that to overturn. The citation channel is partial because
-publishers elide references, and the rate-limited harvest left the H3 matrix incomplete. Twenty-six of
-sixty sources carry verified DOIs; the rest resolve by title, which does not affect the coding-based
+abstract; the 93/7 split is too wide for that to overturn. Some publishers elide reference lists, so the H3
+citation matrix rests on the resolved subset — 23 of the 33 formal and empirical seeds resolved on the
+harvest — and the three-to-one within-versus-cross ratio holds on that subset. Twenty-six of sixty
+sources carry verified DOIs; the rest resolve by title, which does not affect the coding-based
 verdicts.
 
 ## References

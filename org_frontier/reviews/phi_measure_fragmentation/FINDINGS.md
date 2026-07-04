@@ -23,7 +23,7 @@ reader's impression.
 |---|---|---|---|
 | H1 | The literature proposes many distinct measure families | Supported | 6 families with >=3 sources; largest family 31%, no majority |
 | H2 | Few sources validate against a ground truth; most assert or assume | Supported | ground_truth 13/68 (19%); internal-or-none 55/68 (81%) |
-| H3 | Measure-families cite within-family more than across (fragmentation) | Partial | citation harvest rate-limited (shared S2 API); see below |
+| H3 | Measure-families cite within-family more than across (fragmentation) | Qualified | within-cluster 115 vs cross-cluster 69 links (~1.7:1); real diagonal dominance but substantial cross-family bridging; a tail of citers spans 3+ families |
 
 ### H1 — six families, no convergence
 | measure family | sources | share |
@@ -56,12 +56,17 @@ have the highest ground-truth rate (4/10, 40%), because a proxy exists to approx
 be checked against it. The decomposition / synergy family is almost entirely internal (19/21), its
 measures established by lattice axioms rather than by recovering a known quantity.
 
-### H3 — fragmentation (partial)
-The citation harvest (`lib/harvest.py`, title-resolved seeds on the unauthenticated Semantic Scholar
-API) ran against a rate limit shared with several concurrent reviews and did not complete in the run
-window. The cluster-to-cluster citation matrix over the six family clusters is therefore not reported
-here. H1 and H2 stand on the coded corpus; H3 is left partial. The reproduce command below completes
-the matrix when the harvest finishes (edge files are checkpointed, so a restart resumes).
+### H3 — fragmentation, qualified
+The citation matrix over the six family clusters shows fragmentation, but a moderate one. Within-family
+citation links outnumber cross-family links 115 to 69, about 1.7 to one. The diagonal dominance is
+real: causal_emergence holds 47 within-family links, iid_synergy 39, practical_proxy 22. But the
+off-diagonal is not empty. Exact IIT Phi and the practical proxies cite across their boundary 17 times,
+and causal emergence and exact IIT Phi another 17 — the families share a common lineage, so the split
+is not clean silos. The assembly-spanning counts tell the same story. Of the external papers citing
+these seeds, 1,755 stay within one family, but 258 span two, 70 span three, 18 span four, and 6 span
+five. A within-family tendency exists, and a meaningful tail of the literature reads across three or
+more families. Fragmentation is real but partial: families cite themselves more than each other, yet
+they remain in contact.
 
 ## What the data show
 The coding answers the review's question. The proposed measures of integration are many, not one: the
@@ -80,8 +85,9 @@ measure-centric — application papers that use a fixed measure without engaging
 so the corpus speaks to how measures are proposed and validated, not to how often they are used. The
 `validation` grade is coded from the abstract; a paper that validates against a ground truth in its
 body but does not say so in the abstract is undercounted, which biases the ground-truth rate downward.
-H3 is partial: the citation matrix was not computed, so the fragmentation claim is neither supported
-nor challenged here.
+The H3 citation matrix rests on the resolved subset: the harvest resolved 14 of 39 seeds, since many
+are preprints Semantic Scholar cannot resolve. The 1.7-to-one within-versus-cross ratio and the
+spanning-count tail hold on that subset; a fuller harvest could shift the counts.
 
 ## Reproduce
 ```bash

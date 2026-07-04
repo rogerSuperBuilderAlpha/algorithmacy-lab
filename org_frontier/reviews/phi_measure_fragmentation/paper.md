@@ -163,17 +163,18 @@ The substrate coding adds context. Half the corpus is demonstrated on abstract o
 most part, exhibited on systems chosen to display them, which is consistent with the low ground-truth
 rate: a self-chosen demonstration substrate is the vehicle of internal validation.
 
-**H3 — fragmentation (partial).** The citation harvest ran against a Semantic Scholar rate limit shared
-with several concurrent reviews and did not complete within the run window. The family-to-family
-citation matrix is therefore not reported. H3 is left partial; the harvest is checkpointed and the
-matrix completes on a restart. Two features of the corpus bear on the eventual result without settling
-it. The families are of different ages — neural complexity dates to 1994, exact Phi to 2003-2008,
-causal emergence and the decomposition family largely to the 2010s — which gives older families more
-time to be cited across. And several sources already sit on family boundaries in a way that predicts
-some cross-citation: the integrated information decomposition family was built by fusing partial
-information decomposition with integrated information, and one causal-emergence result argues that
-emergence appears across a dozen independently developed causal measures. Whether that cross-talk is
-enough to overturn a within-family tendency is exactly what the matrix will decide.
+**H3 — fragmentation, qualified.** The family-to-family citation matrix shows fragmentation, but a
+moderate one. Within-family citation links outnumber cross-family links 115 to 69, about 1.7 to one.
+The diagonal dominance is real — causal emergence holds 47 within-family links, the decomposition and
+synergy family 39, the practical proxies 22 — so the families do cite themselves more than each other.
+But the off-diagonal is substantial. Exact IIT Phi and the practical proxies cite across their boundary
+seventeen times, and causal emergence and exact IIT Phi another seventeen, which fits their shared
+lineage: the decomposition family was built by fusing partial information decomposition with integrated
+information, and one causal-emergence result argues that emergence appears across a dozen independently
+developed causal measures. The assembly-spanning counts confirm the moderate split. Of the external
+papers citing these seeds, 1,755 stay within one family, but 258 span two, 70 span three, 18 span four,
+and 6 span five. A within-family tendency exists, and a meaningful tail reads across three or more
+families. The families fragment but stay in contact; the silos are not clean.
 
 ## Discussion
 
@@ -214,9 +215,11 @@ deliberately measure-centric: application papers that use a fixed measure withou
 of boundary, so the corpus describes how measures are proposed and validated, not how widely they are
 used. The `validation` grade is read from the abstract, so a paper that scores its measure against a
 ground truth in its body but does not say so in its abstract is graded down; this biases the
-ground-truth rate downward and makes 19% a floor rather than a point estimate. Finally, H3 is partial.
-The fragmentation hypothesis is neither supported nor challenged here, because the citation matrix was
-not computed within the run window; the reproduce command completes it.
+ground-truth rate downward and makes 19% a floor rather than a point estimate. Finally, the H3 citation
+matrix rests on the resolved subset. The harvest resolved 14 of 39 seeds — many are preprints Semantic
+Scholar cannot resolve — so the family-to-family counts stand on that subset. The 1.7-to-one
+within-versus-cross ratio and the spanning-count tail hold there; a fuller harvest could shift the
+counts but is unlikely to turn a moderate split into clean silos.
 
 ## References
 

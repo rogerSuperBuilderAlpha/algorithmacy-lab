@@ -23,7 +23,7 @@ one reader's judgment calls.
 |---|---|---|---|
 | H1 | conceptual + formal dominate; empirical rare | **Supported** | conceptual+formal_model = 56/60 (93%); empirical = 4/60 (7%) |
 | H2 | reality claim contested, no convergence | **Qualified** | side-takers 35 emergence_real / 9 deflationary (80% / 20%); 16 neutral |
-| H3 | formal approaches fragment | **Supported (coding); citation matrix PARTIAL** | info-theoretic 20, dynamical 6, statistical 5 (na 29); among formal/empirical: IT 14, dynamical 4, statistical 3 |
+| H3 | formal approaches fragment | **Supported** | coding: IT 14, dynamical 4, statistical 3 (formal/empirical); matrix: within-cluster 69 vs cross-cluster 22 links (~3:1); 99% of external citers span one formalism |
 
 ## What the data show
 
@@ -49,15 +49,18 @@ deflationary critique persists (`dewhurst2020realpatterns`, `dewhurst2021neither
 `leidenhag2016panpsychism`, and others) — but the field is not evenly divided; the emergence-is-real
 reading dominates four to one among side-takers. Contested, not balanced; unconverged, not open.
 
-**H3 — supported on the coding; citation matrix partial.** The formal apparatus fragments. Restricting
-to the 21 sources that compute something (formal_model + empirical), 14 are information-theoretic
-(effective information, integrated information, information decomposition), 4 are dynamical
-(dynamical independence, coarse-graining of state-space dynamics, renormalization), and 3 are
-statistical (interventionist/Pearl-style causation, causal primitives). Information theory is the
-plurality but holds only two-thirds of the formal work; two other formalisms carry real shares. The
-citation-matrix test (whether these formalisms cite across the divide) is reported partial — see
-Reproduce — because the unauthenticated Semantic Scholar harvest is rate-limited and slow; the coded
-fragmentation stands on its own.
+**H3 — supported.** The formal apparatus fragments. Restricting to the 21 sources that compute
+something (formal_model + empirical), 14 are information-theoretic (effective information, integrated
+information, information decomposition), 4 are dynamical (dynamical independence, coarse-graining of
+state-space dynamics, renormalization), and 3 are statistical (interventionist/Pearl-style causation,
+causal primitives). Information theory is the plurality but holds only two-thirds of the formal work;
+two other formalisms carry real shares. The citation matrix confirms the split. Over the formalism
+clusters, within-cluster citation links outnumber cross-cluster links 69 to 22, roughly three to one.
+Information theory is the one connective hub — it holds 61 within-links and reaches across to
+statistical (15 links) and dynamical (5) — but the reach is limited, and the dynamical and statistical
+clusters barely cite each other. The wider literature is even more siloed: of the external papers that
+cite these seeds, 1,407 stay inside a single formalism and only 14 span two. The formalisms fragment,
+with information theory as a partial bridge.
 
 ## Limitations
 - **Agent coders.** The three coders are LLM agents applying a fixed codebook, not trained human
@@ -71,11 +74,12 @@ fragmentation stands on its own.
 - **Abstract-only coding.** Coders saw title + abstract, not full text. A paper whose empirical work is
   buried past the abstract could be miscoded as formal; this biases the empirical count downward, but
   not enough to overturn the 93/7 split.
-- **Elided references and a slow harvest.** The citation channel is partial (publishers elide
-  references) and the harvest is rate-limited, so the H3 citation matrix is reported partial rather
-  than as a finished block-diagonal test.
+- **Elided references.** Some publishers elide reference lists, so the citation matrix rests on the
+  resolved subset — 23 of the 33 formal and empirical seeds resolved on the harvest. The block-diagonal
+  pattern (69 within vs 22 cross) holds on that subset; a fuller harvest could shift the counts but the
+  three-to-one ratio and the single-formalism citer share are unlikely to reverse.
 - **DOIs.** 26 of 60 sources carry verified DOIs; the rest resolve by title in the harvest. This does
-  not affect the coding-based verdicts (H1, H2, H3-coding).
+  not affect the verdicts.
 
 ## Reproduce
 ```bash

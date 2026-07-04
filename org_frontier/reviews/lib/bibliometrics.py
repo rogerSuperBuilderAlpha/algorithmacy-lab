@@ -149,6 +149,8 @@ def main():
     edges = load_edges(a.edges)
     cluster_of = json.load(open(a.clusters))
     seeds = json.load(open(a.seeds)) if a.seeds else None
+    if isinstance(seeds, list):  # seeds.json is a list of {slug, doi}; index it by slug
+        seeds = {s["slug"]: s for s in seeds if "slug" in s}
     clusters = sorted(set(cluster_of.values()))
     print(f"edges: {len(edges)} seeds | clusters: {clusters}\n")
     print_matrix(cluster_matrix(edges, cluster_of, seeds), clusters)
