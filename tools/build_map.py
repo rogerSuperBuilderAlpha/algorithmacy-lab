@@ -130,7 +130,7 @@ _PROGRAMS = [
 # Bridge and support arms under org_frontier/. Description derived from each README's H1.
 _ARMS = ["field", "cognition", "research", "classifier", "corpus", "multiparty",
          "principal", "proxy_bridge", "landscape", "outreach", "protocol", "llm_variance",
-         "coordinative_sovereignty"]
+         "coordinative_sovereignty", "reviews"]
 
 
 def _entry_docs() -> list:
@@ -192,6 +192,8 @@ def _at_a_glance() -> list:
          "`org_frontier/essays/*.md`"),
         ("foundations experiments", _count_dirs("foundations/*", marker="FINDINGS.md"),
          "`foundations/*/` with a `FINDINGS.md`"),
+        ("literature reviews", _count_dirs("org_frontier/reviews/*", marker="FINDINGS.md"),
+         "`org_frontier/reviews/*/` with a `FINDINGS.md`"),
         ("watch entries (program-level)", _count_bib("org_frontier/research/*/literature/references.bib"),
          "`org_frontier/research/*/literature/references.bib`"),
     ]
