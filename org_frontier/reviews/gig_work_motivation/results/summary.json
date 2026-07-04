@@ -1,0 +1,32 @@
+{
+ "n": 49,
+ "motivation_mode": {
+  "gap_spotting": 44,
+  "problematization": 4,
+  "neither": 1
+ },
+ "assumption_targeted": {
+  "no": 45,
+  "yes": 4
+ },
+ "H2": {
+  "year_cut": 2024,
+  "early_n": 15,
+  "early_problematization_share": 0.13333333333333333,
+  "early_assum_yes": 0.13333333333333333,
+  "late_n": 34,
+  "late_problematization_share": 0.058823529411764705,
+  "late_assum_yes": 0.058823529411764705
+ },
+ "H3": {
+  "gap_n": 44,
+  "gap_mean_cpy": 8.191773882682973,
+  "gap_median_cpy": 3.666666666666667,
+  "prob_n": 4,
+  "prob_mean_cpy": 41.34444444444445,
+  "prob_median_cpy": 28.555555555555554,
+  "mannwhitney_U": 27.0,
+  "z": -2.2893406605186133,
+  "p": 0.022059566977828515
+ }
+}

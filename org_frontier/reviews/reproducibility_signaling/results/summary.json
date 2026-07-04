@@ -1,0 +1,125 @@
+{
+ "n": 88,
+ "per_signal": {
+  "open_data": {
+   "yes": 0,
+   "n": 88,
+   "rate": 0.0
+  },
+  "code_available": {
+   "yes": 0,
+   "n": 88,
+   "rate": 0.0
+  },
+  "preregistered": {
+   "yes": 1,
+   "n": 88,
+   "rate": 0.0114
+  }
+ },
+ "any_signal": {
+  "yes": 1,
+  "n": 88,
+  "rate": 0.0114
+ },
+ "H1_verdict": "supported",
+ "by_period": {
+  "2015-2019": {
+   "yes": 0,
+   "n": 40,
+   "rate": 0.0
+  },
+  "2020-2025": {
+   "yes": 1,
+   "n": 48,
+   "rate": 0.0208
+  }
+ },
+ "H2_verdict": "supported",
+ "by_year": {
+  "2015": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2016": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2017": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2018": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2019": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2020": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2021": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2022": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2023": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "2024": {
+   "yes": 1,
+   "n": 8,
+   "rate": 0.125
+  },
+  "2025": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  }
+ },
+ "by_method": {
+  "quantitative": {
+   "yes": 1,
+   "n": 64,
+   "rate": 0.0156
+  },
+  "qualitative": {
+   "yes": 0,
+   "n": 8,
+   "rate": 0.0
+  },
+  "mixed": {
+   "yes": 0,
+   "n": 7,
+   "rate": 0.0
+  },
+  "conceptual": {
+   "yes": 0,
+   "n": 9,
+   "rate": 0.0
+  }
+ },
+ "method_dist": {
+  "conceptual": 9,
+  "quantitative": 64,
+  "mixed": 7,
+  "qualitative": 8
+ },
+ "H3_verdict": "supported"
+}

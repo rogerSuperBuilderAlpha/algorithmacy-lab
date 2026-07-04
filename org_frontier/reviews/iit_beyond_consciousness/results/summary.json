@@ -1,0 +1,29 @@
+{
+ "n": 40,
+ "years": {
+  "post2015": 37,
+  "dated": 40
+ },
+ "evidence": {
+  "formal_model": 15,
+  "conceptual": 19,
+  "empirical": 6
+ },
+ "cites_org_theory": {
+  "no": 37,
+  "yes": 3
+ },
+ "cluster_links": {
+  "philosophical|social_org": 2,
+  "artificial|social_org": 2,
+  "social_org|social_org": 1,
+  "social_org|swarm": 3,
+  "artificial|artificial": 14,
+  "artificial|swarm": 7,
+  "philosophical|philosophical": 8,
+  "artificial|philosophical": 11,
+  "swarm|swarm": 1,
+  "philosophical|swarm": 2
+ },
+ "canon_cross_links": 0
+}

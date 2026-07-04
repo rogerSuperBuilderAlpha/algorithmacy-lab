@@ -1,0 +1,398 @@
+[
+{
+"slug": "addressingalgorithmicbia2025",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "performance"
+},
+{
+"slug": "algorithmiccontrolandgig2021",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmiccontrolinappw2025",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmiccontrolinplat2019",
+"claim_type": "stylized_fact",
+"evidence": "mixed",
+"outcome": "control"
+},
+{
+"slug": "algorithmicembeddednessa2024",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmichrmcontrolint2023",
+"claim_type": "stylized_fact",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementand2020",
+"claim_type": "omission",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "algorithmicmanagementand2024",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementand2025",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmicmanagementina2021",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementinf2022",
+"claim_type": "stylized_fact",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementinl2025",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementino2025",
+"claim_type": "omission",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "algorithmicmanagementint2024",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmicmanagementofw2021",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementofw2025",
+"claim_type": "stylized_fact",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "algorithmicmanagementrei2022",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmicparanoiagigwo2024",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmicreliabilityat2025",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmicsurveillancea2025",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmicsurveillancei2020",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "algorithmsandthefutureof2022",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmsandtheirafford2022",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmsasworkdesigner2021",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "algorithmsatworkthenewco2020",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "amultilevelreviewofartif2023",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "arealgorithmicallycontro2023",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "balancingefficiencyandsa2026",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "performance"
+},
+{
+"slug": "balancingflexibilityands2024",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "other"
+},
+{
+"slug": "betweencontrolandpartici2024",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "blindedbyalgoeconomicusr2024",
+"claim_type": "critique",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "bypassingthelimitationso2024",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "controlorempowermenttowa2025",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "covid19economiccrisesand2022",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "creationofthealgorithmic2023",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "other"
+},
+{
+"slug": "darksideofalgorithmicman2024",
+"claim_type": "assumption",
+"evidence": "mixed",
+"outcome": "worker_experience"
+},
+{
+"slug": "darksidesofalgorithmicco2025",
+"claim_type": "assumption",
+"evidence": "mixed",
+"outcome": "performance"
+},
+{
+"slug": "digitallabourplatformsan2020",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "disconnectinglabourtheim2022",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "dynamismandrealignmentin2022",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "examiningtheimpactofalgo2022",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "framingalgorithmicmanage2024",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "fromflexibilitytounendin2024",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "other"
+},
+{
+"slug": "goodgigbadgigautonomyand2019",
+"claim_type": "assumption",
+"evidence": "mixed",
+"outcome": "worker_experience"
+},
+{
+"slug": "howdoesalgorithmcontrola2023",
+"claim_type": "assumption",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "howtheinterplaybetweenal2025",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "managingworkplaceairisks2024",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "microtargetingcontrolexp2021",
+"claim_type": "stylized_fact",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "newtecholdexploitationgi2022",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "organizationalbehaviorin2025",
+"claim_type": "omission",
+"evidence": "conceptual",
+"outcome": "worker_experience"
+},
+{
+"slug": "platformworklivesinthegi2023",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "other"
+},
+{
+"slug": "producingspeedondemandre2022",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "slavestotechnologyworker2020",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "sociotechnicalissuesinth2024",
+"claim_type": "omission",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "strategichumanresourcema2024",
+"claim_type": "assumption",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "taylorismonsteroidsorena2023",
+"claim_type": "critique",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "thealgorithmicpanopticon2020",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "thedualeffectsofalgorith2025",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "thelawincomputationwhatm2021",
+"claim_type": "omission",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "theorizinglaborintheplat2024",
+"claim_type": "critique",
+"evidence": "conceptual",
+"outcome": "other"
+},
+{
+"slug": "theplatformasfactorycrow2020",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "thepowerofprecisionhowal2024",
+"claim_type": "critique",
+"evidence": "quantitative",
+"outcome": "worker_experience"
+},
+{
+"slug": "theriseofalgorithmicmana2025",
+"claim_type": "critique",
+"evidence": "conceptual",
+"outcome": "control"
+},
+{
+"slug": "understandingthecareerso2024",
+"claim_type": "assumption",
+"evidence": "qualitative",
+"outcome": "other"
+},
+{
+"slug": "whenfooddeliveryplatform2020",
+"claim_type": "critique",
+"evidence": "qualitative",
+"outcome": "control"
+},
+{
+"slug": "whoispullingthestringsin2021",
+"claim_type": "stylized_fact",
+"evidence": "conceptual",
+"outcome": "control"
+}
+]

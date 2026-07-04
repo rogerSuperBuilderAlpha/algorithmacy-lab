@@ -61,7 +61,8 @@ def _count_dirs(pattern: str, marker: str = None) -> int:
     the directories that contain it — the repo's definition of a real experiment or study."""
     n = 0
     for d in glob.glob(os.path.join(_ROOT, pattern)):
-        if not os.path.isdir(d) or os.path.basename(d).startswith("__"):
+        if not os.path.isdir(d) or os.path.basename(d).startswith("__") \
+                or os.path.basename(d) == "template":
             continue
         if marker and not os.path.exists(os.path.join(d, marker)):
             continue

@@ -1,0 +1,126 @@
+{
+ "n": 80,
+ "reliability_note": "Fleiss kappa printed above; see results/frozen.json for the adjudicated set",
+ "parent_theory_overall": {
+  "other": {
+   "n": 28,
+   "pct": 35.0
+  },
+  "two_sided_market": {
+   "n": 21,
+   "pct": 26.2
+  },
+  "ecosystem": {
+   "n": 20,
+   "pct": 25.0
+  },
+  "agency": {
+   "n": 3,
+   "pct": 3.8
+  },
+  "institutional": {
+   "n": 3,
+   "pct": 3.8
+  },
+  "tce": {
+   "n": 2,
+   "pct": 2.5
+  },
+  "rdt": {
+   "n": 2,
+   "pct": 2.5
+  },
+  "network_embeddedness": {
+   "n": 1,
+   "pct": 1.2
+  }
+ },
+ "period": {
+  "pre2015": {
+   "n": 15,
+   "mix": {
+    "two_sided_market": {
+     "n": 8,
+     "pct": 53.3
+    },
+    "other": {
+     "n": 3,
+     "pct": 20.0
+    },
+    "ecosystem": {
+     "n": 2,
+     "pct": 13.3
+    },
+    "network_embeddedness": {
+     "n": 1,
+     "pct": 6.7
+    },
+    "tce": {
+     "n": 1,
+     "pct": 6.7
+    }
+   },
+   "economics": 9,
+   "inst_ecosystem": 2
+  },
+  "y2015plus": {
+   "n": 65,
+   "mix": {
+    "other": {
+     "n": 25,
+     "pct": 38.5
+    },
+    "ecosystem": {
+     "n": 18,
+     "pct": 27.7
+    },
+    "two_sided_market": {
+     "n": 13,
+     "pct": 20.0
+    },
+    "agency": {
+     "n": 3,
+     "pct": 4.6
+    },
+    "institutional": {
+     "n": 3,
+     "pct": 4.6
+    },
+    "rdt": {
+     "n": 2,
+     "pct": 3.1
+    },
+    "tce": {
+     "n": 1,
+     "pct": 1.5
+    }
+   },
+   "economics": 14,
+   "inst_ecosystem": 21
+  }
+ },
+ "borrowing_mode": {
+  "extend": {
+   "n": 56,
+   "pct": 70.0
+  },
+  "apply": {
+   "n": 23,
+   "pct": 28.8
+  },
+  "critique": {
+   "n": 1,
+   "pct": 1.2
+  }
+ },
+ "multi_theory": {
+  "no": {
+   "n": 72,
+   "pct": 90.0
+  },
+  "yes": {
+   "n": 8,
+   "pct": 10.0
+  }
+ }
+}

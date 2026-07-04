@@ -1,0 +1,49 @@
+{
+ "n_corpus": 66,
+ "n_adjudicated": 66,
+ "claim_type": {
+  "assumption": 30,
+  "critique": 19,
+  "stylized_fact": 12,
+  "omission": 5
+ },
+ "evidence": {
+  "quantitative": 16,
+  "mixed": 4,
+  "conceptual": 25,
+  "qualitative": 21
+ },
+ "outcome": {
+  "performance": 3,
+  "worker_experience": 27,
+  "control": 22,
+  "other": 14
+ },
+ "H1": {
+  "control_plus_worker_experience": 49,
+  "control_plus_worker_experience_pct": 74.2,
+  "performance": 3,
+  "performance_pct": 4.5
+ },
+ "H2": {
+  "conceptual_plus_qualitative": 46,
+  "conceptual_plus_qualitative_pct": 69.7,
+  "quantitative": 16,
+  "quantitative_pct": 24.2,
+  "quantitative_plus_mixed": 20,
+  "quantitative_plus_mixed_pct": 30.3
+ },
+ "H3": {
+  "stylized_fact_total": 12,
+  "stylized_fact_total_pct": 18.2,
+  "stylized_fact_control_subset": 11,
+  "stylized_fact_control_evidence": {
+   "mixed": 1,
+   "qualitative": 4,
+   "conceptual": 6
+  },
+  "stylized_fact_control_conceptual_qualitative_pct": 90.9,
+  "stylized_fact_control_quantitative_mixed_pct": 9.1,
+  "corpus_quantitative_mixed_pct": 30.3
+ }
+}

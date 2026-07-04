@@ -277,6 +277,23 @@ The measure-validation arc that established exact Φ as the instrument.
 - [`psi_vs_phi`](foundations/psi_vs_phi) — maximum-caliber information ψ does not track exact IIT-4.0 Φ
 - [`structure_suite`](foundations/structure_suite) — scalar Φ is nearly orthogonal to the structure it summarizes
 
+### Reviews — experiments on the literature
+
+Quantitative, systematic archival reviews: a body of scholarship treated as a dataset, with falsifiable claims about the field tested against a coded corpus and its citation graph, and intercoder reliability reported.
+
+- **[Reviews — experiments on the literature](org_frontier/reviews/README.md)** — Quantitative, systematic archival reviews. Where the rest of the lab computes on Boolean models, this
+  - [Playbook](org_frontier/reviews/RESEARCH_PLAYBOOK.md) · [Methods foundations](org_frontier/reviews/METHODS_FOUNDATIONS.md) · [Template](org_frontier/reviews/template/README.md)
+  - **[algorithmic_management_claims](org_frontier/reviews/algorithmic_management_claims/README.md)** — the algorithmic-management literature describes control and measures worker reactions
+  - **[Causal emergence: what kind of evidence, and does it converge](org_frontier/reviews/causal_emergence_evidence/README.md)** — Causal emergence is argued and modeled, not measured — and its reality claim has not converged
+  - **[Substrates of collective intelligence — the question in one line](org_frontier/reviews/collective_intelligence_substrates/README.md)** — collective-intelligence research splits by substrate, and the split is swarm-led, not human-led
+  - **[gig_work_motivation](org_frontier/reviews/gig_work_motivation/README.md)** — gig/platform-work reviews motivate themselves by gap-spotting, nine times in ten
+  - **[Integrated information beyond consciousness](org_frontier/reviews/iit_beyond_consciousness/README.md)** — integrated information beyond consciousness
+  - **[new_form_construct_proliferation](org_frontier/reviews/new_form_construct_proliferation/README.md)** — the new organizational form carries at least eighteen names, and the camps rarely read each other
+  - **[phi_measure_fragmentation — are the proposed integration measures validated and connected?](org_frontier/reviews/phi_measure_fragmentation/README.md)** — the integration-measure literature proposes six families and validates one source in five against a ground truth
+  - **[Platform theory borrowing — which parent theories platform-governance research imports](org_frontier/reviews/platform_theory_borrowing/README.md)** — platform research borrows economics early and ecosystem theory late, and it more often claims to extend a parent theory than to apply it
+  - **[reproducibility_signaling](org_frontier/reviews/reproducibility_signaling/README.md)** — one of 88 management abstracts signals any reproducibility practice
+  - **[systematicity_consciousness_reviews](org_frontier/reviews/systematicity_consciousness_reviews/README.md)** — consciousness-science reviews report about a third of the systematicity practices
+
 ### Questions — the logbook (164)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
