@@ -5,12 +5,12 @@
       "name": "q210-shared-counterpart",
       "cmd": "python -m org_frontier.questions.q210_shared_counterpart.probe_shared_counterpart",
       "expect": [
-        "H1 control  single triad : triadic Φ=2.000000 PASS",
-        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=('W2', 'S2') coreΦ=2.000",
-        "bridge=none  dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C') coreΦ=2.000",
+        "H1 control  single triad : triadic \u03a6=2.000000 PASS",
+        "bridge=AND   triadic  whole\u03a6_MIP=2.0000  core=('W2', 'S2') core\u03a6=2.000",
+        "bridge=none  dyadic   whole\u03a6_MIP=0.0000  core=('W1', 'S1', 'C') core\u03a6=2.000",
         "H2 (AND bridge merges both mediators into one core): REFUTED",
-        "H4 (merging two triads is super-additive, core Φ > 2.0): REFUTED",
-        "H5 (AND bridge core Φ > OR bridge core Φ): REFUTED"
+        "H4 (merging two triads is super-additive, core \u03a6 > 2.0): REFUTED",
+        "H5 (AND bridge core \u03a6 > OR bridge core \u03a6): REFUTED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q210_shared_counterpart/FINDINGS.md"
@@ -19,12 +19,12 @@
       "name": "q211-direct-mediator-channel",
       "cmd": "python -m org_frontier.questions.q211_direct_mediator_channel.probe_direct_mediator_channel",
       "expect": [
-        "H1 control  single triad : triadic Φ=2.000000 PASS",
-        "channel=AND  triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True",
-        "channel=none dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C1') coreΦ=2.000 spans_both=False",
-        "channel=OR   dyadic   wholeΦ_MIP=0.0000  core=('S1', 'S2') coreΦ=2.000 spans_both=True",
+        "H1 control  single triad : triadic \u03a6=2.000000 PASS",
+        "channel=AND  triadic  whole\u03a6_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') core\u03a6=3.000 spans_both=True",
+        "channel=none dyadic   whole\u03a6_MIP=0.0000  core=('W1', 'S1', 'C1') core\u03a6=2.000 spans_both=False",
+        "channel=OR   dyadic   whole\u03a6_MIP=0.0000  core=('S1', 'S2') core\u03a6=2.000 spans_both=True",
         "H2 (AND channel major complex spans both triads): SUPPORTED",
-        "H3 (merged core is super-additive, Φ > 2.0): SUPPORTED",
+        "H3 (merged core is super-additive, \u03a6 > 2.0): SUPPORTED",
         "H4 (a direct channel merges where the shared counterpart did not): SUPPORTED",
         "H5 (channel rule matters; AND and OR cores differ): SUPPORTED"
       ],
@@ -35,13 +35,13 @@
       "name": "q212-channel-location",
       "cmd": "python -m org_frontier.questions.q212_channel_location.probe_channel_location",
       "expect": [
-        "H1 control  single triad : triadic Φ=2.000000 PASS",
-        "channel@mediator    triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True",
-        "channel@worker      triadic  wholeΦ_MIP=2.0000  core=('S1', 'C1') coreΦ=2.000 spans_both=False",
-        "channel@counterpart triadic  wholeΦ_MIP=2.0000  core=('W1', 'S1') coreΦ=2.000 spans_both=False",
-        "H1 (mediator channel reproduces q211: spans both, Φ=3.0): SUPPORTED",
+        "H1 control  single triad : triadic \u03a6=2.000000 PASS",
+        "channel@mediator    triadic  whole\u03a6_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') core\u03a6=3.000 spans_both=True",
+        "channel@worker      triadic  whole\u03a6_MIP=2.0000  core=('S1', 'C1') core\u03a6=2.000 spans_both=False",
+        "channel@counterpart triadic  whole\u03a6_MIP=2.0000  core=('W1', 'S1') core\u03a6=2.000 spans_both=False",
+        "H1 (mediator channel reproduces q211: spans both, \u03a6=3.0): SUPPORTED",
         "H2 (worker-worker channel merges): REFUTED",
-        "H4 (mediator channel gives the highest core Φ): SUPPORTED",
+        "H4 (mediator channel gives the highest core \u03a6): SUPPORTED",
         "H5 (channel location matters): SUPPORTED"
       ],
       "timeout": 480,
@@ -51,13 +51,13 @@
       "name": "q209-commit-period",
       "cmd": "python -m org_frontier.questions.q209_commit_period.probe_commit_period",
       "expect": [
-        "H1 control  F_1 synchronous triad : triadic Φ=2.000000 PASS",
-        "p=1 (n=3)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C') coreΦ=2.000",
-        "p=2 (n=4)  dyadic   wholeΦ_MIP=0.0000  core=('K',) coreΦ=1.000",
-        "p=4 (n=5)  dyadic   wholeΦ_MIP=0.0000  core=('c1',) coreΦ=1.000",
-        "surviving core Φ by period p=2,3,4: 1.000, 1.000, 1.000",
+        "H1 control  F_1 synchronous triad : triadic \u03a6=2.000000 PASS",
+        "p=1 (n=3)  triadic  whole\u03a6_MIP=2.0000  core=('W', 'S', 'C') core\u03a6=2.000",
+        "p=2 (n=4)  dyadic   whole\u03a6_MIP=0.0000  core=('K',) core\u03a6=1.000",
+        "p=4 (n=5)  dyadic   whole\u03a6_MIP=0.0000  core=('c1',) core\u03a6=1.000",
+        "surviving core \u03a6 by period p=2,3,4: 1.000, 1.000, 1.000",
         "H2 (rate-1 is the unique binding cadence: p>=2 all dyadic): SUPPORTED",
-        "H5 (whole-system Φ_MIP is zero at every p>=2): SUPPORTED"
+        "H5 (whole-system \u03a6_MIP is zero at every p>=2): SUPPORTED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q209_commit_period/FINDINGS.md"
@@ -80,11 +80,11 @@
       "name": "q208-latency-depth",
       "cmd": "python -m org_frontier.questions.q208_latency_depth.probe_latency_depth --ci",
       "expect": [
-        "H1 control  F_0 synchronous triad : triadic Φ=2.000000 PASS",
-        "k=1 (n=4)  triadic  wholeΦ_MIP=1.0000  core=('S', 'C', 'B1') coreΦ=2.000",
-        "k=2 (n=5)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C', 'B1', 'B2') coreΦ=2.000",
-        "whole-system Φ_MIP by depth k=0..2: 2.0000, 1.0000, 2.0000",
-        "H3 (whole-system Φ_MIP strictly decreases with depth): REFUTED",
+        "H1 control  F_0 synchronous triad : triadic \u03a6=2.000000 PASS",
+        "k=1 (n=4)  triadic  whole\u03a6_MIP=1.0000  core=('S', 'C', 'B1') core\u03a6=2.000",
+        "k=2 (n=5)  triadic  whole\u03a6_MIP=2.0000  core=('W', 'S', 'C', 'B1', 'B2') core\u03a6=2.000",
+        "whole-system \u03a6_MIP by depth k=0..2: 2.0000, 1.0000, 2.0000",
+        "H3 (whole-system \u03a6_MIP strictly decreases with depth): REFUTED",
         "H5 (the worker stays out of the major complex for all k>=1): REFUTED"
       ],
       "timeout": 180,
@@ -94,12 +94,12 @@
       "name": "q207-slow-mediator",
       "cmd": "python -m org_frontier.questions.q207_slow_mediator.probe_slow_mediator",
       "expect": [
-        "H1 control  F0 synchronous triad : triadic Φ=2.000000 PASS",
-        "F_slow half-rate mediator        : dyadic Φ=0.000",
-        "F_slow major complex             : core=('K',) Φ=1.000",
+        "H1 control  F0 synchronous triad : triadic \u03a6=2.000000 PASS",
+        "F_slow half-rate mediator        : dyadic \u03a6=0.000",
+        "F_slow major complex             : core=('K',) \u03a6=1.000",
         "H2 (half-rate mediator keeps {W,S,C} in the core): REFUTED",
         "H3 (the gating clock K is a spectator, not in the core): REFUTED",
-        "H4 (half-rate mediation lowers core Φ below 2.0): SUPPORTED",
+        "H4 (half-rate mediation lowers core \u03a6 below 2.0): SUPPORTED",
         "H5 (a never-committing mediator factors): SUPPORTED"
       ],
       "timeout": 180,
@@ -109,11 +109,11 @@
       "name": "q206-ring-parity-rewire",
       "cmd": "python -m org_frontier.questions.q206_ring_parity_rewire.probe_ring_parity_rewire --ci",
       "expect": [
-        "H1 control faithful triad: triadic Φ=2.000000 PASS",
-        "conjunctive p=0.00  Φ=4.0000  verdict=triadic",
-        "conjunctive p=0.30  Φ=1.0000  verdict=triadic",
-        "conjunctive p=0.35  Φ=0.0000  verdict=dyadic",
-        "H2 conjunctive: p=0.30 triadic then p=0.35 DYADIC — a dyadic window the q146 grid missed"
+        "H1 control faithful triad: triadic \u03a6=2.000000 PASS",
+        "conjunctive p=0.00  \u03a6=4.0000  verdict=triadic",
+        "conjunctive p=0.30  \u03a6=1.0000  verdict=triadic",
+        "conjunctive p=0.35  \u03a6=0.0000  verdict=dyadic",
+        "H2 conjunctive: p=0.30 triadic then p=0.35 DYADIC \u2014 a dyadic window the q146 grid missed"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q206_ring_parity_rewire/FINDINGS.md"
@@ -136,9 +136,9 @@
       "name": "q205-latency-feedback",
       "cmd": "python -m org_frontier.questions.q205_latency_feedback.probe_latency_feedback",
       "expect": [
-        "H1 control  F0 immediate triad     : triadic  Φ=2.000  PASS",
-        "H2 represented latency  F1 (n=4)    : triadic  Φ=1.000",
-        "H3 major complex of F1             : core=('S', 'C', 'B')  Φ=2.000  (B in core: True)",
+        "H1 control  F0 immediate triad     : triadic  \u03a6=2.000  PASS",
+        "H2 represented latency  F1 (n=4)    : triadic  \u03a6=1.000",
+        "H3 major complex of F1             : core=('S', 'C', 'B')  \u03a6=2.000  (B in core: True)",
         "H2 (represented latency stays triadic): SUPPORTED",
         "H3 (the delay node B is in the core): SUPPORTED",
         "H4 (hidden latency hides integration: F2 dyadic, F1 triadic): SUPPORTED",
@@ -174,8 +174,8 @@
       "cmd": "python -m org_frontier.questions.q202_phi_bridge_falsification.probe_phi_bridge_falsification",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (worker-form shuffle destroys every Φ_coord-to-ACS relation; real r outside null at p<.05 in all cohorts): SUPPORTED",
-        "H2 (Φ_coord predicts ACS incrementally over the cheap edge-density proxy; ΔR^2>0, CI excludes 0): SUPPORTED"
+        "H1 (worker-form shuffle destroys every \u03a6_coord-to-ACS relation; real r outside null at p<.05 in all cohorts): SUPPORTED",
+        "H2 (\u03a6_coord predicts ACS incrementally over the cheap edge-density proxy; \u0394R^2>0, CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q202_phi_bridge_falsification/FINDINGS.md"
@@ -185,8 +185,8 @@
       "cmd": "python -m org_frontier.questions.q201_phi_substitutability_capture.probe_phi_substitutability_capture",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (SU lowers Φ_coord, CI<0; lower Φ_coord predicts lower ACS, CI>0): SUPPORTED",
-        "H2 (indirect SU->Φ_coord->ACS nonzero and exceeds direct SU->ACS): CONFIRMED"
+        "H1 (SU lowers \u03a6_coord, CI<0; lower \u03a6_coord predicts lower ACS, CI>0): SUPPORTED",
+        "H2 (indirect SU->\u03a6_coord->ACS nonzero and exceeds direct SU->ACS): CONFIRMED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q201_phi_substitutability_capture/FINDINGS.md"
@@ -196,8 +196,8 @@
       "cmd": "python -m org_frontier.questions.q200_phi_bifactor_loadings.probe_phi_bifactor_loadings",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (Φ_coord loads on the GENERAL factor, β>0 & CI excludes 0, and the general path exceeds each specific-facet path): SUPPORTED",
-        "H2 (the Φ→general model fits better than the Φ→SC-specific model by ΔCFI ≥ .01): SUPPORTED"
+        "H1 (\u03a6_coord loads on the GENERAL factor, \u03b2>0 & CI excludes 0, and the general path exceeds each specific-facet path): SUPPORTED",
+        "H2 (the \u03a6\u2192general model fits better than the \u03a6\u2192SC-specific model by \u0394CFI \u2265 .01): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q200_phi_bifactor_loadings/FINDINGS.md"
@@ -207,8 +207,8 @@
       "cmd": "python -m org_frontier.questions.q199_phi_growth_mechanism.probe_phi_growth_mechanism",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (within-person ΔΦ tracks ΔACS, within slope > 0 & CI excludes 0): SUPPORTED",
-        "H2 (within coupling exceeds between, Δ CI excludes 0): SUPPORTED"
+        "H1 (within-person \u0394\u03a6 tracks \u0394ACS, within slope > 0 & CI excludes 0): SUPPORTED",
+        "H2 (within coupling exceeds between, \u0394 CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q199_phi_growth_mechanism/FINDINGS.md"
@@ -218,8 +218,8 @@
       "cmd": "python -m org_frontier.questions.q198_phi_predicts_growth.probe_phi_predicts_growth",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (W1 Φ_coord predicts the ACS-growth slope, β>0 & CI excludes 0): SUPPORTED",
-        "H2 (W1 Φ_coord predicts the slope above and beyond the W1 ACS intercept, CI excludes 0): SUPPORTED"
+        "H1 (W1 \u03a6_coord predicts the ACS-growth slope, \u03b2>0 & CI excludes 0): SUPPORTED",
+        "H2 (W1 \u03a6_coord predicts the slope above and beyond the W1 ACS intercept, CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q198_phi_predicts_growth/FINDINGS.md"
@@ -229,8 +229,8 @@
       "cmd": "python -m org_frontier.questions.q197_phi_invariance_waves.probe_phi_invariance_waves",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (metric invariance, slope equal across W1-W3, ΔCFI<= 0.01): SUPPORTED",
-        "H2 (scalar invariance, intercept equal across W1-W3, ΔCFI<= 0.01): SUPPORTED"
+        "H1 (metric invariance, slope equal across W1-W3, \u0394CFI<= 0.01): SUPPORTED",
+        "H2 (scalar invariance, intercept equal across W1-W3, \u0394CFI<= 0.01): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q197_phi_invariance_waves/FINDINGS.md"
@@ -240,8 +240,8 @@
       "cmd": "python -m org_frontier.questions.q196_phi_commit_moderation.probe_phi_commit_moderation",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (Φ_coord×SA-commit interaction on ACS-total is positive, CI excludes 0): SUPPORTED",
-        "H2 (commit Φ-ACS slope positive, convey slope flat, slope diff CI excludes 0): CONFIRMED"
+        "H1 (\u03a6_coord\u00d7SA-commit interaction on ACS-total is positive, CI excludes 0): SUPPORTED",
+        "H2 (commit \u03a6-ACS slope positive, convey slope flat, slope diff CI excludes 0): CONFIRMED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q196_phi_commit_moderation/FINDINGS.md"
@@ -251,8 +251,8 @@
       "cmd": "python -m org_frontier.questions.q195_phi_incremental_over_se.probe_phi_incremental_over_se",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (partial r(Φ,ACS|SE,BE) > 0.15 & CI excludes 0): SUPPORTED",
-        "H2 (r(Φ,ACS) > r(Φ,SE), Δ CI excludes 0): SUPPORTED"
+        "H1 (partial r(\u03a6,ACS|SE,BE) > 0.15 & CI excludes 0): SUPPORTED",
+        "H2 (r(\u03a6,ACS) > r(\u03a6,SE), \u0394 CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q195_phi_incremental_over_se/FINDINGS.md"
@@ -261,9 +261,9 @@
       "name": "q194-phi-facet-specificity",
       "cmd": "python -m org_frontier.questions.q194_phi_facet_specificity.probe_phi_facet_specificity",
       "expect": [
-        "CONTROL faithful triad: verdict 'triadic', max Φ_MIP 2.0, W-C component 1.0 ... PASS",
-        "H1 (Φ predicts CI more than SE; Δr CI excludes 0): SUPPORTED",
-        "H2 (W-C component adds ΔR^2 over whole-system Φ; CI excludes 0): SUPPORTED"
+        "CONTROL faithful triad: verdict 'triadic', max \u03a6_MIP 2.0, W-C component 1.0 ... PASS",
+        "H1 (\u03a6 predicts CI more than SE; \u0394r CI excludes 0): SUPPORTED",
+        "H2 (W-C component adds \u0394R^2 over whole-system \u03a6; CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q194_phi_facet_specificity/FINDINGS.md"
@@ -273,7 +273,7 @@
       "cmd": "python -m org_frontier.questions.q192_spread_reconciliation_cost.probe_spread_reconciliation_cost",
       "expect": [
         "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
-        "H1 edit distance increases with the Φ spread: REFUTED",
+        "H1 edit distance increases with the \u03a6 spread: REFUTED",
         "H2 every shortest reconciliation path has one length and distance is symmetric: NOT SUPPORTED"
       ],
       "timeout": 500,
@@ -284,7 +284,7 @@
       "cmd": "python -m org_frontier.questions.q191_triage_spectator_spread.probe_triage_spectator_spread",
       "expect": [
         "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
-        "H1 unread spectator leaves no Φ trace (spread=0 despite membership disagreement): SUPPORTED",
+        "H1 unread spectator leaves no \u03a6 trace (spread=0 despite membership disagreement): SUPPORTED",
         "H2 one back-edge binds the supervisor jointly in-core, accounts agree (verdict_agreement=1, core_jaccard=1): CONFIRMED"
       ],
       "timeout": 500,
@@ -384,7 +384,7 @@
       "expect": [
         "CONTROL specific reads 'triadic' max_phi=2.000000; unanimous-pool CI collapses to [0.000000,0.000000]: PASS",
         "H1 substitutable pool drives max_phi to 0 (dyadic) for all k>=2: SUPPORTED",
-        "H2 contested-reading interval spans [0, specific Φ] in >90% of forms: SUPPORTED"
+        "H2 contested-reading interval spans [0, specific \u03a6] in >90% of forms: SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q175_substitutability_flipper/FINDINGS.md"
@@ -405,7 +405,7 @@
       "cmd": "python -m org_frontier.questions.q193_phi_bridge_build.probe_phi_bridge_build",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (Φ_coord predicts ACS-total, r>0.20 & CI excludes 0): SUPPORTED",
+        "H1 (\u03a6_coord predicts ACS-total, r>0.20 & CI excludes 0): SUPPORTED",
         "H2 (control association vanishes, |r|<0.10, bridge survives): CONFIRMED"
       ],
       "timeout": 500,
@@ -471,7 +471,7 @@
       "cmd": "python -m org_frontier.questions.q184_gig_dispatch_spread.probe_gig_dispatch_spread",
       "expect": [
         "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
-        "H1 driver-dyad vs platform-triad split, phi_gap = platform Φ (2.000000): SUPPORTED",
+        "H1 driver-dyad vs platform-triad split, phi_gap = platform \u03a6 (2.000000): SUPPORTED",
         "H2 rider bound in the platform core but not the driver core (core_jaccard<1): SUPPORTED"
       ],
       "timeout": 500,
@@ -483,7 +483,7 @@
       "expect": [
         "CONTROL decoupled reads 'dyadic'; faithful triad reads 'triadic' max_phi=2.000000; alpha=1 CI degenerate [2.000000,2.000000]: PASS",
         "H1 verdict reproducibility + degenerate CI under agreement: SUPPORTED",
-        "H2 coder-weighted CI brackets the consensus Φ at nominal 95%: SUPPORTED"
+        "H2 coder-weighted CI brackets the consensus \u03a6 at nominal 95%: SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q173_build_rule_to_phi/FINDINGS.md"
@@ -547,7 +547,7 @@
       "name": "q167-capture-meets-agenda",
       "cmd": "python -m org_frontier.questions.q167_capture_meets_agenda.probe_capture_meets_agenda",
       "expect": [
-        "CONTROL faithful triad reads 'triadic' max_phi 2.0; core4 g=0 core WSC Φ 2.0, g=0.1 core SC (worker captured) ... PASS",
+        "CONTROL faithful triad reads 'triadic' max_phi 2.0; core4 g=0 core WSC \u03a6 2.0, g=0.1 core SC (worker captured) ... PASS",
         "H1 (an interested platform displaces the worker at a lower g* than a faithful one, monotonically in interest): REFUTED",
         "H2 (beyond g*, the interested core retains the agenda node P where the faithful core retained C): NOT SUPPORTED"
       ],
@@ -558,7 +558,7 @@
       "name": "q166-phantom-addressee-displaced",
       "cmd": "python -m org_frontier.questions.q166_phantom_addressee_displaced.probe_phantom_addressee_displaced",
       "expect": [
-        "CONTROL faithful triad reads 'triadic' max_phi 2.0; phantom T1 core WS coreΦ 2.0 S<-W 1 W<-C 0 ... PASS",
+        "CONTROL faithful triad reads 'triadic' max_phi 2.0; phantom T1 core WS core\u03a6 2.0 S<-W 1 W<-C 0 ... PASS",
         "H1 (the addressee inverts: W exits the core for an agenda-governed bind as k rises): SUPPORTED",
         "H2 (the interested mediator stops reading the worker while a bind survives): SUPPORTED"
       ],
@@ -569,8 +569,8 @@
       "name": "q165-intent-compression-into-agenda",
       "cmd": "python -m org_frontier.questions.q165_intent_compression_into_agenda.probe_intent_compression_into_agenda",
       "expect": [
-        "CONTROL faithful triad [x1, x0&x2, x1]: triadic Φ=2.000; faithful reads_n core=WSN reads N=True ... PASS",
-        "H1 (interested Φ(q) strictly below faithful at every q<1 — interest steepens embodiment loss): SUPPORTED",
+        "CONTROL faithful triad [x1, x0&x2, x1]: triadic \u03a6=2.000; faithful reads_n core=WSN reads N=True ... PASS",
+        "H1 (interested \u03a6(q) strictly below faithful at every q<1 \u2014 interest steepens embodiment loss): SUPPORTED",
         "H2 (interest evicts the nuance bit N from the core independently of read-fidelity): SUPPORTED"
       ],
       "timeout": 500,
@@ -591,9 +591,9 @@
       "name": "q163-computationalism-under-agenda",
       "cmd": "python -m org_frontier.questions.q163_computationalism_under_agenda.probe_computationalism_under_agenda",
       "expect": [
-        "CONTROL faithful actor: triadic Φ=2.000; channel Φ=0.000 -- PASS",
+        "CONTROL faithful actor: triadic \u03a6=2.000; channel \u03a6=0.000 -- PASS",
         "H1 surplus rises then collapses (interested actor is a third object): SUPPORTED  [approve rises, deny monotone]",
-        "H2 S sheds a party before Φ reaches 0 (agenda-reading dissociates from party-reading): REFUTED"
+        "H2 S sheds a party before \u03a6 reaches 0 (agenda-reading dissociates from party-reading): REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q163_computationalism_under_agenda/FINDINGS.md"
@@ -637,7 +637,7 @@
       "expect": [
         "CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, mc_phi=2.000, core=('W', 'S', 'C') (label=triadic): PASS",
         "H1 CRQA verdict converges by 600 steps for >80% of forms with no gain past 1200: SUPPORTED",
-        "H2 required convergence length decreases with Φ magnitude: REFUTED"
+        "H2 required convergence length decreases with \u03a6 magnitude: REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q159_length_to_verdict_curve/FINDINGS.md"
@@ -647,8 +647,8 @@
       "cmd": "python -m org_frontier.questions.q158_phi_magnitude_regression.probe_phi_magnitude_regression",
       "expect": [
         "CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, mc_phi=2.000, core=('W', 'S', 'C'): PASS",
-        "H1 DET correlates positively with major-complex Φ (rho>0.4): REFUTED",
-        "H2 the DET-Φ relation saturates (high-Φ underprediction): REFUTED"
+        "H1 DET correlates positively with major-complex \u03a6 (rho>0.4): REFUTED",
+        "H2 the DET-\u03a6 relation saturates (high-\u03a6 underprediction): REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q158_phi_magnitude_regression/FINDINGS.md"
@@ -670,7 +670,7 @@
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: triadic max_phi=2.000 core=('W', 'S', 'C') -> PASS",
         "H1 (interested mediators show lower outgoing prominence, separating >70% of pairs): REFUTED",
-        "H2 (structural Φ-core is unchanged, so membership alone misses interestedness): CONFIRMED"
+        "H2 (structural \u03a6-core is unchanged, so membership alone misses interestedness): CONFIRMED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q156_interested_mediator_signature/FINDINGS.md"
@@ -679,7 +679,7 @@
       "name": "q155-mc-membership-threshold",
       "cmd": "python -m org_frontier.questions.q155_mc_membership_threshold.probe_mc_membership_threshold",
       "expect": [
-        "CONTROL faithful triad reads triadic Φ=2.0 full core; AUC machinery 1.000/0.500, shuffled null 0.522: PASS",
+        "CONTROL faithful triad reads triadic \u03a6=2.0 full core; AUC machinery 1.000/0.500, shuffled null 0.522: PASS",
         "H1 (single coupling-centrality threshold recovers membership at pooled AUC>0.65): REFUTED  [AUC=0.649, null=0.494]",
         "H2 (chain/relay forms are the systematic false-positive class): NOT SUPPORTED  [chain FP/node=0.000, worst topology=reciprocal @ 0.244]"
       ],
@@ -724,7 +724,7 @@
       "name": "q149-topology-shapley-split",
       "cmd": "python -m org_frontier.questions.q149_topology_shapley_split.probe_topology_shapley_split",
       "expect": [
-        "CONTROL read-recipient triad: total Φ=2.000, mediator M share=0.666 (~2/3), outer parties E=R=0.333: PASS",
+        "CONTROL read-recipient triad: total \u03a6=2.000, mediator M share=0.666 (~2/3), outer parties E=R=0.333: PASS",
         "H1 (per-hub Shapley share falls monotonically as mediation distributes): REFUTED",
         "H2 (symmetric topologies ring/pool yield equal Shapley values within tol): SUPPORTED"
       ],
@@ -735,9 +735,9 @@
       "name": "q147-random-boolean-topology",
       "cmd": "python -m org_frontier.questions.q147_random_boolean_topology.probe_random_boolean_topology",
       "expect": [
-        "CONTROL faithful triad triadic Φ=2.0; ring/hub graph stats match hand values: PASS",
+        "CONTROL faithful triad triadic \u03a6=2.0; ring/hub graph stats match hand values: PASS",
         "H1 (recurrence topology beats mean degree at predicting triadicity): SUPPORTED",
-        "H2 (among triadic nets, Φ rises with core in-degree): REFUTED"
+        "H2 (among triadic nets, \u03a6 rises with core in-degree): REFUTED"
       ],
       "timeout": 1800,
       "source": "org_frontier/questions/q147_random_boolean_topology/FINDINGS.md",
@@ -748,7 +748,7 @@
       "cmd": "python -m org_frontier.questions.q146_smallworld_rewire_phi.probe_smallworld_rewire_phi",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic max_phi=2.000000 (expect triadic / 2.0) ... PASS",
-        "H1 non-monotone small-world Φ peak: REFUTED",
+        "H1 non-monotone small-world \u03a6 peak: REFUTED",
         "H2 verdict stays triadic under rewiring: REFUTED"
       ],
       "timeout": 1800,
@@ -759,8 +759,8 @@
       "name": "q143-ring-verdict-geometry",
       "cmd": "python -m org_frontier.questions.q143_ring_verdict_geometry.probe_ring_verdict_geometry",
       "expect": [
-        "CONTROL faithful-triad reads triadic at Φ=2.0: PASS",
-        "H1 ring is triadic with a single balanced two-arc cut of constant Φ in n: REFUTED",
+        "CONTROL faithful-triad reads triadic at \u03a6=2.0: PASS",
+        "H1 ring is triadic with a single balanced two-arc cut of constant \u03a6 in n: REFUTED",
         "H2 the ring's major complex is the full node set at every n=3..7: SUPPORTED"
       ],
       "timeout": 1800,
@@ -784,7 +784,7 @@
       "expect": [
         "CONTROL faithful triad: structure=triadic max_phi=2.000 core=('W', 'S', 'C') phi=2.000 -> PASS",
         "H1 (redundant mediation buys verdict resilience): SUPPORTED",
-        "H2 (retained Φ scales with non-hub cycle count): NOT SUPPORTED"
+        "H2 (retained \u03a6 scales with non-hub cycle count): NOT SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q151_hub_failure_resilience/FINDINGS.md"
@@ -793,8 +793,8 @@
       "name": "q150-ring-chord-integration",
       "cmd": "python -m org_frontier.questions.q150_ring_chord_integration.probe_ring_chord_integration",
       "expect": [
-        "CONTROL faithful triad: structure=triadic, max Φ_MIP=2.000000: PASS",
-        "H1 chord raises ring Φ and shifts MIP cut off the chord: REFUTED",
+        "CONTROL faithful triad: structure=triadic, max \u03a6_MIP=2.000000: PASS",
+        "H1 chord raises ring \u03a6 and shifts MIP cut off the chord: REFUTED",
         "H2 chord endpoints gain Shapley value at the expense of the far arc: SUPPORTED"
       ],
       "timeout": 500,
@@ -816,8 +816,8 @@
       "cmd": "python -m org_frontier.questions.q145_spanning_mediator_law.probe_spanning_mediator_law",
       "expect": [
         "CONTROL faithful triad: structure=triadic max_phi=2.0 core=('W', 'S', 'C') phi=2.0 -> PASS",
-        "H1 spanning-mediator law (full span holds all, Φ linear in n; partial caps at span+1): SUPPORTED",
-        "H2 Φ(f) collapses across n (span fraction is the controlling variable): REFUTED"
+        "H1 spanning-mediator law (full span holds all, \u03a6 linear in n; partial caps at span+1): SUPPORTED",
+        "H2 \u03a6(f) collapses across n (span fraction is the controlling variable): REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q145_spanning_mediator_law/FINDINGS.md"
@@ -2432,7 +2432,7 @@
       "name": "q120-higher-order-binding",
       "cmd": "python -m org_frontier.questions.q120_higher_order_binding.probe_higher_order_binding --quick",
       "expect": [
-        "CONTROL strict triad: triadic Φ=2.000",
+        "CONTROL strict triad: triadic \u03a6=2.000",
         "[strict mediation (256)]  24 triadic forms",
         "H1 SUPPORTED: under both knockout definitions, every triadic form has all three"
       ],
@@ -2454,9 +2454,9 @@
       "name": "q141-lagging-objective",
       "cmd": "python -m org_frontier.questions.q141_lagging_objective.probe_lagging_objective",
       "expect": [
-        "CONTROL faithful triad: triadic Φ=2.000  PASS",
-        "H1 (the lag re-integrates the displaced worker — out of core when immediate, in when lagged): SUPPORTED",
-        "H2 (the lagged form is more integrated than the immediate one): SUPPORTED  (Φ lagged 2.0 > immediate 1.0)"
+        "CONTROL faithful triad: triadic \u03a6=2.000  PASS",
+        "H1 (the lag re-integrates the displaced worker \u2014 out of core when immediate, in when lagged): SUPPORTED",
+        "H2 (the lagged form is more integrated than the immediate one): SUPPORTED  (\u03a6 lagged 2.0 > immediate 1.0)"
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q141_lagging_objective/FINDINGS.md (H1-H2)"
@@ -2476,9 +2476,9 @@
       "name": "q139-value-veto",
       "cmd": "python -m org_frontier.questions.q139_value_veto.probe_value_veto",
       "expect": [
-        "CONTROL faithful triad: Φ=2.0, veto 3/3, mediator value 67%, gap +0.33  PASS",
-        "H1 (veto power universal at every level with positive Φ): SUPPORTED",
-        "H2 (the value-veto gap tracks integration: +1/3 at Φ=2.0, 0 at Φ=0.5): SUPPORTED"
+        "CONTROL faithful triad: \u03a6=2.0, veto 3/3, mediator value 67%, gap +0.33  PASS",
+        "H1 (veto power universal at every level with positive \u03a6): SUPPORTED",
+        "H2 (the value-veto gap tracks integration: +1/3 at \u03a6=2.0, 0 at \u03a6=0.5): SUPPORTED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q139_value_veto/FINDINGS.md (H1-H2)"
@@ -2487,7 +2487,7 @@
       "name": "q138-faithful-fraction",
       "cmd": "python -m org_frontier.questions.q138_faithful_fraction.probe_faithful_fraction",
       "expect": [
-        "CONTROL fully faithful (4/4): Φ=2.000, mediator share 67%  PASS",
+        "CONTROL fully faithful (4/4): \u03a6=2.000, mediator share 67%  PASS",
         "H1 (a minimum faithful fraction revives the coordination): SUPPORTED  (minimum = 3/4 = 75% faithful)",
         "H2 (threshold regulation gives an egalitarian split; mediator dominance only at full faith): SUPPORTED  (at 3/4 mediator 33%, at 4/4 mediator 67%)"
       ],
@@ -2498,8 +2498,8 @@
       "name": "q137-interested-worker",
       "cmd": "python -m org_frontier.questions.q137_interested_worker.probe_interested_worker",
       "expect": [
-        "CONTROL faithful triad: Φ=2.000, worker Shapley 0.333 (share 17%)  PASS",
-        "H1 (worker gaming collapses the coordination — Φ -> 0 whenever k_W >= 1): SUPPORTED",
+        "CONTROL faithful triad: \u03a6=2.000, worker Shapley 0.333 (share 17%)  PASS",
+        "H1 (worker gaming collapses the coordination \u2014 \u03a6 -> 0 whenever k_W >= 1): SUPPORTED",
         "H2 (worker's share rises only when the system defects; absolute value never gains): SUPPORTED"
       ],
       "timeout": 180,
@@ -2510,8 +2510,8 @@
       "cmd": "python -m org_frontier.questions.q136_competing_mediators.probe_competing_mediators",
       "expect": [
         "CONTROL single faithful mediator: share 66.6% (two-thirds)  PASS",
-        "H1 (substitutable mediators eliminate the coordination — Φ -> 0, no rent): SUPPORTED",
-        "H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (Φ=4.0, each mediator 25%, each party 25%)"
+        "H1 (substitutable mediators eliminate the coordination \u2014 \u03a6 -> 0, no rent): SUPPORTED",
+        "H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (\u03a6=4.0, each mediator 25%, each party 25%)"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q136_competing_mediators/FINDINGS.md (H1-H2)"
@@ -2520,10 +2520,10 @@
       "name": "q135-objective-rent",
       "cmd": "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent",
       "expect": [
-        "CONTROL faithful triad: mediator 1.333 of Φ=2.000 (two-thirds)  PASS",
-        "H1 (the adaptive objective captures positive value — a claimant, not a passive goal): SUPPORTED",
-        "REFINED (the objective captures exactly what the system does — a co-equal rentier): CONFIRMED",
-        "REFINED (the parties' value tracks displacement — negative under AND/OR, positive under XOR): CONFIRMED"
+        "CONTROL faithful triad: mediator 1.333 of \u03a6=2.000 (two-thirds)  PASS",
+        "H1 (the adaptive objective captures positive value \u2014 a claimant, not a passive goal): SUPPORTED",
+        "REFINED (the objective captures exactly what the system does \u2014 a co-equal rentier): CONFIRMED",
+        "REFINED (the parties' value tracks displacement \u2014 negative under AND/OR, positive under XOR): CONFIRMED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q135_objective_rent/FINDINGS.md (H1 + refined)"
@@ -2532,9 +2532,9 @@
       "name": "q134-rent-scaling",
       "cmd": "python -m org_frontier.questions.q134_rent_scaling.probe_rent_scaling",
       "expect": [
-        "CONTROL 3-party triad: total Φ=2.000, mediator 1.333 share 66.6%  PASS",
+        "CONTROL 3-party triad: total \u03a6=2.000, mediator 1.333 share 66.6%  PASS",
         "H1 (mediator share is scale-invariant at two-thirds): NOT SUPPORTED",
-        "H2 (the share declines as parties are added — the rent dilutes): SUPPORTED  (share 66.6% -> 58.3% -> 55.0%)"
+        "H2 (the share declines as parties are added \u2014 the rent dilutes): SUPPORTED  (share 66.6% -> 58.3% -> 55.0%)"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q134_rent_scaling/FINDINGS.md (H1-H2)"
@@ -2543,7 +2543,7 @@
       "name": "q133-deny-symmetry",
       "cmd": "python -m org_frontier.questions.q133_deny_symmetry.probe_deny_symmetry",
       "expect": [
-        "CONTROL faithful AND: total Φ=2.000, mediator share 66.6%  PASS",
+        "CONTROL faithful AND: total \u03a6=2.000, mediator share 66.6%  PASS",
         "H1 (deny: XNOR re-integrates and extracts, mirroring XOR-under-approve): SUPPORTED  (extraction on: ['XNOR'])",
         "H2 (AND/OR destroy under deny; XOR does not re-integrate under deny): SUPPORTED"
       ],
@@ -2554,8 +2554,8 @@
       "name": "q132-value-baselines",
       "cmd": "python -m org_frontier.questions.q132_value_baselines.probe_value_baselines",
       "expect": [
-        "CONTROL faithful AND @ (1, 1, 1): total Φ=2.000, mediator share 66.6%  PASS",
-        "H2 (verdict-aligned: re-integrating baselines concentrate the rent — extraction): SUPPORTED  (extraction on: ['XOR'])"
+        "CONTROL faithful AND @ (1, 1, 1): total \u03a6=2.000, mediator share 66.6%  PASS",
+        "H2 (verdict-aligned: re-integrating baselines concentrate the rent \u2014 extraction): SUPPORTED  (extraction on: ['XOR'])"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q132_value_baselines/FINDINGS.md (H2)"
@@ -2564,9 +2564,9 @@
       "name": "q131-value-capture",
       "cmd": "python -m org_frontier.questions.q131_value_capture.probe_value_capture",
       "expect": [
-        "CONTROL faithful mediator: total Φ=2.000, Shapley S=1.333 (share 66.6%)  PASS",
+        "CONTROL faithful mediator: total \u03a6=2.000, Shapley S=1.333 (share 66.6%)  PASS",
         "H1 (total value falls to zero as interestedness rises): SUPPORTED",
-        "H2 (the mediator's share falls, not rises — value destruction not rent extraction): SUPPORTED"
+        "H2 (the mediator's share falls, not rises \u2014 value destruction not rent extraction): SUPPORTED"
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q131_value_capture/FINDINGS.md (H1-H2)"
@@ -2586,7 +2586,7 @@
       "name": "q129-mediator-interpolation",
       "cmd": "python -m org_frontier.questions.q129_mediator_interpolation.probe_mediator_interpolation",
       "expect": [
-        "CONTROL faithful mediator (m=0): core=('W', 'S', 'C') coordination-Φ=2.000  PASS",
+        "CONTROL faithful mediator (m=0): core=('W', 'S', 'C') coordination-\u03a6=2.000  PASS",
         "PARTIES BOUND IN THE CORE: frozen holds to m=3, adaptive only to m=0.",
         "WHOLE-SYSTEM IRREDUCIBLE:  frozen to m=-1, adaptive to m=4."
       ],
@@ -2597,7 +2597,7 @@
       "name": "q128-adaptive-mediator",
       "cmd": "python -m org_frontier.questions.q128_adaptive_mediator.probe_adaptive_mediator",
       "expect": [
-        "CONTROL faithful 3-party triad: triadic Φ=2.000  PASS",
+        "CONTROL faithful 3-party triad: triadic \u03a6=2.000  PASS",
         "RE-INTEGRATION IFF THE OBJECTIVE READS BOTH PARTIES: CONFIRMED",
         "THE OBJECTIVE IS THE CONDUIT: CONFIRMED"
       ],
@@ -2608,7 +2608,7 @@
       "name": "q127-interest-baselines",
       "cmd": "python -m org_frontier.questions.q127_interest_baselines.probe_interest_baselines",
       "expect": [
-        "CONTROL AND faithful: triadic Φ=2.000  PASS",
+        "CONTROL AND faithful: triadic \u03a6=2.000  PASS",
         "MINORITY-OUTPUT FLIP on sparse baselines (AND, OR): CONFIRMED",
         "RE-INTEGRATION on balanced baselines"
       ],
@@ -2619,8 +2619,8 @@
       "name": "q126-interested-mediator",
       "cmd": "python -m org_frontier.questions.q126_interested_mediator.probe_interested_mediator",
       "expect": [
-        "CONTROL faithful mediator (k=0): triadic Φ=2.000 core=('W', 'S', 'C')  PASS",
-        "H1 (Φ falls monotonically to 0 as interestedness rises): SUPPORTED",
+        "CONTROL faithful mediator (k=0): triadic \u03a6=2.000 core=('W', 'S', 'C')  PASS",
+        "H1 (\u03a6 falls monotonically to 0 as interestedness rises): SUPPORTED",
         "H2 (the mediator sheds the parties as it serves its agenda): SUPPORTED"
       ],
       "timeout": 120,
@@ -2630,7 +2630,7 @@
       "name": "q125-four-party-higher-order",
       "cmd": "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order --quick",
       "expect": [
-        "CONTROL 3-party triad: triadic Φ=2.000, pivotal=3/3  PASS",
+        "CONTROL 3-party triad: triadic \u03a6=2.000, pivotal=3/3  PASS",
         "[homogeneous symmetric (16)]  16 forms, 14 irreducible",
         "H1 REFUTED: no four-party form tested is a pure higher-order bind"
       ],
@@ -2706,7 +2706,7 @@
         "Instrument validated",
         "non-bidirectional in core: 0/660 (categorical necessity holds in this family)",
         "triadic rate: 9.5%",
-        "n=5: Φ=4.0  core=PABCD (size 5)"
+        "n=5: \u03a6=4.0  core=PABCD (size 5)"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/core_membership_law/FINDINGS.md"
@@ -2730,7 +2730,7 @@
         "Instrument validated",
         "Shapley value (avg marginal over all coalitions): 0.870",
         "single-node influence (the study-A measure):      0.632",
-        "Shapley≈+1: 57/57 = 100.0% in core"
+        "Shapley\u2248+1: 57/57 = 100.0% in core"
       ],
       "timeout": 180,
       "source": "org_frontier/threads/shapley_membership/THREAD.md"
@@ -2787,7 +2787,7 @@
       "cmd": "python -m org_frontier.threads.normalization.normalization",
       "expect": [
         "density-maximal subset is a single party: 281/298 = 94.3%",
-        "mean size — absolute major complex: 1.70 | density-maximal: 1.07",
+        "mean size \u2014 absolute major complex: 1.70 | density-maximal: 1.07",
         "triadic forms whose density-maximal subset is a lone party: 146/158 = 92.4%",
         "multi-party complexes that density shrinks (over size>=2): 16/184 = 8.7%"
       ],
@@ -3251,8 +3251,8 @@
       "name": "q213-contingent-irreducibility",
       "cmd": "python -m org_frontier.questions.q213_contingent_irreducibility.probe_contingent_irreducibility",
       "expect": [
-        "H1 control  conjunctive triad : triadic Φ=2.000000 PASS",
-        "car dealer (constrained)      : triadic Φ=2.000 core=('M', 'D', 'B')  D in core: True",
+        "H1 control  conjunctive triad : triadic \u03a6=2.000000 PASS",
+        "car dealer (constrained)      : triadic \u03a6=2.000 core=('M', 'D', 'B')  D in core: True",
         "intrinsic   (clearinghouse)   : intrinsic  margin=0.000  S in core: constrained=True bypass=True  (Phi 2.000 -> 2.000)",
         "contingent  (car dealer)      : contingent margin=2.000  D in core: constrained=True bypass=False  (Phi 2.000 -> 0.000)",
         "partial     (+ back-channel)  : partial    margin=1.585  S in core: constrained=True bypass=True  (Phi 2.000 -> 0.415)",
@@ -3288,7 +3288,7 @@
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
-        "control  conjunctive triad : triadic Φ=2.000000 PASS",
+        "control  conjunctive triad : triadic \u03a6=2.000000 PASS",
         "tertius_gaudens                  obstfeld2014    contingent   2.000",
         "tertius_iungens_integrating      obstfeld2005    necessary    0.000",
         "tertius_iungens_selfliquidating  obstfeld2005    reducible    0.000",
@@ -3380,6 +3380,96 @@
       ],
       "timeout": 30,
       "source": "org_frontier/studies/constraint_durability/FINDINGS.md"
+    },
+    {
+      "name": "reviews-algorithmic_management_claims-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/algorithmic_management_claims/coding --categorical claim_type,evidence,outcome",
+      "expect": [
+        "common sources: 66",
+        "claim_type               0.747      82.8%   substantial"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-causal_emergence_evidence-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/causal_emergence_evidence/coding --categorical evidence,formalism,claim_direction",
+      "expect": [
+        "common sources: 60",
+        "evidence                 0.846      92.2%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-collective_intelligence_substrates-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/collective_intelligence_substrates/coding --categorical substrate,method,spans_multiple",
+      "expect": [
+        "common sources: 48",
+        "substrate                0.963      97.2%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-gig_work_motivation-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/gig_work_motivation/coding --categorical motivation_mode,assumption_targeted",
+      "expect": [
+        "common sources: 49",
+        "motivation_mode          0.721      93.2%   substantial"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-iit_beyond_consciousness-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/iit_beyond_consciousness/coding --categorical substrate,evidence,claim_type,cites_org_theory",
+      "expect": [
+        "common sources: 40",
+        "substrate                1.000     100.0%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-new_form_construct_proliferation-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/new_form_construct_proliferation/coding --categorical label,differentia_mode,parent_form,claim_type",
+      "expect": [
+        "common sources: 67",
+        "label                    0.966      97.0%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-phi_measure_fragmentation-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/phi_measure_fragmentation/coding --categorical measure_family,validation,substrate",
+      "expect": [
+        "common sources: 68",
+        "measure_family           0.963      97.1%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-platform_theory_borrowing-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/platform_theory_borrowing/coding --categorical parent_theory,borrowing_mode,multi_theory",
+      "expect": [
+        "common sources: 80",
+        "parent_theory            0.872      90.4%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-reproducibility_signaling-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/reproducibility_signaling/coding --categorical open_data,code_available,preregistered,method_type",
+      "expect": [
+        "common sources: 88",
+        "open_data                1.000     100.0%   almost perfect"
+      ],
+      "timeout": 120
+    },
+    {
+      "name": "reviews-systematicity_consciousness_reviews-kappa",
+      "cmd": "python -m org_frontier.reviews.lib.reliability org_frontier/reviews/systematicity_consciousness_reviews/coding --categorical envisioning,explicating,executing,evaluating,encoding,elaborating,expositing",
+      "expect": [
+        "common sources: 43",
+        "envisioning              1.000     100.0%   almost perfect"
+      ],
+      "timeout": 120
     }
   ]
 }
