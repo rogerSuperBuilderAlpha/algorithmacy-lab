@@ -1,0 +1,5 @@
+form,n,structure,max_phi,n_states_evaluated,seconds
+chain,3,triadic,2.000,4,0.06
+chain,4,triadic,2.000,9,0.38
+chain,5,triadic,2.000,16,2.97
+chain,6,triadic,2.000,25,25.34
