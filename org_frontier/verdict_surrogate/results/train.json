@@ -1,0 +1,61 @@
+{
+  "n_train": 1131,
+  "n_triadic": 69,
+  "auc_learned_all": 0.99,
+  "auc_learned_structural_only": 0.9718,
+  "auc_learned_dynamical_only": 0.942,
+  "best_single_proxy": "causal_density",
+  "auc_best_single_proxy": 0.7975,
+  "proxy_bridge_reference_auc": 0.629,
+  "structural_heuristic_auc": 0.4486,
+  "structural_heuristic_balanced_acc": 0.4486,
+  "backchannel_discount": {
+    "n_backchannel_forms": 256,
+    "learned_balanced_acc": 0.7583612040133779,
+    "single_proxy_balanced_acc": 0.7165551839464883,
+    "learned_acc": 0.93359375,
+    "single_proxy_acc": 0.61328125
+  },
+  "top_importances": [
+    [
+      "density",
+      0.2182
+    ],
+    [
+      "causal_density",
+      0.1075
+    ],
+    [
+      "n_reciprocal",
+      0.1056
+    ],
+    [
+      "total_correlation",
+      0.0631
+    ],
+    [
+      "hub_fanout",
+      0.0611
+    ],
+    [
+      "max_out_degree",
+      0.0554
+    ],
+    [
+      "integrated_synergy",
+      0.0481
+    ],
+    [
+      "hub_fanin",
+      0.0416
+    ],
+    [
+      "n_edges",
+      0.0414
+    ],
+    [
+      "stochastic_interaction",
+      0.0365
+    ]
+  ]
+}
