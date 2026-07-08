@@ -99,25 +99,23 @@ intention.
 **When is a combination a configuration? Integrated information and the constitution of organizational
 wholes.**
 
-> Configurational theorizing claims that organizational phenomena are constituted through combinations of
-> interdependent elements. The claim of constitution is the tradition's foundation, and it has no formal
-> statement: no criterion says when interdependent elements form one configuration and when they form an
-> aggregate of smaller ones, no account says which elements belong to the whole, and dissolution is
-> treated as formation run backwards. This essay borrows the formal core of integrated information theory
-> — a configurational formalism built in consciousness science — for the missing statement. A combination
-> is a configuration when its cause-effect structure is irreducible over every partition of its elements;
-> the theory's complex names which elements the whole binds, and membership grades with an element's
-> causal pivotality; and dissolution has its own operators — substitution, bypass, constraint-lifting —
-> that are not formation reversed. The last operator yields a distinction with reach: an element can be
-> necessarily irreducible, doing integrating work the others cannot reproduce, or contingently
-> irreducible, held in place by a constraint that forbids the others from meeting. The criterion also
-> consolidates: pivotality in cooperative game theory, the bypassable route in platform economics, the
-> binding outside option in bargaining, and the commit/convey line in communication theory are one test in
-> four vocabularies, returned by a single computation. Small Boolean models illustrate throughout; the
-> essay is theory, and the models are its microscope.
+> Configurational theorizing rests on a claim of constitution: organizational phenomena are wholes whose
+> character lives in how elements combine. The tradition has rich vocabularies for describing such wholes
+> and mature methods for finding which combinations co-occur with outcomes. What it lacks is a formal
+> account of the constitution claim itself — a criterion for when interdependent elements form one
+> configuration and when they factor into aggregates, an account of which elements belong to the whole,
+> and a theory of how configurations dissolve that is not formation run backwards. This essay supplies
+> that account by borrowing the formal core of integrated information theory. A combination is a
+> configuration when its cause-effect structure is irreducible over every partition of its elements. The
+> theory's complex names membership; pivotality grades cores and peripheries; and dissolution proceeds
+> by substitution, bypass, or constraint-lifting. The constraint operator yields a distinction between
+> necessary and contingent irreducibility. The criterion consolidates tests that cooperative game theory,
+> platform economics, bargaining theory, and communication theory draw in their own vocabularies. Small
+> Boolean models illustrate throughout; the essay is theory, and the models are its microscope.
 
-The abstract is a draft to be reworked against the journal's format; the title choice between the
-question form above and a declarative alternative ("Constitution, membership, dissolution: …") is open.
+The abstract is aligned with the revised manuscript; rework against the journal's word limit before
+submission. The title choice between the question form above and a declarative alternative
+("Constitution, membership, dissolution: …") is open.
 
 ## The argument, section by section
 
@@ -160,24 +158,58 @@ The material exists; the writing task is selection and reframing for a configura
 | dissolution, necessary/contingent, the dealer | `essays/necessary_and_contingent_irreducibility.md`, `studies/*` under the contingency program, `classifier/contingency.py` |
 | four-literature consolidation | the convergence table and cautions in `essays/committed_determination_synthesis.md` |
 | encoding caveat, scope | `field/paper.md` (the 40% flip figure), the standing limitations sections |
+| dissertation graft (Paper 2–3 sharpening pass) | `dissertation/paper2_construct/ARGUMENT.md`, `results.md`; `dissertation/paper3_baseline/rebuild/DRAFT.md`; `dissertation/v4/paper1/PAPER_ANNALS.md` ~L278–280 (clause-configuration gap) |
 
 Every number the manuscript cites is already registered in `ci/reproduce.json`. No new computation is
 required; if an illustration wants a cleaner model than the corpus holds, the new probe goes through the
 standard protocol first.
+
+## Dissertation sharpening pass (completed)
+
+Two passes through the dissertation spine thickened the manuscript without changing the pitch. The graft
+memo is [`ot_configurational_nature_2027_graft_memo.md`](ot_configurational_nature_2027_graft_memo.md).
+
+**Pass 1 (graft).** Section-by-section imports from Papers 1–3: clause-configuration gap, modeling
+commitments, maximal-wiring exhibit, membership holism, design operations, platform case contrast.
+
+**Pass 2 (submission rewrite).** CfP-facing reframing: opening tied to the section's three themes;
+platform/algorithm hook in §1; application-layer modeling in §2; dispatch false-configuration exhibit in
+§3; Kimsey (2025) positioning in §6; revised abstract and closing.
+
+| manuscript section | what the dissertation added |
+|---|---|
+| §1 foundation | Clause-configuration gap; platform/algorithm terrain (Paper 1; CfP) |
+| §2 borrowing | Syntax/semantics import rule; application-layer encoding (Paper 2) |
+| §3 constitution | False-configuration dispatch; maximal-wiring exhibit (Paper 2) |
+| §4 membership | Idle-principal exhibit; holistic-residual coalition case (Paper 3) |
+| §5 dissolution | Five design operations that relocate the core (Paper 3) |
+| §6 consolidation | Kimsey vs meaningful systems test; Emirbayer + Tsoukas bridge |
+| §7 agenda | Strict- vs partial-mediation membership contrast (Paper 3) |
+
+The pass kept the affirmative Paper 2 framing: Φ is the principled lens; no algorithmacy lead; no
+demotion of the apparatus.
 
 ## What must be written fresh
 
 - **The configurational literature pass.** The lab's deep-research reports cover IIT, platform economics,
   game theory, and communication theory; they do not cover the configurational canon (Meyer, Tsui &
   Hinings 1993; Fiss 2007, 2011; Misangyi et al. 2017; Furnari et al. 2021; Campbell & Fiss 2026, in
-  press at AMR and cited in the CfP). Section 1 needs that pass done properly, including where the canon
-  already gestures at irreducibility so the paper credits it.
-- **The translation layer.** Every concept must land in configurational vocabulary — element, condition,
-  configuration, core/periphery (the QCA sense and the causal sense need explicit disambiguation) — with
-  the IIT term introduced once and then used sparingly.
-- **The Tsoukas and Emirbayer connections.** Asserted above; each needs a worked paragraph.
-- **The closing agenda.** The Miles & Snow / Mintzberg re-reading exercise proposed in section 7 is new
-  and needs enough development to be generative.
+  press at AMR and cited in the CfP). Section 1 has a serviceable canon opening; a dedicated pass could
+  still deepen credits where the canon already gestures at irreducibility.
+- **The translation layer.** Largely in place (QCA disambiguation in §2; core/periphery in §4). Spot-check
+  on submission formatting.
+- **The Tsoukas and Emirbayer connections.** Worked paragraph added in §6; §3 already carries Tsoukas on
+  conjunctive theorizing. No further expansion required unless committee review asks for more.
+- **The closing agenda.** §7 now carries the Miles & Snow / Mintzberg re-reading line plus a worked
+  strict- vs partial-mediation contrast under *Map the constraints*. Further typology modeling remains
+  open work, not blocking submission polish.
+- **Novelty check.** Stage-2 deep research must confirm no prior paper has brought IIT to configurational
+  organization theory. The lab's landscape scan (`landscape/`) found no such use, and Kimsey et al.
+  (2025) on systems thinking is adjacent; the manuscript positions against it in §6.
+- **Title form.** Question vs declarative alternative still open.
+- **Abstract.** Aligned with revised manuscript; trim to journal word limit before submission.
+- **Internal committee review.** Adversarial pass and house-style self-check on the full revised draft
+  remain before submission.
 
 ## Scope discipline and risks
 
@@ -197,22 +229,19 @@ standard protocol first.
   causation. It complements it: QCA finds which combinations matter for an outcome across cases; the
   criterion says whether a given combination is one whole within a case. Section 4's contrast carries
   this and should be written defensively.
-- **Novelty check.** Stage-2 deep research must confirm no prior paper has brought IIT to configurational
-  organization theory. The lab's landscape scan (`landscape/`) found no such use, and Kimsey et al.
-  (2025) on systems thinking is adjacent; the manuscript must position against it.
 
 ## From proposal to manuscript
 
-1. Run the configurational-canon literature pass and file it under the lab's research watch.
+1. Run the configurational-canon literature pass and file it under the lab's research watch. *(Optional
+   deepen; §1 is serviceable.)*
 2. Fix the section-by-section claims table — each section's one claim and its warrant — before drafting,
    per the protocol's pre-commitment discipline, adapted for a theory essay.
 3. Draft sections 2–6 from the existing material; draft 1 and 7 fresh; assemble; run the house-style
-   self-check.
+   self-check. *(Done; dissertation sharpening pass completed — see above.)*
 4. Internal committee review in the lab's adversarial format, then revise.
 5. Submit through the journal's system with the Special Themed Section selected as manuscript type, per
    the [OTT author guidelines](https://journals.sagepub.com/author-instructions/OTT), by January 31,
-   2027. *Organization Theory* is open access; the fee question goes to the maintainers before drafting
-   starts.
+   2027. *Organization Theory* is open access; the fee question goes to the maintainers before submission.
 
 ## Fit with the dissertation spine
 
