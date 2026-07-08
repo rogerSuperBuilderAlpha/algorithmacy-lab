@@ -5,7 +5,8 @@ A plan for a manuscript to submit to the *Organization Theory* Catalysing & Crys
 Furnari, Höllerer; submission deadline **January 31, 2027**; CfP at
 [egos.org](https://www.egos.org/jart/prj3/egos/releases/de/upload/Uploads/CfP/CfP_Configurational%20Nature.pdf)).
 This document fixes the pitch, the argument, the material the manuscript draws on, and the risks, so the
-writing can start from a settled plan.
+writing can start from a settled plan. The full draft manuscript is
+[`ot_configurational_nature_2027_manuscript.md`](ot_configurational_nature_2027_manuscript.md).
 
 ## What the call asks for
 
