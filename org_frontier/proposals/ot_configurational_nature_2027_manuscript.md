@@ -7,30 +7,40 @@ illustration reproduces from a committed script registered in the lab's `ci/repr
 
 ## Abstract
 
-Configurational theorizing claims that organizational phenomena are constituted through combinations of
-interdependent elements. The claim of constitution is the tradition's foundation, and it has no formal
-statement: no criterion says when interdependent elements form one configuration and when they form an
-aggregate of smaller ones, no account says which elements belong to the whole, and dissolution is treated
-as formation run backwards. This essay borrows the formal core of integrated information theory, a
-configurational formalism built in consciousness science, for the missing statement. A combination is a
-configuration when its cause-effect structure is irreducible over every partition of its elements; the
-theory's complex names which elements the whole binds, and membership grades with an element's causal
-pivotality; and dissolution has its own operators — substitution, bypass, constraint-lifting — that are
-not formation reversed. The last operator yields a distinction with reach: an element can be necessarily
+Configurational theorizing rests on a claim of constitution: organizational phenomena are wholes whose
+character lives in how elements combine. The tradition has rich vocabularies for describing such wholes
+and mature methods for finding which combinations co-occur with outcomes. What it lacks is a formal
+account of the constitution claim itself — a criterion for when interdependent elements form one
+configuration and when they factor into aggregates, an account of which elements belong to the whole,
+and a theory of how configurations dissolve that is not formation run backwards. This essay supplies
+that account by borrowing the formal core of integrated information theory, a configurational
+formalism built in consciousness science. A combination is a configuration when its cause-effect
+structure is irreducible over every partition of its elements. The theory's complex names membership;
+pivotality grades cores and peripheries; and dissolution proceeds by substitution, bypass, or
+constraint-lifting — operators that answer the section's question about whether disorganizing reverses
+organizing. The constraint operator yields a further distinction: an element can be necessarily
 irreducible, doing integrating work the others cannot reproduce, or contingently irreducible, held in
-place by a constraint that forbids the others from meeting. The criterion also consolidates: pivotality
-in cooperative game theory, the bypassable route in platform economics, the binding outside option in
-bargaining, and the commit/convey line in communication theory are one test in four vocabularies,
-returned by a single computation. Small Boolean models illustrate throughout; the essay is theory, and
-the models are its microscope.
+place by power that forbids the others from meeting. The criterion also consolidates tests that
+cooperative game theory, platform economics, bargaining theory, and communication theory draw in their
+own vocabularies. Small Boolean models of mediated coordination illustrate throughout; the essay is
+theory, and the models are its microscope.
 
 ---
 
 ## 1. The unformalized foundation
 
-Configurational theorizing rests on one claim. An organization, an institutional arrangement, a strategy
-is a whole whose character lives in the combination of its elements: the elements do their causal work
-jointly, and the whole behaves in ways no element-by-element account captures. Miller (1986, 1996) called
+The Organization Theory special section on configurational phenomena asks three questions that share
+one foundation. How do configurations form, stabilize, and come apart? How do agency, intentionality,
+and power enter configurational causality? How can configurational theorizing learn from intellectual
+traditions that developed configurational ideas without the label? Each question presupposes an answer
+to a prior one: when is a combination a configuration at all? Without that answer, dynamics have no
+object to track, agency has no whole to design or contest, and cross-disciplinary dialogue has no common
+test to translate.
+
+Configurational theorizing has long rested on the presupposition without stating it. An organization,
+an institutional arrangement, a strategy is a whole whose character lives in the combination of its
+elements: the elements do their causal work jointly, and the whole behaves in ways no element-by-element
+account captures. Miller (1986, 1996) called
 such wholes gestalts and argued that a small number of coherent configurations, rather than a continuum
 of independent attribute values, populates the organizational world. Meyer, Tsui and Hinings (1993)
 defined the program by exactly this commitment: parts take their meaning from the whole, and the whole
@@ -58,6 +68,23 @@ when they appear together in the cases that reach the outcome (Ragin, 2008; Fiss
 captures a symptom of wholeness. None states the thing itself: a criterion that takes a candidate whole
 and answers whether it is one configuration or an aggregate of smaller ones.
 
+Platform and contract scholarship has arrived at the same shape of problem from another direction.
+Each clause in a composite arrangement has a bilateral rationale — a termination-at-will term, a rating
+hostage, a unilateral price — and the economics explains them pairwise. What it has not supplied is the
+configuration: the clauses operating jointly as one apparatus across the ownership boundary,
+delivering accountability, predictability, and common understanding as a single coordinated whole
+rather than as stacked pairwise contracts. Configurational theorizing names that whole; the tradition
+has not yet formalized when the joint apparatus is one configuration and when it factors into smaller
+pieces.
+
+The gap lands hardest where configurational intuitions have grown fastest without the label. Platforms,
+algorithms, and human–AI assemblages now coordinate millions of parties through determinations neither
+side controls — a match, a price, a rank, a forward — yet the literatures that study them still explain
+each clause, each channel, each contract pairwise (Glaser, Sloan & Gehman, 2024; Kellogg, Valentine &
+Christin, 2020; Hsieh & Vergne, 2023). The call for this section names that terrain directly. The
+question is whether the joint apparatus is one configuration or an aggregate of smaller ones, and
+configurational theory has no formal way to ask it.
+
 The gap has consequences the tradition already feels. The boundary of a configuration is set by research
 design — the analyst chooses the conditions in the truth table, the attributes in the typology, the nodes
 in the network — so the question "which elements actually belong to this whole?" has no answer inside the
@@ -68,15 +95,17 @@ backwards, which recent calls to theorize disorganizing suggest is wrong (Quattr
 Furnari et al. (2021) observe that configurational methods have outrun configurational theorizing; the
 shortage begins at the foundation, with the constitution claim itself.
 
-This essay supplies a formal statement of that claim, borrowed from an unexpected neighbour. Section 2
-introduces the formalism and places the borrowing in
-organization theory's own tradition of imported formal cores. Section 3 states the criterion for
-constitution and shows, on small models, that it cuts differently from interdependence, fit, and
-co-occurrence. Section 4 derives an account of membership: which elements a configuration binds, and how
-tightly. Section 5 derives an account of dissolution, with a distinction — necessary against contingent
-irreducibility — that answers the disorganizing question and gives power a formal seat in configurational
-theory. Section 6 shows that the criterion consolidates tests that four other literatures draw in their
-own vocabularies. Section 7 states the boundaries of the borrowing and closes with an agenda.
+This essay supplies a formal statement of that claim, borrowed from an unexpected neighbour, and
+develops three concepts configurational scholarship has stated only informally: a criterion for
+constitution, an account of membership, and a theory of dissolution. Section 2 introduces the
+formalism and places the borrowing in organization theory's own tradition of imported formal cores.
+Section 3 states the criterion and shows, on small models, that it cuts differently from
+interdependence, fit, and co-occurrence. Section 4 derives membership: which elements a configuration
+binds, and how tightly. Section 5 derives dissolution, with a distinction — necessary against
+contingent irreducibility — that answers the disorganizing question and gives power a formal seat in
+configurational theory. Section 6 shows that the criterion consolidates tests that four other
+literatures draw in their own vocabularies. Section 7 states the boundaries of the borrowing and
+closes with an agenda.
 
 ## 2. A borrowed formalism
 
@@ -85,8 +114,11 @@ organizational ecology (Hannan & Freeman, 1977); microeconomics gave it transact
 (Williamson, 1985); statistical physics, via Kauffman's NK model, gave it the fitness-landscape research
 program (Levinthal, 1997). The call for this section invites exactly this move: neighbouring disciplines
 developed configurational ideas without the label — Elias's (1978) figurations, Benedict's (1934) pattern
-thinking — and bringing them into organization studies is how the tradition has grown. The formalism
-borrowed here comes from consciousness science, and its formal core is a theory of configuration in the
+thinking — and bringing them into organization studies is how the tradition has grown. The import here
+follows the discipline's own rule for such moves: keep the formal syntax, rework the semantics for the
+destination domain (Cornelissen, Höllerer & Seidl, 2021). Integrated information's mathematics of
+partition irreducibility travels; the theory of consciousness that produced it does not. The formalism borrowed
+here comes from consciousness science, and its formal core is a theory of configuration in the
 strictest sense available anywhere: a mathematical account of when a set of interacting elements
 constitutes one integrated whole.
 
@@ -102,7 +134,11 @@ The machinery, translated into organizational terms, has five pieces.
 roles, systems — each in one of a small number of states, each updating its state by a fixed rule that
 reads the states of the others. The rules are the substance of the model: who reads whom, and what
 determines what. A dispatcher that assigns a job when a driver is available and a customer has requested
-one is a rule; a subordinate who acts on the assignment is another.
+one is a rule; a subordinate who acts on the assignment is another. In platform and algorithmic
+arrangements the rules are often readable from the application layer alone — the determinations a
+mediator commits and the responses the parties make — without opening the opaque mechanism that
+generates them (Kellogg et al., 2020). The model therefore runs on what the coordination does, not on
+what the algorithm is.
 
 **Cause-effect structure.** The rules jointly fix what the system can do: which present states constrain
 which pasts and which futures. This whole web of constraint is the system's cause-effect structure. Two
@@ -127,6 +163,23 @@ maximal: the complex, the set of elements that genuinely form the irreducible wh
 complex may be wired in, observed, even busy, and still fail to belong. The complex is the
 configuration's causal boundary, computed rather than assumed.
 
+Three modeling commitments carry every verdict the illustrations report. First, the
+application-layer model: a candidate arrangement is encoded as a small transition system over its
+parties, and the encoding is the analyst's construction of the coordination, not the coordination
+itself. Second, a state-individuation rule: a new state begins when a mediated determination commits
+in a way that alters its causal disposition toward the parties. Third, the party partition:
+irreducibility is read along the lines between the parties whose relation is in question. Φ is a
+property of the model these three choices define, and naming them keeps a borrowed criterion
+inspectable rather than asserted.
+
+The commitments matter because surface description misleads in both directions. A mediator whose
+determination ignores one party yields three visible roles and Φ of zero: a configuration on the
+interface, an aggregate in the cause-effect structure. An applicant–system–manager chain where the
+two humans never touch — the arrangement that invites a two-dyads reading — can still score Φ above
+zero, because the committed determination binds what neither party can reach alone. These are model
+outputs on stated encodings, not field measurements. They show that constitution is a property of
+joint determination, not of headcount or wiring density.
+
 For systems of modest size the whole construction is exactly computable (Mayner et al., 2018). That
 matters for the theory, not merely for practice: the concepts come with a discipline. A claim that some
 arrangement is one configuration, made in this vocabulary, is a claim with a definite truth value on a
@@ -150,7 +203,7 @@ parts take their meaning from the whole (Meyer et al., 1993) becomes: no cut thr
 what the whole determines.
 
 Stated abstractly the criterion sounds like a restatement of interdependence. It is stronger, and the
-distance between the two is where the theory earns its keep. Three results on small models, each exactly
+distance between the two is where the theory earns its keep. Five results on small models, each exactly
 computed, mark the distance.
 
 **Interdependence without constitution: the quorum.** Consider a mediator that acts when at least *k* of
@@ -181,6 +234,24 @@ still factors, because the dynamics drive the worker and counterpart into lockst
 always agree carry the information of one. The topology shows three parties; the cause-effect structure
 holds two. No inspection of the wiring diagram reveals this; the constraint structure has to be
 computed.
+
+**Appearance without constitution: the dispatch.** A fourth result shows why the platform economy needs
+the criterion. A driver and a rider each touch only the platform's app; neither chooses the other, and
+neither learns the other's identity until the trip begins. The driver experiences a dyad with an
+interface. Modeled faithfully, the platform commits a dispatch that reads both sides — available driver
+and waiting rider — and the structure is irreducible. Drop the rider from the determination, model only
+the driver–app channel, and the same surface experience factors to an aggregate. One dependency, whether
+the mediator's commit reads the unseen third party, separates configuration from appearance. Every
+surrogate that counts parties or channels would miss it.
+
+**Density without constitution: maximal wiring.** A fifth result separates the criterion from the
+network surrogate at its limit. Consider a three-party arrangement with all six directed couplings
+active, strongly connected, with no constant rule — a topology every connection surrogate would score
+as maximally configured. The computation still factors. The determination can read both sides
+jointly and the reads can keep every party live, yet the cause-effect structure still admits a
+party-respecting partition that loses nothing. Connection density, interaction counts, and
+strongly-connected wiring mark traffic; they do not say whether the traffic binds the parties into
+one joint determination the partition cannot sever.
 
 The criterion also gives the coupling vocabulary its missing scale. Loose coupling (Weick, 1976) is the
 regime where partitions are cheap; tight coupling is the regime where every partition is expensive; Φ is
@@ -215,7 +286,10 @@ mediator and feeds nothing back; a policy module that constrains the mediator bu
 redundant standby that no party reads — each, on computation, falls outside the complex, and the working
 core persists without them. The org chart contains them; the configuration does not. Configurational
 theorizing has always suspected that the analyst's element list and the real whole diverge; the complex
-makes the divergence a finding.
+makes the divergence a finding. The divergence can run the other way as well. A corporate principal who
+owns a platform but gates nothing and reads nothing can make the whole four-node system factor to Φ of
+zero while the worker–mediator–counterpart triad inside it stays irreducible. Whole-system integration
+overstates the dyad; the complex recovers the triad the owner sits outside.
 
 The second result is a law of membership, and it has two halves. The necessary half: an element belongs
 to the complex only if it is bidirectionally coupled to the joint determination — it must constrain the
@@ -227,6 +301,15 @@ rises monotonically with the element's causal pivotality — the sensitivity of 
 that element's state. In the reference population, membership climbs from roughly four in ten at the
 lowest pivotality to nine in ten at the highest. Within the theory each complex is a definite set;
 across a population of forms, membership behaves as a graded quantity that pivotality predicts.
+
+The law has a holistic ceiling that matters for configurational theory. Membership is a property of
+the whole cause-effect structure, and a per-element screen can miss it. Consider a worker and two
+counterparts coordinating through an all-required commit while the counterparts also read each other:
+every node bidirectionally coupled, every node pivotal on a per-node reading, yet the exact complex
+is the counterpart pair alone. The worker and the mediator fall outside. Two coupled counterparts form
+a tighter irreducible whole than the four-node arrangement suggests, and only the partition-minimizing
+measure assigns membership correctly. Configurations have coalitions inside them, and the boundary is
+not recoverable from each element's own coupling taken alone.
 
 The graded law gives configurational theory something it has lacked: cores and peripheries as computed
 causal structure. A configuration is not a flat set of equally constitutive elements. It has a center of
@@ -273,6 +356,18 @@ reversal story captures it, because nothing that formation built was removed.
 elements acquire a causal path around it — when what the element uniquely carried can reach its
 destinations another way. The element stays present, connected, often still busy; the complex closes
 without it. Disintermediation is this operator at economic scale.
+
+Five design moves on a strict-mediation triad relocate the core in specific directions, and each
+names one of these operators at organizational scale. Making a counterpart substitutable thins the
+core to the worker and the mediator. Tilting the determination toward an owner hollows it to the
+system and its owner, writing both transacting parties out of the coordination they nominally use.
+Restoring contestability to a worker bound to an uncontestable commit writes her out of the core
+while freeing her from it. Decoupling a dashboard from the committing determination captures her in a
+display loop that is its own irreducible pair yet holds neither the commit nor the counterpart she
+must reach. Opening the direct channel between the parties writes the platform out. The moves are
+asymmetric: opening the channel evicts the platform, extraction evicts both parties, substitutability
+evicts the substitutable element, and contestability and decoupling relocate the worker in opposite
+welfare directions while the structure records only who is bound.
 
 **Constraint-lifting.** The third operator is the deepest, and it forces a distinction the tradition
 needs. Ask of any element in a configuration's core: is it there because of the integrating work it
@@ -353,13 +448,20 @@ partition: who is bound, who is separable.
 
 For configurational theorizing the consolidation carries a specific lesson. The tradition has treated
 its kinship with systems thinking, complexity science, and relational sociology as an affinity of
-sensibility (Kimsey et al., 2025; Emirbayer, 1997). At least at the foundation, the kinship is
-identity: relational sociology's claim that entities are constituted by their transactions is, on any
-model definite enough to compute, the claim that the transaction structure does not factor — and that
-claim is the same one cooperative game theory, platform economics, and bargaining theory each test in
-their own corner. One formal lens returns all of the verdicts at once, and names the core besides. That
-is the kind of theoretical economy a pluralist field can actually use (Cornelissen, Höllerer & Seidl,
-2021): the traditions keep their questions and their vocabularies, and share a criterion.
+sensibility (Kimsey et al., 2025; Emirbayer, 1997). Systems perspectives name wholes, feedback, and
+emergence; configurational theorizing names combinations and conjunctures. At the foundation the
+distinction collapses into identity: relational sociology's claim that entities are constituted by their
+transactions is, on any model definite enough to compute, the claim that the transaction structure does
+not factor — and that claim is the same one cooperative game theory, platform economics, and bargaining
+theory each test in their own corner. Kimsey et al. (2025) ask organization studies to move from
+ceremonial to meaningful use of systems thinking; the present account supplies one meaningful use at the
+foundation, a partition test that says when a named whole is one causal unity rather than a heap of
+coupled parts. Emirbayer's (1997) relational constitution and Tsoukas's (2017) conjunctive theorizing
+name the commitment from the sociological and epistemic sides; the irreducibility criterion states it as
+a computable property of a definite model. One formal lens returns the verdicts at once, and names the
+core besides. That is the kind of theoretical economy a pluralist field can actually use (Cornelissen,
+Höllerer & Seidl, 2021): the traditions keep their questions and their vocabularies, and share a
+criterion.
 
 The division of labour with set-analytic method deserves its own statement, because the two run at
 different levels and the difference is generative. QCA finds, across cases, which combinations of
@@ -427,14 +529,21 @@ configurations of the platform economy, where the call locates some of the field
 which are held gates; which human-AI assemblages bind their humans into the core, and which merely
 surround them with machinery; what falls when a given constraint — a data moat, an exclusive, a
 regulatory license — lapses. The operators of section 5 are the hypotheses; the arrangements are
-everywhere.
+everywhere. On provisional models of documented platform forms, the membership reading already
+separates cases the surface description does not. Strict-mediation ride-hailing holds the dispatcher in
+the core with all three parties bound; a partial-mediation marketplace that matches parties and steps
+back places the irreducible coordination in the worker–counterpart pair and leaves the platform outside
+the core. The contrast is a boundary verdict — inside the coordinating whole or spectator to it — not a
+band on a coupling scale. That reading turns the platform-economy agenda into a question of which
+positions integrate and which merely constrain.
 
 Configurational theorizing began from a conviction that wholes are real: that combination, relation, and
-interdependency constitute organizational phenomena. The conviction was right, and it deserves more than
-reassertion. It deserves a foundation — a criterion for when a combination is a whole, an account of who
-belongs to it, a theory of how it comes apart — and the foundation exists, built with full rigor in a
-neighbouring science and available for the price of a translation. This essay has made the translation.
-The wholes of configurational theory can now be told from the heaps.
+interdependency constitute organizational phenomena. The conviction was right. It deserves a foundation
+— a criterion for when a combination is a whole, an account of who belongs to it, a theory of how it
+comes apart — and the foundation exists, built with full rigor in a neighbouring science and available
+for the price of a translation. Constitution, membership, and dissolution are now stated as concepts
+configurational scholarship can use with or without the borrowed formalism. The wholes of
+configurational theory can be told from the heaps.
 
 ---
 
