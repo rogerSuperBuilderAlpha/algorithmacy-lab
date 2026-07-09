@@ -1,11 +1,11 @@
 # Online supplement — When is a combination a configuration?
 
-*Companion to `ot_configurational_nature_2027_manuscript.md`. Every table below is generated from the
-lab's committed sources (question q215 and the irreducibility-catalog study), not transcribed by hand.
-Reproduction: the q215 probe re-derives every Φ value in Part A (`python -m
-org_frontier.questions.q215_phi_family_robustness.probe_phi_family_robustness`; registered as CI check
-`q215-phi-family-robustness`); the catalog study re-derives Part B (`python -m
-org_frontier.studies.irreducibility_catalog.build_catalog`).*
+*Companion to the manuscript. Every table below is generated from the replication package's committed
+sources, not transcribed by hand: Part A from the two-measure robustness computation, Part B from the
+intermediary-catalog study, Part C from the encoding-sensitivity demonstration, Part D from the
+coordination-logic atlas, and Part E from the membership-law battery and the integration-game
+computation. Commands to re-derive each part accompany the replication package (see the final
+section).*
 
 ## Part A — the manuscript's model forms: rules, transitions, and Φ under two measures
 
@@ -282,8 +282,298 @@ Entries whose computed class differs from the coded expectation: none (a pipelin
 
 ## Part C — the ten-case encoding-sensitivity demonstration
 
-The four-of-ten verdict-flip figure cited in sections 2 and 7 comes from the lab's encoding-sensitivity
-demonstration on ten stylized organizational cases, each modeled twice under defensible alternative
-rule encodings; the demonstration and per-case rules are maintained with the field-reading program's
-records and will be included in the submission package.
+Ten stylized organizational arrangements, each encoded as a small Boolean form with the prediction
+fixed before computation; five carry a second, equally defensible encoding of the same story (the
+sensitivity variant). Four of the ten flip verdict between the two encodings — the figure the
+manuscript cites. The rules are stipulated to demonstrate the protocol's mechanics, not elicited from
+field evidence, and the transition tables below are generated from the same committed rules that
+produced the verdicts.
+
+| id | arrangement | parties | base verdict (Φ) | sensitivity variant | variant verdict | flips |
+|---|---|---|---|---|---|---|
+| M1 | Ride-hail dispatch | D P R | triadic (Φ=2.0) | substitutable drivers | dyadic | True |
+| M2 | Relay manager | W1 M W2 | dyadic (Φ=0.0) | synthesizing manager | triadic | True |
+| M3 | Substitutable-seller marketplace | B P S1 S2 | dyadic (Φ=0.0) | specialized seller | triadic | True |
+| M4 | CI code-review gate | A G M | triadic (Φ=1.0) | — | — | — |
+| M5 | EHR shift handoff | N1 E N2 | dyadic (Φ=0.0) | active-checklist EHR | triadic | True |
+| M6 | Franchise with ratings feedback | F S C | triadic (Φ=2.0) | — | — | — |
+| M7 | Algorithmic ranking | Cr A Ad | triadic (Φ=2.0) | — | — | — |
+| M8 | Support-ticket triage | Cu T Ag | triadic (Φ=2.0) | — | — | — |
+| M9 | Grievance arbitration | W Ar E | triadic (Φ=2.0) | — | — | — |
+| M10 | ERP / EDI supply link | Su ERP Bu | dyadic (Φ=0.0) | — | — | — |
+
+Transition tables (base encoding, and the variant where one exists):
+
+**M1 — Ride-hail dispatch** (base encoding)
+
+| state (D,P,R) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 000 | no |
+| 010 | 101 | yes |
+| 110 | 101 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M1 — variant: substitutable drivers** (If any available driver is interchangeable (the platform reads a pool via OR), no single driver is pivotal and the arrangement factors — the worker dissolves into the pool.)
+
+| state (D1,D2,P,R) | next | reachable |
+|---|---|---|
+| 0000 | 0000 | yes |
+| 1000 | 0000 | no |
+| 0100 | 0000 | no |
+| 1100 | 0000 | no |
+| 0010 | 1101 | yes |
+| 1010 | 1101 | no |
+| 0110 | 1101 | no |
+| 1110 | 1101 | no |
+| 0001 | 0000 | no |
+| 1001 | 0010 | no |
+| 0101 | 0010 | no |
+| 1101 | 0010 | yes |
+| 0011 | 1101 | no |
+| 1011 | 1111 | no |
+| 0111 | 1111 | no |
+| 1111 | 1111 | yes |
+
+**M2 — Relay manager** (base encoding)
+
+| state (W1,M,W2) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 010 | no |
+| 010 | 101 | yes |
+| 110 | 111 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M2 — variant: synthesizing manager** (A manager who commits a decision that needs both reports (M = W1 ∧ W2, both read M) binds the workers; one who only forwards does not. The verdict turns on whether the manager commits a determination neither worker controls.)
+
+| state (W1,M,W2) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 000 | no |
+| 010 | 101 | yes |
+| 110 | 101 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M3 — Substitutable-seller marketplace** (base encoding)
+
+| state (B,P,S1,S2) | next | reachable |
+|---|---|---|
+| 0000 | 0000 | yes |
+| 1000 | 0000 | no |
+| 0100 | 1011 | yes |
+| 1100 | 1011 | no |
+| 0010 | 0000 | no |
+| 1010 | 0100 | no |
+| 0110 | 1011 | no |
+| 1110 | 1111 | no |
+| 0001 | 0000 | no |
+| 1001 | 0100 | no |
+| 0101 | 1011 | no |
+| 1101 | 1111 | no |
+| 0011 | 0000 | no |
+| 1011 | 0100 | yes |
+| 0111 | 1011 | no |
+| 1111 | 1111 | yes |
+
+**M3 — variant: specialized seller** (If the buyer needs a particular seller (no substitute), the same platform reads triadic. Substitutability, not the platform, is what made it dyadic.)
+
+| state (B,P,S) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 000 | no |
+| 010 | 101 | yes |
+| 110 | 101 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M4 — CI code-review gate** (base encoding)
+
+| state (A,G,M) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 010 | yes |
+| 010 | 000 | yes |
+| 110 | 011 | no |
+| 001 | 000 | no |
+| 101 | 010 | no |
+| 011 | 100 | yes |
+| 111 | 111 | yes |
+
+**M5 — EHR shift handoff** (base encoding)
+
+| state (N1,E,N2) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 010 | no |
+| 010 | 101 | yes |
+| 110 | 111 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M5 — variant: active-checklist EHR** (A record that gates the handoff on a checklist both nurses must complete (E = N1 ∧ N2) commits a determination neither controls; a passive store does not.)
+
+| state (N1,E,N2) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 000 | no |
+| 010 | 101 | yes |
+| 110 | 101 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M6 — Franchise with ratings feedback** (base encoding)
+
+| state (F,S,C) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 001 | yes |
+| 010 | 100 | no |
+| 110 | 101 | no |
+| 001 | 000 | yes |
+| 101 | 011 | yes |
+| 011 | 100 | yes |
+| 111 | 111 | yes |
+
+**M7 — Algorithmic ranking** (base encoding)
+
+| state (Cr,A,Ad) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 000 | no |
+| 010 | 101 | yes |
+| 110 | 101 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M8 — Support-ticket triage** (base encoding)
+
+| state (Cu,T,Ag) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 010 | yes |
+| 010 | 001 | yes |
+| 110 | 011 | yes |
+| 001 | 100 | yes |
+| 101 | 110 | yes |
+| 011 | 101 | yes |
+| 111 | 111 | yes |
+
+**M9 — Grievance arbitration** (base encoding)
+
+| state (W,Ar,E) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 000 | no |
+| 010 | 101 | yes |
+| 110 | 101 | no |
+| 001 | 000 | no |
+| 101 | 010 | yes |
+| 011 | 101 | no |
+| 111 | 111 | yes |
+
+**M10 — ERP / EDI supply link** (base encoding)
+
+| state (Su,ERP,Bu) | next | reachable |
+|---|---|---|
+| 000 | 000 | yes |
+| 100 | 001 | no |
+| 010 | 000 | no |
+| 110 | 001 | yes |
+| 001 | 110 | yes |
+| 101 | 111 | no |
+| 011 | 110 | no |
+| 111 | 111 | yes |
+
+## Part D — the quorum sweep and the manuscript's other atlas forms, with cores
+
+From the coordination-logic atlas (fifty exactly solved forms, predictions fixed per form before
+computation). Rows below are the forms the manuscript's section 3 uses: the full quorum sweep at two
+to five parties, the rotation, and the one-sided veto, with each form's maximal complex (core) — the
+membership information Part A's whole-system values do not carry. Verdicts here are the IIT 4.0
+measure.
+
+| atlas id | form | predict | binds | core | core Φ | whole-system Φ |
+|---|---|---|---|---|---|---|
+| A21 | 2-party k=1-of-2 | triadic | True | P0P1S | 2.000 | 2.000 |
+| A22 | 2-party k=2-of-2 | triadic | True | P0P1S | 2.000 | 2.000 |
+| A31 | 3-party k=1-of-3 | triadic | True | P0P1P2S | 3.000 | 3.000 |
+| A32 | 3-party k=2-of-3 | dyadic | False | — | 0.000 | 0.000 |
+| A33 | 3-party k=3-of-3 | triadic | True | P0P1P2S | 3.000 | 3.000 |
+| A41 | 4-party k=1-of-4 | triadic | True | P0P1P2P3S | 4.000 | 4.000 |
+| A42 | 4-party k=2-of-4 | dyadic | False | — | 0.000 | 0.000 |
+| A43 | 4-party k=3-of-4 | dyadic | False | — | 0.000 | 0.000 |
+| A44 | 4-party k=4-of-4 | triadic | True | P0P1P2P3S | 4.000 | 4.000 |
+| A51 | 5-party k=1-of-5 | triadic | True | P0P1P2P3P4S | 5.000 | 5.000 |
+| A53 | 5-party k=3-of-5 | dyadic | False | — | 0.000 | 0.000 |
+| A55 | 5-party k=5-of-5 | triadic | True | P0P1P2P3P4S | 5.000 | 5.000 |
+| B10 | directed cycle (pure copy ring, no AND) | dyadic | True | ABCD | 2.000 | 2.000 |
+| D1 | veto (S = W AND NOT C) | triadic | True | WS | 2.000 | 0.000 |
+
+## Part E — membership law, the integration game, and the coalition exhibit
+
+**Membership law (core-membership battery, committed run).** Necessity: across the enumerated family
+of 660 strict-mediation three-party forms, 0/660 elements lacking bidirectional coupling entered the
+major complex; the strict family's triadic rate is 9.5% (the manuscript's 'on the order of a tenth').
+The graded half comes from the battery's broader unconstrained random three-node family: inclusion in
+the core by influence bucket runs 38.9% (≈ four in ten) at influence ≈ 0.25 through 57.9% and 73.7% to
+87.5% (≈ nine in ten) at influence ≈ 1.00, rank-AUC 0.629. The two families are distinct and the
+manuscript attributes each half to its own family.
+
+**The integration game (worth function stated).** For a configuration modeled as network N at state s,
+the worth of coalition S is v(S) = max(0, Φ of the subsystem induced by S in N at s), with the
+complement nodes held as frozen background conditions at their values in s, and v(∅) = 0. Shapley
+values are computed exactly over all orderings. On the worked strict-mediation triad at state 111:
+
+| party | Shapley value | share of Φ = 2.0 |
+|---|---|---|
+| E | +0.333 | 17% |
+| M | +1.333 | 67% |
+| R | +0.333 | 17% |
+
+**The coalition exhibit (section 4).** Four elements (W, S, C1, C2), rules: W′ = S; S′ = W ∧ C1 ∧ C2;
+C1′ = S ∨ C2; C2′ = S ∨ C1. Every element is bidirectionally coupled and pivotal on a per-element
+screen; the exact maximal complex is {C1, C2} at Φ = 2.0, with W and S outside. Transition table:
+
+| state (W,S,C1,C2) | next | reachable |
+|---|---|---|
+| 0000 | 0000 | yes |
+| 1000 | 0000 | no |
+| 0100 | 1011 | no |
+| 1100 | 1011 | no |
+| 0010 | 0001 | yes |
+| 1010 | 0001 | no |
+| 0110 | 1011 | no |
+| 1110 | 1011 | no |
+| 0001 | 0010 | yes |
+| 1001 | 0010 | no |
+| 0101 | 1011 | no |
+| 1101 | 1011 | no |
+| 0011 | 0011 | yes |
+| 1011 | 0111 | yes |
+| 0111 | 1011 | yes |
+| 1111 | 1111 | yes |
+
+## Replication
+
+Each part re-derives from a committed script in the replication package; the package's README maps
+part to command. All computations are exact; the two-measure comparison in Part A additionally runs
+as a continuous-integration check on the package repository.
 
