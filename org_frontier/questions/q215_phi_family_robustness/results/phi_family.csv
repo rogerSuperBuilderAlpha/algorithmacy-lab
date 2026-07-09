@@ -1,0 +1,68 @@
+form,name,state,phi_iit40,phi_iit30
+CTRL+,read-recipient triad,000,0.0,0.4150374992788
+CTRL+,read-recipient triad,010,0.0,1.4150374992788
+CTRL+,read-recipient triad,101,0.0,2.5
+CTRL+,read-recipient triad,111,2.0,3.5
+CTRL-,two disjoint dyads,0000,0.0,0.0
+CTRL-,two disjoint dyads,1000,0.0,0.0
+CTRL-,two disjoint dyads,0100,0.0,0.0
+CTRL-,two disjoint dyads,1100,0.0,0.0
+CTRL-,two disjoint dyads,0010,0.0,0.0
+CTRL-,two disjoint dyads,1010,0.0,0.0
+CTRL-,two disjoint dyads,0110,0.0,0.0
+CTRL-,two disjoint dyads,1110,0.0,0.0
+CTRL-,two disjoint dyads,0001,0.0,0.0
+CTRL-,two disjoint dyads,1001,0.0,0.0
+CTRL-,two disjoint dyads,0101,0.0,0.0
+CTRL-,two disjoint dyads,1101,0.0,0.0
+CTRL-,two disjoint dyads,0011,0.0,0.0
+CTRL-,two disjoint dyads,1011,0.0,0.0
+CTRL-,two disjoint dyads,0111,0.0,0.0
+CTRL-,two disjoint dyads,1111,0.0,0.0
+E1,quorum 1-of-3,0000,3.0,6.25
+E1,quorum 1-of-3,1110,0.0,1.1926450779424
+E1,quorum 1-of-3,0001,0.0,5.25
+E1,quorum 1-of-3,1111,0.0,0.1926450779424
+E2,quorum 2-of-3,0000,0.0,1.2687968740986
+E2,quorum 2-of-3,1110,0.0,1.2687968740986
+E2,quorum 2-of-3,0001,0.0,1.2687968740986
+E2,quorum 2-of-3,1111,0.0,1.2687968740986
+E3,quorum 3-of-3,0000,0.0,0.1926450779424
+E3,quorum 3-of-3,1110,0.0,5.25
+E3,quorum 3-of-3,0001,0.0,1.1926450779424
+E3,quorum 3-of-3,1111,3.0,6.25
+E4,rotation (4-cycle of copyists),0000,2.0,2.0
+E4,rotation (4-cycle of copyists),1000,2.0,2.0
+E4,rotation (4-cycle of copyists),0100,2.0,2.0
+E4,rotation (4-cycle of copyists),1100,2.0,2.0
+E4,rotation (4-cycle of copyists),0010,2.0,2.0
+E4,rotation (4-cycle of copyists),1010,2.0,2.0
+E4,rotation (4-cycle of copyists),0110,2.0,2.0
+E4,rotation (4-cycle of copyists),1110,2.0,2.0
+E4,rotation (4-cycle of copyists),0001,2.0,2.0
+E4,rotation (4-cycle of copyists),1001,2.0,2.0
+E4,rotation (4-cycle of copyists),0101,2.0,2.0
+E4,rotation (4-cycle of copyists),1101,2.0,2.0
+E4,rotation (4-cycle of copyists),0011,2.0,2.0
+E4,rotation (4-cycle of copyists),1011,2.0,2.0
+E4,rotation (4-cycle of copyists),0111,2.0,2.0
+E4,rotation (4-cycle of copyists),1111,2.0,2.0
+E5,one-sided veto (lockstep),000,0.0,0.4150374992788
+E5,one-sided veto (lockstep),010,0.0,1.4150374992788
+E5,one-sided veto (lockstep),101,0.0,0.4150374992788
+E5,one-sided veto (lockstep),111,0.0,1.4150374992788
+E6,"dispatch, full triad",000,0.0,0.0
+E6,"dispatch, full triad",100,0.0,0.0
+E6,"dispatch, full triad",010,0.0,0.4150374992788
+E6,"dispatch, full triad",101,0.0,2.0
+E6,"dispatch, full triad",111,2.0,2.4150374992788
+E7,"dispatch, rider dropped",000,0.0,0.0
+E7,"dispatch, rider dropped",100,0.0,0.0
+E7,"dispatch, rider dropped",010,0.0,0.0
+E7,"dispatch, rider dropped",110,0.0,0.0
+E7,"dispatch, rider dropped",101,0.0,0.0
+E7,"dispatch, rider dropped",111,0.0,0.0
+E8,"maximal wiring (6 edges, no constants)",000,0.0,0.6917291654647
+E8,"maximal wiring (6 edges, no constants)",001,0.0,0.2766916661859
+E8,"maximal wiring (6 edges, no constants)",101,0.0,0.2766916661859
+E8,"maximal wiring (6 edges, no constants)",011,0.0,0.2766916661859
