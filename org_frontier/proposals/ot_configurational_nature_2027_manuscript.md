@@ -590,9 +590,10 @@ configurational theorizing and illustrated on models small enough to solve exact
 **Encoding is a theoretical commitment, and a political one.** A model is an encoding of an arrangement,
 and the verdict can turn on it, as the ten-case demonstration in section 2 showed: four of the ten
 flipped under a defensible re-encoding of their rules. The discipline this calls for is to state the
-load-bearing rules and report the verdict with its sensitivity (full transition rules for every exhibit
-in this essay belong in an online supplement, alongside the catalog's coding rules), and the sensitivity
-is informative in its own right, because it locates which rule carries the constitution. Configurational
+load-bearing rules and report the verdict with its sensitivity (the online supplement gives every
+exhibit's full transition table, its per-state Φ under both measures, and the catalog's coding rules),
+and the sensitivity is informative in its own right, because it locates which rule carries the
+constitution. Configurational
 theory should want to know that a whole hangs on whether sign-off is joint or sequential. But the flip
 result also belongs to the section's second theme, not only to the methods appendix. If the verdict about
 who is bound turns on the model of the joint determination, then whoever's description of the arrangement
