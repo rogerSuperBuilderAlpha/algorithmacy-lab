@@ -199,9 +199,15 @@ Integrated information has been formalized more than once (IIT 3.0, Oizumi et al
 Albantakis et al., 2023), the variants can disagree on a given model, and Φ is a function of the system's
 state as well as its rules. Every verdict this essay reports uses one operationalization: IIT 4.0's
 system-level measure, computed exactly in the PyPhi toolbox (Mayner et al., 2018), each model evaluated at
-a stated state. A verdict is therefore a property of the triple (model, measure, state), and the essay
-claims robustness across encodings of an arrangement only where it tests it (section 7), and claims no
-robustness across the wider family of Φ measures. That scoping is what Davis, Eisenhardt and Bingham
+a stated state. A verdict is therefore a property of the triple (model, measure, state), and the
+dependence on the measure was tested rather than assumed. Recomputing the headline forms under IIT 3.0 on
+identical models and states, every verdict of *binds* replicates, as do the factorings by disconnection or
+by an ignored party; the three subtle factorings — the interior quorum, the synchronized veto, the maximal
+wiring — do not, because IIT 3.0 registers residual structure there as positive Φ. The choice of the 4.0
+measure is therefore substantive, and it has a reason: a constitution criterion needs zeros, and the 4.0
+partition family includes exactly the party-respecting cuts that detect substitutability. Where this essay
+says *binds*, the claim is family-robust; where it says *factors* against appearances, the claim is about
+the minimum-information partition, and is flagged as such. That scoping is what Davis, Eisenhardt and Bingham
 (2007) ask of simulation as theory-building: a small, transparent formal model is an instrument for
 developing theory, its worth in the mechanisms it exposes rather than in any claim to measure the world.
 The models small enough to compute turn out to be large enough to think with. The illustrations below are
