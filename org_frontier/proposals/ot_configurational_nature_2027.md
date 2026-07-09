@@ -203,13 +203,17 @@ demotion of the apparatus.
 - **The closing agenda.** §7 now carries the Miles & Snow / Mintzberg re-reading line plus a worked
   strict- vs partial-mediation contrast under *Map the constraints*. Further typology modeling remains
   open work, not blocking submission polish.
-- **Novelty check.** Stage-2 deep research must confirm no prior paper has brought IIT to configurational
-  organization theory. The lab's landscape scan (`landscape/`) found no such use, and Kimsey et al.
-  (2025) on systems thinking is adjacent; the manuscript positions against it in §6.
-- **Title form.** Question vs declarative alternative still open.
-- **Abstract.** Aligned with revised manuscript; trim to journal word limit before submission.
-- **Internal committee review.** Adversarial pass and house-style self-check on the full revised draft
-  remain before submission.
+- **Novelty check.** *(Stated in the cover letter, 2026-07-09.)* The lab's landscape scan (`landscape/`)
+  found no prior IIT-to-organization-theory use; Kimsey et al. (2025) is the adjacent work and the
+  manuscript positions against it in §6. An optional stage-2 deep-research confirmation can still run
+  before submission.
+- **Title form.** *(Decided 2026-07-09.)* Question form. Rationale recorded in the cover letter draft.
+- **Abstract.** Aligned; 214 words.
+- **Internal committee review.** *(Done, and then some.)* Three ten-seat panels (`reviews/`,
+  `reviews_vega/`, `reviews_fable/`), two revision rounds, an adversarial verification of the round-2
+  fixes (`reviews_fable/VERIFY_ROUND2.md`), the Q215 Φ-family robustness computation, a generated
+  online supplement, and a fourth final-gate panel (`reviews_final/`).
+- **APC.** $1,000, discounted to $750 as of July 2026 (SAGE OTT guidelines). Maintainers' call.
 
 ## Scope discipline and risks
 
