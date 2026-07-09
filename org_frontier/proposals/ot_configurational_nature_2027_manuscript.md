@@ -18,8 +18,8 @@ its elements. The theory's complex names membership, pivotality grades cores and
 dissolution proceeds by substitution, bypass, or constraint-lifting, operators that make disorganizing
 more than organizing run backwards. The constraint operator distinguishes necessary irreducibility, where
 an element does integrating work the others cannot reproduce, from contingent irreducibility, where power
-holds it in place by forbidding the others to meet. The same verdict recurs across four other literatures
-in different vocabularies, one correspondence with computation behind it. The criterion complements
+holds it in place by forbidding the others to meet. Kindred tests recur across four other literatures in
+their own vocabularies, one of them an exact decomposition of Φ itself. The criterion complements
 set-analysis rather than competing with it: across-case regularity from one, within-case constitution
 from the other. Small Boolean models illustrate throughout; the essay is theory, and the models are its
 microscope.
@@ -198,9 +198,10 @@ One specification note, because the theory comes in versions and the verdicts de
 Integrated information has been formalized more than once (IIT 3.0, Oizumi et al., 2014; IIT 4.0,
 Albantakis et al., 2023), the variants can disagree on a given model, and Φ is a function of the system's
 state as well as its rules. Every verdict this essay reports uses one operationalization: IIT 4.0's
-system-level measure, computed exactly in the PyPhi toolbox (Mayner et al., 2018), each model evaluated at
-a stated state. A verdict is therefore a property of the triple (model, measure, state), and the
-dependence on the measure was tested rather than assumed. Recomputing the headline forms under IIT 3.0 on
+system-level measure, computed exactly in the PyPhi toolbox (Mayner et al., 2018), each model evaluated
+over its reachable states, a verdict of *binds* meaning positive Φ at some reachable state. A verdict is
+therefore a property of the model, the measure, and the states evaluated, and the dependence on the
+measure was tested rather than assumed. Recomputing the headline forms under IIT 3.0 on
 identical models and states, every verdict of *binds* replicates, as do the factorings by disconnection or
 by an ignored party; the three subtle factorings — the interior quorum, the synchronized veto, the maximal
 wiring — do not, because IIT 3.0 registers residual structure there as positive Φ. The choice of the 4.0
@@ -247,9 +248,9 @@ enough signals, an alarm that trips on two sensors of three. Every party is read
 party reads the outcome back. Interaction density is maximal, and every surrogate in section 1 scores
 this arrangement as configured. The computation says otherwise, and with a sharp boundary: the quorum
 system is irreducible at exactly two thresholds, unanimity (*k = n*) and any-one (*k = 1*), and factors
-at every interior threshold. A majority gate among three parties has Φ of zero, and the collapse admits
-no gradient — interior thresholds yield nothing, while either extreme binds the full party set into the
-core. The mechanism is substitutability, and it needs stating carefully, because a voting theorist will
+at every interior threshold — computed for every threshold at three, four, and five parties. A majority
+gate among three parties has Φ of zero, and the collapse admits no gradient: interior thresholds yield
+nothing, while either extreme binds the full party set into the core. The mechanism is substitutability, and it needs stating carefully, because a voting theorist will
 rightly object that majority members are pivotal in the voting sense: in a two-of-three majority each
 member is decisive in a third of the orderings, and no member is a dummy. That is pivotality to the
 *outcome*. What the partition reads is sensitivity to *identity*: at an interior threshold the commit
@@ -419,8 +420,8 @@ Three operators fall out of the criterion, one from each preceding section.
 **Substitution.** Section 3's quorum result, read dynamically. A configuration dissolves when its
 elements become substitutable for one another — when the joint determination that once needed each of
 them individually comes to need only enough of them. Nothing visible changes: no tie is cut, no element
-exits, the wiring diagram is untouched. The threshold moves off its extreme, pivotality goes to zero,
-and the whole factors. Growth alone can do it: an arrangement that binds at "everyone must sign off"
+exits, the wiring diagram is untouched. The threshold moves off its extreme, the determination's
+sensitivity to each element as that element goes to zero, and the whole factors. Growth alone can do it: an arrangement that binds at "everyone must sign off"
 dissolves as a configuration the day sign-off becomes two-of-three. This is dissolution by slack, and no
 reversal story captures it, because nothing that formation built was removed.
 
@@ -541,7 +542,7 @@ own vocabularies.
 |---|---|---|---|
 | IIT (Albantakis et al., 2023) | element of the complex | excluded element | minimum-information partition |
 | Cooperative game theory (Shapley, 1953) | pivotal player | null player | average marginal contribution |
-| Platform economics (Rochet & Tirole, 2003; Armstrong, 2006) | unbypassable bottleneck | bypassable route | disintermediation / single-homing |
+| Platform economics (Rochet & Tirole, 2003; Gu & Zhu, 2021) | unbypassable bottleneck | bypassable route | disintermediation / leakage |
 | Bargaining theory (Binmore, Shaked & Sutton, 1989) | party without a binding outside option | party whose outside option binds | the outside-option principle |
 | Communication theory (Hancock, Naaman & Levy, 2020; Kellogg, Valentine & Christin, 2020) | a system that commits | a system that transmits or transforms | the transmit / transform / commit ladder |
 
@@ -590,8 +591,9 @@ configurational theorizing and illustrated on models small enough to solve exact
 **Encoding is a theoretical commitment, and a political one.** A model is an encoding of an arrangement,
 and the verdict can turn on it, as the ten-case demonstration in section 2 showed: four of the ten
 flipped under a defensible re-encoding of their rules. The discipline this calls for is to state the
-load-bearing rules and report the verdict with its sensitivity (the online supplement gives every
-exhibit's full transition table, its per-state Φ under both measures, and the catalog's coding rules),
+load-bearing rules and report the verdict with its sensitivity (the online supplement gives full
+transition tables and per-state Φ under both measures for the constitution exhibits, together with the
+catalog's coding rules),
 and the sensitivity is informative in its own right, because it locates which rule carries the
 constitution. Configurational
 theory should want to know that a whole hangs on whether sign-off is joint or sequential. But the flip
@@ -670,8 +672,6 @@ Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W.,
 Zaeemzadeh, A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., &
 Tononi, G. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal
 existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465.
-
-Armstrong, M. (2006). Competition in two-sided markets. *RAND Journal of Economics*, 37(3), 668–691.
 
 Baldwin, C. Y., & Clark, K. B. (2000). *Design Rules: The Power of Modularity*. MIT Press.
 

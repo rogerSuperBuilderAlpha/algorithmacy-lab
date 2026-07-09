@@ -208,9 +208,12 @@ Rules: W′ = ¬(S ∨ C);  S′ = ¬W ∧ C;  C′ = ¬(W ∧ S)
 
 Each entry is a real or stylized coordination arrangement with a mediating third, coded to one of four
 structural templates and classified by the bypass-counterfactual (restore the forbidden direct tie,
-recompute, read whether the mediator stays in the core). The `expected` column is the pre-registered
-prediction, fixed before classification ran; `class` and `margin` (whole-system Φ lost when the bypass
-opens) are the computed result. Coding rule for `expected`: an entry is coded *contingent* when an
+recompute, read whether the mediator stays in the core). The `expected` column records the coding;
+`class` and `margin` (whole-system Φ lost when the bypass opens) are the computed result. Because the
+computed class follows the structural template by construction — margin is constant within a template —
+agreement between coding and classification checks the pipeline's consistency, not a prediction. The
+catalog's contribution is the coding itself: which real constraint holds which arrangement in which
+template. Coding rule for `expected`: an entry is coded *contingent* when an
 identifiable external constraint (statute, license, exclusive contract, standard, friction) is the only
 stated reason the parties cannot transact directly; *necessary* when the mediator computes a joint
 condition the direct tie cannot reproduce; *partial* when a direct channel already runs alongside the
@@ -275,7 +278,7 @@ Fields coded per entry: `bypass`, `constraint`, `constraint_type`, `domain`, `ex
 | 51 | retail_middleman_dtc | retail | free | none (DTC brands) | reducible | reducible | 0.000 |
 
 Class tally: contingent=25, necessary=13, partial=7, reducible=6 (n = 51).
-Entries whose computed class differs from the pre-registered expectation: none.
+Entries whose computed class differs from the coded expectation: none (a pipeline-consistency check; see the note above on why agreement is expected by construction).
 
 ## Part C — the ten-case encoding-sensitivity demonstration
 
