@@ -1,9 +1,9 @@
 # When is a combination a configuration? Integrated information and the constitution of organizational wholes
 
-*Draft manuscript for the Organization Theory Special Themed Section "Theorizing the Configurational
-Nature of Organizational Phenomena" (Catalysing & Crystallizing). Companion planning document:
-[`ot_configurational_nature_2027.md`](ot_configurational_nature_2027.md). Every number cited as an
-illustration is exactly computed and reproduces from the model's stated encoding.*
+*Manuscript for the Organization Theory Special Themed Section "Theorizing the Configurational Nature
+of Organizational Phenomena" (Catalysing & Crystallizing). Every number cited as an illustration is
+exactly computed and reproduces from its stated encoding; the online supplement holds the transition
+tables, per-state values, and coding rules.*
 
 ## Abstract
 
@@ -39,9 +39,10 @@ test to translate.
 Configurational theorizing has long rested on the presupposition without stating it. An organization,
 an institutional arrangement, a strategy is a whole whose character lives in the combination of its
 elements: the elements do their causal work jointly, and the whole behaves in ways no element-by-element
-account captures. Miller (1986, 1996) called
-such wholes gestalts and argued that a small number of coherent configurations, rather than a continuum
-of independent attribute values, populates the organizational world. Meyer, Tsui and Hinings (1993)
+account captures. Miller first called
+such wholes gestalts (Miller, 1981; Miller & Friesen, 1984) and argued that a small number of coherent
+configurations, rather than a continuum of independent attribute values, populates the organizational
+world (Miller, 1986, 1996). Meyer, Tsui and Hinings (1993)
 defined the program by exactly this commitment: parts take their meaning from the whole, and the whole
 demands simultaneous, holistic analysis. The typologists built the canonical wholes (Miles and Snow's
 1978 defenders and prospectors, Mintzberg's 1979 machine bureaucracies and adhocracies), and Doty and
@@ -58,8 +59,8 @@ what binds them.
 
 The tradition has formalized parts of the claim, and formalized them well, but not its within-case core.
 Set-analytic method states constitution at the level of the outcome: Ragin's (1987, 2008) truth tables
-and Fiss's (2007, 2011) fuzzy sets say precisely when a combination of conditions is jointly sufficient
-for a result across a sample of cases. Complementarity states it as returns, elements configured when
+and Fiss's (2007, 2011) fuzzy sets say when a combination of conditions is quasi-sufficient for a result
+across a sample of cases, at stated consistency and coverage thresholds. Complementarity states it as returns, elements configured when
 each raises the others' marginal value (Milgrom & Roberts, 1990, 1995). Fit states it as matching,
 internal and environmental (Drazin & Van de Ven, 1985; Siggelkow, 2001, 2002). The NK program states it
 as tunable interaction density on a fitness landscape (Levinthal, 1997; Rivkin, 2000), and Simon (1962)
@@ -72,9 +73,11 @@ question is the gap this essay addresses, and set-analysis is its complement, no
 
 Platform and contract scholarship reaches the same problem from another direction. Thompson (1967) named
 the mediating technology, the unit whose work is to link parties who would otherwise transact directly,
-and platform research has mapped its modern form in detail: each clause in a composite arrangement has a
-bilateral rationale, a termination-at-will term, a rating hostage, a unilateral price, and the economics
-explains them pair by pair. What the pairwise account leaves open is the configuration, the clauses
+and platform research has mapped its modern form in detail. Much of the economics explains a composite
+arrangement clause by clause (a termination-at-will term, a rating hostage, a unilateral price, each
+with its bilateral rationale), though two-sided-market theory already treats one property, the price
+structure, as non-decomposable across the sides (Rochet & Tirole, 2003). What the clause-by-clause
+account leaves open is the configuration, the clauses
 operating jointly as one apparatus across the ownership boundary rather than as stacked bilateral
 contracts. Configurational theorizing names that whole; what it has not settled is when the joint
 apparatus is one configuration and when it factors into smaller pieces.
@@ -199,16 +202,23 @@ Integrated information has been formalized more than once (IIT 3.0, Oizumi et al
 Albantakis et al., 2023), the variants can disagree on a given model, and Φ is a function of the system's
 state as well as its rules. Every verdict this essay reports uses one operationalization: IIT 4.0's
 system-level measure, computed exactly in the PyPhi toolbox (Mayner et al., 2018), each model evaluated
-over its reachable states, a verdict of *binds* meaning positive Φ at some reachable state. A verdict is
-therefore a property of the model, the measure, and the states evaluated, and the dependence on the
-measure was tested rather than assumed. Recomputing the headline forms under IIT 3.0 on
+over its reachable states, a verdict of *binds* meaning positive Φ at some reachable state. The
+existential reading is deliberate: the criterion asks whether the arrangement can constitute one whole,
+and which states carry the constitution is itself structure: the dispatch triad of section 3 binds
+where a driver is available and a rider waits, which is when there is a coordination to
+constitute. A verdict is therefore a property of the model, the measure, and the states evaluated, and
+we tested rather than assumed the dependence on the measure. Recomputing the headline forms under IIT 3.0 on
 identical models and states, every verdict of *binds* replicates, as do the factorings by disconnection or
 by an ignored party; the three subtle factorings — the interior quorum, the synchronized veto, the maximal
 wiring — do not, because IIT 3.0 registers residual structure there as positive Φ. The choice of the 4.0
 measure is therefore substantive, and it has a reason: a constitution criterion needs zeros, and the 4.0
-partition family includes exactly the party-respecting cuts that detect substitutability. Where this essay
-says *binds*, the claim is family-robust; where it says *factors* against appearances, the claim is about
-the minimum-information partition, and is flagged as such. That scoping is what Davis, Eisenhardt and Bingham
+partition family includes the party-respecting cuts that detect substitutability. One could instead read
+the family's disagreement as a case for graded constitution; we keep the binary question because the
+tradition's claim — one whole or an aggregate — is binary, and gradation re-enters inside the criterion
+as Φ's magnitude and the core's pivotality profile. Where this essay says *binds*, the claim is
+family-robust; where it says *factors* against appearances (the interior quorum, the synchronized veto,
+the maximal wiring), the claim is about the minimum-information partition, and each carries that flag at
+the point of use. That scoping is what Davis, Eisenhardt and Bingham
 (2007) ask of simulation as theory-building: a small, transparent formal model is an instrument for
 developing theory, its worth in the mechanisms it exposes rather than in any claim to measure the world.
 The models small enough to compute turn out to be large enough to think with. The illustrations below are
@@ -247,8 +257,9 @@ difference is the point. Five results on small models, each exactly computed, ma
 enough signals, an alarm that trips on two sensors of three. Every party is read by the mediator; every
 party reads the outcome back. Interaction density is maximal, and every surrogate in section 1 scores
 this arrangement as configured. The computation says otherwise, and with a sharp boundary: the quorum
-system is irreducible at exactly two thresholds, unanimity (*k = n*) and any-one (*k = 1*), and factors
-at every interior threshold — computed for every threshold at three, four, and five parties. A majority
+system is irreducible at two thresholds, unanimity (*k = n*) and any-one (*k = 1*), and factors
+at every interior threshold — computed for every threshold at three, four, and five parties, and one of
+the three partition-specific verdicts section 2 flags. A majority
 gate among three parties has Φ of zero, and the collapse admits no gradient: interior thresholds yield
 nothing, while either extreme binds the full party set into the core. The mechanism is substitutability, and it needs stating carefully, because a voting theorist will
 rightly object that majority members are pivotal in the voting sense: in a two-of-three majority each
@@ -280,7 +291,8 @@ description misleads in both directions: the busy quorum factors, the idle-looki
 **Wiring without constitution: synchronization.** A third result separates the criterion from the
 network surrogate specifically. A mediator that implements a one-sided veto — it acts when the worker is
 active and the counterpart does not object — wires the counterpart in bidirectionally, and the form
-still factors, because the dynamics drive the worker and counterpart into lockstep. Two parties that
+still factors (a partition-specific verdict; section 2), because the dynamics drive the worker and
+counterpart into lockstep. Two parties that
 always agree carry the information of one. The topology shows three parties; the cause-effect structure
 holds two. No inspection of the wiring diagram reveals this; the constraint structure has to be
 computed.
@@ -297,8 +309,8 @@ surrogate that counts parties or channels would miss it.
 **Density without constitution: maximal wiring.** A fifth result separates the criterion from the
 network surrogate at its limit. Consider a three-party arrangement with all six directed couplings
 active, strongly connected, with no constant rule — a topology every connection surrogate would score
-as maximally configured. The computation still factors. The determination can read both sides
-jointly and the reads can keep every party live, yet the cause-effect structure still admits a
+as maximally configured. The computation still factors, again as a partition-specific verdict. The determination can read both
+sides jointly and the reads can keep every party live, yet the cause-effect structure still admits a
 party-respecting partition that loses nothing. Connection density, interaction counts, and
 strongly-connected wiring mark traffic; they do not say whether the traffic binds the parties into
 one joint determination the partition cannot sever.
@@ -307,7 +319,8 @@ The criterion also puts a scale under one dimension of the coupling vocabulary. 
 1976) is the regime where partitions are cheap, tight coupling the regime where every partition is
 expensive, and Φ prices the cheapest cut. It scales coupling strength, not the whole of what Orton and
 Weick (1990) meant: their loose coupling is two-dimensional, pairing responsiveness with distinctiveness,
-and Φ speaks to the responsiveness axis alone. The NK landscape asks a different question again, how hard
+and Φ tracks the conjunction of the two rather than either alone: the synchronized veto below is
+responsiveness without distinctiveness, and it factors. The NK landscape asks a different question again, how hard
 a configuration is to reach by local search (Levinthal, 1997; Rivkin, 2000), not whether a given one is a
 single whole. Within the enumerated class of small mediated three-party models, the scale carries
 content: forms whose worker, mediator, and counterpart all bind into one irreducible whole are a
@@ -320,12 +333,15 @@ merely resembles it.
 The nearest ancestor of these results deserves his credit by name. Thompson (1967) did not just note
 interdependence; he ordered it within the single arrangement (pooled, sequential, reciprocal), which
 makes his typology a within-case account of how jointly a set of parts determines, the closest thing the
-classical canon has to the criterion itself. The computation honors the ordering and sharpens it. Pooled
-interdependence, contributions summed with each part substitutable, is the interior-threshold quorum: it
-factors. Reciprocal interdependence binds, as Thompson said. And the rotation shows the ordering's limit:
-a purely sequential chain, closed into a cycle, binds too: full constitution without a single reciprocal
-pair, a case the verbal typology has no slot for. The criterion is not the first within-case ordering of
-joint determination; it is the first with a decision procedure attached.
+classical canon has to the criterion itself. The computation cross-cuts his ordering rather than
+reproducing it. Pooled interdependence splits by threshold: pooled wiring binds at unanimity and at
+any-one, and factors at every interior count (the partition-specific verdict above). Sequential
+interdependence splits by closure: a one-way chain, whose elements feed forward and never read back,
+factors by the membership law's necessary half (section 4), while the same chain closed into a cycle
+binds in full, constitution without a single reciprocal pair. Reciprocal interdependence binds, as
+Thompson said. Each of his categories, under the criterion, contains both wholes and aggregates, which
+is what a decision procedure is for. The criterion is not the first within-case ordering of joint
+determination; it is the first with a test attached.
 
 What the criterion adds to the tradition, then, is that decision procedure at the foundation.
 Complementarity says elements raise each other's returns; fit says they match; interdependence says they
@@ -361,8 +377,8 @@ lacking bidirectional coupling entered the complex, which shows on organizationa
 requires in general (Albantakis et al., 2023). Spectators never belong, however well placed. The graded
 half is the informative one: among bidirectionally coupled elements, the probability of membership rises
 monotonically with the element's causal pivotality, the sensitivity of the joint determination to that
-element's state. Across the same enumerated set, membership climbs from roughly four in ten of the least
-pivotal elements to nine in ten of the most. Within the theory each complex is a definite set; taken over
+element's state. In the battery's broader family of unconstrained three-element models, membership
+climbs from roughly four in ten of the least pivotal elements to nine in ten of the most. Within the theory each complex is a definite set; taken over
 a class of forms, membership behaves as a graded quantity that pivotality predicts.
 
 The law has a holistic ceiling that matters for configurational theory. Membership is a property of
@@ -375,7 +391,10 @@ measure assigns membership correctly. Configurations have coalitions inside them
 not recoverable from each element's own coupling taken alone.
 
 The graded law gives configurational theory something it has lacked: cores and peripheries as computed
-causal structure. A configuration is not a flat set of equally constitutive elements. It has a center of
+causal structure. (The core–periphery here is causal membership within one arrangement, a different
+construct from Fiss's (2011) core versus peripheral *conditions*, which grades conditions by their
+standing in a cross-case solution; cousins, not synonyms.) A configuration is not a flat set of equally
+constitutive elements. It has a center of
 gravity — the elements the joint determination cannot ignore — and a fringe of elements that are coupled
 but substitutable, whose membership is fragile. The fringe is where configurations change first, and
 section 5 builds on exactly this.
@@ -393,9 +412,9 @@ a coherence result inside the borrowed apparatus rather than two disciplines agr
 starting points. What the translation buys is the accounting: marginal contribution is a currency
 organization theorists already spend, and the decomposition prices each element's share of the whole's
 integration: on the strict-mediation triad above, the mediator's share is two-thirds, each party's a
-sixth, which is a formal statement of where a mediated configuration's weight sits. The core/periphery
-reading this grounds is Siggelkow's (2002): core elements versus elaborating elements, here computed
-rather than narrated.
+sixth, which is a formal statement of where a mediated configuration's weight sits. The nearest canon
+reading is Siggelkow's (2002) distinction between core and elaborating elements — his developmental,
+this one partition-based, and the kinship is an analogy to test rather than an identity to assert.
 
 For empirical configurational research the membership account reframes a design decision as a
 theoretical variable. In QCA the analyst selects conditions; in network analysis the analyst nominates
@@ -411,9 +430,9 @@ concealing.
 
 How configurations come apart is the least theorized corner of the tradition, and the part of the call
 that asks whether disorganizing is organizing reversed (Quattrone & Zilber, 2025) marks the open
-question. The irreducibility account answers it with unusual directness: dissolution is not formation
-run backwards, because dissolution has its own operators, and none of them is the inverse of building a
-joint determination.
+question. The irreducibility account answers it directly: dissolution need not be formation run backwards.
+Severing a built tie is reversal, but the account yields three operators of which none is the inverse of
+building a joint determination.
 
 Three operators fall out of the criterion, one from each preceding section.
 
@@ -430,17 +449,13 @@ elements acquire a causal path around it — when what the element uniquely carr
 destinations another way. The element stays present, connected, often still busy; the complex closes
 without it. Disintermediation is this operator at economic scale.
 
-Five design moves on a strict-mediation triad relocate the core in specific directions, and each
-names one of these operators at organizational scale. Making a counterpart substitutable thins the
-core to the worker and the mediator. Tilting the determination toward an owner hollows it to the
-system and its owner, writing both transacting parties out of the coordination they nominally use.
-Restoring contestability to a worker bound to an uncontestable commit writes her out of the core
-while freeing her from it. Decoupling a dashboard from the committing determination captures her in a
-display loop that is its own irreducible pair yet holds neither the commit nor the counterpart she
-must reach. Opening the direct channel between the parties writes the platform out. The moves are
-asymmetric: opening the channel evicts the platform, extraction evicts both parties, substitutability
-evicts the substitutable element, and contestability and decoupling relocate the worker in opposite
-welfare directions while the structure records only who is bound.
+Design moves on the worked triad relocate the core in computable directions, and each names one of
+these operators at organizational scale. Make the counterpart substitutable (the commit reads any of a
+pool rather than this party) and the core thins to the worker and the mediator. Tilt the determination
+toward an owner who gates the commit, and both transacting parties fall out of the coordination they
+nominally use. Open a direct channel between the parties, and the mediator is written out. The moves are
+asymmetric: opening the channel evicts the mediator, extraction evicts the parties, substitution evicts
+the substituted — and the structure records only who is bound, never who benefits.
 
 **Constraint-lifting.** The third operator is the deepest, and it forces a distinction the tradition
 needs. Ask of any element in a configuration's core: is it there because of the integrating work it
@@ -473,9 +488,11 @@ The distinction sorts a wide range of cases. Applied to a hand-assembled catalog
 intermediary types, real and stylized, it reads about a quarter as necessary integrators (clearinghouses,
 exchanges, escrow) and about half as contingent conduits held in the core by identifiable constraints:
 franchise and licensing law, walled gardens and exclusive contracts, network standards, search frictions.
-The sort is consistent with the historical record, and that consistency should be weighed for what it is:
-the catalog was coded by the same hands that knew the outcomes, so the exercise disciplines the
-distinction rather than testing it. So weighed, the pattern still instructs. Where the internet lowered
+The sort is consistent with the historical record, and that consistency should be weighed for what it
+is. The catalog was coded by hands that knew the outcomes, its classes follow its structural templates
+by construction, and it applies the binary zero-cost form of the counterfactual, so the friction-held
+entries are exactly the ones the cost-relativized test above would re-grade. The exercise disciplines
+the distinction rather than testing it. So weighed, the pattern still instructs. Where the internet lowered
 the cost of the direct tie, the arrangements that dissolved were the ones the test reads as unconstrained
 conduits, classified advertising and retail middlemen among them; the contingent conduits survived as
 long as their constraints did; and the necessary integrators were never threatened, because a cheap
@@ -544,7 +561,7 @@ own vocabularies.
 | Cooperative game theory (Shapley, 1953) | pivotal player | null player | average marginal contribution |
 | Platform economics (Rochet & Tirole, 2003; Gu & Zhu, 2021) | unbypassable bottleneck | bypassable route | disintermediation / leakage |
 | Bargaining theory (Binmore, Shaked & Sutton, 1989) | party without a binding outside option | party whose outside option binds | the outside-option principle |
-| Communication theory (Hancock, Naaman & Levy, 2020; Kellogg, Valentine & Christin, 2020) | a system that commits | a system that transmits or transforms | the transmit / transform / commit ladder |
+| Communication theory (adapted from Hancock, Naaman & Levy, 2020; Kellogg, Valentine & Christin, 2020) | a system that commits | a system that transmits or transforms | transmit / transform / commit (this essay's construction from their categories) |
 
 The rows agree in sign on the models built, and the agreement comes in two strengths, which the altitude
 of the claim should respect. The game-theoretic row is the strongest and also the most dependent: it is
@@ -581,8 +598,8 @@ criterion (Cornelissen, Höllerer & Seidl, 2021).
 Four boundaries hold the argument's altitude.
 
 **The models are models.** Every illustration above is a small Boolean dynamical system, exactly solved.
-The verdicts are exact for the models and are evidence about the models; no organization has been
-measured, and the bridge from a real arrangement to a faithful model is its own methodological problem,
+The verdicts are exact for the models and are evidence about the models; we have measured no
+organization, and the bridge from a real arrangement to a faithful model is its own methodological problem,
 with the elicitation and calibration burdens that any formal modeling of qualitative material carries
 (Davis, Eisenhardt & Bingham, 2007). This essay's claims are theoretical: the criterion, the membership
 law, the dissolution operators are properties of the formal account, offered as concepts for
@@ -604,6 +621,16 @@ contracts has factored itself out of accountability for the whole, before any co
 over encodings (is the rating a channel or a commit, does the dispatch read the rider) are contests
 over the configuration's official boundary, and the criterion does not end them; it gives them a definite
 object.
+
+**The zeros are knife-edge.** Exact factorization lives on the symmetries deterministic Boolean rules
+permit; Simon and Ando's (1961) point stands that real systems are at best nearly decomposable, so the
+graded, stochastic extension of the criterion — where Φ shrinks toward zero without reaching it — is
+agenda work the exact zeros here bound from below.
+
+**The rules are held fixed.** A verdict is computed for one rule regime. Algorithmic arrangements revise
+their rules continuously, and the parties' reactions to opaque evaluation are part of what drives the
+revision (Rahman, 2021), so a verdict about such an arrangement holds per regime, and a history of
+regimes is a sequence of verdicts, not one.
 
 **Consciousness is not at issue.** IIT's standing as a theory of experience is contested. The borrowing
 here takes the formal core — cause-effect structure, partitions, Φ, the complex — which is
@@ -652,7 +679,8 @@ everywhere. On provisional models of documented platform forms, the membership r
 separates cases the surface description does not. Strict-mediation ride-hailing holds the dispatcher in
 the core with all three parties bound; a partial-mediation marketplace that matches parties and steps
 back places the irreducible coordination in the worker–counterpart pair and leaves the platform outside
-the core. The contrast is a boundary verdict — inside the coordinating whole or spectator to it — not a
+the core. (The catalog codes the real ride-hail platform, where off-app contact leaks, as partial; the
+strict-mediation model is that platform with the leak closed, and the pair brackets the real case.) The contrast is a boundary verdict — inside the coordinating whole or spectator to it — not a
 band on a coupling scale. That reading turns the platform-economy agenda into a question of which
 positions integrate and which merely constrain.
 
@@ -762,10 +790,15 @@ organization. *American Economic Review*, 80(3), 511–528.
 Milgrom, P., & Roberts, J. (1995). Complementarities and fit: Strategy, structure, and organizational
 change in manufacturing. *Journal of Accounting and Economics*, 19(2–3), 179–208.
 
+Miller, D. (1981). Toward a new contingency approach: The search for organizational gestalts. *Journal
+of Management Studies*, 18(1), 1–26.
+
 Miller, D. (1986). Configurations of strategy and structure: Towards a synthesis. *Strategic Management
 Journal*, 7(3), 233–249.
 
 Miller, D. (1996). Configurations revisited. *Strategic Management Journal*, 17(7), 505–512.
+
+Miller, D., & Friesen, P. H. (1984). *Organizations: A Quantum View*. Prentice-Hall.
 
 Mintzberg, H. (1979). *The Structuring of Organizations*. Prentice-Hall.
 

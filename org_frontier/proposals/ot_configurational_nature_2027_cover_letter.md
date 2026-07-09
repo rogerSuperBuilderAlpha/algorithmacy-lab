@@ -31,10 +31,12 @@ canon, QCA, relational sociology, and conjunctive theorizing); theme 1 is answer
 operators; theme 2 by contingent irreducibility and by the essay's argument that contests over how an
 arrangement is encoded are contests over its official boundary. The essay is theory. Its illustrations
 are small Boolean models, exactly solved, in the role the call assigns to limited empirical
-illustration; it proposes no procedure for readers to apply to data. An online supplement provides
-every exhibit's transition table, its integrated information under two formalizations of the measure,
-and the coding rules of the intermediary catalog the essay draws on, so that every number in the text
-can be rebuilt from stated rules.
+illustration; it proposes no procedure for readers to apply to data. An online supplement in five parts provides the
+transition tables and per-state integrated information of the constitution exhibits under two
+formalizations of the measure, the fifty-one-entry intermediary catalog with its coding rules, the
+ten-case encoding-sensitivity demonstration behind the manuscript's flip figure, the full quorum sweep
+with computed cores, and the membership-law and integration-game computations, so that every number in
+the text can be rebuilt from stated rules.
 
 On novelty: to our knowledge this is the first use of integrated information theory's formal apparatus
 in configurational organization theory, and the first in organization theory generally beyond passing
