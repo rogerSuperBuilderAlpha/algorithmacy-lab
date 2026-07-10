@@ -31,7 +31,11 @@ which has no obvious lab analogue. Feeds post 4.
 relation satisfy the membership law's two halves by construction — each party constraining and
 constrained by the joint determination (bidirectionality), the relation sensitive to each party as that
 party (identity sensitivity, the thing the interior quorum lacks)?
-**Sources.** *PhG* ¶¶178–196; Honneth; Brandom's normative-statuses reading as the rival.
+**Sources.** *PhG* ¶¶178–196; Pippin (*Hegel on Self-Consciousness*, verified: the struggle is over
+normative authority, not survival); Honneth; Brandom's normative-statuses reading as the rival. The
+positioning is now sourced — Brandom/Pinkard/Honneth/Pippin are all normative-attitudinal
+(`literature/DEEP_RESEARCH.md`, Layer 2), so this question is precisely the test of whether the
+causal-structural predicate adds anything to theirs.
 **Lab bridge.** The membership law; identity sensitivity vs. outcome pivotality.
 **Answer looks like.** Either a clean structural translation, or a documented finding that recognition's
 normativity does work no causal predicate can carry — both publishable in a post. Feeds posts 2 and 8.
@@ -66,6 +70,11 @@ formal structure where a smaller whole persists inside a larger one. Is that a n
 for sublation, and what would distinguish merger-that-preserves from merger-that-replaces in the
 cause-effect structure?
 **Path.** Starts as analysis of the existing q210/q211 results; any new form goes through the protocol.
+**Prior art (position, don't rediscover).** Christian Fuchs already maps *Aufhebung* onto the emergence
+of new system qualities (old preserved in the new whole); Günther's "operational dialectics" formalizes
+the dialectic as polycontextural logic. The lab's distinct contribution is an *exact computed* structure —
+the q210/q211 merged cores — where a smaller irreducible whole persists as a member of a larger one, not a
+general emergentist analogy. Engage Fuchs by name.
 **Lab bridge.** The dissolution operators' known incompleteness (the final-gate panel's "not exhaustive"
 finding); a possible fourth operator.
 **Feeds.** Post 9, and possibly the dissolution program proper — this is the question most likely to
