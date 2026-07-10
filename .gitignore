@@ -35,3 +35,6 @@ dissertation/
 
 # transient staging file from card_backfill.py --write
 org_frontier/research/backfill_cards_config.json
+
+# review scratch: raw search caches and harvest logs (refetchable, kept local)
+org_frontier/reviews/
