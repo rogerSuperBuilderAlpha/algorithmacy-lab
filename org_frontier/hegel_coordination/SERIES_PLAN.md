@@ -21,12 +21,14 @@ carried into each post below and listed together in the round-2 map's residue.
 **Claim.** "The true is the whole" and "a whole is what no partition preserves" are different holisms —
 one developmental and self-knowing, one synchronic and causal — and the series exists to read them
 against each other, not to merge them.
-**Passages.** *PhG* Preface: the true as the whole (¶20, Pinkard); the result together with its becoming
-(Preface, early ¶¶ — verify locus).
+**Passages.** *PhG* Preface: the true as the whole (¶20, Pinkard, verbatim-confirmed); the result together
+with its becoming (§3, Pinkard, verbatim-confirmed); "substance also as subject" (§17–18).
 **Secondary.** `[✓]` Kreines, *Reason in the World* (OUP, 2015, ISBN 978-0-19-020430-3), on Hegel's
-"metaphysics of reason" — but cite it as *explanatory* holism (grounds and reasons, immanent kinds), which
-the NDPR reviewer calls graded orders of explanation "rather than holism in the traditional sense"; its
-holism is explanatory, not efficient-causal, which is itself a fault line the post must address. `[✓]`
+"metaphysics of reason" — but cite it as *explanatory* holism (grounds and reasons, immanent kinds).
+Kreines's own term is "insubstantial holism" (ch. 7); the NDPR reviewer (Yeomans) glosses him as
+"metaphysically pluralistic, epistemologically monistic." (The clause "rather than holism in the traditional
+sense" is **not** in Yeomans's review — verified twice; do not attribute it.) Its holism is explanatory, not
+efficient-causal, which is itself a fault line the post must address. `[✓]`
 Stern and Taylor located: Charles Taylor, *Hegel* (CUP, 1975) — "the individuals only are what they are by
 their inherence in the community" (verbatim-confirmed) — and Robert Stern, *Hegelian Metaphysics* (OUP,
 2009), which reprints "Hegel, British Idealism, and the curious case of the concrete universal," *BJHP*

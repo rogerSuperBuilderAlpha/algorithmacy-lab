@@ -159,10 +159,11 @@ Verdicts are the checker's corrected verdicts. `role` is how the concept functio
   concepts, universals or kinds," neither Kantian nor Spinozist. This legitimizes reading "the true is the
   whole" as ontology, which the causal criterion needs to have a Hegelian target. Two cautions. Kreines's
   holism is explanatory, not efficient-causal, which hands a reviewer the ground/cause distinction against
-  a partition-of-cause-effect reading. And the NDPR reviewer (Yeomans) calls it graded orders of
-  explanation "rather than holism in the traditional sense," so specify *explanatory* holism or the anchor
-  is imprecise. One quoted clause ("rather than holism in the traditional sense") did not surface verbatim
-  in the fetched review — drop the quotation marks until the printed text is checked. `[~]`
+  a partition-of-cause-effect reading. Cite it as *explanatory* holism (Kreines's own term is "insubstantial
+  holism," ch. 7; Yeomans glosses him as "metaphysically pluralistic, epistemologically monistic"), or the
+  anchor is imprecise. **Correction (Post-1 run, verified twice):** the clause "rather than holism in the
+  traditional sense" is **not in Yeomans's NDPR review at all** — the word "holism" never appears in it. Do
+  not attribute it to the reviewer. `[~]`
 - **#2 Stern & Taylor.** Located and verified: Charles Taylor, *Hegel* (CUP, 1975); Robert Stern,
   *Hegelian Metaphysics* (OUP, 2009), which reprints his BJHP article "Hegel, British Idealism, and the
   curious case of the concrete universal" 15(1) (2007): 115–153. Three Taylor quotes were grep-confirmed
@@ -284,8 +285,9 @@ None of these blocks a post; each blocks a specific quotation or page cite.
   *Reason in the World* interior; Ng interior (pp. 43, 234, 10, 171, 259); Kreines "Logic of Life" interior
   (pp. 344–377); Kain full text; Waszek interior; Heiman pp. 111–135; Neuhouser in-text quote with page;
   Roy page range. Open the Internet Archive scans or library copies before quoting with a page.
-- **One quotation to de-quote or re-verify:** Kreines "rather than holism in the traditional sense" (not
-  found verbatim in the fetched Yeomans review); Ng p. 43 sentence (Gentry paraphrase); the Heiman
+- **One quotation to strike, not merely de-quote:** Kreines "rather than holism in the traditional sense" is
+  **not in Yeomans's review** (Post-1 run verified twice; "holism" never appears there) — remove it; Ng p. 43
+  sentence (Gentry paraphrase); the Heiman
   quotation (unconfirmed); Günther "doesn't quantify irreducibility..." (agent paraphrase, not on the page).
 - **Translation choices to fix:** *PR* §255 Addition "guild" (Nisbet) vs "caste" (Knox); *EL* §24 Z2 and
   *PR* §7 English wording against Geraets/Suchting/Harris and Nisbet respectively.
