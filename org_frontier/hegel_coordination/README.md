@@ -44,10 +44,13 @@ program finds itself in; two of the nine posts are built for him to win, as insu
 
 ## Layout
 
-- [`SERIES_PLAN.md`](SERIES_PLAN.md) — the nine-post arc: claim, primary passages, lab bridge, and the
-  refutation condition for each post.
+- [`SERIES_PLAN.md`](SERIES_PLAN.md) — the nine-post arc: claim, primary passages, secondary anchors, lab
+  bridge, and the refutation condition for each post.
 - [`RESEARCH_QUESTIONS.md`](RESEARCH_QUESTIONS.md) — the spine (HC1–HC6), with the two candidates that
   may graduate into the computational pipeline through the standard protocol.
+- [`literature/DEEP_RESEARCH.md`](literature/DEEP_RESEARCH.md) — the standing literature map (deep-research
+  run 2026-07-10): per-post anchors and threats, the positioning targets, the prior-art scan, and the
+  gaps-and-risks. Verified/unverified marked; verify `[○]` items before citing.
 - `posts/` — author drafts land here before Substack; lab edits happen on the draft, never in its place.
 - `passages/` — verified quotations with edition and page, built before any post that uses them.
 
@@ -60,10 +63,16 @@ program finds itself in; two of the nine posts are built for him to win, as insu
    Wood/Nisbet (Cambridge, 1991), cited by section; *Encyclopaedia Logic* — Brinkmann/Dahlstrom
    (Cambridge, 2010); *Science of Logic* — di Giovanni (Cambridge, 2010). Passage loci in the plan are
    working pointers, not citations, until verified.
-3. **Position, don't rediscover.** Brandom (*A Spirit of Trust*), Pinkard (*Hegel's Phenomenology: The
-   Sociality of Reason*), Honneth (*The Struggle for Recognition*), and Pippin occupy the
-   recognition-as-social-coordination terrain. The series states its difference — their coordination is
-   normative-attitudinal, the lab's is causal-structural — and cites them early.
+3. **Position, don't rediscover.** Two occupied terrains, mapped in
+   [`literature/DEEP_RESEARCH.md`](literature/DEEP_RESEARCH.md). (a) *Recognition as social coordination*:
+   Brandom (*A Spirit of Trust*), Pinkard (*The Sociality of Reason*), Honneth, Pippin — all
+   **normative-attitudinal** (statuses instituted by reciprocal recognition), which the series cites early
+   and contrasts with its **causal-structural** criterion. (b) *Hegel formalized / as cybernetics*:
+   Lawvere–nLab (the Logic in category theory), Gotthard Günther's "operational dialectics" (the dialectic
+   as polycontextural logic), Leif Weatherby, and the "computational Hegel" LLM work — all formalize the
+   *logic or method*, none the social-ontology boundary. The deep-research run confirmed, by full-text
+   check of the two closest programs, that **Hegel-against-a-causal-irreducibility/Φ criterion is
+   genuinely unmade** — the series' novelty claim, to be made at exactly that altitude and no higher.
 4. **No demotion, either direction.** Post 4 lets Hegel file Φ as mechanism; that is an objection the
    affirmative case answers, not a verdict the series adopts. Symmetrically, no post reduces Hegel to a
    verbal anticipation of the formalism.
