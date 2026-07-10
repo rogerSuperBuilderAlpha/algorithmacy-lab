@@ -69,7 +69,7 @@ supplies is a within-case criterion for constitution itself: take one arrangemen
 interacting parts, and decide whether it is a single joint determination or an aggregate of smaller ones.
 Set-analysis answers which combinations travel with an outcome across many cases; it does not ask, of the
 one arrangement in front of the analyst, whether that arrangement is a single whole. That within-case
-question is the gap this essay addresses, and set-analysis is its complement, not its rival.
+question is the gap we address, and set-analysis is its complement, not its rival.
 
 Platform and contract scholarship reaches the same problem from another direction. Thompson (1967) named
 the mediating technology, the unit whose work is to link parties who would otherwise transact directly,
@@ -100,17 +100,11 @@ formation running backwards, which recent calls to theorize disorganizing sugges
 Zilber, 2025). Furnari et al. (2021) observe that configurational methods have outrun configurational
 theorizing. The lag begins at the question just posed.
 
-This essay supplies that within-case criterion, borrowed from an unexpected neighbour, and develops three
-concepts configurational scholarship has stated only informally: a criterion for constitution, an account
-of membership, and a theory of dissolution. Section 2 introduces the
-formalism and places the borrowing in organization theory's own tradition of imported formal cores.
-Section 3 states the criterion and shows, on small models, that it cuts differently from
-interdependence, fit, and co-occurrence. Section 4 derives membership: which elements a configuration
-binds, and how tightly. Section 5 derives dissolution, with a distinction — necessary against
-contingent irreducibility — that answers the disorganizing question and gives power a formal seat in
-configurational theory. Section 6 shows that the criterion consolidates tests that four other
-literatures draw in their own vocabularies. Section 7 states the boundaries of the borrowing and
-closes with an agenda.
+We supply that within-case criterion, borrowed from an unexpected neighbour, and develop three concepts
+configurational scholarship has stated only informally — a criterion for constitution, an account of
+membership, a theory of dissolution whose necessary/contingent distinction gives power a formal seat —
+then set the criterion beside its neighbours, state the boundaries of the borrowing, and close with an
+agenda.
 
 ## 2. A borrowed formalism
 
@@ -133,7 +127,7 @@ is contested, and section 7 returns to what the controversy does and does not to
 here is the machinery underneath, which is independent of any claim about experience and answers a
 question organization theory keeps asking in words: when is a system more than its parts?
 
-The machinery, translated into organizational terms, has five pieces.
+Translated into organizational terms, the machinery is this.
 
 **Elements and mechanisms.** A candidate configuration is modeled as a set of elements (parties, units,
 roles, systems), each in one of a small number of states, each updating its state by a fixed rule that
@@ -200,7 +194,7 @@ joint determination, not of headcount or wiring density.
 One specification note, because the theory comes in versions and the verdicts depend on the version.
 Integrated information has been formalized more than once (IIT 3.0, Oizumi et al., 2014; IIT 4.0,
 Albantakis et al., 2023), the variants can disagree on a given model, and Φ is a function of the system's
-state as well as its rules. Every verdict this essay reports uses one operationalization: IIT 4.0's
+state as well as its rules. Every verdict we report uses one operationalization: IIT 4.0's
 system-level measure, computed exactly in the PyPhi toolbox (Mayner et al., 2018), each model evaluated
 over its reachable states, a verdict of *binds* meaning positive Φ at some reachable state. The
 existential reading is deliberate: the criterion asks whether the arrangement can constitute one whole,
@@ -247,7 +241,7 @@ partition {W | M, C} severs what W's state tells M's joint rule; {C | M, W} seve
 side; {M | W, C} severs the commit itself. Every partition of the three elements loses constraint, the
 cheapest cut still destroys part of the cause-effect structure, so Φ is positive (2.0, exactly computed,
 at the state where all three are on) and the complex is all three elements. One whole, not a dyad with a
-wire through it. Every other verdict in this essay is this construction run on different rules.
+wire through it. Every other verdict below is this construction run on different rules.
 
 Stated abstractly the criterion sounds like a restatement of interdependence. It is stronger, and that
 difference is the point. Five results on small models, each exactly computed, mark the distance.
@@ -436,7 +430,7 @@ building a joint determination.
 
 Three operators fall out of the criterion, one from each preceding section.
 
-**Substitution.** Section 3's quorum result, read dynamically. A configuration dissolves when its
+**Substitution.** The quorum's collapse, set in motion. A configuration dissolves when its
 elements become substitutable for one another — when the joint determination that once needed each of
 them individually comes to need only enough of them. Nothing visible changes: no tie is cut, no element
 exits, the wiring diagram is untouched. The threshold moves off its extreme, the determination's
@@ -444,7 +438,7 @@ sensitivity to each element as that element goes to zero, and the whole factors.
 dissolves as a configuration the day sign-off becomes two-of-three. This is dissolution by slack, and no
 reversal story captures it, because nothing that formation built was removed.
 
-**Bypass.** Section 4's fringe, read dynamically. A configuration sheds an element when the remaining
+**Bypass.** The fringe, set in motion. A configuration sheds an element when the remaining
 elements acquire a causal path around it — when what the element uniquely carried can reach its
 destinations another way. The element stays present, connected, often still busy; the complex closes
 without it. Disintermediation is this operator at economic scale.
@@ -497,7 +491,7 @@ the cost of the direct tie, the arrangements that dissolved were the ones the te
 conduits, classified advertising and retail middlemen among them; the contingent conduits survived as
 long as their constraints did; and the necessary integrators were never threatened, because a cheap
 direct tie cannot reproduce a joint condition. A predictive test would code arrangements blind and wait,
-which is the agenda's business, not this essay's.
+which is the agenda's business, not ours.
 
 The distinction also recovers, and sharpens, a century of brokerage theory. Simmel's (1950) *tertius
 gaudens* and Burt's (1992) structural-hole broker read as contingent — their position is the maintained
@@ -525,7 +519,7 @@ maintained as much by information asymmetry as by contract. The operator as stat
 kind of power cleanly and the second only partly: where the hold is a forbidden tie, the counterfactual
 is well defined (restore it and recompute), but where the hold is opacity or a reputation that cannot
 be carried out the door, there is no single tie to restore, and the counterfactual generalizes to lifting
-a bundle of constraints at stated costs, work the agenda takes up rather than work this essay completes.
+a bundle of constraints at stated costs, work the agenda takes up rather than work we complete here.
 Within its scope, the account says where to look (the forbidden tie), what maintaining the configuration
 costs (the constraint's upkeep), and what its dissolution takes (lifting the constraint, the one move
 that evicts a contingent core member and cannot touch a necessary one). Intentional design
@@ -601,7 +595,7 @@ Four boundaries hold the argument's altitude.
 The verdicts are exact for the models and are evidence about the models; we have measured no
 organization, and the bridge from a real arrangement to a faithful model is its own methodological problem,
 with the elicitation and calibration burdens that any formal modeling of qualitative material carries
-(Davis, Eisenhardt & Bingham, 2007). This essay's claims are theoretical: the criterion, the membership
+(Davis, Eisenhardt & Bingham, 2007). The claims here are theoretical: the criterion, the membership
 law, the dissolution operators are properties of the formal account, offered as concepts for
 configurational theorizing and illustrated on models small enough to solve exactly.
 
@@ -634,7 +628,7 @@ regimes is a sequence of verdicts, not one.
 
 **Consciousness is not at issue.** IIT's standing as a theory of experience is contested. The borrowing
 here takes the formal core — cause-effect structure, partitions, Φ, the complex — which is
-mathematically self-contained and carries no phenomenological claim; nothing in this essay asserts that
+mathematically self-contained and carries no phenomenological claim; nothing here asserts that
 any organization experiences anything. Organization theory's precedents behaved the same way: population
 ecology took selection models without inheriting biology's controversies, and transaction-cost theory
 took contracting logic without the rational-actor metaphysics. Formal cores travel; home-discipline
