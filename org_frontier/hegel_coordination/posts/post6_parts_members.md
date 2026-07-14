@@ -1,414 +1,443 @@
 # Parts and Members
 
-*Roger Hunt · draft v1 (lab-generated from the plan and grounding maps; for the author to revise in his
-own voice before anything posts). Sourcing note at the end flags what needs book confirmation.*
+*Roger Hunt · draft v3 (delete this byline before posting). Rebuilt from the five-reviewer panel
+(posts/post6_reviews/): the "two systems, identical verdict" overstatement is retired and the gap
+relocated to direction-of-definition and self-purposiveness, which survive granting the dynamical
+overlap; the §198 rotation illustration is corrected so the individual actually mediates; the
+self-relation ground is dropped from spirit's self-knowing to the organism's being-its-own-end; the
+positive finding is elevated; a temper paragraph is added (flagged below). Sourcing note at the end.*
 
 ---
 
 Cut a hand off at the wrist and you do not have a small spare person and a hand. You have a corpse's
 appendage and, if you moved fast, a patient. Hegel liked this example enough to borrow it from Aristotle
-and set it near the top of his *Logic*. "A hand," he writes, "when hewn off from the body is, as Aristotle
-has observed, a hand in name only, not in fact."[^1] The severed hand is a hand the way a photograph of a
-fire is warm. The word survives; the thing is gone.
+and set it near the top of his *Logic*: sever the hand, he says, and what remains has the shape of a
+hand, the bones of a hand, every extensional property a hand has — and is, in Aristotle's own phrase, "a
+hand in name only," not in fact (Hegel, 1830/2010a, §216). The severed hand is a hand the way a
+photograph of a fire is warm. The word survives. The thing is gone.
 
 The coordination program I have been building runs on a sentence that sounds, at first, like the same
 thought in a laboratory's accent. A whole is what no partition preserves. Take a system, cut it along any
-seam you like, and if some way of cutting it leaves everything the system does intact, its parts were
-neighbors and you have an aggregate. If no cut leaves the doing intact — if every seam you try destroys
-something that lived only in the joint — then the parts were members and the thing was one thing. My test
-is a hunt for the cut that costs nothing. Where there is no such cut, the parts are members in my sense,
-and severing one of them is exactly Aristotle's amputation: what you remove is a hand in name only, because
-the thing it was is a thing it was only in place.
+seam you like, and if some cut leaves everything the system does intact, its parts were neighbors and you
+have an aggregate. If no cut leaves the doing intact — if every seam destroys something that lived only
+in the joint — the parts were members and the thing was one thing. My test hunts for the cut that costs
+nothing. Where there is no such cut, severing one of the parts is exactly Aristotle's amputation: what
+comes off is a hand in name only, because the thing it was, it was only in place.
 
-So the temptation is immediate and strong. Here is the partition test, written out in German a hundred and
-fifty years early, complete with the severed hand as its worked example. Hegel even has the vocabulary
-pinned down. He distinguishes *Teile*, parts, from *Glieder*, members, and the distinction is the axis my
-whole program turns on. An aggregate has parts; an organism has members; a part can be pried loose and
-remain itself, a member cannot. The *Philosophy of Right* states it flatly, and about the state, not the
-body: "the so-called 'parts' of an animal organism are not parts but members," moments of an organ "whose
-isolation and independence spell disease."[^2] Parts against members. Reducible against irreducible. It
-looks like my criterion's own headline, and Hegel got there first.
+So the temptation is immediate and strong. Here, it seems, is the partition test, written out in German a
+hundred and fifty years early, complete with the severed hand as its worked example. Hegel even has the
+vocabulary pinned down. He distinguishes *Teile*, parts, from *Glieder*, members, and the distinction
+looks like the axis my whole program turns on: an aggregate has parts, an organism has members, a part
+can be pried loose and remain itself, a member cannot. The *Philosophy of Right* states the point flatly,
+and about the state, not the body: "the so-called parts of an animal organism are not parts, but members
+or organic moments whose isolation and separate existence constitute disease" (Hegel, 1821/1991a, §278R).
+Parts against members, reducible against irreducible. It reads like my criterion's own headline, and
+Hegel got there first.
 
-This post is about why that reading is wrong, and about what is left standing once it fails. The failure is
-not total, which is what makes it worth a post. Something real does pass between Hegel's members and mine.
-But the thing that defines a *Glied* for Hegel is a thing my test cannot read, does not read, and was built
-not to read — and once you see which thing that is, the resemblance stops being an identity and becomes a
-place where two criteria touch and part.
+He did not. This paper is about the two things that turn out to be true instead, and the second is the
+one worth the trip. The first: a great many things that get called wholes are aggregates wearing the
+word, and Hegel's criterion and mine throw them out together — the overlap is real, and it is not
+nothing. The second: where the two criteria finally part, they part because a *Glied* is defined
+teleologically, by its reciprocal contribution to the organism's self-maintenance, and teleology is a
+thing my partition test does not read. Call that HC1, in the series' numbering. I built the comparison
+for Hegel to win it, and he does — but not by anticipating my criterion. He wins by defining a member in
+terms my instrument was built without.
 
-## What a member is, for Hegel
+The apparatus needs restating before the exegesis does. The program models a small coordination as a
+network of parts whose states constrain one another and asks whether any way of cutting the system —
+severing the dependencies while every part stays exactly where it is — leaves the parts making the same
+differences to each other that they made intact. A cut that costs nothing means the configuration was an
+aggregate wearing the shape of a whole; a cut that costs the parts something, every time, means the
+configuration is integrated, and the parts so bound form its irreducible core. The formalism behind the
+operation is exact integrated information (Φ; Albantakis et al., 2023; Oizumi et al., 2014), read at the
+scale of small coordination systems, as in the earlier papers of this series. One operation, one
+question: does division destroy anything? Hegel asked a version of that question about members two
+centuries early, in a vocabulary built for a different question entirely, and this paper reads the two
+answers against each other.
+
+## What a Member Is, for Hegel
 
 Start with the word, because the word carries the argument. A *Glied* is a member in the strong sense a
-limb is a member of a body or a citizen a member of a state — not a piece, a *Stück*, that you could break
-off and count, but a station in a living whole that exists by doing something for the whole and is nothing
-in particular once it stops. Hegel's severed hand is his proof that the two ideas come apart. The hand you
-cut off still has the shape of a hand, the bones of a hand, the fingerprints of a hand. Every extensional
-property you could inventory is still there on the table. And it is not a hand, because a hand is an organ
-of grasping attached to an arm attached to a nervous system that wants things, and the moment you sever it
-the grasping stops, the wanting has no purchase, and what remains is meat in the shape of a tool.
+limb is a member of a body or a citizen a member of a state — not a piece, a *Stück*, that could be
+broken off and counted, but a station in a living whole that exists by doing something for the whole and
+is nothing in particular once it stops. Hegel's severed hand is his proof that the two ideas come apart.
+Every property you could inventory from the outside is still on the table after the cut: the shape, the
+bones, the fingerprints. What is gone is what the hand *did* — grasped, at the command of a body that
+wanted things — and the moment it is severed the grasping stops and what remains is meat in the shape of
+a tool.
 
-Notice where the definition lives. It does not live in the shape. It lives in what the hand *does for the
-body* and, tighter than that, in the fact that the body does something for the hand in return — keeps it
-warm, keeps it fed, keeps it innervated, keeps it a hand. Hegel's word for this reciprocity is as strong as
-philosophy gets. In the same section as the severed hand he writes that in a living thing "all members are
-reciprocally momentary means as much as momentary purposes."[^3] Each member is a means to the others and
-an end for the others, at once, all the way around the circle. The hand serves the eye that guides it and
-the mouth it feeds; the stomach it feeds serves the hand in turn; and no member is first the end and then,
-as a favor, the means. A living whole is a society of parts each of which is producing and being produced
-by the rest, continuously, and *that* — not the shape, not the boundedness, not the tight coupling — is
-what makes them members instead of parts.
+Notice where the definition lives. It does not live in the shape. It lives in what the hand does for the
+body and, tighter than that, in what the body does for the hand in return: keeps it warm, keeps it fed,
+keeps it innervated, keeps it a hand. Hegel's word for the reciprocity is as strong as his vocabulary
+gets. In the same section as the severed hand he writes that in a living thing, "all members are
+reciprocally momentary means as much as momentary purposes" (Hegel, 1830/2010a, §216). Each member is a
+means to the others and a purpose for the others, at once, all the way around the circle — the hand
+serves the eye that guides it and the mouth it feeds, the stomach it feeds serves the hand in turn, and no
+member is first the end and then, as a favor, the means. A living whole is a society of parts each
+producing and being produced by the rest, continuously, and that reciprocal directedness is what makes
+them members: not the shape they keep after the cut, but what they do for one another while the cut has
+not been made.
 
-Hegel makes the same point from the mortuary, and it sharpens what "part" means. In the *Logic* he ranks
-the relation of Whole and Parts among the lowest of the essential relations and calls it untrue, and the
-figure he reaches for is the anatomist.[^11] An anatomist works on a corpse, and on a corpse the parts are
-all there is to find — organs to be lifted out, weighed, and catalogued, each lying inert beside the next.
-What the method cannot reach is the one thing that made those organs members: the living unity in which
-each was producing and produced by the rest. Cutting is how you get parts, so a method built on cutting
-finds parts wherever it looks. The members were only ever there in the whole the cut destroyed. A corpse is
-not a body with the life subtracted, an inventory short one item; it is a different kind of object, one
-whose pieces really are parts, and it is the only kind of object the additive method can study. The
-severed hand and the anatomist's corpse are the same lesson twice: sever a member and you convert it, and
-the whole it belonged to, into things the crude relation of Whole and Parts can finally describe — because
-you have killed the thing that made the relation wrong.
+The reciprocal self-maintenance of the living thing has a second locus a few sections on, where Hegel
+argues that a living thing maintains itself precisely by each part reproducing the others (Hegel,
+1830/2010a, §218). And earlier still, in the *Logic*'s catalogue of the relations things can stand in,
+Hegel ranks the relation of Whole and Parts among the lowest and calls it untrue (Hegel, 1830/2010a,
+§135): a living thing does not satisfy it, and the only object that does is the one the anatomist is left
+with once the cutting is done — organs to be lifted out, weighed, and catalogued, each lying inert beside
+the next, with the one thing that made them members gone, the living unity in which each was producing
+and produced by the rest. A corpse is not a body with the life subtracted, an inventory short one item.
+It is a different kind of object, one whose pieces really are parts, and the only kind of object a method
+built on cutting can study. The severed hand and the anatomist's corpse make the same argument twice:
+sever a member and you convert it, and the whole it belonged to, into things the crude relation of Whole
+and Parts can finally describe, because you have killed the thing that made the relation wrong.
 
-Hegel builds the state on this figure and does not treat it as a figure. The *Philosophy of Right* runs the
-organism straight into the constitution. Sovereignty, he says, is the very "idealism" by which the parts of
-an animal are members and not parts: the sense in which no organ of the state is a self-standing thing that
-has then entered into relations, but a moment whose independence, if it ever achieved it, would be a
-disease.[^2] The Addition to the neighboring section gives the image its most physical form. "There is only
-one life in all the cells," Hegel says, "and nothing withstands it. Separated from that life, every cell
-dies. This is the same as the ideality of every single class, power, and Corporation as soon as they have
-the impulse to subsist and be independent."[^4] A class or a corporation that tries to become
-self-subsistent is an organ trying to become a specimen. It dies, or the body sickens, or both. The state
-as organism is Hegel's membership account, and it is not decoration on a political theory. It is the claim
-that the estates, the powers, the offices are members of the state in the exact sense the hand is a member
-of the body: defined by their reciprocal service, dead outside it.
+Hegel builds the state on this figure and means it literally. Sovereignty, on his account, is the very
+principle by which the state's organs are members rather than self-standing parts that entered into
+relations after the fact — the sense in which no office of the state is a thing first and a member of the
+state second (Hegel, 1821/1991a, §278R). The Addition to the neighboring section gives the claim its most
+physical form: "it is present at every point, there is only one life in all of them, and there is no
+resistance to it. Separated from it, each point must die" (Hegel, 1821/1991a, §276A). A class, a power, or
+a corporation that tries to become self-subsistent is an organ trying to become a specimen. It dies, or
+the body around it sickens, or both (Hegel, 1821/1991a, §276A). The estates, the powers, the offices are
+members of the state in the sense the hand is a member of the body: defined by their reciprocal service,
+dead outside it.
 
 Two things about this account matter for what follows, and they are easy to slide past because they sound
-like the same point. First, a member is held in the whole by more than tight connection. Second, what holds
-it is a purpose — the whole's, and, circling back, the member's own. Hegel's members do not merely constrain
-each other tightly enough that you cannot cut cleanly. They constrain each other *toward the maintenance of
-the whole they belong to*, and that directedness is the content of "member." Take the directedness away and
-you have a knot, a dense tangle of mutual dependence with no up or down to it. Hegel's *Glied* has an up and
-a down. It is for the organism, and the organism is for it.
+like one point. First, a member is held in the whole by more than tight connection. Second, what holds it
+is a purpose — the whole's, and, circling back, the member's own. Hegel's members do not merely constrain
+each other tightly enough to resist a clean cut. They constrain each other toward the maintenance of the
+whole they belong to, and that directedness is the entire content of the word "member." Strip the
+directedness and what remains is a knot, a dense tangle of mutual dependence with no up or down to it.
+Hegel's *Glied* has an up and a down. It is for the organism, and the organism is for it.
 
-## What a member is, for the instrument
+## What a Member Is, for the Instrument
 
-My instrument has its own account of membership, and it is worth stating precisely, because the whole
-question is whether the two accounts are one account.
+My instrument has its own account of membership. Whether it is Hegel's account or only sounds like his is
+the question this paper turns on.
 
-The program takes a system's boundary to be an output, not an input. That is the move worth pausing on. You
-do not tell the instrument where the whole is and ask how tightly it holds together. You hand it a set of
-units and their transition rule — who influences whom, and how — and the instrument finds the whole for you,
-by locating the subset over which integrated cause and effect is maximal and refusing to award wholeness to
-any subset contained in a more irreducible one.[^5] The complex, in the lab's word, is what falls out: the
-elements that constitute one irreducible cause-effect structure, drawn together not because anyone grouped
-them but because no partition of that particular set preserves what the set specifies about its own past and
-future. Membership, on this account, is a verdict the instrument returns. An element is a member of the
-complex when the complex is poorer for its loss in a way no bookkeeping across the cut can repair.
+The program treats a system's boundary as an output, never an input. Nobody tells the instrument where
+the whole is and asks how tightly it holds together; the program is handed a set of units and their
+transition rule — who influences whom, and how — and it locates the whole itself, by finding the subset
+over which integrated cause and effect is maximal and refusing wholeness to any subset already contained
+in a more irreducible one. In the program's own vocabulary, the **major complex** is the subset the
+exclusion postulate keeps as the locus of integration, "the subset that maximizes φ_s"
+(org_frontier/essays/phi_as_a_cooperative_game.md) — where φ_s is the integrated information a given
+subset carries, and the winner is the argmax over every way the system could be partitioned. Membership,
+on this account, is a verdict the computation returns, not a grouping supplied in advance — and the
+verdict can be unforgiving about which parts make the cut. The program's own findings record cases where
+"an idle principal makes the whole system factor while the triad inside stays irreducible" — a subset
+winning over the nominal whole — and cases where a heavily coupled principal "can even contract the core
+to {S, P}," so that the winning set sheds a member the informal description would have kept
+(org_frontier/STRUCTURAL_FINDINGS.md, finding 8). The instrument's boundary is computed, and computed
+boundaries can surprise the person who built the model.
 
-Set that beside the severed hand and the fit is uncanny. The hand is a member of the organism, on my test,
-if severing it destroys some of the organism's grip on its own states — some of what the whole specified
-about where it was going that no sum of "the body without the hand" plus "the hand alone" can reproduce. And
-of course it does. The hand off the wrist tells the arm nothing and hears nothing; the loop that ran through
-it is open; the organism that could grasp can no longer specify the grasping, and the hand that was a
-grasper specifies nothing at all. Cut, and something that lived only in the whole is gone. That is Aristotle's
-"hand in name only" rendered as a partition verdict, and it is exact. The extensional symptom Hegel points
-at — sever the member and it is no longer what it was, and neither, quite, is the body — is precisely the
-symptom my instrument is built to detect. On the severed hand, the two criteria agree, and they agree for a
-reason, not by luck: both are refusing to treat a functioning member as a detachable part.
+Set that beside the severed hand and the fit is uncanny. The hand is a member of the organism, on my
+test, if severing it destroys some of the organism's grip on its own states — some of what the whole
+specified about where it was going that no sum of "the body without the hand" plus "the hand alone" can
+reproduce. And of course it does: the hand off the wrist tells the arm nothing and hears nothing, the loop
+that ran through it is open, the organism that could grasp can no longer specify the grasping. The
+instrument never lifts the hand off the wrist; it cuts the dependencies and leaves every part where it
+lies. What it reads is the open loop the severing leaves, and on that reading it returns exactly
+Aristotle's verdict — a hand in name only, and a body that can no longer specify the grasping. The
+extensional symptom Hegel points at is the symptom the instrument is built to detect. On the severed hand
+the two criteria agree, and they agree for a reason: both refuse to treat a functioning member as a
+detachable part.
 
-How much is this worth? It is not nothing. A great many things that get called wholes are
-aggregates wearing the word, and both Hegel's test and mine throw them out. A federation of independent
-offices that could each be spun off and keep working is, for Hegel, a heap with a flag, its "members" really
-parts; for my instrument it is a system some partition leaves intact, an aggregate however busy. Where Hegel
-says the estates are not parts but members, and means that you cannot spin the judiciary off into a
-self-standing thing without the thing dying and the state sickening, my test will very often agree, and will
-say so by failing to find the clean cut. The overlap is real, it is not a coincidence, and it is the reason
-the resemblance was worth taking seriously enough to refute.
+How much is that worth? More than the eventual disagreement will make it look. A great many things called
+wholes are aggregates wearing the word, and both Hegel's test and mine throw them out together. A
+federation of independent offices that could each be spun off and keep working is, for Hegel, a heap with
+a flag — its "members" really parts; for my instrument it is a system some partition leaves intact, an
+aggregate however busy. Where Hegel says the estates are not parts but members, and means that spinning
+the judiciary off into a self-standing thing kills the thing and sickens the state, my test will very
+often agree, and say so by failing to find the clean cut. The overlap is not a coincidence, and it is not
+a warm-up to the real result. On the whole class of federations-pretending-to-be-organisms, a
+nineteenth-century concept and a twenty-first-century computation draw the same line, and that they draw
+it for partly different reasons does not make the agreement less real. It is the reason the resemblance
+was worth taking seriously enough to test.
 
-## Where the two accounts come apart
+## Where the Two Accounts Come Apart
 
-Now the refutation, and it is a single stroke. Hegel defines a member by its purpose; my instrument reads
-only the symptom.
+Hegel defines a member by its purpose. My instrument reads only the symptom. Run the two definitions side
+by side on the hand and the difference is immediate. Hegel's *Glied* is defined by what the hand is *for*
+— its reciprocal means-and-end service to the organism's self-maintenance — and the severed-hand test is
+how you detect that a thing so defined has been removed. The purpose is the definition; the amputation is
+the diagnostic. My criterion has only the diagnostic. It reads the amputation — cut here, and the whole's
+grip on itself tears — and from that reading returns "member." It never asks, and cannot ask, what the
+hand was *for*. It knows only that the parts constrain each other in a way no partition preserves, and it
+would return the identical verdict for a system with no purpose in it at all.
 
-Run the two definitions side by side on the hand. Hegel's *Glied* is defined by what the hand is *for* —
-its reciprocal means-and-end service to the organism's self-maintenance — and the severed-hand test is how
-you *detect* that a thing so defined has been removed. The purpose is the definition; the amputation is the
-diagnostic. My criterion has only the diagnostic. It reads the amputation — cut here, and the whole's grip
-on itself tears — and from that reading it says "member." But it never asked, and cannot ask, what the hand
-was *for*. It does not know that the hand serves the body and the body the hand. It knows only that they
-constrain each other in a way no partition preserves. Direction of service, means-and-end reciprocity,
-contribution to the whole's staying-itself: these are the content of Hegel's word, and my instrument passes
-over every one of them and returns the same verdict it would return for a system with no purpose at all.
+Ng (2020) and Kreines (2008) have made this the center of their Hegel, and the text supports them. Ng
+argues that inner purposiveness, for Hegel, is not a lens held up to organisms from outside but part of
+what an organism *is*: the living whole is a self-producing unity whose members are constituted by their
+role in its self-production. Kreines gives the realist version of the same claim: Hegel holds, against
+Kant, that living beings "*do* manifest true 'internal purposiveness'" of which "we *can* have objective
+knowledge" — so the teleological definition of a member is not a manner of speaking but a fact about the
+thing, on Hegel's own account. Corti (2022), working the same passages from the angle of biological
+normativity, puts the member's definition exactly where the argument needs it: the parts of a living
+organism are "characterized primarily in terms of their roles in the process, not by their material
+compositions or topologies," and "the functional nature of the items involved is defined not only in
+terms of their mutual dependence but also in terms of their contribution to the self-maintenance of the
+organism as a whole." Self-maintenance is the criterion. My instrument does not compute self-maintenance.
+It computes irreducibility, and returns the same verdict for a self-maintaining loop and a loop that
+maintains nothing at all.
 
-This is the finding the lab set out to test, and the test came back against the easy reading. Ask whether
-*Teile*-versus-*Glieder* is the partition distinction, and the answer is no. A *Glied* is defined
-teleologically — by its reciprocal contribution to the organism's self-maintenance, which is what Hegel says
-in so many words when he calls the members reciprocally means and ends[^3] — and teleology is exactly the
-property my criterion does not touch. What the partition test captures is the *extensional symptom* of
-membership: severed, the member degrades, and so does the whole. What it cannot capture is the *intensional*
-criterion, the "for the sake of," the up-and-down that makes a tangle into an organism. Karen Ng and James
-Kreines have made this the center of their Hegel, and they are right about the text. Ng argues that inner
-purposiveness, for Hegel, is not a lens we are allowed to hold up to organisms but part of what an organism
-*is*; the living whole is a self-producing unity whose members are constituted by their role in its
-self-production.[^6] Kreines makes the realist version: Hegel holds, against Kant, that living beings
-"manifest true internal purposiveness" of which "we can have objective knowledge," so the teleological
-definition of a member is not a manner of speaking but a fact about the thing.[^7] Alberto Corti, working
-the same passages, puts the member's definition where the argument needs it: a member is "defined in terms
-of its role in the process," and its functionality comes from "its contribution to the self-maintenance of
-the organism as a whole."[^8] Self-maintenance is the criterion. My instrument does not compute
-self-maintenance. It computes irreducibility, and returns the same number for a self-maintaining loop and a
-loop that maintains nothing.
+Bring it down to something the series cares about, because the two-teams case is where the gap actually
+bites. Two teams inside a company can each come back un-cuttable on my test — wire either one so no
+reassignment of its people preserves what the team delivers, and the instrument calls each a whole.
+Hegel's question cuts between them anyway. One team's members do their work as their share of what the
+firm is trying to become, and revise what they do as that changes; the other is a set of people locked by
+a brittle process into a configuration none of them could survive leaving, holding together and serving
+nothing past the lock. The first has members in Hegel's sense. The second has parts in a very tight box.
+The instrument returns the same verdict on both and never asks what, if anything, the box is for. A
+program that means to talk about firms and platforms and states had better know that about its own tool
+before it starts.
 
-Here is the same gap from the other side, which is where it bites. Two systems could earn the identical
-verdict from my instrument — maximal irreducibility, no cut preserving either — where one is a living
-organism whose parts serve its self-maintenance and the other is a merely tightly-wired machine that serves
-nothing and maintains nothing, a knot that happens to be un-cuttable. Hegel's criterion separates these two
-cleanly: the first has members, the second has parts, however tightly the parts are tied. My criterion
-cannot tell them apart, because the thing that separates them — being *for* the whole's self-maintenance —
-is invisible to a test that reads only what survives a cut. The severed hand agreed. This case disagrees.
-And the case that disagrees is the one that shows what each criterion is really measuring.
+I want to be careful about the strength of that claim, because it is easy to overstate and the
+overstatement would be the mirror of a mistake this series has made before. Picture two small systems
+matched as far as I can force them on the verdict my instrument returns — both irreducible, no cut
+preserving what either specifies about itself — where one settles back to its working configuration after
+I knock a unit off its state and the other holds its shape only until the first shove and then flies
+apart. Hegel's criterion puts the first among members and the second among tightly boxed parts. Here is
+the honesty the case demands: the recovery I just described is a difference in the transitions, and the
+transitions are exactly what Φ is computed from. So this does not show my instrument is blind to
+self-maintenance. It shows that the particular observable I read — the maximally irreducible subset —
+does not score it, while some other reading of the same cause-effect structure might. Whether it could is
+a computation I have not run: two hand-built systems, matched on Φ as far as they can be forced, one that
+defends an attractor and one that does not. Until that pair exists, the strong claim — that no observable
+over the structure could recover the difference — is not mine to make. What I can make is the narrower
+claim, and it is enough for HC1: the criterion I actually run reads resistance to a cut, and resistance
+to a cut is not the direction a member is defined from.
 
-Bring it down to something the series cares about. Two teams inside a company can each come back un-cuttable
-on my test — wire either one so that no reassignment of its people preserves what the team delivers, and the
-instrument calls each a whole. Hegel's question cuts between them anyway. One team's members do their work
-as their share of what the firm is trying to become, and revise what they do as that changes; the other is a
-set of people locked by a brittle process into a configuration none of them could survive leaving, holding
-together and serving nothing past the lock. The first has members in Hegel's sense. The second has parts in
-a very tight box. My instrument reports the tightness of the box in both cases and never asks what, if
-anything, the box is for. The distinction Hegel would draw first is the distinction the instrument cannot
-draw at all, and a program that means to talk about firms and platforms and states had better know that
-about its own tool before it starts.
+## The Overlap That Does Not Close the Gap
 
-## The overlap that does not close the gap
+The defender of my instrument presses exactly there, and the objection is good enough to state at full
+strength. Self-maintenance is not a ghostly extra floating above the wiring. A self-maintaining system is
+a dynamical fact — it occupies a region of its state space and returns to it under perturbation, it has an
+attractor it defends, and defending an attractor is something a cause-effect structure *does*. So perhaps
+self-maintenance is partition-adjacent after all, and a rich enough reading of the transitions the
+instrument already sees would recover the "for the sake of," because a member's contribution to
+self-maintenance just is its role in keeping the system on its attractor, and that role is written into
+the dynamics the partition test reads.
 
-A defender of my instrument has a move here, and I want to make it and then say why it does not close the
-gap, because pretending it closes the gap is how the whole series would go wrong.
+Grant it — and grant it fully, because the previous section already conceded the dynamical trace is real.
+A whole that defends an attractor constrains its own future in ways a partition test can partly feel. What
+the objection reaches is the symptom; what it does not reach is the direction. Hegel defines the member
+*from* the whole's end *to* the member's role: the organism's self-maintenance is prior, and the member
+is what it is because of its place in that end. The partition test runs the other way. It reads local
+constraints and finds a whole in them, recovering that the parts hold together and never that they hold
+together *for* anything — and "for" is not a stronger degree of "holds together," it is the coordinate the
+test lacks. Attractor-defense is the closest dynamical shadow of self-maintenance, and it is still a
+shadow: a thermostat defends its set point and produces none of its own parts. Defending an attractor is
+necessary for self-maintenance and nowhere near sufficient, and the difference is precisely being *for*
+one's own persistence rather than merely returning to a state. On Ng's reading the organism *is* that
+being-for — it is its own end, self-maintaining because it is for its own maintenance, and the *Logic*
+only widens the gap further on, where life passes over into a knowing that grasps its own self-production.
+That last is a horizon the partition test does not so much fail to reach as have no coordinate for; and it
+is a property of the whole at the summit of the *Logic*, not of the hand, which is why the member-level
+gap does not need it. The narrow position is the one I can defend. The overlap is real and reaches into
+the dynamics. What the instrument brackets is the direction — self-maintenance as the ground a member is
+defined from, not the symptom a cut leaves behind. Push the overlap one step past that and I have quietly
+renamed Hegel's teleology "attractor," and a reader holding Ng will catch it.
 
-The move is this. Self-maintenance is not some ghostly extra floating above the wiring. A self-maintaining
-system is a dynamical fact: it occupies a region of its state space and returns to it under perturbation, it
-has an attractor it defends, and defending an attractor is something a cause-effect structure *does*. So
-perhaps self-maintenance is partition-adjacent after all — perhaps a rich enough reading of the very
-transitions my instrument already sees would recover the "for the sake of," because a member's contribution
-to self-maintenance just is its role in keeping the system on its attractor, and that role is written into
-the dynamics the partition test reads. On this move, the gap is a gap in my current instrument, not in
-principle, and a better observable over the same cause-effect structure would close it.
+And here, once, I want to stop defending the instrument and say what its blindness costs. My test returns
+the same verdict on a living member and on an un-cuttable knot that serves nothing, and the difference it
+cannot see is, for Hegel, the *entire* content of the word member — not a detail it rounds off but the
+thing itself. I do not think that makes the verdict false; a formal test earns its keep partly by
+reading one thing cleanly and refusing to pretend it reads the rest. But I would be lying if I said the
+gap sits comfortably. The instrument I built to talk about whether coordinations are wholes is deaf to the
+reason Hegel thought some of them were, and I mind that more than the tidy division of labor between
+"symptom" and "definition" lets on. The honest report is that the tool does less than the concept, on the
+one axis the concept cares about most, and no amount of calling the shortfall a "bracket" turns it into a
+feature.
 
-There is something to this, and conceding it is cheaper than fighting it. Self-maintenance does leave
-dynamical traces, and a whole that defends an attractor does constrain its own future in ways a partition
-test can partly feel. The extensional overlap is real, and it is not confined to the severed hand; it
-reaches into the dynamics. But it does not reach the thing at issue. Two facts keep the gap open. First,
-direction of definition. For Hegel the member is defined *from* the whole's purpose *to* the member's role —
-the organism's self-maintenance is prior, and the member is what it is because of its place in that end.
-The partition test runs the other way: it reads local constraints and finds a whole in them. It recovers,
-at best, the fact that the parts hold together; it never recovers that they hold together *for* anything, and
-"for" is not a stronger degree of "holds together." Second, self-relation. Hegel's organism does not merely
-occupy an attractor; on Ng's reading it *is* the activity of dividing itself from its world and reintegrating,
-and it does this as something that, at the top of the *Logic*, comes to grasp that it is doing it. A measure
-of how irreducibly parts constrain one another has no term for a whole that constrains itself toward its own
-persistence, still less for one that knows it does. So the position that holds is the narrow one: concede the
-extensional overlap, including in the dynamics, and hold that the intensional criterion — purpose, direction
-of definition, self-maintenance as the *ground* rather than a symptom — is exactly what the instrument
-brackets. Concede more than that and you have smuggled Hegel's teleology back in through the word
-"attractor," which is the one move a reader holding Ng will catch every time. The instrument does not
-measure inner purposiveness. It measures what inner purposiveness, among other things, can leave behind.
+## The State-Triad, Computed and Bracketed
 
-## The state-triad, and what the microscope sees there
+Hegel gives the program one more gift and one more trap in a single passage, and it is where the
+membership question stops being about hands and becomes about the thing the series actually cares about —
+a state, a firm, a coordinated many. In the *Encyclopaedia Logic* he writes that "the state is a system of
+three syllogisms" (Hegel, 1830/2010a, §198) — the phrase sits in the main paragraph of §198, under
+Absolute Mechanism, not in a Remark, a locus worth flagging because an earlier paper in this series
+mis-cited it as one. The individual, the individual's particular needs, and the universal — society, law,
+government — each take a turn as the middle term through which the other two are joined: the citizen
+mediated to the government through the system of needs, the needs mediated to the citizen through the law,
+and the universal made actual in the sphere of particular needs through the activity of individuals, who
+are the singular middle in which the state comes to exist (Hegel, 1830/2010a, §198). Particularity,
+universality, individuality, one turn each. It is a membership claim in Hegel's fullest voice: no term is
+a self-standing part; each is a member because it is, in its turn, the middle that makes the other two
+one. Vieweg (2017) has written the fullest reconstruction of the structure this passage names, tracing the
+three syllogisms as the logical foundation of Hegel's account of the rational state.
 
-Hegel gives me one more gift and one more trap in the same passage, and it is worth building out, because it
-is the place where the membership question stops being about hands and becomes about the thing the series
-actually cares about — a state, a firm, a coordinated many. In the *Encyclopaedia Logic* he writes that "the
-state is a system of three syllogisms."[^9] The individual, the individual's particular needs, and the
-universal — society, law, government — each take a turn as the middle term through which the other two are
-joined. The citizen is mediated to the government through the system of needs; the needs are mediated to the
-citizen through the government's law; the universal is mediated to the individual through his particular
-stake in it. Three terms, and each in turn is the joint through which the other two hold together. It is a
-membership claim in Hegel's fullest voice: no term is a self-standing part, each is a member because it is,
-in its turn, the middle that makes the others one.
+This is the toy the program would encode, and it is worth spelling out, including the sense in which it is
+built to fail. Take three units — call them I, P, and U for individual, particularity, and universal — and
+wire them so each mediates the other two, with a rule that rotates the mediating role around the triangle
+the way Hegel rotates the middle term. Hand that to the instrument and it would do what it has done to
+every tightly mutual triad already run in this program: if the wiring is genuinely mutual, no partition of
+the three preserves what the triangle specifies about its own next state, and the instrument would return
+"these three are members of one whole." The rotation of the middle term would show up, extensionally, as
+irreducibility, because a middle term that genuinely joins two extremes is a unit whose removal opens the
+loop, and open loops are what a partition test feels.
 
-This is the toy the lab would encode, and the encoding is worth spelling out, including the sense in
-which it is built to fail. Take three units — call them I, P, and U for individual, particularity, and
-universal — and wire them so that each mediates the other two: I's next state a function of P and U, P's of
-I and U, U's of I and P, with a rule that rotates the mediating role around the triangle the way Hegel
-rotates the middle term. Hand that to the instrument and it will do exactly what it did to the three-unit
-loop in an earlier post. It will find, if the wiring is genuinely mutual, that no partition of the three
-preserves what the triangle specifies about its own next state — that I, P, and U form a complex, that
-cutting U out of the mediation between I and P destroys something the closed rotation supplied. The
-instrument will hand back "these three are members of one whole," and it will be right in its own register.
-The rotation of the middle term shows up, extensionally, as irreducibility, because a middle term that
-genuinely joins two extremes is a unit whose removal opens the loop, and open loops are what the partition
-test feels.
+That is a prediction about a toy not yet built, and its warrant is the triads that have been. The program
+has a receipt for exactly the shape of binding a rotating middle term produces, computed, not read off
+Hegel's prose. Two threads supply it. The first establishes what a fed-back middle term does to a
+partition test: a party is a veto player when it sits in every integrating coalition, no two others able
+to integrate without it, and across the single-bottleneck forms the veto player is the argmax-Shapley
+party in every one, 115 of 115 (org_frontier/threads/veto_player). A companion thread pins the condition
+on which a middle earns that status — mutual feedback, not one-way relay: "A mediator commits only when
+the parties feed back to it. Cut the back-edge … and the form has no integration at all, so the mediator
+can only convey" (org_frontier/threads/back_edge). A middle fed back into is a veto player; a middle that
+only relays is nothing a partition test can tell from a wire.
 
-Now the failure, which is the exhibit. Everything Hegel means by calling *this* triad the state — and not
-just any three-cycle — is the part the encoding cannot carry. The three syllogisms are not three arbitrary
-mediations that happen to close into a ring. They are the *specific* mediations by which a rational state
-maintains itself as free: the individual finds his particular satisfaction *and* his universal freedom in
-the same institutional life, and the rotation is Hegel's argument that a state is rational when each of its
-moments is, in turn, the ground of the others' reconciliation. Strip the teleology and you have a
-three-cycle. Any three-cycle. My encoding of Hegel's state and my encoding of three gossips who each relay
-between the other two would return the same verdict, because the thing that makes the first a *state* —
-that the mediation is toward the freedom and self-maintenance of the whole — is the thing the instrument
-does not read. Run the toy and the announced result comes back: the complex-computation confirms that the
-triad is irreducible, which Hegel already told us in richer words, and it is silent on everything that made
-the passage worth encoding. The silence is not a bug in the encoding. It is the encoding doing its job,
-which is to show you the shape of what a partition test can and cannot lift off a structure Hegel described
-teleologically. What the microscope sees at *EL* §198 is a genuine mutual mediation. What it constitutively
-cannot see is that the mediation is the self-maintenance of freedom, which is the only reason Hegel called
-it the state.[^10]
+The second thread runs the shape Hegel's rotation actually describes: a symmetric directed three-cycle,
+each party reading the one before it, no designated mediator, so the "middle" is a role every party takes
+in turn rather than a station one party occupies. The program has run this form, and the numbers are the
+extensional face of Hegel's rotating middle. The cycle commits a touch more often than the mediated star,
+thirteen percent of forms against ten, because every party closes a loop; no integrating form has a
+single veto player, none in seventy-eight; and every committing form splits the credit into exact thirds,
+a top share of 0.333, one third to each party (org_frontier/threads/cyclic/THREAD.md). A symmetric
+three-cycle of mutual constraint reads as irreducible with no privileged member and the gain shared
+evenly across all three — which is the shape "each term takes its turn as the middle" leaves in a
+partition test, if the partition test could see rotation at all. It cannot see the rotation. It sees what
+the rotation leaves behind: irreducibility, even thirds, no veto player. That receipt is real and
+computed, and it belongs to the ledger of overlap, next to the severed hand.
 
-There is a second lesson in the encoding, quieter than the first, about what building the toy costs.
-Handing the instrument three units and a rotation rule is already a decision Hegel did not make for me: that
-the state's individual, its system of needs, and its government are the three units, at that grain, and not
-a hundred offices or a million citizens or one people. Choose a finer grain and the complex the instrument
-finds may not be the triad at all; choose a coarser one and the mediation flattens into a single lump. The
-encoding is a theoretical commitment in the costume of a measurement, and the way to run it is to
-name the commitment out loud and to expect the verdict to move when the grain moves. That caution is not
-special to Hegel — it is the standing caution of the whole program, and the reviewers of the lab's other
-work have pressed exactly this level-of-analysis point. The state-triad is a vivid place to concede it.
+What the receipt does not settle is the state. Two things follow from the encoding, and they are not the
+same kind of thing. If I build I, P, and U as a symmetric three-cycle, the cyclic receipt already tells me
+what the run returns — irreducibility, even credit, no veto player — and that is a conditional forecast
+that can fail, because the encoding is a choice and a finer grain might not find the triad at all. The
+other half is not a forecast. That the run would say nothing about whether the mediation is *toward
+freedom* is true before any computation, because "toward freedom" is not a quantity the test has a slot
+for. I register the first as a bet the run could lose. I do not dress the second as a bet, because nothing
+I could compute would settle it. And the state-specific claim stays a claim: a grep of the corpus confirms
+no Individual/Particular/Universal triad has been built and run. The generic three-cycle is computed; the
+state-labeled encoding is a probe candidate, and this paper asserts no Φ number for it.
 
-The status of the toy needs stating, because the lab has a rule against dressing a probe up as a
-result. The encoding is a candidate, not a finished computation reported here with numbers; the point it
-makes is the one you can see before you run it, from the structure of what the instrument reads. If it is
-built, it goes through the standard protocol — hypotheses fixed before the computation, the expected partial
-failure written down in advance — precisely so that the failure counts as a finding and not as a
-disappointment massaged after the fact. The prediction is not subtle. The complex will track the rotation of
-the middle term and will say nothing about freedom. Writing that down before running it is the difference
-between an exhibit and an excuse.
+There is a second lesson in the encoding, about what building the toy costs before it is even run. Handing
+the instrument three units and a rotation rule is already a decision Hegel did not make for the program:
+that the state's individual, its system of needs, and its government are the three units, at that grain,
+and not a hundred offices or a million citizens or one people. Choose a finer grain and the complex the
+instrument finds may not be the triad at all; choose a coarser one and the mediation flattens into a
+single lump. The encoding is a theoretical commitment in the costume of a measurement, and running it
+means naming the commitment and expecting the verdict to move when the grain moves. That caution is not
+special to Hegel — it is the standing caution of the whole program, and the state-triad is a vivid place
+to face it.
 
-## The documented middle
+## The Documented Middle
 
-The interesting outcome was never going to be a clean win or a clean loss, and this post's outcome is the
-middle, documented. Set the extremes out so the middle has edges. If the encoding of the state-triad
-captured everything Hegel says about its members — the reciprocal service, the self-maintenance of freedom,
-the sense in which each moment is the others' ground — then the criterion would have reached the teleology,
-the two holisms would collapse into one, and the very first post of this series would have been wrong to
-insist they are different kinds of thing. If the encoding captured nothing — if the severed hand and the
-partition verdict had merely rhymed by accident — then the membership bridge would be decoration, a German
-word laid over a formula for the sound of it. Neither happened. The partition test reads the extensional
-symptom of membership exactly, on the hand and on the state-triad both, and reads none of the teleological
-content that, for Hegel, *is* what a member is. That is the finding, and it is a real one, because it says
-precisely where a low instrument and a high concept touch and precisely where they let go.
+The outcome was never going to be a clean win or a clean loss. If the encoding of the state-triad captured
+everything Hegel means by calling its members members — the reciprocal service, the self-maintenance of
+freedom, the sense in which each moment is the others' ground — the criterion would have reached the
+teleology, and the two holisms the series turns on would collapse into one. If it captured nothing — if
+the severed hand and the partition verdict had merely rhymed by accident — the membership bridge would be
+decoration, a German word laid over a formula for the sound of it. Neither happened, and the two things
+that did happen are the paper's result. The partition test reads the extensional symptom of membership
+across a wide and real class of cases — the severed hand, the federation with a flag, the rotating triad —
+and agrees with Hegel wherever a would-be whole is really a heap. And it reads none of the teleological
+content that, for Hegel, *is* what a member is. The overlap is a finding, not a warm-up; the gap is a
+finding, not a failure; and having both is the point.
 
-The gap has a name now, and it is the same name that shadowed the post on the microscope and the ladder. A
-*Glied* is defined by inner purpose; my criterion is defined by resistance to partition; and the reason the
-two agree on the severed hand is that a member defined by purpose also, as it happens, leaves an extensional
-mark that a partition test can find. The mark is not the definition. Aristotle's hand is a hand in name only
-because it can no longer do what a hand is for — and my instrument, reading the ruin of the loop the
-severing opened, reports the *no longer able*, correctly, while staying silent on the *what a hand is for*.
-Hegel put the whole of a member's being in the second clause. The instrument lives entirely in the first.
-Which is why, when the two criteria draw the same boundary around the state's members, they are drawing it
-for reasons that do not translate — one because the members serve the whole's freedom, the other because no
-cut spares the whole's grip on itself — and the series' job is to keep saying so, so that where a bridge
-holds we know it is holding across the gap and not papering over it.
-
-The next post takes the membership question into an institution Hegel thought civil society could not do
-without, the corporation, and asks whether "an intermediary the whole cannot spare" means, in his mouth,
-what the irreducibility catalog means by a necessary integrator — or whether, once again, the word the two
-programs share is doing two different jobs.
+A *Glied* is defined by inner purpose; my criterion by resistance to partition. They agree on the severed
+hand, and again — with numbers behind it — on the shape a rotating middle term leaves: irreducibility,
+even credit, no veto player. The mark is not the definition. Aristotle's hand is a hand in name only
+because it can no longer do what a hand is for, and the instrument, reading the ruin of the loop the
+severing opened, reports the *no longer able* correctly while staying silent on the *what a hand is for*.
+Hegel put the whole of a member's being in the second clause. A formal test lives entirely in the first.
+Where the two draw the same boundary — around the hand, around the rotating triad — they draw it for
+reasons that do not translate: one because the members serve the whole's freedom, the other because no cut
+spares the whole's grip on itself. The corporation is next, an intermediary Hegel thought civil society
+could not spare — and the question of whether *cannot spare* means, in his mouth, what the catalog means
+by a necessary integrator.
 
 ---
 
-## Sourcing note (delete before posting, once items are closed)
+## References
 
-**What this draft claims and where it is exposed.** The load-bearing move is the HC1 finding: *Teile* vs.
-*Glieder* is **not** the partition test, because a *Glied* is defined teleologically (reciprocal
-means-and-end contribution to self-maintenance, *EL* §216, §218), a property the partition criterion does
-not touch — it reads only the extensional symptom (severed = "hand in name only"). The post is built for
-Hegel to win the classification and reports the documented gap; it must not smuggle "proto-Φ" back in
-through the "attractor / self-maintenance is dynamical" concession (the residue section is where that
-temptation is met, per HC1's noted residue). The state-triad toy encoding (*EL* §198) is presented as an
-**HC5 probe candidate**, not a computed result — no Φ numbers are asserted; the failure is argued from the
-structure of what the instrument reads, and the post says explicitly that a real run goes through the
-standard protocol with the expected partial failure fixed in advance.
+Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W., Mayner, W. G. P.,
+Zaeemzadeh, A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., & Tononi,
+G. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in
+physical terms. *PLOS Computational Biology, 19*(10), Article e1011465.
+https://doi.org/10.1371/journal.pcbi.1011465
 
-**Verified on a fetched page this run:**
-- **[^1] *EL* §216, Aristotle's severed hand** — "A hand … when hewn off from the body is, as Aristotle has
-  observed, a hand in name only, not in fact." Confirmed in the Wallace translation (marxists.org Shorter
-  Logic; McTaggart's 1910 *Commentary* independently confirms Hegel citing Aristotle at Enc. §216). **Pinned
-  translation is Brinkmann/Dahlstrom (Cambridge 2010) — confirm the exact Cambridge wording before print;
-  Wallace's "hewn off … in name only, not in fact" may differ.**
-- **[^3] *EL* §216, "reciprocally momentary means as much as momentary purposes"** — confirmed as the
-  translation Corti (2022) quotes at *EL* §216. **Confirm against Brinkmann/Dahlstrom for the Cambridge
-  wording.**
-- **[^2] *PR* §278 Remark** — "the so-called 'parts' of an animal organism are not parts but members …
-  whose isolation and independence spell disease." Confirmed on the Knox text (marxists.org). **Pinned
-  translation is Wood/Nisbet (Cambridge 1991) — Nisbet's wording almost certainly differs from Knox's
-  "spell disease"; confirm the Nisbet sentence and the §-number before print.** (Round-2 map lists §278R as
-  verbatim-confirmed; this run re-confirmed the substance on Knox, not on Nisbet.)
-- **[^4] *PR* §276 Addition** — "There is only one life in all the cells and nothing withstands it.
-  Separated from that life, every cell dies. This is the same as the ideality of every single class, power,
-  and Corporation…" Confirmed on the Knox text (marxists.org). **Confirm Nisbet wording; the plan cites this
-  node as §276A.**
-- **[^9] *EL* §198, "the state is a system of three syllogisms"** — phrase confirmed (multiple secondary
-  sources, incl. the Oxford chapter by Vieweg; Wallace §198). **Confirm Brinkmann/Dahlstrom wording; the toy
-  target is the §198 Remark/Zusatz.**
+Corti, L. (2022). The "is" and the "ought" of the animal organism: Hegel's account of biological
+normativity. *History and Philosophy of the Life Sciences, 44*(2), Article 17.
+https://doi.org/10.1007/s40656-022-00498-8
 
-**Still to confirm against the printed page before posting:**
-- **[^2]/[^4] Nisbet wording** for *PR* §276A and §278R (pinned translation is Wood/Nisbet, not the Knox
-  used here to verify substance).
-- **[^5] The state-as-organism frame at *PR* §269** — used as background ("Hegel runs the organism straight
-  into the constitution"); the §269 text was **not** fetched this run. Confirm §269 says what the paragraph
-  attributes, or drop to §276/§278 alone.
-- **[^3]/[^7] *EL* §218** ("reciprocal self-maintenance," members produce one another) — cited alongside
-  §216 as the second locus for the teleological definition; the §218 wording was **not** independently
-  fetched this run (Round-2 map lists it verbatim-confirmed). Confirm before quoting §218 directly (the post
-  paraphrases it; no §218 quotation is set in quotation marks).
-- **[^11] *EL* §135 Zusatz** — the anatomist-and-corpse image and "untrue" ranking of Whole and Parts;
-  paraphrased, not quoted. Round-2 map lists it verbatim-confirmed; wording not re-fetched this run. Confirm
-  before quoting.
-- **[^6] Ng, *Hegel's Concept of Life* (Oxford 2020)** — the regulative→constitutive / self-producing-unity
-  reading is paraphrased, not quoted; if any Ng sentence is set in quotes on revision, confirm the page
-  (Round-2 residue flags Ng interior pages as review-sourced).
-- **[^7] Kreines, "The Logic of Life" (2008)** — "manifest true internal purposiveness," "we can have
-  objective knowledge" confirmed in the Round-2 map via kreines.net, not the gated chapter PDF; confirm the
-  chapter pagination (pp. 344–377) and the exact wording before print.
-- **[^8] Corti (2022), *HPLS*** — "defined in terms of its role in the process" and "contribution to the
-  self-maintenance of the organism as a whole" were read on the PMC full text this run; confirm the page
-  numbers before print.
-- **[^10]/§198 Zusatz** — Vieweg, "The State as a System of Three Syllogisms," in Brooks & Stein (eds.),
-  *Hegel's Political Philosophy* (OUP, 2017): read before building the toy encoding, both for the structure
-  and to avoid rediscovering its analysis (per the passage card). Confirm chapter pagination.
+Hegel, G. W. F. (1991a). *Elements of the philosophy of right* (A. W. Wood, Ed.; H. B. Nisbet, Trans.).
+Cambridge University Press. (Original work published 1821)
 
-[^1]: *Encyclopaedia Logic* §216, trans. Wallace (Aristotle's severed hand); pinned translation
-Brinkmann/Dahlstrom (Cambridge, 2010) — see sourcing note.
+Hegel, G. W. F. (2010a). *Encyclopedia of the philosophical sciences in basic outline, Part I: Science of
+logic* (K. Brinkmann & D. O. Dahlstrom, Eds. & Trans.). Cambridge University Press. (Original work
+published 1830)
 
-[^2]: *Philosophy of Right* §278 Remark; quoted here from Knox, to be confirmed against Wood/Nisbet
-(Cambridge, 1991). "The so-called 'parts' of an animal organism are not parts but members … whose isolation
-and independence spell disease."
+Kreines, J. (2008). The logic of life: Hegel's philosophical defense of teleological explanation of living
+beings. In F. C. Beiser (Ed.), *The Cambridge companion to Hegel and nineteenth-century philosophy* (pp.
+344–377). Cambridge University Press.
 
-[^3]: *Encyclopaedia Logic* §216: "all members are reciprocally momentary means as much as momentary
-purposes" (the translation quoted by Corti 2022); the second locus for the reciprocal, self-maintaining
-definition is §218. Confirm both against Brinkmann/Dahlstrom.
+Ng, K. (2020). *Hegel's concept of life: Self-consciousness, freedom, logic*. Oxford University Press.
 
-[^4]: *Philosophy of Right* §276 Addition (Knox; confirm Nisbet): "There is only one life in all the cells
-and nothing withstands it. Separated from that life, every cell dies…"
+Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of
+consciousness: Integrated information theory 3.0. *PLOS Computational Biology, 10*(5), Article e1003588.
+https://doi.org/10.1371/journal.pcbi.1003588
 
-[^5]: On boundary-as-output and the complex: the program takes a system's members to be a computed verdict
-(the maximally irreducible set, under the exclusion postulate), not a grouping supplied in advance. The
-state-as-organism frame in Hegel is *PR* §§269, 276A — confirm §269 (see sourcing note).
+Vieweg, K. (2017). The state as a system of three syllogisms: Hegel's notion of the state and its logical
+foundations (S. Stein, Trans.). In T. Brooks & S. Stein (Eds.), *Hegel's political philosophy: On the
+normative significance of method and system* (pp. 124–141). Oxford University Press.
 
-[^6]: Karen Ng, *Hegel's Concept of Life* (Oxford, 2020): inner purposiveness moves from regulative to
-constitutive; the living whole is a self-producing unity whose members are constituted by their role in its
-self-production. Paraphrased, not quoted (see sourcing note).
+---
 
-[^7]: James Kreines, "The Logic of Life: Hegel's Philosophical Defense of Teleological Explanation of Living
-Beings," in *The Cambridge Companion to Hegel and Nineteenth-Century Philosophy* (Cambridge, 2008), ch. 13,
-pp. 344–377: living beings "manifest true internal purposiveness" of which "we can have objective knowledge."
-Confirm wording/pagination.
+## Sourcing note (delete before posting)
 
-[^8]: Alberto Corti, "The 'Is' and the 'Ought' of the Animal Organism: Hegel's Account of Biological
-Normativity," *History and Philosophy of the Life Sciences* (2022): a member is "defined in terms of its
-role in the process," its functionality from "its contribution to the self-maintenance of the organism as a
-whole." Read on the PMC full text this run; confirm pages.
+**What v3 changed (five-reviewer panel, posts/post6_reviews/).**
+- **The "two systems, identical verdict" overstatement is retired** (hostile R2, Hegel specialist, and
+  formal specialist independently drafted the same fix). The prior draft asserted two Φ-identical systems
+  — one self-maintaining, one not — that the instrument "cannot tell apart," and called the difference
+  invisible in principle. But self-maintenance (attractor-defense) is dynamical, and Φ is computed from the
+  transitions, so the two systems the claim needs are, by the concession's own logic, dynamically
+  different. v3 grants that fully and narrows the claim: the observable I run does not score
+  self-maintenance, but I cannot show no observable could — that is the owed φ-matched-pair computation,
+  named here the way Paper 4 names its acid–base pair. The gap HC1 rests on is relocated to
+  direction-of-definition and being-*for*-one's-own-persistence, which survive granting every dynamical
+  trace. "Maximal irreducibility" (scale-talk) is gone; the verdict is binary.
+- **§198 rotation corrected (required, Hegel specialist).** The prior draft's three illustrations gave
+  middle terms particularity, universality, particularity — the individual never mediated, though Hegel's
+  third figure (U–I–P) puts it there. The third clause now has the individual as the singular middle;
+  the three middles read P, U, I, one each, matching the doctrine the sentence states.
+- **Self-relation ground dropped from spirit's self-knowing to the organism's being-its-own-end** (R2 +
+  Hegel specialist). "A whole that knows it does" imported organism/Spirit-level self-consciousness to
+  defend a member-level claim (a hand does not know it is a hand). v3 rests the member-level gap on
+  self-purposiveness and marks self-knowing as a later horizon; the thermostat (attractor-defense is
+  necessary-not-sufficient for self-maintenance, per Paper 4) is added, which strengthens the decline.
+- **The positive finding is elevated** (R2): the overlap (both criteria throw out the "heap with a flag")
+  is stated as a finding in its own right, not a warm-up to the gap.
+- **Amputation reconciled with partition-≠-removal** (formal specialist): the instrument never lifts the
+  hand off the wrist; it reads the open loop the severing leaves. The state-triad prediction is split into
+  its licensed conditional (the run would return even thirds — a bet that can fail) and its definitional
+  truth (it says nothing about freedom — not a bet). Present-tense verdicts on the uncomputed toy hardened
+  to conditional.
+- **Register** (voice reader + all): the finding-status over-captioning is cut; the self-narrating-rigor
+  lines ("that is the whole refutation…", "the honest limit", "massaged after the fact", "worth making and
+  then declining") are removed; the antithesis triads are thinned; the Paper-7 trailer is cut to a single
+  forward clause on the paper's own strongest close; the cyclic run-log is folded into the author's prose
+  (also clearing the 40-word block issue); "low instrument" → "a formal test"; a **temper paragraph** is
+  added in the overlap section (the author minding that the tool is deaf to what makes a member a member)
+  — **drafted, not his; the author should own it or rewrite it.** The Hegel references are reordered
+  (1991a before 2010a). Ng/Kreines given surname+year at first mention; Kreines's italics restored.
 
-[^9]: *Encyclopaedia Logic* §198 (Remark/Zusatz): "the state is a system of three syllogisms," with the
-individual, particularity, and the universal each taking a turn as the middle term. The passage sits under
-Absolute Mechanism. Confirm Brinkmann/Dahlstrom wording.
-
-[^10]: On the three-syllogisms structure: Klaus Vieweg, "The State as a System of Three Syllogisms," in
-Brooks & Stein (eds.), *Hegel's Political Philosophy* (Oxford, 2017). Read before encoding (HC5).
-
-[^11]: *Encyclopaedia Logic* §135 and its Zusatz: the relation of Whole and Parts is the lowest of the
-Essential Relations and "untrue"; the anatomist-and-corpse image belongs to the Zusatz. Paraphrased here,
-not quoted; the Round-2 map lists §135 Zusatz as verbatim-confirmed, but the wording was not re-fetched this
-run — confirm the Brinkmann/Dahlstrom Zusatz before setting any of it in quotation marks.
+**Still gated / to confirm before posting (unchanged from v2 except as noted).**
+- **Dual edition**: EL = Hegel (1830/2010a) Brinkmann & Dahlstrom (matches Paper 4); PR = Hegel
+  (1821/1991a) Nisbet (matches Paper 5). Series-consistency flag: Paper 5 used the Hackett EL for its one
+  §§79–82 passage — the two EL translations are both in play across the series and are not yet reconciled
+  (housekeeping; no Hackett wording is quoted here).
+- **§278R** Nisbet ("separate" vs "independent existence" for *Für-sich-Bestehen*) and **§276A** — confirm
+  against the physical 1991 Cambridge edition.
+- **§216 severed hand**: only "a hand in name only" is quoted (Aristotle's tag); B&D full-sentence wording
+  a gate. **§218 and §135/Zusatz** paraphrase-only (grounding concept dropped on a retry-cap failure; B&D
+  wording unconfirmed) — the anatomist-corpse figure in particular may sit in the *Philosophy of Nature*
+  rather than at EL §135 Zusatz, so §135 is cited only for the untruth-of-Whole-and-Parts ranking it
+  securely licenses, with the anatomist doing illustrative work; confirm the figure's locus before
+  pinning it to §135. **§198** rotation sentences (B&D wording) and **§269** dropped (no §269 Remark).
+- **Corti** verbatim (Article 17; author Luca Corti); **Vieweg** pp. 124–141; **Kreines** pp. 344–377 and
+  the exact wording of "*do* manifest true 'internal purposiveness'" / "*can* have objective knowledge"
+  against the printed chapter. **PAGE GATE**: all Hegel citations by § only; no page numbers printed.
+- **The owed computation**: the φ-matched attractor pair (does any observable over the structure recover
+  self-maintenance?) and the I/P/U state triad — both named as owed, neither asserted as run.
