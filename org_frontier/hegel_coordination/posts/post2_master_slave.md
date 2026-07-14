@@ -1,8 +1,7 @@
 # The First Dissolution Theorem: Hegel's Master and Slave as a Held-but-Not-Irreducible Binding
 
-*Roger Hunt · draft v2 (lab-generated from the Post-2 grounding run, wf_4956aa8e; APA edition. For the
-author to revise in his own voice before anything posts or submits. Sourcing note at the end flags the few
-items still gated on physical copies.)*
+*Roger Hunt · draft v3 (prose revision for tone; quotations, citations, and references unchanged from v2.
+Sourcing note at the end flags the few items still gated on physical copies.)*
 
 ---
 
@@ -23,13 +22,13 @@ effort of producing him — the domination — is what stripped the recognition 
 he has already lost.
 
 That argument is the master and slave, *Phenomenology of Spirit* ¶¶178–196 (Hegel, 1807/2018), and it does
-two things at once, which is why this series stops here so early. It is Hegel's first proof that a certain
-kind of whole is held together by a relation and not by its parts standing side by side — his first
-constitution proof. And it is his first proof that one particular way of building that whole eats itself
-from the inside — the first dissolution theorem. The coordination program I have been building has a
-construct for exactly the second thing: a binding that is held, that registers on a crude test as real, and
-that is held by force rather than by any work its parts do for one another, so that the moment the force
-lifts, the binding is gone. Hegel got there in 1807, in a different vocabulary, with a different proof. This
+two things at once, which is why this series stops here so early. It gives Hegel's first proof that a
+certain kind of whole is held together by a relation among its parts: his first constitution proof. It also
+gives his first proof that one particular way of building that whole eats itself from the inside: the first
+dissolution theorem. The coordination program I have been building has a construct for exactly the second
+thing: a binding that is held, that registers on a crude test as real, and that is held together by force
+alone, with none of the work its parts might do for one another, so that the moment the force lifts, the
+binding is gone. Hegel got there in 1807, in a different vocabulary, with a different proof. This
 paper sets out how much of his result the program can claim and how much it cannot, and it argues for a
 deliberately narrow answer: the program contributes a general class and a decision procedure, not a new
 result, and it inherits the standing objections to the result along with the result itself.
@@ -41,18 +40,16 @@ the head of the passage is that a self-consciousness is not a thing that first e
 as a second step, runs into others. It is the other way around. "Self-consciousness is in and for itself
 while and as a result of its being in and for itself for an other; i.e., it is only as a recognized being"
 (Hegel, 1807/2018, ¶178, p. 108). You are a self only in being acknowledged as one by someone who is
-themselves a self. The acknowledgment is not a report on a fact that was already there. It is part of what
-makes the fact.
+themselves a self. The acknowledgment is part of what makes the fact.
 
 This is a strong claim, and it is easy to hear it as weaker than it is. It does not say that people
 influence one another, that we are shaped by our upbringing, that no one is an island. Those are true and
 dull. Hegel's claim is that the unit which has the property — being a self-conscious agent with standing —
-is not the single person. It is the pair, in the act of recognizing. Take one person out of the relation
-and you do not get a self-conscious agent who is now merely lonely. You get someone who has lost the thing
-the relation was supplying. Pippin (2011) states the underlying principle at its most general: "What it is
-for such a claim to authority or normative force or entitlement to have authority or so forth, is for it to
-be acknowledged as such by others" (p. 90). Standing is not a private possession that others happen to
-notice. It exists in the acknowledging.
+is not the single person. It is the pair, in the act of recognizing. Take one person out of the relation,
+and what remains has lost the thing the relation was supplying, something sharper than loneliness. Pippin
+(2011) states the underlying principle at its most general: "What it is for such a claim to authority or
+normative force or entitlement to have authority or so forth, is for it to be acknowledged as such by
+others" (p. 90). Standing lives in the acknowledging.
 
 The mirror is worth a second here. A mirror gives you back an image, and the image is complete — every
 feature, in detail, on demand. What it cannot give back is a verdict. It cannot hold you to be someone whose
@@ -60,33 +57,32 @@ claims carry weight, because holding takes a second party who could have withhel
 recognition is that it comes from someone free to refuse it and does not refuse. A judgment that could not
 have gone the other way is worth nothing as a judgment, which is why the mirror, for all its fidelity,
 leaves you exactly as alone as you started. Keep that point in hand. It is the same point the dissolution
-theorem turns on, moved from a mirror, which cannot refuse, to a slave, who has been made unable to.
+theorem turns on, moved from a mirror, which cannot refuse, to a slave, whom the master has made unable to.
 
 The coordination program has a name for this shape. A whole, in the program's sense, is a configuration
-whose parts are members and not neighbors: no way of cutting the system leaves what it does intact on either
+whose parts are members of one another: no way of cutting the system leaves what it does intact on either
 side of the cut (the criterion is the integration measure of integrated information theory, read at the
 scale of small social configurations; Oizumi et al., 2014; for the application of that formalism to social
 structure, see Christensen, 2024). Hegel's recognized self is a whole in a form of that shape. The standing
 lives in the relation, and cutting the relation does not hand you two smaller portions of standing. Note the
-word "form." The program reads wholeness off a cause-and-effect structure. Hegel reads it off recognition,
-an act with a normative content — one person treating another as a bearer of authority. Those are not the
-same test, and I will keep insisting on the difference, because the resemblance is close enough here to
-swallow it if I let it. What matters for now is only that both locate the whole in the relation rather than
-in the parts, and both deny that the parts were ever self-standing. On that much they draw the same
-boundary.
+word "form": the program reads wholeness off a cause-and-effect structure, and Hegel reads it off
+recognition, an act with a normative content — one person treating another as a bearer of authority. Those
+are not the same test, and I will keep insisting on the difference, because the resemblance is close enough
+here to swallow it if I let it. Both locate the whole in the relation, and both deny that the parts were
+ever self-standing; on that much they draw the same boundary.
 
 ## Why You Keep the Other Alive
 
 The passage does not begin with a master and a slave. It begins with two people who each demand recognition
 and neither of whom will give it, and the demand drives them into a fight. Hegel calls it a life-and-death
-struggle, and the surface of it looks like two animals contesting a territory. It is not that. The struggle
-is a contest over standing, not survival: each stakes his life to show that he is not merely a living thing
-driven by its wants but a being who can set his life at nothing for the sake of a claim. Pippin (2011)
-catches what the staking accomplishes: once one party surrenders for the sake of staying alive, "Life has
-become a value, not a species imperative" (p. 79) — the fight has converted a biological fact into a
-commitment, something one party proved willing to trade and the other did not.
+struggle, but the surface reading — two animals contesting a territory — misses the point: the struggle is a
+contest over standing, not survival. Each stakes his life to show he can set it at nothing for the sake of a
+claim. Pippin (2011) catches what the staking accomplishes:
+once one party surrenders for the sake of staying alive, "Life has become a value, not a species imperative"
+(p. 79) — the fight has converted a biological fact into a commitment, something one party proved willing to
+trade and the other did not.
 
-Here is the trap the fight walks into, and it is Hegel's, not mine. If the point of the struggle is to force
+Here is the trap the fight walks into, and it is Hegel's. If the point of the struggle is to force
 the other to recognize you, then killing him defeats the point. A corpse recognizes nobody. Hegel says it
 outright: death is "the natural negation of this same consciousness, negation without self-sufficiency,
 which thus endures without the significance of the recognition which was demanded" (1807/2018, ¶188,
@@ -126,47 +122,46 @@ consciousness. It is not a self-sufficient consciousness which is for him but ab
 consciousness" (¶192, p. 114). The master wanted his self-certainty confirmed by an independent other; what
 he actually has confirming him is a dependent, servile thing he himself produced. So "his truth is the
 inessential consciousness and the inessential doing of that inessential consciousness" (¶192, p. 114). And
-then the line the whole passage was built to reach: "The truth of the self-sufficient consciousness is thus
-the servile consciousness" (¶193, p. 114). Mastery, Hegel adds in the same paragraph, "showed that its
-essence is the inversion of what mastery wants to be" (¶193, p. 114). The one who looked self-standing is
-revealed to be propped up by the one he degraded, while the slave, who has to work and to face his fear, is
-on the road to a real independence the master will never reach.
+then the line Hegel built the whole passage to reach: "The truth of the self-sufficient consciousness is
+thus the servile consciousness" (¶193, p. 114). Mastery, Hegel adds in the same paragraph, "showed that its
+essence is the inversion of what mastery wants to be" (¶193, p. 114). The one who looked self-standing turns
+out to be propped up by the one he degraded, while the slave, who has to work and to face his fear, is on
+the road to a real independence the master will never reach.
 
-State the theorem without the drama. A binding held by domination undermines the very thing it was built to
-deliver. It was built to deliver recognition to the master. Recognition has value only from a free equal.
-Domination works by destroying the other's freedom and equality. So the more perfectly the domination works,
-the more worthless its product, and a domination that worked perfectly — that reduced the other to a thing —
-would produce nothing at all, which is the death case again in slow motion. The binding is real in the sense
-that it holds. It is empty in the sense that it fails to do what it was for. Held, and hollow, and hollow
-because of what holds it.
+State the theorem without the drama. The master built this binding to deliver himself recognition, but
+recognition has value only from a free equal, and domination secures the binding by destroying exactly
+that: the other's freedom and equality. So the more perfectly the domination works, the more worthless its
+product, and a domination that worked perfectly — that reduced the other to a thing — would produce nothing
+at all, which is the death case again in slow motion. The binding is real in the sense that it holds. It is
+empty in the sense that it fails to do what it was for.
 
 ## A Century of Readers: From Kojève to the Recognition Theorists
 
-Before saying what a causal program can add, it is worth being honest about how crowded this ground is,
-because the master and slave is the most read passage in Hegel and its reading has a history of its own.
+Before saying what a causal program can add, the ground here is crowded: the master and slave is the most
+read passage in Hegel, and its reading has a history of its own.
 
 The modern career of the passage begins with Alexandre Kojève's Paris lectures of the 1930s, which made
 Chapter IV the governing center of the whole *Phenomenology* and the master–slave relation the engine of
 history. Kojève's master is already the self-defeated figure of this paper: he "has fought and risked his
 life for a recognition without value for him. For he can be satisfied only by recognition from one whom he
 recognizes as worthy of recognizing him. The Master's attitude, therefore, is an existential impasse"
-(Kojève, 1947/1980, p. 19). The slave's labor, not the master's idleness, drives everything after: "History
-is the history of the working Slave" (p. 20). Kojève's reading shaped a generation — Sartre and Lacan most
+(Kojève, 1947/1980, p. 19). The slave's labor drives everything after: "History is the history of the
+working Slave" (p. 20). Kojève's reading shaped a generation — Sartre and Lacan most
 prominently (Iser, 2019) — and for decades it was, for many Anglophone readers, simply what Hegel said.
 
-The scholarship since has walked much of this back. Williams (1997) led the corrective: the French
-reception "truncates and distorts the meaning of the concept of recognition" (p. 4), and "it is a gross
-interpretive error to equate, as Kojève does, recognition with the struggle between master and slave"
-(p. 10). For Williams, master and slave is a deficient, transitional shape of recognition, not its paradigm.
-But note what the correction does not touch. Williams himself writes that "Hegel considers mastery to be
+The scholarship since has walked much of this back. Williams (1997) led the corrective: the French reception
+"truncates and distorts the meaning of the concept of recognition" (p. 4), and "it is a gross interpretive
+error to equate, as Kojève does, recognition with the struggle between master and slave" (p. 10). For
+Williams, master and slave is a deficient, transitional shape of recognition. But note
+what the correction does not touch. Williams himself writes that "Hegel considers mastery to be
 self-subverting" (1997, p. 10). The anti-Kojève turn rejected the passage's centrality, not the dissolution
 theorem inside it. Even the most famous living recognition theorist confirms this displacement in his own
 practice: Honneth builds his theory of recognition from Hegel's earlier Jena writings and, as his translator
 notes, "does not discuss what is certainly the best-known of Hegel's discussions of the struggle for
 recognition, namely, the master-slave dialectic of the *Phenomenology of Spirit*" (Anderson, 1995, p. xx;
-Honneth, 1992/1995). The passage this paper routes through the recognition literature is a passage the
-leading recognition theorist declined to route his own theory through. That is a small fact with a large
-lesson: there is more room around this text than the textbooks imply.
+Honneth, 1992/1995). The passage this paper routes through the recognition literature is one the leading
+recognition theorist declined to route his own theory through: there is more room around this text than the
+textbooks imply.
 
 ## The Structural Reading Is Mainstream, Not a Discovery
 
@@ -198,10 +193,9 @@ Kojève, Williams, Houlgate, Beiser, Stern, Pippin, Brandom: different decades, 
 verdict. The self-defeat of domination-held recognition is textbook. That matters for what the program is
 allowed to claim. It cannot claim to have discovered that domination-held bindings self-destruct. Hegel
 discovered that, and the commentators have been saying so in structural terms for as long as there have been
-commentators. What a causal reading can offer is not the result but a different truthmaker for it — a
-different account of what makes the result true — and a general class the result turns out to be one
-instance of. That is a narrower contribution than "we found a new thing in Hegel," and the narrower version
-is the only one the bridge can carry.
+commentators. What a causal reading can offer is not the result but a different truthmaker for it, and a
+general class the result turns out to be one instance of. That is a narrower contribution than "we found a
+new thing in Hegel," and the narrower version is the only one the bridge can carry.
 
 ## A Binding That Is Held but Not Irreducible
 
@@ -239,30 +233,29 @@ brokers, one kind is self-liquidating. A broker whose whole orientation is to jo
 — what Obstfeld (2005) calls the *tertius iungens* orientation, the third who connects rather than exploits
 the gap — succeeds by making itself unnecessary. Carried to completion, the joining creates the very tie
 that writes the broker out of the core. The thing it is for is the thing that ends it. The master is
-self-liquidating in precisely that way, with the signs reversed. His project is to make himself the sole
+self-liquidating in precisely that way, with the signs reversed: his project is to make himself the sole
 essential consciousness, which requires reducing the other toward nothing, and recognition from nothing is
 nothing. The closer he comes to completing the domination, the closer he comes to the death case, where
-there is no one left to recognize him. Perfecting the position destroys what the position was for.
+there is no one left to recognize him.
 
-I want to be exact about what this bridge does and does not do. It does not show that Hegel was measuring
-causal irreducibility, or that the program's quantity is hiding inside the *Phenomenology*. The truthmakers
-are different, and the difference is the one the first paper in this series drew. The program's test reads a
-cause-and-effect structure and asks which partition it cannot survive. Hegel's argument reads a normative
-content — the worthlessness of recognition from an unfree, unequal source — and the worthlessness is a fact
-about what recognition is, not about any wiring diagram. You could build a domination-held binding that
-scored perfectly stable on a causal partition test for as long as the coercion held, and Hegel's verdict on
-it — that its central product is worthless — would be untouched by the score. The two readings agree that
-the binding is defective and disagree about what the defect consists in. What the program contributes is a
+This bridge does not show that Hegel was measuring causal irreducibility, or that the program's quantity is
+hiding inside the *Phenomenology*. The truthmakers differ, as the first paper in this series argued: the
+program's test reads a cause-and-effect structure and asks which partition it cannot survive, while Hegel's
+argument reads a normative content — the worthlessness of recognition from an unfree, unequal source — a
+fact about what recognition is, not about any wiring diagram. A domination-held binding could score
+perfectly stable on a causal partition test for as long as the coercion held, and Hegel's verdict on it —
+that its central product is worthless — would be untouched by the score. The two readings agree that the
+binding is defective and disagree about what the defect consists in. What the program contributes is a
 general class, computable and gradable, that Hegel's single case turns out to head: held-but-not-irreducible
 bindings, of which the car dealer, the walled-garden platform, and the master over his slave are members
 separated by two centuries and one operation.
 
 ## The Objections the Causal Reading Inherits
 
-The honest form of a bridge names the place it is weakest, and this one has a weak place the literature
-found long ago and has recently sharpened from two sides. The dissolution theorem is desire-relative. It
-works only on the assumption that what the master wants is genuine, mutual recognition. Grant that
-assumption and the argument is airtight. Drop it and the argument loses its grip.
+This bridge has a weak place, one the literature found long ago and has recently sharpened from two sides.
+The dissolution theorem is desire-relative: it works only on the assumption that what the master wants is
+genuine, mutual recognition. Grant that assumption and the argument is airtight. Drop it and the argument
+loses its grip.
 
 Wood (1990) pressed the classic version, and his wording repays exactness: "First, Hegel's argument does not
 show (it does not even claim) that there cannot be good reasons for wanting to dominate others, exploit
@@ -272,38 +265,36 @@ limited: "Consistently with Hegel's argument, I might find self-certainty in the
 constituted by a privileged race, caste, or class, whose members mutually recognize one another as persons
 but treat outsiders as nonpersons" (p. 93). A community of masters recognizing one another can run
 indefinitely, each confirmed by his equals, the slaves supplying labor and no one pretending their
-acknowledgment matters. The self-defeat has been routed around, and Wood adds the bleak empirical footnote
-that people prove "very ingenious in discovering (or inventing) differences" on which to base exactly such
-exclusions (p. 93).
+acknowledgment matters. This parochial society routes around the self-defeat entirely, and Wood adds the
+bleak empirical footnote that people prove "very ingenious in discovering (or inventing) differences" on
+which to base exactly such exclusions (p. 93).
 
-Fanon made the same puncture from the other side, out of the actual history of racial slavery rather than a
-thought experiment. Hegel's master, Fanon observed, is a philosopher's master, one who wants the slave's
-recognition and is undone by not getting it. The real master wanted no such thing: "For Hegel there is
-reciprocity; here the master laughs at the consciousness of the slave. What he wants from the slave is not
-recognition but work" (Fanon, 1952/1986, p. 220, n. 8). A master who wants labor and not acknowledgment has
-built a binding that is not self-undermining on the recognition axis at all, because recognition was never
-its output. In the program's terms, that is a contingent broker that is perfectly stable while its
-constraint holds, doing the contingent job of extracting labor, with no self-liquidating dynamic anywhere in
-it. It falls when the coercion falls, and not one moment before.
+Fanon made the same puncture from the other side, out of the actual history of racial slavery. Hegel's
+master, Fanon observed, is a philosopher's master, one who wants the slave's recognition and is undone by
+not getting it. The real master wanted no such thing: "For Hegel there is reciprocity; here the master
+laughs at the consciousness of the slave. What he wants from the slave is not recognition but work" (Fanon,
+1952/1986, p. 220, n. 8). A master who wants labor has built a binding with no self-undermining dynamic on
+the recognition axis, because recognition was never its output. In the program's terms, that is a contingent broker that is perfectly stable while its constraint
+holds, doing the contingent job of extracting labor, with no self-liquidating dynamic anywhere in it. It
+falls when the coercion falls, and not one moment before.
 
-The newest and most systematic version of this pressure is Cunniff (2026), and it is worth being precise
-about which side of the debate he is on, because he is not an ally of the worthless-recognition reading — he
-is its sharpest recent opponent. Cunniff argues that the standard reconstructions, the worthless-recognition
-reading included, are "both textually ungrounded and philosophically unsatisfying" (p. 1). The
-worthless-recognition argument, he holds, "derives its apparent force from an ambiguity in the term
-'recognition'" (p. 7): the typical master never wanted the slave's sincere endorsement, only his submission
-— "when the master demands a 'Yes, sir' from the slave, he is not after his opinion but only his trembling
-obedience" (p. 7) — so "the master gets precisely the recognition he wants" (p. 3). Nor, he argues, does the
-master's material reliance on the slave amount to the hidden dependence the tradition celebrates: "To
-suppose that the master is helplessly dependent upon the other is, in effect, to suppose that the slave is
-not performing forced labor but a kind of benevolent charity" (p. 9). Cunniff's own diagnosis relocates the
-self-conflict in the master's valuations: mastery makes a mere means — a living tool — into its owner's
-ultimate end, a King Midas structure in which the supreme object of the master's desire is something he
-simultaneously despises. The master's problem, on this account, is a contradiction in what he values, not a
-frustrated demand for recognition. For present purposes the point is this: the strongest recent scholarship
+The newest and most systematic version of this pressure is Cunniff (2026). He is not an ally of the
+worthless-recognition reading — he is its sharpest recent opponent. Cunniff argues that the standard
+reconstructions, the worthless-recognition reading included, are "both textually ungrounded and
+philosophically unsatisfying" (p. 1). The worthless-recognition argument, he holds, "derives its apparent
+force from an ambiguity in the term 'recognition'" (p. 7): the typical master never wanted the slave's
+sincere endorsement, only his submission — "when the master demands a 'Yes, sir' from the slave, he is not
+after his opinion but only his trembling obedience" (p. 7) — so "the master gets precisely the recognition
+he wants" (p. 3). Nor, he argues, does the master's material reliance on the slave amount to the hidden
+dependence the tradition celebrates: "To suppose that the master is helplessly dependent upon the other is,
+in effect, to suppose that the slave is not performing forced labor but a kind of benevolent charity" (p. 9).
+Cunniff's own diagnosis relocates the self-conflict in the master's valuations: mastery makes a mere means —
+a living tool — into its owner's ultimate end, a King Midas structure in which the supreme object of the
+master's desire is something he simultaneously despises. The master's problem, on this account, is a
+contradiction in what he values. The strongest recent scholarship
 converges with Wood and Fanon in denying that the dissolution runs wherever there is domination. It runs
-where the dominator wants what domination destroys, and whether he wants that is an empirical fact about
-the case.
+where the dominator wants what domination destroys, and whether he wants that is an empirical fact about the
+case.
 
 Saunders (2026) draws the conclusion the whole recent debate has been circling, and it cuts against the
 structural readings, mine included. In his abstract's words, "what is primarily wrong with the master is the
@@ -317,12 +308,11 @@ can classify a binding as held-by-force and coercively severable. It cannot say 
 force is wrong. That verdict comes from somewhere the test does not reach, and pretending otherwise would be
 the worst thing this bridge could do.
 
-So the causal reading inherits the desire-relativity objection rather than escaping it. It does not dissolve
+So the causal reading inherits the desire-relativity objection; it does not escape it. It does not dissolve
 Wood's community of masters, or answer Fanon's master-who-wants-work, or refute Cunniff's obedient "Yes,
-sir." It re-describes them: those are the cases in which the domination-held binding is a stable contingent
-broker rather than a self-liquidating one, and which kind a given case is depends on what the dominating
-party is actually after. That dependence is not a defect the program repairs. It is a feature of the
-phenomenon that every reading has to carry.
+sir." It re-describes them: these are cases where the domination-held binding is a stable contingent broker,
+and which kind a given case is depends on what the dominating party is actually after. That dependence is
+not a defect the program repairs. It is a feature of the phenomenon that every reading has to carry.
 
 ## What a Causal Test Can Still Ask
 
@@ -330,9 +320,9 @@ The dominant modern readings of this passage are normative through and through, 
 of them. Pippin reads the struggle as a contest over authority; Brandom reads the standing the parties
 confer as a status instituted by reciprocal attitudes — "authority without responsibility" instituting, in
 his terms, only defective statuses (Brandom, 2019); Honneth built a whole theory of recognition as the
-engine of social conflict (Honneth, 1992/1995). These are attitudinal accounts. What upgrades a collection
-of people into a genuine social whole, on all of them, is something the people do in the register of
-acknowledgment, not any fact about the causal shape of their arrangement. It is the most developed account
+engine of social conflict (Honneth, 1992/1995). These are attitudinal accounts. What upgrades a collection of
+people into a genuine social whole, on all of them, is something the people do in the register of
+acknowledgment — the same normative fact the dissolution theorem turns on. It is the most developed account
 of social wholeness we have, and the program answers in a different currency entirely.
 
 The program's one earned move against the normative readers is the same move the first paper in this series
@@ -345,8 +335,8 @@ Other dominations hold nothing but a gate; freeing the party ends the binding wi
 was never anything under the force but the force. The recognition reading treats these the same, as
 instances of misrecognition. The causal test pulls them apart, and the pulling-apart is a real question
 about a real difference — including for Cunniff's master, whose stable extraction of obedience is exactly
-what the test would classify as a constraint-held conduit rather than integration. That is the one thing a
-low instrument can ask a high theory here, and it is worth asking even granting everything the high theory
+what the test would classify as a constraint-held conduit. That is the one thing a
+low instrument can ask a high theory here, and the question stands even granting everything the high theory
 sees that the instrument is blind to.
 
 ## Filing, Not Finding
@@ -369,9 +359,9 @@ another person's freedom.
 
 The program inherits Hegel's problem along with his result. The dissolution is desire-relative; the causal
 reading does not make it less so; and neither the recognition theory nor the partition test locates the
-wrong where the wrong actually is, which is moral. The honest name for what the program does here is filing,
-not finding. The next paper takes up the syllogism, where a middle term holds two extremes together and the
-question is whether the third that a partition test can see is the third Hegel means.
+wrong where the wrong actually is, which is moral. What the program does here is filing, not finding. The
+next paper takes up the syllogism, where a middle term holds two extremes together and the question is
+whether the third that a partition test can see is the third Hegel means.
 
 ## References
 
@@ -487,3 +477,6 @@ citation-check, all 20 agents clean):**
   q213/q214); Burt, Obstfeld, and Oizumi et al. anchor the published-literature ends of those constructs.
   If this is submitted anywhere, decide whether to cite the lab material as unpublished manuscript or
   describe it as the author's research program (current text does the latter).
+
+**v3 note:** prose revised for tone (agentless passives, antithesis density, and performed-candor phrasing
+cut per house style); no quotations, citations, or references were touched.
