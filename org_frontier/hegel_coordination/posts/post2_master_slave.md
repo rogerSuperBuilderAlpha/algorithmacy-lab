@@ -1,9 +1,10 @@
 # The First Dissolution Theorem: Hegel's Master and Slave as a Held Binding
 
-*Roger Hunt · draft v4 (delete this byline before posting). Rebuilt from the five-reviewer panel
-(posts/post2_reviews/) and the Fable foundation run (wf_ce762991): the bridge section now carries the
-analogy flag, the per-channel mixed verdict, and the specified counterfactual; Cunniff is faced; Elster,
-Simmel, and the emancipation historiography ground the new sections. Sourcing note at the end.*
+*Roger Hunt · draft v5 (delete this byline before posting). v4 rebuilt the bridge from the five-reviewer
+panel (posts/post2_reviews/) and the Fable foundation run (wf_ce762991); v5 adjudicates two external
+reviews — adopting the apparatus exposition, the displacement point, dash-thinning, and claim-fronting from
+the sober one; declining the other's nominalization program, which the house style forbids. Sourcing note
+at the end.*
 
 ---
 
@@ -20,8 +21,8 @@ internal to it, not for any accident of history or any softening of the master's
 the master extracted is worthless, and it is worthless because of the very thing that let him extract it. He
 got it by making the other man unfree, and an unfree man's word that you are the master is worth what a
 coerced witness is worth in a courtroom. The master spent his whole effort producing a recognizer, and the
-effort of producing him — the domination — is what stripped the recognition of value. At the moment he wins,
-he has already lost.
+domination that produced him is what stripped the recognition of value. At the moment he wins, he has
+already lost.
 
 That argument is the master and slave, *Phenomenology of Spirit* ¶¶178–196 (Hegel, 1807/2018), and it does
 two things at once, which is why this series stops here so early. It is Hegel's first proof that a certain
@@ -30,12 +31,24 @@ constitution proof. And it is his first proof that one particular way of buildin
 from the inside — the first dissolution theorem. The coordination program I have been building has a
 construct for the second thing: a binding that is held, that registers on a first look as real, and that is
 held by force rather than by any work its parts do for one another, so that when the force lifts, whatever
-was riding on the force goes with it. Hegel reached the verdict — that a binding of this kind destroys
-itself — in 1807, in a different vocabulary, with a different proof. The class and the test came later, and
-they are the program's, not his. This paper sets out how much of his result the program can claim and how
-much it cannot, and it argues for a narrow answer: the program contributes a general class and a decision
-procedure, not a new result, and it inherits the standing objections to the result along with the result
-itself.
+was riding on the force goes with it. Hegel reached the verdict that a binding of this kind destroys itself
+in 1807, in a different vocabulary, with a different proof. The class and the test came later, and they are
+the program's, not his. The paper's claim is narrow, and it is better stated at the door than at the end:
+the program contributes a general class and a decision procedure, not a new result, and it inherits the
+standing objections to the result along with the result itself.
+
+Since the apparatus does the sorting, it should be on the table before Hegel is. The program models a small
+coordination as a network of parts whose states constrain one another, and asks two questions of it. The
+first is the partition test: cut the system every way it can be cut, and check whether any cut leaves the
+parts making the same differences to one another; where no cut does, the configuration is integrated, and
+the parts that no partition can separate form its core. The second is a counterfactual: remove the external
+constraint that binds the parts (repeal the rule, lift the compulsion), recompute, and compare. The
+difference between the two readings is the margin, the share of the system's integration that was riding on
+the constraint. Four verdicts are possible: a party can be reducible (never in the core), intrinsic (in the
+core with or without the constraint), contingent (in the core only while the constraint stands, the full
+integration as its margin), or partial (in the core either way, with some integration shed). The rest of
+this paper runs that vocabulary against Hegel's text, and flags every point where the run is analogy rather
+than computation.
 
 ## Recognition Makes a Two-Person Whole
 
@@ -123,8 +136,8 @@ The master built this binding to deliver himself recognition, but recognition ha
 equal, and domination secures the binding by destroying exactly that. What Hegel states in his own voice is
 the asymmetry — the relation is missing the moment of reciprocity, the master exempting himself from what he
 demands of the slave: "As a result, a form of recognition has arisen that is one-sided and unequal" (¶191,
-p. 114). The value premise that turns asymmetry into worthlessness — acknowledgment carries weight only from
-a free, standing self — is the tradition's supplement. Beiser (2005) states it outright: "Recognition loses
+p. 114). The tradition supplies the value premise that converts asymmetry into worthlessness: acknowledgment
+carries weight only when it comes from a free, standing self. Beiser (2005) states it outright: "Recognition loses
 all value if it comes from domination or coercion; it is only of value when it derives from the free choice
 and judgment of another" (p. 189). Pippin (2011) builds on it. I take the premise on with them, and Cunniff's
 objection, which arrives below, targets exactly this step.
@@ -151,9 +164,9 @@ history. Kojève's master is already the self-defeated figure of this paper: he 
 life for a recognition without value for him. For he can be satisfied only by recognition from one whom he
 recognizes as worthy of recognizing him. The Master's attitude, therefore, is an existential impasse"
 (Kojève, 1947/1980, p. 19). The slave's labor, not the master's idleness, drives everything after: "History
-is the history of the working Slave" (p. 20). Kojève's reading shaped the French generation directly —
-Sartre and Lacan most prominently (Iser, 2019) — and, after the 1969 translation, it became for many
-Anglophone readers simply what Hegel said.
+is the history of the working Slave" (p. 20). Kojève's reading shaped the French generation directly, Sartre
+and Lacan most prominently (Iser, 2019), and after the 1969 translation it became for many Anglophone
+readers simply what Hegel said.
 
 Williams (1997) led the walking-back: the French reception "truncates and distorts the meaning of the
 concept of recognition" (p. 4), and "it is a gross interpretive error to equate, as Kojève does, recognition
@@ -170,8 +183,8 @@ recognition theorist built his theory around this passage, not through it.
 
 ## The Structural Reading Is Mainstream, Not a Discovery
 
-The temptation now is to present the structural reading — mastery undermines itself — as though the
-coordination program found it. The program did not. It is the mainstream reading of the passage, stated
+The coordination program did not discover that mastery undermines itself. That verdict is the mainstream
+reading of the passage, stated
 across interpretive camps that agree on little else. Houlgate (2003) puts it plainly: "Hegel immediately
 points out, however, that the master's own experience undermines the cosy conception that he has of himself"
 (p. 22), and in his later commentary the master's seeing his freedom embodied in the slave's subservience is
@@ -198,9 +211,9 @@ chapter title calls the master's position "the metaphysical incoherence of autho
 Kojève, Williams, Houlgate, Beiser, Stern, Pippin, Brandom: different decades, incompatible programs, one
 verdict. That matters for what the program is allowed to claim. It cannot claim to have discovered that
 domination-held bindings self-destruct. That verdict is Hegel's on the reading a century of commentators has
-given him, and the convergence is the evidence — though Cunniff has lately put the reading itself in
-dispute, and the objections section takes that up. What a causal reading can offer is not the result but a
-different truthmaker for it — a different account of what makes the result true — and a general class the
+given him, and the convergence is the evidence, though Cunniff has lately put the reading itself in
+dispute; the objections section takes that up. What a causal reading can offer is not the result but a
+different truthmaker for it, a different account of what makes the result true, and a general class the
 result turns out to be one instance of.
 
 The general-class move has its own prior art, and the paper owes it a name. Elster (1983/2016) built a class
@@ -245,12 +258,11 @@ strike the franchise law, let the manufacturer sell direct — and the dealer ev
 doing anything the two sides needed. The lab has run this operation exactly once, on a hand-built three-node
 model of the dealer with exact integrated-information values: constrained, the triad holds together with the
 dealer in the core; restore the forbidden tie and the dealer leaves the core, the system collapses to the
-maker–buyer dyad, and the whole of the measured integration — the contingency margin — turns out to have
-been riding on the law. A discriminator case guards the result: a clearinghouse that computes a joint
-condition of its two neighbors stays in the core under the same bypass, because the pair cannot recover that
-joint condition on their own. That is a receipt for the operation, not for any real case, and the model's
-wiring — reading the law as a wire — was a modeling choice, the choice any real application will have to
-defend.
+maker–buyer dyad, and the whole of the measured integration (the contingency margin) turns out to have been
+riding on the law. A discriminator case guards the result: a clearinghouse that computes a joint condition
+of its two neighbors stays in the core under the same bypass, because the pair cannot recover that joint
+condition on their own. That is a receipt for the operation, not for any real case, and the model's wiring
+was a modeling choice: reading the law as a wire is the choice any real application will have to defend.
 
 One exactness the bridge owes before it goes further. The instrument is built for triads of mediated flow —
 three parties, a forbidden edge, a computed core — and the lab's own practice is that naming which edge the
@@ -290,8 +302,8 @@ severance costs the master nothing, because the channel was carrying nothing: fo
 worthless acknowledgment coming back. That is the contingent cell, the dealer's cell, the gate that falls
 when the rule lifts. But the labor channel is another matter. The slave's work provisioned the master's
 whole mode of life (¶190), and that is why Hegel's reversal lands as dependence: lift the coercion and the
-master does not walk away whole. He loses a real coordination — provisioning work the arrangement genuinely
-ran on — which now has to be rebuilt, if it can be rebuilt at all, on terms he no longer dictates. The
+master does not walk away whole. He loses a real coordination, provisioning work the arrangement genuinely
+ran on, which now has to be rebuilt, if it can be rebuilt at all, on terms he no longer dictates. The
 instrument, run honestly, returns a mixed verdict, and the mixture is the theorem: the binding was empty
 exactly where the master thought it was full, and full exactly where he thought it was nothing.
 
@@ -306,14 +318,14 @@ labor and day-to-day white supervision" to the freedpeople while it "stabilized 
 planters (pp. 173–174) — and one whose terms the planters spent the following decades clawing back, so that,
 as Du Bois (1935/1998) wrote, "The slave went free; stood a brief moment in the sun; then moved back again
 toward slavery" (p. 30). I cite this history with care, because a formalism has no standing to summarize it.
-The point is narrow: the question the program's counterfactual asks — what survives when the force lifts? —
-is a question historians have answered empirically on this very case, and their answer is neither of the
-pure cells. Part of the binding was rent, and fell. Part was real coordination, and survived in a new and
+The point is narrow: the question the program's counterfactual asks, what survives when the force lifts, is
+a question historians have answered empirically on this very case, and their answer is neither of the pure
+cells. Part of the binding was rent, and fell. Part was real coordination, and survived in a new and
 contested shape. The two-channel verdict is not a formalist's compromise; it is what the record shows.
 
 There is a second pattern in the passage, and the master shares the broker's fate without its geometry.
 Among brokers, the joining kind is self-liquidating: an Obstfeld (2005) *tertius iungens* that fully joins
-its two parties has created the direct tie — the bypass — and written itself out of the core. The master is
+its two parties has created the direct tie, which is the bypass, and written itself out of the core. The master is
 an extreme, not a joining third, and what carries over is the teleology alone: a project whose completion
 abolishes its own success conditions. The broker completes the tie and evicts itself; the master completes
 the domination and unmakes the recognizer he needed, which is the death case arriving in slow motion. Same
@@ -366,7 +378,7 @@ extraction, and the catalog files Hegel's master beside Fanon's, in the cell tha
 falls and not one moment before. Nothing in a partition test tells you what a master wants, so the program
 cannot settle that exegetical question, and I will not pretend it can. What the program can say is what
 turns on it: read the master Cunniff's way and the case is a stable contingent binding; read him the
-tradition's way — wanting what domination destroys — and the recognition channel is self-liquidating. The
+tradition's way, wanting what domination destroys, and the recognition channel is self-liquidating. The
 theorem is a theorem only on the second reading, and this paper's title should be heard as conditional on
 it. But two things blunt the concession. The first is the labor channel, which does not care what the master
 wants: the mixed verdict of the previous section stands on ¶190 and on the historical record, whichever way
@@ -386,7 +398,10 @@ aims has quietly made the master's frustrated project the measure of the wrong, 
 slavery. A causal reading is exposed to this exactly as the structural readings are, and arguably more,
 because a partition test has even less to say about moral injury than a recognition theory does. The program
 can classify a binding as held-by-force and coercively severable. It cannot say that holding a person by
-force is wrong. That verdict comes from somewhere the test does not reach.
+force is wrong. That verdict comes from somewhere the test does not reach. And the silence is not neutral:
+a taxonomy that files dominations by what survives their removal has moved the question of their wrongness
+off its books, and that bookkeeping choice is itself a normative act the program has to defend rather than
+a hygiene it gets for free.
 
 So the causal reading inherits the desire-relativity objection rather than escaping it. It does not dissolve
 Wood's community of masters, or answer Fanon's master-who-wants-work, or refute Cunniff's obedient "Yes,
@@ -577,6 +592,18 @@ verified):**
   words; Simmel cited; "Article e1003588"; Houlgate 2003 embedded title italicized; "redescribes"; the
   stance paragraph the panel asked for is drafted in the close (**the author should revise or own it — it is
   the one paragraph a reviewer cannot supply**).
+
+**v5 note — two external reviews adjudicated (2026-07-14).** Adopted from the sober review: the apparatus
+paragraph at the end of the introduction (partition test, counterfactual, four cells, margin — the
+accessibility gap for readers outside the series); the Saunders displacement point (the taxonomy's silence
+on wrongness is a bookkeeping choice needing defense, not hygiene); thesis fronting; em-dash thinning (82 →
+~60 in the body, crutch pairs converted, load-bearing dashes and all quotation-internal dashes kept —
+Elster's p. 11 quote contains an original pair); the "tradition supplies the value premise" active fix.
+Declined from the other review: its entire lexical-replacement program ("monopolization of coercive force,"
+"endogenous self-subversion," "metabolic externalization," etc.) — nominalization-and-jargon substitution is
+the exact slop the house style bans; its zero-em-dash mandate (the style guide: allowed and load-bearing, do
+not zero); and its deletions of the opening scene, "Those are true and dull," and the obscene-thing-to-say
+sentence, all of which the five-reviewer panel independently marked as must-keep.
 
 **Still gated on physical copies / publication status:**
 - Brandom p. 342 (verbatim in his lecture text; chapter range 313–362 confirmed; printed page + "as
