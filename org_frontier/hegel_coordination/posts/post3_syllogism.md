@@ -1,10 +1,14 @@
 # The Real Middle Term: Hegel's Syllogism and the Difference Between a Conduit and an Integrator
 
-*Roger Hunt · draft v4 (delete this byline before posting). Rebuilt from the five-reviewer panel
-(posts/post3_reviews/) and the v4 foundation run (wf_d4132428): the mechanism-rung "coincidence" is
-replaced by Hegel's own Mitteilung-to-Mitte arc, cited directly; the three operations are named; the
-solar-system verdict is decomputed; Stein gets the read-functions card; the census is in. Sourcing note at
-the end.*
+*Roger Hunt · draft v5 (delete this byline before posting). Rebuilt from the round-2 five-reviewer panel
+(posts/post3_reviews/) and a targeted research pass. Load-bearing fixes: the hinge no longer contradicts
+itself (the fit is tightest at the conduit pole and loosest at the integrator pole, where the criterion
+reads only the causal shadow of Hegel's real middle); "the same boundary" is everywhere downgraded to a
+boundary of the same shape; the paper now faces the second skeptic — the reader who grants the syllogism is
+more than a form of thought yet denies it is a causal structure — and concedes, using Sans's own words,
+that the bridge is a homology and not an identity; the topology gap (Hegel's rotating middle vs. the
+instrument's fixed star) is entered as a real limit; the "largest value" clause is cut (the family attains
+three Φ values, not two); Stein's point is a rhyme, not a confirmation. Sourcing note at the end.*
 
 ---
 
@@ -25,8 +29,7 @@ defective syllogisms is a complaint about defective middles: middles that only r
 externally without making them one. The coordination program I have been building has a name for each kind.
 One is a conduit. The other is an integrator. This paper argues that Hegel's syllogism is the shape my
 criterion tests for, and that his objection to the external middle is the conduit-versus-integrator line in
-another vocabulary. One move in what follows is mine, not Hegel's and not Sans's, and I will flag it when I
-make it.
+another vocabulary. One move in what follows is mine, not Hegel's and not Sans's.
 
 The criterion needs one paragraph before Hegel does, because it does the sorting below. The program models a
 small coordination as a network of parts whose states constrain one another, and asks whether any way of
@@ -37,8 +40,8 @@ configuration is integrated, and the parts so bound form its irreducible core. R
 with a mediator in the middle, the verdict separates two kinds of middle. A conduit conveys between parties
 who remain separable, and the form reads as a pair plus a bystander. An integrator commits — its own state
 turns on both parties at once — and the three read as one thing that no cut can factor. The receipts behind
-that distinction are computed, and I will come to them, because this is the one paper in the series where
-the instrument and Hegel's text meet on ground the instrument has actually measured.
+that distinction are computed, and I will come to them. This is the one paper in the series where the
+instrument's own side of the distinction is measured rather than argued.
 
 ## Everything Rational Is a Syllogism
 
@@ -70,7 +73,7 @@ before Hegel turns to objectivity — whose first chapter, not incidentally, is 
 whatever two extremes hold together *through*. The coordinator between the two teams is a middle term. The
 center of the solar system, Hegel will say in his own voice, is one too.
 
-## The Objection That Would Sink the Paper
+## The Objection
 
 The objection is fair, and until recently it had no answer with a text behind it. A skeptic grants
 everything above and then says: so what. A syllogism is a form of *thinking* — an arrangement of terms in a
@@ -94,24 +97,35 @@ idea of the most perfect being implies its existence, the concept of the Concept
 existing, objective universal" (p. 202). The point of running the syllogism through its figures is not to
 catalogue valid forms of proof. It is to show that a certain kind of structure — a whole whose parts hold
 together through a middle — is a real feature of things, and that reason, when it infers correctly, tracks
-that structure rather than imposing it. Redding (2023) converges from a different direction: his
-reconstruction of the *Logic*'s lineage runs through Plato's "'rational' syllogism, with its ontological
-dimensions," against "Aristotle's more limited 'formal' syllogism, restricted as it was to the operations of
-the 'understanding'" (p. 43), and his own closing formulation has Hegel's logical system "lived out, as is
-life in general, in the spatiotemporal world" (p. 227). One scope note: Redding's convergence is with the
-ontological reading of the rational syllogism. His book does not treat the objective syllogism of the
-mechanism chapter, so the next section rests on Sans and on Hegel's own text.
+that structure rather than imposing it. He is not the only reader who takes the objective syllogism this
+way: Moss (2013) reads Hegel's free mechanism as grasped "via a triad of syllogisms, which altogether
+constitute a process of alternating middle terms," a real activity of objectivity and not a template laid
+over it (p. 78). So the formalist skeptic loses. His syllogism was a shape of arguments; Sans's Hegel makes
+it a shape of wholes.
 
-The skeptic wanted the syllogism to be a shape of arguments. Sans's Hegel makes it a shape of wholes. That
-keeps the bridge open, because now Hegel's middle term and mine are answering to the same thing: a real
-structure in which two extremes hold together through a third.
+That defeats the first skeptic and not the second, and the second is the one that bites. Hegel's *Logic*
+divides its readers. One line — Hartmann early on, Pinkard, and in his own way Pippin — reads the *Logic* as
+an account of the categories through which anything can be thought as an object at all, logic as the science
+of pure thinking, not a report on structures standing in the world (Pippin, 2019). Another line — Sans among
+them, with Kreines, Stern, and Houlgate — reads it as ontology proper, the concept's determinations at work
+in things; Kreines (2006) maps the divide. This paper follows the second line, because the bridge needs the
+objective syllogism to be more than a form of thought. But the second line itself forces the concession that
+fixes this paper's altitude. Even Sans, the strong ontological reader, holds that subjectivity and
+objectivity "are determinations of the Concept as such and do not refer directly either to mind or to
+nature" (Sans, 2018), and warns against merging pure logical thinking with the realm of nature. The reality
+he secures is the reality of the Concept's own determinations — not a mind-independent cause-and-effect
+structure of the kind a partition test cuts. Read thinly, by the first line, "the objective syllogism really
+exists" is a claim about how thought determines objecthood, and on that reading the pun edges back. My bridge
+does not need it read thickly. It needs only that Hegel's middle term and mine share a shape — conduit
+against integrator — and a shape survives even the thin reading. What no reading in this debate delivers is
+an identity of referents. That is why every claim in this paper stays at the shape and stops.
 
 ## From Communication to the Center: Hegel's Own Ascent
 
-The text that seals it is not one passage but an arc, and the arc runs inside a single chapter. Hegel's
-Mechanism chapter — the first chapter of Objectivity, the ground floor of his account of the object — opens
-with the aggregate: the mark of the mechanical is that "whatever the connection that obtains between the
-things combined, the connection remains one that is alien to them, that does not affect their nature, and
+The text that seals the shared shape is not one passage but an arc, and the arc runs inside a single chapter.
+Hegel's Mechanism chapter — the first chapter of Objectivity, the ground floor of his account of the object —
+opens with the aggregate: the mark of the mechanical is that "whatever the connection that obtains between
+the things combined, the connection remains one that is alien to them, that does not affect their nature, and
 even when a reflective semblance of unity is associated with it, the connection remains nothing more than
 composition, mixture, aggregate, etc." (Hegel, 1816/2010b, p. 631). He extends the diagnosis to spirit in
 the same breath: "Spiritual mechanism, like its material counterpart, also consists in the things connected
@@ -128,49 +142,52 @@ communication, which occurs without transition into the opposite" (Hegel, 1816/2
 determinateness passes from object to object and each stays what it was. In spirit the same structure:
 "Laws, morals, rational conceptions in general, are in the region of the spirit communicable entities of
 this kind; they pervade individuals unconsciously imposing themselves on them" (p. 636) — spreading, Hegel
-says, "like a scent freely spreading in the unresisting atmosphere" (pp. 635–636). Communication is the
-conduit, described by Hegel, in Hegel's word: content relayed intact between parties who remain external to
-one another and to it.
+says, "like a scent freely spreading in the unresisting atmosphere" (pp. 635–636). And notice what
+communication does without: a middle. The determinateness generalizes itself and travels; no third term
+relays it, because there is no third term yet. So the conduit, in Hegel's own hands, is not a bad middle. It
+is the stage before there is a middle at all — content passed intact between parties external to one another
+and to it — which is exactly what my test calls a conduit, a form whose apparent middle rides along as a
+bystander while the pair does the work.
 
-And the chapter's summit is the middle that is not a conduit. In absolute mechanism — the moment Hegel also
-calls free mechanism, the truth the chapter has been climbing toward — the many objects hold together
-through a center, and the center is not one more object relaying pushes. "As against this immediate
-totality, the prior or the essential determinateness constitutes the real middle term between the many
-interacting objects; it unites them in and for themselves and is their objective universality" (Hegel,
-1816/2010b, p. 641). In the material world, "it is the central body which is the genus or rather the
-individualized universality of the single objects and their mechanical process" (p. 641): the sun of the
-arrangement is the objects' own immanent universality, the term through which they are a system at all, the
-thing toward which they *strive* rather than a signal they pass along. The whole structure is syllogistic,
-and Hegel says so: "This totality, whose moments are themselves the completed relations of the concept, the
-syllogisms in which each of the three different objects runs through the determination of the middle term
-and the extreme, constitutes free mechanism" (pp. 642–643), whose objects have for their fundamental
-determination "the pervasive gravity that persists self-identical in the particularization" (p. 643).
+The chapter's summit is the middle that is not a conduit, and Hegel does not reach it in one step; the arc
+runs through the real mechanical process — objects acting on, resisting, and subjugating one another — before
+it arrives. In absolute mechanism, the moment Hegel also calls free mechanism, the many objects hold together
+through a center, and the center is not one more object relaying pushes. "As against this immediate totality,
+the prior or the essential determinateness constitutes the real middle term between the many interacting
+objects; it unites them in and for themselves and is their objective universality" (Hegel, 1816/2010b,
+p. 641). In the material world, "it is the central body which is the genus or rather the individualized
+universality of the single objects and their mechanical process" (p. 641): the sun of the arrangement is the
+objects' own immanent universality, the term through which they are a system at all, the thing toward which
+they *strive* rather than a signal they pass along. The whole structure is syllogistic, and Hegel says so:
+"This totality, whose moments are themselves the completed relations of the concept, the syllogisms in which
+each of the three different objects runs through the determination of the middle term and the extreme,
+constitutes free mechanism" (pp. 642–643), whose objects have for their fundamental determination "the
+pervasive gravity that persists self-identical in the particularization" (p. 643).
 
 A philological note, because the paper's motif hangs on it. Sans glosses the key phrase as "the real middle
 term [*reale Mitte*]" (2018, p. 203), and the gloss is his modernization: Hegel's word, in the 1816 text and
 the Suhrkamp edition alike, is "die *reelle* Mitte" (Hegel, 1816/1979, Werke 6:423). Nothing turns on the
-vowel — both say the middle is real, a middle in the world — but a quotation should be exact, and the
-exactness marks the line between citing Hegel and citing his best reader.
+vowel — both say the middle is real, a middle in the world — but a quotation should be exact.
 
-Now the point of the arc, which is the point of this paper. Hegel's Mechanism chapter runs, on one
-continuous stretch of text, from connection that is "alien" to the things connected, through communication —
-determinateness relayed between externals — up to a real middle through which a many is one system. That is
-the conduit-to-integrator ascent, drawn by Hegel, in the objective register, inside a single chapter. Sans
-flags it as astonishing that "the most extended application of inferential reasoning in Hegel's system is
-found in the mechanism chapter" (2018, pp. 204–205), and on the free-mechanism reading the astonishment
-dissolves: absolute mechanism is where objectivity first stops being an aggregate, where a system of objects
-first exhibits integrated, syllogistic structure — and a criterion whose entire job is to tell aggregates
-from integrated wholes has its natural purchase at exactly the boundary where integration first appears.
-Hegel put the boundary itself on this rung. One qualification is owed in return: absolute mechanism is
-already the Concept showing through objectivity — the center is immanent universality, not neutral machinery
-— so the rung my instrument reads is the top of Hegel's mechanism, not its floor. The reckoning above that
-rung is Paper 4's.
+Now the point of the arc, which is the point of this paper. Hegel's Mechanism chapter runs, on one stretch of
+text broken only by the real process, from connection that is "alien" to the things connected, through
+communication — determinateness relayed between externals, with no middle yet — up to a real middle through
+which a many is one system. That is the conduit-to-integrator ascent, drawn by Hegel, in the objective
+register, inside a single chapter. Sans flags it as astonishing that "the most extended application of
+inferential reasoning in Hegel's system is found in the mechanism chapter" (2018, pp. 204–205), and on the
+free-mechanism reading the astonishment dissolves: absolute mechanism is where objectivity first stops being
+an aggregate, where a system of objects first exhibits integrated, syllogistic structure — and a criterion
+whose entire job is to tell aggregates from integrated wholes has its natural purchase at exactly the
+boundary where integration first appears. Hegel put the boundary itself on this rung. One qualification is
+owed in return, and it is the honest width of the bridge: absolute mechanism is already the Concept showing
+through objectivity — the center is the objects' immanent universality, not neutral machinery — so the rung
+my instrument reads is the top of Hegel's mechanism, not its floor. The reckoning above that rung is Post 4's.
 
-The same stretch of text hands the series a later paper's material, registered and left: Hegel immediately
-generalizes the three-syllogism structure to the political case — the government, the individual citizens,
-and their needs, each in turn the middle of the other two (1816/2010b, p. 642) — and the *Encyclopedia*
-compresses it into the remark that, like the solar system, "the state is a system of three syllogisms"
-(1830/2010a, §198R, p. 273). That is Post 6's text.
+The same stretch of text hands the series a later post's material: Hegel immediately generalizes the
+three-syllogism structure to the political case — the government, the individual citizens, and their needs,
+each in turn the middle of the other two (1816/2010b, p. 642) — and the *Encyclopedia* compresses it into
+the remark that, like the solar system, "the state is a system of three syllogisms" (1830/2010a, §198). That
+is Post 6's text, and I leave it there.
 
 ## The External Middle, in Both Logics
 
@@ -205,26 +222,28 @@ triadic: 9.4 percent. Nine strict-mediated middles in ten are conduits, a census
 most middles are defective middles, and the genuine one is the rare achievement his ascent through the
 figures says it is.
 
-Two forms from that corpus are the minimal pair this paper needs. In the first, the mediator is a relay: the
-middle reads one party and passes the signal on ("S relays W to C with no joint determination"). The test
-reads the form as a dyad; its integration is zero. In the second, the mediator commits on a joint condition
-of both parties — it "forwards iff resume-signal AND manager-profile" — and the test reads the form as
-triadic, all three parties in one irreducible core, at Φ = 2.0 against the relay's 0.0 — the largest value
-any form in the family attains, though the lab reads Φ as a verdict rather than a scale, and so do I. Same
-three units, same middle position, and the partition test tells the two middles apart.
+Two forms from that corpus are the minimal pair this paper needs. In the first, the mediator relays: it
+reads one party and passes the signal on, with no joint determination. The test reads the form as a dyad;
+its integration is zero. In the second, the mediator commits on a joint condition of both parties — it
+forwards only when the resume-signal and the manager-profile are both present — and the test reads the form
+as triadic, all three parties in one irreducible core, at Φ = 2.0 against the relay's 0.0. Same three units,
+same middle position, and the partition test tells the two middles apart. A note on reading the number: the
+family does not split cleanly into zero and 2.0. Sixteen forms sit at Φ = 2.0, eight more at an intermediate
+0.5, and the rest at zero — the twenty-four triadic forms are those two bands together. The criterion I am
+running reads the verdict, triadic or not, and not the magnitude; the 2.0 form is the clean end of the
+triadic band, not a maximum the argument leans on.
 
 Two further receipts sharpen the point in ways Hegel would have recognized. First, topology does not decide.
 A third form keeps the same strict-mediation wiring between the parties — no direct edge between the
 extremes, a mediator that reads both — and still factors to zero, because the outer parties' own update
-rules break the loop. The lab's summary of that finding: the read functions, not the wiring, decide. The
-population makes it quantitative without leaning on one pair: a mediator that fails to read both parties is
-never triadic, and one that does read both is triadic only 15 percent of the time; the parties' own reads
-decide the rest. Hold that finding; it comes back when Stein's objection arrives, because it is Stein's
-objection, confirmed by the instrument on its own cases. Second, relaying does not accumulate into
+rules break the loop. The read functions, not the wiring, decide: a mediator that fails to read both parties
+is never triadic, and one that does read both is triadic only about fifteen percent of the time; the parties'
+own reads settle the rest. Hold that finding; it comes back when Stein's objection arrives, because it is
+Stein's objection, surfacing on the instrument's own cases. Second, relaying does not accumulate into
 integrating. Relay chains of two, three, and four nodes all factor to zero, while a chain whose every middle
-commits jointly on its two neighbors stays triadic at Φ = 2.0 from three nodes to six. What survives down
-the chain is not the loop as such — the twin above had feedback and factored — but the committing, repeated
-at every station. A conduit does not become an integrator by getting longer.
+commits jointly on its two neighbors stays triadic at Φ = 2.0 from three nodes to six. What survives down the
+chain is not the loop as such — the twin above had feedback and factored — but the committing, repeated at
+every station. A conduit does not become an integrator by getting longer.
 
 The scope of these receipts is the lab's own: hand-built Boolean forms, exact values under the current
 formulation of integrated information theory (Albantakis et al., 2023; the lineage runs to Oizumi et al.,
@@ -233,45 +252,58 @@ that this is evidence about a category of irreducibility, not a measurement of a
 these forms is a model of Hegel's solar system or of his rote-performer; the lab has built no such model.
 What the receipts establish is narrower: the conduit–integrator boundary is a computable distinction, drawn
 by the partition operation on the smallest systems that can carry it. Whether it is the boundary Hegel drew
-is the question the rest of this paper argues — argues, because no shared case has been computed, and I
-would rather say so than have a reader discover it.
+is the question the rest of this paper argues — argues, because no shared case has been computed.
 
 ## The Move the Resemblance Does Not License
 
-Sans gives me less than the bridge needs, and the shortfall is worth measuring exactly. What Sans
-establishes is that Hegel's syllogism is a real structure of wholes: the objective syllogism really exists,
-conceptual relations are in things and not only in thought. What Sans does not establish — and does not
-claim — is that the reality in question is a *causal* structure whose irreducibility a partition test
-measures. Sans's ontology is a Hegelian ontology, which means it is teleological and self-realizing, and he
-is explicit that his reading is not reductionist: Hegel's talk of spiritual mechanism "should not be taken
-in a reductionist sense," and "spirit as such transcends mechanism"; "in things spiritual the center, and
-the union with it, assume higher forms" (Sans, 2018, p. 206). The genuine middle, at its fullest, is not
-gravity holding rocks in orbit. It is a whole producing and sustaining its own unity, a middle that is the
-whole's own act. That is a real structure. It is not a cause-and-effect structure whose parts either survive
-a partition or do not.
+Sans gives me less than the bridge needs. What Sans establishes is that Hegel's syllogism is a real
+structure of wholes: the objective syllogism really exists, conceptual relations are in things and not only
+in thought. What Sans does not establish — and does not claim — is that the reality in question is a *causal*
+structure whose irreducibility a partition test measures. Sans's ontology is a Hegelian ontology, which
+means it is teleological and self-realizing, and he is explicit that his reading is not reductionist:
+Hegel's talk of spiritual mechanism "should not be taken in a reductionist sense," and "spirit as such
+transcends mechanism" (Sans, 2018, p. 206); in things spiritual, Hegel writes, "the center, and the union
+with it, assume higher forms" (Hegel, 1816/2010b, p. 641; quoted in Sans, 2018, p. 206). The genuine middle,
+at its fullest, is not gravity holding rocks in orbit. It is a whole producing and sustaining its own unity,
+a middle that is the whole's own act. That is a real structure. It is not a cause-and-effect structure whose
+parts either survive a partition or do not.
 
 So the resemblance licenses one sentence and not the next. It licenses "Hegel's syllogism is a real
 structure of the whole, a middle through which the extremes genuinely hold together." It does not, by
 itself, license "and that middle is a causal structure whose integrating work is what no partition of the
 cause-effect graph preserves." The step from the first sentence to the second is a step Sans does not take
-and does not owe. It is mine. My criterion asks a narrower question than Hegel's, and the narrowing is
-deliberate: not whether a middle is self-realizing, or alive, or the whole's own act, but whether every cut
-of the intact system costs the parts some of what they do to one another, with the middle inside the core
-that verdict binds. That is a decidable question, and the receipts above answer it on the lab's own forms.
-It is a thinner thing than Hegel's genuine middle. It is thinner on purpose, because thin and decidable is
-what makes it an instrument.
+and does not owe. It is mine. My criterion asks a narrower question than Hegel's: not whether a middle is
+self-realizing, or alive, or the whole's own act, but whether every cut of the intact system costs the parts
+some of what they do to one another, with the middle inside the core that verdict binds. That is a decidable
+question, and the receipts above answer it on the lab's own forms. It is a thinner thing than Hegel's
+genuine middle, thin on purpose, because thin and decidable is what makes it an instrument.
 
-What the arc buys the step is this. The mechanism rung is the one rung on Hegel's ladder where the middle is
-a causal middle and nothing more — where the criterion's question applies without translation loss. And I
-should say what the receipts do not cover. The lab's forms are small discrete systems; no one has rendered a
-gravitating many-body system in that formalism — such a system could not even enter the corpus, whose
-defining constraint is that the outer parties share no direct edge, while gravitation is all-to-all — and
-the instrument's track record is coordination forms, not orbits. The rung supplies the right kind of object
-for the question, not a computed verdict on Hegel's own case. Above the rung, the genuine middle does more
-than any partition test can see, and the next paper is where the ladder and the microscope have that
-reckoning. What this paper claims: at the rung where Hegel drew the conduit-to-integrator ascent in his own
-text, from communication to the center, his boundary and the criterion's are boundaries of the same shape,
-and the shape is now computable on the instrument's side of the bridge.
+What the arc buys the step is this, and no more. The conduit pole is a causal middle and nothing more —
+communication is mechanical straight through, and the criterion reads it with nothing lost. The loss creeps
+back at the other pole. Hegel's real middle is already the objects' own immanent universality, "their
+objective universality," the thing they strive toward, not neutral machinery; the partition test reads only
+its causal shadow, a middle that commits on both parties at once. The fit is tightest at the bottom of the
+arc and loosest at the top. The criterion tracks the shape of Hegel's climb — relay to real middle — and
+reads less and less of what he means by *real* the higher the climb goes. That is the honest width of the
+bridge, and for this paper's one claim it is enough: at the rung where Hegel drew the conduit-to-integrator
+ascent in his own text, his boundary and the criterion's are boundaries of the same shape.
+
+The receipts do not reach further than that, and two limits mark how far they fall short. The first is
+gravitation. No one has rendered a gravitating many-body system in the formalism — such a system could not
+even enter the corpus, whose defining constraint is that the outer parties share no direct edge, while
+gravitation is all-to-all — so Hegel's own case, the solar system, is not a computed verdict but an unbuilt
+one. The second cuts at the shape itself. Hegel's genuine middle, at the summit, is not a fixed hub. It
+rotates: the syllogisms "in which each of the three different objects runs through the determination of the
+middle term and the extreme" (Hegel, 1816/2010b, pp. 642–643), each term taking the middle in turn, all
+three mediating one another — the process of alternating middle terms Moss (2013) reads out of the chapter.
+My receipts hold a different topology fixed: one mediator in the middle, the outer parties sharing no direct
+edge, on purpose, so that the read function is the only thing that varies and the conduit/integrator verdict
+can be pinned to it. That fixed star is closer, in wiring, to Hegel's defective middle than to his rotating
+one. The rotating triad is not beyond the instrument — its extensional face is a different form the lab has
+run, the symmetric three-cycle in which no party is a veto and the thirds fall even — but that is a separate
+receipt doing separate work, and mapping a succession of three syllogisms onto one symmetric wiring is a
+proxy, not an identity. The star reads one shape of Hegel's middle exactly and leaves his highest shape to a
+form built differently. That is a division of labor across the lab's receipts, not a wall the method hits.
 
 ## Stein's Knife: The Middle Tells You How, Never What
 
@@ -288,7 +320,7 @@ The syllogism, Stein concludes, can "neither express objectivity's identity and 
 the conceptual elements' external realities nor determine what the elements specifically are" (p. 151). His
 cleanest formulation is the one that should worry me most: "Applying the syllogistic structure to elements
 determined by the concept might show how and that they relate but it will not tell us what they *are*, i.e.,
-what they are determined as" (p. 151).
+what they are determined *as*" (p. 151).
 
 Read that against my criterion and the threat is obvious, because Stein has described my instrument. A
 partition test shows *that* and *how* the parts of a system hold together; it detects the holding-together
@@ -297,22 +329,23 @@ coordinator. What it reads is thinner than that but thicker than a diagram: each
 causal register's version of what the element is, with everything the parts are for, and mean, and cost
 stripped away.
 
-And one of my own receipts concedes Stein's point before he makes it. The twin with the same wiring showed
-that relational placement decides nothing; what the elements are — their update rules, the only "what" the
-instrument can read — decides whether the relation integrates. That is Stein's priority thesis, reproduced
-inside the causal register by the instrument itself: the relation does not determine its relata, and the
-relata's own determinations settle whether the middle is genuine. The echo must not be oversold. An update
-rule is a causal determination, not a conceptual one; Stein's "what they are determined *as*" is semantic,
-and the instrument reads exactly the thin, structural shadow of the what-side and no more. But the ordering
-is his ordering, and my data enforce it. The program never was a form-first instrument in Stein's sense, and
-the receipts prove it.
+And one of my own receipts rhymes with Stein's point before he makes it. The twin with the same wiring
+showed that relational placement decides nothing; what the elements are — their update rules, the only
+"what" the instrument can read — decides whether the relation integrates. That is Stein's ordering, surfacing
+one register down: the relation does not fix its relata, and the relata's own determinations fix whether the
+middle is genuine. The rhyme must not be oversold, in two ways. First, an update rule is a causal
+determination, not a conceptual one; Stein's "what they are determined *as*" is semantic, and the instrument
+reads only its thin causal shadow. Second, and this is the harder point, Stein's Concept is not the update
+rule — it is whoever *wrote* the update rule, the modeler who hands the elements their determinations before
+the test ever runs. So the instrument does not confirm Stein's thesis. It echoes his order, in a register he
+was not talking about, on cases the modeler set up. That is worth something and no more than that.
 
 So the response is to grant the dependence and name the division of labor. The determining register — what
 the elements are, in the thick sense — sits with whoever specifies the model, where Stein's Concept sits in
 Hegel. The detecting register — whether the specified elements hold together through their middle, and how —
 is the part a partition test can do exactly, and Hegel could only argue. Stein is right that a whole account
-of a rational whole needs both. The claim is that the work on my side of the line is real work, and that
-naming a boundary is not refuting the instrument; it is saying which side of the line it works on.
+of a rational whole needs both. Naming the boundary does not refute the instrument. It says which side of
+the line the instrument works on.
 
 ## Necessary Middles and Contingent Ones
 
@@ -325,20 +358,21 @@ the extremes do next is the question, and they can only answer it over an edge. 
 is a bypass story. The receipts are partition stories. The necessary middle is the one that passes both
 tests: inside the core of the intact whole, and still there when the bypass opens.
 
-Paper 2 worked the held case: a relay can sit in the core of an integrated configuration for as long as a
+Post 2 worked the held case: a relay can sit in the core of an integrated configuration for as long as a
 constraint forbids the parties to bypass it — the car dealer of the lab's q213 study, whose entire
 integration collapsed the moment the forbidden maker–buyer tie was restored. So the final form of the
-integrator criterion is not bare core membership but core membership that survives the counterfactual. The
-middle that stays is doing integrating work. The middle that drops was a gate. And the instrument names a
-third case between them — the middle that keeps its seat while the system sheds most of its integration,
-part work and part wall. Hegel's rote reciter is a conduit simpliciter. His corporations, the argument of a
-later paper, are his claim that some social middles are necessary in the surviving sense. The master of
-Paper 2 was a middle-holder of the other kind, whose binding fell with the force that held it.
+criterion is not bare core membership but core membership that survives the counterfactual. Call the middle
+inside the core the integrator; call the one that survives the bypass too the necessary middle. The middle
+that stays is doing integrating work. The middle that drops was a gate. And the instrument names a third case
+between them — the middle that keeps its seat while the system sheds most of its integration, part work and
+part wall. Hegel's rote reciter is a conduit simpliciter. His corporations, the argument of a later post, are
+his claim that some social middles are necessary in the surviving sense. The master of Post 2 was a
+middle-holder of the other kind, whose binding fell with the force that held it.
 
 The cases where this matters are the ones where a middle looks necessary and proves contingent, or the
 reverse. A broker who sits between buyer and seller and appears to be the market can turn out to be a relay
 the two sides route around the moment his fees rise. The platform everyone treats as indispensable can be,
-in the register of cause, a well-organized conduit — if its matching and pricing run in shards, no single
+once you look at the wiring, a well-organized conduit — if its matching and pricing run in shards, no single
 middle is load-bearing, and the whole factors. Whether any given platform is built that way is an empirical
 question this program has not touched; the point is that indispensability-talk and load-bearing in the
 causal register are different properties, and only the second is what the test reads. And the opposite case
@@ -363,29 +397,28 @@ located work reads Hegel's middle term against network brokerage — the Simmel-
 thirds and structural holes (Burt, 1992; Obstfeld, 2005; Simmel, 1908/1950) traces itself to Simmel's triad,
 never to Hegel's *Schlusslehre* — and none reads it against a causal criterion that asks what a partition
 costs. That step is this paper's own, and the claim is bounded exactly there: not that Hegel anticipated the
-criterion, but that the boundary he drew and the boundary it computes are the same boundary, drawn by him,
-in his own chapter, from communication to the center.
+criterion, but that the boundary he drew and the boundary it computes are boundaries of the same shape, his
+drawn in his own chapter, from communication to the center.
 
 ## Two Middles
 
-Hegel's rational middle and my partition-necessary middle are not the same middle. His genuine middle, at
-its fullest, is a whole's own act of making and sustaining its unity — self-realizing, transcending
-mechanism, alive. Mine is the term inside the core no cut can factor, computed on a finite graph, silent
-about life and purpose and what the parts are. Where they agree, they agree exactly: a middle that only
-relays is no real middle, and Hegel wrote that verdict twice, once against the formal syllogism's abstract
-middle and once against communication in the mechanical process. Where they part is on what a genuine middle
-is, and the parting is the next paper's subject, not this one's.
+Hegel's rational middle and my partition middle are not the same middle. His genuine middle, at its fullest,
+is a whole's own act of making and sustaining its unity — self-realizing, transcending mechanism, alive.
+Mine is the term inside the core no cut can factor, computed on a finite graph, silent about life and purpose
+and what the parts are. Where they agree they agree on one thing, and Hegel wrote it twice: a middle that
+only relays is no real middle, once against the formal syllogism's abstract middle and once against
+communication in the mechanical process. Where they part is on what a genuine middle *is*, and the parting is
+the next post's subject, not this one's.
 
-What this paper leaves on the table, deliberately, is the computation it cannot claim. The center of Hegel's
-solar system is a real middle in his sense. Whether it is partition-necessary in mine is a question no one
-has computed, on a model no one has built — and under the corpus's own definitions it is not even well-posed
-yet, since gravitation is all-to-all and the corpus is built on strict mediation. What the criterion can do,
-which it could not do before this paper, is put its question to Hegel's text at the one rung where the
-question needs no translation: the ascent from communication to the center reads as an ascent from Φ = 0 to
-Φ > 0 in everything but notation, and testing that reading — building the model, running the cut — is owed,
-not done. Hegel spent a chapter teaching his readers to tell a real middle from a relay by the labor of the
-Concept. The program tells the same difference by a cut and a count, on its own forms, so far. Nine
-strict-mediated middles in ten are conduits. Hegel would not have been surprised.
+What this paper does not claim is the computation it cannot: the center of Hegel's solar system is a real
+middle in his sense, and whether it is partition-necessary in mine is a question no one has computed, on a
+model no one has built — one not even well-posed yet, since gravitation is all-to-all and the corpus is built
+on strict mediation. What the criterion can do, which it could not do before this paper, is put its question
+to Hegel's text at the one rung where the question needs no translation: the ascent from communication to the
+center is the same boundary the criterion reads, not yet the same computation, and building the model and
+running the cut is owed, not done. Hegel spent a chapter teaching his readers to tell a real middle from a
+relay by the labor of the Concept. The program tells the same difference by a cut and a count, on its own
+forms, so far. Nine strict-mediated middles in ten are conduits. Hegel would not have been surprised.
 
 ## References
 
@@ -398,7 +431,7 @@ https://doi.org/10.1371/journal.pcbi.1011465
 Burt, R. S. (1992). *Structural holes: The social structure of competition*. Harvard University Press.
 
 Christensen, B. (2024). Beyond individualism and holism: Integrated information theory as formal framework
-for the gradation of social structure. *Erkenntnis*. Advance online publication.
+for the gradation of social structure. *Erkenntnis, 90*(8), 3447–3482.
 https://doi.org/10.1007/s10670-024-00845-0
 
 Günther, G. (1976–1980). *Beiträge zur Grundlegung einer operationsfähigen Dialektik* [Contributions to the
@@ -417,10 +450,16 @@ https://doi.org/10.1017/9780511780226 (Original work published 1830)
 Hegel, G. W. F. (2010b). *The science of logic* (G. di Giovanni, Ed. & Trans.). Cambridge University Press.
 https://doi.org/10.1017/9780511780240 (Original work published 1816)
 
+Kreines, J. (2006). Hegel's metaphysics: Changing the debate. *Philosophy Compass, 1*(5), 466–480.
+https://doi.org/10.1111/j.1747-9991.2006.00037.x
+
 Lawvere, F. W. (1991). Some thoughts on the future of category theory. In A. Carboni, M. C. Pedicchio, &
 G. Rosolini (Eds.), *Category theory: Proceedings of the International Conference held in Como, Italy, July
 22–28, 1990* (Lecture Notes in Mathematics, Vol. 1488, pp. 1–13). Springer.
 https://doi.org/10.1007/BFb0084208
+
+Moss, G. S. (2013). Hegel's free mechanism: The resurrection of the concept. *International Philosophical
+Quarterly, 53*(1), 73–85. https://doi.org/10.5840/ipq20135317
 
 Obstfeld, D. (2005). Social networks, the tertius iungens orientation, and involvement in innovation.
 *Administrative Science Quarterly, 50*(1), 100–130. https://doi.org/10.2189/asqu.2005.50.1.100
@@ -428,6 +467,9 @@ Obstfeld, D. (2005). Social networks, the tertius iungens orientation, and invol
 Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness:
 Integrated information theory 3.0. *PLOS Computational Biology, 10*(5), Article e1003588.
 https://doi.org/10.1371/journal.pcbi.1003588
+
+Pippin, R. B. (2019). *Hegel's realm of shadows: Logic as metaphysics in "The Science of Logic"*.
+University of Chicago Press.
 
 Protin, C. (2025). *Hegel and modern topology* (arXiv:2501.02367). arXiv.
 https://doi.org/10.48550/arXiv.2501.02367
@@ -456,67 +498,84 @@ https://doi.org/10.1093/oso/9780198778165.003.0007
 
 ## Sourcing note (delete before posting/submission, once items are closed)
 
-**What v4 did (five-reviewer panel, posts/post3_reviews/, + foundation run wf_d4132428, all verified):**
-- **The "coincidence" is replaced by the Mitteilung→Mitte arc, cited directly.** The panel's convergent
-  finding: the mechanism-rung claim as written equivocated between Hegel's category and the causal register
-  (the solar system is *absolute/free* mechanism, already self-transcending). The Hegel specialist's repair,
-  verified in the German and now in di Giovanni's English with pages: Hegel's own chapter runs from the
-  aggregate ("composition, mixture, aggregate," p. 631) through *communication* (p. 635; the scent image,
-  pp. 635–636; laws/morals, p. 636) to the center as "the real middle term" (p. 641) and free mechanism
-  (pp. 642–643) — the conduit-to-integrator ascent drawn by Hegel inside one chapter. The honesty tax is
-  paid: the rung is the top of Hegel's mechanism, not its floor.
-- **Four Hegel-within-Sans quotes re-attributed to Hegel** with verified di Giovanni pages (631, 641, 643 —
-  the gravity line is p. 643, correcting the copyeditor's p. 641 guess). "Spiritual mechanism" is now
-  correctly presented as the Mechanism chapter's account (mechanical memory, habit), converging with — not
-  fused into — the syllogism chapter's formal-syllogism complaint (§182).
-- **The three operations are named** (partition / bypass counterfactual / removal), the criterion glosses no
-  longer say "removes the middle," the flagship term is defined by partition + core membership, and the
-  opening vignette is identified as a bypass story. The partial cell is stated.
-- **The solar-system conjunction is decomputed**: v3's "a partition-necessary one in mine" is replaced by
-  the honest form (no model, not yet well-posed — gravitation is all-to-all, the corpus is strict-mediation)
-  plus what the paper can claim: the arc reads as Φ = 0 to Φ > 0 "in everything but notation," and the test
-  is owed, not done.
-- **Stein gets the read-functions card**: the identical-wiring receipt is presented as Stein's priority
-  thesis confirmed in the causal register (with the not-oversold caveat: causal determination, not
-  conceptual); the "shape of the dependence" self-contradiction is fixed; the p. 149 quote is now a block
-  quote (41 words) with Stein's italics reproduced ("determination," "are").
-- **Precision bundle applied**: receipts now cite Albantakis et al. (2023) as the computed formalism
-  (16-author entry verified against the journal page; Oizumi et al. 2014 kept as lineage); Φ stated as
-  verdict-not-scale; "identical wiring" softened and the population conditional added; the chain sentence
-  unspliced (nodes, and the survival credited to committing, not feedback); the 9.4% census added; the
-  priority claim narrowed (Aristotle, Plato named); guard leaks fixed ("got to it first" → "drew it";
-  "century and a half early" → "in another vocabulary"); Gaius de-Greeked; the syllogism placed at the close
-  of subjectivity; "implies" → "suggests"; Hegel 2010a (EL) / 2010b (SL) re-lettered per APA (reversed from
-  v3); Vieweg/Lawvere/Protin/Günther pinned with verified entries; Harvey's "productive middle term" phrase
-  de-quoted (unconfirmable against the Cloudflare-gated PDF — now a description); first names dropped from
-  narrative citations; *Encyclopaedia* → *Encyclopedia* in body; §198R given its page (p. 273, via Sans's
-  B&D citation convention); "the pinned translation" scaffolding-dependency removed; the self-quoted lab
-  documentation paraphrased in the apparatus and receipts (verbatim provenance lives here and in the repo,
-  not in the prose); the close de-templated (no negative-point/positive-point re-run; ends on the unpaid
-  computation and the census).
-
-**Verification upgrades from the foundation run:**
-- **B&D §182 "rational but non-conceptual" is now two-source**: the adversarial checker located a second,
-  page-anchored reproduction of the B&D print edition confirming the rendering (the earlier EPUB was
-  one-source). The German gains a correction: the sentence includes "somit" ("Dieser Schluß ist somit das
-  Vernünftige als begrifflos") — the paper quotes only the English. Wallace's "but in utter notionlessness"
-  supplies translation precedent for the adversative reading. A physical spot-check at proof remains prudent
-  for §181–182 emphases (B&D italicize "rational" and "everything" in §181; "everything is a syllogism" in
-  quotes and italics in §181R).
-- All Mitteilung-arc quotes primary-confirmed with pages and GW numbers (communication p. 635 / GW 12.138;
-  scent pp. 635–636; laws/morals p. 636 / GW 12.139; spiritual mechanism and aggregate p. 631 / GW 12.133;
-  reelle Mitte and individualized universality p. 641 / GW 12.143; free mechanism pp. 642–643 and gravity
-  p. 643 / GW 12.145).
+**What v5 changed (round-2 five-reviewer panel, posts/post3_reviews/, + a verified research pass):**
+- **The hinge no longer contradicts itself** (hostile R2 and the Hegel specialist independently, both
+  verified against di Giovanni p. 641). v4 said the mechanism rung is "a causal middle and nothing more…
+  the criterion's question applies without translation loss" (old lines 264–266) three lines after calling
+  the same rung "already the Concept showing through… not neutral machinery." Hegel's *reelle Mitte* is the
+  most Concept-loaded moment of the chapter, so v5 replaces the "without translation loss" claim with the
+  graded one: **the fit is tightest at the conduit pole and loosest at the integrator pole**, where the
+  partition test reads only the causal shadow of the real middle.
+- **"The same boundary" downgraded to "boundaries of the same shape"** everywhere it carried weight (R2 F1);
+  the close's guard-brush "in everything but notation" is retired to "the same boundary, not yet the same
+  computation" (R2 + Hegel F3).
+- **The intro overclaim fixed** (R2 F2): "meet on ground the instrument has actually measured" → "the one
+  paper in the series where the instrument's own side of the distinction is measured rather than argued."
+- **The second skeptic is now faced** (R2 F4, Hegel F5, research concept 1). A new paragraph names the two
+  camps in Hegel-Logic scholarship — the metaphysical-revival line (Sans, Kreines, Stern, Houlgate) vs. the
+  non-metaphysical/categorial line (Hartmann, Pinkard, Pippin), per Kreines (2006) — and concedes, using
+  **Sans's own words** ("subjectivity as well as objectivity are determinations of the Concept as such and do
+  not refer directly either to mind or to nature"), that even the paper's anchor reader does not secure a
+  mind-independent causal structure. The bridge is therefore a homology of shape, not an identity of
+  referents. Per the research verification: Pippin is characterized as the "logic as the science of pure
+  thinking" reader, **not** "deflationary" (in *Realm of Shadows* he insists logic *is* metaphysics); the
+  axis that matters is causal-realist vs. not.
+- **A second ontological reader added** (Hegel F5, research concept 2): Moss (2013), verified verbatim on
+  free mechanism as "a triad of syllogisms, which altogether constitute a process of alternating middle
+  terms" — de-risking the one-source (Sans) dependency, and doubling as the textual basis for the topology
+  point.
+- **The topology gap entered as a real limit** (R2 F5, research concept 4): Hegel's genuine middle rotates
+  in an all-to-all triad; the instrument's integrator is a fixed-mediator star, closer in wiring to Hegel's
+  *defective* middle. v5 concedes this and frames it as a division of labor across receipts (the rotating
+  triad's extensional face is the symmetric 3-cycle receipt — a proxy, not an identity), not a wall the
+  method hits.
+- **The "communication has no middle" upgrade** (Hegel F6): the arc is "no real middle → a real middle," a
+  tighter match to the criterion (the conduit's apparent middle "rides along as a bystander"); and the "one
+  continuous stretch" now acknowledges the arc runs *through* the real mechanical process (reaction,
+  resistance, subjugation) (Hegel F8).
+- **The Φ verdict/scale tension resolved** (formal specialist, verified against the repo census): "the
+  largest value any form attains" is cut; v5 states the family attains **three** Φ bands (232 at 0.0, eight
+  at 0.5, sixteen at 2.0; the 24 triadic = 8 + 16), and that the criterion reads the verdict, not the
+  magnitude.
+- **Stein downgraded from confirmation to rhyme** (R2 F7, Hegel F2): "confirmed/reproduced/enforce" →
+  "rhymes/echoes"; **Stein's Concept is the modeler** who writes the update rules, not the update rule
+  itself, now stated. The italic on line 305 ("determined *as*") is corrected to match the block quote.
+- **Line 248 misattribution fixed** (copyeditor + Hegel F4, verified): "the center, and the union with it,
+  assume higher forms" re-attributed to Hegel (di Giovanni p. 641; quoted in Sans, 2018, p. 206).
+- **Christensen entry corrected** (research concept 3, verified on the PDF face): *Erkenntnis, 90*(8),
+  3447–3482 (vol. 90, not 89; "Advance online publication" dropped). Copyright year 2024 confirmed; Springer's
+  printed header reads (2025) — keep 2024 unless the venue cites by issue cover-date.
+- **§198 locus fixed** (research concept 4): "the state is a system of three syllogisms" now cites
+  §198 (main paragraph), not §198R p. 273 — a corrected drift matching Post 6.
+- **Flagship term de-fused** (formal specialist): "partition-necessary middle" no longer names only the
+  partition half; the integrator (partition-core membership) and the necessary middle (survives the bypass
+  too) are named distinctly.
+- **Register** (voice reader): six performed-honesty phrases cut ("and I will flag it when I make it," "the
+  exactness marks the line…," "registered and left," "and I would rather say so…," "the shortfall is worth
+  measuring exactly," "leaves on the table, deliberately"); four section-closing epigrams flattened to plain
+  facts; the minimal-pair lab-note scare quotes rewritten as prose; "in the register of cause" → "once you
+  look at the wiring"; the his-vs-mine antithesis before the census compressed; the section title "The
+  Objection That Would Sink the Paper" shortened to "The Objection." "Paper N" self-references standardized
+  to "Post N." "rung" thinned.
 
 **Still gated / verify before posting:**
-- Sans print pages (191–213, publisher-typeset author PDF) — spot-check at proof.
-- Redding p. 43 caveat stands (the quoted sentence characterizes Hegel's Plato/Aristotle distinction within
-  a discussion of Robin Smith's thesis).
-- Harvey (2002): if a direct quotation is ever wanted, open the PDF in a browser (Cloudflare-gated to
-  non-browser clients) and pull page + wording.
-- Protin (2025) is a live arXiv preprint (v9 as of 2026-06); pin a version if quoted.
-- The lab receipts are internal (corpus/classifier/STRUCTURAL_FINDINGS/q213); decide the citation form
-  before journal submission. pure_relay is a first-pass form (its Φ = 0.00 is exact and independently
-  reproduced by the relay-chain experiment); ats_strict_bottleneck is validated.
-- The open computation named in the close (a model of the solar-system triad; requires extending the
-  formalism beyond strict mediation) is the author's call, not a writing task.
+- Physical-copy checks on the di Giovanni SL quotes (pp. 588, 631, 635, 636, 641, 642–643) and the §182
+  "begrifflos" rendering, per the standing series gate (primary was read against the freely circulating
+  draft translation).
+- **Sans page for the "neither directly to mind or to nature" quote** — verified verbatim from the
+  open-access chapter PDF in the research pass but not yet page-anchored; confirm the page (the objectivity
+  discussion, ~pp. 202–206) at proof.
+- **Moss (2013)** pages 73–85 verified; confirm the p. 78 locator for "alternating middle terms" and the
+  IPQ DOI (10.5840/ipq20135317) against the published PDF.
+- Kreines (2006) two-camp framing confirmed via the abstract; note that Kreines is himself a
+  metaphysical-revival partisan (he judges the non-metaphysical reading "unconvincing"), so he is cited for
+  the recognized *vocabulary* of the split, not as a neutral referee.
+- Sans print pages (191–213), Redding p. 43 caveat, Harvey (2002) direct-quote (Cloudflare-gated), and
+  Protin (2025) arXiv version — all as in v4.
+- The lab receipts are internal (corpus/classifier/STRUCTURAL_FINDINGS/q213); all fifteen were re-verified
+  against the repo this round (256/24/9.4%, the Φ bands, the 15% read-both figure, the relay/committing
+  chains, the q213 collapse). Decide the citation form before journal submission.
+- **Author-only:** a real, anonymized lived middle for the opener and for the affirmative case (the
+  intermediary that "looks like overhead… and turns out to be the term through which the whole was ever a
+  whole") — the one hypothetical the paper still leans on, which no reviewer can fabricate. And the final
+  freeze on the flagship term (integrator vs. necessary middle) across Posts 4–9.
