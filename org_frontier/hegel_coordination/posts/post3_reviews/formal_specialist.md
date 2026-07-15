@@ -1,158 +1,290 @@
-# Formal-fidelity review — Post 3, "The Real Middle Term: Hegel's Syllogism and the Difference Between a Conduit and an Integrator"
+# Formal-fidelity review (round 2) — Post 3, "The Real Middle Term"
 
-Reviewer lens: integrated information theory, network/brokerage theory, formal coordination models. All receipts checked against the lab sources and, where the sources were ambiguous, against the code and result files themselves (`corpus/forms_library.py`, `corpus/results/population.csv`, `multiparty/chains.py`, `recurrence/iit_experiments.py` E3/E6).
-
-**Verdict: major revisions — but the fixes are local, the receipts are substantially faithful, and the bridge stands.** The single most important fix: the paper's own coined term, the *partition-necessary middle*, is defined twice by an operation the instrument never performs — node removal — and once by a cut restricted to the middle, which the instrument also never performs. The apparatus paragraph near the top states the test correctly; every later gloss of it drifts. Make the glosses agree with the apparatus, and name the three operations (partition, bypass counterfactual, removal) once, explicitly, so Papers 4–9 inherit clean definitions.
-
----
-
-## Step 0 — Register
-
-First-person academic essay, third post of a nine-post series: a philosophical argument that carries computed receipts, Nagel-plain in ambition, APA citations, deliberately voiced ("I," "my criterion," "my lab"). The bar I hold it to: the global house style's invariants (named agents, claim-first, verified numbers, antithesis budget, no performed candor) inside the series' own essay register — not the dissertation's no-first-person rule, which does not govern this venue.
+Reviewer lens: integrated information theory (IIT 4.0), network/brokerage theory, formal coordination
+models. Every numeric and structural receipt was re-derived from the lab sources: `corpus/results/population.csv`
+(re-run of the value distribution), `corpus/forms_library.py`, `corpus/FINDINGS.md`, `classifier/FINDINGS.md`,
+`org_frontier/STRUCTURAL_FINDINGS.md`, `multiparty/chains.py` + `multiparty/results/chains.csv`,
+`recurrence/iit_experiments.py` (E3), and `questions/q213_contingent_irreducibility/FINDINGS.md`. This is a
+v4 review: the prior formal_specialist.md (v3) is in the sibling `post3_reviews/`, and I do not re-report items
+v4 already closed. I confirm the closures where they bear on my findings and then go after what remains.
 
 ---
 
-## Part 1 — Formal rigor, ranked most damaging first
+## 1. Verdict and the single most important fix
 
-### 1.1 The criterion's own gloss conflates partition with removal, and restricts the cut to the middle. (Lines 172–176, 190–191, 233–236, and the whole opening of "Necessary Middles and Contingent Ones.")
+**Verdict: accept with minor revisions.** This is a materially stronger draft than v3. Every computed receipt
+in the paper is faithful to the repo — I re-ran the population census and it matches to the form. The v3
+panel's two load-bearing defects are genuinely fixed: the partition/removal conflation is gone (the three
+operations are named cleanly in "Necessary Middles"), and the solar-system verdict-claim is decomputed to a
+well-posed-but-unrun question. Both series guards hold. The fixes that remain are local and do not threaten
+the bridge.
 
-The apparatus paragraph (lines 31–37) states the test correctly and well: "cut the system every way it can be cut, and check whether any cut leaves the parts making the same differences to one another. Where no cut does, the configuration is integrated." That is Φ over the minimum-information partition: cuts sever dependencies; every party stays in place; the verdict quantifies over *all* partitions.
+**The single most important fix — a live tension the paper states but does not resolve.** The minimal-pair
+sentence (lines 211–214) reads Φ = 2.0 as *both* an extremal magnitude and a non-magnitude in one breath:
 
-Then the glosses drift, in three ways at once.
+> "...at Φ = 2.0 against the relay's 0.0 — the largest value any form in the family attains, though the lab
+> reads Φ as a verdict rather than a scale, and so do I."
 
-**(a) Removal enters where no removal happens.** Line 172–174: "It asks whether any way of cutting the arrangement *that removes the middle* preserves what the three did as one." Line 235–236, inside the definition of the paper's flagship term: "whether it is partition-necessary — whether any way of cutting the system *that removes the middle* preserves what the system does." A partition removes nothing. It severs edges over an intact node set. Node removal — knockout — is a different operation with different mathematics (a smaller system, a different TPM), and the lab has never used it as the criterion. Paper 2's panel caught the partition-versus-counterfactual conflation; Paper 3 has re-introduced the disease in a new strain, partition-versus-knockout, and this time inside the definition of the term the whole series will inherit.
-
-**(b) The cut is not restricted to the middle, and in the actual receipts it does not even pass through the middle.** The MIP ranges over all partitions. In the paper's own two central receipts, the factoring cut strands an *extreme*: the triadic forms' minimal cut is {W, SC} (classifier FINDINGS, point 3 — "a 2-part party-respecting partition," the mediator glued to C), and the identical-wiring twin factors along {W,S}|{C} (corpus FINDINGS, point 2 — the mediator glued to W). So line 190–191 — "what a cut *through the middle* destroys, and what it leaves standing" — is not a description of what the test did on these forms. The mediator is "written out" by the verdict's bookkeeping (the whole reads as a chain dyad), not by a knife through its node.
-
-**(c) The quantifier direction is muddy.** "Whether any way of cutting... preserves... Where it survives / where it does not" leaves ambiguous which side owns the existential. The correct logic: conduit iff *some* cut is lossless (Φ_MIP = 0); integrator iff *every* cut costs something (Φ_MIP > 0). The rewrite in Part 3 fixes all three defects in the author's voice.
-
-**The "Necessary Middles" section doubles the damage and then, two sentences later, quietly states the right operation.** Lines 294–299 define the necessary middle by removal ("remove it, cut the system any way you like, and the joint doing is gone") and the contingent middle by removal too ("remove it and the extremes find another path"). But q213's actual operation is not removal in either direction: it *restores the forbidden edge* and reads whether the party keeps its seat in the core (q213 FINDINGS: "The instrument restores the forbidden edge and recomputes"). The paper then gets this exactly right at lines 304–306 ("restore the forbidden tie, or lift the compulsion, and see whether the middle stays"). So the section contains both the wrong definition and the right one, and a hostile formalist will quote them against each other.
-
-The generous reading — and I think the true one — is that the opening vignette seeded this. "Take the middle away and you find out what it was" is knockout language, and the two teams rerouting around the gap in a morning is *the bypass counterfactual*, not the partition test: the reroute restores the direct tie the coordinator's presence had made unnecessary, which is q213's operation to the letter. This is a gift, not a bug, once the operations are named. The paper has three: the partition (what the intact whole is), the bypass counterfactual (who keeps their seat when the direct tie returns), and removal (the world's own crude experiment, which the second operation formalizes and the first does not). Say so once, in one paragraph, and the vignette becomes a bypass story that motivates the whole architecture instead of a source of contamination. Part 3 drafts that paragraph.
-
-One adjacent nit at line 34–35: "the parts that no partition separates form its core" is formally incoherent read literally (every candidate partition separates some parts); the major complex is the subsystem where the integration is maximal, not a set no partition touches. A one-clause soften fixes it (Part 3, R8).
-
-### 1.2 The solar system: the paper crosses a line it drew for itself two sections earlier. (Lines 240–244 and 347–348.)
-
-The receipts section is scrupulous: "None of these forms is a model of Hegel's solar system or of his praying rote-performer; the lab has built no such model" (lines 207–208). Then "Two Middles" asserts, flatly: "The center of his solar system is a real middle in his sense and a partition-necessary one in mine" (347–348). Nothing computes that. Nothing *could* compute it in the lab's formalism as it stands: the receipts are exact Φ on small Boolean TPMs, capped around ten to twelve nodes; a gravitating N-body system is continuous, all-to-all coupled (Earth and Moon attract each other directly — the arrangement is not even strict-mediated, and while the lab's toggles show a partial back-channel need not collapse a triad, an all-to-all continuous system is far outside the family the receipts cover). IIT on continuous classical dynamics is an open research problem, not a lab capability. The sentence claims a verdict where the paper owns, at most, a well-posed question.
-
-Same defect, softer form, at 241–242: the mechanism rung "is where a causal-partition criterion lives and does its best work," and 244: "the level my instrument was made to read." The instrument was made to read small discrete coordination forms; its best work — all of its work — is on Boolean triads and chains, not on forces, centers, and orbits. What the mechanism rung genuinely supplies is something better than comfort, and the paper should claim exactly that: it is the one rung on Hegel's ladder where the middle is a *causal* middle and nothing more, so the criterion's question applies without translation loss. That is a claim about where the question is well-posed, not about where the instrument has a track record. The honest flag costs two sentences and strengthens the paper, because the paper's whole method is marking unlicensed moves in the open; here is one it missed. Part 3, R4.
-
-### 1.3 The "read functions decide" receipt hands Stein an unexploited confirmation — and quietly contradicts the Stein section's own vocabulary. (Lines 195–199 against 266–268.)
-
-The receipts section says, correctly and with a verbatim source quote: "The read functions, not the wiring, decide" (classifier FINDINGS, point 2). The Stein section then says the instrument "knows only the *shape* of the dependence among three nodes" (267–268). Those two sentences cannot both stand as written. The TPM is not a shape; it encodes every node's full update rule. The instrument's own flagship receipt is that shape — who sits between whom — decides nothing.
-
-And this is not just a vocabulary slip; it is a missed argument, the best one available to the Stein section. Stein's thesis is that the syllogism shows *how and that* elements relate but never *what they are*, the determination of the elements coming from elsewhere (the Concept). The identical-wiring twin is that thesis confirmed in the causal register: the relational placement determines nothing; what the elements *are* — their own update rules, the only "what" the instrument can read — determines whether the relation integrates. The population result makes it quantitative: a mediator that reads both parties is triadic only 15 percent of the time; the parties' own read functions decide the rest (corpus FINDINGS). The paper gestures at this once ("the causal register's version of Hegel's point that a middle term is not yet a genuine one," 198–199) and then argues the Stein section as pure boundary-granting. It should instead present the receipt as a concession made *before Stein asked for it*, with the residual claim intact: the instrument reads a thin formal shadow of the what-side (update rules), and no more. That is both more accurate and more disarming. A hostile referee who spots the tension unaided will read it as the paper not understanding its own instrument. Part 3, R6.
-
-There is a second face to the same problem: the bridge to Hegel leans on the syllogism as "a shape of wholes" (line 106) and the middle as "the term through which the extremes hold together" — topological language — while the receipts show topology underdetermines the verdict (9 in 10 strict-mediated middles factor). The repair is available in Hegel's own text and the paper already quotes it: §182 defines the genuine middle *functionally* — the middle through which "the subject joins itself together with itself" — by what the mediation does, not where it sits. One sentence connecting §182's functional definition to the read-functions receipt closes the gap and tightens the bridge.
-
-### 1.4 Magnitude drift: "the maximum integration the little system can carry" and "full integration." (Lines 188–189, 200–201.)
-
-I verified the factual core: in `corpus/results/population.csv`, the 256-form family's Φ values are exactly {0, 0.5, 2.0} — 232 forms at zero, 8 at 0.5, 16 at 2.0 — so Φ = 2.0 *is* the largest value any form in the family attains, and the claim is empirically true. But the lab's own standing caveat, stated in both corpus and classifier FINDINGS, is that "Φ magnitude is encoding-dependent and not a scale" and that the dissertation *withdrew* the graded claim: "Φ = 2.0 vs 0.8301 across triads is not a difficulty ranking... Read the verdict." "The maximum integration the little system can carry" and "at full integration" read magnitude as a scale — precisely the reading the sources retired. The fix is cheap: state the extremal fact as an extremal fact and import the caveat in a clause (Part 3, R5a). Without it, a referee who reads the lab sources will call this cherry-picking the one register the lab disavowed.
-
-### 1.5 "The identical strict-mediation wiring" is not quite identical. (Lines 195–196.)
-
-I checked the rules. `ats_strict_bottleneck`: W′=S, S′=W∧C, C′=S. `ats_feedback_factors`: W′=¬S, S′=W∧C, C′=S∨C. The inter-party skeleton is the same (no W–C edge, mediator reads both), but the twin's C reads *itself* — a self-loop the bottleneck lacks. The lab's own E6 print line says "same topology," so the paper inherits a loose usage rather than inventing one, but the paper amplifies it to "identical," and a referee with the code open will note the extra edge. Two repairs, either sufficient: (i) soften to "the same strict-mediation wiring between the parties"; (ii) better, rest the point on the population conditional, which needs no single pair: P(triadic | mediator reads both) = 15.0%, P(triadic | it does not) = 0.0% — read-function variation decides within the wiring class, full stop. Part 3, R5b.
-
-### 1.6 Chain receipts: "links" should be nodes; "the same depth" overstates; "feedback chain" misattributes the survival. (Lines 199–202.)
-
-Three small infidelities in one sentence. First, E3 (`recurrence/iit_experiments.py`) runs relay chains of *two, three, and four nodes* ("len 2/3/4" in the code; the essay says "length two, three, and four"); the paper's "two, three, and four links" turns node counts into edge counts and is wrong as written. Second, the surviving chains run n = 3–6 (STRUCTURAL_FINDINGS, finding 6), the relays n = 2–4; "through the same depth of mediators" claims a range match that holds only at the overlap. Third, and most substantively: the surviving chain (`multiparty/chains.py`) is not saved by feedback as such — each interior mediator *commits jointly on both neighbours* (Sj′ = S(j−1) ∧ S(j+1)). Calling it "a feedback chain" attributes the survival to loop topology in the very paragraph whose headline is that topology does not decide — and the paper's own twin is the counterexample, a form the corpus titles "realistic feedback — yet factors." The accurate and more Hegelian statement: what survives down the chain is the committing repeated at every station. Part 3, R5c. (I also note "at every length the lab has run" is honest and should stay.)
-
-### 1.7 The anticipation guard leaks in three places. (Lines 20, 27–28, 213–214.)
-
-The paper's own bound is exact and well-put: "not that Hegel anticipated the criterion, but that the boundary he drew and the boundary it computes are the same boundary" (334–335). Three earlier sentences run ahead of it: "Hegel got to it first" (20), "the conduit-versus-integrator line drawn a century and a half early" (27–28), and "He drew the boundary the test is built to find" (213–214) — the last with a bonus teleology, as if the lab built the test to find Hegel's boundary. Each is technically about the *distinction* rather than the criterion, so each is arguably inside the bound; but a hostile reader quotes the intro against the ending, and the fix costs nothing (Part 3, R7). Priority framing is the one rhetorical debt this series cannot afford, given the guard.
-
-### 1.8 The IIT citation is the wrong version for the computed receipts. (Line 204, references.)
-
-The paper cites "exact integrated-information values via the published formalism (Oizumi et al., 2014)" — whose own reference-list title reads "integrated information theory 3.0." Every lab source behind the receipts computes *exact IIT-4.0* Φ (corpus FINDINGS line 3, STRUCTURAL_FINDINGS, q213 FINDINGS all say so explicitly). The mismatch is internal to the paper's own materials, so no external lookup is needed to establish it. Cite the IIT 4.0 formulation (Albantakis et al., 2023, in *PLOS Computational Biology*) as the computed formalism — verifying that entry against the version of record before it enters the draft, per house rule — and keep Oizumi et al. (2014) as lineage if wanted.
-
-### 1.9 The 9.4% is promised and never delivered — and it is the paper's most Hegelian number. (Lines 181–184; sourcing note.)
-
-The sourcing note says the 256-form family is cited with its 9.4% triadic rate. The body gives the 256 and omits the rate. This is both a completeness defect and a missed gift: nine strict-mediated middles in ten are conduits. Hegel's complaint that most middles are defective middles — that the formal syllogism's external middle is the *common* case and the genuine middle the rare achievement — has a census. One sentence (Part 3, R10).
-
-### 1.10 Smaller formal notes, in descending order.
-
-- **The q213 taxonomy has four cells; the paper's refinement paragraph states two.** "The middle that stays is doing integrating work; the middle that drops was a gate" (306–307) elides *partial* — the mediator that keeps its seat while the system sheds most of its Φ (margin 1.585 in the worked case). One clause covers it; without it, the "final form of the integrator criterion" is stated on a binary the instrument itself refines.
-- **`pure_relay` is a first-pass form.** Corpus FINDINGS flags it as not yet validated against the dissertation's worked cases (the Φ = 0.00 computation itself is exact and matches). The exposure is near-zero because E3's three-node relay independently computes the same structure to zero, but a one-clause acknowledgment — or an added lean on E3 — would be scrupulous for the paper's central minimal pair, whose other member (`ats_strict_bottleneck`) is fully validated.
-- **"All three parties in one irreducible core" (188)** quotes the source essay's own verdict language, so fidelity holds; strictly, whole-system Φ_MIP > 0 and major-complex membership are distinct computations (STRUCTURAL_FINDINGS, finding 8, is explicit that they can dissociate). No change required; flagging so the author knows the language is the essay's, not the formalism's.
-- **"The car dealer being the worked case" of Paper 2 (303–304):** in the lab, the car dealer is q213's worked case. If Post 2 borrowed it, fine; confirm the cross-reference against Post 2's text rather than my say-so.
-- **APA mechanics:** the two Hegel 2010 entries must be 2010a/2010b (both, in text and list — the paper currently runs 2010 and 2010b). Vieweg is named with a claim and no entry or date; Lawvere and Günther carry substantive characterizations ("adjoint-modality reconstruction," "polycontextural logic") with no citations and no entries. For the section whose job is the novelty bound, these are the three pins a referee will demand first.
-
-**Load-bearing weak points, named.** A hostile referee attacks (i) the solar-system verdict-claim (1.2) — indefensible as written, fully defensible re-scoped — and (ii) the partition-necessity definition (1.1), where the coined term's removal-language lets them say the paper does not know which operation its own criterion performs. Both survive after revision; neither survives as written. The novelty claim itself (no located work reads Hegel's middle term against network brokerage or a partition criterion) is carefully bounded, checks against the named near-misses, and I could not falsify it from the adjacent literatures I know: the brokerage lineage's own genealogy runs to Simmel's triad, and the formal appropriations (category-theoretic, polycontextural) mediate logically, not causally. The bound holds — once Lawvere and Günther are pinned.
-
-**Instrument-demotion watch: clean.** "Thinner on purpose, because thin and decidable is what makes it an instrument" (238) is affirmative narrowing, not demotion; the Stein section grants territory while keeping the instrument's side substantive ("there is real work below it"). No occurrence of the "narrower and colder means" family. The guard is respected.
+If Φ is a verdict and not a scale, then "the largest value any form attains" is doing scale-work the same
+clause disavows. The number 2.0 versus 0.0 carries exactly the information "integrates versus factors" carries,
+no more — so "largest value" adds nothing the verdict needs and quietly implies a ranking (this integrator is
+*more* integrated than a weaker one). The repo makes the trap concrete: the 256-form family attains **three**
+Φ values, not two — 232 forms at 0.0, **eight at 0.5**, sixteen at 2.0 — and the eight forms at 0.5 are triadic
+by the verdict reading. A referee who pulls `population.csv` sees eight integrators the paper never mentions,
+and asks why the 2.0 form is privileged as "the" integrator. The answer is the verdict reading, which is
+exactly why the "largest value" clause is self-undermining. Cut it. The minimal pair's force is 0 versus >0.
+(Exact rewrite in §3, R-A.) This is the top fix because it is the one place the paper cites the register the
+lab retired, and because it touches the series guard: reading Φ as a verdict is the committed position, so the
+magnitude flourish should go, not be flagged and kept.
 
 ---
 
-## Part 2 — Register and slop audit
+## 2. Step 0 — Register (two lines)
 
-The v3 pass mostly landed. Counts over the 5,236-word body: em-dashes 45 (≈8.6/1k — high-normal for this register; most are the allowed naming/expanding kind); ", not" ×8 and "rather than" ×4 (inside the antithesis budget, and the subject *is* a two-sided contrast, so most instances are load-bearing); no banned openers; performed candor largely purged. What remains:
-
-1. **"In the open" ×3** (lines 28, 233, 350). Verbatim repetition of a signature phrase turns it into a tic and, worse, into performed candor — announcing transparency three times instead of enacting it once. Keep the last (350, where the move is actually being made), cut the other two (Part 3, R8).
-
-2. **"Rung" ×11.** The ladder metaphor structures the argument and earns its keep, but the last three sections hammer it — 240–248 alone has three. Thin to roughly seven; the metaphor gets stronger, not weaker.
-
-3. **Landing-line drumbeat.** Six of ten sections exit on a polished epigram: "where this stops being wordplay," "the term through which the whole was a whole," "he drew it in the same place," "exactly what a partition test can do and Hegel could only argue," "whether its middle is necessary or contingent," "Where only one can reach is the next paper." Each is good alone; together they are the uniformity tell. Flatten one or two — "Necessary Middles" is the best candidate, since its closer is the weakest of the six, and "Stein's Knife" could end one sentence earlier with no loss.
-
-4. **Paired-dash crutches, three convertible:** lines 58–60 ("— Gaius is mortal *because* he is human —": fold into the sentence or parenthesize); lines 132–134 (the government/citizens/needs aside is a full clause bolted mid-sentence — parentheses or its own sentence); line 241 ("— the real middle of his clearest worked case is a center of mass —": a colon does it better). The construct-naming dashes (96–97, 187–188) are house-legal and should stay.
-
-5. **Residual self-narration, mild:** "his examples are worth sitting with" (151), "Hold onto the plainness of it" (69), "It would be easy to declare victory here, and it would be wrong" (218). The third is a claim-first turn and can stay; the first two instruct the reader to feel what the prose should make them feel. Cut or convert.
-
-6. **What is *not* slop and must not be "fixed":** the first person throughout (the series register requires it); the conduit/integrator antithesis wherever it appears (it is the argument); the short-sentence punctures ("It is odd for Hegel. It is not odd for me." — that is the house rhythm working); the Two Middles section's negative-point/positive-point architecture, which runs the contrast machine hard because the section's content is a contrast. I flag these as protected so a later pass does not sand them off.
+First-person Substack philosophy essay, third of nine: a bridge argument that carries computed receipts, Nagel-
+plain in ambition, APA citations, deliberately voiced ("I," "my criterion," "the lab"). I hold it to the global
+house-style invariants (named agents, claim-first, verified numbers, antithesis budget, no performed candor)
+*inside* that essay register — not the repo's no-first-person dissertation rule, which does not govern this venue.
 
 ---
 
-## Part 3 — Exact rewrites, ranked by value
+## 3. Section by section — exact quotes and exact rewrites in the author's voice
 
-**R1 (lines 172–176) — the criterion gloss.** Replace:
+### 3.1 "The Receipts" — the verdict/scale tension (lines 211–214). TOP FIX.
 
-> "It asks whether any way of cutting the arrangement that removes the middle preserves what the three did as one. Where it survives, the coordinator was a conduit, a spiritual-mechanism middle, relaying messages that could have gone another way. Where it does not, the coordinator was an integrator, a real middle in Hegel's sense, the term through which the whole was a whole."
+Quoted above. The problem is the "largest value" clause plus the unmentioned Φ = 0.5 band.
 
-with:
+**R-A (minimal, preferred).** Delete the offending clause and let the verdict carry it:
 
-> "It asks whether some way of cutting the arrangement — severing the dependencies while every party stays in place — leaves the three making the same differences to one another they made intact. Where such a cut exists, the coordinator was a conduit, a spiritual-mechanism middle, relaying messages that could have gone another way; the lossless cut, as it happens, usually strands an extreme, and the middle rides along with the other side. Where every cut costs the arrangement some of its joint doing, the coordinator was an integrator, a real middle in Hegel's sense, the term through which the whole was a whole."
+> "...and the test reads the form as triadic, all three parties in one irreducible core, at Φ = 2.0 where the
+> relay factored to a dyad. The lab reads Φ as a verdict rather than a scale, and so do I: what separates the
+> two middles is that one form integrates and the other does not."
 
-**R2 (lines 233–236) — the flagship term's definition.** Replace "whether it is partition-necessary — whether any way of cutting the system that removes the middle preserves what the system does" with:
+**R-A′ (if the author wants to keep the numbers vivid and pre-empt the referee who finds the 0.5 band).**
 
-> "whether it is partition-necessary: no cut of the intact system leaves the parts making the same differences to one another, and the middle sits inside the core that verdict binds."
+> "...at Φ = 2.0 where the relay read 0.0. The lab reads Φ as a verdict rather than a scale, and so do I: the
+> load-bearing fact is that one form integrates and the other does not. Eight other forms in the family
+> integrate at a lower magnitude and read triadic all the same — the census counts integrators, not degrees."
 
-**R3 (opening of "Necessary Middles and Contingent Ones") — name the three operations.** Replace the two removal-defined definitions (294–299) with, or insert before them:
+Either version dissolves the tension. R-A′ has the advantage of turning the hidden 0.5 band from a liability
+into a demonstration of the verdict reading.
 
-> "Three operations, and this section needs them kept apart. The partition test cuts dependencies in the intact system and asks what any cut destroys; it defines integration, and it removes no one. The bypass counterfactual restores a forbidden direct tie and asks who keeps their seat in the core; it separates the middle that works from the middle that is held. And removal — the fired coordinator, the morning reroute of my opening story — is the world's own rough version of the second operation, not the first: what the extremes do next is the question, and they can only do it over an edge. The vignette I opened with is a bypass story. The receipts are partition stories. The necessary middle is the one that passes both: in the core of the intact whole, and still there when the bypass opens."
+### 3.2 The flagship term names two different things — "partition-necessary middle" vs. "the final form of the integrator criterion." (Lines 325–326, 331, 371, 380.)
 
-**R4 (solar system, two spots).** At 241–242, replace "and the mechanism rung is where a causal-partition criterion lives and does its best work" with:
+This is the item the v3 panel flagged as *the one thing only the author can supply*: the frozen definition of
+the coined middle for Papers 4–9. v4 made real progress — it commits a definition of the refined criterion —
+but it left two labels whose extensions differ and never maps them.
 
-> "and the mechanism rung is the one rung on his ladder where a causal-partition criterion asks its question without translation loss: the middle there is a causal middle and nothing else. I should say what the receipts do not cover. The lab's forms are small discrete systems; no one has rendered a gravitating many-body system in that formalism, and the instrument's track record is coordination forms, not orbits. The rung supplies the right kind of object for the question — not a computed verdict on Hegel's own case."
+- Line 325: "The necessary middle is the one that passes both tests: inside the core of the intact whole, and
+  still there when the bypass opens." → **necessary middle = partition-core-membership ∧ bypass-survival**
+  (the conjunction).
+- Line 331: "the final form of the integrator criterion is not bare core membership but core membership that
+  survives the counterfactual." → **the criterion's final form = the conjunction.**
+- Line 371: "Hegel's rational middle and my *partition-necessary middle* are not the same middle."
+- Line 380: "Whether it is *partition-necessary* in mine is a question no one has computed" (of the solar
+  system — here "partition-necessary" plainly means the partition property alone, "would a cut cost anything").
 
-At 347–348, replace "The center of his solar system is a real middle in his sense and a partition-necessary one in mine." with:
+So "partition-necessary middle" names the partition half, while "necessary middle" / "the final form of the
+integrator criterion" names the conjunction that *also* requires surviving the bypass. The paper's own headline
+concept is therefore explicitly **not** its stated final criterion, and the two sit in adjacent sections
+(371 vs. 331) under near-identical names. Papers 4–9 inherit this ambiguity: is the program's middle the
+partition property, or partition-plus-bypass?
 
-> "The center of his solar system is a real middle in his sense, and mine can at least put its question to it — what would a cut cost? — which is more than the criterion can ask anywhere else on his ladder. Whether the answer is yes is a computation no one has run, my lab included."
+The removal conflation the prior panel caught is gone — this is a subtler, name/definition split, not a wrong
+operation. Only the author can pick the canonical term, but the paper should state the map once. Suggested
+reconciliation (author's voice), to insert at the end of the "Necessary Middles" section or in "Two Middles":
 
-**R5 — receipts precision bundle.**
-(a) 188–189: "...at the maximum integration the little system can carry (Φ = 2.0 against the relay's 0.0)" → "...at Φ = 2.0 against the relay's 0.0 — the largest value any form in the family attains, though the lab reads Φ as a verdict rather than a scale, and so do I."
-(b) 195–196: "has the identical strict-mediation wiring" → "keeps the same strict-mediation wiring between the parties — no direct edge between the extremes, a mediator that reads both —"; optionally add: "The population makes the point without leaning on one pair: a mediator that fails to read both parties is never triadic, and one that does read both is triadic only 15 percent of the time. The parties' own reads decide the rest."
-(c) 199–201: "relay chains of two, three, and four links all factor to zero, while a feedback chain through the same depth of mediators stays triadic at full integration at every length the lab has run" → "relay chains of two, three, and four nodes all factor to zero, while a chain whose every middle commits jointly on its two neighbours stays triadic at Φ = 2.0 from three nodes to six. What survives down the chain is not the loop as such — the twin above had feedback and factored — but the committing, repeated at every station."
+> "Two words, kept apart from here on. *Integrator* names what the partition test alone certifies: the middle
+> inside the core no cut can factor. *Necessary middle* adds the second operation — an integrator whose seat
+> survives the bypass. This paper's receipts are about the first; Paper 2's held case is why the program's
+> final criterion is the second. Where I write 'partition-necessary,' I mean the partition property alone."
 
-**R6 (Stein section, lines 266–268 plus one insertion).** Replace "it knows only the shape of the dependence among three nodes" with "it knows only their update rules — the full functional dependence among three nodes, with everything the parts are for, and mean, and cost stripped away." Then insert, after "the earlier papers in this series say so in nearly Stein's own words" (275):
+Then change line 371's "my partition-necessary middle" to "my integrator" (or keep "partition-necessary" now
+that it is defined) and the split stops being a trap.
 
-> "One of my own receipts concedes his point before he makes it. The twin with the same wiring showed that relational placement decides nothing; what the elements are — their update rules, the only 'what' the instrument can read — decides whether the relation integrates. That is Stein's priority thesis in the causal register: the relation does not determine its relata, and the relata's own determinations settle whether the middle is genuine. The difference is that my instrument reads exactly that much of the what-side, and no more."
+### 3.3 The census sentence — arithmetic is right, denominator is right, one word of provenance is owed. (Lines 202–204.)
 
-**R7 — anticipation-guard leaks.** Line 20: "and Hegel got to it first, in the least likely corner of his system" → "and Hegel drew it, in the least likely corner of his system." Lines 27–28: "is the conduit-versus-integrator line drawn a century and a half early" → "is the conduit-versus-integrator line in another vocabulary." Lines 213–214: "He drew the boundary the test is built to find, and he drew it in the same place." → "He drew by argument the boundary the test draws by computation, and he drew it in the same place."
+> "The lab enumerated the complete family of three-node Boolean forms with a mediator strictly in the middle —
+> no direct edge between the outer parties, 256 forms in all — and ran the exact partition test on each.
+> Twenty-four of the 256 read triadic: 9.4 percent."
 
-**R8 — repetition and the core gloss.** Line 28–29: drop "in the open" ("It also marks the one move the resemblance does not license, because the whole bridge depends on not smuggling it."). Line 233: end at "It is mine." (delete "and I take it in the open"). Keep line 350's instance. Line 34–35: "and the parts that no partition separates form its core" → "and the parts so bound form its irreducible core."
+Checked and true. `population.py` enumerates `W' = f_W(S)`, `C' = f_C(S)`, `S' = f_S(W,C)` = 4 × 16 × 4 = 256;
+my re-run of `population.csv` returns exactly 24 forms with Φ > 0; 24/256 = 9.375%, which rounds to 9.4% (the
+repo reports 9.4% in both `corpus/FINDINGS.md` and `STRUCTURAL_FINDINGS.md`). No change needed to the numbers.
+One precision note, not a required edit: "no direct edge between the outer parties" is accurate but slightly
+under-describes the constraint — the lab's family also fixes that each outer party reads *only* the mediator
+(`W' = f_W(S)`, not `f_W(S,W)`), which is why the count is exactly 256 rather than larger. A referee may ask
+"why 256?"; a five-word gloss ("each end reads only the middle") pre-empts it. Optional.
 
-**R9 — citations.** Add the IIT 4.0 formulation (Albantakis et al., 2023, *PLOS Computational Biology*) as the computed formalism at line 204, verified against the version of record before it enters; relabel the Hegel entries 2010a/2010b in text and list; pin or cut Vieweg, Lawvere, and Günther.
+### 3.4 "The Move the Resemblance Does Not License" — the gravitation/corpus claim is technically correct. (Lines 266–269, 379–382.)
 
-**R10 — the census sentence.** After "and run the exact partition test on each" (184), add:
+> "...such a system could not even enter the corpus, whose defining constraint is that the outer parties share
+> no direct edge, while gravitation is all-to-all..."
 
-> "Twenty-four of the 256 read triadic — 9.4 percent. Nine strict-mediated middles in ten are conduits, a census Hegel would have relished: most middles are defective middles, and the genuine one is the rare achievement his ascent through the figures says it is."
+Correct as stated. The corpus's strict-mediation constraint is precisely "no direct W–C edge," and an N-body
+gravitating system has direct pairwise attraction between every pair, so it violates strict mediation and
+cannot be a member. The claim is well-formed and I could not fault it. Keep. (This section is the strongest in
+the paper; see §6.)
 
-**R11 — the partial cell.** At 306–307, extend: "The middle that stays is doing integrating work; the middle that drops was a gate; and the instrument names a third case between them — the middle that keeps its seat while the system sheds most of its integration, part work and part wall."
+### 3.5 Three operations — clean. (Lines 319–326.) No change; confirming the v3 repair landed.
+
+> "Three operations, and this section needs them kept apart. The partition test cuts dependencies in the intact
+> system and asks what any cut destroys; it defines integration, and it removes no one. The bypass
+> counterfactual restores a forbidden direct tie and asks who keeps their seat in the core... And removal... is
+> the world's own rough version of the second operation, not the first."
+
+This is exactly right and matches q213's actual operation (restore the forbidden edge, recompute, read who
+keeps the seat). The partition-removes-nothing / bypass-restores-an-edge / removal-is-the-crude-world-version
+distinction is now stated once, cleanly, and the opening vignette is correctly re-cast as a bypass story
+(line 324). Nothing to fix. I flag it only to record that the panel's central v3 defect is closed.
+
+### 3.6 q213 car dealer — faithful; one cross-reference for the author to confirm. (Lines 328–332, 336.)
+
+> "Paper 2 worked the held case: a relay can sit in the core of an integrated configuration for as long as a
+> constraint forbids the parties to bypass it — the car dealer of the lab's q213 study, whose entire
+> integration collapsed the moment the forbidden maker–buyer tie was restored."
+
+The q213 receipt is exact. `q213/FINDINGS.md` H3: lifting the franchise law (restoring the maker–buyer tie)
+drops the dealer from the core, Φ_MIP falls 2.0 → 0.0, contingency margin 2.0 = "its entire integration." The
+paper even reuses the source phrase "entire integration." Match. Two notes: (i) the car dealer is q213's worked
+case, and the paper correctly attributes it ("of the lab's q213 study") — but the sentence bundles it under
+"Paper 2 worked the held case," which a reader may take as *Paper 2's* car dealer. Post 2 is "Master and Slave
+as a Held Binding," and line 336 confirms Paper 2's own worked case is the master, not the dealer. The sentence
+is defensible (the dealer is offered as an instance of the held-case *principle* Paper 2 works), but a comma-
+level clarification would remove the misread: "Paper 2 worked the held case; the lab's q213 study computes it —
+the car dealer, whose entire integration collapsed...". (ii) Confirm against Post 2's text that Post 2 actually
+frames the master as a held/contingent binding that collapses when the compulsion lifts; I verified q213 owns
+the dealer, but I did not audit Post 2's prose.
+
+### 3.7 Read-functions receipt and the Stein card — faithful and well-deployed. (Lines 216–222, 300–308.)
+
+> "a mediator that fails to read both parties is never triadic, and one that does read both is triadic only 15
+> percent of the time"
+
+Both halves check exactly against `population.csv`: P(triadic | mediator reads both) = 24/160 = **15.0%**;
+P(triadic | does not read both) = 0/96 = **0.0%**. The identical-wiring twin (`ats_feedback_factors`: same
+strict mediation, mediator reads both, still factors to 0 along {W,S}|{C}) is faithful to `corpus/FINDINGS.md`,
+and the paper now correctly softens "identical wiring" to "the same strict-mediation wiring between the parties"
+(line 217) and rests the general claim on the population conditional — both v3 repairs adopted. The Stein
+section's use of this as "Stein's priority thesis reproduced inside the causal register" (line 302) is the best
+version of that argument and is now made. No change.
+
+### 3.8 Chains — faithful. (Lines 223–227.)
+
+> "Relay chains of two, three, and four nodes all factor to zero, while a chain whose every middle commits
+> jointly on its two neighbors stays triadic at Φ = 2.0 from three nodes to six."
+
+Checked against source. E3 (`recurrence/iit_experiments.py`) runs feedforward relay chains at n = 2, 3, 4 and
+prints "carry no integrated information" (Φ = 0) — the "nodes" (not "links") fix from v3 is now correct. The
+committing chain (`multiparty/chains.py`, `Sj' = S_{j-1} ∧ S_{j+1}`) returns Φ = 2.0 at n = 3, 4, 5, 6 in
+`chains.csv` — "from three nodes to six" is exact. The survival is correctly credited to the committing, not to
+feedback (line 226: "not the loop as such — the twin above had feedback and factored — but the committing,
+repeated at every station"). No change.
+
+### 3.9 IIT 4.0 vs 3.0 citation — now correct; one nomenclature note for the journal version. (Line 230.)
+
+> "exact values under the current formulation of integrated information theory (Albantakis et al., 2023; the
+> lineage runs to Oizumi et al., 2014...)"
+
+The v3 mis-citation (crediting the 3.0 paper for 4.0 receipts) is fixed: every lab source computes exact
+IIT-4.0 Φ, and Albantakis et al. (2023) is IIT 4.0. Correct, and the Oizumi 2014 lineage credit is appropriate.
+**One precision note, low priority, for journal submission not the post:** in strict IIT-4.0 nomenclature the
+whole-system quantity minimized over the MIP is *system integrated information* φ_s, while "big Phi" (Φ) is
+reserved for the structure integrated information of the maximal complex (the summed φ over distinctions and
+relations). The lab writes "Φ_MIP" for the system-level MIP value throughout, and the essay inherits that
+usage, so "Φ = 2.0" here is really φ_s = 2.0 in 4.0 terms. This is a convention the whole repo shares, not an
+error introduced by the paper, and it need not touch the Substack post. Flag it so the author knows to say
+"system integrated information over the MIP" once, if a formal IIT reader is in the journal audience.
+
+### 3.10 Register items (minor).
+
+- **"rung" ×12.** The v3 review asked to thin the ladder metaphor to ~7; v4 leaned *harder* into it (the
+  Mitteilung-arc section is built on the ladder), so the count went up, not down. The metaphor earns its keep
+  structurally, but 12 is a drumbeat — three land in lines 264–272 alone. Thin to roughly eight. Not blocking.
+- **em-dashes.** High for the register (81 across the whole file, though many are in the delete-before-posting
+  apparatus). The construct-naming and appositive dashes are house-legal; a light pass on the body's paired-dash
+  asides would help. Not blocking.
+- **"in the open" ×0** — the v3 tic is fully purged. Good.
+- **Antithesis budget:** ", not" ×18 / "rather than" ×3 across ~5,600 body words is inside tolerance for a
+  paper whose *subject* is a two-sided contrast (conduit vs. integrator); most instances are load-bearing.
 
 ---
 
-## Closing note
+## 4. Every receipt claim vs. what the repo says
 
-The paper's biggest genuine strength is its discipline about the one unlicensed move. "The Move The Resemblance Does Not License" is the best section in the series so far: it states exactly what Sans establishes, exactly what he does not, takes the remaining step in its own name, and prices the failure case ("this paper rests on Sans's ontology and stands as a strong footnote to the next one"). Almost no bridge paper in this genre budgets its own collapse. And the receipts section, definitional drift aside, is the first place the series' claim to computed ground is actually cashed: real numbers, verbatim rule-glosses that check against the code, the in-silico caveat quoted rather than paraphrased. The negative-point/positive-point architecture of "Two Middles" — they share the diagnosis of the bad middle exactly, and divide on what a genuine one is — is formally correct and philosophically elegant.
+| # | Paper's claim (line) | Repo source | Repo says | Verdict |
+|---|---|---|---|---|
+| 1 | 256 strict-mediation 3-node Boolean forms (203) | `corpus/population.py`, `population.csv` | 4×16×4 = 256 forms enumerated | **MATCH** |
+| 2 | 24 read triadic (203) | `population.csv` (re-run) | 24 forms with Φ>0 (232 at 0.0, 8 at 0.5, 16 at 2.0) | **MATCH** |
+| 3 | = 9.4 percent (204) | `corpus/FINDINGS.md`, `STRUCTURAL_FINDINGS.md` | 24/256 = 9.375% → repo reports 9.4% | **MATCH** (rounding correct) |
+| 4 | Relay mediator → Φ = 0.0, dyad; "S relays W to C with no joint determination" (208–210) | `forms_library.py` (`pure_relay`), `corpus/FINDINGS.md` | pure_relay dyadic Φ=0.00; rationale quoted verbatim | **MATCH** |
+| 5 | Joint-commit mediator "forwards iff resume-signal AND manager-profile" → Φ = 2.0 (211–212) | `forms_library.py` (`ats_strict_bottleneck`) | rationale quoted verbatim; triadic Φ=2.00 | **MATCH** |
+| 6 | "all three parties in one irreducible core" (212) | `classifier/FINDINGS.md`, q213 H1 | triadic MIP cut {W,SC}; whole triad is the complex | **MATCH** (see caveat below) |
+| 7 | Φ = 2.0 is "the largest value any form in the family attains" (212–213) | `population.csv` (re-run) | max Φ in family = 2.0 | **MATCH** (but see §1 — the *use* is the problem, not the fact) |
+| 8 | Same strict-mediation wiring can factor to 0; read functions decide (216–219) | `corpus/FINDINGS.md` (`ats_feedback_factors`) | strict mediation + mediator reads both, yet Φ=0 along {W,S}|{C} | **MATCH** |
+| 9 | Mediator failing to read both is never triadic (0%) (221) | `population.csv` | P(triadic \| not reads both) = 0/96 = 0.0% | **MATCH** |
+| 10 | Reads both → triadic only 15% of the time (221–222) | `population.csv`, `corpus/FINDINGS.md` | P(triadic \| reads both) = 24/160 = 15.0% | **MATCH** |
+| 11 | Relay chains of 2, 3, 4 nodes all factor to 0 (223–224) | `recurrence/iit_experiments.py` E3 | n=2,3,4 feedforward chains "carry no integrated information" | **MATCH** |
+| 12 | Committing chain triadic Φ = 2.0 from 3 to 6 nodes (224–226) | `multiparty/chains.py`, `chains.csv` | n=3,4,5,6 all triadic Φ=2.000000 | **MATCH** |
+| 13 | Survival credited to committing, not feedback (226) | `multiparty/chains.py` (`Sj'=S_{j-1}∧S_{j+1}`), `STRUCTURAL_FINDINGS` #6 | each mediator commits jointly on both neighbours | **MATCH** |
+| 14 | q213 car dealer: integration collapses when forbidden maker–buyer tie restored (328–332) | `q213/FINDINGS.md` H3 | Φ_MIP 2.0→0.0, dealer leaves core, margin 2.0 = "entire integration" | **MATCH** |
+| 15 | Gravitation is all-to-all → solar system can't enter the corpus (267–268) | `corpus/population.py` (strict-mediation = no W–C edge) | corpus requires no direct outer edge; N-body is all-to-all | **MATCH** (technically correct) |
 
-The one thing only the author can supply: the canonical, frozen definition of *partition-necessary middle* for the rest of the series. The instrument offers two components — every cut of the intact whole costs something, and the seat in the core survives the bypass — and only the author can decide whether the term names the first, the second, or (as the "Necessary Middles" section implies but never states) the conjunction. Papers 4 through 9 will inherit whichever sentence this paper freezes, and no reviewer can choose it, because the choice is a commitment about what the program's criterion *is*, not a fact about what its code computes.
+**No mismatches. No receipt was "not found."** Every number the paper prints is in the repo, and I re-derived
+the census (item 2, the one number a v3 could not fully pin) directly from `population.csv`.
+
+Two fidelity caveats, neither a defect in the paper:
+- **Item 6:** whole-system Φ_MIP > 0 and major-complex membership are formally distinct computations that can
+  dissociate (`STRUCTURAL_FINDINGS` #8). For `ats_strict_bottleneck` they coincide (all three in the core), so
+  "all three in one irreducible core" holds — and the phrase is the lab's own verdict language. No change; noting
+  the language is the essay's, not a separate proof.
+- **Item 4:** `pure_relay` is a "first-pass" form in `corpus/FINDINGS.md` (not yet validated against the
+  dissertation's worked cases), though its Φ = 0.00 is exact and independently reproduced by E3's three-node
+  relay. The paper's minimal pair pairs it with the fully-validated `ats_strict_bottleneck`. Exposure is near-
+  zero; the sourcing note already records this. No prose change needed.
+
+---
+
+## 5. Findings, ranked
+
+1. **Verdict/scale tension, stated but unresolved (lines 211–214).** "The largest value any form attains" does
+   scale-work the same clause disavows, and the unmentioned Φ = 0.5 band makes the trap real. Cut the clause;
+   let the verdict carry the pair. §3.1, R-A/R-A′. *Top fix.*
+2. **Flagship-term split: "partition-necessary middle" ≠ "the final form of the integrator criterion" (lines
+   325–331 vs. 371/380).** The paper's headline concept names the partition half while its stated final
+   criterion is the partition∧bypass conjunction, under near-identical labels. Map the two once, in the author's
+   own voice. This is the item Papers 4–9 inherit; only the author can freeze it. §3.2.
+3. **q213 attribution micro-ambiguity (lines 328–332).** The car dealer is correctly credited to q213 but
+   bundled under "Paper 2 worked the held case," inviting a misread. One comma-level clarification; confirm the
+   Post 2 cross-reference. §3.6.
+4. **"rung" ×12 drumbeat.** Thin to ~8. §3.10.
+5. **256 denominator gloss (optional) and IIT-4.0 φ_s vs Φ nomenclature (journal only).** Both are precision
+   pre-empts, neither is an error. §3.3, §3.9.
+
+Guards: **both hold.** No anticipation leak survives (the only "anticipated" in the body is the disclaimer,
+line 365; the v3 leaks at the intro are fixed to "drew it" / "in another vocabulary"). No instrument-demotion
+language anywhere (no "calculator / decorative / hollow / unnecessary / merely"); the Stein section grants
+boundaries while keeping the instrument's work "real work" (line 314) and "thin and decidable is what makes it
+an instrument" (line 262). Clean.
+
+---
+
+## 6. Biggest strength, and the one thing only the author can supply
+
+**Strength.** "The Move the Resemblance Does Not License" remains the best section in the series, and v4 tightened
+it: it states exactly what Sans establishes (the objective syllogism is a real structure of wholes), exactly what
+he does not (that the reality is a *causal* structure a partition test measures), takes the remaining step in the
+author's own name, and now prices the corpus limit honestly — a gravitating system "could not even enter the
+corpus" because strict mediation forbids the all-to-all edges. Almost no bridge paper in this genre budgets its
+own collapse this precisely. The receipts section is the first place in the nine posts where the claim to computed
+ground is actually cashed, and it is cashed cleanly: real numbers, verbatim rule-glosses that check against the
+code, the in-silico caveat carried through.
+
+**The one thing only the author can supply.** The canonical, frozen name-and-definition for the program's middle,
+resolved against finding #2. v4 committed the *criterion's* final form (core membership that survives the bypass)
+but left the coined term "partition-necessary middle" naming only the partition half. Papers 4–9 will quote
+whichever sentence this post freezes: does the program's flagship middle mean "an integrator" (partition-core
+membership, this paper's receipts) or "a necessary middle" (partition ∧ bypass-survival, Paper 2's refinement)?
+No reviewer can choose it — it is a commitment about what the program's criterion *is*, not a fact about what the
+code computes. The code offers both components exactly; the author picks which one the word carries, and says so
+once, here.
