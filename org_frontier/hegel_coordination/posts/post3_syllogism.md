@@ -1,14 +1,19 @@
 # The Real Middle Term: Hegel's Syllogism and the Difference Between a Conduit and an Integrator
 
-*Roger Hunt · draft v5 (delete this byline before posting). Rebuilt from the round-2 five-reviewer panel
-(posts/post3_reviews/) and a targeted research pass. Load-bearing fixes: the hinge no longer contradicts
-itself (the fit is tightest at the conduit pole and loosest at the integrator pole, where the criterion
-reads only the causal shadow of Hegel's real middle); "the same boundary" is everywhere downgraded to a
-boundary of the same shape; the paper now faces the second skeptic — the reader who grants the syllogism is
-more than a form of thought yet denies it is a causal structure — and concedes, using Sans's own words,
-that the bridge is a homology and not an identity; the topology gap (Hegel's rotating middle vs. the
-instrument's fixed star) is entered as a real limit; the "largest value" clause is cut (the family attains
-three Φ values, not two); Stein's point is a rhyme, not a confirmation. Sourcing note at the end.*
+*Roger Hunt · draft v7 (lab-generated for the author to revise; delete this byline before posting). Built on
+v6 plus this round's five-reviewer panel synthesis (adjudicated verdict: minor revision, one blocking fix).
+This round: the state-triad locus is corrected to Encyclopedia §198R — the Remark, not the main paragraph —
+matching Sans's own citation and the passage card, since v6's move to the main paragraph was itself a
+mis-correction; the fix propagates to Post 6. The homology-altitude sentence in "The External Middle" is
+de-identified so the bridge stays a claim about shape, not a claim about shared referents. The Boolean
+census's "a census Hegel would have relished" is downgraded to a stated rhyme. A new paragraph names the
+whole-before-parts asymmetry the partition test cannot read, sharpening the teleology concession from
+adjective to structure. The §181R quotation is trimmed to its verified fragment, on the same standing gate
+as the di Giovanni p. 588 quote; the two longest Mechanism-chapter quotations are reset as APA block quotes;
+a Moss quotation is corrected so "via" sits outside the quotation marks. The Objection paragraph and two of
+six section-closing epigrams are thinned to break a repeated antithesis template; three earned callbacks
+(the Receipts close, the Necessary-Middles close, the final bookend) are kept intact. Sourcing note at the
+end.*
 
 ---
 
@@ -22,9 +27,9 @@ arrangement falls apart, because the coordinator was not passing messages but ma
 and there was no process left once the maker was gone.
 
 That is the distinction this paper is about, and Hegel drew it, in the least likely corner of his system. In
-the *Science of Logic* he writes that "it is not just that the syllogism is rational but that everything
-rational is a syllogism" (Hegel, 1816/2010b, p. 588). A syllogism, for him, is not the school exercise. It
-is any structure in which two extremes hold together through a middle, and his standing complaint against
+the *Science of Logic* he closes a chapter with a claim that "everything rational is a syllogism" (Hegel,
+1816/2010b, p. 588). A syllogism, for him, is not the school exercise. It is any structure in which two
+extremes hold together through a middle, and his standing complaint against
 defective syllogisms is a complaint about defective middles: middles that only relay, that connect the ends
 externally without making them one. The coordination program I have been building has a name for each kind.
 One is a conduit. The other is an integrator. This paper argues that Hegel's syllogism is the shape my
@@ -37,21 +42,20 @@ cutting the system — severing dependencies while every part stays in place —
 same differences to one another that they made intact. Where some cut is lossless, the configuration
 factors: it was an aggregate wearing the shape of a whole. Where every cut costs something, the
 configuration is integrated, and the parts so bound form its irreducible core. Run on a three-party form
-with a mediator in the middle, the verdict separates two kinds of middle. A conduit conveys between parties
-who remain separable, and the form reads as a pair plus a bystander. An integrator commits — its own state
-turns on both parties at once — and the three read as one thing that no cut can factor. The receipts behind
-that distinction are computed, and I will come to them. This is the one paper in the series where the
+with a mediator in the middle, the verdict separates two kinds of middle: a conduit conveys between parties
+who remain separable, reading as a pair plus a bystander, while an integrator commits, its own state turning
+on both parties at once, so the three read as one thing that no cut can factor. The receipts behind that
+distinction are computed, and I will come to them. This is the one paper in the series where the
 instrument's own side of the distinction is measured rather than argued.
 
 ## Everything Rational Is a Syllogism
 
-Start with the sentence, because it sounds mad until you see what it is doing. The *Science of Logic* gives
-it as the conclusion of a thought: "Thus the syllogism is the completely posited concept; it is, therefore,
-the rational. Therefore, it is not just that the syllogism is rational but that everything rational is a
-syllogism" (Hegel, 1816/2010b, p. 588). The *Encyclopedia* version goes further. The syllogism, Hegel
-writes there, is "the essential ground of everything true; and the definition of the absolute is from now on
-that it is the syllogistic inference or, articulated in the form of a sentence, it is this determinacy:
-'everything is a syllogism'" (Hegel, 1830/2010a, §181R, p. 254). Read as a claim about proofs this is
+Start with the sentence, because it sounds mad until you see what it is doing. Hegel arrives at it as the
+conclusion of a chapter-long argument: the syllogism is the completely posited concept, and the concept
+fully posited is the rational as such, so that "everything rational is a syllogism" (Hegel, 1816/2010b,
+p. 588). The *Encyclopedia* version goes further. There the syllogism is "the essential ground of
+everything true," and Hegel restates the definition of the absolute as a single determinacy: "everything is
+a syllogism" (Hegel, 1830/2010a, §181R, p. 254). Read as a claim about proofs this is
 nonsense. Most things in the world are not arguments, and a mountain infers nothing. Read as Sans (2018)
 reads it, it is a claim about structure, and it is precise.
 
@@ -98,42 +102,49 @@ existing, objective universal" (p. 202). The point of running the syllogism thro
 catalogue valid forms of proof. It is to show that a certain kind of structure — a whole whose parts hold
 together through a middle — is a real feature of things, and that reason, when it infers correctly, tracks
 that structure rather than imposing it. He is not the only reader who takes the objective syllogism this
-way: Moss (2013) reads Hegel's free mechanism as grasped "via a triad of syllogisms, which altogether
+way: Moss (2013) reads Hegel's free mechanism as grasped via "a triad of syllogisms, which altogether
 constitute a process of alternating middle terms," a real activity of objectivity and not a template laid
 over it (p. 78). So the formalist skeptic loses. His syllogism was a shape of arguments; Sans's Hegel makes
 it a shape of wholes.
 
 That defeats the first skeptic and not the second, and the second is the one that bites. Hegel's *Logic*
-divides its readers. One line — Hartmann early on, Pinkard, and in his own way Pippin — reads the *Logic* as
-an account of the categories through which anything can be thought as an object at all, logic as the science
-of pure thinking, not a report on structures standing in the world (Pippin, 2019). Another line — Sans among
-them, with Kreines, Stern, and Houlgate — reads it as ontology proper, the concept's determinations at work
-in things; Kreines (2006) maps the divide. This paper follows the second line, because the bridge needs the
-objective syllogism to be more than a form of thought. But the second line itself forces the concession that
-fixes this paper's altitude. Even Sans, the strong ontological reader, holds that subjectivity and
-objectivity "are determinations of the Concept as such and do not refer directly either to mind or to
-nature" (Sans, 2018), and warns against merging pure logical thinking with the realm of nature. The reality
-he secures is the reality of the Concept's own determinations — not a mind-independent cause-and-effect
-structure of the kind a partition test cuts. Read thinly, by the first line, "the objective syllogism really
-exists" is a claim about how thought determines objecthood, and on that reading the pun edges back. My bridge
-does not need it read thickly. It needs only that Hegel's middle term and mine share a shape — conduit
-against integrator — and a shape survives even the thin reading. What no reading in this debate delivers is
-an identity of referents. That is why every claim in this paper stays at the shape and stops.
+divides its readers into two camps. Hartmann, Pinkard, and in his own way Pippin read it as an account of
+the categories through which anything can be thought as an object at all — logic as the science of pure
+thinking, not a report on structures standing in the world (Pippin, 2019). Sans, Kreines, Stern, and
+Houlgate read it as ontology proper, the concept's determinations at work in things; Kreines (2006) maps the
+divide. This paper follows the second line: the bridge needs the objective syllogism to be more than a form
+of thought. But the second line forces a concession that fixes this paper's altitude. Even Sans, the strong
+ontological reader, holds that subjectivity and objectivity "are determinations of the Concept as such and
+do not refer directly either to mind or to nature" (Sans, 2018, p. 202), and warns against merging pure
+logical thinking with the realm of nature. The reality he secures is the reality of the Concept's own
+determinations, and a partition test cuts a mind-independent cause-and-effect structure, a different thing.
+On the first line's thinner reading, "the objective syllogism really exists" is a claim about how thought
+determines objecthood, and the pun edges back in. My bridge survives that thinner reading regardless: it
+needs only that Hegel's middle term and mine share a shape, conduit against integrator, and the shape holds
+under either camp's reading. What no reading in this debate delivers is an identity of referents. That is
+why every claim in this paper stays at the shape and stops.
 
 ## From Communication to the Center: Hegel's Own Ascent
 
-The text that seals the shared shape is not one passage but an arc, and the arc runs inside a single chapter.
-Hegel's Mechanism chapter — the first chapter of Objectivity, the ground floor of his account of the object —
-opens with the aggregate: the mark of the mechanical is that "whatever the connection that obtains between
-the things combined, the connection remains one that is alien to them, that does not affect their nature, and
-even when a reflective semblance of unity is associated with it, the connection remains nothing more than
-composition, mixture, aggregate, etc." (Hegel, 1816/2010b, p. 631). He extends the diagnosis to spirit in
-the same breath: "Spiritual mechanism, like its material counterpart, also consists in the things connected
-in the spirit remaining external to one another and to spirit. A mechanical mode of representation, a
-mechanical memory, a habit, a mechanical mode of acting, mean that the pervasive presence that is proper to
-spirit is lacking in what spirit grasps or does" (p. 631). The rote-recited poem, the prayer said "in a
-detached and uninvolved manner" (Sans, 2018, p. 206) — Hegel's own illustrations of the mechanical in
-spirit: words in the right order, connected, and connected only externally.
+The text that seals the shared shape is not one passage but an arc, and the arc runs inside a single
+chapter. Hegel's Mechanism chapter, the first chapter of Objectivity and the ground floor of his account of
+the object, opens with the aggregate. The mark of the mechanical:
+
+> whatever the connection that obtains between the things combined, the connection remains one that is
+> alien to them, that does not affect their nature, and even when a reflective semblance of unity is
+> associated with it, the connection remains nothing more than composition, mixture, aggregate, etc.
+> (Hegel, 1816/2010b, p. 631)
+
+He extends the diagnosis to spirit in the same breath:
+
+> Spiritual mechanism, like its material counterpart, also consists in the things connected in the spirit
+> remaining external to one another and to spirit. A mechanical mode of representation, a mechanical
+> memory, a habit, a mechanical mode of acting, mean that the pervasive presence that is proper to spirit
+> is lacking in what spirit grasps or does. (p. 631)
+
+The rote-recited poem, the prayer said "in a detached and uninvolved manner" (Sans, 2018, p. 206) — Hegel's
+own illustrations of the mechanical in spirit: words in the right order, connected, and connected only
+externally.
 
 The chapter's middle section then names the mechanism of transmission, and the name should stop a
 coordination theorist cold. The formal mechanical process operates by *communication*: "This positing
@@ -144,25 +155,25 @@ determinateness passes from object to object and each stays what it was. In spir
 this kind; they pervade individuals unconsciously imposing themselves on them" (p. 636) — spreading, Hegel
 says, "like a scent freely spreading in the unresisting atmosphere" (pp. 635–636). And notice what
 communication does without: a middle. The determinateness generalizes itself and travels; no third term
-relays it, because there is no third term yet. So the conduit, in Hegel's own hands, is not a bad middle. It
-is the stage before there is a middle at all — content passed intact between parties external to one another
-and to it — which is exactly what my test calls a conduit, a form whose apparent middle rides along as a
+relays it, because there is no third term yet. So the conduit, in Hegel's own hands, is the stage before
+there is a middle at all, not a bad middle: content passed intact between parties external to one another
+and to it. That is exactly what my test calls a conduit, a form whose apparent middle rides along as a
 bystander while the pair does the work.
 
-The chapter's summit is the middle that is not a conduit, and Hegel does not reach it in one step; the arc
-runs through the real mechanical process — objects acting on, resisting, and subjugating one another — before
-it arrives. In absolute mechanism, the moment Hegel also calls free mechanism, the many objects hold together
-through a center, and the center is not one more object relaying pushes. "As against this immediate totality,
-the prior or the essential determinateness constitutes the real middle term between the many interacting
-objects; it unites them in and for themselves and is their objective universality" (Hegel, 1816/2010b,
-p. 641). In the material world, "it is the central body which is the genus or rather the individualized
-universality of the single objects and their mechanical process" (p. 641): the sun of the arrangement is the
-objects' own immanent universality, the term through which they are a system at all, the thing toward which
-they *strive* rather than a signal they pass along. The whole structure is syllogistic, and Hegel says so:
-"This totality, whose moments are themselves the completed relations of the concept, the syllogisms in which
-each of the three different objects runs through the determination of the middle term and the extreme,
-constitutes free mechanism" (pp. 642–643), whose objects have for their fundamental determination "the
-pervasive gravity that persists self-identical in the particularization" (p. 643).
+The chapter's summit is the middle that is not a conduit, and Hegel does not reach it in one step. The arc
+runs through the real mechanical process, objects acting on, resisting, and subjugating one another, before
+it arrives. In absolute mechanism, the moment Hegel also calls free mechanism, the many objects hold
+together through a center, and the center is not one more object relaying pushes. "As against this
+immediate totality, the prior or the essential determinateness constitutes the real middle term between the
+many interacting objects; it unites them in and for themselves and is their objective universality" (Hegel,
+1816/2010b, p. 641). In the material world, "it is the central body which is the genus or rather the
+individualized universality of the single objects and their mechanical process" (p. 641): the sun of the
+arrangement is the objects' own immanent universality, the term through which they are a system at all, the
+thing toward which they *strive* rather than a signal they pass along. The whole structure is syllogistic,
+and Hegel says so: "This totality, whose moments are themselves the completed relations of the concept, the
+syllogisms in which each of the three different objects runs through the determination of the middle term
+and the extreme, constitutes free mechanism" (pp. 642–643), whose objects have for their fundamental
+determination "the pervasive gravity that persists self-identical in the particularization" (p. 643).
 
 A philological note, because the paper's motif hangs on it. Sans glosses the key phrase as "the real middle
 term [*reale Mitte*]" (2018, p. 203), and the gloss is his modernization: Hegel's word, in the 1816 text and
@@ -179,15 +190,17 @@ free-mechanism reading the astonishment dissolves: absolute mechanism is where o
 an aggregate, where a system of objects first exhibits integrated, syllogistic structure — and a criterion
 whose entire job is to tell aggregates from integrated wholes has its natural purchase at exactly the
 boundary where integration first appears. Hegel put the boundary itself on this rung. One qualification is
-owed in return, and it is the honest width of the bridge: absolute mechanism is already the Concept showing
-through objectivity — the center is the objects' immanent universality, not neutral machinery — so the rung
-my instrument reads is the top of Hegel's mechanism, not its floor. The reckoning above that rung is Post 4's.
+owed in return: absolute mechanism is already the Concept showing through objectivity — the center is the
+objects' immanent universality, not neutral machinery — so the rung my instrument reads is the top of
+Hegel's mechanism, not its floor. The reckoning above that rung is Post 4's.
 
-The same stretch of text hands the series a later post's material: Hegel immediately generalizes the
+The same stretch of text hands the series a later post's material. Hegel immediately generalizes the
 three-syllogism structure to the political case — the government, the individual citizens, and their needs,
 each in turn the middle of the other two (1816/2010b, p. 642) — and the *Encyclopedia* compresses it into
-the remark that, like the solar system, "the state is a system of three syllogisms" (1830/2010a, §198). That
-is Post 6's text, and I leave it there.
+the line that, like the solar system, "the state is a system of three syllogisms" (1830/2010a, §198R, p.
+273). That is Post 6's text, and I leave it there — the Remark, not the main paragraph, carries the
+sentence; the main paragraph ends before it, and Sans cites it the same way, "§ 198 Remark; 273" (2018,
+p. 207). The sourcing note says more.
 
 ## The External Middle, in Both Logics
 
@@ -201,12 +214,12 @@ matters: in it, "the subject joins itself together with itself by means of this 
 1830/2010a, §182, pp. 254–255). The formal middle links others. The genuine middle is the term through which
 a thing closes with itself, so that the unity is not a link laid between the extremes but the extremes' own
 holding-together, living in the middle. Note what the two registers share: the formal syllogism's abstract
-middle and the mechanical process's communication are the same diagnosis — connection without unity — made
-once in the logic of thought and once in the logic of the object.
+middle and the mechanical process's communication are the same diagnosis, connection without unity.
 
-That double diagnosis is the conduit-versus-integrator distinction. Go back to the coordinator between the
-two teams. My criterion does not ask whether the coordinator is busy, or central on the org chart, or copied
-on every email. It asks whether some way of cutting the arrangement — severing the dependencies while every
+That double diagnosis draws the conduit-versus-integrator line in another vocabulary — the same shape, once
+in the logic of thought and once in the logic of the object. Go back to the coordinator between the two
+teams. My criterion does not ask whether the coordinator is busy, or central on the org chart, or copied on
+every email. It asks whether some way of cutting the arrangement — severing the dependencies while every
 party stays in place — leaves the three making the same differences to one another they made intact. Where
 such a cut exists, the coordinator was a conduit, relaying messages that could have gone another way; the
 lossless cut, as it happens, usually strands an extreme, and the middle rides along with the other side.
@@ -218,9 +231,9 @@ middle in Hegel's sense.
 Here this series can put computed values under its distinction, so here they are. The lab enumerated the
 complete family of three-node Boolean forms with a mediator strictly in the middle — no direct edge between
 the outer parties, 256 forms in all — and ran the exact partition test on each. Twenty-four of the 256 read
-triadic: 9.4 percent. Nine strict-mediated middles in ten are conduits, a census Hegel would have relished —
-most middles are defective middles, and the genuine one is the rare achievement his ascent through the
-figures says it is.
+triadic: 9.4 percent. Nine strict-mediated middles in ten are conduits. Hegel's ascent through the figures
+says the genuine middle is a rare achievement; the census agrees at the level of a rhyme and no more — a
+frequency in a Boolean family is not his claim about defective syllogisms, only its echo.
 
 Two forms from that corpus are the minimal pair this paper needs. In the first, the mediator relays: it
 reads one party and passes the signal on, with no joint determination. The test reads the form as a dyad;
@@ -265,8 +278,16 @@ Hegel's talk of spiritual mechanism "should not be taken in a reductionist sense
 transcends mechanism" (Sans, 2018, p. 206); in things spiritual, Hegel writes, "the center, and the union
 with it, assume higher forms" (Hegel, 1816/2010b, p. 641; quoted in Sans, 2018, p. 206). The genuine middle,
 at its fullest, is not gravity holding rocks in orbit. It is a whole producing and sustaining its own unity,
-a middle that is the whole's own act. That is a real structure. It is not a cause-and-effect structure whose
-parts either survive a partition or do not.
+a middle that is the whole's own act.
+
+And the gap is not just one of richness. Hegel's real middle is the whole standing prior to its parts — the
+parts are what they are because of the unity they make. My test runs the other way: it takes the parts and
+their rules as given and asks only whether any cut of them is lossless. That asymmetry — whole-before-parts
+against parts-first — is the one thing the partition can never read, because it begins where Hegel ends. It
+is also, exactly, Stein's complaint, arriving early.
+
+That is a real structure. It is not a cause-and-effect structure whose parts either survive a partition or
+do not.
 
 So the resemblance licenses one sentence and not the next. It licenses "Hegel's syllogism is a real
 structure of the whole, a middle through which the extremes genuinely hold together." It does not, by
@@ -300,10 +321,12 @@ My receipts hold a different topology fixed: one mediator in the middle, the out
 edge, on purpose, so that the read function is the only thing that varies and the conduit/integrator verdict
 can be pinned to it. That fixed star is closer, in wiring, to Hegel's defective middle than to his rotating
 one. The rotating triad is not beyond the instrument — its extensional face is a different form the lab has
-run, the symmetric three-cycle in which no party is a veto and the thirds fall even — but that is a separate
-receipt doing separate work, and mapping a succession of three syllogisms onto one symmetric wiring is a
-proxy, not an identity. The star reads one shape of Hegel's middle exactly and leaves his highest shape to a
-form built differently. That is a division of labor across the lab's receipts, not a wall the method hits.
+run, the symmetric three-cycle, where no single party is the distinguished binder (q101/q102) and, under a
+symmetric or all-required arrangement, the integration splits into even shares rather than concentrating on
+one term (q149's ring spread of 0.000; q113's all-required equal shares) — but that is a separate receipt
+doing separate work, and mapping a succession of three syllogisms onto one symmetric wiring is a proxy, not
+an identity. The star reads one shape of Hegel's middle exactly and leaves his highest shape to a form built
+differently. Two receipts split the labor between them.
 
 ## Stein's Knife: The Middle Tells You How, Never What
 
@@ -407,8 +430,8 @@ is a whole's own act of making and sustaining its unity — self-realizing, tran
 Mine is the term inside the core no cut can factor, computed on a finite graph, silent about life and purpose
 and what the parts are. Where they agree they agree on one thing, and Hegel wrote it twice: a middle that
 only relays is no real middle, once against the formal syllogism's abstract middle and once against
-communication in the mechanical process. Where they part is on what a genuine middle *is*, and the parting is
-the next post's subject, not this one's.
+communication in the mechanical process. Where they part is on what a genuine middle actually *is*, and the
+next post takes up that question.
 
 What this paper does not claim is the computation it cannot: the center of Hegel's solar system is a real
 middle in his sense, and whether it is partition-necessary in mine is a question no one has computed, on a
@@ -498,6 +521,108 @@ https://doi.org/10.1093/oso/9780198778165.003.0007
 
 ## Sourcing note (delete before posting/submission, once items are closed)
 
+**What v7 changed (five-reviewer panel synthesis, this round — adjudicated verdict: minor revision, one
+blocking fix):**
+
+- **[S1, blocking, 5/5] §198 corrected to §198R.** v6 cited the state-triad line at the Encyclopedia §198
+  main paragraph and appended a doubt-note arguing that the Remark "may not exist." That was backwards: the
+  digest and passage card agree the line sits in the Remark, not the main paragraph — the German main
+  paragraph ends at "ungestörtes Insichsein," well before the state-triad sentence, and Sans's own citation
+  reads "§ 198 Remark; 273" (2018, p. 207). v6's move to the main paragraph was itself a mis-correction.
+  Fixed in-text to §198R (p. 273 unchanged, since the Brinkmann/Dahlstrom pagination was never in dispute);
+  the doubt-note is deleted and replaced with the Sans citation matching the passage card. The byline
+  preamble is corrected to match. This locus propagates to Post 6 — flagged for that post's own citation.
+- **[S2, guard 1] The homology-altitude leak closed.** "That double diagnosis *is* the
+  conduit-versus-integrator distinction" asserted an identity the paper elsewhere disclaims ("not the same
+  middle"). Reworded to "draws the conduit-versus-integrator line in another vocabulary — the same shape,"
+  restoring the hedge the intro already promises. The preceding sentence is trimmed to avoid repeating the
+  "once in the logic of thought, once in the logic of the object" clause twice in a row.
+- **[S3] The census downgraded from vindication to rhyme.** "A census Hegel would have relished" read a
+  9.4% Boolean frequency as agreement with Hegel's own claim about defective syllogisms; it is at most an
+  echo of it. Reworded to say so directly, keeping the closing "Hegel would not have been surprised"
+  bookend untouched.
+- **[S4] A new paragraph names the whole-before-parts asymmetry.** Hegel's genuine middle is the whole
+  prior to and grounding its parts; the partition test runs parts-first, taking the parts and their rules
+  as given. That asymmetry is the one thing the partition can never read — and it is Stein's objection,
+  arriving early, in the paper's own argument rather than only in his section. Inserted into "The Move the
+  Resemblance Does Not License," between the "whole's own act" sentence and the causal-structure disclaimer.
+- **[F1] The §181R quotation trimmed to its verified fragments**, on the same standing physical-copy gate
+  as the di Giovanni p. 588 quote: "the essential ground of everything true" and "everything is a
+  syllogism" are kept; the connecting clause about "the syllogistic inference" is cut until a physical
+  Brinkmann/Dahlstrom p. 254 confirms it.
+- **[F2] "The twin" third form anchored.** The wiring-matched form that factors to zero despite a mediator
+  that reads both parties — introduced in "The Receipts," recalled in "The Move the Resemblance Does Not
+  License" and again in "Stein's Knife" — is not a numeric error; it belongs to the population census's
+  read-both stratum: of the 160 forms whose mediator reads both parties, 136 still factor (matching the
+  15.0% triadic rate reported in "The Receipts"). No individual form id is named in the body; this note
+  anchors the claim to that stratum.
+- **[F3] Moss quotation punctuation fixed.** The inserted preposition "via" now sits outside the quotation
+  marks: grasped via "a triad of syllogisms, which altogether constitute a process of alternating middle
+  terms."
+- **[F4] §182's "only the abstract particularity" added to the standing physical-check gate**, since only
+  "begrifflos" and "the subject joins itself together with itself by means of this mediation" were
+  confirmed against the open-access text this round.
+- **[F5] The two Mechanism-chapter quotations at p. 631 reset as APA block quotes.** Both ran as in-line
+  quotations at 46 and 56 words; APA 7 (§8.27) requires block format at 40 words or more. Both now appear
+  as indented block quotations with no surrounding quotation marks.
+- **[F6] The Sans p. 194 "founds its conclusion" citation is carried on the still-gated list**, not
+  corrected — it falls outside this round's verified Sans page set (192, 202, 203, 204–205, 206), and a
+  prior round's sign-off means no error is asserted, only a physical check still owed.
+- **[V1] The Objection paragraph thinned.** It ran the read-as-A/read-as-B template twice (the two
+  Hegel-scholarship camps, then the thin/thick reading of Sans) plus a "not X" aside in the same paragraph.
+  Rewritten to state the two camps once and the thin-reading concession once, without altering a citation
+  or touching the guard sentence, "What no reading in this debate delivers is an identity of referents."
+- **[V2] Two of six section-closing epigrams flattened.** "That is a division of labor across the lab's
+  receipts, not a wall the method hits" (closing "The Move the Resemblance Does Not License") and "Where
+  they part is on what a genuine middle *is*, and the parting is the next post's subject, not this one's"
+  (closing "Two Middles") are both reworded to plain statements. The three earned callbacks — the Receipts
+  close ("A conduit does not become an integrator by getting longer"), the Necessary-Middles close ("the
+  term through which the whole was ever a whole"), and the paper's final bookend — are kept verbatim.
+- **[V3] Intro paragraph 3 de-duplicated.** The "Where some cut is lossless… Where every cut costs
+  something…" pair earns its keep, defining the criterion; the immediately following "A conduit conveys…
+  An integrator commits…" pair repeated the identical shape and is merged into a single sentence.
+- **[V4] Two of three subject-interrupting double-em-dash appositives varied**, and the "conduit… is not a
+  bad middle. It is the stage…" sentence pair is rewritten to drop the "is not X. It is Y." construction.
+  Load-bearing paired contrasts elsewhere (hegel_specialist/hostile: an in-register signature, not a tic)
+  are left as written.
+- **Guards re-checked against the full text after every edit above.** Guard 2 (no demotion of Φ/IIT):
+  "computed," "thin and decidable… is what makes it an instrument," and "a cut and a count" are untouched
+  by the voice edits. Guard 1 (homology, not identity): S2 was the only live leak; a second pass for bare
+  "is the" equations between Hegel's middle and the criterion's verdict found none.
+
+**What v6 changed (round-3 grounding digest, library/digests/post3.md, + RECEIPTS.md cross-check):**
+- **The di Giovanni p. 588 quotation trimmed to its verified fragment.** Sans quotes only "everything
+  rational is a syllogism" against (90; 588); the fuller sentence v5 ran as a direct quote ("it is not just
+  that the syllogism is rational but that everything rational is a syllogism") has an unverified front
+  clause — the freely circulating Miller translation reads the same idea with different wording ("not only
+  is the syllogism rational, but everything rational is a syllogism"), and di Giovanni's exact front clause
+  could not be checked against the physical Cambridge page this round. Both occurrences (the opener and the
+  "Everything Rational Is a Syllogism" section) now quote only the verified fragment and paraphrase the
+  setup. Restore the fuller quotation, verified, if the physical page confirms it.
+- **The Sans "neither to mind nor to nature" quotation is now page-pinned at p. 202.** The open-access
+  Tübingen PDF of the chapter (print pagination 191–213) closed this gate; v5 ran the quote with no page.
+- **The three-cycle's "no party is a veto" line is replaced.** No located receipt backs "no party is a
+  veto" — q112 shows the opposite for the mediated-triad star (every core party holds a veto there, mediator
+  Shapley 1.333 against 0.333 each). What the symmetric three-cycle receipts actually back is narrower: no
+  single distinguished binder (q101/q102) and, under symmetry or an all-required rule, even shares rather
+  than concentration (q149's ring spread of 0.000; q113's all-required equal shares). The post now states
+  that, and "thirds" is retired in favor of "shares," since q149's even splits are read on five- and
+  six-party rings, not a three-party one.
+- **The §198 locus is held at the main paragraph, flagged, not silently resolved.** Two research passes
+  disagree: one finds Sans citing "§ 198 Remark; 273" and a passage card agreeing; another finds the German
+  Enzyklopädie carries no Anmerkung at §198 at all. Asserting a Remark that may not exist is worse than
+  citing the paragraph and saying so, so v6 cites §198 without the Remark designation, keeps the
+  Brinkmann/Dahlstrom page (273) since the pagination itself is not in dispute, and adds an inline flag
+  naming Sans's citation and the reason this post does not follow it. Physical-copy resolution is owed
+  before this locus prints in Post 6, which the same choice governs. *(Reversed by v7 — see S1 above: the
+  panel's grounding digest and the passage card both settle this in favor of the Remark, and v6's flag was
+  the mis-correction, not the fix.)*
+- **Repo numbers re-checked against RECEIPTS.md.** All figures in "The Receipts" — 256 forms, 24 triadic,
+  9.4%, the 232/8/16 Φ bands, the 15.0% read-both rate, the pure-relay/joint-commit pair, the chain results,
+  the q213 margins — match the canonical file exactly; no change needed.
+- Antithesis density trimmed in a few of the most crowded stretches (the arc and Stein sections); the
+  repeated phrase "the honest width of the bridge" is cut to its single strongest use.
+
 **What v5 changed (round-2 five-reviewer panel, posts/post3_reviews/, + a verified research pass):**
 - **The hinge no longer contradicts itself** (hostile R2 and the Hegel specialist independently, both
   verified against di Giovanni p. 641). v4 said the mechanism rung is "a causal middle and nothing more…
@@ -514,8 +639,8 @@ https://doi.org/10.1093/oso/9780198778165.003.0007
 - **The second skeptic is now faced** (R2 F4, Hegel F5, research concept 1). A new paragraph names the two
   camps in Hegel-Logic scholarship — the metaphysical-revival line (Sans, Kreines, Stern, Houlgate) vs. the
   non-metaphysical/categorial line (Hartmann, Pinkard, Pippin), per Kreines (2006) — and concedes, using
-  **Sans's own words** ("subjectivity as well as objectivity are determinations of the Concept as such and do
-  not refer directly either to mind or to nature"), that even the paper's anchor reader does not secure a
+  **Sans's own words** ("subjectivity as well as objectivity are determinations of the Concept as such and
+  do not refer directly either to mind or to nature"), that even the paper's anchor reader does not secure a
   mind-independent causal structure. The bridge is therefore a homology of shape, not an identity of
   referents. Per the research verification: Pippin is characterized as the "logic as the science of pure
   thinking" reader, **not** "deflationary" (in *Realm of Shadows* he insists logic *is* metaphysics); the
@@ -546,7 +671,8 @@ https://doi.org/10.1093/oso/9780198778165.003.0007
   3447–3482 (vol. 90, not 89; "Advance online publication" dropped). Copyright year 2024 confirmed; Springer's
   printed header reads (2025) — keep 2024 unless the venue cites by issue cover-date.
 - **§198 locus fixed** (research concept 4): "the state is a system of three syllogisms" now cites
-  §198 (main paragraph), not §198R p. 273 — a corrected drift matching Post 6.
+  §198 (main paragraph), not §198R p. 273 — a corrected drift matching Post 6. *(This was itself the
+  mis-correction v6 inherited and v7 reverses — see S1 above.)*
 - **Flagship term de-fused** (formal specialist): "partition-necessary middle" no longer names only the
   partition half; the integrator (partition-core membership) and the necessary middle (survives the bypass
   too) are named distinctly.
@@ -559,22 +685,39 @@ https://doi.org/10.1093/oso/9780198778165.003.0007
   to "Post N." "rung" thinned.
 
 **Still gated / verify before posting:**
-- Physical-copy checks on the di Giovanni SL quotes (pp. 588, 631, 635, 636, 641, 642–643) and the §182
-  "begrifflos" rendering, per the standing series gate (primary was read against the freely circulating
-  draft translation).
-- **Sans page for the "neither directly to mind or to nature" quote** — verified verbatim from the
-  open-access chapter PDF in the research pass but not yet page-anchored; confirm the page (the objectivity
-  discussion, ~pp. 202–206) at proof.
+- Physical-copy checks on the di Giovanni SL quotes (pp. 588, 631, 635, 636, 641, 642–643), the
+  Encyclopedia §181R quotation (p. 254), and the §182 quotations ("begrifflos," "only the abstract
+  particularity," "the subject joins itself together with itself by means of this mediation"), per the
+  standing series gate (primary was read against the freely circulating draft translation). Two of the SL
+  checks double as the front-clause check on p. 588 (see the v5 entry above) — if the physical page
+  confirms di Giovanni's wording matches the fuller sentence v5 ran, restore it; likewise restore the
+  fuller §181R sentence if p. 254 confirms it.
+- **§198R p. 273 page check.** The locus itself is settled this round — Remark, not main paragraph, per
+  Sans's own citation ("§ 198 Remark; 273," 2018, p. 207) and the passage card — and propagates to Post 6.
+  What remains is the standing physical check that Brinkmann/Dahlstrom p. 273 carries the sentence as
+  quoted, the same gate the rest of the Encyclopedia quotations sit on.
 - **Moss (2013)** pages 73–85 verified; confirm the p. 78 locator for "alternating middle terms" and the
   IPQ DOI (10.5840/ipq20135317) against the published PDF.
+- **Sans (2018), p. 194** ("founds its conclusion") sits outside this round's verified page set (192, 202,
+  203, 204–205, 206); a prior round signed off on it, so no error is asserted, but confirm against the
+  physical chapter before the locator prints in a submitted version.
+- **"The twin" third form** (the wiring-matched, read-both mediator that still factors to zero, cited in
+  "The Receipts," "The Move the Resemblance Does Not License," and "Stein's Knife") is anchored this round
+  to the population census's read-both stratum — 136 of the 160 read-both forms factor — rather than to a
+  named form id. Naming the specific population.csv row, if one is wanted for a direct citation, is a small
+  further step.
 - Kreines (2006) two-camp framing confirmed via the abstract; note that Kreines is himself a
   metaphysical-revival partisan (he judges the non-metaphysical reading "unconvincing"), so he is cited for
   the recognized *vocabulary* of the split, not as a neutral referee.
 - Sans print pages (191–213), Redding p. 43 caveat, Harvey (2002) direct-quote (Cloudflare-gated), and
   Protin (2025) arXiv version — all as in v4.
-- The lab receipts are internal (corpus/classifier/STRUCTURAL_FINDINGS/q213); all fifteen were re-verified
-  against the repo this round (256/24/9.4%, the Φ bands, the 15% read-both figure, the relay/committing
-  chains, the q213 collapse). Decide the citation form before journal submission.
+- **Christensen (2024)** *Erkenntnis* 90(8): 3447–3482 — DOI confirmed, exact volume/issue/page range still
+  not independently confirmed against Springer or Crossref (both blocked the automated check this round);
+  low risk, but check before the receipts section prints the full locator in a submitted version.
+- The lab receipts are internal (corpus/classifier/STRUCTURAL_FINDINGS/q213); all figures were re-verified
+  against RECEIPTS.md this round (256/24/9.4%, the Φ bands, the 15% read-both figure, the relay/committing
+  chains, the q213 collapse, the q101/q102/q149/q113/q112 figures behind the reworded three-cycle line).
+  Decide the citation form before journal submission.
 - **Author-only:** a real, anonymized lived middle for the opener and for the affirmative case (the
   intermediary that "looks like overhead… and turns out to be the term through which the whole was ever a
   whole") — the one hypothetical the paper still leans on, which no reviewer can fabricate. And the final
