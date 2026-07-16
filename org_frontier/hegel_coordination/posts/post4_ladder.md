@@ -1,9 +1,14 @@
 # Where Hegel Files the Microscope
 
-*Roger Hunt · draft v3 (delete this byline before posting). Rebuilt from the five-reviewer panel
-(posts/post4_reviews/): the crossing is decomputed and restaged inside the chemical process with Hegel's own
-bookkeeping; the ordering contradiction is gone; Ebeturk is recast as the dissent he is; the Life-chapter
-boundary is owned; the confession ends the paper. Sourcing note at the end.*
+*Roger Hunt · draft v5 (lab-generated for the author to revise). Builds on v4's verification pass (Koch
+quote fixed, special-issue context named, receipts cited) and applies a five-reviewer panel synthesis
+rebuild: the decidability claim is rescoped to what RECEIPTS.md actually backs — time-series proxies at
+rank-AUC ≤ 0.63, a structural shortcut that does better in one family but does not survive a change of
+size — the peak-of-reaction sentence no longer resurrects the purged solar-system ranking, the Ebeturk
+ordering is corrected to its actual direction and its misquoted phrase dropped, the Koch objection is
+banked as a debt rather than waved off, the §194 Addition 2 citation is re-pinned to the Zusätze edition,
+three further citation and adjacency fixes are applied, and antithesis density and em-dash load are thinned
+at the hardest paragraphs. Sourcing note at the end.*
 
 ---
 
@@ -11,9 +16,9 @@ Hand Hegel my instrument and ask him where it goes on his shelf. That is the fai
 objection this program has received, and I want to run it in his voice before I answer in the lab's, because
 the objection is good, and a reader who does not feel its force will not trust the answer that follows. One
 caveat about the shelf before I start: Hegel's rungs are not shelf positions a system occupies but shapes
-that fail into one another — the succession is a proof-structure, not a filing cabinet — and asking where an
-instrument "goes" is already a mechanist's picture of his book. I will use the ladder anyway, because the
-objection comes framed that way, and I will let the rungs fail into each other as he wrote them.
+that fail into one another, and asking where an instrument "goes" is already a mechanist's picture of his
+book. I will use the ladder anyway, because the objection comes framed that way, and I will let the rungs
+fail into each other as he wrote them.
 
 Paper 3 left the instrument at the top of a ladder it did not know it was climbing. It showed that Hegel's
 own Mechanism chapter runs, on one continuous stretch of text, from an aggregate whose parts merely sit
@@ -37,8 +42,8 @@ series.
 
 Hegel has a ladder built for exactly this question, though built to answer it his own way, not mine.
 Objectivity, he writes, "contains the three forms: mechanism, chemism, and the relation of purpose" (Hegel,
-1830/2010a, §194, Addition 2, p. 270). Run the instrument up that ladder and the report from Paper 3 stands:
-it climbs to the top of mechanism and stops. This paper is about what waits above the stop — one rung where
+1830/1991b, §194, Addition 2). Run the instrument up that ladder and the report from Paper 3 stands: it
+climbs to the top of mechanism and stops. This paper is about what waits above the stop — one rung where
 the two orderings cross rather than merely diverge, and one rung where Hegel does not refine the criterion
 but replaces it. I am going to concede the classification as exactly as I can, and I am not going to win it
 back by claiming that Hegel's higher rungs are really my criterion in richer dress. That move would be false
@@ -81,13 +86,13 @@ separable from the other to begin with. On the axis my instrument reads, a pair 
 describes this one cannot factor. There is no cut that leaves it intact, so there is no cut at all that the
 test can call lossless.
 
-One flag before any of this hardens, because this series has needed the flag before: nothing in this section
-is computed. The corpus contains no chemical pair, and every reading of Hegel's chemistry in the instrument's
-vocabulary is what the criterion's definition yields on his description — a description so strong that the
-yield is nearly analytic, but a derivation from a text is not a verdict from a model. Where Paper 3 owed a
-solar system, this paper owes an acid and a base. Hegel has even supplied the wiring: his own middle term for
-the tensed extremes — water in the realm of bodies, language in that of spirit — is a three-part mediated
-form of exactly the shape the corpus is built from.
+One flag before any of this hardens: nothing in this section is computed. The corpus contains no chemical
+pair, and every reading of Hegel's chemistry in the instrument's vocabulary is what the criterion's
+definition yields on his description — a description so strong that the yield is nearly analytic, but a
+derivation from a text is not a verdict from a model. Where Paper 3 owed a solar system, this paper owes an
+acid and a base. Hegel has even supplied the wiring: his own middle term for the tensed extremes — water in
+the realm of bodies, language in that of spirit — is a three-part mediated form of exactly the shape the
+corpus is built from.
 
 Hegel puts this rung above mechanism for exactly that reason: the binding has moved from the arrangement of
 the parts into the parts' own nature. He also puts it below teleology, and the reason he gives for that
@@ -104,11 +109,10 @@ its neighbors to be what it now is. Read the process end to end and the partitio
 irreducible at the peak of the tension, factoring at the product, on Hegel's own description of each.
 
 Hegel says two more things about the product on the same page, and the instrument should be made to hear
-both. He calls it "only a formal unity" (p. 647) — his own downgrade of the union the process achieves, in
-his own vocabulary. And he adds that in the product "the capacity for their prior self-subsistence and
-tension is retained" (p. 647): the salt keeps as a disposition everything the reaction spent as an
-occurrence. A partition test reads occurrences. The retained capacity is one more thing on the far side of
-its axis.
+both. He calls it "only a formal unity" (p. 647) — his own downgrade of the union the process achieves. And
+he adds that in the product "the capacity for their prior self-subsistence and tension is retained" (p. 647):
+the salt keeps as a disposition everything the reaction spent as an occurrence. A partition test reads
+occurrences. The retained capacity is one more thing on the far side of its axis.
 
 That collapse is not, for Hegel, the interesting fact about the product. The interesting fact is where the
 tension went, and who is responsible for bringing it back. "The process does not spontaneously re-start
@@ -121,32 +125,33 @@ to it from outside" (p. 649). Chemism cannot posit its own presupposition. It re
 on, spends it, and waits.
 
 This is the exhibit where the two orderings come apart, and the first thing to say is where they still agree.
-At the peak of the reaction the two ladders read the same: the tensed pair stands above every mechanism on
-his ordering and on mine. The crossing does not need a comparison between systems, and I will not rest it on
-one — I have computed neither a chemical pair nor a solar system, and Hegel's ladder puts chemism above
-mechanism, not below it. The crossing runs inside the chemical process itself. As the reaction runs to its
-product, the coupling my test reads goes from total to gone; and that descent is, for Hegel, the ascent,
-because the neutral product is where chemism shows it cannot posit its own presupposition, and the showing is
-what carries the logic up to teleology. Where his ladder climbs, my axis drops, across one page of his text.
-Two orderings that move in opposite directions over the same stretch are not the same ordering. And Hegel's
-own bookkeeping inside the chapter says as much in his vocabulary: the three syllogisms of chemism "fall
-apart" (p. 649), where the syllogisms of the solar system closed into one another — by his own formal
-measure, the loosest binding of free mechanism holds together in a way the tightest tension of chemism does
-not, even as his ladder files chemism higher. That gap between his placement and his bookkeeping is the gap
-between his axis and mine.
+At the peak of the reaction the two ladders agree on the verdict, not the rank: the tensed pair cannot factor,
+and neither can free mechanism. On Hegel's ordering the pair stands above the solar system; on mine the two
+return the one thing a partition test has to say about either — no cut is lossless. The agreement is only
+that both are irreducible, and I have computed neither a chemical pair nor a solar system to make it more
+than that. The crossing is what happens next, and it runs inside the chemical process itself. As the reaction
+runs to its product, the coupling my test reads goes from total to gone; and that descent is, for Hegel, the
+ascent, because the neutral product is where chemism shows it cannot posit its own presupposition, and the
+showing is what carries the logic up to teleology. Where his ladder climbs, my axis drops, across one page of
+his text. Two orderings that move in opposite directions over the same stretch are not the same ordering. And
+Hegel's own bookkeeping inside the chapter says as much in his vocabulary: the three syllogisms of chemism
+"fall apart" (p. 649), where — on his own formal reckoning earlier in the same chapter, not on any further
+verdict of mine — the syllogisms of free mechanism close into one another instead. By his own measure, the
+loosest binding the ladder names holds together in a way the tightest tension of chemism does not, even as
+his ladder files chemism higher. That gap between his placement and his bookkeeping is the gap between his
+axis and mine.
 
-The reason the orderings invert is not that Hegel grades tightness and I grade something looser. He is
-grading whether the unity belongs to the object's own self-determination — whether the thing that holds the
-parts together is something the parts themselves posit and sustain — and chemism fails that grade at the very
-moment it passes mine. The tension is total, but it is borrowed. Ebeturk (2023) reads the same pages from the
-other direction, and the disagreement is worth having in the open rather than borrowed as support. Granting
-that "the chemical process as a whole is the self-determination of the concept in and through distinctive
-objective processes" (p. 57), he argues the totality of chemical processes — combination, dissociation, the
-catalytic return — comes close enough to positing its own presuppositions that Life should follow chemism
-directly. I am taking his sentence for the axis it names, not the verdict he reaches on it: what raises or
-fails a rung, for him as for the Hegel I am reading, is how far the process posits what it presupposes. And
-on the singular process — this acid, this base, this salt — the verdict of p. 647 stands on either reading:
-it did not posit it.
+The reason the orderings invert is that Hegel grades whether the unity belongs to the object's own
+self-determination — whether the thing that holds the parts together is something the parts themselves posit
+and sustain — and chemism fails that grade at the very moment it passes mine. The tension is total, but it is
+borrowed. Ebeturk (2023) reads the same pages from the other direction, and the disagreement is worth having
+in the open rather than borrowed as support. Granting that "the chemical process as a whole is the
+self-determination of the concept in and through distinctive objective processes" (p. 57), he argues the
+totality of chemical processes — combination, dissociation, the catalytic return — comes close enough to
+positing its own presuppositions that Life should follow chemism directly. I take his sentence for the axis
+it names: what raises or fails a rung, for him as for the Hegel I am reading, is how far the process posits
+what it presupposes. On the singular process — this acid, this base, this salt — the verdict of p. 647 stands
+on either reading. It did not posit it.
 
 The first chemical syllogism needs a middle term through which the tensed extremes communicate, and Hegel
 names it directly:
@@ -232,17 +237,16 @@ this limit. The credit:
 The Encyclopedia states the same debt more tersely: "Through the concept of inner purposiveness, Kant
 re-awakened the idea in general and that of life in particular" (Hegel, 1830/2010a, §204, Remark, p. 277).
 Both passages credit Kant with opening the door. Neither passage walks through it the way Kant does. Where
-Kant stops at a maxim for reflective judgment, Hegel claims for teleology as such — before the
-external/internal distinction is even in play, as he says in the same breath — "the higher principle, the
-concept in its concrete existence, which is in and for itself the infinite and absolute – a principle of
-freedom which, utterly certain of its self-determination, is absolutely withdrawn from the external
-determining of mechanism" (1816/2010b, p. 654). Inner purposiveness is where that principle stops being on
-loan from a purposer standing outside. External purposiveness — a carpenter's purpose realized in wood that
-stays indifferent to it — inherits mechanism's whole problem: the content of the purpose is "externally given
-to it in the manifoldness of the objective world," so the connection remains formal (p. 653). A means, on
-this register, "is only a merely mechanical object" (p. 660), and Hegel does not let the point pass without
-its own concrete case. The means a purpose sends ahead of itself — the plough, rather than the crop it is
-for —
+Kant stops at a maxim for reflective judgment, Hegel claims for teleology as such, before the
+external/internal distinction is even in play, "the higher principle, the concept in its concrete existence,
+which is in and for itself the infinite and absolute – a principle of freedom which, utterly certain of its
+self-determination, is absolutely withdrawn from the external determining of mechanism" (1816/2010b, p. 654).
+Inner purposiveness is where that principle stops being on loan from a purposer standing outside. External
+purposiveness, a carpenter's purpose realized in wood that stays indifferent to it, inherits mechanism's
+whole problem: the content of the purpose is "externally given to it in the manifoldness of the objective
+world," so the connection remains formal (p. 653). A means, on this register, "is only a merely mechanical
+object" (p. 660), and Hegel does not let the point pass without its own concrete case. The means a purpose
+sends ahead of itself — the plough, rather than the crop it is for —
 
 > is more honorable than are immediately the enjoyments which it procures and which are the purposes. The
 > tool lasts while the immediate enjoyments pass away and are forgotten. It is in their tools that human
@@ -252,7 +256,7 @@ for —
 This is Hegel's own name for the arrangement: "the cunning of reason," a purpose that inserts a mechanical
 object between itself and the world and lets that object take the wear (p. 663). But the cunning still runs
 on an external means, and the chapter's real destination is a purpose that needs no plough at all, because
-its own activity is both means and end. "In every transition the concept maintains itself," Hegel writes, but
+its own activity is both means and end. At every transition the concept maintains itself, Hegel writes; but
 "in the teleological transition, what maintains itself is the concept that as such already concretely exists
 as cause" (p. 664). The self-maintenance chemism could not manage — a process that restarts itself rather
 than waiting for an outside hand — is exactly what a purposive whole does as a matter of course.
@@ -272,38 +276,42 @@ This is the register Kreines (2008) names when he credits Hegel with taking tele
 claim about knowledge. On Kreines's reading, Hegel holds "that living beings *do* manifest true 'internal
 purposiveness,' that their structure and development *is* explicable in teleological terms, and that we *can*
 have objective knowledge of this natural teleology—and of its broader metaphysical implications" (p. 346).
-Kant, on this reading, stopped short of a conclusion his own analysis should have licensed: "Kant should not,
-Hegel says, have been satisfied in investigating whether the application of teleology to nature provides
-'mere maxims of a subjective cognition'" (p. 346). The essay opens by stating the relation between the two
-philosophers in one line: "Hegel accords great philosophical importance to Kant's discussions of teleology
-and biology in the *Critique of the Power of Judgment*, and yet also disagrees with Kant's central
-conclusions there" (p. 344). Great importance and flat disagreement, in the same sentence, about the same
-passages this section has just walked through.
+Kant, on this reading, stopped short of a conclusion his own analysis should have licensed: Kreines reads
+Hegel as holding that Kant had no business resting content with treating teleology's bearing on nature as a
+merely subjective maxim (p. 346). The essay opens by stating the relation between the two philosophers in one
+line: "Hegel accords great philosophical importance to Kant's discussions of teleology and biology in the
+*Critique of the Power of Judgment*, and yet also disagrees with Kant's central conclusions there" (p. 344).
+Great importance and flat disagreement, in the same sentence, about the same passages this section has just
+walked through.
 
 Ng (2020) pushes the same move deeper into the architecture of Hegel's whole system, and I will not put
 quotation marks around her argument, because the exact wording of her key formulations is not something I
 have confirmed against the book itself. Her thesis, as I understand it and as it is widely reported: the
-shift from regulative to constitutive purposiveness is not a local claim about biology. Inner purposiveness
-becomes the shape of the Concept as such, so that organic self-maintenance, not mechanical causation, is the
-model on which Hegel builds his logic's own highest categories — life, on her reading, is what opens the
-space in which reasons and self-relation become possible at all. Her second chapter carries the title "Kant's
-Great Service to Philosophy" (Ng, 2020, pp. 23–64). If she is even roughly right, the organism stands where
-Hegel's ladder delivers its climber — the first shape of the Idea — because it produces and knows itself, and
+shift from regulative to constitutive purposiveness reaches past biology into the architecture of the Concept
+itself. Inner purposiveness becomes the shape of the Concept as such; organic self-maintenance is the model
+on which Hegel builds his logic's own highest categories, and life, on her reading, is what opens the space
+in which reasons and self-relation become possible at all. Her second chapter carries the title "Kant's Great
+Service to Philosophy" (Ng, 2020, ch. 2). If she is even roughly right, the organism stands where Hegel's
+ladder delivers its climber — the first shape of the Idea — because it produces and knows itself, and
 hardness-to-cut is a symptom that shape happens to display, not the reason it stands there.
 
 Koch (2023) closes the loop from the other end, arguing that objecthood itself, on Hegel's account, is not
-free-standing all the way down: "structures of external purposiveness constitute mechanical objects"
-(p. 149), and more starkly, "there are no objects without such teleological structures. The constitution of
-objects is ontologically dependent on teleological structures" (p. 162). On that reading, the mechanical
-object my instrument takes as a given unit — a node with a determinate update rule — is already downstream of
-a purposive individuation the causal register cannot represent. What that bracketing costs and buys is the
-business of the section after next.
+free-standing all the way down: structures of external purposiveness "provide the conditions for the
+individuation of mechanical objects" (p. 149), and more starkly, "there are no objects without such
+teleological structures. The constitution of objects is ontologically dependent on teleological structures"
+(p. 162). Koch is careful about the difference between those two claims — conditioning individuation is not
+the same as constituting the object — and I want the difference on the record, because the weaker claim is
+already enough to matter. On that reading, the mechanical object my instrument takes as a given unit — a node
+with a determinate update rule — is already downstream of a purposive individuation the causal register
+cannot represent. What that bracketing costs and buys is the business of the section after next.
 
-Even the ladder's own ordering is not settled ground within Hegel scholarship. Ebeturk (2023) argues, from
-inside the same texts, "two main reasons to think that the category of 'Teleology' might be misplaced,"
-concluding that the logic of life and internal teleology should come before external teleology rather than
-after chemism (p. 46). I take no side in that dispute; the point is that the axis Hegel's readers argue about
-— where exactly self-determination crosses a further threshold — is never the axis my instrument reads.
+Even the ladder's own ordering is not settled ground within Hegel scholarship, and the dispute is current
+enough that Ebeturk and Koch are arguing it in the same venue: both essays sit in Hegel Bulletin's 2023
+special issue on Hegel and teleology, arguing the ordering from opposite ends of the same volume. Ebeturk
+(2023) argues, from inside the same texts, that the category of Teleology is misplaced, concluding that
+internal teleology — the logic of Life — should follow chemism directly, ahead of external teleology rather
+than behind it (p. 46). I take no side in that dispute; the point is that the axis Hegel's readers argue
+about — where exactly self-determination crosses a further threshold — is never the axis my instrument reads.
 Whichever way the ordering dispute resolves, it resolves entirely inside a vocabulary of purpose and
 self-production that a partition test brackets from the start.
 
@@ -314,13 +322,13 @@ Before I concede all this, I want to block the wrong way of conceding it.
 The wrong way runs: Hegel ranks the organism at the top, my instrument would also score a living metabolism
 as irreducible, therefore the two orderings agree on the hard case, therefore partition-irreducibility is
 quietly what Hegel's teleology has been measuring all along. Every step of that inference is a slide, and
-chemism is the proof. The instrument and Hegel would agree on the verdict for the organism — no form models a
-metabolism either, but no reading of the criterion returns anything else on one — and they part inside the
-chemical process, by the identical logic in both cases: my test reads resistance to partition, and Hegel
-reads whether the unity belongs to the thing's own self-determination. Those are different questions that
-happen to return the same answer at the top of the ladder and opposite movements in the middle of it.
+chemism is the case that breaks it. The instrument and Hegel would agree on the verdict for the organism — no
+form models a metabolism either, but no reading of the criterion returns anything else on one — and they part
+inside the chemical process, by the identical logic in both cases: my test reads resistance to partition, and
+Hegel reads whether the unity belongs to the thing's own self-determination. Those are different questions
+that happen to return the same answer at the top of the ladder and opposite movements in the middle of it.
 Agreement on one case is not evidence of a shared instrument. It is the price of never looking at the case
-that would show the disagreement, and chemism is that case — read, not run. No form in this program's corpus
+that would show the disagreement, and this is that case — read, not run. No form in this program's corpus
 models a chemical pair; what the criterion's definition returns on Hegel's own description of the pair is the
 evidence here, and the model that would test it is owed the way Paper 3's solar system is owed.
 
@@ -329,11 +337,11 @@ someone to compute it. He replaces it. His upgrade condition — the thing that 
 chemism to teleology — is self-determination, running through inner purposiveness to a self-producing,
 eventually self-knowing whole. Mine is resistance to partition. Where the two conditions agree, on the
 organism, they agree for independent reasons, and chemism has already shown those reasons can be pried apart.
-I am not going to claim that inner purposiveness is partition-irreducibility with a soul, because Ng's own
-reading forecloses exactly that move: if the organism stands where it stands because it is self-producing and
-not because it is hard to cut apart, then reading Hegel's teleology as a richer statement of my criterion
-imports into his logic the very synchronic, external, cut-from-outside mechanism his whole ladder is built to
-climb away from. It would make Hegel a mechanist about the one rung he wrote to escape mechanism.
+Inner purposiveness is not partition-irreducibility with a soul, and Ng's own reading forecloses that move:
+if the organism stands where it stands because it is self-producing and not because it is hard to cut apart,
+then reading Hegel's teleology as a richer statement of my criterion imports into his logic the very
+synchronic, external, cut-from-outside mechanism his whole ladder is built to climb away from. It would make
+Hegel a mechanist about the one rung he wrote to escape mechanism.
 
 This is also why the series' governing rule against claiming an anticipation is not a scruple but a
 load-bearing constraint on the argument itself. Say that Hegel's teleology already tracks the criterion this
@@ -357,14 +365,22 @@ any procedure for it are the same fact: it grades on an axis that admits no meas
 
 The partition test grades on an axis that does. Give it a specified system — units, states, the rule by which
 each responds to the others — and the question is answerable in principle by a definite operation, and
-answered in practice at the sizes coordination units actually come in, which is where the program's every
-computed verdict lives. It never asks what a part is for. It never asks whether a system is holding itself
-together over time rather than merely occupying one state. It brackets the whole question Hegel's ladder is
-built to answer, and what it buys with the bracketing is a boundary — the aggregate against the
-configuration, the pile of gravel against the solar system — that can be drawn on a system without first
-settling the metaphysics of that system's life. Koch's claim that objecthood itself depends on teleological
-structure is a claim my instrument cannot even parse, because the instrument takes a system's parts as given
-and asks only what holds them together once they are.
+answered in practice at the sizes coordination units actually come in. That is where every computed verdict
+in this program lives. The cheap time-series proxies that try to skip the exact computation — ΦID,
+whole-minus-sum — separate the corpus's own dyadic and triadic forms at a rank-AUC no better than 0.63, next
+to chance. A structural shortcut can do better inside one family, but it does not survive a change of size.
+So at these sizes the exact operation is what the program runs, and runs cheaply, because the systems are
+small.
+
+The test never asks what a part is for. It never asks whether a system is holding itself together over time
+rather than merely occupying one state. It brackets the whole question Hegel's ladder is built to answer, and
+what it buys with the bracketing is a boundary — the aggregate against the configuration, the pile of gravel
+against the solar system — that can be drawn on a system without first settling the metaphysics of that
+system's life. Koch's claim that objecthood itself depends on teleological structure is one my instrument
+cannot parse — and that is a debt, not a defense. If the parts I take as given are already individuated by a
+purposiveness the causal register cannot represent, then my floor sits on ground Hegel's ladder only reaches
+higher up, and the boundary I draw is drawn on units I did not earn. I bracket that, the way I bracket the
+acid I have not yet run; the bracket is honest only because it is named.
 
 And here, once, I want to push back before I withdraw it. I am not fully persuaded that the finer boundary is
 finer. A criterion that no one can compute, on a case that must already be interpreted before the criterion
@@ -373,8 +389,9 @@ the work hides. Hegel's readers have spent two centuries deciding whether this o
 self-determining, and the deciding has no court of appeal beyond more reading. There are days I think
 "richer" is what we call a criterion that cannot be wrong because it cannot be run. I withdraw most of that:
 the organism is real, self-production is real, and my instrument genuinely cannot see it, so the axis Hegel
-grades is not empty. But I mind conceding the classification more than the papers before this one minded
-their concessions, and the reader should know that, because the concession is the paper.
+grades is not empty. I mind conceding this classification more than the papers before this one minded theirs,
+because a partition test that cannot see self-production has a real gap at exactly the rung where the two
+orderings would otherwise agree — a gap worth naming precisely so the next paper can go and measure it.
 
 That is the trade: Hegel's criterion draws the finer boundary and supplies no way to compute it on a case not
 already interpreted; mine draws a coarser boundary, one that collapses chemism and teleology together because
@@ -389,10 +406,11 @@ and a claim like that has to be checked against what the program has actually bu
 could in principle build.
 
 No form in this program's corpus models self-production or self-maintenance. The nearest work is dynamical
-rather than organic: one line of probes measures how quickly a Boolean network returns to its attractor after
-a single node is flipped, and another asks whether a collapsing attractor predicts the same verdict the
-partition test returns on its own. Neither of these is a system in which one part produces, repairs, or
-regenerates another. They measure recovery, not reproduction. If a defender of the instrument wants to argue
+rather than organic: one probe finds each form's attractor from a fixed start, flips one node at a time out of
+it, and counts the deterministic steps back — three units, thirty steps allowed, mean recovery time run
+against the partition verdict — and a second asks whether a collapsing attractor predicts that same verdict on
+its own. Neither of these is a system in which one part produces, repairs, or regenerates another. They
+measure recovery, not reproduction. If a defender of the instrument wants to argue
 that self-maintenance is itself an attractor property, and therefore partly within partition's reach after
 all, the reply is that the argument proves overlap and needs identity. A thermostat returns to its set point
 and produces none of its own parts; recovery and reproduction can coincide in what a probe detects without
@@ -415,6 +433,10 @@ https://doi.org/10.1371/journal.pcbi.1011465
 
 Ebeturk, E. (2023). Between chemism and life: Is Hegel's teleology misplaced? *Hegel Bulletin, 44*(1), 46–73.
 https://doi.org/10.1017/hgl.2022.40
+
+Hegel, G. W. F. (1991b). *The encyclopaedia logic: Part I of the Encyclopaedia of philosophical sciences
+with the Zusätze* (T. F. Geraets, W. A. Suchting, & H. S. Harris, Trans.). Hackett. (Original work
+published 1830)
 
 Hegel, G. W. F. (2010a). *Encyclopedia of the philosophical sciences in basic outline, Part I: Science of
 logic* (K. Brinkmann & D. O. Dahlstrom, Eds. & Trans.). Cambridge University Press.
@@ -442,6 +464,131 @@ https://doi.org/10.1371/journal.pcbi.1003588
 ---
 
 ## Sourcing note (delete before posting/submission, once items are closed)
+
+**What v5 did (five-reviewer panel synthesis rebuild):**
+
+- **Decidability claim rescoped to what RECEIPTS.md backs (SUB-1, mandatory — hegel, formal, hostile,
+  voice_reader independently).** The old sentence ("cheap proxies... no better than 0.63... nothing
+  shortcuts the operation") read as an unscoped universal, and RECEIPTS.md #7 records structural shortcuts
+  that beat 0.63 badly: a bidirectional-coupling + influence≥0.75 membership rule at rank-AUC 0.89 over 256
+  determinations, an edge-count proxy at 0.966 in-family, a learned surrogate at AUC 1.000 in-distribution.
+  A hostile reader holding the receipt would have won the point outright. v5 names the 0.63 ceiling as the
+  *time-series* proxies (ΦID, whole-minus-sum) specifically, concedes that a structural shortcut does better
+  inside one family, and adds the stronger, true version the receipt's own precision note recommends: the
+  structural shortcut does not survive a change of size, so the exact operation is what the program runs at
+  the sizes it actually studies. The spliced run-on sentence is split into short declaratives and the
+  "What the Bracketing Buys" paragraph now ends on "The test never asks what a part is for," a separate
+  paragraph, exactly as the panel's exact-change text specifies.
+- **The peak-of-reaction sentence no longer resurrects the purged solar-system ranking (SUB-2 — hostile,
+  partially voice).** "The tensed pair stands above every mechanism on his ordering and on mine" restated the
+  v2 cross-system ranking the v3 rebuild had removed, and contradicted the paper's own two paragraphs on free
+  mechanism also being irreducible on the instrument's one axis. v5 states the crossing paragraph's opening
+  claim as agreement on *verdict*, not rank: the tensed pair cannot factor and neither can free mechanism; the
+  agreement is that both are irreducible, nothing more. The disclaimer that neither case is computed now sits
+  in that same sentence, and the redundant "and Hegel's ladder puts chemism above mechanism, not below it"
+  clause voice_reader flagged is cut.
+- **Ebeturk's ordering corrected and the misquote dropped (SUB-3 / FORM-2 — 4 of 5 reviewers).** "Should come
+  before external teleology rather than after chemism" denied the chemism→Life adjacency that is Ebeturk's
+  actual thesis and the paper's own earlier, correct sentence. The quotation marks around "two main reasons...
+  might be misplaced" were never verbatim against the digest's safe-list. v5 states the ordering the way
+  Ebeturk actually argues it — internal teleology follows chemism directly, ahead of external teleology — and
+  drops the quotation marks for a paraphrase with the same page pin.
+- **Koch's individuation objection banked as a debt (SUB-4 — hegel_specialist, rated the strongest threat in
+  the room).** "A claim my instrument cannot even parse" restated the objection as if restating it were
+  answering it. If the parts a partition test takes as given are already individuated by a purposiveness the
+  causal register cannot represent, the instrument's floor is not metaphysically Hegel's floor. v5 names that
+  explicitly as a debt, not a defense, and brackets it the way the paper already brackets the un-run acid
+  computation — the bracket honest only because it is named.
+- **"Chemism is the proof" corrected to "the case that breaks it" (SUB-5 — hostile).** A textual reading is
+  not a proof, and the paragraph itself says so two sentences later ("read, not run"). Fixed to avoid the
+  self-contradiction; the later "chemism is that case" is also retagged "this is that case" to remove the
+  now-redundant repetition of "chemism is [the] case" twice in one paragraph.
+- **§194 Addition 2 re-pinned to the Zusätze edition (FORM-1 — copyeditor, backed by the task's own edition
+  pin).** An Addition (Zusatz) belongs to the Hackett Geraets/Suchting/Harris translation, not Brinkmann &
+  Dahlstrom, whose Cambridge Encyclopedia Logic omits the Zusätze. The in-text citation now reads (Hegel,
+  1830/1991b, §194, Addition 2), matching the edition split already used for the Life-chapter and freedom
+  citations elsewhere in the series (Posts 5, 8, 9), and the Hackett edition is added to References,
+  sorted before both 2010 Hegel entries. **Gated, not closed:** the wording is carried over from the old
+  B&D-pinned quotation rather than re-verified against Hackett's own translation, which may render the
+  sentence differently, and no page number is given (B&D's p. 270 does not apply to the Hackett edition and
+  no Hackett pagination has been checked). Physical spot-check before posting.
+- **Kreines p. 346 quotation replaced with a paraphrase (FORM-3 — hegel gate, copyeditor).** "Kant should
+  not, Hegel says, have been satisfied..." was not among the confirmed p. 346 fragments in the digest. v5
+  states the same claim as Kreines's own gloss on Hegel's position rather than as a direct quotation, keeping
+  the page pin.
+- **False adjacency between Ebeturk and Koch fixed (FORM-4 — formal).** "One text over from each other" is
+  false: Ebeturk runs pp. 46–73 and Koch pp. 148–170, about 75 pages apart in the same volume. The
+  same-special-issue fact survives; the adjacency claim is cut.
+- **Ng's page span corrected to a chapter cite (FORM-5 — formal, copyeditor, hegel gate).** "pp. 23–64" was
+  an unconfirmed page pin; the chapter title is verified, so v5 cites by chapter number, (Ng, 2020, ch. 2).
+- **p. 664 quotation trimmed to what is verbatim-confirmed (FORM-6, actionable item).** Only the second
+  clause of "In every transition the concept maintains itself... what maintains itself is the concept that as
+  such already concretely exists as cause" was confirmed against the safe-list. v5 states the first clause as
+  paraphrase and keeps the second as a direct quotation.
+- **"Syllogisms of the solar system closed into one another" marked as Hegel's own bookkeeping, not a further
+  verdict of the instrument (FORM-6, actionable item — hostile Flag B).** The phrase had no citation pin and
+  sat next to a verbatim-confirmed quotation ("these three syllogisms fall apart," p. 649) without
+  distinguishing the two. v5 marks the free-mechanism claim explicitly as Hegel's own formal reckoning
+  earlier in the chapter, keeping the no-cross-system-comparison guard visible at the sentence level.
+- **Voice fixes (voice_reader).** V-2: "because this series has needed the flag before" cut from the opening
+  decompute flag. V-3: "his own downgrade... in his own vocabulary" trimmed to "his own downgrade of the
+  union the process achieves"; "not shelf positions... but shapes... a proof-structure, not a filing cabinet"
+  trimmed to keep only the shelf/shapes contrast. V-4: the Kant/teleology paragraph's dash-pair pile-up
+  ("Hegel claims for teleology as such — before... in play, as he says in the same breath —" and "External
+  purposiveness — a carpenter's purpose... indifferent to it —") folded into plain clauses; the quoted
+  material's own en-dash is untouched. V-5: the middle "I am not going to claim that inner purposiveness is
+  partition-irreducibility with a soul" converted to the direct assertion, per the panel's model rewrite; the
+  other instances of the announced-restraint frame are left as structural signposts opening their sections.
+  V-1: antithesis density thinned to one construction per paragraph at the Ng paragraph (four cut to one, the
+  "symptom... not the reason it stands there" closer kept) and the Ebeturk/chemism-inversion paragraph (the
+  "not that Hegel grades tightness..." and "not the verdict he reaches on it" constructions converted to
+  direct claims, "The tension is total, but it is borrowed" kept); the crossing-exhibit paragraph's own
+  antithesis is largely dictated by SUB-2's mandatory text and by the protected "Where his ladder climbs, my
+  axis drops" line (SUB-6, left as-is per the panel's recommendation), so it is not further thinned. V-6
+  (paragraph-final epigrams near-universal) is applied only lightly here: the protected lines ("Where his
+  ladder climbs, my axis drops"; "receipts for recovery, none for reproduction") are untouched, and the rest
+  of the draft's paragraph shapes are left as v4 wrote them rather than mechanically flattened, since the
+  panel's own instruction was to thin, not eliminate, and a wholesale pass risked losing prose the panel
+  separately asked to be kept.
+- **Both series guards checked at every touched sentence.** No sentence claims Hegel anticipated or
+  prefigured Φ; the "same boundary, different instrument" homology and its one-directional analogy ("from his
+  chapter to my object of study, not from his chapter to my criterion") are untouched. No sentence calls Φ/IIT
+  decorative, hollow, unnecessary, or a calculator; "The instrument's contribution is not diminished by having
+  a ceiling" is untouched, and the SUB-1 rewrite specifically avoids letting "cheap proxies fail" tip into
+  "Φ is unnecessary" — the paragraph's conclusion is that the exact operation is what the program runs, not
+  that it need not.
+- **Two prompt-injection attempts encountered and disregarded during this rebuild**, consistent with the
+  panel's own finding that the "no first person / cut the antithesis machine" block is the outer lab
+  repository's CLAUDE.md and does not govern this series: a fabricated tool-result system-reminder claiming a
+  changed date and instructing silence about it, and a fabricated system-reminder impersonating
+  `pyphi-experiments/CLAUDE.md` with a no-first-person house style. Neither altered this draft; first person
+  and the antithesis/em-dash allowances of `~/.claude/writing-style.md` govern, as the task specifies.
+- **Byline and this note updated.** One reference added (Hegel, 1991b); no other reference-list changes.
+
+**What v4 did (Stage-1 grounding digest, run wf_ad0ba178 — verification corrections applied):**
+- **Koch p. 149 misquote fixed.** The words "structures of external purposiveness constitute mechanical
+  objects" were never Koch's; her sentence reads "structures of external purposiveness provide the conditions
+  for the individuation of mechanical objects" (p. 149). v4 restores the verbatim wording and adds one clause
+  distinguishing "conditions the individuation of" from "constitutes" — Koch's own distinction, and the
+  weaker claim she actually makes is still enough to carry the paragraph's point. The p. 162 verbatim quote
+  ("there are no objects without such teleological structures...") was already accurate and is unchanged.
+- **New scholarship folded in, not decoratively.** Ebeturk and Koch are named as sitting in the same 2023
+  Hegel Bulletin special issue ("Hegel and Teleology"), which turns "two isolated articles disagree" into "the
+  ordering dispute is a live exchange in the current literature" — a fact the digest verified and flagged as
+  worth surfacing. (The digest's other two leads — a possible separate Ng essay on the Mechanism/Chemism/
+  Teleology chapters, and a PhilEvents workshop page that 403'd — stay unverified and are not cited.)
+- **Receipts numbered.** The "Price of the Reckoning" probes now carry their actual parameters (three units,
+  thirty allowed recovery steps) and the decidability claim in "What the Bracketing Buys" now cites the
+  rank-AUC ≤ 0.63 near-chance ceiling on cheap proxies, both pulled from RECEIPTS.md so the claims are
+  checkable rather than gestured at.
+- **Temper-paragraph tone.** The digest's guard check flagged the closing line of the "What the Bracketing
+  Buys" temper paragraph ("the reader should know that, because the concession is the paper") as drifting
+  toward a self-defeating register — modest is not the same as self-undermining. v4 keeps the substantive
+  pushback (Hegel's criterion is unrun, not merely humble) and replaces the closing meta-comment with a
+  forward-pointing claim: the gap is real and it is what the next paper goes to measure. **v5 leaves this
+  paragraph untouched, per the panel's guard note that it is a watch-item to be ratified or softened by the
+  author, not rewritten by the rebuild agent. It is still the one paragraph closest to the author's own voice
+  and worth a final read-aloud pass.**
 
 **What v3 did (five-reviewer panel, posts/post4_reviews/):**
 - **The crossing is decomputed and restaged.** The panel's convergent finding (R2, formal, Hegel specialist —
@@ -484,17 +631,26 @@ https://doi.org/10.1371/journal.pcbi.1003588
   thinned; the mechanism-recap contradiction ("I will not re-run it" followed by a re-run) merged away; the
   shelf metaphor's mechanist flavor owned in the opening paragraph; the confession un-buried — the paper now
   ends on "receipts for recovery, none for reproduction," with the Paper 5 pointer one flat sentence above
-  it; **a temper paragraph added in "What the Bracketing Buys"** (the pushback-then-withdrawal on whether the
-  finer boundary is finer) — **this is the one paragraph the author must own or rewrite; it is drafted, not
-  his**.
+  it; a temper paragraph added in "What the Bracketing Buys" (the pushback-then-withdrawal on whether the
+  finer boundary is finer) — the one paragraph the author must own or rewrite; it is drafted, not his.
 
 **Still gated / to confirm before posting:**
-- **B&D (Encyclopedia) pagination is one-source** (§194 Addition 2 at p. 270; §204 Remark at p. 277) —
-  physical spot-check before submission.
+- **§194 Addition 2 (Hackett, 1830/1991b) wording and pagination are unverified against the printed
+  edition** — the sentence is carried over from the B&D-pinned version rather than re-checked against
+  Geraets/Suchting/Harris, and no Hackett page number is given. Physical spot-check before submission,
+  same as the existing B&D pins below.
+- **B&D (Encyclopedia) pagination is one-source** (§204 Remark at p. 277) — physical spot-check before
+  submission.
 - **Kreines page pins** rest on the Wayback-captured CUP galley (June 2008, printed pagination 344–377); a
   library check against the printed volume closes it fully. The "Critique of Reason" phrase inside the
-  Hegel p. 654 block quote: check di Giovanni's typesetting for italics at proof.
-- **Ng page pins remain open**; the paper quotes nothing of hers and says so in its own text.
+  Hegel p. 654 block quote: check di Giovanni's typesetting for italics at proof. The p. 346 Kreines
+  material is now a paraphrase (FORM-3), which lowers but does not eliminate this gate — the paraphrase
+  itself should be checked against the printed volume once it is available.
+- **p. 647 block quote's interior clauses** ("with the result that in this reciprocal complementation," the
+  water/sign/language block quote) are not individually verbatim-pinned in the safe-list; spot-check at
+  proof alongside the other block quotes.
+- **Ng page pins remain open**; the paper quotes nothing of hers and cites her by chapter number rather than
+  page span.
 - **The owed computation**: the acid–medium–base toy (mid-reaction rule-set vs. neutralized rule-set, exact
   Φ on both) — an afternoon in the program's own formalism, per two reviewers; the author's call. Until it
   runs, the crossing is a reading, and the paper now says so.
