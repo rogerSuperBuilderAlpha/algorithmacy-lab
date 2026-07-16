@@ -1,0 +1,164 @@
+{
+  "post": 1,
+  "digest": {
+    "post": "Post 1: Two Holisms — verify-and-consolidate pass on /Users/ludwitt/iit-playground/pyphi-experiments/org_frontier/hegel_coordination/posts/post1_two_holisms.md (draft v4). Result: no drift found in any load-bearing claim. This run added verbatim confirmation of all five Pinkard Preface fragments against the freely circulated Pinkard translation (marxists.org PDF, ¶3/¶17/¶18/¶20 all exact matches to the draft's quotes, including the corpse line), verbatim confirmation of EL §135 in Wallace (\"The relation of the whole and the parts is untrue to this extent, that the notion and the reality of the relation are not in harmony\"; \"if it is divided, it at once ceases to be a whole\"), confirmation of the Brandom Hegel-Studien 36 (2001): 61–95 citation and its reprint as ch. 6 of Tales of the Mighty Dead, DOI-pinning of Christensen (Erkenntnis, 10.1007/s10670-024-00845-0, online 2024-08-31), wording confirmation of the Malabou line via NDPR, and independent reconfirmation of the NDPR/Gentry page keys for Ng (\"life opens up the space of reasons\" at pp. 234/281 without \"itself\"; Ur-teil at p. 172 in Gentry vs 171/173 elsewhere — the draft's gates are correctly stated). Lab receipts located and re-verified: the constitution criterion (STRUCTURAL_FINDINGS.md), the loop-vs-line micro-example (q43: cyclic Φ=2.0 vs acyclic hand-off Φ=0.0 — \"the cycle decides\"), and the platform paragraph's homology support (q213 contingent-irreducibility margins). Two new verified items surfaced: Tononi & Boly, \"IIT: A Consciousness-First Approach to What Exists\" (arXiv:2510.25998, Oct 2025) and Barrett et al., \"IIT: the good, the bad and the misunderstood\" (arXiv:2604.11482, Apr 2026). One small harmonization item: footnote 13 quotes EL §135 in Wallace while the series' pinned EL edition is Brinkmann & Dahlstrom — either re-key the wording to B&D at the book check or keep the explicit \"trans. Wallace\" attribution as is. The draft is publishable-grade on sourcing once the five physical-book gates close; do not churn the settled anchors.",
+    "claim_restated": "Hegel's \"the true is the whole\" (a developmental, self-knowing holism) and the lab's \"a whole is what no partition preserves\" (a synchronic, causal holism) are two genuinely different holisms that answer the same question — when is a many also a one — and the series reads them against each other as homologous boundary-drawings, never as identity or anticipation.",
+    "primary_passages": [
+      {
+        "locus": "PhG Preface ¶20",
+        "edition": "Pinkard (Cambridge 2018; wording confirmed verbatim against the circulated Pinkard draft translation this run)",
+        "quote_or_paraphrase": "\"The true is the whole. However, the whole is only the essence completing itself through its own development. This much must be said of the absolute: It is essentially a result, and only at the end is it what it is in truth.\"",
+        "verified": "verified"
+      },
+      {
+        "locus": "PhG Preface ¶3",
+        "edition": "Pinkard (circulated draft, verbatim this run)",
+        "quote_or_paraphrase": "\"Nor is the result which is reached the actual whole itself; rather, the whole is the result together with the way the result comes to be\"; and one sentence later, \"the unadorned result is just the corpse that has left the tendency behind\" — the draft's \"his word, a few lines on\" is accurate (same paragraph).",
+        "verified": "verified"
+      },
+      {
+        "locus": "PhG Preface ¶17",
+        "edition": "Pinkard (circulated draft, verbatim this run)",
+        "quote_or_paraphrase": "\"everything hangs on apprehending and expressing the true not as substance but rather even more as subject\" — exact match to the draft's quote.",
+        "verified": "verified"
+      },
+      {
+        "locus": "PhG Preface ¶18",
+        "edition": "Pinkard (circulated draft, verbatim this run)",
+        "quote_or_paraphrase": "\"it is only this self-restoring sameness, the reflective turn into itself in its otherness\" — exact match.",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §135",
+        "edition": "Wallace (marxists.org full text, verbatim this run) — NOTE: series pins B&D for EL; footnote 13 says \"trans. Wallace,\" so no misattribution, but harmonize at the book check",
+        "quote_or_paraphrase": "\"The relation of the whole and the parts is untrue to this extent, that the notion and the reality of the relation are not in harmony\"; \"if it is divided, it at once ceases to be a whole.\" Whole/Parts is the first (lowest) essential relation — the draft's ladder claim holds.",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §§136–141 and §§216–218",
+        "edition": "Wallace loci confirmed this run (Force and Expression §§136–137, Inner and Outer §§138–140/141 transition; Life §§216–218)",
+        "quote_or_paraphrase": "The ascent above Whole and Parts: force → inner/outer → life, used by the draft's \"where up goes\" paragraph. Footnote 14's ranges are correct.",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §183",
+        "edition": "Wood/Nisbet (locus verified 2026-07-10 per passage card pr_183_not_und_verstandesstaat.md; draft paraphrases, does not quote)",
+        "quote_or_paraphrase": "Civil society as the external state, \"the state of necessity and of the understanding\" (Not- und Verstandesstaat), system of all-round interdependence — the draft's paraphrase matches the card's common rendering; pull exact Wood/Nisbet wording only if the paraphrase is upgraded to a quotation.",
+        "verified": "verified"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "citekey": "kreines2015",
+        "work": "Reason in the World: Hegel's Metaphysics and Its Philosophical Appeal (OUP, 2015)",
+        "role": "anchor",
+        "key_claim": "Hegel's holism is explanatory (\"the metaphysical topic of the explanatory reasons why things do what they do, or are as they are\"; \"insubstantial holism,\" ch. 7); three ascending orders of explanatory completeness (Introduction); \"not a brute, necessitating law of nature, but rather the kind of being that engages in reasoning.\" Carry the correction: Yeomans's NDPR review never uses the word \"holism\" — do not attribute \"rather than holism in the traditional sense\" to him.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "taylor1975",
+        "work": "Hegel (CUP, 1975)",
+        "role": "convergent",
+        "key_claim": "p. 242: \"a totality, a whole whose parts are intrinsically related to each other, that is, where each can only be understood by its relations to the others,\" set against \"a group of finite things which are in contingent causal interaction\" — grep-confirmed against a full-text scan in the round-2 run; p. 378 community line also confirmed there.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "stern2009",
+        "work": "Hegelian Metaphysics (OUP, 2009; reprints BJHP 15(1) 2007: 115–153)",
+        "role": "convergent",
+        "key_claim": "No bare individuals; the rose as instance-of-a-kind, not property-bundle (≈ pp. 155–57). Still review-sourced via Ng's 2010 review and Reyes Cárdenas — the draft's footnote 8 correctly discloses this; confirm on Stern's pages or cite \"quoted in Ng 2010.\"",
+        "verified": "gated"
+      },
+      {
+        "citekey": "ng2020",
+        "work": "Hegel's Concept of Life (OUP, 2020)",
+        "role": "threat",
+        "key_claim": "The whole is a living, self-comprehending unity; inner purposiveness regulative→constitutive (the p. 43 sentence is reviewer Gentry's paraphrase — never quote it as Ng); \"life opens up the space of reasons\" keyed by NDPR/Gentry to pp. 234, 281, with the \"itself\" variant keyed to p. 10 in the round-2 map; Ur-teil / \"the original judgment of life\" at p. 172 (Gentry; others give 171/173) and p. 259. Pages reconfirmed as review-reported this run; the physical-book gate stands exactly as the sourcing note states.",
+        "verified": "gated"
+      },
+      {
+        "citekey": "brandom2001",
+        "work": "\"Holism and Idealism in Hegel's Phenomenology,\" Hegel-Studien 36 (2001): 61–95; repr. as ch. 6 of Tales of the Mighty Dead (Harvard, 2002)",
+        "role": "positioning",
+        "key_claim": "Hegel's holism as semantic: determinate conceptual content only within a whole web of inferential relations. Citation independently confirmed this run (PhilPapers/publications list).",
+        "verified": "verified"
+      },
+      {
+        "citekey": "brandom2019-pinkard1994-honneth1995",
+        "work": "A Spirit of Trust (Harvard, 2019); Hegel's Phenomenology: The Sociality of Reason (Cambridge, 1994); The Struggle for Recognition (MIT, 1995)",
+        "role": "threat",
+        "key_claim": "The recognition family as normative-attitudinal account of the social whole (the draft's \"nearest rival\"); verified as a family placement in the round-2 map, Layer 2. No direct sentence is quoted, so nothing further is owed.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "christensen2024",
+        "work": "\"Beyond Individualism and Holism: Integrated Information Theory as Formal Framework for the Gradation of Social Structure,\" Erkenntnis (online 2024-08-31), DOI 10.1007/s10670-024-00845-0",
+        "role": "prior-art",
+        "key_claim": "Applies IIT/partition-irreducibility to social entities (\"causally irreducible to their parts to the degree that differences are made by and to them over and above...\") — social ontology, not a reading of Hegel; grounds the draft's novelty bound at footnote 18. DOI-pinned this run.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "malabou2005",
+        "work": "The Future of Hegel: Plasticity, Temporality and Dialectic (Routledge, 2005, trans. During)",
+        "role": "convergent",
+        "key_claim": "\"It is not stasis but metamorphosis that characterizes Absolute Knowledge\" — wording confirmed via the NDPR review this run; p. 134 print-page check still open. Used only as a supporting nod in the \"not two clocks\" section.",
+        "verified": "gated"
+      }
+    ],
+    "new_scholarship": [
+      {
+        "citekey": "tononi-boly2025",
+        "relevance": "Tononi & Boly, \"Integrated Information Theory: A Consciousness-First Approach to What Exists,\" arXiv:2510.25998 (29 Oct 2025). IIT's own ontological statement: to exist is to have cause-effect power upon itself. Optional pedigree footnote for the lab-side sentence \"a whole is what no partition preserves\" — and a nuance: IIT itself claims more (intrinsic existence, experience) than the post's instrument-framing uses, which the draft's \"mine knows nothing at all\" deliberately declines to lean on. Do not let that concession harden into a claim that IIT denies intrinsicality.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "barrett2026",
+        "relevance": "Barrett, Milinkovic, Mediano, Rosas, Bor, Barnett & Seth, \"Integrated information theory: the good, the bad and the misunderstood,\" arXiv:2604.11482 (13 Apr 2026). Authoritative critical clarification of Φ (Φ is not a consciousness meter; real-system application remains hard). Useful shield for the post's modest instrument framing and a source to cite if a reader pushes the \"Φ is contested\" line; post-dates the prior grounding runs.",
+        "verified": "verified"
+      }
+    ],
+    "lab_receipts": [
+      {
+        "receipt": "The constitution criterion the post's lab-side sentence states: Φ over the minimum-information partition; Φ_MIP = 0 means the form factors (aggregate/dyadic), Φ_MIP > 0 means no partition preserves it (triadic). Also backs the market intuition at homology level: strict-mediation n=3 family only 9.4% triadic; breadth dilutes 9.4% → 2.3% → 0% (n=3→5); non-bidirectional nodes in the core 0/435 times.",
+        "source_file": "org_frontier/STRUCTURAL_FINDINGS.md",
+        "numbers": "Φ_MIP = 0 vs > 0; 9.4% (n=3), 2.3% (n=4), 0% (n=5); 0/435"
+      },
+      {
+        "receipt": "The three-unit loop vs line micro-example (the draft's only worked partition): cyclic reciprocal wiring is triadic, the acyclic hand-off factors — \"the cycle decides; arrow count is silent.\" The draft's \"cut the last link and you lose almost nothing, because C was only ever downstream\" is the acyclic case; \"almost nothing\" is conservative (the lab number is exactly 0).",
+        "source_file": "org_frontier/questions/q43_thompson_interdependence/FINDINGS.md",
+        "numbers": "cyclic [x[1], x[0]&x[2], x[1]] triadic Φ=2.0, MIP {W,SC}; acyclic hand-off (C'=C) dyadic Φ=0.0; propagating chain Φ=2.0"
+      },
+      {
+        "receipt": "Homology support for the platform paragraph (\"the thing that is genuinely irreducible may be small... a whole in the register of norms can be, in the register of cause, a very well-organized heap\"): contingent vs intrinsic irreducibility — a constrained conduit reads triadic until the bypass is restored, then collapses; the paragraph itself is illustrative, not computed, and its hedges (\"often,\" \"may be small\") must stay.",
+        "source_file": "org_frontier/questions/q213_contingent_irreducibility/FINDINGS.md",
+        "numbers": "constrained dealer triadic Φ_MIP=2.0 with D in core; bypass → dyadic Φ=0.0, contingency margin 2.0; intrinsic clearinghouse margin 0.0; partial margin 1.585"
+      },
+      {
+        "receipt": "What \"flagged as such\" means in the OT-manuscript bridge line: the validation limitation — that Boolean coordination forms bear on real organizations is the protocol's weakest claim and is flagged in every paper's Limitations. Post 1 honors this by leaving the promise \"unpaid\" rather than claiming field results.",
+        "source_file": "org_frontier/protocol/methodology_review.md",
+        "numbers": "n/a (methodological commitment, line ~39)"
+      }
+    ],
+    "refutation_condition": "If the difference between the two holisms reduces to synchronic-vs-diachronic bookkeeping, the series premise thins. The draft meets the bookkeeping version head-on (\"The difference is not two clocks\": run the partition test over the whole developmental film and it still never meets a subject — the gap was never about duration). The harder form is Ng's living-unity reading — that Hegel's holism is not under-formalized coordination but a different kind of thing entirely (diachronic self-constitution, constitutive telos, self-partitioning Ur-teil, self-knowledge) — which Post 1 introduces and concedes force to, and Post 4 tests rather than assumes away.",
+    "guard_check": "Clean on anticipation: the draft explicitly forbids it twice (\"Hold off\" against reading the two sentences as one thought; \"without claiming he wrote it first\"). Clean on demotion: none of the banned framings (calculator, decorative, hollow, unnecessary) appear, and every self-limiting description is answered by the affirmative case in the same section (\"a detector for the very additivity Hegel diagnoses\"; \"it hears something the theory is deaf to\"; the ally-not-bottom-rung section exists precisely to refuse the demotion). Two watch items for the author's revision: (1) \"low instrument,\" \"bottom-rung test,\" and \"that deafness, which is a poverty almost everywhere\" are ladder-relative positioning that stays safe only while the paired affirmative clauses survive editing — if those paragraphs get trimmed, trim the self-deprecation first; (2) \"mine knows nothing at all\" concedes more than IIT itself claims (Tononi & Boly 2025 read the Φ-structure as intrinsic existence); this is a deliberate choice not to lean on IIT's consciousness claim and it keeps the homology clean, but it should not harden elsewhere in the series into \"Φ is a blind mechanical number.\"",
+    "gates": "Five physical-copy/paywalled checks remain before posting, all already correctly listed in the draft's sourcing note: (1) Ng, Hegel's Concept of Life — exact wording and page of \"life opens up the space of reasons itself\" (reviews key the no-\"itself\" version to pp. 234/281; the \"itself\" variant is keyed to p. 10 in the round-2 map) and the Ur-teil pages (Gentry says 172, others 171/173; plus 259); (2) Stern, Hegelian Metaphysics ≈ pp. 155–57 — \"no bare individuals\" and the rose/kind passage are still review-sourced via Ng 2010; confirm on the page or switch the footnote to \"quoted in Ng 2010\"; (3) Malabou, The Future of Hegel p. 134 — wording now confirmed via NDPR, print-page check in the 2005 Routledge still open; (4) Pinkard/Baur published edition (Cambridge 2018) — all five Preface fragments are now verbatim-confirmed against the circulated draft translation (this run, marxists.org PDF), but Pinkard revised for publication, so check §3/§17/§18/§20 wording against the printed book; (5) Kreines — add the print page for the \"metaphysics of reason\" definition (≈ p. 9). Two small harmonization items, not gates: footnote 13 quotes EL §135 in Wallace (correctly attributed) while the series pins B&D for EL — re-key or keep the attribution; and if the PR §183 paraphrase is ever upgraded to a quotation, pull exact Wood/Nisbet wording per the passage card."
+  },
+  "verdict": {
+    "post": "Adversarial fact-check of the Post 1 (Two Holisms) grounding digest. I tried to refute each load-bearing claim against primary sources and against the repo, and the digest survives. Summary of what I independently confirmed:\\n\\nPrimary Hegel text (verbatim, extracted from the marxists.org Pinkard PDF, German en face): all five Preface fragments match the draft exactly. §20: \\\"The true is the whole. However, the whole is only the essence completing itself through its own development. This much must be said of the absolute: It is essentially a result, and only at the end is it what it is in truth.\\\" §3: \\\"the whole is the result together with the way the result comes to be\\\" and \\\"the unadorned result is just the corpse that has left the tendency behind\\\" (both in ¶3, so the draft's \\\"a few lines on\\\" is right). §17: \\\"apprehending and expressing the true not as substance but rather even more as subject.\\\" §18: \\\"it is only this self-restoring sameness, the reflective turn into itself in its otherness.\\\"\\n\\nEL §135 (Wallace, Gutenberg full text): both quotes verbatim — \\\"The relation of the whole and the parts is untrue to this extent, that the notion and the reality of the relation are not in harmony\\\" and \\\"if it is divided, it at once ceases to be a whole.\\\" Whole-and-Parts is the first essential relation; the ladder claim holds. Footnote 13 says \\\"trans. Wallace\\\" so there is no misattribution.\\n\\nSecondary/citation: Brandom, \\\"Holism and Idealism in Hegel's Phenomenology,\\\" Hegel-Studien 36 (2001): 61–95, reprinted as ch. 6 of Tales of the Mighty Dead (Harvard, 2002) — confirmed. Christensen, Erkenntnis, DOI 10.1007/s10670-024-00845-0 — title, author (Aarhus), journal confirmed. Malabou line \\\"It is not stasis but metamorphosis that characterizes Absolute Knowledge\\\" — confirmed via NDPR (print page still gated, correctly).\\n\\nNew scholarship: both arXiv papers exist with exact IDs, titles, authors, and dates as stated. Tononi & Boly, arXiv:2510.25998, v1 29 Oct 2025. Barrett, Milinkovic, Mediano, Rosas, Bor, Barnett & Seth, arXiv:2604.11482, v1 13 Apr 2026 (the digest's \\\"13 Apr\\\" is right; a stray secondary search saying \\\"April 15\\\" was wrong).\\n\\nLab receipts (re-read against the repo): STRUCTURAL_FINDINGS.md gives Φ_MIP=0/>0, 9.4% (n=3) → 2.3% (n=4) → 0% (n=5), and 0/435 non-bidirectional-in-core — all exact. q43 FINDINGS gives cyclic [x[1],x[0]&x[2],x[1]] triadic Φ=2.0 MIP {W,SC}, acyclic hand-off (C'=C) dyadic Φ=0.0, propagating chain Φ=2.0, \\\"the cycle decides; arrow count is silent\\\" — exact, and the draft's \\\"almost nothing\\\" is conservative for the lab's exact 0. q213 FINDINGS gives constrained dealer triadic Φ_MIP=2.0 with D in core, bypass → dyadic Φ=0.0 margin 2.0, intrinsic clearinghouse margin 0.0, partial margin 1.585 — exact. methodology_review.md flags validation as the protocol's weakest claim in every paper's Limitations (the in-silico paragraph) — matches.\\n\\nCamp assignments are correct: Kreines and Stern as metaphysical-revival, Taylor as the older cosmic-metaphysical reading, Brandom as semantic/non-metaphysical, Pinkard/Pippin as post-Kantian normativity, the Brandom/Pinkard/Honneth recognition family correctly placed. Guard checks hold: the draft forbids anticipation twice and uses no banned demotion word; the digest's watch-items on ladder-relative self-deprecation and the \\\"mine knows nothing at all\\\" concession vs Tononi & Boly's intrinsic-existence claim are appropriate and consistent with the repo's do-not-demote-IIT rule.\\n\\nOne non-load-bearing refinement: the digest calls the marxists.org PDF a \\\"freely circulated Pinkard draft translation\\\" and keeps gate 4 open on that basis, but that PDF is the bilingual (German en face) Pinkard text and the §3/§17/§18/§20 wording is already verbatim-confirmed, so gate 4's wording check is effectively closed — keep only a light printed-book courtesy check.",
+    "overall": "sound",
+    "corrections": [
+      {
+        "target": "Digest edition note on the Pinkard source (primary_passages ¶¶20/3/17/18 \"edition\" fields and gate 5) — \"freely circulated Pinkard draft translation (marxists.org PDF)\"",
+        "problem": "The marxists.org file (pinkard-translation-of-phenomenology.pdf) is the bilingual Pinkard text with German en face, not evidently a pre-publication \"draft.\" All five fragments were confirmed verbatim against it this run, so labeling it a \"draft\" both mischaracterizes the edition and leaves gate 4/5 sounding more open than it is.",
+        "fix": "Relabel as the Pinkard translation (bilingual marxists.org posting) and downgrade gate 4/5 to a light courtesy check of §3/§17/§18/§20 against the printed Cambridge 2018 for pagination only; the wording is verbatim-confirmed and should not be re-litigated."
+      },
+      {
+        "target": "Digest reliance on internal round-2 grep for Taylor p. 242 and page-level claims for Kreines p. 9, Ng pp. 234/281/172/259, Stern pp. 155–57",
+        "problem": "These page numbers are marked \"verified\" (Taylor) or \"gated\" via the internal round-2 scan and reviews; they could not be reproduced against the primary books in this pass. Not refuted, but not independently confirmable here either — the digest should not present Taylor p. 242 as harder-confirmed than the still-open Ng/Stern/Kreines page gates.",
+        "fix": "Treat Taylor p. 242 at the same confidence tier as the other page gates: confirm the quoted wording and page against Taylor, Hegel (CUP 1975) at the physical-book check rather than resting on the round-2 grep alone."
+      }
+    ],
+    "safe_to_use": "VERBATIM-CONFIRMED, safe to keep in the library and rewrite:\\n• PhG Preface §20 (Pinkard): \\\"The true is the whole. However, the whole is only the essence completing itself through its own development. This much must be said of the absolute: It is essentially a result, and only at the end is it what it is in truth.\\\"\\n• PhG Preface §3 (Pinkard): \\\"the whole is the result together with the way the result comes to be\\\"; \\\"the unadorned result is just the corpse that has left the tendency behind\\\" (both in ¶3).\\n• PhG Preface §17 (Pinkard): \\\"everything hangs on apprehending and expressing the true not as substance but rather even more as subject.\\\"\\n• PhG Preface §18 (Pinkard): \\\"it is only this self-restoring sameness, the reflective turn into itself in its otherness.\\\"\\n• EL §135 (Wallace): \\\"The relation of the whole and the parts is untrue to this extent, that the notion and the reality of the relation are not in harmony\\\"; \\\"if it is divided, it at once ceases to be a whole\\\" — Whole/Parts as the first (lowest) essential relation; footnote 13's \\\"trans. Wallace\\\" attribution is correct.\\n• EL essential-relations→Life ascent: §§135–141 (Whole/Parts, Force/Expression, Inner/Outer) and §§216–218 (Life) — loci sound.\\n• Brandom, \\\"Holism and Idealism in Hegel's Phenomenology,\\\" Hegel-Studien 36 (2001): 61–95, repr. as ch. 6 of Tales of the Mighty Dead (Harvard, 2002).\\n• Christensen, \\\"Beyond Individualism and Holism: IIT as Formal Framework for the Gradation of Social Structure,\\\" Erkenntnis, DOI 10.1007/s10670-024-00845-0.\\n• Malabou line \\\"It is not stasis but metamorphosis that characterizes Absolute Knowledge\\\" (The Future of Hegel, Routledge 2005; NDPR-confirmed wording).\\n• Tononi & Boly, \\\"IIT: A Consciousness-First Approach to What Exists,\\\" arXiv:2510.25998, v1 29 Oct 2025.\\n• Barrett, Milinkovic, Mediano, Rosas, Bor, Barnett & Seth, \\\"IIT: the good, the bad and the misunderstood,\\\" arXiv:2604.11482, v1 13 Apr 2026 (7 authors as listed).\\n• PR §183 locus for civil society as external state / Not- und Verstandesstaat / system of all-round interdependence (draft paraphrases; correct).\\n• LAB RECEIPTS (all exact to repo): STRUCTURAL_FINDINGS.md — Φ_MIP 0 vs >0; 9.4% (n=3) / 2.3% (n=4) / 0% (n=5); 0/435. q43 FINDINGS.md — cyclic [x[1],x[0]&x[2],x[1]] triadic Φ=2.0 MIP {W,SC}; acyclic hand-off (C'=C) dyadic Φ=0.0; chain Φ=2.0; \\\"the cycle decides; arrow count is silent.\\\" q213 FINDINGS.md — constrained dealer triadic Φ_MIP=2.0, D in core; bypass→dyadic Φ=0.0, margin 2.0; intrinsic margin 0.0; partial margin 1.585. methodology_review.md — validation flagged as weakest claim in every paper's Limitations.\\n• CAMP/GUARD framing: metaphysical-revival (Kreines, Stern, Taylor) vs non-metaphysical/normativity (Brandom, Pinkard, Pippin) assignments correct; recognition family (Brandom A Spirit of Trust 2019, Pinkard Sociality of Reason 1994, Honneth Struggle for Recognition 1995) correctly placed; homology-not-identity guard and no-demotion guard both hold.",
+    "residual_gates": "Physical-book / paywalled checks still owed before posting (all already listed in the draft's sourcing note; none refuted, none block the safe-to-use set):\\n1) Ng, Hegel's Concept of Life — exact wording and page of \\\"life opens up the space of reasons itself\\\" (reviews key the no-\\\"itself\\\" version to pp. 234/281; scaffold gives p. 10) and the Ur-teil pages (Gentry 172; others 171/173; plus 259). Keep footnote 15/16 review-sourced until confirmed; do not quote Gentry's paraphrase as Ng.\\n2) Stern, Hegelian Metaphysics ≈ pp. 155–57 — \\\"no bare individuals\\\" and the rose/kind passage are review-sourced (via Ng 2010 / Reyes Cárdenas). Confirm on the page or footnote as \\\"quoted in Ng 2010.\\\"\\n3) Malabou, The Future of Hegel — wording confirmed via NDPR; print page (p. 134, 2005 Routledge) still to confirm.\\n4) Pinkard — wording of §§3/17/18/20 is verbatim-confirmed against the bilingual marxists.org text; a printed Cambridge 2018 check is now pagination-only, not a wording gate (see correction 1).\\n5) Kreines — add the print page for the \\\"metaphysics of reason\\\" definition (≈ p. 9); the \\\"insubstantial holism\\\" (ch. 7), \\\"brute, necessitating law\\\" line, and three-orders reading are sound.\\n6) Taylor p. 242 — the quoted totality/\\\"contingent causal interaction\\\" wording rests on the internal round-2 grep; confirm page and wording against Taylor, Hegel (CUP 1975) at the same book check (see correction 2).\\nHarmonization (not gates): footnote 13 quotes EL §135 in Wallace while the series pins B&D for EL — re-key to B&D or keep the explicit \\\"trans. Wallace\\\"; if PR §183 is ever upgraded from paraphrase to quotation, pull exact Wood/Nisbet wording. Watch-item carried forward: the ladder-relative self-deprecation (\\\"low instrument,\\\" \\\"bottom-rung,\\\" \\\"mine knows nothing at all\\\") stays safe only while its paired affirmative clauses survive editing; if a paragraph is trimmed, trim the self-deprecation first, and do not let \\\"mine knows nothing at all\\\" harden elsewhere into \\\"Φ is a blind mechanical number\\\" (Tononi & Boly 2025 read the Φ-structure as intrinsic existence)."
+  }
+}

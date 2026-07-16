@@ -1,0 +1,215 @@
+{
+  "post": 3,
+  "digest": {
+    "post": "# Post 3 grounding digest — verify-and-consolidate pass (v5, 2026-07-16)\n\n**Verdict: the post is soundly grounded.** Every lab number re-verified against the repo, every load-bearing Sans quote is now page-pinned against the open-access chapter PDF (a gate closed), the *reelle Mitte* philological note is confirmed in the German text, and the guard is clean. Two corrections to carry: (1) the EL §198 state-triad citation drifted to the main paragraph in v5 and belongs in the **Remark** (§198R, B&D p. 273) — the v5 \"locus fix\" was a mis-correction; (2) the phrase \"no party is a veto\" on the symmetric three-cycle receipt is unbacked by any located finding and should be reworded.\n\n## Claim (correct altitude)\nHegel's syllogism — two extremes holding together through a middle — is the mediated triad, and his standing complaint against merely external middles (the formal syllogism's abstract middle; communication in the mechanical process) is the conduit/integrator distinction in another vocabulary. The bridge is a homology of shape drawn inside Hegel's own Mechanism chapter (communication → real middle), not an identity of referents and not an anticipation of the criterion. The draft holds this altitude throughout.\n\n## Primary passages — status\n| Locus | Draft cite | Status |\n|---|---|---|\n| SL \"everything rational is a syllogism\" | di Giovanni p. 588 | **verified** — Sans cites (90; 588), same page |\n| EL §181R \"everything is a syllogism\" | B&D p. 254 | gated (physical B&D) |\n| EL §182 \"begrifflos\" / \"joins itself together with itself\" | B&D pp. 254–255 | gated (physical B&D) |\n| SL aggregate / \"spiritual mechanism\" | p. 631 | **verified** — Sans (133; 631) confirms page for the spiritual-mechanism quote; the \"composition, mixture, aggregate\" wording still physical-gated |\n| SL communication / \"scent in the unresisting atmosphere\" | pp. 635–636 | gated — not in Sans; German \"Verhältnisse der Mitteilung\" confirmed at Werke 6:423 but di Giovanni pages unchecked |\n| SL \"the real middle term… their objective universality\" | p. 641 | **verified** — German \"die reelle Mitte\" at Werke 6:423 ([zeno.org](http://www.zeno.org/Philosophie/M/Hegel,+Georg+Wilhelm+Friedrich/Wissenschaft+der+Logik/Zweiter+Teil:+Die+subjektive+Logik+oder+die+Lehre+vom+Begriff/Zweiter+Abschnitt:+Die+Objektivit%C3%A4t/Erstes+Kapitel:+Der+Mechanismus/C.+Der+absolute+Mechanismus/a.+Das+Zentrum)); Sans (143; 641). **Philological note fully verified**: Sans p. 203 prints \"[reale Mitte]\", Hegel's word is \"reelle\" |\n| SL \"in things spiritual the center… assume higher forms\" | p. 641, re-attributed to Hegel | **verified** — German \"Im Geistigen nimmt das Zentrum und das Einssein mit demselben höhere Formen an\" (6:423); Sans p. 206 quoting (143; 641). v5's re-attribution was right |\n| SL government/citizens/needs, each the middle of the other two | p. 642 | **verified** — German at 6:424; Sans (144 f.; 642) |\n| SL free mechanism / \"pervasive gravity… self-identical in the particularization\" | pp. 642–643 | **verified** — German \"macht den freien Mechanismus aus… die durchdringende, in der Besonderung sich identisch erhaltende Schwere\" at 6:424–425; Sans (144; 642), (145; 643) |\n| EL §198 \"the state is a system of three syllogisms\" | draft cites §198 main ¶ | **corrected** — it is the §198 **Anmerkung/Remark**. German main ¶ ends at \"ungestörtes Insichsein\"; the state passage is the following remark block ([hegel.de](https://hegel.de/werke_frei/hw108052.htm)); Sans p. 207 cites \"§ 198 Remark; 273\"; the passage card (passages/el_198_three_syllogisms.md, verified 2026-07-10) says Remark. The v5 sourcing-note claim that the locus was \"fixed\" to the main paragraph is a mis-correction. Cite §198R; propagate to Post 6 |\n\n## Secondary — status\n**Sans 2018 (anchor).** Now fully page-verified against the open-access chapter PDF ([Tübingen repository](https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/120980/Sans_053.pdf?sequence=1)): \"conceptual relations as such are real\" p. 192; \"founds its conclusion\" + middle-replaces-copula p. 194; \"aims at establishing the Concept as something objective, to wit really existing,\" Anselm/Descartes, \"a really existing, objective universal\" pp. 201–202; **\"Subjectivity as well as objectivity are determinations of the Concept as such and do not refer directly either to mind or to nature\" p. 202 — the previously un-anchored page, now pinned (gate closed)**; \"[reale Mitte]\" p. 203; \"astonishing… mechanism chapter\" pp. 204–205; \"should not be taken in a reductionist sense,\" \"spirit as such transcends mechanism,\" prayers \"in a detached and uninvolved manner\" p. 206. Print pagination 191–213 confirmed on the PDF face.\n**Stein 2016 (threat).** Quotes at pp. 149, 151 as in the plan's [✓]; not re-checkable this pass (Hegel Bulletin paywalled); the draft's rhyme-not-confirmation framing and \"Stein's Concept is the modeler\" hedge are intact.\n**Moss 2013 (convergent).** \"a triad of syllogisms, which altogether constitute a process of alternating middle terms\" verified in the publisher's abstract ([PDC](https://www.pdcnet.org/ipq/content/ipq_2013_0053_0001_0073_0085), [PhilPapers](https://philpapers.org/rec/MOSHFM)); IPQ 53(1):73–85 confirmed; the p. 78 in-text locator stays gated on the published PDF.\n**Kreines 2006 (positioning)** two-camp vocabulary, **Pippin 2019 (positioning)** \"science of pure thinking\" (not \"deflationary\"), **Redding 2023 (convergent/prior-art)**, **Christensen 2024** (Erkenntnis 90(8), 3447–3482, corrected in v5), **Smith 1988 / Vieweg 2017 / Harvey 2002 / Lawvere 1991 / Protin 2025 / Günther / Burt / Obstfeld / Simmel (prior-art)** — all as previously verified; Harvey direct quote and Redding p. 43 still gated.\n\n## Lab receipts — all re-verified against the repo this pass\n- **256-form census, 24 triadic (9.4%), Φ bands 232 @ 0.0 / 8 @ 0.5 / 16 @ 2.0, P(triadic | mediator reads both) = 15.0% (24/160)** — recomputed directly from `org_frontier/corpus/results/population.csv`; matches `corpus/FINDINGS.md` and `STRUCTURAL_FINDINGS.md` §2–3. The draft's three-band statement is exactly right.\n- **Minimal pair (relay Φ=0.00 vs joint-commit Φ=2.00)** — `corpus/FINDINGS.md` (pure_relay 0.00; ats_strict_bottleneck 2.00, the resume/manager-profile form).\n- **Same-wiring twin that factors** — the 136/160 reads-both-but-dyadic population fact, same census.\n- **Committing chains Φ=2.0 at n=3–6** — `org_frontier/multiparty/results/chains.csv` (2.000000 at every length); `STRUCTURAL_FINDINGS.md` §6; corroborated by q65 (depth 1–4, Φ=2.0 constant).\n- **Relay chains of two, three, four nodes factor to Φ=0** — `org_frontier/essays/mediated_or_irreducible.md` (lines ~52–54), sourced to `recurrence/iit_experiments.py` E3.\n- **q213 car dealer** — `questions/q213_contingent_irreducibility/FINDINGS.md`: constrained dealer triadic Φ=2.0, core {M,D,B}; bypass restores the maker–buyer edge, dealer leaves the core, Φ 2.0→0.0, contingency margin 2.0; clearinghouse intrinsic under the same bypass.\n- **Symmetric three-cycle (the rotating triad's extensional face)** — supported by q11 (`rot_ring` Φ=2, triadic, full core, n=3–6), q149 (ring Shapley spread 0.000 = even shares, n=5–6), q214 H5 (symmetric Heider triad Φ=6.0, all three in core). **Flag:** the draft's clause \"no party is a veto\" is unbacked — q112 shows every core party of the mediated triad holds a veto, and no located receipt shows the symmetric cycle veto-free. Reword to what the receipts say: no distinguished single-party binder (q101/q102) and even value thirds (q149/q113).\n\n## Refutation condition (from SERIES_PLAN §3, met as written)\nSans defeats \"merely a logical form,\" but his ontology is teleological and self-realizing, so it licenses \"the syllogism is a real structure,\" not \"a causal structure whose irreducibility is partition-sensitive.\" That last step is the series' own; if the post cannot make it, it collapses into a footnote of Post 4. The draft makes the step explicitly and owns it (\"The Move the Resemblance Does Not License\"), grades the fit (tightest at the conduit pole, loosest at the integrator pole), and enters the topology gap (rotating vs fixed-star middle) as a real limit. Condition satisfied.\n\n## Guard check — clean, two watch notes\nNo anticipation claim anywhere (\"not that Hegel anticipated the criterion,\" the closing bound is explicit); no demotion of Φ — the instrument is affirmed as \"thin and decidable is what makes it an instrument,\" and the census is presented as the one measured post in the series. Watch: (a) the close's \"the same boundary the criterion reads, not yet the same computation\" is the single place above \"same shape\" altitude — it was the panel-approved retirement of \"in everything but notation,\" so keep, but do not let later edits drop the \"not yet the same computation\" half; (b) \"a cut and a count\" in the final paragraph reads as method description, not demotion — fine as is.\n\n## Gates before posting\n1. **Fix in draft + sourcing note:** §198 → §198R (Remark; B&D p. 273); reword \"no party is a veto.\"\n2. Physical B&D checks: §181R p. 254; §182 pp. 254–255 (\"begrifflos\"); §198R p. 273.\n3. Physical di Giovanni checks: now only pp. 635–636 (communication, laws/morals, scent) lack cross-corroboration; pp. 588, 631, 641, 642–643 are corroborated by Sans's dual citations and the German text but the standing series gate still applies.\n4. Moss p. 78 in-text locator + DOI against the published PDF (paywalled).\n5. Stein 2016 physical/paywalled re-check (pp. 149, 151).\n6. Redding p. 43 caveat; Harvey 2002 direct quote (Cloudflare-gated); Protin arXiv version pin — carried from v4.\n7. Author-only: the real anonymized middle for the opener; flagship-term freeze (integrator vs necessary middle) across Posts 4–9.\n\n## New scholarship\nNothing newer than 2026-07-10 located (searched Hegel + syllogism + mechanism/middle term + network/IIT). The one new source artifact is the Tübingen open-access PDF of the Sans chapter itself, which closed the page gate on the mind-or-nature quote.\n\nSources: [Sans chapter PDF (Tübingen)](https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/120980/Sans_053.pdf?sequence=1), [Moss at PDC](https://www.pdcnet.org/ipq/content/ipq_2013_0053_0001_0073_0085), [Moss at PhilPapers](https://philpapers.org/rec/MOSHFM), [WL Das Zentrum, German (zeno.org)](http://www.zeno.org/Philosophie/M/Hegel,+Georg+Wilhelm+Friedrich/Wissenschaft+der+Logik/Zweiter+Teil:+Die+subjektive+Logik+oder+die+Lehre+vom+Begriff/Zweiter+Abschnitt:+Die+Objektivit%C3%A4t/Erstes+Kapitel:+Der+Mechanismus/C.+Der+absolute+Mechanismus/a.+Das+Zentrum), [Enzyklopädie §198, German (hegel.de)](https://hegel.de/werke_frei/hw108052.htm), [Shorter Logic, The Object (marxists.org)](https://www.marxists.org/reference/archive/hegel/works/sl/slobject.htm), [NDPR review of The Aftermath of Syllogism](https://ndpr.nd.edu/reviews/the-aftermath-of-syllogism-aristotelian-logical-argument-from-avicenna-to-hegel/)",
+    "claim_restated": "Hegel's syllogism — two extremes holding together through a middle — is the mediated triad, and his complaint against merely external middles is the conduit/integrator distinction: the boundary he drew from communication to the real middle inside the Mechanism chapter and the boundary the partition criterion computes are boundaries of the same shape (a homology, not an identity of referents, and not an anticipation of Φ).",
+    "primary_passages": [
+      {
+        "locus": "SL, The Syllogism, p. 588 (\"everything rational is a syllogism\")",
+        "edition": "di Giovanni (Cambridge 2010)",
+        "quote_or_paraphrase": "\"it is not just that the syllogism is rational but that everything rational is a syllogism\"",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §181R, p. 254",
+        "edition": "Brinkmann/Dahlstrom (Cambridge 2010)",
+        "quote_or_paraphrase": "the syllogism as \"the essential ground of everything true\"; \"everything is a syllogism\"",
+        "verified": "gated"
+      },
+      {
+        "locus": "EL §182, pp. 254–255",
+        "edition": "Brinkmann/Dahlstrom",
+        "quote_or_paraphrase": "formal syllogism \"rational but non-conceptual [begrifflos]\"; in the rational syllogism \"the subject joins itself together with itself by means of this mediation\"",
+        "verified": "gated"
+      },
+      {
+        "locus": "SL p. 631 (Mechanism: aggregate; spiritual mechanism)",
+        "edition": "di Giovanni",
+        "quote_or_paraphrase": "connection \"alien\" to the things combined, \"nothing more than composition, mixture, aggregate\"; spiritual mechanism = things connected remaining external to one another and to spirit",
+        "verified": "verified"
+      },
+      {
+        "locus": "SL pp. 635–636 (communication; scent)",
+        "edition": "di Giovanni",
+        "quote_or_paraphrase": "communication \"without transition into the opposite\"; laws/morals \"pervade individuals unconsciously\"; \"like a scent freely spreading in the unresisting atmosphere\"",
+        "verified": "gated"
+      },
+      {
+        "locus": "SL p. 641 (the real middle term; Werke 6:423)",
+        "edition": "di Giovanni / Suhrkamp Werke 6",
+        "quote_or_paraphrase": "\"the essential determinateness constitutes the real middle term [die reelle Mitte] between the many interacting objects… their objective universality\"; philological note (Sans's 'reale' gloss vs Hegel's 'reelle') confirmed on both sides",
+        "verified": "verified"
+      },
+      {
+        "locus": "SL p. 641 (\"higher forms\"; Werke 6:423)",
+        "edition": "di Giovanni",
+        "quote_or_paraphrase": "\"in things spiritual the center, and the union with it, assume higher forms\" — Hegel's own sentence, correctly re-attributed in v5 (Im Geistigen nimmt das Zentrum… höhere Formen an)",
+        "verified": "verified"
+      },
+      {
+        "locus": "SL p. 642 (government/citizens/needs; Werke 6:424)",
+        "edition": "di Giovanni",
+        "quote_or_paraphrase": "government, individual citizens, and their needs — \"drei Termini, deren jeder die Mitte der zwei anderen ist\"",
+        "verified": "verified"
+      },
+      {
+        "locus": "SL pp. 642–643 (free mechanism; pervasive gravity; Werke 6:424–425)",
+        "edition": "di Giovanni",
+        "quote_or_paraphrase": "the totality whose moments are syllogisms \"in which each of the three different objects runs through the determination of the middle term and the extreme, constitutes free mechanism\"; \"the pervasive gravity that persists self-identical in the particularization\"",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §198R (NOT §198 main paragraph), B&D p. 273",
+        "edition": "Brinkmann/Dahlstrom",
+        "quote_or_paraphrase": "\"like the solar system, the state is a system of three syllogisms\" — sits in the Anmerkung/Remark: German main ¶ ends at 'ungestörtes Insichsein'; Sans cites '§ 198 Remark; 273'; passage card agrees. v5's 'fix' to the main paragraph was a mis-correction — restore §198R and propagate to Post 6",
+        "verified": "corrected"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "citekey": "sans2018",
+        "work": "\"'Everything Rational is a Syllogism': Hegel's Logic of Inference,\" ch. 10 in The Aftermath of Syllogism (Bloomsbury), pp. 191–213",
+        "role": "anchor",
+        "key_claim": "The Syllogism chapter is an ontological argument: \"conceptual relations as such are real\" (p. 192); it \"aims at establishing the Concept as something objective, to wit really existing\" (p. 202); subjectivity and objectivity \"are determinations of the Concept as such and do not refer directly either to mind or to nature\" (p. 202 — page now pinned from the OA PDF, closing a gate); \"[reale Mitte]\" gloss p. 203; reductionism disavowal and \"spirit as such transcends mechanism\" p. 206; \"astonishing\" mechanism-chapter remark pp. 204–205",
+        "verified": "verified"
+      },
+      {
+        "citekey": "stein2016",
+        "work": "\"Hegel's Monarch, the Concept and the Limits of Syllogistic Reasoning,\" Hegel Bulletin 37/1: 145–155",
+        "role": "threat",
+        "key_claim": "The syllogism presupposes elements determined by the Concept; it \"might show how and that they relate but it will not tell us what they are\" (p. 151); block quote at p. 149. Draft correctly holds it at rhyme-not-confirmation, with Stein's Concept mapped to the modeler",
+        "verified": "verified"
+      },
+      {
+        "citekey": "moss2013",
+        "work": "\"Hegel's Free Mechanism: The Resurrection of the Concept,\" International Philosophical Quarterly 53(1): 73–85",
+        "role": "convergent",
+        "key_claim": "Free mechanism grasped \"via a triad of syllogisms, which altogether constitute a process of alternating middle terms\" — verified verbatim in the PDC abstract; the p. 78 in-text locator still needs the published PDF",
+        "verified": "gated"
+      },
+      {
+        "citekey": "kreines2006",
+        "work": "\"Hegel's Metaphysics: Changing the Debate,\" Philosophy Compass 1(5): 466–480",
+        "role": "positioning",
+        "key_claim": "Maps the metaphysical vs non-metaphysical camps in Hegel-Logic scholarship; cited for the vocabulary of the split (Kreines is a revival partisan, not a neutral referee)",
+        "verified": "verified"
+      },
+      {
+        "citekey": "pippin2019",
+        "work": "Hegel's Realm of Shadows (Chicago)",
+        "role": "positioning",
+        "key_claim": "Logic as the science of pure thinking (not 'deflationary' — Pippin insists logic is metaphysics); names the thin-reading line the draft's second skeptic occupies",
+        "verified": "verified"
+      },
+      {
+        "citekey": "redding2023",
+        "work": "Conceptual Harmonies (Chicago)",
+        "role": "convergent",
+        "key_claim": "Traces the ontological syllogism to Plato; convergent with Sans's ontological reading; p. 43 caveat still uncheckd",
+        "verified": "gated"
+      },
+      {
+        "citekey": "christensen2024",
+        "work": "\"Beyond Individualism and Holism: IIT as Formal Framework for the Gradation of Social Structure,\" Erkenntnis 90(8): 3447–3482",
+        "role": "convergent",
+        "key_claim": "The social-structure reading of the Φ formalism the receipts section cites; entry corrected in v5 (vol. 90, not 89)",
+        "verified": "verified"
+      },
+      {
+        "citekey": "smith1988",
+        "work": "\"Hegel's Logic and Marx's Capital,\" Radical Philosophy 48: 30–35",
+        "role": "prior-art",
+        "key_claim": "Capital as the universal middle term of modern society, citing Hegel's state-triad — the middle mediates dialectically, not causally",
+        "verified": "verified"
+      },
+      {
+        "citekey": "vieweg2017",
+        "work": "\"The State as a System of Three Syllogisms,\" in Hegel's Political Philosophy (OUP), pp. 124–141",
+        "role": "prior-art",
+        "key_claim": "The dedicated treatment of the EL §198R state-triad; Post 6's secondary, named here only as a neighbor",
+        "verified": "verified"
+      },
+      {
+        "citekey": "harvey2002",
+        "work": "\"Agency and Community: A Critical Realist Paradigm,\" JTSB 32(2): 163–194",
+        "role": "prior-art",
+        "key_claim": "Maps structure–agency onto Hegel's syllogistic with positioned practices as middle; direct quote still Cloudflare-gated",
+        "verified": "gated"
+      },
+      {
+        "citekey": "lawvere1991",
+        "work": "\"Some Thoughts on the Future of Category Theory,\" LNM 1488 (Springer)",
+        "role": "prior-art",
+        "key_claim": "Category-theoretic appropriation of Hegel's logic, syllogism as composition (Protin 2025 arXiv:2501.02367 surveys the tradition)",
+        "verified": "verified"
+      },
+      {
+        "citekey": "burt1992-obstfeld2005-simmel1908",
+        "work": "Structural Holes; \"Tertius Iungens\" ASQ 50(1); The Sociology of Georg Simmel",
+        "role": "positioning",
+        "key_claim": "The brokerage lineage traces to Simmel's triad, never to Hegel's Schlusslehre — grounds the draft's no-located-prior-work claim for the bridge step",
+        "verified": "verified"
+      }
+    ],
+    "new_scholarship": [
+      {
+        "citekey": "sans2018-oa-tuebingen",
+        "relevance": "Not new scholarship but a newly exploited source artifact: the open-access PDF of the Sans chapter (publikationen.uni-tuebingen.de, Sans_053.pdf) with print pagination 191–213, which this pass used to page-pin every load-bearing Sans quote — including the previously un-anchored 'do not refer directly either to mind or to nature' at p. 202 — and to confirm Sans's '§ 198 Remark; 273' citation for the state-triad. No work newer than 2026-07-10 relevant to Post 3 was found in searches on Hegel + syllogism/mechanism/middle term + network/IIT.",
+        "verified": "verified"
+      }
+    ],
+    "lab_receipts": [
+      {
+        "receipt": "Complete strict-mediation n=3 census: 256 forms, 24 triadic (9.4%); Φ bands 232 @ 0.0, 8 @ 0.5, 16 @ 2.0 (24 = 8+16); P(triadic | mediator reads both) = 15.0% (24/160). Recomputed directly from the CSV this pass — all draft figures exact.",
+        "source_file": "org_frontier/corpus/results/population.csv (and corpus/FINDINGS.md, STRUCTURAL_FINDINGS.md §2–3)",
+        "numbers": "256; 24; 9.4%; 232/8/16 at Φ=0.0/0.5/2.0; 15.0% (24/160)"
+      },
+      {
+        "receipt": "Minimal pair: pure relay reads dyadic at Φ=0.00; the joint-commit bottleneck (forwards only when resume-signal AND manager-profile present) reads triadic at Φ=2.00, all three in one core.",
+        "source_file": "org_frontier/corpus/FINDINGS.md",
+        "numbers": "pure_relay Φ=0.00; ats_strict_bottleneck Φ=2.00"
+      },
+      {
+        "receipt": "Committing chains stay triadic at Φ=2.0 from three to six nodes, cut at a single balanced partition; relay chains of two, three, and four nodes all factor to Φ=0 (recurrence E3).",
+        "source_file": "org_frontier/multiparty/results/chains.csv; org_frontier/essays/mediated_or_irreducible.md (citing recurrence/iit_experiments.py E3); STRUCTURAL_FINDINGS.md §6; questions/q65_agent_chain_outreach/FINDINGS.md",
+        "numbers": "Φ=2.000000 at n=3,4,5,6; relay chains Φ=0 at lengths 2,3,4"
+      },
+      {
+        "receipt": "q213 contingent irreducibility: constrained car dealer triadic at Φ_MIP=2.0 with core {M,D,B}; bypass (restore maker–buyer edge) drops the dealer from the core, Φ 2.0→0.0, contingency margin 2.0; the clearinghouse under the same bypass stays intrinsic (margin 0.0).",
+        "source_file": "org_frontier/questions/q213_contingent_irreducibility/FINDINGS.md",
+        "numbers": "Φ=2.0→0.0; margin 2.0 (dealer) vs 0.0 (clearinghouse)"
+      },
+      {
+        "receipt": "Symmetric three-cycle backing for the rotating-triad proxy: rot_ring triadic at Φ=2 with full core at n=3–6 (q11); symmetric rings show Shapley spread 0.000, i.e. even thirds (q149, n=5–6); the symmetric Heider triad reads Φ=6.0 with all three in the core (q214 H5). FLAG: the draft's clause 'no party is a veto' has no located receipt — q112 shows every core party of the mediated triad holds a veto; the backed claims are 'no single-party binder' (q101/q102) and even value shares (q149/q113). Reword.",
+        "source_file": "org_frontier/questions/q11_oscillatory_scaling/FINDINGS.md; q149_topology_shapley_split/FINDINGS.md; q214_triadic_classification/FINDINGS.md; q112_veto_power/FINDINGS.md",
+        "numbers": "rot_ring Φ=2 (n=3–6); ring spread 0.000; Heider Φ=6.0; q112 vetoes universal in the mediated triad"
+      }
+    ],
+    "refutation_condition": "Sans defeats the \"merely a logical form\" objection — Hegel's objective syllogism is a real structure of the whole — but his ontology is teleological and self-realizing, explicitly transcending mechanism, so it licenses \"the syllogism is a real structure,\" not \"a causal cause-effect structure whose irreducibility is partition-sensitive.\" That last move is the series' own to make; if the post cannot make it, it rests on Sans's ontology and collapses into a strong footnote of Post 4. The v5 draft meets the condition: it names the step as its own, grades the fit (tightest at the conduit pole, loosest at the integrator pole, where the test reads only the causal shadow of the real middle), and enters the topology gap (rotating vs fixed-star middle) as a real limit.",
+    "guard_check": "Clean. No anticipation-of-Φ claim: the bound is explicit (\"not that Hegel anticipated the criterion, but that the boundary he drew and the boundary it computes are boundaries of the same shape\"), and \"the same boundary\" was downgraded to same-shape everywhere it carries weight. No demotion of Φ: the instrument is affirmed (\"thin and decidable is what makes it an instrument\"; the receipts are \"computed,\" the exact computation \"needed\" per STRUCTURAL_FINDINGS §7). Two watch notes only: the close's panel-approved \"the same boundary the criterion reads, not yet the same computation\" is the single spot above same-shape altitude — keep both halves together in any later edit; \"a cut and a count\" in the final paragraph is method description, not demotion.",
+    "gates": "(1) Draft fixes: cite the state-triad as EL §198R (Remark; B&D p. 273), not §198 main paragraph — v5's \"locus fix\" was a mis-correction (German main ¶ ends at \"ungestörtes Insichsein\"; Sans cites \"§ 198 Remark; 273\"; the passage card agrees) — and propagate to Post 6; reword \"no party is a veto\" on the three-cycle receipt to the backed claims (no single-party binder; even thirds). (2) Physical Brinkmann/Dahlstrom: §181R p. 254, §182 pp. 254–255 (\"begrifflos\"), §198R p. 273. (3) Physical di Giovanni: pp. 635–636 (communication, laws/morals, scent) are the only SL quotes still without cross-corroboration; pp. 588, 631, 641, 642–643 are now corroborated by Sans's dual citations and the German text but the standing series gate applies pro forma. (4) Moss (2013): p. 78 in-text locator and DOI 10.5840/ipq20135317 against the published PDF (paywalled; phrase verified in the PDC abstract). (5) Stein (2016) pp. 149/151 physical or paywalled re-check. (6) Carried from v4: Redding p. 43 caveat, Harvey (2002) direct quote (Cloudflare-gated), Protin (2025) arXiv version pin. (7) Author-only: real anonymized middle for the opener; flagship-term freeze across Posts 4–9."
+  },
+  "verdict": {
+    "post": "Adversarial fact-check of the Post 3 grounding digest (v5), verified against the repo at /Users/ludwitt/iit-playground/pyphi-experiments and against primary/secondary sources on the web.\n\nWHAT SURVIVED REFUTATION (verified, safe to use):\n\nLab receipts — all exact against the repo:\n- 256-form census, 24 triadic (9.4%), Φ bands 232@0.0 / 8@0.5 / 16@2.0, P(triadic | mediator reads both)=15.0% (24/160): recomputed directly from org_frontier/corpus/results/population.csv (awk counts: 232/8/16; 160 reads-both, 24 triadic among them). Matches corpus/FINDINGS.md and STRUCTURAL_FINDINGS.md §2-3.\n- Minimal pair pure_relay Φ=0.00 vs ats_strict_bottleneck Φ=2.00: FINDINGS.md table confirms; forms_library.py confirms ats_strict_bottleneck rule S=x0&x2 with rationale \"S forwards iff resume-signal AND manager-profile; W,C each read only S.\" The digest's AND-gate gloss is backed.\n- Committing chains Φ=2.000000 at n=3,4,5,6: multiparty/results/chains.csv confirms exactly (one balanced 2-part MIP each row).\n- Relay chains factor Φ=0 at lengths 2,3,4: essays/mediated_or_irreducible.md confirms (sourced to recurrence/iit_experiments.py E3).\n- q213: constrained dealer triadic Φ=2.0 core {M,D,B}; bypass → dealer leaves core, Φ 2.0→0.0, margin 2.0; clearinghouse intrinsic margin 0.0. FINDINGS.md matches.\n- q11 rot_ring Φ=2 triadic full core n=3-6; q149 symmetric ring spread 0.000; q214 H5 symmetric Heider triad Φ=6.0 all three in core; q112 every core party holds a veto. All confirmed.\n\nPrimary Hegel passages — Sans OA PDF (Tübingen Sans_053.pdf) extracted and searched; every page-pin correct:\n- \"conceptual relations as such are real\" on Sans p. 192 (print header mapping verified).\n- \"do not refer directly either to mind or to nature\" on p. 202 (the previously un-anchored quote — confirmed).\n- \"the real middle term [reale Mitte]\" on p. 203; \"astonishing\" p. 204; reductionism disavowal / \"spirit as such transcends mechanism\" / \"detached and uninvolved manner\" p. 206.\n- di Giovanni cross-cites confirmed verbatim in Sans: \"(90; 588)\", \"(133; 631)\", \"(143; 641)\", \"(145; 643)\", \"(145; 642)\".\n- DECISIVE for the §198 correction: Sans's own citation \"§ 198 Remark; 273\" appears on his p. 207. This independently confirms the digest's ruling that the state-triad is EL §198R (Remark, B&D p. 273), and that v5's \"fix\" to the main paragraph was a mis-correction. Cite §198R.\n- Philology confirmed on both sides: Sans prints \"[reale Mitte]\" (PDF), Hegel's German is \"die reelle Mitte\" (Deutsches Textarchiv / zeno.org, WL 1816, Das Zentrum) — the note holds.\n\nSecondary sources — bibliographic data and camp assignments verified:\n- Moss 2013, IPQ 53(1):73-85, quote \"a triad of syllogisms, which altogether constitute a process of alternating middle terms\" verbatim in the PDC abstract.\n- Christensen 2024, Erkenntnis, \"Beyond Individualism and Holism,\" DOI 10.1007/s10670-024-00845-0, Aug 2024 (title/year/DOI confirmed).\n- Stein 2016, Hegel Bulletin 37(1), DOI 10.1017/hgl.2016.8 (a review article of Vieweg — consistent with the digest's framing).\n- Kreines 2006, Philosophy Compass 1(5):466-480 — and Kreines argues Hegel's philosophy \"includes a metaphysics,\" so the \"revival partisan, not neutral referee\" label is correct.\n- Pippin camp nuance correct: Realm of Shadows reads logic AS metaphysics, so \"science of pure thinking, not deflationary\" is the right guard.\n\nDEFECTS / GATES: see corrections and residual_gates below. Net: the digest is well-grounded and its two self-flagged fixes (§198R; killing \"no party is a veto\") are both valid, but its proposed replacement wording \"even thirds\" is itself unbacked, and one direct quote is not verbatim-verified.",
+    "overall": "needs-correction",
+    "corrections": [
+      {
+        "target": "Digest post + gates: proposed rewording of the veto flag to 'even value thirds (q149/q113)'",
+        "problem": "The digest correctly kills 'no party is a veto' (q112 confirms every core party of the mediated triad holds a veto), but its replacement phrase 'even thirds' is not backed by any located receipt. q149's equal-spread arrangements are n=5-6 rings (spread 0.000 = even fifths/sixths, not thirds); q113's equal shares are a 4-party all-required market (quarters, each 1.0 of Φ=4); and the mediated triad itself is 2/3-concentrated at the mediator (q112/q111: mediator 1.333 vs 0.333 each; q149 control 0.666 vs 0.333). No receipt gives an even-thirds Shapley split for a symmetric 3-cycle.",
+        "fix": "Reword to 'no single distinguished binder (q101/q102) and even shares in a symmetric/all-required arrangement (q149 ring spread 0.000; q113 all-required equal shares)'. Use 'even shares', never 'even thirds'. The digest's own lab-receipt line already says 'even value shares' — freeze on that; correct the post/gates copy to match."
+      },
+      {
+        "target": "Primary passage: di Giovanni p. 588 quote for 'everything rational is a syllogism'",
+        "problem": "Only the fragment 'everything rational is a syllogism' is verbatim-verified (Sans quotes it at (90;588); the Miller translation also carries it). The digest's fuller sentence 'it is not just that the syllogism is rational but that everything rational is a syllogism' has an unverified front clause — the available full-text (Miller) reads 'not only is the syllogism rational, but everything rational is a syllogism,' a different construction. Di Giovanni's exact front wording was not confirmable online (Cambridge paywalled).",
+        "fix": "Either verify the front clause against physical di Giovanni p. 588 before using the full sentence as a direct quote, or quote only the verified fragment 'everything rational is a syllogism' (which is what the draft's section title uses) and paraphrase the rest."
+      },
+      {
+        "target": "Christensen 2024 volume/issue/pages 'Erkenntnis 90(8): 3447-3482'",
+        "problem": "Title, journal, year, and DOI (10.1007/s10670-024-00845-0) are confirmed, but the exact volume 90, issue 8, and page range 3447-3482 could not be independently confirmed (Springer redirected to auth; PhilPapers 403). v5 already corrected vol 89->90, so the field is volatile.",
+        "fix": "Confirm 90(8):3447-3482 against the published Springer article page or Crossref before the receipts section prints the full locator; low risk but currently unverified."
+      }
+    ],
+    "safe_to_use": "Numbers (repo-verified exact): 256 forms; 24 triadic = 9.4%; Φ bands 232@0.0 / 8@0.5 / 16@2.0; P(triadic|mediator reads both)=15.0% (24/160); pure_relay Φ=0.00 vs ats_strict_bottleneck Φ=2.00 (S=W∧C, resume-AND-manager-profile); committing chains Φ=2.0 at n=3-6; relay chains Φ=0 at lengths 2,3,4; q213 dealer 2.0→0.0 margin 2.0, clearinghouse intrinsic margin 0.0; q11 rot_ring Φ=2 full core n=3-6; q149 symmetric ring spread 0.000; q214 Heider triad Φ=6.0 all three in core; q112 every core party of the mediated triad holds a veto (mediator Shapley 1.333 vs 0.333 each).\n\nCitations (verbatim/locus verified): 'everything rational is a syllogism' — di Giovanni p. 588, cross-cited Sans (90;588). Sans page-pins all correct: 'conceptual relations as such are real' p.192; 'subjectivity...do not refer directly either to mind or to nature' p.202; '[reale Mitte]' p.203; 'spirit as such transcends mechanism' / reductionism disavowal / prayers 'in a detached and uninvolved manner' p.206; 'astonishing' pp.204-205; chapter print pagination 191-213. EL §198R state-triad = B&D p.273, independently confirmed by Sans's own '§ 198 Remark; 273' on his p.207 (cite §198R, propagate to Post 6). German 'die reelle Mitte' vs Sans's 'reale' gloss confirmed (DTA/zeno). Moss 2013 IPQ 53(1):73-85, 'a triad of syllogisms, which altogether constitute a process of alternating middle terms' (verbatim). Kreines 2006 Philosophy Compass 1(5):466-480 (revival partisan). Pippin Realm of Shadows = logic as metaphysics ('science of pure thinking', not deflationary). Stein 2016 Hegel Bulletin 37(1) (review article of Vieweg; rhyme-not-confirmation framing intact). Christensen 2024 Erkenntnis DOI 10.1007/s10670-024-00845-0.\n\nFraming: homology-not-identity altitude and no-demotion-of-Φ guard both hold and are consistent with the repo's CLAUDE.md thesis rules. The refutation condition (Sans licenses 'real structure', not 'partition-sensitive causal irreducibility'; that step is the series' own) is met as written.",
+    "residual_gates": "Before the rewrite quotes them: (1) apply BOTH the digest's self-flagged fixes AND the sharpening above — cite §198R (not §198 main ¶), and reword the three-cycle flag to 'even shares' (q149 spread 0.000 / q113 all-required), never 'even thirds'; (2) verify the di Giovanni p. 588 sentence's front clause against the physical Cambridge edition, or quote only the verified fragment; (3) confirm Christensen 90(8):3447-3482 against Springer/Crossref. Still gated as in the digest and not independently re-checkable this pass (paywalled/physical, no error found — carry as-is): B&D physical pins §181R p.254, §182 pp.254-255 'begrifflos', §198R p.273; di Giovanni pp.635-636 (communication / laws-and-morals / 'scent in the unresisting atmosphere'); Moss p.78 in-text locator; Stein pp.149/151 block quotes; Redding p.43 caveat; Harvey 2002 direct quote (Cloudflare-gated); Protin 2025 arXiv:2501.02367 version pin. q101/q102 backing for 'no single-party binder' was not read this pass (dirs exist) — spot-check before leaning on it. Note: essays/mediated_or_irreducible.md relay-chain citation is around line 51-52, not 'lines ~52-54' (cosmetic)."
+  }
+}

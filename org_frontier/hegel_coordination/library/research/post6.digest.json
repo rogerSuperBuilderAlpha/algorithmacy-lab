@@ -1,0 +1,152 @@
+{
+  "post": 6,
+  "digest": {
+    "claim_restated": "Hegel's Teile/Glieder distinction and the state-as-organism passages draw the same aggregate/whole boundary the partition (Φ) test draws — the two criteria agree on the severed hand and on the shape a rotating middle term leaves — but they draw it from opposite directions: a Glied is defined teleologically, by its reciprocal contribution to the organism's self-maintenance, while the partition test reads only resistance to a cut, so the overlap is real and the gap (direction-of-definition, being-for-one's-own-persistence) is the finding, not an anticipation of Φ.",
+    "primary_passages": [
+      {
+        "locus": "EL §198 Remark (Anmerkung), under Absolute Mechanism",
+        "edition": "Brinkmann & Dahlstrom (1830/2010a), Cambridge",
+        "quote_or_paraphrase": "'the state is a system of three syllogisms' — German: 'Wie Sonnensystem, so ist z.B. im Praktischen der Staat ein System von drei Schluessen. 1. Der Einzelne... 2. ist der Wille, Taetigkeit der Individuen das Vermittelnde... 3. aber ist das Allgemeine... die substantielle Mitte.' CORRECTION-TO-CARRY: the draft v3 asserts this 'sits in the main paragraph of §198... not in a Remark.' That is wrong. The state/solar-system passage is Hegel's Anmerkung (Remark) to §198: the terse main paragraph is the E-B-A mechanism-syllogism text ('Der angegebene Schluss (E-B-A)...'), and the state sentence is a separate remark paragraph. Confirmed three ways: (a) hegel.de typography marks it class 'pa' = Anmerkung, parallel to the confirmed §195 Anmerkung and distinct from the main-paragraph class and the 'pz'=Zusatz class; (b) the passage card el_198_three_syllogisms.md itself labels it '§198 (Remark)'; (c) hegel-system.de independently cites it 'Enz Anm.§198.' The earlier paper that called it a Remark was RIGHT; v3 introduced the error. Revert to Remark, or cite '§198' plainly without the main-paragraph claim.",
+        "verified": "corrected"
+      },
+      {
+        "locus": "EL §216 (Zusatz for the hand; main paragraph for means/purposes)",
+        "edition": "Brinkmann & Dahlstrom (1830/2010a), Cambridge",
+        "quote_or_paraphrase": "Severed hand 'a hand in name only' sits in the §216 ZUSATZ — German: 'eine Hand, welche vom Leibe abgehauen wird, [ist] nur noch dem Namen nach eine Hand, aber nicht der Sache nach' (Aristotle's tag). The line the draft quotes as 'all members are reciprocally momentary means as much as momentary purposes' is in the §216 MAIN PARAGRAPH — German: 'so dass alle Glieder sich gegenseitig momentane Mittel wie momentane Zwecke sind.' Both are legitimately '§216' (B&D prints the Zusaetze), but precision: hand = Zusatz, means/purposes = main paragraph. B&D exact English wording is a print gate.",
+        "verified": "gated"
+      },
+      {
+        "locus": "EL §218",
+        "edition": "Brinkmann & Dahlstrom (1830/2010a), Cambridge",
+        "quote_or_paraphrase": "Paraphrase only in the draft ('a living thing maintains itself precisely by each part reproducing the others'). German §218 main paragraph confirms the sense: 'Diese Taetigkeit der Glieder ist aber nur die eine des Subjekts, in welche ihre Produktionen zurueckgehen, so dass darin nur das Subjekt produziert wird, d.i. es sich nur reproduziert.' Faithful paraphrase; B&D wording unquoted, so no verbatim gate.",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §135 (main paragraph + Zusatz)",
+        "edition": "Brinkmann & Dahlstrom (1830/2010a), Cambridge",
+        "quote_or_paraphrase": "Whole-and-Parts ranked as untrue: German §135 'Das Verhaeltnis des Ganzen und der Teile ist insofern unwahr.' GATE-CLOSED: the anatomist-and-corpse figure the draft's sourcing note feared might sit in the Philosophy of Nature is in fact at EL §135 ZUSATZ — German: 'Zu blossen Teilen werden diese Glieder und Organe erst unter den Haenden des Anatomen, welcher es dann aber auch nicht mehr mit lebenden Koerpern, sondern mit Kadavern zu tun hat.' The anatomist figure is correctly locatable at §135 Zusatz; the sourcing-note gate can be lifted.",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §278 Remark",
+        "edition": "Wood/Nisbet (1821/1991a), Cambridge",
+        "quote_or_paraphrase": "'the so-called parts of an animal organism are not parts but members' — German confirmed: 'im animalischen Organismus die sogenannten Teile desselben nicht Teile, sondern Glieder, organische Momente sind und deren Isolieren und Fuer-sich-Bestehen die Krankheit ist.' The draft renders 'members or organic moments whose isolation and separate existence constitute disease.' The German sense is exact; Nisbet's precise English for 'Fuer-sich-Bestehen' ('separate' vs Knox's 'independence') is a print gate against the physical 1991 Cambridge edition.",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §276 Addition",
+        "edition": "Wood/Nisbet (1821/1991a), Cambridge",
+        "quote_or_paraphrase": "'it is present at every point, there is only one life in all of them... Separated from it, each point must die.' The Addition (Gans, from lecture notes) exists and carries the organic-body / one-life analogy — confirmed via Knox ('Life is present in every cell'). Draft's wording is Nisbet's; exact Nisbet phrasing is a print gate. The §276/§278 main-paragraph German is verified; the Addition text was not extractable from the free German source (Additions come from a separate apparatus).",
+        "verified": "gated"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "citekey": "corti2022",
+        "work": "Luca Corti, 'The Is and the Ought of the Animal Organism: Hegel's Account of Biological Normativity,' History and Philosophy of the Life Sciences 44(2), Article 17 (2022)",
+        "role": "anchor",
+        "key_claim": "Both draft quotes VERIFIED VERBATIM against the PMC open-access full text (PMC9054894): 'These differentiated parts are characterized primarily in terms of their roles in the process, not by their material compositions or topologies' and 'the functional nature of the items involved is defined not only in terms of their mutual dependence but also in terms of their contribution to the self-maintenance of the organism as a whole.' Author = Luca Corti; Article 17; vol 44 issue 2. Grounds the intensional (self-maintenance) definition of a member.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "kreines2008",
+        "work": "James Kreines, 'The Logic of Life: Hegel's Philosophical Defense of Teleological Explanation of Living Beings,' in Beiser (ed.), Cambridge Companion to Hegel and 19th-Century Philosophy (2008), ch. 13, pp. 344-377",
+        "role": "anchor",
+        "key_claim": "Draft quotes living beings 'do manifest true internal purposiveness' of which 'we can have objective knowledge' — the realist-not-regulativist reading. The thesis (Hegel holds, against Kant, that we CAN know living beings are teleological systems) is web-confirmed via the chapter abstract and Kreines's site. The exact verbatim wording remains UNVERIFIED against a clean copy: the Claremont PDF is bot-blocked (403). Print/PDF page check owed for pp. 344-377.",
+        "verified": "gated"
+      },
+      {
+        "citekey": "ng2020",
+        "work": "Karen Ng, Hegel's Concept of Life: Self-Consciousness, Freedom, Logic (Oxford, 2020)",
+        "role": "threat",
+        "key_claim": "Inner purposiveness is constitutive, not a regulative lens: the organism is a self-producing unity whose members are constituted by their role in its self-production; the organism IS its own end. Draft PARAPHRASES Ng (does not quote verbatim), so no verbatim gate for this post; per Round-2 research the page-level quotes elsewhere are review-reported, not pulled from Ng's pages. The sharpest threat to a partition-only reading of membership.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "vieweg2017",
+        "work": "Klaus Vieweg, 'The State as a System of Three Syllogisms,' in Brooks & Stein (eds.), Hegel's Political Philosophy (Oxford, 2017), pp. 124-141",
+        "role": "anchor",
+        "key_claim": "Fullest reconstruction of the §198 three-syllogisms structure as the logical foundation of the rational state. Chapter, editors, venue confirmed. Note Vieweg's PR institutional mapping (Individual=monarch, Universal=legislature, Particular=government) differs from the draft's EL §198 mapping (I=citizen, P=system of needs, U=government/law); the draft correctly follows the EL §198 text, not Vieweg's PR mapping. Pages 124-141 a print gate.",
+        "verified": "gated"
+      },
+      {
+        "citekey": "kreines2008b",
+        "work": "— same as kreines2008; realist teleology as both anchor and threat",
+        "role": "threat",
+        "key_claim": "The ground of the organism's irreducibility is inner teleology / self-production, which a Φ measure neither entails nor requires (Φ could score high for a non-self-productive system). The series must argue the causal criterion TRACKS Hegel's teleological ground, not that it replaces it — exactly the HC1 gap the draft rests on.",
+        "verified": "gated"
+      }
+    ],
+    "new_scholarship": [
+      {
+        "citekey": "james2020",
+        "relevance": "Daniel James, 'Social Organisms: Hegel's Organisational View of Social Functions,' in a Routledge volume (DOI 10.4324/9780429435393-12, c.2020) — NOT in the Round-2 ledger. Directly convergent/anchor for Post 6: Hegel treats the state as an organism whose constitutional organs make distinct FUNCTIONAL contributions to the whole's self-maintenance, i.e. members are defined by organizational role, not by material part-hood. Reinforces the teleological-definition side of HC1 from the political (not merely biological) angle, and connects to the same Daniel James who edited the PR Critical Guide cited in Post 7. Title/author/venue verified via abstract; interior gated.",
+        "verified": "gated"
+      },
+      {
+        "citekey": "corti_pmc_oa",
+        "relevance": "Confirmed that Corti (2022) has a clean PMC open-access full text (PMC9054894) — supersedes the Springer paywall gate flagged in the draft's sourcing note. Both Corti quotes are now verbatim-verified; that gate can be closed.",
+        "verified": "verified"
+      }
+    ],
+    "lab_receipts": [
+      {
+        "receipt": "Major-complex definition quote: 'the subset that maximizes phi_s.' Draft uses this verbatim for boundary-as-output.",
+        "source_file": "org_frontier/essays/phi_as_a_cooperative_game.md",
+        "numbers": "Verbatim: 'The major complex — the subset IIT's exclusion postulate keeps as the locus of integration — is the subset that maximizes phi_s, the argmax of the characteristic function.' Matches draft."
+      },
+      {
+        "receipt": "Structural finding 8, principal coupling: verifies both draft quotations.",
+        "source_file": "org_frontier/STRUCTURAL_FINDINGS.md",
+        "numbers": "Verbatim: 'an idle principal makes the whole system factor while the triad inside stays irreducible' and 'can even *contract* the core to {S, P}.' Both match draft's finding-8 citations exactly."
+      },
+      {
+        "receipt": "Veto-player thread: the fed-back middle is the argmax-Shapley party in every single-bottleneck form.",
+        "source_file": "org_frontier/threads/veto_player/THREAD.md",
+        "numbers": "'In all 115 single-bottleneck forms the veto player is the argmax-Shapley party, 115 of 115.' Draft's '115 of 115' verified."
+      },
+      {
+        "receipt": "Back-edge thread quote on mutual feedback as the condition for a mediator to commit.",
+        "source_file": "org_frontier/threads/back_edge/THREAD.md",
+        "numbers": "Verbatim: 'A mediator commits only when the parties feed back to it. Cut the back-edge — a broadcast that the parties heed but cannot answer, a feedforward chain — and the form has no integration at all, so the mediator can only convey.' Draft elides the em-dash clause with '…'; faithful."
+      },
+      {
+        "receipt": "Cyclic thread: the symmetric three-cycle (Hegel's rotating middle) — commitment rate, no veto player, even thirds.",
+        "source_file": "org_frontier/threads/cyclic/THREAD.md",
+        "numbers": "'no integrating form has a single veto player, 0 of 78'; 'every committing form splits the credit perfectly evenly, a top share of 0.333, one third each'; 'Commitment is a touch higher than the star's, 13% against 10%.' Draft's 'thirteen percent against ten,' 'none in seventy-eight,' '0.333, one third to each party' all verified."
+      },
+      {
+        "receipt": "State-triad grep claim: no Individual/Particular/Universal triad has been built and run.",
+        "source_file": "org_frontier/ (whole corpus grep) + org_frontier/probes/PROBES.md",
+        "numbers": "Grep for an I/P/U state-labeled encoding returns only coincidental 'universal' keyword hits in PROBES.md (dimension/veto rows), no built state triad. Confirmed: the generic symmetric three-cycle is the computed prior; the state-labeled encoding is an unbuilt probe candidate. Draft asserts no Φ number for it — correct."
+      }
+    ],
+    "refutation_condition": "The partition (Φ) test reads a member as partition-visible — cutting it destroys what the whole does — while Hegel's Glied is teleologically defined by reciprocal contribution to the organism's self-maintenance. If the two criteria coincide on the state organism, that is a real positive result; if they come apart (the likely case), the post reports exactly where, and that gap IS the finding. Endpoints: if the state-triad encoding captured everything Hegel means by 'member' (reciprocal service, self-maintenance of freedom, each moment the others' ground), the criterion would have reached the teleology and the two holisms collapse into one, refuting Post 1's two-holisms premise; if it captured nothing, the membership BRIDGE (the Hegel homology, not Φ) would be mere decoration. Neither happens; the documented middle is the result. Narrower owed test that could still fail: a φ-matched attractor pair (one self-maintaining, one not) to check whether ANY observable over the cause-effect structure recovers self-maintenance — not yet run.",
+    "guard_check": "Mostly clean. Anticipation guard: clean — the draft explicitly disclaims it ('he does — but not by anticipating my criterion'; 'asked a version of that question,' framed as homology throughout; the title and thesis stay at same-boundary/different-instrument). Φ-demotion guard: no banned term is applied to Φ — 'decoration' refers to the Hegel BRIDGE if the encoding captures nothing, not to Φ; the concession that the instrument 'reads only the symptom' and 'brackets' teleology is the sanctioned Paper-4 line (Φ captures irreducibility-as-fact, not irreducibility-as-living-self-relation), not a claim that Φ is unnecessary or beaten by a cheap test. ONE MILD FLAG: the temper paragraph (draft lines 242-251: 'the tool does less than the concept, on the one axis the concept cares about most... no amount of calling the shortfall a bracket turns it into a feature') leans toward the self-defeating register CLAUDE.md warns against ('Modest ≠ self-defeating; never trade the tool's value away to look humble'). It stops short of the banned terms, but a pass should keep it from tipping into inadequacy-talk; the paragraph is flagged in the draft itself as author-owned/rewrite-needed.",
+    "gates": "TOP GATE (correction, not just confirmation): EL §198 — the draft v3 says the state-as-three-syllogisms passage 'sits in the main paragraph... not in a Remark.' The German typography, the passage card, and hegel-system.de all show it is the ANMERKUNG (Remark). Fix the draft: it is the Remark to §198 (revert v3's 'correction'), still under Absolute Mechanism. Confirm against the physical B&D page whether B&D labels it 'Remark.' | Nisbet exact English for PR §278R ('separate existence' for Für-sich-Bestehen) and PR §276A ('present at every point... each point must die') — physical 1991 Cambridge Nisbet edition; the §276 Addition text was not extractable from free German sources. | B&D exact English wording for EL §216 (severed hand + 'momentary means/purposes'), §218, §135 Zusatz, §198 — physical/print B&D (German verified; English wording unquoted-or-gated). | Kreines (2008) verbatim 'do manifest true internal purposiveness' / 'we can have objective knowledge,' pp. 344-377 — Claremont PDF bot-blocked (403); needs print or clean-PDF check. | Vieweg (2017) pp. 124-141 — print check. | Daniel James (2020) 'Social Organisms' interior — gated behind Routledge/philarchive 403. | Minor precision (not a hard gate): the draft's §198 rotation assigns middles in the order P, U, I (figure 2 middle = law/universality, figure 3 middle = activity of individuals); Hegel's canonical §198 order is P, I, U (his figure 2 middle = will/activity of individuals, figure 3 middle = the universal as substantial middle). All three terms still mediate once and the individual does mediate, so the Hegel-specialist's required fix is met, but a referee may note the draft's figure-2/figure-3 assignment departs from Hegel's canonical sequence.",
+    "post": "POST 6 GROUNDING DIGEST — Parts and Members (draft v3, full fresh grounding)\n\nTHE CLAIM AT ALTITUDE. Teile-vs-Glieder and the state-as-organism passages draw the same aggregate/whole boundary the partition test draws, and they agree on real cases (the severed hand; the shape a rotating middle term leaves in a Φ computation). They part on direction: a Glied is defined teleologically, from the whole's self-maintenance to the member's role; the partition test reads only resistance to a cut. Homology, not anticipation — 'he wins by defining a member in terms my instrument was built without.' Hold the bridge there.\n\nWHAT THIS PASS RESOLVED.\n\n1. The one correction that matters — EL §198. The draft v3's own 'correction' is wrong. It says the state-as-three-syllogisms sentence 'sits in the main paragraph of §198... not in a Remark.' It is the Anmerkung (Remark). Three independent confirmations: hegel.de marks it class 'pa' (= Anmerkung, the same class as the confirmed §195 Remark, distinct from the main-paragraph class and from 'pz' = Zusatz); the passage card el_198_three_syllogisms.md itself reads '§198 (Remark)'; hegel-system.de cites it 'Enz Anm.§198.' The §198 main paragraph is the terse E-B-A mechanism-syllogism text; the state/solar-system material is Hegel's remark on it. The earlier paper that called it a Remark was right; v3 flipped it the wrong way. Revert to Remark (still under Absolute Mechanism), or cite '§198' plainly.\n\n2. Gate closed — the anatomist-corpse figure. The draft's sourcing note feared it might live in the Philosophy of Nature, not EL §135. It is at EL §135 Zusatz, verified in German ('Zu blossen Teilen werden diese Glieder und Organe erst unter den Haenden des Anatomen... sondern mit Kadavern zu tun hat'). The §135 whole-and-parts-as-untrue ranking is also confirmed. Lift that gate.\n\n3. Precision on §216. Severed hand ('a hand in name only') = §216 ZUSATZ; 'all members reciprocally momentary means as much as momentary purposes' = §216 MAIN PARAGRAPH. Both legitimately '§216' (B&D prints Zusaetze), but the sourcing note can be exact.\n\n4. Corti (2022) both quotes verbatim-verified against the PMC open-access full text — the Springer paywall gate in the draft is superseded by PMC9054894.\n\n5. PR §278R and §276A German sense verified; the exact NISBET English wording stays gated to the physical 1991 Cambridge edition (draft's 'separate existence' / 'each point must die' are Nisbet's, unconfirmed against print; Knox differs).\n\n6. Lab receipts all check out to the digit: 'maximizes phi_s' (essay), finding-8 'idle principal makes the whole system factor' and 'contract the core to {S, P}' (STRUCTURAL_FINDINGS), '115 of 115' argmax-Shapley (veto_player), the back-edge 'commits only when the parties feed back' quote (back_edge), and the cyclic three-cycle's '0 of 78' / '0.333 / one third each' / '13% against 10%' (cyclic). A corpus grep confirms no I/P/U state triad has been built — the draft correctly asserts no Φ number for it.\n\nNEW SCHOLARSHIP. Daniel James, 'Social Organisms: Hegel's Organisational View of Social Functions' (Routledge, DOI 10.4324/9780429435393-12, c.2020) — not in the Round-2 ledger, directly convergent: Hegel's state-organism as a functional/organizational whole whose organs are defined by contribution, not part-hood. Strengthens HC1 from the political angle. Interior gated.\n\nGUARD. Anticipation: clean (explicitly disclaimed). Φ-demotion: no banned term applied to Φ; 'decoration' is aimed at the bridge, not the tool. One soft flag — the author-flagged temper paragraph leans toward the self-defeating register CLAUDE.md warns against; keep it from tipping into 'the tool is inadequate.'"
+  },
+  "verdict": {
+    "overall": "sound",
+    "post": "POST 6 GROUNDING — ADVERSARIAL VERDICT: SOUND, with two trivial precisions and a live register guard.\n\nCentral correction verified. Draft v3's claim that the state-as-three-syllogisms / solar-system passage sits in the §198 MAIN PARAGRAPH is wrong; it is the ANMERKUNG (Remark) to §198, under Absolute Mechanism. Confirmed three independent ways beyond the digest's own citations: (a) hegel.de's Mechanismus text (hw108052.htm) shows the §198 main paragraph is the terse \"Der angegebene Schluss (E-B-A) ist ein Dreifaches von Schluessen...\" mechanism-syllogism text, with the \"Wie Sonnensystem, so ist z.B. im Praktischen der Staat ein System von drei Schluessen\" material in the Anmerkung; (b) hegel-system.de cites it \"aus: Enz Anm.§198 und Logik\"; (c) the repo card el_198_three_syllogisms.md line 3 reads \"*Encyclopaedia Logic* §198 (Remark)\". Revert to Remark (or cite '§198' plainly, dropping the main-paragraph claim). The digest carries this correctly.\n\nCorti (2022) fully closed. Article 17, History and Philosophy of the Life Sciences 44(2), DOI 10.1007/s40656-022-00498-8, PMC9054894. Both draft quotes VERBATIM against the PMC open-access full text (\"These differentiated parts are characterized primarily in terms of their roles in the process, not by their material compositions or topologies\"; \"the functional nature of the items involved is defined not only in terms of their mutual dependence but also in terms of their contribution to the self-maintenance of the organism as a whole\"). The Springer paywall gate is superseded.\n\nLab receipts all check to the digit against the repo: 'maximizes phi_s' (essay; source prints the Greek 'phi_s'/subscript form), finding-8 'idle principal makes the whole system factor' and 'contract the core to {S, P}' (STRUCTURAL_FINDINGS), '115 of 115' argmax-Shapley (veto_player), the back-edge 'commits only when the parties feed back' quote (back_edge, em-dash clause intact), and cyclic '0 of 78' / '0.333, one third each' / '13% against 10%'. No built I/P/U state triad in the corpus — the draft's 'no Phi number for it' stands.\n\nSecondary metadata verified: Kreines ch. 13 (Cambridge Companion to Hegel and Nineteenth-Century Philosophy, Beiser ed., 2008); Vieweg pp. 124-141 (Brooks & Stein, Hegel's Political Philosophy: On the Normative Significance of Method and System, OUP 2017); Daniel James, 'Social Organisms: Hegel's Organisational VIEW of Social Functions' (2020, Routledge, in Social Functions, eds. Hufendiek/James/van Riel) — 'View' confirmed against James's own site; PhilPapers' 'Theory' is a mis-index, so the digest is right and needs no change.\n\nCamp assignments correct: Kreines (realist, not regulativist) and Ng (inner purposiveness constitutive; organism is its own end) are rightly the threat to a partition-only reading; Corti's organizational-closure account rightly anchors the self-maintenance definition. Homology-not-anticipation framing holds throughout; no banned term is applied to Phi. The one live risk is the author-flagged temper paragraph — keep the 'reads only the symptom' / 'brackets teleology' / 'decoration' concession language pinned to the Hegel bridge and never let it migrate onto Phi (CLAUDE.md: make the affirmative case, do not demote the apparatus).",
+    "corrections": [
+      {
+        "target": "Lab receipt 1 — 'maximizes phi_s' (org_frontier/essays/phi_as_a_cooperative_game.md line 18)",
+        "problem": "The source prints the Greek-plus-subscript form 'φ_s'; the digest/draft transliterate it as 'phi_s' while labeling the quote strictly verbatim.",
+        "fix": "Trivial notation only — either reproduce 'φ_s' or note the transliteration so the 'verbatim' label is exact. No substantive change."
+      },
+      {
+        "target": "Secondary source note — Daniel James title indexing",
+        "problem": "PhilPapers indexes the piece as 'Hegel's Organisational THEORY of Social Functions', which could tempt a downstream 'correction' away from the digest's 'View'.",
+        "fix": "Keep 'Organisational View' — verified against James's own research page (danieljamesphilosophy.com). The digest is correct; flag PhilPapers as the mis-index so no one 'fixes' it the wrong way."
+      },
+      {
+        "target": "Kreines (2008) gate status",
+        "problem": "Digest marks the two quoted phrases fully 'gated/unverified'; that understates the current state.",
+        "fix": "Upgrade to corroborated-near-verbatim: Kreines's own site and the chapter abstract carry 'living beings do manifest true internal purposiveness' and 'we can have objective knowledge of this natural teleology'. Only the exact full-sentence wording and pp. 344-377 against print remain a residual gate."
+      }
+    ],
+    "safe_to_use": "1) The §198 correction: the state-as-three-syllogisms / solar-system passage is Hegel's ANMERKUNG (Remark) to EL §198, under Absolute Mechanism — the main paragraph is the E-B-A mechanism-syllogism text. Verified against hegel.de (hw108052.htm), hegel-system.de ('Enz Anm.§198'), and the repo card. Cite as '§198 (Remark)' or plainly '§198'; drop v3's main-paragraph claim.\n2) Corti (2022), Article 17, Hist. Phil. Life Sci. 44(2), PMC9054894 — BOTH quotes verbatim-safe: 'These differentiated parts are characterized primarily in terms of their roles in the process, not by their material compositions or topologies' and 'the functional nature of the items involved is defined not only in terms of their mutual dependence but also in terms of their contribution to the self-maintenance of the organism as a whole.' Anchors the intensional (self-maintenance) definition of a member. Paywall gate closed.\n3) All six lab receipts, verbatim against the repo: essay 'maximizes φ_s / argmax of the characteristic function'; STRUCTURAL_FINDINGS finding-8 'idle principal makes the whole system factor while the triad inside stays irreducible' and 'contract the core to {S, P}'; veto_player '115 of 115'; back_edge 'A mediator commits only when the parties feed back to it. Cut the back-edge — a broadcast that the parties heed but cannot answer, a feedforward chain — and the form has no integration at all, so the mediator can only convey.'; cyclic '0 of 78', top share '0.333, one third each', '13% against 10%'. No I/P/U state triad has been built — assert no Phi number for it.\n4) Secondary metadata (safe to cite as bibliography): Kreines, ch. 13, Cambridge Companion to Hegel and Nineteenth-Century Philosophy (Beiser ed., 2008), realist teleology thesis (Hegel, against Kant, holds we can know living beings are teleological systems); Vieweg, 'The State as a System of Three Syllogisms', pp. 124-141, in Brooks & Stein (eds.), Hegel's Political Philosophy: On the Normative Significance of Method and System (OUP 2017); Daniel James, 'Social Organisms: Hegel's Organisational View of Social Functions' (2020, Routledge, in Social Functions, eds. Hufendiek/James/van Riel), state-organism organs defined by functional contribution not part-hood; Ng (2020), inner purposiveness constitutive, organism is its own end (paraphrase only). PR §278R and §135 Zusatz German loci as the digest states.",
+    "residual_gates": "Print-verbatim gates the rewrite must not treat as closed: (a) Nisbet's exact English for PR §278R ('separate existence' for Für-sich-Bestehen) and PR §276A ('present at every point... each point must die') against the physical 1991 Cambridge edition — German sense verified, Addition text not extractable from free German sources, Knox differs; (b) B&D exact English wording for EL §216 (severed hand = Zusatz; 'momentary means/purposes' = main paragraph), §218, §135 Zusatz, §198 — German verified, English unquoted or gated; (c) Kreines (2008) full-sentence verbatim and pp. 344-377 against clean print (Claremont PDF returns 403; phrases corroborated near-verbatim via author's site); (d) Vieweg pp. 124-141 and Daniel James chapter interior (DOI 10.4324/9780429435393-12) against print/full text. Non-citation gates: (e) REGISTER GUARD — keep the concession language ('reads only the symptom', 'brackets teleology', 'decoration') pinned to the Hegel bridge; it must never be applied to Phi, or the post tips into the demote-the-apparatus register CLAUDE.md forbids (the author-flagged temper paragraph, draft lines ~242-251, is the specific place to fix). (f) Minor scholarly precision, not a blocker: the draft's §198 rotation assigns middles P,U,I where Hegel's canonical Anmerkung order is P,I,U (figure-2 middle = will/activity of individuals; figure-3 middle = the universal as substantial middle) — a referee may note the departure though all three terms still mediate once."
+  }
+}
