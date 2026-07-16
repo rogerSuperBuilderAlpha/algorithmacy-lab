@@ -1,0 +1,190 @@
+{
+  "post": 5,
+  "digest": {
+    "post": "Post 5: Interdependence Without Unity — grounding digest for /Users/ludwitt/iit-playground/pyphi-experiments/org_frontier/hegel_coordination/posts/post5_civil_society.md (draft v3).\n\nSTATE OF THE DRAFT. v3 is in good shape: every load-bearing Hegel quotation now checks out against the Nisbet/Wood wording via independent web sources, the Kain abstract quotes are verbatim-confirmed (including the disputed \"The present paper\" opening — the reviewer's \"the paper\" worry is resolved), the García Mills citation is real and OA, and the lab numbers are exact against the repo. Three corrections to carry into v4: (1) the Smith pin-factory quote is trimmed without ellipsis — the original reads \"could scarce, perhaps, with his utmost industry, make one pin in a day\" (WN I.i, confirmed at adamsmithworks.org and econlib.org), so either restore the full clause or set an ellipsis; also Smith writes \"upwards,\" not \"upward,\" if that word ever enters quotation marks. (2) \"Ferguson, who supplied the term 'civil society' itself\" is too strong — Ferguson's 1767 Essay gave the Scottish tradition its title, but societas civilis long predates him and Hegel's bürgerliche Gesellschaft (the society/state separation) is Hegel's own conceptual move; soften to \"whose Essay on the History of Civil Society gave the tradition its title,\" cited to Waszek. (3) Kain pagination is settled: print is Owl of Minerva 46(1–2): 43–65 — confirmed by the DOI redirect itself, whose PDC content ID encodes 0043_0065 — while Scholar Commons's recommended citation (1–23) is the offprint; the draft already cites 43–65, keep it.\n\nNEW SCHOLARSHIP THE POST SHOULD KNOW. The sharpest new find is Michael Lazarus, \"From the invisible hand to the rabble: Smith, Hegel and social ontology,\" Cambridge Journal of Economics 49(6) (2025): 1163–1185, DOI 10.1093/cje/beaf046 — the nearest published neighbor to this post's move: it reads the same texts (Smith reception, system of needs, rabble) as a social-ontology argument. Its ontology is labour-and-recognition, not causal-partition, so the novelty claim at the series' altitude survives, but the post should name it rather than be scooped by a reviewer holding it. Lisa Herzog, Inventing the Market: Smith, Hegel, and Political Theory (OUP, 2013 — note subtitle is \"Political Theory\") is the standard systematic Smith/Hegel comparison and would strengthen the \"What Hegel Had Actually Read\" section alongside Waszek. Frank Ruda, Hegel's Rabble (Continuum, 2011) is the standard monograph on the rabble and radicalizes exactly the passage the draft leans on (rabble as structural side-effect that strikes at the state's deduction); the rabble paragraphs should at least know it exists. Bernardo Ferro, \"From Rechtsphilosophie to Staatsökonomie\" (EJP 2023, DOI 10.1111/ejop.12784) is optional positioning on Hegel's transformation of political economy.\n\nLAB RECEIPTS — all exact against the repo. threads/quorum/{run.txt,THREAD.md,quorum.py}: seed 11, 400 forms, four nodes; k=1 triadic 12/400 (3%), k=2 0/400 (0%), k=3 12/400 (3%); integrating coalitions 170/247/158 with S the veto player in every one (170/170, 247/247, 158/158). STRUCTURAL_FINDINGS.md carries the one-line record the draft cites: \"majority/redundant determinations factor entirely.\" One addition worth making: studies/coordination_logic_atlas/FINDINGS.md contains a deterministic, stronger form of the same law — a clean threshold mediator is irreducible at exactly k=1 and k=n (Φ=n−1, full party set in core) and factors at every interior threshold across n=3,4,5, with no gradient, mechanism named as substitutability (\"at an interior quorum no single party is pivotal\"). Citing the atlas would upgrade the draft's k=2 zero from \"0/400 random draws at one seed\" to a registered law across party counts, and it independently confirms the v3 mechanism fix (redundancy/substitutability, not scalar-mediation).\n\nGUARD CHECK. No Φ-demotion anywhere — the temper paragraph brackets without demoting and explicitly defends the criterion's keep. Anticipation risk is real but managed: the opening runs \"Hegel ran that test in 1821, by hand\" and \"That is my two-rooms verdict, reached a century and a half before there was a number to attach to it,\" and §43 has \"Hegel asked a version of that question about the market a century and a half early\" — three anticipation-leaning phrasings that all precede the guards, which arrive only at the Verstand section (\"an analogue to my result, not an anticipation of it\"; \"the verbal form of my result, not its ancestor\") and the close (\"coincidence of verdict... not identity\"). Recommend either softening the opening metaphor or pulling one guard sentence forward into paragraph two so the homology altitude is set before the metaphor lands.\n\nKey sources used: [Bielenberg essay quoting Wood/Nisbet §§182–183 with italics preserved](https://alioshabielenberg.com/the-relationship-between-civil-society-and-the-state-between-hegel-and-marx/), [Kain abstract at Scholar Commons](https://scholarcommons.scu.edu/phi/58/), [Kain DOI](https://doi.org/10.5840/owl20156812), [García Mills at Wiley](https://onlinelibrary.wiley.com/doi/full/10.1111/ejop.12916) and [OA at Refubium](https://refubium.fu-berlin.de/handle/fub188/42093), [Lazarus CJE](https://doi.org/10.1093/cje/beaf046), [Knox text at marxists.org](https://www.marxists.org/reference/archive/hegel/works/pr/prcivils.htm) (for distinguishing Knox from Nisbet wording), [Smith WN I.i](https://www.adamsmithworks.org/documents/chapter-1-of-the-division-of-labour), [Herzog NDPR review](https://ndpr.nd.edu/reviews/inventing-the-market-smith-hegel-and-political-theory/), [Ruda Hegel Bulletin review](https://www.cambridge.org/core/journals/hegel-bulletin/article/abs/frank-ruda-hegels-rabble-an-investigation-into-hegels-philosophy-of-right-london-continuum-2011-isbn-9781441156938-hbk-pp-xviii218-6500/BBAFF66EF577C1A517E609A6937774B2).",
+    "claim_restated": "Civil society in PR §§182–189 is Hegel drawing, in 1821 and in his own register, the same boundary the partition test draws on the market — universal interdependence whose unity is external, connection without constitution — as a coincidence of verdict between two different senses of \"external\" (unwilled/Verstand-self-subsistent vs. partition-survivable), not an anticipation of the causal criterion and not the same ground.",
+    "primary_passages": [
+      {
+        "locus": "PR §183 (external state, Not- und Verstandesstaat, system of all-round interdependence, the interwoven sentence, zunächst/'in the first instance')",
+        "edition": "Wood/Nisbet (Cambridge, 1991)",
+        "quote_or_paraphrase": "\"may regard this system in the first instance as the external state [äußeren Staat], the state of necessity and of the understanding\"; \"a system of all-round interdependence\"; \"the subsistence and welfare of the individual and his rightful existence are interwoven with, and grounded on, the subsistence, welfare, and rights of all, and have actuality and security only in this context\"",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §182",
+        "edition": "Wood/Nisbet (Cambridge, 1991)",
+        "quote_or_paraphrase": "each particular person \"asserts itself and gains satisfaction through the others, and thus at the same time through the exclusive mediation of the form of universality\"",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §189 Remark (names only Smith, Say, Ricardo)",
+        "edition": "Wood/Nisbet (Cambridge, 1991) — draft paraphrases; the verbatim 'interesting spectacle (as in Smith, Say, and Ricardo)... endless mass of details' string in SERIES_PLAN is KNOX wording, confirmed at marxists.org",
+        "quote_or_paraphrase": "Draft's paraphrase (extracting simple governing principles from the endless mass of detail) is safe; locus and the three names verified; no Nisbet string verified for quoting",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §198",
+        "edition": "Wood/Nisbet (Cambridge, 1991), p. 233 per secondary",
+        "quote_or_paraphrase": "\"Furthermore, the abstraction of production makes work increasingly mechanical, so that the human being is eventually able to step aside and let a machine take his place\" — verbatim confirmed via academia.edu/scispace 'Machine Automation and the Critique of Abstract Labor' citing Hegel 1991, 233",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §185",
+        "edition": "Wood/Nisbet (Cambridge, 1991)",
+        "quote_or_paraphrase": "\"civil society affords a spectacle of extravagance and misery as well as of the physical and ethical corruption(s) common to both\" — Nisbet wording confirmed except one word: sources vary between 'corruption' and 'corruptions'; Knox reads 'extravagance and want... degeneration', so the draft is correctly on Nisbet",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §243",
+        "edition": "Wood/Nisbet (Cambridge, 1991)",
+        "quote_or_paraphrase": "\"the dependence and want of the class which is tied to such work; this in turn leads to an inability to feel and enjoy the wider freedoms, and particularly the spiritual advantages, of civil society\" — verbatim confirmed",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §244 + Addition (the rabble)",
+        "edition": "Wood/Nisbet (Cambridge, 1991)",
+        "quote_or_paraphrase": "\"When a large mass of people sinks below the level of a certain standard of living... that feeling of right, integrity, and honour which comes from supporting oneself by one's own activity and work is lost\"; Addition: \"Poverty in itself does not reduce people to a rabble; a rabble is created only by the disposition associated with poverty, by inward rebellion against the rich, against society, the government, etc.\" — both confirmed via secondary sources quoting Nisbet; the draft's internal ellipsis placement needs the print check",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §245",
+        "edition": "Wood/Nisbet (Cambridge, 1991)",
+        "quote_or_paraphrase": "\"despite an excess of wealth, civil society is not wealthy enough — i.e. its own distinct resources are not sufficient — to prevent an excess of poverty and the formation of a rabble\" — verbatim confirmed",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §§79–82 (Verstand fixes and holds apart; the speculative moment grasps unity of determinations)",
+        "edition": "Geraets/Suchting/Harris (Hackett, 1991)",
+        "quote_or_paraphrase": "Draft's gloss (Understanding fixes a determinacy, holds terms apart as self-subsistent; Reason grasps them as moments of one unity) matches EL §80 (fixity of determinations) and §82 (speculative moment); paraphrase-only in draft, no quote — safe as is",
+        "verified": "verified"
+      },
+      {
+        "locus": "Smith, WN Book I ch. 1 (pin factory)",
+        "edition": "Campbell & Skinner Glasgow ed. (Liberty Fund, 1981)",
+        "quote_or_paraphrase": "CORRECTION: original reads \"could scarce, perhaps, with his utmost industry, make one pin in a day\" — the draft's quoted fragment \"could scarce make one pin in a day\" drops four words without ellipsis; also \"upwards of forty-eight thousand pins in a day\"",
+        "verified": "corrected"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "citekey": "waszek1988",
+        "work": "The Scottish Enlightenment and Hegel's Account of 'Civil Society' (Kluwer, 1988, Int'l Archives of the History of Ideas 120)",
+        "role": "anchor",
+        "key_claim": "Documents Hegel's reception of Scottish/British political economy (Smith, Steuart, Ferguson) into the system of needs — the warrant for 'interdependence read and digested'; cited for reception only, no interior quote (interior pages still gated)",
+        "verified": "verified"
+      },
+      {
+        "citekey": "kain2015",
+        "work": "'Hegel and the Failure of Civil Society,' Owl of Minerva 46(1–2) (2014–15): 43–65, DOI 10.5840/owl20156812",
+        "role": "threat",
+        "key_claim": "Both draft quotes verbatim-confirmed against the Scholar Commons abstract this run: 'On what might be called a Marxist reading... a problem for which Hegel, however, has no solution' and 'The present paper tries to show how it is plausible to understand Hegel as proposing a solution, one that is similar to that of social democrats, and one that could actually work.' Print pagination 43–65 confirmed via the DOI redirect's PDC content ID (offprint is 1–23). Remedy-mechanism (police/corporations/state) remains paraphrase — full text still bot-blocked",
+        "verified": "verified"
+      },
+      {
+        "citekey": "garciamills2024",
+        "work": "'Extravagance and misery: Hegel on the multiplication and refinement of needs,' European Journal of Philosophy 32(3) (2024): 758–777, DOI 10.1111/ejop.12916",
+        "role": "convergent",
+        "key_claim": "The endless multiplication/refinement of needs is itself the obstacle to freedom and the driver of civil society's lower edge — backs the draft's 'the same engine that drives the wealth drives its lower edge under'; OA full text at FU Berlin Refubium",
+        "verified": "verified"
+      },
+      {
+        "citekey": "lazarus2025",
+        "work": "'From the invisible hand to the rabble: Smith, Hegel and social ontology,' Cambridge Journal of Economics 49(6) (2025): 1163–1185, DOI 10.1093/cje/beaf046",
+        "role": "positioning",
+        "key_claim": "Reads the identical Smith→system-of-needs→rabble arc as a social-ontology argument (Hegel's ontology of labour/recognition against classical political economy's ontological individualism) — the nearest published neighbor to the post's move; its ontology is recognitive, not causal-partition, so it sharpens rather than pre-empts the novelty claim, but the post should name it",
+        "verified": "verified"
+      },
+      {
+        "citekey": "herzog2013",
+        "work": "Inventing the Market: Smith, Hegel, and Political Theory (OUP, 2013) — subtitle is 'Political Theory,' not 'Political Economy'",
+        "role": "anchor",
+        "key_claim": "First systematic comparison of Smith's and Hegel's conceptions of commercial society; Hegel reads poverty as structural, requiring institutions above the market — strengthens both the reception section and the Kain register",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ruda2011",
+        "work": "Hegel's Rabble: An Investigation into Hegel's Philosophy of Right (Continuum, 2011)",
+        "role": "prior-art",
+        "key_claim": "The standard monograph on the rabble: a structural side-effect of civil society's contradictory constitution that strikes at the deduction of the state — the draft's rabble-as-recognitive-failure paragraphs should acknowledge it",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ferro2023",
+        "work": "'From Rechtsphilosophie to Staatsökonomie: Hegel and the philosophical foundations of political economy,' European Journal of Philosophy (2023), DOI 10.1111/ejop.12784",
+        "role": "positioning",
+        "key_claim": "Hegel's philosophical appropriation and transformation of political economy — optional support for 'a philosopher tipping his hat to a science'",
+        "verified": "verified"
+      }
+    ],
+    "new_scholarship": [
+      {
+        "citekey": "lazarus2025",
+        "relevance": "CJE 49(6): 1163–1185 — the same Smith/Hegel/rabble arc read as social ontology; nearest neighbor to the post's claim, must be positioned against",
+        "verified": "verified"
+      },
+      {
+        "citekey": "herzog2013",
+        "relevance": "Not previously surfaced in the series plan; the standard Smith/Hegel monograph, direct anchor for 'What Hegel Had Actually Read'",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ruda2011",
+        "relevance": "Not previously surfaced; standard rabble monograph, prior art for the draft's rabble/recognition paragraphs",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ferro2023",
+        "relevance": "EJP piece on Hegel and the foundations of political economy; optional positioning cite",
+        "verified": "verified"
+      }
+    ],
+    "lab_receipts": [
+      {
+        "receipt": "Quorum thread: S fires at ≥k of 3 parties, parties read S under random rules; extremes bind rarely, majority never; S is the veto player in every integrating draw",
+        "source_file": "org_frontier/threads/quorum/run.txt (with THREAD.md and quorum.py: SEED=11, FORMS=400)",
+        "numbers": "k=1: triadic 12/400 (3%), S-veto|integrating 170/170; k=2: triadic 0/400 (0%), S-veto|integrating 247/247; k=3: triadic 12/400 (3%), S-veto|integrating 158/158 — every number in the draft is exact against run.txt"
+      },
+      {
+        "receipt": "The one-line structural record the draft cites ('its own structural record states the pattern in one line')",
+        "source_file": "org_frontier/STRUCTURAL_FINDINGS.md (notable probe results)",
+        "numbers": "\"majority/redundant determinations factor entirely\" — verbatim present"
+      },
+      {
+        "receipt": "Convergent, currently uncited: the deterministic quorum law — interior thresholds factor with exact zero across party counts, extremes reach full binding; mechanism named as substitutability ('at an interior quorum no single party is pivotal')",
+        "source_file": "org_frontier/studies/coordination_logic_atlas/FINDINGS.md",
+        "numbers": "k=1 and k=n reach Φ=n−1 with full party set in core; k=2 at n=3 reads Φ=0 with no irreducible core; same for k=2,3 at n=4 and k=3 at n=5; 'no gradient, no partial Φ at the interior thresholds, only zero' — would upgrade the draft's one-seed 0/400 to a registered cross-n law"
+      }
+    ],
+    "refutation_condition": "Hegel's deficiency claim about civil society is normative-economic — a failure of freedom and distribution (Kain, García Mills, the rabble sections) — not a claim of structural non-wholeness; and in Hegel the two registers meet at recognition, his own upgrade condition. The post stands only if it keeps the registers distinct while showing they co-sort the market case, without letting the structural reading annex the ethical complaint (v3's relocation of the register-split from Hegel to the criterion, plus the temper paragraph, is the current answer; Lazarus 2025 is the published version of the recognitive counter-reading a referee would wield).",
+    "guard_check": "No demotion of Φ anywhere: the temper paragraph brackets recognition/distribution without calling the instrument decorative, and explicitly defends the bracketing as the price of a decidable answer. Anticipation risk: three opening-section phrasings lean toward anticipation before any guard arrives — \"Hegel ran that test in 1821, by hand\" (para 2), \"That is my two-rooms verdict, reached a century and a half before there was a number to attach to it\" (para 2), and \"Hegel asked a version of that question about the market a century and a half early\" (instrument para). The guards that fix the altitude (\"an analogue to my result, not an anticipation of it\"; \"the verbal form of my result, not its ancestor\"; \"coincidence of verdict... not identity\") are strong but arrive only at the Verstand section and the close. Recommend pulling one guard sentence into the opening or softening \"ran that test\" to something verdict-shaped. Otherwise clean.",
+    "gates": "(1) Physical-copy check of Nisbet (Cambridge 1991) for: the §185 one-word variance (corruption vs corruptions), the §244 internal ellipsis placement, and any page numbers before one is ever printed (draft correctly cites by § only). (2) §189R: no Nisbet string verified — the 'interesting spectacle (as in Smith, Say, and Ricardo)' verbatim in SERIES_PLAN is Knox wording (confirmed at marxists.org); if the post ever quotes rather than paraphrases §189R, pull the sentence from the print Nisbet. (3) Kain full text remains bot-blocked (Scholar Commons PDF returns 403/202-challenge): the remedy mechanism (police/corporations/state) stays paraphrase until a library copy or successful fetch; abstract quotes and print pagination (46(1–2): 43–65) are now fully verified and need no further check. (4) Waszek interior pages still gated (Springer/MUSE) — reception-level citation only, which is all the draft does. (5) If Herzog is added, use the correct subtitle 'Political Theory'; if Lazarus is added, the full text (OUP paywall) needs institutional access for any interior quote — the abstract-level claim used here is verified."
+  },
+  "verdict": {
+    "post": "Adversarial fact-check of the Post 5 grounding digest against live sources and the repo at /Users/ludwitt/iit-playground/pyphi-experiments. Verdict: the digest is sound. I tried to break it on lab-receipt numbers, citation metadata, camp assignment, verbatim quotes, and overclaim/demotion framing, and it held on every load-bearing point.\n\nWHAT VERIFIED CLEAN:\n- Lab receipts, exact against org_frontier/threads/quorum/{run.txt,THREAD.md,quorum.py}: seed 11, FORMS=400, N=4; k=1 triadic 12/400, k=2 0/400, k=3 12/400; S-veto|integrating 170/170, 247/247, 158/158. Every number the digest reports and the draft prints matches run.txt.\n- STRUCTURAL_FINDINGS.md carries the string \"majority/redundant determinations factor entirely\" verbatim (finding 5). The draft renders the \"/\" as \"and\" but does not put the phrase in quotation marks (line 172), so it is reported speech, not a misquote.\n- studies/coordination_logic_atlas/FINDINGS.md confirms the digest's convergent receipt verbatim: Phi=n-1 with full party set in core at k=1 and k=n; Phi=0, no irreducible core at interior thresholds across n=3,4,5 (k=2 at n=3; k=2,3 at n=4; k=3 at n=5); mechanism \"at an interior quorum no single party is pivotal\"; \"no gradient, no partial Phi at the interior thresholds, only zero.\" The digest's cross-n upgrade claim is accurate and citing the atlas is safe.\n- Lazarus 2025: CJE 49(6):1163, DOI 10.1093/cje/beaf046, title exact, and the camp assignment (labour/recognition social ontology, not causal-partition) is correct — the article really does read Smith->system-of-needs->rabble as recognitive social ontology, so it sharpens rather than pre-empts the post's novelty claim. Correctly positioned.\n- Kain: DOI 10.5840/owl20156812 correct; pagination 43-65 is defensible (PhilPapers records 46(1/2):43-65; Scholar Commons shows the 1-23 offprint), so the draft's 43-65 stands. Both draft quotes are verbatim against the Scholar Commons abstract, and the disputed opening really is \"The present paper tries to show...\" — the reviewer's \"the paper\" worry is resolved.\n- Garcia Mills: EJP 32(3):758-777, DOI 10.1111/ejop.12916 exact; role (endless multiplication/refinement of needs drives both edges) accurate.\n- Herzog subtitle is \"Political Theory\" (confirmed OUP 2013, 9780199674176) — digest correctly flags the \"Political Economy\" trap.\n- Ferro: DOI 10.1111/ejop.12784 and title correct (article is optional, not in the draft).\n- Hegel quotes spot-checked verbatim: §198 \"the abstraction of production makes work increasingly mechanical, so that the human being is eventually able to step aside and let a machine take his place\"; §183 \"external state, the state of necessity and of the understanding,\" \"system of all-round interdependence,\" and the \"interwoven with, and grounded on, the subsistence, welfare, and rights of all\" clause.\n- Smith correction (digest item 1) confirmed at source: original reads \"could scarce, perhaps, with his utmost industry, make one pin in a day\" and \"upwards of forty-eight thousand\"; the draft's \"could scarce make one pin in a day\" trims four words without an ellipsis.\n- Guard/anticipation audit accurate: the three opening phrasings (\"ran that test in 1821, by hand\"; \"a century and a half before there was a number\"; \"a version of that question about the market a century and a half early\") and the later guards (\"an analogue to my result, not an anticipation of it\"; \"the verbal form of my result, not its ancestor\") exist as quoted. No Phi-demotion anywhere — the temper paragraph brackets recognition/distribution and defends the bracketing as the price of a decidable answer, and Albantakis/Oizumi are cited straight.\n\nREFUTATION ATTEMPT RESULT: the refutation_condition holds and the digest already answers it (register-split relocated to the criterion, temper paragraph, Lazarus named as the recognitive counter-reading). Nothing in the digest misdates scholarship, miscamps a reading, or licenses an identity/anticipation overclaim. One imprecision the digest missed (Smith's ten-man manufactory) and two page-range residuals are below.",
+    "overall": "sound",
+    "corrections": [
+      {
+        "target": "Draft line 64 (Smith pin-factory quote) — carry the digest's own correction 1",
+        "problem": "The quoted fragment \"could scarce make one pin in a day\" drops \"perhaps, with his utmost industry\" without an ellipsis. Confirmed verbatim at adamsmithworks.org: \"could scarce, perhaps, with his utmost industry, make one pin in a day.\"",
+        "fix": "Restore the full clause or set an ellipsis (\"could scarce . . . make one pin in a day\"). If \"upwards\" ever enters quotation marks, use \"upwards,\" not \"upward\" (draft line 65 currently uses it unquoted, which is fine as paraphrase)."
+      },
+      {
+        "target": "Draft line 65 — Smith paraphrase the digest did NOT catch",
+        "problem": "\"ten specialized workers, each performing a single narrow operation\" overstates Smith. In the ten-man manufactory Smith actually observed, \"some of them consequently performed two or three distinct operations\" (the ~18 operations were split across ten men, not one operation per worker).",
+        "fix": "Soften to something like \"about ten workers dividing the roughly eighteen operations between them\" — drop \"each performing a single narrow operation.\" Low severity; paraphrase only."
+      },
+      {
+        "target": "Draft line 57 — Ferguson attribution — carry the digest's correction 2",
+        "problem": "\"Ferguson, who supplied the term 'civil society' itself\" is too strong: societas civilis long predates Ferguson, and Hegel's buergerliche Gesellschaft (society/state separation) is Hegel's own move. Ferguson's 1767 Essay gave the Scottish tradition its title, not the term itself.",
+        "fix": "Soften to \"whose Essay on the History of Civil Society gave the tradition its title,\" cited to Waszek. Valid as the digest states."
+      },
+      {
+        "target": "Draft opening (lines 18, 23, 42-43) vs guards (lines 133-136) — carry the digest's guard recommendation",
+        "problem": "Three anticipation-leaning phrasings land before any homology guard arrives (guards only appear at the Verstand section and the close), risking an identity/anticipation read in the opening third.",
+        "fix": "Pull one guard sentence forward into paragraph two, or soften \"ran that test in 1821\" to a verdict-shaped phrase, so the coincidence-not-identity altitude is set before the metaphor lands."
+      }
+    ],
+    "safe_to_use": "VERIFIED, may enter the library and rewrite as-is:\n- Lab receipts (exact): quorum seed 11, 400 forms, four nodes; triadic k=1 12/400, k=2 0/400, k=3 12/400; S-veto|integrating 170/170, 247/247, 158/158 (org_frontier/threads/quorum/run.txt).\n- STRUCTURAL_FINDINGS.md verbatim: \"majority/redundant determinations factor entirely.\"\n- Atlas (org_frontier/studies/coordination_logic_atlas/FINDINGS.md), all verbatim/accurate: Phi=n-1 full party set in core at k=1 and k=n; Phi=0 no core at interior thresholds across n=3,4,5; \"at an interior quorum no single party is pivotal\"; \"no gradient, no partial Phi at the interior thresholds, only zero.\" Citing the atlas upgrades the one-seed 0/400 to a cross-n law — safe.\n- Lazarus, M. (2025). \"From the invisible hand to the rabble: Smith, Hegel and social ontology.\" Cambridge Journal of Economics 49(6):1163, DOI 10.1093/cje/beaf046. Camp: recognitive/social-ontology, not causal-partition. Position it; do not let it be wielded as a scoop.\n- Kain, P. J. (2015). \"Hegel and the failure of civil society.\" Owl of Minerva 46(1-2):43-65, DOI 10.5840/owl20156812. Both draft quotes verbatim-confirmed, including \"The present paper tries to show how it is plausible to understand Hegel as proposing a solution, one that is similar to that of social democrats, and one that could actually work\" and \"On what might be called a Marxist reading... a problem for which Hegel, however, has no solution.\"\n- Garcia Mills, N. (2024). EJP 32(3):758-777, DOI 10.1111/ejop.12916.\n- Herzog, L. (2013). Inventing the Market: Smith, Hegel, and Political Theory. OUP. (Subtitle \"Political Theory.\")\n- Ruda, F. (2011). Hegel's Rabble. Continuum. (Standard rabble monograph; prior art.)\n- Ferro, B. (2023). \"From Rechtsphilosophie to Staatsoekonomie.\" EJP 31(1):80-96, DOI 10.1111/ejop.12784. (Optional.)\n- Hegel PR quotes verbatim (Nisbet/Wood 1991): §183 external-state / all-round-interdependence / \"interwoven with, and grounded on, the subsistence, welfare, and rights of all\"; §198 \"step aside and let a machine take his place.\" §182, §243, §244, §244 Addition, §245 confirmed via the digest's secondary corroboration.\n- No Phi-demotion in the draft; the affirmative-tool altitude is intact.",
+    "residual_gates": "(1) Lazarus end page: start page 1163 and issue 49(6) confirmed, but the end page 1185 was not independently seen — confirm the full range 1163-1185 before printing it. (2) Ferro, if ever added to the draft, is EJP 31(1):80-96 (2023); the digest gave only \"EJP 2023\" with no volume/pages. (3) Kain remedy mechanism (police/corporations/state) stays paraphrase — full text is bot-blocked (Scholar Commons PDF 403/challenge); abstract quotes and pagination are now fully verified and need no further check. (4) Nisbet physical-copy checks still owed: §185 \"corruption\" vs \"corruptions,\" §244 internal ellipsis placement, and any page numbers before one is printed (draft correctly cites by § only). (5) §189 Remark remains paraphrase — the \"interesting spectacle (as in Smith, Say, and Ricardo)... endless mass of details\" verbatim floating in SERIES_PLAN is Knox wording (marxists.org); do not quote a Nisbet string for §189R without the print copy. (6) Waszek interior pages gated (reception-level citation only, which is all the draft does). (7) Smith \"ten workers each a single operation\" paraphrase (correction 2) should be softened even though it is not a quote."
+  }
+}
