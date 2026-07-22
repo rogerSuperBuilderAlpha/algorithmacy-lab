@@ -66,6 +66,14 @@ chapter bibliography.
       ranks the missing scenes by fit (PixelVision handoff, Video Backpacker, the Ulysses seriality
       passage, "the underlying order is chaos" as Poulaki's rival voiced by the film, the club's
       legible thirds). Any addition must displace words — body is at ~4,940/5,000.
+- [x] **Scene-coverage rewrite (2026-07-22):** six insertions from the inventory's top ranks, funded by
+      trims — §4: the *Ulysses* seriality passage, "the underlying order is chaos" as Poulaki's account
+      voiced by the film, the PixelVision handoff closing into the Super-8 ending; §5: the club's small
+      legible thirds (guest list, licked stamp, 2 a.m. eviction); §6: Video Backpacker + "just saw it on
+      TV" (Beller compressed to fund); §7: the pirate-TV chain. Body 4,998/5,000; citation resolution
+      still verified both ways (56 note keys). **Film quotes in the new passages are subtitle-derived —
+      verify against the Criterion disc before submission** (added to physical checks below). Author's
+      read-aloud pass is the last gate.
 - [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
       confirmation; conversion to notes-bibliography or MLA is mechanical)
 - [ ] Exact collection title / editor / deadline

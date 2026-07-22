@@ -16,7 +16,7 @@ listening. Lesley Speed has read Linklater through this speech before,[^1] so I'
 only that we should hold the film to its word. Every handoff that follows is a road taken while ninety-nine
 others fraction off.
 
-Here is what the film then does, for those who haven't seen it in a while. It follows roughly a hundred
+Here is what the film then does. It follows roughly a hundred
 characters through one day in Austin, Texas. There's no protagonist. Most of these people never meet. The
 camera walks with someone until a stranger crosses the frame, and then it leaves with the stranger — over
 and over, for a hundred minutes, with no return, no resolution, no convergence. Linklater shot it on 16mm in
@@ -170,7 +170,10 @@ the strangers momentarily sharing their sidewalk, exactly the "daisy chain" Char
 *Slacker* as his example.[^33] In how the film is put together it's a star: every scene tied to the one hub
 that selected it, and the hub never on screen. The camera's path is what welds the first shape into the
 second. Strip out every durable character-to-character tie — the shared pasts, the reunions, the coincidences
-that make an ordinary ensemble cohere — and what still holds the film together is the welding.
+that make an ordinary ensemble cohere — and what still holds the film together is the welding. The film
+recites the chain's grammar once, out loud: on a creek bridge a man makes his jilted friend hear the
+*Ulysses* passage in which each lover is "the last term of a preceding series," a series
+"originating in and repeated to infinity."
 
 Who is being coordinated here is the viewer, not the characters. The moon-landing man and his captive
 listener coordinate with each other; the camera coordinates *me*, the viewer, with the next of them, run
@@ -185,8 +188,10 @@ the recommendation feed, its cousin the ride dispatcher, and all three are the s
 The most serious rival to this reading is Maria Poulaki's. She explains coherence in centerless,
 multi-character films without any broker at all: the parts interact until the film organizes itself, often
 through echoes and repeated motifs.[^34] *Slacker* has those — the talk circles the same few obsessions,
-media and paranoia and conspiracy, and the film ends with its own cast turning cameras on themselves. So I
-grant her the resonance. What recurrence can't do is make the join from this scene to the next one; a theme
+media and paranoia and conspiracy. So I grant her the resonance, and the film even voices her account: a café talker having his
+"breakthrough day" announces that "there is no structure," that "the
+underlying order is chaos." But somebody chose where his scene goes. What recurrence can't do is make the
+join from this scene to the next one; a theme
 rhymes across the cuts but doesn't cause them. The host supplies the rhyming, the relay supplies the joins,
 and her account has no seat for the relayer.
 
@@ -194,6 +199,12 @@ Critics in the 2000s called films like this "hyperlink cinema."[^35] The label m
 waits for you to click, and nobody clicks here. You're carried, and the carriage is smooth enough to feel
 like drift. That confusion — curation taken for navigation — is the same one that makes an algorithmic feed
 feel like browsing.
+
+Late in the film the device goes over to the crowd. At a party a man hands off his PixelVision
+camera — "shoot whatever you want," "pass it around" — and it drifts guest to guest until somebody notices
+it holds no film. The movie's last image comes from another such camera, flung off a cliff by the one group that did
+its own filming. A film that ran on a hidden selector ends by handing the selection
+out.
 
 Linklater described the design in terms a systems engineer could sign: "We're not going to offer a story but
 at least we'll offer a comprehensive architecture that you can pass through and not feel completely
@@ -237,7 +248,10 @@ knocked it down. What the platform does differently is price each passage rather
 reprice it by the match: Simmel's profiteering third with a meter running.
 
 One more difference, and the film marks it itself. Austin's hosting is public — the Drag, the street code,
-the whole apparatus shootable on 16mm by a $23,000 crew. The platform's engineering is proprietary; the
+the whole apparatus shootable on 16mm by a $23,000 crew. So are the film's small engineering thirds: a doorman holding a
+guest list that's missing Steve's name, a paid-entry stamp pressed onto a cousin's licked wrist, a barman
+emptying the club at two. Each is visible and arguable, and two get gamed on screen. The
+platform's engineering is proprietary; the
 glimpses of it that exist are smuggled out from the inside. Nobody is allowed to film the matching engine.
 There were always engineering thirds you couldn't watch working. The very first scene of *Slacker* rides in a
 taxi, and somewhere a dispatcher is picking fares off a radio. What *Slacker* offers is the rarer thing: an
@@ -273,14 +287,20 @@ leaning on. His was the first generation with a remote, he said, "creating our o
 five minutes of this and then one minute of that"; he built *Slacker* as channel-surfing, "going in and out
 of different movies."[^45]
 
-Others have pushed this further. Jonathan Beller argues that cinema trained us to turn looking itself into
-work, unpaid labor for whoever owns the screen — a harder claim than mine, and I'm setting it to one side
-rather than fighting it.[^46] My point is narrower and specific: the one skill I care about is following a
-hidden third's handoffs, and the movies taught it for a century before any app needed it.[^47]
+The film keeps this training on screen. Its one shut-in, the Video Backpacker, lives walled in by running
+televisions and explains that a video image is "much more powerful and useful than an actual event": he once saw
+a man die in the street and can't forgive the scene its missing rewind and wrong hue.
+Another character comes back from traveling unable to say whether any of it really happened — "or you just
+saw it on TV." Benjamin's claim, restated by the trained.
 
-That last step is a guess about how audiences work, and I'll flag it as one: nobody has shown that the skill a
+Jonathan Beller pushes the claim harder — cinema trained us to turn looking itself into unpaid work for
+whoever owns the screen — and I'm setting that version aside.[^46] My point is narrower: the one skill I
+care about is following a hidden third's handoffs, and the movies taught it for a century before any app
+needed it.[^47]
+
+That last step is a guess about how audiences work: nobody has shown that the skill a
 moviegoer brings to a cut is the skill a driver brings to the dispatch queue, and only a real study could.
-Here is a testable version, if anyone wants it — measured fluency with continuity editing should predict how
+Here is a testable version — measured fluency with continuity editing should predict how
 fast a person builds a working theory of an algorithm, the way platform workers do.[^48] What the record
 already supports is smaller and still worth having: the movies handed out that posture, at scale, decades
 before the platform, and *Slacker* is the proof that by 1991 it could carry a whole film with nothing
@@ -297,7 +317,8 @@ The pipeline that carried *Slacker* to an audience was a chain of thirds, every 
 reachable. Pierson, a producer's rep whose whole job was introducing films to buyers, saw it and worked it
 toward them. The Dobie booked it on its own judgment and held it a year. Orion Classics put up a $100,000
 advance and a national release. Video stores bought it and rented it to people who'd heard about it from
-other people.[^49] Every link could be argued with, and was. Twenty-three thousand dollars to $1.2 million is
+other people.[^49] The film pictured such a chain — the Backpacker's contraband tape
+headed for Kansas City pirate TV by dub and acquaintance. Every link could be argued with, and was. Twenty-three thousand dollars to $1.2 million is
 what distribution looks like when its thirds broker in the open. The chain was fragile as well as reachable —
 Orion filed for bankruptcy five months after the national release, and its Classics team left to found Sony
 Pictures Classics — but every link in it was a person you could name.
@@ -305,8 +326,8 @@ Pictures Classics — but every link in it was a person you could name.
 The studios had captured that chain once already. Alisa Perren's history of Miramax shows the nineties indie
 boom absorbed into a studio niche-market strategy, indie inside Disney, booming harder for the capture.[^50]
 But reachable was never the same as accountable: Miramax recut what it bought and shelved some of it outright,
-and a film it buried had no route around the third either. The point is only that the third was still a person
-you could name and fight.
+and a film it buried had no route around the third either — but that third was still a person you could
+name and fight.
 
 The streaming turn is the second enclosure, and the more complete one. Most of the studio specialty divisions
 closed in a wave around 2008–2010, and theatrical indie distribution thinned.[^51] At the peak of the
