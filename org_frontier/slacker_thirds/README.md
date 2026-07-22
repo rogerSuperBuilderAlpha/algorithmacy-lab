@@ -74,6 +74,21 @@ chapter bibliography.
       still verified both ways (56 note keys). **Film quotes in the new passages are subtitle-derived —
       verify against the Criterion disc before submission** (added to physical checks below). Author's
       read-aloud pass is the last gate.
+- [x] **Ten-reviewer panel round 2 + slop purge (2026-07-22):** re-ran all ten July-3 lenses against the
+      scene-coverage rewrite, each armed with a fresh 2026 AI-slop checklist (`research/slop_trends_2026.md`,
+      built from Wikipedia's "Signs of AI writing" + Decrypt + practitioner lists) and a mechanical-scan
+      baseline. Full reviews in `reviews/2026-07-22/` (01–10 + SYNTHESIS.md). Verdicts: 9 minor, 1 major
+      (R2, scoped to the un-paneled insertions). The un-paneled additions carried three real faults, now
+      fixed: the finale camera is a **Super-8** not the party PixelVision (format claim dropped); the §5
+      club trio failed the chapter's own three-question test (relabeled the *governing* family — admission,
+      price, curfew — which sharpens the composes/governs asymmetry); the §7 "three questions I've been
+      circling" callback pointed at the wrong antecedent (fixed both ends: §2 now "three tests"). Also:
+      §5 destination-visibility contradiction, §4 dispatch-proximity error, §6 knife/travel paraphrase
+      drifts + Kuleshov overclaim + Beller-on-wrong-axis, §2 novelty narrowed against Mario Small
+      (*Unanticipated Gains*, added), pirate-TV + SPC-founding sentences cut as unverified/overreaching.
+      Slop: consecutive-closer refrain, twin epigrams, anadiplosis regrowth, agentless-passive doubling,
+      named-agent fixes (Ajunwa/Chatman/Quart). Body **4,949/5,000**; antithesis 2.2/1k; 57 note keys
+      resolve both ways; every new film quote intact. Disc verification of new film content still owed.
 - [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
       confirmation; conversion to notes-bibliography or MLA is mechanical)
 - [ ] Exact collection title / editor / deadline
