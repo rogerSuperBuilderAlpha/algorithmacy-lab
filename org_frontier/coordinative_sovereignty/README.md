@@ -19,6 +19,9 @@ which sovereignty is even available — exit where a gate is contingent, voice w
 - `coordinative_sovereignty.md` — the framing statement: the condition, why preservation fails, the contrast
   with digital sovereignty, what coordinative sovereignty is, and the connection to the lab.
 - `AGENDA.md` — the open research questions.
+- `chapter/` — the "Algorithmacy and Sovereignty" manuscript; the current draft is the Word file
+  `Full Paper - Alg & Sov.docx`.
+- `presentations/` — the SBE 2026 talk deck and poster for the paper.
 - `literature/deep_research_report.md` — the field map across previous forms, digital-sovereignty variants, and
   platform power, read along the preserve-vs-constitute axis.
 - `literature/references.bib` — the foundational bibliography (verified works; newest items held for a

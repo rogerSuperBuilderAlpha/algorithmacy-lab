@@ -7,8 +7,11 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   Iowa).
 - **Status:** abstract accepted; full chapter due 2026-08-30 (min. 10,000 words incl. references);
   double-anonymized review; academic APA.
-- **File:** `chapter.md` — the manuscript. References are inline in APA 7 style; every in-text citation resolves
-  to a reference-list entry (and every entry is cited).
+- **Current draft:** `Full Paper - Alg & Sov.docx` — the working full-paper draft (added 2026-07-22), carrying
+  edits made after the markdown manuscript below. Presentation materials for the paper (the SBE 2026 deck and
+  poster) live in [`../presentations/`](../presentations/).
+- **File:** `chapter.md` — the markdown manuscript the draft grew from. References are inline in APA 7 style;
+  every in-text citation resolves to a reference-list entry (and every entry is cited).
 - **Length:** ~12,600 words including references, additional reading, and key terms.
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
   verified references closing three gaps flagged as reviewer-exploitable: the brokerage literature behind the

@@ -45,6 +45,7 @@ Four programs on one thesis, plus the bridge and support arms. Each directory's 
 | [`org_frontier/protocol/`](org_frontier/protocol/) | Protocol — entry point |
 | [`org_frontier/proxy_bridge/`](org_frontier/proxy_bridge/) | proxy_bridge — can a cheap time-series proxy recover the verdict? |
 | [`org_frontier/research/`](org_frontier/research/) | Research monitoring — a standing literature watch for each program |
+| [`org_frontier/reviews/`](org_frontier/reviews/) | Reviews — experiments on the literature |
 
 ## Machinery — generators and gates
 
@@ -66,4 +67,5 @@ Run the relevant generator after adding content, then verify with its `--check`.
 | 7 | studies | `org_frontier/studies/*/` |
 | 20 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
+| 10 | literature reviews | `org_frontier/reviews/*/` with a `FINDINGS.md` |
 | 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |

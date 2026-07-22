@@ -1,0 +1,13 @@
+edges: 60 seeds | clusters: ['dynamical', 'information_theoretic', 'na', 'statistical']
+
+cluster-to-cluster citation links (undirected, deduped seed pairs)
+                   dynamical  informatio          na  statistica
+  dynamical                0           5           0           0
+  information_theoretic           5          61           2          15
+  na                       0           2           8           0
+  statistical              0          15           0           0
+  within-cluster: 69   cross-cluster: 22
+
+assembly-spanning citers (how many clusters each external citer spans)
+  spans 2: 14 external papers
+  spans 1: 1407 external papers

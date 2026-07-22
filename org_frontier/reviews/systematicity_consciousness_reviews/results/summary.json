@@ -1,0 +1,44 @@
+{
+ "n": 43,
+ "mean_practices": 2.605,
+ "practice_distribution": {
+  "0": 1,
+  "1": 10,
+  "2": 9,
+  "3": 14,
+  "4": 5,
+  "5": 2,
+  "6": 2,
+  "7": 0
+ },
+ "per_practice_adoption": {
+  "envisioning": 42,
+  "explicating": 13,
+  "executing": 3,
+  "evaluating": 18,
+  "encoding": 5,
+  "elaborating": 29,
+  "expositing": 2
+ },
+ "per_practice_share": {
+  "envisioning": 0.977,
+  "explicating": 0.302,
+  "executing": 0.07,
+  "evaluating": 0.419,
+  "encoding": 0.116,
+  "elaborating": 0.674,
+  "expositing": 0.047
+ },
+ "H2_year": {
+  "pearson_r": 0.301,
+  "pearson_p": 0.0495,
+  "spearman_rho": 0.37,
+  "n": 43
+ },
+ "H3_cites": {
+  "spearman_rho": -0.116,
+  "spearman_p": 0.4593,
+  "n": 43,
+  "confound_cites_year_rho": -0.755
+ }
+}

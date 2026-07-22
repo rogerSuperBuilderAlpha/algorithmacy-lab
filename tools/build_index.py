@@ -323,6 +323,40 @@ def _foundations() -> list:
     return out
 
 
+def _reviews() -> list:
+    """The literature-experiments arm under org_frontier/reviews/, if present."""
+    base = os.path.join(_ROOT, "org_frontier", "reviews")
+    readme = os.path.join(base, "README.md")
+    if not os.path.exists(readme):
+        return []
+    title = _first_heading(readme) or "Reviews"
+    summary = _clip(_first_paragraph(readme))
+    out = [f"- **[{title}]({_link(readme)})** — {summary}"]
+    links = []
+    for fname, label in [("RESEARCH_PLAYBOOK.md", "Playbook"),
+                         ("METHODS_FOUNDATIONS.md", "Methods foundations"),
+                         ("template/README.md", "Template")]:
+        path = os.path.join(base, fname)
+        if os.path.exists(path):
+            links.append(f"[{label}]({_link(path)})")
+    if links:
+        out.append("  - " + " · ".join(links))
+    for d in sorted(glob.glob(os.path.join(base, "*"))):
+        name = os.path.basename(d)
+        if not os.path.isdir(d) or name in ("template", "lib") or name.startswith("__"):
+            continue
+        findings = os.path.join(d, "FINDINGS.md")
+        if not os.path.exists(findings):
+            continue
+        readme_d = os.path.join(d, "README.md")
+        r_title = _first_heading(readme_d) or name.replace("_", " ")
+        summary = _clip(_finding_for(findings))
+        link = readme_d if os.path.exists(readme_d) else d
+        line = f"  - **[{r_title}]({_link(link)})**"
+        out.append(f"{line} — {summary}" if summary else line)
+    return out
+
+
 def _question_rows() -> list:
     rows = []
     for d in glob.glob(os.path.join(_ROOT, "org_frontier", "questions", "q*")):
@@ -409,6 +443,7 @@ def build_directory() -> str:
     threads = _threads()
     studies = _studies()
     foundations = _foundations()
+    reviews = _reviews()
     qrows = _question_rows()
 
     L = [_BEGIN,
@@ -504,6 +539,14 @@ def build_directory() -> str:
         L += ["### Foundations — what tracks Φ", "",
               "The measure-validation arc that established exact Φ as the instrument.", ""]
         L += foundations
+        L.append("")
+
+    if reviews:
+        L += ["### Reviews — experiments on the literature", "",
+              "Quantitative, systematic archival reviews: a body of scholarship treated as a dataset, "
+              "with falsifiable claims about the field tested against a coded corpus and its citation "
+              "graph, and intercoder reliability reported.", ""]
+        L += reviews
         L.append("")
 
     L += [f"### Questions — the logbook ({len(qrows)})",

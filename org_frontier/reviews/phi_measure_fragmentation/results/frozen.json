@@ -1,0 +1,410 @@
+[
+{
+"slug": "acompressioncomplexityme2016",
+"measure_family": "practical_proxy",
+"validation": "ground_truth",
+"substrate": "simulated"
+},
+{
+"slug": "alawofemergencemaximumca2025",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "ameasureforbraincomplexi1994",
+"measure_family": "geometric_complexity",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "ameasureofsynergybasedon2024",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "anexacttheoryofcausaleme2024",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "anovelapproachtotheparti2019",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "apartialinformationdecom2024",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "aprincipledinfotheoretic2014",
+"measure_family": "practical_proxy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "beyondintegratedinformat2019",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "canthemacrobeatthemicroi2016",
+"measure_family": "exact_iit_phi",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "causalemergence20quantif2025",
+"measure_family": "causal_emergence",
+"validation": "none/conceptual",
+"substrate": "abstract"
+},
+{
+"slug": "causalemergencefromeffec2021",
+"measure_family": "causal_emergence",
+"validation": "none/conceptual",
+"substrate": "abstract"
+},
+{
+"slug": "causalemergenceiswidespr2022",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "causalgeometry2020",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "characterisingthecomplex1995",
+"measure_family": "geometric_complexity",
+"validation": "internal",
+"substrate": "neural"
+},
+{
+"slug": "connectivityandcomplexit2000",
+"measure_family": "geometric_complexity",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "consilienceincausationca2025",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "decomposingmultivariatei2025",
+"measure_family": "iid_synergy",
+"validation": "ground_truth",
+"substrate": "other"
+},
+{
+"slug": "decomposingpastandfuture2022",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "neural"
+},
+{
+"slug": "dynamicalreversibilityan2024",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "emergenceandcausalityinc2024",
+"measure_family": "causal_emergence",
+"validation": "none/conceptual",
+"substrate": "na"
+},
+{
+"slug": "emergenceastheconversion2021",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "estimatingtheintegratedi2018",
+"measure_family": "practical_proxy",
+"validation": "ground_truth",
+"substrate": "neural"
+},
+{
+"slug": "estimatingtotalcorrelati2020",
+"measure_family": "total_correlation",
+"validation": "ground_truth",
+"substrate": "simulated"
+},
+{
+"slug": "estimatingtotalcorrelati2020_2",
+"measure_family": "total_correlation",
+"validation": "ground_truth",
+"substrate": "simulated"
+},
+{
+"slug": "evaluatingapproximations2019",
+"measure_family": "practical_proxy",
+"validation": "ground_truth",
+"substrate": "simulated"
+},
+{
+"slug": "evolvinghigherordersyner2024",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "exactpartialinformationd2018",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "findingemergenceindataby2023",
+"measure_family": "causal_emergence",
+"validation": "ground_truth",
+"substrate": "other"
+},
+{
+"slug": "functionalconnectivityvi2022",
+"measure_family": "total_correlation",
+"validation": "ground_truth",
+"substrate": "neural"
+},
+{
+"slug": "gaussianpartialinformati2023",
+"measure_family": "iid_synergy",
+"validation": "ground_truth",
+"substrate": "neural"
+},
+{
+"slug": "generalizeddecomposition2023",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "improvedmeasuresofintegr2016",
+"measure_family": "practical_proxy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "integratedinformationaco2023",
+"measure_family": "practical_proxy",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "integratedinformationasa2017",
+"measure_family": "exact_iit_phi",
+"validation": "ground_truth",
+"substrate": "other"
+},
+{
+"slug": "integratedinformationind2008",
+"measure_family": "exact_iit_phi",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "integratedinformationthe2026",
+"measure_family": "exact_iit_phi",
+"validation": "none/conceptual",
+"substrate": "na"
+},
+{
+"slug": "introducingadifferentiab2021",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "invariantcomponentsofsyn2017",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "maximizingmultivariatein2018",
+"measure_family": "total_correlation",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "measuringdependencewithm2021",
+"measure_family": "total_correlation",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "measuringinformationinte2003",
+"measure_family": "exact_iit_phi",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "measuringintegratedinfor2016",
+"measure_family": "practical_proxy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "measuringmultivariatered2016",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "measuringthedynamicbalan2024",
+"measure_family": "geometric_complexity",
+"validation": "ground_truth",
+"substrate": "neural"
+},
+{
+"slug": "multivariatepartialinfor2025",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "neuralcomplexityagraphth2011",
+"measure_family": "geometric_complexity",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "neuralcomplexityandstruc2009",
+"measure_family": "geometric_complexity",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "nonnegativedecomposition2010",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "nonnegativedecomposition2024",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "optimizingintegratedinfo2022",
+"measure_family": "exact_iit_phi",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "partialinformationdecomp2021",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "pointwisepartialinformat2018",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "practicalmeasuresofinteg2011",
+"measure_family": "practical_proxy",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "quantifyingcausalemergen2013",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "simulated"
+},
+{
+"slug": "reconcilingemergencesani2020",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "other"
+},
+{
+"slug": "regionssystemsandthebrai2008",
+"measure_family": "total_correlation",
+"validation": "internal",
+"substrate": "neural"
+},
+{
+"slug": "simulationstudyoftwomeas2017",
+"measure_family": "practical_proxy",
+"validation": "ground_truth",
+"substrate": "simulated"
+},
+{
+"slug": "synergyandredundancyindu2016",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "theeffectofelectroenceph2017",
+"measure_family": "total_correlation",
+"validation": "ground_truth",
+"substrate": "neural"
+},
+{
+"slug": "theemergenceofinformativ2019",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "other"
+},
+{
+"slug": "thepartialentropydecompo2017",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "thephimeasureofintegrate2019",
+"measure_family": "exact_iit_phi",
+"validation": "none/conceptual",
+"substrate": "abstract"
+},
+{
+"slug": "totaldualcorrelationcohe2025",
+"measure_family": "total_correlation",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "towardsanextendedtaxonom2021",
+"measure_family": "iid_synergy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "uncertaintyandcausalemer2019",
+"measure_family": "causal_emergence",
+"validation": "internal",
+"substrate": "other"
+},
+{
+"slug": "unifiedframeworkforinfor2015",
+"measure_family": "practical_proxy",
+"validation": "internal",
+"substrate": "abstract"
+},
+{
+"slug": "whenthemapisbetterthanth2016",
+"measure_family": "causal_emergence",
+"validation": "none/conceptual",
+"substrate": "abstract"
+}
+]

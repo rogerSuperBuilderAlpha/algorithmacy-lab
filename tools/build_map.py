@@ -61,7 +61,8 @@ def _count_dirs(pattern: str, marker: str = None) -> int:
     the directories that contain it — the repo's definition of a real experiment or study."""
     n = 0
     for d in glob.glob(os.path.join(_ROOT, pattern)):
-        if not os.path.isdir(d) or os.path.basename(d).startswith("__"):
+        if not os.path.isdir(d) or os.path.basename(d).startswith("__") \
+                or os.path.basename(d) == "template":
             continue
         if marker and not os.path.exists(os.path.join(d, marker)):
             continue
@@ -130,7 +131,7 @@ _PROGRAMS = [
 # Bridge and support arms under org_frontier/. Description derived from each README's H1.
 _ARMS = ["field", "cognition", "research", "classifier", "corpus", "multiparty",
          "principal", "proxy_bridge", "landscape", "outreach", "protocol", "llm_variance",
-         "coordinative_sovereignty"]
+         "coordinative_sovereignty", "reviews"]
 
 
 def _entry_docs() -> list:
@@ -192,6 +193,8 @@ def _at_a_glance() -> list:
          "`org_frontier/essays/*.md`"),
         ("foundations experiments", _count_dirs("foundations/*", marker="FINDINGS.md"),
          "`foundations/*/` with a `FINDINGS.md`"),
+        ("literature reviews", _count_dirs("org_frontier/reviews/*", marker="FINDINGS.md"),
+         "`org_frontier/reviews/*/` with a `FINDINGS.md`"),
         ("watch entries (program-level)", _count_bib("org_frontier/research/*/literature/references.bib"),
          "`org_frontier/research/*/literature/references.bib`"),
     ]
