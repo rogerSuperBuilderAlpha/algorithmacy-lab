@@ -294,12 +294,12 @@ Quantitative, systematic archival reviews: a body of scholarship treated as a da
   - **[reproducibility_signaling](org_frontier/reviews/reproducibility_signaling/README.md)** — one of 88 management abstracts signals any reproducibility practice
   - **[systematicity_consciousness_reviews](org_frontier/reviews/systematicity_consciousness_reviews/README.md)** — consciousness-science reviews report about a third of the systematicity practices
 
-### Questions — the logbook (164)
+### Questions — the logbook (165)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 164 questions</summary>
+<summary>Browse all 165 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -467,6 +467,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q212](org_frontier/questions/q212_channel_location/paper.md) | The merging channel must run between the mediators | The same single AND cross-triad channel moved across three homologous node pairs — mediator (the q211 |
 | [Q213](org_frontier/questions/q213_contingent_irreducibility/paper.md) | Contingent irreducibility: a party held in the core by a constraint, not a role | A new category of irreducibility and a reusable instrument to detect it. A mediator can sit in a triad's core |
 | [Q214](org_frontier/questions/q214_triadic_classification/paper.md) | A formal criterion for a verbal distinction: classifying the literature's triad types | The canonical triad types of the brokerage, sociology, and economics literature, classified by the q213 |
+| [Q215](org_frontier/questions/q215_phi_family_robustness) | phi family robustness | binding is measure-robust; the subtle factorings belong to IIT 4.0 |
 
 </details>
 

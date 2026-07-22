@@ -1,0 +1,227 @@
+{
+  "post": 9,
+  "digest": {
+    "claim_restated": "Post 9 is the series' scoreboard, not a new argument: Hegel's mechanism objection stood where it was true, the program refuted its own starting reading (coordination was not Hegel's glue — recognition was), HC1–HC6 tally honestly as two closed / one open / one undecided / one probe / one exhibit, and sublation marks the outer edge of the homology — the q210/q211 core-merger is the one computed structure that catches cancel-preserve-lift in an exact number (Φ 2.0 → 3.0) while missing, in three separate ways, the immanence that makes the movement Hegel's; the two instruments draw the same boundary on the easy cases and part on the hard ones.",
+    "post": "Post 9 — The Ledger (org_frontier/hegel_coordination/posts/post9_ledger.md, draft v3)",
+    "primary_passages": [
+      {
+        "locus": "PR Preface (grey in grey + owl of Minerva)",
+        "edition": "Wood/Nisbet (CUP 1991)",
+        "quote_or_paraphrase": "\"When philosophy paints its grey in grey, a shape of life has grown old, and it cannot be rejuvenated, but only recognized, by the grey in grey of philosophy; the owl of Minerva begins its flight only with the onset of dusk.\" Draft's two quotes match the Nisbet markers exactly (Knox has \"spreads its wings … falling of the dusk / understood\").",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §198 (state as a system of three syllogisms)",
+        "edition": "Brinkmann/Dahlstrom (CUP 2010)",
+        "quote_or_paraphrase": "\"Wie das Sonnensystem, so ist z.B. im Praktischen der Staat ein System von drei Schlüssen\" — confirmed inside §198 in the German Werke text (hegel.de); the subsection heading \"3. absoluter Mechanismus\" enters at §197, so the draft's placement of §198 in Absolute Mechanism is supported. Sources disagree on main-paragraph vs Anmerkung (passage card says Remark; Werke text runs it in §198's paragraph; hegel-system.de cites \"Anm. §198\") — the draft's bare \"§198\" cite is safe either way.",
+        "verified": "verified"
+      },
+      {
+        "locus": "EL §216 (severed hand, \"a hand in name only\")",
+        "edition": "Brinkmann/Dahlstrom (CUP 2010)",
+        "quote_or_paraphrase": "A hand cut off is a hand in name only (with Aristotle); member defined by contribution to the whole's self-maintenance. Carried from Post 6; short-form quote not yet checked against B&D print.",
+        "verified": "gated"
+      },
+      {
+        "locus": "EL §§200–203 (chemism)",
+        "edition": "Brinkmann/Dahlstrom (CUP 2010)",
+        "quote_or_paraphrase": "Chemism as transient, externally triggered, self-extinguishing coupling saturating into a neutral product — paraphrase carried from Post 4; B&D physical check outstanding.",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §183 (external state, Not- und Verstandesstaat)",
+        "edition": "Wood/Nisbet (CUP 1991)",
+        "quote_or_paraphrase": "Civil society as \"the external state, the state of necessity and of the understanding\" — locus verified 2026-07-10 (passage card); exact Nisbet wording of the quoted phrase still needs the printed page.",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §189 Remark (Smith, Say, Ricardo)",
+        "edition": "Wood/Nisbet (CUP 1991)",
+        "quote_or_paraphrase": "Political economy finds the laws in a mass of contingent economic detail — draft paraphrases (deliberately avoids the Knox \"spectacle\" string); locus standard.",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §§250–256 (Korporation)",
+        "edition": "Wood/Nisbet (CUP 1991)",
+        "quote_or_paraphrase": "Corporations give civil-society individuals ethical standing and public voice — paraphrase only in this post; locus standard, carried from Post 7.",
+        "verified": "verified"
+      },
+      {
+        "locus": "SL p. 33 (di Giovanni) — \"a new concept but one higher and richer than the preceding—richer because it negates or opposes the preceding and therefore contains it\"",
+        "edition": "di Giovanni (CUP 2010)",
+        "quote_or_paraphrase": "CORRECTION: the draft attributes this to Maybee (\"The speculative result, on Maybee's account, is…\"). SEP marks it as a quotation from Hegel's Science of Logic (SL-dG 33; cf. SL-M 54) — i.e. these are Hegel's words in the series' own pinned SL edition. Re-attribute as Hegel, SL (di Giovanni, p. 33), quoted in Maybee 2020; check printed dG p. 33 before pinning the page.",
+        "verified": "corrected"
+      },
+      {
+        "locus": "SL — \"nothing extraneous is introduced\"",
+        "edition": "di Giovanni (CUP 2010) / Miller p. 54",
+        "quote_or_paraphrase": "CORRECTION (minor): SEP marks this as Hegel's own phrase (\"as he says\", SL-M 54; cf. SL-dG 33), not Maybee's. Draft folds it under (Maybee, 2020); cleaner as: \"and in it, as Hegel says, 'nothing extraneous is introduced'\". The companion phrase \"driven by the nature, immanence or 'inwardness' of its own content\" IS Maybee's sentence and is correctly attributed.",
+        "verified": "corrected"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "citekey": "maybee2020",
+        "work": "Julie E. Maybee, \"Hegel's Dialectics,\" Stanford Encyclopedia of Philosophy (first published 2016; substantive revision Oct 2, 2020)",
+        "role": "anchor",
+        "key_claim": "Verbatim-confirmed this run: aufheben \"has a doubled meaning: it means both to cancel (or negate) and to preserve at the same time (PhG §113; SL-M 107; SL-dG 81–2; cf. EL the Addition to §95)\" — this one is Maybee's paraphrase and the draft's attribution is right; and \"His dialectics is driven by the nature, immanence or 'inwardness' of its own content.\" The two longer quotes the draft hangs on Maybee are Hegel's SL sentences quoted in the entry (see corrected primary passages).",
+        "verified": "verified"
+      },
+      {
+        "citekey": "fuchs2003",
+        "work": "Christian Fuchs, \"Dialectical Philosophy and Self-Organisation,\" in Arshinov & Fuchs (eds.), Causality, Emergence, Self-Organisation (Moscow: NIA-Priroda, 2003), pp. 195–244",
+        "role": "prior-art",
+        "key_claim": "CORRECTION: the enumerated quote the draft prints — \"eliminating/invalidating/dissolving/breaking up something (1), keeping or preserving something (2) and lifting something up (3)\" — is NOT in this chapter (full author-hosted PDF extracted and searched; \"lifting\" never occurs; pagination 195–244 confirmed). What the chapter does say, verbatim: \"What is called emergence of order, production of information or symmetry breaking in self-organisation theory (principles 8, 9, 12) corresponds to Hegel´s notions of sublation (Aufhebung) and negation of the negation\" (p. 209) and \"The old state of the systems is eliminated, but nonetheless preserved in new qualities. New qualities show up and hence the systems reach a higher level\" (p. 210) — the latter carries all three senses in the chapter's own words and can replace the misattributed quote without weakening the paragraph. The substantive claim (Fuchs maps sublation onto emergence, illustratively, with no measure) fully survives.",
+        "verified": "corrected"
+      },
+      {
+        "citekey": "fuchsDialEmerg",
+        "work": "Christian Fuchs, \"The Relationship of Dialectics and Emergentism\" (undated web text, fuchsc.net /wp-content/uploads/infoso/dialecticsemergence.html, same INTAS-project corpus)",
+        "role": "prior-art",
+        "key_claim": "The actual source of the enumerated quote, verbatim: \"Hegel characterises this by the German word Aufhebung (sublation is a similiar term in English) which has three different meanings: eliminating/invalidating/dissolving/breaking up something (1), keeping or preserving something (2) and lifting something up (3).\" (Typo \"similiar\" is in the original.) If the draft keeps the enumeration as a quote, cite this document; it is undated and unpaginated, which argues for swapping to the 2003 chapter's own sentences instead.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "gunther1976",
+        "work": "Gotthard Günther, Beiträge zur Grundlegung einer operationsfähigen Dialektik, 3 vols. (Hamburg: Meiner, 1976 / 1979 / 1980)",
+        "role": "prior-art",
+        "key_claim": "Operational dialectics as many-valued/polycontextural logic of self-reference, not a quantitative irreducibility measure. Volume years verified against the vordenker.de Günther bibliography: Bd. I 1976, Bd. II 1979, Bd. III 1980 — the draft's \"1976–1980\" span and the plan's \"1976/79/80\" are both correct (v1's 1978 stays dead).",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ng2020",
+        "work": "Karen Ng, Hegel's Concept of Life: Self-Consciousness, Freedom, Logic (OUP 2020)",
+        "role": "threat",
+        "key_claim": "Inner purposiveness as the logical form of the living whole, not an observer's lens — the sharpest form of the mechanism objection, which the post concedes. Bibliographic facts correct; the draft cites without pages (safe); interior page-pinned quotes remain a carried physical-copy gate from Post 4.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "brandom2019",
+        "work": "Robert Brandom, A Spirit of Trust (Belknap/Harvard 2019)",
+        "role": "positioning",
+        "key_claim": "Recognition-reading representative; cited only as a member of the recognitive family, no quote. Bibliographic details correct.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "honneth1995",
+        "work": "Axel Honneth, The Struggle for Recognition (Anderson trans., Polity 1995; orig. 1992)",
+        "role": "positioning",
+        "key_claim": "Recognition institutes standing — family member, no quote; details correct.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "pinkard1994",
+        "work": "Terry Pinkard, Hegel's Phenomenology: The Sociality of Reason (CUP 1994)",
+        "role": "positioning",
+        "key_claim": "Sociality-of-reason recognition reading — family member, no quote; details correct.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "pippin2008",
+        "work": "Robert Pippin, Hegel's Practical Philosophy: Rational Agency as Ethical Life (CUP 2008)",
+        "role": "positioning",
+        "key_claim": "Recognitive account of agency (v3 softened Pippin to \"recognitive\") — details correct.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "oizumi2014",
+        "work": "Oizumi, Albantakis & Tononi, \"From the Phenomenology to the Mechanisms of Consciousness: IIT 3.0,\" PLOS Comp Biol 10(5) e1003588",
+        "role": "anchor",
+        "key_claim": "The partition criterion the series states in ¶2; DOI correct.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "albantakis2023",
+        "work": "Albantakis et al., \"IIT 4.0,\" PLOS Comp Biol 19(10) e1011465",
+        "role": "anchor",
+        "key_claim": "The exact-Φ formalism the q210/q211 computations run under; DOI correct.",
+        "verified": "verified"
+      }
+    ],
+    "new_scholarship": [
+      {
+        "citekey": "lawvere1989taco",
+        "relevance": "A MISSING ANCESTOR the post should name alongside Fuchs and Günther: F. W. Lawvere, \"Display of graphics and their applications, as exemplified by 2-categories and the Hegelian 'taco',\" Proc. First Int. Conf. on Algebraic Methodology and Software Technology (U. Iowa, 1989) — per nLab, the origin of the formal definition of the Aufhebung of a level in a topos: the minimal level that \"resolves the opposites\" of a lower level (skeleton/sheaf condition). This is the most exact formalization of the word Aufhebung in existence, and a hostile reviewer of the \"Naming the ancestors\" section will reach for it. It strengthens rather than threatens the lab's edge: Lawvere's Aufhebung is categorical/structural — a which-level-resolves question, not a partition-sensitive quantity — so the \"missing quantitative step\" claim survives with a third ancestor named. PDF is on the Lawvere Archives (lawverearchives.com).",
+        "verified": "verified"
+      },
+      {
+        "citekey": "lawvere1991",
+        "relevance": "F. W. Lawvere, \"Some thoughts on the future of category theory,\" in Category Theory (Como 1990), Springer LNM 1488 (1991), pp. 1–13 — the companion statement of levels/Aufhebung; cite with the 1989 paper if the ancestor is named.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "nlabAufhebung",
+        "relevance": "nLab, \"Aufhebung\" — expository source verifying the definition (\"a minimal level which resolves the opposites of level i\") and the Lawvere citation chain (1989b origin; 1996 history; 2002 presheaf-topos existence results). Use for orientation, cite Lawvere primary in print.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "arxiv2503.03439",
+        "relevance": "\"Lawvere's fourth open problem: Levels in the topos of symmetric simplicial sets\" (arXiv 2503.03439, 2025) — shows the Lawvere-Aufhebung line is a live mathematical research program, not an antiquarian footnote; useful one-clause support if Lawvere is added.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "no-new-quantitative-sublation",
+        "relevance": "Negative sweep result: searches for 2024–2026 work putting a quantitative measure on sublation/Aufhebung-as-emergence returned only blog material (\"quantum dialectics\") and no citable scholarship, and no Hegel-and-IIT paper surfaced. The draft's hedged \"may be the first to put an irreducibility number on the moment a smaller whole survives inside a larger one\" stands, with one adjacency worth remembering if a reviewer raises it: the IIT macro/micro literature (Hoel/Albantakis/Tononi 2016 PNAS; Marshall et al. black-boxing) quantifies Φ across scales but not a smaller complex persisting as member of a larger complex, which remains q210/q211's claim.",
+        "verified": "verified"
+      }
+    ],
+    "lab_receipts": [
+      {
+        "receipt": "q211 direct mediator channel: all draft numbers re-verified exact. Single triad triadic at Φ=2.000000 (H1). None channel: whole factors (Φ_MIP=0), core one triad {W1,S1,C1} at Φ=2.0. AND channel (S1'=W1∧C1∧S2): whole irreducible (Φ_MIP=2.0), major complex {S1,W2,S2,C2} at Φ=3.0 spanning both triads (H2, H3 super-additive). OR channel (S1'=(W1∧C1)∨S2): whole factors (Φ_MIP=0) yet core {S1,S2} at Φ=2.0 binds the mediators across the triad boundary (H5). Mirror core {S2,W1,S1,C1} same Φ, tie broken arbitrarily — the draft's third-disanalogy asymmetry claim is the FINDINGS' own caveat. n=6, exact IIT-4.0.",
+        "source_file": "org_frontier/questions/q211_direct_mediator_channel/FINDINGS.md",
+        "numbers": "Φ_triad=2.000000; AND core {S1,W2,S2,C2} Φ=3.0, whole Φ_MIP=2.0; OR core {S1,S2} Φ=2.0, whole Φ_MIP=0; none core {W1,S1,C1} Φ=2.0, whole Φ_MIP=0; n=6"
+      },
+      {
+        "receipt": "q210 shared counterpart (the negative reference): re-verified. Three bridge rules (none/AND/OR — the draft's \"three ways\" is right; v2's \"five conditions\" stays dead). No bridge produces a spanning core; every bridge's core Φ is exactly 2.0 (H4 refuted). AND bridge makes the whole n=5 system irreducible (Φ_MIP=2.0) but its core is a pair {W2,S2} at Φ=2.0, itself symmetry-tie-broken.",
+        "source_file": "org_frontier/questions/q210_shared_counterpart/FINDINGS.md",
+        "numbers": "all cores Φ=2.0; no spanning core under any of 3 bridges; AND whole Φ_MIP=2.0 with pair core {W2,S2}; n=5"
+      },
+      {
+        "receipt": "The \"scalable proxies recover the verdict only near chance\" sentence rests on Finding 7: time-series proxies (ΦID Φ_R, whole-minus-sum Φ_WMS) separate dyadic from triadic at rank-AUC ≤ 0.63 (proxy_bridge/). PRECISION RISK: q82 found a cheap STRUCTURAL proxy (total edge count) at rank-AUC 0.966 in-family, and q81's learned surrogate hits CV AUC 1.000 in-distribution while collapsing to 0.250 accuracy across sizes. The draft's sentence is defensible if \"scalable proxies\" is read as time-series proxies, but a hostile reader holding q82 can call it overstated. Recommend either \"time-series proxies\" explicitly or adding the q81 cross-size collapse (0.250) as the size-ceiling receipt — it actually strengthens the exact-regime boundary the paragraph draws.",
+        "source_file": "org_frontier/STRUCTURAL_FINDINGS.md (Finding 7); org_frontier/questions/q81_learned_surrogate/FINDINGS.md; org_frontier/questions/q82_surrogate_vs_proxy/FINDINGS.md",
+        "numbers": "Φ_R rank-AUC 0.621, Φ_WMS 0.547 (≤0.63 near chance); edge count 0.966; surrogate in-dist AUC 1.000, cross-size accuracy 0.250"
+      },
+      {
+        "receipt": "The containment guard in the draft (\"the data do not certify that {W2,S2,C2} survives as its own Φ=2.0 complex nested inside\") is correct against the FINDINGS: only the major complex was read; no sub-complex Φ was computed, and IIT's exclusion makes a nested certified complex a category error anyway. Keep the guard exactly as written.",
+        "source_file": "org_frontier/questions/q211_direct_mediator_channel/FINDINGS.md",
+        "numbers": "major complex {S1,W2,S2,C2} Φ=3.0 is the only computed complex claim"
+      }
+    ],
+    "refutation_condition": "None of its own — the post is the scoreboard and inherits every unresolved objection from Posts 1–8, including the standing one it now foregrounds: that the operators and the power concept may need little of the Φ machinery to stand. Its local exposure is bookkeeping: it is wrong if any tally entry is wrong (e.g., if HC4's underdetermination were actually a closure, or if a computed sub-complex reading falsified the containment guard), and its affirmative OR-case answer falls if a scalable proxy is shown to recover the verdict above chance past the exact-computation regime — which q81/q82 currently show it does not across sizes.",
+    "guard_check": "Anticipation guard: clean — the draft explicitly disavows it (\"The series has said from Post 1 that it never claims Hegel anticipated Φ… He reached a different criterion\") and consistently keeps homology altitude (\"a rhyme,\" \"two lines that meet on the easy cases and part on the hard ones\"). Demotion guard: two flags in \"What the ledger owes.\" (1) \"the apparatus earned its keep only by being able to say more than yes-or-no… That is a real surplus, but it is a thin one to hang two years on\" — \"thin one to hang two years on\" crosses from stating the objection into endorsing the demotion; the paragraph's own OR-case and near-chance-proxy answers show the surplus is structural (which members, how much, and a binding the flag cannot see), not thin. (2) \"I would rather say so than reach for the sanctioned line about principled exploration and move on\" — this sneers at the program's actual affirmative framing (principled exploration IS the contribution per the dissertation spine) as if it were evasion. Both are fixable by keeping the objection at full strength and cutting the self-deprecating verdicts: state the objection, then give the OR-case, the exact-regime boundary, and the open beyond-regime question — which the draft already does in the next paragraph. The sublation section's \"the apparatus only ever reads a step from outside\" is instrument-reach, not demotion: clean.",
+    "gates": "(1) Nisbet PR Preface p. 23 in the printed Wood/Nisbet — owl + grey-in-grey wording double-confirmed against web secondaries this run, but the primary page remains uneyeballed. (2) Fuchs correction to act on before posting: either swap the enumerated three-senses quote for the chapter's own verified sentences (pp. 209–210, wording supplied in this digest) or re-cite the enumeration to the undated fuchsc.net essay \"The Relationship of Dialectics and Emergentism\"; the current (Fuchs, 2003) attribution of that verbatim string is wrong even though two prior passes marked it verbatim-confirmed. Chapter pagination 195–244 is now confirmed against the author-hosted PDF (the 243-vs-244 quibble resolves to 244). (3) SL \"new concept but one higher and richer\" — re-attribute from Maybee to Hegel, SL (di Giovanni p. 33, per SEP's SL-dG 33); check the printed di Giovanni p. 33 before pinning the page, since the series pins that edition. Same pass: \"nothing extraneous is introduced\" is Hegel's phrase quoted by Maybee. (4) B&D printed checks carried from earlier posts: EL §216 severed-hand short form, §§200–203 chemism, §198 quote at drafting — and reconcile the passage card (says §198 Remark) with the sourcing note (says main paragraph); German Werke text runs the sentence inside §198 with \"absoluter Mechanismus\" heading at §197, and the draft's bare \"§198\" cite is safe either way. (5) Nisbet printed checks: §183 exact wording of \"external state / Not- und Verstandesstaat,\" §189R, §§250–256. (6) Ng interior pages (43, 234, 10, 171, 259) — paywalled/physical, carried; the post cites Ng without pages, so this gates the series library, not this post. (7) If Lawvere is added as third ancestor: confirm the 1989 proceedings pagination (nLab points to pp. 70–73 for the taco) against the Lawvere Archives PDF, and note the philarchive Lawvere–Hegel secondary (CORMAA-3) returned 403 this run — author/venue unconfirmed, do not cite it. (8) EL-edition reconcile flagged in the sourcing note (B&D for main paragraphs, Geraets/Suchting/Harris for Zusätze) still stands as a series-wide pass, not a Post-9 blocker."
+  },
+  "verdict": {
+    "post": "Post 9 — The Ledger (org_frontier/hegel_coordination/posts/post9_ledger.md, draft v3)",
+    "overall": "sound",
+    "corrections": [
+      {
+        "target": "post9_ledger.md lines 217-218 — SL 'higher and richer' quote attributed to Maybee",
+        "problem": "The draft prints 'The speculative result, on Maybee's account, is \"a new concept but one higher and richer than the preceding—richer because it negates or opposes the preceding and therefore contains it\" (Maybee, 2020).' VERIFIED against SEP: this is a BLOCK QUOTE of Hegel's Science of Logic, marked (SL-dG 33; cf. SL-M 54), not Maybee's own characterization. Attributing Hegel's words to 'Maybee's account' is a misattribution of speaker/camp.",
+        "fix": "Re-attribute as Hegel, Science of Logic (di Giovanni 2010, p. 33), quoted in Maybee 2020. The draft's References list has NO standalone di Giovanni SL entry — add one (or cite via SEP's SL-dG 33 marker) so the quote does not float on a secondary. Eyeball printed di Giovanni p. 33 before pinning the page."
+      },
+      {
+        "target": "post9_ledger.md lines 224-225 — 'nothing extraneous is introduced' folded under (Maybee, 2020)",
+        "problem": "VERIFIED against SEP: 'nothing extraneous is introduced' is Hegel's own phrase — Maybee writes 'in Hegel's dialectics \"nothing extraneous is introduced\", as he says (SL-M 54; cf. SL-dG 33).' The draft groups it under (Maybee, 2020) as if Maybee's prose.",
+        "fix": "Mark it as Hegel's phrase ('as Hegel says'), SL-M 54 / SL-dG 33. Keep the companion phrase 'driven by the nature, immanence or \"inwardness\" of its own content' attributed to Maybee — SEP confirms that sentence IS Maybee's own (SL-M 54; cf. SL-dG 33; cf. PR §31)."
+      },
+      {
+        "target": "post9_ledger.md lines 302-303 — enumerated three-senses quote tagged (Fuchs, 2003)",
+        "problem": "The verbatim string 'eliminating/invalidating/dissolving/breaking up something (1), keeping or preserving something (2) and lifting something up (3)' is attributed to (Fuchs, 2003). CONFIRMED via direct text extraction of the author-hosted 2003 chapter PDF (pp.195-244): the words 'lifting', 'eliminating/invalidating', and 'three different meanings' do NOT occur anywhere in that chapter. The string's actual source is Fuchs's undated, unpaginated web essay 'The Relationship of Dialectics and Emergentism' (fuchsc.net), where it appears verbatim (including the original typo 'similiar'). The draft never cites that essay.",
+        "fix": "Preferred: swap the enumerated quote for the chapter's own verified sentences — 'What is called emergence of order, production of information or symmetry breaking in self-organisation theory (principles 8, 9, 12) corresponds to Hegel´s notions of sublation (Aufhebung) and negation of the negation' (p.209) and 'The old state of the systems is eliminated, but nonetheless preserved in new qualities. New qualities show up and hence the systems reach a higher level' (p.210) — both carry all three senses in the chapter's own words and keep the (Fuchs, 2003) tag honest. Alternative: keep the enumeration but re-cite it to the fuchsc.net essay (undated/unpaginated, which argues against it). Do NOT leave the enumerated string under (Fuchs, 2003). The substantive claim (Fuchs maps sublation onto emergence, illustratively, with no measure) fully survives either way. Chapter pagination confirmed to 244."
+      },
+      {
+        "target": "post9_ledger.md lines 349-350 — 'What the ledger owes' demotion framing",
+        "problem": "'That is a real surplus, but it is a thin one to hang two years on, and I would rather say so than reach for the sanctioned line about principled exploration and move on.' 'Thin one to hang two years on' crosses from stating the cheap-test objection into endorsing the demotion of the apparatus; and sneering at 'the sanctioned line about principled exploration' disparages the program's own affirmative contribution. Repo CLAUDE.md is explicit: 'Make the argument. Do NOT demote IIT... \"demote the apparatus\" is NOT an option,' and principled exploration IS the contribution per the dissertation spine.",
+        "fix": "Keep the objection at full strength, cut the self-deprecating verdicts. Let the OR-case disagreement (flag says aggregate, apparatus reads a {S1,S2} cross-boundary core at Φ=2.0), the exact-regime boundary, and the open beyond-regime question carry the answer — the very next paragraph (lines 352-365) already does this well. The surplus is structural (which members, how much, a binding the flag cannot see), not thin."
+      },
+      {
+        "target": "post9_ledger.md lines 361-362 — 'scalable proxies... recover the verdict only near chance'",
+        "problem": "Rests on Finding 7 (time-series proxies Φ_R rank-AUC 0.621, Φ_WMS 0.547, ≤0.63). But q82 found a cheap STRUCTURAL proxy — total edge count — at rank-AUC 0.966 in-family, and edge count is trivially scalable. A hostile reader holding q82 can call the bare 'scalable proxies' claim overstated.",
+        "fix": "Say 'time-series proxies' explicitly, or add q81's cross-size collapse (learned surrogate CV AUC 1.000 in-distribution, accuracy 0.250 across sizes n=4/5/6) as the size-ceiling receipt — it strengthens the exact-regime boundary the paragraph draws. All three numbers verified against the repo (STRUCTURAL_FINDINGS Finding 7; q81 FINDINGS; q82 FINDINGS)."
+      }
+    ],
+    "safe_to_use": "LAB RECEIPTS — all verified exact against the repo and safe for the rewrite:\n- q211 (org_frontier/questions/q211_direct_mediator_channel/FINDINGS.md): single triad triadic Φ=2.000000; NONE channel whole factors (Φ_MIP=0), core {W1,S1,C1} Φ=2.0; AND channel (S1'=W1∧C1∧S2) whole irreducible Φ_MIP=2.0, major complex {S1,W2,S2,C2} spanning both triads Φ=3.0; OR channel (S1'=(W1∧C1)∨S2) whole factors Φ_MIP=0, core {S1,S2} Φ=2.0 across the triad boundary; mirror core {S2,W1,S1,C1} same Φ, tie-broken arbitrarily (this is the FINDINGS' own caveat — the draft's third-disanalogy asymmetry is grounded). n=6, exact IIT-4.0.\n- q210 (org_frontier/questions/q210_shared_counterpart/FINDINGS.md): exactly THREE bridge rules (none/AND/OR — draft's 'three ways' is right, v2's 'five conditions' is dead); no bridge produces a spanning core; every core Φ=2.0; AND bridge makes the n=5 whole irreducible (Φ_MIP=2.0) with pair core {W2,S2}, itself symmetry-tie-broken. Negative reference is real.\n- Proxy receipts: Finding 7 time-series proxies Φ_R rank-AUC 0.621 / Φ_WMS 0.547 (≤0.63); q82 edge count 0.966, surrogate 1.000; q81 in-dist CV AUC 1.000 collapsing to 0.250 accuracy across sizes. All match.\n- Containment guard (draft lines 274-277) is correct: only the major complex was read, no sub-complex Φ computed, and IIT exclusion makes a certified nested complex a category error. Keep the guard as written.\n\nCITATIONS — verified this run:\n- SEP/Maybee 2020: the doubled-meaning paraphrase (aufheben 'has a doubled meaning: it means both to cancel (or negate) and to preserve at the same time'; PhG §113; SL-M 107; SL-dG 81-2) and 'His dialectics is driven by the nature, immanence or \\\"inwardness\\\" of its own content' (SL-M 54; cf. SL-dG 33; cf. PR §31) ARE Maybee's own prose — draft attributions correct. (The other two SL quotes are Hegel's — see corrections.)\n- Fuchs 2003 chapter is real, 'Dialectical Philosophy and Self-Organisation,' in Arshinov & Fuchs (eds.), Causality, Emergence, Self-Organisation, NIA-Priroda 2003, pp.195-244 (pagination confirmed to 244). Replacement sentences at pp.209-210 verified verbatim.\n- Camp assignments correct: Brandom (A Spirit of Trust 2019), Pinkard (Sociality of Reason 1994), Pippin (Practical Philosophy 2008, softened to 'recognitive'), Honneth (Struggle for Recognition, Anderson trans. Polity 1995) all belong to the recognitive/normative reading; Karen Ng (Hegel's Concept of Life, OUP 2020) is correctly placed as the life / inner-purposiveness reading and the sharpest form of the mechanism objection. No camp error.\n- Bibliographic details for oizumi2014 (PLOS CB 10(5) e1003588) and albantakis2023 (IIT 4.0, PLOS CB 19(10) e1011465) correct.\n- Günther 1976-1980 span and the AND/OR/NONE structure are internally consistent with the draft.\n\nGUARDS: Anticipation guard clean — draft explicitly disavows anticipation ('never claims Hegel anticipated Φ… He reached a different criterion') and holds homology altitude throughout ('a rhyme,' 'two lines that meet on the easy cases and part on the hard ones'). Homology, not identity, is maintained. The sublation section's 'the apparatus only ever reads a step from outside' is instrument-reach, not demotion.",
+    "residual_gates": "Verdict: I could not refute the digest. Its two corrections (SL-to-Maybee misattribution; Fuchs-2003 misattribution of the enumerated quote) are both CONFIRMED against primary sources — SEP block-quote markers for the SL passages, and direct text extraction of the fuchsc.net 2003 chapter PDF showing 'lifting'/'eliminating' absent and the pp.209-210 replacements present. All lab receipts match the FINDINGS files exactly. The demotion-guard and proxy-precision flags are correct and align with the repo's dissertation spine. Apply the five corrections above before posting; none are optional.\n\nResidual gates (carried, not blockers I could clear from here):\n1. PR Preface Nisbet page — owl of Minerva + grey-in-grey 'recognized' wording double-confirmed against web secondaries this run, but the printed Wood/Nisbet p.23 remains uneyeballed. The one new primary passage in this post; all other Hegel loci carry from Posts 4-8.\n2. B&D printed checks carried: EL §216 severed-hand short form, §§200-203 chemism, §198 state-triad quote; reconcile the passage card (says §198 Remark) with the German Werke text (runs the sentence inside §198's paragraph, 'absoluter Mechanismus' heading at §197) — the draft's bare '§198' is safe either way.\n3. Nisbet printed checks: §183 'external state / Not- und Verstandesstaat', §189R, §§250-256.\n4. Ng interior pages (paywalled) — gates the series library, not this post (post cites Ng without pages).\n5. SL di Giovanni edition must be ADDED to this post's References if correction 1 is applied — it is currently absent from the reference list, so the re-attributed Hegel quote would otherwise float on Maybee alone.\n6. Lawvere is a PROPOSAL, not an in-draft citation. The paper is real ('Display of Graphics… and the Hegelian Taco', AMAST, U. Iowa, 1989), but its digest 'verified' marker only certifies the work exists — NOT a page-pinned drafted cite. Correction to the digest's gate: the full proceedings paper is pp.51-74; nLab's taco locus is pp.70-73. If added, cite pp.51-74 (paper) with the taco definition at pp.70-73, and do NOT cite the philarchive Lawvere-Hegel secondary (403 this run, unverified author/venue). Adding an entire new 'ancestors' entry is an editorial expansion that needs its own verification pass, not a fact-check clearance.\n7. EL-edition reconcile (B&D for main paragraphs, Geraets/Suchting/Harris for Zusätze) stands as a series-wide pass, not a Post-9 blocker."
+  }
+}

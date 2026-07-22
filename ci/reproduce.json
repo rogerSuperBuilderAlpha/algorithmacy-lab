@@ -3470,6 +3470,22 @@
         "envisioning              1.000     100.0%   almost perfect"
       ],
       "timeout": 120
+    },
+    {
+      "name": "q215-phi-family-robustness",
+      "cmd": "python -m org_frontier.questions.q215_phi_family_robustness.probe_phi_family_robustness",
+      "expect": [
+        "CTRL+ read-recipient triad                   4.0 Φmax=2.0000 BINDS    3.0 Φmax=3.5000 BINDS",
+        "E2    quorum 2-of-3                          4.0 Φmax=0.0000 FACTORS  3.0 Φmax=1.2688 BINDS",
+        "E4    rotation (4-cycle of copyists)         4.0 Φmax=2.0000 BINDS    3.0 Φmax=2.0000 BINDS",
+        "E8    maximal wiring (6 edges, no constants) 4.0 Φmax=0.0000 FACTORS  3.0 Φmax=0.6917 BINDS",
+        "H1 (quorum extremes law measure-robust): REFUTED",
+        "H2 (rotation binds in both): CONFIRMED",
+        "H4 (dispatch pair measure-robust both directions): CONFIRMED",
+        "headline forms sign-robust: 5/8"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q215_phi_family_robustness/FINDINGS.md"
     }
   ]
 }

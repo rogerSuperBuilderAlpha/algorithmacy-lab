@@ -1,0 +1,203 @@
+{
+  "post": 7,
+  "digest": {
+    "claim_restated": "Hegel argues that civil society requires the Korporation as a mediating institution without which the individual has no standing — a claim that some intermediaries are necessary integrators, drawn a century before any instrument existed; his closed-guild/open-corporation line and the catalog's contingent/necessary line fall on the same boundary (homology of boundary, not identity of criterion, and not anticipation of Φ).",
+    "post": "GROUNDING DIGEST — Post 7: The Necessary Middle (Korporation), draft v3 (posts/post7_korporation.md)\n\nVERDICT. The draft is publishable on lab-receipt grounds: every repo quotation checked verbatim against its source file, every number matches, and the v3 reading-not-run discipline is intact. The Hegel side is locus-solid but Nisbet-wording-gated exactly as the sourcing note says; nothing checked this run refuted a locus, and one passage-card error was found in the repo (not the draft). Six new secondary sources surfaced, including one genuine sharpened threat (Ruda) and one direct prior-art for the platform-recognition section (Visser & Arnold).\n\n1. PRIMARY PASSAGES (Wood/Nisbet pinned; all cited by § only, per the series rule)\n- PR §252+R, \"like a second family\": locus VERIFIED against the German — \"zweite Familie\" sits in §252 (Anmerkung), confirmed via zeno.org-indexed text and Knox-based summaries. CORRECTION TO THE REPO: the passage card passages/pr_250_256_korporation.md pins \"second family\" to §253R; that is a mis-pin. The draft's §252 is right; fix the card.\n- PR §253+R, \"without the honour of belonging to an estate\": German \"ohne Standesehre\" in the §253 Anmerkung VERIFIED (zeno.org text via search); Knox renders it \"without rank or dignity\" (IEP quotes Knox ¶253 directly). Nisbet's exact phrase remains GATED. The draft cites bare §253; the phrase is in the Remark — acceptable under the §-only convention, but the writer should know it is Remark text.\n- PR §255, \"second ethical root of the state\": locus VERIFIED (Knox: \"the one planted in civil society,\" widely quoted). The draft's \"the one based in civil society itself\" is the Nisbet-attributed rendering and stays GATED; no web source this run confirmed \"based in,\" and the appended \"itself\" should be checked against the 1991 page before posting — if Nisbet lacks it, drop it.\n- PR §255 Addition, \"the abolition of Corporations in recent times,\" \"a corporation is not a closed guild,\" \"decline into a miserable guild system\": locus VERIFIED — German \"Korporation ist keine geschlossene Zunft\" confirmed in the §255 Zusatz, and IEP-family sources carry the ossify/miserable-guild line as §255 addition text. Exact Nisbet wording GATED. The series plan's warning stands: the foil is in the Addition, not §255R, and Knox's \"caste\" for Zunft must not leak in. The draft complies.\n- PR §207, \"recognition both in his own eyes and in the eyes of others\": VERIFIED (Knox via IEP and marxists.org renders it \"in one's own eyes and in the eyes of others\"; the his/one's variance is printing-level). Locus §207 is correct — the recognition clause belongs to the estate tier, and the draft correctly stages it a tier below the corporation.\n- PR §303R, \"a crowd, i.e. a formless mass whose movement and activity can consequently only be elemental, irrational, barbarous, and terrifying\": locus VERIFIED as the §303 Remark (Marx's Critique quotes it; a Goodreads/secondary trail carries the exact \"elemental, irrational, barbarous, and terrifying\" wording). Nisbet attribution plausible and still formally GATED (Knox has \"elementary… frightful\").\n- PR §308, \"not dispersed into atomic units … as a society, articulated into associations, communities, and Corporations\": locus standard and VERIFIED as the anti-atomism passage; exact Nisbet wording GATED. The capital-C \"Corporations\" inside the quotation looks Knox-ish — check against Nisbet, who lowercases, before posting.\n- PR §§305–308 (landed class through its estate, business class through corporations): standard reading, VERIFIED at § altitude; the v3 fix of the \"at all\" over-generalization holds.\n\n2. SECONDARY (existing anchors)\n- Heiman 1971, \"The Sources and Significance of Hegel's Corporate Doctrine,\" in Pelczynski (ed.), Hegel's Political Philosophy (CUP), pp. 111–135: VERIFIED (pages confirmed via WorldCat/CUP-indexed results). The draft paraphrases only — correct, since the round-2 verbatim was likely fabricated. Keep paraphrase-only until a print check.\n- Klikauer 2015, Hegel's Moral Corporation, Palgrave, 320pp: VERIFIED via the Marx & Philosophy review (Kökerer) — year 2015 confirmed; \"moral corporation\" is his framing, corporations as integral to ethical life against instrumental modern firms. Draft's one-line use is accurate.\n- James (ed.) 2017, Hegel's Elements of the Philosophy of Right: A Critical Guide, CUP: existence VERIFIED (ISBN 9781107077928). The claim that it \"collects the critical debate around the passage\" is GATED — the frontmatter TOC would not parse this run, so no chapter on §§250–256 is confirmed. Either check the TOC or soften to \"collects the critical debate around the Philosophy of Right.\"\n- Brandom 2019 / Pinkard 1994 / Pippin 2008 / Honneth 1995 as the recognitive-rival family: standard works, VERIFIED as a family citation; the draft uses them exactly as the sourcing note prescribes.\n\n3. NEW SCHOLARSHIP (not previously surfaced; all web-verified this run)\n- Ruda 2011, Hegel's Rabble (Continuum) — THE SHARPENED THREAT. Hegel himself knew a class civil society binds but the corporation cannot reach: the rabble, formally included in right but estranged from ethical participation, whom corporation and police \"combat yet cannot abolish.\" This cuts two ways for the post. As threat: the corporation is not necessary-for-everyone even on Hegel's own page, so \"necessary middle\" needs the scope \"for those it admits.\" As gift: the platform driver has an exact Hegelian precedent — Hegel already described integration without standing, which strengthens the cabinetmaker→driver arc and shows the estrangement diagnosis is Hegel's own, not an import. Recommend one paragraph or footnote.\n- Herzog 2015, \"Two Ways of 'Taming' the Market: Why Hegel Needs the Police and the Corporations,\" Hegel Society of America Proceedings 22 / Buchwalter (ed.), Hegel and Capitalism — CONVERGENT. Corporations as the ethos-forming social spaces that regulate the labour market and prepare the political ethos of the state; a serious non-recognitive coordination function in the recent literature, useful against the objection that only the lab reads coordination into §§250–256.\n- Visser & Arnold 2022, \"Recognition and Work in the Platform Economy: A Normative Reconstruction,\" Philosophy of Management 21:31–45, doi:10.1007/s40926-021-00172-2 — PRIOR-ART for the platform section's recognition half: Honneth-style reconstruction finding platform work a \"normative paradox\" (autonomy promised, recognition undercut). Citing it converts \"read off Hegel and off what everyone can see of gig work\" into a literature-backed reading.\n- Bernacchio 2022, \"Hegelian Reflections on Agency, Alienation, and Work: Toward an Expressivist Theory of the Firm,\" Philosophy of Management 21(4):523–544 — CONVERGENT/positioning: the firm as institutional structure enabling rational agency, the business-ethics face of the same Hegelian move.\n- Herrmann & Ellmers (eds.) 2017, Korporation und Sittlichkeit: Zur Aktualität von Hegels Theorie der bürgerlichen Gesellschaft (Fink) — POSITIONING: the standing German collection on the corporation's contemporary purchase (chapters by Herzog, Jütten, Klikauer, Vieweg); one line locates the post in a live debate.\n- Ross 2008, \"Hegel on the Place of Corporations within Ethical Life,\" in Cutting-Edge Issues in Business Ethics (Springer), doi:10.1007/978-1-4020-8401-0_5 — PRIOR-ART for reading the corporation into present institutions.\n\n4. HISTORICAL DATES (illustration only, per HC4's ✗/✓)\nAll four VERIFIED again this run: d'Allarde adopted 2 March 1791, enacted 17 March 1791 (draft's \"March 1791\" fine); Le Chapelier 14 June 1791; Prussian Gewerbesteueredikt 2 November 1810; Gewerbefreiheit law 7 September 1811. The draft's confounded-past-repair framing keeps the series-plan discipline: context, not evidence.\n\n5. LAB RECEIPTS — all quotations and numbers verified verbatim against the repo (details in the receipts field). Two micro-notes: (a) the \"worked illustration\" quote ends where the source sentence continues (\"…and the modeling choice—\"); add an ellipsis or leave, the clause boundary is clean; (b) the essay's abstract says \"fifty\" intermediaries where FINDINGS says 51 — the draft follows FINDINGS (\"fifty-one\"), which is right, but a pedant could catch the repo's own inconsistency.\n\n6. FORK/CELLS CHECK. The v3 cells paragraph is now correct against the sources: guild = contingent, emptied from without (contingent→reducible via opening the bypass, matching the transitions study); self-joining broker = reducible, empties itself (matches the essay's tertius-iungens split). The three-operations section quotes post3_syllogism.md accurately (lines 352–359 checked).\n\n7. GUARD CHECK — effectively clean; one soft flag (see guard field).\n\n8. RECOMMENDED EDITS BEFORE POSTING\n- Fix the passage card's §253R→§252R mis-pin (repo hygiene, not the draft).\n- Reword \"a case built for exactly that question\" (soft anticipation flavor).\n- Add Ruda (threat-and-precedent) and Visser & Arnold (platform-recognition prior-art); consider Herzog 2015 one-liner.\n- Resolve the James 2017 sentence (TOC check or soften).\n- Run the Nisbet lending-copy check (archive.org item elementsofphilos0000hege, borrowable) on the six gated phrases; check \"itself\" in the §255 quote and the capital-C in §308.",
+    "primary_passages": [
+      {
+        "locus": "PR §252+R — corporation rights; \"like a second family\"",
+        "edition": "Wood/Nisbet (Cambridge 1991)",
+        "quote_or_paraphrase": "The corporation looks after its members' interests, co-opts by skill, protects against contingency, trains newcomers — in short comes on the scene like a second family. German locus for \"zweite Familie\" confirmed at §252 (Anmerkung). NOTE: the repo passage card pins this to §253R — the card is wrong, the draft is right.",
+        "verified": "corrected"
+      },
+      {
+        "locus": "PR §253+R — \"without the honour of belonging to an estate\"",
+        "edition": "Wood/Nisbet (Cambridge 1991)",
+        "quote_or_paraphrase": "Outside an authorized corporation the individual is without Standesehre (German \"ohne Standesehre\" confirmed in the §253 Anmerkung); Knox renders \"without rank or dignity\" (confirmed via IEP). Nisbet's exact English remains unconfirmed in the primary.",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §255 — \"the second ethical root of the state\"",
+        "edition": "Wood/Nisbet (Cambridge 1991)",
+        "quote_or_paraphrase": "\"As the family was the first, so the Corporation is the second ethical root of the state\" — locus verified; Knox has \"the one planted in civil society,\" the draft's Nisbet-attributed \"based in civil society itself\" is unconfirmed, and the trailing \"itself\" needs a page check.",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §255 Addition — abolition foil; \"a corporation is not a closed guild\"; \"miserable guild system\"",
+        "edition": "Wood/Nisbet (Cambridge 1991)",
+        "quote_or_paraphrase": "German \"Korporation ist keine geschlossene Zunft\" confirmed in the §255 Zusatz; the ossify/\"miserable guild system\" and \"abolition of corporations in recent times\" lines corroborated as Addition text (IEP-family sources). Correct locus (Addition, not §255R) per series plan. Nisbet wording gated.",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §207 — \"recognition both in his own eyes and in the eyes of others\"",
+        "edition": "Wood/Nisbet (Cambridge 1991); Knox-stable",
+        "quote_or_paraphrase": "Rectitude and estate-honour: the individual makes himself a member of a moment of civil society by his own act and thereby gains \"recognition both in his own eyes and in the eyes of others\" — confirmed at §207 via Knox (IEP, marxists.org; Knox prints \"one's own eyes\").",
+        "verified": "verified"
+      },
+      {
+        "locus": "PR §303R — the \"formless mass\" polemic",
+        "edition": "Wood/Nisbet (Cambridge 1991)",
+        "quote_or_paraphrase": "\"a crowd, i.e. a formless mass whose movement and activity can consequently only be elemental, irrational, barbarous, and terrifying\" — locus verified as the §303 Remark (Marx's Critique quotes it); the exact string circulates attributed to this passage, but Nisbet's page is unchecked (Knox: \"elementary… frightful\").",
+        "verified": "gated"
+      },
+      {
+        "locus": "PR §308 (with §§305–308) — representation through corporations",
+        "edition": "Wood/Nisbet (Cambridge 1991)",
+        "quote_or_paraphrase": "Society \"is not dispersed into atomic units\" but makes the appointment \"articulated into associations, communities, and Corporations\" — locus standard and verified; exact wording gated, and the capital-C \"Corporations\" looks Knox-derived (Nisbet lowercases) — check before posting. The v3 landed-estate/business-class split (§§305–308) is the standard reading.",
+        "verified": "gated"
+      }
+    ],
+    "secondary_sources": [
+      {
+        "citekey": "heiman1971",
+        "work": "\"The Sources and Significance of Hegel's Corporate Doctrine,\" in Pelczynski (ed.), Hegel's Political Philosophy: Problems and Perspectives (CUP 1971)",
+        "role": "anchor",
+        "key_claim": "The corporation is a deliberately modern institution for ethical and political mediation between private work and the public whole; pp. 111–135 confirmed this run. Draft uses paraphrase only (the round-2 verbatim was likely fabricated and stays out).",
+        "verified": "verified"
+      },
+      {
+        "citekey": "klikauer2015",
+        "work": "Hegel's Moral Corporation (Palgrave Macmillan, 2015, 320pp)",
+        "role": "convergent",
+        "key_claim": "Hegel's corporation is integral to ethical life and morally prior to the instrumental modern firm — \"moral corporation\" is his title framing; year and publisher confirmed via the Kökerer review (Marx & Philosophy).",
+        "verified": "verified"
+      },
+      {
+        "citekey": "james2017",
+        "work": "Hegel's Elements of the Philosophy of Right: A Critical Guide (CUP 2017, ed. David James)",
+        "role": "positioning",
+        "key_claim": "Cited as collecting the critical debate \"around the passage\" — the volume exists (ISBN 9781107077928) but no chapter on §§250–256 was confirmable this run; check the TOC or soften the sentence.",
+        "verified": "gated"
+      },
+      {
+        "citekey": "brandom2019/pinkard1994/pippin2008/honneth1995",
+        "work": "A Spirit of Trust; The Sociality of Reason; Hegel's Practical Philosophy; The Struggle for Recognition",
+        "role": "threat",
+        "key_claim": "The recognitive rival: what the corporation confers is a normative-attitudinal good, so even a clean abolition result would not select the causal reading — the draft cites them as a family and concedes the point, per plan.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ruda2011",
+        "work": "Hegel's Rabble: An Investigation into Hegel's Philosophy of Right (Continuum 2011)",
+        "role": "threat",
+        "key_claim": "Corporation and police combat poverty but cannot abolish it; the rabble is bound into civil society yet excluded from corporate standing — so the corporation is not necessary-for-everyone on Hegel's own page. Doubles as precedent for the platform-driver section: Hegel already described integration without standing.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "herzog2015",
+        "work": "\"Two Ways of 'Taming' the Market: Why Hegel Needs the Police and the Corporations,\" Hegel Society of America Proceedings 22, pp. 147–162 (also in Buchwalter ed., Hegel and Capitalism)",
+        "role": "convergent",
+        "key_claim": "Corporations as the social spaces where economic ethos is formed and the labour market is regulated — a live non-recognitive coordination-function reading in the recent literature.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "visser2022",
+        "work": "Visser & Arnold, \"Recognition and Work in the Platform Economy: A Normative Reconstruction,\" Philosophy of Management 21:31–45 (doi:10.1007/s40926-021-00172-2)",
+        "role": "prior-art",
+        "key_claim": "Honneth-style reconstruction of platform work as a \"normative paradox\": autonomy promised, recognition undercut — direct literature backing for the draft's binds-without-recognizing half.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "bernacchio2022",
+        "work": "\"Hegelian Reflections on Agency, Alienation, and Work: Toward an Expressivist Theory of the Firm,\" Philosophy of Management 21(4):523–544",
+        "role": "convergent",
+        "key_claim": "The firm's Hegelian role is to provide institutional structures through which rational agency is concretely realized — the business-ethics face of the corporation-as-necessary-middle.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "herrmann-ellmers2017",
+        "work": "Herrmann & Ellmers (eds.), Korporation und Sittlichkeit: Zur Aktualität von Hegels Theorie der bürgerlichen Gesellschaft (Fink 2017)",
+        "role": "positioning",
+        "key_claim": "The standing German collection on the corporation's contemporary relevance (chapters by Herzog, Jütten, Klikauer, Vieweg) — locates the post in a live debate.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ross2008",
+        "work": "Nathan Ross, \"Hegel on the Place of Corporations within Ethical Life,\" in Cutting-Edge Issues in Business Ethics (Springer 2008, doi:10.1007/978-1-4020-8401-0_5)",
+        "role": "prior-art",
+        "key_claim": "Prior application of Hegel's corporate doctrine to present-day institutional ethics.",
+        "verified": "verified"
+      }
+    ],
+    "new_scholarship": [
+      {
+        "citekey": "ruda2011",
+        "relevance": "Sharpest new threat and a gift: Hegel's own rabble is integration without standing — scopes the necessity claim (\"for those the corporation admits\") and gives the platform-driver arc a Hegelian precedent.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "herzog2015",
+        "relevance": "Recent scholarship reading the corporation as a coordination/ethos-forming institution, not only a recognition site — blunts the objection that the coordination reading is the lab's import.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "visser2022",
+        "relevance": "Direct prior-art for the platform section's recognition half (Honneth on gig work); converts an asserted reading into a cited one.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "bernacchio2022",
+        "relevance": "Hegelian expressivist theory of the firm in Philosophy of Management — positioning for the professional-body template.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "herrmann-ellmers2017",
+        "relevance": "German state-of-the-debate collection on the Korporation's actuality — one-line positioning.",
+        "verified": "verified"
+      },
+      {
+        "citekey": "ross2008",
+        "relevance": "Earlier business-ethics application of §§250–256 — prior-art for reading the corporation onto modern institutions.",
+        "verified": "verified"
+      }
+    ],
+    "lab_receipts": [
+      {
+        "receipt": "Definition of the two irreducibilities and the one separating operation — draft's opening quote is verbatim (ellipsis correctly marks the dropped \"it can be\"); four-cell classifier (reducible/contingent/intrinsic/partial) paraphrase matches; title-company/escrow block quote verbatim; self-liquidating-broker block quote verbatim; \"worked illustration\" limit quote verbatim but ends where the source sentence continues (\"…and the modeling choice\"), consider an ellipsis; \"a category, an instrument, and a set of readings … not a measurement of any organization\" verbatim.",
+        "source_file": "org_frontier/essays/necessary_and_contingent_irreducibility.md",
+        "numbers": "car dealer contingent with full Φ as margin; four cells; abstract says \"fifty\" where the catalog FINDINGS says 51 (repo-internal inconsistency, draft follows FINDINGS)"
+      },
+      {
+        "receipt": "Catalog scope and roster — the draft's \"fifty-one arrangements\" and its example list (car dealer, notary, customs broker, escrow agent, app store, Ticketmaster, SWIFT, freight broker) all appear in the catalog; cell counts and margins match; escrow/title-company design contrast is the catalog's own.",
+        "source_file": "org_frontier/studies/irreducibility_catalog/FINDINGS.md",
+        "numbers": "51 entries (38 real + 13 literature types); necessary 13, contingent 25, partial 7, reducible 6; margins: contingent 2.0 (full Φ), necessary 0.0, partial 1.585, reducible 0.0; n=3, exact Φ"
+      },
+      {
+        "receipt": "Platform decomposition — \"The entity does not classify; the function does\" is the verbatim section heading; the margin quote is verbatim; Visa authorization necessary / network gate contingent, Uber real-time matching necessary / rider-driver gate contingent, Amazon spans all four cells — all as the draft states.",
+        "source_file": "org_frontier/studies/dual_function_entities/FINDINGS.md",
+        "numbers": "7 platforms × 16 functions; integrating function margin 0, gate margin 2.0; n=3, exact Φ"
+      },
+      {
+        "receipt": "The three-operations section's self-quotes — \"restores a forbidden direct tie and asks who keeps their seat in the core…\", \"the world's own rough version of the second operation, not the first\", and \"the necessary middle is the one that passes both tests…\" — all verbatim at lines 352–359.",
+        "source_file": "org_frontier/hegel_coordination/posts/post3_syllogism.md",
+        "numbers": "n/a (text receipts)"
+      }
+    ],
+    "refutation_condition": "From SERIES_PLAN §7: Hegel's corporations confer honor and ethical standing, not coordination; if the integration reading requires ignoring what he actually says corporations do, say so and downgrade the bridge. The v3 draft executes the downgrade explicitly — it concedes the welfare functions (§§252–253), concedes that the standing is recognitive and invisible to the instrument, and holds the bridge at boundary level only (\\\"Hegel's necessity is ethical; the catalog's is causal\\\"). Ruda adds a second, unhandled refutation edge: if the corporation cannot reach the rabble, \\\"necessary middle\\\" must be scoped to those the corporation admits, or the necessity claim overreads Hegel.",
+    "guard_check": "Effectively clean. No demotion of Φ anywhere: the temper paragraph defends the margin-zero score (\\\"I do not think that makes the score wrong\\\"), and every limitation is scoped to what the instrument measures, not to its worth. No \\\"Hegel anticipated Φ\\\" claim: the bridge is held at boundary homology throughout, and \\\"gets the sort right … a full century before anyone had an instrument\\\" stays on the sanctioned before-the-vocabulary side. One soft flag: \\\"Hegel's corporation is a case built for exactly that question\\\" (opening section) reads as if Hegel constructed the case for the program's operation — reword to \\\"a case the question fits\\\" or similar to kill the anticipation flavor.",
+    "gates": "1) Nisbet wording gate (unchanged from the sourcing note, still open): check the Wood/Nisbet 1991 pages — borrowable at archive.org item elementsofphilos0000hege — for §253 \\\"without the honour of belonging to an estate,\\\" §255 \\\"the one based in civil society\\\" (and whether \\\"itself\\\" is Nisbet's or the draft's), §255A \\\"the abolition of corporations in recent times\\\" / \\\"a corporation is not a closed guild\\\" / \\\"miserable guild system,\\\" §303R \\\"crowd … elemental, irrational, barbarous, and terrifying,\\\" §308 \\\"atomic units … associations, communities, and corporations\\\" (Nisbet lowercases \\\"corporations\\\"; the draft's capital C looks Knox-derived). 2) Heiman 1971 print check of the \\\"deliberately modern institution\\\" paraphrase (pp. 111–135 confirmed; content unverified beyond summaries). 3) James 2017 TOC check: confirm a chapter actually engages §§250–256 before keeping \\\"collects the critical debate around the passage,\\\" else soften. 4) Repo fix, no paywall: correct passages/pr_250_256_korporation.md, which mis-pins \\\"second family\\\" to §253R (German confirms §252)."
+  },
+  "verdict": {
+    "post": "ADVERSARIAL FACT-CHECK — Post 7 (The Necessary Middle / Korporation) grounding digest.\\n\\nThe digest survives a hostile pass. Every lab receipt it claims matches the repo verbatim: catalog totals (51 = 38 real + 13 literature; necessary 13 / contingent 25 / partial 7 / reducible 6; margins 2.0 / 0.0 / 1.585 / 0.0; n=3 exact Φ), the dual-function receipt (7 platforms × 16 functions; integrating margin 0 / gate margin 2.0; 'The entity does not classify; the function does' as a verbatim heading), and the three post3_syllogism self-quotes at lines 352–359. The opening-quote ellipsis genuinely elides 'it can be' (essay lines 8–9), and the 'worked illustration' quote genuinely stops before the source continues ('…and the modeling choice —', line 153). The draft's 'fifty-one' follows FINDINGS against the essay's looser 'fifty.'\\n\\nThe one repo correction the digest raises is real and correctly directed: passages/pr_250_256_korporation.md (line 3) pins 'second family' to §253R, but §252 is the 'second family' section and §253 is rank/dignity (Standesehre). The draft cites §252 for the family simile (line 66) and §253 for the honour line (lines 68–70) — the draft is right, the card is wrong.\\n\\nHegel loci all check at the § altitude the series rule allows: §252, §253, §255 ('second ethical root'), §255 Addition ('not a closed guild'), §207 (recognition 'in one's own eyes and in the eyes of others,' correctly staged one tier below the corporation), §303R ('formless mass… barbarous'), §308 (anti-atomism). The Nisbet-wording gate is correctly left open across the six phrases; Knox divergences ('aggregate/frightful,' 'caste') are correctly kept from leaking into the quotations.\\n\\nEvery secondary and new-scholarship citation I could reach verified: Ruda 2011 (Continuum, ISBN 9781441156938, the rabble as the problem corporation-and-police combat but cannot abolish — the scoping threat is genuine), Visser & Arnold 2022 (Phil. of Management 21:31–45, doi 10.1007/s40926-021-00172-2, Honneth 'normative paradox' — genuine prior-art for the platform-recognition half), Bernacchio 2022 (21(4):523–544), Herrmann & Ellmers 2017 (Fink; the named contributors Herzog/Klikauer/Vieweg/Jütten are confirmed on the volume), Ross 2008 (doi 10.1007/978-1-4020-8401-0_5), Klikauer 2015 (Palgrave).\\n\\nNo Φ demotion and no over-claim to identity. The draft holds boundary homology throughout ('These rhyme,' 'the bridge holds at the level of the boundary,' 'Hegel's necessity is ethical; the catalog's is causal'), defends the margin-zero score explicitly (line 319, 'I do not think that makes the score wrong'), and stays on the sanctioned 'a full century before anyone had an instrument' side rather than claiming Hegel anticipated Φ. The recognitive rivals (Brandom/Pinkard/Pippin/Honneth) are handled as a threat family, not miscast into a metaphysical-revival camp. The digest's own soft flag on 'a case built for exactly that question' (line 35) is a fair anticipation-flavor catch.\\n\\nThree digest assertions overreach their evidence slightly and should be downgraded to gates rather than trusted as verified (below). None is a fabrication; each is a descriptor the digest marked 'verified' that this run could only partly confirm. Verdict: sound, publish on the digest's own discipline, close the residual gates before posting.",
+    "overall": "sound",
+    "corrections": [
+      {
+        "target": "Herzog 2015 citekey descriptor (secondary_sources.herzog2015 / new_scholarship) — 'Hegel Society of America Proceedings 22'",
+        "problem": "The digest asserts the HSA-Proceedings volume number ('22') as verified. This run confirmed the essay and its pages but not the '22' designation; the load-bearing locus is the Buchwalter volume, and the extra number risks a wrong-edition tag.",
+        "fix": "Cite only the confirmed locus: Lisa Herzog, 'Two Ways of \"Taming\" the Market: Why Hegel Needs the Police and the Corporations,' in Andrew Buchwalter (ed.), Hegel and Capitalism (SUNY Press, 2015), pp. 147–162. Drop 'Proceedings 22' unless a print check confirms the series number."
+      },
+      {
+        "target": "Heiman 1971 page range 'pp. 111–135' (secondary_sources.heiman1971, receipts, gates)",
+        "problem": "The digest marks pp. 111–135 'confirmed via WorldCat/CUP-indexed results.' This run confirmed only that the essay sits in Pelczynski (ed.), Hegel's Political Philosophy (CUP 1971) as a chapter; a citing source gives p. 117, which merely falls inside the claimed span. The exact 111–135 range is plausible, not verified.",
+        "fix": "Keep Heiman paraphrase-only (as the draft does) and treat pp. 111–135 as unverified until a print/WorldCat span check; do not cite the page range as confirmed."
+      },
+      {
+        "target": "James 2017 key_claim 'collects the critical debate around the passage' (secondary_sources.james2017; draft line 104)",
+        "problem": "No chapter engaging §§250–256 was confirmable this run, and the James Critical Guide is not organized around the corporation passage — 'around the passage' overstates.",
+        "fix": "Adopt the digest's own soft form: 'collects the critical debate around the Philosophy of Right,' or confirm a corporation chapter in the TOC before keeping 'around the passage.'"
+      }
+    ],
+    "safe_to_use": "REPO (verified verbatim, safe to quote and to cite as the author's own report): catalog FINDINGS — 51 entries (38 real + 13 literature-grounded triad types), necessary 13 / contingent 25 / partial 7 / reducible 6, margins contingent 2.0 (full Φ) / necessary 0.0 / partial 1.585 / reducible 0.0, n=3 exact Φ (studies/irreducibility_catalog/FINDINGS.md). Dual-function FINDINGS — 7 platforms × 16 functions, integrating function margin 0 / gate margin 2.0, Visa (authorization necessary / network gate contingent), Uber (real-time matching necessary / rider-driver gate contingent), Amazon spans all four cells, verbatim heading 'The entity does not classify; the function does' (studies/dual_function_entities/FINDINGS.md). post3_syllogism.md lines 352–359 — the three bypass/removal/necessary-middle self-quotes are verbatim. Essay opening quote elides 'it can be' correctly; 'worked illustration…' quote correctly ends before '…and the modeling choice —'. Draft's 'fifty-one' matches FINDINGS.\\n\\nREPO FIX (verified correct): passages/pr_250_256_korporation.md line 3 mis-pins 'second family' to §253R; the correct pin is §252 (family simile) with §253 for rank/dignity (Standesehre). The draft's loci are already right.\\n\\nHEGEL LOCI (verified at § altitude; all quotations remain under the Nisbet-wording gate, cite by § only): §252 corporation 'like a second family'; §253 'without the honour of belonging to an estate' / Standesehre; §255 'second ethical root of the state'; §255 Addition abolition foil, 'a corporation is not a closed guild,' 'miserable guild system' (Addition, not §255R; keep Knox 'caste' out); §207 recognition 'in one's own eyes and in the eyes of others' (estate/rectitude tier, one below the corporation); §303R 'formless mass… elemental, irrational, barbarous, and terrifying' (Nisbet; Knox = 'aggregate… frightful'); §308 anti-atomism 'not dispersed into atomic units… associations, communities, and corporations' (Nisbet lowercases 'corporations').\\n\\nSCHOLARSHIP (verified, safe to enter the library): Ruda 2011, Hegel's Rabble (Continuum, ISBN 9781441156938, 218pp) — rabble bound into civil society yet unreachable by corporation and police; genuine scoping threat and platform-precedent. Visser & Arnold 2022, 'Recognition and Work in the Platform Economy: A Normative Reconstruction,' Philosophy of Management 21:31–45, doi 10.1007/s40926-021-00172-2 — Honneth-style 'normative paradox'; genuine prior-art for the platform-recognition half. Bernacchio 2022, 'Hegelian Reflections on Agency, Alienation, and Work,' Philosophy of Management 21(4):523–544, doi 10.1007/s40926-022-00200-9. Herrmann & Ellmers (eds.) 2017, Korporation und Sittlichkeit (Fink; contributors incl. Herzog, Klikauer, Vieweg, Jütten confirmed). Ross 2008, 'Hegel on the Place of Corporations within Ethical Life,' Springer, doi 10.1007/978-1-4020-8401-0_5. Klikauer 2015, Hegel's Moral Corporation (Palgrave; Kökerer review confirms year and framing). Herzog 2015 essay in Buchwalter (ed.), Hegel and Capitalism (SUNY 2015), pp. 147–162 (drop the 'Proceedings 22' tag). Recognitive family Brandom 2019 / Pinkard 1994 / Pippin 2008 / Honneth 1995 correctly used as a threat family.\\n\\nFRAMING (verified safe): boundary homology, not identity of criterion, and not anticipation of Φ; the margin-zero score is defended, not demoted; the necessity claim should be scoped to 'those the corporation admits' if Ruda is added.",
+    "residual_gates": "1) Nisbet wording gate (unchanged, still open): check Wood/Nisbet 1991 (archive.org item elementsofphilos0000hege) for §253 'without the honour of belonging to an estate,' §255 'the one based in civil society' and whether 'itself' is Nisbet's or the draft's addition, §255 Addition 'the abolition of Corporations in recent times' / 'a corporation is not a closed guild' / 'miserable guild system,' §303R 'crowd… elemental, irrational, barbarous, and terrifying,' §308 'atomic units… associations, communities, and corporations' (confirm Nisbet lowercases 'corporations'; the draft's capital-C in §308 looks Knox-derived — fix before posting). 2) Repo fix, no paywall: correct passages/pr_250_256_korporation.md line 3, which mis-pins 'second family' to §253R (should be §252; keep honor/Standesehre at §253). 3) Herzog 2015: drop or verify the 'Hegel Society of America Proceedings 22' descriptor; the confirmed citation is Buchwalter (ed.), Hegel and Capitalism (SUNY 2015), pp. 147–162. 4) Heiman 1971: keep paraphrase-only; treat pp. 111–135 as unverified until a print/WorldCat span check (only chapter placement and an internal p. 117 reference were confirmable). 5) James 2017: confirm a chapter engaging §§250–256 in the TOC, or soften 'collects the critical debate around the passage' to '…around the Philosophy of Right.' 6) Soft register flag (author's call, not a factual gate): reword 'a case built for exactly that question' (line 35) to kill the anticipation flavor. 7) Optional additions the digest recommends (Ruda as threat-and-precedent; Visser & Arnold as platform-recognition prior-art; Herzog one-liner) are verified and safe to cite if adopted."
+  }
+}
