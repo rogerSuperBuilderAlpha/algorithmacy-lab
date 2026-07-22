@@ -1,0 +1,482 @@
+[
+{
+"slug": "affordancesofdigitalplat2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "algorithmichrmcontrolint2023",
+"parent_theory": "agency",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "algorithmicmanagementinf2022",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "algorithmsandtheirafford2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "analternativeorganizatio2024",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "aredominantplatformsgood2021",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "arewesharingorgigingacla2020",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "balancingplatformcontrol2012",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "capacityconstrainedentre2020",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "choiceofpricingandadvert2021",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "commonpoolresourceinstit2021",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "contextualizingthesharin2020",
+"parent_theory": "tce",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "differentialpricingstrat2021",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "digitalplatformsfordevel2021",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "disconnectinglabourtheim2022",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "divideandconquerintwosid2021",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "dynamismandrealignmentin2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "economicembeddednessandm2013",
+"parent_theory": "network_embeddedness",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "entrepreneurshipindigita2017",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "examiningplatformgoverna2026",
+"parent_theory": "institutional",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "fromamarketplaceofelectr2018",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "frommutualismtocommensal2023",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "fromopenbankingregulatio2026",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "governancemechanismsimpl2021",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "governingdigitalplatform2024",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "growingplatformswithinpl2023",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "growingwithothersalongit2020",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "howinformationsystemshel2013",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "industryplatformsandecos2013",
+"parent_theory": "ecosystem",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "informalizationingigfood2022",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "inputcontrolanditssignal2022",
+"parent_theory": "agency",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "institutioninfusedsensem2019",
+"parent_theory": "institutional",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "intelligentsystemconstru2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "investigatingthemixofstr2020",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "leadcomplementorinvolvem2023",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "liminalmovementbydigital2020",
+"parent_theory": "institutional",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "microtargetingcontrolexp2021",
+"parent_theory": "agency",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "multibrandedplatformdeve2007",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "networksplatformsandstra2016",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "newtecholdexploitationgi2022",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "onlinesaleshomedeliverya2021",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "onopeninnovationplatform2018",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "optimalpricingandchoiceo2021",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "overcomingtheearlystagec2021",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "physicalinteractionplatf2023",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformcapitalismandneo2022",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "platformcompetitionintwo2010",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformcompetitionstrat2013",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "critique",
+"multi_theory": "no"
+},
+{
+"slug": "platformecosystemsasmeta2020",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformenvelopment2011",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformmarketcompetitio2019",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformpricingredux2020",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformpricingwithstrat2020",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformsandrealoptionsi2002",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "platformswithoutborderst2019",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "powerdynamicsinsoftwarep2021",
+"parent_theory": "rdt",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "pricingstrategyforlogist2021",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "producingspeedondemandre2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "regionaldevelopmentplatf2020",
+"parent_theory": "ecosystem",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "regulateddependenceplatf2020",
+"parent_theory": "rdt",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "resourceorchestrationand2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "respondingtoplatformowne2024",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "statusofurbansharingrese2025",
+"parent_theory": "other",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "strategicchoiceofelectro2006",
+"parent_theory": "tce",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "sustainablecompetitivead2021",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "sustainingcircularinnova2026",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "sustainingcomplementoren2023",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "theemergenceofdigitaleco2022",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "thefutureofthewebthecoor2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "theliteraturereviewofpla2020",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "theoptionvalueincompleme2022",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "theresourcebasedviewofco2008",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "towardssustainableecosys2018",
+"parent_theory": "ecosystem",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "twosidedmarkets2013",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "apply",
+"multi_theory": "no"
+},
+{
+"slug": "twosidedmarketsaprogress2010",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "twosidedplatformsproduct2009",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "userpreferencesandstrate2020",
+"parent_theory": "ecosystem",
+"borrowing_mode": "extend",
+"multi_theory": "yes"
+},
+{
+"slug": "whendoesaplatformcreatev2014",
+"parent_theory": "two_sided_market",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "whenfooddeliveryplatform2020",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+},
+{
+"slug": "whyindustrialinternetoft2026",
+"parent_theory": "other",
+"borrowing_mode": "extend",
+"multi_theory": "no"
+}
+]

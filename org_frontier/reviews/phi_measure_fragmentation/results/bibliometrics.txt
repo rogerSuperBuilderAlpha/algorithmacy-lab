@@ -1,0 +1,18 @@
+edges: 68 seeds | clusters: ['causal_emergence', 'exact_iit_phi', 'geometric_complexity', 'iid_synergy', 'practical_proxy', 'total_correlation']
+
+cluster-to-cluster citation links (undirected, deduped seed pairs)
+                  causal_eme  exact_iit_  geometric_  iid_synerg  practical_  total_corr
+  causal_emergence          47          17           0          12           2           0
+  exact_iit_phi           17           3           3           4          17           0
+  geometric_complexity           0           3           4           3           4           2
+  iid_synergy             12           4           3          39           4           1
+  practical_proxy           2          17           4           4          22           0
+  total_correlation           0           0           2           1           0           0
+  within-cluster: 115   cross-cluster: 69
+
+assembly-spanning citers (how many clusters each external citer spans)
+  spans 5: 6 external papers
+  spans 4: 18 external papers
+  spans 3: 70 external papers
+  spans 2: 258 external papers
+  spans 1: 1755 external papers

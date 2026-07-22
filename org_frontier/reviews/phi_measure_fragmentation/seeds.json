@@ -1,0 +1,274 @@
+[
+ {
+  "slug": "ameasureforbraincomplexi1994",
+  "doi": "10.1073/pnas.91.11.5033"
+ },
+ {
+  "slug": "characterisingthecomplex1995",
+  "title": "Characterising the complexity of neuronal interactions"
+ },
+ {
+  "slug": "connectivityandcomplexit2000",
+  "title": "Connectivity and complexity: the relationship between neuroanatomy and brain dynamics"
+ },
+ {
+  "slug": "measuringinformationinte2003",
+  "doi": "10.1186/1471-2202-4-31"
+ },
+ {
+  "slug": "integratedinformationind2008",
+  "doi": "10.1371/journal.pcbi.1000091"
+ },
+ {
+  "slug": "regionssystemsandthebrai2008",
+  "title": "Regions, systems, and the brain: Hierarchical measures of functional integration in fMRI"
+ },
+ {
+  "slug": "neuralcomplexityandstruc2009",
+  "title": "Neural complexity and structural connectivity"
+ },
+ {
+  "slug": "nonnegativedecomposition2010",
+  "title": "Nonnegative Decomposition of Multivariate Information"
+ },
+ {
+  "slug": "neuralcomplexityagraphth2011",
+  "title": "Neural complexity: a graph theoretic interpretation"
+ },
+ {
+  "slug": "practicalmeasuresofinteg2011",
+  "doi": "10.1371/journal.pcbi.1001052"
+ },
+ {
+  "slug": "quantifyingcausalemergen2013",
+  "doi": "10.1073/pnas.1314922110"
+ },
+ {
+  "slug": "aprincipledinfotheoretic2014",
+  "title": "A Principled Infotheoretic phi-like Measure"
+ },
+ {
+  "slug": "unifiedframeworkforinfor2015",
+  "title": "Unified framework for information integration based on information geometry"
+ },
+ {
+  "slug": "acompressioncomplexityme2016",
+  "title": "A Compression-Complexity Measure of Integrated Information"
+ },
+ {
+  "slug": "canthemacrobeatthemicroi2016",
+  "title": "Can the macro beat the micro? Integrated information across spatiotemporal scales"
+ },
+ {
+  "slug": "improvedmeasuresofintegr2016",
+  "doi": "10.1371/journal.pcbi.1005123"
+ },
+ {
+  "slug": "measuringintegratedinfor2016",
+  "doi": "10.1371/journal.pcbi.1004654"
+ },
+ {
+  "slug": "measuringmultivariatered2016",
+  "title": "Measuring multivariate redundant information with pointwise common change in surprisal"
+ },
+ {
+  "slug": "synergyandredundancyindu2016",
+  "title": "Synergy and Redundancy in Dual Decompositions of Mutual Information Gain and Information Loss"
+ },
+ {
+  "slug": "whenthemapisbetterthanth2016",
+  "title": "When the Map Is Better Than the Territory"
+ },
+ {
+  "slug": "integratedinformationasa2017",
+  "doi": "10.1371/journal.pone.0188049"
+ },
+ {
+  "slug": "invariantcomponentsofsyn2017",
+  "title": "Invariant Components of Synergy, Redundancy, and Unique Information among Three Variables"
+ },
+ {
+  "slug": "simulationstudyoftwomeas2017",
+  "title": "Simulation Study of Two Measures of Integrated Information"
+ },
+ {
+  "slug": "theeffectofelectroenceph2017",
+  "title": "The Effect of Electroencephalogram (EEG) Reference Choice on Information-Theoretic Measures of the Complexity and Integration of EEG Signals"
+ },
+ {
+  "slug": "thepartialentropydecompo2017",
+  "title": "The Partial Entropy Decomposition: Decomposing multivariate entropy and mutual information via pointwise common surprisal"
+ },
+ {
+  "slug": "estimatingtheintegratedi2018",
+  "title": "Estimating the Integrated Information Measure Phi from High-Density Electroencephalography during States of Consciousness in Humans"
+ },
+ {
+  "slug": "exactpartialinformationd2018",
+  "title": "Exact Partial Information Decompositions for Gaussian Systems Based on Dependency Constraints"
+ },
+ {
+  "slug": "maximizingmultivariatein2018",
+  "title": "Maximizing Multivariate Information With Error-Correcting Codes"
+ },
+ {
+  "slug": "pointwisepartialinformat2018",
+  "title": "Pointwise Partial Information Decomposition Using the Specificity and Ambiguity Lattices"
+ },
+ {
+  "slug": "anovelapproachtotheparti2019",
+  "title": "A Novel Approach to the Partial Information Decomposition"
+ },
+ {
+  "slug": "beyondintegratedinformat2019",
+  "title": "Beyond integrated information: A taxonomy of information dynamics phenomena"
+ },
+ {
+  "slug": "evaluatingapproximations2019",
+  "doi": "10.3390/e21050525"
+ },
+ {
+  "slug": "theemergenceofinformativ2019",
+  "title": "The Emergence of Informative Higher Scales in Complex Networks"
+ },
+ {
+  "slug": "thephimeasureofintegrate2019",
+  "title": "The Phi measure of integrated information is not well-defined for general physical systems"
+ },
+ {
+  "slug": "uncertaintyandcausalemer2019",
+  "title": "Uncertainty and causal emergence in complex networks"
+ },
+ {
+  "slug": "causalgeometry2020",
+  "title": "Causal Geometry"
+ },
+ {
+  "slug": "estimatingtotalcorrelati2020_2",
+  "title": "Estimating Total Correlation with Mutual Information Bounds"
+ },
+ {
+  "slug": "estimatingtotalcorrelati2020",
+  "title": "Estimating Total Correlation with Mutual Information Estimators"
+ },
+ {
+  "slug": "reconcilingemergencesani2020",
+  "doi": "10.1371/journal.pcbi.1008289"
+ },
+ {
+  "slug": "causalemergencefromeffec2021",
+  "title": "Causal emergence from effective information: Neither causal nor emergent?"
+ },
+ {
+  "slug": "emergenceastheconversion2021",
+  "title": "Emergence as the conversion of information: a unifying theory"
+ },
+ {
+  "slug": "introducingadifferentiab2021",
+  "title": "Introducing a differentiable measure of pointwise shared information"
+ },
+ {
+  "slug": "measuringdependencewithm2021",
+  "title": "Measuring Dependence with Matrix-based Entropy Functional"
+ },
+ {
+  "slug": "partialinformationdecomp2021",
+  "title": "Partial Information Decomposition via Deficiency for Multivariate Gaussians"
+ },
+ {
+  "slug": "towardsanextendedtaxonom2021",
+  "title": "Towards an extended taxonomy of information dynamics via Integrated Information Decomposition"
+ },
+ {
+  "slug": "causalemergenceiswidespr2022",
+  "title": "Causal emergence is widespread across measures of causation"
+ },
+ {
+  "slug": "decomposingpastandfuture2022",
+  "title": "Decomposing past and future: Integrated information decomposition based on shared probability mass exclusions"
+ },
+ {
+  "slug": "functionalconnectivityvi2022",
+  "title": "Functional connectivity via total correlation: Analytical results in visual areas"
+ },
+ {
+  "slug": "optimizingintegratedinfo2022",
+  "title": "Optimizing Integrated Information with a Prior Guided Random Search Algorithm"
+ },
+ {
+  "slug": "findingemergenceindataby2023",
+  "title": "Finding emergence in data by maximizing effective information"
+ },
+ {
+  "slug": "gaussianpartialinformati2023",
+  "title": "Gaussian Partial Information Decomposition: Bias Correction and Application to High-dimensional Data"
+ },
+ {
+  "slug": "generalizeddecomposition2023",
+  "title": "Generalized decomposition of multivariate information"
+ },
+ {
+  "slug": "integratedinformationaco2023",
+  "title": "Integrated Information, a Complexity Measure for optimal partitions"
+ },
+ {
+  "slug": "ameasureofsynergybasedon2024",
+  "title": "A Measure of Synergy Based on Union Information"
+ },
+ {
+  "slug": "apartialinformationdecom2024",
+  "title": "A Partial Information Decomposition for Multivariate Gaussian Systems Based on Information Geometry"
+ },
+ {
+  "slug": "anexacttheoryofcausaleme2024",
+  "title": "An Exact Theory of Causal Emergence for Linear Stochastic Iteration Systems"
+ },
+ {
+  "slug": "dynamicalreversibilityan2024",
+  "title": "Dynamical reversibility and a new theory of causal emergence based on SVD"
+ },
+ {
+  "slug": "emergenceandcausalityinc2024",
+  "title": "Emergence and Causality in Complex Systems: A Survey of Causal Emergence and Related Quantitative Studies"
+ },
+ {
+  "slug": "evolvinghigherordersyner2024",
+  "title": "Evolving higher-order synergies reveals a trade-off between stability and information integration capacity in complex systems"
+ },
+ {
+  "slug": "measuringthedynamicbalan2024",
+  "title": "Measuring the dynamic balance of integration and segregation underlying consciousness, anesthesia, and sleep in humans"
+ },
+ {
+  "slug": "nonnegativedecomposition2024",
+  "title": "Non-Negative Decomposition of Multivariate Information: From Minimum to Blackwell-Specific Information"
+ },
+ {
+  "slug": "alawofemergencemaximumca2025",
+  "title": "A Law of Emergence: Maximum Causal Power at the Mesoscale"
+ },
+ {
+  "slug": "causalemergence20quantif2025",
+  "title": "Causal Emergence 2.0: Quantifying emergent complexity"
+ },
+ {
+  "slug": "consilienceincausationca2025",
+  "title": "Consilience in Causation: Causal Emergence Is Found Across Measures of Causation"
+ },
+ {
+  "slug": "decomposingmultivariatei2025",
+  "title": "Decomposing Multivariate Information Rates in Networks of Random Processes"
+ },
+ {
+  "slug": "multivariatepartialinfor2025",
+  "title": "Multivariate Partial Information Decomposition: Constructions, Inconsistencies, and Alternative Measures"
+ },
+ {
+  "slug": "totaldualcorrelationcohe2025",
+  "title": "Total/dual correlation/coherence, redundancy/synergy, complexity, and O-information for real and complex valued multivariate data"
+ },
+ {
+  "slug": "integratedinformationthe2026",
+  "title": "Integrated information theory: the good, the bad and the misunderstood"
+ }
+]

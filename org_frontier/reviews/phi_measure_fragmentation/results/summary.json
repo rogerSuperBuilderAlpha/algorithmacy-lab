@@ -1,0 +1,23 @@
+{
+ "n": 68,
+ "measure_family": {
+  "practical_proxy": 10,
+  "causal_emergence": 16,
+  "geometric_complexity": 6,
+  "iid_synergy": 21,
+  "exact_iit_phi": 7,
+  "total_correlation": 8
+ },
+ "families_ge3": 6,
+ "largest_family_share": 0.309,
+ "validation": {
+  "ground_truth": 13,
+  "internal": 49,
+  "none/conceptual": 6
+ },
+ "ground_truth_rate": 0.191,
+ "kappa_note": "measure_family 0.963, validation 0.905, substrate 0.985",
+ "h3_within": 0,
+ "h3_cross": 0,
+ "edges_resolved": 1
+}

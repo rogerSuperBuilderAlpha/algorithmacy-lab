@@ -1,0 +1,20 @@
+{
+  "slug": "new_form_construct_proliferation",
+  "corpus_n": 67,
+  "screened_out": 41,
+  "distinct_labels_closed_set_in_use": 8,
+  "distinct_label_code_values": 9,
+  "estimated_total_distinct_labels": "at least 18 (8 closed-set + ~10 named in the other tail)",
+  "kappa": {"label": 0.966, "differentia_mode": 0.791, "parent_form": 0.863, "claim_type": 0.738},
+  "H2_positive_mechanism": 40,
+  "H2_by_contrast": 27,
+  "H3_within_cluster_links": 19,
+  "H3_cross_cluster_links": 20,
+  "H3_spanning": {"span1": 7082, "span2": 321, "span3": 30, "span4": 2},
+  "verdicts": {"H1": "supported", "H2": "challenged", "H3": "qualified"},
+  "commands": [
+    "python3 -m org_frontier.reviews.lib.reliability org_frontier/reviews/new_form_construct_proliferation/coding --categorical label,differentia_mode,parent_form,claim_type --out org_frontier/reviews/new_form_construct_proliferation/results/frozen.json",
+    "python3 -m org_frontier.reviews.lib.harvest org_frontier/reviews/new_form_construct_proliferation/seeds.json --out org_frontier/reviews/new_form_construct_proliferation/edges/",
+    "python3 -m org_frontier.reviews.lib.bibliometrics org_frontier/reviews/new_form_construct_proliferation/edges --clusters org_frontier/reviews/new_form_construct_proliferation/clusters.json"
+  ]
+}

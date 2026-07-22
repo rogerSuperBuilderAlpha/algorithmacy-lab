@@ -1,0 +1,22 @@
+{
+ "n": 48,
+ "substrate": {
+  "human_team": 9,
+  "na": 7,
+  "crowd": 13,
+  "swarm": 17,
+  "hybrid": 2
+ },
+ "method": {
+  "conceptual": 31,
+  "model": 4,
+  "empirical": 13
+ },
+ "spans_yes": 5,
+ "edges_resolved": 47,
+ "within_substrate_links": 1,
+ "cross_substrate_links": 0,
+ "cluster_links": {
+  "swarm|swarm": 1
+ }
+}
