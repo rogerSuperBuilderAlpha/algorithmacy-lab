@@ -60,6 +60,12 @@ chapter bibliography.
       survived six falsification probes (one library-database sweep still recommended pre-submission). Body
       ~4,940 words (ceiling 5,000); 58 references. Noted-not-added: Elsaesser, Crary, Cameron, Gunning,
       Sennett, market-design economics (Roth) — see gap files.
+- [x] **Full dialogue transcript + scene inventory (2026-07-22):** `research/slacker_transcript.md`
+      (subtitle-derived, 12,437 words, provenance noted) and `research/scene_inventory.md` — all ~35
+      dialogue segments mapped against the chapter. The chapter closely engages six; the inventory
+      ranks the missing scenes by fit (PixelVision handoff, Video Backpacker, the Ulysses seriality
+      passage, "the underlying order is chaos" as Poulaki's rival voiced by the film, the club's
+      legible thirds). Any addition must displace words — body is at ~4,940/5,000.
 - [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
       confirmation; conversion to notes-bibliography or MLA is mechanical)
 - [ ] Exact collection title / editor / deadline
