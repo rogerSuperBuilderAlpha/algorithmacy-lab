@@ -89,6 +89,21 @@ chapter bibliography.
       Slop: consecutive-closer refrain, twin epigrams, anadiplosis regrowth, agentless-passive doubling,
       named-agent fixes (Ajunwa/Chatman/Quart). Body **4,949/5,000**; antithesis 2.2/1k; 57 note keys
       resolve both ways; every new film quote intact. Disc verification of new film content still owed.
+- [x] **Research-gap fill + fresh version `chapter/chapter_v2.md` (2026-07-22):** whole-paper gap analysis
+      (`research/gap_analysis_2026-07-22.md`) found §6's audience-training claim — the weakest load-bearing
+      point across both panels — grounded only in Benjamin/Hansen. Ran the deep-research workflow (102 agents,
+      3-vote adversarial verify; `research/gap1_film_cognition_deepresearch.md`) and verified seven new
+      peer-reviewed references against the version of record. **v2 rebuilds §6 around the empirical evidence**:
+      reading a cut as a relationship is measurably *learned* (Ildirar & Ewing 2018 — the Kuleshov reading is
+      present in experienced viewers, absent in first-time viewers; Ildirar & Schwan 2015; Schwan & Ildirar
+      2010), and the craft was tuned to natural attention over a century (Tim Smith 2012 / Smith & Henderson
+      2008 edit-blindness / Smith & Mital 2013 gaze prediction); the Kuleshov claim is now stated at its true
+      contested status (Barratt et al. 2016). The chapter's old "it's just a guess" hedge becomes "the
+      disposition is learned; only the transfer to the dispatch queue is unproven." v2 = the panel-purged v1
+      with §6 rebuilt + these 7 refs (bib now 66 entries, notes 44/44a/44b), sections 1–5 byte-identical to v1.
+      Body **5,000/5,000**; antithesis 2.2/1k; 59 note keys resolve both ways. **v2 is a parallel file — v1
+      remains the vetted baseline; author picks which to carry forward.** Cutting, DeLong & Nothelfer 2010 and
+      Mobbs et al. 2006 were NOT verified by the research pass and are deliberately not cited.
 - [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
       confirmation; conversion to notes-bibliography or MLA is mechanical)
 - [ ] Exact collection title / editor / deadline
