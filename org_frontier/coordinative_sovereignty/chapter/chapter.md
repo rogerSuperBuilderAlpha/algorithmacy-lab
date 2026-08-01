@@ -320,7 +320,7 @@ What algorithmacy adds is the setting, and the setting changes what the competen
 above describes an actor working a system that acts on it. Algorithmacy describes an actor working a system
 that is simultaneously matching it to a counterpart and scoring it on how that match goes. The competence is
 exercised on two relationships at once, and the second is legible to the actor only through its effects on
-the first. Reviewing algorithm-literacy research, Gagrčin et al. (2026) call for domain-specific constructs
+the first. Reviewing algorithm-literacy research, Gagričin et al. (2026) call for domain-specific constructs
 rather than a single general capacity. Algorithmacy is one: the competence indexed to triadic coordination.
 
 Curchod et al. (2020) show what that looks like on a live platform. Studying sellers, buyers, and the
@@ -348,10 +348,12 @@ in an economy run on written contracts.
 
 The competence is unevenly held, and the unevenness has a pattern. Building it costs time, attention, and
 often paid analysts and tooling that read a platform's signals at a scale a small operator cannot match, so
-the actors best placed to model the system are the large ones already advantaged within it. Petre et al. (2019) identify a mechanism that
-holds the gradient in place. Platforms treat attempts to work the system as illegitimate "gaming," and the
-accusation falls hardest on producers who are not already established, so the actors with least room to
-absorb a penalty are the ones most exposed to one for acquiring the competence. The platform, for its part, does more than
+the actors best placed to model the system are the large ones already advantaged within it. Survey evidence bears this out: algorithmic knowledge
+varies with socioeconomic advantage instead of spreading evenly across those subject to it (Cotter &
+Reisdorf, 2020). Petre et al. (2019) identify a mechanism that holds the gradient in place. Platforms treat
+attempts to work the system as illegitimate "gaming," and the accusation falls hardest on producers who are
+not already established, so the actors with least room to absorb a penalty are the ones most exposed to one
+for acquiring the competence. The platform, for its part, does more than
 neglect to make its rules legible, since opacity preserves the rent (section 3.3). Coordinative sovereignty,
 which algorithmacy makes possible, therefore concentrates where algorithmacy is already held, and a
 competence distributed like capital distributes standing like capital.
@@ -511,7 +513,7 @@ fights one function of a platform while depending on another.
 
 An independent hotel reaches many of its guests through an online travel agency, and the agency does two very
 different things for its commission, which the European Competition Network's monitoring exercise put at
-between ten percent and above twenty percent of the room rate (European Competition Network, 2017). It
+between ten percent and above twenty percent of each booking (European Competition Network, 2017). It
 aggregates demand, putting the hotel in front of travelers who would never have found it. Anderson (2009)
 named this the billboard effect and measured reservation lifts of 7.5% to 26%, with independent hotels at the
 upper end, though later work has not always reproduced it (Beritelli & Schegg, 2016). And it has held rate
@@ -893,7 +895,7 @@ https://doi.org/10.1111/j.1756-2171.2006.tb00037.x
 Author. (2026). *Details omitted for double-anonymized review*.
 
 Baldwin, C. Y. (2008). Where do transactions come from? Modularity, transactions, and the boundaries of
-firms. *Industrial and Corporate Change, 17*(1), 155–195.
+firms. *Industrial and Corporate Change, 17*(1), 155–195. https://doi.org/10.1093/icc/dtm036
 
 Bannerman, S. (2024). Platform imperialism, communications law and relational sovereignty. *New Media &
 Society, 26*(4), 1816–1833. https://doi.org/10.1177/14614448221077284
@@ -929,6 +931,9 @@ Cicerchia, L. (2022). Structural domination in the labor market. *European Journ
 21*(1), 4–24. https://doi.org/10.1177/1474885119851094
 
 Cohen, J. E. (2017). Law for the platform economy. *UC Davis Law Review, 51*(1), 133–204.
+
+Cotter, K., & Reisdorf, B. C. (2020). Algorithmic knowledge gaps: A new horizon of (digital) inequality.
+*International Journal of Communication, 14*.
 
 Couture, S., & Toupin, S. (2019). What does the notion of "sovereignty" mean when referring to the digital?
 *New Media & Society, 21*(10), 2305–2322. https://doi.org/10.1177/1461444819865984
@@ -987,8 +992,8 @@ Fratini, S., Hine, E., Novelli, C., Roberts, H., & Floridi, L. (2024). Digital s
 analysis and a critical evaluation of existing models. *Digital Society, 3*(3), Article 59.
 https://doi.org/10.1007/s44206-024-00146-7
 
-Gagrčin, E., Naab, T. K., & Grub, M. F. (2026). Algorithmic media use and algorithm literacy: An integrative
-review. *New Media & Society, 28*(1).
+Gagričin, E., Naab, T. K., & Grub, M. F. (2026). Algorithmic media use and algorithm literacy: An integrative
+literature review. *New Media & Society, 28*, 423–447. https://doi.org/10.1177/14614448241291137
 
 Gehl, R. W., & Zulli, D. (2023). The digital covenant: Non-centralized platform governance on the Mastodon
 social network. *Information, Communication & Society, 26*(16), 3275–3291.
