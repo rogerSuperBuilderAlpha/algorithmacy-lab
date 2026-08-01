@@ -19,8 +19,9 @@ which sovereignty is even available — exit where a gate is contingent, voice w
 - `coordinative_sovereignty.md` — the framing statement: the condition, why preservation fails, the contrast
   with digital sovereignty, what coordinative sovereignty is, and the connection to the lab.
 - `AGENDA.md` — the open research questions.
-- `chapter/` — the "Algorithmacy and Sovereignty" manuscript; the current draft is the Word file
-  `Full Paper - Alg & Sov.docx`.
+- `chapter/` — the "Algorithmacy and Sovereignty" manuscript. `chapter/chapter.md` is canonical; the Word file
+  `Full Paper - Alg & Sov.docx` is stale and superseded (see `chapter/README.md`). `chapter/REVIEW.md`,
+  `chapter/OUTLINE.md`, `chapter/HANDOFF.md`, and `chapter/research/` hold the 2026-08 rebuild.
 - `presentations/` — the SBE 2026 talk deck and poster for the paper.
 - `literature/deep_research_report.md` — the field map across previous forms, digital-sovereignty variants, and
   platform power, read along the preserve-vs-constitute axis.
@@ -29,10 +30,14 @@ which sovereignty is even available — exit where a gate is contingent, voice w
 
 ## Status
 
-Kickoff. The framing is the opening hypothesis, grounded in the literature and in the lab's mediated-coordination
-apparatus, and the agenda is the program to build it out. No computational results yet; the first operational
-question (agenda item 1) is whether a coordinated actor's standing can be read as its non-substitutable
-membership in the irreducible core it is coordinated through.
+The IGI chapter is the live deliverable, due **2026-08-30**. It has been through three research passes, a
+ten-reviewer panel, two external reviews, and a full rebuild on 2026-08-01 that re-researched every section,
+closed the panel's outstanding author-only findings, and rewrote the manuscript. Outstanding citation
+verification is listed in `chapter/HANDOFF.md`.
+
+The construct work behind it: `instruments/` holds the two operationalizations, and agenda items 2, 3, and 7
+remain open. Item 6 (the normative core) was closed by the rebuild and now appears in §1 of the chapter. No
+computational results live here; the formal apparatus belongs to the companion paper.
 
 ## Relation to the rest of the lab
 
