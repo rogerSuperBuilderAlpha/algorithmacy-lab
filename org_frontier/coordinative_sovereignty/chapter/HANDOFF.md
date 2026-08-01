@@ -9,49 +9,51 @@ bibliographies) · `research/section_*.md` (six deep-research files, ~480KB, eac
 
 ---
 
-## 1. Citations that must be verified before submission
+## 1. Citation verification — second pass, 2026-08-01
 
-Every citation below entered the draft on a research agent's verification, not mine. The session's WebFetch
-budget ran out before I could resolve them independently. **This project has a documented history of agents
-fabricating author lists and DOIs, so treat every unverified entry as suspect until a DOI resolves.**
+A second verification pass ran after the fetch budget reset. **Sixteen of the eighteen outstanding entries
+are now verified**, several with corrections. Two could not be resolved by any available route.
 
-Verify by resolving `https://api.crossref.org/works/<DOI>` or the publisher's page, and check the author list
-character by character.
+### Verified this pass
 
-| Entry | What to check | Risk |
+| Entry | Result |
+|---|---|
+| **Schegg (2024)** | **VERBATIM from the HOTREC PDF.** "the share of direct bookings decreased by nearly 7 percentage points from 57.6% in 2013 to 50.9%" and "rising from 19.7% in 2013 to 29.6% in 2023." Author, title, institution, and date (Sierre, June 2024) all confirmed. **The evidence answering Reviewer 2 holds.** |
+| **European Competition Network (2017)** | **VERBATIM,** §4.4, p. 17: "The basic commission rates of the three major OTAs range from ten percent to above twenty percent." Published 6 April 2017. Full title confirmed. Prompted one wording fix: OTAs are "paid solely on the basis of a share of each booking," so §5.5 now says "of each booking" rather than "of the room rate." |
+| **Gagričin et al. (2026)** | Verified **with three corrections.** The surname is **Gagričin**, not Gagrčin. The subtitle is "An integrative **literature** review." Pages are 423–447 with DOI 10.1177/14614448241291137, so it is not issue 1. All three now applied. |
+| **Cotter & Reisdorf (2020)** | Verified on the IJoC article page: *International Journal of Communication* **14** (2020), and the title really is "A new **Horizon**." **Restored to §4**, where the abstract supports the claim directly — "algorithmic knowledge varies according to socioeconomic advantage." |
+| **Baldwin (2008)** | DOI 10.1093/icc/dtm036 confirmed and added. |
+| **Bernot (2025)** · **Stadnik (2021)** · **Gehl & Zulli (2023)** · **Fortuny-Sicart et al. (2024)** · **Tortorici (2026)** | All five DOIs resolved. Titles, authors, venues, volumes, and pages exact as cited. |
+| **Paglayan (2024)** · **Bishop (2020)** · **MacDonald (2023)** | All three resolved. Bishop's abstract confirms the §9 claim directly: the experts "encourage compliance with YouTube's business models rather than systemic change." |
+| **Schlager & Ostrom (1992)** · **Cicerchia (2022)** | Both resolved as cited. |
+| **Pettit (2016)** | **Partial.** DOI, title, author, journal, volume, and issue confirmed. Crossref carries **no page numbers** and a corrupted date field. The reported range 47–68 is unconfirmed, so it has been **removed** from the bib rather than asserted. |
+
+### Still unresolved — two entries
+
+| Entry | Routes tried | What to do |
 |---|---|---|
-| **Klonick (2020)**, *Yale Law Journal* 129(8), 2418–2499 | **No Crossref record exists.** YLJ returned 403 on every route tried. Confirm volume, issue, and pages against a physical or library copy. | High — it is the only source for §7's oversight-board paragraph |
-| **Gagrčin, Naab & Grub (2026)**, *New Media & Society* 28(1) | The subtitle "An integrative review" is reconstructed, not read off a record. Confirm the exact title and add page or article numbers. | High — a wrong title is an obvious tell |
-| **Baldwin (2008)**, *Industrial and Corporate Change* 17(1), 155–195 | DOI omitted deliberately (unverified). Add it once confirmed. | Medium |
-| **Berlin (1969)**, "Two concepts of liberty" | No page range given, because the "cutting off my legs" passage was paraphrased rather than quoted. If you want the quotation, get the page. | Medium |
-| **Anderson (2017)**, *Private Government* | Book metadata verified (DOI 10.1515/9781400887781). The text was **not** accessible. The research reports the supporting passages at pp. 57–58 ("political hemiagnosia") and pp. 141–142 (exit rights let the employer "harvest the entire producer's surplus"). **Confirm both before adding any page cite or quotation.** | Medium |
-| **European Competition Network (2017)** | §4.4, p. 17 of the hotel monitoring report — confirm the "ten percent to above twenty percent" figure and the section number. | High — it replaced a wrong number in the draft |
-| **Schegg (2024)**, HOTREC distribution study | Confirm 19.7%→29.6% OTA share and 57.6%→50.9% direct, for 2013 and 2023. | **Highest — this is the evidence answering Reviewer 2** |
-| **Anderson, C. K. (2009)**, *Cornell Hospitality Report* 9(16) | Confirm the 7.5–26% range and that independent hotels sit at the upper end. | High |
-| **German ruling, 2021** | The draft says "the German Federal Court of Justice held the agencies' narrow parity clauses unlawful in 2021" without a docket. Research reports **BGH KVR 54/20**. Confirm and add if you want the citation. | Medium |
-| **Bernot (2025)**, **Stadnik (2021)**, **Gehl & Zulli (2023)**, **Fortuny-Sicart et al. (2024)**, **Tortorici (2026)** | All five case citations came from research agents. Resolve each DOI. | Medium |
-| **Paglayan (2024)**, **Bishop (2020)**, **MacDonald (2023)** | The diffusion argument in §9 rests on these three. | Medium |
-| **Pettit (2016)**, **Schlager & Ostrom (1992)**, **Cicerchia (2022)**, **Parmigiani (2007)** | Recorded with DOIs in the research files; resolve them. | Low–medium |
+| **Klonick (2020)**, *Yale Law Journal* 129(8), 2418–2499 | Crossref (no record), yalelawjournal.org (403), OpenAlex (429), Semantic Scholar (429), St. John's repository (JS-only search) | **Check a library copy.** It is the sole source for §7's oversight-board paragraph. Volume and pages are the fields at risk. |
+| **Anderson (2017)** page cites | Book metadata verified (DOI 10.1515/9781400887781); De Gruyter (405), Google Books (429) | The text was never accessible. The reported passages at pp. 57–58 ("political hemiagnosia") and pp. 141–142 ("harvest the entire producer's surplus") are **unconfirmed**. The chapter cites her argument without page numbers, which is safe as it stands. Confirm before adding any quotation. |
 
-**Verified by me directly this session** (safe): Armstrong (2006) · Bannerman (2024) pages · Curchod et al.
-(2020) · Gu & Zhu (2021) · Jarrahi & Sutherland (2019) · Muldoon & Raekstad (2023) year · O'Reilly et al.
-(2024) · Petre et al. (2019) · Repetto (2025) and its abstract · Robinson et al. (2026) author list · Ryall &
-Sorenson (2007) · Sekar & Siddiq (2026) · Sutherland et al. (2020) · Beritelli & Schegg (2016) · Case
-C-264/23 · Directive 2024/2831 Arts. 25 and 29(1) · COM(2026) 178 · Regulation (EU) 2026/1744.
+### Not re-checked this pass
 
-## 2. Two sources cut for lack of verification — add them back if you can confirm
+**Klawitter & Hargittai (2018)** — absent from both Crossref and the IJoC search index, and the venue in the
+research file was truncated. **Left out of the chapter.** §4's distributional paragraph now rests on Cotter &
+Reisdorf plus Petre et al., which is sufficient.
 
-Both are almost certainly real and both would strengthen §4's distributional paragraph, which currently rests
-on Petre et al. alone. Neither is in Crossref because *International Journal of Communication* does not
-deposit DOIs.
+**Anderson, C. K. (2009)** billboard report (Cornell 403) · **BGH KVR 54/20** docket · **Parmigiani (2007)** ·
+**COM(2025) 837** · the **Google €890m** decision of 23 July 2026. The Anderson report and the German docket
+matter most of these, since §5.5 leans on both.
 
-- **Cotter, K., & Reisdorf, B. C. (2020). Algorithmic knowledge gaps: A new horizon of (digital)
-  inequality.** Note the title trap: the version of record reads "A new **horizon**," where many indexes
-  report "A new dimension."
-- **Klawitter, E., & Hargittai, E. (2018). "It's like learning a whole other language": The role of
-  algorithmic skill…**
+### A bug this pass caught in the existing bibliography
 
-The sentence to restore them to is in §4, immediately before "Petre et al. (2019) identify a mechanism…".
+`literature/references.bib` carried **two** problems predating the rebuild, now fixed:
+
+1. The kickoff-layer `markell2008` entry still had DOI `10.1177/0090591707310220`, which does not resolve.
+   `verification_pass_2.md` established the correct DOI over a month ago and applied it to the chapter, but
+   it was never propagated to the bib.
+2. `anderson2017private` was a **duplicate bibtex key** — the entry already existed in the kickoff layer, and
+   the rebuild added a second one. Duplicate keys break bibtex silently. Merged into the original.
 
 ## 3. Claims that changed, and what a co-author should know
 
