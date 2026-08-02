@@ -140,6 +140,22 @@ chapter bibliography.
       transactional selectors, makes the definitions carry classification, retitles §7 "When selection
       becomes infrastructure," and applies the panel's Uber, Cameron, Bordwell, location, Hansen, and
       bibliography corrections. Body **~5,120 words**; 77 note keys resolve both ways.
+- [x] **Four-axis full review + surgical apply pass (2026-08-02):** argument, content, citations, and
+      prose reviews in `reviews/2026-08-02-full/` (01–04 + SYNTHESIS). The reframe held on all axes:
+      spine intact, C1/C2/C4 repairs verified in the text, constraints met, negative parallelism at
+      1.9/1k with zero hits in every other slop category. Fresh primary retrievals caught and fixed:
+      the §7 Bengesser statistic had the wrong denominator (fewer than one British catalogue title in
+      ten reaches the landing page — verified against the version of record); the §5 Amsterdam
+      quotation had drifted from the project's own translation; "The Dobie booked it on its own
+      judgment" contradicted the NYT source; "a division's default" read as a financial default; the
+      *Film Comment* anecdote lacked its note (Pierson for the tip, Macor for the telephone check,
+      page owed to print); *Papachristou* pins corrected to 162/164/170 against the official U.S.
+      Reports; note 58's sample description aligned to the Ildirar & Ewing manuscript. Bibliography:
+      Rosenfeld/Thomas/Hausen entry added (was cited, missing), *Soziologie* typo, two refilings,
+      Small & Gose abstract-only mark, Bordwell p. 62 convergence disclosure. Seven surgical prose
+      edits (the "matters because it matters" stammer, the dangling fixed-sequence sentence, "take
+      rate" glossed, the last antecedent bug). Eight voice-level items flagged for the author in the
+      synthesis, not applied. Body **~5,150 words**; 78 note keys resolve both ways.
 - [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 77 notes plus a
       three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline

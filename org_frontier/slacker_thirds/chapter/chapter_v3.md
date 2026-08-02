@@ -149,8 +149,8 @@ A setting that supplies conventions about who may approach whom is also supplyin
 may not, and the American law of the street is where those were enforced. Until 1972 a vagrancy
 ordinance of the kind struck down in *Papachristou v. City of Jacksonville* reached "poor people,
 nonconformists, dissenters, idlers." The Court struck it down for vagueness on two grounds: it
-gave no fair notice and "encourages arbitrary and erratic arrests." The second matters because it
-matters here, because it locates the decision in an officer. Justice Douglas defended wandering and
+gave no fair notice and "encourages arbitrary and erratic arrests." The second matters here, because
+it locates the decision in an officer. Justice Douglas defended wandering and
 strolling as "amenities of life as we have known them," conceding in the same breath that they "are not
 mentioned in the Constitution or in the Bill of Rights."[^33] A code that reads types and not persons
 is no neutral improver of odds. It licenses the white twenty-something pitching Madonna's pap smear on
@@ -204,8 +204,7 @@ narrator view predominates and Bordwell is the most prominent exception.[^40] I 
 minority position inside film studies: a story "is actually told by the author in his or her creation
 of the work."[^41] That has a price. Linklater fixed the order once, and every viewer since has received
 the same order. A selector whose choosing is finished, public, and identical for everyone differs from
-one that runs live and privately, party by party. The film also ends after a fixed sequence. When I
-write "the camera," I mean the first kind.
+one that runs live and privately, party by party. When I write "the camera," I mean the first kind.
 
 When Bordwell reaches *Slacker* he cannot fit it into his own category: "Another borderline case, I
 think, is *Slacker*. … This isn't a network so much as a wiggly, knotted string."[^42] His word is
@@ -231,8 +230,8 @@ keeps the selecting position and adds those powers.
 
 Maria Poulaki supplies the account that would make a selector unnecessary: a film coheres because its
 parts form a system that organizes itself. Yet she gives the camera "self-reflexive agency" in
-*Gomorrah* and identifies both a setting and a selecting character.[^45] Her minimum for a system is
-where the answer starts: "A catalogue is not a system but a list of elements; a system needs relations
+*Gomorrah* and identifies both a setting and a selecting character.[^45] Her own minimum for a system
+answers the objection: "A catalogue is not a system but a list of elements; a system needs relations
 between the elements in order to form itself."[^46] *Slacker* has the order of visits, but nowhere for
 that order to arise inside the story world. No character wants the next scene, no object travels
 between them, and no cause crosses a cut. The sequence is the relation, and it arrived from outside.
@@ -252,8 +251,8 @@ what that addition costs.
 
 It prices each match. An audit built from 1.5 million trips pooled by 258 UK drivers found that "the
 price the passenger pays and the fee the driver receives vary independently of each other." The driver
-cannot see the passenger's fare and Uber bars him from asking. The median take rate per driver rose from
-25 to 29 percent while the mean held at 25.[^48] Surge differs: the published model prices a place and
+cannot see the passenger's fare and Uber bars him from asking. The median share Uber kept per driver
+rose from 25 to 29 percent while the mean held at 25.[^48] Surge differs: the published model prices a place and
 time to move drivers across a map, acting on everyone in a zone.[^49] It establishes nothing about
 identity.
 
@@ -264,16 +263,16 @@ of this statement."[^51] Driver, trip, market, and customer-side fare are eviden
 Identity-sensitive matching is not.
 
 It can remove a party. The Amsterdam Court of Appeal found three deactivations automated because the
-human review was "little more than a purely symbolic act"; it found a fourth different because a
-personal conversation preceded the decision.[^52] In 2026 a Ninth Circuit panel refused to enjoin
+file notes on the human review "in no way show that this act was much more than a purely symbolic
+act"; it found a fourth different because a personal conversation preceded the decision.[^52] In 2026 a Ninth Circuit panel refused to enjoin
 Seattle's deactivation ordinance, holding at the preliminary stage that removal was nonexpressive
 conduct a city could regulate.[^53]
 
 A camera drops people for good and it costs them nothing outside the frame. It cannot price their
 passage or take them off the street. Cameron's seven-year study includes matching inside a whole regime:
 accepting, rejecting, screening, manipulating inputs, following nudges, and trying to make a blind match
-yield a chosen rider. Workers found choice inside those narrow openings, and that consent could mask the
-structure.[^54] Nobody games a cut. A platform match is one step in a regime that prices, rates, sanctions,
+yield a chosen rider. Workers found choice inside those narrow openings, and that choice-based consent
+could mask the structure.[^54] Nobody games a cut. A platform match is one step in a regime that prices, rates, sanctions,
 and removes.
 
 ## 6. Cinema as training
@@ -349,23 +348,24 @@ has a reason to correct the flattering half.
 ## 7. When selection becomes infrastructure
 
 Every link in the chain that carried *Slacker* to an audience was a person who could be telephoned.
-Pierson, a producer's representative whose job was introducing films to buyers, took it to them. The
-Dobie booked it on its own judgment and held it eleven weeks. Orion Classics bought it and released it
-nationally, in sixteen theatres at its widest: sixteen bookings argued for one at a time.
+Pierson, a producer's representative whose job was introducing films to buyers, took it to them.
+Linklater booked it into the Dobie, which held it eleven weeks. Orion Classics bought it and released
+it nationally, in sixteen theatres at its widest: sixteen bookings argued for one at a time.
 
 You could reach these people, and when they said no you knew who had said it. Linklater and Pierson lost
 their case to Susan Blodgett at Orion Home Video: the company shipped 7,000 cassettes against a tie-in
-book that sold 20,000.[^67] The film played three months past Orion's bankruptcy filing, so a division's
-default starved the video release.[^68] The earlier acquisition had moved the other way. A paragraph in
-*Film Comment* reached a buyer, who telephoned relatives in Austin to check the Dobie sellouts.
+book that sold 20,000.[^67] The film played three months past Orion's bankruptcy filing; what starved
+the video release was a division applying its default treatment, not the bankruptcy.[^68] The earlier
+acquisition had moved the other way. A paragraph in *Film Comment* reached a buyer, who telephoned
+relatives in Austin to check the Dobie sellouts.[^68a]
 
 Platform selection now happens at two separate stages.
 Cathrin Bengesser, Matthew Hilborn, and Jeanette Steemers measured both: 15,584 British titles in
 European video-on-demand circulation become 1,165 in Netflix's European catalogues, and inside a
-national catalogue the British share of what reaches the landing page is under ten percent.[^69]
+national catalogue fewer than one British title in ten reaches the landing page.[^69]
 Licensing decides what can be found. Prominence decides what is found. Their landing-page figures are
-about editorial promotion: they cleared cookies daily and worked from fresh accounts, though they are
-careful to add that "it is by no means certain that this can be excluded totally." The landing page is
+about editorial promotion: they cleared cookies daily and worked from fresh accounts, though they add
+that "it is by no means certain that this can be excluded totally." The landing page is
 an attentional selector like Linklater's camera, now operating after the catalogue has already been
 selected. Tzioumakis's theatrical figures block a simple replacement story: specialty distribution
 changed shape, and its middle tier refilled.[^70]
@@ -374,7 +374,7 @@ The supplier's side of the same platform states its powers more directly. Amazon
 are licensed for Prime Video, and two of the three powers are on the page. It reads: "we continuously review performance
 metrics and viewing behavior." It removes: titles may be taken down "at any time at the sole discretion
 of Prime Video." Pricing the page says nothing about. What it adds instead is a fourth thing the three
-questions do not reach. Amazon promises a supplier a verdict, visible in the portal if a title is not
+powers do not include. Amazon promises a supplier a verdict, visible in the portal if a title is not
 selected, and withholds the reasons: "Unless otherwise indicated," a removed title "may not be
 resubmitted or appealed," and "we cannot provide additional details about why any specific title was or
 was not selected for licensing."[^71] That is the modern counterpart of the Orion vice-president who
@@ -433,12 +433,12 @@ Platform power begins when the selector can read and govern the people whose act
 [^30]: U.S. Department of Education, NCES, IPEDS Fall Enrollment 1989, file EF1989_A, UNITID 228778.
 [^31]: Gilles Duranton and Diego Puga, "Micro-foundations of Urban Agglomeration Economies," in *Handbook of Regional and Urban Economics*, vol. 4, ed. J. Vernon Henderson and Jacques-François Thisse (Amsterdam: North-Holland, 2004), 2063–2117.
 [^32]: Giordano Mion and Paolo Naticchioni, "The Spatial Sorting and Matching of Skills and Firms," *Canadian Journal of Economics* 42, no. 1 (2009): 28–55.
-[^33]: *Papachristou v. City of Jacksonville*, 405 U.S. 156 (1972), at 156–58, 164.
+[^33]: *Papachristou v. City of Jacksonville*, 405 U.S. 156 (1972), at 162, 164, 170.
 [^34]: Reuben A. Buford May, "Exploring the Use of Exclusionary Practices Against African American Participation in Urban Nightlife," *Sociological Forum* 37, no. 1 (2022): 91–110.
 [^35]: Brendan Gaughen, "*Slacker* Geography, 25 Years Later," *The End of Austin*, no. 5 (May 22, 2014).
 [^36]: Chris Walters, "Slacker: Freedom's Just Another Word for Nothing to Do," *Austin Chronicle*, July 27, 1990. Walters used "daisy chain" in 1990; Charles Ramírez Berg published the film-studies taxonomy in 2006.
 [^37]: John Pierson, interview by Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011. The page gives Pierson's words as: "There's not a single jump cut, and the passage from one scene to the next is always in a flow. There's not even a cut between scenes." The body paraphrases because the arrest sequence contains cuts.
-[^38]: David Bordwell, *Narration in the Fiction Film* (Madison: University of Wisconsin Press, 1985), 62.
+[^38]: David Bordwell, *Narration in the Fiction Film* (Madison: University of Wisconsin Press, 1985), 62. The page is attested by convergence across citing works; confirm against a library copy before press.
 [^39]: Seymour Chatman, *Coming to Terms: The Rhetoric of Narrative in Fiction and Film* (Ithaca, NY: Cornell University Press, 1990), 134.
 [^40]: Mario Slugan, "The Film Narrator and the Early American Screenwriting Manuals," *Early Popular Visual Culture* 17, no. 2 (2019): 192–206, endnote i.
 [^41]: Katherine Thomson-Jones, "Cinematic Narrators," *Philosophy Compass* 4, no. 2 (2009): 296–311.
@@ -459,7 +459,7 @@ Platform power begins when the selector can read and govern the people whose act
 [^55]: Hugo Münsterberg, *The Photoplay: A Psychological Study* (New York: D. Appleton, 1916), 87–88. Münsterberg's better-known sentence about attention being "drawn in accordance with the intentions of the producers" (76–77) belongs to his discussion of the *theatre*; the photoplay argument begins on p. 77.
 [^56]: Walter Benjamin, "The Work of Art in the Age of Its Technological Reproducibility: Second Version," in *Selected Writings*, vol. 3, ed. Howard Eiland and Michael W. Jennings (Cambridge, MA: Belknap Press, 2002), 108. The familiar phrase about the public as "an examiner, but an absent-minded one" belongs to Harry Zohn's earlier translation of the essay; in the Second Version the examiner is the film director.
 [^57]: Miriam Bratu Hansen, "The Mass Production of the Senses: Classical Cinema as Vernacular Modernism," *Modernism/modernity* 6, no. 2 (1999): 59–77, at 69, and 59 for her period.
-[^58]: Sermin Ildirar and Louise Ewing, "Revisiting the Kuleshov Effect with First-Time Viewers," *Projections* 12, no. 1 (2018): 19–38. The participants are forty people aged 56–72 from villages in the mountains south of Isparta, Turkey, a district then newly on the electrical grid; the twenty counted as experienced are from the same villages and had had some television. The competence at issue is therefore reachable on a modest quantity of viewing, which is part of why it could be general enough by 1991 to carry a whole film. On the effect's contested status see Daniel Barratt et al., "Does the Kuleshov Effect Really Exist?" *Perception* 45, no. 8 (2016): 847–874, and, for recent positive evidence from authentic film footage, Zhengcao Cao et al., "Reexamining the Kuleshov Effect," *PLOS ONE* 19, no. 8 (2024): e0308295 — which measured no film-experience variable and so bears on the effect's existence rather than on whether reading it is learned.
+[^58]: Sermin Ildirar and Louise Ewing, "Revisiting the Kuleshov Effect with First-Time Viewers," *Projections* 12, no. 1 (2018): 19–38. The participants are forty people aged 56–72 from small isolated houses in the mountains south of Isparta, Turkey, only recently connected to the electrical grid; the twenty counted as experienced are from a similar background nearby and had had some television. The competence at issue is therefore reachable on a modest quantity of viewing, which is part of why it could be general enough by 1991 to carry a whole film. On the effect's contested status see Daniel Barratt et al., "Does the Kuleshov Effect Really Exist?" *Perception* 45, no. 8 (2016): 847–874, and, for recent positive evidence from authentic film footage, Zhengcao Cao et al., "Reexamining the Kuleshov Effect," *PLOS ONE* 19, no. 8 (2024): e0308295 — which measured no film-experience variable and so bears on the effect's existence rather than on whether reading it is learned.
 [^59]: Sermin Ildirar, Daniel T. Levin, Stephan Schwan, and Tim J. Smith, "Audio Facilitates the Perception of Cinematic Continuity by First-Time Viewers," *Perception* 47, no. 3 (2018): 276–295. Only 25 percent of first-time viewers integrated views of one unfamiliar environment, and none integrated another.
 [^60]: Ildirar, Levin, Schwan, and Smith, "Audio Facilitates," discussion.
 [^61]: Tim J. Smith and John M. Henderson, "Edit Blindness," *Journal of Eye Movement Research* 2, no. 2 (2008): article 6, 1–17. The figure is 25.1 percent for within-scene cuts.
@@ -470,6 +470,7 @@ Platform power begins when the selector can read and govern the people whose act
 [^66]: Heiner Heiland, "The Social Construction of Algorithms: A Reassessment of Algorithmic Management in Food Delivery Gig Work," *New Technology, Work and Employment* 40, no. 1 (2025): 1–19.
 [^67]: Macor, *Chainsaws, Slackers, and Spy Kids*, 113–14.
 [^68]: Orion Pictures Corporation, Annual Report on Form 10-K for the fiscal year ended February 28, 1994.
+[^68a]: Pierson, "Slacking Off," for the *Film Comment* paragraph (Robert Horton's, from the Seattle Film Festival) reaching Orion Classics; the telephone check of the sellouts is Macor's account, *Chainsaws, Slackers, and Spy Kids*, chap. 4 — confirm her page in print. The two participants disagree about when the call was made.
 [^69]: Cathrin Bengesser, Matthew Hilborn, and Jeanette Steemers, "Comparative VOD Catalogue Research: Circulation, Presence and Prominence of British Content in Europe," *Convergence* 31, no. 5 (2025): 1511–1531.
 [^70]: Yannis Tzioumakis, "After the 'Great Studio Pullback of '08,'" *Media Industries* 10, no. 1 (2023).
 [^71]: Amazon.com, Inc., "Prime Video Direct Content Providers: Licensing Consideration and Title Review," Prime Video Tech Docs, last updated August 5, 2025.
@@ -579,15 +580,17 @@ Rivera, Lauren, Sara B. Soderstrom, and Brian Uzzi. "Dynamics of Dyads in Social
 
 Rosenblat, Alex, and Luke Stark. "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers." *International Journal of Communication* 10 (2016): 3758–3784.
 
+Rosenfeld, Michael J., Reuben J. Thomas, and Sonia Hausen. "Disintermediating Your Friends: How Online Dating in the United States Displaces Other Ways of Meeting." *Proceedings of the National Academy of Sciences* 116, no. 36 (2019): 17753–17758.
+
 Schegloff, Emanuel A. "Sequencing in Conversational Openings." *American Anthropologist* 70, no. 6 (1968): 1075–1095.
 
-Simmel, Georg. *Sociologie: Untersuchungen über die Formen der Vergesellschaftung*. Leipzig: Duncker & Humblot, 1908.
+Simmel, Georg. *Soziologie: Untersuchungen über die Formen der Vergesellschaftung*. Leipzig: Duncker & Humblot, 1908.
 
 ———. *The Sociology of Georg Simmel*. Translated and edited by Kurt H. Wolff. Glencoe, IL: The Free Press, 1950.
 
 Slugan, Mario. "The Film Narrator and the Early American Screenwriting Manuals." *Early Popular Visual Culture* 17, no. 2 (2019): 192–206.
 
-Small, Mario Luis, and Leah E. Gose. "How Do Low-Income People Form Survival Networks? Routine Organizations as Brokers." *The ANNALS of the American Academy of Political and Social Science* 689, no. 1 (2020): 89–109.
+Small, Mario Luis, and Leah E. Gose. "How Do Low-Income People Form Survival Networks? Routine Organizations as Brokers." *The ANNALS of the American Academy of Political and Social Science* 689, no. 1 (2020): 89–109. *Abstract consulted only.*
 
 Smith, Tim J., Claire Essex, and Rachael Bedford. "Are Movies Making Us Smarter? The Role of Cinematic Evolution in the Flynn Effect." *Projections* 17, no. 1 (2023): 52–66.
 
@@ -619,17 +622,15 @@ American Film Institute. "Slacker (1991)." *AFI Catalog of Feature Films*, recor
 
 Box Office Mojo. "Slacker — Original Release (Domestic)." Release record rl3815867905. Accessed August 2, 2026. https://www.boxofficemojo.com/release/rl3815867905/.
 
-Criterion Collection. "Slacker (1991)." Accessed August 2, 2026. https://www.criterion.com/films/408-slacker.
-
 Canby, Vincent. "Review/Film; 'Slacker,' a Collection of Eccentrics and Lunacies." *New York Times*, July 5, 1991, sec. C, p. 6. Excerpting his review of March 22, 1991.
+
+Criterion Collection. "Slacker (1991)." Accessed August 2, 2026. https://www.criterion.com/films/408-slacker.
 
 Ebert, Roger. "Slacker." *Chicago Sun-Times*, August 23, 1991.
 
 Hinson, Hal. "'Slacker' (R)." *Washington Post*, August 23, 1991.
 
 Howe, Desson. "'Slacker' (R)." *Washington Post*, August 23, 1991.
-
-"A $23,000 Film Is Turning Into a Hit." *New York Times*, August 7, 1991, sec. C, p. 13.
 
 Orion Pictures Corporation. Annual Report on Form 10-K for the fiscal year ended February 28, 1994. Filed June 15, 1994.
 
@@ -646,6 +647,8 @@ Savlov, Marc. "Slack to the Future." *Austin Chronicle*, January 21, 2011. https
 Thomas, Dana. "'Slacker' (R)." *Washington Post*, August 23, 1991. A profile-interview; the shared heading is the *Post* archive's own page furniture.
 
 Turan, Kenneth. "Movie Review: There's Too Much Slack in Richard Linklater's 'Slacker.'" *Los Angeles Times*, July 26, 1991.
+
+"A $23,000 Film Is Turning Into a Hit." *New York Times*, August 7, 1991, sec. C, p. 13.
 
 U.S. Bureau of the Census. *1990 Census of Housing, General Housing Characteristics: Texas*. 1990 CH-1-45.
 
