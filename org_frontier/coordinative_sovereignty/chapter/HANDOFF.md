@@ -8,6 +8,14 @@ bibliographies) · `reviews_v2.md` (**the second review round, 2026-08-02, and t
 `research/section_*.md` (six deep-research files, ~480KB, each with a citation ledger) ·
 `chapter_prerewrite_c247e56.md` (the pre-rewrite text, for diffing).
 
+## 0a. Ten-lens panel, 2026-08-02 (post-`reviews_v2`)
+
+Full delegated panel in `reviews/2026-08-02/` (brief + ten lenses + `SYNTHESIS.md`). Verdict spread: **zero
+major, ten minor / accept-with-nits**. The chapter is submission-close. Consensus spine items S1, S3, and S4
+from that synthesis are already applied in `chapter.md`. Still owed before press: S2 empiric cites (Apple
+€500M / P2B repeal COM(2025) 837 / COM(2026) 178), Hirschman mapping polish, Art. 22 taxonomy, media
+kind-claim pin, §5.1 plain-language pass, Anderson initials, quotation locators. See the synthesis.
+
 ## 0. What the second review round changed, 2026-08-02
 
 A full re-read of the rewritten chapter across the same ten lenses the original panel used. Verdict:

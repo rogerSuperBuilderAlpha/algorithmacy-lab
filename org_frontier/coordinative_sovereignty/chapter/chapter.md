@@ -3,7 +3,7 @@
 ## Abstract
 
 A firm can comply with every instrument of Europe's digital regulation and still watch its market position
-turn on ranking decisions it cannot see, predict, or contest. Sovereignty has always required a competence
+turn on ranking decisions it cannot usefully see, predict, or contest. Sovereignty has always required a competence
 equal to the medium through which power runs: speech in oral orders, writing in the literate state, an
 extended literacy of code and data in the digital one. Platform coordination runs through an algorithmic
 third party that reads both parties and commits outcomes neither controls, which none of those competences
@@ -27,12 +27,13 @@ Floridi, 2020; Fratini et al., 2024).
 
 Yet a firm can satisfy every one of these requirements and remain strategically helpless. An independent
 software vendor with impeccable data-protection practices still depends, for its entire access to customers,
-on an application store whose ranking and review decisions it can neither see nor predict nor contest. A
-merchant in full compliance with the GDPR watches its sales collapse when the marketplace changes how it
-surfaces listings. A creator obeys every platform policy and loses an audience to a recommendation change
-announced nowhere. Compliance governs how these actors handle data. Their market positions are decided
-somewhere else, inside the algorithmic systems through which the platform chooses what to surface and what to
-bury (Cutolo & Kenney, 2021; Rahman, 2021; Rahman et al., 2024).
+on an application store whose ranking and review decisions it can neither usefully see nor predict nor
+contest. Disclosure duties and complaint channels now reach parts of that layer, and section 3.2 takes them
+up. They still leave the merchant whose listings disappear, and the creator whose audience vanishes in a
+recommendation change announced nowhere, without standing over the determination that decided the outcome.
+Compliance governs how these actors handle data. Their market positions are decided somewhere else, inside
+the algorithmic systems through which the platform chooses what to surface and what to bury (Cutolo & Kenney,
+2021; Rahman, 2021; Rahman et al., 2024).
 
 Behind the gap lies a pattern older than the platforms. Every form of sovereignty has required a competence
 equal to the medium through which authority runs, and the competence and the accountability have always
@@ -66,7 +67,7 @@ share in the governance of the arrangement. Digital sovereignty asks who control
 Coordinative sovereignty asks what autonomy remains for the actor coordinating through it. The two vary
 independently, and telling them apart is what the argument turns on.
 
-The word "sovereignty" carries an objection worth meeting early. Bodin (1576/1992) made sovereignty supreme,
+The word "sovereignty" carries an objection that arrives early. Bodin (1576/1992) made sovereignty supreme,
 perpetual, and indivisible, so a standing that is shared, partial, and exercised by complaint can look like a
 misuse of the term. The democratic tradition dissolved that difficulty long ago. Habermas (1996) describes
 popular sovereignty as desubstantialized, no longer seated in a person or an assembly at all: "sovereignty is
@@ -129,17 +130,18 @@ together, and no sovereignty can be contested by those who lack the competence i
 
 ### 2.3 Digital sovereignty as extended literacy
 
-Digital sovereignty, in most of its current forms, is the literate competence carried into the digital
-domain. The term refers to the ability of states, organizations, and communities to exercise control over
-their digital infrastructures, data, and technologies (Floridi, 2020; Hummel et al., 2021; Pohle & Thiel,
-2020), and the instruments through which it is pursued are technologies of reading and writing. The AI Act
-classifies systems and imposes documentation and transparency duties. The GDPR establishes data-subject
-rights exercised through notice, consent, access, and record-keeping. NIS2 mandates written cybersecurity
-governance. Each is a mechanism by which an actor with enough legal, technical, and regulatory literacy can
-inspect a system, compare it against a standard, and hold its operator to account (Fratini et al., 2024;
-Schmuntzsch et al., 2025). Digital sovereignty demands new registers of reading, and its logic is continuous
-with the literate order. It governs by making the digital object legible and by attaching consequences to
-what the legible object shows.
+In its regulatory strand, digital sovereignty is the literate competence carried into the digital domain.
+The term refers to the ability of states, organizations, and communities to exercise control over their
+digital infrastructures, data, and technologies (Floridi, 2020; Hummel et al., 2021; Pohle & Thiel, 2020).
+The AI Act classifies systems and imposes documentation and transparency duties. The GDPR establishes
+data-subject rights exercised through notice, consent, access, and record-keeping. NIS2 mandates written
+cybersecurity governance. Each is a mechanism by which an actor with enough legal, technical, and
+regulatory literacy can inspect a system, compare it against a standard, and hold its operator to account
+(Fratini et al., 2024; Schmuntzsch et al., 2025). That strand governs by making the digital object legible
+and by attaching consequences to what the legible object shows. An industrial strand — sovereign cloud,
+domestic capacity, data localization, procurement — works instead by jurisdiction and ownership, and the
+literacy frame reaches it only partly. The argument that follows engages the regulatory strand, where the
+continuity with literacy is tightest.
 
 Two changes in kind mark the sequence, and only the first is complete. Speech to writing is finished, and a
 scribe works a different medium from a better speaker. Writing to
@@ -450,12 +452,13 @@ transaction given the legal environment, and a court asks whether to compel acce
 exists. The bypass test asks which of those constraints is load-bearing.
 
 The same divergence appears on a platform, which is where it matters. Take the gate an application store
-holds over payment inside an application. Delete it as a node and ask whether another actor could process
-that payment on the device: under the platform's own rules none may, so every node test returns a mediator
-that cannot be replaced. Restore the developer-to-user tie for payment, through sideloading or a link to an
-external purchase, and the gate's force disappears, because it never rested on integrating work. Node says
-necessary and edge says contingent, on the same function, in the same firm. The Digital Markets Act's
-anti-steering obligations are the edge test run by a regulator.
+holds over payment inside an application. Delete it as a node and ask whether another payment rail could
+practicably reach the same users on that device at comparable cost: the installed base, the store's default
+position, and the cost of teaching users a second checkout all answer no, so every node test returns a
+mediator that cannot be replaced. Restore the developer-to-user tie for payment, through sideloading or a
+link to an external purchase, and the gate's force disappears, because it never rested on integrating work.
+Node says necessary and edge says contingent, on the same function, in the same firm. The Digital Markets
+Act's anti-steering obligations are the edge test run by a regulator.
 
 One relative is closer than any of the three, and naming it strengthens the claim. European
 competition law already runs this counterfactual on contract terms. Under the ancillary-restraints doctrine a
@@ -541,14 +544,14 @@ aggregates demand, putting the hotel in front of travelers who would never have 
 from being listed on an agency at all, though later work has not consistently reproduced it (Beritelli &
 Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price lower on its own site.
 
-Run the counterfactual on each function separately. Restore the direct hotel-to-traveler tie for a traveler
+Run the counterfactual on each function separately. Restore the capability of direct dealing for a traveler
 who already knows the hotel exists, and the parity clause does nothing: it was held in place by a contract,
-and it is contingent. Restore the same tie for a traveler who has never heard of the hotel, and the tie
-carries no information, because there was no relationship to restore. Demand aggregation survives the bypass,
-and it is necessary. The verdict is a split, and it names two different instruments. Against the parity
-clause the move is exit, pursued through contract law and competition enforcement. Against demand
-aggregation, exit is unavailable and the move is voice, pursued through terms the hotel has standing to
-contest.
+and it is contingent. Restore the same capability for a traveler who would never have learned that the hotel
+exists, and no direct channel at comparable cost reproduces the introduction the agency performed. Demand
+aggregation survives the bypass for that traveler, and it is necessary. The verdict is a split, and it names
+two different instruments. Against the parity clause the move is exit, pursued through contract law and
+competition enforcement. Against demand aggregation, exit is unavailable and the move is voice, pursued
+through terms the hotel has standing to contest.
 
 Europe has spent a decade opening the parity gate, which lets the two readings be compared against an
 outcome. The major agencies abandoned wide parity clauses in 2015 under pressure from national competition
@@ -566,15 +569,15 @@ Between 2013 and 2023 the agencies' share of European hotel overnight stays rose
 direct bookings fell from 57.6% to 50.9% (Schegg, 2024). Dependence did not fall as the gate came open. It
 deepened.
 
-Two qualifications keep the case honest. The 2024 judgment postdates the last year of these data, so nothing
-here tests it; what the decade covers is the sequence from the 2015 abandonment of wide parity to the
+Two qualifications belong with the result. The 2024 judgment postdates the last year of these data, so
+nothing here tests it; what the decade covers is the sequence from the 2015 abandonment of wide parity to the
 national enforcement of 2021, and the judgment sets up a test a later study can run. And the function-split
 predicts the absence of the erosion the rival reading expects, not the increase that actually occurred, which
-owes something to mobile search and to consolidation among the agencies, the largest three of which hold
-roughly nine-tenths of the market. What the decade settles is narrower than a natural experiment and still
-decisive for the diagnostic: an actor treating the agency as one leaveable thing would have read the
-direction of travel backwards, and a hotel that spent the decade trying to leave mistook the necessary
-function for the contingent one.
+owes something to mobile search and to consolidation among the agencies, of which a small number of large
+firms hold most of the market. What the decade shows is narrower than a natural experiment and still enough
+to sort the two readings: an actor treating the agency as one leaveable thing would have read the direction
+of travel backwards, and a hotel that spent the decade trying to leave mistook the necessary function for the
+contingent one.
 
 ## 6. Coordinative sovereignty: a definition
 
@@ -595,7 +598,7 @@ interference (Pettit, 1997; Skinner, 1998). An actor can be left alone and still
 mercy of a power that could interfere at will, on terms it cannot contest, which is the condition of the
 platform-dependent actor. Muldoon and Raekstad (2023) argue the case directly for algorithmic management,
 treating it as a socio-technical system in which owners and managers hold arbitrary power over those enrolled
-in it. A standing objection to that application is worth meeting: a ranking system is not an agent, so its
+in it. A standing objection to that application remains: a ranking system is not an agent, so its
 power may not be arbitrary in the sense republican theory requires. Cicerchia (2022) supplies the answer,
 arguing that non-domination as usually stated has insufficient scope for structural domination while an
 adequate account of structural domination still requires that agency be involved. The interest in a platform
@@ -885,12 +888,12 @@ leave.
 
 The line between mediators an actor can leave and mediators it can only govern is checkable by a
 counterfactual that asks what a mediator would still do if the parties it stands between could reach each
-other directly. Where the mediator is contingent, the older sovereignty of exit still works, and the
-instruments of digital sovereignty apply. Where the mediator is necessary, only voice remains, resting on
-non-domination, relational autonomy, involvement, and commons governance, and realized, if at all, through
-cooperatives, trusts, collective bargaining, contestability, and standing channels of governance. Europe's
-hotels spent a decade prying open a gate their dependence did not run through, and came out of it more
-dependent than they went in.
+other directly. Where the mediator is contingent, the older sovereignty of exit still works, and
+exit-restoring instruments — including some pursued under the digital-sovereignty agenda — apply. Where the
+mediator is necessary, only voice remains, resting on non-domination, relational autonomy, involvement, and
+commons governance, and realized, if at all, through cooperatives, trusts, collective bargaining,
+contestability, and standing channels of governance. Europe's hotels spent a decade prying open a gate their
+dependence did not run through, and came out of it more dependent than they went in.
 
 Literacy was once the possession of a clerical few and became, unevenly and incompletely, a general condition
 of citizenship, and democratic sovereignty followed the diffusion of the competence that made it possible.
@@ -1267,8 +1270,9 @@ Oxford University Press.
 ## Key Terms and Definitions
 
 **Digital sovereignty:** The capacity of a state, organization, or community to exercise control over its
-digital infrastructure, data, and technologies. This chapter treats it as a literacy-based form of
-governance, attained by reading and holding to account what a digital system discloses.
+digital infrastructure, data, and technologies. In its regulatory strand this chapter treats it as a
+literacy-based form of governance, attained by reading and holding to account what a digital system
+discloses; its industrial strand works by jurisdiction and ownership.
 
 **Coordinative sovereignty:** The autonomy proper to being irreducibly coordinated. It is the standing to
 shape the terms on which one is mediated, to contest the mediator's arbitrary power, and to hold a share in
