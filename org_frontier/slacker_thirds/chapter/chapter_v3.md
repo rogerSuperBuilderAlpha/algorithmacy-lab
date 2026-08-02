@@ -14,8 +14,8 @@ What the film does next it does about three dozen times. It follows someone unti
 the frame, then leaves with the stranger. There is no protagonist. Of the ninety-eight credited roles,
 almost none meet twice.[^2] Linklater shot it on 16mm in the summer of 1989 for about $23,000, opened
 it at Austin's Dobie Theatre in July 1990 where it ran eleven weeks, and when Orion Classics released
-it nationally the following July it took in something over a million dollars on a top of sixteen
-screens.[^3]
+it nationally the following July it took in something over a million dollars, playing at its widest in
+sixteen theatres.[^3]
 
 By every rule of screenwriting I know, a hundred minutes of that should be unfollowable. So I want to
 know what people were following.
@@ -256,7 +256,10 @@ visits, and somebody chose it.
 Uber does not put drivers and riders within reach of each other and leave them to it. It chooses which
 driver gets which ride, and nothing in the design lets the two settle anything between themselves. That
 much has been true since researchers first studied the app.[^47] What a decade of subsequent work adds
-is a precise account of what a selector can do that a camera cannot, and it comes to three things.
+is a precise account of what a selector can do that a camera cannot, and it comes to three things. They
+are not the standard list. Katherine Kellogg, Melissa Valentine and Angèle Christin catalogue
+algorithmic control as six functions running from an employer down to a worker; what follows runs
+sideways, from a third party across a pair it has itself assembled.[^47a]
 
 The first is that it prices each match. Uber announced dynamic pricing in London in February 2023 and
 completed the rollout across the UK that summer, and an audit built from drivers pooling their own
@@ -274,7 +277,7 @@ optimum that induces overcongestion in some places and prices others out.[^49] T
 a zone, which is what a setting does. All I can say is that surge has not been shown to know who the
 two parties are — a model that abstracts away from identity establishes nothing about identity.
 
-The second thing is that it reads the parties. Veena Dubal states flatly what the record supports:
+The second is that it reads the parties. Veena Dubal states flatly what the record supports:
 "people who are doing the same work, with the same skill, for the same company, at the same time may
 receive different hourly pay."[^50] She goes further, and marks it as inference when she does — the
 wage manipulators "appear to be personalized based on what Uber's machine learning systems know about
@@ -287,7 +290,7 @@ reading sits on the pricing side, which is not the same as the pricing power ove
 people differently you have first to tell them apart. What has no evidence behind it is reading in
 order to match.
 
-The third thing is that it can remove a party, and that power has recently been litigated from both
+The third is that it can remove a party, and that power has recently been litigated from both
 directions. In April 2023 the Amsterdam Court of Appeal held that Uber's deactivation of three drivers
 had been taken by automated means: notes written in Kraków by staff whose qualifications Uber never
 disclosed, about drivers who were never heard, "in no way show that this act was much more than a
@@ -379,11 +382,12 @@ has a reason to correct the flattering half.
 Every link in the chain that carried *Slacker* to an audience was a person who could be telephoned.
 Pierson, a producer's representative whose job was introducing films to buyers, took it to them. The
 Dobie booked it on its own judgment and held it eleven weeks. Orion Classics bought it and released it
-nationally on a top of sixteen screens — not a national audience reached but sixteen placements argued
-for one at a time, which is the scale to hold in mind before comparing any of this with a recommender.
+nationally, in sixteen theatres at its widest — not a national audience reached but sixteen bookings
+argued for one at a time, which is the scale to hold in mind before comparing any of this with a
+recommender.
 
-Address was possible, and refusal was attributable. Both halves matter, because the arguing did not
-always work. Linklater and Pierson took the video release to Susan Blodgett, who ran Orion's home video
+You could reach these people, and when they said no you knew who had said it. Both halves matter,
+because the arguing did not always work. Linklater and Pierson took the video release to Susan Blodgett, who ran Orion's home video
 division, and lost: the company shipped 7,000 cassettes, its foreign-language quantity, against a
 tie-in book that sold 20,000.[^67] The film played three months past Orion's Chapter 11 filing that December, so the second
 window was starved by a division applying a default rather than killed by the bankruptcy.[^68] One gate
@@ -408,8 +412,10 @@ refilled.[^70] Theatrical distribution changed shape more than it shrank — and
 in 1990, with no other bidder and one modest offer taken on a template, looks more like the present
 than like the boom in between.
 
-What changed is what a party is told. Amazon publishes its own account of how titles are licensed for
-Prime Video, and two of the three powers are on the page. It reads: "we continuously review performance
+What changed is what a party is told. Here the seat shifts: a landing page selects among titles for a
+viewer, and what follows is the supplier's side of the same platform, which is where the powers happen
+to be written down. Amazon publishes its own account of how titles are licensed for Prime Video, and
+two of the three powers are on the page. It reads: "we continuously review performance
 metrics and viewing behavior." It removes: titles may be taken down "at any time at the sole discretion
 of Prime Video." Pricing the page says nothing about. What it adds instead is a fourth thing the three
 questions do not reach. Amazon promises a supplier the verdict — visibility in the portal if a title
@@ -430,7 +436,8 @@ contestable rather than proprietary I cannot answer, and I am less sure than I w
 training I have been describing is a resource for it rather than part of why it has not happened.
 
 *Slacker*'s politics were mistaken for apathy, and the film headed the charge off itself on one of the
-oblique-strategies cards a passerby hands out in it. Its people withdrew from plot, career and
+oblique-strategies cards a passerby hands out in it: "Withdrawing in disgust is not the same thing as
+apathy."[^71a] Its people withdrew from plot, career and
 convergence and stayed coordinated anyway — put within reach by a cheap and legible city, and shown to
 us one at a time by a camera that took nothing from them except a day, and gave the day back watchable.
 Both kinds of coordination do their work in the open here, in a film anyone can watch, which is the
@@ -442,7 +449,7 @@ rarest thing about it.
 
 [^1]: *Slacker*, dir. Richard Linklater (Detour Filmproduction, 1990), end credits; American Film Institute, "Slacker (1991)," *AFI Catalog of Feature Films*, record no. 59046. The Criterion Collection's online cast list renders the credit "Should have stayed at the bus station"; the print and AFI have no definite article.
 [^2]: AFI, record no. 59046 (98 credited roles across 97 performers). Contemporary sources put the figure at "a hundred or so"; Jonathan Rosenbaum counted "around 90."
-[^3]: "A $23,000 Film Is Turning Into a Hit," *New York Times*, August 7, 1991, sec. C, p. 13; Box Office Mojo, "Slacker — Original Release (Domestic)," release record rl3815867905.
+[^3]: "A $23,000 Film Is Turning Into a Hit," *New York Times*, August 7, 1991, sec. C, p. 13, for the eleven-week Dobie run; Box Office Mojo, "Slacker — Original Release (Domestic)," release record rl3815867905, whose field reads "Widest Release 16 theaters." The shooting date and format are from the production record and are not independently sourced here.
 [^4]: Kenneth Turan, "Movie Review: There's Too Much Slack in Richard Linklater's 'Slacker,'" *Los Angeles Times*, July 26, 1991. The retrieved set also comprises Roger Ebert, "Slacker," *Chicago Sun-Times*, August 23, 1991; Desson Howe, "'Slacker' (R)," *Washington Post*, August 23, 1991; Variety Staff, "Slacker," *Variety*; Vincent Canby, "Review/Film; 'Slacker,' a Collection of Eccentrics and Lunacies," *New York Times*, July 5, 1991, sec. C, p. 6, excerpting his review of March 22, 1991; and Jonathan Rosenbaum, "Slacker," *Chicago Reader*, August 23, 1991. The 1990–91 trade press, the *Village Voice* and *Sight and Sound* could not be reached.
 [^5]: Hal Hinson, "'Slacker' (R)," *Washington Post*, August 23, 1991.
 [^6]: John Pierson, "Slacker: Slacking Off," from *Spike, Mike, Slackers & Dykes* (New York: Hyperion, 1996), reprinted by The Criterion Collection.
@@ -489,6 +496,7 @@ rarest thing about it.
 [^45]: Maria Poulaki, *Before or Beyond Narrative? Towards a Complex Systems Theory of Contemporary Films* (PhD thesis, Universiteit van Amsterdam; Amsterdam: Rozenberg, 2011), 153. Her *Screen* article, "Network Films and Complex Causality," 55, no. 3 (2014): 379–395, states the position; I quote the thesis throughout because I have not obtained the article's full text.
 [^46]: Poulaki, *Before or Beyond Narrative?*, 135 (the *Gomorrah* link), 103–4 (the catalogue and the informational reading).
 [^47]: Alex Rosenblat and Luke Stark, "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers," *International Journal of Communication* 10 (2016): 3758–3784. The driver-facing interface has changed substantially since; Uber now shows an estimated fare and the nearest cross streets before acceptance.
+[^47a]: Katherine C. Kellogg, Melissa A. Valentine, and Angèle Christin, "Algorithms at Work: The New Contested Terrain of Control," *Academy of Management Annals* 14, no. 1 (2020): 366–410. Their six are restricting, recommending, recording, rating, replacing and rewarding.
 [^48]: Reuben Binns, Jake Stein, Siddhartha Datta, Max Van Kleek, and Nigel Shadbolt, "Not Even Nice Work If You Can Get It: A Longitudinal Study of Uber's Algorithmic Pay and Pricing," in *Proceedings of FAccT '25* (New York: ACM, 2025), 1484–1497. The sample is UK, self-selected, and drawn through a workers' data-rights organisation.
 [^49]: Omar Besbes, Francisco Castro, and Ilan Lobel, "Surge Pricing and Its Spatial Supply Response," *Management Science* 67, no. 3 (2021): 1350–1367. See also Juan Camilo Castillo, "Who Benefits From Surge Pricing?" *Econometrica* 93, no. 5 (2025): 1811–1854, finding rider surplus rising and driver surplus falling.
 [^50]: Veena Dubal, "On Algorithmic Wage Discrimination," *Columbia Law Review* 123, no. 7 (2023): 1929–1992, at 1936.
@@ -513,6 +521,7 @@ rarest thing about it.
 [^69]: Cathrin Bengesser, Matthew Hilborn, and Jeanette Steemers, "Comparative VOD Catalogue Research: Circulation, Presence and Prominence of British Content in Europe," *Convergence* 31, no. 5 (2025): 1511–1531.
 [^70]: Yannis Tzioumakis, "After the 'Great Studio Pullback of '08,'" *Media Industries* 10, no. 1 (2023).
 [^71]: Amazon.com, Inc., "Prime Video Direct Content Providers: Licensing Consideration and Title Review," Prime Video Tech Docs, last updated August 5, 2025.
+[^71a]: Ron Rosenbaum, "*Slacker*'s Oblique Strategy," *New York Observer*, August 13, 2001, reprinted by The Criterion Collection. Rosenbaum gives the line as above; several published accounts drop "thing." I have not checked it against the print.
 
 ---
 
@@ -575,6 +584,8 @@ Ildirar, Sermin, and Louise Ewing. "Revisiting the Kuleshov Effect with First-Ti
 Ildirar, Sermin, Daniel T. Levin, Stephan Schwan, and Tim J. Smith. "Audio Facilitates the Perception of Cinematic Continuity by First-Time Viewers." *Perception* 47, no. 3 (2018): 276–295.
 
 Kalmijn, Matthijs, and Henk Flap. "Assortative Meeting and Mating: Unintended Consequences of Organized Settings for Partner Choices." *Social Forces* 79, no. 4 (2001): 1289–1312.
+
+Kellogg, Katherine C., Melissa A. Valentine, and Angèle Christin. "Algorithms at Work: The New Contested Terrain of Control." *Academy of Management Annals* 14, no. 1 (2020): 366–410.
 
 Kwon, Seok-Woo, Emanuela Rondi, Daniel Z. Levin, Alfredo De Massis, and Daniel J. Brass. "Network Brokerage: An Integrative Review and Future Research Agenda." *Journal of Management* 46, no. 6 (2020): 1092–1120.
 
@@ -661,6 +672,8 @@ Orion Pictures Corporation. Annual Report on Form 10-K for the fiscal year ended
 Real Estate Center, Texas A&M University. *Texas Real Estate Center Trends* 3, no. 8 (April 1990).
 
 Rosenbaum, Jonathan. "Slacker." *Chicago Reader*, August 23, 1991.
+
+Rosenbaum, Ron. "*Slacker*'s Oblique Strategy." *New York Observer*, August 13, 2001. Reprinted by The Criterion Collection.
 
 Savlov, Marc. "Slack to the Future." *Austin Chronicle*, January 21, 2011.
 
