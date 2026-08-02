@@ -104,8 +104,30 @@ chapter bibliography.
       Body **5,000/5,000**; antithesis 2.2/1k; 59 note keys resolve both ways. **v2 is a parallel file — v1
       remains the vetted baseline; author picks which to carry forward.** Cutting, DeLong & Nothelfer 2010 and
       Mobbs et al. 2006 were NOT verified by the research pass and are deliberately not cited.
-- [ ] Collection's citation style + formatting guide (set in Chicago author-date pending the editor's
-      confirmation; conversion to notes-bibliography or MLA is mechanical)
+- **v3 rebuild (2026-08-01→02). `chapter/chapter_v3.md` is now the current manuscript.** v1 and v2 moved
+      unmodified to `chapter/archive/` — paths cited in older research and review files point at their old
+      locations. Rebuilt from research rather than edited: the apparatus is renamed (**setting** and
+      **selector**, not hosting/engineering third), seven per-section deep-research runs were verified under
+      three adversarial lenses (`research/deep/2026-08-01_s1..s7.md`), the outline was rebuilt with a fully
+      annotated bibliography per section (`outline_v3.md`), and an eleven-lens panel reviewed the result
+      (`reviews/2026-08-02/`). Body ~5,900 against a 5,000 ceiling — held deliberately; see
+      `editor_query.md` (drafted, **unsent**) and `chapter/v3_cut_ledger.md` for the ranked cut list if the
+      editor holds the line.
+      **Errors found and fixed that were present in v1 and v2:** the Stark & Pais quotation was half
+      fabricated ("accounts but no accountability" is not in the article); "an examiner, if a distracted one"
+      was cited to the wrong Benjamin translation; Smith & Mital 2013 was cited for a finding that paper
+      contradicts; the Dobie run was eleven weeks, not a year; the Canby review is 22 March, not 5 July; the
+      credit reads "Should have stayed at bus station" with no article; the $515→$350 rent anecdote traces to
+      a blog comment; "the film scarcely goes a mile east" is false; the council authorised a slogan rather
+      than declaring anything. **And one introduced in the v3 draft itself and caught by the panel:** a
+      fabricated Moretti quotation ("its temporal dimension for ever"), which appears in no source and no
+      project file. Corrected in both drafts.
+- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 73 notes plus a
+      three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline
-- [ ] Physical library checks (Simmel Wolff pages; 1992 St. Martin's book; Stone/Macor chapter contents;
-      Criterion 2004 commentary against the disc) — none blocks submission-quality citations as set
+- [ ] Physical library checks. Closed by the v3 research pass: Simmel's Wolff pages ("The Triad" is ch. IV,
+      145–169). Still open and now itemised in `reviews/2026-08-02/SYNTHESIS.md` §7: **Feld p. 1016** (decides
+      an internal contradiction), **Rivera, Soderstrom & Uzzi 2010** (decides how much of the §2 novelty claim
+      survives), **Moretti p. 3**, **Bordwell 1985 p. 62**, **Ramírez Berg's section page**, **Cameron 2024's
+      body text**, and **the Criterion disc** — one afternoon with the disc closes more than anything else on
+      the list, including the four counts that are the manuscript's only wholly unsourced claims.
