@@ -71,18 +71,21 @@ Net word effect ≈ 0; the body stays at ~5,150.
 | F7 | §1 | two consecutive TikTok sentences; merging must keep the Althouse credit | 04 P13 |
 | F8 | bib | Variety entry has no date; the record is genuinely ambiguous — do not invent one | 03 §5 |
 
-## 4. Standing author tasks (unchanged, re-confirmed against the current text)
+## 4. Standing author tasks
 
-- **T1** Criterion disc: the ~36 handoffs, "almost none meet twice," moon-landing answers, the card
-  quote, taxi paraphrase.
-- **T2** Feld 1981 p. 1016 and Rivera et al. 2010 in print.
-- **T4** Moretti p. 3 (note 44 already hedges).
+**Closed in the gates-2+3 follow-up:** Feld p. 1016 (article opened; definition in note 18); Moretti
+p. 3 (Stanford PDF); Bordwell 1985 p. 62 (pp. 48–62 reprint); Macor p. 105 (Barker relatives);
+Rivera first author corrected to Mark T.; the eight voice-level items applied; disc claims narrowed
+to shot-level handoff confirmation and the on-screen card (subtitle track + 35-segment inventory
+carry the rest).
+
+**Still open:**
+
+- **T1 residue** Criterion disc: shot-level count of the ~35 handoffs; the on-screen oblique-strategies
+  card (subtitle and Rosenbaum agree; the print card is the check).
 - **T5** Archive the Amazon page; access dates are in place.
-- **T6** Send `editor_query.md` (ceiling — now ~5,150; title/deadline; citation style; terminology).
-- New this pass: **Macor's page for the telephone check** (CT5 note marks it); **Bordwell 1985
-  p. 62** stays on the library list with its new disclosure.
-- `literature/references.md` still needs the rebuild `outline_v3.md` prescribes; the reframe's three
-  additions are verified but the file is otherwise a month stale.
+- **T6** Send `editor_query.md` (ceiling — now ~5,180; title/deadline; citation style; terminology).
+- `literature/references.md` still needs the rebuild `outline_v3.md` prescribes.
 
 ## 5. Declined
 

@@ -156,6 +156,17 @@ chapter bibliography.
       edits (the "matters because it matters" stammer, the dangling fixed-sequence sentence, "take
       rate" glossed, the last antecedent bug). Eight voice-level items flagged for the author in the
       synthesis, not applied. Body **~5,150 words**; 78 note keys resolve both ways.
+- [x] **Gates 2 + 3 closed (2026-08-02):** voice-level items applied (TikTok credit merged into the
+      Linklater pivot; "almost none meet another twice"; "three field-defining reviews"; "three powers
+      come with that sideways position"; reading-evidence sentence; remove-from-Austin parse;
+      Tzioumakis mid-sized independents gloss). Print/OA retrievals: **Feld 1981 p. 1016** opened
+      (MIT-hosted JSTOR scan; definition quoted in note 18); **Moretti p. 3** confirmed against the
+      Stanford PDF; **Bordwell 1985 p. 62** confirmed against a pp. 48–62 reprint; **Macor p. 105**
+      for the Barker relatives call (Internet Archive OCR); **Rivera first author corrected** from
+      Lauren to **Mark T.** (Crossref/OpenAlex — Lauren Rivera is a different scholar). Disc residue
+      narrowed to shot-level handoff confirmation and the on-screen oblique-strategies card; subtitle
+      track and the 35-segment inventory carry the rest. Body **~5,180 words**; 78 note keys. Editor
+      query (gate 1) still unsent.
 - [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 77 notes plus a
       three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline
