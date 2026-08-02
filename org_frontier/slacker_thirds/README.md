@@ -122,12 +122,20 @@ chapter bibliography.
       than declaring anything. **And one introduced in the v3 draft itself and caught by the panel:** a
       fabricated Moretti quotation ("its temporal dimension for ever"), which appears in no source and no
       project file. Corrected in both drafts.
-- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 73 notes plus a
+- [x] **Panel 3 re-review of the post-followup manuscript (2026-08-02):** eleven lenses in
+      `reviews/2026-08-02-panel3/` + `SYNTHESIS.md`. Verdicts: 2 major (editor, Reviewer 2), 9 minor.
+      Follow-up PRs #585/#587 held: Münsterberg, Rivera naming, Moretti fabrication, §7 power count, and
+      the worst ban/slop hits stay fixed. Still live and ranked in the panel-3 synthesis: §2 "reads both
+      parties" vs §5's matching concession; three-questions vs definitions; Cameron gloss (full text now
+      retrieved); Bordwell fairness; pap-smear location (not the Drag); Hansen arithmetic; title
+      placeholders; bibliography orphans; enclosure heading vs evidence; word ceiling (~6,100 vs 5,000).
+      Architectural decisions C1 (what the questions are for) and C2 (enclose or retitle §7) still need
+      the author before the next prose pass. This PR lands reviews only.
+- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 75 notes plus a
       three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline
 - [ ] Physical library checks. Closed by the v3 research pass: Simmel's Wolff pages ("The Triad" is ch. IV,
-      145–169). Still open and now itemised in `reviews/2026-08-02/SYNTHESIS.md` §7: **Feld p. 1016** (decides
-      an internal contradiction), **Rivera, Soderstrom & Uzzi 2010** (decides how much of the §2 novelty claim
-      survives), **Moretti p. 3**, **Bordwell 1985 p. 62**, **Ramírez Berg's section page**, **Cameron 2024's
-      body text**, and **the Criterion disc** — one afternoon with the disc closes more than anything else on
-      the list, including the four counts that are the manuscript's only wholly unsourced claims.
+      145–169). Still open and now itemised in `reviews/2026-08-02-panel3/SYNTHESIS.md` §7: **Feld p. 1016**,
+      **Rivera, Soderstrom & Uzzi 2010** end to end, **Moretti p. 3** confirm of the two retained phrases,
+      **Bordwell 1985 p. 62**, **Ramírez Berg's section page**, and **the Criterion disc**. Cameron's body
+      was opened by panel 3 (apply A2). One afternoon with the disc still closes more than anything else.
