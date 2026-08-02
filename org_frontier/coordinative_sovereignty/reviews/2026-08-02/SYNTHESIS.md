@@ -166,4 +166,13 @@ The unambiguous spine items were applied to `chapter/chapter.md` in the same com
   both "worth meeting" frames cut; abstract/§1 hook softened toward the §3.2 concession.
 
 Still open for the author: S2 cites (Apple, P2B COM(2025) 837, COM(2026) 178), Hirschman mapping,
-Art. 22 taxonomy, kind-claim pin, §5.1 plain-language pass, Anderson initials, quotation locators.
+Art. 22 taxonomy, kind-claim pin, Anderson initials, quotation locators.
+
+## Style pass addendum
+
+A dedicated prose review (`11_style.md`) ran after this panel against the author's bar: direct and clear,
+limit jargon, no throat-clearing or meta commentary. All paste-ready rewrites were applied to `chapter.md`
+in the same commit stream. Meta frames (`the argument`, `belong with`, `needs stating`, `strengthens the
+claim`, `guard the definition`, the §8 audience triad) are gone. §5.1 now leads with the plain bypass
+question. Antithesis fell from 2.7/1k to ~1.9/1k. The §5.1 plain-language item on the open list above is
+closed; content spine items (S2 cites, Hirschman mapping substance, Art. 22 taxonomy) remain author-side.
