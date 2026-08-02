@@ -769,8 +769,9 @@ and still hold no leverage over the ranking and review algorithms that set its v
 Apple €500 million in April 2025 for restricting how developers steer users to offers outside its App Store
 (European Commission, 2025b), a decision Apple has appealed (Case T-438/25), and further gatekeeper
 decisions have followed against other platforms. Ranking transparency is a separate and earlier obligation,
-set by the 2019 Platform-to-Business Regulation and the Digital Services Act. That Regulation does more than disclose, since it also requires internal
-complaint-handling, offers mediation, and gives representative organizations standing to bring proceedings,
+set by the 2019 Platform-to-Business Regulation and the Digital Services Act. That Regulation does more than
+disclose, since it also requires internal complaint-handling, offers mediation, and gives representative
+organizations standing to bring proceedings,
 which makes it one of the few instruments to attach a channel to a disclosure. The Commission has since
 proposed to repeal it as part of a wider simplification package (European Commission, 2025a), which would
 remove the only duty in European law to disclose the main parameters of ranking to the business users being

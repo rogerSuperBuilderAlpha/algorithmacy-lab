@@ -17,7 +17,28 @@ from the author's PDF, where "crystalize" is the source's own spelling; the anci
 re-anchored to Case C-264/23, para. 53; Pettit pages 47–68 confirmed from the publisher PDF and restored to
 the bib). A fresh de-slop pass cleared the residual copyeditor items — definition parallelism, semicolon
 splices, agentless passives, BrE residue, the §5.5 percent style, and a Reducible-mediator Key Term.
-Remaining author-side: the read-aloud (§5.3 and §3.2 first) and the logged author-only decisions.
+
+**Read-aloud, run 2026-08-02.** §5.3, §3.2, §5.2, and §6 read aloud after the review. Four trips found and
+fixed: the residual-lever sentence in §5.3 (interrupting clause smoothed), an institution/institutionally/
+institutions three-peat at the section's close (now "commands the least leverage"), the Art. 22 sentence in
+§3.2 (split in two, "protection stops at the natural person"), and a dash-then-colon pile in §5.2's
+capability sentence (now a plain sentence and a direct question). A second read-aloud in the author's own
+voice costs nothing and is still worth the half hour, but the pass is no longer owed.
+
+**Editor note on the title, ready to send** (volume editor's condition #4, declined by author decision —
+sending this makes it read as a choice):
+
+> On condition #4, the title: the chapter keeps "Algorithmacy and Sovereignty: Toward a Coordinative
+> Sovereignty for the Platform Era." The accepted abstract, the conference deck, and the poster all
+> circulated under it, and the keywords lead with "digital sovereignty," which covers the volume's
+> discoverability concern where indexing actually looks. If the volume allows a table-of-contents
+> annotation, "digital sovereignty and platform-dependent firms" would be the right one. Happy to revisit
+> if the title blocks anything at press.
+
+**Submission file.** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc, APA headings,
+anonymized) so the Word manuscript matches the markdown source. Reflow into the IGI template on submission.
+
+Remaining author-side: the Hunt et al. omission and the companion-paper scope, if a referee asks.
 
 Artifacts: `REVIEW.md` (section-by-section critique) · `OUTLINE.md` (architecture + contextual
 bibliographies) · `reviews_v2.md` (**the second review round, 2026-08-02, and the one to read first**) ·

@@ -134,3 +134,17 @@ closed and verified: S2 cites (Apple, COM(2025) 837, COM(2026) 178), Hirschman m
 kind-claim pin, Anderson initials, quotation locators. What remains is the author's own read-aloud —
 §5.3 and §3.2 carry the newest text and are the passages to read first — and the author-only decisions the
 panel already logged (title, Hunt omission, companion scope), which this pass did not reopen.
+
+## Addendum — read-aloud and submission mechanics, same day
+
+The read-aloud ran after the verdict above, over §5.3, §3.2, §5.2, and §6. Four trips, all fixed in
+`chapter.md`: the §5.3 residual-lever sentence (the interrupting "and, under a necessary mediator," clause
+smoothed into a parallel pair), the institution/institutionally/institutions three-peat closing §5.3 (now
+"commands the least leverage"), the §3.2 Art. 22 run-on (split, with "protection stops at the natural
+person" replacing the "natural persons" echo), and the §5.2 capability sentence's dash-then-colon pile (now
+a plain sentence followed by a direct question). Mechanical counts unmoved.
+
+HANDOFF section 0c now carries a ready-to-send editor note on the retained title and records the
+regenerated Word manuscript. The Apple appeal docket cleared verification on a second route: the Official
+Journal notice C/2025/5215 (6 October 2025) records Case T-438/25, Apple v Commission, action brought
+7 July 2025 against Decision C(2025) 2090. The docket is now cited in §8 and listed under Cases as pending.
