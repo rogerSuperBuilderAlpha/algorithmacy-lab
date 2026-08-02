@@ -16,12 +16,15 @@ Books and chapters:
 - Stone, Rob. *The Cinema of Richard Linklater: Walk, Don't Run*. Rev. ed. Directors' Cuts. New York: Wallflower Press/Columbia University Press, 2018 (1st ed. 2013). [https://cup.columbia.edu/book/the-cinema-of-richard-linklater/9780231165525/ ; https://www.jstor.org/stable/10.7312/ston17920]
 
 Articles:
+- Anikina, Alexandra. "Automating Platform Spectators." *Digital Culture & Society* 7, no. 2 (2021): 119–138. https://doi.org/10.14361/dcs-2021-070206.
+- Kendall, Tina. "From Binge-Watching to Binge-Scrolling." *Film Quarterly* 75, no. 1 (2021): 41–46. https://doi.org/10.1525/fq.2021.75.1.41.
 - Małecka, Katarzyna. "In Praise of Slacking: Richard Linklater's Slacker and Kevin Smith's Clerks as Hallmarks of 1990s American Independent Cinema Counterculture." *Text Matters* 5 (2015): 189–204. https://doi.org/10.1515/texmat-2015-0014.
 - Marlovits, John. "Give Me Slack: Depression, Alertness, and Laziness in Seattle." *Anthropology of Consciousness* 24, no. 2 (2013): 137–157. https://doi.org/10.1111/anoc.12011.
 - Oake, Jonathon I. "Reality Bites and Generation X as Spectator." *The Velvet Light Trap* 53 (2004): 83–97. [https://muse.jhu.edu/pub/15/article/52323/pdf]
 - Speed, Lesley. "The Possibilities of Roads Not Taken: Intellect and Utopia in the Films of Richard Linklater." *Journal of Popular Film and Television* 35, no. 3 (2007): 98–106. https://doi.org/10.3200/JPFT.35.3.98-106.
 
 Criticism, interviews, primary web sources:
+- Althouse, Ann. "Who's Ever Written a Great Work About the Immense Effort Required in Order Not to Create?" *Althouse*, July 11, 2026. https://althouse.blogspot.com/2026/07/whos-ever-written-great-work-about.html.
 - Barker, Michael. "Slacker: Looking Back." Criterion, Sept. 13, 2004 (orig. 2001 AFS reunion program). https://www.criterion.com/current/posts/1060-slacker-looking-back
 - Baumgarten, Marjorie. "Slack Where We Started: Richard Linklater and John Pierson Ponder 'Slacker' and Its Aftermath." *Austin Chronicle*, June 29, 2001. https://www.austinchronicle.com/screens/2001-06-29/82235/
 - Canby, Vincent. "Review/Film; 'Slacker,' a Collection of Eccentrics and Lunacies." *New York Times*, July 5, 1991, C6 (excerpting his Mar. 22, 1991 review). https://www.nytimes.com/1991/07/05/movies/review-film-slacker-a-collection-of-eccentrics-and-lunacies.html
@@ -34,7 +37,7 @@ Criticism, interviews, primary web sources:
 - Hinson, Hal. "'Slacker': Loaf on the Edge." *Washington Post*, Aug. 23, 1991. https://www.washingtonpost.com/archive/lifestyle/1991/08/23/slacker-loaf-on-the-edge/7345af35-7730-4f3d-bd20-6be90d433f7b/
 - Linklater, Richard. "Linklater on Linklater" (1991 self-interview). *Austin Chronicle*, Sept. 1991; repr. July 24, 2020. https://www.austinchronicle.com/screens/2020-07-24/from-the-archives-linklater-on-linklater/
 - Rosenbaum, Ron. "Slacker's Oblique Strategy." *New York Observer*, Aug. 13, 2001; repr. Criterion, Sept. 13, 2004. https://www.criterion.com/current/posts/1058-slacker-s-oblique-strategy
-- Savlov, Marc. "Slack to the Future." *Austin Chronicle*, Jan. 21, 2011. https://www.austinchronicle.com/screens/2011-01-21/slack-to-the-future/
+- Savlov, Marc. "Slack to the Future." *Austin Chronicle*, Jan. 21, 2011. https://www.austinchronicle.com/screens/slack-to-the-future-11750242/
 - Whittaker, Richard. "AFS on Slacker at the Dobie." *Austin Chronicle*, July 27, 2020. https://www.austinchronicle.com/daily/screens/2020-07-27/now-streaming-in-austin-1990-the-year-richard-linklaters-slacker-broke/
 - Wikipedia. "Slacker (film)." https://en.wikipedia.org/wiki/Slacker_(film)
 - Wilkins, Budd. "Blu-ray Review: Richard Linklater's Slacker on the Criterion Collection." *Slant*, Sept. 22, 2013. https://www.slantmagazine.com/dvd/slacker/
