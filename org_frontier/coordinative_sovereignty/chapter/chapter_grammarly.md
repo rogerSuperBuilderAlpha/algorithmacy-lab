@@ -1,6 +1,6 @@
 <!-- Paste-ready for Grammarly: soft-wrapped paragraphs, one blank line between them.
+     Full chapter including References, Cases, Additional Reading, and Key Terms.
      Source of truth remains chapter.md (hard-wrapped for git diffs).
-     This file is body only (Abstract through Conclusion); paste that into Grammarly.
      Regenerate from chapter.md after substantive edits. -->
 
 # Algorithmacy and Sovereignty: Toward a Coordinative Sovereignty for the Platform Era
@@ -263,3 +263,279 @@ Sovereignty has always been the standing to hold power to account through the me
 The line between mediators an actor can leave and mediators it can only govern is checkable by a counterfactual that asks what a mediator would still do if the parties it stands between could reach each other directly. Where the mediator is contingent, the older sovereignty of exit still works, and exit-restoring instruments — including some pursued under the digital-sovereignty agenda — apply. Where the mediator is necessary, only voice remains, resting on non-domination, relational autonomy, involvement, and commons governance, and realized, if at all, through cooperatives, trusts, collective bargaining, contestability, and standing channels of governance. Europe's hotels spent a decade prying open a gate their dependence did not run through, and came out of it more dependent than they went in.
 
 Literacy was once the possession of a clerical few and became, unevenly and incompletely, a general condition of citizenship, and democratic sovereignty followed the diffusion of the competence that made it possible. Algorithmacy is now held by a narrow class of those who can model and act within the systems that coordinate the rest, and the market that currently teaches it rewards compliance. Sovereignty in the age of artificial intelligence rests on the standing of the coordinated to govern the coordinations that govern them, and on the diffusion of the competence that standing requires. Neither reading alone nor control alone secures it.
+
+## References
+
+Adler, P. S. (2001). Market, hierarchy, and trust: The knowledge economy and the future of capitalism. *Organization Science, 12*(2), 215–234. https://doi.org/10.1287/orsc.12.2.215.10117
+
+Alfrink, K., Keller, I., Kortuem, G., & Doorn, N. (2023). Contestable AI by design: Towards a framework. *Minds and Machines, 33*(4), 613–639. https://doi.org/10.1007/s11023-022-09611-z
+
+Ananny, M., & Crawford, K. (2018). Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability. *New Media & Society, 20*(3), 973–989. https://doi.org/10.1177/1461444816676645
+
+Anderson, B. (2006). *Imagined communities: Reflections on the origin and spread of nationalism* (Rev. ed.). Verso. (Original work published 1983)
+
+Anderson, C. K. (2009). *The billboard effect: Online travel agent impact on non-OTA reservation volume* (Cornell Hospitality Report). Cornell University Center for Hospitality Research.
+
+Anderson, C. K. (2011). *Search, OTAs, and online booking: An expanded analysis of the billboard effect* (Cornell Hospitality Report, 11[8]). Cornell University Center for Hospitality Research.
+
+Anderson, E. (2017). *Private government: How employers rule our lives (and why we don't talk about it)*. Princeton University Press. https://doi.org/10.1515/9781400887781
+
+Armstrong, M. (2006). Competition in two-sided markets. *RAND Journal of Economics, 37*(3), 668–691. https://doi.org/10.1111/j.1756-2171.2006.tb00037.x
+
+Author. (2026). *Details omitted for double-anonymized review*.
+
+Baldwin, C. Y. (2008). Where do transactions come from? Modularity, transactions, and the boundaries of firms. *Industrial and Corporate Change, 17*(1), 155–195. https://doi.org/10.1093/icc/dtm036
+
+Bannerman, S. (2024). Platform imperialism, communications law and relational sovereignty. *New Media & Society, 26*(4), 1816–1833. https://doi.org/10.1177/14614448221077284
+
+Beritelli, P., & Schegg, R. (2016). Maximizing online bookings through a multi-channel-strategy: Effects of interdependencies and networks. *International Journal of Contemporary Hospitality Management, 28*(1), 68–88. https://doi.org/10.1108/IJCHM-07-2014-0326
+
+Berlin, I. (1969). Two concepts of liberty. In *Four essays on liberty*. Oxford University Press.
+
+Bernot, A. (2025). WeChat-as-a-police service. *Policy & Internet, 17*(4), Article e70018. https://doi.org/10.1002/poi3.70018
+
+Bishop, S. (2020). Algorithmic experts: Selling algorithmic lore on YouTube. *Social Media + Society, 6*(1). https://doi.org/10.1177/2056305119897323
+
+Bodin, J. (1992). *On sovereignty: Four chapters from the six books of the commonwealth* (J. H. Franklin, Ed. & Trans.). Cambridge University Press. (Original work published 1576)
+
+Bradford, A. (2023). *Digital empires: The global battle to regulate technology*. Oxford University Press.
+
+Bucher, E. L., Schou, P. K., & Waldkirch, M. (2021). Pacifying the algorithm – Anticipatory compliance in the face of algorithmic management in the gig economy. *Organization, 28*(1), 44–67. https://doi.org/10.1177/1350508420961531
+
+Burrell, J. (2016). How the machine "thinks": Understanding opacity in machine learning algorithms. *Big Data & Society, 3*(1). https://doi.org/10.1177/2053951715622512
+
+Burt, R. S. (2004). Structural holes and good ideas. *American Journal of Sociology, 110*(2), 349–399. https://doi.org/10.1086/421787
+
+Cicerchia, L. (2022). Structural domination in the labor market. *European Journal of Political Theory, 21*(1), 4–24. https://doi.org/10.1177/1474885119851094
+
+Cohen, J. E. (2017). Law for the platform economy. *UC Davis Law Review, 51*(1), 133–204.
+
+Cotter, K., & Reisdorf, B. C. (2020). Algorithmic knowledge gaps: A new horizon of (digital) inequality. *International Journal of Communication, 14*.
+
+Couture, S., & Toupin, S. (2019). What does the notion of "sovereignty" mean when referring to the digital? *New Media & Society, 21*(10), 2305–2322. https://doi.org/10.1177/1461444819865984
+
+Curchod, C., Patriotta, G., Cohen, L., & Neysen, N. (2020). Working for an algorithm: Power asymmetries and agency in online work settings. *Administrative Science Quarterly, 65*(3), 644–676. https://doi.org/10.1177/0001839219867024
+
+Cutolo, D., & Kenney, M. (2021). Platform-dependent entrepreneurs: Power asymmetries, risks, and strategies in the platform economy. *Academy of Management Perspectives, 35*(4), 584–605. https://doi.org/10.5465/amp.2019.0103
+
+Dasgupta, P., McDonnell, A., Carbery, R., & Jooss, S. (2025). A systematic review on worker voice in the platform economy: The constitution of a grassroots voice mechanism. *Human Resource Management Journal, 35*(3), 649–666. https://doi.org/10.1111/1748-8583.12587
+
+Delacroix, S., & Lawrence, N. D. (2019). Bottom-up data trusts: Disturbing the "one size fits all" approach to data governance. *International Data Privacy Law, 9*(4), 236–252. https://doi.org/10.1093/idpl/ipz014
+
+DeVito, M. A. (2021). Adaptive folk theorization as a path to algorithmic literacy on changing platforms. *Proceedings of the ACM on Human-Computer Interaction, 5*(CSCW2), Article 339. https://doi.org/10.1145/3476080
+
+Dogruel, L., Masur, P., & Joeckel, S. (2022). Development and validation of an algorithm literacy scale for internet users. *Communication Methods and Measures, 16*(2), 115–133. https://doi.org/10.1080/19312458.2021.1968361
+
+Eisenmann, T. R., Parker, G., & Van Alstyne, M. W. (2006). Strategies for two-sided markets. *Harvard Business Review, 84*(10), 92–101.
+
+Eisenstein, E. L. (1979). *The printing press as an agent of change: Communications and cultural transformations in early modern Europe*. Cambridge University Press.
+
+Eslami, M., Karahalios, K., Sandvig, C., Vaccaro, K., Rickman, A., Hamilton, K., & Kirlik, A. (2016). First I "like" it, then I hide it: Folk theories of social feeds. In *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems* (pp. 2371–2382). ACM. https://doi.org/10.1145/2858036.2858494
+
+European Commission. (2025a). *Proposal for a regulation as regards the simplification of the digital legislative framework (Digital Omnibus)* (COM(2025) 837 final).
+
+European Commission. (2025b). *Summary of Commission decision of 23 April 2025 relating to a decision pursuant to Regulation (EU) 2022/1925 (Case DMA.100109 — Apple — online intermediation services — app stores — Article 5(4))* (OJ C/2025/3348).
+
+European Commission. (2026). *Report on the review of Regulation (EU) 2022/1925 (Digital Markets Act)* (COM(2026) 178 final).
+
+European Competition Network. (2017). *Report on the monitoring exercise carried out in the online hotel booking sector by EU competition authorities in 2016*. European Commission, DG Competition.
+
+European Parliament & Council of the European Union. (2024). *Directive (EU) 2024/2831 of the European Parliament and of the Council of 23 October 2024 on improving working conditions in platform work* (Official Journal of the European Union, L 2024/2831). http://data.europa.eu/eli/dir/2024/2831/oj
+
+Floridi, L. (2020). The fight for digital sovereignty: What it is, and why it matters, especially for the EU. *Philosophy & Technology, 33*(3), 369–378. https://doi.org/10.1007/s13347-020-00423-6
+
+Fortuny-Sicart, A., Pansera, M., & Lloveras, J. (2024). Directing innovation through confrontation and democratisation: The case of platform cooperativism. *Journal of Responsible Innovation, 11*(1), Article 2414512. https://doi.org/10.1080/23299460.2024.2414512
+
+Fratini, S., Hine, E., Novelli, C., Roberts, H., & Floridi, L. (2024). Digital sovereignty: A descriptive analysis and a critical evaluation of existing models. *Digital Society, 3*(3), Article 59. https://doi.org/10.1007/s44206-024-00146-7
+
+Gagričin, E., Naab, T. K., & Grub, M. F. (2026). Algorithmic media use and algorithm literacy: An integrative literature review. *New Media & Society, 28*, 423–447. https://doi.org/10.1177/14614448241291137
+
+Gehl, R. W., & Zulli, D. (2023). The digital covenant: Non-centralized platform governance on the Mastodon social network. *Information, Communication & Society, 26*(16), 3275–3291. https://doi.org/10.1080/1369118X.2022.2147400
+
+Goody, J. (1977). *The domestication of the savage mind*. Cambridge University Press.
+
+Gu, G., & Zhu, F. (2021). Trust and disintermediation: Evidence from an online freelance marketplace. *Management Science, 67*(2), 794–807. https://doi.org/10.1287/mnsc.2020.3583
+
+Habermas, J. (1989). *The structural transformation of the public sphere: An inquiry into a category of bourgeois society* (T. Burger & F. Lawrence, Trans.). MIT Press. (Original work published 1962)
+
+Habermas, J. (1996). *Between facts and norms: Contributions to a discourse theory of law and democracy* (W. Rehg, Trans.). MIT Press.
+
+Hahl, O., Kacperczyk, A., & Davis, J. P. (2016). Knowledge asymmetry and brokerage: Linking network perception to position in structural holes. *Strategic Organization, 14*(2), 118–143. https://doi.org/10.1177/1476127015624274
+
+Hildebrandt, M. (2015). *Smart technologies and the end(s) of law: Novel entanglements of law and technology*. Edward Elgar Publishing. https://doi.org/10.4337/9781849808774
+
+Hirschman, A. O. (1970). *Exit, voice, and loyalty: Responses to decline in firms, organizations, and states*. Harvard University Press.
+
+Hummel, P., Braun, M., Tretter, M., & Dabrock, P. (2021). Data sovereignty: A review. *Big Data & Society, 8*(1). https://doi.org/10.1177/2053951720982012
+
+Innis, H. A. (1951). *The bias of communication*. University of Toronto Press.
+
+Jarrahi, M. H., & Sutherland, W. (2019). Algorithmic management and algorithmic competencies: Understanding and appropriating algorithms in gig work. In *Information in contemporary society* (Lecture Notes in Computer Science, pp. 578–589). Springer. https://doi.org/10.1007/978-3-030-15742-5_55
+
+Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The new contested terrain of control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.5465/annals.2018.0174
+
+Klonick, K. (2020). The Facebook Oversight Board: Creating an independent institution to adjudicate online free expression. *Yale Law Journal, 129*, 2418–2499.
+
+Lei, Y.-W. (2021). Delivering solidarity: Platform architecture and collective contention in China's platform economy. *American Sociological Review, 86*(2), 279–309. https://doi.org/10.1177/0003122420979980
+
+MacDonald, T. W. L. (2023). "How it actually works": Algorithmic lore videos as market devices. *New Media & Society, 25*(6), 1412–1431. https://doi.org/10.1177/14614448211021404
+
+Mackenzie, C., & Stoljar, N. (Eds.). (2000). *Relational autonomy: Feminist perspectives on autonomy, agency, and the social self*. Oxford University Press.
+
+Markell, P. (2008). The insufficiency of non-domination. *Political Theory, 36*(1), 9–36. https://doi.org/10.1177/0090591707310084
+
+Micheli, M., Ponti, M., Craglia, M., & Berti Suman, A. (2020). Emerging models of data governance in the age of datafication. *Big Data & Society, 7*(2). https://doi.org/10.1177/2053951720948087
+
+Möhlmann, M., Alves de Lima Salge, C., & Marabelli, M. (2023). Algorithm sensemaking: How platform workers make sense of algorithmic management. *Journal of the Association for Information Systems, 24*(1), 35–64. https://doi.org/10.17705/1jais.00774
+
+Muldoon, J., & Raekstad, P. (2023). Algorithmic domination in the gig economy. *European Journal of Political Theory, 22*(4), 587–607. https://doi.org/10.1177/14748851221082078
+
+Nedelsky, J. (2011). *Law's relations: A relational theory of self, autonomy, and law*. Oxford University Press.
+
+Nussbaum, M. C. (2006). Education and democratic citizenship: Capabilities and quality education. *Journal of Human Development, 7*(3), 385–395. https://doi.org/10.1080/14649880600815974
+
+Obstfeld, D. (2005). Social networks, the *tertius iungens* orientation, and involvement in innovation. *Administrative Science Quarterly, 50*(1), 100–130. https://doi.org/10.2189/asqu.2005.50.1.100
+
+Ong, W. J. (1982). *Orality and literacy: The technologizing of the word*. Methuen.
+
+O'Reilly, T., Strauss, I., & Mazzucato, M. (2024). Algorithmic attention rents: A theory of digital platform market power. *Data & Policy, 6*, Article e6. https://doi.org/10.1017/dap.2024.1
+
+Ostrom, E. (1990). *Governing the commons: The evolution of institutions for collective action*. Cambridge University Press.
+
+Paglayan, A. S. (2024). *Raised to obey: The rise and spread of mass education*. Princeton University Press. https://doi.org/10.1515/9780691261775
+
+Pangrazio, L., & Selwyn, N. (2019). "Personal data literacies": A critical literacies approach to enhancing understandings of personal digital data. *New Media & Society, 21*(2), 419–437. https://doi.org/10.1177/1461444818799523
+
+Parmigiani, A. (2007). Why do firms both make and buy? An investigation of concurrent sourcing. *Strategic Management Journal, 28*(3), 285–311. https://doi.org/10.1002/smj.580
+
+Pasquale, F. (2023). Two visions for data governance: Territorial vs. functional sovereignty. In A. Chander & H. Sun (Eds.), *Data sovereignty: From the digital silk road to the return of the state* (pp. 35–48). Oxford University Press. https://doi.org/10.1093/oso/9780197582794.003.0002
+
+Petre, C., Duffy, B. E., & Hund, E. (2019). "Gaming the system": Platform paternalism and the politics of algorithmic visibility. *Social Media + Society, 5*(4). https://doi.org/10.1177/2056305119879995
+
+Pettit, P. (1997). *Republicanism: A theory of freedom and government*. Oxford University Press.
+
+Pettit, P. (2016). The globalized republican ideal. *Global Justice: Theory Practice Rhetoric, 9*(1), 47–68. https://doi.org/10.21248/gjn.9.1.101
+
+Pohle, J., & Thiel, T. (2020). Digital sovereignty. *Internet Policy Review, 9*(4). https://doi.org/10.14763/2020.4.1532
+
+Powell, W. W. (1990). Neither market nor hierarchy: Network forms of organization. *Research in Organizational Behavior, 12*, 295–336.
+
+Rahman, H. A. (2021). The invisible cage: Workers' reactivity to opaque algorithmic evaluations. *Administrative Science Quarterly, 66*(4), 945–988. https://doi.org/10.1177/00018392211010118
+
+Rahman, H. A., Karunakaran, A., & Cameron, L. D. (2024). Taming platform power: Taking accountability into account in platform management. *Academy of Management Annals, 18*(1), 251–294. https://doi.org/10.5465/annals.2022.0090
+
+Repetto, E. (2025). Concept "stretching" or concept innovation? A review of the usages of sovereignty in the digital sovereignty literature. *Policy & Internet, 17*(3), Article e70011. https://doi.org/10.1002/poi3.70011
+
+Roberts, H., Cowls, J., Casolari, F., Morley, J., Taddeo, M., & Floridi, L. (2021). Safeguarding European values with digital sovereignty: An analysis of statements and policies. *Internet Policy Review, 10*(3). https://doi.org/10.14763/2021.3.1575
+
+Robinson, A. P., Jarrahi, M. H., Keegan, A., & Meijerink, J. (2026). Algorithmic management in limbo: Task-driven interweaving of hierarchy and market management. *Human Resource Management, 65*(1), 117–131. https://doi.org/10.1002/hrm.70019
+
+Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. *Journal of the European Economic Association, 1*(4), 990–1029. https://doi.org/10.1162/154247603322493212
+
+Ryall, M. D., & Sorenson, O. (2007). Brokers and competitive advantage. *Management Science, 53*(4), 566–583. https://doi.org/10.1287/mnsc.1060.0675
+
+Sander, I. (2020). What is critical big data literacy and how can it be implemented? *Internet Policy Review, 9*(2). https://doi.org/10.14763/2020.2.1479
+
+Schegg, R. (2024). *European hotel distribution study 2024: Results for the reference year 2023*. HES-SO Valais-Wallis, Institute of Tourism, for HOTREC.
+
+Schlager, E., & Ostrom, E. (1992). Property-rights regimes and natural resources: A conceptual analysis. *Land Economics, 68*(3), 249–262. https://doi.org/10.2307/3146375
+
+Schmuntzsch, U., Shajek, A., & Hartmann, E. A. (Eds.). (2025). *New digital work II: Digital sovereignty of companies and organizations*. Springer. https://doi.org/10.1007/978-3-031-69994-8
+
+Scholz, T. (2016). *Platform cooperativism: Challenging the corporate sharing economy*. Rosa Luxemburg Stiftung.
+
+Scott, J. C. (1998). *Seeing like a state: How certain schemes to improve the human condition have failed*. Yale University Press.
+
+Scribner, S., & Cole, M. (1981). *The psychology of literacy*. Harvard University Press.
+
+Sekar, S., & Siddiq, A. (2026). Platform disintermediation: Information effects and pricing remedies. *Operations Research, 74*(3), 1304–1320. https://doi.org/10.1287/opre.2025.2046
+
+Selznick, P. (1949). *TVA and the grass roots: A study in the sociology of formal organization*. University of California Press.
+
+Sen, A. (1999). *Development as freedom*. Alfred A. Knopf.
+
+Simmel, G. (1950). *The sociology of Georg Simmel* (K. H. Wolff, Ed. & Trans.). Free Press. (Original work published 1908)
+
+Skinner, Q. (1998). *Liberty before liberalism*. Cambridge University Press.
+
+Spreitzer, G. M. (1995). Psychological empowerment in the workplace: Dimensions, measurement, and validation. *Academy of Management Journal, 38*(5), 1442–1465. https://doi.org/10.5465/256865
+
+Stadnik, I. (2021). Control by infrastructure: Political ambitions meet technical implementations in RuNet. *First Monday, 26*(5). https://doi.org/10.5210/fm.v26i5.11693
+
+Stark, D., & Pais, I. (2020). Algorithmic management in the platform economy. *Sociologica, 14*(3), 47–72. https://doi.org/10.6092/issn.1971-8853/12221
+
+Stark, D., & Vanden Broeck, P. (2024). Principles of algorithmic management. *Organization Theory, 5*(2), 1–24. https://doi.org/10.1177/26317877241257213
+
+Street, B. V. (1984). *Literacy in theory and practice*. Cambridge University Press.
+
+Sutherland, W., Jarrahi, M. H., Dunn, M., & Nelson, S. B. (2020). Work precarity and gig literacies in online freelancing. *Work, Employment and Society, 34*(3), 457–475. https://doi.org/10.1177/0950017019886511
+
+Thompson, G. F. (2003). *Between hierarchies and markets: The logic and limits of network forms of organization*. Oxford University Press.
+
+Thompson, J. D. (1967). *Organizations in action: Social science bases of administrative theory*. McGraw-Hill.
+
+Tortorici, S. (2026). The blown head gasket effect: Rise and struggles of The Drivers Cooperative in New York City. *Internet Policy Review, 15*(1). https://doi.org/10.14763/2026.1.2063
+
+Vallas, S., & Schor, J. B. (2020). What do platforms do? Understanding the gig economy. *Annual Review of Sociology, 46*, 273–294. https://doi.org/10.1146/annurev-soc-121919-054857
+
+Williamson, O. E. (1975). *Markets and hierarchies: Analysis and antitrust implications*. Free Press.
+
+Wood, A. J., Graham, M., Lehdonvirta, V., & Hjorth, I. (2019). Good gig, bad gig: Autonomy and algorithmic control in the global gig economy. *Work, Employment and Society, 33*(1), 56–75. https://doi.org/10.1177/0950017018785616
+
+Zuboff, S. (2019). *The age of surveillance capitalism: The fight for a human future at the new frontier of power*. PublicAffairs.
+
+### Cases
+
+Case C-264/23, *Booking.com BV v. 25hours Hotel Company Berlin GmbH and Others*, ECLI:EU:C:2024:764 (Judgment of the Court, 19 September 2024).
+
+Case T-438/25, *Apple v. Commission* (action brought 7 July 2025, pending; OJ C/2025/5215).
+
+## Additional Reading
+
+Benkler, Y. (2006). *The wealth of networks: How social production transforms markets and freedom*. Yale University Press.
+
+Bratton, B. H. (2015). *The stack: On software and sovereignty*. MIT Press.
+
+Couldry, N., & Mejias, U. A. (2019). *The costs of connection: How data is colonizing human life and appropriating it for capitalism*. Stanford University Press.
+
+Crawford, K. (2021). *Atlas of AI: Power, politics, and the planetary costs of artificial intelligence*. Yale University Press.
+
+Gillespie, T. (2018). *Custodians of the Internet: Platforms, content moderation, and the hidden decisions that shape social media*. Yale University Press.
+
+Krasner, S. D. (1999). *Sovereignty: Organized hypocrisy*. Princeton University Press.
+
+Pasquale, F. (2015). *The black box society: The secret algorithms that control money and information*. Harvard University Press.
+
+Srnicek, N. (2017). *Platform capitalism*. Polity Press.
+
+van Dijck, J., Poell, T., & de Waal, M. (2018). *The platform society: Public values in a connective world*. Oxford University Press.
+
+## Key Terms and Definitions
+
+**Digital sovereignty:** The capacity of a state, organization, or community to exercise control over its digital infrastructure, data, and technologies. In its regulatory strand this chapter treats it as a literacy-based form of governance, attained by reading and holding to account what a digital system discloses; its industrial strand works by jurisdiction and ownership.
+
+**Coordinative sovereignty:** The autonomy proper to being irreducibly coordinated. It is the standing to shape the terms on which one is mediated, to contest the mediator's arbitrary power, and to hold a share in the governance of an arrangement one cannot leave. Its currency is effective voice. It is borne by whatever actor occupies that relation, individual or organizational.
+
+**Algorithmacy:** The competence through which an actor coordinates with another party through an algorithmic third party that reads both and commits determinations neither controls. It has three parts: inferential (modeling an unseen system), translational (acting in the system's terms), and temporal (holding a strategy through undisclosed change). What distinguishes it from adjacent literacy constructs is the triadic setting rather than the parts or their integration.
+
+**Communicative competence:** A capacity for working the medium through which authority is exercised and contested. Oracy, literacy, and algorithmacy are the three this chapter tracks, each paired with a form of sovereignty and each unevenly held before it was common.
+
+**Mediated triad:** A coordination in which two parties are bound together through a third party that interprets both and commits outcomes neither controls, rather than dealing with each other directly.
+
+**Co-optation:** Enrollment of an actor into a coordination authored by an interested third party. The platform form is a narrowing of what Selznick called formal co-optation, which preserved the forms of participation while withholding real power; platform enrollment withholds the forms as well.
+
+**Bypass test:** The counterfactual that sorts mediators. Restore the direct tie between the two parties a mediator stands between, the tie strict mediation forbids, and recompute whether the mediator still binds. The test operates on a tie rather than on the mediator itself, which distinguishes it from tests that ask whether a mediator could be removed or replaced.
+
+**Necessary mediator:** A mediator that remains constitutive of a coordination even when the direct tie is restored, because its position rests on integrating work the direct tie cannot reproduce. It cannot be exited, so the coordinated actor's remaining power is voice.
+
+**Contingent mediator:** A mediator that ceases to bind when the direct tie is restored, because its position rested on that tie's absence, usually held in place by an external constraint such as a law or a contract. It can be exited, so the actor's remaining power includes exit.
+
+**Partial mediator:** A mediator that keeps a constitutive role under the open tie while losing part of its integration: real integrating work alongside a bypassable gate. The response is to contest the bypassable part and accept the integrating one, treating them as separate decisions.
+
+**Reducible mediator:** A mediator that was never in the coordination's core: the parties can already deal directly, so the coordinated actor can route around it without any constraint being lifted.
+
+**Exit and voice:** Hirschman's two responses to a declining relationship — leaving it, or staying and pressing for change. Exit is available against a contingent mediator; only voice remains against a necessary one.
+
+**Non-domination:** The republican conception of freedom as the absence of another's arbitrary power, rather than the mere absence of interference. A coordinated actor is dominated to the degree the mediator's power over it is unconstrained by rules the actor can contest.
+
+**Irreducibility:** The property of a coordination that does not factor into separable parts. A triadic coordination binds its parties into a joint determination no division into parts recovers. Irreducibility describes a coordination as it stands and does not by itself establish that a mediator is necessary.

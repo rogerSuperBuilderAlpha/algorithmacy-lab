@@ -10,7 +10,7 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
 - **Current draft:** `chapter.md`. This is the canonical manuscript (hard-wrapped for git diffs). References are
   inline in APA 7 style, and every in-text citation resolves to a reference-list entry.
 - **Grammarly / paste:** [`chapter_grammarly.md`](chapter_grammarly.md) — soft-wrapped body only (Abstract
-  through Conclusion). Paste that file into Grammarly. Do not edit it by hand; regenerate from `chapter.md`
+  through Key Terms, including the full bibliography). Paste that file into Grammarly. Do not edit it by hand; regenerate from `chapter.md`
   after substantive changes.
 - **Word:** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc). Reflow into the IGI
   template at submission. Edit the markdown, not the `.docx`.
