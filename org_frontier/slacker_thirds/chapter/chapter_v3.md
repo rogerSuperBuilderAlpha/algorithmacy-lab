@@ -329,8 +329,8 @@ Hollywood, and *negotiated* is the last of four verbs in a list that opens with 
 
 Münsterberg, Benjamin and Hansen between them measured nothing. Sermin Ildirar and Louise Ewing ran the
 Kuleshov montages — a neutral face cut against a gravestone, a bowl of soup, a child, the 1920s
-demonstration that viewers read an expression into a face that never changes — for people who had never
-watched a film. The first-time viewers understood each shot perfectly well and did not connect them: they
+demonstration in which the same unchanging face was said to look grieving, hungry, or tender depending
+on the shot beside it — for people who had never watched a film. The first-time viewers understood each shot perfectly well and did not connect them: they
 "perceived them to be wholly separate from each other and did not relate them spatio-temporally."
 Experienced viewers did connect them, though not unanimously: on the gravestone sequence all twenty
 made the spatio-temporal link and eleven read sadness into the face, on the soup sequence the figure
