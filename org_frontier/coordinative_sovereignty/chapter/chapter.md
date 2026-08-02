@@ -249,9 +249,10 @@ platforms to disclose the main parameters of ranking, the Digital Services Act a
 and researcher access, and the Digital Markets Act constrains gatekeeper conduct. What these share is the
 literate wager, that a legible object placed before an actor who can act on it will hold its operator to
 account. Article 22 of the GDPR belongs to a different family: it gives a natural person subject to a solely
-automated decision the right to obtain human intervention and to contest the outcome, which is case-level
-standing already in hard law, and section 7 places it among the voice instruments. Its threshold is high, its
-practice thin, and its protection runs to natural persons, so the platform-dependent firm falls outside it.
+automated decision the right to obtain human intervention and to contest the outcome. That is case-level
+standing already in hard law, and section 7 places it among the voice instruments. Its threshold is high,
+its practice thin, and its protection stops at the natural person, so the platform-dependent firm falls
+outside it.
 Against an opaque and adaptive coordination the wager mostly fails, and the disclosures that succeed
 reproduce the standing gap Ananny and Crawford name (Cohen, 2017; Pasquale, 2023). Surveys of the sovereignty
 concept confirm the residue: existing models sort sovereignty by the actor claiming it and the domain
@@ -421,8 +422,8 @@ reducible: the parties can already deal directly. A mediator that keeps a consti
 tie while losing part of its integration is a partial mediator: real integrating work alongside a bypassable
 gate.
 
-The counterfactual restores the capability of direct dealing, not a prior relationship — the parties may
-never have met: could these two parties reach each other at comparable cost if no rule, contract, or
+The counterfactual restores the capability of direct dealing, not a prior relationship, because the parties
+may never have met. Could these two parties reach each other at comparable cost if no rule, contract, or
 architecture stood in the way? For parties who already know of each other the question is easy. For a
 function whose whole business is introducing strangers it is the entire question, and the answer varies by
 actor. A traveler looking for a hotel
@@ -488,8 +489,8 @@ withhold the very integration that would make it necessary.
 The diagnostic decides which sovereignty is available. Hirschman (1970) drew the distinction for
 organizations in decline. A member of a failing organization has two powers: exit, the power to leave, and
 voice, the power to stay and press for change. Bypassability is the availability of exit. Necessity does not
-produce voice. It forecloses exit and leaves voice as the residual lever, available against contingent
-mediators too and, under a necessary mediator, the only lever left. Whether a coordinated actor can leave
+produce voice. It forecloses exit and leaves voice as the residual lever, one available against contingent
+mediators too and the only one left where the mediator is necessary. Whether a coordinated actor can leave
 becomes a designable fact, set by whether the mediator is contingent, and contingency is a policy and
 strategy variable. Scholars have already carried the pair to platforms, to the constrained voice of platform
 workers (Dasgupta et al., 2025) and to the politics of platform dependence more broadly.
@@ -509,9 +510,9 @@ exit does not reliably strengthen voice and can substitute for it: the customers
 are the first to leave, and their departure removes the complaints that would have forced a remedy, so a
 monopolist can be comforted by the availability of an alternative that removes the critics. Under a necessary
 mediator the difficulty is starker. There is no exit to lend the critic leverage, and a captive population
-may resign itself sooner than complain, so voice is the only autonomy left exactly where it is
-institutionally weakest, and whatever force it has must be supplied by institutions. Building those
-institutions is what the literate and digital forms of sovereignty leave untheorized.
+may resign itself sooner than complain, so voice is the only autonomy left exactly where it commands the
+least leverage, and whatever force it has must be supplied by institutions. Building those institutions is
+what the literate and digital forms of sovereignty leave untheorized.
 
 ### 5.4 A platform is a portfolio of mediators
 
@@ -766,10 +767,9 @@ its code and data, hold data-portability rights, and comply fully with the GDPR 
 and still hold no leverage over the ranking and review algorithms that set its visibility (Cutolo & Kenney,
 2021). Enforcement has reached platform conduct without reaching that layer: the European Commission fined
 Apple €500 million in April 2025 for restricting how developers steer users to offers outside its App Store
-(European Commission, 2025b), a decision Apple has appealed, and further gatekeeper decisions have followed
-against other platforms. Ranking transparency is a separate and earlier obligation, set by the 2019
-Platform-to-Business Regulation
-and the Digital Services Act. That Regulation does more than disclose, since it also requires internal
+(European Commission, 2025b), a decision Apple has appealed (Case T-438/25), and further gatekeeper
+decisions have followed against other platforms. Ranking transparency is a separate and earlier obligation,
+set by the 2019 Platform-to-Business Regulation and the Digital Services Act. That Regulation does more than disclose, since it also requires internal
 complaint-handling, offers mediation, and gives representative organizations standing to bring proceedings,
 which makes it one of the few instruments to attach a channel to a disclosure. The Commission has since
 proposed to repeal it as part of a wider simplification package (European Commission, 2025a), which would
@@ -1254,6 +1254,8 @@ power*. PublicAffairs.
 
 Case C-264/23, *Booking.com BV v. 25hours Hotel Company Berlin GmbH and Others*, ECLI:EU:C:2024:764
 (Judgment of the Court, 19 September 2024).
+
+Case T-438/25, *Apple v. Commission* (action brought 7 July 2025, pending; OJ C/2025/5215).
 
 ## Additional Reading
 
