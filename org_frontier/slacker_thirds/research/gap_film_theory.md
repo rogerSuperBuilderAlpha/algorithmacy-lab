@@ -319,7 +319,7 @@ Linklater.
 - [R15] McEneaney, "Richard Linklater's 'Slacker': A Second Viewing" (June 2026): https://www.writeliam.com/p/richard-linklaters-slacker-a-second
 - [R16] Ann Althouse, July 11, 2026: https://althouse.blogspot.com/2026/07/whos-ever-written-great-work-about.html
 - [R17] Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011:
-  https://www.austinchronicle.com/screens/2011-01-21/slack-to-the-future/
+  https://www.austinchronicle.com/screens/slack-to-the-future-11750242/
 - [R18] Alexandra Anikina, "Automating Platform Spectators," *Digital Culture & Society* 7, no. 2
   (2021): 119–138, published online August 1, 2022. https://doi.org/10.14361/dcs-2021-070206
 - [R19] Tina Kendall, "From Binge-Watching to Binge-Scrolling," *Film Quarterly* 75, no. 1

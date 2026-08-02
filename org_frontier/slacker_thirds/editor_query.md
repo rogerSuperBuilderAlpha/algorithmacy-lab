@@ -17,7 +17,7 @@ allows a small overage, I would rather submit the current version.
 **2. Title, editor of record, and deadline.** I have none of these on file and would like them for the
 manuscript's front matter.
 
-**3. Citation style.** The chapter is currently in Chicago notes-and-bibliography, with 76 notes. If
+**3. Citation style.** The chapter is currently in Chicago notes-and-bibliography, with 77 notes. If
 the collection uses author-date, or MLA, the conversion is mechanical and I will do it — I would just
 rather do it once.
 

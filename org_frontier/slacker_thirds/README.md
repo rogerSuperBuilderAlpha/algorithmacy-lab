@@ -139,8 +139,8 @@ chapter bibliography.
       feedback, pricing, sanction, removal, and opacity. The revision distinguishes attentional from
       transactional selectors, makes the definitions carry classification, retitles §7 "When selection
       becomes infrastructure," and applies the panel's Uber, Cameron, Bordwell, location, Hansen, and
-      bibliography corrections. Body **~5,120 words**; 76 note keys resolve both ways.
-- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 76 notes plus a
+      bibliography corrections. Body **~5,120 words**; 77 note keys resolve both ways.
+- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 77 notes plus a
       three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline
 - [ ] Physical library checks. Closed by the v3 research pass: Simmel's Wolff pages ("The Triad" is ch. IV,

@@ -37,7 +37,7 @@ Criticism, interviews, primary web sources:
 - Hinson, Hal. "'Slacker': Loaf on the Edge." *Washington Post*, Aug. 23, 1991. https://www.washingtonpost.com/archive/lifestyle/1991/08/23/slacker-loaf-on-the-edge/7345af35-7730-4f3d-bd20-6be90d433f7b/
 - Linklater, Richard. "Linklater on Linklater" (1991 self-interview). *Austin Chronicle*, Sept. 1991; repr. July 24, 2020. https://www.austinchronicle.com/screens/2020-07-24/from-the-archives-linklater-on-linklater/
 - Rosenbaum, Ron. "Slacker's Oblique Strategy." *New York Observer*, Aug. 13, 2001; repr. Criterion, Sept. 13, 2004. https://www.criterion.com/current/posts/1058-slacker-s-oblique-strategy
-- Savlov, Marc. "Slack to the Future." *Austin Chronicle*, Jan. 21, 2011. https://www.austinchronicle.com/screens/2011-01-21/slack-to-the-future/
+- Savlov, Marc. "Slack to the Future." *Austin Chronicle*, Jan. 21, 2011. https://www.austinchronicle.com/screens/slack-to-the-future-11750242/
 - Whittaker, Richard. "AFS on Slacker at the Dobie." *Austin Chronicle*, July 27, 2020. https://www.austinchronicle.com/daily/screens/2020-07-27/now-streaming-in-austin-1990-the-year-richard-linklaters-slacker-broke/
 - Wikipedia. "Slacker (film)." https://en.wikipedia.org/wiki/Slacker_(film)
 - Wilkins, Budd. "Blu-ray Review: Richard Linklater's Slacker on the Criterion Collection." *Slant*, Sept. 22, 2013. https://www.slantmagazine.com/dvd/slacker/

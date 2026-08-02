@@ -4,8 +4,8 @@ Roger Hunt, Bentley University
 
 ## 1. The coherence puzzle
 
-Watching *Slacker* now feels like swiping through TikTok or Instagram, only slower. Ann Althouse had
-the same reaction to TikTok. Linklater gave the feeling an older name: channel surfing. His was the
+Watching *Slacker* now feels like swiping through TikTok or Instagram, only slower. Ann Althouse has
+also compared *Slacker* to scrolling TikTok. Linklater gave the feeling an older name: channel surfing. His was the
 first generation with the remote control, making private sequences from "five minutes of this and then
 one minute of that and then seven minutes of this." He called *Slacker* a primitive version of what
 would become "exponentially more complex."[^0] The resemblance is already in the record. What it means
@@ -30,7 +30,7 @@ By every rule of screenwriting I know, a hundred minutes of that should be unfol
 know what people were following.
 
 The reviews support something narrower than the claim usually made for this film. In the notices I have
-been able to retrieve — Ebert, Hinson, Howe, Turan, *Variety*, Canby, Jonathan Rosenbaum — no critic,
+been able to retrieve (Ebert, Hinson, Howe, Turan, *Variety*, Canby, Jonathan Rosenbaum), no critic,
 friendly or hostile, reports losing track of who was on screen or why the film had moved on. The
 complaints are boredom, tedium, monotony, and pointlessness. The most useful of them is Kenneth Turan's,
 because he disliked the film and described its mechanism exactly anyway: you "follow each particular
@@ -55,8 +55,10 @@ Three published readings have already located that hand-holding in the camera. A
 Linklater replaced *La Ronde*'s narrator with "the fluid camera and a kind of 'baton-passing'," under a
 chapter section headed "Chaos by Design."[^9] Jeroen Boom describes a meandering camera "weaving
 together the lives of eccentric characters."[^10] Enrique Ramirez has the camera marking "its dérive"
-through Austin — a drift, which is movement without a chooser.[^11] The camera's linking work is not a
-discovery and I am not claiming it as one. My question is what kind of coordinator a camera is.
+through Austin — a drift, which is movement without a chooser.[^11] Rob Stone's Deleuzian account makes
+slack a temporal form; it explains what action releases, while this chapter asks what selects the next
+encounter.[^11a] The camera's linking work is not a discovery and I am not claiming it as one. My
+question is what kind of coordinator a camera is.
 
 ## 2. Two ways to coordinate strangers
 
@@ -79,9 +81,9 @@ what the other knows, and who are not connected, are worth money to whoever *sta
 them.[^14] David Obstfeld described a friendlier version, the third who introduces the two instead of
 playing them off.[^15] The field argues about whether the two have to be disconnected to begin with.
 What it does not argue about is that they are two identified parties: brokerage happens "when one actor
-(the broker) is connected to two other actors (alters)."[^16] The formal apparatus is built on an
-ordered triple of named actors. Every measure it produced scores a person in that network, and a setting
-is not a person.[^17]
+(the broker) is connected to two other actors (alters)."[^16] The model starts with three named actors:
+the two parties and the one between them. Every measure it produced scores a person in that network,
+and a setting is not a person.[^17]
 
 There is another way to hold the position, and Scott Feld named half of it in 1981. A focus, in his
 term, is an entity around which joint activities are organised, so that ties form among the people it
@@ -123,8 +125,8 @@ selling what she swears is Madonna's pap smear, and gets a hearing. These encoun
 coffee shops, campus streets, and downtown sidewalks. Austin supplies the slack. The places supply an
 encounter surface, and none arranges a particular meeting.
 
-The mechanism is not politeness. Erving Goffman's civil inattention — the glance and withdrawal by
-which strangers in public leave each other alone — explains why most people on that sidewalk do not
+The mechanism is not politeness. Erving Goffman's civil inattention, the glance and withdrawal by
+which strangers in public leave each other alone, explains why most people on that sidewalk do not
 speak.[^25] What licenses the monologue is the opposite rule, and Emanuel Schegloff describes it: a
 summons gets an answer, and the sequence it starts is nonterminal, offering no natural exit.[^26] The
 moon-landing man exploits that. Schegloff closes the escape route at the other end, too. On a telephone
@@ -146,8 +148,8 @@ Mion and Naticchioni also find that larger markets do not simply pair like with 
 A setting that supplies conventions about who may approach whom is also supplying conventions about who
 may not, and the American law of the street is where those were enforced. Until 1972 a vagrancy
 ordinance of the kind struck down in *Papachristou v. City of Jacksonville* reached "poor people,
-nonconformists, dissenters, idlers." The Court struck it down for vagueness on two grounds — that it
-gave no fair notice, and that it "encourages arbitrary and erratic arrests" — and it is the second that
+nonconformists, dissenters, idlers." The Court struck it down for vagueness on two grounds: it
+gave no fair notice and "encourages arbitrary and erratic arrests." The second matters because it
 matters here, because it locates the decision in an officer. Justice Douglas defended wandering and
 strolling as "amenities of life as we have known them," conceding in the same breath that they "are not
 mentioned in the Constitution or in the Bill of Rights."[^33] A code that reads types and not persons
@@ -156,7 +158,7 @@ a downtown sidewalk, and it has always been available against somebody else. Reu
 discretion at the nightclub door, in Austin among other cities, fifty years on.[^34]
 
 One thing the city did not do is join the scenes. Brendan Gaughen retraced the film's locations and
-found a jump of about three miles — the Old Anarchist's house to Thirty-fifth and Mopac — played across
+found a jump of about three miles, from the Old Anarchist's house to Thirty-fifth and Mopac, played across
 a cut as though it were a walk. His survey covers outdoor locations only and does not claim to be
 exhaustive, so that is one documented instance and not a pattern.[^35] Austin put these people into the
 same day; the walk between two of its scenes is not a walk anyone could take.
@@ -172,7 +174,7 @@ back until it sees another nameless guy … and follows him upstairs into anothe
 progress." He called the resulting structure a daisy chain, sixteen years before Ramírez Berg gave the
 form that name in a film-studies taxonomy.[^36]
 
-Two abandonments in the opening minutes — the director, then a tragedy — teach the rule the rest of the
+Two abandonments in the opening minutes, the director and then a tragedy, teach the rule the rest of the
 film runs on. Nobody is owed a return.
 
 What connects one scene to the next is almost nothing. The characters share
@@ -202,7 +204,8 @@ narrator view predominates and Bordwell is the most prominent exception.[^40] I 
 minority position inside film studies: a story "is actually told by the author in his or her creation
 of the work."[^41] That has a price. Linklater fixed the order once, and every viewer since has received
 the same order. A selector whose choosing is finished, public, and identical for everyone differs from
-one that runs live and privately, party by party. When I write "the camera," I mean the first kind.
+one that runs live and privately, party by party. The film also ends after a fixed sequence. When I
+write "the camera," I mean the first kind.
 
 When Bordwell reaches *Slacker* he cannot fit it into his own category: "Another borderline case, I
 think, is *Slacker*. … This isn't a network so much as a wiggly, knotted string."[^42] His word is
@@ -223,8 +226,8 @@ match. The two jobs share selection and little else.
 This is the sense in which *Slacker* can be read as a pre-digital platform form. Austin's people produce
 their own talk, movement, and encounters. The camera recruits that activity into an ordered stream that
 none of them controls, then presents it to an audience one person at a time. The film has no data about
-its viewers and no power over the people it shows. A digital platform keeps the selecting position and
-adds those powers.
+its viewers and cannot price, sanction, or remove the people it shows from Austin. A digital platform
+keeps the selecting position and adds those powers.
 
 Maria Poulaki supplies the account that would make a selector unnecessary: a film coheres because its
 parts form a system that organizes itself. Yet she gives the camera "self-reflexive agency" in
@@ -243,7 +246,7 @@ information asymmetry the centre of the case.[^47]
 
 The platform recruits activity it did not create. Stark and Pais call this co-optation: providers and
 users act on their own behalf while the platform turns their activity into management without giving
-either side authority.[^47a] Kellogg, Valentine, and Christin catalogue six vertical functions of
+either side managerial authority.[^47a] Kellogg, Valentine, and Christin catalogue six vertical functions of
 algorithmic control. The selector here also acts sideways across a pair it assembled. Three powers mark
 what that addition costs.
 
@@ -292,9 +295,9 @@ Hollywood, and *negotiated* is the last of five participles in a list that start
 reaches rejection before it reaches negotiation.[^57]
 
 Münsterberg, Benjamin, and Hansen between them measured nothing. Sermin Ildirar and Louise Ewing ran the
-Kuleshov montages — a neutral face cut against a gravestone, a bowl of soup, a child, the 1920s
+Kuleshov montages (a neutral face cut against a gravestone, a bowl of soup, a child), the 1920s
 demonstration in which the same unchanging face was said to look grieving, hungry, or tender depending
-on the shot beside it — for people who had never watched a film. The first-time viewers understood each shot perfectly well and did not connect them: they
+on the shot beside it, for people who had never watched a film. The first-time viewers understood each shot perfectly well and did not connect them: they
 "perceived them to be wholly separate from each other and did not relate them spatio-temporally."
 Experienced viewers did connect them, though not unanimously: on the gravestone sequence all twenty
 made the spatio-temporal link and eleven read sadness into the face; on the soup sequence, six of
@@ -302,7 +305,7 @@ twenty read hunger; on the child sequence, nobody showed the effect at all.[^58]
 against none is still the cleanest evidence that reading a cut is learned rather than given.
 
 The same team then complicated their own result. Their first studies used silent clips. When they added
-sound that belonged to the world on screen — a voice calling, a dog barking — first-time viewers
+sound that belonged to the world on screen, such as a voice calling or a dog barking, first-time viewers
 managed transitions that had defeated them, including cuts that jump across a line the convention says
 a camera should not cross, while they still failed on unfamiliar environments.[^59] So the silent
 studies establish something narrower than "reading cuts is learned": what has to be learned is bridging
@@ -337,8 +340,8 @@ reading has not been run.[^65]
 
 What workers build instead is not simply the second skill. Heiner Heiland compared what food-delivery
 riders believed about two dispatch algorithms against what the algorithms did. On speed, the parameter
-they cared most about, the shared theory was wrong — former managers confirmed it and an A/B test bore
-it out — and the wrongness disciplined them into riding faster. On proximity to restaurants they were
+they cared most about, the shared theory was wrong; former managers confirmed it and an A/B test bore
+it out. The wrongness disciplined them into riding faster. On proximity to restaurants they were
 right, and exploited it. His verdict on the half that was wrong: "these obvious misunderstandings work
 in the interest of the platforms and are not corrected by them."[^66] Convergence is uneven, and nobody
 has a reason to correct the flattering half.
@@ -368,22 +371,20 @@ selected. Tzioumakis's theatrical figures block a simple replacement story: spec
 changed shape, and its middle tier refilled.[^70]
 
 The supplier's side of the same platform states its powers more directly. Amazon publishes how titles
-are licensed for Prime Video, and
-two of the three powers are on the page. It reads: "we continuously review performance
+are licensed for Prime Video, and two of the three powers are on the page. It reads: "we continuously review performance
 metrics and viewing behavior." It removes: titles may be taken down "at any time at the sole discretion
 of Prime Video." Pricing the page says nothing about. What it adds instead is a fourth thing the three
-questions do not reach. Amazon promises a supplier the verdict — visibility in the portal if a title
-isn't selected — and withholds the reasons: "Unless otherwise indicated," a removed title "may not be
+questions do not reach. Amazon promises a supplier a verdict, visible in the portal if a title is not
+selected, and withholds the reasons: "Unless otherwise indicated," a removed title "may not be
 resubmitted or appealed," and "we cannot provide additional details about why any specific title was or
 was not selected for licensing."[^71] That is the modern counterpart of the Orion vice-president who
 said no. She said no, and Linklater knew whom to ask.
 
-When parties can find one another without a third, it remains a setting. When the third becomes the only
-way they can meet, it is a selector. Cinema taught a competence at receiving an arrangement: following
+Settings leave particular meetings open; selectors choose them or choose what a viewer meets next.
+When a platform becomes the only route to a match, selection has become infrastructure. Cinema taught
+a competence at receiving an arrangement: following
 a cut, crediting a hidden arranger with intent, and overlooking the choosing. It taught nothing about
-answering back. Heiland's riders who read the proximity rule correctly used it to work harder; the ones
-who read the speed rule incorrectly also worked harder. Accurate reading produced self-intensification
-in one case and obedient error in the other.[^66]
+answering back. A platform also presents an arrangement, but it can read and govern the receiver.
 
 *Slacker*'s politics were mistaken for apathy, and the film headed the charge off itself on one of the
 oblique-strategies cards a passerby hands out in it: "Withdrawing in disgust is not the same thing as
@@ -396,18 +397,19 @@ Platform power begins when the selector can read and govern the people whose act
 
 ## Notes
 
-[^0]: Ann Althouse, "Who's Ever Written a Great Work About the Immense Effort Required in Order Not to Create?," *Althouse*, July 11, 2026, who writes that *Slacker* "might feel like scrolling in TikTok"; Richard Linklater, interview by Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011. On the short-video form see Alexandra Anikina, "Automating Platform Spectators," *Digital Culture & Society* 7, no. 2 (2021): 119–138, DOI 10.14361/dcs-2021-070206; Tina Kendall, "From Binge-Watching to Binge-Scrolling," *Film Quarterly* 75, no. 1 (2021): 41–46, DOI 10.1525/fq.2021.75.1.41. The literature search for this chapter found no peer-reviewed account that applies this comparison to *Slacker*.
+[^0]: Ann Althouse, "Who's Ever Written a Great Work About the Immense Effort Required in Order Not to Create?," *Althouse*, July 11, 2026, who writes that *Slacker* "might feel like scrolling in TikTok"; Richard Linklater, interview by Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011. On the short-video form see Alexandra Anikina, "Automating Platform Spectators," *Digital Culture & Society* 7, no. 2 (2021): 119–138, DOI 10.14361/dcs-2021-070206; Tina Kendall, "From Binge-Watching to Binge-Scrolling," *Film Quarterly* 75, no. 1 (2021): 41–46, DOI 10.1525/fq.2021.75.1.41. The literature located for this chapter contains no peer-reviewed account that develops the comparison through camera handoffs, co-optation, and the difference between fixed and personalized order.
 [^1]: *Slacker*, dir. Richard Linklater (Detour Filmproduction, 1990), end credits; American Film Institute, "Slacker (1991)," *AFI Catalog of Feature Films*, record no. 59046. The Criterion Collection's online cast list renders the credit "Should have stayed at the bus station"; the print and AFI have no definite article.
 [^2]: AFI, record no. 59046 (98 credited roles across 97 performers). Contemporary sources put the figure at "a hundred or so"; Jonathan Rosenbaum counted "around 90."
 [^3]: "A $23,000 Film Is Turning Into a Hit," *New York Times*, August 7, 1991, sec. C, p. 13, for the eleven-week Dobie run; Box Office Mojo, "Slacker — Original Release (Domestic)," release record rl3815867905, whose field reads "Widest Release 16 theaters." The shooting date and format are from the production record and are not independently sourced here.
 [^4]: Kenneth Turan, "Movie Review: There's Too Much Slack in Richard Linklater's 'Slacker,'" *Los Angeles Times*, July 26, 1991. The retrieved set also comprises Roger Ebert, "Slacker," *Chicago Sun-Times*, August 23, 1991; Desson Howe, "'Slacker' (R)," *Washington Post*, August 23, 1991; Variety Staff, "Slacker," *Variety*; Vincent Canby, "Review/Film; 'Slacker,' a Collection of Eccentrics and Lunacies," *New York Times*, July 5, 1991, sec. C, p. 6, excerpting his review of March 22, 1991; and Jonathan Rosenbaum, "Slacker," *Chicago Reader*, August 23, 1991. The 1990–91 trade press, the *Village Voice* and *Sight and Sound* could not be reached.
 [^5]: Hal Hinson, "'Slacker' (R)," *Washington Post*, August 23, 1991.
-[^6]: John Pierson, "Slacker: Slacking Off," from *Spike, Mike, Slackers & Dykes* (New York: Hyperion, 1996), reprinted by The Criterion Collection.
+[^6]: John Pierson, "Slacker: Slacking Off," from *Spike, Mike, Slackers & Dykes* (New York: Hyperion, 1995), reprinted by The Criterion Collection.
 [^7]: Pierson, "Slacking Off."
 [^8]: Dana Thomas, "'Slacker' (R)," *Washington Post*, August 23, 1991. The braces and the ellipsis are the *Post*'s.
 [^9]: Alison Macor, *Chainsaws, Slackers, and Spy Kids: Thirty Years of Filmmaking in Austin, Texas* (Austin: University of Texas Press, 2010), 94–96.
 [^10]: Jeroen Boom, "On Drifts and Swerves: Linklater's Love for Lacunae," in *ReFocus: The Films of Richard Linklater*, ed. Kim Wilkins and Timotheus Vermeulen (Edinburgh: Edinburgh University Press, 2022), 67–82. I have read the abstract only.
 [^11]: Enrique Ramirez, "I Watch *Slacker* to Read Austin in the Original," *Places Journal*, October 2011.
+[^11a]: Rob Stone, *The Cinema of Richard Linklater: Walk, Don't Run*, 2nd ed. (New York: Columbia University Press, 2018), chap. 3, "The Form and Content of Slack."
 [^12]: Georg Simmel, *The Sociology of Georg Simmel*, trans. and ed. Kurt H. Wolff (Glencoe, IL: The Free Press, 1950), 146–47, 154, 162.
 [^13]: Simmel, *Sociology*, 145; *Soziologie* (Leipzig: Duncker & Humblot, 1908), 103.
 [^14]: Ronald S. Burt, *Structural Holes: The Social Structure of Competition* (Cambridge, MA: Harvard University Press, 1992).
@@ -435,7 +437,7 @@ Platform power begins when the selector can read and govern the people whose act
 [^34]: Reuben A. Buford May, "Exploring the Use of Exclusionary Practices Against African American Participation in Urban Nightlife," *Sociological Forum* 37, no. 1 (2022): 91–110.
 [^35]: Brendan Gaughen, "*Slacker* Geography, 25 Years Later," *The End of Austin*, no. 5 (May 22, 2014).
 [^36]: Chris Walters, "Slacker: Freedom's Just Another Word for Nothing to Do," *Austin Chronicle*, July 27, 1990. Walters used "daisy chain" in 1990; Charles Ramírez Berg published the film-studies taxonomy in 2006.
-[^37]: Pierson, quoted in Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011. Paraphrased rather than quoted: this is the one passage in the chapter I have not been able to check against the page, and the project's own record of it is shorter than the wording that has been circulating in earlier drafts.
+[^37]: John Pierson, interview by Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011. The page gives Pierson's words as: "There's not a single jump cut, and the passage from one scene to the next is always in a flow. There's not even a cut between scenes." The body paraphrases because the arrest sequence contains cuts.
 [^38]: David Bordwell, *Narration in the Fiction Film* (Madison: University of Wisconsin Press, 1985), 62.
 [^39]: Seymour Chatman, *Coming to Terms: The Rhetoric of Narrative in Fiction and Film* (Ithaca, NY: Cornell University Press, 1990), 134.
 [^40]: Mario Slugan, "The Film Narrator and the Early American Screenwriting Manuals," *Early Popular Visual Culture* 17, no. 2 (2019): 192–206, endnote i.
@@ -563,7 +565,7 @@ Obstfeld, David. "Social Networks, the *Tertius Iungens* Orientation, and Involv
 
 Oeldorf-Hirsch, Anne, and German Neubaum. "What Do We Know About Algorithmic Literacy? The Status Quo and a Research Agenda for a Growing Field." *New Media & Society* 27, no. 2 (2025): 681–701.
 
-Pierson, John. "Slacker: Slacking Off." In *Spike, Mike, Slackers & Dykes: A Guided Tour Across a Decade of American Independent Cinema*. New York: Hyperion, 1996. Reprinted by The Criterion Collection.
+Pierson, John. "Slacker: Slacking Off." In *Spike, Mike, Slackers & Dykes: A Guided Tour Across a Decade of American Independent Cinema*. New York: Hyperion, 1995. Reprinted by The Criterion Collection. https://www.criterion.com/current/posts/338-slacker-slacking-off.
 
 Poulaki, Maria. *Before or Beyond Narrative? Towards a Complex Systems Theory of Contemporary Films*. PhD thesis, Universiteit van Amsterdam. Amsterdam: Rozenberg, 2011.
 
@@ -593,6 +595,8 @@ Smith, Tim J., and John M. Henderson. "Edit Blindness: The Relationship between 
 
 Stark, David, and Ivana Pais. "Algorithmic Management in the Platform Economy." *Sociologica* 14, no. 3 (2020): 47–72.
 
+Stone, Rob. *The Cinema of Richard Linklater: Walk, Don't Run*. 2nd ed. New York: Columbia University Press, 2018.
+
 Thomson-Jones, Katherine. "Cinematic Narrators." *Philosophy Compass* 4, no. 2 (2009): 296–311.
 
 Tzioumakis, Yannis. "After the 'Great Studio Pullback of '08': Late Indiewood and American Independent Film Theatrical Distribution in the Age of Streaming (2008–2019)." *Media Industries* 10, no. 1 (2023).
@@ -609,11 +613,13 @@ Gerechtshof Amsterdam. Beschikking of April 4, 2023. Case no. 200.295.742/01, EC
 
 Althouse, Ann. "Who's Ever Written a Great Work About the Immense Effort Required in Order Not to Create?" *Althouse*, July 11, 2026. https://althouse.blogspot.com/2026/07/whos-ever-written-great-work-about.html.
 
-Amazon.com, Inc. "Prime Video Direct Content Providers: Licensing Consideration and Title Review." Prime Video Tech Docs. Last updated August 5, 2025.
+Amazon.com, Inc. "Prime Video Direct Content Providers: Licensing Consideration and Title Review." Prime Video Tech Docs. Last updated August 5, 2025. Accessed August 2, 2026. https://videocentral.amazon.com/support/licensing-consideration-and-title-review.
 
-American Film Institute. "Slacker (1991)." *AFI Catalog of Feature Films*, record no. 59046.
+American Film Institute. "Slacker (1991)." *AFI Catalog of Feature Films*, record no. 59046. Accessed August 2, 2026. https://catalog.afi.com/Catalog/moviedetails/59046.
 
-Box Office Mojo. "Slacker — Original Release (Domestic)." Release record rl3815867905.
+Box Office Mojo. "Slacker — Original Release (Domestic)." Release record rl3815867905. Accessed August 2, 2026. https://www.boxofficemojo.com/release/rl3815867905/.
+
+Criterion Collection. "Slacker (1991)." Accessed August 2, 2026. https://www.criterion.com/films/408-slacker.
 
 Canby, Vincent. "Review/Film; 'Slacker,' a Collection of Eccentrics and Lunacies." *New York Times*, July 5, 1991, sec. C, p. 6. Excerpting his review of March 22, 1991.
 
@@ -631,9 +637,9 @@ Real Estate Center, Texas A&M University. *Texas Real Estate Center Trends* 3, n
 
 Rosenbaum, Jonathan. "Slacker." *Chicago Reader*, August 23, 1991.
 
-Rosenbaum, Ron. "*Slacker*'s Oblique Strategy." *New York Observer*, August 13, 2001. Reprinted by The Criterion Collection.
+Rosenbaum, Ron. "*Slacker*'s Oblique Strategy." *New York Observer*, August 13, 2001. Reprinted by The Criterion Collection. https://www.criterion.com/current/posts/1058-slacker-s-oblique-strategy.
 
-Savlov, Marc. "Slack to the Future." *Austin Chronicle*, January 21, 2011.
+Savlov, Marc. "Slack to the Future." *Austin Chronicle*, January 21, 2011. https://www.austinchronicle.com/screens/slack-to-the-future-11750242/.
 
 *Slacker*. Directed by Richard Linklater. Austin, TX: Detour Filmproduction, 1990. Distributed by Orion Classics, 1991.
 
