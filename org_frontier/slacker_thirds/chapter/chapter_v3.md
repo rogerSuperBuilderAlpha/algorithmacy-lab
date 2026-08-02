@@ -193,10 +193,10 @@ Two abandonments in the opening minutes — the director, then a tragedy — tea
 film runs on. Nobody is owed a return.
 
 What connects one scene to the next is almost nothing. The characters share
-no history, no reunions, no coincidences that pay off later. No character introduces another. Pierson's
-craft note is right that there is "not a single jump cut, and the passage from one scene to the next is
-always in a flow" — he does not mean there are no cuts, since the arrest itself is cut together, but
-that no cut breaks the movement.[^37] Almost every transfer is the film following one body until
+no history, no reunions, no coincidences that pay off later. No character introduces another. John
+Pierson has made the craft point: there is not a jump cut in the film, and the passage from one scene
+to the next is always in a flow.[^37] He cannot mean there are no cuts, since the arrest itself is cut
+together. He means that no cut breaks the movement. Almost every transfer is the film following one body until
 another crosses it. Strip out every durable tie between characters, which here is easy because there
 are none, and nothing in the story world is left to hold scene to scene. What holds them is the film's
 decision about whom to follow next.
@@ -488,7 +488,7 @@ rarest thing about it.
 [^34]: Reuben A. Buford May, "Exploring the Use of Exclusionary Practices Against African American Participation in Urban Nightlife," *Sociological Forum* 37, no. 1 (2022): 91–110.
 [^35]: Brendan Gaughen, "*Slacker* Geography, 25 Years Later," *The End of Austin*, no. 5 (May 22, 2014).
 [^36]: Chris Walters, "Slacker: Freedom's Just Another Word for Nothing to Do," *Austin Chronicle*, July 27, 1990.
-[^37]: Pierson, quoted in Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011.
+[^37]: Pierson, quoted in Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011. Paraphrased rather than quoted: this is the one passage in the chapter I have not been able to check against the page, and the project's own record of it is shorter than the wording that has been circulating in earlier drafts.
 [^38]: David Bordwell, *Narration in the Fiction Film* (Madison: University of Wisconsin Press, 1985), 62.
 [^39]: Seymour Chatman, *Coming to Terms: The Rhetoric of Narrative in Fiction and Film* (Ithaca, NY: Cornell University Press, 1990), 134.
 [^40]: Mario Slugan, "The Film Narrator and the Early American Screenwriting Manuals," *Early Popular Visual Culture* 17, no. 2 (2019): 192–206, endnote i.
