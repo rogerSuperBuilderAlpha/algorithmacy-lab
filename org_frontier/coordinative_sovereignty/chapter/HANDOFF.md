@@ -3,6 +3,43 @@
 Rebuild completed 2026-08-01. Chapter due **2026-08-30**. This file lists everything the rewrite could not
 close, ranked by how much damage it would do if it reached a referee unfixed.
 
+## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
+
+A four-pass review (`reviews/2026-08-02/12_full_review.md`) closed the whole "still owed before press" list,
+each item against a fetched primary record: Apple €500M (EUR-Lex CELEX 52025DMA100109; cited as European
+Commission, 2025b), P2B repeal COM(2025) 837 (CELEX 52025PC0837; cited as European Commission, 2025a, with
+the ranking-transparency claim tightened to the business-user duty), COM(2026) 178 gloss (confirmed verbatim
+against the report), Hirschman mapping (§5.3 rewritten: necessity forecloses exit and leaves voice weakest
+where it is the only lever; loyalty vs involuntary retention added), Art. 22 out of the disclosure bundle
+(§3.2, scoped to natural persons), media kind-claim pinned to the regime (§2.3, §4), Anderson initials
+(B. / C. K. / E.), and quotation locators (Repetto and Sekar & Siddiq from their abstracts; DeVito p. 339:3
+from the author's PDF, where "crystalize" is the source's own spelling; the ancillary-restraints quote
+re-anchored to Case C-264/23, para. 53; Pettit pages 47–68 confirmed from the publisher PDF and restored to
+the bib). A fresh de-slop pass cleared the residual copyeditor items — definition parallelism, semicolon
+splices, agentless passives, BrE residue, the §5.5 percent style, and a Reducible-mediator Key Term.
+
+**Read-aloud, run 2026-08-02.** §5.3, §3.2, §5.2, and §6 read aloud after the review. Four trips found and
+fixed: the residual-lever sentence in §5.3 (interrupting clause smoothed), an institution/institutionally/
+institutions three-peat at the section's close (now "commands the least leverage"), the Art. 22 sentence in
+§3.2 (split in two, "protection stops at the natural person"), and a dash-then-colon pile in §5.2's
+capability sentence (now a plain sentence and a direct question). A second read-aloud in the author's own
+voice costs nothing and is still worth the half hour, but the pass is no longer owed.
+
+**Editor note on the title, ready to send** (volume editor's condition #4, declined by author decision —
+sending this makes it read as a choice):
+
+> On condition #4, the title: the chapter keeps "Algorithmacy and Sovereignty: Toward a Coordinative
+> Sovereignty for the Platform Era." The accepted abstract, the conference deck, and the poster all
+> circulated under it, and the keywords lead with "digital sovereignty," which covers the volume's
+> discoverability concern where indexing actually looks. If the volume allows a table-of-contents
+> annotation, "digital sovereignty and platform-dependent firms" would be the right one. Happy to revisit
+> if the title blocks anything at press.
+
+**Submission file.** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc, APA headings,
+anonymized) so the Word manuscript matches the markdown source. Reflow into the IGI template on submission.
+
+Remaining author-side: the Hunt et al. omission and the companion-paper scope, if a referee asks.
+
 Artifacts: `REVIEW.md` (section-by-section critique) · `OUTLINE.md` (architecture + contextual
 bibliographies) · `reviews_v2.md` (**the second review round, 2026-08-02, and the one to read first**) ·
 `research/section_*.md` (six deep-research files, ~480KB, each with a citation ledger) ·
@@ -20,10 +57,10 @@ body ~11,600 words. See the review's post-pass table.
 
 Full delegated panel in `reviews/2026-08-02/` (brief + ten lenses + `SYNTHESIS.md`). Verdict spread: **zero
 major, ten minor / accept-with-nits**. The chapter is submission-close. Consensus spine items S1, S3, and S4
-from that synthesis are already applied in `chapter.md`. Still owed before press: S2 empiric cites (Apple
-€500M / P2B repeal COM(2025) 837 / COM(2026) 178), Hirschman mapping polish, Art. 22 taxonomy, media
-kind-claim pin, Anderson initials, quotation locators. (§5.1 plain-language pass closed by the style pass.)
-See the synthesis.
+from that synthesis are already applied in `chapter.md`. The list that was still owed before press — S2
+empiric cites (Apple €500M / P2B repeal COM(2025) 837 / COM(2026) 178), Hirschman mapping polish, Art. 22
+taxonomy, media kind-claim pin, Anderson initials, quotation locators — was closed by the 2026-08-02 full
+review (section 0c above). (§5.1 plain-language pass closed by the style pass.) See the synthesis.
 
 ## 0. What the second review round changed, 2026-08-02
 

@@ -3,15 +3,14 @@
 ## Abstract
 
 A firm can comply with every instrument of Europe's digital regulation and still watch its market position
-turn on ranking decisions it cannot usefully see, predict, or contest. Sovereignty has always required a competence
-equal to the medium through which power runs: speech in oral orders, writing in the literate state, an
-extended literacy of code and data in the digital one. Platform coordination runs through an algorithmic
+turn on ranking decisions it cannot usefully see, predict, or contest. Sovereignty has always required a
+competence equal to the medium through which power runs: speech in oral orders, writing in the literate
+state, a literacy of code and data in the digital one. Platform coordination runs through an algorithmic
 third party that reads both parties and commits outcomes neither controls, which none of those competences
-reaches. Governing it takes a different competence, algorithmacy, and a different
-sovereignty. Coordinative sovereignty is the standing to shape the terms of a mediation one cannot leave, to
-contest the mediator's arbitrary power, and to hold a share in its governance. A counterfactual sorts the
-mediators an actor can leave from those it can only govern, and the sorting decides which institutions are
-worth building.
+reaches. Governing it takes a different competence, algorithmacy, and a different sovereignty. Coordinative
+sovereignty is the standing to shape the terms on which one is mediated, to contest the mediator's arbitrary
+power, and to hold a share in the governance of an arrangement one cannot leave. A counterfactual sorts
+mediators an actor can leave from those it can only govern and decides which institutions to build.
 
 **Keywords:** digital sovereignty, coordinative sovereignty, algorithmacy, platform coordination, co-optation,
 algorithmic management, non-domination, exit and voice, contestability, data trusts
@@ -57,13 +56,13 @@ leverage on a bypass that does not exist, and it redefines freedom as the absenc
 than as standing within it. Berlin (1969) named the general shape of that error: a person does not become
 free to walk by ceasing to want to walk. An actor that withdraws its demands from the terms of a mediation it
 cannot escape has not secured its autonomy. It has abandoned the field on which its autonomy would be
-exercised. Anderson (2017) makes the point about employment, where the right to quit has long been offered as
+exercised. E. Anderson (2017) makes the point about employment, where the right to quit has long been offered as
 the answer to an employer's authority and has never been sufficient, because the worker who quits arrives at
 another employer with the same powers.
 
 The alternative is coordinative sovereignty: standing within a coordination one cannot exit, the power to
-shape the terms of one's mediation, to contest the mediator's arbitrary power, and to hold a share in the
-governance of the arrangement. Digital sovereignty asks who controls the infrastructure. Coordinative
+shape the terms on which one is mediated, to contest the mediator's arbitrary power, and to hold a share in
+the governance of the arrangement. Digital sovereignty asks who controls the infrastructure. Coordinative
 sovereignty asks what autonomy remains for the actor coordinating through it. The two vary independently, and
 the rest of the chapter tells them apart.
 
@@ -78,7 +77,7 @@ a mediation the actor cannot exit and a standing carried by voice, and so narrow
 Repetto (2025), reviewing 240 works on digital sovereignty, reaches the same conclusion
 about the family: accounts that recognize multiple coexisting digital sovereigns "neither stretch the concept
 of sovereignty nor turn digital sovereignty into something different from sovereignty tout court," but
-"explore ways to innovate the concept of sovereignty as a whole."
+"explore ways to innovate the concept of sovereignty as a whole" (Abstract).
 
 ## 2. Sovereignty and its sensibilities
 
@@ -116,7 +115,7 @@ writing (Scott, 1998).
 The same properties that let the state govern let its subjects contest it. A literate public could read what
 the state wrote, lay one pronouncement beside another, and apply critical reason to authority (Habermas,
 1962/1989), and the print-borne imagining of a shared community underwrote the democratic nation-state
-(Anderson, 1983/2006). Democratic sovereignty rests on literacy in this constitutive sense: citizens govern
+(B. Anderson, 1983/2006). Democratic sovereignty rests on literacy in this constitutive sense: citizens govern
 themselves to the degree they can read what institutions write and hold those institutions to account through
 textual means (Nussbaum, 2006; Sen, 1999).
 
@@ -144,10 +143,9 @@ literacy frame reaches it only partly. What follows engages the regulatory stran
 literacy is tightest.
 
 Two changes in kind mark the sequence, and only the first is complete. Speech to writing is finished, and a
-scribe works a different medium from a better speaker. Writing to
-algorithmic mediation is under way, and section 4 argues that it is a change of the same order. Digital
-sovereignty sits inside the second era: a compliance officer is a reader, working new registers on new
-material.
+scribe works a different medium from a better speaker. Writing to algorithmic mediation is under way, and
+section 4 argues that it is a change of the same order in the regime of coordination. Digital sovereignty
+sits inside the second era: a compliance officer is a reader, working new registers on new material.
 
 The nesting explains a characteristic error. Because each competence is real and hard-won, its holders meet a
 new situation with the competence they already have. Faced with platform coordination, the literate response
@@ -163,10 +161,10 @@ coordinated actor is enrolled in.
 
 Organizational theory recognizes three mechanisms for coordinating economic activity: markets coordinate
 through price, hierarchies through authority, and networks through trust and reciprocity (Adler, 2001;
-Powell, 1990; G. F. Thompson, 2003; Williamson, 1975). Platforms have been read as a fourth term. Stark and
-Pais (2020) and Stark and Vanden Broeck (2024) argue that where actors in hierarchies command, in markets
-contract, and in networks collaborate, on platforms they are co-opted: enrolled into an algorithmic system
-without delegated authority and without the explicit contracts that mark employment or exchange. Vallas and
+Powell, 1990; G. F. Thompson, 2003; Williamson, 1975). Stark and Pais (2020) and Stark and Vanden Broeck
+(2024) read platforms as a fourth term: where actors in hierarchies command, in markets contract, and in
+networks collaborate, on platforms they are co-opted, enrolled into an algorithmic system without delegated
+authority and without the explicit contracts that mark employment or exchange. Vallas and
 Schor (2020) reach a compatible conclusion from a different direction, treating platforms as a distinct
 governance mechanism and describing the platform as playing "the role of *tertius gaudens* — 'the third who
 rejoices' — as in Simmel's classic theory of the triad" (p. 282). Kellogg et al. (2020) likewise find
@@ -188,10 +186,10 @@ high-dimensional systems produce its determinations and those determinations res
 adaptive, reconfigured continuously and without notice. And the interest it carries is not the algorithm's
 but the firm's: the owner pursues objectives of its own and retunes the system in their pursuit, so the
 apparatus that coordinates the parties is set by a party with a stake in the outcome. Each feature has been
-described before. Together they defeat disclosure as a way of governing. The coordinated actor takes no orders from a manager and signs no
-negotiated deal. It is drawn into a system that assigns, ranks, prices, and recommends, whose rules it cannot
-see and whose objectives it does not share, and its compliance is produced by the system's ordinary
-operation.
+described before. Together they defeat disclosure as a way of governing. The coordinated actor takes no
+orders from a manager and signs no negotiated deal. The platform draws it into a system that assigns, ranks,
+prices, and recommends, whose rules it cannot see and whose objectives it does not share, and the system's
+ordinary operation produces its compliance.
 
 Co-optation is the right word for that enrollment, though it needs care, because Selznick used it for two
 things. His informal co-optation absorbed outside actors into an organization's leadership and gave them real
@@ -200,7 +198,7 @@ transfer of actual power. The forms of participation are emphasized but action i
 the administrative functions while preserving the locus of significant decision in the hands of the
 initiating group" (Selznick, 1949, pp. 13–14). Platform enrollment is formal co-optation with even the forms
 of participation removed. The seller has no seat and no ceremony of consultation, only a determination. The
-term is being narrowed along Selznick's own axis.
+term is narrowed along Selznick's own axis.
 
 ### 3.1 The mediated triad
 
@@ -248,13 +246,17 @@ Fifth, the dominant regulatory modality is disclosure, and disclosure is a liter
 code and data, and argues that the first cannot straightforwardly govern the second. Recent European
 instruments do reach into ranking and automated decisions: the Platform-to-Business Regulation obliges
 platforms to disclose the main parameters of ranking, the Digital Services Act adds recommender transparency
-and researcher access, the Digital Markets Act constrains gatekeeper conduct, and the GDPR gives a right to
-contest solely automated decisions. What these share is the literate wager, that a legible object placed
-before an actor who can act on it will hold its operator to account. Against an opaque and adaptive
-coordination the wager mostly fails, and the disclosures that succeed reproduce the standing gap Ananny and
-Crawford name (Cohen, 2017; Pasquale, 2023). Surveys of the sovereignty concept confirm the residue: existing
-models sort sovereignty by the actor claiming it and the domain claimed, and none addresses the coordination
-through which platforms enroll and bind (Fratini et al., 2024).
+and researcher access, and the Digital Markets Act constrains gatekeeper conduct. What these share is the
+literate wager, that a legible object placed before an actor who can act on it will hold its operator to
+account. Article 22 of the GDPR belongs to a different family: it gives a natural person subject to a solely
+automated decision the right to obtain human intervention and to contest the outcome. That is case-level
+standing already in hard law, and section 7 places it among the voice instruments. Its threshold is high,
+its practice thin, and its protection stops at the natural person, so the platform-dependent firm falls
+outside it.
+Against an opaque and adaptive coordination the wager mostly fails, and the disclosures that succeed
+reproduce the standing gap Ananny and Crawford name (Cohen, 2017; Pasquale, 2023). Surveys of the sovereignty
+concept confirm the residue: existing models sort sovereignty by the actor claiming it and the domain
+claimed, and none addresses the coordination through which platforms enroll and bind (Fratini et al., 2024).
 
 Disclosure makes an object legible. What the coordinated actor needs is standing.
 
@@ -269,9 +271,9 @@ Whether the power converts into rent depends on which side can shop around. Arms
 configuration a competitive bottleneck: where one side single-homes, committing to a single platform, and the
 other multi-homes across several, each platform holds a monopoly over access to its own single-homing users
 and extracts from the multi-homing side, which must pay every platform to reach the users behind it. The
-single-homing side is competed for and often subsidized. Application stores show the pattern plainly.
-Consumers hold one phone operating system and pay nothing for the store. Developers publish on both and pay
-the commission, precisely because reaching each population requires going through its gatekeeper.
+single-homing side is competed for and often subsidized. Application stores show the pattern. Consumers hold
+one phone operating system and pay nothing for the store. Developers publish on both and pay the commission,
+because reaching each population requires going through its gatekeeper.
 
 Self-interest compounds the bottleneck. A faithful mediator, optimizing only for the coordination of the
 parties, would still hold bottleneck power. A mediator optimizing for objectives of its own reshapes the
@@ -288,8 +290,9 @@ zones of exclusivity, "extracting transparency from users but shielding basic op
 and deploying opacity in litigation to defeat the identification of affected classes (p. 182). Sekar and
 Siddiq (2026) reach the same conclusion formally, finding that a platform does better disclosing partial
 rather than complete information about buyer risk, because "full transparency diminishes the platform's
-protective value and intensifies disintermediation incentives." A transparent bottleneck would still be a
-bottleneck, and a disclosed objective the coordinated actor has no standing to contest is still an objective
+protective value and intensifies disintermediation incentives" (Abstract). A transparent bottleneck would
+still be a bottleneck, and a disclosed objective the coordinated actor has no standing to contest is still an
+objective
 imposed on it.
 
 ## 4. Algorithmacy: the sensibility for the platform era
@@ -306,7 +309,8 @@ temporal, the capacity to hold a strategy together across a system whose rules s
 None of those three parts is new, and the integration of them is not new either. DeVito (2021) defines
 algorithmic literacy as "the capacity and opportunity to be aware of both the presence and impact of
 algorithmically-driven systems on self- or collaboratively-identified goals, and the capacity and opportunity
-to crystalize this understanding into a strategic use of these systems to accomplish said goals," and his
+to crystalize this understanding into a strategic use of these systems to accomplish said goals" (p. 339:3),
+and his
 account of adaptive folk theorization already holds that capacity together across platforms that keep
 changing. Jarrahi and Sutherland (2019) coined "algorithmic competencies" for how gig workers understand and
 appropriate the systems that manage them. Sutherland et al. (2020) describe "gig literacies" from a study
@@ -326,6 +330,10 @@ that is simultaneously matching it to a counterpart and scoring it on how that m
 exercised on two relationships at once, and the second is legible to the actor only through its effects on
 the first. Reviewing algorithm-literacy research, Gagričin et al. (2026) call for domain-specific constructs
 rather than a single general capacity. Algorithmacy is one: the competence indexed to triadic coordination.
+The novelty claimed against these accounts is that index and nothing larger. The change in kind that section
+2.3 announced belongs to the regime: the three capacities are continuous with algorithmic literacy, and the
+coordination they must now work — through an opaque, adaptive, interested mediator — is discontinuous with
+the persistent and comparable document.
 
 Curchod et al. (2020) show what that looks like on a live platform. Studying sellers, buyers, and the
 feedback system on eBay, they find sellers managing buyers in order to manage how the system reads them,
@@ -335,10 +343,10 @@ platform owner" that the seller must work around while depending on both.
 
 The shape is visible in an ordinary week. A seller's placement drops. She checks the obvious things: price,
 stock, a lapsed promotion. They are fine. Watching which listings fell and which held, she sees that the fall
-tracks the items where buyers had opened disputes, including the ones resolved in her favour. The system is
+tracks the items where buyers had opened disputes, including the ones resolved in her favor. The system is
 reading the existence of the dispute rather than its outcome. So she changes how she deals with buyers. She
 messages first at the smallest sign of trouble, absorbs returns she could contest, and prices the difference
-in. She has read nothing; there was nothing to read. She has inferred what the system rewards from the
+in. She has read nothing. There was nothing to read. She has inferred what the system rewards from the
 movement of her own listings, rendered her conduct toward a counterpart into the terms she believes the
 system reads, and she will do it again in six months when the weighting changes. A seller without the
 competence sees only that sales fell, and waits, or blames the market, or abandons a channel that was
@@ -411,10 +419,11 @@ dealer relays a vehicle from manufacturer to buyer and integrates nothing. It oc
 because franchise law forbids the manufacturer to sell direct, and repealing the law dissolves the dealer's
 position. Two further cases complete the picture. A mediator that was never in the coordination's core is
 reducible: the parties can already deal directly. A mediator that keeps a constitutive role under the open
-tie while losing part of its integration is partial: real integrating work alongside a bypassable gate.
+tie while losing part of its integration is a partial mediator: real integrating work alongside a bypassable
+gate.
 
-The counterfactual restores the capability of direct dealing, not a prior relationship — the parties may
-never have met: could these two parties reach each other at comparable cost if no rule, contract, or
+The counterfactual restores the capability of direct dealing, not a prior relationship, because the parties
+may never have met. Could these two parties reach each other at comparable cost if no rule, contract, or
 architecture stood in the way? For parties who already know of each other the question is easy. For a
 function whose whole business is introducing strangers it is the entire question, and the answer varies by
 actor. A traveler looking for a hotel
@@ -441,7 +450,7 @@ operate on a node. The bypass test leaves the mediator in place and adds a tie: 
 The two operations disagree, and the franchised dealer shows where. Delete the dealer, and under franchise
 law no other party may deliver a new vehicle in that territory, so the dealer is non-substitutable and every
 node test returns a mediator that cannot be removed. Restore the manufacturer-to-buyer tie, and the dealer's
-position evaporates. The neighbouring tests cannot ask the second question, and the reason is not oversight.
+position evaporates. The neighboring tests cannot ask the second question, and the reason is not oversight.
 Each holds the network of who may deal with whom fixed because each answers a question posed inside that
 network: Burt asks what a position yields given the ties that exist, Williamson asks how to govern a
 transaction given the legal environment, and a court asks whether to compel access given that the facility
@@ -457,16 +466,16 @@ Node says necessary and edge says contingent, on the same function, in the same 
 Act's anti-steering obligations are the edge test run by a regulator.
 
 European competition law already runs this counterfactual on contract terms. Under the ancillary-restraints
-doctrine a restriction escapes the prohibition on anticompetitive agreements only where, without it, "the
-main non-restrictive transaction would be difficult or impossible to implement" — the same question, asked of
-a clause. The diagnostic generalizes that operation from clauses to a mediator's functions, runs it from the
-position of the dependent party instead of a tribunal, and returns a strategy for that party, not a finding
-of legality. Given a mediator, a dependent party, and a set of rules, it asks which of the mediator's
-functions would survive the removal of the prohibition on direct contact, and converts each answer into a
-course of action. Brokerage theory predicts the broker's returns. Transaction cost economics prescribes a
-governance form to a party that can move its boundary. Essential facilities tells a court when to compel
-access for an excluded rival. None of them returns a strategy to the party inside the coordination, and none
-of them is run by that party.
+doctrine a restriction escapes the prohibition on anticompetitive agreements only where "the implementation
+of the main operation … would be impossible in the absence of the restriction in question" (Case C-264/23,
+para. 53) — the same question, asked of a clause. The diagnostic generalizes that operation from clauses to
+a mediator's functions, runs it from the position of the dependent party instead of a tribunal, and returns
+a strategy for that party, not a finding of legality. Given a mediator, a dependent party, and a set of
+rules, it asks which of the mediator's functions would survive the removal of the prohibition on direct
+contact, and converts each answer into a course of action. Brokerage theory predicts the broker's returns.
+Transaction cost economics prescribes a governance form to a party that can move its boundary. Essential
+facilities tells a court when to compel access for an excluded rival. None of the three returns a strategy
+to the party inside the coordination, and none of the three is run by that party.
 
 What the counterfactual establishes is structural, and observed behavior can diverge from it. Hahl et al.
 (2016) find that brokered parties who do not perceive the gap between them do not attempt to close it, so a
@@ -479,28 +488,31 @@ withhold the very integration that would make it necessary.
 
 The diagnostic decides which sovereignty is available. Hirschman (1970) drew the distinction for
 organizations in decline. A member of a failing organization has two powers: exit, the power to leave, and
-voice, the power to stay and press for change. Exit maps onto bypassability, voice onto necessity. Whether a
-coordinated actor can leave becomes a designable fact, set by whether the mediator is contingent, and
-contingency is a policy and strategy variable. Scholars have already carried the pair to platforms, to the
-constrained voice of platform workers (Dasgupta et al., 2025) and to the politics of platform dependence more
-broadly.
+voice, the power to stay and press for change. Bypassability is the availability of exit. Necessity does not
+produce voice. It forecloses exit and leaves voice as the residual lever, one available against contingent
+mediators too and the only one left where the mediator is necessary. Whether a coordinated actor can leave
+becomes a designable fact, set by whether the mediator is contingent, and contingency is a policy and
+strategy variable. Scholars have already carried the pair to platforms, to the constrained voice of platform
+workers (Dasgupta et al., 2025) and to the politics of platform dependence more broadly.
 
 For a contingent mediator, exit is available in principle. The mediator is held by a liftable constraint, so
 lifting the constraint restores the direct tie. Deregulation, mandated interoperability, an antitrust remedy,
-the breaking of an exclusive — each is an exit move, and each is the right move where the mediator is
-contingent. Platform economics reads the same fact through multihoming: where an actor can hold more than one
-platform at once, the bottleneck is contestable (Eisenmann et al., 2006).
+the breaking of an exclusive — each opens exit where the mediator is contingent. Platform economics reads the
+same fact through multihoming: where an actor can hold more than one platform at once, the bottleneck is
+contestable (Eisenmann et al., 2006). What holds many actors inside a contingent mediation is involuntary
+retention: lock-in, multihoming costs, sunk investment. Hirschman's loyalty kept the voice-prone from leaving
+and thereby activated voice. Retention suppresses exit and activates nothing.
 
 For a necessary mediator, the bypass takes nothing, because the mediator's position never rested on the tie's
 absence. To demand independence from a necessary mediator is to demand the dissolution of the coordination
-itself. Only voice remains, and Hirschman's own analysis complicates any easy confidence about it. He
-observed that exit does not reliably strengthen voice and can substitute for it: the customers most sensitive
-to quality are the first to leave, and their departure removes the complaints that would have forced a
-remedy, so a monopolist can be comforted by the availability of an alternative that removes the critics. The
-necessary mediator is a different case and in one respect a clearer one. There is no exit to relieve the
-mediator of criticism and none to lend the critic leverage, so whatever force voice has under such a mediator
-has to be supplied by institutions. Building those institutions is what the literate and digital forms of
-sovereignty leave untheorized.
+itself. Only voice remains, and Hirschman's own analysis blocks any easy confidence in it. He observed that
+exit does not reliably strengthen voice and can substitute for it: the customers most sensitive to quality
+are the first to leave, and their departure removes the complaints that would have forced a remedy, so a
+monopolist can be comforted by the availability of an alternative that removes the critics. Under a necessary
+mediator the difficulty is starker. There is no exit to lend the critic leverage, and a captive population
+may resign itself sooner than complain, so voice is the only autonomy left exactly where it commands the
+least leverage, and whatever force it has must be supplied by institutions. Building those institutions is
+what the literate and digital forms of sovereignty leave untheorized.
 
 ### 5.4 A platform is a portfolio of mediators
 
@@ -521,7 +533,7 @@ Against a contingent gate the move is toward exit: interoperability, portability
 Against a necessary function, exit is a mirage and the move is toward voice. Managers who read their platform
 dependence as a single risk to be diversified miss this.
 
-A partial verdict has its own answer, and it is not a compromise between the other two. Contest the
+A partial verdict has its own answer. Contest the
 bypassable part and accept the integrating one, treating them as separate decisions instead of averaging
 them into a single posture. Modularity research supplies the criterion for where the two come apart: cut at
 the thin crossing points, where the interface between functions is narrow enough that separating them costs
@@ -533,11 +545,12 @@ fights one function of a platform while depending on another.
 
 An independent hotel reaches many of its guests through an online travel agency, and the agency does two very
 different things for its commission, which the European Competition Network's monitoring exercise put at
-between ten percent and above twenty percent of each booking (European Competition Network, 2017). It
-aggregates demand, putting the hotel in front of travelers who would never have found it. Anderson (2009,
-2011) named this the billboard effect and measured the lift in a hotel's own direct reservations that follows
-from being listed on an agency at all, though later work has not consistently reproduced it (Beritelli &
-Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price lower on its own site.
+10% to above 20% of each booking (European Competition Network, 2017). It
+aggregates demand, putting the hotel in front of travelers who would never have found it. C. K. Anderson
+(2009, 2011) named this the billboard effect and measured the lift in a hotel's own direct reservations that
+follows from being listed on an agency at all, though later work has not consistently reproduced it
+(Beritelli & Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price lower on its
+own site.
 
 Run the counterfactual on each function separately. Restore the capability of direct dealing for a traveler
 who already knows the hotel exists, and the parity clause does nothing: it was held in place by a contract,
@@ -564,7 +577,7 @@ Between 2013 and 2023 the agencies' share of European hotel overnight stays rose
 direct bookings fell from 57.6% to 50.9% (Schegg, 2024). Dependence did not fall as the gate came open. It
 deepened.
 
-The 2024 judgment postdates the last year of these data, so nothing here tests it; what the decade covers is
+The 2024 judgment postdates the last year of these data, so nothing here tests it. What the decade covers is
 the sequence from the 2015 abandonment of wide parity to the national enforcement of 2021, and the judgment
 sets up a test a later study can run. And the function-split predicts the absence of the erosion the rival
 reading expects, not the increase that actually occurred, which owes something to mobile search and to
@@ -626,7 +639,7 @@ sovereignty. Republican theory has already licensed the move, extending non-domi
 while treating a corporate body's freedom as valuable for the sake of its members (Pettit, 2016). The same
 holds here. A firm's coordinative sovereignty matters because of what it secures for the people who make it
 up. Where the two diverge, the members' standing governs — a position taken here, and one a reader may
-decline while keeping the rest. The construct is one; the measurement differs by level, and section 9 takes
+decline while keeping the rest. The construct is one. The measurement differs by level, and section 9 takes
 that up.
 
 Most digital-sovereignty work asks who controls the infrastructure and answers with reclaimed control,
@@ -634,23 +647,23 @@ whether by a state, a community, or a firm (Floridi, 2020; Pohle & Thiel, 2020; 
 move is not always centralizing, and Couture and Toupin (2019) document grassroots and emancipatory variants.
 Every variant answers the ownership question. Coordinative sovereignty asks what standing the coordinated
 actor holds, and answers it without owning the infrastructure and without leaving it. Repetto (2025),
-reviewing the field's usages, finds that accounts recognizing multiple coexisting digital sovereigns explore
-ways to innovate the concept of sovereignty as a whole.
+reviewing the field's usages, counts accounts that recognize multiple coexisting digital sovereigns as
+innovations of the concept of sovereignty itself.
 
 Bannerman (2024) reads platform power through a relational and historical lens and works toward rebalancing
 the structural asymmetry. Functional sovereignty (Pasquale, 2023) and the platform sovereign (Cohen, 2017)
-theorize the authority the platform exercises over the coordinated; coordinative sovereignty looks at the
+theorize the authority the platform exercises over the coordinated. Coordinative sovereignty looks at the
 same relationship from the other end. Muldoon and Raekstad (2023) recommend cooperative ownership, and that
 remedy locates the wedge. They acknowledge that domination can survive a change of owner, and worry about
 managerial decay inside cooperatives. The problem pressed here is structural. Worker ownership can change who
 sets a necessary mediator's rules and cannot make the mediator leaveable. A driver-owned dispatch platform
 still coordinates its drivers through a system no single driver can bypass, so the question of standing
-within an irreducible coordination outlives the question of who holds the title. Anderson (2017) makes the
+within an irreducible coordination outlives the question of who holds the title. E. Anderson (2017) makes the
 parallel argument for the firm, where the right to quit has long been treated as the answer to employer
 authority and does not dissolve it.
 
 Coordinative sovereignty is more than worker rights or consumer protection, though it bears on both. Rights
-and protections are guarantees against a mediator's conduct; coordinative sovereignty is a share in the
+and protections are guarantees against a mediator's conduct. Coordinative sovereignty is a share in the
 mediator's governance, and a platform can grant extensive protections to actors who hold no standing over how
 the coordination is authored. Transparency alone does not produce it: that is the standing gap named above.
 And the construct takes the mediation as given, often as necessary, and asks what autonomy is possible within
@@ -665,13 +678,13 @@ algorithmacy decides, which is why the competence and the institutions have to b
 
 ## 7. Building standing
 
-The diagnostic sorts institutions, and the sorting produces a result that a catalogue of remedies would miss:
+The diagnostic sorts institutions, and the sorting produces a result that a catalog of remedies would miss:
 the same instrument changes character depending on which kind of mediator it meets.
 
 Interoperability shows this most clearly. Where a mediator's position is contingent, held by lock-in,
 mandated interoperability and data portability lower the cost of the direct tie and restore a measure of the
 old sovereignty of independence. Against a necessary mediator the same instrument does something else
-entirely. A right to interoperate with a facility no one can bypass does not let the actor leave; it forces
+entirely. A right to interoperate with a facility no one can bypass does not let the actor leave. It forces
 the mediator to grant access on regulated terms. That is a voice instrument, and competition law has long
 understood it as one under the essential-facilities logic it applies to infrastructure that cannot be
 duplicated. The Digital Markets Act's access and interoperability obligations carry the logic into platform
@@ -703,7 +716,10 @@ on (Micheli et al., 2020). A bottom-up data trust pools the data rights of many 
 bound to act in their interest, giving a collective the bargaining power no individual data subject possesses
 (Delacroix & Lawrence, 2019). The trust leaves the mediator in place and changes the terms on which it
 obtains the input it depends on. The European Data Governance Act has since created a registered category of
-data intermediary, and the evidence on whether the mechanism delivers standing in practice is not yet in.
+data intermediary, and the November 2025 Digital Omnibus proposal would repeal that Act and move the
+data-intermediation rules into the Data Act (European Commission, 2025a). The statutory vehicle is in motion
+while the category persists, and the evidence on whether the mechanism delivers standing in practice is not
+yet in.
 
 Collective bargaining adapts an older institution of voice to the platform, and it has recently acquired a
 statutory anchor. Where platform workers or platform-dependent firms can organize, they can negotiate over
@@ -716,9 +732,10 @@ Contestability builds voice into the algorithmic system itself. Where explainabi
 determination, contestability provides a channel to challenge it: a contestable system is open and responsive
 to dispute throughout its lifecycle, with mechanisms that let affected parties review, correct, or override a
 decision (Alfrink et al., 2023). European data-protection law sets a floor, since Article 22 of the GDPR
-gives a person subject to a solely automated decision the right to obtain human intervention and to contest
-the outcome. Contestability is voice at the level of the case. It gives the coordinated actor standing to
-dispute a particular determination and stops short of a share in how the system is governed in general.
+gives a natural person subject to a solely automated decision the right to obtain human intervention and to
+contest the outcome. Contestability is voice at the level of the case. It gives the coordinated actor
+standing to dispute a particular determination and stops short of a share in how the system is governed in
+general.
 
 Oversight boards and independent adjudication institutionalize voice at the level of the platform's
 rule-making, creating a body with some authority to review the platform's determinations (Klonick, 2020).
@@ -736,11 +753,12 @@ institutions confers, and the diagnostic is what tells a policymaker where to pu
 
 ## 8. Implications
 
-Organizational digital sovereignty is typically operationalized as a single capability built from regulatory
-and infrastructural components (Fratini et al., 2024; Hummel et al., 2021; Schmuntzsch et al., 2025). The
-typology here separates two phenomena that vary independently across firms. Digital sovereignty is a literacy
-construct, measuring an organization's capacity to read and control its data, infrastructure, and code.
-Coordinative sovereignty is an algorithmacy construct, measuring an organization's standing within the
+Current research typically operationalizes organizational digital sovereignty as a single capability built
+from regulatory and infrastructural components (Fratini et al., 2024; Hummel et al., 2021; Schmuntzsch et
+al., 2025). The typology here separates two phenomena that vary independently across firms. Digital
+sovereignty is a literacy construct, measuring an organization's capacity to read and control its data,
+infrastructure, and code. Coordinative sovereignty is an algorithmacy construct, measuring an organization's
+standing within the
 algorithmic coordination on which it depends. A firm can be high on the first and low on the second,
 impeccably compliant and strategically captured, and the two predict different outcomes.
 
@@ -748,15 +766,18 @@ The independent variation shows in concrete cases. An application developer or a
 its code and data, hold data-portability rights, and comply fully with the GDPR and the Digital Markets Act,
 and still hold no leverage over the ranking and review algorithms that set its visibility (Cutolo & Kenney,
 2021). Enforcement has reached platform conduct without reaching that layer: the European Commission fined
-Apple €500 million in April 2025 for restricting how developers steer users to offers outside its App Store,
-a decision Apple has appealed, and further gatekeeper decisions have followed against other platforms.
-Ranking transparency is a separate and earlier obligation, set by the 2019 Platform-to-Business Regulation
-and the Digital Services Act. That Regulation does more than disclose, since it also requires internal
-complaint-handling, offers mediation, and gives representative organizations standing to bring proceedings,
+Apple €500 million in April 2025 for restricting how developers steer users to offers outside its App Store
+(European Commission, 2025b), a decision Apple has appealed (Case T-438/25), and further gatekeeper
+decisions have followed against other platforms. Ranking transparency is a separate and earlier obligation,
+set by the 2019 Platform-to-Business Regulation and the Digital Services Act. That Regulation does more than
+disclose, since it also requires internal complaint-handling, offers mediation, and gives representative
+organizations standing to bring proceedings,
 which makes it one of the few instruments to attach a channel to a disclosure. The Commission has since
-proposed to repeal it as part of a wider simplification package, which would remove the only horizontal
-ranking-transparency duty in European law. High digital sovereignty beside low coordinative sovereignty, and
-an instrument that built a little of the second now proposed for withdrawal.
+proposed to repeal it as part of a wider simplification package (European Commission, 2025a), which would
+remove the only duty in European law to disclose the main parameters of ranking to the business users being
+ranked. The Digital Services Act's recommender transparency runs to a platform's users and does not replace
+that duty. High digital sovereignty beside low coordinative sovereignty, and an instrument that built a
+little of the second now proposed for withdrawal.
 
 The reverse pairing is equally real, and it is still arriving. A platform worker owns none of the
 infrastructure that coordinates the work. Under the European platform-work directive, member states must by 2
@@ -796,8 +817,8 @@ collective-organization rights, and governance channels that turn disclosure int
 the coordinated actor — are what that layer requires.
 
 The typology also reframes the standoff between openness and control that runs through the digital-
-sovereignty debate. That debate is usually staged as a choice: openness invites dependence on foreign
-platforms, while control invites fragmentation and lost efficiency. For the coordinated actor the relevant
+sovereignty debate. That debate usually stages a choice: openness invites dependence on foreign platforms,
+while control invites fragmentation and lost efficiency. For the coordinated actor the relevant
 question is whether it has standing within the system, and standing is compatible with either. A closed
 national platform in which users have no voice reproduces the co-optation it was meant to escape, now under a
 domestic flag. WeChat is woven into Chinese public administration to the point of hosting police modules
@@ -995,6 +1016,13 @@ transformations in early modern Europe*. Cambridge University Press.
 Eslami, M., Karahalios, K., Sandvig, C., Vaccaro, K., Rickman, A., Hamilton, K., & Kirlik, A. (2016). First I
 "like" it, then I hide it: Folk theories of social feeds. In *Proceedings of the 2016 CHI Conference on Human
 Factors in Computing Systems* (pp. 2371–2382). ACM. https://doi.org/10.1145/2858036.2858494
+
+European Commission. (2025a). *Proposal for a regulation as regards the simplification of the digital
+legislative framework (Digital Omnibus)* (COM(2025) 837 final).
+
+European Commission. (2025b). *Summary of Commission decision of 23 April 2025 relating to a decision
+pursuant to Regulation (EU) 2022/1925 (Case DMA.100109 — Apple — online intermediation services — app
+stores — Article 5(4))* (OJ C/2025/3348).
 
 European Commission. (2026). *Report on the review of Regulation (EU) 2022/1925 (Digital Markets Act)*
 (COM(2026) 178 final).
@@ -1228,6 +1256,8 @@ power*. PublicAffairs.
 Case C-264/23, *Booking.com BV v. 25hours Hotel Company Berlin GmbH and Others*, ECLI:EU:C:2024:764
 (Judgment of the Court, 19 September 2024).
 
+Case T-438/25, *Apple v. Commission* (action brought 7 July 2025, pending; OJ C/2025/5215).
+
 ## Additional Reading
 
 Benkler, Y. (2006). *The wealth of networks: How social production transforms markets and freedom*. Yale
@@ -1299,6 +1329,9 @@ can be exited, so the actor's remaining power includes exit.
 **Partial mediator:** A mediator that keeps a constitutive role under the open tie while losing part of its
 integration: real integrating work alongside a bypassable gate. The response is to contest the bypassable
 part and accept the integrating one, treating them as separate decisions.
+
+**Reducible mediator:** A mediator that was never in the coordination's core: the parties can already deal
+directly, so the coordinated actor can route around it without any constraint being lifted.
 
 **Exit and voice:** Hirschman's two responses to a declining relationship — leaving it, or staying and
 pressing for change. Exit is available against a contingent mediator; only voice remains against a necessary

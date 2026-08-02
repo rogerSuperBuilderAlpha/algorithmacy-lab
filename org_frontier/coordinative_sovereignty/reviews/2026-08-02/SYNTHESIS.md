@@ -167,6 +167,7 @@ The unambiguous spine items were applied to `chapter/chapter.md` in the same com
 
 Still open for the author: S2 cites (Apple, P2B COM(2025) 837, COM(2026) 178), Hirschman mapping,
 Art. 22 taxonomy, kind-claim pin, Anderson initials, quotation locators.
+*(Closed 2026-08-02 by the full review — see `12_full_review.md` and HANDOFF section 0c.)*
 
 ## Style pass addendum
 
