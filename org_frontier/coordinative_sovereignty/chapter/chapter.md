@@ -473,8 +473,8 @@ a strategy for that party, not a finding of legality. Given a mediator, a depend
 rules, it asks which of the mediator's functions would survive the removal of the prohibition on direct
 contact, and converts each answer into a course of action. Brokerage theory predicts the broker's returns.
 Transaction cost economics prescribes a governance form to a party that can move its boundary. Essential
-facilities tells a court when to compel access for an excluded rival. None of the three returns a strategy to the party inside the coordination, and
-none of the three is run by that party.
+facilities tells a court when to compel access for an excluded rival. None of the three returns a strategy
+to the party inside the coordination, and none of the three is run by that party.
 
 What the counterfactual establishes is structural, and observed behavior can diverge from it. Hahl et al.
 (2016) find that brokered parties who do not perceive the gap between them do not attempt to close it, so a
