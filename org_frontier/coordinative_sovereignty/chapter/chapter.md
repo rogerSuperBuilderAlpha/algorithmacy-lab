@@ -88,7 +88,7 @@ rest merely endure. Under a mediation an actor cannot leave, that distribution d
 actor who cannot leave and cannot contest has nothing left.
 
 Each of the three eras below shows the same two-part structure: a medium through which authority runs, and a
-competence for working it that was scarce before it was common.
+competence for working it that was never evenly held.
 
 ### 2.1 Oracy and the oral order
 
@@ -97,9 +97,12 @@ because the community witnessed it, and a ruler's word governed to the reach of 
 it. Custom held because people could remember and perform it, and legitimacy rested on the capacity to speak
 and be heard in the right forms. Oracy was the competence that let a member of such an order participate in
 its authority: give testimony, hold others to their word, carry the customary rules that constituted the
-group (Goody, 1977; Ong, 1982). Within its range that sovereignty was real. Beyond its range it stopped. An
-oral order could not fix its law in a text, check today's ruling against last year's, or transmit a rule past
-the reach of living memory.
+group (Goody, 1977; Ong, 1982). Everyone in such an order could speak, and not everyone could speak in the
+forms that bound. Who might address the assembly, swear an oath the community would enforce, or recite the
+law as law was restricted by age, sex, birth, and office. The competence was general and the authorized
+exercise of it was not, which is the difference that decided who could hold power to account. Within its
+range that sovereignty was real. Beyond its range it stopped. An oral order could not fix its law in a text,
+check today's ruling against last year's, or transmit a rule past the reach of living memory.
 
 ### 2.2 Literacy and the democratic state
 
@@ -340,9 +343,9 @@ system reads, and she will do it again in six months when the weighting changes.
 competence sees only that sales fell, and waits, or blames the market, or abandons a channel that was
 working.
 
-Note what she is not doing. She is not reading a disclosure, because the seller guidelines do not contain
-what she needs to know. And she is not merely modeling a system. She is managing a relationship with a buyer
-under the constraint that a third party is scoring that relationship on terms she has to guess. Her position
+None of that is reading, because the seller guidelines do not contain what she needs to know, and none of it
+is modeling a system on its own. She is managing a relationship with a buyer under the constraint that a
+third party is scoring that relationship on terms she has to guess. Her position
 beside a competitor who lacks the competence is the position of a literate merchant beside an illiterate one
 in an economy run on written contracts.
 
@@ -411,6 +414,17 @@ position. Two further cases complete the picture. A mediator that was never in t
 reducible: the parties can already deal directly. A mediator that keeps a constitutive role under the open
 tie while losing part of its integration is partial: real integrating work alongside a bypassable gate.
 
+What the counterfactual restores needs stating exactly, because the two parties may never have met. It does
+not restore a prior relationship. It restores the capability of direct dealing: could these two parties reach
+each other at comparable cost if no rule, contract, or architecture stood in the way? For parties who already
+know of each other the question is easy. For a function whose whole business is introducing strangers it is
+the entire question, and the answer varies by actor rather than by function. A traveler looking for a hotel
+chain she has used before can reach it directly, so the aggregation that would have introduced them is
+contingent for that booking. A traveler who would never have learned that an independent hotel exists cannot,
+so the same function is doing integrating work no direct tie reproduces. A mediator's classification
+therefore depends on which coordination is being asked about. The diagnostic sorts functions for a given
+dependent party, and it does not sort platforms once and for all.
+
 This asks a different question from section 5.1, and the two answers need not agree. Factoring asks whether
 the coordination is triadic as it stands. The bypass asks whether it would stay triadic if an external
 constraint were lifted. A marketplace gate that today carries every buyer–seller match is irreducible as the
@@ -434,6 +448,14 @@ Each holds the network of who may deal with whom fixed because each answers a qu
 network: Burt asks what a position yields given the ties that exist, Williamson asks how to govern a
 transaction given the legal environment, and a court asks whether to compel access given that the facility
 exists. The bypass test asks which of those constraints is load-bearing.
+
+The same divergence appears on a platform, which is where it matters. Take the gate an application store
+holds over payment inside an application. Delete it as a node and ask whether another actor could process
+that payment on the device: under the platform's own rules none may, so every node test returns a mediator
+that cannot be replaced. Restore the developer-to-user tie for payment, through sideloading or a link to an
+external purchase, and the gate's force disappears, because it never rested on integrating work. Node says
+necessary and edge says contingent, on the same function, in the same firm. The Digital Markets Act's
+anti-steering obligations are the edge test run by a regulator.
 
 One relative is closer than any of the three, and naming it strengthens the claim. European
 competition law already runs this counterfactual on contract terms. Under the ancillary-restraints doctrine a
@@ -488,8 +510,8 @@ A real platform is several mediators wearing one name, and the diagnostic classi
 The same company can be necessary in one of its functions and contingent in another, and the coordinated
 actor's strategy differs by function. A payment network authorizes transactions, a determination that depends
 jointly on the merchant's request and the issuer's approval and that neither could produce alone, which is
-necessary integrating work. The same network operates a gate whose force comes from the rails both sides
-happen to share, which is contingent. A large marketplace fulfills orders through logistics that no direct
+necessary integrating work. The same network enforces a rule against steering the customer toward a cheaper
+method at the till, a gate whose force comes from the card both parties already hold, which is contingent. A large marketplace fulfills orders through logistics that no direct
 seller-to-buyer tie reproduces at scale, which is necessary. It matches demand to supply, real integrating
 work that buyers can bypass for goods they already know, which is partial. It gates which seller a buyer
 sees, a toll sellers pay to pass, which is contingent. And it resells goods it buys, a plain conduit that a
@@ -514,10 +536,10 @@ fights one function of a platform while depending on another.
 An independent hotel reaches many of its guests through an online travel agency, and the agency does two very
 different things for its commission, which the European Competition Network's monitoring exercise put at
 between ten percent and above twenty percent of each booking (European Competition Network, 2017). It
-aggregates demand, putting the hotel in front of travelers who would never have found it. Anderson (2009)
-named this the billboard effect and measured reservation lifts of 7.5% to 26%, with independent hotels at the
-upper end, though later work has not always reproduced it (Beritelli & Schegg, 2016). And it has held rate
-parity clauses forbidding the hotel to price lower on its own site.
+aggregates demand, putting the hotel in front of travelers who would never have found it. Anderson (2009,
+2011) named this the billboard effect and measured the lift in a hotel's own direct reservations that follows
+from being listed on an agency at all, though later work has not consistently reproduced it (Beritelli &
+Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price lower on its own site.
 
 Run the counterfactual on each function separately. Restore the direct hotel-to-traveler tie for a traveler
 who already knows the hotel exists, and the parity clause does nothing: it was held in place by a contract,
@@ -528,22 +550,31 @@ clause the move is exit, pursued through contract law and competition enforcemen
 aggregation, exit is unavailable and the move is voice, pursued through terms the hotel has standing to
 contest.
 
-Europe has now run the exit move, which makes the case a test rather than an illustration. The German Federal
-Court of Justice held the agencies' narrow parity clauses unlawful in 2021, and in September 2024 the Court
-of Justice of the European Union held that parity clauses, wide and narrow alike, are not ancillary
-restraints and so fall within the prohibition on anticompetitive agreements (Case C-264/23). Booking.com had
-been designated a gatekeeper under the Digital Markets Act four months earlier.
+Europe has spent a decade opening the parity gate, which lets the two readings be compared against an
+outcome. The major agencies abandoned wide parity clauses in 2015 under pressure from national competition
+authorities, several member states legislated against the clauses over the years that followed, and national
+enforcement had reached the narrow clauses by 2021. In September 2024 the Court of Justice of the European
+Union held that parity clauses, wide and narrow alike, are not ancillary restraints and so fall within the
+prohibition on anticompetitive agreements (Case C-264/23), four months after Booking.com was designated a
+gatekeeper under the Digital Markets Act.
 
-The two readings of the agency predict different outcomes, and the data separate them. Treat the agency as
-one substitutable intermediary, and striking down the clause that blocked price competition should erode its
-position: hotels can now undercut it on their own sites, so bookings should move to the direct channel.
-Treat it as a portfolio, and only the contingent function was removed, so prices should change and dependence
-should not. Across the decade over which the parity gate was dismantled, the online travel agencies' share of
-European hotel overnight stays rose from 19.7% to 29.6%, while direct bookings fell from 57.6% to 50.9%
-(Schegg, 2024). Dependence deepened while the gate was being opened. A test that treats the mediator as one
-thing gets the direction of travel wrong. A test that splits it by function gets it right, and a hotel that
-spends its whole effort trying to leave the agency has mistaken the necessary function for the contingent
-one.
+The two readings predict different things about that decade. Treat the agency as one substitutable
+intermediary, and removing the clause that blocked price competition should erode its position: hotels can
+undercut it on their own sites, so bookings should move to the direct channel. Treat it as a portfolio, and
+only a contingent function was removed, so the necessary function should hold and dependence should not fall.
+Between 2013 and 2023 the agencies' share of European hotel overnight stays rose from 19.7% to 29.6% while
+direct bookings fell from 57.6% to 50.9% (Schegg, 2024). Dependence did not fall as the gate came open. It
+deepened.
+
+Two qualifications keep the case honest. The 2024 judgment postdates the last year of these data, so nothing
+here tests it; what the decade covers is the sequence from the 2015 abandonment of wide parity to the
+national enforcement of 2021, and the judgment sets up a test a later study can run. And the function-split
+predicts the absence of the erosion the rival reading expects, not the increase that actually occurred, which
+owes something to mobile search and to consolidation among the agencies, the largest three of which hold
+roughly nine-tenths of the market. What the decade settles is narrower than a natural experiment and still
+decisive for the diagnostic: an actor treating the agency as one leaveable thing would have read the
+direction of travel backwards, and a hotel that spent the decade trying to leave mistook the necessary
+function for the contingent one.
 
 ## 6. Coordinative sovereignty: a definition
 
@@ -597,8 +628,9 @@ by a kind of actor: whoever occupies the position of being coordinated through a
 bears coordinative sovereignty. Republican theory has already licensed the move, extending non-domination to
 corporate bodies while treating a corporate body's freedom as valuable for the sake of its members rather
 than in itself (Pettit, 2016). The same holds here. A firm's coordinative sovereignty matters because of what
-it secures for the people who make it up, and where firm and members diverge the members' standing governs.
-The construct is one; the measurement differs by level, and section 9 takes that up.
+it secures for the people who make it up. Where the two diverge, the members' standing governs here,
+which is a position taken rather than a derivation, and one a reader may decline while keeping the rest. The
+construct is one; the measurement differs by level, and section 9 takes that up.
 
 The neighbourhood is occupied and the construct has to be placed in it. Most digital-sovereignty work asks
 who controls the infrastructure and answers with reclaimed control, whether by a state, a community, or a
@@ -856,9 +888,9 @@ counterfactual that asks what a mediator would still do if the parties it stands
 other directly. Where the mediator is contingent, the older sovereignty of exit still works, and the
 instruments of digital sovereignty apply. Where the mediator is necessary, only voice remains, resting on
 non-domination, relational autonomy, involvement, and commons governance, and realized, if at all, through
-cooperatives, trusts, collective bargaining, contestability, and standing channels of governance. Hotels
-learned the distinction expensively, spending a decade opening a gate while their dependence on the function
-behind it deepened.
+cooperatives, trusts, collective bargaining, contestability, and standing channels of governance. Europe's
+hotels spent a decade prying open a gate their dependence did not run through, and came out of it more
+dependent than they went in.
 
 Literacy was once the possession of a clerical few and became, unevenly and incompletely, a general condition
 of citizenship, and democratic sovereignty followed the diffusion of the competence that made it possible.
@@ -883,8 +915,11 @@ https://doi.org/10.1177/1461444816676645
 Anderson, B. (2006). *Imagined communities: Reflections on the origin and spread of nationalism* (Rev. ed.).
 Verso. (Original work published 1983)
 
-Anderson, C. K. (2009). The billboard effect: Online travel agent impact on non-OTA reservation volume.
-*Cornell Hospitality Report, 9*(16).
+Anderson, C. K. (2009). *The billboard effect: Online travel agent impact on non-OTA reservation volume*
+(Cornell Hospitality Report). Cornell University Center for Hospitality Research.
+
+Anderson, C. K. (2011). *Search, OTAs, and online booking: An expanded analysis of the billboard effect*
+(Cornell Hospitality Report, 11[8]). Cornell University Center for Hospitality Research.
 
 Anderson, E. (2017). *Private government: How employers rule our lives (and why we don't talk about it)*.
 Princeton University Press. https://doi.org/10.1515/9781400887781
@@ -1033,7 +1068,7 @@ Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The
 control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.5465/annals.2018.0174
 
 Klonick, K. (2020). The Facebook Oversight Board: Creating an independent institution to adjudicate online
-free expression. *Yale Law Journal, 129*(8), 2418–2499.
+free expression. *Yale Law Journal, 129*, 2418–2499.
 
 Lei, Y.-W. (2021). Delivering solidarity: Platform architecture and collective contention in China's platform
 economy. *American Sociological Review, 86*(2), 279–309. https://doi.org/10.1177/0003122420979980

@@ -4,8 +4,37 @@ Rebuild completed 2026-08-01. Chapter due **2026-08-30**. This file lists everyt
 close, ranked by how much damage it would do if it reached a referee unfixed.
 
 Artifacts: `REVIEW.md` (section-by-section critique) · `OUTLINE.md` (architecture + contextual
-bibliographies) · `research/section_*.md` (six deep-research files, ~480KB, each with a citation ledger) ·
+bibliographies) · `reviews_v2.md` (**the second review round, 2026-08-02, and the one to read first**) ·
+`research/section_*.md` (six deep-research files, ~480KB, each with a citation ledger) ·
 `chapter_prerewrite_c247e56.md` (the pre-rewrite text, for diffing).
+
+## 0. What the second review round changed, 2026-08-02
+
+A full re-read of the rewritten chapter across the same ten lenses the original panel used. Verdict:
+minor-to-moderate revisions. Three findings were serious, and one landed on the passage the rebuild was
+proudest of.
+
+1. **The OTA case overclaimed, and the overclaim was structural.** §5.5 called the case "a test rather than an
+   illustration" on the strength of the September 2024 CJEU judgment, and then reported distribution data
+   ending in 2023. The judgment postdates the evidence. §5.5 now anchors the claim to the 2015–2021 sequence,
+   which is inside the data, states plainly that the 2024 ruling is too recent for these data to speak to, and
+   concedes that the function-split predicts the *absence of erosion* rather than the increase that occurred.
+2. **The bypass test risked defining every discovery function as necessary by construction.** If the
+   counterfactual restores a tie between parties who never met, there is no tie to restore, so search and
+   matching would always come back "necessary." §5.2 now specifies that the test restores the *capability of
+   direct dealing*, not a prior relationship — which also explains why the same function sorts differently for
+   different actors, and that is a feature worth claiming.
+3. **The only demonstrated node/edge divergence was a car dealership.** The chapter's answer to Reviewer 2 was
+   proved off-domain. §5.2 now adds the App Store in-app payment gate: node says necessary, edge says
+   contingent, on the same function in the same firm, and the DMA's anti-steering obligations are the edge test
+   run by a regulator.
+4. **Oracy contradicted the section rebuilt to carry it.** §2 was re-aimed onto uneven distribution of
+   competence, but oracy is near-universal. §2.1 now makes the point about *standing to speak in the forms
+   that bound* rather than raw skill — which prefigures coordinative sovereignty more directly than the
+   original framing did.
+
+Smaller: the vague payment-network gate made concrete, an instructive aside cut from §4, the bearer claim
+marked as a position taken rather than derived, and §10's closing image softened in step with §5.5.
 
 ---
 
@@ -32,13 +61,30 @@ are now verified**, several with corrections. Two could not be resolved by any a
 a distinctly different choice, rather existing along a make/buy continuum" — which is the rebuttal to the
 objection that a `partial` verdict is a fudge.
 
-### Still unresolved — four items
+### Third pass, 2026-08-02 — Klonick resolved
+
+**Klonick (2020) is closed.** Yale Law Journal deposits nothing to Crossref, so the direct route was
+structurally unavailable. Two independent sources settle it: Semantic Scholar returns volume 129 with first
+page 2418, and a Springer-deposited reference list in Crossref carries the full entry — *Yale Law Journal,
+129, 2418–2499*. That matches what the chapter had. The issue number `(8)` was never confirmed and has been
+**dropped**, which is also better APA for a continuously paginated law review.
+
+**Anderson, C. K. (2009) partly resolved, and it turned up something.** Beritelli and Schegg's reference list
+confirms the exact title, series, and publisher, but not the volume and issue, so `9(16)` has been dropped.
+It also reveals a work the chapter did not know about: **Anderson (2011), "Search, OTAs, and online booking:
+An expanded analysis of the billboard effect," CHR 11(8)** — an expanded re-analysis of the same effect, now
+cited alongside the 2009 report.
+
+**The 7.5–26% lift is gone from the chapter.** No source could be reached that states it, so §5.5 now
+describes what Anderson measured without asserting a range. Restore the figures only against the reports
+themselves.
+
+### Still unresolved — three items
 
 | Entry | Routes exhausted | What to do |
 |---|---|---|
-| **Klonick (2020)**, *Yale Law Journal* 129(8), 2418–2499 | Crossref (no record at all), yalelawjournal.org (403), OpenAlex (429 on six attempts), Semantic Scholar (429), St. John's repository (JS-only search), Wayback (no snapshot) | **Check a library copy.** Sole source for §7's oversight-board paragraph; volume and pages are the fields at risk. Two minutes of library access closes it. |
 | **Anderson (2017)** page cites | Book metadata verified (DOI 10.1515/9781400887781); De Gruyter (405), Google Books (429) | Text never accessible. pp. 57–58 ("political hemiagnosia") and pp. 141–142 ("harvest the entire producer's surplus") are **unconfirmed**. The chapter cites her argument without page numbers, which is safe as it stands. Confirm before adding any quotation. |
-| **Anderson, C. K. (2009)** billboard report | Cornell eCommons (405), publisher pages blocked | §5.5 leans on the 7.5–26% range and the independent-hotel upper bound. Worth confirming, since it is one of the two quantitative claims in the worked case. |
+| **Anderson, C. K. (2009, 2011)** volume/issue and the measured lift | Cornell eCommons (405), publisher pages blocked | Title, series and publisher confirmed via a citing reference list; volume/issue not. The lift figures have been removed from the chapter rather than asserted. |
 | **BGH KVR 54/20** docket | bundesgerichtshof.de (redirects to a JS index) | **Optional.** The chapter states the 2021 German ruling without citing a docket, so nothing depends on it. Add the citation only if you want it. |
 
 ### Deliberately left out
