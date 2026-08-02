@@ -9,7 +9,7 @@ Dear [editor],
 
 Four questions about the *Slacker* chapter, in descending order of how much they affect the draft.
 
-**1. The word ceiling.** I have the chapter at roughly 5,120 words of body text, against the
+**1. The word ceiling.** I have the chapter at roughly 5,180 words of body text, against the
 3,000–5,000 range in the call. I can bring it to 5,000, but the remaining words now sit in the argument
 rather than in literature review or setup. If the ceiling is firm, say so and I will cut. If the range
 allows a small overage, I would rather submit the current version.
