@@ -57,7 +57,7 @@ leverage on a bypass that does not exist, and it redefines freedom as the absenc
 than as standing within it. Berlin (1969) named the general shape of that error: a person does not become
 free to walk by ceasing to want to walk. An actor that withdraws its demands from the terms of a mediation it
 cannot escape has not secured its autonomy. It has abandoned the field on which its autonomy would be
-exercised. Anderson (2017) makes the point about employment, where the right to quit has long been offered as
+exercised. E. Anderson (2017) makes the point about employment, where the right to quit has long been offered as
 the answer to an employer's authority and has never been sufficient, because the worker who quits arrives at
 another employer with the same powers.
 
@@ -78,7 +78,7 @@ a mediation the actor cannot exit and a standing carried by voice, and so narrow
 Repetto (2025), reviewing 240 works on digital sovereignty, reaches the same conclusion
 about the family: accounts that recognize multiple coexisting digital sovereigns "neither stretch the concept
 of sovereignty nor turn digital sovereignty into something different from sovereignty tout court," but
-"explore ways to innovate the concept of sovereignty as a whole."
+"explore ways to innovate the concept of sovereignty as a whole" (Abstract).
 
 ## 2. Sovereignty and its sensibilities
 
@@ -116,7 +116,7 @@ writing (Scott, 1998).
 The same properties that let the state govern let its subjects contest it. A literate public could read what
 the state wrote, lay one pronouncement beside another, and apply critical reason to authority (Habermas,
 1962/1989), and the print-borne imagining of a shared community underwrote the democratic nation-state
-(Anderson, 1983/2006). Democratic sovereignty rests on literacy in this constitutive sense: citizens govern
+(B. Anderson, 1983/2006). Democratic sovereignty rests on literacy in this constitutive sense: citizens govern
 themselves to the degree they can read what institutions write and hold those institutions to account through
 textual means (Nussbaum, 2006; Sen, 1999).
 
@@ -290,8 +290,9 @@ zones of exclusivity, "extracting transparency from users but shielding basic op
 and deploying opacity in litigation to defeat the identification of affected classes (p. 182). Sekar and
 Siddiq (2026) reach the same conclusion formally, finding that a platform does better disclosing partial
 rather than complete information about buyer risk, because "full transparency diminishes the platform's
-protective value and intensifies disintermediation incentives." A transparent bottleneck would still be a
-bottleneck, and a disclosed objective the coordinated actor has no standing to contest is still an objective
+protective value and intensifies disintermediation incentives" (Abstract). A transparent bottleneck would
+still be a bottleneck, and a disclosed objective the coordinated actor has no standing to contest is still an
+objective
 imposed on it.
 
 ## 4. Algorithmacy: the sensibility for the platform era
@@ -308,7 +309,8 @@ temporal, the capacity to hold a strategy together across a system whose rules s
 None of those three parts is new, and the integration of them is not new either. DeVito (2021) defines
 algorithmic literacy as "the capacity and opportunity to be aware of both the presence and impact of
 algorithmically-driven systems on self- or collaboratively-identified goals, and the capacity and opportunity
-to crystalize this understanding into a strategic use of these systems to accomplish said goals," and his
+to crystalize this understanding into a strategic use of these systems to accomplish said goals" (p. 339:3),
+and his
 account of adaptive folk theorization already holds that capacity together across platforms that keep
 changing. Jarrahi and Sutherland (2019) coined "algorithmic competencies" for how gig workers understand and
 appropriate the systems that manage them. Sutherland et al. (2020) describe "gig literacies" from a study
@@ -463,12 +465,13 @@ Node says necessary and edge says contingent, on the same function, in the same 
 Act's anti-steering obligations are the edge test run by a regulator.
 
 European competition law already runs this counterfactual on contract terms. Under the ancillary-restraints
-doctrine a restriction escapes the prohibition on anticompetitive agreements only where, without it, "the
-main non-restrictive transaction would be difficult or impossible to implement" — the same question, asked of
-a clause. The diagnostic generalizes that operation from clauses to a mediator's functions, runs it from the
-position of the dependent party instead of a tribunal, and returns a strategy for that party, not a finding
-of legality. Given a mediator, a dependent party, and a set of rules, it asks which of the mediator's
-functions would survive the removal of the prohibition on direct contact, and converts each answer into a
+doctrine a restriction escapes the prohibition on anticompetitive agreements only where "the implementation
+of the main operation … would be impossible in the absence of the restriction in question" (Case C-264/23,
+para. 53) — the same question, asked of a clause. The diagnostic generalizes that operation from clauses to
+a mediator's functions, runs it from the position of the dependent party instead of a tribunal, and returns
+a strategy for that party, not a finding of legality. Given a mediator, a dependent party, and a set of
+rules, it asks which of the mediator's functions would survive the removal of the prohibition on direct
+contact, and converts each answer into a
 course of action. Brokerage theory predicts the broker's returns. Transaction cost economics prescribes a
 governance form to a party that can move its boundary. Essential facilities tells a court when to compel
 access for an excluded rival. None of the three returns a strategy to the party inside the coordination, and
@@ -543,10 +546,11 @@ fights one function of a platform while depending on another.
 An independent hotel reaches many of its guests through an online travel agency, and the agency does two very
 different things for its commission, which the European Competition Network's monitoring exercise put at
 between ten percent and above twenty percent of each booking (European Competition Network, 2017). It
-aggregates demand, putting the hotel in front of travelers who would never have found it. Anderson (2009,
-2011) named this the billboard effect and measured the lift in a hotel's own direct reservations that follows
-from being listed on an agency at all, though later work has not consistently reproduced it (Beritelli &
-Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price lower on its own site.
+aggregates demand, putting the hotel in front of travelers who would never have found it. C. K. Anderson
+(2009, 2011) named this the billboard effect and measured the lift in a hotel's own direct reservations that
+follows from being listed on an agency at all, though later work has not consistently reproduced it
+(Beritelli & Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price lower on its
+own site.
 
 Run the counterfactual on each function separately. Restore the capability of direct dealing for a traveler
 who already knows the hotel exists, and the parity clause does nothing: it was held in place by a contract,
@@ -643,8 +647,8 @@ whether by a state, a community, or a firm (Floridi, 2020; Pohle & Thiel, 2020; 
 move is not always centralizing, and Couture and Toupin (2019) document grassroots and emancipatory variants.
 Every variant answers the ownership question. Coordinative sovereignty asks what standing the coordinated
 actor holds, and answers it without owning the infrastructure and without leaving it. Repetto (2025),
-reviewing the field's usages, finds that accounts recognizing multiple coexisting digital sovereigns explore
-ways to innovate the concept of sovereignty as a whole.
+reviewing the field's usages, counts accounts that recognize multiple coexisting digital sovereigns as
+innovations of the concept of sovereignty itself.
 
 Bannerman (2024) reads platform power through a relational and historical lens and works toward rebalancing
 the structural asymmetry. Functional sovereignty (Pasquale, 2023) and the platform sovereign (Cohen, 2017)
@@ -654,7 +658,7 @@ remedy locates the wedge. They acknowledge that domination can survive a change 
 managerial decay inside cooperatives. The problem pressed here is structural. Worker ownership can change who
 sets a necessary mediator's rules and cannot make the mediator leaveable. A driver-owned dispatch platform
 still coordinates its drivers through a system no single driver can bypass, so the question of standing
-within an irreducible coordination outlives the question of who holds the title. Anderson (2017) makes the
+within an irreducible coordination outlives the question of who holds the title. E. Anderson (2017) makes the
 parallel argument for the firm, where the right to quit has long been treated as the answer to employer
 authority and does not dissolve it.
 
@@ -712,7 +716,10 @@ on (Micheli et al., 2020). A bottom-up data trust pools the data rights of many 
 bound to act in their interest, giving a collective the bargaining power no individual data subject possesses
 (Delacroix & Lawrence, 2019). The trust leaves the mediator in place and changes the terms on which it
 obtains the input it depends on. The European Data Governance Act has since created a registered category of
-data intermediary, and the evidence on whether the mechanism delivers standing in practice is not yet in.
+data intermediary, and the November 2025 Digital Omnibus proposal would repeal that Act and move the
+data-intermediation rules into the Data Act (European Commission, 2025a). The statutory vehicle is in motion
+while the category persists, and the evidence on whether the mechanism delivers standing in practice is not
+yet in.
 
 Collective bargaining adapts an older institution of voice to the platform, and it has recently acquired a
 statutory anchor. Where platform workers or platform-dependent firms can organize, they can negotiate over
@@ -758,15 +765,18 @@ The independent variation shows in concrete cases. An application developer or a
 its code and data, hold data-portability rights, and comply fully with the GDPR and the Digital Markets Act,
 and still hold no leverage over the ranking and review algorithms that set its visibility (Cutolo & Kenney,
 2021). Enforcement has reached platform conduct without reaching that layer: the European Commission fined
-Apple €500 million in April 2025 for restricting how developers steer users to offers outside its App Store,
-a decision Apple has appealed, and further gatekeeper decisions have followed against other platforms.
+Apple €500 million in April 2025 for restricting how developers steer users to offers outside its App Store
+(European Commission, 2025b), a decision Apple has appealed, and further gatekeeper decisions have followed
+against other platforms.
 Ranking transparency is a separate and earlier obligation, set by the 2019 Platform-to-Business Regulation
 and the Digital Services Act. That Regulation does more than disclose, since it also requires internal
 complaint-handling, offers mediation, and gives representative organizations standing to bring proceedings,
 which makes it one of the few instruments to attach a channel to a disclosure. The Commission has since
-proposed to repeal it as part of a wider simplification package, which would remove the only horizontal
-ranking-transparency duty in European law. High digital sovereignty beside low coordinative sovereignty, and
-an instrument that built a little of the second now proposed for withdrawal.
+proposed to repeal it as part of a wider simplification package (European Commission, 2025a), which would
+remove the only duty in European law to disclose the main parameters of ranking to the business users being
+ranked. The Digital Services Act's recommender transparency runs to a platform's users and does not replace
+that duty. High digital sovereignty beside low coordinative sovereignty, and an instrument that built a
+little of the second now proposed for withdrawal.
 
 The reverse pairing is equally real, and it is still arriving. A platform worker owns none of the
 infrastructure that coordinates the work. Under the European platform-work directive, member states must by 2
@@ -1005,6 +1015,13 @@ transformations in early modern Europe*. Cambridge University Press.
 Eslami, M., Karahalios, K., Sandvig, C., Vaccaro, K., Rickman, A., Hamilton, K., & Kirlik, A. (2016). First I
 "like" it, then I hide it: Folk theories of social feeds. In *Proceedings of the 2016 CHI Conference on Human
 Factors in Computing Systems* (pp. 2371–2382). ACM. https://doi.org/10.1145/2858036.2858494
+
+European Commission. (2025a). *Proposal for a regulation as regards the simplification of the digital
+legislative framework (Digital Omnibus)* (COM(2025) 837 final).
+
+European Commission. (2025b). *Summary of Commission decision of 23 April 2025 relating to a decision
+pursuant to Regulation (EU) 2022/1925 (Case DMA.100109 — Apple — online intermediation services — app
+stores — Article 5(4))* (OJ C/2025/3348).
 
 European Commission. (2026). *Report on the review of Regulation (EU) 2022/1925 (Digital Markets Act)*
 (COM(2026) 178 final).
