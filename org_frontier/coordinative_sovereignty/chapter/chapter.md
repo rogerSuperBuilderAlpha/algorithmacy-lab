@@ -144,10 +144,9 @@ literacy frame reaches it only partly. What follows engages the regulatory stran
 literacy is tightest.
 
 Two changes in kind mark the sequence, and only the first is complete. Speech to writing is finished, and a
-scribe works a different medium from a better speaker. Writing to
-algorithmic mediation is under way, and section 4 argues that it is a change of the same order. Digital
-sovereignty sits inside the second era: a compliance officer is a reader, working new registers on new
-material.
+scribe works a different medium from a better speaker. Writing to algorithmic mediation is under way, and
+section 4 argues that it is a change of the same order in the regime of coordination. Digital sovereignty
+sits inside the second era: a compliance officer is a reader, working new registers on new material.
 
 The nesting explains a characteristic error. Because each competence is real and hard-won, its holders meet a
 new situation with the competence they already have. Faced with platform coordination, the literate response
@@ -248,13 +247,16 @@ Fifth, the dominant regulatory modality is disclosure, and disclosure is a liter
 code and data, and argues that the first cannot straightforwardly govern the second. Recent European
 instruments do reach into ranking and automated decisions: the Platform-to-Business Regulation obliges
 platforms to disclose the main parameters of ranking, the Digital Services Act adds recommender transparency
-and researcher access, the Digital Markets Act constrains gatekeeper conduct, and the GDPR gives a right to
-contest solely automated decisions. What these share is the literate wager, that a legible object placed
-before an actor who can act on it will hold its operator to account. Against an opaque and adaptive
-coordination the wager mostly fails, and the disclosures that succeed reproduce the standing gap Ananny and
-Crawford name (Cohen, 2017; Pasquale, 2023). Surveys of the sovereignty concept confirm the residue: existing
-models sort sovereignty by the actor claiming it and the domain claimed, and none addresses the coordination
-through which platforms enroll and bind (Fratini et al., 2024).
+and researcher access, and the Digital Markets Act constrains gatekeeper conduct. What these share is the
+literate wager, that a legible object placed before an actor who can act on it will hold its operator to
+account. Article 22 of the GDPR belongs to a different family: it gives a natural person subject to a solely
+automated decision the right to obtain human intervention and to contest the outcome, which is case-level
+standing already in hard law, and section 7 places it among the voice instruments. Its threshold is high, its
+practice thin, and its protection runs to natural persons, so the platform-dependent firm falls outside it.
+Against an opaque and adaptive coordination the wager mostly fails, and the disclosures that succeed
+reproduce the standing gap Ananny and Crawford name (Cohen, 2017; Pasquale, 2023). Surveys of the sovereignty
+concept confirm the residue: existing models sort sovereignty by the actor claiming it and the domain
+claimed, and none addresses the coordination through which platforms enroll and bind (Fratini et al., 2024).
 
 Disclosure makes an object legible. What the coordinated actor needs is standing.
 
@@ -326,6 +328,10 @@ that is simultaneously matching it to a counterpart and scoring it on how that m
 exercised on two relationships at once, and the second is legible to the actor only through its effects on
 the first. Reviewing algorithm-literacy research, Gagričin et al. (2026) call for domain-specific constructs
 rather than a single general capacity. Algorithmacy is one: the competence indexed to triadic coordination.
+The novelty claimed against these accounts is that index and nothing larger. The change in kind that section
+2.3 announced belongs to the regime: the three capacities are continuous with algorithmic literacy, and the
+coordination they must now work — through an opaque, adaptive, interested mediator — is discontinuous with
+the persistent and comparable document.
 
 Curchod et al. (2020) show what that looks like on a live platform. Studying sellers, buyers, and the
 feedback system on eBay, they find sellers managing buyers in order to manage how the system reads them,
@@ -465,8 +471,8 @@ of legality. Given a mediator, a dependent party, and a set of rules, it asks wh
 functions would survive the removal of the prohibition on direct contact, and converts each answer into a
 course of action. Brokerage theory predicts the broker's returns. Transaction cost economics prescribes a
 governance form to a party that can move its boundary. Essential facilities tells a court when to compel
-access for an excluded rival. None of them returns a strategy to the party inside the coordination, and none
-of them is run by that party.
+access for an excluded rival. None of the three returns a strategy to the party inside the coordination, and
+none of the three is run by that party.
 
 What the counterfactual establishes is structural, and observed behavior can diverge from it. Hahl et al.
 (2016) find that brokered parties who do not perceive the gap between them do not attempt to close it, so a
@@ -479,28 +485,31 @@ withhold the very integration that would make it necessary.
 
 The diagnostic decides which sovereignty is available. Hirschman (1970) drew the distinction for
 organizations in decline. A member of a failing organization has two powers: exit, the power to leave, and
-voice, the power to stay and press for change. Exit maps onto bypassability, voice onto necessity. Whether a
-coordinated actor can leave becomes a designable fact, set by whether the mediator is contingent, and
-contingency is a policy and strategy variable. Scholars have already carried the pair to platforms, to the
-constrained voice of platform workers (Dasgupta et al., 2025) and to the politics of platform dependence more
-broadly.
+voice, the power to stay and press for change. Bypassability is the availability of exit. Necessity does not
+produce voice. It forecloses exit and leaves voice as the residual lever, available against contingent
+mediators too and, under a necessary mediator, the only lever left. Whether a coordinated actor can leave
+becomes a designable fact, set by whether the mediator is contingent, and contingency is a policy and
+strategy variable. Scholars have already carried the pair to platforms, to the constrained voice of platform
+workers (Dasgupta et al., 2025) and to the politics of platform dependence more broadly.
 
 For a contingent mediator, exit is available in principle. The mediator is held by a liftable constraint, so
 lifting the constraint restores the direct tie. Deregulation, mandated interoperability, an antitrust remedy,
-the breaking of an exclusive — each is an exit move, and each is the right move where the mediator is
-contingent. Platform economics reads the same fact through multihoming: where an actor can hold more than one
-platform at once, the bottleneck is contestable (Eisenmann et al., 2006).
+the breaking of an exclusive — each opens exit where the mediator is contingent. Platform economics reads the
+same fact through multihoming: where an actor can hold more than one platform at once, the bottleneck is
+contestable (Eisenmann et al., 2006). What holds many actors inside a contingent mediation is involuntary
+retention: lock-in, multihoming costs, sunk investment. Hirschman's loyalty kept the voice-prone from leaving
+and thereby activated voice. Retention suppresses exit and activates nothing.
 
 For a necessary mediator, the bypass takes nothing, because the mediator's position never rested on the tie's
 absence. To demand independence from a necessary mediator is to demand the dissolution of the coordination
-itself. Only voice remains, and Hirschman's own analysis complicates any easy confidence about it. He
-observed that exit does not reliably strengthen voice and can substitute for it: the customers most sensitive
-to quality are the first to leave, and their departure removes the complaints that would have forced a
-remedy, so a monopolist can be comforted by the availability of an alternative that removes the critics. The
-necessary mediator is a different case and in one respect a clearer one. There is no exit to relieve the
-mediator of criticism and none to lend the critic leverage, so whatever force voice has under such a mediator
-has to be supplied by institutions. Building those institutions is what the literate and digital forms of
-sovereignty leave untheorized.
+itself. Only voice remains, and Hirschman's own analysis blocks any easy confidence in it. He observed that
+exit does not reliably strengthen voice and can substitute for it: the customers most sensitive to quality
+are the first to leave, and their departure removes the complaints that would have forced a remedy, so a
+monopolist can be comforted by the availability of an alternative that removes the critics. Under a necessary
+mediator the difficulty is starker. There is no exit to lend the critic leverage, and a captive population
+may resign itself sooner than complain, so voice is the only autonomy left exactly where it is
+institutionally weakest, and whatever force it has must be supplied by institutions. Building those
+institutions is what the literate and digital forms of sovereignty leave untheorized.
 
 ### 5.4 A platform is a portfolio of mediators
 
@@ -716,9 +725,10 @@ Contestability builds voice into the algorithmic system itself. Where explainabi
 determination, contestability provides a channel to challenge it: a contestable system is open and responsive
 to dispute throughout its lifecycle, with mechanisms that let affected parties review, correct, or override a
 decision (Alfrink et al., 2023). European data-protection law sets a floor, since Article 22 of the GDPR
-gives a person subject to a solely automated decision the right to obtain human intervention and to contest
-the outcome. Contestability is voice at the level of the case. It gives the coordinated actor standing to
-dispute a particular determination and stops short of a share in how the system is governed in general.
+gives a natural person subject to a solely automated decision the right to obtain human intervention and to
+contest the outcome. Contestability is voice at the level of the case. It gives the coordinated actor
+standing to dispute a particular determination and stops short of a share in how the system is governed in
+general.
 
 Oversight boards and independent adjudication institutionalize voice at the level of the platform's
 rule-making, creating a body with some authority to review the platform's determinations (Klonick, 2020).
