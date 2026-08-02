@@ -23,7 +23,7 @@ know what people were following.
 The reviews support something narrower than the claim usually made for this film. In the notices I have
 been able to retrieve — Ebert, Hinson, Howe, Turan, *Variety*, Canby, Jonathan Rosenbaum — no critic,
 friendly or hostile, reports losing track of who was on screen or why the film had moved on. The
-complaints are boredom, tedium, monotony, pointlessness. The most useful of them is Kenneth Turan's,
+complaints are boredom, tedium, monotony, and pointlessness. The most useful of them is Kenneth Turan's,
 because he disliked the film and described its mechanism exactly anyway: you "follow each particular
 slacker … for a few seconds or a few minutes until another member of the species wanders somnolently
 into the frame."[^4] Hal Hinson, who liked it, put the same observation the other way up: "Linklater
@@ -106,7 +106,7 @@ That no is not a failure of the test. It is the test telling you which kind of s
 
 What I am claiming is narrower than it first looks, and it has prior art I should name. Sociologists
 have reviewed the setting and the broker together before: Rivera, Soderstrom and Uzzi sort the causes of
-tie formation into assortative, relational and proximity mechanisms, with Feld and Burt in the same
+tie formation into assortative, relational, and proximity mechanisms, with Feld and Burt in the same
 reference list.[^20] What they sort by is what makes a tie form. What nobody has asked of both is the
 question these three put to them — what does the third know about the two parties it brings together?
 The disciplinary separation is real even so, and checkable: three canonical statements, none of which
@@ -119,7 +119,7 @@ something close to my distinction inside a single platform, between a site's acc
 partners you would otherwise not encounter — and its matching, an algorithm selecting partners for
 you.[^22] They get there and stop; the distinction stays inside dating.
 
-The cost of leaving it there shows up in *PNAS*. Michael Rosenfeld, Reuben Thomas and Sonia Hausen
+The cost of leaving it there shows up in *PNAS*. Michael Rosenfeld, Reuben Thomas, and Sonia Hausen
 report that online dating has displaced friends and family as intermediaries, and name the pattern
 disintermediation, "the removal or subordination of the human intermediary between two parties."[^23]
 Their own opening paragraph calls friends and family an intermediation in one sentence and "the
@@ -174,9 +174,9 @@ discretion at the nightclub door, in Austin among other cities, fifty years on.[
 
 One thing the city did not do is join the scenes. Brendan Gaughen retraced the film's locations and
 found a jump of about three miles — the Old Anarchist's house to Thirty-fifth and Mopac — played across
-a cut as though it were a walk. His survey is non-exhaustive and outdoor-only, and he says so, so I
-want one instance rather than a pattern.[^35] One instance is enough. Austin put these people into the
-same day. It did not decide which of them the film would follow.
+a cut as though it were a walk. His survey covers outdoor locations only and does not claim to be
+exhaustive, so that is one documented instance and not a pattern.[^35] Austin put these people into the
+same day; the walk between two of its scenes is not a walk anyone could take.
 
 ## 4. The camera as selector
 
@@ -257,7 +257,7 @@ Uber does not put drivers and riders within reach of each other and leave them t
 driver gets which ride, and nothing in the design lets the two settle anything between themselves. That
 much has been true since researchers first studied the app.[^47] What a decade of subsequent work adds
 is a precise account of what a selector can do that a camera cannot, and it comes to three things. They
-are not the standard list. Katherine Kellogg, Melissa Valentine and Angèle Christin catalogue
+are not the standard list. Katherine Kellogg, Melissa Valentine, and Angèle Christin catalogue
 algorithmic control as six functions running from an employer down to a worker; what follows runs
 sideways, from a third party across a pair it has itself assembled.[^47a]
 
@@ -272,7 +272,7 @@ it.
 
 Surge pricing is the wrong example here. In the economics,
 surge is a price attached to a place and a time whose designed effect is to move drivers across a map:
-Besbes, Castro and Lobel model a platform that "selects prices for different locations" and find an
+Besbes, Castro, and Lobel model a platform that "selects prices for different locations" and find an
 optimum that induces overcongestion in some places and prices others out.[^49] That acts on everyone in
 a zone, which is what a setting does. All I can say is that surge has not been shown to know who the
 two parties are — a model that abstracts away from identity establishes nothing about identity.
@@ -337,11 +337,12 @@ made the spatio-temporal link and eleven read sadness into the face, on the soup
 was 30 percent, and on the child sequence nobody showed the effect at all.[^58] Eleven of twenty
 against none is still the cleanest evidence that reading a cut is learned rather than given.
 
-The same team then complicated their own result. Adding diegetic sound to the clips let first-time
-viewers manage transitions that had defeated them in the silent studies, including cuts violating the
-180-degree rule, while they still failed on unfamiliar environments.[^59] So the silent studies
-establish something narrower than "reading cuts is learned": bridging shots *without an audio scaffold*
-is learned.
+The same team then complicated their own result. Their first studies used silent clips. When they added
+sound that belonged to the world on screen — a voice calling, a dog barking — first-time viewers
+managed transitions that had defeated them, including cuts that jump across a line the convention says
+a camera should not cross, while they still failed on unfamiliar environments.[^59] So the silent
+studies establish something narrower than "reading cuts is learned": what has to be learned is bridging
+shots when nothing but the picture connects them.
 
 The best account of what experienced viewers have comes from the same paper, and it names an agent.
 They "understand that views are arranged in the service of telling a story, and that in cases where the
@@ -356,9 +357,11 @@ altogether.[^61] Lester Loschky and colleagues, tracking gaze through a film cli
 filmmakers influenced when and where viewers attended, irrespective of their viewing condition."[^62]
 Taking a stranger's run of choices for a world went invisible as convention.
 
-*Slacker* takes away the alibi. In an ordinary film the cut serves the plot, so a viewer credits the
-plot. Remove the plot and the choosing is the only thing left to notice — Hinson's "miraculous ease" is
-a skill meeting a craft.
+In an ordinary film the cut serves the plot, so a viewer credits the plot for the sequence and never
+has to look at the choosing. *Slacker* has no plot to credit, which leaves the choosing as the only
+thing there is to notice. Hinson noticed it in 1991, and what he wrote is a trained viewer describing a
+craft that had been tuned to him: the control "all but invisible," and yet the kind of lucidity that
+"can only be the result of determined calculation and planning."
 
 Whether that skill transfers to reading an algorithm is unknown in a specific sense: nobody has run the
 study. Five independent searches turned up no work relating fluency with film editing to comprehension
@@ -395,7 +398,7 @@ refused them, and it had a name. The earlier gate had responded — a paragraph 
 a buyer, who telephoned relatives in Austin to ask whether the Dobie sellouts were real.
 
 What replaced that chain narrows what reaches a viewer twice over, and the two stages are separate.
-Cathrin Bengesser, Matthew Hilborn and Jeanette Steemers measured both: 15,584 British titles in
+Cathrin Bengesser, Matthew Hilborn, and Jeanette Steemers measured both: 15,584 British titles in
 European video-on-demand circulation become 1,165 in Netflix's European catalogues, and inside a
 national catalogue the British share of what reaches the landing page is under ten percent.[^69]
 Licensing decides what can be found. Prominence decides what is found. Their landing-page figures are
@@ -437,7 +440,7 @@ training I have been describing is a resource for it rather than part of why it 
 
 *Slacker*'s politics were mistaken for apathy, and the film headed the charge off itself on one of the
 oblique-strategies cards a passerby hands out in it: "Withdrawing in disgust is not the same thing as
-apathy."[^71a] Its people withdrew from plot, career and
+apathy."[^71a] Its people withdrew from plot, career, and
 convergence and stayed coordinated anyway — put within reach by a cheap and legible city, and shown to
 us one at a time by a camera that took nothing from them except a day, and gave the day back watchable.
 Both kinds of coordination do their work in the open here, in a film anyone can watch, which is the
@@ -496,7 +499,7 @@ rarest thing about it.
 [^45]: Maria Poulaki, *Before or Beyond Narrative? Towards a Complex Systems Theory of Contemporary Films* (PhD thesis, Universiteit van Amsterdam; Amsterdam: Rozenberg, 2011), 153. Her *Screen* article, "Network Films and Complex Causality," 55, no. 3 (2014): 379–395, states the position; I quote the thesis throughout because I have not obtained the article's full text.
 [^46]: Poulaki, *Before or Beyond Narrative?*, 135 (the *Gomorrah* link), 103–4 (the catalogue and the informational reading).
 [^47]: Alex Rosenblat and Luke Stark, "Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers," *International Journal of Communication* 10 (2016): 3758–3784. The driver-facing interface has changed substantially since; Uber now shows an estimated fare and the nearest cross streets before acceptance.
-[^47a]: Katherine C. Kellogg, Melissa A. Valentine, and Angèle Christin, "Algorithms at Work: The New Contested Terrain of Control," *Academy of Management Annals* 14, no. 1 (2020): 366–410. Their six are restricting, recommending, recording, rating, replacing and rewarding.
+[^47a]: Katherine C. Kellogg, Melissa A. Valentine, and Angèle Christin, "Algorithms at Work: The New Contested Terrain of Control," *Academy of Management Annals* 14, no. 1 (2020): 366–410. Their six are restricting, recommending, recording, rating, replacing, and rewarding.
 [^48]: Reuben Binns, Jake Stein, Siddhartha Datta, Max Van Kleek, and Nigel Shadbolt, "Not Even Nice Work If You Can Get It: A Longitudinal Study of Uber's Algorithmic Pay and Pricing," in *Proceedings of FAccT '25* (New York: ACM, 2025), 1484–1497. The sample is UK, self-selected, and drawn through a workers' data-rights organisation.
 [^49]: Omar Besbes, Francisco Castro, and Ilan Lobel, "Surge Pricing and Its Spatial Supply Response," *Management Science* 67, no. 3 (2021): 1350–1367. See also Juan Camilo Castillo, "Who Benefits From Surge Pricing?" *Econometrica* 93, no. 5 (2025): 1811–1854, finding rider surplus rising and driver surplus falling.
 [^50]: Veena Dubal, "On Algorithmic Wage Discrimination," *Columbia Law Review* 123, no. 7 (2023): 1929–1992, at 1936.
