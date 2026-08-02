@@ -7,12 +7,16 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   Iowa).
 - **Status:** abstract accepted; full chapter due 2026-08-30 (min. 10,000 words incl. references);
   double-anonymized review; academic APA.
-- **Current draft:** `Full Paper - Alg & Sov.docx` — the working full-paper draft (added 2026-07-22), carrying
-  edits made after the markdown manuscript below. Presentation materials for the paper (the SBE 2026 deck and
-  poster) live in [`../presentations/`](../presentations/).
-- **File:** `chapter.md` — the markdown manuscript the draft grew from. References are inline in APA 7 style;
-  every in-text citation resolves to a reference-list entry (and every entry is cited).
-- **Length:** ~12,600 words including references, additional reading, and key terms.
+- **Current draft:** `chapter.md`. This is the canonical manuscript. References are inline in APA 7 style, and
+  every in-text citation resolves to a reference-list entry.
+- **`Full Paper - Alg & Sov.docx` is STALE — do not work from it.** Paragraph matching against every committed
+  revision shows it forked from `chapter.md` at commit `3343eeb`, before both July 2026 review rounds, and that
+  14 of its 206 paragraphs were then reworded inside Word. Those edits run backwards: they reinstate listy
+  framing the editorial pass had woven into narrative, restore an agentless passive that `c247e56` removed, and
+  introduce a grammatical error. It also lacks `tertius gaudens` and `J. D. Thompson`, both added by the panel
+  revision. Superseded by author decision, 2026-08-01.
+- Presentation materials (the SBE 2026 deck and poster) live in [`../presentations/`](../presentations/).
+- **Length:** ~14,300 words total, ~11,300 body, abstract 148.
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
   verified references closing three gaps flagged as reviewer-exploitable: the brokerage literature behind the
   mediated triad (Burt; Obstfeld; Hahl et al. on disintermediation), the two-sided-market economics behind the
