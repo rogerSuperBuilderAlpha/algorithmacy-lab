@@ -240,20 +240,29 @@ allow; full texts not fetched.
 
 ## 8. *Slacker* + algorithms/platforms/digital culture (post-2015): is the ground open?
 
-**VERDICT: CLAIM SURVIVES FALSIFICATION (with stated limits).** No scholarship found connecting *Slacker* specifically to algorithms, platforms, or feed logic.
+**UPDATED 2026-08-02 — THE BROAD CLAIM DOES NOT SURVIVE.** Ann Althouse wrote on July 11, 2026 that
+rewatching *Slacker* "might feel like scrolling in TikTok" and that she likes the fragmentation.
+An undated, unattributed Movie Browser page says the film "predicted both mumblecore and the infinite
+scroll of internet rabbit holes." Neither item develops the comparison, and neither is scholarship, but
+both defeat any sentence claiming that nobody has connected *Slacker* to TikTok, scrolling, or feed
+logic. Richard Linklater also supplied the older genealogy himself in 2011: the first remote-control
+generation learned to make its own narratives from "five minutes of this and then one minute of that,"
+and he saw *Slacker* as "either channel surfing or ... going in and out of different movies," a
+"primitive version of what now would be exponentially more complex."
 
-**Searches run (all returned nothing on point):**
+**NARROW VERDICT: THE SCHOLARLY CLAIM SURVIVES.** No peer-reviewed account located here develops the
+resemblance through camera-selected handoffs, co-optation, or the difference between a fixed cinematic
+order and a personalized platform order. The contribution is the explanation, not the observation.
+
+**Searches run:**
 1. Web search: Linklater *Slacker* + algorithm/platform/"digital culture"/attention
    economy → only generic platform-studies literature, no *Slacker* connection.
 2. Web search: "Slacker (1991)" + algorithm/algorithmic/"platform capitalism" →
    nothing; closest is a 2008 The Other Journal essay on narrative structure without
    digital framing.
 3. Web search: *Slacker* + "network narrative"/"database"/internet-precursor →
-   nothing scholarly; a fan blog attributes to Linklater a description of the film's
-   structure as channel-surfing ("you're either channel surfing or you're going in
-   and out of different movies") — **UNVERIFIED**, the hosting page (keithgow.com)
-   failed to fetch twice; if wanted for §6, source the quote from the Criterion
-   materials or the *Slacker* book before using.
+   nothing scholarly. Linklater's channel-surfing account was verified against Marc
+   Savlov's 2011 *Austin Chronicle* interview.
 4. Web search: 30th-anniversary/"predicted the internet" essays → Criterion's
    anniversary materials surface, but nothing arguing a structural film-to-feed link.
 5. Scholar Gateway semantic search (15 passages, 12 articles, corpus window
@@ -261,16 +270,20 @@ allow; full texts not fetched.
    *Slacker*-substantive result is Marlovits 2013 (Deleuze/affect, see candidate 6).
 6. Journalistic spot-check (fetched [R15]): a June 2026 Substack essay on rewatching
    *Slacker* treats it as a *pre-digital elegy* ("There was no staring at phones or
-   doomscrolling"), i.e., current writing frames the film as the internet's opposite,
-   not its anticipation — which is exactly the space the chapter's argument occupies.
+   doomscrolling"), while Althouse's July post makes the opposite comparison. The two
+   reactions establish the live question; neither explains the form.
+7. Exact-phrase searches for *Slacker* with TikTok, Instagram, infinite scroll,
+   social-media feed, swipe, and scrolling found Althouse and the low-confidence Movie
+   Browser line, but no peer-reviewed treatment.
 
 **Limits of the falsification attempt (state in the chapter's own terms, not here):**
 JSTOR/Project MUSE/Google Scholar could not be queried directly from this
 environment, and the Scholar Gateway corpus is Wiley-weighted; a library-database
-sweep before submission is cheap insurance. But across six probes, nothing
-contradicts the chapter's claim that connecting *Slacker*'s brokered adjacency to
-platform logic is open ground. (Sirůček 2025, already cited, covers the general
-apparatus-to-algorithm move but not *Slacker*.)
+sweep before submission is cheap insurance. The searches support only the narrower
+claim above. Sirůček 2025 covers the general apparatus-to-algorithm move but not
+*Slacker*. Alexandra Anikina's "Automating Platform Spectators" and Tina Kendall's
+"From Binge-Watching to Binge-Scrolling" theorize feed form without applying it to
+Linklater.
 
 ---
 
@@ -304,8 +317,15 @@ apparatus-to-algorithm move but not *Slacker*.)
 - [R13] Colab mirror of Poulaki, "Network films and complex causality," *Screen* 55:3 (2014), 379–395: https://colab.ws/articles/10.1093/screen/hju020
 - [R14] Routledge listing, Elsaesser, *The Mind-Game Film* (2021 book; page 403'd — details from search-result metadata incl. a *New Review of Film and Television Studies* review listing at https://www.tandfonline.com/doi/abs/10.1080/17400309.2022.2100213): https://www.routledge.com/The-Mind-Game-Film-Distributed-Agency-Time-Travel-and-Productive-Pathology/Elsaesser/p/book/9780415968126
 - [R15] McEneaney, "Richard Linklater's 'Slacker': A Second Viewing" (June 2026): https://www.writeliam.com/p/richard-linklaters-slacker-a-second
+- [R16] Ann Althouse, July 11, 2026: https://althouse.blogspot.com/2026/07/whos-ever-written-great-work-about.html
+- [R17] Marc Savlov, "Slack to the Future," *Austin Chronicle*, January 21, 2011:
+  https://www.austinchronicle.com/screens/2011-01-21/slack-to-the-future/
+- [R18] Alexandra Anikina, "Automating Platform Spectators," *Digital Culture & Society* 7, no. 2
+  (2021): 119–138, published online August 1, 2022. https://doi.org/10.14361/dcs-2021-070206
+- [R19] Tina Kendall, "From Binge-Watching to Binge-Scrolling," *Film Quarterly* 75, no. 1
+  (2021): 41–46. https://doi.org/10.1525/fq.2021.75.1.41
 
 **Items marked UNVERIFIED in this document:** whether Cameron's book mentions
 *Slacker* at all; exact page count of the Elsaesser 2021 book; the exact wording of
 Stone's publisher-description sentence on the time-image/sensory-motor schema and
-his use of "balade"; the Linklater channel-surfing quote's primary source.
+his use of "balade."

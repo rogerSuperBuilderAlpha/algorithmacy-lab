@@ -9,17 +9,15 @@ Dear [editor],
 
 Four questions about the *Slacker* chapter, in descending order of how much they affect the draft.
 
-**1. The word ceiling.** I have the chapter at roughly 5,900 words of body text, against the
-3,000–5,000 range in the call. I can bring it to 5,000, but the last four hundred words come out of substantive material
-rather than slack — a paragraph answering the strongest published objection to my argument about
-platform work, and a paragraph recording that the film's Sundance premiere went badly, which keeps my
-claim about audiences honest. If there is room at roughly 5,400 I would rather keep both. If the
-ceiling is firm, say so and I will cut.
+**1. The word ceiling.** I have the chapter at roughly 5,120 words of body text, against the
+3,000–5,000 range in the call. I can bring it to 5,000, but the remaining words now sit in the argument
+rather than in literature review or setup. If the ceiling is firm, say so and I will cut. If the range
+allows a small overage, I would rather submit the current version.
 
 **2. Title, editor of record, and deadline.** I have none of these on file and would like them for the
 manuscript's front matter.
 
-**3. Citation style.** The chapter is currently in Chicago notes-and-bibliography, with 71 notes. If
+**3. Citation style.** The chapter is currently in Chicago notes-and-bibliography, with 76 notes. If
 the collection uses author-date, or MLA, the conversion is mechanical and I will do it — I would just
 rather do it once.
 

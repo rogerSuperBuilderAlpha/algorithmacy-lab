@@ -131,7 +131,16 @@ chapter bibliography.
       placeholders; bibliography orphans; enclosure heading vs evidence; word ceiling (~6,100 vs 5,000).
       Architectural decisions C1 (what the questions are for) and C2 (enclose or retitle §7) still need
       the author before the next prose pass. This PR lands reviews only.
-- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 75 notes plus a
+- [x] **Platform reframe + panel-3 apply pass (2026-08-02):** the opening now credits Althouse's TikTok
+      reflection and Linklater's channel-surfing account, then explains the resemblance through the
+      setting/selector apparatus. The short-video metaphor stays in §1. §§2–7 develop *Slacker* as a
+      pre-digital platform form: the camera recruits activity it did not create into a fixed ordered
+      stream; Stark and Pais's co-optation supplies the platform mechanism; digital platforms add
+      feedback, pricing, sanction, removal, and opacity. The revision distinguishes attentional from
+      transactional selectors, makes the definitions carry classification, retitles §7 "When selection
+      becomes infrastructure," and applies the panel's Uber, Cameron, Bordwell, location, Hansen, and
+      bibliography corrections. Body **~5,120 words**; 76 note keys resolve both ways.
+- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 76 notes plus a
       three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline
 - [ ] Physical library checks. Closed by the v3 research pass: Simmel's Wolff pages ("The Triad" is ch. IV,
