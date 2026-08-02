@@ -28,22 +28,28 @@ are now verified**, several with corrections. Two could not be resolved by any a
 | **Schlager & Ostrom (1992)** · **Cicerchia (2022)** | Both resolved as cited. |
 | **Pettit (2016)** | **Partial.** DOI, title, author, journal, volume, and issue confirmed. Crossref carries **no page numbers** and a corrupted date field. The reported range 47–68 is unconfirmed, so it has been **removed** from the bib rather than asserted. |
 
-### Still unresolved — two entries
+**Parmigiani (2007)** also resolved, and its abstract confirms the §5.4 use directly: "concurrent sourcing is
+a distinctly different choice, rather existing along a make/buy continuum" — which is the rebuttal to the
+objection that a `partial` verdict is a fudge.
 
-| Entry | Routes tried | What to do |
+### Still unresolved — four items
+
+| Entry | Routes exhausted | What to do |
 |---|---|---|
-| **Klonick (2020)**, *Yale Law Journal* 129(8), 2418–2499 | Crossref (no record), yalelawjournal.org (403), OpenAlex (429), Semantic Scholar (429), St. John's repository (JS-only search) | **Check a library copy.** It is the sole source for §7's oversight-board paragraph. Volume and pages are the fields at risk. |
-| **Anderson (2017)** page cites | Book metadata verified (DOI 10.1515/9781400887781); De Gruyter (405), Google Books (429) | The text was never accessible. The reported passages at pp. 57–58 ("political hemiagnosia") and pp. 141–142 ("harvest the entire producer's surplus") are **unconfirmed**. The chapter cites her argument without page numbers, which is safe as it stands. Confirm before adding any quotation. |
+| **Klonick (2020)**, *Yale Law Journal* 129(8), 2418–2499 | Crossref (no record at all), yalelawjournal.org (403), OpenAlex (429 on six attempts), Semantic Scholar (429), St. John's repository (JS-only search), Wayback (no snapshot) | **Check a library copy.** Sole source for §7's oversight-board paragraph; volume and pages are the fields at risk. Two minutes of library access closes it. |
+| **Anderson (2017)** page cites | Book metadata verified (DOI 10.1515/9781400887781); De Gruyter (405), Google Books (429) | Text never accessible. pp. 57–58 ("political hemiagnosia") and pp. 141–142 ("harvest the entire producer's surplus") are **unconfirmed**. The chapter cites her argument without page numbers, which is safe as it stands. Confirm before adding any quotation. |
+| **Anderson, C. K. (2009)** billboard report | Cornell eCommons (405), publisher pages blocked | §5.5 leans on the 7.5–26% range and the independent-hotel upper bound. Worth confirming, since it is one of the two quantitative claims in the worked case. |
+| **BGH KVR 54/20** docket | bundesgerichtshof.de (redirects to a JS index) | **Optional.** The chapter states the 2021 German ruling without citing a docket, so nothing depends on it. Add the citation only if you want it. |
 
-### Not re-checked this pass
+### Deliberately left out
 
-**Klawitter & Hargittai (2018)** — absent from both Crossref and the IJoC search index, and the venue in the
-research file was truncated. **Left out of the chapter.** §4's distributional paragraph now rests on Cotter &
-Reisdorf plus Petre et al., which is sufficient.
+**Klawitter & Hargittai (2018)** — absent from Crossref and from the IJoC search index, and the venue in the
+research file was truncated. §4's distributional paragraph now rests on Cotter & Reisdorf plus Petre et al.,
+which is sufficient.
 
-**Anderson, C. K. (2009)** billboard report (Cornell 403) · **BGH KVR 54/20** docket · **Parmigiani (2007)** ·
-**COM(2025) 837** · the **Google €890m** decision of 23 July 2026. The Anderson report and the German docket
-matter most of these, since §5.5 leans on both.
+**COM(2025) 837** (the P2B repeal proposal) and the **Google €890m decision of 23 July 2026** were reported by
+research but not re-checked. Neither is cited by name in the chapter — §8 refers to the repeal proposal and to
+continuing enforcement in general terms — so no citation depends on them. Verify before making either specific.
 
 ### A bug this pass caught in the existing bibliography
 
