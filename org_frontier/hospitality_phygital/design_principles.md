@@ -4,6 +4,26 @@ These affordances are the paper's bridge from theory to organizational design. E
 phygital mediation toward **augmentative hospitality** and away from **substitutive hospitality**.
 None alone guarantees hospitality; together they mark whether guests and employees retain agency.
 
+## Where they come from
+
+The five are not a list the authors assembled. Coordination research holds that any coordinating
+mechanism owes its parties three integrating conditions — **accountability, predictability, common
+understanding** — and each affordance answers one of them, with bypass-ability as the exit case:
+
+| condition withheld | affordance | who can supply it |
+|---|---|---|
+| Common understanding | Transparency, adjustability | Individually supplementable — competence helps |
+| Predictability | Announced change; temporal legibility | Individually supplementable — competence helps |
+| Accountability | Contestability, human accessibility | **Institutional only** |
+| — | Bypass-ability | Removes the mediation rather than repairing it |
+
+**The division is the finding, not a caveat.** A guest or an employee can get better at reading what a
+system wants and at spotting when its rule has moved. Neither can, by getting better at anything,
+create an obligation in someone else to answer. Training and guest education therefore move the first
+two rows and cannot move the third. Any hotel that answers a contestability problem with staff
+training has misread which row it is in — and Vaccaro et al. (2020) measured exactly that failure when
+an internal appeal produced no lift in perceived accountability.
+
 ## 1. Transparency
 
 Consequential algorithmic decisions are noticeable and intelligible at the point they affect the

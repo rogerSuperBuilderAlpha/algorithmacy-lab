@@ -1,8 +1,11 @@
 # Constructs — hospitality phygital glossary
 
-Freeze these definitions after the local dissertation review
-([`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md)). Until that log is complete, treat the wording
-below as the working baseline drawn from the public lab and the locked abstract.
+**Freeze these definitions on the locked abstract and the public lab, then draft against them.**
+Add a freeze date line here when that happens. The dissertation genealogy pass
+([`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md)) runs in parallel and may prompt an amendment;
+it no longer gates the freeze. See [`PLAN.md`](PLAN.md) §5.A.
+
+Freeze date: _not yet frozen_
 
 ## Core arrangement
 
@@ -48,10 +51,27 @@ These are poles for analysis. A single property may mix both tendencies across t
 The situated capacity of guests and employees to recognize, interpret, strategically engage with,
 contest, and when necessary circumvent algorithmic mediation in hospitality encounters.
 
-This is the hospitality-domain specification of the lab's **algorithmacy** construct: competence
-proper to being coordinated through a mediating system that also binds a counterpart (here, guest
-and host bound through the algorithm). It is more than interface literacy. Literacy reads the
-screen; algorithmacy reads how the mediation redistributes who may act.
+This is the hospitality-domain specification of the lab's **algorithmacy** construct, whose
+dissertation definition reads: *the competency to coordinate with a human counterpart through an
+opaque, adaptive intermediary that commits determinations binding on both parties.* It is more than
+interface literacy. Literacy reads the screen; algorithmacy reads how the mediation redistributes who
+may act.
+
+**Three facets, inherited.** The dissertation derives the competency's structure under one rule — a
+facet is what a party does in the absence of a withheld condition:
+
+| withheld | facet | in the hospitality triad |
+|---|---|---|
+| Common understanding, inbound | Asymmetric interpretation | Inferring from a room assignment or a queue position what the system decided |
+| Common understanding, outbound | Intent specification | Compressing a real need into the fields a booking system will carry |
+| Predictability | Temporal tracking | Noticing that what worked last stay does not work this one |
+
+**Open decision — contestation.** [`ABSTRACT.md`](ABSTRACT.md) places "contest" inside this
+competence. The dissertation derives that it cannot sit there: accountability is a relation between
+parties rather than a state a party can be in, so no degree of individual skill manufactures a forum.
+Resolving this in favour of the derivation would move contestation to coordinative sovereignty and
+give the paper its reason for holding two constructs instead of one. The abstract is locked, so the
+call is the maintainer's. See [`literature/FOUNDATION.md`](literature/FOUNDATION.md) Part 2.
 
 ### Coordinative sovereignty
 
