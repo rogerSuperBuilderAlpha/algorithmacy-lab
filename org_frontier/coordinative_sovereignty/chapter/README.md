@@ -7,14 +7,13 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   Iowa).
 - **Status:** abstract accepted; full chapter due 2026-08-30 (min. 10,000 words incl. references);
   double-anonymized review; academic APA.
-- **Current draft:** `chapter.md`. This is the canonical manuscript. References are inline in APA 7 style, and
-  every in-text citation resolves to a reference-list entry.
-- **`Full Paper - Alg & Sov.docx` is STALE — do not work from it.** Paragraph matching against every committed
-  revision shows it forked from `chapter.md` at commit `3343eeb`, before both July 2026 review rounds, and that
-  14 of its 206 paragraphs were then reworded inside Word. Those edits run backwards: they reinstate listy
-  framing the editorial pass had woven into narrative, restore an agentless passive that `c247e56` removed, and
-  introduce a grammatical error. It also lacks `tertius gaudens` and `J. D. Thompson`, both added by the panel
-  revision. Superseded by author decision, 2026-08-01.
+- **Current draft:** `chapter.md`. This is the canonical manuscript (hard-wrapped for git diffs). References are
+  inline in APA 7 style, and every in-text citation resolves to a reference-list entry.
+- **Grammarly / paste:** [`chapter_grammarly.md`](chapter_grammarly.md) — soft-wrapped body only (Abstract
+  through Key Terms, including the full bibliography). Paste that file into Grammarly. Do not edit it by hand; regenerate from `chapter.md`
+  after substantive changes.
+- **Word:** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc). Reflow into the IGI
+  template at submission. Edit the markdown, not the `.docx`.
 - Presentation materials (the SBE 2026 deck and poster) live in [`../presentations/`](../presentations/).
 - **Length:** ~14,300 words total, ~11,300 body, abstract 148.
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
