@@ -5,17 +5,20 @@ Schedule lives in [`PLAN.md`](PLAN.md) §6; this file tracks what must be decide
 
 ## Day one (blocking everything downstream)
 
-1. **[open]** Re-confirm the CFP window, editors, and submission link against the kickoff PDF. The
-   journal's public page lists no special-issue calls, so the PDF is the only source for the
-   4 September 2026 deadline the whole schedule assumes.
+1. **[closed 2026-08-07]** CFP re-confirmed against the source PDF: editors, the 5 March –
+   4 September 2026 window, the Callisto system, and the four mission criteria all match.
+1a. **[open — new, and blocking]** The CFP restricts full-article submission to **APA summit
+   attendees** ("Full article submissions from all APA attendees will be accepted after the
+   summit"). Confirm eligibility with Dr Batat before spending the schedule. Maintainer's call —
+   agents do not contact editors.
 2. **[open]** Freeze construct wording in [`CONSTRUCTS.md`](CONSTRUCTS.md) on the locked abstract,
    with a freeze date line. Do not wait on the dissertation pass.
 
 ## Writing and theory
 
-3. **[open]** Run the dissertation genealogy pass
-   ([`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md)) inside its one-day box, in parallel with
-   drafting. Amend frozen constructs afterwards if it turns something up.
+3. **[part-closed 2026-08-07]** Dissertation genealogy pass. The **library** pass is done — see
+   [`literature/FOUNDATION.md`](literature/FOUNDATION.md), 33 sources added, three field-map gaps
+   closed. The **Paper 1–3 chapter** pass is still owed for the construct-gap argument.
 4. **[open]** Choose two or three ordinary hospitality vignettes (e.g., app check-in, CRM-driven
    room assignment, AI concierge) that illustrate augmentative vs substitutive outcomes without
    pretending to be case studies.
@@ -33,9 +36,12 @@ Schedule lives in [`PLAN.md`](PLAN.md) §6; this file tracks what must be decide
 8. **[closed 2026-08-07]** Verify every CFP reference and add DOIs. All seven external entries
    checked against publisher records. One correction landed: the Addis et al. DOI was wrong by a
    digit and an author's given name was wrong.
-9. **[open]** Close the four named gaps in [`literature/field_map.md`](literature/field_map.md):
-   host–guest power and cultural scripts of welcome; platform hospitality; algorithmic management
-   of frontline hospitality work; algorithmic exclusion at the threshold.
+9. **[part-closed 2026-08-07]** Field-map gaps. Platform hospitality and algorithmic management are
+   now stocked from the dissertation library. Still open: hospitality's own theorizing line
+   (host–guest power, cultural scripts of welcome); hospitality-specific algorithmic management
+   (hotel PMS, revenue management, scheduling); algorithmic exclusion at the threshold; and
+   **guest-side evidence**, which the library barely holds — see
+   [`literature/FOUNDATION.md`](literature/FOUNDATION.md).
 10. **[open]** Check overlap and difference with PH-CX / PSR so the paper complements Batat rather
     than restating experience design — and keep PH-CX, the phygital research paradigm, and PSR
     named as the three separate things they are.

@@ -103,33 +103,60 @@ Work through each item. Mark `[x]` only when the log row below is filled.
 
 ---
 
-## 3. Review log (fill in locally)
+## 3. Review log
 
 | date | reviewer | dissertation commit / branch | notes |
 |---|---|---|---|
-| _YYYY-MM-DD_ | _name_ | _hash or branch_ | _one-line outcome_ |
+| 2026-08-07 | Roger Hunt (with Claude) | `main` @ `9abb3ea` | First pass. Library pass complete (1,766 cards); Paper 1–3 chapter pass still owed |
 
-### Load-bearing claims to carry into the hospitality paper
+**Scope of the 2026-08-07 pass.** The pass read `research/library/` — the dissertation's reference
+corpus — against the CFP and the locked abstract, and it produced
+[`literature/FOUNDATION.md`](literature/FOUNDATION.md) plus 33 sourced additions to
+[`literature/references.bib`](literature/references.bib). It did **not** yet read the Paper 1–3
+manuscripts in `current/`, so the Paper 1 construct-gap argument and the Paper 2 affirmative case
+remain unextracted. Section 2's checkboxes stay open for that reason.
 
-1. _claim — source path — paraphrase plan_
-2. _
-3. _
+### Load-bearing claims carried into the hospitality paper
+
+1. **The host is the co-opted party.** The library's Airbnb cluster documents a platform capturing
+   the listing, calendar, and guest relationship, steering the host through pricing and ranking, and
+   conferring no standing. Paraphrase plan: this is *Who Hosts the Guest?* answered from the host's
+   side, and it is the paper's best-evidenced claim. Cite the public sources (Cheng and Foley 2019;
+   Roelofsen and Minca 2018; Bosma 2022; Leick et al. 2024), never the private cards.
+2. **Control runs through measurement rather than command.** Rahman (2021) and the platform-labor
+   cluster establish that steering works precisely because it must not look like instruction.
+   Paraphrase plan: this is the mechanism behind substitutive hospitality — the guest and employee
+   are directed without anyone issuing a direction.
+3. **Competence without standing is the recurring shape.** Hosts reverse-engineer, professionalize,
+   and comply, and none of it converts into authority over the rules. Paraphrase plan: this is
+   exactly why hospitality algorithmacy (competence) needs coordinative sovereignty (standing) as a
+   separate construct — the library shows competence alone does not deliver influence.
 
 ### Claims that do **not** transfer
 
-1. _claim — reason_
-2. _
+1. **Anything Φ-shaped.** The library's formal apparatus grades models of coordination. The
+   hospitality article stays conceptual, per [`PLAN.md`](PLAN.md) §9.
+2. **The dissertation's Lipsky verdict.** The dissertation logs Street-Level Bureaucracy as
+   orthogonal because its platform worker maps onto Lipsky's client rather than the discretion-
+   holder. In a hotel that mapping reverses and Lipsky applies natively — do not carry the
+   orthogonality finding across. See [`literature/FOUNDATION.md`](literature/FOUNDATION.md)
+   finding 5.
+3. **Paper 1's fourth-form adjudication.** The cell structure, the co-optation naming contest, and
+   the rival-carving argument are dissertation-internal machinery. The hospitality paper takes the
+   structure and leaves the adjudication.
 
 ### Updates required after this review
 
-- [ ] Revise [`CONSTRUCTS.md`](CONSTRUCTS.md)
-- [ ] Revise [`BRIDGE.md`](BRIDGE.md)
-- [ ] Add verified citations to [`literature/references.bib`](literature/references.bib)
-- [ ] Adjust [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) section emphasis
+- [x] Add sourced citations to [`literature/references.bib`](literature/references.bib) — 33 added
+- [x] Adjust [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) section emphasis — §2 gains platform
+      hospitality, §5 gains the folk-theory evidence base, §6 gains the three published nulls,
+      §7 leads on Folger and on infrastructure invisibility
+- [ ] Revise [`CONSTRUCTS.md`](CONSTRUCTS.md) — pending the Paper 1 chapter pass
+- [ ] Revise [`BRIDGE.md`](BRIDGE.md) — pending the same
 
 ### Blockers
 
-_None yet / describe._
+None. The remaining work is the Paper 1–3 chapter pass, which is scheduled, not blocked.
 
 ---
 

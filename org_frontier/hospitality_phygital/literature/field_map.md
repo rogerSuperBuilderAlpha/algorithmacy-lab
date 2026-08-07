@@ -3,10 +3,11 @@
 Four clusters. The paper's contribution sits at their intersection: hospitality as relational
 practice × phygital experience design × algorithmic mediation × agency/sovereignty under mediation.
 
-**Verification state (2026-08-07):** every entry in
-[`references.bib`](references.bib) has been checked against the publisher record and carries a DOI
-or publisher note. Clusters 1, 3, and 4 still have named acquisition gaps, marked **[gap]** below.
-Nothing enters the manuscript unverified.
+**State (2026-08-07, after the dissertation-library pass — see [`FOUNDATION.md`](FOUNDATION.md)).**
+The library pass closed the platform-hospitality and algorithmic-management gaps and stocked the
+folk-theory, contestability, classification, and infrastructure clusters. Remaining gaps are marked
+**[gap]** below. Verification runs in two tiers (`verified` / `inherited`); nothing enters the
+manuscript on `inherited` alone.
 
 ## 1. Hospitality theory (relational / socio-cultural)
 
@@ -46,15 +47,25 @@ acceptance problem; open space for constitutive mediation.
 **Verified anchors:** Wirtz et al. (2023) on digital service technologies, robots, and
 cost-effective service excellence — the efficiency framing the paper argues past.
 
-**[gap] Algorithmic management of frontline hospitality work.** Möhlmann et al. (2021) is seeded as
-the entry point; hospitality-specific work on PMS/CRM-driven task allocation, revenue management
-opacity, and scheduling still needs acquiring. This is the evidence base for treating employee
-discretion as co-equal with guest agency, which
-[`../BRIDGE.md`](../BRIDGE.md) commits the paper to.
+**Algorithmic management — stocked.** Möhlmann et al. (2021), Rahman (2021) on control through
+opaque measurement rather than command, Christin (2017) on judgement relocated from practitioner
+discretion into a vendor's model, and Lipsky (1980), which the dissertation ruled orthogonal and
+which applies natively to a hotel's frontline employee.
 
-**[gap] Algorithmic exclusion at the threshold.** Facial recognition and identity matching at
-check-in, reputation-mediated refusal, categorical exclusion as a hospitality failure rather than a
-false-positive rate.
+**[gap] Hospitality-specific algorithmic management.** The evidence above comes from ride-hail,
+freelancing, journalism, and short-term rental. Hotel PMS, revenue-management opacity, and
+algorithmic scheduling still need their own sources before the employee half claims hospitality
+grounding rather than analogy.
+
+**Classification — stocked.** Fourcade and Healy (2013) on classification situations; Cheney-Lippold
+(2011) on the inferred, continuously recomputed category that leaves no stable standard to appeal
+to; Lyon (2003) on sorting as differential access; Bowker and Star (1999), whose *torque* names the
+guest the category does not fit.
+
+**[gap] Algorithmic exclusion at the threshold, in hospitality.** Facial recognition and identity
+matching at check-in, reputation-mediated refusal, categorical exclusion as a hospitality failure
+rather than a false-positive rate. Edelman et al. (2017) is the anchor and the only guest-side
+hospitality study the library holds.
 
 ## 4. Platform hospitality — who hosts, already contested
 
@@ -62,12 +73,18 @@ false-positive rate.
 stays make the algorithm's hosting role unmissable: ratings govern access, the platform assigns the
 role of "host," and recognition is mediated by artefacts neither party controls.
 
-**Verified anchors:** Ert et al. (2016) on personal photos, trust, and reputation in Airbnb.
+**Anchors — the gap is closed.** Eleven sources, several in hospitality venues: Cheng and Foley
+(2019, *IJHM*) naming hosting as algorithmically managed; Roelofsen and Minca (2018, *Geoforum*) on
+the Superhost badge as a device that grades without seating; Liang et al. (2017, *Tourism
+Management*) on why hosts chase it; Leick et al. (2024, *IJHM*) replicating rurally; Bosma (2022) on
+professionalization without standing; Ladegaard (2021) on offloaded risk; Zervas et al. (2021) and
+Teubner et al. (2019) on non-portable reputation as engineered lock-in; Spier (2024) on the platform
+as rule-writer; Ert et al. (2016); Edelman et al. (2017).
 
-**[gap]** Broader platform-hospitality scholarship. A paper called *Who Hosts the Guest?* that does
-not engage this cluster invites the obvious reviewer objection. The paper's move is to generalize:
-platform stays are the visible case; branded phygital properties are the same structure with the
-mediation less legible.
+The paper's move is to generalize: platform stays are the visible case; branded phygital properties
+are the same structure with the mediation less legible. Note the direction of the evidence — it
+answers the title question from the *host's* side, which is [`FOUNDATION.md`](FOUNDATION.md)
+finding 2 and should shape where the argument puts its weight.
 
 ## 5. Algorithmic mediation, literacy, contestability, sovereignty
 
@@ -81,8 +98,14 @@ contingent irreducibility; coordinative sovereignty chapter and its literature m
 engaged in the sovereignty chapter (e.g., DeVito; Dogruel; Jarrahi & Sutherland; Pangrazio &
 Selwyn; Ananny & Crawford on transparency limits). Re-read for guest and frontline positions.
 
-**Seamful design:** Chalmers and Galani (2004). Section 7's argument is a design-theory position
-with a lineage, not a complaint about frictionless interfaces.
+**Seamful design and infrastructure:** Chalmers and Galani (2004) on seams as resources; Star and
+Ruhleder (1996) on infrastructure becoming effective as it sinks out of sight; Star (1999) on master
+narratives and invisible work. Section 7's argument is a design-theory position with a lineage, not
+a complaint about frictionless interfaces.
+
+**The published nulls.** Ananny and Crawford (2018), Vaccaro et al. (2020), and Edwards and Veale
+(2017) each show a naive form of one of the paper's affordances failing to deliver standing. Section
+6 has to cite them rather than walk into them — see [`FOUNDATION.md`](FOUNDATION.md) finding 3.
 
 **Dissertation:** the genealogy pass in [`../DISSERTATION_REVIEW.md`](../DISSERTATION_REVIEW.md)
 sharpens the Paper 1 construct-gap argument. It no longer gates the construct freeze

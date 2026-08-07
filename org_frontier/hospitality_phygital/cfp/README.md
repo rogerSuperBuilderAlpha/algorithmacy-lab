@@ -3,12 +3,17 @@
 Source: APA Summit 2026 / *Hospitality & Society* special issue CFP (uploaded PDF in the project
 kickoff). This note is a working digest for alignment, not a substitute for the editors' text.
 
-> **Corroboration warning (checked 2026-08-07).** Intellect's own *Hospitality & Society* page
-> states that there are currently no special-issue calls for papers for the journal, and the CFP
-> does not surface in public search. The kickoff PDF is therefore the sole source for every date,
-> editor name, and link below. Re-read that PDF — or ask the editors — before the schedule in
-> [`../PLAN.md`](../PLAN.md) is treated as real. Nothing here is fabricated; it is simply
-> uncorroborated outside the PDF.
+> **Corroborated against the source PDF, 2026-08-07** (`APA Summit 2026-CFP-Hospitality &
+> Society.pdf`). Editors, dates, submission system, and the four mission criteria below all match
+> the editors' text exactly. Intellect's journal page lists no special-issue call, so the PDF
+> remains the only public-facing record — but the digest is accurate to it, and the
+> **5 March – 4 September 2026** window is real.
+>
+> **One eligibility condition the digest previously missed.** The CFP states: "Full article
+> submissions *from all APA attendees* will be accepted after the summit." The full-paper route is
+> written for people who attended the Paris summit (26–27 February 2026). Confirm attendance or
+> standing with Dr Batat before the schedule in [`../PLAN.md`](../PLAN.md) is spent — this is the
+> one open question the PDF raises rather than settles.
 
 ## Special issue
 

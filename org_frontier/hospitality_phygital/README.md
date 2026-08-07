@@ -39,7 +39,7 @@ construct, supporting **coordinative sovereignty** in the encounter.
 | [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md) | **Required local pass** over the private dissertation library |
 | [`AGENTS.md`](AGENTS.md) | Operating notes for agents working in this arm |
 | [`cfp/`](cfp/) | Special-issue brief and alignment checklist |
-| [`literature/`](literature/) | Seed bibliography and field map |
+| [`literature/`](literature/) | Bibliography, field map, and [`FOUNDATION.md`](literature/FOUNDATION.md) — the dissertation-library research pass |
 | [`manuscript/`](manuscript/) | Outline and section stubs |
 | [`working/`](working/) | Scratch notes; not for citation |
 

@@ -53,8 +53,10 @@ it is not earning its keep and should become a citation to
   (Lynch et al. 2021), Lashley's three domains, Derrida on conditional and unconditional welcome
 - Distinguish service efficiency from hosting as recognition and negotiated access
 - Why "guest-centric" cannot mean only preference prediction
-- Platform hospitality already unsettled who hosts (Airbnb, ratings as access control) — this
-  paper generalizes the question to phygital properties
+- Platform hospitality already unsettled who hosts: Cheng and Foley (2019) name hosting as
+  algorithmically managed *in IJHM*; Roelofsen and Minca (2018) show the badge grading the host
+  without seating them; Liang et al. (2017) measure why hosts chase it. This paper generalizes —
+  platform stays are the visible case, branded properties the same structure less legibly
 
 ## 3. Phygital hospitality as triadic mediation — 1,050 words
 
@@ -63,7 +65,9 @@ it is not earning its keep and should become a citation to
 - Hosting functions algorithms take on
 - Redistribution of knowledge, discretion, authority
 - Dual potential: responsiveness/inclusion vs depersonalization/surveillance/exclusion/dependence
-- Frontline discretion under algorithmic direction (Möhlmann et al. 2021) as the employee half
+- Frontline discretion under algorithmic direction as the employee half: Rahman (2021) on control
+  through opaque measurement rather than command, Christin (2017) on categories of judgement
+  relocated into a vendor's model, Lipsky (1980) for what discretion was before
 
 ## 4. Augmentative and substitutive hospitality — 1,150 words
 
@@ -78,7 +82,11 @@ it is not earning its keep and should become a citation to
 ## 5. Hospitality algorithmacy and coordinative sovereignty — 850 words
 
 - Literacy insufficient inside a binding triad
-- Hospitality algorithmacy as situated competence (guest and employee)
+- Hospitality algorithmacy as situated competence (guest and employee) — **already observed**:
+  Jhaver et al. (2018) document Airbnb hosts reverse-engineering search ranking and orienting two
+  audiences at once. The general form sits in the folk-theory cluster (Eslami et al. 2016;
+  DeVito et al. 2017; Bishop 2019; Cotter 2019; Ytre-Arne and Moe 2021). Claim specification for
+  the hospitality triad, not novelty — the easier claim to defend
 - Coordinative sovereignty as standing / meaningful influence
 - Link to bypass vs voice when mediation is contingent vs effectively necessary
 - One pass. Cite the sovereignty arm for the full apparatus rather than rehearsing it
@@ -86,16 +94,30 @@ it is not earning its keep and should become a citation to
 ## 6. Five affordances of guest-centric phygital design — 1,250 words
 
 - Transparency, adjustability, contestability, human accessibility, bypass-ability
+- **Cite the published nulls, do not walk into them.** Ananny and Crawford (2018): disclosure
+  supplies visibility and leaves the forum absent. Vaccaro et al. (2020): an internal appeal tested
+  against a no-appeal baseline produced no lift in perceived accountability. Edwards and Veale
+  (2017): the individual right to an explanation is a "transparency fallacy." Each affordance must
+  be specified in the form that survives its null — transparency paired with standing,
+  contestability reaching the rule rather than looping back to its author, explanation as design
+  obligation rather than a guest's right to ask
+- Constructive alternative: Alfrink et al. (2023) and Almada (2019) on contestability designed
+  across the lifecycle
 - How each conditions agency, discretion, recognition, belonging, trust, well-being
 - Organizational implications without vendor checklist tone
 - Detail: [`../design_principles.md`](../design_principles.md)
 
 ## 7. Against frictionless hospitality — 650 words
 
-- Seamlessness can conceal decisions and erase negotiation surfaces
-- Seams as resources for action, not defects (Chalmers and Galani 2004) — the design-theory
-  position that keeps this section from reading as a complaint about technology
-- Cultural and exception-handling costs when norms are algorithmically fitted
+- **Lead on Folger (1977):** voice reduces experienced injustice independently of outcome
+  improvement. A frictionless encounter that produces good outcomes while removing the surface on
+  which to be heard therefore inflicts a measured harm that better outcomes do not offset. This is
+  the empirical warrant the section needs, not an intuition
+- Star and Ruhleder (1996): infrastructure becomes effective as it sinks out of sight, which is the
+  seamlessness ideal stated as a theory of power
+- Seams as resources for action, not defects (Chalmers and Galani 2004)
+- Cultural and exception-handling costs when norms are algorithmically fitted — *torque*
+  (Bowker and Star 1999) names the guest the category does not fit
 - Hospitality may require productive friction
 
 ## 8. Discussion and contributions — 650 words
