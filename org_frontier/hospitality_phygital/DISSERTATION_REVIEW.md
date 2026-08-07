@@ -68,38 +68,75 @@ Work through each item. Mark `[x]` only when the log row below is filled.
 
 ### Paper 1 — construct space
 
-- [ ] Where does Paper 1 say existing constructs fail to reach the **mediated triad**?
-- [ ] Which neighbor constructs are distinguished from algorithmacy (HMC, algorithmic literacy,
-      sensemaking, etc.)?
-- [ ] What exact definition of algorithmacy should hospitality algorithmacy inherit?
-- [ ] Which Paper 1 claims are hospitality-relevant without modification? Which need domain rewrite?
+- [x] Where does Paper 1 say existing constructs fail to reach the **mediated triad**? Paper 1 sets
+      the mediated triad against the *moderated dyad*, where a third element shapes a channel the two
+      parties still own. The dyadic constructs describe a party relating to a system; none reaches a
+      counterpart one must coordinate *through* a constitutive third party.
+- [x] Which neighbor constructs are distinguished? CMC competence, human-machine communication,
+      AI-mediated communication, the literacies, algorithm sensemaking, algorithmic competency —
+      and, as the nearest structural rival, boundary organizations, which confer voice. The platform
+      variant is distinguished by withholding voice, not by absence of membership.
+- [x] What exact definition should hospitality algorithmacy inherit? The definition lives in Paper 2,
+      not Paper 1 (see below), and it is now recorded in [`CONSTRUCTS.md`](CONSTRUCTS.md).
+- [x] Which claims are hospitality-relevant without modification? The **standing series** — every
+      settled coordination form specifies what flows back to the coordinated party, and the platform
+      form is the only one stated without a return. Hospitality has always specified a return, which
+      makes the borrow sharp. Needs domain rewrite: the six-question template and the grading matrix,
+      which are review apparatus and should not enter an H&S article.
 
-### Paper 2 — mediation lens
+### Paper 2 — the competency derivation
 
-- [ ] How does Paper 2 argue Φ/IIT is a **principled tool** for exploring triadic coordination?
-- [ ] What can be said in *Hospitality & Society* without leading on Φ mathematics?
-- [ ] Which Paper 2 limitations must travel with any soft borrow (no worker measured; exploration
-      not necessity proof)?
-- [ ] Confirm the hospitality paper will **not** demote the apparatus even if it stays conceptual.
+Paper 2 is *The Competency a Form Demands: Algorithmacy and the Co-optation Column*. The checklist
+below was written for a Φ-based Paper 2 that is no longer current; it is answered as the paper stands.
 
-### Paper 3 — illustrative motifs only
+- [x] Where does the competency come from? Derived, not asserted: a coordination form owes its
+      parties accountability, predictability, and common understanding; a facet is what a party does
+      in the absence of a withheld condition. Three facets admit — asymmetric interpretation, intent
+      specification, temporal tracking.
+- [x] What is the main result? The individual/institutional division. Understanding and
+      predictability can be supplied privately; accountability cannot, because it is a relation
+      between parties rather than a state a party can be in. **This is the hospitality paper's
+      reason for holding two constructs.**
+- [x] Which limitations must travel with any borrow? Rival explanations named and not defeated
+      (prior expertise, task mix, hours, general self-efficacy); the facets are a derivation, not a
+      finding; nothing measures a person; the account is scoped to arrangements where all three
+      withholdings hold together.
+- [x] Does the borrow demote the lab thesis? No. Paper 2 carries no Φ, so the hospitality article's
+      conceptual register is continuous with its genealogy rather than a retreat from it.
 
-- [ ] List any design operations or membership results that clarify augmentative vs substitutive
-      mediation as metaphors — not as hotel findings.
-- [ ] Explicitly mark each as **non-empirical for hospitality**.
+### Paper 3 — designed, unfielded
+
+- [x] Paper 3 is a qualitative study: protocol, pre-committed coding scheme, three instruments, and
+      an IRB package. **Status: designed, unfiled, unfielded. No data exists and no participant has
+      been approached.**
+- [x] Marked non-empirical for hospitality. The only legitimate use is §8 future research — the
+      empirical arm for the construct is already designed. Never imply a finding.
 
 ### Sovereignty and agency overlap
 
-- [ ] Cross-check dissertation language against
-      [`../coordinative_sovereignty/`](../coordinative_sovereignty/) for consistency on standing,
-      voice, bypass, and contestation.
-- [ ] Note any dissertation-only nuance that should enter [`BRIDGE.md`](BRIDGE.md).
+- [x] Cross-checked. The dissertation's individual/institutional division gives coordinative
+      sovereignty a derivation rather than a definition: standing is the thing competence
+      structurally cannot reach. Voice is the operative term in both trees.
+- [x] Dissertation-only nuance now in [`BRIDGE.md`](BRIDGE.md): the standing series, the
+      boundary-organization rival, the three integrating conditions, the facet derivation, and the
+      scope boundary that becomes the augmentative/substitutive condition.
 
 ### Style and citation hygiene
 
-- [ ] List claims that may be cited publicly (published or public-lab) vs claims that must be
-      paraphrased without pointing at private files.
-- [ ] Confirm no private verbatim blocks were pasted into this arm.
+- [x] Everything carried across is paraphrased argument plus published sources. Dissertation-internal
+      objects (the grading matrix, the six-question template, the seventh row, the standing series'
+      interior order) are described, not quoted, and flagged as the dissertation's own proposals
+      where they are not settled.
+- [x] No private verbatim blocks in this arm. Checked on the 2026-08-07 pass.
+
+### Discrepancy found on the dissertation side — reported, not touched
+
+`current/spine/` (one-pager, front matter, narrative, conclusion) describes Paper 2 as a Φ formal-model
+paper and Paper 3 as a population study over the 4,096-form family. The manuscripts in
+`current/paper2/` and `current/paper3/` are a competency derivation and a qualitative design. The
+spine files were last modified by a directory reorganization on 2026-07-28 and none names Paper 2's
+actual title. The spine appears to describe a superseded plan. **This arm does not edit the
+dissertation repo — flagging only.**
 
 ---
 
@@ -107,14 +144,20 @@ Work through each item. Mark `[x]` only when the log row below is filled.
 
 | date | reviewer | dissertation commit / branch | notes |
 |---|---|---|---|
-| 2026-08-07 | Roger Hunt (with Claude) | `main` @ `9abb3ea` | First pass. Library pass complete (1,766 cards); Paper 1–3 chapter pass still owed |
+| 2026-08-07 | Roger Hunt (with Claude) | `main` @ `9abb3ea` | Library pass complete (1,766 cards) |
+| 2026-08-07 | Roger Hunt (with Claude) | `main` @ `9abb3ea` | Chapter pass complete (Papers 1–3, spine). One conflict with the locked abstract; one dissertation-side discrepancy reported |
 
-**Scope of the 2026-08-07 pass.** The pass read `research/library/` — the dissertation's reference
-corpus — against the CFP and the locked abstract, and it produced
-[`literature/FOUNDATION.md`](literature/FOUNDATION.md) plus 33 sourced additions to
-[`literature/references.bib`](literature/references.bib). It did **not** yet read the Paper 1–3
-manuscripts in `current/`, so the Paper 1 construct-gap argument and the Paper 2 affirmative case
-remain unextracted. Section 2's checkboxes stay open for that reason.
+**Scope.** Two passes, both on 2026-08-07. The **library pass** read `research/library/` (1,766
+reference cards) and produced [`literature/FOUNDATION.md`](literature/FOUNDATION.md) Part 1 plus 33
+sourced additions to [`literature/references.bib`](literature/references.bib). The **chapter pass**
+read `current/paper1/PAPER.md`, `current/paper2/PAPER.md`, `current/paper3/`, and `current/spine/`,
+and produced FOUNDATION.md Part 2 plus corrections to [`BRIDGE.md`](BRIDGE.md),
+[`CONSTRUCTS.md`](CONSTRUCTS.md), and [`design_principles.md`](design_principles.md).
+
+**The one thing that needs a decision.** Paper 2 derives that contestation cannot be a facet of the
+competency, because accountability is a relation between parties rather than a state a party can be
+in. [`ABSTRACT.md`](ABSTRACT.md) puts "contest" inside the competence definition. The abstract is
+locked, so the resolution is the maintainer's — see FOUNDATION.md Part 2.
 
 ### Load-bearing claims carried into the hospitality paper
 
@@ -151,12 +194,14 @@ remain unextracted. Section 2's checkboxes stay open for that reason.
 - [x] Adjust [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) section emphasis — §2 gains platform
       hospitality, §5 gains the folk-theory evidence base, §6 gains the three published nulls,
       §7 leads on Folger and on infrastructure invisibility
-- [ ] Revise [`CONSTRUCTS.md`](CONSTRUCTS.md) — pending the Paper 1 chapter pass
-- [ ] Revise [`BRIDGE.md`](BRIDGE.md) — pending the same
+- [x] Revise [`CONSTRUCTS.md`](CONSTRUCTS.md) — inherited definition, three facets, and the open
+      contestation decision recorded
+- [x] Revise [`BRIDGE.md`](BRIDGE.md) — transfer table rebuilt against the actual Papers 1–3
 
 ### Blockers
 
-None. The remaining work is the Paper 1–3 chapter pass, which is scheduled, not blocked.
+None on the review. One decision is owed on the abstract's contestation clause before
+[`CONSTRUCTS.md`](CONSTRUCTS.md) can be frozen cleanly.
 
 ---
 

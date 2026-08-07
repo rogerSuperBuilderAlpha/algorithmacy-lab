@@ -72,6 +72,10 @@ it is not earning its keep and should become a citation to
 ## 4. Augmentative and substitutive hospitality — 1,150 words
 
 - Definitions ([`../CONSTRUCTS.md`](../CONSTRUCTS.md))
+- **State the poles as a condition on an arrangement, not as a mood.** Substitutive hospitality is
+  where all three withholdings hold together — the guest cannot find out what was decided, the rule
+  moves unannounced, and nothing answers to them. Augmentative hospitality is where they do not all
+  hold. That makes the distinction checkable against a real touchpoint
 - Mechanisms that push an encounter toward each pole
 - **Diagnostic table: how a reader classifies a real touchpoint.** Columns for what the algorithm
   decides, what the guest can see, what the employee can override, what happens on refusal. This is
@@ -87,12 +91,21 @@ it is not earning its keep and should become a citation to
   audiences at once. The general form sits in the folk-theory cluster (Eslami et al. 2016;
   DeVito et al. 2017; Bishop 2019; Cotter 2019; Ytre-Arne and Moe 2021). Claim specification for
   the hospitality triad, not novelty — the easier claim to defend
-- Coordinative sovereignty as standing / meaningful influence
+- Three derived facets, re-specified for guest and employee: asymmetric interpretation, intent
+  specification, temporal tracking ([`../CONSTRUCTS.md`](../CONSTRUCTS.md))
+- Coordinative sovereignty as standing / meaningful influence — and **why it must be a second
+  construct**: accountability is a relation between parties, not a state a party can be in, so
+  competence cannot reach it however expert the guest becomes. This is the section's argument, not
+  an aside
 - Link to bypass vs voice when mediation is contingent vs effectively necessary
 - One pass. Cite the sovereignty arm for the full apparatus rather than rehearsing it
 
 ## 6. Five affordances of guest-centric phygital design — 1,250 words
 
+- **Derive the five, do not list them.** Any coordinating mechanism owes its parties accountability,
+  predictability, and common understanding; the affordances are what answers each, with
+  bypass-ability as the exit case. The derivation also says which a hotel can discharge by training
+  and which require organizational design — the managerial implication, stated as a principle
 - Transparency, adjustability, contestability, human accessibility, bypass-ability
 - **Cite the published nulls, do not walk into them.** Ananny and Crawford (2018): disclosure
   supplies visibility and leaves the forum absent. Vaccaro et al. (2020): an internal appeal tested

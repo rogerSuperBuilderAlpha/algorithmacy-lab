@@ -164,3 +164,151 @@ The library records a read-depth per card. Several load-bearing sources here are
 `abstract_only` depth — Cheng and Foley, Roelofsen and Minca, Liang et al., Ytre-Arne and Moe,
 Morrison, Folger, Cheney-Lippold, Burrell. **Read the full text of any source the paper leans on
 before citing it for a specific claim.** The library's relation notes are a map, not a substitute.
+
+---
+
+# Part 2 — the chapter pass (2026-08-07)
+
+Part 1 read the dissertation's reference library. This part reads the manuscripts themselves:
+`current/paper1/PAPER.md` (~21,200 words), `current/paper2/PAPER.md` (~9,400), `current/paper3/`
+(design only), and `current/spine/`. Same provenance rule — paraphrase, cite the public argument,
+paste nothing.
+
+## The finding that conflicts with the locked abstract
+
+**Paper 2 derives that contestation cannot be a facet of the competency.** The argument runs: a
+coordination form owes its parties three integrating conditions — accountability, predictability, and
+common understanding. Where a form withholds one, the condition is not abolished; it is displaced onto
+the party it was withheld from, who may then supply it privately. Two of the three can be supplied
+that way. Accountability cannot, and the reason is categorical rather than practical: predictability
+and common understanding are **states a party can be in**, while accountability is **a relation
+between parties**. No amount of skill by the first party creates the second party's obligation to
+answer. A worker can become expert at predicting how an appeal will be received; she cannot, by
+becoming expert at anything, cause the appeal to be received.
+
+[`../ABSTRACT.md`](../ABSTRACT.md) defines hospitality algorithmacy as the capacity of guests and
+employees "to recognize, interpret, strategically engage with, **contest**, and, when necessary,
+circumvent algorithmic mediation." The dissertation's derivation says the contest belongs to a
+different order of thing.
+
+**This is not a defect to paper over — it is the paper's second construct earning its keep.** Split
+the definition along the dissertation's line and the architecture improves:
+
+- **Hospitality algorithmacy** (competence, individually held): interpretation, specification,
+  tracking — what a guest or employee can do about withheld understanding and predictability.
+- **Coordinative sovereignty** (standing, institutionally constituted): the forum that owes an
+  answer. Not a competence, not trainable, and not something a guest can acquire by getting better
+  at anything.
+
+That split explains *why* the paper needs two constructs instead of one, which the current draft
+asserts rather than argues. It also converges with Part 1 finding 3: Vaccaro et al. (2020) measured
+an internal appeal failing to shift perceived accountability, and Paper 2 derives structurally why it
+must. An empirical null and a formal derivation reaching the same place is the strongest position the
+paper can occupy in §6.
+
+**The abstract is locked, so this is flagged, not changed.** Maintainer's call. If the abstract keeps
+"contest" in the competence definition, the manuscript should at minimum say why it departs from the
+derivation it inherits.
+
+## Three facets, ready to inherit
+
+Paper 2 derives the competency's structure under one rule — a facet is what a party does in the
+absence of a withheld condition — and admits nothing else:
+
+| withheld condition | what the party can supply | facet |
+|---|---|---|
+| Common understanding, inbound | Reconstruct an unmet counterpart's wants from outcomes alone | Asymmetric interpretation |
+| Common understanding, outbound | Make intent legible in the few signals the system accepts | Intent specification |
+| Predictability | Detect rule shifts nobody announced | Temporal tracking |
+| Accountability | Nothing | — |
+
+Re-specified for the hospitality triad these are immediately concrete. **Asymmetric interpretation:**
+a guest inferring from a room assignment what the system decided about them; an employee inferring
+from a queue position what the CRM valued. **Intent specification:** compressing a real need into the
+fields a booking system will carry, knowing what can afford to be lost. **Temporal tracking:**
+noticing that what worked last stay does not work this one.
+
+The paper currently offers an undifferentiated capacity. Three derived facets are better theory, and
+they are more legible to a reviewer than a list joined by commas.
+
+## The affordances can be derived rather than enumerated
+
+The five affordances currently arrive as a list. The three integrating conditions supply a
+derivation, and the mapping is clean:
+
+| condition the mediation withholds | affordance that answers it | order of remedy |
+|---|---|---|
+| Common understanding | Transparency, adjustability | Individually supplementable — competence helps |
+| Predictability | Temporal legibility (announced change) | Individually supplementable — competence helps |
+| Accountability | Contestability, human accessibility | **Institutional only** — competence cannot reach it |
+| — (the exit case) | Bypass-ability | Removes the mediation rather than repairing it |
+
+Two payoffs. The affordances stop being five things the authors thought of and become the answers to
+a question the coordination literature already asks. And the table states, in the paper's own frame,
+which affordances a hotel can discharge by training staff and guests (none of the accountability ones)
+and which require organizational design. That is the managerial implication `AGENDA.md` item 12 asks
+for, and it is a principle rather than a vendor checklist.
+
+## The standing series, and what hospitality has always conferred
+
+Paper 1's central second object is a series: order coordination forms by how much standing passes to
+the coordinated party. Market confers refusal. Hierarchy confers a wage for ceded choice, plus appeal
+and tenure. Network confers the expectation of further exchange. Classical co-optation confers a
+grant, and its internal variants vary in size. The platform form sits below the last classical step,
+and it is **the only arrangement in the review whose mechanism is stated without any return to the
+coordinated party at all** — market access and a rating substitute for a position.
+
+Hospitality has always specified what flows back to the guest: welcome, recognition, care, presence,
+negotiated access. Section 2 can therefore make a sharp claim with a genealogy behind it — phygital
+mediation risks producing the first hospitality arrangement that specifies no return to the guest, and
+substitutes convenience and personalization for standing. That is the augmentative/substitutive
+distinction stated as a position in a series rather than as a pair of poles.
+
+Paper 1 also disposes of the nearest rival on the paper's behalf: boundary organizations already
+theorize coordination across a membership boundary, and they confer voice. What distinguishes the
+platform variant is the withholding of voice, not the absence of membership. The hospitality paper
+inherits that distinction rather than re-deriving it.
+
+## The boundary condition is the augmentative/substitutive distinction
+
+Paper 2 scopes its account to arrangements where all three withholdings hold **together**, and marks
+the boundary explicitly: where the mediator is transparent, or opaque but static, an older capacity
+suffices and the competency is not demanded.
+
+Read into hospitality, that boundary *is* the distinction the paper is trying to draw. **Augmentative
+hospitality** is mediation under which the three withholdings do not all hold — the guest can find out
+what was decided, the rule does not move unannounced, and something answers to them. **Substitutive
+hospitality** is where all three hold at once. The poles stop being asserted and become a testable
+condition on a specific arrangement, which is exactly what the §4 diagnostic table needs.
+
+## What does not transfer, stated plainly
+
+- **Paper 2 does not defeat its rivals and says so.** Prior expertise, task mix, hours, and general
+  self-efficacy remain live explanations of outcome variance; the paper offers argument, not evidence.
+  Any hospitality claim resting on the competency explaining variance inherits that weakness.
+- **Nothing in the dissertation measures a person.** Every "demands" or "binds" is a claim about a
+  form, not a measurement of a party. The hospitality paper must keep that discipline.
+- **The three facets are a derivation, not a finding.** Whether they cohere, separate from each other,
+  or separate from general self-efficacy is open.
+- **The seventh-question row is a declared second carving** of material Paper 1 already declared
+  provisional. Do not present the competency-demand ordering as settled.
+
+## Two corrections to this arm's own files
+
+**`BRIDGE.md` describes the wrong papers.** It records "Paper 2 (dissertation) affirmative Φ/IIT case"
+and "Paper 3 experiments." Neither is current. Paper 2 is *The Competency a Form Demands: Algorithmacy
+and the Co-optation Column* — a conceptual derivation with no Φ in it. Paper 3 is a designed,
+IRB-staged, **unfielded** qualitative study; no data exists and no participant has been approached.
+The bridge table is corrected in this pass.
+
+That correction is good news for the H&S submission. The worry that the arm would have to hold Φ at
+arm's length was aimed at a paper that is no longer the middle of the dissertation. The genealogy the
+hospitality paper actually inherits is conceptual all the way down.
+
+**A dissertation-side discrepancy, reported not touched.** `current/spine/` — the one-pager, front
+matter, narrative, and conclusion — describes Paper 2 as the Φ formal-model paper and Paper 3 as a
+population study across the 4,096-form family. The manuscripts in `current/paper2/` and
+`current/paper3/` are a competency derivation and a qualitative design. The spine files were last
+modified by a directory reorganization on 2026-07-28 and none of them names Paper 2's actual title.
+The spine appears to describe a superseded plan. Flagging only — this arm does not edit the
+dissertation repo.
