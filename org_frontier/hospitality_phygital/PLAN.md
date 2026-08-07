@@ -47,9 +47,11 @@ own deliverable.
 | Lab ↔ hospitality bridge | [`BRIDGE.md`](BRIDGE.md) | draft |
 | Design affordances | [`design_principles.md`](design_principles.md) | draft |
 | CFP alignment | [`cfp/`](cfp/) | draft |
-| Literature seed | [`literature/`](literature/) | verified core + gap targets named |
+| Literature seed | [`literature/`](literature/) | 56 entries; CFP core and guest-side Crossref-verified |
 | Manuscript outline + stubs | [`manuscript/`](manuscript/) | outline with word budget |
-| Dissertation genealogy log | [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md) | open — **timeboxed, not blocking** |
+| Dissertation genealogy log | [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md) | **complete** — library and chapter passes both logged |
+| Literature research passes | [`literature/FOUNDATION.md`](literature/FOUNDATION.md) | rounds 1a–1c done; round 2 specified |
+| Round-2 research prompts | [`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md) | eight prompts, ready to run |
 | Full manuscript draft | `manuscript/manuscript.md` | **not started — critical path** |
 | Compressed abstract + keywords | `manuscript/` | not started |
 | Submission package | Callisto + cover note | not started |
@@ -62,7 +64,7 @@ This arm draws on **two separate repositories**. Git directory decides the remot
 | corpus | where | remote | use in this paper |
 |---|---|---|---|
 | Public lab | everything except `dissertation/` | `algorithmacy-lab` | triad, algorithmacy, coordinative sovereignty, essays, probes as conceptual priors |
-| Private dissertation | `dissertation/` (nested `.git`) | `algorithmacy-dissertation` | Paper 1 construct gap; Paper 2 affirmative case for principled mediation analysis; Paper 3 experimental motifs only if they illustrate without claiming hospitality empirics |
+| Private dissertation | `dissertation/` (nested `.git`) | `algorithmacy-dissertation` | Paper 1 the standing series and the construct gap; Paper 2 the competency derivation and the individual/institutional division; Paper 3 designed and **unfielded** — future-research mention only. See [`BRIDGE.md`](BRIDGE.md) |
 
 **The dissertation tree is often absent from a public clone.** Agents and collaborators working only
 against `algorithmacy-lab` cannot run the genealogy pass in
@@ -105,6 +107,10 @@ most likely to originate.
    categorical exclusion as a hospitality failure.
 5. Keep [`literature/field_map.md`](literature/field_map.md) current; every entry verified before it
    enters the manuscript.
+6. Round 2 is specified as eight runnable prompts in
+   [`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md), with venue discipline,
+   verification rules, and a sequencing note. P1 and P2 are on the critical path; P3, P5, and P8 are
+   the drop candidates if time runs short.
 
 ### C. Construct lock
 
@@ -137,10 +143,9 @@ license agentless passive — name the agent.
 ### E. Journal path
 
 1. Align claims to the four special-issue aims in [`cfp/ALIGNMENT.md`](cfp/ALIGNMENT.md).
-2. **Re-confirm the CFP against the kickoff PDF before anything else.** The journal's own page at
-   intellectbooks.com currently lists no special-issue calls, so the PDF is the only source for the
-   window, the editors, and the Callisto link. The whole schedule below rests on 4 September being
-   real.
+2. **CFP confirmed 2026-08-07** against the source PDF: editors, the 5 March – 4 September window,
+   Callisto, and the four mission criteria all match. Summit attendance — the CFP's condition on the
+   full-article route — is confirmed by the author. The schedule below rests on a real deadline.
 3. Format to the Notes for Contributors (`HOSP_NFC_May_26.pdf`): length, reference style, anonymity.
 4. Compress [`ABSTRACT.md`](ABSTRACT.md) to a ~150-word journal abstract and choose keywords.
 5. APA Summit attendance is separate; this arm's critical path is the journal full paper.
@@ -153,8 +158,8 @@ sections as they are written rather than gating them.
 | window | work | gate at the end |
 |---|---|---|
 | **Aug 7–8** | Re-confirm CFP from the PDF (§5.E.2). Freeze `CONSTRUCTS.md`. Dissertation pass in its one-day box. | Constructs frozen; deadline confirmed or plan re-cut |
-| **Aug 9–14** | Acquire and verify the four literature gaps (§5.B). Draft §2 (hospitality beyond seamless service) and §3 (triadic mediation). | ~1,800 words of continuous prose; gap citations verified |
-| **Aug 15–22** | Draft §4 (augmentative/substitutive, with the diagnostic table), §5 (algorithmacy and sovereignty, one pass only), §6 (five affordances). | ~4,500 words total; send §2–§6 to the external hospitality reader |
+| **Aug 9–14** | Run prompts P1 and P2 ([`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md)) — they gate §2 and §3. Draft both sections behind them. | ~1,800 words of continuous prose; gap citations verified |
+| **Aug 15–22** | Run P4, P6, P7 alongside drafting. Draft §4 (augmentative/substitutive, with the diagnostic table), §5 (algorithmacy and sovereignty, one pass only), §6 (five affordances). | ~4,500 words total; send §2–§6 to the external hospitality reader |
 | **Aug 23–29** | Draft §1, §7 (against frictionless hospitality), §8–§9. Internal lab read: style plus overclaim audit. | Full draft at or under 8,000 words |
 | **Aug 30–Sep 2** | Absorb both reads. Compress the abstract, choose keywords, format to Notes for Contributors, final citation check. | Submission package complete |
 | **Sep 3–4** | Buffer. Submit. | Submitted |
@@ -171,7 +176,8 @@ carrying a schedule everyone privately knows is fiction.
 | risk | mitigation |
 |---|---|
 | **28 days, no draft** | Day-level schedule in §6; constructs frozen up front; dissertation pass timeboxed and parallel; external read starts mid-draft |
-| **CFP unverifiable on the public web** | Re-confirm from the kickoff PDF on day one (§5.E.2); if the window has moved, re-cut §6 before drafting |
+| ~~CFP unverifiable~~ — **closed 2026-08-07** | Confirmed against the source PDF; summit eligibility confirmed by the author |
+| Domain grounding thin in §2 and §3 | Prompts P1 and P2 in [`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md) run before those sections are drafted |
 | **8,000-word ceiling vs six named constructs** | Word budget per section in the outline; algorithmacy and sovereignty explained once; affordances carry the design load |
 | **Desk rejection: outsider, conceptual, no hospitality empirics** | Domain-native citation density (§5.B); a reviewer-legible diagnostic that classifies a real touchpoint; the journal's own theorizing line cited as the frame |
 | Φ / IIT overclaim for a hospitality journal | Conceptual paper; cite lab results only as model priors; state validation gap |

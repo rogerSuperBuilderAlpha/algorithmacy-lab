@@ -7,10 +7,10 @@ Schedule lives in [`PLAN.md`](PLAN.md) §6; this file tracks what must be decide
 
 1. **[closed 2026-08-07]** CFP re-confirmed against the source PDF: editors, the 5 March –
    4 September 2026 window, the Callisto system, and the four mission criteria all match.
-1a. **[open — new, and blocking]** The CFP restricts full-article submission to **APA summit
-   attendees** ("Full article submissions from all APA attendees will be accepted after the
-   summit"). Confirm eligibility with Dr Batat before spending the schedule. Maintainer's call —
-   agents do not contact editors.
+1a. **[closed 2026-08-07]** APA summit eligibility confirmed by the author. The full-article route
+   is open.
+1b. **[open]** Decide the "contest" clause with Pierre — it is his wording, so this is a co-author
+   conversation, not an edit. See [`literature/FOUNDATION.md`](literature/FOUNDATION.md) Part 2.
 2. **[open]** Freeze construct wording in [`CONSTRUCTS.md`](CONSTRUCTS.md) on the locked abstract,
    with a freeze date line. Do not wait on the dissertation pass.
 
@@ -32,6 +32,11 @@ Schedule lives in [`PLAN.md`](PLAN.md) §6; this file tracks what must be decide
    rant. Seamful design (Chalmers and Galani 2004) gives it a lineage.
 
 ## Literature
+
+7a. **[open]** Run round 2 of the literature work:
+    [`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md). P1 (hospitality's theorizing
+    line) and P2 (algorithmic management inside hospitality operations) gate drafting and should run
+    first, in parallel.
 
 8. **[closed 2026-08-07]** Verify every CFP reference and add DOIs. All seven external entries
    checked against publisher records. One correction landed: the Addis et al. DOI was wrong by a
