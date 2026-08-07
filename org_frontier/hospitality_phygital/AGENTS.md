@@ -20,8 +20,14 @@ reuses algorithmacy and coordinative sovereignty. It does **not** add Φ probes 
 
 ## Editing rules
 
-- Prose follows [`../../CLAUDE.md`](../../CLAUDE.md): no first person; plain declarative sentences;
-  cut antithesis-machine and self-honesty tics.
+- Arm documents follow [`../../CLAUDE.md`](../../CLAUDE.md): no first person; plain declarative
+  sentences; cut antithesis-machine and self-honesty tics.
+- **The manuscript is exempt from the no-first-person rule**, by a ruling measured from venue
+  exemplars and recorded in [`manuscript/REGISTER.md`](manuscript/REGISTER.md). *Hospitality &
+  Society* prose uses the first person throughout, runs 150–250-word paragraphs and makes the cited
+  author the subject of the sentence. The first full draft inherited repo style instead of measuring
+  the venue, and read wrong. The exemption covers `manuscript/manuscript.md` and the submission front
+  matter, and expires with this submission. Everything else in the arm keeps house style.
 - Do not demote IIT/Φ in bridge notes. The hospitality article may stay conceptual; that is audience
   fit, not a retreat from the lab thesis.
 - State the validation gap whenever lab computational results are mentioned.

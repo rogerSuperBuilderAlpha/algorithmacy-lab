@@ -3,8 +3,21 @@
 Working title: **Who Hosts the Guest? Algorithmic Mediation, Guest Agency, and the Reconfiguration
 of Hospitality in Phygital Spaces**
 
-Status: author-supplied abstract; treat as the pitch to preserve unless a revision is explicitly
-requested. Minor copy-edits for house style may land later; conceptual claims stay.
+Status: **co-author's text (Pierre Berthon), confirmed 2026-08-07.** Treat as the pitch to preserve
+unless a revision is explicitly requested. Minor copy-edits for house style may land later;
+conceptual claims stay, and changing one is a conversation with the co-author rather than an edit.
+
+Two items in this text have open questions against them, both raised by the research passes and
+neither resolved here:
+
+- **"contest"** sits inside the hospitality algorithmacy definition. The dissertation derives that
+  contestation cannot be a facet of a competence, since accountability is a relation between parties
+  rather than a state a party can be in. See [`literature/FOUNDATION.md`](literature/FOUNDATION.md)
+  Part 2 and the note in [`CONSTRUCTS.md`](CONSTRUCTS.md).
+- **Seven outcome variables** — agency, discretion, recognition, belonging, trust, well-being, and
+  employee discretion — are stated as influenced by the affordances. None is currently sourced.
+  Prompt P7 in [`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md) is aimed at
+  deciding which the paper can responsibly claim.
 
 ---
 
