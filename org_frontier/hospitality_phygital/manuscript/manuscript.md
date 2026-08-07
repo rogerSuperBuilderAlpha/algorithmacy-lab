@@ -1,470 +1,506 @@
 **Who Hosts the Guest? Algorithmic Mediation, Guest Agency and the Reconfiguration of Hospitality in Phygital Spaces**
 
-*Draft, 2026-08-07. Body budget 6,800 words against the journal's 6,000–9,000 all-inclusive limit;
-see [`JOURNAL_SPEC.md`](JOURNAL_SPEC.md). British English, 'ize' endings. Intellect Harvard
-citations. Front and back matter in [`submission/`](submission/).*
+*Draft, 2026-08-07. Register measured from venue exemplars — see [`REGISTER.md`](REGISTER.md).
+Body budget 6,800 words against the journal's 6,000–9,000 all-inclusive limit
+([`JOURNAL_SPEC.md`](JOURNAL_SPEC.md)). British English, 'ize' endings per the Notes for
+Contributors. Intellect Harvard citations. Front matter in [`submission/`](submission/).*
 
 ## 1. Introduction
 
-A guest arrives at a hotel and meets a screen. An application has already assigned the room, priced
-the stay, read the loyalty record and decided whether a late checkout is available. At the desk, an
-employee sees a queue position and a set of prompts recommending what to offer and, by omission, what
-not to. Somewhere in this arrangement a welcome is being performed. Who performs it is no longer
-obvious.
+A guest arrives at a hotel and meets a screen. Before she reaches it an application has assigned her
+room, priced her stay, read whatever her loyalty record contains and determined whether a late
+checkout will be offered. The employee at the desk, if she reaches one, sees a queue position and a
+set of prompts recommending what to offer and, by their omissions, what not to. Somewhere in this
+arrangement a welcome is being performed, and it has become genuinely difficult to say who is
+performing it.
 
-Phygital hospitality scholarship has grown quickly around the promise of the hybrid encounter. The
-phygital customer experience framework treats the blending of physical and digital elements as a
-design problem with tangible and intangible dimensions, and asks how the journey between them can be
-made fluid (Batat 2024). Phygital service research extends the ambition, placing guests, hosts,
-employees and communities at the centre of experience design and orienting the field toward positive
-impact (Batat 2026). Reviews of automation research in tourism describe a literature organized around
-adoption, acceptance and efficiency (Tussyadiah 2020), and the strategic service literature reads
-digital service technologies, robots and artificial intelligence as pathways to cost-effective service
-excellence (Wirtz et al. 2023). Studies of biometric check-in ask whether guests will accept the
-technology, modelling the decision as a calculation of privacy risk against convenience (Xu et al.
-2020; Boo and Chua 2022).
+Scholarship on phygital hospitality has grown rapidly around the promise of the hybrid encounter, and
+much of it is concerned with how well that encounter can be designed. Batat's (2024) phygital
+customer experience framework treats the blending of physical and digital elements as a design
+problem with both tangible and intangible dimensions, asking how movement between the two might be
+made fluid, and her subsequent development of phygital service research extends the ambition
+considerably, placing guests, hosts, employees and communities at the centre of experience design and
+orienting the field towards positive impact at individual, community and environmental levels (Batat
+2026). Reviewing research into automation in tourism, Tussyadiah (2020) describes a literature
+organized around adoption, acceptance and the redesign of service delivery, while Wirtz et al. (2023)
+read digital service technologies, service robots and artificial intelligence as strategic pathways
+towards cost-effective service excellence. Where guests encounter these systems most directly, at the
+threshold, the questions asked of them have tended to be questions about willingness: Xu et al.
+(2020) and Boo and Chua (2022) both model biometric check-in as a calculation in which the guest
+weighs privacy risk against perceived benefit and decides whether to proceed.
 
-These are useful questions. They are not the only ones. Each takes the technology as an instrument
-whose consequences depend on how well it is designed and how readily it is accepted. Hospitality
-scholarship has long resisted that reading of the encounter itself, insisting that hospitality is a
-relational and culturally situated practice rather than the efficient provision of services (Lashley
-2000; Hemmington 2007; Lynch et al. 2021a). When algorithmic systems recognize guests, personalize
-environments, mediate communication, allocate organizational attention and determine which choices
-appear, they do more than support that practice. They take part in it.
+These are useful questions, and we do not dispute the value of the answers. What unites them is a
+prior assumption about what the technology is. In each case the system figures as an instrument whose
+consequences for hospitality depend upon how well it has been designed and how readily guests will
+accept it. Hospitality scholarship has spent two decades resisting precisely that reading of the
+encounter itself, insisting that hospitality is a relational and culturally situated practice
+involving welcome, recognition, care and negotiated access, and that it cannot be reduced to the
+efficient provision of services (Lashley 2000; Hemmington 2007; Lynch et al. 2021a, 2021b). Our
+argument begins from the observation that these two literatures have not been brought into contact at
+the point where it matters most. When algorithmic systems recognize guests, personalize environments,
+mediate communication, allocate organizational attention and determine which choices appear at all,
+they are doing more than supporting a relational practice. They are participating in it.
 
-This paper therefore asks: how does algorithmic mediation reconfigure relationships among guests,
-hospitality employees and organizations, and under what conditions does it enhance rather than
-diminish the human and relational qualities of hospitality?
-
-The argument proceeds in five moves. Phygital hospitality is theorized as triadic coordination among
-the guest, the algorithmic intermediary and the human or organizational host, an arrangement in which
-the intermediary performs functions traditionally associated with hosting and redistributes
-knowledge, discretion and authority as it does so. That redistribution has two outcomes, and the paper
-distinguishes **augmentative hospitality**, where technology supports human recognition and
-discretion, from **substitutive hospitality**, where algorithmic direction displaces relational
-judgement. It introduces **hospitality algorithmacy**, the situated capacity of guests and employees
-to work competently inside such mediation, and separates that competence from **coordinative
-sovereignty**, the standing to influence how hospitality is organized. Five design affordances follow
-from what mediation withholds. The paper closes by challenging the assumption that seamlessness is
-inherently hospitable.
+This paper therefore asks how algorithmic mediation reconfigures relationships among guests,
+hospitality employees and organizations, and under what conditions that mediation enhances rather
+than diminishes the human and relational qualities of hospitality. We theorize phygital hospitality
+as a system of triadic coordination among the guest, the algorithmic intermediary and the human or
+organizational host, and we argue that the intermediary now performs functions long associated with
+hosting, redistributing knowledge, discretion and authority as it does so. To account for the
+strikingly different outcomes this redistribution produces, we distinguish augmentative from
+substitutive hospitality and specify that distinction as a condition on an arrangement which can be
+checked, rather than as a matter of impression. We then separate two things easily conflated:
+hospitality algorithmacy, a competence guests and employees can develop, and coordinative
+sovereignty, a standing only organizations can grant. Five design affordances follow from what
+mediation withholds, and the paper closes by questioning whether seamlessness, the field's dominant
+design value, is hospitable at all.
 
 ## 2. Hospitality beyond seamless service
 
-Hospitality studies has spent two decades establishing that hospitality exceeds commercial service.
-Lashley's three domains locate hospitality simultaneously in commercial exchange, in private
+That hospitality exceeds commercial service provision is well established, and it is worth recovering
+the particular form the claim takes, because that form does analytical work later in this paper.
+Lashley's (2000) three domains locate hospitality simultaneously in commercial exchange, in private
 domesticity and in the social obligations regulating how strangers are received, with the commercial
-domain inheriting its meanings from the other two (Lashley 2000).
-Hemmington argues that hospitality businesses are misdescribed as service operations and better
-understood through the host-guest relationship, generosity and the theatre of the encounter
-(Hemmington 2007). Reviewing the field's first decade, this journal's editors characterize
-hospitality as a lens on power, identity, belonging and exclusion as much as on provision (Lynch et
-al. 2021a, 2021b).
+domain inheriting its meanings from the other two rather than standing apart from them. Hemmington
+(2007) argues that hospitality businesses have been persistently misdescribed as service operations,
+and that they are better understood through the host–guest relationship, generosity and the
+theatricality of the encounter. Reflecting upon this journal's first decade, Lynch et al. (2021a)
+characterize hospitality as a lens upon power, identity, belonging and exclusion quite as much as
+upon provision, and in the accompanying reprise they renew a call for critical hospitality
+scholarship that treats the concept as a way of examining social relations rather than an industry
+sector (Lynch et al. 2021b).
 
-Four criteria recur across that work, and they organize the argument below. **Welcome** marks the
-transition from stranger to guest. **Recognition** registers that a particular person has been
-received, and not a category processed. **Care** attends to needs the guest has not specified.
-**Negotiated access** governs the terms on which entry is granted and what may be asked for once
-inside. Derrida's distinction between unconditional hospitality and the conditional forms actually
-practised sharpens the last criterion: every real hospitality sets conditions, and the interesting
-question is who sets them and whether they can be discussed (Derrida and Dufourmantelle 2000).
+Four criteria recur across this work, and they organize what follows. Welcome marks the transition by
+which a stranger becomes a guest. Recognition registers that a particular person has been received,
+and not a category processed. Care attends to needs the guest has not articulated. Negotiated access
+governs the terms upon which entry is granted and what may be asked for once inside. Derrida's
+distinction between an unconditional hospitality and the conditional forms actually practised gives
+the last of these its critical edge, since every real hospitality sets conditions and the interesting
+question is always who sets them and whether they remain open to discussion (Derrida and
+Dufourmantelle 2000). That question has proved remarkably generative across the journal's first
+decade, informing debates about migration, welcome and the ethics of the threshold, and we take it up
+here in a setting where the conditions have become computational.
 
-Two features of this literature matter for what follows. Hospitality is not reducible to outcomes.
-Lugosi describes hospitable moments as emergent and partly unscripted, arising in the interaction
-rather than being delivered by it (Lugosi 2008). A guest whose stay proceeded without incident has not
-necessarily been received. And hospitality has always specified something that flows back to the
-guest. Welcome, recognition, care and negotiated access are not enhancements added to a transaction.
-They are constitutive of the practice, and an arrangement providing none of them is doing something
-other than hosting.
+Two features of this literature bear directly upon our argument. The first is that hospitality
+resists reduction to outcomes. Lugosi (2008) describes hospitable moments as emergent and partly
+unscripted, arising within the interaction rather than being delivered by it, which implies that a
+guest whose stay proceeded without incident has not thereby been received. The second is that
+hospitality has always specified something flowing back to the guest. Welcome, recognition, care and
+negotiated access are not enhancements appended to a transaction; they are constitutive of the
+practice, and an arrangement supplying none of them is doing something other than hosting.
 
-The field has already theorized hospitality in more than two parts. Munasinghe et al. propose a
-triadic conceptualisation of the host-guest encounter that adds the wider social and cultural context
-as a third element shaping what host and guest can do (Munasinghe et al. 2022). That triad and the one
-proposed here are different objects, and the difference is worth stating plainly. Their third element
-is a context conditioning an encounter between two parties. The third element examined here is a
-party. It acts, decides and commits determinations binding on the other two.
+We should be careful at this point, because the field has already theorized hospitality in more than
+two parts and our triad is not that triad. Munasinghe et al. (2022) propose a triadic
+conceptualisation of the host–guest encounter in which the wider social and cultural context forms a
+third element shaping what host and guest are able to do. Their third element is a context that
+conditions an encounter between two parties. The third element we examine is a party in its own
+right: it acts, it decides, and it commits determinations binding upon the other two.
 
-Platform accommodation has already unsettled who occupies the host position. Cheng and Foley describe
-short-term rental hosting as algorithmically managed work, directed through pricing and ranking
-systems by a platform conferring no employment relation (Cheng and Foley 2019). Roelofsen and Minca
-show the Superhost badge encoding a platform's definition of good hosting and disciplining the person
-performing it (Roelofsen and Minca 2018), while Liang et al. demonstrate why hosts pursue the badge:
-it gates search visibility and bookings (Liang et al. 2017). The structure replicates in rural
-markets, where professionalization improves performance without conferring authority over the rules
-(Leick et al. 2024; Bosma 2022).
+Platform accommodation has already unsettled the question of who occupies the host position, and the
+evidence is by now substantial. Cheng and Foley (2019) describe short-term rental hosting as
+algorithmically managed work, directed through pricing and ranking systems by a platform conferring
+no employment relation upon the person doing the hosting. Roelofsen and Minca (2018) show, in a rich
+reading of the Superhost badge, how a platform's definition of good hosting comes to discipline the
+body performing it, while Liang et al. (2017) demonstrate why hosts pursue that badge so assiduously,
+since it gates search visibility and bookings. The pattern replicates outside the urban markets where
+most evidence has been gathered: Leick et al. (2024) find rural hosts professionalizing and improving
+their performance without acquiring any authority over the rules that govern them, which is also the
+trajectory Bosma (2022) traces through the accumulation of labour and assets into a livelihood.
 
-Guests meet the same apparatus from the other side. Edelman et al. found applicants with
-distinctively African-American names substantially less likely to be accepted on Airbnb, and located
-the harm in a design choice of the intermediary, beyond the conduct of any host (Edelman et al.
-2017). Cui et al. then found that a single positive review closed the gap: with a review on the guest
-account, acceptance rates for guests with white-sounding and African-American-sounding names became
-statistically indistinguishable (Cui et al. 2020). Read against Derrida, the finding is striking.
-Negotiated access is now administered by an artefact. Whether a guest is received turns on a record
-the guest did not author, cannot inspect and cannot carry to another platform.
+Guests meet the same apparatus from the other side, and here the findings are more troubling than
+they first appear. Edelman et al. (2017) found that applicants with distinctively African-American
+names were substantially less likely to be accepted, and located the harm in a design decision of the
+intermediary, beyond the conduct of any individual host. Cui et al. (2020) then found that a single
+positive review closed the gap: once a guest account carried a review, acceptance rates for guests
+with white-sounding and African-American-sounding names became statistically indistinguishable. Read
+against Derrida, the finding is arresting. Negotiated access, the criterion by which hospitality
+scholarship judges whether a welcome is a welcome at all, is now administered by an artefact. Whether
+a guest is received turns upon a record she did not author, cannot inspect and cannot carry
+elsewhere.
 
 ## 3. Phygital hospitality as triadic mediation
 
-Phygital hospitality is theorized here as triadic coordination among three parties. The **guest** is
-the person seeking to be received. The **algorithmic intermediary** comprises the systems that
-classify, recommend, gate, personalize, message, price and queue. The **human or organizational host**
-comprises frontline employees, managers and the organization that remains accountable for welcome.
+We theorize phygital hospitality as a system of triadic coordination among three parties: the guest,
+who seeks to be received; the algorithmic intermediary, comprising the systems that classify,
+recommend, gate, personalize, message, price and queue; and the human or organizational host,
+comprising frontline employees, managers and the organization which remains accountable for the
+welcome.
 
-Service research has already put three parties on the frontline. Van Doorn et al. propose the
-consumer-autonomous technology-worker framework, arguing that consumer-worker relations strengthen
-where the technology augments the worker rather than replacing them, and illustrating the point in
-hospitality settings (van Doorn et al. 2023). The framework and this paper agree on a good deal, and
-the debt should be acknowledged before the difference is drawn. Where they part is on what the third
-party is doing. The consumer-autonomous technology-worker framework treats technology as a
-participant in an interaction and asks how the three parties' relations change. The argument here
-concerns a party that commits determinations binding on the other two, and asks under what conditions
-that authority leaves the encounter hospitable. Augmentation is the shared observation. The
-conditions are what this paper adds.
+Service research has of course already placed three parties on the frontline, and our debt to that
+work should be acknowledged before we draw the distinction we need. Van Doorn et al. (2023) propose
+the consumer–autonomous technology–worker framework, arguing that relations between consumer and
+worker strengthen where the technology augments the worker instead of replacing him, and they
+illustrate the argument in hospitality settings. We share their observation and much of their
+concern. Where we depart from them is in what the third party is taken to be doing. Their framework
+treats autonomous technology as a participant in an interaction and asks how the three parties'
+relations shift around it. Our concern is with a party that commits determinations binding upon the
+other two, and with the conditions under which that authority leaves the encounter recognizably
+hospitable. Augmentation is the shared observation; the conditions are what we contribute.
 
-The claim is therefore not that a third element is present. Interfaces have mediated hospitality
+The claim is therefore not that a third element has appeared. Interfaces have mediated hospitality
 transactions for decades without displacing anyone. The claim is that the intermediary now performs
-hosting functions. It interprets what a guest needs from data the guest did not knowingly supply. It directs
-the encounter by determining what appears and in what order. It regulates access through
-identification, verification and eligibility rules. It anticipates preferences and allocates
-organizational attention, deciding which requests reach a person and which are resolved without one.
+hosting functions. It interprets what a guest needs from data she did not knowingly supply. It directs
+the encounter by determining what appears and in which order. It regulates access through
+identification, verification and eligibility rules. It anticipates preferences, and it allocates
+organizational attention, deciding which requests will reach a person and which will be resolved
+without one. Three redistributions follow, and each of them is documented.
 
-Three redistributions follow, and each has empirical support.
+Knowledge moves towards the intermediary and away from both other parties. Rahman's (2021) study of
+an opaque evaluation system shows a platform steering conduct precisely because it could not issue
+instructions, holding its criteria closely while the evaluated party laboured to satisfy them. Calo
+and Rosenblat (2017) argue that the asymmetry so produced is manufactured and held rather than
+incidental, and that it constitutes the arrangement's central resource. How organizations answer for
+that asymmetry depends upon a distinction Burrell (2016) draws with some care, between opacity chosen
+as a matter of policy and illegibility intrinsic to a computational method, since a property may
+withhold at one layer and attribute the withholding to another.
 
-**Knowledge** moves toward the intermediary and away from both other parties. Rahman's study of an
-opaque evaluation system shows a platform steering conduct precisely because it could not issue
-instructions, holding the criteria while the evaluated party worked to satisfy them (Rahman 2021). The
-asymmetry is manufactured, and Calo and Rosenblat describe it as the
-constitutive resource of such arrangements (Calo and Rosenblat 2017). Burrell's account of opacity
-matters for how organizations answer for it, distinguishing secrecy chosen as policy from
-illegibility intrinsic to a method, since a property can withhold at one layer and attribute the
-withholding to another (Burrell 2016).
+Discretion moves away from the frontline employee. Jianu et al. (2025) examine algorithmic management
+inside hotels and find frontline managers negotiating continually between system-generated direction
+and the judgement their role still demands, with process standardization intensifying work demands
+and obliging managers to translate algorithmic decisions to the very people those decisions affect.
+Reviewing automation across housekeeping, front desk and kitchen work, Spektor et al. (2023) observe
+that harms concentrate wherever adoption has attended to management stakeholders alone. The mechanism
+is visible in adjacent expert occupations, where Christin (2017) shows algorithmic instruments
+arriving as would-be substitutes for professional judgement and relocating the categories of
+judgement from the practitioner into a vendor's model. What is relocated is precisely what Lipsky
+(1980) identified as the substance of frontline work, namely the authority to decide what should be
+done in a particular case, and Möhlmann et al. (2021) describe the general form of the shift as
+matching that has become control.
 
-**Discretion** moves away from the frontline employee. Jianu et al. examine algorithmic management
-inside hotels and find frontline managers negotiating between system-generated direction and the
-judgement their role still requires, with process standardization intensifying work demands and
-managers obliged to translate algorithmic decisions to the people affected by them (Jianu et al.
-2025). Reviewing automation across housekeeping, front desk and kitchen roles, Spektor et al. find
-that harms concentrate where technology adoption attends only to management stakeholders (Spektor et
-al. 2023). The mechanism is visible in adjacent expert work, where Christin shows algorithmic
-instruments arriving as substitutes for professional judgement, relocating the categories of
-judgement from the practitioner into a vendor's model (Christin 2017). What is relocated is what
-Lipsky identified as the substance of frontline work: the authority to decide what should be done in
-a particular case (Lipsky 1980). Möhlmann et al. describe the general form as matching that has
-become control (Möhlmann et al. 2021).
+One qualification is necessary if the claim is to remain accurate, and it complicates the argument in
+a useful direction. Standardization does not simply delete discretion. Pedersen and Pors (2022) show
+that technologies introduced to standardize frontline decisions bring with them rough categories and
+scripts for action which generate new discretionary work, as practitioners compensate for whatever
+those categories fail to capture. Displacement is consequently the wrong word for what happens to
+judgement in a hotel. Judgement is pushed into unrecognized compensating work, performed by people
+whose formal role no longer includes it and whose employers may have little idea it is being done at
+all.
 
-One qualification keeps the claim accurate. Standardization does not simply delete discretion.
-Pedersen and Pors show that technologies intended to standardize frontline decisions introduce rough
-categories and scripts that generate new discretionary work, as practitioners compensate for what the
-categories miss (Pedersen and Pors 2022). Displacement is therefore the wrong word for what happens to
-judgement. Judgement is pushed into unrecognized compensating work, performed by people whose role no
-longer formally includes it and whose employers may not know it is being done.
+Authority, finally, moves towards whoever writes the rules and away from the parties those rules
+govern. Scott and Orlikowski (2012) trace this movement within the travel sector itself, showing how
+online rating systems materialized a new relation of accountability in which establishments
+reoriented their conduct towards a ranking while older channels of answerability thinned. Reputation
+compounds the shift because it does not travel: a host's standing inside one platform correlates only
+weakly with the same property's standing elsewhere, so that leaving becomes expensive by design
+(Zervas et al. 2021; Teubner et al. 2019).
 
-**Authority** moves toward whoever writes the rules and away from the parties the rules govern. Scott
-and Orlikowski trace this in the travel sector itself, showing rating systems materializing a new
-accountability relation in which establishments reorient conduct toward a ranking while older channels
-of answerability thin (Scott and Orlikowski 2012). Reputation compounds the shift because it does not
-travel: a host's standing inside one platform correlates only weakly with the same property's standing
-elsewhere, so leaving is expensive by design (Zervas et al. 2021; Teubner et al. 2019).
-
-Mediation of this kind can expand responsiveness and inclusion. It can also produce depersonalization,
-surveillance, categorical exclusion and dependence on systems no participant can inspect. Both outcomes are real. The framework therefore needs a distinction, and a verdict will not do.
+Mediation of this kind can expand responsiveness and inclusion, and frequently does. It can equally
+produce depersonalization, surveillance, categorical exclusion and dependence upon systems no
+participant is able to inspect. Both outcomes are real, and a framework issuing a verdict upon the
+technology will not help anyone distinguish between them.
 
 ## 4. Augmentative and substitutive hospitality
 
-The distinction proposed here separates **augmentative hospitality**, in which technology supports
-human recognition, discretion, responsiveness and care, from **substitutive hospitality**, in which
-algorithmic direction displaces relational judgement and restricts the capacity of guests and
-employees to shape the encounter.
+We therefore distinguish augmentative hospitality, in which technology supports human recognition,
+discretion, responsiveness and care, from substitutive hospitality, in which algorithmic direction
+displaces relational judgement and restricts the capacity of guests and employees to shape the
+encounter.
 
-Stated that way the distinction is intuitive and unusable. It becomes usable when tied to what
-coordination requires. Reviewing coordination research across organizational settings, Okhuysen and
-Bechky identify three integrating conditions any coordinating mechanism must produce:
-**accountability**, establishing who answers for what; **predictability**, allowing participants to
-anticipate what will happen; and **common understanding**, giving participants a shared picture of the
-situation and of each other (Okhuysen and Bechky 2009). Settled forms of coordination supply these in
-their own currency. A hierarchy supplies accountability through a chain of command and predictability
-through rules. A market supplies predictability through price.
+Stated in that form the distinction is intuitive and, we would concede, unusable. It becomes usable
+once tied to what coordination actually requires. Reviewing coordination research across
+organizational settings, Okhuysen and Bechky (2009) identify three integrating conditions any
+coordinating mechanism must produce: accountability, which establishes who answers for what;
+predictability, which allows participants to anticipate what will happen; and common understanding,
+which gives participants a shared picture of the situation and of one another. Settled forms of
+coordination supply these in their own currencies, so that a hierarchy delivers accountability
+through a chain of command and predictability through rules, while a market delivers predictability
+through price.
 
-Algorithmic mediation can withhold all three. Common understanding is withheld in both directions: the
-guest cannot ask the system what it concluded, and cannot make a need legible except through the
-fields the system accepts. Predictability is withheld and inverted, since the apparatus forecasts the
-guest with precision while revising its own rules without announcement. Accountability is withheld
-where no forum owes the guest or the employee an answer for a consequential decision.
+Algorithmic mediation is capable of withholding all three at once. Common understanding is withheld
+in both directions, since the guest can neither ask the system what it concluded about her nor make a
+need legible except through the fields the system will accept. Predictability is withheld and
+inverted, because the apparatus forecasts the guest with considerable precision while revising its
+own rules without announcement. Accountability is withheld wherever no forum owes the guest or the
+employee an answer for a decision that matters. This yields a condition rather than a mood.
+Substitutive hospitality, on our account, is mediation under which all three withholdings hold
+together; augmentative hospitality is mediation under which they do not. A system may be opaque and
+still augmentative where its rules are stable and an employee is able to overrule it, and a system
+may be perfectly transparent and still substitutive where nothing whatever answers to the party it
+affects.
 
-This yields a condition rather than a mood. **Substitutive hospitality is mediation under which all
-three withholdings hold together. Augmentative hospitality is mediation under which they do not.** A
-system may be opaque and still augmentative where its rules are stable and an employee can overrule
-it. A system may be transparent and still substitutive where nothing answers to the party it affects.
+Because the condition applies to a touchpoint, it can be put to work directly, and Table 1 sets out
+the questions we would ask of any particular one.
 
-The condition applies to a touchpoint directly.
+**Table 1. Diagnostic questions for a phygital touchpoint.**
 
-| question | augmentative | substitutive |
+| Question | Augmentative | Substitutive |
 |---|---|---|
 | What does the algorithm decide? | A bounded decision, known to staff | An open-ended allocation nobody in the property can enumerate |
 | Who sees the decision at the point of effect? | Guest and employee, in ordinary language | Neither, or only afterwards |
-| Who can change or override it? | An employee with authority and time | Nobody present; the rule sits with a vendor or head office |
+| Who may change or override it? | An employee with authority and time | Nobody present; the rule sits with a vendor or head office |
 | What answers a guest who disputes it? | A person or process able to reverse it | A restatement of the outcome |
 | What happens to a guest who refuses the digital path? | An alternative of comparable quality | Delay, surcharge, or treatment as an exception |
 
-Three ordinary touchpoints illustrate the poles. These are analytical vignettes; none reports a case.
+Three ordinary touchpoints illustrate the poles, and we offer them as analytical vignettes; none
+reports a case. Consider room assignment. A property that assigns rooms through an optimization the
+front desk cannot see, and that grants the desk no authority to move a guest, has made assignment
+substitutive whatever the quality of its rooms. The same optimization becomes augmentative where the
+desk is able to see why a room was chosen and may override that choice for a guest whose reasons fall
+outside the model. Consider service recovery. Automated triage routing a complaint to a person who
+holds discretion augments the encounter, whereas triage that exhausts the guest through successive
+automated stages before any employee appears substitutes for it. Guests are broadly positive towards
+service robots and continue to prefer human staff, particularly where emotional dimensions and
+service failure are involved (Kim et al. 2021), and Hou et al. (2021) usefully qualify this by showing
+the preference to be conditional upon the situation, shifting with social crowding rather than
+expressing a fixed attachment to human contact. The design question is consequently not whether to
+employ automation but where a person must remain reachable. Consider, finally, recognition at the
+threshold. Identification confirming a booking augments arrival; identification that also scores the
+guest, and that determines what she may request without disclosing that it has done so, substitutes a
+classification for a welcome.
 
-**Room assignment.** A property assigning rooms by an optimization the front desk cannot see, and
-giving the desk no authority to move a guest, has made assignment substitutive. The same optimization
-becomes augmentative where the desk can see why a room was chosen and can override the choice for a
-guest whose reason falls outside the model.
-
-**Service recovery.** Automated triage routing a complaint to a person with discretion augments the
-encounter. Triage that exhausts the guest through successive automated stages before any employee
-appears substitutes for it. Guests are broadly positive toward service robots and continue to prefer
-human staff, particularly where emotional dimensions and service failure are involved (Kim et al.
-2021). The preference is conditional rather than fixed, shifting with situational factors including
-social crowding (Hou et al. 2021), so the design question is not whether to employ automation but
-where a person must remain reachable.
-
-**Recognition at the threshold.** Identification confirming a booking augments arrival. Identification
-that also scores the guest, and that determines what they may request without disclosing that it has
-done so, substitutes a classification for a welcome.
-
-The distinction operates on touchpoints, not on whole properties. A single hotel will mix both
-tendencies, and the framework's value lies in locating which is which.
+The distinction operates upon touchpoints, not upon whole properties. Any hotel of reasonable size
+will mix both tendencies across its operation, and the value of the framework lies precisely in
+locating which is which.
 
 ## 5. Hospitality algorithmacy and coordinative sovereignty
 
-Guests and employees are not passive under mediation. They form working theories of the systems that
-sort them and act on those theories. **Hospitality algorithmacy** names this: the situated capacity of
-guests and employees to recognize, interpret and strategically engage with algorithmic mediation in
-hospitality encounters.
+Guests and employees are not passive under mediation of this kind. They form working theories of the
+systems that sort them and they act upon those theories, and we propose the term hospitality
+algorithmacy for this capacity: the situated capacity of guests and employees to recognize, interpret
+and strategically engage with algorithmic mediation in hospitality encounters.
 
-The capacity is documented, and in a hospitality setting. Studying accommodation hosts, Jhaver et al.
-found them reverse-engineering search ranking, building folk theories of the system, comparing notes
-socially and orienting themselves toward two audiences at once, the guest and the algorithm (Jhaver et
-al. 2018). The general form appears across mediated settings. Users construct folk theories of opaque
-systems and reorganize conduct around them even where nothing economic is at stake (Eslami et al.
-2016). Collective interpretation becomes a semi-institutionalized practice (Bishop 2019).
-Professionals treat visibility as a game whose rules they infer and contest, structured by the
-algorithm without being determined by it (Cotter 2019). At representative scale the response is
-general across a representative sample (Ytre-Arne and Moe 2021), and it sharpens when systems
-change without notice (DeVito et al. 2017).
+The capacity is already documented, and documented in a hospitality setting. Studying accommodation
+hosts, Jhaver et al. (2018) found them reverse-engineering search ranking, constructing folk theories
+of the system, comparing notes socially and orienting themselves towards two audiences at once, the
+guest and the algorithm. The general form appears wherever people are sorted by systems they cannot
+see. Eslami et al. (2016) show users constructing folk theories of opaque curation and reorganizing
+their conduct around them even when nothing economic is at stake, Bishop (2019) traces how such
+theories circulate until they become a semi-institutionalized practice, and Cotter (2019) describes
+professionals treating visibility as a game whose rules they infer and contest, structured by the
+algorithm without being determined by it. Ytre-Arne and Moe (2021) find the response general across a
+representative sample, which suggests that it belongs to the form of mediation rather than to
+precarity, and DeVito et al. (2017) show it sharpening whenever systems change without notice.
 
-Algorithmacy is therefore a specification of a documented competence rather than a new discovery, and
-it is distinct from digital literacy. Literacy reads the interface. Algorithmacy reads how the
-mediation redistributes who may act. It has three components, each corresponding to something the
-mediation withholds. **Interpretation** reconstructs what the system concluded from outcomes alone.
-**Specification** compresses a real need into the signals the system will carry, which requires
-knowing what can afford to be lost. **Tracking** notices that a rule has moved when nobody announced
-it.
+Algorithmacy is thus a specification of a documented competence, and we would emphasize that it is
+distinct from digital literacy. Literacy reads the interface; algorithmacy reads how the mediation
+redistributes who may act. We take it to have three components, each answering to something the
+mediation withholds. Interpretation reconstructs what the system concluded from outcomes alone.
+Specification compresses a real need into the signals the system will carry, which requires knowing
+what can afford to be lost in the compression. Tracking notices that a rule has moved when nobody has
+announced its moving.
 
-The list stops there, and the reason introduces the paper's second construct. Interpretation,
-specification and tracking address common understanding and predictability. Both are states a party
-can be in: a guest either holds an accurate expectation of what will happen or does not, and private
-effort can move them between those states. Accountability is not a state. It is a relation requiring a
-second party who owes an answer, and no amount of skill by the first party creates that obligation.
-Citron and Pasquale make the point in the language of due process, arguing that what a scoring system
-owes the people it scores is procedural (Citron and Pasquale 2014). Ananny
-and Crawford show why disclosure alone does not supply it, since transparency delivers visibility
-while leaving the forum absent (Ananny and Crawford 2018).
+Employees display the same competence and encounter the same limit. Christ-Brendemühl and
+Schaarschmidt (2019) find frontline staff deviating from digital processes in both constructive and
+destructive directions when technology-induced role ambiguity leaves them without a workable script,
+and competence of that kind can certainly rescue an encounter. It does not, however, alter who
+decides. Cheng et al. (2025) offer the sharper finding: awareness of artificial intelligence in the
+workplace increases frontline employees' silence, working through a perceived breach of the
+psychological contract. The employees who understand the system best may be precisely those who stop
+speaking about it.
 
-The empirical record supports the distinction. Vaccaro et al. built an appeal process, offered it
-under three designs, and tested it against a baseline with no appeal while holding the outcome
-constant. It produced no improvement in perceived accountability, and participants contested the goals
-and the automation itself, well beyond the single decision (Vaccaro et al. 2020). A grievance channel internal
-to the party writing the rules absorbs the contest instead of transferring standing.
+The list of components stops at three, and the reason introduces our second construct.
+Interpretation, specification and tracking address common understanding and predictability, both of
+which are states a party can be in: a guest either holds an accurate expectation of what will happen
+or she does not, and private effort can move her between those states. Accountability is not a state.
+It is a relation, requiring a second party who owes an answer, and no amount of skill on the part of
+the first party creates that obligation in anyone else. Citron and Pasquale (2014) make the point in
+the language of due process, arguing that what a scoring system owes the people it scores is
+procedural, and Ananny and Crawford (2018) explain why disclosure alone will not supply it, since
+transparency delivers visibility while leaving the forum absent.
 
-Employees display the same competence and meet the same limit. Christ-Brendemühl and Schaarschmidt
-find frontline staff deviating from digital processes in both constructive and destructive
-directions when technology-induced role ambiguity leaves them without a workable script
-(Christ-Brendemühl and Schaarschmidt 2019). Competence of that kind can rescue an encounter. It
-does not alter who decides. Cheng et al. give the sharper finding: awareness of artificial
-intelligence in the workplace increases frontline employees' silence, working through a perceived
-breach of the psychological contract (Cheng et al. 2025). Employees who understand the system best
-may be the ones who stop speaking.
+The empirical record supports the distinction rather starkly. Vaccaro et al. (2020) built an appeal
+process, offered it under three designs and tested it against a baseline with no appeal at all, while
+holding the outcome constant. It produced no improvement in perceived accountability, and their
+participants contested the goals and the automation itself, well beyond the single decision. A
+grievance channel internal to the party which writes the rules absorbs the contest instead of
+transferring standing.
 
-**Coordinative sovereignty** names what competence cannot reach: the practical ability of participants
-to retain meaningful influence over how hospitality is organized and enacted under mediation they
-cannot simply remove. The distinction between exit and voice organizes it. Hirschman showed that
-influence runs either through leaving or through being heard, and that leaving becomes unavailable
-when its costs are raised (Hirschman 1970), a schema whose analytic distinctions have since been
-sharpened considerably (Dowding et al. 2000). Where a guest can readily use another property, exit
-disciplines the arrangement. Where mediation is effectively unavoidable, voice is the only route, and
-voice is not merely a process feature: a channel dignifying a decision already made differs from
-consequential input to someone able to act (Morrison 2014).
+We use coordinative sovereignty to name what competence cannot reach: the practical ability of
+participants to retain meaningful influence over how hospitality is organized and enacted under
+mediation they cannot simply remove. Hirschman's (1970) distinction between exit and voice organizes
+it. Influence runs either through leaving or through being heard, and leaving becomes unavailable
+once its costs are raised sufficiently, a schema whose analytic distinctions have since been
+considerably sharpened (Dowding et al. 2000). Where a guest may readily choose another property, exit
+disciplines the arrangement. Where mediation is effectively unavoidable, voice is the only route
+remaining, and voice in the sense that matters is not a process feature: as Morrison (2014) argues, a
+channel dignifying a decision already taken is a different thing altogether from consequential input
+to someone able to act.
 
-Competence and standing therefore vary independently. A guest may become expert at reading a
-property's systems and hold no more influence than before. Two constructs are needed because the first
-cannot deliver the second.
+Competence and standing therefore vary independently, and this is why we hold two constructs rather
+than one. A guest may become expert at reading a property's systems and hold no more influence over
+them than she did before.
 
 ## 6. Five affordances of guest-centric phygital design
 
-If withheld integrating conditions produce substitutive hospitality, the design task is to supply
-them. Five affordances follow, four answering a withheld condition and one removing the mediation
-rather than repairing it.
+If substitutive hospitality arises where the integrating conditions are withheld, then the design
+task is to supply them, and five affordances follow. Four answer a withheld condition; the fifth
+removes the mediation instead of repairing it.
 
-**Transparency** answers withheld common understanding. Consequential decisions should be noticeable
-and intelligible where they take effect: why a room was assigned, why a price moved, why a request was
-declined. Transparency alone accomplishes little, and the design literature is unusually clear about
-this. Disclosure supplies visibility while leaving the forum absent (Ananny and Crawford 2018), and an
-individual right to an explanation underdelivers as a remedy, pointing instead toward systemic and
-ex-ante obligations (Edwards and Veale 2017). Transparency at the point of effect, paired with
-standing, is the version worth designing.
+Transparency answers withheld common understanding. Consequential decisions ought to be noticeable
+and intelligible where they take effect: why this room was assigned, why the price moved, why the
+request was declined. Transparency alone accomplishes remarkably little, and the design literature is
+unusually clear upon the point. Ananny and Crawford (2018) show disclosure supplying visibility while
+leaving the forum absent, and Edwards and Veale (2017) argue that an individual right to an
+explanation underdelivers as a remedy, directing attention instead towards systemic and ex-ante
+obligations. Transparency at the point of effect, paired with standing, is the version worth
+designing.
 
-**Adjustability** answers common understanding from the other direction. Guests and employees should
-be able to modify the parameters shaping the encounter without exiting the relationship. The design
-target is the guest whose need does not fit the fields provided. An adjustable system widens what can
-be said to it; an unadjustable one offers a default path authored entirely by the system, which is
-choice architecture rather than choice (Yeung 2017).
+Adjustability answers common understanding from the other direction. Guests and employees should be
+able to modify the parameters shaping an encounter without having to exit the relationship
+altogether, and the design target is the guest whose need does not fit the fields she has been given.
+An adjustable system widens what may be said to it; an unadjustable one offers a default path
+authored entirely by the system, which is choice architecture and not choice (Yeung 2017). The
+mechanism has empirical support. Studying personalized travel recommendations, Lv et al. (2024) find
+privacy concern falling and attitudes improving where the presentation preserves a traveller's sense
+of autonomy over her own information, with perceived information autonomy carrying the effect. What
+guests object to, on this evidence, is not personalization as such but personalization they cannot
+steer, a pattern the hotel application literature has recorded for a decade (Morosan and DeFranco
+2016).
 
-**Announced change** answers withheld predictability. Where the rules governing recognition, pricing
-or access are revised, the revision should be legible to people who organized their conduct around the
-previous rule. Systems revising silently convert competence into a moving target.
+Announced change answers withheld predictability. Where the rules governing recognition, pricing or
+access are revised, that revision should be legible to the people who organized their conduct around
+the rule it replaces, since systems revising themselves silently convert competence into a moving
+target.
 
-**Contestability** answers withheld accountability, and it is where design most often fails. The
-Vaccaro finding sets the bar: an appeal routing back to the party that wrote the rule does not confer
-standing (Vaccaro et al. 2020). Contestability must reach the rule rather than only the output, which
-means designing contestation across a system's lifecycle instead of bolting an appeal onto its end
-(Almada 2019; Alfrink et al. 2023), and it means a reviewer with authority to reverse.
+Contestability answers withheld accountability, and it is where design most often fails. The Vaccaro
+finding sets the bar: an appeal routing back to the party which wrote the rule does not confer
+standing. Contestability must therefore reach the rule and not merely the output, which means
+designing contestation across a system's lifecycle instead of bolting an appeal onto its end (Almada
+2019; Alfrink et al. 2023), and it means a reviewer holding the authority to reverse.
 
-**Human accessibility** also answers accountability, by keeping reachable a person who can recognize a
-situation the model does not represent and answer for what follows. Guests already read the
-arrangement this way. Belanche et al. find that customers attribute responsibility for a service
-failure to the firm rather than to the robot that produced it, while expecting less improvement from
-the machine over time (Belanche et al. 2020). Automation does not relocate answerability in the
-guest's eyes, which makes a design that removes the person answering an organizational choice rather
-than a technical consequence. The empirical floor sits in the
-hospitality literature: guests prefer human staff for emotional dimensions and for service failure
-(Kim et al. 2021), and conditionally, shifting with the situation (Hou et al. 2021).
+Human accessibility also answers accountability, by keeping reachable a person who can recognize a
+situation the model does not represent and answer for what follows from it. Guests, it turns out,
+already read the arrangement in these terms. Belanche et al. (2020) find customers attributing
+responsibility for a service failure to the firm rather than to the robot which produced it, while
+expecting rather less improvement from the machine over time. Automation does not relocate
+answerability in the guest's eyes, which makes a design removing the person who answers an
+organizational choice and not a technical consequence.
 
-**Bypass-ability** does something different. A meaningful alternative path, non-digital or differently
-mediated, removes the mediation rather than repairing it. Where a real alternative exists, exit
-disciplines the arrangement and the other affordances matter less. Where bypass is formally available
-but slower, costlier or socially marked, it is not an alternative. Studies of biometric check-in find
-guests weighing privacy risk against benefit before accepting identification at the door (Xu et al.
-2020; Boo and Chua 2022), and a guest who declines should not thereby become a problem to be managed.
+Bypass-ability does something different from the other four. A meaningful alternative path,
+non-digital or differently mediated, removes the mediation instead of repairing it, and where a real
+alternative exists exit disciplines the arrangement and the remaining affordances matter less. Where
+bypass is formally available but slower, costlier or socially marked, it is not an alternative at all.
+Xu et al. (2020) and Boo and Chua (2022) find guests weighing privacy risk against benefit before
+accepting identification at the door, and a guest who declines should not thereby become a problem to
+be managed.
 
-The derivation carries an organizational implication a checklist would obscure. Transparency,
-adjustability and announced change address conditions guests and employees can partly supply
-themselves, so training and communication move them. Contestability and human accessibility address a
-condition no individual can supply, so they require organizational design: a reviewer with authority,
-a staffing model that treats human contact as a function of the job, and a decision about who
-answers when the system is wrong. A property responding to a contestability problem with guest
-education has misread which kind of condition it faces.
+The derivation carries an organizational implication a checklist would obscure, and we regard it as
+the practical contribution of this section. Transparency, adjustability and announced change address
+conditions guests and employees can partly supply for themselves, which means training and
+communication will move them. Contestability and human accessibility address a condition no
+individual can supply, which means they require organizational design: a reviewer with authority, a
+staffing model treating human contact as a function of the job, and a decision about who answers when
+the system is wrong. A property responding to a contestability problem with guest education has
+misread which kind of condition it faces.
 
-These affordances are proposed as conditions plausibly shaping guest agency, employee discretion,
-recognition, belonging, trust and well-being. The relationships are theorized here and await empirical
-test.
+We propose these affordances as conditions plausibly shaping guest agency, employee discretion,
+recognition, belonging, trust and well-being. The relationships are theorized here and they await
+empirical test.
 
 ## 7. Against frictionless hospitality
 
-Seamlessness is the field's dominant design value, and it deserves examination.
+Seamlessness is the dominant design value in phygital hospitality, and it deserves examination.
 
-The clearest reason to doubt it comes from research on voice. Folger found that the opportunity to be
-heard reduced experienced injustice independently of whether the outcome improved (Folger 1977). The
-finding separates two things a frictionless encounter tends to merge. An encounter can produce good
-outcomes efficiently and still withhold the surface on which a guest might have said something. On
-Folger's evidence that withholding carries a cost of its own, one better outcomes do not offset.
+The clearest reason for doubt comes from research upon voice. Folger (1977) found that the
+opportunity to be heard reduced experienced injustice independently of whether the outcome improved,
+a finding which separates two things a frictionless encounter tends to merge. An encounter may
+produce good outcomes efficiently and still withhold the surface upon which a guest might have said
+something, and on Folger's evidence that withholding carries a cost of its own which better outcomes
+do not offset.
 
-Infrastructure research explains why the cost is easy to miss. Star and Ruhleder observed that
-infrastructure becomes effective as it sinks out of sight, embedded, standardized and taken for
-granted (Star and Ruhleder 1996). Seamlessness is that process pursued as a design goal. Star's
-account of the master narrative encoded in a classification adds the political edge: a standard
-carries one presumed point of view and renders others unnamed, silently, as the shape of the blanks
-and never as an instruction anyone issues (Star 1999). Bowker and Star name the experience of the
-person a category does not fit as torque, the felt twisting when a life is bent to a classification
-built for someone else (Bowker and Star 1999).
+Infrastructure research explains why the cost is so easily missed. Star and Ruhleder (1996) observed
+that infrastructure becomes effective as it sinks out of sight, embedded, standardized and taken for
+granted, and seamlessness is that process pursued deliberately as a design goal. Star's (1999)
+account of the master narrative encoded within a classification supplies the political edge, since a
+standard carries one presumed point of view and renders every other position unnamed, doing so
+silently, as the shape of the blanks and never as an instruction anyone issues. Bowker and Star (1999)
+name the experience of a person whom a category does not fit as torque, the felt twisting when a life
+is bent to a classification built for somebody else.
 
-The cultural version of the problem is documented in hospitality's own literature, and it predates
-automation. Nguyen et al. found hotel staff categorizing guests by country of origin before arrival
-and running the encounter from a matching script, with mismatches between the expected behaviour and
-the actual guest producing service failure and demanding a new script on the spot (Nguyen et al.
-2024). Cultural background shapes what counts as good service in the first place (Mattila 1999;
-Torres et al. 2014). Algorithmic categorization industrializes the scripting and removes the moment
-where a person noticed the mismatch. Hotel managers themselves doubt that generative systems can
-carry a specific hospitality culture or handle contingency (Wang 2024).
+The cultural version of this problem is documented within hospitality's own literature, and it
+predates automation by some margin. Nguyen et al. (2024) found hotel staff categorizing guests by
+country of origin before arrival and running the encounter from a matching script, with any mismatch
+between expected and actual behaviour producing service failure and demanding a new script on the
+spot. Cultural background shapes what counts as good service in the first place (Mattila 1999; Torres
+et al. 2014). Algorithmic categorization industrializes the scripting and, more consequentially,
+removes the moment at which a person noticed the mismatch and improvised. Hotel managers themselves
+express doubt that generative systems can carry a specific hospitality culture or respond to
+contingency (Wang 2024).
 
-Torque is what a guest experiences when their requirements fall outside algorithmically constructed
-norms. A frictionless system offers no surface on which to be received as an exception, because the
-negotiation that would have surfaced the exception has been designed away. The classification doing
-the sorting is inferred and continuously recomputed, so no stable standard exists to appeal to even in
-principle (Cheney-Lippold 2011), and the sorting carries material consequences for access (Fourcade
-and Healy 2013).
+Torque, then, is what a guest experiences when her requirements fall outside algorithmically
+constructed norms. A frictionless system offers no surface upon which to be received as an exception,
+because the negotiation which would have surfaced that exception has been designed away. The
+classification doing the sorting is inferred and continuously recomputed, so that no stable standard
+exists to appeal to even in principle (Cheney-Lippold 2011), and the sorting carries material
+consequences for access (Fourcade and Healy 2013).
 
-Consumer research has begun to make the same argument in its own terms. Padigar et al. distinguish
-four kinds of friction by the desirability and value of the task the effort serves, and warn that
-removing constructive friction, where effort is undesirable but valuable, can destroy the value it
-was thought to be obstructing (Padigar et al. 2024). Negotiating an unusual request is constructive
-friction in exactly that sense. The guest would rather not have to explain, and the explaining is
-where the recognition occurs.
+Consumer research has begun to make a version of this argument in its own terms. Padigar et al.
+(2024) distinguish four kinds of friction according to the desirability and value of the task the
+effort serves, and warn that removing constructive friction, where effort is undesirable but valuable,
+can destroy the very value it was thought to be obstructing. Negotiating an unusual request is
+constructive friction in exactly that sense: the guest would rather not have to explain herself, and
+the explaining is where recognition occurs. Interaction design reaches the alternative from another
+direction, Chalmers and Galani (2004) having argued that seams, the visible joins and imperfections
+of a system, are resources for action and not defects, and that revealing them lets people work with
+a system as well as through it. Hospitality has its own version of the insight. The pause at a desk,
+the question that was not on the form, the request that required someone to think, are the occasions
+upon which recognition happens.
 
-Interaction design reaches the alternative from another direction. Chalmers and Galani argued that
-seams, the visible joins and imperfections of a system, are resources for action rather than defects,
-and that revealing them lets people work with a system as well as through it (Chalmers and
-Galani 2004). Hospitality has its own version of the insight. The pause at a desk, the question not
-on the form, the request requiring someone to think, are occasions where recognition happens.
-
-One complication belongs here in the argument, and not in a note. The remedy for algorithmic exclusion often runs
-through the same instrument as the harm. Cui et al. showed that guest reviews reduce discrimination in
-acceptance (Cui et al. 2020). The mechanism works, and it also deepens the mediation, extends the
-record and relocates the disadvantage onto the guest who has no reviews: the first-time traveller, or
-the guest who declines to build a profile. A design principle failing to notice this will keep
+One complication belongs here in the argument, and not in a note. The remedy for algorithmic
+exclusion frequently runs through the same instrument as the harm. Cui et al. (2020), as we have
+seen, showed guest reviews reducing discrimination in acceptance. The mechanism works, on the measure
+against which it was tested, and it simultaneously deepens the mediation, extends the record and
+relocates the disadvantage onto the guest who has no reviews at all: the first-time traveller, or the
+guest who declines to build a profile. A design principle failing to notice this will go on
 recommending more data as the answer to problems that data created.
 
-The argument is not that friction is good. It is that hospitality requires occasions for negotiation,
-and that a design value treating every such occasion as waste will remove them.
+We are not arguing that friction is good. We are arguing that hospitality requires occasions for
+negotiation, and that a design value treating every such occasion as waste will remove them.
 
 ## 8. Discussion and contributions
 
-The paper makes three contributions.
+We make three contributions. The first is to reposition artificial intelligence in hospitality from a
+neutral service technology to a constitutive mediator of hospitality relationships, meanings and
+power. The move carries no claim that technology harms hospitality. It is a claim about where
+analysis should sit, namely with the redistribution of knowledge, discretion and authority among
+three parties, and not with adoption or efficiency alone. The second is a distinction with a
+condition attached, since augmentative and substitutive hospitality are separated by whether the
+three integrating conditions are withheld together, which makes the distinction checkable against a
+specific touchpoint. The third is the separation of competence from standing. Hospitality algorithmacy
+names what guests and employees are able to develop; coordinative sovereignty names what they cannot
+develop and must instead be granted. The separation has a practical edge, since it identifies which
+design problems training can address and which require an organization to decide who answers for a
+decision.
 
-It repositions artificial intelligence in hospitality from a neutral service technology to a
-constitutive mediator of hospitality relationships, meanings and power. The move carries no claim that technology harms hospitality. It is a claim about where analysis should sit: with the redistribution
-of knowledge, discretion and authority among three parties, and not with adoption or efficiency
-alone.
+The limits should be stated plainly. This is a conceptual paper. Our vignettes illustrate the
+framework rather than testing it, and we make no claim about any particular property or guest
+population. The relationships we propose between the five affordances and guest and employee outcomes
+are theorized and await measurement. The evidence we have assembled is also uneven in an instructive
+way: the redistribution of authority is considerably better documented on the host and employee side,
+where platform accommodation and algorithmic management research have accumulated (Cheng and Foley
+2019; Jianu et al. 2025), than on the guest side, where much of the literature measures acceptance
+and leaves structure alone. That asymmetry has shaped our argument, which builds the structural claim
+where the evidence is strongest and derives the guest position from it.
 
-It offers a distinction with a condition attached. Augmentative and substitutive hospitality are
-separated by whether the three integrating conditions are withheld together, which makes the
-distinction checkable against a specific touchpoint.
-
-It separates competence from standing. Hospitality algorithmacy names what guests and employees can
-develop; coordinative sovereignty names what they cannot develop and must instead be granted. The
-separation has a practical edge, identifying which design problems training can address and which
-require an organization to decide who answers for a decision.
-
-The limits should be stated. This is a conceptual paper. Its vignettes illustrate the framework rather
-than testing it, and no claim is made about any particular property or guest population. The proposed
-relationships between the five affordances and guest and employee outcomes are theorized and await
-measurement. The evidence assembled here is also uneven. The redistribution of authority is better
-documented on the host and employee side, where platform accommodation and algorithmic management
-research have accumulated (Cheng and Foley 2019; Jianu et al. 2025), than on the guest side, where much
-of the literature measures acceptance and leaves structure alone. That asymmetry shaped the argument, which
-builds the structural claim where the evidence is strongest and derives the guest position from it.
-
-Three empirical directions follow. Qualitative work could examine how guests and frontline employees
-interpret and work around the systems mediating their encounters, extending folk-theory findings into
-hospitality settings. Survey work could operationalize the three components of hospitality algorithmacy
-and test whether they cohere and whether they separate from general self-efficacy. Design research
-could test the affordances directly, and contestability is the most valuable target, since the existing
-evidence records a failure while the conditions for success remain unspecified.
+Three empirical directions follow, and we would prioritize them in this order. Qualitative work could
+examine how guests and frontline employees actually interpret and work around the systems mediating
+their encounters, extending folk-theory findings into hospitality settings where they have barely
+been tested. Survey work could operationalize the three components of hospitality algorithmacy and
+establish whether they cohere and whether they separate from general self-efficacy. Design research
+could test the affordances directly, and contestability is much the most valuable target, since
+existing evidence records a failure while the conditions for success remain unspecified.
 
 ## 9. Conclusion
 
 Algorithmic systems now perform functions hospitality has always treated as the host's: recognizing
-the guest, regulating access, anticipating needs and deciding what may be asked. That participation
-will not be reversed, and the useful question is not whether technology belongs in the encounter but
-on what terms it participates.
+the guest, regulating access, anticipating needs and determining what may be asked. That
+participation will not be reversed, and the useful question is no longer whether technology belongs
+in the encounter but upon what terms it participates.
 
-Guest-centric phygital hospitality does not depend on making technology invisible. It depends on
+Guest-centric phygital hospitality does not depend upon making technology invisible. It depends upon
 guests and employees retaining the agency to determine how technology participates in the performance
-of hospitality, and on organizations accepting that some of that agency cannot be trained into people
-and must instead be designed into the arrangement.
+of hospitality, and upon organizations accepting that some part of that agency cannot be trained into
+people and must instead be designed into the arrangement.
 
 ## Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process
 
 *Draft wording for the authors to review, amend and sign. The disclosure must describe what actually
-happened. See [`JOURNAL_SPEC.md`](JOURNAL_SPEC.md) for the journal's required form and its policy.*
+happened; the journal's policy and required form are quoted in [`JOURNAL_SPEC.md`](JOURNAL_SPEC.md).*
 
-Throughout the preparation of this work, the authors employed Claude (Anthropic) to conduct and verify
-literature searches, to structure the argument, and to draft and edit the manuscript text. Following
-the utilization of this tool, the authors thoroughly reviewed and edited the content as necessary,
-assuming full responsibility for the publication's content.
-
-## References
+Throughout the preparation of this work, the authors employed Claude (Anthropic) to conduct and
+verify literature searches, to structure the argument, and to draft and edit the manuscript text.
+Following the utilization of this tool, the authors thoroughly reviewed and edited the content as
+necessary, assuming full responsibility for the publication's content.
 
 *Rendered in Intellect Harvard by `render_refs.py` from `../literature/references.bib`. Every entry is cited in the text; every citation resolves to an entry.*
 
