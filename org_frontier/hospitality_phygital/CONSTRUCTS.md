@@ -1,8 +1,11 @@
 # Constructs — hospitality phygital glossary
 
-Freeze these definitions after the local dissertation review
-([`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md)). Until that log is complete, treat the wording
-below as the working baseline drawn from the public lab and the locked abstract.
+**Freeze these definitions on the locked abstract and the public lab, then draft against them.**
+Add a freeze date line here when that happens. The dissertation genealogy pass
+([`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md)) runs in parallel and may prompt an amendment;
+it no longer gates the freeze. See [`PLAN.md`](PLAN.md) §5.A.
+
+Freeze date: _not yet frozen_
 
 ## Core arrangement
 

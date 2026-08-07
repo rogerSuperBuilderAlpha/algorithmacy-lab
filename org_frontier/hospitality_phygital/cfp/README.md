@@ -3,6 +3,13 @@
 Source: APA Summit 2026 / *Hospitality & Society* special issue CFP (uploaded PDF in the project
 kickoff). This note is a working digest for alignment, not a substitute for the editors' text.
 
+> **Corroboration warning (checked 2026-08-07).** Intellect's own *Hospitality & Society* page
+> states that there are currently no special-issue calls for papers for the journal, and the CFP
+> does not surface in public search. The kickoff PDF is therefore the sole source for every date,
+> editor name, and link below. Re-read that PDF — or ask the editors — before the schedule in
+> [`../PLAN.md`](../PLAN.md) is treated as real. Nothing here is fabricated; it is simply
+> uncorroborated outside the PDF.
+
 ## Special issue
 
 **Title:** Theorizing Phygital Hospitality: Designing Guest-Centric Experiences in Hybrid
@@ -48,6 +55,14 @@ Submissions should:
 - Human-centric strategies for positive transformation and guest well-being
 - Inclusive / culturally sensitive design
 - Guest perceptions of presence, embodiment, and relationality
+
+## Journal constraints (from the publisher, verified 2026-08-07)
+
+| constraint | value |
+|---|---|
+| Article length | 5,000–8,000 words, longer only in exceptional cases |
+| Notes for Contributors | `HOSP_NFC_May_26.pdf`, downloadable from the journal page |
+| Peer review | two external reviewers |
 
 ## Submission pointers
 

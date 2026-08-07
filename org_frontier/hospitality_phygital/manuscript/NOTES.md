@@ -2,6 +2,26 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-07 — plan review: schedule, word budget, citations
+
+Review of the baseline library against the plan produced four decisions.
+
+- **The dissertation pass stops gating the freeze.** 28 days remain; constructs freeze on the
+  locked abstract, and the genealogy pass runs in a one-day box alongside drafting.
+- **The word limit is 5,000–8,000 words.** The outline now carries a per-section budget totalling
+  7,600. Algorithmacy and coordinative sovereignty get one pass in section 5 and no restatement —
+  the pile-up mitigation in `PLAN.md` was previously written down but not enforced anywhere.
+- **Citations verified.** All seven external entries checked against publisher records. The Addis
+  et al. DOI was wrong by one digit (`…057590` → `…057593`) and an author's given name was wrong
+  (Lori → Lane). PH-CX, the phygital research paradigm, and PSR are three distinct Batat works;
+  the map had been calling the 2024 QMR guest editorial "PSR". Batat (2026, *JSM*) is PSR proper
+  and is now seeded.
+- **Section 4 gains a diagnostic table.** The augmentative/substitutive poles were asserted with no
+  procedure for classifying a real touchpoint — the likeliest reviewer objection.
+
+Open worry not yet resolved: the CFP is uncorroborated outside the kickoff PDF. Intellect's journal
+page lists no special-issue calls. Re-read the PDF before trusting 4 September.
+
 ## 2026-08-07 — baseline library opened
 
 - Arm scaffolded under `org_frontier/hospitality_phygital/`.
@@ -12,7 +32,8 @@ Decision log and parking lot. Newest entries at the top.
 
 ## Parking lot
 
-- Confirm *Hospitality & Society* word limit and reference style in Notes for Contributors.
+- Reference style from the Notes for Contributors (`HOSP_NFC_May_26.pdf`) — length confirmed at
+  5,000–8,000 words; style still to read.
 - Decide whether APA Summit attendance materials (talk deck) belong in this arm later.
 - Possible vignette set: mobile check-in; algorithmic room assignment; AI concierge; reputation-
   mediated upgrade denial.

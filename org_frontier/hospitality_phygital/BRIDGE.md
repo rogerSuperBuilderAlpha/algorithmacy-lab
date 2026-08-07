@@ -1,7 +1,8 @@
 # Bridge — lab and dissertation → hospitality claims
 
 What transfers into the *Hospitality & Society* paper, what must be re-argued, and what stays out.
-Update after completing [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md).
+Amend after the parallel genealogy pass in
+[`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md); drafting does not wait on it.
 
 ## Transfer table
 

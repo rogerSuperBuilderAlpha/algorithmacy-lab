@@ -1,10 +1,16 @@
-# Dissertation review — required local pass
+# Dissertation review — timeboxed local pass
 
 The nested private dissertation at `dissertation/` is **not** part of the public
 `algorithmacy-lab` clone. A normal checkout has only the `.gitignore` line. This hospitality arm
-still depends on that library for construct genealogy (especially Papers 1–2). **Complete this
-review on a machine where the private repo is present before freezing
-[`CONSTRUCTS.md`](CONSTRUCTS.md) and [`BRIDGE.md`](BRIDGE.md).**
+draws on that library for construct genealogy (especially Papers 1–2).
+
+> **Scope change (2026-08-07).** This pass no longer gates the construct freeze. With 28 days to
+> the submission window, a gate that only one machine can open is a schedule risk, and it is not
+> load-bearing: [`CONSTRUCTS.md`](CONSTRUCTS.md) is already fully specified from the locked abstract
+> and the public lab. Freeze the constructs, then run this pass **inside a one-day box, in parallel
+> with drafting**, to sharpen the Paper 1 gap argument and fix citation genealogy. If it contradicts
+> a frozen definition, amend the definition — that is cheap. A stalled draft is not. See
+> [`PLAN.md`](PLAN.md) §5.A.
 
 Do not copy private chapter prose into this public tree. Log paths, claims, and paraphrase notes
 here. See [`../../REPO_LAYOUT.md`](../../REPO_LAYOUT.md).
@@ -133,8 +139,8 @@ If `dissertation/` is **absent** (as in a typical cloud agent checkout of `algor
 
 1. Do **not** invent dissertation contents.
 2. Build and edit the public baseline library from lab sources only.
-3. Leave this checklist open.
-4. Tell the user that construct freeze waits on a local dissertation pass.
+3. Leave this checklist open and keep drafting — the freeze does not wait on it.
+4. Tell the user that the genealogy pass is still owed and which claims would benefit from it.
 5. Optionally prepare a patch list of questions for the human reviewer to answer in the log above.
 
 If `dissertation/` **is** present:

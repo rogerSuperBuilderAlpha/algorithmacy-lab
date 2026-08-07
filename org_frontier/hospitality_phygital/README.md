@@ -45,14 +45,18 @@ construct, supporting **coordinative sovereignty** in the encounter.
 
 ## Status
 
-**Baseline library scaffolded.** Constructs, bridge, design principles, CFP alignment, literature
-seed, and manuscript outline are in place. Full drafting waits on (1) the local dissertation review
-documented in [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md) and (2) a literature deepening pass
-against hospitality and phygital sources.
+**Baseline library complete; drafting is the critical path.** Constructs, bridge, design principles,
+CFP alignment, verified literature core, and a word-budgeted outline are in place.
+`manuscript/manuscript.md` is still section stubs.
 
-Target: full manuscript for *Hospitality & Society* special-issue window
-**5 March – 4 September 2026**. APA Summit abstract portal closed earlier; this arm tracks the
-journal full-paper path.
+Target: full manuscript for the *Hospitality & Society* special-issue window
+**5 March – 4 September 2026** — **28 days out as of 2026-08-07**. The day-level schedule is
+[`PLAN.md`](PLAN.md) §6. Drafting runs against constructs frozen on the locked abstract; the
+dissertation genealogy pass is timeboxed and parallel rather than blocking. APA Summit abstract
+portal closed earlier; this arm tracks the journal full-paper path.
+
+Journal constraints that bind the draft: **5,000–8,000 words**, a ~150-word journal abstract
+distinct from the locked pitch, two external reviewers.
 
 ## Relation to the rest of the lab
 
