@@ -63,7 +63,13 @@ For the manuscript only:
 
 1. **First person plural is permitted and expected.** Two authors, so 'we'. Each use should mark a
    decision the authors are making — a claim, a departure, a limit — and not decorate a sentence.
-2. **Paragraphs target 120–200 words.** No three-sentence paragraphs except at transitions.
+2. **Paragraphs target 150–250 words, and the spread matters as much as the mean.** That is the range
+   both exemplars occupy, and the draft now sits at a mean of 173 and a median of 167 within it. Do
+   not enforce the band mechanically. A paragraph should run long where it carries several sources
+   through a single line of thought, and short where a section needs a closing beat or a conclusion
+   needs to be tight. Prose in which every paragraph lands near the mean reads as machine-made, and
+   neither exemplar reads that way. Three paragraphs in the current draft sit outside a 120–260 band
+   by design; the reasons are recorded below and a later pass should leave them alone.
 3. **Narrative citation is the default.** The cited author is the subject of the sentence wherever
    that author's argument is being engaged.
 4. **Measured evaluative language is permitted** where it states a judgement the authors will defend:
