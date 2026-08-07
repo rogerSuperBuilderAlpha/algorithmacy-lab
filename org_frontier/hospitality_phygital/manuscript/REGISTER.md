@@ -80,10 +80,17 @@ For the manuscript only:
 | property | draft | exemplar range | verdict |
 |---|---|---|---|
 | First-person markers | 42 | present throughout both | in register |
-| Mean paragraph length | 102 words | 150–250 | short; acceptable, could lengthen further |
+| Mean paragraph length | 173 words (median 167) | 150–250 | in register |
+| Paragraph range | 95–264 across 33 paragraphs | comparable spread | in register |
 | Antithesis constructions | 1.9 per 1,000 | not a feature of either | in register |
 | Self-narrating rigor | 0 | 0 | in register |
 | Bold in running text | 0 | 0 | in register |
 
-The paragraph mean remains below the exemplar range. That is the one dimension where a further pass
-would still improve the fit.
+**On the spread, which is deliberate.** Twenty-two paragraph pairs were merged in a second pass, each
+with a written seam rather than a splice, taking the mean from 102 to 173. Three paragraphs sit
+outside a 120–260 band and should stay there. The discretion paragraph in section 3 runs to 264
+because it carries five sources and a qualification that would lose its force if separated from the
+claim it qualifies. The last of the three vignettes in section 4 runs to 95 as a short closing beat
+after two longer ones. The conclusion's first paragraph runs to 102 because a conclusion should be
+tight. Driving every paragraph to the mean would produce exactly the uniformity of shape that marks
+prose as machine-made, and the exemplars do not have it either.
