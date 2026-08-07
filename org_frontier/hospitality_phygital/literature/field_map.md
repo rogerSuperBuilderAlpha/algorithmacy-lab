@@ -62,10 +62,15 @@ grounding rather than analogy.
 to; Lyon (2003) on sorting as differential access; Bowker and Star (1999), whose *torque* names the
 guest the category does not fit.
 
-**[gap] Algorithmic exclusion at the threshold, in hospitality.** Facial recognition and identity
-matching at check-in, reputation-mediated refusal, categorical exclusion as a hospitality failure
-rather than a false-positive rate. Edelman et al. (2017) is the anchor and the only guest-side
-hospitality study the library holds.
+**The threshold — stocked 2026-08-07.** Cui et al. (2020, *Management Science*): a single positive
+review closes the acceptance gap between guests with white-sounding and African-American-sounding
+names, so a reputation artefact administers negotiated access. Edelman et al. (2017) documents the
+gap it closes. Boo and Chua (2022, *IJCHM*) and Xu et al. (2020, *JHMM*) put the guest at
+facial-recognition check-in running a privacy calculus. Kim et al. (2021, *IJHM*) and Hou et al.
+(2021, *Tourism Management*) give human accessibility an empirical floor, with the preference
+conditional rather than fixed. Scott and Orlikowski (2012, *AOS*) show ratings reconfiguring
+accountability in the travel sector. Tussyadiah (2020, *Annals*) is the survey of the framing this
+paper argues past. See [`FOUNDATION.md`](FOUNDATION.md) Part 3.
 
 ## 4. Platform hospitality — who hosts, already contested
 

@@ -312,3 +312,101 @@ population study across the 4,096-form family. The manuscripts in `current/paper
 modified by a directory reorganization on 2026-07-28 and none of them names Paper 2's actual title.
 The spine appears to describe a superseded plan. Flagging only — this arm does not edit the
 dissertation repo.
+
+---
+
+# Part 3 — the guest-side acquisition (2026-08-07)
+
+Part 1 found the guest side thin; this pass went after it. Seven sources, all verified directly
+against Crossref. Six are new acquisitions; one (Scott and Orlikowski 2012) was sitting in the
+dissertation library under a heading the earlier sweep did not reach.
+
+## The anchor: a reputation artefact decides who is received
+
+**Cui, Li and Zhang (2020, *Management Science*)** ran field experiments on Airbnb and found that a
+guest with a single positive review closes the acceptance gap: applicants with African-American-
+sounding names and applicants with white-sounding names become statistically indistinguishable in
+acceptance once the guest account carries a review.
+
+Set beside Edelman et al. (2017), which documents the gap, this is the guest-side claim the paper has
+been missing. **Negotiated access — the criterion §2 takes from Lashley and Derrida — is now
+administered by an algorithmic artefact.** Whether a guest is received turns on a record the
+platform holds, which the guest did not author and cannot carry elsewhere. That is the host-side
+finding from Part 1 (non-portable reputation as engineered lock-in) running on the other party.
+
+**It also plants a problem the paper should name rather than dodge.** The platform's remedy for
+exclusion is *more* reputational data. It works, on the measure it was tested against. And it deepens
+the mediation, extends the record, and makes the unreviewed guest — the first-time traveller, the
+guest who declines to build a profile — the new excluded case. A paper arguing for guest agency has
+to say that the fix and the harm run through the same instrument. That tension belongs in §7, next to
+the seamlessness argument, because it is the same shape: the smoothing is real and it costs
+something.
+
+## Human accessibility now has an empirical floor, in hospitality journals
+
+**Kim et al. (2021, *IJHM*)** and **Hou, Zhang and Li (2021, *Tourism Management*)** both bear on the
+fourth affordance. Guests are broadly positive toward service robots and still prefer human staff,
+and the preference sharpens where emotional dimensions and service failure are involved — precisely
+the exception-handling case `design_principles.md` names.
+
+Hou et al. add the qualification that keeps the paper honest: the preference is **conditional on the
+situation**, shifting with social crowding, not a fixed human-touch constant. Cite them together.
+Kim et al. alone would let a reviewer read the paper as nostalgia for the human; Hou et al. make it a
+claim about when mediation substitutes badly, which is the claim the paper actually wants.
+
+## The threshold, and the frame the paper argues past
+
+**Boo and Chua (2022, *IJCHM*)** and **Xu et al. (2020, *JHMM*)** study facial-recognition check-in
+from the guest's side. Both find guests running a calculative trade-off — privacy concern, perceived
+risk, institutional trust, perceived benefit — before accepting biometric identification at the door.
+
+They serve two purposes at once, and the second is the more valuable.
+
+As **evidence**, they put the guest at the threshold with something to decide, which is where §3 wants
+them. As a **foil**, they show what the field does with that moment: it models adoption intention. The
+guest appears as a consumer deciding whether to accept a technology, and the question of what the
+technology does to hosting never arises. **Tussyadiah (2020, *Annals of Tourism Research*)**, the
+curated-collection review of automation research in tourism, is the authoritative statement of that
+framing and the right single citation when the introduction names it.
+
+This is the paper's opening, sharpened. The abstract says it wants to relocate AI "from a neutral
+service tool to a constitutive mediator." Part 3 identifies the specific literature that holds the
+first position, in the target journal's own field, with its own instruments. Naming an adoption-
+intention literature and arguing past it is a much stronger opening move than asserting that a
+framing exists.
+
+## The triad, observed in the travel sector
+
+**Scott and Orlikowski (2012, *Accounting, Organizations and Society*)** studied how online rating
+systems reconfigured accountability relations in travel: establishments reorienting conduct toward a
+ranking, a continuous answerability displacing older channels, and the reconfiguration being material
+and device-specific rather than a general effect of "social media."
+
+For this paper it is the triad observed in its own sector by a first-rank organizational study, and
+it supplies §3 with an empirical anchor that is neither an Airbnb study nor a platform-labour import.
+
+## What the pass changes in the argument
+
+The guest side no longer rests on Edelman alone. It now carries: who gets received (Cui et al.,
+Edelman et al.), what happens at the threshold (Boo and Chua, Xu et al.), when a human is wanted
+(Kim et al., Hou et al.), how accountability moves (Scott and Orlikowski), and how the field frames
+all of it (Tussyadiah).
+
+The asymmetry from Part 1 finding 2 has narrowed but not closed. The host-side evidence still shows
+*structure* — enrollment, standing withheld, reputation locked in — while the guest-side evidence
+shows *attitudes and outcomes*: acceptance intentions, preferences, acceptance rates. Cui et al. is
+the exception and the reason it anchors this section. The paper should therefore keep arguing the
+structure from the host side and use the guest-side sources for what they are good for: showing that
+the guest is deciding, being sorted, and preferring a human, at the exact points the framework
+predicts.
+
+## Still open after this pass
+
+- **Hospitality-specific algorithmic management** — hotel PMS, revenue-management opacity,
+  algorithmic scheduling. Unchanged from Part 1; the employee half still argues by analogy.
+- **Hospitality's own theorizing line** — host–guest power and cultural scripts of welcome. Lashley
+  and Derrida are seeded; the density §2 needs is not there yet.
+- **Personalization and privacy in hotels.** Searched and deliberately not stocked. What surfaced sat
+  in venues this paper should not cite, and the strong version of the argument is already carried by
+  Yeung (2017) on hypernudge plus the classification cluster. Revisit only if §6 needs a
+  hospitality-native personalization citation.

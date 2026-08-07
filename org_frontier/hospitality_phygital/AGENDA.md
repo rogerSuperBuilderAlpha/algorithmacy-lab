@@ -39,9 +39,10 @@ Schedule lives in [`PLAN.md`](PLAN.md) §6; this file tracks what must be decide
 9. **[part-closed 2026-08-07]** Field-map gaps. Platform hospitality and algorithmic management are
    now stocked from the dissertation library. Still open: hospitality's own theorizing line
    (host–guest power, cultural scripts of welcome); hospitality-specific algorithmic management
-   (hotel PMS, revenue management, scheduling); algorithmic exclusion at the threshold; and
-   **guest-side evidence**, which the library barely holds — see
-   [`literature/FOUNDATION.md`](literature/FOUNDATION.md).
+   (hotel PMS, revenue management, scheduling). **Guest side and the threshold closed 2026-08-07** —
+   seven Crossref-verified sources, see [`literature/FOUNDATION.md`](literature/FOUNDATION.md)
+   Part 3. Hospitality-native personalization searched and deliberately not stocked; the venues that
+   surfaced are not ones this paper should cite.
 10. **[open]** Check overlap and difference with PH-CX / PSR so the paper complements Batat rather
     than restating experience design — and keep PH-CX, the phygital research paradigm, and PSR
     named as the three separate things they are.

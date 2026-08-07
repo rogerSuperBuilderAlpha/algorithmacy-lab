@@ -44,6 +44,10 @@ it is not earning its keep and should become a citation to
 - Algorithms already perform hosting functions
 - Research question: how mediation reconfigures guest–employee–organization relations, and when it
   enhances rather than diminishes relational hospitality
+- **Name the framing being argued past, with its literature.** Tussyadiah (2020, *Annals*) surveys
+  automation research in tourism; Boo and Chua (2022) and Xu et al. (2020) model whether guests will
+  accept biometric check-in. The field asks whether guests adopt the mediation. This paper asks what
+  the mediation does to hosting
 - Contribution preview: triad; augmentative vs substitutive; hospitality algorithmacy;
   coordinative sovereignty; five affordances; seamlessness critique
 
@@ -51,6 +55,9 @@ it is not earning its keep and should become a citation to
 
 - Anchor in hospitality social science: the *Hospitality & Society* theorizing line
   (Lynch et al. 2021), Lashley's three domains, Derrida on conditional and unconditional welcome
+- **Negotiated access is now administered by an artefact.** Cui et al. (2020) — one positive review
+  closes the acceptance gap between guests with white-sounding and African-American-sounding names.
+  The condition on conditional hospitality has become a record the guest did not author
 - Distinguish service efficiency from hosting as recognition and negotiated access
 - Why "guest-centric" cannot mean only preference prediction
 - Platform hospitality already unsettled who hosts: Cheng and Foley (2019) name hosting as
@@ -65,6 +72,8 @@ it is not earning its keep and should become a citation to
 - Hosting functions algorithms take on
 - Redistribution of knowledge, discretion, authority
 - Dual potential: responsiveness/inclusion vs depersonalization/surveillance/exclusion/dependence
+- Scott and Orlikowski (2012) as the triad observed in the travel sector: a rating apparatus
+  materializing a new accountability relation, conduct reorganized around the ranking
 - Frontline discretion under algorithmic direction as the employee half: Rahman (2021) on control
   through opaque measurement rather than command, Christin (2017) on categories of judgement
   relocated into a vendor's model, Lipsky (1980) for what discretion was before
@@ -106,7 +115,9 @@ it is not earning its keep and should become a citation to
   predictability, and common understanding; the affordances are what answers each, with
   bypass-ability as the exit case. The derivation also says which a hotel can discharge by training
   and which require organizational design — the managerial implication, stated as a principle
-- Transparency, adjustability, contestability, human accessibility, bypass-ability
+- Transparency, adjustability, contestability, human accessibility, bypass-ability. Human
+  accessibility has an empirical floor: Kim et al. (2021) and Hou et al. (2021) — guests prefer human
+  staff for emotional dimensions and service failure, **conditionally**, not as a constant
 - **Cite the published nulls, do not walk into them.** Ananny and Crawford (2018): disclosure
   supplies visibility and leaves the forum absent. Vaccaro et al. (2020): an internal appeal tested
   against a no-appeal baseline produced no lift in perceived accountability. Edwards and Veale
@@ -129,6 +140,9 @@ it is not earning its keep and should become a citation to
 - Star and Ruhleder (1996): infrastructure becomes effective as it sinks out of sight, which is the
   seamlessness ideal stated as a theory of power
 - Seams as resources for action, not defects (Chalmers and Galani 2004)
+- **The remedy runs through the same instrument as the harm.** Cui et al. (2020) show more
+  reputational data reducing discrimination — and deepening the mediation, extending the record, and
+  making the unreviewed guest the new excluded case. Say this rather than dodge it
 - Cultural and exception-handling costs when norms are algorithmically fitted — *torque*
   (Bowker and Star 1999) names the guest the category does not fit
 - Hospitality may require productive friction
