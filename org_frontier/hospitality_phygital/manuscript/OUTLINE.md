@@ -1,26 +1,31 @@
 # Manuscript outline
 
-Target: **7,600 words of body prose**, against the journal's 5,000–8,000 ceiling (Intellect *H&S*
-Notes for Contributors, `HOSP_NFC_May_26.pdf`). The 400-word gap to the ceiling is deliberate
-headroom for reviewer-requested additions. Structure follows the locked abstract's arc.
+Target: **6,800 words of body prose.** The Notes for Contributors were read on 2026-08-07 and the
+earlier budget was wrong. The limit is **6,000–9,000 words including notes, references, contributor
+biography, keywords and abstract** — inclusive, not body-only, and not the 5,000–8,000 the journal's
+web page states. Full ruling and the component budget: [`JOURNAL_SPEC.md`](JOURNAL_SPEC.md).
+
+At ~60 references in Intellect Harvard (~1,620 words), plus abstract, keywords, two biographies and
+the AI acknowledgment, a 6,800-word body lands near 8,900 — about 90 words under the ceiling. **Every
+reference added costs roughly 27 words of body.** Structure follows the locked abstract's arc.
 
 ## Word budget
 
 | section | words | why this share |
 |---|---|---|
-| 1. Introduction | 850 | Problem, question, contribution preview |
-| 2. Hospitality beyond seamless service | 950 | The journal's native ground; earns the right to critique |
-| 3. Phygital hospitality as triadic mediation | 1,050 | The core theoretical move |
-| 4. Augmentative and substitutive hospitality | 1,150 | The paper's outcome distinction plus the diagnostic |
-| 5. Hospitality algorithmacy and coordinative sovereignty | 850 | Two imported constructs, one pass, no re-explanation |
-| 6. Five affordances of guest-centric phygital design | 1,250 | Where the design contribution lands |
-| 7. Against frictionless hospitality | 650 | Sharp, not sprawling |
-| 8. Discussion and contributions | 650 | Contribution, limits, future work |
-| 9. Conclusion | 200 | One move, then stop |
-| **total** | **7,600** | |
+| 1. Introduction | 750 | Problem, question, contribution preview |
+| 2. Hospitality beyond seamless service | 850 | The journal's native ground; earns the right to critique |
+| 3. Phygital hospitality as triadic mediation | 950 | The core theoretical move |
+| 4. Augmentative and substitutive hospitality | 1,100 | The outcome distinction plus the diagnostic — protected from cuts |
+| 5. Hospitality algorithmacy and coordinative sovereignty | 750 | Two constructs, one pass, argued from published work |
+| 6. Five affordances of guest-centric phygital design | 1,150 | Where the design contribution lands — protected from cuts |
+| 7. Against frictionless hospitality | 600 | Sharp, not sprawling |
+| 8. Discussion and contributions | 500 | Contribution, limits, future work |
+| 9. Conclusion | 150 | One move, then stop |
+| **total** | **6,800** | |
 
-References are assumed excluded from the count; confirm against the Notes for Contributors before
-the final cut.
+**References are inside the count.** §4 and §6 are protected: an over-running section borrows from
+§1, §3, or §8, never from those two and never from the headroom.
 
 **Construct discipline.** The paper names six things: the triad, augmentative hospitality,
 substitutive hospitality, hospitality algorithmacy, coordinative sovereignty, and the five
@@ -34,10 +39,13 @@ it is not earning its keep and should become a citation to
 - Title: Who Hosts the Guest? Algorithmic Mediation, Guest Agency, and the Reconfiguration of
   Hospitality in Phygital Spaces
 - Pitch abstract (~700 words): [`../ABSTRACT.md`](../ABSTRACT.md)
-- **Submission abstract (~150 words) + keywords: still to write.** The locked pitch is not the
-  journal abstract.
+- **Submission abstract (100–200 words) + exactly six keywords: still to write.** The locked pitch is
+  not the journal abstract.
+- Also mandatory and not yet written, per [`JOURNAL_SPEC.md`](JOURNAL_SPEC.md): a 100–150-word
+  **Statement of Contribution** (anonymised), **Highlights** (3–5 bullets, ≤85 characters each, own
+  file), contributor biographies, and the **AI acknowledgment** section placed before the References.
 
-## 1. Introduction — 850 words
+## 1. Introduction — 750 words
 
 - Phygital tools framed as seamless / personalized / guest-centric
 - Hospitality as relational practice (welcome, recognition, care, presence, negotiated access)
@@ -51,7 +59,7 @@ it is not earning its keep and should become a citation to
 - Contribution preview: triad; augmentative vs substitutive; hospitality algorithmacy;
   coordinative sovereignty; five affordances; seamlessness critique
 
-## 2. Hospitality beyond seamless service — 950 words
+## 2. Hospitality beyond seamless service — 850 words
 
 - Anchor in hospitality social science: the *Hospitality & Society* theorizing line
   (Lynch et al. 2021), Lashley's three domains, Derrida on conditional and unconditional welcome
@@ -65,7 +73,7 @@ it is not earning its keep and should become a citation to
   without seating them; Liang et al. (2017) measure why hosts chase it. This paper generalizes —
   platform stays are the visible case, branded properties the same structure less legibly
 
-## 3. Phygital hospitality as triadic mediation — 1,050 words
+## 3. Phygital hospitality as triadic mediation — 950 words
 
 - PH-CX / PSR as setting (Batat 2024; Batat 2026), then move to mediation
 - Guest–algorithm–host triad
@@ -78,7 +86,7 @@ it is not earning its keep and should become a citation to
   through opaque measurement rather than command, Christin (2017) on categories of judgement
   relocated into a vendor's model, Lipsky (1980) for what discretion was before
 
-## 4. Augmentative and substitutive hospitality — 1,150 words
+## 4. Augmentative and substitutive hospitality — 1,100 words
 
 - Definitions ([`../CONSTRUCTS.md`](../CONSTRUCTS.md))
 - **State the poles as a condition on an arrangement, not as a mood.** Substitutive hospitality is
@@ -92,7 +100,7 @@ it is not earning its keep and should become a citation to
   against "interesting but unfalsifiable"
 - Ordinary vignettes (check-in, assignment, concierge, recovery) — illustrative, not case claims
 
-## 5. Hospitality algorithmacy and coordinative sovereignty — 850 words
+## 5. Hospitality algorithmacy and coordinative sovereignty — 750 words
 
 - Literacy insufficient inside a binding triad
 - Hospitality algorithmacy as situated competence (guest and employee) — **already observed**:
@@ -109,7 +117,7 @@ it is not earning its keep and should become a citation to
 - Link to bypass vs voice when mediation is contingent vs effectively necessary
 - One pass. Cite the sovereignty arm for the full apparatus rather than rehearsing it
 
-## 6. Five affordances of guest-centric phygital design — 1,250 words
+## 6. Five affordances of guest-centric phygital design — 1,150 words
 
 - **Derive the five, do not list them.** Any coordinating mechanism owes its parties accountability,
   predictability, and common understanding; the affordances are what answers each, with
@@ -131,7 +139,7 @@ it is not earning its keep and should become a citation to
 - Organizational implications without vendor checklist tone
 - Detail: [`../design_principles.md`](../design_principles.md)
 
-## 7. Against frictionless hospitality — 650 words
+## 7. Against frictionless hospitality — 600 words
 
 - **Lead on Folger (1977):** voice reduces experienced injustice independently of outcome
   improvement. A frictionless encounter that produces good outcomes while removing the surface on
@@ -147,7 +155,7 @@ it is not earning its keep and should become a citation to
   (Bowker and Star 1999) names the guest the category does not fit
 - Hospitality may require productive friction
 
-## 8. Discussion and contributions — 650 words
+## 8. Discussion and contributions — 500 words
 
 - AI as constitutive mediator of hospitality relationships, meanings, and power
 - Theory contribution to hospitality and phygital scholarship
@@ -155,7 +163,7 @@ it is not earning its keep and should become a citation to
 - Limits: conceptual paper; lab formal results are model priors only
 - Future research: qualitative and survey arms parked on [`../AGENDA.md`](../AGENDA.md)
 
-## 9. Conclusion — 200 words
+## 9. Conclusion — 150 words
 
 - Guest-centric phygital hospitality depends on agency over how technology participates in hosting,
   not on making technology invisible

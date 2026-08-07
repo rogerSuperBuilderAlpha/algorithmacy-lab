@@ -25,17 +25,28 @@ guest experience. Secondary audience: the algorithmacy lab (construct reuse with
 
 ## 2. Journal constraints (binding on the draft)
 
-| constraint | value | source |
-|---|---|---|
-| Article length | **5,000–8,000 words**, longer only in exceptional cases | Intellect *H&S* Notes for Contributors (`HOSP_NFC_May_26.pdf`) |
-| Abstract | short journal abstract (~150 words) + keywords | Notes for Contributors |
-| Review | two external reviewers | journal page |
-| Submission system | Callisto (link in [`cfp/`](cfp/)) | CFP |
+**The Notes for Contributors were read on 2026-08-07. The web page's "5-8000 words" is wrong.**
+Full extraction: [`manuscript/JOURNAL_SPEC.md`](manuscript/JOURNAL_SPEC.md), which is the authority
+for format.
 
-Two consequences the outline must absorb: the 8,000-word ceiling makes the nine-section
-architecture roughly 800 words per section, and the locked ~700-word abstract in
-[`ABSTRACT.md`](ABSTRACT.md) is a pitch, not a submission abstract. A compressed abstract is its
-own deliverable.
+| constraint | value |
+|---|---|
+| Article length | **6,000–9,000 words including notes, references, contributor biography, keywords and abstract** |
+| Ruled body budget | **6,800 words**, leaving ~1,620 for references and ~490 for the other required components |
+| Abstract | 100–200 words |
+| Keywords | exactly six, one or two words each |
+| Referencing | **Intellect Harvard** — `(Bordwell 1989: 9)`; volume:number with a colon, `pp.` before extents, commas not full stops |
+| Language | British English, **'ize'** endings |
+| File | Word, Times New Roman 12 pt |
+| Anonymity | strict, both directions; two referees |
+| Also mandatory | Statement of Contribution (100–150 words, anonymised); **Highlights** (3–5 bullets, ≤85 characters, separate file); contributor biographies; **AI acknowledgment section** before the References |
+| Submission system | Callisto (link in [`cfp/`](cfp/)) |
+
+Three consequences. References sit **inside** the count, so every source added costs about 27 words
+of body — the bibliography is now a budget line, not a free annex. The locked ~700-word abstract in
+[`ABSTRACT.md`](ABSTRACT.md) is a pitch, and a 100–200-word journal abstract is a separate
+deliverable. And the `.bib` file, stored in an APA-ish shape, must be rendered into Intellect Harvard
+by hand.
 
 ## 3. Deliverables
 
