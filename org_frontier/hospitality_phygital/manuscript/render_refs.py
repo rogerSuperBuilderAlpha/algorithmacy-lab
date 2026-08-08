@@ -109,7 +109,8 @@ def main():
     args = ap.parse_args()
 
     entries = parse_bib(BIB.read_text(encoding="utf-8"))
-    keys = [k.strip() for k in Path(args.cited).read_text().split() if k.strip()]
+    keys = [l.strip() for l in Path(args.cited).read_text().splitlines()
+            if l.strip() and not l.lstrip().startswith("#")]
 
     missing = [k for k in keys if k not in entries]
     if missing:

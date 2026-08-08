@@ -410,3 +410,99 @@ predicts.
   in venues this paper should not cite, and the strong version of the argument is already carried by
   Yeung (2017) on hypernudge plus the classification cluster. Revisit only if §6 needs a
   hospitality-native personalization citation.
+
+---
+
+# Part 4 — research round 2, recorded late (2026-08-08)
+
+Written retrospectively. Round 2 ran P1, P2 and P6 from
+[`RESEARCH_PROMPTS.md`](RESEARCH_PROMPTS.md) and added five sources, but no FOUNDATION part was
+written at the time, so for several weeks the only record of why those sources were held was a
+one-line note in the bibliography. The arm's own output convention requires a part per run; this
+repairs the omission rather than pretending it did not happen.
+
+**P1, hospitality's theorizing line.** Added Hemmington (2007) on hospitality businesses misdescribed
+as service operations, Lugosi (2008) on hospitable moments as emergent and partly unscripted, and
+Lynch et al. (2021b), the reprise companion to the decade review. Together with Lashley and the
+Derrida distinction already held, this closed the section 2 density gap. `field_map.md` still marked
+that gap open until this pass.
+
+**P2, algorithmic management inside hotels.** Added Jianu, Ashton and Lugosi (2025) in *IJHM* — a
+Delphi study of frontline managers in algorithmically managed hotels, co-authored by a scholar the
+CFP itself cites. This is the acquisition that let the employee half of the argument stop reasoning by
+analogy from ride-hail and freelancing. It is also why Christin and Möhlmann became affordable cuts.
+
+**Also added:** Munasinghe et al. (2022), which matters less as evidence than as a warning. Hospitality
+already has a triadic conceptualisation of the host-guest encounter, and a paper proposing a triad
+without distinguishing itself from that one invites the charge of reinventing an existing framework.
+
+**Not run:** P3, P4, P5, P7 and P8. P7's question — which of the abstract's seven outcome variables
+can be responsibly claimed — was eventually answered by the editor revision rather than by a research
+run, and the answer was to state them as proposed rather than established relationships.
+
+# Part 5 — the deep-research audit (2026-08-08)
+
+Five parallel audits across Consensus, Scholar Gateway and Crossref, one per concept cluster, each
+asked to recommend only swaps: an addition had to name what it displaced. The manuscript was at 8,936
+words against a 9,000 ceiling, so nothing could simply be added.
+
+## The finding that matters
+
+**Germann Molz (2026), 'Guests without hosts: On the digital biopolitics of network hospitality',
+*Hospitality & Society* 16:1, pp. 63–82.** Reads Airbnb as an inhospitable institutional and
+algorithmic governance form constraining hosts and guests in extractive relations.
+
+Three facts make it unavoidable. It is in the target journal's current volume. Its sole author is a
+co-editor of that journal, and a co-author of both the 2011 founding statement and the 2021 reprise
+this paper cites. And its title is close to the inverse of ours.
+
+Section 1 currently claims the hospitality and phygital literatures "have not been brought into
+contact at the point where it matters most". She brought them into contact, in this journal, before
+submission. The claim is exposed until the paper engages her. The distinction is real and statable —
+her account is biopolitical and diagnostic, ours is a coordination account with a checkable condition
+and derived affordances — but the paper must state it, generously and early, or a reviewer will state
+it less kindly. Carded as `must-engage`; the displacement is not yet chosen.
+
+## Recommended swaps, all open
+
+Each is carded as `rejected` with its displacement argument, so the reasoning survives whether or not
+the swap is made. In rough order of value: Bovens (2007), the definitional source for accountability
+as a forum relation, which the paper currently uses second-hand through Ananny and Crawford; Martin
+and Waldman (2022), the positive contestability finding section 6 lacks; Wilson-Nash et al. (2025) on
+digital technology captivity, which names the bypass argument as a construct and covers accessibility;
+Spektor et al. (2023, DIS) on unionized guest room attendants under algorithmic room assignment; Buell
+and Norton (2011) on operational transparency, which would give section 7 an experimental warrant;
+Mele and Russo-Spena (2021) on systems of insight and engagement, the closest published antecedent to
+the dual-place process; Garland-Thomson (2011) on misfitting, the embodied twin of torque; Ye et al.
+(2023) on guests being rated; Papadopoulos et al. (2021) on hotel workers' access to grievance
+channels; Buhalis et al. (2020) on value co-destruction; and Ehsan et al. (2024), which would
+modernize a 2004 interaction-design anchor.
+
+## Confirmations, which are findings too
+
+The audits certified a dozen current holdings as best-in-class with nothing better available:
+Okhuysen and Bechky on the integrating conditions, Henkens on contingent well-being effects, Kim and
+Hou on human contact, Belanche on responsibility attribution, Lv on information autonomy, Folger on
+voice, and the Cheney-Lippold with Fourcade and Healy pairing on classification. Nobody has revised
+the integrating conditions since 2009. And nobody has published the anti-seamlessness argument in a
+hospitality venue — it exists fully formed only in trade press, which strengthens the paper's position
+rather than threatening it.
+
+One cite-check rather than a swap: Nam and Heo (2025) in *IJCHM* is the nearest prior art in a
+hospitality journal. It does not make our argument, but the paper should not claim the field's silence
+too loudly without acknowledging that a critical reflection on "smartness" exists.
+
+## On the American Phygital Association
+
+The editor asked for citations to APA research. There is no citable APA publication series: the
+*Phygital Business Review* carries no ISSN, no DOIs and no indexing, and no proceedings volume exists
+for the Paris summits. APA research reaches print through summit-linked special issues in
+*Journal of Macromarketing* and *Journal of Services Marketing*, which is what the paper cites. See
+[`../library/VENUE_RULINGS.md`](../library/VENUE_RULINGS.md).
+
+## Two defects the audit surfaced in the manuscript itself
+
+Both predate the audit and both had survived every prior read. Morrison (2014) was cited in section 5
+with no entry in the reference list. And the two Lynch 2021 works rendered identically as "(2021)"
+while the text cited 2021a and 2021b. Both were repaired on 8 August, and both are the kind of thing
+the library's citedness reconciliation now catches automatically.

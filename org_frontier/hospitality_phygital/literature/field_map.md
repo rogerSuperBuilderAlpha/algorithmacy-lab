@@ -3,11 +3,14 @@
 Four clusters. The paper's contribution sits at their intersection: hospitality as relational
 practice × phygital experience design × algorithmic mediation × agency/sovereignty under mediation.
 
-**State (2026-08-07, after the dissertation-library pass — see [`FOUNDATION.md`](FOUNDATION.md)).**
-The library pass closed the platform-hospitality and algorithmic-management gaps and stocked the
-folk-theory, contestability, classification, and infrastructure clusters. Remaining gaps are marked
-**[gap]** below. Verification runs in two tiers (`verified` / `inherited`); nothing enters the
-manuscript on `inherited` alone.
+**State lives in [`../library/CARDS_INDEX.md`](../library/CARDS_INDEX.md), not here.** Cluster
+membership, counts, read depth and open debts are computed from card frontmatter on every build, so
+they cannot drift. This file keeps only what a generated index cannot write: what each cluster is
+*for* in the argument, and the naming rulings that took judgement to reach.
+
+That division exists because the previous arrangement failed. This file carried gap and stocked
+labels by hand, two research rounds skipped the update step, and it went on advertising gaps that
+later acquisitions had already closed.
 
 ## 1. Hospitality theory (relational / socio-cultural)
 
@@ -17,10 +20,6 @@ presence, negotiated access; supply the journal's native vocabulary.
 **Verified anchors:** Lynch et al. (2021), the journal's own ten-year theorizing audit;
 Lugosi (2021); Lashley (2000) on the commercial / private / social domains;
 Derrida and Dufourmantelle (2000) on conditional vs unconditional hospitality.
-
-**[gap]** Host–guest power and cultural scripts of welcome. Two seed anchors handed over by the CFP
-are not enough density for this journal — the section that grounds the paper in hospitality social
-science is also the section a domain reviewer reads first.
 
 ## 2. Phygital hospitality and service research
 
@@ -47,44 +46,11 @@ acceptance problem; open space for constitutive mediation.
 **Verified anchors:** Wirtz et al. (2023) on digital service technologies, robots, and
 cost-effective service excellence — the efficiency framing the paper argues past.
 
-**Algorithmic management — stocked.** Möhlmann et al. (2021), Rahman (2021) on control through
-opaque measurement rather than command, Christin (2017) on judgement relocated from practitioner
-discretion into a vendor's model, and Lipsky (1980), which the dissertation ruled orthogonal and
-which applies natively to a hotel's frontline employee.
-
-**[gap] Hospitality-specific algorithmic management.** The evidence above comes from ride-hail,
-freelancing, journalism, and short-term rental. Hotel PMS, revenue-management opacity, and
-algorithmic scheduling still need their own sources before the employee half claims hospitality
-grounding rather than analogy.
-
-**Classification — stocked.** Fourcade and Healy (2013) on classification situations; Cheney-Lippold
-(2011) on the inferred, continuously recomputed category that leaves no stable standard to appeal
-to; Lyon (2003) on sorting as differential access; Bowker and Star (1999), whose *torque* names the
-guest the category does not fit.
-
-**The threshold — stocked 2026-08-07.** Cui et al. (2020, *Management Science*): a single positive
-review closes the acceptance gap between guests with white-sounding and African-American-sounding
-names, so a reputation artefact administers negotiated access. Edelman et al. (2017) documents the
-gap it closes. Boo and Chua (2022, *IJCHM*) and Xu et al. (2020, *JHMM*) put the guest at
-facial-recognition check-in running a privacy calculus. Kim et al. (2021, *IJHM*) and Hou et al.
-(2021, *Tourism Management*) give human accessibility an empirical floor, with the preference
-conditional rather than fixed. Scott and Orlikowski (2012, *AOS*) show ratings reconfiguring
-accountability in the travel sector. Tussyadiah (2020, *Annals*) is the survey of the framing this
-paper argues past. See [`FOUNDATION.md`](FOUNDATION.md) Part 3.
-
 ## 4. Platform hospitality — who hosts, already contested
 
 **Job in the paper:** the literature that has already asked this paper's title question. Platform
 stays make the algorithm's hosting role unmissable: ratings govern access, the platform assigns the
 role of "host," and recognition is mediated by artefacts neither party controls.
-
-**Anchors — the gap is closed.** Eleven sources, several in hospitality venues: Cheng and Foley
-(2019, *IJHM*) naming hosting as algorithmically managed; Roelofsen and Minca (2018, *Geoforum*) on
-the Superhost badge as a device that grades without seating; Liang et al. (2017, *Tourism
-Management*) on why hosts chase it; Leick et al. (2024, *IJHM*) replicating rurally; Bosma (2022) on
-professionalization without standing; Ladegaard (2021) on offloaded risk; Zervas et al. (2021) and
-Teubner et al. (2019) on non-portable reputation as engineered lock-in; Spier (2024) on the platform
-as rule-writer; Ert et al. (2016); Edelman et al. (2017).
 
 The paper's move is to generalize: platform stays are the visible case; branded phygital properties
 are the same structure with the mediation less legible. Note the direction of the evidence — it
