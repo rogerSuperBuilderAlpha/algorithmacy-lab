@@ -1,6 +1,6 @@
 # Manuscript outline
 
-Target: **6,800 words of body prose.** The Notes for Contributors were read on 2026-08-07 and the
+Target: **6,832 words of body prose as revised.** The Notes for Contributors were read on 2026-08-07 and the
 earlier budget was wrong. The limit is **6,000–9,000 words including notes, references, contributor
 biography, keywords and abstract** — inclusive, not body-only, and not the 5,000–8,000 the journal's
 web page states. Full ruling and the component budget: [`JOURNAL_SPEC.md`](JOURNAL_SPEC.md).
