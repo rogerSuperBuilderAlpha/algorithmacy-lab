@@ -10,11 +10,11 @@ status: cited
 role: evidence
 used_by_sections: [2, 4]
 claims: [hospitality-not-outcomes, neutral-as-habitual-value]
-read_depth: abstract
+read_depth: full-text
 verified: verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (6,652 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 ---
 
@@ -26,11 +26,15 @@ thereby been received.
 
 ## Key facts / verified quotes with loci
 
-- Hospitable moments emerge in interaction rather than being produced to specification [abstract]
+- Distinguishes three forms: commercial transaction, hospitality as a means to social or political goals, and 'meta-hospitality: temporary states of being that are different from rational manifestations of hospitality' [full-text]
+- Meta-hospitality is tied to 'communitesque moments: short-lived emotional bonds that may be built or experienced through hospitality transactions' [full-text]
+- 'Hospitality transactions may fulfil basic physiological, economic, social or political needs, but hospitable interaction is an acknowledgement of the other' — the sentence the paper's outcomes claim rests on [full-text]
 - *Journal of Foodservice* 19:2, pp. 139-149 [metadata]
+
 
 ## Critical notes & threats
 
+- The full text is more specific than the card was: the emergence claim is carried by the *communitesque*, a Turnerian communitas derivative, not by a general appeal to spontaneity. The manuscript's use is sound but understates the theoretical apparatus behind it.
 - Does quiet double duty: it establishes that hospitality is not reducible to outcomes in section 2, and it supplies half the definition of the neutral well-being band in section 4.
 
 ## Where it enters the manuscript

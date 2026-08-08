@@ -10,11 +10,11 @@ status: rejected
 role: evidence
 used_by_sections: [6]
 claims: [affordances-derived]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
 verified_date: 2026-08-08
-source_basis: "Crossref-verified during the 8 August audit; abstract read. Not admitted to the bibliography."
-generated_run: 2026-08-08-audit-transcription
+source_basis: "Full text obtained 2026-08-08 via open access (10,625 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 rejected_reason: "Not admitted for want of words, and it competes with Wilson-Nash for the same bypass slot."
 ---
@@ -26,7 +26,11 @@ refusal as a positive well-being choice rather than risk aversion.
 
 ## Key facts / verified quotes with loci
 
-- Surfaced and verified by the 8 August deep-research audit (Consensus + Scholar Gateway + Crossref) [abstract]
+- Situates digital-free tourism against 'technology overuse - and related mental health and addiction issues' spilling into tourism [full-text]
+- Records the commercial forms the phenomenon has taken: '"digital-free" cafes and restaurants, "technology dead zones", disconnected holidays, and digital detox programs' [full-text]
+- Exploratory motivational study, so it establishes the phenomenon rather than measuring an effect [full-text]
+- *Tourism Management* 78, article 104098 [metadata]
+
 
 ## Critical notes & threats
 

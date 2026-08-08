@@ -10,11 +10,11 @@ status: held
 role: evidence
 used_by_sections: [2]
 claims: [platform-unsettled-hosting]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (9,717 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 hold_rationale: "Cut in the editor revision alongside Leick, for the same reason."
 ---
@@ -26,7 +26,11 @@ gaining no claim on how the platform is governed.
 
 ## Key facts / verified quotes with loci
 
-- Held in the bibliography, not cited in the manuscript [metadata]
+- Conceptualizes professionalization 'as a distinct platform logic that creates and maintains unequal power' rather than as a status hosts attain [full-text]
+- The logic 'benefits Airbnb and hosts who are able to take part, while reinforcing existing inequalities' [full-text]
+- Method is qualitative fieldwork in Berlin following three hosts, against a literature dominated by scraped quantitative data [full-text]
+- *Environment and Planning A: Economy and Space* 54:4, pp. 595-610 [metadata]
+
 
 ## Critical notes & threats
 
