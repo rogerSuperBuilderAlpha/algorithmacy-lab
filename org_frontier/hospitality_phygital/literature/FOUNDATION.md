@@ -652,3 +652,63 @@ existed a day earlier it would have caught the moment the reference list and the
 The quotation audit cannot be a CI gate, because it needs the retrieved full texts and those do not
 belong in the repository. It lives with the acquisition scripts and should be re-run by hand
 whenever a full-text card gains a quotation.
+
+# Part 8 — going after Folger (1977), and what turned up instead (2026-08-08)
+
+The priority read-depth debt was `folger1977voice`, because section 7 rests on it more heavily than
+on any other single source. The full text was not obtained. Something more useful was.
+
+## The retrieval attempt, for the record
+
+Closed in Unpaywall, OpenAlex, Semantic Scholar, CORE, OpenAIRE and the Internet Archive. APA PsycNet
+serves WebFetch a loading shell and nothing else. `scholar.archive.org` and the fatcat API sit behind
+a session-verification interstitial. ERIC's coverage of *JPSP* begins after 1977. Academia.edu and
+ResearchGate hold pages for the article but return 403 and offer no full text. What the search did
+confirm: volume, issue and page extent are 35:2, pp. 108-119, and OpenAlex counts 1,019 citations.
+
+## The manuscript's claim does not match the finding
+
+Section 7 says Folger found that voice reduced experienced injustice **independently of whether the
+outcome improved**. Independence is exactly what the study does not report.
+
+The design crossed three factors — outcome (equity or inequity), procedure (voice or mute) and
+payment sequence (constant or improve) — with sixth-grade boys sorting cards across ten work periods
+for a manager who divided the reward. On the **procedural** fairness measure, voice workers were more
+satisfied with the allocation process than mute workers. On the **outcome** fairness measure there is
+an interaction, and in the improve condition the direction reverses: a pay sequence that improved
+after voice was rated *less* fair than the same improving sequence without voice, while a constant
+sequence was rated *more* fair with voice than without. These tendencies appeared chiefly in the
+inequity conditions. This is the seed of what the later literature calls the frustration effect, and
+of Folger's own Referent Cognitions Theory.
+
+**Provenance, stated so nobody has to guess.** That correction is not full-text verified. It rests on
+two independent searches returning consistent, detailed, abstract-shaped statements of design and
+results, corroborated by Folger, Rosenfield, Grove and Corkran (1979), where the fair process effect
+is explicitly conditional on what the subject knows about a co-worker's opinion. Under this arm's own
+standing rule — search summaries are leads, never sources — that is enough to stop asserting the
+current sentence and not enough to publish a replacement.
+
+## Why this improves the paper
+
+The underlying point survives and sharpens. What the paper needs from Folger is that voice matters
+beyond outcome quality: an encounter can deliver good outcomes efficiently and still withhold
+something whose absence costs. Independence would have made voice and outcome separable and additive.
+The interaction says something stronger and more useful — an improved outcome does not absorb or
+substitute for voice, because voice restructures how the outcome is subsequently judged, while
+process satisfaction runs on its own measure. Seamlessness that delivers the right result without
+the surface on which anything could be said is not thereby neutral.
+
+A draft replacement is recorded on the card, to be confirmed against the full text rather than
+trusted.
+
+## What this cost, and what it is worth
+
+Three research rounds and a full-text audit all passed over this citation. The library caught it only
+because clearing the read-depth debt forced someone to ask what the paper actually reports rather
+than what it is routinely cited for. The routine citation is the trap: most of the literature invokes
+Folger (1977) for a plain fair-process effect, and a paper can inherit that reading without ever
+touching the article.
+
+`claim-contradicted` is now a flag in the schema, and it prints at the top of the index with the
+loudest text in the file. Sections 7's sentence must not go to Bentley's submission portal in its
+current form.
