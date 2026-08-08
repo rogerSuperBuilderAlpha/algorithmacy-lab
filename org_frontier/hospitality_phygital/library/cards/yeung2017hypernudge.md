@@ -10,11 +10,11 @@ status: cited
 role: evidence
 used_by_sections: [6]
 claims: [affordances-derived]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (9,822 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 ---
 
@@ -26,8 +26,11 @@ free.
 
 ## Key facts / verified quotes with loci
 
-- Hypernudge as dynamic, personalized choice architecture [abstract]
+- Defines the term: 'Big Data driven nudging is therefore nimble, unobtrusive and highly potent, providing the data subject with a highly personalised choice environment - hence I refer to these techniques as "hypernudge"' [full-text]
+- Frames Big Data as 'a mode of "design-based" regulation' rather than as an analytic technique [full-text]
+- Distinguishes the hypernudge from coercive choice architecture, and asks whether rearranging an informational choice architecture is an interference at all — the question the paper's affordances answer institutionally [full-text]
 - *Information, Communication & Society* 20:1, pp. 118-136 [metadata]
+
 
 ## Critical notes & threats
 

@@ -137,7 +137,8 @@ triads now exist. Munasinghe et al. (2022) theorize the host–guest encounter w
 and cultural context as a third element. Van Doorn et al. (2023) propose the consumer–autonomous
 technology–worker framework, arguing that relations between consumer and worker strengthen where the
 technology augments the worker instead of replacing him. Zheng et al. (2025) set out a phygital
-tourism experience triad of physical, digital and social elements. Our debt to this work is real, and
+tourism experience triad aligning embodied action, technological affordance and spatial
+configuration. Our debt to this work is real, and
 one contrast distinguishes our object from all three of them. In each case the third element shapes,
 conditions or participates in an encounter that remains fundamentally between the other two. Our
 third element is a party: it decides, and its decisions bind. Augmentation is the shared observation;

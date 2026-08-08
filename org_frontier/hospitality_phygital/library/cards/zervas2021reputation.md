@@ -10,11 +10,11 @@ status: cited
 role: evidence
 used_by_sections: [3]
 claims: [authority-redistribution]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (7,601 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 ---
 
@@ -25,11 +25,15 @@ host accumulates inside one platform does not travel — leaving is expensive by
 
 ## Key facts / verified quotes with loci
 
-- Cross-platform ratings for the same property correlate weakly [abstract]
+- 'TripAdvisor and Airbnb ratings are only weakly correlated, with the relative rankings of properties varying to a significant degree across the two sites' [full-text]
+- The divergence survives controls: 'a great deal of unexplained variation in the joint distribution of ratings across the two platforms, even within tightly defined market segments' [full-text]
+- Rules out the obvious alternatives — the effects 'cannot be easily explained by previously studied phenomena such as retaliation, reciprocal ratings, or fake reviews' [full-text]
 - *Marketing Letters* 32:1, pp. 1-16 [metadata]
+
 
 ## Critical notes & threats
 
+- The ruling-out of retaliation and fake reviews is what makes this a non-portability finding rather than a data-quality finding, and it is the sentence to quote if a referee proposes that the divergence is noise.
 - Carries the exit-cost half of the authority redistribution, which is what connects section 3 to Hirschman in section 5.
 - Teubner was cut as its co-citation; this source now carries the non-portability claim alone.
 

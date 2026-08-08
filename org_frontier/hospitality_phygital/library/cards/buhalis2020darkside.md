@@ -10,11 +10,11 @@ status: rejected
 role: evidence
 used_by_sections: [4]
 claims: [wellbeing-valence]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
 verified_date: 2026-08-08
-source_basis: "Crossref-verified during the 8 August audit; abstract read. Not admitted to the bibliography."
-generated_run: 2026-08-08-audit-transcription
+source_basis: "Full text obtained 2026-08-08 via open access (12,991 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 rejected_reason: "Not admitted for want of words."
 ---
@@ -27,7 +27,10 @@ expense.
 
 ## Key facts / verified quotes with loci
 
-- Surfaced and verified by the 8 August deep-research audit (Consensus + Scholar Gateway + Crossref) [abstract]
+- Balances value co-creation against value co-destruction in the sharing economy, in a marketing venue rather than a hospitality one [full-text]
+- Published as *Psychology & Marketing* 37:5, pp. 689-704 [full-text]
+- Note for anyone re-reading the file: the source PDF renders the 'ti' ligature as '?', so 'co-destruction' appears as 'co-destruc?on' throughout and will not match a naive search [full-text]
+
 
 ## Critical notes & threats
 

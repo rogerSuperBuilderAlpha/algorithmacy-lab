@@ -10,11 +10,11 @@ status: held
 role: evidence
 used_by_sections: [3]
 claims: [authority-redistribution]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (10,723 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 hold_rationale: "Held uncited."
 ---
@@ -26,7 +26,12 @@ conduct without conferring accountable standing on either.
 
 ## Key facts / verified quotes with loci
 
-- Held in the bibliography, not cited in the manuscript [metadata]
+- Applies disclosive computer ethics (Brey) to reconstruct the ethics and politics embedded in Airbnb's technical design [full-text]
+- Explicitly links platform ethics to design: contributes 'by linking between the ethics and politics of digital platforms and their technical design' [full-text]
+- Scopes itself to mainstream commercial platforms, excluding cooperative and municipal models — so its conclusions are about the corporate form specifically [full-text]
+- Berlin operations serve as the reference point for the analysis [full-text]
+- *Philosophy & Technology* 37, article 54 [metadata]
+
 
 ## Critical notes & threats
 

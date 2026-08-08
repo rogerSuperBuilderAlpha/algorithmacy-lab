@@ -10,11 +10,11 @@ status: cited
 role: evidence
 used_by_sections: [1, 2]
 claims: [hospitality-exceeds-service]
-read_depth: abstract
+read_depth: full-text
 verified: verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (4,706 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 ---
 
@@ -26,8 +26,11 @@ encounter.
 
 ## Key facts / verified quotes with loci
 
-- Reframes hospitality businesses from service delivery to host-guest relationship [abstract]
+- Names five elements of the commercial hospitality framework: 'a focus on the host-guest relationship, generosity, theatre and performance, "lots of little surprises", and the security of strangers' [full-text]
+- Diagnoses a 'schizophrenia in the industry' produced by the failure to define hospitality as a commercial phenomenon [full-text]
+- 'customers do not buy service delivery, they buy experiences; they do not buy service quality, they buy memories' [full-text]
 - *The Service Industries Journal* 27:6, pp. 747-755 [metadata]
+
 
 ## Critical notes & threats
 

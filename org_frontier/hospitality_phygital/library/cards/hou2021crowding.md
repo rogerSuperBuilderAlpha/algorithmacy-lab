@@ -10,11 +10,11 @@ status: cited
 role: governor
 used_by_sections: [4, 6]
 claims: [human-contact-conditional]
-read_depth: abstract
+read_depth: full-text
 verified: verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (8,930 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 ---
 
@@ -27,11 +27,16 @@ paper read as nostalgia for the human.
 
 ## Key facts / verified quotes with loci
 
-- Preference between robot and human service varies with social crowding [abstract]
-- Published in *Tourism Management* 83, article 104242 [metadata]
+- Baseline finding, easy to lose: 'in general, tourists tended to accept human staff rather than service robots in tourism contexts' [full-text]
+- H1, supported: 'In more (vs. less) crowded destinations, tourists are more willing to adopt service robots (vs. human staff)' [full-text]
+- The mechanism is social withdrawal — 'social withdrawal can mediate the facilitating effect of crowding on tourists' likelihood of using service robots' [full-text]
+- Preference measured on a 7-point scale from 'definitely human staff' to 'definitely service robots' [full-text]
+- *Tourism Management* 83, article 104242 [metadata]
+
 
 ## Critical notes & threats
 
+- The governor role survives full-text reading and sharpens: the conditionality runs through a named mechanism (social withdrawal), not through unexplained variance. But the baseline preference for human staff is real and the paper should not overstate the conditionality either.
 - Its function is corrective. Removing it would not weaken a claim so much as make an existing claim overreach, which is a harder problem to see.
 - The audit confirmed nothing better available for this role.
 

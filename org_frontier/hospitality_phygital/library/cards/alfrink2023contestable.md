@@ -10,11 +10,11 @@ status: cited
 role: evidence
 used_by_sections: [6]
 claims: [institutional-not-trainable]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (11,370 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 ---
 
@@ -24,8 +24,12 @@ Proposes contestability designed across a system's lifecycle rather than bolted 
 
 ## Key facts / verified quotes with loci
 
-- Lifecycle contestability as a design framework [abstract]
+- Contestability by design is defined as systems 'responsive to human intervention throughout the system lifecycle' [full-text]
+- The framework is both a system quality (contestability features) and a development practice ('contestability by design') — the distinction the paper's institutional claim depends on [full-text]
+- Justifies it on autonomy grounds: 'contestability protects human self-determination and ensures human control over automated systems' [full-text]
+- Built from a systematic literature review synthesized with qualitative interpretative and visual mapping methods [full-text]
 - *Minds and Machines* 33, pp. 613-639 [metadata]
+
 
 ## Critical notes & threats
 
