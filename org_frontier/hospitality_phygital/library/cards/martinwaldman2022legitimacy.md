@@ -10,11 +10,11 @@ status: rejected
 role: evidence
 used_by_sections: [6]
 claims: [published-nulls, institutional-not-trainable]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
 verified_date: 2026-08-08
-source_basis: "Crossref-verified during the 8 August audit; abstract read. Not admitted to the bibliography."
-generated_run: 2026-08-08-audit-transcription
+source_basis: "Full text obtained 2026-08-08 via open access (13,234 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
 flags: []
 rejected_reason: "Not admitted for want of words."
 ---
@@ -27,10 +27,15 @@ dubious factors.
 
 ## Key facts / verified quotes with loci
 
-- Surfaced and verified by the 8 August deep-research audit (Consensus + Scholar Gateway + Crossref) [abstract]
+- Treats legitimacy as distinct from fairness and trust in judgements about algorithmic decisions [full-text]
+- Finds procedural governance conditional rather than sufficient: 'only particularly robust procedural governance increases perceptions of legitimacy' [full-text]
+- Scoped to 'perceptions of legitimacy of algorithmic decisions of private, commercial firms' [full-text]
+- *Journal of Business Ethics* 183, pp. 653-670 [metadata]
+
 
 ## Critical notes & threats
 
+- The conditionality is the reason this stays out and also the reason it would be worth a sentence if space appeared: weak procedural governance does not buy legitimacy, which is the empirical shape of the paper's claim that accountability cannot be discharged by a process diagram.
 - Recorded so that if a reviewer proposes this source, the card shows it was weighed and states what it lost to.
 
 ## Where it enters the manuscript

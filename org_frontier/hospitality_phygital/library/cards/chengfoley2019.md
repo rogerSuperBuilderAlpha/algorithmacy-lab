@@ -10,12 +10,12 @@ status: cited
 role: evidence
 used_by_sections: [2, 8]
 claims: [platform-unsettled-hosting]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; read at abstract depth. Read-depth debt checked 2026-08-08: open access at the publisher. Retrieval route: https://www.sciencedirect.com/science/article/pii/S0278431919300143. Automated acquisition returned NOT_FREE for all eight debts, which was a tool artefact — publishers block scripted fetching — and not a statement about availability."
-generated_run: 2026-08-08-library-build
-flags: [abstract-only-debt]
+verified_date: 2026-08-08
+source_basis: "Full text obtained 2026-08-08 via open access (2,998 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
+generated_run: 2026-08-08-oa-full-text-pass
+flags: []
 ---
 
 ## Summary
@@ -27,11 +27,16 @@ readership without importing an outside literature.
 
 ## Key facts / verified quotes with loci
 
-- Hosting is algorithmically managed work; the platform directs without employing [abstract]
+- Analyses 545 data exemplars from host forums; the two dominant themes are 'Algorithm ambiguity' (228) and 'Sense of anxiety/frustration' (160) [full-text]
+- Hosts describe rank opacity directly: 'When I search for my place it doesn't show up in the search result...' [full-text]
+- Concludes that withholding information 'provides Airbnb with greater control of the business of the platform and reduces possibilities for hosts to "game the system"' [full-text]
+- Positions itself as 'an early attempt to contribute to the emerging academic dialogue on the algorithmic turn in tourism and hospitality' [full-text]
 - *IJHM* 83, pp. 33-36 — short, but in the field's own venue [metadata]
+
 
 ## Critical notes & threats
 
+- Abstract-only debt cleared 8 August 2026 from the CC-BY-NC-ND accepted manuscript. The full text is stronger for the paper than the abstract was: the withheld-information finding is stated as the platform's control mechanism, which is precisely the knowledge-redistribution claim.
 - One of the eight abstract-only debts, and among the more consequential: it anchors the whole platform-hospitality paragraph.
 - Only four pages, so full-text acquisition should be cheap if an open copy exists.
 

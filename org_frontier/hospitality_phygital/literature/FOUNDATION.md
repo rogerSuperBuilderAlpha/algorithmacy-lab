@@ -506,3 +506,82 @@ Both predate the audit and both had survived every prior read. Morrison (2014) w
 with no entry in the reference list. And the two Lynch 2021 works rendered identically as "(2021)"
 while the text cited 2021a and 2021b. Both were repaired on 8 August, and both are the kind of thing
 the library's citedness reconciliation now catches automatically.
+
+# Part 6 — the open-access full-text pass (2026-08-08)
+
+The library shipped with one full text against 93 abstracts and 7 metadata-only records. That is an
+honest number and an embarrassing one, so this pass went after the rest. It raised the count to 28,
+cleared one of the eight abstract-only debts, and — the part worth writing down — caught a factual
+error in a manuscript already merged to `main`.
+
+## What was tried, and what each route was worth
+
+Unpaywall and OpenAlex, queried for all 91 DOIs, reported 41 open. Semantic Scholar added 9 more
+PDFs the aggregators had missed. Direct fetching then recovered 18, and mining repository landing
+pages for `citation_pdf_url` and DSpace bitstream links took it to 26. arXiv, OpenAIRE and DOAJ added
+8, for 34 candidates before verification.
+
+The wall is bot detection, not licensing. Eighty-one fetch attempts returned HTTP 403 from Elsevier,
+SAGE, Taylor & Francis and the ACM Digital Library — publishers serving content that Unpaywall
+correctly reports as open, to browsers but not to scripts. `curl` with a full browser header set does
+not get past it; neither does WebFetch on Elsevier, ACM, Emerald, Taylor & Francis or Wiley. WebFetch
+does render SAGE's genuinely open titles, which is how Burrell was read. The remaining ~60 works need
+institutional credentials in a real browser session, and that is an author task, not an agent task.
+
+Several "green" open-access records turned out to be metadata-only: `research.wur.nl`,
+`research.rug.nl`, `stars.library.ucf.edu`, `aisel.aisnet.org` and the Utrecht DSpace all advertise a
+copy and hold no file. Unpaywall's `oa_status` is a claim about the record, not about retrievability.
+
+## Five wrong documents, caught before they reached a card
+
+Title-similarity search is how the DOI-less works were chased, and it produced five false matches
+that a token-overlap check scored as perfect:
+
+| card | what actually downloaded |
+|---|---|
+| `lashley2000towards` | 'Towards Understanding Sparse Filtering', a neural-networks paper |
+| `derrida2000hospitality` | Tagiew, 'The Economy of Internet-Based Hospitality Exchange' |
+| `bowkerstar1999sorting` | a five-page Brazilian book review of *Sorting Things Out* |
+| `cotter2019visibility` | a Portuguese master's thesis on tattooists and Instagram |
+| `algorithmacyLabLiteracy` | a book chapter on land registration law |
+
+Two more — `dowding2000exit` and `garlandthomson2011misfits` — were Cambridge Core navigation pages
+carrying an abstract and a reference list, and were demoted rather than counted.
+
+None of these reached a card, because nothing was allowed near a card until it showed both the title
+*and* an author surname in its opening pages. This is the venue rulings' standing rule — search
+summaries are leads, never sources — applied one layer further down: a retrieved file is a lead too.
+
+## The defect
+
+`zheng2025triad` was carded, and the manuscript written, on the claim that the phygital tourism
+experience triad comprises "physical, digital and social elements". It does not. Read in full, the
+PTET framework "conceptualizes experience formation as the alignment of cognitive and embodied
+actions, technological affordances, and spatial configurations spanning virtual spaces, physical
+tourism sites, and users' self-location". Section 3 has been corrected to "embodied action,
+technological affordance and spatial configuration".
+
+The paper's argument survives untouched — spatial configuration still conditions the encounter rather
+than committing determinations within it, so the contrast drawn against all three rival triads holds.
+The exposure was the citation, not the reasoning. Tussyadiah co-authored that paper and is a
+plausible referee for this submission, which is what made the error expensive as well as wrong.
+
+## Qualifications the abstracts had hidden
+
+Reading the full texts changed five cards in ways worth carrying into the response letter. Edelman
+et al.'s 16% acceptance gap is **limited to hosts who have never had an African-American guest**, and
+the authors decline to separate race from socioeconomic status. Kim et al. is explicitly
+COVID-conditioned, and the pandemic pushes preference *towards* robots on hygiene grounds. Hou et
+al.'s conditionality runs through a named mechanism, social withdrawal, over a baseline in which
+tourists generally do prefer human staff. Tussyadiah's review sets four research priorities of which
+adoption is one, so section 1 describes the literature she reviews rather than her own agenda.
+Edwards and Veale's null is wider than the card claimed: it indicts individual-rights remedies as a
+class, not explanation rights specifically, which strengthens the move from competence to standing.
+
+## Still open
+
+Seven debts remain: `folger1977voice`, which carries the whole of section 7, plus
+`cheneylippold2011identity`, `liang2017superhost`, `morrison2014voice`, `roelofsenminca2018`,
+`ytrearnemoe2021folk`, and the `germannmolz2026` must-engage decision. Sixty-six cards still sit at
+abstract depth. Every one of them is a subscription problem rather than a search problem, and the
+list is ready for a session with Bentley credentials.
