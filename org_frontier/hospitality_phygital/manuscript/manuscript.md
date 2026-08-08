@@ -553,8 +553,8 @@ necessary, assuming full responsibility for the publication's content.
 
 ## References
 
-*Rendered in Intellect Harvard by `render_refs.py` from `../literature/references.bib`.
-Every entry is cited in the text; every citation resolves to an entry.*
+*Rendered in Intellect Harvard by `render_refs.py` from `../literature/references.bib`, against
+`cited_keys.txt`. Every entry is cited in the text; every citation resolves to an entry.*
 
 Alfrink, Kars, Keller, Ianus, Kortuem, Gerd and Doorn, Neelke (2023), 'Contestable AI by Design: Towards a Framework', *Minds and Machines*, 33, pp. 613–639.
 
@@ -636,11 +636,13 @@ Lv, Linxiang, Chen, Siyun, Liu, Gus Guanrong and Chen, Mingwen (2024), 'Alleviat
 
 Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2011), 'Theorizing Hospitality', *Hospitality & Society*, 1:1, pp. 3–24.
 
-Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2021), 'Theorizing Hospitality: A Reprise', *Hospitality & Society*, 11:3, pp. 249–270.
+Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2021b), 'Theorizing Hospitality: A Reprise', *Hospitality & Society*, 11:3, pp. 249–270.
 
-Lynch, Paul, McIntosh, Alison, Lugosi, Peter, Germann Molz, Jennie and Ong, Chin Ee (2021), 'Hospitality & Society: Critical Reflections on the Theorizing of Hospitality', *Hospitality & Society*, 11:3, pp. 293–331.
+Lynch, Paul, McIntosh, Alison, Lugosi, Peter, Germann Molz, Jennie and Ong, Chin Ee (2021a), 'Hospitality & Society: Critical Reflections on the Theorizing of Hospitality', *Hospitality & Society*, 11:3, pp. 293–331.
 
 Mattila, Anna S. (1999), 'The Role of Culture in the Service Evaluation Process', *Journal of Service Research*, 1:3, pp. 250–261.
+
+Morrison, Elizabeth W. (2014), 'Employee Voice and Silence', *Annual Review of Organizational Psychology and Organizational Behavior*, 1, pp. 173–197.
 
 Mosca, Fabrizio, Civera, Chiara, Chiaudano, Valentina and Shakil, Hafsa (2025), 'Phygital Museums as Catalysts for Inclusivity, Well-Being, and Human-Centric Cultural Experiences across Physical and Digital Spaces', *Journal of Macromarketing*.
 
