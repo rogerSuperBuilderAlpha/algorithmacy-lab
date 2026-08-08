@@ -9,35 +9,46 @@ must come from the authors.
 
 ---
 
+## Title
+
+**Who Hosts the Guest? Reconfiguration of Hospitality in Phygital Spaces**
+
+*Shortened at the editor's suggestion. The dropped phrases — algorithmic mediation, guest agency —
+survive as keywords two and three, so nothing conceptual is lost.*
+
 ## Abstract (100–200 words)
 
-*Currently 176 words. Distinct from the ~700-word pitch in [`../../ABSTRACT.md`](../../ABSTRACT.md),
+*Currently 197 words. Distinct from the ~700-word pitch in [`../../ABSTRACT.md`](../../ABSTRACT.md),
 which was the summit proposal.*
 
 Phygital hospitality scholarship presents artificial intelligence, mobile applications and automated
 interfaces as tools for delivering seamless, personalized experiences. Yet hospitality is a
 relational and culturally situated practice involving welcome, recognition, care and negotiated
 access. This conceptual paper theorizes phygital hospitality as triadic coordination among the guest,
-the algorithmic intermediary and the human or organizational host, an arrangement in which the
-intermediary performs hosting functions and redistributes knowledge, discretion and authority. It
-distinguishes augmentative hospitality, where technology supports human recognition and discretion,
-from substitutive hospitality, where algorithmic direction displaces relational judgement, and it
-specifies the distinction as a condition: substitution occurs where accountability, predictability
-and common understanding are withheld together. The paper introduces hospitality algorithmacy, the
-situated capacity of guests and employees to interpret and engage with algorithmic mediation, and
-distinguishes it from coordinative sovereignty, the standing to influence how hospitality is
-organized. Five design affordances follow. The paper argues that seamlessness is not inherently
-hospitable, since a frictionless encounter removes the surface on which a guest may be received as an
-exception.
+the algorithmic intermediary and the human or organizational host — an arrangement constituted
+through the dual movement of digitalization and physicalization, in which the guest's conduct becomes
+record and the intermediary's determinations become physical arrangement. The intermediary performs
+hosting functions and redistributes knowledge, discretion and authority across those crossings. The
+paper distinguishes augmentative from substitutive hospitality and specifies the distinction as a
+condition: substitution occurs where accountability, predictability and common understanding are
+withheld together. It introduces hospitality algorithmacy, a competence guests and employees can
+develop, and distinguishes it from coordinative sovereignty, a standing only organizations can grant.
+Five design affordances follow, together with a transformation roadmap. Mapping the poles onto
+individual, collective and societal well-being, the paper gives the neutral case a definition rather
+than a hedge, and argues that seamlessness is not inherently hospitable, since a frictionless
+encounter removes the surface on which a guest may be received as an exception.
 
 ## Keywords (exactly six, one or two words each)
 
-phygital hospitality; algorithmic mediation; guest agency; employee discretion; service design;
+phygital hospitality; algorithmic mediation; guest agency; employee discretion; well-being;
 hospitality theory
+
+*'service design' swapped for 'well-being' so the set reaches the special issue's transformative
+theme.*
 
 ## Statement of Contribution (100–150 words, anonymised — sent to reviewers)
 
-*Currently 138 words. Answers the two questions the Notes for Contributors require, and names no
+*Currently 168 words; trim to 150 before upload if the system enforces the limit strictly. Answers the two questions the Notes for Contributors require, and names no
 author, institution or prior work of the contributors.*
 
 **What is the contribution to hospitality knowledge, theory, policy or practice?** The paper
@@ -47,7 +58,9 @@ distinction between augmentative and substitutive mediation that is specified as
 condition rather than an impression, and five design affordances derived from what coordination
 requires. It separates a competence guests and employees can develop from a standing only
 organizations can grant, which tells practitioners which problems training can address and which
-cannot.
+cannot, and it sets out a transformation roadmap on that basis. Mapping the two poles onto
+individual, collective and societal well-being connects the account to transformative service
+research.
 
 **How does the paper offer a multidisciplinary social science perspective?** It brings hospitality
 theory into dialogue with organizational coordination research, platform and algorithmic management
@@ -62,10 +75,10 @@ welcome, recognition and access that define hospitality as a social practice.
 - Algorithms now perform hosting functions and redistribute discretion and authority. `[83]`
 - Substitutive hospitality withholds accountability, predictability and understanding. `[84]`
 - Hospitality algorithmacy is a competence; coordinative sovereignty is a standing. `[80]`
-- Seamless encounters remove the surface on which a guest can be received as an exception. `[87]`
+- A transformation roadmap that no property can discharge by procurement alone. `[76]`
 
-*The fifth bullet is 87 characters and must be cut to 85 or under before upload. Suggested
-replacement at 82: "Seamlessness removes the surface on which a guest is received as an exception."*
+*All five now sit under the 85-character limit. The previous fifth bullet ran to 87 and has been
+replaced by the roadmap bullet, which also answers the editor's sixth request.*
 
 ## Contributor biographies (50–100 words each) — AUTHORS TO SUPPLY
 

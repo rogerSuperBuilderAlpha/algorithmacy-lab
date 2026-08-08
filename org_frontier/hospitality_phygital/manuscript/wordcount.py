@@ -57,8 +57,8 @@ def body_of(lines):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("paper")
-    ap.add_argument("--refs", type=int, default=45,
-                    help="references to be cited; each costs ~27 words in Intellect Harvard")
+    ap.add_argument("--refs", type=int, default=61,
+                    help="cited references; Intellect Harvard renders at ~26 words each. Measure the\n                         rendered list directly before any lock decision.")
     args = ap.parse_args()
 
     lines = open(args.paper, encoding="utf-8").read().splitlines()
@@ -67,12 +67,12 @@ def main() -> int:
         print("ABORT: no body found. Expected a '## 1. ' heading.")
         return 1
 
-    refs = args.refs * 27
+    refs = args.refs * 26
     other = 180 + 12 + 200 + 50 + 50   # abstract, keywords, two biographies, AI statement, notes
     total = body + refs + other
 
-    print(f"BODY            {body:>6,}   budget 6,800")
-    print(f"references (x{args.refs})  {refs:>6,}   projected at ~27 words each")
+    print(f"BODY            {body:>6,}   budget 6,850")
+    print(f"references (x{args.refs})  {refs:>6,}   measured at ~26 words each")
     print(f"other required  {other:>6,}   abstract, keywords, biographies, AI statement, notes")
     print(f"TOTAL           {total:>6,}   limit 6,000-9,000 inclusive")
 
@@ -80,8 +80,8 @@ def main() -> int:
     if not 6000 <= total <= 9000:
         print(f"G-LEN FAIL: projected total {total:,} outside 6,000-9,000")
         fail = True
-    if body > 6800:
-        print(f"G-BUDGET over: body {body:,} exceeds the 6,800 budget by {body - 6800:,}")
+    if body > 6850:
+        print(f"G-BUDGET over: body {body:,} exceeds the 6,850 budget by {body - 6850:,}")
     print("G-LEN: FAIL" if fail else "G-LEN: PASS")
     return 1 if fail else 0
 

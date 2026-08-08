@@ -84,6 +84,9 @@ participatory and accountable; it does not optimize for invisibility alone.
 
 ## Organizational checklist (draft)
 
+*This checklist matured into Table 1 of the manuscript, and the sequencing logic beneath it into the
+three-phase roadmap in §6. Keep this file as the working seed; the manuscript is the statement.*
+
 For each major touchpoint (booking, arrival, in-stay personalization, service recovery, departure):
 
 1. What does the algorithm decide?
