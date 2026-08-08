@@ -35,7 +35,7 @@ ROLES = ["evidence", "framing", "both", "null", "rival", "governor", "none"]
 DEPTHS = ["full-text", "abstract", "metadata"]
 TIERS = ["verified", "crossref-verified", "corrected"]
 FLAGS = ["do-not-cite", "must-engage", "abstract-only-debt", "swap-candidate",
-         "no-retained-copy"]
+         "no-retained-copy", "claim-contradicted"]
 SECTIONS = {
     1: "Introduction", 2: "Hospitality beyond seamless service",
     3: "Phygital hospitality as triadic mediation", 4: "Augmentative and substitutive",
@@ -189,12 +189,15 @@ def build(cards):
 
     open_debts = [fm for _, fm, _ in cards
                   if set(parse_list(fm.get("flags")))
-                  & {"abstract-only-debt", "must-engage", "no-retained-copy"}]
+                  & {"abstract-only-debt", "must-engage", "no-retained-copy",
+                     "claim-contradicted"}]
     if open_debts:
         L += ["## Open debts", "", "| citekey | flags | what it needs |", "|---|---|---|"]
         for fm in sorted(open_debts, key=lambda f: f.get("citekey", "")):
             fl = parse_list(fm.get("flags"))
-            need = ("full text read" if "abstract-only-debt" in fl
+            need = ("THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission"
+                    if "claim-contradicted" in fl
+                    else "full text read" if "abstract-only-debt" in fl
                     else "a retained copy, so the depth claim can be re-checked"
                     if "no-retained-copy" in fl
                     else "engagement in the manuscript")
