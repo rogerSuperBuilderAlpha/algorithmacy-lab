@@ -235,7 +235,20 @@ them costs depth, not correctness, provided the manuscript states what it did no
 
 ## Output convention
 
-Every run appends to [`FOUNDATION.md`](FOUNDATION.md) as a numbered part, adds verified entries to
-[`references.bib`](references.bib) with `note = {verified <date>}`, updates the relevant cluster in
-[`field_map.md`](field_map.md), and closes the matching item in [`../AGENDA.md`](../AGENDA.md). A run
-that finds nothing still writes the absence into `field_map.md`.
+Every run must:
+
+1. **Add or update a card** in [`../library/cards/`](../library/cards/) for every source it touched —
+   admitted, held or rejected — with a fresh `generated_run`. A rejected candidate gets a card and a
+   `rejected_reason`; that is how the reasoning survives.
+2. **Flip displaced sources to `superseded`** with `superseded_by` set, rather than deleting them.
+3. **Add verified entries** to [`references.bib`](references.bib) with `note = {verified <date>}`.
+4. **Append a numbered part** to [`FOUNDATION.md`](FOUNDATION.md) that cites citekeys.
+5. **Run `python3 ../library/build_index.py`** and commit the regenerated index.
+
+Steps 1, 2, 3 and 5 are enforced by `build_index.py --check` in CI. Step 4 is narrative and is not
+enforced, which is acceptable now that it is no longer the only record of anything.
+
+This convention replaces an earlier one that asked a run to update `field_map.md` by hand. Two rounds
+skipped it and the map went stale, which is why cluster state is now computed rather than asserted. A
+run that finds nothing still writes the absence — into a card if it concerns a source, into
+[`../library/VENUE_RULINGS.md`](../library/VENUE_RULINGS.md) if it concerns an outlet.
