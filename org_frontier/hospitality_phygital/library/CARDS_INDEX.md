@@ -13,7 +13,7 @@ A card exists for every source the research touched, including candidates that w
 | citekey | flags | what it needs |
 |---|---|---|
 | [cheneylippold2011identity](cards/cheneylippold2011identity.md) | abstract-only-debt | full text read |
-| [folger1977voice](cards/folger1977voice.md) | abstract-only-debt | full text read |
+| [folger1977voice](cards/folger1977voice.md) | abstract-only-debt, claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
 | [germannmolz2026](cards/germannmolz2026.md) | must-engage | engagement in the manuscript |
 | [liang2017superhost](cards/liang2017superhost.md) | abstract-only-debt, swap-candidate | full text read |
 | [lynch2021critical](cards/lynch2021critical.md) | no-retained-copy | a retained copy, so the depth claim can be re-checked |

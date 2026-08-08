@@ -8,6 +8,10 @@ The point of the registry is that "contextual bibliography" should mean somethin
 alphabetically, a bibliography tells you nothing. Sorted by the claim each source is doing work for,
 it answers the question a reviewer actually asks: *what is holding this sentence up?*
 
+A slug records what the manuscript claims, not what is established. When a source turns out not to
+carry the claim filed under it, the slug stays and the row says so — `voice-independent-of-outcome`
+is the live example — because renaming it would hide the disagreement the library exists to surface.
+
 Add a slug only when the manuscript makes a claim no existing slug covers. Retire one by removing it
 here and from every card that used it — `--check` will find any you miss.
 
@@ -41,7 +45,7 @@ here and from every card that used it — `--check` will find any you miss.
 | `human-contact-conditional` | 4, 6 | Guests prefer human staff for emotional dimensions and service failure, conditionally rather than universally |
 | `industry-gains-and-transition` | 6 | Phygital arrangements deliver real gains, and the framework sorts the transition difficulties they create |
 | `roadmap-not-procurement` | 6 | The transformation sequence cannot be discharged by purchase; the remainder are decisions about who answers |
-| `voice-independent-of-outcome` | 7 | Being heard reduces experienced injustice independently of whether the outcome improves |
+| `voice-independent-of-outcome` | 7 | Being heard reduces experienced injustice independently of whether the outcome improves — **contested; see [`folger1977voice`](cards/folger1977voice.md), whose source reports an interaction rather than independence** |
 | `infrastructure-sinks-from-sight` | 7 | Infrastructure becomes effective as it disappears, which is seamlessness pursued as a design goal |
 | `torque` | 7 | The felt twisting when a life is bent to a classification built for someone else |
 | `cultural-scripts` | 7 | Guests are categorized before arrival and run from a matching script; mismatch produces failure |
