@@ -13,9 +13,9 @@ claims: [hospitality-exceeds-service]
 read_depth: full-text
 verified: verified
 verified_date: 2026-08-07
-source_basis: "Crossref-verified; full text read."
+source_basis: "Crossref-verified against the publisher record. Full text read 7 August 2026 during the register measurement, from the publisher rendering; no copy is retained and Unpaywall reports the article closed with no open location, so the depth claim rests on that reading and cannot be re-checked from a held file."
 generated_run: 2026-08-08-library-build
-flags: []
+flags: [no-retained-copy]
 ---
 
 ## Summary

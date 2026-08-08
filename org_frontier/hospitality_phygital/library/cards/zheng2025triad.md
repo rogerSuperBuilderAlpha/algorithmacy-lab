@@ -27,7 +27,7 @@ configuration rather than a setting.
 
 ## Key facts / verified quotes with loci
 
-- The three elements are NOT physical, digital and social. The PTET framework 'conceptualizes experience formation as the alignment of cognitive and embodied actions, technological affordances, and spatial configurations spanning virtual spaces, physical tourism sites, and users' self-location (e.g., home)' [full-text]
+- The three elements are not physical, digital and social. The PTET framework 'conceptualizes experience formation as the alignment of cognitive and embodied actions, technological affordances, and spatial configurations spanning virtual spaces, physical tourism sites, and users' self-location (e.g., home)' [full-text]
 - It is a systematic review with meta-analysis, not a venue study: 'Based on a systematic review of the literature, this study proposes the phygital tourism experience triad (PTET) framework' [full-text]
 - Its causal claim runs virtual-to-physical: virtual tourism experiences shape physical visitation intentions through satisfaction, attachment, attitude, trust, learning and interest [full-text]
 - Co-authored by Tussyadiah, whose 2020 automation review the paper also cites — and a plausible reviewer for this submission [metadata]
@@ -36,7 +36,7 @@ configuration rather than a setting.
 
 ## Critical notes & threats
 
-- DEFECT FOUND AND FIXED, 8 August 2026. The card and the manuscript both described this triad as 'physical, digital and social elements'. It is not. The elements are embodied action, technological affordance and spatial configuration. The manuscript sentence in section 3 has been corrected. A co-author of this paper is a plausible referee for our submission, so the error was expensive as well as wrong.
+- DEFECT FOUND AND FIXED, 8 August 2026. The card and the manuscript both described this triad, in their own words, as physical, digital and social elements. It is not. The elements are embodied action, technological affordance and spatial configuration. The manuscript sentence in section 3 has been corrected. A co-author of this paper is a plausible referee for our submission, so the error was expensive as well as wrong.
 - The paper's argument survives the correction unchanged: spatial configuration still conditions the encounter rather than committing determinations within it, so the contrast the manuscript draws with all three rival triads holds.
 - Its existence means three rival triads now exist, not two. The consolidated paragraph handles all three or the paper looks unaware of its own neighbourhood.
 - Because it is 2025 and in a tourism venue, a reviewer is more likely to know it than to know van Doorn.

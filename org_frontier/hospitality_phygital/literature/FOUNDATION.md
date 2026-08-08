@@ -585,3 +585,70 @@ Seven debts remain: `folger1977voice`, which carries the whole of section 7, plu
 `ytrearnemoe2021folk`, and the `germannmolz2026` must-engage decision. Sixty-six cards still sit at
 abstract depth. Every one of them is a subscription problem rather than a search problem, and the
 list is ready for a session with Bentley credentials.
+
+# Part 7 — auditing the full texts against the cards (2026-08-08)
+
+Part 6 put 28 sources into the library at full-text depth. This part checks that what the cards say
+about them is true, because a card written from a fresh reading is still a card written from memory
+of that reading an hour later.
+
+## Quotations
+
+Every quoted string on a full-text card was matched back against the retrieved file. Sixty-five
+quotations, all located. Getting there took three corrections to the checker and two to the corpus.
+
+The checker first had to learn the difference between noise the *file* injects into a sentence — line
+numbers, `- 12 -` page markers, running heads — and material the *quote* dropped. Only the second is
+a fault. On that distinction, two quotes were genuinely eliding an inline citation without saying so
+(`bosma2022platformed`, `tussyadiah2020automation`) and now carry `[…]`.
+
+The corpus corrections mattered more. Five files were two-column PDFs whose `pdftotext -layout`
+extraction interleaved the columns, so sentences that read continuously were in fact stitched across
+a column break. Quotes taken from them were assembled from text that never ran in that order.
+Re-extracting with PyMuPDF block ordering — columns detected by centre-line straddling, then sorted
+left column before right — recovered the true reading order and validated six quotations that had
+looked missing. `chengfoley2019` needed a further step: its theme table sits in the right-hand
+column and every linear extraction mis-pairs the labels with their counts, so the frequencies were
+read off the PDF by block coordinate instead. 'Algorithm ambiguity' does carry 228 and the
+anxiety-and-frustration theme 160, but the second label wraps across cells and is no longer quoted
+as a contiguous string.
+
+`lynch2021critical` is the one card claiming full-text depth with no retained copy. It was read on
+7 August for the register measurement; Unpaywall now reports the article closed with no open
+location, so the claim cannot be re-checked. Rather than demote a depth that was real or assert one
+nobody can verify, the card says exactly this and carries a new `no-retained-copy` flag, which puts
+it in the index's open-debts table.
+
+## Four references were citing a volume that does not carry the article
+
+Sweeping all 101 cards against Crossref turned up a pattern rather than an incident. Six references
+paired an online-first year with a version-of-record issue:
+
+| citekey | was | issue is actually |
+|---|---|---|
+| `lv2025autonomy` | 2024, *Journal of Travel Research* 64:8 | November 2025 |
+| `nguyen2025stereotypes` | 2024, *Tourism Review* 80:7 | September 2025 |
+| `padigar2025friction` | 2024, *Psychology & Marketing* 42:1 | January 2025 |
+| `pedersen2023` | 2022, *JPART* 33:1 | January 2023 |
+| `wang2025genai` | 2024, *Current Issues in Tourism* 28:4 | February 2025 |
+| `xu2021facial` | 2020, *JHM&M* 30:3 | April 2021 |
+
+Four of those are cited. Where a reference gives the issue's volume and page extent it is citing the
+version of record, and the year has to be the issue year: a reader sent to *Tourism Review* 2024 for
+volume 80 finds volume 79. Years corrected, citekeys renamed to match, and the four in-text
+narrative citations moved with them.
+
+One near-miss in the other direction: `alfrink2023contestable` looked wrong because Crossref carries
+no print date for it, but the article's own title page reads *Minds and Machines* (2023) 33:613–639.
+The card is right and Crossref is incomplete. Crossref is a check, not an authority.
+
+## What is now enforced
+
+`manuscript/check_citations.py` compares every surname-and-year in the body against the rendered
+reference list — 68 citations against 275 surnames — and is wired into `ci/reproduce.json` as
+`hospitality-citations-agree`. It needs no network and no full texts, so it runs everywhere. Had it
+existed a day earlier it would have caught the moment the reference list and the body disagreed.
+
+The quotation audit cannot be a CI gate, because it needs the retrieved full texts and those do not
+belong in the repository. It lives with the acquisition scripts and should be re-run by hand
+whenever a full-text card gains a quotation.

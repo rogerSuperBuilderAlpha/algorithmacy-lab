@@ -1,8 +1,8 @@
 ---
-citekey: lv2024autonomy
+citekey: lv2025autonomy
 title: "Alleviating Travelers' Privacy Concern in Personalized Recommendations through Perceived Information Autonomy"
 authors: "Lv, Linxiang and Chen, Siyun and Liu, Gus Guanrong and Chen, Mingwen"
-year: 2024
+year: 2025
 doi: 10.1177/00472875241268511
 venue: "Journal of Travel Research"
 cluster: phygital-service
@@ -31,6 +31,7 @@ autonomy carrying the effect.
 
 ## Critical notes & threats
 
+- Year corrected from 2024 to 2025 on 8 August 2026. The reference gives the issue's volume and page extent, so it cites the version of record; 2024 was the online-first date and pairing it with this volume pointed at a volume that does not carry the article. Citekey renamed to match.
 - Gives adjustability an empirical mechanism rather than an intuition: what guests object to is personalization they cannot steer.
 - Morosan was cut as its co-citation.
 
