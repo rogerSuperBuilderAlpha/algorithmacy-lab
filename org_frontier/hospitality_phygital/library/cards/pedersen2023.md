@@ -1,8 +1,8 @@
 ---
-citekey: pedersen2022
+citekey: pedersen2023
 title: "Discretionary Responses in Frontline Encounters: Balancing Standardization with the Ethics of Office"
 authors: "Pedersen, Kirstine Zinck and Pors, Anja Svejgaard"
-year: 2022
+year: 2023
 doi: 10.1093/jopart/muac012
 venue: "Journal of Public Administration Research and Theory"
 cluster: ai-automation
@@ -32,6 +32,7 @@ unrecognized compensating work, performed by people whose formal role no longer 
 
 ## Critical notes & threats
 
+- Year corrected from 2022 to 2023 on 8 August 2026. The reference gives the issue's volume and page extent, so it cites the version of record; 2022 was the online-first date and pairing it with this volume pointed at a volume that does not carry the article. Citekey renamed to match.
 - This is the source that stopped the paper making a cruder claim. 'Displacement' was the wrong word and this corrected it.
 - Because its effect is to complicate rather than support, it is easy to cut under budget pressure and expensive to lose — the resulting claim would be less accurate and more attackable.
 

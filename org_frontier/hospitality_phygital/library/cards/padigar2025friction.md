@@ -1,8 +1,8 @@
 ---
-citekey: padigar2024friction
+citekey: padigar2025friction
 title: "`Good' and `Bad' Frictions in Customer Experience: Conceptual Foundations and Implications"
 authors: "Padigar, Manjunath and Li, Yi and Manjunath, Chandana N."
-year: 2024
+year: 2025
 doi: 10.1002/mar.22111
 venue: "Psychology & Marketing"
 cluster: phygital-service
@@ -32,6 +32,7 @@ marketing journal's own terms.
 
 ## Critical notes & threats
 
+- Year corrected from 2024 to 2025 on 8 August 2026. The reference gives the issue's volume and page extent, so it cites the version of record; 2024 was the online-first date and pairing it with this volume pointed at a volume that does not carry the article. Citekey renamed to match.
 - Without this the anti-seamlessness section reads as a humanistic objection. With it, the argument has been made in a management venue and is harder to dismiss as sentiment.
 - Negotiating an unusual request is constructive friction in exactly the paper's sense — the guest would rather not explain, and the explaining is where recognition occurs.
 

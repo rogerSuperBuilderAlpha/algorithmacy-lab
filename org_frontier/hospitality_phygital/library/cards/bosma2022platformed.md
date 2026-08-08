@@ -26,7 +26,7 @@ gaining no claim on how the platform is governed.
 
 ## Key facts / verified quotes with loci
 
-- Conceptualizes professionalization 'as a distinct platform logic that creates and maintains unequal power' rather than as a status hosts attain [full-text]
+- Conceptualizes professionalization 'as a distinct platform logic […] that creates and maintains unequal power relations both between hosts themselves, and between platform' and hosts — the ellipsis covers an inline citation to Andersson Schwarz [full-text]
 - The logic 'benefits Airbnb and hosts who are able to take part, while reinforcing existing inequalities' [full-text]
 - Method is qualitative fieldwork in Berlin following three hosts, against a literature dominated by scraped quantitative data [full-text]
 - *Environment and Planning A: Economy and Space* 54:4, pp. 595-610 [metadata]

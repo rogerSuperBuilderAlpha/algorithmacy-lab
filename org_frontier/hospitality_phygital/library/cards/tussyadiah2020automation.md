@@ -27,7 +27,7 @@ statement of the position it argues past.
 ## Key facts / verified quotes with loci
 
 - Sets four research priorities: 'designing beneficial artificial intelligence, facilitating adoption, assessing impacts of intelligent automation, and creating a sustainable future with AI systems' [full-text]
-- Notes the empirical thinness of the field: studies are 'limited to analysis of online reviews and experiments with second-hand experience of robots' [full-text]
+- Notes the empirical thinness of the field: studies are 'limited to analysis of online reviews […] and experiments with second-hand experience of robots' — the ellipsis covers an inline citation [full-text]
 - Calls for conceptualizing 'the automated tourism experience' as a design object [full-text]
 - *Annals of Tourism Research* 81, article 102883 — the field's most prestigious venue, which is why it can carry the framing claim alone [metadata]
 

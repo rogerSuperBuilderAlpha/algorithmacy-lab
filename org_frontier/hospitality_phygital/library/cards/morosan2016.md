@@ -16,7 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-08-library-build
 flags: []
-superseded_by: "lv2024autonomy"
+superseded_by: "lv2025autonomy"
 ---
 
 ## Summary
@@ -25,7 +25,7 @@ Models hotel guests' intentions to use mobile applications through personalizati
 
 ## Key facts / verified quotes with loci
 
-- Displaced by lv2024autonomy on 2026-08-08 [metadata]
+- Displaced by lv2025autonomy on 2026-08-08 [metadata]
 
 ## Critical notes & threats
 

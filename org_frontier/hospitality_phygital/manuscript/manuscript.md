@@ -165,7 +165,7 @@ and obliging managers to translate algorithmic decisions to the very people thos
 What such systems relocate is precisely what Lipsky (1980) identified as the substance of frontline
 work, namely the authority to decide what should be done in a particular case. One qualification is necessary if this claim is to remain
 accurate, and it complicates the argument in a useful direction, since standardization does not
-simply delete discretion. Pedersen and Pors (2022) show
+simply delete discretion. Pedersen and Pors (2023) show
 that technologies introduced to standardize frontline decisions bring with them rough categories and
 scripts for action which generate new discretionary work, as practitioners compensate for whatever
 those categories fail to capture. Displacement is consequently the wrong word for what happens to
@@ -354,7 +354,7 @@ able to modify the parameters shaping an encounter without having to exit the re
 altogether, and the design target is the guest whose need does not fit the fields she has been given.
 An adjustable system widens what may be said to it; an unadjustable one offers a default path
 authored entirely by the system, which is choice architecture and not choice (Yeung 2017). The
-mechanism has empirical support. Studying personalized travel recommendations, Lv et al. (2024) find
+mechanism has empirical support. Studying personalized travel recommendations, Lv et al. (2025) find
 privacy concern falling and attitudes improving where the presentation preserves a traveller's sense
 of autonomy over her own information, with perceived information autonomy carrying the effect. What
 guests object to, on this evidence, is not personalization as such but personalization they cannot
@@ -457,7 +457,7 @@ instruction anyone issues; and they name the experience of a person whom a categ
 torque, the felt twisting when a life is bent to a classification built for somebody else.
 
 The cultural version of this problem is documented within hospitality's own literature, and it
-predates automation by some margin. Nguyen et al. (2024) found hotel staff categorizing guests by
+predates automation by some margin. Nguyen et al. (2025) found hotel staff categorizing guests by
 country of origin before arrival and running the encounter from a matching script, with any mismatch
 between expected and actual behaviour producing service failure and demanding a new script on the
 spot. Cultural background shapes what counts as good service in the first place (Mattila 1999).
@@ -471,7 +471,7 @@ exists to appeal to even in principle (Cheney-Lippold 2011), and the sorting car
 consequences for access (Fourcade and Healy 2013).
 
 Consumer research has begun to make a version of this argument in its own terms. Padigar et al.
-(2024) distinguish four kinds of friction according to the desirability and value of the task the
+(2025) distinguish four kinds of friction according to the desirability and value of the task the
 effort serves, and warn that removing constructive friction, where effort is undesirable but valuable,
 can destroy the very value it was thought to be obstructing. Negotiating an unusual request is
 constructive friction in exactly that sense: the guest would rather not have to explain herself, and

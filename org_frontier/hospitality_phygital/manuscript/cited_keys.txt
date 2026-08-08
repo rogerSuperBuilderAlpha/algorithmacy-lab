@@ -40,7 +40,7 @@ lashley2000towards
 liang2017superhost
 lipsky1980street
 lugosi2008
-lv2024autonomy
+lv2025autonomy
 lynch2011theorizing
 lynch2021critical
 lynch2021reprise
@@ -48,10 +48,10 @@ mattila1999
 morrison2014voice
 mosca2025museums
 munasinghe2022
-nguyen2024stereotypes
+nguyen2025stereotypes
 okhuysenbechky2009
-padigar2024friction
-pedersen2022
+padigar2025friction
+pedersen2023
 rahman2021cage
 roelofsenminca2018
 scottorlikowski2012accountability

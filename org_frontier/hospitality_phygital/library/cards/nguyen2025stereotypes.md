@@ -1,8 +1,8 @@
 ---
-citekey: nguyen2024stereotypes
+citekey: nguyen2025stereotypes
 title: "National Stereotypes in the Cross-Cultural Service Encounter: Empirical Evidence from Vietnam"
 authors: "Nguyen, Quynh and Yankholmes, Aaron and Ladkin, Adele and Osman, Hanaa"
-year: 2024
+year: 2025
 doi: 10.1108/TR-09-2023-0612
 venue: "Tourism Review"
 cluster: hospitality-theory
@@ -35,7 +35,8 @@ script on the spot.
 
 ## Critical notes & threats
 
-- The card said staff 'categorize before arrival'. The full text supports categorization by national stereotype and script-running, but the setting is human rather than algorithmic. That is exactly why it is useful — it establishes the practice the paper then shows being automated — but the manuscript should not imply the study observed a system doing it.
+- Year corrected from 2024 to 2025 on 8 August 2026. The reference gives the issue's volume and page extent, so it cites the version of record; 2024 was the online-first date and pairing it with this volume pointed at a volume that does not carry the article. Citekey renamed to match.
+- This card previously said, in its own words, that staff categorize before arrival. The full text supports categorization by national stereotype and script-running, but the setting is human rather than algorithmic. That is exactly why it is useful — it establishes the practice the paper then shows being automated — but the manuscript should not imply the study observed a system doing it.
 - Torque in the field's own voice, and it predates automation — which is what lets the paper say algorithmic categorization industrializes an existing practice and removes the moment a person noticed the mismatch.
 
 ## Where it enters the manuscript
