@@ -39,8 +39,11 @@ rejected card must say what displaced it; a superseded card must name its replac
 what the source does — evidence, a framing the paper argues past, both, a published null, a nearest
 rival, or a governor that keeps another claim from overreaching.
 
-`read_depth` is `full-text`, `abstract` or `metadata`, and it is declared honestly. Most of this
-library sits at `abstract`, which is the true state and worth seeing. Every bullet in a card's
+`read_depth` is `full-text`, `abstract` or `metadata`, and it is declared honestly. Twenty-eight
+cards sit at `full-text` after the 8 August retrieval pass; most of the rest sit at `abstract`, which
+is the true state and worth seeing. One card, `lynch2021critical`, claims full-text depth from a
+reading whose copy was not retained, and carries a `no-retained-copy` flag saying so rather than
+quietly asserting a depth nobody can re-check. Every bullet in a card's
 key-facts section carries its own depth tag, and the check refuses a card whose frontmatter claims
 one depth while its facts claim another.
 
@@ -60,6 +63,13 @@ The check is wired into `ci/reproduce.json` as `hospitality-library-current`. It
 index, a malformed card, an unknown claim slug, a citation with no card, a card marked cited that the
 manuscript does not use, a verification tier stronger than the bibliography supports, or a depth-honesty
 violation.
+
+Quotations on full-text cards were checked back against the retrieved files on 8 August: all 65
+appear in their source, and the two carrying `[…]` mark a real elision of an inline citation. That
+check is not wired into CI, because it needs the full texts and those are not in the repository.
+What *is* wired in is `manuscript/check_citations.py`, which compares every in-text year against the
+rendered reference list — the gate that would have caught four references pairing an online-first
+year with a version-of-record issue.
 
 That last set is not defensive decoration. On the day the library was built the check found two real
 defects in a manuscript already merged to `main`: Morrison (2014) cited in section 5 with no entry in

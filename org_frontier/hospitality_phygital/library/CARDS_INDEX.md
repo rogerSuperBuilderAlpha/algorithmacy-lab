@@ -16,6 +16,7 @@ A card exists for every source the research touched, including candidates that w
 | [folger1977voice](cards/folger1977voice.md) | abstract-only-debt | full text read |
 | [germannmolz2026](cards/germannmolz2026.md) | must-engage | engagement in the manuscript |
 | [liang2017superhost](cards/liang2017superhost.md) | abstract-only-debt, swap-candidate | full text read |
+| [lynch2021critical](cards/lynch2021critical.md) | no-retained-copy | a retained copy, so the depth claim can be re-checked |
 | [morrison2014voice](cards/morrison2014voice.md) | abstract-only-debt | full text read |
 | [roelofsenminca2018](cards/roelofsenminca2018.md) | abstract-only-debt | full text read |
 | [ytrearnemoe2021folk](cards/ytrearnemoe2021folk.md) | abstract-only-debt | full text read |
@@ -28,7 +29,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `affordances-derived` — boochua2022facial
 - `dual-place-process` — batat2024phcx
 - `four-criteria` — lashley2000towards
-- `framing-argued-past` — batat2024phcx, batat2026psr, boochua2022facial, tussyadiah2020automation, wirtz2023digital, namheo2025smartness *(rejected)*, tlili2023metaverse *(held)*, xu2020facial *(superseded)*
+- `framing-argued-past` — batat2024phcx, batat2026psr, boochua2022facial, tussyadiah2020automation, wirtz2023digital, namheo2025smartness *(rejected)*, tlili2023metaverse *(held)*, xu2021facial *(superseded)*
 - `hospitality-exceeds-service` — hemmington2007, lashley2000towards, lynch2021critical
 
 **§2. Hospitality beyond seamless service**
@@ -47,17 +48,17 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `affordances-derived` — spektor2023dis *(rejected)*
 - `authority-redistribution` — scottorlikowski2012accountability, zervas2021reputation, spier2024uncovering *(held)*, teubner2019reputation *(superseded)*
 - `caw-rival` — vandoorn2023
-- `discretion-redistribution` — jianu2025, lipsky1980street, pedersen2022, christin2017practice *(superseded)*, mohlmann2021algorithmic *(superseded)*, spektor2023 *(held)*, spektor2023dis *(rejected)*
+- `discretion-redistribution` — jianu2025, lipsky1980street, pedersen2023, christin2017practice *(superseded)*, mohlmann2021algorithmic *(superseded)*, spektor2023 *(held)*, spektor2023dis *(rejected)*
 - `dual-place-process` — batat2024paradigm, batat2024phcx, zheng2025triad, melerussospena2022architecture *(rejected)*
 - `framing-argued-past` — batat2024phcx
 - `knowledge-redistribution` — calorosenblat2017taking, rahman2021cage, burrell2016opacity *(held)*
 - `not-that-triad` — munasinghe2022, vandoorn2023, zheng2025triad, germannmolz2026 *(held)*
 - `platform-unsettled-hosting` — germannmolz2026 *(held)*
-- `wellbeing-valence` — pedersen2022
+- `wellbeing-valence` — pedersen2023
 
 **§4. Augmentative and substitutive**
 - `affordances-derived` — okhuysenbechky2009
-- `discretion-redistribution` — pedersen2022
+- `discretion-redistribution` — pedersen2023
 - `hospitality-not-outcomes` — lugosi2008
 - `human-contact-conditional` — hou2021crowding, kim2021preference
 - `industry-gains-and-transition` — henkens2021
@@ -66,7 +67,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `negotiated-access-by-artefact` — edelman2017discrimination
 - `neutral-as-habitual-value` — blockerbarrios2015, lugosi2008, starruhleder1996infrastructure
 - `poles-as-three-withholdings` — okhuysenbechky2009
-- `wellbeing-valence` — andersonostrom2015, devos2026employee, edelman2017discrimination, fisk2018inclusion, henkens2021, mosca2025museums, pedersen2022, addis2022food *(held)*, buhalis2020darkside *(rejected)*
+- `wellbeing-valence` — andersonostrom2015, devos2026employee, edelman2017discrimination, fisk2018inclusion, henkens2021, mosca2025museums, pedersen2023, addis2022food *(held)*, buhalis2020darkside *(rejected)*
 
 **§5. Algorithmacy and coordinative sovereignty**
 - `accountability-is-a-relation` — ananny2018seeing, citronpasquale2014scored, vaccaro2020contesting, bovens2007accountability *(rejected)*
@@ -77,9 +78,9 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 
 **§6. Five affordances**
 - `accountability-is-a-relation` — ananny2018seeing, vaccaro2020contesting
-- `affordances-derived` — boochua2022facial, lv2024autonomy, okhuysenbechky2009, yeung2017hypernudge, eggeretal2020digitalfree *(rejected)*, morosan2016 *(superseded)*, spektor2023dis *(rejected)*, wilsonnash2025captivity *(rejected)*
+- `affordances-derived` — boochua2022facial, lv2025autonomy, okhuysenbechky2009, yeung2017hypernudge, eggeretal2020digitalfree *(rejected)*, morosan2016 *(superseded)*, spektor2023dis *(rejected)*, wilsonnash2025captivity *(rejected)*
 - `discretion-redistribution` — spektor2023dis *(rejected)*
-- `framing-argued-past` — boochua2022facial, xu2020facial *(superseded)*
+- `framing-argued-past` — boochua2022facial, xu2021facial *(superseded)*
 - `human-contact-conditional` — hou2021crowding, kim2021preference
 - `industry-gains-and-transition` — brochado2026phygital, henkens2021
 - `institutional-not-trainable` — alfrink2023contestable, belanche2020, almada2019intervention *(superseded)*, martinwaldman2022legitimacy *(rejected)*
@@ -89,8 +90,8 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `wellbeing-valence` — henkens2021, wilsonnash2025captivity *(rejected)*
 
 **§7. Against frictionless hospitality**
-- `constructive-friction` — chalmers2004seamful, padigar2024friction, buellnorton2011labor *(rejected)*, ehsan2024seamfulxai *(rejected)*
-- `cultural-scripts` — mattila1999, nguyen2024stereotypes, torres2014delight *(superseded)*, wang2024genai *(held)*
+- `constructive-friction` — chalmers2004seamful, padigar2025friction, buellnorton2011labor *(rejected)*, ehsan2024seamfulxai *(rejected)*
+- `cultural-scripts` — mattila1999, nguyen2025stereotypes, torres2014delight *(superseded)*, wang2025genai *(held)*
 - `framing-argued-past` — namheo2025smartness *(rejected)*
 - `infrastructure-sinks-from-sight` — bowkerstar1999sorting, starruhleder1996infrastructure, star1999ethnography *(superseded)*
 - `negotiated-access-by-artefact` — cui2020reducing
@@ -179,7 +180,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [lipsky1980street](cards/lipsky1980street.md) | Street-Level Bureaucracy: Dilemmas of the Individual in Pub… | 1980 | ai-automation | cited | evidence | 3 | metadata | crossref-verified |
 | [lugosi2008](cards/lugosi2008.md) | Hospitality Spaces, Hospitable Moments: Consumer Encounters… | 2008 | hospitality-theory | cited | evidence | 2 4 | full-text | verified |
 | [lugosi2021nexus](cards/lugosi2021nexus.md) | Exploring the Hospitality-Tourism Nexus: Directions and Que… | 2021 | hospitality-theory | held | evidence | 2 | full-text | verified |
-| [lv2024autonomy](cards/lv2024autonomy.md) | Alleviating Travelers' Privacy Concern in Personalized Reco… | 2024 | phygital-service | cited | evidence | 6 | abstract | verified |
+| [lv2025autonomy](cards/lv2025autonomy.md) | Alleviating Travelers' Privacy Concern in Personalized Reco… | 2025 | phygital-service | cited | evidence | 6 | abstract | verified |
 | [lynch2011theorizing](cards/lynch2011theorizing.md) | Theorizing Hospitality | 2011 | hospitality-theory | cited | evidence | 2 | full-text | verified |
 | [lynch2021critical](cards/lynch2021critical.md) | Hospitality & Society: Critical Reflections on the Theorizi… | 2021a | hospitality-theory | cited | evidence | 1 2 | full-text | verified |
 | [lynch2021reprise](cards/lynch2021reprise.md) | Theorizing Hospitality: A Reprise | 2021b | hospitality-theory | cited | evidence | 2 | abstract | verified |
@@ -192,11 +193,11 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [mosca2025museums](cards/mosca2025museums.md) | Phygital Museums as Catalysts for Inclusivity, Well-Being, … | 2025 | phygital-service | cited | evidence | 4 | abstract | verified |
 | [munasinghe2022](cards/munasinghe2022.md) | Hospitality beyond the Commercial Domain: A Triadic Concept… | 2022 | hospitality-theory | cited | rival | 2 3 | abstract | verified |
 | [namheo2025smartness](cards/namheo2025smartness.md) | Rethinking Smartness in Hospitality and Tourism: A Critical… | 2025 | ai-automation | rejected | framing | 1 7 | abstract | crossref-verified |
-| [nguyen2024stereotypes](cards/nguyen2024stereotypes.md) | National Stereotypes in the Cross-Cultural Service Encounte… | 2024 | hospitality-theory | cited | evidence | 7 | full-text | verified |
+| [nguyen2025stereotypes](cards/nguyen2025stereotypes.md) | National Stereotypes in the Cross-Cultural Service Encounte… | 2025 | hospitality-theory | cited | evidence | 7 | full-text | verified |
 | [okhuysenbechky2009](cards/okhuysenbechky2009.md) | Coordination in Organizations: An Integrative Perspective | 2009 | mediation-sovereignty | cited | evidence | 4 6 | abstract | verified |
-| [padigar2024friction](cards/padigar2024friction.md) | `Good' and `Bad' Frictions in Customer Experience: Conceptu… | 2024 | phygital-service | cited | evidence | 7 | abstract | verified |
+| [padigar2025friction](cards/padigar2025friction.md) | `Good' and `Bad' Frictions in Customer Experience: Conceptu… | 2025 | phygital-service | cited | evidence | 7 | abstract | verified |
 | [papadopoulos2021hotels](cards/papadopoulos2021hotels.md) | Violation and Lack of Awareness of Employment Rights in the… | 2021 | ai-automation | rejected | evidence | 5 | abstract | crossref-verified |
-| [pedersen2022](cards/pedersen2022.md) | Discretionary Responses in Frontline Encounters: Balancing … | 2022 | ai-automation | cited | governor | 3 4 | abstract | verified |
+| [pedersen2023](cards/pedersen2023.md) | Discretionary Responses in Frontline Encounters: Balancing … | 2023 | ai-automation | cited | governor | 3 4 | abstract | verified |
 | [rahman2021cage](cards/rahman2021cage.md) | The Invisible Cage: Workers' Reactivity to Opaque Algorithm… | 2021 | ai-automation | cited | evidence | 3 | abstract | crossref-verified |
 | [roelofsenminca2018](cards/roelofsenminca2018.md) | The Superhost: Biopolitics, Home and Community in the Airbn… | 2018 | platform-hospitality | cited | evidence | 2 | abstract | crossref-verified |
 | [scottorlikowski2012accountability](cards/scottorlikowski2012accountability.md) | Reconfiguring Relations of Accountability: Materialization … | 2012 | platform-hospitality | cited | evidence | 3 | full-text | verified |
@@ -211,10 +212,10 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [tussyadiah2020automation](cards/tussyadiah2020automation.md) | A Review of Research into Automation in Tourism: Launching … | 2020 | ai-automation | cited | framing | 1 | full-text | verified |
 | [vaccaro2020contesting](cards/vaccaro2020contesting.md) | 'At the End of the Day Facebook Does What It Wants': How Us… | 2020 | mediation-sovereignty | cited | null | 5 6 | abstract | crossref-verified |
 | [vandoorn2023](cards/vandoorn2023.md) | Organizational Frontlines in the Digital Age: The Consumer-… | 2023 | phygital-service | cited | rival | 3 | abstract | verified |
-| [wang2024genai](cards/wang2024genai.md) | Personalizing Guest Experience with Generative AI in the Ho… | 2024 | ai-automation | held | evidence | 7 | abstract | verified |
+| [wang2025genai](cards/wang2025genai.md) | Personalizing Guest Experience with Generative AI in the Ho… | 2025 | ai-automation | held | evidence | 7 | abstract | verified |
 | [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2025 | phygital-service | rejected | evidence | 6 | abstract | crossref-verified |
 | [wirtz2023digital](cards/wirtz2023digital.md) | Digital Service Technologies, Service Robots, AI, and the S… | 2023 | ai-automation | cited | framing | 1 | abstract | verified |
-| [xu2020facial](cards/xu2020facial.md) | Facial Recognition Check-in Services at Hotels | 2020 | ai-automation | superseded | evidence | 1 6 | abstract | verified |
+| [xu2021facial](cards/xu2021facial.md) | Facial Recognition Check-in Services at Hotels | 2021 | ai-automation | superseded | evidence | 1 6 | abstract | verified |
 | [yeetal2023twosided](cards/yeetal2023twosided.md) | Effects of Reputation on Guest Satisfaction: From the Persp… | 2023 | platform-hospitality | rejected | evidence | 2 | abstract | crossref-verified |
 | [yeung2017hypernudge](cards/yeung2017hypernudge.md) | `Hypernudge': Big Data as a Mode of Regulation by Design | 2017 | mediation-sovereignty | cited | evidence | 6 | full-text | crossref-verified |
 | [ytrearnemoe2021folk](cards/ytrearnemoe2021folk.md) | Folk Theories of Algorithms: Understanding Digital Irritation | 2021 | mediation-sovereignty | cited | evidence | 5 | abstract | crossref-verified |

@@ -27,7 +27,7 @@ readership without importing an outside literature.
 
 ## Key facts / verified quotes with loci
 
-- Analyses 545 data exemplars from host forums; the two dominant themes are 'Algorithm ambiguity' (228) and 'Sense of anxiety/frustration' (160) [full-text]
+- Analyses 545 data exemplars from host forums. The two dominant themes are 'Algorithm ambiguity', at 228 exemplars, and a sense of anxiety and frustration, at 160; the second label wraps across table cells in the PDF and is not quotable as a contiguous string [full-text]
 - Hosts describe rank opacity directly: 'When I search for my place it doesn't show up in the search result...' [full-text]
 - Concludes that withholding information 'provides Airbnb with greater control of the business of the platform and reduces possibilities for hosts to "game the system"' [full-text]
 - Positions itself as 'an early attempt to contribute to the emerging academic dialogue on the algorithmic turn in tourism and hospitality' [full-text]
@@ -35,6 +35,8 @@ readership without importing an outside literature.
 
 
 ## Critical notes & threats
+
+- The theme-to-frequency pairing was read off the PDF by block coordinates, not from extracted text. Table 1 sits in the right-hand column and every linear extraction mis-pairs the labels with the counts, which is how 'Algorithm ambiguity' first came to be read against the wrong number. Anyone re-checking this card should do the same.
 
 - Abstract-only debt cleared 8 August 2026 from the CC-BY-NC-ND accepted manuscript. The full text is stronger for the paper than the abstract was: the withheld-information finding is stated as the platform's control mechanism, which is precisely the knowledge-redistribution claim.
 - One of the eight abstract-only debts, and among the more consequential: it anchors the whole platform-hospitality paragraph.
