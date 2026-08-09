@@ -89,8 +89,15 @@ passing. The chapter can finally be measured against its own genre rather than a
 **Lexical: clean.** All sixteen rules sit inside the genre floor.
 
 **One real defect, found and fixed.** Line 377 read "Pricing the page says nothing about." — a
-mangled fronted object that parses as nothing at all. Now "On pricing the page is silent," which
-keeps the parallel with the *It reads* / *It removes* sentences either side of it. A scan for the
+mangled fronted object that parses as nothing at all. It is now "It says nothing about pricing.",
+matching the plain subject-verb shape of the *It reads* / *It removes* sentences either side of it.
+
+The first replacement written here was "On pricing the page is silent," and the author's verdict on it
+was correct: a fronted prepositional phrase and an inversion, reaching for elegance in a passage whose
+whole rhetorical force comes from three flat parallel clauses. Worth recording, because the failure was
+not the checker's — the checker had already done its job by locating the broken sentence. The failure
+was in the repair, and a mannered fix to a mechanical fault is the easiest kind of slop to introduce
+while believing you are removing some. A scan for the
 same signature across the chapter found four more sentences ending on a preposition, all of them
 idiomatic and correct: "moved on", "to begin with", "what this film is about", "the rest of the film
 runs on."
