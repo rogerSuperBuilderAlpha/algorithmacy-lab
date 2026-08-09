@@ -167,11 +167,28 @@ chapter bibliography.
       narrowed to shot-level handoff confirmation and the on-screen oblique-strategies card; subtitle
       track and the 35-segment inventory carry the rest. Body **~5,180 words**; 78 note keys. Editor
       query (gate 1) still unsent.
-- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 77 notes plus a
+- [x] **Panel 3 applied and audited (2026-08-09).** Every item in `reviews/2026-08-02-panel3/SYNTHESIS.md`
+      §3A–E and the ban residue was checked against the file itself, not against a commit message. All
+      of A1–A4, B1–B3, C1–C4, D1–D5, E1 and the five ban survivors are closed; the commits of 7 August
+      had already applied most of them and this ledger had not caught up. C1 went the Option A route
+      (definitions carry the distinction; attentional vs transactional selector) and C4 went the retitle
+      route (§7 is now "When selection becomes infrastructure"), both of which the panel accepted.
+      Item-by-item evidence in [`chapter/PANEL3_STATUS.md`](chapter/PANEL3_STATUS.md). Body **5,092
+      words**, 78 note keys. E2 (Beller) stays open and optional; the ceiling bites first.
+- [x] **Apparatus reconciled mechanically (2026-08-09).** `check_apparatus.py`: 78 note keys used and
+      78 defined, no gaps or duplicates, zero orphan bibliography entries, zero placeholders. Four live
+      URLs gained access dates — Althouse and *Austin Chronicle* verified HTTP 200; the two Criterion
+      reprints dated to match the sibling entry from the same pass and flagged for a browser check,
+      because Criterion returns 403 to scripted and agent fetches.
+- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 78 notes plus a
       three-part bibliography, pending the editor's confirmation)
 - [ ] Exact collection title / editor / deadline
-- [ ] Physical library checks. Closed by the v3 research pass: Simmel's Wolff pages ("The Triad" is ch. IV,
-      145–169). Still open and now itemised in `reviews/2026-08-02-panel3/SYNTHESIS.md` §7: **Feld p. 1016**,
-      **Rivera, Soderstrom & Uzzi 2010** end to end, **Moretti p. 3** confirm of the two retained phrases,
-      **Bordwell 1985 p. 62**, **Ramírez Berg's section page**, and **the Criterion disc**. Cameron's body
-      was opened by panel 3 (apply A2). One afternoon with the disc still closes more than anything else.
+- [ ] **Author-only remainder — see [`chapter/AUTHOR_TASKS.md`](chapter/AUTHOR_TASKS.md).** Five items:
+      the Criterion disc (still the largest unblock), **Rivera, Soderstrom & Uzzi 2010** end to end,
+      **Moretti p. 3**, sending `editor_query.md`, and confirming two Criterion access dates. **Closed
+      by earlier passes and no longer owed: Feld p. 1016** (note 18 now quotes the page), **Bordwell
+      1985 p. 62** (note 38 records the reprint check), Simmel's Wolff pages, Cameron's body.
+- [ ] `slacker` prose register still uncalibrated. Acquisition attempted 9 August and failed on genre,
+      not access: DOAB serves metadata only, OAPEN's open film PDFs are industry economics and
+      historiography rather than single-film critical essays. Queries tried are recorded in
+      `~/.claude/skills/draft/registers/slacker/manifest.json`.
