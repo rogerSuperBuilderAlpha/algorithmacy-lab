@@ -8,61 +8,99 @@
 
 # Writing style (applies to all prose in this repo)
 
-Write like Thomas Nagel in "What Is It Like to Be a Bat?": plain, blunt, concrete. The
-difficulty belongs in the ideas, not the sentences. State a claim; do not perform the act of
-stating it.
+Write plain, concrete, claim-first prose. The difficulty belongs in the ideas, not the
+sentences. State a claim; do not perform the act of stating it.
 
-The drafts have a recognizable machine cadence. Three constructions produce most of it, and
-they are the priority. Cut them on sight.
+**Authority:** the seven articles in *Academy of Management Annals* 20(2), read in full. The
+specimens, mechanisms and grading rubric are in
+`dissertation/current/paper1/exemplars/annals_20_2/FLOW_AND_COHESION.md`; read it before writing
+prose of any substance for this repo.
 
-## The three priority tics
+Earlier versions of this section were a lexical guide. They legislated tics and word choice and
+said nothing about how one sentence attaches to the next. Prose can obey such a guide completely
+and still read as machine-written, which is what happened through v27: every mechanical band passed
+and the manuscript still graded C− on cohesion.
 
-**1. The antithesis machine.** The drafts define almost everything by what it is not, then
-pivot. This is the dominant sentence engine and it must be cut by roughly two-thirds. The
-forms it takes:
-- `, not X` — "a property of the coding, not a discovery that a market and a platform are alike."
-- `X rather than Y` — "reports what the model yields rather than asserting it."
-- `It is not X. It is Y.` — "It is not, and the instrument is needed because it is not."
-- `is not a / the / an …` — "This is not a thought experiment. It is the documented structure."
+## The eight mechanisms that produce flow
 
-Default to stating the positive claim alone. Use a contrast only when the wrong alternative
-is one a reader would actually reach for, and then at most once per paragraph. If a paragraph
-has two of these, one is decoration — delete it.
+Connectives are the least of it. The smoothest paragraph in the target issue has seven sentences
+and no connectives at all. What carries a reader is this:
 
-**2. Self-narrating honesty and rigor.** The prose constantly announces its own care instead
-of being careful. Cut every instance. Offenders seen in the drafts: "stated plainly," "said
-plainly," "the blunt version belongs here," "not waved past," "names its load-bearing
-decisions rather than hiding them," "one honest qualifier belongs here," "stating it honestly
-matters more than stating it strongly," "the status is stated plainly," "and the dissertation
-says so," "precision about what it can say marks the boundary." State the limitation. Do not
-narrate the virtue of stating it.
+1. **Tail-head linkage.** Sentence N ends on the new item; sentence N+1 opens by naming it, with a
+   demonstrative, pronoun, or definite noun phrase. "…determined by **the ratio** of positive to
+   negative experiences. **This ratio** determines which of three trajectories characterizes a
+   relationship."
+2. **End-focus.** The new item goes last, where the next sentence can reach it. A sentence ending
+   in a citation parenthesis hands the next sentence nothing. Structural sentences — the ones that
+   name parts, state a split, or deliver a verdict — must end on content. Move the citation to
+   subject position ("Gouldner (1954) watched…") or mid-sentence.
+3. **Rename the thread entity.** Same referent, three or four names across a stretch: *Figure 1 →
+   the model → it → the framework*. Holds the thread without drumming the noun.
+4. **Weld the gloss onto the term.** Introduce a construct and gloss it in the same breath, by
+   appositive, em-dash, `that is`, or `i.e.` — then use it as a subject. "…their **incentive
+   structure**—that is, the pattern of payoffs, such as benefits, costs, risks and sanctions—that
+   each actor faces."
+5. **Reformulate.** Restate a complex finding in compressed, portable form; the restatement is what
+   later sentences carry. "**In other words, identity is a strong determinant of what gets
+   selected.**"
+6. **End paragraphs on a forward hook** that names what the next stretch walks, not on an aphorism.
+   An epigram closes a paragraph; a hook opens the next one.
+7. **Open paragraphs on a backward hook** naming something from the previous paragraph's close.
+8. **Group runs of parallel evidence.** Where several findings support one point, subordinate them
+   into fewer sentences or group them under named sub-categories. Never emit one finding per
+   sentence for six sentences.
 
-**3. The mechanized punchy opener.** A short blunt opener is good once; as the shape of nearly
-every paragraph it becomes a metronome ("The level is wrong." "Cost is not an issue." "The
-exhibit is not a one-off."). Vary how paragraphs begin. Let some open on the long sentence
-that carries the idea.
+## Rules that stand
 
-## Rules
-1. **No first person.** No "I," no "we." The subject is the paper, the model, the section, or
-   the thing itself, with an active verb: "Paper 2 shows," "The model classifies."
-2. Plain, ordinary words. Concrete examples over abstract nouns.
-3. Declarative sentences: subject, verb, object. Vary length. Keep long sentences clear by
-   coordinating clauses, not by stacking subordinate clauses ahead of the verb. No periodic
-   sentences that defer the verb behind several clauses.
-4. Say each point once, in the place it belongs. Do not restate a conclusion in near-identical
-   words across sections. The "seat-blind / property of the coding" point, the "program the
-   dissertation opens," and the limitation recaps are the repeat offenders: one clean statement
-   each, then refer back, do not re-argue.
-5. Em-dashes rare: at most one per paragraph, usually none. No em-dash pile-ups. No semicolon
-   splices.
-6. State uncertainty flatly: "this is not yet shown," "the result is unclear."
-7. Rhetorical triads ("a name, a procedure, and a placement"; "name, formalize, grade") only
-   when each member carries distinct content. Not for cadence.
-8. One idea per sentence where possible.
+1. **First person marks authorial labor, never the argument.** Use "I" for what you did — I
+   searched, coded, identify, review, define, order, draw together. State claims impersonally.
+   Olekalns (2026) uses "I" in 45 sentences and not one of them carries a claim. Solo work uses
+   "I," coauthored "we," at roughly 4–8 per 1,000 words.
+2. **Named agents, active voice.** Never open on an abstract noun plus agentless passive ("has
+   been shown"). This doubles as mechanism 2: putting the scholar in subject position keeps the
+   citation off the end of the sentence.
+3. Plain, ordinary words. Concrete examples over abstract nouns. Every abstraction touches a case.
+4. **No self-narrating rigor.** State the limitation; do not narrate the virtue of stating it. The
+   seven exemplars contain zero instances of a sentence commenting on the paper's own care,
+   warrant, or organizing choices. Do not justify your outline, pre-empt objections to your
+   method, or rank your own candor.
+5. State uncertainty flatly: "this is not yet shown," "the result is unclear."
+6. Vary sentence length deliberately: dense, information-rich sentences punctured by short ones.
+   Not uniform punchiness, which is its own tell.
+7. Rhetorical triads only when each member carries distinct content. Not for cadence.
+
+## Rules retired, and why
+
+These were in force through v27 and each blocked one of the eight mechanisms. Do not reinstate them.
+
+- ~~"No first person."~~ Retired for Annals-genre work; see rule 1. The AoM guide prescribes first
+  person outright.
+- ~~"Say each point once."~~ Read it as a section-level rule against re-arguing a conclusion. At
+  sentence level it forbids mechanism 5, which the venue depends on.
+- ~~"Em-dashes rare, at most one per paragraph, usually none."~~ It blocked mechanism 4. The venue
+  runs em-dashes at 2.93 per 1,000; the manuscript sat at 0.49. Use the em-dash appositive to weld
+  a gloss onto a term. Cut only the lazy parenthetical aside.
+- ~~"One idea per sentence where possible."~~ It produced the stacked evidence lists that mechanism
+  8 exists to fix. Subordinate freely; the venue's mean sentence runs 26 words.
+- ~~The antithesis quota (cut `, not X` / `X rather than Y` by two-thirds).~~ The venue uses
+  contrast pairs freely — "Whereas strategic responses aim to solve problems, palliative responses
+  seek to reduce the negative thoughts arising from those problems." Use contrast when the wrong
+  alternative is one a reader would reach for. Do not count them.
+- ~~"Filler transitions: furthermore, moreover, additionally."~~ Moreover and Furthermore are
+  ordinary venue usage (Hertel et al. use *Moreover* eleven times). Ban emphasis markers, not
+  relation markers: see below.
 
 ## Banned openers
-"We want to," "The honest reader," "It is worth," "Crucially," "Precisely," "Importantly,"
-"Note that," "Stated plainly," "To be clear."
+
+Emphasis markers only. These tell a reader how to *feel* about a sentence rather than how it
+*connects*: "Crucially," "Precisely," "Importantly," "Notably," "Note that," "Stated plainly," "To
+be clear," "We want to," "The honest reader," "It is worth."
+
+Relation markers are fine and the venue uses them at 11–35 per 100 sentences: However, Yet, By
+contrast, Similarly, For example, For instance, Moreover, In addition, Thus, Hence, In short,
+Specifically, Instead, Likewise, Accordingly, Building on, Consistent with. Never open a sentence
+with a connective immediately followed by a narrative citation — "Similarly, Magaloni (2006) shows"
+breaks citation parsers. Put it after the subject: "Magaloni (2006) similarly shows."
 
 ## Before / after
 - Mannered: "Reaching into another discipline for a formal model is not a novelty in
@@ -74,12 +112,21 @@ that carries the idea.
   place in that line."
 
 ## Self-check (run before showing prose)
-Scan the new prose and count, per ~1,000 words:
-- `, not` + ` rather than ` + `is not a/the/an` + `It is not/does not` → target well under 5
-  combined (the drafts ran ~7). If a paragraph has more than one, cut to one.
-- Self-honesty phrases (list above) → target zero.
-- Paragraphs opening with a fragment under six words → at most one in three.
-Fix violations before showing. Flag any you deliberately kept and why.
+
+Read the passage aloud and answer these about the paragraph, not the sentence. Counting tics does
+not catch what matters; the v27 manuscript passed every count and still graded C−.
+
+1. Does each sentence open on something the previous sentence ended with? Mark the ones that do not
+   and ask whether the break is doing work.
+2. Does any sentence end in a citation parenthesis where the next sentence needs a handle? Move the
+   citation to subject position.
+3. Run your eye down the sentence openings. Six consecutive new subjects means a stacked list —
+   group or subordinate it.
+4. Does the paragraph end on an epigram? Convert it to a hook that names what comes next.
+5. Is a new term used as a subject before it has been glossed?
+6. Any sentence commenting on the paper's own care, warrant, or organizing choices? Cut it.
+
+Flag anything you deliberately kept and why.
 
 ---
 
