@@ -567,7 +567,7 @@ Obstfeld, David. "Social Networks, the *Tertius Iungens* Orientation, and Involv
 
 Oeldorf-Hirsch, Anne, and German Neubaum. "What Do We Know About Algorithmic Literacy? The Status Quo and a Research Agenda for a Growing Field." *New Media & Society* 27, no. 2 (2025): 681–701.
 
-Pierson, John. "Slacker: Slacking Off." In *Spike, Mike, Slackers & Dykes: A Guided Tour Across a Decade of American Independent Cinema*. New York: Hyperion, 1995. Reprinted by The Criterion Collection. https://www.criterion.com/current/posts/338-slacker-slacking-off.
+Pierson, John. "Slacker: Slacking Off." In *Spike, Mike, Slackers & Dykes: A Guided Tour Across a Decade of American Independent Cinema*. New York: Hyperion, 1995. Reprinted by The Criterion Collection. Accessed August 2, 2026. https://www.criterion.com/current/posts/338-slacker-slacking-off.
 
 Poulaki, Maria. *Before or Beyond Narrative? Towards a Complex Systems Theory of Contemporary Films*. PhD thesis, Universiteit van Amsterdam. Amsterdam: Rozenberg, 2011.
 
@@ -615,7 +615,7 @@ Gerechtshof Amsterdam. Beschikking of April 4, 2023. Case no. 200.295.742/01, EC
 
 ### Primary and documentary sources
 
-Althouse, Ann. "Who's Ever Written a Great Work About the Immense Effort Required in Order Not to Create?" *Althouse*, July 11, 2026. https://althouse.blogspot.com/2026/07/whos-ever-written-great-work-about.html.
+Althouse, Ann. "Who's Ever Written a Great Work About the Immense Effort Required in Order Not to Create?" *Althouse*, July 11, 2026. Accessed August 9, 2026. https://althouse.blogspot.com/2026/07/whos-ever-written-great-work-about.html.
 
 Amazon.com, Inc. "Prime Video Direct Content Providers: Licensing Consideration and Title Review." Prime Video Tech Docs. Last updated August 5, 2025. Accessed August 2, 2026. https://videocentral.amazon.com/support/licensing-consideration-and-title-review.
 
@@ -639,9 +639,9 @@ Real Estate Center, Texas A&M University. *Texas Real Estate Center Trends* 3, n
 
 Rosenbaum, Jonathan. "Slacker." *Chicago Reader*, August 23, 1991.
 
-Rosenbaum, Ron. "*Slacker*'s Oblique Strategy." *New York Observer*, August 13, 2001. Reprinted by The Criterion Collection. https://www.criterion.com/current/posts/1058-slacker-s-oblique-strategy.
+Rosenbaum, Ron. "*Slacker*'s Oblique Strategy." *New York Observer*, August 13, 2001. Reprinted by The Criterion Collection. Accessed August 2, 2026. https://www.criterion.com/current/posts/1058-slacker-s-oblique-strategy.
 
-Savlov, Marc. "Slack to the Future." *Austin Chronicle*, January 21, 2011. https://www.austinchronicle.com/screens/slack-to-the-future-11750242/.
+Savlov, Marc. "Slack to the Future." *Austin Chronicle*, January 21, 2011. Accessed August 9, 2026. https://www.austinchronicle.com/screens/slack-to-the-future-11750242/.
 
 *Slacker*. Directed by Richard Linklater. Austin, TX: Detour Filmproduction, 1990. Distributed by Orion Classics, 1991.
 
