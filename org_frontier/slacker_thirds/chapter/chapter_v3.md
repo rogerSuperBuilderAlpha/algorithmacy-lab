@@ -374,7 +374,7 @@ held.[^70]
 The supplier's side of the same platform states its powers more directly. Amazon publishes how titles
 are licensed for Prime Video, and two of the three powers are on the page. It reads: "we continuously review performance
 metrics and viewing behavior." It removes: titles may be taken down "at any time at the sole discretion
-of Prime Video." Pricing the page says nothing about. What it adds instead is a fourth thing the three
+of Prime Video." On pricing the page is silent. What it adds instead is a fourth thing the three
 powers do not include. Amazon promises a supplier a verdict, visible in the portal if a title is not
 selected, and withholds the reasons: "Unless otherwise indicated," a removed title "may not be
 resubmitted or appealed," and "we cannot provide additional details about why any specific title was or
