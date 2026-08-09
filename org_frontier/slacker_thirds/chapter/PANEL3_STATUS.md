@@ -77,3 +77,42 @@ ceiling and 208 under the panel's working target, so no cut is needed before the
 Two of substance — the Criterion disc and Rivera read end to end — plus the editor query, the Moretti
 page confirm, and two Criterion access dates. All five are in
 [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md), and all five need the author.
+
+
+## Rhythm pass against the calibrated register (2026-08-09)
+
+The `slacker` prose register is now calibrated on 42 single-author critical essays from four
+open-access Amsterdam University Press collections — Jean Epstein, Harun Farocki, *Camera Obscura
+Camera Lucida*, *Film Architecture and the Transnational Imagination* — 250,772 words, selftest
+passing. The chapter can finally be measured against its own genre rather than against nothing.
+
+**Lexical: clean.** All sixteen rules sit inside the genre floor.
+
+**One real defect, found and fixed.** Line 377 read "Pricing the page says nothing about." — a
+mangled fronted object that parses as nothing at all. Now "On pricing the page is silent," which
+keeps the parallel with the *It reads* / *It removes* sentences either side of it. A scan for the
+same signature across the chapter found four more sentences ending on a preposition, all of them
+idiomatic and correct: "moved on", "to begin with", "what this film is about", "the rest of the film
+runs on."
+
+**Three shape readings, and the reason none of them is a revision instruction.**
+
+| | chapter | film-essay corpus | z |
+|---|---|---|---|
+| sentences under 10 words | 24.4% | 8.2% | +3.20 |
+| sentence-length CV | 0.837 | 0.598 | +2.28 |
+| colons per 1,000 | 9.62 | 4.29 | +2.37 |
+
+All fifty short sentences were read individually. They are load-bearing beats, not filler: "The driver
+says nothing." "There is no protagonist." "Austin in 1990 is a setting. Linklater's camera is a
+selector." "It prices each match." Three of them are quoted Linklater dialogue that the measure counts
+as authorial rhythm and should not. The house style asks for exactly this shape — dense sentences
+punctured by short ones — and the corpus it is being compared against is translated continental film
+theory, which runs long by convention. **The z-score is a genre difference, not a defect, and
+lengthening those sentences would damage the chapter.** Recorded here so the next pass does not
+mistake the number for an instruction.
+
+**Three measurement artifacts were fixed in the harness rather than in the chapter**, because each was
+producing a false finding: an em-dash BREACH that measured Amsterdam University Press's preference for
+en-dashes over em-dashes; paragraph dimensions built from PDF extraction that merges paragraphs into
+353-word blocks; and citation rates compared between a footnoted chapter and an author-date corpus.
