@@ -1,0 +1,101 @@
+# Film-referent lexicon for check_film.py
+#
+# Terms that count as "the film is present in this sentence." Built from
+# research/scene_inventory.md (35 dialogue segments) plus the production proper
+# nouns the chapter uses. One term per line. '#' starts a comment.
+#
+# A leading '~' marks a term that counts as a film referent but NOT as a distinct
+# scene, so the film's title and the director's name cannot inflate scene coverage.
+# Everything else is a scene marker: a distinctive string that appears when the
+# chapter actually engages that segment rather than gesturing at the film.
+#
+# Quoted spans of eight words or more also count as film referents automatically,
+# without appearing here -- the chapter quoting dialogue is the film being present.
+#
+# SEEDED 2026-08-10 from the scene inventory. Revise against v4/factbase/scene_ledger.md
+# once that lands: a term that never fires is a scene the chapter cannot reach.
+
+# ---- segment markers, in film order -----------------------------------------
+taxi                    # 1  taxi monologue, alternate realities
+bus station             # 1  "Should have stayed at bus station"
+hit-and-run             # 2  the relay: bystander, card, son, arrest
+hit and run             # 2  v3 engages this segment without the hyphenated phrase
+bystander               # 2
+Bozzio                  # 2  the arresting officer
+struck                  # 2  the mother struck in the street
+street musician         # 3
+Dostoyevsky             # 4  café dictation, "the great work"
+moon                    # 5  "Been on the Moon Since the '50s"
+voting                  # 6  Bush's 18 percent, the nonvoting majority
+Apagato                 # 7  Juan Apagato postcards, "watch for the next episode"
+Stephanie               # 8  Stephanie from Dallas
+pap smear               # 8  the pitch
+T-shirt                 # 9  "brain-dead" ruling class
+saw it on TV            # 10 "you just saw it on TV"
+Bombay                  # 10 the old man's reverie
+fortnight               # 11 "dead within a fortnight"
+panhandl                # 11
+confession              # 12 the televised murder confession
+premeditated fun        # 13
+Cokes                   # 14 kids hawking half-price Cokes
+Ulysses                 # 15 "the last term of a preceding series"
+typewriter              # 15 tent and typewriter thrown in the creek
+charity                 # 16 charity vs self-perfection, they miss the showing
+Conspiracy              # 17 Conspiracy-A-Go-Go, the bookstore
+Ruby                    # 17 Ruby's dogs
+GTO                     # 18 garage talk, the 383 bore kit
+junkyard                # 18
+hitchhiker              # 19 back from the stepfather's funeral
+true call               # 20 the on-camera street interview
+commodity               # 20 "a piece of your own death"
+shoplifter              # 21
+Old Anarchist           # 21-22
+Czolgosz                # 22
+Catalonia               # 22 the story his daughter debunks
+Whitman                 # 22 "there was a man"
+Nietzsche               # 22 the passion for destruction
+Sade                    # 23 the rare Marquis de Sade
+Video Backpacker        # 24 the wall of TVs
+video image             # 24 "more powerful and useful than an actual event"
+pirate                  # 24 the dub-and-contacts distribution chain
+oblique                 # 25 the oblique-strategies cards
+Withdrawing in disgust  # 25
+underlying order        # 25 "There is no structure. The underlying order is chaos"
+breakthrough            # 25
+Scooby                  # 26
+Smurfs                  # 26 conditioning riff
+enslave ourselves       # 27
+guest list              # 27-28 the invitation that fails at the door
+stamp                   # 29 the stamp-licking trick
+Greece                  # 29 the cousin from Greece
+PixelVision             # 30 the camera handed out at the party
+pass it around          # 30
+no film in that         # 30 "there ain't no film in that shit"
+Freemason               # 30
+two o'clock             # 31 "You gotta be somewhere. You can't be here."
+2 a.m.                  # 31
+Dairy Queen             # 32 the British photographer
+24 times a second       # 32 "movies are photography, 24 times a second"
+Blow-Up                 # 32
+Paul Revere             # 33 the dawn loudspeaker car
+Wake up, America        # 33
+weapons                 # 34 the rant into the recorder
+Super-8                 # 35 the carload to the cliff, the camera thrown off
+cliff                   # 35
+
+# ---- production and place: film referents, not scenes -------------------------
+~Slacker
+~Linklater
+~Austin
+~the Drag
+~Guadalupe
+~Dobie
+~Criterion
+~Orion
+~Pierson
+~Sundance
+~Louis Mackey
+~Tsangari
+~Lee Daniel
+~handoff
+~handoffs
