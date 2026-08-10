@@ -55,11 +55,61 @@ them. **Nothing in this category may be guessed, inferred from subtitles, or wri
 around with a hedge.** The transcript is subtitle-derived and the project rule is that it
 is a pointer to the disc, not a source.
 
-**What is blocked until then.** The count and classification of the film's handoffs;
-whether the moon-landing captive answers; whether the pap-smear pitch is cold or follows
-an introduction; the on-screen wording of the oblique-strategies card; the format of the
-finale camera; whether the opening relay is cut or continuous; and the audio wording of
-every quotation the chapter draws from dialogue.
+**What is blocked until then.** Whether the moon-landing captive answers; whether the
+pap-smear pitch is cold or follows an introduction; the on-screen wording of the
+oblique-strategies card; the format of the finale camera; whether the opening relay is cut
+or continuous; and the audio wording of every quotation the chapter draws from dialogue.
+
+### A3a — the handoff count, amended 2026-08-10
+
+A3 originally blocked "the count and classification of the film's handoffs" along with
+everything else the disc settles. That was right while the scenes were illustration. It
+stopped being right when the count became the argument: all three candidate frames put a
+census of the film's joins at the centre, and the chapter's only original empirical claim
+is now the one thing the rule forbade asserting.
+
+The author's decision, 2026-08-10: **a count of audible joins may be asserted**, under five
+conditions, each of which must hold in the finished chapter.
+
+1. **Published as a band, not a point estimate.** Two independent codings of the same
+   transitions returned different numbers — 15 firm bridges against 12 firm plus 5
+   equivocal — because they were counting subtly different things. The band is the honest
+   figure and the disagreement is a finding, not an embarrassment.
+2. **Every equivocal case listed by segment pair**, so a reader can check the judgment
+   rather than take the total on trust.
+3. **The coding method stated in the chapter** — what counts as a bridge, and what does
+   not.
+4. **Marked subtitle-derived throughout**, with the transcript named as the instrument.
+5. **Stated as revisable by the disc.** The count is a claim about audible dialogue. It is
+   not a claim about what the film shows.
+
+What stays forbidden is unchanged and absolute: no shot, no camera movement, no take
+length, no film format, no claim about anything visible rather than audible. A census of
+what can be heard is not a description of what happens on screen, and the chapter may not
+let the first quietly become the second.
+
+### A3b — quoting the film, amended 2026-08-10
+
+A3 blocked the audio wording of dialogue, which left the chapter able to report what
+characters say and unable to put it in quotation marks. For a chapter in a film collection
+that is a strange position, and the editor's standing complaint is already that the film is
+absent from the page.
+
+The author's decision, 2026-08-10: **dialogue may be quoted**, from the subtitle track,
+under three conditions.
+
+1. **The source is named once, in a note**, in the chapter's own words: the dialogue is
+   quoted from the film's subtitle track, which compresses and paraphrases.
+2. **Lines confirmed against the disc are marked as confirmed**, and the note lists them,
+   so the reader can tell which quotations have been heard and which have only been read.
+3. **Contested lines stay out** until the disc settles them. Six of the seventeen candidate
+   quotations are already flagged in `disc_worksheet.md` as disputed in placement or
+   wording; those may not be printed as speech before an afternoon with the disc.
+
+The transcript has earned a little of this trust. It caught a fabricated line in the
+winning frame's own memo — the chosen candidate wrote "a three-dollar cover," and line 1404
+reads "Five-dollar cover. — I got a stamp." An instrument that corrects the argument
+against itself is worth quoting from, with its limits stated.
 
 ## A4 — The collection's title, editor of record, and deadline are unknown
 
