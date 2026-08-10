@@ -56,6 +56,49 @@ DOWNGRADE = [
 PROCESS = re.compile(r"dossier|search record|retrieval record|self.report|research run|"
                      r"synthesis|do.NOT.use section|verification-outcome|access-status", re.I)
 
+# The first version of this filter matched "dossier" anywhere in the source field and
+# threw away real facts, because the dossiers say "dossier" most often when *disclaiming*
+# their own provenance -- "not directly retrieved in this dossier", "page not specified in
+# dossier". The G0 audit found a 70 percent false-positive rate in its sample, and among
+# the casualties were both verbatim Pierson quotations on Orion Home Video, which are the
+# sentences the home-video argument rests on. Deleting a usable fact is the more damaging
+# direction, so a source carrying any bibliographic signal is a source, whatever else the
+# cell says about how it was reached.
+BIBLIOGRAPHIC = re.compile(r"\b(?:19|20)\d{2}\b|https?://|\bv\.\b|\bReports?\b|\bCir\.|"
+                           r"\bU\.S\.|§|\*[^*]+\*", re.I)
+
+
+def is_process(source, claim):
+    # A verbatim quotation is a fact whatever the source cell says about how it was
+    # reached. Two Uber marketplace-page quotations and the Ajunwa tertius bifrons
+    # definition were filtered out because their source cells named the dossier while
+    # disclaiming it; the quotation marks settle it.
+    if claim.lstrip().startswith(('"', '“')):
+        return False
+    return bool(PROCESS.search(source)) and not BIBLIOGRAPHIC.search(source)
+
+
+def load_overrides():
+    """Corrections from the G0 audit, applied on every regeneration."""
+    path = ROOT / "v4" / "factbase" / "CLASS_OVERRIDES.tsv"
+    out = {}
+    if not path.exists():
+        return out
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split("\t")
+        if len(parts) < 4:
+            continue
+        out[parts[0].strip()] = {"class": parts[1].strip(),
+                                 "action": parts[2].strip(),
+                                 "note": parts[3].strip()}
+    return out
+
+
+OVERRIDES = load_overrides()
+
 
 def classify(cell):
     """Return (class_letter, note). Qualified cells downgrade."""
@@ -90,6 +133,13 @@ def parse(path):
             cells = [cid, claim, source, locator, retrieved, klass]
         cid, claim, source, locator, retrieved, klass = cells[:6]
         letter, note = classify(klass)
+        ov = OVERRIDES.get(cid.strip())
+        if ov:
+            if ov["class"] != "-":
+                note = "G0: %s (was %s)" % (ov["note"], letter)
+                letter = ov["class"]
+            else:
+                note = ("G0: " + ov["note"]) if not note else note + " | G0: " + ov["note"]
         rows.append({
             "id": cid.strip(),
             "claim": claim,
@@ -98,7 +148,7 @@ def parse(path):
             "retrieved": retrieved,
             "class": letter,
             "note": note,
-            "process": bool(PROCESS.search(source)),
+            "process": (ov["action"] == "to-process") if ov else is_process(source, claim),
             "file": path.name,
             "line": n,
         })
@@ -208,13 +258,22 @@ def main():
         "here — they live in `GLOSSES.md`, quarantined, because a wrong gloss recorded in the v3",
         "outline propagated through four review panels unread and produced a fatal error.",
         "",
-        "**Provenance classes.** `A` the dossier retrieved the source and the quotation is verbatim",
-        "on record. `B` convergence-verified across secondary sources, primary never opened. `C`",
-        "second-hand, abstract-only, or a paraphrase of an unopened source. `D` needs a person —",
-        "the Criterion disc, a physical copy, a paywall, or a browser.",
+        "**Provenance classes.**",
+        "",
+        "- `A` — the dossier retrieved the source itself and the quotation or fact is verbatim on record.",
+        "- `B` — convergence-verified across secondary sources; the primary was never opened.",
+        "- `C` — second-hand, abstract-only, **single-lens**, bibliographic-metadata-only, or a",
+        "  paraphrase of a source nobody opened. An abstract retrieved is not a body retrieved, and",
+        "  one lens is not the dossiers' own three-lens standard.",
+        "- `D` — needs a person: the Criterion disc, a physical copy, a paywall, or a browser.",
+        "- `X` — forbidden, or explicitly unverified and marked do-not-print.",
         "",
         "**The rule for drafting.** A and B may be written from. C must be marked in the draft as",
-        "second-hand or replaced. D may not be asserted at all until the author supplies it.",
+        "second-hand or replaced. D may not be asserted at all until the author supplies it. X may",
+        "not be used.",
+        "",
+        "Rows carrying a `G0:` provenance note were corrected after the audit in `G0_AUDIT.md`;",
+        "the corrections live in `CLASS_OVERRIDES.tsv` and reapply on every regeneration.",
         "",
         "Merged %s from %d dossier extractions, %d rows." % ("2026-08-10", len(files), total),
         "",
