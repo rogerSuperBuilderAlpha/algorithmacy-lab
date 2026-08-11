@@ -65,7 +65,8 @@ VERBATIM = [
     (r"\b(?:Economists|Sociologists|Film scholars) have a name for\b", "throat-clear: 'X have a name for what…'"),
     (r"\bTwo qualifications\b", "throat-clear: 'Two qualifications, both real.'"),
     (r"\bare worth having\b|\bis worth keeping\b|\bworth keeping\b", "the 'worth' tic (banned as a family)"),
-    (r"\bHere is (?:what|the|how)\b", "throat-clear: 'Here is what the film then does.'"),
+    # sentence-initial only: "matters here is the one" is not a throat-clear
+    (r"(?:^|(?<=[.!?]) )Here is (?:what|the|how)\b", "throat-clear: 'Here is what the film then does.'"),
     (r"\bThe mechanism is concrete\b", "throat-clear: 'The mechanism is concrete.'"),
     (r"\bThe answer runs back\b", "throat-clear: 'The answer runs back a century.'"),
     (r"\bwhich raises a question\b", "throat-clear: 'Which raises a question the parallel can't answer'"),
