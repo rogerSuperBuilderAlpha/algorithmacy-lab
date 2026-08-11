@@ -136,6 +136,75 @@ JARGON = [
 ]
 
 
+def corpus_bands():
+    """Punctuation bands measured from the calibrated film-essay corpus.
+
+    Em-dashes are protected in this chapter's register: they are not a defect and no
+    naive ban applies. That is not the same as leaving them unmeasured, which is how a
+    draft reached 23 per 1,000 words against a 42-essay corpus whose mean is 4.1 and
+    whose heaviest user runs 10.9. A construction can be legitimate and still be a tell
+    at five times the rate anyone in the genre uses it.
+    """
+    import json
+    p = Path.home() / ".claude" / "skills" / "draft" / "registers" / "slacker" / "floors.json"
+    if not p.exists():
+        return {}
+    try:
+        rules = json.loads(p.read_text()).get("rules", {})
+    except Exception:
+        return {}
+    # floors.json carries em-dash; the colon and semicolon bands live in targets.json
+    # under different keys. Reading only the first file is how a colon rate above the
+    # corpus maximum went unreported while the em-dash problem was being fixed.
+    dims = {}
+    tp = p.parent / "targets.json"
+    if tp.exists():
+        try:
+            dims = json.loads(tp.read_text()).get("dimensions", {})
+        except Exception:
+            dims = {}
+
+    out = {}
+    for name, pattern, keys in (("emdash", "—", ("emdash",)),
+                                ("colon", ":", ("colon_prose_1k",)),
+                                ("semicolon", ";", ("semi_prose_1k",))):
+        band = rules.get(name)
+        if not isinstance(band, dict) or "mean" not in band:
+            for k in keys:
+                cand = dims.get(k)
+                if isinstance(cand, dict) and "mean" in cand:
+                    band = cand
+                    break
+        if isinstance(band, dict) and "mean" in band:
+            out[name] = (pattern, band)
+    return out
+
+
+def report_corpus(body_text, total_words):
+    bands = corpus_bands()
+    if not bands:
+        return 0
+    print("PUNCTUATION AGAINST THE CORPUS  (42 single-author film essays)")
+    over = 0
+    for name, (ch, band) in bands.items():
+        n = body_text.count(ch)
+        rate = 1000 * n / total_words
+        mean, sd = band["mean"], band.get("sd") or 1
+        z = (rate - mean) / sd
+        flag = "ok"
+        if rate > band.get("max", 1e9):
+            flag = "ABOVE THE CORPUS MAXIMUM"
+            over += 1
+        elif z > 2:
+            flag = "high"
+        print("  %-10s %6.1f /1k   corpus mean %5.2f  max %5.2f  z=%+5.1f  %s"
+              % (name, rate, mean, band.get("max", float("nan")), z, flag))
+    print("  A rate above the corpus maximum is not a style preference. It means no")
+    print("  author in the reference genre writes this way.")
+    print()
+    return over
+
+
 def scan(path, quiet=False):
     raw = Path(path).read_text(encoding="utf-8")
     body = body_of(raw)
@@ -195,6 +264,8 @@ def scan(path, quiet=False):
                         print("      para@%-5d %r" % (line, m.group()))
                         shown += 1
     print()
+
+    over += report_corpus(" ".join(p for _, p in paras), total_words)
 
     # --- bare jargon
     bare = []
