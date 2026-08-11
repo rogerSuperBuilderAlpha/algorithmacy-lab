@@ -57,7 +57,7 @@ may be asked, that standing loses its counterparty: the guest keeps an addressee
 compensation, and loses the party with authority over the rules. She can be admitted and still have
 nobody to negotiate the terms with. The employee faces the same movement: a hotel room-assignment system has been
 observed fixing the sequence of work, withholding the day's task list and offering a rejection
-affordance that workers feared to use (Spektor et al. 2023), and employees in phygital service
+affordance that workers feared to use (Spektor et al. 2023b), and employees in phygital service
 settings resist when the purpose of the technology is obscured (De Vos et al. 2026). The prevailing
 design value compounds the exposure, because a journey made perfectly fluid (Batat 2024) removes the
 occasions on which guest or employee might have said anything at all, and the field's most recent
@@ -254,7 +254,7 @@ management inside hotels and find frontline managers negotiating continually bet
 direction and the judgement their role still demands, with process standardization
 intensifying work demands and obliging managers to translate algorithmic decisions to the very
 people those decisions affect. Reviewing automation across housekeeping, front desk and kitchen
-work, Spektor et al. (2023) observe that harms concentrate wherever adoption has attended to
+work, Spektor et al. (2023a) observe that harms concentrate wherever adoption has attended to
 management stakeholders alone. The mechanism is visible in adjacent expert occupations, where
 Christin (2017) shows algorithmic instruments arriving as would-be substitutes for professional
 judgement and relocating the categories of judgement from the practitioner into a vendor's model.
@@ -263,7 +263,7 @@ namely the authority to decide what should be done in a particular case, and Mö
 describe platforms deploying matching and control as twin dimensions of the same algorithmic
 management.
 
-The evidence is thick in one place and thin in the other. Spektor et al. (2023, 2025) observed a
+The evidence is thick in one place and thin in the other. Spektor et al. (2023b, 2025) observed a
 hotel room-assignment system which fixed the sequence of work, withheld the day's full task list
 under common configurations, priced each room in contractually specified credits, and offered a
 rejection affordance workers reported they could not use without fearing dismissal. That is
@@ -754,7 +754,7 @@ Batat, Wided (2024), 'What Does Phygital Really Mean? A Conceptual Introduction 
 
 Batat, Wided (2026), 'Phygital Service Research (PSR): Advancing FSR and TSR toward Human-First Experience Design in Hybrid Physical-Digital Ecosystems', *Journal of Services Marketing*, 40:4, pp. 505–518.
 
-Bayaml\io\u glu, Emre (2022), 'The Right to Contest Automated Decisions under the General Data Protection Regulation: Beyond the So-Called `Right to Explanation'', *Regulation & Governance*, 16:4, pp. 1058–1078.
+Bayamlıoğlu, Emre (2022), 'The Right to Contest Automated Decisions under the General Data Protection Regulation: Beyond the So-Called ‘Right to Explanation’', *Regulation & Governance*, 16:4, pp. 1058–1078.
 
 Beatty, Sharon E., Ogilvie, Jessica, Northington, William Magnus, Harrison, Mary P., Holloway, Betsy Bugg and Wang, Sijun (2016), 'Frontline Service Employee Compliance with Customer Special Requests', *Journal of Service Research*, 19:2, pp. 158–173.
 
@@ -816,7 +816,7 @@ Dowding, Keith, John, Peter, Mergoupis, Thanos and Van Vugt, Mark (2000), 'Exit,
 
 Edelman, Benjamin, Luca, Michael and Svirsky, Dan (2017), 'Racial Discrimination in the Sharing Economy: Evidence from a Field Experiment', *American Economic Journal: Applied Economics*, 9:2, pp. 1–22.
 
-Edwards, Lilian and Veale, Michael (2017), 'Slave to the Algorithm? Why a `Right to an Explanation' Is Probably Not the Remedy You Are Looking For', *Duke Law & Technology Review*, 16:1, pp. 18–84.
+Edwards, Lilian and Veale, Michael (2017), 'Slave to the Algorithm? Why a ‘Right to an Explanation’ Is Probably Not the Remedy You Are Looking For', *Duke Law & Technology Review*, 16:1, pp. 18–84.
 
 Eslami, Motahhare, Karahalios, Karrie, Sandvig, Christian, Vaccaro, Kristen, Rickman, Aimee, Hamilton, Kevin and Kirlik, Alex (2016), 'First I ‘Like’ It, Then I Hide It: Folk Theories of Social Feeds', *Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems*, pp. 2371–2382.
 
@@ -846,7 +846,7 @@ Hirschman, Albert O. (1970), *Exit, Voice, and Loyalty: Responses to Decline in 
 
 Hou, Yuansi, Zhang, Ke and Li, Gang (2021), 'Service Robots or Human Staff: How Social Crowding Shapes Tourist Preferences', *Tourism Management*, 83, pp. 104242.
 
-Introna, Lucas D. (2010), 'The `Measure of a Man' and the Ethos of Hospitality: Towards an Ethical Dwelling with Technology', *AI & Society*, 25:1, pp. 93–102.
+Introna, Lucas D. (2010), 'The ‘Measure of a Man’ and the Ethos of Hospitality: Towards an Ethical Dwelling with Technology', *AI & Society*, 25:1, pp. 93–102.
 
 Jhaver, Shagun, Karpfen, Yoni and Antin, Judd (2018), 'Algorithmic Anxiety and Coping Strategies of Airbnb Hosts', *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems*, pp. 1–12.
 
@@ -860,7 +860,7 @@ Kim, Seongseop, Kim, Jungkeun, Badu-Baiden, Frank, Giroux, Marilyn and Choi, You
 
 Kropf, Mario, Spöck, Christoph and Werner, Roman (2026), 'Blame the Robot: Role Responsibility and Ethical Issues Regarding AI-Based Care Robots', *International Journal of Social Robotics*, 18:2, pp. 30.
 
-Larivière, Bart, Bowen, David, Andreassen, Tor W., Kunz, Werner, Sirianni, Nancy J., Voss, Chris, Wünderlich, Nancy V. and De Keyser, Arne (2017), '`Service Encounter 2.0': An Investigation into the Roles of Technology, Employees and Customers', *Journal of Business Research*, 79, pp. 238–246.
+Larivière, Bart, Bowen, David, Andreassen, Tor W., Kunz, Werner, Sirianni, Nancy J., Voss, Chris, Wünderlich, Nancy V. and De Keyser, Arne (2017), '‘Service Encounter 2.0’: An Investigation into the Roles of Technology, Employees and Customers', *Journal of Business Research*, 79, pp. 238–246.
 
 Lashley, Conrad (2000), 'Towards a Theoretical Understanding', in Lashley, Conrad and Morrison, Alison (ed.), *In Search of Hospitality: Theoretical Perspectives and Debates*, Oxford: Butterworth-Heinemann, pp. 1–16.
 
@@ -886,9 +886,9 @@ Lynch, Paul (2017), 'Mundane Welcome: Hospitality as Life Politics', *Annals of 
 
 Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2011), 'Theorizing Hospitality', *Hospitality & Society*, 1:1, pp. 3–24.
 
-Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2021), 'Theorizing Hospitality: A Reprise', *Hospitality & Society*, 11:3, pp. 249–270.
+Lynch, Paul, Germann Molz, Jennie, McIntosh, Alison, Lugosi, Peter and Lashley, Conrad (2021b), 'Theorizing Hospitality: A Reprise', *Hospitality & Society*, 11:3, pp. 249–270.
 
-Lynch, Paul, McIntosh, Alison, Lugosi, Peter, Germann Molz, Jennie and Ong, Chin Ee (2021), 'Hospitality & Society: Critical Reflections on the Theorizing of Hospitality', *Hospitality & Society*, 11:3, pp. 293–331.
+Lynch, Paul, McIntosh, Alison, Lugosi, Peter, Germann Molz, Jennie and Ong, Chin Ee (2021a), 'Hospitality & Society: Critical Reflections on the Theorizing of Hospitality', *Hospitality & Society*, 11:3, pp. 293–331.
 
 Martin, Kirsten and Waldman, Ari (2022), 'Are Algorithmic Decisions Legitimate? The Effect of Process and Outcomes on Perceptions of Legitimacy of AI Decisions', *Journal of Business Ethics*, 183:3, pp. 653–670.
 
@@ -914,7 +914,7 @@ Odekerken-Schröder, Gaby, Mennens, Kars, Steins, Mark and Mahr, Dominik (2021),
 
 Okhuysen, Gerardo A. and Bechky, Beth A. (2009), 'Coordination in Organizations: An Integrative Perspective', *Academy of Management Annals*, 3:1, pp. 463–502.
 
-Padigar, Manjunath, Li, Yi and Manjunath, Chandana N. (2024), '`Good' and `Bad' Frictions in Customer Experience: Conceptual Foundations and Implications', *Psychology & Marketing*, 42:1, pp. 21–43.
+Padigar, Manjunath, Li, Yi and Manjunath, Chandana N. (2024), '‘Good’ and ‘Bad’ Frictions in Customer Experience: Conceptual Foundations and Implications', *Psychology & Marketing*, 42:1, pp. 21–43.
 
 Pan, Shan-Yan, Lin, Yan and Wong, Jose Weng Chou (2025), 'The Dark Side of Robot Usage for Hotel Employees: An Uncertainty Management Perspective', *Tourism Management*, 106, pp. 104994.
 
@@ -950,9 +950,9 @@ Shen, Zhengyu and Jin, Liyin (2024), 'Bargaining with Algorithms: How Consumers 
 
 Shryock, Andrew (2012), 'Breaking Hospitality Apart: Bad Hosts, Bad Guests, and the Problem of Sovereignty', *Journal of the Royal Anthropological Institute*, 18:S1, pp. S20–S33.
 
-Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Begleiter, Ben and Kulkarni, Chinmay (2023), 'Charting the Automation of Hospitality: An Interdisciplinary Literature Review Examining the Evolution of Frontline Service Work in the Face of Algorithmic Management', *Proceedings of the ACM on Human-Computer Interaction*, 7:CSCW1, pp. 1–20.
+Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Begleiter, Ben and Kulkarni, Chinmay (2023a), 'Charting the Automation of Hospitality: An Interdisciplinary Literature Review Examining the Evolution of Frontline Service Work in the Face of Algorithmic Management', *Proceedings of the ACM on Human-Computer Interaction*, 7:CSCW1, pp. 1–20.
 
-Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023), 'Designing for Wellbeing: Worker-Generated Ideas on Adapting Algorithmic Management in the Hospitality Industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
+Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023b), 'Designing for Wellbeing: Worker-Generated Ideas on Adapting Algorithmic Management in the Hospitality Industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
 
 Spektor, Franchesca, Fox, Sarah E., Min, Susan, Sarfo, Gabriel, Stringam, Betsy, Riordan, Christine A., Rho, Hye Jin, Begleiter, Ben and Forlizzi, Jodi (2025), 'Working Together: Algorithmic Management and Peer Relationships in the Hospitality Industry', *Proceedings of the 2025 ACM Designing Interactive Systems Conference*, pp. 3221–3234.
 
@@ -984,7 +984,7 @@ Xing, Yijun and Zhang, Jason Z. (2026), 'The Algorithmic Guest: AI as a Co-Creat
 
 Xu, Feng Zeng, Zhang, Yun, Zhang, Tingting and Wang, Jing (2020), 'Facial Recognition Check-in Services at Hotels', *Journal of Hospitality Marketing & Management*, 30:3, pp. 373–393.
 
-Yeung, Karen (2017), '`Hypernudge': Big Data as a Mode of Regulation by Design', *Information, Communication & Society*, 20:1, pp. 118–136.
+Yeung, Karen (2017), '‘Hypernudge’: Big Data as a Mode of Regulation by Design', *Information, Communication & Society*, 20:1, pp. 118–136.
 
 Ytre-Arne, Brita and Moe, Hallvard (2021), 'Folk Theories of Algorithms: Understanding Digital Irritation', *Media, Culture & Society*, 43:5, pp. 807–824.
 
@@ -992,4 +992,4 @@ Yurrita, Mireia, Draws, Tim, Balayn, Agathe, Murray-Rust, Dave, Tintarev, Nava a
 
 Zervas, Georgios, Proserpio, Davide and Byers, John W. (2021), 'A First Look at Online Reputation on Airbnb, Where Every Stay Is above Average', *Marketing Letters*, 32:1, pp. 1–16.
 
-Zientara, Piotr, Adamska-Mieruszewska, Joanna and B\k ak, Monika (2023), 'Unpicking the Mechanism Underlying Hospitality Workers' Intention to Join a Union and Intention to Quit a Job. Evidence from the UK', *International Journal of Hospitality Management*, 108, pp. 103355.
+Zientara, Piotr, Adamska-Mieruszewska, Joanna and Bąk, Monika (2023), 'Unpicking the Mechanism Underlying Hospitality Workers' Intention to Join a Union and Intention to Quit a Job. Evidence from the UK', *International Journal of Hospitality Management*, 108, pp. 103355.
