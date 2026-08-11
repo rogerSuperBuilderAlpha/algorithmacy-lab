@@ -87,9 +87,9 @@ def authors(raw):
     return ", ".join(out[:-1]) + " and " + out[-1]
 
 
-def render(kind, f):
+def render(kind, f, suffix=""):
     who = authors(f["author"]) if "author" in f else "Anon."
-    year = f.get("year", "n.d.")
+    year = f.get("year", "n.d.") + suffix
     title = clean(f.get("title", ""))
     head = f"{who} ({year}), "
 
@@ -161,7 +161,32 @@ def main():
     if unverified:
         print("WARNING: cited but not marked verified: " + ", ".join(unverified), file=sys.stderr)
 
-    rendered = sorted((render(*entries[k]) for k in keys), key=lambda s: s.lower())
+    # Harvard requires a/b suffixes when the same authors publish twice in one year,
+    # and the manuscript already cites them that way ("Lynch et al. 2021a, 2021b").
+    # Without this the rendered list printed two bare 2021 entries and the citation
+    # check reported a disagreement that was the renderer's, not the author's.
+    # The signature is FIRST AUTHOR + year, not the whole author list: two works can
+    # share a first author and a year while differing further down the list, and in
+    # text they both read "Lynch et al. 2021". That is the collision a reader hits.
+    def first_surname(f):
+        if "author" not in f:
+            return "Anon."
+        first = clean(f["author"].split(" and ")[0]).strip()
+        return first.split(",")[0].strip() if "," in first else first.split()[-1]
+
+    by_author_year = {}
+    for k in keys:
+        kind, f = entries[k]
+        by_author_year.setdefault((first_surname(f), f.get("year", "n.d.")), []).append(k)
+    suffix = {}
+    for sig, ks in by_author_year.items():
+        if len(ks) > 1 and sig[1] != "n.d.":
+            # order by title so the letters are stable across runs
+            for i, k in enumerate(sorted(ks, key=lambda k: clean(entries[k][1].get("title", "")).lower())):
+                suffix[k] = chr(ord("a") + i)
+
+    rendered = sorted((render(*entries[k], suffix=suffix.get(k, "")) for k in keys),
+                      key=lambda s: s.lower())
     print("## References\n")
     for r in rendered:
         print(r + "\n")
