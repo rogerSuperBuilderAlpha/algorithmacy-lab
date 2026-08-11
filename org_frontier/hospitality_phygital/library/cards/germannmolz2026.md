@@ -14,9 +14,9 @@ read_depth: abstract
 verified: crossref-verified
 verified_date: 2026-08-08
 source_basis: "Crossref-verified against the publisher record; abstract and author summary read. Full text not yet obtained."
-generated_run: 2026-08-08-library-build
-flags: [must-engage]
-hold_rationale: "Found by the 8 August audit after the manuscript was complete. Must be engaged in sections 1-2 before submission; the displacement is not yet chosen."
+generated_run: 2026-08-11-p9
+flags: [must-engage, abstract-only-debt]
+hold_rationale: "Found by the 8 August audit, still unengaged, and re-surfaced independently by the P9 pass on 11 August. Two defects fixed on 11 August: the source had no references.bib entry, so it could not have rendered even once engaged; and the engagement was recorded as an open displacement question rather than as a plan. The plan is now in OUTLINE.md -- sections 1.3, 3.8 and 9, framing rather than periphery. Full text still owed before the differentiation paragraph can be written."
 ---
 
 ## Summary
@@ -45,8 +45,13 @@ question, in our target journal, in the current volume.
 
 ## Where it enters the manuscript
 
-Not yet in the manuscript. This is the single open must-engage debt from the 8 August audit.
-Engaging it costs roughly 26 reference words plus 60 body words against 64 words of margin, so it
-requires a displacement — the audit proposed Liang, whose badge-incentive clause folds into
-Roelofsen and Minca. The decision is recorded as open in the research round and is not settled
-here.
+Not yet in the manuscript, and the longest-standing debt in the project: flagged 8 August,
+unengaged for three days, rediscovered 11 August by a research pass that did not consult this
+library. That failure is itself recorded in `../../manuscript/NOTES.md`.
+
+The engagement is no longer an open displacement question. `OUTLINE.md` places it in three
+locations: section 1 paragraph 3, where her question becomes the paper's opening; section 3
+paragraph 8, where the differentiation is stated once and plainly and where the Riordan sentence is
+retired; and the conclusion, where the paper's closing beat answers her title. The word cost is
+higher than the 8 August estimate because the engagement is now framing rather than a citation, and
+it is paid out of the trim rather than out of a displacement.

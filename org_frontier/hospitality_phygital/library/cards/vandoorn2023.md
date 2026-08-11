@@ -6,7 +6,7 @@ year: 2023
 doi: 10.1016/j.jbusres.2023.114000
 venue: "Journal of Business Research"
 cluster: phygital-service
-status: cited
+status: superseded
 role: rival
 used_by_sections: [3]
 claims: [not-that-triad, caw-rival]
@@ -14,9 +14,12 @@ read_depth: abstract
 verified: verified
 verified_date: 2026-08-07
 source_basis: "Crossref-verified; abstract read via Consensus. Framework structure taken from the abstract and the paper's own propositions summary."
-generated_run: 2026-08-08-library-build
+generated_run: 2026-08-11-p9
 flags: []
+superseded_by: "lariviere2017service, odekerken2021service, li2021systematic, gursoy2026reconceptualizing -- the tighter triad concession list adopted after the prior-art map"
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 

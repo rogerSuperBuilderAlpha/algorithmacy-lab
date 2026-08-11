@@ -57,7 +57,7 @@ def body_of(lines):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("paper")
-    ap.add_argument("--refs", type=int, default=61,
+    ap.add_argument("--refs", type=int, default=77,
                     help="cited references; Intellect Harvard renders at ~26 words each. Measure the\n                         rendered list directly before any lock decision.")
     args = ap.parse_args()
 

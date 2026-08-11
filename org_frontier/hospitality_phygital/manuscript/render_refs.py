@@ -43,12 +43,32 @@ def parse_bib(text):
     return entries
 
 
+ACCENTS = {"k": "\u0328", "r": "\u030a", '"': "\u0308", "'": "\u0301", "`": "\u0300", "^": "\u0302", "~": "\u0303",
+           "c": "\u0327", "v": "\u030c", "=": "\u0304", ".": "\u0307", "u": "\u0306"}
+
+
 def clean(s):
-    for a, b in [("\\&", "&"), ("--", "–"), ("``", "‘"), ("''", "’"),
-                 ('{\\"o}', "ö"), ('{\\"u}', "ü"), ("{\\'e}", "é"),
-                 ("{\\'a}", "á"), ("{\\'i}", "í"), ("{\\`e}", "è"),
-                 ("{\\dh}", "ð"), ("{\\TH}", "Þ")]:
+    """Unescape LaTeX into Unicode. Accents are handled generically, not by table:
+    a hardcoded list silently passed \\"a and \\'o straight through to the rendered
+    reference list, which is how 'Sch\\"anzel' reached a draft. Braced or bare."""
+    import unicodedata
+    for a, b in [("\\&", "&"), ("\\#", "#"), ("\\%", "%"), ("\\_", "_"), ("--", "\u2013"), ("``", "\u2018"), ("''", "\u2019"),
+                 ("{\\dh}", "\u00f0"), ("{\\TH}", "\u00de"), ("{\\o}", "\u00f8"),
+                 ("{\\ss}", "\u00df"), ("{\\aa}", "\u00e5"),
+                 ("{\\i}", "\u0131"), ("\\i ", "\u0131"), ("{\\j}", "\u0237"),
+                 ("{\\l}", "\u0142"), ("{\\L}", "\u0141"), ("{\\O}", "\u00d8"),
+                 ("{\\AA}", "\u00c5"), ("{\\ae}", "\u00e6"), ("{\\AE}", "\u00c6")]:
         s = s.replace(a, b)
+
+    def sub(m):
+        mark = ACCENTS.get(m.group(1))
+        return unicodedata.normalize("NFC", m.group(2) + mark) if mark else m.group(2)
+
+    s = re.sub(r'\{\\(["\'`^~cvkr=.u])\s*\{?([A-Za-z])\}?\}', sub, s)   # {\"a} {\"{a}} {\k{a}} {\k a}
+    s = re.sub(r'\\(["\'`^~cvkr=.u])\s*\{([A-Za-z])\}', sub, s)      # \k{a}  \c{c}  \v{s}
+    s = re.sub(r'\\(["\'`^~])\{?([A-Za-z])\}?', sub, s)              # bare \"a
+    # single-backtick / straight-apostrophe quotes inside titles, left after `` and '' pass
+    s = re.sub(r"`([^`']+)'", "\u2018\\1\u2019", s)
     return s.replace("{", "").replace("}", "").strip()
 
 
@@ -91,14 +111,17 @@ def render(kind, f):
         return head + f"*{title}*, {addr}: {pub}."
 
     if kind == "incollection":
-        eds = authors(f["editor"]) if "editor" in f else ""
+        eds = authors(f["editor"]) if f.get("editor") else ""
         pages = clean(f.get("pages", ""))
-        return (head + f"'{title}', in {eds} (ed.), *{clean(f.get('booktitle',''))}*, "
-                f"{clean(f.get('address',''))}: {clean(f.get('publisher',''))}, pp. {pages}.")
+        lead = f"in {eds} (ed.), " if eds else "in "
+        tail = f", pp. {pages}" if pages else ""
+        return (head + f"'{title}', {lead}*{clean(f.get('booktitle',''))}*, "
+                f"{clean(f.get('address',''))}: {clean(f.get('publisher',''))}{tail}.")
 
     if kind == "inproceedings":
         pages = clean(f.get("pages", ""))
-        return head + f"'{title}', *{clean(f.get('booktitle',''))}*, pp. {pages}."
+        tail = f", pp. {pages}" if pages else ""
+        return head + f"'{title}', *{clean(f.get('booktitle',''))}*{tail}."
 
     return head + f"*{title}*."
 
@@ -116,6 +139,16 @@ def main():
     if missing:
         print("ABORT: keys not in references.bib: " + ", ".join(missing), file=sys.stderr)
         return 1
+
+    seen_doi = {}
+    for k in keys:
+        doi = entries[k][1].get("doi", "").lower().strip()
+        if doi and doi in seen_doi:
+            print(f"ABORT: {k} and {seen_doi[doi]} are the same work (DOI {doi}). "
+                  f"Merge the bib entries before rendering.", file=sys.stderr)
+            return 1
+        if doi:
+            seen_doi[doi] = k
 
     refused = [k for k in keys if "DO-NOT-CITE" in entries[k][1].get("note", "")]
     if refused:
