@@ -413,302 +413,583 @@ predicts.
 
 ---
 
-# Part 4 — research round 2, recorded late (2026-08-08)
+# Part 4 — round 2, prompts P1, P2, P6 and P7 (2026-08-09)
 
-Written retrospectively. Round 2 ran P1, P2 and P6 from
-[`RESEARCH_PROMPTS.md`](RESEARCH_PROMPTS.md) and added five sources, but no FOUNDATION part was
-written at the time, so for several weeks the only record of why those sources were held was a
-one-line note in the bibliography. The arm's own output convention requires a part per run; this
-repairs the omission rather than pretending it did not happen.
+Four prompts run in parallel against [`RESEARCH_PROMPTS.md`](RESEARCH_PROMPTS.md), then a separate
+mechanical verification sweep over every citation the four returned. P6 and P7 were promoted onto
+the critical path by the special-issue editor's letter of 2026-08-08; P1 and P2 were already
+blocking. P3, P5 and P8 remain unrun and are still the declared drop candidates.
 
-**P1, hospitality's theorizing line.** Added Hemmington (2007) on hospitality businesses misdescribed
-as service operations, Lugosi (2008) on hospitable moments as emergent and partly unscripted, and
-Lynch et al. (2021b), the reprise companion to the decade review. Together with Lashley and the
-Derrida distinction already held, this closed the section 2 density gap. `field_map.md` still marked
-that gap open until this pass.
+**The verification sweep is the reason to trust the rest of this part.** It caught a wrong author
+list on an entry that three of its five named authors have nothing to do with, a volume error, a
+publication-year error, and an uncited corrigendum. The standing rule held. Details under
+"Verification catches" below.
 
-**P2, algorithmic management inside hotels.** Added Jianu, Ashton and Lugosi (2025) in *IJHM* — a
-Delphi study of frontline managers in algorithmically managed hotels, co-authored by a scholar the
-CFP itself cites. This is the acquisition that let the employee half of the argument stop reasoning by
-analogy from ride-hail and freelancing. It is also why Christin and Möhlmann became affordable cuts.
+## Six findings that change the paper
 
-**Also added:** Munasinghe et al. (2022), which matters less as evidence than as a warning. Hospitality
-already has a triadic conceptualisation of the host-guest encounter, and a paper proposing a triad
-without distinguishing itself from that one invites the charge of reinventing an existing framework.
+### 1. The triadic move has been published in a hospitality journal, and the paper must now say why it is not that paper
 
-**Not run:** P3, P4, P5, P7 and P8. P7's question — which of the abstract's seven outcome variables
-can be responsibly claimed — was eventually answered by the editor revision rather than by a research
-run, and the answer was to state them as proposed rather than established relationships.
+This is the most consequential finding in the round and it needs a decision before §3 is revised.
+Customer experience in hospitality has already been reconceptualized beyond dyadic
+provider-consumer models into "hybrid, triadic configurations involving customers, employees, and AI
+systems," with artificial intelligence described as redistributing agency, altering relational
+dynamics, and transforming interpretive labour (Gursoy 2026). That is this paper's move (a) and part
+of its move (c), in *Journal of Hospitality Marketing & Management*, in print February 2026.
+Artificial intelligence has separately been found to act as a third agent in the encounter
+(Roederer et al. 2026), and a phygital tourism experience triad has been named in *Tourism
+Management Perspectives* (Zheng et al. 2025).
 
-# Part 5 — the deep-research audit (2026-08-08)
+Triadicity as such is no longer available as the contribution. Two things survive and both are
+better claims. The first is the *host* role rather than the third node: hospitality theory loads the
+host with obligation in a way that "employee" does not, so the normative asymmetry between an
+employee-in-a-triad and a host-in-a-triad is the argument, and it is one only a hospitality-theory
+paper can make. The second is the seamlessness critique, which no one in this literature has made
+(finding 4).
 
-Five parallel audits across Consensus, Scholar Gateway and Crossref, one per concept cluster, each
-asked to recommend only swaps: an addition had to name what it displaced. The manuscript was at 8,936
-words against a 9,000 ceiling, so nothing could simply be added.
+A reviewer for this special issue will find Gursoy. The manuscript must engage it in §3, not the
+response letter.
 
-## The finding that matters
+### 2. The target journal has already theorized algorithmic mediation of hospitality, once
 
-**Germann Molz (2026), 'Guests without hosts: On the digital biopolitics of network hospitality',
-*Hospitality & Society* 16:1, pp. 63–82.** Reads Airbnb as an inhospitable institutional and
-algorithmic governance form constraining hosts and guests in extractive relations.
+*Hospitality & Society* has published a multi-sited ethnography of platform food-delivery work that
+extends Lashley's commercial, private and social domains with a proposed **virtual domain** and
+introduces **algorithmic hostility** as the counter-concept to hospitality at the human-digital
+interface (Riordan 2024). Two independent passes surfaced it without prompting, which is how a
+reviewer will encounter it.
 
-Three facts make it unavoidable. It is in the target journal's current volume. Its sole author is a
-co-editor of that journal, and a co-author of both the 2011 founding statement and the 2021 reprise
-this paper cites. And its title is close to the inverse of ours.
+Citing it does three things at once. It signals fluency with the venue. It supplies a
+hospitality-theoretic vocabulary for algorithmic mediation that is not borrowed from service
+marketing. And it carries the societal, labour and exclusion register the editor asked for. Cite it
+as the concept the paper extends into the phygital hotel, and read the full text before attributing
+findings; only the abstract was reached.
 
-Section 1 currently claims the hospitality and phygital literatures "have not been brought into
-contact at the point where it matters most". She brought them into contact, in this journal, before
-submission. The claim is exposed until the paper engages her. The distinction is real and statable —
-her account is biopolitical and diagnostic, ours is a coordination account with a checkable condition
-and derived affordances — but the paper must state it, generously and early, or a reviewer will state
-it less kindly. Carded as `must-engage`; the displacement is not yet chosen.
+### 3. The employee half is documented back of house and predicted at the guest interface, and the paper is stronger saying so
 
-## Recommended swaps, all open
+P2 returned a split verdict and it should be adopted rather than smoothed over.
 
-Each is carded as `rejected` with its displacement argument, so the reasoning survives whether or not
-the swap is made. In rough order of value: Bovens (2007), the definitional source for accountability
-as a forum relation, which the paper currently uses second-hand through Ananny and Crawford; Martin
-and Waldman (2022), the positive contestability finding section 6 lacks; Wilson-Nash et al. (2025) on
-digital technology captivity, which names the bypass argument as a construct and covers accessibility;
-Spektor et al. (2023, DIS) on unionized guest room attendants under algorithmic room assignment; Buell
-and Norton (2011) on operational transparency, which would give section 7 an experimental warrant;
-Mele and Russo-Spena (2021) on systems of insight and engagement, the closest published antecedent to
-the dual-place process; Garland-Thomson (2011) on misfitting, the embodied twin of torque; Ye et al.
-(2023) on guests being rated; Papadopoulos et al. (2021) on hotel workers' access to grievance
-channels; Buhalis et al. (2020) on value co-destruction; and Ehsan et al. (2024), which would
-modernize a 2004 interaction-design anchor.
+**Documented.** For hotel guest room attendants the claim is not an analogy. A commercial
+room-assignment system fixes the sequence of work, withholds the full day's task list under common
+configurations, prices each room in contractually specified credits, and offers an in-app rejection
+affordance that workers reported they could not use without fearing dismissal (Spektor et al. 2023).
+"Can neither see nor overrule" is a fair description of what that study observed in a hotel. A
+sequel extends the work to peer relationships among hotel workers (Spektor et al. 2025), and a
+synthesis note argues that these systems carry variable configuration options, so workplace-level
+configuration and the power relations around it determine the effect on the labour process rather
+than the adoption of the technology itself (Mutari and Figart 2026).
 
-## Confirmations, which are findings too
+**Not documented.** For front-desk agents, reservation staff and restaurant floor staff there is no
+hospitality-native empirical basis for saying algorithmic systems have removed the categories of
+judgement from the employee. Six sub-topics were searched and five came back empty: property
+management and CRM task allocation, algorithmic scheduling in hotels specifically, employee
+performance scoring built from guest reviews, automated upsell prompts constraining what an agent
+may offer, and restaurant frontline algorithmic control generally. Housekeeping quota systems are
+the one populated cell, and that literature is essentially one union-partnered research consortium
+working US properties.
 
-The audits certified a dozen current holdings as best-in-class with nothing better available:
-Okhuysen and Bechky on the integrating conditions, Henkens on contingent well-being effects, Kim and
-Hou on human contact, Belanche on responsibility attribution, Lv on information autonomy, Folger on
-voice, and the Cheney-Lippold with Fourcade and Healy pairing on classification. Nobody has revised
-the integrating conditions since 2009. And nobody has published the anti-seamlessness argument in a
-hospitality venue — it exists fully formed only in trade press, which strengthens the paper's position
-rather than threatening it.
+**The asymmetry is a finding about the field, not a hole in the paper.** Algorithmic relocation of
+judgement is documented in hospitality where the work is unseen by the guest, and not yet documented
+where the work is performed in front of the guest, because hospitality research has studied the
+guest's experience of technology almost exclusively and the frontline worker's almost not at all.
+That maps directly onto the phygital argument and gives §3 a defensible research-agenda close: the
+guest-facing half of algorithmic hospitality is theorized and unobserved.
 
-One cite-check rather than a swap: Nam and Heo (2025) in *IJCHM* is the nearest prior art in a
-hospitality journal. It does not make our argument, but the paper should not claim the field's silence
-too loudly without acknowledging that a critical reflection on "smartness" exists.
+**One source cuts against the paper and must be cited as a complication.** Revenue-management
+pricing curves in large US hotel chains function as guidelines rather than mandates, because the
+system cannot capture the demand nuances agents observe firsthand; the experimental question is what
+makes agents deviate, and the answer runs through how the performance metric is framed (Bendoly
+2013). The algorithm does not remove the judgement, it re-anchors it, and the lever is the
+measurement regime rather than the prescription. A reviewer who knows the revenue-management
+literature will raise this. Pre-empting it costs about thirty words and is Rahman-compatible: control
+through measurement rather than command is the same mechanism the paper already argues.
 
-## On the American Phygital Association
+### 4. Seamlessness is the only one of the paper's four moves that nobody has made
 
-The editor asked for citations to APA research. There is no citable APA publication series: the
-*Phygital Business Review* carries no ISSN, no DOIs and no indexing, and no proceedings volume exists
-for the Paris summits. APA research reaches print through summit-linked special issues in
-*Journal of Macromarketing* and *Journal of Services Marketing*, which is what the paper cites. See
-[`../library/VENUE_RULINGS.md`](../library/VENUE_RULINGS.md).
+Transformative phygital service research already critiques opacity and rigidity, and it already
+names algorithmic mediation of agency, digitally enforced rule structures, and non-human interpretive
+labour (Shabnam et al. 2026). It does not critique smoothness. PH-CX positively endorses fluidity and
+continuum in value delivery, so seamlessness is a stated value of the framework rather than an
+oversight (Batat 2024a). The friction literature that would trouble it sits entirely outside phygital
+scholarship, in consumer and service research (Padigar et al. 2025) and in retail experience
+memorability (Phillips et al. 2024).
 
-## Two defects the audit surfaced in the manuscript itself
+Nobody has turned friction on the phygital frameworks. Lead §7 with this, and let the triad and the
+redistribution argument support it rather than carry the contribution.
 
-Both predate the audit and both had survived every prior read. Morrison (2014) was cited in section 5
-with no entry in the reference list. And the two Lynch 2021 works rendered identically as "(2021)"
-while the text cited 2021a and 2021b. Both were repaired on 8 August, and both are the kind of thing
-the library's citedness reconciliation now catches automatically.
+### 5. The abstract's outcome list contains a category error, and the fix is one sentence
 
-# Part 6 — the open-access full-text pass (2026-08-08)
+Six outcomes are asserted in a single sentence of the locked abstract and none is sourced anywhere
+in the manuscript. Sourcing them is the smaller problem. The list is not well formed: guest agency
+and employee discretion are the same construct on two sides of the encounter, interpersonal
+recognition and belonging are the same construct under two names, and in the transformative service
+research framing the paper is about to adopt, trust and belonging are *constituents of* well-being
+rather than its peers. A reviewer who reads *Journal of Service Research* catches that in the
+abstract before reaching the body, and the editor's request to expand well-being makes it worse
+unless the structure changes.
 
-The library shipped with one full text against 93 abstracts and 7 metadata-only records. That is an
-honest number and an embarrassing one, so this pass went after the rest. It raised the count to 28,
-cleared one of the eight abstract-only debts, and — the part worth writing down — caught a factual
-error in a manuscript already merged to `main`.
+Variable by variable, against the test of whether the literature establishes both that the outcome is
+studied in the service encounter and that technological mediation moves it:
 
-## What was tried, and what each route was worth
-
-Unpaywall and OpenAlex, queried for all 91 DOIs, reported 41 open. Semantic Scholar added 9 more
-PDFs the aggregators had missed. Direct fetching then recovered 18, and mining repository landing
-pages for `citation_pdf_url` and DSpace bitstream links took it to 26. arXiv, OpenAIRE and DOAJ added
-8, for 34 candidates before verification.
-
-The wall is bot detection, not licensing. Eighty-one fetch attempts returned HTTP 403 from Elsevier,
-SAGE, Taylor & Francis and the ACM Digital Library — publishers serving content that Unpaywall
-correctly reports as open, to browsers but not to scripts. `curl` with a full browser header set does
-not get past it; neither does WebFetch on Elsevier, ACM, Emerald, Taylor & Francis or Wiley. WebFetch
-does render SAGE's genuinely open titles, which is how Burrell was read. The remaining ~60 works need
-institutional credentials in a real browser session, and that is an author task, not an agent task.
-
-Several "green" open-access records turned out to be metadata-only: `research.wur.nl`,
-`research.rug.nl`, `stars.library.ucf.edu`, `aisel.aisnet.org` and the Utrecht DSpace all advertise a
-copy and hold no file. Unpaywall's `oa_status` is a claim about the record, not about retrievability.
-
-## Five wrong documents, caught before they reached a card
-
-Title-similarity search is how the DOI-less works were chased, and it produced five false matches
-that a token-overlap check scored as perfect:
-
-| card | what actually downloaded |
-|---|---|
-| `lashley2000towards` | 'Towards Understanding Sparse Filtering', a neural-networks paper |
-| `derrida2000hospitality` | Tagiew, 'The Economy of Internet-Based Hospitality Exchange' |
-| `bowkerstar1999sorting` | a five-page Brazilian book review of *Sorting Things Out* |
-| `cotter2019visibility` | a Portuguese master's thesis on tattooists and Instagram |
-| `algorithmacyLabLiteracy` | a book chapter on land registration law |
-
-Two more — `dowding2000exit` and `garlandthomson2011misfits` — were Cambridge Core navigation pages
-carrying an abstract and a reference list, and were demoted rather than counted.
-
-None of these reached a card, because nothing was allowed near a card until it showed both the title
-*and* an author surname in its opening pages. This is the venue rulings' standing rule — search
-summaries are leads, never sources — applied one layer further down: a retrieved file is a lead too.
-
-## The defect
-
-`zheng2025triad` was carded, and the manuscript written, on the claim that the phygital tourism
-experience triad comprises "physical, digital and social elements". It does not. Read in full, the
-PTET framework "conceptualizes experience formation as the alignment of cognitive and embodied
-actions, technological affordances, and spatial configurations spanning virtual spaces, physical
-tourism sites, and users' self-location". Section 3 has been corrected to "embodied action,
-technological affordance and spatial configuration".
-
-The paper's argument survives untouched — spatial configuration still conditions the encounter rather
-than committing determinations within it, so the contrast drawn against all three rival triads holds.
-The exposure was the citation, not the reasoning. Tussyadiah co-authored that paper and is a
-plausible referee for this submission, which is what made the error expensive as well as wrong.
-
-## Qualifications the abstracts had hidden
-
-Reading the full texts changed five cards in ways worth carrying into the response letter. Edelman
-et al.'s 16% acceptance gap is **limited to hosts who have never had an African-American guest**, and
-the authors decline to separate race from socioeconomic status. Kim et al. is explicitly
-COVID-conditioned, and the pandemic pushes preference *towards* robots on hygiene grounds. Hou et
-al.'s conditionality runs through a named mechanism, social withdrawal, over a baseline in which
-tourists generally do prefer human staff. Tussyadiah's review sets four research priorities of which
-adoption is one, so section 1 describes the literature she reviews rather than her own agenda.
-Edwards and Veale's null is wider than the card claimed: it indicts individual-rights remedies as a
-class, not explanation rights specifically, which strengthens the move from competence to standing.
-
-## Still open
-
-Seven debts remain: `folger1977voice`, which carries the whole of section 7, plus
-`cheneylippold2011identity`, `liang2017superhost`, `morrison2014voice`, `roelofsenminca2018`,
-`ytrearnemoe2021folk`, and the `germannmolz2026` must-engage decision. Sixty-six cards still sit at
-abstract depth. Every one of them is a subscription problem rather than a search problem, and the
-list is ready for a session with Bentley credentials.
-
-# Part 7 — auditing the full texts against the cards (2026-08-08)
-
-Part 6 put 28 sources into the library at full-text depth. This part checks that what the cards say
-about them is true, because a card written from a fresh reading is still a card written from memory
-of that reading an hour later.
-
-## Quotations
-
-Every quoted string on a full-text card was matched back against the retrieved file. Sixty-five
-quotations, all located. Getting there took three corrections to the checker and two to the corpus.
-
-The checker first had to learn the difference between noise the *file* injects into a sentence — line
-numbers, `- 12 -` page markers, running heads — and material the *quote* dropped. Only the second is
-a fault. On that distinction, two quotes were genuinely eliding an inline citation without saying so
-(`bosma2022platformed`, `tussyadiah2020automation`) and now carry `[…]`.
-
-The corpus corrections mattered more. Five files were two-column PDFs whose `pdftotext -layout`
-extraction interleaved the columns, so sentences that read continuously were in fact stitched across
-a column break. Quotes taken from them were assembled from text that never ran in that order.
-Re-extracting with PyMuPDF block ordering — columns detected by centre-line straddling, then sorted
-left column before right — recovered the true reading order and validated six quotations that had
-looked missing. `chengfoley2019` needed a further step: its theme table sits in the right-hand
-column and every linear extraction mis-pairs the labels with their counts, so the frequencies were
-read off the PDF by block coordinate instead. 'Algorithm ambiguity' does carry 228 and the
-anxiety-and-frustration theme 160, but the second label wraps across cells and is no longer quoted
-as a contiguous string.
-
-`lynch2021critical` is the one card claiming full-text depth with no retained copy. It was read on
-7 August for the register measurement; Unpaywall now reports the article closed with no open
-location, so the claim cannot be re-checked. Rather than demote a depth that was real or assert one
-nobody can verify, the card says exactly this and carries a new `no-retained-copy` flag, which puts
-it in the index's open-debts table.
-
-## Four references were citing a volume that does not carry the article
-
-Sweeping all 101 cards against Crossref turned up a pattern rather than an incident. Six references
-paired an online-first year with a version-of-record issue:
-
-| citekey | was | issue is actually |
+| outcome | verdict | why |
 |---|---|---|
-| `lv2025autonomy` | 2024, *Journal of Travel Research* 64:8 | November 2025 |
-| `nguyen2025stereotypes` | 2024, *Tourism Review* 80:7 | September 2025 |
-| `padigar2025friction` | 2024, *Psychology & Marketing* 42:1 | January 2025 |
-| `pedersen2023` | 2022, *JPART* 33:1 | January 2023 |
-| `wang2025genai` | 2024, *Current Issues in Tourism* 28:4 | February 2025 |
-| `xu2021facial` | 2020, *JHM&M* 30:3 | April 2021 |
+| Trust | state as influence | Best supported without qualification; direct hospitality evidence that mediation moves it (Tussyadiah et al. 2020; Della Corte et al. 2023) |
+| Well-being | state as influence | Established at both levels (Anderson and Ostrom 2015; Galeone and Sebastiani 2021; Uysal et al. 2016), both valences evidenced. Reposition as superordinate |
+| Employee discretion | state as influence | Two *Tourism Management* papers put automation's effect on autonomy and withdrawal beyond dispute (Pan et al. 2025; Li et al. 2019) |
+| Guest agency | state as influence | The core construct; the affordances map onto it directly. Support is theoretical and platform-labour-side, so keep the claim qualitative |
+| Belonging | soften to proposition | Well established as a service outcome and demonstrably technology-sensitive, but the three sources are a coffeehouse, an elderly care home and an online health forum. Not hospitality, not under algorithmic mediation |
+| Interpersonal recognition | drop or subsume | No measurement literature exists for recognition as a service outcome, and it overlaps belonging so heavily that the empirical literature treats them as one thing |
 
-Four of those are cited. Where a reference gives the issue's volume and page extent it is citing the
-version of record, and the year has to be the issue year: a reader sent to *Tourism Review* 2024 for
-volume 80 finds volume 79. Years corrected, citekeys renamed to match, and the four in-text
-narrative citations moved with them.
+Recognition does better work in this paper as the hospitality-theoretic *mechanism* — what host and
+guest owe each other — than as a dependent variable. Demote it and reclaim the words.
 
-One near-miss in the other direction: `alfrink2023contestable` looked wrong because Crossref carries
-no print date for it, but the article's own title page reads *Minds and Machines* (2023) 33:613–639.
-The card is right and Crossref is incomplete. Crossref is a check, not an authority.
+The structural fix replaces the flat list with two levels: the affordances shape **proximal**
+encounter outcomes, guest agency, employee discretion and trust, and through them **distal**
+well-being outcomes at individual and collective levels, of which belonging is one. That is one
+sentence of roughly the same length, it absorbs the editor's individual-collective and societal ask
+into the architecture rather than bolting it on, and it costs the co-author three words rather than
+a rewrite.
 
-## What is now enforced
+**Count discrepancy to settle first.** This arm's files describe seven outcome variables. The
+abstract sentence as written contains six. Resolve against the co-author's file before opening the
+conversation; arriving with the wrong count weakens the rest of the case.
 
-`manuscript/check_citations.py` compares every surname-and-year in the body against the rendered
-reference list — 68 citations against 275 surnames — and is wired into `ci/reproduce.json` as
-`hospitality-citations-agree`. It needs no network and no full texts, so it runs everywhere. Had it
-existed a day earlier it would have caught the moment the reference list and the body disagreed.
+### 6. The moral reading of hospitality's return to the guest will not survive a reviewer who knows Lynch
 
-The quotation audit cannot be a CI gate, because it needs the retrieved full texts and those do not
-belong in the repository. It lives with the acquisition scripts and should be re-run by hand
-whenever a full-text card gains a quotation.
+Welcome is substantially tactical and self-interested, a matter of "hospitality life politics"
+deployed to negotiate the world day to day, and the author of that finding reports becoming
+pessimistic about hospiety given the degree of self-interest informing individual actions
+(Lynch 2017). Any claim in §2 that hospitality's return to the guest is fundamentally ethical in
+character is falsifiable from the source the section most needs to cite.
 
-# Part 8 — going after Folger (1977), and what turned up instead (2026-08-08)
+The better-supported claim, and the one every source in P1 converges on, is that the return is
+**relational and negotiated**: recognition, acknowledgment, and the capacity to contest the terms of
+access. Hospitality specifies a position from which the guest can act back. That reframe also
+sharpens the contribution, because algorithmic mediation then strips the guest not of moral standing
+but of the negotiating position hospitality has always constituted, which is falsifiable and
+phygital-specific rather than a lament.
 
-The priority read-depth debt was `folger1977voice`, because section 7 rests on it more heavily than
-on any other single source. The full text was not obtained. Something more useful was.
+Two mechanical gains from the same source. The **micro-host / macro-host** distinction — individual
+service workers against institutions such as airlines — is a hospitality-native answer to the paper's
+own title question: the algorithm operates as a macro-host, and macro-hosting without a micro-host is
+a new configuration rather than a scaled-up old one. And welcome as "a kind of social oil which only
+becomes remarkable if it somehow fails" opens the seamlessness critique in the field's voice instead
+of importing it from design research.
 
-## The retrieval attempt, for the record
+## What P6 settled about the frameworks
 
-Closed in Unpaywall, OpenAlex, Semantic Scholar, CORE, OpenAIRE and the Internet Archive. APA PsycNet
-serves WebFetch a loading shell and nothing else. `scholar.archive.org` and the fatcat API sit behind
-a session-verification interstitial. ERIC's coverage of *JPSP* begins after 1977. Academia.edu and
-ResearchGate hold pages for the article but return 403 and offer no full text. What the search did
-confirm: volume, issue and page extent are 35:2, pp. 108-119, and OpenAlex counts 1,019 citations.
+Three works confirmed distinct, and a fourth found that this arm did not know about. PH-CX is
+*Journal of Strategic Marketing* 32:8 (Batat 2024a). The phygital research paradigm is a *Qualitative
+Market Research* guest editorial, 27:3 (Batat 2024b). PSR is *Journal of Services Marketing* 40:4
+(Batat 2026a). **HFPV, the Human First Phygital Value framework, is in *Journal of Macromarketing*
+and names institutional governance, justice, equity and institutional trust** (Batat 2026b). Batat
+has moved toward power. The differentiator is therefore level of analysis rather than topic: HFPV
+works at ecosystem scale and this paper works at the encounter.
 
-## The manuscript's claim does not match the finding
+The paradigm paper was read in full and is ontological and methodological rather than political.
+Agency appears once, and in the *research* relationship: participants as co-researchers, content
+creators, curators and collaborators. Axiology governs the ethical considerations researchers must
+address in designing study frameworks. The paradigm asks who decides in the study, not in the
+encounter. That is a precise and documentable silence.
 
-Section 7 says Folger found that voice reduced experienced injustice **independently of whether the
-outcome improved**. Independence is exactly what the study does not report.
+**PH-CX's components could not be verified.** Nine retrieval routes failed, including two systematic
+reviews that use PH-CX as their analytical spine without enumerating its elements. One review reports
+three components — driving forces, connectors and pillars — and fourteen inductive subdimensions,
+naming four: omnichannel integration, proactive storytelling, inclusivity, co-creation
+(Corinaldesi 2025). **Treat the component structure as unverified and read the article before
+characterizing it.** §3 cannot survive a component-level error in a special issue edited by the
+framework's author.
 
-The design crossed three factors — outcome (equity or inequity), procedure (voice or mute) and
-payment sequence (constant or improve) — with sixth-grade boys sorting cards across ten work periods
-for a manager who divided the reward. On the **procedural** fairness measure, voice workers were more
-satisfied with the allocation process than mute workers. On the **outcome** fairness measure there is
-an interaction, and in the improve condition the direction reverses: a pay sequence that improved
-after voice was rated *less* fair than the same improving sequence without voice, while a constant
-sequence was rated *more* fair with voice than without. These tendencies appeared chiefly in the
-inequity conditions. This is the seed of what the later literature calls the frustration effect, and
-of Folger's own Referent Cognitions Theory.
+**The relationship to state is friendly critique.** Not extension, because extensions do not contest
+their parent's design values and this paper contests seamlessness. Not complement, because
+complements sit alongside and this paper argues something inside PH-CX is wrong for hospitality.
+Friendly critique is both accurate and the generous reading, since PSR's "ethically and
+technologically mediated" and HFPV's governance vocabulary show the frameworks moving this way
+already.
 
-**Provenance, stated so nobody has to guess.** That correction is not full-text verified. It rests on
-two independent searches returning consistent, detailed, abstract-shaped statements of design and
-results, corroborated by Folger, Rosenfield, Grove and Corkran (1979), where the fair process effect
-is explicitly conditional on what the subject knows about a co-worker's opinion. Under this arm's own
-standing rule — search summaries are leads, never sources — that is enough to stop asserting the
-current sentence and not enough to publish a replacement.
+**Candidate prose for §3, to be edited rather than lifted:**
 
-## Why this improves the paper
+> Phygital service research names service experience as ethically and technologically mediated but
+> stops short of specifying how mediation redistributes knowledge, discretion and authority within
+> the encounter (Batat 2026a). This paper specifies that redistribution and argues that the fluidity
+> PH-CX prizes can itself hollow out the host role it is meant to serve (Batat 2024a).
 
-The underlying point survives and sharpens. What the paper needs from Folger is that voice matters
-beyond outcome quality: an encounter can deliver good outcomes efficiently and still withhold
-something whose absence costs. Independence would have made voice and outcome separable and additive.
-The interaction says something stronger and more useful — an improved outcome does not absorb or
-substitute for voice, because voice restructures how the outcome is subsequently judged, while
-process satisfaction runs on its own measure. Seamlessness that delivers the right result without
-the surface on which anything could be said is not thereby neutral.
+## The American Phygital Association request is only partly satisfiable
 
-A draft replacement is recorded on the card, to be confirmed against the full text rather than
-trusted.
+The editor asked for citations to "prior phygital research published within the American Phygital
+Association." APA is a professional association with Batat as founder of phygital science and
+editor-in-chief, publishing the *Phygital Business Review* (member-access curated case studies),
+*APA Insights*, and the summits. **No indexed, DOI-bearing, peer-reviewed APA literature exists
+distinct from Batat's own journal articles** — no ISSN, no volume structure, no author lists.
 
-## What this cost, and what it is worth
+Satisfy the request by citing the Batat corpus densely, now four works rather than two, and naming
+the association once in text or a note as the institutional home of phygital science. Do not
+manufacture *Phygital Business Review* citations. They are not verifiable and the editor knows
+exactly what that publication contains.
 
-Three research rounds and a full-text audit all passed over this citation. The library caught it only
-because clearing the read-depth debt forced someone to ask what the paper actually reports rather
-than what it is routinely cited for. The routine citation is the trap: most of the literature invokes
-Folger (1977) for a plain fair-process effect, and a paper can inherit that reading without ever
-touching the article.
+## Named absences, which are citable
 
-`claim-contradicted` is now a flag in the schema, and it prints at the top of the index with the
-loudest text in the file. Sections 7's sentence must not go to Bentley's submission portal in its
-current form.
+- **No study of belonging as a measured outcome in a hotel or restaurant encounter under algorithmic
+  mediation.** The closest work is outside hospitality or inside hospitality without technology.
+- **No study testing any of the five affordances against any of these outcomes in hospitality.** Only
+  human accessibility has an empirical proxy (Lei et al. 2024). **Contestability returns nothing at
+  all in the hospitality corpus.** Strictly, every affordance-to-outcome arrow in the paper is a
+  proposition, and the abstract should not read as though any has been tested.
+- **No measurement literature for interpersonal recognition** under that name or its near synonyms.
+  Service research operationalizes warmth, social presence and connectedness instead.
+- **No hospitality study of collective or community well-being effects of hospitality automation.**
+  The field has individual-level automation effects and collective-level non-automation well-being,
+  and the two halves do not meet. This is the gap the editor's expansion request opens, and it should
+  be claimed rather than papered over.
+- **No Kantian argument made by a hospitality scholar in a hospitality venue.** Everything sits in
+  political theory, international relations or migration studies. Attribute the conditional-welcome
+  lineage through Bulley (2015) and the Lynch editorials rather than citing Kant directly; a domain
+  reviewer reads a direct Kant citation as the paper reaching outside its field.
+- **No theorization of the guest's reciprocal obligation in a commercial setting.** Guest obligation
+  and bad guesthood are theorized richly in refugee, migration and private-hosting literatures, not
+  in commercial hospitality journals. §2 can name the gap and claim it.
+- **No hospitableness instrument measuring anything that flows from guest to host.** Every scale
+  found measures host attributes or guest perceptions. The field's own measurement apparatus has
+  never treated the relation as two-directional, which is a clean critique of the field made from
+  inside it.
+- **No published critique or rejoinder to the Lynch et al. theorizing line.** The 2021 package is
+  self-reflexive. Nothing intervening must be engaged.
+- **Genuine nulls on service technology and well-being are essentially unpublished.** Write the
+  editor's "neutral" case as conditionality and moderation, and say plainly that the field
+  under-reports nulls. That is more credible than manufacturing a neutral literature.
+
+## Verification catches
+
+The sweep re-resolved every flagged citation against Crossref. Five results need carrying into the
+bibliography.
+
+1. **A wrong author list.** The retail frictionless-experience paper was returned with five authors
+   from a secondary index. The record shows three, and Odekerken-Schröder, Mahr and Letheren are not
+   among them. Correct: Phillips, Russell-Bennett and Kowalkiewicz, DOI 10.1080/02642069.2022.2119222,
+   *The Service Industries Journal* 44:13–14, pp. 919–948. This is exactly the failure the standing
+   rule exists to catch, and it is the second such catch on this project.
+2. **A volume error.** TPSR sits in *Journal of Services Marketing* volume **40**, issue 4, not
+   volume 39. This resolves the conflict with the PSR entry, which is also volume 40.
+3. **A year error.** The hotel robot dark-side paper carries a print date of February **2025**, not
+   2024.
+4. **An uncited corrigendum.** The social-service-robot trust paper has a corrigendum at
+   DOI 10.1016/j.ijhm.2024.103732, *IJHM* 119, art. 103732, May 2024. Cite alongside the original,
+   and check what it amends before quoting any coefficient.
+5. **A truncated title.** The *Hospitality & Society* algorithmic-hostility article carries the
+   subtitle "Emerging interactions across the virtual domain."
+
+Two entries verified except for pagination: the *Journal of the Royal Anthropological Institute*
+records carry no page field in Crossref, a known gap in older Wiley deposits rather than evidence the
+ranges are wrong.
+
+**PH-CX volume settled at 32**, issue 8, pp. 1220–1243, online 2022, in print November 2024. The
+competing index listing volume 31 is wrong.
+
+## Read-depth warning that binds the revision
+
+Only three sources across this entire round were read in full: the phygital research paradigm
+editorial, the mundane-welcome article, and the mediated-third-places article. Everything else is
+abstract plus verified metadata. **No specific effect size, coefficient or mechanism from any
+abstract-only source may enter the manuscript until the full text is in hand.** The citations are
+safe. The substantive attributions are not yet, and §3 and §6 are where that distinction will be
+tested.
+
+## Still open after this round
+
+- **P3, P5 and P8 unrun.** Declared drop candidates. Dropping them costs depth, not correctness,
+  provided the manuscript states what it did not survey.
+- **PH-CX full text.** Blocking an accurate §3.
+- **Gursoy (2026) full text.** Blocking the decision on what §3 claims as new.
+- **Zheng et al. (2025) full text.** The name collides with this paper's triad and the content is
+  unverified.
+- **Spektor et al. (2025) full text.** Likely the most on-target item in P2's set; ACM returned 403
+  and no open deposit was located. If it delivers, it outranks several entries above it.
+
+---
+
+# Part 5 — full-text retrieval and the triad prior-art map (2026-08-09)
+
+Four texts were blocking §3 after Part 4. One was retrieved, one was located but machine-blocked, two
+are genuinely paywalled with no legitimate open copy. The retrieval attempt then turned up something
+larger than the texts themselves, and it settles what this paper contributes.
+
+## The triad is not new, and has not been new since 2017
+
+Part 4 finding 1 treated Gursoy (2026) as the paper that pre-empted the triadic move. That was
+understated. The customer–employee–technology triad has been explicit in service and hospitality
+research for nearly a decade, re-derived independently at least five times.
+
+| year | source | what the third party is called |
+|---|---|---|
+| 2000 | Bitner, Brown and Meuter, *JAMS* 28:1 | Infused **tool**; the encounter is still a dyad |
+| 2017 | Larivière et al., *JBR* 79 | **Augments or substitutes the employee**; earliest explicit three-way framing |
+| 2017 | van Doorn et al., *JSR* 20:1 | **Automated social presence** |
+| 2018 | Wirtz et al., *JOSM* 29:5 | **Frontline actor** with a role typology |
+| 2020 | Belanche et al., *JOSM* 31:2 | **Object of responsibility attribution** after failure |
+| 2020 | Robinson et al., *JBR* 116 | Explicitly **dyadic**, 2x2 with either node human or AI |
+| 2021 | Odekerken-Schröder et al., *JOSM* 33:2 | Literal "**service triad**"; augmenting or substituting agent |
+| 2021 | Li et al., *IJHM* 95 | Literal "**encounter triad**"; AI as mediator or facilitator |
+| 2023 | Fan, Han and Wang, *JTR* 63:8 | Chatbot as **collaborator** within a service triad |
+| 2026 | Xing and Zhang, *IJCHM* 38:4 | AI as **co-creator**; the title says "the algorithmic guest" |
+| 2026 | Gursoy, *JHMM* 35:2 | **Algorithmic actor** with distributed agency |
+
+**Consequence for the manuscript.** Any claim that phygital hospitality is triadic rather than dyadic
+will read as restating an established position. The triad must be conceded in §3 and cited to
+Larivière et al. (2017), Li et al. (2021) and Odekerken-Schröder et al. (2021), with Gursoy (2026) as
+the most recent hospitality statement. Conceding it early costs perhaps sixty words and removes the
+paper's single largest exposure.
+
+Note the correction this pass forced on itself: Robinson et al. (2020) was reported by a secondary
+source as building a triad. The abstract says "dyadic" outright, twice. It is a 2x2 in which either
+node may be human or AI, which is a different claim, and it reduces rather than adds to the prior
+art.
+
+## Nobody treats the third party as a host, and that is the paper
+
+Every characterization in the table above falls into a narrow and consistent set: tool, interface,
+automated social presence, employee substitute, frontline actor, object of blame attribution,
+mediator, facilitator, collaborator, co-creator, algorithmic actor. **None of this literature reaches
+for hospitality's own ethical vocabulary — welcome, threshold, guest-right, host-obligation — to
+characterize the technology.**
+
+The nearest miss is instructive rather than threatening. Customers' attributions of responsibility to
+a robot after service failure have been studied (Belanche et al. 2020), but that is an empirical
+question about blame judgments, not a normative claim that the technology bears a duty of welcome.
+Accountability imposed from outside and obligation held by a host are different things, and the
+difference is where this paper sits.
+
+Gursoy's own closing move confirms the opening rather than closing it. His argument ends on
+technological precision and human empathy as complementary sources of experiential value, which
+assigns precision to the machine and reserves the relational and moral register for the human. He
+draws exactly the line this paper exists to question. He has not taken the ground; he has marked it.
+
+**This is safe to claim.** The absence was searched for directly and confidently reported.
+
+## Seamlessness is unclaimed too, with slightly less confidence
+
+No peer-reviewed critique of seamlessness, frictionlessness or smoothness as a design value was found
+in the triad literature or in adjacent hospitality and customer-experience work. The one promising
+hospitality hit was checked and does not address friction: its paradoxes are authentic/fantastical,
+structured/unstructured, branded/ecological, bubbled/exposed (Zha et al. 2024). Everything else on
+seamless hospitality technology is trade press.
+
+The friction literature that exists sits outside hospitality entirely (Padigar et al. 2025;
+Phillips et al. 2024). PH-CX positively endorses the thing this paper questions: its own abstract
+describes "fluidifying the journeys of customers from online to offline and inversely."
+
+The search here was narrower than the triad search, so treat this "no" with somewhat less confidence
+than the host finding. It is still the paper's second uncontested move.
+
+## What the contribution now is
+
+Two claims, both verified as unclaimed, and the second stronger than the paper currently treats it:
+
+1. **The third party occupies the host role, and hospitality loads the host with obligations the
+   employee relation does not generate.** Concede the triad, then ask what follows when the party
+   that recognizes, routes and admits is not a party that can be obliged.
+2. **Seamlessness is not self-evidently hospitable.** The frameworks this special issue is built on
+   treat fluidity as a design good rather than as a question.
+
+The structural move is gone. The normative move is untouched. That is a better paper than the one
+that had to defend the triad as novel, and it is also a more honest one.
+
+## Retrieval outcomes
+
+**Obtained: Spektor et al. (2025), via the NSF Public Access Repository** (par.nsf.gov, award
+2128954; the deposit route that worked for the 2023 paper worked again). Findings below.
+
+**Located but machine-blocked: Zheng et al. (2025).** A legitimate author accepted manuscript sits in
+the University of Surrey open repository (openresearch.surrey.ac.uk), file "PTET TMP Final
+Manuscript.pdf". Three fetch routes returned 403 from an anti-bot layer rather than a paywall. **A
+human with a browser can almost certainly download this.** It remains the one name collision
+outstanding.
+
+**Not available: Gursoy (2026).** Unpaywall reports closed, no repository copy, not in DOAJ.
+Washington State's repository holds no accepted manuscript and the author's posted CV predates the
+article. It is listed on his ResearchGate profile in request-a-copy state. Routes: Bentley
+interlibrary loan, the ResearchGate request button, or emailing the author.
+
+**Not available: PH-CX (Batat 2024a).** Closed at Taylor & Francis. A HAL record exists at
+normandie-univ.hal.science/hal-04444804 but is a **metadata-only deposit with no file attached**. The
+author's own site links only to the publisher paywall. Bentley interlibrary loan is the route.
+
+**A correction to Part 4 on PH-CX's components.** Part 4 recorded a secondary review as reporting
+three components and fourteen subdimensions. Reading that review's phrasing more carefully, the
+fourteen subdimensions appear to be **the reviewers' own inductive synthesis across the phygital
+literature**, using Batat's three-part structure as a deductive coding scaffold, rather than
+terminology Batat herself uses (Corinaldesi 2025). The three top-level names are confirmed from
+Batat's own abstract: driving forces, connectors, pillars. **The fourteen are not confirmed as hers.**
+Do not attribute them to her without the full text.
+
+## Spektor et al. (2025), read in full — and one finding that changes §6
+
+The sequel studies the same unionized hotel housekeeping department and the algorithmic task-
+assignment platform, now looking at peer and lateral relationships.
+
+Findings that bear on the manuscript:
+
+- Formal digital assignment displaces informal face-to-face delegation, and workers are uncomfortable
+  digitally assigning work to colleagues they see daily.
+- Digital assignments strip out the in-person negotiation that used to resolve gray-area tasks
+  between departments, leaving responsibility ambiguous and pushing resolution into informal channels
+  such as break-room conversation.
+- The system privileges written communication and disadvantages non-native English speakers. Around a
+  dozen interviewees preferred phone, radio or in-person ordering, which undercuts the
+  standardization the system exists to deliver.
+- Manual dispatch had depended on one dispatcher's personal knowledge of seniority, sections and the
+  physical layout. Without that tacit expertise, algorithmic assignment becomes rigid and potentially
+  unfair.
+- Workers interrupt physical cleaning to log status, and develop workarounds — calling managers
+  instead of logging tickets, using paper, batching completions before logging — that function as
+  quiet resistance to the tool's rigidity.
+
+**The finding that matters most is about where standing came from.** The self-sequencing feature that
+lets workers reorder their own room assignments **is not a native technical affordance. It was
+negotiated into the union contract.**
+
+That is this paper's contestability argument, observed. §6 already holds that accountability is a
+relation between parties rather than a state a party can be in, so no degree of individual competence
+manufactures a forum. Here is a case where the forum was constituted — by collective bargaining — and
+the resulting affordance was then built into the system. Adjustability existed because an institution
+made it exist. **This is the strongest single piece of evidence in the arm's corpus for why
+coordinative sovereignty must be a second construct rather than a facet of algorithmacy**, and it is
+hospitality-native.
+
+It also sharpens the managerial implication the editor asked for. The affordances are not all
+discharged by design choice. Some are discharged by institutional arrangement, and a paper that says
+which is which is giving practitioners something usable.
+
+**Scope discipline.** The study is exclusively back of house. It does not examine guest-staff
+interaction. Guest requests entered by front-desk staff cascade into housekeeping coordination, and
+that is the only guest-facing thread. It supports the Part 4 split verdict rather than closing it.
+
+---
+
+# Part 6 — the claim audit (2026-08-09)
+
+Every claim the paper makes was isolated (31 claims, frozen in
+[`../manuscript/CLAIMS.md`](../manuscript/CLAIMS.md)), typed by exposure, and run against the
+literature adversarially under the plan in [`CLAIM_AUDIT_PLAN.md`](CLAIM_AUDIT_PLAN.md). Nine
+research units in three waves; every agent instructed to refute, with CLEAR verdicts requiring a
+search log. Thirty new load-bearing citations were then re-verified against Crossref or publisher
+records in a mechanical sweep. Verdict-by-claim detail lives in CLAIMS.md; this part records what
+the audit changes.
+
+## The tally
+
+No claim died outright. One citation did: **Folger (1977) is a kill as currently used** — the paper
+cites it for voice reducing injustice independently of outcome, and the study shows an interaction
+in which voice paired with improvement was rated *less* fair, on a sample of eighty sixth-grade
+boys. The repair (drafted in CLAIMS.md, claim 23) rebuilds the voice argument on Lind, Kanfer and
+Earley (1990), where post-decision voice explicitly incapable of changing the outcome still raised
+fairness judgements, and folds the frustration effect in as part of the argument rather than a
+liability. Otherwise: 6 CLEAR or settled, 4 GRAZE, the rest WOUND — each wound with a drafted
+repair, and in nearly every case the repaired claim is stronger than the original because it stands
+on named antecedents instead of empty ground.
+
+## The three pre-registered collisions all confirmed
+
+Bovens (2007) defines accountability verbatim as "a relationship between an actor and a forum" —
+cite, do not argue, alongside Metcalf et al. (2022), whose title *is* the paper's sentence, and
+Johnson (2021). Verbeek (2005) and Ihde (1990) are the mediation-theory lineage for "constitutive
+mediator"; the phrase itself remains unclaimed in-field. Raisch and Krakowski (2021), read in full,
+operate at task-allocation level with no operational test, and their non-separability thesis is an
+argument *for* relocating the distinction to the encounter — absorb as motivation. The machine-ethics
+sweep found the fourth collision live: Kropf, Spöck and Werner (2026) assign role responsibility to
+care robots from social function, which is the question-type transposed; the surviving ground is
+that **welcome is owed to the stranger in virtue of arrival, not need (care) or trust (fiduciary)**,
+and philosophy of technology has theorized the machine only as guest (Introna 2010), never as host.
+
+## The finding that outranks the others
+
+**The term "algorithmacy" collides with its own author.** algorithmacy.org and the April 2026
+Substack post define it as coordination with a human counterpart through an algorithmic third party,
+with cognitive, affective and conative facets. The manuscript defines hospitality algorithmacy as a
+guest-and-employee competence with interpretation, specification and tracking components. A referee
+who searches the term finds the author's conference defining his keyword differently. This is a
+construct-identity decision only the author can make: state explicitly that the hospitality
+construct specializes the lab construct (CONSTRUCTS.md already gestures at this) and account for the
+missing affective facet, or rename. Related governance note for the author alone: the three
+components descend from facet names that overlap the dissertation-reserved ALC property set; the
+manuscript's renamed forms (interpretation, specification, tracking) keep distance from the reserved
+naming, and that distance should be maintained deliberately, not by accident.
+
+## Systematic repairs the revision must make
+
+1. **Convert absence claims to positioning claims.** "Nobody has asked" dies by counterexample;
+   "the question has been asked for care, and welcome is different in kind" does not. Applies to
+   claims 3, 4, 5, 6, 28.
+2. **Fix the two-source misattribution in §2.** Lynch and Bulley both hold welcome as tactical AND
+   ethical in tension; "rather than moral" is supported by neither. Pijls measures affect, not
+   agency, and its predecessor's autonomy dimension means *not having to ask* — the paper's most
+   exposed citation. Repair wording in CLAIMS.md claim 10.
+3. **Reformulate the counterparty claim.** Consumers demonstrably bargain with algorithms (Shen and
+   Jin 2024) and law manufactures a counterparty by right (GDPR art. 22(3)). The surviving claim is
+   sharper: the guest retains an addressee for complaint and compensation but loses a counterparty
+   with authority over the rules — interactional justice degrades even where distributive justice is
+   satisfied.
+4. **Split the three nulls into their kinds** (empirical, legal-institutional, normative), concede
+   the post-2020 positives (Martin and Waldman 2022: appeals were the only governance mechanism
+   with a legitimacy dividend; Yurrita et al. 2023: contestability moved procedural fairness), and
+   give human accessibility the two fresh nulls it now has to survive (oversight without authority
+   does nothing or backfires). The DSA record supplies the positive specification at scale: reversal
+   works where authority to reverse, evidentiary access and a duty to implement coincide, and
+   collapses where the forum is external and non-binding.
+5. **One translation sentence in §4** acknowledging the two senses of accountability (Okhuysen and
+   Bechky's task sense; Bovens' answerability sense) — the derivation's most attackable joint.
+6. **Cite the named patterns instead of coining:** cold-start discrimination, reputation inflation
+   (Filippas et al. 2022), and de Certeau's tactical consumer via Denegri-Knott et al. (2006).
+7. **Reground §7's cultural-exclusion evidence** on Costanza-Chock (2020) and Yu and Margolin
+   (2024); state the accessible-tourism literature as a gap, not a support; add the
+   conditional-on-any-review qualifier to Cui.
+
+## Verification sweep results
+
+All thirty new load-bearing citations resolved. Corrections carried into the bib entries: several
+online/print year splits (Martin and Waldman 2022/2023; Gagrčin et al. 2024/2026; Frey and
+Schneider 2021/2023; Nguyen et al. 2024/2025), Garcia, Tolvanen and Wagner now published (*Management
+Science* 72:1, 609–626, 2026), and the two Metcalf works are distinct papers that must not be
+conflated. Nguyen et al., flagged unverifiable by one agent, resolved cleanly — the flag was a
+search failure, which is the audit protocol working in both directions.
+
+## Read-depth discipline
+
+Read in full during this audit: Raisch and Krakowski; Kellogg, Valentine and Christin; Lynch 2017;
+Bulley 2015; Denegri-Knott et al.; Kaminski 2019; both Pijls texts; Martin and Waldman; Rahman 2021.
+Brown (2015) *Ethical Programs* remains the highest-variance unread item — two secondary sources
+disagree on whether it places software in the host position, and it must be read before submission.
+Vaccaro's "outcomes held constant" condition is unverified at full-text depth; do not assert it.
+
+---
+
+# Part 7 — P8, employee voice in hospitality (2026-08-09)
+
+The last unrun prompt from the round-2 programme. The question: does hospitality suppress employee
+voice before any algorithm arrives, so that algorithmic mediation compounds an existing suppression
+rather than creating one?
+
+**Verdict: supported as a convergent inference, untested as an interaction — and both halves went
+into §5.** Every link is independently evidenced, most of it hospitality-native: undermining by
+supervisors, coworkers and guests each depresses voice (Jung and Yoon 2019); silence transmits
+abusive supervision into degraded service capacity (Al-Hawari et al. 2020); silence is the dominant
+response to grievance in UK hotels, produced structurally by fragmentation, insecurity and an
+individual-rights model with "no substance" for precarious workers (Papadopoulos et al. 2021);
+dissatisfaction routes to exit and declines to route to collective voice, in Hirschman's own terms
+(Zientara et al. 2023); and the exacerbation argument is already made conceptually in tourism
+(Rydzik and Kissoon 2021). What does not exist anywhere is the interaction term: no study models
+prior voice climate as a condition upon which algorithmic management acts. Cheng et al. (2025)
+measure no baseline silence; Jianu et al. (2025) model no voice pathway at all — their modelled
+terminus of employee objection is quitting. §5 states the compounding as a reading of converging
+evidence and names the untested interaction as a research implication, which also pre-empts the
+technological-determinism objection, since most of the suppression is located in labour conditions
+that predate the technology.
+
+Two named absences worth keeping: the guest-review literature has never asked whether review
+exposure changes what staff report upward (stress, burnout and service effort are studied; upward
+voice is not), and nothing links tipping dependence to willingness to raise grievances. Fuller and
+Smith (1991) turned up as the origin of "management by customers" as a labour-control concept and
+went into §3's craft paragraph, converting the felt-control argument into an old control form
+acquiring a new instrument. One venue-rejected near-match is recorded in the P8 search log held in
+the session record; the MDPI Meituan paper is the nearest approach to the missing interaction test
+and sits below the venue bar.
+
+With P8 done, every prompt in RESEARCH_PROMPTS.md is now run or absorbed: P1, P2, P6, P7 directly;
+P3 and P4 and P5 through the claim-audit units U8, U7 and U2.

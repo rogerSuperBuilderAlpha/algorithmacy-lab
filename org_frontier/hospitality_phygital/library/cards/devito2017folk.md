@@ -6,7 +6,7 @@ year: 2017
 doi: 10.1145/3025453.3025659
 venue: "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [5]
 claims: [algorithmacy-observed]
@@ -14,10 +14,12 @@ read_depth: abstract
 verified: crossref-verified
 verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+generated_run: 2026-08-11-p9
 flags: []
 hold_rationale: "Cut in the editor revision by cluster thinning."
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 

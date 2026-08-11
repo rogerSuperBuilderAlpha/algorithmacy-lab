@@ -36,6 +36,7 @@ construct, supporting **coordinative sovereignty** in the encounter.
 | [`design_principles.md`](design_principles.md) | Five guest-centric affordances as design criteria |
 | [`AGENDA.md`](AGENDA.md) | Open research and writing questions |
 | [`SOURCES.md`](SOURCES.md) | Pointers into the public lab corpus |
+| [`literature/LIBRARY.md`](literature/LIBRARY.md) | **The contextual bibliography** — every cited source annotated with its role, argument, and unique contribution; reserve bench listed |
 | [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md) | **Required local pass** over the private dissertation library |
 | [`AGENTS.md`](AGENTS.md) | Operating notes for agents working in this arm |
 | [`cfp/`](cfp/) | Special-issue brief and alignment checklist |

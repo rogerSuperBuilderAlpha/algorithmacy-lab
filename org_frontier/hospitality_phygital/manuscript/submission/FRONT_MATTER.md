@@ -23,7 +23,8 @@ which was the summit proposal.*
 
 Phygital hospitality scholarship presents artificial intelligence, mobile applications and automated
 interfaces as tools for delivering seamless, personalized experiences. Yet hospitality is a
-relational and culturally situated practice involving welcome, recognition, care and negotiated
+relational and culturally situated practice involving welcome, recognition, care, presence and
+negotiated
 access. This conceptual paper theorizes phygital hospitality as triadic coordination among the guest,
 the algorithmic intermediary and the human or organizational host — an arrangement constituted
 through the dual movement of digitalization and physicalization, in which the guest's conduct becomes
@@ -48,23 +49,23 @@ theme.*
 
 ## Statement of Contribution (100–150 words, anonymised — sent to reviewers)
 
-*Currently 168 words; trim to 150 before upload if the system enforces the limit strictly. Answers the two questions the Notes for Contributors require, and names no
+*131 words of answers, 152 including the two question prompts. Answers the two questions the Notes for Contributors require, and names no
 author, institution or prior work of the contributors.*
 
 **What is the contribution to hospitality knowledge, theory, policy or practice?** The paper
 repositions algorithmic systems in hospitality from neutral service technologies to constitutive
 mediators of the hospitality encounter. It contributes a triadic account of phygital hospitality, a
-distinction between augmentative and substitutive mediation that is specified as a checkable
-condition rather than an impression, and five design affordances derived from what coordination
+distinction between augmentative and substitutive mediation specified as a checkable
+condition, and five design affordances derived from what coordination
 requires. It separates a competence guests and employees can develop from a standing only
 organizations can grant, which tells practitioners which problems training can address and which
-cannot, and it sets out a transformation roadmap on that basis. Mapping the two poles onto
+cannot, and sets out a transformation roadmap on that basis. Mapping the poles onto
 individual, collective and societal well-being connects the account to transformative service
 research.
 
 **How does the paper offer a multidisciplinary social science perspective?** It brings hospitality
-theory into dialogue with organizational coordination research, platform and algorithmic management
-studies, and human-computer interaction, reading each through the socio-cultural questions of
+theory into dialogue with coordination research, algorithmic management
+studies and human-computer interaction, reading each through the questions of
 welcome, recognition and access that define hospitality as a social practice.
 
 ## Highlights (3–5 bullets, maximum 85 characters each including spaces)

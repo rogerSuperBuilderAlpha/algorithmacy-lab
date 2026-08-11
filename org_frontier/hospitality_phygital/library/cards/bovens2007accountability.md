@@ -6,18 +6,20 @@ year: 2007
 doi: 10.1111/j.1468-0386.2007.00378.x
 venue: "European Law Journal"
 cluster: mediation-sovereignty
-status: rejected
+status: cited
 role: evidence
 used_by_sections: [5]
 claims: [accountability-is-a-relation]
 read_depth: abstract
-verified: crossref-verified
+verified: verified
 verified_date: 2026-08-08
 source_basis: "Crossref-verified during the 8 August audit; abstract read. Not admitted to the bibliography."
-generated_run: 2026-08-08-audit-transcription
+generated_run: 2026-08-11-p9
 flags: []
 rejected_reason: "Not admitted for want of words, and this is the audit's strongest unfunded recommendation."
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 

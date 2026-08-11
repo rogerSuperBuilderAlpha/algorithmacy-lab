@@ -52,3 +52,9 @@ here and from every card that used it — `--check` will find any you miss.
 | `constructive-friction` | 7 | Removing effort that is undesirable but valuable destroys the value it was thought to obstruct |
 | `remedy-same-instrument` | 7 | The remedy for algorithmic exclusion runs through the same instrument as the harm |
 | `limits-and-agenda` | 8 | What the paper does not claim, and the empirical work that would test it |
+| `host-question-unasked` | 1, 3 | No account asks whether the algorithmic party occupies a position that owes the guest a welcome; the field has vocabularies for machine hospitableness, role responsibility and governance duty, and none for the duty that constitutes the host's role |
+| `guest-obligation-untheorized` | 2 | Commercial hospitality theorizes what the host owes and not what the guest owes — **narrowed 2026-08-11; see [`manfreda2025reciprocal`](cards/manfreda2025reciprocal.md), which theorizes gratitude-driven reciprocation, and [`shi2025residents`](cards/shi2025residents.md), which measures a guest-to-host flow** |
+| `competence-not-standing` | 5 | Competence with an algorithmic system is learned and standing to be answered is conferred, and no quantity of the first produces the second |
+| `seamlessness-uncritiqued` | 7 | The phygital frameworks state seamlessness as a design goal and have not questioned it as such, while questioning technocentrism, efficiency logics, speed and AI's harms around it |
+| `wellbeing-levels-unmet` | 8 | Individual-level automation evidence and collective-level well-being evidence have not met inside a single study |
+| `editors-own-ground` | 1, 2, 3, 4, 5, 6, 7, 8 | The claim is established, approached or contested in the special issue editors' own published work before any general literature is called |

@@ -6,7 +6,7 @@ year: 2017
 doi: 10.1177/2053951717718855
 venue: "Big Data & Society"
 cluster: ai-automation
-status: superseded
+status: cited
 role: evidence
 used_by_sections: [3]
 claims: [discretion-redistribution]
@@ -14,10 +14,12 @@ read_depth: abstract
 verified: crossref-verified
 verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+generated_run: 2026-08-11-p9
 flags: []
 superseded_by: "jianu2025"
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 

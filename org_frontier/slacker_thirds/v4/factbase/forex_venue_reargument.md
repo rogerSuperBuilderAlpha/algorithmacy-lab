@@ -16,9 +16,12 @@ electronic broking venue**: Reuters Dealing 2000-2 (later Reuters Matching, Thom
 Matching, Refinitiv Matching, now LSEG Matching) and EBS (Electronic Broking Services, now CME
 Group's EBS Market). This card asks whether the venue survives what the dealer did not.
 
-Every quotation below comes from a document retrieved in this run and read locally. Nothing is
-inherited from the earlier run's notes without re-verification against the source PDF. Inference is
-labelled as inference wherever it appears.
+Every quotation below was read against the source file, locally, in this run. Nothing is inherited
+from the earlier run's notes without re-verification against the source PDF. Two retrievals ran in
+parallel and their findings were re-verified here rather than relayed: the fee tables were re-rendered
+and read digit by digit, the New York Fed scans were re-OCR'd, and the LSEG and EBS clauses were
+re-read in the files. Where a URL is unrecorded or a figure unverified, §9 and the surrounding text
+say so.
 
 ---
 
@@ -28,31 +31,46 @@ labelled as inference wherever it appears.
 
 What holds, on primary sources:
 
-1. **The venue is a third party, not a counterparty.** Established four ways, including from the
-   venue's own rulebook and from the exact BIS taxonomy that convicted the dealer. This is the
-   strongest part of the case and it is not close.
+1. **The venue is a third party, not a counterparty.** Four independent kinds of source say so: the
+   operators' own rulebooks at both primary venues, a G10 central-bank working group in 2001, the
+   Federal Reserve Bank of New York in 1998, and the exact BIS taxonomy that convicted the dealer.
+   This is the strongest part of the case and it is not close.
 2. **It tipped.** One winner per currency pair, two winners globally, by the end of the 1990s,
    attributed to network externalities by a Norges Bank working paper, to "tipping" by a G10
    central-bank working group that defines the word in its glossary, and to concentration on "only
-   one of the two systems" by a Federal Reserve Board paper.
-3. **Three of the four capacities hold outright** — evaluate a party, remove a party, and price
-   access — with the venue's own rulebook language and a BIS Markets Committee report as evidence.
+   one of the two systems" by a Federal Reserve Board paper. The New York Fed measured it: 18 per
+   cent of brokered US turnover in 1995, 57 per cent in 1998.
+3. **Three of the four capacities hold outright** — price the exchange, evaluate a party, remove a
+   party. Pricing holds far more strongly than the brief assumed: the operator publishes a
+   per-million tariff that charges the two sides of one trade differently, keys the rate to each
+   firm's own monthly volume, discounts by hour and surcharges by order type, and re-priced it
+   unilaterally between two published editions. See §5.1.
 4. **The fourth capacity, withholding the reason, holds by omission rather than by policy.** That is
    a weaker evidentiary object than the chapter's Amazon exhibit and the chapter must not pretend
    otherwise. See §5.4.
+5. **The best finding in the file was not on the brief.** The capacity to withhold a reason tracks
+   the regulatory frame rather than the market function. Same firm, same order book: LSEG owes
+   written reasons and a board reconsideration on its CFTC-supervised swap execution facility, owes
+   none on its FCA-supervised MTF; CME's unregulated dealing service, which governs the primary spot
+   venue, grants no reasons, no review and no appeal at all. The FX Global Code obliges platforms to
+   be transparent about how they treat an **order** and says nothing about how they treat a
+   **party**. See §5.5.
 
 What fails, and must be dropped or rewritten:
 
-5. **The date alignment with the film fails as stated.** The venues are 1992 and 1993. The Dobie run
-   is 1990 and the New York opening 5 July 1991. "The same years" is false; "one to three years
-   later" is true. See §4.
-6. **"Matches two parties who do not deal with each other directly" is wrong for interdealer FX.**
+6. **The date alignment with the film fails as stated.** Reuters Dealing 2000-2 is 1992; EBS launched
+   September 1993. The Dobie run is 1990 and the New York opening 5 July 1991. "The same years" is
+   false. What is true, and citable to the New York Fed, is that the systems were under development
+   in November 1991. See §4.
+7. **"Matches two parties who do not deal with each other directly" is wrong for interdealer FX.**
    The same dealers traded both directly and through the venue, in parallel, throughout. The venue
    was an alternative to direct dealing, not a substitute for a relationship that never existed. See
    §7.1.
-7. **The four capacities cannot be dated to 1992–93.** They are documented from 2011 onward. What is
-   documented for the 1990s is the third-party structure, the tipping, and one access rule. See §7.2.
-8. **EBS was owned by its own users from 1993 to 2006.** A third party to every trade; not an
+8. **The four capacities cannot all be dated to 1992–93.** For the 1990s the record carries the
+   third-party structure, the credit screen, a fee, an access rule and the tipping. The
+   conduct-policing capacities — evaluation, graded penalty, expulsion — are documented from 2011
+   onward. See §7.2.
+9. **EBS was owned by its own users from 1990 to 2006.** A third party to every trade; not an
    outside party to the class of traders. Reuters was the genuine outsider. See §7.3.
 
 ---
@@ -89,7 +107,7 @@ to Reuters Dealing 2000-2), retrieved 2026-08-11:
 > **Rule 1.1.4 [R].** "LSEG is not a party to, and will not have any liability, or maintain any
 > trading accounts, with respect to, Transactions conducted on the Platform. **Payment and
 > settlement of executed Orders are the sole responsibility of the two Participants concerned.**"
-> — p. 12
+> — p. 13
 
 Three documents from two companies, one unregulated and two regulated, all disclaim counterparty
 status in the general section. There is no central counterparty, no riskless principal, no novation.
@@ -143,7 +161,26 @@ That last sentence is the whole answer in the century the chapter cares about. T
 are the two dealers. They are revealed *to each other*. They settle *with each other*. The system
 holds no position at any point in the sequence.
 
-### 2.3 The BIS instrument that killed the dealer claim, applied to the venue
+### 2.3 The same structure, described by a Federal Reserve Bank in 1998
+
+The rulebooks are current documents. This one is not, and it matters, because it puts the third-party
+structure, the credit mechanism and the fee in the decade the chapter is writing about.
+
+Federal Reserve Bank of New York, Sam Y. Cross, *All About… The Foreign Exchange Market in the United
+States* (1998), ch. 4, "The Main Participants in the Market," p. 29:
+
+> "The electronic broking systems are regarded as fast and reliable. Like a voice broker, they offer
+> a degree of anonymity. **The counterparty is not known until the deal is struck, and then only to
+> the other counterparty.** Also, **the systems can automatically manage credit lines. A trader puts
+> in a credit limit for each counterparty that he is willing to deal with, and when the limit is
+> reached, the system automatically disallows further trades.** **The fees charged for this
+> computerized service** are regarded as competitive."
+
+Every element the argument needs is in that paragraph, in 1998: the system is not a counterparty (the
+counterparty is the other trader, revealed at the deal); the system operates a credit screen whose
+limits the traders set; and the system charges a fee for doing it.
+
+### 2.4 The BIS instrument that killed the dealer claim, applied to the venue
 
 The sentence that convicted the dealer is a table
 footnote in the BIS execution taxonomy, and the same footnote acquits the venue by name.
@@ -180,7 +217,7 @@ The same box names the venues as "the primary central limit order books (CLOBs),
 Matching and EBS" (p. 36) and, in the Graph B2 note, "Primary venues: CME EBS Market and LSEG
 Matching" (p. 37).
 
-### 2.4 One more line, from the same 2025 box, that settles it obliquely
+### 2.5 One more line, from the same 2025 box, that settles it obliquely
 
 Discussing the extension of anonymous CLOB trading from spot into forwards and swaps:
 
@@ -194,7 +231,7 @@ If the platform provider were the counterparty there would be no problem to solv
 platform providers as parties working *on* a counterparty-credit problem that exists *between* the
 two matched firms. That is a third party's position, described from the outside.
 
-### 2.5 Verdict on Question 1
+### 2.6 Verdict on Question 1
 
 **The venue is a third party.** No source retrieved in this run puts an interdealer FX broking venue
 in a principal or central-counterparty role, and four independent kinds of source — the operator's
@@ -328,22 +365,114 @@ tipped to a single winner" is false and must never appear.
 
 ## 4. Question 3 — the dates
 
-> **[PENDING — this section is being filled from an independent retrieval run. Do not use until it
-> carries retrieved citations. The paragraph below states only what this card has already
-> verified.]**
+The prior run's recorded caution — "1992 is Reuters alone and EBS is 1993" — is **confirmed, and
+sharpened.** Four independent sources bracket the sequence, and one of them is EBS's own website.
 
-Verified in this run, from King, Osler & Rime (2011), p. 22: Reuters introduced the first electronic
-limit-order market to FX **in 1992**; the bank consortium introduced EBS **"a year later,"** i.e.
-1993. The prior run's recorded caution — "1992 is Reuters alone and EBS is 1993" — is **confirmed
-against the source**, though on a single source pending the corroboration run.
+**Upper bracket: nothing was live in November 1991.** Federal Reserve Bank of New York, Foreign
+Exchange Committee, *1991 Annual Report*, p. 8, retrieved 2026-08-11 from
+`newyorkfed.org/medialibrary/microsites/fxc/files/annualreports/fxcar91.pdf`. The PDF carries no text
+layer; the page was rendered at 300 dpi and read by OCR, then read again by eye against the render.
+
+> "For several years a number of private-sector entities have been working to develop electronic
+> order-matching systems for foreign exchange. … the Market Structure subcommittee organized
+> presentations to the Committee in **November 1991 by the three groups developing electronic
+> order-matching systems: Electronic Broking Services (EBS), MINEX Corporation, and Reuters plc**. An
+> overview of the three systems **under development** by these groups is presented in the
+> accompanying table."
+
+Three systems, all still being built, in November 1991. "Electronic Broking Services" was already the
+name.
+
+**Reuters Dealing 2000-2: 1992.** The same committee's *1992 Annual Report*, p. 41, n. 53 (also
+image-only, OCR'd and re-read here), defines the instruments of the April 1992 US turnover survey:
+
+> "For the purpose of this survey, electronic dealing systems were defined to include **Reuters
+> Dealing 2000-1 and 2000-2**, Quotron's F/X Trader, Telerate's TTS, or any other comparable system"
+
+D2000-2 was an extant, nameable product when the April 1992 survey was designed. That agrees with
+King, Osler & Rime, p. 22 ("In 1992, Reuters introduced the first electronic limit-order market to
+FX") and with the Federal Reserve Bank of New York's own retrospective, below ("Until 1992, all
+brokered business in the U.S. OTC market was handled by voice brokers"). An assisting run reports a
+specific launch day of 29 April 1992 from a single non-independent source; **that day was not
+verified here and should not be printed.** The year is solid.
+
+**EBS: four dates, not one.** EBS's own business chronology, published on its live corporate site and
+captured by the Internet Archive on **28 June 1998** at `web.archive.org/web/19980628094332if_/http://www.ebsp.com/chrono.html`
+and `…/intro.html`. Corporate self-description, and dated; treat it as the company's account of
+itself, which is exactly what it is.
+
+> "**In January 1990**, when a group of leading market-making banks first decided to fund the
+> development of an electronic broking system for interbank foreign exchange, its major objective was
+> **to provide effective competition to Reuters**, the predominant provider of screen-based foreign
+> exchange transaction services. **Since its official launch in September 1993**, however, EBS has
+> captured a significant share of the global foreign exchange spot broking market…"
+> — `intro.html`
+
+> "**May 1992: Establishment of formal Partnership with 12 founding partner banks and Citicorp
+> Dealing Resources.** The Electronic Broking Service (EBS) project was formally endorsed in 1992
+> with the establishment of a partnership of the project participants and was the culmination of two
+> years of research and development undertaken by Bank of America, Barclays Bank, Chemical Bank,
+> Citibank, Credit Suisse, Lloyds Bank, Midland Bank, J P Morgan, National Westminster Bank, Quotron,
+> Swiss Bank Corporation and Union Bank of Switzerland."
+> · "**April 1993:** Lehman Brothers … the twelfth" · "**August 1993:** Commerzbank … the 13th bank"
+> · "**September 1993: Official launch in UK, US and major European centres**" · "**November 1993:**
+> EBS live in Japan, Singapore and Hong Kong"
+> — `chrono.html`
+
+Write it as four events. Funding decision January 1990. Formal partnership May 1992. Launch in
+London, New York and Europe September 1993. Asia November 1993. "Founded 1993" is wrong and "launched
+1990" is wrong; both circulate. Note also that the May 1992 list of twelve names is eleven banks plus
+**Quotron**, Citicorp's screen business — the thirteenth bank arrives with Commerzbank in August
+1993, which is where the familiar "consortium of thirteen banks" comes from.
+
+**Minex.** Same chronology: "**December 1995: EBS and MINEX merge** — In December 1995 EBS and MINEX
+joined forces in Asia. The combined service, now known locally as EBS/MINEX, quickly established
+itself as the leading electronic broking service in the region **upon commencing operations in March,
+1996**." The `intro.html` page calls the same event "an alliance," and the two pages disagree about
+whether the Citicorp Dealing Resources acquisition was June or September 1996. EBS's own copy is not
+internally consistent; attribute to the specific page.
+
+**When it became dominant.** Federal Reserve Bank of New York, Sam Y. Cross, *All About… The Foreign
+Exchange Market in the United States* (1998), ch. 4, p. 29, retrieved 2026-08-11 from an Internet
+Archive capture of `ny.frb.org/education/addpub/usfxm/chap4.pdf`:
+
+> "**Until 1992, all brokered business in the U.S. OTC market was handled by voice brokers.** But
+> during the past few years, electronic broker systems (or automated order-matching systems) have
+> gained a significant share of the market for spot transactions. The two electronic broking systems
+> currently operating in the United States are Electronic Brokerage Systems [*sic*], or EBS, and
+> Reuters 2000-2. **In the 1998 survey, electronic broking accounted for 13 percent of total market
+> volume in the United States, more than double its market share three years earlier.** In the
+> brokers market, **57 percent of turnover is now conducted through order-matching systems, compared
+> with 18 percent in 1995**."
+
+Two years of data, one page, from the central bank that ran the survey: 18 per cent of brokered US
+turnover in 1995, 57 per cent in 1998. That is the tipping, measured. (Carry the `[sic]`: the NY Fed
+expands EBS as "Electronic Brokerage Systems," which is not the company's name.) King, Osler & Rime,
+p. 22, give the same finding without numbers: "By the end of the 1990s the electronic brokers
+dominated interdealer trading in the liquid currencies."
+
+**A gift for the tipping argument.** EBS recruited a Nordic partner bank in December 1996 for the
+express purpose of taking the Scandinavian currencies from Reuters. Its own chronology quotes Göran
+Bronner of S-E-Banken: "we hope to be able to encourage greater local participation in EBS and to
+**enhance liquidity in smaller volume currencies, particularly Scandinavian currencies**." Fifteen
+years later Reuters still held them (King, Osler & Rime, p. 22). A documented attempt, and a
+documented failure, which is better evidence of lock-in than the assertion of lock-in.
 
 **The problem this creates for the chapter.** *Slacker* ran at Austin's Dobie Theatre from 27 July to
 11 October 1990 and opened in New York on 5 July 1991 (`v4/factbase/CLAIMS.md`, S1-088, S1-089,
-S1-030). The interdealer matching venues are 1992 and 1993. The chapter cannot say platform
-coordination in wholesale finance dates to "the same years as the film." It can say the venues
-followed the film's Austin run by two and three years, and its New York opening by one and two —
-checkable either way. Any looser phrasing is the kind of thing a referee kills in a margin note.
-The film's shooting year was not verified in this run and should not be asserted here.
+S1-030). Reuters Dealing 2000-2 arrives in 1992 and EBS launches in September 1993. The chapter
+cannot say platform coordination in wholesale finance dates to "the same years as the film." It can
+say that the first electronic order-matching venue for currencies opened the year after the film's
+New York run, and that the banks' answer to it opened two years after — checkable either way. Any
+looser phrasing is the kind of thing a referee kills in a margin note. The film's shooting year was
+not verified in this run and should not be asserted here.
+
+There is a better sentence available, and the sources support it exactly. In November 1991, while
+*Slacker* was in its first-run life, three consortia were building the systems: "the three groups
+developing electronic order-matching systems: Electronic Broking Services (EBS), MINEX Corporation,
+and Reuters plc" (NY Fed FXC, *1991 Annual Report*, p. 8). The film and the venues are not
+contemporaries in operation. They are contemporaries in development, and that is a claim with a
+central-bank citation behind it.
 
 **What must not be spliced in to close the gap.** Reuters had electronic FX products well before
 1992 — a bilateral dealing system from 1987 and the indicative-quote FXFX page at roughly the same
@@ -422,6 +551,10 @@ And a second charge sits on top of the order flow itself. *EBS Dealing Rules —
 > 1.2.3 Order capacity may be increased for firms: a) exceeding the minimum fill ratio targets; and
 > b) not appearing on the disruptive behaviour watch list (see Section 3).
 > **A fee can be charged to the Participant for additional capacity.**"
+
+The charge is not new. The Federal Reserve Bank of New York noted it of the 1990s systems in one
+clause: "**The fees charged for this computerized service** are regarded as competitive" (Cross 1998,
+p. 29). What has changed since is not that the venue charges but how finely it does.
 
 A third charge prices conduct directly. **CME Group, *EBS Market NDF Messaging Programme*, effective
 3 February 2025**: a firm breaching the quote-efficiency parameters "will be charged an excess
@@ -648,7 +781,13 @@ must be explained on request, and the explanation can be argued.
 Withholding the reason is therefore not intrinsic to standing between two parties. It is what these
 venues do wherever no rule compels otherwise, and the rule that compels otherwise exists in exactly
 one of the three frames. That is a sharper claim than "platforms have power," and it comes out of
-three documents a reader can open.
+three documents.
+
+**One dependency, flagged.** The CFTC end of that spectrum rests entirely on the *LSEG FX SEF
+Rulebook*, whose retrieval URL was not recorded (see §9). The document was read here and Rule
+302(g)–(h) verified against it, but the chapter cannot cite what a reader cannot open. Re-source it
+before drafting. The unregulated-versus-FCA contrast, which is the weaker but still usable form of
+the finding, stands on two CME documents whose URLs are recorded.
 
 ### 5.6 Terms the venue sets over the exchange itself
 
@@ -732,30 +871,42 @@ The venue's third-party status does not depend on the parties being strangers. I
 venue not being one of them. Write the claim that way and it holds; write it the brief's way and a
 referee kills it in one sentence.
 
-### 7.2 The chronology gap is real
+### 7.2 The chronology gap is narrower than it looks, but it is real
 
-Everything in §5 comes from documents dated 2011, 2018, 2020, 2022, 2023, 2025. For 1992–93 this run
-retrieved exactly one rule-like fact, and even that comes from a 2001 source describing the systems
-as they then stood: "Participation in both systems is limited to dealers" (CGFS 2001, Box D, p. 16). Minimum
-quote life, fill ratios, watch lists, latency floors, throughput throttles and the graded suspension
-ladder are all artefacts of the algorithmic era. They arrived because high-frequency firms did.
+Most of §5 comes from documents dated 2011, 2018, 2020, 2022, 2023 and 2025. Three things reach back
+into the decade the chapter cares about, all from central-bank sources. The Federal Reserve Bank of
+New York records, of the 1990s systems, that "the counterparty is not known until the deal is struck,
+and then only to the other counterparty," that "the systems can automatically manage credit lines"
+with limits the traders set, and that they charge fees for the service (Cross 1998, p. 29). The G10
+working group records the access rule: "Participation in both systems is limited to dealers" (CGFS
+2001, Box D, p. 16). Third-party status, the credit screen, a charge and a membership boundary are
+therefore all documented for the 1990s venue.
 
-So the chapter sentence has to be two-part: the **structure** — a third party running a venue that
-tipped through network externalities — dates to 1992–93; the **capacities**, in writing, date to the
-2010s. Collapsing the two is the same move that killed the dealer claim, and it will die the same
-way.
+What is not documented for the 1990s is the conduct machinery. Minimum quote life, fill ratios, watch
+lists, latency floors, throughput throttles, the graded penalty ladder and the discretionary
+suspension clause are artefacts of the algorithmic era. They arrived because high-frequency firms
+did, and the BIS says so in the report that first catalogues them (Markets Committee Papers No. 5,
+2011).
+
+So the chapter sentence has to be two-part: the **structure and the charge** date to 1992–98; the
+**disciplinary capacities**, in writing, date to the 2010s. Collapsing the two is the same move that
+killed the dealer claim, and it will die the same way.
 
 ### 7.3 EBS was owned by the parties it coordinated
 
 King, Osler & Rime, p. 22: "Other banks, worried that Reuters might monopolize interdealer trading,
-formed a consortium and introduced another such platform a year later." From 1993 until ICAP bought
-it in 2006, EBS belonged to its own users. It was a third party to every trade it matched and not an
-outside party to the class of firms that traded on it — a mutual, in the old sense.
+formed a consortium and introduced another such platform a year later." EBS says the same thing about
+itself, and more bluntly — the founding purpose, in its own words, was "**to provide effective
+competition to Reuters**, the predominant provider of screen-based foreign exchange transaction
+services" (`ebsp.com/intro.html`, captured 28 June 1998). From the January 1990 funding decision until
+ICAP bought it in 2006, EBS belonged to its own users. It was a third party to every trade it matched
+and not an outside party to the class of firms that traded on it — a mutual, in the old sense.
 
-This cuts two ways and the chapter should take both. Against: the 1993 venue held no power *over*
-the banks, because the banks held it. In favour: the founding of EBS is a documented case of parties
-building a venue specifically to stop a third party from acquiring the power the chapter describes.
-That is a better story than the one the brief wanted, and it is the story the source actually tells.
+This cuts two ways and the chapter should take both. Against: the 1993 venue held no power *over* the
+banks, because the banks held it. In favour: the founding of EBS is a documented case of parties
+building a venue specifically to stop a third party from acquiring the power the chapter describes,
+and the record includes the attempt failing in the Scandinavian pairs (§4). That is a better story
+than the one the brief wanted, and it is the story the sources actually tell.
 
 Reuters, by contrast, was a genuine outsider — an information company with no dealing book. If the
 chapter wants one clean 1992 third party, it is Reuters.
@@ -807,11 +958,20 @@ need. Do not edit these without re-reading §7.
 
 **On the structure and the date.**
 
-> Platform coordination in wholesale finance is older than the vocabulary for it. In 1992 Reuters
-> introduced the first electronic limit-order market for currencies, and a consortium of banks,
-> "worried that Reuters might monopolize interdealer trading," answered with EBS a year later (King,
-> Osler & Rime, 2011, p. 22). Neither was a party to the trades it matched. Both were third parties
-> running venues on terms they wrote.
+> Platform coordination in wholesale finance is older than the vocabulary for it. In November 1991
+> the Federal Reserve Bank of New York's Foreign Exchange Committee sat through presentations by
+> "the three groups developing electronic order-matching systems: Electronic Broking Services (EBS),
+> MINEX Corporation, and Reuters plc" (Foreign Exchange Committee, 1991 Annual Report, p. 8). Reuters
+> got there first, in 1992; the banks' consortium, formed expressly "to provide effective competition
+> to Reuters," launched EBS in September 1993 (EBS, business chronology, 1998). Neither was a party
+> to the trades it matched. Both were third parties running venues on terms they wrote.
+
+**On when it tipped, if the chapter wants a measured number rather than an assertion.**
+
+> The concentration was fast and it was measured by the central bank that ran the survey. Electronic
+> order-matching took 18 percent of brokered turnover in the United States in 1995 and 57 percent in
+> 1998, by which point "electronic broking accounted for 13 percent of total market volume in the
+> United States, more than double its market share three years earlier" (Cross, 1998, p. 29).
 
 **On the third-party status, using the instrument that convicted the dealer.**
 
@@ -856,19 +1016,39 @@ need. Do not edit these without re-reading §7.
 > EBS UK MTF's website," while a decision to suspend a *participant* is notified to the participant
 > (EBS UK MTF Rulebook, 2023, Rules 6.11 and 10.2).
 
+**On pricing, if the chapter wants the doorman's tariff.**
+
+> The venue publishes what the passage costs. On the EBS UK MTF the two sides of a single trade pay
+> different amounts — $8.00 per million to make, $12.00 to take at the lowest volume tier — and what
+> each firm pays depends on its own monthly volume, falling to $2.25 and $8.75 above $25 billion a
+> month. Trading between midnight and five in the morning GMT is discounted $1.75 per million; an
+> immediate-or-cancel order costs the taker $0.75 more. Between the October 2024 and August 2025
+> editions of the schedule the operator cut five of six make rates and cut the night discount by 30
+> percent. The rule governing the change reads: "Changes may be made to this fee schedule from time
+> to time on notice to customers" (CME Group, EBS UK MTF Fee Schedule, August 2025, pp. 3–4).
+
 **On regulation, if the chapter wants the sharpest single finding.**
 
-> The same company wrote the same rule twice. Outside the regulatory perimeter, its venue "may in
-> its absolute discretion approve or reject applications." Inside it, as a multilateral trading
-> facility, the identical rule adds nine words: "subject to the requirement that the Operator
-> assesses such applications in an objective and non-discriminatory manner" (CME Group, EBS Dealing
-> Rules General Terms, 2025, Rule 3.5; EBS UK MTF Rulebook, 2023, Rule 3.5). The capacity is not
-> native to standing between two parties. It is native to standing there unobliged.
+> The same company wrote the same rule three ways, and the difference is not technological. On
+> LSEG's swap execution facility, supervised by the CFTC, a firm denied admission or terminated may
+> ask why, and "within fourteen (14) calendar days after receiving such written request, the SEF
+> shall send a written response to the Affected Person setting forth the reasons," after which the
+> board must confirm, reverse or modify (LSEG FX SEF Rulebook, Rules 302(g)–(h)). On LSEG's
+> FCA-supervised multilateral trading facility, the same firm may remove a participant "at any time
+> … if, in the sole discretion of LSEG, such action is in the best interests of the Platform," and
+> owes no reason (LSEG FX UK MTF Rule Book, Rule 3.1.5). On CME's unregulated EBS dealing service,
+> which runs the primary spot venue, the operator acts "at its absolute discretion and without
+> liability," notifies the participant of the decision, and the word appeal does not occur in the
+> document (EBS Dealing Rules, Rules 11.1, 11.2). Withholding the reason is not what it takes to
+> stand between two parties. It is what a third does where nothing obliges it otherwise.
 
 **Sentences that must NOT be written.**
 
-- ~~"Platform coordination in wholesale finance dates to the same years as the film."~~ It dates to
-  one and two years after.
+- ~~"Platform coordination in wholesale finance dates to the same years as the film."~~ Reuters
+  Dealing 2000-2 is 1992 and EBS launched September 1993. Only the *development* of the systems is
+  contemporaneous with the film, and that is the claim to make.
+- ~~"EBS was founded in 1993."~~ Funding decision January 1990, formal partnership May 1992, launch
+  September 1993. Pick the event and name it.
 - ~~"The market tipped to a single winner."~~ Two winners, one per currency pair.
 - ~~"EBS matched two parties who did not deal with each other directly."~~ They dealt directly too,
   in parallel, throughout.
@@ -883,8 +1063,11 @@ need. Do not edit these without re-reading §7.
 
 ## 9. Sources retrieved in this run
 
-All fetched 2026-08-11, converted with `pdftotext -layout`, held in the session scratchpad at
-`scratchpad/fx/`.
+All fetched 2026-08-11 unless noted, converted with `pdftotext -layout` (or `pdftoppm` + `tesseract`
+where a document carries no text layer), and held in the session scratchpad under `scratchpad/fx/`,
+`scratchpad/fx_dates/` and `scratchpad/fx_rules/`.
+
+### Central-bank and official
 
 | Document | URL | Read |
 |---|---|---|
@@ -893,112 +1076,134 @@ All fetched 2026-08-11, converted with `pdftotext -layout`, held in the session 
 | Markets Committee Papers No. 10, *Monitoring of fast-paced electronic markets*, Sep 2018 | `bis.org/publ/mktc10.pdf` | targeted |
 | Markets Committee Papers No. 13, *FX execution algorithms and market functioning*, Oct 2020 | `bis.org/publ/mktc13.pdf` | targeted |
 | Rime & Schrimpf, *BIS Quarterly Review*, Dec 2013 | `bis.org/publ/qtrpdf/r_qt1312e.pdf` | targeted |
-| Moore, Schrimpf & Sushko, *BIS Quarterly Review*, Dec 2016 | `bis.org/publ/qtrpdf/r_qt1612e.pdf` | targeted (Box C re-verified) |
+| Moore, Schrimpf & Sushko, *BIS Quarterly Review*, Dec 2016 | `bis.org/publ/qtrpdf/r_qt1612e.pdf` | targeted, Box C re-verified |
 | Schrimpf & Sushko, *BIS Quarterly Review*, Dec 2019 | `bis.org/publ/qtrpdf/r_qt1912g.pdf` | full, page map verified |
 | *BIS Quarterly Review*, Dec 2025 (whole issue; Krohn/Schrimpf/Sushko FX article, Boxes A and B) | `bis.org/publ/qtrpdf/r_qt2512.pdf` | targeted, page map verified |
 | BIS Triennial preliminary release, 30 Sep 2025 | `bis.org/statistics/rpfx25_fx.htm` | full |
-| King, Osler & Rime, Norges Bank WP 2011/10 | `norges-bank.no/globalassets/.../norges_bank_working_paper_2011_10.pdf` | targeted, p. 22 re-verified |
+| King, Osler & Rime, Norges Bank WP 2011/10 | `norges-bank.no/globalassets/upload/english/publications/working-papers/2011/norges_bank_working_paper_2011_10.pdf` | targeted, p. 22 re-verified |
 | Chaboud, Chiquoine, Hjalmarsson & Vega, Federal Reserve Board IFDP No. 980, Oct 2009 | `federalreserve.gov/pubs/ifdp/2009/980/ifdp980.pdf` | targeted, p. 3 |
+| NY Fed Foreign Exchange Committee, *1991 Annual Report* | `newyorkfed.org/medialibrary/microsites/fxc/files/annualreports/fxcar91.pdf` | image-only PDF; p. 8 rendered at 300 dpi and OCR'd, then read against the render |
+| NY Fed Foreign Exchange Committee, *1992 Annual Report* | `…/fxcar92.pdf` | image-only PDF; pp. 20–55 rendered and OCR'd; n. 53 at printed p. 41 verified against the render |
+| Cross, S. Y., *All About… The Foreign Exchange Market in the United States*, FRBNY, 1998, ch. 4 | Internet Archive capture of `ny.frb.org/education/addpub/usfxm/chap4.pdf` | full chapter, pp. 23–30 |
+
+### Venue documentation
+
+| Document | Source | Read |
+|---|---|---|
 | CME Group, *EBS Dealing Rules — General Terms*, eff. 14 Apr 2025 | `cmegroup.com/trading/market-tech-and-data-services/files/ebs-dealing-rules-general-terms-effective-041425.pdf` | full, 19 pp. |
-| CME Group, *EBS Dealing Rules — Appendix: EBS Market*, 25 Mar 2022 | `.../ebs-dealing-rules-ebs-market-appendix-20220325-globex-clean.pdf` | full, 14 pp. |
-| CME Group, *EBS UK MTF Rulebook — General Terms*, 2 Mar 2023 | `.../ebs-uk-mtf-rulebook-general-terms-2023-03-02.pdf` | full |
-| CME Group, *EBS MTF Rulebook — Appendix: EBS Institutional FX* | `.../ebs-mtf-rulebook-appendix-ebs-institutional-fx.pdf` | targeted |
+| CME Group, *EBS Dealing Rules — Appendix: EBS Market*, 25 Mar 2022 | `…/ebs-dealing-rules-ebs-market-appendix-20220325-globex-clean.pdf` | full, 14 pp. |
+| CME Group, *EBS UK MTF Rulebook — General Terms*, 2 Mar 2023 | `…/ebs-uk-mtf-rulebook-general-terms-2023-03-02.pdf` | full |
+| CME Group, *EBS MTF Rulebook — Appendix: EBS Institutional FX* | `…/ebs-mtf-rulebook-appendix-ebs-institutional-fx.pdf` | targeted |
+| CME Group, *EBS UK MTF Fee Schedule*, cover date Aug 2025 | `…/ebs-uk-mtf-fee-schedule.pdf` | full; p. 4 fee table is a raster image, rendered at 150 dpi and read digit by digit, twice, independently |
+| CME Group, *EBS UK MTF Fee Schedule*, cover date Oct 2024 (superseded) | `…/ebs-uk-mtf-fee-schedule-oct-2024.pdf` | p. 4 rendered and compared against the Aug 2025 edition |
+| CME Group, *EBS Market NDF Messaging Programme*, eff. 3 Feb 2025 | `…/ebs-market-ndf-messaging-programme-02-2025.pdf` | targeted |
+| CME Group, EBS regulatory-documents index | `cmegroup.com/markets/ebs/regulatory-documents.html` | index enumerated, 16 documents |
+| LSEG, *LSEG FX UK Multilateral Trading Facility (MTF) Rule Book*, eff. 5 Feb 2025, v1.1 | lseg.com — **exact URL not recorded**; retrieved by an assisting run, verified here from the file (PDF metadata: title "LSEG FX UK MTF Rule Book", created 5 Feb 2025) | targeted, Chs. 1–3, 7 |
+| LSEG, *LSEG FX SEF Rulebook*, eff. 11 Aug 2026, v4.1 (Refinitiv US SEF LLC) | lseg.com — **exact URL not recorded**; same provenance | targeted, Rule 302 |
+| Global Foreign Exchange Committee, *FX Global Code*, updated Dec 2024 | `globalfxc.org/docs/fx_global.pdf` — re-fetched here and byte-identical (MD5 match) to the assisting run's copy | targeted, Principle 9, pp. 14–15 |
 
-**Retrieval note for reuse.** `bis.org`, `norges-bank.no` and `federalreserve.gov` serve PDFs to a
-plain `curl -sL -A "Mozilla/5.0"`. `cmegroup.com` returns 403 to that and to WebFetch (which times
-out at 60s). It serves the file to `curl` carrying the full browser header set — `User-Agent`,
-`Accept`, `Accept-Language`, `Referer: https://www.cmegroup.com/`, `Sec-Fetch-Dest: document`,
-`Sec-Fetch-Mode: navigate`, `Sec-Fetch-Site: same-origin`, `Upgrade-Insecure-Requests: 1`. The
-`Sec-Fetch-*` trio is what makes the difference.
+**Provenance caveat on the two LSEG rulebooks.** Both were retrieved by an assisting run whose URLs
+were not recorded, and direct probing of lseg.com in this run did not recover them (`/en/fx` returns
+a JavaScript shell; the obvious `/content/dam/…` paths 404). The documents themselves were read here
+and every quotation above was verified against the file. The UK MTF Rule Book carries "Sensitivity:
+Confidential" in its page footer, so before the chapter cites it, someone must establish that LSEG
+serves it publicly. Until then, treat the LSEG material as corroboration for the CME material rather
+than as an independently citable source.
+| EBS, corporate business chronology and introduction, `ebsp.com` | `web.archive.org/web/19980628094332if_/http://www.ebsp.com/chrono.html` and `…/intro.html` | full, both pages |
 
-**Not retrieved, and named so.** The published *Journal of Finance* (2014) text of Chaboud et al.
-The published *RAND Journal of Economics* (2023) text of Gautier, Hu & Watanabe. The CME Group Form
-8-K exhibit for the NEX acquisition (located, not opened). Any EBS or Reuters document from the
-1990s. Any Reuters/Thomson Reuters/Refinitiv/LSEG corporate filing.
+**Retrieval notes for reuse.** `bis.org`, `norges-bank.no`, `federalreserve.gov`, `newyorkfed.org` and
+`web.archive.org` serve to a plain `curl -sL -A "Mozilla/5.0"`. `cmegroup.com` returns 403 to that and
+times out under WebFetch at 60 s. It serves PDFs to `curl` carrying the full browser header set —
+`User-Agent`, `Accept`, `Accept-Language`, `Referer: https://www.cmegroup.com/`, `Sec-Fetch-Dest:
+document`, `Sec-Fetch-Mode: navigate`, `Sec-Fetch-Site: same-origin`, `Upgrade-Insecure-Requests: 1`.
+Its Akamai layer also blocks on request *rate*: three or more near-simultaneous requests trip a
+multi-minute block, so space requests roughly 20 seconds apart. HTML pages on the same host need
+`Sec-Fetch-Site: none` instead of `same-origin`.
+
+**Two documents whose tables `pdftotext` silently drops.** The EBS fee schedules carry their
+transaction-fee tables as raster images. Text extraction returns the surrounding bullets and no
+numbers at all, with no error, which is how a wrong figure would enter a draft unnoticed. Render the
+page (`pdftoppm -r 150 -f 4 -png`) before quoting any EBS fee.
+
+**Not retrieved, and named so.** The published *Journal of Finance* (2014) text of Chaboud et al. The
+published *RAND Journal of Economics* (2023) text of Gautier, Hu & Watanabe. The CME Group Form 8-K
+exhibit for the NEX acquisition (located on SEC EDGAR, not opened). The comparison table of the three
+order-matching systems at p. 9 of the NY Fed FXC *1991 Annual Report* — the PDF the New York Fed
+serves stops at eight pages, and that table, drawn up in November 1991, is the single most promising
+unretrieved document for this argument. Any EBS or Reuters rulebook from the 1990s. Any Reuters,
+Thomson Reuters, Refinitiv or LSEG corporate filing. The Amazon Prime Video licensing page (carried
+over from the chapter, not re-fetched).
 
 ---
 
-## 9. Citation corrections, applied 2026-08-11
+## 10. Citation corrections and the closed sourcing caveat, 2026-08-11
 
-A re-verification pass on the LSEG documents caught three misattributions and one stale
-edition. They are recorded here rather than silently fixed above, so the audit trail holds.
+A re-verification pass ran after this card was written. It closes the caveat in §8 and
+corrects three fee attributions. Recorded here rather than folded in above, so the audit
+trail holds.
 
-### 9.1 Cite the current rulebook edition
+### 10.1 The sourcing caveat is closed
 
-The sections above cite the **LSEG FX UK MTF Rule Book v1.1, effective 5 February 2025**.
-The current edition is **v1.2, effective 1 December 2025** (issued 5 November 2025, 47pp),
-at `https://thesource.lseg.com/TheSource/getfile/download/b8ed9314-1e93-4ea8-8f3d-6dd1e84455b1`.
+§8 warned that the LSEG rulebooks were retrieved by an assisting run whose URLs were not
+recorded, and that the SEF material could not be cited until re-sourced. The URLs are now
+recorded, and each returns HTTP 200 to a bare request with no User-Agent, cookie jar, referer
+or auth:
 
-A diff of v1.1 against v1.2 found **every clause quoted above word-identical** — 1.1.4,
-3.1.5, 7.3.1–7.3.3, 7.4.1, 7.5.6, 8.1.1, 8.2.2, 5.8.1. Nothing in the argument moves. Cite
-v1.2 and the finding stands unchanged.
+- **UK MTF Rule Book** v1.2, eff. 1 Dec 2025, 47pp — `thesource.lseg.com/TheSource/getfile/download/b8ed9314-1e93-4ea8-8f3d-6dd1e84455b1`
+- **UK MTF Rule Book** v1.1, eff. 5 Feb 2025 — `lseg.com/content/dam/lseg/en_us/documents/fx/lseg-fx-uk-mtf-rulebook.pdf`
+- **EU MTF Rule Book** v3.2, eff. 1 Dec 2025 — `thesource.lseg.com/TheSource/getfile/download/e7abafc2-9c41-4ce9-b561-4e526828b203`
+- **SEF Rulebook** v4.1, eff. 11 Aug 2026, 95pp — `lseg.com/content/dam/fx/en_us/documents/sef/lseg-fx-sef-rulebook.pdf`
+- **FX Global Code**, updated Dec 2024, 84pp — `globalfxc.org/uploads/fx_global.pdf`
 
-**Retrieval note worth keeping.** That URL rejects HEAD requests: a HEAD redirects to
-`/thesource/Error/NotFound`, which reads as a dead link. A GET returns HTTP 200 and
-1,561,961 bytes. Anyone re-checking this citation with a HEAD probe will wrongly conclude
-it has rotted. Also, `getfile/index/<uuid>` serves an HTML interstitial; `getfile/download/<uuid>`
-serves the bytes.
+**The SEF material is citable**, which matters because it carries this card's best finding.
 
-### 9.2 The rulebook is public, despite its own legend
+Two retrieval notes. The v1.2 URL **rejects HEAD** — a HEAD redirects to
+`/thesource/Error/NotFound` and reads as a dead link, while a GET returns 1,561,961 bytes.
+And `getfile/index/<uuid>` serves an HTML interstitial; `getfile/download/<uuid>` serves the
+bytes.
 
-The document carries "Sensitivity: Confidential" on p. 2 and a readership legend restricting
-it to Participants. Both are boilerplate that survived publication, and quoting the rulebook
-is safe. Verified four ways: a bare curl with no User-Agent, no cookie jar, no referer and no
-auth returns HTTP 200 `application/pdf` with zero redirects; LSEG's public venue page links
-the rulebook directly; **Rule 1.1.2, p. 13** says "This Rule Book is available on the LSEG FX
-MTF website"; and **Rule 1.1.3** names the genuinely non-public document — "Documents that
-are not available publicly, for example, the LSEG FX UK MTF Supplementary Annex, can be
-accessed via MyAccount."
+**On the "Sensitivity: Confidential" footer.** It is boilerplate that survived publication,
+not an access control, and quoting the rulebook is safe. The document contradicts its own
+legend at **Rule 1.1.2, p. 13** — "This Rule Book is available on the LSEG FX MTF website" —
+and **Rule 1.1.3** names the genuinely non-public document: "Documents that are not available
+publicly, for example, the LSEG FX UK MTF Supplementary Annex, can be accessed via MyAccount."
+Do not quote the Supplementary Annex; nobody here has it.
 
-**Do not quote the Supplementary Annex.** It is behind MyAccount and nobody here has it.
+A diff of v1.1 against v1.2 found every clause quoted in this card **word-identical** — 1.1.4,
+3.1.5, 7.3.1–7.3.3, 7.4.1, 7.5.6, 8.1.1, 8.2.2, 5.8.1. Cite v1.2; nothing in the argument
+moves.
 
-### 9.3 Three fee figures, correctly attributed
+### 10.2 One clause v1.2 adds, which sharpens §5.4
 
-Fee figures were bundled under "the LSEG FX UK MTF fee provision." They belong to three
-different documents, two operators, and two venues, and one is expressly off-venue.
-
-| Figure | Actually from | Correction |
-|---|---|---|
-| $0.10–$0.55 per million, aggressor-pays | **LSEG FX EU MTF**, operator Financial & Risk Transaction Services Ireland Limited (FRTSIL). *LSEG FX Forwards Matching Rate Card* v5.0, 11 Aug 2026 | Not a UK MTF fee. Column heading is "Fee per Aggressor $M"; five marginal monthly-volume tiers; "Long Dated Tenors are not subject to fees"; and **"There are no fees for Market Making"** — aggressor pays, maker free |
-| $10.00 per USD million, spot | *FXall RFQ Fee Schedule* v1.4, §I.A.4.a, p. 3 | **Off-venue by the document's own terms.** §II.A.2, p. 6: "Spot instruments are not provided on the LSEG MTF or LSEG UK MTF and are considered 'off-venue'." Do not call it an MTF fee |
-| $10,005 per month, co-location | *LSEG FX Transactions — Connectivity Options (Co-Locations)* v2.1 | Cross-venue LSEG FX Transactions document, not UK-MTF-specific |
-
-The off-venue figure is arguably the **stronger** evidence for the pricing capacity, not the
-weaker: it shows the operator pricing execution in the space where no venue rulebook compels
-it to publish anything. It just cannot be labelled a venue fee.
-
-**The fee schedule contradicts itself on its own effective date** — cover says "Effective
-from 1 January 2026," the introduction on the same page says "1March2025." Cite the cover
-date and footnote the discrepancy. The superseded edition (v1.1, 1 Feb 2025) carries a
-Platinum minimum of $25,000 against v1.4's $75,000.
-
-### 9.4 The rulebook's own fee text, which is what §5.1 should have cited
-
-The UK MTF rulebook's fee provision is one delegating sentence — **Rule 5.8.1, p. 30**:
-"Details of the Platform fee structures are provided on the LSEG FX MTF." The clause that
-carries argumentative weight is **Rule 8.2.2, p. 37**:
-
-> "The LSEG FX UK MTF Rule Book represents an offer made by LSEG to provide Participants with
-> access to the Platform. **As consideration for this access, the Participant will pay any
-> Platform fees (if applicable)** to the relevant LSEG Affiliate, abide by these Rules and
-> contribute to the level of trading activity on the Platform."
-
-Fee as the price of access, in the operator's own words. That is the sentence the chapter
-wants, and it needs no rate card at all.
-
-### 9.5 One clause that sharpens §5.4
-
-v1.2 adds a rule absent from v1.1, and it bears directly on the fourth capacity —
 **Rule 5.1.4**: "LSEG shall endeavour to provide prior written notice of any actions taken
 under Sections 5.1.2 or 5.1.3 to the extent it is reasonably able to."
 
-This refines the §5.4 finding rather than overturning it. Withholding the reason still holds
-by omission rather than by stated policy, but the omission is not total: there is an
-endeavour to give notice, qualified twice ("endeavour," "to the extent it is reasonably
-able"). Notice that an action was taken is not a reason for it, and the chapter should say
-exactly that much and no more.
+This refines the finding rather than overturning it. Withholding the reason still holds by
+omission rather than by stated policy, but the omission is not total — there is an endeavour
+to give notice, qualified twice. Notice that an action was taken is not a reason for it, and
+the chapter should claim exactly that much.
 
-### 9.6 A caveat on the FX Global Code
+### 10.3 Three fee figures, correctly attributed
+
+| Figure | Actually from | Correction |
+|---|---|---|
+| $0.10–$0.55 per million, aggressor-pays | **LSEG FX EU MTF**, operator FRTSIL. *Forwards Matching Rate Card* v5.0, 11 Aug 2026 | Not a UK MTF fee. "Fee per Aggressor $M," five marginal tiers, and **"There are no fees for Market Making"** — aggressor pays, maker free |
+| $10.00 per USD million, spot | *FXall RFQ Fee Schedule* v1.4, §I.A.4.a, p. 3 | **Off-venue by its own document.** §II.A.2, p. 6: "Spot instruments are not provided on the LSEG MTF or LSEG UK MTF and are considered 'off-venue'." Do not call it a venue fee |
+| $10,005 per month, co-location | *LSEG FX Transactions — Connectivity Options* v2.1 | Cross-venue document, not UK-MTF-specific |
+
+The off-venue figure is arguably the *stronger* evidence for the pricing capacity, since it
+shows the operator pricing execution where no rulebook compels it to publish anything. It
+simply cannot be labelled a venue fee. The fee schedule also **contradicts itself on its
+effective date** (cover 1 Jan 2026; introduction "1March2025") — cite the cover, footnote the
+discrepancy.
+
+The rulebook's own fee text is one delegating sentence, **Rule 5.8.1, p. 30**. The clause
+carrying argumentative weight is **Rule 8.2.2, p. 37**: "As consideration for this access, the
+Participant will pay any Platform fees (if applicable) to the relevant LSEG Affiliate, abide
+by these Rules and contribute to the level of trading activity on the Platform." Fee as the
+price of access, in the operator's own words, needing no rate card at all.
+
+### 10.4 A caveat on the FX Global Code
 
 At printed p. 3 the Code lists five GFXC Reports, including "The Role of Disclosure and
 Transparency on Anonymous E-Trading Platform," and states they "are not part of the Code or

@@ -6,7 +6,7 @@ year: 2019
 doi: 10.1177/1461444819854731
 venue: "New Media & Society"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [5]
 claims: [algorithmacy-observed]
@@ -14,10 +14,12 @@ read_depth: full-text
 verified: crossref-verified
 verified_date: 2026-08-08
 source_basis: "Full text obtained 2026-08-08 via open access (8,881 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
-generated_run: 2026-08-08-oa-full-text-pass
+generated_run: 2026-08-11-p9
 flags: []
 hold_rationale: "Cut in the editor revision by cluster thinning; five citations were carrying one point."
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 

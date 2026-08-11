@@ -6,7 +6,7 @@ year: 2021
 doi: 10.1016/j.ijresmar.2020.09.006
 venue: "International Journal of Research in Marketing"
 cluster: phygital-service
-status: cited
+status: rejected
 role: governor
 used_by_sections: [4, 6]
 claims: [wellbeing-valence, industry-gains-and-transition]
@@ -14,9 +14,12 @@ read_depth: full-text
 verified: verified
 verified_date: 2026-08-08
 source_basis: "Full text obtained 2026-08-08 via open access (18,703 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
-generated_run: 2026-08-08-oa-full-text-pass
+generated_run: 2026-08-11-p9
 flags: []
+rejected_reason: "Status corrected 2026-08-11. The card asserted cited. The source is in neither references.bib nor cited_keys.txt, so it left the manuscript at some point after the 8 August build without the card following. The displacement argument was not recorded at the time and cannot now be reconstructed; this note is the record that it is missing."
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 

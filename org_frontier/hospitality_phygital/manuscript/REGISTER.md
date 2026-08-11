@@ -70,8 +70,17 @@ For the manuscript only:
    needs to be tight. Prose in which every paragraph lands near the mean reads as machine-made, and
    neither exemplar reads that way. Three paragraphs in the current draft sit outside a 120–260 band
    by design; the reasons are recorded below and a later pass should leave them alone.
-3. **Narrative citation is the default.** The cited author is the subject of the sentence wherever
-   that author's argument is being engaged.
+3. **REVERSED 2026-08-09 — parenthetical citation is the default.** The original ruling made
+   narrative citation the default, and it was measured on the wrong exemplar. Lynch et al. (2021) is a
+   decade review by the journal's editors, a genre whose business is evaluating named scholars, and it
+   runs narrative to parenthetical at about 3:1. Lugosi (2021) is a **conceptual commentary**, which is
+   what this manuscript is, and it runs **one narrative citation against fifty parenthetical** across
+   2,070 words. The two share an author, so this is genre and not idiolect. Ideas are properties of the
+   field and the citation trails the claim. Narrative citation stays available for the rare case where
+   a named scholar's argument is itself the object of discussion. This also restores the house
+   preference for citations at the end of the sentence, which the original ruling had overridden.
+   [`INTRODUCTION.md`](INTRODUCTION.md) follows the corrected ruling; the rest of `manuscript.md` does
+   not yet and should be converted.
 4. **Measured evaluative language is permitted** where it states a judgement the authors will defend:
    'usefully qualify', 'rich reading', 'arresting', 'rather starkly'.
 5. **No bold in running text.** Constructs are named in plain prose on first use.
@@ -100,3 +109,38 @@ claim it qualifies. The last of the three vignettes in section 4 runs to 95 as a
 after two longer ones. The conclusion's first paragraph runs to 102 because a conclusion should be
 tight. Driving every paragraph to the mean would produce exactly the uniformity of shape that marks
 prose as machine-made, and the exemplars do not have it either.
+
+
+## Measured a second time, 2026-08-09
+
+Both exemplars were retrieved in full from Oxford Brookes RADAR and measured directly rather than
+recalled. Findings that were not in the first pass:
+
+| feature | Lugosi (2021) | Lynch et al. (2021) |
+|---|---|---|
+| Sentence mean / median / range | 26.2 / 25 / 7–51 | 29.7 / 28 / 7–78 |
+| Paragraph mean | 129 words | 161 words |
+| One-sentence paragraphs | none | none |
+| Narrative : parenthetical citations | **1 : 50** | 3 : 1 |
+| Authorial first person | **one** *I argue*, on the thesis, never repeated | editorial *we*, 7.9 per 1,000 words |
+| Rhetorical questions in running prose | **zero** | **zero** |
+| Roadmap paragraph | **none** | **none** |
+| "not X but Y", authorial | zero | zero (3 instances, all attributed to others) |
+| "rather than X, Y" as argument | zero | zero |
+| Hedging stacks | zero | zero |
+
+**Four rules follow.**
+
+1. **Spend the authorial first person once.** Lugosi uses *I argue* in the final sentence of his
+   introduction and never again. Everything else is the disciplinary *our understanding*, which
+   enlists the reader rather than marking the author.
+2. **No rhetorical questions in running prose.** Neither article contains one. Lugosi does ask
+   questions, in numbered display blocks, and always asks them outright instead of announcing them.
+   A question in the body should either be asked in a display list or converted to a declarative.
+3. **No roadmap paragraph.** Neither introduction tells the reader what order the sections come in.
+   Self-description is confined to the last two sentences of the introduction and the first sentence
+   of the conclusion, and appears nowhere in the body of either article.
+4. **Long untidy enumerations, not tidy triads.** Both use lists constantly, running to five, seven
+   and nine items and sitting mid-sentence to carry content. The sentence-final balanced three-item
+   list appears about 0.4 times per 1,000 words in each. Long sentences are licensed when they carry
+   a list or a citation string, and Lugosi's most ambitious sentence is a semicolon-chained crescendo.

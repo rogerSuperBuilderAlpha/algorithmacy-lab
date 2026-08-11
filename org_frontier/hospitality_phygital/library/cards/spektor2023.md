@@ -6,7 +6,7 @@ year: 2023
 doi: 10.1145/3579466
 venue: "Proceedings of the ACM on Human-Computer Interaction"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [3]
 claims: [discretion-redistribution]
@@ -14,10 +14,12 @@ read_depth: abstract
 verified: verified
 verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read."
-generated_run: 2026-08-08-library-build
+generated_run: 2026-08-11-p9
 flags: []
 hold_rationale: "Cut in the editor revision for space."
 ---
+
+> **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.
 
 ## Summary
 
