@@ -28,13 +28,20 @@ refs = subprocess.run(
 # surname -> set of years present in the reference list
 listed = {}
 for line in refs.splitlines():
-    m = re.match(r"^([A-Z][^(]*?)\s*\((\d{4}[a-z]?|n\.d\.)\)", line.strip())
+    # A reference may open with a lowercase nobiliary particle -- "van Doorn, Jenny",
+    # "de Certeau, Michel". Requiring ^[A-Z] skipped those lines entirely, so the
+    # checker never saw van Doorn 2017 and matched the in-text citation against a
+    # co-author's surname in a different entry (Doorn, Neelke, in Alfrink et al. 2023),
+    # reporting a disagreement that did not exist.
+    m = re.match(r"^((?:van|von|de|del|della|du|da|dos|le|la|ter|ten|af|zu)\s+)?"
+                 r"([A-Z][^(]*?)\s*\((\d{4}[a-z]?|n\.d\.)\)", line.strip())
     if not m:
         continue
-    year = m.group(2)
-    for sur in re.findall(r"([A-Z][A-Za-z'\-]+),", m.group(1)):
+    year = m.group(3)
+    names = m.group(2)
+    for sur in re.findall(r"([A-Z][A-Za-z'\-]+),", names):
         listed.setdefault(sur, set()).add(year)
-    for sur in re.findall(r"\b([A-Z][A-Za-z'\-]+)\b", m.group(1)):
+    for sur in re.findall(r"\b([A-Z][A-Za-z'\-]+)\b", names):
         listed.setdefault(sur, set()).add(year)
 
 # narrative: "Surname (2020)" / "Surname et al. (2020)" / "Surname and Other (2020)"
