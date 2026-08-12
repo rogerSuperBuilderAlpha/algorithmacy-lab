@@ -50,3 +50,25 @@ Fact hold closed: “ten of thirty-five” matches `v4/factbase/money_census.md`
 - G4: PASS.
 - Confirmed absent: Schegloff, “pays for answering,” “optimization.”
 - DOCX: regenerated with footnote-merge post-process (31 notes, sequential first-use).
+
+## Rhythm pass (2026-08-11 evening)
+
+Sentence-by-sentence rewrite for length variance and AI-fluff elimination. Argument, footnotes,
+and attribution guardrails unchanged. Landing lines re-welded to 5/31 (16%). G4 PASS. DOCX
+refreshed on Desktop.
+
+## Scholarly rewrite (2026-08-11 night)
+
+Reversed the rhythm/anti-signpost caption register. Body rewritten section-by-section toward
+v6 paragraph craft on the v8 chronological skeleton: longer evidence periods, dialogue embedded
+inside argument, cold-term glosses (third, broker, enrollment, speakable access, κ, PixelVision,
+FX third-party/counterparty, banned-edge counterfactual, Royce loyalty) woven as clauses.
+Mean sentence length moved from ~15 toward ~20; freestanding slogan landings removed. G4 PASS.
+DOCX refreshed (31 footnotes).
+
+## Explain-what-you-mean pass (2026-08-11)
+
+Cut empty throat-clearing ("The argument needs four sources…", "The film does not forecast…",
+"It shows the same form unfinished", slogan landings, enumerator "Custody is one change").
+Rewrote into claims that state why a sentence is there and gloss terms in place. Mean sentence
+length ~21.5. G4 PASS. DOCX refreshed.
