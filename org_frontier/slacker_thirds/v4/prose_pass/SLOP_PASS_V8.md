@@ -72,3 +72,21 @@ Cut empty throat-clearing ("The argument needs four sources…", "The film does 
 "It shows the same form unfinished", slogan landings, enumerator "Custody is one change").
 Rewrote into claims that state why a sentence is there and gloss terms in place. Mean sentence
 length ~21.5. G4 PASS. DOCX refreshed.
+
+## Simmel deferral argued completely (2026-08-12)
+
+§2 expanded from a one-sentence Distanz gloss into the load-bearing arc: (1) why postponed
+(*Denn*/*Distanz* → *Zweierkonfigurationen*; triad chapter wants close group); (2) related later
+attempt in *Streit* (conflict as association; unite-to-fight; enemy as cement) without equating
+that to the deferred analysis; (3) phrase *gesellschaftsbildende Vermittlung eines dritten
+Elementes* occurs once and never returns; (4) only that undeveloped figure matches the cut.
+Film anchors (bus station / hit-and-run / taxi / accident) break the filmless run. Footnote 3
+expanded with *Streit* locators. G4 PASS. Desktop DOCX refreshed.
+
+## Contemporary Distanz (2026-08-12)
+
+Added §2 paragraph on Burt/Obstfeld/Kwon: contemporary brokerage formalized Simmel's *close*
+thirds (node between identified alters), not Distanz; field exclusions drop sidewalk/cut by
+construction. Footnote 32 holds chronology correction (*Philosophie des Geldes* 1900 precedes
+deferral; stranger/space ≠ fulfillment) and blocks ANT/iungens-as-Simmel misreads. Rejected
+pasted "subsequent magnum opus / ANT mediator / iungens = deferred case" genealogy. G4 PASS.
