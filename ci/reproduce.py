@@ -54,11 +54,16 @@ def load_checks():
 
 def study_dir_of(check):
     """The package directory a check's command runs from, e.g.
-    'python -m org_frontier.questions.q45_x.probe_y' -> 'org_frontier/questions/q45_x'."""
+    'python -m org_frontier.questions.q45_x.probe_y' -> 'org_frontier/questions/q45_x',
+    'python org_frontier/recurrence/bot_crqa/analyze_crqa.py' -> 'org_frontier/recurrence/bot_crqa'."""
     toks = check["cmd"].split()
     if "-m" in toks:
         module = toks[toks.index("-m") + 1]
         return "/".join(module.split(".")[:-1])
+    for t in toks[1:]:
+        if t.endswith(".py") and "/" in t:
+            parent = "/".join(t.split("/")[:-1])
+            return parent or None
     return None
 
 
