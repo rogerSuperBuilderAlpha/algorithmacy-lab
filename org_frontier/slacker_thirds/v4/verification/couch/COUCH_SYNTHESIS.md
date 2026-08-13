@@ -1,7 +1,7 @@
-# Contemporary couch — synthesis of the six packets
+# Contemporary couch — synthesis of the seven packets
 
 Run 2026-08-12 against the thirty-one rows of
-[`../CONTEMPORARY_COUCH_GAPS.md`](../CONTEMPORARY_COUCH_GAPS.md). Six packets, each four search
+[`../CONTEMPORARY_COUCH_GAPS.md`](../CONTEMPORARY_COUCH_GAPS.md). Seven packets, each four search
 angles and three independent refutation lenses over three claim batches. The briefs are in
 [`RESEARCH_PROMPTS.md`](RESEARCH_PROMPTS.md); each packet's findings, evidence, votes and
 row dispositions are in its own `results_p*.md`.
@@ -14,14 +14,22 @@ row dispositions are in its own `results_p*.md`.
 | [P4 can a medium interpret](results_p4_royce_peirce_interpreter.md) | 65 | 30 | 26 | 9 |
 | [P5 Reich's reception](results_p5_reich_reception.md) | 85 | 58 | 27 | 0 |
 | [P6 the joins](results_p6_joins.md) | 49 | 20 | 29 | 0 |
-| **total** | **358** | **196** | **153** | **9** |
+| [P7 the eleven untagged rows](results_p7_untagged_rows.md) | 59 | 27 | 32 | 0 |
+| **total** | **417** | **223** | **185** | **9** |
 
-Lenses told to default to refuted killed 153 of the 349 claims they read. That rate is the
-instrument working, and each of the 153 is a citation a single eager pass would have handed to the
+Lenses told to default to refuted killed 185 of the 408 claims they read. That rate is the
+instrument working, and each of the 185 is a citation a single eager pass would have handed to the
 chapter. The three single-pass dossiers beside these files — `P1_P2_simmel_dossier.md`,
 `P3_P4_royce_dossier.md`, `P5_P6_reich_joins_dossier.md` — cover the same rows without votes and say
 so. Where they and these runs agree, a row is about as secure as this project can make it without a
 library.
+
+P7 closed the eleven rows the first six left open. Those rows came back empty for a fault on our
+side: the angle prompts carried each packet's questions but not the row text, so no claim was ever
+tagged to them. P7 carried the row text and required every claim to name a row. Ten of the eleven now
+carry a disposition on evidence; one, B-S3, stays open because Coser 1956 is lending-locked on all
+five Internet Archive copies and the two 2012 *Der Streit* key-work entries are paywalled — a
+retrieval failure, stated as such.
 
 ---
 
@@ -129,6 +137,40 @@ to be cited rather than discovered by a referee:
 And one refutation at 3-0 aimed straight at the chapter's inference: **Bordwell argues against
 reading network film form as an effect of network technology.**
 
+## P7: three citation pins the chapter has to move
+
+The scoped pass over the eleven rows closed most of them, and it did it by finding that the
+chapter's Reich apparatus points at the wrong pages.
+
+- **B-C2 `reframe`. The pin must move.** Nobody located anywhere pin-cites Reich at 741 for the
+  livelihood locus. The reception anchors that material at 734–39 (Merrill, Brescia), at 738
+  (Marshall in *Arnett*; *Wyman* at 737–39), and at 785 (Koh, Van Alstyne). Footnote [^12] should
+  follow the canon.
+- **B-C3 `reframe`. 783 is not a demand the canon carries; it is a demand the canon demotes.** Van
+  Alstyne twice names 783–85 as "two pages of tentative suggestions" and "two pages of mild (and
+  optimistic) conjecture," and Verkuil routes the procedural programme elsewhere. The chapter leans
+  on 783 as if it were load-bearing in the reception. It is not.
+- **B-C4 `reframe`.** The private extension exists but is built by analogy, and **786 is cited by
+  nobody located.** Brescia coins "private largess" from Reich's government-largess argument while
+  pin-citing 764–68 — not 786 — for Reich's own notice of private power.
+
+Three rows come back `found` with real couch: **B-C1** (Traynor's Shively passage with the 751–55
+string cite and the 752 n.97 pin, re-quoted verbatim in *Everett v. Gordon*), and **B-R3** and
+**B-R4**, where Raposa, Fabbrichesi and Kegley supply the Peirce–Royce interpretation literature the
+row asked for — including a second textual base for the communication condition, independent of
+*PC* 2:67, in Royce's 1894 *Philosophical Review* essay.
+
+Two are the chapter's own. **B-S2 `own-as-author`**: the deferral reading has no secondary couch at
+all; a verifying lens independently retrieved the 1908 German and confirmed both the deferral
+sentence and *Zweierkonfigurationen* at pp. 103–04, and no secondary work in the searched corpus
+quotes the passage as a deferral. **A-C8 `own-as-author`**: both seams are undocumented in the
+primaries, in opposite ways — Reich's heavily footnoted article names no philosopher or sociologist
+of community and claims a legal-realist lineage, and Royce never names Simmel.
+
+And one reverses a contrast the chapter draws. **A-S5 `reframe`**: every claim in the cluster was
+refuted, but three lenses agreed independently on the underlying text — Koschorke's paradigm, with
+Serres, does not make the third an addition to a dyad. The chapter's framing has it backwards.
+
 ---
 
 ## What is owed to a library
@@ -141,9 +183,9 @@ The named debts that matter most:
 - **P1, B-S2.** Schlette 2021, the one located Royce–Simmel comparative study, unread.
 - **P4.** Elena Esposito, *Artificial Communication*, and de Souza's semiotic engineering — the most
   promising non-ANT candidates, untouched. Chatman and Bordwell need reading on paper.
-- **P5, B-C1 to B-C4, and P4, A-R6 / B-R3 / B-R4.** These rows were never tagged by the angle
-  agents, so no claim in either packet bears on them. They are `open` for want of a scoped pass, not
-  for want of sources — a briefing gap on our side, and the cheapest thing here to fix.
+- **P7, B-S3.** The one row still open, and open honestly: Coser's *The Functions of Social Conflict*
+  (1956) is lending-locked on all five Internet Archive copies, HathiTrust returns 403, and the two
+  2012 *Der Streit* key-work entries are paywalled. The conflict-essay reception needs a library card.
 
 ## What to do next
 
@@ -151,10 +193,8 @@ The named debts that matter most:
    stated. The narrower claim is available and better.
 2. **Repair the Royce section** — A-R3, A-R12, and the memory/appropriation split — using Viljoen and
    Warner for the second sense of membership.
-3. **Run a scoped pass for the eleven untagged rows** (B-C1–B-C4, A-R6, B-R3, B-R4, and P1's open
-   rows). The briefs were written against the gap table, but the angle prompts did not carry the row
-   text, so the agents worked from their own shorthand. Passing the row text into each angle prompt
-   fixes it.
+3. **Move the three Reich pins** — [^12] off 741, [^13]'s weight off 783, and [^14] off 786 — per P7's
+   B-C2, B-C3 and B-C4. These are apparatus corrections a referee would catch, and they are cheap.
 4. **Name Feld, Warner, Duranton and Puga, Silvey, Cohen and Bordwell** as the nearest neighbours,
    and state the novelty claim against them rather than against nothing.
 5. Do not fold any of this into the chapter in the same pass that reads it. The v4 design judges
