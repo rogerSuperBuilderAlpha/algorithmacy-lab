@@ -7,6 +7,11 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   Iowa).
 - **Status:** abstract accepted; full chapter due 2026-08-30 (min. 10,000 words incl. references);
   double-anonymized review; academic APA.
+- **Two parallel drafts; the author picks.** `chapter.md` is the canonical, verified, submittable
+  manuscript. [`chapter_v2.md`](chapter_v2.md) is a prose rewrite of the same argument against four
+  published model essays (2026-08-14, `HANDOFF.md` §0e): same content, same citations, ~50 sentence
+  merges that raise length variation toward the models and remove both drumbeats. Nothing but prose
+  differs — 123 insertions, 117 deletions.
 - **Current draft:** `chapter.md`. This is the canonical manuscript (hard-wrapped for git diffs). References are
   inline in APA 7 style, and every in-text citation resolves to a reference-list entry.
 - **Grammarly / paste:** [`chapter_grammarly.md`](chapter_grammarly.md) — soft-wrapped body only (Abstract
@@ -15,7 +20,7 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
 - **Word:** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc). Reflow into the IGI
   template at submission. Edit the markdown, not the `.docx`.
 - Presentation materials (the SBE 2026 deck and poster) live in [`../presentations/`](../presentations/).
-- **Length:** ~14,300 words total, ~11,300 body, abstract 148.
+- **Length:** 15,057 words total, 11,703 body, abstract 149 (measured 2026-08-14).
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
   verified references closing three gaps flagged as reviewer-exploitable: the brokerage literature behind the
   mediated triad (Burt; Obstfeld; Hahl et al. on disintermediation), the two-sided-market economics behind the
@@ -30,7 +35,7 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   algorithmacy's uneven distribution, and a hotels-vs-OTA worked bypass case).
 - **IGI template conformance:** Abstract (148 words, no citations) · Keywords · numbered sections §1 Introduction
   through §10 Conclusion · References (APA, incl. masked "Author (2026)" entry for the anonymized companion
-  work) · Additional Reading · Key Terms and Definitions (11 terms). Meets the ≥10,000-word minimum, the
+  work) · Additional Reading · Key Terms and Definitions (14 terms). Meets the ≥10,000-word minimum, the
   ≤150-word abstract limit, and the double-anonymized requirement.
 - **Final submission-readiness review (2026-07-01):** four parallel reviewers (template/anonymization, citation
   integrity, argument coherence, prose). All findings fixed: abstract re-trimmed under the 150 limit after the

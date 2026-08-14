@@ -199,6 +199,13 @@ administered, wave by wave, is in [`instruments/`](instruments/).
 - **Perceived substitutability (purpose-built, exploratory)**, short items on how replaceable a
   participant feels in the cohort's coordination, written to the catalog's substitutability prior.
 - **General self-efficacy**, from Chen, Gully, and Eden (2001), as a covariate and discriminant check.
+- **Algorithmic competency**, twelve items adapted from Zhou, Lei, Liu, Huang, and Hou (2025), at Wave 2
+  only, as the discriminant test against the one published rival measure of competency in
+  algorithmically mediated work. Their scale was built on Chinese ride-hailing and food-delivery
+  workers, so the items keep their dimensions and verbs and change only the gig-specific referents;
+  every substitution is recorded beside the original in the codebook. Algorithmacy claims an axis their
+  items never touch — coordination *with a human counterpart* through the system, where all twelve of
+  theirs are worker-to-system — and H4 is where that claim meets data.
 - **Sense of belonging** to the cohort, adapted from Walton and Cohen (2007), as a covariate.
 - **Demographics and background** at Wave 1, and program-experience and open-response items at Wave 3.
 

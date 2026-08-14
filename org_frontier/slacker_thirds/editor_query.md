@@ -1,4 +1,16 @@
-# Editor query: draft, unsent
+# Editor query: draft, unsent, and now partly SUPERSEDED
+
+**2026-08-14: do not send this as written.** The acceptance email answers items 2 and 3 outright —
+title, editors, deadline, and Chicago style are all fixed, and are recorded in
+[`COLLECTION_TERMS.md`](COLLECTION_TERMS.md).
+
+**Two questions below survive, and both are worth asking.** Item 1's real question is not the range
+but whether notes count toward it, which the email does not say; the range itself is confirmed at
+3,000–5,000. Item 4, the change from the accepted abstract, still needs to come from the author.
+
+**One thing the email adds that this query does not ask about:** notes must render as **endnotes**.
+
+---
 
 Four open items for the collection's editor. Drafted 2026-08-02 and updated 2026-08-11. **Not
 sent.** Sending it is the author's call. Item 4 describes a substantive change from the accepted
