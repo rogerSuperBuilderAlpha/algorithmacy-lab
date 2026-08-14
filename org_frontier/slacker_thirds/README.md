@@ -180,9 +180,12 @@ chapter bibliography.
       URLs gained access dates — Althouse and *Austin Chronicle* verified HTTP 200; the two Criterion
       reprints dated to match the sibling entry from the same pass and flagged for a browser check,
       because Criterion returns 403 to scripted and agent fetches.
-- [ ] Collection's citation style + formatting guide (v3 is Chicago notes-bibliography, 78 notes plus a
-      three-part bibliography, pending the editor's confirmation)
-- [ ] Exact collection title / editor / deadline
+- [x] **Collection terms received (2026-08-13) — see [`COLLECTION_TERMS.md`](COLLECTION_TERMS.md).**
+      *Slacker: Answering the True Call — Essays on Linklater's Cult Classic* (working title), eds.
+      Sara Bizarro and Melissa Remark, Bloomsbury. **Final draft due 2026-11-01**; optional feedback
+      draft 2026-10-01. **3,000–5,000 words** (v3's 5,092-word body is 92 over), Chicago, notes as
+      **endnotes**, US English per Merriam-Webster's Collegiate 11th. Bloomsbury's Dec 2025 AI-use
+      policy came with the acceptance and is the author's to read before he replies.
 - [ ] **Author-only remainder — see [`chapter/AUTHOR_TASKS.md`](chapter/AUTHOR_TASKS.md).** Five items:
       the Criterion disc (still the largest unblock), **Rivera, Soderstrom & Uzzi 2010** end to end,
       **Moretti p. 3**, sending `editor_query.md`, and confirming two Criterion access dates. **Closed

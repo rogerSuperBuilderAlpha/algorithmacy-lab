@@ -111,14 +111,22 @@ winning frame's own memo — the chosen candidate wrote "a three-dollar cover," 
 reads "Five-dollar cover. — I got a stamp." An instrument that corrects the argument
 against itself is worth quoting from, with its limits stated.
 
-## A4 — The collection's title, editor of record, and deadline are unknown
+## A4 — The collection's title, editor of record, and deadline ~~are unknown~~ are known
 
-**Status: unknown, and nothing in the pipeline can find out.** `editor_query.md` has been
-drafted since 2 August and unsent. Its numbers are stale — it says 5,180 words and 77
-notes against v3's actual 5,092 and 78 — and its item 4 describes a terminology change
-that Phase 1 may supersede.
+**Status: CLOSED 2026-08-13** by the acceptance email, recorded in
+[`../COLLECTION_TERMS.md`](../COLLECTION_TERMS.md). *Slacker: Answering the True Call —
+Essays on Linklater's Cult Classic* (working title), eds. Sara Bizarro and Melissa Remark,
+Bloomsbury. **Final draft 2026-11-01**, optional feedback draft 2026-10-01, 3,000–5,000
+words, Chicago with endnotes, US English per Merriam-Webster 11th.
 
-**What depends on it.** Nothing in the argument. Everything in the scheduling.
+**What this changes.** The schedule is real: v4 has roughly eleven weeks, and the optional
+October draft is worth taking because it buys an editorial read before the binding date.
+The 5,000-word ceiling is stated flat, so v4 builds to 5,000, not to 5,092. Two items the
+email adds rather than closes: notes must render as **endnotes**, and Bloomsbury's Dec 2025
+AI-use policy is attached for the author to answer before he confirms.
+
+`editor_query.md` is superseded except for its item 4, the terminology change, which now
+belongs in the confirmation reply.
 
 ## A5 — The abstract's terminology may not survive
 
