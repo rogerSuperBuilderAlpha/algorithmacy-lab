@@ -32,6 +32,17 @@ FACETS = {
 }
 ITEMS = [i for items in FACETS.values() for i in items]
 
+# Zhou et al. (2025) algorithmic competency, adapted — the discriminant rival (H4). W2 only.
+ZAC_FACETS = {
+    "ZAC-UN": ["zac_un_1", "zac_un_2", "zac_un_3"],
+    "ZAC-RM": ["zac_rm_1", "zac_rm_2", "zac_rm_3"],
+    "ZAC-LV": ["zac_lv_1", "zac_lv_2", "zac_lv_3"],
+    "ZAC-EM": ["zac_em_1", "zac_em_2", "zac_em_3"],
+}
+ZAC_ITEMS = [i for items in ZAC_FACETS.values() for i in items]
+# Which algorithmacy facet each ZAC facet is predicted to track most closely (pre-registered, H4).
+ZAC_EXPECTED = {"ZAC-UN": "ACS-CI", "ZAC-LV": "ACS-SC", "ZAC-RM": None, "ZAC-EM": None}
+
 
 def simulate_wave(n, wave, rng):
     """A synthetic wave carrying the predicted structure: three correlated facet factors on a 7-point
@@ -47,6 +58,21 @@ def simulate_wave(n, wave, rng):
             cols[it] = np.clip(np.round(v), 1, 7)
     # perceived system authority (commit), correlated with the algorithmacy latent (RQ3 / H3b)
     cols["sys_authority_commit"] = np.clip(np.round(4.0 + 0.5 * base + rng.normal(0, 1.0, n)), 1, 7)
+    # the discriminant rival, fielded at W2 only. Simulated under H4 as registered: related but
+    # separable — Understanding tracks counterpart inference, Leveraging tracks signal compression,
+    # Embracing is an attitude with no algorithmacy counterpart and so loads on its own latent.
+    if wave == 2:
+        attitude = rng.normal(0, 1, n)
+        zac_latent = {
+            "ZAC-UN": 0.55 * facet_latent["ACS-CI"] + 0.85 * rng.normal(0, 1, n),
+            "ZAC-LV": 0.55 * facet_latent["ACS-SC"] + 0.85 * rng.normal(0, 1, n),
+            "ZAC-RM": 0.30 * base + 0.95 * rng.normal(0, 1, n),
+            "ZAC-EM": attitude,
+        }
+        for f, items in ZAC_FACETS.items():
+            for it in items:
+                v = 4.0 + 0.9 * zac_latent[f] + rng.normal(0, 0.7, n)
+                cols[it] = np.clip(np.round(v), 1, 7)
     return pd.DataFrame(cols)
 
 
@@ -105,6 +131,26 @@ def main():
     r = df2[["acs", "sys_authority_commit"]].corr().iloc[0, 1]
     print(f"  r(ACS total, system-authority commit) = {r:+.2f}  [the formal prediction: positive under commit]")
     print("  [the pre-registered test is a multilevel fixed effect with self-efficacy controlled; see survey_bridge.md]")
+
+    if all(c in waves[1].columns for c in ZAC_ITEMS):
+        w2 = waves[1]
+        zac = pd.DataFrame({f: w2[items].mean(axis=1) for f, items in ZAC_FACETS.items()})
+        zac["ZAC-total"] = w2[ZAC_ITEMS].mean(axis=1)
+        print("\nH4 discriminant vs Zhou et al. 2025 (wave 2; the pre-registered test is a two-factor")
+        print("second-order CFA with the latent correlation < .85 — this is the observed-score preview):")
+        a = "  ".join(f"{f} {cronbach_alpha(w2, items):.2f}" for f, items in ZAC_FACETS.items())
+        print(f"  ZAC reliability: {a}")
+        r_total = pd.concat([scores[1]["ACS-total"], zac["ZAC-total"]], axis=1).corr().iloc[0, 1]
+        print(f"  r(ACS total, ZAC total) = {r_total:+.2f}  [≥ .85 at the latent level would falsify H4]")
+        print("  facet correlations (predicted partner marked *):")
+        for zf in ZAC_FACETS:
+            row = "  ".join(
+                f"{af} {pd.concat([zac[zf], scores[1][af]], axis=1).corr().iloc[0, 1]:+.2f}"
+                f"{'*' if ZAC_EXPECTED[zf] == af else ' '}"
+                for af in FACETS
+            )
+            print(f"    {zf}: {row}")
+        print("  [ZAC-EM is predicted to correlate weakly with every facet — it measures an attitude]")
 
 
 if __name__ == "__main__":

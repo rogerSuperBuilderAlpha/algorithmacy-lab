@@ -51,9 +51,21 @@ Mean comparisons across waves proceed only after at least metric invariance hold
 - Person-mean-centered predictors separate within-person from between-person association in the
   multilevel models. H3a–H3e are tested as the relevant fixed effects; directional nulls per the
   pre-registration.
-- **Discriminant validity.** A CFA with ACS and general self-efficacy estimates their latent
+- **Discriminant validity — generic.** A CFA with ACS and general self-efficacy estimates their latent
   correlation; a value below .85 supports distinctness. RQ3 relations are re-estimated controlling for
   self-efficacy to show incremental association.
+- **Discriminant validity — the published rival (H4), W2 only.** A second-order CFA with two factors,
+  ACS and adapted algorithmic competency (ZAC; Zhou et al. 2025), against a single-factor alternative:
+  distinctness needs the two-factor model to win on Δχ²/ΔCFI **and** the latent correlation to fall
+  below .85. Fornell–Larcker is reported alongside (each AVE above their shared variance). RQ3 relations
+  are then re-estimated with ZAC controlled, the same way self-efficacy is handled, so the incremental
+  claim is made against the rival and not only against generic confidence. The registered facet-level
+  predictions — ZAC-Understanding with counterpart inference, ZAC-Leveraging with signal compression,
+  ZAC-Embracing with none — are examined as a pattern check, not as separate tests, and no facet-level
+  p-values are interpreted. With one wave and a cohort-sized N this analysis is **exploratory in
+  precision but confirmatory in direction**: the .85 threshold and the model comparison were fixed
+  before fielding, and a failure is reported as a failure. `analysis.py` prints an observed-score
+  preview of this block; the CFA needs a SEM package.
 - Psychological-ownership and TMS change (W2→W3) are tested as latent change or multilevel slopes.
 
 ## Missing data and attrition

@@ -1,7 +1,7 @@
 # Wave 2 — midpoint (week 4, after the first build-and-review cycle)
 
 Shown during the Wave 2 window, after the first project's build and its peer-review-and-vote week. About
-13 minutes. Consent carries over from Wave 1; a participant who did not consent at Wave 1 is shown the
+15 minutes. Consent carries over from Wave 1; a participant who did not consent at Wave 1 is shown the
 consent form first.
 
 *Intro:* You have now built a project and gone through review once. Answer for how things are for you
@@ -81,5 +81,22 @@ now.
 59. `be_2` I feel like an outsider in this cohort.
 60. `be_3` I fit in well with the people in this cohort.
 61. `be_4` People in this cohort accept me.
+
+## Part 8 — The systems you work through (scale A7)
+*Intro:* These questions are about the automated parts of how work gets assigned, reviewed, and scored
+here — not about the people.
+
+62. `zac_un_1` I am willing to take time to develop a good understanding of how these automated systems work.
+63. `zac_un_2` I am familiar with how the platform's automated decisions get made.
+64. `zac_un_3` I understand how the rules and the patterns in the data change over time.
+65. `zac_rm_1` I can address gaps in the automated systems by drawing on my own experience.
+66. `zac_rm_2` I can make up for what the systems miss through help from group chats or other tools.
+67. `zac_rm_3` I can use the platform's own functions, such as reporting a problem or appealing a result, to resolve gaps in the automated process.
+68. `zac_lv_1` I proactively explore the systems' rules to get better outcomes for my work.
+69. `zac_lv_2` I proactively explore the systems' rules to minimize negative feedback.
+70. `zac_lv_3` I use the systems' rules to reduce the effort I put in and increase what I get out.
+71. `zac_em_1` I think the platform's automated systems are accurate in things like recording activity.
+72. `zac_em_2` I think the platform's automated systems are highly efficient, such as in matching work to people.
+73. `zac_em_3` I think these systems are getting better over time, such as in the accuracy of what they track.
 
 *Closing:* Thank you. The final questionnaire comes at the end of the session.

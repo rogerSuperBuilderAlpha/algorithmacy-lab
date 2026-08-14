@@ -66,6 +66,48 @@ cohort coordinates through. Higher = the system commits a determination (rather 
 
 ---
 
+## Algorithmic competency, adapted (ZAC) · scale A7 · W2 only
+**Discriminant comparison, not a focal measure.** Zhou, Lei, Liu, Huang & Hou (2025), "Algorithmic
+Competency of On-demand Labor Platform Workers," *Asia Pacific Journal of Human Resources*,
+doi:10.1111/1744-7941.70004 — the only published rival scale for a competency construct in
+algorithmically mediated work. Four dimensions, twelve items, developed across five samples of Chinese
+ride-hailing and food-delivery workers (overall α = .85; facet αs .77–.83). Fielded here once, at W2,
+to test whether algorithmacy is distinguishable from it. Full item provenance, original wording, and
+the discriminant argument: [`../../lima_pdw/literature/ZHOU_2025_INSTRUMENT.md`](../../lima_pdw/literature/ZHOU_2025_INSTRUMENT.md).
+
+**Adaptation.** Zhou et al.'s items name a gig context this cohort does not have — "AM" (algorithmic
+management), orders, customers, WeChat groups, location tracking. Each item below keeps the original's
+dimension, verb, and structure, and replaces only the concrete referent. The originals are given so a
+reader can judge the substitution. **Adapted items do not license direct comparison with Zhou et al.'s
+published psychometrics**; they license a within-sample discriminant test, which is what the design
+needs. No reverse-keyed items.
+
+### Understanding (ZAC-UN) — sophisticated understanding of how the systems work
+- `zac_un_1` — I am willing to take time to develop a good understanding of how these automated systems work.
+  *(orig: "…a good understanding of AM.")*
+- `zac_un_2` — I am familiar with how the platform's automated decisions get made. *(orig: "I am familiar with the platform's AM.")*
+- `zac_un_3` — I understand how the rules and the patterns in the data change over time. *(orig: "I understand the dynamic changes in algorithms and big data patterns.")*
+
+### Remediating (ZAC-RM) — supplementing what the system fails to do
+- `zac_rm_1` — I can address gaps in the automated systems by drawing on my own experience. *(orig: "I can address deficiencies in AM by integrating personal experience.")*
+- `zac_rm_2` — I can make up for what the systems miss through help from group chats or other tools. *(orig: "…through the help of WeChat groups or other tools.")*
+- `zac_rm_3` — I can use the platform's own functions, such as reporting a problem or appealing a result, to resolve gaps in the automated process. *(orig: "I can use platform APP functions (i.e., reporting exceptions and appealing) to resolve vulnerabilities in AM.")*
+
+### Leveraging (ZAC-LV) — using the rules to the worker's advantage
+- `zac_lv_1` — I proactively explore the systems' rules to get better outcomes for my work. *(orig: "…to obtain more high-quality orders.")*
+- `zac_lv_2` — I proactively explore the systems' rules to minimize negative feedback. *(orig: "…negative customer feedback.")*
+- `zac_lv_3` — I use the systems' rules to reduce the effort I put in and increase what I get out. *(orig: "I utilize AM rules to minimize labor input and increase earnings.")*
+
+### Embracing (ZAC-EM) — trust in the system's efficiency and accuracy
+- `zac_em_1` — I think the platform's automated systems are accurate in things like recording activity. *(orig: "…accurate in aspects like recording online durations.")*
+- `zac_em_2` — I think the platform's automated systems are highly efficient, such as in matching work to people. *(orig: "…such as in customers-workers matching.")*
+- `zac_em_3` — I think these systems are getting better over time, such as in the accuracy of what they track. *(orig: "I perceive the AM are undergoing refinement, such as in achieving more accurate location tracking.")*
+
+**Scoring.** Mean of the three items per dimension; overall ZAC is the mean of the four dimension
+scores, following the second-order structure Zhou et al. report.
+
+---
+
 ## Job autonomy (AU) · scale A7 · all waves
 Breaugh (1985) work-autonomy scales, three facets of three.
 ### Method autonomy (AU-M)

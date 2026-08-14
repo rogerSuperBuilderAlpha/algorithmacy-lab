@@ -47,15 +47,21 @@ from any older list you are working from.
 Confirm the two retained phrases. Note 44 already hedges, so this raises confidence rather than
 unblocking anything.
 
-## 4. Send `editor_query.md` — T6
+## 4. Reply to the editors — T6, mostly answered
 
-Drafted and unsent. Agents do not contact editors here, so this one is yours and it gates the rest:
+The acceptance email (2026-08-13, recorded in [`../COLLECTION_TERMS.md`](../COLLECTION_TERMS.md))
+settles three of `editor_query.md`'s four items. Agents do not contact editors here, so the reply is
+yours. What it now has to carry:
 
-- **The ceiling.** Body is **5,092 words** against a stated 5,000. The overage is 92 words, under two
-  per cent. Ask whether that stands or whether you cut.
-- Exact collection title, editor, deadline.
-- Citation style — the chapter is Chicago notes-bibliography, 78 notes, three-part bibliography.
-- Terminology: whether "attentional selector" and "transactional selector" survive house edit.
+- **Confirmation of the terms** the editors ask for: final draft **2026-11-01**, 3,000–5,000 words,
+  Chicago with endnotes, US English per Merriam-Webster 11th.
+- **Terminology.** The one live query. The abstract's hosting/engineering became setting/selector,
+  and v4 may move it again; the editors should hear it from you.
+- **The ceiling, if you want relief.** Body is **5,092** against a range that tops out at 5,000. The
+  email states the range flat, so the default is to cut the 92 words rather than ask.
+- **Bloomsbury's AI-use policy** (Dec 2025) came attached, with the editors pointing at its
+  provisions on private AI systems. Read it before you confirm — this chapter's pipeline is
+  AI-assisted end to end, and what the policy asks for is a decision only you can make.
 
 ## 5. Two Criterion access dates to confirm
 

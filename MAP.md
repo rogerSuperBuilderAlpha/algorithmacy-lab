@@ -39,6 +39,7 @@ Four programs on one thesis, plus the bridge and support arms. Each directory's 
 | [`org_frontier/field/`](org_frontier/field/) | Field — reading real organizations with exact Φ |
 | [`org_frontier/hospitality_phygital/`](org_frontier/hospitality_phygital/) | Hospitality phygital — algorithmic mediation and guest agency |
 | [`org_frontier/landscape/`](org_frontier/landscape/) | landscape — how the world uses PyPhi |
+| [`org_frontier/lima_pdw/`](org_frontier/lima_pdw/) | Lima PDW — algorithmacy as a communication competency |
 | [`org_frontier/llm_variance/`](org_frontier/llm_variance/) | llm_variance — the variance problem of language-model outputs |
 | [`org_frontier/multiparty/`](org_frontier/multiparty/) | multiparty — does adding parties change the verdict? |
 | [`org_frontier/outreach/`](org_frontier/outreach/) | outreach & upstream contributions |
