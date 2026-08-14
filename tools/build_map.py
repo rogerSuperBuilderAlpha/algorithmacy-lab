@@ -131,7 +131,7 @@ _PROGRAMS = [
 # Bridge and support arms under org_frontier/. Description derived from each README's H1.
 _ARMS = ["field", "cognition", "research", "classifier", "corpus", "multiparty",
          "principal", "proxy_bridge", "landscape", "outreach", "protocol", "llm_variance",
-         "coordinative_sovereignty", "hospitality_phygital", "reviews"]
+         "coordinative_sovereignty", "hospitality_phygital", "lima_pdw", "reviews"]
 
 
 def _entry_docs() -> list:
