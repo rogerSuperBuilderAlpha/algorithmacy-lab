@@ -235,3 +235,96 @@ near-absent.
 
 **No automated checker certifies prose.** The read-aloud is yours, and §5.2 and §6 are the passages I would
 read aloud first — they carry the most new argument and the densest citation load.
+
+## 0d. Review and fixes, 2026-08-14
+
+A read of the full body plus mechanical checks. **Nothing major.** Clean on the things that sink a
+submission: 109 in-text citation keys all resolve to reference entries (112 entries; the only script
+flags were reprint years and line-break artifacts), anonymization holds with no author, affiliation, or
+repository string anywhere and "Author, 2026" used consistently in all three places, abstract 149 words
+under the 150 limit, and all nine internal section cross-references point where they claim to.
+
+**The two fabricated-citation ghosts are laid.** `../research/` records Dasgupta and Robinson as author
+lists a deep-research agent invented. Both were verified against publisher records today and both are
+real as cited: Dasgupta, McDonnell, Carbery & Jooss (2025), *HRMJ* 35(3), 649–666,
+doi:10.1111/1748-8583.12587; Robinson, Jarrahi, Keegan & Meijerink (2026), *HRM* 65(1), 117–131,
+doi:10.1002/hrm.70019. The earlier passes caught them; nothing is outstanding.
+
+Six fixes applied to `chapter.md`:
+
+1. **§5.3 half-cited sentence.** "…to the constrained voice of platform workers (Dasgupta et al., 2025)
+   and to the politics of platform dependence more broadly" cited nothing for its second clause. The
+   clause is cut rather than back-filled, because no source in the bibliography carries exit/voice to
+   platform dependence in general and inventing a cite to cover a gesture is how bad citations start.
+2. **§7 bearer gap.** The instrument table read as though all seven remedies reach one bearer, while §6
+   takes the position that both persons and firms bear coordinative sovereignty and §3.2 says Article 22
+   stops at the natural person. A sentence after the table now separates them: Article 22 to natural
+   persons, the platform-work directive to workers, P2B complaint-handling and representative standing
+   to business users. It uses only facts already stated elsewhere in the chapter.
+3. **The flagged aphorism is gone.** "a competence distributed like capital distributes standing like
+   capital" (§4) was named in the author's own AI-slop verdict and had survived every pass since. The
+   claim it decorated stands on its own: the sentence now ends "…concentrates where algorithmacy is
+   already held."
+4. **§5.5 hedge stack.** Four hedges in five sentences had the paragraph conceding more than it claimed,
+   on the chapter's best empirical moment. Consolidated to three sentences with one hedge sentence; every
+   qualification is retained, none is added, and the closing claim is untouched.
+5. **README counts corrected** — 14 Key Terms, not 11; 15,057 total / 11,703 body, not ~14,300 / ~11,300.
+6. **Wrap damage repaired.** Fourteen body lines had been left as orphan fragments by hand edits. Body
+   paragraphs are rewrapped to the file's own modal width of 107; the reference list keeps its
+   hanging-indent wrapping. The rewrap script asserted word-for-word identity before writing, so the
+   change is whitespace only.
+
+**Owed before submission:** regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx` from
+`chapter.md`, since both now trail four prose edits.
+
+## 0e. Model-essay rewrite → `chapter_v2.md`, 2026-08-14
+
+**`chapter.md` is untouched and remains submittable.** `chapter_v2.md` is a parallel rewrite of the body
+prose against four published essays, held in `~/.claude/skills/draft/registers/sovereignty/corpus/`:
+Stark & Vanden Broeck (2024, *Organization Theory*), Muldoon & Raekstad (2023, *EJPT*), Pohle & Thiel
+(2020, *Internet Policy Review*), Rahman & Thelen (2019, *Politics & Society*). All four are open access
+and all four are interlocutors the chapter argues with, so the corpus doubles as a foil set.
+
+**The diagnosis, measured.** Stripping reference lists and page furniture from the four models (the raw
+`pdftotext` output inflated their short-sentence counts and their colon rates with bibliography
+fragments) gives this comparison:
+
+| | mean | sd | <12w | >40w |
+|---|---|---|---|---|
+| the four models | 27.8–37.0 | 14.5–24.3 | 1.3–14.6% | 18.1–26.8% |
+| `chapter.md` | 21.6 | **12.2** | 21.7% | **8.1%** |
+| `chapter_v2.md` | 25.1 | 13.5 | 16.3% | 13.7% |
+
+The chapter was not writing badly-shaped sentences; it was writing too few long ones and too many short
+ones, with less length variation than any model. That is the measurable form of the "uniformity of
+optimization" verdict. **The colon target was the opposite of what the raw numbers suggested** — the
+chapter already uses more colons than any cleaned model, and the earlier 8–18/1k readings were DOIs and
+volume numbers.
+
+**What was done.** Roughly fifty edits, each one merging adjacent sentences whose logic was already
+subordinate, or renaming a repeated thread entity. 535 sentences became 459; the body grew 57 words,
+from added backward hooks. Both drumbeats are gone (unvaried thread repeats 2 → 0). **Citations,
+quotations, page locators, statistics, dates, and legal references were not touched**, and the
+verification below confirms it.
+
+**What was deliberately left alone.** §5's short sentences are mostly parallel constructions doing
+rhetorical work — "Take a mediator… Restore the direct tie…", "node… edge", "Against a contingent
+gate… Against a necessary function…" — and the §4 eBay vignette is deliberately staccato and is the
+best-written passage in the chapter. Flattening those to hit a number would have been the same mistake
+in the other direction.
+
+**Verification.** 109 in-text citation keys all resolve (the six script flags are reprint years and
+line-break artifacts, as in §0d); "(Author, 2026)" present three times; no author name, affiliation, or
+repository string; abstract 149 words; body 11,738; total 15,092. Diff is 123 insertions / 117
+deletions, prose only.
+
+**Honest limits.** v2 still sits under the models' band on variance (13.5 against a 14.5 floor) and on
+long sentences (13.7% against 18%). Closing that mechanically would mean merging sentences whose logic
+is not subordinate, which is how a variance fix becomes a new uniformity. The paragraph-join figure
+barely moved (74% → 71%), and inspection says most of that number is a measurement artifact: the
+chapter hooks backward with definite noun phrases — "these requirements", "the gap", "the alternative" —
+that the entity-overlap heuristic cannot see. Perhaps fifteen joins are genuinely cold; three were
+fixed.
+
+**The author's read-aloud decides.** Nothing above substitutes for it, and on this manuscript three
+detectors have already returned clean on prose two human readers rejected.
