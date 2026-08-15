@@ -432,9 +432,9 @@ whether the mediator still binds.
 
 ### 5.2 The bypass test
 
-Triadic coordination comes in two kinds that look identical from the outside and differ decisively in what
-they permit. Take a mediator that binds two parties. Restore the direct tie between them, the tie that
-strict mediation forbids, and recompute whether the mediator still binds.
+Triadic coordination comes in kinds that look identical from the outside and differ decisively in what they
+permit. Take a mediator that binds two parties. Restore the direct tie between them, the tie that strict
+mediation forbids, and recompute whether the mediator still binds.
 
 Some mediators keep their grip. Such a mediator is necessary: its position rests on integrating work that
 the direct tie cannot reproduce. A clearinghouse that guarantees both sides of a trade, an exchange that
@@ -442,40 +442,28 @@ matches many orders into one price, an interpreter between parties who share no 
 something two parties dealing directly could not do for themselves, and handing them a direct line
 dislodges nothing. Others lose their grip the moment the tie is open. Such a mediator is contingent: its
 position rested on the absence of the direct tie, an absence usually held in place by an external
-constraint. The qualification matters, because not every constraint is liftable. A rule, a contract, and an
-architectural block can each be repealed, renegotiated, or mandated open, and the instruments of section 7
-are addressed to constraints of that kind. Where the absence of the direct tie is held instead by the
-counterpart's unwillingness to transact outside the mediator — by the buyer who will not install software
-that has passed no gate, or the traveler who will not book a hotel that carries no rating — the function is
-contingent in structure and unexitable in fact, and the strategy the verdict implies is voice
-notwithstanding the classification. A franchised car dealer relays a vehicle from manufacturer to buyer and
-integrates nothing. It occupies the coordination because franchise law forbids the manufacturer to sell
-direct, and repealing the law dissolves the dealer's position. Two further cases complete the picture. A
-mediator that was never in the coordination's core is reducible: the parties can already deal directly. A
-mediator that keeps a constitutive role under the open tie while losing part of its integration is a
-partial mediator: real integrating work alongside a bypassable gate.
+constraint. A franchised car dealer relays a vehicle from manufacturer to buyer and integrates nothing,
+occupying the coordination because franchise law forbids the manufacturer to sell direct. Two further cases
+complete the picture. A mediator that was never in the coordination's core is reducible: the parties can
+already deal directly. A mediator that keeps a constitutive role under the open tie while losing part of
+its integration is a partial mediator: real integrating work alongside a bypassable gate.
 
 The four verdicts sit at three levels, and keeping them apart prevents a common error. At the level of a
 single function the bypass returns two answers only: the function survives the restored tie or it does not.
 *Reducible* answers the prior question of section 5.1, since a mediator the parties can already route
 around needs no constraint lifted. *Partial* is a verdict on a mediator rather than on one of its
-functions, reached by aggregating mixed function-level answers. And every function-level answer is indexed
-to a dependent party and a counterparty segment, because a function that reproduces no direct tie for one
-buyer may be trivially bypassable for another. The unit of classification is a function, for a dependent
-party, against a segment of its counterparties, and the sections that follow keep to it.
+functions, reached by aggregating mixed function-level answers. The unit of classification is a function,
+for a dependent party, against a segment of its counterparties, and the sections that follow keep to it.
 
 The counterfactual restores the capability of direct dealing, not a prior relationship, because the parties
 may never have met. Could these two parties reach each other, at a cost the dependent party could bear
-without changing its scale, if no rule, contract, or architecture stood in the way? The reference point
-belongs in the question, because a channel a large firm can build is not one a small firm can, and the same
-function is contingent for the first and necessary for the second. For parties who already know of each
-other the question is easy. For a function whose whole business is introducing strangers it is the entire
-question, and the answer varies by actor. A traveler looking for a hotel chain she has used before can
-reach it directly, so the aggregation that would have introduced them is contingent for that booking. A
-traveler who would never have learned that an independent hotel exists cannot, so the same function is
-doing integrating work no direct tie reproduces. A mediator's classification therefore depends on which
-coordination is being asked about. The diagnostic sorts functions for a given dependent party, and it does
-not sort platforms once and for all.
+without changing its scale, if no rule, contract, or architecture stood in the way? For parties who already
+know of each other the question is easy. For a function whose whole business is introducing strangers it is
+the entire question, and the answer varies by actor. A traveler looking for a hotel chain she has used
+before can reach it directly, so the aggregation that would have introduced them is contingent for that
+booking. A traveler who would never have learned that an independent hotel exists cannot, so the same
+function is doing integrating work no direct tie reproduces. The diagnostic sorts functions for a given
+dependent party, and it does not sort platforms once and for all.
 
 This asks a different question from section 5.1, and the two answers need not agree. Factoring asks whether
 the coordination is triadic as it stands. The bypass asks whether it would stay triadic if an external
@@ -483,18 +471,17 @@ constraint were lifted. A marketplace gate that today carries every buyer–sell
 the system is currently wired, and it still dissolves the moment a rule forbidding direct contact is
 repealed. Reading irreducibility as necessity is how a contingent gate passes for an unavoidable one.
 
-Four literatures ask a version of this question, and they ask it from a different position. Brokerage
+Adjacent literatures ask a version of this question, and each asks it from a different position. Brokerage
 research asks what a broker's position yields: Burt (1992, 2004) on the returns to spanning a structural
 hole, Obstfeld (2005) on the broker who instead joins the parties it stands between, and Ryall and Sorenson
-(2007), who formalize when a broker is essential to a coalition's value and show that when actors form
-relations on their own expectations of value, profitable intermediation survives only under strict
-assumptions. Hahl et al. (2016) make the alters' capacity to close the tie the condition on brokerage
-returns. A platform-disintermediation literature runs the counterfactual empirically and analytically: Gu
-and Zhu (2021) find that a marketplace's own trust-building raises the rate at which the two sides transact
-around it, and Sekar and Siddiq (2026) model the platform's pricing response. Transaction cost economics
-asks whether a firm should perform a transaction internally or buy it (Williamson, 1975), and competition
-law's essential-facilities doctrine asks whether an excluded rival could viably duplicate the facility it
-seeks access to.
+(2007), who formalize when a broker is essential to a coalition's value and find that profitable
+intermediation survives endogenous tie formation only under strict assumptions. Hahl et al. (2016) make the
+alters' capacity to close the tie the condition on brokerage returns. A platform-disintermediation
+literature runs the counterfactual empirically and analytically: Gu and Zhu (2021) find that a
+marketplace's own trust-building raises the rate at which the two sides transact around it, and Sekar and
+Siddiq (2026) model the platform's pricing response. Transaction cost economics asks whether a firm should
+perform a transaction internally or buy it (Williamson, 1975), and competition law's essential-facilities
+doctrine asks whether an excluded rival could viably duplicate the facility it seeks access to.
 
 Each of these asks what the mediator's position is worth, and each asks it from outside the coordination:
 Ryall and Sorenson from the analyst's seat, Gu and Zhu from the platform's, a court from the tribunal's.
@@ -525,39 +512,40 @@ An opened bypass is not yet an exit. Ordered in April 2025 to stop restricting h
 outside its store, Apple opened the link and attached a schedule of fees to purchases made through it, so
 that the tie was restored and the charge moved onto the restored tie. A gate can rest on the absence of the
 direct link and on a second lever — control of the device, the account, the installed base — and the
-counterfactual isolates the first without touching the second. Where the mediator retains the power to
-price the alternative route, a remedy that restores the direct tie returns a capability whose cost the
-mediator still sets. Contingency establishes that exit is available in principle; what exit is worth
-depends on who sets its terms, which is a question about standing and therefore about voice. Nothing in the
-four verdicts marks that case, and naming it is a debt this chapter leaves open.
+counterfactual isolates the first without touching the second. Contingency establishes that exit is
+available in principle; what exit is worth depends on who sets its terms, which is a question about
+standing and therefore about voice. Nothing in the four verdicts marks that case, and naming it is a debt
+this chapter leaves open.
 
-European competition law asks a version of this question about contract terms. Under the
-ancillary-restraints doctrine a restriction accompanies its main operation outside the prohibition on
-anticompetitive agreements only where "the implementation of the main operation, which is not
-anti-competitive in nature, would be impossible in the absence of the restriction in question" and the
-restriction is proportionate to that operation's objectives (Case C-264/23, paras. 53–54) — the same
-question, asked of a clause. The Court adds that the comparison need not stop at the bare absence of the
-restriction but may extend to "realistic situations that might arise in the absence of that restriction"
-(para. 54), which is the operation the diagnostic performs on a mediator's functions. The diagnostic
-generalizes that operation from clauses to a mediator's functions, runs it from the position of the
-dependent party instead of a tribunal, and returns a strategy for that party, not a finding of legality.
-Given a mediator, a dependent party, and a set of rules, it asks which of the mediator's functions would
-survive the removal of the prohibition on direct contact, and converts each answer into a course of action.
+A court runs a narrower version of the same operation on contract terms. Under the ancillary-restraints
+doctrine a restriction accompanies its main operation outside the prohibition on anticompetitive agreements
+only where "the implementation of the main operation, which is not anti-competitive in nature, would be
+impossible in the absence of the restriction in question" and the restriction is proportionate to that
+operation's objectives (Case C-264/23, paras. 53–54). The Court adds that the comparison need not stop at
+the bare absence of the restriction but may extend to "realistic situations that might arise in the absence
+of that restriction" (para. 54). That is the diagnostic's operation, performed on a clause rather than on a
+mediator's functions and by a tribunal rather than by the party inside.
 
-What the answer licenses depends on who can lift the constraint, and the dependent party often cannot.
-Contingency is a fact about a rule, and rules have jurisdictions. The anti-steering obligation that makes
-the payment gate contingent for a developer distributing in Europe leaves the same gate, in the same firm,
-in the same month, unexitable for a developer distributing where no such obligation binds. The exit
-prescriptions of sections 5.4 and 8 — interoperability, portability, an alternative channel — name
-achievements of regulation more often than moves a firm can make alone. A dependent party can run the
-diagnostic anywhere and act on a contingent verdict only where someone with the power to lift the
-constraint has already done so, or can be moved to. Where that is absent, a structurally contingent
-mediator is practically necessary, and the repertoire that answers it is the repertoire of voice.
+Four things index a verdict, and each can move it. Scale is the first, since a channel a large firm can
+build is not one a small firm can, and the same function comes back contingent for the one and necessary
+for the other. The counterparty segment is the second, as the two travelers show. Jurisdiction is the
+third, because contingency is a fact about a rule and rules have borders: the anti-steering obligation that
+makes the payment gate contingent for a developer distributing in Europe leaves the same gate, in the same
+firm, in the same month, unexitable for a developer distributing where no such obligation binds. The fourth
+is what holds the absence of the direct tie in place. A rule, a contract, and an architectural block can
+each be repealed, renegotiated, or mandated open, and the instruments of section 7 are addressed to
+constraints of that kind; a counterpart's unwillingness to transact outside the mediator is liftable by
+none of them, and the buyer who will not install software that has passed no gate holds a function
+contingent in structure and unexitable in fact.
 
-What the counterfactual establishes is structural in a second sense too, since observed behavior can
-diverge from it. Hahl et al. (2016) find that brokered parties who do not perceive the gap between them do
-not attempt to close it, so a structurally contingent mediator can look unassailable in any behavioral
-record.
+The indices share a consequence. Where one of them runs against the dependent party, exit exists in
+principle and not for it, and what answers a structurally contingent mediator is the repertoire of voice.
+The exit prescriptions of sections 5.4 and 8 — interoperability, portability, an alternative channel — name
+achievements of regulation more often than moves a firm makes alone, and a dependent party can run the
+diagnostic anywhere while acting on a contingent verdict only where someone with the power to lift the
+constraint has done so or can be moved to. Observed behavior diverges from the structure as well: Hahl et
+al. (2016) find that brokered parties who do not perceive the gap between them do not attempt to close it,
+so a structurally contingent mediator can look unassailable in any behavioral record.
 
 ### 5.3 Exit and voice
 

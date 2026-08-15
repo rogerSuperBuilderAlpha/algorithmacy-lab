@@ -254,6 +254,57 @@ Several state the same caution about the diagnostic's limits from different angl
 loss. Nothing in Tier 1 or the §5.5 rebuild should be cut; the growth to look at is the qualification
 stack.
 
+## 0j. The §5.2 compression pass, 2026-08-15 — and what it shows
+
+**§5.2 went from 1,843 words to 1,671, a nine percent cut.** That is the honest number, and it is smaller
+than the section's size suggested it would be. The pass improved the section's structure considerably and
+its length only a little, because most of what §5.2 carries is content rather than padding.
+
+**What the pass found.** The section stacked seven qualifications on one operation, and four of them were
+the same qualification with four examples, each added by a different reviewer in a different pass: the
+counterpart's unwillingness to transact outside the mediator (Ekwueme), the dependent firm's scale
+(Ekwueme), the counterparty segment (already in the chapter), and the jurisdiction (Chaudhry). Each said
+that the verdict is indexed to something and that where the index runs the wrong way a structurally
+contingent function is unexitable in fact and the answer is voice. Stated four times in four places, that
+reads as a section hedging repeatedly; stated once, with the four indices grouped, it reads as an argument.
+They are now one paragraph naming the four and one naming the consequence they share.
+
+Also cut: three restatements of the standpoint claim, which had appeared in the comparison paragraph, the
+ancillary-restraints paragraph, and again in the sentence beginning "Given a mediator, a dependent party,
+and a set of rules"; the abstract restatement of the Apple case immediately after the concrete one; the
+unit-of-classification sentence duplicated between the levels paragraph and the new indices paragraph; and
+the second appearance of the franchised dealer, which the constraint-provenance paragraph carries better.
+A run of four paragraphs opening on "Four" is broken up, and the opening no longer says "two kinds"
+immediately before a paragraph naming four.
+
+**What compression cannot reach.** The rest of §5.2 is load-bearing: the four verdicts and their levels,
+the capability counterfactual, factoring against bypass (a July spine fix), the adjacent literatures (an
+August spine fix), constraint provenance, the platform divergence, the tolled bypass, and the
+ancillary-restraints doctrine. Cutting further means dropping a claim, not tightening prose, and that is
+the author's decision rather than an editor's. **If a claim has to go, the most droppable is the
+constraint-provenance paragraph with the Tesla case** — it is the newest, it is the least connected to what
+follows, and §5.4's portfolio treatment carries the partial-dealer point without it. That would recover
+about 120 words. Nothing else in the section can leave without a referee noticing its absence.
+
+**Section totals after the pass:** §5 is 4,169 words of a 15,637-word body, still the largest section at
+27%. Total 19,222 words, abstract 149, 117 references, every citation resolving.
+
+## Still open from the panel — two [FIX NOW] items never scheduled
+
+Renard's review carries two findings marked [FIX NOW] that no pass has applied, both in §6 and both with
+paste-ready text in `../reviews/2026-08-15/02_republican_theory.md`:
+
+- **F2 / R5.** §6 opens "Four strands of political theory converge on the construct." Renard's charge is
+  that they do not converge — Markell's paper is titled *The Insufficiency of Non-Domination*, and
+  relational autonomy presses its own objection to the boundary picture. His R5 reframes the opening as a
+  dispute the construct resolves rather than a convergence it inherits, which is the stronger claim.
+- **F3 / R2.** The Cicerchia sentences. His reading is that the chapter's gloss on her is accurate but its
+  use inverts her argument, and that Pettit's own footnote does the job better. R2 supplies the replacement
+  and keeps her where she genuinely works, on §3.3's economics.
+
+Both are paragraph-level. Neither is in Tier 1, the §5.5 package, Tier 2, or Tier 3, because none of those
+lists included them.
+
 ## Owed before submission
 
 - Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx` from `chapter.md`. Both now trail
