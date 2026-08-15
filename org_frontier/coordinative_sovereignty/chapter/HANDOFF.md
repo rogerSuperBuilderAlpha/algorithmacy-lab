@@ -72,10 +72,58 @@ resolving.
 (ECLI:EU:C:2023:957) at proof; the case, chamber and date are verified, the ECLI came from a secondary
 source. Confirm the Wilkinson (1965) page range against the journal.
 
-**Tier 2 and Tier 3 remain open** and are sequenced in `../reviews/2026-08-15/SYNTHESIS.md`. The largest is
-§5.5: Isabel Roth showed the evidence run is broken by the chapter's own cited source, and that the hotels
-built algorithmacy rather than seeking exit — a better ending than the one §10 currently prints. Her
-replacement text is a package (5A–5D) and should land as one.
+**Tier 2 and Tier 3 remain open** and are sequenced in `../reviews/2026-08-15/SYNTHESIS.md`.
+
+## 0g. Tier 2, first item: the §5.5 package, 2026-08-15
+
+Isabel Roth showed that §5.5's evidence run was broken by the chapter's own cited source. The section now
+argues the same verdict on evidence that holds.
+
+**What was wrong.** The two headline figures are real and verbatim in Schegg (2024), but they are not each
+other's complement: over the decade the agencies gained 9.9 points while direct lost 6.7, and the hotel's
+own booking engine *rose* from 7.4% to 12.3%. What collapsed was telephone, fax, and walk-in, and the tour
+operators and wholesalers. The European Competition Network says so at §4.5, para. 37 — in the report the
+same paragraph already cited. The clock was wrong too: across the chapter's own stated 2015–2021 window
+direct bookings rose, 52.9% to 55.2%, and seventy percent of the decade's decline falls in the 2013–2015
+wave, before the treatment. And "a hotel that spent the decade trying to leave" asserted an intent no
+source carries; the structural indicators are consistent with learning to work the channel, which is what
+the chapter's own construct predicts.
+
+**What replaced it.** Evidence in two grades. The stronger compares jurisdictions: Austria and Belgium
+banned parity outright, the other four countries in the European Commission's (2022b) market study did not,
+and the Commission found no association with hotels' use of agencies (81% and 85% against a six-country
+average of 80%) or with the share of sales the agencies carried. That is a control-group comparison on
+independent hotels and it should have been the section's lead evidence all along. The weaker grade is the
+European trend, now decomposed, with the Schegg series named for what it is — a weighted survey of
+hotelier-reported channel mix, excluding aggregated chain data, whose country composition shifts across
+waves. The section closes on what European hotels actually built: tooling that renders their inventory into
+the terms several algorithmic intermediaries read and revises it as those systems change, which is the
+capability a necessary verdict calls for.
+
+**Two collateral sentences moved with it.** §8 no longer reads the sector as a cautionary tale, and §10's
+closing line — "came out of it more dependent than they went in" — is now "the aggregation it stood beside
+held." Reviewer 2's finding landed in the same pass: §5.5 now labels the agency a **partial** mediator in
+§5.2's sense, which reconciles it with §5.4, where marketplace demand-matching already carried that label.
+
+**One departure from the reviewer's text, deliberate.** Roth's draft said the parity remedies moved price
+"without shifting the agencies' share." Ennis et al. (2023) and Klopack and Pierri (2026) were both checked
+against the record: they measure price, not channel share, so the clause would have been an argument from
+silence. The printed version says what each study measures and lets the split verdict draw the inference.
+
+Four references added — Anderson and Han (2017), Ennis et al. (2023), European Commission (2022b), Klopack
+and Pierri (2026) — and the two Commission 2022 documents disambiguated as 2022a (the solo self-employed
+guidelines) and 2022b (the hotel-distribution market study). Klopack and Pierri's pagination is now
+resolved: *IJIO* 105, Article 103265. Mechanics: 17,129 words total, 13,558 body, abstract 149, 116
+references, every citation resolving.
+
+**Still open at proof for this section.** Whether Schegg's reference-year-2025 wave has published (if so,
+update or date the series explicitly); the Anderson (2009) report number, if a copyeditor asks, against
+Cornell's eCommons rather than an aggregator; and the HOTREC/HES-SO attribution on the Schegg entry.
+
+**Next in Tier 2.** Carrying *partial* into §7's table and §8's two-branch procedure, which is the rest of
+Reviewer 2's F4 and Ekwueme's two uncategorized functions; Sølvberg's R1, which retreats §5.2's novelty
+claim against the five literatures that already run the operation; and Renard's robustness condition, which
+propagates into §7 and §9.
 
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 

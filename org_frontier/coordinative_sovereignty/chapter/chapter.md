@@ -582,14 +582,19 @@ on another.
 ### 5.5 The diagnostic at work: hotels and online travel agencies
 
 An independent hotel reaches many of its guests through an online travel agency, and the agency does two
-very different things for its commission, which the European Competition Network's 2016 monitoring exercise
-put at ten to above twenty percent of each booking in basic commission, before the additional commission
-agencies charge for better visibility and preferred-partner status (European Competition Network, 2017,
-para. 32). It aggregates demand, putting the hotel in front of travelers who would never have found it. C.
-K. Anderson (2009, 2011) named this the billboard effect and measured the lift in a hotel's own direct
-reservations that follows from being listed on an agency at all, though later work has not consistently
-reproduced it (Beritelli & Schegg, 2016). And it has held rate parity clauses forbidding the hotel to price
-lower on its own site.
+very different things for its commission. The European Competition Network's 2016 monitoring exercise put
+the basic rate at ten to above twenty percent of each booking (European Competition Network, 2017, para.
+32), and the European Commission's (2022b) market study still places basic commission in a band of 10% to
+20% six years later, with effective rates higher for hotels that buy visibility on top. It aggregates
+demand, putting the hotel in front of travelers who would never have found it. C. K. Anderson (2009, 2011)
+named this the billboard effect and measured the lift in a hotel's own direct reservations that follows
+from being listed on an agency at all; Anderson and Han (2017) find the effect attenuated but intact on
+later clickstream data, while Beritelli and Schegg (2016), surveying European hotels, attribute online
+booking volume to the number of channels a hotel uses rather than to the presence of any first-tier one.
+The two studies measure different quantities on different populations and do not settle each other. The
+dependent parties supply a third reading: 63% of the independent hotels the Commission surveyed consider
+that listing on an agency raises the volume of bookings on their own direct channels. And it has held rate
+parity clauses forbidding the hotel to price lower on its own site.
 
 Run the counterfactual on each function separately. Restore the capability of direct dealing for a traveler
 who already knows the hotel exists, and the parity clause does nothing: it was held in place by a contract,
@@ -598,34 +603,70 @@ hotel exists, and no direct channel at comparable cost reproduces the introducti
 Demand aggregation survives the bypass for that traveler, and it is necessary. The verdict is a split, and
 it names two different instruments. Against the parity clause the move is exit, pursued through contract
 law and competition enforcement. Against demand aggregation, exit is unavailable and the move is voice,
-pursued through terms the hotel has standing to contest.
+pursued through terms the hotel has standing to contest. The agency is therefore a partial mediator in the
+sense of section 5.2, a bypassable gate bolted to integrating work, and section 5.4's prescription applies
+to it: contest the bypassable part and accept the integrating one, as two decisions rather than one
+posture.
 
 Europe has spent a decade opening the parity gate, which lets the two readings be compared against an
 outcome. The major agencies abandoned wide parity clauses in 2015 under pressure from national competition
-authorities, several member states legislated against the clauses over the years that followed, and
-national enforcement had reached the narrow clauses by 2021. In September 2024 the Court of Justice of the
-European Union held that parity clauses, wide and narrow alike, cannot in principle be classified as
-ancillary restraints, so that each must be assessed on its own terms under the prohibition on
-anticompetitive agreements rather than escaping it with the operation it accompanies (Case C-264/23). The
-judgment came four months after Booking.com was designated a gatekeeper under the Digital Markets Act,
+authorities, France legislated against the narrow clauses within months and Austria, Italy, and Belgium
+followed, and national enforcement had run its course through the courts by 2021. In September 2024 the
+Court of Justice of the European Union held that parity clauses, wide and narrow alike, cannot in principle
+be classified as ancillary restraints, so that each must be assessed on its own terms under the prohibition
+on anticompetitive agreements rather than escaping it with the operation it accompanies (Case C-264/23).
+The judgment came four months after Booking.com was designated a gatekeeper under the Digital Markets Act,
 whose Article 5(3) forbids a gatekeeper to impose parity obligations at all.
 
 The two readings predict different things about that decade. Treat the agency as one substitutable
 intermediary, and removing the clause that blocked price competition should erode its position: hotels can
 undercut it on their own sites, so bookings should move to the direct channel. Treat it as a portfolio, and
 only a contingent function was removed, so the necessary function should hold and dependence should not
-fall. Between 2013 and 2023 the agencies' share of European hotel overnight stays rose from 19.7% to 29.6%
-while direct bookings fell from 57.6% to 50.9% (Schegg, 2024). Dependence did not fall as the gate came
-open. It deepened.
+fall.
 
-What the decade covers is the sequence from the 2015 abandonment of wide parity to the national enforcement
-of 2021. The 2024 judgment postdates the last year of these data, the increase itself owes something to
-mobile search and to consolidation among the agencies, and the function-split predicts the absence of the
-erosion the rival reading expects rather than the increase that occurred, so this is narrower than a
-natural experiment and the judgment sets up a test a later study can run. It is still enough to sort the
-two readings: an actor treating the agency as one leaveable thing would have read the direction of travel
-backwards, and a hotel that spent the decade trying to leave mistook the necessary function for the
-contingent one.
+The evidence comes in two grades, and the stronger grade compares jurisdictions. Austria and Belgium
+prohibited parity clauses outright while the other four countries in the European Commission's (2022b)
+market study did not, and the Commission found no association between the prohibition and hotels' use of
+agencies: 81% of Austrian and 85% of Belgian hotels used one, against a six-country average of 80%. Nor did
+the share of sales the agencies carried follow the prohibition, running at 35% in Austria and 55% in
+Belgium around a six-country mean of 44%. Where the gate came fully open, dependence on the aggregating
+function did not move.
+
+The weaker grade is the European trend, and it needs decomposing before it can be read. Between 2013 and
+2023 the mean share of bookings European hotels report taking through an agency rose from 19.7% to 29.6%
+while the direct share fell from 57.6% to 50.9% (Schegg, 2024, weighted series, excluding aggregated chain
+data), a survey of hotelier-reported channel mix rather than a sector aggregate, and one whose country
+composition shifts across waves. Those two movements are not each other's complement. Over the same decade
+the hotel's own real-time booking engine rose from 7.4% to 12.3%; in the unweighted sample, where Schegg
+reports the components, telephone, fax, and walk-in bookings fell by nine points between them while tour
+operators, travel agencies, and bed wholesalers gave up four more. The European Competition Network found
+the same decomposition over the enforcement period itself, reporting that the offline share of hotel room
+sales fell nine points "mainly to the benefit of the OTAs (eight percentage point increase), rather than
+hotels' direct online channel (increase of one percentage point)" (European Competition Network, 2017,
+para. 37). The share the agencies carried rose across the decade, and no part of that rise reversed when
+the gate opened.
+
+What the decomposition rules out is the exit reading, not the hotels' effort. Independent hotels did build
+the direct channel: the booking engine on the hotel's own site was the fastest-growing channel in Europe
+over the decade, channel-manager use rose from 39% to 62% of properties, and the share of hotels managing
+rates and availability by hand fell from 56% to 27% (Schegg, 2024). What that channel took share from was
+the hotel's own telephone and front desk. Nor did the parity remedies fail on the margin they were designed
+for. Ennis et al. (2023) find direct-channel sales becoming relatively cheaper after the interventions,
+with the effect coming from the narrow-parity change rather than the outright ban, and Klopack and Pierri
+(2026) estimate that restricting broad parity alone lowered prices by 3.2% and a complete ban by 6.9%. Both
+measure price. Neither measures the share of bookings the agencies carry, which is the quantity a split
+verdict speaks to, and a remedy that moves the first while the second holds is what that verdict predicts.
+
+Three limits bound the claim. The 2024 judgment postdates the last year of these data. The rise in the
+agencies' share owes something to mobile search and to consolidation among the agencies, and most of the
+fall in the direct share falls in the first wave, 2013 to 2015, alongside rather than after the abandonment
+of wide parity. And the function-split predicts the absence of an erosion rather than the increase that
+occurred, so what the decade supplies is consistency across two grades of evidence rather than a test. It
+is enough to sort the two readings. An actor treating the agency as one leaveable thing would have read the
+direction of travel backwards, and the capability European hotels actually built over the decade — tooling
+that renders their inventory into the terms several algorithmic intermediaries read, and revises it as
+those systems change — is the capability the necessary verdict calls for, not the exit the contingent one
+would have licensed.
 
 ## 6. Coordinative sovereignty: a definition
 
@@ -788,12 +829,12 @@ mechanism confers standing in practice is not yet in.
 Collective bargaining adapts an older institution of voice to the platform, and it has recently acquired a
 statutory anchor. Where platform workers or platform-dependent firms can organize, they can negotiate over
 how assignments are made, how deactivation is decided, and how ranking is governed, and can establish a
-standing channel through which disclosure becomes consequence. The two face different law. The Commission's
-2022 guidelines withhold enforcement of the prohibition on anticompetitive agreements from collective
-agreements concluded by solo self-employed persons in a weak negotiating position, naming those who work
-through digital labour platforms; a comparable agreement among independent firms about the terms they will
-accept from a marketplace remains a horizontal agreement between undertakings. Voice at the level of the
-rule is lawful for the worker and, for the dependent firm, available only through representation rather
+standing channel through which disclosure becomes consequence. The two face different law. The Commission
+withholds enforcement of the prohibition on anticompetitive agreements from collective agreements concluded
+by solo self-employed persons in a weak negotiating position, naming those who work through digital labour
+platforms (European Commission, 2022a); a comparable agreement among independent firms about the terms they
+will accept from a marketplace remains a horizontal agreement between undertakings. Voice at the level of
+the rule is lawful for the worker and, for the dependent firm, available only through representation rather
 than bargaining. Whether such a unit can form is itself a fact about the mediation, since the architecture
 of a platform shapes where grievances pool and whether contention can organize at all (Lei, 2021).
 
@@ -878,8 +919,10 @@ managers a decision procedure for it. Where the firm depends on a contingent med
 exit: support interoperability, build or back an alternative, break the lock-in. Where it depends on a
 necessary mediator, exit is closed and the move is toward voice: organize with other dependent firms, pool
 data, demand contestable systems, seek a standing channel of governance. Treating a necessary mediator as
-contingent wastes effort on an exit that cannot be had, and the hotels of section 5.5 show what that waste
-looks like at sector scale. Treating a contingent one as necessary concedes a bypass that could be opened.
+contingent wastes effort on an exit that cannot be had. Section 5.5 shows the alternative at sector scale:
+European hotels met an aggregating function they could not leave by building the competence to work it, and
+met a parity clause they could leave through contract law and competition enforcement. Treating a
+contingent mediator as necessary concedes a bypass that could be opened.
 
 The managerial payoff extends to capability building. If algorithmacy enables coordinative sovereignty, and
 algorithmacy can be built, then a firm's standing within its platform dependencies is a capability problem.
@@ -981,8 +1024,8 @@ other directly. Where the mediator is contingent, the older sovereignty of exit 
 exit-restoring instruments — including some pursued under the digital-sovereignty agenda — apply. Where the
 mediator is necessary, only voice remains, resting on non-domination, relational autonomy, involvement, and
 commons governance, and realized, if at all, through cooperatives, trusts, collective bargaining,
-contestability, and standing channels of governance. Europe's hotels spent a decade prying open a gate
-their dependence did not run through, and came out of it more dependent than they went in.
+contestability, and standing channels of governance. Europe's hotels pried open a parity gate their
+dependence did not run through, and the aggregation it stood beside held.
 
 Literacy was once the possession of a clerical few and became, unevenly and incompletely, a general
 condition of citizenship, and democratic sovereignty followed the diffusion of the competence that made it
@@ -1011,6 +1054,9 @@ Anderson, C. K. (2009). *The billboard effect: Online travel agent impact on non
 
 Anderson, C. K. (2011). *Search, OTAs, and online booking: An expanded analysis of the billboard effect*
 (Cornell Hospitality Report, 11[8]). Cornell University Center for Hospitality Research.
+
+Anderson, C. K., & Han, S. (2017). *The billboard effect: Still alive and well* (Cornell Hospitality
+Report, 17[11]). Cornell University Center for Hospitality Research.
 
 Anderson, E. (2017). *Private government: How employers rule our lives (and why we don't talk about it)*.
 Princeton University Press. https://doi.org/10.1515/9781400887781
@@ -1093,13 +1139,19 @@ Business Review, 84*(10), 92–101.
 Eisenstein, E. L. (1979). *The printing press as an agent of change: Communications and cultural
 transformations in early modern Europe*. Cambridge University Press.
 
+Ennis, S., Ivaldi, M., & Lagos, V. (2023). Price-parity clauses for hotel room booking: Empirical evidence
+from regulatory change. *Journal of Law and Economics, 66*(2), 309–331. https://doi.org/10.1086/723456
+
 Eslami, M., Karahalios, K., Sandvig, C., Vaccaro, K., Rickman, A., Hamilton, K., & Kirlik, A. (2016). First I
 "like" it, then I hide it: Folk theories of social feeds. In *Proceedings of the 2016 CHI Conference on Human
 Factors in Computing Systems* (pp. 2371–2382). ACM. https://doi.org/10.1145/2858036.2858494
 
-European Commission. (2022). *Guidelines on the application of Union competition law to collective
+European Commission. (2022a). *Guidelines on the application of Union competition law to collective
 agreements regarding the working conditions of solo self-employed persons* (Official Journal of the
 European Union, C 374, p. 2).
+
+European Commission. (2022b). *Market study on the distribution of hotel accommodation in the EU*.
+Publications Office of the European Union.
 
 European Commission. (2025a). *Proposal for a regulation as regards the simplification of the digital
 legislative framework (Digital Omnibus)* (COM(2025) 837 final).
@@ -1173,6 +1225,9 @@ control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.54
 
 Klonick, K. (2020). The Facebook Oversight Board: Creating an independent institution to adjudicate online
 free expression. *Yale Law Journal, 129*, 2418–2499.
+
+Klopack, B., & Pierri, N. (2026). Broad and narrow price parity agreements: Evidence from European hotels.
+*International Journal of Industrial Organization, 105*, Article 103265.
 
 Lei, Y.-W. (2021). Delivering solidarity: Platform architecture and collective contention in China's platform
 economy. *American Sociological Review, 86*(2), 279–309. https://doi.org/10.1177/0003122420979980
