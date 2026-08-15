@@ -442,12 +442,18 @@ matches many orders into one price, an interpreter between parties who share no 
 something two parties dealing directly could not do for themselves, and handing them a direct line
 dislodges nothing. Others lose their grip the moment the tie is open. Such a mediator is contingent: its
 position rested on the absence of the direct tie, an absence usually held in place by an external
-constraint. A franchised car dealer relays a vehicle from manufacturer to buyer and integrates nothing. It
-occupies the coordination because franchise law forbids the manufacturer to sell direct, and repealing the
-law dissolves the dealer's position. Two further cases complete the picture. A mediator that was never in
-the coordination's core is reducible: the parties can already deal directly. A mediator that keeps a
-constitutive role under the open tie while losing part of its integration is a partial mediator: real
-integrating work alongside a bypassable gate.
+constraint. The qualification matters, because not every constraint is liftable. A rule, a contract, and an
+architectural block can each be repealed, renegotiated, or mandated open, and the instruments of section 7
+are addressed to constraints of that kind. Where the absence of the direct tie is held instead by the
+counterpart's unwillingness to transact outside the mediator — by the buyer who will not install software
+that has passed no gate, or the traveler who will not book a hotel that carries no rating — the function is
+contingent in structure and unexitable in fact, and the strategy the verdict implies is voice
+notwithstanding the classification. A franchised car dealer relays a vehicle from manufacturer to buyer and
+integrates nothing. It occupies the coordination because franchise law forbids the manufacturer to sell
+direct, and repealing the law dissolves the dealer's position. Two further cases complete the picture. A
+mediator that was never in the coordination's core is reducible: the parties can already deal directly. A
+mediator that keeps a constitutive role under the open tie while losing part of its integration is a
+partial mediator: real integrating work alongside a bypassable gate.
 
 The four verdicts sit at three levels, and keeping them apart prevents a common error. At the level of a
 single function the bypass returns two answers only: the function survives the restored tie or it does not.
@@ -459,14 +465,17 @@ buyer may be trivially bypassable for another. The unit of classification is a f
 party, against a segment of its counterparties, and the sections that follow keep to it.
 
 The counterfactual restores the capability of direct dealing, not a prior relationship, because the parties
-may never have met. Could these two parties reach each other at comparable cost if no rule, contract, or
-architecture stood in the way? For parties who already know of each other the question is easy. For a
-function whose whole business is introducing strangers it is the entire question, and the answer varies by
-actor. A traveler looking for a hotel chain she has used before can reach it directly, so the aggregation
-that would have introduced them is contingent for that booking. A traveler who would never have learned
-that an independent hotel exists cannot, so the same function is doing integrating work no direct tie
-reproduces. A mediator's classification therefore depends on which coordination is being asked about. The
-diagnostic sorts functions for a given dependent party, and it does not sort platforms once and for all.
+may never have met. Could these two parties reach each other, at a cost the dependent party could bear
+without changing its scale, if no rule, contract, or architecture stood in the way? The reference point
+belongs in the question, because a channel a large firm can build is not one a small firm can, and the same
+function is contingent for the first and necessary for the second. For parties who already know of each
+other the question is easy. For a function whose whole business is introducing strangers it is the entire
+question, and the answer varies by actor. A traveler looking for a hotel chain she has used before can
+reach it directly, so the aggregation that would have introduced them is contingent for that booking. A
+traveler who would never have learned that an independent hotel exists cannot, so the same function is
+doing integrating work no direct tie reproduces. A mediator's classification therefore depends on which
+coordination is being asked about. The diagnostic sorts functions for a given dependent party, and it does
+not sort platforms once and for all.
 
 This asks a different question from section 5.1, and the two answers need not agree. Factoring asks whether
 the coordination is triadic as it stands. The bypass asks whether it would stay triadic if an external
@@ -510,7 +519,17 @@ position, and the cost of teaching users a second checkout all answer no, so eve
 mediator that cannot be replaced. Restore the developer-to-user tie for payment, through sideloading or a
 link to an external purchase, and the gate's force disappears, because it never rested on integrating work.
 Node says necessary and edge says contingent, on the same function, in the same firm. The Digital Markets
-Act's anti-steering obligations are the edge test run by a regulator.
+Act's anti-steering obligations run that edge operation, and what happened next is instructive.
+
+An opened bypass is not yet an exit. Ordered in April 2025 to stop restricting how developers steer users
+outside its store, Apple opened the link and attached a schedule of fees to purchases made through it, so
+that the tie was restored and the charge moved onto the restored tie. A gate can rest on the absence of the
+direct link and on a second lever — control of the device, the account, the installed base — and the
+counterfactual isolates the first without touching the second. Where the mediator retains the power to
+price the alternative route, a remedy that restores the direct tie returns a capability whose cost the
+mediator still sets. Contingency establishes that exit is available in principle; what exit is worth
+depends on who sets its terms, which is a question about standing and therefore about voice. Nothing in the
+four verdicts marks that case, and naming it is a debt this chapter leaves open.
 
 European competition law asks a version of this question about contract terms. Under the
 ancillary-restraints doctrine a restriction accompanies its main operation outside the prohibition on
@@ -836,23 +855,32 @@ use and a platform built to be coordinated through — tracks the one the diagno
 Markets Act's access and interoperability obligations carry the logic into platform regulation. Reviewing
 the Act's first years, the European Commission (2026) reports that messaging interoperability has brought
 new providers into the market while judging it too early to extend the same obligation to social
-networking, on mixed evidence of demand. A regulator sorting functions by whether interoperability bites is
-running the diagnostic under another name.
+networking, on mixed evidence of demand. That review, the statutory one due after the Act's first years,
+found the regime fit for purpose and proposed no legislative amendment, so the obligations described here
+are the stable part of a shifting landscape. A regulator sorting functions by whether interoperability
+bites is running the diagnostic under another name.
 
 The rest of the institutional repertoire sorts the same way.
 
 No instrument in the table changes its legal character with the mediator's type. What changes is what
 exercising it is worth to the dependent actor, so the columns are headed accordingly.
 
-| Instrument | Value where exit is available | Value where exit is foreclosed |
-|---|---|---|
-| Interoperability and portability | restores exit | access on regulated terms, which is voice |
-| Antitrust and anti-steering remedies | opens the bypass, at whatever price the mediator can still charge for it | alters the terms of dependence rather than its degree |
-| Contestability of individual decisions | generates the record an exit campaign runs on | voice at the level of the case |
-| Collective bargaining | builds the counterparty an exit campaign needs, where the bearer may lawfully bargain | voice at the level of the rule |
-| Data trusts and data intermediaries | leverage toward exit | leverage toward voice |
-| Cooperative ownership | may fund an alternative | changes the owner, not the leaveability |
-| Oversight boards | little, since a bypassable determination is better contested elsewhere | voice, bounded by the constituting platform |
+| Instrument | Value where exit is available | Value where exit is foreclosed | Who can invoke it |
+|---|---|---|---|
+| Interoperability and portability | restores exit | access on regulated terms, which is voice | a regulator; dependent parties only through advocacy |
+| Antitrust and anti-steering remedies | opens the bypass, at whatever price the mediator can still charge for it | alters the terms of dependence rather than its degree | a regulator or a complainant; a dependent firm can use a remedy already granted |
+| Contestability of individual decisions | generates the record an exit campaign runs on | voice at the level of the case | a natural person under Article 22; a business user through the P2B complaint and mediation route |
+| Collective bargaining | builds the counterparty an exit campaign needs, where the bearer may lawfully bargain | voice at the level of the rule | workers and their representatives; firms only within the limits competition law sets on associations of undertakings |
+| Data trusts and data intermediaries | leverage toward exit | leverage toward voice | a collective with the capacity to register and administer one |
+| Cooperative ownership | may fund an alternative | changes the owner, not the leaveability | a collective with capital at the required scale |
+| Oversight boards | little, since a bypassable determination is better contested elsewhere | voice, bounded by the constituting platform | the platform constitutes it; dependent parties appear before it |
+
+The last column is the one a dependent party reads first, and it is unflattering. Of the seven, a small
+firm can reach two on its own account, and one of those two is the complaint and mediation route the
+Platform-to-Business Regulation supplies, which the simplification package would repeal. The rest require a
+regulator, a collective, or capital. An instrument's value where exit is foreclosed is not the same as its
+availability to the actor for whom exit is foreclosed, and a policy discussion that runs the middle column
+without the last one prescribes remedies to parties who cannot invoke them.
 
 Most real verdicts are partial, and a partial verdict reads across both columns rather than choosing one.
 Section 5.4 gives the rule — contest the bypassable part and accept the integrating one — and the table
@@ -888,7 +916,7 @@ category of data intermediary, obliging such providers to notify a national auth
 Digital Omnibus proposal of November 2025 would repeal that Act, carry the data-intermediation rules into
 the Data Act, and make the registration voluntary (European Commission, 2025a). The category would survive
 its statutory vehicle and lose the obligation that made it a register, and the evidence on whether the
-mechanism confers standing in practice is not yet in.
+mechanism confers standing in practice has not yet been reported in the research literature.
 
 Collective bargaining adapts an older institution of voice to the platform, and it has recently acquired a
 statutory anchor. Where platform workers or platform-dependent firms can organize, they can negotiate over
@@ -966,21 +994,25 @@ to contest the determination that ranked it. Ranking transparency is a separate 
 by the 2019 Platform-to-Business Regulation and the Digital Services Act. That Regulation does more than
 disclose, since it also requires internal complaint-handling, offers mediation, and gives representative
 organizations standing to bring proceedings, which makes it one of the few instruments to attach a channel
-to a disclosure. The Commission has since proposed to repeal it as part of a wider simplification package
-(European Commission, 2025a), which would remove the duty owed to a business user to explain the parameters
-by which its own goods and services are ranked for others. The Digital Services Act's recommender
-transparency runs in the other direction, explaining to a recipient why particular information is being
-surfaced to that recipient, and it does not replace the duty the Regulation owes to the ranked party. High
-digital sovereignty beside low coordinative sovereignty, and an instrument that built a little of the
-second now proposed for withdrawal.
+to a disclosure. In November 2025 the Commission proposed to repeal it as part of a wider simplification
+package, which had not reached trilogue as of August 2026 (European Commission, 2025a); a separate omnibus
+covering the AI Act was adopted earlier that year. The repeal would remove the duty owed to a business user
+to explain the parameters by which its own goods and services are ranked for others. The Digital Services
+Act's recommender transparency runs in the other direction, explaining to a recipient why particular
+information is being surfaced to that recipient, and it does not replace the duty the Regulation owes to
+the ranked party. High digital sovereignty beside low coordinative sovereignty, and an instrument that
+built a little of the second now proposed for withdrawal.
 
 The reverse pairing is equally real, and it is still arriving. A platform worker owns none of the
 infrastructure that coordinates the work. Under the European platform-work directive, member states must by
 2 December 2026 provide a rebuttable presumption of employment where the platform controls the work, along
 with information rights over the automated systems, human review of consequential automated decisions, and
-limits on the data the platform may process (European Parliament & Council of the European Union, 2024). No
-member state had fully transposed the directive as this chapter was written, so the standing it describes
-is a legislative commitment, not yet a present fact. Its Article 25 obliges member states to promote
+limits on the data the platform may process (European Parliament & Council of the European Union, 2024).
+Transposition falls due on 2 December 2026, and the directive therefore describes standing that member
+states are obliged to create rather than standing platform workers presently hold. How much of it survives
+twenty-seven transpositions is the question, and the directive leaves the presumption's trigger — facts
+indicating direction and control, as national law, collective agreements, and practice define them — to the
+member states, which is where the variation will come from. Its Article 25 obliges member states to promote
 collective bargaining in platform work, including measures "to facilitate the exercise of their rights
 related to algorithmic management set out in Chapter III." A legislature there ties collective voice
 directly to standing over algorithmic coordination, which is coordinative sovereignty written into law.
@@ -989,17 +1021,28 @@ Standing over the coordination is being built while control of the infrastructur
 Compliance investment leaves a strategic exposure that falls hardest on the small and medium-sized
 enterprises that depend on platforms they have no scale to influence. A firm that invests in regulatory
 compliance secures a digital position and acquires no ability to predict or contest the algorithmic
-determinations that set its market outcomes. The exposure is an algorithmacy gap, and the diagnostic gives
-managers a decision procedure for it. Where the firm depends on a contingent mediator, the move is toward
-exit: support interoperability, build or back an alternative, break the lock-in. Where it depends on a
-necessary mediator, exit is closed and the move is toward voice: organize with other dependent firms, pool
-data, demand contestable systems, seek a standing channel of governance. Where the dependence is partial,
-which is the ordinary case, the two branches run at once against different functions, and the firm's task
-is to keep them apart rather than to average them into a single posture. Treating a necessary mediator as
-contingent wastes effort on an exit that cannot be had. Section 5.5 shows the alternative at sector scale:
-European hotels met an aggregating function they could not leave by building the competence to work it, and
-met a parity clause they could leave through contract law and competition enforcement. Treating a
-contingent mediator as necessary concedes a bypass that could be opened.
+determinations that set its market outcomes. The exposure has two parts, and treating them as one wastes
+the remedy. The first is a competence gap, which a firm can close on its own account by building
+algorithmacy. The second is a standing gap, which no competence closes, because standing is conferred by
+the terms of the coordination and by the institutions that hold those terms in place. The diagnostic gives
+managers a decision procedure for the second and tells them what the first should be spent on. Where the
+firm depends on a contingent mediator, the move is toward exit: support interoperability, build or back an
+alternative, break the lock-in. Where it depends on a necessary mediator, exit is closed and the move is
+toward voice: organize with other dependent firms, pool data, demand contestable systems, seek a standing
+channel of governance. The Platform-to-Business Regulation supplies the clearest existing instance of such
+a channel for a dependent firm, and its proposed repeal would close it, which is the practical stake of the
+simplification package for the actors this section addresses. Where the dependence is partial, which is the
+ordinary case, the two branches run at once against different functions, and the firm's task is to keep
+them apart rather than to average them into a single posture. Treating a necessary mediator as contingent
+wastes effort on an exit that cannot be had. Section 5.5 shows the alternative at sector scale: European
+hotels met an aggregating function they could not leave by building the competence to work it, and met a
+parity clause they could leave through contract law and competition enforcement. Treating a contingent
+mediator as necessary concedes a bypass that could be opened.
+
+Run across a firm's dependencies, the diagnostic yields a figure a board can act on: the share of revenue
+that arrives through necessary functions against the share that arrives through contingent ones. The first
+names a governance exposure that will persist and has to be managed; the second names a project with a
+completion date. Firms that report platform dependence as a single percentage cannot tell the two apart.
 
 The procedure returns a split verdict for the independent software vendor of section 1. The store's payment
 gate and its review gate are contingent: restore the developer-to-user tie and neither has integrating work
@@ -1044,7 +1087,7 @@ each other.
 
 ## 9. Future research directions
 
-The typology's contribution is conceptual, and the empirical program it opens begins with measurement. Four
+The typology's contribution is conceptual, and the empirical program it opens begins with measurement. Five
 directions follow, in rough order of dependence.
 
 The first is a validated instrument for algorithmacy. Its three dimensions point to a multidimensional
@@ -1087,6 +1130,16 @@ operationalized twice: as a survey of the standing an actor reports, and as a st
 formal model of the actor's coordination, developed in the companion paper (Author, 2026). Whether actors
 who report high coordinative sovereignty are those a model would place as pivotal is a construct-validity
 test a self-report alone cannot supply.
+
+The fifth tests the typology's central claim rather than assuming it. Section 8 holds that digital
+sovereignty and coordinative sovereignty vary independently across firms, and independence is an estimable
+quantity. Administering an organizational digital-sovereignty measure and a coordinative-sovereignty
+measure to the same firms returns a correlation, and the typology predicts a modest one: firms high on
+compliance capacity and infrastructural control should be spread across the range of standing within the
+coordinations they depend on. The two should also predict different criteria, regulatory-audit outcomes for
+the first and recovery from an unannounced change in a ranking or a platform policy for the second. A high
+correlation would collapse the typology into the single capability the field has assumed, which is the
+outcome that would refute the chapter.
 
 Beyond measurement lies the question of whether algorithmacy can be democratized as literacy was, and the
 historical answer is less encouraging than the analogy suggests. Mass literacy did not spread because it

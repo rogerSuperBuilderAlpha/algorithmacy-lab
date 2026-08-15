@@ -187,11 +187,83 @@ against a plan of roughly 12,600 and a floor of 10,000. Nothing in the volume's 
 record here, but a compression pass before submission is the author's call, and §5.2 and §7 are where the
 new material concentrated.
 
-**Remaining, Tier 3.** Ekwueme's third column on §7's table (who can invoke each instrument: a forty-person
-firm reaches two of seven); his board metric, revenue behind necessary functions against contingent ones,
-which the chapter contains everything to produce and never states; Løvaas's fifth research direction, which
-would actually measure the independent variation §8 asserts; and Vaudrey's eleven undated present-tense
-sentences, where every legal sentence should carry a date, a deadline, or a status word.
+## 0i. Tier 3, and one spine item that had been missed, 2026-08-15
+
+**Spine S2, the tolled bypass, had never landed.** The synthesis listed it as a fix-now qualification and it
+was not among the three items scheduled for Tier 2. It is now in §5.2, after the App Store demonstration:
+ordered in April 2025 to stop restricting steering, Apple opened the link and attached a fee schedule to
+purchases made through it, so the tie was restored and the charge moved onto the restored tie. A gate can
+rest on the absence of the direct link *and* on a second lever — control of the device, the account, the
+installed base — and the counterfactual isolates the first without touching the second. The section now
+says that contingency establishes exit in principle, that what exit is worth depends on who sets its terms,
+and that none of the four verdicts marks the case. Naming it is stated as a debt the chapter leaves open;
+the fifth term belongs to the companion paper.
+
+Three reviewers reached this from different directions — Ekwueme from his own sector's experience of
+winning a remedy and being repriced, Vaudrey from the Apple compliance file, Chaudhry from Pix and UPI
+reproducing a "necessary" function outside the card networks. It was the panel's most converged finding and
+the one most nearly lost.
+
+**Tier 3 proper, all four items.**
+
+1. **§7's table gains a fourth column, "Who can invoke it."** This was Ekwueme's single most important fix
+   and it converts a policy table into something a firm can act on. The prose after it states the
+   unflattering count: of seven instruments a small firm can reach two on its own account, one of which is
+   the P2B complaint and mediation route now proposed for repeal. An instrument's value where exit is
+   foreclosed is not the same as its availability to the actor for whom exit is foreclosed.
+2. **§8 gains the board metric** the chapter contained everything to produce and never stated: the share of
+   revenue arriving through necessary functions against the share arriving through contingent ones. The
+   first names a persistent governance exposure, the second a project with a completion date. §8 also now
+   separates the competence gap from the standing gap, which §6 had distinguished and §8 had fused, and
+   names the P2B channel as the concrete stake of the simplification package.
+3. **§9 gains a fifth research direction** that tests §8's independent-variation claim instead of assuming
+   it — administer both measures to the same firms, predict a modest correlation, and state the outcome
+   that would refute the chapter. Løvaas would have sent the chapter back as a journal referee without it.
+4. **The publication-lag pass.** Every legal sentence now carries a date, a deadline, or a status word. The
+   transposition sentence is rewritten to the deadline rather than the state of play, since "no member state
+   had fully transposed" is guaranteed stale by publication; the Omnibus is dated to November 2025 and
+   marked as not having reached trilogue as of August 2026, with the separately adopted AI omnibus
+   distinguished so a 2027 reader does not confuse the files; the DMA review's "fit for purpose, no
+   amendment" finding is stated, which is the fixed point in an otherwise shifting landscape; and the
+   data-intermediary evidence claim is rephrased as a claim about the literature rather than about the
+   world, since no published count of registered providers was found.
+
+Two further additions from Ekwueme, both cheap and both closing real holes in §5.2: the practicability
+reference point ("at a cost the dependent party could bear without changing its scale," since the same
+function is contingent for a large firm and necessary for a small one), and the constraint that is not a
+rule — where the absence of the direct tie is held by the counterpart's unwillingness to transact outside
+the mediator, the function is contingent in structure and unexitable in fact.
+
+Mechanics: 19,394 words total, 15,809 body, abstract 149, 117 references, 14 Key Terms, five cases, every
+citation resolving, anonymization intact.
+
+## Length — the decision the author now owes
+
+The body has grown from **11,703 words to 15,809** across four passes, a 35% increase, against a plan of
+roughly 12,600 and a floor of 10,000. No ceiling is recorded in the volume's terms held here; confirm
+against the acceptance email before deciding.
+
+Where the growth went, by section: §5 is now **4,335 words**, 27% of the body and by some distance the
+largest. §7 (1,878), §3 (1,860), §8 (1,691), §6 (1,459), §4 (1,440), §2 (1,034), §1 (852), §9 (847),
+§10 (358).
+
+**§5.2 is the compression target.** It now runs as a sequence of short qualifying paragraphs — three
+levels, four literatures, standpoint, constraint provenance, the tolled bypass, the jurisdiction index, the
+non-liftable constraint, the cost reference point — each correct and each added by a different reviewer.
+Several state the same caution about the diagnostic's limits from different angles and would merge without
+loss. Nothing in Tier 1 or the §5.5 rebuild should be cut; the growth to look at is the qualification
+stack.
+
+## Owed before submission
+
+- Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx` from `chapter.md`. Both now trail
+  five passes.
+- A read-aloud pass, which no detector substitutes for and which three passes of machine review have not
+  supplied.
+- Proof-stage confirmations: the SCHUFA ECLI (ECLI:EU:C:2023:957); the Wilkinson (1965) page range;
+  Klopack and Pierri's pagination (resolved to *IJIO* 105, Article 103265, confirm at proof); whether
+  Schegg's reference-year-2025 wave has published; the Anderson (2009) report number if a copyeditor asks;
+  and the Digital Omnibus status, which must be re-checked at final proof and moved if the file moves.
 
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 
