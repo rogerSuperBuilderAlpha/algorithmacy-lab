@@ -7,20 +7,27 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   Iowa).
 - **Status:** abstract accepted; full chapter due 2026-08-30 (min. 10,000 words incl. references);
   double-anonymized review; academic APA.
-- **Two parallel drafts; the author picks.** `chapter.md` is the canonical, verified, submittable
-  manuscript. [`chapter_v2.md`](chapter_v2.md) is a prose rewrite of the same argument against four
-  published model essays (2026-08-14, `HANDOFF.md` §0e): same content, same citations, ~50 sentence
-  merges that raise length variation toward the models and remove both drumbeats. Nothing but prose
-  differs — 123 insertions, 117 deletions.
+- **The draft question is settled: `chapter.md` ships.** The 2026-08-15 persona panel measured
+  [`chapter_v2.md`](chapter_v2.md) against its own objective and it failed — the coefficient of variation
+  fell rather than rose, and the pass made roughly seventy merges and zero splits. v2 is also **not
+  prose-only**, correcting `HANDOFF.md` §0e: it swaps the defined term *mediator* for undefined *third
+  party* in two of §5.3's definitional sentences. v2 is kept for the record and is not the manuscript.
 - **Current draft:** `chapter.md`. This is the canonical manuscript (hard-wrapped for git diffs). References are
   inline in APA 7 style, and every in-text citation resolves to a reference-list entry.
-- **Grammarly / paste:** [`chapter_grammarly.md`](chapter_grammarly.md) — soft-wrapped body only (Abstract
-  through Key Terms, including the full bibliography). Paste that file into Grammarly. Do not edit it by hand; regenerate from `chapter.md`
-  after substantive changes.
-- **Word:** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc). Reflow into the IGI
-  template at submission. Edit the markdown, not the `.docx`.
+- **Both artifacts build from `chapter.md`:** `python3 build_artifacts.py`, and
+  `python3 build_artifacts.py --check` reports whether either has gone stale. Never edit either by hand.
+  The build aborts rather than writing if the unwrap would change a single word of prose.
+  - [`chapter_grammarly.md`](chapter_grammarly.md) — the whole chapter, Abstract through Key Terms and
+    including the bibliography, with every paragraph unwrapped to one line. Grammarly reads a hard line
+    break as a sentence boundary and reports false fragments otherwise; the §7 table is linearized to
+    labelled bullets for the same reason. Paste this file into Grammarly.
+  - `Full Paper - Alg & Sov.docx` — pandoc, no table of contents, since the IGI template supplies its own
+    front matter. Reflow into that template at submission.
 - Presentation materials (the SBE 2026 deck and poster) live in [`../presentations/`](../presentations/).
-- **Length:** 15,057 words total, 11,703 body, abstract 149 (measured 2026-08-14).
+- **Length:** 19,381 words total, 15,796 body, abstract 149, 117 references, 14 Key Terms (measured
+  2026-08-15, after the persona panel). The body grew from 11,703 words across that panel's four passes,
+  against a plan of roughly 12,600 and a floor of 10,000; `HANDOFF.md` §0j records where the growth went
+  and what is safe to cut.
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
   verified references closing three gaps flagged as reviewer-exploitable: the brokerage literature behind the
   mediated triad (Burt; Obstfeld; Hahl et al. on disintermediation), the two-sided-market economics behind the

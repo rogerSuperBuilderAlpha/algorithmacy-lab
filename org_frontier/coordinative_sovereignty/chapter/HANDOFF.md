@@ -334,8 +334,10 @@ contestation formulation and should either cite Pettit (2012) or note that §6 u
 
 ## Owed before submission
 
-- Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx` from `chapter.md`. Both now trail
-  five passes.
+- ~~Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx`~~ — **done 2026-08-15.** Both now
+  build from `chapter.md` with `python3 build_artifacts.py`, and `--check` reports staleness. The build
+  refuses to write if the unwrap would change a word, and the docx carries no table of contents, matching
+  the prior artifact and leaving front matter to the IGI template. Re-run after any further edit.
 - A read-aloud pass, which no detector substitutes for and which three passes of machine review have not
   supplied.
 - Proof-stage confirmations: the SCHUFA ECLI (ECLI:EU:C:2023:957); the Wilkinson (1965) page range;
