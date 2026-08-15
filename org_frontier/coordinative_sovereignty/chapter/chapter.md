@@ -449,6 +449,15 @@ the coordination's core is reducible: the parties can already deal directly. A m
 constitutive role under the open tie while losing part of its integration is a partial mediator: real
 integrating work alongside a bypassable gate.
 
+The four verdicts sit at three levels, and keeping them apart prevents a common error. At the level of a
+single function the bypass returns two answers only: the function survives the restored tie or it does not.
+*Reducible* answers the prior question of section 5.1, since a mediator the parties can already route
+around needs no constraint lifted. *Partial* is a verdict on a mediator rather than on one of its
+functions, reached by aggregating mixed function-level answers. And every function-level answer is indexed
+to a dependent party and a counterparty segment, because a function that reproduces no direct tie for one
+buyer may be trivially bypassable for another. The unit of classification is a function, for a dependent
+party, against a segment of its counterparties, and the sections that follow keep to it.
+
 The counterfactual restores the capability of direct dealing, not a prior relationship, because the parties
 may never have met. Could these two parties reach each other at comparable cost if no rule, contract, or
 architecture stood in the way? For parties who already know of each other the question is easy. For a
@@ -465,23 +474,34 @@ constraint were lifted. A marketplace gate that today carries every buyer–sell
 the system is currently wired, and it still dissolves the moment a rule forbidding direct contact is
 repealed. Reading irreducibility as necessity is how a contingent gate passes for an unavoidable one.
 
-The test resembles three others, and the operation differs from each. Brokerage research asks what a
-broker's position yields — Burt (2004) on the returns to spanning a structural hole, Obstfeld (2005) on the
-broker who instead joins the parties it stands between — and Ryall and Sorenson (2007) formalize when a
-broker is essential to the value a coalition creates. Transaction cost economics asks whether a firm should
-perform a transaction internally or buy it (Williamson, 1975). Competition law's essential-facilities
-doctrine asks whether an excluded rival could viably duplicate the facility it seeks access to. Each of
-these deletes or substitutes the mediator: they operate on a node. The bypass test leaves the mediator in
-place and adds a tie: it operates on an edge.
+Four literatures ask a version of this question, and they ask it from a different position. Brokerage
+research asks what a broker's position yields: Burt (1992, 2004) on the returns to spanning a structural
+hole, Obstfeld (2005) on the broker who instead joins the parties it stands between, and Ryall and Sorenson
+(2007), who formalize when a broker is essential to a coalition's value and show that when actors form
+relations on their own expectations of value, profitable intermediation survives only under strict
+assumptions. Hahl et al. (2016) make the alters' capacity to close the tie the condition on brokerage
+returns. A platform-disintermediation literature runs the counterfactual empirically and analytically: Gu
+and Zhu (2021) find that a marketplace's own trust-building raises the rate at which the two sides transact
+around it, and Sekar and Siddiq (2026) model the platform's pricing response. Transaction cost economics
+asks whether a firm should perform a transaction internally or buy it (Williamson, 1975), and competition
+law's essential-facilities doctrine asks whether an excluded rival could viably duplicate the facility it
+seeks access to.
 
-The two operations disagree, and the franchised dealer shows where. Delete the dealer, and under franchise
-law no other party may deliver a new vehicle in that territory, so the dealer is non-substitutable and
-every node test returns a mediator that cannot be removed. Restore the manufacturer-to-buyer tie, and the
-dealer's position evaporates. The neighboring tests cannot ask the second question, and the reason is not
-oversight. Each holds the network of who may deal with whom fixed because each answers a question posed
-inside that network: Burt asks what a position yields given the ties that exist, Williamson asks how to
-govern a transaction given the legal environment, and a court asks whether to compel access given that the
-facility exists. The bypass test asks which of those constraints is load-bearing.
+Each of these asks what the mediator's position is worth, and each asks it from outside the coordination:
+Ryall and Sorenson from the analyst's seat, Gu and Zhu from the platform's, a court from the tribunal's.
+The diagnostic here asks the same counterfactual from inside, on behalf of the party that cannot leave, and
+converts each answer into a course of action rather than a prediction about rent or a finding of legality.
+It also asks it function by function rather than of the mediator as a whole, which is what section 5.4
+develops.
+
+The operation has a second use the neighboring literatures do not need: it sorts constraints by provenance.
+A node test run under a law returns a different verdict from the same test run with the law repealed, and
+the difference identifies which constraint is load-bearing. A franchised car dealer's exclusive right of
+sale rests on a statute, so deleting the dealer under franchise law returns a mediator no other party may
+replace, while restoring the manufacturer-to-buyer tie dissolves the exclusivity entirely; Tesla's direct
+sales, permitted in some jurisdictions and blocked in others, are that counterfactual with the treatment
+observed. The dealer's other functions — inventory, trade-ins, warranty work — survive either way, which
+makes the dealer a partial mediator and not a pure case of contingency.
 
 The same divergence appears on a platform, which is where it matters. Take the gate an application store
 holds over payment inside an application. Delete it as a node and ask whether another payment rail could
@@ -504,17 +524,21 @@ generalizes that operation from clauses to a mediator's functions, runs it from 
 dependent party instead of a tribunal, and returns a strategy for that party, not a finding of legality.
 Given a mediator, a dependent party, and a set of rules, it asks which of the mediator's functions would
 survive the removal of the prohibition on direct contact, and converts each answer into a course of action.
-Brokerage theory predicts the broker's returns. Transaction cost economics prescribes a governance form to
-a party that can move its boundary. Essential facilities tells a court when to compel access for an
-excluded rival. None of the three returns a strategy to the party inside the coordination, and none of the
-three is run by that party.
 
-What the counterfactual establishes is structural, and observed behavior can diverge from it. Hahl et al.
-(2016) find that brokered parties who do not perceive the gap between them do not attempt to close it, so a
-structurally contingent mediator can look unassailable in any behavioral record. Necessity is also not
-fixed. Gu and Zhu (2021), in a field experiment on a freelance marketplace, find that the platform's own
-trust-building raises the rate at which parties transact around it, which gives a mediator a reason to
-withhold the very integration that would make it necessary.
+What the answer licenses depends on who can lift the constraint, and the dependent party often cannot.
+Contingency is a fact about a rule, and rules have jurisdictions. The anti-steering obligation that makes
+the payment gate contingent for a developer distributing in Europe leaves the same gate, in the same firm,
+in the same month, unexitable for a developer distributing where no such obligation binds. The exit
+prescriptions of sections 5.4 and 8 — interoperability, portability, an alternative channel — name
+achievements of regulation more often than moves a firm can make alone. A dependent party can run the
+diagnostic anywhere and act on a contingent verdict only where someone with the power to lift the
+constraint has already done so, or can be moved to. Where that is absent, a structurally contingent
+mediator is practically necessary, and the repertoire that answers it is the repertoire of voice.
+
+What the counterfactual establishes is structural in a second sense too, since observed behavior can
+diverge from it. Hahl et al. (2016) find that brokered parties who do not perceive the gap between them do
+not attempt to close it, so a structurally contingent mediator can look unassailable in any behavioral
+record.
 
 ### 5.3 Exit and voice
 
@@ -551,6 +575,21 @@ leverage, and a captive population may resign itself sooner than complain, so vo
 left exactly where it commands the least leverage, and whatever force it has must be supplied by
 institutions. Building those institutions is what the literate and digital forms of sovereignty leave
 untheorized.
+
+Hirschman's pair also assumes that leaving is the member's decision. A mediator that assigns access holds a
+third power neither exit nor voice describes: it can remove the actor from the coordination altogether.
+Deactivation is not exit, because the coordinated actor does not choose it and is owed no account of it,
+and its availability prices every act of voice that precedes it. Rahman's (2021) reactive workers, Bucher
+et al.'s (2021) anticipatory compliance, and Curchod et al.'s (2020) pre-emptive sellers all describe
+conduct organized around the risk of removal rather than around the calculus of leaving. Where the mediator
+is necessary and can also expel, voice is the only remaining power and the mediator sets its cost.
+
+The cost of acting on the diagnostic likewise differs by dependent party. A firm that runs the bypass
+against a contingent gate risks a commercial dispute; a worker who runs the same bypass, where the
+platform's terms forbid direct dealing, risks removal from the coordination. A correct classification
+therefore does not settle what a dependent party should do, and the repertoire available to a dependent
+person is narrower than the repertoire available to a dependent firm at the same point in the same
+coordination.
 
 ### 5.4 A platform is a portfolio of mediators
 
@@ -682,6 +721,14 @@ because the coordinated actors have the standing to make them hold. The two sove
 situation puts out of reach, independence from the mediator and command of the infrastructure, form no part
 of it.
 
+Voice of that kind has to be robust to count. Republican freedom is modally demanding: a benefit secures
+freedom only where it survives the counterfactual in which the other party turns indifferent or hostile
+(Pettit, 2016). Standing a mediator confers and can withdraw at will fails that test however generous it is
+while it lasts, which is why an entrenched channel with narrow powers can be worth more than a broad one
+held at the platform's pleasure. The mediator's power to remove, named in section 5.3, is the same point
+from the other side: where expulsion is available and unaccountable, every channel that runs through the
+mediator's goodwill is held on sufferance.
+
 Four strands of political theory converge on the construct. From republican theory it takes freedom as
 non-domination, the absence of another's arbitrary power, a stronger condition than the absence of
 interference (Pettit, 1997; Skinner, 1998). An actor can be left alone and still unfree if it lives at the
@@ -794,20 +841,37 @@ running the diagnostic under another name.
 
 The rest of the institutional repertoire sorts the same way.
 
-| Instrument | Against a contingent mediator | Against a necessary mediator |
+No instrument in the table changes its legal character with the mediator's type. What changes is what
+exercising it is worth to the dependent actor, so the columns are headed accordingly.
+
+| Instrument | Value where exit is available | Value where exit is foreclosed |
 |---|---|---|
 | Interoperability and portability | restores exit | access on regulated terms, which is voice |
-| Antitrust and anti-steering remedies | opens the bypass | alters conduct, not dependence |
-| Contestability of individual decisions | marginal | voice at the level of the case |
-| Collective bargaining | marginal | voice at the level of the rule |
+| Antitrust and anti-steering remedies | opens the bypass, at whatever price the mediator can still charge for it | alters the terms of dependence rather than its degree |
+| Contestability of individual decisions | generates the record an exit campaign runs on | voice at the level of the case |
+| Collective bargaining | builds the counterparty an exit campaign needs, where the bearer may lawfully bargain | voice at the level of the rule |
 | Data trusts and data intermediaries | leverage toward exit | leverage toward voice |
 | Cooperative ownership | may fund an alternative | changes the owner, not the leaveability |
-| Oversight boards | marginal | voice, bounded by the constituting platform |
+| Oversight boards | little, since a bypassable determination is better contested elsewhere | voice, bounded by the constituting platform |
+
+Most real verdicts are partial, and a partial verdict reads across both columns rather than choosing one.
+Section 5.4 gives the rule — contest the bypassable part and accept the integrating one — and the table
+gives its content: exit instruments aimed at the functions that would not survive the restored tie, voice
+instruments aimed at the functions that would, with the modularity criterion deciding where the two come
+apart. A reducible mediator needs no instrument at all, only the direct dealing the parties can already do,
+and the diagnostic's service there is to stop a firm from spending on a fight it has already won.
 
 The instruments do not all reach the same bearer. Article 22's contestation runs to natural persons and the
 platform-work directive's rights to workers, while the Platform-to-Business Regulation's complaint-handling
 and representative standing run to business users. A dependent firm and a dependent person therefore face
 different repertoires against the same mediator, and section 8 takes up the firm's.
+
+The gradient of section 4 reaches the instruments themselves. Because algorithmacy concentrates where it is
+already held, an instrument that confers standing formally will be exercised first by the actors with the
+capacity to reach it: data trusts by operators who can manage a membership, bargaining units where
+schedules are stable enough for a unit to form, contestation rights by parties who can absorb the delay of
+contesting. Cotter and Reisdorf's (2020) knowledge gap therefore predicts a standing gap inside each
+remedy, and an institutional design that ignores it will widen the distribution it was built to correct.
 
 Platform cooperativism proposes the most direct route: change who owns the platform. Worker- and user-owned
 cooperatives, democratically governed, would give the coordinated actors a share in the governance of the
@@ -848,19 +912,30 @@ it entitles the person to human intervention, to state a view, and to contest th
 is voice at the level of the case. It gives the coordinated actor standing to dispute a particular
 determination and stops short of a share in how the system is governed in general.
 
+Workers have already run this instrument against a necessary mediator. In April 2023 the Amsterdam Court of
+Appeal held that ride assignment, pricing, driver rating, fraud-probability scoring, and account
+deactivation on the Uber and Ola platforms constitute automated decision-making within Article 22, and
+rejected the platforms' human-in-the-loop defence on the facts, treating the review as largely symbolic.
+Drivers brought the cases through their union and an associated data-rights organization, which is how a
+case-level right became a collective instrument: the standing was individual and the capacity to exercise
+it was pooled.
+
 Oversight boards and independent adjudication institutionalize voice at the level of the platform's
 rule-making, creating a body with some authority to review the platform's determinations (Klonick, 2020).
 Their promise is a standing institution through which the coordinated can be heard. Their limit is
 dependence on the platform that constitutes them, which bounds the authority they can exercise.
 
-Across these forms the common measure is the one the definition supplies: how much effective voice does the
-institution confer, and does that voice amount to a share in the governance of the arrangement or only a
-protection against its worst conduct. The institutions compose. A data trust can supply the collective
-leverage that makes a bargaining unit's demands credible, and the data it pools can feed the audits that
-give contestation its evidence. An interoperability mandate aimed at the contingent functions relieves
-pressure on the necessary ones by giving the actor somewhere else to go for what can be gotten elsewhere.
-No single instrument is likely to deliver coordinative sovereignty. It is the cumulative standing a stack
-of such institutions confers, and the diagnostic is what tells a policymaker where to put each one.
+Two questions sort these forms rather than one. How much effective voice does the institution confer, and
+how far is that voice entrenched against the mediator's unilateral withdrawal? An oversight board
+constituted by the platform scores well on the first and poorly on the second; a statutory contestation
+right scores the other way. The second question is also what separates a share in the governance of the
+arrangement from a protection against its worst conduct, since a protection the mediator can retract was
+never a share. The institutions compose. A data trust can supply the collective leverage that makes a
+bargaining unit's demands credible, and the data it pools can feed the audits that give contestation its
+evidence. An interoperability mandate aimed at the contingent functions relieves pressure on the necessary
+ones by giving the actor somewhere else to go for what can be gotten elsewhere. No single instrument is
+likely to deliver coordinative sovereignty. It is the standing a stack of such institutions confers on both
+measures at once, and the diagnostic is what tells a policymaker where to put each one.
 
 ## 8. Implications
 
@@ -918,11 +993,23 @@ determinations that set its market outcomes. The exposure is an algorithmacy gap
 managers a decision procedure for it. Where the firm depends on a contingent mediator, the move is toward
 exit: support interoperability, build or back an alternative, break the lock-in. Where it depends on a
 necessary mediator, exit is closed and the move is toward voice: organize with other dependent firms, pool
-data, demand contestable systems, seek a standing channel of governance. Treating a necessary mediator as
+data, demand contestable systems, seek a standing channel of governance. Where the dependence is partial,
+which is the ordinary case, the two branches run at once against different functions, and the firm's task
+is to keep them apart rather than to average them into a single posture. Treating a necessary mediator as
 contingent wastes effort on an exit that cannot be had. Section 5.5 shows the alternative at sector scale:
 European hotels met an aggregating function they could not leave by building the competence to work it, and
 met a parity clause they could leave through contract law and competition enforcement. Treating a
 contingent mediator as necessary concedes a bypass that could be opened.
+
+The procedure returns a split verdict for the independent software vendor of section 1. The store's payment
+gate and its review gate are contingent: restore the developer-to-user tie and neither has integrating work
+left to do, which is why anti-steering enforcement reaches them. Its ranking and discovery function is
+partial, necessary for the customer who would never have found the application and bypassable for the
+customer who already has. The vendor's error would be to treat the whole store as one unexitable dependence
+and build only voice, or to treat it as one contestable gate and build only exit. Its repertoire is mixed,
+and the mix is what the diagnostic supplies. What the diagnostic does not supply is the segment split
+itself, since the proportion of customers who arrive by discovery is a fact the store holds and the vendor
+estimates.
 
 The managerial payoff extends to capability building. If algorithmacy enables coordinative sovereignty, and
 algorithmacy can be built, then a firm's standing within its platform dependencies is a capability problem.
@@ -977,9 +1064,16 @@ mediator the actor cannot readily leave. The nearest validated construct is psyc
 (Spreitzer, 1995), and the task is to show that standing within an unexitable external mediation differs
 from felt empowerment inside an organization one could leave. Republican theory offers a usable test item
 in the form of the question whether an actor can look the mediator in the eye and speak plainly, without
-needing to ingratiate or to avoid provoking a power that could retaliate. Because the construct has both an
-individual and an organizational bearer, the instrument needs a form at each level, and their
+needing to ingratiate or to avoid provoking a power that could retaliate. Pettit offers a corporate
+analogue in the straight-talk test, which asks whether a body's representatives can talk straight in
+dealing with another body, and that is the organizational form of the item. Because the construct has both
+an individual and an organizational bearer, the instrument needs a form at each level, and their
 correspondence is itself a question.
+
+The instrument also needs an entrenchment item, since a channel the mediator can close is not standing.
+Asking how a respondent's voice would fare if the mediator wished to be rid of it separates secured
+standing from tolerated access, and it guards against the resignation that a captive population reports as
+satisfaction.
 
 The third is the two-step design the diagnostic affords. Because the necessary/contingent distinction can
 be applied to a modeled coordination, a study could classify the mediators an organization depends on
@@ -1024,8 +1118,9 @@ other directly. Where the mediator is contingent, the older sovereignty of exit 
 exit-restoring instruments — including some pursued under the digital-sovereignty agenda — apply. Where the
 mediator is necessary, only voice remains, resting on non-domination, relational autonomy, involvement, and
 commons governance, and realized, if at all, through cooperatives, trusts, collective bargaining,
-contestability, and standing channels of governance. Europe's hotels pried open a parity gate their
-dependence did not run through, and the aggregation it stood beside held.
+contestability, and standing channels of governance. Most mediators are partial, and the ordinary task is
+to run both repertoires at once against different functions of the same firm. Europe's hotels pried open a
+parity gate their dependence did not run through, and the aggregation it stood beside held.
 
 Literacy was once the possession of a clerical few and became, unevenly and incompletely, a general
 condition of citizenship, and democratic sovereignty followed the diffusion of the competence that made it
@@ -1095,6 +1190,8 @@ https://doi.org/10.1177/1350508420961531
 
 Burrell, J. (2016). How the machine "thinks": Understanding opacity in machine learning algorithms. *Big Data
 & Society, 3*(1). https://doi.org/10.1177/2053951715622512
+
+Burt, R. S. (1992). *Structural holes: The social structure of competition*. Harvard University Press.
 
 Burt, R. S. (2004). Structural holes and good ideas. *American Journal of Sociology, 110*(2), 349–399.
 https://doi.org/10.1086/421787

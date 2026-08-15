@@ -120,10 +120,78 @@ references, every citation resolving.
 update or date the series explicitly); the Anderson (2009) report number, if a copyeditor asks, against
 Cornell's eCommons rather than an aggregator; and the HOTREC/HES-SO attribution on the Schegg entry.
 
-**Next in Tier 2.** Carrying *partial* into §7's table and §8's two-branch procedure, which is the rest of
-Reviewer 2's F4 and Ekwueme's two uncategorized functions; Sølvberg's R1, which retreats §5.2's novelty
-claim against the five literatures that already run the operation; and Renard's robustness condition, which
-propagates into §7 and §9.
+## 0h. Tier 2, remainder, 2026-08-15
+
+Three items, all landed.
+
+**1. The four-way taxonomy now carries consequences.** *Partial* and *reducible* had appeared nowhere after
+§5.4 — not in §5.5's verdict, §7's table, §8's procedure, §9, or §10 — so the chapter claimed a four-way
+distinction while operating a two-way one, and in two of Reviewer 2's findings the missing category was the
+right answer. §5.2 now states that the four verdicts sit at three levels and fixes the unit of
+classification: a function, for a dependent party, against a segment of its counterparties. §7 gains a
+paragraph on how a partial verdict reads across both columns and what a reducible one saves a firm from
+spending. §8's decision procedure gains a partial branch and runs itself on the §1 independent software
+vendor, which had never been put through the diagnostic it motivates and comes back mixed. §10 says most
+mediators are partial.
+
+**§7's table columns were also the wrong promise.** No instrument in it changes its legal character with
+the mediator's type — what changes is what exercising it is worth — so the headings are now "Value where
+exit is available" and "Value where exit is foreclosed," and the three "marginal" verdicts, which said
+nothing and were wrong twice, carry content. Contestation generates the record an exit campaign runs on.
+
+**2. §5.2's novelty claim retreated to what it can hold.** The claim that the neighbouring tests "cannot
+ask" the edge question was false of five works the chapter cites elsewhere — Obstfeld's *tertius iungens*
+creates ties, Ryall and Sorenson rerun their model with endogenous relation formation, Hahl et al. condition
+returns on a credible disintermediation threat, and Gu and Zhu and Sekar and Siddiq are the
+platform-disintermediation literature. The section now names four literatures and locates the contribution
+in standpoint rather than in the question being unaskable: asked from inside, function by function, on
+behalf of the party that cannot leave, returning a course of action. The dealer example moves to constraint
+provenance, with Tesla's direct sales as the counterfactual with the treatment observed, and the dealer
+correctly labelled partial rather than a pure case of contingency.
+
+**And the "returns a strategy" claim now carries Chaudhry's index.** Contingency is a fact about a rule, and
+rules have jurisdictions: the anti-steering obligation that makes the payment gate contingent for a European
+developer leaves the same gate unexitable where no such obligation binds. Exit prescriptions name
+achievements of regulation more often than moves a firm can make alone, so a structurally contingent
+mediator is practically necessary where no one will lift the constraint. This is the framework's best
+untested empirical prediction: exit-seeking inside a regulator's reach, voice-building outside it,
+classification held constant.
+
+**3. Voice now has a robustness condition, and the mediator has a third power.** Renard and Nkemelu found
+the same hole from opposite ends. §6 states the modal demand — a benefit secures freedom only where it
+survives the counterfactual in which the other party turns hostile (Pettit, 2016) — so standing a mediator
+can withdraw fails however generous it is while it lasts. §7 sorts institutions on two questions rather than
+one, which is what separates a share in governance from a retractable protection. §9's instrument gains an
+entrenchment item, and Pettit's straight-talk test supplies the corporate analogue the eyeball test lacked.
+
+§5.3 names deactivation as a power neither exit nor voice describes: the coordinated actor does not choose
+it and is owed no account of it, and its availability prices every act of voice that precedes it. Three
+sources the chapter already cites — Rahman, Bucher et al., Curchod et al. — describe conduct organized
+around the risk of removal, and the chapter had been reading all three as evidence of opacity. The cost of
+acting on the diagnostic is now stated as bearer-dependent: a firm running a bypass risks a commercial
+dispute, a worker running the same bypass risks removal.
+
+§7 also gains the worked case Nkemelu supplied, verified against the record: on 4 April 2023 the Amsterdam
+Court of Appeal held that ride assignment, pricing, rating, fraud-probability scoring, and deactivation on
+Uber and Ola constitute automated decision-making within Article 22 and rejected the human-in-the-loop
+defence as largely symbolic. Drivers brought it through their union and a data-rights organization — a
+case-level right exercised collectively, which is the chapter's own argument happening. And the §4 gradient
+now reaches the instruments: an institution that confers standing formally is exercised first by actors with
+the capacity to reach it, so Cotter and Reisdorf's knowledge gap predicts a standing gap inside each remedy.
+
+Mechanics: 18,480 words total, 14,895 body, abstract 149, 117 references (Burt 1992 added), 14 Key Terms,
+five cases, every citation resolving, anonymization intact.
+
+**Length is now the open question.** The body has grown from 11,703 words to 14,895 across three passes,
+against a plan of roughly 12,600 and a floor of 10,000. Nothing in the volume's terms sets a ceiling on the
+record here, but a compression pass before submission is the author's call, and §5.2 and §7 are where the
+new material concentrated.
+
+**Remaining, Tier 3.** Ekwueme's third column on §7's table (who can invoke each instrument: a forty-person
+firm reaches two of seven); his board metric, revenue behind necessary functions against contingent ones,
+which the chapter contains everything to produce and never states; Løvaas's fifth research direction, which
+would actually measure the independent variation §8 asserts; and Vaudrey's eleven undated present-tense
+sentences, where every legal sentence should carry a date, a deadline, or a status word.
 
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 
