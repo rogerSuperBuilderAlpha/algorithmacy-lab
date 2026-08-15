@@ -289,21 +289,48 @@ about 120 words. Nothing else in the section can leave without a referee noticin
 **Section totals after the pass:** §5 is 4,169 words of a 15,637-word body, still the largest section at
 27%. Total 19,222 words, abstract 149, 117 references, every citation resolving.
 
-## Still open from the panel — two [FIX NOW] items never scheduled
+## 0k. Renard's two remaining [FIX NOW] items, closed 2026-08-15
 
-Renard's review carries two findings marked [FIX NOW] that no pass has applied, both in §6 and both with
-paste-ready text in `../reviews/2026-08-15/02_republican_theory.md`:
+**The four strands did not converge, and §6 no longer says they do.** Markell's paper is titled *The
+Insufficiency of Non-Domination* and relational autonomy presses its own objection to the boundary picture,
+so a paragraph that enlisted both as converging support was reporting a dispute as a consensus. The section
+now opens on the dispute and places the construct in the space it leaves: republican non-domination
+supplies the first term, Markell holds it insufficient because domination answers to control and leaves
+involvement untouched — usurpation, in his word — and relational autonomy objects from the other side that
+autonomy is constituted through relationships rather than secured by a boundary. Coordinative sovereignty
+is what that dispute yields when the dominating party is a mediator the actor cannot leave, where control
+and involvement come apart more sharply than in the cases the dispute was argued over. Three paragraphs
+became one, and the claim is stronger than the convergence it replaced.
 
-- **F2 / R5.** §6 opens "Four strands of political theory converge on the construct." Renard's charge is
-  that they do not converge — Markell's paper is titled *The Insufficiency of Non-Domination*, and
-  relational autonomy presses its own objection to the boundary picture. His R5 reframes the opening as a
-  dispute the construct resolves rather than a convergence it inherits, which is the stronger claim.
-- **F3 / R2.** The Cicerchia sentences. His reading is that the chapter's gloss on her is accurate but its
-  use inverts her argument, and that Pettit's own footnote does the job better. R2 supplies the replacement
-  and keeps her where she genuinely works, on §3.3's economics.
+**Cicerchia's use inverted her argument; Pettit's own footnote does the job.** The chapter's gloss on her
+was accurate — Renard put that on the record — but it took the second half of her two-part claim, that
+agency must be involved, and used it to walk back to the narrow agential picture: find the firm, point at
+it, objection answered. Her first half, that neo-republican non-domination is too narrow for domination
+arising from competitive structure, is the half that cuts against a chapter whose §3.3 already runs
+Armstrong's market-structure argument. The answer was in a paper already in the bibliography. Pettit (2016)
+holds at footnote 4 that domination obtains only between agents, that living under structures which
+facilitate another agent's domination is structural domination, and that relieving the agential form
+ordinarily requires combatting the structural one. §6 now says the platform case has both levels — the
+interest is the firm's and the firm is an agent, the system is the structure through which that interest
+reaches the coordinated actor — and keeps Cicerchia where she genuinely works, marking the limit of the
+agential account against §3.3's bottleneck.
 
-Both are paragraph-level. Neither is in Tier 1, the §5.5 package, Tier 2, or Tier 3, because none of those
-lists included them.
+**Two related repairs in the same pass.** §9's eyeball test was uncited and is now attributed to Pettit
+(2016), with the straight-talk test as the corporate analogue rather than a loose paraphrase. And a claim
+introduced in Tier 1 has been softened: Renard could not confirm from the 1992 text that Schlager and
+Ostrom characterize the Maine lobster grounds as state-owned, so §6 now says the fishers hold
+proprietorship over grounds to which they have no title, which is the point the passage needs and the part
+the record supports.
+
+§6 went from 1,462 words to 1,608. The growth is the Pettit structural-domination material, which is a
+correctness fix rather than padding, and it partly offsets the §5.2 compression. Body 15,796, total 19,381.
+
+**Renard's remaining VERIFY items, all proof-stage.** Pettit (2016) locators must be re-anchored from the
+EUI working paper to the published pagination, 9(1), 47–68, if any page reference is ever added — the
+chapter currently prints none. The Habermas quotation at pp. 486–487 needs two checks: that the wording
+matches the Rehg translation at those pages, and that the citation notes the passage sits in the appendix
+essay "Popular Sovereignty as Procedure." The Key Terms non-domination entry runs on Pettit's later
+contestation formulation and should either cite Pettit (2012) or note that §6 uses the later account.
 
 ## Owed before submission
 

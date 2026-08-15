@@ -736,28 +736,36 @@ held at the platform's pleasure. The mediator's power to remove, named in sectio
 from the other side: where expulsion is available and unaccountable, every channel that runs through the
 mediator's goodwill is held on sufferance.
 
-Four strands of political theory converge on the construct. From republican theory it takes freedom as
-non-domination, the absence of another's arbitrary power, a stronger condition than the absence of
-interference (Pettit, 1997; Skinner, 1998). An actor can be left alone and still unfree if it lives at the
-mercy of a power that could interfere at will, on terms it cannot contest, which is the condition of the
-platform-dependent actor. Muldoon and Raekstad (2023) argue the case directly for algorithmic management,
-treating it as a socio-technical system in which owners and managers hold arbitrary power over those
-enrolled in it. A standing objection to that application remains: a ranking system is not an agent, so its
-power may not be arbitrary in the sense republican theory requires. Cicerchia (2022) supplies the answer,
-arguing that non-domination as usually stated has insufficient scope for structural domination while an
-adequate account of structural domination still requires that agency be involved. The interest in a
-platform mediator is the firm's, and the firm is an agent, which is why section 3 located it there.
+Political theory does not converge on this construct so much as leave a space for it. Republican theory
+supplies the first term, freedom as non-domination, the absence of another's arbitrary power and a stronger
+condition than the absence of interference (Pettit, 1997; Skinner, 1998); an actor can be left alone and
+still unfree if it lives at the mercy of a power that could interfere at will on terms it cannot contest,
+which is the condition of the platform-dependent actor. Markell (2008) argues that the term is insufficient
+on its own, since domination answers to a concern about control and leaves a second concern untouched, the
+concern with involvement, whose violation he calls usurpation: an actor secured against arbitrary power may
+still be displaced from any part in the determinations that govern it. Relational autonomy presses a
+related objection from another direction, holding that autonomy is constituted through the relationships
+that structure a person rather than secured by drawing a boundary around one (Mackenzie & Stoljar, 2000;
+Nedelsky, 2011), so that a relationship can enlarge autonomy or shrink it and the shape is what matters.
+Coordinative sovereignty is what the dispute yields when the dominating party is a mediator the actor
+cannot leave: control and involvement come apart there more sharply than in the cases the dispute was
+argued over, because protection against a mediator's worst conduct is exactly what a platform can grant
+while conceding nothing about who authors the coordination. The apparent choice between being mediated and
+being autonomous dissolves, and the object of sovereignty is the shape of the mediation.
 
-Relational autonomy supplies the next piece. Autonomy is constituted through the relationships that
-structure a person (Mackenzie & Stoljar, 2000; Nedelsky, 2011), so a relationship can enlarge autonomy or
-shrink it, and what matters is its shape. The apparent choice between being mediated and being autonomous
-dissolves. A well-shaped mediation enlarges the coordinated actor's autonomy, a badly shaped one diminishes
-it, and the object of sovereignty is the shape.
-
-Markell (2008) adds a correction to non-domination, which protects without including. An actor secured
-against arbitrary power still holds no share in the determinations that govern it. Coordinative sovereignty
-asks for that share: a place in the determination, standing to participate in how the coordination is
-governed.
+Muldoon and Raekstad (2023) argue the case directly for algorithmic management, treating it as a
+socio-technical system in which owners and managers hold arbitrary power over those enrolled in it. A
+standing objection meets that application: a ranking system is not an agent, so its power may not be
+arbitrary in the sense republican theory requires. Pettit (2016) answers it directly, holding that
+domination obtains between agents while a structure that facilitates one agent's domination of another is
+itself a form of structural domination, and that relieving the agential form ordinarily requires combatting
+the structural one. The platform case has both. The interest the system carries is the firm's, and the firm
+is an agent, which is where section 3 located it; the system is the structure through which that interest
+reaches the coordinated actor. Cicerchia (2022) marks the limit of the agential account, arguing that
+non-domination as usually stated has insufficient scope for the structural domination a labour market
+produces without anyone intending it, and the competitive bottleneck of section 3.3 is a structural
+condition of exactly that kind. The two levels are not alternatives, and an account of the platform
+mediator needs both.
 
 Ostrom (1990) supplies the institutional form, and applying her to a platform takes one adjustment. The
 platform is not an unowned pasture. It is enclosed, owned and tuned by the mediator, so the coordinated
@@ -766,15 +774,15 @@ worked out what remains available under exactly that condition. Schlager and Ost
 property into access, withdrawal, management, exclusion, and alienation, and array the positions that hold
 different bundles: an authorized user holds access and withdrawal, a claimant adds management, a proprietor
 adds exclusion, and an owner adds alienation. Their Maine lobster fishers hold de facto proprietorship over
-grounds the state owns, governing access and effort without holding title, because they can enforce a
-boundary against outsiders. The schema locates the platform-dependent actor precisely, and the location is
-uncomfortable: it holds access and withdrawal and nothing above them, while the proprietor's right of
-exclusion sits entirely with the mediator, which excludes at will and cannot be excluded from anything. The
-available claim is therefore the management right — collective-choice arrangements over the coordination's
-rules — and the commons record shows what that right requires to hold. Ostrom (1990) makes external
-recognition a design principle in its own right, since a group's rules survive only where an outside
-authority declines to override them. Section 7 reads the European instruments in that light: they are the
-external recognition without which a collective-choice claim over a platform's rules is a request.
+grounds to which they have no title, governing access and effort without owning anything, because they can
+enforce a boundary against outsiders. The schema locates the platform-dependent actor precisely, and the
+location is uncomfortable: it holds access and withdrawal and nothing above them, while the proprietor's
+right of exclusion sits entirely with the mediator, which excludes at will and cannot be excluded from
+anything. The available claim is therefore the management right — collective-choice arrangements over the
+coordination's rules — and the commons record shows what that right requires to hold. Ostrom (1990) makes
+external recognition a design principle in its own right, since a group's rules survive only where an
+outside authority declines to override them. Section 7 reads the European instruments in that light: they
+are the external recognition without which a collective-choice claim over a platform's rules is a request.
 
 Who bears this standing, a person or a firm? The construct is defined by a relation, so whoever occupies
 the position of being coordinated through a mediation it cannot leave is a candidate bearer. Republican
@@ -810,11 +818,10 @@ Anderson (2017) makes the parallel argument for the firm, where the right to qui
 the answer to employer authority and does not dissolve it.
 
 Coordinative sovereignty is more than worker rights or consumer protection, though it bears on both. Rights
-and protections are guarantees against a mediator's conduct. Coordinative sovereignty is a share in the
-mediator's governance, and a platform can grant extensive protections to actors who hold no standing over
-how the coordination is authored. Transparency alone does not produce it: that is the standing gap named
-above. And the construct takes the mediation as given, often as necessary, and asks what autonomy is
-possible within it. The mediator cannot be wished away, and freedom lives in the terms of the mediation.
+and protections are guarantees against a mediator's conduct, and coordinative sovereignty is a share in the
+mediator's governance. Transparency alone does not produce it: that is the standing gap named above. And
+the construct takes the mediation as given, often as necessary, and asks what autonomy is possible within
+it. The mediator cannot be wished away, and freedom lives in the terms of the mediation.
 
 Algorithmacy is the precondition. An actor cannot contest a mediator's arbitrary power without modeling how
 the mediator sorts and optimizes, cannot press for terms without translating between its conduct and the
@@ -1093,13 +1100,14 @@ the mediator's arbitrary power, effective voice over the terms of mediation, and
 coordination's governance — would have to be measured under the condition that defines the construct: a
 mediator the actor cannot readily leave. The nearest validated construct is psychological empowerment
 (Spreitzer, 1995), and the task is to show that standing within an unexitable external mediation differs
-from felt empowerment inside an organization one could leave. Republican theory offers a usable test item
-in the form of the question whether an actor can look the mediator in the eye and speak plainly, without
-needing to ingratiate or to avoid provoking a power that could retaliate. Pettit offers a corporate
-analogue in the straight-talk test, which asks whether a body's representatives can talk straight in
-dealing with another body, and that is the organizational form of the item. Because the construct has both
-an individual and an organizational bearer, the instrument needs a form at each level, and their
-correspondence is itself a question.
+from felt empowerment inside an organization one could leave. Republican theory supplies a usable item at
+each level. Pettit's (2016) eyeball test asks whether a person can look another in the eye without reason
+for fear or deference, which for an individual bearer becomes the question whether an actor can deal with
+the mediator plainly without needing to ingratiate or to avoid provoking a power that could retaliate. His
+straight-talk test asks whether a body's representatives can talk straight in dealing with another body,
+and that is the organizational form of the item. Because the construct has both an individual and an
+organizational bearer, the instrument needs a form at each level, and their correspondence is itself a
+question.
 
 The instrument also needs an entrenchment item, since a channel the mediator can close is not standing.
 Asking how a respondent's voice would fare if the mediator wished to be rid of it separates secured
