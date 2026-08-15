@@ -3,6 +3,80 @@
 Rebuild completed 2026-08-01. Chapter due **2026-08-30**. This file lists everything the rewrite could not
 close, ranked by how much damage it would do if it reached a referee unfixed.
 
+## 0f. Persona panel Tier 1, 2026-08-15
+
+The ten-persona panel (`../reviews/2026-08-15/`) found fifteen source-level errors that two earlier
+lens-based panels had missed, because nine of its ten reviewers opened the primary sources. **The panel
+also decided the draft question: `chapter.md` ships.** Peter Ahlgren measured the v2 rewrite against its own
+objective and it failed — the coefficient of variation fell (0.565 → 0.540) and the pass made seventy
+merges and zero splits — and v2 is **not prose-only**, contrary to section 0e above: it swaps the defined
+term *mediator* for undefined *third party* in two of §5.3's definitional sentences.
+
+Tier 1 applied to `chapter.md`, all of it text the reviewers supplied:
+
+1. **§5.5, Case C-264/23 restated.** Losing the ancillary-restraints gateway means separate Article 101(1)
+   assessment with 101(3) still open; it is not a finding that parity clauses fall within the prohibition
+   (para. 55). The only place the chapter stated a holding incorrectly.
+2. **§3.2 and §7, GDPR Article 22 restated** as a prohibition in principle whose contestation rights sit in
+   Article 22(3) and reach only the contract and consent routes. Adds C-634/21 and C-203/22 — the second
+   makes the chapter's own opacity argument in the Court's words.
+3. **§7, essential facilities updated for C-233/23 (Android Auto)**, where the Grand Chamber held the
+   *Bronner* indispensability criterion inapplicable to a platform built for third-party use. The Court
+   drew nearly the chapter's own line.
+4. **§8, the enforcement sentence** narrowed and sourced. Google was fined €890m on 23 July 2026, €460m of
+   it under DMA Article 6(5) for self-preferencing in Search *ranking*, so "enforcement has reached
+   platform conduct without reaching that layer" was false on its face. The narrower claim — enforcement
+   reaches the gatekeeper's conduct without giving the ranked party standing — survives and is stronger.
+5. **§6, the bearer paragraph rebuilt.** Pettit (2016) does not license the firm-as-bearer move: his
+   corporate freedom-bearer is a people, corporations appear among the dominators, and he denies disvalue
+   in the domination of a corporate body as such. Rewritten as a condition rather than a licence.
+6. **§6, Schlager and Ostrom corrected.** Claimants do not hold exclusion; that is what separates claimant
+   from proprietor, and it is exactly what the platform-dependent actor can never have. The correction is
+   an argument rather than a repair, and it gives §7 a reason to exist.
+7. **§6 and Key Terms, "irreducibly coordinated" removed.** §5.2 makes *reducible* a technical term, so the
+   phrase covered the contingent mediators the construct exists to exclude.
+8. **§8's opening citations replaced.** Fratini et al. code state-facing models with no operationalization,
+   Hummel et al. review data sovereignty conceptually, and Schmuntzsch et al. sits in the industrial strand
+   §2.3 set aside. The honest version of the claim is stronger than the printed one.
+9. **§5.3 multihoming corrected** against §3.3. Multihoming by the dependent side is the condition under
+   which Armstrong's bottleneck extracts; contestability requires the *other* side to multihome.
+10. **§5.2, Obstfeld** no longer cited for the *gaudens* position — he is the *tertius iungens*, the broker
+    who joins the parties it stands between.
+11. **§5.2, the ancillary-restraints analogy** now carries both limbs and para. 54, which authorises the
+    counterfactual the diagnostic runs. Vaudrey calls that paragraph the chapter's best doctrinal support.
+12. **§4, the triadic index respecified.** DeVito's creators already work a system that matches and scores
+    them, so triadic structure alone did not separate the constructs. The difference that survives is a
+    co-scored, transacting counterpart — which is why the eBay seller's move is available at all.
+13. **§4, Street's caution reassigned.** His target was the autonomous model, not cognition; the regime
+    claim restates that model one level up unless stated with care, and it now is.
+14. **§4 and §9, Dogruel et al. reconciled** — two dimensions, as §9 already had it.
+15. **§2.1 repaired.** "Could not transmit a rule past the reach of living memory" is false (Vedic
+    recitation, the Icelandic lawspeaker). *Oracy* is now credited to Wilkinson (1965), and Finnegan (1988)
+    carries the warning against reading the limit as a divide between two kinds of society.
+16. **§7, collective bargaining split by bearer.** The 2022 Commission guidelines shelter solo
+    self-employed persons on digital labour platforms; independent firms agreeing marketplace terms remain
+    a horizontal agreement. As written, a member firm following the chapter's advice was exposed.
+17. **§7, the data-intermediary sentence** now says the Omnibus makes registration voluntary, which is the
+    fact that matters for an argument about standing.
+18. **§5.5, the ECN commission range** marked as *basic* commission from the 2016 exercise, with the
+    additional visibility and preferred-partner commission named — the chapter's own thesis, in its own
+    primary source.
+19. **§8, the P2B/DSA distinction made directional** rather than "the only duty in European law."
+
+Mechanics after the pass: 16,395 words total, 12,919 body, abstract 149, 14 Key Terms, three references and
+three cases added (112 references), body modal line width 107, anonymization intact, every in-text citation
+resolving.
+
+**Owed before submission.** Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx` from
+`chapter.md` — both now trail this pass and the 2026-08-14 edits. Confirm the SCHUFA ECLI
+(ECLI:EU:C:2023:957) at proof; the case, chamber and date are verified, the ECLI came from a secondary
+source. Confirm the Wilkinson (1965) page range against the journal.
+
+**Tier 2 and Tier 3 remain open** and are sequenced in `../reviews/2026-08-15/SYNTHESIS.md`. The largest is
+§5.5: Isabel Roth showed the evidence run is broken by the chapter's own cited source, and that the hotels
+built algorithmacy rather than seeking exit — a better ending than the one §10 currently prints. Her
+replacement text is a package (5A–5D) and should land as one.
+
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 
 A four-pass review (`reviews/2026-08-02/12_full_review.md`) closed the whole "still owed before press" list,
