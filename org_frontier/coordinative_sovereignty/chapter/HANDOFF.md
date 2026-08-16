@@ -3,6 +3,348 @@
 Rebuild completed 2026-08-01. Chapter due **2026-08-30**. This file lists everything the rewrite could not
 close, ranked by how much damage it would do if it reached a referee unfixed.
 
+## 0f. Persona panel Tier 1, 2026-08-15
+
+The ten-persona panel (`../reviews/2026-08-15/`) found fifteen source-level errors that two earlier
+lens-based panels had missed, because nine of its ten reviewers opened the primary sources. **The panel
+also decided the draft question: `chapter.md` ships.** Peter Ahlgren measured the v2 rewrite against its own
+objective and it failed — the coefficient of variation fell (0.565 → 0.540) and the pass made seventy
+merges and zero splits — and v2 is **not prose-only**, contrary to section 0e above: it swaps the defined
+term *mediator* for undefined *third party* in two of §5.3's definitional sentences.
+
+Tier 1 applied to `chapter.md`, all of it text the reviewers supplied:
+
+1. **§5.5, Case C-264/23 restated.** Losing the ancillary-restraints gateway means separate Article 101(1)
+   assessment with 101(3) still open; it is not a finding that parity clauses fall within the prohibition
+   (para. 55). The only place the chapter stated a holding incorrectly.
+2. **§3.2 and §7, GDPR Article 22 restated** as a prohibition in principle whose contestation rights sit in
+   Article 22(3) and reach only the contract and consent routes. Adds C-634/21 and C-203/22 — the second
+   makes the chapter's own opacity argument in the Court's words.
+3. **§7, essential facilities updated for C-233/23 (Android Auto)**, where the Grand Chamber held the
+   *Bronner* indispensability criterion inapplicable to a platform built for third-party use. The Court
+   drew nearly the chapter's own line.
+4. **§8, the enforcement sentence** narrowed and sourced. Google was fined €890m on 23 July 2026, €460m of
+   it under DMA Article 6(5) for self-preferencing in Search *ranking*, so "enforcement has reached
+   platform conduct without reaching that layer" was false on its face. The narrower claim — enforcement
+   reaches the gatekeeper's conduct without giving the ranked party standing — survives and is stronger.
+5. **§6, the bearer paragraph rebuilt.** Pettit (2016) does not license the firm-as-bearer move: his
+   corporate freedom-bearer is a people, corporations appear among the dominators, and he denies disvalue
+   in the domination of a corporate body as such. Rewritten as a condition rather than a licence.
+6. **§6, Schlager and Ostrom corrected.** Claimants do not hold exclusion; that is what separates claimant
+   from proprietor, and it is exactly what the platform-dependent actor can never have. The correction is
+   an argument rather than a repair, and it gives §7 a reason to exist.
+7. **§6 and Key Terms, "irreducibly coordinated" removed.** §5.2 makes *reducible* a technical term, so the
+   phrase covered the contingent mediators the construct exists to exclude.
+8. **§8's opening citations replaced.** Fratini et al. code state-facing models with no operationalization,
+   Hummel et al. review data sovereignty conceptually, and Schmuntzsch et al. sits in the industrial strand
+   §2.3 set aside. The honest version of the claim is stronger than the printed one.
+9. **§5.3 multihoming corrected** against §3.3. Multihoming by the dependent side is the condition under
+   which Armstrong's bottleneck extracts; contestability requires the *other* side to multihome.
+10. **§5.2, Obstfeld** no longer cited for the *gaudens* position — he is the *tertius iungens*, the broker
+    who joins the parties it stands between.
+11. **§5.2, the ancillary-restraints analogy** now carries both limbs and para. 54, which authorises the
+    counterfactual the diagnostic runs. Vaudrey calls that paragraph the chapter's best doctrinal support.
+12. **§4, the triadic index respecified.** DeVito's creators already work a system that matches and scores
+    them, so triadic structure alone did not separate the constructs. The difference that survives is a
+    co-scored, transacting counterpart — which is why the eBay seller's move is available at all.
+13. **§4, Street's caution reassigned.** His target was the autonomous model, not cognition; the regime
+    claim restates that model one level up unless stated with care, and it now is.
+14. **§4 and §9, Dogruel et al. reconciled** — two dimensions, as §9 already had it.
+15. **§2.1 repaired.** "Could not transmit a rule past the reach of living memory" is false (Vedic
+    recitation, the Icelandic lawspeaker). *Oracy* is now credited to Wilkinson (1965), and Finnegan (1988)
+    carries the warning against reading the limit as a divide between two kinds of society.
+16. **§7, collective bargaining split by bearer.** The 2022 Commission guidelines shelter solo
+    self-employed persons on digital labour platforms; independent firms agreeing marketplace terms remain
+    a horizontal agreement. As written, a member firm following the chapter's advice was exposed.
+17. **§7, the data-intermediary sentence** now says the Omnibus makes registration voluntary, which is the
+    fact that matters for an argument about standing.
+18. **§5.5, the ECN commission range** marked as *basic* commission from the 2016 exercise, with the
+    additional visibility and preferred-partner commission named — the chapter's own thesis, in its own
+    primary source.
+19. **§8, the P2B/DSA distinction made directional** rather than "the only duty in European law."
+
+Mechanics after the pass: 16,395 words total, 12,919 body, abstract 149, 14 Key Terms, three references and
+three cases added (112 references), body modal line width 107, anonymization intact, every in-text citation
+resolving.
+
+**Owed before submission.** Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx` from
+`chapter.md` — both now trail this pass and the 2026-08-14 edits. Confirm the SCHUFA ECLI
+(ECLI:EU:C:2023:957) at proof; the case, chamber and date are verified, the ECLI came from a secondary
+source. Confirm the Wilkinson (1965) page range against the journal.
+
+**Tier 2 and Tier 3 remain open** and are sequenced in `../reviews/2026-08-15/SYNTHESIS.md`.
+
+## 0g. Tier 2, first item: the §5.5 package, 2026-08-15
+
+Isabel Roth showed that §5.5's evidence run was broken by the chapter's own cited source. The section now
+argues the same verdict on evidence that holds.
+
+**What was wrong.** The two headline figures are real and verbatim in Schegg (2024), but they are not each
+other's complement: over the decade the agencies gained 9.9 points while direct lost 6.7, and the hotel's
+own booking engine *rose* from 7.4% to 12.3%. What collapsed was telephone, fax, and walk-in, and the tour
+operators and wholesalers. The European Competition Network says so at §4.5, para. 37 — in the report the
+same paragraph already cited. The clock was wrong too: across the chapter's own stated 2015–2021 window
+direct bookings rose, 52.9% to 55.2%, and seventy percent of the decade's decline falls in the 2013–2015
+wave, before the treatment. And "a hotel that spent the decade trying to leave" asserted an intent no
+source carries; the structural indicators are consistent with learning to work the channel, which is what
+the chapter's own construct predicts.
+
+**What replaced it.** Evidence in two grades. The stronger compares jurisdictions: Austria and Belgium
+banned parity outright, the other four countries in the European Commission's (2022b) market study did not,
+and the Commission found no association with hotels' use of agencies (81% and 85% against a six-country
+average of 80%) or with the share of sales the agencies carried. That is a control-group comparison on
+independent hotels and it should have been the section's lead evidence all along. The weaker grade is the
+European trend, now decomposed, with the Schegg series named for what it is — a weighted survey of
+hotelier-reported channel mix, excluding aggregated chain data, whose country composition shifts across
+waves. The section closes on what European hotels actually built: tooling that renders their inventory into
+the terms several algorithmic intermediaries read and revises it as those systems change, which is the
+capability a necessary verdict calls for.
+
+**Two collateral sentences moved with it.** §8 no longer reads the sector as a cautionary tale, and §10's
+closing line — "came out of it more dependent than they went in" — is now "the aggregation it stood beside
+held." Reviewer 2's finding landed in the same pass: §5.5 now labels the agency a **partial** mediator in
+§5.2's sense, which reconciles it with §5.4, where marketplace demand-matching already carried that label.
+
+**One departure from the reviewer's text, deliberate.** Roth's draft said the parity remedies moved price
+"without shifting the agencies' share." Ennis et al. (2023) and Klopack and Pierri (2026) were both checked
+against the record: they measure price, not channel share, so the clause would have been an argument from
+silence. The printed version says what each study measures and lets the split verdict draw the inference.
+
+Four references added — Anderson and Han (2017), Ennis et al. (2023), European Commission (2022b), Klopack
+and Pierri (2026) — and the two Commission 2022 documents disambiguated as 2022a (the solo self-employed
+guidelines) and 2022b (the hotel-distribution market study). Klopack and Pierri's pagination is now
+resolved: *IJIO* 105, Article 103265. Mechanics: 17,129 words total, 13,558 body, abstract 149, 116
+references, every citation resolving.
+
+**Still open at proof for this section.** Whether Schegg's reference-year-2025 wave has published (if so,
+update or date the series explicitly); the Anderson (2009) report number, if a copyeditor asks, against
+Cornell's eCommons rather than an aggregator; and the HOTREC/HES-SO attribution on the Schegg entry.
+
+## 0h. Tier 2, remainder, 2026-08-15
+
+Three items, all landed.
+
+**1. The four-way taxonomy now carries consequences.** *Partial* and *reducible* had appeared nowhere after
+§5.4 — not in §5.5's verdict, §7's table, §8's procedure, §9, or §10 — so the chapter claimed a four-way
+distinction while operating a two-way one, and in two of Reviewer 2's findings the missing category was the
+right answer. §5.2 now states that the four verdicts sit at three levels and fixes the unit of
+classification: a function, for a dependent party, against a segment of its counterparties. §7 gains a
+paragraph on how a partial verdict reads across both columns and what a reducible one saves a firm from
+spending. §8's decision procedure gains a partial branch and runs itself on the §1 independent software
+vendor, which had never been put through the diagnostic it motivates and comes back mixed. §10 says most
+mediators are partial.
+
+**§7's table columns were also the wrong promise.** No instrument in it changes its legal character with
+the mediator's type — what changes is what exercising it is worth — so the headings are now "Value where
+exit is available" and "Value where exit is foreclosed," and the three "marginal" verdicts, which said
+nothing and were wrong twice, carry content. Contestation generates the record an exit campaign runs on.
+
+**2. §5.2's novelty claim retreated to what it can hold.** The claim that the neighbouring tests "cannot
+ask" the edge question was false of five works the chapter cites elsewhere — Obstfeld's *tertius iungens*
+creates ties, Ryall and Sorenson rerun their model with endogenous relation formation, Hahl et al. condition
+returns on a credible disintermediation threat, and Gu and Zhu and Sekar and Siddiq are the
+platform-disintermediation literature. The section now names four literatures and locates the contribution
+in standpoint rather than in the question being unaskable: asked from inside, function by function, on
+behalf of the party that cannot leave, returning a course of action. The dealer example moves to constraint
+provenance, with Tesla's direct sales as the counterfactual with the treatment observed, and the dealer
+correctly labelled partial rather than a pure case of contingency.
+
+**And the "returns a strategy" claim now carries Chaudhry's index.** Contingency is a fact about a rule, and
+rules have jurisdictions: the anti-steering obligation that makes the payment gate contingent for a European
+developer leaves the same gate unexitable where no such obligation binds. Exit prescriptions name
+achievements of regulation more often than moves a firm can make alone, so a structurally contingent
+mediator is practically necessary where no one will lift the constraint. This is the framework's best
+untested empirical prediction: exit-seeking inside a regulator's reach, voice-building outside it,
+classification held constant.
+
+**3. Voice now has a robustness condition, and the mediator has a third power.** Renard and Nkemelu found
+the same hole from opposite ends. §6 states the modal demand — a benefit secures freedom only where it
+survives the counterfactual in which the other party turns hostile (Pettit, 2016) — so standing a mediator
+can withdraw fails however generous it is while it lasts. §7 sorts institutions on two questions rather than
+one, which is what separates a share in governance from a retractable protection. §9's instrument gains an
+entrenchment item, and Pettit's straight-talk test supplies the corporate analogue the eyeball test lacked.
+
+§5.3 names deactivation as a power neither exit nor voice describes: the coordinated actor does not choose
+it and is owed no account of it, and its availability prices every act of voice that precedes it. Three
+sources the chapter already cites — Rahman, Bucher et al., Curchod et al. — describe conduct organized
+around the risk of removal, and the chapter had been reading all three as evidence of opacity. The cost of
+acting on the diagnostic is now stated as bearer-dependent: a firm running a bypass risks a commercial
+dispute, a worker running the same bypass risks removal.
+
+§7 also gains the worked case Nkemelu supplied, verified against the record: on 4 April 2023 the Amsterdam
+Court of Appeal held that ride assignment, pricing, rating, fraud-probability scoring, and deactivation on
+Uber and Ola constitute automated decision-making within Article 22 and rejected the human-in-the-loop
+defence as largely symbolic. Drivers brought it through their union and a data-rights organization — a
+case-level right exercised collectively, which is the chapter's own argument happening. And the §4 gradient
+now reaches the instruments: an institution that confers standing formally is exercised first by actors with
+the capacity to reach it, so Cotter and Reisdorf's knowledge gap predicts a standing gap inside each remedy.
+
+Mechanics: 18,480 words total, 14,895 body, abstract 149, 117 references (Burt 1992 added), 14 Key Terms,
+five cases, every citation resolving, anonymization intact.
+
+**Length is now the open question.** The body has grown from 11,703 words to 14,895 across three passes,
+against a plan of roughly 12,600 and a floor of 10,000. Nothing in the volume's terms sets a ceiling on the
+record here, but a compression pass before submission is the author's call, and §5.2 and §7 are where the
+new material concentrated.
+
+## 0i. Tier 3, and one spine item that had been missed, 2026-08-15
+
+**Spine S2, the tolled bypass, had never landed.** The synthesis listed it as a fix-now qualification and it
+was not among the three items scheduled for Tier 2. It is now in §5.2, after the App Store demonstration:
+ordered in April 2025 to stop restricting steering, Apple opened the link and attached a fee schedule to
+purchases made through it, so the tie was restored and the charge moved onto the restored tie. A gate can
+rest on the absence of the direct link *and* on a second lever — control of the device, the account, the
+installed base — and the counterfactual isolates the first without touching the second. The section now
+says that contingency establishes exit in principle, that what exit is worth depends on who sets its terms,
+and that none of the four verdicts marks the case. Naming it is stated as a debt the chapter leaves open;
+the fifth term belongs to the companion paper.
+
+Three reviewers reached this from different directions — Ekwueme from his own sector's experience of
+winning a remedy and being repriced, Vaudrey from the Apple compliance file, Chaudhry from Pix and UPI
+reproducing a "necessary" function outside the card networks. It was the panel's most converged finding and
+the one most nearly lost.
+
+**Tier 3 proper, all four items.**
+
+1. **§7's table gains a fourth column, "Who can invoke it."** This was Ekwueme's single most important fix
+   and it converts a policy table into something a firm can act on. The prose after it states the
+   unflattering count: of seven instruments a small firm can reach two on its own account, one of which is
+   the P2B complaint and mediation route now proposed for repeal. An instrument's value where exit is
+   foreclosed is not the same as its availability to the actor for whom exit is foreclosed.
+2. **§8 gains the board metric** the chapter contained everything to produce and never stated: the share of
+   revenue arriving through necessary functions against the share arriving through contingent ones. The
+   first names a persistent governance exposure, the second a project with a completion date. §8 also now
+   separates the competence gap from the standing gap, which §6 had distinguished and §8 had fused, and
+   names the P2B channel as the concrete stake of the simplification package.
+3. **§9 gains a fifth research direction** that tests §8's independent-variation claim instead of assuming
+   it — administer both measures to the same firms, predict a modest correlation, and state the outcome
+   that would refute the chapter. Løvaas would have sent the chapter back as a journal referee without it.
+4. **The publication-lag pass.** Every legal sentence now carries a date, a deadline, or a status word. The
+   transposition sentence is rewritten to the deadline rather than the state of play, since "no member state
+   had fully transposed" is guaranteed stale by publication; the Omnibus is dated to November 2025 and
+   marked as not having reached trilogue as of August 2026, with the separately adopted AI omnibus
+   distinguished so a 2027 reader does not confuse the files; the DMA review's "fit for purpose, no
+   amendment" finding is stated, which is the fixed point in an otherwise shifting landscape; and the
+   data-intermediary evidence claim is rephrased as a claim about the literature rather than about the
+   world, since no published count of registered providers was found.
+
+Two further additions from Ekwueme, both cheap and both closing real holes in §5.2: the practicability
+reference point ("at a cost the dependent party could bear without changing its scale," since the same
+function is contingent for a large firm and necessary for a small one), and the constraint that is not a
+rule — where the absence of the direct tie is held by the counterpart's unwillingness to transact outside
+the mediator, the function is contingent in structure and unexitable in fact.
+
+Mechanics: 19,394 words total, 15,809 body, abstract 149, 117 references, 14 Key Terms, five cases, every
+citation resolving, anonymization intact.
+
+## Length — the decision the author now owes
+
+The body has grown from **11,703 words to 15,809** across four passes, a 35% increase, against a plan of
+roughly 12,600 and a floor of 10,000. No ceiling is recorded in the volume's terms held here; confirm
+against the acceptance email before deciding.
+
+Where the growth went, by section: §5 is now **4,335 words**, 27% of the body and by some distance the
+largest. §7 (1,878), §3 (1,860), §8 (1,691), §6 (1,459), §4 (1,440), §2 (1,034), §1 (852), §9 (847),
+§10 (358).
+
+**§5.2 is the compression target.** It now runs as a sequence of short qualifying paragraphs — three
+levels, four literatures, standpoint, constraint provenance, the tolled bypass, the jurisdiction index, the
+non-liftable constraint, the cost reference point — each correct and each added by a different reviewer.
+Several state the same caution about the diagnostic's limits from different angles and would merge without
+loss. Nothing in Tier 1 or the §5.5 rebuild should be cut; the growth to look at is the qualification
+stack.
+
+## 0j. The §5.2 compression pass, 2026-08-15 — and what it shows
+
+**§5.2 went from 1,843 words to 1,671, a nine percent cut.** That is the honest number, and it is smaller
+than the section's size suggested it would be. The pass improved the section's structure considerably and
+its length only a little, because most of what §5.2 carries is content rather than padding.
+
+**What the pass found.** The section stacked seven qualifications on one operation, and four of them were
+the same qualification with four examples, each added by a different reviewer in a different pass: the
+counterpart's unwillingness to transact outside the mediator (Ekwueme), the dependent firm's scale
+(Ekwueme), the counterparty segment (already in the chapter), and the jurisdiction (Chaudhry). Each said
+that the verdict is indexed to something and that where the index runs the wrong way a structurally
+contingent function is unexitable in fact and the answer is voice. Stated four times in four places, that
+reads as a section hedging repeatedly; stated once, with the four indices grouped, it reads as an argument.
+They are now one paragraph naming the four and one naming the consequence they share.
+
+Also cut: three restatements of the standpoint claim, which had appeared in the comparison paragraph, the
+ancillary-restraints paragraph, and again in the sentence beginning "Given a mediator, a dependent party,
+and a set of rules"; the abstract restatement of the Apple case immediately after the concrete one; the
+unit-of-classification sentence duplicated between the levels paragraph and the new indices paragraph; and
+the second appearance of the franchised dealer, which the constraint-provenance paragraph carries better.
+A run of four paragraphs opening on "Four" is broken up, and the opening no longer says "two kinds"
+immediately before a paragraph naming four.
+
+**What compression cannot reach.** The rest of §5.2 is load-bearing: the four verdicts and their levels,
+the capability counterfactual, factoring against bypass (a July spine fix), the adjacent literatures (an
+August spine fix), constraint provenance, the platform divergence, the tolled bypass, and the
+ancillary-restraints doctrine. Cutting further means dropping a claim, not tightening prose, and that is
+the author's decision rather than an editor's. **If a claim has to go, the most droppable is the
+constraint-provenance paragraph with the Tesla case** — it is the newest, it is the least connected to what
+follows, and §5.4's portfolio treatment carries the partial-dealer point without it. That would recover
+about 120 words. Nothing else in the section can leave without a referee noticing its absence.
+
+**Section totals after the pass:** §5 is 4,169 words of a 15,637-word body, still the largest section at
+27%. Total 19,222 words, abstract 149, 117 references, every citation resolving.
+
+## 0k. Renard's two remaining [FIX NOW] items, closed 2026-08-15
+
+**The four strands did not converge, and §6 no longer says they do.** Markell's paper is titled *The
+Insufficiency of Non-Domination* and relational autonomy presses its own objection to the boundary picture,
+so a paragraph that enlisted both as converging support was reporting a dispute as a consensus. The section
+now opens on the dispute and places the construct in the space it leaves: republican non-domination
+supplies the first term, Markell holds it insufficient because domination answers to control and leaves
+involvement untouched — usurpation, in his word — and relational autonomy objects from the other side that
+autonomy is constituted through relationships rather than secured by a boundary. Coordinative sovereignty
+is what that dispute yields when the dominating party is a mediator the actor cannot leave, where control
+and involvement come apart more sharply than in the cases the dispute was argued over. Three paragraphs
+became one, and the claim is stronger than the convergence it replaced.
+
+**Cicerchia's use inverted her argument; Pettit's own footnote does the job.** The chapter's gloss on her
+was accurate — Renard put that on the record — but it took the second half of her two-part claim, that
+agency must be involved, and used it to walk back to the narrow agential picture: find the firm, point at
+it, objection answered. Her first half, that neo-republican non-domination is too narrow for domination
+arising from competitive structure, is the half that cuts against a chapter whose §3.3 already runs
+Armstrong's market-structure argument. The answer was in a paper already in the bibliography. Pettit (2016)
+holds at footnote 4 that domination obtains only between agents, that living under structures which
+facilitate another agent's domination is structural domination, and that relieving the agential form
+ordinarily requires combatting the structural one. §6 now says the platform case has both levels — the
+interest is the firm's and the firm is an agent, the system is the structure through which that interest
+reaches the coordinated actor — and keeps Cicerchia where she genuinely works, marking the limit of the
+agential account against §3.3's bottleneck.
+
+**Two related repairs in the same pass.** §9's eyeball test was uncited and is now attributed to Pettit
+(2016), with the straight-talk test as the corporate analogue rather than a loose paraphrase. And a claim
+introduced in Tier 1 has been softened: Renard could not confirm from the 1992 text that Schlager and
+Ostrom characterize the Maine lobster grounds as state-owned, so §6 now says the fishers hold
+proprietorship over grounds to which they have no title, which is the point the passage needs and the part
+the record supports.
+
+§6 went from 1,462 words to 1,608. The growth is the Pettit structural-domination material, which is a
+correctness fix rather than padding, and it partly offsets the §5.2 compression. Body 15,796, total 19,381.
+
+**Renard's remaining VERIFY items, all proof-stage.** Pettit (2016) locators must be re-anchored from the
+EUI working paper to the published pagination, 9(1), 47–68, if any page reference is ever added — the
+chapter currently prints none. The Habermas quotation at pp. 486–487 needs two checks: that the wording
+matches the Rehg translation at those pages, and that the citation notes the passage sits in the appendix
+essay "Popular Sovereignty as Procedure." The Key Terms non-domination entry runs on Pettit's later
+contestation formulation and should either cite Pettit (2012) or note that §6 uses the later account.
+
+## Owed before submission
+
+- ~~Regenerate `chapter_grammarly.md` and `Full Paper - Alg & Sov.docx`~~ — **done 2026-08-15.** Both now
+  build from `chapter.md` with `python3 build_artifacts.py`, and `--check` reports staleness. The build
+  refuses to write if the unwrap would change a word, and the docx carries no table of contents, matching
+  the prior artifact and leaving front matter to the IGI template. Re-run after any further edit.
+- A read-aloud pass, which no detector substitutes for and which three passes of machine review have not
+  supplied.
+- Proof-stage confirmations: the SCHUFA ECLI (ECLI:EU:C:2023:957); the Wilkinson (1965) page range;
+  Klopack and Pierri's pagination (resolved to *IJIO* 105, Article 103265, confirm at proof); whether
+  Schegg's reference-year-2025 wave has published; the Anderson (2009) report number if a copyeditor asks;
+  and the Digital Omnibus status, which must be re-checked at final proof and moved if the file moves.
+
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 
 A four-pass review (`reviews/2026-08-02/12_full_review.md`) closed the whole "still owed before press" list,
