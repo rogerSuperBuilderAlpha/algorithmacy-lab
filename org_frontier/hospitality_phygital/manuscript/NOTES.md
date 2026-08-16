@@ -2,6 +2,134 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-15 — second slop pass, after Roger caught what the first one missed
+
+Roger flagged the §6 opener the first pass had itself written: "Design guidance in this area has
+to contend with a genuine disagreement, and the disagreement runs through the special issue's own
+editorial team." The first pass hunted the taxonomy's named patterns and missed a whole class:
+personified abstractions doing throat-clearing ("design guidance has to contend", "the well-being
+question deserves particular attention", "the phygital character is worth emphasizing", "the
+limits should be stated plainly", "it is worth being precise"), announcer clefts ("what is
+striking is"), and decorative intensifiers ("genuine disagreement"). Eleven more rewrites, all in
+buildout additions, each replaced by Pierre's pattern: the sentence's subject is the actual actor
+and the first clause states the claim. "Researchers disagree about whether guests should see the
+technology at all." "These encounters are phygital in a precise sense." "These distinctions bear
+directly on well-being."
+
+The same sweep caught something worse than style: four sentences named "the special issue", its
+editors, or the paper's positioning inside manuscript prose — outline-speak leaked into the paper,
+and a double-blind submission cannot say "the special issue's own editorial team" or "one of this
+field's own editors". All four removed; the citations stay and the frame goes. A grep for
+special-issue and editor language is now part of any future pass, alongside the taxonomy.
+
+Body after both passes: 5,785 words with citations.
+
+## 2026-08-15 — the slop pass: every sentence checked against the exemplars and Pierre's voice
+
+Sentence-by-sentence review of DRAFT.md against three benchmarks: the measured H&S register in
+REGISTER.md (Lugosi 2021 and Lynch et al. 2021, both measured from retrieved full texts), Pierre's
+rewrite as the voice standard, and the project's slop taxonomy. Recent issues are paywalled, so
+the 2021 measurements stand as the venue benchmark. Rule applied throughout: Pierre's sentences
+are presumed clean and stay; the buildout additions get full scrutiny, since imitation prose is
+where slop lives.
+
+Twenty changes, all to buildout additions, logged here so any call can be reversed:
+
+*Em-dashes, all four removed.* The scoring-system appositive (§4), the categories list (§7), the
+no-record list (§7), and the gains list (§8) all restructured into commas or subordinate clauses.
+
+*Staccato verdict pairs, all dissolved.* "It does not claim X. It claims Y" (§7) folded into one
+colon sentence. "That is not a property of the worker at all. It is a property of the institution"
+(§5) folded into a since-clause. "Do not merely automate a task. They remove the person" (§5)
+folded. "Is not a matter of X. It is a matter of Y" (§8 human-centricity) rebuilt without the
+frame. "The frameworks describe this as fluidity. It can be described as a relay" (§3) merged.
+
+*Tidy triads loosened.* "A room key that works or does not, a queue that moves or holds, a price
+that appears" cut to two items (§3). "In responsiveness, in consistency, in what a small team can
+offer" cut to two (§8). "Her history, her record, or her profile" cut to two (§4). The
+first-time-user list rebuilt as a whether-clause (§7). Kept: the duty lists in §3 and the
+criteria, which are definitional rather than decorative.
+
+*Announcer clauses cut.* "The pattern across these duty vocabularies is instructive" → "Set side
+by side, these duty vocabularies share a structure" (§3). "Uneven in an instructive way" → "uneven"
+(§3). Both parenthetical "(Table N summarizes...)" asides converted to plain sentences.
+
+*Not-X-but-Y constructions removed from additions.* "Not a person as such, but a party with the
+power" → "someone with the power to change the answer" (§6). "Not foreign to the literature" →
+"comes close to these ideas" (§2). "Rather than" trimmed where mine and argumentative (Hemmer
+sentence rebuilt with a semicolon); left where Pierre's own or a plain comparative.
+
+*Verdict-snap tails cut.* "Whatever the interface looks like" → "however similar the two
+interfaces may look" (§4). "That difference matters once..." softened into a which-clause (§2).
+
+*Repetition fixed.* Three consecutive sentences opening on "That work / This paper / This paper"
+in §1 rebroken; "What it did not do, and what this paper attempts" (§2) converted to declarative.
+
+Measured after the pass: 5,875 body words; sentence mean 20.2 (Pierre's own mean — shorter than
+the 2021 exemplars' 26–30, and his readability governs per Roger's instruction); paragraph mean
+123 against Lugosi's 129; zero em-dashes; zero rhetorical questions in running prose (the §4
+five-questions sentence is a genuine enumerated diagnostic immediately formatted as Table 1, the
+form Lugosi's display questions license); exactly one authorial first person ("we need to know",
+§1), matching the spend-it-once rule; no bold in running text; citations parenthetical throughout.
+
+## 2026-08-14 — the buildout executed: DRAFT.md at 5,916 words in Pierre's voice
+
+The BUILDOUT.md plan executed against Pierre's 6,000-word target. Body now 5,916 with citations
+(5,471 prose), 124 references rendered, every in-text citation machine-checked against the
+rendered list, no LaTeX residue. Pierre's sentences stand unchanged throughout; every extension is
+written in his register — explanatory, hedged where the evidence hedges, signposted.
+
+What went in, by section. §1: the Germann Molz differentiation ("guests without hosts" quoted; her
+question asked, then the question that follows from it). §2: the criteria couched in the
+experience tradition (Batat 2019); the two narrowed absences stated precisely (Manfreda and
+Harkison; Shi et al.); the platform-hospitality lineage paragraph (Cheng and Foley; Roelofsen and
+Minca; Germann Molz 2018; Edelman; Cui). §3: the dual-place relay paragraph (the editor's
+physicalization/digitalization ask, answered with "who holds authority at each handover"); the
+nearest-miss paragraph (Liu; Lee and Lu; Sharma and Mattila) closing on the duty pattern (care for
+need, fiduciary for trust, governance for risk, welcome for arrival) and Introna's unreversed
+machine-as-guest; the split verdict on discretion. §4: Table 1; the Garcia pricing vignette and
+the Batat AR augmentative case; the threshold confirm-against-score paragraph. §5: the Zhou
+differentiation argued (the scale measures the person, the appeal's answer is a property of the
+institution); the lending paragraph extended with its two fragilities; the untested interaction
+stated with Lin et al. 2026 as the near-miss proof. §6: the Mosca-against-Mosca opening; the Choi
+and Chao complication folded into the authority reading; the shadow-work expansion of
+bypass-ability. §7: the narrowing paragraph with two verbatim Batat goal-statements and Mameli as
+the currency check; the cultural-scripting expansion; the remedy-complication paragraph (Cui;
+Filippas). §8: the human-centricity throughline; the well-being paragraph restructured to open in
+the editors' architecture (Batat 2022 TLR; De Vos 2024 valences) with the three absence carriers;
+the gains paragraph; Table 2; the limits paragraph with three empirical directions. §9 untouched.
+
+Remaining before submission, unchanged: PHIVE and Germann Molz full texts gate §7 and §1 final
+wording; AGENDA 43 (Roger) and 1b/19/31 (Pierre); front matter refresh against this draft;
+Phase 4 reads.
+
+## 2026-08-14 — Pierre's rewrite is the governing voice; DRAFT.md is the citation pass on it
+
+Pierre rewrote the section brief into readable prose and sent it back with "just need the language
+to be a little more readable" and "I think we are approaching the point where we can do a full
+buildout." Roger's instruction: do not veer from this writing style. That supersedes the measured
+Lugosi register in REGISTER.md wherever the two disagree. The differences are real: Pierre
+explains where the brief asserted, hedges where it ruled ("may", "can", "tends to"), unpacks
+compressed formulations into two sentences, and keeps the signposting the brief deleted ("This
+distinction exposes...", "There is, however, a limit..."). His formulations of the key beats are
+now canonical — "somebody still owes the guest a welcome" kept; "a place where frustration is
+deposited" for the authority-less employee; "some problems require people to become more capable;
+others require institutions to become more answerable" as the division's statement.
+
+DRAFT.md is his text verbatim plus citations and nothing else — every insertion is a parenthesis,
+104 references rendered at the foot from `cited_keys_draft.txt`. One new sentence only, in §3,
+carrying the Casalegno/Civera/Mosca/Freeman warrant, flagged for Pierre since it is the one place
+the text is not his. Citation choices worth recording: PHIVE not cited (metadata-only, nothing may
+be attributed); Dar volume not cited (same rule; Moganadas and Park carry the §8 absence); one
+Batat 2022 and one Batat 2024 cited (TLR and PH-CX) so the list needs no a/b disambiguation;
+spektor2023designing carries the §2 front-desk sentence, not the duplicate-named spektor2023;
+Keegan and Krzywdzinski excluded until publisher-verified. Ehsan/seamful XAI turned out to be a
+card with no bib entry — the same defect Germann Molz had — fixed in the same pass.
+
+The full buildout now means: expand DRAFT.md section by section in Pierre's voice, pulling
+argument detail from OUTLINE.md and sources from the library, with the nine P9 repairs applied in
+the expansion rather than patched afterwards.
+
 ## 2026-08-11 — the P9 sources landed in the bibliography, and the card library was found stale
 
 Three defects fixed, one of them not the one we set out to fix.
