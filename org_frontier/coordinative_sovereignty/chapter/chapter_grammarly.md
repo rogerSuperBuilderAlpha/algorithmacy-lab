@@ -1,7 +1,8 @@
 <!-- Paste-ready for Grammarly: soft-wrapped paragraphs, one blank line between them.
      Full chapter including References, Cases, Additional Reading, and Key Terms.
      Source of truth remains chapter.md (hard-wrapped for git diffs).
-     Regenerate with build_artifacts.py after substantive edits. -->
+     Regenerate with build_artifacts.py after substantive edits.
+     chapter.md sha256: 8681de9d2fd14403e3b1fc73ea223d21169b854d62a24a5c45ba76ffcf09c4e4 -->
 
 # Algorithmacy and Sovereignty: Toward a Coordinative Sovereignty for the Platform Era
 

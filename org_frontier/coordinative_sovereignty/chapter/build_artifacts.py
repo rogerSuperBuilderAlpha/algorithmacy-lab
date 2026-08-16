@@ -16,6 +16,7 @@ The Word file goes through pandoc. Reflow it into the IGI template at submission
 """
 
 import argparse
+import hashlib
 import pathlib
 import re
 import subprocess
@@ -29,7 +30,12 @@ DOCX = HERE / "Full Paper - Alg & Sov.docx"
 BANNER = """<!-- Paste-ready for Grammarly: soft-wrapped paragraphs, one blank line between them.
      Full chapter including References, Cases, Additional Reading, and Key Terms.
      Source of truth remains chapter.md (hard-wrapped for git diffs).
-     Regenerate with build_artifacts.py after substantive edits. -->"""
+     Regenerate with build_artifacts.py after substantive edits.
+     chapter.md sha256: {digest} -->"""
+
+
+def source_digest(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def linearize_table(block):
@@ -45,7 +51,7 @@ def linearize_table(block):
 
 
 def build_grammarly(source_text):
-    out = [BANNER]
+    out = [BANNER.format(digest=source_digest(source_text))]
     for block in source_text.split("\n\n"):
         if not block.strip():
             continue
@@ -88,13 +94,19 @@ def main():
         sys.exit("ABORT: the Grammarly build changed the prose. Nothing written.")
 
     if args.check:
-        stale = []
-        if not GRAMMARLY.exists() or GRAMMARLY.read_text(encoding="utf-8") != grammarly:
-            stale.append(GRAMMARLY.name)
-        if not DOCX.exists() or DOCX.stat().st_mtime < SOURCE.stat().st_mtime:
-            stale.append(DOCX.name)
-        if stale:
-            sys.exit("stale, regenerate: " + ", ".join(stale))
+        # Staleness is decided by the source hash stamped into the Grammarly banner at
+        # build time, not by mtimes: git checkout and git pull rewrite mtimes, so an
+        # mtime test cries wolf after every branch switch and gets ignored. pandoc
+        # output is not byte-reproducible, so the docx is judged by the same stamp.
+        if not GRAMMARLY.exists() or not DOCX.exists():
+            sys.exit("missing artifact, regenerate: run build_artifacts.py")
+        stamped = re.search(r"chapter\.md sha256: ([0-9a-f]{64})", GRAMMARLY.read_text(encoding="utf-8"))
+        if not stamped:
+            sys.exit("no build stamp in the Grammarly file, regenerate: run build_artifacts.py")
+        if stamped.group(1) != source_digest(source_text):
+            sys.exit("stale: chapter.md has changed since the last build. Run build_artifacts.py")
+        if GRAMMARLY.read_text(encoding="utf-8") != grammarly:
+            sys.exit("stale: the Grammarly file does not match a fresh build. Run build_artifacts.py")
         print("both artifacts are in sync with chapter.md")
         return
 
