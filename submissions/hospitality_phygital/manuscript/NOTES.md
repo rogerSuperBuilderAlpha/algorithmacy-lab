@@ -2,6 +2,61 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the source audit worked into Pierre's version
+
+The memo in [`reviews/2026-08-18/FOR_PIERRE.md`](reviews/2026-08-18/FOR_PIERRE.md) is now applied to
+his text. It was written against v3, so it lines up with his section numbering exactly.
+
+**Three of its Part 2 items were already answered by v3 and needed nothing.** The three integrating
+conditions are re-founded on the host–guest relationship with the argument the memo asked for, not
+merely asserted; interruptibility is named as the design conclusion; and the standing-versus-four-
+neighbours passage exists. That is the memo's own point that v3 is the strongest writing in the
+paper, confirmed by reading it against the audit.
+
+**Part 1, citations that did not support their sentence.** Folger is out of §7. Lind, Kanfer and
+Earley carries the claim alone, and the paragraph now states the boundary rather than hiding it: an
+invitation to speak that was never going to bear on anything lowers fairness judgments instead of
+raising them. That boundary is not a concession, it is the argument for a real counterparty. Pijls
+now carries the stronger version of the paper's own point, with the confirmatory-stage detail: the
+scale tried to measure guest agency and dropped *having choice* and *feeling independent* for weak
+loadings. Lin's split is stated, because directing, scheduling and monitoring depress voice while
+**feedback raises it**, and feedback is close to what §7 asks designers to build. Christin moves
+from evidence that discretion has shifted to evidence that it is contested, which is what decoupling
+and buffering actually show. Spektor gains the configuration qualifier and the note that it is a
+housekeeping department. Manfreda and Harkison read as altruism, generosity and fictive kinship,
+their words rather than ours. Möhlmann's matching and control are two parallel dimensions, not a
+conversion. Huang and Lo now carry the humanness *penalty* they actually found. Fink is marked
+unpublished where it appears. De Vos 2023 no longer carries an ethnographic claim on its own.
+
+**Two places where owning the problem beats surviving it.** §5 states that Garcia's authors read
+their own result as a case for automating the adjustment away. §7 names which of the three
+governance mechanisms Martin and Waldman support: appeals raised perceived legitimacy where
+oversight and audit lowered it.
+
+**Part 2, the two items v3 had not closed.** The uniqueness claim in §4 was false as written, and
+its counterexample sat one clause earlier in the paper's own list, since a trustee is a trustee
+because of the duty. It is rebuilt on the axis that works: welcome is the only one of the four
+triggered by bare presence, and the only one whose *ownership*, as distinct from its performance,
+cannot be handed off without handing off the role. And §1 now engages the founding statement of
+hospitality theory, which set out hospitality and virtuality as a research direction and discussed
+technology as at once guest and host. Answering a question the field asked fifteen years ago is a
+better position than implying nobody asked it. The venue is not named, per the anonymity rule.
+
+**Part 3, absence claims.** §2's instrument claim is narrowed: value co-creation and citizenship
+scales do measure customer-side conduct, so the defensible claim is what a guest owes a *commercial
+host*. §4's threshold claim is scoped to the hospitality and service literatures rather than stated
+absolutely. §6's silence-climate absence is verified and now says how it was checked. §8's
+working-theories claim is softened to what was actually searched. §7's smoothness claim was already
+narrow and verified, and stands.
+
+**Also.** The four-words passage now says plainly that only accountability is borrowed and the other
+three are stipulated for this paper's purposes, which is what the memo asked for. Folger is out of
+`cited_keys_draft.txt`, leaving 124 entries.
+
+**Cost, and the standing decision.** Body 7,940 to **8,704**, so the fixes cost about 760 words, and
+the projected total is now **12,600 all-in against a 9,000 ceiling**. Length remains untouched by
+instruction. 150 citations resolve and preflight is 22 of 23, the one failure being the length.
+
 ## 2026-08-17 — Pierre's version is canonical, and the repo had been editing the wrong paper
 
 **`DRAFT.md` is now Pierre's version of 2026-08-17, supplied by the author.** It supersedes
