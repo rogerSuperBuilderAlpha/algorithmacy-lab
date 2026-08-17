@@ -15,6 +15,8 @@ root [`../AGENTS.md`](../AGENTS.md). This note covers what is local here.
   [`principal/`](principal/), [`proxy_bridge/`](proxy_bridge/) — the shared instrument and sub-studies.
 - [`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the standing synthesis. The empirical and bridge
   arms (`qualitative/`, `recurrence/`, `survey/`, `field/`, `cognition/`) carry their own nested notes.
+- Writing arms (IGI, hospitality, Lima, Slacker, Hegel, OT) are **not** in this package. They live
+  under [`../submissions/`](../submissions/). See [`../NOW.md`](../NOW.md).
 
 ## Add work here
 

@@ -1,7 +1,9 @@
 # Overview — what this lab is doing, where it stands, and how to join
 
-A five-minute orientation for anyone deciding whether to contribute. For navigation, use the directory
-in [`README.md`](README.md); this page is for judging whether the program is worth your time.
+A five-minute orientation for anyone deciding whether to contribute. For this week's deadlines, use
+[`NOW.md`](NOW.md). For navigation, use [`MAP.md`](MAP.md) and the directory in [`README.md`](README.md);
+this page is for judging whether the program is worth your time. Outward manuscripts live under
+[`submissions/`](submissions/).
 
 ## In two minutes
 

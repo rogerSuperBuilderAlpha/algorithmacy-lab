@@ -3,7 +3,7 @@
 **Question.** Are the OT-manuscript headline verdicts sign-robust across the Φ family — specifically
 between IIT 4.0's system measure (`pyphi.new_big_phi`, the lab's standard instrument) and IIT 3.0's
 big-Φ (`pyphi.compute.sia`), computed on identical TPMs at identical reachable states? The manuscript
-(`org_frontier/proposals/ot_configurational_nature_2027_manuscript.md`) currently claims verdicts only
+(`submissions/proposals/ot_configurational_nature_2027_manuscript.md`) currently claims verdicts only
 for the 4.0 operationalization; three review seats (Fable 01, 05, 06) demand either sign-robustness
 or explicit scoping. This question answers empirically which of the two the manuscript can say.
 

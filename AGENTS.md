@@ -17,10 +17,12 @@ points back here for the shared rules.
 
 ## Orient in three reads
 
-1. **[`MAP.md`](MAP.md)** — the one-screen index: entry documents, programs and arms, machinery, live
-   counts. Generated, always current. Load this first instead of crawling the tree.
-2. **[`OVERVIEW.md`](OVERVIEW.md)** — what the lab argues and where it actually stands.
-3. **This file** — the operating rules below.
+1. **[`NOW.md`](NOW.md)** — this week's live deadlines and canonical drafts. Writing arms live under
+   [`submissions/`](submissions/). Do not crawl `org_frontier/` looking for IGI, hospitality, or Lima.
+2. **[`MAP.md`](MAP.md)** — the one-screen index: instrument, computational lab, empirical arms,
+   submissions, machinery, live counts. Generated, always current.
+3. **[`OVERVIEW.md`](OVERVIEW.md)** — what the lab argues and where it actually stands. Then this file
+   for the operating rules.
 
 The repository is large (hundreds of directories and dozens of READMEs). `MAP.md` and the generated directory in
 `README.md` are the cheap ways in. Reach for a README in the specific subtree only once the map has

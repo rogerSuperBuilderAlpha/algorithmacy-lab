@@ -10,6 +10,7 @@ Start here. The full directory lives in [`README.md`](README.md); the operating 
 
 | file | what it is |
 |---|---|
+| [`NOW.md`](NOW.md) | This week's live deadlines and canonical drafts — read this first |
 | [`START_HERE.md`](START_HERE.md) | Guided onboarding an AI assistant runs for a newcomer: from "what is this?" to a first computed verdict |
 | [`AGENTS.md`](AGENTS.md) | Operating manual for agents: map, run/verify, git rule, land flow, done-checklist |
 | [`README.md`](README.md) | What the lab is, the thesis, setup, and the full generated directory |
@@ -22,24 +23,24 @@ Start here. The full directory lives in [`README.md`](README.md); the operating 
 | [`CLAUDE.md`](CLAUDE.md) | House writing style, the dissertation spine, and git-push rules |
 | [`llms.txt`](llms.txt) | Token-light brief for representing the project to outside agents and LLM tools |
 
-## The lab — programs and arms
+## Instrument
 
-Four programs on one thesis, plus the bridge and support arms. Each directory's README carries its scope; see [`org_frontier/README.md`](org_frontier/README.md) for the hub.
+Measure-validation: why exact Φ, not a cheap proxy.
 
-| path | program / arm |
+| path | what it is |
+|---|---|
+| [`foundations/`](foundations/) | Instrument validation — what tracks exact IIT-4.0 Φ |
+
+## Computational lab
+
+Exact Φ on Boolean models. Import paths stay `org_frontier.*`. Hub: [`org_frontier/README.md`](org_frontier/README.md).
+
+| path | what it is |
 |---|---|
 | [`org_frontier/`](org_frontier/) | Computational — exact Φ on Boolean models: the protocol, probes, questions, studies |
-| [`org_frontier/qualitative/`](org_frontier/qualitative/) | Qualitative research — reading real coordination against the priors |
-| [`org_frontier/recurrence/`](org_frontier/recurrence/) | Recurrence — reading coordination off behavior, paired with Φ |
-| [`org_frontier/survey/`](org_frontier/survey/) | Survey — measuring algorithmacy in real workers |
 | [`org_frontier/classifier/`](org_frontier/classifier/) | classifier — does a coordination form demand literacy or algorithmacy? |
-| [`org_frontier/cognition/`](org_frontier/cognition/) | Cognition — the formal bridge to the cognitive theories of coordination |
-| [`org_frontier/coordinative_sovereignty/`](org_frontier/coordinative_sovereignty/) | Coordinative sovereignty — autonomy for a coordinated world |
 | [`org_frontier/corpus/`](org_frontier/corpus/) | corpus — a curated coordination-form library with exact IIT-4.0 Φ |
-| [`org_frontier/field/`](org_frontier/field/) | Field — reading real organizations with exact Φ |
-| [`org_frontier/hospitality_phygital/`](org_frontier/hospitality_phygital/) | Hospitality phygital — algorithmic mediation and guest agency |
 | [`org_frontier/landscape/`](org_frontier/landscape/) | landscape — how the world uses PyPhi |
-| [`org_frontier/lima_pdw/`](org_frontier/lima_pdw/) | Lima PDW — algorithmacy as a communication competency |
 | [`org_frontier/llm_variance/`](org_frontier/llm_variance/) | llm_variance — the variance problem of language-model outputs |
 | [`org_frontier/multiparty/`](org_frontier/multiparty/) | multiparty — does adding parties change the verdict? |
 | [`org_frontier/outreach/`](org_frontier/outreach/) | outreach & upstream contributions |
@@ -48,6 +49,32 @@ Four programs on one thesis, plus the bridge and support arms. Each directory's 
 | [`org_frontier/proxy_bridge/`](org_frontier/proxy_bridge/) | proxy_bridge — can a cheap time-series proxy recover the verdict? |
 | [`org_frontier/research/`](org_frontier/research/) | Research monitoring — a standing literature watch for each program |
 | [`org_frontier/reviews/`](org_frontier/reviews/) | Reviews — experiments on the literature |
+
+## Empirical and bridge arms
+
+Field, qualitative, recurrence, survey, cognition — packets ready; most still pre-field.
+
+| path | what it is |
+|---|---|
+| [`org_frontier/field/`](org_frontier/field/) | Field — reading real organizations with exact Φ |
+| [`org_frontier/qualitative/`](org_frontier/qualitative/) | Qualitative research — reading real coordination against the priors |
+| [`org_frontier/recurrence/`](org_frontier/recurrence/) | Recurrence — reading coordination off behavior, paired with Φ |
+| [`org_frontier/survey/`](org_frontier/survey/) | Survey — measuring algorithmacy in real workers |
+| [`org_frontier/cognition/`](org_frontier/cognition/) | Cognition — the formal bridge to the cognitive theories of coordination |
+
+## Submissions
+
+Outward manuscripts. Live dates in [`NOW.md`](NOW.md) and [`submissions/CALENDAR.md`](submissions/CALENDAR.md).
+
+| path | what it is |
+|---|---|
+| [`submissions/`](submissions/) | Outward manuscripts — IGI, Hospitality & Society, Lima, Slacker, OT, Hegel |
+| [`submissions/coordinative_sovereignty/`](submissions/coordinative_sovereignty/) | Coordinative sovereignty — autonomy for a coordinated world |
+| [`submissions/hospitality_phygital/`](submissions/hospitality_phygital/) | Hospitality phygital — algorithmic mediation and guest agency |
+| [`submissions/lima_pdw/`](submissions/lima_pdw/) | Lima PDW — algorithmacy as a communication competency |
+| [`submissions/slacker_thirds/`](submissions/slacker_thirds/) | Slacker and the structural third — pop-culture chapter |
+| [`submissions/hegel_coordination/`](submissions/hegel_coordination/) | Hegel and the coordination program — a public reading |
+| [`submissions/proposals/`](submissions/proposals/) | Proposals — submissions to external calls |
 
 ## Machinery — generators and gates
 
