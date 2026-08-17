@@ -2,6 +2,52 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — cut to the ceiling, and the reference list is where most of it came from
+
+The paper now fits. **8,799 all-in against a 9,000 ceiling**, from 11,143 at the start of the cut.
+Every machine check passes, 114 citations resolve, and the length gate is green for the first time.
+
+**Where the 2,344 words came from.** Not evenly, and deliberately so:
+
+| | before | after |
+|---|---|---|
+| Body | 7,225 | 5,973 |
+| References | 3,426 (125 entries) | 2,420 (90 entries) |
+| Abstract, keywords, biographies | 492 (incl. estimates for notes and the AI statement) | 408 |
+| **Total** | **11,143** | **8,799** |
+
+**Thirty-five references went, and none of them was carrying an argument.** They were the third and
+fourth members of supporting clusters, where two sources already made the point: four names for the
+technology reduced to two, four folk-theory citations to three, three sources for automation's
+mixed well-being effects to one. A handful were single-use citations attached to claims that stand
+without them. What survived is the spine — Bovens, Okhuysen and Bechky, Lynch et al. 2011, Lashley,
+Hemmington, Lugosi, Bulley, Derrida — the memo's verified anchors, the triad concession, the host
+question, the editors' corpus, and every source doing evidentiary work.
+
+**The body lost 1,252 words to compression rather than to deletion.** No claim was dropped. Two
+passages were genuinely redundant and went: the §8 prose walking through the five roadmap stages
+immediately before the table that lists them, and the §4 sentence enumerating the five diagnostic
+questions immediately before the table that asks them. Everything else is the same argument in
+fewer words. The heaviest paragraphs took the largest share, §3's near-misses paragraph from 368
+to 279 and §5's silence material from 337 to 244.
+
+**One requirement was missing and is now in.** `DRAFT.md` had no AI acknowledgment section. The
+Notes require one, headed exactly as it now appears, positioned before the References. The wording
+is a draft for the authors to check against what actually happened, and it is theirs to sign.
+
+**The accounting is now honest rather than optimistic.** `wordcount.py` measures the rendered
+reference block instead of multiplying an entry count by 26, so the number cannot drift again. The
+front-matter estimate dropped from 492 to 408: the abstract is 198 rather than the assumed 180, the
+50 words reserved for endnotes are gone because the Notes discourage them and the paper has none,
+and the AI statement now sits in the file and is counted in the body rather than estimated
+alongside it. Biographies are still budgeted at the 100-word maximum for both authors, which is the
+conservative reading.
+
+**What the authors should check.** The margin is about 200 words on the tool's measure and thinner
+on a raw word count, so the two biographies are the variable that matters most. And the compression
+was heavy in places: §2, §3 and §7 read faster than Pierre wrote them, and a read-aloud is the only
+way to tell whether anything of the voice went with the words.
+
 ## 2026-08-17 — the source audit applied to the draft, and what it cost in words
 
 The co-author memo in [`reviews/2026-08-18/FOR_PIERRE.md`](reviews/2026-08-18/FOR_PIERRE.md) is now
