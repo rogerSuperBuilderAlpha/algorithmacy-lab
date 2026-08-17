@@ -12,6 +12,7 @@ Run from the chapter directory:  python3 regen_exports.py
 Add --check to verify the exports are current without rewriting them (exit 1 if stale).
 """
 
+import hashlib
 import re
 import subprocess
 import sys
@@ -21,6 +22,10 @@ HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "chapter.md"
 GRAMMARLY = HERE / "chapter_grammarly.md"
 DOCX = HERE / "Full Paper - Alg & Sov.docx"
+# Records the chapter.md hash the .docx was built from. A .docx is a zip whose bytes differ
+# on every run, so it cannot be compared against a fresh render; and mtimes are reordered by
+# any git checkout, so they cannot be trusted either. This sidecar is committed with them.
+STAMP = HERE / ".exports.sha256"
 
 HEADER = """<!-- Paste-ready for Grammarly: soft-wrapped paragraphs, one blank line between them.
      Full chapter including References, Cases, Additional Reading, and Key Terms.
@@ -113,11 +118,14 @@ def main():
 
     grammarly = build_grammarly(text)
 
+    digest = hashlib.sha256(text.encode()).hexdigest()
+
     if check_only:
         stale = []
         if not GRAMMARLY.exists() or GRAMMARLY.read_text() != grammarly:
             stale.append(GRAMMARLY.name)
-        if not DOCX.exists() or DOCX.stat().st_mtime < SOURCE.stat().st_mtime:
+        recorded = STAMP.read_text().split()[0] if STAMP.exists() else None
+        if not DOCX.exists() or recorded != digest:
             stale.append(DOCX.name)
         if stale:
             print("STALE (rerun regen_exports.py): " + ", ".join(stale), file=sys.stderr)
@@ -130,6 +138,7 @@ def main():
         ["pandoc", "-f", "markdown", "-t", "docx", str(SOURCE), "-o", str(DOCX)],
         check=True,
     )
+    STAMP.write_text(f"{digest}  {SOURCE.name}\n")
     print(f"wrote {GRAMMARLY.name} ({len(grammarly.split())} words)")
     print(f"wrote {DOCX.name}")
     return 0
