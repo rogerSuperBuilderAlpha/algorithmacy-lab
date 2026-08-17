@@ -105,6 +105,7 @@ def main():
                                 "exercising", "improvised", "wise", "otherwise", "comprises", "promises",
                                 "surprising", "advertise", "noise", "concise", "rise", "rises", "raises",
                                 "raising", "rising", "raise", "arising", "praises", "praising",
+                                "advise", "advised", "advises", "advising", "revise",
                                 "exercise", "exercised", "exercises", "improvise", "improvised",
                                 "improvises", "improvising", "revises", "revising", "devise", "devised",
                                 "compromise", "compromised", "supervise", "supervised", "franchise",

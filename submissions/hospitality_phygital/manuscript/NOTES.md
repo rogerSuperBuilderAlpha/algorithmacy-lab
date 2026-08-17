@@ -2,6 +2,54 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — Pierre's version is canonical, and the repo had been editing the wrong paper
+
+**`DRAFT.md` is now Pierre's version of 2026-08-17, supplied by the author.** It supersedes
+everything the repo held. Read it before touching anything: the title carries a subtitle, the
+abstract and keywords are in the file, §3 *The missing counterparty* is new, §5 runs **six**
+diagnostic questions rather than five, and interruptibility is named and argued as the design
+conclusion rather than left implicit.
+
+**How the repo went wrong, so it does not happen again.** Earlier on 17 August this project found
+`DRAFT.md` in git, confirmed it was the newest thing across every branch, and treated that as
+authority. It was not. Pierre's current text reached the author by email and never entered the
+repository, so no amount of branch archaeology would have surfaced it. Two rounds of work — the
+source-audit fixes and a 2,344-word cut to the ceiling — were applied to a superseded file before
+anyone asked which text was current. **Newest-in-git is not the same as current. Ask.** Both
+superseded versions remain recoverable: the cut one at `096c222`, the pre-cut at `2a1e9cd`.
+
+**What was changed in his text, and it is only ever mechanical.** A word-level diff confirms the
+body is 8,290 words before and after, with 47 changed spans and every one of them a quote mark, a
+spelling variant, or a year.
+
+| fix | count | why |
+|---|---|---|
+| Double to single quotation marks | 36 | the Notes require single, double only for a quotation inside a quotation |
+| American to British spelling | 15 | the Notes require British English; `-ize` endings are correct and were left alone, so *organize* and *recognize* stand |
+| Version-of-record years | 7 sources | see below |
+
+The two tables were set as Markdown with their content unchanged, and the reference list is
+re-rendered from `references.bib` by `render_refs.py` against the full 124-key list.
+
+**The seven year corrections were all one pattern, and his own reference entries agreed with the
+bibliography rather than with his in-text years.** In every case the volume and issue he cites
+belong to the later year: Nguyen 2024→2025 (*Tourism Review* 80:7), Padigar 2024→2025 (*P&M* 42:1),
+Odekerken-Schröder 2021→2022 (*JOSM* 33:2), Pedersen and Pors 2022→2023 (*JPART* 33:1), Mosca et al.
+2025→2026 (*J. Macromarketing* 46:3), Choi and Chao 2024→2026 (*PSPB* 52:3), Sharma and Mattila
+2025→2026 (*JHTR* 50:6, online-first 2025-10-23). This is exactly the defect `check_citations.py`
+was built to catch after the Nguyen case in August. Mosca also needed a/b suffixes, since two
+Mosca 2026 entries now render: **2026a** is the solo *strategic inflection point* piece cited in §7,
+**2026b** the *phygital museums* paper cited in §4 and §8.
+
+**Length is untouched by author instruction.** The paper stands at **11,917 all-in against a 9,000
+ceiling**: body 7,940 as the preflight counts it, references 3,427 across 125 entries, biographies
+200. That is 2,917 over, and closing it means cutting claims, which is the authors' call and not an
+editing job. Preflight is 22 of 23 with length the single failure; 150 citations resolve.
+
+**Two tool fixes.** `preflight.py` was flagging *advised* and *raising* as `-ise` spellings; both are
+ordinary verbs and are now allowlisted. The drafting note that recorded this provenance has been
+moved here out of `DRAFT.md`, because the manuscript should carry nothing that is not the article.
+
 ## 2026-08-17 — cut to the ceiling, and the reference list is where most of it came from
 
 The paper now fits. **8,799 all-in against a 9,000 ceiling**, from 11,143 at the start of the cut.
