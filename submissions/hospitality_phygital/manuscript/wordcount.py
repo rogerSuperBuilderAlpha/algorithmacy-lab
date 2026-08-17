@@ -15,6 +15,7 @@ Usage: python3 wordcount.py manuscript.md [--refs N]
 import argparse
 import re
 import sys
+from pathlib import Path
 
 BODY_START = re.compile(r"^##\s+1\.\s")
 BODY_END = re.compile(r"^##\s+(?!\d+\.)")
@@ -57,9 +58,17 @@ def body_of(lines):
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("paper")
-    ap.add_argument("--refs", type=int, default=77,
+    ap.add_argument("--refs", type=int, default=None,
                     help="cited references; Intellect Harvard renders at ~26 words each. Measure the\n                         rendered list directly before any lock decision.")
     args = ap.parse_args()
+
+    if args.refs is None:
+        # A hard-coded 77 understated the projected total by ~1,200 words while the
+        # cited list stood at 124. Read the list the paper actually renders from.
+        here = Path(__file__).resolve().parent
+        keys = here / ("cited_keys_draft.txt" if Path(args.paper).name == "DRAFT.md"
+                       else "cited_keys.txt")
+        args.refs = sum(1 for ln in keys.read_text(encoding="utf-8").splitlines() if ln.strip())
 
     lines = open(args.paper, encoding="utf-8").read().splitlines()
     body = count(strip_markdown("\n".join(body_of(lines))))
@@ -71,7 +80,8 @@ def main() -> int:
     other = 180 + 12 + 200 + 50 + 50   # abstract, keywords, two biographies, AI statement, notes
     total = body + refs + other
 
-    print(f"BODY            {body:>6,}   budget 6,850")
+    ceiling_budget = 9000 - refs - other   # what the all-inclusive ceiling leaves the body
+    print(f"BODY            {body:>6,}   budget 6,850; the 9,000 ceiling leaves it {ceiling_budget:,}")
     print(f"references (x{args.refs})  {refs:>6,}   measured at ~26 words each")
     print(f"other required  {other:>6,}   abstract, keywords, biographies, AI statement, notes")
     print(f"TOTAL           {total:>6,}   limit 6,000-9,000 inclusive")

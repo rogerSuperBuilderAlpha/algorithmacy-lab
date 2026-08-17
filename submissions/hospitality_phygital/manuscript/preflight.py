@@ -104,6 +104,7 @@ def main():
            if w.lower() not in {"raised", "praise", "precise", "revise", "revised", "arise", "arises",
                                 "exercising", "improvised", "wise", "otherwise", "comprises", "promises",
                                 "surprising", "advertise", "noise", "concise", "rise", "rises", "raises",
+                                "raising", "rising", "raise", "arising", "praises", "praising",
                                 "exercise", "exercised", "exercises", "improvise", "improvised",
                                 "improvises", "improvising", "revises", "revising", "devise", "devised",
                                 "compromise", "compromised", "supervise", "supervised", "franchise",

@@ -37,7 +37,11 @@ relations, and to the replacement of human hospitality workers by robots and AI 
 2026). Both ask what becomes of hospitality as the human host recedes. A further question follows
 from them. If the host can be erased because an algorithmic system now performs the
 recognizing, the routing, and the admitting, then we need to know whether that system has also
-taken on what the host owed. This paper therefore asks whether a technological system that takes
+taken on what the host owed. That further question is not new to hospitality theory's own agenda.
+The founding statement of the field's theorizing programme set out hospitality and virtuality as a
+direction for research, and discussed technology as at once guest and host, with people and their
+machines described as hostages of each other (Lynch et al. 2011). What it did not settle is which
+of the two owes the welcome. This paper therefore asks whether a technological system that takes
 over the functions of hosting also inherits the obligations of the host. The central argument is
 that it does not, and that the
 resulting gap has important consequences for how phygital hospitality should be understood and
@@ -66,14 +70,18 @@ emphasize this mutual relationship, even if the relationship is unequal or tempo
 Dufourmantelle 2000; Lashley 2000). Commercial hospitality tends to simplify it by concentrating
 attention on what the organization provides to the customer. As a result, hospitality research has
 become very good at measuring whether guests feel welcomed, satisfied, comfortable, or cared for,
-while paying much less attention to what can flow in the opposite direction (Pijls et al. 2017).
+while paying much less attention to what can flow in the opposite direction. The point is sharper
+than neglect. When a validated scale of experienced hospitality was built it retained inviting,
+care and comfort, and dropped its two agency items, having choice and feeling independent, at the
+confirmatory stage for loading too weakly (Pijls et al. 2017). The field did not merely overlook
+the guest's standing. It tried to measure it, and the items did not hold.
 Requests, challenges, negotiations, refusals, and claims for recognition are harder to capture
 through conventional measures of guest experience.
 
 The studies that come closest to this question stop short of it. A recent study of luxury
 lodges documents guests who tidy their rooms for housekeeping, return glasses to the bar, and
-praise employees in their reviews, and it carefully describes this conduct as reciprocation driven
-by gratitude rather than by any obligation (Manfreda and Harkison 2025). A validated scale now
+praise employees in their reviews, and it describes this conduct in terms of altruism, generosity
+and fictive kinship rather than of obligation (Manfreda and Harkison 2025). A validated scale now
 measures what residents of tourist destinations feel they gain from interacting with visitors (Shi
 et al. 2025). Neither asks what, if anything, a guest owes a commercial host. Service research
 does measure conduct running from the customer, in scales of participation and citizenship
@@ -96,9 +104,9 @@ own front desks. Research on Airbnb and similar platforms has documented hosts w
 rating systems they cannot see (Cheng and Foley 2019), the platform's ideal of hospitality shaping
 what hosts feel they must provide (Roelofsen and Minca 2018; Germann Molz 2018), and guests being
 excluded on the basis of records they did not author and cannot inspect (Edelman et al. 2017; Cui
-et al. 2020). Hospitality scholarship, in other words, registered that a third party had unsettled
-the question of who hosts before the service literature formalized the triad. It has not yet asked
-what that third party owes, and that is the question this paper takes up.
+et al. 2020). Hospitality scholarship, in other words, was already registering that a third party
+had unsettled the question of who hosts while the service literature was formalizing the triad. It
+has not yet asked what that third party owes, and that is the question this paper takes up.
 
 ## 3. The three-party arrangement
 
@@ -165,8 +173,9 @@ a welcome. It cannot stand in a forum and answer for one. The duty can be discha
 and cannot be owned by one, and it is ownership rather than performance that makes the role.
 
 Philosophy of technology has
-considered the machine as a guest to whom hospitality might be extended (Introna 2010); it has not
-yet considered the machine as a keeper of the threshold.
+considered the machine as a guest to whom hospitality might be extended (Introna 2010). Across the
+hospitality and service literatures we could locate no treatment of the machine as a keeper of the
+threshold.
 
 As algorithmic systems take on these functions, knowledge, discretion, and authority are
 redistributed (Mosca et al. 2026b). Knowledge increasingly moves towards the system because the
@@ -175,10 +184,14 @@ loyalty status, and the property's inventory and operational constraints (Rahman
 Rosenblat 2017). Discretion becomes divided between the system and employees. Staff may retain some
 freedom to act, but an increasing part of their work involves interpreting machine decisions,
 explaining them to guests, or finding ways of working within categories established elsewhere
-(Christin 2017; Pedersen and Pors 2023; Spektor et al. 2025). The evidence for this shift is
+(Pedersen and Pors 2023). Discretion is contested rather than simply transferred. In other expert
+occupations, practitioners decouple from algorithmic evaluation and buffer their own judgement
+against it, which is a struggle over discretion rather than evidence that discretion has already
+moved (Christin 2017). The evidence for this shift is
 uneven. The clearest documentation comes from back-of-house work, where
-housekeeping systems have been observed to fix task sequences and withhold information from the
-workers carrying them out (Spektor et al. 2023, 2025). Front-desk work appears different: revenue
+housekeeping systems have been observed to fix task sequences and, in their most limited
+configurations, to withhold the day's full task list from the workers carrying it out (Spektor et
+al. 2023, 2025). Front-desk work appears different: revenue
 systems there anticipate that staff will deviate from their recommendations, and the deviations
 are durable and to some extent designed for (Bendoly 2013; Garcia et al. 2026). The guest-facing
 half of the question has barely been studied. Authority, meanwhile, moves towards whoever designs,
@@ -261,7 +274,9 @@ means the rule actually in operation was not the rule the staff believed they we
 (Garcia et al. 2026). Nobody at the desk could have explained that decision accurately, however
 willing they were. These managers kept their discretion, which is why Section 3 declines to say
 that discretion has simply moved to the system; what they lost was any account of the rule they
-were adjusting. Augmentation can be equally concrete. When a restaurant projects an
+were adjusting. Its authors read the same result the other way, as a case for automating the adjustment out of
+the process. The mechanism is not in dispute. What differs is whether a rule nobody at the desk
+can state is an inefficiency to engineer away or an accountability gap to close. Augmentation can be equally concrete. When a restaurant projects an
 animated chef onto the table while human staff continue to host the meal, the technology adds
 sensory and social dimensions to an encounter whose rules remain stable and whose staff retain
 their discretion (Batat 2021). The same test that condemns the first arrangement approves the
@@ -293,14 +308,18 @@ Guests and employees are not passive recipients of algorithmic decisions. Throug
 encounters, they develop working theories about how systems operate (Eslami et al. 2016; DeVito
 et al. 2017; Ytre-Arne and Moe 2021; Jhaver et al. 2018). They learn which kinds of requests are
 likely to succeed, how preferences need to be expressed, and how to recognize when the system has
-changed (Cotter 2019). These practices can be understood through three related competences:
+changed (Cotter 2019). A review of 169 studies of algorithm literacy finds that field still
+without agreed core competencies, and calls for accounts specific to a task and a domain
+(Gagrčin et al. 2024). What follows is such an account for the hospitality encounter. These
+practices can be understood through three related competences:
 interpreting what the system is doing, specifying wishes in terms the system can act upon, and
 adapting when its rules or categories change.
 
 Hospitality workers frequently provide these competences on behalf of guests. An experienced
 employee may recognize that a guest's ordinary way of describing a need does not correspond to the
-categories available in the system (De Vos et al. 2023). The employee therefore reformulates the
-request into terms that the system can recognize. In doing so, the employee is effectively lending
+categories available in the system. The pattern has been reported in phygital service work,
+though only in outline and without a full study behind it (De Vos et al. 2023). The employee
+therefore reformulates the request into terms that the system can recognize. In doing so, the employee is effectively lending
 the guest a capacity that belongs to the employee. This is an increasingly important but easily
 overlooked form of hospitality work. It is also a fragile one, for two reasons. The first is that
 the competence being lent is itself a moving target: when a system revises its rules or categories
@@ -395,8 +414,11 @@ There is an important division between these principles. The first three can lar
 through interface design, organizational communication, and training. The final two cannot be
 supplied by individual competence, however skilled the guest or employee becomes. The first three,
 that is, extend hospitality algorithmacy; the final two are matters of coordinative sovereignty, and
-they require institutional decisions about staffing, authority, review, and responsibility (Martin
-and Waldman 2022; Alfrink et al. 2023; Hirsbrunner et al. 2025). A hospitality organization that responds to a
+they require institutional decisions about staffing, authority, review, and responsibility
+(Alfrink et al. 2023; Hirsbrunner et al. 2025). Which mechanism is chosen matters. Where
+governance arrangements have been compared, an appeal that reaches the decision raised the
+perceived legitimacy of an adverse algorithmic outcome, while oversight and audit lowered it
+(Martin and Waldman 2022). The fourth feature asks for the first and not the other two. A hospitality organization that responds to a
 problem of contestability by providing more guest education has therefore misdiagnosed its own
 condition. Some problems require people to become more capable; others require institutions to
 become more answerable (Yurrita et al. 2025).
@@ -430,8 +452,13 @@ question precisely because the guest never encounters a recognizable moment at w
 can be challenged. Frictionless design can therefore remove not only inconvenience but also
 opportunities for voice.
 
-The value of voice does not depend entirely on whether the guest ultimately gets what she wants
-(Lind et al. 1990; Goodwin and Ross 1992; Folger 1977). It also depends on whether there is a
+The value of voice does not depend entirely on whether the guest ultimately gets what she wants.
+Voice offered after a decision has been taken, with the decision explicitly unchanged, still
+raises judgements of both procedural and outcome fairness (Lind et al. 1990; Goodwin and Ross
+1992). That effect has a boundary worth stating, since an invitation to speak that was never going
+to bear on anything lowers those judgements instead, and the same research warns that voice can be
+used to manufacture a sense of fairness. That is the argument for a real counterparty rather than
+the appearance of one. The value of voice also depends on whether there is a
 point in the relationship at which speaking, questioning, declining, or requesting an exception is
 possible. This is especially important for guests whose circumstances fall outside the categories
 anticipated by the system. Research on cultural expectations in hospitality shows that guests are,
@@ -460,8 +487,12 @@ distortions, including inflation over time (Filippas et al. 2022). A remedy that
 guest to have been legible all along is not available to the guest whose problem is that the
 system cannot read her. The aim of phygital hospitality should therefore not be the complete
 elimination of friction. It should be to remove pointless friction while preserving the moments in
-which recognition, negotiation, and exception remain possible (Chalmers and Galani 2004; Ehsan et
-al. 2024; Padigar et al. 2025; Phillips et al. 2024).
+which recognition, negotiation, and exception remain possible (Padigar et al. 2025; Phillips et
+al. 2024). We call the property those moments provide interruptibility: the arrangement holds a point at
+which the guest can stop it and be answered. Interaction design already argues for revealing a
+system's seams, so that people can work with it as well as through it (Chalmers and Galani 2004;
+Ehsan et al. 2024). The claim here goes further. A visible seam is of no use unless somebody
+stands behind it.
 
 ## 8. Discussion
 
@@ -532,8 +563,9 @@ This is a conceptual paper, and its limits follow from that. Its examples
 illustrate the distinctions rather than test them, and every relationship proposed between the
 five design features and guest or employee outcomes awaits empirical examination. Three studies
 would advance matters considerably. The first would ask hospitality guests directly about the
-working theories they hold of the systems that recognize and route them, since no such study
-currently exists. The second would operationalize the three competences described in Section 5 and
+working theories they hold of the systems that recognize and route them. The folk-theory
+literature has barely been extended into hospitality settings, and we could locate no study of
+this kind. The second would operationalize the three competences described in Section 5 and
 examine how they relate to the validated competency scale now available (Zhou et al. 2025). The
 third would test whether contestability provisions change how guests experience fairness in a
 commercial hospitality setting, since the existing evidence comes almost entirely from
@@ -563,6 +595,8 @@ reachable or quietly disposes of them. However sophisticated, personalized, or s
 technology becomes, somebody still owes the guest a welcome.
 
 ---
+
+## References
 
 ## References
 
@@ -652,9 +686,9 @@ Filippas, Apostolos, Horton, John J. and Golden, Joseph M. (2022), 'Reputation i
 
 Fink, Melanie (2025), *Human oversight under article 14 of the EU AI act*.
 
-Folger, Robert (1977), 'Distributive and procedural justice: Combined impact of "voice" and improvement on experienced inequity', *Journal of Personality and Social Psychology*, 35:2, pp. 108–119.
-
 Fuller, Linda and Smith, Vicki (1991), 'Consumers' reports: Management by customers in a changing economy', *Work, Employment and Society*, 5:1, pp. 1–16.
+
+Gagrčin, Emilija, Naab, Teresa K. and Grub, Marlene F. (2024), 'Algorithmic media use and algorithm literacy: An integrative literature review', *New Media & Society*.
 
 Gao, Zihan and Thebault-Spieker, Jacob (2026), 'Is your chatbot a tourist or a townie? Quantifying geographic and localness disparities in LLM representations of place', *Proceedings of the ACM on Human-Computer Interaction*.
 

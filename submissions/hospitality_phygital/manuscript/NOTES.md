@@ -2,6 +2,74 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the source audit applied to the draft, and what it cost in words
+
+The co-author memo in [`reviews/2026-08-18/FOR_PIERRE.md`](reviews/2026-08-18/FOR_PIERRE.md) is now
+worked into `DRAFT.md`. Three of its items had already landed before this pass — the Lin split, the
+Zhou reformulation, and the §1 anonymity and *guests without hosts* repair — and the rest are below.
+
+**Citations that did not support their sentence.** Folger is out of §7. Lind, Kanfer and Earley
+carries the claim on its own, and the paragraph now states the boundary the memo asked for: an
+invitation to speak that was never going to bear on anything lowers fairness judgements instead of
+raising them, and voice can be used to manufacture a sense of fairness. That boundary is not a
+concession. It is the argument for a real counterparty, which is what §7 wanted all along.
+
+Pijls now carries the stronger version of our own point. The scale did not neglect guest agency; it
+tried to measure it and dropped *having choice* and *feeling independent* at the confirmatory stage
+for loading too weakly. Christin moves from evidence that discretion has already shifted to evidence
+that it is contested, which is what decoupling and buffering actually show, and Spektor 2025 comes
+out of that sentence because it studies peer relationships in housekeeping rather than guest-facing
+work. The withholding claim gains the qualifier the full text requires: only in the most limited
+configurations. Manfreda and Harkison now read as altruism, generosity and fictive kinship, which are
+their words, rather than gratitude, which was ours. De Vos 2023 no longer carries a substantive
+ethnographic claim alone, since it is a one-page abstract and the text now says so.
+
+**Two places where owning the problem is stronger than surviving it.** §4 states that Garcia's
+authors read their own result as a case for automating the adjustment away, and that what differs is
+whether a rule nobody at the desk can state is an inefficiency or an accountability gap. §6 names
+which governance mechanism Martin and Waldman support: appeals raised perceived legitimacy where
+oversight and audit lowered it, and the fourth feature asks for the first and not the other two.
+
+**Claims that needed argument rather than a citation.** §7's design conclusion is now named as ours.
+Interruptibility is the property that a system holds a point at which the guest can stop it and be
+answered, and it is distinguished from the seamful-design tradition in one sentence: a visible seam
+is of no use unless somebody stands behind it. §1 engages the founding theorizing statement, which
+set out hospitality and virtuality as a research direction and discussed technology as at once guest
+and host, people and machines hostages of each other. Answering a question the field posed fifteen
+years ago is a better position than implying nobody posed it — and the venue is not named, per the
+anonymity requirement.
+
+**Absence claims, narrowed.** The threshold claim is scoped to the hospitality and service
+literatures rather than stated absolutely. §8's claim about guests' working theories is softened to
+what we actually checked. §2's instrument claim and §7's smoothness claim were already narrow and
+verified, and stay as they are.
+
+**Gagrčin et al. added**, carrying the licence for a domain-specific decomposition: 169 studies and
+the field still without agreed core competencies, with a call for accounts specific to a task and a
+domain. Shi et al. was already in §2.
+
+**What it cost, and the decision it forces.** Body 6,680 to **7,166**, up 486 words. Every one of
+those words buys a fix the memo said we needed, and there is no version of these repairs that is
+free. But the paper was already over the ceiling before this pass and is further over now:
+
+| | |
+|---|---|
+| Body | 7,166 |
+| References (124 × ~26) | 3,224 |
+| Front matter | 492 |
+| **Projected total** | **10,882** against a 9,000 all-inclusive ceiling |
+| What the ceiling leaves the body | **5,284** |
+
+The Notes for Contributors are explicit that the 6,000–9,000 range includes references, so the
+reference list is 36 per cent of the budget and every source dropped returns ~26 words to the prose.
+Closing 1,882 words means cutting claims, and which claims go is the author's call. `wordcount.py`
+no longer hides the size of it: the `--refs 77` default is gone, it reads whichever key list the
+paper renders from, and it prints what the ceiling leaves the body beside the 6,850 target.
+
+`preflight.py` also had a false positive that this pass tripped — *raising* and *rising* were being
+flagged as '-ise' spellings. Added to the allowlist. 22 of 23 checks pass; the one failure is the
+length, which is the real finding and not a tooling artefact.
+
 ## 2026-08-17 — the Fable full review, and three tools that were checking the wrong things
 
 A single reviewer read the whole draft against all nine model essays in the hospitality register
