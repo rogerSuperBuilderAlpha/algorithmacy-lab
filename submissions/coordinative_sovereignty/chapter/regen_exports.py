@@ -22,6 +22,10 @@ HERE = Path(__file__).resolve().parent
 SOURCE = HERE / "chapter.md"
 GRAMMARLY = HERE / "chapter_grammarly.md"
 DOCX = HERE / "Full Paper - Alg & Sov.docx"
+# Word styling for the .docx: Times New Roman 12pt, double-spaced, APA 7 heading placement,
+# page numbers. Rebuild it with build_reference_docx.py; its hash is part of the stamp below,
+# so restyling marks the .docx stale the same way editing chapter.md does.
+REFERENCE = HERE / "reference.docx"
 # Records the chapter.md hash the .docx was built from. A .docx is a zip whose bytes differ
 # on every run, so it cannot be compared against a fresh render; and mtimes are reordered by
 # any git checkout, so they cannot be trusted either. This sidecar is committed with them.
@@ -118,7 +122,10 @@ def main():
 
     grammarly = build_grammarly(text)
 
-    digest = hashlib.sha256(text.encode()).hexdigest()
+    h = hashlib.sha256(text.encode())
+    if REFERENCE.exists():
+        h.update(hashlib.sha256(REFERENCE.read_bytes()).digest())
+    digest = h.hexdigest()
 
     if check_only:
         stale = []
@@ -134,10 +141,12 @@ def main():
         return 0
 
     GRAMMARLY.write_text(grammarly)
-    subprocess.run(
-        ["pandoc", "-f", "markdown", "-t", "docx", str(SOURCE), "-o", str(DOCX)],
-        check=True,
-    )
+    cmd = ["pandoc", "-f", "markdown", "-t", "docx", str(SOURCE), "-o", str(DOCX)]
+    if REFERENCE.exists():
+        cmd.insert(-2, f"--reference-doc={REFERENCE}")
+    else:
+        print(f"warning: {REFERENCE.name} missing; run build_reference_docx.py", file=sys.stderr)
+    subprocess.run(cmd, check=True)
     STAMP.write_text(f"{digest}  {SOURCE.name}\n")
     print(f"wrote {GRAMMARLY.name} ({len(grammarly.split())} words)")
     print(f"wrote {DOCX.name}")
