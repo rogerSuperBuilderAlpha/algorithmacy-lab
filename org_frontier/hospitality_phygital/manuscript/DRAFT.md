@@ -129,14 +129,15 @@ the guest something are different matters, and only the second is independent of
 happens to believe. Guests, for their part, already decline the attribution. Asked to judge service
 failures in hotel reception and restaurant settings, customers hold a robot less responsible than a
 human employee, and the gap widens when the encounter goes wrong, with responsibility routed
-instead to the firm behind the machine (Belanche et al. 2020). Two lines of work come nearer. One asks through stakeholder theory whether service robots should
-hold rights and responsibilities at all, and recommends that firms articulate the duties they
-already expect of employees and decide which are shifting to the machine (Sharma and Mattila 2025).
-The other, the phygital service programme itself, reports that ambiguities persist around agency,
-governance and interpretive labour in algorithmically mediated interactions, and that existing
-frameworks explain value co-creation without explaining how digitally enforced rules redistribute
-the labour of interpretation (Shabnam et al. 2026). The first concerns the machine's standing and
-the duties an employer may delegate, which Section 1 has already distinguished from the host's. The
+instead to the firm behind the machine (Belanche et al. 2020). Two lines of work come nearer. One asks, through stakeholder theory and across moral, ethical and
+legal registers, whether service robots should be afforded rights and responsibilities at all, and
+places its emphasis on governance and risk management: clarifying accountability through liability,
+safety, data protection and consent, and preparing for regulatory expectations (Sharma and Mattila
+2025). The other, the phygital service programme itself, reports that ambiguities persist around
+agency, governance and interpretive labour in algorithmically mediated interactions, and that
+existing frameworks explain value co-creation without explaining how digitally enforced rules
+redistribute the labour of interpretation (Shabnam et al. 2026). The first concerns the machine's
+standing and what a firm must answer for. The
 second names the redistribution and stops there. Neither asks which party, once the rules have done
 the redistributing, still owes the guest a welcome. Each of these responsibilities has a different
 source. Care is
