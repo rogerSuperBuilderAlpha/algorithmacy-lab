@@ -85,4 +85,4 @@ The abstract's argument leans on work it does not cite, and a roundtable will su
 - **Rahman 2021** and **Cameron 2024** — divergent worker outcomes under opaque evaluation. Both were
   in the Dublin package and both are closer to the variance puzzle than the AI-productivity sources.
 - **Dogruel algorithm literacy** and **Spreitzer psychological empowerment** — already discriminated
-  in `../../survey/cohort_algorithmacy/`; that work transfers.
+  in `../../../org_frontier/survey/cohort_algorithmacy/`; that work transfers.

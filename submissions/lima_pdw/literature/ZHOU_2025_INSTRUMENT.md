@@ -102,7 +102,7 @@ rebuilt is on a different axis, and the items make the argument available:
   second is the abstract's central developmental claim.
 
 **Fielded (Hult), 2026-08-13.** The twelve items are now W2 Part 8 of the cohort panel — see
-[`../../survey/cohort_algorithmacy/instruments/wave2_midpoint.md`](../../survey/cohort_algorithmacy/instruments/wave2_midpoint.md),
+[`../../../org_frontier/survey/cohort_algorithmacy/instruments/wave2_midpoint.md`](../../../org_frontier/survey/cohort_algorithmacy/instruments/wave2_midpoint.md),
 with the adaptations recorded item by item in that study's `codebook.md` and the test registered as
 **H4** with its decision rules. **Two things gate it:** the Bentley IRB may need a Research Progress &
 Review Form before W2 fields, and this covers the *Hult* cohort only — the GauntleTT panel the Lima

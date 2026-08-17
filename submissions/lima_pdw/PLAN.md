@@ -11,7 +11,7 @@
 > due **10 September** — **28 days**. Two other binding deadlines fall inside that window: the IGI
 > chapter on 30 August and the *Hospitality & Society* article on 4 September. Roughly a week of
 > those 28 days is genuinely free for this paper. Plan accordingly, and see
-> [`../SUBMISSION_CALENDAR.md`](../SUBMISSION_CALENDAR.md).
+> [`../CALENDAR.md`](../CALENDAR.md).
 
 ## 1. What was accepted, and what that obliges
 
@@ -87,7 +87,7 @@ something different, and says it deliberately:
 
 So the abstract's list conflates three levels — it names two real facets, one cut candidate, and two
 properties, while omitting the actual third facet. **The lab instrument is not the thing out of step:**
-`../survey/cohort_algorithmacy/` measures counterpart inference, signal compression, and rule-change
+`../../org_frontier/survey/cohort_algorithmacy/` measures counterpart inference, signal compression, and rule-change
 tracking, which is Paper 2's three facets exactly, and H1a registers a three-factor structure.
 
 **Already done in the manuscript.** `PAPER.md` §7 presents the three facets as derived, shows the
@@ -99,7 +99,7 @@ of five.
 **Seam 2 — which cohort the pre-registration covers. Closed at source, and the lab side needs one
 addition.** `PAPER.md`'s first-page note, delta (4): "the approved protocol is the Hult sixteen-week
 study, waves 1/4/16 — NOT the GauntleTT eight-week design the abstract's method section described."
-[`../survey/cohort_algorithmacy/`](../survey/cohort_algorithmacy/) is therefore the right and only
+[`../../org_frontier/survey/cohort_algorithmacy/`](../../org_frontier/survey/cohort_algorithmacy/) is therefore the right and only
 registered study, and it matches the manuscript. The residue is small but real: the Zhou discriminant
 block added to that instrument on 2026-08-13 sits under protocol 260511078 and **may need a Research
 Progress & Review Form before W2 fields** — see that study's amendment log.
@@ -132,7 +132,7 @@ besides. What the lab arm can supply without crossing that line:
 - **The rival instrument.** [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md)
   — twelve items with loadings, and the discrimination the items actually support. `PAPER.md` §9
   treats five constructs; Zhou et al. is a sixth and the only one that is a measure.
-- **The registered discriminant test.** H4 in `../survey/cohort_algorithmacy/PRE_REGISTRATION.md`, which
+- **The registered discriminant test.** H4 in `../../org_frontier/survey/cohort_algorithmacy/PRE_REGISTRATION.md`, which
   gives the previewed study something to promise that the manuscript does not yet claim.
 - **Structural and coherence reading** of `PAPER.md` on request, reported here as notes.
 

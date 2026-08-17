@@ -64,6 +64,7 @@ Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
 
 ## Key documents
 
+- [NOW.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/NOW.md): this week's live deadlines and canonical drafts. Writing arms are under `submissions/`.
 - [README](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/README.md): what the lab is, the thesis, setup, layout.
 - [The method essay](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/essays/studying_algorithmacy.md): how the lab studies algorithmacy — the instrument, the discipline, what it has found and cannot do.
 - [The thesis essay](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/essays/literacy_or_algorithmacy.md): literacy vs algorithmacy and why exact Φ decides which a form demands.

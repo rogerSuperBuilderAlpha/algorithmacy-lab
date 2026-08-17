@@ -1,4 +1,10 @@
-# org_frontier — the algorithmacy lab
+# org_frontier — the computational package
+
+Python package for exact IIT-4.0 Φ on Boolean models of coordination, plus the empirical arms that
+use that instrument. Import paths stay `org_frontier.*` (`python -m org_frontier.probes…`).
+
+**Writing arms are not here.** IGI, Hospitality & Society, Lima, Slacker, Hegel, and the OT proposal
+live under [`../submissions/`](../submissions/). This week's dates: [`../NOW.md`](../NOW.md).
 
 A computational lab applying exact IIT-4.0 Φ to organizational coordination, with a runnable research
 protocol that takes a question to a finished paper.

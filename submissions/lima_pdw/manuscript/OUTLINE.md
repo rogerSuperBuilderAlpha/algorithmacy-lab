@@ -33,7 +33,7 @@ what naming a competency can accomplish.
 |---|---|
 | [`../literature/ZHOU_2025_INSTRUMENT.md`](../literature/ZHOU_2025_INSTRUMENT.md) | §9 — which treats five constructs; Zhou et al. is a sixth and the only one that is a *measure* |
 | [`../literature/REFERENCES.md`](../literature/REFERENCES.md) | §1, on the direction of the variance in Brynjolfsson et al. and Dell'Acqua et al. |
-| `../../survey/cohort_algorithmacy/` (H4) | §11 — the study the paper licenses |
+| `../../../org_frontier/survey/cohort_algorithmacy/` (H4) | §11 — the study the paper licenses |
 | [`../DEPARTURES.md`](../DEPARTURES.md) row 1 | §5 / the co-optation column framing, the one open Stark & Vanden Broeck precision point |
 
 ## The manuscript's own open items
