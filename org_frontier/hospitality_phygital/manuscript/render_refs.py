@@ -130,15 +130,35 @@ def sentence_case(title):
             or not letters
             or any(ch.isdigit() for ch in core)         # 7Es, COVID-19
             or letters.isupper()                        # AI, XAI, EU, US
-            or any(ch.isupper() for ch in letters[1:])  # Airbnb, TikTok, McDonald
+            or ("-" not in core and any(ch.isupper() for ch in letters[1:]))  # Airbnb, TikTok
+            # a hyphenated compound falls through and is judged part by part below
             or core.lower() in PROPER
             or bare.lower() in PROPER
         )
-        if keep:
+        if keep and start_of_sentence and "-" in tok:
+            # "Real-Time Feedback" opening a title becomes "Real-time feedback": the first
+            # element keeps its capital, the rest are judged like any other word.
+            head, _, tail = tok.partition("-")
+            def _low(part):
+                ls = "".join(c for c in part if c.isalpha())
+                if not ls or ls.isupper() or any(c.isupper() for c in ls[1:]):
+                    return part
+                i = next((j for j, ch in enumerate(part) if ch.isalpha()), None)
+                return part if i is None else part[:i] + part[i].lower() + part[i + 1:]
+            out.append(head + "-" + "-".join(_low(p2) for p2 in tail.split("-")))
+        elif keep:
             out.append(tok)
         else:
-            i = next((j for j, ch in enumerate(tok) if ch.isalpha()), None)
-            out.append(tok if i is None else tok[:i] + tok[i].lower() + tok[i + 1:])
+            # Hyphenated compounds are down-cased part by part, so "Well-Being" becomes
+            # "well-being" while "Human-AI" keeps the acronym.
+            def lower_part(part):
+                ls = "".join(c for c in part if c.isalpha())
+                if not ls or ls.isupper() or any(c.isupper() for c in ls[1:]) \
+                   or part.strip("'\u2018\u2019\"()[]{},.;:?").lower() in PROPER:
+                    return part
+                i = next((j for j, ch in enumerate(part) if ch.isalpha()), None)
+                return part if i is None else part[:i] + part[i].lower() + part[i + 1:]
+            out.append("-".join(lower_part(pt) for pt in tok.split("-")))
         stripped = tok.rstrip("'\u2019\"))]")
         start_of_sentence = stripped.endswith(":") or stripped.endswith("?")
     return " ".join(out)

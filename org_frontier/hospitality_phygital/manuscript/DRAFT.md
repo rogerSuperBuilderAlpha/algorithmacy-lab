@@ -133,7 +133,7 @@ instead to the firm behind the machine (Belanche et al. 2020). Two lines of work
 legal registers, whether service robots should be afforded rights and responsibilities at all, and
 places its emphasis on governance and risk management: clarifying accountability through liability,
 safety, data protection and consent, and preparing for regulatory expectations (Sharma and Mattila
-2025). The other, the phygital service programme itself, reports that ambiguities persist around
+2026). The other, the phygital service programme itself, reports that ambiguities persist around
 agency, governance and interpretive labour in algorithmically mediated interactions, and that
 existing frameworks explain value co-creation without explaining how digitally enforced rules
 redistribute the labour of interpretation (Shabnam et al. 2026). The first concerns the machine's
@@ -169,13 +169,13 @@ considered the machine as a guest to whom hospitality might be extended (Introna
 yet considered the machine as a keeper of the threshold.
 
 As algorithmic systems take on these functions, knowledge, discretion, and authority are
-redistributed (Mosca et al. 2025). Knowledge increasingly moves towards the system because the
+redistributed (Mosca et al. 2026b). Knowledge increasingly moves towards the system because the
 system may simultaneously have access to the guest's history, preferences, purchasing behaviour,
 loyalty status, and the property's inventory and operational constraints (Rahman 2021; Calo and
 Rosenblat 2017). Discretion becomes divided between the system and employees. Staff may retain some
 freedom to act, but an increasing part of their work involves interpreting machine decisions,
 explaining them to guests, or finding ways of working within categories established elsewhere
-(Christin 2017; Pedersen and Pors 2022; Spektor et al. 2025). The evidence for this shift is
+(Christin 2017; Pedersen and Pors 2023; Spektor et al. 2025). The evidence for this shift is
 uneven. The clearest documentation comes from back-of-house work, where
 housekeeping systems have been observed to fix task sequences and withhold information from the
 workers carrying them out (Spektor et al. 2023, 2025). Front-desk work appears different: revenue
@@ -358,7 +358,7 @@ suggests that employees in the sector often prefer quietly leaving to speaking u
 Researchers disagree about whether guests should see the technology at all. One study of luxury
 production found customers so uneasy about technology that it recommended keeping its use
 undisclosed in order to protect the sense of authenticity (Mosca and La Rosa 2019). More recent
-work endorses transparency and human oversight for consequential systems (Mosca 2026), and
+work endorses transparency and human oversight for consequential systems (Mosca 2026a), and
 employees appear to resist technology when its purpose is obscured (De Vos et al. 2026).
 Concealment responds to customer unease, but it does so by making the system harder to see while
 leaving the unease in place. The design features developed here take the opposite approach.
@@ -379,7 +379,7 @@ An employee who can listen sympathetically but has no authority to change anythi
 where frustration is deposited rather than a meaningful source of accountability (Fink 2025; Sterz
 et al. 2024; Li and Sun 2025). Preserving a human face may in fact matter less than preserving
 human authority. Experimental work finds that when an outcome goes against them, people sometimes
-judge an algorithmic decision-maker to be fairer than a human one (Choi and Chao 2024). What
+judge an algorithmic decision-maker to be fairer than a human one (Choi and Chao 2026). What
 guests appear to need is someone with the power to change the answer.
 The fifth principle is that guests should retain a genuine
 alternative. An option that technically exists but carries a significant financial, practical, or
@@ -437,7 +437,7 @@ possible. This is especially important for guests whose circumstances fall outsi
 anticipated by the system. Research on cultural expectations in hospitality shows that guests are,
 in effect, scripted before they arrive: service is calibrated to assumptions about what a guest of
 a given nationality, profile, or history will want, and when the assumption misses, a person on
-the spot has traditionally noticed the mismatch and improvised around it (Nguyen et al. 2024).
+the spot has traditionally noticed the mismatch and improvised around it (Nguyen et al. 2025).
 Algorithmic personalization industrializes the scripting while removing the improvising person.
 A guest may fail to fit the categories because of her body, her documents, her language, or simply
 her circumstances that day, and she then encounters a system with no surface on which the misfit
@@ -468,7 +468,7 @@ al. 2024; Padigar et al. 2025; Phillips et al. 2024).
 The paper makes three main contributions. First, it repositions AI from a neutral service
 technology to a constitutive mediator of hospitality relationships. Technology does not merely
 make an existing relationship faster or more efficient. By redistributing knowledge, discretion,
-and authority, it can change the relationship itself (Mosca et al. 2025; Casalegno et al. 2020).
+and authority, it can change the relationship itself (Mosca et al. 2026b; Casalegno et al. 2020).
 The question is therefore not only what AI does within hospitality, but what kind of hospitality
 relationship becomes possible once AI participates in it. Human-centricity, on this account,
 concerns what the arrangement protects or withholds: guest agency, employee discretion, and
@@ -570,9 +570,9 @@ Alfrink, Kars, Keller, Ianus, Kortuem, Gerd and Doorn, Neelke (2023), 'Contestab
 
 Ananny, Mike and Crawford, Kate (2018), 'Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability', *New Media & Society*, 20:3, pp. 973–989.
 
-Anderson, Laurel and Ostrom, Amy L. (2015), 'Transformative service research: Advancing our knowledge about service and Well-Being', *Journal of Service Research*, 18:3, pp. 243–249.
+Anderson, Laurel and Ostrom, Amy L. (2015), 'Transformative service research: Advancing our knowledge about service and well-being', *Journal of Service Research*, 18:3, pp. 243–249.
 
-Andreev, Hristo, Kosmas, Petros, Livieratos, Antonios D., Theocharous, Antonis L. and Zopiatis, Anastasios (2025), 'Destination (Un)Known: Auditing bias and fairness in LLM-Based travel recommendations', *AI*, 6:9, 236.
+Andreev, Hristo, Kosmas, Petros, Livieratos, Antonios D., Theocharous, Antonis L. and Zopiatis, Anastasios (2025), 'Destination (Un)Known: Auditing bias and fairness in LLM-based travel recommendations', *AI*, 6:9, 236.
 
 Are, Carolina (2025), '"Dysfunctional" appeals and failures of algorithmic justice in Instagram and TikTok content moderation', *Information, Communication & Society*, 28:11, pp. 1997–2014.
 
@@ -580,11 +580,11 @@ Batat, Wided (2019), *Experiential marketing: Consumer behavior, customer experi
 
 Batat, Wided (2021), 'How augmented reality (AR) is transforming the restaurant sector: Investigating the impact of "Le Petit Chef" on customers' dining experiences', *Technological Forecasting and Social Change*, 172, 121013.
 
-Batat, Wided (2022), 'Transformative luxury research (TLR): An agenda to advance luxury for Well-Being', *Journal of Macromarketing*, 42:4, pp. 609–623.
+Batat, Wided (2022), 'Transformative luxury research (TLR): An agenda to advance luxury for well-being', *Journal of Macromarketing*, 42:4, pp. 609–623.
 
 Batat, Wided (2024), 'What does phygital really mean? A conceptual introduction to the phygital customer experience (PH-CX) framework', *Journal of Strategic Marketing*, 32:8, pp. 1220–1243.
 
-Batat, Wided (2026), 'Phygital service research (PSR): Advancing FSR and TSR toward Human-First experience design in hybrid Physical-Digital ecosystems', *Journal of Services Marketing*, 40:4, pp. 505–518.
+Batat, Wided (2026), 'Phygital service research (PSR): Advancing FSR and TSR toward human-first experience design in hybrid physical-digital ecosystems', *Journal of Services Marketing*, 40:4, pp. 505–518.
 
 Batat, Wided and Hammedi, Wafa (2023), 'The extended reality technology (ERT) framework for designing customer and service experiences in phygital settings: A service research agenda', *Journal of Service Management*, 34:1, pp. 10–33.
 
@@ -592,7 +592,7 @@ Beatty, Sharon E., Ogilvie, Jessica, Northington, William Magnus, Harrison, Mary
 
 Belanche, Daniel, Casaló, Luis V., Flavián, Carlos and Schepers, Jeroen (2020), 'Robots or frontline employees? Exploring customers' attributions of responsibility and stability after service failure or success', *Journal of Service Management*, 31:2, pp. 267–289.
 
-Bendoly, Elliot (2013), 'Real-Time feedback and booking behavior in the hospitality industry: Moderating the balance between imperfect judgment and imperfect prescription', *Journal of Operations Management*, 31:1–2, pp. 62–71.
+Bendoly, Elliot (2013), 'Real-time feedback and booking behavior in the hospitality industry: Moderating the balance between imperfect judgment and imperfect prescription', *Journal of Operations Management*, 31:1–2, pp. 62–71.
 
 Bitner, Mary Jo, Brown, Stephen W. and Meuter, Matthew L. (2000), 'Technology infusion in service encounters', *Journal of the Academy of Marketing Science*, 28:1, pp. 138–149.
 
@@ -608,7 +608,7 @@ Bulley, Dan (2015), 'Ethics, power and space: International hospitality beyond D
 
 Calo, Ryan and Rosenblat, Alex (2017), 'The taking economy: Uber, information, and power', *Columbia Law Review*, 117:6, pp. 1623–1690.
 
-Casalegno, Cecilia, Civera, Chiara, Mosca, Fabrizio and Freeman, R. Edward (2020), 'Circular economy and Relationship-Based view', *Symphonya. Emerging Issues in Management*, pp. 143–158.
+Casalegno, Cecilia, Civera, Chiara, Mosca, Fabrizio and Freeman, R. Edward (2020), 'Circular economy and relationship-based view', *Symphonya. Emerging Issues in Management*, pp. 149–164.
 
 Chalmers, Matthew and Galani, Areti (2004), 'Seamful interweaving: Heterogeneity in the theory and design of interactive systems', *Proceedings of the 5th Conference on Designing Interactive Systems (DIS '04)*, pp. 243–252.
 
@@ -616,21 +616,21 @@ Cheng, Mengting, Zhang, Long and Wang, Haiqing (2025), 'The effect of artificial
 
 Cheng, Mingming and Foley, Carmel (2019), 'Algorithmic management: The case of Airbnb', *International Journal of Hospitality Management*, 83, pp. 33–36.
 
-Choi, Jungmin and Chao, Melody M. (2024), 'For me or against me? Reactions to AI (vs. human) decisions', *Personality and Social Psychology Bulletin*.
+Choi, Jungmin and Chao, Melody M. (2026), 'For me or against me? Reactions to AI (vs. human) decisions', *Personality and Social Psychology Bulletin*, 52:3, pp. 671–691.
 
 Christin, Angèle (2017), 'Algorithms in practice: Comparing web journalism and criminal justice', *Big Data & Society*, 4:2, pp. 1–14.
 
 Christou, Prokopis, Simillidou, Aspasia and Stylianou, Maria C. (2020), 'Tourists' perceptions regarding the use of anthropomorphic robots in tourism and hospitality', *International Journal of Contemporary Hospitality Management*, 32:11, pp. 3665–3683.
 
-Costanza-Chock, Sasha (2020), *Design justice: Community-Led practices to build the worlds we need*, Cambridge, MA: MIT Press.
+Costanza-Chock, Sasha (2020), *Design justice: Community-led practices to build the worlds we need*, Cambridge, MA: MIT Press.
 
 Cotter, Kelley (2019), 'Playing the visibility game: How digital influencers and algorithms negotiate influence on Instagram', *New Media & Society*, 21:4, pp. 895–913.
 
 Cui, Ruomeng, Li, Jun and Zhang, Dennis J. (2020), 'Reducing discrimination with reviews in the sharing economy: Evidence from field experiments on Airbnb', *Management Science*, 66:3, pp. 1071–1094.
 
-De Vos, Svetlana, Haykal, Kay-Anne, Qesja, Bora, Soleimani, Samaneh, Harris, Joanne, Lipnickas, Gediminas, Brodhead Ahmadi, Sarah Renee, Brochado, Ana, Rao Hill, Sally and Rajic, Sandro (2026), 'Enhancing phygital employee experience in High-Involvement professional service organizations', *Journal of Services Marketing*, pp. 1–23.
+De Vos, Svetlana, Haykal, Kay-Anne, Qesja, Bora, Soleimani, Samaneh, Harris, Joanne, Lipnickas, Gediminas, Brodhead Ahmadi, Sarah Renee, Brochado, Ana, Rao Hill, Sally and Rajic, Sandro (2026), 'Enhancing phygital employee experience in high-involvement professional service organizations', *Journal of Services Marketing*, pp. 1–23.
 
-De Vos, Svetlana, Qesja, Bora and Lipnickas, Ged (2023), 'E-Interaction behaviour and customer experience: The role of psychological comfort', *Proceedings of the 2023 Global Fashion Management Conference at Seoul*.
+De Vos, Svetlana, Qesja, Bora and Lipnickas, Ged (2023), 'E-interaction behaviour and customer experience: The role of psychological comfort', *Proceedings of the 2023 Global Fashion Management Conference at Seoul*.
 
 De Vos, Svetlana, Qesja, Bora, Lipnickas, Ged and Harris, Joanne (2024), 'Exploring the higher education experiences of students living with disabilities: An online MBA case study', *Journal of Marketing Management*, 40:5–6, pp. 450–480.
 
@@ -638,7 +638,7 @@ Derrida, Jacques and Dufourmantelle, Anne (2000), *Of hospitality*, Stanford, CA
 
 DeVito, Michael A., Gergle, Darren and Birnholtz, Jeremy (2017), '"Algorithms ruin everything": #RIPTwitter, folk theories, and resistance to algorithmic change in social media', *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, pp. 3163–3174.
 
-Duggan, James, Dasgupta, Prakriti, McDonnell, Anthony, Carbery, Ronan and Sherman, Ultan (2026), 'Tensions in algorithmic HRM: Worker voice and organizational silencing in App-Based platform work', *International Journal of Human Resource Management*, 37:8, pp. 1432–1465.
+Duggan, James, Dasgupta, Prakriti, McDonnell, Anthony, Carbery, Ronan and Sherman, Ultan (2026), 'Tensions in algorithmic HRM: Worker voice and organizational silencing in app-based platform work', *International Journal of Human Resource Management*, 37:8, pp. 1432–1465.
 
 Edelman, Benjamin, Luca, Michael and Svirsky, Dan (2017), 'Racial discrimination in the sharing economy: Evidence from a field experiment', *American Economic Journal: Applied Economics*, 9:2, pp. 1–22.
 
@@ -666,15 +666,15 @@ Germann Molz, Jennie (2026), 'Guests without hosts: On the digital biopolitics o
 
 Goodwin, Cathy and Ross, Ivan (1992), 'Consumer responses to service failures: Influence of procedural and interactional fairness perceptions', *Journal of Business Research*, 25:2, pp. 149–163.
 
-Gursoy, Dogan (2026), 'Reconceptualizing customer experience Co-Creation and service delivery in the age of artificial intelligence', *Journal of Hospitality Marketing & Management*, 35:2, pp. 151–165.
+Gursoy, Dogan (2026), 'Reconceptualizing customer experience co-creation and service delivery in the age of artificial intelligence', *Journal of Hospitality Marketing & Management*, 35:2, pp. 151–165.
 
-Hatherley, Joshua (2025), 'A moving target in AI-Assisted Decision-Making: Dataset shift, model updating, and the problem of update opacity', *Ethics and Information Technology*, 27, 20.
+Hatherley, Joshua (2025), 'A moving target in AI-assisted decision-making: Dataset shift, model updating, and the problem of update opacity', *Ethics and Information Technology*, 27, 20.
 
-Hemmer, Patrick, Schemmer, Max, Kühl, Niklas, Vössing, Michael and Satzger, Gerhard (2025), 'Complementarity in Human-AI collaboration: Concept, sources, and evidence', *European Journal of Information Systems*.
+Hemmer, Patrick, Schemmer, Max, Kühl, Niklas, Vössing, Michael and Satzger, Gerhard (2025), 'Complementarity in human-AI collaboration: Concept, sources, and evidence', *European Journal of Information Systems*, 34:6, pp. 979–1002.
 
 Hemmington, Nigel (2007), 'From service to experience: Understanding and defining the hospitality business', *The Service Industries Journal*, 27:6, pp. 747–755.
 
-Hirsbrunner, Simon David, Kleemann, Sonja and Tahraoui, Mohammad Nadim (2025), 'Contestation in artificial intelligence as a practice: From a System-Centered perspective of contestability toward normative contextualization, situative critique and organizational culture', *Frontiers in Communication*.
+Hirsbrunner, Simon David, Kleemann, Sonja and Tahraoui, Mohammad Nadim (2025), 'Contestation in artificial intelligence as a practice: From a system-centered perspective of contestability toward normative contextualization, situative critique and organizational culture', *Frontiers in Communication*.
 
 Huang, Zilong and Lo, Ada (2025), 'Human versus robot service provider agents in service failures: The moderating role of failure type', *Information Technology & Tourism*, 27:2, pp. 417–448.
 
@@ -684,11 +684,11 @@ Jhaver, Shagun, Karpfen, Yoni and Antin, Judd (2018), 'Algorithmic anxiety and c
 
 Jung, Hyo Sun and Yoon, Hye Hyun (2019), 'The effects of social undermining on employee voice and silence and on organizational deviant behaviors in the hotel industry', *Journal of Service Theory and Practice*, 29:2, pp. 213–231.
 
-Kim, Hyunsu, Chung, Chanho and Chung, Namho (2025), 'When customers resist Self-Service technology: A shadow work perspective', *International Journal of Human-Computer Interaction*, 42:10, pp. 7269–7287.
+Kim, Hyunsu, Chung, Chanho and Chung, Namho (2025), 'When customers resist self-service technology: A shadow work perspective', *International Journal of Human-Computer Interaction*, 42:10, pp. 7269–7287.
 
 Kim, Seongseop, Kim, Jungkeun, Badu-Baiden, Frank, Giroux, Marilyn and Choi, Youngjoon (2021), 'Preference for robot service or human service in hotels? Impacts of the COVID-19 pandemic', *International Journal of Hospitality Management*, 93, 102795.
 
-Kropf, Mario, Spöck, Christoph and Werner, Roman (2026), 'Blame the robot: Role responsibility and ethical issues regarding AI-Based care robots', *International Journal of Social Robotics*, 18:2, 30.
+Kropf, Mario, Spöck, Christoph and Werner, Roman (2026), 'Blame the robot: Role responsibility and ethical issues regarding AI-based care robots', *International Journal of Social Robotics*, 18:2, 30.
 
 Larivière, Bart, Bowen, David, Andreassen, Tor W., Kunz, Werner, Sirianni, Nancy J., Voss, Chris, Wünderlich, Nancy V. and De Keyser, Arne (2017), '"Service encounter 2.0": An investigation into the roles of technology, employees and customers', *Journal of Business Research*, 79, pp. 238–246.
 
@@ -698,9 +698,9 @@ Lee, Min Kyung, Jain, Anuraag, Cha, Hea Jin, Ojha, Shashank and Kusbit, Daniel (
 
 Lee, Wangoo and Lu, Lu (2024), 'The hospitable thought that counts: An emerging theory of "AI consciousness" in genuine hospitality', *International Journal of Hospitality Management*, 123, 103928.
 
-Li, Hui and Sun, Zhiyuan (2025), 'Is algorithmic accessibility sufficient? The pivotal role of accessibility and accountability in shaping trust in automated Decision-Making', *Governance*, 38:4.
+Li, Hui and Sun, Zhiyuan (2025), 'Is algorithmic accessibility sufficient? The pivotal role of accessibility and accountability in shaping trust in automated decision-making', *Governance*, 38:4.
 
-Li, Minglong, Yin, Dexiang, Qiu, Hailian and Bai, Billy (2021), 'A systematic review of AI Technology-Based service encounters: Implications for hospitality and tourism operations', *International Journal of Hospitality Management*, 95, 102930.
+Li, Minglong, Yin, Dexiang, Qiu, Hailian and Bai, Billy (2021), 'A systematic review of AI technology-based service encounters: Implications for hospitality and tourism operations', *International Journal of Hospitality Management*, 95, 102930.
 
 Lin, Hongyu (2025), 'Oscillation between resist and to not? Users' folk theories and resistance to algorithmic curation on Douyin', *Social Media + Society*.
 
@@ -708,7 +708,7 @@ Lin, Wanliang, Zhang, Mingyu, Zhang, Wenjia and Zhang, Can (2026), 'Will employe
 
 Lind, E. Allan, Kanfer, Ruth and Earley, P. Christopher (1990), 'Voice, control, and procedural justice: Instrumental and noninstrumental concerns in fairness judgments', *Journal of Personality and Social Psychology*, 59:5, pp. 952–959.
 
-Liu, Gus Guanrong, Benckendorff, Pierre and Walters, Gabby (2026), 'Conceptualizing hospitableness in Human-Robot hospitality interactions', *International Journal of Hospitality Management*, 135, 104640.
+Liu, Gus Guanrong, Benckendorff, Pierre and Walters, Gabby (2026), 'Conceptualizing hospitableness in human-robot hospitality interactions', *International Journal of Hospitality Management*, 135, 104640.
 
 Lugosi, Peter (2008), 'Hospitality spaces, hospitable moments: Consumer encounters and affective experiences in commercial settings', *Journal of Foodservice*, 19:2, pp. 139–149.
 
@@ -724,19 +724,19 @@ Manfreda, Anita and Harkison, Tracy (2025), 'Beyond exchange: Decoding reciproca
 
 Martin, Kirsten and Waldman, Ari (2022), 'Are algorithmic decisions legitimate? The effect of process and outcomes on perceptions of legitimacy of AI decisions', *Journal of Business Ethics*, 183:3, pp. 653–670.
 
-Moganadas, Sharmila Rani, Goh, Gerald Guan Gan, Cheah, Chew Sze and Shidik, Guruh Fajar (2026), 'Navigating employee Well-Being in the age of digital transformation: A PRISMA-Based systematic review', *Societies*, 16:7, 213.
+Moganadas, Sharmila Rani, Goh, Gerald Guan Gan, Cheah, Chew Sze and Shidik, Guruh Fajar (2026), 'Navigating employee well-being in the age of digital transformation: A PRISMA-based systematic review', *Societies*, 16:7, 213.
 
 Möhlmann, Mareike, Zalmanson, Lior, Henfridsson, Ola and Gregory, Robert Wayne (2021), 'Algorithmic management of work on online labor platforms: When matching meets control', *MIS Quarterly*, 45:4, pp. 1999–2022.
 
 Morosan, Cristian and DeFranco, Agnes (2016), 'Modeling guests' intentions to use mobile apps in hotels', *International Journal of Contemporary Hospitality Management*, 28:9, pp. 1968–1991.
 
-Mosca, Fabrizio (2026), 'Artificial intelligence as a strategic inflection point: Implications for firms, industries, and global competitiveness', *Journal of Emerging Perspectives*, 2, pp. 3–7.
+Mosca, Fabrizio (2026a), 'Artificial intelligence as a strategic inflection point: Implications for firms, industries, and global competitiveness', *Journal of Emerging Perspectives*, 2, pp. 3–7.
 
 Mosca, Fabrizio and La Rosa, Emily (2019), '4.0 technology within fashion and luxury production', *Symphonya. Emerging Issues in Management*, pp. 103–116.
 
-Mosca, Fabrizio, Civera, Chiara, Chiaudano, Valentina and Shakil, Hafsa (2025), 'Phygital museums as catalysts for inclusivity, Well-Being, and Human-Centric cultural experiences across physical and digital spaces', *Journal of Macromarketing*, 46:3, pp. 426–445.
+Mosca, Fabrizio, Civera, Chiara, Chiaudano, Valentina and Shakil, Hafsa (2026b), 'Phygital museums as catalysts for inclusivity, well-being, and human-centric cultural experiences across physical and digital spaces', *Journal of Macromarketing*, 46:3, pp. 426–445.
 
-Nguyen, Quynh, Yankholmes, Aaron, Ladkin, Adele and Osman, Hanaa (2024), 'National stereotypes in the Cross-Cultural service encounter: Empirical evidence from Vietnam', *Tourism Review*, 80:7, pp. 1413–1426.
+Nguyen, Quynh, Yankholmes, Aaron, Ladkin, Adele and Osman, Hanaa (2025), 'National stereotypes in the cross-cultural service encounter: Empirical evidence from Vietnam', *Tourism Review*, 80:7, pp. 1413–1426.
 
 Odekerken-Schröder, Gaby, Mennens, Kars, Steins, Mark and Mahr, Dominik (2022), 'The service triad: An empirical study of service robots, customers and frontline employees', *Journal of Service Management*, 33:2, pp. 246–292.
 
@@ -750,25 +750,25 @@ Papadopoulos, Orestis, Lopez-Andreu, Marti and Jamalian, Mandi (2021), 'Violatio
 
 Parasuraman, Raja, Sheridan, Thomas B. and Wickens, Christopher D. (2000), 'A model for types and levels of human interaction with automation', *IEEE Transactions on Systems, Man, and Cybernetics – Part A: Systems and Humans*, 30:3, pp. 286–297.
 
-Park, Soona, Lee, Jianan Z. and Lehto, Xinran Y. (2026), 'Transforming hotel lobbies via Community-Centered design: Crafting a vibrant social hub for guests', *Journal of Hospitality & Tourism Research*, 50:2, pp. 170–187.
+Park, Soona, Lee, Jianan Z. and Lehto, Xinran Y. (2026), 'Transforming hotel lobbies via community-centered design: Crafting a vibrant social hub for guests', *Journal of Hospitality & Tourism Research*, 50:2, pp. 170–187.
 
-Parkinson, Joy, Schuster, Lisa and Mulcahy, Rory (2022), 'Online third places: Supporting Well-Being through identifying and managing unintended consequences', *Journal of Service Research*, 25:1, pp. 108–125.
+Parkinson, Joy, Schuster, Lisa and Mulcahy, Rory (2022), 'Online third places: Supporting well-being through identifying and managing unintended consequences', *Journal of Service Research*, 25:1, pp. 108–125.
 
-Pedersen, Kirstine Zinck and Pors, Anja Svejgaard (2022), 'Discretionary responses in frontline encounters: Balancing standardization with the ethics of office', *Journal of Public Administration Research and Theory*, 33:1, pp. 80–93.
+Pedersen, Kirstine Zinck and Pors, Anja Svejgaard (2023), 'Discretionary responses in frontline encounters: Balancing standardization with the ethics of office', *Journal of Public Administration Research and Theory*, 33:1, pp. 80–93.
 
 Phillips, Chelsea, Russell-Bennett, Rebekah and Kowalkiewicz, Marek (2024), 'The physical frictionless experience: A slippery slope for experience memorability of retail services?', *The Service Industries Journal*, 44:13–14, pp. 919–948.
 
-Pigac, Tilen, Lee, Ada and Huang, Ava (2026), 'Navigating transparency in AI-Powered luxury hospitality: A dynamic Guest-Centric approach', *Cornell Hospitality Quarterly*, 67:3, pp. 283–297.
+Pigac, Tilen, Lee, Ada and Huang, Ava (2026), 'Navigating transparency in AI-powered luxury hospitality: A dynamic guest-centric approach', *Cornell Hospitality Quarterly*, 67:3, pp. 283–297.
 
 Pijls, Ruth, Groen, Brenda H., Galetzka, Mirjam and Pruyn, Ad T. H. (2017), 'Measuring the experience of hospitality: Scale development and validation', *International Journal of Hospitality Management*, 67, pp. 125–133.
 
 Rahman, Hatim A. (2021), 'The invisible cage: Workers' reactivity to opaque algorithmic evaluations', *Administrative Science Quarterly*, 66:4, pp. 945–988.
 
-Raisch, Sebastian and Krakowski, Sebastian (2021), 'Artificial intelligence and management: The Automation-Augmentation paradox', *Academy of Management Review*, 46:1, pp. 192–210.
+Raisch, Sebastian and Krakowski, Sebastian (2021), 'Artificial intelligence and management: The automation-augmentation paradox', *Academy of Management Review*, 46:1, pp. 192–210.
 
 Riordan, Tyler (2024), 'Digitally mediated hospitality and algorithmic hostility in the platform economy: Emerging interactions across the virtual domain', *Hospitality & Society*, 14:3, pp. 277–299.
 
-Roelofsen, Maartje and Minca, Claudio (2018), 'The superhost: Biopolitics, home and community in the Airbnb Dream-World of global hospitality', *Geoforum*, 91, pp. 170–181.
+Roelofsen, Maartje and Minca, Claudio (2018), 'The superhost: Biopolitics, home and community in the Airbnb dream-world of global hospitality', *Geoforum*, 91, pp. 170–181.
 
 Santoni de Sio, Filippo and Mecacci, Giulio (2021), 'Four responsibility gaps with artificial intelligence: Why they matter and how to address them', *Philosophy & Technology*, 34:4, pp. 1057–1084.
 
@@ -776,13 +776,13 @@ Schmidt, Alexander Lennart, Koerten, Klaas, Tuomi, Aarni, El-Manstrly, Dahlia an
 
 Scott, Susan V. and Orlikowski, Wanda J. (2012), 'Reconfiguring relations of accountability: Materialization of social media in the travel sector', *Accounting, Organizations and Society*, 37:1, pp. 26–40.
 
-Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, Suh, Taewon and Li, Hairong (2026), 'Transformative phygital service research (TPSR): An agenda for future research', *Journal of Services Marketing*, 40:4, pp. 1–17.
+Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, Suh, Taewon and Li, Hairong (2026), 'Transformative phygital service research (TPSR): An agenda for future research', *Journal of Services Marketing*, pp. 1–17.
 
-Sharma, Amit and Mattila, Anna S. (2025), 'Rights and responsibilities of hospitality service robots', *Journal of Hospitality & Tourism Research*.
+Sharma, Amit and Mattila, Anna S. (2026), 'Rights and responsibilities of hospitality service robots', *Journal of Hospitality & Tourism Research*, 50:6, pp. 904–920.
 
-Shi, Fangfang, Han, Xing and Samaniego-Chávez, Carla Estefanía (2025), 'Residents' perceived benefits of Host-Guest interaction: Scale development and validation', *Journal of Travel Research*, 64:4, pp. 950–965.
+Shi, Fangfang, Han, Xing and Samaniego-Chávez, Carla Estefanía (2025), 'Residents' perceived benefits of host-guest interaction: Scale development and validation', *Journal of Travel Research*, 64:4, pp. 950–965.
 
-Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023), 'Designing for wellbeing: Worker-Generated ideas on adapting algorithmic management in the hospitality industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
+Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023), 'Designing for wellbeing: Worker-generated ideas on adapting algorithmic management in the hospitality industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
 
 Spektor, Franchesca, Fox, Sarah E., Min, Somang, Sarfo, Grace, Stringam, Betsy, Riordan, Christine A., Rho, Hye Jin, Begleiter, Ben and Forlizzi, Jodi (2025), 'Working together: Algorithmic management and peer relationships in the hospitality industry', *Proceedings of the 2025 ACM Designing Interactive Systems Conference*, pp. 3221–3234.
 
@@ -796,7 +796,7 @@ van Doorn, Jenny, Mende, Martin, Noble, Stephanie M., Hulland, John, Ostrom, Amy
 
 Weaver, Adam (2025), '"Fast hospitality" and technology: Contemporaneous connections between "liquid" and "solid" in modern times', *Hospitality & Society*.
 
-Xing, Yunfei and Zhang, Justin Z. (2026), 'The algorithmic guest: AI as a Co-Creator in customer experience management', *International Journal of Contemporary Hospitality Management*, 38:4, pp. 1433–1452.
+Xing, Yunfei and Zhang, Justin Z. (2026), 'The algorithmic guest: AI as a co-creator in customer experience management', *International Journal of Contemporary Hospitality Management*, 38:4, pp. 1433–1452.
 
 Xu, Feng Zeng, Zhang, Yun, Zhang, Tingting and Wang, Jing (2020), 'Facial recognition check-in services at hotels', *Journal of Hospitality Marketing & Management*, 30:3, pp. 373–393.
 
@@ -804,12 +804,12 @@ Yeung, Karen (2017), '"Hypernudge": Big data as a mode of regulation by design',
 
 Ytre-Arne, Brita and Moe, Hallvard (2021), 'Folk theories of algorithms: Understanding digital irritation', *Media, Culture & Society*, 43:5, pp. 807–824.
 
-Yurrita, Mireia, Draws, Tim, Balayn, Agathe, Murray-Rust, Dave, Tintarev, Nava and Bozzon, Alessandro (2023), 'Disentangling fairness perceptions in algorithmic Decision-Making: The effects of explanations, human oversight, and contestability', *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems*, pp. 1–21.
+Yurrita, Mireia, Draws, Tim, Balayn, Agathe, Murray-Rust, Dave, Tintarev, Nava and Bozzon, Alessandro (2023), 'Disentangling fairness perceptions in algorithmic decision-making: The effects of explanations, human oversight, and contestability', *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems*, pp. 1–21.
 
 Yurrita, Mireia, Verma, Himanshu, Balayn, Agathe, Alfrink, Kars, Gadiraju, Ujwal and Bozzon, Alessandro (2025), 'Identifying algorithmic decision subjects' needs for meaningful contestability', *Proceedings of the ACM on Human-Computer Interaction*, 9:CSCW.
 
 Zervas, Georgios, Proserpio, Davide and Byers, John W. (2021), 'A first look at online reputation on Airbnb, where every stay is above average', *Marketing Letters*, 32:1, pp. 1–16.
 
-Zhou, Lian, Lei, Xue, Liu, Mingwei, Huang, Xinran and Hou, Rui (2025), 'Algorithmic competency of On-Demand labor platform workers: Scale development, antecedents, and consequences', *Asia Pacific Journal of Human Resources*, 63:2.
+Zhou, Lian, Lei, Xue, Liu, Mingwei, Huang, Xinran and Hou, Rui (2025), 'Algorithmic competency of on-demand labor platform workers: Scale development, antecedents, and consequences', *Asia Pacific Journal of Human Resources*, 63:2.
 
 Zientara, Piotr, Adamska-Mieruszewska, Joanna and Bąk, Monika (2023), 'Unpicking the mechanism underlying hospitality workers' intention to join a union and intention to quit a job. evidence from the UK', *International Journal of Hospitality Management*, 108, 103355.
