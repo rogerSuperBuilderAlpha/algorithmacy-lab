@@ -19,9 +19,11 @@ which sovereignty is even available — exit where a gate is contingent, voice w
 - `coordinative_sovereignty.md` — the framing statement: the condition, why preservation fails, the contrast
   with digital sovereignty, what coordinative sovereignty is, and the connection to the lab.
 - `AGENDA.md` — the open research questions.
-- `chapter/` — the "Algorithmacy and Sovereignty" manuscript. `chapter/chapter.md` is canonical; the Word file
-  `Full Paper - Alg & Sov.docx` is stale and superseded (see `chapter/README.md`). `chapter/REVIEW.md`,
-  `chapter/OUTLINE.md`, `chapter/HANDOFF.md`, and `chapter/research/` hold the 2026-08 rebuild.
+- `chapter/` — the "Algorithmacy and Sovereignty" manuscript. `chapter/chapter.md` is canonical. The Word file
+  `Full Paper - Alg & Sov.docx` and `chapter_grammarly.md` are generated from it by
+  `chapter/regen_exports.py`; run that after any edit and never hand-edit either export.
+  `chapter/REVIEW.md`, `chapter/OUTLINE.md`, `chapter/HANDOFF.md`, and `chapter/research/` hold the 2026-08
+  rebuild.
 - `presentations/` — the SBE 2026 talk deck and poster for the paper.
 - `literature/deep_research_report.md` — the field map across previous forms, digital-sovereignty variants, and
   platform power, read along the preserve-vs-constitute axis.
