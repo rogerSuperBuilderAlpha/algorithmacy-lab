@@ -16,6 +16,7 @@ Usage: python3 render_refs.py --cited cited_keys.txt
 """
 import argparse
 import re
+import unicodedata
 import sys
 from pathlib import Path
 
@@ -87,10 +88,92 @@ def authors(raw):
     return ", ".join(out[:-1]) + " and " + out[-1]
 
 
+# Words that stay capitalized inside a sentence-cased title. Proper nouns, places,
+# instruments and traditions drawn from this bibliography; extend rather than widen the
+# heuristics, because a wrong lowercase in a title is a visible error.
+PROPER = {
+    "africa", "african", "airbnb", "america", "american", "arabic", "asia", "asian",
+    "australia", "australian", "bauman", "britain", "british", "canada", "canadian",
+    "china", "chinese", "covid", "derrida", "douyin", "dutch", "england", "english",
+    "europe", "european", "facebook", "france", "french", "germany", "german",
+    "instagram", "internet", "japan", "japanese", "kant", "kantian", "korea", "korean",
+    "kingdom", "london", "meituan", "netherlands", "new", "singapore", "spain",
+    "spanish", "states", "tiktok", "twitter", "uber", "united", "vietnam", "vietnamese",
+    "wechat", "york", "zealand",
+    # forms of address and fixed names that survive down-casing
+    "mr", "mrs", "ms", "dr", "st", "domo", "arigato", "roboto",
+    "belgium", "chef", "derrida", "kingdom", "kiwi", "le", "macromarketing",
+    "petit", "seoul",
+}
+
+def nest_quotes(title):
+    """Intellect: single quotes delimit a title, so a quotation inside it takes double."""
+    title = re.sub("\u2018([^\u2018\u2019]+)\u2019", r'"\1"', title)
+    return re.sub(r"(?<![A-Za-z])'([^']+)'(?![A-Za-z])", r'"\1"', title)
+
+def sentence_case(title):
+    """Down-case a Title Case title, Intellect house style, protecting real names.
+
+    Left alone: the first word, the first word after a colon or question mark, anything
+    already containing an internal capital (Airbnb, TikTok, McDonald), anything fully
+    capitalized (AI, XAI, HCI, EU), anything hyphenated with an internal capital, and the
+    protected list above. Everything else that is Capitalized becomes lower case.
+    """
+    out, start_of_sentence = [], True
+    for tok in title.split(" "):
+        core = tok.strip("'\u2018\u2019\"()[]{},.;:?")
+        bare = core[:-2] if core.lower().endswith("'s") else core
+        bare = bare.replace("\u2019s", "")
+        letters = "".join(ch for ch in core if ch.isalpha())
+        keep = (
+            start_of_sentence
+            or not letters
+            or any(ch.isdigit() for ch in core)         # 7Es, COVID-19
+            or letters.isupper()                        # AI, XAI, EU, US
+            or ("-" not in core and any(ch.isupper() for ch in letters[1:]))  # Airbnb, TikTok
+            # a hyphenated compound falls through and is judged part by part below
+            or core.lower() in PROPER
+            or bare.lower() in PROPER
+        )
+        if keep and start_of_sentence and "-" in tok:
+            # "Real-Time Feedback" opening a title becomes "Real-time feedback": the first
+            # element keeps its capital, the rest are judged like any other word.
+            head, _, tail = tok.partition("-")
+            def _low(part):
+                ls = "".join(c for c in part if c.isalpha())
+                if not ls or ls.isupper() or any(c.isupper() for c in ls[1:]):
+                    return part
+                i = next((j for j, ch in enumerate(part) if ch.isalpha()), None)
+                return part if i is None else part[:i] + part[i].lower() + part[i + 1:]
+            out.append(head + "-" + "-".join(_low(p2) for p2 in tail.split("-")))
+        elif keep:
+            out.append(tok)
+        else:
+            # Hyphenated compounds are down-cased part by part, so "Well-Being" becomes
+            # "well-being" while "Human-AI" keeps the acronym.
+            def lower_part(part):
+                ls = "".join(c for c in part if c.isalpha())
+                if not ls or ls.isupper() or any(c.isupper() for c in ls[1:]) \
+                   or part.strip("'\u2018\u2019\"()[]{},.;:?").lower() in PROPER:
+                    return part
+                i = next((j for j, ch in enumerate(part) if ch.isalpha()), None)
+                return part if i is None else part[:i] + part[i].lower() + part[i + 1:]
+            out.append("-".join(lower_part(pt) for pt in tok.split("-")))
+        stripped = tok.rstrip("'\u2019\"))]")
+        start_of_sentence = stripped.endswith(":") or stripped.endswith("?")
+    return " ".join(out)
+
+
+def fix_dashes(text):
+    """LaTeX `--`, the stray `--`-plus-hyphen, and hyphenated volume ranges."""
+    text = text.replace("–-", "—").replace("--", "–")
+    return re.sub(r"\b(\d+):(\d+)-(\d+)\b", "\g<1>:\g<2>–\g<3>", text)
+
+
 def render(kind, f, suffix=""):
     who = authors(f["author"]) if "author" in f else "Anon."
     year = f.get("year", "n.d.") + suffix
-    title = clean(f.get("title", ""))
+    title = nest_quotes(sentence_case(clean(f.get("title", ""))))
     head = f"{who} ({year}), "
 
     if kind == "article":
@@ -102,8 +185,9 @@ def render(kind, f, suffix=""):
         if vn:
             bits.append(vn)
         if pages:
-            bits.append(f"pp. {pages}")
-        return head + ", ".join(bits) + "."
+            # 'pp.' introduces an extent; a bare article number takes neither 'pp.' nor 'p.'
+            bits.append(pages if "–" not in pages and "-" not in pages else f"pp. {pages}")
+        return fix_dashes(head + ", ".join(bits) + ".")
 
     if kind == "book":
         addr = clean(f.get("address", ""))
@@ -113,7 +197,8 @@ def render(kind, f, suffix=""):
     if kind == "incollection":
         eds = authors(f["editor"]) if f.get("editor") else ""
         pages = clean(f.get("pages", ""))
-        lead = f"in {eds} (ed.), " if eds else "in "
+        n_eds = len(f.get("editor", "").split(" and ")) if f.get("editor") else 0
+        lead = f"in {eds} ({'eds' if n_eds > 1 else 'ed.'}), " if eds else "in "
         tail = f", pp. {pages}" if pages else ""
         return (head + f"'{title}', {lead}*{clean(f.get('booktitle',''))}*, "
                 f"{clean(f.get('address',''))}: {clean(f.get('publisher',''))}{tail}.")
@@ -185,8 +270,12 @@ def main():
             for i, k in enumerate(sorted(ks, key=lambda k: clean(entries[k][1].get("title", "")).lower())):
                 suffix[k] = chr(ord("a") + i)
 
+    def sort_key(entry):
+        folded = unicodedata.normalize("NFKD", entry)
+        return "".join(c for c in folded if not unicodedata.combining(c)).lower()
+
     rendered = sorted((render(*entries[k], suffix=suffix.get(k, "")) for k in keys),
-                      key=lambda s: s.lower())
+                      key=sort_key)
     print("## References\n")
     for r in rendered:
         print(r + "\n")

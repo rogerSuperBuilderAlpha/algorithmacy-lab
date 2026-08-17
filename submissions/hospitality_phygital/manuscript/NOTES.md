@@ -2,6 +2,388 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the Fable full review, and three tools that were checking the wrong things
+
+A single reviewer read the whole draft against all nine model essays in the hospitality register
+corpus, judging reasoning and prose rather than hunting findings. Review at
+`reviews/2026-08-17/09_fable_full_review.md`.
+
+**Verdict: publishable in this journal as it stands, minor revisions at worst.** The argument holds
+end to end. The Bovens move discharges section 1's promise, the conditional-at-admission paragraph
+is called the best reasoning in the paper, and section 9's answer is the one section 3 earns.
+
+**On the prose, measured against the corpus, the verdict is that it is good.** Sentence mean 23.3
+against a corpus range of 25.6 to 30.8; short sentences at 23.8% against 7 to 15%; first person
+0.5 per thousand against 2.3 to 9.5; connectives 3.6 per hundred sentences against 9 to 30. Plainer
+and cooler than the venue, and a distinct voice publishing in it rather than an imitation of it.
+Three suspected faults were cleared on measurement and reported as cleared rather than suppressed:
+'important' runs at exactly the venue rate, sentence variance is healthy, and verdict-final
+paragraphs match the models.
+
+**Twelve fixes applied, net about +73 words.** Several were defects introduced by this week's own
+passes. The spine weld left 'Each of these responsibilities' standing before its antecedents. The
+central inference was a premise short, so the sentence about judgement and consequence landing only
+on a party able to revise the rule is now stated. Section 4's rule had quietly overshot into
+sufficiency. Section 5's definition of coordinative sovereignty said 'a coordination one cannot
+leave', which the paper's own fifth design feature contradicts by pricing the exit rather than
+denying it; now 'cannot leave without cost'. Kropf moved to narrative citation, which is what the
+reversed citation ruling reserves for a source whose argument is the object of discussion.
+
+**The headline fix.** The paper named hospitality algorithmacy and coordinative sovereignty in
+section 5 and never used either again, while the abstract promised both. A referee reads that as
+branding. Both now recur in sections 6 and 8, at the points where the division they name is
+actually doing work.
+
+**Three tools were checking the wrong things, and two of them were mine.**
+
+1. `check_citations.py` was hardcoded to `manuscript.md` and silently ignored its argument. Every
+   'citations OK' reported this session was about the superseded draft. It now takes a path and
+   defaults to `DRAFT.md`.
+2. The same script rendered its comparison list from `cited_keys.txt` while `DRAFT.md` renders from
+   `cited_keys_draft.txt`, so entries unique to the current draft looked like year disagreements.
+   Four were reported and all four were false. The key list now follows the paper.
+3. `preflight.py` matched citations by surname only, so a year mismatch passed. Fable found one:
+   Padigar was 2025 in the body and 2024 in the list, because a Tier 1 edit had been made to the
+   *rendered* list and two later re-renders reverted it. The fix belonged in the bibliography. The
+   preflight now compares years, and its first version missed the narrative form `Author et al.
+   (2024)`, which was also fixed and tested against a deliberately broken copy.
+
+The pattern across all three is one thing: a tool pointed at stale state reports success. That is
+the same failure as the artifact staleness check earlier in the week, and the same as the card
+library on 11 August.
+
+**Measured after.** Body 6,678, inside the 6,000 floor and the author's 'not much over'. Sentence
+mean 19.7, paragraph mean 122.5, zero em-dashes, two authorial first persons, 154 citations
+resolving with years matched, 23 of 23 preflight checks passing.
+
+**Still open.** The Sharma and Mattila full text, which nobody on this project has read and on which
+section 3 rests four sentences. Page locators for three quotations. The reference-counting ruling.
+The author-supplied components. And a read-aloud.
+
+## 2026-08-17 — Tier 3, and two items refused
+
+Three of the six Tier 3 items landed. Two were refused on verification grounds and one was dropped
+as already covered.
+
+**Refused: Stock-Homburg and Kegel (2025).** Chow flagged it as refuting section 1's absence claim,
+with a Kantian frame over customer-robot duties, but Springer blocked her and her details came from
+a single search summary. My own search could not confirm the Kantian customer-duties framing at all.
+An unverified citation is the exact failure this project has twice caught in itself, so it stays out.
+Section 1's claim is in any case scoped to the naming vocabulary — tools, mediators, facilitators,
+co-creators, social presence — which is accurate as written.
+
+**Refused: Furtado's Bovens forum concession.** Her reading is that social accountability is the only
+one of Bovens's categories reaching a guest, and that he describes it as voluntary and lacking formal
+obligation, so on a strict reading every hotel fails the condition. I confirmed Bovens's core
+definition but not the typology or that characterization. Writing a concession on an unverified
+reading of a source the second contribution rests on is worse than leaving the concession unwritten.
+Section 4 already concedes through Table 2 stage 4 that the forum has to be built.
+
+**Dropped: the editor's spatial thinness.** Partly answered already by the Bulley repair in section 1,
+which now states that hospitality is a spatial practice continuing once the guest has crossed.
+
+**Landed.** The silence chain now describes its sources by what they measure rather than by what the
+paper wants them to show: awareness of AI raising frontline silence through psychological-contract
+breach, enforced silence in app-based platform work, and algorithmic direction depressing voice while
+algorithmic feedback raises it. None measures competence, so the step from understanding a system to
+declining to speak about it is named as a proposition the framework offers rather than a finding it
+reports. Shabnam et al. moved from a subordinate clause in section 7 to the place where the gap is
+stated, since their agenda is the nearest published anticipation of sections 3 and 5. And the
+augmentative/substitutive pair now says what it is applied to, against Odekerken-Schröder and Raisch
+and Krakowski: they ask whether a robot augments or substitutes the employee in producing value, and
+this paper asks whether the mediation augments or substitutes the relationship.
+
+**Trimmed my own redundancy.** The Sharma and Shabnam passages both ended on 'they stop short of our
+question'; merged into one beat. The Garcia reconciliation in section 4 restated what section 3
+already establishes; compressed.
+
+**Measured.** Body 6,699 against a 6,000 floor, which is 700 over and worth the author's eye.
+Sentence mean 19.6 against Pierre's 20.2, paragraph mean 121.9 against 123, zero em-dashes, two
+authorial first persons, 152 citations resolving, no journal name in the body. Section 3 now runs
+1,286 words of 6,699, and it is where the spine went.
+
+**Open, and for the author.** Any further cut means cutting a claim rather than tightening prose.
+Also outstanding: page locators for three quotations, the Odekerken-Schröder year (the entry reads
+2021 against a 33:2 issue that Reviewer 2 places in 2022, unverified), the reference-counting ruling,
+and the author-supplied submission components.
+
+## 2026-08-17 — the front matter, corrected against the revised body
+
+The editor's headline was that the abstract promised two constructs the body never named. Naming
+them in section 5 discharged that. What the front-matter pass found is that the Tier 1 and Tier 2
+edits had themselves falsified the packet, and that one limit was already breached before anyone
+touched it.
+
+**The abstract was over the ceiling, and nobody had measured it.** The file claimed 197 words, the
+editor estimated 199, and it ran to 203 against a 200 limit. Rewritten to 198, verified.
+
+Three things in it were false by the time I read it. Substitution was still defined as accountability,
+predictability and common understanding withheld *together*, which section 4 no longer says and which
+had ruled out the paper's own transparent-but-substitutive case. The design features were still
+called affordances, one of the three names the editor flagged for a single object. And the claim to
+give the neutral case 'a definition rather than a hedge' was never discharged, since section 8 reports
+a range: the same mediation can enchant, disenchant or re-enchant. All three corrected against what
+the manuscript now argues.
+
+**The abstract also never stated the paper's contribution.** It described the triad and the
+redistribution and stopped short of the host question, which is the one claim the panel verified as
+unprecedented. It now asks whether the intermediary inherits what a host owes and answers: the duty
+does not travel with the function, because a system can perform a welcome and cannot answer for one.
+
+**Keywords.** 'hospitality theory' named the field the article sits in rather than anything the
+article is about. Swapped for 'contestability', which is what sections 6 and 7 turn on.
+
+**Highlights.** The third stated the old three-condition rule and is rewritten to the new one. All
+five character counts were stale; recomputed, and all sit under 85.
+
+**The response letter's section map was wrong in four rows.** Human-centricity, well-being, industry
+gains and the roadmap were all pointed at sections 4 and 6; every one of them is in section 8.
+Table 2 was described as three phases and has five. The length paragraph claimed roughly 8,900 words
+all-in; the article is about 6,500 with 124 references beyond it, and since the counting rule is
+unsettled the letter now says so and asks, which is better than asserting a number we cannot defend.
+
+**Left to the authors, correctly.** ORCIDs, biographies, the publishing agreement, the postal
+address, the ethical and conflict statements, and confirmation that the AI acknowledgment describes
+what actually happened. None of these can be supplied here.
+
+**Repo convention noted:** this repository lands changes through a pull request into `contrib`, not
+`main`. Recorded because earlier work this week went to `main`.
+
+## 2026-08-17 — the mechanical pass, and where it belonged
+
+The copyeditor's finding was that 120 of 124 reference titles were in Title Case where Intellect
+Harvard is sentence case, confirmed against both worked examples in `JOURNAL_SPEC.md`. The fix went
+into `render_refs.py` rather than into `references.bib`, because the spec says the bibliography is
+stored in an APA-ish shape and rendered into house style; sentence case is a rendering decision and
+belongs with the renderer.
+
+**Hand review earned its keep.** A first pass down-cased 740 distinct words and I checked the list
+rather than trusting it. Eight false positives: Derrida, Le Petit Chef, Belgium, Kiwi, Kingdom's,
+Macromarketing, 7Es and Mr. Roboto. Two were structural rather than lexical — possessives escaped
+the protected-word lookup, and alphanumeric names like 7Es were not recognized as names at all. Both
+fixed, plus the specific names added to the protected set. Second pass: no false positives.
+
+Also into the renderer, so they cannot regress: `pp.` no longer precedes a bare article number
+(twelve entries; an article number is not an extent); two or more editors take `eds` rather than
+`ed.`; nested single quotes inside a single-quoted title become double, per the Notes; LaTeX `--`,
+the stray en-dash-plus-hyphen and hyphenated volume ranges are normalized; and the sort folds
+diacritics so Möhlmann files under M instead of after Z.
+
+Three bugs of my own on the way, all caught by checking the output rather than the code: a regex
+replacement string cannot carry `\u` escapes, a heredoc doubled the backslashes so the volume-range
+pattern matched nothing, and `unicodedata` was imported inside a function so it was not in scope at
+the sort. The lesson is the same each time — verify the artifact, not the edit.
+
+**Body fixes.** One American spelling (`toward` → `towards`, the odd one out against four
+`towards`). The generic guest is `she` throughout; one sentence said `they` and one `their` inverted
+its own meaning, both repaired. One object had three names — design *features*, *principles*,
+*affordances*, and *practical* versus *diagnostic* questions — now uniformly *features* and
+*diagnostic*, matching the heading and the abstract. The three direct quotations now take single
+marks per the Notes.
+
+**Not done, deliberately: page locators for the three quotations.** The Notes require them and I do
+not have verified page numbers; two of the three were verified from publisher abstracts, which carry
+none. Inventing one is the exact failure this project has twice caught in its own citations. The
+author supplies them or the quotations become paraphrase.
+
+**Measured after.** Body 6,525. Sentence mean 19.6 against Pierre's 20.2, paragraph mean 120.9
+against 123, zero em-dashes, two authorial first persons, zero double quotes in the body, zero
+occurrences of the journal name outside the reference entries, 152 citations all resolving, 124
+entries, zero alphabetical breaks.
+
+**Still open.** The front matter, where the editor found the abstract at 199 of 200 words with an
+undischarged clause, a systematically wrong section map in `RESPONSE_TO_EDITOR.md`, and the seven
+mandatory components not yet in the file. Tier 3 of the synthesis. And the reference-counting
+ruling, which `JOURNAL_SPEC.md` still contradicts.
+
+## 2026-08-17 — eight-reviewer panel, then Tier 1 and Tier 2 applied
+
+Panel and synthesis in `reviews/2026-08-17/`. Six minor, one major at the light end, one
+mechanics-only. **No reviewer attacked the argument.** Every finding was a source read too thinly, a
+claim scoped too widely, or an internal inconsistency.
+
+**Two claims that could have been killed both survived verification.** Nothing published asks
+whether a system taking the host's functions inherits the host's obligations, so the novelty claim
+holds. Section 7's absence claim holds on all four named works, including Mameli et al., whose
+open-access full text a reviewer read: 'friction' never occurs, 'seamless' occurs once and
+affirmatively.
+
+**Checks run before writing.** Germann Molz 2026 confirmed: the phrase 'guests without hosts' was
+coined for the *blurring* of hosting and guesting, and her 2026 article extends it to extractive
+algorithmic governance and to the replacement of human workers by robots and AI. Section 1 had
+reported only the extension. Sharma and Mattila confirmed as the nearest neighbour, arguing rights
+and responsibilities through stakeholder theory and recommending firms decide which employee duties
+shift to the machine. Bovens's core definition confirmed — actor and forum, obligation to explain
+and justify, forum can question and judge, consequences may follow.
+
+**Tier 1, correctness.** Section 2 no longer cites Spektor for a front-desk claim; it is a
+housekeeping study whose room assignment allocates rooms *to housekeepers*, and section 3 already
+said so, so the paper had contradicted itself forty lines apart. Zhou's remediating dimension is now
+described by its validated items rather than by an interview exemplar, which strengthens the point:
+every validated item locates the remedy in the worker and most route around the institution. 'The
+first validated scale' became 'a validated scale'. Sharma and Mattila differentiated on the right
+axis. Section 4's rule made accountability the necessary condition, since 'all three withheld at
+once' had ruled out the paper's own transparent-but-substitutive case. The guest-to-host instrument
+absence narrowed to obligation. The smoothness claim scoped to this field. Garcia reconciled across
+sections 3 and 4. Padigar corrected to 2025.
+
+**Anonymity.** Three leaks removed: the venue line and drafting note at the head of the file, and a
+sentence in section 1 naming the journal. The six remaining occurrences are reference entries.
+
+**Tier 2, the spine.** Section 3's duty paragraph rebuilt, composing three reviewers' findings.
+Furtado: the uniqueness claim was false and its counterexample sat one clause earlier, since
+fiduciary duty is the standard case of an obligation constituting its bearer's role — so the claim
+now runs on bare presence and on ownership rather than performance. Ellery: 'owed simply because
+someone has arrived' imported unconditional hospitality into a commercial setting, so the paragraph
+now carries the tradition's own distinction, conditional at admission and unconditional in
+reception, which states the thesis more sharply than the original did. Reviewer 2: section 1's
+promise was discharged by assertion, so the argument is now made — a system can perform a welcome
+and cannot stand in a forum to answer for one. Kropf moved from friend to adversary and is answered
+from his own limit.
+
+Also: Bulley restored to the post-threshold argument he actually makes, rather than the
+threshold-moment reading he wrote to argue against; Belanche inserted, retiring the only reference
+cited nowhere and supplying the paper's best empirical corroboration; hospitality algorithmacy and
+coordinative sovereignty named in section 5, which the abstract had promised and the body never
+delivered; and the title's question answered in section 9.
+
+**Measured after.** Body 6,525 against a 6,000 floor. Sentence mean 19.6 against Pierre's 20.2,
+paragraph mean 120.8 against 123, zero em-dashes, two authorial first persons, 152 in-text citations
+all resolving, no new references added — the absence claims were narrowed rather than answered with
+sources that would have needed verification and cards.
+
+**Still open.** Tier 3 in the synthesis, the copyeditor's mechanical pass (120 reference titles need
+sentence case, by hand), the front matter defects the editor found, and the reference-counting
+ruling that `JOURNAL_SPEC.md` still contradicts.
+
+## 2026-08-15 — second slop pass, after Roger caught what the first one missed
+
+Roger flagged the §6 opener the first pass had itself written: "Design guidance in this area has
+to contend with a genuine disagreement, and the disagreement runs through the special issue's own
+editorial team." The first pass hunted the taxonomy's named patterns and missed a whole class:
+personified abstractions doing throat-clearing ("design guidance has to contend", "the well-being
+question deserves particular attention", "the phygital character is worth emphasizing", "the
+limits should be stated plainly", "it is worth being precise"), announcer clefts ("what is
+striking is"), and decorative intensifiers ("genuine disagreement"). Eleven more rewrites, all in
+buildout additions, each replaced by Pierre's pattern: the sentence's subject is the actual actor
+and the first clause states the claim. "Researchers disagree about whether guests should see the
+technology at all." "These encounters are phygital in a precise sense." "These distinctions bear
+directly on well-being."
+
+The same sweep caught something worse than style: four sentences named "the special issue", its
+editors, or the paper's positioning inside manuscript prose — outline-speak leaked into the paper,
+and a double-blind submission cannot say "the special issue's own editorial team" or "one of this
+field's own editors". All four removed; the citations stay and the frame goes. A grep for
+special-issue and editor language is now part of any future pass, alongside the taxonomy.
+
+Body after both passes: 5,785 words with citations.
+
+## 2026-08-15 — the slop pass: every sentence checked against the exemplars and Pierre's voice
+
+Sentence-by-sentence review of DRAFT.md against three benchmarks: the measured H&S register in
+REGISTER.md (Lugosi 2021 and Lynch et al. 2021, both measured from retrieved full texts), Pierre's
+rewrite as the voice standard, and the project's slop taxonomy. Recent issues are paywalled, so
+the 2021 measurements stand as the venue benchmark. Rule applied throughout: Pierre's sentences
+are presumed clean and stay; the buildout additions get full scrutiny, since imitation prose is
+where slop lives.
+
+Twenty changes, all to buildout additions, logged here so any call can be reversed:
+
+*Em-dashes, all four removed.* The scoring-system appositive (§4), the categories list (§7), the
+no-record list (§7), and the gains list (§8) all restructured into commas or subordinate clauses.
+
+*Staccato verdict pairs, all dissolved.* "It does not claim X. It claims Y" (§7) folded into one
+colon sentence. "That is not a property of the worker at all. It is a property of the institution"
+(§5) folded into a since-clause. "Do not merely automate a task. They remove the person" (§5)
+folded. "Is not a matter of X. It is a matter of Y" (§8 human-centricity) rebuilt without the
+frame. "The frameworks describe this as fluidity. It can be described as a relay" (§3) merged.
+
+*Tidy triads loosened.* "A room key that works or does not, a queue that moves or holds, a price
+that appears" cut to two items (§3). "In responsiveness, in consistency, in what a small team can
+offer" cut to two (§8). "Her history, her record, or her profile" cut to two (§4). The
+first-time-user list rebuilt as a whether-clause (§7). Kept: the duty lists in §3 and the
+criteria, which are definitional rather than decorative.
+
+*Announcer clauses cut.* "The pattern across these duty vocabularies is instructive" → "Set side
+by side, these duty vocabularies share a structure" (§3). "Uneven in an instructive way" → "uneven"
+(§3). Both parenthetical "(Table N summarizes...)" asides converted to plain sentences.
+
+*Not-X-but-Y constructions removed from additions.* "Not a person as such, but a party with the
+power" → "someone with the power to change the answer" (§6). "Not foreign to the literature" →
+"comes close to these ideas" (§2). "Rather than" trimmed where mine and argumentative (Hemmer
+sentence rebuilt with a semicolon); left where Pierre's own or a plain comparative.
+
+*Verdict-snap tails cut.* "Whatever the interface looks like" → "however similar the two
+interfaces may look" (§4). "That difference matters once..." softened into a which-clause (§2).
+
+*Repetition fixed.* Three consecutive sentences opening on "That work / This paper / This paper"
+in §1 rebroken; "What it did not do, and what this paper attempts" (§2) converted to declarative.
+
+Measured after the pass: 5,875 body words; sentence mean 20.2 (Pierre's own mean — shorter than
+the 2021 exemplars' 26–30, and his readability governs per Roger's instruction); paragraph mean
+123 against Lugosi's 129; zero em-dashes; zero rhetorical questions in running prose (the §4
+five-questions sentence is a genuine enumerated diagnostic immediately formatted as Table 1, the
+form Lugosi's display questions license); exactly one authorial first person ("we need to know",
+§1), matching the spend-it-once rule; no bold in running text; citations parenthetical throughout.
+
+## 2026-08-14 — the buildout executed: DRAFT.md at 5,916 words in Pierre's voice
+
+The BUILDOUT.md plan executed against Pierre's 6,000-word target. Body now 5,916 with citations
+(5,471 prose), 124 references rendered, every in-text citation machine-checked against the
+rendered list, no LaTeX residue. Pierre's sentences stand unchanged throughout; every extension is
+written in his register — explanatory, hedged where the evidence hedges, signposted.
+
+What went in, by section. §1: the Germann Molz differentiation ("guests without hosts" quoted; her
+question asked, then the question that follows from it). §2: the criteria couched in the
+experience tradition (Batat 2019); the two narrowed absences stated precisely (Manfreda and
+Harkison; Shi et al.); the platform-hospitality lineage paragraph (Cheng and Foley; Roelofsen and
+Minca; Germann Molz 2018; Edelman; Cui). §3: the dual-place relay paragraph (the editor's
+physicalization/digitalization ask, answered with "who holds authority at each handover"); the
+nearest-miss paragraph (Liu; Lee and Lu; Sharma and Mattila) closing on the duty pattern (care for
+need, fiduciary for trust, governance for risk, welcome for arrival) and Introna's unreversed
+machine-as-guest; the split verdict on discretion. §4: Table 1; the Garcia pricing vignette and
+the Batat AR augmentative case; the threshold confirm-against-score paragraph. §5: the Zhou
+differentiation argued (the scale measures the person, the appeal's answer is a property of the
+institution); the lending paragraph extended with its two fragilities; the untested interaction
+stated with Lin et al. 2026 as the near-miss proof. §6: the Mosca-against-Mosca opening; the Choi
+and Chao complication folded into the authority reading; the shadow-work expansion of
+bypass-ability. §7: the narrowing paragraph with two verbatim Batat goal-statements and Mameli as
+the currency check; the cultural-scripting expansion; the remedy-complication paragraph (Cui;
+Filippas). §8: the human-centricity throughline; the well-being paragraph restructured to open in
+the editors' architecture (Batat 2022 TLR; De Vos 2024 valences) with the three absence carriers;
+the gains paragraph; Table 2; the limits paragraph with three empirical directions. §9 untouched.
+
+Remaining before submission, unchanged: PHIVE and Germann Molz full texts gate §7 and §1 final
+wording; AGENDA 43 (Roger) and 1b/19/31 (Pierre); front matter refresh against this draft;
+Phase 4 reads.
+
+## 2026-08-14 — Pierre's rewrite is the governing voice; DRAFT.md is the citation pass on it
+
+Pierre rewrote the section brief into readable prose and sent it back with "just need the language
+to be a little more readable" and "I think we are approaching the point where we can do a full
+buildout." Roger's instruction: do not veer from this writing style. That supersedes the measured
+Lugosi register in REGISTER.md wherever the two disagree. The differences are real: Pierre
+explains where the brief asserted, hedges where it ruled ("may", "can", "tends to"), unpacks
+compressed formulations into two sentences, and keeps the signposting the brief deleted ("This
+distinction exposes...", "There is, however, a limit..."). His formulations of the key beats are
+now canonical — "somebody still owes the guest a welcome" kept; "a place where frustration is
+deposited" for the authority-less employee; "some problems require people to become more capable;
+others require institutions to become more answerable" as the division's statement.
+
+DRAFT.md is his text verbatim plus citations and nothing else — every insertion is a parenthesis,
+104 references rendered at the foot from `cited_keys_draft.txt`. One new sentence only, in §3,
+carrying the Casalegno/Civera/Mosca/Freeman warrant, flagged for Pierre since it is the one place
+the text is not his. Citation choices worth recording: PHIVE not cited (metadata-only, nothing may
+be attributed); Dar volume not cited (same rule; Moganadas and Park carry the §8 absence); one
+Batat 2022 and one Batat 2024 cited (TLR and PH-CX) so the list needs no a/b disambiguation;
+spektor2023designing carries the §2 front-desk sentence, not the duplicate-named spektor2023;
+Keegan and Krzywdzinski excluded until publisher-verified. Ehsan/seamful XAI turned out to be a
+card with no bib entry — the same defect Germann Molz had — fixed in the same pass.
+
+The full buildout now means: expand DRAFT.md section by section in Pierre's voice, pulling
+argument detail from OUTLINE.md and sources from the library, with the nine P9 repairs applied in
+the expansion rather than patched afterwards.
+
 ## 2026-08-11 — the P9 sources landed in the bibliography, and the card library was found stale
 
 Three defects fixed, one of them not the one we set out to fix.

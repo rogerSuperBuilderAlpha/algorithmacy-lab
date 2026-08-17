@@ -16,13 +16,23 @@ from pathlib import Path
 
 ARM = Path(__file__).resolve().parent.parent
 
-text = (ARM / "manuscript" / "manuscript.md").read_text(encoding="utf-8")
+# The governing draft is DRAFT.md; manuscript.md is the superseded compressed-register
+# version. This was hardcoded to manuscript.md and silently ignored its argument, so a
+# whole session's worth of "citations OK" was reported about the wrong file.
+_paper = Path(sys.argv[1]) if len(sys.argv) > 1 else ARM / "manuscript" / "DRAFT.md"
+if not _paper.is_absolute():
+    _paper = Path.cwd() / _paper
+print(f"checking {_paper.name}")
+text = _paper.read_text(encoding="utf-8")
 body = text.split("## References")[0]
 body = re.sub(r"\s+", " ", body)
 
+# The key list must match the paper: DRAFT.md renders from cited_keys_draft.txt and
+# manuscript.md from cited_keys.txt. Rendering the wrong one made every entry unique to
+# the other draft look like a year disagreement.
+_keys = ARM / "manuscript" / ("cited_keys_draft.txt" if _paper.name == "DRAFT.md" else "cited_keys.txt")
 refs = subprocess.run(
-    ["python3", str(ARM / "manuscript" / "render_refs.py"),
-     "--cited", str(ARM / "manuscript" / "cited_keys.txt")],
+    ["python3", str(ARM / "manuscript" / "render_refs.py"), "--cited", str(_keys)],
     capture_output=True, text=True).stdout
 
 # surname -> set of years present in the reference list
