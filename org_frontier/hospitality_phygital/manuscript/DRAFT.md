@@ -24,7 +24,7 @@ guest who does not simply comply (Bulley 2015), and the mediation examined here 
 work after admission.
 
 Service research has tended to place the employee in the position traditionally occupied by the
-host (Larivière et al. 2017; Odekerken-Schröder et al. 2021). Yet being an employee and being a
+host (Larivière et al. 2017; Odekerken-Schröder et al. 2022). Yet being an employee and being a
 host are not identical roles. An employment contract can specify responsibilities for delivering
 services, but it does not by itself explain the relational obligation between host and guest.
 This becomes particularly important when digital platforms and automated systems take over
@@ -228,7 +228,7 @@ does not enter that calculation (Hemmer et al. 2025).
 
 The pair of terms is not new to this literature, and the difference is in what they are applied to.
 Service research asks whether a robot augments or substitutes the employee in producing value for
-the customer (Odekerken-Schröder et al. 2021; Raisch and Krakowski 2021). The question here is
+the customer (Odekerken-Schröder et al. 2022; Raisch and Krakowski 2021). The question here is
 whether the mediation augments or substitutes the relationship, and the criterion is what remains
 available to the guest rather than what the guest gets.
 
@@ -734,7 +734,7 @@ Mosca, Fabrizio, Civera, Chiara, Chiaudano, Valentina and Shakil, Hassan (2025),
 
 Nguyen, Quynh, Yankholmes, Aaron, Ladkin, Adele and Osman, Hanaa (2024), 'National stereotypes in the Cross-Cultural service encounter: Empirical evidence from Vietnam', *Tourism Review*, 80:7, pp. 1413–1426.
 
-Odekerken-Schröder, Gaby, Mennens, Kars, Steins, Mark and Mahr, Dominik (2021), 'The service triad: An empirical study of service robots, customers and frontline employees', *Journal of Service Management*, 33:2, pp. 246–292.
+Odekerken-Schröder, Gaby, Mennens, Kars, Steins, Mark and Mahr, Dominik (2022), 'The service triad: An empirical study of service robots, customers and frontline employees', *Journal of Service Management*, 33:2, pp. 246–292.
 
 Okhuysen, Gerardo A. and Bechky, Beth A. (2009), 'Coordination in organizations: An integrative perspective', *Academy of Management Annals*, 3:1, pp. 463–502.
 
