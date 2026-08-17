@@ -169,8 +169,6 @@ So, the real question for phygital hospitality is not whether technology can per
 
 ## References
 
-## References
-
 Alfrink, Kars, Keller, Ianus, Kortuem, Gerd and Doorn, Neelke (2023), 'Contestable AI by design: Towards a framework', *Minds and Machines*, 33, pp. 613–639.
 
 Ananny, Mike and Crawford, Kate (2018), 'Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability', *New Media & Society*, 20:3, pp. 973–989.
