@@ -31,18 +31,13 @@ institutions three-peat at the section's close (now "commands the least leverage
 capability sentence (now a plain sentence and a direct question). A second read-aloud in the author's own
 voice costs nothing and is still worth the half hour, but the pass is no longer owed.
 
-**Editor note on the title, ready to send** (volume editor's condition #4, declined by author decision —
-sending this makes it read as a choice):
+**Editor note on the title — superseded 2026-08-17.** The note drafted here declined the volume editor's
+condition #4 and defended keeping the title exactly as circulated. The subtitle has since changed, for the
+reason given in §0h: IGI caps subtitles at 50 characters and the old one ran to 54. **Do not send the old
+note.** The replacement is in §0i.
 
-> On condition #4, the title: the chapter keeps "Algorithmacy and Sovereignty: Toward a Coordinative
-> Sovereignty for the Platform Era." The accepted abstract, the conference deck, and the poster all
-> circulated under it, and the keywords lead with "digital sovereignty," which covers the volume's
-> discoverability concern where indexing actually looks. If the volume allows a table-of-contents
-> annotation, "digital sovereignty and platform-dependent firms" would be the right one. Happy to revisit
-> if the title blocks anything at press.
-
-**Submission file.** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` (pandoc, APA headings,
-anonymized) so the Word manuscript matches the markdown source. Reflow into the IGI template on submission.
+**Submission file.** `Full Paper - Alg & Sov.docx` is regenerated from `chapter.md` by `regen_exports.py`
+(pandoc, APA headings, anonymized) so the Word manuscript matches the markdown source.
 
 Remaining author-side: the Hunt et al. omission and the companion-paper scope, if a referee asks.
 
@@ -465,3 +460,33 @@ before submitting. If the numbers go, nine sentences need the sections named by 
 **Not in the repo, and needed alongside the chapter:** biographical sketches (100–150 words, third person,
 three authors), the signed copyright agreement in eEditorial Discovery, affiliation and contact details, and
 a professional copy edit, which IGI states as a requirement and which none of the review passes satisfies.
+
+## 0i. Subtitle changed, 2026-08-17
+
+By author decision, to bring the title inside IGI's 50-character subtitle limit:
+
+- **was** — Algorithmacy and Sovereignty: *Toward a Coordinative Sovereignty for the Platform Era* (54)
+- **now** — Algorithmacy and Sovereignty: *Coordinative Sovereignty for the Platform Era* (45)
+
+The main title is untouched at 28 characters, and every content word the circulated title carried survives.
+Only `chapter.md` line 1 changed; the exports were regenerated from it.
+
+**What was deliberately not changed.** The SBE 2026 deck and poster in `../presentations/` and the review
+files in `../reviews/` still carry the old subtitle. The conference materials are a record of what was
+presented under that title, and a review that names the manuscript it read is a dated record. Rewriting
+either would falsify it. `chapter_v2.md` and `chapter_prerewrite_c247e56.md` keep the old title for the same
+reason — both are superseded snapshots.
+
+**Editor note on the title, replacing the one withdrawn in §0c, ready to send:**
+
+> On condition #4, the title: the subtitle is now "Coordinative Sovereignty for the Platform Era," which
+> brings it inside IGI's 50-character limit — the version that circulated with the accepted abstract, the
+> conference deck, and the poster ran to 54. The main title and every content word are unchanged, so the
+> chapter is still findable under what reviewers saw. The keywords lead with "digital sovereignty," which
+> covers the discoverability concern where indexing actually looks. If the volume allows a table-of-contents
+> annotation, "digital sovereignty and platform-dependent firms" would be the right one.
+
+That note now reports a change rather than declining one, which is the stronger position: it answers the
+editor's condition and a production constraint at the same time. Whether the volume wants to be told the
+title moved between acceptance and submission is the author's judgment — but the deck and poster do carry
+the longer form, so telling them is safer than letting a production editor find the mismatch.

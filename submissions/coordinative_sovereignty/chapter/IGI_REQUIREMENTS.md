@@ -29,7 +29,7 @@ Sources, all fetched 2026-08-17:
 | Requirement | Source | This manuscript | |
 |---|---|---|---|
 | Main title ≤ 100 characters | Before You Write | "Algorithmacy and Sovereignty", 28 | ✅ |
-| **Subtitle ≤ 50 characters** | Before You Write | "Toward a Coordinative Sovereignty for the Platform Era", **54** | ❌ **over by 4** |
+| Subtitle ≤ 50 characters | Before You Write | "Coordinative Sovereignty for the Platform Era", 45 | ✅ *fixed 2026-08-17; was 54* |
 | Title case, short words lowercase unless first or last | Before You Write | `and`, `a`, `for`, `the` all lowercase | ✅ |
 | Abstract 100–150 words | Before You Write | 148 | ✅ |
 | Abstract in third person | Before You Write | zero first-person forms | ✅ |
@@ -44,24 +44,20 @@ Sources, all fetched 2026-08-17:
 | Professionally copy edited before final submission | Author checklist | not done — see below | ⚠️ |
 | Double-anonymized review | volume call | no author name, affiliation, or repository string; companion work masked as "Author, 2026" | ✅ |
 
-## The subtitle is four characters over, and it is not just a formatting nit
+## The subtitle was four characters over — resolved 2026-08-17
 
-The volume editor's condition #4 asked for a title revision, and the author declined it — the accepted
-abstract, the conference deck, and the poster all circulated under the current title, and `HANDOFF.md` §0c
-holds a drafted note explaining that choice. The 50-character subtitle limit is an independent, mechanical
-reason the title may come back at production regardless of that argument.
+The subtitle ran to 54 characters against IGI's limit of 50. By author decision it lost "Toward a":
 
-Four characters is a small edit. Options that stay inside the limit, none applied:
+- **was** — "Toward a Coordinative Sovereignty for the Platform Era" (54)
+- **now** — "Coordinative Sovereignty for the Platform Era" (45)
 
-- "Toward a Coordinative Sovereignty for Platform Firms" (52 — still over)
-- "Coordinative Sovereignty for the Platform Era" (45)
-- "A Coordinative Sovereignty for the Platform Era" (47)
-- "Toward Coordinative Sovereignty" (31)
+The main title is untouched and every content word survives, so the chapter stays findable under what
+reviewers saw. This also settles the volume editor's condition #4, which had asked for a title revision and
+which the author had declined: the note in `HANDOFF.md` §0c defended keeping the title exactly as circulated
+and has been withdrawn, replaced by §0i, which reports the change and gives the production reason for it.
 
-Dropping "Toward a" to reach "Coordinative Sovereignty for the Platform Era" keeps every content word the
-circulated title carried. **This is the author's call**, and it interacts with the note to the editor: if the
-title changes for the character limit, that note needs rewriting, because it currently defends keeping the
-title exactly as circulated.
+The SBE 2026 deck and poster still carry the 54-character form. They are a record of what was presented and
+were left alone, which is why the editor is told the title moved rather than left to discover the mismatch.
 
 ## Items that are not the manuscript
 
