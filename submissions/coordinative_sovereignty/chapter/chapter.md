@@ -6,9 +6,9 @@ A firm can comply with every instrument of Europe's digital regulation, take the
 channels it supplies, and still lack standing over the determinations that set its market position.
 Sovereignty has always required a competence equal to the medium through which power runs: speech in oral
 orders, writing in the literate state, a literacy of code and data in the digital one. Platform
-coordination runs through an algorithmic third party that reads both and commits outcomes neither controls.
-No prior competence reaches it. Governing it takes algorithmacy, those capacities indexed to the triad, and
-a different sovereignty. Coordinative sovereignty is the standing to shape one's terms of mediation, to
+coordination runs through an algorithmic third party that reads both and commits outcomes neither controls,
+which no prior competence reaches. Governing it takes algorithmacy, those capacities indexed to the triad,
+and a different sovereignty. Coordinative sovereignty is the standing to shape one's terms of mediation, to
 contest the mediator's arbitrary power, and to share in governing what the open tie does not dissolve.
 A counterfactual sorts mediators an actor can leave from those it can only govern, and names the
 institutional class available.
@@ -29,11 +29,12 @@ Yet a firm can satisfy every one of these requirements and remain strategically 
 software vendor with impeccable data-protection practices still depends, for its entire access to
 customers, on an application store's ranking and review decisions. It can read the store's published
 ranking parameters and file a complaint about an outcome, and it can neither predict those decisions nor
-govern them. Disclosure duties and complaint channels now reach parts of that layer, and section 3.2 takes
-them up. They still leave the merchant whose listings disappear, and the creator whose audience vanishes in
-a recommendation change announced nowhere, without standing over the determination that decided the
-outcome. Compliance governs how these actors handle data. Their market positions are decided somewhere
-else, inside the algorithmic systems through which the platform chooses what to surface and what to bury
+govern them. Disclosure duties and complaint channels now reach parts of that layer, as section 3.2 takes
+them up, and they still leave the merchant whose listings disappear, and the creator whose audience
+vanishes in a recommendation change announced nowhere, without standing over the determination that decided
+the outcome. Compliance governs how these actors handle data, while their market positions are decided
+somewhere else, inside the algorithmic systems through which the platform chooses what to surface and what
+to bury
 (Cutolo & Kenney, 2021; Rahman, 2021; Rahman et al., 2024).
 
 Behind the gap lies a pattern older than the platforms. Every form of sovereignty has required a competence
@@ -48,7 +49,7 @@ Platform coordination introduces a relationship the pattern does not cover. A wo
 creator does not stand on one side of a medium and read it. Each is coordinating with a counterpart it will
 never meet, through a system that reads them both at once and commits determinations neither of them
 controls. No amount of reading reaches that system, because reading is the wrong operation to perform on
-it. What sets the situation apart can be put as a question about the coordination's rules. Restore the
+it, and what sets the situation apart is a question about the coordination's rules. Restore the
 direct tie between the two parties the mediator stands between, the tie that strict mediation forbids, and
 ask what the mediator still does. Some mediators lose their grip entirely. Others lose nothing. That single
 difference decides whether an actor's remaining power is the power to leave or the power to be heard.
@@ -57,25 +58,25 @@ Where the mediator cannot be left, demanding independence is worse than futile. 
 leverage on a bypass that does not exist, and it redefines freedom as the absence of the coordination
 rather than as standing within it. Berlin (1969) named the general shape of that error: a person does not
 become free to walk by ceasing to want to walk. An actor that withdraws its demands from the terms of a
-mediation it cannot escape has not secured its autonomy. It has abandoned the field on which its autonomy
+mediation it cannot escape has not secured its autonomy; it has abandoned the field on which its autonomy
 would be exercised. E. Anderson (2017) makes the point about employment, where the right to quit has long
 been offered as the answer to an employer's authority and has never been sufficient, because the worker who
 quits arrives at another employer with the same powers.
 
-The alternative is coordinative sovereignty: standing within a coordination one cannot exit, the power to
+The alternative is coordinative sovereignty: standing within a necessary mediation, the power to
 shape the terms on which one is mediated, to contest the mediator's arbitrary power, and to hold a share in
-the governance of the arrangement. Digital sovereignty asks who controls the infrastructure. Coordinative
-sovereignty asks what autonomy remains for the actor coordinating through it. The two vary independently,
-and the rest of the chapter tells them apart.
+the governance of an arrangement the open tie does not dissolve. Where digital sovereignty asks who
+controls the infrastructure, coordinative sovereignty asks what autonomy remains for the actor coordinating
+through it. The two vary independently, and the rest of the chapter tells them apart.
 
 Bodin's objection arrives with the word. He made sovereignty supreme, perpetual, and indivisible (Bodin,
 1576/1992), so a standing that is shared, partial, and exercised by complaint can look like a misuse of the
-term. The democratic tradition dissolved that difficulty long ago. Habermas (1996) describes popular
+term. The democratic tradition dissolved that difficulty long ago, and Habermas (1996) describes popular
 sovereignty as desubstantialized, no longer seated in a person or an assembly at all: "sovereignty is found
-in those subjectless forms of communication" (pp. 486–487). Sovereignty in that sense is the standing to
-hold power to account through the medium in which power is exercised, and it is the sense a literate public
+in those subjectless forms of communication" (pp. 486–487). The term in that sense names the standing to
+hold power to account through the medium in which power is exercised, which is what a literate public
 exercises over a state whose writing it can read. Coordinative sovereignty adds two attributes to it, a
-mediation the actor cannot exit and a standing carried by voice, and so narrows the term's extension.
+necessary mediation and a standing carried by voice, and so narrows the term's extension.
 Repetto (2025), reviewing 240 works on digital sovereignty, reaches the same conclusion about the family:
 accounts that recognize multiple coexisting digital sovereigns "neither stretch the concept of sovereignty
 nor turn digital sovereignty into something different from sovereignty tout court," but "explore ways to
@@ -84,7 +85,7 @@ competence the standing requires.
 
 ## 2. Sovereignty and its sensibilities
 
-A competence that everyone has governs an authority everyone can contest. A competence held by a few
+A competence that everyone has governs an authority everyone can contest; a competence held by a few
 governs an authority the rest merely endure. Under a mediation an actor cannot leave, that distribution
 decides everything, because an actor who cannot leave and cannot contest has nothing left.
 
@@ -102,7 +103,7 @@ constituted the group (Goody, 1977; Ong, 1982). Everyone in such an order could 
 could speak in the forms that bound. Who might address the assembly, swear an oath the community would
 enforce, or recite the law as law was restricted by age, sex, birth, and office. The competence was general
 and the authorized exercise of it was not, which is the difference that decided who could hold power to
-account. Within its range that sovereignty was real. Beyond its range it stopped. An oral order could not
+account. Within its range that sovereignty was real; beyond its range it stopped. An oral order could not
 fix its law in a text, check today's ruling against last year's, or transmit a rule past the reach of
 living memory.
 
@@ -121,22 +122,21 @@ nation-state (B. Anderson, 1983/2006). Democratic sovereignty rests on literacy 
 citizens govern themselves to the degree they can read what institutions write and hold those institutions
 to account through textual means (Nussbaum, 2006; Sen, 1999).
 
-Literacy was a clerical monopoly for most of its history, and the point matters more than the celebration
-usually allows. Those who could write governed those who could not, and the reach of democratic sovereignty
-tracked the spread of the competence rather than the invention of the medium. Media theory has long paired
-forms of authority with the media that carry them, from Innis (1951) on how a civilization's dominant
-medium biases its form of power to Eisenstein (1979) on the printing press and the authority of church and
-state. One modest claim survives every qualification of that tradition: a sovereignty and its competence
-form together, and no sovereignty can be contested by those who lack the competence its medium requires.
+Literacy was a clerical monopoly for most of its history. Those who could write governed those who
+could not, and the reach of democratic sovereignty tracked the spread of the competence rather than the
+invention of the medium. Media theory has long paired forms of authority with the media that carry them,
+from Innis (1951) on how a civilization's dominant medium biases its form of power to Eisenstein (1979) on
+the printing press and the authority of church and state. A sovereignty and its competence form together,
+and no sovereignty can be contested by those who lack the competence its medium requires.
 
 ### 2.3 Digital sovereignty as extended literacy
 
 In its regulatory strand, digital sovereignty is the literate competence carried into the digital domain.
 The term refers to the ability of states, organizations, and communities to exercise control over their
 digital infrastructures, data, and technologies (Floridi, 2020; Hummel et al., 2021; Pohle & Thiel, 2020).
-The AI Act classifies systems and imposes documentation and transparency duties. The GDPR establishes
-data-subject rights exercised through notice, consent, access, and record-keeping. NIS2 mandates written
-cybersecurity governance. Each is a mechanism by which an actor with enough legal, technical, and
+The AI Act classifies systems and imposes documentation and transparency duties, the GDPR establishes
+data-subject rights exercised through notice, consent, access, and record-keeping, and NIS2 mandates
+written cybersecurity governance. Each is a mechanism by which an actor with enough legal, technical, and
 regulatory literacy can inspect a system, compare it against a standard, and hold its operator to account
 (Fratini et al., 2024; Schmuntzsch et al., 2025). That strand governs by making the digital object legible
 and by attaching consequences to what the legible object shows. An industrial strand — sovereign cloud,
@@ -158,8 +158,7 @@ layer it cannot.
 ## 3. The platform turn: coordination through an opaque, interested mediator
 
 Disclosure is the modality European regulation reaches for, and platform coordination is the case where it
-fails. The failure is not a shortfall of political will or a gap in drafting. It follows from what the
-coordinated actor is enrolled in.
+fails. The failure follows from what the coordinated actor is enrolled in.
 
 Organizational theory recognizes three mechanisms for coordinating economic activity: markets coordinate
 through price, hierarchies through authority, and networks through trust and reciprocity (Adler, 2001;
@@ -187,8 +186,8 @@ What is new is what the conjunction of features does to governance. The mediator
 high-dimensional systems produce its determinations and those determinations resist interpretation. It is
 adaptive, reconfigured continuously and without notice. And the interest it carries is not the algorithm's
 but the firm's: the owner pursues objectives of its own and retunes the system in their pursuit, so the
-apparatus that coordinates the parties is set by a party with a stake in the outcome. Each feature has been
-described before. Together they defeat disclosure as a way of governing. The coordinated actor takes no
+apparatus that coordinates the parties is set by a party with a stake in the outcome. None of the three is
+new; together they defeat disclosure as a way of governing. The coordinated actor takes no
 orders from a manager and signs no negotiated deal. The platform draws it into a system that assigns,
 ranks, prices, and recommends, whose rules it cannot see and whose objectives it does not share, and the
 system's ordinary operation produces its compliance.
@@ -199,8 +198,8 @@ exchange for their compliance. His formal co-optation did not: it "does not envi
 power. The forms of participation are emphasized but action is channeled so as to fulfill the
 administrative functions while preserving the locus of significant decision in the hands of the initiating
 group" (Selznick, 1949, pp. 13–14). Platform enrollment is formal co-optation with even the forms of
-participation removed. The seller has no seat and no ceremony of consultation, only a determination. The
-term is narrowed along Selznick's own axis.
+participation removed: the seller has no seat and no ceremony of consultation, only a determination, and
+the term is narrowed along Selznick's own axis.
 
 ### 3.1 The mediated triad
 
@@ -258,7 +257,7 @@ threshold is high, its practice thin, and its protection stops at the natural pe
 platform-dependent firm falls outside it. Against an opaque and adaptive coordination the wager mostly
 fails, and the disclosures that succeed reproduce the standing gap Ananny and Crawford (2018) name (Cohen,
 2017; Pasquale, 2023). Surveys of the sovereignty concept confirm the residue: Fratini et al. (2024) sort
-existing models of digital sovereignty as rights-based, market-oriented, centralising, or state-based, and
+existing models of digital sovereignty as rights-based, market-oriented, centralizing, or state-based, and
 judge them for whether they combine comprehensive regulation with responsiveness. None of that sorting
 addresses the coordination through which platforms enroll and bind.
 
@@ -495,8 +494,8 @@ withhold the very integration that would make it necessary.
 The diagnostic decides which sovereignty is available. Hirschman (1970) drew the distinction for
 organizations in decline. A member of a failing organization has two powers: exit, the power to leave, and
 voice, the power to stay and press for change. Bypassability is the availability of exit. Necessity does
-not produce voice. It forecloses exit and leaves voice as the residual lever, one available against
-contingent mediators too and the only one left where the mediator is necessary. Whether a coordinated actor
+not produce voice. It forecloses exit and leaves voice as the residual lever, available against a contingent gate too
+and the only one left where the mediation is necessary. Whether a coordinated actor
 can leave becomes a designable fact, set by whether the mediator is contingent, and contingency is a policy
 and strategy variable. Scholars have already carried the pair to platforms, notably to the constrained
 voice of platform workers (Dasgupta et al., 2025).
@@ -643,12 +642,12 @@ collective-choice arrangements over the coordination's rules, standing the owner
 rewrite without contest.
 
 Who bears this standing, a person or a firm? Both, because the construct is defined by a relation: whoever
-occupies the position of being coordinated through a mediation it cannot leave bears coordinative
+occupies the position of being coordinated through a necessary mediation bears coordinative
 sovereignty. Republican theory has already licensed the move, extending non-domination to corporate bodies
 while treating a corporate body's freedom as valuable for the sake of its members (Pettit, 2016). The same
 holds here. A firm's coordinative sovereignty matters because of what it secures for the people who make it
 up. Where the two diverge, the members' standing governs. A reader may decline that priority and keep the
-rest. The construct is one. The measurement differs by level, and section 9 takes that up.
+rest. The construct is one; the measurement differs by level, and section 9 takes that up.
 
 Most digital-sovereignty work asks who controls the infrastructure and answers with reclaimed control,
 whether by a state, a community, or a firm (Floridi, 2020; Pohle & Thiel, 2020; Roberts et al., 2021). The
@@ -666,7 +665,7 @@ remedy locates the wedge. They acknowledge that domination can survive a change 
 managerial decay inside cooperatives. The remaining problem is structural. Worker ownership can change who
 sets a necessary mediator's rules and cannot make the mediator leaveable. A driver-owned dispatch platform
 still coordinates its drivers through a system no single driver can bypass, so the question of standing
-within an irreducible coordination outlives the question of who holds the title. E. Anderson (2017) makes
+within a necessary mediation outlives the question of who holds the title. E. Anderson (2017) makes
 the parallel argument for the firm, where the right to quit has long been treated as the answer to employer
 authority and does not dissolve it.
 
@@ -686,8 +685,8 @@ what algorithmacy decides, which is why the competence and the institutions have
 
 ## 7. Building standing
 
-The diagnostic sorts institutions, and the sorting produces a result that a catalog of remedies would miss:
-the same instrument changes character depending on which kind of mediator it meets.
+The diagnostic that sorted mediators now sorts those institutions: the same instrument changes character
+depending on which kind of mediator it meets.
 
 Interoperability shows this most clearly. Where a mediator's position is contingent, held by lock-in,
 mandated interoperability and data portability lower the cost of the direct tie and restore a measure of
@@ -764,13 +763,14 @@ leverage that makes a bargaining unit's demands credible, and the data it pools 
 give contestation its evidence. An interoperability mandate aimed at the contingent functions relieves
 pressure on the necessary ones by giving the actor somewhere else to go for what can be gotten elsewhere.
 No single instrument is likely to deliver coordinative sovereignty. It is the cumulative standing a stack
-of such institutions confers, and the diagnostic is what tells a policymaker where to put each one.
+of such institutions confers, and the diagnostic that places each one also splits what current research
+treats as a single organizational capability.
 
 ## 8. Implications
 
-Current research typically operationalizes organizational digital sovereignty as a single capability built
-from regulatory and infrastructural components (Fratini et al., 2024; Hummel et al., 2021; Schmuntzsch et
-al., 2025). The typology here separates two phenomena that vary independently across firms. Digital
+Fratini et al. (2024), Hummel et al. (2021), and Schmuntzsch et al. (2025) operationalize organizational
+digital sovereignty as one capability built from regulatory and infrastructural components. The typology
+separates two phenomena that vary independently across firms. Digital
 sovereignty is a literacy construct, measuring an organization's capacity to read and control its data,
 infrastructure, and code. Coordinative sovereignty is an algorithmacy construct, measuring an
 organization's standing within the algorithmic coordination on which it depends. A firm can be high on the
@@ -805,12 +805,12 @@ coordination form rather than conferring standing inside it. Article 25 is the v
 member states to promote collective bargaining in platform work, including measures "to facilitate the
 exercise of their rights related to algorithmic management set out in Chapter III." A legislature there
 ties collective voice directly to standing over algorithmic coordination, which is coordinative sovereignty
-written into law. Standing over the coordination is being built while control of the infrastructure stays
-at zero.
+written into law. Member states are building that standing while control of the infrastructure stays at
+zero.
 
 Compliance investment leaves a strategic exposure that falls hardest on the small and medium-sized
 enterprises that depend on platforms they have no scale to influence. A firm that invests in regulatory
-compliance secures a digital position and acquires no ability to predict or contest the algorithmic
+compliance secures a digital position and does not acquire standing over the algorithmic
 determinations that set its market outcomes. The exposure is an algorithmacy gap, and the diagnostic gives
 managers a decision procedure for it. Where the firm depends on a contingent mediator, the move is toward
 exit: support interoperability, build or back an alternative, break the lock-in. Where it depends on a
@@ -852,8 +852,7 @@ each other.
 
 ## 9. Future research directions
 
-The typology's contribution is conceptual, and the empirical program it opens begins with measurement. Four
-directions follow, in rough order of dependence.
+The empirical program begins with measurement. Four directions follow, in rough order of dependence.
 
 The first is a validated instrument for algorithmacy. Its three dimensions point to a multidimensional
 scale, and the central difficulty is discriminant validity against a construct that already exists.
@@ -868,9 +867,11 @@ of an actor's predictions of how a system will treat a set of moves, scored agai
 The second is a validated instrument for coordinative sovereignty. Its standing dimensions — freedom from
 the mediator's arbitrary power, effective voice over the terms of mediation, and a share in the
 coordination's governance — would have to be measured under the condition that defines the construct: a
-mediator the actor cannot readily leave. The nearest validated construct is psychological empowerment
-(Spreitzer, 1995), and the task is to show that standing within an unexitable external mediation differs
-from felt empowerment inside an organization one could leave. Republican theory offers a usable test item
+necessary mediation, an arrangement the open tie does not dissolve. Lock-in under a contingent gate is
+involuntary retention, and it belongs to the exit column. The nearest validated construct is psychological
+empowerment (Spreitzer, 1995), and the task is to show that standing within a mediation the actor cannot
+bypass differs from felt empowerment inside an organization one could leave, and differs again from
+standing withheld by switching costs alone. Republican theory offers a usable test item
 in the form of the question whether an actor can look the mediator in the eye and speak plainly, without
 needing to ingratiate or to avoid provoking a power that could retaliate. Because the construct has both an
 individual and an organizational bearer, the instrument needs a form at each level, and their
@@ -910,8 +911,9 @@ to account. Literacy held the literate state to account, and the digital extensi
 data, infrastructure, and code. Platform coordination introduces a medium the prior competences cannot
 govern, because it does not present authority as a text to be read. It enrolls the coordinated actor into a
 system that interprets it and commits its outcomes. The competence equal to that medium is algorithmacy,
-and the standing it makes possible is coordinative sovereignty: effective voice within a coordination one
-cannot leave, carried far enough to be a share in how that coordination is governed.
+and the standing it makes possible is coordinative sovereignty: effective voice within a necessary
+mediation, an arrangement the open tie does not dissolve, carried far enough to be a share in how that
+coordination is governed.
 
 The line between mediators an actor can leave and mediators it can only govern is checkable by a
 counterfactual that asks what a mediator would still do if the parties it stands between could reach each
@@ -1316,8 +1318,8 @@ strand works by jurisdiction and ownership.
 **Coordinative sovereignty:** The autonomy proper to a necessary mediation. It is the standing to shape the
 terms on which one is mediated, to contest the mediator's arbitrary power, and to hold a share in the
 governance of an arrangement the open tie does not dissolve. Its currency is effective voice. It is borne
-by whatever actor occupies that relation, individual or organizational. Irreducibility as a coordination is
-currently wired does not by itself establish the condition; necessity does.
+by whatever actor occupies that relation, individual or organizational. Irreducibility as the
+coordination is currently wired does not by itself establish necessity.
 
 **Algorithmacy:** The competence through which an actor coordinates with another party through an algorithmic
 third party that reads both and commits determinations neither controls. It has three parts: inferential

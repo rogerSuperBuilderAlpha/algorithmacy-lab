@@ -3,11 +3,10 @@
 Rebuild completed 2026-08-01. Chapter due **2026-08-30**. This file lists everything the rewrite could not
 close, ranked by how much damage it would do if it reached a referee unfixed.
 
-> **Read §0g first.** The 2026-08-17 fix pass applied the five-seat panel and reset the base text.
-> `chapter.md` is the only submittable file; `chapter_v2.md` is superseded and no longer at parity.
-> Sections 0a–0f below record how the manuscript got here and remain accurate as history, with one
-> correction noted in §0f: §0c's claim that the COM(2026) 178 gloss was "confirmed verbatim" was wrong,
-> and §0g fixed the clause.
+> **Read §0j first.** The 2026-08-17 evening pass applied the post-fix panel
+> (`reviews/2026-08-17-post-fix/`). `chapter.md` is the only submittable file; `chapter_v2.md` is
+> superseded and no longer at parity. Sections 0a–0i below remain accurate as history. §0g applied
+> the morning five-seat panel; §0j closed the cascade that panel left.
 
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 
@@ -490,3 +489,50 @@ That note now reports a change rather than declining one, which is the stronger 
 editor's condition and a production constraint at the same time. Whether the volume wants to be told the
 title moved between acceptance and submission is the author's judgment — but the deck and poster do carry
 the longer form, so telling them is safer than letting a production editor find the mismatch.
+
+## 0j. Cascade pass — post-fix panel applied, 2026-08-17 evening
+
+`chapter.md` now carries the evening five-seat re-read (`reviews/2026-08-17-post-fix/SYNTHESIS.md`).
+15,261 words, abstract 148. Exports regenerated and checked.
+
+**S1, the consensus weld.** The §6 definition already keyed coordinative sovereignty to a necessary
+mediation. The cascade that had not travelled now does: §9 measures the instrument under that
+condition, not under “cannot readily leave”; lock-in under a contingent gate is named as involuntary
+retention and kept in the exit column. §10 compresses to the same wording. The bearer sentence and
+the Muldoon leftover use “necessary mediation.” The Key Terms last sentence restores the body’s
+grammar (“Irreducibility as the coordination is currently wired does not by itself establish
+necessity”). §1’s working definition and the two added attributes follow the same predicate, so
+“cannot exit” is no longer reinstalled as the official added property.
+
+**Single-seat welds.** §8 Implications no longer restores a predict/contest vacuum: compliance
+secures a digital position and does not confer standing. §7 closes on the diagnostic splitting what
+research treats as one capability; §8 opens on that split with cites in subject position. §7 opens
+by retrieving the diagnostic as the tool that now sorts the institutions just said to be built.
+
+**Style nits.** The §3 political-will foil is gone. The §2.2 “point matters more” clause is gone.
+Fratini’s adjective is `centralizing`.
+
+**Left alone, as the panel required.** OTA dating; capability of direct dealing; “computable”;
+DeVito `crystalize`; Art. 22; Apple €500M; P2B/DGA repeal; COM(2026) 178 limited demand; Hirschman
+mapping; Schegg / ECN numerals; App Store rail/rule; abstract standing-gap; Fratini four-model sort;
+presumption/Art. 25 split; the three morning spine handoffs; Curchod `(Abstract)`; Anderson `11[8]`;
+zero first person; `the argument` = 0. §6’s own “Cannot leave” sentence stays: it names the
+structural fact of necessity, then distinguishes it from lock-in and irreducibility.
+
+**Cadence pass, same evening.** Against Pohle & Thiel and Muldoon & Raekstad (mean ~32 words; <12w
+3–6%; >40w 21–25%), the live chapter still writes shorter (mean 21.7; <12w 22.5%; >40w 8.9%). The
+gap is stacked shorts, not bad claims. About twenty adjacent pairs whose logic was already
+subordinate were merged — the same operation as `chapter_v2.md`, applied only where the current
+wording allowed it. Drumbeats of “sovereignty” and “mediator” cleared. Cut: “One modest claim
+survives,” “Each feature has been described before,” “Building the institutions is not a catalog,”
+“The typology's contribution is conceptual,” and the agentless “Standing over the coordination is
+being built.” Left alone, as §0e required: the §4 eBay week, the §5 parallel constructions, and
+“Some mediators lose their grip entirely. Others lose nothing.” Closing the rest of the band would
+mean merging sentences that are not subordinate, which is how a variance fix becomes a new
+uniformity. The author’s read-aloud still decides.
+
+**Still owed.** Submission-week VERIFY (T-438/25 pending; Directive 2024/2831 NIM; COM(2025) 837
+still a proposal); the author’s read-aloud of §6’s definition paragraph and §5.2’s App Store
+paragraph; Hunt et al. (2025) omission; companion-paper scope if a referee asks; professional copy
+edit; numbered-section question for the volume editor; biographical sketches and the copyright
+agreement.
