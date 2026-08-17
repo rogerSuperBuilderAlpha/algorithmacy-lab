@@ -392,9 +392,10 @@ problem to be managed.
 
 There is an important division between these principles. The first three can largely be addressed
 through interface design, organizational communication, and training. The final two cannot be
-supplied by individual competence, however skilled the guest or employee becomes. They require
-institutional decisions about staffing, authority, review, and responsibility (Martin and Waldman
-2022; Alfrink et al. 2023; Hirsbrunner et al. 2025). A hospitality organization that responds to a
+supplied by individual competence, however skilled the guest or employee becomes. The first three,
+that is, extend hospitality algorithmacy; the final two are matters of coordinative sovereignty, and
+they require institutional decisions about staffing, authority, review, and responsibility (Martin
+and Waldman 2022; Alfrink et al. 2023; Hirsbrunner et al. 2025). A hospitality organization that responds to a
 problem of contestability by providing more guest education has therefore misdiagnosed its own
 condition. Some problems require people to become more capable; others require institutions to
 become more answerable (Yurrita et al. 2025).
@@ -476,11 +477,13 @@ for any of the three.
 Second, the paper proposes a checkable distinction between mediation that augments hospitality and
 mediation that substitutes for it. Common understanding, predictability, and accountability
 provide a way of examining what remains available to guests and employees at particular phygital
-touchpoints (Okhuysen and Bechky 2009; Bovens 2007). This shifts analysis away from broad
+touchpoints, with accountability as the condition that decides between augmentation and
+substitution (Okhuysen and Bechky 2009; Bovens 2007). This shifts analysis away from broad
 questions about whether automation is good or bad and towards the specific institutional
 arrangements through which automation operates.
 
-Third, the paper separates competence from standing. Guests and employees can learn to interact
+Third, the paper separates competence from standing, hospitality algorithmacy from coordinative
+sovereignty. Guests and employees can learn to interact
 effectively with algorithmic systems, but individual skill cannot create institutional rights,
 authority, or responsibility (Zhou et al. 2025; Are 2025).
 
@@ -738,7 +741,7 @@ Odekerken-Schröder, Gaby, Mennens, Kars, Steins, Mark and Mahr, Dominik (2022),
 
 Okhuysen, Gerardo A. and Bechky, Beth A. (2009), 'Coordination in organizations: An integrative perspective', *Academy of Management Annals*, 3:1, pp. 463–502.
 
-Padigar, Manjunath, Li, Yi and Manjunath, Chandana N. (2024), '"Good" and "bad" frictions in customer experience: Conceptual foundations and implications', *Psychology & Marketing*, 42:1, pp. 21–43.
+Padigar, Manjunath, Li, Yi and Manjunath, Chandana N. (2025), '"Good" and "bad" frictions in customer experience: Conceptual foundations and implications', *Psychology & Marketing*, 42:1, pp. 21–43.
 
 Pan, Shan-Yan, Lin, Yan and Wong, Jose Weng Chou (2025), 'The dark side of robot usage for hotel employees: An uncertainty management perspective', *Tourism Management*, 106, 104994.
 

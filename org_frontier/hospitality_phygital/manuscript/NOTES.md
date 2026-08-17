@@ -2,6 +2,64 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the Fable full review, and three tools that were checking the wrong things
+
+A single reviewer read the whole draft against all nine model essays in the hospitality register
+corpus, judging reasoning and prose rather than hunting findings. Review at
+`reviews/2026-08-17/09_fable_full_review.md`.
+
+**Verdict: publishable in this journal as it stands, minor revisions at worst.** The argument holds
+end to end. The Bovens move discharges section 1's promise, the conditional-at-admission paragraph
+is called the best reasoning in the paper, and section 9's answer is the one section 3 earns.
+
+**On the prose, measured against the corpus, the verdict is that it is good.** Sentence mean 23.3
+against a corpus range of 25.6 to 30.8; short sentences at 23.8% against 7 to 15%; first person
+0.5 per thousand against 2.3 to 9.5; connectives 3.6 per hundred sentences against 9 to 30. Plainer
+and cooler than the venue, and a distinct voice publishing in it rather than an imitation of it.
+Three suspected faults were cleared on measurement and reported as cleared rather than suppressed:
+'important' runs at exactly the venue rate, sentence variance is healthy, and verdict-final
+paragraphs match the models.
+
+**Twelve fixes applied, net about +73 words.** Several were defects introduced by this week's own
+passes. The spine weld left 'Each of these responsibilities' standing before its antecedents. The
+central inference was a premise short, so the sentence about judgement and consequence landing only
+on a party able to revise the rule is now stated. Section 4's rule had quietly overshot into
+sufficiency. Section 5's definition of coordinative sovereignty said 'a coordination one cannot
+leave', which the paper's own fifth design feature contradicts by pricing the exit rather than
+denying it; now 'cannot leave without cost'. Kropf moved to narrative citation, which is what the
+reversed citation ruling reserves for a source whose argument is the object of discussion.
+
+**The headline fix.** The paper named hospitality algorithmacy and coordinative sovereignty in
+section 5 and never used either again, while the abstract promised both. A referee reads that as
+branding. Both now recur in sections 6 and 8, at the points where the division they name is
+actually doing work.
+
+**Three tools were checking the wrong things, and two of them were mine.**
+
+1. `check_citations.py` was hardcoded to `manuscript.md` and silently ignored its argument. Every
+   'citations OK' reported this session was about the superseded draft. It now takes a path and
+   defaults to `DRAFT.md`.
+2. The same script rendered its comparison list from `cited_keys.txt` while `DRAFT.md` renders from
+   `cited_keys_draft.txt`, so entries unique to the current draft looked like year disagreements.
+   Four were reported and all four were false. The key list now follows the paper.
+3. `preflight.py` matched citations by surname only, so a year mismatch passed. Fable found one:
+   Padigar was 2025 in the body and 2024 in the list, because a Tier 1 edit had been made to the
+   *rendered* list and two later re-renders reverted it. The fix belonged in the bibliography. The
+   preflight now compares years, and its first version missed the narrative form `Author et al.
+   (2024)`, which was also fixed and tested against a deliberately broken copy.
+
+The pattern across all three is one thing: a tool pointed at stale state reports success. That is
+the same failure as the artifact staleness check earlier in the week, and the same as the card
+library on 11 August.
+
+**Measured after.** Body 6,678, inside the 6,000 floor and the author's 'not much over'. Sentence
+mean 19.7, paragraph mean 122.5, zero em-dashes, two authorial first persons, 154 citations
+resolving with years matched, 23 of 23 preflight checks passing.
+
+**Still open.** The Sharma and Mattila full text, which nobody on this project has read and on which
+section 3 rests four sentences. Page locators for three quotations. The reference-counting ruling.
+The author-supplied components. And a read-aloud.
+
 ## 2026-08-17 — Tier 3, and two items refused
 
 Three of the six Tier 3 items landed. Two were refused on verification grounds and one was dropped

@@ -70,6 +70,20 @@ def main():
             uncited.append(m.group(1))
     check(not uncited, "every reference entry is cited", ", ".join(uncited[:6]) or "all cited")
 
+    # Surname matching alone cannot see a year mismatch: a re-render can silently revert a
+    # year fixed by hand in the rendered list while the in-text citation keeps the new one.
+    listed = {}
+    for e in entries:
+        m = re.match(r"([A-Z][\w’'\-]+).*?\((\d{4}[a-z]?)\)", e)
+        if m:
+            listed.setdefault(m.group(1), set()).add(m.group(2))
+    mismatched = sorted(
+        f"{n} {y}" for n, y in re.findall(r"([A-Z][\w’'\-]+)(?:\s+(?:et\s+al\.|and\s+[A-Z][\w’'\-]+))?\s+(\d{4}[a-z]?)", body)
+        if n in listed and y not in listed[n]
+    )
+    check(not mismatched, "in-text years match the reference list",
+          ", ".join(mismatched[:6]) or "all match")
+
     # --- reference list form ---------------------------------------------------
     def fold(e):
         return "".join(c for c in unicodedata.normalize("NFKD", e) if not unicodedata.combining(c)).lower()
