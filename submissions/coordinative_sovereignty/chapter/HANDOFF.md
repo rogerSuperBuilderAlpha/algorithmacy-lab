@@ -433,6 +433,35 @@ share. §2 was made to inherit the competence thread, so §1's Bodin–Repetto d
 yields the last slot to a forward hook; §2's Habermas restatement went, since §1 already traces the pairing.
 Hunt et al. (2025) remains omitted.
 
-**Still owed:** the six live VERIFY confirmations in submission week, the IGI template, the editor note on
-the title, and the author's read-aloud — §6's definition paragraph and §5.2's App Store paragraph are the
-two most changed and should be read first.
+**Still owed:** the six live VERIFY confirmations in submission week, the editor note on the title, and the
+author's read-aloud — §6's definition paragraph and §5.2's App Store paragraph are the two most changed and
+should be read first.
+
+## 0h. The IGI template, 2026-08-17 → `IGI_REQUIREMENTS.md`
+
+**There is no chapter template to fetch.** Earlier passes recorded one as a missing artifact; IGI publishes
+none. The Contributing Author Checklist points at the Before You Write page and links no template, and the
+only organization-and-formatting `.docx` on IGI's server is the *journal article* one, a different genre
+carrying IGI house heading styles rather than the APA 7 headings the chapter guidelines require. For
+chapters the published guidelines are the specification, and `IGI_REQUIREMENTS.md` captures them with source
+URLs, a fetch date, and a conformance table.
+
+**One failure, and it is not just formatting.** IGI caps subtitles at 50 characters. "Toward a Coordinative
+Sovereignty for the Platform Era" is **54**. This is an independent, mechanical reason the title can come
+back at production, separate from the volume editor's condition #4 that the author declined — so the drafted
+note in §0c may need rewriting, since it defends keeping the title exactly as circulated. Dropping "Toward
+a" gives "Coordinative Sovereignty for the Platform Era" at 45 and keeps every content word. **Author's
+call; nothing applied.**
+
+**Everything else conforms:** main title 28 characters, abstract 148 and third person, 15,277 words against
+a 10,000 minimum, 14 Key Terms against a minimum of 7, 8 Additional Reading against a maximum of 10,
+"Conclusion" singular, APA 7 citations closed, `.docx` submission format, anonymization holding. No figures
+or equations, so the `.tif` and MathType rules do not apply.
+
+**Open question for the editor: numbered sections.** IGI tells chapter authors to use APA 7 headings, which
+are not numbered; this manuscript numbers §1–§10 and nine cross-references point at those numbers. Ask
+before submitting. If the numbers go, nine sentences need the sections named by title instead.
+
+**Not in the repo, and needed alongside the chapter:** biographical sketches (100–150 words, third person,
+three authors), the signed copyright agreement in eEditorial Discovery, affiliation and contact details, and
+a professional copy edit, which IGI states as a requirement and which none of the review passes satisfies.
