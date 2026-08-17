@@ -2,6 +2,47 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — style review: the audit repairs measured against Pierre's own prose
+
+The 813 words the audit repairs added were separated from his 8,079 by word-level diff and measured
+against them. Three divergences were real, and all three are now closed.
+
+| | Pierre | mine, before | mine, after |
+|---|---|---|---|
+| Sentence mean | 18.8 | 22.4 | 16.8 |
+| Sentence median | 17.0 | 20.0 | 16.0 |
+| Short sentences under 12 words | 31% | 15% | 21% |
+| Sentences over 35 words | 8% | 12% | 0% |
+| *rather than* per 1,000 | 0.87 | 6.17 | 2.51 |
+| True hedges per 1,000 | 0.00 | 0.00 | 0.00 |
+| Em-dashes per 1,000 | 0.00 | 0.00 | 0.00 |
+
+**One. My sentences ran long and even.** Pierre's rhythm is dense-then-short: a 40-word sentence
+carrying a mechanism, then a four-word one landing it. *It does not.* *Increasingly, it plainly
+can.* My repairs came in at a uniform 22 words with half his rate of short sentences, which is the
+uniformity that marks a passage as written by someone else even when every sentence is defensible.
+Six long sentences were split at their natural seams, the worst a 57-word chain about value
+co-creation. No content left; it was redistributed.
+
+**Two. I leaned on *rather than* six times in 813 words**, against his eight times in 8,079. That is
+the antithesis machine, and it reads as a tic. Three of the five were rebuilt on his own contrast
+pattern instead, the short declarative pair he uses throughout: *The problem is not the length of
+the chain. It is a break in it.*
+
+**Three. Two agentless passives had a nameable agent.** *The pattern has been reported* became
+*Phygital service work has reported the pattern*; *has barely been carried into* became *has barely
+reached*. The remaining passives are the ordinary kind, where the agent is genuinely unknown, and
+they sit at his rate.
+
+**Two flags that turned out to be measurement artefacts, recorded so nobody re-opens them.** A
+hedging count of 6.17 per 1,000 against his 0.97 was entirely *rather than*, which is a contrast
+construction and not a hedge; true hedges are zero in both. And second person at 1.23 against his
+5.20 is not a defect, because his second person lives in the opening vignette and the diagnostic
+questions, and the repair passages are citation work where direct address would be false.
+
+**What was not touched.** Not a word was cut, per instruction, and the length gate still fails at
+8,704. The repairs remain exactly the ones the source audit specified.
+
 ## 2026-08-17 — the source audit worked into Pierre's version
 
 The memo in [`reviews/2026-08-18/FOR_PIERRE.md`](reviews/2026-08-18/FOR_PIERRE.md) is now applied to
