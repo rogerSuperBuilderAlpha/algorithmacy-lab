@@ -14,10 +14,10 @@ The table is the part editors actually read. Everything below it is supporting d
 |---|---|
 | Shorten the title | Adopted as you proposed: *Who Hosts the Guest? Reconfiguration of Hospitality in Phygital Spaces*. The dropped phrases survive as keywords two and three |
 | Integrate the dual-place process of physicalization and digitalization | §3, second paragraph. This was the most useful of your suggestions and it corrected a real weakness — see below |
-| Make human-centricity explicit | §6, in the paragraph on organizational gains, and §8, first contribution. Defined as who answers, who overrides and who remains reachable |
-| Positive, negative and neutral impact on individual and collective well-being, with societal implications | §4, final two paragraphs, framed against transformative service research. The neutral case is given a definition rather than a hedge |
-| Industry gains, transition challenges, and how the framework addresses them | §6, two paragraphs before the roadmap |
-| A phygital hospitality transformation roadmap | §6, "A phygital hospitality transformation roadmap", with Table 2 setting out three phases |
+| Make human-centricity explicit | §8, first contribution. Defined as who answers, who overrides and who remains reachable, and stated so that keeping a human visible is neither necessary nor sufficient |
+| Positive, negative and neutral impact on individual and collective well-being, with societal implications | §8, framed against transformative service research. The evidence supports a range rather than a verdict, so the paper reports it as one: the same mediation can enchant, disenchant or re-enchant depending on the surrounding arrangements |
+| Industry gains, transition challenges, and how the framework addresses them | §8, in the two paragraphs before the roadmap |
+| A phygital hospitality transformation roadmap | §8, with Table 2 setting out five stages: audit, specify, design, constitute, preserve |
 | Cite APA phygital research and foundational *Hospitality & Society* work | Ten references added, including the summit-linked special-issue literature; the journal's founding statement now anchors §2 |
 
 ## Three notes we owe you
@@ -45,18 +45,18 @@ seemed the most useful form the suggestion could take.
 
 ## On length
 
-The revised manuscript runs to approximately 8,900 words including references, notes, keywords,
-abstract and biographies — inside the 6,000–9,000 range in the Notes for Contributors, with a little
-room to spare. Accommodating seven additions inside that ceiling required removing material, and we
-took it from redundant second citations and from corroborating evidence rather than from the
-argument. Should you prefer any of the additions developed further, we can find the room by trimming
-elsewhere, and would rather be told than guess.
+The article runs to approximately 6,500 words, with a reference list of 124 entries beyond it.
+Whether the Notes count that list against the 6,000–9,000 range decides whether we sit comfortably
+inside it or a little above, and we would rather be told than guess. Accommodating seven additions
+required removing material, and we took it from redundant second citations and from corroborating
+evidence rather than from the argument. Should you prefer any of the additions developed further, we
+can find the room by trimming elsewhere.
 
 ## What the paper does not claim
 
 We should flag one boundary, because the roadmap invites a reading we do not intend. Section 8 states
-that the relationships we propose between the five affordances and guest and employee outcomes are
-theorized and await measurement, and the roadmap in §6 inherits that limit: it sequences a diagnosis
+that the relationships we propose between the five design features and guest and employee outcomes
+are theorized and await measurement, and the roadmap inherits that limit: it sequences a diagnosis
 the framework licenses, not an intervention we have tested. We have written it so that each phase
 derives from the paper's own analysis, and so that its central claim — that the sequence cannot be
 discharged by procurement — follows from the competence-and-standing distinction rather than from

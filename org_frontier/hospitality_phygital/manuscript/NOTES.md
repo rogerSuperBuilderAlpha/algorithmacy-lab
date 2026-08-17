@@ -2,6 +2,48 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the front matter, corrected against the revised body
+
+The editor's headline was that the abstract promised two constructs the body never named. Naming
+them in section 5 discharged that. What the front-matter pass found is that the Tier 1 and Tier 2
+edits had themselves falsified the packet, and that one limit was already breached before anyone
+touched it.
+
+**The abstract was over the ceiling, and nobody had measured it.** The file claimed 197 words, the
+editor estimated 199, and it ran to 203 against a 200 limit. Rewritten to 198, verified.
+
+Three things in it were false by the time I read it. Substitution was still defined as accountability,
+predictability and common understanding withheld *together*, which section 4 no longer says and which
+had ruled out the paper's own transparent-but-substitutive case. The design features were still
+called affordances, one of the three names the editor flagged for a single object. And the claim to
+give the neutral case 'a definition rather than a hedge' was never discharged, since section 8 reports
+a range: the same mediation can enchant, disenchant or re-enchant. All three corrected against what
+the manuscript now argues.
+
+**The abstract also never stated the paper's contribution.** It described the triad and the
+redistribution and stopped short of the host question, which is the one claim the panel verified as
+unprecedented. It now asks whether the intermediary inherits what a host owes and answers: the duty
+does not travel with the function, because a system can perform a welcome and cannot answer for one.
+
+**Keywords.** 'hospitality theory' named the field the article sits in rather than anything the
+article is about. Swapped for 'contestability', which is what sections 6 and 7 turn on.
+
+**Highlights.** The third stated the old three-condition rule and is rewritten to the new one. All
+five character counts were stale; recomputed, and all sit under 85.
+
+**The response letter's section map was wrong in four rows.** Human-centricity, well-being, industry
+gains and the roadmap were all pointed at sections 4 and 6; every one of them is in section 8.
+Table 2 was described as three phases and has five. The length paragraph claimed roughly 8,900 words
+all-in; the article is about 6,500 with 124 references beyond it, and since the counting rule is
+unsettled the letter now says so and asks, which is better than asserting a number we cannot defend.
+
+**Left to the authors, correctly.** ORCIDs, biographies, the publishing agreement, the postal
+address, the ethical and conflict statements, and confirmation that the AI acknowledgment describes
+what actually happened. None of these can be supplied here.
+
+**Repo convention noted:** this repository lands changes through a pull request into `contrib`, not
+`main`. Recorded because earlier work this week went to `main`.
+
 ## 2026-08-17 — the mechanical pass, and where it belonged
 
 The copyeditor's finding was that 120 of 124 reference titles were in Title Case where Intellect
