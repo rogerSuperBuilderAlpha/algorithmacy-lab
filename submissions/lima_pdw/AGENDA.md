@@ -11,7 +11,7 @@ can settle them.
    overdue and outranks everything else on this page. Sending is the author's — no agent contacts the
    organizers, and none has.
 3. **The IRB question on the Zhou block.** The twelve adapted discriminant items added to
-   `../survey/cohort_algorithmacy/` W2 on 2026-08-13 sit under protocol 260511078, whose exempt
+   `../../org_frontier/survey/cohort_algorithmacy/` W2 on 2026-08-13 sit under protocol 260511078, whose exempt
    determination was made on the design as registered in May. File a Research Progress & Review Form,
    or record a ruling that none is needed, before W2 opens.
 4. ~~The GauntleTT data inventory~~ — moot. The manuscript carries no data by design.

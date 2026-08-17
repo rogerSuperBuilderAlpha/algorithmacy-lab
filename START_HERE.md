@@ -5,8 +5,11 @@ newcomer who just opened this repo. When someone asks *"what is this?"*, *"where
 *"what can I do here?"*, do not answer with a long essay. Run the guided onboarding below.
 
 The goal is not to explain the repo. The goal is to get the newcomer to **ask one interesting question of
-their own** and **run their first experiment** inside fifteen minutes. Everything else (`OVERVIEW.md`,
-`README.md`, `AGENTS.md`) is reference they can reach for once they are moving.
+their own** and **run their first experiment** inside fifteen minutes. Everything else (`NOW.md` for
+deadlines, `OVERVIEW.md`, `README.md`, `AGENTS.md`) is reference they can reach for once they are moving.
+
+If they arrived because a manuscript is due, send them to [`NOW.md`](NOW.md) and stop. Do not onboard
+them through a Φ probe.
 
 ## How to run this onboarding
 

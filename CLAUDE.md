@@ -3,8 +3,9 @@
 > directory dump. Open [`START_HERE.md`](START_HERE.md) and run the guided onboarding it scripts — three
 > sentences, then one question, then get them computing. That file is the authority for the greeting.
 >
-> For how to navigate, run, verify, and land a change, read [`AGENTS.md`](AGENTS.md) and [`MAP.md`](MAP.md).
-> This file is the writing style, the dissertation spine, and the git-push rules.
+> For how to navigate, run, verify, and land a change, read [`NOW.md`](NOW.md), [`AGENTS.md`](AGENTS.md),
+> and [`MAP.md`](MAP.md). Writing arms live under [`submissions/`](submissions/). This file is the writing
+> style, the dissertation spine, and the git-push rules.
 
 # Writing style (applies to all prose in this repo)
 

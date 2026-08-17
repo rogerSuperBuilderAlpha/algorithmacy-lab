@@ -96,6 +96,7 @@ def _row(label_link: str, gloss: str) -> str:
 # Curated entry documents, in reading order. Each row is emitted only if the file exists, so a
 # removed document drops out of the map.
 _ENTRY_DOCS = [
+    ("NOW.md", "This week's live deadlines and canonical drafts — read this first"),
     ("START_HERE.md", "Guided onboarding an AI assistant runs for a newcomer: from \"what is this?\" to a first computed verdict"),
     ("AGENTS.md", "Operating manual for agents: map, run/verify, git rule, land flow, done-checklist"),
     ("README.md", "What the lab is, the thesis, setup, and the full generated directory"),
@@ -119,19 +120,31 @@ _MACHINERY = [
     ("ci/reproduce.py", "python ci/reproduce.py", "every registered number in ci/reproduce.json"),
 ]
 
-# The four programs of the lab, each rooted at a directory whose README carries its scope. Computational
-# is the hub at org_frontier/ itself (the protocol, probes, questions, studies).
-_PROGRAMS = [
+# Grouped lab surface. Computational is the hub at org_frontier/ itself.
+_INSTRUMENT = [
+    ("foundations", "Instrument validation — what tracks exact IIT-4.0 Φ"),
+]
+_COMPUTATIONAL = [
     ("org_frontier", "Computational — exact Φ on Boolean models: the protocol, probes, questions, studies"),
+]
+_EMPIRICAL = [
+    ("org_frontier/field", None),
     ("org_frontier/qualitative", None),
     ("org_frontier/recurrence", None),
     ("org_frontier/survey", None),
+    ("org_frontier/cognition", None),
 ]
-
-# Bridge and support arms under org_frontier/. Description derived from each README's H1.
-_ARMS = ["field", "cognition", "research", "classifier", "corpus", "multiparty",
-         "principal", "proxy_bridge", "landscape", "outreach", "protocol", "llm_variance",
-         "coordinative_sovereignty", "hospitality_phygital", "lima_pdw", "reviews"]
+_COMPUTATIONAL_ARMS = ["classifier", "corpus", "multiparty", "principal", "proxy_bridge",
+                       "landscape", "outreach", "protocol", "llm_variance", "research", "reviews"]
+_SUBMISSIONS = [
+    ("submissions", "Outward manuscripts — IGI, Hospitality & Society, Lima, Slacker, OT, Hegel"),
+    ("submissions/coordinative_sovereignty", None),
+    ("submissions/hospitality_phygital", None),
+    ("submissions/lima_pdw", None),
+    ("submissions/slacker_thirds", None),
+    ("submissions/hegel_coordination", None),
+    ("submissions/proposals", None),
+]
 
 
 def _entry_docs() -> list:
@@ -146,24 +159,60 @@ def _entry_docs() -> list:
     return out
 
 
-def _programs() -> list:
-    out = ["## The lab — programs and arms", "",
-           "Four programs on one thesis, plus the bridge and support arms. Each directory's README "
-           "carries its scope; see [`org_frontier/README.md`](org_frontier/README.md) for the hub.", "",
-           "| path | program / arm |", "|---|---|"]
-    for rel, override in _PROGRAMS:
+def _section(title: str, intro: str, rows: list) -> list:
+    out = [f"## {title}", "", intro, "",
+           "| path | what it is |", "|---|---|"]
+    out += rows
+    out.append("")
+    return out
+
+
+def _rows_from(pairs: list) -> list:
+    rows = []
+    for rel, override in pairs:
         readme = os.path.join(_ROOT, rel, "README.md")
         if not os.path.exists(readme):
             continue
         gloss = override or _clip(_first_heading(readme))
-        out.append(_row(f"[`{rel}/`]({rel}/)", gloss))
-    for name in sorted(_ARMS):
+        rows.append(_row(f"[`{rel}/`]({rel}/)", gloss))
+    return rows
+
+
+def _programs() -> list:
+    out = []
+    out += _section(
+        "Instrument",
+        "Measure-validation: why exact Φ, not a cheap proxy.",
+        _rows_from(_INSTRUMENT),
+    )
+    comp = _rows_from(_COMPUTATIONAL)
+    for name in sorted(_COMPUTATIONAL_ARMS):
         readme = os.path.join(_ROOT, "org_frontier", name, "README.md")
         if not os.path.exists(readme):
             continue
-        out.append(_row(f"[`org_frontier/{name}/`](org_frontier/{name}/)",
-                        _clip(_first_heading(readme))))
-    out.append("")
+        # Skip stub READMEs left at old writing-arm paths (they start with "# Moved").
+        heading = _first_heading(readme)
+        if heading == "Moved":
+            continue
+        comp.append(_row(f"[`org_frontier/{name}/`](org_frontier/{name}/)",
+                         _clip(heading)))
+    out += _section(
+        "Computational lab",
+        "Exact Φ on Boolean models. Import paths stay `org_frontier.*`. Hub: "
+        "[`org_frontier/README.md`](org_frontier/README.md).",
+        comp,
+    )
+    out += _section(
+        "Empirical and bridge arms",
+        "Field, qualitative, recurrence, survey, cognition — packets ready; most still pre-field.",
+        _rows_from(_EMPIRICAL),
+    )
+    out += _section(
+        "Submissions",
+        "Outward manuscripts. Live dates in [`NOW.md`](NOW.md) and "
+        "[`submissions/CALENDAR.md`](submissions/CALENDAR.md).",
+        _rows_from(_SUBMISSIONS),
+    )
     return out
 
 

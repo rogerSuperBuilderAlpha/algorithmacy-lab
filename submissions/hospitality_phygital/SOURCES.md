@@ -17,14 +17,14 @@ checked out.
 
 | path | why |
 |---|---|
-| [`org_frontier/coordinative_sovereignty/README.md`](../coordinative_sovereignty/README.md) | Sibling arm; sovereignty construct and chapter |
-| [`org_frontier/coordinative_sovereignty/coordinative_sovereignty.md`](../coordinative_sovereignty/coordinative_sovereignty.md) | Framing statement |
-| [`org_frontier/coordinative_sovereignty/chapter/chapter.md`](../coordinative_sovereignty/chapter/chapter.md) | Full sovereignty manuscript (cite carefully; long) |
-| [`org_frontier/essays/literacy_or_algorithmacy.md`](../essays/literacy_or_algorithmacy.md) | Literacy vs algorithmacy thesis |
-| [`org_frontier/essays/studying_algorithmacy.md`](../essays/studying_algorithmacy.md) | Method and scope discipline |
-| [`org_frontier/essays/the_interested_third_party.md`](../essays/the_interested_third_party.md) | Interested mediator |
-| [`org_frontier/essays/mediated_or_irreducible.md`](../essays/mediated_or_irreducible.md) | Mediation vs irreducibility |
-| [`org_frontier/essays/necessary_and_contingent_irreducibility.md`](../essays/necessary_and_contingent_irreducibility.md) | Exit vs voice diagnostic |
+| [`submissions/coordinative_sovereignty/README.md`](../coordinative_sovereignty/README.md) | Sibling arm; sovereignty construct and chapter |
+| [`submissions/coordinative_sovereignty/coordinative_sovereignty.md`](../coordinative_sovereignty/coordinative_sovereignty.md) | Framing statement |
+| [`submissions/coordinative_sovereignty/chapter/chapter.md`](../coordinative_sovereignty/chapter/chapter.md) | Full sovereignty manuscript (cite carefully; long) |
+| [`org_frontier/essays/literacy_or_algorithmacy.md`](../../org_frontier/essays/literacy_or_algorithmacy.md) | Literacy vs algorithmacy thesis |
+| [`org_frontier/essays/studying_algorithmacy.md`](../../org_frontier/essays/studying_algorithmacy.md) | Method and scope discipline |
+| [`org_frontier/essays/the_interested_third_party.md`](../../org_frontier/essays/the_interested_third_party.md) | Interested mediator |
+| [`org_frontier/essays/mediated_or_irreducible.md`](../../org_frontier/essays/mediated_or_irreducible.md) | Mediation vs irreducibility |
+| [`org_frontier/essays/necessary_and_contingent_irreducibility.md`](../../org_frontier/essays/necessary_and_contingent_irreducibility.md) | Exit vs voice diagnostic |
 
 ## Discriminant / triad illustrations (conceptual use only)
 

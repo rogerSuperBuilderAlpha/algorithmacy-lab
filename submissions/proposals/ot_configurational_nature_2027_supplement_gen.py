@@ -200,7 +200,7 @@ w("Each part re-derives from a committed script in the replication package; the 
 w("part to command. All computations are exact; the two-measure comparison in Part A additionally runs")
 w("as a continuous-integration check on the package repository.\n")
 text = "\n".join(out) + "\n"
-dest = os.path.join(REPO, "org_frontier/proposals/ot_configurational_nature_2027_supplement.md")
+dest = os.path.join(REPO, "submissions/proposals/ot_configurational_nature_2027_supplement.md")
 with open(dest, "w") as fh:
     fh.write(text)
 print("wrote", dest, len(text.split()), "words,", len([l for l in out if l.startswith('|')]), "table rows")
