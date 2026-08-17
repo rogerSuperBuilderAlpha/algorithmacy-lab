@@ -14,11 +14,15 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   could pick either. The 2026-08-17 fix pass (`HANDOFF.md` §0g) broke that parity: `chapter.md` now carries
   the five-seat panel's corrections and `chapter_v2.md` does not. Keep it for its sentence-merge patterns
   if a later prose pass wants them; do not submit it.
-- **Generated exports — never hand-edit.** `chapter_grammarly.md` (soft-wrapped, Abstract through Key Terms,
-  §7's table flattened to a list because Grammarly does not read pipe tables) and `Full Paper - Alg & Sov.docx`
-  (pandoc) both derive from `chapter.md`. Regenerate both with `python3 regen_exports.py` after any edit;
-  `python3 regen_exports.py --check` fails if either export has drifted, and the script also lints `chapter.md`
-  for the structural faults that break a pandoc render. Reflow the `.docx` into the IGI template at submission.
+- **THE SUBMISSION FILE is `Full Paper - Alg & Sov.docx`.** Upload that to eEditorial Discovery. Times New
+  Roman 12pt, double-spaced, US Letter with 1-inch margins, page numbers top right, APA 7 heading placement
+  (level 1 centered bold, level 2 flush-left bold, level 3 bold italic), anonymized. No reflow needed.
+- **Generated exports — never hand-edit.** `Full Paper - Alg & Sov.docx` and `chapter_grammarly.md`
+  (soft-wrapped, §7's table flattened to a list because Grammarly does not read pipe tables) both derive from
+  `chapter.md`. Regenerate with `python3 regen_exports.py` after any edit; `python3 regen_exports.py --check`
+  fails if either has drifted, and the script also lints `chapter.md` for the structural faults that break a
+  render. The Word styling comes from `reference.docx`, rebuilt by `build_reference_docx.py` — change the
+  styling there, not in the output.
 - Presentation materials (the SBE 2026 deck and poster) live in [`../presentations/`](../presentations/).
 - **Length:** 15,277 words total, abstract 148 (measured 2026-08-17, after the fix pass).
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
