@@ -129,13 +129,17 @@ the guest something are different matters, and only the second is independent of
 happens to believe. Guests, for their part, already decline the attribution. Asked to judge service
 failures in hotel reception and restaurant settings, customers hold a robot less responsible than a
 human employee, and the gap widens when the encounter goes wrong, with responsibility routed
-instead to the firm behind the machine (Belanche et al. 2020). A related line of work comes nearer, asking through stakeholder theory whether service robots
-should hold rights and responsibilities at all, across moral, ethical and legal registers, and
-recommending that firms articulate the duties they already expect of employees and decide which are
-shifting to the machine (Sharma and Mattila 2025). That is a question about the machine's standing,
-and about duties an employer may delegate. Ours is a question about what the arrangement owes the
-guest whether or not the machine has standing, and Section 1 has already separated the employee's
-duties from the host's. Each of these responsibilities has a different source. Care is
+instead to the firm behind the machine (Belanche et al. 2020). Two lines of work come nearer. One asks through stakeholder theory whether service robots should
+hold rights and responsibilities at all, and recommends that firms articulate the duties they
+already expect of employees and decide which are shifting to the machine (Sharma and Mattila 2025).
+The other, the phygital service programme itself, reports that ambiguities persist around agency,
+governance and interpretive labour in algorithmically mediated interactions, and that existing
+frameworks explain value co-creation without explaining how digitally enforced rules redistribute
+the labour of interpretation (Shabnam et al. 2026). The first concerns the machine's standing and
+the duties an employer may delegate, which Section 1 has already distinguished from the host's. The
+second names the redistribution and stops there. Neither asks which party, once the rules have done
+the redistributing, still owes the guest a welcome. Each of these responsibilities has a different
+source. Care is
 owed because someone is in need, fiduciary duties are owed because someone has been trusted, and
 governance duties exist because a system creates risks (Kropf et al. 2026; Santoni de Sio and
 Mecacci 2021). A welcome is owed because someone has arrived, and arrival is the barest of these
@@ -222,6 +226,12 @@ differs from existing tests of human-AI collaboration, which ask whether the hum
 outperforms either party working alone; what remains available to the person the decision is about
 does not enter that calculation (Hemmer et al. 2025).
 
+The pair of terms is not new to this literature, and the difference is in what they are applied to.
+Service research asks whether a robot augments or substitutes the employee in producing value for
+the customer (Odekerken-Schröder et al. 2021; Raisch and Krakowski 2021). The question here is
+whether the mediation augments or substitutes the relationship, and the criterion is what remains
+available to the guest rather than what the guest gets.
+
 This distinction produces a result that may initially seem counterintuitive. An opaque algorithm
 can still augment hospitality if its rules are reasonably stable and an empowered employee can
 question or override its decisions. By contrast, a perfectly transparent algorithm can still
@@ -248,10 +258,9 @@ predictability. A recent study of algorithmic pricing recommendations found that
 its own recommendations because it anticipated that revenue managers would adjust them, which
 means the rule actually in operation was not the rule the staff believed they were working with
 (Garcia et al. 2026). Nobody at the desk could have explained that decision accurately, however
-willing they were. The same study is the reason Section 3 declines to say that discretion has
-simply moved to the system: these managers kept their discretion and the system was built around
-it. What they lost was not authority over the price but any account of the rule they were
-adjusting. Augmentation can be equally concrete. When a restaurant projects an
+willing they were. These managers kept their discretion, which is why Section 3 declines to say
+that discretion has simply moved to the system; what they lost was any account of the rule they
+were adjusting. Augmentation can be equally concrete. When a restaurant projects an
 animated chef onto the table while human staff continue to host the meal, the technology adds
 sensory and social dimensions to an encounter whose rules remain stable and whose staff retain
 their discretion (Batat 2021). The same test that condemns the first arrangement approves the
@@ -324,9 +333,15 @@ coordination one cannot leave, and it is what an institution must confer. The sa
 distinction applies to employees. Staff can become increasingly knowledgeable about the systems
 they work with while simultaneously losing authority over their outcomes. Indeed, employees who
 understand most clearly how little influence they have may become less willing to speak about
-algorithmic decisions with guests or managers (Cheng et al. 2025; Lin et al. 2026; Duggan et al.
-2026). Algorithmic mediation therefore intersects with an existing problem in hospitality work:
-employee silence (Jung and Yoon 2019; Papadopoulos et al. 2021). Greater technological competence
+algorithmic decisions with guests or managers. The evidence for this is adjacent rather than direct.
+Awareness of artificial intelligence raises frontline silence through a perceived breach of the
+psychological contract (Cheng et al. 2025), app-based platform work produces a silence its
+researchers call enforced (Duggan et al. 2026), and algorithmic direction, scheduling and monitoring
+depress voice while algorithmic feedback raises it (Lin et al. 2026). None of these studies measures
+competence, so the step from understanding a system to declining to speak about it is a proposition
+this framework offers rather than a finding it reports. Algorithmic mediation therefore intersects
+with an existing problem in hospitality work: employee silence (Jung and Yoon 2019; Papadopoulos et
+al. 2021). Greater technological competence
 does not necessarily produce greater voice.
 
 Whether these two sources of silence compound one another is, at present, an open question. It

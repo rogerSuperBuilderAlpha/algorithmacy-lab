@@ -2,6 +2,53 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — Tier 3, and two items refused
+
+Three of the six Tier 3 items landed. Two were refused on verification grounds and one was dropped
+as already covered.
+
+**Refused: Stock-Homburg and Kegel (2025).** Chow flagged it as refuting section 1's absence claim,
+with a Kantian frame over customer-robot duties, but Springer blocked her and her details came from
+a single search summary. My own search could not confirm the Kantian customer-duties framing at all.
+An unverified citation is the exact failure this project has twice caught in itself, so it stays out.
+Section 1's claim is in any case scoped to the naming vocabulary — tools, mediators, facilitators,
+co-creators, social presence — which is accurate as written.
+
+**Refused: Furtado's Bovens forum concession.** Her reading is that social accountability is the only
+one of Bovens's categories reaching a guest, and that he describes it as voluntary and lacking formal
+obligation, so on a strict reading every hotel fails the condition. I confirmed Bovens's core
+definition but not the typology or that characterization. Writing a concession on an unverified
+reading of a source the second contribution rests on is worse than leaving the concession unwritten.
+Section 4 already concedes through Table 2 stage 4 that the forum has to be built.
+
+**Dropped: the editor's spatial thinness.** Partly answered already by the Bulley repair in section 1,
+which now states that hospitality is a spatial practice continuing once the guest has crossed.
+
+**Landed.** The silence chain now describes its sources by what they measure rather than by what the
+paper wants them to show: awareness of AI raising frontline silence through psychological-contract
+breach, enforced silence in app-based platform work, and algorithmic direction depressing voice while
+algorithmic feedback raises it. None measures competence, so the step from understanding a system to
+declining to speak about it is named as a proposition the framework offers rather than a finding it
+reports. Shabnam et al. moved from a subordinate clause in section 7 to the place where the gap is
+stated, since their agenda is the nearest published anticipation of sections 3 and 5. And the
+augmentative/substitutive pair now says what it is applied to, against Odekerken-Schröder and Raisch
+and Krakowski: they ask whether a robot augments or substitutes the employee in producing value, and
+this paper asks whether the mediation augments or substitutes the relationship.
+
+**Trimmed my own redundancy.** The Sharma and Shabnam passages both ended on 'they stop short of our
+question'; merged into one beat. The Garcia reconciliation in section 4 restated what section 3
+already establishes; compressed.
+
+**Measured.** Body 6,699 against a 6,000 floor, which is 700 over and worth the author's eye.
+Sentence mean 19.6 against Pierre's 20.2, paragraph mean 121.9 against 123, zero em-dashes, two
+authorial first persons, 152 citations resolving, no journal name in the body. Section 3 now runs
+1,286 words of 6,699, and it is where the spine went.
+
+**Open, and for the author.** Any further cut means cutting a claim rather than tightening prose.
+Also outstanding: page locators for three quotations, the Odekerken-Schröder year (the entry reads
+2021 against a 33:2 issue that Reviewer 2 places in 2022, unverified), the reference-counting ruling,
+and the author-supplied submission components.
+
 ## 2026-08-17 — the front matter, corrected against the revised body
 
 The editor's headline was that the abstract promised two constructs the body never named. Naming
