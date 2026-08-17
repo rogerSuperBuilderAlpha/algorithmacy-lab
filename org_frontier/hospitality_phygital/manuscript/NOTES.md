@@ -2,6 +2,53 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the mechanical pass, and where it belonged
+
+The copyeditor's finding was that 120 of 124 reference titles were in Title Case where Intellect
+Harvard is sentence case, confirmed against both worked examples in `JOURNAL_SPEC.md`. The fix went
+into `render_refs.py` rather than into `references.bib`, because the spec says the bibliography is
+stored in an APA-ish shape and rendered into house style; sentence case is a rendering decision and
+belongs with the renderer.
+
+**Hand review earned its keep.** A first pass down-cased 740 distinct words and I checked the list
+rather than trusting it. Eight false positives: Derrida, Le Petit Chef, Belgium, Kiwi, Kingdom's,
+Macromarketing, 7Es and Mr. Roboto. Two were structural rather than lexical — possessives escaped
+the protected-word lookup, and alphanumeric names like 7Es were not recognized as names at all. Both
+fixed, plus the specific names added to the protected set. Second pass: no false positives.
+
+Also into the renderer, so they cannot regress: `pp.` no longer precedes a bare article number
+(twelve entries; an article number is not an extent); two or more editors take `eds` rather than
+`ed.`; nested single quotes inside a single-quoted title become double, per the Notes; LaTeX `--`,
+the stray en-dash-plus-hyphen and hyphenated volume ranges are normalized; and the sort folds
+diacritics so Möhlmann files under M instead of after Z.
+
+Three bugs of my own on the way, all caught by checking the output rather than the code: a regex
+replacement string cannot carry `\u` escapes, a heredoc doubled the backslashes so the volume-range
+pattern matched nothing, and `unicodedata` was imported inside a function so it was not in scope at
+the sort. The lesson is the same each time — verify the artifact, not the edit.
+
+**Body fixes.** One American spelling (`toward` → `towards`, the odd one out against four
+`towards`). The generic guest is `she` throughout; one sentence said `they` and one `their` inverted
+its own meaning, both repaired. One object had three names — design *features*, *principles*,
+*affordances*, and *practical* versus *diagnostic* questions — now uniformly *features* and
+*diagnostic*, matching the heading and the abstract. The three direct quotations now take single
+marks per the Notes.
+
+**Not done, deliberately: page locators for the three quotations.** The Notes require them and I do
+not have verified page numbers; two of the three were verified from publisher abstracts, which carry
+none. Inventing one is the exact failure this project has twice caught in its own citations. The
+author supplies them or the quotations become paraphrase.
+
+**Measured after.** Body 6,525. Sentence mean 19.6 against Pierre's 20.2, paragraph mean 120.9
+against 123, zero em-dashes, two authorial first persons, zero double quotes in the body, zero
+occurrences of the journal name outside the reference entries, 152 citations all resolving, 124
+entries, zero alphabetical breaks.
+
+**Still open.** The front matter, where the editor found the abstract at 199 of 200 words with an
+undischarged clause, a systematically wrong section map in `RESPONSE_TO_EDITOR.md`, and the seven
+mandatory components not yet in the file. Tier 3 of the synthesis. And the reference-counting
+ruling, which `JOURNAL_SPEC.md` still contradicts.
+
 ## 2026-08-17 — eight-reviewer panel, then Tier 1 and Tier 2 applied
 
 Panel and synthesis in `reviews/2026-08-17/`. Six minor, one major at the light end, one
