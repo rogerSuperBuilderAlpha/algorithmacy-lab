@@ -3,6 +3,12 @@
 Rebuild completed 2026-08-01. Chapter due **2026-08-30**. This file lists everything the rewrite could not
 close, ranked by how much damage it would do if it reached a referee unfixed.
 
+> **Read §0g first.** The 2026-08-17 fix pass applied the five-seat panel and reset the base text.
+> `chapter.md` is the only submittable file; `chapter_v2.md` is superseded and no longer at parity.
+> Sections 0a–0f below record how the manuscript got here and remain accurate as history, with one
+> correction noted in §0f: §0c's claim that the COM(2026) 178 gloss was "confirmed verbatim" was wrong,
+> and §0g fixed the clause.
+
 ## 0c. Full-review close-out, 2026-08-02 (after the panel and the style pass)
 
 A four-pass review (`reviews/2026-08-02/12_full_review.md`) closed the whole "still owed before press" list,
@@ -328,3 +334,105 @@ fixed.
 
 **The author's read-aloud decides.** Nothing above substitutes for it, and on this manuscript three
 detectors have already returned clean on prose two human readers rejected.
+
+## 0f. Pre-submission QA pass, 2026-08-17 → `../reviews/2026-08-17/QA_PASS.md`
+
+Mechanical pass over the canonical file and the two exports. Full report at the path above; the parts
+that change what the author must do:
+
+**A render defect, now fixed.** `chapter.md` had lost the blank line before `## References`, and pandoc's
+`blank_before_header` turns a heading in that position into body text. Rendering the file produced a
+conclusion ending in the literal string "## References" and no References heading at all. The shipped
+`.docx` did not show it, because that file predated the fault — so the bug would have surfaced only on
+the next regeneration.
+
+**§0d's outstanding item was still outstanding.** Both `chapter_grammarly.md` and
+`Full Paper - Alg & Sov.docx` predated all five 14 August edits: they still carried the flagged aphorism,
+the half-cited §5.3 clause, and the old §5.5 hedge stack, and lacked the §7 bearer sentence. Both are now
+regenerated and verified. Regeneration was a manual step nobody had scripted, which is why it drifted
+while three documents said it had been done. `regen_exports.py` now does it, and `--check` fails the
+build if either export drifts or if `chapter.md` carries a structural fault that breaks a render.
+
+**Canonicity settled by hash, not mtime.** Every file in `chapter/` carries a 17 August timestamp from the
+`chore/nav-reorg` move; all three markdown files are byte-identical to their `ea4b917` (14 August)
+versions. `chapter_v2.md` was cut from the post-fix `chapter.md` and holds exact parity on citations,
+statistics, quotations, and headings, so choosing between the two is a prose-voice question only.
+
+**Verified clean:** 109 references, all cited, all in-text citations resolving; anonymization; ten
+internal cross-references; abstract 149 words; IGI section structure; 15,057 words; house-style counters.
+
+**What that pass did not close:** the five-seat panel in `../reviews/2026-08-17/` is complete (zero major,
+three minor, two accept-with-nits) and entirely unapplied. Read `../reviews/2026-08-17/SYNTHESIS.md`
+first — it ranks the fixes and carries a do-not-touch list of settled prose.
+
+**One §0c claim above is now false.** Seat 04 fetched COM(2026) 178 and found the §7 gloss at ll. 692–694
+hangs "mixed evidence of demand" on the report, which says mixed evidence *overall*, greater technical
+complexity, and *limited* demand. §0c called that gloss "confirmed verbatim." The new-providers and
+too-early clauses hold; the causal tag does not. Seat 04 also found the only unlocated quotation in the
+body (Curchod et al., ll. 342–343 — verbatim in the abstract) and a European Commission (2025a) title
+truncated past the repealing clause that names the four instruments licensing §7 and §8.
+
+Two further items are unsourced claims rather than confirmations: §8's "further gatekeeper decisions have
+followed against other platforms," and §9's "expertise the platform funds," which overstates Art. 13(3)
+(the duty caps at platforms with more than 250 workers in the member state). Six more VERIFY items are
+live legal facts to re-confirm in submission week. The IGI template file itself is still not in the repo.
+
+## 0g. Fix pass — the panel applied, 2026-08-17
+
+`chapter.md` is now the base text with the five-seat panel's findings applied. 15,277 words, abstract 148.
+`chapter_v2.md` is superseded: it holds the 2026-08-14 prose but none of what follows.
+
+**Both consensus-spine items, S1 and S2.** The abstract no longer claims a see/predict/contest vacuum the
+body retracts two sentences later; it now concedes the disclosures and complaint channels and locates the
+gap in standing. It indexes algorithmacy to the triad instead of calling it "a different competence," which
+§4 had already conceded to DeVito, and the counterfactual now "names the institutional class available"
+instead of deciding "which institutions to build," which is the resolution §7 actually claims. §1's vendor
+sentence carries the same concession. S2: the §7 COM(2026) 178 gloss said "mixed evidence of demand"; the
+report says mixed evidence overall, greater technical complexity, and *limited* demand, and the sentence now
+says that.
+
+**The definitional weld (argument seat, Finding 1).** §6 defined the construct as "the autonomy proper to
+being irreducibly coordinated … an arrangement one cannot leave," using two predicates §5.2 had just
+separated from necessity. It now reads "the autonomy proper to a necessary mediation … an arrangement the
+open tie does not dissolve," marks a share in governance as a specification of residual voice rather than
+something the counterfactual delivers, and distinguishes "cannot leave" from both contingent lock-in and
+as-wired irreducibility. The Key Terms entry and §10's compressed definition follow the same wording.
+
+**§8's platform-work bundle (content seat).** The employment presumption is split from Chapter III and
+Art. 25. Where the presumption bites it may move the worker out of a mediated triad and into a hierarchy,
+which changes the coordination form rather than conferring standing inside it, so it no longer counts
+toward "coordinative sovereignty written into law." Art. 25 carries that claim alone.
+
+**Two unsourced claims removed or corrected.** §8's "further gatekeeper decisions have followed against
+other platforms" is cut rather than back-filled. §9's "expertise the platform funds" now states Art. 13(3)
+as written: an expert of the representatives' choosing, at the platform's proportionate expense where it
+employs more than 250 workers in that member state.
+
+**Citation repairs (seat 04).** Curchod et al. carries `(Abstract)`, matching how Repetto and Sekar &
+Siddiq were closed — it was the only unlocated quotation in the body. European Commission (2025a) is
+restored to its full amending-and-repealing title, which is what licenses the §7 DGA move and the §8 P2B
+repeal. Ananny and Crawford regain their year at second mention. C. K. Anderson's `11[8]` is dropped so the
+2009 and 2011 reports are treated alike — the safer direction, since §1 above had already removed `9[16]`
+as unconfirmed. **Do not restore either without the title pages.**
+
+**Also applied:** the Fratini gloss now reports what their four models sort and confines the "none" to that
+sorting; the App Store demonstration separates the node test on the payment *rail* from the edge test on
+the exclusivity *rule*, so the two tests no longer run on different objects and get called a disagreement;
+the three spine handoffs (§1→§2, §4→§5, §5.5→§6); the §5.5 caution pile split; the §7 contestability row
+and oversight paragraph now name the DSA Arts. 20–21 channels the chapter's own §8 treats as real; and the
+style seat's residue — `though it needs care`, `advanced here`, `a position taken here`, `pressed here`,
+two `this chapter`s and three `rather than` constructions in Key Terms.
+
+**Verified after the pass:** 109 references, zero orphans, zero ghosts; anonymization clean; abstract 148;
+all cross-references resolve; zero banned openers, zero sentence-initial agentless passives, zero first
+person, zero `computable`; both exports regenerated and checked.
+
+**Author decisions taken to unblock the pass, reversible if you disagree.** Share-in-governance was kept
+and marked as a specification of residual voice, rather than dropped in favour of contestability-without-
+share. §2 was made to inherit the competence thread, so §1's Bodin–Repetto defense keeps its place but
+yields the last slot to a forward hook; §2's Habermas restatement went, since §1 already traces the pairing.
+Hunt et al. (2025) remains omitted.
+
+**Still owed:** the six live VERIFY confirmations in submission week, the IGI template, the editor note on
+the title, and the author's read-aloud — §6's definition paragraph and §5.2's App Store paragraph are the
+two most changed and should be read first.
