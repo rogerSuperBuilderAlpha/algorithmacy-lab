@@ -4,7 +4,7 @@
      Regenerate with regen_exports.py after substantive edits. -->
 
 
-# Algorithmacy and Sovereignty: Toward a Coordinative Sovereignty for the Platform Era
+# Algorithmacy and Sovereignty: Coordinative Sovereignty for the Platform Era
 
 ## Abstract
 

@@ -1,4 +1,4 @@
-# Algorithmacy and Sovereignty: Toward a Coordinative Sovereignty for the Platform Era
+# Algorithmacy and Sovereignty: Coordinative Sovereignty for the Platform Era
 
 ## Abstract
 
