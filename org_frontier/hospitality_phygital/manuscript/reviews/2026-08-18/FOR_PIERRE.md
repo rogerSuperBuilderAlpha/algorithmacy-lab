@@ -271,10 +271,30 @@ library access we do not have:
 **And four are open access, blocked only by bot detection** — a normal browser will get them in about
 five minutes: Liu et al. (2026), Kropf et al. (2026), Zientara et al. (2023), Batat (2021).
 
-Two other things worth your eye, outside the scope of this report but caught in the same pass:
+## One sentence in §1 carries two problems, and one fix closes both
 
-- **§1 currently names this journal in the manuscript text.** Under double-anonymized review that has
-  to go.
-- **Germann Molz (2026)** — the abstract shows "guests without hosts" was coined for the *blurring* of
-  hosting and guesting, and that she reads it in two directions with erasure as one of three
-  operations. Our §1 pivot reads erasure only.
+The sentence beginning "This journal has already asked…" does two things worth changing.
+
+It signals the target venue. That is a mild issue rather than a serious one — it does not reveal
+authorship, which is what double-blind protects, and the construction is ordinary in published work.
+But the Notes for Contributors ask for strict anonymity in both directions and the change costs
+nothing.
+
+More substantively, the same passage reads Germann Molz as **erasure**. Her abstract shows the phrase
+"guests without hosts" was coined for the **blurring** of hosting and guesting, extended in two
+directions, with erasure one of three operations.
+
+One replacement closes both. It runs from "This journal has already asked…" through "…That work asks
+what happens as the host is erased," and your next sentence carries straight on:
+
+> That gap matters more than ever now that platforms and automated systems are taking over jobs human
+> hosts used to do. Hospitality scholarship has already asked what happens when platforms push the
+> human host out of view, and has named the resulting condition algorithmic hostility (Riordan 2024).
+> The phrase "guests without hosts" was coined for something adjacent, the blurring of hosting and
+> guesting in network hospitality, and has lately been extended to an algorithmic governance that
+> holds hosts and guests in extractive relations, and to the replacement of human hospitality workers
+> by robots and AI (Germann Molz 2026). Both ask what becomes of hospitality as the human host
+> recedes. We ask the next question.
+
+"Erased" becomes "recedes," which is what her abstract supports, and naming the blurring origin shows
+a referee we are reading her accurately rather than selectively.
