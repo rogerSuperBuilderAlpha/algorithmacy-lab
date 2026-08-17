@@ -2,6 +2,66 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — eight-reviewer panel, then Tier 1 and Tier 2 applied
+
+Panel and synthesis in `reviews/2026-08-17/`. Six minor, one major at the light end, one
+mechanics-only. **No reviewer attacked the argument.** Every finding was a source read too thinly, a
+claim scoped too widely, or an internal inconsistency.
+
+**Two claims that could have been killed both survived verification.** Nothing published asks
+whether a system taking the host's functions inherits the host's obligations, so the novelty claim
+holds. Section 7's absence claim holds on all four named works, including Mameli et al., whose
+open-access full text a reviewer read: 'friction' never occurs, 'seamless' occurs once and
+affirmatively.
+
+**Checks run before writing.** Germann Molz 2026 confirmed: the phrase 'guests without hosts' was
+coined for the *blurring* of hosting and guesting, and her 2026 article extends it to extractive
+algorithmic governance and to the replacement of human workers by robots and AI. Section 1 had
+reported only the extension. Sharma and Mattila confirmed as the nearest neighbour, arguing rights
+and responsibilities through stakeholder theory and recommending firms decide which employee duties
+shift to the machine. Bovens's core definition confirmed — actor and forum, obligation to explain
+and justify, forum can question and judge, consequences may follow.
+
+**Tier 1, correctness.** Section 2 no longer cites Spektor for a front-desk claim; it is a
+housekeeping study whose room assignment allocates rooms *to housekeepers*, and section 3 already
+said so, so the paper had contradicted itself forty lines apart. Zhou's remediating dimension is now
+described by its validated items rather than by an interview exemplar, which strengthens the point:
+every validated item locates the remedy in the worker and most route around the institution. 'The
+first validated scale' became 'a validated scale'. Sharma and Mattila differentiated on the right
+axis. Section 4's rule made accountability the necessary condition, since 'all three withheld at
+once' had ruled out the paper's own transparent-but-substitutive case. The guest-to-host instrument
+absence narrowed to obligation. The smoothness claim scoped to this field. Garcia reconciled across
+sections 3 and 4. Padigar corrected to 2025.
+
+**Anonymity.** Three leaks removed: the venue line and drafting note at the head of the file, and a
+sentence in section 1 naming the journal. The six remaining occurrences are reference entries.
+
+**Tier 2, the spine.** Section 3's duty paragraph rebuilt, composing three reviewers' findings.
+Furtado: the uniqueness claim was false and its counterexample sat one clause earlier, since
+fiduciary duty is the standard case of an obligation constituting its bearer's role — so the claim
+now runs on bare presence and on ownership rather than performance. Ellery: 'owed simply because
+someone has arrived' imported unconditional hospitality into a commercial setting, so the paragraph
+now carries the tradition's own distinction, conditional at admission and unconditional in
+reception, which states the thesis more sharply than the original did. Reviewer 2: section 1's
+promise was discharged by assertion, so the argument is now made — a system can perform a welcome
+and cannot stand in a forum to answer for one. Kropf moved from friend to adversary and is answered
+from his own limit.
+
+Also: Bulley restored to the post-threshold argument he actually makes, rather than the
+threshold-moment reading he wrote to argue against; Belanche inserted, retiring the only reference
+cited nowhere and supplying the paper's best empirical corroboration; hospitality algorithmacy and
+coordinative sovereignty named in section 5, which the abstract had promised and the body never
+delivered; and the title's question answered in section 9.
+
+**Measured after.** Body 6,525 against a 6,000 floor. Sentence mean 19.6 against Pierre's 20.2,
+paragraph mean 120.8 against 123, zero em-dashes, two authorial first persons, 152 in-text citations
+all resolving, no new references added — the absence claims were narrowed rather than answered with
+sources that would have needed verification and cards.
+
+**Still open.** Tier 3 in the synthesis, the copyeditor's mechanical pass (120 reference titles need
+sentence case, by hand), the front matter defects the editor found, and the reference-counting
+ruling that `JOURNAL_SPEC.md` still contradicts.
+
 ## 2026-08-15 — second slop pass, after Roger caught what the first one missed
 
 Roger flagged the §6 opener the first pass had itself written: "Design guidance in this area has

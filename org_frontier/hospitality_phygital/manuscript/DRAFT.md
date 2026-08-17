@@ -1,12 +1,5 @@
 # Who Hosts the Guest?
 
-For the *Hospitality & Society* special issue on phygital hospitality.
-
-*Pierre's rewrite of 2026-08-11 is the governing text and the governing voice. This version
-executes the buildout of 2026-08-14: his text stands unchanged, and the extensions planned in
-BUILDOUT.md are written into it in the same voice. The reference list at the end is rendered from
-the bibliography and covers exactly the works cited here.*
-
 ## 1. Introduction: Who is responsible for the welcome?
 
 Research on phygital hospitality often presents artificial intelligence, apps, algorithms, and
@@ -24,21 +17,25 @@ forms of social presence (Bitner et al. 2000; van Doorn et al. 2017; Li et al. 2
 2026). These terms describe what technology is capable of doing, but they do not identify what, if
 anything, technology owes the guest. The language of hospitality is different because the idea of
 the host contains an obligation. A host does not merely perform tasks. A host receives the arriving
-stranger and assumes some responsibility for the conditions of that person's welcome (Lashley 2000;
-Bulley 2015).
+stranger and assumes some responsibility for the conditions of that person's welcome (Lashley
+2000). That responsibility does not end at the door. Hospitality is a spatial practice which
+continues once the guest has crossed, exercised through the tactics by which a house contains a
+guest who does not simply comply (Bulley 2015), and the mediation examined here does most of its
+work after admission.
 
 Service research has tended to place the employee in the position traditionally occupied by the
 host (Larivière et al. 2017; Odekerken-Schröder et al. 2021). Yet being an employee and being a
 host are not identical roles. An employment contract can specify responsibilities for delivering
 services, but it does not by itself explain the relational obligation between host and guest.
 This becomes particularly important when digital platforms and automated systems take over
-functions that were once performed by human hosts. *Hospitality & Society* has already raised the
-question of what happens to hospitality when platforms make the human host less visible or remove
-the host from particular encounters (Riordan 2024; Germann Molz 2026). The most recent of these
-contributions describes "guests without hosts": platform hospitality in which algorithmic
-governance renders the human host visible, disciplined, and ultimately dispensable (Germann Molz
-2026). That work asks what happens to hospitality as the host is progressively erased. A further
-question follows from it. If the host can be erased because an algorithmic system now performs the
+functions that were once performed by human hosts. Hospitality scholarship has already raised the
+question of what happens when platforms make the human host less visible, and has named the
+resulting condition algorithmic hostility (Riordan 2024). The phrase "guests without hosts" was
+coined for something adjacent, the blurring of hosting and guesting in network hospitality, and has
+lately been extended to an algorithmic governance that holds hosts and guests in extractive
+relations, and to the replacement of human hospitality workers by robots and AI (Germann Molz
+2026). Both ask what becomes of hospitality as the human host recedes. A further question follows
+from them. If the host can be erased because an algorithmic system now performs the
 recognizing, the routing, and the admitting, then we need to know whether that system has also
 taken on what the host owed. This paper therefore asks whether a technological system that takes
 over the functions of hosting also inherits the obligations of the host. The central argument is
@@ -78,8 +75,10 @@ lodges documents guests who tidy their rooms for housekeeping, return glasses to
 praise employees in their reviews, and it carefully describes this conduct as reciprocation driven
 by gratitude rather than by any obligation (Manfreda and Harkison 2025). A validated scale now
 measures what residents of tourist destinations feel they gain from interacting with visitors (Shi
-et al. 2025). Neither asks what, if anything, a guest owes a commercial host, and no instrument
-measures conduct flowing in that direction. The guest's side of the commercial hospitality
+et al. 2025). Neither asks what, if anything, a guest owes a commercial host. Service research
+does measure conduct running from the customer, in scales of participation and citizenship
+behaviour, but those instruments count what the customer contributes to the firm's outcome rather
+than what she owes the party receiving her. The guest's side of the commercial hospitality
 relationship remains, for practical purposes, untheorized.
 
 Algorithmic mediation makes this weakness more visible because it can leave the guest's standing
@@ -88,7 +87,7 @@ organization may still provide compensation when something goes wrong. Yet the g
 access to anyone who has meaningful authority over the rule or decision being challenged. A
 front-desk employee may explain that the system has assigned a particular room, rejected an
 upgrade, changed a price, or required a particular form of identification, while having no
-authority to alter that outcome (Spektor et al. 2023). The guest is therefore in an unusual
+authority to alter that outcome. The guest is therefore in an unusual
 position: she can be admitted as a customer while having nobody with whom she can negotiate as a
 guest.
 
@@ -127,13 +126,40 @@ an emerging theory of AI consciousness in hospitality asks whether guests can ex
 hospitality from a machine at all (Lee and Lu 2024). These are questions about what guests
 perceive. Whether a party is perceived as hospitable and whether it occupies a position that owes
 the guest something are different matters, and only the second is independent of what the guest
-happens to believe. A related line of work catalogues the responsibilities of hospitality service
-robots, but frames them as matters of governance: liability, safety, data protection, and consent
-(Sharma and Mattila 2025). Each of these responsibilities has a different source. Care is
+happens to believe. Guests, for their part, already decline the attribution. Asked to judge service
+failures in hotel reception and restaurant settings, customers hold a robot less responsible than a
+human employee, and the gap widens when the encounter goes wrong, with responsibility routed
+instead to the firm behind the machine (Belanche et al. 2020). A related line of work comes nearer, asking through stakeholder theory whether service robots
+should hold rights and responsibilities at all, across moral, ethical and legal registers, and
+recommending that firms articulate the duties they already expect of employees and decide which are
+shifting to the machine (Sharma and Mattila 2025). That is a question about the machine's standing,
+and about duties an employer may delegate. Ours is a question about what the arrangement owes the
+guest whether or not the machine has standing, and Section 1 has already separated the employee's
+duties from the host's. Each of these responsibilities has a different source. Care is
 owed because someone is in need, fiduciary duties are owed because someone has been trusted, and
 governance duties exist because a system creates risks (Kropf et al. 2026; Santoni de Sio and
-Mecacci 2021). A welcome is owed simply because someone has arrived, and it is the only one of
-these duties that defines the role of the party who owes it. Philosophy of technology has
+Mecacci 2021). A welcome is owed because someone has arrived, and arrival is the barest of these
+triggers, asking nothing of the guest except that she be there.
+
+Commercial hospitality qualifies this, and the qualification is the point. No hotel owes a welcome
+to everyone who arrives, and the commercial domain is defined by the conditions it places upon
+entry (Lashley 2000). Those conditions govern admission rather than reception. Once the guest is
+inside, the house is not supposed to keep recalculating the terms of her welcome against what she
+is worth to it. Algorithmic mediation reopens the condition on the inside of the door and holds it
+open, scoring the admitted guest continuously against a standard she cannot see.
+
+Whether the duty travels with the function is the question this paper began with, and the
+strongest case against a negative answer should be stated first. Care robots have been argued to hold role responsibility
+grounded in the social function they occupy rather than in any consciousness they lack (Kropf et
+al. 2026). If that argument holds, a system performing recognition and admission might hold role
+responsibility for welcome on the same grounds. The answer lies in the argument's own limit, since
+role responsibility of this kind is proposed without displacing human accountability, and
+accountability is a relation to a forum: an obligation to explain and justify one's conduct before
+a party who can question it, judge it, and attach consequences (Bovens 2007). A system can perform
+a welcome. It cannot stand in a forum and answer for one. The duty can be discharged by a machine
+and cannot be owned by one, and it is ownership rather than performance that makes the role.
+
+Philosophy of technology has
 considered the machine as a guest to whom hospitality might be extended (Introna 2010); it has not
 yet considered the machine as a keeper of the threshold.
 
@@ -188,8 +214,10 @@ of what the other party, or the system, is doing. Predictability becomes one-sid
 can increasingly forecast the guest's behaviour while changing its own rules without the guest
 being able to anticipate those changes (Hatherley 2025). Accountability weakens when there is no
 identifiable person or forum that is required to provide an answer when a decision is challenged
-(Bovens 2007). Mediation becomes substitutive when all three conditions are withheld at once. It
-remains augmentative when they are preserved somewhere within the relationship. This condition
+(Bovens 2007). Accountability is the condition that decides the case. Mediation becomes
+substitutive wherever it is withheld, whatever happens to the other two, and remains augmentative
+where it is preserved somewhere within the relationship. Common understanding and predictability
+determine how much the guest can do with the standing that accountability gives her. This condition
 differs from existing tests of human-AI collaboration, which ask whether the human-machine pair
 outperforms either party working alone; what remains available to the person the decision is about
 does not enter that calculation (Hemmer et al. 2025).
@@ -220,7 +248,10 @@ predictability. A recent study of algorithmic pricing recommendations found that
 its own recommendations because it anticipated that revenue managers would adjust them, which
 means the rule actually in operation was not the rule the staff believed they were working with
 (Garcia et al. 2026). Nobody at the desk could have explained that decision accurately, however
-willing they were. Augmentation can be equally concrete. When a restaurant projects an
+willing they were. The same study is the reason Section 3 declines to say that discretion has
+simply moved to the system: these managers kept their discretion and the system was built around
+it. What they lost was not authority over the price but any account of the rule they were
+adjusting. Augmentation can be equally concrete. When a restaurant projects an
 animated chef onto the table while human staff continue to host the meal, the technology adds
 sensory and social dimensions to an encounter whose rules remain stable and whose staff retain
 their discretion (Batat 2021). The same test that condemns the first arrangement approves the
@@ -274,16 +305,22 @@ counterparty. A guest may understand a pricing system perfectly and still have n
 influence over its decision (Lin 2025). Similarly, knowing how to submit an appeal is not the same
 as possessing a right to receive an answer (Vaccaro et al. 2020; Are 2025). The distinction is
 important because some approaches to algorithmic competence risk treating the ability to appeal as
-if it were itself an individual competence. The first validated scale of algorithmic competency
+if it were itself an individual competence. A validated scale of algorithmic competency
 illustrates the point. Developed with platform workers, it measures understanding, embracing,
-leveraging, and remediating algorithmic management, and its remediating dimension includes
-gathering evidence in order to appeal (Zhou et al. 2025). Everything the scale measures is real,
+leveraging, and remediating algorithmic management, and remediating is measured by what the worker
+does alone or with peers: solving the problem herself, asking other workers, and using the
+platform's own reporting and appeal functions (Zhou et al. 2025). Every validated item locates the
+remedy in the worker, and most of them route around the institution rather than through it. Everything the scale measures is real,
 and much of it corresponds to the competences described above. What the scale cannot measure is
 whether anyone is obliged to consider the appeal, since that obligation, where it exists, belongs
 to the institution and not to any capacity of the worker. Lodging an appeal is an action a person can learn to
 perform; being heard and answered depends on an institution agreeing to recognize that appeal.
 
-The distinction can be stated simply: competence is learned, while standing is conferred. The same
+The distinction can be stated simply: competence is learned, while standing is conferred. We name
+the two halves accordingly. Hospitality algorithmacy is the situated capacity to recognize,
+interpret and work an algorithmic mediation in the hospitality encounter, and it is what guests and
+employees can be taught. Coordinative sovereignty is the standing to be answered within a
+coordination one cannot leave, and it is what an institution must confer. The same
 distinction applies to employees. Staff can become increasingly knowledgeable about the systems
 they work with while simultaneously losing authority over their outcomes. Indeed, employees who
 understand most clearly how little influence they have may become less willing to speak about
@@ -359,7 +396,8 @@ the occasion for hospitality itself.
 The phygital literature has become increasingly willing to criticize itself. Recent work examines
 technology-driven acceleration in hospitality (Weaver 2025), and the field's own research agendas
 criticize the opacity and rigidity of algorithmic systems (Shabnam et al. 2026). Smoothness
-itself, however, has remained a stated goal, and it has not yet been examined as one. Extended reality
+itself, however, has remained a stated goal, and it has not yet been examined as one in this
+field. Extended reality
 frameworks describe their purpose as creating "a continuum in terms of customer value from
 physical to digital settings and vice versa" (Batat and Hammedi 2023), the founding framework of
 phygital customer experience aims at "fluidifying" the guest's journey between online and offline
@@ -406,7 +444,7 @@ guest to have been legible all along is not available to the guest whose problem
 system cannot read her. The aim of phygital hospitality should therefore not be the complete
 elimination of friction. It should be to remove pointless friction while preserving the moments in
 which recognition, negotiation, and exception remain possible (Chalmers and Galani 2004; Ehsan et
-al. 2024; Padigar et al. 2024; Phillips et al. 2024).
+al. 2024; Padigar et al. 2025; Phillips et al. 2024).
 
 ## 8. Discussion
 
@@ -499,8 +537,11 @@ exception.
 
 The central question for phygital hospitality is consequently not whether technology can perform
 functions that were once performed by hosts. Increasingly, it clearly can. The more difficult
-question is who remains responsible when it does. However sophisticated, personalized, or seamless
-the technology becomes, somebody still owes the guest a welcome.
+question is who remains responsible when it does. Who hosts the guest? Not the system, which
+performs the welcome without being able to answer for it. The host is whoever can be called to
+account for the terms on which the guest is received, and phygital design either keeps that party
+reachable or quietly disposes of them. However sophisticated, personalized, or seamless the
+technology becomes, somebody still owes the guest a welcome.
 
 ---
 
@@ -682,7 +723,7 @@ Odekerken-Schröder, Gaby, Mennens, Kars, Steins, Mark and Mahr, Dominik (2021),
 
 Okhuysen, Gerardo A. and Bechky, Beth A. (2009), 'Coordination in Organizations: An Integrative Perspective', *Academy of Management Annals*, 3:1, pp. 463–502.
 
-Padigar, Manjunath, Li, Yi and Manjunath, Chandana N. (2024), '‘Good’ and ‘Bad’ Frictions in Customer Experience: Conceptual Foundations and Implications', *Psychology & Marketing*, 42:1, pp. 21–43.
+Padigar, Manjunath, Li, Yi and Manjunath, Chandana N. (2025), '‘Good’ and ‘Bad’ Frictions in Customer Experience: Conceptual Foundations and Implications', *Psychology & Marketing*, 42:1, pp. 21–43.
 
 Pan, Shan-Yan, Lin, Yan and Wong, Jose Weng Chou (2025), 'The Dark Side of Robot Usage for Hotel Employees: An Uncertainty Management Perspective', *Tourism Management*, 106, pp. 104994.
 
