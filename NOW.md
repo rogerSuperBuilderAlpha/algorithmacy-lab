@@ -21,7 +21,7 @@ Full calendar, terms, and collisions: [`submissions/CALENDAR.md`](submissions/CA
 
 | Due | Piece | Path |
 | --- | --- | --- |
-| 2026-10-01 / 2026-11-01 | Slacker chapter | [`submissions/slacker_thirds/`](submissions/slacker_thirds/) |
+| 2026-10-01 / 2026-11-01 | Slacker chapter | [`submissions/slacker_thirds/chapter/chapter.md`](submissions/slacker_thirds/chapter/chapter.md) |
 | 2026-10-05–07 | Lima workshop (in person) | [`submissions/lima_pdw/`](submissions/lima_pdw/) |
 | 2027-01-31 | When is a combination a configuration? | [`submissions/proposals/`](submissions/proposals/) |
 
