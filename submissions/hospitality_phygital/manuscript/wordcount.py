@@ -75,35 +75,27 @@ def main() -> int:
         print("ABORT: no body found. Expected a '## 1. ' heading.")
         return 1
 
-    # Prefer the rendered list over the per-entry estimate. The estimate is what let a
-    # stale reference count hide ~1,200 words; the real block is right there in the file.
+    # THE AUTHOR HAS RULED THAT REFERENCES DO NOT COUNT. The figure that governs is the
+    # body, sections 1-9, against 6,000-9,000. See JOURNAL_SPEC.md. A session on 17 August
+    # read the Notes literally, computed a 3,600-word overage that did not exist, and cut
+    # 2,344 words on that basis. The reference count is reported for information only.
     raw = open(args.paper, encoding="utf-8").read()
-    measured = None
+    nrefs = 0
     if "## References" in raw:
-        block = raw.split("## References", 1)[1]
-        entries = [ln for ln in block.splitlines() if ln.strip() and not ln.startswith("*")]
-        if entries:
-            measured = len(" ".join(entries).split())
-            args.refs = len(entries)
-    refs = measured if measured is not None else args.refs * 26
-    # Abstract measured at 198 (FRONT_MATTER.md), six keywords, two biographies at the
-    # 100-word maximum each. The AI statement now sits in DRAFT.md and is counted in the
-    # body, so it is no longer added here. No endnotes: the Notes discourage them.
-    other = 198 + 10 + 200
-    total = body + refs + other
+        nrefs = len([ln for ln in raw.split("## References", 1)[1].splitlines()
+                     if ln.strip() and not ln.startswith("*")])
 
-    ceiling_budget = 9000 - refs - other   # what the all-inclusive ceiling leaves the body
-    print(f"BODY            {body:>6,}   budget 6,850; the 9,000 ceiling leaves it {ceiling_budget:,}")
-    print(f"references (x{args.refs})  {refs:>6,}   " + ("measured from the rendered list" if measured is not None else "estimated at ~26 words each"))
-    print(f"other required  {other:>6,}   abstract, keywords, two biographies")
-    print(f"TOTAL           {total:>6,}   limit 6,000-9,000 inclusive")
+    print(f"BODY            {body:>6,}   against 6,000-9,000 (body only, per the author's ruling)")
+    print(f"references      {nrefs:>6,}   entries, not counted")
 
     fail = False
-    if not 6000 <= total <= 9000:
-        print(f"G-LEN FAIL: projected total {total:,} outside 6,000-9,000")
+    if not 6000 <= body <= 9000:
+        where = "below the 6,000 floor" if body < 6000 else "above the 9,000 ceiling"
+        print(f"G-LEN FAIL: body {body:,} is {where}")
         fail = True
-    if body > 6850:
-        print(f"G-BUDGET over: body {body:,} exceeds the 6,850 budget by {body - 6850:,}")
+    else:
+        print(f"            headroom: {9000 - body:,} words to the ceiling, "
+              f"{body - 6000:,} above the floor")
     print("G-LEN: FAIL" if fail else "G-LEN: PASS")
     return 1 if fail else 0
 
