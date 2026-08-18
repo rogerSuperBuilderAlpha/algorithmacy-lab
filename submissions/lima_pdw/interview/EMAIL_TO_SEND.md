@@ -21,8 +21,10 @@ partner interviews were determined not to be human-subjects research. **Do not s
 placeholder in place, and do not write an approval that does not exist.** Protocol 260511078 covers a
 survey at a different site. The qualitative protocol at `paper3/irb/` is unfiled.
 
-**3. Deploy the intake endpoint** and put its URL into `INTAKE_URL` in `AGENT.md`, or people will
-finish the interview with nowhere to send it. See `firebase/SETUP.md`.
+~~**3. Deploy the intake endpoint.**~~ **Done, 18 August 2026.** Live at
+`https://us-central1-pitch-rise.cloudfunctions.net/intake`, wired into `AGENT.md`, and smoke-tested
+end to end: a file marked `reviewed_by_human: true` returned `201` and landed in the bucket; one
+marked `false` was refused with `422`. The test object was deleted; the bucket is empty.
 
 ## Who to send it to
 
@@ -128,7 +130,7 @@ rhunt@bentley.edu
 | The harness, on the working branch | `https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/tree/worktree-lima-manuscript-review/submissions/lima_pdw/interview` |
 | Clone URL, if someone prefers it | `https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab.git` |
 | Intake bucket | `gs://pitch-rise-interview-intake` |
-| Intake endpoint | *not deployed — see `firebase/SETUP.md`* |
+| Intake endpoint | `https://us-central1-pitch-rise.cloudfunctions.net/intake` — live |
 
 ## For a recipient who does not use an editor with an assistant
 

@@ -112,7 +112,7 @@ clear go, and you do nothing.
 **Then re-read the file from disk** — not from memory of what you wrote — and POST its exact contents:
 
 ```
-POST [INTAKE_URL]
+POST https://us-central1-pitch-rise.cloudfunctions.net/intake
 Content-Type: text/markdown
 
 <the file's contents>
@@ -126,5 +126,11 @@ decide.
 If the POST fails for any other reason, say so and offer the fallback: they can email the file to
 rhunt@bentley.edu, which is not anonymous, and that trade-off is theirs to make knowingly.
 
-**If they would rather send it themselves**, point them at the upload page instead: **[UPLOAD_URL]**.
-Some people will prefer that, and it is not your business to talk them out of it.
+**If they would rather not have you send it**, that is a reasonable preference and not your business
+to argue with. They have two options, and both are theirs to weigh:
+
+- POST it themselves, if they are comfortable doing so:
+  `curl -X POST https://us-central1-pitch-rise.cloudfunctions.net/intake -H 'Content-Type: text/markdown' --data-binary @response-<id>.md`
+- Email the file to rhunt@bentley.edu. Say plainly that this one is **not anonymous** — it arrives
+  from their address, attached to their name — so it is a real trade and they should make it
+  knowingly.
