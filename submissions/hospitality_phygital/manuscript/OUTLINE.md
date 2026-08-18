@@ -546,7 +546,7 @@ short draft: her guests without hosts, answered.*
 ## Back matter
 
 AI acknowledgment before References (drafted; authors confirm) · References in Intellect Harvard,
-currently 127 rendered from `cited_keys.txt` and rising with P9's additions · journal abstract 198
+currently 123 rendered from `cited_keys_draft.txt` · journal abstract 198
 words, six keywords, Statement of Contribution, Highlights — all drafted in
 [`submission/FRONT_MATTER.md`](submission/FRONT_MATTER.md).
 
