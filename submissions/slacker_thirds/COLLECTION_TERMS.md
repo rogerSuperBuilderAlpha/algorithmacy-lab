@@ -21,9 +21,9 @@ University, melissa.remark@nicholls.edu).
 
 ## Requirements
 
-- **Length: 3,000–5,000 words.** Stated as a range with no overage allowance. v3's body is **5,092
-  words**, so **92 words come out** unless the author asks and the editors relent. The ceiling
-  question in `editor_query.md` item 1 is answered by default: assume it is firm.
+- **Length: 3,000–5,000 words.** Stated as a range with no overage allowance. The live v14 body is
+  inside the range. The ceiling question in `editor_query.md` item 1 is answered by default: assume
+  it is firm.
 - **Style: The Chicago Manual of Style.** The chapter is already Chicago. **Notes go as endnotes**,
   not footnotes — check the rendering, not just the citation format.
 - **Spelling: US English, Merriam-Webster's Collegiate Dictionary, 11th ed.**

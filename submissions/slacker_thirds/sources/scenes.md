@@ -1,7 +1,7 @@
 # Scene inventory: transcript vs. chapter coverage
 
-Built 2026-07-22 from `slacker_transcript.md` (subtitle-derived, no speaker names) read against
-`chapter/chapter.md`. Line refs point into `slacker_transcript.md`. Character names in quotes are
+Built 2026-07-22 from `transcript.md` (subtitle-derived, no speaker names) read against
+`chapter.md`. Line refs point into `transcript.md`. Character names in quotes are
 the film's credited names; ones marked (?) are attributions from memory of the film, to be
 confirmed against the St. Martin's 1992 screenplay or the Criterion disc before any enters the
 chapter. Subtitles compress and paraphrase — verify any quotation against the film before use.
