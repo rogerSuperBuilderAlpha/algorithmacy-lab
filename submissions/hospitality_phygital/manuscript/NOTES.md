@@ -2,6 +2,48 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the length ruling, and the slop in my own repairs
+
+Two corrections, and the second is the one that matters.
+
+**Only the body counts. The author has ruled it and it is stated three times in this repo** — once
+in `reviews/2026-08-17/PANEL_BRIEF.md`, twice in `SYNTHESIS.md`. This session read the Notes for
+Contributors literally instead, computed a 3,600-word overage that does not exist, cut 2,344 words
+from a superseded draft partly on that basis, and then let the wrong figure shape a review brief and
+an artifact. `JOURNAL_SPEC.md` now carries the ruling at the top, above the Notes' own wording, with
+the instruction that the ruling wins. `wordcount.py` measures the body alone and reports the
+reference count as information. `preflight.py`'s upper bound was 7,000, which was the author's
+preference back when the body stood at 5,841; it is now the journal's 9,000.
+
+**The real position: body 8,693 against 6,000–9,000. It fits, with 307 words of headroom.** All 23
+preflight checks pass, the first time this arm has been clean.
+
+**The repairs contained slop, and the earlier style pass did not catch it because it was counting.**
+Sentence means, short-sentence ratios, `rather than` frequency — every band came back in range while
+the prose still read as a different person. What a count cannot see is self-regard, and that is what
+was wrong. The pattern, in my own sentences, was one thing wearing four costumes:
+
+- *narrating the argument instead of making it* — "that is the whole argument for", "the step is the
+  whole contribution", "a boundary worth stating rather than hiding", "which is worth holding onto"
+- *knowing aphorisms* — "The point is sharper than neglect", "older than it looks", "Sham voice is
+  worse than none"
+- *smug connectives* — "which is exactly what you would predict"
+- *preening* — "a question the field asked fifteen years ago, not one nobody thought to ask"
+
+Pierre does none of this anywhere in eight thousand words. He states a thing and moves on: *Guests
+and employees are not sitting ducks. Skill cannot conjure a counterparty. Put that way, the answer
+is boring.* When he writes a short sentence it delivers content, never a verdict on his own case.
+
+Thirteen passages rewritten on that diagnosis. Two also fixed real defects the slop was hiding: the
+Garcia concession was a 49-word semicolon splice, and one sentence restated a finding given two
+sentences earlier. Measured after, against his retained prose: self-narration 0.00 per 1,000 against
+his 0.25, aphorism 0.00 against 0.00, smug connective 0.00 against his 0.12. Below his own rates on
+all three.
+
+**One thing learned that is worth keeping.** *not simply* is his construction, not a tic — he writes
+"mediation is not simply 'helpful' or 'substitutive'". A style check that flags it is measuring the
+wrong author. Before treating any construction as a defect, grep his prose for it first.
+
 ## 2026-08-17 — manuscript.md deleted, and the card gate had been reading the dead paper
 
 `manuscript/manuscript.md` is gone, with `cited_keys.txt`, the key list that existed only to serve

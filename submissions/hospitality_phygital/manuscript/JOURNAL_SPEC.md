@@ -5,7 +5,17 @@ Extracted 2026-08-07 from `HOSP_NFC_May_26.pdf`
 *H&S* 16:1, pp. 127–130. This file is the authority for format. Where it disagrees with anything
 else in the arm, it wins.
 
-## The length ruling — the budget was wrong
+## The length ruling — BODY ONLY, per the author
+
+> **The author has ruled that references do not count toward the word limit.** The figure that
+> governs is the **body, §1 through §9, against 6,000–9,000**. This ruling is stated in
+> `reviews/2026-08-17/PANEL_BRIEF.md` and twice in `reviews/2026-08-17/SYNTHESIS.md`, and it is the
+> authority here. Where the Notes' own wording below appears to include references, the ruling wins.
+>
+> A session on 17 August read the Notes literally, computed a 3,600-word overage that did not exist,
+> and cut 2,344 words on that basis. Do not repeat it. **Measure the body. Nothing else.**
+
+## What the Notes themselves say, for the record
 
 > "Articles should normally be between 6–9000 words **including notes, references, contributor
 > biography, keywords and abstract**."
