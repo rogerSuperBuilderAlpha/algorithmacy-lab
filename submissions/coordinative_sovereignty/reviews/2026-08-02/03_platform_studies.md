@@ -4,7 +4,7 @@
 **Manuscript:** *Algorithmacy and Sovereignty: Toward a Coordinative Sovereignty for the Platform Era*  
 (`org_frontier/coordinative_sovereignty/chapter/chapter.md`, lines cited below)  
 **Venue:** IGI Global, *Organizational Implications of Digital Sovereignty in the Age of AI*  
-**Standpoint:** Kellogg et al.; Vallas & Schor; Cutolo & Kenney; Rahman; Stark & Pais / Stark & Vanden Broeck; Rochet & Tirole; Armstrong competitive bottleneck; Burt / Obstfeld brokerage. Prior panel file `reviews/03_platform_studies.md` and `chapter/reviews_v2.md` were skimmed only to identify closed items; judgment below is of the **current** text alone.
+**Standpoint:** Kellogg et al.; Vallas & Schor; Cutolo & Kenney; Rahman; Stark & Pais / Stark & Vanden Broeck; Rochet & Tirole; Armstrong competitive bottleneck; Burt / Obstfeld brokerage. Prior panel file `reviews/2026-07-03/03_platform_studies.md` and `archive/process/reviews_v2.md` were skimmed only to identify closed items; judgment below is of the **current** text alone.
 
 ---
 

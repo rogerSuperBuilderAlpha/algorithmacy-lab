@@ -1,3 +1,9 @@
+<!-- Paste-ready for Grammarly: soft-wrapped paragraphs, one blank line between them.
+     Full chapter including References, Cases, Additional Reading, and Key Terms.
+     Source of truth remains chapter.md.
+     Regenerate with regen_exports.py after substantive edits. -->
+
+
 # Algorithmacy and Sovereignty: Coordinative Sovereignty for the Platform Era
 
 ## Abstract
@@ -190,17 +196,15 @@ Algorithmacy is the precondition: an actor cannot contest a mediator's arbitrary
 
 Mandated interoperability and data portability lower the cost of the direct tie and restore a measure of the old sovereignty of independence where a mediator's position is contingent, held by lock-in. Against a necessary mediator, the same instrument does something else entirely: a right to interoperate with a facility no one can bypass does not let the actor leave; it forces the mediator to grant access on regulated terms. That is a voice instrument, and competition law has long understood it as one under the essential-facilities logic it applies to infrastructure that cannot be duplicated. The Digital Markets Act's access and interoperability obligations carry the logic into platform regulation. Reviewing the Act's first years, the European Commission (2026) reports that messaging interoperability has brought new providers into the market, including a European SME, while judging it too early to extend the same obligation to social networking: an external study there showed mixed evidence, greater technical complexity, and limited demand. A regulator sorting functions by whether interoperability bites is running the diagnostic under another name.
 
+Instrument crosswalk:
 
-| Instrument | Against a contingent mediator | Against a necessary mediator |
-|---|---|---|
-| Interoperability and portability       | restores exit                                  | access on regulated terms, which is voice   |
-| Antitrust and anti-steering remedies   | opens the bypass                               | alters conduct, not dependence              |
-| Contestability of individual decisions | thin case-level channel (P2B; DSA Arts. 20–21) | voice at the level of the case              |
-| Collective bargaining                  | marginal                                       | voice at the level of the rule              |
-| Data trusts and data intermediaries    | leverage toward exit                           | leverage toward voice                       |
-| Cooperative ownership                  | may fund an alternative                        | changes the owner, not the leaveability     |
-| Oversight boards                       | marginal                                       | voice, bounded by the constituting platform |
-
+- Instrument: Interoperability and portability; Against a contingent mediator: restores exit; Against a necessary mediator: access on regulated terms, which is voice.
+- Instrument: Antitrust and anti-steering remedies; Against a contingent mediator: opens the bypass; Against a necessary mediator: alters conduct, not dependence.
+- Instrument: Contestability of individual decisions; Against a contingent mediator: thin case-level channel (P2B; DSA Arts. 20–21); Against a necessary mediator: voice at the level of the case.
+- Instrument: Collective bargaining; Against a contingent mediator: marginal; Against a necessary mediator: voice at the level of the rule.
+- Instrument: Data trusts and data intermediaries; Against a contingent mediator: leverage toward exit; Against a necessary mediator: leverage toward voice.
+- Instrument: Cooperative ownership; Against a contingent mediator: may fund an alternative; Against a necessary mediator: changes the owner, not the leaveability.
+- Instrument: Oversight boards; Against a contingent mediator: marginal; Against a necessary mediator: voice, bounded by the constituting platform.
 
 The instruments do not all reach the same bearer. Article 22's contestation runs to natural persons and the platform-work directive's rights to workers, while the Platform-to-Business Regulation's complaint-handling and representative standing run to business users. A dependent firm and a dependent person therefore face different repertoires against the same mediator, and section 8 takes up the firm's.
 

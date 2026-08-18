@@ -17,7 +17,7 @@ Coordinative Sovereignty for the Platform Era* (subtitle 45 characters; IGI cap 
 
 **Prior work (do not re-litigate closed items unless they still appear in the current text):**
 
-- Original ten-lens panel: `../01_`–`../10_*.md` + `../SYNTHESIS.md`.
+- Original ten-lens panel: `../2026-07-03/01_`–`10_*.md` + `../2026-07-03/SYNTHESIS.md`.
 - Post-fix ten-lens panel: `../2026-08-02/` (zero major, ten minor / accept-with-nits).
 - Morning five-seat: `../2026-08-17/` (zero major, three minor, two accept-with-nits). Applied in
   HANDOFF §0g.
