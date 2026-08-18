@@ -83,24 +83,24 @@ goBtn.addEventListener('click', async () => {
   goBtn.disabled = true;
   say('Sending…');
   try {
-    const mint = await fetch(MINT_URL, { method: 'POST' });
-    if (!mint.ok) throw new Error(`mint ${mint.status}`);
-    const { url, lengthRangeHeader } = await mint.json();
-
-    // These two headers are signed into the URL. Omit either and GCS rejects it.
-    const put = await fetch(url, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'text/markdown',
-        'x-goog-content-length-range': lengthRangeHeader,
-      },
-      body: chosen,
+    const text = await chosen.text();
+    const res = await fetch(MINT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/markdown' },
+      body: text,
     });
-    if (!put.ok) throw new Error(`put ${put.status}`);
+    const body = await res.json().catch(() => ({}));
 
-    say('Sent. Thank you — that is genuinely useful.', 'ok');
-    labelText.textContent = 'Sent';
-    fileInput.disabled = true;
+    if (res.status === 201) {
+      say('Sent. Thank you — that is genuinely useful.', 'ok');
+      labelText.textContent = 'Sent';
+      fileInput.disabled = true;
+      return;
+    }
+
+    // 422 is the review gate, and its message is written for the reader.
+    say(body.error || `That was refused (${res.status}).`, 'err');
+    goBtn.disabled = false;
   } catch (err) {
     console.error(err);
     say('That did not go through. Email it to rhunt@bentley.edu instead, or try again.', 'err');

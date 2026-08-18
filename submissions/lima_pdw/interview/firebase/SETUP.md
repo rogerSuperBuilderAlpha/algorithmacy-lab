@@ -22,34 +22,68 @@ indefinitely alongside whatever else that project is for.
 Both keep responses out of git and out of any public repo. They differ in whether you run a public
 endpoint.
 
-### Option A — signed URL from a Cloud Function *(built, not deployed)*
+### Blocked on one IAM grant — do this first
 
-The page holds **no credential of any kind**. It POSTs to a function; the function signs a ten-minute
-upload URL for one object name it chooses, pinned to `text/markdown` and a 1 byte–512 KB range; the
-browser PUTs the file straight to the bucket.
+The `firebase-adminsdk-fbsvc@pitch-rise` key can create buckets but **cannot deploy functions.** It
+lacks `iam.serviceAccounts.actAs`, and it cannot grant itself the role either (no
+`iam.serviceAccounts.getIamPolicy`). Both failures are reproducible; the bucket above was created with
+the same key, so this is a permissions boundary, not a broken key.
+
+Signed in as yourself — `gcloud auth login` — either run the deploy in Option A directly, or grant the
+key what it needs and let it deploy:
 
 ```
-browser ──POST──▶ mintUpload (holds the service account)
-        ◀─signed URL─┘
-browser ──PUT──▶ gs://pitch-rise-interview-intake/<uuid>.md
+gcloud iam service-accounts add-iam-policy-binding \
+  299206296414-compute@developer.gserviceaccount.com \
+  --member="serviceAccount:firebase-adminsdk-fbsvc@pitch-rise.iam.gserviceaccount.com" \
+  --role="roles/iam.serviceAccountUser" --project=pitch-rise
 ```
+
+Deploying as yourself is the better option. A key that can mint functions is a key you have to guard
+more carefully than one that can only write to a bucket.
+
+### Option A — direct POST to a Cloud Function *(built and unit-tested; deploy blocked above)*
+
+Nothing on the client holds a credential. The participant's own agent — or the upload page — POSTs the
+markdown straight to one endpoint, which validates it and writes it to the bucket under a random name.
+
+```
+agent (or page) ──POST markdown──▶ intake ──▶ gs://pitch-rise-interview-intake/<uuid>.md
+                ◀── 201 {reference} ─┘
+```
+
+**The endpoint enforces the review gate**, which a client cannot be trusted to do. The harness writes
+`reviewed_by_human: false` and is forbidden from changing it; only the person sets it true, after
+reading the file. A submission still marked false gets a `422` and a message telling them what to do.
+Seven cases of that logic are unit-tested, including the obvious dodge — writing
+`reviewed_by_human: true` into the body rather than the front matter, which is refused.
 
 Files: `functions/index.js`, `functions/package.json`, `upload.html`.
 
-Deploy:
+Deploy (as yourself, per the grant note above):
 
 ```
-cd functions && npm install && cd ..
-gcloud functions deploy mintUpload \
-  --gen2 --runtime=nodejs20 --region=us-central1 \
-  --source=functions --entry-point=mintUpload \
-  --trigger-http --allow-unauthenticated \
+gcloud functions deploy intake \
+  --gen2 --runtime=nodejs22 --region=us-central1 \
+  --source=submissions/lima_pdw/interview/firebase/functions \
+  --entry-point=intake --trigger-http --allow-unauthenticated \
   --set-env-vars=INTAKE_BUCKET=pitch-rise-interview-intake \
-  --project=pitch-rise
+  --memory=256Mi --timeout=60s --project=pitch-rise
 ```
 
-Then paste the printed URL into `MINT_URL` in `upload.html`, and the hosted page's URL into
-`[UPLOAD_URL]` in `../AGENT.md`.
+Then put the printed URL into **two** places: `INTAKE_URL` in `../AGENT.md`, so an agent can send
+directly, and `MINT_URL` in `upload.html` for people who would rather do it in a browser. The hosted
+page's own URL goes into `[UPLOAD_URL]` in `../AGENT.md`.
+
+Smoke-test it before anyone gets the link — the second call must be refused:
+
+```
+printf -- '---\nrole: operations\nreviewed_by_human: true\n---\n\n# Interview\n\n**Q:** test\n\n**A:** test\n' \
+  | curl -s -X POST "$URL" -H 'Content-Type: text/markdown' --data-binary @-
+
+printf -- '---\nrole: operations\nreviewed_by_human: false\n---\n\n# Interview\n\n**Q:** test\n\n**A:** test\n' \
+  | curl -s -X POST "$URL" -H 'Content-Type: text/markdown' --data-binary @-
+```
 
 **What you are accepting.** `--allow-unauthenticated` is a public endpoint. Anyone who finds it can
 mint an upload URL and drop a ≤512 KB markdown file in the bucket. They cannot read, list, overwrite,

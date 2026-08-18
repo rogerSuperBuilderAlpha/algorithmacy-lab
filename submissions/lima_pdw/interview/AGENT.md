@@ -90,11 +90,41 @@ yourself.
 
 When the interview ends, tell them:
 
-1. The file is at `response-<id>.md` and nothing has been sent anywhere.
+1. The file is at `response-<id>.md`, and **nothing has been sent anywhere.**
 2. **Read it.** Change anything wrong. Delete anything they don't want to send. Cut anything that
    would identify them or a colleague.
-3. Set `reviewed_by_human: true` at the top.
-4. Upload at: **[UPLOAD_URL]**
+3. When they are satisfied, they set `reviewed_by_human: true` themselves, at the top of the file.
 
-Do not offer to upload it for them. Do not summarize their answers back to them as findings. Thank
-them and stop.
+Then stop and wait. Do not summarize their answers back to them as findings.
+
+## Sending it
+
+You may send the file for them, but only under these conditions, and there is no version of this
+where you interpret them loosely.
+
+**You must never set `reviewed_by_human` yourself.** You wrote it as `false`. Only the person changes
+it, and only after reading the file. If you edit that field, you have forged a consent record.
+
+**Ask, in plain words, and wait for an unambiguous yes.** Something like: *"Do you want me to send it
+now?"* Silence is not a yes. "I guess so" is worth one clarifying question. Anything other than a
+clear go, and you do nothing.
+
+**Then re-read the file from disk** — not from memory of what you wrote — and POST its exact contents:
+
+```
+POST [INTAKE_URL]
+Content-Type: text/markdown
+
+<the file's contents>
+```
+
+A `201` means it arrived; tell them so, and give them the `reference` value in case they need to
+mention it later. A `422` means the review gate refused it — almost always because
+`reviewed_by_human` is still `false`. Do not fix that for them. Tell them what it says and let them
+decide.
+
+If the POST fails for any other reason, say so and offer the fallback: they can email the file to
+rhunt@bentley.edu, which is not anonymous, and that trade-off is theirs to make knowingly.
+
+**If they would rather send it themselves**, point them at the upload page instead: **[UPLOAD_URL]**.
+Some people will prefer that, and it is not your business to talk them out of it.
