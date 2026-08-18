@@ -31,6 +31,12 @@ the ones that came up more than once, and for the one that came up most.*
 
 > When you answered that, what did you tell them — and did you know?
 
+> Did participants use AI tools to work out what the review wanted? What did you see them doing?
+
+> Did that change what they submitted, or only how they understood the feedback?
+
+> Did anyone come to you having been told something by an AI tool that was wrong?
+
 ## C. When things changed
 
 > Did the rules or the expectations shift at any point during a cohort?
@@ -91,8 +97,11 @@ This block matters more than the others. Do not rush it, and do not settle for a
 
 ## Notes for the agent running this
 
-**Ask about incidents, not impressions.** "It was confusing for people" is the beginning of an
-answer. "Which time? What happened? What did they do?" is the answer.
+**One incident per block, minimum.** "It was confusing for people" is the beginning of an answer.
+"Which time? What happened? What did they do?" is the answer. Do not leave a block without one
+occasion narrated end to end.
+
+**Knock twice.** A "no" or "don't know" gets one reframe from a different angle before you move on.
 
 **Block D is the one to protect.** If time runs short, cut E and F, never D.
 

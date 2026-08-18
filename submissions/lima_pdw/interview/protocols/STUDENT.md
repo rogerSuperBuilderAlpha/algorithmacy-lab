@@ -32,6 +32,27 @@ Open with orientation, not with a question:
 *Follow the specific. "I just figured it out" is the start of an answer — ask about the submission
 where they figured it out.*
 
+### B2. Working it out with something else
+
+Ask these directly. Do not wait for it to come up on its own — in the first interview this was the
+single most important thing said, and it surfaced by accident inside an answer about something else.
+
+> When a review came back and you weren't sure what it meant, what did you do with it?
+
+> Did you ever put the feedback into an AI tool and ask it to explain? Which one, and what did you
+> ask it?
+
+> When did you start doing that — from the first submission, or after something in particular?
+
+> How did you know whether what it told you was right?
+
+> Did you ever act on its reading and find out it had it wrong?
+
+> Was there anyone — a person — you could have asked instead? Did you?
+
+*Note whether the tool is being used to interpret the reviewer, or to do the work, or both. Those are
+different things and participants often run them together. Ask which one they mean.*
+
 ## C. Getting your work across
 
 > When you put a submission together, did you do anything differently because of how it was going to
@@ -77,6 +98,30 @@ This block matters more than the others. Do not rush it and do not accept a gene
 
 *The last question is often where the real answer is. Let the pause run.*
 
+## E2. When you were the reviewer
+
+Most participants also reviewed other people's work. That is half their relationship to the gate and
+the first interview had no block for it — it leaked in sideways and turned out to hold the richest
+material in the transcript. Ask it properly.
+
+> You were reviewing other people's submissions too. What was that like?
+
+> How did you decide what to say? Did you know what you were supposed to be looking for?
+
+> Was there a rubric, or did you work it out?
+
+> Tell me about one you reviewed. What did they submit and what did you write?
+
+> Did you ever disagree with how a submission got assessed — either by another reviewer or by the
+> official review?
+
+> What did you do about that, if anything?
+
+> Did reviewing other people change how you put your own submissions together?
+
+*That last question is the one to protect in this block. Somebody who has sat on both sides of a gate
+knows something about it that nobody on one side does.*
+
 ## F. How you learned it
 
 > Where did what you know about the review process come from?
@@ -85,9 +130,17 @@ This block matters more than the others. Do not rush it and do not accept a gene
 
 > Any of it from watching what happened to other people?
 
+> How much of it came from an AI tool rather than from a person or a document?
+
 > Is there anything you know about how it worked that you couldn't say how you learned?
 
 > If someone joined tomorrow, what would you tell them that nobody told you?
+
+> Could someone have taught you this at the start, or did you have to go through it to get it?
+
+*The last two are the acquisition questions and they are worth the time. If the answer is that it
+could not have been taught, ask what specifically could not have been. Knock twice if the first
+answer is a shrug.*
 
 ## Closing
 
@@ -102,7 +155,13 @@ This block matters more than the others. Do not rush it and do not accept a gene
 **No leading, ever.** Not "was it frustrating?", not "did that feel unfair?" Ask "what did you make
 of that?" and wait.
 
-**Block E is the one to protect.** If time runs short, cut A and F, never E.
+**Priority, if time runs short.** Protect **E**, then **B2**, then **E2**. Cut A first, then D, then
+F. Never cut E.
+
+**This interview is longer than it looks and that is deliberate.** Eight blocks, and the first run of
+a six-block version came back at parity — as many words from the agent as from the participant.
+Offer a break rather than trimming a block. If they need to stop, stop and send what exists; a
+half-interview with three real incidents in it beats a complete one made of summaries.
 
 **Do not defend the programme, and do not agree with criticism of it either.** You are not its
 representative. Record what they say and ask what happened next.
