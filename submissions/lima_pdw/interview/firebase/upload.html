@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Upload your interview</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1a1a1a; --bg:#fbfbfa; --mut:#666; --line:#ddd; --ok:#1a6b3c; --err:#a3271c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e8e8e6; --bg:#161615; --mut:#9a9a95; --line:#333; --ok:#6bbf8a; --err:#e08b80; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:2.5rem 1.25rem; background:var(--bg); color:var(--fg);
+         font:16px/1.6 ui-serif, Georgia, serif; }
+  main { max-width: 34rem; margin:0 auto; }
+  h1 { font-size:1.5rem; margin:0 0 1rem; letter-spacing:-.01em; }
+  p { margin:0 0 1rem; }
+  .mut { color:var(--mut); font-size:.9rem; }
+  label { display:block; border:1.5px dashed var(--line); border-radius:8px; padding:2rem 1rem;
+          text-align:center; cursor:pointer; margin:1.5rem 0 1rem; }
+  label:hover { border-color:var(--mut); }
+  input[type=file] { position:absolute; width:1px; height:1px; opacity:0; }
+  button { font:inherit; font-size:1rem; padding:.6rem 1.4rem; border:1px solid var(--fg);
+           border-radius:6px; background:transparent; color:var(--fg); cursor:pointer; }
+  button:disabled { opacity:.4; cursor:default; }
+  #msg { margin-top:1.25rem; min-height:1.5rem; }
+  .ok { color:var(--ok); } .err { color:var(--err); }
+  hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Upload your interview</h1>
+
+  <p>This takes the <code>response-&lt;id&gt;.md</code> file the interview wrote. Nothing else.</p>
+
+  <p class="mut">No name, no email, no account. The upload is not linked to you, and because of that
+  it cannot be withdrawn afterwards — there would be nothing to find. So if there is anything in the
+  file you would rather not send, close this tab and edit it first.</p>
+
+  <label for="f" id="drop">
+    <span id="label-text">Choose your <code>.md</code> file</span>
+    <input type="file" id="f" accept=".md,text/markdown,text/plain">
+  </label>
+
+  <button id="go" disabled>Send it</button>
+  <div id="msg" role="status" aria-live="polite"></div>
+
+  <hr>
+  <p class="mut">Questions, or second thoughts before you send: rhunt@bentley.edu</p>
+</main>
+
+<script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import { getAuth, signInAnonymously } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+import { getStorage, ref, uploadBytes } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js';
+
+// ── Fill these in from the Firebase console (Project settings → Your apps → Web).
+//    These values are public by design; the storage rules are what protect the bucket.
+const firebaseConfig = {
+  apiKey: 'REPLACE_ME',
+  authDomain: 'REPLACE_ME.firebaseapp.com',
+  projectId: 'REPLACE_ME',
+  storageBucket: 'REPLACE_ME.appspot.com',
+  appId: 'REPLACE_ME',
+};
+
+const MAX = 512 * 1024;
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const storage = getStorage(app);
+
+const fileInput = document.getElementById('f');
+const goBtn = document.getElementById('go');
+const msg = document.getElementById('msg');
+const labelText = document.getElementById('label-text');
+let chosen = null;
+
+function say(text, cls) { msg.textContent = text; msg.className = cls || ''; }
+
+fileInput.addEventListener('change', () => {
+  chosen = fileInput.files[0] || null;
+  if (!chosen) { goBtn.disabled = true; return; }
+  if (!/\.md$/i.test(chosen.name)) { say('That needs to be the .md file the interview wrote.', 'err'); goBtn.disabled = true; return; }
+  if (chosen.size === 0) { say('That file is empty.', 'err'); goBtn.disabled = true; return; }
+  if (chosen.size > MAX) { say('That file is larger than 512 KB — more than an interview should be.', 'err'); goBtn.disabled = true; return; }
+  labelText.textContent = chosen.name;
+  say('');
+  goBtn.disabled = false;
+});
+
+goBtn.addEventListener('click', async () => {
+  if (!chosen) return;
+  goBtn.disabled = true;
+  say('Sending…');
+  try {
+    await signInAnonymously(auth);
+    // Random name, client-side: the filename carries no information about the sender.
+    const name = `${crypto.randomUUID()}.md`;
+    await uploadBytes(ref(storage, `interview-intake/${name}`), chosen, { contentType: 'text/markdown' });
+    say('Sent. Thank you — that is genuinely useful.', 'ok');
+    labelText.textContent = 'Sent';
+  } catch (err) {
+    console.error(err);
+    say('That did not go through. Email it to rhunt@bentley.edu instead, or try again.', 'err');
+    goBtn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
