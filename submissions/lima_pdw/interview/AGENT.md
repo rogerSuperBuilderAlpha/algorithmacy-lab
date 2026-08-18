@@ -49,6 +49,12 @@ false starts. Do not improve their phrasing, do not make them sound more articul
 smooth a rambling answer into a clean one — the shape of the answer is data. If you catch yourself
 writing a sentence they did not say, delete it.
 
+**Keep the grammatical person consistent, and keep it theirs.** Write "I completed four" if that is
+what they said. Do not drift into reporting them in the third person — "tends to be meticulous,"
+"doesn't know," "the speaker" — which is what the first run did in about half its answers. It reads
+as a case note rather than an account, and it strips the voice that makes a quotation worth having.
+Anonymity does not require the third person; the substitution table handles identity.
+
 **Stop when they stop.** "Skip" moves on. "Stop" ends the interview and writes up what you have. No
 persuading, no one-more-question.
 
@@ -97,8 +103,12 @@ Then stop and wait. Do not summarize their answers back to them as findings.
 
 ## Sending it
 
-You may send the file for them, but only under these conditions, and there is no version of this
-where you interpret them loosely.
+**Send it yourself. This is the default and it is your job, not theirs.** The first person through
+this harness spent thirty-six minutes trying to submit a finished interview because the agent
+offered her a choice of manual methods instead of just doing it. Do not repeat that. Do not lead
+with the curl command, do not lead with email, and do not ask her to find her own filename.
+
+The conditions below are conditions on *consent*, not invitations to hand the job back.
 
 **You must never set `reviewed_by_human` yourself.** You wrote it as `false`. Only the person changes
 it, and only after reading the file. If you edit that field, you have forged a consent record.
@@ -107,22 +117,37 @@ it, and only after reading the file. If you edit that field, you have forged a c
 now?"* Silence is not a yes. "I guess so" is worth one clarifying question. Anything other than a
 clear go, and you do nothing.
 
-**Then re-read the file from disk** — not from memory of what you wrote — and POST its exact contents:
+**Then send it, in this order. Do not skip to a later method because an earlier one looks awkward.**
+
+**Method 1 — your shell tool.** This works in Cursor, Claude Code, and anything else with terminal
+access, and it is almost always available. Substitute the real filename yourself:
 
 ```
-POST https://us-central1-pitch-rise.cloudfunctions.net/intake
-Content-Type: text/markdown
-
-<the file's contents>
+curl -s -w '\nHTTP %{http_code}\n' -X POST \
+  https://us-central1-pitch-rise.cloudfunctions.net/intake \
+  -H 'Content-Type: text/markdown' \
+  --data-binary @response-<the actual id>.md
 ```
 
-A `201` means it arrived; tell them so, and give them the `reference` value in case they need to
-mention it later. A `422` means the review gate refused it — almost always because
-`reviewed_by_human` is still `false`. Do not fix that for them. Tell them what it says and let them
-decide.
+**Method 2 — your own HTTP capability**, if you have one and no shell.
 
-If the POST fails for any other reason, say so and offer the fallback: they can email the file to
-rhunt@bentley.edu, which is not anonymous, and that trade-off is theirs to make knowingly.
+**Method 3 — only if both are genuinely unavailable to you.** Give them the command above with their
+real filename already filled in, and say plainly that you cannot run it yourself.
+
+### Then tell them what happened
+
+Do not say "sent" without checking. Read the response:
+
+- **`201`** — it arrived. Say so, and give them the `reference` value.
+- **`422`** — the review gate refused it, almost always because `reviewed_by_human` is still
+  `false`. Quote the message and let them decide. **Do not change that field for them.**
+- **`400`** — the file is too short to be an interview. Check you sent the right file.
+- **Anything else, or no response** — say so plainly rather than guessing. Retry once. If it still
+  fails, offer email to rhunt@bentley.edu and say that this route is **not anonymous**, so it is a
+  real trade for them to make knowingly.
+
+**Never report success you did not observe.** "It should have gone through" is the failure mode that
+cost the first participant half an hour.
 
 **If they would rather not have you send it**, that is a reasonable preference and not your business
 to argue with. They have two options, and both are theirs to weigh:
