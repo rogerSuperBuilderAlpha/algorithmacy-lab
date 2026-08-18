@@ -78,11 +78,15 @@ why the review step before submission is not a formality.
 
 Write to rhunt@bentley.edu. [IRB_CONTACT_LINE]
 
-## If you took part in one of the programs
+## If you took part in one of the programs as a participant
 
-**Stop here.** The interview for programme participants is not open. It requires a research-ethics
-determination that has not yet been issued, and collecting it beforehand would be improper. You will
-be invited properly if and when that is in place.
+The interview covers what the review process was like from your side — how you worked out what it
+expected, how you put submissions together, and what happened when a result was not what you
+expected.
+
+**Nothing you say affects anything.** The programmes you took part in have concluded or are
+concluding. Your responses reach no instructor as your responses, carry no weight in any assessment,
+and are submitted anonymously — the researcher will not know whether you took part.
 
 ---
 
