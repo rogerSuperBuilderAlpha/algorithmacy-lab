@@ -33,7 +33,7 @@ Sources, all fetched 2026-08-17:
 | Title case, short words lowercase unless first or last | Before You Write | `and`, `a`, `for`, `the` all lowercase | ✅ |
 | Abstract 100–150 words | Before You Write | 148 | ✅ |
 | Abstract in third person | Before You Write | zero first-person forms | ✅ |
-| Minimum word count | 8,000 on Before You Write; **10,000** on the author checklist and in this volume's call | 15,277 including references | ✅ |
+| Minimum word count | 8,000 on Before You Write; **10,000** on the author checklist and in this volume's call | 15,261 including references | ✅ |
 | Key Terms and Definitions, 7+, author's own words | Before You Write | 14, all written for the chapter | ✅ |
 | Additional Reading ≤ 10, if relevant | Before You Write | 8 | ✅ |
 | Section titled "Conclusion", not "Conclusions" | Before You Write | §10 Conclusion | ✅ |

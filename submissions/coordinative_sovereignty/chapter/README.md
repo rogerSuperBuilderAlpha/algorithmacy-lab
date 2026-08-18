@@ -12,8 +12,9 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
 - **`chapter_v2.md` is superseded.** It was a 2026-08-14 prose rewrite of the same argument against four
   published model essays (`HANDOFF.md` §0e), held at exact content parity with `chapter.md` so the author
   could pick either. The 2026-08-17 fix pass (`HANDOFF.md` §0g) broke that parity: `chapter.md` now carries
-  the five-seat panel's corrections and `chapter_v2.md` does not. Keep it for its sentence-merge patterns
-  if a later prose pass wants them; do not submit it.
+  the five-seat panel's corrections and `chapter_v2.md` does not. The evening cascade pass (`HANDOFF.md`
+  §0j) is in `chapter.md` only. Keep `chapter_v2.md` for its sentence-merge patterns if a later prose
+  pass wants them; do not submit it.
 - **THE SUBMISSION FILE is `Full Paper - Alg & Sov.docx`.** Upload that to eEditorial Discovery. Times New
   Roman 12pt, double-spaced, US Letter with 1-inch margins, page numbers top right, APA 7 heading placement
   (level 1 centered bold, level 2 flush-left bold, level 3 bold italic), anonymized. No reflow needed.
@@ -24,7 +25,7 @@ Implications of Digital Sovereignty in the Age of AI* (ed. Samuel Fosso Wamba, T
   render. The Word styling comes from `reference.docx`, rebuilt by `build_reference_docx.py` — change the
   styling there, not in the output.
 - Presentation materials (the SBE 2026 deck and poster) live in [`../presentations/`](../presentations/).
-- **Length:** 15,277 words total, abstract 148 (measured 2026-08-17, after the fix pass).
+- **Length:** 15,261 words total, abstract 148 (measured 2026-08-17, after the cadence pass).
 - **Literature-gap pass (2026-07-01):** a fresh Consensus sweep over the chapter's concept clusters added 12
   verified references closing three gaps flagged as reviewer-exploitable: the brokerage literature behind the
   mediated triad (Burt; Obstfeld; Hahl et al. on disintermediation), the two-sided-market economics behind the
