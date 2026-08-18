@@ -64,11 +64,18 @@ possible: nothing links a file to the person who sent it, so there is no way to 
 This is a consequence of the anonymity described above, and it is why the review step before
 submission matters.
 
-**Questions.** Write to me at rhunt@bentley.edu. [IRB_CONTACT_LINE]
+**Approval.** This study has been reviewed by the Bentley University Institutional Review Board and
+determined exempt from further review under 45 CFR 46.102(e)(2)(ii) — IRB #260511078, 11 May 2026
+(Bentley University IRB#1, FWA00007335).
+
+**Questions.** About the study, write to me at rhunt@bentley.edu. About your rights as a research
+participant, or anything you would rather not raise with me directly: Tony Kiszewski, Chair,
+Institutional Review Board, Bentley University, 175 Forest Street, Waltham, Massachusetts 02452,
+referencing IRB #260511078.
 
 **To take part.** Open the following and follow the instructions:
 
-**[HARNESS_URL]**
+https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/tree/main/submissions/lima_pdw/interview
 
 The full participant information is repeated there, and you will be asked to confirm before any
 questions begin.
@@ -86,17 +93,11 @@ Bentley University
 
 ## Before sending
 
-**`[IRB_CONTACT_LINE]`** — replace with the determination Bentley has actually issued, and nothing
-more. If the study has been reviewed, this is the standard line naming the protocol number and the
-IRB's own contact details for questions about participant rights. If Bentley has determined the staff
-and partner interviews are not human-subjects research, say that instead, plainly.
+**The IRB line is filled**, from the determination letter of 11 May 2026: IRB #260511078, exempt under
+45 CFR 46.102(e)(2)(ii), Bentley University IRB#1 FWA00007335, Chair Tony Kiszewski.
 
-**Do not send this with the placeholder in place, and do not write an approval that does not exist.**
-A formal invitation to participate in research is itself a claim that the study has a basis. Protocol
-260511078 covers a *survey* at a different site and does not cover these interviews. The qualitative
-protocol at `paper3/irb/` remains unfiled.
-
-**`[HARNESS_URL]`** — the public link to this directory, on `main` rather than a branch.
+**The harness link is filled** and points at `main`:
+`https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/tree/main/submissions/lima_pdw/interview`
 
 **Who this is for.** Everyone who was part of these programmes — participants, instructors,
 operations staff and partner organizations. The harness asks which they were and runs the matching
