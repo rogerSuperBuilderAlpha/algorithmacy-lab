@@ -1,0 +1,417 @@
+# Manuscript review — `PAPER.md`, 18 August 2026
+
+A full read of `dissertation/current/paper2/PAPER.md` (12 sections, 8,391 body words, unchanged since
+28 July) against the four items the author selected: the §1 citation gap, Zhou et al. in §9, the
+Stark & Vanden Broeck precision point, and a complete peer-review pass.
+
+**This file proposes; it does not edit.** The dissertation repo stays hands-off. Where anything here
+disagrees with `PAPER.md`, `PAPER.md` wins. Every source named below was checked against Crossref or
+against a full-text card in `dissertation/research/library/` on 18 August 2026; the ledger at the end
+records what was checked and what it said.
+
+**Verdict: major revisions, and the revisions are small.** The architecture holds, the prose is the
+author's own and mostly clean, and three of the four items resolve cheaply. One does not. The single
+most important fix is the novelty claim in the abstract — **"Co-optation demands the most and nobody
+has named it"** is falsifiable by one database search, because Zhou, Lei, Liu, Huang and Hou named and
+measured an "algorithmic competency" of platform workers in *Asia Pacific Journal of Human Resources*
+63(2) in 2025. The claim narrows and survives. It does not survive as written.
+
+---
+
+## Ranked findings
+
+### 1. The novelty claim dies as stated and lives as narrowed — abstract, §4 table, §9
+
+The abstract says "Co-optation demands the most and nobody has named it." The §4 table's last row
+reads **Named as a construct? No**. §9 sorts five constructs and beats two labels, and the sort is
+good. Zhou and colleagues are in none of it, and they are not in the reference list.
+
+What they did: 99 interviews, then a 12-item scale across four more Chinese samples of ride-hailing
+and food-delivery workers, four dimensions — Understanding, Embracing, Leveraging, Remediating
+algorithmic management — with a second-order four-factor model, discriminant tests against digital
+competence and perceived algorithmic management, and incremental validity over both. That is a named,
+validated, published competency construct for exactly the workers §4's fourth column describes. A
+roundtable reader who searches "algorithmic competency" finds it first.
+
+The discrimination that rescues the claim is already worked out in
+[`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) and it is the paper's own
+theoretical claim, not a new one: **not one of their twelve items mentions the human counterpart.**
+Every item runs worker-to-system. Item 8, the closest approach, treats customer feedback as an output
+to be minimized rather than as a party being coordinated with. §9's diagnosis — that a construct with
+two positions describes a projection of a three-position thing — applies to Zhou et al. more cleanly
+than to any of the five already there, because theirs is the only one that is a *measure* and so the
+only one whose positions can be counted item by item.
+
+**Where it goes.** §9, as a sixth entry under a new label — they make the algorithm *an object of
+strategic manipulation*, which is a genuinely different answer from the five already sorted, and it is
+the answer closest to what a worker actually does. Then the §4 table's last cell changes from **No** to
+something the author writes, along the lines of *not on the axis that includes the counterpart*. And
+the abstract's "nobody has named it" becomes a narrower sentence he has to write himself, because that
+sentence is the paper's contribution claim and nobody else should draft it.
+
+**Cheap and strong:** their twelve items are already fielded as W2 Part 8 of the Hult panel, registered
+as H4 with a latent-correlation threshold fixed before data. §11 can promise the empirical
+discrimination, which is worth more at a roundtable than any amount of conceptual argument. The IRB
+question in [`AGENDA.md`](AGENDA.md) item 3 gates that, and it is still open.
+
+### 2. Two different Zhou 2025 papers, and the arm filed the one the paper needs less
+
+This one is new. The lab holds a full card at `dissertation/research/library/zhou2025.md` for:
+
+> Zhou, L., Lei, X., **Cooke, F. L.**, Huang, X., & Zhang, J. (2025). The Dual Effects of Algorithmic
+> Management on Platform Workers: An Attribution Perspective. *Human Resource Management*, 64(6),
+> 1687–1707.
+
+The Lima arm's `REFERENCES.md` and `ZHOU_2025_INSTRUMENT.md` are about a **different paper**:
+
+> Zhou, L., Lei, X., **Liu, M.**, Huang, X., & Hou, R. (2025). Algorithmic Competency of On-Demand
+> Labor Platform Workers: Scale Development, Antecedents, and Consequences. *Asia Pacific Journal of
+> Human Resources*, 63(2).
+
+Both verified against Crossref today. Three authors overlap and the years match, so **"Zhou et al.
+(2025)" is ambiguous and must never appear bare in this manuscript.** Use *Zhou, Lei, Liu, et al.
+(2025)* for the scale and *Zhou, Lei, Cooke, et al. (2025)* for the attribution study, and give both
+full entries in the references.
+
+The attribution paper matters more than anyone here noticed, and it belongs in **§1, not §9.** Zhou,
+Lei, Cooke and colleagues ran two waves on 213 Chinese platform workers and found that the same
+algorithmic apparatus produces opposite outcomes — customer-oriented service behaviour on one side,
+work overload on the other — according to whether the worker attributes it to commitment or to
+control, with algorithmic transparency moderating which attribution forms. That is a **measured**
+finding that divergence under one arrangement runs through the worker's construal of the system rather
+than through her position in it. It is the closest published precedent for what algorithmacy names,
+and it is evidence for §1's puzzle rather than against it.
+
+### 3. §1's premise carries no citation, and the repair makes it sharper — §1, §6
+
+§1 makes three empirical claims and cites nothing: workers on the same systems at the same intensity
+diverge sharply; the volume of technology used predicts little of it; the difference does not track
+hours or tools. §6 adds a fourth — "several of the studies documenting the outcome variance attribute
+it to prior skill and report novice-levelling effects" — also uncited. Brynjolfsson, Dell'Acqua,
+Rahman-on-variance and both Zhou papers appear **zero times** in the manuscript.
+
+The trap is that the two obvious sources say the opposite of what a careless citation would claim.
+Brynjolfsson, Li and Raymond report a 15% average productivity gain across 5,172 support agents "with
+substantial heterogeneity across workers," and the heterogeneity **tracks experience and skill** —
+less experienced and lower-skilled workers improve on speed and quality, the most experienced and
+highest-skilled see small gains in speed and small *declines* in quality. Dell'Acqua and colleagues
+report a jagged frontier, where the same worker does better inside it and worse outside — divergence
+by **task**. Cited loosely, both refute §1's claim that the difference does not track position.
+
+Cited precisely, they build a better §1 than the one now standing. The honest architecture, which the
+author writes and I do not:
+
+1. The divergence is documented, large, and in a top-five economics journal (Brynjolfsson et al., 2025:
+   15%, N = 5,172, substantial heterogeneity).
+2. Every established explanation of it is **positional** — skill and experience (Brynjolfsson et al.),
+   task location relative to the frontier (Dell'Acqua et al.), platform dependence and evaluation
+   setback (Rahman, 2021, whose four-cell reactivity typology is exactly a positional account of
+   who does what under one opaque rating).
+3. One measured account is **not** positional: Zhou, Lei, Cooke and colleagues (2025) show the same
+   apparatus producing opposite outcomes by the worker's construal of it.
+4. The puzzle is the residual after skill, task and dependence are accounted for, and the construal
+   finding is the evidence that a residual is there to be had.
+
+That is a stronger opening than "well documented and badly explained," it survives the referee who has
+read the QJE paper, and it converts §6's rival-explanations paragraph from a concession into a
+forward reference.
+
+**Two sources to keep off the warrant.** Bedard et al. is *Harvard Business Review* and Microsoft 2025
+is a corporate report. Both are fine for motivation, neither carries weight with an OS/OT roundtable,
+and every claim they support needs a peer-reviewed source standing behind it.
+
+**Cameron (2024)** is the other card worth §1's attention and it is already in the library at full
+text: seven years in ride-hailing, 136 longitudinal interviews, and two behaviourally opposite tactic
+repertoires — engagement and deviance — among drivers in one arrangement. Heterogeneity of practice
+under a constant, from an *ASQ* ethnography, in the venue family the paper is aimed at.
+
+### 4. The Stark & Vanden Broeck over-read — closed, and `DEPARTURES.md` row 1 can be retired
+
+I expected to find this open and it is not. The manuscript attributes a coordination form to Stark
+exactly **once**, at §2: "the form Stark and Pais (2020) named and Stark and Vanden Broeck (2024)
+developed." Everywhere else — §1's "a companion review grades co-optation as a fourth coordination
+form," §3, §4's table — the fourth-form claim is attributed to Paper 1, the author's own work, which
+is where it belongs.
+
+And the one attribution holds. The lab's full-text card on Stark and Pais records them adding co-opt
+as a fourth verb to the triplicate: "to the triplicate make (hierarchy), buy (market), cooperate
+(network) is added a fourth, co-opt," under the Möbius organizational form. The card on Stark and
+Vanden Broeck records them naming the move co-optation and setting it against the three earlier ways
+of organizing. The manuscript says "form," not "mechanism," and never positions either paper against
+Powell.
+
+The flag in `REFERENCES.md` was written against the **accepted abstract's** phrasing — "stands as a
+fourth coordination *mechanism* alongside hierarchies, markets, and networks (Stark & Vanden Broeck,
+2024)," citing S&VB alone. The manuscript already fixed all three defects. `DEPARTURES.md` row 1
+should be marked closed by the manuscript, with this file as the check.
+
+**One optional clause.** An *Organization Theory* editor reading §2 may want the relation stated once:
+in Stark and Vanden Broeck's own series the fourth term is *platforms*, and co-optation is what actors
+undergo there. The paper's column is named for the verb rather than the form. That is a difference of
+naming the author should state in a subordinate clause rather than defend at length.
+
+### 5. Adler and Heckscher (2006) sits in the references, uncited in the body
+
+"Heckscher" appears zero times before `# REFERENCES`. The reference note claims entries "minted and
+then found to be uncited were cut rather than left standing as decoration," so this one contradicts
+its own policy. Cut it, or cite it — Adler and Heckscher on collaborative community would earn its
+place in §4's network paragraph if the author wants it there. Every other entry resolves in both
+directions; I checked all 45.
+
+---
+
+## Part 1 — theory and argument
+
+Two structural attacks a hostile referee reaches first. The first the paper cannot currently answer.
+The second it can answer with one sentence it already owns.
+
+### The facet count is hostage to a choice the paper never defends
+
+§7's admission rule — "a facet is what a worker does in the absence of a withheld condition" — takes
+its input from Okhuysen and Bechky's three integrating conditions. Three conditions in, three facets
+minus one empty cell out. §2 names three rival accounts of what coordination must deliver — Thompson
+(1967), Malone and Crowston (1994), Puranam, Alexy and Reitzig (2014) — and adopts Okhuysen and
+Bechky without arguing for the choice.
+
+A referee will notice that the paper's headline result, the empty accountability cell, is an artifact
+of that list. Malone and Crowston catalogue *dependencies* — shared resources, producer/consumer,
+simultaneity, task/subtask — and pair each with mechanisms; accountability is nowhere among them, so
+substitute their carving for Okhuysen and Bechky's and the empty cell never appears. **The main result
+is only as robust as the choice of integrating-conditions list, and the paper treats that choice as
+inherited rather than made.**
+
+The defense is available and short: Okhuysen and Bechky is the list Paper 1 already adopted and froze
+before coding, so the seventh row inherits it under the fifth admission condition rather than choosing
+it opportunistically. §3 should say that in a sentence. The stronger version, if the author wants it,
+observes that accountability is the condition whose *relational* character does the work — and the
+relational/state distinction §5 draws is what makes the empty cell structural rather than a counting
+accident. That argument does not depend on Okhuysen and Bechky being the right list, only on
+accountability being on it.
+
+### The social-pooling asymmetry — the sharpest internal tension
+
+§5 concedes the worker who constructs answerability through a journalist, a regulator, a class action,
+and rules it out: "What the effort produced is a forum, and the forum is what supplies the condition.
+The competency located the route; it did not substitute for what the route reached."
+
+§10 concedes the worker who learns the rule from a friend, and rules it **in**: "A worker may score
+high because a friend on the platform told her what the gate rewards, and that is implicit acquisition
+operating socially rather than a refutation of it."
+
+Set side by side, the two look inconsistent. Socially mediated supply counts as her competency for
+common understanding and dies for accountability, and a referee will ask what principle sorts them.
+
+The paper has the answer and never applies it. §5's own distinction does the work: predictability and
+common understanding are **states a party can be in**, so a friend's tip leaves her in the state and
+the state is hers; accountability is **a relation between parties**, so a regulator's intervention
+creates an obligation that belongs to the regulator, not to her, and it lasts only as long as the
+regulator acts. One sentence in §10, pointing back at §5, closes the seam. Leave it open and it is the
+first question from the floor.
+
+### Two smaller ones
+
+**§4's market cell is the most attackable sentence for an economist.** "The market demands almost
+nothing" meets Akerlof and survives, but search costs, matching and contracting capability are a
+literature the concession does not reach, and consumer financial literacy is a measured competency of
+market participants. §12 already concedes nobody has measured the settled columns. §4 could borrow one
+clause of that concession rather than making the reader wait eight sections for it.
+
+**§11's "four questions" lists three and gestures at the fourth.** Three arrive with bold headers and
+substance; the fourth is "**And the accountability question**, which is the study's sharpest and this
+paper's only empirical exposure." It is the most important of the four and it is the only one not
+stated as a question. §5 and §11 both contain the question in full — *what does a participant do when
+a gate outcome strikes her as wrong, whom does she approach, and what happens?* — so the fix is to
+move it, not to write it.
+
+### Prior art, checked
+
+The novelty claim faces four rivals. Gig literacies (Sutherland et al.) the paper handles well, and
+the derivation-versus-collection distinction is the right one. AI as an organizing capability
+(Stelmaszak et al.) the possession argument dispatches. Algorithm sensemaking §9 treats as the closest
+of the five, correctly. **Zhou, Lei, Liu, et al. (2025) is unhandled and is the one that bites** — see
+finding 1. Dogruel's algorithm literacy is already discriminated in the cohort survey and that work
+transfers if a referee raises it.
+
+---
+
+## Part 2 — register and slop audit
+
+**Step 0. Register:** impersonal academic third person, dense analytic prose, argument-first, in the
+*Organization Theory* / *ASQ* register the house style takes its exemplars from — Rahman, Cameron,
+Stark and Vanden Broeck. **The bar:** `~/.claude/writing-style.md`, applied as the author's own
+standard, and the manuscript's abstract is original prose rather than anything carried from the
+accepted package, so all of it is fair game. I checked.
+
+**The measurements, on 8,391 body words:**
+
+| Check | Count | Reading |
+|---|---|---|
+| Em-dashes | 41 (4.9 per 1k) | Above the 3-per-1k floor, below overuse. **No action.** |
+| Filler transitions | 0 | Clean. |
+| Inflation words (tapestry, delve, crucial, foster, landscape, navigate…) | 0 | Clean. |
+| Emphasis markers (Crucially, Importantly, Notably) | 0 | Clean. |
+| Agentless passive (`has been` / `been \w+ed`) | 8 | **Five of the eight sit in the abstract and §1.** |
+| First person | 0 | **The finding below.** |
+| "This paper" / "the paper" as agent | 31 | Same finding. |
+| Paragraphs ending on a short sentence | 23 of 131 (18%) | Variation, not a drumbeat. **No action.** |
+| "rather than" | 23 (2.7 per 1k) | Watch it; see below. |
+
+This is clean prose by the mechanical tells, and the landing lines are earned rather than uniform —
+"Something else is doing the work," "Nothing answers to her," "It is the finding." Those are the
+author's, they vary, and none of them should be touched.
+
+Two things do need attention, and one of them is in the first 200 words.
+
+### The abstract opens on three agentless passives in four sentences
+
+> Coordination forms **are compared** on what they deliver and never on what they demand. Hierarchy,
+> market and network **have each been described** by the operation that secures them… None **has been
+> asked** what it requires of the party it coordinates.
+
+The house style calls this the worst tic and the highest-leverage single fix, and here it occupies the
+paragraph every reviewer reads and some read alone. The agents exist and §2 already names them —
+Powell, Williamson, Bradach and Eccles, Ouchi. Rewrite in Part 3.
+
+The same construction opens §1's third paragraph and §2's discussion of the standing premise, but
+those sit inside dense passages where the diffuse agent is genuinely the literature as a whole. Fix
+the abstract; leave the rest.
+
+### Zero first person in 8,391 words
+
+The house style is explicit — "First person is required, not banned… Impersonal third-person
+throughout is the single biggest source of the robotic feel. Own the moves" — and names Rahman (2021),
+Cameron (2024) and Suddaby (2010) as solo-authored exemplars that use "I." The manuscript instead
+makes "this paper" the grammatical agent 31 times: *this paper adds, names, asks, repeats, requires,
+takes up, draws on, claims, does not claim, marks, rests*. The single "I" in the document belongs to a
+quoted GauntleTT participant.
+
+The author writes first person naturally — his own motivation letter to the conveners opens "I am
+applying for the Lima PDW because my dissertation has reached a stage where…" The manuscript's
+register is a choice, and against his own stated standard it is the wrong one for a PDW, where the
+conveners are assessing a scholar's positioning as much as a paper's argument.
+
+**This is not a global find-and-replace.** The exemplars run first person at three junctures only:
+the analytic moves, the contribution statement, and transitions — never inside literature summaries.
+Six or eight conversions at those junctures would carry it. Candidates in Part 3.
+
+### The antithesis engine, running quietly
+
+"rather than" appears 23 times, and in most places it is doing real analytic work — *derived rather
+than asserted*, *a partition rather than a delivery*, *a result rather than a caution*. In a few it is
+the "not X, it's Y" machine idling: §7's "Why three and not more is a question the rule answers rather
+than the author" is a clever line that survives; §12's "The row reports what the literatures imply and
+does not report a measurement" is the same shape three sentences after two others like it. No single
+instance is wrong. The density is worth one read-aloud pass with an ear for the pattern, which is the
+author's gate anyway.
+
+---
+
+## Part 3 — line-level proposals
+
+Ranked by how much each improves the paper. Each keeps the author's vocabulary and sentence rhythm;
+where a proposal would require him to make a claim, I have marked it and left it for him.
+
+**1. The abstract's opening.** Name the agents §2 already names.
+
+> Scholars have compared coordination forms on what they deliver and never on what they demand.
+> Powell, Williamson, Ouchi, and Bradach and Eccles each described hierarchy, market and network by
+> the operation that secures them, the conditions they run on, the instruments that carry them and the
+> ways they fail. None of them asked what a form requires of the party it coordinates.
+
+Same claim, same rhythm, three passives gone, and the third sentence now lands on the paper's question
+with a human subject in front of it.
+
+**2. The abstract's novelty sentence.** Currently "Co-optation demands the most and nobody has named
+it." **The author writes this one** — it is the contribution claim. What it has to survive: a published
+scale named "algorithmic competency." What the paper has already established as the discrimination: no
+rival construct puts the counterpart in the account. A shape, not a draft: *Co-optation demands the
+most, and the one competency named for it leaves out the party the worker is coordinating with.*
+
+**3. §10, closing the social-pooling seam.** After "…that is implicit acquisition operating socially
+rather than a refutation of it," add a sentence pointing back at §5:
+
+> Social supply works here for the reason it fails in §5: a tip leaves her holding an accurate
+> expectation, and the expectation is hers. A regulator's intervention leaves the obligation with the
+> regulator.
+
+**4. §3, defending the integrating-conditions list.** After the five conditions, one sentence:
+
+> The three conditions the row runs on are Okhuysen and Bechky's, inherited from the companion review
+> rather than chosen here, which is what the fifth condition requires.
+
+**5. §11, promoting the fourth question.** Move the question already written in §5 into §11's fourth
+slot, so all four arrive in the same form:
+
+> **What does a participant do when a gate outcome strikes her as wrong, whom does she approach, and
+> what happens?** This is the study's sharpest question and the paper's only empirical exposure.
+
+**6. First-person conversions, six candidates.** At the analytic moves and the contribution statement,
+never inside the literature:
+
+| Now | Proposed |
+|---|---|
+| §1 "This paper asks a seventh, and asks it of all four columns." | "I ask a seventh, and ask it of all four columns." |
+| §2 "That is the move this paper repeats." | "That is the move I repeat." |
+| §2 "…and nothing in this paper requires it." | "…and nothing I argue here requires it." |
+| §6 "**This paper does not claim to have defeated them.**" | "**I do not claim to have defeated them.**" |
+| §7 "Why three and not more is a question the rule answers rather than the author." | Keep as is — the third-person "author" is the joke, and it works. |
+| §12 "…this paper offers argument against it rather than evidence." | "…I offer argument against it rather than evidence." |
+
+**7. §4's market cell.** Borrow §12's concession forward, one clause after the Akerlof paragraph:
+
+> No one has measured how much competency a market participant needs, because nobody had reason to
+> ask, and the cell reports what the literature implies.
+
+**8. Cut or cite Adler and Heckscher (2006).**
+
+---
+
+## Citation ledger — checked 18 August 2026
+
+Verified against Crossref today, in full:
+
+| Cited as | Version of record | Result |
+|---|---|---|
+| Zhou, Lei, Liu, Huang, & Hou (2025) | *Asia Pacific Journal of Human Resources* **63(2)**, doi:10.1111/1744-7941.70004 | ✅ Volume and issue new — the arm's `REFERENCES.md` carried neither |
+| Zhou, Lei, Cooke, Huang, & Zhang (2025) | *Human Resource Management* 64(6), 1687–1707, doi:10.1002/hrm.70009 | ✅ Distinct paper, distinct author list |
+| Brynjolfsson, Li, & Raymond (2025) | *Quarterly Journal of Economics* 140(2), 889–942, doi:10.1093/qje/qjae044 | ✅ Abstract read: 15%, N = 5,172, heterogeneity tracks experience and skill |
+| Dell'Acqua et al. (2026) | *Organization Science* 37(2), 403–423, doi:10.1287/orsc.2025.21838 | ✅ 2026 print date confirmed |
+| Cameron (2024) | *Administrative Science Quarterly* 69(2), 458–514, doi:10.1177/00018392241236163 | ✅ |
+| Stark & Vanden Broeck (2024) | *Organization Theory* 5(2), doi:10.1177/26317877241257213 | ✅ |
+
+**One flag for typesetting.** Crossref renders the fourth Dell'Acqua author as "Lifshitz, Hila" and
+the second as "McFowland, Edward"; the arm's `REFERENCES.md` carries "Lifshitz-Assaf, H." and
+"McFowland III, E." Crossref normalizes suffixes and drops some hyphenated surnames, and the arm's
+version matches both authors' usual bylines, so keep the arm's. Check against the article's own title
+page before submission.
+
+**Reference list integrity.** All 43 entries in `PAPER.md` resolve to an in-text citation except Adler
+and Heckscher (2006). All in-text citations resolve to an entry. No fabricated authors, venues or DOIs
+found.
+
+---
+
+## The strength, and the one thing only the author can supply
+
+The paper's real achievement is the empty cell, and it is rare. Most competency papers name a capacity
+and stop where the naming flatters the construct; this one derives the structure from what the form
+withholds, and then reports that one of the four conditions yields nothing a worker can supply. The
+machine-orchestration cut is the same discipline shown working on a candidate the author previously
+wanted. A construct that shows its own rejected candidate and its own empty cell is doing something
+the genre mostly does not, and §6's division of the two supply routes is a result rather than a
+caution. That is what the roundtable should spend its time on.
+
+What no reviewer can supply is the answer to the question in `AGENDA.md` item 2: **whether
+`correspondence/LIMA_ORGANIZERS.md` was ever sent.** It was drafted with a send-by of 29 July, it
+announces the change of direction, and it corrects the abstract's IRB sentence. The manuscript's
+first-page note assumes the conveners have already heard all four deltas — "has been corrected to the
+organizers in writing." If that letter never went, two reviewers open a paper that carries a research
+design where the abstract promised Caribbean data, and the note reads as a disclosure made at the last
+moment rather than three months out. Nothing in the manuscript can fix that. Only the author knows,
+and only the author can send it.
+
+The second is the Trinidad claim in `AGENDA.md` item 10, which the manuscript has half-answered by
+demoting GauntleTT to content validity and moving the study to Hult. That is the honest move and it
+costs the accepted title its second half. Whether to say so explicitly in §11 — that the Caribbean
+cohort formed the construct and does not test it — is a positioning decision for the conveners'
+benefit, and it is his.

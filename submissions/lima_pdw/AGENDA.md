@@ -61,3 +61,33 @@ can settle them.
 11. **Positioning within the dissertation.** The manuscript is Paper 3 of a three-paper sequence.
     How much of Papers 1 and 2 must travel with it for a standalone read, given a PDW audience that
     reads the manuscript cold?
+
+## Added by the manuscript review, 2026-08-18
+
+Full findings and the proposed line-level fixes:
+[`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md).
+
+12. **The novelty claim is falsifiable as written, and this outranks everything else on the page.**
+    The abstract and the §4 table say nobody has named the competency co-optation demands. Zhou, Lei,
+    Liu, Huang and Hou named and validated an "algorithmic competency" scale in *APJHR* 63(2) in 2025.
+    The claim narrows to the counterpart axis and survives — none of their twelve items mentions the
+    human counterpart — but the narrowing is the author's sentence to write, because it is the
+    contribution claim.
+
+13. **The arm filed the wrong Zhou 2025.** Two papers, overlapping teams, same year: the *APJHR*
+    scale (Zhou, Lei, **Liu**, Huang & Hou) and an *HRM* attribution study (Zhou, Lei, **Cooke**,
+    Huang & Zhang, 64(6), 1687–1707), the second already carded at
+    `dissertation/research/library/zhou2025.md`. Never write "Zhou et al. 2025" bare in this
+    manuscript. The attribution paper belongs in §1 as measured evidence that divergence runs through
+    construal rather than position — the wedge §1 has been missing.
+
+14. **Item 9 above is confirmed and now has its sources.** §1 carries **zero** citations for the
+    variance premise, and so does §6's novice-levelling sentence. Brynjolfsson, Li and Raymond
+    (*QJE* 140(2)) report 15% mean gain across 5,172 agents with heterogeneity that tracks experience
+    and skill; Dell'Acqua et al. (*Org Sci* 37(2)) report divergence by task. Both refute §1 if cited
+    loosely and build a sharper §1 if cited precisely, as the residual after skill and task. Cameron
+    (2024) and Rahman (2021) are already carded at full text and both belong here.
+
+15. **Register.** Zero first person in 8,391 words, against a house style that requires it and names
+    Rahman, Cameron and Suddaby as the exemplars. "This paper" carries the agent slot 31 times. Six
+    conversions at the analytic moves would carry it; the review lists them.

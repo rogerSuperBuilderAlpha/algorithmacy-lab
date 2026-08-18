@@ -68,8 +68,17 @@ without touching the author's prose.
 - **The rival is now fielded**, adapted, as W2 Part 8 of `../../org_frontier/survey/cohort_algorithmacy/`, registered
   as **H4** with a latent-correlation threshold fixed before data. **An IRB question gates it** — see
   that study's amendment log.
-- **One departure stays open** — the Stark & Vanden Broeck precision point,
-  [`DEPARTURES.md`](DEPARTURES.md) row 1, the only item the manuscript's four deltas do not cover.
+- ~~**One departure stays open**~~ — **closed 2026-08-18.** The Stark & Vanden Broeck over-read is the
+  accepted abstract's, not the manuscript's; `PAPER.md` already says *form* not *mechanism*, attributes
+  the naming to Stark and Pais where the full-text card supports it, and never sets either source
+  against Powell. [`DEPARTURES.md`](DEPARTURES.md) row 1.
+- **A full manuscript review landed 2026-08-18** —
+  [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md). Verdict: major revisions, all of
+  them small. The one that is not optional is the novelty claim: **"nobody has named it" is falsifiable
+  by one database search** against Zhou, Lei, Liu, Huang and Hou's validated algorithmic-competency
+  scale, and it has to narrow to the counterpart axis. The review also finds that **§1 cites nothing**
+  for the variance premise, that the arm had filed **the wrong Zhou 2025 paper**, and that the register
+  runs zero first person in 8,391 words against the house style's own rule.
 
 **Registered 2026-08-14; the place is confirmed.** The arm is now in support posture through to the
 10 September manuscript: citation checks, structural reading, and the previewed study — not prose.
