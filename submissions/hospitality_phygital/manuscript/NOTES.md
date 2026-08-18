@@ -2,6 +2,33 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the lineage, and four branches retired
+
+**The paper's lineage is now three steps and nothing else.** Pierre's rewrite of 17 August is the
+base. The source audit was worked into it. A full review of the result sits in
+[`reviews/2026-08-17/10_fable_review_post_audit.md`](reviews/2026-08-17/10_fable_review_post_audit.md)
+and in the co-author artifact. Everything else in this arm predates that base and is history rather
+than work in progress.
+
+**Four branches deleted**, their substance confirmed present on `main` first. SHAs recorded here
+because deleting a branch makes its commits unreachable by name, and these remain retrievable by
+SHA:
+
+| branch | SHA | why it could go |
+|---|---|---|
+| `hospitality/folger-contradiction` | `00301ec` | Its whole finding — that Folger 1977 does not report what §7 said it did — is now fully realized. Folger appears nowhere in the paper. |
+| `hospitality/full-text-audit` | `6cb54b8` | Card and reference corrections, superseded by the panel branch's own audits |
+| `hospitality/full-text-pass` | `a0174b8` | 27 full-text reads; the read-depth work survives, 38 cards on `main` carry a full-text marker |
+| `hospitality/session-2026-08-17` | `8a5e9dc` | The nine P9 repairs applied to the superseded `manuscript.md`. Its one portable piece, the `wordcount.py` fix, was carried across before parking. |
+
+The files that looked unique to the three August branches were cards under citekeys that were later
+renamed by the year-correction sweeps — `lv2025autonomy` to `lv2024autonomy`, `mosca2025museums` to
+`mosca2025phygital`, `zheng2025triad` to `zheng2025phygital`. Superseded filenames, not lost content.
+
+**`main` and `contrib` now hold identical trees.** They had diverged, and that divergence is what
+let a session edit a superseded file this morning while believing it was current. Keeping them level
+is the cheapest guard against a repeat.
+
 ## 2026-08-17 — style review: the audit repairs measured against Pierre's own prose
 
 The 813 words the audit repairs added were separated from his 8,079 by word-level diff and measured
