@@ -28,9 +28,12 @@ marked `false` was refused with `422`. The test object was deleted; the bucket i
 
 ## Who to send it to
 
-Staff, operations, instructors, and partner organizations — people who **ran** the programs.
+Everyone who was part of these programmes — participants, instructors, operations staff, and partner
+organizations. The harness asks which they were at the start and runs the matching interview.
 
-**Not programme participants.** The harness refuses that path and `CONSENT.md` says why.
+The email below is written for the operational side. For participants, swap the "Why you" paragraph
+for something like: *"You took part in one of these programmes, and the study is about what the
+review process was like from where you sat — which is the part no design document records."*
 
 ---
 

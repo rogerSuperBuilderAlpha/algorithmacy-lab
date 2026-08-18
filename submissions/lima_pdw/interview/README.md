@@ -39,10 +39,11 @@ individual.
 Roughly twenty minutes. Participation is voluntary, submission is anonymous, and declining carries no
 consequence of any kind.
 
-## If you took part in one of the programs as a participant
+## Who this is for
 
-The participant interview is not open. It requires a research-ethics determination that has not yet
-been issued. The assistant will decline that path, and [`CONSENT.md`](CONSENT.md) explains why.
+Anyone who was part of one of these programmes — participants, instructors, operations staff, and
+partner organizations. The interview asks a different set of questions depending on which you were,
+and the assistant will ask at the start.
 
 ## Contact
 

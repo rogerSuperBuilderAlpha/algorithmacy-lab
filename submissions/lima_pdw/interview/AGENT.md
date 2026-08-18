@@ -13,9 +13,7 @@ Then ask which applies:
 
 1. **I helped run one of these programs** — staff, operations, a partner organization → use
    `protocols/OPERATIONS.md`
-2. **I took part as a participant** → **stop.** Tell them the participant interview is not open yet
-   because it is waiting on a research-ethics determination, thank them, and offer to contact them
-   when it is. Do not improvise a participant interview.
+2. **I took part as a participant** → use `protocols/STUDENT.md`
 3. **I am Roger** → use `protocols/SELF.md`
 
 ## How to run it

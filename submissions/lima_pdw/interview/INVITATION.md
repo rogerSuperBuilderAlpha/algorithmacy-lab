@@ -98,5 +98,10 @@ protocol at `paper3/irb/` remains unfiled.
 
 **`[HARNESS_URL]`** — the public link to this directory, on `main` rather than a branch.
 
-**Who this is for.** Staff, operations, instructors and partner organizations. **Do not send it to
-programme participants.** The harness refuses that path, and the reason is in `CONSENT.md`.
+**Who this is for.** Everyone who was part of these programmes — participants, instructors,
+operations staff and partner organizations. The harness asks which they were and runs the matching
+protocol: `STUDENT.md`, `OPERATIONS.md`, or `SELF.md`.
+
+The body above is written for the operational side. For participants, replace the "Why you"
+paragraph with a line about the review process from their side being the part no design document
+records.
