@@ -76,14 +76,27 @@ def main() -> int:
         print("ABORT: no body found. Expected a '## 1. ' heading.")
         return 1
 
-    refs = args.refs * 26
-    other = 180 + 12 + 200 + 50 + 50   # abstract, keywords, two biographies, AI statement, notes
+    # Prefer the rendered list over the per-entry estimate. The estimate is what let a
+    # stale reference count hide ~1,200 words; the real block is right there in the file.
+    raw = open(args.paper, encoding="utf-8").read()
+    measured = None
+    if "## References" in raw:
+        block = raw.split("## References", 1)[1]
+        entries = [ln for ln in block.splitlines() if ln.strip() and not ln.startswith("*")]
+        if entries:
+            measured = len(" ".join(entries).split())
+            args.refs = len(entries)
+    refs = measured if measured is not None else args.refs * 26
+    # Abstract measured at 198 (FRONT_MATTER.md), six keywords, two biographies at the
+    # 100-word maximum each. The AI statement now sits in DRAFT.md and is counted in the
+    # body, so it is no longer added here. No endnotes: the Notes discourage them.
+    other = 198 + 10 + 200
     total = body + refs + other
 
     ceiling_budget = 9000 - refs - other   # what the all-inclusive ceiling leaves the body
     print(f"BODY            {body:>6,}   budget 6,850; the 9,000 ceiling leaves it {ceiling_budget:,}")
-    print(f"references (x{args.refs})  {refs:>6,}   measured at ~26 words each")
-    print(f"other required  {other:>6,}   abstract, keywords, biographies, AI statement, notes")
+    print(f"references (x{args.refs})  {refs:>6,}   " + ("measured from the rendered list" if measured is not None else "estimated at ~26 words each"))
+    print(f"other required  {other:>6,}   abstract, keywords, two biographies")
     print(f"TOTAL           {total:>6,}   limit 6,000-9,000 inclusive")
 
     fail = False
