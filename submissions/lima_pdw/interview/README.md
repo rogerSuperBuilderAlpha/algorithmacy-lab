@@ -1,49 +1,50 @@
-# The cohort interview
+# Research interview — AI engineering cohort programs
 
-You've been asked to give an account of how one of these programs actually ran — GauntleTT in
-Trinidad, the Cursor Boston cohort, or the Hult cohort program. This runs the interview for you,
-whenever you have twenty minutes, without booking a call.
+You have been invited to take part in a research study conducted by Roger B. Hunt III, doctoral
+candidate in Organizational Theory at Bentley University. This directory contains the interview.
 
-**Nothing here transmits anything.** The interview runs on your machine. It writes a file. You read
-that file, change or delete anything you want, and then decide whether to upload it. If you close
-the window halfway through, nothing has happened.
+Full participant information is in **[`CONSENT.md`](CONSENT.md)**. Read it before beginning; the
+interview will present it and ask you to confirm.
 
-## How to run it
+## Running the interview
 
-1. Open this folder in **Cursor**, or in any editor with an AI assistant. (VS Code with Copilot
-   Chat, Claude Code, Windsurf — any of them work.)
-2. Tell the assistant:
+1. Open this folder in **Cursor**, or any editor with an AI assistant — VS Code with Copilot Chat,
+   Claude Code, and Windsurf all work.
+2. Instruct the assistant:
 
    > Read `AGENT.md` and follow it.
 
-3. It will ask which interview applies to you, then start. Answer in your own words. Say "skip" to
-   any question you'd rather not answer, and "stop" whenever you want to stop.
-4. When you're done it writes `response-<id>.md` in this folder.
-5. **Read that file.** Change anything that's wrong. Delete anything you don't want to send.
-6. Upload it at the link at the end of the file.
+3. It will present the participant information, ask you to confirm, then begin. Answer in your own
+   words. Say "skip" to pass over a question and "stop" to end the interview at any point.
+4. It writes your answers to `response-<id>.md` in this folder as you go.
 
-## What this is for
+## Before anything is submitted
 
-Roger is writing the cohort work up for an Organization Studies workshop in Lima in October. The
-paper is about what a system like ours asks of the people inside it — how you work out what a gate
-wants, how you get your intent across in the few signals it accepts, and how you notice when the
-rules have moved without anyone announcing it.
+**Read the file.** Correct anything it recorded wrongly, and remove anything you do not wish to
+submit — including anything that would identify you or a colleague.
 
-The part he can't write from memory is how it ran from where you were standing.
+**Then set `reviewed_by_human: true`** at the top of the file. Nothing is accepted without it; the
+assistant cannot set it for you, and a submission still marked `false` is refused.
 
-## What happens to what you send
+You may then ask the assistant to send it, or submit it yourself through the upload page. Nothing
+leaves your machine until you decide it should.
 
-- The file is **anonymized as it's written** — names, handles and identifying detail are replaced
-  before you ever read it. You get the last word on whether that worked.
-- Upload is anonymous. No account, no email, no name. Nothing links the file to you.
-- It informs a written account of how these programs worked. Nothing is published as a quotation
-  attributed to a person.
+## Scope
 
-**Honest limit on anonymity:** these are small programs. A detail that identifies nobody in a
-company of ten thousand can identify one person in a cohort of thirty, especially somewhere as small
-as Trinidad. The anonymizer is careful and it is not magic. When you read the file, cut anything
-that would tell a colleague it was you — and anything that would tell them who else you meant.
+The interview covers how these programs operated: how submitted work was reviewed, how changes were
+communicated, what participants asked about, and what happened when someone believed a decision was
+wrong. It concerns the programs as organizational arrangements and makes no assessment of any
+individual.
 
-## If you'd rather just talk
+Roughly twenty minutes. Participation is voluntary, submission is anonymous, and declining carries no
+consequence of any kind.
 
-Say so. This exists to save you a meeting, not to avoid one.
+## If you took part in one of the programs as a participant
+
+The participant interview is not open. It requires a research-ethics determination that has not yet
+been issued. The assistant will decline that path, and [`CONSENT.md`](CONSENT.md) explains why.
+
+## Contact
+
+rhunt@bentley.edu — including if you would rather be interviewed in conversation than through the
+assistant.

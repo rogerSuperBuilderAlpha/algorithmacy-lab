@@ -1,0 +1,16 @@
+# This directory is in a PUBLIC repository.
+#
+# Interview responses are human-subjects material. A response that reaches a
+# commit is a response that has been published, and deleting it later does not
+# retract it from forks, clones, or the commit history.
+
+responses/
+response-*.md
+*.transcript.md
+
+# Credentials, in case one is ever downloaded here.
+*-adminsdk-*.json
+*service-account*.json
+*credentials*.json
+.env
+.env.*

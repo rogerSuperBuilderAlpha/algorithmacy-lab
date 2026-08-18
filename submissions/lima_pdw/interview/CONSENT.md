@@ -1,46 +1,96 @@
-# Before you start
+# Participant information and consent
 
-Read this. It's short, and it's the whole arrangement.
+Read this before the interview begins. It repeats what the invitation said, and it is the whole
+arrangement.
 
-**What this is.** Roger Hunt is writing an account of the cohort programs — GauntleTT in Trinidad,
-the Cursor Boston cohort, the Hult cohort program — for an academic workshop in Lima in October 2026,
-and for his dissertation at Bentley University. He's asking how they actually ran from where you
-stood.
+## The study
 
-**What you're being asked about.** How the program worked in practice: how work got reviewed, what
-people were told, what changed, what people found hard, and what happened when someone thought a
-decision was wrong. You're being asked about the *program*, not about yourself.
+**Title.** Coordination and competency in AI engineering cohort programs.
 
-**How long.** About twenty minutes. Longer if you want.
+**Researcher.** Roger B. Hunt III, doctoral candidate in Organizational Theory, Bentley University —
+rhunt@bentley.edu — supervised by the Bentley faculty named in the study record.
 
-**It's voluntary, and it stays voluntary.** Skip any question. Stop at any point. Close the window
-and nothing is recorded anywhere. Nobody is told whether you took part, including Roger — the upload
-is anonymous, so he cannot tell who responded and who didn't.
+**Determination.** [IRB_STATUS_LINE]
 
-**Anonymous, with an honest caveat.** The file is anonymized as it's written: names, handles,
-organizations, places and exact dates are replaced before you read it. You then get to change or
-delete anything before it goes. The upload asks for no name, no email, no account.
+**Purpose.** The study examines how coordination works in programs where participants submit work to
+a review process: how people determine what a review expects, how they convey intent through the
+channels a system provides, and how they learn that expectations have changed. It concerns
+GauntleTT in Trinidad and Tobago, the Cursor Boston cohort, and the Hult cohort program.
 
-The caveat: these are small programs, and Trinidad is a small country. A detail that identifies
-nobody in a large organization can identify one person in a cohort of thirty. The anonymizer is
-careful, not magic. **You get the last word — cut anything that would tell a colleague it was you, or
-tell them who you meant.**
+**Output.** A doctoral dissertation, and a paper for a Paper Development Workshop convened by
+*Organization Studies* and *Organization Theory* at Universidad de Piura, Lima, October 2026.
 
-**What gets published.** A written account of how these programs worked, in a paper and a
-dissertation. **Nothing appears as a quotation attributed to a person.** What you say informs the
-account; it isn't reproduced as your speech.
+## What you are being asked to do
 
-**What if you'd rather talk.** Say so and Roger will make time. This exists to save you a meeting,
-not to avoid one.
+A structured interview of approximately twenty minutes, conducted through a text-based assistant in
+your own editor. You will be asked about your role, how submitted work was reviewed, how changes were
+communicated, what participants asked about, and what happened when someone believed a decision was
+wrong.
 
-**If you were a participant rather than staff.** Stop here. The participant interview isn't open yet
-— it's waiting on a research-ethics determination from Bentley, and it would be wrong to collect it
-before that. You'll be asked properly later, if you want to be.
+**The questions concern the programs, not you.** The study does not assess your performance and makes
+no findings about any individual.
 
-**Questions or second thoughts.** rhunt@bentley.edu. Because the upload is anonymous, a file can't be
-withdrawn after it's sent — there's nothing linking it to you to find. That's the cost of anonymity,
-and it's why the review step before uploading matters.
+## Voluntary participation
+
+Participation is voluntary. You may decline, skip any question, and stop at any point without giving
+a reason. Closing this window ends it and records nothing.
+
+Because submission is anonymous, no record exists of who was invited and who took part. **The
+researcher will not know whether you participated.** Your decision has no bearing on your role, your
+standing, or any working relationship.
+
+## Anonymity, and its limits
+
+Identifying information is removed as the interview is written: names, usernames, organizations,
+locations and exact dates are replaced before you read the text. You then review the file and may
+edit or delete any part of it before it is sent. Submission requires no name, email or account.
+
+**The limit, stated plainly.** These are small programs, and Trinidad is a small country. A detail
+that identifies no one in a large organization may identify one person in a cohort of thirty. The
+removal process is careful and it is not a guarantee.
+
+**You have the final decision.** Before submitting, remove anything that would tell a colleague the
+account was yours, or tell them who else you were describing.
+
+## What happens to your responses
+
+- Held in access-controlled cloud storage, and in a private repository for analysis.
+- Not published, not shared outside the research team, and never placed in a public repository.
+- Used to produce a written account of how these programs operated.
+- **No response is published as a quotation attributed to a person.**
+- Retained for the standard period following completion of the dissertation, then deleted.
+
+## Risks and benefits
+
+The foreseeable risk is the residual identifiability described above. There is no direct benefit to
+you. The study aims at a more accurate account of how programs of this kind work than their design
+documents can support on their own.
+
+## Withdrawal
+
+You may stop at any time before submitting, and nothing is kept.
+
+**After submission, withdrawal is not possible.** Nothing links a file to the person who sent it, so
+there is no way to find it and remove it. This follows from the anonymity described above, and it is
+why the review step before submission is not a formality.
+
+## Questions
+
+Write to rhunt@bentley.edu. [IRB_CONTACT_LINE]
+
+## If you took part in one of the programs
+
+**Stop here.** The interview for programme participants is not open. It requires a research-ethics
+determination that has not yet been issued, and collecting it beforehand would be improper. You will
+be invited properly if and when that is in place.
 
 ---
 
-**To go ahead, say so.** To stop, close this. Either is fine.
+## To proceed
+
+Say so, and the interview will begin. To stop, close this window. Either is entirely acceptable.
+
+---
+
+*Two slots must be filled before this is used: `[IRB_STATUS_LINE]` and `[IRB_CONTACT_LINE]`. See
+`INVITATION.md` → "Before sending". Do not substitute an approval that has not been issued.*
