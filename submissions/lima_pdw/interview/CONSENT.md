@@ -5,12 +5,14 @@ arrangement.
 
 ## The study
 
-**Title.** Coordination and competency in AI engineering cohort programs.
+**Title.** Algorithmacy: Validating a measure of communication competency in AI-mediated work.
 
-**Researcher.** Roger B. Hunt III, doctoral candidate in Organizational Theory, Bentley University —
-rhunt@bentley.edu — supervised by the Bentley faculty named in the study record.
+**Researcher.** Roger Hunt, Executive PhD student, Management, Bentley University, 175 Forest Street,
+Waltham, Massachusetts 02452 — rhunt@bentley.edu.
 
-**Determination.** [IRB_STATUS_LINE]
+**Determination.** The Bentley University Institutional Review Board has determined this project
+**exempt from further review** under Protection of Human Research Subjects, 45 CFR Part 46.102(e)(2)(ii)
+— **IRB #260511078**, 11 May 2026. Bentley University IRB#1, FWA00007335.
 
 **Purpose.** The study examines how coordination works in programs where participants submit work to
 a review process: how people determine what a review expects, how they convey intent through the
@@ -76,7 +78,11 @@ why the review step before submission is not a formality.
 
 ## Questions
 
-Write to rhunt@bentley.edu. [IRB_CONTACT_LINE]
+Questions about the study itself: Roger Hunt, rhunt@bentley.edu.
+
+Questions or concerns about your rights as a research participant, or anything you would rather not
+raise with the researcher: Tony Kiszewski, Chair, Institutional Review Board, Bentley University,
+175 Forest Street, Waltham, Massachusetts 02452, referencing **IRB #260511078**.
 
 ## If you took part in one of the programs as a participant
 
@@ -94,7 +100,3 @@ and are submitted anonymously — the researcher will not know whether you took 
 
 Say so, and the interview will begin. To stop, close this window. Either is entirely acceptable.
 
----
-
-*Two slots must be filled before this is used: `[IRB_STATUS_LINE]` and `[IRB_CONTACT_LINE]`. See
-`INVITATION.md` → "Before sending". Do not substitute an approval that has not been issued.*

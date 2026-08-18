@@ -15,11 +15,15 @@ git push origin worktree-lima-manuscript-review
 
 Then merge to `main`, and confirm the link below actually loads before sending anything.
 
-**2. Fill `[IRB_CONTACT_LINE]`.** Replace it with what Bentley has actually issued — a protocol number
-plus the IRB's contact for participant-rights questions, or a plain statement that these staff and
-partner interviews were determined not to be human-subjects research. **Do not send with the
-placeholder in place, and do not write an approval that does not exist.** Protocol 260511078 covers a
-survey at a different site. The qualitative protocol at `paper3/irb/` is unfiled.
+~~**2. Fill the IRB line.**~~ **Done, 18 August 2026**, from the determination letter: IRB #260511078,
+exempt under 45 CFR 46.102(e)(2)(ii), 11 May 2026, Bentley University IRB#1 FWA00007335, Chair
+Tony Kiszewski. Present in `CONSENT.md`, `INVITATION.md` and the email body below.
+
+*One thing to check against your own records, not a blocker:* the letter grants exemption "unless
+there is a substantial change to the documents specified above, or to your planned protocol," and
+asks for a Research Progress & Review Form if the study changes. If the agent-run interviews were
+part of what you submitted, nothing follows. If they postdate it, that form is the mechanism the
+letter names.
 
 ~~**3. Deploy the intake endpoint.**~~ **Done, 18 August 2026.** Live at
 `https://us-central1-pitch-rise.cloudfunctions.net/intake`, wired into `AGENT.md`, and smoke-tested
@@ -100,7 +104,14 @@ possible: nothing links a file to the person who sent it, so there is no way to 
 This is a consequence of the anonymity described above, and it is why the review step before
 submission matters.
 
-**Questions.** Write to me at rhunt@bentley.edu. [IRB_CONTACT_LINE]
+**Approval.** This study has been reviewed by the Bentley University Institutional Review Board and
+determined exempt from further review under 45 CFR 46.102(e)(2)(ii) — IRB #260511078, 11 May 2026
+(Bentley University IRB#1, FWA00007335).
+
+**Questions.** About the study, write to me at rhunt@bentley.edu. About your rights as a research
+participant, or anything you would rather not raise with me directly: Tony Kiszewski, Chair,
+Institutional Review Board, Bentley University, 175 Forest Street, Waltham, Massachusetts 02452,
+referencing IRB #260511078.
 
 **To take part.** Open the following link and follow the instructions there:
 
