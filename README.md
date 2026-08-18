@@ -111,10 +111,10 @@ Live deadlines and canonical drafts. Start at [`NOW.md`](NOW.md).
 
 - **[Submissions — outward manuscripts](submissions/README.md)** — Writing arms that do not belong in the `org_frontier` Python package. Computational results stay
   - [Calendar](submissions/CALENDAR.md) · [NOW.md](NOW.md)
-- [Coordinative sovereignty — autonomy for a coordinated world](submissions/coordinative_sovereignty/README.md) — A new research project. In a platform-mediated world, coordination runs through third parties that set the
+- [Coordinative sovereignty](submissions/coordinative_sovereignty/README.md) — Autonomy for an actor who is coordinated through a mediator it cannot leave: standing and
 - [Hospitality phygital — algorithmic mediation and guest agency](submissions/hospitality_phygital/README.md) — A domain arm for the *Hospitality & Society* special issue on theorizing phygital hospitality
 - [Lima PDW — algorithmacy as a communication competency](submissions/lima_pdw/README.md) — A submission arm for the **OS & OT Paper Development Workshop in Organization Studies for Advanced
-- [Slacker and the structural third — pop-culture chapter](submissions/slacker_thirds/README.md) — Book chapter for an edited collection on Richard Linklater's *Slacker* (1991). **Abstract accepted**
+- [*Slacker* chapter](submissions/slacker_thirds/README.md) — Bloomsbury collection. Final draft **2026-11-01**. 3,000–5,000 words. Chicago endnotes
 - [Hegel and the coordination program — a public reading](submissions/hegel_coordination/README.md) — A Substack series that reads Hegel against the lab's coordination program, and a small research spine
 - [Proposals — submissions to external calls](submissions/proposals/README.md) — Planning documents for manuscripts the lab prepares for journal calls and special issues. Each proposal
 
