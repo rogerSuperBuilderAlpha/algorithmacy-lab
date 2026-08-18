@@ -1,0 +1,13 @@
+{
+  "name": "interview-intake",
+  "version": "1.0.0",
+  "description": "Mints one-shot signed upload URLs for anonymous interview submission.",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0"
+  }
+}

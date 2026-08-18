@@ -1,68 +1,122 @@
-# Standing up the intake — Roger's steps
+# Intake setup
 
-Fifteen minutes. Four of them matter.
+## Done already
 
-## 1. Enable anonymous auth
-
-Firebase console → Authentication → Sign-in method → **Anonymous** → enable.
-
-The rules require `request.auth != null`, so uploads fail without this. Anonymous auth mints a
-throwaway UID with no email, name, or persistent identity attached. It exists to stop the bucket
-being an open drop box for the whole internet, not to identify anyone.
-
-## 2. Deploy the rules
-
-Copy `storage.rules` into your Firebase project and:
+The bucket exists, created 18 August 2026 with the `pitch-rise` admin service account:
 
 ```
-firebase deploy --only storage
+gs://pitch-rise-interview-intake
+  location                     US-CENTRAL1
+  public_access_prevention     enforced
+  uniform_bucket_level_access  true
 ```
 
-Then check it: open the bucket path in a browser. You should get a permission error. If you can read
-a file from a signed-out browser, the rules did not deploy and nothing should go out until they have.
+Nothing can read it without project credentials, and nothing on the public internet can list it.
 
-## 3. Fill in the config and host the page
+**Note the project.** This is `pitch-rise`, not the algorithmacy/cohorts project. Functionally fine;
+worth a deliberate decision, since interview material for the dissertation will live there
+indefinitely alongside whatever else that project is for.
 
-Firebase console → Project settings → Your apps → Web → copy the config object into the
-`firebaseConfig` block in `upload.html`. Those values are public by design; the rules are the
-protection, not the key.
+## How a person submits — the two designs
+
+Both keep responses out of git and out of any public repo. They differ in whether you run a public
+endpoint.
+
+### Option A — signed URL from a Cloud Function *(built, not deployed)*
+
+The page holds **no credential of any kind**. It POSTs to a function; the function signs a ten-minute
+upload URL for one object name it chooses, pinned to `text/markdown` and a 1 byte–512 KB range; the
+browser PUTs the file straight to the bucket.
 
 ```
-firebase deploy --only hosting
+browser ──POST──▶ mintUpload (holds the service account)
+        ◀─signed URL─┘
+browser ──PUT──▶ gs://pitch-rise-interview-intake/<uuid>.md
 ```
 
-Put it somewhere unguessable rather than at `/`. Something like
-`cohorts.algorithmacy.org/i/<random>` — the page is `noindex`, but a tidy URL invites traffic you
-don't want.
+Files: `functions/index.js`, `functions/package.json`, `upload.html`.
 
-## 4. Put the URL in the harness
+Deploy:
 
-`AGENT.md` closes on `[UPLOAD_URL]`. Replace it with the real one. That placeholder is deliberate —
-the harness should not ship with a live endpoint before the rules are verified.
+```
+cd functions && npm install && cd ..
+gcloud functions deploy mintUpload \
+  --gen2 --runtime=nodejs20 --region=us-central1 \
+  --source=functions --entry-point=mintUpload \
+  --trigger-http --allow-unauthenticated \
+  --set-env-vars=INTAKE_BUCKET=pitch-rise-interview-intake \
+  --project=pitch-rise
+```
 
-## Reading what comes in
+Then paste the printed URL into `MINT_URL` in `upload.html`, and the hosted page's URL into
+`[UPLOAD_URL]` in `../AGENT.md`.
 
-Console → Storage → `interview-intake/`, or pull them with a service account. Filenames are random
-UUIDs and carry nothing. Sort by upload time if you need order.
+**What you are accepting.** `--allow-unauthenticated` is a public endpoint. Anyone who finds it can
+mint an upload URL and drop a ≤512 KB markdown file in the bucket. They cannot read, list, overwrite,
+or delete anything. The realistic worst case is junk you delete, not exposure. Reduce it if you like
+with a shared secret header the page sends, Cloud Armor, or App Check — none of which are anonymity
+problems, since they identify the *page*, not the person.
 
-**Move them out of the bucket and into the private dissertation repo's `paper3/corpus/` for
-analysis** — never into `algorithmacy-lab`, which is public.
+**Cost.** Negligible at this volume, but it is a billable resource that stays up until you remove it:
 
-## Two things to know before you promise anonymity
+```
+gcloud functions delete mintUpload --gen2 --region=us-central1 --project=pitch-rise
+```
 
-**Google logs request metadata, including IP addresses.** The consent text says no name, no email, no
-account, which is true. It does not say no server logs, because that would be false. For staff and
-partners this is a non-issue. If the participant version later needs a stronger guarantee, the
-Bentley IRB will likely want either institutional Qualtrics or an explicit statement about GCP
-logging in the consent form.
+### Option B — Firebase Storage rules and anonymous auth *(no public endpoint)*
 
-**Anonymity makes withdrawal impossible.** There is no link between a file and a person, so a request
-to withdraw cannot be honoured — there is nothing to find. `CONSENT.md` says this outright. It is why
-the review-before-upload step is load-bearing rather than a courtesy.
+Uses the project's default Firebase bucket instead, with `storage.rules` enforcing create-and-nothing-
+else. Needs Anonymous sign-in enabled in the console, and the client carries the public Firebase web
+config.
 
-## What this is not yet cleared for
+1. Console → Authentication → Sign-in method → **Anonymous** → enable.
+2. `firebase deploy --only storage` with `storage.rules`.
+3. **Verify from a signed-out browser that you cannot read an object.** If you can, stop.
+4. Restore the Firebase-SDK version of `upload.html` from git history (commit `d472d3f`).
 
-**Participants.** The harness refuses that path in `AGENT.md` and `CONSENT.md` says why. Turning it on
-needs the `paper3/irb/` determination — and that protocol still describes a gate that no longer runs
-(private votes; the Hult gate publishes reviews and upvotes and withholds only the tally). Correct
-that before filing, or the site-fit argument arrives refuted by your own governance doc.
+Slightly weaker: the client holds a real (if public) API key, and anonymous auth mints a UID per
+uploader. Simpler in that nothing is deployed and nothing bills.
+
+## Hosting the page
+
+Wherever you like, at an unguessable path — `cohorts.algorithmacy.org/i/<random>`. The page is
+`noindex`, but a tidy URL attracts traffic you do not want.
+
+## Reading what arrives
+
+```
+gcloud storage ls gs://pitch-rise-interview-intake/
+gcloud storage cp gs://pitch-rise-interview-intake/<uuid>.md .
+```
+
+Filenames are random UUIDs and carry nothing; sort by creation time if you need order. **Move them
+into the private dissertation repo's `paper3/corpus/` for analysis — never into `algorithmacy-lab`,
+which is public.**
+
+## Two things to know before promising anonymity
+
+**Google logs request metadata, including IP.** The consent text says no name, no email, no account,
+which is true. It does not claim no server logs, because that would be false. Immaterial for staff
+and partners. If the participant version needs a stronger guarantee later, the Bentley IRB will
+likely want institutional Qualtrics or an explicit line about cloud logging in the consent form.
+
+**Anonymity forecloses withdrawal.** No link exists between a file and a person, so a withdrawal
+request cannot be honoured. `../CONSENT.md` says this outright, which is why the review-before-upload
+step is load-bearing rather than a courtesy.
+
+## The service account key
+
+It is at `~/Downloads/pitch-rise-firebase-adminsdk-fbsvc-d506f82e6a.json`. It is a live credential
+with broad project rights.
+
+- Move it out of `Downloads` and `chmod 600` it.
+- Never let it into a repo. `algorithmacy-lab` is public, so a committed key is a disclosed key.
+- Rotate it in the Firebase console if it has ever been in a shared folder, a chat, or a public path.
+
+## Not cleared yet
+
+**The participant path.** The harness refuses it, and `../CONSENT.md` explains why. Enabling it needs
+the `paper3/irb/` determination — and that protocol still describes a gate that stopped running
+(private votes; the Hult gate publishes reviews and upvotes and withholds only the tally). Correct the
+site description before filing, or the site-fit argument arrives already refuted by your own
+governance doc.
