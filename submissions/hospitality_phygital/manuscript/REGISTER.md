@@ -5,7 +5,9 @@ The repo's `CLAUDE.md` mandates a Nagel-plain register with **no first person**,
 the result was wrong for the venue. This file records what the exemplars actually do, the ruling that
 follows, and the scope of the suspension.
 
-**Scope.** This ruling governs `manuscript/manuscript.md` and the submission front matter only. Every
+**Scope.** This ruling governs `manuscript/DRAFT.md` and the submission front matter only. It was
+measured for the earlier lab-voice draft; the governing register is now the second author's own, and
+where the two disagree his voice wins. Every
 other file in the arm — plans, agendas, bridges, this file — keeps repo house style. The suspension
 expires with this submission.
 
@@ -79,7 +81,7 @@ For the manuscript only:
    field and the citation trails the claim. Narrative citation stays available for the rare case where
    a named scholar's argument is itself the object of discussion. This also restores the house
    preference for citations at the end of the sentence, which the original ruling had overridden.
-   [`INTRODUCTION.md`](INTRODUCTION.md) follows the corrected ruling; the rest of `manuscript.md` does
+   [`INTRODUCTION.md`](INTRODUCTION.md) follows the corrected ruling; the rest of the draft does
    not yet and should be converted.
 4. **Measured evaluative language is permitted** where it states a judgement the authors will defend:
    'usefully qualify', 'rich reading', 'arresting', 'rather starkly'.

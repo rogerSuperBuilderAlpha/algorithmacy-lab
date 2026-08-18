@@ -26,7 +26,10 @@ CARDS = os.path.join(HERE, "cards")
 INDEX = os.path.join(HERE, "CARDS_INDEX.md")
 CLAIMS_FILE = os.path.join(HERE, "CLAIMS.md")
 BIB = os.path.join(ARM, "literature", "references.bib")
-CITED = os.path.join(ARM, "manuscript", "cited_keys.txt")
+# DRAFT.md is the only paper in this arm; it renders from cited_keys_draft.txt.
+# This pointed at cited_keys.txt, which served the deleted manuscript.md, so the
+# card library was being validated against a paper that no longer exists.
+CITED = os.path.join(ARM, "manuscript", "cited_keys_draft.txt")
 
 CLUSTERS = ["hospitality-theory", "phygital-service", "ai-automation",
             "platform-hospitality", "mediation-sovereignty"]
@@ -141,9 +144,9 @@ def validate(cards, claims, notes, cited_keys, require_complete):
         # citedness reconciliation
         if cited_keys is not None:
             if status == "cited" and ck not in cited_keys:
-                bad("status cited but absent from cited_keys.txt")
+                bad("status cited but absent from cited_keys_draft.txt")
             if status != "cited" and ck in cited_keys:
-                bad(f"status {status} but present in cited_keys.txt")
+                bad(f"status {status} but present in cited_keys_draft.txt")
         # depth honesty: every key-fact bullet carries a depth tag, and a shallow card
         # may not carry a full-text-tagged line
         kf = re.search(r"^## Key facts.*?$(.*?)(?=^## |\Z)", body, re.S | re.M)
@@ -158,7 +161,7 @@ def validate(cards, claims, notes, cited_keys, require_complete):
                     bad("card is " + depth + " but a key fact claims [full-text]")
     if cited_keys is not None:
         for k in sorted(cited_keys - seen):
-            errs.append(f"cited_keys.txt: {k} has no card")
+            errs.append(f"cited_keys_draft.txt: {k} has no card")
     if require_complete:
         for k in sorted(set(notes) - seen):
             errs.append(f"references.bib: {k} has no card")

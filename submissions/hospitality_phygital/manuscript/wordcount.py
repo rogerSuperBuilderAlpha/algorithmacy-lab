@@ -10,7 +10,7 @@ Measures
          a numbered body section -- in practice '## Acknowledgment'. Headings and table rows count.
   ITALIC drafting notes in *...* on their own paragraph are excluded; they are scaffolding.
 
-Usage: python3 wordcount.py manuscript.md [--refs N]
+Usage: python3 wordcount.py DRAFT.md [--refs N]
 """
 import argparse
 import re
@@ -66,8 +66,7 @@ def main() -> int:
         # A hard-coded 77 understated the projected total by ~1,200 words while the
         # cited list stood at 124. Read the list the paper actually renders from.
         here = Path(__file__).resolve().parent
-        keys = here / ("cited_keys_draft.txt" if Path(args.paper).name == "DRAFT.md"
-                       else "cited_keys.txt")
+        keys = here / "cited_keys_draft.txt"
         args.refs = sum(1 for ln in keys.read_text(encoding="utf-8").splitlines() if ln.strip())
 
     lines = open(args.paper, encoding="utf-8").read().splitlines()

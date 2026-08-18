@@ -5,12 +5,12 @@ Conceptual article for *Hospitality & Society* special issue on theorizing phygi
 | file | role |
 |---|---|
 | [`OUTLINE.md`](OUTLINE.md) | Section architecture and per-section word budget |
-| [`manuscript.md`](manuscript.md) | Working draft (stubs → continuous prose) |
+| [`DRAFT.md`](DRAFT.md) | **The paper.** Pierre's version of 17 August with the source audit worked in |
 | [`NOTES.md`](NOTES.md) | Decision log and parking lot |
 
 ## Hard constraint
 
-**5,000–8,000 words** (Intellect *H&S* Notes for Contributors). The outline budgets 7,600, leaving
+**6,000–9,000 words all-inclusive** (Intellect *H&S* Notes for Contributors). The outline budgets 7,600, leaving
 400 words of headroom. A section that runs over borrows from a named section rather than from the
 headroom. The journal also needs a **~150-word abstract** — the ~700-word pitch in
 [`../ABSTRACT.md`](../ABSTRACT.md) does not serve that purpose.

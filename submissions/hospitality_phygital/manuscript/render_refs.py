@@ -12,7 +12,7 @@ House rules (JOURNAL_SPEC.md, from HOSP_NFC_May_26.pdf):
 
 Entries marked DO-NOT-CITE in their note field are refused, loudly.
 
-Usage: python3 render_refs.py --cited cited_keys.txt
+Usage: python3 render_refs.py --cited cited_keys_draft.txt
 """
 import argparse
 import re
