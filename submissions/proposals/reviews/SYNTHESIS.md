@@ -1,7 +1,7 @@
 # Ten-reviewer panel — OT configurational submission — synthesis (2026-07-08)
 
 Ten independent reviews (`01_`–`10_*.md`) of `ot_configurational_nature_2027_manuscript.md`. Format matches
-[`coordinative_sovereignty/reviews/SYNTHESIS.md`](../../coordinative_sovereignty/reviews/SYNTHESIS.md). This file
+[`coordinative_sovereignty/reviews/2026-07-03/SYNTHESIS.md`](../../coordinative_sovereignty/reviews/2026-07-03/SYNTHESIS.md). This file
 adjudicates; the ten files hold full commentary.
 
 ## Verdict spread

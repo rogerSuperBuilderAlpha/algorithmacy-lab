@@ -322,5 +322,5 @@ marked as a position taken. If the author wishes a stronger republican seal, ado
 5. **Muldoon & Raekstad (2023).** Print-issue year 2023 / online 2022 — reference list carries 2023; consistent
    with EJPT 22(4). No fabricated sources introduced in this review.
 
-*Prior panel file `../02_political_theory.md` and `chapter/reviews_v2.md` were skimmed for closed-item
+*Prior panel file `../2026-07-03/02_political_theory.md` and `archive/process/reviews_v2.md` were skimmed for closed-item
 status only; judgments above are against the current `chapter.md` lineation.*

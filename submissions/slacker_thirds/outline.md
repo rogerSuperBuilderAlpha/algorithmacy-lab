@@ -1,73 +1,87 @@
-# Structure proposal — 3,000–5,000 words
+# Outline — *Slacker* chapter v14
 
-A section plan mapping the accepted abstract's moves onto the word budget. Each section names its job, its
-evidence base (research file), and the abstract sentences it grows from. **The prose is the author's**; this
-is scaffolding only. Word targets sum to ~4,500, leaving trim room.
+Governed by [`CLAIM.md`](CLAIM.md). Every section has one job. No section exists to display a source.
 
-## 1. The coherence puzzle (~500 words)
-**Job:** Open on the film's refusal — no protagonist, no return, characters who never meet — and the fact
-audiences follow it anyway. The opening taxi monologue (Linklater's own character: every road not taken is
-another story) is the film announcing its structure in its first minutes; the chapter's question is the one
-the film poses itself.
-**Grows from:** abstract ¶1. **Evidence:** `research/film_slacker.md` (character count, structure facts,
-what critics have said holds it together — position against their answers).
+## Open
 
-## 2. The structural third (~600 words)
-**Job:** Introduce the third as a position, not a character: Simmel's triad, the third that mediates,
-brokers, or supplies shared coordinates. Define hosting vs engineering as two ways of occupying the
-position. Cities, matchmakers, algorithms triptych. One paragraph distinguishing this from Oldenburg's
-"third place" (near-collision worth defusing explicitly — a third *place* is one thing a hosting third
-provides, not the concept itself).
-**Grows from:** abstract ¶2–3 first halves. **Evidence:** `research/urban_thirds.md` (Simmel loci),
-carry-over verified refs from the IGI chapter (Simmel 1908/1950; brokerage line if wanted).
+**Job:** Ask the question. State the two jobs. Fence Bordwell. Name the later case.
 
-## 3. Austin hosts (~700 words)
-**Job:** The hosting third made concrete. Walkable downtown, subcultural density, civil inattention
-(Lofland, Goffman); the material base of slack — the post-oil-bust cheap rent that buys unstructured time.
-The film's scenes as evidence: the conspiracy monologist and the pap-smear seller are *plausible* because
-the city's conventions host them. Austin never selects an encounter; it makes encounters possible.
-**Grows from:** abstract ¶3 middle. **Evidence:** `research/urban_thirds.md` (Lofland/Goffman/Jacobs loci,
-Austin-1990 economic facts), `research/film_slacker.md` (scene specifics).
+- *Slacker* has no protagonist and almost no one meets twice, yet the day holds.
+- Austin holds the next person on the sidewalk. The camera chooses which one we see.
+- A platform later does both jobs, and no one stands there to be asked.
+- Bordwell is right that network narratives are not symptoms of the internet. The claim here is only what the film still makes visible: the sidewalk already had the arrangement.
 
-## 4. The camera engineers (~700 words)
-**Job:** The engineering third made concrete. The handoff mechanics — the camera abandons one character for
-a passerby, selects which face is next, sets the pacing; narration without a narrator (Bordwell); the
-Kuleshov point that viewers infer relations between shots never co-present, i.e., audiences read a broker's
-edit. Where Slacker sits against the network-narrative taxonomy: a limit case — zero character
-interconnection, so the *only* connective agent is the camera. Austin hosts while the camera engineers; the
-two thirds operate in the same film at once.
-**Grows from:** abstract ¶3 end. **Evidence:** `research/film_theory.md`.
+## Simmel
 
-## 5. The new engineers (~800 words)
-**Job:** The formal parallel, stated with mechanics. Uber brokers each match: selects which driver receives
-which ride, parties never negotiate, terms enforced (Rosenblat & Stark). Select, rank, filter — the camera's
-verbs. Then the disanalogy that carries the politics: cinema engineers for aesthetic ends, platforms for
-extraction through coordination or co-optation (Stark & Pais; Stark & Vanden Broeck). A hosting third can be
-left; an engineering third holds the match.
-**Grows from:** abstract ¶4. **Evidence:** `research/platforms_streaming.md`.
+**Job:** Justify "deferred third" for the city's job.
 
-## 6. Cinema as training (~600 words)
-**Job:** The historical claim. Benjamin: film trains the sensorium for industrial modernity — this chapter's
-version is that a century of editing trained audiences to follow coordination performed by an unseen third.
-1991 audiences could already read an engineering third as an aesthetic experience; platforms industrialized
-an operation the culture already knew how to follow. (Guard the claim: training to *follow* is not training
-to *contest* — the gap between the two is where the last section lives.)
-**Grows from:** abstract ¶5. **Evidence:** `research/film_theory.md` (Benjamin locus, Kuleshov, continuity
-editing as learned convention).
+- The taxi passenger and the woman in the street share a city. Nobody introduces them.
+- Simmel's triad chapter already knows the pair (mediator, *tertius gaudens*, *divide et impera*).
+- On the opening page he names a third that unifies without standing between anyone, then postpones it.
+- Wolff: isolated elements unified by a common relation to something outside them. Examples: enemy, invisible church. Those unify. Austin does not. It holds and introduces nobody.
+- I call what he set aside the deferred third: a third so far off that it never comes between an identified pair.
+- The conflict-chapter return keeps the distance as a condition of a bond, not as a third in a triad. That is enough. Do not survey Neuberger, Burt, or Obstfeld in the body.
 
-## 7. Enclosure, and the open questions (~600 words)
-**Job:** The indie infrastructure that made Slacker (Pierson, Orion Classics, the $23k-to-national-release
-path) now runs through streaming platforms that broker what viewers watch — the hosting-to-engineering
-conversion happening to cinema itself. Close on the abstract's questions: when does a host become an
-engineer; what interpretive skills does collective navigation of an engineering third require (the
-sensemaking literature — Möhlmann — and, quietly, the lab's algorithmacy); what would make engineering
-thirds transparent and contestable. End where the abstract ends: the film as the moment both thirds operate
-together, visible.
-**Grows from:** abstract ¶6. **Evidence:** `research/platforms_streaming.md`.
+## Royce
 
-## Notes
-- **Citation style:** confirm with the collection's editor (film studies default is Chicago or MLA, not APA).
-- **Lab connective tissue:** "interpretive skills" = algorithmacy; "transparent and contestable" =
-  coordinative sovereignty. For this venue, gesture rather than import — one or two citations, no apparatus.
-- **Novelty guardrails:** the research files each carry a "prior art" note — the chapter should position
-  against existing answers to the coherence question (§1) and any prior camera/algorithm parallels (§5).
+**Job:** Holding is not membership. That is why Gary's absence is not a shared past.
+
+- Royce: a community of memory requires each person to accept the same past as his own. Tai-Nui: they may be enemies; they may never meet; they must each claim the canoe.
+- A day of unclaimed strangers cannot meet that test.
+- Point forward: the film will ask after Gary and not produce him.
+
+## Film
+
+**Job:** Show the two jobs, and show that someone can still be asked.
+
+- Taxi: Linklater talks; the driver does not answer; he gets out. Location notes put the drop on 24th and say he witnesses a hit-and-run; the disc is unconfirmed (note 14). What the stretch still shows is that Austin holds both beats and introduces nobody.
+- After the drop: the woman, the jogger, the card, then the son taken for running over his mother. In the taxi he had said there is always someone getting run over. The city holds both lines and does not introduce them.
+- Steve at the Blue Bayou: three dollars, the list, "Don't see you." Reich: access as a grant. The door sets the price, keeps the record, decides the case, and will not say why. That is the grant, still spoken to a person. Do not parade "four powers I lean on."
+- Another door: the stamp is copied. A stamp is property. The guest list was a grant. At closing someone says the rule aloud. Even that sentence is addressed to people who could argue back.
+- Gary: "You seen Gary around?" Nobody has. The talker converts the absence into a conspiracy. Gary never appears. The sidewalk held both men; the cut put them in one frame; nobody introduced them. They are contemporaries in communication (Royce's second condition). Neither claims Gary's absence as the same past (third condition fails). Sharing a city is not sharing a past.
+- People use the city's reach out loud: a lift, an address, Steve's van, the stamp, the PixelVision camera with its terms said. The cut still chooses which of those uses we watch. The doorman that afternoon is neither the city's holding nor the camera's job.
+- Unpaid labor: Cokes, T-shirts, the funeral hitchhiker, then a different man at Les Amis waiting for the "true call." The city holds him and hires him for nothing. Someone is still there to be asked. Stark and Pais name the later version: co-optation without delegated authority.
+
+## Platforms
+
+**Job:** Same jobs, same grant, the person gone.
+
+- Amazon: unless otherwise indicated, no appeal, no further reason.
+- Rideshare Drivers United: two-thirds deactivated; thirty percent of those given no reason.
+- Drivers contribute without being hired. The counterparty that removes them has removed anyone who could be argued with.
+- Steve's list failed in public and the group could still talk on the sidewalk. An app assigns a queue whether or not the driver assents.
+- Video Backpacker only if one sentence earns the drivers point: you cannot rewind the allocation. If it does not earn, cut it.
+- FX rulebooks out of the body.
+- Viljoen: enrollment without a yes is not Royce's membership. Rideshare Drivers United exists because drivers organized to compel an answer.
+
+## Reach, selection, refusal to resolve
+
+**Job:** Keep the two jobs from swapping. The film will not close Gary.
+
+- People use reach (lift, address, stamp). The doorman administers a grant. That is not the cut taking the city's job.
+- Feld: a focus produces a cluster. Austin looks like a focus and forms no cluster. What remains is reach.
+- Barns: platforms pick who encounters whom — nearer to selection, and to the camera.
+- Warner: a public is addressed. It does not choose which two members meet next. That choosing is the cut's job.
+- Duranton and Puga: match quality and match probability are already separable. The film shows them done by different agents.
+- To produce Gary, specify the true call, or bring the bus-station man back at dusk would be to supply the introductions the arrangement does not make.
+
+## Close
+
+**Job:** Restate the two jobs and the grant without anyone to ask. Gary last.
+
+- Taxi and struck woman share a city. Steve shares a sidewalk with a doorman who can charge him, check a list, turn him away, and give no further reason. Gary is asked after and never produced.
+- The platform keeps those four acts and withdraws the person who had to say them.
+- End on the question the city will not answer: whether anyone has seen Gary around.
+
+## Named cuts (body)
+
+- Neuberger / Burt / Obstfeld / integrative-review survey
+- FX / LSEG / EBS / Reuters parade
+- "I am using four powers here as a technical list"
+- Algorithmacy as a named fluency (note only, if the body still needs the note)
+- "I wish to reassess… and I will do so by moving"
+- Thesis-words: face, self-less, leftover, competence
+
+## Notes after the rewrite
+
+Keep notes whose body sentences remain. Drop notes whose only job was a cut sentence. Bibliography follows the surviving notes. Note 14's disc hedge stays.

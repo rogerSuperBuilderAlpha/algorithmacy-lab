@@ -1,7 +1,7 @@
 # Panel brief — Algorithmacy and Sovereignty — 2026-08-02
 
 Fresh ten-lens panel on the **current** manuscript after the 2026-08-01 rebuild and the
-2026-08-02 one-head re-read (`chapter/reviews_v2.md`) whose fixes landed in PR #583.
+2026-08-02 one-head re-read (`archive/process/reviews_v2.md`) whose fixes landed in PR #583.
 
 **Manuscript:** `org_frontier/coordinative_sovereignty/chapter/chapter.md`
 (~11,800 words before References; APA 7; double-anonymized; impersonal academic register).
@@ -12,11 +12,11 @@ abstract ≤150 words; double-anonymized review.
 
 **Prior work (do not re-litigate closed items unless they still appear in the current text):**
 
-- Original ten-lens panel: `../01_`–`../10_*.md` + `../SYNTHESIS.md` (2026-07-03). Spine fixes
+- Original ten-lens panel: `../2026-07-03/01_`–`10_*.md` + `../2026-07-03/SYNTHESIS.md`. Spine fixes
   were applied in the rebuild.
-- Rebuild critique: `../../chapter/REVIEW.md`, `../../chapter/OUTLINE.md`,
-  `../../chapter/HANDOFF.md`.
-- Second one-head pass: `../../chapter/reviews_v2.md` (OTA overclaim, bypass-under-no-prior-tie,
+- Rebuild critique: `../../archive/process/REVIEW.md`, `../../archive/process/OUTLINE.md`,
+  `../../archive/process/HANDOFF.md`.
+- Second one-head pass: `../../archive/process/reviews_v2.md` (OTA overclaim, bypass-under-no-prior-tie,
   platform node/edge demo, oracy unevenness). Those four were fixed in the chapter before this
   panel. Re-check that the fixes hold; do not congratulate the fix as if it were still open.
 

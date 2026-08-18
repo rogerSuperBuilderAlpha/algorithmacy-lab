@@ -2,8 +2,8 @@
 
 > **Title note.** Both files carry the subtitle "Toward a Coordinative Sovereignty for the Platform Era."
 > The chapter's subtitle changed on 2026-08-17 to "Coordinative Sovereignty for the Platform Era," to fit
-> IGI's 50-character limit (`../chapter/HANDOFF.md` §0i). These were left as presented and are a record of
-> that, not an error to fix. Use the shorter form in anything new.
+> IGI's 50-character limit (`../archive/process/HANDOFF.md` §0i). These were left as presented and are a
+> record of that, not an error to fix. Use the shorter form in anything new.
 
 Presentation materials for the paper, prepared for the Society of Business Ethics Annual Meeting 2026.
 
@@ -14,4 +14,5 @@ Presentation materials for the paper, prepared for the Society of Business Ethic
   managers, and policy.
 - `algorithmacy-sovereignty-poster.pptx` — the one-slide conference poster covering the same argument.
 
-The paper itself lives in [`../chapter/`](../chapter/); the current draft is the Word file there.
+The paper itself lives in [`../chapter/chapter.md`](../chapter/chapter.md); the Word file is
+[`../chapter/exports/Full Paper - Alg & Sov.docx`](../chapter/exports/Full%20Paper%20-%20Alg%20%26%20Sov.docx).

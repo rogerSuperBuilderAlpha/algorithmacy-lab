@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Regenerate the derived export files from chapter.md.
 
-chapter.md is the source of truth (hard-wrapped for git diffs). Two files derive from it
-and must never be hand-edited:
+chapter.md is the source of truth (one paragraph per block). Two files in exports/ derive
+from it and must never be hand-edited:
 
-  chapter_grammarly.md      soft-wrapped paste target for Grammarly; the section 7 table is
-                            flattened to a list, because Grammarly does not read pipe tables.
-  Full Paper - Alg & Sov.docx   pandoc render of chapter.md, to be reflowed into the IGI template.
+  exports/chapter_grammarly.md      soft-wrapped paste target for Grammarly; the section 7
+                                    table is flattened to a list, because Grammarly does not
+                                    read pipe tables.
+  exports/Full Paper - Alg & Sov.docx   pandoc render of chapter.md.
 
 Run from the chapter directory:  python3 regen_exports.py
 Add --check to verify the exports are current without rewriting them (exit 1 if stale).
@@ -19,9 +20,10 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+EXPORTS = HERE / "exports"
 SOURCE = HERE / "chapter.md"
-GRAMMARLY = HERE / "chapter_grammarly.md"
-DOCX = HERE / "Full Paper - Alg & Sov.docx"
+GRAMMARLY = EXPORTS / "chapter_grammarly.md"
+DOCX = EXPORTS / "Full Paper - Alg & Sov.docx"
 # Word styling for the .docx: Times New Roman 12pt, double-spaced, APA 7 heading placement,
 # page numbers. Rebuild it with build_reference_docx.py; its hash is part of the stamp below,
 # so restyling marks the .docx stale the same way editing chapter.md does.
@@ -29,11 +31,11 @@ REFERENCE = HERE / "reference.docx"
 # Records the chapter.md hash the .docx was built from. A .docx is a zip whose bytes differ
 # on every run, so it cannot be compared against a fresh render; and mtimes are reordered by
 # any git checkout, so they cannot be trusted either. This sidecar is committed with them.
-STAMP = HERE / ".exports.sha256"
+STAMP = EXPORTS / ".exports.sha256"
 
 HEADER = """<!-- Paste-ready for Grammarly: soft-wrapped paragraphs, one blank line between them.
      Full chapter including References, Cases, Additional Reading, and Key Terms.
-     Source of truth remains chapter.md (hard-wrapped for git diffs).
+     Source of truth remains chapter.md.
      Regenerate with regen_exports.py after substantive edits. -->
 """
 
@@ -140,6 +142,7 @@ def main():
         print("exports are current")
         return 0
 
+    EXPORTS.mkdir(exist_ok=True)
     GRAMMARLY.write_text(grammarly)
     cmd = ["pandoc", "-f", "markdown", "-t", "docx", str(SOURCE), "-o", str(DOCX)]
     if REFERENCE.exists():
