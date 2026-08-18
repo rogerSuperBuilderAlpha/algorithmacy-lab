@@ -48,7 +48,7 @@ construct, supporting **coordinative sovereignty** in the encounter.
 
 **Baseline library complete; drafting is the critical path.** Constructs, bridge, design principles,
 CFP alignment, verified literature core, and a word-budgeted outline are in place.
-`manuscript/manuscript.md` is still section stubs.
+`manuscript/DRAFT.md` is the paper. The superseded `manuscript.md` was deleted on 17 August.
 
 Target: full manuscript for the *Hospitality & Society* special-issue window
 **5 March – 4 September 2026** — **28 days out as of 2026-08-07**. The day-level schedule is

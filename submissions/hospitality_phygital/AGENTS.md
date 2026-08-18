@@ -26,7 +26,7 @@ reuses algorithmacy and coordinative sovereignty. It does **not** add Φ probes 
   exemplars and recorded in [`manuscript/REGISTER.md`](manuscript/REGISTER.md). *Hospitality &
   Society* prose uses the first person throughout, runs 150–250-word paragraphs and makes the cited
   author the subject of the sentence. The first full draft inherited repo style instead of measuring
-  the venue, and read wrong. The exemption covers `manuscript/manuscript.md` and the submission front
+  the venue, and read wrong. The exemption covers `manuscript/DRAFT.md` and the submission front
   matter, and expires with this submission. Everything else in the arm keeps house style.
 - Do not demote IIT/Φ in bridge notes. The hospitality article may stay conceptual; that is audience
   fit, not a retreat from the lab thesis.

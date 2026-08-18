@@ -8,7 +8,7 @@ carrying a verification date and read depth); the research provenance lives in
 [`FOUNDATION.md`](FOUNDATION.md) Parts 1–7, with the P9 pass written up separately in
 [`P9_FINDINGS.md`](P9_FINDINGS.md); claim-level verdicts in
 [`../manuscript/CLAIMS.md`](../manuscript/CLAIMS.md). This file is the reader's map, not the source
-of record — regenerate section placements from `cited_keys.txt` and the manuscript if the draft
+of record — regenerate section placements from `cited_keys_draft.txt` and the manuscript if the draft
 moves.
 
 Entries marked ⚠ are abstract-depth: citation verified, substantive attribution restricted under

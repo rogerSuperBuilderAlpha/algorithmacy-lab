@@ -2,6 +2,37 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — manuscript.md deleted, and the card gate had been reading the dead paper
+
+`manuscript/manuscript.md` is gone, with `cited_keys.txt`, the key list that existed only to serve
+it. **There is one paper in this arm now: `DRAFT.md`.** The deletion was the point of the exercise,
+but the useful part was what it exposed.
+
+**`library/build_index.py` was validating the card library against `cited_keys.txt`.** That is the
+key list of the deleted draft. Every card-library verdict this project has reported for weeks was
+measured against a paper nobody was writing. Repointed to `cited_keys_draft.txt`, and the honest
+number is **104 problems, not the 54 previously believed** — roughly 25 cards marked held or
+rejected for sources the paper actually cites, 15 marked cited for sources it does not, and the rest
+missing cards. That backlog is real, it is bookkeeping rather than scholarship, and it is now
+measured against the right paper for the first time.
+
+This is the same failure the arm has recorded twice already, and it is worth stating as a rule
+rather than an anecdote: **a tool pointed at stale state reports success.** `check_citations.py` had
+it, `wordcount.py` had it with its `--refs 77` default, `preflight.py` had it by matching surnames
+without years, and now `build_index.py`. Every one of them passed while measuring the wrong thing.
+When a draft is retired, the retirement is not done until every tool that referenced it has been
+repointed and re-run.
+
+**Repointed or corrected in this pass:** `build_index.py` to the live key list; `check_citations.py`
+and `wordcount.py` to a single paper, their two-draft branching removed; `render_refs.py`'s usage
+line; and the live pointers in `README.md`, `PLAN.md`, `AGENTS.md`, `manuscript/README.md`,
+`REGISTER.md`, `OUTLINE.md` and `literature/LIBRARY.md`, all of which still directed a reader to the
+deleted file. Historical mentions in the cards, the reviews and the older entries of this log were
+left alone: they are accurate records of what happened and should not be rewritten.
+
+`REGISTER.md` now carries a caveat it needed anyway. It was measured for the earlier lab-voice
+draft. The governing register is the second author's own, and where the two disagree his voice wins.
+
 ## 2026-08-17 — the lineage, and four branches retired
 
 **The paper's lineage is now three steps and nothing else.** Pierre's rewrite of 17 August is the

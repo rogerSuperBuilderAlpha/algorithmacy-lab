@@ -4,7 +4,7 @@ Complete plan for the *Hospitality & Society* conceptual paper. This file is the
 sequencing work in this arm. Update status lines as milestones close; do not fork a second plan.
 
 > **Calendar reality (2026-08-07).** The submission window closes **4 September 2026** — 28 days
-> out — and `manuscript/manuscript.md` is section stubs. Section 5 below is a day-level schedule,
+> out — and `manuscript/DRAFT.md` is the paper. Section 5 below is a day-level schedule,
 > not a recommendation. Anything that does not fit inside it is a post-submission item.
 
 ## 1. Goal
@@ -63,7 +63,7 @@ by hand.
 | Dissertation genealogy log | [`DISSERTATION_REVIEW.md`](DISSERTATION_REVIEW.md) | **complete** — library and chapter passes both logged |
 | Literature research passes | [`literature/FOUNDATION.md`](literature/FOUNDATION.md) | rounds 1a–1c done; round 2 specified |
 | Round-2 research prompts | [`literature/RESEARCH_PROMPTS.md`](literature/RESEARCH_PROMPTS.md) | eight prompts, ready to run |
-| Full manuscript draft | `manuscript/manuscript.md` | **not started — critical path** |
+| Full manuscript draft | `manuscript/DRAFT.md` | **done; over length, see NOTES.md** |
 | Compressed abstract + keywords | `manuscript/` | not started |
 | Submission package | Callisto + cover note | not started |
 
