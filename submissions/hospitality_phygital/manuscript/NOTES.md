@@ -2,6 +2,44 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-08-17 — the loadings claim, and the jargon it was hiding in
+
+**"Only the third mentions an appeal, and it carries the weakest loadings of the three" is out.**
+It was lifted from the source memo without checking, and it was wrong three ways at once.
+
+*It was unverified.* Nothing in this project's records supports a loadings comparison. The Zhou card
+records the dimension table and the interview exemplars as what was read. A claim about which of
+three items loads weakest is a specific psychometric assertion about somebody else's scale, and we
+never had it.
+
+*It broke the register.* The sentence before it says "solve the problem herself, ask other workers".
+The sentence after says "weakest loadings". Pierre uses **no** methods vocabulary anywhere in eight
+thousand words — no *load*, no *confirmatory*, no *factor analysis*, no *psychometric*. Every
+instance of it in this manuscript was mine.
+
+*And it argued against us.* The claim in §6 is that a competence scale **categorically cannot**
+capture whether anyone is obliged to answer. Saying the appeal item loads weakly is a complaint
+about measurement quality, and a referee reads that as "then build a better scale". It converts the
+hinge of the paper from a conceptual argument into a psychometric quibble. That is the real damage,
+and it is the sort a count will never find.
+
+**Two more places carried the same jargon** and are now in plain English. §2's Pijls sentence said
+the agency items were dropped "at the confirmatory stage, because they loaded too weakly"; it now
+says the scale tried two questions about agency and dropped both when it was tested, which is the
+same fact in the register of the paper around it. §6's "three validated items" is now "three things
+a worker can do".
+
+**And the Möhlmann stub is gone.** The reviewer could not reconstruct what "Neither turns into the
+other" asserted or what it added, and neither could I on re-reading. Cut; the craft paragraph ends
+on Fuller and Smith, with Möhlmann retained in the citation.
+
+**The lesson, which is not the one the previous entry drew.** That entry said a count cannot see
+self-regard, and that was right but too narrow. A count cannot see **register breaks or unverified
+specifics** either. Both survived a style pass that measured sentence length, short-sentence ratio
+and tic frequency and returned every band in range. Two checks would have caught what counting
+missed: grep his prose for any unusual word before using it, and trace every number and technical
+detail back to a source note before it enters a sentence.
+
 ## 2026-08-17 — the length ruling, and the slop in my own repairs
 
 Two corrections, and the second is the one that matters.
