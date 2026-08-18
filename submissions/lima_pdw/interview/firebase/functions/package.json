@@ -1,0 +1,13 @@
+{
+  "name": "interview-intake",
+  "version": "1.0.0",
+  "description": "Receives anonymous interview submissions, enforces the human-review gate, writes to the intake bucket.",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "22"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0"
+  }
+}

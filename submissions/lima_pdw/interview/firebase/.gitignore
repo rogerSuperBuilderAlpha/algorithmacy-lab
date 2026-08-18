@@ -1,0 +1,18 @@
+# This directory sits in a PUBLIC repository. Nothing secret may land here.
+
+# Service account keys — a committed key is a disclosed key.
+*.json
+!functions/package.json
+*-adminsdk-*.json
+*service-account*.json
+*credentials*.json
+.env
+.env.*
+
+# Build output
+functions/node_modules/
+functions/package-lock.json
+
+# Anything a participant sent. Responses belong in the private repo's
+# paper3/corpus/, never here.
+response-*.md
