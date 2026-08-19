@@ -58,9 +58,12 @@ can settle them.
     will like it; the manuscript has to earn it. What is it about GauntleTT specifically — compressed
     time, identical curriculum, a population new to AI-mediated coordination — that a US bootcamp
     would not supply?
-11. **Positioning within the dissertation.** The manuscript is Paper 3 of a three-paper sequence.
-    How much of Papers 1 and 2 must travel with it for a standalone read, given a PDW audience that
-    reads the manuscript cold?
+11. **Positioning within the dissertation.** ~~The manuscript is Paper 3~~ — **wrong, corrected
+    2026-08-18. It is Paper 2.** It lives at `dissertation/current/paper2/`, `BUILD_LOG.md` opens
+    "Dissertation Paper 2," §2 is titled "What Paper 1 Settled," and §11 hands off to the Hult study,
+    which is Paper 3. The error was a leftover from this arm's first morning, written before anyone
+    here knew the manuscript existed. The real question stands: how much of Paper 1 must travel with
+    it for a standalone read, given a PDW audience that reads the manuscript cold?
 
 ## Added by the manuscript review, 2026-08-18
 

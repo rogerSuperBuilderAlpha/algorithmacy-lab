@@ -93,9 +93,10 @@ rebuilt is on a different axis, and the items make the argument available:
   regime — hence appeals, WeChat groups, hot spots, order quality. A generative-AI knowledge-work
   setting has no dispatch queue and no ratings appeal, so the items do not transfer even if the
   construct does. Say so; it justifies a new instrument without disparaging theirs.
-- **Two component pairs will correlate and should be predicted to.** Their *Leveraging* against
-  algorithmacy's *machine orchestration* and *intent specification*; their *Understanding* against
-  *asymmetric interpretation*. Predicting moderate correlations in advance is stronger than being
+- **Two facet pairs will correlate and should be predicted to.** Their *Leveraging* against
+  algorithmacy's *intent specification*; their *Understanding* against *asymmetric interpretation*.
+  (Written before the reconciliation, this row also named *machine orchestration*, which `PAPER.md`
+  §7 cuts as a tool affordance rather than a facet.) Predicting moderate correlations in advance is stronger than being
   shown them at the roundtable.
 - **Their Embracing has no counterpart in algorithmacy**, and algorithmacy's *implicit acquisition*
   and *stratified fluency* have none in theirs. Both gaps are arguments for distinctness, and the
