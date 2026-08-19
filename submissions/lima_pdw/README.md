@@ -10,10 +10,15 @@ The accepted title:
 > Algorithmacy: A communication competency construct for triadic mediated coordination, with
 > empirical evidence from a Caribbean AI engineering cohort
 
-**The manuscript is `dissertation/current/paper2/PAPER.md`** — "The Competency a Form Demands:
-Algorithmacy and the Co-optation Column," the author's own prose, twelve sections, roughly 9,400
-words. **This directory is a support arm, not the draft.** The dissertation repo is hands-off:
-propose, never edit. Where anything here disagrees with `PAPER.md`, `PAPER.md` wins.
+**The locked abstract and introduction is [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md)**
+(2026-08-19). Do not edit it unless the author says to. Details: [`manuscript/LOCK.md`](manuscript/LOCK.md).
+
+**The rest of the manuscript is `dissertation/current/paper2/PAPER.md`** — "The Competency a Form
+Demands: Algorithmacy and the Co-optation Column," the author's own prose, twelve sections,
+roughly 9,400 words. **This directory is a support arm, not the draft.** The dissertation repo is
+hands-off: propose, never edit. Where anything here disagrees with `PAPER.md` *below the
+introduction*, `PAPER.md` wins. Where they disagree on the abstract or introduction, the locked
+file wins; do not splice it into `PAPER.md` unless the author asks.
 
 The submitted package — motivation letter and extended abstract — is transcribed verbatim in
 [`ABSTRACT.md`](ABSTRACT.md), and the manuscript has since moved past it in four disclosed ways; see
@@ -44,6 +49,8 @@ historical record and should not be restated anywhere as current.
 | path | what it is |
 |---|---|
 | [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
+| [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | **Locked 2026-08-19** — official abstract and introduction. Do not edit unless the author says to |
+| [`manuscript/LOCK.md`](manuscript/LOCK.md) | The lock: what it covers, what it forbids |
 | [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) | What the quantitative→qualitative swap changes and what it leaves standing, measured against the accepted text |
 | [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of `PAPER.md` — findings ranked, register audit, verified citation ledger |
 | [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
