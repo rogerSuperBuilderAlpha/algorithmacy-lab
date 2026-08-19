@@ -1,8 +1,9 @@
 # Lima literature — the working library
 
 This folder is the Lima support arm's bibliography. It is not the manuscript and it is not
-the dissertation research library. `PAPER.md` stays the source of truth; where a card and
-the paper disagree, the paper wins until the author changes it.
+the dissertation research library. The live manuscript is
+[`../manuscript/PAPER.md`](../manuscript/PAPER.md); where a card and the paper disagree, the
+paper wins until the author changes it.
 
 ## What lives here
 
@@ -25,7 +26,7 @@ one that entered the dissertation shelf.
 
 | layer | path | role |
 |---|---|---|
-| Manuscript | `dissertation/current/paper2/PAPER.md` | Hands-off. Cites 44 works. |
+| Manuscript | `../manuscript/PAPER.md` | Live Lima draft. The archived twelve-section text still sits in `dissertation/current/paper2/PAPER.md`. |
 | Dissertation shelf | `dissertation/research/library/` | Canonical shared bibliography (~1,788 entries). Indexes via `_build_indexes.py`. |
 | Install archive | `../library/` | Eleven Paper 2 sources written in the dissertation schema. Frozen. |
 | This folder | `literature/cards/` | Lima working library. Paper-2–focused. Usually carries `Cluster:`. |

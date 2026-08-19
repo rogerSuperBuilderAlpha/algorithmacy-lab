@@ -10,9 +10,12 @@ abstract and the introduction.
 
 `INTRO_SENTENCE_PLAN.md` is archive. Do not execute it against the locked text.
 
-The rest of the manuscript remains `dissertation/current/paper2/PAPER.md`. Putting this abstract
-and introduction into `PAPER.md` is an author action. Do not splice it, and do not rewrite
-`INTRODUCTION.md` to match `PAPER.md`'s current opening.
+The live manuscript is [`PAPER.md`](PAPER.md). Its abstract and introduction are a copy of this
+locked text. If they disagree, this file wins. Do not edit those two blocks in `PAPER.md`
+unless the author unlocks them. The sections after the introduction may be revised.
+
+The previous twelve-section draft is in [`../archive/`](../archive/). Do not write from it.
+Putting this opening into `dissertation/current/paper2/PAPER.md` is still an author action.
 
 The submitted package the conveners accepted is a different lock: [`../ABSTRACT.md`](../ABSTRACT.md).
 Do not collapse the two.

@@ -10,15 +10,15 @@ The accepted title:
 > Algorithmacy: A communication competency construct for triadic mediated coordination, with
 > empirical evidence from a Caribbean AI engineering cohort
 
-**The locked abstract and introduction is [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md)**
-(2026-08-19). Do not edit it unless the author says to. Details: [`manuscript/LOCK.md`](manuscript/LOCK.md).
+**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)** (2026-08-19). Its abstract and
+introduction are locked at [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md). Do not edit
+those two blocks unless the author says to. Details: [`manuscript/LOCK.md`](manuscript/LOCK.md).
 
-**The rest of the manuscript is `dissertation/current/paper2/PAPER.md`** — "The Competency a Form
-Demands: Algorithmacy and the Co-optation Column," the author's own prose, twelve sections,
-roughly 9,400 words. **This directory is a support arm, not the draft.** The dissertation repo is
-hands-off: propose, never edit. Where anything here disagrees with `PAPER.md` *below the
-introduction*, `PAPER.md` wins. Where they disagree on the abstract or introduction, the locked
-file wins; do not splice it into `PAPER.md` unless the author asks.
+**The previous draft is archived** at [`archive/2026-08-19_PAPER.md`](archive/2026-08-19_PAPER.md) —
+"The Competency a Form Demands: Algorithmacy and the Co-optation Column," twelve sections, the
+seventh-question anatomy. Do not write from it. The same text still sits in
+`dissertation/current/paper2/PAPER.md`; that file is no longer the live Lima draft. Do not splice
+the new opening back into the dissertation copy unless the author asks.
 
 The submitted package — motivation letter and extended abstract — is transcribed verbatim in
 [`ABSTRACT.md`](ABSTRACT.md), and the manuscript has since moved past it in four disclosed ways; see
@@ -35,22 +35,22 @@ which an active third party sits between two human parties and runs on objective
 and it is argued against the human–AI interaction constructs that inherit communication theory's
 dyadic frame.
 
-**The structure is three facets and two properties, not five components.** `PAPER.md` §7 derives
-**asymmetric interpretation**, **intent specification** and **temporal tracking** under one admission
-rule — a facet is what a worker supplies in the absence of a withheld condition — and cuts machine
-orchestration as a tool affordance rather than a facet. §10 reclassifies **implicit acquisition** and
-**stratified fluency** as properties, each with its own falsifier. Accountability is withheld and
-yields no facet at all, and that empty cell is the paper's main result. The accepted abstract's list
-of five conflates the three levels; it is quoted verbatim in [`ABSTRACT.md`](ABSTRACT.md) as the
-historical record and should not be restated anywhere as current.
+The live draft defines algorithmacy on the literacy / numeracy / oracy pattern: interpret, specify
+intent through, and keep track of an opaque, adaptive intermediary, so that a person can participate
+in coordination that includes the counterpart. Machine orchestration is not in the definition. The
+accepted abstract's list of five components is quoted verbatim in [`ABSTRACT.md`](ABSTRACT.md) as
+the historical record and should not be restated as current.
 
 ## Contents
 
 | path | what it is |
 |---|---|
 | [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
+| [`manuscript/PAPER.md`](manuscript/PAPER.md) | **Live draft** — full paper. Body may be revised; abs and intro may not |
+| [`manuscript/RESEARCH_PLAN.md`](manuscript/RESEARCH_PLAN.md) | Deepening plan: steelman every construct, model construct development, write the qual study to standard |
 | [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | **Locked 2026-08-19** — official abstract and introduction. Do not edit unless the author says to |
 | [`manuscript/LOCK.md`](manuscript/LOCK.md) | The lock: what it covers, what it forbids |
+| [`archive/`](archive/) | Previous twelve-section draft and its outline, frozen 2026-08-19 |
 | [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) | What the quantitative→qualitative swap changes and what it leaves standing, measured against the accepted text |
 | [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of `PAPER.md` — findings ranked, register audit, verified citation ledger |
 | [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
@@ -58,7 +58,7 @@ historical record and should not be restated anywhere as current.
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
 | [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note; row 1 closed 2026-08-18 |
-| [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | **Superseded** — records the manuscript's twelve-section architecture and where this arm's material lands in it |
+| [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | Live six-section architecture |
 | [`library/`](library/) | **Install archive.** Eleven dissertation-format cards, copied onto the private shelf 2026-08-19. Frozen. |
 | [`literature/`](literature/) | **Working library.** Start at [`literature/README.md`](literature/README.md) |
 | [`literature/COVERAGE.md`](literature/COVERAGE.md) | Paper 2's 44 cited works → Lima card, dissertation card, depth, status |
@@ -133,8 +133,8 @@ without touching the author's prose.
 **The posture changed on 2026-08-18.** This was a support arm doing citation checks and structural
 reading. It now also runs the instrument: the empirical arm moved from a quantitative three-wave
 panel to a qualitative study, the harness was built and fielded the same day, and the first response
-is in. `PAPER.md` is still the author's prose and still hands-off. What this arm supplies is the
-study that §11 previews, now actually collecting.
+is in. The live draft is now [`manuscript/PAPER.md`](manuscript/PAPER.md). What this arm also
+supplies is the study that draft's empirical section previews, now actually collecting.
 
 Workshop terms that bind the work: registration confirmed the place on **14 August**; the full
 manuscript is due **10 September**; attendance is in person for all three days; accepting also

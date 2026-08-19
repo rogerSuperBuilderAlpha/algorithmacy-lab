@@ -1,15 +1,13 @@
 # Plan — from accepted abstract to 10 September manuscript
 
-> **⚠ READ FIRST — the manuscript lives in the dissertation repo, not here (2026-08-13).**
-> `dissertation/current/paper2/PAPER.md`, "The Competency a Form Demands: Algorithmacy and the
-> Co-optation Column," is the Lima paper. Roughly 9,400 words across twelve sections, with a
-> first-page note listing four deltas from the accepted abstract. **This arm is a support scaffold,
-> not the draft**, and the dissertation repo is hands-off — propose, never edit. Where this file and
-> `PAPER.md` disagree *below the introduction*, `PAPER.md` wins. §2 below is superseded outright; §§3–5 are re-cut to match.
+> **⚠ READ FIRST — the live draft is in this arm (2026-08-19).**
+> [`manuscript/PAPER.md`](manuscript/PAPER.md) is the Lima paper. The abstract and introduction are
+> locked at [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md). Do not edit them unless the
+> author says to. See [`manuscript/LOCK.md`](manuscript/LOCK.md).
 >
-> **The abstract and introduction are locked (2026-08-19)** at
-> [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md). Do not edit them unless the author
-> says to. See [`manuscript/LOCK.md`](manuscript/LOCK.md).
+> The previous twelve-section draft is in [`archive/`](archive/). The same text still sits in
+> `dissertation/current/paper2/PAPER.md` and is no longer the live draft. §2 below described that
+> older manuscript and is historical.
 
 > **Calendar reality (2026-08-13).** Registration closes **15 August** (two days). The manuscript is
 > due **10 September** — **28 days**. Two other binding deadlines fall inside that window: the IGI
