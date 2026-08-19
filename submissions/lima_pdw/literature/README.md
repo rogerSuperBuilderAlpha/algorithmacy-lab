@@ -82,18 +82,48 @@ Three works were carded twice by parallel agents on 18 August. Both files stay.
 
 ## Read before Lima
 
-Four items the 18 August memo ranked by what they could change. Status as of 2026-08-19:
+Four items the 18 August memo ranked by what they could change. Status as of 2026-08-19,
+after the Phase 1 hearings:
 
-1. **Sutherland et al. (2020), gig literacies.** Still unread beyond the abstract. Sage
-   blocked retrieval. If "relationship building" is the authors' own heading, the
-   counterpart is inside the nearest precedent and §9 needs rewriting. Highest remaining
-   pull.
-2. **Sandberg (2000).** Still not read in full. The dissertation card is
-   `abstract_plus_reviews`; the Lima card is `metadata_only`. §8's repair turns on it.
+1. **Sutherland et al. (2020), gig literacies.** Closed. Read from the PDF; steelman at
+   `steelmans/sutherland2020.md`. "Building relationships" is the authors' own heading and
+   the discrimination survives, because the literacy works *beside* or *off* the platform.
+2. **Sandberg (2000).** Closed at the card level — `cards/sandberg2000.md` is now
+   `full_text` via OCR, and the architecture memo is `models/sandberg2000.md`. Two figures
+   in §4 still need checking against the scan; see the 19 August review's housekeeping.
 3. **Dominguez Castillo (2026).** Not in Paper 2's reference list. Carded at
    `cards/dominguezcastillo2026.md`. Still unread; the memo flagged it as a possible
    normative challenge.
 4. **Spitzberg (2006).** Closed. Full text is on the dissertation shelf and in both Lima
-   folders, from Oxford's free JCMC HTML.
+   folders, from Oxford's free JCMC HTML. Steelman at `steelmans/spitzberg2006.md`.
 
 The sweep findings themselves are in [`../REVISION_MEMO.md`](../REVISION_MEMO.md).
+
+## Phase 1 hearings — status
+
+Seven constructs, seven memos, in `steelmans/`. All seven exist as of 2026-08-19.
+
+| # | Construct | Memo | Written from |
+|---|---|---|---|
+| 1 | Algorithmic competency | `zhou2025apjhr.md` | **Journal PDF** (APJHR 63: e70004), on the dissertation shelf |
+| 2 | Gig literacies | `sutherland2020.md` | `pdfs/sutherland2020.pdf` |
+| 3 | Reactivity / invisible cage | `rahman2021.md` | Author-deposited accepted manuscript, dissertation shelf |
+| 4 | CMC competence | `spitzberg2006.md` | Oxford Academic full text |
+| 5 | AI literacy | `longmagerko2020.md` | **Partial** — ACM blocked; see the memo's own note |
+| 6 | Human–machine communication | `guzmanlewis2020.md` | `pdfs/guzmanlewis2020.pdf` |
+| 7 | AI-mediated communication | `hancock2020.md` | Oxford Academic full text |
+
+## Phase 2 architecture memos — status
+
+Five genre-match papers, five memos, in `models/`. All five exist as of 2026-08-19.
+
+| Paper | Memo | Its job |
+|---|---|---|
+| Rahman (2021), *ASQ* 66(4) | `rahman2021.md` | Condition-then-conduct findings; the data-source table with a "use in analysis" column |
+| Cameron (2024), *ASQ* 69(2) | `cameron2024.md` | Opening on an anomaly; researcher position as conduct; coding reported as rounds |
+| Curchod et al. (2020), *ASQ* 65(3) | `curchod2020.md` | "This theory does not reach," findings split by level, protocol in an appendix |
+| Sandberg (2000), *AMJ* 43(1) | `sandberg2000.md` | How a qualitative study *produces* a competence construct |
+| Suddaby (2010), *AMR* 35(3) | `suddaby2010.md` | The four elements of construct clarity, as section jobs |
+
+What both phases changed for the manuscript is collected in [`FINDINGS.md`](FINDINGS.md).
+One acquisition is still open: the ACM competency table for Long and Magerko.

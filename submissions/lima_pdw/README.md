@@ -66,6 +66,8 @@ the historical record and should not be restated as current.
 | [`literature/COVERAGE.md`](literature/COVERAGE.md) | Paper 2's 44 cited works → Lima card, dissertation card, depth, status |
 | [`literature/INDEX.md`](literature/INDEX.md) | Generated listing of the sweep cards, by cluster then read depth |
 | [`literature/TRAPS.md`](literature/TRAPS.md) | Live citation hazards — wrong paper, wrong author, two Zhou 2025s |
+| [`literature/steelmans/`](literature/steelmans/) | **Phase 1 hearings — all seven constructs**, written from the articles |
+| [`literature/FINDINGS.md`](literature/FINDINGS.md) | What those hearings change: one falsifiable claim, one verification passed, three cheap upgrades |
 | [`literature/cards/`](literature/cards/) | The cards themselves |
 | [`literature/REFERENCES.md`](literature/REFERENCES.md) | The abstract's citations, all fifteen verified, four flagged on substance |
 | [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival algorithmic competency scale, all twelve items, and the discrimination the items support |

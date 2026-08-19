@@ -20,6 +20,39 @@ can settle them.
    sees the paper before the conveners do. `correspondence/ADVISORS_SPINE_REQUEST.md` suggests this is
    already in hand.
 6. **Roundtable load.** Ask the organizers when manuscript assignments arrive and how many.
+7. **"Several responses" is one response.** Checked 2026-08-19 against the intake bucket
+   (`./interview/pull-responses.sh --list`): `gs://pitch-rise-interview-intake/` holds **one**
+   object, uploaded 2026-08-18T22:14Z. The upload page posting to that bucket is the only intake
+   route, and no local `responses/` directory exists, so nothing was pulled and cleared. Two places
+   in the manuscript say otherwise:
+
+   - **§5, L146:** "We have obtained several responses." Then one is described, because there is one.
+   - **The abstract, and it is locked:** "including several responses obtained to date."
+
+   The review's finding 6 asked for the number and called it author-only. The number is **1**. The
+   §5 sentence is in revisable body text; **the abstract sentence is inside the lock**, so correcting
+   it needs the author to unlock it or to rule that "several" stands. Either way this is a factual
+   claim about human-subjects data in a manuscript going to reviewers, and it outranks every
+   drafting task on this page except item 2. Nothing here quotes or commits a response; the count
+   came from a bucket listing.
+
+   **The arm's recommendation, and why it changed nothing in `PAPER.md`.** Both sentences have to
+   move together. Correcting §5 to "one" while the abstract still says "several" would put a
+   contradiction inside a manuscript going to reviewers, which is worse than the overstatement it
+   fixes — so neither was touched. Two clean ways out, and the second is better if the calendar
+   allows:
+
+   1. **Unlock and correct both.** §5 takes the review's own shape — a number, then the protocol
+      and the site. The abstract drops "several responses obtained to date" for a first response,
+      or for a formulation that does not count at all.
+   2. **Field, and let the sentence become true.** `interview/EMAIL_TO_SEND.md` is copy-ready and
+      the invitation has gone out once. Three weeks remain before 10 September. Sending is the
+      author's; no agent contacts anyone. If the count moves, §5 gains incidents rather than a
+      correction, and §5's two empty blocks may fill — which is what the plan's sequence asks for
+      first.
+
+   Either way the decision is due well before submission, because the abstract is the sentence a
+   convener reads first.
 
 ## Open for the arm
 
@@ -58,9 +91,14 @@ can settle them.
     will like it; the manuscript has to earn it. What is it about GauntleTT specifically — compressed
     time, identical curriculum, a population new to AI-mediated coordination — that a US bootcamp
     would not supply?
-11. **Positioning within the dissertation.** The manuscript is Paper 3 of a three-paper sequence.
-    How much of Papers 1 and 2 must travel with it for a standalone read, given a PDW audience that
-    reads the manuscript cold?
+11. **Positioning within the dissertation.** ~~The manuscript is Paper 3 of a three-paper
+    sequence.~~ **It is Paper 2** — corrected 2026-08-19. Its own byline reads "Dissertation Paper
+    2," and §2 reviews "Paper 1 of this dissertation," the coordination-forms comparison. The open
+    question stands in its corrected form: how much of Paper 1 must travel with it for a standalone
+    read, given a PDW audience that reads the manuscript cold? §2 currently carries about a page of
+    it. Note for the author, not an action here: `CLAUDE.md`'s dissertation spine and
+    `dissertation/current/spine/` still describe a Paper 2 built on Φ, and the conclusion file
+    marks itself stale. The numbering in this arm now matches the manuscript.
 
 ## Added by the manuscript review, 2026-08-18
 

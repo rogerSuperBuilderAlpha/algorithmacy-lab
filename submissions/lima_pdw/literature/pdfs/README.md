@@ -18,4 +18,16 @@ for the research plan in `../../manuscript/RESEARCH_PLAN.md`.
 | `timmermans2012.pdf` | Timmermans & Tavory, *Sociological Theory* 30(3) |
 | `tracy2010.pdf` | Tracy, *Qualitative Inquiry* 16(10) |
 
-Still missing: Spitzberg & Cupach (1984) book; Zhou *APJHR* journal PDF.
+Still missing: Spitzberg & Cupach (1984) book; the ACM PDF of Long & Magerko (2020); publisher
+PDFs of Spitzberg (2006) and Hancock et al. (2020), both read from Oxford's HTML but without page
+anchors.
+
+**Not missing after all, and not duplicated here** — two sources the Phase 1 hearings were written
+from sit on the dissertation shelf:
+
+| paper | path |
+|---|---|
+| Zhou, Lei, Liu, Huang & Hou — **journal version**, APJHR 63: e70004 | `dissertation/research/sources/pdfs/zhou2025_algorithmic_competency.pdf` |
+| Rahman, *ASQ* 66(4) — author-deposited accepted manuscript, paginated 1–44 | `dissertation/research/library/pdfs/rahman2021.pdf` |
+
+The Rahman file is the accepted manuscript, so **do not cite page numbers from it**.
