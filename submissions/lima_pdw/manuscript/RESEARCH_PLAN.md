@@ -116,13 +116,13 @@ so the "channel / partner / agent" arrangement is earned.
 
 | # | Construct | Sources | Depth now | Acquire / do next |
 |---|---|---|---|---|
-| 1 | Algorithmic competency (scale) | Zhou, Lei, Liu, Huang & Hou (2025) *APJHR* | Items + working paper. Not journal PDF. | Journal PDF. Quote items 8 and 11 in the steelman. Map their 99-interview development against our derivation. Never write "Zhou et al. 2025" bare. |
+| 1 | Algorithmic competency (scale) | Zhou, Lei, Liu, Huang & Hou (2025) *APJHR* | **Read, journal version.** | Steelman written. **Journal PDF obtained** from the dissertation shelf 2026-08-19; items 5, 8 and 11 verified against the working paper and identical, so `ZHOU_2025_INSTRUMENT.md` may be cited as final. New: *Remediating* item 6 is an appeal item, and the appeal runs to the machine. Never write "Zhou et al. 2025" bare. |
 | 2 | Gig literacies | Sutherland et al. (2020) | **Read.** Five headings verified; relationship building is theirs. | Steelman written. Counterpart is in the sample and in that literacy; the literacy escapes the platform. |
-| 3 | Reactivity / invisible cage | Rahman (2021) | Full text. | Re-read as neighbour *and* as genre model. Five cage components vs our three operations. Who-influences is their name for not knowing which party moved the score. |
-| 4 | CMC competence | Spitzberg (2006) | Full text; item properties not re-verified. | Re-read for the measure. Then Spitzberg & Cupach (1984) — **unread**, the competence model he extends. Bunz & Montez (2015) for what the construct later acquired. |
-| 5 | AI literacy | Long & Magerko (2020) | Full text (`long2020`). | Tabulate all 17 competencies. Confirm the count: none names another person. Check whether any later *scale* of AI literacy has been used on platform workers. |
+| 3 | Reactivity / invisible cage | Rahman (2021) | **Read.** Five components verified verbatim. | Steelman written. He interviewed **18 clients**, and the platform told them their rating would be "kept anonymous and never shared directly with the freelancer" — our structural claim, documented. Architecture memo (Phase 2) still outstanding. |
+| 4 | CMC competence | Spitzberg (2006) | **Read.** Measure outcome verified. | Steelman written, and it carries the co-interactant lines that answer the live review's finding 1 without the 1984 book. Spitzberg & Cupach (1984) still unread; no longer gating. Bunz & Montez (2015) for what the construct later acquired. |
+| 5 | AI literacy | Long & Magerko (2020) | **Read**, camera-ready via the Internet Archive. | Steelman written from the article; all 17 transcribed, grouped 4/2/9/1/1. **The count as stated is falsified**: competency 10 is *Human Role in AI* — humans as the system's makers — so the claim narrows to "none names another person as a party to the interaction." Cite by competency number. Check whether any later *scale* of AI literacy has been used on platform workers. |
 | 6 | Human–machine communication | Guzman & Lewis (2020) | **Read.** Agenda, not a measure. Machine as partner. | Steelman written. Still useful to add one later empirical HMC study later; not a hinge. |
-| 7 | AI-mediated communication | Hancock, Naaman & Levy (2020) | Full text. | One later empirical AI-MC paper. Confirm the agent-for-the-speaker boundary still holds in use, not only in the agenda. |
+| 7 | AI-mediated communication | Hancock, Naaman & Levy (2020) | **Read.** Both definitions located. | Steelman written. The body's formal definition — "mediated communication between people… computational agent" — is stronger for us than the abstract's, which is what §3 currently quotes. One later empirical AI-MC paper still wanted. |
 
 Do not add a new neighbour until these seven memos exist. Adjacent constructs (computational
 thinking, data literacy, digital competence, Stelmaszak's organizing capability) get a short
@@ -341,26 +341,37 @@ incidents get the same tags. Do not invent a second case.
 
 ### Still to acquire (only what still bites)
 
-1. **Zhou journal PDF** — items 5, 8, and 11 vs the working paper. Condition above.
+1. ~~**Zhou journal PDF**~~ — **done 2026-08-19.** It was on the dissertation shelf at
+   `research/sources/pdfs/zhou2025_algorithmic_competency.pdf`. Items 5, 8 and 11 match the working
+   paper exactly, as do all twelve and both loading sets.
 2. **Spitzberg & Cupach (1984)** — we cite them for competence vs performance and
-   have not opened the book. Until then, lean on Spitzberg (2006), which we have.
+   have not opened the book. Lean on Spitzberg (2006), which we have, and which says the
+   relational thing directly: "competent interactants can facilitate the competence of
+   cointeractants." That discharges the live review's finding 1 without the book.
 3. **One later empirical HMC study** and **one later empirical AI-MC study** —
    so Guzman & Lewis and Hancock, Naaman & Levy are not only agendas. Not hinges.
-4. Rahman / Cameron / Curchod **architecture memos** (methods and findings
-   layout only). The papers are read; the one-pagers are not written.
-5. **Long & Magerko table** — seventeen competencies listed, none naming a
-   person. The count is confirmed; the table is still useful as an appendix
-   for a reviewer who asks.
+4. ~~Rahman / Cameron / Curchod **architecture memos**~~ — **written 2026-08-19**, at
+   `../literature/models/{rahman2021,cameron2024,curchod2020}.md`. All five genre-match memos now
+   exist. They turned up prior art on the triad in *ASQ* — Curchod's triadic relationships and
+   Cameron's algorithmic labor triangle — which bears on §3's close. See `../literature/FINDINGS.md`.
+5. ~~**Long & Magerko table**~~ — **done 2026-08-19** from the camera-ready on the Internet
+   Archive. All seventeen are in `../literature/steelmans/longmagerko2020.md`, verbatim and
+   grouped, and `cards/long2020.md` is corrected. Still useful as an appendix for a reviewer
+   who asks. §3's sentence is the author's to narrow.
 
 ### Sequence now
 
 The 19 August body rewrite is done. Next work is not another theory pass.
 
 1. Field until the two empty blocks have incidents, or record that they stayed empty.
-2. Get the Zhou journal PDF and check items 5, 8, and 11.
+2. ~~Get the Zhou journal PDF and check items 5, 8, and 11.~~ **Done 2026-08-19; it passed.**
 3. If both scales are fielded, register the predicted correlations *before* looking.
-4. Write the three ASQ architecture memos if a methods reviewer is the next audience.
-5. Open Spitzberg & Cupach only if a competence-lineage reviewer asks.
+4. ~~Write the three ASQ architecture memos if a methods reviewer is the next audience.~~
+   **Done 2026-08-19.** Two concrete jobs came out of them: a comparison table in §2, and the
+   protocol block structure as an appendix in §5.
+5. ~~Open Spitzberg & Cupach only if a competence-lineage reviewer asks.~~ **The trigger fired**
+   — the 19 August review's first finding is exactly that. Spitzberg (2006) answers it, so the book
+   is wanted for the citation and not for the argument. See `../literature/FINDINGS.md`.
 
 ---
 

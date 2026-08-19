@@ -57,6 +57,7 @@ the historical record and should not be restated as current.
 | [`reviews/`](reviews/) | Reviews of the **live** draft. Current: [`REVIEW_2026-08-19.md`](reviews/REVIEW_2026-08-19.md) |
 | [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
 | [`interview/`](interview/) | **The live instrument.** Self-service interview harness, three protocols, anonymous intake. See below |
+| [`interview/METHODS_AUDIT.md`](interview/METHODS_AUDIT.md) | The harness checked against the methods literature §5 cites: nine rules warranted, the analysis half missing |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
 | [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note; row 1 closed 2026-08-18 |
@@ -66,6 +67,8 @@ the historical record and should not be restated as current.
 | [`literature/COVERAGE.md`](literature/COVERAGE.md) | Paper 2's 44 cited works → Lima card, dissertation card, depth, status |
 | [`literature/INDEX.md`](literature/INDEX.md) | Generated listing of the sweep cards, by cluster then read depth |
 | [`literature/TRAPS.md`](literature/TRAPS.md) | Live citation hazards — wrong paper, wrong author, two Zhou 2025s |
+| [`literature/steelmans/`](literature/steelmans/) | **Phase 1 hearings — all seven constructs**, written from the articles |
+| [`literature/FINDINGS.md`](literature/FINDINGS.md) | What those hearings change: one falsifiable claim, one verification passed, three cheap upgrades |
 | [`literature/cards/`](literature/cards/) | The cards themselves |
 | [`literature/REFERENCES.md`](literature/REFERENCES.md) | The abstract's citations, all fifteen verified, four flagged on substance |
 | [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival algorithmic competency scale, all twelve items, and the discrimination the items support |
