@@ -1,39 +1,24 @@
-# Handoff — thesis-first rewrite, 2026-08-18
+# Handoff — v15 panel, gap-fill research, sentence audit, 2026-08-18
 
-Live file: `chapter.md` (v14).
-Claim: [`CLAIM.md`](CLAIM.md). Outline: [`OUTLINE.md`](OUTLINE.md).
+Live file: `chapter.md` (v17).
+Claim: [`CLAIM.md`](CLAIM.md) (fused claim, supersedes the "start over" lock). Outline: [`OUTLINE.md`](OUTLINE.md) (v15, governs the current body).
 
-## Locked question
+## What happened this session
 
-What holds *Slacker* together, given that it has no protagonist and almost no one meets twice — and what does that arrangement show that later platforms run without anyone there to ask?
+v14 was fused onto a new claim (the proximity question, answered by the deferred third) and rewritten as v15 from `OUTLINE_v15`, itself built from a four-sweep angle memo (`old/archive/research/ANGLES_2026-08-18.md`) surveying the *Slacker* literature, network-narrative theory, the sociology of the third, and urban spectatorship. A five-reviewer panel (`old/archive/reviews/2026-08-18-v16/`) then read v15: film studies, social theory, platform studies, the volume editors' perspective, and style/citations. No reviewer questioned the thesis. The panel's convergent findings, film facts that needed a transcript check, missing rivals (the relay answer and Tröhler's mosaic reading), the selector's grammar, and a platform section resting on Amazon rather than a working analog, drove the v16 rewrite.
 
-## Locked thesis
+A second research pass (four deep-research sweeps, synthesized in `old/archive/research/GAPFILL_SYNTHESIS.md`) closed nearly every citation gap the panel and the outline had flagged: Tröhler's mosaic argument verified from her 2006 *montage AV* article; the platform section rebuilt on Uber's own deactivation and ratings apparatus rather than Amazon, with the EU Platform Work Directive's Article 10(5) as the counter-movement; the Simmel and Royce apparatus checked to the word against Wolff, the 1908 German, and the 1902 serialization; and the full citation pinpoint ledger (`old/archive/research/sweep8_pinpoints.md`) filled in. That pass also surfaced three corrections no reviewer caught: the "baton-passing" phrase is Małecka quoting Macor, not her own coinage; the Stone "movement of these films" quotation exists only as Columbia Scholarship Online's abstract wording, not Stone's prose, and is not quoted as his sentence; and note 16's claim that both Simmel examples recur verbatim at p. 321 is wrong, they recur in altered form. v16 absorbed all of this.
 
-A deferred third does two jobs. Austin holds strangers in reach and introduces nobody. The camera selects which person we see next. On that sidewalk a person can still be asked. Platforms keep the holding, the selecting, and the grant (price, list, refusal, no further reason). They withdraw the person who had to say those things. Simmel postponed a third that never enters a known pair. Royce refuses membership without a yes. Reich names the grant when someone still administers it. The film will not produce Gary, because that would supply the introductions this arrangement does not make.
+Finally, every body sentence of v16 (191 sentences) was audited against Maria Poulaki's "Network Films and Complex Causality" (*Screen* 55.3, 2014) as a sentence-habit model, hunting the AI-slop patterns that model does not have: fragments, staccato antithesis pairs, aphoristic snap-closers, anaphora, cleft one-liners, chiasm, stock idioms. Twenty-seven sentences were rewritten; the full ledger is `old/archive/reviews/2026-08-18-v17/SENTENCE_AUDIT_v17.md`. v17 is the result and is now the live file.
 
-## What the rewrite did
+## Word count
 
-The body was written from the outline, not patched from v13. Each section has one job. Opening states the question and the two jobs in plain English. Bordwell is a fence. Hansen templates are gone. Banned thesis-words (face, self-less, leftover, competence, "I wish to reassess") are gone.
+Body (through the Notes heading): 4,468 words. Inside the 3,000–5,000 range with room. Notes and bibliography are additional and do not count against the collection's limit, consistent with v14's accounting.
 
-## Cuts from the body
+## Still owed, author-only
 
-- Neuberger / Burt / Obstfeld / brokerage-review survey (old note 9)
-- FX / LSEG / Reuters / EBS parade (old notes 19–20)
-- Algorithmacy as a named fluency (old note 4)
-- "I am using four powers here as a technical list"
-
-Video Backpacker stayed as one sentence that earns the drivers point: you cannot rewind the allocation.
+See `AUTHOR_TASKS.md`, refreshed this session. Four items survive research and need a physical copy or the disc: Berg's daisy-chain pages (*Film Criticism* 31, 24–26), whether *Slacker* appears in Bordwell's chapter filmography, the Criterion disc's hit-and-run witnessing and final-dialogue verification, and, optionally, a page reference for the Uberland deactivation passage.
 
 ## Notes and bibliography
 
-Notes renumbered 1–21. Dropped notes whose body sentences were cut. Bibliography follows the surviving notes. Film Commission title now italicizes *Slacker*. *The Yale Law Journal* is consistent. Note 12 still withholds Criterion-disc confirmation of the hit-and-run. Amazon remains a living page with an access date and no URL. Film quotations remain subtitle-derived (note 11).
-
-## Limits not silently changed
-
-- Disc confirmation of the drop still owed.
-- Criterion reprint of the Savlov paragraph not re-opened this session.
-- Accepted abstract still uses hosting/engineering, Lofland, Möhlmann, and the training claim. This draft does not restore those labels. That is a conversation with the editors, not a silent restoration.
-
-## Word limit
-
-Body is a mid-range collection chapter, inside 3,000–5,000. The cuts are longer than the additions.
+Not renumbered this session beyond what the v16 gap-fill required. Note 16 corrected per above. Macor qtd. in Małecka now attributed correctly at its one use.
