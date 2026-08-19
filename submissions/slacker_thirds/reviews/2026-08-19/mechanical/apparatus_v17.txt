@@ -1,0 +1,14 @@
+APPARATUS — chapter.md v17
+
+  note markers in body : 39 (39 distinct)
+  notes defined        : 39
+  markers used twice   : none
+  defined, never used  : none
+  used, never defined  : none
+  first-use order is sequential: True
+
+  bibliography entries : 52
+  bib keys not found in notes or body: ['Directive (EU) 2024/2831 of the European Parliament and of the Council on improving working conditions in platform work', 'Regulation (EU) 2019/1150 of the European Parliament and of the Council on promoting fairness and transparency for business users of online intermediation services', 'Regulation (EU) 2022/2065 of the European Parliament and of the Council on a Single Market for Digital Services']
+  3-em dash continuation lines: 5
+
+  body words: 4470   em-dashes in body: 0

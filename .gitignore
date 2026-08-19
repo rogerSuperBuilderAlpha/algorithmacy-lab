@@ -41,3 +41,8 @@ org_frontier/research/backfill_cards_config.json
 
 # review scratch: raw search caches and harvest logs (refetchable, kept local)
 org_frontier/reviews/
+
+# Slacker review model texts — third-party copyright, public repo; local only.
+# Re-acquisition commands in submissions/slacker_thirds/reviews/*/PROVENANCE.md
+submissions/slacker_thirds/reviews/**/*.pdf
+submissions/slacker_thirds/reviews/**/models/model_mcloughlin.md
