@@ -48,6 +48,7 @@ the historical record and should not be restated as current.
 | [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
 | [`manuscript/PAPER.md`](manuscript/PAPER.md) | **Live draft** — full paper. Body may be revised; abs and intro may not |
 | [`manuscript/RESEARCH_PLAN.md`](manuscript/RESEARCH_PLAN.md) | Deepening plan: steelman every construct, model construct development, write the qual study to standard |
+| [`manuscript/METHODS_SKELETON.md`](manuscript/METHODS_SKELETON.md) | Methods/findings headings, citations, and the sentences we will write |
 | [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | **Locked 2026-08-19** — official abstract and introduction. Do not edit unless the author says to |
 | [`manuscript/LOCK.md`](manuscript/LOCK.md) | The lock: what it covers, what it forbids |
 | [`archive/`](archive/) | Previous twelve-section draft and its outline, frozen 2026-08-19 |

@@ -1,6 +1,6 @@
 # Sandberg, J. (2000). Understanding human competence at work: An interpretative approach. *Academy of Management Journal*, 43(1), 9-25.
 
-**Identifier:** 10.2307/1556383  ·  **Read depth:** metadata_only  ·  **Source read:** Crossref metadata (no publisher abstract deposited), verified 2026-08-18; content reconstructed from the sustained reception, including Sandberg & Pinnington (2009), which restates the position
+**Identifier:** 10.2307/1556383  ·  **Read depth:** full_text  ·  **Source read:** local PDF `../pdfs/sandberg2000.pdf` (scanned; OCR 2026-08-19). Sample confirmed: 20 optimizers interviewed from a department of 50; conceptions 6 / 10 / 4.
 **Source-tier:** primary_journal
 **Evidence basis:** citing_literature
 **Cluster:** situated-learning

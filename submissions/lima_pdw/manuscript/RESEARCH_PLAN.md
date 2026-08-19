@@ -2,8 +2,12 @@
 
 **For:** the live draft [`PAPER.md`](PAPER.md). Abstract and introduction stay locked
 ([`INTRODUCTION.md`](INTRODUCTION.md), [`LOCK.md`](LOCK.md)).
-**Written:** 19 August 2026.
-**Does not edit the locked opening.** Body sections are what this plan feeds.
+**Written:** 19 August 2026. **Updated the same day** after the acquired PDFs
+were read, and again after the body rewrite. Steelmans and models live under
+`literature/steelmans/` and `literature/models/`. Methods skeleton:
+[`METHODS_SKELETON.md`](METHODS_SKELETON.md). **Does not edit the locked opening.**
+Body sections are what this plan feeds. The 19 August rewrite is done. This
+file now states the conditions that would force a further rewrite.
 
 ---
 
@@ -18,10 +22,11 @@ The paper after the introduction has three jobs, in this order:
 
 The genre we want as a whole-paper model is a qualitative article that (a) starts from a field
 observation, (b) tries the existing constructs, (c) shows they cannot cover it, (d) names its own,
-and (e) takes that construct back into the field with a documented method. We already have three
-such papers in the library at full text. We are short the one paper that develops a *competency*
-construct from interviews, and we are short a full-text read of the one neighbour whose design
-already includes the counterpart.
+and (e) takes that construct back into the field with a documented method. Rahman, Cameron, and
+Curchod are the architecture models (full text; one-page memos still due). Sandberg (2000) is
+the competency-development model (**read**; memo written). Sutherland (2020) is the neighbour
+whose design already includes the counterpart (**read**; steelman written). The remaining
+hinge is the Zhou *APJHR* journal PDF, so items 8, 11, and 5 can be quoted as published.
 
 ---
 
@@ -37,8 +42,8 @@ jobs. Do not steal the wording.
 | **Rahman (2021), *ASQ*** | Opaque, moving ratings → Weber's iron cage cannot describe hidden shifting rules → **invisible cage** + two forms of reactivity → three years of interviews, boards, observation | Closest whole-paper model. Theory tries one named construct and shows the mismatch. Findings are a typology with conditions. Methods name site, access, every data stream, and the analytic move. | His construct is reactivity / control, not competency. He explains difference by dependence and setback — rivals we must separate, not inherit. | Full text on the shelf. Card: `rahman2021`. |
 | **Cameron (2024), *ASQ*** | Workers stay in a "bad" job → existing control / bad-job accounts miss why → **constant and confined choice** + engagement and deviance tactics → seven years of driving and interviews | How a long qualitative paper lands a coined construct with an em-dash definition, then shows two tactic families from incidents. Methods are a model of honesty about researcher position (she drove). | Construct is consent, not competency. Sample leans long-tenured. | Full text on the shelf. Card: `cameron2024`. |
 | **Curchod, Patriotta, Cohen & Neysen (2020), *ASQ*** | eBay sellers under ratings → hierarchical power theory cannot describe it → **triadic** power (platform, buyer, seller), one-way evaluation, visibility gap | How to write "this theory does not reach" with a named theory and then a structural alternative. The triad is already our discrimination. Interview-only methods at N = 77. | High-performer sample (ceiling). Power/agency, not competency. | Full text on the shelf. Card: `curchod2020`. |
-| **Sandberg (2000), *AMJ*** | Same job, different competence → rationalistic KSAO lists cannot explain it → competence as **ways of conceiving the work**, from phenomenographic interviews | **The construct-development model for a competency.** How a qualitative study *creates* a competence construct rather than applying one. | Phenomenography is not our method. Sample is twenty Volvo engineers. Card is reconstructed; numbers must be checked against the PDF. | **Acquire and read. Hinge.** Card: `sandberg2000`, `metadata_only`. |
-| **Suddaby (2010), *AMR*** | Editorial. Four parts of construct clarity: precise definition, scope conditions, semantic relations to neighbours, coherence. | **The write-up model for the algorithmacy section.** One subsection per element. | Not a study. Not qualitative. Shelf card is citing-reconstruction; get the pages. | Dissertation shelf `suddaby2010`. |
+| **Sandberg (2000), *AMJ*** | Same job, different competence → rationalistic KSAO lists cannot explain it → competence as **ways of conceiving the work**, from phenomenographic interviews | **The construct-development model for a competency.** How a qualitative study *creates* a competence construct rather than applying one. | Phenomenography is not our method. Sample is twenty Volvo engineers (6 / 10 / 4 conceptions). Do not define competency as a KSAO list and then cite him. | **Read.** Memo: `literature/models/sandberg2000.md`. |
+| **Suddaby (2010), *AMR*** | Editorial. Four parts of construct clarity: precise definition, scope conditions, semantic relations to neighbours, coherence. | **The write-up model for the algorithmacy section.** One subsection per element. | Not a study. Not qualitative. Clarity ≠ validity. | **Read.** Memo: `literature/models/suddaby2010.md`. |
 
 Those five are the core. Two more sit beside them:
 
@@ -46,10 +51,11 @@ Those five are the core. Two more sit beside them:
   → twelve items → validation). We steelman their development path so our derivation is an argument,
   not a preference. Items are already pulled in [`../literature/ZHOU_2025_INSTRUMENT.md`](../literature/ZHOU_2025_INSTRUMENT.md).
   Check the journal PDF before quoting items as final.
-- **Sutherland, Jarrahi, Dunn & Nelson (2020), *WES*** is the neighbour whose *design* already has
-  the counterpart (20 freelancers **and 19 clients**). The construct may still be worker–platform.
-  Secondary summaries name "relationship building" as a fifth literacy. **Until the PDF is read,
-  we do not know whether our sharpest discrimination survives.** Sage-blocked. Card: `sutherland2020`.
+- **Sutherland, Jarrahi, Dunn & Nelson (2020), *WES*** — **read.** Five findings
+  headings include **Building relationships**. The counterpart is in the sample and
+  in that literacy, and the literacy is a strategy for working *beside* or
+  *off* the platform. Discrimination survives. Steelman:
+  `literature/steelmans/sutherland2020.md`.
 
 ### Methods-presentation set (how to write Methods and Findings)
 
@@ -111,11 +117,11 @@ so the "channel / partner / agent" arrangement is earned.
 | # | Construct | Sources | Depth now | Acquire / do next |
 |---|---|---|---|---|
 | 1 | Algorithmic competency (scale) | Zhou, Lei, Liu, Huang & Hou (2025) *APJHR* | Items + working paper. Not journal PDF. | Journal PDF. Quote items 8 and 11 in the steelman. Map their 99-interview development against our derivation. Never write "Zhou et al. 2025" bare. |
-| 2 | Gig literacies | Sutherland et al. (2020) | Abstract only. Sage-blocked. | **Get the PDF.** Verify whether "relationship building" is their heading. Read how the 19 client interviews are used. This is the one that may already include the counterpart. |
+| 2 | Gig literacies | Sutherland et al. (2020) | **Read.** Five headings verified; relationship building is theirs. | Steelman written. Counterpart is in the sample and in that literacy; the literacy escapes the platform. |
 | 3 | Reactivity / invisible cage | Rahman (2021) | Full text. | Re-read as neighbour *and* as genre model. Five cage components vs our three operations. Who-influences is their name for not knowing which party moved the score. |
 | 4 | CMC competence | Spitzberg (2006) | Full text; item properties not re-verified. | Re-read for the measure. Then Spitzberg & Cupach (1984) — **unread**, the competence model he extends. Bunz & Montez (2015) for what the construct later acquired. |
 | 5 | AI literacy | Long & Magerko (2020) | Full text (`long2020`). | Tabulate all 17 competencies. Confirm the count: none names another person. Check whether any later *scale* of AI literacy has been used on platform workers. |
-| 6 | Human–machine communication | Guzman & Lewis (2020) | Abstract only. | Full text. Then one later empirical HMC study so we are not reviewing an agenda as if it were a finding. |
+| 6 | Human–machine communication | Guzman & Lewis (2020) | **Read.** Agenda, not a measure. Machine as partner. | Steelman written. Still useful to add one later empirical HMC study later; not a hinge. |
 | 7 | AI-mediated communication | Hancock, Naaman & Levy (2020) | Full text. | One later empirical AI-MC paper. Confirm the agent-for-the-speaker boundary still holds in use, not only in the agenda. |
 
 Do not add a new neighbour until these seven memos exist. Adjacent constructs (computational
@@ -124,16 +130,25 @@ thinking, data literacy, digital competence, Stelmaszak's organizing capability)
 
 ### Evidence standard for the constructs section of the paper
 
-The revised section should be able to say, for each construct:
+The 19 August rewrite gave each construct a **section**, not a paragraph. That is the
+standard. A later cut that collapses a hearing back to two sentences is a regression.
+
+Each section must still be able to say:
 
 - what it is, with a quoted definition;
-- what method produced it;
+- what method produced it (agenda, synthesis, scale development, fieldwork);
 - where the counterpart appears, if it does, with a page or item number;
 - the test result;
 - the inherited piece.
 
 No construct is introduced in order to be excluded from a review. Each is a boundary. The section
 argues that those boundaries cannot include the other human as a party to the competence.
+
+Order in the paper: channel (Spitzberg) → partner (Guzman & Lewis) → agent (Hancock,
+Naaman & Levy) → knowledge (Long & Magerko, then Ng as transmission) → navigation
+(Zhou, Lei, Liu, Huang & Hou) → interpretation (Rahman) → gig literacies (Sutherland
+et al.). Danger last among the neighbours, not first. Do not merge Hancock into the
+Guzman section again.
 
 ---
 
@@ -150,7 +165,7 @@ Point at it, then do the other three jobs.
 | **Definition** | Locked. Interpret, specify, keep track, so that a person can participate in coordination that runs through a system which reads both parties and commits decisions neither controls. | Do not rewrite. Gloss only if a later section needs a term the intro already defined. |
 | **Scope conditions** | The form in which a platform enrolls through an algorithm. Holds where the intermediary is opaque, adaptive, and binding on both parties. Fails (or becomes trivial) where the rule is published, static, or the parties meet without it. | Write the "does not apply" cases. Cameron and Rahman supply the conditions. A transparent, rule-published hierarchy is the clean negative case. |
 | **Semantic relations** | The seven steelmans. Algorithmacy includes the counterpart; they specify a person–system line. Zhou's AC is the nearest name-collision. | Phase 1 memos are the evidence. Predict correlations with Zhou's *Understanding* and *Leveraging* before anyone asks. |
-| **Coherence** | The three operations are required by the definition's closing clause, not collected from interviews. Literacy family: competence for a coordination, not a medium. Not a skill (rule undisclosed). Not a capability (she owns no routine). | Sandberg (2000) is the competence anchor — **after the PDF is read.** The current draft still risks the KSAO sentence he wrote the article to refute. |
+| **Coherence** | The three operations are required by the definition's closing clause, not collected from interviews. Literacy family: competence for a coordination, not a medium. Not a skill (rule undisclosed). Not a capability (she owns no routine). | Sandberg (2000) is the competence anchor — **read.** The body now takes his result (competence as conception; 6 / 10 / 4) and refuses the KSAO definition he wrote the article to refute. Watch the later scale: if it is written as attributes, drop the Sandberg citation or rewrite the instrument. |
 
 ### Development model: Sandberg (2000), then contrast Zhou
 
@@ -159,8 +174,10 @@ conceptions of the work, competence is the conception. Zhou shows how a competen
 *invented from interviews* and then validated. We do a third thing: derive the operations from
 what the form requires, then take them to the field as sensitizing concepts that can fail.
 
-The algorithmacy section must say that difference in one paragraph, after both sources are read
-in full. Until Sandberg is read, do not rebuild the definition around him.
+The algorithmacy section now states that difference. Do not rebuild the locked definition
+around Sandberg. Do not write his empty pattern (Suddaby p. 347): “algorithmacy is the
+competency that enables people to coordinate through algorithms in complex, dynamic
+platform contexts.” Antecedents stay out of the definition sentence.
 
 ### What "fully developed" means before the qualitative section starts
 
@@ -235,36 +252,115 @@ incidents, then a condition that distinguishes them. At our stage:
 Do not report themes that were not in the transcripts. Do not promote the three operations from
 sensitizing concepts to "we found three themes."
 
-### Work product before rewriting the empirical section
-
-A methods skeleton, heading by heading, with the citation that licenses each heading and the
-sentence we will actually write. File: `manuscript/METHODS_SKELETON.md`. Write it after the
-three ASQ methods sections have been outlined in the genre memos.
+The methods skeleton is written (`METHODS_SKELETON.md`). The 19 August body rewrite
+used it. Further responses still have to be added as incidents, not as themes.
 
 ---
 
-## Sequence
+## Targeted conditions (after the full-text reads)
 
-Do not rewrite `PAPER.md` until the memos exist. The locked introduction already states the
-argument. The body has to become the evidence.
+These are checkable. A later memo, a later interview, or a later sentence in
+`PAPER.md` that does not speak to one of them is off-plan.
 
-**1. Genre memos (architecture).** Rahman, Cameron, Curchod — methods and findings only, one
-page each. Then Suddaby pages. Then Sandberg, once the PDF is in.
+### Construct hearings — what would move the discrimination
 
-**2. Acquire.** In this order: Sutherland 2020; Sandberg 2000; Zhou journal PDF; Spitzberg &
-Cupach 1984; Guzman & Lewis 2020 full text; Suddaby 2010 pages if the shelf PDF is missing.
+| Condition | Pass (keep the current line) | Fail (rewrite the paper) |
+|---|---|---|
+| **Sutherland, relationship building** | The literacy is rapport / repeat work / off-platform exit (pp. 468–470). Clients are verification, not a second pole. Keep “beside, not through.” | A reread shows they define gig literacy *as* coordinating with a client *through* Upwork’s binding determinations. Then they are a predecessor, not a neighbour. |
+| **Sutherland vs Uber** | Their own contrast (p. 470): Upwork lets the worker choose and talk; Uber assigns. Hult’s private vote is nearer Uber than Upwork. Use Upwork only as edge. | We recruit Upwork-like cases as *confirming* sites. Then we have changed the scope. |
+| **Zhou items 8 and 11** | Customer = rating source or efficiency belief. Counterpart remains an outcome (customer-oriented service behaviour). | Journal PDF puts a capacity toward the other person *inside* AC. Then the name-collision is real and algorithmacy has to be repositioned. |
+| **Zhou item 5 (Remediating)** | WeChat / other tools = a repair crew for the system. Other humans appear beside AM, not through the match. The body now says this. | Journal PDF rewrites item 5 as coordinating with the matched customer. Same failure as items 8 and 11. |
+| **Zhou dimensions vs our operations** | Predict, before anyone fields both scales: *Understanding* ~ interpret; *Leveraging* ~ specify intent; *Embracing* has no counterpart in algorithmacy; *Remediating* is still person–system. Implicit acquisition and unevenness have none in theirs. | We field both scales and then invent the predicted correlations after seeing them. |
+| **Zhou site vs Hult** | Their items assume dispatch, ratings appeals, WeChat groups, hot spots. Hult has a gate and a private vote, not a queue. Say so; it justifies a new instrument without disparaging theirs. | We treat their twelve items as transferable to Hult without adaptation notes. |
+| **Rahman, who-influences** | Uncertainty about client vs platform is a failure of interpretation (fifth cage component), not a second competence. | Field incidents show “who moved the score” as an operation we must add. Then the three operations are incomplete. |
+| **Rahman / Cameron difference-makers** | Dependence, setback (Rahman) and consent / confined choice (Cameron) stay *rival explanations* of uneven outcomes. The qualitative work has to separate them from algorithmacy. | We explain uneven fluency by dependence or by “they chose to stay.” Then we have inherited their construct. |
+| **Curchod triad** | Platform–buyer–seller is a *power* structure. Steal the triad as a discrimination; do not rename it as a competency. | We write algorithmacy as a power position. Then we have left competency. |
+| **Guzman & Lewis** | Agenda, three parts (functional / relational / metaphysical), machine as partner, no competence measure (p. 73). | A later HMC *measure* includes reaching a second human through the machine. Then HMC is no longer only a dyad. |
+| **Hancock, Naaman & Levy** | AI-MC = agent that modifies or transmits the speaker’s message. Counterpart is an addressee; competence sits with the speaker or her delegate. | A later empirical AI-MC study locates competence in a binding intermediary that reads both sides. Then they occupy our position. |
+| **Spitzberg (2006)** | Channel competence: two humans remain the coordinators; the medium does not rank or commit. Lean on this until the 1984 book is open. | A reread shows CMC competence already includes a deciding intermediary. Then the channel row is wrong. |
+| **Long & Magerko, count of 17** | None of the seventeen names another person. Confirmed on the full text. They are a literature synthesis, so an eighteenth could be added. | A later *scale* of AI literacy, used on platform workers, includes a counterpart-through-system item. Then AI literacy is no longer only an object-of-knowledge neighbour. |
+| **Sandberg, conception 3** | Customer orients engine work (4 of 20). Not our counterpart. N = 20 from a department of 50; attributes do not distinguish groups. | We cite him as if he already put the mediated counterpart inside competence. Cut that sentence. |
+| **Sandberg vs a later scale** | Qualitative arm treats competence as conception. Scale, if fielded, must still track conception, not a KSAO list. | The three-wave instrument is written as attributes and we still cite Sandberg as the anchor. One of those two has to go. |
+| **Suddaby writing trap** | Definition stays in the locked introduction. No antecedents stuffed into a later restatement (his “leader who transforms organizations” pattern, p. 347). Clarity ≠ validity: the algorithmacy section stays conceptual. | A body sentence redefines algorithmacy as “the competency that enables people to coordinate through algorithms in complex, dynamic contexts.” Cut it. |
 
-**3. Steelmans.** Zhou, Sutherland, Rahman, Spitzberg (2006+1984), Long & Magerko, Guzman &
-Lewis, Hancock. Same protocol. No new neighbours until these are done.
+### Scope conditions — what the next site or case must be
 
-**4. Algorithmacy section rewrite** against Suddaby's four elements, using the steelmans as
-the semantic-relations evidence. Sandberg after he is read.
+From Suddaby (space / time / values) and from Sutherland’s Upwork/Uber contrast:
 
-**5. Methods skeleton**, then rewrite Early Empirical Work to that skeleton. Findings stay
-early and incident-based.
+- **In scope.** The intermediary is opaque, adaptive, and commits a decision neither party controls. Hult’s private vote and a ride-hail dispatch both qualify. Ask, in every new interview: *could you take this relation off the system and still get the outcome?* If yes, the case is closer to Sutherland than to the definition.
+- **Edge.** Upwork-like markets: match and score, client can leave. Contrast only. Not a confirming site.
+- **Out of scope.** Published static rule; parties who meet and revise terms. Do not interview those cases as if they were algorithmacy.
+- **Hard case we already have.** Hult participants build the systems they submit to. Fit is argued from the gate, the private vote, and the moving rule — not from employment status. A new site that is *more* transparent than Hult does not help the opacity claim.
 
-**6. One pass for repetition.** The gap is stated in the introduction. Later sections point
-at it.
+### Qualitative file — what the next responses must supply
+
+Pratt (2009: 856–858): there is no magic N; “enough” is a function of the
+question; show incidents in the body; justify the sample theoretically. For
+this paper the question is how beginners work out an unexplained outcome,
+whether they treat anyone else as in the situation, and what they do when it
+seems wrong. **Enough for Lima** = each of the four blocks has at least one
+incident, *or* we record the empty blocks as an instrument finding. We do not
+add interviews to raise a count.
+
+| Block | Have | Need next | Counts as the construct’s negative case |
+|---|---|---|---|
+| Working out what it wanted | One Hult student-protocol incident: no contest, no channel | A second occasion where she *did* reconstruct a counterpart from the outcome | — |
+| Getting work across | Feedback pasted into another AI | An occasion of packing a submission *for an unseen evaluator*, in her words | Delegation to a tool, if it is the only move, stays “not algorithmacy” |
+| Noticing change | Nothing usable | One dated change she did or did not notice, with what she did next | — |
+| When it seemed wrong | Nothing usable | Whom she approached, and what happened | She gets a real answer from the gate by skill alone, no forum. Then the missing-position claim is wrong. |
+
+**Coding rule (Timmermans & Tavory 2012; Bowen 2006).** Do not code a new
+response onto interpret / specify / keep track in the first cycle. Sensitizing
+concepts start inquiry; they do not sort the file.
+
+**Surprises that would be findings, not errors.**
+
+- A later file carves a **fourth operation**. Keep it (abduction).
+- The counterpart appears in a block we treated as person–system. Keep it.
+- “Who moved the score” will not collapse into interpretation. Then add it.
+- Three files in a row only talk about the tool. Then the site may be teaching
+  AI literacy (Long & Magerko’s teaching-context risk), and Hult is the wrong
+  confirming site until the protocol forces the counterpart question.
+
+**Write-up rules that would fail a methods reviewer.**
+
+- A Gioia data-structure figure (Mees-Buss, Welch & Piekkari 2022: decline the
+  ladder; Gioia, Corley & Hamilton 2013 licenses first-cycle *in vivo* only).
+- “Saturation was reached” without Saunders et al.’s (2018) rule.
+- Depositing raw responses because a reviewer asked for transparency (Pratt,
+  Kaplan & Whittington 2020: trustworthiness ≠ a public transcript dump).
+- Tracy’s eight criteria printed as a checklist (Tracy 2010 warns against that;
+  keep them as the standard we will accept if asked).
+- Themes that were not in the transcripts; or “we found three themes”
+  corresponding to the three operations.
+
+**Sample statement due by submission (Pratt 2009).** Who has responded, from
+which protocol (student / operations / self), at what point in the course.
+The body now names the first incident as student-protocol / Hult. Later
+incidents get the same tags. Do not invent a second case.
+
+### Still to acquire (only what still bites)
+
+1. **Zhou journal PDF** — items 5, 8, and 11 vs the working paper. Condition above.
+2. **Spitzberg & Cupach (1984)** — we cite them for competence vs performance and
+   have not opened the book. Until then, lean on Spitzberg (2006), which we have.
+3. **One later empirical HMC study** and **one later empirical AI-MC study** —
+   so Guzman & Lewis and Hancock, Naaman & Levy are not only agendas. Not hinges.
+4. Rahman / Cameron / Curchod **architecture memos** (methods and findings
+   layout only). The papers are read; the one-pagers are not written.
+5. **Long & Magerko table** — seventeen competencies listed, none naming a
+   person. The count is confirmed; the table is still useful as an appendix
+   for a reviewer who asks.
+
+### Sequence now
+
+The 19 August body rewrite is done. Next work is not another theory pass.
+
+1. Field until the two empty blocks have incidents, or record that they stayed empty.
+2. Get the Zhou journal PDF and check items 5, 8, and 11.
+3. If both scales are fielded, register the predicted correlations *before* looking.
+4. Write the three ASQ architecture memos if a methods reviewer is the next audience.
+5. Open Spitzberg & Cupach only if a competence-lineage reviewer asks.
 
 ---
 

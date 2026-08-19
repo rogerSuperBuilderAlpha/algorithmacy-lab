@@ -1,6 +1,6 @@
 # Guzman, A. L., & Lewis, S. C. (2020). Artificial intelligence and communication: A Human–Machine Communication research agenda. *New Media & Society*, 22(1), 70–86.
 
-**Identifier:** 10.1177/1461444819858691  ·  **Read depth:** abstract_only  ·  **Source read:** the abstract in full, taken from the Northern Illinois University institutional record (huskiecommons.lib.niu.edu/niubib/204/) and verified word-for-word against the Crossref record on 2026-08-19. The NIU record carries no deposited manuscript; SAGE full text is paywalled and no repository copy was located. Note the issue date discrepancy already handled in `design/REF_VERIFY.md`: Crossref records 2019 (online first), the volume and issue are 2020.
+**Identifier:** 10.1177/1461444819858691  ·  **Read depth:** full_text  ·  **Source read:** local PDF `../pdfs/guzmanlewis2020.pdf` (2026-08-19). Steelman: `../steelmans/guzmanlewis2020.md`.
 **Source-tier:** primary_journal
 **Relation last checked:** Paper 2, draft of 2026-07-28
 **Evidence basis:** publisher_summary

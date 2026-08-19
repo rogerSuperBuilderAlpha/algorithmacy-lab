@@ -15,6 +15,9 @@ paper wins until the author changes it.
 | [`COVERAGE.md`](COVERAGE.md) | Paper 2's **44** cited works → Lima card, dissertation card, depth, status |
 | [`TRAPS.md`](TRAPS.md) | Live citation hazards (wrong paper, wrong author, two Zhou 2025s, withdrawn work) |
 | [`INDEX.md`](INDEX.md) | Generated listing, grouped by cluster then read depth |
+| [`steelmans/`](steelmans/) | Full-text hearings of extant constructs |
+| [`models/`](models/) | Architecture memos for construct development and genre-match papers |
+| [`pdfs/`](pdfs/) | Local publisher PDFs. Gitignored. See `pdfs/README.md` |
 | [`_build_index.py`](_build_index.py) | Regenerates `INDEX.md` from `cards/*.md` |
 
 The eleven dissertation-format cards that closed Paper 2's library gap sit one level up, in

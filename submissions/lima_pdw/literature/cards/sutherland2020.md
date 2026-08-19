@@ -1,6 +1,6 @@
 # Sutherland, W., Jarrahi, M. H., Dunn, M., & Nelson, S. B. (2020). Work precarity and gig literacies in online freelancing. *Work, Employment and Society*, 34(3), 457–475.
 
-**Identifier:** 10.1177/0950017019886511  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref record (verified: Sutherland, Will; Jarrahi, Mohammad Hossein; Dunn, Michael; Nelson, Sarah Beth; *Work, Employment and Society* 34(3), 457–475; online 21 Nov 2019, print June 2020) and the published abstract via Semantic Scholar.
+**Identifier:** 10.1177/0950017019886511  ·  **Read depth:** full_text  ·  **Source read:** local PDF `../pdfs/sutherland2020.pdf` (2026-08-19). Five findings headings verified: reputation, self-presentation, productivity, transaction risk, building relationships. Steelman: `../steelmans/sutherland2020.md`.
 **Source-tier:** primary_journal
 **Evidence basis:** publisher_summary
 **Cluster:** algorithmic-competence-rivals
