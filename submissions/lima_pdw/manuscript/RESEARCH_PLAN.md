@@ -120,7 +120,7 @@ so the "channel / partner / agent" arrangement is earned.
 | 2 | Gig literacies | Sutherland et al. (2020) | **Read.** Five headings verified; relationship building is theirs. | Steelman written. Counterpart is in the sample and in that literacy; the literacy escapes the platform. |
 | 3 | Reactivity / invisible cage | Rahman (2021) | **Read.** Five components verified verbatim. | Steelman written. He interviewed **18 clients**, and the platform told them their rating would be "kept anonymous and never shared directly with the freelancer" — our structural claim, documented. Architecture memo (Phase 2) still outstanding. |
 | 4 | CMC competence | Spitzberg (2006) | **Read.** Measure outcome verified. | Steelman written, and it carries the co-interactant lines that answer the live review's finding 1 without the 1984 book. Spitzberg & Cupach (1984) still unread; no longer gating. Bunz & Montez (2015) for what the construct later acquired. |
-| 5 | AI literacy | Long & Magerko (2020) | **Partial.** ACM blocked 19 Aug. | Steelman written from the card plus two verified secondaries. **The count as stated is falsified**: competency 10 is *Human Role in AI*, so the claim narrows to "none names another person as a party to the interaction." Still to get: the ACM table with all 17 descriptions. Check whether any later *scale* of AI literacy has been used on platform workers. |
+| 5 | AI literacy | Long & Magerko (2020) | **Read**, camera-ready via the Internet Archive. | Steelman written from the article; all 17 transcribed, grouped 4/2/9/1/1. **The count as stated is falsified**: competency 10 is *Human Role in AI* — humans as the system's makers — so the claim narrows to "none names another person as a party to the interaction." Cite by competency number. Check whether any later *scale* of AI literacy has been used on platform workers. |
 | 6 | Human–machine communication | Guzman & Lewis (2020) | **Read.** Agenda, not a measure. Machine as partner. | Steelman written. Still useful to add one later empirical HMC study later; not a hinge. |
 | 7 | AI-mediated communication | Hancock, Naaman & Levy (2020) | **Read.** Both definitions located. | Steelman written. The body's formal definition — "mediated communication between people… computational agent" — is stronger for us than the abstract's, which is what §3 currently quotes. One later empirical AI-MC paper still wanted. |
 
@@ -354,10 +354,10 @@ incidents get the same tags. Do not invent a second case.
    `../literature/models/{rahman2021,cameron2024,curchod2020}.md`. All five genre-match memos now
    exist. They turned up prior art on the triad in *ASQ* — Curchod's triadic relationships and
    Cameron's algorithmic labor triangle — which bears on §3's close. See `../literature/FINDINGS.md`.
-5. **Long & Magerko table** — seventeen competencies with their descriptions, from ACM.
-   **Now the only real gap Phase 1 leaves.** The count is *not* confirmed as previously
-   written: competency 10 is *Human Role in AI*. Get the table, fix the wording in
-   `cards/long2020.md` and §3, and keep it as an appendix for a reviewer who asks.
+5. ~~**Long & Magerko table**~~ — **done 2026-08-19** from the camera-ready on the Internet
+   Archive. All seventeen are in `../literature/steelmans/longmagerko2020.md`, verbatim and
+   grouped, and `cards/long2020.md` is corrected. Still useful as an appendix for a reviewer
+   who asks. §3's sentence is the author's to narrow.
 
 ### Sequence now
 
