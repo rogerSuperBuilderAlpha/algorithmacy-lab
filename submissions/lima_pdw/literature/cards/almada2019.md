@@ -1,0 +1,17 @@
+# Almada, M. (2019). Human intervention in automated decision-making: Toward the construction of contestable systems. In *Proceedings of the Seventeenth International Conference on Artificial Intelligence and Law (ICAIL '19)* (pp. 2–11). ACM.
+
+**Identifier:** 10.1145/3322640.3326699 (preprint SSRN 3264189)  ·  **Read depth:** full_text  ·  **Source read:** local PDF in the dissertation library (`research/library/pdfs/almada2019.pdf`); text layer read in full
+**Source-tier:** conference
+**Evidence basis:** direct_read
+**Cluster:** accountability-contestation
+
+## What it argues
+Almada starts from the right to human intervention that GDPR Article 22 confers on subjects of decisions based solely on automated processing, and argues that the right cannot do the work assigned to it. Two problem classes. The first is scope: it is unsettled whether intervention covers only decisions with no human involvement, or every decision effectively shaped by automated processing, and the narrow reading empties the right whenever a nominal human sits in the loop. The second is practical: even with the scope settled, a data subject typically lacks the information needed to formulate a challenge, and the human reviewer who receives it brings biases of her own, including deference to the system's output. His alternative is *contestability by design*. Contestation cannot be a post-hoc review bolted onto a finished system; the means to contest have to exist at each stage of the system's lifecycle, engineered into the pipeline so that intervention is meaningful rather than token. Contestability, on his account, is an architectural property of the system, and a right exercised against a system not built for it will be exercised into nothing.
+
+## Relation to the argument
+Almada is the clearest legal-technical statement of the asymmetry §5 asserts. A right to contest is held by the subject; whether it produces anything is a property of what the other party built. The subject can be maximally informed, maximally articulate and maximally persistent, and if the system has no lifecycle affordance for intervention, the right terminates in a queue. That is §5's "she cannot, by becoming better at anything, cause the appeal to be received," stated by a lawyer about a statutory right rather than by an organisation theorist about a platform.
+
+He also supplies the strongest available support for §6's specific wording. §6 names "designed appeal" as an institutional supply route, and Almada is the source for why the word *designed* is carrying the weight: an appeal that is not designed into the system is not an appeal. And his information-asymmetry problem — the subject cannot formulate a challenge because she does not know what was decided or why — is the exact point where §7's asymmetric interpretation gets recruited to do work it cannot finish. She can reconstruct the rule; that gets her a better-formed challenge into the same dead channel.
+
+## Caution
+This is a short conference paper, not a full treatment, and the constructive half — what contestability by design actually requires — is programmatic; Alfrink and colleagues develop it further and are the better cite for the framework. Its legal frame is EU data protection, and the argument runs on Article 22's specific text, so the transfer to a US or Caribbean setting, or to a peer-review gate with no data-protection standing at all, is the paper's. Almada writes about decision subjects generally, not workers, and nothing here bears on worker competency.

@@ -1,0 +1,17 @@
+# Selbst, A. D., & Powles, J. (2017). Meaningful information and the right to explanation. *International Data Privacy Law*, 7(4), 233–242.
+
+**Identifier:** 10.1093/idpl/ipx022  ·  **Read depth:** full_text  ·  **Source read:** OA PDF in the dissertation library (`research/library/pdfs/selbstpowles2017.pdf`), the Oxford Academic open-access article, full 10 pp.
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** accountability-contestation
+
+## What it argues
+Selbst and Powles answer Wachter and colleagues and argue that the debate has been framed wrongly. Whether the phrase "right to explanation" appears in the binding text is, they say, the wrong question; the right question is what the articles that do bind actually require. Articles 13 through 15 oblige a controller to provide "meaningful information about the logic involved" in automated decision-making, together with its significance and envisaged consequences, and Article 22 gives a subject the right to contest such a decision and to obtain human intervention. Read together and read purposively — as EU law requires, in light of the Regulation's own aims — the information obligation must be interpreted functionally: information is *meaningful* when it enables the data subject to exercise the rights the Regulation grants her, which include contesting the decision. On that reading the content of the right is set by what a person would need in order to challenge, not by what a controller finds convenient to disclose, and the distinction between system-level and decision-level explanation loses its force, because system-level information that does not support a challenge is not meaningful information. They also argue that fixating on the recital's non-binding status obscures that Article 22's contest right is binding and needs content to be exercisable.
+
+## Relation to the argument
+The functional test — information is meaningful when it enables the subject to act on her rights — is the most transferable idea in this cluster for the paper's purposes, and §6 should adopt it as its grading criterion. It gives a principled way to say that the Zoom session and the Discord in the live interview case were channels but not forums: judged by whether they enabled the participant to contest, they supplied nothing, and their existence is not the test.
+
+The article also supplies a second-order point §5 can use. Selbst and Powles derive the *explanation* obligation from the *contestation* right, making explanation instrumental to contestation rather than the other way round. That inverts a common reading in which understanding the system is the primary good and appeal is a bonus, and it aligns with the paper's division: the two conditions a worker can supply privately are, on this account, in service of a condition she cannot, which is why competency alone terminates in a private theory that nobody is obliged to hear.
+
+## Caution
+This is one side of a live legal dispute; Wachter, Mittelstadt and Floridi hold the other, and Edwards and Veale argue that both overstate what an explanation would achieve. The purposive-interpretation argument is a claim about how EU courts *should* read the Regulation, not a report of how they have — check subsequent guidance and CJEU case law before asserting the current position. It is a short reply piece, not a full treatment. The domain is EU data protection and the subject is a data subject, not a worker; the transfer is the paper's.

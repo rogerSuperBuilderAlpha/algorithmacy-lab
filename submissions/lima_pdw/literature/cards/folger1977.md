@@ -1,0 +1,17 @@
+# Folger, R. (1977). Distributive and procedural justice: Combined impact of "voice" and improvement on experienced inequity. *Journal of Personality and Social Psychology*, 35(2), 108–119.
+
+**Identifier:** 10.1037/0022-3514.35.2.108  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref metadata (verified: Folger; *JPSP* 35(2):108–119, February 1977) plus the published abstract and the canonical secondary account in `colquitt2001meta`; the article itself is paywalled with no OA deposit
+**Source-tier:** primary_journal
+**Evidence basis:** citing_literature
+**Cluster:** accountability-contestation
+
+## What it argues
+Folger ran the experiment that named the voice effect and, in the same design, found its limit. Participants working under an unfair reward allocation were given or denied the opportunity to express their views about how rewards should be distributed, crossed with whether the allocation was subsequently improved. Voice reduced experienced inequity — participants who had been able to state a view found the same outcome less unfair than those who had not — and the effect held independently of whether the outcome changed. Folger's second finding is the one the literature underuses: voice without improvement, under some conditions, produced *more* resentment rather than less. Being invited to speak and then finding the allocation unchanged read as an insult rather than a courtesy, and he coined *frustration effect* for it. The conditions that determine which way it goes concern legitimacy and expectation: whether the participant believed the voice was genuinely capable of influencing the decision.
+
+## Relation to the argument
+Folger is the single best organisational-psychology citation for §5, and it says something sharper than either the paper or the voice literature usually reports. The fair-process effect is real, and it is conditional on the speaker believing that speaking could matter. Where that belief fails, the offer of voice makes things worse. A channel that exists and cannot influence anything is therefore not neutral — it is a source of grievance — which is a strong reason to keep §6's institutional column graded rather than binary.
+
+The frustration effect is also the best available account of the paper's live interview case read charitably to the participant. She had two channels, judged neither appropriate, and declined to use them. Folger's finding gives that decision a rationale rather than a deficit: using a channel that will not influence the outcome carries a cost, and declining to use it is a way of avoiding the frustration effect. That reading changes what §11 should look for — not whether participants contest, but whether they anticipated futility and priced it.
+
+## Caution
+Read at abstract depth; the design details, the conditions producing the frustration effect, and all statistics need the original before citation. It is a 1977 laboratory experiment with student participants and a small reward manipulation, and the frustration effect has had a mixed replication history — later work finds it conditional and sometimes fails to obtain it. The dependent variable is *experienced inequity*, a perception, not a behaviour and not an outcome; nothing here shows that voice changes what happens. And the effect is about distributive fairness perceptions in an allocation, not about accountability in Bovens's sense.

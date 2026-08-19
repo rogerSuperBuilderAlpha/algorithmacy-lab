@@ -1,0 +1,15 @@
+# Mulgan, R. (2000). "Accountability": An ever-expanding concept? *Public Administration*, 78(3), 555–573.
+
+**Identifier:** 10.1111/1467-9299.00218  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref metadata (verified: Mulgan, *Public Administration* 78(3):555–573, 2000); argument reconstructed from the published abstract and the article's standing in the accountability literature
+**Source-tier:** primary_journal
+**Evidence basis:** citing_literature
+**Cluster:** accountability-contestation
+
+## What it argues
+Mulgan defends a core sense of accountability against its own expansion. The core, which he treats as the original and the still-useful one, is external: an account is rendered by one party to another party outside itself, that second party holds authority to interrogate and to demand rectification, and the relation carries a right to impose consequences. Around that core he identifies extensions the literature has absorbed — accountability as internal responsibility, as responsiveness to public preferences, as dialogue with stakeholders — and argues that each drops one of the core's constitutive features. Internal responsibility drops externality. Responsiveness drops the right to demand. Dialogue drops the authority to impose. Mulgan does not simply reject the extensions; he argues that they name related but distinct phenomena, and that using one word for all of them destroys the concept's analytic purchase in the very setting where the word earns its keep, which is locating who can actually be called upon.
+
+## Relation to the argument
+Mulgan is the paper's best defence against a charge of definitional gerrymandering. A reviewer who objects that "the worker does have accountability — she takes responsibility for her work, she is responsive to the ratings, she engages with the interface" is using exactly the extensions Mulgan isolates, and Mulgan supplies the published argument for why those are not the core sense. His three constitutive features map cleanly onto what §5 says a worker cannot manufacture: externality (a second party), the right to demand (standing), and the authority to impose consequences. A worker acting alone supplies none of the three, and Mulgan's article makes that a claim about the concept's centre rather than a narrow stipulation by this author. He also gives §6 a sharper grading criterion than "a forum exists": a channel that permits dialogue but confers no right to demand rectification is, on his account, an extension rather than the thing — which is the precise diagnosis of the Zoom-and-Discord case in the first participant interview.
+
+## Caution
+Reconstructed from the abstract and the citing literature; the enumeration of extensions above tracks the article's standard rendering rather than pinpointed pages, so do not quote it. Mulgan's brief is conservative and prescriptive, and later authors — Bovens among them — treat some of what he calls extension as legitimate widening. Present him as the strongest statement of the narrow reading, not as consensus. The setting is Westminster public administration; the platform application belongs to this paper.

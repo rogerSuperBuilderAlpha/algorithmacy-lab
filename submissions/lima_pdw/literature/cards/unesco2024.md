@@ -1,0 +1,30 @@
+# UNESCO. (2024). *AI competency framework for teachers*. Paris: United Nations Educational, Scientific and Cultural Organization.
+
+**Identifier:** 10.54675/ZJTE2084 (ISBN 978-92-3-100707-1)  ·  **Read depth:** extended_preview  ·  **Source read:** Crossref record (verified: title *AI competency framework for teachers*, publisher UNESCO, 2024, type edited-book, no personal authors deposited) plus the full CC-BY-SA PDF, read locally — copyright page confirms "Published in 2024 by the United Nations Educational, Scientific and Cultural Organization, 7, place de Fontenoy, 75352 Paris 07 SP, France; © UNESCO 2024; ISBN: 978-92-3-100707-1".
+**Source-tier:** grey_literature
+**Evidence basis:** direct_read
+**Cluster:** algorithmic-competence-rivals
+
+## What it argues
+
+UNESCO launched two AI competency frameworks in September 2024, for teachers and for school students, and the teachers' framework (AI CFT) is the more developed of the pair. It crosses **five aspects of competency** — human-centred mindset, ethics of AI, AI foundations and applications, AI pedagogy, AI for professional development — with **three progression levels** — Acquire, Deepen, Create — producing **fifteen competency blocks**. Each block carries curricular goals for teacher-training programmes and learning objectives phrased as things teachers can do. The stated purposes are governmental: to shape national and institutional frameworks, to help teacher educators design courses, and to establish a benchmarking matrix for assessing teachers' AI competencies.
+
+The companion **AI competency framework for students** (UNESCO, 2024; unesdoc ark:/48223/pf0000391105) uses four dimensions — human-centred mindset, ethics of AI, AI techniques and applications, AI system design — across three levels — Understand, Apply, Create — for twelve competencies.
+
+The teachers' framework is more interesting than its education framing suggests, because its first aspect is built out of exactly the vocabulary the paper's derivation uses. Competency 1.1 is **human agency**; 1.2 is **human accountability**; 1.3 is **social responsibility**. Competency 1.2 asks teachers to understand "that human accountability in human–AI decision loops is a legal obligation," to "apply local and/or international regulatory frameworks to examine whether the design or use of a specific AI tool diminishes human accountability," and to defend teachers' accountability and autonomy against usurpation by AI, with curricular goals covering the absence of users' accountability and the unexplainable behaviour of current tools.
+
+## Relation to the argument
+
+Neighbour, with the most interesting near-miss in the grey literature — and one the manuscript should confront rather than skip, because "accountability" is one of algorithmacy's three withholdings and UNESCO uses the word as a competency title.
+
+The near-miss resolves the moment you ask who holds the accountability. UNESCO's answer is: **the teacher, and she must not lose it.** The framework's whole normative programme is to keep the human in the loop — to ensure "human accountability in human–AI decision loops," to protect human agency, to insist the teacher's central role "is not replicable" and that her accountabilities "cannot be usurped by AI." Algorithmacy begins where that programme has already failed. Its premise is a system that *commits determinations binding on both parties*, meaning accountability has already been withheld and no regulatory framework the worker can invoke will restore it. UNESCO writes for a world in which a professional retains authority over a tool. The paper writes for a world in which a party has no authority over the intermediary that rules on her.
+
+The student is the closest thing to a counterpart anywhere in this framework, and she does not occupy the position. She appears as the object of the teacher's professional duty — risks AI poses to student learning, protections for students with special needs — not as a second party whom the same system is simultaneously interpreting and about whom it will issue a joint determination. The relation stays teacher→tool, with students downstream as beneficiaries or victims. Three positions require that the intermediary be *reading both parties at once*, and no competency block in either framework describes that.
+
+On the other discriminations the framework is unambiguous. It is a training and benchmarking instrument, so acquisition is explicit by design — Acquire, Deepen, Create is a curriculum ladder. Its unit is the teacher in a role, which is a point in its favour, but the role is professionally licensed and institutionally protected, which is the opposite of the platform worker's position. And it is a policy artefact, produced by expert drafting for governments, which makes it inventory of the most consensual kind.
+
+Use it in §9 to show that even a framework organised around agency and accountability — the paper's own withholding-terms — produces a two-position construct, and that borrowing UNESCO's vocabulary would not borrow its structure.
+
+## Caution
+
+Grey literature: no peer review, no empirical basis, no validation, no instrument. The competency blocks are drafted proposals for national adaptation and nothing in the document reports whether any teacher anywhere holds them. The teachers' framework is fully verified — DOI, ISBN and copyright page all read directly from the CC-BY-SA PDF at unesco-asp.dk, and the Crossref record confirms publisher and year, though it deposits no author list. **The students' framework is verified only to the level of UNESCO's own web page and the unesdoc ark identifier**; I could not retrieve its copyright page (unesdoc returned HTTP 403), so its ISBN and DOI are unconfirmed and the twelve-competency, four-dimension structure comes from UNESCO's summary page rather than the document. Do not cite a page number or an ISBN for the students' framework without opening it. Both frameworks concern school education; nothing in either concerns work, employment, or algorithmic management, so any transfer to the manuscript's site must be argued rather than assumed.

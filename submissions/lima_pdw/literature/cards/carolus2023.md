@@ -1,0 +1,28 @@
+# Carolus, A., Koch, M. J., Straka, S., Latoschik, M. E., & Wienrich, C. (2023). MAILS — Meta AI literacy scale: Development and testing of an AI literacy questionnaire based on well-founded competency models and psychological change- and meta-competencies. *Computers in Human Behavior: Artificial Humans*, 1(2), 100014.
+
+**Identifier:** 10.1016/j.chbah.2023.100014  ·  **Read depth:** extended_preview  ·  **Source read:** Crossref record (verified: Carolus, Astrid; Koch, Martin J.; Straka, Samantha; Latoschik, Marc Erich; Wienrich, Carolin; *Computers in Human Behavior: Artificial Humans* 1(2), article 100014, August 2023) plus full text of the authors' preprint of the same study, arXiv:2302.09319, read locally.
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** algorithmic-competence-rivals
+
+## What it argues
+
+Carolus and colleagues built the most-used self-report AI literacy instrument in the psychological literature, and they built it by populating Ng et al.'s four aspects with items. They generated 72 items across "Know & understand AI," "Use & apply AI," "Evaluate & create AI" and "AI ethics," added 12 items for psychological competencies they judged necessary for people "working on and with" AI — self-efficacy in learning, self-efficacy in problem solving, persuasion literacy, emotion regulation — and after expert review kept 68 for analysis. Data came from 300 German-speaking adults recruited on Prolific at an average £11.23/hour. The published scale runs 34 items.
+
+The confirmatory factor analysis did not confirm the borrowed structure and the authors say so. Three items intended for "Know & understand AI" split off into a separate factor, **Detect AI**. **Create AI** failed to load on the second-order AI Literacy factor at all and now stands outside it. The intended second-order factor "AI Self-management" split into **AI Self-efficacy** (learning, problem solving) and **AI Self-competency** (persuasion literacy, emotion regulation). Model fit for the revised structure was good (CFI = .926, TLI = .920, RMSEA = .057, 95% CI [.051, .063], SRMR = .079), though the χ² test remained significant, χ²(513) = 886.87, p < .001. AI Self-efficacy and AI Self-competency correlated very highly with AI Literacy — high enough that the authors flag it — which is the first sign that a self-report AI literacy score is partly a confidence score.
+
+The paper's own justification for MAILS is selection and diagnosis: "valid measurement of AI literacy is important for the selection of personnel, identification of shortages in skill and knowledge, evaluation of interventions." That is an HR use case, and it names the party who will hold the instrument.
+
+## Relation to the argument
+
+Neighbour with a sharp discrimination, and the strongest exhibit in the cluster for the *competency-versus-skill* point.
+
+No human counterpart appears in any factor or item. I searched the full preprint text for colleague, co-worker, team, customer, counterpart, another person and other people: the only hits are citations to other researchers' work. Every item is of the form "I can…" or "I know…" with AI as the object. The most relational factor in the instrument, **AI persuasion literacy**, would be the place a second party could enter — persuasion implies a persuader — but it does not: it measures the respondent's ability to notice when an AI system is influencing her, so the persuading agent is the system, not a person on the other side of it. MAILS is a two-position construct with the second position occupied by software.
+
+The competency/skill discrimination is where MAILS is most useful. The authors call these "competency models" and route them through psychological change- and meta-competencies, which is the closest anything in this literature gets to the paper's sense of competency as durable and held by a person rather than a routine. But the acquisition mechanism is instruction: MAILS exists to evaluate interventions, and the paper's stated worry is skill shortage. It also fails implicit acquisition explicitly, since a self-report scale can only capture what a respondent can articulate about her own capacity — and the whole point of algorithmacy's implicit acquisition property is that the rule is undisclosed, so the capacity outruns what the holder can say about it. A worker with high algorithmacy might score badly on MAILS precisely because she learned by participating rather than by being taught the vocabulary.
+
+The Create AI result is worth a sentence in §9 on its own. When the authors tested whether the ability to build AI belongs to AI literacy, the data said no. That is a construct discovering its own boundary empirically. Algorithmacy claims a boundary derived rather than discovered, from what the coordination form withholds — a cleaner warrant, and one MAILS cannot match.
+
+## Caution
+
+N = 300 German-speaking Prolific adults, one country, one language, one online panel; no occupational sampling and no workplace criterion despite the personnel-selection framing. Self-report throughout, and the authors' own finding of very high correlations between AI Literacy and the two self-efficacy/self-competency factors means MAILS scores are contaminated by generalised confidence — Markus et al. built AICOS specifically to escape this. The factor structure reported here is the *modified* one; the pre-registered conceptual model failed. I read the arXiv preprint, not the version of record: item wordings, the exact 34-item selection, and any changes made in review should be checked against the CHBAH article before quoting an item. Do not cite MAILS for anything about work performance; nothing in the study links scores to a task outcome.
