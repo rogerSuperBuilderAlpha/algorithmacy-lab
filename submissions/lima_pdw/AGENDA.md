@@ -58,12 +58,9 @@ can settle them.
     will like it; the manuscript has to earn it. What is it about GauntleTT specifically — compressed
     time, identical curriculum, a population new to AI-mediated coordination — that a US bootcamp
     would not supply?
-11. **Positioning within the dissertation.** ~~The manuscript is Paper 3~~ — **wrong, corrected
-    2026-08-18. It is Paper 2.** It lives at `dissertation/current/paper2/`, `BUILD_LOG.md` opens
-    "Dissertation Paper 2," §2 is titled "What Paper 1 Settled," and §11 hands off to the Hult study,
-    which is Paper 3. The error was a leftover from this arm's first morning, written before anyone
-    here knew the manuscript existed. The real question stands: how much of Paper 1 must travel with
-    it for a standalone read, given a PDW audience that reads the manuscript cold?
+11. **Positioning within the dissertation.** The manuscript is Paper 3 of a three-paper sequence.
+    How much of Papers 1 and 2 must travel with it for a standalone read, given a PDW audience that
+    reads the manuscript cold?
 
 ## Added by the manuscript review, 2026-08-18
 
@@ -94,3 +91,13 @@ Full findings and the proposed line-level fixes:
 15. **Register.** Zero first person in 8,391 words, against a house style that requires it and names
     Rahman, Cameron and Suddaby as the exemplars. "This paper" carries the agent slot 31 times. Six
     conversions at the analytic moves would carry it; the review lists them.
+
+## Added by the library pass, 2026-08-19
+
+16. ~~**The literature sweep is stranded in a worktree.**~~ **Closed.** Three hundred and
+    eighty-seven cards are in [`literature/cards/`](literature/cards/), with
+    [`literature/COVERAGE.md`](literature/COVERAGE.md) mapping Paper 2's 44 and
+    [`literature/TRAPS.md`](literature/TRAPS.md) holding the citation hazards. The remaining
+    read is Sutherland et al. (2020), still Sage-blocked — not a missing-folder problem.
+    Sandberg (2000) is still unread in full and still the §8 hinge. See
+    [`literature/README.md`](literature/README.md).

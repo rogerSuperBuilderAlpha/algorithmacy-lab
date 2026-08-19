@@ -1,3 +1,5 @@
+> **Junior slug.** Same work as [`klawitter2018`](klawitter2018.md) (fuller review edition).
+
 # Klawitter, E., & Hargittai, E. (2018). "It's like learning a whole other language": The role of algorithmic skills in the curation of creative goods. *International Journal of Communication*, 12, 3490–3510.
 
 **Identifier:** No DOI — the *International Journal of Communication* does not register Crossref DOIs. Verified via OpenAlex (Klawitter, Erin; Hargittai, Eszter; 2018); a repository record exists at 10.5167/uzh-168021, which is the University of Zurich deposit identifier and **not** an article DOI. Open access at ijoc.org.  ·  **Read depth:** abstract_only  ·  **Source read:** OpenAlex bibliographic record; Crossref returns no record for the article. Volume and page range are as commonly cited and were not confirmable against a DOI registry.

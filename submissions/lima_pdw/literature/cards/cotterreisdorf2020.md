@@ -1,3 +1,5 @@
+> **Junior slug.** Same work as [`cotter2020`](cotter2020.md) (fuller review edition).
+
 # Cotter, K., & Reisdorf, B. C. (2020). Algorithmic knowledge gaps: A new dimension of (digital) inequality. *International Journal of Communication*, 14, 745–765.
 
 **Identifier:** No DOI — the *International Journal of Communication* does not register Crossref DOIs. Verified via OpenAlex (Cotter, Kelley; Reisdorf, Bianca C.; *International Journal of Communication* 14:745–765, 2020); open access at ijoc.org.  ·  **Read depth:** abstract_only  ·  **Source read:** OpenAlex bibliographic record; Crossref returns no record for this article.

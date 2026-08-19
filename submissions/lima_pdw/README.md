@@ -46,11 +46,18 @@ historical record and should not be restated anywhere as current.
 | [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
 | [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) | What the quantitative→qualitative swap changes and what it leaves standing, measured against the accepted text |
 | [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of `PAPER.md` — findings ranked, register audit, verified citation ledger |
+| [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
 | [`interview/`](interview/) | **The live instrument.** Self-service interview harness, three protocols, anonymous intake. See below |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
 | [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note; row 1 closed 2026-08-18 |
 | [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | **Superseded** — records the manuscript's twelve-section architecture and where this arm's material lands in it |
+| [`library/`](library/) | **Install archive.** Eleven dissertation-format cards, copied onto the private shelf 2026-08-19. Frozen. |
+| [`literature/`](literature/) | **Working library.** Start at [`literature/README.md`](literature/README.md) |
+| [`literature/COVERAGE.md`](literature/COVERAGE.md) | Paper 2's 44 cited works → Lima card, dissertation card, depth, status |
+| [`literature/INDEX.md`](literature/INDEX.md) | Generated listing of the sweep cards, by cluster then read depth |
+| [`literature/TRAPS.md`](literature/TRAPS.md) | Live citation hazards — wrong paper, wrong author, two Zhou 2025s |
+| [`literature/cards/`](literature/cards/) | The cards themselves |
 | [`literature/REFERENCES.md`](literature/REFERENCES.md) | The abstract's citations, all fifteen verified, four flagged on substance |
 | [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival algorithmic competency scale, all twelve items, and the discrimination the items support |
 | [`working/`](working/) | Scratch; not for citation |
@@ -109,6 +116,10 @@ without touching the author's prose.
   scale, and it has to narrow to the counterpart axis. The review also finds that **§1 cites nothing**
   for the variance premise, that the arm had filed **the wrong Zhou 2025 paper**, and that the register
   runs zero first person in 8,391 words against the house style's own rule.
+- **The literature sweep is in the live tree as of 2026-08-19.** Three hundred and eighty-seven cards
+  under [`literature/cards/`](literature/cards/), indexed, with Paper 2's 44 mapped in
+  [`literature/COVERAGE.md`](literature/COVERAGE.md). The remaining read is Sutherland et al. (2020),
+  Sage-blocked — not a missing-folder problem.
 
 **Registered 2026-08-14; the place is confirmed.**
 
