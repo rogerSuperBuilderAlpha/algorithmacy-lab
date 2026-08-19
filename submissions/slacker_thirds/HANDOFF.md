@@ -1,24 +1,93 @@
-# Handoff — v15 panel, gap-fill research, sentence audit, 2026-08-18
+# Handoff — v18, the panel programme and both library rounds applied, 2026-08-19
 
-Live file: `chapter.md` (v17).
-Claim: [`CLAIM.md`](CLAIM.md) (fused claim, supersedes the "start over" lock). Outline: [`OUTLINE.md`](OUTLINE.md) (v15, governs the current body).
+Live file: `chapter.md` (v18). Body **4,665 words** against a 5,000 ceiling.
+Claim: [`CLAIM.md`](CLAIM.md) — unchanged. No seat in the eight-seat panel questioned the thesis, and
+nothing below touches it.
 
-## What happened this session
+## What v18 does
 
-v14 was fused onto a new claim (the proximity question, answered by the deferred third) and rewritten as v15 from `OUTLINE_v15`, itself built from a four-sweep angle memo (`old/archive/research/ANGLES_2026-08-18.md`) surveying the *Slacker* literature, network-narrative theory, the sociology of the third, and urban spectatorship. A five-reviewer panel (`old/archive/reviews/2026-08-18-v16/`) then read v15: film studies, social theory, platform studies, the volume editors' perspective, and style/citations. No reviewer questioned the thesis. The panel's convergent findings, film facts that needed a transcript check, missing rivals (the relay answer and Tröhler's mosaic reading), the selector's grammar, and a platform section resting on Amazon rather than a working analog, drove the v16 rewrite.
+v17 stood unrevised through three separate reviews: the eight-seat panel of 19 August
+(`reviews/2026-08-19/`), and the two rounds of domain sweeps in [`library/`](library/). v18 applies all
+three at once, because they turned out to interlock rather than compete.
 
-A second research pass (four deep-research sweeps, synthesized in `old/archive/research/GAPFILL_SYNTHESIS.md`) closed nearly every citation gap the panel and the outline had flagged: Tröhler's mosaic argument verified from her 2006 *montage AV* article; the platform section rebuilt on Uber's own deactivation and ratings apparatus rather than Amazon, with the EU Platform Work Directive's Article 10(5) as the counter-movement; the Simmel and Royce apparatus checked to the word against Wolff, the 1908 German, and the 1902 serialization; and the full citation pinpoint ledger (`old/archive/research/sweep8_pinpoints.md`) filled in. That pass also surfaced three corrections no reviewer caught: the "baton-passing" phrase is Małecka quoting Macor, not her own coinage; the Stone "movement of these films" quotation exists only as Columbia Scholarship Online's abstract wording, not Stone's prose, and is not quoted as his sentence; and note 16's claim that both Simmel examples recur verbatim at p. 321 is wrong, they recur in altered form. v16 absorbed all of this.
+### The panel's mandatory three
 
-Finally, every body sentence of v16 (191 sentences) was audited against Maria Poulaki's "Network Films and Complex Causality" (*Screen* 55.3, 2014) as a sentence-habit model, hunting the AI-slop patterns that model does not have: fragments, staccato antithesis pairs, aphoristic snap-closers, anaphora, cleft one-liners, chiasm, stock idioms. Twenty-seven sentences were rewritten; the full ledger is `old/archive/reviews/2026-08-18-v17/SENTENCE_AUDIT_v17.md`. v17 is the result and is now the live file.
+**M1 — the "same gesture" sentence.** The introduction equated a holding-side refusal with a grant-side
+act, which the chapter's own three-column scheme forbids. It now claims what the chapter proves: "the
+doorman's unexplained list and the platform's unexplained deactivation are one act, thirty-five years
+apart, with nobody left to pronounce it." The date is corrected too — every anchor gives thirty-five
+years or fewer.
 
-## Word count
+**M2 — the Steve door scene, misreported three times.** The transcript (1350–1371) shows the brag
+happening at the van, not the door; "Three dollars" quoted as the cover price when the guest list does
+not cover him; no payment on screen; his own party going in; and "Couldn't get in." The grant was
+refused while priced entry stayed open, which is *stronger* for the Reich reading, because the commodity
+stayed available exactly where the grant failed. Body, conclusion, and note 25 all corrected; the
+question of whether money changes hands off-dialogue is now stated in note 25 as a disc check.
 
-Body (through the Notes heading): 4,468 words. Inside the 3,000–5,000 range with room. Notes and bibliography are additional and do not count against the collection's limit, consistent with v14's accounting.
+**M3 — prior art on a page already cited.** Rosenblat and Stark at 3771 — the page note 33 uses —
+names the vacancy outright: "there is no managerial correspondent empowered with the role of 'foreman'
+to mediate drivers' frustrations with the company." Quoted in note 33 at zero body words, with the
+narrowing stated: they name a missing foreman rather than a third, and they have no 1990, no Simmel, no
+door.
+
+### The convergent findings, and the collisions
+
+C1 note 36's retired "cut as selection" is gone. C2's uncashed promise ("ends by supplying") is cashed
+where it lands. C3's twice-landed thesis is fixed and the title concept now appears in the introduction.
+C4's two installed defects are out — the only agentless passive in the chapter, and the transfer property
+wrongly given to the grant. C5's four overstated film claims are corrected. C6's silent truncation of
+Simmel is restored: note 19 now carries *"insbesondere wo es sich um ausgedehnte Kreise handelt,"* the
+city-scale clause the argument wants. X1 and X2 are adopted as the synthesis adjudicated them — seat 07's
+verb, seat 06's dash.
+
+### What the library rounds added
+
+**Round 2, the film sweep, produced M3's twin in the chapter's own field.** Seung-hoon Jeong had already
+named the camera-agent — *Panoptikum* 26 (2021), 144, "the real agent of networking on the ground," and
+"the camera's hesitation about whom to follow between different characters whose paths cross" — one page
+after naming *Slacker* a network narrative, in the article note 10 cited for Berg's page range and
+nothing else. The introduction now credits him and draws the line the chapter can hold: **Jeong's camera
+makes links; the one at issue here picks one passerby from several and never returns.** A claim that
+survives a named rival is worth more than a claim that had no rivals because nobody looked.
+
+Round 2 also closed two things free. Note 25 now carries Soldani at 78–79, who noticed the guest list and
+the admission stamp as a pair — peer-reviewed corroboration of the door reading from outside the
+author's own viewing. And Jeong 144 reads "(Berg 2006, 24–26)" verbatim, so note 10's corroboration is
+verified even though the Berg pages themselves are still unread.
+
+**Round 1's law finding reversed a sentence.** The chapter said Reich's demand "remains a hope appended
+to the description." It does not: Brennan wrote it into constitutional law six years later. The body now
+says so and lands on the sharper claim — *public largess got its doorman; the club door never had to
+acquire one.* Note 28 carries *Goldberg* and *Roth*, and note 34 carries GDPR art. 22(3) and California's
+2020 appeals requirement, which makes the survey in note 32 evidence of a **failed** remedy rather than
+of an unregulated state of nature.
+
+## Mechanical state
+
+- **Apparatus:** 39 markers, 39 notes, no orphans either direction, sequential first use.
+- **Dialogue:** all twenty-plus quoted lines re-verified against `sources/transcript.md`.
+- **`check_bans.py`:** no verbatim bans, 0 rate tells over budget.
+- **`check_film.py`:** PASS.
+- **Bibliography:** 55 entries; the film moved under its own **Filmography** head, and the opening
+  entries reordered (Ajunwa → Amazon → Austin Film Commission). Four legal sources added.
+
+**On the slop question, which is this project's own definition.** The v17 repair pass made the chapter
+*more uniform* — ten merges, zero splits, sentence-length CV 0.695 → 0.589, em-dashes to zero. v18
+reverses that: **CV 0.589 → 0.79**, em-dashes restored to twelve load-bearing sites (3.2/1k, inside the
+corpus band, every one a gloss-weld or a qualification-then-reveal). The semicolon rate drifted up to
+8.2/1k mid-edit — the same failure mode, installed by my own additions — and eight conversions to periods
+brought it to **6.4/1k**, under the corpus maximum, which also bought back short sentences. The lesson
+stands and was applied to this pass: **audit a repair pass for what it installed.**
 
 ## Still owed, author-only
 
-See `AUTHOR_TASKS.md`, refreshed this session. Four items survive research and need a physical copy or the disc: Berg's daisy-chain pages (*Film Criticism* 31, 24–26), whether *Slacker* appears in Bordwell's chapter filmography, the Criterion disc's hit-and-run witnessing and final-dialogue verification, and, optionally, a page reference for the Uberland deactivation passage.
+See [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md). The disc, the reply to the editors with the disclosure
+paragraph and replacement abstract seat 04 drafted, the Bloomsbury AI-policy answer, Berg pp. 24–26, the
+Bordwell filmography, and the read-aloud — which has now not been done since two rounds of edits, and
+matters more than it did.
 
-## Notes and bibliography
-
-Not renumbered this session beyond what the v16 gap-fill required. Note 16 corrected per above. Macor qtd. in Małecka now attributed correctly at its one use.
+One ruling only the author can make, unchanged from the panel: **"holds … and introduces nobody"** lands
+seven times, four paragraph-final. Seat 07 will not rule on whether that is a signature or drift, and
+neither will I. If it is a refrain, license it and choose its placements; if it is drift, two
+word-negative cuts prune it.
