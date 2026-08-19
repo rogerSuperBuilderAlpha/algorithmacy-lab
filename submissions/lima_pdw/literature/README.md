@@ -109,7 +109,7 @@ Seven constructs, seven memos, in `steelmans/`. All seven exist as of 2026-08-19
 | 2 | Gig literacies | `sutherland2020.md` | `pdfs/sutherland2020.pdf` |
 | 3 | Reactivity / invisible cage | `rahman2021.md` | Author-deposited accepted manuscript, dissertation shelf |
 | 4 | CMC competence | `spitzberg2006.md` | Oxford Academic full text |
-| 5 | AI literacy | `longmagerko2020.md` | **Partial** — ACM blocked; see the memo's own note |
+| 5 | AI literacy | `longmagerko2020.md` | **Camera-ready full text**, via the Internet Archive |
 | 6 | Human–machine communication | `guzmanlewis2020.md` | `pdfs/guzmanlewis2020.pdf` |
 | 7 | AI-mediated communication | `hancock2020.md` | Oxford Academic full text |
 
@@ -126,4 +126,5 @@ Five genre-match papers, five memos, in `models/`. All five exist as of 2026-08-
 | Suddaby (2010), *AMR* 35(3) | `suddaby2010.md` | The four elements of construct clarity, as section jobs |
 
 What both phases changed for the manuscript is collected in [`FINDINGS.md`](FINDINGS.md).
-One acquisition is still open: the ACM competency table for Long and Magerko.
+All seven hearings are now written from the article. What remains are page anchors for three sources
+read from HTML or a camera-ready, and the Spitzberg & Cupach (1984) monograph.

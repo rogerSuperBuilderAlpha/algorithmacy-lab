@@ -13,9 +13,24 @@ architecture memos in [`models/`](models/). The plan that asked for both is
 Role in AI**. A reviewer with the table finds it immediately, and the sentence is absolute enough that
 finding it is enough. The claim survives narrowed, and the narrowing is stronger than the original:
 *no competency names another person as a party to the interaction*, and the one competency that names
-humans at all names them as the system's designers and supervisors. `cards/long2020.md` carries the
-same absolute sentence and should be narrowed with it. Details and the outstanding acquisition:
-[`steelmans/longmagerko2020.md`](steelmans/longmagerko2020.md).
+humans at all names them as the system's designers and supervisors. `cards/long2020.md` carried the
+same absolute sentence and is narrowed with it.
+
+**Verified against the camera-ready** (Internet Archive; ACM refused every route and the authors' own
+copy no longer resolves). Competency 10 reads: "Recognize that humans play an important role in
+**programming, choosing models, and fine-tuning AI systems**." Every instance of "collaborate" and
+"communicate" in the paper points at AI or sits in the *design considerations*, where peer
+collaboration among learners appears as Design Consideration 11 — **other humans are in the pedagogy
+and never in the competencies**. The grouping is 4 / 2 / 9 / 1 / 1 across the five questions. All
+seventeen are transcribed at [`steelmans/longmagerko2020.md`](steelmans/longmagerko2020.md); cite by
+competency number, not page.
+
+Two things the full text hands us rather than costs us. They place AI literacy in the **literacy
+family** exactly as the locked introduction does — literacy, then digital, computational, scientific,
+data — so the parallel is not ours alone and saying so pre-empts a reviewer. And their **selection
+rule** (does it reflect the definition, is it supported by numerous sources, is it useful to designers)
+admits a competency on the literature's agreement, which makes §4's claim to *derive* rather than
+collect sharpest against their rule rather than against their count.
 
 ## One verification passed, and the plan's condition is discharged
 
@@ -144,12 +159,12 @@ this repository.
 
 ## Still to acquire
 
-1. **The ACM competency table** for Long and Magerko — all seventeen with descriptions, and the exact
-   wording of *Human Role in AI*. Cloudflare refused every route on 19 August. This is the only real
-   gap Phase 1 leaves.
+1. ~~**The ACM competency table** for Long and Magerko~~ — **closed 2026-08-19** from the camera-ready
+   on the Internet Archive. All seventeen are transcribed. Phase 1 leaves no gap.
 2. **Spitzberg & Cupach (1984)**, the book. No longer gating §4 (see above), still the honest source for
    anything attributed to it directly.
-3. **Page anchors** for the Spitzberg (2006) and Hancock et al. (2020) quotations. Both were read from
-   publisher HTML; the PDFs sit behind Cloudflare. One library session fixes both.
+3. **Page anchors** for Spitzberg (2006), Hancock et al. (2020) and Long & Magerko (2020). The first
+   two were read from publisher HTML and the third from a camera-ready. One library session fixes all
+   three. Long and Magerko can be cited by competency number in the meantime.
 4. **One later empirical HMC study and one later empirical AI-MC study**, so those two are not only
    agendas. Not hinges, per the plan.
