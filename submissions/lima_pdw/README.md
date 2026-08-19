@@ -53,7 +53,8 @@ the historical record and should not be restated as current.
 | [`manuscript/LOCK.md`](manuscript/LOCK.md) | The lock: what it covers, what it forbids |
 | [`archive/`](archive/) | Previous twelve-section draft and its outline, frozen 2026-08-19 |
 | [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) | What the quantitative→qualitative swap changes and what it leaves standing, measured against the accepted text |
-| [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of `PAPER.md` — findings ranked, register audit, verified citation ledger |
+| [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of the **archived** twelve-section draft — findings ranked, register audit, verified citation ledger |
+| [`reviews/`](reviews/) | Reviews of the **live** draft. Current: [`REVIEW_2026-08-19.md`](reviews/REVIEW_2026-08-19.md) |
 | [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
 | [`interview/`](interview/) | **The live instrument.** Self-service interview harness, three protocols, anonymous intake. See below |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
