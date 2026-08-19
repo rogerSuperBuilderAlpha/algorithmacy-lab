@@ -1,0 +1,19 @@
+# Lind, E. A., & Tyler, T. R. (1988). *The social psychology of procedural justice*. Plenum Press.
+
+**Identifier:** 10.1007/978-1-4899-2115-4 (ISBN 0-306-42726-3)  ·  **Read depth:** abstract_only  ·  **Source read:** the book's argument as reported in sources read in full — `colquitt2001dim` and `colquitt2001meta` in the dissertation library, which rely on it as the field-defining synthesis — plus Crossref chapter-level records confirming the volume's structure and the canonical secondary account. The monograph itself was not obtained
+**Source-tier:** book
+**Evidence basis:** citing_literature
+**Cluster:** accountability-contestation
+
+## What it argues
+Lind and Tyler consolidate procedural-justice research into a field and, in doing so, displace its founding explanation. Thibaut and Walker had explained the value of process control instrumentally: voice is worth having because, across repeated encounters, it improves outcomes. Lind and Tyler assemble evidence that instrumentality cannot account for the findings — people value fair procedures where no future outcome is at stake, where they have already lost, and where the procedure demonstrably cannot help them. Their alternative is the *group-value model*: procedures carry information about a person's standing in a group and about whether the authority regards her as a full member deserving of respect. Neutrality of the decision-maker, trustworthiness of her motives, and evidence of standing are what people read from a procedure, and they matter because group membership matters. The book also extends procedural justice from courtrooms into organisations, politics and policing, and it establishes the finding that procedural fairness drives acceptance of unfavourable decisions and legitimacy of authorities.
+
+## Relation to the argument
+The group-value model is the strongest theoretical bridge between organisational justice and the standing problem the paper inherits from the companion review, and no one has drawn it. Lind and Tyler's claim is that what a procedure communicates is *standing* — whether the authority treats you as a party whose position matters. §5 says co-optation withholds accountability because the worker holds no standing to demand justification. Those are the same object approached from opposite directions, and the paper should say so: procedural justice research spent two decades establishing that people read standing off procedures, and the paper is describing an arrangement that communicates its absence accurately.
+
+It also explains why supplying a channel without standing backfires, which the paper's live interview case and Vaccaro's null both display. On the group-value account, an appeal that returns a templated non-answer is not a neutral failure; it is a message about the appellant's position, and it is received as one.
+
+The book's central finding — that procedural fairness produces acceptance of unfavourable outcomes and legitimacy for authorities — should make the paper careful in §6. An institutional route that improves perceived fairness without transferring standing manufactures legitimacy, and the paper's own §8 warning about rising competency applies equally to rising procedural-justice scores.
+
+## Caution
+Not read in the original; reconstructed from Colquitt's reliance on it and the canonical account, so quote nothing. The group-value model was later reformulated by the same authors as the relational model (Tyler & Lind 1992) and then absorbed into fairness-heuristic theory, so cite the 1988 volume for the displacement of instrumentality and the later work for the developed model. Its settings are courts, police and workplaces with visible authorities; a group-value account requires a *group* the person could belong to, which is the condition co-optation removes — that mismatch is the interesting point and must be argued, not assumed.

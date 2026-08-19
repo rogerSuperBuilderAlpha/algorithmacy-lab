@@ -1,0 +1,24 @@
+# Scolari, C. A., Guerrero-Pico, M., Piña, M., & Establés, M.-J. (2026). Beyond the easy gig: Platform work literacies among location-based on-demand workers in Spain. *Convergence: The International Journal of Research into New Media Technologies*.
+
+**Identifier:** 10.1177/13548565261437437  ·  **Read depth:** abstract_only  ·  **Source read:** full published abstract via Semantic Scholar; authors, title and venue verified against Crossref (no volume, issue or page range assigned as of retrieval)
+**Source-tier:** primary_journal
+**Evidence basis:** publisher_summary
+**Cluster:** algorithmic-competence-rivals
+
+## What it argues
+
+Scolari and colleagues report a four-year ethnographic study of platform labour in Spain, spanning food delivery, transportation, cleaning, caregiving and accommodation. Their target is the "low-skill" label that clings to location-based gig work. Against it they document a constellation of competences that workers build through informal learning rather than instruction, across six areas: technology use, content creation, resource management, service delivery, **social management**, and understanding of platform and legal frameworks. The finding they press hardest is that the constellation extends *beyond* digital and algorithmic competences — the skills that let a courier or a cleaner survive on a platform are not exhausted by knowing the app or reading the algorithm.
+
+The conceptual proposal is the term itself. The authors call for broader analytical frameworks to conceptualise and investigate **platform work literacies**, positioning the phrase as a successor to gig literacies with a wider empirical base — five service sectors rather than one freelancing platform, and location-based rather than online work. Their method is ethnographic across the four years, so the competence areas are grounded in observation and worker accounts rather than in a survey instrument, and the paper offers a framework rather than a scale.
+
+## Relation to the argument
+
+**Rival on the name, neighbour on the construct, and the most recent thing in the field.** Published in 2026, this is the newest claim to have named the competence platform work demands, and a reviewer who tracks the literacy literature will have seen it. It also weakens any framing that treats gig literacies as the field's last word: the lineage runs Jarrahi & Sutherland 2019 → Sutherland et al. 2020 → Scolari et al. 2026, and it is still moving.
+
+Two discriminations survive, and one of them needs care. The safe one is scope and derivation. Platform work literacies is a deliberately *broad* inventory — an argument that gig work is skilled, made by cataloguing everything workers do — which is the opposite of algorithmacy's method of deriving a small number of facets from what the form withholds. A framework that adds "understanding of legal frameworks" and "content creation" to the same list as "technology use" is answering the question *how much do these workers know*, not *what does this coordination form demand*. The one needing care is **social management**. That area plainly concerns other people — customers, clients, care recipients, peers — and a reviewer could read it as the counterpart position appearing in a rival construct. The answer is the same one that works against gig literacies, and it should be made the same way: social management in their account is a competence exercised *alongside* the platform, in face-to-face service encounters that the app schedules but does not mediate, whereas algorithmacy concerns coordination that runs *through* an intermediary committing determinations neither party endorsed. A cleaner talking to a householder is not coordinating through an algorithm; she is doing a job the algorithm dispatched.
+
+The paper is also a resource. Its insistence on informal learning is direct support for algorithmacy's implicit-acquisition property, from an independent research team, in a different national setting, across five sectors.
+
+## Caution
+
+Ethnographic and Spanish; the six competence areas are analytic categories from fieldwork, not validated dimensions, and no item pool or reliability exists to compare against. Read at abstract depth only — the six areas are named in the abstract but their definitions, and in particular what "social management" covers, were not confirmed against the article text. **Read the full text before the manuscript leans on the social-management discrimination**, because that discrimination is where a reviewer will push. Crossref carries no volume, issue or page range for this article as of retrieval; cite it as online-first and do not invent locators. Note also that Convergence is a media and communication venue, not an organisation-studies one, so an OS/OT audience may not know it — which is a reason to cite it, not a reason to skip it.

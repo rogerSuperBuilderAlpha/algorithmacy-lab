@@ -1,0 +1,17 @@
+# Morrison, E. W. (2014). Employee voice and silence. *Annual Review of Organizational Psychology and Organizational Behavior*, 1(1), 173–197.
+
+**Identifier:** 10.1146/annurev-orgpsych-031413-091328  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref-verified metadata (Morrison; *ARORGPSYCH* 1(1):173–197, 2014) and the OpenAlex abstract; the full review was not read
+**Source-tier:** primary_journal
+**Evidence basis:** publisher_summary
+**Cluster:** accountability-contestation
+
+## What it argues
+Morrison consolidates two decades of voice and silence research into one framework and sorts the field's disagreements. Voice is defined as discretionary communication of ideas, suggestions or concerns intended to improve organisational functioning, and she distinguishes it from complaint, from whistle-blowing and from formal grievance filing, each of which has its own literature and its own predictors. Silence is not the absence of voice but a parallel choice with its own antecedents. The framework organises predictors at three levels — individual dispositions and beliefs, the immediate supervisor and workgroup, and organisational structures and climate — and her repeated finding is that the middle and upper levels dominate: the supervisor's openness and the perceived safety and efficacy of speaking predict voice better than personality does. She treats efficacy expectancy, the belief that speaking will actually change something, as one of the two proximal determinants alongside safety, and she notes that the literature has studied safety far more than efficacy. The review closes on gaps, including the near-absence of work on voice outside standard employment and on what happens *after* voice is raised.
+
+## Relation to the argument
+This is the review to cite when a reviewer asks what the paper's accountability claim looks like from organisational behaviour, and it delivers two things. First, it establishes that the field's own conclusion is structural: what predicts speaking up is the arrangement and the listener, not the speaker's capacity. That is §5's claim in a literature that has spent twenty years trying to find the individual-level effect. Second, its efficacy/safety pair maps onto the two ways a platform channel can be dead, and the paper's live interview case is an efficacy case rather than a safety case — the participant was not afraid, she judged the channel wrong for the purpose. Morrison's observation that efficacy is the understudied half is an opening the §11 study can claim.
+
+Her boundary work is also useful and slightly awkward for the paper. She insists voice is *promotive* — aimed at improving the organisation — and separates it from grievance and appeal, which are aimed at redress for the speaker. §5's accountability condition is about the second, so the paper should cite Morrison for the structural finding and be careful not to import the voice construct wholesale as if it were the same thing.
+
+## Caution
+Read at abstract depth; do not quote or attribute specific effect sizes. It is a review of research conducted almost entirely inside standard employment with an identifiable supervisor, and Morrison herself names non-standard work as a gap — a point worth quoting once the original is pulled, since it licenses the paper's extension rather than merely permitting it. The promotive definition of voice excludes grievance and appeal, so do not use "voice research shows" to support a claim about contestation without noting the distinction.

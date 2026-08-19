@@ -1,0 +1,17 @@
+# Kougiannou, N. K., & Mendonça, P. (2021). Breaking the managerial silencing of worker voice in platform capitalism: The rise of a food courier network. *British Journal of Management*, 32(3), 744–759.
+
+**Identifier:** 10.1111/1467-8551.12505  ·  **Read depth:** full_text  ·  **Source read:** local PDF in the dissertation library (`research/library/pdfs/kougiannou2021.pdf`), the published open BJM version
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** accountability-contestation
+
+## What it argues
+Kougiannou and Mendonça study food couriers in the UK and ask how voice emerges where management has designed it out. Their starting observation is that the platform silences voice structurally rather than by suppression: couriers are classified as self-employed, so no consultation obligation attaches; there is no workplace where they assemble; communication runs through an app that carries instructions outward and nothing back; and the support channel returns scripted replies. The authors trace how a courier network nonetheless formed — through informal gathering points, social media groups, and the shared experience of pay-structure changes imposed without notice — and how it moved from mutual aid to collective claim-making, eventually to industrial action and to engagement with a union. Their analytical contribution is to show the sequence: silencing produces not silence but a *displacement* of voice outside the arrangement, into channels the platform does not control, and the displaced voice becomes collective precisely because no individual channel exists. They are also clear about the limits — the network achieved recognition of a grievance, not a forum, and the platform continued to refuse a bargaining relation.
+
+## Relation to the argument
+This is the empirical case for §6's claim that the institutional route can be built from below in the paper's own population, and it is the closest thing to a test of the division. Individual voice was unavailable, and what emerged was not more skilful individual voice but an organisation. The paper's division predicts exactly that: where the individual route cannot supply the condition, what supplies it, if anything, is institutional — and the workers reinvented the institution rather than improving their private technique.
+
+The article's limit finding is equally useful and should be quoted in §6. The network achieved visibility and disruption without obtaining a forum, because the platform was under no obligation to receive a claim from it. That distinguishes two things §6 currently merges: creating a body that can speak, and creating an obligation to answer. The first is achievable by workers; the second requires the counterparty or the state, which is why statutory review sits in the institutional column beside worker forums rather than being a duplicate of them.
+
+## Caution
+A single case study of one courier network in one country over a bounded period; it establishes a process, not a general pattern, and food-delivery couriers are place-based and able to assemble, which remote and dispersed workers are not — the mechanism may not transfer to the populations Rahman and Wood study. The frame is employment relations and worker voice, not competency; the collective capacity documented is explicitly not an individual attribute. Outcomes were partial, and the article should not be cited as showing that collective action produces accountability.

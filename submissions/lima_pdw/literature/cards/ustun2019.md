@@ -1,0 +1,19 @@
+# Ustun, B., Spangher, A., & Liu, Y. (2019). Actionable recourse in linear classification. In *Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT\* '19)* (pp. 10–19). ACM.
+
+**Identifier:** 10.1145/3287560.3287566  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref metadata (verified: Ustun, Spangher & Liu; FAT\* '19, pp. 10–19); argument reconstructed from the published abstract and the paper's standing as the source of the actionable-recourse formulation
+**Source-tier:** conference
+**Evidence basis:** publisher_summary
+**Cluster:** accountability-contestation
+
+## What it argues
+Ustun, Spangher and Liu define *recourse* as the ability of a person to change the decision a model makes about them through actions they can actually take, and they make it a computable property. Their formulation separates features a person can act on — income, credit utilisation, application details — from features she cannot, such as age, marital status or a past event, and asks whether any feasible combination of changes to the actionable features flips the classifier's output. If none exists, the person has no recourse: the model has decided about her and she cannot alter the decision by anything she does. The paper supplies integer-programming tools to certify recourse for a linear classifier and to generate a minimal set of changes for an individual who has it, and it audits real credit-scoring models to show that recourse is often absent or unreasonably expensive, and that it degrades under model updating and under changes in the population. Their framing point is that recourse is a property of the *model as deployed*, not of the person: whether an individual has it is decided by the choice of features and the shape of the decision boundary, which the modeller controls.
+
+## Relation to the argument
+Ustun and colleagues supply a formal proof of §5's asymmetry in the narrowest possible case, and it is worth having precisely because it is narrow. Take a decision subject who is maximally informed, maximally motivated and maximally competent at reading the system. Whether her effort can change the outcome is still fully determined by how someone else built the classifier. There are subjects for whom no amount of skill or effort produces a different result, and the paper can say so with a certificate rather than an argument.
+
+The card must also register what this shows about §6's boundary. Actionable recourse is the *predictability* side of the division doing its best work: it is exactly the case where a subject who understands what the system wants can act on that understanding. Even there, the capacity to act is granted by the model's design. And recourse in this sense is still not accountability — flipping a classifier is not obtaining an answer from anyone, and nobody has justified anything. The paper can use that gap to sharpen §5: the machine-learning literature's most optimistic construct about individual agency stops short of the forum, and stops short by construction.
+
+Their finding that recourse degrades under model updating is §7's temporal tracking stated as a technical result: a set of actions that would have flipped last month's model need not flip this month's.
+
+## Caution
+Read at abstract depth; the algorithms, the audits and the numeric results need the original before citation. The scope is linear classifiers with a specified actionable-feature set, and the authors are explicit that the guarantees do not extend to arbitrary models — later work (Karimi et al.) generalises and complicates the picture. Recourse here is a technical property, not a legal right and not a relation; do not let the word carry Bovens's freight. The domain is credit and lending, and the subject is a consumer, not a worker.

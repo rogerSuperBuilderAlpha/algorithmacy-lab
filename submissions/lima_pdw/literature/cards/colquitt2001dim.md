@@ -1,0 +1,17 @@
+# Colquitt, J. A. (2001). On the dimensionality of organizational justice: A construct validation of a measure. *Journal of Applied Psychology*, 86(3), 386–400.
+
+**Identifier:** 10.1037/0021-9010.86.3.386  ·  **Read depth:** full_text  ·  **Source read:** local PDF in the dissertation library (`research/library/pdfs/colquitt2001dim.pdf`), full article pp. 386–400
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** accountability-contestation
+
+## What it argues
+Colquitt settles a twenty-year dimensionality dispute by building a measure and testing it. He constructs items directly from the field's sources rather than from prior scales: procedural-justice items from Thibaut and Walker's process control and Leventhal's six rules, distributive items from Leventhal's allocation criteria, and interpersonal and informational items from Bies and Moag as split by Greenberg. Confirmatory factor analysis in two independent samples — university students and employees at a manufacturing plant — supports a four-factor structure over one-, two- and three-factor alternatives, with the interpersonal/informational split holding rather than collapsing into a single interactional factor. He then shows the four dimensions predict different outcomes: procedural justice predicts system-directed reactions such as rule compliance and collective esteem, while interpersonal and informational justice predict agent-directed reactions such as evaluation of the authority figure. The measure that results is the field's standard instrument.
+
+## Relation to the argument
+This is the citation that establishes the paper's cluster is measurable at all, and it is the one to reach for if a reviewer asks whether the withheld conditions could be operationalised on workers. More importantly, the system/agent split in Colquitt's outcome analysis is a version of §5's state/relation distinction expressed as a validated measurement structure. Procedural justice is a judgement about an arrangement; interpersonal and informational justice are judgements about what a party did. The four-factor solution holds because respondents distinguish them, which is empirical evidence that the two kinds of judgement do not collapse — and that is what §5 needs against a reviewer who thinks the distinction is a rhetorical device.
+
+It is also the practical instrument for §11 and for the companion three-wave scale. If the paper wants a discriminant test showing that algorithmacy moves the conditions a worker can supply and leaves accountability untouched, Colquitt's dimensions are the off-the-shelf measures of the second thing, with known psychometrics and a large comparative base.
+
+## Caution
+The measure was validated in conventional employment with an identifiable supervisor and an identifiable organisation, and most items name one or the other — several are unanswerable for a platform worker, so the scale cannot be used off the shelf in this population without adaptation and revalidation. Justice here is *perceived* justice throughout: every dimension is a respondent's judgement, not a property of the arrangement, so a high informational-justice score means the person felt adequately informed, not that anyone owed her an account. Do not read Colquitt's four dimensions as a decomposition of Bovens's accountability; they overlap at informational justice and diverge everywhere else.

@@ -1,0 +1,24 @@
+# Hancock, J. T., Naaman, M., & Levy, K. (2020). AI-mediated communication: Definition, research agenda, and ethical considerations. *Journal of Computer-Mediated Communication*, 25(1), 89–100.
+
+**Identifier:** doi:10.1093/jcmc/zmz022  ·  **Read depth:** full_text  ·  **Source read:** Oxford Academic
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** communication-competence
+
+## What it argues
+
+Hancock, Naaman and Levy define **AI-mediated communication** as interpersonal communication in which an intelligent agent operates on behalf of a communicator by modifying, augmenting, or generating messages to accomplish communication goals. The definitional work is a typology of parameters: which party the agent acts for (sender or receiver), the magnitude of the intervention (from spelling correction to full generation), the medium, the degree of autonomy, and — the parameter that matters most here — the **optimization goal**, whose goal the agent is optimising for. The agenda concerns trust, self-presentation, attribution of authorship, and the interpersonal consequences when a receiver suspects AI involvement. The ethical section is largely about deception and about who is responsible for an AI-shaped message.
+
+**Note carefully: the frame is explicitly interpersonal, with two humans in it.** AI-MC's canonical picture is sender → agent → receiver.
+
+## Relation to the argument
+
+§9 files this as "an agent serving the worker" and counts it among the constructs that "inherit a dyad." **That is the most vulnerable sentence in the section.** AI-MC is, on its own definition, a three-party arrangement: a sender, a receiver, and an intelligent agent operating between them on one party's behalf. A reviewer who knows this literature will say so immediately, and "inherits a dyad" is not a defensible description of a framework whose entire research programme is about what happens to the *receiver's* trust when an agent has shaped the *sender's* message.
+
+The distinction that survives is about the third party's standing, and Hancock et al. hand it over in the optimization-goal parameter. In AI-MC the agent optimises for a *party's* goal — it is a delegated instrument, aligned with the sender or the receiver, and it produces messages that the principal could in principle have produced. In §7's arrangement the system optimises for neither party, is delegated by neither, and **commits determinations binding on both**. AI-MC's third party is an agent in the principal-agent sense; the paper's third party is closer to an adjudicator. That reframing is available, it is faithful to the source, and it is much stronger than the position-counting §9 currently runs.
+
+Recommended edit: change §9's diagnosis from "the first three inherit a dyad" to something like "the first three place the machine on a party's side of the relation" — CMC on the channel between, HMC in a seat, AI-MC in a principal's service — "and none gives it a seat that binds both."
+
+## Caution
+
+An agenda-setting definitional article, not an empirical study; the empirical programme is in the downstream work (Jakesch et al., Hohenstein & Jung, Mieczkowski et al., Hohenstein et al. 2023). Its cases are self-presentation and interpersonal messaging, not work coordination under evaluation, and AI-MC has no competence construct of its own — which is a genuine gap the paper can claim.

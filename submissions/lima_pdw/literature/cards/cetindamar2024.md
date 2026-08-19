@@ -1,0 +1,30 @@
+# Cetindamar, D., Kitto, K., Wu, M., Zhang, Y., Abedin, B., & Knight, S. (2024). Explicating AI literacy of employees at digital workplaces. *IEEE Transactions on Engineering Management*, 71, 810–823.
+
+**Identifier:** 10.1109/TEM.2021.3138503  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref record (verified: Cetindamar, Dilek; Kitto, Kirsty; Wu, Mengjia; Zhang, Yi; Abedin, Babak; Knight, Simon; *IEEE Transactions on Engineering Management* 71: 810–823, 2024) and the published abstract via OpenAlex, cross-checked against Carolus et al.'s summary of the framework in arXiv:2302.09319.
+**Source-tier:** primary_journal
+**Evidence basis:** publisher_summary
+**Cluster:** algorithmic-competence-rivals
+
+## What it argues
+
+Cetindamar and colleagues are the only people in this cluster who take *work* as the site. Their premise is that digital technologies including AI trigger organisational affordances in workplaces, and that despite this almost nobody has studied employees' AI literacy specifically — the field's samples are students, medical trainees, and online panels. They run a bibliometric analysis of 270 articles, using descriptive statistics, keyword co-occurrence and a hierarchical topic tree to map what the literature already implies about definition, dimensions, challenges and directions.
+
+The output is a definition of AI literacy as a **bundle of four core capabilities**: technology-related, work-related, human-machine-related, and learning-related. Carolus et al. record the scope decision: technological capability is limited to tool use and data literacy, with in-depth programming explicitly excluded. Secondary sources gloss the other three as job-specific application (work-related, spanning ethics, problem-solving and critical thinking), collaboration and explainability (human-machine-related), and lifelong learning (learning-related). The authors close by inviting research on "the effect of employee–technology interactions on employees' AI literacy, which might improve the design and use of AI."
+
+## Relation to the argument
+
+Nearest rival by *site*, and the most important card in this sub-cluster for that reason. It also loses, and it loses in a way the manuscript should name precisely, because a reviewer who knows this literature will reach for exactly this paper.
+
+**Triad.** No human counterpart appears. The one dimension that sounds relational — human-machine-related capabilities — is the dyad named outright: the human, the machine, and the machine's explainability to the human. Nothing in the four bundles concerns a second person on the far side of the system, and nothing concerns a determination the system commits that binds two parties. The employee in Cetindamar et al.'s workplace faces an AI tool her employer deployed, in a job whose counterparties (customers, colleagues, suppliers) sit outside the frame entirely. Algorithmacy's worker faces a system that is simultaneously interpreting someone she will never meet and issuing a ruling on both of them. Same building, different geometry.
+
+**Competency, not capability.** This is the discrimination the paper should lead with here, because Cetindamar et al. use the word *capability* deliberately and repeatedly — "a bundle of four core capabilities" — and they are writing in technology management, where capability has Barney's and Teece's meaning: a resource the firm holds, embedded in routines. The whole apparatus points that way. The stated contribution is to technology management studies; the stated payoff is improved design and use of AI; the invited future work is on employee–technology interaction that helps the organisation. The unit that benefits is the employer. Algorithmacy's whole point is that the coordinated party *owns nothing* — no routine, no system, no data, no ability to make the arrangement work differently — so a capability framing cannot reach her. When the manuscript says a rival is really a capability held by the firm that owns the routine, this is the citation.
+
+**Derivation.** Bibliometrics is inventory at industrial scale. Keyword co-occurrence over 270 articles tells you what the literature has said; it cannot tell you what the coordination form withholds. The four bundles are a factor structure of a corpus, not a derivation from an account of accountability, predictability or common understanding.
+
+**Two properties.** Learning-related capability is the fourth bundle, and it is lifelong learning — deliberate, continuous, sponsored. That is the opposite of implicit acquisition under an undisclosed rule. And a capability framing assumes the firm can develop it in its workforce, which forecloses stratified fluency: if unevenness across equivalently placed workers were structural rather than remediable, the bundle would not be a capability to build.
+
+One genuine debt: Cetindamar et al. establish that the workplace question is open and that operationalising AI literacy for non-AI professionals remains undone. The manuscript can cite them for the gap and then say the gap is deeper than they think — not an unoperationalised construct, but a missing position.
+
+## Caution
+
+Read at abstract depth, and the sub-components of the four bundles come from secondary summaries rather than from Table II, which I could not retrieve; verify against the version of record before quoting any component name. The article is behind IEEE's paywall with no OA deposit I could locate. Bibliometric method only: no employees were surveyed, no instrument was built, no capability was measured. The four bundles are a reading of a literature, and the authors present them as a conceptualisation inviting operationalisation. Citation year is a trap — the DOI carries 2021 and OpenAlex records 2022 (early access), while the assigned issue is volume 71, 2024. Cite as 2024 with the volume and pages, but expect to meet 2021 and 2022 versions in other people's reference lists. Do not cite this for anything about platform or gig work; "digital workplace" here means salaried employees in firms that have deployed AI tools.
