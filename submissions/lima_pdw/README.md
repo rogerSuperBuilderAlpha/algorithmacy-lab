@@ -25,25 +25,55 @@ The submitted package — motivation letter and extended abstract — is transcr
 Equivalently positioned workers using the same AI tools at the same intensity get radically different
 outcomes, and the variance is not explained by how much technology they use. **Algorithmacy** names
 the difference: the communication competency required to coordinate with a human counterpart through
-an opaque, adaptive intermediary, operationalized across five components — asymmetric interpretation,
-intent specification, machine orchestration, implicit acquisition, and stratified fluency. The
-construct is built for **triadic mediated coordination**, in which an active third party sits between
-two human parties and runs on objectives neither endorsed, and it is argued against the human–AI
-interaction constructs that inherit communication theory's dyadic frame. The empirical arm measures
-it on **GauntleTT**, an eight-week intensive AI engineering program in Trinidad and Tobago.
+an opaque, adaptive intermediary. The construct is built for **triadic mediated coordination**, in
+which an active third party sits between two human parties and runs on objectives neither endorsed,
+and it is argued against the human–AI interaction constructs that inherit communication theory's
+dyadic frame.
+
+**The structure is three facets and two properties, not five components.** `PAPER.md` §7 derives
+**asymmetric interpretation**, **intent specification** and **temporal tracking** under one admission
+rule — a facet is what a worker supplies in the absence of a withheld condition — and cuts machine
+orchestration as a tool affordance rather than a facet. §10 reclassifies **implicit acquisition** and
+**stratified fluency** as properties, each with its own falsifier. Accountability is withheld and
+yields no facet at all, and that empty cell is the paper's main result. The accepted abstract's list
+of five conflates the three levels; it is quoted verbatim in [`ABSTRACT.md`](ABSTRACT.md) as the
+historical record and should not be restated anywhere as current.
 
 ## Contents
 
 | path | what it is |
 |---|---|
 | [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
+| [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) | What the quantitative→qualitative swap changes and what it leaves standing, measured against the accepted text |
+| [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of `PAPER.md` — findings ranked, register audit, verified citation ledger |
+| [`interview/`](interview/) | **The live instrument.** Self-service interview harness, three protocols, anonymous intake. See below |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
-| [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note, plus the one item it does not cover |
+| [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note; row 1 closed 2026-08-18 |
 | [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | **Superseded** — records the manuscript's twelve-section architecture and where this arm's material lands in it |
 | [`literature/REFERENCES.md`](literature/REFERENCES.md) | The abstract's citations, all fifteen verified, four flagged on substance |
 | [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival algorithmic competency scale, all twelve items, and the discrimination the items support |
 | [`working/`](working/) | Scratch; not for citation |
+
+## The interview arm
+
+Built 2026-08-18 and **fielding**. Participants, staff and partners run an interview through an AI
+assistant in their own editor; it anonymizes as it writes, they review and approve, and it submits
+anonymously to a Cloud Function that refuses anything still marked unreviewed.
+
+- **Instrument:** [`interview/`](interview/) — `AGENT.md` plus `protocols/{STUDENT,OPERATIONS,SELF}.md`
+- **Invitation:** [`interview/EMAIL_TO_SEND.md`](interview/EMAIL_TO_SEND.md), copy-ready
+- **Endpoint:** `https://us-central1-pitch-rise.cloudfunctions.net/intake` → `gs://pitch-rise-interview-intake`
+- **Reading responses:** `interview/pull-responses.sh` syncs into a gitignored `responses/`. **This
+  repository is public** — no response may ever be committed.
+- **Approval:** Bentley IRB #260511078, exempt under 45 CFR 46.102(e)(2)(ii), 11 May 2026
+
+**First response in, 2026-08-18** — a Hult participant, all blocks answered. Two findings bear on the
+manuscript. She never contested an outcome and named why: no channel was legible as the place for it,
+so she concluded *that's the way this is* — forbearance with no forum, which is what §5 predicts. And
+she read the gate by pasting its feedback into another AI and asking for an explanation, which is
+machine orchestration doing the interpretive work §7 cuts it out of. The transcript also measured
+thin — answer and question word counts at parity — and the protocols were deepened in response.
 
 ## Status
 
@@ -80,8 +110,13 @@ without touching the author's prose.
   for the variance premise, that the arm had filed **the wrong Zhou 2025 paper**, and that the register
   runs zero first person in 8,391 words against the house style's own rule.
 
-**Registered 2026-08-14; the place is confirmed.** The arm is now in support posture through to the
-10 September manuscript: citation checks, structural reading, and the previewed study — not prose.
+**Registered 2026-08-14; the place is confirmed.**
+
+**The posture changed on 2026-08-18.** This was a support arm doing citation checks and structural
+reading. It now also runs the instrument: the empirical arm moved from a quantitative three-wave
+panel to a qualitative study, the harness was built and fielded the same day, and the first response
+is in. `PAPER.md` is still the author's prose and still hands-off. What this arm supplies is the
+study that §11 previews, now actually collecting.
 
 Workshop terms that bind the work: registration confirmed the place on **14 August**; the full
 manuscript is due **10 September**; attendance is in person for all three days; accepting also
