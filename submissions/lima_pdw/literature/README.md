@@ -112,6 +112,8 @@ Seven constructs, seven memos, in `steelmans/`. All seven exist as of 2026-08-19
 | 5 | AI literacy | `longmagerko2020.md` | **Camera-ready full text**, via the Internet Archive |
 | 6 | Human–machine communication | `guzmanlewis2020.md` | `pdfs/guzmanlewis2020.pdf` |
 | 7 | AI-mediated communication | `hancock2020.md` | Oxford Academic full text |
+| 8 | **The fourth party** (ODR) | `odr_fourth_party.md` | Card depth — both sources unretrievable; the memo says so |
+| — | **The field's own stocktakings** | `field_stocktakings.md` | Two full texts, one abstract; 50 / 169 / 12 studies |
 
 ## Phase 2 architecture memos — status
 

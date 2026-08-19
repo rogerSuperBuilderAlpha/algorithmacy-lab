@@ -148,6 +148,70 @@ forms, which §2 currently narrates and which would make the open cell visible r
 and **the protocol block structure as an appendix** in §5 — Curchod prints his interview protocol in
 full, and this venue expects the instrument to be inspectable.
 
+## From the field-level and instrument work (added later on 2026-08-19)
+
+### §3 can stop sampling and start reporting a property of the field
+
+Three reviews audit the whole algorithmic- and AI-literacy field:
+Oeldorf-Hirsch and Neubaum (**50** studies reviewed of 96 screened, four databases), Gagrčin, Naab and
+Grub (**169** studies), and Iyamu and colleagues (**12** studies, seven databases, a scoping review of
+health workers). Two were read at full text; Gagrčin is abstract-only and labelled as such.
+[`steelmans/field_stocktakings.md`](steelmans/field_stocktakings.md).
+
+The strongest result is not a word count, though the word counts hold — "interpersonal" appears zero
+times in either full text, and "communicative" zero times in Oeldorf-Hirsch and Neubaum. It is that
+**Iyamu and colleagues looked for the counterpart-facing competence and found the field had left the
+slot empty.** Their charting framework is Nutbeam's, whose third level is *communicative*: "interacting
+with AI systems and explaining AI-mediated information," including "supporting patients to do so." Their
+finding: "communicative literacy was largely absent from both conceptual frameworks and measurement
+instruments," and the one study that came closest described it "in relation to integrating AI systems in
+workflows and collaborating effectively with them rather than competencies related to explaining
+AI-mediated information, negotiating uncertainty, or supporting patient and community decision making."
+
+A framework supplied the slot; the literature filled it with more system-facing measurement. That
+converts §3's close from a claim about seven readings into a documented property of a field — and it
+carries a scope condition, because Nutbeam's level *is* about a second human, so §3 cannot say the field
+never mentions another person.
+
+Two more things worth taking. Both field definitions — DeVito's and Dogruel's, quoted in the memo — have
+exactly two terms, a user and an algorithm. And Oeldorf-Hirsch and Neubaum's measurement problem, that a
+researcher cannot score correctness because the algorithm is unknown to her too, is a published argument
+for defining the competency on what a person *does* rather than what she *knows*, which is what the
+locked definition already does.
+
+### The fourth party is an antecedent, not a rival
+
+[`steelmans/odr_fourth_party.md`](steelmans/odr_fourth_party.md) gives the eighth hearing §3 lacks.
+Katsh and Rifkin named the fourth party in 2001 and Wing, Martinez, Katsh and Rule revisited it in 2021
+with machine learning in the systems. The literatures divide cleanly: **ODR asks what the system owes
+and answers for its design; algorithmacy asks what a party must be able to do.** Their four ethical
+requirements — transparency, accountability, contestability, consent — are close to the negation of what
+§4 says the form withholds, which makes the withholding list principled rather than assembled. Written
+at card depth, and the memo says so at the top: both sources are unretrievable right now.
+
+### The harness is a strong collection instrument with no analysis instrument
+
+[`../interview/METHODS_AUDIT.md`](../interview/METHODS_AUDIT.md) checks every rule in `AGENT.md` and the
+protocols against the methods literature §5 cites. Nine rules have warrants in that literature and none
+of them says so — the incident rule is Pratt's showing-not-telling enforced at collection, the
+no-vocabulary rule is Bowen's sensitizing concepts kept from sorting the data, the verbatim markers are
+Gioia's in-vivo discipline, the `reviewed_by_human` gate is an inspectable consent trail of the kind
+Pratt, Kaplan and Whittington argue for.
+
+**What does not exist is the analysis half.** §5 claims abductive analysis, first-cycle coding in the
+participant's words, a declined data structure and bricolage. There is no codebook, no coding rule, no
+memo file, no discard log, no negative-case register. The abduction claim is the one that bites, because
+abduction has machinery: Timmermans and Tavory define it as inference from **surprising** evidence and
+name three processes — revisiting, defamiliarization, alternative casing. A design that never records
+what surprised the analyst cannot be abductive. The audit proposes four short files that would fix it,
+none of which touches `PAPER.md` or requires a response to exist.
+
+Four other gaps, in the audit: there is no sampling rule (Pratt's "enough is a function of the question"
+needs the question's demands stated, and the open invitation is recruitment rather than sampling); no
+saturation rule if anyone ever says enough; Tracy still orphaned though the audit shows her doing real
+work in the instrument; and the protocols do not record whether a block finished with an incident or a
+characterisation, which is the thing the paper claims they enforce.
+
 ## Checked while the memos were being written
 
 **"Several responses" is one response.** The intake bucket holds a single object as of 2026-08-19.

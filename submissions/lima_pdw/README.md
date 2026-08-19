@@ -57,6 +57,7 @@ the historical record and should not be restated as current.
 | [`reviews/`](reviews/) | Reviews of the **live** draft. Current: [`REVIEW_2026-08-19.md`](reviews/REVIEW_2026-08-19.md) |
 | [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
 | [`interview/`](interview/) | **The live instrument.** Self-service interview harness, three protocols, anonymous intake. See below |
+| [`interview/METHODS_AUDIT.md`](interview/METHODS_AUDIT.md) | The harness checked against the methods literature §5 cites: nine rules warranted, the analysis half missing |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
 | [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note; row 1 closed 2026-08-18 |
