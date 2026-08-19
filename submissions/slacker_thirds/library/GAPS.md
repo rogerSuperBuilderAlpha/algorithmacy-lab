@@ -1,58 +1,74 @@
 # What the library does not yet cover
 
-Round 1 swept four domains on 18 August 2026. It swept every field the chapter borrows from and none of
-the field the chapter is published in. That is backwards for a Bloomsbury film-studies collection, and
-it is the gap that matters most: a reviewer for this volume is a Linklater reader first and a Simmel
-reader second.
+Round 1 (18 August 2026) swept the four domains the chapter borrows from. Round 2 (19 August) swept the
+one it is published in, and answered the novelty question: see
+[`domains/_round2/film-slacker.md`](domains/_round2/film-slacker.md). What follows is what is left.
 
-## Round 2, priority 1 — Linklater and *Slacker* scholarship
+## Re-runs — reachable material this sweep could not reach
 
-**The question to put to the domain:** the chapter claims the film's coordination divides into a
-holding done by the city and a selecting done by the camera, and that no existing reading names the
-second. Has a film scholar already said that the camera, not the walker, chooses?
+None of these is a gap in the literature. Each is a text that exists, matters, and was blocked on the
+day. They are listed first because they are the cheapest things left to close.
 
-The chapter surveys three rival answers — the relay, the shared property, the drift — and dispatches
-each. What it has never done is search for a fourth. Everything below is cited in the chapter and
-marked `unswept`:
+**1. Stone, *Walk, Don't Run*, chapter 3 (73–104).** The largest open question in the domain. It is the
+likeliest remaining place for a rival statement that the camera, not the walker, chooses. The Internet
+Archive was offline for the entire sweep ("Internet Archive services are temporarily offline"), and the
+lending copy is there: item `cinemaofrichardl0000ston`. Re-attempt when the Archive is back.
+See [`stone2013cinema`](cards/stone2013cinema.md).
 
-| Card | Why it is the risk |
-| --- | --- |
-| [`stone2013cinema`](cards/stone2013cinema.md) | The book-length Linklater study. Chapter 3 is where a statement that the camera chooses would live. Unread for this purpose. |
-| [`boom2022drifts`](cards/boom2022drifts.md) | Lacunae — what the film declines to produce. The nearest published kin to the chapter's deferral, inside Linklater studies. |
-| [`trohler2006plurale`](cards/trohler2006plurale.md) | The enunciative *Tyche* is the nearest existing name for the selecting job, and it is already in the chapter's own notes. Verified as a citation; never audited as a rival. |
-| [`ramirez2011watch`](cards/ramirez2011watch.md) | Already observes that "the character who walks away participates in the next scene" — the hand-off rule, described. Does anyone convert it into a claim about who selects? |
-| [`jeong2021network`](cards/jeong2021network.md) | "The shift from community to network" is adjacent enough to the chapter's Roycean verdict to need reading directly. |
-| [`poulaki2014network`](cards/poulaki2014network.md) | Serves as both source and prose model. Check the chapter's causal claim is not Poulaki's restated. |
+**2. The four Criterion Current essays**, especially "Slacker's Oblique Strategy," whose title bears
+directly on the structural question. `criterion.com` returns 403 behind a Cloudflare JavaScript
+challenge to WebFetch and to `curl` with a browser user-agent alike, and the Wayback fallback was down
+for reason 1.
 
-Beyond the folder, the sweep has to cover what nobody here has read: the rest of the *ReFocus* volume,
-the *Slacker* Criterion essays, Linklater's own interviews on how the hand-offs were planned, the
-Austin film-scene historiography, and the enunciation literature — Metz, Casetti, Branigan — since
-"the camera selects and nobody is addressed" is an enunciation claim wearing sociological clothes.
+**3. The *ReFocus* volume text** — Boom's chapter 4 on lacunae and Erickson's chapter 1. Known only by
+title and by the chapter's own use of them; `dokumen.pub` 403s and the volume is not open access.
+Boom matters most: if his lacunae already name the withheld introduction, the chapter's move inside
+Linklater studies narrows. See [`boom2022drifts`](cards/boom2022drifts.md).
 
-**What the answer changes.** If a film scholar has already named the selector, the contribution moves
-to the platform mapping and Steve's door, which the panel already judged the most publishable move in
-the chapter. If nobody has, the chapter's core claim is new in its own field and can say so.
+**4. Berg, *Film Criticism* 31, 24–26.** Round 2 verified that Jeong cites these pages for the daisy
+chain, which closes note 10's corroboration. The pages themselves are still unread, and now there is an
+argument for reading them rather than only a citation duty: if Berg himself attributes the daisy chain's
+motion to the camera, the prior-art exposure widens. Back issue, roughly seven dollars from Allegheny
+College, or interlibrary loan. See [`berg2006taxonomy`](cards/berg2006taxonomy.md).
 
-## Round 2, priority 2 — the German sociology of the third
+## Round 3, priority 1 — the German sociology of the third
 
-Note 21 makes a negative claim — that the third literature catalogues its figures without arriving at a
-distant unifier — and rests it on two edited volumes read for absence, from tables of contents. See
-[`bedorf2010theorien`](cards/bedorf2010theorien.md) and [`esslinger2010figur`](cards/esslinger2010figur.md).
-A negative claim in a literature the chapter cannot read at length is the kind a German-speaking
-reviewer closes in one sentence.
+The last unswept domain, and the one carrying a **negative claim**. Note 21 asserts that the third
+literature catalogues its figures without arriving at a distant unifier, and rests it on two edited
+volumes read from tables of contents: [`bedorf2010theorien`](cards/bedorf2010theorien.md) and
+[`esslinger2010figur`](cards/esslinger2010figur.md). A negative claim in a literature the chapter cannot
+read at length is the kind a German-speaking reviewer closes in one sentence — and round 2 has just
+shown what happens when a negative claim goes unswept.
+
+The sweep should also settle whether Simmel's postponement claim survives contact with the German
+secondary literature, which is the same exposure the urban sweep raised from the other side
+([`simmel1903metropolis`](cards/simmel1903metropolis.md), threat 1).
+
+## Round 3, priority 2 — a second pass at network-narrative theory
+
+Round 2 found the camera-agent in Jeong on the first serious look. That is a reason to look harder, not
+to stop. Poulaki serves the chapter as both source and prose model and has never been audited as a
+rival ([`poulaki2014network`](cards/poulaki2014network.md)); Tröhler's enunciative *Tyche* sits in the
+chapter's own note 14 as the nearest existing name for the selecting job and has been verified as a
+citation but never as a competitor ([`trohler2006plurale`](cards/trohler2006plurale.md)); and the
+enunciation literature proper — Metz, Casetti, Branigan — has not been touched, though "the camera
+selects and nobody is addressed" is an enunciation claim wearing sociological clothes.
 
 ## Standing verification debts
 
-These are not sweep gaps; they are checks that need a copy, and they are tracked in
-[`../AUTHOR_TASKS.md`](../AUTHOR_TASKS.md).
+Checks that need a copy or the disc, tracked in [`../AUTHOR_TASKS.md`](../AUTHOR_TASKS.md).
 
-- Berg pp. 24–26, the daisy-chain definition — [`berg2006taxonomy`](cards/berg2006taxonomy.md), paraphrased from digests.
 - Whether *Slacker* is in Bordwell's chapter filmography, 245–250 — [`bordwell2008poetics`](cards/bordwell2008poetics.md).
-- The Criterion disc: the hit-and-run witnessing, currently sourced to a tourism page
+- The Criterion disc: the hit-and-run witnessing, still sourced to a tourism page
   ([`austinfilm2026locations`](cards/austinfilm2026locations.md)); the final dialogue against the
-  subtitle track; and whether Steve pays.
+  subtitle track; and whether Steve pays, which the panel's M2 turns on.
 - Ciafone at 2683n3 — the article URL 404'd ([`ciafone2014magical`](cards/ciafone2014magical.md)). It
   hedges the Bordwell gap, so two unclosed checks currently prop each other up.
 - Feld at 1016 — paywalled, absent from reachable citing literature ([`feld1981focused`](cards/feld1981focused.md)).
 - The Kracauer pin in note 36: the wording is verbatim but sources place it at p. 301, not 62–63.
-  Check the edition before it enters the note.
+
+## A note on instruments
+
+Scholar Gateway holds no *Slacker* scholarship — a 20-passage, 17-article query returned general
+film-theory material and nothing on the film. That is a fact about the Wiley corpus, not about the
+field, and a later sweep should not read its silence as evidence.

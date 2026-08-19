@@ -4,7 +4,7 @@
 
 One card per source bearing on the chapter. `domain` is the knowledge domain the source belongs to; `used_by` lists the chapter sections or footnotes that draw on it; `status` is `cited` (in the live chapter), `held` (in the library, not yet cited), or `candidate` (surfaced by the deep research pass as worth citing). See [`REFERENCES.md`](REFERENCES.md) for the Chicago master bibliography and [`domains/`](domains/) for the per-domain audits.
 
-**134 cards.**
+**137 cards.**
 
 | citekey | title | year | domain | used by | status | verified |
 |---|---|---|---|---|---|---|
@@ -60,7 +60,8 @@ One card per source bearing on the chapter. `domain` is the knowledge domain the
 | [hagerstrand1970people](cards/hagerstrand1970people.md) | What About People in Regional Science? | 1970 | urban-stranger | — | candidate | metadata-only |
 | [irani2013turkopticon](cards/irani2013turkopticon.md) | Turkopticon: Interrupting Worker Invisibility in Amazon Mechanical … | 2013 | platform-studies | — | candidate | metadata-only |
 | [jacobs1961death](cards/jacobs1961death.md) | The Death and Life of Great American Cities | 1961 | urban-stranger | — | held | metadata-only |
-| [jeong2021network](cards/jeong2021network.md) | Network Narratives in Global Cinema: The Shift from Community to Ne… | 2021 | film-slacker | n. 10 | cited | unswept |
+| [jeong2021network](cards/jeong2021network.md) | Network Narratives in Global Cinema: The Shift from Community to Ne… | 2021 | film-slacker | n. 10 | cited | verified |
+| [johnson2012linklater](cards/johnson2012linklater.md) | Richard Linklater | 2012 | film-slacker | — | candidate | metadata-only |
 | [kaushal2024automated](cards/kaushal2024automated.md) | Automated Transparency: A Legal and Empirical Analysis of the Digit… | 2024 | law-governance | — | candidate | metadata-only |
 | [kegley2008royce](cards/kegley2008royce.md) | Josiah Royce in Focus | 2008 | pragmatism-community | n. 23 | cited | metadata-only |
 | [kellogg2020algorithms](cards/kellogg2020algorithms.md) | Algorithms at Work: The New Contested Terrain of Control | 2020 | platform-studies | — | candidate | metadata-only |
@@ -90,6 +91,7 @@ One card per source bearing on the chapter. `domain` is the knowledge domain the
 | [poncedelcastillo2023regulating](cards/poncedelcastillo2023regulating.md) | Regulating algorithmic management in the Platform Work Directive: c… | 2023 | law-governance | — | candidate | verified |
 | [poulaki2014network](cards/poulaki2014network.md) | Network Films and Complex Causality | 2014 | film-slacker | n. 13 | cited | verified |
 | [price2003linklater](cards/price2003linklater.md) | Richard Linklater | 2003 | film-slacker | n. 6 | cited | unswept |
+| [psaltidis2024indie](cards/psaltidis2024indie.md) | American indie cinema between DIY cultures and global Hollywood: Ex… | 2024 | film-slacker | — | candidate | metadata-only |
 | [rahman2018utilities](cards/rahman2018utilities.md) | The New Utilities: Private Power, Social Infrastructure, and the Re… | 2018 | law-governance | — | candidate | metadata-only |
 | [rahman2019platformbusiness](cards/rahman2019platformbusiness.md) | The Rise of the Platform Business Model and the Transformation of T… | 2019 | platform-studies | — | candidate | metadata-only |
 | [rahman2021invisiblecage](cards/rahman2021invisiblecage.md) | The Invisible Cage: Workers' Reactivity to Opaque Algorithmic Evalu… | 2021 | platform-studies | — | candidate | metadata-only |
@@ -116,7 +118,8 @@ One card per source bearing on the chapter. `domain` is the knowledge domain the
 | [smets2022serendipity](cards/smets2022serendipity.md) | Serendipity in the City: User Evaluations of Urban Recommender Systems | 2022 | urban-stranger | — | candidate | metadata-only |
 | [smets2025platformurbanism](cards/smets2025platformurbanism.md) | Handbook of Platform Urbanism | 2025 | urban-stranger | — | candidate | metadata-only |
 | [smith1950social](cards/smith1950social.md) | Royce's Social Infinite: The Community of Interpretation | 1950 | pragmatism-community | — | candidate | metadata-only |
-| [soldani2017performance](cards/soldani2017performance.md) | The Performance of the Austin Indie Scene in Slacker: From the Body… | 2017 | film-slacker | n. 7 | cited | unswept |
+| [soldani2017performance](cards/soldani2017performance.md) | The Performance of the Austin Indie Scene in Slacker: From the Body… | 2017 | film-slacker | n. 7 | cited | verified |
+| [speed2007roads](cards/speed2007roads.md) | The Possibilities of Roads Not Taken: Intellect and Utopia in the F… | 2007 | film-slacker | — | candidate | metadata-only |
 | [srnicek2017platform](cards/srnicek2017platform.md) | Platform Capitalism | 2017 | platform-studies | — | candidate | metadata-only |
 | [stark2020algorithmic](cards/stark2020algorithmic.md) | Algorithmic Management in the Platform Economy | 2020 | platform-studies | n. 29 | cited | verified |
 | [stark2024principles](cards/stark2024principles.md) | Principles of Algorithmic Management | 2024 | platform-studies | n. 20 | cited | verified |

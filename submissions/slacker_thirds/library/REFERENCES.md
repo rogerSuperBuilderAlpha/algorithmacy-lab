@@ -11,7 +11,7 @@ from the sweeps, not finished Chicago entries: a work only gets Chicago form whe
 Each line is keyed to its card in [`cards/`](cards/); the card carries the loci, the verification
 status, and the argument for or against using it.
 
-Part A: **52 entries**. Part B: **79 works**. Total cards: **134**.
+Part A: **52 entries**. Part B: **82 works**. Total cards: **137**.
 
 ---
 
@@ -73,6 +73,12 @@ Warner, Michael. *Publics and Counterpublics*. New York: Zone Books, 2002.
 ---
 
 ## Part B — held and candidate works (working details)
+
+### film-slacker
+
+- **johnson2012linklater** — Johnson, David T. "Richard Linklater." Contemporary Film Directors.
+- **psaltidis2024indie** — Psaltidis, Nico. "American indie cinema between DIY cultures and global Hollywood: Exploring the paradigm of Slacker." SAGE, 2024.
+- **speed2007roads** — Speed, Lesley. "The Possibilities of Roads Not Taken: Intellect and Utopia in the Films of Richard Linklater." Journal of Popular Film & Television 35, no. 3 (2007): 98-106.
 
 ### sociology-third
 
