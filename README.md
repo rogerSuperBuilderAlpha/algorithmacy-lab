@@ -509,6 +509,21 @@ walks the whole path by hand — environment, the instrument-validation gate, th
 paragraph, scaffolding a new question with `python -m org_frontier.protocol.new_question`,
 registering numbers for CI, and opening the pull request.
 
+## The writing skill
+
+[`sentence-by-sentence/`](sentence-by-sentence/) is the lab's writing arm, packaged as a Claude Code
+skill anyone can install. It rebuilds a manuscript one sentence at a time against a published model
+paper — by reading rather than by measuring, with no code in it at all.
+
+It was built after a pass that failed, and every rule in it comes from something that went wrong. A
+manuscript was rewritten "sentence by sentence" against one exemplar: seven scripts were built, five
+defects were found in the instruments, paragraph cohesion improved measurably — and the per-sentence
+judgment columns were empty in all 617 rows. The defect that exposed it had been scored *good* by the
+cohesion script, because it wore the shape the metric rewards.
+
+The skill requires a model paper and a draft, and refuses to start without both. See its
+[README](sentence-by-sentence/README.md) for the rules and what five independent test runs found.
+
 ## Repository note
 
 This working tree also contains a separate, private dissertation repository nested at `dissertation/`,
