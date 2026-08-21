@@ -1,0 +1,34 @@
+ban scan: chapter.md
+  28 body paragraphs, 4344 words
+
+VERBATIM BANS  (zero tolerance -- each was cut from a previous draft)
+  none
+
+LANDING LINES  (paragraph-final sentences of 13 words or fewer)
+  5 of 28 paragraphs = 18%   threshold 25%   ok
+
+RATE-BASED TELLS  (per 1,000 body words)
+  pseudo-cleft 'What X is/does…' opener                 1.15  budget 1.50  ok
+  'rather than' (decorative unless load-bearing)        0.00  budget 1.20  ok
+  antithesis machine: ', not X'                         0.00  budget 2.00  ok
+  antithesis machine: 'It is not a…'                    0.00  budget 1.00  ok
+  agentless passive (house style cardinal ban)          0.23  budget 0.80  ok
+  enumerator drift: drop the 'thing'                    0.00  budget 0.40  ok
+
+PUNCTUATION AGAINST THE CORPUS  (42 single-author film essays)
+  emdash        0.0 /1k   corpus mean  4.12  max 10.88  z= -1.6  ok
+  colon         6.9 /1k   corpus mean  4.29  max 10.73  z= +1.2  ok
+  semicolon     7.1 /1k   corpus mean  2.39  max  8.62  z= +2.9  high
+  A rate above the corpus maximum is not a style preference. It means no
+  author in the reference genre writes this way.
+
+JARGON  (glossed or cut -- the chapter glossed its sociology and assumed its cinema)
+  para@19    divide et impera
+  para@19    tertius gaudens
+
+SENTENCE SHAPE  (reported, not judged)
+  153 sentences, mean 28.4 words, sd 22.4, CV 0.79
+  the August rhythm pass established that this chapter's short-sentence share
+  is a genre difference from the film-essay corpus, not a defect
+
+RESULT: no verbatim bans; 0 rate tells over budget

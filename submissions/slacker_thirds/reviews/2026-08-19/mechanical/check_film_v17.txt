@@ -1,0 +1,24 @@
+film-forwardness: chapter.md
+  lexicon: film_lexicon.txt (81 terms)
+
+PER SECTION
+  section                                       words   opens@   max gap
+  (front matter)                                 1231        0       101
+  Simmel's postponed third                        632       79       137
+  Royce's test for membership                     268       37       156
+  The two jobs, with someone still there to be   1277       48       128
+  The same jobs without an answerer               528        0       149
+  Keeping the jobs apart                          339       28        83
+  Conclusion                                      154       43       107
+
+SCENE COVERAGE
+  17 of 66 lexicon scene terms present   minimum 12   ok
+  absent: hit-and-run, hit and run, bystander, Bozzio, street musician, Dostoyevsky, Apagato, Stephanie, T-shirt, saw it on TV, Bombay, fortnight, panhandl, confession, premeditated fun, Ulysses, typewriter, charity
+           ... and 31 more
+
+WHOLE BODY
+  4457 words, 624 inside a film referent (14%)
+  longest filmless run: 214 words, starting at word 1982
+    "The definition is permissive at every point where one might expect strictness..."
+
+RESULT: PASS

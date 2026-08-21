@@ -1,0 +1,17 @@
+# Vandaele, K. (2018). *Will trade unions survive in the platform economy? Emerging patterns of platform workers' collective voice and representation in Europe* (ETUI Working Paper 2018.05). European Trade Union Institute.
+
+**Identifier:** 10.2139/ssrn.3198546 (SSRN deposit of ETUI Working Paper 2018.05)  ·  **Read depth:** abstract_only  ·  **Source read:** Crossref/SSRN record (verified: Vandaele, 2018; SSRN deposit of the ETUI working paper); OpenAlex carries no abstract, so the argument is summarised from the title, the venue and the report's established framing in the platform-labour literature. Full text not read
+**Source-tier:** book
+**Evidence basis:** publisher_summary
+**Cluster:** accountability-contestation
+
+## What it argues
+Vandaele surveys the emergence of collective voice among platform workers across Europe and asks whether trade unions can represent a workforce their structures were not built for. He documents the range of forms actually appearing: self-organised couriers' collectives operating through messaging apps, new independent unions formed by platform workers themselves, established unions creating platform-worker sections, works-council and social-dialogue experiments, and cooperative alternatives. His analytical interest is in the conditions distinguishing where collective voice took hold from where it did not — place-based work that lets workers meet, visible common grievances such as pay-structure changes, and a legal environment that permits self-employed workers to organise without falling foul of competition law. That last constraint is the report's distinctive contribution for this cluster: in several jurisdictions the classification of platform workers as self-employed makes collective bargaining a cartel, so the legal form of the arrangement bars the institutional remedy directly.
+
+## Relation to the argument
+This is the survey that shows §6's institutional route is being attempted across a continent, and it supplies the mechanism by which the route is foreclosed — which is the more valuable half. The competition-law obstacle is the sharpest available illustration of the paper's structural claim: a worker classified as an independent contractor is legally barred from constituting the collective body that would supply the withheld condition. The individual route cannot supply accountability, and the institutional route is blocked by the same classification that withheld it. That is a tighter statement of §6's "absent or captured" than the paper currently makes, and it identifies the classification as the hinge on which both routes turn.
+
+It also gives §6 the range of forms the institutional column should name. "Forums, statutory review and designed appeal" is a short list; Vandaele's inventory adds independent unions, works councils, cooperatives and social dialogue, each with a different relation to the platform and a different answer to whether anyone is obliged to receive a claim.
+
+## Caution
+Read at abstract and framing depth only, and the summary above is inferred from the report's title, venue and established characterisation rather than from its text — pull it before citing any specific case or claim. It is a policy working paper from a trade-union-affiliated institute, not peer-reviewed, and its stance is advocacy for union renewal. The scope is Europe in 2018, and both the legal position on self-employed collective bargaining and the organising landscape have moved substantially since. Nothing here concerns individual competency.

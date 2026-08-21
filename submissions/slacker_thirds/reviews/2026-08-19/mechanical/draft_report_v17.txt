@@ -1,0 +1,78 @@
+==============================================================================
+  chapter.md
+  register: slacker
+  4,421 words, 149 sentences, 28 paragraphs
+==============================================================================
+
+TIER 1 — COHESION (locators; nothing here is scored)
+  not scored: no cohesion measure survived validation at n=7 (see module docstring).
+  indicator                                value
+   1 tail-head linkage                      43.2% of sentences
+   2 citation-final sentences               0.0%
+   2 runs of 3+ citation-final              0
+   3 unvaried thread repeats                0
+   6/7 paragraph joins with no shared entity 88.9%
+   8 stacked evidence runs                  0
+   4 gloss-welding (reported only)          0.00 /1k
+
+TIER 2 — SHAPE (advisory; target the mean, not the band)
+  dimension                    measured  venue mean (sd)          z
+  body words                       4421  5971 (2188)          -0.71
+   citations /1k                       -  corpus cannot support       -
+   narrative cite %                    -  corpus cannot support       -
+  words per sentence               29.7  31.6 (8.5)           -0.22
+ ·sentence-length CV              0.796  0.598 (0.105)        +1.89
+   words per paragraph                 -  corpus cannot support       -
+   paragraph CV                        -  corpus cannot support       -
+   sentences per paragraph             -  corpus cannot support       -
+ ·sentences under 10w %            14.1  8.2 (5.1)            +1.17
+  sentences over 40w %             22.8  23.8 (13.6)          -0.07
+ ·one-clause %                     30.2  39.6 (8.6)           -1.09
+ ·four-plus-clause %               20.1  12.4 (6.3)           +1.24
+  first person sing /1k            5.88  3.14 (3.86)          +0.71
+  first person plur /1k            1.13  3.48 (2.49)          -0.95
+ ·em-dash /1k                      0.00  4.12 (2.53)          -1.62
+!!semicolon (prose) /1k            7.01  2.39 (1.62)          +2.85
+ ·colon (prose) /1k                6.79  4.29 (2.25)          +1.11
+
+TIER 3 — LEXICAL (the only tier that can fail)
+  rule                                measured         floor  verdict
+   figurative verbs                        0.00     0.00-0.13  ok
+   contrastive negation                    0.00     0.00-4.17  ok
+   metacommentary / self-narration         0.00     0.00-0.88  ok
+   reformulation (compressed restatem      0.00     0.00-1.51  ok
+   changelog register                      0.23     0.00-1.54  ok
+   defensive hedging                       0.00     0.00-0.23  ok
+   empty padding                           0.23     0.00-0.33  ok
+   filler transitions (sentence-initi      0.00     0.00-1.46  ok
+   announcement headings                   0.00     0.00-0.00  ok
+   opening cliches / closing pleasant      0.00     0.00-0.13  ok
+   copula avoidance                        0.00     0.00-2.06  ok
+   rule-of-three density                   0.90     0.00-2.81  ok
+<< em-dash rate                            0.00    0.35-10.88  DEFICIT
+   parallel staccato runs                  0.23     0.00-0.34  ok
+   promotional puffery                     0.23     0.00-0.26  ok
+   vague attribution                       0.00     0.00-0.13  ok
+
+------------------------------------------------------------------------------
+FINDINGS, worst first
+   1. [lexical] lexical DEFICIT: em-dash rate at 0.00/1k, below every exemplar (0.35-10.88). a BAND rule, and the ecosystem gets it backwards
+   2. [cohesion] HOOKS · 24 of 27 paragraph joins share no entity across the break (89%). First: closes "...f a grant, priced, recorded, refused, and left unexplained by a person who can still be argued with." then opens "The film opens with the arrangement already at work."
+   3. [cohesion] TAIL-HEAD · sentences opening on nothing from the one before, e.g. "Austin holds strangers in reach and introduces nobody; the camera selects which stranger the viewer "
+   4. [shape] shape: sentence-length CV is 1.89 sd above the venue mean (0.796 vs 0.598)
+   5. [shape] shape: em-dash /1k is 1.62 sd below the venue mean (0.00 vs 4.12)
+   6. [shape] shape: semicolon (prose) /1k is 2.85 sd above the venue mean (7.01 vs 2.39)
+   7. [shape] shape: barbell: short sentences z=+1.17 and four-clause z=+1.24 both high while one-clause z=-1.09 is low
+
+------------------------------------------------------------------------------
+TIER 5 — needs a reader. No script does these, and a clean report above is not a clean
+document. Chief member: semantic restatement, the same conclusion re-landing in different
+words thousands of words apart. Lexical checkers catch "in other words"; a verdict
+delivered four times in four phrasings sails past every one of them.
+
+  [ ] every load-bearing abstraction touches a concrete case before it is used again
+  [ ] each rival position is engaged and defeated, not merely mentioned
+  [ ] variation in rhythm and diction does work, rather than avoiding repetition
+  [ ] the same conclusion lands once; the rest point at it
+  [ ] citations resolve both ways, quoted numbers match the source, DOIs are real
+  [ ] read the whole thing aloud. That is the last gate and the only one that decides.

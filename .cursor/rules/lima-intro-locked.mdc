@@ -1,0 +1,23 @@
+---
+description: Lima abstract and introduction are locked — do not edit unless the author asks
+globs: submissions/lima_pdw/manuscript/INTRODUCTION.md
+alwaysApply: false
+---
+
+# Lima abstract and introduction — locked
+
+`submissions/lima_pdw/manuscript/INTRODUCTION.md` is the official abstract and introduction
+for the Lima paper. It was locked on 2026-08-19.
+
+The live full draft is `submissions/lima_pdw/manuscript/PAPER.md`. Its opening two blocks
+are a copy of the locked file. Do not edit those blocks unless the author explicitly asks.
+The sections after the introduction may be revised.
+
+Do not edit, rewrite, tighten, or "improve" `INTRODUCTION.md` unless the author explicitly
+asks. Do not run a style pass, a sentence-by-sentence rewrite, or a draft-skill report as a
+reason to change it. `manuscript/INTRO_SENTENCE_PLAN.md` is archive; do not execute it against
+the locked text.
+
+The previous twelve-section draft is in `submissions/lima_pdw/archive/`. Do not write from it.
+Do not splice this opening into `dissertation/current/paper2/PAPER.md` unless the author asks.
+The lock file is `submissions/lima_pdw/manuscript/LOCK.md`.

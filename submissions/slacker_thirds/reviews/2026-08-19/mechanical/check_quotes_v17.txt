@@ -1,0 +1,108 @@
+quotation check: chapter.md
+  transcript: slacker_transcript.md
+  98 distinct quoted spans of 3+ words
+
+IN THE TRANSCRIPT  (20)
+  body  L1    You seen Gary around?
+  body  L7    Take my card. Give me a call. … I'd like to hear from you. I mean it,
+  body  L39   S-T-E-V-E. Steve plus three or four,
+  body  L39   Sorry, Steve. Don't see you,
+  body  L39   Fuck. I'm not on the list.
+  body  L43   I got a stamp. I think I can, you know, get you in or something,
+  body  L43   No, man. I don't want him licking my arm
+  body  L43   It's past 2:00. Everybody out. … You gotta be somewhere. You can't be here. And I wanna 
+  body  L45   I told you. No one's seen him for months.
+  body  L45   Just a little security check. There've been some people missing,
+  body  L45   I mean, you're in a hurry. That makes perfect sense.
+  body  L49   Why don't you come look? It's really weird,
+  body  L49   How about a lift back into town?
+  body  L49   The address, man. Take me there
+  body  L49   Do I have a car? I have a van
+  body  L49   Wake up, America
+  body  L51   was a serious fuck-up,
+  body  L51   when I hear the true call,
+  body  L57   can't press rewind.
+  notes L125  I made him put me on the guest list, and I'm on the guest list.
+
+NOT IN THE TRANSCRIPT  (78)
+  Expected for anything quoted from a book, an article, or a web page.
+  Read the attached note for each: a line of dialogue that lands here is a
+  quotation nobody can source.
+  body  L5    no plot, no major characters, no suspense: just fleeting glimpses of bohemia in its twil
+  body  L7    Should have stayed at bus station,
+  body  L9    fluid camera and a kind of 'baton-passing' among the characters,
+  body  L9    unite by unanimously doing nothing,
+  body  L9    conversation, and ideas themselves, become the determining force of the narrative,
+  body  L11   drifts along the street space, from character to character and from place to place,
+  body  L11   the sense of a seamless urban tissue.
+  body  L13   We get only episodic moments of these characters' lives, without any larger meaning to t
+  body  L13   a refusal to participate in traditional narrativity.
+  body  L13   the frustration that viewers experience in the film's refusal to provide a coherent plot
+  body  L25   This society-constructing mediation of a third element is, however, to be treated in a l
+  body  L33   accepts as part of his own individual life and self the same past events that each of hi
+  body  L33   Each may keep aloof from the other. They may be enemies.
+  body  L39   by procedures which, in varying degrees, represent short-cuts that tend to augment the p
+  body  L39   should no longer be tolerated.
+  body  L51   the behavior of providers and users, enrolling them in the practices of algorithmic mana
+  body  L55   I saw Slacker as you're either channel surfing or you're going in and out of different m
+  body  L55   who don't meet the minimum average ratings for their city may lose access to all or part
+  body  L55   the reasons for the decision, except when doing so poses a risk to other users.
+  body  L57   escalate to manager
+  body  L57   shall be taken by a human being.
+  body  L65   will tend to become interpersonally tied and form a cluster.
+  body  L65   basic match-making capabilities between mobile subjects
+  notes L77   Slacker: Freedom's Just Another Word for Nothing to Do,
+  notes L81   *Slacker* Filming Locations,
+  notes L81   where he witnesses a hit and run
+  notes L81   *Slacker* Geography, 25 Years Later,
+  notes L83   In Praise of Slacking: Richard Linklater's *Slacker* and Kevin Smith's *Clerks* as Hallm
+  notes L85   In Praise of Slacking,
+  notes L89   The Performance of the Austin Indie Scene in *Slacker*: From the Body of a Scene to the 
+  notes L91   On Drifts and Swerves: Linklater's Love for Lacunae,
+  notes L93   I Watch *Slacker* to Read Austin in the Original,
+  notes L93   the character who walks away participates in the next scene.
+  notes L95   A Taxonomy of Alternative Plots in Recent Films: Classifying the 'Tarantino Effect,'
+  notes L95   Network Narratives in Global Cinema,
+  notes L97   Slackers Against Narrativity,
+  notes L99   Give Me Slack: Depression, Alertness, and Laziness in Seattle,
+  notes L101  Mutual Friends and Chronologies of Chance,
+  notes L101  Network Films and Complex Causality,
+  notes L101  The Magical Neoliberalism of Network Films,
+  notes L103  nicht axiologisch, sondern topologisch
+  notes L103  Das Figurenmosaik: Vernetzungen und assoziative Kohäsion,
+  notes L103  Plurale Figurenkonstellationen: Die offene Logik der wahrnehmbaren Möglichkeiten,
+  notes L109  The Number of Members as Determining the Sociological Form of the Group: II,
+  notes L113  daß eine gewisse Distanz zwischen den zu vereinigenden Elementen einerseits und dem Punk
+  notes L113  die heterogensten Völker
+  notes L113  Distanz des vereinigenden Momentes 321.
+  notes L115  What Do Platforms Do? Understanding the Gig Economy,
+  notes L115  play[s] the role of tertius gaudens
+  notes L115  The 'Black Box' at Work,
+  notes L115  The automated hiring black box and data laundering,
+  notes L115  Journalismus und Plattformen als vermittelnde Dritte in der digitalen Öffentlichkeit,
+  notes L115  Principles of Algorithmic Management,
+  notes L117  Ein neues Paradigma der Kulturwissenschaften,
+  notes L121  We are of the same canoe
+  notes L121  We are of the same community.
+  notes L123  the power of an individual self to extend his life, in ideal fashion, so as to regard it
+  notes L123  a number of distinct selves capable of social communication, and, in general, engaged in
+  notes L123  the ideally extended past and future selves of the members include at least some events 
+  notes L127  The New Property,
+  notes L129  The Liberty Impact of the New Property,
+  notes L133  Algorithmic Management in the Platform Economy,
+  notes L133  whereas for markets the verb is contract, the verb for hierarchy is command, and for net
+  notes L135  Slack to the Future,
+  notes L135  *Slacker* Twenty Years Later,
+  notes L137  General Community Guidelines
+  notes L137  Deactivations: Losing Account Access,
+  notes L137  indicating the reason and any options to appeal, except where we have reason to believe 
+  notes L141  Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers,
+  notes L141  Algorithms as Co-workers: Human Algorithm Role Interactions in Algorithmic Work,
+  notes L143  not solely on the basis of automated means
+  notes L145  A Relational Theory of Data Governance,
+  notes L147  The Focused Organization of Social Ties,
+  notes L149  'I Think I Still Qualify as a Slacker … Just One that's Currently Lucky': The Myths of *   [0/2 fragments found]
+  notes L151  Re-engineering the City: Platform Ecosystems and the Capture of Urban Big Data,
+  notes L153  Micro-foundations of Urban Agglomeration Economies,
+  notes L157  Term and Termination.
+  notes L187  Network Narratives in Global Cinema: The Shift from Community to Network and their Narra

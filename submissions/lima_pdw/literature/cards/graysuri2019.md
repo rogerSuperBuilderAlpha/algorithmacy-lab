@@ -1,0 +1,17 @@
+# Gray, M. L., & Suri, S. (2019). *Ghost work: How to stop Silicon Valley from building a new global underclass*. Houghton Mifflin Harcourt.
+
+**Identifier:** ISBN 9781684419852 (no DOI)  ·  **Read depth:** abstract_only  ·  **Source read:** OpenLibrary record (verified: Gray & Suri, Houghton Mifflin Harcourt, 2019; ISBN confirmed for this edition); publisher summary and the book's argument as carried in reviews and the crowdwork literature. Full text not read
+**Source-tier:** book
+**Evidence basis:** citing_literature
+**Cluster:** accountability-contestation
+
+## What it argues
+Gray and Suri document the human labour that makes automated systems appear automatic — content review, data labelling, transcription, the tasks routed to people whenever a model fails — and argue that the labour is deliberately made invisible, both to end users and to the firms' own accounts of themselves. They call it *ghost work*, and they study it across the United States and India through ethnography, worker surveys and platform data. Their structural findings are the ones that bear here. Work arrives as fragments through APIs, so no worker sees the task she is contributing to. Requesters can reject completed work without stating a reason and without paying, and the platform provides no route to dispute the rejection. Accounts are suspended by automated fraud detection with no notice and no appeal, cutting off income without explanation. And the workers respond by building elaborate infrastructures of their own — forums, chat groups, shared spreadsheets of good and bad requesters, informal mentoring networks — which the authors call the *collaborative economy* hidden inside the on-demand one. Their closing argument is programmatic: the invisibility is a design choice, and the remedies they propose are institutional, including portable benefits, a right to organise, and accountability obligations on the firms that buy the labour.
+
+## Relation to the argument
+The rejection-without-reason finding is the cleanest illustration of §5's accountability claim in the literature: a determination that removes payment, delivered with no account, to a party with no route to demand one. Gray and Suri also document the automated suspension case, which is the same structure with the whole relationship at stake. Neither is a marginal occurrence in their data; both are ordinary features of how the work runs.
+
+Their collaborative-economy finding is the third case, after Turkopticon and Wood and Lehdonvirta, of workers building institutions where none exist — and it supports §6's division in the same way. What the collaborative networks supply is information about which requesters to avoid, which is prediction and shared understanding. What they do not supply, and cannot, is a reversal of a rejection or an obligation from anyone to explain one. The paper's division predicts exactly that split, and three independent ethnographies report it.
+
+## Caution
+Full text not read; the findings above are the book's well-documented core, but do not quote it or cite page numbers without pulling it. It is a trade book built on academic fieldwork — the argument is accessible and the underlying studies are published separately, which are the better citations for specific claims. Its subject is microtask and content-moderation work, a segment with unusually extreme conditions, and generalising from it to platform labour as a whole overstates. The remedies chapter is advocacy, and the paper should mark it as such.

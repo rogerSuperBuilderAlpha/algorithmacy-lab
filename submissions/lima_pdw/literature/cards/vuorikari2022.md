@@ -1,0 +1,30 @@
+# Vuorikari, R., Kluzer, S., & Punie, Y. (2022). *DigComp 2.2: The Digital Competence Framework for Citizens — With new examples of knowledge, skills and attitudes*. EUR 31006 EN. Publications Office of the European Union.
+
+**Identifier:** 10.2760/115376 (PDF; ISBN 978-92-76-48882-8, JRC128415)  ·  **Read depth:** full_text  ·  **Source read:** the JRC repository PDF (JRC128415_01.pdf), text-extracted; citation block, §1 and Annex 2 read directly
+**Source-tier:** grey_literature
+**Evidence basis:** direct_read
+**Cluster:** algorithmic-competence-rivals
+
+## What it argues
+
+DigComp is the EU's reference framework for digital competence, and 2.2 is a content update rather than a re-architecture. The conceptual model is unchanged: 21 competences grouped in five areas — Information and data literacy; Communication and collaboration; Digital content creation; Safety; Problem solving — each specified across five dimensions, of which Dimension 3 sets eight proficiency levels and Dimension 4 gives illustrative knowledge, skills and attitudes. The report is explicit that the first three areas track "specific activities and uses" while Safety and Problem solving are "transversal," applying to any activity carried out through digital means. The governing definition comes from the 2018 Council Recommendation on Key Competences: digital competence "involves the confident, critical and responsible use of, and engagement with, digital technologies for learning, at work, and for participation in society."
+
+What 2.2 adds is more than 250 new examples of knowledge, skills and attitudes, aimed at themes that arrived after 2016: mis- and disinformation, "the trend of datafication of internet services and apps," citizens interacting with AI systems, IoT, environmental sustainability, and remote and hybrid work. The AI material is the part that matters here. Vuorikari and Wayne Holmes ran a co-creation and public-validation process that produced more than 80 candidate AI examples; 35 are distributed through Dimension 4 so every competence area carries some, and all 73 surviving examples sit in a dedicated appendix (A2, "Citizens interacting with AI systems"). The requirements the appendix records are deliberately end-user requirements: knowledge — "to be aware of what AI systems do and what they do not do," to understand benefits, limitations and challenges; skills — "to use, interact and give feedback to AI systems as an end-user" and "to configure, supervise and adapt AI systems (e.g. overwrite, tweak)"; attitudes — human agency and control, a critical yet open stance. Concrete examples run to recognising that AI systems collect and process behavioural data, that AI can generate content, and that ethical questions attach to deployment contexts.
+
+The authors are careful about what the document is not. The examples "should not be taken as a set of learning outcomes that are expected from all citizens," they are not developed on proficiency levels, and they are "not offered as an assessment instrument or as a tool for self-reflection." DigComp specifies a vocabulary; it does not measure anyone.
+
+## Relation to the argument
+
+A neighbour with enormous institutional weight and, on the paper's own test, no claim on algorithmacy's ground. Apply the four discriminations in order.
+
+**The triad.** The human counterpart is present in DigComp — area 2 is Communication and collaboration — but never in the same relation as the algorithm. When another person appears, the technology is the channel; when the AI system appears, the relation is worker-and-system, and the counterpart drops out. Appendix A2's requirements are the clearest evidence: every one of them positions the citizen opposite the system as user, configurer, or evaluator. Nowhere does an example ask what a citizen must do when a system commits a determination binding on her and on a person she cannot reach. So DigComp is the paper's §9 "object of knowledge" row with a policy budget behind it, and the missing element is the position, exactly as §9 claims.
+
+**Derivation.** DigComp is an inventory by construction and by method — 250 examples solicited through co-creation and filtered by public validation, with "no hard guidelines for the final number of examples per competence" and a target of roughly fifteen to twenty. Nothing in it is derived from an account of what a coordination form withholds. That is the sharpest contrast the paper can draw, and it costs DigComp nothing, because a policy vocabulary is supposed to be capacious.
+
+**Skill, not competency.** DigComp's own architecture takes competence apart into knowledge, skills and attitudes and instructs curriculum developers to build learning objectives from the examples. It is teachable by design, and its eight proficiency levels assume instructable progression. Algorithmacy's implicit-acquisition property — the rule is undisclosed, so there is nothing to instruct — puts the two constructs on opposite sides of §8's table.
+
+**Use for the manuscript.** DigComp is the strongest available evidence that the competence-framework field is large, funded, and does not contain algorithmacy. §9 currently reaches for Long and Magerko on AI literacy; adding DigComp 2.2 makes the "object of knowledge" row harder to dismiss as a straw target, because the EU spent a decade on it and still produced a two-position construct.
+
+## Caution
+
+Grey literature and a policy instrument, not a research contribution: it reports no sample, no psychometrics, and no empirical claim about any population, so cite it for what the field specifies rather than for what workers can do. Crossref holds no record for 10.2760/115376 as a journal work; the DOI, EUR number, ISBN and JRC number all come from the report's own citation block, which is the authoritative source. Do not attribute the AI appendix to the whole author team — A2 names Vuorikari and Holmes as its authors. And DigComp has downstream self-assessment instruments (the Europass digital skills self-assessment among them) that are not this document; a claim about *measurement* needs one of those, not the framework.

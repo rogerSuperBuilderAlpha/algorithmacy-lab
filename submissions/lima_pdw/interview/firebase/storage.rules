@@ -1,0 +1,37 @@
+rules_version = '2';
+
+// Interview intake — write-only drop box.
+//
+// The design constraint: an uploader can create a file and can do nothing else.
+// No read, no list, no overwrite, no delete. A participant cannot retrieve their
+// own upload and cannot discover anyone else's. Reading happens through the
+// console or a service account, never through this path.
+//
+// Deploy:  firebase deploy --only storage
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    match /interview-intake/{fileName} {
+
+      // Create only, and only under conditions that make a junk upload
+      // uninteresting: authenticated (anonymous auth is enough — the UID is
+      // ephemeral and tied to no identity), small, and markdown.
+      allow create: if request.auth != null
+                    && request.resource.size > 0
+                    && request.resource.size < 512 * 1024
+                    && request.resource.contentType.matches('text/(markdown|plain|x-markdown)')
+                    && fileName.matches('[0-9a-f-]{36}\\.md');
+
+      // Everything else, explicitly.
+      allow read: if false;
+      allow update: if false;
+      allow delete: if false;
+    }
+
+    // Nothing else in the bucket is reachable from a client.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

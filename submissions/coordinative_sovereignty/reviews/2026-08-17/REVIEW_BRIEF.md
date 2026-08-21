@@ -14,10 +14,10 @@ abstract ≤150 words; double-anonymized review.
 
 **Prior work (do not re-litigate closed items unless they still appear in the current text):**
 
-- Original ten-lens panel: `../01_`–`../10_*.md` + `../SYNTHESIS.md` (2026-07-03).
-- Rebuild critique: `../../chapter/REVIEW.md`, `../../chapter/OUTLINE.md`,
-  `../../chapter/HANDOFF.md`.
-- Second one-head pass: `../../chapter/reviews_v2.md`.
+- Original ten-lens panel: `../2026-07-03/01_`–`10_*.md` + `../2026-07-03/SYNTHESIS.md`.
+- Rebuild critique: `../../archive/process/REVIEW.md`, `../../archive/process/OUTLINE.md`,
+  `../../archive/process/HANDOFF.md`.
+- Second one-head pass: `../../archive/process/reviews_v2.md`.
 - Post-fix ten-lens panel: `../2026-08-02/` (brief + ten seats + `SYNTHESIS.md`). Verdict: zero
   major, ten minor / accept-with-nits. Spine S1, S3, S4 applied.
 - Full-review close-out: `../2026-08-02/12_full_review.md` (HANDOFF §0c). Empirics, Hirschman
