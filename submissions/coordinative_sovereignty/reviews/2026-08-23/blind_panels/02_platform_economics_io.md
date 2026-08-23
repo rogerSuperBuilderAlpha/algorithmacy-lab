@@ -1,0 +1,24 @@
+# Blind panel 2 — Platform economics and industrial organization (2026-08-23)
+
+Analyst saw only the neutral research question in blind_brief.md.
+
+## Q1 verdict
+The platform is the market's maker; the structure is irreducibly three-party since the founding models: two-sidedness defined by failure of the Coase theorem across the sides (Rochet & Tirole 2003 JEEA; 2006 RAND; Rysman 2009 JEP). Governance mode hybrid: platforms are markets run by a private regulator (Spulber 2019 JEMS; Boudreau & Hagiu 2009 "platforms as regulators"; Hagiu & Wright 2015 IJIO control-rights continuum; Belleflamme & Peitz 2019 managing seller competition; Maffie 2024 visible hands; Jullien & Sand-Zantman 2021 IEP).
+
+## Q2 verdict
+Skeptical: information asymmetry between platform and regulator/business users defeats disclosure specification and enforcement, hence the DMA's per-se ex-ante conduct obligations (Cabral, Haucap, Parker, Petropoulos, Valletti & Van Alstyne 2021 JRC122910). P2B assessed as procedural rights without bargaining-power change; ranking disclosure deliberately coarse against gaming (Bostoen & Petit 2024 ELJ). Equilibrium incentives to bias and obfuscate (Peitz & Sobolev 2025 RAND; Heresi 2023 JIE). Transparency does not remedy dependence: near-perfect wage visibility coexists with monopsony, labor-supply elasticity ~0.1 on MTurk (Dube, Jacobs, Naidu & Suri 2020 AER: Insights). Alternatives: conduct rules, data access and portability, structural remedies; information remedies → power remedies.
+
+## Q3 verdict
+No literacy concept in economics ("the field is silent" on named literacies); phenomena documented as strategic response: reputation buying that works (Li, Tadelis & Zhou 2020 RAND), feedback-design responses (Hui, Saeedi & Sundaresan 2018 JIE), rank-seeking after design change with skill-biased incidence, rural sellers "particularly poor at adjusting" (Koo & Eesley 2021 SMJ), manipulation policed as fraud (Cai & Zhu 2020; Kokkodis et al. 2022). Privately effective at the margin but largely zero-sum across competing sellers.
+
+## Q4 verdict
+Home turf. Escapability = f(cross-side network effects and chicken-and-egg; homing and switching costs; contractual and design restraints). Competitive bottleneck: when one side single-homes, the multihoming side faces monopoly terms even with several platforms (Armstrong 2006 as developed by Jeitschko & Tremblay 2020 IER; Adachi, Sato & Tremblay 2023 JIE). Switching costs (Lam 2017 JIE); data feedback lock-in (Biglaiser, Calvano & Crémer 2019 JEMS; Prüfer & Schottmüller 2021 JIE). Disintermediation real and designed against (Gu & Zhu 2021 Mgmt Sci; Li & Mu 2023). Parity/MFN clauses close the exit door; wide clauses ban-worthy, narrow ones a genuine trade-off (Wang & Wright 2020 RAND; 2023 JIE; Calzada et al. 2022 JEMS; Schlütter 2024 JIE). Prescription: exit-first hierarchy; where structurally infeasible, the Q5 toolkit.
+
+## Q5 verdict
+For unavoidable gatekeepers: (1) ex-ante conduct regulation (self-preferencing models: de Cornière & Taylor 2019; Padilla, Perkins & Piccolo 2022; Hagiu, Teh & Wright 2022; revisionist Etro 2024); (2) interoperability and portability as switching-cost elimination with a documented perverse case (Kim 2025 JEMS; Bourreau, Raizonville & Thébaudin 2026 JIE); (3) data-sharing against tipping (Prüfer & Schottmüller); (4) countervailing power formalized and qualified: works only under identifiable bargaining conditions (Gaudin 2018 EJ; Caprice & Rey 2015 EJ; Fumagalli & Motta 2008 EJ); worked case Australia's News Media Bargaining Code with final-offer arbitration, A$200m+/yr (Sims 2022 VoxEU); antitrust exemptions for non-employee bargaining debated (Katsabian 2021 MLR; Ehrlich & Ternes 2025 ABLJ); (5) contestation/appeal procedurally valuable, weak without teeth (Bostoen & Petit); (6) cooperative ownership see Q6. Verdict: conduct rules and bargaining codes have bite; transparency and appeals alone do not shift rents.
+
+## Q6 verdict
+Twin lodestars contestability and fairness (Cabral et al. 2021); fallback vocabulary countervailing power (Galbraith lineage). Ownership neither necessary nor sufficient: conduct regulation and bargaining can deliver without it; cooperatives face capital and governance handicaps (Hueth & Marcoul 2015 JEMS; Ghirlanda & Kirov 2024). Minority: where competition cannot be restored, change the owners (Ferretti 2020 JSP). "The field's central honest admission is that for the truly unavoidable intermediary, the dependent actor's autonomy is not self-generated — it is institutionally conferred, by regulators and collective institutions, or not at all."
+
+## Coverage limits
+High confidence Q1/Q4/Q5-core; moderate Q2/Q6; Q3 weakest fit. Wiley-based full text (RAND, JIE, JEMS, EJ, IER); AER/QJE/Mgmt Sci/Elsevier verified at abstract/record level. Furman/Stigler reports and post-2024 DMA evaluations not covered.
