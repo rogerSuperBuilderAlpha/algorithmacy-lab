@@ -40,4 +40,4 @@ Body words 11,565 to 11,686. Abstract unchanged at 143 words, since its one long
 
 ## Still owed
 
-The second QA pass, a sentence read by a reviewer who did not draft, and the author's read-aloud of §2 and §5. The four housekeeping items remain open: GATE_REPORT_v3.md still reports pre-rewrite figures, drafting_ledgers/claim_defense.md is superseded by LEDGER.md, regen_exports.py still points at chapter.md, and LEDGER.md now describes sentences that this pass has recombined.
+The second QA pass, a sentence read by a reviewer who did not draft, and the author's read-aloud of §2 and §5. Housekeeping closed 24 Aug: `chapter_v3.md` promoted to `chapter.md`, exports regenerated, process files moved under `process/`, pre-rebuild draft archived as `archive/drafts/chapter_2026-08-18_pre_sentence_pass.md`.

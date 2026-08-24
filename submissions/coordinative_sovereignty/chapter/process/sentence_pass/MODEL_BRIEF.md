@@ -7,7 +7,7 @@
 | **Model** | Aytac, U. (2024). Digital domination: Social media and contestatory democracy. *Political Studies, 72*(1), 6–25. https://doi.org/10.1177/00323217221096564 |
 | **Model path** | `sentence_pass/_sources/aytac2024.txt` (PhilArchive author copy, DOI on the page; working copy, not in git) |
 | **Model length** | about 8,000 words of body prose across abstract, introduction, three body sections, objections, conclusion; on the order of 220 sentences |
-| **Draft** | `submissions/coordinative_sovereignty/chapter/chapter_v3.md` |
+| **Draft** | `submissions/coordinative_sovereignty/chapter/chapter.md` (was `chapter_v3.md` during the pass) |
 | **Draft SHA** | `719b18789161b77dd4ff38056cadade255698f38` — recast claim as operator compliance without stakeholder standing |
 | **Register sibling (applied sections)** | Cutolo, D., & Kenney, M. (2021). Platform-dependent entrepreneurs. *Academy of Management Perspectives, 35*(4), 584–605. Working copy: `sentence_pass/_sources/cutolo2021.txt` (Bologna IRIS AAM) |
 | **House bars** | `chapter/STYLE_SPEC.md` G1–G16 override the model where they conflict (no first person, no em-dash, no roadmap, no X-not-Y in one sentence) |

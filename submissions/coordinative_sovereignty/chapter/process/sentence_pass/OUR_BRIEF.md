@@ -1,6 +1,6 @@
 # OUR_BRIEF — Algorithmacy and Sovereignty
 
-Stage 4, before any rebuilt prose. Specification as Stage 1. Claims from `chapter_v3.md` at SHA `719b187`. Words will come from Aytac (argument) and Cutolo and Kenney (applied), under house bars.
+Stage 4, before any rebuilt prose. Specification as Stage 1. Claims from `chapter.md` (then `chapter_v3.md`) at SHA `719b187`. Words will come from Aytac (argument) and Cutolo and Kenney (applied), under house bars.
 
 ## Research question
 

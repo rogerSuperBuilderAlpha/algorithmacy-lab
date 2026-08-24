@@ -1,4 +1,4 @@
-# Gate report — chapter_v3.md — 2026-08-23
+# Gate report — pre–sentence-pass draft — 2026-08-23
 
 Mechanical pass (STYLE_SPEC §4, first of three passes) run over the full draft. Result: zero open flags.
 
