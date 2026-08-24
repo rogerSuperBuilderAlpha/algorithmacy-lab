@@ -1,6 +1,6 @@
 # OUTLINE.md — one planned sentence
 
-Draft support points at a claim in `chapter_v3.md`, never at a phrasing. House watch on every entry: no first person, no em-dash, no X-not-Y in one sentence, no metadiscourse, objections in Aytac’s frame. Abstract written last; entries Q1–Q7 sit here so Stage 5 can fill them after the body.
+Draft support points at a claim in `chapter.md`, never at a phrasing. House watch on every entry: no first person, no em-dash, no X-not-Y in one sentence, no metadiscourse, objections in Aytac’s frame. Abstract written last; entries Q1–Q7 sit here so Stage 5 can fill them after the body.
 
 ---
 

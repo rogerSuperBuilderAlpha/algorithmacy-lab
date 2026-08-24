@@ -13,6 +13,8 @@ The live deliverable is the IGI chapter, due **2026-08-30**. Edit
 | --- | --- |
 | [`chapter/chapter.md`](chapter/chapter.md) | **Live manuscript.** The only submittable draft. |
 | [`chapter/exports/`](chapter/exports/) | Generated Grammarly paste and the Word file. Do not hand-edit. |
+| [`chapter/STYLE_SPEC.md`](chapter/STYLE_SPEC.md) | House style bars for the chapter. |
+| [`chapter/process/`](chapter/process/) | Completed writing passes (sentence pass, cadence, gate reports). Not alternate drafts. |
 | [`chapter/IGI_REQUIREMENTS.md`](chapter/IGI_REQUIREMENTS.md) | Venue checklist. |
 | [`coordinative_sovereignty.md`](coordinative_sovereignty.md) | Project framing statement. |
 | [`AGENDA.md`](AGENDA.md) | Open research questions. |
