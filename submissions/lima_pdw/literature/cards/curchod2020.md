@@ -18,3 +18,20 @@ The population is also useful to §10 for an uncomfortable reason. All 77 seller
 ## Caution
 
 One platform, one product category of it, two countries; the authors' contribution is a theory of power and agency, not a coordination form, and the fourth-form placement is the dissertation's. eBay business sellers are established micro-firms rather than gig workers. The sample's restriction to high performers is a real limit on any use for distributional claims.
+
+
+## Verification status 2026-08-26
+
+Wording checks (against the WRAP accepted manuscript, `dissertation/research/library/pdfs/curchod2020.txt`):
+"in place of traditional dyadic exchanges, customer reviews enact triadic relationships among the
+platform operator, buyers, and sellers" — one sentence, in the introduction; the visibility-gap passage
+("buyers remained largely invisible to sellers, while sellers felt entirely visible to buyers") sits in
+the findings, with "This visibility gap" recurring later. All three phrasings the manuscript uses are
+faithful to the accepted manuscript.
+
+**Published pagination could not be obtained online.** Sage serves the VoR behind Cloudflare; the ORBi
+"open access" file is request-gated; Edinburgh/Nottingham/Bath/WRAP deposits are all author versions;
+no archived VoR PDF exists. A free-access Sage share link circulates and opens the full text in a
+browser: https://journals.sagepub.com/stoken/default+domain/BN3EHHMPHEXK34AKDA2M/full — one library or
+browser session closes the page anchors. Until then, quote with the article range (644-676) and no
+internal page, or drop the quotation marks.

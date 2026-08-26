@@ -53,9 +53,11 @@ and can take the relation off-site.
 | Findings | Client is in reputation (ratings, refunds), self-presentation (who notices you), risk (scams, gut), and **relationship building as a named literacy**. |
 | Discussion | Relationship building is “the foundation of longer-term engagements with clients” and is essential *because* Upwork leaves more agency than Uber (p. 470). |
 
-Clients were interviewed “to provide some verification as to which literacies or
-skills were apparent” to them (p. 463) — corroboration, not a second pole of the
-construct.
+Clients' narratives “provided some verification as to which literacies or skills
+were in fact valued in gig workers” (p. 463) — corroboration, not a second pole of
+the construct. (Corrected 2026-08-26 against the PDF: an earlier version of this
+memo spliced “were apparent” from the preceding sentence, which is about workers'
+own accounts.)
 
 ## The test
 

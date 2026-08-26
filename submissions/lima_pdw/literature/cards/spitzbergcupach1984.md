@@ -16,3 +16,32 @@
 ## Caution
 
 This card records what is not known rather than what is. Do not quote the book, do not attribute the appropriateness/effectiveness pair to it in print, and do not let §8's compound citation imply that Hymes and Spitzberg and Cupach make the same distinction until the second half is checked. The book is a 1984 Sage monograph, so a library copy is the realistic route; a chapter-level check of how competence is located — in the actor or in the perceiver — would settle the question §8 depends on. Until then the safest form of the §8 sentence names Hymes for the competence/performance distinction and cites Spitzberg and Cupach for the tradition's development without asserting what they added.
+
+
+## Corrected 2026-08-26 — the two load-bearing claims, sourced
+
+The book itself remains unobtained (no open copy; library item). But the two claims the manuscript rests
+on it can now be sourced without it:
+
+1. **Competence as a quality of the relationship, produced jointly, judged by the parties.** A
+   contemporaneous validation study (ERIC ED279030, saved as
+   `../pdfs/spitzbergcupach1984_validation_eric_ed279030.pdf`) reports the book's seven criteria,
+   including "competence is an interdependent process" and "competence is an interpersonal impression,"
+   and quotes the book at p. 151: the model is "relational in the sense that it is sensitive to the
+   implicit perceptions of the relationship held by the interactants." Spitzberg's own restatements
+   agree: "Competence is an impression, or an evaluative inference, rather than an ability" (Spitzberg
+   2013, open access), and competent interactants "facilitate the competence of cointeractants"
+   (Spitzberg 2006: 650, citing the 1984 book's summative, compensatory, and interactive effects).
+   The manuscript's first use is safe as a position attribution to Spitzberg & Cupach (1984).
+
+2. **Levels.** The book's criterion list includes "competence is both molar and molecular" (ED279030).
+   The stronger formulation the manuscript uses — measurement at one level licenses no inference at
+   another — is the position of Spitzberg's later assessment work (the 2015 De Gruyter chapters; the
+   1989 handbook), not verified verbatim from the 1984 book. Safest citation for that sentence:
+   Spitzberg & Cupach (1984) for the molar/molecular commitment, Spitzberg (2015) for the no-free-
+   inference rule — or soften the attribution.
+
+This supersedes the blanket "do not attribute" caution above for claim 1; it stands for any quotation
+from the book and for the appropriateness/effectiveness pair as 1984 wording. Note the companion card
+`spitzberg1984.md` asserts both claims at "extended_preview" depth; its first claim is now corroborated,
+its levels sentence should be read with the correction here.
