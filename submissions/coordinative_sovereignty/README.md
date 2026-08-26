@@ -7,6 +7,11 @@ The live deliverable is the IGI chapter, due **2026-08-30**. Edit
 [`chapter/chapter.md`](chapter/chapter.md). Upload
 [`chapter/exports/Full Paper - Alg & Sov.docx`](chapter/exports/Full%20Paper%20-%20Alg%20%26%20Sov.docx).
 
+**Google Doc, paper 2:**
+<https://docs.google.com/document/d/1HuUCPs2jhEf_vhdTiZgG1-YO-QWLbv6HQIDSH_d914M/edit>
+— the author's working copy. Where it and `chapter/chapter.md` disagree, ask before assuming
+which is current; edits made in the doc do not reach this repository on their own.
+
 ## Layout
 
 | Path | What it is |
