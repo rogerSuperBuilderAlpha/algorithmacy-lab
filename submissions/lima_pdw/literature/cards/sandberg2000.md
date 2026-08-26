@@ -16,3 +16,21 @@ Sandberg attacks the **rationalistic** approach to competence that dominates hum
 ## Caution
 
 Crossref deposits no abstract for this article, so the card reconstructs it from the reception rather than from the text — verify the three conceptions and the sample details before citing them, and read the article before rewriting §8 around it. **An earlier version of this card gave the sample as fifty optimizers; two independent secondary accounts put the AMJ study at twenty, and I could not confirm fifty anywhere.** Use twenty, or drop the number until someone reads the article. Phenomenography is a specific and contested method: the findings are conceptions elicited through interview and analysed for qualitative variation, not measured constructs, and the sample is twenty engineers in one Swedish firm, selected by convenience. The interpretative position implies that competence cannot be captured by a standardized scale, which is in tension with the companion three-wave instrument §11 reports as built and approved; the paper should decide whether Sandberg is an anchor for the construct or an objection to its measurement, and it currently uses him as the first while leaving the second unaddressed.
+
+
+## Verified 2026-08-26 (scan read page by page)
+
+The scanned pages of `../pdfs/sandberg2000.pdf` were read directly (printed pagination visible). Confirmed:
+
+- **p. 12** (Methods): "an empirical study in the department of engine optimization at the Volvo Car
+  Corporation in Sweden. The task of an all-male group of approximately 50 engineers was to develop
+  engines for new models of cars. ... I selected 20 opti-" (continuing **p. 13**) "mizers". So: twenty
+  optimizers from a department of about fifty, Volvo Car Corporation — pp. 12-13.
+- **p. 14** (top): "Six optimizers expressed conception 1; ten, conception 2; and four, conception 3."
+- **p. 14**: independent coder, ten transcripts, 90 percent agreement; **p. 15**: Theman's replication
+  with 7 more optimizers (2/3/2 across the conceptions).
+
+The earlier caution ("verify the three conceptions and the sample details before citing") is now
+discharged for those details. One reception claim in this card remains **unverified against the text**:
+that peers and superiors rated the conception-3 optimizers most competent — it was not encountered on
+pp. 9-16 and the manuscript does not use it; check before anyone cites it.

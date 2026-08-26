@@ -22,3 +22,13 @@ The review is also a warning. It maps a field that generates constructs prolific
 ## Caution
 
 A review, so it carries no primary evidence: cite it for the state of the field, not for any finding about users or workers. Its scope is *algorithmic media use* — recommendation, curation, news feeds — rather than algorithmic management of work, so its 169 studies underrepresent the labour literature where the manuscript's rivals sit, and it should not be cited as establishing that no *work*-specific competence construct exists. Abstract-depth read; the conceptualisation taxonomy and the endogenous/exogenous/personal factor scheme are named in the abstract but not detailed there, so do not reproduce the categories without the full text. Dating is awkward: Crossref records 2024 for the article with the 28(1) issue paginated 423–447 in 2026 — cite as 2024 with the volume, issue and pages, and expect variation across reference lists.
+
+
+## Verified 2026-08-26
+
+Publisher abstract retrieved verbatim (Crossref JATS): "Research on individuals' understanding of
+algorithms and their effects is expanding rapidly but lacks a cohesive framework. We conducted a
+systematic integrative literature review across social sciences and humanities (n = 169)..." Both
+figures the manuscript uses — one hundred and sixty-nine studies, no cohesive framework — are the
+abstract's own words. Pagination 28(1), 423-447 re-confirmed. Full text still unread (Sage blocks
+retrieval); the caution about not reproducing the internal taxonomy stands.

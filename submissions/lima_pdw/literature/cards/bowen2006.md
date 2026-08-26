@@ -16,3 +16,14 @@ This is the applied citation that Blumer needs. It demonstrates, in a published 
 ## Caution
 
 *IJQM* is a lower-status venue than an OS/OT reviewer's default, and the empirical example is a development-studies field study, not an organizational one. It also sits inside a grounded-theory frame, whereas the protocol's frame is abductive — say which you are in.
+
+
+## Verified 2026-08-26 (full text read)
+
+Full text obtained from the IJQM archive (saved as `../pdfs/bowen2006.pdf`). The manuscript's gloss —
+sensitizing concepts "start inquiry and do not sort it" — is faithful: Bowen quotes Blumer ("Whereas
+definitive concepts provide prescriptions of what to see, sensitizing concepts merely suggest directions
+along which to look") and states that "social researchers now tend to view sensitizing concepts as
+interpretive devices and as a starting point for a qualitative study," then shows the concepts guiding
+and being revised by constant-comparative coding in the Jamaica study. Cite without page numbers or with
+the article range 12-23.

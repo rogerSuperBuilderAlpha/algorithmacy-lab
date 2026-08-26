@@ -16,3 +16,12 @@ This is the strongest single answer to the objection an OS/OT reviewer will rais
 ## Caution
 
 It is a defence, and a reviewer who has already decided will read it as special pleading unless the structural handling is shown to be real. Note also that the authors write primarily from action research, where the insider is *meant* to intervene; this study's investigator is trying to do the opposite, so the role-duality argument transfers but the action-research warrant does not.
+
+
+## Verified 2026-08-26
+
+Publisher abstract retrieved verbatim (Crossref JATS): "we explore the dynamics of insider research
+under the headings of access, preunderstanding, role duality, and managing organizational politics,"
+concluding "there is no inherent reason why being native is an issue and that the value of insider
+research is worth reaffirming." The manuscript's use — Brannick and Coghlan treat role duality as a
+dynamic insider research manages — is confirmed at abstract depth.

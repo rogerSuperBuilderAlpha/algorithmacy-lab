@@ -113,3 +113,14 @@ Reactivity is cut by **engagement level** — experiment more, or expose yoursel
 not produce a second axis, because the construct's dependent variable is the worker's exposure to the
 evaluation, and the client is not on that axis at any value. He proves this against himself: he had
 eighteen clients in the field and the construct still came out with two terms.
+
+
+---
+
+(Corrected 2026-08-26: the Sage-typeset OnlineFirst PDF (1-44) is now in
+`../pdfs/rahman2021_onlinefirst_typeset.pdf`, and the "do not cite page numbers" instruction can be
+narrowed. Verified in the typeset: the client-facing quote "will be kept anonymous and never shared
+directly with the freelancer" at OnlineFirst p. 16; the five-components sentence at OnlineFirst p. 32;
+98 interviews = 80 freelancers + 18 clients, Table 1, OnlineFirst p. 12. Version-of-record pages follow
+by constant offset +944: quote p. 960, five components p. 976, Table 1 p. 956. The offset is exact for
+the range 945-988 but has not been eyeballed against the printed issue — spot-check before print.)
