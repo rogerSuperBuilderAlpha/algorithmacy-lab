@@ -97,3 +97,11 @@ table. There is no item that turns a delegate into an adjudicator.
   "between people" in our own quotation.
 - The parameters as §3 lists them — magnitude, medium, optimization goal, autonomy, role orientation —
   are correct and in the article's own vocabulary. Synchronicity is a sixth and can be left out.
+
+
+---
+
+(Corrected 2026-08-26: the version-of-record PDF is now in `../pdfs/hancock2020_vor.pdf` and the page
+anchors are closed. The formal definition — the body version quoted above — is on **p. 90**; the
+abstract variant is on p. 89; Table 1 with the dimensions begins on p. 91. The manuscript quotes the
+p. 90 body version, as this memo recommends.)

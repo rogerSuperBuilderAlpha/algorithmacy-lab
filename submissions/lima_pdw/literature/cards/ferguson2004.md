@@ -16,3 +16,17 @@ This is the citation §8 of the protocol needs and does not have. Every element 
 ## Caution
 
 *IJQM* is a low-status venue and the setting is nursing education. It is guidance, not evidence: it will not show that the protections worked, only that they are the recognised ones. An OS/OT reviewer may want an organizational-research equivalent, and there is not a good one — say so plainly rather than dressing this citation up.
+
+
+## Verified 2026-08-26 (full text read)
+
+Full text obtained from the IJQM archive (HTML). The prescriptions the manuscript leans on are there:
+following Levine's consenting-auditor suggestion, "faculty could consider the use of agents, such as
+research assistants, to approach students for their agreement to participate," with the same agents
+keeping non-participation "confidential from faculty researchers"; and on anonymity they note that in
+faculty research with students "it is very difficult to maintain anonymity of participants from the
+researcher" — which is exactly the difficulty the study's anonymous-intake design answers. The
+manuscript's phrase "the separation Ferguson, Yonge, and Myrick (2004) prescribe" is a fair description
+of the agent-mediated separation between the investigator and knowledge of who participates; the paper's
+design implements it by record-destruction rather than by a third-party agent, which is a stronger form
+of the same protection (worth one clause if a reviewer asks).

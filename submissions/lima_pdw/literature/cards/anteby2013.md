@@ -16,3 +16,12 @@ The affirmative case, where Brannick and Coghlan give the defensive one. Anteby 
 ## Caution
 
 Anteby's cases are scholars writing about fields they belong to, not instructors studying enrolled students who depend on them. The power asymmetry that makes this design hard is not his subject, and citing him for it would over-read the paper. He relaxes the taboo on *telling*; the consent and coercion problem needs Ferguson et al. (2004) or Mercer (2007) instead.
+
+
+## Verified 2026-08-26
+
+Publisher abstract retrieved verbatim (Crossref JATS): "Learning from the field entails upholding both
+distance and involvement; the two dimensions should not be conceptualized as opposite ends of a
+continuum." The manuscript's use — involvement and distance are not ends of one continuum — is the
+abstract's own claim. The caution above stands: his cases are scholars in fields they belong to, not
+instructors studying dependent students.

@@ -22,3 +22,15 @@ Recommended edit: change §9's diagnosis from "the first three inherit a dyad" t
 ## Caution
 
 An agenda-setting definitional article, not an empirical study; the empirical programme is in the downstream work (Jakesch et al., Hohenstein & Jung, Mieczkowski et al., Hohenstein et al. 2023). Its cases are self-presentation and interpersonal messaging, not work coordination under evaluation, and AI-MC has no competence construct of its own — which is a genuine gap the paper can claim.
+
+
+## Verified 2026-08-26 (publisher PDF, published pagination)
+
+The version-of-record PDF was obtained from Oxford Academic and saved as `../pdfs/hancock2020_vor.pdf`
+(12 pp., printed 89-100). The formal definition — "mediated communication between people in which a
+computational agent operates on behalf of a communicator by modifying, augmenting, or generating
+messages to accomplish communication or interpersonal goals" — is confirmed verbatim on **p. 90**, in
+the passage introduced "We integrate these AI and CMC conceptualizations to define AI-MC as". The
+abstract's variant wording ("interpersonal communication in which an intelligent agent ... communication
+goals") is on p. 89; the manuscript quotes the p. 90 body version, which is the right one. Table 1
+(dimensions: magnitude, media type/medium, optimization, autonomy, role orientation) begins p. 91.

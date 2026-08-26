@@ -16,3 +16,17 @@ Teece, Pisano, and Shuen ask how firms achieve and sustain advantage in environm
 ## Caution
 
 Crossref deposits no abstract for this article, so the card reconstructs it from the canonical reception — verify the processes/positions/paths scheme and the definition of dynamic capabilities against the text before quoting, since the definition is quoted in several variants. A conceptual framework, not an empirical study, and one criticized for tautology (capabilities are inferred from the performance they explain) and for definitional drift across the two decades of literature that followed. Eisenhardt & Martin (2000) and Winter (2003) offer materially different readings; citing "the dynamic capabilities literature" as one position, as §8 does, is a simplification a reviewer from that field will notice.
+
+
+## Verified 2026-08-26 (full text read)
+
+Full text obtained (mirror; saved as `../pdfs/teece1997.pdf`) and the relevant passages verified:
+"The essence of competences and capabilities is embedded in organizational processes of one kind or
+another"; "competences and capabilities are intriguing assets as they typically must be built because
+they cannot be bought"; "Capabilities cannot easily be bought; they must be built"; "The very essence of
+most capabilities/competences is that they cannot be readily assembled through markets"; routines are
+firm-specific assets "assembled in integrated clusters spanning individuals and groups." The
+manuscript's compression — a capability is held by the party that owns the routine, and the platform
+holds the ratings, the matching, and the rule — is a faithful position attribution (capabilities live in
+the organization's own routines and cannot be acquired by a party who has none of them). The stronger
+reconfiguration version of the objection suggested above remains available but is not required.

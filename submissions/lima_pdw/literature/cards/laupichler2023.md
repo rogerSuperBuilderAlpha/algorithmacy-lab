@@ -24,3 +24,15 @@ Note also the target: **non-experts**. The field's implicit stratification is ex
 ## Caution
 
 Read at abstract depth. Sample size, sample composition and recruitment are not in the abstract and must come from the version of record, which is open access at *Computers in Human Behavior Reports*. Exploratory factor analysis only — no confirmatory analysis, no invariance testing, no external criterion, and the authors present SNAIL as a first instrument rather than a settled one. The three-factor solution rests on one dataset. German group, likely German-speaking sample; language of administration should be checked before any cross-cultural claim. Do not confuse SNAIL with the Delphi item set that preceded it (Laupichler, Aster & Raupach, 2023, *Computers and Education: Artificial Intelligence* 4, 100126) — the Delphi study produced 38 items, this one produces 31 after factor analysis, and citing the wrong count is an easy error.
+
+
+## Verified 2026-08-26
+
+Abstract retrieved verbatim (OpenAlex; gold OA): the final SNAIL "consists of 31 items that can be used
+to assess the AI literacy of individual non-experts or specific groups and is also designed to enable
+the evaluation of AI literacy courses' teaching effectiveness." That confirms the manuscript's first
+clause (built to evaluate whether AI-literacy courses teach). Precision note for the second clause: the
+validation reported is an exploratory factor analysis with **no external criterion**; course efficacy is
+the scale's declared *purpose*, not a psychometric validation criterion. "Its criterion is what a course
+can install" should be read — and is best phrased — as the instrument's declared use, e.g. "its declared
+use is to detect what a course can install."

@@ -16,3 +16,17 @@ The closest published analogue to this study's situation — an educational inst
 ## Caution
 
 Education-research venue, unlikely to be familiar to an OS/OT reviewer, and the empirical setting is UK further education. It is a reflective account rather than a study with findings — useful for framing the dilemma, useless as evidence that the handling works.
+
+
+## Verified 2026-08-26 (author-final full text read)
+
+The author's final draft was obtained from the Leicester figshare deposit (saved as
+`../pdfs/mercer2007_authorfinal.pdf`). The manuscript's use — Mercer names the residue no design removes,
+participants may still be managing a teacher's expectations — is grounded in her own account: "Most of
+my interviewees already knew how I viewed appraisal, and this knowledge certainly affected the
+information they chose to give me, although precisely how I can never know," and, after she suppressed
+her views at the second site, "they may still have tailored their responses in any number of other ways,
+for any number of other reasons" (citing Preedy & Riches on "tempering the truth" where professional
+relationships must continue). One precision note: Mercer's informants were fellow faculty, not her own
+students — the residue transfers, the population does not; the manuscript attributes the residue only,
+which is fine, but do not let a revision imply she studied her students.

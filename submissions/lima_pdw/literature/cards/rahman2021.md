@@ -20,3 +20,19 @@ The reactivity typology is the sharpest challenge to §7's structure available i
 ## Caution
 
 A single-platform inductive study of high-skill freelancing; the construct is worker reactivity, and the coordination-form frame is this paper's. The algorithm's criteria are by design unknown to the author too. Worker harms are foregrounded and the manuscript's use stays descriptive. Rahman documents reactivity but does not measure competence or outcome, so he cannot evidence §10's stratified fluency — he shows workers respond differently and explains the difference by dependence and setback, which are *rival* explanations to competency and are the ones §11 must separate.
+
+
+## Verified 2026-08-26 (Sage OnlineFirst typeset PDF; page anchors derived)
+
+The Sage-typeset OnlineFirst PDF (paginated 1-44, identical page count to the published 945-988) was
+obtained from an open mirror and saved as `../pdfs/rahman2021_onlinefirst_typeset.pdf`. Verified verbatim
+in that typeset: the TalentFinder instruction to clients, "This feedback will be kept anonymous and never
+shared directly with the freelancer" (OnlineFirst p. 16); the five components of unpredictability in one
+sentence — evaluation criteria, execution, magnitude, impact, and who influences the evaluation
+(OnlineFirst p. 32, Discussion); Table 1 with 98 semi-structured interviews, 80 freelancer and 18 client
+(OnlineFirst p. 12); "18 clients agreed to be interviewed" (OnlineFirst p. 10).
+
+Version-of-record pages follow by the constant offset +944 (OnlineFirst 1 = published 945; 44 = 988; the
+typeset is unchanged at repagination): quote **p. 960**, five components **p. 976**, Table 1 **p. 956**,
+client count **p. 954**. The offset is arithmetically exact for the page range but was not eyeballed
+against the printed issue — spot-check one page against the VoR before putting a page number in print.

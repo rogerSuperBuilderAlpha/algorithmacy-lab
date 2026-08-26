@@ -22,3 +22,23 @@ The safe posture is descent, not displacement. The manuscript already claims des
 ## Caution
 
 The most weakly evidenced card here. No abstract was obtainable from any index, and the summary above is reconstructed from indexed framing rather than from the text; nothing in it should be quoted, and the specific claim that the paper proposes a set of competencies rather than a single construct is not verified. A short conference paper in an iConference proceedings volume, not a peer-reviewed journal article. Acquire the full text before §8 or §9 cites it.
+
+
+## Verified 2026-08-26 (publisher abstract obtained; lineage confirmed)
+
+The Springer chapter abstract was retrieved from the publisher (SpringerLink) — the "no abstract was
+obtainable" caution above is superseded. Verbatim: "we make it clear that users are not passive
+recipients of algorithmic management. We explain how workers make sense of different automated features
+of the Upwork platform, developing a literacy for understanding and working with algorithms. We also
+highlight the ways through which workers may use this knowledge of algorithms to work around or
+manipulate them to retain some professional autonomy." Keywords include "Algorithmic competency."
+Pages 578-589 confirmed.
+
+The lineage is confirmed from the primary source of the lineage claim: Zhou et al. (2025, working paper
+`../pdfs/zhou2025apjhr_workingpaper.pdf`, Phase 1): "the initial three dimensions of AC were derived
+from Jarrahi and Sutherland (2019), who identified sensemaking, circumventing, and manipulating as key
+activities associated with AC through their qualitative inquiry among Upwork users," with the two
+renamings (Sensemaking→Understanding, Manipulating→Leveraging) stated and argued. The chapter's abstract
+corroborates the three activities in substance (make sense / work around / manipulate); the exact triad
+labels as the chapter's own headings still rest on Zhou et al.'s attribution — the full chapter remains
+paywalled and unread. The manuscript's lineage sentence is safe as written.

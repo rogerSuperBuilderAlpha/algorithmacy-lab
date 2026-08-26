@@ -99,3 +99,18 @@ His items are written for a dyad through a medium. Adding items about an algorit
 the medium's properties — its affordances, its conventions, its constraints — because that is the only
 role the model has for a technology. The missing element is not a media parameter. It is a third
 occupant who evaluates and commits, and the model has no chair for one.
+
+
+---
+
+(Corrected 2026-08-26 against the version-of-record PDF, now in `../pdfs/spitzberg2006_vor.pdf`. Two
+things. **Page anchors are closed**: skill clusters p. 638; motivation ratio p. 640; context facets
+p. 644; outcome definitions p. 648; measure simplification and the four "roughly parallel" factors
+p. 651; cointeractant facilitation p. 650. **The outcome list above is wrong as a list of the model's
+criteria.** The article's working typology of outcomes is five, not four: "appropriateness,
+effectiveness (including task achievement and efficiency), coorientation, satisfaction, and relationship
+development" (p. 648). The four definitions quoted above are individual criterion definitions from the
+same page, but coorientation and relational development are defined there too, and efficiency is folded
+inside effectiveness in the typology. Any sentence in the manuscript that says "four outcome criteria
+close the model" must be corrected to the five, or rephrased to name appropriateness and satisfaction
+without a count.)

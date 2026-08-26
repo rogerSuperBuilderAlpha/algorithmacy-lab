@@ -10,7 +10,8 @@ Communicative AI (conversational agents, social robots, automated writing) is
 Human–machine communication “focuses on questions of communication as they
 relate to technologies designed to fulfill the communicator role” (p. 73):
 meaning-making “within a communication context in which at least one of the
-interaction partners is a machine” (p. 73).
+interaction partners is a machine” (p. 74; corrected 2026-08-26 — an earlier
+version of this memo carried p. 73, and the quotation sits on p. 74 of the PDF).
 
 The agenda has three parts (p. 74): **functional** (how people make sense of
 devices as communicators), **relational** (AI’s place in social worlds; self in
