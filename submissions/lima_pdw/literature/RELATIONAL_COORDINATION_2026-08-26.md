@@ -1,6 +1,6 @@
 # Relational coordination: citation verification and flank test
 
-**Date:** 2026-08-26 · **For:** PAPER_V2.md, `# Extant Constructs`, opening paragraph · **Card:** `cards/gittell_relational_coordination.md`
+**Date:** 2026-08-26 · **For:** PAPER.md, `# Extant Constructs`, opening paragraph · **Card:** `cards/gittell_relational_coordination.md`
 
 The sentence under test:
 

@@ -1,8 +1,8 @@
 # Plan — body, one sentence at a time
 
 **LIVE CONTRACT.** The abstract and introduction are locked
-([`INTRODUCTION.md`](INTRODUCTION.md), [`LOCK.md`](LOCK.md)). This file governs
-every section after the introduction in [`PAPER.md`](PAPER.md).
+([`INTRODUCTION.md`](../INTRODUCTION.md), [`LOCK.md`](../LOCK.md)). This file governs
+every section after the introduction in [`PAPER.md`](../PAPER.md).
 [`INTRO_SENTENCE_PLAN.md`](INTRO_SENTENCE_PLAN.md) is archive. Do not execute
 it against the locked opening.
 

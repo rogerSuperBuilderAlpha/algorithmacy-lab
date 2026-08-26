@@ -1,6 +1,6 @@
 # Research gaps — the register, 26 August 2026
 
-Compiled against [`../manuscript/PAPER_V2.md`](../manuscript/PAPER_V2.md) by mapping every one of its
+Compiled against [`../manuscript/PAPER.md`](../manuscript/PAPER.md) by mapping every one of its
 55 reference entries to the Lima library (`cards/`, 387 entries) and the dissertation shelf
 (`dissertation/research/library/`, 2,140 entries), then reading each gap against what the manuscript
 actually does with the source. Fifteen days to submission.
@@ -169,7 +169,7 @@ condition carries the argument: **scope condition 3 — the intermediary reads b
 them.** Every counterpart-inclusive construct demotes the intermediary to tool, delegate, channel, or
 threat. That is a stronger contribution statement than the seven hearings alone support.
 
-## Three corrections applied to `PAPER_V2.md`
+## Three corrections applied to `PAPER.md`
 
 1. **Spitzberg's outcome criteria were wrong, and the error was introduced by this revision.** The
    draft said four (appropriateness, effectiveness, efficiency, satisfaction) with "the first and last"

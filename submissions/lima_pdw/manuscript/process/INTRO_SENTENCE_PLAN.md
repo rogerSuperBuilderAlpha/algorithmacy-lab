@@ -1,7 +1,7 @@
 # Plan — introduction, one sentence at a time
 
-**ARCHIVE. The introduction is locked.** See [`INTRODUCTION.md`](INTRODUCTION.md) and
-[`LOCK.md`](LOCK.md). Do not execute this plan. Do not edit the locked file from it.
+**ARCHIVE. The introduction is locked.** See [`INTRODUCTION.md`](../INTRODUCTION.md) and
+[`LOCK.md`](../LOCK.md). Do not execute this plan. Do not edit the locked file from it.
 
 ~~Do not rewrite the introduction in one pass.~~ The last five drafts failed
 because the whole text was generated at once and then labeled “sentence by

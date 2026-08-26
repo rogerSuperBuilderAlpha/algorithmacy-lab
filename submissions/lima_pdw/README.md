@@ -10,9 +10,11 @@ The accepted title:
 > Algorithmacy: A communication competency construct for triadic mediated coordination, with
 > empirical evidence from a Caribbean AI engineering cohort
 
-**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)** (2026-08-19). Its abstract and
-introduction are locked at [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md). Do not edit
-those two blocks unless the author says to. Details: [`manuscript/LOCK.md`](manuscript/LOCK.md).
+**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)** (2026-08-26, 10,599 words). Its
+abstract and introduction are locked at [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) and
+verified byte-identical to it. Do not edit those two blocks unless the author says to. Details:
+[`manuscript/LOCK.md`](manuscript/LOCK.md). What the 26 August rebuild changed, and what it still
+needs from the author, is [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md).
 
 **The previous draft is archived** at [`archive/2026-08-19_PAPER.md`](archive/2026-08-19_PAPER.md) —
 "The Competency a Form Demands: Algorithmacy and the Co-optation Column," twelve sections, the
@@ -45,33 +47,31 @@ the historical record and should not be restated as current.
 
 | path | what it is |
 |---|---|
-| [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
-| [`manuscript/PAPER.md`](manuscript/PAPER.md) | **Live draft** — full paper. Body may be revised; abs and intro may not |
-| [`manuscript/RESEARCH_PLAN.md`](manuscript/RESEARCH_PLAN.md) | Deepening plan: steelman every construct, model construct development, write the qual study to standard |
-| [`manuscript/METHODS_SKELETON.md`](manuscript/METHODS_SKELETON.md) | Methods/findings headings, citations, and the sentences we will write |
-| [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | **Locked 2026-08-19** — official abstract and introduction. Do not edit unless the author says to |
+| [`manuscript/PAPER.md`](manuscript/PAPER.md) | **The live paper.** Body revisable; abstract and introduction are not |
+| [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | **Locked** — the official abstract and introduction |
 | [`manuscript/LOCK.md`](manuscript/LOCK.md) | The lock: what it covers, what it forbids |
-| [`archive/`](archive/) | Previous twelve-section draft and its outline, frozen 2026-08-19 |
-| [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) | What the quantitative→qualitative swap changes and what it leaves standing, measured against the accepted text |
-| [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md) | Full read of the **archived** twelve-section draft — findings ranked, register audit, verified citation ledger |
-| [`reviews/`](reviews/) | Reviews of the **live** draft. Current: [`REVIEW_2026-08-19.md`](reviews/REVIEW_2026-08-19.md) |
-| [`REVISION_MEMO.md`](REVISION_MEMO.md) | What the 18 August literature sweep found — tier-1 source misreads, the documented gap, housekeeping |
-| [`interview/`](interview/) | **The live instrument.** Self-service interview harness, three protocols, anonymous intake. See below |
-| [`interview/METHODS_AUDIT.md`](interview/METHODS_AUDIT.md) | The harness checked against the methods literature §5 cites: nine rules warranted, the analysis half missing |
+| [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | The live architecture, with section budgets |
+| [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md) | **Start here after the paper.** What the rebuild changed; what is still author-only |
+| [`manuscript/CITATION_DEPTH.md`](manuscript/CITATION_DEPTH.md) | Which sources may be quoted and which are position-only |
+| [`manuscript/METHODS_SKELETON.md`](manuscript/METHODS_SKELETON.md) | The jobs the methods section owes a reviewer |
+| [`manuscript/RESEARCH_PLAN.md`](manuscript/RESEARCH_PLAN.md) | Deepening plan: steelman every construct, develop the construct on a published model |
+| [`manuscript/process/`](manuscript/process/) | Drafting process from superseded rebuilds. Not a source of truth |
+| [`CALL_FOR_PAPERS.md`](CALL_FOR_PAPERS.md) | **The workshop's own requirements**, and the draft measured against them |
+| [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
-| [`DEPARTURES.md`](DEPARTURES.md) | Pointer to the manuscript's own four-delta note; row 1 closed 2026-08-18 |
-| [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | Live six-section architecture |
-| [`library/`](library/) | **Install archive.** Eleven dissertation-format cards, copied onto the private shelf 2026-08-19. Frozen. |
+| [`reviews/`](reviews/) | Every review, oldest first. Current: [`REVIEW_2026-08-26.md`](reviews/REVIEW_2026-08-26.md) |
 | [`literature/`](literature/) | **Working library.** Start at [`literature/README.md`](literature/README.md) |
-| [`literature/COVERAGE.md`](literature/COVERAGE.md) | Paper 2's 44 cited works → Lima card, dissertation card, depth, status |
-| [`literature/INDEX.md`](literature/INDEX.md) | Generated listing of the sweep cards, by cluster then read depth |
+| [`literature/GAPS.md`](literature/GAPS.md) | **The research gap register** and what the 26 August round closed |
+| [`literature/cards/`](literature/cards/) | 388 source cards |
+| [`literature/steelmans/`](literature/steelmans/) | Full-text hearings of the extant constructs |
+| [`literature/models/`](literature/models/) | Architecture memos for construct development and genre-match papers |
 | [`literature/TRAPS.md`](literature/TRAPS.md) | Live citation hazards — wrong paper, wrong author, two Zhou 2025s |
-| [`literature/steelmans/`](literature/steelmans/) | **Phase 1 hearings — all seven constructs**, written from the articles |
-| [`literature/FINDINGS.md`](literature/FINDINGS.md) | What those hearings change: one falsifiable claim, one verification passed, three cheap upgrades |
-| [`literature/cards/`](literature/cards/) | The cards themselves |
-| [`literature/REFERENCES.md`](literature/REFERENCES.md) | The abstract's citations, all fifteen verified, four flagged on substance |
-| [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival algorithmic competency scale, all twelve items, and the discrimination the items support |
+| [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival scale, all twelve items, and the discrimination they support |
+| [`interview/`](interview/) | **The live instrument.** Harness, three protocols, anonymous intake. See below |
+| [`archive/`](archive/) | Superseded drafts and their outlines. Do not write from them |
+| [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) · [`DEPARTURES.md`](DEPARTURES.md) · [`REVISION_MEMO.md`](REVISION_MEMO.md) | Historical record of how the paper moved away from the accepted abstract |
+| [`library/`](library/) | **Install archive**, frozen. Eleven cards copied onto the private shelf |
 | [`working/`](working/) | Scratch; not for citation |
 
 ## The interview arm
@@ -122,7 +122,7 @@ without touching the author's prose.
   the naming to Stark and Pais where the full-text card supports it, and never sets either source
   against Powell. [`DEPARTURES.md`](DEPARTURES.md) row 1.
 - **A full manuscript review landed 2026-08-18** —
-  [`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md). Verdict: major revisions, all of
+  [`reviews/REVIEW_2026-08-18.md`](reviews/REVIEW_2026-08-18.md). Verdict: major revisions, all of
   them small. The one that is not optional is the novelty claim: **"nobody has named it" is falsifiable
   by one database search** against Zhou, Lei, Liu, Huang and Hou's validated algorithmic-competency
   scale, and it has to narrow to the counterpart axis. The review also finds that **§1 cites nothing**

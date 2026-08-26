@@ -1,6 +1,6 @@
 # Citation verification — 2026-08-26
 
-Scope: the two classes of gap left by the read-depth audit of PAPER_V2.md (submission 10 September 2026).
+Scope: the two classes of gap left by the read-depth audit of PAPER.md (submission 10 September 2026).
 Every item below is ruled **CONFIRMED**, **CORRECTED**, or **STILL OPEN**. New evidence files are in
 `pdfs/` (`spitzberg2006_vor.pdf`, `hancock2020_vor.pdf`, `rahman2021_onlinefirst_typeset.pdf`,
 `teece1997.pdf`, `bowen2006.pdf`, `mercer2007_authorfinal.pdf`,

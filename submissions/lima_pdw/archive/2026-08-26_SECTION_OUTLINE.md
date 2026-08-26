@@ -1,8 +1,8 @@
 # Section outline — live draft
 
-The live manuscript is [`manuscript/PAPER.md`](manuscript/PAPER.md).
-The abstract and introduction are locked at [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md).
-The previous twelve-section draft is in [`archive/`](archive/).
+The live manuscript is [`manuscript/PAPER.md`](../manuscript/PAPER.md).
+The abstract and introduction are locked at [`manuscript/INTRODUCTION.md`](../manuscript/INTRODUCTION.md).
+The previous twelve-section draft is in [`archive/`](../archive/).
 
 ---
 

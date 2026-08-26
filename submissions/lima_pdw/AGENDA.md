@@ -103,7 +103,7 @@ can settle them.
 ## Added by the manuscript review, 2026-08-18
 
 Full findings and the proposed line-level fixes:
-[`MANUSCRIPT_REVIEW_2026-08-18.md`](MANUSCRIPT_REVIEW_2026-08-18.md).
+[`reviews/REVIEW_2026-08-18.md`](reviews/REVIEW_2026-08-18.md).
 
 12. **The novelty claim is falsifiable as written, and this outranks everything else on the page.**
     The abstract and the §4 table say nobody has named the competency co-optation demands. Zhou, Lei,
