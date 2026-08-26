@@ -10,11 +10,13 @@ The accepted title:
 > Algorithmacy: A communication competency construct for triadic mediated coordination, with
 > empirical evidence from a Caribbean AI engineering cohort
 
-**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)** (2026-08-26, 10,599 words). Its
-abstract and introduction are locked at [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) and
-verified byte-identical to it. Do not edit those two blocks unless the author says to. Details:
-[`manuscript/LOCK.md`](manuscript/LOCK.md). What the 26 August rebuild changed, and what it still
-needs from the author, is [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md).
+**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)** — the **author's version**, received
+26 August 2026, 10,506 words. Source of record: <https://docs.google.com/document/d/1ysMedPvYVrsjKwAotegIuGHF-DuLxI74T5KSBwUid_I/edit>.
+
+It replaced the lab's 26 August rebuild, and the author rewrote the abstract and introduction in the
+same pass, so **the lock is retired**: [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) and
+[`manuscript/LOCK.md`](manuscript/LOCK.md) now describe an opening the paper no longer carries. What
+the rebuild changed, and what remains open, is [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md).
 
 **The previous draft is archived** at [`archive/2026-08-19_PAPER.md`](archive/2026-08-19_PAPER.md) —
 "The Competency a Form Demands: Algorithmacy and the Co-optation Column," twelve sections, the
