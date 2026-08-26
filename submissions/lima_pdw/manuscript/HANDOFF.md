@@ -1,20 +1,20 @@
-# PAPER_V2 — what changed, what it still needs
+# The 26 August rebuild — what changed, what it still needs
 
-**Written 26 August 2026.** New draft: [`PAPER_V2.md`](PAPER_V2.md). The 19 August draft is
+**Written 26 August 2026.** New draft: [`PAPER.md`](PAPER.md). The 19 August draft is
 untouched at [`PAPER.md`](PAPER.md) and remains the fallback. Nothing has been committed.
 
-Built from [`OUTLINE_V2.md`](OUTLINE_V2.md), which was built from
+Built from [`OUTLINE.md`](OUTLINE.md), which was built from
 [`../reviews/REVIEW_2026-08-26.md`](../reviews/REVIEW_2026-08-26.md) and
 [`../literature/RESEARCH_PACKAGE_2026-08-26.md`](../literature/RESEARCH_PACKAGE_2026-08-26.md).
 
 ## The lock held
 
-The abstract and introduction in `PAPER_V2.md` are **byte-identical** to `PAPER.md` and to
+The abstract and introduction in `PAPER.md` are **byte-identical** to `PAPER.md` and to
 [`INTRODUCTION.md`](INTRODUCTION.md) — verified by hash, not by eye. So are the title block and the
 first-page delta note.
 
 One thing inside the lock's file did change, and it is not prose: `INTRODUCTION.md` carries its own
-reference list, whose Zhou entry has no locator. `PAPER_V2.md`'s list gives the article number,
+reference list, whose Zhou entry has no locator. `PAPER.md`'s list gives the article number,
 **e70004**, confirmed against the journal version in `../literature/ZHOU_2025_INSTRUMENT.md`. If you
 want the two files to agree, that entry is the only edit needed and it touches no locked sentence.
 
@@ -115,7 +115,7 @@ read**). v2's empirical section states the number, because both reviews found "s
 evasion in a paper whose credibility rests on saying exactly how little it has. The locked abstract
 still says "several responses obtained to date."
 
-`PAPER_V2.md` carries a non-printing `<!-- LOCK CONFLICT -->` comment at that line. **The two
+`PAPER.md` carries a non-printing `<!-- LOCK CONFLICT -->` comment at that line. **The two
 sentences have to move together.** Two ways out:
 
 - **Unlock and correct both.** The abstract drops "several responses obtained to date."
@@ -152,7 +152,7 @@ or cut the clause; do not ship it as it stands.
   locked introduction's own version. No Stark card in this library confirmed the pricing function.
 - Katsh and Rifkin, Wing and colleagues, Healy and Pekarek, Abidin, Gagrčin, Jarrahi and Sutherland,
   and the whole insider-research quartet are **card-depth**: cited for their positions, never quoted.
-  Depth table in [`_v2_references_delta.md`](_v2_references_delta.md).
+  Depth table in [`CITATION_DEPTH.md`](CITATION_DEPTH.md).
 
 ## 6. The one thing no reviewer can supply
 
@@ -170,7 +170,7 @@ They stay correct until you decide v2 replaces v1; none was edited.
 
 ## Working files, deletable
 
-`_v2_sections_2_3.md`, `_v2_sections_4_6.md` — the two halves before assembly. Kept only so the seam
+`process/2026-08-26_sections_2_3.md`, `process/2026-08-26_sections_4_6.md` — the two halves before assembly. Kept only so the seam
 can be inspected.
 
 ---
