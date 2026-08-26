@@ -1,6 +1,6 @@
 # Context and region: two gaps filled — 26 August 2026
 
-Research memo for [`manuscript/PAPER_V2.md`](../manuscript/PAPER_V2.md), against the workshop's
+Research memo for [`manuscript/PAPER.md`](../manuscript/PAPER.md), against the workshop's
 distinctive aim: dialogue between local realities and global debates "without reducing such
 contexts to mere empirical sites." Two gaps. Part 1 finds the warrant for the manuscript's claim
 that the construct's formation site is constitutive. Part 2 assesses the Latin American and

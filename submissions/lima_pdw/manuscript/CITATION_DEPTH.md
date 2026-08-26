@@ -1,4 +1,4 @@
-# Reference-list deltas for PAPER_V2
+# Citation depth — what may be quoted, and what may not
 
 Every entry below is transcribed from a card in `../literature/cards/`, each of which carries
 Crossref-verified metadata. The `depth` column governs how the manuscript may use the source:

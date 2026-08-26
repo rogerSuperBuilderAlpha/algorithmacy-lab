@@ -73,8 +73,8 @@ being repeated.
 
 ## What the call requires of the manuscript, and where the draft stands
 
-Assessed against [`manuscript/PAPER_V2.md`](manuscript/PAPER_V2.md) on 26 August. Details in
-[`manuscript/V2_HANDOFF.md`](manuscript/V2_HANDOFF.md).
+Assessed against [`manuscript/PAPER.md`](manuscript/PAPER.md) on 26 August. Details in
+[`manuscript/HANDOFF.md`](manuscript/HANDOFF.md).
 
 | requirement | status |
 |---|---|

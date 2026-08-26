@@ -1,4 +1,4 @@
-# Falsification sweep: the negative claim of PAPER_V2.md
+# Falsification sweep: the negative claim of PAPER.md
 **Date:** 2026-08-26. **Target:** the claim that, on four scope conditions, no competence construct yet written gives the human counterpart a position. **Method:** adversarial search outside the project's 387-source library, assuming the claim false. **Manuscript deadline:** 2026-09-10.
 
 ## Verdict up front
@@ -82,4 +82,4 @@ The strongest surviving threat is not any single paper; it is that condition 3 c
 
 ## Provenance
 
-Read in full: PAPER_V2.md only. Abstract/publisher-page level: Dredge & Anderson 2021 (OpenAlex reconstruction), Hong et al. 2026 (OpenAlex), Mahy & Li 2026 (OpenAlex), Zhou et al. 2025 (Wiley page via search), Xi 2025 (Cambridge abstract page), Hu & Zhan 2024 (T&F listing). Secondary description only: JMIR #105459 (fetches returned empty; snippets from two searches), Yang & Liechty 2026 (paywalled), Bishop, Pugh, Bowker, GenAI-SFLS, Guo 2025, ALRS, German/Chinese/Spanish items, Danaher. Aneesh 2006/2009 verified against Wiley/Duke records at listing level. No quotation above exceeds what the cited page displayed; no page numbers were invented.
+Read in full: PAPER.md only. Abstract/publisher-page level: Dredge & Anderson 2021 (OpenAlex reconstruction), Hong et al. 2026 (OpenAlex), Mahy & Li 2026 (OpenAlex), Zhou et al. 2025 (Wiley page via search), Xi 2025 (Cambridge abstract page), Hu & Zhan 2024 (T&F listing). Secondary description only: JMIR #105459 (fetches returned empty; snippets from two searches), Yang & Liechty 2026 (paywalled), Bishop, Pugh, Bowker, GenAI-SFLS, Guo 2025, ALRS, German/Chinese/Spanish items, Danaher. Aneesh 2006/2009 verified against Wiley/Duke records at listing level. No quotation above exceeds what the cited page displayed; no page numbers were invented.
