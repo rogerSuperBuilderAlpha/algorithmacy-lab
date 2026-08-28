@@ -1,7 +1,7 @@
 # Polishing brief — paste this above the manuscript
 
 Everything another model needs in order to polish `PAPER.md` without breaking it. Paste this whole
-file, then paste the manuscript. Current as of 26 August 2026.
+file, then paste the manuscript. Current as of 26 August 2026, against the **author's version** of the paper.
 
 ---
 
@@ -13,7 +13,7 @@ this draft has already been through once.
 ## 1. What the paper is
 
 **"Algorithmacy: A Competency for Coordinative Co-optation."** Roger B. Hunt III, Bentley
-University. Paper 2 of a three-paper dissertation. 10,599 words including references.
+University. Paper 2 of a three-paper dissertation. 10,506 words including references.
 
 **The argument, in one line:** platforms enrol participants through an algorithm — a coordination
 form the literature has not answered on how a person takes her place in it — and every existing
@@ -21,29 +21,31 @@ competence construct draws a person–system line that leaves the human counterp
 paper proposes *algorithmacy*: the competency for coordinating with a human counterpart through an
 opaque, adaptive intermediary that reads both parties and commits decisions neither controls.
 
-**Sections and their budgets:**
+**Sections:**
 
-| section | words | job |
-|---|---|---|
-| Abstract + Introduction | 1,038 | **LOCKED — see §2** |
-| Paper 1 of This Dissertation | 949 | Establishes the open cell; carries Table 1 |
-| Extant Constructs | 2,252 | Seven hearings. The paper's strongest pages |
-| Algorithmacy | 1,320 | The construct, on Suddaby's four requirements, plus what it buys |
-| Research Design and Development to Date | 2,709 | Programme narrative, both instruments, and a forward-looking placeholder |
-| A Research Agenda | 326 | Four runnable studies |
-| What This Paper Cannot Say | 802 | Limits, and the conceded near-misses |
+| section | job |
+|---|---|
+| Abstract + Introduction | The argument and the definition. See §2 |
+| Paper 1 of This Dissertation | Establishes the open cell; carries Table 1 |
+| Extant Constructs | Seven hearings, then the four scope conditions |
+| Algorithmacy: A Construct for Coordinative Co-optation | Suddaby's four criteria, the three operations, theoretical utility |
+| Research Design and Development to Date | Research question, programme history, both instruments, Table 2 |
+| A Research Agenda | Four studies, each with falsification criteria |
+| Conclusion and Theoretical Boundaries | Limits, and the conceded near-misses |
 
-## 2. HARD CONSTRAINT: the abstract and introduction are locked
+## 2. The abstract and introduction — no longer locked, but handle with care
 
-Everything from the title down to the line `# Paper 1 of This Dissertation` is **locked and must
-come through byte-identical.** That includes the title block, both HTML comment blocks, the
-abstract, the keywords line, and all three introduction paragraphs.
+Between 19 and 26 August these were under a formal lock. **That lock is retired.** The author
+rewrote both on 26 August, and the current text is his own most recent deliberate pass.
 
-Do not rewrite them, tighten them, fix their register, or resolve their repetitions. The author has
-ruled on that text. If you think you see an error in it, say so in a note at the end — do not edit.
+So they are editable — but they are the newest and most considered part of the manuscript, and the
+definition of the construct lives in the introduction and is quoted almost verbatim in the abstract.
+**Any change to the definition in one place must be made in both.** Treat a proposed edit here as
+higher-stakes than anywhere else in the paper, and say what you changed.
 
-The introduction's register is deliberately different from the body's (first person runs far higher
-there). That is not a defect to normalise.
+One thing is missing and should not be restored without asking: an earlier version carried a
+first-page note disclosing four departures from the extended abstract the conveners accepted. It is
+gone from this version. Do not re-add it, and do not invent a replacement.
 
 ## 3. The venue, and what it wants
 
@@ -95,38 +97,45 @@ What carries the prose, and what to preserve when you edit:
 
 ## 5. Measured baselines — check you have not drifted
 
-Measured on body prose (everything after the locked opening, before `# References`), excluding
+Measured on body prose (from `# Paper 1 of This Dissertation` to `# References`), excluding
 tables and HTML comments:
 
-| | current | acceptable |
+| | current | house standard |
 |---|---|---|
-| first person / 1,000 | 4.5 | 4–8 |
-| em-dash / 1,000 | 5.3 | 3–6 |
-| sentence-length CV | 0.62 | ≥ 0.55 |
-| sentence range | 3–100 words | keep the extremes |
-| sentences ≤ 8 words | 19 | do not reduce |
-| ", not" + "rather than" | 14 | **do not exceed 15** |
-| paragraphs ending on a negation | 12 of 70 | **do not increase** |
+| first person / 1,000 | **3.7** | 4–8 |
+| em-dash / 1,000 | **8.2** | 3–6 |
+| sentence-length CV | **0.48** | ≥ 0.55 |
+| sentence range | 6–94 words | keep the extremes |
+| sentences ≤ 8 words | **10** | more is better |
+| agentless passives | 0 | 0 |
 | banned emphasis openers | 0 | 0 |
-| performed-rigor sentences | 0 | 0 |
 
-**The last two rows in bold are the important ones.** This manuscript's failure mode has never been
-vocabulary; it is uniformity. An earlier version ended seventeen of twenty-three paragraphs in its
-final three sections on a negation or an "X, not Y" contrast. Every instance defended itself; the
-metronome did not. If you find yourself writing a paragraph that lands on what something *isn't*,
-land it on a fact instead.
+**Three of these sit outside the house standard, and they point the same way: toward uniformity.**
+Sentence-length variance is the one that matters. An earlier version of this paper ran a CV of 0.62
+with nineteen short sentences; this one runs 0.48 with ten. The prose is more even, more nominalized,
+and carries more abstract nouns per sentence than the venue's own register.
 
-**Four sentences are protected and must survive verbatim:**
+**The single most useful thing you can do is increase variance, not decrease it.** Break long
+sentences where a genuine seam exists. Let some paragraphs land on a short, flat statement of fact.
+Do not smooth. Do not make the rhythm more regular than you found it — that is this manuscript's
+standing failure mode and the author will see it immediately.
 
-> She is enrolled.
-> Nobody has both.
-> The code they can read.
-> A rating that can close an account does not.
+The em-dash rate is high because several paragraphs use paired dashes as a default aside. Convert the
+lazy ones to commas or full stops; keep the ones that weld a gloss onto a term at first use.
+
+**The short sentences are the scarce resource.** These are the shortest in the body — do not
+lengthen, merge, or subordinate them, and add more of their kind rather than fewer:
+
+> The next section develops that construct.
+> This structural boundary remains empirically falsifiable.
+> The literacy analogy establishes operational symmetry.
+> Neighboring constructs remain viable alternative explanations.
+> Algorithmic coordination structurally breaks this relational model.
 
 ## 6. Repairs already made — do not undo them
 
-Each of these was an error that a reviewer or a source check caught. A polishing pass that "restores
-flow" can quietly reintroduce them.
+Each was an error a reviewer or a source check caught, and **all eight survived the author's 26 August
+rewrite intact** — verified. A polishing pass that "restores flow" can quietly reintroduce any of them.
 
 - **Paper 1's condition-mapping is not attributed to the classics.** Okhuysen and Bechky's triad
   (predictability, common understanding, accountability) was assembled in 2009; Simon, Weber, Hayek,
@@ -174,13 +183,21 @@ that none has been read in full. Keep that concession — it pre-empts the objec
 
 The draft deliberately omits things nobody has verified. Do not fill these in:
 
-- Cohort sizes, participant counts, or the number of Trinidad schools beyond "two."
-- What the government or police work involved beyond that it happened.
-- Any course title at Hult, or a start date more precise than "the spring semester of 2027, which
-  opens in January."
-- Any interview content beyond the two incidents already described.
+- Cohort sizes or participant counts anywhere in the programme history.
+- Anything about the Trinidad government or police partnership beyond what the text already states:
+  the Member of Parliament for La Brea, the national Ministry of Digital Transformation, NGO
+  partners, and the community policing division running the Hearts and Minds youth gang intervention
+  programme.
+- Any Hult course title, or a date more precise than "the spring semester of 2027, beginning in
+  January."
+- Any interview content beyond the two calibration incidents already described.
 - Page numbers. Several sources are cited without locators on purpose: Curchod's internal pagination
   is unverified, and Manky's volume and pages are unconfirmed.
+
+**One number was deliberately dropped and may be restored only by the author.** Sandberg's three
+conceptions were reported in an earlier version as a six / ten / four split among twenty informants.
+Those figures are OCR-verified and correct; the current text describes the three conceptions without
+counting them. Do not add them back on your own initiative.
 
 **Quotation depth matters.** Some sources were read at abstract or card depth and may be cited for
 their positions but **never quoted**: Bowen, Brannick and Coghlan, Anteby, Mercer, Ferguson, Teece,
@@ -191,27 +208,30 @@ Ayasrah. Do not turn a paraphrase of any of these into a quotation.
 
 These are the author's, not yours:
 
-- The empirical section states **two responses**; the locked abstract says "several responses obtained
-  to date." A non-printing `<!-- LOCK CONFLICT -->` comment marks the spot. **Leave both alone and
-  leave the comment in place.**
-- The first-page note's four deltas are the author's disclosure to reviewers.
-- One citation, Gittell (2002), anchors the paper's defence against "algorithmacy is relational
-  coordination performed under opacity." It is verified. Do not remove the sentence.
+- **The missing first-page note** disclosing four departures from the accepted extended abstract.
+  Flagged in §2. Do not restore or replace it.
+- **Gittell (2002)** anchors the paper's defence against the objection that algorithmacy is
+  relational coordination performed under opacity. It is verified. Do not cut that sentence.
+- **The reference list has been verified entry by entry**, all sixty-five. Two transcription drifts
+  were caught and reverted on 26 August. Do not "correct" a reference; if one looks wrong, say so.
 
 ## 10. What actually needs polishing
 
-Having ruled out the above, the useful work is:
+Having ruled out the above, the useful work, in order of value:
 
-- **Paragraph-level cohesion.** Read for whether each paragraph opens on something the previous one
-  ended with, and whether each ends on a hook rather than a verdict. That is where this draft is
-  weakest and where the style guide says the real gains are.
-- **The long paragraphs.** Several in the construct and design sections run past 300 words. Split
-  where a genuine seam exists; do not chop for its own sake.
-- **Sentence rhythm inside the hearings.** Seven subsections once opened with an identical move; two
-  were rewritten to break it. Check the remaining five still earn their shape.
-- **The transitions between major sections**, especially into and out of the construct section.
-- **Anything that reads as written by a machine even though it passes every rule above.** That is
-  the standard the author actually applies.
+1. **Sentence-length variance.** See §5. This is the first priority and the one the author will
+   check. Break long sentences; let some paragraphs end short and flat.
+2. **Nominalization.** The prose runs heavy on abstract nouns doing the work of verbs —
+   "operationalization," "conceptualization," "implementation," "configuration." Where a noun phrase
+   hides an action, name the agent and use the verb. This is the single largest source of the
+   evenness described in §5.
+3. **Paragraph-level cohesion.** Does each paragraph open on something the previous one ended with,
+   and end on a hook rather than a verdict? That is where the style guide says the real gains are.
+4. **Long paragraphs.** Several run past 300 words. Split where a genuine seam exists; do not chop
+   for its own sake.
+5. **The transitions between major sections**, especially into and out of the construct section.
+6. **Anything that reads as machine-written even though it passes every rule above.** That is the
+   standard the author actually applies, and he applies it hard.
 
 Report anything you changed that touches a fact, a citation, or a claim, separately from anything you
 changed for prose.
