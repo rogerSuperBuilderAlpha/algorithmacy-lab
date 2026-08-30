@@ -58,11 +58,12 @@ republicanism treats the platform relation as dyadic subordination where the cha
 Handing the chapter to the scholar whose model it revises is the sharpest available test of whether the
 revision holds.
 
-- <https://www.essex.ac.uk/people/MULDO26500/James-Muldoon> — james.muldoon@essex.ac.uk
-- Link checked 2026-08-30. The Essex profile ID is MULDO26500 and it is the page search engines return
-  for him; this session's network could not load essex.ac.uk directly, so the URL is corroborated rather
-  than opened. A stale Exeter politics page (politics.exeter.ac.uk/staff/muldoon/) still ranks for his
-  name and points at a post he has left — do not send the editor that one.
+- james.muldoon@essex.ac.uk
+- **No URL in the note sent to the editor.** The Essex profile URL that search engines return
+  (essex.ac.uk/people/MULDO26500/James-Muldoon) is a 404 per the author, and this session's egress
+  policy blocks essex.ac.uk, wzb.eu, and jku.at, so no profile link could be opened and verified here.
+  Names, titles, affiliations, and emails are what the editor needs; unverified links are a liability.
+  A stale Exeter politics page also still ranks for Muldoon's name and points at a post he has left.
 
 ## Alternates, if the editor wants substitutes
 
@@ -81,16 +82,15 @@ revision holds.
 > Thank you — here are three suggestions, chosen to cover the three literatures the chapter crosses.
 > None is a coauthor, colleague, or recent collaborator of any of the three authors.
 >
-> 1. Dr. Julia Pohle, WZB Berlin Social Science Center — digital sovereignty as a policy and conceptual
->    construct; leads the JRC Expert Commission on Digital Sovereignty.
->    https://www.wzb.eu/en/persons/julia-pohle
-> 2. Prof. Dr. Thomas Gegenhuber, Johannes Kepler University Linz — platform organizing, participation
->    and governance formats; editorial board, Information & Organization.
->    https://www.jku.at/en/institute-of-organization-science/about-us/our-team/prof-dr-thomas-gegenhuber/
+> 1. Dr. Julia Pohle, Senior Researcher, WZB Berlin Social Science Center (Politics of Digitalization) —
+>    digital sovereignty as a policy and conceptual construct; leads the Expert Commission on Digital
+>    Sovereignty for the European Commission's Joint Research Centre.
+> 2. Prof. Dr. Thomas Gegenhuber, Chair of Managing Socio-Technical Transitions, Johannes Kepler
+>    University Linz — platform organizing, participation and governance formats; editorial board,
+>    Information & Organization.
 > 3. Dr. James Muldoon, Reader in Management, Essex Business School, University of Essex, and Research
->    Associate at the Oxford Internet Institute — republican political theory applied to algorithmic
->    management and platform work. james.muldoon@essex.ac.uk
->    https://www.essex.ac.uk/people/MULDO26500/James-Muldoon
+>    Associate, Oxford Internet Institute — republican political theory applied to algorithmic
+>    management and platform work.
 >
 > If any are unavailable, Donato Cutolo (IE University), Hatim Rahman (Northwestern), and Kelley Cotter
 > (Penn State) work on closely adjacent problems.
