@@ -48,15 +48,21 @@ organization-theory framing matches the volume's own.
 
 - <https://www.jku.at/en/institute-of-organization-science/about-us/our-team/prof-dr-thomas-gegenhuber/>
 
-### 3. James Muldoon — University of Essex
+### 3. James Muldoon — Essex Business School, University of Essex
 
-Tests §2, the normative apparatus. Muldoon and Raekstad (2023) brought republican non-domination to
+Reader (Associate Professor) in Management at Essex Business School, Colchester; also Research Associate
+at the Oxford Internet Institute and Head of Digital Research at the Autonomy think tank. Tests §2, the
+normative apparatus. Muldoon and Raekstad (2023) brought republican non-domination to
 algorithmic management, and the chapter cites them while correcting their framing: §4 says labor
 republicanism treats the platform relation as dyadic subordination where the chapter reads it as triadic.
 Handing the chapter to the scholar whose model it revises is the sharpest available test of whether the
 revision holds.
 
-- <https://www.essex.ac.uk/people/MULDO26500/James-Muldoon>
+- <https://www.essex.ac.uk/people/MULDO26500/James-Muldoon> — james.muldoon@essex.ac.uk
+- Link checked 2026-08-30. The Essex profile ID is MULDO26500 and it is the page search engines return
+  for him; this session's network could not load essex.ac.uk directly, so the URL is corroborated rather
+  than opened. A stale Exeter politics page (politics.exeter.ac.uk/staff/muldoon/) still ranks for his
+  name and points at a post he has left — do not send the editor that one.
 
 ## Alternates, if the editor wants substitutes
 
@@ -81,8 +87,9 @@ revision holds.
 > 2. Prof. Dr. Thomas Gegenhuber, Johannes Kepler University Linz — platform organizing, participation
 >    and governance formats; editorial board, Information & Organization.
 >    https://www.jku.at/en/institute-of-organization-science/about-us/our-team/prof-dr-thomas-gegenhuber/
-> 3. Dr. James Muldoon, University of Essex — republican political theory applied to algorithmic
->    management and platform work.
+> 3. Dr. James Muldoon, Reader in Management, Essex Business School, University of Essex, and Research
+>    Associate at the Oxford Internet Institute — republican political theory applied to algorithmic
+>    management and platform work. james.muldoon@essex.ac.uk
 >    https://www.essex.ac.uk/people/MULDO26500/James-Muldoon
 >
 > If any are unavailable, Donato Cutolo (IE University), Hatim Rahman (Northwestern), and Kelley Cotter
