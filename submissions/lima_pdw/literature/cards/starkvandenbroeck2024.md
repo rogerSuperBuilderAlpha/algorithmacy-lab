@@ -1,0 +1,18 @@
+# Stark, D., & Vanden Broeck, P. (2024). Principles of Algorithmic Management. *Organization Theory*, 5(2), 1–24.
+
+**Identifier:** 10.1177/26317877241257213  ·  **Read depth:** full_text  ·  **Source read:** full-text card and underlying typeset SAGE PDF/OCR text at the adjacent dissertation repo (`dissertation/research/library/stark2024.md`, `pdfs/stark2024.txt`), read directly and cross-checked by full-text search for this audit; page markers are the published *Organization Theory* 5(2):1–24 pagination.
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** coordinative-co-optation-source (Lima PDW)
+
+## What it argues
+
+Stark and Vanden Broeck develop a theory of algorithmic management as a distinct management style tied to a shift in organizational topology: "many of the most valuable actors, assets, and activities are not located within the firm" (Abstract, p. 1), posing "a distinctive challenge: how to manage when the most valuable assets and activities are not in the firm" (Abstract, p. 1). Their signature line: "whereas actors in hierarchies command, in markets they contract, and in networks collaborate, on platforms they are co-opted" (Abstract, p. 1; repeated p. 5). A five-dimension comparison (Table 1, p. 14) contrasts scientific, collaborative, and algorithmic management across organizational form, object of management, ideology, modality, and accountability. The mechanism: platforms "enroll[] users and providers in a system of ratings" where "the platform benefits from her agency without her acting as its agent... The platform operator leverages rather than delegates" (p. 14). Accountability is "twisted": "neither hierarchical nor heterarchical. It is distributed, deflected, and denied" (p. 14). The method is conceptual/historical comparison, not new fieldwork; evidence is illustrative (eBay, ride-hail, MyJohnDeere, a megachurch database).
+
+## Relation to the argument (Lima PDW manuscript)
+
+The manuscript's source for the paper's own title-term mechanism, cited 7 times. Line 25 correctly quotes "on platforms they are co-opted" verbatim and correctly attributes only that phrase (not the compound "coordinative co-optation," which appears nowhere in this source) to Stark and Vanden Broeck — the manuscript's current wording already reflects this careful distinction. Line 44 paraphrases the four-verb contrast accurately. Lines 44, 513, and 524 correctly pair this source with Stark & Pais (2020) for the enrollment/matching/evaluation/termination claim. Line 296 is the exception: it cites this source *alone* for "matches unchosen parties," but the "match"/"matching" vocabulary belongs entirely to Stark & Pais (2020) — a full-text search of this article turns up zero instances of "match" anywhere. That line should add the Stark & Pais citation, matching how the identical claim is cited everywhere else in the manuscript.
+
+## Caution
+
+A full-text search also turns up zero instances of "gap"/"coordination gap" anywhere in the article — line 248's "platform designs exploit coordination gaps (Stark & Vanden Broeck, 2024)" is not this source's own vocabulary. The substance (platforms addressing/exploiting the fact that valuable activity sits outside the firm boundary) is defensible as a background gloss, but a reader checking the source for "coordination gaps" specifically will not find it stated that way — worth tightening to the source's own terms if precision matters more than economy here. The piece is a conceptual essay: cite it for the construct and mechanism, not as an empirical finding about measured co-optation rates.

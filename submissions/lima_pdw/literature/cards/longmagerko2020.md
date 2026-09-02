@@ -16,3 +16,14 @@ Section 9 cites this as the fifth construct, the one that makes the algorithm an
 ## Caution
 
 A synthesis and design framework, not a validated instrument; the competencies are proposed from a literature review, not measured or factor-analysed. The setting is AI education for general audiences, mostly learners rather than workers. Read at abstract depth; the competency list should be inspected before §9's comparison is stated in final form, since the argument turns on what is in it.
+
+## Fixed 2026-08-29 — page numbers removed from PAPER.md
+
+This card is `abstract_only`, but the companion steelman (`../steelmans/longmagerko2020.md`, built from
+the camera-ready full text via Internet Archive) explicitly warns that page anchors from that copy are
+not guaranteed to match the ACM version of record, and recommends citing by competency number instead.
+`PAPER.md` was nonetheless citing this source with four page numbers (pp. 2, 6, 2, 7). Internet Archive
+is unreachable from this environment, ACM's page returned 403, and no open-access PDF exists on
+Semantic Scholar, so none of the four could be independently re-verified. All four page numbers were
+removed from the manuscript 2026-08-29; the quotations themselves were already verified verbatim
+against the steelman and are unchanged.

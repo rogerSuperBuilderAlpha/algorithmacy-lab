@@ -17,6 +17,9 @@ for the research plan in `../../manuscript/RESEARCH_PLAN.md`.
 | `meesbuss2022.pdf` | Mees-Buss, Welch & Piekkari, *ORM* 25(2) |
 | `timmermans2012.pdf` | Timmermans & Tavory, *Sociological Theory* 30(3) |
 | `tracy2010.pdf` | Tracy, *Qualitative Inquiry* 16(10) |
+| `eisenhardtgraebner2007.pdf` | Eisenhardt & Graebner, *AMJ* 50(1). Dropped 2026-08-28, from `josephmahoney.web.illinois.edu` (course-page repost of the JSTOR scan) |
+| `langley1999.pdf` | Langley, *AMR* 24(4). Dropped 2026-08-28, from `assets.super.so` |
+| `coghlanbrannick2014_ch1.pdf` | Coghlan & Brannick, *Doing Action Research in Your Own Organization* (4th ed.), Ch. 1 only. Dropped 2026-08-28, the official SAGE sample-chapter PDF from `us.sagepub.com`. Chapters 2–8 not obtained |
 
 Still missing: Spitzberg & Cupach (1984) book; the ACM PDF of Long & Magerko (2020); publisher
 PDFs of Spitzberg (2006) and Hancock et al. (2020), both read from Oxford's HTML but without page

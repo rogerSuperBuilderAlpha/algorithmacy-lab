@@ -10,13 +10,37 @@ The accepted title:
 > Algorithmacy: A communication competency construct for triadic mediated coordination, with
 > empirical evidence from a Caribbean AI engineering cohort
 
-**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)** — the **author's version**, received
-26 August 2026, 10,506 words. Source of record: <https://docs.google.com/document/d/1ysMedPvYVrsjKwAotegIuGHF-DuLxI74T5KSBwUid_I/edit>.
+**Cut on 2026-09-01 to a ~10,200-word body** (16,600 words with abstract, 99 references, and
+appendices) from the 18,100-word body of the 30–31 August v4 draft, on the author's instruction: all
+eight hearings kept but compressed (Human–Machine Communication held at ~1,850 words), the construct
+section consolidated, the empirical section folded to two subsections, the Conclusion's boundary
+cases dropped, and 20 orphaned references pruned. The budget and every elimination are in
+[`manuscript/CUT_PLAN_2026-09-01.md`](manuscript/CUT_PLAN_2026-09-01.md); the pre-cut text is
+archived at [`archive/2026-09-01_PAPER_pre-cut.md`](archive/2026-09-01_PAPER_pre-cut.md). The
+paragraph below describes the draft as it stood before that cut.
 
-It replaced the lab's 26 August rebuild, and the author rewrote the abstract and introduction in the
-same pass, so **the lock is retired**: [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) and
-[`manuscript/LOCK.md`](manuscript/LOCK.md) now describe an opening the paper no longer carries. What
-the rebuild changed, and what remains open, is [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md).
+**The live draft is [`manuscript/PAPER.md`](manuscript/PAPER.md)**, currently 19,012 words — a full
+rewrite landed 2026-08-29, built from [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md)'s v3
+architecture, which was itself generated against a six-reviewer Fable panel review
+([`reviews/fable_panel_2026-08-29_gdoc_merged/`](reviews/fable_panel_2026-08-29_gdoc_merged/)) of
+the prior draft. The repo is the source of record. The author's Google Doc draft (received 26 August
+2026) was merged into the repo on 2026-08-28, diverged further under independent editing through
+2026-08-29, was merged back into the repo a second time that day with that session's citation fixes
+and a style pass, reviewed by the Fable panel, and rewritten — the Doc itself is now well behind the
+repo and **archived, not deleted**; do not write from it. The two intermediate drafts that fed this
+rewrite are archived at [`archive/2026-08-29_PAPER_gdoc_merged.md`](archive/2026-08-29_PAPER_gdoc_merged.md)
+(the merged Doc, pre-rewrite) and [`archive/2026-08-29_PAPER.md`](archive/2026-08-29_PAPER.md) (the
+prior repo `PAPER.md`, with that day's citation-verification sweep applied — nine page-number
+corrections, one false quotation fixed, ~75 references independently re-verified via Crossref).
+
+**The v2 lock is further retired by this rewrite.** It already didn't hold after the 26 August
+rebuild; the 29 August rewrite changes the abstract and introduction again (the abstract's novelty
+claim is narrowed, the introduction opens on a different scene). Treat
+[`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) and
+[`manuscript/LOCK.md`](manuscript/LOCK.md) as historical, not binding, until re-locked. What changed
+in the 26 August rebuild, and what remained open at that point, is
+[`manuscript/HANDOFF.md`](manuscript/HANDOFF.md) — read it as history now, not as the current status;
+this README's Contents table and the two paragraphs above are the current status.
 
 **The previous draft is archived** at [`archive/2026-08-19_PAPER.md`](archive/2026-08-19_PAPER.md) —
 "The Competency a Form Demands: Algorithmacy and the Co-optation Column," twelve sections, the
@@ -49,11 +73,13 @@ the historical record and should not be restated as current.
 
 | path | what it is |
 |---|---|
-| [`manuscript/PAPER.md`](manuscript/PAPER.md) | **The live paper.** Body revisable; abstract and introduction are not |
-| [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | **Locked** — the official abstract and introduction |
-| [`manuscript/LOCK.md`](manuscript/LOCK.md) | The lock: what it covers, what it forbids |
-| [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | The live architecture, with section budgets |
-| [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md) | **Start here after the paper.** What the rebuild changed; what is still author-only |
+| [`manuscript/PAPER.md`](manuscript/PAPER.md) | **The live paper**, rewritten 2026-08-29 from `OUTLINE.md`'s v3 architecture. Body revisable; the v2 lock on abstract/introduction no longer holds (see above) |
+| [`manuscript/OUTLINE.md`](manuscript/OUTLINE.md) | **The live architecture** — v3, the 29 August round, built against the six-reviewer Fable panel. Per-section Job statements, repairs tagged to specific reviewer findings, prose diagnostics, reference-list deltas |
+| [`reviews/fable_panel_2026-08-29_gdoc_merged/`](reviews/fable_panel_2026-08-29_gdoc_merged/) | **Current review round.** Six full independent reviews (org theory, comm studies, methodology, hostile Reviewer 2, copyeditor, non-specialist) plus `SYNTHESIS.md`, the cross-cutting brief `OUTLINE.md` v3 was built from |
+| [`manuscript/INTRODUCTION.md`](manuscript/INTRODUCTION.md) | Historical — the abstract/introduction as locked before the 26 August rebuild. No longer binding |
+| [`manuscript/LOCK.md`](manuscript/LOCK.md) | Historical — the lock's original terms. Superseded twice over (26 August, then 29 August) |
+| [`manuscript/MODEL_PAPER_COMPARISON.md`](manuscript/MODEL_PAPER_COMPARISON.md) | Verified structural-template search: Suddaby/Whetten's construct-clarity criteria, Petriglieri (2011) and Räcker et al. (2024) as candidate models. The Option A/B decision it left open is now settled: Option B (keep the current architecture), reflected in `OUTLINE.md` v3 |
+| [`manuscript/HANDOFF.md`](manuscript/HANDOFF.md) | Historical — what the 26 August rebuild changed. Superseded by the 29 August rewrite; this README is current |
 | [`manuscript/CITATION_DEPTH.md`](manuscript/CITATION_DEPTH.md) | Which sources may be quoted and which are position-only |
 | [`manuscript/METHODS_SKELETON.md`](manuscript/METHODS_SKELETON.md) | The jobs the methods section owes a reviewer |
 | [`manuscript/RESEARCH_PLAN.md`](manuscript/RESEARCH_PLAN.md) | Deepening plan: steelman every construct, develop the construct on a published model |
@@ -62,16 +88,17 @@ the historical record and should not be restated as current.
 | [`ABSTRACT.md`](ABSTRACT.md) | **The submitted package, verbatim and locked** — what the conveners accepted |
 | [`PLAN.md`](PLAN.md) | Schedule to 10 September, what is closed and what still gates, risks |
 | [`AGENDA.md`](AGENDA.md) | Open questions, author-only items first |
-| [`reviews/`](reviews/) | Every review, oldest first. Current: [`REVIEW_2026-08-26.md`](reviews/REVIEW_2026-08-26.md) |
+| [`reviews/`](reviews/) | Every review, oldest first. Current round: [`fable_panel_2026-08-29_gdoc_merged/`](reviews/fable_panel_2026-08-29_gdoc_merged/) (above); prior panel at [`fable_panel_2026-08-28/`](reviews/fable_panel_2026-08-28/); dated solo reviews `REVIEW_2026-08-18.md` through `REVIEW_2026-08-28.md` |
+| [`literature/VERIFICATION_2026-08-29_full_sweep.md`](literature/VERIFICATION_2026-08-29_full_sweep.md) | Full citation-authenticity sweep: every page-numbered quote and all 75 (now more) reference-list entries independently verified via Crossref/publisher metadata |
 | [`literature/`](literature/) | **Working library.** Start at [`literature/README.md`](literature/README.md) |
 | [`literature/GAPS.md`](literature/GAPS.md) | **The research gap register** and what the 26 August round closed |
-| [`literature/cards/`](literature/cards/) | 388 source cards |
+| [`literature/cards/`](literature/cards/) | 390+ source cards (five new this round: Bucher 2017, DeVito et al. 2018, Litt 2012, Wilkinson 1965, Aneesh 2009, plus Danaher 2016 as an alternate) |
 | [`literature/steelmans/`](literature/steelmans/) | Full-text hearings of the extant constructs |
 | [`literature/models/`](literature/models/) | Architecture memos for construct development and genre-match papers |
 | [`literature/TRAPS.md`](literature/TRAPS.md) | Live citation hazards — wrong paper, wrong author, two Zhou 2025s |
 | [`literature/ZHOU_2025_INSTRUMENT.md`](literature/ZHOU_2025_INSTRUMENT.md) | The rival scale, all twelve items, and the discrimination they support |
 | [`interview/`](interview/) | **The live instrument.** Harness, three protocols, anonymous intake. See below |
-| [`archive/`](archive/) | Superseded drafts and their outlines. Do not write from them |
+| [`archive/`](archive/) | Superseded drafts and outlines, including the two 2026-08-29 intermediate files this rewrite was built from. Do not write from any of them |
 | [`ACCEPTED_VS_CURRENT.md`](ACCEPTED_VS_CURRENT.md) · [`DEPARTURES.md`](DEPARTURES.md) · [`REVISION_MEMO.md`](REVISION_MEMO.md) | Historical record of how the paper moved away from the accepted abstract |
 | [`library/`](library/) | **Install archive**, frozen. Eleven cards copied onto the private shelf |
 | [`working/`](working/) | Scratch; not for citation |

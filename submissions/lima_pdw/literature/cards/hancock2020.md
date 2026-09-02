@@ -34,3 +34,18 @@ the passage introduced "We integrate these AI and CMC conceptualizations to defi
 abstract's variant wording ("interpersonal communication in which an intelligent agent ... communication
 goals") is on p. 89; the manuscript quotes the p. 90 body version, which is the right one. Table 1
 (dimensions: magnitude, media type/medium, optimization, autonomy, role orientation) begins p. 91.
+
+## Verified 2026-08-29 (A2/A3 sweep) — five unpaged Table 1 quotes checked
+
+PAPER.md's five parameter-definition quotes (magnitude, media type, optimization goal, autonomy, role
+orientation — none currently carries a page cite) checked verbatim against Table 1 on **printed p. 91**
+(confirmed by direct page-image read, not just pdftotext page-counting, since pdftotext's formfeed count
+mislabeled the table's page as 90). All five match the table's "Definition" column exactly, word for
+word: "The extent of the changes that AI enacts on messages" (magnitude); "The media in which AI
+operates" (media type, truncating the table's "(e.g., text, audio, video)" parenthetical, which is fine
+for an inline partial quote); "The goal for which AI is optimizing the messages" (optimization goal);
+"The degree to which AI can operate on messages without the sender's supervision" (autonomy); "The role
+that the AI is operating on behalf of" (role orientation, truncating "(e.g., sender vs. receiver)").
+CONFIRMED, no wording errors. If the manuscript wants page cites added for these, the correct page is
+**91**, not 90 — the surrounding prose in the article that discusses/introduces these dimensions runs
+p. 90, but the table itself (the actual source of the quoted definitions) is p. 91.

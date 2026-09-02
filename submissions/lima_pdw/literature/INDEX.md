@@ -1,6 +1,6 @@
 # Lima PDW — literature index
 
-387 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
+388 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
 
 This is the working library for the Lima support arm. Paper 2's 44 cited works are mapped in [`COVERAGE.md`](COVERAGE.md). Citation hazards are in [`TRAPS.md`](TRAPS.md). How to add a card is in [`README.md`](README.md).
 
@@ -16,10 +16,11 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 
 | Depth | Count |
 |---|---|
-| Full text | 101 |
+| Full text | 110 |
 | Extended preview | 37 |
-| Abstract only | 223 |
-| Metadata only | 26 |
+| Abstract only | 215 |
+| Metadata only | 25 |
+| Abstract plus author secondary | 1 |
 
 ## Clusters
 
@@ -29,7 +30,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 | ai-productivity-variance | 24 |
 | algorithmic-competence-rivals | 59 |
 | communication-competence | 74 |
-| coordination-forms | 20 |
+| coordination-forms | 21 |
 | opacity-folk-theories | 48 |
 | qualitative-method | 65 |
 | situated-learning | 39 |
@@ -228,6 +229,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Neighbour, and the most sophisticated instrument in the cluster — which is why its failure to contain a counterpart is the most decisive.
 - **[Pinski, M., & Benlian, A. (2023). AI literacy — Towards measuring human competency in artificial intelligence. In *Proceedings of the 56th Hawaii International Conference on System Sciences* (pp. 165–174).](cards/pinski2023.md)**  
   **This is the most dangerous card in the sub-cluster, and it still fails — but the manuscript must handle it explicitly rather than sweeping it into a general claim, because a reviewer who reads it superficially will think it has a human position in it.**
+- **[Sutherland, W., Jarrahi, M. H., Dunn, M., & Nelson, S. B. (2020). Work precarity and gig literacies in online freelancing. *Work, Employment and Society*, 34(3), 457–475.](cards/sutherland2020.md)**  
+  The manuscript already claims this as its nearest precedent, and the claim is right, but the card has to record something the manuscript should not discover from a reviewer: **this is the only source in the sub-cluster whose empirical design contains the…
 - **[van Deursen, A. J. A. M., Helsper, E. J., & Eynon, R. (2016). Development and validation of the Internet Skills Scale (ISS). *Information, Communication & Society*, 19(6), 804–823.](cards/vandeursen2016.md)**  
   A neighbour, and a usefully instructive one, because the ISS is the field's best-validated example of the thing algorithmacy is not.
 - **[Vuorikari, R., Kluzer, S., & Punie, Y. (2022). *DigComp 2.2: The Digital Competence Framework for Citizens — With new examples of knowledge, skills and attitudes*. EUR 31006 EN. Publications Office of the European Union.](cards/vuorikari2022.md)**  
@@ -326,8 +329,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   A neighbour, and the one that shows what happens when algorithm literacy gets absorbed into technology-acceptance research.
 - **[Stelmaszak, M., Joshi, M., & Constantiou, I. (2026). Artificial intelligence as an organizing capability arising from human-algorithm relations. *Journal of Management Studies*, 63(2), 335–365.](cards/stelmaszak2026.md)**  
   **Named in §9 as a construct to be beaten, and the manuscript's disposal of it is correct but told too quickly.** The paper's §8 possession argument does the work: a capability is held by the party that owns the routine, and algorithmacy's subject owns…
-- **[Sutherland, W., Jarrahi, M. H., Dunn, M., & Nelson, S. B. (2020). Work precarity and gig literacies in online freelancing. *Work, Employment and Society*, 34(3), 457–475.](cards/sutherland2020.md)**  
-  The manuscript already claims this as its nearest precedent, and the claim is right, but the card has to record something the manuscript should not discover from a reviewer: **this is the only source in the sub-cluster whose empirical design contains the…
 - **[Tour, E., & Zadorozhnyy, A. (2025). Conceptualizing and operationalizing prompt literacy for English language learners. *Journal of Adolescent & Adult Literacy*, 69(3), e70020.](cards/tour2025.md)**  
   Neighbour, and the clearest case in the cluster of a construct that is unambiguously **skill** by the paper's criterion.
 - **[Tully, S. M., Longoni, C., & Appel, G. (2025). Lower artificial intelligence literacy predicts greater AI receptivity. *Journal of Marketing*, 89(5), 1–20.](cards/tully2025.md)**  
@@ -505,7 +506,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Suchman, L. A. (2007). *Human-machine reconfigurations: Plans and situated actions* (2nd ed.). Cambridge University Press.](cards/suchman2007.md)**  
   **The deepest available theoretical statement of asymmetric interpretation, and the paper does not cite it.** Suchman's asymmetry is exactly §7's: one party interprets richly from a thin trace, the other party's "interpretation" is a categorisation the…
 
-## coordination-forms (20)
+## coordination-forms (21)
 
 ### Full text
 
@@ -552,6 +553,11 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   §4 cites this beside Ritter and Gemünden as the second named competency in the network column, and it earns the place by being the *decomposed* version.
 - **[Walter, A., Auer, M., & Ritter, T. (2006). The impact of network capabilities and entrepreneurial orientation on university spin-off performance. *Journal of Business Venturing*, 21(4), 541–567.](cards/walter2006.md)**  
   Two uses.
+
+### Abstract plus author secondary
+
+- **[Gittell, J. H. (2002). Coordinating mechanisms in care provider groups: Relational coordination as a mediator and input uncertainty as a moderator of performance effects. *Management Science*, 48(11), 1408–1426.](cards/gittell_relational_coordination.md)**  
+  Anchors the Extant Constructs opening sentence, and the anchor holds.
 
 ## opacity-folk-theories (48)
 
@@ -661,6 +667,21 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 
 ## qualitative-method (65)
 
+### Full text
+
+- **[Bowen, G. A. (2006). Grounded theory and sensitizing concepts. *International Journal of Qualitative Methods*, 5(3), 12–23.](cards/bowen2006.md)**  
+  This is the applied citation that the Blumer warrant needs, and it is a stronger fit than the prior card credited: Bowen does not merely gesture at concepts surviving or not, he **reports a discard** — two of three sensitizing concepts dropped from the…
+- **[Coghlan, D., & Brannick, T. (2014). *Doing action research in your own organization* (4th ed.). Sage.](cards/coghlanbrannick2014.md)**  
+  This is now the design's governing methodology, not a supporting citation for role duality.
+- **[Eisenhardt, K. M., & Graebner, M. E. (2007). Theory building from cases: Opportunities and challenges. *Academy of Management Journal*, 50(1), 25–32.](cards/eisenhardtgraebner2007.md)**  
+  The single-case justification is exactly as advertised and directly usable in "The Trinidad Field Setting as a Strategic Research Site": a single case is warranted when it is "unusually revelatory, extreme...
+- **[Gioia, D. A., Corley, K. G., & Hamilton, A. L. (2013). Seeking qualitative rigor in inductive research: Notes on the Gioia methodology. *Organizational Research Methods*, 16(1), 15–31.](cards/gioia2013.md)**  
+  Two corrections to the prior card.
+- **[Langley, A. (1999). Strategies for theorizing from process data. *Academy of Management Review*, 24(4), 691–710.](cards/langley1999.md)**  
+  **Temporal bracketing is the directly usable strategy, and it names something the current draft's "Program" section does without naming it.** The section already narrates the two-year trajectory — Trinidad secondary schools (Jul–Aug 2025) → La Brea →…
+- **[Timmermans, S., & Tavory, I. (2012). Theory construction in qualitative research: From grounded theory to abductive analysis. *Sociological Theory*, 30(3), 167–186.](cards/timmermans2012.md)**  
+  This is the citation for the paper's methods section.
+
 ### Extended preview
 
 - **[Chopra, F., & Haaland, I. (2023). *Conducting qualitative interviews with AI*. CEBI Working Paper 06/23, University of Copenhagen; also CESifo Working Paper 10666 and SSRN 4572954.](cards/chopra2023.md)**  
@@ -680,8 +701,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The citation for the sentence §10 of the protocol already writes — "the investigator is the instrument" — with the addition that it names what to *do* about it.
 - **[Blumer, H. (1954). What is wrong with social theory? *American Sociological Review*, 19(1), 3–10.](cards/blumer1954.md)**  
   This is the source citation for the protocol's most consequential analytic sentence — that the three facets are held as sensitizing concepts and not as a coding frame.
-- **[Bowen, G. A. (2006). Grounded theory and sensitizing concepts. *International Journal of Qualitative Methods*, 5(3), 12–23.](cards/bowen2006.md)**  
-  This is the applied citation that Blumer needs.
 - **[Brannick, T., & Coghlan, D. (2007). In defense of being "native": The case for insider academic research. *Organizational Research Methods*, 10(1), 59–74.](cards/brannick2007.md)**  
   This is the strongest single answer to the objection an OS/OT reviewer will raise first, and it is in *Organizational Research Methods*, which is where that reviewer lives.
 - **[Brinkmann, S., & Kvale, S. (2015). *InterViews: Learning the craft of qualitative research interviewing* (3rd ed.). Sage.](cards/brinkmann2015.md)**  
@@ -694,8 +713,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The constructivist premise is what makes the study's interview material intelligible as data rather than as contamination.
 - **[Coghlan, D. (2007). Insider action research: Opportunities and challenges. *Management Research News*, 30(5), 335–343.](cards/coghlan2007.md)**  
   Worth holding in reserve rather than citing in the body.
-- **[Coghlan, D., & Brannick, T. (2014). *Doing action research in your own organization* (4th ed.). Sage.](cards/coghlanbrannick2014.md)**  
-  The place to send a committee or an IRB analyst who wants more than a journal article on how role duality gets managed in practice.
 - **[Corbin, J. M., & Strauss, A. (1990). Grounded theory research: Procedures, canons, and evaluative criteria. *Qualitative Sociology*, 13(1), 3–21.](cards/corbin1990.md)**  
   The origin citation for two things this protocol uses without attribution: theoretical saturation (§5's three-consecutive-interviews rule) and the requirement that a reader be able to judge the process, not only the product.
 - **[Deterding, N. M., & Waters, M. C. (2021). Flexible coding of in-depth interviews: A twenty-first-century approach. *Sociological Methods & Research*, 50(2), 708–739.](cards/deterding2021.md)**  
@@ -706,8 +723,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The bridge between the autoethnographic literature and an organizational readership, and the citation to use if the paper decides to make anything at all of the author's own account of building the gate.
 - **[Eisenhardt, K. M. (1989). Building theories from case study research. *Academy of Management Review*, 14(4), 532–550.](cards/eisenhardt1989building.md)**  
   The a priori constructs clause is the useful part.
-- **[Eisenhardt, K. M., & Graebner, M. E. (2007). Theory building from cases: Opportunities and challenges. *Academy of Management Journal*, 50(1), 25–32.](cards/eisenhardtgraebner2007.md)**  
-  §10 of the protocol concedes one site and one gate and calls it the largest external-validity problem.
 - **[Ellis, C., Adams, T. E., & Bochner, A. P. (2011). Autoethnography: An overview. *Forum Qualitative Sozialforschung / Forum: Qualitative Social Research*, 12(1), Art. 10.](cards/ellis2011.md)**  
   Cite it to mark a boundary rather than to claim membership.
 - **[Emerson, R. M., Fretz, R. I., & Shaw, L. L. (2011). *Writing ethnographic fieldnotes* (2nd ed.). University of Chicago Press.](cards/emersonfretzshaw2011.md)**  
@@ -716,8 +731,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   This is the citation §8 of the protocol needs and does not have.
 - **[Gehman, J., Glaser, V. L., Eisenhardt, K. M., Gioia, D., Langley, A., & Corley, K. G. (2018). Finding theory–method fit: A comparison of three qualitative approaches to theory building. *Journal of Management Inquiry*, 27(3), 284–300.](cards/gehman2018.md)**  
   The single most efficient citation for the paper's central methodological decision.
-- **[Gioia, D. A., Corley, K. G., & Hamilton, A. L. (2013). Seeking qualitative rigor in inductive research: Notes on the Gioia methodology. *Organizational Research Methods*, 16(1), 15–31.](cards/gioia2013.md)**  
-  The most likely reviewer default — "why is there no data structure?" — and the paper needs an answer whether or not it adopts the method.
 - **[Golden-Biddle, K., & Locke, K. (1993). Appealing work: An investigation of how ethnographic texts convince. *Organization Science*, 4(4), 595–616.](cards/goldenbiddle1993.md)**  
   Their authenticity strategies read as a checklist this paper can meet and mostly already plans to: state the researcher–member relationship (§9), show the analytic discipline (§7's committed scheme, blind coder, discard log), qualify the biases (§10).
 - **[Golden-Biddle, K., & Locke, K. (1997). *Composing qualitative research*. Sage.](cards/goldenbiddle1997.md)**  
@@ -734,8 +747,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Included as a **disambiguation card**.
 - **[Kapania, S., Agnew, W., Eslami, M., Heidari, H., & Fox, S. E. (2025). "Simulacrum of stories": Examining large language models as qualitative research participants. In *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems* (pp. 1–17). ACM.](cards/kapania2025.md)**  
   Cite it to draw a bright line the paper must not be suspected of crossing.
-- **[Langley, A. (1999). Strategies for theorizing from process data. *Academy of Management Review*, 24(4), 691–710.](cards/langley1999.md)**  
-  RQ1 and RQ3 are process questions in exactly her sense.
 - **[Langley, A., Smallman, C., Tsoukas, H., & Van de Ven, A. H. (2013). Process studies of change in organization and management: Unveiling temporality, activity, and flow. *Academy of Management Journal*, 56(1), 1–13.](cards/langley2013.md)**  
   Where Langley (1999) supplies the strategies, this supplies the standing — an AMJ editorial establishing that process questions are legitimate organizational questions and how they should be framed.
 - **[Learmonth, M., & Humphreys, M. (2012). Autoethnography and academic identity: Glimpsing business school doppelgängers. *Organization*, 19(1), 99–117.](cards/learmonth2012.md)**  
@@ -776,8 +787,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The paper's most useful function here is the anomaly.
 - **[Tavory, I., & Timmermans, S. (2014). *Abductive analysis: Theorizing qualitative research*. University of Chicago Press.](cards/tavory2014.md)**  
   Cite the book rather than the article when the paper needs the *design* claim — that committing a coding scheme and a refutation condition in advance is compatible with, and in fact required by, abductive theorizing.
-- **[Timmermans, S., & Tavory, I. (2012). Theory construction in qualitative research: From grounded theory to abductive analysis. *Sociological Theory*, 30(3), 167–186.](cards/timmermans2012.md)**  
-  This is the citation for §7 of the protocol.
 - **[Tracy, S. J. (2010). Qualitative quality: Eight "big-tent" criteria for excellent qualitative research. *Qualitative Inquiry*, 16(10), 837–851.](cards/tracy2010.md)**  
   Useful precisely because it is paradigm-neutral: a bricolage design that is neither Gioia nor grounded theory still has to say by what standard it should be judged, and Tracy's eight give an answerable list.
 - **[Van Maanen, J. (1988). *Tales of the field: On writing ethnography*. University of Chicago Press.](cards/vanmaanen1988.md)**  
@@ -798,6 +807,11 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Cite the volume when the paper needs to place its design in a tradition rather than to lean on a single argument; cite the Alvesson chapter when it needs the at-home claim specifically.
 
 ## situated-learning (39)
+
+### Full text
+
+- **[Sandberg, J. (2000). Understanding human competence at work: An interpretative approach. *Academy of Management Journal*, 43(1), 9-25.](cards/sandberg2000.md)**  
+  §8 already names Sandberg as one of two anchors, and reading him carefully turns up a contradiction that a reviewer will find.
 
 ### Abstract only
 
@@ -870,8 +884,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   For this cluster the value is methodological, and it lands on §11 rather than on §8.
 - **[Polanyi, M. (1966). The tacit dimension. *Routledge & Kegan Paul* (also Doubleday, New York, 1966/1967).](cards/polanyi1966.md)**  
   The philosophical floor under §10, and the source that explains *why* a rule can be understood without being statable.
-- **[Sandberg, J. (2000). Understanding human competence at work: An interpretative approach. *Academy of Management Journal*, 43(1), 9-25.](cards/sandberg2000.md)**  
-  §8 already names Sandberg as one of two anchors, and reading him carefully turns up a contradiction that a reviewer will find.
 - **[Schatzki, T. R. (2002). The site of the social: A philosophical account of the constitution of social life and change. *Pennsylvania State University Press*.](cards/schatzki2002.md)**  
   Two things here bear on §8 and §10.
 - **[Spencer, L. M., & Spencer, S. M. (1993). Competence at work: Models for superior performance. *Wiley*.](cards/spencer1993.md)**  
@@ -885,7 +897,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 
 ## Unclustered (2)
 
-### Abstract only
+### Full text
 
 - **[Guzman, A. L., & Lewis, S. C. (2020). Artificial intelligence and communication: A Human–Machine Communication research agenda. *New Media & Society*, 22(1), 70–86.](cards/guzmanlewis2020.md)**  
   §9 files this as the construct that makes the algorithm **a partner** — an interlocutor in its own right, studied as a human–machine dyad.

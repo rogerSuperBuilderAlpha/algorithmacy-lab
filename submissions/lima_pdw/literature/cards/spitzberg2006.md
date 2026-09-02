@@ -45,3 +45,34 @@ The version-of-record PDF was obtained from Oxford Academic and saved as `../pdf
 
 The earlier caution about unverifiable retrieval is superseded: the article was re-read in full from
 the OUP HTML and the VoR PDF on 2026-08-26. The caution against citing the measure's item counts stands.
+
+## Verified 2026-08-29 (A2/A3 sweep — page-only citations and unpaged quotes)
+
+All four page-only citations in `PAPER.md`'s CMC hearing checked directly against the page images (not
+just `pdftotext` extraction, which produced two off-by-one errors below the note — visual page images
+are the more reliable check for this PDF):
+
+- "four core skill clusters — attentiveness, composure, coordination, and expressiveness" (p. 638) —
+  **CONFIRMED**. Exact match, p. 638: "interpersonal skills reduce to four basic skill clusters:
+  attentiveness..., composure..., coordination..., and expressiveness...".
+- "conditioned across five discrete facets of context" (p. 644) — **CONFIRMED**. P. 644: "the five
+  typological facets of context ... cultural, chronological, relational, environmental, and functional."
+- "Five relational outcome criteria ... appropriateness, effectiveness (encompassing task achievement
+  and efficiency), coorientation, satisfaction, and relationship development" (p. 648) — **CONFIRMED**.
+  Matches the article's working typology sentence on p. 648 nearly verbatim.
+- "characterized research on the framework as nascent" (p. 651) — **CONFIRMED**. P. 651: "Research on
+  the CMC competence model is nascent." (A naive `pdftotext -layout` formfeed-count script misdated this
+  and the two items below by one page — 650/647 instead of 651/648 — due to an apparent page-break
+  artifact partway through the document; the visual page images are correct and this note supersedes
+  the automated count.)
+
+Two unpaged direct quotations, both locatable and both on the same page:
+- "perceived legitimacy or fit of a message to the context" — found p. 648 ("Appropriateness is the
+  perceived legitimacy or fit of a message to the context").
+- "positive affect associated with fulfillment of positively valenced expectancies" — found p. 648
+  ("Satisfaction is the positive affect associated with the fulfillment of positively valenced
+  expectancies (Spitzberg & Hecht, 1984)").
+
+Recommend PAPER.md add "(p. 648)" to both if the venue's style wants page cites on every direct
+quotation; leaving them unpaged is not an error, just optional precision. No corrections needed to any
+of the four already-cited page-only citations.

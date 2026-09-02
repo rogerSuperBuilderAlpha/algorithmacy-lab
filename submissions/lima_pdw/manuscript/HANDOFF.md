@@ -1,5 +1,13 @@
 # The 26 August rebuild — what changed, what it still needs
 
+**Superseded 2026-08-29.** `PAPER.md` was rewritten in full that day from
+[`OUTLINE.md`](OUTLINE.md)'s v3 architecture, built against a six-reviewer Fable panel
+([`../reviews/fable_panel_2026-08-29_gdoc_merged/`](../reviews/fable_panel_2026-08-29_gdoc_merged/)).
+Everything below is history: it describes the 26 August draft, which is itself archived at
+[`../archive/2026-08-29_PAPER.md`](../archive/2026-08-29_PAPER.md) (the version current through the
+morning of 29 August, with that day's citation-verification sweep applied) — read the repo
+[`README.md`](../README.md) for the current status, not this file.
+
 **Written 26 August 2026.** New draft: [`PAPER.md`](PAPER.md). The 19 August draft is
 untouched at [`PAPER.md`](PAPER.md) and remains the fallback. Nothing has been committed.
 

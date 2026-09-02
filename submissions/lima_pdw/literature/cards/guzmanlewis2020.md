@@ -16,3 +16,23 @@ People's interactions with AI — through virtual agents, socialbots and languag
 ## Caution
 
 Abstract-grounded. The article is an agenda-setting essay rather than an empirical study, so it carries no findings to misreport but also no evidence to lean on. One risk in §9's summary: HMC as Guzman and Lewis define it is a *field* proposal, broader than the machine-as-partner reading, and its metaphysical strand explicitly questions the boundaries the dyad diagnosis assumes are stable. A reviewer from that community may object that §9 characterizes HMC by its most tractable strand. The objection does not defeat the diagnosis — a research programme that questions ontological boundaries still positions the machine as the second party — but the sentence would be safer if it named HMC's dyadic *design* rather than implying the field has not noticed the question.
+
+## Verified 2026-08-29 — one wrong page number and one false quotation in PAPER.md corrected
+
+`pdftotext -layout` against the local `guzmanlewis2020.pdf`, page-counted directly against the
+printed page numbers visible on each page image. "on questions of communication as they relate to
+technologies designed to fulfill the communicator role" is p. 74, not the p. 73 the draft had.
+Separately, the draft quoted computer-mediated communication as theorizing "technology as a mediator
+of human interaction" (p. 72) — no such sentence exists in the article; the nearest passage (p. 73)
+describes the default communication model as people exchanging information "through a technology
+that mediates human interaction," which is not what CMC scholarship itself says. Both fixed in
+`PAPER.md` 2026-08-29 — the page corrected, and the false quotation converted to paraphrase.
+Spot-checked and confirmed correct as written: "designed as communicative subjects, instead of mere
+interactive objects" (p. 71) and "within a communication context in which at least one of the
+interaction partners is a machine" (p. 74).
+
+**Addendum, full-sweep re-check (2026-08-29):** independently re-verified the "(p. 73)" citation for
+the default-communication-model paraphrase above against a fresh visual read of the PDF page image
+(not just `pdftotext` page-counting, which gave an off-by-one artifact on this pass) — p. 73 is
+confirmed correct, no change needed. This is the last of the six page-only/unpaged citations for this
+source; no other items to check.

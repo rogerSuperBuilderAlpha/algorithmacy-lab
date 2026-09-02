@@ -25,4 +25,52 @@ Two further discriminations. Gig literacies are **literacies, plural and inducti
 
 ## Caution
 
-Twenty freelancers and nineteen clients on one platform, Upwork, at one time; a qualitative construct with no instrument and no distributional claim, so it cannot support anything about stratified fluency. Read at abstract depth — SAGE blocks automated retrieval — which means the client interviews' actual role in the analysis, the sampling, and whether the authors anywhere theorise the client position are all unverified. **Read this one in full before the manuscript's descent claim is finalised.** If Sutherland and colleagues do theorise the client relation somewhere in the findings, the novelty claim in §9 needs rewording, and this card cannot tell you whether they do.
+Twenty freelancers and nineteen clients on one platform, Upwork, at one time; a qualitative construct with no instrument and no distributional claim, so it cannot support anything about stratified fluency. This note is stale as of the 2026-08-19 full-text read recorded in the header above — SAGE's retrieval block was since worked around and the card's own text below answers what this paragraph says is unverified.
+
+## Verified 2026-08-29 — two page numbers in PAPER.md corrected
+
+`pdftotext -layout` against the local `sutherland2020.pdf`, page-counted directly. Two quotes the
+manuscript cited were off by one page: "some verification as to which literacies or skills were in
+fact valued in gig workers" is p. 462, not the p. 463 the draft had; the P10 quote "to build a
+rapport and a little longer lasting relationship" is p. 467, not the p. 468 the draft had. Both
+fixed in `PAPER.md` 2026-08-29. Spot-checked and confirmed correct as written: the abstract quote
+(p. 457), the platform-literacy definition quote (p. 470), and the P39 incident (p. 468).
+
+## Verified 2026-08-29 (A2/A3 sweep, remaining page-only citations)
+
+Checked the four remaining page-only citations against `sutherland2020.pdf` using per-page
+extraction (`pdftotext -f N -l N`) matched against each page's own printed running header — not
+the earlier formfeed-count method, which silently drifts by one page after the Table 1 break
+(confirmed: PDF page 6's content carries the printed header "462," one page later than a naive
+formfeed count assumes; this affects every page-only check done past that point in this source).
+
+- **PAPER.md line 128**, "one investigator registering as a client and another as a freelance
+  contractor... twenty freelancers and nineteen clients" (pp. 461–463): **CONFIRMED.** Interview
+  counts on p. 461, Table 1 on p. 462, the dual-sided walkthrough method spanning pp. 462–463.
+- **PAPER.md line 130**, "five core platform literacies" (pp. 463–469): **CONFIRMED.** "Findings"
+  section opens on p. 463; the fifth literacy (building relationships) runs through p. 469, after
+  which the discussion shifts to a Uber/Petriglieri comparison. Consistent with this card's
+  existing "five findings headings verified" note.
+- **PAPER.md line 132**, the P39 incident, "systematically migrated established client
+  relationships off-platform" (cited p. 468): **CORRECTED to p. 469.** The immediately preceding
+  "Verified 2026-08-29" entry above states this was "confirmed correct... (p. 468)" — that check
+  used the drifting formfeed method and was wrong. Direct per-page extraction confirms "P39, who
+  was unable to recover from a bad rating early in his..." is on the page printed "469," not 468.
+- **PAPER.md line 134**, "automated dispatch platforms such as Uber, wherein algorithmic
+  architectures assign labor deterministically" (cited p. 470): **CONFIRMED.** "The Uber platform
+  plays a more dominant role, assigning workers and clients to each other based on algorithmic
+  calculations" is on p. 470 exactly as cited.
+
+Net: one correction (P39, 468→469) needs to land in `PAPER.md`; the other three of these four
+items were already correct. This closes out every page-only citation for this source.
+
+## Correction 2026-08-30 — the 2026-08-29 P10 "rapport" fix (468→467) was itself wrong
+
+The "Verified 2026-08-29 — two page numbers in PAPER.md corrected" entry above changed the P10
+quote — "to build a rapport and a little longer lasting relationship" — from p. 468 to p. 467. That
+change used the formfeed-counting method this card's own next section (A2/A3 sweep) later
+documented as drift-prone past the Table 1 break. Direct per-page extraction, run independently
+2026-08-30 (`pdftotext -f 12 -l 12 sutherland2020.pdf`), confirms the printed page header is
+**468**, and that page's text contains "build a rapport." **p. 468 is correct; the 2026-08-29
+change to p. 467 was the error.** `PAPER.md` has been reverted to p. 468 for this quote. Do not
+re-apply the 467 correction.

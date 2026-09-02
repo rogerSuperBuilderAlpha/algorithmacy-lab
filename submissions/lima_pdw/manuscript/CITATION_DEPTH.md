@@ -7,6 +7,14 @@ Crossref-verified metadata. The `depth` column governs how the manuscript may us
 
 | slug | depth | may the draft quote it? |
 |---|---|---|
+| timmermans2012 | full_text | yes — read cover to cover 2026-08-28 |
+| gioia2013 | full_text | yes — read cover to cover 2026-08-28. Corrects a prior card error: the source describes its own method as compatible with, not opposed to, abductive analysis |
+| bowen2006 | full_text | yes — read cover to cover 2026-08-28 |
+| eisenhardtgraebner2007 | full_text | yes — read cover to cover 2026-08-28. Use narrowly for the single-case/site justification only, per the source's own warning against label conflation |
+| langley1999 | full_text | **no longer cited** — superseded 2026-08-28 by the insider-action-research cycle/spiral framing (Coghlan & Brannick, 2014); reading stands if restored |
+| tavory2014 | abstract_only | **position-only** — book, not acquired; corroborated by the full-text 2012 article on the same three moves |
+| coghlanbrannick2014 | full_text (Ch. 1 only) | yes, for Ch. 1 material — read cover to cover 2026-08-28. Now the design's governing methodology, not a supporting citation; see the card |
+| coghlan2007 | abstract_only | **position-only** — Emerald PDF returns a Cloudflare challenge, not acquired |
 | cameron2024 | full_text | yes |
 | curchod2020 | full_text | yes, but the shelf copy is the WRAP accepted manuscript — page anchors need the version of record |
 | wing2021 | full_text | yes |
@@ -77,17 +85,13 @@ Zhou, L., Lei, X., Liu, M., Huang, X., & Hou, R. (2025). Algorithmic competency 
 *(v1 carries no locator. The journal uses article numbers; e70004 is confirmed in
 `../literature/ZHOU_2025_INSTRUMENT.md` against the journal version.)*
 
-## Entry that must be acquired before print
+## Entries resolved, 2026-08-28
 
-**Relational coordination.** §3's opening defends the selection rule by naming a construct that
-already includes the counterpart and presupposes what this arrangement removes. Gittell is the
-standard anchor, and **no Gittell card and no relational-coordination card exists anywhere in the
-387-card library**. Nothing in this arm verifies the entry. Either acquire the source before 10
-September or cut the clause — do not ship an unverified citation in the one sentence that closes
-the paper's cheapest relabelling attack.
+**Relational coordination / Gittell (2002).** Now cited in-text ("The Coordination-Form Gap") and
+in the reference list, verified against Crossref/publisher metadata (*Management Science*, 48(11),
+1408–1426) via web search on 2026-08-28. No card exists yet in `literature/cards/` — position-only
+until one is built, but the citation itself is confirmed accurate and no longer at risk of shipping
+unverified.
 
-## Entry to resolve
-
-**Tracy (2010)** is on v1's reference list and cited nowhere. §5 now cites her beside the Pratt
-trio as the criteria the study will accept if asked. If that citation does not survive the final
-pass, cut the entry.
+**Tracy (2010).** No longer orphaned — cited in Appendix B's Harness Interview Protocol section
+alongside Pratt, Kaplan, & Whittington (2020) as a qualitative-quality-criteria citation.

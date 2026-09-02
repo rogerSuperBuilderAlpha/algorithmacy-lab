@@ -1,0 +1,18 @@
+# Hu, J. M., & Zhan, E. (S.) (2024). Algorithm awareness in online dating: Associations with mate-searching difficulty and future expectancies among U.S. online daters. *Behaviour & Information Technology*, 43(16), 4045–4060.
+
+**Identifier:** 10.1080/0144929X.2023.2299297  ·  **Read depth:** extended_preview  ·  **Source read:** first four pages (title/abstract, introduction, literature review through Section 2.4), obtained directly and read 2026-08-30.
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** algorithmic-competence-rivals
+
+## What it argues
+
+Drawing on Courtois and Timmermans's (2018) "structuration algorithm media effects model," Hu and Zhan examine whether online daters with higher **algorithm awareness** — "individuals' awareness of the presence of dating algorithms and how they work" — experience less mate-searching difficulty and report more optimism and hope. Using a national representative sample of American online daters (N=871, Pew Research Center American Trends Panel Wave 56), they find algorithm awareness is generally negatively related to mate-searching difficulty, which is in turn negatively related to optimism but not to hope; the algorithm-awareness/mate-searching-difficulty relationship is stronger for female than male users. The entire study operates at the level of the individual user's relationship to the dating algorithm — awareness, calibration strategies (adjusting profile exposure, switching platforms/accounts to circumvent algorithmic constraints), and downstream affective outcomes (optimism, hope). Two hypothesized mechanisms for how awareness helps: calibrating the algorithm through deliberate behavior, and switching platforms/accounts to route around a given platform's constraints.
+
+## Relation to the argument
+
+Cited once in `PAPER.md` (line 333): "computational accounts analyze algorithmic awareness while omitting relational counterpart dynamics (Hu & Zhan, 2024)." This is accurate. The study's variables — algorithm awareness, mate-searching difficulty, optimism, hope, sex as a moderator — are all either individual-level or algorithm-facing; the other dater (the match, the "counterpart") never enters as a theorized interactional party anywhere in the introduction or literature review. The construct is explicitly about the user's awareness of and interaction *with the algorithm itself*, not about interpersonal dynamics with a matched human being. This matches the manuscript's characterization precisely, and the pairing with Dredge & Anderson (2021) in the same sentence — which the manuscript characterizes as examining "relationship-formation competencies while omitting algorithmic curation" — sets up exactly the kind of split-coverage point (one line studies the counterpart and ignores the algorithm, the other studies the algorithm and ignores the counterpart) the sentence is making.
+
+## Caution
+
+Only the first four pages were read directly (through the start of the hypotheses/methods); the study's actual statistical results (beyond what the abstract states) were not independently re-verified. Do not cite this source for anything about relational dynamics between daters, interpersonal trust, or human-to-human coordination — it does not study that. The construct here (algorithm awareness) is close in name to but conceptually adjacent to other "algorithm awareness/literacy" constructs cited elsewhere in `PAPER.md` (e.g., Zhou et al. 2025's "Understanding AM" dimension); this study's is specifically about dating-platform matching algorithms and mate-searching outcomes, not general algorithmic competency.
