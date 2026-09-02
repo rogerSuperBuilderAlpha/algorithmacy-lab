@@ -1,6 +1,6 @@
-# Healy, J., & Pekarek, A. (2024). The triangular relationship in platform gig work: Consumers, platform beneficence and worker vulnerability. *New Technology, Work and Employment*, 40(2), 265–284.
+# Healy, J., & Pekarek, A. (2025). The triangular relationship in platform gig work: Consumers, platform beneficence and worker vulnerability. *New Technology, Work and Employment*, 40(2), 265–284.
 
-**Identifier:** doi:10.1111/ntwe.12310  ·  **Read depth:** full_text  ·  **Source read:** Wiley Online Library (early view 2024; issue 40(2) 2025)
+**Identifier:** doi:10.1111/ntwe.12310  ·  **Read depth:** full_text  ·  **Source read:** Wiley Online Library (early view 2024; print issue 40(2) published July 2025 — confirmed via Wiley's table of contents, so "(2025)" is the correct citation year, matching PAPER.md's own bibliography entry)
 **Source-tier:** primary_journal
 **Evidence basis:** direct_read
 **Cluster:** communication-competence
@@ -21,4 +21,8 @@ That is a defensible, complementary position. It is not available if the paper c
 
 ## Caution
 
-A conceptual and review article, not an original empirical study; the triangular-employment literature it draws on is legal and its transposition to platform consumers is argued rather than tested. Note the citation trap: Wiley's early view is 2024, the issue is 40(2) 2025 — verify which the paper's style requires. This card sits at the edge of the communication-competence cluster and properly belongs to the platform-work cluster too.
+A conceptual and review article, not an original empirical study; the triangular-employment literature it draws on is legal and its transposition to platform consumers is argued rather than tested. This card sits at the edge of the communication-competence cluster and properly belongs to the platform-work cluster too.
+
+## Correction 2026-08-30 — citation year resolved
+
+This card previously carried the filename and header year "2024" (Wiley's early-view date), while PAPER.md correctly cites "Healy and Pekarek (2025)," matching the print-issue year — confirmed via Wiley's table of contents: Volume 40, Issue 2 of *New Technology, Work and Employment* published July 2025. This is the same paper, not a different one; the file has been renamed from `healy2024.md` to `healy2025.md` and the header corrected to (2025) to match the manuscript's own citation convention (print-issue year). No content change beyond the year correction.

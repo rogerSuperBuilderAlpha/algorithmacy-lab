@@ -1,0 +1,18 @@
+# Chigbu, B. I. (2026). Algorithmic management in the global gig economy: An interdisciplinary systematic literature review and critical discourse analysis. *Frontiers in Sociology*, 11, 1743445.
+
+**Identifier:** 10.3389/fsoc.2026.1743445  ·  **Read depth:** extended_preview  ·  **Source read:** the complete PDF's first five pages (abstract, introduction, conceptual framework, methodology, PRISMA flow diagram), obtained directly and read 2026-08-30. Published 15 April 2026, open access (CC BY).
+**Source-tier:** primary_journal
+**Evidence basis:** direct_read
+**Cluster:** algorithmic-competence-rivals / regional-coverage
+
+## What it argues
+
+A single-authored systematic literature review (SLR) plus critical discourse analysis (CDA) of algorithmic management in the global gig economy. 314 records were identified across Web of Science, Scopus, EBSCOhost, and Google Scholar (2010–2025); after deduplication (n=224) and PRISMA screening, 103 studies were included in the final analytical corpus (36 qualitative/ethnographic, 18 quantitative/survey, 4 mixed-methods, 28 conceptual/theoretical, 13 policy/legal/regulatory). The review integrates sociology, labor studies, digital economy, and legal scholarship around three research questions: what dominant themes and findings emerge across regions, how those themes are discursively framed, and what research gaps and policy implications follow. Its central finding: scholarly attention on algorithmic management has centered disproportionately on Western contexts (North America and Europe), even though gig work is equally prevalent in Asia, Latin America, and Africa under different labor-market and regulatory conditions — these regions "remain underrepresented in the literature," which the author names as "a novel and impactful research gap." The CDA layer finds that academic narratives oscillate between framing algorithmic management as a digital extension of Taylorism/panopticism and as a catalyst for novel forms of worker autonomy and entrepreneurship.
+
+## Relation to the argument
+
+Cited once in `PAPER.md` (line 554): "Platform labor across the Anglophone Caribbean, by contrast, remains concentrated in traditional logistics, ride-hailing, and hospitality (ILO, 2025), with empirical scholarship on algorithmic coordination in the region remaining sparse (Chigbu, 2026)." This is a light, general regional-coverage-gap citation. Chigbu's review does not name the Caribbean specifically in the pages read, but its central, explicitly stated finding — that gig-economy scholarship "centered disproportionately on Western contexts," with Latin America, Asia, and Africa "underrepresented" — is a fair, non-overclaiming basis for the general claim that empirical coverage of algorithmic coordination outside North America/Europe (a category the Anglophone Caribbean falls within) remains sparse. The citation asks the source to support a general geographic-coverage-gap point, not a Caribbean-specific finding, and that's what it does.
+
+## Caution
+
+A single-reviewer SLR (the author screened and coded alone, a limitation the article itself acknowledges), English-language sources only (also self-acknowledged as excluding non-English scholarship), and its scope is algorithmic management of gig/platform work broadly, not any region-specific deep dive. Do not cite this source for any Caribbean-specific finding, statistic, or case — it establishes only the general pattern of Western-centric scholarly attention that a Caribbean gap is consistent with. Only the first five pages (through the PRISMA methodology) were read directly; the full findings/discourse-analysis sections (likely pp. 6+) were not reviewed for this card.

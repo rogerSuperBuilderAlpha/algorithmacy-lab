@@ -1,6 +1,6 @@
 # Oeldorf-Hirsch, A., & Neubaum, G. (2025). What do we know about algorithmic literacy? The status quo and a research agenda for a growing field. *New Media & Society*, 27(2), 681–701.
 
-**Identifier:** 10.1177/14614448231182662  ·  **Read depth:** extended_preview  ·  **Source read:** the author-deposited published version at duepublico2.uni-due.de; I read the definitional history, the measurement section, the methodological-starting-points section and the four-part agenda.
+**Identifier:** 10.1177/14614448231182662  ·  **Read depth:** full_text  ·  **Source read:** the author-deposited published version at duepublico2.uni-due.de (definitional history, measurement section, methodological-starting-points section, four-part agenda); independently re-confirmed 2026-08-30 against the actual SAGE version-of-record PDF (pp. 681–701, provided directly), including the opening pages, search methodology, and full reference list — no discrepancies found on the second, independent read.
 **Source-tier:** primary_journal
 **Evidence basis:** direct_read
 **Cluster:** algorithmic-competence-rivals

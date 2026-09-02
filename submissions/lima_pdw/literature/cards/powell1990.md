@@ -1,0 +1,20 @@
+# Powell, W. W. (1990). Neither market nor hierarchy: Network forms of organization. *Research in Organizational Behavior*, 12, 295–336.
+
+**Identifier:** no DOI assigned (JAI Press annual-review chapter)  ·  **Read depth:** secondary_summary  ·  **Source read:** no clean primary-text extraction obtained — the Stanford-hosted PDF (web.stanford.edu/~woodyp/powell_neither.pdf) returned as a corrupted/unreadable binary stream on fetch; verified instead against multiple independent secondary summaries (a paragraph-by-paragraph course summary quoting the article's "one night stand" / "marriage without a license" market-hierarchy-network metaphors and its reciprocity/reputation/trust language; convergent search-engine summaries of the argument and its Table 1 comparison), cross-checked 2026-08-30
+**Source-tier:** primary_chapter
+**Evidence basis:** citing_literature
+**Cluster:** coordination-forms
+
+## What it argues
+
+Powell argues that market, hierarchy, and network are three distinct, non-reducible modes of economic organization, not points on a single market-to-hierarchy continuum (the framing Williamson's transaction-cost economics implies). **Network forms** govern exchange through reciprocal, repeated transactions that carry tacit, hard-to-price information — the kind of knowledge and trust-dependent coordination markets and hierarchies each handle poorly. Relationships in a network are voluntary and ongoing, sustained by "generalized reciprocity" and reputation rather than by price or by formal authority — the article's own shorthand contrasts market exchange ("one night stand": low commitment, high flexibility, poor at transmitting know-how) against hierarchy ("marriage": high commitment, low flexibility, reliable) against network ties, which are revocable (unlike hierarchy's formal employment bond) yet more binding and trust-dependent than a one-off market transaction. The paper illustrates the form across craft and high-technology industries, regional economies, and formerly vertically integrated fields, and situates itself explicitly against Williamson's market/hierarchy dichotomy and against Bradach and Eccles's (1989) "plural forms" literature.
+
+## Relation to the argument
+
+Four uses. Three pair Powell with Granovetter (1985) to define the Network coordination form (lines 39, 513, 522 — see the granovetter1985 card for that half of the pairing). A fourth, independent use situates the paper's own methodological lineage: "Extending the comparative traditions established by Powell (1990), Williamson (1991), Bradach and Eccles (1989), and Ouchi (1980), Paper 1 evaluates each coordination form across six core questions" (line 507). That positioning is accurate — Powell's own paper explicitly argues against Williamson's two-form (market/hierarchy) frame and engages Bradach and Eccles's plural-forms argument, so grouping these four names as one comparative-traditions lineage the dissertation extends is a faithful characterization of where Powell (1990) sits in the literature, not an invented lineage.
+
+The network-form content attributed to Powell — "elective, revocable relationship grounded in informal social reciprocity and mutual reputational capital" — matches the secondary-source evidence closely: relationships described as ongoing and voluntary, revocable unlike a hierarchical bond, sustained by reciprocity and reputation/trust rather than price or authority.
+
+## Caution
+
+Not verified against primary text. The Stanford-hosted copy of the article (the most commonly cited open PDF) fetched as unreadable binary content rather than extractable text on this pass; verification rests on convergent secondary summaries rather than a direct quotation-level check. Before this citation carries any verbatim quotation, obtain a clean-text copy (e.g., via a library database or a different mirror) and re-verify — the secondary sources here are consistent with each other and with the standard scholarly reception of the paper, but none is Powell's own sentence.

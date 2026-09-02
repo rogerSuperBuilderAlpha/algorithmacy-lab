@@ -36,3 +36,24 @@ Version-of-record pages follow by the constant offset +944 (OnlineFirst 1 = publ
 typeset is unchanged at repagination): quote **p. 960**, five components **p. 976**, Table 1 **p. 956**,
 client count **p. 954**. The offset is arithmetically exact for the page range but was not eyeballed
 against the printed issue — spot-check one page against the VoR before putting a page number in print.
+
+## Verified 2026-08-29 — three page numbers in PAPER.md corrected
+
+`pdftotext -layout` against the local `rahman2021_onlinefirst_typeset.pdf`, page-counted directly
+(not estimated), confirmed the offset above and caught three wrong page numbers the manuscript had
+been citing: the "registered freelancers could see a client's full profile..." quote and the "to
+triangulate what freelancers said..." quote are both OnlineFirst p. 10 → VoR **p. 954**, not the
+p. 956 the draft had (that page belongs to the Table 1 interview-count citation only, which was
+already correct). The "kept anonymous and never shared directly with the freelancer" quote is
+OnlineFirst p. 16 → VoR **p. 960**, not the p. 963 the draft had. All three fixed in `PAPER.md`
+2026-08-29; the two "five components"/p. 976 citations were checked and are correct as written.
+
+**Addendum, full-sweep re-check (2026-08-29):** independently re-verified the two remaining
+page-only citations via `pdftotext -layout` against `rahman2021_onlinefirst_typeset.pdf`. "Five
+structural properties constitute this invisible cage" (PAPER.md line 116) matches OnlineFirst p. 32
+(the five named components — evaluation criteria, execution, magnitude, impact, who influences the
+evaluation) → VoR **p. 976**, confirmed correct as cited. "He conducted qualitative interviews with
+eighteen clients alongside eighty platform freelancers" (line 120) matches OnlineFirst p. 12
+(Table 1: "98 semi-structured interviews... 80 freelancer interviews... 18 client interviews") → VoR
+**p. 956**, confirmed correct as cited. Both CONFIRMED, no changes needed. This closes out every
+page-numbered citation for this source.
