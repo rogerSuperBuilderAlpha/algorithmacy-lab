@@ -10,7 +10,7 @@ Bloomsbury collection. Final draft **2026-11-01**. 3,000–5,000 words. Chicago 
 
 | File | Use |
 | --- | --- |
-| [`chapter.md`](chapter.md) | Live manuscript (v17) |
+| [`chapter.md`](chapter.md) | Live manuscript (v19) |
 | [`CLAIM.md`](CLAIM.md) | Locked question and thesis |
 | [`OUTLINE.md`](OUTLINE.md) | Section jobs |
 | [`abstract.md`](abstract.md) | Accepted abstract |
