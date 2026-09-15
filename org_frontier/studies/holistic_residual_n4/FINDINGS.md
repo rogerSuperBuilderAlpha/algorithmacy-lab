@@ -51,8 +51,9 @@ unary party reads contribute synergy 0. Panel build: ~67s for N=3000 exact Φ on
 
 ## Best next experiment
 
-**F28** is answered in `org_frontier/studies/residual_phase_boundary/` (phase boundary vs confident
-forms; not residual-specific). Remaining: class-balanced n=4 residual panel, or F26 at n=5.
+**Base-rate-controlled n=4 residual** is answered in
+`org_frontier/studies/holistic_residual_n4_unconstrained/`: residual **grows to 7.5%** (H2) with both
+classes predicted. Remaining: unconstrained k=2 at n=5, or residual-set characterization.
 
 ## Reproduce
 

@@ -3360,6 +3360,25 @@
       "source": "org_frontier/studies/residual_phase_boundary/FINDINGS.md"
     },
     {
+      "name": "holistic-residual-n4-unconstrained",
+      "cmd": "python org_frontier/studies/holistic_residual_n4_unconstrained/analyze_unconstrained_n4.py",
+      "expect": [
+        "triadic forms:              297/1000 = 29.7%",
+        "RF misclassified (n=4 unc): 75/1000 = 7.5%",
+        "n=3 baseline (Probe 131):   196/4096 = 4.8%",
+        "F26 SM baseline:            71/3000 = 2.4%",
+        "predicted triadic / dyadic: 312 / 688",
+        "H3 (predicts both classes): SUPPORTED",
+        "false positives / negatives:45 / 30",
+        "raw F26* band verdict:      H2 — residual GROWS",
+        "n=4 unc residual rate:      7.5% (75/1000)",
+        "F26* band:                  H2 (GROWS)",
+        "controlled verdict:         H2 (GROWS) with both classes predicted"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/holistic_residual_n4_unconstrained/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
