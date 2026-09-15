@@ -1,0 +1,69 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "ring4": {
+      "form": "ring4",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "A": 2.0,
+        "B": 2.0,
+        "C": 2.0,
+        "D": 2.0
+      },
+      "fixed_points": [
+        "0000",
+        "1111"
+      ],
+      "seconds": 21.9
+    },
+    "two_dyads": {
+      "form": "two_dyads",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      },
+      "fixed_points": [
+        "0000",
+        "1100",
+        "0011",
+        "1111"
+      ],
+      "seconds": 1.0
+    }
+  },
+  "H4": "CONFIRMED"
+}

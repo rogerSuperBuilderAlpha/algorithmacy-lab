@@ -1,0 +1,82 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "authority": {
+      "form": "authority",
+      "labels": [
+        "S",
+        "B1",
+        "B2"
+      ],
+      "phi_mip": 0.830075,
+      "core": [
+        "B1",
+        "B2"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "S": 0.0,
+        "B1": 2.0,
+        "B2": 2.0
+      },
+      "fixed_points": [
+        "000",
+        "111"
+      ],
+      "seconds": 0.2
+    },
+    "opposition_isolated": {
+      "form": "opposition_isolated",
+      "labels": [
+        "S",
+        "B1",
+        "B2"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "S",
+        "B1",
+        "B2"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "S": 2.0,
+        "B1": 2.0,
+        "B2": 2.0
+      },
+      "fixed_points": [],
+      "seconds": 0.1
+    },
+    "opposition_shared": {
+      "form": "opposition_shared",
+      "labels": [
+        "S",
+        "B1",
+        "B2"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "B1",
+        "B2"
+      ],
+      "core_phi": 0.368922,
+      "value_added": {
+        "S": 0.368922,
+        "B1": 0.368922,
+        "B2": 0.368922
+      },
+      "fixed_points": [
+        "111"
+      ],
+      "seconds": 0.1
+    }
+  },
+  "H5": "PARTIAL"
+}

@@ -1,0 +1,165 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "single": {
+      "form": "single",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "Z"
+          ]
+        ],
+        "Z": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "E",
+        "X",
+        "Z"
+      ],
+      "core_phi": 2.0,
+      "core_without": 0.0,
+      "value_added": 2.0,
+      "value_added_by_node": {
+        "E": 2.0,
+        "X": 2.0,
+        "Z": 2.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 1.125,
+      "effective_size": 1.0,
+      "seconds": 0.48
+    },
+    "equivalent": {
+      "form": "equivalent",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "Z"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "Z"
+          ]
+        ],
+        "Z": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 1.0,
+      "core": [
+        "E",
+        "Y",
+        "Z"
+      ],
+      "core_phi": 2.0,
+      "core_without": 0.0,
+      "value_added": 2.0,
+      "value_added_by_node": {
+        "E": 2.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 2.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.84,
+      "effective_size": 1.667,
+      "seconds": 2.1
+    },
+    "nonredundant": {
+      "form": "nonredundant",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "Z1"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "Z2"
+          ]
+        ],
+        "Z1": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "Z2": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "E",
+        "Y",
+        "Z2"
+      ],
+      "core_phi": 2.0,
+      "core_without": 0.0,
+      "value_added": 2.0,
+      "value_added_by_node": {
+        "E": 2.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z1": 2.0,
+        "Z2": 2.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.562,
+      "effective_size": 3.0,
+      "seconds": 11.8
+    }
+  },
+  "H2": "REFUTED"
+}

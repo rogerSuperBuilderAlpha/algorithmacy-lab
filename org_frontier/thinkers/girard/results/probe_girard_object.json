@@ -1,0 +1,77 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "double": {
+      "form": "double",
+      "labels": [
+        "S",
+        "M",
+        "O"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "S"
+          ]
+        ],
+        "O": [
+          "and",
+          [
+            "M",
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 0.0,
+      "core": [
+        "S",
+        "M"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    },
+    "dyad": {
+      "form": "dyad",
+      "labels": [
+        "S",
+        "M"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "S",
+        "M"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    }
+  },
+  "H3": "CONFIRMED"
+}

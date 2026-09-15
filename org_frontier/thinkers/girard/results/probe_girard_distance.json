@@ -1,0 +1,67 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_stochastic_path": 2.0
+  },
+  "sweep": [
+    {
+      "form": "distance p=0.00",
+      "p": 0.0,
+      "phi_mip": 0.0,
+      "core": [
+        "M"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.0
+    },
+    {
+      "form": "distance p=0.25",
+      "p": 0.25,
+      "phi_mip": 0.0,
+      "core": [
+        "M"
+      ],
+      "core_phi": 0.678072,
+      "seconds": 0.1
+    },
+    {
+      "form": "distance p=0.50",
+      "p": 0.5,
+      "phi_mip": 0.0,
+      "core": [
+        "S",
+        "M"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.1
+    },
+    {
+      "form": "distance p=0.75",
+      "p": 0.75,
+      "phi_mip": 0.0,
+      "core": [
+        "S",
+        "M"
+      ],
+      "core_phi": 1.5,
+      "seconds": 0.1
+    },
+    {
+      "form": "distance p=1.00",
+      "p": 1.0,
+      "phi_mip": 0.0,
+      "core": [
+        "S",
+        "M"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    }
+  ],
+  "H4": "CONFIRMED"
+}

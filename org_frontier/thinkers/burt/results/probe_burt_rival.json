@@ -1,0 +1,163 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "alone": {
+      "form": "alone",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "E",
+        "X",
+        "Y"
+      ],
+      "core_phi": 2.0,
+      "core_without": 0.0,
+      "value_added": 2.0,
+      "value_added_by_node": {
+        "E": 2.0,
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "advantage": 2.0,
+      "party": "E",
+      "constraint": 0.5,
+      "effective_size": 2.0,
+      "seconds": 0.15
+    },
+    "rival": {
+      "form": "rival",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "R": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "R"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "R"
+          ]
+        ]
+      },
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "R",
+        "Y"
+      ],
+      "core_phi": 0.189385,
+      "core_without": 2.0,
+      "value_added": -1.810615,
+      "value_added_by_node": {
+        "E": -1.810615,
+        "R": -1.810615,
+        "X": -1.810615,
+        "Y": -1.810615
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.5,
+      "effective_size": 2.0,
+      "seconds": 0.62
+    },
+    "rival_R": {
+      "form": "rival_R",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "R": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "R"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "R"
+          ]
+        ]
+      },
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "R",
+        "Y"
+      ],
+      "core_phi": 0.189385,
+      "core_without": 2.0,
+      "value_added": -1.810615,
+      "value_added_by_node": {
+        "E": -1.810615,
+        "R": -1.810615,
+        "X": -1.810615,
+        "Y": -1.810615
+      },
+      "advantage": 0.0,
+      "party": "R",
+      "constraint": 0.5,
+      "effective_size": 2.0,
+      "seconds": 0.82
+    }
+  },
+  "H4": "CONFIRMED"
+}

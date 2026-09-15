@@ -1,0 +1,245 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "k0": {
+      "form": "k0",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y",
+            "Z"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "Z": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 3.0,
+      "core": [
+        "E",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "core_phi": 3.0,
+      "core_without": 0.0,
+      "value_added": 3.0,
+      "value_added_by_node": {
+        "E": 3.0,
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "advantage": 2.0,
+      "party": "E",
+      "constraint": 0.333,
+      "effective_size": 3.0,
+      "seconds": 0.96
+    },
+    "k1": {
+      "form": "k1",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y",
+            "Z"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "Y"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "X"
+          ]
+        ],
+        "Z": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "X",
+        "Y"
+      ],
+      "core_phi": 2.0,
+      "core_without": 2.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.611,
+      "effective_size": 2.333,
+      "seconds": 1.09
+    },
+    "k2": {
+      "form": "k2",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y",
+            "Z"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "Y"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "X",
+            "Z"
+          ]
+        ],
+        "Z": [
+          "or",
+          [
+            "E",
+            "Y"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 0.192645,
+      "core": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "core_phi": 2.0,
+      "core_without": 2.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.84,
+      "effective_size": 1.667,
+      "seconds": 1.8
+    },
+    "k3": {
+      "form": "k3",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y",
+            "Z"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "Y",
+            "Z"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "X",
+            "Z"
+          ]
+        ],
+        "Z": [
+          "or",
+          [
+            "E",
+            "Y",
+            "X"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 0.192645,
+      "core": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "core_phi": 6.0,
+      "core_without": 6.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "X": 4.0,
+        "Y": 4.0,
+        "Z": 4.0
+      },
+      "advantage": -4.0,
+      "party": "E",
+      "constraint": 0.926,
+      "effective_size": 1.0,
+      "seconds": 1.82
+    }
+  },
+  "C": [
+    0.333,
+    0.611,
+    0.84,
+    0.926
+  ],
+  "V": [
+    3.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "H3": "PARTIAL"
+}

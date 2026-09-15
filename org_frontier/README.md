@@ -92,6 +92,9 @@ methods, probes, results, and a paper.
 - [`proxy_bridge/`](proxy_bridge/) — can a cheap time-series proxy recover the verdict past the exact-Φ
   size ceiling?
 - [`landscape/`](landscape/) — a worldwide survey of PyPhi usage and the open application gaps.
+- [`thinkers/`](thinkers/) — one paper per historical thinker on the triad: the claims read from the primary
+  texts, rendered as Boolean forms, tested against exact Φ. First paper: Simmel. The paper standard is
+  [`thinkers/PAPER_STANDARD.md`](thinkers/PAPER_STANDARD.md).
 
 ## Essays — [`essays/`](essays/)
 

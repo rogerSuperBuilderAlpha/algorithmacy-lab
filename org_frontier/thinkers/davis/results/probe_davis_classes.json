@@ -1,0 +1,137 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "ppp": {
+      "form": "ppp",
+      "k": 4,
+      "signs": "+++",
+      "phi_mip": 0.0,
+      "core": [],
+      "core_persons": [],
+      "core_phi": 0.0,
+      "seconds": 28.0,
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 4,
+      "partitions": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 4,
+      "n_cycles": 0,
+      "fixed_all_rest": true,
+      "attractors_all_rest": true
+    },
+    "ppm": {
+      "form": "ppm",
+      "k": 4,
+      "signs": "++\u2212",
+      "phi_mip": 0.0,
+      "core": [
+        "py",
+        "oy",
+        "qy"
+      ],
+      "core_persons": [
+        "o",
+        "p",
+        "q"
+      ],
+      "core_phi": 6.0,
+      "seconds": 175.0,
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 28,
+      "n_cycles": 6,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "pmm": {
+      "form": "pmm",
+      "k": 4,
+      "signs": "+\u2212\u2212",
+      "phi_mip": 1.66015,
+      "core": [
+        "px",
+        "py",
+        "ox",
+        "oy"
+      ],
+      "core_persons": [
+        "o",
+        "p"
+      ],
+      "core_phi": 2.0,
+      "seconds": 396.0,
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 12,
+      "partitions": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 12,
+      "n_cycles": 12,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    },
+    "mmm": {
+      "form": "mmm",
+      "k": 4,
+      "signs": "\u2212\u2212\u2212",
+      "phi_mip": 0.577935,
+      "core": [
+        "py",
+        "qy"
+      ],
+      "core_persons": [
+        "p",
+        "q"
+      ],
+      "core_phi": 2.0,
+      "seconds": 436.7,
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 24,
+      "partitions": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 24,
+      "n_cycles": 13,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    }
+  },
+  "H2": "CONFIRMED"
+}

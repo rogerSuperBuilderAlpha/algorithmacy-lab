@@ -1,0 +1,218 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "info_open": {
+      "form": "info_open",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "E",
+        "X",
+        "Y"
+      ],
+      "core_phi": 2.0,
+      "core_without": 0.0,
+      "value_added": 2.0,
+      "value_added_by_node": {
+        "E": 2.0,
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "advantage": 2.0,
+      "party": "E",
+      "constraint": 0.5,
+      "effective_size": 2.0,
+      "seconds": 0.47
+    },
+    "info_closed": {
+      "form": "info_closed",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "Y"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "X"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 0.830075,
+      "core": [
+        "X",
+        "Y"
+      ],
+      "core_phi": 2.0,
+      "core_without": 2.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 1.125,
+      "effective_size": 1.0,
+      "seconds": 1.01
+    },
+    "control_open": {
+      "form": "control_open",
+      "spec": {
+        "E": [
+          "or",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "E",
+        "X",
+        "Y"
+      ],
+      "core_phi": 2.0,
+      "core_without": 0.0,
+      "value_added": 2.0,
+      "value_added_by_node": {
+        "E": 2.0,
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "advantage": 2.0,
+      "party": "E",
+      "constraint": 0.5,
+      "effective_size": 2.0,
+      "seconds": 0.52
+    },
+    "control_closed": {
+      "form": "control_closed",
+      "spec": {
+        "E": [
+          "or",
+          [
+            "X",
+            "Y"
+          ]
+        ],
+        "X": [
+          "or",
+          [
+            "E",
+            "Y"
+          ]
+        ],
+        "Y": [
+          "or",
+          [
+            "E",
+            "X"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 6.0,
+      "core": [
+        "E",
+        "X",
+        "Y"
+      ],
+      "core_phi": 6.0,
+      "core_without": 2.0,
+      "value_added": 4.0,
+      "value_added_by_node": {
+        "E": 4.0,
+        "X": 4.0,
+        "Y": 4.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 1.125,
+      "effective_size": 1.0,
+      "seconds": 0.58
+    }
+  },
+  "checks": {
+    "info": {
+      "phi_up": true,
+      "adv_down": true,
+      "core_phi": [
+        2.0,
+        2.0
+      ],
+      "advantage": [
+        2.0,
+        0.0
+      ]
+    },
+    "control": {
+      "phi_up": true,
+      "adv_down": true,
+      "core_phi": [
+        2.0,
+        6.0
+      ],
+      "advantage": [
+        2.0,
+        0.0
+      ]
+    }
+  },
+  "H2": "CONFIRMED"
+}

@@ -1,0 +1,68 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "parents_open": {
+      "form": "parents_open",
+      "labels": [
+        "P1",
+        "P2",
+        "K1",
+        "K2"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "P2",
+        "K2"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "P1": 2.0,
+        "P2": 2.0,
+        "K1": 2.0,
+        "K2": 2.0
+      },
+      "fixed_points": [
+        "0000",
+        "1111"
+      ],
+      "seconds": 3.1,
+      "basin_1111": 1
+    },
+    "parents_closed": {
+      "form": "parents_closed",
+      "labels": [
+        "P1",
+        "P2",
+        "K1",
+        "K2"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "P1",
+        "P2"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "P1": 2.0,
+        "P2": 2.0,
+        "K1": 0.0,
+        "K2": 0.0
+      },
+      "fixed_points": [
+        "0000",
+        "1100",
+        "1111"
+      ],
+      "seconds": 2.1,
+      "basin_1111": 1
+    }
+  },
+  "H3": "REFUTED"
+}

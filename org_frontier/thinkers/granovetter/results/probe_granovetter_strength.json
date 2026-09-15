@@ -1,0 +1,86 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_ties": 2.0
+  },
+  "forms": {
+    "p0.25": {
+      "form": "p0.25",
+      "labels": [
+        "a",
+        "b"
+      ],
+      "ties": {
+        "a-b": 0.25
+      },
+      "phi_mip": 0.251506,
+      "core": [
+        "a",
+        "b"
+      ],
+      "core_phi": 0.251506,
+      "reach_pairs": 2,
+      "seconds": 0.0
+    },
+    "p0.50": {
+      "form": "p0.50",
+      "labels": [
+        "a",
+        "b"
+      ],
+      "ties": {
+        "a-b": 0.5
+      },
+      "phi_mip": 0.658083,
+      "core": [
+        "a",
+        "b"
+      ],
+      "core_phi": 0.658083,
+      "reach_pairs": 2,
+      "seconds": 0.0
+    },
+    "p0.75": {
+      "form": "p0.75",
+      "labels": [
+        "a",
+        "b"
+      ],
+      "ties": {
+        "a-b": 0.75
+      },
+      "phi_mip": 1.236262,
+      "core": [
+        "a",
+        "b"
+      ],
+      "core_phi": 1.236262,
+      "reach_pairs": 2,
+      "seconds": 0.0
+    },
+    "p1.00": {
+      "form": "p1.00",
+      "labels": [
+        "a",
+        "b"
+      ],
+      "ties": {
+        "a-b": 1.0
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "a",
+        "b"
+      ],
+      "core_phi": 2.0,
+      "reach_pairs": 2,
+      "seconds": 0.0
+    }
+  },
+  "H1": "CONFIRMED"
+}

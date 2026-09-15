@@ -1,0 +1,75 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "passing": {
+      "form": "passing",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": {
+        "A": [
+          "copy",
+          [
+            "C"
+          ]
+        ],
+        "B": [
+          "copy",
+          [
+            "A"
+          ]
+        ],
+        "C": [
+          "copy",
+          [
+            "B"
+          ]
+        ]
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.4
+    },
+    "stopped": {
+      "form": "stopped",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": {
+        "A": [
+          "one",
+          []
+        ],
+        "B": [
+          "zero",
+          []
+        ],
+        "C": [
+          "zero",
+          []
+        ]
+      },
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "seconds": 0.0
+    }
+  },
+  "H5": "CONFIRMED"
+}

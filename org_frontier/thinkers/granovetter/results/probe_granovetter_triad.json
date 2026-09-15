@@ -1,0 +1,79 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_ties": 2.0
+  },
+  "forms": {
+    "open": {
+      "form": "open",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "ties": {
+        "A-B": 1.0,
+        "A-C": 1.0
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "reach_pairs": 6,
+      "seconds": 0.2
+    },
+    "weak_closed": {
+      "form": "weak_closed",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "ties": {
+        "A-B": 1.0,
+        "A-C": 1.0,
+        "B-C": 0.5
+      },
+      "phi_mip": 2.830075,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.830075,
+      "reach_pairs": 6,
+      "seconds": 0.3
+    },
+    "strong_closed": {
+      "form": "strong_closed",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "ties": {
+        "A-B": 1.0,
+        "A-C": 1.0,
+        "B-C": 1.0
+      },
+      "phi_mip": 6.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 6.0,
+      "reach_pairs": 6,
+      "seconds": 0.2
+    }
+  },
+  "H2": "CONFIRMED"
+}

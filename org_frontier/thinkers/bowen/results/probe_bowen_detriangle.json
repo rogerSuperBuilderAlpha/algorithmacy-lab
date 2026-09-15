@@ -1,0 +1,191 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_noise_path": 2.0
+  },
+  "membership": {
+    "reactive_third": {
+      "form": "reactive_third",
+      "eps": 0.0,
+      "tag": "",
+      "phi_mip": 6.0,
+      "fraction": null,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 6.0,
+      "seconds": 0.1
+    },
+    "neutral_third": {
+      "form": "neutral_third",
+      "eps": 0.0,
+      "tag": "",
+      "phi_mip": 0.0,
+      "fraction": null,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    }
+  },
+  "base_core_phi": {
+    "dyad": 2.0,
+    "neutral_third": 2.0
+  },
+  "sweep": {
+    "dyad": [
+      {
+        "form": "dyad",
+        "eps": 0.0,
+        "tag": "",
+        "phi_mip": 2.0,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 2.0,
+        "seconds": 0.0,
+        "core_fraction": 1.0
+      },
+      {
+        "form": "dyad",
+        "eps": 0.05,
+        "tag": "",
+        "phi_mip": 1.671429,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 1.671429,
+        "seconds": 0.0,
+        "core_fraction": 0.835715
+      },
+      {
+        "form": "dyad",
+        "eps": 0.1,
+        "tag": "",
+        "phi_mip": 1.373755,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 1.373755,
+        "seconds": 0.0,
+        "core_fraction": 0.686878
+      },
+      {
+        "form": "dyad",
+        "eps": 0.2,
+        "tag": "",
+        "phi_mip": 0.867932,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 0.867932,
+        "seconds": 0.0,
+        "core_fraction": 0.433966
+      },
+      {
+        "form": "dyad",
+        "eps": 0.3,
+        "tag": "",
+        "phi_mip": 0.475718,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 0.475718,
+        "seconds": 0.0,
+        "core_fraction": 0.237859
+      }
+    ],
+    "neutral_third": [
+      {
+        "form": "neutral_third",
+        "eps": 0.0,
+        "tag": "",
+        "phi_mip": 0.0,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 2.0,
+        "seconds": 0.0,
+        "core_fraction": 1.0
+      },
+      {
+        "form": "neutral_third",
+        "eps": 0.05,
+        "tag": "",
+        "phi_mip": 0.0,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 1.671281,
+        "seconds": 0.0,
+        "core_fraction": 0.835641
+      },
+      {
+        "form": "neutral_third",
+        "eps": 0.1,
+        "tag": "",
+        "phi_mip": 0.0,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 1.371749,
+        "seconds": 0.0,
+        "core_fraction": 0.685875
+      },
+      {
+        "form": "neutral_third",
+        "eps": 0.2,
+        "tag": "",
+        "phi_mip": 0.0,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 0.846902,
+        "seconds": 0.0,
+        "core_fraction": 0.423451
+      },
+      {
+        "form": "neutral_third",
+        "eps": 0.3,
+        "tag": "",
+        "phi_mip": 0.0,
+        "fraction": null,
+        "core": [
+          "A",
+          "B"
+        ],
+        "core_phi": 0.419975,
+        "seconds": 0.0,
+        "core_fraction": 0.209987
+      }
+    ]
+  },
+  "H5": "PARTIAL"
+}

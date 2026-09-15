@@ -1,0 +1,126 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_ties": 2.0
+  },
+  "forms": {
+    "isolated": {
+      "form": "isolated",
+      "labels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "ties": {
+        "a1-a2": 1.0,
+        "b1-b2": 1.0,
+        "c1-c2": 1.0
+      },
+      "phi_mip": 0.0,
+      "core": [
+        "c1",
+        "c2"
+      ],
+      "core_phi": 2.0,
+      "reach_pairs": 6,
+      "seconds": 2.2
+    },
+    "chain": {
+      "form": "chain",
+      "labels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "ties": {
+        "a1-a2": 1.0,
+        "b1-b2": 1.0,
+        "c1-c2": 1.0,
+        "a2-b1": 0.5,
+        "b2-c1": 0.5
+      },
+      "phi_mip": 0.830075,
+      "core": [
+        "a1",
+        "a2"
+      ],
+      "core_phi": 2.0,
+      "reach_pairs": 30,
+      "seconds": 90.5
+    },
+    "ring": {
+      "form": "ring",
+      "labels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "ties": {
+        "a1-a2": 1.0,
+        "b1-b2": 1.0,
+        "c1-c2": 1.0,
+        "a2-b1": 0.5,
+        "b2-c1": 0.5,
+        "a1-c2": 0.5
+      },
+      "phi_mip": 2.490225,
+      "core": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "core_phi": 2.490225,
+      "reach_pairs": 30,
+      "seconds": 202.2
+    },
+    "strong_ring": {
+      "form": "strong_ring",
+      "labels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "ties": {
+        "a1-a2": 1.0,
+        "b1-b2": 1.0,
+        "c1-c2": 1.0,
+        "a2-b1": 1.0,
+        "b2-c1": 1.0,
+        "a1-c2": 1.0
+      },
+      "phi_mip": 4.0,
+      "core": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "core_phi": 4.0,
+      "reach_pairs": 30,
+      "seconds": 45.1
+    }
+  },
+  "H5": "PARTIAL"
+}

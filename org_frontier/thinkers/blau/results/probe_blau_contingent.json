@@ -1,0 +1,53 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "independent": {
+      "form": "independent",
+      "labels": [
+        "S",
+        "B"
+      ],
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "value_added": {
+        "S": 0.0,
+        "B": 0.0
+      },
+      "fixed_points": [
+        "11"
+      ],
+      "seconds": 0.0
+    },
+    "contingent": {
+      "form": "contingent",
+      "labels": [
+        "S",
+        "B"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "S",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "S": 2.0,
+        "B": 2.0
+      },
+      "fixed_points": [
+        "00",
+        "11"
+      ],
+      "seconds": 0.0
+    }
+  },
+  "H1": "CONFIRMED"
+}

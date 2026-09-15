@@ -1,0 +1,63 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "intermediary": {
+      "form": "intermediary",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "M",
+        "B"
+      ],
+      "seconds": 0.36
+    },
+    "mediator_joint": {
+      "form": "mediator_joint",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "M",
+        "B"
+      ],
+      "seconds": 0.16
+    },
+    "mediator_specific": {
+      "form": "mediator_specific",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "M",
+        "B"
+      ],
+      "seconds": 0.37
+    }
+  },
+  "H2": "PARTIAL"
+}

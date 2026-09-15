@@ -1,0 +1,66 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "coleman_closed": {
+      "form": "coleman_closed",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 0.368922,
+      "value_added": {
+        "A": 0.368922,
+        "B": 0.368922,
+        "C": 0.368922
+      },
+      "fixed_points": [
+        "111"
+      ],
+      "seconds": 0.2
+    },
+    "mutual": {
+      "form": "mutual",
+      "labels": [
+        "c1",
+        "c2",
+        "c3",
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "phi_mip": 0.830075,
+      "core": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "core_phi": 2.862348,
+      "value_added": {
+        "c1": 0.862348,
+        "c2": 0.862348,
+        "c3": 0.862348,
+        "s1": 0.862348,
+        "s2": 0.862348,
+        "s3": 0.862348
+      },
+      "fixed_points": [
+        "111000"
+      ],
+      "seconds": 271.0
+    }
+  },
+  "H1": "CONFIRMED"
+}

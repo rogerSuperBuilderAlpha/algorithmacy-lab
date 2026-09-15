@@ -1,0 +1,51 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "star_mediators": {
+      "form": "star_mediators",
+      "verdict": "triadic",
+      "phi_mip": 5.0,
+      "core": [
+        "A",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "core_phi": 5.0,
+      "makes_difference": [
+        "A",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "seconds": 0.87
+    },
+    "star_intermediaries": {
+      "form": "star_intermediaries",
+      "verdict": "triadic",
+      "phi_mip": 3.0,
+      "core": [
+        "A",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "core_phi": 3.0,
+      "makes_difference": [
+        "A",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "seconds": 0.69
+    }
+  },
+  "H5": "CONFIRMED"
+}

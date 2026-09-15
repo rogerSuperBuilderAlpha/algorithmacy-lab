@@ -1,0 +1,40 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_noise_path": 2.0
+  },
+  "forms": {
+    "calm": {
+      "form": "calm",
+      "eps": 0.0,
+      "tag": "",
+      "phi_mip": 0.0,
+      "fraction": null,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    },
+    "triangled": {
+      "form": "triangled",
+      "eps": 0.0,
+      "tag": "",
+      "phi_mip": 1.0,
+      "fraction": null,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.1
+    }
+  },
+  "H2": "REFUTED"
+}

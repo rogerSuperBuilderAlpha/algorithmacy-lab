@@ -1,0 +1,92 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "unnested": {
+      "form": "unnested",
+      "labels": [
+        "a1",
+        "a2",
+        "a3",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "core_phi": 6.0,
+      "value_added": {
+        "a1": 0.0,
+        "a2": 0.0,
+        "a3": 0.0,
+        "b1": 0.0,
+        "b2": 0.0,
+        "b3": 0.0
+      },
+      "fixed_points": [
+        "000000",
+        "111000",
+        "000111",
+        "111111"
+      ],
+      "seconds": 3.5
+    },
+    "nested": {
+      "form": "nested",
+      "labels": [
+        "a1",
+        "a2",
+        "a3",
+        "b1",
+        "b2",
+        "b3",
+        "F"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "core_phi": 6.0,
+      "value_added": {
+        "a1": 4.0,
+        "a2": 0.0,
+        "a3": 0.0,
+        "b1": 4.0,
+        "b2": 0.0,
+        "b3": 0.0,
+        "F": 6.0
+      },
+      "fixed_points": [
+        "0000000",
+        "1111111"
+      ],
+      "seconds": 591.5
+    }
+  },
+  "nested_max_state": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "local_subsystem_phi": {
+    "a": 6.0,
+    "b": 0.0
+  },
+  "H3": "REFUTED"
+}

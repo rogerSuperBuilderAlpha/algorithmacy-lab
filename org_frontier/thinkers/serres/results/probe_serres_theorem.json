@@ -1,0 +1,84 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "chain": {
+      "form": "chain",
+      "labels": [
+        "F",
+        "T",
+        "R"
+      ],
+      "spec": {
+        "F": [
+          "one",
+          []
+        ],
+        "T": [
+          "copy",
+          [
+            "F"
+          ]
+        ],
+        "R": [
+          "copy",
+          [
+            "T"
+          ]
+        ]
+      },
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "seconds": 0.0
+    },
+    "chain_noise": {
+      "form": "chain_noise",
+      "labels": [
+        "F",
+        "T",
+        "R",
+        "N"
+      ],
+      "spec": {
+        "F": [
+          "one",
+          []
+        ],
+        "T": [
+          "copy",
+          [
+            "F"
+          ]
+        ],
+        "R": [
+          "andnot",
+          [
+            "T",
+            "N"
+          ]
+        ],
+        "N": [
+          "copy",
+          [
+            "R"
+          ]
+        ]
+      },
+      "phi_mip": 0.0,
+      "core": [
+        "R",
+        "N"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    }
+  },
+  "H2": "CONFIRMED"
+}

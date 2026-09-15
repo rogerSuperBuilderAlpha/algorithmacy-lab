@@ -1,0 +1,46 @@
+{
+  "exogenous_noise_sweep": [
+    {
+      "eps": 0.0,
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0
+    },
+    {
+      "eps": 0.05,
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0
+    },
+    {
+      "eps": 0.1,
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0
+    },
+    {
+      "eps": 0.25,
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0
+    },
+    {
+      "eps": 0.4,
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0
+    },
+    {
+      "eps": 0.5,
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0
+    }
+  ],
+  "chain_noise_shares": {
+    "F": 2.0,
+    "T": 2.0,
+    "R": 2.0,
+    "N": 2.0
+  }
+}

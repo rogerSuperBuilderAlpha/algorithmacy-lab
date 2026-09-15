@@ -1,0 +1,95 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "spec": null,
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "genuine_adicity": 3,
+    "cause_adicity": 3,
+    "effect_adicity": 3,
+    "n_distinctions": 3,
+    "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+    "seconds": 0.17
+  },
+  "forms": {
+    "monadic_degenerate": {
+      "form": "monadic_degenerate",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C"
+      ],
+      "core_phi": 1.0,
+      "genuine_adicity": 1,
+      "cause_adicity": 1,
+      "effect_adicity": 1,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause A effect A (\u03c6=1.000) at 000",
+      "seconds": 0.06
+    },
+    "dyadic_degenerate": {
+      "form": "dyadic_degenerate",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A"
+      ],
+      "core_phi": 1.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause A effect AB (\u03c6=1.000) at 000",
+      "seconds": 0.03
+    },
+    "genuine": {
+      "form": "control_conjunctive",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 3,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+      "seconds": 0.17
+    }
+  },
+  "ordered": true,
+  "no_triple": true,
+  "H2": "CONFIRMED"
+}
