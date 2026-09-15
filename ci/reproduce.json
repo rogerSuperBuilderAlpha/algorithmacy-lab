@@ -3796,6 +3796,40 @@
       "source": "org_frontier/studies/discriminant_scale_blur/FINDINGS.md"
     },
     {
+      "name": "indeg-002122-n6",
+      "cmd": "python org_frontier/studies/indeg_002122_n6/analyze_indeg.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "catalog match: PASS",
+        "all_pure=False",
+        "H1 (cycle-type band/discriminant):  REFUTED",
+        "H2 (flat — one Φ all classes):      REFUTED",
+        "H3 (within-class mix):              SUPPORTED",
+        "H4 (recip alone does not separate): SUPPORTED",
+        "verdict: MIX",
+        "indeg: (0, 0, 1, 1, 2, 2)",
+        "vs closed band (0,1,1,1,1,2): flat or mix — fingerprint-dependent"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/studies/indeg_002122_n6/FINDINGS.md"
+    },
+    {
+      "name": "constructs-n-gt3",
+      "cmd": "python org_frontier/studies/constructs_n_gt3/analyze_constructs.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "HMC n_cores=[2, 2, 3]",
+        "H1 (HMC ≤2-core / non-algorithmacy): REFUTED",
+        "H2 (CMC non-commit at n>3):          SUPPORTED",
+        "H3 (AI-MC ≥3-core boundary persists): SUPPORTED",
+        "H4 (algorithmacy controls irreducible): SUPPORTED",
+        "verdict: SCALE_BLURS_CONSTRUCTS",
+        "reading: SCALE_BLURS_CONSTRUCTS — HMC or CMC reads as algorithmacy-like at n>3"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/constructs_n_gt3/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

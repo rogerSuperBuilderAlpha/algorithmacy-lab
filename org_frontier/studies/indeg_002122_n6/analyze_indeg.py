@@ -166,45 +166,55 @@ def main():
     all_pure = all(len(Counter(round(p, 3) for p in phis)) == 1
                    for phis in class_phis.values())
     h3 = not all_pure  # mix
-    class_means = {k: phis[0] for k, phis in class_phis.items()}  # pure → any
-    distinct_class_phi = sorted({round(p, 6) for p in class_means.values()})
-    h2 = all_pure and len(distinct_class_phi) == 1
-    h1 = all_pure and len(distinct_class_phi) >= 2 and ctrl and catalog_ok
+    distinct_all = sorted({round(p, 6) for p in all_phis})
+    # modal Φ per class (for flat/band claims when pure)
+    class_modal = {
+        k: Counter(round(p, 6) for p in phis).most_common(1)[0][0]
+        for k, phis in class_phis.items()
+    }
+    distinct_modals = sorted(set(class_modal.values()))
+    h2 = all_pure and len(distinct_all) == 1
+    h1 = all_pure and len(distinct_all) >= 2 and ctrl and catalog_ok
 
     recip_to_phis = defaultdict(set)
     for (cyc, recip), phis in class_phis.items():
         for p in phis:
             recip_to_phis[recip].add(round(p, 1))
     recip_alone = (
-        len(distinct_class_phi) >= 2
+        len(distinct_all) >= 2
         and all(len(v) == 1 for v in recip_to_phis.values())
-        and len({next(iter(v)) for v in recip_to_phis.values()}) == len(distinct_class_phi)
+        and len({next(iter(v)) for v in recip_to_phis.values()})
+        == len(distinct_all)
     )
-    # H4: recip alone does NOT separate — supported when multi-Φ and not recip_alone
-    h4 = len(distinct_class_phi) >= 2 and not recip_alone
+    # H4: recip alone does NOT separate — when ≥2 Φ appear
+    h4 = len(distinct_all) >= 2 and not recip_alone
 
     if h1 and not h3:
         verdict_word = "BAND_OR_SPLIT"
         reading = (
             f"BAND_OR_SPLIT — indeg {TARGET_INDEG}: cycle classes pure with "
-            f"distinct Φ={distinct_class_phi}; cycle-type discriminant survives"
+            f"distinct Φ={distinct_all}; cycle-type discriminant survives"
         )
     elif h2 and not h3:
         verdict_word = "FLAT"
         reading = (
             f"FLAT — indeg {TARGET_INDEG}: all cycle classes share Φ="
-            f"{distinct_class_phi[0]}; no cycle-type discriminant"
+            f"{distinct_all[0]}; no cycle-type discriminant"
         )
     elif h3:
         verdict_word = "MIX"
-        reading = f"MIX — within-class Φ mixing under indeg {TARGET_INDEG}"
+        reading = (
+            f"MIX — within-class Φ mixing under indeg {TARGET_INDEG} "
+            f"(seen Φ={distinct_all})"
+        )
     else:
         verdict_word = "PARTIAL"
         reading = "PARTIAL — incomplete"
 
     print("HYPOTHESIS TESTS")
     print("-" * 80)
-    print(f"  all_pure={all_pure}  distinct_class_Φ={distinct_class_phi}")
+    print(f"  all_pure={all_pure}  distinct_Φ={distinct_all}  "
+          f"modals={distinct_modals}")
     print(f"  recip→Φ={ {k: sorted(v) for k,v in recip_to_phis.items()} }  "
           f"recip_alone={recip_alone}")
     print(f"  H1 (cycle-type band/discriminant):  "
@@ -220,7 +230,7 @@ def main():
     print("SUMMARY")
     print(f"  verdict: {verdict_word}")
     print(f"  indeg: {TARGET_INDEG}")
-    print(f"  distinct Φ: {distinct_class_phi}")
+    print(f"  distinct Φ: {distinct_all}")
     print(f"  vs closed band (0,1,1,1,1,2): "
           f"{'also cycle-split' if h1 else 'flat or mix — fingerprint-dependent'}")
     print(f"  H1={('SUPPORTED' if h1 else 'REFUTED')}  "
@@ -261,7 +271,7 @@ def main():
             "h3": "SUPPORTED" if h3 else "REFUTED",
             "h4": "SUPPORTED" if h4 else "REFUTED",
             "verdict": verdict_word,
-            "distinct_phi": ";".join(str(p) for p in distinct_class_phi),
+            "distinct_phi": ";".join(str(p) for p in distinct_all),
             "reading": reading,
         }
         w = csv.DictWriter(fh, fieldnames=list(summary.keys()))

@@ -10,4 +10,5 @@ python org_frontier/studies/constructs_n_gt3/analyze_constructs.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the registered run.
+**SCALE_BLURS_CONSTRUCTS (narrowly).** Classical HMC pads hold; parallel
+multi-worker assist → 3-core; CMC/AI-MC-boundary/ALGO persist.

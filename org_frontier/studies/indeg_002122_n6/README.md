@@ -11,4 +11,5 @@ python org_frontier/studies/indeg_002122_n6/analyze_indeg.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the registered run.
+**MIX.** Within-class Φ=6/12 mixing; cycle-type purity is
+fingerprint-dependent (unlike the closed band).

@@ -37,11 +37,13 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    samples do not mix Φ as n grows (#42). Softness is across classes
    (coarser bands), not inside them.
 
-4. **Scope.** Conjunctive AND; fixed_k omit (k=n−2); n∈{5,6}. One closed
-   same-indeg family per n. No organization measured. HMC/CMC/AI-MC at n>3
-   and other indeg signatures are parallel arms.
+4. **Scope.** Conjunctive AND; fixed_k omit (k=n−2); n∈{5,6}. Band purity is
+   **fingerprint-dependent**: indeg (0,1,1,1,1,2) was pure;
+   [`indeg_002122_n6/`](studies/indeg_002122_n6/) **MIX** shows (0,0,1,1,2,2)
+   mixes Φ=6/12 within cycle classes. No organization measured.
+   HMC/CMC/AI-MC at n>3: [`constructs_n_gt3/`](studies/constructs_n_gt3/).
 
 ## Best next
 
-Another indeg signature band; or HMC/CMC/AI-MC at n>3 (literal construct
-reading of #42). Skip residual / cascade / ternary unless tooling lands.
+Finer grain on MIX indeg classes; sharpen multi-party HMC vs algorithmacy.
+Skip residual / cascade / ternary unless tooling lands.

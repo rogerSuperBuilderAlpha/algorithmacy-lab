@@ -272,7 +272,7 @@ Deep single-question dives, each driven by its own results.
 Multi-experiment batteries on one theme.
 
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
-- **[HMC / CMC / AI-MC at n>3](org_frontier/studies/constructs_n_gt3/README.md)**
+- **[HMC / CMC / AI-MC at n>3](org_frontier/studies/constructs_n_gt3/README.md)** — plus idle parties) stays a **2-core**. CMC conveyors stay non-commit (whole
 - **[Contingency transitions — the operations that move an intermediary between cells](org_frontier/studies/contingency_transitions/README.md)** — The four cells of the taxonomy form a state machine, and six named operations are its edges. Each operation is
 - **[Coordination-logic atlas](org_frontier/studies/coordination_logic_atlas/README.md)** — Fifty coordination forms, classified by exact IIT-4.0 Φ. Thirty-six verdicts matched the
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
@@ -285,7 +285,7 @@ Multi-experiment batteries on one theme.
 - **[Holistic residual at n=4 (F26)](org_frontier/studies/holistic_residual_n4/README.md)** — strict-mediation n=4 forms (seed 4), a Probe-125/131 cheap-feature random forest misclassifies
 - **[Unconstrained n=4 holistic residual (F26 asterisk fix)](org_frontier/studies/holistic_residual_n4_unconstrained/README.md)** — unconstrained k=2 n=4 forms (seed 40), Probe-131 RF miss rate = **7.5% (75/1000)**, above the
 - **[Unconstrained n=5 holistic residual](org_frontier/studies/holistic_residual_n5_unconstrained/README.md)** — forms (seed 50), Probe-131 RF miss rate = **9.0% (45/500)**, inside the pre-registered hold band
-- **[Indeg (0,0,1,1,2,2) at n=6](org_frontier/studies/indeg_002122_n6/README.md)**
+- **[Indeg (0,0,1,1,2,2) at n=6](org_frontier/studies/indeg_002122_n6/README.md)** — the closed (0,1,1,1,1,2) band — cycle-type classes are **not Φ-pure**
 - **[Interior topology between ring and pool (agenda #19)](org_frontier/studies/interior_ring_pool/README.md)** — (Φ = 4) and the pool (Φ = n(n−1)) **exist**, but none in this designed census
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
