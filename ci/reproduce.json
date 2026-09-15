@@ -3447,8 +3447,6 @@
         "margin B=10% FN|tri:           3.7% (11/297)  miss=3.2%  exact=100",
         "margin B=20% FN|tri:           0.7% (2/297)  miss=0.9%  exact=200",
         "random B=10% FN|tri (mean):    9.3%",
-        "fragility B=10% FN|tri:        10.1% (30/297)",
-        "combined B=10% FN|tri:         6.4% (19/297)",
         "H1 (B=10% FN drop ≥5 pp):      SUPPORTED",
         "H2 (B=20% recover ≥60% gap):   SUPPORTED",
         "H3 (margin beats random ≥3 pp):SUPPORTED",

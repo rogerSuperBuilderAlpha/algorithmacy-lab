@@ -60,7 +60,8 @@ def load_panel(cfg):
 
 
 def oof_proba(X, y):
-    clf = RandomForestClassifier(n_estimators=400, random_state=SEED, n_jobs=-1)
+    # n_jobs=1: OOF ranks must be bit-stable for CI (parallel RF can reorder ties).
+    clf = RandomForestClassifier(n_estimators=400, random_state=SEED, n_jobs=1)
     return cross_val_predict(clf, X, y, cv=CV, method="predict_proba")[:, 1]
 
 

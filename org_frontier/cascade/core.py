@@ -74,8 +74,9 @@ def oof_proba(
     """Out-of-fold P(triadic); no leakage into gating scores."""
     X = np.asarray(X, dtype=float)
     y = np.asarray(y, dtype=int)
+    # n_jobs=1 by default: gating ranks must be bit-stable across CI hosts.
     clf = RandomForestClassifier(
-        n_estimators=n_estimators, random_state=random_state, n_jobs=-1
+        n_estimators=n_estimators, random_state=random_state, n_jobs=1
     )
     return cross_val_predict(clf, X, y, cv=cv, method="predict_proba")[:, 1]
 
