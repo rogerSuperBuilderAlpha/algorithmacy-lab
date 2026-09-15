@@ -3504,6 +3504,30 @@
       "source": "org_frontier/cascade/README.md"
     },
     {
+      "name": "two-triad-shared-member",
+      "cmd": "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py",
+      "expect": [
+        "H1a single triad: triadic Φ=2.000000  PASS",
+        "bridge=none  dyadic   wholeΦ_MIP=0.0000  core=(W1,S1,C)            coreΦ=2.000  spans_both=False",
+        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=(W2,S2)              coreΦ=2.000  spans_both=False",
+        "bridge=AND   triadic  wholeΦ_MIP=4.0000  core=(W1,C1,W2,C2,S)      coreΦ=4.000  spans_both=True",
+        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=(S2,C2)              coreΦ=2.000  spans_both=False",
+        "H1b shared-C/none q210 replicate: whole=dyadic Φ_MIP=0.0000 coreΦ=2.000 spans=False  PASS",
+        "H1 (control + q210 none replicate): SUPPORTED",
+        "H2 (shared-C/AND does not merge):   SUPPORTED",
+        "H3 (shared-S/AND merges):           SUPPORTED",
+        "H4 (shared-S/AND core Φ > 2.0):     SUPPORTED",
+        "H5 (shared-W/AND does not merge):   SUPPORTED",
+        "H6 (role decides merger under AND): SUPPORTED",
+        "shared-S/AND spans_both=True coreΦ=4.000",
+        "shared-C/AND spans_both=False coreΦ=2.000",
+        "shared-W/AND spans_both=False coreΦ=2.000",
+        "reading: WIN — shared mediator merges; shared leaves do not"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/two_triad_shared_member/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
