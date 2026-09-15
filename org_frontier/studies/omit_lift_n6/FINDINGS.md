@@ -81,9 +81,8 @@ Conjunctive AND; n=6 only; ~45s/cell. No organization measured.
 
 ## Best next experiment
 
-**Derangement 3+3 law** — is Φ=14 exactly the double-3-cycle class among
-all !6, or do other types join? Thin full derangement sample by cycle type.
-Else **#42 discriminant scale-blur**. Skip residual/cascade/ternary.
+**Done next:** `derangement_33_phi14/` — **PHI14_IS_33**: among !6, Φ=14 iff
+cycle type 3+3 (dense sample). Follow-on: same-indeg Φ=8 vs 9 band, or #42.
 
 ## Reproduce
 

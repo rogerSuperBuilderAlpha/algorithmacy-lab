@@ -3732,6 +3732,30 @@
       "source": "org_frontier/studies/omit_lift_n6/FINDINGS.md"
     },
     {
+      "name": "derangement-33-phi14",
+      "cmd": "python org_frontier/studies/derangement_33_phi14/analyze_33.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "!6 total=265  by_type={(6,): 120, (2, 4): 90, (3, 3): 40, (2, 2, 2): 15}",
+        "H4_sizes=PASS",
+        "Φ hist={14.0: 6}  all_Φ14=True all_full=True",
+        "other Φ hist={12.0: 9}  any_Φ14=False",
+        "nonder Φ hist={12.0: 3}  any_Φ14=False",
+        "H1 (Φ=14 ⟺ 3+3 among ders):     SUPPORTED",
+        "H2 (other !6 types hit 14):      REFUTED",
+        "H3 (non-ders hit 14):            REFUTED",
+        "H4 (!6 sizes 120/90/40/15):       SUPPORTED",
+        "H5 (3+3 uniformity Φ=14 full):   SUPPORTED",
+        "verdict: PHI14_IS_33",
+        "3+3 → Φ=14: True (N=6/40)",
+        "other !6 → Φ=14: False",
+        "nonder → Φ=14: False",
+        "reading: PHI14_IS_33 — among !6, Φ=14 iff cycle type 3+3 (N_33=6 all 14; other types no 14); non-ders no 14 in thin sample"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/studies/derangement_33_phi14/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
