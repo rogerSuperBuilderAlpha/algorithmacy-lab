@@ -276,6 +276,7 @@ Multi-experiment batteries on one theme.
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
 - **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
+- **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)**
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Holistic residual at n=4 (F26)](org_frontier/studies/holistic_residual_n4/README.md)** — strict-mediation n=4 forms (seed 4), a Probe-125/131 cheap-feature random forest misclassifies
 - **[Unconstrained n=4 holistic residual (F26 asterisk fix)](org_frontier/studies/holistic_residual_n4_unconstrained/README.md)** — unconstrained k=2 n=4 forms (seed 40), Probe-131 RF miss rate = **7.5% (75/1000)**, above the
