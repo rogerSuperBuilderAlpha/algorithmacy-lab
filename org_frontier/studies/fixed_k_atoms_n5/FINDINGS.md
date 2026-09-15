@@ -76,9 +76,9 @@ Conjunctive AND. No organization measured. Runtime ~11.5 min.
 
 ## Best next experiment
 
-Characterize the **Φ=5 omit motif** (which non-bijective patterns yield 4-core
-Φ=5 vs Φ=6), or lift the derangement-rung test to **n=6** fixed_k=n−2 if
-exact-Φ budget allows. #42 scale-blur still queued.
+**Done next:** `omit_motif_phi5/` — **MOTIF_DISCRIMINANT**: Φ=5 iff omit motif
+M (indeg (0,1,1,1,2) + 3-cycle + recip=0); siblings → Φ=6. Follow-on: n=6
+omit/derangement lift, or #42 scale-blur.
 
 ## Reproduce
 

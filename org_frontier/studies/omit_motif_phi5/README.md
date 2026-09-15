@@ -11,4 +11,5 @@ python org_frontier/studies/omit_motif_phi5/analyze_motifs.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the census run.
+**MOTIF_DISCRIMINANT.** Φ=5 iff omit motif M (indeg (0,1,1,1,2) + 3-cycle +
+recip=0); same-indeg siblings → Φ=6; \|M\|=120.

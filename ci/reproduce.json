@@ -3686,6 +3686,26 @@
       "source": "org_frontier/studies/fixed_k_atoms_n5/FINDINGS.md"
     },
     {
+      "name": "omit-motif-phi5",
+      "cmd": "python org_frontier/studies/omit_motif_phi5/analyze_motifs.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring5 Φ=4.000  pool5 Φ=20.000  PASS",
+        "motif M ((0, 1, 1, 1, 2), (3,), 0) size=120",
+        "M sample: all_Φ5=True all_ncore4=True N=12",
+        "H1 (motif M → Φ=5, n_core=4):           SUPPORTED",
+        "H2 (no other nonder class → Φ=5):       SUPPORTED",
+        "H3 (same-indeg siblings → Φ=6):         SUPPORTED",
+        "H4 (Φ=5 exactly motif M):               SUPPORTED",
+        "H5 (designed witness, |M|=120):         SUPPORTED",
+        "verdict: MOTIF_DISCRIMINANT",
+        "discriminant: motif M = indeg(0,1,1,1,2) + 3-cycle + recip=0",
+        "reading: MOTIF_DISCRIMINANT — Φ=5 iff omit motif M (indeg (0,1,1,1,2) + 3-cycle + recip=0); same-indeg siblings → Φ=6; designed witness class size 120"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/omit_motif_phi5/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
