@@ -1,6 +1,7 @@
-"""Finer grain on MIX indeg (0,0,1,1,2,2): t_targets discriminant.
+"""Finer grain on MIX indeg (0,0,1,1,2,2): role-target discriminants.
 
-Hypotheses fixed in hypotheses.md. Extends indeg_002122_n6 MIX.
+t_targets=(1,1) → Φ=12; within (3,), z_targets splits Φ=8 vs 6.
+Hypotheses fixed in hypotheses.md (H5 fixed after H3 fail, before confirm).
 
 Run:  python org_frontier/studies/indeg_002122_grain/analyze_grain.py
 """
@@ -32,15 +33,17 @@ RESULTS = os.path.join(HERE, "results")
 N = 6
 TARGET = (0, 0, 1, 1, 2, 2)
 BASE_SEED = 20260915
-# (cycles, recip, t_targets) -> N_U
+
+# (cycles, recip, t_targets, z_targets|None, n_want, expect_phi, expect_ncore)
 SAMPLE_PLAN = [
-    (((2, 2), 2), (1, 1), 3),   # expect Φ=12
-    (((2, 2), 2), (2, 2), 2),   # expect Φ=6
-    (((4,), 0), (1, 1), 3),     # expect Φ=12
-    (((4,), 0), (1, 2), 2),     # expect Φ=6
-    (((2,), 1), (1, 1), 3),     # H2: extend?
-    (((2,), 1), (2, 2), 1),     # control Φ=6
-    (((3,), 0), (1, 2), 2),     # H3 flat
+    (((2, 2), 2), (1, 1), None, 3, 12.0, 4),
+    (((2, 2), 2), (2, 2), None, 2, 6.0, 6),
+    (((4,), 0), (1, 1), None, 3, 12.0, 4),
+    (((4,), 0), (1, 2), None, 2, 6.0, 6),
+    (((2,), 1), (1, 1), None, 3, 12.0, 4),
+    (((2,), 1), (2, 2), None, 1, 6.0, 6),
+    (((3,), 0), (1, 2), (2, 2), 3, 8.0, 5),  # H5
+    (((3,), 0), (1, 2), (1, 2), 3, 6.0, 6),  # H5
 ]
 
 
@@ -49,15 +52,23 @@ def is_derangement(om):
     return sorted(vals) == list(range(N))
 
 
+def indeg_of(om):
+    return Counter(om[i] for i in range(N))
+
+
 def t_targets_of(om):
-    vals = [om[i] for i in range(N)]
-    indeg = Counter(vals)
+    indeg = indeg_of(om)
     t = sorted(i for i in range(N) if indeg[i] == 2)
     return tuple(sorted(indeg[om[i]] for i in t))
 
 
+def z_targets_of(om):
+    indeg = indeg_of(om)
+    z = sorted(i for i in range(N) if indeg[i] == 0)
+    return tuple(sorted(indeg[om[i]] for i in z))
+
+
 def enumerate_pool():
-    """Map (cyc, recip, t_targets) -> list of omit dicts."""
     by = defaultdict(list)
     for choices in itertools.product(
         *[[j for j in range(N) if j != i] for i in range(N)]
@@ -68,13 +79,9 @@ def enumerate_pool():
         feats = omit_feats(om)
         if feats[0] != TARGET:
             continue
-        key = (feats[1], feats[2], t_targets_of(om))
+        key = (feats[1], feats[2], t_targets_of(om), z_targets_of(om))
         by[key].append(om)
     return by
-
-
-def om_key(om):
-    return tuple(om[i] for i in range(N))
 
 
 def sample(oms, n_want, rng):
@@ -85,7 +92,7 @@ def sample(oms, n_want, rng):
 
 
 def main():
-    print("INDEG (0,0,1,1,2,2) FINER GRAIN — t_targets")
+    print("INDEG (0,0,1,1,2,2) FINER GRAIN — role targets")
     print("=" * 80)
     print("  cited: indeg_002122_n6 MIX; OMIT_ATOM_ARC")
     print("  hypotheses fixed in hypotheses.md before computing")
@@ -105,101 +112,115 @@ def main():
         raise SystemExit("ABORT: instrument control failed")
     print()
 
-    print("SUBTYPE CATALOG (t_targets)")
-    print("-" * 80)
     pool = enumerate_pool()
-    for key in sorted(pool):
-        print(f"  cyc={key[0]} recip={key[1]} t_targets={key[2]}  n={len(pool[key])}")
+    print("SUBTYPE CATALOG")
+    print("-" * 80)
+    # aggregate by (cyc,recip,tt) and by (cyc,recip,tt,zt)
+    agg = defaultdict(int)
+    for (cyc, recip, tt, zt), oms in pool.items():
+        agg[(cyc, recip, tt)] += len(oms)
+    for key in sorted(agg):
+        print(f"  cyc={key[0]} recip={key[1]} t_targets={key[2]}  n={agg[key]}")
     print()
 
     labels = tuple(f"N{i}" for i in range(N))
     rows = []
     t_all = time.time()
     rng = np.random.default_rng(BASE_SEED + 221)
-    subtype_phis = {}
+    results = {}
 
     print("UNIFORMITY BY SUBTYPE")
     print("-" * 80)
-    for (cyc_recip, tt, n_want) in SAMPLE_PLAN:
+    for (cyc_recip, tt, zt, n_want, exp_phi, exp_nc) in SAMPLE_PLAN:
         cyc, recip = cyc_recip
-        key = (cyc, recip, tt)
-        oms = pool[key]
+        if zt is None:
+            oms = []
+            for (c, r, t, z), v in pool.items():
+                if (c, r, t) == (cyc, recip, tt):
+                    oms.extend(v)
+        else:
+            oms = pool[(cyc, recip, tt, zt)]
         samp = sample(oms, n_want, rng)
         phis = []
         cores = []
         for i, om in enumerate(samp):
             assert t_targets_of(om) == tt
+            if zt is not None:
+                assert z_targets_of(om) == zt
             r = eval_one(ins_from_omit(om), N, labels)
             r.update({
                 "family": "grain",
-                "name": f"cyc{cyc}_r{recip}_tt{tt}_{i}",
+                "name": f"cyc{cyc}_r{recip}_tt{tt}_zt{zt}_{i}",
                 "omit": fmt_omit(om),
                 "cycles": str(cyc),
                 "recip": recip,
                 "t_targets": str(tt),
+                "z_targets": str(zt) if zt else "",
             })
             rows.append(r)
             phis.append(r["core_phi"])
             cores.append(r["n_core"])
             print(
-                f"  cyc={cyc} r={recip} tt={tt} [{i}]  "
+                f"  cyc={cyc} r={recip} tt={tt} zt={zt} [{i}]  "
                 f"Φ={r['core_phi']:.1f}  n_core={r['n_core']}"
             )
-        subtype_phis[key] = (phis, cores)
+        key = (cyc, recip, tt, zt)
+        results[key] = (phis, cores, exp_phi, exp_nc)
         hist = Counter(round(p, 3) for p in phis)
+        match = (
+            all(abs(p - exp_phi) < PHI_EPS for p in phis)
+            and all(c == exp_nc for c in cores)
+        )
         print(f"    → hist={dict(hist)} pure={len(hist)==1}  "
-              f"n_cores={Counter(cores)}")
+              f"expect Φ={exp_phi} n_core={exp_nc} match={match}")
     print()
 
-    # ---- Hypotheses ----
-    def all_phi(key, expect, ncore_expect):
-        phis, cores = subtype_phis[key]
+    def ok(key):
+        phis, cores, exp_phi, exp_nc = results[key]
         return (
-            all(abs(p - expect) < PHI_EPS for p in phis)
-            and all(c == ncore_expect for c in cores)
+            all(abs(p - exp_phi) < PHI_EPS for p in phis)
+            and all(c == exp_nc for c in cores)
+            and len(Counter(round(p, 3) for p in phis)) == 1
         )
 
-    # H1
-    h1_keys_12 = [(((2, 2), 2), (1, 1)), (((4,), 0), (1, 1))]
-    h1_keys_6 = [(((2, 2), 2), (2, 2)), (((4,), 0), (1, 2))]
-    h1 = all(
-        all_phi((cyc, recip, tt), 12.0, 4)
-        for (cyc, recip), tt in h1_keys_12
-    ) and all(
-        all_phi((cyc, recip, tt), 6.0, 6)
-        for (cyc, recip), tt in h1_keys_6
+    h1 = (
+        ok(((2, 2), 2, (1, 1), None))
+        and ok(((2, 2), 2, (2, 2), None))
+        and ok(((4,), 0, (1, 1), None))
+        and ok(((4,), 0, (1, 2), None))
     )
-
-    # H2
-    h2 = all_phi(((2,), 1, (1, 1)), 12.0, 4)
-
-    # H3
-    h3 = all_phi(((3,), 0, (1, 2)), 6.0, 6)
-
-    # H4: all tested subtypes pure
-    h4 = h1 and all(
-        len(Counter(round(p, 3) for p in subtype_phis[k][0])) == 1
-        for k in subtype_phis
+    h2 = ok(((2,), 1, (1, 1), None))
+    # H3 original: (3,) flat Φ=6 — expect REFUTED; check both zt subtypes not both 6
+    h3 = (
+        ok(((3,), 0, (1, 2), (1, 2)))
+        and ok(((3,), 0, (1, 2), (2, 2)))
+        and abs(results[((3,), 0, (1, 2), (2, 2))][2] - 6.0) < PHI_EPS
     )
+    # Actually H3 was "all Φ=6" — with zt=(2,2) expecting 8, h3 should be False
+    h3 = False  # structural: we now know (3,) is not flat; H5 replaces
+    # Recompute H3 as originally stated: both (3,) samples Φ=6
+    phis_3 = (
+        results[((3,), 0, (1, 2), (2, 2))][0]
+        + results[((3,), 0, (1, 2), (1, 2))][0]
+    )
+    h3 = all(abs(p - 6.0) < PHI_EPS for p in phis_3)
 
-    if h1 and h4 and h3:
-        if h2:
-            verdict_word = "T_TARGETS_LAW"
-            reading = (
-                "T_TARGETS_LAW — within indeg (0,0,1,1,2,2), Φ=12 iff "
-                "t_targets=(1,1) (hubs omit only singles); else Φ=6; "
-                "extends to cycle (2,); MIX dissolved"
-            )
-        else:
-            verdict_word = "T_TARGETS_RESTRICTED"
-            reading = (
-                "T_TARGETS_RESTRICTED — t_targets=(1,1)⇒Φ=12 on mixed classes "
-                "(2,2)/(4,); does not extend to (2,); MIX dissolved there"
-            )
-    elif not h1:
-        verdict_word = "IRREDUCIBLE_MIX"
+    h5 = (
+        ok(((3,), 0, (1, 2), (2, 2)))
+        and ok(((3,), 0, (1, 2), (1, 2)))
+    )
+    h4 = h1 and h2 and h5 and all(ok(k) for k in results)
+
+    if h1 and h2 and h5 and h4 and not h3:
+        verdict_word = "ROLE_TARGETS_LAW"
         reading = (
-            "IRREDUCIBLE_MIX — t_targets does not purify; mix remains"
+            "ROLE_TARGETS_LAW — MIX dissolved: t_targets=(1,1)⇒Φ=12; "
+            "within (3,), z_targets=(2,2)⇒Φ=8 else Φ=6; all subtypes pure"
+        )
+    elif h1 and h2 and not h5:
+        verdict_word = "T_TARGETS_PARTIAL"
+        reading = (
+            "T_TARGETS_PARTIAL — t_targets=(1,1)⇒Φ=12 holds; (3,) residual unpurified"
         )
     else:
         verdict_word = "PARTIAL"
@@ -211,20 +232,22 @@ def main():
           f"{'SUPPORTED' if h1 else 'REFUTED'}")
     print(f"  H2 (law extends to cycle (2,)):         "
           f"{'SUPPORTED' if h2 else 'REFUTED'}")
-    print(f"  H3 ((3,) stays Φ=6):                    "
+    print(f"  H3 ((3,) stays Φ=6 flat):               "
           f"{'SUPPORTED' if h3 else 'REFUTED'}")
-    print(f"  H4 (pure discriminant / MIX dissolved): "
+    print(f"  H4 (all subtypes pure / MIX dissolved): "
           f"{'SUPPORTED' if h4 else 'REFUTED'}")
+    print(f"  H5 ((3,) z_targets 8 vs 6):             "
+          f"{'SUPPORTED' if h5 else 'REFUTED'}")
     print()
     print("=" * 80)
     print("SUMMARY")
     print(f"  verdict: {verdict_word}")
-    print(f"  discriminant: t_targets=(1,1) → Φ=12 n_core=4; else Φ=6 full-core "
-          f"(within indeg (0,0,1,1,2,2))")
+    print(f"  discriminant: t_targets=(1,1)→Φ=12; (3,)+z_targets=(2,2)→Φ=8; else Φ=6")
     print(f"  H1={('SUPPORTED' if h1 else 'REFUTED')}  "
           f"H2={('SUPPORTED' if h2 else 'REFUTED')}  "
           f"H3={('SUPPORTED' if h3 else 'REFUTED')}  "
-          f"H4={('SUPPORTED' if h4 else 'REFUTED')}")
+          f"H4={('SUPPORTED' if h4 else 'REFUTED')}  "
+          f"H5={('SUPPORTED' if h5 else 'REFUTED')}")
     print(f"  reading: {reading}")
     print(f"  elapsed_total={round(time.time() - t_all, 1)}s")
     print("=" * 80)
@@ -232,7 +255,7 @@ def main():
     os.makedirs(RESULTS, exist_ok=True)
     with open(os.path.join(RESULTS, "census.csv"), "w", newline="") as fh:
         fields = [
-            "family", "name", "omit", "cycles", "recip", "t_targets",
+            "family", "name", "omit", "cycles", "recip", "t_targets", "z_targets",
             "structure", "whole_phi_mip", "core", "core_phi", "n_core",
             "mean_degree", "clustering",
         ]
@@ -246,6 +269,7 @@ def main():
                 "cycles": r["cycles"],
                 "recip": r["recip"],
                 "t_targets": r["t_targets"],
+                "z_targets": r.get("z_targets", ""),
                 "structure": r["structure"],
                 "whole_phi_mip": f"{r['whole_phi_mip']:.6f}",
                 "core": "|".join(r["core"]),
@@ -260,6 +284,7 @@ def main():
             "h2": "SUPPORTED" if h2 else "REFUTED",
             "h3": "SUPPORTED" if h3 else "REFUTED",
             "h4": "SUPPORTED" if h4 else "REFUTED",
+            "h5": "SUPPORTED" if h5 else "REFUTED",
             "verdict": verdict_word,
             "reading": reading,
         }

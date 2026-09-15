@@ -3830,6 +3830,38 @@
       "source": "org_frontier/studies/constructs_n_gt3/FINDINGS.md"
     },
     {
+      "name": "indeg-002122-grain",
+      "cmd": "python org_frontier/studies/indeg_002122_grain/analyze_grain.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (tt=(1,1)⇒12 on (2,2)/(4,); else 6): SUPPORTED",
+        "H2 (law extends to cycle (2,)):         SUPPORTED",
+        "H3 ((3,) stays Φ=6 flat):               REFUTED",
+        "H4 (all subtypes pure / MIX dissolved): SUPPORTED",
+        "H5 ((3,) z_targets 8 vs 6):             SUPPORTED",
+        "verdict: ROLE_TARGETS_LAW",
+        "discriminant: t_targets=(1,1)→Φ=12; (3,)+z_targets=(2,2)→Φ=8; else Φ=6",
+        "reading: ROLE_TARGETS_LAW — MIX dissolved: t_targets=(1,1)⇒Φ=12; within (3,), z_targets=(2,2)⇒Φ=8 else Φ=6; all subtypes pure"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/indeg_002122_grain/FINDINGS.md"
+    },
+    {
+      "name": "hmc-algo-boundary",
+      "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (second human in S expands core):   SUPPORTED",
+        "H2 (read-without-commit stays out):    SUPPORTED",
+        "H3 (full joint commit → algo Φ≥3):     SUPPORTED",
+        "H4 (drop from commit → drop from core): SUPPORTED",
+        "verdict: COMMIT_READ_BOUNDARY",
+        "reading: COMMIT_READ_BOUNDARY — party enters core iff in S’s determination and reads S; assist expands core; full ∧-commit flips to algorithmacy Φ=3; dropping commit membership drops core membership"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/hmc_algo_boundary/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

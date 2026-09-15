@@ -38,12 +38,13 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    (coarser bands), not inside them.
 
 4. **Scope.** Conjunctive AND; fixed_k omit (k=n−2); n∈{5,6}. Band purity is
-   **fingerprint-dependent**: indeg (0,1,1,1,1,2) was pure;
-   [`indeg_002122_n6/`](studies/indeg_002122_n6/) **MIX** shows (0,0,1,1,2,2)
-   mixes Φ=6/12 within cycle classes. No organization measured.
-   HMC/CMC/AI-MC at n>3: [`constructs_n_gt3/`](studies/constructs_n_gt3/).
+   **fingerprint-dependent**: indeg (0,1,1,1,1,2) was pure under cycle type;
+   indeg (0,0,1,1,2,2) mixed until **role-target grain**
+   ([`indeg_002122_grain/`](studies/indeg_002122_grain/) ROLE_TARGETS_LAW:
+   t_targets=(1,1)→Φ=12; (3,)+z_targets=(2,2)→Φ=8). Construct arm:
+   [`hmc_algo_boundary/`](studies/hmc_algo_boundary/) COMMIT_READ_BOUNDARY.
 
 ## Best next
 
-Finer grain on MIX indeg classes; sharpen multi-party HMC vs algorithmacy.
-Skip residual / cascade / ternary unless tooling lands.
+Role-target grain on another indeg; n=5 encoding ladder. Skip residual /
+cascade / ternary unless tooling lands.

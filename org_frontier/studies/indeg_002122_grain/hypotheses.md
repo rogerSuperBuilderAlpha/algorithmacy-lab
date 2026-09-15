@@ -40,3 +40,10 @@ Null: Φ=12 appears.
 H1 holds (and H3 holds): the MIX dissolves into a pure t_targets law on the
 previously impure classes. Null: even after t_targets split, some subtype
 still mixes Φ.
+
+## H5 — (3,) residual purified by z_targets (fixed after H3 fail, before confirm)
+
+If H3 fails, sub-partition ((3,),0) by **z_targets** (omit-indegrees of the
+two never-omitted nodes’ targets). Forms with z_targets=(2,2) yield Φ=8
+(n_core=5); forms with z_targets=(1,2) yield Φ=6 full-core. Confirmatory
+sample only — not used to invent the split. Null: subtype still mixes.
