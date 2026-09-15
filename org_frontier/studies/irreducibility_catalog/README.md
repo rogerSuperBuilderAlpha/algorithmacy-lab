@@ -24,9 +24,11 @@ python org_frontier/studies/irreducibility_catalog/build_catalog.py
 ## Adding an entry
 
 Append a dict to `ENTRIES` in `catalog_entries.py`: the real parties, the constraint, the bypass it forbids, a
-structural `template` (relay / conjunctive / additive / free), and the `expected` class. Run the builder; if
-the model classifies as predicted it joins the catalog, and the reproduce check holds it there. A real
-arrangement that does not fit the four templates is the signal to add a fifth.
+structural `template` (relay / conjunctive / additive / free / parity), and the `expected` class. Run the
+builder; if the model classifies as predicted it joins the catalog, and the reproduce check holds it there.
+The fifth template (parity: XOR/XNOR joint determination) was added after the template-coverage census
+showed eight of twenty-four triadic strict-mediation forms outside the original four; see
+`org_frontier/studies/template_coverage_census/`.
 
 ## What the first batch shows
 

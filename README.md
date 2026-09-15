@@ -276,7 +276,8 @@ Multi-experiment batteries on one theme.
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
 - **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
-- **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 51 entries classified by the bypass-counterfactual (q213): 38 real-world arrangements and 13
+- **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
+- **[Template coverage census — fifth template from the triad residual](org_frontier/studies/template_coverage_census/README.md)** — outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the
 
 ### Foundations — what tracks Φ
 

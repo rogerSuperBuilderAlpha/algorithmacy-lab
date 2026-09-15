@@ -72,10 +72,17 @@ runnable design yet. Themes group them; numbering is 1–50.
 ## F. The holistic residual
 
 26. Does the irreducible-residual fraction (~5% at n=3, #131) shrink, hold, or grow at n=4 and n=5?
+    **Open.** Template-coverage census scoped n=4 out; follow-up is a Probe-125-style panel on an N=3000
+    n=4 sample (`org_frontier/studies/template_coverage_census/`).
 27. Are the residual forms exactly the affine (GF(2)-linear) determinations, or some other algebraic
     class connectivity cannot see (#130, #106)?
+    **Answered — no.** Holistic residual (196/4096, 4.8%) shares **zero** forms with the 512 all-affine
+    wirings; affine miss rate is 0%. See `template_coverage_census/FINDINGS.md` (H3). Related: among
+    *triadic* strict-mediation forms the four catalog templates leave an 8/24 residual that *is* the
+    affine joint (XOR/XNOR) band — a different residue, now the catalog's fifth template (parity).
 28. Do the near-boundary holistic forms (#131) sit on a genuine phase boundary in function space — small
     perturbations flipping the verdict?
+    **Open.** Residual near-boundary fraction re-verified at 0.91; perturbation test not yet run.
 
 ## G. Political economy and organization design
 
