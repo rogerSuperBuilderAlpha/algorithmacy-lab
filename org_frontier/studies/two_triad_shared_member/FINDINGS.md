@@ -56,10 +56,10 @@ this construction — the combination rule still matters.
 
 ## Best next experiment
 
-**Beyond-binary state** on the same shared-mediator AND architecture (or a
-minimal conjunctive triad): does the merge / Φ=4.0 pattern survive when nodes
-take ternary alphabets, or does multi-valued state split the complex? Agenda
-structural queue alternative if compute-bound: hierarchy of mediators (#15).
+**Done next:** `shared_mediator_ternary/` — binary merge replicates; ternary
+min-AND lift documented; exact IIT-4.0 multivalued capability **absent**
+(H3–H5 NOT_TESTABLE). Follow-on: hierarchy of mediators (#15), or port
+multivalued support onto IIT-4.0 and re-run H3–H5.
 
 ## Reproduce
 

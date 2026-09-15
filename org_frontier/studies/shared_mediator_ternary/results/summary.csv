@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,binary_spans,binary_core_phi,binary_core,lift_unit_check,reading,capability_error
+SUPPORTED,REFUTED,NOT_TESTABLE,NOT_TESTABLE,NOT_TESTABLE,True,4.000000,W1|C1|W2|C2|S,PASS,TOOLING_GAP — binary merge stands; ternary IIT-4.0 not computable here,"ValueError: operands could not be broadcast together with shapes (243,243) (128,128) "
