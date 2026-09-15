@@ -11,4 +11,5 @@ python org_frontier/studies/discriminant_scale_blur/analyze_blur.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the registered run.
+**SCALE_MORPHS.** Purity holds at n=5 and n=6; law morphs singleton→band;
+not blur.

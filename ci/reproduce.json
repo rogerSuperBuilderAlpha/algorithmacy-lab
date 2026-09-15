@@ -3776,6 +3776,26 @@
       "source": "org_frontier/studies/same_indeg_band_n6/FINDINGS.md"
     },
     {
+      "name": "discriminant-scale-blur",
+      "cmd": "python org_frontier/studies/discriminant_scale_blur/analyze_blur.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "all 6 classes pure: True",
+        "n=5 same-indeg pure (M+siblings): True",
+        "n=6 all classes pure: True",
+        "H1 (class purity holds across n):      SUPPORTED",
+        "H2 (purity collapses / mixes at scale): REFUTED",
+        "H3 (morphs into coarser band):          SUPPORTED",
+        "H4 (n=5 singleton not verbatim at n=6): SUPPORTED",
+        "H5 (denser n=5 siblings pure Φ=6):      SUPPORTED",
+        "verdict: SCALE_MORPHS",
+        "#42 scale-blur? NO — morphs, purity holds",
+        "reading: SCALE_MORPHS — class purity holds at n=5 and n=6 (no within-class mix); discriminant morphs singleton→multi-class band; not blur, not copy"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/discriminant_scale_blur/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

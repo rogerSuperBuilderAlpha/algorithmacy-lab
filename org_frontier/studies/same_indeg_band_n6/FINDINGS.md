@@ -61,8 +61,9 @@ N_U=3 per class (not full 3840). Conjunctive AND; one indeg signature only.
 
 ## Best next experiment
 
-**#42 discriminant scale-blur**, or lift the band law to another indeg
-signature / n=7 omit. Skip residual/cascade/ternary.
+**Done next:** `discriminant_scale_blur/` (#42) — **SCALE_MORPHS**: purity
+holds; singleton→band morph; not blur. Follow-on: HMC/CMC/AI-MC at n>3, or
+another indeg signature.
 
 ## Reproduce
 
