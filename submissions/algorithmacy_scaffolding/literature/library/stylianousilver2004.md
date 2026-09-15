@@ -1,0 +1,17 @@
+# Stylianou, D. A., & Silver, E. A. (2004). The role of visual representations in advanced mathematical problem solving: An examination of expert-novice similarities and differences. *Mathematical Thinking and Learning*, 6(4), 353–387.
+
+**Identifier:** https://doi.org/10.1207/s15327833mtl0604_1 · **Read depth:** abstract_only · **Source-tier:** primary_journal · **Evidence basis:** secondary_report · **Relation last checked:** 2026-09-15
+
+## What it argues
+
+Only the abstract was accessible (Taylor & Francis abstract page, ERIC EJ683070, Google Scholar). The publisher lists the full text as closed; ResearchGate and academia.edu copies sit behind Cloudflare challenges I did not attempt to pass. Everything below is from the abstract and should be treated as such.
+
+The study "contrasted [expert mathematicians] with undergraduate students through a two-part analysis of the potential and actual use of visual representations in problem solving." Part one is a classification task probing perceived utility: "both experts and novices perceive visual representation use as a viable strategy," but "novices generally indicate that visual representations would likely be useful mostly for geometry problems, whereas the experts indicate potential application to a wider variety of problems." Part two analyses "written solutions to problems and verbal protocols of problem-solving episodes" for "the frequency, nature, and function of the visual representations actually used." The reported result: "Experts construct visual representations more frequently than do novices and use them as dynamic objects to explore the problem space qualitatively, to develop a better understanding of the problem situation, and to guide their solution planning and enactment of problem-solving activity. In contrast, novices typically make little use of visual representations." Sample sizes, the specific problems, and the coding scheme are in the body, which I could not read.
+
+## Relation to the argument
+
+This is the source for the "static illustrations" contrast. The abstract's own wording is "dynamic objects" for experts versus "little use" for novices: experts draw and *manipulate* diagrams as a working tool; novices mostly do not draw at all, and when they judge diagrams useful they restrict them to geometry. That supports a claim that novices treat visual representations as domain-bound pictures while experts treat them as instruments for exploring a problem space. It does not, on the abstract, support a claim that novices fixate on given static illustrations — the study is about representations the solver *constructs*, not figures printed in a text. If the section pairs this with Inglis and Alcock (2012) the two are complementary but concern different activities: reading proofs versus solving problems.
+
+## Caution
+
+Abstract-only read: no page numbers, no Ns, no effect sizes, and no direct check on whether the "dynamic objects" phrase is a coded category or an interpretive gloss. The study is from 2004, uses verbal protocols (subject to the reactivity and veridicality concerns Inglis and Alcock raise for that method), and its "novices" are undergraduates who may simply lack the content knowledge to know when a diagram helps, so a hostile reader can attribute the difference to knowledge rather than representational habit. Before quoting anything beyond the abstract, obtain the full text through the library.
