@@ -3342,6 +3342,24 @@
       "source": "org_frontier/studies/holistic_residual_n4/FINDINGS.md"
     },
     {
+      "name": "residual-phase-boundary",
+      "cmd": "python org_frontier/studies/residual_phase_boundary/analyze_phase_boundary.py",
+      "expect": [
+        "Hamming-1 neighbourhood size: 12  PASS",
+        "near_residual        n=178  mean flip=0.482  median=0.500  frac≥1 flip=1.000",
+        "near_hit_control     n=176  mean flip=0.521  median=0.583  frac≥1 flip=1.000",
+        "far_hit_control      n=178  mean flip=0.273  median=0.250  frac≥1 flip=0.921",
+        "residual − far-hit:         +20.9 pp",
+        "residual − near-hit:        -3.9 pp",
+        "H1 (residual mean≥0.25 and ≥80% any-flip): SUPPORTED",
+        "H2 (residual exceeds far-hit by ≥10 pp):   SUPPORTED",
+        "H3 (residual exceeds near-hit by ≥5 pp):   REFUTED",
+        "F28:                        PHASE BOUNDARY"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/residual_phase_boundary/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

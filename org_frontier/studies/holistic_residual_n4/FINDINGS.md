@@ -51,10 +51,8 @@ unary party reads contribute synergy 0. Panel build: ~67s for N=3000 exact Φ on
 
 ## Best next experiment
 
-Re-run the same cheap-panel residual protocol on a **class-balanced or unconstrained n=4** draw (or
-stratified oversampling of triadic SM forms) so the miss-rate comparison is not dominated by the
-2.4% base rate; alternatively run **F28** as a one-bit perturbation sweep on the n=3 Probe-131
-near-boundary misses.
+**F28** is answered in `org_frontier/studies/residual_phase_boundary/` (phase boundary vs confident
+forms; not residual-specific). Remaining: class-balanced n=4 residual panel, or F26 at n=5.
 
 ## Reproduce
 
