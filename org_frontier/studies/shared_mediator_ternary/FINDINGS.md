@@ -47,10 +47,10 @@ that graded state splits (or preserves) the complex.
 
 ## Best next experiment
 
-**Hierarchy of mediators (agenda #15)** — computable now on binary IIT-4.0:
-which level holds the major complex, and does Φ scale by depth or breadth?
-Separate track: port/restore multivalued support onto the IIT-4.0 `new_big_phi`
-API, then re-run this study's H3–H5 without changing the lift.
+**Done next:** `mediator_hierarchy_census/` (agenda #15) — recurrent trees span
+all levels (Φ flat in depth / grows with breadth); feedforward hub chains are
+top-local. Follow-on: spanning mediator atop multi-hub (#20), or small-world
+vs hierarchy (#17).
 
 ## Reproduce
 

@@ -3544,6 +3544,25 @@
       "source": "org_frontier/studies/shared_mediator_ternary/FINDINGS.md"
     },
     {
+      "name": "mediator-hierarchy-census",
+      "cmd": "python org_frontier/studies/mediator_hierarchy_census/analyze_hierarchy.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "depth Φ (b=1, d=1..4):     [2.0, 2.0, 2.0, 2.0]",
+        "breadth Φ (d=1, b=2..4):   [2.0, 3.0, 4.0]",
+        "H1 (depth flat Φ=2.0):                 SUPPORTED",
+        "H2 (breadth Φ increases):              SUPPORTED",
+        "H3 (recurrent spans all levels):       SUPPORTED",
+        "H4 (feedforward hub-chain top-local):  SUPPORTED",
+        "H5 (closure decides level locus):      SUPPORTED",
+        "depth: Φ=2.0 flat (b=1); breadth: Φ grows 2→4 (d=1)",
+        "crossed d=2/b=2: spans_all=True coreΦ=2.000",
+        "reading: WIN — depth flat / breadth grows; recurrent spans levels, feedforward top-local"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/mediator_hierarchy_census/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

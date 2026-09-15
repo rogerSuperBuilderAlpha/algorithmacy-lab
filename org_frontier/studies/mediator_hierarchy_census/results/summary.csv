@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,depth_phis,breadth_phis,crossed_spans_all,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,2.000;2.000;2.000;2.000,2.000;3.000;4.000,True,"WIN — depth flat / breadth grows; recurrent spans levels, feedforward top-local"
