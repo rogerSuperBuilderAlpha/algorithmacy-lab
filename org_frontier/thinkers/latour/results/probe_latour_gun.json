@@ -1,0 +1,61 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "neutral_tool": {
+      "form": "neutral_tool",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "C",
+        "G",
+        "X"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "C",
+        "G",
+        "X"
+      ],
+      "seconds": 0.36
+    },
+    "autonomous": {
+      "form": "autonomous",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "G"
+      ],
+      "core_phi": 1.0,
+      "makes_difference": [
+        "G",
+        "X"
+      ],
+      "seconds": 0.01
+    },
+    "translation": {
+      "form": "translation",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "C",
+        "G",
+        "X"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "C",
+        "G",
+        "X"
+      ],
+      "seconds": 0.11
+    }
+  },
+  "H4": "PARTIAL"
+}

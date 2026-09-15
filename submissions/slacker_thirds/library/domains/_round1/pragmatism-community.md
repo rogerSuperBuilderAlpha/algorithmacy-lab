@@ -1,5 +1,7 @@
 # Domain sweep: Royce, pragmatism, and the theory of community
 
+> **Current thesis (2026-09-13 afternoon lock).** This sweep audited an earlier draft. The live claim is in [`../../../CLAIM.md`](../../../CLAIM.md): *Slacker* does not chronicle a lost counterculture, but models the operational logic of the modern platform: an indifferent apparatus that coordinates human bodies through spatial proximity and technical selection, rendering interpersonal connection, shared belief, and conscious consent completely obsolete. Royce is a diagnostic that the strangers on screen fail. Do not argue that platform workers pass the test. Findings about sources remain usable; section names and payoff do not.
+
 **Chapter audited:** `chapter.md` ("You seen Gary around?": The Deferred Third of *Slacker*), 7,290 words, 39 endnotes.
 **Sweep date:** 2026-08-18.
 **Verification base:** the 1913 Macmillan text of *The Problem of Christianity*, vol. 2, read in full-text scan (Internet Archive `problemchristia05roycgoog`, cross-checked against `theproblemofchri02roycuoft` and `problemchristia04roycgoog`); *The Philosophy of Loyalty* (1908 Macmillan, IA `philosophyloyal00roycuoft`); *Race Questions, Provincialism, and Other American Problems* (1908 Macmillan, IA `racequestionspro00roycuoft`); Dewey, *The Public and Its Problems* (1927 Holt, Project Gutenberg #71000, page-anchored); the SEP entry (fetched and de-marked-up in full); the IEP entry (fetched in full); Crossref records for the recent journal items.

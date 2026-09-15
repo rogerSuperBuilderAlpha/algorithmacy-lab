@@ -1,0 +1,61 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "norm_open": {
+      "form": "norm_open",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "A": 2.0,
+        "B": 2.0,
+        "C": 2.0
+      },
+      "fixed_points": [],
+      "seconds": 0.6
+    },
+    "norm_closed": {
+      "form": "norm_closed",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 0.368922,
+      "value_added": {
+        "A": 0.368922,
+        "B": 0.368922,
+        "C": 0.368922
+      },
+      "fixed_points": [
+        "111"
+      ],
+      "seconds": 0.5
+    }
+  },
+  "gain": -1.631078,
+  "dV_B": -1.631078,
+  "captured_fraction": 1.0,
+  "H5": "REFUTED"
+}

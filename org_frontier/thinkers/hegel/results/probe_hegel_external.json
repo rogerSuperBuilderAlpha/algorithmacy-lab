@@ -1,0 +1,87 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "communication": {
+      "form": "communication",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 0.0,
+      "verdict": "dyadic",
+      "core": [
+        "A"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.0,
+      "spec": {
+        "A": [
+          "hold",
+          []
+        ],
+        "M": [
+          "and",
+          [
+            "A"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "M"
+          ]
+        ]
+      },
+      "reachable_from_A": [
+        "B",
+        "M"
+      ]
+    },
+    "scent": {
+      "form": "scent",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 0.0,
+      "verdict": "dyadic",
+      "core": [
+        "A"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.0,
+      "spec": {
+        "A": [
+          "hold",
+          []
+        ],
+        "M": [
+          "and",
+          [
+            "A"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "A"
+          ]
+        ]
+      },
+      "reachable_from_A": [
+        "B",
+        "M"
+      ]
+    }
+  },
+  "H2": "CONFIRMED"
+}

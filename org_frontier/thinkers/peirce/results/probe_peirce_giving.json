@@ -1,0 +1,76 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "spec": null,
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "genuine_adicity": 3,
+    "cause_adicity": 3,
+    "effect_adicity": 3,
+    "n_distinctions": 3,
+    "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+    "seconds": 0.17
+  },
+  "forms": {
+    "giving_genuine": {
+      "form": "giving_genuine",
+      "labels": [
+        "G",
+        "T",
+        "R"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "G",
+        "T",
+        "R"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 3,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "R -> cause GT effect GT (\u03c6=2.000) at 001",
+      "seconds": 0.16
+    },
+    "giving_degenerate": {
+      "form": "giving_degenerate",
+      "labels": [
+        "G",
+        "T",
+        "R"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "G",
+        "T",
+        "R"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 3,
+      "max_distinction": "G -> cause R effect T (\u03c6=1.000) at 000",
+      "seconds": 0.54
+    }
+  },
+  "genuine_ok": true,
+  "degenerate_ok": true,
+  "H3": "CONFIRMED"
+}

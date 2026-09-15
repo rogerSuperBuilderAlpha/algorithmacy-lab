@@ -1,0 +1,91 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_stochastic_path": 2.0
+  },
+  "forms": {
+    "dyad": {
+      "form": "dyad",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "spec": {
+        "A": [
+          "copy",
+          [
+            "B"
+          ]
+        ],
+        "B": [
+          "copy",
+          [
+            "A"
+          ]
+        ]
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0
+    },
+    "dyad_exo": {
+      "form": "dyad_exo",
+      "labels": [
+        "A",
+        "B",
+        "N"
+      ],
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "seconds": 0.0
+    },
+    "dyad_endo": {
+      "form": "dyad_endo",
+      "labels": [
+        "A",
+        "B",
+        "N"
+      ],
+      "spec": {
+        "A": [
+          "copy",
+          [
+            "B"
+          ]
+        ],
+        "B": [
+          "xor",
+          [
+            "A",
+            "N"
+          ]
+        ],
+        "N": [
+          "and",
+          [
+            "A",
+            "B"
+          ]
+        ]
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.3
+    }
+  },
+  "H3": "REFUTED"
+}

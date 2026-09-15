@@ -1,0 +1,104 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "judgment": {
+      "form": "judgment",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "phi_mip": 2.0,
+      "verdict": "triadic",
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0,
+      "spec": {
+        "A": [
+          "and",
+          [
+            "B"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "A"
+          ]
+        ]
+      }
+    },
+    "syllogism": {
+      "form": "syllogism",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 2.0,
+      "verdict": "triadic",
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.1,
+      "spec": {
+        "A": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "A",
+            "B"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "M"
+          ]
+        ]
+      }
+    },
+    "syllogism_minus_M": {
+      "form": "syllogism_minus_M",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "phi_mip": 0.0,
+      "verdict": "dyadic",
+      "core": [
+        "B"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.0,
+      "spec": {
+        "A": [
+          "and",
+          []
+        ],
+        "B": [
+          "and",
+          []
+        ]
+      }
+    }
+  },
+  "H1": "REFUTED"
+}

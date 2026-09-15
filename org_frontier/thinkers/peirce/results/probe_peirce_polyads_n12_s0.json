@@ -1,0 +1,319 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "spec": null,
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "genuine_adicity": 3,
+    "cause_adicity": 3,
+    "effect_adicity": 3,
+    "n_distinctions": 3,
+    "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+    "seconds": 0.17
+  },
+  "forms": [
+    {
+      "form": "two_input_00",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=AND(C,D);B=OR(C,D);C=NOR(B,D);D=XNOR(A,C)",
+      "verdict": "triadic",
+      "phi_mip": 0.830075,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 4,
+      "max_distinction": "BD -> cause AC effect C (\u03c6=1.000) at 0000",
+      "seconds": 6.76
+    },
+    {
+      "form": "two_input_01",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=NAND(B,C);B=XNOR(A,C);C=NOR(A,D);D=XOR(A,C)",
+      "verdict": "triadic",
+      "phi_mip": 0.830075,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 5,
+      "max_distinction": "ACD -> cause ABC effect BC (\u03c6=0.415) at 0100",
+      "seconds": 4.99
+    },
+    {
+      "form": "two_input_02",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XNOR(C,D);B=OR(A,C);C=XNOR(A,B);D=XNOR(B,C)",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 9,
+      "max_distinction": "AB -> cause CD effect C (\u03c6=1.000) at 0000",
+      "seconds": 21.06
+    },
+    {
+      "form": "two_input_03",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XNOR(B,C);B=XOR(A,D);C=XNOR(A,B);D=NAND(B,C)",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 6,
+      "max_distinction": "AD -> cause BC effect B (\u03c6=1.000) at 1000",
+      "seconds": 18.87
+    },
+    {
+      "form": "two_input_04",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XOR(C,D);B=XNOR(A,D);C=NAND(A,D);D=AND(B,C)",
+      "verdict": "triadic",
+      "phi_mip": 0.830075,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 3,
+      "max_distinction": "AD -> cause CD effect BC (\u03c6=1.000) at 0011",
+      "seconds": 10.03
+    },
+    {
+      "form": "two_input_05",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XNOR(B,C);B=NOR(A,C);C=XOR(B,D);D=XNOR(A,B)",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 9,
+      "max_distinction": "BD -> cause ABC effect C (\u03c6=1.000) at 0100",
+      "seconds": 22.43
+    },
+    {
+      "form": "two_input_06",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=OR(B,C);B=NOR(A,C);C=NOR(A,D);D=NAND(A,C)",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 3,
+      "effect_adicity": 4,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause AD effect ABD (\u03c6=0.915) at 1011",
+      "seconds": 3.12
+    },
+    {
+      "form": "two_input_07",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=OR(B,C);B=XOR(A,D);C=AND(A,D);D=XOR(A,B)",
+      "verdict": "triadic",
+      "phi_mip": 0.415037,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 8,
+      "max_distinction": "AD -> cause AB effect BC (\u03c6=1.000) at 0000",
+      "seconds": 9.88
+    },
+    {
+      "form": "two_input_08",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XNOR(C,D);B=XOR(A,D);C=XNOR(B,D);D=OR(B,C)",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 9,
+      "max_distinction": "ABD -> cause ABCD effect BC (\u03c6=1.000) at 0000",
+      "seconds": 22.17
+    },
+    {
+      "form": "two_input_09",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=AND(C,D);B=OR(A,C);C=NAND(B,D);D=XOR(A,C)",
+      "verdict": "triadic",
+      "phi_mip": 0.415037,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 3,
+      "max_distinction": "AC -> cause D effect BD (\u03c6=1.000) at 1100",
+      "seconds": 7.08
+    },
+    {
+      "form": "two_input_10",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XOR(B,C);B=NAND(A,C);C=AND(B,D);D=XOR(A,C)",
+      "verdict": "triadic",
+      "phi_mip": 0.830075,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 5,
+      "max_distinction": "AC -> cause BC effect BD (\u03c6=1.000) at 0010",
+      "seconds": 14.42
+    },
+    {
+      "form": "two_input_11",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": "A=XNOR(B,D);B=AND(A,D);C=XNOR(A,D);D=OR(A,C)",
+      "verdict": "triadic",
+      "phi_mip": 0.415037,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 4,
+      "effect_adicity": 4,
+      "n_distinctions": 7,
+      "max_distinction": "ACD -> cause ABCD effect BCD (\u03c6=1.000) at 0000",
+      "seconds": 12.52
+    }
+  ],
+  "adicity_counts": {
+    "4": 12
+  },
+  "n_forms": 12,
+  "seed": 0,
+  "H5": "CONFIRMED"
+}

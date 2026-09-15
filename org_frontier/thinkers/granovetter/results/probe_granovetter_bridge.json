@@ -1,0 +1,58 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_ties": 2.0
+  },
+  "forms": {
+    "bridge_weak": {
+      "form": "bridge_weak",
+      "labels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2"
+      ],
+      "ties": {
+        "a1-a2": 1.0,
+        "b1-b2": 1.0,
+        "a2-b1": 0.5
+      },
+      "phi_mip": 0.830075,
+      "core": [
+        "b1",
+        "b2"
+      ],
+      "core_phi": 2.0,
+      "reach_pairs": 12,
+      "seconds": 2.5
+    },
+    "bridge_strong": {
+      "form": "bridge_strong",
+      "labels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2"
+      ],
+      "ties": {
+        "a1-a2": 1.0,
+        "b1-b2": 1.0,
+        "a2-b1": 1.0
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "b1",
+        "b2"
+      ],
+      "core_phi": 2.0,
+      "reach_pairs": 12,
+      "seconds": 1.2
+    }
+  },
+  "H3": "REFUTED"
+}

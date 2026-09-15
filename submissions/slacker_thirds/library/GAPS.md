@@ -1,8 +1,32 @@
 # What the library does not yet cover
 
+**Live thesis (2026-09-13 afternoon lock):** [`../CLAIM.md`](../CLAIM.md). The gaps below are still
+open as source debts (Berg, disc, Stone, German third). Do not treat the August sweep's
+hold/select/grant frame or RDU-as-community payoff as the argument to repair toward.
+
 Round 1 (18 August 2026) swept the four domains the chapter borrows from. Round 2 (19 August) swept the
 one it is published in, and answered the novelty question: see
 [`domains/_round2/film-slacker.md`](domains/_round2/film-slacker.md). What follows is what is left.
+
+## New on 13 September (evening) — sources in the chapter with no card yet
+
+Ten sources entered the notes with the three evening sections and none has a library card. All were
+verified against the live page or PDF on the day; the cards are owed, not the verification.
+
+- **Prior criticism:** Beauchamp, *American Conservative*, April 26, 2019; Bramesco, *Decider*, July 7, 2021;
+  Broadley, *The Quietus*, 2020 (page carries no day-month; year only); Ravens, *LRB* 48.16, September 10, 2026.
+  Read in full for the quoted phrases. Nobody has yet checked the academic-adjacent theses the earlier
+  brief mentioned (pre-mobile community, DIY, Gen X); the chapter's negative claim in n. 17 rests on the
+  film-studies sweep in `_round2/film-slacker.md`.
+- **The reactive line:** Bordo, NBER w25409 (2018); Eichengreen, *Globalizing Capital*, 3rd ed. (2019),
+  chap. 5, page not pinned; Bakker, LSE Economic History wp384 (2025), the "virtual floor" sentence and
+  subscription figures; *The Baron*, "Reuter Monitor: The Big Bet," for June 25, 1973 and ~30 clients.
+  Knorr Cetina & Bruegger, *AJS* 107.4 (2002), cited for the market on screen without a pinpoint.
+  Guardrail from `../old/archive/v4/factbase/forex_venue_reargument.md` still holds: Monitor is not a
+  matching venue, and Dealing 2000-2 / EBS are not the film's years.
+- **Voice:** Hirschman, *Exit, Voice, and Loyalty* (1970). Cited without a chapter or page; the borrowing
+  is the pair of terms and the point that voice needs an addressee. A reviewer in organization studies
+  will want the chapter on loyalty read and pinned.
 
 ## Re-runs — reachable material this sweep could not reach
 

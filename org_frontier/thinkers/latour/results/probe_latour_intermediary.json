@@ -1,0 +1,91 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "chain0": {
+      "form": "chain0",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "B"
+      ],
+      "seconds": 0.03
+    },
+    "chain1": {
+      "form": "chain1",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "I1",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "I1",
+        "B"
+      ],
+      "seconds": 0.41
+    },
+    "chain2": {
+      "form": "chain2",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "I1",
+        "I2",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "I1",
+        "I2",
+        "B"
+      ],
+      "seconds": 5.53
+    },
+    "chain3": {
+      "form": "chain3",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "I1",
+        "I2",
+        "I3",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "A",
+        "I1",
+        "I2",
+        "I3",
+        "B"
+      ],
+      "seconds": 100.36
+    }
+  },
+  "phi_same": true,
+  "relays_in_core": [
+    "I1",
+    "I2",
+    "I3"
+  ],
+  "H1": "REFUTED"
+}

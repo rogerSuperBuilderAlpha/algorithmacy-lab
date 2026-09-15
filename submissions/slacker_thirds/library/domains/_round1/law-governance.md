@@ -1,5 +1,7 @@
 # Domain sweep — New property, due process, and platform regulation
 
+> **Current thesis (2026-09-13 afternoon lock).** This sweep audited an earlier draft. The live claim is in [`../../../CLAIM.md`](../../../CLAIM.md): *Slacker* does not chronicle a lost counterculture, but models the operational logic of the modern platform: an indifferent apparatus that coordinates human bodies through spatial proximity and technical selection, rendering interpersonal connection, shared belief, and conscious consent completely obsolete. Do not restore hold/select/grant as three columns, or argue that platform workers pass Royce. Findings about sources remain usable; section names and payoff do not.
+
 **Chapter audited:** `chapter.md` (7,290 words, 39 endnotes), "'You seen Gary around?': The Deferred Third of *Slacker*"
 **Sweep date:** 18 August 2026
 **Scope:** Reich 1964/1990; the procedural-due-process line after Reich; Viljoen; the EU instruments at n. 34 (P2B art. 4, DSA arts. 17 and 20(6), Platform Work Directive arts. 10(5) and 11); US state and municipal deactivation regimes; "due process for platforms" scholarship.

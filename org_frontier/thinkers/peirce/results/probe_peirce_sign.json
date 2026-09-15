@@ -1,0 +1,74 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "spec": null,
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "genuine_adicity": 3,
+    "cause_adicity": 3,
+    "effect_adicity": 3,
+    "n_distinctions": 3,
+    "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+    "seconds": 0.17
+  },
+  "forms": {
+    "sign_exogenous": {
+      "form": "sign_exogenous",
+      "labels": [
+        "O",
+        "S",
+        "I"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "O"
+      ],
+      "core_phi": 1.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "OS -> cause O effect SI (\u03c6=1.000) at 000",
+      "seconds": 0.08
+    },
+    "sign_pragmatic": {
+      "form": "sign_pragmatic",
+      "labels": [
+        "O",
+        "S",
+        "I"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "O",
+        "S",
+        "I"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 3,
+      "effect_adicity": 2,
+      "n_distinctions": 2,
+      "max_distinction": "I -> cause OS effect O (\u03c6=0.500) at 000",
+      "seconds": 0.6
+    }
+  },
+  "exogenous_full": false,
+  "pragmatic_full": true,
+  "H4": "PARTIAL"
+}

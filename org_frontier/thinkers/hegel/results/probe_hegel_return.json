@@ -1,0 +1,86 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "syllogism": {
+      "form": "syllogism",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 2.0,
+      "verdict": "triadic",
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.1,
+      "spec": {
+        "A": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "A",
+            "B"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "M"
+          ]
+        ]
+      }
+    },
+    "half_return": {
+      "form": "half_return",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 0.0,
+      "verdict": "dyadic",
+      "core": [
+        "A",
+        "M"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.0,
+      "spec": {
+        "A": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "A",
+            "B"
+          ]
+        ],
+        "B": [
+          "hold",
+          []
+        ]
+      }
+    }
+  },
+  "H3": "CONFIRMED"
+}

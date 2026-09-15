@@ -117,9 +117,17 @@ def main():
     check("toward " not in body, "British 'towards'")
 
     # --- front matter ----------------------------------------------------------
+    # Was hardcoded to the abstract's literal opening words ("Phygital hospitality
+    # scholarship"), so a rewritten abstract crashed this check instead of failing it.
+    # Locate the abstract by its heading instead, which survives a rewrite.
     if FRONT.exists():
         fm = io.open(FRONT, encoding="utf-8").read()
-        abs_txt = "Phygital hospitality scholarship" + fm.split("Phygital hospitality scholarship", 1)[1].split("## Keywords", 1)[0]
+        abs_section = fm.split("## Abstract", 1)[1].split("## Keywords", 1)[0]
+        # Strip any editor's-note italic block (*...*), which can wrap across lines and
+        # otherwise gets miscounted as abstract prose.
+        abs_section = re.sub(r"\*.+?\*", "", abs_section, flags=re.S)
+        abs_lines = [l for l in abs_section.split("\n") if l.strip() and not l.strip().startswith("#")]
+        abs_txt = " ".join(abs_lines)
         a = len(words(abs_txt))
         check(100 <= a <= 200, "abstract within 100-200 words", f"{a} words")
         kw = fm.split("## Keywords", 1)[1].split("*", 1)[0]

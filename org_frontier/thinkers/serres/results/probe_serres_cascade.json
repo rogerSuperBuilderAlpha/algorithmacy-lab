@@ -1,0 +1,60 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "form": {
+    "form": "cascade",
+    "labels": [
+      "F",
+      "T",
+      "R",
+      "N"
+    ],
+    "spec": {
+      "F": [
+        "one",
+        []
+      ],
+      "T": [
+        "andnot",
+        [
+          "F",
+          "R"
+        ]
+      ],
+      "R": [
+        "andnot",
+        [
+          "T",
+          "N"
+        ]
+      ],
+      "N": [
+        "copy",
+        [
+          "R"
+        ]
+      ]
+    },
+    "phi_mip": 0.0,
+    "core": [
+      "T",
+      "R",
+      "N"
+    ],
+    "core_phi": 2.0,
+    "seconds": 0.1
+  },
+  "shares": {
+    "F": 2.0,
+    "T": 2.0,
+    "R": 2.0,
+    "N": 0.0
+  },
+  "H4": "REFUTED"
+}

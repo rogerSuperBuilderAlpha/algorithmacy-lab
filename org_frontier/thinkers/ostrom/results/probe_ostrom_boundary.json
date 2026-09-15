@@ -1,0 +1,92 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "self": {
+      "form": "self",
+      "labels": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "phi_mip": 6.0,
+      "core": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "core_phi": 6.0,
+      "value_added": {
+        "c1": 6.0,
+        "c2": 6.0,
+        "c3": 6.0
+      },
+      "fixed_points": [
+        "000",
+        "111"
+      ],
+      "seconds": 0.1
+    },
+    "bounded": {
+      "form": "bounded",
+      "labels": [
+        "c1",
+        "c2",
+        "c3",
+        "O"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "core_phi": 6.0,
+      "value_added": {
+        "c1": 6.0,
+        "c2": 6.0,
+        "c3": 6.0,
+        "O": 0.0
+      },
+      "fixed_points": [
+        "0000",
+        "1111"
+      ],
+      "seconds": 0.2
+    },
+    "breached": {
+      "form": "breached",
+      "labels": [
+        "c1",
+        "c2",
+        "c3",
+        "O"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "core_phi": 6.0,
+      "value_added": {
+        "c1": 6.0,
+        "c2": 6.0,
+        "c3": 6.0,
+        "O": 6.0
+      },
+      "fixed_points": [
+        "0000",
+        "1111"
+      ],
+      "seconds": 1.0
+    }
+  },
+  "H5": "PARTIAL"
+}

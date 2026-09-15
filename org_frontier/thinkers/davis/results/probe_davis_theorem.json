@@ -1,0 +1,235 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "ppp_k2": {
+      "k": 2,
+      "signs": "+++",
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 2,
+      "partitions": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 2,
+      "n_cycles": 0,
+      "fixed_all_rest": true,
+      "attractors_all_rest": true
+    },
+    "ppp_k3": {
+      "k": 3,
+      "signs": "+++",
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 3,
+      "partitions": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 3,
+      "n_cycles": 0,
+      "fixed_all_rest": true,
+      "attractors_all_rest": true
+    },
+    "ppp_k4": {
+      "k": 4,
+      "signs": "+++",
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 4,
+      "partitions": [
+        [
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 4,
+      "n_cycles": 0,
+      "fixed_all_rest": true,
+      "attractors_all_rest": true
+    },
+    "ppm_k2": {
+      "k": 2,
+      "signs": "++\u2212",
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "ppm_k3": {
+      "k": 3,
+      "signs": "++\u2212",
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 15,
+      "n_cycles": 3,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "ppm_k4": {
+      "k": 4,
+      "signs": "++\u2212",
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 28,
+      "n_cycles": 6,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "pmm_k2": {
+      "k": 2,
+      "signs": "+\u2212\u2212",
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 2,
+      "partitions": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 2,
+      "n_cycles": 0,
+      "fixed_all_rest": true,
+      "attractors_all_rest": true
+    },
+    "pmm_k3": {
+      "k": 3,
+      "signs": "+\u2212\u2212",
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 6,
+      "partitions": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 3,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    },
+    "pmm_k4": {
+      "k": 4,
+      "signs": "+\u2212\u2212",
+      "clusterable": true,
+      "balanced": true,
+      "n_rest": 12,
+      "partitions": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 12,
+      "n_cycles": 12,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    },
+    "mmm_k2": {
+      "k": 2,
+      "signs": "\u2212\u2212\u2212",
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "mmm_k3": {
+      "k": 3,
+      "signs": "\u2212\u2212\u2212",
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 6,
+      "partitions": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 10,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    },
+    "mmm_k4": {
+      "k": 4,
+      "signs": "\u2212\u2212\u2212",
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 24,
+      "partitions": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 24,
+      "n_cycles": 13,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    }
+  },
+  "H1": "CONFIRMED"
+}

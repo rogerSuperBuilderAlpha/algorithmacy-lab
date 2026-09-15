@@ -1,5 +1,10 @@
 # Panel synthesis — chapter v18, four seats, 2026-09-13
 
+**Superseded as a rewrite programme.** This panel reviewed v18. The live thesis is locked in
+[`../../CLAIM.md`](../../CLAIM.md) (13 September afternoon). Do not execute the v19 programme below
+as a competing argument (hold/select/grant; RDU passing Royce). Source-level findings (glosses,
+disc hedges) remain usable.
+
 Manuscript: `chapter.md` (v18), body 4,665 words, 39 notes, 55 bibliography entries.
 Seats: 01 in-chat (A), 02 comprehensive (B), 03 major-revisions (C), 04 register (D).
 Audience constraint added after the four reviews: smart, educated, well read, not expert in Simmel, Royce, administrative law, or platform studies. Gloss every technical term on first use; reformulate each dense move in ordinary words.

@@ -1,0 +1,236 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "open": {
+      "form": "open",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "A1",
+            "A2",
+            "O"
+          ]
+        ],
+        "A1": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "A2": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "O": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 3.0,
+      "core": [
+        "E",
+        "A1",
+        "A2",
+        "O"
+      ],
+      "core_phi": 3.0,
+      "core_without": 0.0,
+      "value_added": 3.0,
+      "value_added_by_node": {
+        "E": 3.0,
+        "A1": 1.0,
+        "A2": 1.0,
+        "O": 1.0
+      },
+      "advantage": 2.0,
+      "party": "E",
+      "constraint": 0.333,
+      "effective_size": 3.0,
+      "seconds": 1.37
+    },
+    "within": {
+      "form": "within",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "A1",
+            "A2",
+            "O"
+          ]
+        ],
+        "A1": [
+          "or",
+          [
+            "E",
+            "A2"
+          ]
+        ],
+        "A2": [
+          "or",
+          [
+            "E",
+            "A1"
+          ]
+        ],
+        "O": [
+          "or",
+          [
+            "E"
+          ]
+        ]
+      },
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A1",
+        "A2"
+      ],
+      "core_phi": 2.0,
+      "core_without": 2.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "A1": 0.0,
+        "A2": 0.0,
+        "O": 0.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.611,
+      "effective_size": 2.333,
+      "seconds": 1.04
+    },
+    "across": {
+      "form": "across",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "A1",
+            "A2",
+            "O"
+          ]
+        ],
+        "A1": [
+          "or",
+          [
+            "E",
+            "O"
+          ]
+        ],
+        "A2": [
+          "or",
+          [
+            "E"
+          ]
+        ],
+        "O": [
+          "or",
+          [
+            "E",
+            "A1"
+          ]
+        ]
+      },
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A1",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "core_without": 2.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "A1": 0.0,
+        "A2": 0.0,
+        "O": 0.0
+      },
+      "advantage": 0.0,
+      "party": "E",
+      "constraint": 0.611,
+      "effective_size": 2.333,
+      "seconds": 1.34
+    },
+    "everywhere": {
+      "form": "everywhere",
+      "spec": {
+        "E": [
+          "and",
+          [
+            "A1",
+            "A2",
+            "O"
+          ]
+        ],
+        "A1": [
+          "or",
+          [
+            "E",
+            "A2",
+            "O"
+          ]
+        ],
+        "A2": [
+          "or",
+          [
+            "E",
+            "A1",
+            "O"
+          ]
+        ],
+        "O": [
+          "or",
+          [
+            "E",
+            "A1",
+            "A2"
+          ]
+        ]
+      },
+      "verdict": "triadic",
+      "phi_mip": 0.192645,
+      "core": [
+        "A1",
+        "A2",
+        "O"
+      ],
+      "core_phi": 6.0,
+      "core_without": 6.0,
+      "value_added": 0.0,
+      "value_added_by_node": {
+        "E": 0.0,
+        "A1": 4.0,
+        "A2": 4.0,
+        "O": 4.0
+      },
+      "advantage": -4.0,
+      "party": "E",
+      "constraint": 0.926,
+      "effective_size": 1.0,
+      "seconds": 1.51
+    }
+  },
+  "V": {
+    "open": 3.0,
+    "within": 0.0,
+    "across": 0.0,
+    "everywhere": 0.0
+  },
+  "H5": "REFUTED"
+}

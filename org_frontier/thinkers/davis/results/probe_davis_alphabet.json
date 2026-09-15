@@ -1,0 +1,187 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "mmm_k2": {
+      "form": "mmm",
+      "k": 2,
+      "signs": "\u2212\u2212\u2212",
+      "phi_mip": 0.0,
+      "core": [
+        "px",
+        "ox",
+        "qx"
+      ],
+      "core_persons": [
+        "o",
+        "p",
+        "q"
+      ],
+      "core_phi": 1.024068,
+      "seconds": 1.9,
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "mmm_k3": {
+      "form": "mmm",
+      "k": 3,
+      "signs": "\u2212\u2212\u2212",
+      "phi_mip": 0.192645,
+      "core": [
+        "ox",
+        "qx"
+      ],
+      "core_persons": [
+        "o",
+        "q"
+      ],
+      "core_phi": 2.0,
+      "seconds": 459.1,
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 6,
+      "partitions": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 10,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    },
+    "mmm_k4": {
+      "form": "mmm",
+      "k": 4,
+      "signs": "\u2212\u2212\u2212",
+      "phi_mip": 0.577935,
+      "core": [
+        "py",
+        "qy"
+      ],
+      "core_persons": [
+        "p",
+        "q"
+      ],
+      "core_phi": 2.0,
+      "seconds": 437.7,
+      "clusterable": true,
+      "balanced": false,
+      "n_rest": 24,
+      "partitions": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      ],
+      "n_fixed": 24,
+      "n_cycles": 13,
+      "fixed_all_rest": true,
+      "attractors_all_rest": false
+    },
+    "ppm_k2": {
+      "form": "ppm",
+      "k": 2,
+      "signs": "++\u2212",
+      "phi_mip": 0.0,
+      "core": [
+        "px",
+        "ox",
+        "qx"
+      ],
+      "core_persons": [
+        "o",
+        "p",
+        "q"
+      ],
+      "core_phi": 0.63946,
+      "seconds": 0.4,
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "ppm_k3": {
+      "form": "ppm",
+      "k": 3,
+      "signs": "++\u2212",
+      "phi_mip": 0.0,
+      "core": [
+        "py",
+        "oy"
+      ],
+      "core_persons": [
+        "o",
+        "p"
+      ],
+      "core_phi": 2.0,
+      "seconds": 35.1,
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 15,
+      "n_cycles": 3,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    },
+    "ppm_k4": {
+      "form": "ppm",
+      "k": 4,
+      "signs": "++\u2212",
+      "phi_mip": 0.0,
+      "core": [
+        "py",
+        "oy",
+        "qy"
+      ],
+      "core_persons": [
+        "o",
+        "p",
+        "q"
+      ],
+      "core_phi": 6.0,
+      "seconds": 93.0,
+      "clusterable": false,
+      "balanced": false,
+      "n_rest": 0,
+      "partitions": [],
+      "n_fixed": 28,
+      "n_cycles": 6,
+      "fixed_all_rest": false,
+      "attractors_all_rest": false
+    }
+  },
+  "H3": "PARTIAL"
+}

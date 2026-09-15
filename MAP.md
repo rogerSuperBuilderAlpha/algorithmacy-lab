@@ -49,6 +49,7 @@ Exact Φ on Boolean models. Import paths stay `org_frontier.*`. Hub: [`org_front
 | [`org_frontier/proxy_bridge/`](org_frontier/proxy_bridge/) | proxy_bridge — can a cheap time-series proxy recover the verdict? |
 | [`org_frontier/research/`](org_frontier/research/) | Research monitoring — a standing literature watch for each program |
 | [`org_frontier/reviews/`](org_frontier/reviews/) | Reviews — experiments on the literature |
+| [`org_frontier/thinkers/`](org_frontier/thinkers/) | Thinkers on the triad — one paper per thinker |
 
 ## Empirical and bridge arms
 
