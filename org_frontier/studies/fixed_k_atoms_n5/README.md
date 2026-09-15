@@ -11,4 +11,5 @@ python org_frontier/studies/fixed_k_atoms_n5/analyze_atoms.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the census run.
+**NEW_RUNGS.** Φ=9 = all 44 derangement omits; Φ=5 recurs on non-derangement
+incomplete cores; no continuum.

@@ -114,9 +114,9 @@ organization measured.
 
 ## Best next experiment
 
-**Expand L5 / denser n=5 fixed_k** to map whether 5 and 9 are stable new atoms
-or rare — or **#42 scale blur** of HMC/CMC discriminants. Ternary IIT-4.0
-tooling remains blocked.
+**Done next:** `fixed_k_atoms_n5/` — **NEW_RUNGS**: Φ=9 = derangement omit
+rung (44/44); Φ=5 recurs on non-derangement 4-cores; no continuum. Follow-on:
+Φ=5 omit-motif census, or n=6 derangement lift.
 
 ## Reproduce
 

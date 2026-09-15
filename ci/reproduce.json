@@ -3663,6 +3663,29 @@
       "source": "org_frontier/studies/random_coupling_ensemble/FINDINGS.md"
     },
     {
+      "name": "fixed-k-atoms-n5",
+      "cmd": "python org_frontier/studies/fixed_k_atoms_n5/analyze_atoms.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring5 Φ=4.000  pool5 Φ=20.000  PASS",
+        "n_derangements (!5) = 44",
+        "all Φ=9.0 full-core triadic: True",
+        "count Φ=5: 6  Φ=9: 0",
+        "Φ=5 n_cores: [4]  all_incomplete=True",
+        "H1 (all derangements Φ=9 full-core):  SUPPORTED",
+        "H2 (no Φ=9 in non-derangement):       SUPPORTED",
+        "H3 (Φ=5 recurs, incomplete core):     SUPPORTED",
+        "H4 (no continuum; atoms ⊆ L5∪{5,9}): SUPPORTED",
+        "H5 (k=2 on known atoms, no Φ=9):      SUPPORTED",
+        "verdict: NEW_RUNGS",
+        "atom 9: DERANGEMENT RUNG (44/44)",
+        "atom 5: RECURRING NON-DERANG INCOMPLETE",
+        "reading: NEW_RUNGS — Φ=9 = all derangement omits (rung); Φ=5 recurs on non-derangement incomplete cores; no continuum under denser k=3"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/studies/fixed_k_atoms_n5/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

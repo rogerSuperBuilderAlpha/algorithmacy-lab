@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,n_derangements,n_nonder,n_phi5_nonder,n_phi9_nonder,k3_distinct_phi,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,NEW_RUNGS,44,48,6,0,5.0;6.0;9.0;12.0,NEW_RUNGS — Φ=9 = all derangement omits (rung); Φ=5 recurs on non-derangement incomplete cores; no continuum under denser k=3
