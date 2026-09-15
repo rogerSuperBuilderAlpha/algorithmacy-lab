@@ -3463,6 +3463,30 @@
       "source": "org_frontier/studies/margin_cascade_phi/FINDINGS.md"
     },
     {
+      "name": "margin-cascade-tau",
+      "cmd": "python org_frontier/studies/margin_cascade_tau/analyze_tau_vs_b.py",
+      "expect": [
+        "n4 always-cheap miss/FN: 75/30  PASS",
+        "instrument control: PASS",
+        "on-panel τ*(B=10%)=0.287565  identity with top-10%: YES",
+        "nested@10% τ FN|tri:           3.7% (11/297)",
+        "nested@10% top FN|tri:         3.7% (11/297)",
+        "nested@10% |Δ|:                0.00 pp",
+        "frozen τ* n5 call rate:        13.8% (band [5%, 15%]: IN)",
+        "frozen τ* n5 FN|tri:           7.1%",
+        "n5 top-10% FN|tri:             10.6%",
+        "H1 (nested |Δ| ≤2 pp @10%):    SUPPORTED",
+        "H2 (frozen τ transfers):       REFUTED",
+        "H3 (stable lab default):       SUPPORTED",
+        "n4 τ*(B=10%):                  0.287565",
+        "n5 frozen-τ FN|tri:            7.1%  call=13.8%",
+        "reading:                       AGREE — nested τ ≈ top-B%; prefer top-B% across sizes (frozen τ drifts)",
+        "lab default:                   B=10% top-B% only (recompute ranks per panel; frozen τ transfer failed)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/margin_cascade_tau/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

@@ -58,10 +58,9 @@ magnitude.
 
 ## Best next experiment
 
-**Deploy the cascade as a lab default for larger panels / n≥5 sweeps:** pre-register B=10%
-margin gate, report always-cheap residual *and* cascade residual, and log exact-Φ call
-count. Secondary: calibrate whether a fixed τ on `|p−0.5|` (threshold rule) matches the
-top-B% rule under class imbalance at n=5+.
+**Done next:** `margin_cascade_tau/` — nested τ ≈ top-B% on n=4; lab default **B=10% top-B%**
+(recompute ranks per panel). Frozen τ\* from n4 drifts call rate on n=5 (H2 REFUTED). Follow-on:
+wire cascade@10% into the next large unc sweep as dual residual.
 
 ## Reproduce
 
