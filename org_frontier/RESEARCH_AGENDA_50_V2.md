@@ -72,8 +72,9 @@ runnable design yet. Themes group them; numbering is 1–50.
 ## F. The holistic residual
 
 26. Does the irreducible-residual fraction (~5% at n=3, #131) shrink, hold, or grow at n=4 and n=5?
-    **Open.** Template-coverage census scoped n=4 out; follow-up is a Probe-125-style panel on an N=3000
-    n=4 sample (`org_frontier/studies/template_coverage_census/`).
+    **Answered at n=4 — shrinks (H1).** On N=3000 strict-mediation n=4 forms (probe_n4_census seed 4),
+    RF miss rate = 2.4% (71/3000) vs 4.8% at n=3; every miss is a triadic FN and equals the
+    always-dyadic baseline. See `org_frontier/studies/holistic_residual_n4/FINDINGS.md`. n=5 still open.
 27. Are the residual forms exactly the affine (GF(2)-linear) determinations, or some other algebraic
     class connectivity cannot see (#130, #106)?
     **Answered — no.** Holistic residual (196/4096, 4.8%) shares **zero** forms with the 512 all-affine

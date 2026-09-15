@@ -49,15 +49,14 @@ F27's conjecture — that the unreachable ~5% are exactly the affine determinati
 forms are *easy* for the cheap panel (zero misses). The holistic residual remains the near-boundary
 scattered tail Probe 131 reported, not an algebraic class connectivity cannot see.
 
-## H4 — SCOPED OUT: n=4 residual rate (F26)
+## H4 — SCOPED OUT then answered: n=4 residual rate (F26)
 
-A Probe-125-style panel at n=4 needs tens of thousands of exact-Φ labels (65,536 for the
-unconstrained 16⁴ analogue of the 4096; thousands even under stratified sampling). Not run here.
+A Probe-125-style panel at n=4 was scoped out of the template-coverage census and delivered in
+`org_frontier/studies/holistic_residual_n4/`: N=3000, seed 4, residual rate **2.4% (H1 shrinks)** vs
+the 4.8% n=3 baseline, with the shrink identical to the majority-class floor.
 
-**Follow-up (best next experiment):** build an n=4 residual panel on a fixed sample of N=3000
-(matching `probe_n4_census`), reuse the Probe-125 cheap-feature set, report the RF miss rate against
-the n=3 4.8% baseline. That is F26 directly, with F28 (near-boundary phase structure under
-perturbation) as the step after.
+**Follow-up after F26:** class-balanced / unconstrained n=4 residual panel, or F28 perturbation of
+the n=3 near-boundary misses.
 
 ## What this does not claim
 

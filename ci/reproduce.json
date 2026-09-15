@@ -3325,6 +3325,23 @@
       "source": "org_frontier/studies/template_coverage_census/FINDINGS.md"
     },
     {
+      "name": "holistic-residual-n4",
+      "cmd": "python org_frontier/studies/holistic_residual_n4/analyze_residual_n4.py",
+      "expect": [
+        "n=4 AND hub:           triadic Φ=3.000000 edges=6  PASS",
+        "triadic forms:              71/3000 = 2.4%",
+        "RF misclassified (n=4):     71/3000 = 2.4%",
+        "n=3 baseline (Probe 131):   196/4096 = 4.8%",
+        "majority-class miss rate:   71/3000 = 2.4% (always-dyadic)",
+        "false positives / negatives:0 / 71",
+        "F26 verdict:                H1 — residual SHRINKS at n=4",
+        "n=4 residual rate:          2.4% (71/3000)",
+        "F26:                        H1 (SHRINKS)"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/holistic_residual_n4/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
