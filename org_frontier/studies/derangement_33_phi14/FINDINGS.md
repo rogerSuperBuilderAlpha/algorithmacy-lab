@@ -58,9 +58,8 @@ Dense sample (6+9+3 cells), not full !6. Conjunctive AND; n=6 only;
 
 ## Best next experiment
 
-**Same-indeg Φ=8 vs 9 band law** at n=6 (omit_lift motif table: which cycle
-types share M3’s Φ=8?), or **#42 discriminant scale-blur**. Skip
-residual/cascade/ternary.
+**Done next:** `same_indeg_band_n6/` — **BAND_DISCRIMINANT** (Φ=9 iff
+cycles∈{(5,),(2,3)} within same indeg). Follow-on: #42 scale-blur.
 
 ## Reproduce
 

@@ -11,4 +11,5 @@ python org_frontier/studies/same_indeg_band_n6/analyze_band.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the registered run.
+**BAND_DISCRIMINANT.** Φ=9 iff cycles∈{(5,),(2,3)}; else Φ=8; classes pure;
+not an n=5 3-cycle singleton.

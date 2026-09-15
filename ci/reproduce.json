@@ -3756,6 +3756,26 @@
       "source": "org_frontier/studies/derangement_33_phi14/FINDINGS.md"
     },
     {
+      "name": "same-indeg-band-n6",
+      "cmd": "python org_frontier/studies/same_indeg_band_n6/analyze_band.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "match omit_lift catalog: PASS",
+        "band law match all classes: True  all_pure=True",
+        "H1 (cycle-type band 8 vs 9):        SUPPORTED",
+        "H2 (within-class mix collapse):     REFUTED",
+        "H3 (recip or n_core alone):         REFUTED",
+        "H4 (no 3-cycle singleton analogue): SUPPORTED",
+        "H5 (class catalog stable):          SUPPORTED",
+        "verdict: BAND_DISCRIMINANT",
+        "discriminant: Φ=9 iff cycles∈{(5,),(2,3)}; else Φ=8 (indeg (0,1,1,1,1,2))",
+        "vs n=5: MOTIF_DISCRIMINANT was 3-cycle singleton; n=6 is multi-class band",
+        "reading: BAND_DISCRIMINANT — within indeg (0,1,1,1,1,2), Φ=9 iff cycles∈{(5,),(2,3)}; else Φ=8; classes pure; not n=5 3-cycle singleton; not recip/n_core alone"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/same_indeg_band_n6/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

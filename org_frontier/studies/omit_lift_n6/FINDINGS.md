@@ -81,8 +81,9 @@ Conjunctive AND; n=6 only; ~45s/cell. No organization measured.
 
 ## Best next experiment
 
-**Done next:** `derangement_33_phi14/` — **PHI14_IS_33**: among !6, Φ=14 iff
-cycle type 3+3 (dense sample). Follow-on: same-indeg Φ=8 vs 9 band, or #42.
+**Done next:** `same_indeg_band_n6/` — **BAND_DISCRIMINANT**: Φ=9 iff
+cycles∈{(5,),(2,3)}; else Φ=8 (multi-class band, not 3-cycle singleton).
+Follow-on: #42 scale-blur, or another indeg signature.
 
 ## Reproduce
 
