@@ -3601,6 +3601,28 @@
       "source": "org_frontier/studies/small_world_vs_hierarchy/FINDINGS.md"
     },
     {
+      "name": "interior-ring-pool",
+      "cmd": "python org_frontier/studies/interior_ring_pool/analyze_interior.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring Φ:  [4.0, 4.0, 4.0]",
+        "pool Φ:  [12.0, 20.0, 30.0]",
+        "any_log_sqrt_claim: False",
+        "n6 full-core Φ steps: [4.0, 6.0, 8.0, 9.0, 12.0, 30.0]",
+        "H1 (ring cap + pool n(n-1)):        SUPPORTED",
+        "H2 (fixed-n interiors exist):       SUPPORTED",
+        "H3 (no log/√n intermediate law):    SUPPORTED",
+        "H4 (partial pools collapse):        SUPPORTED",
+        "H5 (discrete steps at n=6):         SUPPORTED",
+        "verdict: NO_INTERMEDIATE_LAW",
+        "log/√n intermediate law? NO",
+        "stable full-core interiors (not only poles)? YES",
+        "reading: NO_INTERMEDIATE_LAW — discrete full-core interiors exist (hub/chord/degree steps); no log or √n scaling in n; not pole-only collapse"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/interior_ring_pool/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

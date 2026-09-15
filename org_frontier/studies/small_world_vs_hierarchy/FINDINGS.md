@@ -68,9 +68,9 @@ No organization measured.
 
 ## Best next experiment
 
-**Interior topology between ring and pool** (agenda #19): is there a law
-between the ring's Φ = 4 cap and the pool's n(n−1) — logarithmic or
-square-root in n — or only the known family endpoints?
+**Done next:** `interior_ring_pool/` (agenda #19) — NO_INTERMEDIATE_LAW;
+discrete interiors exist, no log/√n scaling. Follow-on: random coupling
+ensemble at fixed n (#18).
 
 ## Reproduce
 

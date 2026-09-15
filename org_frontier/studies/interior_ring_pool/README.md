@@ -11,4 +11,5 @@ python org_frontier/studies/interior_ring_pool/analyze_interior.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the census run.
+**NO_INTERMEDIATE_LAW.** Discrete full-core interiors exist (hub/chord/degree
+steps); no log or √n scaling in n; not pole-only collapse.

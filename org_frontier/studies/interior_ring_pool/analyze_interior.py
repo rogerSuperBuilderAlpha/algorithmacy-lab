@@ -226,7 +226,8 @@ def main():
     # ---- Chordal rings ----
     print("CHORDAL RINGS")
     print("-" * 80)
-    for n, chords in ((5, (0, 1, 2)), (6, (0, 2, 3))):
+    # n=5: c=0..2; n=6: c=2,3 only (c=0 aliases ring; skip to save exact-Φ time)
+    for n, chords in ((5, (0, 1, 2)), (6, (2, 3))):
         labels = tuple(f"N{i}" for i in range(n))
         for c in chords:
             add(f"chord_n{n}_c{c}", chordal_ring(n, c), labels,
@@ -236,11 +237,13 @@ def main():
     # ---- k-regular ----
     print("K-REGULAR RINGS")
     print("-" * 80)
-    for n, degrees in ((5, (1, 2)), (6, (1, 2))):
-        labels = tuple(f"N{i}" for i in range(n))
-        for d in degrees:
-            add(f"kreg_n{n}_d{d}", k_regular_ring(n, d), labels,
-                {"family": "kregular", "n": n, "param": d})
+    # d=1 aliases ring — run at n=5 only; n=6 only d=2 (interior)
+    add("kreg_n5_d1", k_regular_ring(5, 1), tuple(f"N{i}" for i in range(5)),
+        {"family": "kregular", "n": 5, "param": 1})
+    add("kreg_n5_d2", k_regular_ring(5, 2), tuple(f"N{i}" for i in range(5)),
+        {"family": "kregular", "n": 5, "param": 2})
+    add("kreg_n6_d2", k_regular_ring(6, 2), tuple(f"N{i}" for i in range(6)),
+        {"family": "kregular", "n": 6, "param": 2})
     print()
 
     # ---- lattice strip (even n) ----
