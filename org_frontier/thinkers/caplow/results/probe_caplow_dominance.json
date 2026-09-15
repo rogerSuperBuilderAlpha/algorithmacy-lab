@@ -1,0 +1,334 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "t4_AB": {
+      "form": "t4_AB",
+      "weights": [
+        3,
+        1,
+        1
+      ],
+      "pair": "AB",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t4_AC": {
+      "form": "t4_AC",
+      "weights": [
+        3,
+        1,
+        1
+      ],
+      "pair": "AC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.05
+    },
+    "t4_BC": {
+      "form": "t4_BC",
+      "weights": [
+        3,
+        1,
+        1
+      ],
+      "pair": "BC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": false,
+      "equal_partners": true,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t4_pre": {
+      "form": "t4_pre",
+      "weights": [
+        3,
+        1,
+        1
+      ],
+      "pair": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": null,
+      "equal_partners": null,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t6_AB": {
+      "form": "t6_AB",
+      "weights": [
+        4,
+        2,
+        1
+      ],
+      "pair": "AB",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t6_AC": {
+      "form": "t6_AC",
+      "weights": [
+        4,
+        2,
+        1
+      ],
+      "pair": "AC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.03
+    },
+    "t6_BC": {
+      "form": "t6_BC",
+      "weights": [
+        4,
+        2,
+        1
+      ],
+      "pair": "BC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": false,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.03
+    },
+    "t6_pre": {
+      "form": "t6_pre",
+      "weights": [
+        4,
+        2,
+        1
+      ],
+      "pair": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": null,
+      "equal_partners": null,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t7_AB": {
+      "form": "t7_AB",
+      "weights": [
+        3,
+        2,
+        1
+      ],
+      "pair": "AB",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t7_AC": {
+      "form": "t7_AC",
+      "weights": [
+        3,
+        2,
+        1
+      ],
+      "pair": "AC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.04
+    },
+    "t7_BC": {
+      "form": "t7_BC",
+      "weights": [
+        3,
+        2,
+        1
+      ],
+      "pair": "BC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": false,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.09
+    },
+    "t7_pre": {
+      "form": "t7_pre",
+      "weights": [
+        3,
+        2,
+        1
+      ],
+      "pair": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "wins": null,
+      "equal_partners": null,
+      "binds": false,
+      "seconds": 0.31
+    },
+    "t8_AB": {
+      "form": "t8_AB",
+      "weights": [
+        2,
+        1,
+        1
+      ],
+      "pair": "AB",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.06
+    },
+    "t8_AC": {
+      "form": "t8_AC",
+      "weights": [
+        2,
+        1,
+        1
+      ],
+      "pair": "AC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.06
+    },
+    "t8_BC": {
+      "form": "t8_BC",
+      "weights": [
+        2,
+        1,
+        1
+      ],
+      "pair": "BC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "O"
+      ],
+      "core_phi": 0.157821,
+      "wins": false,
+      "equal_partners": true,
+      "binds": false,
+      "seconds": 0.39
+    },
+    "t8_pre": {
+      "form": "t8_pre",
+      "weights": [
+        2,
+        1,
+        1
+      ],
+      "pair": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "wins": null,
+      "equal_partners": null,
+      "binds": false,
+      "seconds": 0.26
+    }
+  },
+  "bc_binds": [],
+  "a_out": [
+    "t7_pre",
+    "t8_pre"
+  ],
+  "H3": "PARTIAL"
+}

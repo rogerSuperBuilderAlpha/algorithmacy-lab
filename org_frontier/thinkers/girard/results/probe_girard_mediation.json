@@ -1,0 +1,83 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "external": {
+      "form": "external",
+      "labels": [
+        "S",
+        "M",
+        "O"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "hold",
+          []
+        ],
+        "O": [
+          "and",
+          [
+            "M",
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 0.0,
+      "core": [
+        "M"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.0
+    },
+    "internal": {
+      "form": "internal",
+      "labels": [
+        "S",
+        "M",
+        "O"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "S",
+            "O"
+          ]
+        ],
+        "O": [
+          "and",
+          [
+            "M",
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 1.0,
+      "core": [
+        "M",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.5
+    }
+  },
+  "H2": "REFUTED"
+}

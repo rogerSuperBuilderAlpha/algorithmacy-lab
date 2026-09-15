@@ -1,0 +1,79 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "seconds": 0.12
+  },
+  "forms": {
+    "arbitrator": {
+      "form": "arbitrator",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.11
+    },
+    "mediator": {
+      "form": "mediator",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.12
+    },
+    "mediator_eliminated": {
+      "form": "mediator_eliminated",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.02
+    }
+  },
+  "M_in_core": {
+    "arbitrator": true,
+    "mediator": true,
+    "mediator_eliminated": false
+  },
+  "membership_ok": true,
+  "ordering_ok": false,
+  "H4": "PARTIAL"
+}

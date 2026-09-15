@@ -328,6 +328,23 @@ def _studies() -> list:
     return out
 
 
+def _thinkers() -> list:
+    """The thinkers-on-the-triad series under org_frontier/thinkers/: one paper per thinker."""
+    out = []
+    for d in sorted(glob.glob(os.path.join(_ROOT, "org_frontier", "thinkers", "*"))):
+        if not os.path.isdir(d) or os.path.basename(d).startswith("__"):
+            continue
+        paper = os.path.join(d, "paper.md")
+        findings = os.path.join(d, "FINDINGS.md")
+        if not os.path.exists(paper):
+            continue
+        title = _first_heading(paper) or os.path.basename(d).replace("_", " ")
+        summary = _clip(_first_paragraph(findings) or _finding_for(findings))
+        line = f"- **[{title}]({_link(paper)})**"
+        out.append(f"{line} — {summary}" if summary else line)
+    return out
+
+
 def _foundations() -> list:
     out = []
     skip = {"__pycache__", "paper"}
@@ -464,6 +481,7 @@ def build_directory() -> str:
     cognition = _cognition()
     threads = _threads()
     studies = _studies()
+    thinkers = _thinkers()
     foundations = _foundations()
     reviews = _reviews()
     qrows = _question_rows()
@@ -561,6 +579,14 @@ def build_directory() -> str:
         L += ["### Studies", "",
               "Multi-experiment batteries on one theme.", ""]
         L += studies
+        L.append("")
+
+    if thinkers:
+        L += ["### Thinkers on the triad", "",
+              "One paper per thinker: the historical account of the third party read from its primary "
+              "texts, rendered as Boolean forms, and tested against exact Φ. The standard is in "
+              "[`org_frontier/thinkers/PAPER_STANDARD.md`](org_frontier/thinkers/PAPER_STANDARD.md).", ""]
+        L += thinkers
         L.append("")
 
     if foundations:

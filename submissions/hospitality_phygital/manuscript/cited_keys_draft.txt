@@ -45,14 +45,13 @@ costanzachock2020design
 cotter2019visibility
 derrida2000hospitality
 devito2017folk
-devos2023einteraction
 devos2024disabilities
 duggan2026tensions
 edwardsveale2017slave
 ehsan2024seamfulxai
 eslami2016folk
-fink2025oversight
 fuller1991consumers
+gao2026hostessing
 gaothebault2026townie
 garcia2026strategic
 germannmolz2026
@@ -62,8 +61,10 @@ hatherley2025moving
 hemmer2025complementarity
 hemmington2007
 hirsbrunner2025contestation
+hirschman1970exit
 huanglo2025failure
 jhaver2018anxiety
+jianu2025
 jung2019undermining
 kim2021preference
 kim2025shadow
@@ -85,6 +86,7 @@ martinwaldman2022legitimate
 moganadas2026wellbeing
 mohlmann2021algorithmic
 morosan2016
+morrison2014voice
 mosca2025phygital
 nguyen2024stereotypes
 odekerken2021service

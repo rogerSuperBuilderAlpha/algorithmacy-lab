@@ -1,5 +1,9 @@
 # Panel synthesis — chapter v17, eight seats, 2026-08-19
 
+**Historical record.** This panel reviewed v17. The live thesis is locked in
+[`../../CLAIM.md`](../../CLAIM.md) (13 September 2026 afternoon). Do not execute this programme as
+the argument to write.
+
 Manuscript pinned at `db5468d`, body 4,470 words, 39 notes, 52 bibliography entries.
 Seats: 01 film studies, 02 social theory, 03 platform studies, 04 volume editor, 05 hostile referee,
 06 slop/Poulaki (sentence), 07 slop/McLoughlin (paragraph), 08 citations. All eight ran on Fable.

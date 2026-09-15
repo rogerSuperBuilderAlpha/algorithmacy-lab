@@ -1,0 +1,149 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "ppp": {
+      "form": "ppp",
+      "signs": "+++",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "attractors": [
+        [
+          "000"
+        ],
+        [
+          "111"
+        ]
+      ],
+      "n_fixed": 2,
+      "n_cycles": 0,
+      "seconds": 0.03,
+      "rest_states": [
+        "000",
+        "111"
+      ],
+      "attractors_are_rest": true,
+      "product": 1
+    },
+    "ppm": {
+      "form": "ppm",
+      "signs": "++\u2212",
+      "verdict": "triadic",
+      "phi_mip": 6.0,
+      "core": [
+        "p",
+        "o",
+        "q"
+      ],
+      "core_phi": 6.0,
+      "attractors": [
+        [
+          "000"
+        ],
+        [
+          "001"
+        ],
+        [
+          "010"
+        ],
+        [
+          "011",
+          "100"
+        ],
+        [
+          "101"
+        ],
+        [
+          "110"
+        ],
+        [
+          "111"
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "seconds": 0.24,
+      "rest_states": [],
+      "attractors_are_rest": false,
+      "product": -1
+    },
+    "pmm": {
+      "form": "pmm",
+      "signs": "+\u2212\u2212",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "attractors": [
+        [
+          "001"
+        ],
+        [
+          "110"
+        ]
+      ],
+      "n_fixed": 2,
+      "n_cycles": 0,
+      "seconds": 0.04,
+      "rest_states": [
+        "001",
+        "110"
+      ],
+      "attractors_are_rest": true,
+      "product": 1
+    },
+    "mmm": {
+      "form": "mmm",
+      "signs": "\u2212\u2212\u2212",
+      "verdict": "triadic",
+      "phi_mip": 6.0,
+      "core": [
+        "p",
+        "o",
+        "q"
+      ],
+      "core_phi": 6.0,
+      "attractors": [
+        [
+          "000",
+          "111"
+        ],
+        [
+          "001"
+        ],
+        [
+          "010"
+        ],
+        [
+          "011"
+        ],
+        [
+          "100"
+        ],
+        [
+          "101"
+        ],
+        [
+          "110"
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "seconds": 0.27,
+      "rest_states": [],
+      "attractors_are_rest": false,
+      "product": -1
+    }
+  },
+  "unbalanced_fixed": 12,
+  "unbalanced_cycles": 2,
+  "H2": "CONFIRMED"
+}

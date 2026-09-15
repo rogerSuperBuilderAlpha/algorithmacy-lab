@@ -1,0 +1,117 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "phi_via_noise_path": 2.0
+  },
+  "base_phi": 1.0,
+  "forms": {
+    "A_0.10": {
+      "form": "triangled",
+      "eps": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "tag": "anxiety at A",
+      "phi_mip": 0.763197,
+      "fraction": 0.763197,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 0.763197,
+      "seconds": 0.2
+    },
+    "B_0.10": {
+      "form": "triangled",
+      "eps": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "tag": "anxiety at B",
+      "phi_mip": 0.763197,
+      "fraction": 0.763197,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.3
+    },
+    "C_0.10": {
+      "form": "triangled",
+      "eps": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "tag": "anxiety at C",
+      "phi_mip": 0.9,
+      "fraction": 0.9,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.2
+    },
+    "A_0.20": {
+      "form": "triangled",
+      "eps": [
+        0.2,
+        0.0,
+        0.0
+      ],
+      "tag": "anxiety at A",
+      "phi_mip": 0.542458,
+      "fraction": 0.542458,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 0.542458,
+      "seconds": 0.2
+    },
+    "B_0.20": {
+      "form": "triangled",
+      "eps": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "tag": "anxiety at B",
+      "phi_mip": 0.542458,
+      "fraction": 0.542458,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.2
+    },
+    "C_0.20": {
+      "form": "triangled",
+      "eps": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "tag": "anxiety at C",
+      "phi_mip": 0.8,
+      "fraction": 0.8,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.2
+    }
+  },
+  "H3": "CONFIRMED"
+}

@@ -1,0 +1,65 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "source": {
+      "form": "source",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "M",
+        "A"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "S",
+        "M",
+        "A"
+      ],
+      "seconds": 0.03
+    },
+    "spectator": {
+      "form": "spectator",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "M",
+        "A"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "M",
+        "A"
+      ],
+      "seconds": 0.02
+    },
+    "control": {
+      "form": "control",
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "S",
+        "M",
+        "A"
+      ],
+      "core_phi": 2.0,
+      "makes_difference": [
+        "S",
+        "M",
+        "A"
+      ],
+      "seconds": 0.11
+    }
+  },
+  "differ_not_in": [
+    "source:S"
+  ],
+  "in_not_differ": [],
+  "H3": "REFUTED"
+}

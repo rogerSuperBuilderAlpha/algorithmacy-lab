@@ -1,0 +1,102 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "seconds": 0.13
+  },
+  "forms": {
+    "balanced": {
+      "form": "gaudens_balanced",
+      "labels": [
+        "A",
+        "B",
+        "T",
+        "O"
+      ],
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "T",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.21,
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "influence_T_on_O": 0.75,
+      "influence_A_on_O": 0.25,
+      "influence_B_on_O": 0.25,
+      "T_in_core": true
+    },
+    "intermediate": {
+      "form": "gaudens_intermediate",
+      "labels": [
+        "A",
+        "B",
+        "T",
+        "O"
+      ],
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "T",
+        "O"
+      ],
+      "core_phi": 0.276692,
+      "seconds": 0.33,
+      "weights": [
+        2,
+        1,
+        1
+      ],
+      "influence_T_on_O": 0.5,
+      "influence_A_on_O": 0.5,
+      "influence_B_on_O": 0.5,
+      "T_in_core": true
+    },
+    "dictator": {
+      "form": "gaudens_dictator",
+      "labels": [
+        "A",
+        "B",
+        "T",
+        "O"
+      ],
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.29,
+      "weights": [
+        3,
+        1,
+        1
+      ],
+      "influence_T_on_O": 0.25,
+      "influence_A_on_O": 0.75,
+      "influence_B_on_O": 0.25,
+      "T_in_core": false
+    }
+  },
+  "ends_ok": true,
+  "mono_ok": true,
+  "H5": "CONFIRMED"
+}

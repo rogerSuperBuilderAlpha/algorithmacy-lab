@@ -1,0 +1,93 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "leviathan": {
+      "form": "leviathan",
+      "labels": [
+        "L",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "phi_mip": 3.0,
+      "core": [
+        "L",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "core_phi": 3.0,
+      "value_added": {
+        "L": 3.0,
+        "c1": 3.0,
+        "c2": 3.0,
+        "c3": 3.0
+      },
+      "fixed_points": [],
+      "seconds": 0.7
+    },
+    "private": {
+      "form": "private",
+      "labels": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "c3"
+      ],
+      "core_phi": 1.0,
+      "value_added": {
+        "c1": 0.0,
+        "c2": 0.0,
+        "c3": 0.0
+      },
+      "fixed_points": [
+        "000",
+        "100",
+        "010",
+        "110",
+        "001",
+        "101",
+        "011",
+        "111"
+      ],
+      "seconds": 0.1
+    },
+    "self": {
+      "form": "self",
+      "labels": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "phi_mip": 6.0,
+      "core": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "core_phi": 6.0,
+      "value_added": {
+        "c1": 6.0,
+        "c2": 6.0,
+        "c3": 6.0
+      },
+      "fixed_points": [
+        "000",
+        "111"
+      ],
+      "seconds": 0.1
+    }
+  },
+  "advantage_L": 0.0,
+  "H2": "PARTIAL"
+}

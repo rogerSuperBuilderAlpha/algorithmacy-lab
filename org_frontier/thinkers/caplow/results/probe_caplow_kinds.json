@@ -1,0 +1,92 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "t5_AB": {
+      "form": "t5_AB",
+      "weights": [
+        4,
+        3,
+        2
+      ],
+      "pair": "AB",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.03
+    },
+    "t5_AC": {
+      "form": "t5_AC",
+      "weights": [
+        4,
+        3,
+        2
+      ],
+      "pair": "AC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.03
+    },
+    "t5_BC": {
+      "form": "t5_BC",
+      "weights": [
+        4,
+        3,
+        2
+      ],
+      "pair": "BC",
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "wins": true,
+      "equal_partners": false,
+      "binds": false,
+      "seconds": 0.03
+    },
+    "t5_pre": {
+      "form": "t5_pre",
+      "weights": [
+        4,
+        3,
+        2
+      ],
+      "pair": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "wins": null,
+      "equal_partners": null,
+      "binds": false,
+      "seconds": 0.2
+    }
+  },
+  "all_bind": false,
+  "a_pattern": true,
+  "H4": "PARTIAL"
+}

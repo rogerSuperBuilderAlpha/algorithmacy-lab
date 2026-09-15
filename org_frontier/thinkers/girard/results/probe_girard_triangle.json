@@ -1,0 +1,101 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "spontaneous": {
+      "form": "spontaneous",
+      "labels": [
+        "S",
+        "O"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          [
+            "O"
+          ]
+        ],
+        "O": [
+          "and",
+          [
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 2.0,
+      "core": [
+        "S",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.1
+    },
+    "internal": {
+      "form": "internal",
+      "labels": [
+        "S",
+        "M",
+        "O"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "S",
+            "O"
+          ]
+        ],
+        "O": [
+          "and",
+          [
+            "M",
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 1.0,
+      "core": [
+        "M",
+        "O"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.4
+    },
+    "internal_minus_M": {
+      "form": "internal_minus_M",
+      "labels": [
+        "S",
+        "O"
+      ],
+      "spec": {
+        "S": [
+          "and",
+          []
+        ],
+        "O": [
+          "and",
+          [
+            "S"
+          ]
+        ]
+      },
+      "phi_mip": 0.0,
+      "core": [],
+      "core_phi": 0.0,
+      "seconds": 0.0
+    }
+  },
+  "H1": "REFUTED"
+}

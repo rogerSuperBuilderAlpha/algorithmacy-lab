@@ -1,0 +1,97 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "ppm": {
+      "form": "ppm",
+      "signs": "++\u2212",
+      "verdict": "triadic",
+      "phi_mip": 6.0,
+      "core": [
+        "p",
+        "o",
+        "q"
+      ],
+      "core_phi": 6.0,
+      "attractors": [
+        [
+          "000"
+        ],
+        [
+          "001"
+        ],
+        [
+          "010"
+        ],
+        [
+          "011",
+          "100"
+        ],
+        [
+          "101"
+        ],
+        [
+          "110"
+        ],
+        [
+          "111"
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "seconds": 0.46,
+      "rest_states": [],
+      "attractors_are_rest": false,
+      "product": -1
+    },
+    "mmm": {
+      "form": "mmm",
+      "signs": "\u2212\u2212\u2212",
+      "verdict": "triadic",
+      "phi_mip": 6.0,
+      "core": [
+        "p",
+        "o",
+        "q"
+      ],
+      "core_phi": 6.0,
+      "attractors": [
+        [
+          "000",
+          "111"
+        ],
+        [
+          "001"
+        ],
+        [
+          "010"
+        ],
+        [
+          "011"
+        ],
+        [
+          "100"
+        ],
+        [
+          "101"
+        ],
+        [
+          "110"
+        ]
+      ],
+      "n_fixed": 6,
+      "n_cycles": 1,
+      "seconds": 0.24,
+      "rest_states": [],
+      "attractors_are_rest": false,
+      "product": -1
+    }
+  },
+  "H3": "REFUTED"
+}

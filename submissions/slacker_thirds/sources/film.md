@@ -1,6 +1,9 @@
 # Slacker (Linklater, 1991) — film-studies research base
 
-Compiled 2026-07-02. Every claim below carries the URL at which it was verified by direct fetch.
+Compiled 2026-07-02. Facts below remain usable. **Not the live thesis.** The locked claim is in
+[`../CLAIM.md`](../CLAIM.md): proximity + technical selection; connection, belief, and consent
+obsolete. The "hosting/engineering" mapping at the bottom of this file is an earlier architecture.
+Every claim below carries the URL at which it was verified by direct fetch.
 Claims that could not be confirmed at a fetched source are marked **UNVERIFIED**.
 Quotes are kept short and attributed; longer passages are paraphrased.
 
@@ -169,7 +172,10 @@ Secondary/flagged:
 
 ---
 
-## How this serves the argument (hosting/engineering thesis)
+## How this serves the argument (archived: hosting/engineering)
+
+Do not write toward this mapping. Live thesis: [`../CLAIM.md`](../CLAIM.md). The bullets below
+are how an earlier draft used these sources.
 
 - **Engineering has a primary-source anchor.** Linklater's "comprehensive architecture that you can pass through and not feel completely disoriented" (Savlov 2011) is the film's maker describing exactly the brokered-passage function the chapter assigns to the camera; pair with Pierson's "not a single jump cut... always in a flow" as the craft-level confirmation that every handoff is engineered, never elided.
 - **Hosting has a primary-source anchor too.** Linklater's "100 percent Austin product" plus the 1991 self-interview's account of a milieu "responsible to themselves" outside the market economy establishes Austin 1990 as the shared reference environment; Gaughen's finding that the film's spatial continuity is partly fictional is the key evidence that the city *hosts* but does not *connect* — the connecting is the camera's job. That division of labor is the chapter's wedge.

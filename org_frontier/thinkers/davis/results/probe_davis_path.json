@@ -1,0 +1,56 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "form": {
+    "form": "path\u2212\u2212",
+    "k": 4,
+    "signs": "\u2212\u2212",
+    "phi_mip": 0.0,
+    "core": [
+      "ox",
+      "qx"
+    ],
+    "core_persons": [
+      "o",
+      "q"
+    ],
+    "core_phi": 2.0,
+    "seconds": 38.5,
+    "clusterable": true,
+    "balanced": true,
+    "n_rest": 36,
+    "partitions": [
+      [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    ],
+    "n_fixed": 36,
+    "n_cycles": 5,
+    "fixed_all_rest": true,
+    "attractors_all_rest": false
+  },
+  "H5": "CONFIRMED"
+}

@@ -1,0 +1,2206 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "spec": null,
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "genuine_adicity": 3,
+    "cause_adicity": 3,
+    "effect_adicity": 3,
+    "n_distinctions": 3,
+    "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+    "seconds": 0.17
+  },
+  "forms": [
+    {
+      "form": "copy_BAA",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause B effect BC (\u03c6=1.000) at 000",
+      "seconds": 0.03,
+      "n": 3
+    },
+    {
+      "form": "copy_BAB",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause A effect AC (\u03c6=1.000) at 000",
+      "seconds": 0.03,
+      "n": 3
+    },
+    {
+      "form": "copy_BCA",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause B effect C (\u03c6=1.000) at 000",
+      "seconds": 0.54,
+      "n": 3
+    },
+    {
+      "form": "copy_BCB",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause C effect AC (\u03c6=1.000) at 000",
+      "seconds": 0.03,
+      "n": 3
+    },
+    {
+      "form": "copy_CAA",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause C effect BC (\u03c6=1.000) at 000",
+      "seconds": 0.03,
+      "n": 3
+    },
+    {
+      "form": "copy_CAB",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause C effect B (\u03c6=1.000) at 000",
+      "seconds": 0.55,
+      "n": 3
+    },
+    {
+      "form": "copy_CCA",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause A effect AB (\u03c6=1.000) at 000",
+      "seconds": 0.03,
+      "n": 3
+    },
+    {
+      "form": "copy_CCB",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause B effect AB (\u03c6=1.000) at 000",
+      "seconds": 0.03,
+      "n": 3
+    },
+    {
+      "form": "copy_BAAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause B effect BCD (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_BAAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause B effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_BAAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause B effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BABA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause B effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_BABB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause A effect ACD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BABC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause A effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BADA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause B effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BADB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause A effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BADC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause B effect B (\u03c6=1.000) at 0000",
+      "seconds": 0.21,
+      "n": 4
+    },
+    {
+      "form": "copy_BCAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause B effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BCAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause C effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BCAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause A effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BCBA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause C effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BCBB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause C effect ACD (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_BCBC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause C effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_BCDA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause B effect D (\u03c6=1.000) at 0000",
+      "seconds": 7.95,
+      "n": 4
+    },
+    {
+      "form": "copy_BCDB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause C effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BCDC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause D effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BDAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause B effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BDAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause D effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_BDAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause B effect C (\u03c6=1.000) at 0000",
+      "seconds": 8.52,
+      "n": 4
+    },
+    {
+      "form": "copy_BDBA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause D effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BDBB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause D effect ACD (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_BDBC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause D effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_BDDA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause A effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.25,
+      "n": 4
+    },
+    {
+      "form": "copy_BDDB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause D effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_BDDC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause C effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_CAAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause C effect BCD (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_CAAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause C effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_CAAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause C effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_CABA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause C effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_CABB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause A effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_CABC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause B effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_CADA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause C effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.25,
+      "n": 4
+    },
+    {
+      "form": "copy_CADB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause C effect B (\u03c6=1.000) at 0000",
+      "seconds": 8.85,
+      "n": 4
+    },
+    {
+      "form": "copy_CADC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause D effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.11,
+      "n": 4
+    },
+    {
+      "form": "copy_CCAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause C effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.07,
+      "n": 4
+    },
+    {
+      "form": "copy_CCAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause A effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.11,
+      "n": 4
+    },
+    {
+      "form": "copy_CCAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause A effect ABD (\u03c6=1.000) at 0000",
+      "seconds": 0.07,
+      "n": 4
+    },
+    {
+      "form": "copy_CCBA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause B effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.13,
+      "n": 4
+    },
+    {
+      "form": "copy_CCBB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause C effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.07,
+      "n": 4
+    },
+    {
+      "form": "copy_CCBC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause B effect ABD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_CCDA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause D effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.39,
+      "n": 4
+    },
+    {
+      "form": "copy_CCDB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause D effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.26,
+      "n": 4
+    },
+    {
+      "form": "copy_CCDC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause D effect ABD (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_CDAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause C effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.1,
+      "n": 4
+    },
+    {
+      "form": "copy_CDAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause C effect C (\u03c6=1.000) at 0000",
+      "seconds": 0.22,
+      "n": 4
+    },
+    {
+      "form": "copy_CDAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause A effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.1,
+      "n": 4
+    },
+    {
+      "form": "copy_CDBA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause C effect D (\u03c6=1.000) at 0000",
+      "seconds": 8.07,
+      "n": 4
+    },
+    {
+      "form": "copy_CDBB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause D effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_CDBC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause B effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_CDDA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause A effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.25,
+      "n": 4
+    },
+    {
+      "form": "copy_CDDB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause B effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_CDDC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause D effect AD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_DAAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause D effect BCD (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_DAAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause D effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DAAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause D effect BC (\u03c6=1.000) at 0000",
+      "seconds": 0.23,
+      "n": 4
+    },
+    {
+      "form": "copy_DABA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause D effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DABB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause A effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DABC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause D effect B (\u03c6=1.000) at 0000",
+      "seconds": 8.11,
+      "n": 4
+    },
+    {
+      "form": "copy_DADA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause D effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_DADB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause B effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DADC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause C effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DCAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "A -> cause D effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DCAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause D effect C (\u03c6=1.000) at 0000",
+      "seconds": 7.99,
+      "n": 4
+    },
+    {
+      "form": "copy_DCAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause A effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DCBA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 2,
+      "cause_adicity": 2,
+      "effect_adicity": 2,
+      "n_distinctions": 4,
+      "max_distinction": "A -> cause D effect D (\u03c6=1.000) at 0000",
+      "seconds": 0.2,
+      "n": 4
+    },
+    {
+      "form": "copy_DCBB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "B -> cause C effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DCBC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "C -> cause B effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DCDA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause A effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DCDB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause B effect AC (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DCDC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "C -> cause D effect BD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_DDAA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "A -> cause D effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_DDAB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause B effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DDAC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause C effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DDBA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause A effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.09,
+      "n": 4
+    },
+    {
+      "form": "copy_DDBB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 2,
+      "max_distinction": "B -> cause D effect CD (\u03c6=1.000) at 0000",
+      "seconds": 0.05,
+      "n": 4
+    },
+    {
+      "form": "copy_DDBC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 3,
+      "cause_adicity": 2,
+      "effect_adicity": 3,
+      "n_distinctions": 3,
+      "max_distinction": "D -> cause C effect AB (\u03c6=1.000) at 0000",
+      "seconds": 0.24,
+      "n": 4
+    },
+    {
+      "form": "copy_DDDA",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "D -> cause A effect ABC (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_DDDB",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "D -> cause B effect ABC (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    },
+    {
+      "form": "copy_DDDC",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "spec": null,
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "C",
+        "D"
+      ],
+      "core_phi": 2.0,
+      "genuine_adicity": 4,
+      "cause_adicity": 2,
+      "effect_adicity": 4,
+      "n_distinctions": 2,
+      "max_distinction": "D -> cause C effect ABC (\u03c6=1.000) at 0000",
+      "seconds": 0.06,
+      "n": 4
+    }
+  ],
+  "max_adicity": 4,
+  "adicity_counts": {
+    "3": 66,
+    "2": 11,
+    "4": 12
+  },
+  "n_whole_irreducible": 8,
+  "H1": "REFUTED",
+  "post_hoc": {
+    "n_unbranched": 11,
+    "n_branched": 78,
+    "max_cause_adicity": 2
+  }
+}

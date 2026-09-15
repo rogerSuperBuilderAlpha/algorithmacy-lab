@@ -1,6 +1,9 @@
 # Panel brief — *Slacker* chapter v17 — 2026-08-19
 
-Eight-seat panel on the **live** manuscript. v17 has never been read by a panel: round 10
+**Historical record.** This brief commissioned the 19 August panel on v17. The live thesis is
+[`../../CLAIM.md`](../../CLAIM.md). Do not treat "live manuscript" below as current.
+
+Eight-seat panel on the **then-live** manuscript. v17 had never been read by a panel: round 10
 (`old/archive/reviews/2026-08-18-v16/`) judged v15, and round 11 was a single sentence audit that turned
 v16 into v17. You are the first readers of this text.
 
@@ -9,8 +12,8 @@ Pinned at commit `db5468d643d4985d87a26da901f8155353ab5c6f`, mtime Aug 18 20:02:
 Body **4,470 words** through the `## Notes` heading; 39 endnotes; 52 bibliography entries.
 Title: "'You seen Gary around?': The Deferred Third of *Slacker*."
 
-**Judge the current file.** Do not review anything under `old/`. Read the archive only to check whether a
-prior finding was closed.
+**Then-live file.** Do not review `old/`. This brief is not a commission to rewrite the current
+`chapter.md`. The archive was only for checking whether a prior finding was closed.
 
 **Venue.** Bloomsbury collection *Slacker: Answering the True Call — Essays on Linklater's Cult Classic*,
 eds. Sara Bizarro (UNO) and Melissa Remark (Nicholls State). Final draft due **2026-11-01**; optional

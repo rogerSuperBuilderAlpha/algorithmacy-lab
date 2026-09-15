@@ -1,0 +1,91 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "seconds": 0.12
+  },
+  "forms": {
+    "dyad_mutual": {
+      "form": "dyad_mutual",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.03
+    },
+    "dyad_cut": {
+      "form": "dyad_cut",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "verdict": "dyadic",
+      "phi_mip": 0.0,
+      "core": [
+        "B"
+      ],
+      "core_phi": 1.0,
+      "seconds": 0.01
+    },
+    "triad_mutual": {
+      "form": "triad_mutual",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "verdict": "triadic",
+      "phi_mip": 6.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 6.0,
+      "seconds": 0.14
+    },
+    "triad_broken_line": {
+      "form": "triad_broken_line",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "verdict": "triadic",
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.11
+    }
+  },
+  "checks": {
+    "triad core is the full triple": true,
+    "\u03a6(triad) > \u03a6(dyad)": true,
+    "broken line keeps A and B bound": true,
+    "cut dyad has nothing left": true
+  },
+  "H1": "CONFIRMED"
+}

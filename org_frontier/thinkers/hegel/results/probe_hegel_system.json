@@ -1,0 +1,104 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "syllogism": {
+      "form": "syllogism",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 2.0,
+      "verdict": "triadic",
+      "core": [
+        "A",
+        "M",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "seconds": 0.3,
+      "spec": {
+        "A": [
+          "and",
+          [
+            "M"
+          ]
+        ],
+        "M": [
+          "and",
+          [
+            "A",
+            "B"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "M"
+          ]
+        ]
+      }
+    },
+    "system": {
+      "form": "system",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 6.0,
+      "verdict": "triadic",
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 6.0,
+      "seconds": 0.2,
+      "spec": {
+        "A": [
+          "and",
+          [
+            "B",
+            "C"
+          ]
+        ],
+        "B": [
+          "and",
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "C": [
+          "and",
+          [
+            "A",
+            "B"
+          ]
+        ]
+      }
+    }
+  },
+  "shares": {
+    "syllogism": {
+      "A": 0.0,
+      "M": 1.0,
+      "B": 0.0
+    },
+    "system": {
+      "A": 4.0,
+      "B": 4.0,
+      "C": 4.0
+    }
+  },
+  "descriptive_additive": true,
+  "H4": "PARTIAL"
+}

@@ -1,0 +1,64 @@
+{
+  "control": {
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ]
+  },
+  "forms": {
+    "network": {
+      "form": "network",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "A": 2.0,
+        "B": 0.0,
+        "C": 0.0
+      },
+      "fixed_points": [
+        "000",
+        "111"
+      ],
+      "seconds": 0.1,
+      "advantage_A": 2.0
+    },
+    "status": {
+      "form": "status",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 0.0,
+      "core": [
+        "A",
+        "B"
+      ],
+      "core_phi": 2.0,
+      "value_added": {
+        "A": 2.0,
+        "B": 2.0,
+        "C": 0.0
+      },
+      "fixed_points": [
+        "000",
+        "111"
+      ],
+      "seconds": 0.0,
+      "advantage_A": 0.0
+    }
+  },
+  "H4": "CONFIRMED"
+}

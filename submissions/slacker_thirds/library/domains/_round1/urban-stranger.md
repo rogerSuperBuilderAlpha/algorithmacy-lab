@@ -1,5 +1,7 @@
 # Domain sweep — the urban stranger, public space, and reach
 
+> **Current thesis (2026-09-13 afternoon lock).** This sweep audited an earlier draft. The live claim is in [`../../../CLAIM.md`](../../../CLAIM.md): *Slacker* does not chronicle a lost counterculture, but models the operational logic of the modern platform: an indifferent apparatus that coordinates human bodies through spatial proximity and technical selection, rendering interpersonal connection, shared belief, and conscious consent completely obsolete. Do not restore hold/select/grant as three columns, or argue that platform workers pass Royce. Findings about sources remain usable; section names and payoff do not.
+
 **Chapter audited:** `chapter.md` (7,290 words, 39 endnotes), against `CLAIM.md` and `outline.md`.
 **Domain:** urban sociology of the stranger and of public space; geographies of encounter; agglomeration micro-foundations; the sociology of doors.
 **Date:** 2026-08-18. **Rule followed:** nothing below is asserted as verified unless a record was fetched and read. Each entry carries its own marker.
