@@ -1,11 +1,18 @@
 # The Slacker chapter's source library
 
-What this folder is for: keeping the chapter's novelty claim checkable. The chapter says four things
-nobody has said together — that a city holds strangers in reach and introduces nobody, that a camera
-does the selecting, that access at a door is a grant pronounced by someone who can be argued with, and
-that platforms kept all three and withdrew the person. Each of those sits inside a literature that has
-been circling it for decades. The library exists so that "nobody has said this" is a finding rather
-than a hope.
+**Live thesis (2026-09-13 afternoon lock).** See [`../CLAIM.md`](../CLAIM.md). *Slacker* does not
+chronicle a lost counterculture. It models the operational logic of the modern platform: an
+indifferent apparatus that coordinates human bodies through spatial proximity and technical
+selection, rendering interpersonal connection, shared belief, and conscious consent completely
+obsolete. Domain sweeps below audited earlier drafts (hold/select/grant; RDU as Royce pass). Source
+findings remain usable; section names and payoffs do not.
+
+What this folder is for: keeping the chapter's novelty claim checkable. The live claim is that
+nobody has said together that the film's city and camera already run as proximity plus selection,
+that talk, belief, and a yes are not what coordinates the day, and that the platform is that
+apparatus with the last person removed. Each of those sits inside a literature that has been
+circling pieces of it for decades. The library exists so that "nobody has said this" is a finding
+rather than a hope.
 
 ## How it is built
 
@@ -51,10 +58,10 @@ after naming *Slacker* as a network narrative film. Note 10 cites Jeong for Berg
 nothing else. See [`jeong2021network`](cards/jeong2021network.md).
 
 That is the panel's mandatory M3 — prior art on a page already cited — repeating in the chapter's own
-field. The thesis survives the collision: Jeong's camera-agent *connects*, the chapter's camera *chooses
-one and never returns*, and he has no reach, no door, no grant, and no person who could be asked. The
-repair is roughly twenty-five words and it strengthens the chapter, because a distinction drawn against
-a named rival is load-bearing in a way a gap is not.
+field. The thesis survives the collision: Jeong's camera-agent *connects*, the chapter's camera
+*chooses one and never returns*, and he has no proximity, no door, and no account of consent
+going obsolete. The repair is already in note 14: the phrase is his; the reading of what the
+camera withholds is this chapter's.
 
 Round 2 also verified two things and closed one debt. Soldani, cited only for drift, documents the guest
 list and the admission stamp as a pair at 78–79 — peer-reviewed corroboration of the door reading at

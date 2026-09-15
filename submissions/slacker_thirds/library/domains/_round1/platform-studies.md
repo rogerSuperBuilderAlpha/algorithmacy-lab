@@ -1,5 +1,7 @@
 # Domain sweep: Platform Studies and Algorithmic Management
 
+> **Current thesis (2026-09-13 afternoon lock).** This sweep audited an earlier draft. The live claim is in [`../../../CLAIM.md`](../../../CLAIM.md): *Slacker* does not chronicle a lost counterculture, but models the operational logic of the modern platform: an indifferent apparatus that coordinates human bodies through spatial proximity and technical selection, rendering interpersonal connection, shared belief, and conscious consent completely obsolete. Do not restore hold/select/grant as three columns, or argue that platform workers pass Royce. Findings about sources remain usable; section names and payoff do not.
+
 **Chapter audited:** `chapter.md` — "'You seen Gary around?': The Deferred Third of *Slacker*" (7,290 words, 39 endnotes)
 **Sweep date:** 18 August 2026
 **Question put to the domain:** the chapter claims that platforms keep the holding, the selecting, and the grant, and withdraw the person who can be asked. Is that withdrawn answerer already named in this literature under another name?

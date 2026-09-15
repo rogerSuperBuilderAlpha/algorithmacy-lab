@@ -2,6 +2,22 @@
 
 Decision log and parking lot. Newest entries at the top.
 
+## 2026-09-03 — pre-submission panel, eight seats on Fable 5.1
+
+`reviews/2026-09-03/`: PANEL_BRIEF, eight full reviews, SYNTHESIS. Every seat returned minor; nobody
+attacked the argument. Three things the synthesis settles that the reviews disagreed on: Martin and
+Waldman's "oversight and audit lowered it" is verified in the 18 August full-text audit (keep it; fix
+the antecedent and the year); Manfreda's card says gratitude, not altruism; "fluidifying" is the
+verbatim, not "fluidify". Nothing in DRAFT.md was edited by the panel.
+
+What ranks first is not in the manuscript: `submission/FRONT_MATTER.md` and
+`RESPONSE_TO_EDITOR.md` still describe the 17 August paper (old title, old abstract, "hospitality
+algorithmacy" and "coordinative sovereignty" in the highlights), `preflight.py` validates that stale
+file, and the mandatory AI-acknowledgment section does not exist in DRAFT.md. The library holds three
+verified sources the text does not cite (Jianu 2025, Gao 2026, Hirschman 1970) and two must-engage
+neighbours (Gursoy 2026, Shabnam 2026) are still unengaged. Order of work and word budget are in
+SYNTHESIS §8 and §11; the FIX TONIGHT set nets about +240 against 376 of headroom.
+
 ## 2026-08-17 — the loadings claim, and the jargon it was hiding in
 
 **"Only the third mentions an appeal, and it carries the weakest loadings of the three" is out.**

@@ -1,27 +1,30 @@
-# Claim lock — fused, 2026-08-18
+# Claim lock — 13 September 2026 (afternoon)
 
-**Live file this lock governs:** `chapter.md`
-**Supersedes:** the "start over" lock of earlier today. The proximity question survives as the chapter's question. The deferred third returns as the thesis that answers it. The fusion was a deliberate decision, not drift.
+**Title.** "You gotta be somewhere": *Slacker* and the Search for Voice. The quote is the 2 a.m. eviction. The subtitle is the bind the characters are in: they keep looking for an exit, and the only move left is voice. Do not restore Gary or "the deferred third" as the title. Gary stays the last beat; the deferred third stays the mechanism.
 
-If this page is wrong, stop. Do not outline or rewrite from a different question.
+**Question.** How do you end up next to someone you were never introduced to?
 
-## Research question
+**Thesis (the only one):**
 
-How do you end up next to someone you were never introduced to?
+This essay argues that *Slacker* shows how a modern platform works: an indifferent machine that packs people into the same space and picks who meets whom, so that connection, shared belief, and a yes are not required.
 
-## Why this one
+**What that licenses**
 
-That is what the movie keeps showing. A man gets out of a cab and a woman is already in the street. Steve is at a door he was never invited through. Someone asks after Gary and a stranger answers. Nobody introduced any of them.
+- City = spatial proximity. Camera = technical selection. Together = the indifferent apparatus (the deferred third / web).
+- Not a lost bohemia / counterculture.
+- Connection, belief, and consent can still appear on screen. They do **not** do the coordinating.
+- The door is the last body still attached to a yes. The platform keeps proximity and selection and drops the person.
+- Royce is a diagnostic: the strangers on screen fail the membership test. That failure is evidence for the apparatus.
+- **The platform already running.** The platform logic is dated to Reich's largess (1964) and the currency float (August 1971 / March 1973; Reuters Monitor June 1973). The film, shot in 1989, reacts to a machine that had been running for a generation. The cab dream is a man inside a change he has no words for. The film is not "the before," the "missing link," or a prediction.
+- **No exit, so voice.** The typewriter and the camera go in the water and the circuit does not break. What remains to the characters is voice (Hirschman 1970): conspiracy, taking, belief, pairing, music, refusal, and by dawn broadcasts to nobody. Voice does **not** coordinate; it is what a person does inside a field that never needed a yes. The door on the Drag is the last place a voice meets a face.
+- Prior criticism (Beauchamp 2019; Bramesco and Broadley 2020–21; Ravens 2026) set the film against the internet by parallel and nostalgia. The chapter concedes the priority and claims the mechanism.
 
-It is also the question the scholarship cannot answer. One faction says the missing plot is the point (Marlovits 2013; Bizarro 2025). Berg named the shape and explained nothing (daisy chain plot, 2006). The drift readings describe the camera's path and miss its office (Ramirez 2011; Soldani 2017; Stone 2013). Nobody treats holding and selecting as two functions of one arrangement.
+**Do not restore**
 
-## Thesis
-
-You end up next to a stranger because a deferred third does two jobs neither of you does. Austin holds the next person in reach and introduces nobody. The camera selects which person we see. On that sidewalk, access is still a grant spoken by someone — a price, a list, a refusal, no further reason — and the person who says it can still be asked. Platforms keep the holding, the selecting, and the grant, and withdraw the person.
-
-## What this is not
-
-Not a claim that network narratives are symptoms of the internet (Bordwell is right; the arrangement is older than the technology, which is the point).
-Not the century-of-cinema training claim.
-Not streaming enclosure.
-Not a named skill or a research program. The no-address question is posed at the end, not answered.
+- Hold / select / grant as three columns, or a section called "Keeping the jobs apart."
+- Hosting / engineering (accepted abstract vocabulary; replacement abstract is author-only).
+- The claim that platform workers pass Royce, or that Rideshare Drivers United is the community. That is a different paper. The apparatus never needed the claim.
+- Camera as a weaver / network-builder. The camera *is* the web; it picks and walks away.
+- "The film captures the exact moment…" / "missing link" / any sentence that places the platform after the film.
+- Voice as coordination. The characters talk all day; the day never needed the talk.
+- A second throw of Mount Bonnell. The exit reading lives once, in "No exit, so voice."

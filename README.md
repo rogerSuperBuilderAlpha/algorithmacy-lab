@@ -114,7 +114,7 @@ Live deadlines and canonical drafts. Start at [`NOW.md`](NOW.md).
 - [Coordinative sovereignty](submissions/coordinative_sovereignty/README.md) — Autonomy for an actor who is coordinated through a mediator it cannot leave: standing and
 - [Hospitality phygital — algorithmic mediation and guest agency](submissions/hospitality_phygital/README.md) — A domain arm for the *Hospitality & Society* special issue on theorizing phygital hospitality
 - [Lima PDW — algorithmacy as a communication competency](submissions/lima_pdw/README.md) — A submission arm for the **OS & OT Paper Development Workshop in Organization Studies for Advanced
-- [*Slacker* chapter](submissions/slacker_thirds/README.md) — Bloomsbury collection. Final draft **2026-11-01**. 3,000–5,000 words. Chicago endnotes
+- [*Slacker* chapter](submissions/slacker_thirds/README.md) — Bloomsbury collection *Slacker: Answering the True Call*. Final draft **2026-11-01**. Optional editor draft 2026-10-01. 3,000–5,000 words. Chicago endnotes
 - [Hegel and the coordination program — a public reading](submissions/hegel_coordination/README.md) — A Substack series that reads Hegel against the lab's coordination program, and a small research spine
 - [Proposals — submissions to external calls](submissions/proposals/README.md) — Planning documents for manuscripts the lab prepares for journal calls and special issues. Each proposal
 
@@ -277,6 +277,27 @@ Multi-experiment batteries on one theme.
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
 - **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 51 entries classified by the bypass-counterfactual (q213): 38 real-world arrangements and 13
+
+### Thinkers on the triad
+
+One paper per thinker: the historical account of the third party read from its primary texts, rendered as Boolean forms, and tested against exact Φ. The standard is in [`org_frontier/thinkers/PAPER_STANDARD.md`](org_frontier/thinkers/PAPER_STANDARD.md).
+
+- **[Where the superior stands: Blau's exchange theory of power under exact Φ](org_frontier/thinkers/blau/paper.md)** — Contingency is what makes power a relation. A supplier who serves regardless binds nothing — the Serres
+- **[The twosome that moves: Bowen's triangle under exact Φ](org_frontier/thinkers/bowen/paper.md)** — Bowen's triangle, rendered with togetherness as reading and anxiety as flip noise, is not a whole of three:
+- **[The hole is a cliff: Burt's structural holes under exact Φ](org_frontier/thinkers/burt/paper.md)** — Burt's hole is a cliff, not a slope. A broker combining two disconnected contacts adds Φ = 2.000 to the
+- **[Two against one, or one and a follower: Caplow's coalitions under exact Φ](org_frontier/thinkers/caplow/paper.md)** — Rendered by his own assumptions — the stronger partner controls the coalition's stance, strength adds in
+- **[The price of closure: Coleman's social capital under exact Φ](org_frontier/thinkers/coleman/paper.md)** — Closure does what Coleman says and costs what he did not count. With A yielding only to a joint sanction and
+- **[A third camp: Davis's clustering against the lab's Heider result](org_frontier/thinkers/davis/paper.md)** — The Heider paper's verdict on the all-negative triad was the two-camp verdict. With one bit per person that
+- **[Four ways to balance: Emerson's power-dependence operations under exact Φ](org_frontier/thinkers/emerson/paper.md)** — All four balancing operations balance, and none of them takes anything from the strong actor except the
+- **[No Gestalt: Girard's triangle of desire under exact Φ](org_frontier/thinkers/girard/paper.md)** — Girard's triangle is never a whole of three. With subject, mediator, and object as nodes and imitation as
+- **[Paths and cycles: Granovetter's weak ties under exact Φ](org_frontier/thinkers/granovetter/paper.md)** — Weak ties transmit; only weak ties that return integrate. With a tie rendered as Granovetter defines it —
+- **[Three syllogisms at once: Hegel's middle term under exact Φ](org_frontier/thinkers/hegel/paper.md)** — Hegel's genuine middle is the lab's mediator, and his system of three syllogisms is the lab's clique;
+- **[Tension binds: Heider's balanced and unbalanced triads under exact Φ](org_frontier/thinkers/heider/paper.md)** — Under signed majority with hold, Heider's balanced triads have no irreducible structure and his unbalanced
+- **[Counting for one: Latour's intermediaries and mediators under exact Φ](org_frontier/thinkers/latour/paper.md)** — Latour's intermediary counts for one in Φ and for one more in membership. A chain of k copy-relays inserted
+- **[Monitors who are the monitored: Ostrom's design principles under exact Φ](org_frontier/thinkers/ostrom/paper.md)** — When the monitored are the monitors, the monitored are the structure. In a form where each of three
+- **[The genuine triad: Peirce's reduction thesis under exact Φ](org_frontier/thinkers/peirce/paper.md)** — Peirce's genuine triad and the lab's irreducible whole are two different lines, and they cross in both
+- **[The excluded producer: Serres's parasite under exact Φ](org_frontier/thinkers/serres/paper.md)** — Serres's one-way arrow is not a relation the instrument can see: a parasite reading a producer who does not
+- **[The superindividual triad: Simmel's third party under exact Φ](org_frontier/thinkers/simmel/paper.md)** — Simmel's triad is a superindividual whole when its members are mutually necessary, not when they are three or
 
 ### Foundations — what tracks Φ
 

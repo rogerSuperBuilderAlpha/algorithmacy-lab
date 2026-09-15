@@ -72,8 +72,11 @@ approval was obtained a month before writing.
   `PLAN.md`.
 - **Slacker chapter** — [`slacker_thirds/`](slacker_thirds/), terms in
   [`slacker_thirds/COLLECTION_TERMS.md`](slacker_thirds/COLLECTION_TERMS.md). Bloomsbury, Chicago
-  with endnotes, 3,000–5,000 words (body currently 5,092), plus a publisher AI-use policy the author
-  must answer.
+  with endnotes, 3,000–5,000 words (body currently ~5,630, over the range by the author's 13 Sep
+  decision; length question goes to the editors). Locked thesis: the film models the
+  operational logic of the modern platform (proximity + selection; connection, belief, and
+  consent obsolete), reacting to a machine already running since the 1960s–70s rather than
+  predicting one. Plus a publisher AI-use policy the author must answer.
 - **Organization Theory** — [`proposals/`](proposals/). "When is a combination a configuration?",
   Special Themed Section on configurational phenomena, package already merged to main; what remains is
   the author's read-aloud pass, the APC decision, and the SAGE AI-disclosure placeholders.

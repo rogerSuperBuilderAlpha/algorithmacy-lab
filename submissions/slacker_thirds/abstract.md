@@ -1,5 +1,9 @@
 # Accepted abstract (verbatim)
 
+**Not the live thesis.** This is the abstract the editors accepted. The chapter no longer argues hosting/engineering, century-of-cinema training, or streaming enclosure. The locked claim is in [`CLAIM.md`](CLAIM.md). A replacement abstract in that vocabulary is author-only (`AUTHOR_TASKS.md`). Do not treat the text below as the argument to write.
+
+---
+
 Slacker (Linklater, 1991) follows about a hundred characters through a single day in Austin. There is no
 protagonist. Most characters never meet. The film rejects the typical cinema narrative of return, resolution,
 and convergence. Yet, audiences still find the film coherent. This chapter considers what holds it together.

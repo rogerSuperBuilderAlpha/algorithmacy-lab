@@ -7,80 +7,80 @@ Every component the Notes for Contributors require beyond the article body. Rule
 Author-only items are marked. Agents do not contact the editors, and the ORCID and biography details
 must come from the authors.
 
+**Regenerated 2026-09-03 from `../DRAFT.md`.** The prior version (17 August) described an earlier
+draft: a different title, a different abstract, and highlights and a Statement of Contribution built
+around 'hospitality algorithmacy' and 'coordinative sovereignty', two terms that do not occur in the
+current manuscript. Every item below is copied from, or built directly on, `DRAFT.md` as it now
+stands. If the manuscript changes again, regenerate this file from it before upload — do not hand-edit
+around a stale copy.
+
 ---
 
 ## Title
 
-**Who Hosts the Guest? Reconfiguration of Hospitality in Phygital Spaces**
+**Who Hosts the Guest? Algorithmic Mediation, Standing, and Responsibility in Phygital Hospitality**
 
-*Shortened at the editor's suggestion. The dropped phrases — algorithmic mediation, guest agency —
-survive as keywords two and three, so nothing conceptual is lost.*
+*This is the title at the top of `DRAFT.md`. The 17 August packet carried a shortened alternative
+the editor had proposed; the manuscript itself was never changed to match, so the title actually
+governing the body is this one.*
 
 ## Abstract (100–200 words)
 
-*198 words, verified against the 200 limit; the file previously claimed 197 and measured 203.
-Distinct from the ~700-word pitch in [`../../ABSTRACT.md`](../../ABSTRACT.md), which was the summit
-proposal.*
+*198 words by whitespace count. Verify against Word's counter before upload — the journal's ceiling is 200 and prior packets have disagreed with Word by a few words. Distinct from the ~700-word pitch in [`../../ABSTRACT.md`](../../ABSTRACT.md), which was the summit proposal.*
 
-Phygital hospitality scholarship presents artificial intelligence, mobile applications and automated
-interfaces as tools for delivering seamless, personalized experiences. Yet hospitality is a
-relational and culturally situated practice involving welcome, recognition, care, presence and
-negotiated access. This conceptual paper theorizes phygital hospitality as triadic coordination
-among the guest, the algorithmic intermediary and the human or organizational host, an arrangement
-in which the guest's conduct becomes record and the intermediary's determinations become physical
-arrangement. The intermediary performs hosting functions and redistributes knowledge, discretion and
-authority, and the paper asks whether it thereby inherits what a host owes. The duty does not travel
-with the function, because a system can perform a welcome and cannot answer for one. Augmentative
-and substitutive hospitality are separated by a condition: substitution occurs wherever
-accountability is withheld, whatever becomes of predictability and common understanding. The paper
-introduces hospitality algorithmacy, a competence guests and employees can develop, and distinguishes
-it from coordinative sovereignty, a standing only organizations can grant. Five design features, a
-transformation roadmap and a reading of mediation's effects on well-being follow. Seamlessness is not
-inherently hospitable, since a frictionless encounter removes the surface on which a guest may be
-received as an exception.
+Phygital hospitality promises a smoother welcome: apps, algorithms, and smart interfaces that make a
+guest's stay faster and more personal. But hospitality was never only about smooth service. To be a
+guest is to have standing, which we define as the recognized position from which a person can ask,
+object, request an exception, and expect someone to answer. When an algorithm takes over the work a
+host used to do, recognizing the guest, pricing the room, deciding who gets in, does it also take on
+what a host owes the guest? It does not. The functions of hosting can move to a machine while the
+obligation stays behind, and the guest can be left with no one who must answer them. We show how
+phygital mediation redistributes knowledge, discretion, and authority across guest, employee, and
+system; we offer a plain test for telling help from replacement, built on three things a guest needs
+(shared understanding, predictability, and someone accountable); we separate competence, which
+guests and employees can learn, from standing, which only an institution can grant; and we argue
+that the goal of good design is not seamlessness but interruptibility. The fix is institutional, not
+merely technical.
 
 ## Keywords (exactly six, one or two words each)
 
-phygital hospitality; algorithmic mediation; guest agency; employee discretion; well-being;
-contestability
+phygital hospitality; algorithmic mediation; host-guest relationship; accountability; contestability;
+guest standing
 
-*'service design' swapped for 'well-being' to reach the transformative theme; 'hospitality theory'
-swapped for 'contestability', since the first named the field the article sits in rather than
-anything the article is about, and contestability is what sections 6 and 7 turn on.*
+*Copied verbatim from `DRAFT.md`. 'Guest standing' replaced 'hospitality standing' on 2026-09-03,
+since the body's own phrase throughout is 'the guest's standing', not 'hospitality standing'.*
 
 ## Statement of Contribution (100–150 words, anonymised — sent to reviewers)
 
-*131 words of answers, 152 including the two question prompts. Answers the two questions the Notes for Contributors require, and names no
-author, institution or prior work of the contributors.*
+*133 words of answers. Answers the two questions the Notes for Contributors require, names no
+author, institution or prior work of the contributors, and uses only constructs the manuscript
+itself names.*
 
-**What is the contribution to hospitality knowledge, theory, policy or practice?** The paper
-repositions algorithmic systems in hospitality from neutral service technologies to constitutive
-mediators of the hospitality encounter. It contributes a triadic account of phygital hospitality, a
-distinction between augmentative and substitutive mediation specified as a checkable
-condition, and five design features derived from what coordination
-requires. It separates a competence guests and employees can develop from a standing only
-organizations can grant, which tells practitioners which problems training can address and which
-cannot, and sets out a transformation roadmap on that basis. Mapping the poles onto
-individual, collective and societal well-being connects the account to transformative service
-research.
+**What is the contribution to hospitality knowledge, theory, policy or practice?** The paper asks
+what an algorithm owes the guest when it takes over the work a host used to do, and argues that the
+functions of hosting can move to a machine while the obligation stays behind. It contributes a
+three-condition test, common understanding, predictability and accountability, for telling
+mediation that helps hospitality from mediation that replaces it; a distinction between competence,
+which guests and employees can learn, and standing, which only an institution can confer; and five
+design principles that separate what an interface can fix from what an institution must decide. For
+practitioners it yields six diagnostic questions and a five-stage roadmap whose later stages cannot
+be bought with better interfaces alone.
 
-**How does the paper offer a multidisciplinary social science perspective?** It brings hospitality
-theory into dialogue with coordination research, algorithmic management
-studies and human-computer interaction, reading each through the questions of
-welcome, recognition and access that define hospitality as a social practice.
+**How does the paper offer a multidisciplinary social science perspective?** It brings critical
+hospitality theory into dialogue with coordination research, algorithmic management studies,
+accountability theory and human-computer interaction, reading each through the welcome, recognition
+and access that make hospitality a social practice.
 
 ## Highlights (3–5 bullets, maximum 85 characters each including spaces)
 
-*Character counts shown. Upload as a separate file with 'Highlights' in the name.*
+*Character counts shown. Upload as a separate file with 'Highlights' in the name. Rewritten
+2026-09-03 in the manuscript's own vocabulary.*
 
-- Phygital hospitality is triadic: guest, algorithmic intermediary and human host. `[80]`
-- Algorithms now perform hosting functions and redistribute discretion and authority. `[83]`
-- Mediation is substitutive wherever nobody must answer for what it decides. `[74]`
-- Hospitality algorithmacy is a competence; coordinative sovereignty is a standing. `[81]`
-- A transformation roadmap that no property can discharge by procurement alone. `[77]`
-
-*All five now sit under the 85-character limit. The previous fifth bullet ran to 87 and has been
-replaced by the roadmap bullet, which also answers the editor's sixth request.*
+- An algorithm can perform a welcome; it cannot answer for one. `[61]`
+- Phygital mediation redistributes knowledge, discretion and authority. `[69]`
+- Mediation replaces hospitality wherever nobody must answer for what it decides. `[79]`
+- Competence is learned; standing is conferred. Skill cannot conjure a counterparty. `[82]`
+- Good phygital design aims at interruptibility, not seamlessness. `[64]`
 
 ## Contributor biographies (50–100 words each) — AUTHORS TO SUPPLY
 
@@ -97,7 +97,7 @@ replaced by the roadmap bullet, which also answers the editor's sixth request.*
 | Full institutional postal address and one email address | outstanding |
 | Ethical statement and conflict of interest statement | outstanding; no human subjects in this study |
 | Funder name and grant number, if applicable | outstanding |
-| AI acknowledgment section | drafted at the end of the manuscript; **authors must confirm it describes what actually happened** |
+| AI acknowledgment section | **outstanding — not present anywhere in `DRAFT.md`.** The Notes require a labelled section, 'Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process', at the end of the article and before the References. This is a desk-check item; a submission missing it is typically returned before reaching a referee. Only the authors can write it, since it must state what tool was used and for what, and take responsibility for the content. |
 
 ## Formatting checklist before upload
 
@@ -108,3 +108,4 @@ replaced by the roadmap bullet, which also answers the editor's sixth request.*
 - [ ] References headed 'References', Intellect Harvard, only works cited in the text
 - [ ] Nothing in the file identifies the contributors — strict anonymity applies to both directions
 - [ ] Repo-relative markdown links and drafting notes removed
+- [ ] AI-acknowledgment section written and true before the file is assembled

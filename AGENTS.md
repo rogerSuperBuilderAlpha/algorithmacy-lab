@@ -12,7 +12,8 @@ any coding agent. Three files divide the work and cross-reference each other:
 - **[`CLAUDE.md`](CLAUDE.md)** — the house writing style, the dissertation spine, and the git-push rules.
 
 A nested `AGENTS.md` sits in the subtrees with their own local workflow (`org_frontier/`,
-`org_frontier/research/`, `foundations/`, and each program). Read the nested one when working there; it
+`org_frontier/research/`, `foundations/`, [`submissions/slacker_thirds/`](submissions/slacker_thirds/AGENTS.md),
+and each program). Read the nested one when working there; it
 points back here for the shared rules.
 
 ## Orient in three reads
