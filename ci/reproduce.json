@@ -3582,6 +3582,25 @@
       "source": "org_frontier/studies/spanning_mediator_multihub/FINDINGS.md"
     },
     {
+      "name": "small-world-vs-hierarchy",
+      "cmd": "python org_frontier/studies/small_world_vs_hierarchy/analyze_small_world.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring Φ:  n5=4.000  n6=4.000",
+        "hub Φ:   n5=4.000  n6=5.000",
+        "H1 (anchors + morph endpoints):     SUPPORTED",
+        "H2 (interiors do not combine):      SUPPORTED",
+        "H3 (interiors collapse):            SUPPORTED",
+        "H4 (pick-one at n=6 size contrast): SUPPORTED",
+        "H5 (hub-rewire ≤ ring at n=5):      SUPPORTED",
+        "verdict: PICK_ONE",
+        "combine ring-cap with hub-growth? NO",
+        "reading: PICK_ONE — interiors collapse; only pure ring (cap Φ=4) and pure hub (Φ=n-1) recover; no combine"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/small_world_vs_hierarchy/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

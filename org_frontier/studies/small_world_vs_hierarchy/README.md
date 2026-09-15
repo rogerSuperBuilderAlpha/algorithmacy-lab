@@ -11,4 +11,5 @@ python org_frontier/studies/small_world_vs_hierarchy/analyze_small_world.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the census run.
+**PICK_ONE.** Interiors collapse; only pure ring (Φ=4 cap) and pure hub (Φ=n−1)
+recover — no combine with hub growth.

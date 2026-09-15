@@ -75,10 +75,9 @@ is same-n Boolean forms, not asymptotic.
 
 ## Best next experiment
 
-**Small-world rewire vs hierarchy** (agenda #17): at fixed n, does rewiring a
-ring toward hubs combine the ring's size-independent cap with hub growth, or
-pick one? Alternative: interior topology between ring (Φ capped) and pool
-(#19).
+**Done next:** `small_world_vs_hierarchy/` (agenda #17) — PICK_ONE; interiors
+collapse; no combine of ring cap with hub growth. Follow-on: interior topology
+between ring and pool (#19).
 
 ## Reproduce
 
