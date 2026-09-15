@@ -11,4 +11,5 @@ python org_frontier/studies/omit_lift_n6/analyze_lift.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the registered run.
+**LAWS_MORPH.** Derangements split 12 vs 14 by cycle type (3+3); M3
+incomplete-core persists but sibling discriminant fails; Φ=14 new vs L6.

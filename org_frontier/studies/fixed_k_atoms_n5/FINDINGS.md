@@ -77,8 +77,8 @@ Conjunctive AND. No organization measured. Runtime ~11.5 min.
 ## Best next experiment
 
 **Done next:** `omit_motif_phi5/` — **MOTIF_DISCRIMINANT**: Φ=5 iff omit motif
-M (indeg (0,1,1,1,2) + 3-cycle + recip=0); siblings → Φ=6. Follow-on: n=6
-omit/derangement lift, or #42 scale-blur.
+M (indeg (0,1,1,1,2) + 3-cycle + recip=0); siblings → Φ=6. Then
+`omit_lift_n6/` **LAWS_MORPH**. Follow-on: 3+3 law among !6, or #42 scale-blur.
 
 ## Reproduce
 

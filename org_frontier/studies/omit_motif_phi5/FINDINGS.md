@@ -65,8 +65,9 @@ only. No organization measured.
 
 ## Best next experiment
 
-**n=6 derangement / omit-motif lift** (does Φ=n+4 or a 3-cycle law generalize?),
-or return to **#42 discriminant scale-blur**. Ternary tooling still blocked.
+**Done next:** `omit_lift_n6/` — **LAWS_MORPH**: derangements split 12 vs 14
+(3+3); M3 incomplete-core persists but sibling discriminant fails; Φ=14 new
+vs L6. Follow-on: derangement 3+3 law among !6, or #42 scale-blur.
 
 ## Reproduce
 

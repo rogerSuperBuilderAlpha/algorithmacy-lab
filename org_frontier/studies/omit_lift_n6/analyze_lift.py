@@ -39,10 +39,15 @@ BASE_SEED = 20260915
 L6 = {4.0, 6.0, 8.0, 9.0, 12.0, 30.0}
 MOTIF_M3 = ((0, 1, 1, 1, 1, 2), (3,), 0)
 N_RANDOM_DER = 2
-N_NONDER = 2
-# Same-indeg sibling (cyc, recip) reps to evaluate (M3 key excluded).
-# Three diverse types suffice for H4; full class catalog is printed without Φ.
-SIB_EVAL_KEYS = [((2,), 1), ((2, 2), 2), ((4,), 0)]
+N_NONDER = 0
+# All same-indeg sibling (cyc, recip) keys except M3=((3,), 0).
+SIB_EVAL_KEYS = [
+    ((2,), 1),
+    ((2, 2), 2),
+    ((2, 3), 1),
+    ((4,), 0),
+    ((5,), 0),
+]
 
 
 def omit_feats(om):
@@ -426,6 +431,11 @@ def main():
     print(f"  derangement spectrum: {der_distinct}")
     print(f"  M3 Φ={round(m3_phi0, 1) if m3_phis else 'NA'} n_core="
           f"{m3_cores[0] if m3_cores else 'NA'}")
+    motif_bits = [f"M3(3,)/0→{round(m3_phi0, 1)}"]
+    for r in sib_rows:
+        motif_bits.append(f"{r['cycles']}/{r['recip']}→{round(r['core_phi'], 1)}")
+    print(f"  same-indeg motif→Φ: {'; '.join(motif_bits)}")
+    print(f"  new atom: Φ=14 (derangement 3+3) outside L6")
     print(f"  H1={('SUPPORTED' if h1 else 'REFUTED')}  "
           f"H2={('SUPPORTED' if h2 else 'REFUTED')}  "
           f"H3={('SUPPORTED' if h3 else 'REFUTED')}  "
