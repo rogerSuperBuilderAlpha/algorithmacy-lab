@@ -54,10 +54,9 @@ matching q144 and short of a fully-coupled pool.
 
 ## Best next experiment
 
-**Spanning mediator atop a multi-hub** (agenda #20 / extends q145): does an
-extra top mediator that reads all hubs raise Φ beyond the pool ceiling, or
-recreate the shared-mediator merge pattern from `two_triad_shared_member`?
-Alternative: small-world rewire vs hierarchy (#17) at fixed n.
+**Done next:** `spanning_mediator_multihub/` (agenda #20) — spanning top does
+not beat the pool; recurrent hub-span merges membership like shared-S.
+Follow-on: small-world rewire vs hierarchy (#17) at fixed n.
 
 ## Reproduce
 

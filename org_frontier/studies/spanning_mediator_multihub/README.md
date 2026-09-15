@@ -11,4 +11,5 @@ python org_frontier/studies/spanning_mediator_multihub/analyze_spanning_multihub
 
 ## Result in one line
 
-See `FINDINGS.md` after the census run.
+**No beyond pool.** Recurrent hub-span merges T+hubs+leaves at multi-hub Φ;
+full span saturates the pool; feedforward tops drop out.

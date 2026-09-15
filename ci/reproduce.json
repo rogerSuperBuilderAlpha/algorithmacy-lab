@@ -3563,6 +3563,25 @@
       "source": "org_frontier/studies/mediator_hierarchy_census/FINDINGS.md"
     },
     {
+      "name": "spanning-mediator-multihub",
+      "cmd": "python org_frontier/studies/spanning_mediator_multihub/analyze_spanning_multihub.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "beyond_pool_any:     False",
+        "H1 (control + pool ceilings + shared-S Φ=4.0):  SUPPORTED",
+        "H2 (multi-hub below pool):                      SUPPORTED",
+        "H3 (spanning ≤ pool at same n):                 SUPPORTED",
+        "H4 (recurrent 2h2p merges T+hubs+leaves):       SUPPORTED",
+        "H5 (feedforward top excluded from core):        SUPPORTED",
+        "H6 (full span reaches pool, does not exceed):   SUPPORTED",
+        "beyond pool? NO (max spanning coreΦ vs pool5=20.0)",
+        "merge analogy (recurrent 2h2p full core w/ T)? YES; coreΦ=6.0 vs shared-S=4.0 vs mh5_m2=6.0",
+        "reading: WIN — spanning top does not beat pool; recurrent hub-span merges membership like shared-S; full span saturates pool"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/spanning_mediator_multihub/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
