@@ -34,6 +34,9 @@ information needed to recover it is distributed across several cheap signals —
 and the closer a measure's structure is to IIT's own "whole‑minus‑parts" move,
 the more of that information it carries.*
 
+2026 residual→cascade follow-on (when detection still fails, selective exact Φ
+closes the holistic residual): [`RESIDUAL_AND_CASCADE.md`](RESIDUAL_AND_CASCADE.md).
+
 ## Setup common to all six
 
 - **Systems:** random binary networks, `n ∈ {3,4}` nodes, with noisy Boolean‑gate

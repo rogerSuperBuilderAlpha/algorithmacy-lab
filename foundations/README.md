@@ -10,7 +10,8 @@ whole-minus-parts move, the more of that information it carries.
 
 Connected story across the experiments: [`SYNTHESIS.md`](SYNTHESIS.md). Preprint-style writeup:
 [`paper/manuscript.md`](paper/manuscript.md). The reusable method behind these engagements:
-[`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md).
+[`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md). 2026 residual→cascade follow-on (holistic residual
+size series → margin cascade): [`RESIDUAL_AND_CASCADE.md`](RESIDUAL_AND_CASCADE.md).
 
 ## Paper engagements
 

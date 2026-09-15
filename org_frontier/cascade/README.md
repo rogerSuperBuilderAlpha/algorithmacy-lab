@@ -12,7 +12,9 @@ Do **not** freeze a τ threshold across panel sizes. On-panel
 (`studies/margin_cascade_tau/`). Fragility gating is not the default.
 
 Warrant: `studies/margin_cascade_phi/` (WIN), `studies/margin_cascade_tau/`
-(calibration). Size series / F28 / FN-redesign are cited there, not reopened here.
+(calibration); foundations synthesis
+[`foundations/RESIDUAL_AND_CASCADE.md`](../../foundations/RESIDUAL_AND_CASCADE.md).
+Size series / F28 / FN-redesign are cited there, not reopened here.
 
 ## Run on an existing panel
 
