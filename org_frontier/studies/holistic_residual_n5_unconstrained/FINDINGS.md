@@ -39,8 +39,9 @@ residual at n=5 is more a failure to recover rarer triads than a dyadic false-po
 
 ## Best next experiment
 
-**F28 on n=4 unc misses** is in `org_frontier/studies/residual_phase_boundary_unc/` (phase boundary
-vs far-hit; not residual-specific). Next: **surrogate/feature redesign** for the triadic FN tail.
+F28 on n=4 unc residual misses is landed (`residual_phase_boundary_unc/`). The follow-on
+`fn_tail_feature_redesign/` returned an honest null on hand-feature expansion; next lever is
+margin-cascade / selective exact Φ (see that study's FINDINGS).
 
 ## Reproduce
 

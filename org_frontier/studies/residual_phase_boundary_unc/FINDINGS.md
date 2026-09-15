@@ -48,9 +48,9 @@ replication remains a follow-up.
 
 ## Best next experiment
 
-**Surrogate / feature redesign** aimed at the triadic false-negative tail (especially n=5's 24.7%
-miss-among-triadic), using the phase-boundary finding as a constraint: cheap features fail where
-the verdict is locally unstable. Catalog/template work is less urgent than closing that FN gap.
+**Done next:** `fn_tail_feature_redesign/` — F28-motivated fragility + algebraic features vs
+Probe-131 baseline; honest null (H1–H4 REFUTED). Follow-on there: margin-cascade / selective
+exact Φ on low-\|p−0.5\| forms rather than more hand features.
 
 ## Reproduce
 

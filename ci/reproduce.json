@@ -3417,6 +3417,27 @@
       "source": "org_frontier/studies/residual_phase_boundary_unc/FINDINGS.md"
     },
     {
+      "name": "fn-tail-feature-redesign",
+      "cmd": "python org_frontier/studies/fn_tail_feature_redesign/analyze_fn_redesign.py",
+      "expect": [
+        "n4 baseline miss/FN: 75/30  PASS",
+        "instrument control: PASS",
+        "baseline                     miss=7.5% (75/1000)  FN|tri=10.1% (30/297)  FP|dya=6.4%  AUC=0.981",
+        "redesign                     miss=7.1% (71/1000)  FN|tri=9.8% (29/297)  FP|dya=6.0%  AUC=0.979",
+        "H1 (FN|tri drop ≥5 pp):     REFUTED",
+        "H2 (miss drop ≥1 pp):       REFUTED",
+        "H3 (n=5 FN|tri drop ≥5 pp): REFUTED",
+        "H4 (transfer FN drop ≥5 pp):REFUTED",
+        "n4 baseline:  miss=7.5%  FN|tri=10.1%  AUC=0.981",
+        "n4 redesign:  miss=7.1%  FN|tri=9.8%  AUC=0.979",
+        "n5 baseline:  miss=9.0%  FN|tri=24.7%  AUC=0.963",
+        "n5 redesign:  miss=9.0%  FN|tri=25.9%  AUC=0.967",
+        "reading:                    PARTIAL (directionally helpful, below threshold)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/fn_tail_feature_redesign/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
