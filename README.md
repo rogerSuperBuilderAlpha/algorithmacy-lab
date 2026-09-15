@@ -281,6 +281,7 @@ Multi-experiment batteries on one theme.
 - **[Unconstrained n=5 holistic residual](org_frontier/studies/holistic_residual_n5_unconstrained/README.md)** — forms (seed 50), Probe-131 RF miss rate = **9.0% (45/500)**, inside the pre-registered hold band
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
+- **[Residual phase boundary on unc k=2 misses (F28)](org_frontier/studies/residual_phase_boundary_unc/README.md)** — One-bit truth-table flips flip the exact Φ verdict for **37.1%** of neighbours of the 75 n=4
 - **[Template coverage census — fifth template from the triad residual](org_frontier/studies/template_coverage_census/README.md)** — outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the
 
 ### Foundations — what tracks Φ

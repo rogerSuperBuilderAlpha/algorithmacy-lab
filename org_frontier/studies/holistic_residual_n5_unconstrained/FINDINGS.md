@@ -39,10 +39,8 @@ residual at n=5 is more a failure to recover rarer triads than a dyadic false-po
 
 ## Best next experiment
 
-The unconstrained k=2 residual size series through n=5 is in hand. Natural next: **F28-style
-one-bit perturbations on the n=4 or n=5 residual misses** (does the growing/held residual still sit
-on a phase boundary?), or a **surrogate / feature redesign** aimed at the triadic false-negative
-tail that dominates n=5 misses.
+**F28 on n=4 unc misses** is in `org_frontier/studies/residual_phase_boundary_unc/` (phase boundary
+vs far-hit; not residual-specific). Next: **surrogate/feature redesign** for the triadic FN tail.
 
 ## Reproduce
 

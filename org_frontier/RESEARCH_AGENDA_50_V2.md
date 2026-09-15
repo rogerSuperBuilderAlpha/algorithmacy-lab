@@ -83,9 +83,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     affine joint (XOR/XNOR) band — a different residue, now the catalog's fifth template (parity).
 28. Do the near-boundary holistic forms (#131) sit on a genuine phase boundary in function space — small
     perturbations flipping the verdict?
-    **Answered — yes vs confident forms; not residual-specific.** Near-boundary residual mean one-bit
-    flip rate = 0.482 (100% of seeds have ≥1 flip) vs far-hit 0.273 (+20.9 pp; H1, H2). Near-hit
-    controls flip at 0.521 (H3 refuted). See `org_frontier/studies/residual_phase_boundary/FINDINGS.md`.
+    **Answered — yes vs confident forms; not residual-specific (n=3 and n=4 unc).** n=3: mean flip
+    0.482 vs far-hit 0.273. **n=4 unc residual misses: mean flip 0.371 vs far-hit 0.152 (+21.8 pp);
+    near-hit 0.392 (H3 refuted).** See `residual_phase_boundary/` and `residual_phase_boundary_unc/`.
+    n=5 replication deferred (exact-Φ cost).
 
 ## G. Political economy and organization design
 
