@@ -60,9 +60,9 @@ acceptable and the threshold is re-checked on a same-size calibration set.
 
 ## Best next experiment
 
-Wire B=10% top-B% margin cascade into the next large unc sweep (or n≥5 panel build) as
-the reported dual residual (always-cheap + cascade@10%), with exact-call count logged in
-CI. Optional: same calibration on a new size or wiring family to confirm τ\* drifts.
+**Done next:** `org_frontier/cascade/` adopts B=10% top-B% as the lab-default tooling
+(`python -m org_frontier.cascade.run`). Follow-on: wire cascade@10% into the next large unc
+sweep as dual residual (always-cheap + cascade), with exact-call count logged.
 
 ## Reproduce
 

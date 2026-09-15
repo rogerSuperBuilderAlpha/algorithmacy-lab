@@ -19,7 +19,9 @@ which used IIT 3.0 without PyPhi) currently lacks.
 
 Combining cheap features beats any single one — detection of integrated systems
 becomes quite reliable (AUC 0.90). `phi_wms` carries most of the signal. See
-[`FINDINGS.md`](FINDINGS.md).
+[`FINDINGS.md`](FINDINGS.md). For **panel screening** with selective exact Φ (not
+magnitude regression), the lab default is the B=10% top-B% margin cascade in
+[`org_frontier/cascade/`](../../org_frontier/cascade/).
 
 ![surrogate](results/surrogate.png)
 

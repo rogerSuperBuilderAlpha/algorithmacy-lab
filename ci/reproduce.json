@@ -3487,6 +3487,23 @@
       "source": "org_frontier/studies/margin_cascade_tau/FINDINGS.md"
     },
     {
+      "name": "margin-cascade-tooling",
+      "cmd": "python -m org_frontier.cascade.run --panel org_frontier/studies/holistic_residual_n4_unconstrained/results/residual_panel_n4_unconstrained.csv --smoke",
+      "expect": [
+        "B:         0.1  (default 0.1)",
+        "rule:      top-B% by OOF |p−0.5| (recomputed per panel)",
+        "cascade B=10%  exact=100/1000  call=10.0%",
+        "cascade:      miss=3.2% (32/1000)  FN|tri=3.7% (11/297)  FP|dya=3.0%",
+        "always-cheap: miss=7.5%  FN|tri=10.1%",
+        "always-cheap miss/FN: 75/30  PASS",
+        "cascade@10% miss/FN:  32/11  PASS",
+        "exact calls:          100  PASS",
+        "smoke: PASS"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/cascade/README.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

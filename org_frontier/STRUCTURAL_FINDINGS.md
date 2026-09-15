@@ -47,7 +47,9 @@ is in [`essays/literacy_or_algorithmacy.md`](essays/literacy_or_algorithmacy.md)
    form's time series separates dyadic from triadic only near chance (rank-AUC ≤ 0.63). It confuses
    statistical dependence with integration — a dyadic form with a back-channel scores highest. The
    route past the exact-Φ size ceiling does not hold for this verdict; the exact computation is
-   needed, and is feasible because coordination units are small. (`proxy_bridge/`)
+   needed, and is feasible because coordination units are small. (`proxy_bridge/`) For *screening*
+   large panels the lab default is still selective exact Φ: a B=10% top-B% margin cascade
+   (`cascade/`) — cheap RF elsewhere, exact Φ on the uncertain tenth — not a proxy replacement.
 
 8. **Ownership is not constitutive; bidirectional participation is.** A corporate principal who
    authors the mediator joins the irreducible core (the major complex) **iff the coupling is

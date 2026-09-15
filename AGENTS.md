@@ -61,6 +61,16 @@ before trusting any result — the control probes assert that a known form repro
 python ci/reproduce.py            # re-derive every registered number; the instrument control is core
 ```
 
+For large cheap-feature panels, the lab-default **margin cascade** screens with a Probe-131 RF and
+calls exact Φ only on the top **B=10%** most uncertain forms (OOF `|p−0.5|`, recomputed per panel):
+
+```bash
+python -m org_frontier.cascade.run --panel path/to/panel.csv          # B=0.10 default
+python -m org_frontier.cascade.run --panel …/residual_panel_n4_unconstrained.csv --smoke
+```
+
+See [`org_frontier/cascade/README.md`](org_frontier/cascade/README.md). Do not freeze τ across sizes.
+
 [`GETTING_STARTED.md`](GETTING_STARTED.md) walks the full path from a clean checkout to an open PR.
 
 ## Verify before you land
