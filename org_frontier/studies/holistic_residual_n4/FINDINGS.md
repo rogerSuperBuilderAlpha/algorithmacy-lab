@@ -51,9 +51,9 @@ unary party reads contribute synergy 0. Panel build: ~67s for N=3000 exact Φ on
 
 ## Best next experiment
 
-**Base-rate-controlled n=4 residual** is answered in
-`org_frontier/studies/holistic_residual_n4_unconstrained/`: residual **grows to 7.5%** (H2) with both
-classes predicted. Remaining: unconstrained k=2 at n=5, or residual-set characterization.
+**n=5 unc residual** is answered in `org_frontier/studies/holistic_residual_n5_unconstrained/`:
+**9.0% (H0 holds)** near n=4's 7.5%. Series: 4.8% → 7.5% → 9.0%. Next: F28-style perturbations on
+n=4/n=5 residual misses, or a feature redesign for the triadic FN tail.
 
 ## Reproduce
 

@@ -3379,6 +3379,25 @@
       "source": "org_frontier/studies/holistic_residual_n4_unconstrained/FINDINGS.md"
     },
     {
+      "name": "holistic-residual-n5-unconstrained",
+      "cmd": "python org_frontier/studies/holistic_residual_n5_unconstrained/analyze_unconstrained_n5.py",
+      "expect": [
+        "triadic forms:              85/500 = 17.0%",
+        "RF misclassified (n=5 unc): 45/500 = 9.0%",
+        "n=3 baseline (Probe 131):   196/4096 = 4.8%",
+        "n=4 unc baseline:           75/1000 = 7.5%",
+        "predicted triadic / dyadic: 88 / 412",
+        "H3 (predicts both classes): SUPPORTED",
+        "false positives / negatives:24 / 21",
+        "raw band verdict:           H0 — residual HOLDS",
+        "n=5 unc residual rate:      9.0% (45/500)",
+        "band:                       H0 (HOLDS)",
+        "controlled verdict:         H0 (HOLDS) with both classes predicted"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/holistic_residual_n5_unconstrained/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

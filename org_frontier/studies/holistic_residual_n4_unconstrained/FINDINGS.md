@@ -47,10 +47,8 @@ Panel build: ~263s for N=1000 exact Φ on this host.
 
 ## Best next experiment
 
-Section F's rate question at n=4 is settled under base-rate control (grows). Natural next:
-**unconstrained k=2 residual at n=5** (does growth continue?), or characterize the n=4 residual set
-(near-boundary / F28-style perturbations on the 75 misses). Agenda G remains open for a different
-gap.
+**n=5** is in `org_frontier/studies/holistic_residual_n5_unconstrained/` (9.0%, H0 holds). Next:
+F28-style perturbations on the n=4/n=5 residual misses, or a surrogate/feature redesign.
 
 ## Reproduce
 
