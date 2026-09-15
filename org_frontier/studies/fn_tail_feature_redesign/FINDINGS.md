@@ -64,12 +64,9 @@ is thin.
 
 ## Best next experiment
 
-**Margin-cascade / selective exact Φ:** keep the Probe-131 cheap RF as a screen;
-run exact IIT-4.0 Φ only on forms with low \|p−0.5\| (or high `struct_fragility`).
-Pre-register the abstention band and the Φ budget; primary metric = FN-among-triads
-at fixed exact-Φ call count vs always-cheap and always-exact baselines. Hand-feature
-expansion is closed for this FN tail; the next lever is *when* to call exact Φ,
-not which cheap column to add.
+**Done next:** `margin_cascade_phi/` — WIN at B=10%/20% margin gate (FN|tri 10.1%→3.7%→0.7%);
+fragility adds no gating value (H4 REFUTED). Follow-on there: adopt B=10% as lab default for
+larger panels; optional τ-threshold calibration vs top-B%.
 
 ## Reproduce
 

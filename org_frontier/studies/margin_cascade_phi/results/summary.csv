@@ -1,0 +1,2 @@
+n4_cheap_fn_tri,n4_margin10_fn_tri,n4_margin10_miss,n4_margin20_fn_tri,n4_margin20_miss,n4_random10_fn_tri,n4_combined10_fn_tri,n4_fragility10_fn_tri,n5_cheap_fn_tri,n5_margin10_fn_tri,recovery_20,op_budget,h1,h2,h3,h4,h5,reading
+0.101010,0.037037,0.032000,0.006734,0.009000,0.092761,0.063973,0.101010,0.247059,0.105882,0.933333,0.10,SUPPORTED,SUPPORTED,SUPPORTED,REFUTED,SUPPORTED,WIN — cascade beats always-cheap at fixed budget

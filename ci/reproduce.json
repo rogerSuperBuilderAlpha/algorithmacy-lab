@@ -3438,6 +3438,31 @@
       "source": "org_frontier/studies/fn_tail_feature_redesign/FINDINGS.md"
     },
     {
+      "name": "margin-cascade-phi",
+      "cmd": "python org_frontier/studies/margin_cascade_phi/analyze_margin_cascade.py",
+      "expect": [
+        "n4 always-cheap miss/FN: 75/30  PASS",
+        "instrument control: PASS",
+        "always-cheap: miss=7.5% (75/1000)  FN|tri=10.1% (30/297)  FP|dya=6.4%",
+        "margin B=10% FN|tri:           3.7% (11/297)  miss=3.2%  exact=100",
+        "margin B=20% FN|tri:           0.7% (2/297)  miss=0.9%  exact=200",
+        "random B=10% FN|tri (mean):    9.3%",
+        "fragility B=10% FN|tri:        10.1% (30/297)",
+        "combined B=10% FN|tri:         6.4% (19/297)",
+        "H1 (B=10% FN drop ≥5 pp):      SUPPORTED",
+        "H2 (B=20% recover ≥60% gap):   SUPPORTED",
+        "H3 (margin beats random ≥3 pp):SUPPORTED",
+        "H4 (combined − margin ≥2 pp):  REFUTED",
+        "H5 (n5 B=10% FN drop ≥5 pp):   SUPPORTED",
+        "n4 margin@10: miss=3.2%  FN|tri=3.7%  exact=100/1000",
+        "n4 margin@20: miss=0.9%  FN|tri=0.7%  exact=200/1000",
+        "operating pt: B=10%  FN|tri=3.7%  miss=3.2%",
+        "reading:      WIN — cascade beats always-cheap at fixed budget"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/margin_cascade_phi/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
