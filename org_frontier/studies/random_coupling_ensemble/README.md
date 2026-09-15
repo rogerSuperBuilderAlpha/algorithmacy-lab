@@ -12,4 +12,5 @@ python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py
 
 ## Result in one line
 
-See `FINDINGS.md` after the census run.
+**DISCRETE_LANDMARKS.** All n=4 random-coupling Φ on {2,4,6,12}; triadic rate
+tracks ensemble; no continuous ring–pool fill.

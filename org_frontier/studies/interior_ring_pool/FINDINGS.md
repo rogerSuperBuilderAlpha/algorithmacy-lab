@@ -69,9 +69,9 @@ only. No organization measured.
 
 ## Best next experiment
 
-**Random coupling ensemble at fixed n** (agenda #18): Φ distribution and
-triadic rate across random topologies — does it match a standard network
-ensemble, or only hit the discrete steps seen here?
+**Done next:** `random_coupling_ensemble/` (agenda #18) — DISCRETE_LANDMARKS;
+random AND couplings hit #19 atoms only; triadic rate tracks generator.
+Follow-on: larger n=5 ensemble, or scale blur of discriminants (#42).
 
 ## Reproduce
 
