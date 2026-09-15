@@ -3644,6 +3644,25 @@
       "source": "org_frontier/studies/random_coupling_ensemble/FINDINGS.md"
     },
     {
+      "name": "random-coupling-ensemble-n5",
+      "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble_n5.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring5 coreΦ=4.000  pool5 coreΦ=20.000",
+        "n=5 samples: 92  on_landmark=0.957  off_count=4",
+        "off-landmark values: [(5.0, 3), (9.0, 1)]",
+        "triadic rates: ER0.4=0.450  fixed_k2=0.850  fixed_k3=1.000  WS0.3=0.950  BA=0.000",
+        "H1 (≥90% on L5 + poles):            SUPPORTED",
+        "H2 (new Φ values appear):           SUPPORTED",
+        "H3 (triadic ER < fixed_k2):         SUPPORTED",
+        "H4 (between-band in {6,8,12}):      REFUTED",
+        "verdict: PARTIAL_N5",
+        "reading: PARTIAL_N5 — ≥90% on landmarks but some new atoms; mostly discrete"
+      ],
+      "timeout": 720,
+      "source": "org_frontier/studies/random_coupling_ensemble/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

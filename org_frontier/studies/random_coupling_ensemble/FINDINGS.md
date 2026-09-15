@@ -7,10 +7,10 @@ fill** of the gap. Triadic rate **tracks the generator** (sparse ER low →
 fixed_k=2 high → fixed_k=3 = pool at 100%). WS shows higher clustering than ER
 as a structural descriptor; that does **not** invent a new Φ law.
 
-In-silico; binary exact IIT-4.0; primary n=4 N=32/ensemble; thin n=5 N=8.
-Hypotheses fixed in `hypotheses.md`. Extends `interior_ring_pool` (#19);
-cites q147 (different axis: random truth-tables). Ternary / residual-cascade
-noted only.
+In-silico; binary exact IIT-4.0; primary n=4 N=32/ensemble; n=5 follow-on
+N=92 (see below). Hypotheses fixed in `hypotheses.md` / `hypotheses_n5.md`.
+Extends `interior_ring_pool` (#19); cites q147 (different axis: random
+truth-tables). Ternary / residual-cascade noted only.
 
 ## Already known
 
@@ -72,21 +72,56 @@ triadicity.
 fixes AND and varies the *wiring*. Both are in-silico; they answer different
 questions.
 
+## n=5 follow-on (N=92)
+
+**Verdict: PARTIAL_N5.** Discrete landmarks **mostly** hold (≥90% on
+L5={2,3,4,6,8,12,20}), but **new atoms appear**: Φ=**5.0** (3×) and Φ=**9.0**
+(1×), all from `fixed_k=3`. H1 SUPPORTED; H2 SUPPORTED; H4 REFUTED (between-band
+not only {6,8,12}).
+
+| Φ | count | in L5? |
+|---:|---:|---|
+| 2.0 | 55 | yes |
+| 6.0 | 30 | yes |
+| 4.0 | 3 | yes |
+| **5.0** | **3** | **no** |
+| **9.0** | **1** | **no** (known at n=6 chord, not in fixed L5) |
+
+| ensemble | N | triadic | note |
+|---|---:|---:|---|
+| ER p=0.4 | 20 | 0.450 | 2 / 6 |
+| fixed_k=2 | 20 | 0.850 | 2 / 4 |
+| fixed_k=3 | 16 | 1.000 | 6 / **5** / **9** |
+| WS p=0.3 | 20 | 0.950 | 2 / 4 |
+| BA m=2 | 16 | 0.000 | all 6 |
+
+Triadic rate still tracks generator (ER < k2). Denser fixed_k=3 is where the
+new atoms show — the n=4 “only {2,4,6,12}” picture is **not** exact at n=5.
+
+### n=5 hypotheses
+
+| hypothesis | result |
+|---|---|
+| H1 ≥90% on L5 + poles | **SUPPORTED** (0.957) |
+| H2 new Φ values appear | **SUPPORTED** (5, 9) |
+| H3 triadic ER < fixed_k2 | **SUPPORTED** |
+| H4 between-band ⊆ {6,8,12} | **REFUTED** |
+
 ## Limits
 
-n=4 primary; n=5 thin. Conjunctive AND only. N=32/ensemble is a sketch, not
-an asymptotic ensemble theorem. No organization measured.
+n=4 primary N=32/ensemble; n=5 N=92 (~9 min). Conjunctive AND only. No
+organization measured.
 
 ## Best next experiment
 
-Structural queue on this branch is largely closed for #16–#20. Natural
-follow-ons: **agenda #18 at n=5 with larger N** (costly), or **#42 scale
-blur of HMC/CMC discriminants**, or return to **ternary IIT-4.0 tooling**
-when multivalued support exists.
+**Expand L5 / denser n=5 fixed_k** to map whether 5 and 9 are stable new atoms
+or rare — or **#42 scale blur** of HMC/CMC discriminants. Ternary IIT-4.0
+tooling remains blocked.
 
 ## Reproduce
 
 ```
 python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py
+python org_frontier/studies/random_coupling_ensemble/analyze_ensemble_n5.py
 ```
-(~3.5 min)
+(~3.5 min n=4; ~9 min n=5)

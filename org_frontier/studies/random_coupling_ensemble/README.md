@@ -7,10 +7,11 @@ discrete steps from `interior_ring_pool`?
 ## Run
 
 ```
-python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py
+python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py      # n=4
+python org_frontier/studies/random_coupling_ensemble/analyze_ensemble_n5.py   # n=5
 ```
 
 ## Result in one line
 
-**DISCRETE_LANDMARKS.** All n=4 random-coupling Φ on {2,4,6,12}; triadic rate
-tracks ensemble; no continuous ring–pool fill.
+**n=4: DISCRETE_LANDMARKS** (all Φ ∈ {2,4,6,12}). **n=5: PARTIAL_N5** (≥90% on
+L5, but new atoms 5 and 9 from fixed_k=3).
