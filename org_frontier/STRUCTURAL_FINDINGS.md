@@ -101,6 +101,13 @@ labeled corpus, a reusable classifier, and clean minimal test cases where a sing
 function, or party toggles Φ. For organization theory: a computable criterion for when a coordination
 form demands a new competency, with the structural conditions that produce it made precise.
 
+## Omit-atom follow-on
+
+The fixed_k omit / discrete-Φ thread (n=5/6) is synthesized in
+[`OMIT_ATOM_ARC.md`](OMIT_ATOM_ARC.md): discrete motif-ruled Φ; size morphs
+rule form (singleton→band; derangement rung→cycle-type split), not into a
+continuum (#42 SCALE_MORPHS).
+
 ## Reproduce
 
 ```bash
