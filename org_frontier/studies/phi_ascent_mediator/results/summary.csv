@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,n_maximizers,n_to_and,n_to_or,panel_b_all_to_pool
+REFUTED,SUPPORTED,SUPPORTED,PLATEAU_ELSE_POOL,"PLATEAU_ELSE_POOL — under fixed party reads, S' ascent stops on a multi-form Φ=2 plateau (hub not selected); when topology can open, greedy Φ-ascent reaches the catalog max (pool uniquely at n=4; pool/ring tie at n=3)",46,2,3,1

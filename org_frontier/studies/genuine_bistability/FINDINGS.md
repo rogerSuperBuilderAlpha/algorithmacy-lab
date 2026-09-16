@@ -74,9 +74,9 @@ organization measured.
 
 ## Best next experiment
 
-Prefer agenda **#12** (continuous-time / stoch-temporal synthesis) or
-**#14** (adaptive mediator toward higher Φ). Do not reopen estimation
-/ construct / omit / ladder.
+Done: #14 **PLATEAU_ELSE_POOL** (`phi_ascent_mediator/`). Prefer
+agenda **#12** (continuous-time). Stoch-temporal lane otherwise
+closable. Do not reopen estimation / construct / omit / ladder.
 
 ## Reproduce
 

@@ -314,6 +314,7 @@ Multi-experiment batteries on one theme.
 - **[Oscillatory Φ scaling (agenda #11)](org_frontier/studies/oscillatory_scaling/README.md)** — traveling wave, period=n) carries a **constant Φ=2.0** law over
 - **[Parity vs conjunctive under noise (agenda #8)](org_frontier/studies/parity_vs_conjunctive_noise/README.md)** — conjunctive hubs lose the triadic verdict at the **same** p*=0.5 under
 - **[Party vs mediator noise (agenda #7)](org_frontier/studies/party_vs_mediator_noise/README.md)** — mediator-column flip-noise collapse the triad at the **same** p*=0.5
+- **[Φ-ascent adaptive mediator (agenda #14)](org_frontier/studies/phi_ascent_mediator/README.md)** — Φ does **not** converge to the conjunctive hub. Under fixed party
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
 - **[Residual phase boundary on unc k=2 misses (F28)](org_frontier/studies/residual_phase_boundary_unc/README.md)** — One-bit truth-table flips flip the exact Φ verdict for **37.1%** of neighbours of the 75 n=4

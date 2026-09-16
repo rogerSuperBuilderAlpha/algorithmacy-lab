@@ -68,6 +68,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     cross-verdict bistability. See `studies/genuine_bistability/`.
 14. Does an adaptive mediator that learns toward higher Φ (not toward dropping a party, #79) converge to
     the conjunctive hub, the pool, or somewhere else?
+    **Answered — PLATEAU_ELSE_POOL.** Fixed-party S′ ascent hits a
+    46-form Φ=2 plateau (hub not selected); topology catalog ascent
+    reaches pool (unique at n=4; pool/ring tie at n=3). Opposite of
+    #79. See `studies/phi_ascent_mediator/`.
 
 ## D. Larger and structured topologies
 
