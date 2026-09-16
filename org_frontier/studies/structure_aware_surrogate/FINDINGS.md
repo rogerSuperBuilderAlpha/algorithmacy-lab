@@ -62,9 +62,9 @@ labels via `classify_rules`. Evidence about models, not organizations.
 
 ## Best next experiment
 
-Prefer agenda **#23** (sample complexity of the cheap screen) or
-**#21** (topology-invariant spectral feature without coupling). Do not
-reopen construct/omit/ladder. Skip residual/cascade churn.
+Done: [`sample_complexity_screen/`](../sample_complexity_screen/)
+FAST_WITHIN_FAMILY (#23). Prefer **#21** spectral or **#25** active
+learning. Skip construct/omit/ladder.
 
 ## Reproduce
 

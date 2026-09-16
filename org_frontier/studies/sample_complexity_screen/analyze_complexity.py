@@ -28,7 +28,6 @@ os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 
 from org_frontier.classifier.classifier import classify_rules, tpm_from_rules
 from org_frontier.corpus.population import enumerate_family
-from org_frontier.multiparty.scaling import sample_form
 from org_frontier.proxy_bridge.bridge import add_noise
 from foundations.proxy_audit import exact_phi
 from org_frontier.probes._info import (
@@ -38,6 +37,12 @@ from org_frontier.probes._info import (
     transfer_entropy,
 )
 from org_frontier.probes.lib import verdict as vlib
+from org_frontier.probes.probe_topology_map import chain, pool
+from org_frontier.probes.probe_distributed_mediators import single_hub, two_hub
+from org_frontier.probes.probe_conjunctive_law import or_hub
+from org_frontier.probes.probe_parity_scaling import parity_hub
+from org_frontier.probes.probe_threshold_scaling import threshold_hub
+from org_frontier.probes.probe_symmetric_multihub import sym_two_hub
 
 HERE = os.path.dirname(__file__)
 RESULTS = os.path.join(HERE, "results")
@@ -89,11 +94,74 @@ def labels_for(n):
     return tuple(["W", "S"] + [f"C{i}" for i in range(1, n - 1)])
 
 
+def broadcast(n):
+    rules = [None] * n
+    rules[0] = lambda x: x[1] if n > 1 else 0
+    for i in range(1, n):
+        rules[i] = (lambda x, i=i: x[0])
+    return rules
+
+
+def chain_feedforward(n):
+    rules = [None] * n
+    rules[0] = lambda x: x[0]
+    for i in range(1, n):
+        rules[i] = (lambda x, i=i: x[i - 1])
+    return rules
+
+
+def broken_hub(n):
+    rules = [None] * n
+    rules[0] = lambda x: int(all(x[i] for i in range(1, n)))
+    for i in range(1, n - 1):
+        rules[i] = (lambda x, i=i: x[0])
+    rules[n - 1] = lambda x: x[n - 1]
+    return rules
+
+
+def hub_family_forms(n):
+    """Same mediation class across sizes (for H2 size scaling)."""
+    return [
+        ("and_hub", single_hub(n)),
+        ("or_hub", or_hub(n)),
+        ("parity_hub", parity_hub(n)),
+        ("broadcast", broadcast(n)),
+        ("broken_hub", broken_hub(n)),
+        ("maj_hub", threshold_hub(n, (n - 1) // 2 + 1)),
+        ("or_thresh", threshold_hub(n, 1)),
+        ("and_thresh2", threshold_hub(n, min(2, n - 1))),
+    ]
+
+
+def cross_topo_forms(n):
+    """Multi-topology panel (#134 stress) — secondary."""
+    out = hub_family_forms(n) + [
+        ("chain_and", chain(n)),
+        ("chain_ff", chain_feedforward(n)),
+        ("pool_and", pool(n)),
+    ]
+    if n >= 4:
+        out.append(("two_hub", two_hub(n)))
+    if n >= 5:
+        out.append(("two_hub_sym", sym_two_hub(n)))
+    return out
+
+
+def label_forms(tag_rules, n):
+    forms = []
+    for name, rules in tag_rules:
+        v = classify_rules(rules, labels=labels_for(n))
+        forms.append((
+            f"{name}_n{n}", rules,
+            int(v.structure == "triadic"), float(v.max_phi),
+        ))
+    return forms
+
+
 def build_panels(rng):
-    """Balanced-ish panels with exact labels cached."""
+    """family_n3 + hub size series + cross-topo secondary."""
     panels = {}
 
-    # n=3: all triadic + equal dyadic sample from strict-mediation
     tri, dya = [], []
     for name, rules in enumerate_family():
         v = classify_rules(rules, labels=labels_for(3))
@@ -102,29 +170,12 @@ def build_panels(rng):
     n_take = min(24, len(tri), len(dya))
     pick_t = [tri[i] for i in rng.choice(len(tri), n_take, replace=False)]
     pick_d = [dya[i] for i in rng.choice(len(dya), n_take, replace=False)]
-    panels[3] = pick_t + pick_d
+    panels["family_n3"] = pick_t + pick_d
 
-    for n, want in ((4, 32), (5, 16)):
-        forms = []
-        # oversample then balance
-        pool = []
-        for k in range(want * 6):
-            rules = sample_form(n, rng)
-            v = classify_rules(rules, labels=labels_for(n))
-            pool.append((f"n{n}_{k}", rules, int(v.structure == "triadic"),
-                         float(v.max_phi)))
-        tri = [p for p in pool if p[2] == 1]
-        dya = [p for p in pool if p[2] == 0]
-        half = min(want // 2, len(tri), len(dya))
-        if half < 4:
-            # fall back: take whatever we have, pad with more draws
-            forms = pool[:want]
-        else:
-            forms = (
-                [tri[i] for i in rng.choice(len(tri), half, replace=False)]
-                + [dya[i] for i in rng.choice(len(dya), half, replace=False)]
-            )
-        panels[n] = forms
+    for n in (3, 4, 5):
+        panels[f"hub_n{n}"] = label_forms(hub_family_forms(n), n)
+    for n in (4, 5):
+        panels[f"cross_n{n}"] = label_forms(cross_topo_forms(n), n)
 
     return panels
 
@@ -134,9 +185,8 @@ def simulate_long(rules, n, noise, rng):
     return exact_phi.simulate_trajectory(tpm, n, T_MAX, rng)
 
 
-def curve_for_panel(forms, n, noise, rng):
+def curve_for_panel(forms, n, noise, rng, panel_id):
     """Return per-T rows: mi_auc, rf_auc, n_forms, n_tri."""
-    # one long traj per form
     trajs = []
     y = []
     for _, rules, tri, _ in forms:
@@ -157,7 +207,7 @@ def curve_for_panel(forms, n, noise, rng):
         mi_auc = _auc(mi_scores, y)
 
         rf_auc = float("nan")
-        if 0 < y.sum() < len(y) and len(y) >= 8:
+        if 0 < y.sum() < len(y) and len(y) >= 6:
             clf = RandomForestClassifier(
                 n_estimators=RF_N, random_state=SEED, n_jobs=1
             )
@@ -173,6 +223,7 @@ def curve_for_panel(forms, n, noise, rng):
                     rf_auc = float("nan")
 
         rows.append({
+            "panel": panel_id,
             "n": n,
             "noise": noise,
             "T": T,
@@ -184,12 +235,24 @@ def curve_for_panel(forms, n, noise, rng):
     return rows
 
 
-def t_star(curve_rows):
-    """Smallest T with mi_auc ≥ target; None if never."""
+def t_star(curve_rows, key="mi_auc"):
+    """Smallest T with score ≥ target; None if never."""
     for r in sorted(curve_rows, key=lambda z: z["T"]):
-        if not np.isnan(r["mi_auc"]) and r["mi_auc"] >= AUC_TARGET:
+        v = r[key]
+        if not np.isnan(v) and v >= AUC_TARGET:
             return int(r["T"])
     return None
+
+
+def print_curve(label, rows, ts_mi, ts_rf, dt):
+    print(f"  {label}  T*_MI={ts_mi if ts_mi is not None else 'NONE'}  "
+          f"T*_RF={ts_rf if ts_rf is not None else 'NONE'}  ({dt:.1f}s)")
+    print(f"    {'T':>6}  {'MI-AUC':>8}  {'RF-AUC':>8}")
+    for r in rows:
+        rf_s = f"{r['rf_auc']:.3f}" if not np.isnan(r["rf_auc"]) else "nan"
+        mi_s = f"{r['mi_auc']:.3f}" if not np.isnan(r["mi_auc"]) else "nan"
+        print(f"    {r['T']:>6}  {mi_s:>8}  {rf_s:>8}")
+    print()
 
 
 def main():
@@ -222,111 +285,109 @@ def main():
     print("BUILD PANELS (exact labels)")
     print("-" * 80)
     panels = build_panels(rng)
-    for n, forms in sorted(panels.items()):
+    for pid, forms in panels.items():
         n_tri = sum(f[2] for f in forms)
-        print(f"  n={n}: {len(forms)} forms ({n_tri} triadic / "
-              f"{len(forms) - n_tri} dyadic)")
+        print(f"  {pid}: {len(forms)} forms ({n_tri} tri / "
+              f"{len(forms) - n_tri} dya)")
     print()
 
     all_curves = []
-
-    print("CURVES — noise=0.08 (lab)")
-    print("-" * 80)
     stars = {}
-    for n in (3, 4, 5):
+
+    def run(panel_id, n, noise, label):
         t0 = time.time()
-        rows = curve_for_panel(panels[n], n, NOISE_LAB, rng)
-        all_curves.extend(rows)
-        ts = t_star(rows)
-        stars[(n, NOISE_LAB)] = ts
-        print(f"  n={n}  T*={ts if ts is not None else 'NONE'}  "
-              f"({time.time() - t0:.1f}s)")
-        print(f"    {'T':>6}  {'MI-AUC':>8}  {'RF-AUC':>8}")
+        rows = curve_for_panel(panels[panel_id], n, noise, rng, panel_id)
+        # tag noise in panel key for curves
         for r in rows:
-            rf_s = f"{r['rf_auc']:.3f}" if not np.isnan(r["rf_auc"]) else "nan"
-            print(f"    {r['T']:>6}  {r['mi_auc']:.3f}     {rf_s}")
-        print()
+            r["panel"] = f"{panel_id}_noise{noise}"
+        all_curves.extend(rows)
+        ts_mi = t_star(rows, "mi_auc")
+        ts_rf = t_star(rows, "rf_auc")
+        stars[(panel_id, noise)] = (ts_mi, ts_rf)
+        print_curve(label, rows, ts_mi, ts_rf, time.time() - t0)
+        return ts_mi, ts_rf
 
-    print("CURVES — noise=0.16 (n=3 stress)")
+    print("CURVES — family n=3 + hub size series (noise=0.08)")
     print("-" * 80)
-    t0 = time.time()
-    rows_hi = curve_for_panel(panels[3], 3, NOISE_HI, rng)
-    all_curves.extend(rows_hi)
-    ts_hi = t_star(rows_hi)
-    stars[(3, NOISE_HI)] = ts_hi
-    print(f"  n=3 noise=0.16  T*={ts_hi if ts_hi is not None else 'NONE'}  "
-          f"({time.time() - t0:.1f}s)")
-    print(f"    {'T':>6}  {'MI-AUC':>8}  {'RF-AUC':>8}")
-    for r in rows_hi:
-        rf_s = f"{r['rf_auc']:.3f}" if not np.isnan(r["rf_auc"]) else "nan"
-        print(f"    {r['T']:>6}  {r['mi_auc']:.3f}     {rf_s}")
-    print()
+    t3_mi, t3_rf = run("family_n3", 3, NOISE_LAB, "family_n3")
+    hub_mi = {}
+    hub_rf = {}
+    for n in (3, 4, 5):
+        mi, rf = run(f"hub_n{n}", n, NOISE_LAB, f"hub_n{n}")
+        hub_mi[n], hub_rf[n] = mi, rf
 
-    t3 = stars[(3, NOISE_LAB)]
-    t4 = stars[(4, NOISE_LAB)]
-    t5 = stars[(5, NOISE_LAB)]
-    t3_hi = stars[(3, NOISE_HI)]
+    print("CURVES — cross-topo secondary (noise=0.08)")
+    print("-" * 80)
+    for n in (4, 5):
+        run(f"cross_n{n}", n, NOISE_LAB, f"cross_n{n}")
 
-    h1 = ctrl and t3 is not None and t3 <= 1000
-    # H2: grows with n
-    if t3 is not None and t5 is not None:
-        h2 = ctrl and t5 >= 2 * t3
-    elif t3 is not None and t5 is None:
-        h2 = ctrl  # n=5 never reaches — counts as growth/harder
+    print("CURVES — noise=0.16 (family n=3 stress)")
+    print("-" * 80)
+    t3_hi_mi, t3_hi_rf = run("family_n3", 3, NOISE_HI, "family_n3 noise=0.16")
+
+    h1 = ctrl and t3_mi is not None and t3_mi <= 1000
+
+    hm3, hm5 = hub_mi[3], hub_mi[5]
+    if hm3 is not None and hm5 is not None:
+        h2 = ctrl and hm5 >= 2 * hm3
+    elif hm3 is not None and hm5 is None:
+        h2 = ctrl
     else:
         h2 = False
-    # also note n=4
-    h2_note = f"T*(3)={t3} T*(4)={t4} T*(5)={t5}"
+    h2_note = f"hub T*_MI n3={hm3} n4={hub_mi[4]} n5={hm5}"
 
-    if t3 is not None and t3_hi is not None:
-        h3 = ctrl and t3_hi >= 1.5 * t3
-    elif t3 is not None and t3_hi is None:
+    if t3_mi is not None and t3_hi_mi is not None:
+        h3 = ctrl and t3_hi_mi >= 1.5 * t3_mi
+    elif t3_mi is not None and t3_hi_mi is None:
         h3 = ctrl
     else:
         h3 = False
 
     if h1 and h2:
-        verdict_word = "TSTAR_GROWS_WITH_N"
+        verdict_word = "FAST_N3_HARDER_WITH_N"
         reading = (
-            f"TSTAR_GROWS_WITH_N — n=3 T*≤1000; size raises need ({h2_note}); "
-            f"noise=0.16 T*={t3_hi}"
+            f"FAST_N3_HARDER_WITH_N — family n=3 T*_MI={t3_mi}; "
+            f"within-hub size raises need ({h2_note}); "
+            f"noise0.16 T*={t3_hi_mi}"
         )
     elif h1 and not h2:
-        verdict_word = "TSTAR_FLAT_OR_EARLY"
+        verdict_word = "FAST_WITHIN_FAMILY"
         reading = (
-            f"TSTAR_FLAT_OR_EARLY — n=3 reliable by T≤1000; T* does not "
-            f"double by n=5 ({h2_note})"
-        )
-    elif not h1 and h2:
-        verdict_word = "SLOW_AND_GROWS"
-        reading = (
-            f"SLOW_AND_GROWS — n=3 needs T*>1000; larger n harder ({h2_note})"
+            f"FAST_WITHIN_FAMILY — family n=3 T*_MI={t3_mi}≤1000; "
+            f"within-hub T* does not double by n=5 ({h2_note}); "
+            f"noise0.16 T*={t3_hi_mi}"
         )
     else:
         verdict_word = "SAMPLE_COMPLEXITY_MIXED"
         reading = (
-            f"SAMPLE_COMPLEXITY_MIXED — H1/H2 fail pattern; "
-            f"{h2_note}; noise T*={t3_hi}"
+            f"SAMPLE_COMPLEXITY_MIXED — H1/H2 pattern; family T*={t3_mi}; "
+            f"{h2_note}; noise T*={t3_hi_mi}"
         )
-
-    # refine with H3 in reading
     if h3:
         reading += "; higher noise raises T*"
     else:
-        reading += "; higher noise does not clearly raise T*"
+        reading += "; higher noise does not raise T*"
+    # cross-topo note always
+    cross4 = stars.get(("cross_n4", NOISE_LAB), (None, None))[0]
+    cross5 = stars.get(("cross_n5", NOISE_LAB), (None, None))[0]
+    reading += (
+        f"; cross-topo MI T* n4={cross4} n5={cross5} "
+        f"(longer T does not fix #134)"
+    )
 
     print("HYPOTHESIS TESTS")
     print("-" * 80)
-    print(f"  T*(n=3, noise=0.08) = {t3}")
-    print(f"  T*(n=4, noise=0.08) = {t4}")
-    print(f"  T*(n=5, noise=0.08) = {t5}")
-    print(f"  T*(n=3, noise=0.16) = {t3_hi}")
-    print(f"  H1 (n=3 T*≤1000 at noise=0.08): "
+    print(f"  T*_MI family_n3 noise0.08 = {t3_mi}  (RF {t3_rf})")
+    print(f"  T*_MI hub n3/n4/n5         = {hm3}/{hub_mi[4]}/{hm5}  "
+          f"(RF {hub_rf[3]}/{hub_rf[4]}/{hub_rf[5]})")
+    print(f"  T*_MI family_n3 noise0.16  = {t3_hi_mi}  (RF {t3_hi_rf})")
+    print(f"  T*_MI cross n4/n5          = {cross4}/{cross5}")
+    print(f"  H1 (family n=3 T*≤1000):  "
           f"{'SUPPORTED' if h1 else 'REFUTED'}")
-    print(f"  H2 (T* grows with n):             "
+    print(f"  H2 (hub T* grows with n): "
           f"{'SUPPORTED' if h2 else 'REFUTED'}  ({h2_note})")
-    print(f"  H3 (noise raises T* ≥1.5×):       "
-          f"{'SUPPORTED' if h3 else 'REFUTED'}")
+    print(f"  H3 (noise raises T*≥1.5×):"
+          f" {'SUPPORTED' if h3 else 'REFUTED'}")
     print()
     print("=" * 80)
     print("SUMMARY")
@@ -334,25 +395,29 @@ def main():
     print(f"  H1={('SUPPORTED' if h1 else 'REFUTED')}  "
           f"H2={('SUPPORTED' if h2 else 'REFUTED')}  "
           f"H3={('SUPPORTED' if h3 else 'REFUTED')}")
-    print(f"  Tstar_n3={t3}  Tstar_n4={t4}  Tstar_n5={t5}  "
-          f"Tstar_n3_noise16={t3_hi}")
+    print(f"  Tstar_family_n3={t3_mi}  Tstar_hub_n3={hm3}  "
+          f"Tstar_hub_n5={hm5}  Tstar_noise16={t3_hi_mi}")
     print(f"  reading: {reading}")
     print(f"  elapsed_total={round(time.time() - t_all, 1)}s")
     print("=" * 80)
 
     os.makedirs(RESULTS, exist_ok=True)
     with open(os.path.join(RESULTS, "curves.csv"), "w", newline="") as fh:
-        fields = ["n", "noise", "T", "n_forms", "n_tri", "mi_auc", "rf_auc"]
+        fields = ["panel", "n", "noise", "T", "n_forms", "n_tri",
+                  "mi_auc", "rf_auc"]
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         for r in all_curves:
             w.writerow({
+                "panel": r["panel"],
                 "n": r["n"],
                 "noise": r["noise"],
                 "T": r["T"],
                 "n_forms": r["n_forms"],
                 "n_tri": r["n_tri"],
-                "mi_auc": f"{r['mi_auc']:.6f}" if not np.isnan(r["mi_auc"]) else "",
+                "mi_auc": (
+                    f"{r['mi_auc']:.6f}" if not np.isnan(r["mi_auc"]) else ""
+                ),
                 "rf_auc": (
                     f"{r['rf_auc']:.6f}" if not np.isnan(r["rf_auc"]) else ""
                 ),
@@ -363,26 +428,28 @@ def main():
             "h2": "SUPPORTED" if h2 else "REFUTED",
             "h3": "SUPPORTED" if h3 else "REFUTED",
             "verdict": verdict_word,
-            "Tstar_n3": "" if t3 is None else t3,
-            "Tstar_n4": "" if t4 is None else t4,
-            "Tstar_n5": "" if t5 is None else t5,
-            "Tstar_n3_noise16": "" if t3_hi is None else t3_hi,
+            "Tstar_family_n3": "" if t3_mi is None else t3_mi,
+            "Tstar_hub_n3": "" if hm3 is None else hm3,
+            "Tstar_hub_n5": "" if hm5 is None else hm5,
+            "Tstar_noise16": "" if t3_hi_mi is None else t3_hi_mi,
             "reading": reading,
         }
         w = csv.DictWriter(fh, fieldnames=list(summary.keys()))
         w.writeheader()
         w.writerow(summary)
 
-    # panel inventory
     with open(os.path.join(RESULTS, "panel.csv"), "w", newline="") as fh:
         w = csv.DictWriter(
-            fh, fieldnames=["n", "name", "triadic", "max_phi"]
+            fh, fieldnames=["panel", "n", "name", "triadic", "max_phi"]
         )
         w.writeheader()
-        for n, forms in sorted(panels.items()):
+        for pid, forms in panels.items():
+            n = 3 if "n3" in pid or pid == "family_n3" else (
+                4 if "n4" in pid else 5
+            )
             for name, _, tri, phi in forms:
                 w.writerow({
-                    "n": n, "name": name, "triadic": tri,
+                    "panel": pid, "n": n, "name": name, "triadic": tri,
                     "max_phi": f"{phi:.6f}",
                 })
 

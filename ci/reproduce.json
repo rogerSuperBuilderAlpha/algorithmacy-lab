@@ -3954,6 +3954,20 @@
       "source": "org_frontier/studies/structure_aware_surrogate/FINDINGS.md"
     },
     {
+      "name": "sample-complexity-screen",
+      "cmd": "python org_frontier/studies/sample_complexity_screen/analyze_complexity.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (family n=3 T*≤1000):  SUPPORTED",
+        "H2 (hub T* grows with n): REFUTED",
+        "H3 (noise raises T*≥1.5×): REFUTED",
+        "verdict: FAST_WITHIN_FAMILY",
+        "Tstar_family_n3=125"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/sample_complexity_screen/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

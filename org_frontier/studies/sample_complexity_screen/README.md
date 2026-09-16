@@ -10,4 +10,5 @@ python org_frontier/studies/sample_complexity_screen/analyze_complexity.py
 
 ## Result in one line
 
-*(filled after compute)*
+**FAST_WITHIN_FAMILY** — family n=3 T*_MI=125; noise does not raise T*;
+cross-topo MI never hits 0.90 at any T (#134).

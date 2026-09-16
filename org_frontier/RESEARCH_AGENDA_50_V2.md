@@ -67,6 +67,9 @@ runnable design yet. Themes group them; numbering is 1–50.
     See `studies/structure_aware_surrogate/` NO_STRUCTURE_GAIN.
 23. What trajectory length is needed to estimate the verdict at a fixed confidence — the sample
     complexity of the cheap screen (#122)?
+    **Answered — FAST_WITHIN_FAMILY.** Strict-mediation n=3: mean-MI AUC≥0.97
+    already at T=125; noise 0.16 same. Cross-topo MI stays ~0.2 at all T.
+    See `studies/sample_complexity_screen/`.
 24. How fast does estimability degrade under partial observation — a hidden node, or a party observed
     only intermittently?
 25. Which forms are most informative to label first when training a surrogate (active learning over the
