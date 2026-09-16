@@ -3910,6 +3910,22 @@
       "source": "org_frontier/studies/encoding_ladder_gates/FINDINGS.md"
     },
     {
+      "name": "ladder-gate-properties",
+      "cmd": "python org_frontier/studies/ladder_gate_properties/analyze_properties.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (A ↔ monotone∧extremal∧alldep):  SUPPORTED",
+        "H2 (B ↔ affine∧alldep):             SUPPORTED",
+        "H3 (residual → C):                  SUPPORTED",
+        "H4 (weaker props fail to predict A): SUPPORTED",
+        "verdict: MONO_EXTREMAL_VS_AFFINE",
+        "accuracy: 16/16",
+        "reading: MONO_EXTREMAL_VS_AFFINE — A iff monotone∧wt∈{1,15}∧alldep; B iff affine∧alldep; else C; weaker canal/weight rules fail (CE: AND_negC/OR_negC/AND_negAB/OR_negAB)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/ladder_gate_properties/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

@@ -52,9 +52,9 @@ No organization measured.
 
 ## Best next experiment
 
-Done: [`encoding_ladder_gates/`](../encoding_ladder_gates/) GATE_SPLITS_LADDER.
-Next: role-target grain on another indeg, or Boolean-property classifier
-for the three regimes. Skip residual / cascade / ternary.
+Done: [`ladder_gate_properties/`](../ladder_gate_properties/)
+MONO_EXTREMAL_VS_AFFINE. Next: role-target grain on another indeg, or
+larger random gate panel. Skip residual / cascade / ternary.
 
 ## Reproduce
 

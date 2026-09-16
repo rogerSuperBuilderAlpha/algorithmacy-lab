@@ -59,9 +59,10 @@ Designed n=5 ladders only; n=6 not repeated (cost). One MAJ threshold
 
 ## Best next experiment
 
-Role-target grain on another indeg, or classify which Boolean properties
-(monotonicity / linearity) predict the three regimes. Skip residual /
-cascade / ternary / omit-arc unless tooling lands.
+Done: [`ladder_gate_properties/`](../ladder_gate_properties/)
+MONO_EXTREMAL_VS_AFFINE. Next: role-target grain on another indeg, or
+random gate panel stress test. Skip residual / cascade / ternary /
+omit-arc.
 
 ## Reproduce
 

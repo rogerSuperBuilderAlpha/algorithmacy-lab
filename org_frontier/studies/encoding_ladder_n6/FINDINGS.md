@@ -54,10 +54,10 @@ Full-bind cells ~40 s each. No organization measured. n>6 not run
 
 ## Best next experiment
 
-Done: [`encoding_ladder_gates/`](../encoding_ladder_gates/) GATE_SPLITS_LADDER
-(AND/OR/NAND Φ=n−1; XOR/XNOR flip Φ≪n−1; MAJ/MIXED no flip). Next:
-role-target grain on another indeg. Skip residual / cascade / ternary /
-omit-arc.
+Done: [`ladder_gate_properties/`](../ladder_gate_properties/)
+MONO_EXTREMAL_VS_AFFINE (A↔monotone extremal; B↔affine; else C).
+Next: role-target grain on another indeg. Skip residual / cascade /
+ternary / omit-arc.
 
 ## Reproduce
 

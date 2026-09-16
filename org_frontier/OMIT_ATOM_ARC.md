@@ -47,10 +47,11 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    [`encoding_ladder_n6/`](studies/encoding_ladder_n6/) PHI_TRACKS_NM1
    (same boundary; flip Φ = n−1 for n∈{4,5,6});
    [`encoding_ladder_gates/`](studies/encoding_ladder_gates/) GATE_SPLITS_LADDER
-   (AND/OR/NAND only; XOR/XNOR Φ≪n−1; MAJ/MIXED no flip).
+   (AND/OR/NAND only; XOR/XNOR Φ≪n−1; MAJ/MIXED no flip);
+   [`ladder_gate_properties/`](studies/ladder_gate_properties/)
+   MONO_EXTREMAL_VS_AFFINE (A↔monotone∧wt∈{1,15}; B↔affine; else C).
 
 ## Best next
 
-Role-target grain on another indeg; or Boolean-property classifier for
-the three gate regimes. Skip residual / cascade / ternary unless tooling
-lands.
+Role-target grain on another indeg; or larger random gate panel. Skip
+residual / cascade / ternary unless tooling lands.

@@ -11,4 +11,5 @@ python org_frontier/studies/ladder_gate_properties/analyze_properties.py
 
 ## Result in one line
 
-*(filled after compute)*
+**MONO_EXTREMAL_VS_AFFINE.** A ↔ monotone∧wt∈{1,15}∧alldep; B ↔
+affine∧alldep; else C. 16/16.
