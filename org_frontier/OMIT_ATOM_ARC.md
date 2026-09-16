@@ -51,9 +51,11 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    [`ladder_gate_properties/`](studies/ladder_gate_properties/)
    MONO_EXTREMAL_VS_AFFINE (A↔monotone∧wt∈{1,15}; B↔affine; else C);
    [`ladder_gate_panel/`](studies/ladder_gate_panel/) RULE_HOLDS_PANEL
-   (448/448 stratified stress-test).
+   (448/448 stratified stress-test);
+   [`indeg_001113_grain/`](studies/indeg_001113_grain/) Z_TARGETS_LAW
+   (role-target grain generalizes; z_targets splits (2,) on (0,0,1,1,1,3)).
 
 ## Best next
 
-Role-target grain on another indeg. Skip residual / cascade / ternary
-unless tooling lands.
+Another indeg with multi-role targets, or construct arm. Skip residual /
+cascade / ternary unless tooling lands.

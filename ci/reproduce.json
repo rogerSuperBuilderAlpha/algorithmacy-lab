@@ -3847,6 +3847,22 @@
       "source": "org_frontier/studies/indeg_002122_grain/FINDINGS.md"
     },
     {
+      "name": "indeg-001113-grain",
+      "cmd": "python org_frontier/studies/indeg_001113_grain/analyze_grain.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (z_targets dissolves (2,) mix):     SUPPORTED",
+        "H2 ((3,) stays Φ=6):                   SUPPORTED",
+        "H3 ((2,2)/(4,) stay Φ=12):             SUPPORTED",
+        "H4 (all subtypes pure / MIX dissolved): SUPPORTED",
+        "H5 (grain generalizes via z_targets):  SUPPORTED",
+        "verdict: Z_TARGETS_LAW",
+        "reading: Z_TARGETS_LAW — on indeg (0,0,1,1,1,3): z_targets=(1,1)→Φ=6 (n_core=3); cycles=(3,)→Φ=6; else Φ=12 (n_core=4); t_targets constant; ROLE_TARGETS grain generalizes via zeros"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/indeg_001113_grain/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

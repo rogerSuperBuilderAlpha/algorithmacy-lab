@@ -226,12 +226,17 @@ def main():
     with open(os.path.join(RESULTS, "census.csv"), "w", newline="") as fh:
         fields = [
             "family", "name", "omit", "cycles", "recip", "t_targets",
-            "z_targets", "structure", "whole_phi", "core", "core_phi",
+            "z_targets", "structure", "whole_phi_mip", "core", "core_phi",
             "n_core",
         ]
         w = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
         for r in rows:
+            core = r.get("core", ())
+            if isinstance(core, tuple):
+                core_s = "|".join(core)
+            else:
+                core_s = str(core)
             w.writerow({
                 "family": r.get("family", ""),
                 "name": r.get("name", ""),
@@ -241,8 +246,8 @@ def main():
                 "t_targets": r.get("t_targets", ""),
                 "z_targets": r.get("z_targets", ""),
                 "structure": r.get("structure", ""),
-                "whole_phi": f"{r.get('whole_phi', float('nan')):.6f}",
-                "core": r.get("core", ""),
+                "whole_phi_mip": f"{r.get('whole_phi_mip', float('nan')):.6f}",
+                "core": core_s,
                 "core_phi": f"{r.get('core_phi', float('nan')):.6f}",
                 "n_core": r.get("n_core", ""),
             })

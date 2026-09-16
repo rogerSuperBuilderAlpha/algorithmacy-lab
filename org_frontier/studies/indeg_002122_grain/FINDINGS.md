@@ -42,9 +42,10 @@ Dense subtype samples, not full enum. Conjunctive AND. One indeg.
 
 ## Best next experiment
 
-Lift role-target grain to another indeg. n=5 ladder done:
-[`encoding_ladder_n5/`](../encoding_ladder_n5/) FULL_JOINT_FLIP.
-Skip residual/cascade/ternary.
+Done: [`indeg_001113_grain/`](../indeg_001113_grain/) Z_TARGETS_LAW
+(role-target grain generalizes; operative role morphs). Next: another
+indeg with multi-role targets, or construct arm. Skip residual /
+cascade / ternary.
 
 ## Reproduce
 

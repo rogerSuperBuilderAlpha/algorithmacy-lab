@@ -11,4 +11,5 @@ python org_frontier/studies/indeg_001113_grain/analyze_grain.py
 
 ## Result in one line
 
-*(filled after compute)*
+**Z_TARGETS_LAW.** z_targets=(1,1)→Φ=6; (3,)→Φ=6; else Φ=12. t_targets
+constant; ROLE_TARGETS grain generalizes via zeros.
