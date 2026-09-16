@@ -4080,6 +4080,20 @@
       "source": "org_frontier/studies/oscillatory_scaling/FINDINGS.md"
     },
     {
+      "name": "correlated-output-noise",
+      "cmd": "python org_frontier/studies/correlated_output_noise/analyze_correlated.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (interior verdict flip vs #61/node): REFUTED",
+        "H2 (same smooth decay / Φ≡indep_WC):  SUPPORTED",
+        "H3 (core shift, no verdict flip):     SUPPORTED",
+        "verdict: CORE_SHIFT_NO_FLIP",
+        "reading: CORE_SHIFT_NO_FLIP — projection shifts n_core without interior verdict flip; still no extra flip vs #61"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/correlated_output_noise/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

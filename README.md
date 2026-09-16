@@ -283,6 +283,7 @@ Multi-experiment batteries on one theme.
 - **[Contingency transitions — the operations that move an intermediary between cells](org_frontier/studies/contingency_transitions/README.md)** — The four cells of the taxonomy form a state machine, and six named operations are its edges. Each operation is
 - **[Coordination-logic atlas](org_frontier/studies/coordination_logic_atlas/README.md)** — Fifty coordination forms, classified by exact IIT-4.0 Φ. Thirty-six verdicts matched the
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
+- **[Correlated output noise (agenda #5)](org_frontier/studies/correlated_output_noise/README.md)** — (a shared-coin SBS TPM that is not conditionally independent) does
 - **[Derangement 3+3 Φ=14 law at n=6](org_frontier/studies/derangement_33_phi14/README.md)** — iff cycle type 3+3**. Dense sample: 6/40 of the 3+3 class all give full-core
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
 - **[Discriminant scale-blur (#42)](org_frontier/studies/discriminant_scale_blur/README.md)** — discriminant into within-class Φ mixing. Class purity holds at n=5 and n=6

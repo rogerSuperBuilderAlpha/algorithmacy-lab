@@ -46,9 +46,10 @@ flip_ring left to Q11 prior. No organization measured.
 
 ## Best next experiment
 
-Prefer agenda **#5** (correlated TPM noise — leftover stochastic) or
-**#13** (bistability). **#12** continuous-time is heavier. Do not
-reopen estimation / construct / omit / ladder.
+Done: #5 **CORE_SHIFT_NO_FLIP** (`correlated_output_noise/`). Prefer
+agenda **#13** (bistability) or **#12** (continuous-time /
+stoch-temporal synthesis). Do not reopen estimation / construct /
+omit / ladder.
 
 ## Reproduce
 

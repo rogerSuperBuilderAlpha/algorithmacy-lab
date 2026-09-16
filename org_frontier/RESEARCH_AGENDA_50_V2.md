@@ -19,6 +19,11 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 5. Does true correlated output noise — a state-by-state TPM the state-by-node form cannot express —
    change the verdict, where a static shared input did not (#61)?
+    **Answered — CORE_SHIFT_NO_FLIP.** Shared-coin (W′,C′) SBS is
+    non-CI (residual≤0.25) but exact Φ only sees the CI projection
+    (= indep dual-party flip): smooth decay, p*=0.5; one-point
+    n_core dip at p=0.40; no interior verdict flip vs #61.
+    See `studies/correlated_output_noise/`.
 6. Is there a Φ phase transition as a probabilistic commit's noise rises, or only the smooth decay the
    reliability sweeps showed (#27, #38)?
     **Answered — SMOOTH_DECAY.** Conjunctive and parity n=3 hubs: Φ
