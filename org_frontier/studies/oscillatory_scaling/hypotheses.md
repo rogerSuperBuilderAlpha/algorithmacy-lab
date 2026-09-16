@@ -41,7 +41,7 @@ Null: no such match (H1's claim).
 
 ## H3 — verdict differs more than magnitude law
 
-Across n=3..6, rot_ring and and_ring disagree on structure
+Across n=3..5, rot_ring and and_ring disagree on structure
 (triadic/dyadic) at some n, while Φ sequences could still be close —
 verdict divergence dominates.
 

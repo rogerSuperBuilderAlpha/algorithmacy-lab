@@ -1,0 +1,13 @@
+family,n,phi,structure,n_core,period,core
+rot_ring,3,2.00000000,triadic,3,3,"{x0,x1,x2}"
+rot_ring,4,2.00000000,triadic,4,4,"{x0,x1,x2,x3}"
+rot_ring,5,2.00000000,triadic,5,5,"{x0,x1,x2,x3,x4}"
+and_ring,3,6.00000000,triadic,3,1,"{x0,x1,x2}"
+and_ring,4,4.00000000,triadic,4,2,"{x0,x1,x2,x3}"
+and_ring,5,4.00000000,triadic,5,1,"{x0,x1,x2,x3,x4}"
+conjunctive_hub,3,2.00000000,triadic,3,2,"{x0,x1,x2}"
+conjunctive_hub,4,3.00000000,triadic,4,2,"{x0,x1,x2,x3}"
+conjunctive_hub,5,4.00000000,triadic,5,2,"{x0,x1,x2,x3,x4}"
+parity_hub,3,0.50000000,triadic,3,1,"{x0,x1,x2}"
+parity_hub,4,0.25000000,triadic,4,2,"{x0,x1,x2,x3}"
+parity_hub,5,0.12500000,triadic,5,1,"{x0,x1,x2,x3,x4}"

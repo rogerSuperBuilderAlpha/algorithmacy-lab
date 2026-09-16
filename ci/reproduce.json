@@ -4066,6 +4066,20 @@
       "source": "org_frontier/studies/commit_response_delay/FINDINGS.md"
     },
     {
+      "name": "oscillatory-scaling",
+      "cmd": "python org_frontier/studies/oscillatory_scaling/analyze_osc.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (different Φ law):     SUPPORTED",
+        "H2 (same zoo landmark):   REFUTED",
+        "H3 (verdict split dominates): REFUTED",
+        "verdict: DIFFERENT_LAW",
+        "reading: DIFFERENT_LAW — rot_ring Φ constant (=2) with period=n; separable from and_ring cap and hub/parity landmarks (fifth shape vs #132 zoo)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/oscillatory_scaling/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

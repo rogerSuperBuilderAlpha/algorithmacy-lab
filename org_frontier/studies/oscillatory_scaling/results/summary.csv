@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,rot_phis,and_phis,rot_law,and_law
+SUPPORTED,REFUTED,REFUTED,DIFFERENT_LAW,DIFFERENT_LAW — rot_ring Φ constant (=2) with period=n; separable from and_ring cap and hub/parity landmarks (fifth shape vs #132 zoo),2.000000;2.000000;2.000000,6.000000;4.000000;4.000000,constant,decay

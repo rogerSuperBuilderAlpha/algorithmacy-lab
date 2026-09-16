@@ -50,6 +50,9 @@ runnable design yet. Themes group them; numbering is 1–50.
     `studies/commit_response_delay/`.
 11. Do oscillatory forms (limit-cycle attractors) carry a different Φ scaling law than the fixed-point
     families in the zoo (#132)?
+    **Answered — DIFFERENT_LAW.** rot_ring Φ=2 constant (period=n) vs
+    and_ring cap / hub / parity landmarks. See
+    `studies/oscillatory_scaling/`.
 12. Computed in continuous time rather than by discrete update, is the verdict grain-and-schedule
     invariant after all (#112 found no discrete invariant)?
 13. Is there a coupling regime with genuine bistability — a triadic and a dyadic attractor coexisting —
