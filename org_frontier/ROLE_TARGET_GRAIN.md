@@ -49,6 +49,7 @@ Already-pure under cycle type alone: `(0,1,1,1,1,2)` —
 
 ## Best next
 
-CMC / AI-MC encoding ladders at n=5 (transfer vs morph of
-FULL_JOINT_FLIP / COMMIT_READ_BOUNDARY). Or another multi-role indeg.
-Skip residual / cascade / ternary unless tooling lands.
+CMC / AI-MC ladders done:
+[`construct_ladders_n5/`](studies/construct_ladders_n5/) BOUNDARY_TRANSFERS.
+Next: another multi-role indeg, or n=6 construct ladders. Skip residual /
+cascade / ternary unless tooling lands.

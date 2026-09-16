@@ -11,4 +11,5 @@ python org_frontier/studies/construct_ladders_n5/analyze_ladders.py
 
 ## Result in one line
 
-*(filled after compute)*
+**BOUNDARY_TRANSFERS.** CMC and AI-MC share HMC’s last-party commit
+flip (Φ=4) and COMMIT_READ.

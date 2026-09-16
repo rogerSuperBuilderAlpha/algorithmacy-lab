@@ -3879,6 +3879,23 @@
       "source": "org_frontier/studies/indeg_000123_grain/FINDINGS.md"
     },
     {
+      "name": "construct-ladders-n5",
+      "cmd": "python org_frontier/studies/construct_ladders_n5/analyze_ladders.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (CMC classical non-algo):              SUPPORTED",
+        "H2 (AI-MC ≥3-core boundary, whole dyadic): SUPPORTED",
+        "H3 (full joint flip Φ=n−1 both families):  SUPPORTED",
+        "H4 (COMMIT_READ transfers):               SUPPORTED",
+        "H5 (boundary step transfers):             SUPPORTED",
+        "verdict: BOUNDARY_TRANSFERS",
+        "boundary_step: pre_AND → full_AND (CMC and AI-MC)",
+        "reading: BOUNDARY_TRANSFERS — CMC and AI-MC ladders share HMC’s last-party commit flip (whole triadic Φ=4, n_core=5) and COMMIT_READ; classical convey/transform baselines stay non-algo / ≥3-core-dyadic respectively"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/construct_ladders_n5/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

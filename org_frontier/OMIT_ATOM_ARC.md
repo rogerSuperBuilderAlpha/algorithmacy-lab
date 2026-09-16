@@ -60,5 +60,8 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
 
 ## Best next
 
-CMC / AI-MC encoding ladders at n=5, or another multi-role indeg. Skip
-residual / cascade / ternary unless tooling lands.
+Construct ladders done:
+[`construct_ladders_n5/`](studies/construct_ladders_n5/) BOUNDARY_TRANSFERS.
+Role-target synthesis: [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md).
+Next: another multi-role indeg, or n=6 construct ladders. Skip residual /
+cascade / ternary unless tooling lands.
