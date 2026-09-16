@@ -1,4 +1,4 @@
-# Estimation lane (#21–#23) — working picture
+# Estimation lane (#21–#23, #25) — working picture
 
 A short synthesis of the cheap-screen / surrogate estimation arm on
 PR #739. Exact binary IIT-4.0 Φ; in-silico. Sibling arcs:
@@ -9,10 +9,11 @@ ladder/indeg reopen.
 
 ## Verdict in one line
 
-**The generalization bottleneck is topology, not sample length or
-GNN-style structure.** Within-family MI is fast; cross-family coupling
-inverts; structure-aware RF adds little under holdout; transfer-operator
-spectral gap is a partial cross-family lever, not a closed invariant.
+**The generalization bottleneck is topology, not sample length,
+GNN-style structure, or label order.** Within-family MI is fast;
+cross-family coupling inverts; structure-aware RF adds little under
+holdout; transfer-operator spectral gap is a partial cross-family
+lever; active acquisition does not beat random on this panel.
 
 ## Arc
 
