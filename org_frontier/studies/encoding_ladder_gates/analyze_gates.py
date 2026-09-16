@@ -251,13 +251,16 @@ def main():
     no_flip = [g for g, _, _ in GATES if not flip_ok[g]]
     assist_break = [g for g, _, _ in GATES if not assist_multiparty[g]]
 
+    def _slash(xs):
+        return "/".join(xs) if xs else "∅"
+
     if (not h1) and h2 and h3:
         verdict_word = "GATE_SPLITS_LADDER"
         reading = (
             "GATE_SPLITS_LADDER — AND/OR/NAND: flip Φ=n−1; "
-            f"parity {flip_low_phi}: flip Φ≪n−1; "
-            f"{no_flip}: no triadic flip; "
-            f"assist breaks on {assist_break}"
+            f"parity {_slash(flip_low_phi)}: flip Φ≪n−1; "
+            f"{_slash(no_flip)}: no triadic flip; "
+            f"assist breaks on {_slash(assist_break)}"
         )
     elif h1:
         verdict_word = "GATE_ROBUST"

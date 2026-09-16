@@ -52,9 +52,9 @@ No organization measured.
 
 ## Best next experiment
 
-Done: [`encoding_ladder_n6/`](../encoding_ladder_n6/) PHI_TRACKS_NM1
-(Φ=5=n−1; boundary unchanged). Next: role-target grain on another indeg.
-Skip residual / cascade / ternary.
+Done: [`encoding_ladder_gates/`](../encoding_ladder_gates/) GATE_SPLITS_LADDER.
+Next: role-target grain on another indeg, or Boolean-property classifier
+for the three regimes. Skip residual / cascade / ternary.
 
 ## Reproduce
 

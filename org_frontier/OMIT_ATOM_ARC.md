@@ -45,9 +45,12 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    [`hmc_algo_boundary/`](studies/hmc_algo_boundary/) COMMIT_READ_BOUNDARY;
    [`encoding_ladder_n5/`](studies/encoding_ladder_n5/) FULL_JOINT_FLIP;
    [`encoding_ladder_n6/`](studies/encoding_ladder_n6/) PHI_TRACKS_NM1
-   (same boundary; flip Φ = n−1 for n∈{4,5,6}).
+   (same boundary; flip Φ = n−1 for n∈{4,5,6});
+   [`encoding_ladder_gates/`](studies/encoding_ladder_gates/) GATE_SPLITS_LADDER
+   (AND/OR/NAND only; XOR/XNOR Φ≪n−1; MAJ/MIXED no flip).
 
 ## Best next
 
-Role-target grain on another indeg; or non-AND gate family on the
-ladder. Skip residual / cascade / ternary unless tooling lands.
+Role-target grain on another indeg; or Boolean-property classifier for
+the three gate regimes. Skip residual / cascade / ternary unless tooling
+lands.

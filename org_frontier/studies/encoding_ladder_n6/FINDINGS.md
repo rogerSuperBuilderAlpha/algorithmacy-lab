@@ -54,9 +54,10 @@ Full-bind cells ~40 s each. No organization measured. n>6 not run
 
 ## Best next experiment
 
-Role-target grain on another indeg, or check whether whole-Φ (=n−1) and
-core-Φ stay locked under a non-AND gate family. Skip residual / cascade /
-ternary / omit-arc unless tooling lands.
+Done: [`encoding_ladder_gates/`](../encoding_ladder_gates/) GATE_SPLITS_LADDER
+(AND/OR/NAND Φ=n−1; XOR/XNOR flip Φ≪n−1; MAJ/MIXED no flip). Next:
+role-target grain on another indeg. Skip residual / cascade / ternary /
+omit-arc.
 
 ## Reproduce
 

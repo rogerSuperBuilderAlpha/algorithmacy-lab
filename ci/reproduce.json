@@ -3896,6 +3896,20 @@
       "source": "org_frontier/studies/encoding_ladder_n6/FINDINGS.md"
     },
     {
+      "name": "encoding-ladder-gates",
+      "cmd": "python org_frontier/studies/encoding_ladder_gates/analyze_gates.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (flip + Φ=n−1 robust across gates): REFUTED",
+        "H2 (some gates stay dyadic at full bind): SUPPORTED",
+        "H3 (assist path changes with gate):       SUPPORTED",
+        "verdict: GATE_SPLITS_LADDER",
+        "reading: GATE_SPLITS_LADDER — AND/OR/NAND: flip Φ=n−1; parity XOR/XNOR: flip Φ≪n−1; MAJ/MIXED: no triadic flip; assist breaks on XOR/XNOR"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/encoding_ladder_gates/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

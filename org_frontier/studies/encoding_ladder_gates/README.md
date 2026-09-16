@@ -11,4 +11,5 @@ python org_frontier/studies/encoding_ladder_gates/analyze_gates.py
 
 ## Result in one line
 
-*(filled after compute)*
+**GATE_SPLITS_LADDER.** AND/OR/NAND: Φ=n−1; XOR/XNOR: flip Φ=0.125;
+MAJ/MIXED: no flip.

@@ -1,0 +1,43 @@
+name,gate,rung,structure,whole_phi,core,core_phi,n_core,basis,elapsed_s
+AND_assist_W2,AND,assist_W2,dyadic,0.000000,W1|S|W2,2.000000,3,"AND assist +W2; W3,C idle",0.4
+AND_assist_W2W3,AND,assist_W2W3,dyadic,0.000000,W1|S|W2|W3,3.000000,4,AND assist +W2+W3; C idle,0.7
+AND_workers_Cidle,AND,workers_Cidle,dyadic,0.000000,W1|S|W2|W3,3.000000,4,AND workers bind; C idle (pre-boundary),0.7
+AND_C_reads,AND,C_reads,dyadic,0.000000,W1|S|W2|W3,3.000000,4,AND workers bind; C reads only,0.3
+AND_full,AND,full,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,S=W1∧W2∧W3∧C; all read S — flip candidate,4.7
+AND_drop_C_ro,AND,drop_C_ro,dyadic,0.000000,W1|S|W2|W3,3.000000,4,"AND from full: C removed from S, still reads",0.3
+OR_assist_W2,OR,assist_W2,dyadic,0.000000,W1|S|W2,2.000000,3,"OR assist +W2; W3,C idle",0.4
+OR_assist_W2W3,OR,assist_W2W3,dyadic,0.000000,W1|S|W2|W3,3.000000,4,OR assist +W2+W3; C idle,0.7
+OR_workers_Cidle,OR,workers_Cidle,dyadic,0.000000,W1|S|W2|W3,3.000000,4,OR workers bind; C idle (pre-boundary),0.7
+OR_C_reads,OR,C_reads,dyadic,0.000000,W1|S|W2|W3,3.000000,4,OR workers bind; C reads only,0.4
+OR_full,OR,full,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,S=W1∨W2∨W3∨C; all read S — flip candidate,5.0
+OR_drop_C_ro,OR,drop_C_ro,dyadic,0.000000,W1|S|W2|W3,3.000000,4,"OR from full: C removed from S, still reads",0.4
+NAND_assist_W2,NAND,assist_W2,dyadic,0.000000,W1|S|W2,2.000000,3,"NAND assist +W2; W3,C idle",0.4
+NAND_assist_W2W3,NAND,assist_W2W3,dyadic,0.000000,W1|S|W2|W3,3.000000,4,NAND assist +W2+W3; C idle,0.7
+NAND_workers_Cidle,NAND,workers_Cidle,dyadic,0.000000,W1|S|W2|W3,3.000000,4,NAND workers bind; C idle (pre-boundary),0.7
+NAND_C_reads,NAND,C_reads,dyadic,0.000000,W1|S|W2|W3,3.000000,4,NAND workers bind; C reads only,0.3
+NAND_full,NAND,full,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,S=¬(W1∧W2∧W3∧C); all read S — flip candidate,4.7
+NAND_drop_C_ro,NAND,drop_C_ro,dyadic,0.000000,W1|S|W2|W3,3.000000,4,"NAND from full: C removed from S, still reads",0.3
+XOR_assist_W2,XOR,assist_W2,dyadic,0.000000,C,1.000000,1,"XOR assist +W2; W3,C idle",0.6
+XOR_assist_W2W3,XOR,assist_W2W3,dyadic,0.000000,C,1.000000,1,XOR assist +W2+W3; C idle,1.5
+XOR_workers_Cidle,XOR,workers_Cidle,dyadic,0.000000,C,1.000000,1,XOR workers bind; C idle (pre-boundary),1.5
+XOR_C_reads,XOR,C_reads,dyadic,0.000000,W1|S|W2|W3,0.250000,4,XOR workers bind; C reads only,0.8
+XOR_full,XOR,full,triadic,0.125000,W1|S|W2|W3|C,0.125000,5,S=W1⊕W2⊕W3⊕C; all read S — flip candidate,11.5
+XOR_drop_C_ro,XOR,drop_C_ro,dyadic,0.000000,W1|S|W2|W3,0.250000,4,"XOR from full: C removed from S, still reads",0.8
+XNOR_assist_W2,XNOR,assist_W2,dyadic,0.000000,C,1.000000,1,"XNOR assist +W2; W3,C idle",0.6
+XNOR_assist_W2W3,XNOR,assist_W2W3,dyadic,0.000000,C,1.000000,1,XNOR assist +W2+W3; C idle,1.5
+XNOR_workers_Cidle,XNOR,workers_Cidle,dyadic,0.000000,C,1.000000,1,XNOR workers bind; C idle (pre-boundary),1.5
+XNOR_C_reads,XNOR,C_reads,dyadic,0.000000,W1|S|W2|W3,0.250000,4,XNOR workers bind; C reads only,0.8
+XNOR_full,XNOR,full,triadic,0.125000,W1|S|W2|W3|C,0.125000,5,S=¬(W1⊕W2⊕W3⊕C); all read S — flip candidate,11.5
+XNOR_drop_C_ro,XNOR,drop_C_ro,dyadic,0.000000,W1|S|W2|W3,0.250000,4,"XNOR from full: C removed from S, still reads",0.8
+MAJ_assist_W2,MAJ,assist_W2,dyadic,0.000000,W1|S|W2,2.000000,3,"MAJ assist +W2; W3,C idle",0.4
+MAJ_assist_W2W3,MAJ,assist_W2W3,dyadic,0.000000,C,1.000000,1,MAJ assist +W2+W3; C idle,0.3
+MAJ_workers_Cidle,MAJ,workers_Cidle,dyadic,0.000000,C,1.000000,1,MAJ workers bind; C idle (pre-boundary),0.3
+MAJ_C_reads,MAJ,C_reads,dyadic,0.000000,,nan,0,MAJ workers bind; C reads only,0.2
+MAJ_full,MAJ,full,dyadic,0.000000,,nan,0,S=maj≥3/4; all read S — flip candidate,0.5
+MAJ_drop_C_ro,MAJ,drop_C_ro,dyadic,0.000000,,nan,0,"MAJ from full: C removed from S, still reads",0.2
+MIXED_assist_W2,MIXED,assist_W2,dyadic,0.000000,W1|S|W2,2.000000,3,"MIXED assist +W2; W3,C idle",0.4
+MIXED_assist_W2W3,MIXED,assist_W2W3,dyadic,0.000000,S|W3,2.000000,2,MIXED assist +W2+W3; C idle,0.3
+MIXED_workers_Cidle,MIXED,workers_Cidle,dyadic,0.000000,S|W3,2.000000,2,MIXED workers bind; C idle (pre-boundary),0.3
+MIXED_C_reads,MIXED,C_reads,dyadic,0.000000,S|W3,2.000000,2,MIXED workers bind; C reads only,0.2
+MIXED_full,MIXED,full,dyadic,0.000000,,nan,0,S=(W1∧W2)∨(W3∧C); all read S — flip candidate,0.5
+MIXED_drop_C_ro,MIXED,drop_C_ro,dyadic,0.000000,S|W3,2.000000,2,"MIXED from full: C removed from S, still reads",0.2
