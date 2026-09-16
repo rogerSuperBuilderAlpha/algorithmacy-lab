@@ -51,9 +51,13 @@ def gate_fn(gname, a, b, c, d):
     raise ValueError(gname)
 
 
+FAMILY_PREFIX = {"CMC": "cmc", "AI-MC": "aimc"}
+
+
 def full_forms(family, labels, mediator_idx=1):
     """Full-bind: mediator = gate(all outers); every node reads mediator."""
     out = []
+    prefix = FAMILY_PREFIX[family]
     # outers are all indices except mediator
     outers = [i for i in range(len(labels)) if i != mediator_idx]
     assert len(outers) == 4
@@ -76,7 +80,7 @@ def full_forms(family, labels, mediator_idx=1):
             "MAJ": f"{labels[mediator_idx]}=maj≥3/4; all read",
         }[gname]
         out.append((
-            f"{family.lower()}_{gname}_full", family, gname, "full",
+            f"{prefix}_{gname}_full", family, gname, "full",
             make_rules(), note,
         ))
     return out

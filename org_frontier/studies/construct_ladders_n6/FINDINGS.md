@@ -73,9 +73,9 @@ pointed only.
 
 ## Best next experiment
 
-Done: [`CONSTRUCT_LADDER_ARC.md`](../../CONSTRUCT_LADDER_ARC.md).
-Next: XOR/MAJ full-bind on CMC/AI-MC (gate-regime transfer). Skip
-residual / cascade / ternary / omit-arc.
+Done: [`CONSTRUCT_LADDER_ARC.md`](../../CONSTRUCT_LADDER_ARC.md) and
+[`construct_gates_n5/`](../construct_gates_n5/) GATE_REGIMES_TRANSFER.
+Skip residual / cascade / ternary / omit-arc.
 
 ## Reproduce
 

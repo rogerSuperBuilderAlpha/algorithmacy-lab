@@ -11,4 +11,5 @@ python org_frontier/studies/construct_gates_n5/analyze_gates.py
 
 ## Result in one line
 
-*(filled after compute)*
+**GATE_REGIMES_TRANSFER** — CMC/AI-MC: XOR→B (Φ=0.125), MAJ→C (no
+flip), AND→A; matches HMC GATE_SPLITS.

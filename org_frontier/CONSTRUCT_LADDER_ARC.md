@@ -24,6 +24,7 @@ Non-monotone gates are a separate regime** (gate studies).
 | 6 | [`ladder_gate_panel/`](studies/ladder_gate_panel/) | **RULE_HOLDS_PANEL** | 448/448 stratified; rule survives |
 | 7 | [`construct_ladders_n5/`](studies/construct_ladders_n5/) | **BOUNDARY_TRANSFERS** | CMC / AI-MC match HMC flip + COMMIT_READ at n=5 |
 | 8 | [`construct_ladders_n6/`](studies/construct_ladders_n6/) | **PHI_TRACKS_NM1_ALL** | all three families track Φ=n−1 at n=6; no morph |
+| 9 | [`construct_gates_n5/`](studies/construct_gates_n5/) | **GATE_REGIMES_TRANSFER** | CMC/AI-MC XOR→B, MAJ→C match HMC GATE_SPLITS |
 
 ## Working picture
 
@@ -42,12 +43,13 @@ Non-monotone gates are a separate regime** (gate studies).
    `pre_AND → full_AND` with HMC at n=5 and again at n=6
    (BOUNDARY_TRANSFERS + PHI_TRACKS_NM1_ALL).
 
-4. **Gate regime is orthogonal.** Φ=n−1 is not “any joint bind.” It is
-   the **monotone extremal** slice (Regime A). Affine full dependence
-   (XOR / XNOR) still flips but collapses Φ (Regime B). Majority /
-   mixed / mixed-polarity extremal stay dyadic (Regime C). That
-   classifier is HMC-anchored so far; CMC / AI-MC non-monotone transfer
-   is the open cell under this note.
+4. **Gate regime is orthogonal — and transfers.** Φ=n−1 is not “any
+   joint bind.” It is the **monotone extremal** slice (Regime A).
+   Affine full dependence (XOR / XNOR) still flips but collapses Φ
+   (Regime B). Majority / mixed / mixed-polarity extremal stay dyadic
+   (Regime C). CMC / AI-MC full-bind matches HMC on AND/XOR/MAJ
+   ([`construct_gates_n5/`](studies/construct_gates_n5/)
+   GATE_REGIMES_TRANSFER).
 
 5. **Scope.** Exact binary IIT-4.0; designed ladders; in-silico. No
    organization measured. Omit-atom and role-target arms are separate
@@ -55,6 +57,6 @@ Non-monotone gates are a separate regime** (gate studies).
 
 ## Best next
 
-Probe XOR (and MAJ) at full-bind for CMC / AI-MC at n=5 — does
-GATE_SPLITS Regime B/C transfer? Skip another multi-role indeg.
-Residual / cascade / ternary unless tooling lands.
+Optional: XNOR or mixed-polarity extremal on one CMC cell; or close
+the arc. Skip another multi-role indeg. Residual / cascade / ternary
+unless tooling lands.
