@@ -174,10 +174,14 @@ def analyze_family(rows):
     dyadic_only_end = structs[-1] == "dyadic" and ps[-1] == 0.5
     h2_family = monotone and no_big_step and triadic_until_end and dyadic_only_end
 
-    # H3 pieces
+    # H3 pieces — interior steps only (left p < 0.5)
     core_wo_phi = False
     phi_wo_core = False
     for i in range(len(ps) - 1):
+        if ps[i] >= 0.5 - 1e-12:
+            continue
+        if ps[i + 1] >= 0.5 - 1e-12:
+            continue  # exclude step into the degenerate endpoint
         dphi = abs(phis[i] - phis[i + 1])
         dcore = cores[i] != cores[i + 1]
         if dcore and dphi < CORE_FLAT_FRAC * phis[0]:

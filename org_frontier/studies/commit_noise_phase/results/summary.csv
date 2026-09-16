@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,conj_first_dyadic,parity_first_dyadic,conj_max_step_frac,parity_max_step_frac
+REFUTED,SUPPORTED,REFUTED,SMOOTH_DECAY,SMOOTH_DECAY — Φ monotone glide on conjunctive and parity hubs; verdict holds to p=0.5; no core/Φ decoupling,0.5,0.5,0.050313,0.024355

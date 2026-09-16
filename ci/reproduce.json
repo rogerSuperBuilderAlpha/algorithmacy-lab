@@ -3996,6 +3996,20 @@
       "source": "org_frontier/studies/active_label_acquisition/FINDINGS.md"
     },
     {
+      "name": "commit-noise-phase",
+      "cmd": "python org_frontier/studies/commit_noise_phase/analyze_phase.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (sharp phase / interior): REFUTED",
+        "H2 (only smooth decay):      SUPPORTED",
+        "H3 (core/Φ decoupling):      REFUTED",
+        "verdict: SMOOTH_DECAY",
+        "reading: SMOOTH_DECAY — Φ monotone glide on conjunctive and parity hubs; verdict holds to p=0.5; no core/Φ decoupling"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/commit_noise_phase/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

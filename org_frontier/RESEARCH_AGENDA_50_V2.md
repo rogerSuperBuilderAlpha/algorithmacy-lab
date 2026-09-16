@@ -21,6 +21,9 @@ runnable design yet. Themes group them; numbering is 1–50.
    change the verdict, where a static shared input did not (#61)?
 6. Is there a Φ phase transition as a probabilistic commit's noise rises, or only the smooth decay the
    reliability sweeps showed (#27, #38)?
+    **Answered — SMOOTH_DECAY.** Conjunctive and parity n=3 hubs: Φ
+    monotone glide; verdict flips only at p=0.5; no interior core/Φ
+    decoupling. See `studies/commit_noise_phase/`.
 7. Does intrinsic noise in the parties (not the mediator) collapse the triad at a different threshold
    than mediator noise?
 8. Under noise, does the parity hub (which decays as 2^(2−n), #115) lose its verdict faster than the

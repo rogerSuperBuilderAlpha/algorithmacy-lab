@@ -43,16 +43,16 @@ p < 0.5 and is dyadic only at p=0.5.
 Null: some family violates monotonicity, carries a ≥25% step, or flips
 verdict interiorly.
 
-## H3 — core / Φ decoupling
+## H3 — core / Φ decoupling (interior)
 
-On some family, an adjacent grid step shows either (a) n_core changes
-while |ΔΦ| < **0.05·Φ(0)** (core transition without Φ jump), or
-(b) |ΔΦ| ≥ **0.25·(Φ(0)−Φ(0.5))** while n_core is unchanged (Φ jump
-without core change). Endpoint p=0.5 allowed.
+On some family, an **interior** adjacent grid step (left endpoint p < 0.5)
+shows either (a) n_core changes while |ΔΦ| < **0.05·Φ(0)** (core
+transition without Φ jump), or (b) |ΔΦ| ≥ **0.25·(Φ(0)−Φ(0.5))** while
+n_core is unchanged (Φ jump without core change). The degenerate
+endpoint step into p=0.5 is excluded — that is the verdict collapse,
+not a mid-curve decoupling.
 
-Null: every core change co-moves with a material Φ change, and every
-large Φ step (if any) co-moves with a core change — or neither event
-occurs.
+Null: no interior core/Φ decoupling of either kind.
 
 **Primary verdict word.**
 - H1 → `PHASE_TRANSITION`

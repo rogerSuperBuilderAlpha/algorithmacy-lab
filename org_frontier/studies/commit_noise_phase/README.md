@@ -11,4 +11,5 @@ python org_frontier/studies/commit_noise_phase/analyze_phase.py
 
 ## Result in one line
 
-*(filled after compute)*
+**SMOOTH_DECAY** — Φ monotone on conjunctive and parity hubs; verdict
+holds to p=0.5; no interior phase or core/Φ decoupling.
