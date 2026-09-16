@@ -55,9 +55,9 @@ cost at n≥4). No organization measured.
 
 ## Best next experiment
 
-Prefer agenda **#11** (oscillatory Φ scaling). Alternate **#5**
-(correlated TPM). Do not reopen estimation / construct / omit /
-ladder.
+Done: #11 **DIFFERENT_LAW** (`oscillatory_scaling/`). Prefer agenda
+**#5** (correlated TPM) or **#13** (bistability). Do not reopen
+estimation / construct / omit / ladder.
 
 ## Reproduce
 
