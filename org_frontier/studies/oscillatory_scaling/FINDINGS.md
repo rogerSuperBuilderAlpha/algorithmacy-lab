@@ -46,10 +46,10 @@ flip_ring left to Q11 prior. No organization measured.
 
 ## Best next experiment
 
-Done: #5 **CORE_SHIFT_NO_FLIP** (`correlated_output_noise/`). Prefer
-agenda **#13** (bistability) or **#12** (continuous-time /
-stoch-temporal synthesis). Do not reopen estimation / construct /
-omit / ladder.
+Done: #5 **CORE_SHIFT_NO_FLIP**; #13 **GENUINE_COEXISTENCE**. Prefer
+agenda **#12** (continuous-time / stoch-temporal synthesis) or **#14**
+(adaptive mediator). Do not reopen estimation / construct / omit /
+ladder.
 
 ## Reproduce
 

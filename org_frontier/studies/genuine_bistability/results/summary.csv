@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,n_coexist,coexist_forms,multi_same_forms,hyst_gap
+SUPPORTED,REFUTED,REFUTED,GENUINE_COEXISTENCE,"GENUINE_COEXISTENCE — panel forms host coexisting triadic and dyadic attractors at fixed coupling; #109 sticky is MULTI_SAME (both dyadic) plus activity hysteresis, not cross-verdict bistability",6,memoryless|xor_memory|or_commit|sticky_or|sticky_parity|w_follows_c,sticky|maj3,0.066101

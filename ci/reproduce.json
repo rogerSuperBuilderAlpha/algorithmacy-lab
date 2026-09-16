@@ -4094,6 +4094,21 @@
       "source": "org_frontier/studies/correlated_output_noise/FINDINGS.md"
     },
     {
+      "name": "genuine-bistability",
+      "cmd": "python org_frontier/studies/genuine_bistability/analyze_bistability.py",
+      "expect": [
+        "memoryless whole: triadic Φ=2.000000  PASS",
+        "sticky whole:     dyadic Φ=0.000000  PASS",
+        "H1 (triadic+dyadic coexistence): SUPPORTED",
+        "H2 (only hysteresis, no coexistence): REFUTED",
+        "H3 (multistable same-verdict, no H1): REFUTED",
+        "verdict: GENUINE_COEXISTENCE",
+        "reading: GENUINE_COEXISTENCE — panel forms host coexisting triadic and dyadic attractors at fixed coupling; #109 sticky is MULTI_SAME (both dyadic) plus activity hysteresis, not cross-verdict bistability"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/genuine_bistability/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

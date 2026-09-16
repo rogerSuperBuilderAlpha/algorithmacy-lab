@@ -1,0 +1,10 @@
+form,role,tag,n_attractors,n_triadic,n_dyadic,whole_structure,whole_phi
+memoryless,clean_triad_baseline,COEXIST,3,1,2,triadic,2.00000000
+sticky,probe43_109_sticky,MULTI_SAME,2,0,2,dyadic,0.00000000
+xor_memory,probe43_parity_memory,COEXIST,2,1,1,triadic,2.00000000
+or_commit,disjunctive_cousin,COEXIST,3,1,2,triadic,2.00000000
+sticky_or,sticky_disjunctive,COEXIST,2,1,1,triadic,2.00000000
+sticky_parity,sticky_parity_hub,COEXIST,2,1,1,triadic,0.50000000
+parity_hub,single_attractor_contrast,SINGLE,1,1,0,triadic,0.50000000
+maj3,multi_same_contrast,MULTI_SAME,2,0,2,dyadic,0.00000000
+w_follows_c,asymmetric_feed,COEXIST,2,1,1,triadic,2.00000000

@@ -62,6 +62,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     invariant after all (#112 found no discrete invariant)?
 13. Is there a coupling regime with genuine bistability — a triadic and a dyadic attractor coexisting —
     beyond the hysteresis a sticky mediator showed (#109)?
+    **Answered — GENUINE_COEXISTENCE.** 6/9 n=3 couplings host
+    triadic+dyadic attractors at fixed TPM; #109 sticky is MULTI_SAME
+    (both dyadic) plus activity hysteresis (gap 0.066), not
+    cross-verdict bistability. See `studies/genuine_bistability/`.
 14. Does an adaptive mediator that learns toward higher Φ (not toward dropping a party, #79) converge to
     the conjunctive hub, the pool, or somewhere else?
 

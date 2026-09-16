@@ -77,10 +77,10 @@ measured.
 
 ## Best next experiment
 
-Prefer agenda **#13** (bistability — coupling regime with coexisting
-triadic and dyadic attractors) or **#12** (continuous-time /
-stoch-temporal synthesis). Do not reopen estimation / construct /
-omit / ladder.
+Done: #13 **GENUINE_COEXISTENCE** (`genuine_bistability/`). Prefer
+agenda **#12** (continuous-time / stoch-temporal synthesis) or **#14**
+(adaptive mediator). Do not reopen estimation / construct / omit /
+ladder.
 
 ## Reproduce
 
