@@ -45,10 +45,10 @@ state-by-state TPM — that is agenda #5). No organization measured.
 
 ## Best next experiment
 
-Within stochastic/temporal (#5–#14): prefer agenda **#7** (party vs
-mediator noise thresholds) — same noise model, different seat. Alternate
-**#5** (correlated TPM noise the state-by-node form cannot express).
-Do not reopen estimation / construct / omit / ladder.
+Done: #7 **SAME_THRESHOLD_DIFF_CURVE**
+(`party_vs_mediator_noise/`). Prefer agenda **#8** (parity vs
+conjunctive under noise). Alternate **#5** correlated TPM or **#9**
+timescale. Do not reopen estimation / construct / omit / ladder.
 
 ## Reproduce
 

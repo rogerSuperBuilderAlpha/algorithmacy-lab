@@ -26,6 +26,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     decoupling. See `studies/commit_noise_phase/`.
 7. Does intrinsic noise in the parties (not the mediator) collapse the triad at a different threshold
    than mediator noise?
+    **Answered — SAME_THRESHOLD_DIFF_CURVE.** p*=0.5 both seats on
+    conjunctive and parity hubs; Φ gaps 46%/64% of Φ(0); conjunctive
+    party noise drops n_core 3→2 interiorly. See
+    `studies/party_vs_mediator_noise/`.
 8. Under noise, does the parity hub (which decays as 2^(2−n), #115) lose its verdict faster than the
    conjunctive hub at the same size?
 

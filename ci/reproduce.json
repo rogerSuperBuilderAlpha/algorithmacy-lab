@@ -4010,6 +4010,20 @@
       "source": "org_frontier/studies/commit_noise_phase/FINDINGS.md"
     },
     {
+      "name": "party-vs-mediator-noise",
+      "cmd": "python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (thresholds differ ≥0.02): REFUTED",
+        "H2 (same threshold both families): SUPPORTED",
+        "H3 (Φ/n_core differ at same p*): SUPPORTED",
+        "verdict: SAME_THRESHOLD_DIFF_CURVE",
+        "reading: SAME_THRESHOLD_DIFF_CURVE — collapse p* matches (both 0.5); seat shapes Φ (and/or n_core) differently"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/party_vs_mediator_noise/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

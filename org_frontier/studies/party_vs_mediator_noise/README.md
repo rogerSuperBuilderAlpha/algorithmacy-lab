@@ -11,4 +11,5 @@ python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py
 
 ## Result in one line
 
-*(filled after compute)*
+**SAME_THRESHOLD_DIFF_CURVE** — p*=0.5 for party and mediator; seat
+shapes Φ (and conjunctive n_core).

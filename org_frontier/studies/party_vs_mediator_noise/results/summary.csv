@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,conj_p_med,conj_p_party,conj_max_phi_gap_frac,parity_p_med,parity_p_party,parity_max_phi_gap_frac,conj_P1P2_max_dphi,parity_P1P2_max_dphi
+REFUTED,SUPPORTED,SUPPORTED,SAME_THRESHOLD_DIFF_CURVE,SAME_THRESHOLD_DIFF_CURVE — collapse p* matches (both 0.5); seat shapes Φ (and/or n_core) differently,0.5,0.5,0.461865,0.5,0.5,0.640817,0.00000000,0.00000000
