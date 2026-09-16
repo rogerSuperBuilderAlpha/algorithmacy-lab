@@ -40,6 +40,9 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 9. Does separation of timescales — fast parties, slow mediator — factor the coordination the way
    sequential update did (#62)?
+    **Answered — FACTORS_LIKE_62.** hold-for-k flips dyadic at k*=2
+    (core→{S}); #62 sequential 6/6 dyadic; prob 1/k stays triadic.
+    See `studies/timescale_separation/`.
 10. Does a fixed delay between the commit and the parties' response move the verdict, or only its
     magnitude?
 11. Do oscillatory forms (limit-cycle attractors) carry a different Φ scaling law than the fixed-point

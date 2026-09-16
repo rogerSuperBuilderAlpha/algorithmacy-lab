@@ -45,9 +45,9 @@ state-by-state TPM — that is agenda #5). No organization measured.
 
 ## Best next experiment
 
-Done: #8 **SAME_P_STAR** (`parity_vs_conjunctive_noise/`). Prefer
-agenda **#9** (timescale separation). Alternate **#5** correlated TPM.
-Do not reopen estimation / construct / omit / ladder.
+Done: #9 **FACTORS_LIKE_62** (`timescale_separation/`). Prefer **#10**
+delay. Alternate **#5**. Do not reopen estimation / construct / omit /
+ladder.
 
 ## Reproduce
 

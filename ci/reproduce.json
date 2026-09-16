@@ -4038,6 +4038,20 @@
       "source": "org_frontier/studies/parity_vs_conjunctive_noise/FINDINGS.md"
     },
     {
+      "name": "timescale-separation",
+      "cmd": "python org_frontier/studies/timescale_separation/analyze_timescale.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (factors like #62): SUPPORTED",
+        "H2 (verdict robust to k): REFUTED",
+        "H3 (Φ soft, no verdict flip): REFUTED",
+        "verdict: FACTORS_LIKE_62",
+        "reading: FACTORS_LIKE_62 — hold-for-k factors at k*=2 (core→{S}); #62 sequential 6/6 dyadic; prob 1/k stays triadic (construction decides)"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/timescale_separation/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

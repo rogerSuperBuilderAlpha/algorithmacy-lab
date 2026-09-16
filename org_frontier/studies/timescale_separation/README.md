@@ -11,4 +11,5 @@ python org_frontier/studies/timescale_separation/analyze_timescale.py
 
 ## Result in one line
 
-*(filled after compute)*
+**FACTORS_LIKE_62** — hold-for-k flips at k*=2 (core→{S}); #62
+sequential 6/6 dyadic; prob 1/k stays triadic.

@@ -53,9 +53,9 @@ organization measured.
 
 ## Best next experiment
 
-Prefer agenda **#9** (timescale separation — first axis Round 11 found
-that moves the verdict interiorly). Alternate **#5** (correlated TPM
-noise). Do not reopen estimation / construct / omit / ladder.
+Done: #9 **FACTORS_LIKE_62** (`timescale_separation/`). Prefer agenda
+**#10** (commit→response delay). Alternate **#5** correlated TPM. Do
+not reopen estimation / construct / omit / ladder.
 
 ## Reproduce
 
