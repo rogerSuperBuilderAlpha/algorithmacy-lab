@@ -4245,6 +4245,22 @@
       "source": "org_frontier/studies/agent_tool_core/FINDINGS.md"
     },
     {
+      "name": "hitl-rubber-stamp",
+      "cmd": "python org_frontier/studies/hitl_rubber_stamp/analyze_hitl.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (joins on COMMIT_READ / override): SUPPORTED",
+        "H2 (rubber stamp excluded):           SUPPORTED",
+        "H3 (partial coupling is the boundary): SUPPORTED",
+        "verification grid:    PASS",
+        "best next:            #40 online-learning displacement (alt #41 MARL)",
+        "verdict: HUMAN_COMMIT_READ \u2014 HITL human joins the major complex iff in S\u2019s determination and reads S (COMMIT_READ), matching regulator #76; rubber stamps (post-hoc/idle/sticky/observe) stay out; static veto and read-without-commit are the partial boundary; override puts H in a dyadic {H,S}",
+        "reading: HUMAN_COMMIT_READ \u2014 a HITL approval that does not gate the commit is a rubber stamp outside the core; veto+responsive (or full joint) is the minimal edit that puts the human in; #37/#38 pointers only"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/hitl_rubber_stamp/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

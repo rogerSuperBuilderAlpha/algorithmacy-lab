@@ -171,6 +171,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     See `studies/agent_tool_core/`.
 39. Human-in-the-loop AI: with human, AI, and counterpart, under what coupling is the human in the core
     versus a rubber stamp?
+    **Answered — HUMAN_COMMIT_READ.** H in core iff in S’s determination and reads S;
+    rubber stamps out; partial veto/read boundary. See `studies/hitl_rubber_stamp/`.
 40. Does an AI that online-learns the counterpart's policy displace the counterpart over training, and
     does the displacement track model fidelity (#69)?
 41. In multi-agent RL, does the emergent coordination structure's verdict predict whether the agents can
