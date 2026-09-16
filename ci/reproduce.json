@@ -4261,6 +4261,23 @@
       "source": "org_frontier/studies/hitl_rubber_stamp/FINDINGS.md"
     },
     {
+      "name": "ai-fidelity-displace",
+      "cmd": "python org_frontier/studies/ai_fidelity_displace/analyze_fidelity.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (C declines: low in, full out):     SUPPORTED",
+        "H2 (sharp threshold, not \u03a6 glide):     SUPPORTED",
+        "H3 (full: M joins and displaces C):    SUPPORTED",
+        "#69 iso full \u2245 AI full:               YES",
+        "verification grid:    PASS",
+        "best next:            #41 MARL emergent structure vs learnability",
+        "verdict: SHARP_FULL_DISPLACE \u2014 AI policy-model fidelity tracks displacement as a sharp threshold at full clone (M'=S): low rungs keep C; only full puts M in and C out (#69); \u03a6 stays flat (~2), not a smooth glide; mid rungs can eject C without M joining (obs_C, partial_and)",
+        "reading: SHARP_FULL_DISPLACE \u2014 an online-learn proxy that reaches full counterpart-policy fidelity displaces C into the model node; partial fidelity does not gradually hand the core to M; candid: rungs \u2260 SGD training; #37\u2013#39 pointers only"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/ai_fidelity_displace/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

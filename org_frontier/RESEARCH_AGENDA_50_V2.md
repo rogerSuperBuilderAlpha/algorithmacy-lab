@@ -175,6 +175,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     rubber stamps out; partial veto/read boundary. See `studies/hitl_rubber_stamp/`.
 40. Does an AI that online-learns the counterpart's policy displace the counterpart over training, and
     does the displacement track model fidelity (#69)?
+    **Answered — SHARP_FULL_DISPLACE.** Low fidelity keeps C; only full `M'=S` puts M in and
+    C out; Φ flat (not smooth). See `studies/ai_fidelity_displace/`.
 41. In multi-agent RL, does the emergent coordination structure's verdict predict whether the agents can
     learn the task (a behavioral test the static ABM nulls #98, #107 leave open)?
 
