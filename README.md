@@ -271,6 +271,7 @@ Deep single-question dives, each driven by its own results.
 
 Multi-experiment batteries on one theme.
 
+- **[Active label acquisition (agenda #25)](org_frontier/studies/active_label_acquisition/README.md)**
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
 - **[Construct gate transfer at n=5 — CMC / AI-MC](org_frontier/studies/construct_gates_n5/README.md)** — full-bind regimes **transfer** from HMC anchors to CMC and AI-MC at
 - **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)** — AND_negE (Regime C) transfer on CMC and AI-MC full-bind at n=5
