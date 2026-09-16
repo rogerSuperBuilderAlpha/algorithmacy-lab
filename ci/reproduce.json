@@ -4294,6 +4294,22 @@
       "source": "org_frontier/studies/marl_emergent_learn/FINDINGS.md"
     },
     {
+      "name": "marl-deep-replicate",
+      "cmd": "python org_frontier/studies/marl_deep_replicate/analyze_deep.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (MLP restores predictive association):  REFUTED",
+        "H2 (EMERGENT_NULL survives):               SUPPORTED",
+        "H3 (partial \u2014 arch/curriculum disagree):   REFUTED",
+        "verification grid:    PASS",
+        "best next:            AI lane remains closable (deep gap filled)",
+        "verdict: NULL_SURVIVES \u2014 deeper NumPy MLP/linear FA MARL (obs=[S,own,partner]) keeps the #41 null: MLP AUC emerg\u2192success=0.500, emerg\u2192easy=0.500; P(emerg_tri|succ\u2227des_tri)=0.000; AND open-loop=8/8; linear predicts=False; association only",
+        "reading: NULL_SURVIVES \u2014 neural/FA policies with larger obs still fail to link emergent \u03a6-verdict to learnability; open-loop success persists; AI lane closable with deep gap filled"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/marl_deep_replicate/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

@@ -181,7 +181,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     learn the task (a behavioral test the static ABM nulls #98, #107 leave open)?
     **Answered — EMERGENT_NULL.** Emergent Φ/verdict after tabular Q-learn does not predict
     learnability; open-loop success on AND/OR; extends #98/#107. See
-    `studies/marl_emergent_learn/`. AI lane #37–#41 closable
+    `studies/marl_emergent_learn/`. Deep gap filled:
+    `studies/marl_deep_replicate/` → **NULL_SURVIVES**. AI lane closable
     (`AI_MULTIAGENT_ARC.md`).
 
 ## I. Construct validity and organization-theory bridges
