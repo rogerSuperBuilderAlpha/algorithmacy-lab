@@ -11,4 +11,5 @@ python org_frontier/studies/indeg_000123_grain/analyze_grain.py
 
 ## Result in one line
 
-*(filled after compute)*
+**JOINT_TZ_LAW.** (tt,zt)=((2,),(1,2,3))→Φ=6 else Φ=12; t alone
+insufficient; z-cut sufficient; no irreducible multi-role mix.

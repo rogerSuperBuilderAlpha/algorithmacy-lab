@@ -58,9 +58,9 @@ indeg. ~11 min.
 
 ## Best next experiment
 
-Another indeg with non-constant multi-role targets, or return to
-construct arm. Skip residual / cascade / ternary / encoding-ladder
-unless tooling lands.
+Done: [`indeg_000123_grain/`](../indeg_000123_grain/) JOINT_TZ_LAW.
+Next: construct arm, or another multi-role indeg. Skip residual /
+cascade / ternary / encoding.
 
 ## Reproduce
 

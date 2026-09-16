@@ -3863,6 +3863,22 @@
       "source": "org_frontier/studies/indeg_001113_grain/FINDINGS.md"
     },
     {
+      "name": "indeg-000123-grain",
+      "cmd": "python org_frontier/studies/indeg_000123_grain/analyze_grain.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (joint subtypes Φ-pure / law):   SUPPORTED",
+        "H2 (t_targets alone insufficient):  SUPPORTED",
+        "H3 (z_targets cut sufficient):      SUPPORTED",
+        "H4 (cycle alone insufficient):      SUPPORTED",
+        "H5 (multi-role grain, no irr. mix): SUPPORTED",
+        "verdict: JOINT_TZ_LAW",
+        "reading: JOINT_TZ_LAW — on indeg (0,0,0,1,2,3): both t and z vary; (tt,zt)=((2,),(1,2,3))→Φ=6 else Φ=12; t alone insufficient; z-cut sufficient; cycle alone mixes; no irreducible multi-role mix"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/indeg_000123_grain/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,JOINT_TZ_LAW,"JOINT_TZ_LAW — on indeg (0,0,0,1,2,3): both t and z vary; (tt,zt)=((2,),(1,2,3))→Φ=6 else Φ=12; t alone insufficient; z-cut sufficient; cycle alone mixes; no irreducible multi-role mix"

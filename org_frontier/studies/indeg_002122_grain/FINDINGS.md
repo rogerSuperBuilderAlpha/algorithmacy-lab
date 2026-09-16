@@ -42,10 +42,10 @@ Dense subtype samples, not full enum. Conjunctive AND. One indeg.
 
 ## Best next experiment
 
-Done: [`indeg_001113_grain/`](../indeg_001113_grain/) Z_TARGETS_LAW
-(role-target grain generalizes; operative role morphs). Next: another
-indeg with multi-role targets, or construct arm. Skip residual /
-cascade / ternary.
+Done: [`indeg_000123_grain/`](../indeg_000123_grain/) JOINT_TZ_LAW
+(both roles vary; joint grain purifies; z-cut sufficient). Next:
+construct arm, or another multi-role indeg. Skip residual / cascade /
+ternary.
 
 ## Reproduce
 
