@@ -4173,6 +4173,26 @@
       "source": "org_frontier/studies/mincut_mip/FINDINGS.md"
     },
     {
+      "name": "hub-floor-uniqueness",
+      "cmd": "python org_frontier/studies/hub_floor_uniqueness/verify_uniqueness.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "U0 floor universal: PASS",
+        "U1 AND not unique:  PASS",
+        "U2 dual orbit n=3..5: PASS",
+        "U3 class = orbit n=3,4: PASS",
+        "U0 floor universal (n=3):     CONFIRMED",
+        "U1 AND unique at floor:       REFUTED (not unique)",
+        "U4 uniqueness verdict:        NOT_UNIQUE",
+        "verification grid:            PASS",
+        "best next:                    #50 lattice of coordination kinds",
+        "verdict: NOT_UNIQUE \u2014 conjunctive hub is one of four De Morgan duals (AND/OR/NAND/NOR) at \u03a6=n\u22121 on the hub wiring; many more non-AND forms at n=3 mediation floor (Q45)",
+        "reading: NOT_UNIQUE \u2014 uniqueness at the 2(n\u22121) floor is a class property (dual orbit on hub; monotone vs parity in mediation), not an AND-only property (#30/#116/Q45)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/hub_floor_uniqueness/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

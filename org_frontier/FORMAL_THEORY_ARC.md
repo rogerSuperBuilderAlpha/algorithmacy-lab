@@ -7,8 +7,8 @@ construct / omit stay closed except as empirical pointers to the laws.
 ## #47 status
 
 [`studies/scaling_laws_closed_form/`](studies/scaling_laws_closed_form/)
-→ **PARTIAL_PROOFS** (cut formulas); MIP identity closed by #49 for
-pool/hub, parity residual on $I=1$ uniqueness for general $n$.
+→ cut formulas proved; MIP identity closed by #49 for pool/hub;
+parity residual on $I=1$ uniqueness for general $n$.
 
 | law | cut formula | MIP id |
 |---|---|---|
@@ -27,17 +27,25 @@ pool/hub, parity residual on $I=1$ uniqueness for general $n$.
 | T2 hub MIP = $H$/$H'$ | **PROVED** (all $n$) |
 | T3 parity MIP = $H$ | **PARTIAL** ($I\ge 2$ all-$n$; $I=1$ unique $n\le 5$) |
 
-Worker-as-unique-seam (#26/#33 graph reading) does not survive Q49.
-The #47 families obey a normalized GID cut-weight theorem instead.
+## #48 status
+
+[`studies/hub_floor_uniqueness/`](studies/hub_floor_uniqueness/)
+→ **NOT_UNIQUE**
+
+The conjunctive hub is not unique for Φ = n−1 at the 2(n−1) edge
+floor. Hub topology: exactly {AND, OR, NAND, NOR} (exhaustion n=3,4;
+orbit through n=5). Mediation family (Q45): 14 non-AND forms at Φ = 2
+on the n=3 floor. Cited #30, #116.
 
 ## Best next
 
-**#48** — conjunctive hub uniqueness at the $2(n-1)$ edge floor.
-Then **#50** — lattice of coordination kinds.
+**#50** — lattice of coordination kinds (verdict + Φ magnitude as a
+partial order; extremes).
 
 ## Reproduce
 
 ```
 python org_frontier/studies/scaling_laws_closed_form/verify_laws.py
 python org_frontier/studies/mincut_mip/verify_mip.py
+python org_frontier/studies/hub_floor_uniqueness/verify_uniqueness.py
 ```
