@@ -314,7 +314,7 @@ Multi-experiment batteries on one theme.
 - **[Shared-mediator ternary (beyond-binary)](org_frontier/studies/shared_mediator_ternary/README.md)** — {0,1}^5 cube. Exact **IIT-4.0** on this lab's PyPhi pin **cannot** ingest a
 - **[Small-world rewire vs hierarchy (agenda #17)](org_frontier/studies/small_world_vs_hierarchy/README.md)** — ring's size-independent Φ = 4 cap with hub growth (Φ = n−1). Interior morphs
 - **[Spanning mediator atop multi-hub (agenda #20)](org_frontier/studies/spanning_mediator_multihub/README.md)** — raise Φ beyond the pool ceiling. Under recurrent hub-span it **recreates the
-- **[Spectral topology-invariant feature (agenda #21)](org_frontier/studies/spectral_invariant/README.md)**
+- **[Spectral topology-invariant feature (agenda #21)](org_frontier/studies/spectral_invariant/README.md)** — (`P_spectral_gap`) is the best cross-family ranker on this panel
 - **[Structure-aware surrogate across topology (agenda #22)](org_frontier/studies/structure_aware_surrogate/README.md)** — panel with exact IIT-4.0 labels, leave-one-family-out detection AUC is
 - **[Template coverage census — fifth template from the triad residual](org_frontier/studies/template_coverage_census/README.md)** — outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the
 - **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both

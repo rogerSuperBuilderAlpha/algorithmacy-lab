@@ -60,6 +60,9 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 21. Is there any topology-invariant feature — spectral, not coupling-based — that ranks the verdict
     across families, given that pairwise coupling inverts across topology (#134)?
+    **Answered — SPECTRAL_PARTIAL.** Transfer-operator spectral gap AUC=0.893
+    vs inverted mean-MI 0.775 (lift +0.118 < 0.15 H1 bar).
+    See `studies/spectral_invariant/`.
 22. Does a structure-aware surrogate (a graph neural net on the connectivity-plus-function input)
     generalize across topology where coupling features fail (#129, #134)?
     **Answered — no material gain on a designed LOFO panel.** Structure-aware RF

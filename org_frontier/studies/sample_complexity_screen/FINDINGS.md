@@ -63,9 +63,9 @@ not traj-MI — this study targets the #122 coupling screen lineage.
 
 ## Best next experiment
 
-Prefer agenda **#21** (spectral topology-invariant feature) or **#25**
-(active learning for labels). Do not reopen construct/omit/ladder.
-Skip residual/cascade churn.
+Done: [`spectral_invariant/`](../spectral_invariant/) SPECTRAL_PARTIAL (#21).
+Prefer **#25** active learning or stop the estimation lane with a short
+note. Skip construct/omit/ladder.
 
 ## Reproduce
 
