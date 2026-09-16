@@ -10,37 +10,32 @@ construct / omit stay closed except as empirical pointers to the laws.
 → cut formulas proved; MIP identity closed by #49 for pool/hub;
 parity residual on $I=1$ uniqueness for general $n$.
 
-| law | cut formula | MIP id |
-|---|---|---|
-| conjunctive Φ = n−1 | proved | **proved** (#49 T2) |
-| pool Φ = n(n−1) | proved | **proved** (#49 T1) |
-| parity Φ = 2^(2−n) | proved | **partial** (#49 T3: $n\le 5$) |
-
 ## #49 status
 
 [`studies/mincut_mip/`](studies/mincut_mip/) → **NORMALIZED_CUT**
-
-| claim | status |
-|---|---|
-| T0 graph min-cut ≡ Φ-seam | **REFUTED** (Q49 H5) |
-| T1 pool MIP = $A$ | **PROVED** (all $n$) |
-| T2 hub MIP = $H$/$H'$ | **PROVED** (all $n$) |
-| T3 parity MIP = $H$ | **PARTIAL** ($I\ge 2$ all-$n$; $I=1$ unique $n\le 5$) |
+(graph min-cut REFUTED; pool/hub MIP proved; parity partial).
 
 ## #48 status
 
 [`studies/hub_floor_uniqueness/`](studies/hub_floor_uniqueness/)
-→ **NOT_UNIQUE**
+→ **NOT_UNIQUE** (De Morgan orbit {AND, OR, NAND, NOR} on hub wiring;
+Q45 mediation counterexamples).
 
-The conjunctive hub is not unique for Φ = n−1 at the 2(n−1) edge
-floor. Hub topology: exactly {AND, OR, NAND, NOR} (exhaustion n=3,4;
-orbit through n=5). Mediation family (Q45): 14 non-AND forms at Φ = 2
-on the n=3 floor. Cited #30, #116.
+## #50 status
 
-## Best next
+[`studies/coordination_lattice/`](studies/coordination_lattice/)
+→ **LATTICE**
 
-**#50** — lattice of coordination kinds (verdict + Φ magnitude as a
-partial order; extremes).
+Lex(verdict, Φ) quotients the zoo catalog to a **chain lattice** of
+kinds. ⊥ = `zeros` (dyadic Φ = 0); ⊤ = `pool` (tied `and_ring` at
+n=3). Verdict dominates magnitude. Product $(n_{\mathrm{core}},\Phi)$
+is not a catalog lattice.
+
+## Lane verdict
+
+**Formal lane closable.** #47–#50 done. Prefer empirical / survey
+packets next. Do not reopen estimation / construct / omit /
+stoch–temporal.
 
 ## Reproduce
 
@@ -48,4 +43,5 @@ partial order; extremes).
 python org_frontier/studies/scaling_laws_closed_form/verify_laws.py
 python org_frontier/studies/mincut_mip/verify_mip.py
 python org_frontier/studies/hub_floor_uniqueness/verify_uniqueness.py
+python org_frontier/studies/coordination_lattice/analyze_lattice.py
 ```

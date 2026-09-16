@@ -4193,6 +4193,23 @@
       "source": "org_frontier/studies/hub_floor_uniqueness/FINDINGS.md"
     },
     {
+      "name": "coordination-lattice",
+      "cmd": "python org_frontier/studies/coordination_lattice/analyze_lattice.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "L1 lex kinds = chain lattice:  CONFIRMED",
+        "L2 extremes \u22a5=zeros \u22a4\u2287pool:   CONFIRMED",
+        "L3 verdict dominates \u03a6:       CONFIRMED",
+        "verification grid:            PASS",
+        "formal lane:                  CLOSABLE (#47\u2013#50 done)",
+        "best next:                    formal lane closable; prefer empirical/survey packets",
+        "verdict: LATTICE \u2014 lex(verdict, \u03a6) quotients the zoo catalog to a chain lattice of kinds; \u22a5=zeros (dyadic \u03a6=0), \u22a4=pool (tied and_ring at n=3); product (n_core,\u03a6) is not a catalog lattice",
+        "reading: LATTICE \u2014 coordination kinds ordered first by dyadic/triadic then by \u03a6; a rich dyad ranks below a lean triad; pool is the catalog top; formal lane #47\u2013#50 closable"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/coordination_lattice/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
