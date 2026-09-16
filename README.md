@@ -308,6 +308,7 @@ Multi-experiment batteries on one theme.
 - **[Mediator hierarchy census (agenda #15)](org_frontier/studies/mediator_hierarchy_census/README.md)** — occupied level** (apex, mid if present, leaf); Φ is **flat in depth** (2.0 at
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
 - **[Omit-motif census: Φ=5 vs Φ=6 at n=5](org_frontier/studies/omit_motif_phi5/README.md)** — recip=0. Same-indeg siblings with other cycle structures all give **Φ=6**. Motif
+- **[Parity vs conjunctive under noise (agenda #8)](org_frontier/studies/parity_vs_conjunctive_noise/README.md)**
 - **[Party vs mediator noise (agenda #7)](org_frontier/studies/party_vs_mediator_noise/README.md)** — mediator-column flip-noise collapse the triad at the **same** p*=0.5
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
