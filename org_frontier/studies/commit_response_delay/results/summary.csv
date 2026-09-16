@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,conj_buf_phis,conj_lag_disagree,conj_sticky
+REFUTED,REFUTED,SUPPORTED,DELAY_CORE_SHIFT,DELAY_CORE_SHIFT — buffer stays triadic with shifting core; lagged read disagrees on verdict (construction decides); no #9 sticky-{S} factorization,2.000000;1.000000;2.000000;2.000000,True,False

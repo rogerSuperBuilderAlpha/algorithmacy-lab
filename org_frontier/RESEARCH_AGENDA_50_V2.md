@@ -45,6 +45,9 @@ runnable design yet. Themes group them; numbering is 1–50.
     See `studies/timescale_separation/`.
 10. Does a fixed delay between the commit and the parties' response move the verdict, or only its
     magnitude?
+    **Answered — DELAY_CORE_SHIFT.** Buffer stays triadic; core and Φ
+    move (2→1→2→2); lagged read flips at d=2. See
+    `studies/commit_response_delay/`.
 11. Do oscillatory forms (limit-cycle attractors) carry a different Φ scaling law than the fixed-point
     families in the zoo (#132)?
 12. Computed in continuous time rather than by discrete update, is the verdict grain-and-schedule

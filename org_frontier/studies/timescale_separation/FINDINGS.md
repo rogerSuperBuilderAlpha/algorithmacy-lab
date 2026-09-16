@@ -55,9 +55,9 @@ organization measured.
 
 ## Best next experiment
 
-Prefer agenda **#10** (fixed commit→response delay — Round 11 found
-delay keeps triadic where hold factors). Alternate **#5** (correlated
-TPM). Do not reopen estimation / construct / omit / ladder.
+Done: #10 **DELAY_CORE_SHIFT** (`commit_response_delay/`). Prefer
+agenda **#11** (oscillatory scaling). Alternate **#5** correlated TPM.
+Do not reopen estimation / construct / omit / ladder.
 
 ## Reproduce
 

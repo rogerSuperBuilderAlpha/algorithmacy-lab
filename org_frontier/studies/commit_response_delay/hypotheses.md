@@ -20,31 +20,33 @@ the parties' response move the verdict, or only its magnitude?
 d ∈ {0,1,2,3}. d=0 = synchronous baseline.
 
 **Forms (designed; candid N).**
-1. **conjunctive** — W'=S, S'=W∧C, C'=S (n=3 at d=0).
-2. **parity_hub** — S'=P1⊕P2, Pi'=S (n=3 at d=0).
+1. **conjunctive** — W'=S, S'=W∧C, C'=S (n=3 at d=0; Q10/#9
+   anchor). Buffer at d adds nodes (n=3+d ≤ 6).
+
+Parity under buffer is deferred (exact Φ + major complex at n≥4 is
+costly on this instrument); construction contrast is buffer vs lag on
+the conjunctive form.
 
 **Measures.** Φ_MIP, structure, major-complex membership (full labels).
 
 ## H1 — delay flips the verdict
 
 On the **buffer pipeline**, some d∈{1,2,3} reads dyadic on the
-conjunctive form (parity reported).
+conjunctive form.
 
 Null: buffer stays triadic at every d.
 
 ## H2 — only Φ magnitude
 
-On buffer, verdict stays triadic at every d for both forms, and the
-major-complex label set (as a set of node names) is unchanged from
-d=0 at every d (only Φ moves).
+On buffer, verdict stays triadic at every d, and the major-complex
+label set is unchanged from d=0 at every d (only Φ moves).
 
 Null: core membership changes, or a verdict flip occurs.
 
 ## H3 — core changes without verdict flip
 
-On buffer for some form: structure stays triadic at every d, but the
-major-complex membership (set of labels) differs from d=0 at some
-d∈{1,2,3}.
+On buffer: structure stays triadic at every d, but the major-complex
+membership (set of labels) differs from d=0 at some d∈{1,2,3}.
 
 Null: no such core shift, or a verdict flip co-occurs.
 

@@ -11,4 +11,5 @@ python org_frontier/studies/commit_response_delay/analyze_delay.py
 
 ## Result in one line
 
-*(filled after compute)*
+**DELAY_CORE_SHIFT** — buffer stays triadic with shifting core; lagged
+read disagrees at d=2; ≠ #9 sticky-{S} factorization.

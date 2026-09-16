@@ -4052,6 +4052,20 @@
       "source": "org_frontier/studies/timescale_separation/FINDINGS.md"
     },
     {
+      "name": "commit-response-delay",
+      "cmd": "python org_frontier/studies/commit_response_delay/analyze_delay.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (delay flips verdict):     REFUTED",
+        "H2 (magnitude only, fixed core): REFUTED",
+        "H3 (core shift, no verdict flip): SUPPORTED",
+        "verdict: DELAY_CORE_SHIFT",
+        "reading: DELAY_CORE_SHIFT — buffer stays triadic with shifting core; lagged read disagrees on verdict (construction decides); no #9 sticky-{S} factorization"
+      ],
+      "timeout": 360,
+      "source": "org_frontier/studies/commit_response_delay/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

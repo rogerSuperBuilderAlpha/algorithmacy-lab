@@ -1,0 +1,9 @@
+family,construction,d,phi,structure,n_core,major_complex,mc_phi
+conjunctive,buffer,0,2.00000000,triadic,3,"{W,S,C}",2.00000000
+conjunctive,buffer,1,1.00000000,triadic,3,"{S,C,B1}",2.00000000
+conjunctive,buffer,2,2.00000000,triadic,5,"{W,S,C,B1,B2}",2.00000000
+conjunctive,buffer,3,2.00000000,triadic,6,"{W,S,C,B1,B2,B3}",2.00000000
+conjunctive,lagged,0,2.00000000,triadic,3,"{W,S,C}",2.00000000
+conjunctive,lagged,1,2.00000000,triadic,3,"{W,S,C}",2.00000000
+conjunctive,lagged,2,0.00000000,dyadic,1,{S},1.00000000
+conjunctive,lagged,3,2.00000000,triadic,3,"{W,S,C}",2.00000000

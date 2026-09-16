@@ -13,7 +13,6 @@ import csv
 import os
 import sys
 import time
-from functools import reduce
 
 import numpy as np
 import pyphi
@@ -48,27 +47,12 @@ def conjunctive_rules():
     return [lambda x: x[1], lambda x: x[0] & x[2], lambda x: x[1]]
 
 
-def parity_hub_rules():
-    n = 3
-    rules = [None] * n
-    rules[0] = lambda x: reduce(lambda a, b: a ^ b, (x[i] for i in range(1, n)))
-    for i in range(1, n):
-        rules[i] = (lambda x, i=i: x[0])
-    return rules
-
-
 FORMS = {
     "conjunctive": {
         "rules": conjunctive_rules(),
         "core_labels": ("W", "S", "C"),
         "s_idx": 1,
         "clean_phi": 2.0,
-    },
-    "parity_hub": {
-        "rules": parity_hub_rules(),
-        "core_labels": ("S", "P1", "P2"),
-        "s_idx": 0,
-        "clean_phi": 0.5,
     },
 }
 
@@ -86,11 +70,6 @@ def buffer_pipeline_rules(rules, d, s_idx):
 
     party = [lift(rules[0]), lift(rules[1]), lift(rules[2])]
     # mediator keeps its own commit on the live party bits (indices 0..2)
-    party[s_idx] = lambda x, r=rules[s_idx], si=s_idx: r(
-        tuple(x[i] for i in range(3))
-    )
-    # For conjunctive, S rule uses (W,S,C)=(0,1,2). For parity, S rule uses
-    # parties 1,2 — same x[0:3] slice. Force mediator rule unlifted:
     party[s_idx] = lambda x, r=rules[s_idx]: r(tuple(x[i] for i in range(3)))
 
     buf = []
@@ -241,7 +220,7 @@ def main():
     print("=" * 80)
     print("  cited: #9 FACTORS_LIKE_62 (pointer); #62; Q10 prior")
     print("  primary: buffer pipeline; check: lagged read")
-    print("  forms: conjunctive; parity_hub")
+    print("  forms: conjunctive (candid N; buffer n=3+d)")
     print("  d grid: 0,1,2,3")
     print("  hypotheses fixed in hypotheses.md before computing")
     print("=" * 80)
@@ -416,7 +395,6 @@ def main():
             ),
             "conj_lag_disagree": buf_stats["conjunctive"]["lag_disagree"],
             "conj_sticky": buf_stats["conjunctive"]["sticky_S_core"],
-            "parity_core_shift": buf_stats["parity_hub"]["core_shift"],
         }
         w = csv.DictWriter(fh, fieldnames=list(summary.keys()))
         w.writeheader()
