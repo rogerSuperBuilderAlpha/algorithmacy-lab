@@ -11,4 +11,5 @@ python org_frontier/studies/parity_vs_conjunctive_noise/analyze_families.py
 
 ## Result in one line
 
-*(filled after compute)*
+**SAME_P_STAR** — p*=0.5 both families at n=3,4; conjunctive sheds more
+normalized Φ (parity not faster).

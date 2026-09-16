@@ -55,10 +55,9 @@ n=3; single-party locus (not joint WC); state-by-node flip-noise only
 
 ## Best next experiment
 
-Prefer agenda **#8** (parity vs conjunctive verdict loss under noise) —
-both families already on this panel. Alternate **#5** (correlated TPM)
-or **#9** (timescale separation). Do not reopen estimation / construct /
-omit / ladder.
+Done: #8 **SAME_P_STAR** (`parity_vs_conjunctive_noise/`). Prefer
+agenda **#9** (timescale separation). Alternate **#5** correlated TPM.
+Do not reopen estimation / construct / omit / ladder.
 
 ## Reproduce
 

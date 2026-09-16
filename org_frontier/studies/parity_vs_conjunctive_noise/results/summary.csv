@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,p_star_n3_conj,p_star_n3_par,p_star_n4_conj,p_star_n4_par,mean_hat_gap_n3,mean_hat_gap_n4
+REFUTED,SUPPORTED,REFUTED,SAME_P_STAR,"SAME_P_STAR — verdict p*=0.5 both families at n=3,4; conjunctive sheds more normalized Φ (parity not faster)",0.5,0.5,0.5,0.5,-0.133068,-0.238602

@@ -32,6 +32,9 @@ runnable design yet. Themes group them; numbering is 1–50.
     `studies/party_vs_mediator_noise/`.
 8. Under noise, does the parity hub (which decays as 2^(2−n), #115) lose its verdict faster than the
    conjunctive hub at the same size?
+    **Answered — SAME_P_STAR.** p*=0.5 both families at n=3,4;
+    conjunctive sheds more Φ̂ (49/49 interior). See
+    `studies/parity_vs_conjunctive_noise/`.
 
 ## C. Temporal and dynamical structure
 
