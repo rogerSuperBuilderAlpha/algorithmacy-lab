@@ -161,8 +161,14 @@ runnable design yet. Themes group them; numbering is 1–50.
 37. Two LLM-style agents negotiating through a protocol node: does the protocol's design set dyadic vs
     triadic the way the commit did (#50, #88), and can a "negotiation" protocol be triadic without a
     human?
+    **Answered — PROTOCOL_IS_COMMIT.** Conveyors stay out; joint AND/OR/NAND/XOR with both
+    agents reading P are protocol-triadic; no human required. See
+    `studies/agent_protocol_triad/`.
 38. Does a tool an agent calls join the core when the agent acts on its output, like the inference model
     (#4, #9)?
+    **Answered — TOOL_LIKE_INFERENCE.** Unused out; pure act out of major complex; blend joins
+    and displaces C (#4/#9 cut). Reciprocity neither necessary nor always sufficient.
+    See `studies/agent_tool_core/`.
 39. Human-in-the-loop AI: with human, AI, and counterpart, under what coupling is the human in the core
     versus a rubber stamp?
 40. Does an AI that online-learns the counterpart's policy displace the counterpart over training, and

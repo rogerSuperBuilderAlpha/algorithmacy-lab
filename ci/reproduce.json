@@ -4227,6 +4227,24 @@
       "source": "org_frontier/studies/agent_protocol_triad/FINDINGS.md"
     },
     {
+      "name": "agent-tool-core",
+      "cmd": "python org_frontier/studies/agent_tool_core/analyze_tools.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (joins iff acts + reciprocity): REFUTED",
+        "H2 (read-only tool never joins):   SUPPORTED",
+        "H3 (can join without reciprocity): SUPPORTED",
+        "#4 inference pattern (unused/pure/blend): MATCH",
+        "tool_blended \u2245 inference_blended:  YES",
+        "verification grid:    PASS",
+        "best next:            #39 HITL rubber-stamp (alt #40 online learning)",
+        "verdict: TOOL_LIKE_INFERENCE \u2014 tool joins like inference (#4/#9): unused/read-only stays out; pure A'=T leaves T out of the major complex; blended A'=S\u2227T puts T in and displaces C; reciprocity is neither necessary (blend) nor always sufficient (tool_call_blended)",
+        "reading: TOOL_LIKE_INFERENCE \u2014 a called tool is not in the core just because the agent reads it; the #4 blend/displacement cut reappears under relabeling; COMMIT_READ (tool in S) is a separate join path; H1's iff fails"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/agent_tool_core/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

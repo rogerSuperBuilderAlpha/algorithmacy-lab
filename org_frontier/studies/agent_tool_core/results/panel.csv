@@ -1,0 +1,12 @@
+name,role,note,labels,structure,whole_phi,core,n_core,phi,acts,recip,T_in_core,C_in_core,displaces_C
+tool_unused,unused,T'=S; A ignores T,ASCT,dyadic,0.0,A|S|C,3,2.0,False,False,False,True,False
+tool_exo_unused,unused,T self-loop; A ignores T,ASCT,dyadic,0.0,A|S|C,3,2.0,False,False,False,True,False
+tool_sink_from_A,unused,T'=A; A ignores T (write-only),ASCT,dyadic,0.0,S|C,2,2.0,False,True,False,True,False
+tool_used_pure,act,A'=T; T'=S (no reciprocity),ASCT,triadic,2.0,S|C,2,2.0,True,False,False,True,False
+tool_blended,act,A'=S∧T; T'=S (no reciprocity),ASCT,triadic,1.0,A|S|T,3,2.0,True,False,True,False,True
+tool_call_used,act_recip,A'=T; T'=A (reciprocal call),ASCT,dyadic,0.0,A|T,2,2.0,True,True,True,False,True
+tool_call_blended,act_recip,A'=S∧T; T'=A,ASCT,triadic,2.0,S|C,2,2.0,True,True,False,True,False
+tool_exo_used,exo_act,A'=T; T exogenous,ASCT,dyadic,0.0,S|C,2,2.0,True,False,False,True,False
+tool_exo_blended,exo_act,A'=S∧T; T exogenous,ASCT,dyadic,0.0,A|S|C,3,2.0,True,False,False,True,False
+tool_in_commit,commit,S'=A∧C∧T; all read S (COMMIT_READ),ASCT,triadic,3.0,A|S|C|T,4,3.0,False,False,True,True,False
+inference_blended_WSCM,iso,"#4 inference_blended (W,S,C,M)",WSCM,triadic,1.0,W|S|M,3,2.0,True,False,True,False,True
