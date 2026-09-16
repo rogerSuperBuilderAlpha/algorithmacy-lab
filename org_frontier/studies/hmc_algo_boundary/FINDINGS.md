@@ -49,8 +49,9 @@ full-bind step. No organization measured.
 
 ## Best next experiment
 
-n=5 encoding ladder, or finer MIX indeg grain (`indeg_002122_grain`).
-Skip residual/cascade/ternary.
+Done: [`encoding_ladder_n5/`](../encoding_ladder_n5/) FULL_JOINT_FLIP.
+Next: role-target grain on another indeg, or n=6 ladder. Skip residual /
+cascade / ternary.
 
 ## Reproduce
 

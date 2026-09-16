@@ -42,7 +42,8 @@ Dense subtype samples, not full enum. Conjunctive AND. One indeg.
 
 ## Best next experiment
 
-Lift role-target grain to another indeg, or n=5 HMC encoding ladder.
+Lift role-target grain to another indeg. n=5 ladder done:
+[`encoding_ladder_n5/`](../encoding_ladder_n5/) FULL_JOINT_FLIP.
 Skip residual/cascade/ternary.
 
 ## Reproduce

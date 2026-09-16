@@ -42,9 +42,11 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    indeg (0,0,1,1,2,2) mixed until **role-target grain**
    ([`indeg_002122_grain/`](studies/indeg_002122_grain/) ROLE_TARGETS_LAW:
    t_targets=(1,1)→Φ=12; (3,)+z_targets=(2,2)→Φ=8). Construct arm:
-   [`hmc_algo_boundary/`](studies/hmc_algo_boundary/) COMMIT_READ_BOUNDARY.
+   [`hmc_algo_boundary/`](studies/hmc_algo_boundary/) COMMIT_READ_BOUNDARY;
+   [`encoding_ladder_n5/`](studies/encoding_ladder_n5/) FULL_JOINT_FLIP
+   (assist 2→3→4 dyadic; last-party commit → triadic Φ=4).
 
 ## Best next
 
-Role-target grain on another indeg; n=5 encoding ladder. Skip residual /
-cascade / ternary unless tooling lands.
+Role-target grain on another indeg; n=6 encoding ladder (Φ vs n−1 at
+flip?). Skip residual / cascade / ternary unless tooling lands.
