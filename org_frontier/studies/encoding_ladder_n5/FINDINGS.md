@@ -52,9 +52,9 @@ No organization measured.
 
 ## Best next experiment
 
-Role-target grain on another indeg (`indeg_002122_grain` sibling), or
-n=6 encoding ladder (does Φ track n−1 at the flip?). Skip residual /
-cascade / ternary.
+Done: [`encoding_ladder_n6/`](../encoding_ladder_n6/) PHI_TRACKS_NM1
+(Φ=5=n−1; boundary unchanged). Next: role-target grain on another indeg.
+Skip residual / cascade / ternary.
 
 ## Reproduce
 

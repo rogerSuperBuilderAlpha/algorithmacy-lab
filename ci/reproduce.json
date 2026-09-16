@@ -3879,6 +3879,23 @@
       "source": "org_frontier/studies/encoding_ladder_n5/FINDINGS.md"
     },
     {
+      "name": "encoding-ladder-n6",
+      "cmd": "python org_frontier/studies/encoding_ladder_n6/analyze_ladder.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (flip + Φ=n−1 + same boundary):  SUPPORTED",
+        "H2 (Φ saturates below n−1):         REFUTED",
+        "H3 (assist/boundary morphs at n=6): REFUTED",
+        "COMMIT_READ_BOUNDARY:               HOLDS",
+        "verdict: PHI_TRACKS_NM1",
+        "boundary_step: workers_AND_Cidle → algo_full_AND",
+        "phi_vs_nm1: Φ=5 = n−1",
+        "reading: PHI_TRACKS_NM1 — n=6 ladder same form as n=5; boundary workers_AND_Cidle → algo_full_AND; flip whole triadic n_core=6 Φ=5 (=n−1); COMMIT_READ_BOUNDARY holds"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/encoding_ladder_n6/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

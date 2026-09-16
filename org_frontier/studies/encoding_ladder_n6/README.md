@@ -11,4 +11,4 @@ python org_frontier/studies/encoding_ladder_n6/analyze_ladder.py
 
 ## Result in one line
 
-*(filled after compute)*
+**PHI_TRACKS_NM1.** Same boundary as n=5; flip → n_core=6, Φ=5 (=n−1).
