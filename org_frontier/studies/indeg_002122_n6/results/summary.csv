@@ -1,0 +1,2 @@
+h1,h2,h3,h4,verdict,distinct_phi,reading
+REFUTED,REFUTED,SUPPORTED,SUPPORTED,MIX,6.0;12.0,"MIX — within-class Φ mixing under indeg (0, 0, 1, 1, 2, 2) (seen Φ=[6.0, 12.0])"

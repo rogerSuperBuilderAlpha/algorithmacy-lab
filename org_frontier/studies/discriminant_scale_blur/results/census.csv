@@ -1,0 +1,44 @@
+family,name,n,class_key,omit,core_phi,n_core,source
+reuse_n5,orbit_rep,5,"indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1",1|0|0|2|3,6.000000,3,omit_motif_phi5
+reuse_n5,orbit_rep,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",1|2|0|0|3,5.000000,4,omit_motif_phi5
+reuse_n5,orbit_rep,5,"indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0",1|2|3|0|0,6.000000,3,omit_motif_phi5
+reuse_n5,orbit_rep,5,"indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2",1|0|0|4|3,6.000000,3,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",1|2|0|0|3,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",3|2|4|4|0,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",1|3|4|0|1,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",2|4|3|0|0,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",4|2|3|1|3,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",1|4|3|4|2,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",2|0|1|1|3,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",1|4|1|0|2,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",3|0|4|1|1,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",3|4|0|2|2,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",1|3|4|2|3,5.000000,4,omit_motif_phi5
+reuse_n5,motif_M_sample,5,"indeg=(0, 1, 1, 1, 2)|cyc=(3,)|recip=0",3|4|1|1|2,5.000000,4,omit_motif_phi5
+reuse_n6,"cyc(2,)_r1_0_designed",6,"cyc=(2,)|recip=1",1|0|0|2|3|4,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2,)_r1_1_sample",6,"cyc=(2,)|recip=1",1|0|5|0|2|3,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2,)_r1_2_sample",6,"cyc=(2,)|recip=1",3|0|5|0|2|1,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2, 2)_r2_0_designed",6,"cyc=(2, 2)|recip=2",1|0|0|2|5|4,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2, 2)_r2_1_sample",6,"cyc=(2, 2)|recip=2",3|0|4|0|2|1,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2, 2)_r2_2_sample",6,"cyc=(2, 2)|recip=2",5|2|1|0|3|0,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2, 3)_r1_0_designed",6,"cyc=(2, 3)|recip=1",1|0|0|4|5|3,9.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2, 3)_r1_1_sample",6,"cyc=(2, 3)|recip=1",5|3|5|4|1|2,9.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(2, 3)_r1_2_sample",6,"cyc=(2, 3)|recip=1",4|3|3|5|0|2,9.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(3,)_r0_0_designed",6,"cyc=(3,)|recip=0",1|2|0|0|3|4,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(3,)_r0_1_sample",6,"cyc=(3,)|recip=0",1|3|5|0|2|0,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(3,)_r0_2_sample",6,"cyc=(3,)|recip=0",5|4|1|0|2|2,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(4,)_r0_0_designed",6,"cyc=(4,)|recip=0",1|2|3|0|0|4,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(4,)_r0_1_sample",6,"cyc=(4,)|recip=0",4|0|5|1|2|0,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(4,)_r0_2_sample",6,"cyc=(4,)|recip=0",2|2|4|0|5|1,8.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(5,)_r0_0_designed",6,"cyc=(5,)|recip=0",1|2|3|4|0|0,9.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(5,)_r0_1_sample",6,"cyc=(5,)|recip=0",5|4|1|1|0|2,9.000000,5,same_indeg_band_n6
+reuse_n6,"cyc(5,)_r0_2_sample",6,"cyc=(5,)|recip=0",2|0|4|0|5|1,9.000000,5,same_indeg_band_n6
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1_0_designed",5,"indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1",1|0|0|2|3,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1_1_sample",5,"indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1",2|0|4|4|3,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1_2_sample",5,"indeg=(0, 1, 1, 1, 2)|cyc=(2,)|recip=1",1|2|3|2|0,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2_0_designed",5,"indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2",1|0|0|4|3,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2_1_sample",5,"indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2",1|0|3|4|3,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2_2_sample",5,"indeg=(0, 1, 1, 1, 2)|cyc=(2, 2)|recip=2",3|4|4|0|1,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0_0_designed",5,"indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0",1|2|3|0|0,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0_1_sample",5,"indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0",4|2|3|0|2,6.000000,3,new
+n5_sib_uniform,"sib_indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0_2_sample",5,"indeg=(0, 1, 1, 1, 2)|cyc=(4,)|recip=0",1|2|3|4|1,6.000000,3,new

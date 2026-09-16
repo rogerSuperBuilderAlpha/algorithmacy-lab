@@ -1,8 +1,16 @@
 # irreducibility_catalog — findings
 
-51 entries classified by the bypass-counterfactual (q213): 38 real-world arrangements and 13
-literature-grounded triad types (q214). Totals: necessary 13, contingent 25, partial 7, reducible 6. Every
-entry classifies as cataloged. n=3 per form, exact Φ.
+54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
+literature-grounded triad types (q214), including three parity-template entries from the template-coverage
+census. Totals: necessary 16, contingent 25, partial 7, reducible 6. Every entry classifies as cataloged.
+n=3 per form, exact Φ.
+
+## Five structural templates
+
+The catalog now carries five templates: relay, conjunctive, additive, free, and **parity**. The fifth was
+forced by the census of the 24 triadic strict-mediation forms: eight XOR/XNOR commits matched none of the
+original four and classify necessary under the bypass-counterfactual at Φ=0.5 (margin −1.5). See
+`org_frontier/studies/template_coverage_census/FINDINGS.md`.
 
 ## The contingent class subdivides by what holds the bypass shut
 
@@ -33,7 +41,7 @@ contingent survives by its constraint, necessary survives by its work.
 | reading | count | margin | what it means |
 |---|---|---|---|
 | contingent | 25 | 2.0 (full Φ) | a conduit held in the core only by a constraint; dissolves when the bypass opens |
-| necessary | 13 | 0.0 | integrates a joint condition the direct tie cannot reproduce |
+| necessary | 16 | 0.0 (conjunctive) or −1.5 (parity) | integrates a joint condition the direct tie cannot reproduce |
 | partial | 7 | 1.585 | real integration beside a bypassable channel |
 | reducible | 6 | 0.0 | already out of the core; no constraint and no integration |
 
@@ -77,7 +85,7 @@ Stylized n=3 Boolean models, one per arrangement, classified by exact Φ. The mo
 the structure each arrangement instantiates, not fitted models of the markets; the interpreter, court, and
 clearinghouse are rendered as the same conjunctive form, which captures the shared "joint condition the bypass
 cannot reproduce" and not their differences. The constraint enters as the sink's update rule. Diverse real
-arrangements collapsing to four templates is a finding about the templates' coverage, and a real arrangement
-that fits none is the cue to extend them. In-silico; a catalog of structures, not a measurement of any market.
+arrangements collapsing to five templates is a finding about the templates' coverage; the parity band was
+the form that forced the fifth. In-silico; a catalog of structures, not a measurement of any market.
 
-**Reproduce.** `~/iit-playground/venv-4.0/bin/python org_frontier/studies/irreducibility_catalog/build_catalog.py`
+**Reproduce.** `python org_frontier/studies/irreducibility_catalog/build_catalog.py`

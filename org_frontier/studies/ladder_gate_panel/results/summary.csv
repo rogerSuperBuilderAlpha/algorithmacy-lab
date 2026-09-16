@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,accuracy,panel_size,n_mismatch,n_ambiguous,reading
+SUPPORTED,REFUTED,REFUTED,RULE_HOLDS_PANEL,448/448,448,0,0,RULE_HOLDS_PANEL — MONO_EXTREMAL_VS_AFFINE accuracy 448/448 on stratified panel; no counterexamples; no ambiguous Φ

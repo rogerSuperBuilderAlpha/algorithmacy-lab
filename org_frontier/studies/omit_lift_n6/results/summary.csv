@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,der_distinct_phi,m3_phi,m3_n_core,outside_L6,reading
+REFUTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,LAWS_MORPH,12.0;14.0,8.0,5,14.0,LAWS_MORPH — derangements split by cycle type (3+3 vs others); M3 incomplete-core persists but sibling cycle discriminant fails; new atom outside L6

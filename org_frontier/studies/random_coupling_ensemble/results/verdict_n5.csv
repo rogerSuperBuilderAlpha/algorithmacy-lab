@@ -1,0 +1,2 @@
+h1,h2,h3,h4,verdict,on_landmark,n_samples,off_count,reading
+SUPPORTED,SUPPORTED,SUPPORTED,REFUTED,PARTIAL_N5,0.956522,92,4,PARTIAL_N5 — ≥90% on landmarks but some new atoms; mostly discrete

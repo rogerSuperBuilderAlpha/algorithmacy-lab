@@ -1,0 +1,2 @@
+h1,h2,h3,h4,verdict,accuracy,weak_ce,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,MONO_EXTREMAL_VS_AFFINE,16/16,AND_negC|OR_negC|AND_negAB|OR_negAB,"MONO_EXTREMAL_VS_AFFINE — A iff monotone∧wt∈{1,15}∧alldep; B iff affine∧alldep; else C; weaker canal/weight rules fail (CE: AND_negC/OR_negC/AND_negAB/OR_negAB)"

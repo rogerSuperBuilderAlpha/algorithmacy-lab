@@ -72,10 +72,21 @@ runnable design yet. Themes group them; numbering is 1–50.
 ## F. The holistic residual
 
 26. Does the irreducible-residual fraction (~5% at n=3, #131) shrink, hold, or grow at n=4 and n=5?
+    **Answered through n=5 under unconstrained k=2.** n=3: 4.8%. n=4 unc: 7.5% (H2 grows; SM 2.4%
+    was a base-rate artifact). **n=5 unc: 9.0% (45/500, H0 holds near n=4)** with both classes
+    predicted. See `holistic_residual_n4_unconstrained/` and `holistic_residual_n5_unconstrained/`.
 27. Are the residual forms exactly the affine (GF(2)-linear) determinations, or some other algebraic
     class connectivity cannot see (#130, #106)?
+    **Answered — no.** Holistic residual (196/4096, 4.8%) shares **zero** forms with the 512 all-affine
+    wirings; affine miss rate is 0%. See `template_coverage_census/FINDINGS.md` (H3). Related: among
+    *triadic* strict-mediation forms the four catalog templates leave an 8/24 residual that *is* the
+    affine joint (XOR/XNOR) band — a different residue, now the catalog's fifth template (parity).
 28. Do the near-boundary holistic forms (#131) sit on a genuine phase boundary in function space — small
     perturbations flipping the verdict?
+    **Answered — yes vs confident forms; not residual-specific (n=3 and n=4 unc).** n=3: mean flip
+    0.482 vs far-hit 0.273. **n=4 unc residual misses: mean flip 0.371 vs far-hit 0.152 (+21.8 pp);
+    near-hit 0.392 (H3 refuted).** See `residual_phase_boundary/` and `residual_phase_boundary_unc/`.
+    n=5 replication deferred (exact-Φ cost).
 
 ## G. Political economy and organization design
 

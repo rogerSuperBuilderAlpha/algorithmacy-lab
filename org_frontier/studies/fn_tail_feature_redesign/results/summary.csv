@@ -1,0 +1,2 @@
+n4_base_miss,n4_base_fn_tri,n4_base_auc,n4_redes_miss,n4_redes_fn_tri,n4_redes_auc,n5_base_fn_tri,n5_redes_fn_tri,transfer_base_fn_tri,transfer_redes_fn_tri,h1,h2,h3,h4,reading
+0.075000,0.101010,0.980849,0.071000,0.097643,0.978862,0.247059,0.258824,0.000000,0.000000,REFUTED,REFUTED,REFUTED,REFUTED,"PARTIAL (directionally helpful, below threshold)"

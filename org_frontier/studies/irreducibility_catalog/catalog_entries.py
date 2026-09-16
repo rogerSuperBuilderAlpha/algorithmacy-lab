@@ -13,6 +13,11 @@ Diverse arrangements share a few structural templates. The catalog's point is th
 widely (franchise law, a credential, a monopoly, a protocol) while the structural signature is sparse, and the
 bypass-counterfactual is what sorts a mediator into necessary or contingent regardless of its domain.
 
+A fifth template — **parity** — was added after the template-coverage census
+(`org_frontier/studies/template_coverage_census/`): among the 24 triadic strict-mediation forms, eight
+XOR/XNOR commits sit outside relay / conjunctive / additive / free. They classify necessary under the
+bypass-counterfactual (same cell as conjunctive) at Φ=0.5, the pure-higher-order band.
+
 The `expected` field on each entry is the prediction, fixed before `build_catalog.py` classifies it.
 """
 
@@ -38,7 +43,18 @@ def _free():
     return ("S", "M", "K"), [lambda x: x[2], lambda x: x[0], lambda x: x[0]], "M", "K", "S", "replace"
 
 
-TEMPLATES = {"relay": _relay, "conjunctive": _conjunctive, "additive": _additive, "free": _free}
+def _parity():
+    # affine joint determination: M commits the XOR of A and B; parties track the commit (Φ=0.5 band)
+    return ("A", "M", "B"), [lambda x: x[1], lambda x: x[0] ^ x[2], lambda x: x[1]], "M", "B", "A", "replace"
+
+
+TEMPLATES = {
+    "relay": _relay,
+    "conjunctive": _conjunctive,
+    "additive": _additive,
+    "free": _free,
+    "parity": _parity,
+}
 
 
 # ---- the catalog ----
@@ -369,4 +385,24 @@ ENTRIES = [
          bypass="the brand sells to the customer directly online",
          template="free", expected="reducible",
          reading="no exclusivity or integration; the DTC bypass leaves it out of the core"),
+
+    # ===== parity (affine joint determination): fifth template, necessary at Φ=0.5 =====
+    dict(name="allocate_exactly_one", domain="resource allocation", constraint_type="none (XOR commit)",
+         source="claimant A", mediator="allocator", sink="claimant B",
+         constraint="none — the allocator assigns the resource to exactly one claimant",
+         bypass="the claimants divide the resource bilaterally",
+         template="parity", expected="intrinsic",
+         reading="XOR allocation binds both claimants with no monotone shadow; necessary, Φ=0.5"),
+    dict(name="require_agreement_xnor", domain="dual control", constraint_type="none (XNOR commit)",
+         source="officer A", mediator="dual-control gate", sink="officer B",
+         constraint="none — release fires only when the two officers agree (both yes or both no)",
+         bypass="either officer authorizes alone",
+         template="parity", expected="intrinsic",
+         reading="agreement-as-parity is a joint condition the direct edge does not reproduce; necessary"),
+    dict(name="single_winner_match", domain="matching", constraint_type="none (exclusive match)",
+         source="side A", mediator="matcher", sink="side B",
+         constraint="none — the matcher pairs exactly one of the two exclusive claims",
+         bypass="the two sides match without the exclusivity check",
+         template="parity", expected="intrinsic",
+         reading="exclusive single-winner matching is an XOR-family determination; necessary at Φ=0.5"),
 ]

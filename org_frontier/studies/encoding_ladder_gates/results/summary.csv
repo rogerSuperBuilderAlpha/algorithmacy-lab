@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,nm1_gates,flip_low_phi,no_flip,reading
+REFUTED,SUPPORTED,SUPPORTED,GATE_SPLITS_LADDER,AND|OR|NAND,XOR|XNOR,MAJ|MIXED,GATE_SPLITS_LADDER — AND/OR/NAND: flip Φ=n−1; parity XOR/XNOR: flip Φ≪n−1; MAJ/MIXED: no triadic flip; assist breaks on XOR/XNOR
