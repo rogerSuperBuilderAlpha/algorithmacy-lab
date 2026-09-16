@@ -3926,6 +3926,20 @@
       "source": "org_frontier/studies/construct_gates_n5/FINDINGS.md"
     },
     {
+      "name": "construct-gates-seal",
+      "cmd": "python org_frontier/studies/construct_gates_seal/analyze_seal.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (XNOR → Regime B):       SUPPORTED",
+        "H2 (AND_negE → Regime C):   SUPPORTED",
+        "H3 (surprise flip / morph): REFUTED",
+        "verdict: GATE_SEAL_HOLDS",
+        "reading: GATE_SEAL_HOLDS — CMC/AI-MC XNOR→B (Φ≪n−1), AND_negE→C; GATE_REGIMES_TRANSFER sealed; construct/gate arc closable"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/construct_gates_seal/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

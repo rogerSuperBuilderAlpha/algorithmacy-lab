@@ -47,9 +47,8 @@ non-monotone. n=5; n=6 not repeated. No organization measured.
 
 ## Best next experiment
 
-Update `CONSTRUCT_LADDER_ARC.md` with GATE_REGIMES_TRANSFER. Optional:
-XNOR or mixed-polarity extremal on one CMC cell. Skip another
-multi-role indeg. Residual / cascade / ternary / omit pointed only.
+Done: [`construct_gates_seal/`](../construct_gates_seal/) GATE_SEAL_HOLDS.
+**Arc closable.** Skip residual / cascade / ternary / omit-arc.
 
 ## Reproduce
 

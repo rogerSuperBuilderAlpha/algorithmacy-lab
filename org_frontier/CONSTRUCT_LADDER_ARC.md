@@ -25,6 +25,7 @@ Non-monotone gates are a separate regime** (gate studies).
 | 7 | [`construct_ladders_n5/`](studies/construct_ladders_n5/) | **BOUNDARY_TRANSFERS** | CMC / AI-MC match HMC flip + COMMIT_READ at n=5 |
 | 8 | [`construct_ladders_n6/`](studies/construct_ladders_n6/) | **PHI_TRACKS_NM1_ALL** | all three families track Φ=n−1 at n=6; no morph |
 | 9 | [`construct_gates_n5/`](studies/construct_gates_n5/) | **GATE_REGIMES_TRANSFER** | CMC/AI-MC XOR→B, MAJ→C match HMC GATE_SPLITS |
+| 10 | [`construct_gates_seal/`](studies/construct_gates_seal/) | **GATE_SEAL_HOLDS** | XNOR→B, AND_negE→C on CMC/AI-MC; arc closable |
 
 ## Working picture
 
@@ -47,9 +48,12 @@ Non-monotone gates are a separate regime** (gate studies).
    joint bind.” It is the **monotone extremal** slice (Regime A).
    Affine full dependence (XOR / XNOR) still flips but collapses Φ
    (Regime B). Majority / mixed / mixed-polarity extremal stay dyadic
-   (Regime C). CMC / AI-MC full-bind matches HMC on AND/XOR/MAJ
+   (Regime C). CMC / AI-MC full-bind matches HMC on AND/XOR/MAJ/XNOR
+   and AND_negE
    ([`construct_gates_n5/`](studies/construct_gates_n5/)
-   GATE_REGIMES_TRANSFER).
+   GATE_REGIMES_TRANSFER;
+   [`construct_gates_seal/`](studies/construct_gates_seal/)
+   GATE_SEAL_HOLDS).
 
 5. **Scope.** Exact binary IIT-4.0; designed ladders; in-silico. No
    organization measured. Omit-atom and role-target arms are separate
@@ -57,6 +61,7 @@ Non-monotone gates are a separate regime** (gate studies).
 
 ## Best next
 
-Optional: XNOR or mixed-polarity extremal on one CMC cell; or close
-the arc. Skip another multi-role indeg. Residual / cascade / ternary
-unless tooling lands.
+**Arc closable.** No more construct/gate ladder churn on this thread
+unless a real gap appears. Outside-agenda candidates: empirical /
+survey packet; Paper-2 IIT affirmative polish; omit tooling if
+residual/cascade ever lands. Skip another multi-role indeg.

@@ -60,8 +60,9 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
 
 ## Best next
 
-Construct×scale synthesis:
+Construct/gate arc sealed:
 [`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md)
-(PHI_TRACKS_NM1_ALL across HMC/CMC/AI-MC × n∈{5,6}). Role-target:
-[`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md). Skip another multi-role
-indeg. Residual / cascade / ternary unless tooling lands.
+([`construct_gates_seal/`](studies/construct_gates_seal/) GATE_SEAL_HOLDS).
+**Arc closable.** Role-target: [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md).
+Skip another multi-role indeg. Residual / cascade / ternary unless
+tooling lands.

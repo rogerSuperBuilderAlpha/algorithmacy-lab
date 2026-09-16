@@ -49,6 +49,8 @@ Already-pure under cycle type alone: `(0,1,1,1,1,2)` —
 
 ## Best next
 
-Construct×scale synthesis:
-[`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md). Skip another
-multi-role indeg. Residual / cascade / ternary unless tooling lands.
+Construct/gate arc sealed:
+[`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md)
+([`construct_gates_seal/`](studies/construct_gates_seal/) GATE_SEAL_HOLDS).
+**Arc closable.** Skip another multi-role indeg. Residual / cascade /
+ternary unless tooling lands.

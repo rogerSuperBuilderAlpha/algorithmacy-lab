@@ -273,7 +273,7 @@ Multi-experiment batteries on one theme.
 
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
 - **[Construct gate transfer at n=5 — CMC / AI-MC](org_frontier/studies/construct_gates_n5/README.md)** — full-bind regimes **transfer** from HMC anchors to CMC and AI-MC at
-- **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)**
+- **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)** — AND_negE (Regime C) transfer on CMC and AI-MC full-bind at n=5
 - **[CMC / AI-MC encoding ladders at n=5](org_frontier/studies/construct_ladders_n5/README.md)** — paths at n=5. Classical baselines keep their construct signatures
 - **[Construct ladders at n=6 — HMC / CMC / AI-MC](org_frontier/studies/construct_ladders_n6/README.md)** — `pre_AND → full_AND` with whole triadic n_core=6, **Φ=5 (=n−1)** for AND
 - **[HMC / CMC / AI-MC at n>3](org_frontier/studies/constructs_n_gt3/README.md)** — plus idle parties) stays a **2-core**. CMC conveyors stay non-commit (whole
