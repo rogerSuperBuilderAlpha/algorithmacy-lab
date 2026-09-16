@@ -1,25 +1,24 @@
 # Scaling laws closed-form — findings
 
-**Verdict: PARTIAL_PROOFS.** The three zoo laws follow from
-IIT-4.0 GID on an explicit MIP candidate cut: conjunctive and parity
-on the hub-preserving atomic cut, pool on the complete atomic cut.
-Cut formulas are **proved**. MIP identity for general $n$ is
-**partial** (verified $n\le 5$, hub through $n=6$). Exact Φ smoke
-matches the laws on every grid cell.
+**Verdict: PARTIAL_PROOFS** (cut formulas); MIP identity **closed by
+#49** for pool/hub, parity residual on general-$n$ $I=1$ uniqueness.
+See [`../mincut_mip/`](../mincut_mip/) and `FORMAL_THEORY_ARC.md`.
+
+The three zoo laws follow from IIT-4.0 GID on an explicit MIP cut:
+conjunctive/parity on the hub-preserving atomic cut, pool on the
+complete atomic cut. Exact Φ smoke matches every grid cell.
 
 In-silico; candid N. Hypotheses fixed in `hypotheses.md`. Proofs in
-`PROOFS.md`. Cited: #115, #116, #132; agenda #47. Stoch–temporal /
+`PROOFS.md`. Cited: #115, #116, #132; agenda #47, #49. Stoch–temporal /
 estimation / construct / omit closed.
 
 ## Status per law
 
 | claim | cut / selectivity | MIP identity | status |
 |---|---|---|---|
-| C1 hub Φ = n−1 | proved: $p_{\mathrm{part}}=2^{1-n}$ ⇒ φ = n−1 | partial ($n\le 6$) | **partial** |
-| C2 pool Φ = n(n−1) | proved: $p_{\mathrm{part}}=2^{-n(n-1)}$ | partial ($n\le 5$) | **partial** |
-| C3 parity Φ = 2^(2−n) | proved: sel$_c$ = 2^(2−n), informativeness = 1 | partial ($n\le 5$) | **partial** |
-
-Nothing blocked. The shared gap is a general `SET_UNI/BI` MIP lemma.
+| C1 hub Φ = n−1 | proved: $p_{\mathrm{part}}=2^{1-n}$ ⇒ φ = n−1 | **proved** (#49 T2) | **proved** |
+| C2 pool Φ = n(n−1) | proved: $p_{\mathrm{part}}=2^{-n(n-1)}$ | **proved** (#49 T1) | **proved** |
+| C3 parity Φ = 2^(2−n) | proved: sel$_c$ = 2^(2−n), informativeness = 1 | partial (#49 T3, $n\le 5$) | **partial** |
 
 ## Verification table (exact Φ)
 
@@ -59,8 +58,8 @@ conjecture.
 
 ## Best next
 
-**#49 — min-cut MIP.** Closes the named gap on C1–C3. Then #48
-(uniqueness at the 2(n−1) edge floor) and #50 (lattice of kinds).
+**#48** — conjunctive hub uniqueness at the $2(n-1)$ edge floor.
+Then **#50** — lattice of kinds. (#49 done: `../mincut_mip/`.)
 
 ## Reproduce
 

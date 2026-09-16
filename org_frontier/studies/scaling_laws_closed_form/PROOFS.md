@@ -168,21 +168,17 @@ remains the major complex for every $n\ge 3$ on these three forms.
 
 | claim | cut formula | MIP identity | overall |
 |---|---|---|---|
-| C1 hub $\Phi=n-1$ | **proved** (Lemma C) | partial ($n\le 5$ + #116) | **partial** |
-| C2 pool $\Phi=n(n-1)$ | **proved** (Lemma D) | partial ($n\le 5$) | **partial** |
-| C3 parity $\Phi=2^{2-n}$ | **proved** (Lemmas B–C) | partial ($n\le 5$) | **partial** |
+| C1 hub $\Phi=n-1$ | **proved** (Lemma C) | **proved** (#49 T2) | **proved** |
+| C2 pool $\Phi=n(n-1)$ | **proved** (Lemma D) | **proved** (#49 T1) | **proved** |
+| C3 parity $\Phi=2^{2-n}$ | **proved** (Lemmas B–C) | partial (#49 T3, $n\le 5$) | **partial** |
 
-Nothing is blocked: the remaining work is a general MIP-identification
-lemma for `SET_UNI/BI` on these CM families (#49’s min-cut framing is
-the natural next tool).
+MIP identity for pool/hub is proved in
+[`../mincut_mip/PROOFS.md`](../mincut_mip/PROOFS.md). Parity retains
+a narrow $I=1$ uniqueness gap for general $n$.
 
 ---
 
 ## Best next among #48–#50
 
-**#49 (min-cut MIP)** is the best next. The named gap on all three
-laws is MIP identity, not the GID evaluation on the candidate cut.
-A min-cut theorem placing the MIP at the least-coupled seam (#26,
-#33) would close C1–C3 for general $n$. #48 (hub uniqueness at the
-$2(n-1)$ edge floor) and #50 (lattice of kinds) need the closed forms
-as inputs; they are next after the MIP lemma.
+**#48** (hub uniqueness at the $2(n-1)$ edge floor), then **#50**
+(lattice of kinds). #49 is done.

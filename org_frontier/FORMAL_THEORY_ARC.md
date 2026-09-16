@@ -7,26 +7,37 @@ construct / omit stay closed except as empirical pointers to the laws.
 ## #47 status
 
 [`studies/scaling_laws_closed_form/`](studies/scaling_laws_closed_form/)
-→ **PARTIAL_PROOFS**
+→ **PARTIAL_PROOFS** (cut formulas); MIP identity closed by #49 for
+pool/hub, parity residual on $I=1$ uniqueness for general $n$.
 
-| law | cut formula | MIP id | status |
-|---|---|---|---|
-| conjunctive Φ = n−1 | proved | partial | partial |
-| pool Φ = n(n−1) | proved | partial | partial |
-| parity Φ = 2^(2−n) | proved | partial | partial |
+| law | cut formula | MIP id |
+|---|---|---|
+| conjunctive Φ = n−1 | proved | **proved** (#49 T2) |
+| pool Φ = n(n−1) | proved | **proved** (#49 T1) |
+| parity Φ = 2^(2−n) | proved | **partial** (#49 T3: $n\le 5$) |
 
-GID on the hub-preserving (hub/parity) or complete atomic (pool) cut
-gives the closed forms. Remaining gap: general `SET_UNI/BI` MIP
-uniqueness.
+## #49 status
+
+[`studies/mincut_mip/`](studies/mincut_mip/) → **NORMALIZED_CUT**
+
+| claim | status |
+|---|---|
+| T0 graph min-cut ≡ Φ-seam | **REFUTED** (Q49 H5) |
+| T1 pool MIP = $A$ | **PROVED** (all $n$) |
+| T2 hub MIP = $H$/$H'$ | **PROVED** (all $n$) |
+| T3 parity MIP = $H$ | **PARTIAL** ($I\ge 2$ all-$n$; $I=1$ unique $n\le 5$) |
+
+Worker-as-unique-seam (#26/#33 graph reading) does not survive Q49.
+The #47 families obey a normalized GID cut-weight theorem instead.
 
 ## Best next
 
-**#49 min-cut MIP** — places the MIP at the least-coupled seam and
-closes the #47 gaps. Then **#48** (hub uniqueness at the 2(n−1) edge
-floor) and **#50** (lattice of coordination kinds).
+**#48** — conjunctive hub uniqueness at the $2(n-1)$ edge floor.
+Then **#50** — lattice of coordination kinds.
 
 ## Reproduce
 
 ```
 python org_frontier/studies/scaling_laws_closed_form/verify_laws.py
+python org_frontier/studies/mincut_mip/verify_mip.py
 ```

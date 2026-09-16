@@ -311,6 +311,7 @@ Multi-experiment batteries on one theme.
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
 - **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
 - **[Mediator hierarchy census (agenda #15)](org_frontier/studies/mediator_hierarchy_census/README.md)** — occupied level** (apex, mid if present, leaf); Φ is **flat in depth** (2.0 at
+- **[Min-cut MIP (#49)](org_frontier/studies/mincut_mip/README.md)** — (Q49 H5). For the #47 families a *normalized GID cut-weight* theorem
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
 - **[Omit-motif census: Φ=5 vs Φ=6 at n=5](org_frontier/studies/omit_motif_phi5/README.md)** — recip=0. Same-indeg siblings with other cycle structures all give **Φ=6**. Motif
 - **[Oscillatory Φ scaling (agenda #11)](org_frontier/studies/oscillatory_scaling/README.md)** — traveling wave, period=n) carries a **constant Φ=2.0** law over
@@ -322,7 +323,7 @@ Multi-experiment batteries on one theme.
 - **[Residual phase boundary on unc k=2 misses (F28)](org_frontier/studies/residual_phase_boundary_unc/README.md)** — One-bit truth-table flips flip the exact Φ verdict for **37.1%** of neighbours of the 75 n=4
 - **[Same-indeg Φ=8 vs 9 band at n=6](org_frontier/studies/same_indeg_band_n6/README.md)** — n=6 fixed_k=4, **Φ=9 iff cycles ∈ {(5,), (2,3)}**; otherwise **Φ=8**. All six
 - **[Sample complexity of the cheap screen (agenda #23)](org_frontier/studies/sample_complexity_screen/README.md)** — family, mean pairwise MI already hits AUC **0.97 at T=125** (noise 0.08
-- **[Scaling laws closed-form (#47)](org_frontier/studies/scaling_laws_closed_form/README.md)** — IIT-4.0 GID on an explicit MIP candidate cut: conjunctive and parity
+- **[Scaling laws closed-form (#47)](org_frontier/studies/scaling_laws_closed_form/README.md)** — See [`../mincut_mip/`](../mincut_mip/) and `FORMAL_THEORY_ARC.md`
 - **[Shared-mediator ternary (beyond-binary)](org_frontier/studies/shared_mediator_ternary/README.md)** — {0,1}^5 cube. Exact **IIT-4.0** on this lab's PyPhi pin **cannot** ingest a
 - **[Small-world rewire vs hierarchy (agenda #17)](org_frontier/studies/small_world_vs_hierarchy/README.md)** — ring's size-independent Φ = 4 cap with hub growth (Φ = n−1). Interior morphs
 - **[Spanning mediator atop multi-hub (agenda #20)](org_frontier/studies/spanning_mediator_multihub/README.md)** — raise Φ beyond the pool ceiling. Under recurrent hub-span it **recreates the

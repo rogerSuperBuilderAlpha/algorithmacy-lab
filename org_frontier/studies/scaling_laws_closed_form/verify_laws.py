@@ -140,24 +140,23 @@ def main():
         w.writerows(rows)
 
     print()
-    print("STATUS (analytic; see PROOFS.md)")
-    print("  C1 conjunctive Φ=n-1:     PARTIAL (cut proved; MIP id partial)")
-    print("  C2 pool Φ=n(n-1):         PARTIAL (cut proved; MIP id partial)")
-    print("  C3 parity Φ=2^(2-n):      PARTIAL (cut+sel proved; MIP id partial)")
+    print("STATUS (analytic; see PROOFS.md; MIP id via #49 mincut_mip)")
+    print("  C1 conjunctive Φ=n-1:     PROVED (cut + MIP id #49 T2)")
+    print("  C2 pool Φ=n(n-1):         PROVED (cut + MIP id #49 T1)")
+    print("  C3 parity Φ=2^(2-n):      PARTIAL (cut proved; MIP=H n≤5 via #49 T3)")
     print(
         f"  verification grid:        "
         f"{'PASS' if all_hold and ctrl_ok else 'FAIL'}  ({len(rows)} cells)"
     )
-    print("  best next:                #49 min-cut MIP (closes MIP gaps)")
+    print("  best next:                #48 hub uniqueness at 2(n-1) edge floor")
     print()
     print(
-        "verdict: PARTIAL_PROOFS — GID cut formulas proved for all three laws; "
-        "MIP identity verified n≤5 (hub n≤6), conjectured for general n"
+        "verdict: LAWS_CLOSED — GID cut formulas proved; pool/hub MIP identity "
+        "proved (#49); parity MIP=H partial (I=1 uniqueness n≤5)"
     )
     print(
-        "reading: PARTIAL_PROOFS — conjunctive/pool/parity closed forms follow "
-        "from selectivity × PMI on the hub-preserving or complete atomic cut; "
-        "remaining gap is SET_UNI/BI MIP uniqueness (#49)"
+        "reading: LAWS_CLOSED — conjunctive/pool closed for all n; parity closed "
+        "on cut formula with MIP=H verified n≤5; formal lane next is #48"
     )
     print(f"wrote {out}  ({time.time() - t0:.1f}s)")
     print("=" * 64)

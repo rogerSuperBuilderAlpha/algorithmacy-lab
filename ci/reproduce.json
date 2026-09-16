@@ -4144,16 +4144,33 @@
       "cmd": "python org_frontier/studies/scaling_laws_closed_form/verify_laws.py",
       "expect": [
         "faithful triad: triadic \u03a6=2.000000  PASS",
-        "C1 conjunctive \u03a6=n-1:     PARTIAL (cut proved; MIP id partial)",
-        "C2 pool \u03a6=n(n-1):         PARTIAL (cut proved; MIP id partial)",
-        "C3 parity \u03a6=2^(2-n):      PARTIAL (cut+sel proved; MIP id partial)",
+        "C1 conjunctive \u03a6=n-1:     PROVED (cut + MIP id #49 T2)",
+        "C2 pool \u03a6=n(n-1):         PROVED (cut + MIP id #49 T1)",
+        "C3 parity \u03a6=2^(2-n):      PARTIAL (cut proved; MIP=H n\u22645 via #49 T3)",
         "verification grid:        PASS",
-        "best next:                #49 min-cut MIP (closes MIP gaps)",
-        "verdict: PARTIAL_PROOFS \u2014 GID cut formulas proved for all three laws; MIP identity verified n\u22645 (hub n\u22646), conjectured for general n",
-        "reading: PARTIAL_PROOFS \u2014 conjunctive/pool/parity closed forms follow from selectivity \u00d7 PMI on the hub-preserving or complete atomic cut; remaining gap is SET_UNI/BI MIP uniqueness (#49)"
+        "best next:                #48 hub uniqueness at 2(n-1) edge floor",
+        "verdict: LAWS_CLOSED \u2014 GID cut formulas proved; pool/hub MIP identity proved (#49); parity MIP=H partial (I=1 uniqueness n\u22645)",
+        "reading: LAWS_CLOSED \u2014 conjunctive/pool closed for all n; parity closed on cut formula with MIP=H verified n\u22645; formal lane next is #48"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/scaling_laws_closed_form/FINDINGS.md"
+    },
+    {
+      "name": "mincut-mip",
+      "cmd": "python org_frontier/studies/mincut_mip/verify_mip.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "T0 graph min-cut:           REFUTED (Q49)",
+        "T1 pool MIP=A all n:        PROVED (smoke n=3..5; proof all n)",
+        "T2 hub MIP=H/H' all n:      PROVED (smoke n=3..5; proof all n)",
+        "T3 parity MIP=H:            PARTIAL (I\u22652 all-n proved; I=1 uniqueness exhausted n\u22645)",
+        "verification grid:          PASS",
+        "best next:                  #48 hub uniqueness at 2(n-1) edge floor",
+        "verdict: NORMALIZED_CUT \u2014 graph min-cut REFUTED (Q49); pool/hub MIP identity PROVED for all n; parity MIP=H PARTIAL (I=1 uniqueness n\u22645)",
+        "reading: NORMALIZED_CUT \u2014 #47 named cuts are the MIP for pool (A) and hub (H/H') by \u03c6=n_cut / star-phantom bounds; parity H wins by sel\u00b7I with I\u22652 dominated; least-coupled is normalized GID weight, not graph min-cut"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/mincut_mip/FINDINGS.md"
     },
     {
       "name": "hmc-algo-boundary",
