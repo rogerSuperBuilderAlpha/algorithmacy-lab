@@ -3896,6 +3896,22 @@
       "source": "org_frontier/studies/construct_ladders_n5/FINDINGS.md"
     },
     {
+      "name": "construct-ladders-n6",
+      "cmd": "python org_frontier/studies/construct_ladders_n6/analyze_ladders.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (all three PHI_TRACKS_NM1): SUPPORTED",
+        "H2 (some family morphs):       REFUTED",
+        "H3 (COMMIT_READ breaks):       REFUTED",
+        "verdict: PHI_TRACKS_NM1_ALL",
+        "boundary_step: pre_AND → full_AND (all three)",
+        "phi_vs_nm1: Φ=5 = n−1",
+        "reading: PHI_TRACKS_NM1_ALL — HMC/CMC/AI-MC at n=6: pre_AND→full_AND flip with Φ=5 (=n−1); COMMIT_READ holds; BOUNDARY_TRANSFERS scales with PHI_TRACKS_NM1"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/construct_ladders_n6/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

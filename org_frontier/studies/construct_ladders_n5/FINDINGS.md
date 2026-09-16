@@ -62,8 +62,8 @@ per family. No organization measured.
 
 ## Best next experiment
 
-Role-target synthesis done ([`ROLE_TARGET_GRAIN.md`](../../ROLE_TARGET_GRAIN.md)).
-Next: another multi-role indeg, or lift construct ladders to n=6.
+Done: n=6 construct ladders
+([`construct_ladders_n6/`](../construct_ladders_n6/) PHI_TRACKS_NM1_ALL).
 Skip residual / cascade / ternary.
 
 ## Reproduce

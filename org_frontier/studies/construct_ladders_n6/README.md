@@ -11,4 +11,5 @@ python org_frontier/studies/construct_ladders_n6/analyze_ladders.py
 
 ## Result in one line
 
-*(filled after compute)*
+**PHI_TRACKS_NM1_ALL** — HMC/CMC/AI-MC flip at `pre_AND → full_AND`
+with Φ=5 (=n−1); COMMIT_READ holds; no morph.
