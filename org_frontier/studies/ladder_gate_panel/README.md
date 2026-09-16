@@ -11,4 +11,5 @@ python org_frontier/studies/ladder_gate_panel/analyze_panel.py
 
 ## Result in one line
 
-*(filled after compute)*
+**RULE_HOLDS_PANEL.** MONO_EXTREMAL_VS_AFFINE accuracy 448/448; no
+counterexamples.

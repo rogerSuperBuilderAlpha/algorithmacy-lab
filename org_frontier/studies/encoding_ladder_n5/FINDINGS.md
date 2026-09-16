@@ -52,9 +52,9 @@ No organization measured.
 
 ## Best next experiment
 
-Done: [`ladder_gate_properties/`](../ladder_gate_properties/)
-MONO_EXTREMAL_VS_AFFINE. Next: role-target grain on another indeg, or
-larger random gate panel. Skip residual / cascade / ternary.
+Done: [`ladder_gate_panel/`](../ladder_gate_panel/) RULE_HOLDS_PANEL
+(448/448). Next: role-target grain on another indeg. Skip residual /
+cascade / ternary.
 
 ## Reproduce
 

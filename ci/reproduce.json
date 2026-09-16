@@ -3926,6 +3926,23 @@
       "source": "org_frontier/studies/ladder_gate_properties/FINDINGS.md"
     },
     {
+      "name": "ladder-gate-panel",
+      "cmd": "python org_frontier/studies/ladder_gate_panel/analyze_panel.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (rule holds on panel):     SUPPORTED",
+        "H2 (counterexamples appear):  REFUTED",
+        "H3 (refinement needed):       REFUTED",
+        "verdict: RULE_HOLDS_PANEL",
+        "accuracy: 448/448",
+        "n_mismatch: 0",
+        "n_ambiguous: 0",
+        "reading: RULE_HOLDS_PANEL — MONO_EXTREMAL_VS_AFFINE accuracy 448/448 on stratified panel; no counterexamples; no ambiguous Φ"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/ladder_gate_panel/FINDINGS.md"
+    },
+    {
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [

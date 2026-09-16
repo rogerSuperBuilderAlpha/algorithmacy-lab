@@ -49,9 +49,11 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    [`encoding_ladder_gates/`](studies/encoding_ladder_gates/) GATE_SPLITS_LADDER
    (AND/OR/NAND only; XOR/XNOR Φ≪n−1; MAJ/MIXED no flip);
    [`ladder_gate_properties/`](studies/ladder_gate_properties/)
-   MONO_EXTREMAL_VS_AFFINE (A↔monotone∧wt∈{1,15}; B↔affine; else C).
+   MONO_EXTREMAL_VS_AFFINE (A↔monotone∧wt∈{1,15}; B↔affine; else C);
+   [`ladder_gate_panel/`](studies/ladder_gate_panel/) RULE_HOLDS_PANEL
+   (448/448 stratified stress-test).
 
 ## Best next
 
-Role-target grain on another indeg; or larger random gate panel. Skip
-residual / cascade / ternary unless tooling lands.
+Role-target grain on another indeg. Skip residual / cascade / ternary
+unless tooling lands.

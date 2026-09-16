@@ -54,8 +54,7 @@ Full-bind cells ~40 s each. No organization measured. n>6 not run
 
 ## Best next experiment
 
-Done: [`ladder_gate_properties/`](../ladder_gate_properties/)
-MONO_EXTREMAL_VS_AFFINE (A↔monotone extremal; B↔affine; else C).
+Done: [`ladder_gate_panel/`](../ladder_gate_panel/) RULE_HOLDS_PANEL.
 Next: role-target grain on another indeg. Skip residual / cascade /
 ternary / omit-arc.
 

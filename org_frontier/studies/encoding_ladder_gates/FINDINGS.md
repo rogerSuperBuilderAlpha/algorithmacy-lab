@@ -59,10 +59,9 @@ Designed n=5 ladders only; n=6 not repeated (cost). One MAJ threshold
 
 ## Best next experiment
 
-Done: [`ladder_gate_properties/`](../ladder_gate_properties/)
-MONO_EXTREMAL_VS_AFFINE. Next: role-target grain on another indeg, or
-random gate panel stress test. Skip residual / cascade / ternary /
-omit-arc.
+Done: [`ladder_gate_panel/`](../ladder_gate_panel/) RULE_HOLDS_PANEL
+(448/448). Next: role-target grain on another indeg. Skip residual /
+cascade / ternary / omit-arc.
 
 ## Reproduce
 

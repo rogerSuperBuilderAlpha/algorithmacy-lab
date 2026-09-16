@@ -53,9 +53,9 @@ classical Boolean; no organization measured. Assist is secondary
 
 ## Best next experiment
 
-Role-target grain on another indeg, or sample a larger random gate panel
-to stress-test the rule beyond the designed set. Skip residual / cascade
-/ ternary / omit-arc unless tooling lands.
+Done: [`ladder_gate_panel/`](../ladder_gate_panel/) RULE_HOLDS_PANEL
+(448/448 stratified). Next: role-target grain on another indeg. Skip
+residual / cascade / ternary / omit-arc.
 
 ## Reproduce
 
