@@ -11,4 +11,5 @@ python org_frontier/studies/structure_aware_surrogate/analyze_surrogate.py
 
 ## Result in one line
 
-*(filled after compute)*
+**NO_STRUCTURE_GAIN** — LOFO AUC 0.993 vs 0.944 (lift +0.049);
+structure-aware ≈ coupling; #22 negative on this panel.

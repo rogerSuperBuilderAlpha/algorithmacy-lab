@@ -109,8 +109,10 @@ Shipped as `org_frontier/cascade/` (`python -m org_frontier.cascade.run`;
 
 ## Open edges (not claimed closed)
 
-- Surrogate *magnitude* prediction and GNN-style structure-aware screens
-  (agenda E22) remain open; this arc addressed verdict screening.
+- Surrogate *magnitude* prediction remains open; agenda E22 structure-aware
+  LOFO screen tested negative on a designed panel
+  (`studies/structure_aware_surrogate/` NO_STRUCTURE_GAIN). Spectral
+  topology-invariant features (E21) and sample complexity (E23) remain.
 - Beyond-binary state, two-triad merger, and further templates past parity are
   structural next gaps, orthogonal to cascade tooling.
 - F28 at n=5 was deferred on compute; the n=4 phase-boundary pattern is the

@@ -15,8 +15,6 @@ import csv
 import os
 import sys
 import time
-from functools import reduce
-
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.metrics import roc_auc_score
@@ -88,8 +86,59 @@ def broken_hub(n):
     return rules
 
 
+def chain_feedforward(n):
+    """One-way copy chain — typically dyadic (no return coupling)."""
+    rules = [None] * n
+    rules[0] = lambda x: x[0]
+    for i in range(1, n):
+        rules[i] = (lambda x, i=i: x[i - 1])
+    return rules
+
+
+def broken_or_hub(n):
+    rules = [None] * n
+    rules[0] = lambda x: int(any(x[i] for i in range(1, n)))
+    for i in range(1, n - 1):
+        rules[i] = (lambda x, i=i: x[0])
+    rules[n - 1] = lambda x: 0
+    return rules
+
+
+def broken_parity(n):
+    rules = [None] * n
+    rules[0] = lambda x: reduce_xor(x, n)
+    for i in range(1, n - 1):
+        rules[i] = (lambda x, i=i: x[0])
+    rules[n - 1] = lambda x: x[n - 1]
+    return rules
+
+
+def reduce_xor(x, n):
+    v = 0
+    for i in range(1, n):
+        v ^= int(x[i])
+    return v
+
+
+def pool_one_idle(n):
+    """Pool among n−1 nodes; last idle — often drops to smaller complex / dyadic."""
+    rules = [None] * n
+    for i in range(n - 1):
+        others = [j for j in range(n - 1) if j != i]
+        rules[i] = (lambda x, others=others: int(all(x[j] for j in others)))
+    rules[n - 1] = lambda x: x[n - 1]
+    return rules
+
+
+def broken_two_hub(n):
+    rules = two_hub(n)
+    # detach last party from its hub
+    rules[n - 1] = lambda x: x[n - 1]
+    return rules
+
+
 def build_panel():
-    """Designed multi-topology panel. family tag drives LOFO splits."""
+    """Designed multi-topology panel. Each family carries triadic + dyadic cells."""
     forms = []
 
     def add(family, name, n, rules):
@@ -101,23 +150,33 @@ def build_panel():
         })
 
     for n in (3, 4, 5):
+        # chain: bidirectional AND (tri) + feedforward (dya)
         add("chain", f"chain_and_n{n}", n, chain(n))
+        add("chain", f"chain_ff_n{n}", n, chain_feedforward(n))
+        # pool: full AND/OR (tri) + one-idle (often dya/smaller)
         add("pool", f"pool_and_n{n}", n, pool(n))
         add("pool", f"pool_or_n{n}", n, or_pool(n))
+        add("pool", f"pool_idle_n{n}", n, pool_one_idle(n))
+        # hubs: working + broken
         add("single_hub", f"and_hub_n{n}", n, single_hub(n))
+        add("single_hub", f"broken_hub_n{n}", n, broken_hub(n))
         add("or_hub", f"or_hub_n{n}", n, or_hub(n))
+        add("or_hub", f"broken_or_hub_n{n}", n, broken_or_hub(n))
         add("parity_hub", f"parity_hub_n{n}", n, parity_hub(n))
+        add("parity_hub", f"broken_parity_n{n}", n, broken_parity(n))
+        # broadcast (dya) + joint commit on same star skeleton (tri)
         add("broadcast", f"broadcast_n{n}", n, broadcast(n))
-        add("broken", f"broken_hub_n{n}", n, broken_hub(n))
-        # majority / thresholds
+        add("broadcast", f"broadcast_joint_n{n}", n, single_hub(n))  # joint = hub
+        # majority / thresholds (mixed by k)
         k = (n - 1) // 2 + 1
         add("majority", f"maj_hub_n{n}_k{k}", n, threshold_hub(n, k))
+        add("majority", f"thresh_hub_n{n}_k1", n, threshold_hub(n, 1))
         if n >= 4:
             add("majority", f"thresh_hub_n{n}_k2", n, threshold_hub(n, 2))
-            add("majority", f"thresh_hub_n{n}_k1", n, threshold_hub(n, 1))
 
     for n in (4, 5):
         add("two_hub", f"two_hub_asym_n{n}", n, two_hub(n))
+        add("two_hub", f"broken_two_hub_n{n}", n, broken_two_hub(n))
         if n >= 5:
             add("two_hub", f"two_hub_sym_n{n}", n, sym_two_hub(n))
 
@@ -396,8 +455,10 @@ def main():
     print("LEAVE-ONE-FAMILY-OUT")
     print("-" * 80)
     lofo_rows = []
-    auc_c, auc_s, acc_c, acc_s = [], [], [], []
+    auc_c, auc_s = [], []
+    surplus_c, surplus_s = [], []
     rho_c, rho_s = [], []
+    n_mixed = 0
 
     for fam in uniq:
         te = families == fam
@@ -424,7 +485,6 @@ def main():
         uc = _auc(pc, y[te])
         us = _auc(ps, y[te])
 
-        # magnitude: regress Φ
         reg_c = RandomForestRegressor(
             n_estimators=RF_N, random_state=SEED, n_jobs=1
         )
@@ -436,90 +496,107 @@ def main():
         rc = _spearman(reg_c.predict(Xc[te]), phi[te])
         rs = _spearman(reg_s.predict(Xs[te]), phi[te])
 
-        maj = max(y[te].mean(), 1 - y[te].mean())
+        maj = max(float(y[te].mean()), 1.0 - float(y[te].mean()))
+        sc = ac - maj
+        ss = as_ - maj
+        mixed = 0 < int(y[te].sum()) < int(te.sum())
+        if mixed:
+            n_mixed += 1
+            if not np.isnan(uc):
+                auc_c.append(uc)
+            if not np.isnan(us):
+                auc_s.append(us)
+        surplus_c.append(sc)
+        surplus_s.append(ss)
+        if not np.isnan(rc):
+            rho_c.append(rc)
+        if not np.isnan(rs):
+            rho_s.append(rs)
+
         lofo_rows.append({
             "family": fam,
             "n_test": int(te.sum()),
             "n_tri": int(y[te].sum()),
+            "mixed": int(mixed),
             "majority": maj,
             "auc_coupling": uc,
             "auc_structure": us,
             "acc_coupling": ac,
             "acc_structure": as_,
+            "surplus_coupling": sc,
+            "surplus_structure": ss,
             "rho_coupling": rc,
             "rho_structure": rs,
         })
-        if not np.isnan(uc):
-            auc_c.append(uc)
-        if not np.isnan(us):
-            auc_s.append(us)
-        acc_c.append(ac)
-        acc_s.append(as_)
-        if not np.isnan(rc):
-            rho_c.append(rc)
-        if not np.isnan(rs):
-            rho_s.append(rs)
         print(
             f"  holdout={fam:<12} n={te.sum():<3} tri={y[te].sum()}  "
             f"AUC c={uc:.3f} s={us:.3f}  "
             f"acc c={ac:.2f} s={as_:.2f}  "
-            f"ρ c={rc:.3f} s={rs:.3f}  maj={maj:.2f}"
+            f"surp c={sc:+.2f} s={ss:+.2f}  "
+            f"ρ c={rc:.3f} s={rs:.3f}"
         )
 
     mean_auc_c = float(np.nanmean(auc_c)) if auc_c else float("nan")
     mean_auc_s = float(np.nanmean(auc_s)) if auc_s else float("nan")
-    mean_acc_c = float(np.mean(acc_c)) if acc_c else float("nan")
-    mean_acc_s = float(np.mean(acc_s)) if acc_s else float("nan")
+    mean_sur_c = float(np.mean(surplus_c)) if surplus_c else float("nan")
+    mean_sur_s = float(np.mean(surplus_s)) if surplus_s else float("nan")
     mean_rho_c = float(np.nanmean(rho_c)) if rho_c else float("nan")
     mean_rho_s = float(np.nanmean(rho_s)) if rho_s else float("nan")
     lift_auc = mean_auc_s - mean_auc_c
+    lift_sur = mean_sur_s - mean_sur_c
     lift_rho = mean_rho_s - mean_rho_c
 
     print()
     print("AGGREGATE LOFO")
     print("-" * 80)
-    print(f"  mean AUC  coupling={mean_auc_c:.3f}  structure={mean_auc_s:.3f}  "
-          f"lift={lift_auc:+.3f}")
-    print(f"  mean acc  coupling={mean_acc_c:.3f}  structure={mean_acc_s:.3f}")
-    print(f"  mean ρ    coupling={mean_rho_c:.3f}  structure={mean_rho_s:.3f}  "
-          f"lift={lift_rho:+.3f}")
+    print(f"  mixed-class families for AUC: {n_mixed}")
+    print(f"  mean AUC  (mixed) coupling={mean_auc_c:.3f}  "
+          f"structure={mean_auc_s:.3f}  lift={lift_auc:+.3f}")
+    print(f"  mean acc−maj     coupling={mean_sur_c:+.3f}  "
+          f"structure={mean_sur_s:+.3f}  lift={lift_sur:+.3f}")
+    print(f"  mean ρ           coupling={mean_rho_c:.3f}  "
+          f"structure={mean_rho_s:.3f}  lift={lift_rho:+.3f}")
 
-    # Also: pooled coupling single-feature AUCs (sanity vs #134)
-    mean_mi = Xc[:, 3]  # mean MI slot
+    mean_mi = Xc[:, 3]
     pooled_mi_auc = _auc(mean_mi, y)
-    print(f"  pooled mean-MI AUC (all forms, no LOFO)={pooled_mi_auc:.3f}  "
+    print(f"  pooled mean-MI AUC (all forms)={pooled_mi_auc:.3f}  "
           f"(#134-style check)")
 
-    h1 = (
-        ctrl
-        and lift_auc >= 0.15
-        and mean_auc_s >= 0.70
-    )
-    h2 = ctrl and abs(lift_auc) < 0.05
-    det_gain = lift_auc >= 0.15 and mean_auc_s >= 0.70
-    mag_gain = lift_rho >= 0.10
-    h3 = ctrl and ((det_gain and not mag_gain) or (mag_gain and not det_gain))
+    # H1: prefer AUC when ≥2 mixed folds; else surplus
+    if n_mixed >= 2 and not np.isnan(lift_auc):
+        h1 = ctrl and lift_auc >= 0.15 and mean_auc_s >= 0.70
+        gap_for_h2 = abs(lift_auc)
+    else:
+        h1 = ctrl and lift_sur >= 0.10 and mean_sur_s >= 0.10
+        gap_for_h2 = abs(lift_sur)
+        lift_auc = lift_sur  # report the active lift
+        mean_auc_c = mean_sur_c
+        mean_auc_s = mean_sur_s
 
-    # mutual exclusion cleanup: if H1 and H2 both true somehow, prefer H1
+    h2 = ctrl and gap_for_h2 < 0.05
+    det_gain = h1
+    mag_gain = (not np.isnan(lift_rho)) and lift_rho >= 0.10
+    h3 = ctrl and ((det_gain and not mag_gain) or (mag_gain and not det_gain))
     if h1 and h2:
         h2 = False
 
-    if h1 and not h3:
+    if h1 and mag_gain:
         verdict_word = "STRUCTURE_GENERALIZES"
         reading = (
-            "STRUCTURE_GENERALIZES — connectivity+function LOFO AUC beats "
-            "coupling across held-out topologies; #22 affirmative"
+            "STRUCTURE_GENERALIZES — connectivity+function beats coupling "
+            "on held-out topologies for detection and magnitude; #22 yes"
         )
-    elif h1 and h3:
+    elif h1 and not mag_gain:
         verdict_word = "STRUCTURE_DETECTS_NOT_MAG"
+        h3 = True
         reading = (
-            "STRUCTURE_DETECTS_NOT_MAG — structure-aware lifts detection "
-            "LOFO but not magnitude (or vice versa)"
+            "STRUCTURE_DETECTS_NOT_MAG — structure-aware lifts LOFO "
+            "detection over coupling; magnitude gain <0.10"
         )
-    elif h3 and not h1:
-        verdict_word = "STRUCTURE_PARTIAL"
+    elif h3 and mag_gain and not det_gain:
+        verdict_word = "STRUCTURE_MAG_NOT_DETECT"
         reading = (
-            "STRUCTURE_PARTIAL — asymmetric gain (detection vs magnitude)"
+            "STRUCTURE_MAG_NOT_DETECT — magnitude lifts; detection does not"
         )
     elif h2:
         verdict_word = "NO_STRUCTURE_GAIN"
@@ -529,25 +606,16 @@ def main():
     else:
         verdict_word = "STRUCTURE_FAILS"
         reading = (
-            "STRUCTURE_FAILS — structure-aware does not clear H1; "
-            "cross-topology gap remains"
+            "STRUCTURE_FAILS — structure-aware does not beat coupling under "
+            "topology holdout; #22 negative on this panel"
         )
-
-    # refine H3 labeling when H1 holds with mag failure
-    if h1 and not mag_gain:
-        verdict_word = "STRUCTURE_DETECTS_NOT_MAG"
-        reading = (
-            "STRUCTURE_DETECTS_NOT_MAG — structure-aware beats coupling on "
-            "LOFO detection; magnitude gain <0.10; #22 partial on mag"
-        )
-        h3 = True
 
     print()
     print("HYPOTHESIS TESTS")
     print("-" * 80)
     print(f"  H1 (structure beats coupling LOFO): "
           f"{'SUPPORTED' if h1 else 'REFUTED'}  "
-          f"(lift={lift_auc:+.3f}, AUC_s={mean_auc_s:.3f})")
+          f"(det_lift={lift_auc:+.3f}, score_s={mean_auc_s:.3f})")
     print(f"  H2 (no gain |Δ|<0.05):              "
           f"{'SUPPORTED' if h2 else 'REFUTED'}")
     print(f"  H3 (detect≠magnitude gain):         "
@@ -564,6 +632,7 @@ def main():
           f"mean_auc_structure={mean_auc_s:.3f}  lift={lift_auc:+.3f}")
     print(f"  mean_rho_coupling={mean_rho_c:.3f}  "
           f"mean_rho_structure={mean_rho_s:.3f}  lift={lift_rho:+.3f}")
+    print(f"  n_mixed_families={n_mixed}  n_forms={len(rows)}")
     print(f"  reading: {reading}")
     print(f"  elapsed_total={round(time.time() - t_all, 1)}s")
     print("=" * 80)
@@ -602,6 +671,7 @@ def main():
             "mean_rho_structure": f"{mean_rho_s:.6f}",
             "lift_rho": f"{lift_rho:.6f}",
             "n_forms": len(rows),
+            "n_mixed_families": n_mixed,
             "reading": reading,
         }
         w = csv.DictWriter(fh, fieldnames=list(summary.keys()))

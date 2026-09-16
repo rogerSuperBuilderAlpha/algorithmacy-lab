@@ -62,6 +62,9 @@ runnable design yet. Themes group them; numbering is 1–50.
     across families, given that pairwise coupling inverts across topology (#134)?
 22. Does a structure-aware surrogate (a graph neural net on the connectivity-plus-function input)
     generalize across topology where coupling features fail (#129, #134)?
+    **Answered — no material gain on a designed LOFO panel.** Structure-aware RF
+    (cm+function) LOFO AUC 0.993 vs coupling 0.944 (lift +0.049 < 0.15).
+    See `studies/structure_aware_surrogate/` NO_STRUCTURE_GAIN.
 23. What trajectory length is needed to estimate the verdict at a fixed confidence — the sample
     complexity of the cheap screen (#122)?
 24. How fast does estimability degrade under partial observation — a hidden node, or a party observed

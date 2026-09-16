@@ -3940,6 +3940,20 @@
       "source": "org_frontier/studies/construct_gates_seal/FINDINGS.md"
     },
     {
+      "name": "structure-aware-surrogate",
+      "cmd": "python org_frontier/studies/structure_aware_surrogate/analyze_surrogate.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (structure beats coupling LOFO): REFUTED",
+        "H2 (no gain |Δ|<0.05):              SUPPORTED",
+        "H3 (detect≠magnitude gain):         REFUTED",
+        "verdict: NO_STRUCTURE_GAIN",
+        "reading: NO_STRUCTURE_GAIN — structure-aware ≈ coupling under LOFO"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/structure_aware_surrogate/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
