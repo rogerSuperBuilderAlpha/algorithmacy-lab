@@ -273,6 +273,7 @@ Deep single-question dives, each driven by its own results.
 Multi-experiment batteries on one theme.
 
 - **[Active label acquisition (agenda #25)](org_frontier/studies/active_label_acquisition/README.md)** — labels), no acquisition policy beats random by the pre-registered
+- **[Agent protocol triad (#37)](org_frontier/studies/agent_protocol_triad/README.md)** — the same way the commit does (COMMIT_READ / probe #88): conveyors and
 - **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast

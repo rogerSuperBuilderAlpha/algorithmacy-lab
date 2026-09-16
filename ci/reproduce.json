@@ -4210,6 +4210,23 @@
       "source": "org_frontier/studies/coordination_lattice/FINDINGS.md"
     },
     {
+      "name": "agent-protocol-triad",
+      "cmd": "python org_frontier/studies/agent_protocol_triad/analyze_protocols.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (protocol encoding flips like commit): SUPPORTED",
+        "H2 (always dyadic without human):         REFUTED",
+        "H3 (some protocols triadic, no human):    SUPPORTED",
+        "classical \u2245 joint_AND:                    YES",
+        "verification grid:    PASS",
+        "best next:            #38 tool-in-core (inference displacement)",
+        "verdict: PROTOCOL_IS_COMMIT \u2014 protocol design sets dyadic vs triadic by the same COMMIT_READ / joint-commit cut as human mediation; 4 no-human forms are protocol-triadic (AND/OR/NAND/XOR); relay/broadcast/side-channel stay dyadic",
+        "reading: PROTOCOL_IS_COMMIT \u2014 a negotiation protocol is triadic without a human iff both agents jointly determine P and read P; LLM-style agents sit on the same conveyor-vs-commit cut (#88)"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/agent_protocol_triad/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
