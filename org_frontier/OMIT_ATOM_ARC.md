@@ -60,8 +60,8 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
 
 ## Best next
 
-Construct ladders done:
-[`construct_ladders_n5/`](studies/construct_ladders_n5/) BOUNDARY_TRANSFERS.
-Role-target synthesis: [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md).
-Next: another multi-role indeg, or n=6 construct ladders. Skip residual /
-cascade / ternary unless tooling lands.
+Construct×scale synthesis:
+[`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md)
+(PHI_TRACKS_NM1_ALL across HMC/CMC/AI-MC × n∈{5,6}). Role-target:
+[`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md). Skip another multi-role
+indeg. Residual / cascade / ternary unless tooling lands.

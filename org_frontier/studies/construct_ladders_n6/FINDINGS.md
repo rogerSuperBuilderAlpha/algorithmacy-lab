@@ -73,11 +73,9 @@ pointed only.
 
 ## Best next experiment
 
-Close the construct×scale cell: synthesis note pairing
-BOUNDARY_TRANSFERS with PHI_TRACKS_NM1_ALL, or probe one non-monotone
-gate on a CMC/AI-MC full-bind (gate arm already says affine morphs).
-Skip residual / cascade / ternary / omit-arc. Prefer that over another
-multi-role indeg.
+Done: [`CONSTRUCT_LADDER_ARC.md`](../../CONSTRUCT_LADDER_ARC.md).
+Next: XOR/MAJ full-bind on CMC/AI-MC (gate-regime transfer). Skip
+residual / cascade / ternary / omit-arc.
 
 ## Reproduce
 

@@ -49,7 +49,6 @@ Already-pure under cycle type alone: `(0,1,1,1,1,2)` —
 
 ## Best next
 
-CMC / AI-MC ladders done:
-[`construct_ladders_n5/`](studies/construct_ladders_n5/) BOUNDARY_TRANSFERS.
-Next: another multi-role indeg, or n=6 construct ladders. Skip residual /
-cascade / ternary unless tooling lands.
+Construct×scale synthesis:
+[`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md). Skip another
+multi-role indeg. Residual / cascade / ternary unless tooling lands.
