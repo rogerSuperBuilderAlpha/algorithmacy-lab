@@ -179,6 +179,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     C out; Φ flat (not smooth). See `studies/ai_fidelity_displace/`.
 41. In multi-agent RL, does the emergent coordination structure's verdict predict whether the agents can
     learn the task (a behavioral test the static ABM nulls #98, #107 leave open)?
+    **Answered — EMERGENT_NULL.** Emergent Φ/verdict after tabular Q-learn does not predict
+    learnability; open-loop success on AND/OR; extends #98/#107. See
+    `studies/marl_emergent_learn/`. AI lane #37–#41 closable
+    (`AI_MULTIAGENT_ARC.md`).
 
 ## I. Construct validity and organization-theory bridges
 

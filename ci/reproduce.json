@@ -4278,6 +4278,22 @@
       "source": "org_frontier/studies/ai_fidelity_displace/FINDINGS.md"
     },
     {
+      "name": "marl-emergent-learn",
+      "cmd": "python org_frontier/studies/marl_emergent_learn/analyze_marl.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (emergent predicts learnability):  REFUTED",
+        "H2 (designed verdict predicts difficulty): REFUTED",
+        "H3 (success \u21d2 emergent triadic on des-tri): REFUTED",
+        "verification grid:    PASS",
+        "best next:            AI lane closable \u2014 synthesis in AI_MULTIAGENT_ARC.md",
+        "verdict: EMERGENT_NULL \u2014 emergent coordination verdict after tabular MARL does not predict task learnability (AUC emerg\u2192success=0.555, emerg\u2192easy=0.485); designed verdict still fails (#98-like AUC=0.456); successful AND/OR learners induce open-loop non-triadic policies \u2014 extends #98/#107; association only, not causal",
+        "reading: EMERGENT_NULL \u2014 the #98/#107 gap does not close when the verdict is read on the learned policy loop; irreducibility and learnability remain different things; candid tabular proxy \u2260 deep MARL; AI lane #37\u2013#41 closable"
+      ],
+      "timeout": 90,
+      "source": "org_frontier/studies/marl_emergent_learn/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
