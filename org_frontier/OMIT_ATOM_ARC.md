@@ -56,8 +56,9 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    (role-target grain generalizes; z_targets splits (2,) on (0,0,1,1,1,3));
    [`indeg_000123_grain/`](studies/indeg_000123_grain/) JOINT_TZ_LAW
    (both t and z vary on (0,0,0,1,2,3); joint grain; z-cut sufficient).
+   Role-target synthesis: [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md).
 
 ## Best next
 
-Construct arm, or another multi-role indeg. Skip residual / cascade /
-ternary unless tooling lands.
+CMC / AI-MC encoding ladders at n=5, or another multi-role indeg. Skip
+residual / cascade / ternary unless tooling lands.
