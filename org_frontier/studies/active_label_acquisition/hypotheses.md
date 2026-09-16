@@ -11,12 +11,12 @@ first when training a surrogate (active learning over the corpus)?
 
 **Universe.** Exact binary IIT-4.0 labels already on the
 `spectral_invariant` panel (N=36; features = spectral + coupling).
-Simulate acquisition; no new Φ compute. Surrogate = RF on those
-features. Honest N; multiple seeds.
+Simulate acquisition; no new Φ compute. Surrogate = logistic
+regression on those features (fit budget). Honest N; multiple seeds.
 
 **Acquisition policies.**
 - **random** — uniform among unlabeled.
-- **uncertainty** — smallest `|p−0.5|` under RF fit on labeled.
+- **uncertainty** — smallest `|p−0.5|` under logistic fit on labeled.
 - **diversity** — farthest (euclidean, standardized) from nearest labeled.
 - **topo_balance** — prefer underrepresented families; tie-break by
   uncertainty.

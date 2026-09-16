@@ -3982,6 +3982,20 @@
       "source": "org_frontier/studies/spectral_invariant/FINDINGS.md"
     },
     {
+      "name": "active-label-acquisition",
+      "cmd": "python org_frontier/studies/active_label_acquisition/analyze_active.py",
+      "expect": [
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (uncertainty ≻ random pooled): REFUTED",
+        "H2 (topo_balance ≻ unc. LOFO):    REFUTED",
+        "H3 (no policy beats random):      SUPPORTED",
+        "verdict: AL_NO_GAIN",
+        "reading: AL_NO_GAIN — no acquisition policy beats random by ≥0.03 on pooled curves; label order secondary on this panel"
+      ],
+      "timeout": 240,
+      "source": "org_frontier/studies/active_label_acquisition/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

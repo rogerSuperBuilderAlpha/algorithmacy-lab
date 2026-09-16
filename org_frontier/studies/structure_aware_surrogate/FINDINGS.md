@@ -62,9 +62,9 @@ labels via `classify_rules`. Evidence about models, not organizations.
 
 ## Best next experiment
 
-Done: [`sample_complexity_screen/`](../sample_complexity_screen/)
-FAST_WITHIN_FAMILY (#23). Prefer **#21** spectral or **#25** active
-learning. Skip construct/omit/ladder.
+Done: #23 FAST_WITHIN_FAMILY, #21 SPECTRAL_PARTIAL, #25 **AL_NO_GAIN**,
+lane note [`ESTIMATION_ARC.md`](../../ESTIMATION_ARC.md). Estimation
+lane **closable**. Skip construct/omit/ladder.
 
 ## Reproduce
 

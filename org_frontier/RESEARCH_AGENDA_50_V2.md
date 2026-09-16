@@ -77,6 +77,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     only intermittently?
 25. Which forms are most informative to label first when training a surrogate (active learning over the
     corpus)?
+    **Answered — AL_NO_GAIN.** Uncertainty Δ=+0.015 vs random on pooled
+    (H1/H2 refuted; H3 supported). Topo-balance hurts under LOFO.
+    See `studies/active_label_acquisition/`; lane note
+    `ESTIMATION_ARC.md` (closable).
 
 ## F. The holistic residual
 

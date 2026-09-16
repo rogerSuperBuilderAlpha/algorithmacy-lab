@@ -16,9 +16,10 @@ import sys
 import time
 
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
 
 _REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 if _REPO_ROOT not in sys.path:
@@ -41,9 +42,8 @@ FEATURE_COLS = [
 ]
 POLICIES = ("random", "uncertainty", "diversity", "topo_balance")
 SEED0 = 25
-RF_N = 200
 N_SEEDS_POOLED = 20
-N_SEEDS_LOFO = 10
+N_SEEDS_LOFO = 8
 SEED_LABELED = 4
 AUC_HIT = 0.85
 
@@ -59,13 +59,16 @@ def load_panel():
 
 
 def fit_proba(X_lab, y_lab, X_query, rng_state):
+    if len(y_lab) == 0:
+        return np.full(len(X_query), 0.5)
     if len(np.unique(y_lab)) < 2:
-        # degenerate: predict majority
-        p = float(y_lab.mean()) if len(y_lab) else 0.5
+        p = float(y_lab.mean())
         return np.full(len(X_query), p)
-    clf = RandomForestClassifier(
-        n_estimators=RF_N, random_state=int(rng_state) % (2**31 - 1),
-        n_jobs=1,
+    clf = make_pipeline(
+        StandardScaler(),
+        LogisticRegression(
+            max_iter=500, random_state=int(rng_state) % (2**31 - 1),
+        ),
     )
     clf.fit(X_lab, y_lab)
     return clf.predict_proba(X_query)[:, 1]
@@ -238,7 +241,7 @@ def main():
     print("AGENDA #25 — ACTIVE LABEL ACQUISITION")
     print("=" * 80)
     print("  cited: ESTIMATION_ARC (#21–#23); spectral_invariant panel")
-    print("  oracle: exact Φ labels (precomputed); RF on spectral+coupling feats")
+    print("  oracle: exact Φ labels (precomputed); logistic on spectral+coupling feats")
     print("  policies: random / uncertainty / diversity / topo_balance")
     print("  hypotheses fixed in hypotheses.md before computing")
     print("=" * 80)

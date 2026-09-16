@@ -50,8 +50,18 @@ surrogate failure; #134 coupling inversion; cascade/residual arm in
    exact Φ). Do not expect one coupling or GNN-style surrogate to travel
    across topology without labels from that class.
 
+## Active learning (#25)
+
+[`active_label_acquisition/`](studies/active_label_acquisition/) —
+**AL_NO_GAIN.** Uncertainty mean AUC 0.901 vs random 0.886 (Δ=+0.015);
+topo_balance loses under LOFO mid-budget (0.518 vs uncertainty 0.690).
+Label order is secondary; it does not repair the topology bottleneck.
+
 ## Best next
 
-Agenda **#25** (active learning: which forms to label first). Then the
-estimation lane is closable unless #25 opens a real gap. Skip #24
-partial observation unless needed. Construct/omit/ladder stay closed.
+**Estimation lane closable.** #21–#23 plus #25 fix the picture:
+within-family MI is cheap and fast; cross-topo needs family-matched
+labels or selective exact Φ; structure-aware, spectral, and active
+acquisition are partial or null levers, not a closed invariant.
+Optional later (outside this lane): agenda **#24** partial observation.
+Construct/omit/ladder stay closed.

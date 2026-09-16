@@ -63,9 +63,9 @@ not traj-MI — this study targets the #122 coupling screen lineage.
 
 ## Best next experiment
 
-Done: [`spectral_invariant/`](../spectral_invariant/) SPECTRAL_PARTIAL (#21).
-Prefer **#25** active learning or stop the estimation lane with a short
-note. Skip construct/omit/ladder.
+Done: #21 SPECTRAL_PARTIAL, #25 **AL_NO_GAIN**, lane note
+[`ESTIMATION_ARC.md`](../../ESTIMATION_ARC.md). Estimation lane
+**closable**. Optional later: agenda **#24**. Skip construct/omit/ladder.
 
 ## Reproduce
 

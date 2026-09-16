@@ -55,11 +55,10 @@ No torch GNN. No organization measured.
 
 ## Best next experiment
 
-Prefer agenda **#25** (active learning over forms to label) **or stop
-the estimation lane** with a short note tying #21–#23: within-family MI
-is cheap and fast; cross-topo needs something beyond coupling; spectral
-gap is a partial, not sufficient, invariant. Do not reopen
-construct/omit/ladder.
+Done: #25 **AL_NO_GAIN** (`active_label_acquisition/`) and lane note
+[`ESTIMATION_ARC.md`](../../ESTIMATION_ARC.md). Estimation lane
+**closable**. Optional later: agenda **#24** partial observation. Do
+not reopen construct/omit/ladder.
 
 ## Reproduce
 
