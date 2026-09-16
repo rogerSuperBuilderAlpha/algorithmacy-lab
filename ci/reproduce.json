@@ -4140,6 +4140,22 @@
       "source": "org_frontier/studies/continuous_time_invariance/FINDINGS.md"
     },
     {
+      "name": "scaling-laws-closed-form",
+      "cmd": "python org_frontier/studies/scaling_laws_closed_form/verify_laws.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "C1 conjunctive \u03a6=n-1:     PARTIAL (cut proved; MIP id partial)",
+        "C2 pool \u03a6=n(n-1):         PARTIAL (cut proved; MIP id partial)",
+        "C3 parity \u03a6=2^(2-n):      PARTIAL (cut+sel proved; MIP id partial)",
+        "verification grid:        PASS",
+        "best next:                #49 min-cut MIP (closes MIP gaps)",
+        "verdict: PARTIAL_PROOFS \u2014 GID cut formulas proved for all three laws; MIP identity verified n\u22645 (hub n\u22646), conjectured for general n",
+        "reading: PARTIAL_PROOFS \u2014 conjunctive/pool/parity closed forms follow from selectivity \u00d7 PMI on the hub-preserving or complete atomic cut; remaining gap is SET_UNI/BI MIP uniqueness (#49)"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/scaling_laws_closed_form/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
