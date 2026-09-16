@@ -62,8 +62,9 @@ measured.
 
 ## Best next experiment
 
-Prefer agenda **#12** (continuous-time). Stoch-temporal lane otherwise
-closable (`STOCH_TEMPORAL_ARC.md`). Do not reopen estimation /
+Done: #12 **STILL_DEPENDENT** (`continuous_time_invariance/`).
+Stoch-temporal lane **closable** (`STOCH_TEMPORAL_ARC.md`). Prefer
+agenda **#15+** (hierarchy / topology). Do not reopen estimation /
 construct / omit / ladder.
 
 ## Reproduce

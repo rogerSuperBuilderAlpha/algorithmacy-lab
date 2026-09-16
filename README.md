@@ -149,7 +149,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Research narrative: how the program has progressed, and a path forward](org_frontier/RESEARCH_NARRATIVE.md) — the narrative arc across questions
 - [Structural findings: what makes a coordination form irreducible](org_frontier/STRUCTURAL_FINDINGS.md) — the standing structural findings
 - [Omit-atom arc — working picture](org_frontier/OMIT_ATOM_ARC.md) — omit/discrete-Φ arc — motif-ruled atoms, scale morphs
-- [Stoch–temporal arc — working picture](org_frontier/STOCH_TEMPORAL_ARC.md) — stoch–temporal arc — noise, delay, coexistence, Φ-ascent
+- [Stoch–temporal arc — working picture](org_frontier/STOCH_TEMPORAL_ARC.md) — stoch–temporal arc — noise, delay, coexistence, CT proxy; closable
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review
 - [Paper pipeline — turning paper-less work into full-package research papers](org_frontier/PAPER_PIPELINE.md) — the plan to turn paper-less work into full papers
 - [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the open agenda — questions waiting for a contributor
@@ -282,6 +282,7 @@ Multi-experiment batteries on one theme.
 - **[Construct ladders at n=6 — HMC / CMC / AI-MC](org_frontier/studies/construct_ladders_n6/README.md)** — `pre_AND → full_AND` with whole triadic n_core=6, **Φ=5 (=n−1)** for AND
 - **[HMC / CMC / AI-MC at n>3](org_frontier/studies/constructs_n_gt3/README.md)** — plus idle parties) stays a **2-core**. CMC conveyors stay non-commit (whole
 - **[Contingency transitions — the operations that move an intermediary between cells](org_frontier/studies/contingency_transitions/README.md)** — The four cells of the taxonomy form a state machine, and six named operations are its edges. Each operation is
+- **[Continuous-time grain/schedule invariance (agenda #12)](org_frontier/studies/continuous_time_invariance/README.md)** — softens #112’s discrete wipeout but does **not** restore a
 - **[Coordination-logic atlas](org_frontier/studies/coordination_logic_atlas/README.md)** — Fifty coordination forms, classified by exact IIT-4.0 Φ. Thirty-six verdicts matched the
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
 - **[Correlated output noise (agenda #5)](org_frontier/studies/correlated_output_noise/README.md)** — (a shared-coin SBS TPM that is not conditionally independent) does

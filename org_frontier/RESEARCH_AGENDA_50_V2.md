@@ -60,6 +60,10 @@ runnable design yet. Themes group them; numbering is 1–50.
     `studies/oscillatory_scaling/`.
 12. Computed in continuous time rather than by discrete update, is the verdict grain-and-schedule
     invariant after all (#112 found no discrete invariant)?
+    **Answered — STILL_DEPENDENT.** CTMC→expm embedding softens #112
+    (200/216 cells triadic vs discrete grain-2/seq 0/24) but extreme
+    rate asymmetry still flips 8/24 forms; native CT Φ unavailable on
+    PyPhi. See `studies/continuous_time_invariance/`.
 13. Is there a coupling regime with genuine bistability — a triadic and a dyadic attractor coexisting —
     beyond the hysteresis a sticky mediator showed (#109)?
     **Answered — GENUINE_COEXISTENCE.** 6/9 n=3 couplings host
