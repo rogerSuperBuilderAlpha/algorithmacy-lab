@@ -1,0 +1,27 @@
+{
+  "verdict": "INSTRUMENT_GAP",
+  "binary_control": true,
+  "sbs_shape": [
+    27,
+    27
+  ],
+  "network_accepted": false,
+  "reject_error": "ValueError: operands could not be broadcast together with shapes (27,27) (16,16) ",
+  "has_num_states_per_node": false,
+  "ci_off_trap": {
+    "log2_9": 3.169925001442312,
+    "int_log2_9": 3,
+    "accepted": true,
+    "tpm_shape": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "error": "",
+    "corrupt_interpretation": true,
+    "num_states": 8,
+    "size": 3
+  },
+  "ternary_phi_smoke": false
+}

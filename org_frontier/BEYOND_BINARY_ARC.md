@@ -7,35 +7,39 @@ estimation / construct-omit stay closed except as pointers.
 ## Instrument status
 
 Lab pin: `pyphi @ feature/iit-4.0` (binary `Network` + `new_big_phi`).
-Ternary / mixed-radix TPMs are **rejected**. `pyphi@nonbinary` is
-IIT-3.0-era and not a substitute on Python 3.12.
 
-Agenda #1 instrument decision: **(C) NOT_TESTABLE** — see
-`studies/ternary_pivotality/INSTRUMENT.md`. (A) port deferred; (B)
-embeddings rejected for party-level exact Φ.
+| attempt | result |
+|---|---|
+| Path (C) #1 | **NOT_TESTABLE** — pin rejects ternary |
+| Path (A) port survey | **INSTRUMENT_GAP** — see `studies/multivalued_iit4_port/` |
+| Path (B) embeddings | rejected for #1 (not party-level exact Φ) |
+| `pyphi@nonbinary` | rejected (IIT-3.0; 3.12 import break; no `new_big_phi`) |
+
+**CI-off is not a fix:** it reinterprets `k^n` SBS as corrupt binary
+via `int(log2(…))`.
 
 ## #1 status
 
 | # | study | verdict |
 |---|---|---|
 | 1 | `ternary_pivotality/` | **NOT_TESTABLE** |
+| — | `multivalued_iit4_port/` | **INSTRUMENT_GAP** (path A) |
 
-Binary two-condition control holds; ternary science blocked on pin.
-Pointer: `shared_mediator_ternary/` (same tooling gap, merge question).
+Binary two-condition control holds. Ternary science blocked.
 
 ## #2–#4
 
-**Blocked** by the same instrument gate (graded commit; mixed-radix;
-higher-radix parity). Do not claim science until multivalued IIT-4.0
-(path A) lands.
+**Blocked** by the same instrument gate.
 
 ## Best next
 
-Path **(A)** residual — multivalued support on the IIT-4.0 pin — or
-park #2–#4 until that pin exists. No in-lane science shortcut.
+**Engineering (not science):** vendored IIT-4.0 fork with SBS-native
+mixed-radix TPM (M1 in `INSTRUMENT_GAP.md`). Do not reopen #1–#4
+science until ternary Φ smoke is green.
 
 ## Reproduce
 
 ```
+python org_frontier/studies/multivalued_iit4_port/analyze_port.py
 python org_frontier/studies/ternary_pivotality/analyze_pivot.py
 ```

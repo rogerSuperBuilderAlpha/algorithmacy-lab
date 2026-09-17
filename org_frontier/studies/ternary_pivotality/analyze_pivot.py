@@ -216,8 +216,8 @@ def main():
     print(f"  ternary science:      {status_ternary}")
     print(f"  verification grid:    {'PASS' if grid else 'FAIL'}")
     print(
-        "  best next:            #2–#4 blocked by same pin; "
-        "residual = multivalued IIT-4.0 (path A)"
+        "  best next:            vendor IIT-4.0 fork (INSTRUMENT_GAP M1); "
+        "#2–#4 blocked"
     )
     print()
     print(

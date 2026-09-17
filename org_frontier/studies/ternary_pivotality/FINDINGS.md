@@ -1,26 +1,28 @@
 # Ternary pivotality — findings
 
-**Verdict: NOT_TESTABLE.** Instrument path **(C)**. Exact IIT-4.0 on
-this lab’s PyPhi pin **rejects** ternary n=3 SBS `(27,27)`. Paths (A)
-port and (B) embeddings were evaluated and rejected for #1 (see
-`INSTRUMENT.md`). Binary two-condition control **holds**. Ternary
-pivotality (H3–H5) remains **open**, not a scientific null.
+**Verdict: NOT_TESTABLE.** Exact IIT-4.0 on this lab’s PyPhi pin
+**rejects** ternary n=3 SBS `(27,27)`. Path **(C)** stands. Path **(A)**
+was pursued separately (`multivalued_iit4_port/` → **INSTRUMENT_GAP**):
+no study-sized port; CI-off is a corrupt shim; `pyphi@nonbinary`
+rejected. Path **(B)** embeddings remain rejected for #1. Binary
+two-condition control **holds**. Ternary pivotality (H3–H5) remains
+**open**, not a scientific null.
 
 In-silico. Hypotheses fixed after the instrument decision. Cited:
-probes #11–#12; WAVE10 #5; `shared_mediator_ternary/` pointer. PE / AI /
-formal / stoch / estimation / construct-omit closed.
+probes #11–#12; WAVE10 #5; `shared_mediator_ternary/` pointer;
+`multivalued_iit4_port/INSTRUMENT_GAP.md`. PE / AI / formal / stoch /
+estimation / construct-omit closed.
 
 ## Instrument
 
 | path | decision |
 |---|---|
-| (A) multivalued IIT-4.0 port | not this turn (pin-level) |
+| (A) multivalued IIT-4.0 port | **INSTRUMENT_GAP** (see port study) |
 | (B) embedding/proxy | rejected — does not answer party-level exact Φ |
-| **(C) NOT_TESTABLE** | **chosen** |
+| **(C) NOT_TESTABLE** | **stands for #1 science** |
 
-Capability error: no `num_states_per_node`; SBS `(27,27)` broadcast
-fails against binary `(16,16)`. Same pin class as
-`shared_mediator_ternary/`.
+Capability error: no `num_states_per_node`; SBS `(27,27)` fails binary
+convert/CI. Same pin class as `shared_mediator_ternary/`.
 
 ## Hypotheses
 
@@ -42,19 +44,19 @@ fails against binary `(16,16)`. Same pin class as
 
 ## Reading
 
-Agenda #1 / WAVE10 #5 needs multivalued IIT-4.0 before any claim that
-ternary idle/engaged/overcommitted parties change (or preserve)
-pivotality. The binary two-condition account is healthy on this
-instrument; the graded question is blocked, not answered.
+Agenda #1 / WAVE10 #5 needs a vendored multivalued IIT-4.0 pin before
+any claim that ternary idle/engaged/overcommitted parties change (or
+preserve) pivotality. The binary two-condition account is healthy; the
+graded question is instrument-blocked, not answered.
 
 ## Best next
 
-**#2–#4** share the same pin gate. Residual: path **(A)** multivalued
-IIT-4.0. Do not run #2–#4 science until the instrument opens.
+**Engineering:** `multivalued_iit4_port/INSTRUMENT_GAP.md` M1 (vendored
+fork, SBS-native TPM). **#2–#4** stay blocked.
 
 ## Reproduce
 
 ```
 python org_frontier/studies/ternary_pivotality/analyze_pivot.py
+python org_frontier/studies/multivalued_iit4_port/analyze_port.py
 ```
-(<1 s)

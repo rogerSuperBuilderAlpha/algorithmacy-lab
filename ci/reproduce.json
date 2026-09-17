@@ -4449,12 +4449,32 @@
         "H4 (ternary bidir parties in):     NOT_TESTABLE",
         "H5 (graded changes pivotality):    NOT_TESTABLE",
         "verification grid:    PASS",
-        "best next:            #2\u2013#4 blocked by same pin; residual = multivalued IIT-4.0 (path A)",
+        "best next:            vendor IIT-4.0 fork (INSTRUMENT_GAP M1); #2\u2013#4 blocked",
         "verdict: NOT_TESTABLE \u2014 two-condition binary control holds; exact IIT-4.0 on this pin rejects ternary n=3 SBS ((27, 27)); path (A) port and (B) embeddings rejected for #1 (see INSTRUMENT.md); ternary pivotality remains open, not null",
         "reading: NOT_TESTABLE \u2014 agenda #1 / WAVE10 #5 needs multivalued IIT-4.0; shared_mediator_ternary pointer; PE/AI/formal/stoch/estimation/construct-omit closed; beyond-binary lane instrument-blocked"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/ternary_pivotality/FINDINGS.md"
+    },
+    {
+      "name": "multivalued-iit4-port",
+      "cmd": "python org_frontier/studies/multivalued_iit4_port/analyze_port.py",
+      "expect": [
+        "binary control \u03a6=2 triad:  PASS",
+        "default Network accept:    False",
+        "num_states_per_node API:   False",
+        "H_pin_rejects_ternary:     CONFIRMED",
+        "H_no_mv_api_on_pin:        CONFIRMED",
+        "H_ci_off_is_shim:          CONFIRMED  (int(log2(k^n)) trap)",
+        "H_nonbinary_branch_usable: REFUTED  (IIT-3.0; 3.12 import break; no new_big_phi)",
+        "ternary \u03a6 smoke:           BLOCKED",
+        "verification grid:    PASS",
+        "best next:            vendor feature/iit-4.0 fork; M1 SBS-native ExplicitTPM (see INSTRUMENT_GAP.md)",
+        "verdict: INSTRUMENT_GAP \u2014 path A surveyed: lab pin rejects ternary SBS at ExplicitTPM/convert (binary 2^n); CI-off reinterprets as corrupt binary; pyphi@nonbinary is IIT-3.0 and broken on 3.12; full new_big_phi multivalued port is multi-week, not a study patch; #1 remains NOT_TESTABLE",
+        "reading: INSTRUMENT_GAP \u2014 next engineering step is a vendored IIT-4.0 fork with SBS-only mixed-radix TPM then repertoire/new_big_phi; no embedding proxy; no nonbinary IIT-3.0 fallback"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/multivalued_iit4_port/FINDINGS.md"
     },
     {
       "name": "hmc-algo-boundary",
