@@ -141,6 +141,9 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 29. With two principals issuing conflicting commits, whose core wins, and is there a stable shared core
     (extends the single-principal study and #37)?
+    **Answered — CONFLICT_ENCODING.** Extractive asymmetry → one principal dominates; joint
+    COMMIT_READ → shared core; unresolved agenda/majority → collapse. See
+    `studies/dual_principal_conflict/`.
 30. If parties choose whether to join a coalition, do they endogenously form the coalition that maximizes
     their own core membership (#66 imposed it)?
 31. Does a worker union scale the same way a counterpart coalition does, and does it vanish past some

@@ -4310,6 +4310,22 @@
       "source": "org_frontier/studies/marl_deep_replicate/FINDINGS.md"
     },
     {
+      "name": "dual-principal-conflict",
+      "cmd": "python org_frontier/studies/dual_principal_conflict/analyze_dual.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (one principal dominates):     SUPPORTED  (n=3 dominate forms)",
+        "H2 (stable shared/joint core):    SUPPORTED  (n=6 shared forms)",
+        "H3 (collapse / both principals out): SUPPORTED  (n=4 collapse forms)",
+        "verification grid:    PASS",
+        "best next:            #30 endogenous coalition (alt #32 rival platforms)",
+        "verdict: CONFLICT_ENCODING \u2014 dual conflicting principals do not have a single winner rule: extractive asymmetry yields one-principal dominance ({S,A} / {S,B}); joint COMMIT_READ / joint principal commits yield a stable shared core; unresolved agenda conflict and majority / substitutable gates collapse \u2014 encoding decides, extending single-principal bidirectionality",
+        "reading: CONFLICT_ENCODING \u2014 whose core wins is set by the conflict encoding (dominate / share / collapse); a stable shared core exists when both principals jointly determine and read the commit; #37 pointer only"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/dual_principal_conflict/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
