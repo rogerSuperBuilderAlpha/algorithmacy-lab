@@ -170,6 +170,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     Wi. Extends #22. See `studies/gig_substitution/`.
 36. Does an extractive commit's ejection order (#110) predict which real platform stakeholders lose
     standing first?
+    **Answered — CO_EJECT_TO_OWNER.** Reproduces #110 ({W,S,C}→null→{S,P}, W/C co-eject); no fine
+    W≺C≺R order; R residual encoding-local. See `studies/ejection_order/`. PE lane #29–#36 closable.
 
 ## H. AI and multi-agent systems
 

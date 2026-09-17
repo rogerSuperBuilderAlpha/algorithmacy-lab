@@ -57,7 +57,7 @@ measured; stochastic substitution rate not swept (discrete r).
 
 ## Best next
 
-**#36** — extractive ejection order (PE lane closable after).
+**#36** — ejection order (**done** — CO_EJECT_TO_OWNER; **PE lane closable**).
 
 ## Reproduce
 

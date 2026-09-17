@@ -4424,6 +4424,22 @@
       "source": "org_frontier/studies/gig_substitution/FINDINGS.md"
     },
     {
+      "name": "ejection-order",
+      "cmd": "python org_frontier/studies/ejection_order/analyze_eject.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (#110 path co-eject\u2192owner):   SUPPORTED  (W|S|C \u2192 \u2205 \u2192 S|P)",
+        "H2 (strict W\u227aC\u227aR fine order):    REFUTED  (wc_split=False)",
+        "H3 (encoding sets residual):     SUPPORTED  (R endpoint disagree=True; ablate local=True)",
+        "verification grid:    PASS",
+        "best next:            PE lane closable \u2014 synthesis in POLITICAL_ECONOMY_ARC.md",
+        "verdict: CO_EJECT_TO_OWNER \u2014 extractive ejection reproduces #110: {W,S,C} \u2192 null \u2192 {S,P} with W/C co-ejection (role symmetry); no transferable fine order W\u227aC\u227aR; regulator standing and single-party ablation are encoding-local \u2014 the predictive claim for stakeholders is co-loss of parties under owner tilt, not a ranked first-loss list",
+        "reading: CO_EJECT_TO_OWNER \u2014 #110's order is the transferable result; extending stakeholders does not yield a universal ejection ranking beyond party co-ejection to the owner core; #29\u2013#35 pointers only; PE lane closable"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/ejection_order/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

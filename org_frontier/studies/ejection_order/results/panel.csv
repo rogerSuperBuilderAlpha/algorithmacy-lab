@@ -1,0 +1,23 @@
+name,family,note,n,structure,whole_phi,core,n_core,phi,W_in,C_in,P_in,R_in,null,owner_SP,owner_SPR,co_eject_WC,w_P,w_R,thr
+wP0_#110,tilt110,#110 w_P=0,4,dyadic,0.0,W|S|C,3,2.0,True,True,False,False,False,False,False,True,0,,
+wP1_#110,tilt110,#110 w_P=1,4,dyadic,0.0,,0,0.0,False,False,False,False,True,False,False,True,1,,
+wP2_#110,tilt110,#110 w_P=2,4,dyadic,0.0,S|P,2,2.0,False,False,True,False,False,True,False,True,2,,
+wP3_#110,tilt110,#110 w_P=3,4,dyadic,0.0,S|P,2,2.0,False,False,True,False,False,True,False,True,3,,
+wP0_Robs,tilt_R,R observe; w_P=0 thr=2,5,dyadic,0.0,W|S|C,3,2.0,True,True,False,False,False,False,False,True,0,0,2
+wP1_Robs,tilt_R,R observe; w_P=1 thr=2,5,dyadic,0.0,,0,0.0,False,False,False,False,True,False,False,True,1,0,2
+wP2_Robs,tilt_R,R observe; w_P=2 thr=2,5,dyadic,0.0,S|P,2,2.0,False,False,True,False,False,True,False,True,2,0,2
+wP0_Rg1_t3,tilt_R,R gate; w_P=0 thr=3,5,dyadic,0.0,W|S|C|R,4,3.0,True,True,False,True,False,False,False,True,0,1,3
+wP1_Rg1_t3,tilt_R,R gate; w_P=1 thr=3,5,dyadic,0.0,,0,0.0,False,False,False,False,True,False,False,True,1,1,3
+wP2_Rg1_t3,tilt_R,R gate; w_P=2 thr=3,5,dyadic,0.0,,0,0.0,False,False,False,False,True,False,False,True,2,1,3
+wP3_Rg1_t3,tilt_R,R gate; w_P=3 thr=3,5,dyadic,0.0,S|P,2,1.9999999999999984,False,False,True,False,False,True,False,True,3,1,3
+faithful,ladder,S'=W∧C; P monitors,4,dyadic,0.0,W|S|C,3,2.0,True,True,False,False,False,False,False,True,,,
+P_gates_mon,ladder,S'=W∧C∧P,4,triadic,3.0,W|S|C|P,4,3.0,True,True,True,False,False,False,False,True,,,
+S_eq_P,ladder,extractive S'=P,4,dyadic,0.0,S|P,2,2.0,False,False,True,False,False,True,False,True,,,
+S_eq_P_or_WC,ladder,S'=P∨(W∧C),4,dyadic,0.0,S|P,2,2.0,False,False,True,False,False,True,False,True,,,
+ablate_no_W,ablate,drop W from commit,4,dyadic,0.0,S|C|P,3,2.0,False,True,True,False,False,False,False,False,,,
+ablate_no_C,ablate,drop C from commit,4,dyadic,0.0,W|S|P,3,2.0,True,False,True,False,False,False,False,False,,,
+ablate_no_P,ablate,drop P from commit,4,dyadic,0.0,W|S|C,3,2.0,True,True,False,False,False,False,False,True,,,
+extract_P_and_R,endpoint,S'=P∧R,5,dyadic,0.0,S|P|R,3,2.0,False,False,True,True,False,False,True,True,,,
+extract_P_or_R,endpoint,S'=P∨R,5,dyadic,0.0,S|P|R,3,2.0,False,False,True,True,False,False,True,True,,,
+extract_S_eq_P_Rmon,endpoint,S'=P; R monitors only,5,dyadic,0.0,S|P,2,2.0,False,False,True,False,False,True,False,True,,,
+full_AND_WCPR,endpoint,joint all-required,5,triadic,4.0,W|S|C|P|R,5,4.0,True,True,True,True,False,False,False,True,,,
