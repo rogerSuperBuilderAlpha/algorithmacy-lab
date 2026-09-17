@@ -56,7 +56,7 @@ artifact (major complex still `{W,S,C}`).
 
 ## Best next
 
-**#35** — gig substitution (alt **#36** ejection order).
+**#35** — gig substitution (**done** — DROP_AT_FIRST_SUBST; next **#36**).
 
 ## Reproduce
 

@@ -1,0 +1,26 @@
+name,family,note,k,m,r,n,structure,whole_phi,core,n_core,phi,n_workers,n_workers_in,frac_workers_in,W1_in,all_workers_in,any_worker_in,drop,all_drop
+OR_k1,OR,full OR substitutable,1,1,0.0,3,triadic,2.0,W1|S|C,3,2.0,1,1,1.0,True,True,True,False,False
+OR_k2,OR,full OR substitutable,2,1,0.5,4,dyadic,0.0,S|C,2,2.0,2,0,0.0,False,False,False,True,True
+OR_k3,OR,full OR substitutable,3,1,0.666667,5,dyadic,0.0,S|C,2,2.0,3,0,0.0,False,False,False,True,True
+OR_k4,OR,full OR substitutable,4,1,0.75,6,dyadic,0.0,S|C,2,2.0,4,0,0.0,False,False,False,True,True
+m1of2,m_of_k,≥1 of 2 workers,2,1,0.5,4,dyadic,0.0,S|C,2,2.0,2,0,0.0,False,False,False,True,True
+m2of2,m_of_k,≥2 of 2 workers,2,2,0.0,4,triadic,3.0,W1|W2|S|C,4,3.0,2,2,1.0,True,True,True,False,False
+m1of3,m_of_k,≥1 of 3 workers,3,1,0.666667,5,dyadic,0.0,S|C,2,2.0,3,0,0.0,False,False,False,True,True
+m2of3,m_of_k,≥2 of 3 workers,3,2,0.333333,5,dyadic,0.0,S|C,2,2.0,3,0,0.0,False,False,False,True,True
+m3of3,m_of_k,≥3 of 3 workers,3,3,0.0,5,triadic,4.0,W1|W2|W3|S|C,5,4.0,3,3,1.0,True,True,True,False,False
+m1of4,m_of_k,≥1 of 4 workers,4,1,0.75,6,dyadic,0.0,S|C,2,2.0,4,0,0.0,False,False,False,True,True
+m2of4,m_of_k,≥2 of 4 workers,4,2,0.5,6,dyadic,0.0,S|C,2,2.0,4,0,0.0,False,False,False,True,True
+m3of4,m_of_k,≥3 of 4 workers,4,3,0.25,6,dyadic,0.0,S|C,2,2.0,4,0,0.0,False,False,False,True,True
+m4of4,m_of_k,≥4 of 4 workers,4,4,0.0,6,triadic,5.0,W1|W2|W3|W4|S|C,6,5.0,4,4,1.0,True,True,True,False,False
+AND_k1,solidarity,all-required,1,1,0.0,3,triadic,2.0,W1|S|C,3,2.0,1,1,1.0,True,True,True,False,False
+AND_k2,solidarity,all-required,2,2,0.0,4,triadic,3.0,W1|W2|S|C,4,3.0,2,2,1.0,True,True,True,False,False
+AND_k3,solidarity,all-required,3,3,0.0,5,triadic,4.0,W1|W2|W3|S|C,5,4.0,3,3,1.0,True,True,True,False,False
+AND_k4,solidarity,all-required,4,4,0.0,6,triadic,5.0,W1|W2|W3|W4|S|C,6,5.0,4,4,1.0,True,True,True,False,False
+named_subst_#22,named,#22 substitutable,2,1,0.5,4,dyadic,0.0,S|C,2,2.0,2,0,0.0,False,False,False,True,True
+named_both_#22,named,#22 both-required,2,2,0.0,4,triadic,3.0,W1|S|C|W2,4,3.0,2,2,1.0,True,True,True,False,False
+named_coal_#22,named,#22 worker coalition,2,2,0.0,4,dyadic,0.0,W1|W2,2,2.0,2,2,1.0,True,True,True,False,False
+W1req_ORrest_k2,asymm,W1 required; OR over rest,2,,,4,triadic,3.0,W1|W2|S|C,4,3.0,2,2,1.0,True,True,True,False,False
+W1req_ORrest_k3,asymm,W1 required; OR over rest,3,,,5,dyadic,0.0,W1|S|C,3,2.0,3,1,0.333333,True,False,True,True,False
+W1req_ORrest_k4,asymm,W1 required; OR over rest,4,,,6,dyadic,0.0,W1|S|C,3,2.0,4,1,0.25,True,False,True,True,False
+OR_weak_union_k2,union_OR,OR commit + weak peer union,2,1,0.5,4,dyadic,0.0,W1|W2,2,2.0,2,2,1.0,True,True,True,False,False
+OR_weak_union_k3,union_OR,OR commit + weak peer union,3,1,0.666667,5,dyadic,0.0,W1|W2|W3,3,6.0,3,3,1.0,True,True,True,False,False

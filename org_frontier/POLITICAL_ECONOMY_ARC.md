@@ -5,7 +5,7 @@ Short spine for the political-economy lane on `RESEARCH_AGENDA_50_V2`
 estimation, stoch-temporal, formal #47–#50, and AI #37–#41 stay closed
 except as pointers.
 
-## #29–#34 status
+## #29–#35 status
 
 | # | study | verdict |
 |---|---|---|
@@ -14,17 +14,18 @@ except as pointers.
 | 31 | `worker_union_scale/` | UNION_MIRRORS_COAL |
 | 32 | `rival_platforms/` | RIVAL_ENCODING |
 | 33 | `regulator_capture/` | SHARP_FULL_CAPTURE |
-| 34 | `algo_transparency/` | **OPEN_ACT_CUT** |
+| 34 | `algo_transparency/` | OPEN_ACT_CUT |
+| 35 | `gig_substitution/` | **DROP_AT_FIRST_SUBST** |
 
-Rule-open ≠ channel #24; act-on-opened-rule flips core or Φ-only;
-publish-unread is theater.
+Individual worker drops at first positive substitution rate (r>0);
+all-required solidarity never drops through k=4.
 
 ## Best next
 
-**#35** gig substitution (alt **#36** ejection order).
+**#36** extractive ejection order (PE lane closable after).
 
 ## Reproduce
 
 ```
-python org_frontier/studies/algo_transparency/analyze_transpar.py
+python org_frontier/studies/gig_substitution/analyze_gig.py
 ```

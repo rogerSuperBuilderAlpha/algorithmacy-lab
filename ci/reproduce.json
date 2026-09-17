@@ -4408,6 +4408,22 @@
       "source": "org_frontier/studies/algo_transparency/FINDINGS.md"
     },
     {
+      "name": "gig-substitution",
+      "cmd": "python org_frontier/studies/gig_substitution/analyze_gig.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (sharp drop at first subst):  SUPPORTED  (OR k1\u2192k2 drop; m-of-k r=0 in / r>0 out=True)",
+        "H2 (smooth dilution):            REFUTED  (binary frac 0/1 under symmetric m-of-k)",
+        "H3 (never drops under solidarity): SUPPORTED  (AND k=1..4 all workers in)",
+        "verification grid:    PASS",
+        "best next:            #36 ejection order (PE lane closable after)",
+        "verdict: DROP_AT_FIRST_SUBST \u2014 in a symmetric gig match, the individual worker drops from the major complex at the first positive substitution rate (r=1\u2212m/k>0, or OR with k\u22652); r=0 all-required keeps every Wi in through k=4; no smooth dilution \u2014 extends #22 to a size/rate sweep; #8 pointer only",
+        "reading: DROP_AT_FIRST_SUBST \u2014 substitutability is binary for core membership: any interchangeable worker pool ejects individuals from the platform core; solidarity (all-required) never does; #29\u2013#34 pointers only"
+      ],
+      "timeout": 240,
+      "source": "org_frontier/studies/gig_substitution/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

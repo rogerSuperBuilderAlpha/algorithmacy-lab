@@ -166,6 +166,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     ≠ channel #24. See `studies/algo_transparency/`.
 35. In a gig market with many substitutable workers, at what substitution rate does the individual worker
     drop from the core (#8, #22)?
+    **Answered — DROP_AT_FIRST_SUBST.** Workers in core iff r=0 (all-required); any r>0 ejects all
+    Wi. Extends #22. See `studies/gig_substitution/`.
 36. Does an extractive commit's ejection order (#110) predict which real platform stakeholders lose
     standing first?
 
