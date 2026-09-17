@@ -298,6 +298,7 @@ Multi-experiment batteries on one theme.
 - **[Encoding ladder — gate family robustness](org_frontier/studies/encoding_ladder_gates/README.md)** — are **not** gate-robust. Three regimes at n=5:
 - **[n=5 encoding ladder — HMC / literacy → algorithmacy](org_frontier/studies/encoding_ladder_n5/README.md)** — complex **2 → 3 → 4** while wholes stay dyadic. Core Φ can reach 3 on the
 - **[n=6 encoding ladder — does Φ track n−1?](org_frontier/studies/encoding_ladder_n6/README.md)** — as n=5: assist grows the core **2 → 3 → 4 → 5** with dyadic wholes; the
+- **[Endogenous coalition (#30)](org_frontier/studies/endogenous_coalition/README.md)** — maximize own major-complex membership, pure Nash are **all-out** and
 - **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity

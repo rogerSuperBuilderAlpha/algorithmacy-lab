@@ -4326,6 +4326,23 @@
       "source": "org_frontier/studies/dual_principal_conflict/FINDINGS.md"
     },
     {
+      "name": "endogenous-coalition",
+      "cmd": "python org_frontier/studies/endogenous_coalition/analyze_coalition.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (Nash recovers max-own-core pay): SUPPORTED",
+        "H2 (mismatch: max-own-core not\u2282Nash): SUPPORTED",
+        "H3 (multiple stable coalitions):     SUPPORTED",
+        "#66 imposed all-in is Nash & ejects P: YES",
+        "verification grid:    PASS",
+        "best next:            #31 worker-union scale (alt #32 rival platforms)",
+        "verdict: MULTI_NASH_MAXPAY \u2014 endogenous join/leave yields pure Nash {all-out, all-in} that both give max own-core pay; partial coalitions maximize some player yet are unstable (mismatch); #66's imposed full coalition is one equilibrium but not unique",
+        "reading: MULTI_NASH_MAXPAY \u2014 parties can endogenously sustain the #66 solidarity core, but also sustain no-coalition with equal membership pay; imposing the coalition selects one of two max-pay equilibria; #29 pointer only"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/endogenous_coalition/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

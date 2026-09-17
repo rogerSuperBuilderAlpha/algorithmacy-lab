@@ -146,6 +146,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     `studies/dual_principal_conflict/`.
 30. If parties choose whether to join a coalition, do they endogenously form the coalition that maximizes
     their own core membership (#66 imposed it)?
+    **Answered — MULTI_NASH_MAXPAY.** Pure Nash {all-out, all-in}; both max own-core pay;
+    #66 coalition is one eq, not unique. See `studies/endogenous_coalition/`.
 31. Does a worker union scale the same way a counterpart coalition does, and does it vanish past some
     size the way single-mediator triadicity did (#97)?
 32. A worker on two competing platforms — do the two cores compete for the worker, and does one win

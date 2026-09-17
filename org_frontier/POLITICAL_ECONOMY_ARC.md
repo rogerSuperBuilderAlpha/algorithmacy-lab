@@ -11,15 +11,23 @@ except as pointers.
 → **CONFLICT_ENCODING**
 
 Dual conflicting principals: dominate / share / collapse by commit
-encoding. Stable shared core exists under joint COMMIT_READ. Extends
-`principal/` bidirectionality.
+encoding. Stable shared core under joint COMMIT_READ.
+
+## #30 status
+
+[`studies/endogenous_coalition/`](studies/endogenous_coalition/)
+→ **MULTI_NASH_MAXPAY**
+
+Endogenous join/leave: pure Nash {all-out, all-in}; both max own-core
+pay; #66 full coalition is one eq, not unique; partial joins unstable.
 
 ## Best next
 
-**#30** endogenous coalition (alt **#32** rival platforms).
+**#31** worker-union scale (alt **#32** rival platforms).
 
 ## Reproduce
 
 ```
 python org_frontier/studies/dual_principal_conflict/analyze_dual.py
+python org_frontier/studies/endogenous_coalition/analyze_coalition.py
 ```
