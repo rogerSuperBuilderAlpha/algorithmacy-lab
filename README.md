@@ -331,6 +331,7 @@ Multi-experiment batteries on one theme.
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
 - **[Residual phase boundary on unc k=2 misses (F28)](org_frontier/studies/residual_phase_boundary_unc/README.md)** — One-bit truth-table flips flip the exact Φ verdict for **37.1%** of neighbours of the 75 n=4
+- **[Rival platforms (#32)](org_frontier/studies/rival_platforms/README.md)** — a single winner rule. Substitutable `W'=S1∨S2` / XOR → **equal-Φ
 - **[Same-indeg Φ=8 vs 9 band at n=6](org_frontier/studies/same_indeg_band_n6/README.md)** — n=6 fixed_k=4, **Φ=9 iff cycles ∈ {(5,), (2,3)}**; otherwise **Φ=8**. All six
 - **[Sample complexity of the cheap screen (agenda #23)](org_frontier/studies/sample_complexity_screen/README.md)** — family, mean pairwise MI already hits AUC **0.97 at T=125** (noise 0.08
 - **[Scaling laws closed-form (#47)](org_frontier/studies/scaling_laws_closed_form/README.md)** — See [`../mincut_mip/`](../mincut_mip/) and `FORMAL_THEORY_ARC.md`
