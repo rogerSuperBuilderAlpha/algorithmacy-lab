@@ -150,6 +150,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     #66 coalition is one eq, not unique. See `studies/endogenous_coalition/`.
 31. Does a worker union scale the same way a counterpart coalition does, and does it vanish past some
     size the way single-mediator triadicity did (#97)?
+    **Answered — UNION_MIRRORS_COAL.** Cell-for-cell match to counterpart coalition; persists at
+    n=6 (does not vanish like #97). See `studies/worker_union_scale/`.
 32. A worker on two competing platforms — do the two cores compete for the worker, and does one win
     (extends #73 to rivalrous platforms)?
 33. A regulator that gates the platform but is itself gated by it: at what coupling does oversight become

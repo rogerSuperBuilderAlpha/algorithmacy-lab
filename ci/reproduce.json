@@ -4343,6 +4343,23 @@
       "source": "org_frontier/studies/endogenous_coalition/FINDINGS.md"
     },
     {
+      "name": "worker-union-scale",
+      "cmd": "python org_frontier/studies/worker_union_scale/analyze_scale.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (union scales like counterpart coal): SUPPORTED",
+        "H2 (vanishes past size, #97-like):        REFUTED",
+        "H3 (different scaling vs counterpart):   REFUTED",
+        "worker persists at n=6 (\u2260#97 vanish): YES",
+        "verification grid:    PASS",
+        "best next:            #32 rival platforms (alt #33 regulator capture)",
+        "verdict: UNION_MIRRORS_COAL \u2014 worker union matches counterpart coalition cell-for-cell (\u03a6, n_core, core==group) under weak/strong/P; solidarity persists through n=6 (core=peer group) and does not vanish like #97's random single-mediator triadicity",
+        "reading: UNION_MIRRORS_COAL \u2014 role symmetry (#55) extends to union scaling; designed peer solidarity is the structure that survives at scale where random mediation disappears (#97); #29/#30 pointers only"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/worker_union_scale/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
