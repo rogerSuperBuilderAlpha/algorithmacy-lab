@@ -158,6 +158,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     joint cross-read span, or idle drop — encoding decides. See `studies/rival_platforms/`.
 33. A regulator that gates the platform but is itself gated by it: at what coupling does oversight become
     capture (#76, #111)?
+    **Answered — SHARP_FULL_CAPTURE.** Under mutual gate, oversight holds until R reads full {W,S,C};
+    that step collapses to {S,R}. See `studies/regulator_capture/`.
 34. Does opening the commit function to the parties (algorithmic transparency of the rule, not the
     channel #24) change the structural verdict?
 35. In a gig market with many substitutable workers, at what substitution rate does the individual worker

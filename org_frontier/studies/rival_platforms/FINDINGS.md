@@ -72,7 +72,7 @@ tied maxima; no organization measured.
 
 ## Best next
 
-**#33** — regulator capture (alt **#34** algorithmic transparency).
+**#33** — regulator capture (**done** — SHARP_FULL_CAPTURE; next **#34**).
 
 ## Reproduce
 

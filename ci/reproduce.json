@@ -4376,6 +4376,22 @@
       "source": "org_frontier/studies/rival_platforms/FINDINGS.md"
     },
     {
+      "name": "regulator-capture",
+      "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (sharp capture threshold):     SUPPORTED  (pair=(2, 3))",
+        "H2 (smooth membership shift):     REFUTED  (smooth_run=1 jump=True)",
+        "H3 (stays out / always in):       REFUTED  (out=True in=True)",
+        "verification grid:    PASS",
+        "best next:            #34 algorithmic transparency (alt #35 gig substitution)",
+        "verdict: SHARP_FULL_CAPTURE \u2014 oversight becomes capture at a sharp coupling cut: under mutual gate S'=W\u2227C\u2227R, R'=S (or partial party reads) keeps oversight {W,S,C,R}; only full R'=W\u2227S\u2227C collapses the major complex to {S,R}; extractive S\u2190R is the same capture core; no-gate controls keep R out \u2014 extends #76/#111 with the principal-style hollowing cut",
+        "reading: SHARP_FULL_CAPTURE \u2014 a regulator that gates and is gated stays oversight until the platform fully determines the regulator; that single step is capture, not a smooth membership glide; #29\u2013#32 pointers only"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/regulator_capture/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
