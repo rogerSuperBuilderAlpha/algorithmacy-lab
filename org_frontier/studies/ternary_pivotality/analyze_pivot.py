@@ -216,16 +216,16 @@ def main():
     print(f"  ternary science:      {status_ternary}")
     print(f"  verification grid:    {'PASS' if grid else 'FAIL'}")
     print(
-        "  best next:            vendor IIT-4.0 fork (INSTRUMENT_GAP M1); "
+        "  best next:            M2 SBS-native backward_tpm (INSTRUMENT_GAP); "
         "#2–#4 blocked"
     )
     print()
     print(
         f"verdict: {verdict_s} — two-condition binary control holds; "
-        f"exact IIT-4.0 on this pin rejects ternary n=3 SBS "
-        f"({detail['sbs_shape']}); path (A) port and (B) embeddings "
-        f"rejected for #1 (see INSTRUMENT.md); ternary pivotality "
-        f"remains open, not null"
+        f"stock IIT-4.0 pin rejects ternary n=3 SBS "
+        f"({detail['sbs_shape']}); path (A) M1 SBS-native overlay "
+        f"green but Φ still M2-blocked; (B) embeddings rejected for #1; "
+        f"ternary pivotality remains open, not null"
     )
     print(
         "reading: NOT_TESTABLE — agenda #1 / WAVE10 #5 needs multivalued "

@@ -1,12 +1,13 @@
 # Ternary pivotality — findings
 
 **Verdict: NOT_TESTABLE.** Exact IIT-4.0 on this lab’s PyPhi pin
-**rejects** ternary n=3 SBS `(27,27)`. Path **(C)** stands. Path **(A)**
-was pursued separately (`multivalued_iit4_port/` → **INSTRUMENT_GAP**):
-no study-sized port; CI-off is a corrupt shim; `pyphi@nonbinary`
-rejected. Path **(B)** embeddings remain rejected for #1. Binary
-two-condition control **holds**. Ternary pivotality (H3–H5) remains
-**open**, not a scientific null.
+**rejects** ternary n=3 SBS `(27,27)`. Path **(C)** stands for science.
+Path **(A)** M1 landed (`third_party/pyphi_iit4_mv` → **M1_GREEN**):
+ternary Network constructs and SBS is preserved, but exact Φ is still
+blocked at M2 (`backward_tpm`). CI-off remains a corrupt shim;
+`pyphi@nonbinary` rejected. Path **(B)** embeddings remain rejected for
+#1. Binary two-condition control **holds**. Ternary pivotality (H3–H5)
+remains **open**, not a scientific null.
 
 In-silico. Hypotheses fixed after the instrument decision. Cited:
 probes #11–#12; WAVE10 #5; `shared_mediator_ternary/` pointer;
@@ -17,7 +18,7 @@ estimation / construct-omit closed.
 
 | path | decision |
 |---|---|
-| (A) multivalued IIT-4.0 port | **INSTRUMENT_GAP** (see port study) |
+| (A) multivalued IIT-4.0 port | **M1_GREEN** / Φ still M2 (see port study) |
 | (B) embedding/proxy | rejected — does not answer party-level exact Φ |
 | **(C) NOT_TESTABLE** | **stands for #1 science** |
 
@@ -51,8 +52,8 @@ graded question is instrument-blocked, not answered.
 
 ## Best next
 
-**Engineering:** `multivalued_iit4_port/INSTRUMENT_GAP.md` M1 (vendored
-fork, SBS-native TPM). **#2–#4** stay blocked.
+**Engineering:** `multivalued_iit4_port/INSTRUMENT_GAP.md` **M2**
+(SBS-native `backward_tpm` / repertoire). **#2–#4** stay blocked.
 
 ## Reproduce
 
