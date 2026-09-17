@@ -1,0 +1,11 @@
+{
+  "path": "C",
+  "h2_accepted": false,
+  "detail": {
+    "has_num_states_per_node": false,
+    "sbs_shape": "(27, 27)",
+    "accepted": false,
+    "error": "ValueError: operands could not be broadcast together with shapes (27,27) (16,16) "
+  },
+  "ternary_science": "NOT_TESTABLE"
+}

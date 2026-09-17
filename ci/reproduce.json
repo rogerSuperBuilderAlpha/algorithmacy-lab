@@ -4440,6 +4440,23 @@
       "source": "org_frontier/studies/ejection_order/FINDINGS.md"
     },
     {
+      "name": "ternary-pivotality",
+      "cmd": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
+      "expect": [
+        "H1 (binary two-condition control): SUPPORTED",
+        "H2 (IIT-4.0 accepts ternary n=3):  REFUTED",
+        "H3 (ternary non-bidir stays out):  NOT_TESTABLE",
+        "H4 (ternary bidir parties in):     NOT_TESTABLE",
+        "H5 (graded changes pivotality):    NOT_TESTABLE",
+        "verification grid:    PASS",
+        "best next:            #2\u2013#4 blocked by same pin; residual = multivalued IIT-4.0 (path A)",
+        "verdict: NOT_TESTABLE \u2014 two-condition binary control holds; exact IIT-4.0 on this pin rejects ternary n=3 SBS ((27, 27)); path (A) port and (B) embeddings rejected for #1 (see INSTRUMENT.md); ternary pivotality remains open, not null",
+        "reading: NOT_TESTABLE \u2014 agenda #1 / WAVE10 #5 needs multivalued IIT-4.0; shared_mediator_ternary pointer; PE/AI/formal/stoch/estimation/construct-omit closed; beyond-binary lane instrument-blocked"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/ternary_pivotality/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

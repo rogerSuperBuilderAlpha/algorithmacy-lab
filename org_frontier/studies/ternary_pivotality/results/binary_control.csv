@@ -1,0 +1,5 @@
+name,note,structure,core,phi,W_in,C_in,S_in
+faithful,bidirectional triad,triadic,W|S|C,2.0,True,True,True
+W_sticky,W non-bidirectional (sticky); still in S,dyadic,S|C,2.0,False,True,True
+W_omitted,W omitted from S (S'=C),dyadic,S|C,2.0,False,True,True
+C_sticky,C non-bidirectional (sticky),dyadic,W|S,2.0,True,False,True
