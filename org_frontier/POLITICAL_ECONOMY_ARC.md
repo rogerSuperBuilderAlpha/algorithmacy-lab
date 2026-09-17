@@ -5,7 +5,7 @@ Short spine for the political-economy lane on `RESEARCH_AGENDA_50_V2`
 estimation, stoch-temporal, formal #47–#50, and AI #37–#41 stay closed
 except as pointers.
 
-## #29–#33 status
+## #29–#34 status
 
 | # | study | verdict |
 |---|---|---|
@@ -13,17 +13,18 @@ except as pointers.
 | 30 | `endogenous_coalition/` | MULTI_NASH_MAXPAY |
 | 31 | `worker_union_scale/` | UNION_MIRRORS_COAL |
 | 32 | `rival_platforms/` | RIVAL_ENCODING |
-| 33 | `regulator_capture/` | **SHARP_FULL_CAPTURE** |
+| 33 | `regulator_capture/` | SHARP_FULL_CAPTURE |
+| 34 | `algo_transparency/` | **OPEN_ACT_CUT** |
 
-Oversight→capture at full mutual gate (`R'=W∧S∧C` → `{S,R}`);
-extends #76/#111.
+Rule-open ≠ channel #24; act-on-opened-rule flips core or Φ-only;
+publish-unread is theater.
 
 ## Best next
 
-**#34** algorithmic transparency (alt **#35** gig substitution).
+**#35** gig substitution (alt **#36** ejection order).
 
 ## Reproduce
 
 ```
-python org_frontier/studies/regulator_capture/analyze_capture.py
+python org_frontier/studies/algo_transparency/analyze_transpar.py
 ```

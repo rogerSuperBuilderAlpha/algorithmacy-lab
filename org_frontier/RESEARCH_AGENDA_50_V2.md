@@ -162,6 +162,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     that step collapses to {S,R}. See `studies/regulator_capture/`.
 34. Does opening the commit function to the parties (algorithmic transparency of the rule, not the
     channel #24) change the structural verdict?
+    **Answered — OPEN_ACT_CUT.** Publish-unread theater; act-on-rule can flip core or raise Φ only;
+    ≠ channel #24. See `studies/algo_transparency/`.
 35. In a gig market with many substitutable workers, at what substitution rate does the individual worker
     drop from the core (#8, #22)?
 36. Does an extractive commit's ejection order (#110) predict which real platform stakeholders lose

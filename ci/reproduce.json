@@ -4392,6 +4392,22 @@
       "source": "org_frontier/studies/regulator_capture/FINDINGS.md"
     },
     {
+      "name": "algo-transparency",
+      "cmd": "python org_frontier/studies/algo_transparency/analyze_transpar.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (rule-open flips structure/core): SUPPORTED  (n=9 rule pairs; channel also \u0394core)",
+        "H2 (verdict invariant, \u03a6 only):      SUPPORTED  (n=1 \u03a6-only pairs)",
+        "H3 (enter via open only if act):     SUPPORTED  (publish_unread ok=True; act\u2192F=True; no_spy=True)",
+        "verification grid:    PASS",
+        "best next:            #35 gig substitution (alt #36 ejection order)",
+        "verdict: OPEN_ACT_CUT \u2014 opening the commit *rule* to the parties is not the same as channel transparency (#24): publish-unread is theater (F out, party core unchanged); parties acting on the opened rule can flip core membership (e.g. to {W,C,F}); both-input open can keep {W,S,C} and raise \u03a6 only \u2014 encoding of how the rule is opened decides, COMMIT_READ bridge only",
+        "reading: OPEN_ACT_CUT \u2014 algorithmic transparency of the rule changes the structural verdict when parties act on the opened function; mere publication does not; \u03a6-only and core-flip regimes both exist; #29\u2013#33 pointers only"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/algo_transparency/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

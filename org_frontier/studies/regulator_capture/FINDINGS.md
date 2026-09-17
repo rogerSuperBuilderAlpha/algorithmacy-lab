@@ -60,7 +60,7 @@ measured; Φ ordinal across different cores.
 
 ## Best next
 
-**#34** — algorithmic transparency (alt **#35** gig substitution).
+**#34** — algorithmic transparency (**done** — OPEN_ACT_CUT; next **#35**).
 
 ## Reproduce
 

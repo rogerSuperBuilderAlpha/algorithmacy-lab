@@ -1,0 +1,14 @@
+trans,opaque,family,struct_flip,membership_change,phi_only,dphi,o_core,t_core,o_phi,t_phi,o_struct,t_struct
+channel_p1,opaque_AND,channel,False,True,False,0.0,W|S|C,S|C,2.0,2.0,triadic,triadic
+channel_mutual,opaque_AND,channel,False,True,False,0.0,W|S|C,W|C,2.0,2.0,triadic,triadic
+open_both_inputs,opaque_AND,rule_inputs,False,False,True,4.0,W|S|C,W|S|C,2.0,6.0,triadic,triadic
+open_W_reads_C,opaque_AND,rule_inputs,False,True,False,0.0,W|S|C,W|S,2.0,2.0,triadic,triadic
+open_XOR_both,opaque_XOR,rule_inputs,False,True,False,1.5,W|S|C,W|C,0.5,2.0,triadic,triadic
+open_conveyor_inputs,opaque_conveyor,rule_inputs,True,True,False,0.0,W|S,W|C,2.0,2.0,dyadic,triadic
+F_publish_unread,opaque_AND,rule_F,True,False,False,0.0,W|S|C,W|S|C,2.0,2.0,triadic,dyadic
+F_parties_read,opaque_AND,rule_F,True,True,False,0.0,W|S|C,W|C|F,2.0,2.0,triadic,dyadic
+F_is_commit,opaque_AND,rule_F,True,True,False,0.0,W|S|C,W|C|F,2.0,2.0,triadic,dyadic
+F_act_blend,opaque_AND,rule_F,False,True,False,2.0,W|S|C,W|S|C|F,2.0,4.0,triadic,triadic
+F_parties_gate,opaque_AND,rule_F,True,True,False,0.0,W|S|C,W|C|F,2.0,2.0,triadic,dyadic
+F_one_acts,opaque_AND,rule_F,False,True,False,0.0,W|S|C,S|C,2.0,2.0,triadic,triadic
+F_read_S_and_F,opaque_AND,rule_F,False,True,False,2.0,W|S|C,W|S|C|F,2.0,4.0,triadic,triadic
