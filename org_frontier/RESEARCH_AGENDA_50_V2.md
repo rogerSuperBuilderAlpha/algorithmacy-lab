@@ -154,6 +154,8 @@ runnable design yet. Themes group them; numbering is 1–50.
     n=6 (does not vanish like #97). See `studies/worker_union_scale/`.
 32. A worker on two competing platforms — do the two cores compete for the worker, and does one win
     (extends #73 to rivalrous platforms)?
+    **Answered — RIVAL_ENCODING.** Equal-Φ rivalry (OR/XOR), asymmetric/extractive capture,
+    joint cross-read span, or idle drop — encoding decides. See `studies/rival_platforms/`.
 33. A regulator that gates the platform but is itself gated by it: at what coupling does oversight become
     capture (#76, #111)?
 34. Does opening the commit function to the parties (algorithmic transparency of the rule, not the

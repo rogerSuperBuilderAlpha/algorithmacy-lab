@@ -4360,6 +4360,22 @@
       "source": "org_frontier/studies/worker_union_scale/FINDINGS.md"
     },
     {
+      "name": "rival-platforms",
+      "cmd": "python org_frontier/studies/rival_platforms/analyze_rival.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (compete / one captures W):  SUPPORTED  (compete=2 one_wins=6)",
+        "H2 (worker spans both / shared): SUPPORTED  (n=3 span forms)",
+        "H3 (worker drops / collapse):    SUPPORTED  (n=2 drop forms)",
+        "verification grid:    PASS",
+        "best next:            #33 regulator capture (alt #34 transparency)",
+        "verdict: RIVAL_ENCODING \u2014 two rival platforms sharing a worker do not have a single winner rule: substitutable W'=S1\u2228S2 / XOR yields equal-\u03a6 rivalry (each state picks one platform triad with W); asymmetric preference or extractive S\u2190W captures W into that platform; joint W'=S1\u2227S2 with cross-reads spans both; idle W drops \u2014 encoding decides, extending #73's separate-cores result to rivalrous platforms",
+        "reading: RIVAL_ENCODING \u2014 whether cores compete for the worker, one captures, both span, or W drops is set by the dual-platform encoding; #73's separation is the default under OR/preference; span needs joint binding + cross-reads; #29\u2013#31 pointers only"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/rival_platforms/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

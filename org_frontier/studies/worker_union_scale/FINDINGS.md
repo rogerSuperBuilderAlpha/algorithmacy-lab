@@ -51,7 +51,7 @@ organization measured.
 
 ## Best next
 
-**#32** — rival platforms (alt **#33** regulator capture).
+**#32** — rival platforms (**done** — RIVAL_ENCODING; next **#33**).
 
 ## Reproduce
 
