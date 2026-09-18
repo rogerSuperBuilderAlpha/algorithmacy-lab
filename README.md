@@ -148,8 +148,16 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Research program v7 — the qualitative and recurrence wave](org_frontier/RESEARCH_PROGRAM_V7.md) — the current research program
 - [Research narrative: how the program has progressed, and a path forward](org_frontier/RESEARCH_NARRATIVE.md) — the narrative arc across questions
 - [Structural findings: what makes a coordination form irreducible](org_frontier/STRUCTURAL_FINDINGS.md) — the standing structural findings
+- [PR #739 package — arcs on `cursor/triad-template-census-6ac4`](org_frontier/PR739_PACKAGE.md) — PR #739 merge package — closed arcs, instrument, human gates
 - [Omit-atom arc — working picture](org_frontier/OMIT_ATOM_ARC.md) — omit/discrete-Φ arc — motif-ruled atoms, scale morphs
+- [Construct × scale ladder arc — working picture](org_frontier/CONSTRUCT_LADDER_ARC.md) — construct×ladder arc — COMMIT_READ, Φ=n−1 flip, gate seal
+- [Estimation lane (#21–#23, #25) — working picture](org_frontier/ESTIMATION_ARC.md) — estimation lane — topology bottleneck; closable
 - [Stoch–temporal arc — working picture](org_frontier/STOCH_TEMPORAL_ARC.md) — stoch–temporal arc — noise, delay, coexistence, CT proxy; closable
+- [Formal theory arc — #47–#50 working picture](org_frontier/FORMAL_THEORY_ARC.md) — formal theory arc — #47–#50; closable
+- [AI / multi-agent arc — #37–#41 synthesis](org_frontier/AI_MULTIAGENT_ARC.md) — AI/multi-agent arc — membership cuts; closable
+- [Political economy arc — #29–#36 (closed)](org_frontier/POLITICAL_ECONOMY_ARC.md) — political economy arc — #29–#36; closable
+- [Beyond-binary arc — #1–#4 closed](org_frontier/BEYOND_BINARY_ARC.md) — beyond-binary arc — mv pin M1/M2; #1–#4; closable
+- [Construct-validity arc — #43–#46 closed](org_frontier/CONSTRUCT_VALIDITY_ARC.md) — construct-validity arc — #43–#46; closable
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review
 - [Paper pipeline — turning paper-less work into full-package research papers](org_frontier/PAPER_PIPELINE.md) — the plan to turn paper-less work into full papers
 - [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the open agenda — questions waiting for a contributor

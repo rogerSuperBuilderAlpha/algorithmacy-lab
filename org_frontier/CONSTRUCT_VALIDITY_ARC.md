@@ -30,8 +30,9 @@ scaling-law visibility in real elicits.
 
 ## Best next (outside CV)
 
-Agenda **J #47** — prove scaling laws closed-form from the MIP — or
-other open non-CV lanes.
+On this PR the formal lane (#47–#50) is already closed. Prefer empirical /
+survey packets, or optional engineering (beyond-binary M3). See
+[`PR739_PACKAGE.md`](PR739_PACKAGE.md).
 
 ## Reproduce
 
