@@ -4632,6 +4632,20 @@
       "source": "org_frontier/studies/hybrid_ff_recurrent_seam/FINDINGS.md"
     },
     {
+      "name": "dual-mediator-template-census",
+      "cmd": "python org_frontier/studies/dual_mediator_template_census/analyze_dual_mediator.py",
+      "expect": [
+        "H1 (AND Φ=2 + XOR Φ=0.5 anchors):           SUPPORTED",
+        "H2 (no sixth among closed triadic cores):  SUPPORTED",
+        "H3 (size-4 cores are known-phi products):   SUPPORTED",
+        "H4 (panel closed):                         SUPPORTED",
+        "verdict: FACTORS_INTO_FIVE",
+        "reading: FACTORS_INTO_FIVE — n=4 dual-mediator series / parallel / mediator-of-mediators yield no sixth template; closed triadic cores match the five n=3 templates; size-4 cores sit on known landmark Φ (0.5 / 2 / 4=2+2 product)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/dual_mediator_template_census/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

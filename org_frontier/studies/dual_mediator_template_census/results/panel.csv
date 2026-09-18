@@ -1,0 +1,16 @@
+family,arch,name,n,structure,whole_phi,core,core_phi,n_core,n_escapees,escapees,known_phi,seconds
+control,triad_and,triad_and,3,triadic,2.0,W|S|C,2.0,3,0,,1,0.17
+control,triad_xor,triad_xor,3,triadic,0.5,W|S|C,0.5,3,0,,1,0.31
+series,series_AA,series_AA,4,triadic,2.0,C|S2,2.0,2,0,,1,0.77
+series,series_AX,series_AX,4,triadic,1.0,C|S2,2.0,2,0,,1,1.18
+series,series_XX,series_XX,4,triadic,1.0,S1|S2,2.0,2,0,,1,5.63
+series,series_chain,series_chain,4,triadic,2.0,M2|C,2.0,2,0,,1,1.63
+parallel,par_AA_s1,par_AA_s1,4,dyadic,0.0,W|C|S1,2.0,3,0,,1,0.12
+parallel,par_AX_s1,par_AX_s1,4,dyadic,0.0,W|C|S1,2.0,3,0,,1,0.15
+parallel,par_XX_s1,par_XX_s1,4,dyadic,0.0,W|C|S1,0.5,3,0,,1,0.23
+parallel,par_AA_and,par_AA_and,4,triadic,4.0,W|C|S1|S2,4.0,4,0,,1,0.64
+parallel,par_AA_or,par_AA_or,4,dyadic,0.0,C|S2,0.1893847722003315,2,0,,0,0.22
+mom,mom_copy,mom_copy,4,triadic,1.0,C|M1|M0,2.0,3,0,,1,1.06
+mom,mom_gate,mom_gate,4,triadic,2.0,A|M1|M0,2.0,3,0,,1,0.86
+mom,mom_two_mid,mom_two_mid,4,triadic,1.0,A|M2|M0,2.0,3,0,,1,1.15
+mom,mom_xor,mom_xor,4,triadic,0.5,W|C|M1|M0,0.5,4,0,,1,2.68

@@ -19,6 +19,9 @@ below is blocked without it.
    does an **n=4 dual-mediator** census (series cascade, parallel
    mediators, mediator-of-mediators) force a **sixth** template, or do
    all triadic cores factor into products of the five?
+   **Answered — FACTORS_INTO_FIVE.** No sixth template; closed triadic
+   cores match the five; size-4 cores sit on known landmark Φ (0.5 / 2 /
+   4=2+2 product). See `studies/dual_mediator_template_census/`.
 2. Is **threshold / majority** determination at n≥4 a new template, or
    does it always collapse into the known redundancy-factors pattern
    (probes #10/#67) once pivotality is lost — even under topologies that
@@ -106,5 +109,6 @@ below is blocked without it.
 (`studies/local_triad_necklace/` → `COMPOSE_LANDMARK_OR_COLLAPSE`); #5
 (`studies/ring_of_hubs/` → `FACTORS_NO_COMBINE`); #6
 (`studies/shared_mediator_k/` → `SCALE_2K_OR_REFUSES`); #7
-(`studies/hybrid_ff_recurrent_seam/` → `CLOSURE_HOLDS_HYBRID`). Lane note
-`COMPOSED_TOPOLOGY_ARC.md`.
+(`studies/hybrid_ff_recurrent_seam/` → `CLOSURE_HOLDS_HYBRID`); #1
+(`studies/dual_mediator_template_census/` → `FACTORS_INTO_FIVE`).
+Lane note `COMPOSED_TOPOLOGY_ARC.md`.

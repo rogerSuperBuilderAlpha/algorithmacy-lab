@@ -12,4 +12,5 @@ python org_frontier/studies/dual_mediator_template_census/analyze_dual_mediator.
 
 ## Result in one line
 
-*(filled after run)*
+**FACTORS_INTO_FIVE** — no sixth template; closed triadic cores match the
+five; size-4 cores sit on known Φ (0.5 / 2 / 4=2+2).

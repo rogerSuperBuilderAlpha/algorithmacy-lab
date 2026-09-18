@@ -22,8 +22,17 @@ in the recurrent zone (V2 #15 closure-decides-locus **holds**).
 
 None — #4–#7 closed.
 
+## Adjacent (template algebra)
+
+| cell | study | verdict |
+|---|---|---|
+| #1 | [`dual_mediator_template_census/`](studies/dual_mediator_template_census/) | **FACTORS_INTO_FIVE** |
+
+n=4 dual-mediator series / parallel / mediator-of-mediators: no sixth
+template; closed triadic cores match the five; size-4 cores on known Φ
+(0.5 / 2 / 4=2+2).
+
 ## Best next
 
-**V3 #1** (n=4 dual-mediator template census) or **V3 #2**
-(threshold/majority at n≥4). M3 overlay only if a chosen cell is blocked
-without it.
+**V3 #2** (threshold/majority at n≥4) or **V3 #3** (mixed-algebra seats).
+M3 overlay only if a chosen cell is blocked without it.
