@@ -4560,6 +4560,22 @@
       "source": "org_frontier/studies/parity_radix_blindspot/FINDINGS.md"
     },
     {
+      "name": "thompson-verdict-bridge",
+      "cmd": "python org_frontier/studies/thompson_verdict_bridge/analyze_thompson.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (clean type\u2192verdict map):           REFUTED",
+        "H2 (mismatches):                       SUPPORTED",
+        "H3 (partial alignment only):           SUPPORTED",
+        "verification grid:    PASS",
+        "best next:            #44 Wageman-style measured task interdependence",
+        "verdict: PARTIAL_ALIGNMENT \u2014 Thompson types track the verdict loosely: pooled_indep\u2192dyadic and recip_cyclic\u2192triadic hold; sequential chain ties reciprocal at \u03a6=2 (not low); alternates flip (all-required pool triadic; hand-off dyadic; cycle-broken dyadic); alignment=0.429",
+        "reading: PARTIAL_ALIGNMENT \u2014 typology is not a clean map; joint determination and feedback cycle decide; q43 pointer; construct-validity arc opens at #43"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/thompson_verdict_bridge/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

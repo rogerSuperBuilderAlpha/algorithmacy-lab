@@ -221,6 +221,10 @@ runnable design yet. Themes group them; numbering is 1–50.
 42. Do the HMC / CMC / AI-MC discriminants (#15, #19, #20) hold at n > 3, or does scale blur them?
 43. Does the verdict correspond to Thompson's interdependence types — pooled dyadic, sequential the
     chain, reciprocal triadic?
+   **Answered — PARTIAL_ALIGNMENT.** Canonical pooled_indep→dyadic and
+   recip_cyclic→triadic hold; sequential chain ties reciprocal at Φ=2;
+   alternates flip. Alignment 0.429. See
+   `studies/thompson_verdict_bridge/`; `CONSTRUCT_VALIDITY_ARC.md`.
 44. Does measured task interdependence (Wageman-style) predict the verdict on a modeled task?
 45. Is the conjunctive Φ = n−1 law (#116) visible in any real coordination dataset rendered as a Boolean
     form?

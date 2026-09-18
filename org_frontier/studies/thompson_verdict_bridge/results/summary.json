@@ -1,0 +1,59 @@
+{
+  "verdict": "PARTIAL_ALIGNMENT",
+  "alignment_score": 0.42857142857142855,
+  "struct_hits": 3,
+  "seq_low": false,
+  "aligning_legs": [
+    "pooled_indep\u2192dyadic",
+    "seq_chain\u2192triadic(chain)",
+    "recip_cyclic\u2192triadic"
+  ],
+  "mismatches": [
+    "pooled_allreq",
+    "seq_handoff",
+    "recip_acyclic",
+    "seq_chain_not_low_vs_recip"
+  ],
+  "h1": false,
+  "h2": true,
+  "h3": true,
+  "control_pass": true,
+  "panel": {
+    "pooled_indep": {
+      "type": "pooled",
+      "structure": "dyadic",
+      "max_phi": 0.0,
+      "core": "{W,S}"
+    },
+    "pooled_allreq": {
+      "type": "pooled",
+      "structure": "triadic",
+      "max_phi": 2.0,
+      "core": "{W,S,C1}"
+    },
+    "seq_chain": {
+      "type": "sequential",
+      "structure": "triadic",
+      "max_phi": 2.0,
+      "core": "{W,S,C}"
+    },
+    "seq_handoff": {
+      "type": "sequential",
+      "structure": "dyadic",
+      "max_phi": 0.0,
+      "core": "{C}"
+    },
+    "recip_cyclic": {
+      "type": "reciprocal",
+      "structure": "triadic",
+      "max_phi": 2.0,
+      "core": "{W,S,C}"
+    },
+    "recip_acyclic": {
+      "type": "reciprocal",
+      "structure": "dyadic",
+      "max_phi": 0.0,
+      "core": "{W,S}"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+thompson_type,slug,role,structure,max_phi,core,core_phi,mip,predicted,struct_match,notes,n_irreducible
+pooled,pooled_indep,canonical,dyadic,0.0,"{W,S}",2.0,(factors),dyadic,True,independent-contribution relay (#25/#40),0
+pooled,pooled_allreq,alternate,triadic,2.0,"{W,S,C1}",2.0,"2 parts: {W,SC1}",dyadic,False,all-required pool (#116),1
+sequential,seq_chain,canonical,triadic,2.0,"{W,S,C}",2.0,"2 parts: {W,SC}",triadic,True,pass-through chain (#57),1
+sequential,seq_handoff,alternate,dyadic,0.0,{C},1.0,(factors),triadic,False,acyclic hand-off (#39),0
+reciprocal,recip_cyclic,canonical,triadic,2.0,"{W,S,C}",2.0,"2 parts: {W,SC}",triadic,True,cyclic feedback triad (#5/#39); same rules as seq_chain under AND,1
+reciprocal,recip_acyclic,alternate,dyadic,0.0,"{W,S}",2.0,(factors),triadic,False,"bidirectional labels, no cycle",0
