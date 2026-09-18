@@ -304,6 +304,7 @@ Multi-experiment batteries on one theme.
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
 - **[Discriminant scale-blur (#42)](org_frontier/studies/discriminant_scale_blur/README.md)** — discriminant into within-class Φ mixing. Class purity holds at n=5 and n=6
 - **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
+- **[Dual-mediator template census (V3 #1)](org_frontier/studies/dual_mediator_template_census/README.md)**
 - **[Dual principal conflict (#29)](org_frontier/studies/dual_principal_conflict/README.md)** — is set by the **conflict encoding** — not a single universal winner
 - **[Extractive ejection order (#36)](org_frontier/studies/ejection_order/README.md)** — (role symmetry #55). There is **no transferable fine order** W≺C≺R
 - **[Encoding ladder — gate family robustness](org_frontier/studies/encoding_ladder_gates/README.md)** — are **not** gate-robust. Three regimes at n=5:
