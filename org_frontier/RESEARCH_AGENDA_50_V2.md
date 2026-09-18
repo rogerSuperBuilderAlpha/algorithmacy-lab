@@ -24,6 +24,10 @@ runnable design yet. Themes group them; numbering is 1–50.
    with S. See `studies/mixed_radix_mediator/`.
 4. Is the parity blind spot (#113) binary-specific, or do higher-radix "balanced" commits (sum mod k)
    produce the same low-Φ pure-higher-order forms?
+   **Answered — BLINDSPOT_SURVIVES_RADIX.** Sum-mod-k at k=2,3,4 keeps a
+   low flat full-system Φ≈0.5 band vs high min-commit; #113 is not
+   binary-specific. See `studies/parity_radix_blindspot/`;
+   `BEYOND_BINARY_ARC.md` (lane closable).
 
 ## B. Stochastic determinations and noise
 

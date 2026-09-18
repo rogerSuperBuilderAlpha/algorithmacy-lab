@@ -4544,6 +4544,22 @@
       "source": "org_frontier/studies/mixed_radix_mediator/FINDINGS.md"
     },
     {
+      "name": "parity-radix-blindspot",
+      "cmd": "python org_frontier/studies/parity_radix_blindspot/analyze_parity.py",
+      "expect": [
+        "#113 control: PASS",
+        "H1 (binary-specific):                 REFUTED",
+        "H2 (sum-mod-k recreates low-\u03a6 band):  SUPPORTED",
+        "H3 (morphs at higher radix):          REFUTED",
+        "verification grid:    PASS",
+        "best next:            beyond-binary lane closable; optional M3 subset-\u03a6 fidelity on overlay",
+        "verdict: BLINDSPOT_SURVIVES_RADIX \u2014 #113 XOR \u03a6=0.5 pure-HO vs AND \u03a6=2 holds on stock; sum-mod-k at k=2,3,4 keeps a low flat full-system \u03a6 band (\u22480.5) while min-commit is high (2/3.17/4); blind spot is not binary-specific",
+        "reading: BLINDSPOT_SURVIVES_RADIX \u2014 balanced commits (sum mod k) recreate the #113 low-\u03a6 signature across radix; #1\u2013#3 pointers; beyond-binary science closable on overlay M2"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/parity_radix_blindspot/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
