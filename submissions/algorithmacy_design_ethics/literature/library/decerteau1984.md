@@ -23,3 +23,22 @@ Only the General Introduction was read; chapter 3, which the brief named, was no
 **What I checked:** Located a full-text PDF of the Rendall translation with embedded page markers (chisineu.files.wordpress.com, 232 pp. of text; the monoskop scan the card mentions is still unreadable) and checked every quotation from the General Introduction against it, recording the page marker preceding each.
 
 **Findings:** Every quotation is verbatim. Pages now assigned in the body: the opening "users — commonly assumed to be passive" sentence p. xi; "models of action ... poaching" pp. xi–xii; "another production" and the "insinuates itself everywhere" passage pp. xii–xiii; the Spanish colonizers/Indians example p. xiii; the inverted Foucault question p. xiv; "antidiscipline" p. xv; the "unsigned, unreadable, and unsymbolized" and immigrant-worker/"elbow-room" passages p. xvii; the strategy and tactic definitions, "victory of space over time," "seized 'on the wing,'" "the weak must continually turn to their own ends" and "the decision itself" all p. xix; the technocratic-systems passage pp. xxiii–xxiv. The relation-to-argument reading (tactical in situation, not in form) rests on those definitions and does not overreach. The same copy contains chapter 3, "'Making Do': Uses and Tactics" (pp. 29–42 of the edition), which the card says was not read; it remains unread and no claim in the card depends on it.
+
+---
+
+## Relation to Principle II — structural refusal, not hermeneutics (cluster F pass, 2026-09-18)
+
+**Remedy locus:** subject (the tactic is the weak party's own act inside a place that belongs to the other).
+
+De Certeau describes the position Principle II is written *against* staying in. The tactic "insinuates itself into the other's place ... without being able to keep it at a distance," "has at its disposal no base where it can capitalize on its advantages," and "whatever it wins, it does not keep" (p. xix). That is a precise description of interface-level contest and of the Glaze-type technical refusal alike: each is won on the wing, inside the operator's proper, and each is re-lost when the operator re-issues the rules — which the Glaze authors concede in their own limitations section (Shan et al. 2023, §8: not "future-proof"). The hermeneutic remedy asks the weak party to become a better tactician. Principle II asks for something de Certeau says the weak do not have: a place. A refusal option that is built into the relation and survives the operator's next revision is, in his terms, the conversion of a tactic into a strategy — the beginning of a proper for the coordinated party — and his account predicts the cost: what is stockpiled can be targeted. The paper can use him for two claims and should not use him for a third. First, that "the involvement of the subject diminishes in proportion to the technocratic expansion of these systems" (pp. xxiii–xxiv) is why hermeneutics scales badly: the more the system does, the less a reading of it buys. Second, that "similar strategic deployments, when acting on different relationships of force, do not produce identical effects" (p. xvii) is why a refusal affordance must be judged by Zong and Matias's cost facet, not by its existence. The claim not to make: that de Certeau endorses giving the weak a proper — his whole sympathy is with the tactic, and a refusal that becomes a standing institution is, on his account, no longer the everyday practice he was describing. The dyad point from the original relation section stands: he has no second weak party inside the same proper.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only (the Principle II section and Remedy locus line). Every quotation it uses (pp. xvii, xix, xxiii–xxiv) was relocated by the earlier S2 pass in the paginated copy; checked the Glaze cross-reference against shan2023glaze.md.
+
+**Findings:** No issues found. shan2023glaze.md records the §8 limitation ("are under no illusion that Glaze will remain future-proof in the long run") as the paragraph reports it. The section is explicit that de Certeau does not endorse giving the weak a proper, which is the right guard against overreach.

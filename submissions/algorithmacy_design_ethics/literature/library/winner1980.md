@@ -1,6 +1,6 @@
 # Winner, L. (1980). Do artifacts have politics? *Daedalus*, 109(1), 121–136. Reprinted as ch. 2 of *The Whale and the Reactor: A Search for Limits in an Age of High Technology* (U Chicago Press, 1986), pp. 19–39.
 
-**Identifier:** JSTOR stable/20024652; *Whale and the Reactor* ISBN 978-0-226-90211-9 (1986 reprint not independently opened; Suchman 1994 cites it at p. 19 and Joerges 1999 at pp. 19–39) · **Read depth:** full_text (JSTOR page images via faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf; the 1986 reprint and the 1985 MacKenzie–Wajcman version were not read) · **Source-tier:** the canonical STS essay; a philosophical essay with historical examples, no original research · **Evidence basis:** direct_read · **Parties modeled:** n/a (artifacts and the polity; no dyad of coordinated humans) · **Relation last checked:** 2026-09-18
+**Identifier:** JSTOR stable/20024652; *Whale and the Reactor* ISBN 978-0-226-90211-9 (1986 reprint not independently opened; Suchman 1994 cites it at p. 19 and Joerges 1999 at pp. 19–39) · **Read depth:** full_text (JSTOR page images via faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf; the 1986 reprint and the 1985 MacKenzie–Wajcman version were not read) · **Source-tier:** the canonical STS essay; a philosophical essay with historical examples, no original research · **Evidence basis:** direct_read · **Parties modeled:** n/a (artifacts and the polity; no dyad of coordinated humans) · **Remedy locus:** adoption — "the initial choice about whether or not to adopt something is decisive" (p. 134); no competence, design rule, or move for the person already inside the form · **Relation last checked:** 2026-09-18
 
 ## What it argues
 
@@ -14,6 +14,10 @@ RQ6 turns on claim (b), and the text supports the pass's instinct that (b) is th
 
 The bridges case is contested on the facts (see joerges1999.md, woolgarcooper1999.md); this card does not rely on it and the paper should not either. Winner's claim (b) rests on Engels, Plato and Chandler, i.e. on a reading of secondary historians, and he concedes the empirical question is open. The essay has no model of two humans coordinating; "politics" is the polity or the workplace hierarchy. The 1986 reprint is what Suchman and most CSCW authors cite (p. 19 for the epigraph); pagination here is *Daedalus*. Winner (1977) *Autonomous Technology* and (1993) "Upon opening the black box" were not read for this pass; Joerges (1999) reports the 1993 paper's stance toward constructivism and Winner's own remark that "I am not interested in theories, I am interested in moral issues."
 
+## Relation to the moderator/mediator pivot (cluster B pass, 2026-09-18)
+
+The S2-confirmed finding stands and needs no re-derivation: Winner has no competence claim, and "the initial choice about whether or not to adopt something is decisive" (p. 134) is the whole of the person's political repertoire — a yes/no that, for a platform user, was taken by someone else. Against the pivot's definition the essay sorts cleanly. Its inherently political technologies (claim b) are mediators in the definition's sense at the level of the polity — the bomb, the railroad — since the "required" authority is internal to the running form (p. 130–131) and the form does not survive its removal; the paper can keep the modality (practical necessity) and the internal/external distinction and add the two things the essay lacks, a hub rather than a hierarchy (the humans are equals who cannot reach each other) and a measure of whether the form factors (Φ). What the 1977 book supplies, and the essay does not, is the person's position inside the form — "utilization," entering the process "at one point only" (winner1977.md, pp. 228–229) — and the mechanism by which those who keep the old habits lose (reverse adaptation, pp. 229, 235). The essay's remedy locus is adoption; the book's is adoption made collective and temporary (epistemological Luddism, pp. 330–332); the 1993 paper (winner1993.md) charges constructivism with offering no standpoint from which to judge and no voice for groups never admitted as "relevant" — a charge that, at the level of the enrolled person, his own three texts meet no better. That is the paper's finding for RQ3: zero micro-level design guidance, confirmed across 1977, 1980 and 1993, with the mechanism and the tempo diagnosis available from 1977 for citation.
+
 ---
 
 ## S2 adversarial verification (2026-09-18)
@@ -23,3 +27,14 @@ The bridges case is contested on the facts (see joerges1999.md, woolgarcooper199
 **What I checked:** Re-downloaded the JSTOR scan (gatech mirror). Its OCR is badly scrambled, so each of the 27 quotations was located by keyword and read in context rather than string-matched.
 
 **Findings:** All quotations located at the Daedalus pages cited (123–135). Engels's "independently of all social organization" is on p. 129 as cited; "authority of the steam" is on p. 128. Two OCR-limited items: the scan reads "needs a caretaker" with a stray "only" displaced to the next line, so "needs only a caretaker" is consistent with the layout but not confirmed letter-for-letter; "Swedish teams" paraphrases "teams in Sweden". The Relation section's claims (practical necessity, internal/external, the ship at the dock, no measure offered, adoption as the only choice) are each anchored to a passage I found. No overreach.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only ("Relation to the moderator/mediator pivot"). Its Daedalus quotations (pp. 130–131, 134) were located by the earlier S2 pass; checked the 1977 and 1993 cross-references against winner1977.md and winner1993.md.
+
+**Findings:** winner1977.md carries "at one point only" (pp. 228–229), the "Reverse Adaptation and Control" section (pp. 226–236, with specific passages at pp. 229 and 235), and "epistemological Luddism" as "a method of inquiry"; winner1993.md exists. No issues found. The finding of "zero micro-level design guidance" across the three texts is the card's synthesis and is labelled as the paper's finding for RQ3.

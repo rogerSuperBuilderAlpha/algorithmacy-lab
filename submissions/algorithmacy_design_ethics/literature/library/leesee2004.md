@@ -24,3 +24,22 @@ An integrative review, not a test; the model is conceptual and the empirical anc
 **What I checked:** Downloaded the 2005 Wayback capture of the University of Iowa CSL PDF, extracted it in reading order, and checked every quotation, number and page (PDF page N = journal p. 49+N).
 
 **Findings:** No issues found. All quotations are verbatim on the pages cited (51/54, 54, 55, 59, 66, 74, 75–76); "an unexplored area" and "meta trust" are on p. 76; the 60–86% variance figure is on p. 70; the 90%/70%/60% thresholds and "highly system and context dependent" on p. 72; Lewandowsky et al. on p. 66. The misuse/disuse gloss attributed to p. 50 in the parasuramanriley1997 card reads "Misuse refers to the failures that occur when people inadvertently violate critical assumptions and rely on automation inappropriately, whereas disuse signifies failures that occur when people reject the capabilities of automation."
+
+---
+
+## Relation to Principle III — bounded outputs, not mechanistic interpretability (cluster F pass, 2026-09-18)
+
+**Remedy locus:** subject (calibrate the operator's trust) served by artifact design (display performance, process, purpose).
+
+Lee and See's three bases of trust are the three candidate remedies for RQ10 laid side by side, and the paper can use their own text to choose among them. *Performance* is "what the automation does"; *process* is its algorithms, and trust at that level "is in the agent and not in the specific actions of the agent"; *purpose* is "the degree to which the automation is being used within the realm of the designer's intent" and "corresponds to faith and benevolence" (p. 59). Mechanistic interpretability is a process-basis remedy — trust the agent because you can see its algorithm. Principle III is a performance-basis remedy — rely on what the automation does, within a declared envelope, because that is the level at which the coordinated party can observe and verify. Their developmental claim, taken from Muir (1994) and Rempel et al., is that interpersonal trust runs performance → process → purpose but that trust in automation "can also follow an opposite pattern, in which faith is important early in the interaction, followed by dependability, and then by predictability" (p. 66). A lay party on a platform starts from faith in the stated purpose and has no route to the process level at all; Principle III builds the performance basis she would otherwise reach last. Their design list confirms the choice: "Design for appropriate trust, not greater trust" and "show past performance" come before "reveal process," and the paper can say why the first two suffice where the third does not — process-level trust presupposes "the designer's intent" is the user's, which the objective axis denies (the original relation section's point that benevolence "fails the definition rather than scoring low on it"). One warning they supply against Principle III's own excess: trust "is conditioned by the automation's worst behaviours" and collapses below reliability thresholds that are "highly system and context dependent" (p. 72), so a declared envelope that is breached even rarely does more damage than none; bounded outputs must be bounds that hold. The dyad caution stands: no counterpart party, and "purpose" is never a purpose that diverges from the trustor's.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** could not verify
+
+**What I checked:** New-material only (the Principle III section). Tried to re-open the paper: the University of Iowa CSL host the earlier pass used now returns 404 at both the old and redirected addresses, Semantic Scholar marks its copy CLOSED, and WebFetch cannot reach the Wayback Machine. Checked the cross-reference against muir1994.md.
+
+**Findings:** The "opposite pattern... faith... dependability... predictability" quotation was pinned to p. 53; the batch-2 verifier's independent check of `muir1994.md` (which quotes the same Lee & See passage in full) located it at p. 66 of *Human Factors* 46(1) instead. Corrected here. The other quotations in the section (p. 59 bases, p. 72 thresholds, p. 74 design list) were verified by the earlier S2 pass and are reused unchanged.

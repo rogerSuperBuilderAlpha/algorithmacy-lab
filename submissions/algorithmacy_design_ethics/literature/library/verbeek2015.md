@@ -1,6 +1,6 @@
 # Verbeek, P.-P. (2015). Beyond interaction: A short introduction to mediation theory. *interactions*, 22(3): 26–31.
 
-**Identifier:** doi:10.1145/2751314 · **Read depth:** full_text (author-deposited PDF, University of Twente repository, ris.utwente.nl/ws/files/6973415/p26-verbeek.pdf; pagination 26–31 matches the ACM issue) · **Source-tier:** ACM magazine cover story, not peer-reviewed research; the HCI-facing statement of the theory · **Evidence basis:** direct_read · **Parties modeled:** human–technology–world · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.1145/2751314 · **Read depth:** full_text (author-deposited PDF, University of Twente repository, ris.utwente.nl/ws/files/6973415/p26-verbeek.pdf; pagination 26–31 matches the ACM issue) · **Source-tier:** ACM magazine cover story, not peer-reviewed research; the HCI-facing statement of the theory · **Evidence basis:** direct_read · **Parties modeled:** human–technology–world · **Remedy locus:** artifact (design mediations in) and subject (users "enabled to read") · **Adaptivity:** fixed · **Relation last checked:** 2026-09-18
 
 ## What it argues
 
@@ -9,6 +9,8 @@ Verbeek tells interaction designers that "interaction" is the wrong unit: humans
 ## Relation to the argument
 
 RQ1, structural axis: this is the cleanest evidence that the canonical schema has one intentional party. The other person in the phone example sits in the world slot; social media is acknowledged to have "generated new types and dimensions of social relations" (p. 28) but receives no relation type. On the threshold question the source cuts against the construct: mediation is universal ("we cannot be human without technologies," p. 30), the neutral tool is the rejected extension view, and nothing in the framework distinguishes a channel from a party. The literacy half of the construct's split is, in Verbeek's taxonomy, an extensionist claim. The immersion relation is the closest thing here to an interpreting intermediary, since the environment reads the human, but it still reads one human. RQ2: the Tromp grid gives the seam a location. A seam moves an influence from hidden to apparent, and the influence a seam should target is the "decisive or implicative" one, strong and hidden, which is also the one the objective axis names. The closing sentence supplies a design goal that reads as algorithmacy in Verbeek's vocabulary: users enabled to "read" mediations. The card for verbeek2014 develops that.
+
+Against the tightened definition (adaptivity pass, 2026-09-18). The seven relation types and the Tromp grid sort mediations by where the technology sits and how hard and how visibly it pushes; none of them sorts by whether the mediation is fixed at design time or re-fitted at run time. Immersion is the nearest miss: environments that "detect if people are present or not, recognize faces, give feedback on behavior" (p. 30) read the human and respond, and the piece says nothing about the environment changing its rule on the strength of what it reads. The speed bump and the smart environment sit in the same taxonomy as two ways of pushing, not as a fixed and an adaptive mediator. Wellner (2024, p. 10) later draws that line inside the school; Verbeek's own HCI-facing schema does not. Remedy locus here is the artifact and the subject together, "design mediations explicitly into products" and users "enabled to read" (p. 31), and no relation between two mediated people appears for a remedy to sit in.
 
 ## Caution
 
@@ -23,3 +25,14 @@ Six magazine pages with no argument for the taxonomy beyond examples; no data, n
 **What I checked:** Re-downloaded the Twente-deposited PDF (pp. 26–31) and searched all 17 quoted strings.
 
 **Findings:** All verbatim at the cited pages. No issues found.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only ("Against the tightened definition" paragraph and header fields). Every quotation it reuses (pp. 30, 31) was verified against the Twente-deposited PDF by the earlier S2 pass; checked the Wellner cross-reference against wellner2024.md.
+
+**Findings:** No issues found. wellner2024.md records the p. 10 benches-versus-AI distinction the paragraph attributes to her. The observation that the piece "says nothing about the environment changing its rule" is a negative claim about a six-page text the earlier pass read in full, and is consistent with the immersion passage as quoted.
