@@ -14,6 +14,9 @@ runnable design yet. Themes group them; numbering is 1–50.
    `studies/ternary_pivotality/`; `BEYOND_BINARY_ARC.md`.
 2. Does a graded commit — the mediator outputs a level, not a bit — keep a sharp dyadic/triadic verdict,
    or does the verdict itself become graded?
+   **Answered — SHARP_CLASS_GRADED_PATH.** Structure labels stay discrete
+   (NULL/DYADIC/TRIADIC); Φ and n_core grade with commit level L on
+   `(L,L,L)`. See `studies/graded_commit_verdict/`.
 3. In a mixed-radix system (binary parties, ternary mediator), where does the extra mediator resolution
    go — into Φ magnitude or into core membership?
 4. Is the parity blind spot (#113) binary-specific, or do higher-radix "balanced" commits (sum mod k)

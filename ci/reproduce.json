@@ -4512,6 +4512,22 @@
       "source": "third_party/pyphi_iit4_mv/README.md"
     },
     {
+      "name": "graded-commit-verdict",
+      "cmd": "python org_frontier/studies/graded_commit_verdict/analyze_graded.py",
+      "expect": [
+        "control: PASS",
+        "H1 (structure class stays sharp):   SUPPORTED",
+        "H2 (\u03a6 grades with commit level L):  SUPPORTED",
+        "H3 (core membership grades with L): SUPPORTED",
+        "verification grid:    PASS",
+        "best next:            #3 mixed-radix mediator (binary parties, ternary S)",
+        "verdict: SHARP_CLASS_GRADED_PATH \u2014 faithful ternary graded commit: structure classes stay discrete (NULL/DYADIC/TRIADIC) while \u03a6 and n_core track commit level L on (L,L,L); binary AND control TRIADIC \u03a6=2",
+        "reading: SHARP_CLASS_GRADED_PATH \u2014 the dyadic/triadic label stays a sharp class; the path across commit levels grades both magnitude and membership; #1 state-dependence is the L=1 vs L=2 slice of this path"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/graded_commit_verdict/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
