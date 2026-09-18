@@ -9,6 +9,11 @@ a party is observed only intermittently?
 python org_frontier/studies/partial_observation_screen/analyze_partial_obs.py
 ```
 
+## Result in one line
+
+**HIDDEN_COLLAPSE_INTERMITTENT_CLIFF** — hide party: AUC 0.922→0.547;
+δ≥0.10 holds, cliffs at δ=0; hide mediator ≈ full.
+
 ## Hypotheses
 
 Fixed before computing in [`hypotheses.md`](hypotheses.md).

@@ -13,6 +13,7 @@ Run:  python org_frontier/studies/partial_observation_screen/analyze_partial_obs
 from __future__ import annotations
 
 import csv
+import hashlib
 import os
 import sys
 import time
@@ -46,6 +47,12 @@ NOISE = 0.08
 SEED = 24
 DUTY = (1.0, 0.75, 0.5, 0.25, 0.1, 0.0)
 MIN_PAIR_STEPS = 20
+
+
+def _stable_seed(*parts, base=SEED):
+    """Deterministic seed from string parts (Python's hash() is salted)."""
+    h = hashlib.md5("|".join(str(p) for p in parts).encode()).hexdigest()
+    return base + (int(h[:8], 16) % 10_000)
 
 
 def labels_for(n):
@@ -270,7 +277,7 @@ def main():
     for tag, kind, hidx in regimes_hidden:
         t0 = time.time()
         # reseed so trajectory draws are comparable across regimes
-        local = np.random.default_rng(SEED + hash(tag) % 10_000)
+        local = np.random.default_rng(_stable_seed("fam", tag))
         if kind is None:
             sc, y, _ = score_panel(family, 3, "full", local)
         else:
@@ -305,7 +312,7 @@ def main():
     for d in DUTY:
         tag = f"intermittent_C_d{d}"
         t0 = time.time()
-        local = np.random.default_rng(SEED + int(d * 1000) + 100)
+        local = np.random.default_rng(_stable_seed("intC", d))
         sc, y, _ = score_panel(
             family, 3, "intermittent", local, duty=d, node_idx=2,
         )
@@ -330,7 +337,7 @@ def main():
     for d in DUTY:
         tag = f"intermittent_S_d{d}"
         t0 = time.time()
-        local = np.random.default_rng(SEED + int(d * 1000) + 200)
+        local = np.random.default_rng(_stable_seed("intS", d))
         sc, y, _ = score_panel(
             family, 3, "intermittent", local, duty=d, node_idx=1,
         )
@@ -359,27 +366,29 @@ def main():
         by_family.setdefault(fam, []).append(row)
 
     family_delta = {}
+    # Score each form at its own n, then pool within family (and pooled overall).
+    sc_full_all, y_full_all = [], []
+    sc_hid_all, y_hid_all = [], []
     for fam, forms in sorted(by_family.items()):
-        # forms may mix n=3 and n=4; score each size separately then pool scores/labels
         sc_full, y_full = [], []
         sc_hid, y_hid = [], []
-        for n_size in (3, 4):
-            subset = [r for r in forms if r[5] == n_size]
-            if len(subset) < 2:
-                continue
-            local_f = np.random.default_rng(SEED + hash(("mf", fam, n_size, "f")) % 10_000)
-            local_h = np.random.default_rng(SEED + hash(("mf", fam, n_size, "h")) % 10_000)
-            # strip to (name, rules, tri, phi) for score_panel
-            slim = [(r[0], r[1], r[2], r[3]) for r in subset]
+        for row in forms:
+            name, rules, tri, phi, _, n_size = row
+            slim = [(name, rules, tri, phi)]
+            local_f = np.random.default_rng(_stable_seed("mf", fam, name, "f"))
+            local_h = np.random.default_rng(_stable_seed("mf", fam, name, "h"))
             sc, y, _ = score_panel(slim, n_size, "full", local_f)
             sc_full.extend(sc.tolist())
             y_full.extend(y.tolist())
-            # hide a party: last index (C / Cn-1), not mediator
             sc2, y2, _ = score_panel(
                 slim, n_size, "hidden", local_h, hidden_idx=n_size - 1,
             )
             sc_hid.extend(sc2.tolist())
             y_hid.extend(y2.tolist())
+        sc_full_all.extend(sc_full)
+        y_full_all.extend(y_full)
+        sc_hid_all.extend(sc_hid)
+        y_hid_all.extend(y_hid)
         auc_f, o_f = oriented_auc(sc_full, y_full)
         auc_h, o_h = oriented_auc(sc_hid, y_hid)
         delta = (
@@ -387,9 +396,9 @@ def main():
             else float(auc_f - auc_h)
         )
         family_delta[fam] = (auc_f, auc_h, delta)
+        d_s = f"{delta:.3f}" if not np.isnan(delta) else "nan"
         print(f"  {fam:12s}  full={auc_f:.3f}  hid_party={auc_h:.3f}  "
-              f"Δ={delta if not np.isnan(delta) else float('nan'):.3f}  "
-              f"n={len(y_full)}")
+              f"Δ={d_s}  n={len(y_full)}")
         curve_rows.append({
             "panel": f"multifamily_{fam}",
             "regime": "full",
@@ -410,6 +419,30 @@ def main():
             "mi_auc": auc_h,
             "orient": o_h,
         })
+    auc_mf_f, _ = oriented_auc(sc_full_all, y_full_all)
+    auc_mf_h, _ = oriented_auc(sc_hid_all, y_hid_all)
+    print(f"  {'POOLED':12s}  full={auc_mf_f:.3f}  hid_party={auc_mf_h:.3f}  "
+          f"n={len(y_full_all)}")
+    curve_rows.append({
+        "panel": "multifamily_pooled",
+        "regime": "full",
+        "duty": 1.0,
+        "hidden_or_node": "",
+        "n_forms": len(y_full_all),
+        "n_tri": int(sum(y_full_all)),
+        "mi_auc": auc_mf_f,
+        "orient": 0,
+    })
+    curve_rows.append({
+        "panel": "multifamily_pooled",
+        "regime": "hidden_party",
+        "duty": 0.0,
+        "hidden_or_node": "last",
+        "n_forms": len(y_hid_all),
+        "n_tri": int(sum(y_hid_all)),
+        "mi_auc": auc_mf_h,
+        "orient": 0,
+    })
     print()
 
     # --- Hypothesis tests ---
@@ -428,34 +461,22 @@ def main():
         and (drop_c >= 0.20 or auc_hid_c < 0.70)
     )
 
-    # H2: monotone non-decreasing in δ; max consecutive drop ≤ 0.25
+    # H2: monotone non-decreasing in δ (0.05 slack); max consec drop ≤ 0.25
     duties_sorted = sorted(intermittent_auc, key=lambda z: z[0])
     mono_ok = True
     max_consec_drop = 0.0
     for (d0, a0), (d1, a1) in zip(duties_sorted, duties_sorted[1:]):
         if np.isnan(a0) or np.isnan(a1):
             mono_ok = False
-            continue
-        # non-decreasing: a1 >= a0 - 0.05 tolerance
-        if a1 + 0.05 < a0:
+        elif a1 + 0.05 < a0:
             mono_ok = False
-        drop = a0 - a1 if a0 > a1 else 0.0
-        # consecutive along increasing δ: drop when δ rises would be a0-a1 negative
-        # "largest consecutive drop" when scanning high→low duty (missingness increases)
-    # recompute max consecutive drop as duty decreases
     for (d0, a0), (d1, a1) in zip(duties_sorted[::-1], duties_sorted[::-1][1:]):
-        # d0 > d1; drop = a0 - a1 when AUC falls with more missingness
+        # d0 > d1; drop when AUC falls as missingness rises
         if np.isnan(a0) or np.isnan(a1):
             continue
         drop = a0 - a1
         if drop > max_consec_drop:
             max_consec_drop = drop
-    # also check monotone increasing in δ with 0.05 slack
-    for (d0, a0), (d1, a1) in zip(duties_sorted, duties_sorted[1:]):
-        if np.isnan(a0) or np.isnan(a1):
-            mono_ok = False
-        elif a1 + 0.05 < a0:
-            mono_ok = False
     h2 = ctrl and mono_ok and max_consec_drop <= 0.25
 
     # H3: family ΔAUC spread ≥ 0.15 OR |mediator vs party| ≥ 0.10
