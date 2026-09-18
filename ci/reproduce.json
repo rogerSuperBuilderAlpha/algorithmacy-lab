@@ -4528,6 +4528,22 @@
       "source": "org_frontier/studies/graded_commit_verdict/FINDINGS.md"
     },
     {
+      "name": "mixed-radix-mediator",
+      "cmd": "python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py",
+      "expect": [
+        "control: PASS",
+        "H1 (extra resolution \u2192 \u03a6 only):     SUPPORTED  (both forms)",
+        "H2 (extra resolution \u2192 membership): REFUTED",
+        "H3 (form-dependent pattern):        REFUTED",
+        "verification grid:    PASS",
+        "best next:            #4 higher-radix parity / balanced commit (blind spot)",
+        "verdict: EXTRA_RESOLUTION_TO_PHI \u2014 mixed-radix (2,3,2) S'=W+C: on (1,S,1) sweep both full and thresh keep fixed TRIADIC core while \u03a6 varies with mediator level S (mid S=1 is \u03a6-only extra resolution); binary AND control TRIADIC \u03a6=2",
+        "reading: EXTRA_RESOLUTION_TO_PHI \u2014 unlike all-ternary #2 (membership grades with L), binary parties + ternary mediator put the extra bit into \u03a6 magnitude; core stays {W,S,C}; #1/#2 pointers only"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/mixed_radix_mediator/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

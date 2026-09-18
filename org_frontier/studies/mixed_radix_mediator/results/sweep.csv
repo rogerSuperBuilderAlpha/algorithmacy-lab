@@ -1,0 +1,7 @@
+form,S,state,structure,n_core,core,phi
+full,0,"(1, 0, 1)",TRIADIC,3,W|S|C,1.1699250014423124
+full,1,"(1, 1, 1)",TRIADIC,3,W|S|C,0.5
+full,2,"(1, 2, 1)",TRIADIC,3,W|S|C,2.0
+thresh,0,"(1, 0, 1)",TRIADIC,3,W|S|C,0.5849625007211562
+thresh,1,"(1, 1, 1)",TRIADIC,3,W|S|C,0.25
+thresh,2,"(1, 2, 1)",TRIADIC,3,W|S|C,0.5849625007211562

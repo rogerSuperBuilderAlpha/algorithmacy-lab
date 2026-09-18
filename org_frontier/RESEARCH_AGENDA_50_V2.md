@@ -16,9 +16,12 @@ runnable design yet. Themes group them; numbering is 1–50.
    or does the verdict itself become graded?
    **Answered — SHARP_CLASS_GRADED_PATH.** Structure labels stay discrete
    (NULL/DYADIC/TRIADIC); Φ and n_core grade with commit level L on
-   `(L,L,L)`. See `studies/graded_commit_verdict/`.
+   `(L,L,L)`. See    `studies/graded_commit_verdict/`.
 3. In a mixed-radix system (binary parties, ternary mediator), where does the extra mediator resolution
    go — into Φ magnitude or into core membership?
+   **Answered — EXTRA_RESOLUTION_TO_PHI.** Alphabets `(2,3,2)`, `S'=W+C`:
+   on `(1,S,1)` both party-read forms keep core `{W,S,C}` while Φ varies
+   with S. See `studies/mixed_radix_mediator/`.
 4. Is the parity blind spot (#113) binary-specific, or do higher-radix "balanced" commits (sum mod k)
    produce the same low-Φ pure-higher-order forms?
 
