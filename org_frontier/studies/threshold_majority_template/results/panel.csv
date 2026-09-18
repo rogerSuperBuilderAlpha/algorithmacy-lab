@@ -1,0 +1,14 @@
+family,arch,name,n,k,role,structure,whole_phi,core,core_phi,n_core,kind,seconds
+control,triad_and,triad_and,3,,anchor,triadic,2.0,W|S|C,2.0,3,full_bind,0.12
+plain_hub,hub_n4_k1,hub_n4_k1,4,1,extreme,triadic,3.0,S|P0|P1|P2,3.0,4,full_bind,0.77
+plain_hub,hub_n4_k2,hub_n4_k2,4,2,intermediate,dyadic,0.0,,nan,0,factors,0.28
+plain_hub,hub_n4_k3,hub_n4_k3,4,3,extreme,triadic,3.0,S|P0|P1|P2,3.0,4,full_bind,0.74
+plain_hub,hub_n5_k1,hub_n5_k1,5,1,extreme,triadic,4.0,S|P0|P1|P2|P3,4.0,5,full_bind,5.86
+plain_hub,hub_n5_k2,hub_n5_k2,5,2,intermediate,dyadic,0.0,,nan,0,factors,0.73
+plain_hub,hub_n5_k3,hub_n5_k3,5,3,intermediate,dyadic,0.0,,nan,0,factors,0.74
+plain_hub,hub_n5_k4,hub_n5_k4,5,4,extreme,triadic,4.0,S|P0|P1|P2|P3,4.0,5,full_bind,5.2
+shared,shared_and,shared_and,5,,and_restore,triadic,4.0,W1|C1|W2|C2|S,4.0,5,full_bind,5.1
+shared,shared_maj2of4,shared_maj2of4,5,2,intermediate,dyadic,0.0,,nan,0,factors,0.56
+shared,shared_maj3of4,shared_maj3of4,5,3,intermediate,dyadic,0.0,,nan,0,factors,0.53
+recurrent,rec_and_b3,rec_and_b3,4,,and_restore,triadic,3.0,A|L0|L1|L2,3.0,4,full_bind,0.65
+recurrent,rec_maj_b3,rec_maj_b3,4,2,intermediate,dyadic,0.0,,nan,0,factors,0.23

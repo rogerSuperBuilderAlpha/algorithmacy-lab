@@ -4646,6 +4646,20 @@
       "source": "org_frontier/studies/dual_mediator_template_census/FINDINGS.md"
     },
     {
+      "name": "threshold-majority-template",
+      "cmd": "python org_frontier/studies/threshold_majority_template/analyze_threshold_majority.py",
+      "expect": [
+        "H1 (anchors + plain-hub redundancy pattern): SUPPORTED",
+        "H2 (AND carriers restore/bind full core):    SUPPORTED",
+        "H3 (majority on restored carriers factors):  SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: COLLAPSES_TO_REDUNDANCY",
+        "reading: COLLAPSES_TO_REDUNDANCY — threshold/majority at n≥4 is not a new template; intermediate k always factors once pivotality is lost, including on shared-mediator and recurrent carriers that restore triadicity under AND (#10/#67/#117 pattern holds)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/threshold_majority_template/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

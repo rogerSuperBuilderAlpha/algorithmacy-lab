@@ -12,4 +12,5 @@ python org_frontier/studies/threshold_majority_template/analyze_threshold_majori
 
 ## Result in one line
 
-*(filled after run)*
+**COLLAPSES_TO_REDUNDANCY** — intermediate majority always factors; no new
+template, even on shared-mediator / recurrent AND carriers.

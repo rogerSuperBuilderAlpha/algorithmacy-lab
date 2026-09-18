@@ -27,12 +27,12 @@ None — #4–#7 closed.
 | cell | study | verdict |
 |---|---|---|
 | #1 | [`dual_mediator_template_census/`](studies/dual_mediator_template_census/) | **FACTORS_INTO_FIVE** |
+| #2 | [`threshold_majority_template/`](studies/threshold_majority_template/) | **COLLAPSES_TO_REDUNDANCY** |
 
-n=4 dual-mediator series / parallel / mediator-of-mediators: no sixth
-template; closed triadic cores match the five; size-4 cores on known Φ
-(0.5 / 2 / 4=2+2).
+n=4 dual-mediator: no sixth template. Threshold/majority at n≥4 is not a
+new template — intermediate k factors even on AND-restoring carriers.
 
 ## Best next
 
-**V3 #2** (threshold/majority at n≥4) or **V3 #3** (mixed-algebra seats).
+**V3 #3** (mixed-algebra seats: parity + conjunctive on one mediator).
 M3 overlay only if a chosen cell is blocked without it.

@@ -26,6 +26,10 @@ below is blocked without it.
    does it always collapse into the known redundancy-factors pattern
    (probes #10/#67) once pivotality is lost — even under topologies that
    restored triadicity for conjunctive hubs (V2 #15–#20)?
+   **Answered — COLLAPSES_TO_REDUNDANCY.** Intermediate majority always
+   factors; no new template — including on shared-mediator and recurrent
+   carriers that restore triadicity under AND. See
+   `studies/threshold_majority_template/`.
 3. Do **mixed-algebra seats** (one seat parity, one conjunctive) on a
    single mediator produce a hybrid signature, or does the parity
    blind-spot (V2 #4 `BLINDSPOT_SURVIVES_RADIX`) dominate the whole form?
@@ -110,5 +114,6 @@ below is blocked without it.
 (`studies/ring_of_hubs/` → `FACTORS_NO_COMBINE`); #6
 (`studies/shared_mediator_k/` → `SCALE_2K_OR_REFUSES`); #7
 (`studies/hybrid_ff_recurrent_seam/` → `CLOSURE_HOLDS_HYBRID`); #1
-(`studies/dual_mediator_template_census/` → `FACTORS_INTO_FIVE`).
+(`studies/dual_mediator_template_census/` → `FACTORS_INTO_FIVE`); #2
+(`studies/threshold_majority_template/` → `COLLAPSES_TO_REDUNDANCY`).
 Lane note `COMPOSED_TOPOLOGY_ARC.md`.
