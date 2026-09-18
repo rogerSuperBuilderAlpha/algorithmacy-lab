@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,n_33,n_other,n_nonder,reading
+SUPPORTED,REFUTED,REFUTED,SUPPORTED,SUPPORTED,PHI14_IS_33,6,9,3,"PHI14_IS_33 — among !6, Φ=14 iff cycle type 3+3 (N_33=6 all 14; other types no 14); non-ders no 14 in thin sample"

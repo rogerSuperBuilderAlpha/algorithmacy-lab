@@ -1,0 +1,2 @@
+h1,h2,h3,commit_read,verdict,boundary_step,phi_vs_nm1,reading
+SUPPORTED,REFUTED,REFUTED,HOLDS,PHI_TRACKS_NM1,workers_AND_Cidle → algo_full_AND,Φ=5 = n−1,PHI_TRACKS_NM1 — n=6 ladder same form as n=5; boundary workers_AND_Cidle → algo_full_AND; flip whole triadic n_core=6 Φ=5 (=n−1); COMMIT_READ_BOUNDARY holds

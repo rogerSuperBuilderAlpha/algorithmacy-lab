@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,n_forms,n_ct_triadic,n_ct_cells,n_forms_flipped,discrete_g1,discrete_g2,discrete_seq
+REFUTED,SUPPORTED,REFUTED,STILL_DEPENDENT,STILL_DEPENDENT — CTMC→expm embedding softens #112's wipeout (200/216 cells triadic) but extreme rate asymmetry still flips 8/24 forms; native CT Φ remains unavailable on the PyPhi pin,24,200,216,8,24,0,0

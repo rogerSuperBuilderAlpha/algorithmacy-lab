@@ -1,0 +1,33 @@
+% Scaling laws from the MIP (agenda #47). Companion to PROOFS.md.
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\title{Closed-form $\Phi$ scaling laws from the MIP}
+\author{algorithmacy-lab}
+\begin{document}
+\maketitle
+
+\paragraph{Instrument.}
+Lab $\Phi$ is major-complex $\varphi_s=\min(\varphi_c,\varphi_e)$ on the
+MIP under \texttt{GENERALIZED\_INTRINSIC\_DIFFERENCE}:
+$\varphi=\mathrm{sel}\cdot\log_2(p_{\mathrm{fwd}}/p_{\mathrm{part}})$.
+Partitions: \texttt{SET\_UNI/BI}.
+
+\paragraph{Forms.}
+Hub: $S'=\bigwedge_{i\ge1}X_i$, $X_i'=S$.
+Pool: $X_i'=\bigwedge_{j\neq i}X_j$.
+Parity: $S'=\bigoplus_{i\ge1}X_i$, $X_i'=S$.
+
+\paragraph{Cut evaluations (proved).}
+On the hub-preserving atomic cut $H$ at $\mathbf{1}$:
+hub $p_{\mathrm{part}}=2^{1-n}$ $\Rightarrow$ $\varphi_s=n-1$;
+parity $\mathrm{sel}_c=2^{2-n}$, informativeness $1$ $\Rightarrow$
+$\varphi_s=2^{2-n}$.
+On the complete atomic cut $A$: pool
+$p_{\mathrm{part}}=2^{-n(n-1)}$ $\Rightarrow$ $\varphi_s=n(n-1)$.
+
+\paragraph{MIP identity (partial).}
+Verified for $n\le5$ (hub through $n=6$). General-$n$ uniqueness of
+$H$/$A$ as MIP is the remaining gap; agenda \#49 (min-cut) is the
+natural closer.
+
+\end{document}

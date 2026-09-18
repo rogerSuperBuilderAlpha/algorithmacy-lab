@@ -1,0 +1,9 @@
+slug,dataset,modeling,n,structure,whole_phi,core,core_phi,core_size,n_minus_1,delta,full_core,signature,notes
+synth_hub_n3,synthetic,control,3,triadic,2.0,"{n0,n1,n2}",2.0,3,2,0.0,True,True,#116 single_hub control
+synth_hub_n4,synthetic,control,4,triadic,3.0,"{n0,n1,n2,n3}",3.0,4,3,0.0,True,True,#116 single_hub control
+pyphi_v9_triad,event_series/PyPhi,institutional,3,triadic,2.0,"{W,S,C}",2.0,3,2,0.0,True,True,v9 institutional merge triad
+sklearn_v10_fourrole,review_heavy/sklearn,institutional,4,triadic,1.0,"{R,S,C}",2.0,3,3,-1.0,False,False,v10 author/review/merge/code
+k8s_v11_prow,bot_merged/k8s,institutional,4,triadic,2.0,"{R,B,C}",2.0,3,3,-1.0,False,False,v11 approval/bot/code/author
+pyphi_v8_fit_core,real_series/PyPhi-commits,fitted,3,dyadic,0.0,{M},1.0,1,2,-1.0,False,False,"weekly activity fit; parties=['wmayner', 'rlmv', 'William Marshall']"
+forced_hub_n3,role-count/v9_roles,strong,3,triadic,2.0,"{r0,r1,r2}",2.0,3,2,0.0,True,True,same n as institutional; wiring replaced by #116 hub
+forced_hub_n4,role-count/v10_v11_roles,strong,4,triadic,3.0,"{r0,r1,r2,r3}",3.0,4,3,0.0,True,True,same n as institutional; wiring replaced by #116 hub

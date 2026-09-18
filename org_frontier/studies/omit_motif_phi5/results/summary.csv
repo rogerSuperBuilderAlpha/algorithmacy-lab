@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,motif_M_size,n_nonder_classes,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,MOTIF_DISCRIMINANT,120,10,"MOTIF_DISCRIMINANT — Φ=5 iff omit motif M (indeg (0,1,1,1,2) + 3-cycle + recip=0); same-indeg siblings → Φ=6; designed witness class size 120"

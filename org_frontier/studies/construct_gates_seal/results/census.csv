@@ -1,0 +1,5 @@
+name,family,gate,rung,structure,whole_phi,core,core_phi,n_core,regime,flipped,basis,elapsed_s
+cmc_XNOR_full,CMC,XNOR,full,triadic,0.125000,W|S|C|D|E,0.125000,5,B,True,S=¬⊕ outers; all read,11.6
+cmc_AND_negE_full,CMC,AND_negE,full,dyadic,0.000000,S|E,2.000000,2,C,False,S=W∧…∧¬last; all read,0.5
+aimc_XNOR_full,AI-MC,XNOR,full,triadic,0.125000,W|A|C|D|E,0.125000,5,B,True,A=¬⊕ outers; all read,11.6
+aimc_AND_negE_full,AI-MC,AND_negE,full,dyadic,0.000000,A|E,2.000000,2,C,False,A=W∧…∧¬last; all read,0.5

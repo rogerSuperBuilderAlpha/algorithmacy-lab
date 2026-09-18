@@ -103,8 +103,15 @@ The class is a forecast of an intermediary's fate when the internet lowers the c
 |---|---|---|
 | reducible | disintermediated — the friction it stood on is gone | newspaper_classifieds, indie_record_label, retail_middleman_dtc |
 | contingent | survives by its constraint, not its work | car_dealer, bail_bondsman, app_store_30pct, ticketmaster |
-| necessary | never threatened — integrates a joint condition | clearinghouse_ccp, stock_exchange, air_traffic_control, payment_network_auth |
+| necessary | never threatened — integrates a joint condition | clearinghouse_ccp, stock_exchange, air_traffic_control, payment_network_auth, allocate_exactly_one (parity) |
 | partial | the contested middle, under live pressure | pharmacy_benefit_manager, ride_hail_platform, gpo_healthcare, talent_agent |
+
+## Parity — the fifth template
+
+Three entries use the parity (XOR/XNOR) template: `allocate_exactly_one`, `require_agreement_xnor`,
+`single_winner_match`. They classify necessary at Φ=0.5 with contingency margin −1.5. Added after the
+template-coverage census found eight of twenty-four triadic strict-mediation forms outside the original
+four templates (`org_frontier/studies/template_coverage_census/`).
 
 See `essays/what_survives_disintermediation.md` for the argument: disintermediation removes the *friction* a
 middleman stood on, and removes the middleman only when the friction was all that held it up.

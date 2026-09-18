@@ -1,0 +1,17 @@
+name,anchor,wt,all_dep,monotone,unate,affine,canalizing,extremal_wt,pred,obs,match,structure,whole_phi,core,core_phi,n_core,assist_n_core,assist_multiparty,elapsed_s
+AND,1,1,1,1,1,0,1,1,A,A,1,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,3,1,5.0
+OR,1,15,1,1,1,0,1,1,A,A,1,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,3,1,5.3
+NAND,1,15,1,1,1,0,1,1,A,A,1,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,3,1,5.1
+NOR,1,1,1,1,1,0,1,1,A,A,1,triadic,4.000000,W1|S|W2|W3|C,4.000000,5,3,1,5.4
+XOR,1,8,1,0,0,1,0,0,B,B,1,triadic,0.125000,W1|S|W2|W3|C,0.125000,5,1,0,11.9
+XNOR,1,8,1,0,0,1,0,0,B,B,1,triadic,0.125000,W1|S|W2|W3|C,0.125000,5,1,0,11.9
+MAJ3,1,5,1,1,1,0,0,0,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+MIXED,1,7,1,1,1,0,0,0,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+T2,0,11,1,1,1,0,0,0,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+MIN1,0,5,1,1,1,0,0,0,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+AND_negC,0,1,1,0,1,0,1,1,C,C,1,dyadic,0.000000,S|C,2.000000,2,3,1,0.9
+OR_negC,0,15,1,0,1,0,1,1,C,C,1,dyadic,0.000000,S|C,2.000000,2,3,1,0.9
+AND_negAB,0,1,1,0,1,0,1,1,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+OR_negAB,0,15,1,0,1,0,1,1,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+AND_of_ORs,0,9,1,1,1,0,0,0,C,C,1,dyadic,0.000000,,nan,0,3,1,0.9
+XOR3_and_D,0,4,1,0,0,0,1,0,C,C,1,triadic,0.250000,S|C,2.000000,2,1,0,5.2

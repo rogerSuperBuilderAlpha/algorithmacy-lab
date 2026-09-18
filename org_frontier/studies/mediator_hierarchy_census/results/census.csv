@@ -1,0 +1,11 @@
+family,d,b,L,n,structure,whole_phi_mip,core,core_phi,core_levels,occupied_levels,spans_all_levels,top_local,n_core,seconds
+recurrent_tree,1,1,,2,triadic,2.000000,A|B,2.000000,apex|leaf,apex|leaf,True,False,2,0.03
+recurrent_tree,2,1,,3,triadic,2.000000,A|B|C,2.000000,apex|leaf|mid,apex|leaf|mid,True,False,3,0.37
+recurrent_tree,3,1,,4,triadic,2.000000,A|B|C|D,2.000000,apex|leaf|mid,apex|leaf|mid,True,False,4,5.29
+recurrent_tree,4,1,,5,triadic,2.000000,A|B|C|D|E,2.000000,apex|leaf|mid,apex|leaf|mid,True,False,5,85.05
+recurrent_tree,1,2,,3,triadic,2.000000,A|B|C,2.000000,apex|leaf,apex|leaf,True,False,3,0.12
+recurrent_tree,1,3,,4,triadic,3.000000,A|B|C|D,3.000000,apex|leaf,apex|leaf,True,False,4,0.69
+recurrent_tree,1,4,,5,triadic,4.000000,A|B|C|D|E,4.000000,apex|leaf,apex|leaf,True,False,5,4.74
+recurrent_crossed,2,2,,5,triadic,2.000000,S0|S2|L2,2.000000,apex|leaf|mid,apex|leaf|mid,True,False,3,8.16
+hub_chain,,,2,4,dyadic,0.000000,H0|P0,2.000000,apex|leaf,apex|leaf|mid,False,True,2,0.11
+hub_chain,,,3,6,dyadic,0.000000,H0|P0,2.000000,apex|leaf,apex|leaf|mid,False,True,2,0.8

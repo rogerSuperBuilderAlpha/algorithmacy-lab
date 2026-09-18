@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,n5_sib_classes,n6_classes_pure,reading
+SUPPORTED,REFUTED,SUPPORTED,SUPPORTED,SUPPORTED,SCALE_MORPHS,3,True,"SCALE_MORPHS — class purity holds at n=5 and n=6 (no within-class mix); discriminant morphs singleton→multi-class band; not blur, not copy"

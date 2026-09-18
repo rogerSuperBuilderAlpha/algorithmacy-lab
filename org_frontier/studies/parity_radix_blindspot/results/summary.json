@@ -1,0 +1,66 @@
+{
+  "verdict": "BLINDSPOT_SURVIVES_RADIX",
+  "stock": {
+    "XOR": {
+      "major_core": "W|S|C",
+      "major_phi": 0.5,
+      "max_full_phi": 0.5,
+      "pure_ho": true
+    },
+    "AND": {
+      "major_core": "W|S|C",
+      "major_phi": 2.0,
+      "max_full_phi": 2.0,
+      "pure_ho": false
+    }
+  },
+  "profiles": {
+    "2": {
+      "mod": {
+        "max_phi": 0.5,
+        "mean_pos_phi": 0.5,
+        "n_pos": 4,
+        "flat": true
+      },
+      "min": {
+        "max_phi": 2.0,
+        "mean_pos_phi": 2.0,
+        "n_pos": 1,
+        "flat": true
+      }
+    },
+    "3": {
+      "mod": {
+        "max_phi": 0.5283208335737186,
+        "mean_pos_phi": 0.5283208335737186,
+        "n_pos": 9,
+        "flat": true
+      },
+      "min": {
+        "max_phi": 3.169925001442312,
+        "mean_pos_phi": 1.0362156256610597,
+        "n_pos": 4,
+        "flat": false
+      }
+    },
+    "4": {
+      "mod": {
+        "max_phi": 0.5,
+        "mean_pos_phi": 0.5,
+        "n_pos": 16,
+        "flat": true
+      },
+      "min": {
+        "max_phi": 4.0,
+        "mean_pos_phi": 0.7404511109829055,
+        "n_pos": 9,
+        "flat": false
+      }
+    }
+  },
+  "h1": false,
+  "h2": true,
+  "h3": false,
+  "morph_bits": [],
+  "note": "pure-HO via stock at k=2 only; overlay subset \u03a6 inflated on XOR dyads \u2014 full-system \u03a6 signature used for k>2"
+}

@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,n_per_class,n_classes,reading
+SUPPORTED,REFUTED,REFUTED,SUPPORTED,SUPPORTED,BAND_DISCRIMINANT,3,6,"BAND_DISCRIMINANT — within indeg (0,1,1,1,1,2), Φ=9 iff cycles∈{(5,),(2,3)}; else Φ=8; classes pure; not n=5 3-cycle singleton; not recip/n_core alone"

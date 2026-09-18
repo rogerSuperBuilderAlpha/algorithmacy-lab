@@ -1,0 +1,13 @@
+n,form,phi,structure
+3,chain,2.00000000,triadic
+3,conjunctive_hub,2.00000000,triadic
+3,two_hub,2.00000000,triadic
+3,pool,6.00000000,triadic
+3,ring,6.00000000,triadic
+3,parity_hub,0.50000000,triadic
+4,chain,2.00000000,triadic
+4,conjunctive_hub,3.00000000,triadic
+4,two_hub,2.00000000,triadic
+4,pool,12.00000000,triadic
+4,ring,4.00000000,triadic
+4,parity_hub,0.25000000,triadic

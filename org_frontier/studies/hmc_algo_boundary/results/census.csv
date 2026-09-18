@@ -1,0 +1,11 @@
+name,arm,structure,whole_phi,core,core_phi,n_core,basis
+hmc_classical,baseline,dyadic,0.000000,W1|S,2.000000,2,"W1↔S; W2,C idle"
+assist_OR,H1,dyadic,0.000000,W1|S|W2,2.000000,3,"S=W1∨W2; W1,W2 read S; C idle"
+assist_AND,H1,dyadic,0.000000,W1|S|W2,2.000000,3,"S=W1∧W2; W1,W2 read S; C idle"
+C_reads_not_in_commit,H2,dyadic,0.000000,W1|S|W2,2.000000,3,S=W1∧W2; C reads S only
+broadcast_W1,H2,dyadic,0.000000,W1|S,2.000000,2,"S=W1; W2,C read S (no multi-commit)"
+algo_full_AND,H3,triadic,3.000000,W1|S|W2|C,3.000000,4,S=W1∧W2∧C; all read S
+algo_full_OR,H3,triadic,3.000000,W1|S|W2|C,3.000000,4,S=W1∨W2∨C; all read S
+drop_C_idle,H4,dyadic,0.000000,W1|S|W2,2.000000,3,"from full AND: C removed from S, idle"
+drop_C_readonly,H4,dyadic,0.000000,W1|S|W2,2.000000,3,"from full AND: C removed from S, still reads"
+drop_W2_idle,H4,dyadic,0.000000,W1|S|C,2.000000,3,"from full AND: W2 removed from S, idle"

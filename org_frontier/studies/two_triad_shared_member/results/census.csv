@@ -1,0 +1,10 @@
+architecture,bridge,structure,whole_phi_mip,core,core_phi,spans_both,n_core
+shared_counterpart,none,dyadic,0.000000,W1|S1|C,2.000000,False,3
+shared_counterpart,AND,triadic,2.000000,W2|S2,2.000000,False,2
+shared_counterpart,OR,dyadic,0.000000,W1|S1|C,2.000000,False,3
+shared_mediator,none,dyadic,0.000000,W1|C1|S,2.000000,False,3
+shared_mediator,AND,triadic,4.000000,W1|C1|W2|C2|S,4.000000,True,5
+shared_mediator,OR,dyadic,0.000000,,nan,False,0
+shared_worker,none,dyadic,0.000000,S1|C1|W,2.000000,False,3
+shared_worker,AND,triadic,2.000000,S2|C2,2.000000,False,2
+shared_worker,OR,dyadic,0.000000,S1|C1|W,2.000000,False,3

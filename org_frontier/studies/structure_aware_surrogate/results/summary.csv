@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,mean_auc_coupling,mean_auc_structure,lift_auc,mean_rho_coupling,mean_rho_structure,lift_rho,n_forms,n_mixed_families,reading
+REFUTED,SUPPORTED,REFUTED,NO_STRUCTURE_GAIN,0.944444,0.993056,0.048611,0.843764,0.836667,-0.007097,52,8,NO_STRUCTURE_GAIN — structure-aware ≈ coupling under LOFO

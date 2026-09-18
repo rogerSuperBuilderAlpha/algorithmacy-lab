@@ -1,0 +1,11 @@
+name,role,rung,band,note,labels,structure,whole_phi,core,n_core,phi,C_in,M_in,displaces,C_out
+dead,ladder,0,low,M'=0 untrained,ASCM,dyadic,0.0,S|C,2,2.0,True,False,False,False
+static,ladder,1,low,M'=M frozen,ASCM,dyadic,0.0,A|S|C,3,2.0,True,False,False,False
+self,ladder,2,low,M'=A wrong feature,ASCM,triadic,2.0,S|C,2,2.0,True,False,False,False
+obs_C,ladder,3,mid,M'=C observe lag,ASCM,triadic,1.0,A|S,2,2.0,False,False,False,True
+partial_and,ladder,4,mid,M'=S∧C,ASCM,triadic,1.0,A|S,2,2.0,False,False,False,True
+partial_or,ladder,5,mid,M'=S∨C,ASCM,triadic,0.41503749927884376,A|S|C,3,2.0,True,False,False,False
+full,ladder,6,high,M'=S = C's rule,ASCM,triadic,1.0,A|S|M,3,2.0,False,True,True,True
+full_unused,ctrl,-1,ctrl,full M but A'=S (unused),ASCM,dyadic,0.0,A|S|C,3,2.0,True,False,False,False
+full_pure_act,ctrl,-1,ctrl,full M; A'=M pure,ASCM,triadic,2.0,S|C,2,2.0,True,False,False,False
+iso69_full_WSCM,iso,-1,iso,"#69 full under (W,S,C,M)",WSCM,triadic,1.0,W|S|M,3,2.0,False,True,True,True

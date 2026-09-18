@@ -1,0 +1,5 @@
+name,state,core,phi,W_in,C_in,S_in
+faithful,"(2, 2, 2)",W|S|C,3.169925001442312,True,True,True
+W_sticky,"(2, 2, 2)",S|C,3.169925001442312,False,True,True
+W_omitted,"(2, 2, 2)",S|C,3.169925001442312,False,True,True
+C_sticky,"(2, 2, 2)",W|S,3.169925001442312,True,False,True

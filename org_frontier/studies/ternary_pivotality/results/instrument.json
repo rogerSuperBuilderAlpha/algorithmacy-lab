@@ -1,0 +1,19 @@
+{
+  "stock_accepted": false,
+  "overlay": "pyphi_iit4_mv",
+  "primary_state": [
+    2,
+    2,
+    2
+  ],
+  "alt_state": [
+    1,
+    1,
+    1
+  ],
+  "alt_faithful_core": [
+    "W",
+    "S"
+  ],
+  "verdict": "TWO_CONDITION_STATE_DEPENDENT"
+}

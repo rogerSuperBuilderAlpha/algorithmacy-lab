@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,best_spectral,auc_spectral,best_coupling,auc_coupling,lift,rho_spectral,n_forms,reading
+REFUTED,REFUTED,REFUTED,SPECTRAL_PARTIAL,P_spectral_gap,0.892727,mean_mi,0.774545,0.118182,0.669212,36,SPECTRAL_PARTIAL — best spectral=P_spectral_gap AUC=0.893 lift=+0.118; clears neither H1 nor H2

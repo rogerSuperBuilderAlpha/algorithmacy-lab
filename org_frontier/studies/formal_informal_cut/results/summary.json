@@ -1,0 +1,23 @@
+{
+  "verdict": "CUTS_ACROSS",
+  "alignment_score": 0.3333333333333333,
+  "hits": 2,
+  "formal_structs": [
+    "dyadic",
+    "triadic"
+  ],
+  "informal_structs": [
+    "dyadic",
+    "triadic"
+  ],
+  "mismatches": [
+    "F_convey_gate",
+    "F_hierarchy_handoff",
+    "I_backchannel",
+    "I_copy_ring"
+  ],
+  "h1": false,
+  "h2": true,
+  "h3": true,
+  "control_pass": true
+}

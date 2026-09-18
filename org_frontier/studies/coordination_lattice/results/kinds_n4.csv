@@ -1,0 +1,9 @@
+v,phi,n_core_max,n_core_min,size,members
+0,0.0,0,0,1,zeros
+0,1.0,1,1,1,conveyor
+0,2.0,2,2,1,one_party
+1,0.25,4,4,1,parity_hub
+1,2.0,4,2,2,"chain,rot_ring"
+1,3.0,4,4,4,"AND_hub,NAND_hub,NOR_hub,OR_hub"
+1,4.0,4,4,1,and_ring
+1,12.0,4,4,1,pool

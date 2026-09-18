@@ -1,0 +1,2 @@
+n4_cheap_fn,n4_tau_star,n4_identity_top10,n4_nested10_tau_fn,n4_nested10_top_fn,n4_nested10_abs_delta,n5_top10_fn,n5_frozen_fn,n5_frozen_call,n5_fn_gap,h1,h2,h3,reading,recommend
+0.101010,0.287565,YES,0.037037,0.037037,0.000000,0.105882,0.070588,0.138000,0.035294,SUPPORTED,REFUTED,SUPPORTED,AGREE — nested τ ≈ top-B%; prefer top-B% across sizes (frozen τ drifts),B=10% top-B% only (recompute ranks per panel; frozen τ transfer failed)

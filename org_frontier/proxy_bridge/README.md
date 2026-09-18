@@ -23,7 +23,9 @@ The proxy bridge does **not** hold. Neither Φ_R (rank-AUC 0.563) nor Φ_WMS (0.
 separates dyadic from triadic forms. A dyadic form with a direct back-channel
 (`hierarchy_backchannel`, exact Φ = 0) draws the highest proxy of all — the cheap measure confuses
 statistical dependence with integration. See [`FINDINGS.md`](FINDINGS.md). The verdict needs the
-exact structural computation, which is feasible because coordination units are small.
+exact structural computation, which is feasible because coordination units are small. For screening
+large cheap-feature panels (not trajectory proxies), the lab default is the B=10% top-B% margin
+cascade in [`../cascade/`](../cascade/).
 
 ## Files
 

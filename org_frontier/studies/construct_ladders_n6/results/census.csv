@@ -1,0 +1,19 @@
+name,family,rung,structure,whole_phi,core,core_phi,n_core,basis,elapsed_s
+hmc_classical,HMC,baseline,dyadic,0.000000,W1|S,2.000000,2,W1↔S; others idle,1.9
+hmc_pre_AND,HMC,pre_boundary,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,S=W1∧W2∧W3∧W4; C idle,4.7
+hmc_C_reads,HMC,commit_read,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,workers bind; C reads only,2.3
+hmc_full_AND,HMC,flip,triadic,5.000000,W1|S|W2|W3|W4|C,5.000000,6,S=all outers ∧; all read — flip,40.1
+hmc_full_OR,HMC,flip,triadic,5.000000,W1|S|W2|W3|W4|C,5.000000,6,S=all outers ∨; all read — flip,42.1
+hmc_drop_C_ro,HMC,drop,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,"from full: C dropped, still reads",2.4
+cmc_chain,CMC,baseline,dyadic,0.000000,W,1.000000,1,W→S→C→D→E→F conveyor,0.6
+cmc_pre_AND,CMC,pre_boundary,dyadic,0.000000,W|S|C|D|E,4.000000,5,S=W∧C∧D∧E; F idle,4.6
+cmc_F_reads,CMC,commit_read,dyadic,0.000000,W|S|C|D|E,4.000000,5,S=W∧C∧D∧E; F reads only,2.3
+cmc_full_AND,CMC,flip,triadic,5.000000,W|S|C|D|E|F,5.000000,6,S=all ∧; all read — flip,39.7
+cmc_full_OR,CMC,flip,triadic,5.000000,W|S|C|D|E|F,5.000000,6,S=all ∨; all read — flip,42.1
+cmc_drop_F_ro,CMC,drop,dyadic,0.000000,W|S|C|D|E,4.000000,5,"from full: F dropped, still reads",2.3
+aimc_rewrite,AI-MC,baseline,dyadic,0.000000,W|A|C,2.000000,3,"W→A→C rewrite; D,E,F idle",2.8
+aimc_pre_AND,AI-MC,pre_boundary,dyadic,0.000000,W|A|C|D|E,4.000000,5,A=W∧C∧D∧E; F idle,4.7
+aimc_F_reads,AI-MC,commit_read,dyadic,0.000000,W|A|C|D|E,4.000000,5,A=W∧C∧D∧E; F reads only,2.3
+aimc_full_AND,AI-MC,flip,triadic,5.000000,W|A|C|D|E|F,5.000000,6,A=all ∧; all read — flip,39.8
+aimc_full_OR,AI-MC,flip,triadic,5.000000,W|A|C|D|E|F,5.000000,6,A=all ∨; all read — flip,42.2
+aimc_drop_F_ro,AI-MC,drop,dyadic,0.000000,W|A|C|D|E,4.000000,5,"from full: F dropped, still reads",2.3

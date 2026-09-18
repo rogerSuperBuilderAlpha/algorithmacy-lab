@@ -148,6 +148,16 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Research program v7 — the qualitative and recurrence wave](org_frontier/RESEARCH_PROGRAM_V7.md) — the current research program
 - [Research narrative: how the program has progressed, and a path forward](org_frontier/RESEARCH_NARRATIVE.md) — the narrative arc across questions
 - [Structural findings: what makes a coordination form irreducible](org_frontier/STRUCTURAL_FINDINGS.md) — the standing structural findings
+- [PR #739 package — arcs on `cursor/triad-template-census-6ac4`](org_frontier/PR739_PACKAGE.md) — PR #739 merge package — closed arcs, instrument, human gates
+- [Omit-atom arc — working picture](org_frontier/OMIT_ATOM_ARC.md) — omit/discrete-Φ arc — motif-ruled atoms, scale morphs
+- [Construct × scale ladder arc — working picture](org_frontier/CONSTRUCT_LADDER_ARC.md) — construct×ladder arc — COMMIT_READ, Φ=n−1 flip, gate seal
+- [Estimation lane (#21–#23, #25) — working picture](org_frontier/ESTIMATION_ARC.md) — estimation lane — topology bottleneck; closable
+- [Stoch–temporal arc — working picture](org_frontier/STOCH_TEMPORAL_ARC.md) — stoch–temporal arc — noise, delay, coexistence, CT proxy; closable
+- [Formal theory arc — #47–#50 working picture](org_frontier/FORMAL_THEORY_ARC.md) — formal theory arc — #47–#50; closable
+- [AI / multi-agent arc — #37–#41 synthesis](org_frontier/AI_MULTIAGENT_ARC.md) — AI/multi-agent arc — membership cuts; closable
+- [Political economy arc — #29–#36 (closed)](org_frontier/POLITICAL_ECONOMY_ARC.md) — political economy arc — #29–#36; closable
+- [Beyond-binary arc — #1–#4 closed](org_frontier/BEYOND_BINARY_ARC.md) — beyond-binary arc — mv pin M1/M2; #1–#4; closable
+- [Construct-validity arc — #43–#46 closed](org_frontier/CONSTRUCT_VALIDITY_ARC.md) — construct-validity arc — #43–#46; closable
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review
 - [Paper pipeline — turning paper-less work into full-package research papers](org_frontier/PAPER_PIPELINE.md) — the plan to turn paper-less work into full papers
 - [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the open agenda — questions waiting for a contributor
@@ -270,13 +280,91 @@ Deep single-question dives, each driven by its own results.
 
 Multi-experiment batteries on one theme.
 
+- **[Active label acquisition (agenda #25)](org_frontier/studies/active_label_acquisition/README.md)** — labels), no acquisition policy beats random by the pre-registered
+- **[Agent protocol triad (#37)](org_frontier/studies/agent_protocol_triad/README.md)** — the same way the commit does (COMMIT_READ / probe #88): conveyors and
+- **[Agent tool core (#38)](org_frontier/studies/agent_tool_core/README.md)** — same way an inference model does (#4, #9): unused / read-only stays
+- **[AI fidelity displace (#40)](org_frontier/studies/ai_fidelity_displace/README.md)** — the counterpart’s policy displaces C at **full** fidelity only
+- **[Algorithmic transparency (#34)](org_frontier/studies/algo_transparency/README.md)** — not channel transparency (#24). **Publish-unread** is theater: F stays
+- **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
+- **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
+- **[Conjunctive law on real Boolean renders (agenda #45)](org_frontier/studies/conjunctive_law_real_render/README.md)** — (#116) is **not** visible as a scaling law in institutional or fitted
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
+- **[Construct gate transfer at n=5 — CMC / AI-MC](org_frontier/studies/construct_gates_n5/README.md)** — full-bind regimes **transfer** from HMC anchors to CMC and AI-MC at
+- **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)** — AND_negE (Regime C) transfer on CMC and AI-MC full-bind at n=5
+- **[CMC / AI-MC encoding ladders at n=5](org_frontier/studies/construct_ladders_n5/README.md)** — paths at n=5. Classical baselines keep their construct signatures
+- **[Construct ladders at n=6 — HMC / CMC / AI-MC](org_frontier/studies/construct_ladders_n6/README.md)** — `pre_AND → full_AND` with whole triadic n_core=6, **Φ=5 (=n−1)** for AND
+- **[HMC / CMC / AI-MC at n>3](org_frontier/studies/constructs_n_gt3/README.md)** — plus idle parties) stays a **2-core**. CMC conveyors stay non-commit (whole
 - **[Contingency transitions — the operations that move an intermediary between cells](org_frontier/studies/contingency_transitions/README.md)** — The four cells of the taxonomy form a state machine, and six named operations are its edges. Each operation is
+- **[Continuous-time grain/schedule invariance (agenda #12)](org_frontier/studies/continuous_time_invariance/README.md)** — softens #112’s discrete wipeout but does **not** restore a
+- **[Coordination lattice (#50)](org_frontier/studies/coordination_lattice/README.md)** — (dyadic Φ = 0); ⊤ = `pool` (Φ = n(n−1); tied with `and_ring` at n=3)
 - **[Coordination-logic atlas](org_frontier/studies/coordination_logic_atlas/README.md)** — Fifty coordination forms, classified by exact IIT-4.0 Φ. Thirty-six verdicts matched the
 - **[The core-membership law](org_frontier/studies/core_membership_law/README.md)** — A pre-registered confirmatory run of the two-condition account of major-complex membership. The
+- **[Correlated output noise (agenda #5)](org_frontier/studies/correlated_output_noise/README.md)** — (a shared-coin SBS TPM that is not conditionally independent) does
+- **[Derangement 3+3 Φ=14 law at n=6](org_frontier/studies/derangement_33_phi14/README.md)** — iff cycle type 3+3**. Dense sample: 6/40 of the 3+3 class all give full-core
 - **[Discriminant boundaries — what algorithmacy is not](org_frontier/studies/discriminant_boundaries/README.md)** — A pre-registered discriminant battery: faithful Boolean models of algorithmacy's neighbour constructs,
+- **[Discriminant scale-blur (#42)](org_frontier/studies/discriminant_scale_blur/README.md)** — discriminant into within-class Φ mixing. Class purity holds at n=5 and n=6
 - **[Dual-function entities — earned integration and held gates in one company](org_frontier/studies/dual_function_entities/README.md)** — Seven platforms decomposed into 16 functions, each classified by the bypass-counterfactual (q213). Every
-- **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 51 entries classified by the bypass-counterfactual (q213): 38 real-world arrangements and 13
+- **[Dual principal conflict (#29)](org_frontier/studies/dual_principal_conflict/README.md)** — is set by the **conflict encoding** — not a single universal winner
+- **[Extractive ejection order (#36)](org_frontier/studies/ejection_order/README.md)** — (role symmetry #55). There is **no transferable fine order** W≺C≺R
+- **[Encoding ladder — gate family robustness](org_frontier/studies/encoding_ladder_gates/README.md)** — are **not** gate-robust. Three regimes at n=5:
+- **[n=5 encoding ladder — HMC / literacy → algorithmacy](org_frontier/studies/encoding_ladder_n5/README.md)** — complex **2 → 3 → 4** while wholes stay dyadic. Core Φ can reach 3 on the
+- **[n=6 encoding ladder — does Φ track n−1?](org_frontier/studies/encoding_ladder_n6/README.md)** — as n=5: assist grows the core **2 → 3 → 4 → 5** with dyadic wholes; the
+- **[Endogenous coalition (#30)](org_frontier/studies/endogenous_coalition/README.md)** — maximize own major-complex membership, pure Nash are **all-out** and
+- **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
+- **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
+- **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
+- **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
+- **[Gig substitution (#35)](org_frontier/studies/gig_substitution/README.md)** — individual worker drops from the major complex at the **first positive
+- **[Graded commit verdict (agenda #2)](org_frontier/studies/graded_commit_verdict/README.md)** — (`S'=min(W,C)`, ternary) keeps **discrete** structure labels
+- **[HITL rubber stamp (#39)](org_frontier/studies/hitl_rubber_stamp/README.md)** — system commit, counterpart), the human joins the major complex **iff**
+- **[HMC ↔ algorithmacy encoding boundary](org_frontier/studies/hmc_algo_boundary/README.md)** — 2-core. Adding a second human into S’s rule (∨ or ∧) expands to 3-core
+- **[Holistic residual at n=4 (F26)](org_frontier/studies/holistic_residual_n4/README.md)** — strict-mediation n=4 forms (seed 4), a Probe-125/131 cheap-feature random forest misclassifies
+- **[Unconstrained n=4 holistic residual (F26 asterisk fix)](org_frontier/studies/holistic_residual_n4_unconstrained/README.md)** — unconstrained k=2 n=4 forms (seed 40), Probe-131 RF miss rate = **7.5% (75/1000)**, above the
+- **[Unconstrained n=5 holistic residual](org_frontier/studies/holistic_residual_n5_unconstrained/README.md)** — forms (seed 50), Probe-131 RF miss rate = **9.0% (45/500)**, inside the pre-registered hold band
+- **[Hub floor uniqueness (#48)](org_frontier/studies/hub_floor_uniqueness/README.md)** — form achieving Φ = n−1 at the 2(n−1) edge floor. On hub topology the
+- **[Joint role-target grain on indeg (0,0,0,1,2,3)](org_frontier/studies/indeg_000123_grain/README.md)** — z_targets vary. Joint subtypes are Φ-pure:
+- **[Role-target grain on indeg (0,0,1,1,1,3)](org_frontier/studies/indeg_001113_grain/README.md)** — ((2,),1) **mixes** Φ=6/12 until split by **z_targets**. t_targets is
+- **[Finer grain on MIX indeg (0,0,1,1,2,2)](org_frontier/studies/indeg_002122_grain/README.md)** — Within indeg **(0,0,1,1,2,2)**: **t_targets=(1,1) ⇒ Φ=12** (n_core=4);
+- **[Indeg (0,0,1,1,2,2) at n=6](org_frontier/studies/indeg_002122_n6/README.md)** — the closed (0,1,1,1,1,2) band — cycle-type classes are **not Φ-pure**
+- **[Interior topology between ring and pool (agenda #19)](org_frontier/studies/interior_ring_pool/README.md)** — (Φ = 4) and the pool (Φ = n(n−1)) **exist**, but none in this designed census
+- **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
+- **[Ladder-gate stratified panel — stress-test MONO_EXTREMAL_VS_AFFINE](org_frontier/studies/ladder_gate_panel/README.md)** — stratified panel of **448** four-input gates at n=5 full bind:
+- **[Ladder-gate Boolean property classifier](org_frontier/studies/ladder_gate_properties/README.md)** — (anchors + property probes), regime membership is predicted exactly by:
+- **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
+- **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
+- **[MARL deep replicate (#41 gap)](org_frontier/studies/marl_deep_replicate/README.md)** — linear FA Q-policies with observation `[S, own_last, partner_last]` —
+- **[MARL emergent learn (#41)](org_frontier/studies/marl_emergent_learn/README.md)** — predict task learnability (AUC emerg→success 0.555; emerg→easy 0.485)
+- **[Mediator hierarchy census (agenda #15)](org_frontier/studies/mediator_hierarchy_census/README.md)** — occupied level** (apex, mid if present, leaf); Φ is **flat in depth** (2.0 at
+- **[Min-cut MIP (#49)](org_frontier/studies/mincut_mip/README.md)** — (Q49 H5). For the #47 families a *normalized GID cut-weight* theorem
+- **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
+- **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
+- **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
+- **[Omit-motif census: Φ=5 vs Φ=6 at n=5](org_frontier/studies/omit_motif_phi5/README.md)** — recip=0. Same-indeg siblings with other cycle structures all give **Φ=6**. Motif
+- **[Oscillatory Φ scaling (agenda #11)](org_frontier/studies/oscillatory_scaling/README.md)** — traveling wave, period=n) carries a **constant Φ=2.0** law over
+- **[Parity radix blind spot (agenda #4)](org_frontier/studies/parity_radix_blindspot/README.md)** — flat full-system Φ band (≈0.5) at k=2,3,4, while min-commit is high
+- **[Parity vs conjunctive under noise (agenda #8)](org_frontier/studies/parity_vs_conjunctive_noise/README.md)** — conjunctive hubs lose the triadic verdict at the **same** p*=0.5 under
+- **[Party vs mediator noise (agenda #7)](org_frontier/studies/party_vs_mediator_noise/README.md)** — mediator-column flip-noise collapse the triad at the **same** p*=0.5
+- **[Φ-ascent adaptive mediator (agenda #14)](org_frontier/studies/phi_ascent_mediator/README.md)** — Φ does **not** converge to the conjunctive hub. Under fixed party
+- **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
+- **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate
+- **[Residual phase boundary (F28)](org_frontier/studies/residual_phase_boundary/README.md)** — that instability is shared with other classifier-uncertain forms (H3 refuted).** One-bit flips in
+- **[Residual phase boundary on unc k=2 misses (F28)](org_frontier/studies/residual_phase_boundary_unc/README.md)** — One-bit truth-table flips flip the exact Φ verdict for **37.1%** of neighbours of the 75 n=4
+- **[Rival platforms (#32)](org_frontier/studies/rival_platforms/README.md)** — a single winner rule. Substitutable `W'=S1∨S2` / XOR → **equal-Φ
+- **[Same-indeg Φ=8 vs 9 band at n=6](org_frontier/studies/same_indeg_band_n6/README.md)** — n=6 fixed_k=4, **Φ=9 iff cycles ∈ {(5,), (2,3)}**; otherwise **Φ=8**. All six
+- **[Sample complexity of the cheap screen (agenda #23)](org_frontier/studies/sample_complexity_screen/README.md)** — family, mean pairwise MI already hits AUC **0.97 at T=125** (noise 0.08
+- **[Scaling laws closed-form (#47)](org_frontier/studies/scaling_laws_closed_form/README.md)** — See [`../mincut_mip/`](../mincut_mip/) and `FORMAL_THEORY_ARC.md`
+- **[Shared-mediator ternary (beyond-binary)](org_frontier/studies/shared_mediator_ternary/README.md)** — {0,1}^5 cube. Exact **IIT-4.0** on this lab's PyPhi pin **cannot** ingest a
+- **[Small-world rewire vs hierarchy (agenda #17)](org_frontier/studies/small_world_vs_hierarchy/README.md)** — ring's size-independent Φ = 4 cap with hub growth (Φ = n−1). Interior morphs
+- **[Spanning mediator atop multi-hub (agenda #20)](org_frontier/studies/spanning_mediator_multihub/README.md)** — raise Φ beyond the pool ceiling. Under recurrent hub-span it **recreates the
+- **[Spectral topology-invariant feature (agenda #21)](org_frontier/studies/spectral_invariant/README.md)** — (`P_spectral_gap`) is the best cross-family ranker on this panel
+- **[Structure-aware surrogate across topology (agenda #22)](org_frontier/studies/structure_aware_surrogate/README.md)** — panel with exact IIT-4.0 labels, leave-one-family-out detection AUC is
+- **[Template coverage census — fifth template from the triad residual](org_frontier/studies/template_coverage_census/README.md)** — outside the four catalog templates (relay / conjunctive / additive / free). They are exactly the
+- **[Ternary pivotality (#1)](org_frontier/studies/ternary_pivotality/README.md)** — control holds. Stock pin still rejects ternary SBS. Vendored overlay
+- **[Thompson verdict bridge (agenda #43)](org_frontier/studies/thompson_verdict_bridge/README.md)** — dyadic/triadic verdict loosely, not as a clean map. Canonical
+- **[Timescale separation (agenda #9)](org_frontier/studies/timescale_separation/README.md)** — fast parties) factors the triad at **k\*=2** on both the conjunctive
+- **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both
+- **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
+- **[Worker union scale (#31)](org_frontier/studies/worker_union_scale/README.md)** — coalition cell-for-cell (Φ, n_core, core==peer group) under weak peer,
 
 ### Thinkers on the triad
 

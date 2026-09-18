@@ -1,0 +1,10 @@
+slug,n,structure,triadic,max_phi,core,core_phi,W,TI_7,reciprocity,input,affect,n_mutual,n_edges_off,notes
+independent,3,dyadic,0,0.0,{C},1.0,0.0,1.0,0.0,0.0,0.0,0,0,no cross edges
+one_way_feed,3,dyadic,0,0.0,{C},1.0,0.1111111111111111,1.6666666666666665,0.0,0.16666666666666666,0.16666666666666666,0,1,W→S only
+pooled_indep,3,dyadic,0,0.0,"{W,S}",2.0,0.4444444444444444,3.6666666666666665,0.3333333333333333,0.5,0.5,1,3,#43 pooled independent relay
+seq_handoff,3,dyadic,0,0.0,{C},1.0,0.2222222222222222,2.333333333333333,0.0,0.3333333333333333,0.3333333333333333,0,2,#43/#39 acyclic hand-off
+recip_acyclic,3,dyadic,0,0.0,"{W,S}",2.0,0.4444444444444444,3.6666666666666665,0.3333333333333333,0.5,0.5,1,3,"#43 bidirectional labels, no cycle"
+and_chain,3,triadic,1,2.0,"{W,S,C}",2.0,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,4,#43/#57 AND pass-through / cyclic
+xor_chain,3,triadic,1,0.5,"{W,S,C}",0.5,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,4,"XOR commit; same CM family as AND, Φ≈0.5"
+or_chain,3,triadic,1,2.0,"{W,S,C}",2.0,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,2,4,OR commit; same CM family as AND
+pool_n4,4,triadic,1,3.0,"{W,S,C1,C2}",3.0,0.5,4.0,0.5,0.5,0.5,3,6,#116 all-required pool n=4

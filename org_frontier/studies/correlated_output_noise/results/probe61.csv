@@ -1,0 +1,4 @@
+form,whole_structure,whole_phi,core,core_phi
+no_shock,dyadic,0.00000000,"{W,S,C}",2.00000000
+shared_shock,dyadic,0.00000000,"{W,S,C}",2.00000000
+shock_in_commit,dyadic,0.00000000,"{W,S,C}",2.00000000

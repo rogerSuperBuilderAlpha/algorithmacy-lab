@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,n_interiors,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,NO_INTERMEDIATE_LAW,7,NO_INTERMEDIATE_LAW — discrete full-core interiors exist (hub/chord/degree steps); no log or √n scaling in n; not pole-only collapse
