@@ -72,6 +72,10 @@ below is blocked without it.
 8. Does the omit cycle-type discriminant **morph again at n=7**, or does
    the n=5→n=6 singleton→band shift (V2 #42 `SCALE_MORPHS`) stabilize
    into a fixed band grammar?
+   **Answered — BAND_GRAMMAR_HOLDS.** At n=7 (indeg (0,1,1,1,1,1,2)) the
+   omit cycle-type law stays a class-pure two-band grammar (Φ=12 vs 14);
+   no singleton return, continuum, or purity break. See
+   `studies/omit_cycle_morph_n7/`.
 9. Do the discrete Φ atoms of V2 #18 / `interior_ring_pool` at n≤6
    **sprout new interior atoms at n=7–8**, or only thicken existing
    landmark multiplicities?

@@ -4674,6 +4674,22 @@
       "source": "org_frontier/studies/mixed_algebra_seats/FINDINGS.md"
     },
     {
+      "name": "omit-cycle-morph-n7",
+      "cmd": "python org_frontier/studies/omit_cycle_morph_n7/analyze_morph_n7.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (class purity at n=7):                    SUPPORTED",
+        "H2 (discrete cycle-type bands):              SUPPORTED",
+        "H3 (not n=5-style singleton):                SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: BAND_GRAMMAR_HOLDS",
+        "reading: BAND_GRAMMAR_HOLDS \u2014 at n=7 the omit cycle-type discriminant keeps class-pure discrete \u03a6 bands (no singleton return, no continuum, no purity break); n=5\u2192n=6 singleton\u2192band shift stabilizes (V2 #42)",
+        "band_law: \u03a6=12\u2190[((2,), 1), ((2, 2), 2), ((2, 2, 2), 3), ((2, 4), 1), ((4,), 0), ((6,), 0)]; \u03a6=14\u2190[((2, 3), 1), ((3,), 0), ((3, 3), 0), ((5,), 0)]"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/omit_cycle_morph_n7/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

@@ -7,11 +7,16 @@ fixed band grammar? Exact IIT-4.0. Hypotheses fixed in hypotheses.md.
 Reuses committed n=5/n=6 purity tables; new compute is n=7 indeg
 (0,1,1,1,1,1,2) cycle-type catalog + light uniformity.
 
-Run:  python org_frontier/studies/omit_cycle_morph_n7/analyze_morph_n7.py
+Run (default — load committed census, reprint verdict):
+  python org_frontier/studies/omit_cycle_morph_n7/analyze_morph_n7.py
+
+Rebuild (~90 min, 12 exact-Φ cells):
+  python org_frontier/studies/omit_cycle_morph_n7/analyze_morph_n7.py --rebuild
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
 import os
 import sys
@@ -92,6 +97,12 @@ def om_key(om, n=N):
     return tuple(om[i] for i in range(n))
 
 
+def parse_cycles(s):
+    if isinstance(s, tuple):
+        return s
+    return eval(s) if str(s).startswith("(") else s
+
+
 def sample_target_classes(n_target=250000, seed=BASE_SEED):
     """Monte-Carlo catalog of (cyc, recip) under TARGET_INDEG."""
     rng = np.random.default_rng(seed)
@@ -148,38 +159,48 @@ def run_omit(om, tag, family):
     }
 
 
-def main():
-    os.makedirs(RESULTS, exist_ok=True)
-    print("OMIT CYCLE-TYPE MORPH n=7 — V3 #8")
-    print("hypotheses fixed in hypotheses.md before this run")
-    print("=" * 80)
-
-    print("INSTRUMENT CONTROL")
-    v0 = verdict(
-        [lambda x: x[1], lambda x: x[0] & x[2], lambda x: x[1]],
-        ("W", "S", "C"),
-    )
-    ctrl = v0.structure == "triadic" and abs(v0.max_phi - 2.0) < 1e-6
-    print(f"  faithful triad: {v0.structure} Φ={v0.max_phi:.6f}  {'PASS' if ctrl else 'FAIL'}")
-    if not ctrl:
-        raise SystemExit("ABORT: instrument control failed")
-
-    # ---- reuse n=5 / n=6 priors from committed CSVs ----
+def load_priors():
     print("\nREUSED PRIORS (n=5 singleton / n=6 band)")
     blur = load_csv(os.path.join(STUDIES, "discriminant_scale_blur", "results", "census.csv"))
     n5 = [r for r in blur if r.get("n") == "5" or str(r.get("n")) == "5"]
     band6 = load_csv(os.path.join(STUDIES, "same_indeg_band_n6", "results", "census.csv"))
     print(f"  discriminant_scale_blur rows n=5-ish: {len(n5)} (file has {len(blur)} total)")
     print(f"  same_indeg_band_n6 rows: {len(band6)}")
-    # summarize n=6 purity from census
     by6 = defaultdict(list)
     for r in band6:
         by6[r.get("cycles", "") + "|r" + str(r.get("recip", ""))].append(float(r["core_phi"]))
     n6_pure = all(purity(v)[0] for v in by6.values() if v)
     n6_phis = sorted({round(float(r["core_phi"]), 3) for r in band6})
     print(f"  n=6 class purity (all classes): {n6_pure}; Φ set={n6_phis}")
+    return n6_pure, n6_phis
 
-    # ---- n=7 catalog ----
+
+def choose_purity_keys(designed_rows):
+    des_by_key = {}
+    for r in designed_rows:
+        cyc = parse_cycles(r["cycles"])
+        des_by_key[(cyc, int(r["recip"]))] = r
+    phi_to_keys = defaultdict(list)
+    for key, r in des_by_key.items():
+        phi_to_keys[round(float(r["core_phi"]), 6)].append(key)
+    bands_sorted = sorted(phi_to_keys.items(), key=lambda kv: -len(kv[1]))
+    purity_keys = []
+    for _phi, keys in bands_sorted:
+        if keys:
+            purity_keys.append(keys[0])
+        if len(purity_keys) >= 2:
+            break
+    if len(purity_keys) < 2:
+        for k in des_by_key:
+            if k not in purity_keys:
+                purity_keys.append(k)
+            if len(purity_keys) >= 2:
+                break
+    return purity_keys, des_by_key
+
+
+def compute_panel():
+    """Full n=7 MC catalog + designed witnesses + uniformity."""
     print("\nN=7 CLASS CATALOG (MC sample under indeg (0,1,1,1,1,1,2))")
     by_class, hits = sample_target_classes()
     print(f"  MC hits={hits} classes={len(by_class)}")
@@ -187,7 +208,6 @@ def main():
         print(f"    cyc={key[0]} recip={key[1]}  pool={len(by_class[key])}")
 
     rows = []
-    # designed: one per class
     print("\nN=7 DESIGNED WITNESSES (1 per class)")
     for key in sorted(by_class.keys(), key=lambda k: (k[0], k[1])):
         om = by_class[key][0]
@@ -200,47 +220,17 @@ def main():
             f"n_core={row['n_core']} t={row['seconds']}s"
         )
 
-    # purity: pick two classes with distinct designed Φ if possible
-    des_by_key = {}
-    for r in rows:
-        key = (eval(r["cycles"]) if isinstance(r["cycles"], str) else r["cycles"], int(r["recip"]))
-        # cycles stored as str of tuple
-        cyc = eval(r["cycles"]) if r["cycles"].startswith("(") else r["cycles"]
-        des_by_key[(cyc, int(r["recip"]))] = r
-
-    # group designed by phi
-    phi_to_keys = defaultdict(list)
-    for key, r in des_by_key.items():
-        phi_to_keys[round(float(r["core_phi"]), 6)].append(key)
-
-    # choose purity keys: one from each of two largest distinct-phi bands
-    bands_sorted = sorted(phi_to_keys.items(), key=lambda kv: -len(kv[1]))
-    purity_keys = []
-    for phi, keys in bands_sorted:
-        if keys:
-            purity_keys.append(keys[0])
-        if len(purity_keys) >= 2:
-            break
-    # if only one band, still purity-test two classes in it
-    if len(purity_keys) < 2:
-        all_keys = list(des_by_key.keys())
-        for k in all_keys:
-            if k not in purity_keys:
-                purity_keys.append(k)
-            if len(purity_keys) >= 2:
-                break
+    purity_keys, des_by_key = choose_purity_keys(
+        [r for r in rows if r["family"] == "designed"]
+    )
 
     print(f"\nN=7 PURITY UNIFORMITY (N_U={N_U}) on {purity_keys}")
     rng = np.random.default_rng(BASE_SEED + 7)
     for key in purity_keys:
-        pool = by_class[key]
-        # ensure designed first
-        forced = [des_by_key[key]["omit"]]
-        # convert omit string back? use om objects from pool
         designed_om = by_class[key][0]
         chosen = [designed_om]
         seen = {om_key(designed_om)}
-        rest = [om for om in pool if om_key(om) not in seen]
+        rest = [om for om in by_class[key] if om_key(om) not in seen]
         need = N_U - 1
         if need > 0 and rest:
             idxs = rng.choice(len(rest), size=min(need, len(rest)), replace=False)
@@ -248,7 +238,7 @@ def main():
                 chosen.append(rest[int(i)])
         for j, om in enumerate(chosen):
             if j == 0:
-                continue  # already have designed
+                continue
             tag = f"u_cyc{key[0]}_r{key[1]}_{j}"
             print(f"  computing {tag} ...", flush=True)
             row = run_omit(om, tag, "uniformity")
@@ -258,7 +248,6 @@ def main():
                 f"n_core={row['n_core']} t={row['seconds']}s"
             )
 
-    # write census
     path = os.path.join(RESULTS, "census.csv")
     fields = [
         "family", "name", "n", "omit", "indeg", "cycles", "recip", "class_key",
@@ -268,49 +257,86 @@ def main():
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
+    return rows, purity_keys
 
-    # ---- hypothesis tests ----
+
+def load_panel():
+    path = os.path.join(RESULTS, "census.csv")
+    if not os.path.exists(path):
+        raise SystemExit(
+            f"ABORT: no committed census at {path}; run with --rebuild first"
+        )
+    rows = load_csv(path)
+    # coerce numeric fields
+    for r in rows:
+        r["recip"] = int(r["recip"])
+        r["core_phi"] = float(r["core_phi"])
+        r["n_core"] = int(float(r["n_core"]))
+        r["n"] = int(float(r["n"]))
+        if "seconds" in r and r["seconds"] != "":
+            r["seconds"] = float(r["seconds"])
+    designed = [r for r in rows if r["family"] == "designed"]
+    purity_keys, _ = choose_purity_keys(designed)
+    # prefer keys that actually have uniformity samples
+    with_u = []
+    for key in purity_keys:
+        cyc, recip = key
+        n_u = sum(
+            1 for r in rows
+            if r["family"] == "uniformity"
+            and parse_cycles(r["cycles"]) == cyc
+            and int(r["recip"]) == recip
+        )
+        if n_u:
+            with_u.append(key)
+    if len(with_u) >= 2:
+        purity_keys = with_u[:2]
+    elif with_u:
+        # keep one with_u and fill from designed
+        purity_keys = with_u + [k for k in purity_keys if k not in with_u]
+        purity_keys = purity_keys[:2]
+    print(f"\nLOADED CENSUS — {path} ({len(rows)} rows)")
+    print(f"  designed={len(designed)}; purity_keys={purity_keys}")
+    return rows, purity_keys
+
+
+def evaluate(rows, purity_keys, n6_pure, n6_phis, ctrl):
     print("\nHYPOTHESIS TESTS")
     designed = [r for r in rows if r["family"] == "designed"]
     des_phis = [round(float(r["core_phi"]), 6) for r in designed]
     unique_phi = sorted(set(des_phis))
     print(f"  designed Φ set: {unique_phi}  (n_classes={len(designed)})")
+    for r in sorted(designed, key=lambda x: (parse_cycles(x["cycles"]), int(x["recip"]))):
+        print(
+            f"    cyc={r['cycles']} recip={r['recip']} "
+            f"coreΦ={float(r['core_phi']):.3f} n_core={r['n_core']}"
+        )
 
-    # H1 purity
     pure_ok = True
-    purity_detail = []
     for key in purity_keys:
         cyc, recip = key
         class_rows = [
             r for r in rows
-            if eval(r["cycles"]) == cyc and int(r["recip"]) == recip
+            if parse_cycles(r["cycles"]) == cyc and int(r["recip"]) == recip
         ]
         phis = [float(r["core_phi"]) for r in class_rows]
         ok, hist = purity(phis)
         pure_ok = pure_ok and ok and len(phis) >= N_U
-        purity_detail.append((key, ok, hist, len(phis)))
         print(f"  purity {key}: ok={ok} n={len(phis)} hist={dict(hist)}")
     h1 = pure_ok and len(purity_keys) >= 2
     print(f"H1 (class purity at n=7):                    {'SUPPORTED' if h1 else 'REFUTED'}")
 
-    # H2 discrete bands
     n_phi = len(unique_phi)
     n_cls = len(designed)
-    # band grammar: at least 2 distinct Φ, and not all classes unique Φ (some multi-class band)
     phi_counts = Counter(des_phis)
     multi_class_bands = sum(1 for c in phi_counts.values() if c >= 2)
     continuum_like = n_phi >= 6 and multi_class_bands == 0
-    h2 = n_phi >= 2 and not continuum_like and (multi_class_bands >= 1 or n_phi <= n_cls // 2 + 1)
-    # stronger: prefer multi_class_bands >= 1 (true band)
     h2 = n_phi >= 2 and multi_class_bands >= 1 and not continuum_like
     print(
         f"H2 (discrete cycle-type bands):              {'SUPPORTED' if h2 else 'REFUTED'}"
     )
     print(f"  n_phi={n_phi} multi_class_bands={multi_class_bands} continuum_like={continuum_like}")
 
-    # H3 not singleton
-    # singleton would be: exactly one class has the minority/special Φ alone, all others share one
-    # or exactly one cycle type unique at lower incomplete band
     singleton_like = (
         (n_phi == 2 and sorted(phi_counts.values()) == [1, n_cls - 1])
         or (n_phi == 1)
@@ -350,7 +376,18 @@ def main():
     else:
         print(f"reading: {token}")
 
-    # summary csv
+    # band law line for FINDINGS / reproduce
+    band_map = defaultdict(list)
+    for r in designed:
+        band_map[round(float(r["core_phi"]), 3)].append(
+            (parse_cycles(r["cycles"]), int(r["recip"]))
+        )
+    parts = []
+    for phi in sorted(band_map.keys()):
+        keys = sorted(band_map[phi], key=lambda k: (k[0], k[1]))
+        parts.append(f"Φ={phi:g}←{keys}")
+    print(f"band_law: {'; '.join(parts)}")
+
     summary = {
         "h1": "SUPPORTED" if h1 else "REFUTED",
         "h2": "SUPPORTED" if h2 else "REFUTED",
@@ -368,8 +405,44 @@ def main():
         w = csv.DictWriter(f, fieldnames=list(summary.keys()))
         w.writeheader()
         w.writerow(summary)
-    print(f"wrote {path}")
+    print(f"wrote {os.path.join(RESULTS, 'census.csv')}")
     print(f"wrote {sp}")
+    return token
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--rebuild",
+        action="store_true",
+        help="recompute n=7 exact-Φ panel (~90 min); default loads committed census",
+    )
+    args = ap.parse_args()
+
+    os.makedirs(RESULTS, exist_ok=True)
+    print("OMIT CYCLE-TYPE MORPH n=7 — V3 #8")
+    print("hypotheses fixed in hypotheses.md before this run")
+    print("=" * 80)
+
+    print("INSTRUMENT CONTROL")
+    v0 = verdict(
+        [lambda x: x[1], lambda x: x[0] & x[2], lambda x: x[1]],
+        ("W", "S", "C"),
+    )
+    ctrl = v0.structure == "triadic" and abs(v0.max_phi - 2.0) < 1e-6
+    print(f"  faithful triad: {v0.structure} Φ={v0.max_phi:.6f}  {'PASS' if ctrl else 'FAIL'}")
+    if not ctrl:
+        raise SystemExit("ABORT: instrument control failed")
+
+    n6_pure, n6_phis = load_priors()
+
+    census_path = os.path.join(RESULTS, "census.csv")
+    if args.rebuild or not os.path.exists(census_path):
+        rows, purity_keys = compute_panel()
+    else:
+        rows, purity_keys = load_panel()
+
+    evaluate(rows, purity_keys, n6_pure, n6_phis, ctrl)
 
 
 if __name__ == "__main__":

@@ -36,5 +36,7 @@ hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-Scale lane **V3 #8** (omit cycle-type morph at n=7) or graded×topo
-**V3 #11**. M3 overlay only if a chosen cell is blocked without it.
+Scale lane **V3 #8** closed (`BAND_GRAMMAR_HOLDS` —
+[`omit_cycle_morph_n7/`](studies/omit_cycle_morph_n7/)). Next: **V3 #9**
+(interior atoms at n=7–8) or graded×topo **V3 #11**. M3 overlay only if a
+chosen cell is blocked without it.

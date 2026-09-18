@@ -51,7 +51,8 @@ Validation gap: Boolean models, not organizations.
 
 ## Best next (V3)
 
-Scale lane **#8** (omit cycle-type morph at n=7) or graded×topo **#11**.
+Scale lane **#8** closed (`BAND_GRAMMAR_HOLDS`). Next: **#9** (interior
+atoms at n=7–8) or graded×topo **#11**.
 
 ## Reproduce
 
