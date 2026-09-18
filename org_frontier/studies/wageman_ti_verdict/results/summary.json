@@ -1,0 +1,13 @@
+{
+  "verdict": "WAGEMAN_PREDICTS_VERDICT",
+  "auc": 1.0,
+  "accuracy": 1.0,
+  "threshold": 0.4722222222222222,
+  "spearman_phi": 0.8833333333333327,
+  "point_biserial_triadic": 0.8017318582934944,
+  "mismatches": [],
+  "h1": true,
+  "h2": false,
+  "h3": false,
+  "control_pass": true
+}

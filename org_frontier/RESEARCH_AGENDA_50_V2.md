@@ -226,6 +226,10 @@ runnable design yet. Themes group them; numbering is 1–50.
    alternates flip. Alignment 0.429. See
    `studies/thompson_verdict_bridge/`; `CONSTRUCT_VALIDITY_ARC.md`.
 44. Does measured task interdependence (Wageman-style) predict the verdict on a modeled task?
+   **Answered — WAGEMAN_PREDICTS_VERDICT.** CM-only W=(recip+input+affect)/3
+   separates dyadic/triadic (AUC=1.0, acc=1.0 @W≥0.472); H3 REFUTED
+   (XOR/AND share W, Φ 0.5 vs 2). See `studies/wageman_ti_verdict/`;
+   `CONSTRUCT_VALIDITY_ARC.md`.
 45. Is the conjunctive Φ = n−1 law (#116) visible in any real coordination dataset rendered as a Boolean
     form?
 46. Does the verdict align with the formal-vs-informal coordination distinction, or cut across it?

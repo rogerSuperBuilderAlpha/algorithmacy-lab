@@ -4576,6 +4576,22 @@
       "source": "org_frontier/studies/thompson_verdict_bridge/FINDINGS.md"
     },
     {
+      "name": "wageman-ti-verdict",
+      "cmd": "python org_frontier/studies/wageman_ti_verdict/analyze_wageman.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (W predicts dyadic/triadic):        SUPPORTED",
+        "H2 (weak/null):                        REFUTED",
+        "H3 (\u03a6 better than verdict):            REFUTED",
+        "verification grid:    PASS",
+        "best next:            #45 Boolean render of a real coordination dataset",
+        "verdict: WAGEMAN_PREDICTS_VERDICT \u2014 CM-only Wageman index W=(recip+input+affect)/3 on designed tasks: AUC=1.000 acc=1.000 @W\u22650.472; \u03c1(W,\u03a6)=0.883 <r_pb+0.10 so H3 fails; XOR/AND share W, \u03a6 0.5 vs 2",
+        "reading: WAGEMAN_PREDICTS_VERDICT \u2014 survey-style TI intensity separates dyadic/triadic on this panel; does not grade \u03a6 within same CM; #43 pointer; construct-validity arc #44"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/wageman_ti_verdict/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

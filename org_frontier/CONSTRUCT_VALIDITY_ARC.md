@@ -1,4 +1,4 @@
-# Construct-validity arc — #43 open
+# Construct-validity arc — #43–#44
 
 Spine for `RESEARCH_AGENDA_50_V2` I (#43–#46) on PR #739. Exact binary
 IIT-4.0 Φ unless a later item truly needs the multivalued pin.
@@ -10,27 +10,26 @@ stay closed except as pointers.
 | # | study | verdict |
 |---|---|---|
 | 43 | `thompson_verdict_bridge/` | **PARTIAL_ALIGNMENT** |
-| 44 | Wageman-style measured interdependence | open |
+| 44 | `wageman_ti_verdict/` | **WAGEMAN_PREDICTS_VERDICT** |
 | 45 | Boolean render of a real coordination dataset | open |
 | 46 | formal-vs-informal coordination cut | open |
 
-## #43 synthesis
+## Synthesis so far
 
-Thompson’s three types are not a clean map onto the verdict. Canonical
-pooled_indep→dyadic and recip_cyclic→triadic hold; the sequential chain
-ties reciprocal at Φ=2; alternate encodings of each label flip the
-verdict (all-required pool triadic; hand-off dyadic; cycle-broken
-dyadic). Alignment score 0.429. Joint determination and feedback cycle
-decide; the Thompson label does not. Prior:
-`questions/q43_thompson_interdependence/`.
+Thompson’s type *labels* are not a clean map (#43, alignment 0.429). A
+Wageman-style *intensity* score read off connectivity — reciprocity,
+input need, affect — separates dyadic from triadic on designed tasks
+(AUC=1.0) but does not grade Φ inside one CM (XOR vs AND share W).
+Labels fail; a survey-echo intensity index tracks the structure class.
 
 ## Best next
 
-**#44** — Does measured task interdependence (Wageman-style) predict the
-verdict on a modeled task?
+**#45** — Is the conjunctive Φ = n−1 law (#116) visible in any real
+coordination dataset rendered as a Boolean form?
 
 ## Reproduce
 
 ```
 python org_frontier/studies/thompson_verdict_bridge/analyze_thompson.py
+python org_frontier/studies/wageman_ti_verdict/analyze_wageman.py
 ```
