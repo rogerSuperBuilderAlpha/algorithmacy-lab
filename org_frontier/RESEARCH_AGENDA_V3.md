@@ -34,9 +34,15 @@ below is blocked without it.
    globally (generalizing V2 #16 `WIN` shared-mediator merge), recover a
    known landmark (V2 #18 `DISCRETE_LANDMARKS` / #19
    `NO_INTERMEDIATE_LAW`), or invent a new Φ law?
+   **Answered — COMPOSE_LANDMARK_OR_COLLAPSE.** Closed AND necklace recovers
+   ring landmark Φ=4 (full core); OR/directed variants collapse; no new
+   compose law. See `studies/local_triad_necklace/`.
 5. Does a **ring-of-hubs** (hubs coupled as a ring, each hub serving a
    private leaf set) combine ring-cap with hub-growth where V2 #17
    `PICK_ONE` morphs failed, or does it also pick a landmark / collapse?
+   **Answered — FACTORS_NO_COMBINE.** No ring–hub hybrid on the n=6 panel;
+   cells factor (incomplete hub cores, often Φ=6 on hubs alone) or
+   collapse. See `studies/ring_of_hubs/`.
 6. Across **k>2 local triads sharing a single mediator** (the natural
    lift of V2 #16), does merge Φ scale as k, as 2k, or saturate — and
    does OR bridging still refuse merge?
@@ -89,6 +95,7 @@ below is blocked without it.
 
 ---
 
-**First cell run on this agenda:** #4 — local-triad necklace composition
-(`studies/local_triad_necklace/`). See that study’s FINDINGS for the
-verdict token and the short lane note `COMPOSED_TOPOLOGY_ARC.md`.
+**First cells run on this agenda:** #4
+(`studies/local_triad_necklace/` → `COMPOSE_LANDMARK_OR_COLLAPSE`); #5
+(`studies/ring_of_hubs/` → `FACTORS_NO_COMBINE`). Lane note
+`COMPOSED_TOPOLOGY_ARC.md`.

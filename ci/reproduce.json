@@ -4588,6 +4588,20 @@
       "source": "org_frontier/studies/local_triad_necklace/FINDINGS.md"
     },
     {
+      "name": "ring-of-hubs",
+      "cmd": "python org_frontier/studies/ring_of_hubs/analyze_ring_of_hubs.py",
+      "expect": [
+        "H1 (controls + landmarks):                 SUPPORTED",
+        "H2 (no combine on roh panel):              SUPPORTED",
+        "H3 (each roh cell landmark or collapse):   REFUTED",
+        "H4 (no combine; all cells classified):     SUPPORTED",
+        "verdict: FACTORS_NO_COMBINE",
+        "reading: FACTORS_NO_COMBINE — ring-of-hubs with private leaves does not combine ring-cap with hub-growth; cells factor (incomplete hub cores, often Φ=6 on hubs alone) or collapse — not a hybrid law (extends V2 #17 PICK_ONE / V3 #4 COMPOSE_LANDMARK_OR_COLLAPSE)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/ring_of_hubs/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [
