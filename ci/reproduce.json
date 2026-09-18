@@ -955,12 +955,12 @@
       "name": "q210-shared-counterpart",
       "cmd": "python -m org_frontier.questions.q210_shared_counterpart.probe_shared_counterpart",
       "expect": [
-        "H1 control  single triad : triadic \u03a6=2.000000 PASS",
-        "bridge=AND   triadic  whole\u03a6_MIP=2.0000  core=('W2', 'S2') core\u03a6=2.000",
-        "bridge=none  dyadic   whole\u03a6_MIP=0.0000  core=('W1', 'S1', 'C') core\u03a6=2.000",
+        "H1 control  single triad : triadic Φ=2.000000 PASS",
+        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=('W2', 'S2') coreΦ=2.000",
+        "bridge=none  dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C') coreΦ=2.000",
         "H2 (AND bridge merges both mediators into one core): REFUTED",
-        "H4 (merging two triads is super-additive, core \u03a6 > 2.0): REFUTED",
-        "H5 (AND bridge core \u03a6 > OR bridge core \u03a6): REFUTED"
+        "H4 (merging two triads is super-additive, core Φ > 2.0): REFUTED",
+        "H5 (AND bridge core Φ > OR bridge core Φ): REFUTED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q210_shared_counterpart/FINDINGS.md"
@@ -969,12 +969,12 @@
       "name": "q211-direct-mediator-channel",
       "cmd": "python -m org_frontier.questions.q211_direct_mediator_channel.probe_direct_mediator_channel",
       "expect": [
-        "H1 control  single triad : triadic \u03a6=2.000000 PASS",
-        "channel=AND  triadic  whole\u03a6_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') core\u03a6=3.000 spans_both=True",
-        "channel=none dyadic   whole\u03a6_MIP=0.0000  core=('W1', 'S1', 'C1') core\u03a6=2.000 spans_both=False",
-        "channel=OR   dyadic   whole\u03a6_MIP=0.0000  core=('S1', 'S2') core\u03a6=2.000 spans_both=True",
+        "H1 control  single triad : triadic Φ=2.000000 PASS",
+        "channel=AND  triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True",
+        "channel=none dyadic   wholeΦ_MIP=0.0000  core=('W1', 'S1', 'C1') coreΦ=2.000 spans_both=False",
+        "channel=OR   dyadic   wholeΦ_MIP=0.0000  core=('S1', 'S2') coreΦ=2.000 spans_both=True",
         "H2 (AND channel major complex spans both triads): SUPPORTED",
-        "H3 (merged core is super-additive, \u03a6 > 2.0): SUPPORTED",
+        "H3 (merged core is super-additive, Φ > 2.0): SUPPORTED",
         "H4 (a direct channel merges where the shared counterpart did not): SUPPORTED",
         "H5 (channel rule matters; AND and OR cores differ): SUPPORTED"
       ],
@@ -985,13 +985,13 @@
       "name": "q212-channel-location",
       "cmd": "python -m org_frontier.questions.q212_channel_location.probe_channel_location",
       "expect": [
-        "H1 control  single triad : triadic \u03a6=2.000000 PASS",
-        "channel@mediator    triadic  whole\u03a6_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') core\u03a6=3.000 spans_both=True",
-        "channel@worker      triadic  whole\u03a6_MIP=2.0000  core=('S1', 'C1') core\u03a6=2.000 spans_both=False",
-        "channel@counterpart triadic  whole\u03a6_MIP=2.0000  core=('W1', 'S1') core\u03a6=2.000 spans_both=False",
-        "H1 (mediator channel reproduces q211: spans both, \u03a6=3.0): SUPPORTED",
+        "H1 control  single triad : triadic Φ=2.000000 PASS",
+        "channel@mediator    triadic  wholeΦ_MIP=2.0000  core=('S1', 'W2', 'S2', 'C2') coreΦ=3.000 spans_both=True",
+        "channel@worker      triadic  wholeΦ_MIP=2.0000  core=('S1', 'C1') coreΦ=2.000 spans_both=False",
+        "channel@counterpart triadic  wholeΦ_MIP=2.0000  core=('W1', 'S1') coreΦ=2.000 spans_both=False",
+        "H1 (mediator channel reproduces q211: spans both, Φ=3.0): SUPPORTED",
         "H2 (worker-worker channel merges): REFUTED",
-        "H4 (mediator channel gives the highest core \u03a6): SUPPORTED",
+        "H4 (mediator channel gives the highest core Φ): SUPPORTED",
         "H5 (channel location matters): SUPPORTED"
       ],
       "timeout": 480,
@@ -1001,13 +1001,13 @@
       "name": "q209-commit-period",
       "cmd": "python -m org_frontier.questions.q209_commit_period.probe_commit_period",
       "expect": [
-        "H1 control  F_1 synchronous triad : triadic \u03a6=2.000000 PASS",
-        "p=1 (n=3)  triadic  whole\u03a6_MIP=2.0000  core=('W', 'S', 'C') core\u03a6=2.000",
-        "p=2 (n=4)  dyadic   whole\u03a6_MIP=0.0000  core=('K',) core\u03a6=1.000",
-        "p=4 (n=5)  dyadic   whole\u03a6_MIP=0.0000  core=('c1',) core\u03a6=1.000",
-        "surviving core \u03a6 by period p=2,3,4: 1.000, 1.000, 1.000",
+        "H1 control  F_1 synchronous triad : triadic Φ=2.000000 PASS",
+        "p=1 (n=3)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C') coreΦ=2.000",
+        "p=2 (n=4)  dyadic   wholeΦ_MIP=0.0000  core=('K',) coreΦ=1.000",
+        "p=4 (n=5)  dyadic   wholeΦ_MIP=0.0000  core=('c1',) coreΦ=1.000",
+        "surviving core Φ by period p=2,3,4: 1.000, 1.000, 1.000",
         "H2 (rate-1 is the unique binding cadence: p>=2 all dyadic): SUPPORTED",
-        "H5 (whole-system \u03a6_MIP is zero at every p>=2): SUPPORTED"
+        "H5 (whole-system Φ_MIP is zero at every p>=2): SUPPORTED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q209_commit_period/FINDINGS.md"
@@ -1030,11 +1030,11 @@
       "name": "q208-latency-depth",
       "cmd": "python -m org_frontier.questions.q208_latency_depth.probe_latency_depth --ci",
       "expect": [
-        "H1 control  F_0 synchronous triad : triadic \u03a6=2.000000 PASS",
-        "k=1 (n=4)  triadic  whole\u03a6_MIP=1.0000  core=('S', 'C', 'B1') core\u03a6=2.000",
-        "k=2 (n=5)  triadic  whole\u03a6_MIP=2.0000  core=('W', 'S', 'C', 'B1', 'B2') core\u03a6=2.000",
-        "whole-system \u03a6_MIP by depth k=0..2: 2.0000, 1.0000, 2.0000",
-        "H3 (whole-system \u03a6_MIP strictly decreases with depth): REFUTED",
+        "H1 control  F_0 synchronous triad : triadic Φ=2.000000 PASS",
+        "k=1 (n=4)  triadic  wholeΦ_MIP=1.0000  core=('S', 'C', 'B1') coreΦ=2.000",
+        "k=2 (n=5)  triadic  wholeΦ_MIP=2.0000  core=('W', 'S', 'C', 'B1', 'B2') coreΦ=2.000",
+        "whole-system Φ_MIP by depth k=0..2: 2.0000, 1.0000, 2.0000",
+        "H3 (whole-system Φ_MIP strictly decreases with depth): REFUTED",
         "H5 (the worker stays out of the major complex for all k>=1): REFUTED"
       ],
       "timeout": 180,
@@ -1044,12 +1044,12 @@
       "name": "q207-slow-mediator",
       "cmd": "python -m org_frontier.questions.q207_slow_mediator.probe_slow_mediator",
       "expect": [
-        "H1 control  F0 synchronous triad : triadic \u03a6=2.000000 PASS",
-        "F_slow half-rate mediator        : dyadic \u03a6=0.000",
-        "F_slow major complex             : core=('K',) \u03a6=1.000",
+        "H1 control  F0 synchronous triad : triadic Φ=2.000000 PASS",
+        "F_slow half-rate mediator        : dyadic Φ=0.000",
+        "F_slow major complex             : core=('K',) Φ=1.000",
         "H2 (half-rate mediator keeps {W,S,C} in the core): REFUTED",
         "H3 (the gating clock K is a spectator, not in the core): REFUTED",
-        "H4 (half-rate mediation lowers core \u03a6 below 2.0): SUPPORTED",
+        "H4 (half-rate mediation lowers core Φ below 2.0): SUPPORTED",
         "H5 (a never-committing mediator factors): SUPPORTED"
       ],
       "timeout": 180,
@@ -1059,11 +1059,11 @@
       "name": "q206-ring-parity-rewire",
       "cmd": "python -m org_frontier.questions.q206_ring_parity_rewire.probe_ring_parity_rewire --ci",
       "expect": [
-        "H1 control faithful triad: triadic \u03a6=2.000000 PASS",
-        "conjunctive p=0.00  \u03a6=4.0000  verdict=triadic",
-        "conjunctive p=0.30  \u03a6=1.0000  verdict=triadic",
-        "conjunctive p=0.35  \u03a6=0.0000  verdict=dyadic",
-        "H2 conjunctive: p=0.30 triadic then p=0.35 DYADIC \u2014 a dyadic window the q146 grid missed"
+        "H1 control faithful triad: triadic Φ=2.000000 PASS",
+        "conjunctive p=0.00  Φ=4.0000  verdict=triadic",
+        "conjunctive p=0.30  Φ=1.0000  verdict=triadic",
+        "conjunctive p=0.35  Φ=0.0000  verdict=dyadic",
+        "H2 conjunctive: p=0.30 triadic then p=0.35 DYADIC — a dyadic window the q146 grid missed"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q206_ring_parity_rewire/FINDINGS.md"
@@ -1086,9 +1086,9 @@
       "name": "q205-latency-feedback",
       "cmd": "python -m org_frontier.questions.q205_latency_feedback.probe_latency_feedback",
       "expect": [
-        "H1 control  F0 immediate triad     : triadic  \u03a6=2.000  PASS",
-        "H2 represented latency  F1 (n=4)    : triadic  \u03a6=1.000",
-        "H3 major complex of F1             : core=('S', 'C', 'B')  \u03a6=2.000  (B in core: True)",
+        "H1 control  F0 immediate triad     : triadic  Φ=2.000  PASS",
+        "H2 represented latency  F1 (n=4)    : triadic  Φ=1.000",
+        "H3 major complex of F1             : core=('S', 'C', 'B')  Φ=2.000  (B in core: True)",
         "H2 (represented latency stays triadic): SUPPORTED",
         "H3 (the delay node B is in the core): SUPPORTED",
         "H4 (hidden latency hides integration: F2 dyadic, F1 triadic): SUPPORTED",
@@ -1124,8 +1124,8 @@
       "cmd": "python -m org_frontier.questions.q202_phi_bridge_falsification.probe_phi_bridge_falsification",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (worker-form shuffle destroys every \u03a6_coord-to-ACS relation; real r outside null at p<.05 in all cohorts): SUPPORTED",
-        "H2 (\u03a6_coord predicts ACS incrementally over the cheap edge-density proxy; \u0394R^2>0, CI excludes 0): SUPPORTED"
+        "H1 (worker-form shuffle destroys every Φ_coord-to-ACS relation; real r outside null at p<.05 in all cohorts): SUPPORTED",
+        "H2 (Φ_coord predicts ACS incrementally over the cheap edge-density proxy; ΔR^2>0, CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q202_phi_bridge_falsification/FINDINGS.md"
@@ -1135,8 +1135,8 @@
       "cmd": "python -m org_frontier.questions.q201_phi_substitutability_capture.probe_phi_substitutability_capture",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (SU lowers \u03a6_coord, CI<0; lower \u03a6_coord predicts lower ACS, CI>0): SUPPORTED",
-        "H2 (indirect SU->\u03a6_coord->ACS nonzero and exceeds direct SU->ACS): CONFIRMED"
+        "H1 (SU lowers Φ_coord, CI<0; lower Φ_coord predicts lower ACS, CI>0): SUPPORTED",
+        "H2 (indirect SU->Φ_coord->ACS nonzero and exceeds direct SU->ACS): CONFIRMED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q201_phi_substitutability_capture/FINDINGS.md"
@@ -1146,8 +1146,8 @@
       "cmd": "python -m org_frontier.questions.q200_phi_bifactor_loadings.probe_phi_bifactor_loadings",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (\u03a6_coord loads on the GENERAL factor, \u03b2>0 & CI excludes 0, and the general path exceeds each specific-facet path): SUPPORTED",
-        "H2 (the \u03a6\u2192general model fits better than the \u03a6\u2192SC-specific model by \u0394CFI \u2265 .01): SUPPORTED"
+        "H1 (Φ_coord loads on the GENERAL factor, β>0 & CI excludes 0, and the general path exceeds each specific-facet path): SUPPORTED",
+        "H2 (the Φ→general model fits better than the Φ→SC-specific model by ΔCFI ≥ .01): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q200_phi_bifactor_loadings/FINDINGS.md"
@@ -1157,8 +1157,8 @@
       "cmd": "python -m org_frontier.questions.q199_phi_growth_mechanism.probe_phi_growth_mechanism",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (within-person \u0394\u03a6 tracks \u0394ACS, within slope > 0 & CI excludes 0): SUPPORTED",
-        "H2 (within coupling exceeds between, \u0394 CI excludes 0): SUPPORTED"
+        "H1 (within-person ΔΦ tracks ΔACS, within slope > 0 & CI excludes 0): SUPPORTED",
+        "H2 (within coupling exceeds between, Δ CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q199_phi_growth_mechanism/FINDINGS.md"
@@ -1168,8 +1168,8 @@
       "cmd": "python -m org_frontier.questions.q198_phi_predicts_growth.probe_phi_predicts_growth",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (W1 \u03a6_coord predicts the ACS-growth slope, \u03b2>0 & CI excludes 0): SUPPORTED",
-        "H2 (W1 \u03a6_coord predicts the slope above and beyond the W1 ACS intercept, CI excludes 0): SUPPORTED"
+        "H1 (W1 Φ_coord predicts the ACS-growth slope, β>0 & CI excludes 0): SUPPORTED",
+        "H2 (W1 Φ_coord predicts the slope above and beyond the W1 ACS intercept, CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q198_phi_predicts_growth/FINDINGS.md"
@@ -1179,8 +1179,8 @@
       "cmd": "python -m org_frontier.questions.q197_phi_invariance_waves.probe_phi_invariance_waves",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (metric invariance, slope equal across W1-W3, \u0394CFI<= 0.01): SUPPORTED",
-        "H2 (scalar invariance, intercept equal across W1-W3, \u0394CFI<= 0.01): SUPPORTED"
+        "H1 (metric invariance, slope equal across W1-W3, ΔCFI<= 0.01): SUPPORTED",
+        "H2 (scalar invariance, intercept equal across W1-W3, ΔCFI<= 0.01): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q197_phi_invariance_waves/FINDINGS.md"
@@ -1190,8 +1190,8 @@
       "cmd": "python -m org_frontier.questions.q196_phi_commit_moderation.probe_phi_commit_moderation",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (\u03a6_coord\u00d7SA-commit interaction on ACS-total is positive, CI excludes 0): SUPPORTED",
-        "H2 (commit \u03a6-ACS slope positive, convey slope flat, slope diff CI excludes 0): CONFIRMED"
+        "H1 (Φ_coord×SA-commit interaction on ACS-total is positive, CI excludes 0): SUPPORTED",
+        "H2 (commit Φ-ACS slope positive, convey slope flat, slope diff CI excludes 0): CONFIRMED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q196_phi_commit_moderation/FINDINGS.md"
@@ -1201,8 +1201,8 @@
       "cmd": "python -m org_frontier.questions.q195_phi_incremental_over_se.probe_phi_incremental_over_se",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (partial r(\u03a6,ACS|SE,BE) > 0.15 & CI excludes 0): SUPPORTED",
-        "H2 (r(\u03a6,ACS) > r(\u03a6,SE), \u0394 CI excludes 0): SUPPORTED"
+        "H1 (partial r(Φ,ACS|SE,BE) > 0.15 & CI excludes 0): SUPPORTED",
+        "H2 (r(Φ,ACS) > r(Φ,SE), Δ CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q195_phi_incremental_over_se/FINDINGS.md"
@@ -1211,9 +1211,9 @@
       "name": "q194-phi-facet-specificity",
       "cmd": "python -m org_frontier.questions.q194_phi_facet_specificity.probe_phi_facet_specificity",
       "expect": [
-        "CONTROL faithful triad: verdict 'triadic', max \u03a6_MIP 2.0, W-C component 1.0 ... PASS",
-        "H1 (\u03a6 predicts CI more than SE; \u0394r CI excludes 0): SUPPORTED",
-        "H2 (W-C component adds \u0394R^2 over whole-system \u03a6; CI excludes 0): SUPPORTED"
+        "CONTROL faithful triad: verdict 'triadic', max Φ_MIP 2.0, W-C component 1.0 ... PASS",
+        "H1 (Φ predicts CI more than SE; Δr CI excludes 0): SUPPORTED",
+        "H2 (W-C component adds ΔR^2 over whole-system Φ; CI excludes 0): SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q194_phi_facet_specificity/FINDINGS.md"
@@ -1223,7 +1223,7 @@
       "cmd": "python -m org_frontier.questions.q192_spread_reconciliation_cost.probe_spread_reconciliation_cost",
       "expect": [
         "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
-        "H1 edit distance increases with the \u03a6 spread: REFUTED",
+        "H1 edit distance increases with the Φ spread: REFUTED",
         "H2 every shortest reconciliation path has one length and distance is symmetric: NOT SUPPORTED"
       ],
       "timeout": 500,
@@ -1234,7 +1234,7 @@
       "cmd": "python -m org_frontier.questions.q191_triage_spectator_spread.probe_triage_spectator_spread",
       "expect": [
         "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
-        "H1 unread spectator leaves no \u03a6 trace (spread=0 despite membership disagreement): SUPPORTED",
+        "H1 unread spectator leaves no Φ trace (spread=0 despite membership disagreement): SUPPORTED",
         "H2 one back-edge binds the supervisor jointly in-core, accounts agree (verdict_agreement=1, core_jaccard=1): CONFIRMED"
       ],
       "timeout": 500,
@@ -1334,7 +1334,7 @@
       "expect": [
         "CONTROL specific reads 'triadic' max_phi=2.000000; unanimous-pool CI collapses to [0.000000,0.000000]: PASS",
         "H1 substitutable pool drives max_phi to 0 (dyadic) for all k>=2: SUPPORTED",
-        "H2 contested-reading interval spans [0, specific \u03a6] in >90% of forms: SUPPORTED"
+        "H2 contested-reading interval spans [0, specific Φ] in >90% of forms: SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q175_substitutability_flipper/FINDINGS.md"
@@ -1355,7 +1355,7 @@
       "cmd": "python -m org_frontier.questions.q193_phi_bridge_build.probe_phi_bridge_build",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic, max_phi=2.000000 -> PASS",
-        "H1 (\u03a6_coord predicts ACS-total, r>0.20 & CI excludes 0): SUPPORTED",
+        "H1 (Φ_coord predicts ACS-total, r>0.20 & CI excludes 0): SUPPORTED",
         "H2 (control association vanishes, |r|<0.10, bridge survives): CONFIRMED"
       ],
       "timeout": 500,
@@ -1421,7 +1421,7 @@
       "cmd": "python -m org_frontier.questions.q184_gig_dispatch_spread.probe_gig_dispatch_spread",
       "expect": [
         "CONTROL faithful triad reads 'triadic' max_phi=2.000000: PASS",
-        "H1 driver-dyad vs platform-triad split, phi_gap = platform \u03a6 (2.000000): SUPPORTED",
+        "H1 driver-dyad vs platform-triad split, phi_gap = platform Φ (2.000000): SUPPORTED",
         "H2 rider bound in the platform core but not the driver core (core_jaccard<1): SUPPORTED"
       ],
       "timeout": 500,
@@ -1433,7 +1433,7 @@
       "expect": [
         "CONTROL decoupled reads 'dyadic'; faithful triad reads 'triadic' max_phi=2.000000; alpha=1 CI degenerate [2.000000,2.000000]: PASS",
         "H1 verdict reproducibility + degenerate CI under agreement: SUPPORTED",
-        "H2 coder-weighted CI brackets the consensus \u03a6 at nominal 95%: SUPPORTED"
+        "H2 coder-weighted CI brackets the consensus Φ at nominal 95%: SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q173_build_rule_to_phi/FINDINGS.md"
@@ -1497,7 +1497,7 @@
       "name": "q167-capture-meets-agenda",
       "cmd": "python -m org_frontier.questions.q167_capture_meets_agenda.probe_capture_meets_agenda",
       "expect": [
-        "CONTROL faithful triad reads 'triadic' max_phi 2.0; core4 g=0 core WSC \u03a6 2.0, g=0.1 core SC (worker captured) ... PASS",
+        "CONTROL faithful triad reads 'triadic' max_phi 2.0; core4 g=0 core WSC Φ 2.0, g=0.1 core SC (worker captured) ... PASS",
         "H1 (an interested platform displaces the worker at a lower g* than a faithful one, monotonically in interest): REFUTED",
         "H2 (beyond g*, the interested core retains the agenda node P where the faithful core retained C): NOT SUPPORTED"
       ],
@@ -1508,7 +1508,7 @@
       "name": "q166-phantom-addressee-displaced",
       "cmd": "python -m org_frontier.questions.q166_phantom_addressee_displaced.probe_phantom_addressee_displaced",
       "expect": [
-        "CONTROL faithful triad reads 'triadic' max_phi 2.0; phantom T1 core WS core\u03a6 2.0 S<-W 1 W<-C 0 ... PASS",
+        "CONTROL faithful triad reads 'triadic' max_phi 2.0; phantom T1 core WS coreΦ 2.0 S<-W 1 W<-C 0 ... PASS",
         "H1 (the addressee inverts: W exits the core for an agenda-governed bind as k rises): SUPPORTED",
         "H2 (the interested mediator stops reading the worker while a bind survives): SUPPORTED"
       ],
@@ -1519,8 +1519,8 @@
       "name": "q165-intent-compression-into-agenda",
       "cmd": "python -m org_frontier.questions.q165_intent_compression_into_agenda.probe_intent_compression_into_agenda",
       "expect": [
-        "CONTROL faithful triad [x1, x0&x2, x1]: triadic \u03a6=2.000; faithful reads_n core=WSN reads N=True ... PASS",
-        "H1 (interested \u03a6(q) strictly below faithful at every q<1 \u2014 interest steepens embodiment loss): SUPPORTED",
+        "CONTROL faithful triad [x1, x0&x2, x1]: triadic Φ=2.000; faithful reads_n core=WSN reads N=True ... PASS",
+        "H1 (interested Φ(q) strictly below faithful at every q<1 — interest steepens embodiment loss): SUPPORTED",
         "H2 (interest evicts the nuance bit N from the core independently of read-fidelity): SUPPORTED"
       ],
       "timeout": 500,
@@ -1541,9 +1541,9 @@
       "name": "q163-computationalism-under-agenda",
       "cmd": "python -m org_frontier.questions.q163_computationalism_under_agenda.probe_computationalism_under_agenda",
       "expect": [
-        "CONTROL faithful actor: triadic \u03a6=2.000; channel \u03a6=0.000 -- PASS",
+        "CONTROL faithful actor: triadic Φ=2.000; channel Φ=0.000 -- PASS",
         "H1 surplus rises then collapses (interested actor is a third object): SUPPORTED  [approve rises, deny monotone]",
-        "H2 S sheds a party before \u03a6 reaches 0 (agenda-reading dissociates from party-reading): REFUTED"
+        "H2 S sheds a party before Φ reaches 0 (agenda-reading dissociates from party-reading): REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q163_computationalism_under_agenda/FINDINGS.md"
@@ -1587,7 +1587,7 @@
       "expect": [
         "CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, mc_phi=2.000, core=('W', 'S', 'C') (label=triadic): PASS",
         "H1 CRQA verdict converges by 600 steps for >80% of forms with no gain past 1200: SUPPORTED",
-        "H2 required convergence length decreases with \u03a6 magnitude: REFUTED"
+        "H2 required convergence length decreases with Φ magnitude: REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q159_length_to_verdict_curve/FINDINGS.md"
@@ -1597,8 +1597,8 @@
       "cmd": "python -m org_frontier.questions.q158_phi_magnitude_regression.probe_phi_magnitude_regression",
       "expect": [
         "CONTROL worker-system-counterpart triad: verdict=triadic, max_phi=2.000, mc_phi=2.000, core=('W', 'S', 'C'): PASS",
-        "H1 DET correlates positively with major-complex \u03a6 (rho>0.4): REFUTED",
-        "H2 the DET-\u03a6 relation saturates (high-\u03a6 underprediction): REFUTED"
+        "H1 DET correlates positively with major-complex Φ (rho>0.4): REFUTED",
+        "H2 the DET-Φ relation saturates (high-Φ underprediction): REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q158_phi_magnitude_regression/FINDINGS.md"
@@ -1620,7 +1620,7 @@
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: triadic max_phi=2.000 core=('W', 'S', 'C') -> PASS",
         "H1 (interested mediators show lower outgoing prominence, separating >70% of pairs): REFUTED",
-        "H2 (structural \u03a6-core is unchanged, so membership alone misses interestedness): CONFIRMED"
+        "H2 (structural Φ-core is unchanged, so membership alone misses interestedness): CONFIRMED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q156_interested_mediator_signature/FINDINGS.md"
@@ -1629,7 +1629,7 @@
       "name": "q155-mc-membership-threshold",
       "cmd": "python -m org_frontier.questions.q155_mc_membership_threshold.probe_mc_membership_threshold",
       "expect": [
-        "CONTROL faithful triad reads triadic \u03a6=2.0 full core; AUC machinery 1.000/0.500, shuffled null 0.522: PASS",
+        "CONTROL faithful triad reads triadic Φ=2.0 full core; AUC machinery 1.000/0.500, shuffled null 0.522: PASS",
         "H1 (single coupling-centrality threshold recovers membership at pooled AUC>0.65): REFUTED  [AUC=0.649, null=0.494]",
         "H2 (chain/relay forms are the systematic false-positive class): NOT SUPPORTED  [chain FP/node=0.000, worst topology=reciprocal @ 0.244]"
       ],
@@ -1674,7 +1674,7 @@
       "name": "q149-topology-shapley-split",
       "cmd": "python -m org_frontier.questions.q149_topology_shapley_split.probe_topology_shapley_split",
       "expect": [
-        "CONTROL read-recipient triad: total \u03a6=2.000, mediator M share=0.666 (~2/3), outer parties E=R=0.333: PASS",
+        "CONTROL read-recipient triad: total Φ=2.000, mediator M share=0.666 (~2/3), outer parties E=R=0.333: PASS",
         "H1 (per-hub Shapley share falls monotonically as mediation distributes): REFUTED",
         "H2 (symmetric topologies ring/pool yield equal Shapley values within tol): SUPPORTED"
       ],
@@ -1685,9 +1685,9 @@
       "name": "q147-random-boolean-topology",
       "cmd": "python -m org_frontier.questions.q147_random_boolean_topology.probe_random_boolean_topology",
       "expect": [
-        "CONTROL faithful triad triadic \u03a6=2.0; ring/hub graph stats match hand values: PASS",
+        "CONTROL faithful triad triadic Φ=2.0; ring/hub graph stats match hand values: PASS",
         "H1 (recurrence topology beats mean degree at predicting triadicity): SUPPORTED",
-        "H2 (among triadic nets, \u03a6 rises with core in-degree): REFUTED"
+        "H2 (among triadic nets, Φ rises with core in-degree): REFUTED"
       ],
       "timeout": 1800,
       "source": "org_frontier/questions/q147_random_boolean_topology/FINDINGS.md",
@@ -1698,7 +1698,7 @@
       "cmd": "python -m org_frontier.questions.q146_smallworld_rewire_phi.probe_smallworld_rewire_phi",
       "expect": [
         "CONTROL faithful triad [x1, x0&x2, x1]: verdict=triadic max_phi=2.000000 (expect triadic / 2.0) ... PASS",
-        "H1 non-monotone small-world \u03a6 peak: REFUTED",
+        "H1 non-monotone small-world Φ peak: REFUTED",
         "H2 verdict stays triadic under rewiring: REFUTED"
       ],
       "timeout": 1800,
@@ -1709,8 +1709,8 @@
       "name": "q143-ring-verdict-geometry",
       "cmd": "python -m org_frontier.questions.q143_ring_verdict_geometry.probe_ring_verdict_geometry",
       "expect": [
-        "CONTROL faithful-triad reads triadic at \u03a6=2.0: PASS",
-        "H1 ring is triadic with a single balanced two-arc cut of constant \u03a6 in n: REFUTED",
+        "CONTROL faithful-triad reads triadic at Φ=2.0: PASS",
+        "H1 ring is triadic with a single balanced two-arc cut of constant Φ in n: REFUTED",
         "H2 the ring's major complex is the full node set at every n=3..7: SUPPORTED"
       ],
       "timeout": 1800,
@@ -1734,7 +1734,7 @@
       "expect": [
         "CONTROL faithful triad: structure=triadic max_phi=2.000 core=('W', 'S', 'C') phi=2.000 -> PASS",
         "H1 (redundant mediation buys verdict resilience): SUPPORTED",
-        "H2 (retained \u03a6 scales with non-hub cycle count): NOT SUPPORTED"
+        "H2 (retained Φ scales with non-hub cycle count): NOT SUPPORTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q151_hub_failure_resilience/FINDINGS.md"
@@ -1743,8 +1743,8 @@
       "name": "q150-ring-chord-integration",
       "cmd": "python -m org_frontier.questions.q150_ring_chord_integration.probe_ring_chord_integration",
       "expect": [
-        "CONTROL faithful triad: structure=triadic, max \u03a6_MIP=2.000000: PASS",
-        "H1 chord raises ring \u03a6 and shifts MIP cut off the chord: REFUTED",
+        "CONTROL faithful triad: structure=triadic, max Φ_MIP=2.000000: PASS",
+        "H1 chord raises ring Φ and shifts MIP cut off the chord: REFUTED",
         "H2 chord endpoints gain Shapley value at the expense of the far arc: SUPPORTED"
       ],
       "timeout": 500,
@@ -1766,8 +1766,8 @@
       "cmd": "python -m org_frontier.questions.q145_spanning_mediator_law.probe_spanning_mediator_law",
       "expect": [
         "CONTROL faithful triad: structure=triadic max_phi=2.0 core=('W', 'S', 'C') phi=2.0 -> PASS",
-        "H1 spanning-mediator law (full span holds all, \u03a6 linear in n; partial caps at span+1): SUPPORTED",
-        "H2 \u03a6(f) collapses across n (span fraction is the controlling variable): REFUTED"
+        "H1 spanning-mediator law (full span holds all, Φ linear in n; partial caps at span+1): SUPPORTED",
+        "H2 Φ(f) collapses across n (span fraction is the controlling variable): REFUTED"
       ],
       "timeout": 500,
       "source": "org_frontier/questions/q145_spanning_mediator_law/FINDINGS.md"
@@ -3401,7 +3401,7 @@
       "name": "q120-higher-order-binding",
       "cmd": "python -m org_frontier.questions.q120_higher_order_binding.probe_higher_order_binding --quick",
       "expect": [
-        "CONTROL strict triad: triadic \u03a6=2.000",
+        "CONTROL strict triad: triadic Φ=2.000",
         "[strict mediation (256)]  24 triadic forms",
         "H1 SUPPORTED: under both knockout definitions, every triadic form has all three"
       ],
@@ -3423,9 +3423,9 @@
       "name": "q141-lagging-objective",
       "cmd": "python -m org_frontier.questions.q141_lagging_objective.probe_lagging_objective",
       "expect": [
-        "CONTROL faithful triad: triadic \u03a6=2.000  PASS",
-        "H1 (the lag re-integrates the displaced worker \u2014 out of core when immediate, in when lagged): SUPPORTED",
-        "H2 (the lagged form is more integrated than the immediate one): SUPPORTED  (\u03a6 lagged 2.0 > immediate 1.0)"
+        "CONTROL faithful triad: triadic Φ=2.000  PASS",
+        "H1 (the lag re-integrates the displaced worker — out of core when immediate, in when lagged): SUPPORTED",
+        "H2 (the lagged form is more integrated than the immediate one): SUPPORTED  (Φ lagged 2.0 > immediate 1.0)"
       ],
       "timeout": 300,
       "source": "org_frontier/questions/q141_lagging_objective/FINDINGS.md (H1-H2)"
@@ -3445,9 +3445,9 @@
       "name": "q139-value-veto",
       "cmd": "python -m org_frontier.questions.q139_value_veto.probe_value_veto",
       "expect": [
-        "CONTROL faithful triad: \u03a6=2.0, veto 3/3, mediator value 67%, gap +0.33  PASS",
-        "H1 (veto power universal at every level with positive \u03a6): SUPPORTED",
-        "H2 (the value-veto gap tracks integration: +1/3 at \u03a6=2.0, 0 at \u03a6=0.5): SUPPORTED"
+        "CONTROL faithful triad: Φ=2.0, veto 3/3, mediator value 67%, gap +0.33  PASS",
+        "H1 (veto power universal at every level with positive Φ): SUPPORTED",
+        "H2 (the value-veto gap tracks integration: +1/3 at Φ=2.0, 0 at Φ=0.5): SUPPORTED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q139_value_veto/FINDINGS.md (H1-H2)"
@@ -3456,7 +3456,7 @@
       "name": "q138-faithful-fraction",
       "cmd": "python -m org_frontier.questions.q138_faithful_fraction.probe_faithful_fraction",
       "expect": [
-        "CONTROL fully faithful (4/4): \u03a6=2.000, mediator share 67%  PASS",
+        "CONTROL fully faithful (4/4): Φ=2.000, mediator share 67%  PASS",
         "H1 (a minimum faithful fraction revives the coordination): SUPPORTED  (minimum = 3/4 = 75% faithful)",
         "H2 (threshold regulation gives an egalitarian split; mediator dominance only at full faith): SUPPORTED  (at 3/4 mediator 33%, at 4/4 mediator 67%)"
       ],
@@ -3467,8 +3467,8 @@
       "name": "q137-interested-worker",
       "cmd": "python -m org_frontier.questions.q137_interested_worker.probe_interested_worker",
       "expect": [
-        "CONTROL faithful triad: \u03a6=2.000, worker Shapley 0.333 (share 17%)  PASS",
-        "H1 (worker gaming collapses the coordination \u2014 \u03a6 -> 0 whenever k_W >= 1): SUPPORTED",
+        "CONTROL faithful triad: Φ=2.000, worker Shapley 0.333 (share 17%)  PASS",
+        "H1 (worker gaming collapses the coordination — Φ -> 0 whenever k_W >= 1): SUPPORTED",
         "H2 (worker's share rises only when the system defects; absolute value never gains): SUPPORTED"
       ],
       "timeout": 180,
@@ -3479,8 +3479,8 @@
       "cmd": "python -m org_frontier.questions.q136_competing_mediators.probe_competing_mediators",
       "expect": [
         "CONTROL single faithful mediator: share 66.6% (two-thirds)  PASS",
-        "H1 (substitutable mediators eliminate the coordination \u2014 \u03a6 -> 0, no rent): SUPPORTED",
-        "H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (\u03a6=4.0, each mediator 25%, each party 25%)"
+        "H1 (substitutable mediators eliminate the coordination — Φ -> 0, no rent): SUPPORTED",
+        "H2 (complementary mediators split value: each mediator < 2/3, each party > 1/6, total up): SUPPORTED  (Φ=4.0, each mediator 25%, each party 25%)"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q136_competing_mediators/FINDINGS.md (H1-H2)"
@@ -3489,10 +3489,10 @@
       "name": "q135-objective-rent",
       "cmd": "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent",
       "expect": [
-        "CONTROL faithful triad: mediator 1.333 of \u03a6=2.000 (two-thirds)  PASS",
-        "H1 (the adaptive objective captures positive value \u2014 a claimant, not a passive goal): SUPPORTED",
-        "REFINED (the objective captures exactly what the system does \u2014 a co-equal rentier): CONFIRMED",
-        "REFINED (the parties' value tracks displacement \u2014 negative under AND/OR, positive under XOR): CONFIRMED"
+        "CONTROL faithful triad: mediator 1.333 of Φ=2.000 (two-thirds)  PASS",
+        "H1 (the adaptive objective captures positive value — a claimant, not a passive goal): SUPPORTED",
+        "REFINED (the objective captures exactly what the system does — a co-equal rentier): CONFIRMED",
+        "REFINED (the parties' value tracks displacement — negative under AND/OR, positive under XOR): CONFIRMED"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q135_objective_rent/FINDINGS.md (H1 + refined)"
@@ -3501,9 +3501,9 @@
       "name": "q134-rent-scaling",
       "cmd": "python -m org_frontier.questions.q134_rent_scaling.probe_rent_scaling",
       "expect": [
-        "CONTROL 3-party triad: total \u03a6=2.000, mediator 1.333 share 66.6%  PASS",
+        "CONTROL 3-party triad: total Φ=2.000, mediator 1.333 share 66.6%  PASS",
         "H1 (mediator share is scale-invariant at two-thirds): NOT SUPPORTED",
-        "H2 (the share declines as parties are added \u2014 the rent dilutes): SUPPORTED  (share 66.6% -> 58.3% -> 55.0%)"
+        "H2 (the share declines as parties are added — the rent dilutes): SUPPORTED  (share 66.6% -> 58.3% -> 55.0%)"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q134_rent_scaling/FINDINGS.md (H1-H2)"
@@ -3512,7 +3512,7 @@
       "name": "q133-deny-symmetry",
       "cmd": "python -m org_frontier.questions.q133_deny_symmetry.probe_deny_symmetry",
       "expect": [
-        "CONTROL faithful AND: total \u03a6=2.000, mediator share 66.6%  PASS",
+        "CONTROL faithful AND: total Φ=2.000, mediator share 66.6%  PASS",
         "H1 (deny: XNOR re-integrates and extracts, mirroring XOR-under-approve): SUPPORTED  (extraction on: ['XNOR'])",
         "H2 (AND/OR destroy under deny; XOR does not re-integrate under deny): SUPPORTED"
       ],
@@ -3523,8 +3523,8 @@
       "name": "q132-value-baselines",
       "cmd": "python -m org_frontier.questions.q132_value_baselines.probe_value_baselines",
       "expect": [
-        "CONTROL faithful AND @ (1, 1, 1): total \u03a6=2.000, mediator share 66.6%  PASS",
-        "H2 (verdict-aligned: re-integrating baselines concentrate the rent \u2014 extraction): SUPPORTED  (extraction on: ['XOR'])"
+        "CONTROL faithful AND @ (1, 1, 1): total Φ=2.000, mediator share 66.6%  PASS",
+        "H2 (verdict-aligned: re-integrating baselines concentrate the rent — extraction): SUPPORTED  (extraction on: ['XOR'])"
       ],
       "timeout": 180,
       "source": "org_frontier/questions/q132_value_baselines/FINDINGS.md (H2)"
@@ -3533,9 +3533,9 @@
       "name": "q131-value-capture",
       "cmd": "python -m org_frontier.questions.q131_value_capture.probe_value_capture",
       "expect": [
-        "CONTROL faithful mediator: total \u03a6=2.000, Shapley S=1.333 (share 66.6%)  PASS",
+        "CONTROL faithful mediator: total Φ=2.000, Shapley S=1.333 (share 66.6%)  PASS",
         "H1 (total value falls to zero as interestedness rises): SUPPORTED",
-        "H2 (the mediator's share falls, not rises \u2014 value destruction not rent extraction): SUPPORTED"
+        "H2 (the mediator's share falls, not rises — value destruction not rent extraction): SUPPORTED"
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q131_value_capture/FINDINGS.md (H1-H2)"
@@ -3555,7 +3555,7 @@
       "name": "q129-mediator-interpolation",
       "cmd": "python -m org_frontier.questions.q129_mediator_interpolation.probe_mediator_interpolation",
       "expect": [
-        "CONTROL faithful mediator (m=0): core=('W', 'S', 'C') coordination-\u03a6=2.000  PASS",
+        "CONTROL faithful mediator (m=0): core=('W', 'S', 'C') coordination-Φ=2.000  PASS",
         "PARTIES BOUND IN THE CORE: frozen holds to m=3, adaptive only to m=0.",
         "WHOLE-SYSTEM IRREDUCIBLE:  frozen to m=-1, adaptive to m=4."
       ],
@@ -3566,7 +3566,7 @@
       "name": "q128-adaptive-mediator",
       "cmd": "python -m org_frontier.questions.q128_adaptive_mediator.probe_adaptive_mediator",
       "expect": [
-        "CONTROL faithful 3-party triad: triadic \u03a6=2.000  PASS",
+        "CONTROL faithful 3-party triad: triadic Φ=2.000  PASS",
         "RE-INTEGRATION IFF THE OBJECTIVE READS BOTH PARTIES: CONFIRMED",
         "THE OBJECTIVE IS THE CONDUIT: CONFIRMED"
       ],
@@ -3577,7 +3577,7 @@
       "name": "q127-interest-baselines",
       "cmd": "python -m org_frontier.questions.q127_interest_baselines.probe_interest_baselines",
       "expect": [
-        "CONTROL AND faithful: triadic \u03a6=2.000  PASS",
+        "CONTROL AND faithful: triadic Φ=2.000  PASS",
         "MINORITY-OUTPUT FLIP on sparse baselines (AND, OR): CONFIRMED",
         "RE-INTEGRATION on balanced baselines"
       ],
@@ -3588,8 +3588,8 @@
       "name": "q126-interested-mediator",
       "cmd": "python -m org_frontier.questions.q126_interested_mediator.probe_interested_mediator",
       "expect": [
-        "CONTROL faithful mediator (k=0): triadic \u03a6=2.000 core=('W', 'S', 'C')  PASS",
-        "H1 (\u03a6 falls monotonically to 0 as interestedness rises): SUPPORTED",
+        "CONTROL faithful mediator (k=0): triadic Φ=2.000 core=('W', 'S', 'C')  PASS",
+        "H1 (Φ falls monotonically to 0 as interestedness rises): SUPPORTED",
         "H2 (the mediator sheds the parties as it serves its agenda): SUPPORTED"
       ],
       "timeout": 120,
@@ -3599,7 +3599,7 @@
       "name": "q125-four-party-higher-order",
       "cmd": "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order --quick",
       "expect": [
-        "CONTROL 3-party triad: triadic \u03a6=2.000, pivotal=3/3  PASS",
+        "CONTROL 3-party triad: triadic Φ=2.000, pivotal=3/3  PASS",
         "[homogeneous symmetric (16)]  16 forms, 14 irreducible",
         "H1 REFUTED: no four-party form tested is a pure higher-order bind"
       ],
@@ -3675,7 +3675,7 @@
         "Instrument validated",
         "non-bidirectional in core: 0/660 (categorical necessity holds in this family)",
         "triadic rate: 9.5%",
-        "n=5: \u03a6=4.0  core=PABCD (size 5)"
+        "n=5: Φ=4.0  core=PABCD (size 5)"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/core_membership_law/FINDINGS.md"
@@ -3699,7 +3699,7 @@
         "Instrument validated",
         "Shapley value (avg marginal over all coalitions): 0.870",
         "single-node influence (the study-A measure):      0.632",
-        "Shapley\u2248+1: 57/57 = 100.0% in core"
+        "Shapley≈+1: 57/57 = 100.0% in core"
       ],
       "timeout": 180,
       "source": "org_frontier/threads/shapley_membership/THREAD.md"
@@ -3756,7 +3756,7 @@
       "cmd": "python -m org_frontier.threads.normalization.normalization",
       "expect": [
         "density-maximal subset is a single party: 281/298 = 94.3%",
-        "mean size \u2014 absolute major complex: 1.70 | density-maximal: 1.07",
+        "mean size — absolute major complex: 1.70 | density-maximal: 1.07",
         "triadic forms whose density-maximal subset is a lone party: 146/158 = 92.4%",
         "multi-party complexes that density shrinks (over size>=2): 16/184 = 8.7%"
       ],
@@ -4220,8 +4220,8 @@
       "name": "q213-contingent-irreducibility",
       "cmd": "python -m org_frontier.questions.q213_contingent_irreducibility.probe_contingent_irreducibility",
       "expect": [
-        "H1 control  conjunctive triad : triadic \u03a6=2.000000 PASS",
-        "car dealer (constrained)      : triadic \u03a6=2.000 core=('M', 'D', 'B')  D in core: True",
+        "H1 control  conjunctive triad : triadic Φ=2.000000 PASS",
+        "car dealer (constrained)      : triadic Φ=2.000 core=('M', 'D', 'B')  D in core: True",
         "intrinsic   (clearinghouse)   : intrinsic  margin=0.000  S in core: constrained=True bypass=True  (Phi 2.000 -> 2.000)",
         "contingent  (car dealer)      : contingent margin=2.000  D in core: constrained=True bypass=False  (Phi 2.000 -> 0.000)",
         "partial     (+ back-channel)  : partial    margin=1.585  S in core: constrained=True bypass=True  (Phi 2.000 -> 0.415)",
@@ -4278,13 +4278,13 @@
       "name": "holistic-residual-n4",
       "cmd": "python org_frontier/studies/holistic_residual_n4/analyze_residual_n4.py",
       "expect": [
-        "n=4 AND hub:           triadic \u03a6=3.000000 edges=6  PASS",
+        "n=4 AND hub:           triadic Φ=3.000000 edges=6  PASS",
         "triadic forms:              71/3000 = 2.4%",
         "RF misclassified (n=4):     71/3000 = 2.4%",
         "n=3 baseline (Probe 131):   196/4096 = 4.8%",
         "majority-class miss rate:   71/3000 = 2.4% (always-dyadic)",
         "false positives / negatives:0 / 71",
-        "F26 verdict:                H1 \u2014 residual SHRINKS at n=4",
+        "F26 verdict:                H1 — residual SHRINKS at n=4",
         "n=4 residual rate:          2.4% (71/3000)",
         "F26:                        H1 (SHRINKS)"
       ],
@@ -4296,14 +4296,14 @@
       "cmd": "python org_frontier/studies/residual_phase_boundary/analyze_phase_boundary.py",
       "expect": [
         "Hamming-1 neighbourhood size: 12  PASS",
-        "near_residual        n=178  mean flip=0.482  median=0.500  frac\u22651 flip=1.000",
-        "near_hit_control     n=176  mean flip=0.521  median=0.583  frac\u22651 flip=1.000",
-        "far_hit_control      n=178  mean flip=0.273  median=0.250  frac\u22651 flip=0.921",
-        "residual \u2212 far-hit:         +20.9 pp",
-        "residual \u2212 near-hit:        -3.9 pp",
-        "H1 (residual mean\u22650.25 and \u226580% any-flip): SUPPORTED",
-        "H2 (residual exceeds far-hit by \u226510 pp):   SUPPORTED",
-        "H3 (residual exceeds near-hit by \u22655 pp):   REFUTED",
+        "near_residual        n=178  mean flip=0.482  median=0.500  frac≥1 flip=1.000",
+        "near_hit_control     n=176  mean flip=0.521  median=0.583  frac≥1 flip=1.000",
+        "far_hit_control      n=178  mean flip=0.273  median=0.250  frac≥1 flip=0.921",
+        "residual − far-hit:         +20.9 pp",
+        "residual − near-hit:        -3.9 pp",
+        "H1 (residual mean≥0.25 and ≥80% any-flip): SUPPORTED",
+        "H2 (residual exceeds far-hit by ≥10 pp):   SUPPORTED",
+        "H3 (residual exceeds near-hit by ≥5 pp):   REFUTED",
         "F28:                        PHASE BOUNDARY"
       ],
       "timeout": 120,
@@ -4320,7 +4320,7 @@
         "predicted triadic / dyadic: 312 / 688",
         "H3 (predicts both classes): SUPPORTED",
         "false positives / negatives:45 / 30",
-        "raw F26* band verdict:      H2 \u2014 residual GROWS",
+        "raw F26* band verdict:      H2 — residual GROWS",
         "n=4 unc residual rate:      7.5% (75/1000)",
         "F26* band:                  H2 (GROWS)",
         "controlled verdict:         H2 (GROWS) with both classes predicted"
@@ -4339,7 +4339,7 @@
         "predicted triadic / dyadic: 88 / 412",
         "H3 (predicts both classes): SUPPORTED",
         "false positives / negatives:24 / 21",
-        "raw band verdict:           H0 \u2014 residual HOLDS",
+        "raw band verdict:           H0 — residual HOLDS",
         "n=5 unc residual rate:      9.0% (45/500)",
         "band:                       H0 (HOLDS)",
         "controlled verdict:         H0 (HOLDS) with both classes predicted"
@@ -4353,14 +4353,14 @@
       "expect": [
         "n=4 Hamming-1 neighbourhood: 16  PASS",
         "panel misses:               75/1000 (expected 75)",
-        "residual             n=75  mean flip=0.371  median=0.375  frac\u22651=1.000  tri\u2192dya=200 dya\u2192tri=245",
-        "near_hit_control     n=40  mean flip=0.392  median=0.375  frac\u22651=1.000  tri\u2192dya=205 dya\u2192tri=46",
-        "far_hit_control      n=75  mean flip=0.152  median=0.188  frac\u22651=0.587  tri\u2192dya=69 dya\u2192tri=114",
-        "residual \u2212 far-hit:         +21.8 pp",
-        "residual \u2212 near-hit:        -2.1 pp",
-        "H1 (mean\u22650.25 and \u226580% any-flip): SUPPORTED",
-        "H2 (residual \u2212 far-hit \u226510 pp):   SUPPORTED",
-        "H3 (residual \u2212 near-hit \u22655 pp):   REFUTED",
+        "residual             n=75  mean flip=0.371  median=0.375  frac≥1=1.000  tri→dya=200 dya→tri=245",
+        "near_hit_control     n=40  mean flip=0.392  median=0.375  frac≥1=1.000  tri→dya=205 dya→tri=46",
+        "far_hit_control      n=75  mean flip=0.152  median=0.188  frac≥1=0.587  tri→dya=69 dya→tri=114",
+        "residual − far-hit:         +21.8 pp",
+        "residual − near-hit:        -2.1 pp",
+        "H1 (mean≥0.25 and ≥80% any-flip): SUPPORTED",
+        "H2 (residual − far-hit ≥10 pp):   SUPPORTED",
+        "H3 (residual − near-hit ≥5 pp):   REFUTED",
         "F28 primary (n4):           PHASE BOUNDARY"
       ],
       "timeout": 120,
@@ -4374,10 +4374,10 @@
         "instrument control: PASS",
         "baseline                     miss=7.5% (75/1000)  FN|tri=10.1% (30/297)  FP|dya=6.4%  AUC=0.981",
         "redesign                     miss=7.1% (71/1000)  FN|tri=9.8% (29/297)  FP|dya=6.0%  AUC=0.979",
-        "H1 (FN|tri drop \u22655 pp):     REFUTED",
-        "H2 (miss drop \u22651 pp):       REFUTED",
-        "H3 (n=5 FN|tri drop \u22655 pp): REFUTED",
-        "H4 (transfer FN drop \u22655 pp):REFUTED",
+        "H1 (FN|tri drop ≥5 pp):     REFUTED",
+        "H2 (miss drop ≥1 pp):       REFUTED",
+        "H3 (n=5 FN|tri drop ≥5 pp): REFUTED",
+        "H4 (transfer FN drop ≥5 pp):REFUTED",
         "n4 baseline:  miss=7.5%  FN|tri=10.1%  AUC=0.981",
         "n4 redesign:  miss=7.1%  FN|tri=9.8%  AUC=0.979",
         "n5 baseline:  miss=9.0%  FN|tri=24.7%  AUC=0.963",
@@ -4397,15 +4397,15 @@
         "margin B=10% FN|tri:           3.7% (11/297)  miss=3.2%  exact=100",
         "margin B=20% FN|tri:           0.7% (2/297)  miss=0.9%  exact=200",
         "random B=10% FN|tri (mean):    9.3%",
-        "H1 (B=10% FN drop \u22655 pp):      SUPPORTED",
-        "H2 (B=20% recover \u226560% gap):   SUPPORTED",
-        "H3 (margin beats random \u22653 pp):SUPPORTED",
-        "H4 (combined \u2212 margin \u22652 pp):  REFUTED",
-        "H5 (n5 B=10% FN drop \u22655 pp):   SUPPORTED",
+        "H1 (B=10% FN drop ≥5 pp):      SUPPORTED",
+        "H2 (B=20% recover ≥60% gap):   SUPPORTED",
+        "H3 (margin beats random ≥3 pp):SUPPORTED",
+        "H4 (combined − margin ≥2 pp):  REFUTED",
+        "H5 (n5 B=10% FN drop ≥5 pp):   SUPPORTED",
         "n4 margin@10: miss=3.2%  FN|tri=3.7%  exact=100/1000",
         "n4 margin@20: miss=0.9%  FN|tri=0.7%  exact=200/1000",
         "operating pt: B=10%  FN|tri=3.7%  miss=3.2%",
-        "reading:      WIN \u2014 cascade beats always-cheap at fixed budget"
+        "reading:      WIN — cascade beats always-cheap at fixed budget"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/margin_cascade_phi/FINDINGS.md"
@@ -4416,20 +4416,20 @@
       "expect": [
         "n4 always-cheap miss/FN: 75/30  PASS",
         "instrument control: PASS",
-        "on-panel \u03c4*(B=10%)=0.287565  identity with top-10%: YES",
-        "nested@10% \u03c4 FN|tri:           3.7% (11/297)",
+        "on-panel τ*(B=10%)=0.287565  identity with top-10%: YES",
+        "nested@10% τ FN|tri:           3.7% (11/297)",
         "nested@10% top FN|tri:         3.7% (11/297)",
-        "nested@10% |\u0394|:                0.00 pp",
-        "frozen \u03c4* n5 call rate:        13.8% (band [5%, 15%]: IN)",
-        "frozen \u03c4* n5 FN|tri:           7.1%",
+        "nested@10% |Δ|:                0.00 pp",
+        "frozen τ* n5 call rate:        13.8% (band [5%, 15%]: IN)",
+        "frozen τ* n5 FN|tri:           7.1%",
         "n5 top-10% FN|tri:             10.6%",
-        "H1 (nested |\u0394| \u22642 pp @10%):    SUPPORTED",
-        "H2 (frozen \u03c4 transfers):       REFUTED",
+        "H1 (nested |Δ| ≤2 pp @10%):    SUPPORTED",
+        "H2 (frozen τ transfers):       REFUTED",
         "H3 (stable lab default):       SUPPORTED",
-        "n4 \u03c4*(B=10%):                  0.287565",
-        "n5 frozen-\u03c4 FN|tri:            7.1%  call=13.8%",
-        "reading:                       AGREE \u2014 nested \u03c4 \u2248 top-B%; prefer top-B% across sizes (frozen \u03c4 drifts)",
-        "lab default:                   B=10% top-B% only (recompute ranks per panel; frozen \u03c4 transfer failed)"
+        "n4 τ*(B=10%):                  0.287565",
+        "n5 frozen-τ FN|tri:            7.1%  call=13.8%",
+        "reading:                       AGREE — nested τ ≈ top-B%; prefer top-B% across sizes (frozen τ drifts)",
+        "lab default:                   B=10% top-B% only (recompute ranks per panel; frozen τ transfer failed)"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/margin_cascade_tau/FINDINGS.md"
@@ -4439,7 +4439,7 @@
       "cmd": "python -m org_frontier.cascade.run --panel org_frontier/studies/holistic_residual_n4_unconstrained/results/residual_panel_n4_unconstrained.csv --smoke",
       "expect": [
         "B:         0.1  (default 0.1)",
-        "rule:      top-B% by OOF |p\u22120.5| (recomputed per panel)",
+        "rule:      top-B% by OOF |p−0.5| (recomputed per panel)",
         "cascade B=10%  exact=100/1000  call=10.0%",
         "cascade:      miss=3.2% (32/1000)  FN|tri=3.7% (11/297)  FP|dya=3.0%",
         "always-cheap: miss=7.5%  FN|tri=10.1%",
@@ -4455,22 +4455,22 @@
       "name": "two-triad-shared-member",
       "cmd": "python org_frontier/studies/two_triad_shared_member/analyze_shared_member.py",
       "expect": [
-        "H1a single triad: triadic \u03a6=2.000000  PASS",
-        "bridge=none  dyadic   whole\u03a6_MIP=0.0000  core=(W1,S1,C)            core\u03a6=2.000  spans_both=False",
-        "bridge=AND   triadic  whole\u03a6_MIP=2.0000  core=(W2,S2)              core\u03a6=2.000  spans_both=False",
-        "bridge=AND   triadic  whole\u03a6_MIP=4.0000  core=(W1,C1,W2,C2,S)      core\u03a6=4.000  spans_both=True",
-        "bridge=AND   triadic  whole\u03a6_MIP=2.0000  core=(S2,C2)              core\u03a6=2.000  spans_both=False",
-        "H1b shared-C/none q210 replicate: whole=dyadic \u03a6_MIP=0.0000 core\u03a6=2.000 spans=False  PASS",
+        "H1a single triad: triadic Φ=2.000000  PASS",
+        "bridge=none  dyadic   wholeΦ_MIP=0.0000  core=(W1,S1,C)            coreΦ=2.000  spans_both=False",
+        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=(W2,S2)              coreΦ=2.000  spans_both=False",
+        "bridge=AND   triadic  wholeΦ_MIP=4.0000  core=(W1,C1,W2,C2,S)      coreΦ=4.000  spans_both=True",
+        "bridge=AND   triadic  wholeΦ_MIP=2.0000  core=(S2,C2)              coreΦ=2.000  spans_both=False",
+        "H1b shared-C/none q210 replicate: whole=dyadic Φ_MIP=0.0000 coreΦ=2.000 spans=False  PASS",
         "H1 (control + q210 none replicate): SUPPORTED",
         "H2 (shared-C/AND does not merge):   SUPPORTED",
         "H3 (shared-S/AND merges):           SUPPORTED",
-        "H4 (shared-S/AND core \u03a6 > 2.0):     SUPPORTED",
+        "H4 (shared-S/AND core Φ > 2.0):     SUPPORTED",
         "H5 (shared-W/AND does not merge):   SUPPORTED",
         "H6 (role decides merger under AND): SUPPORTED",
-        "shared-S/AND spans_both=True core\u03a6=4.000",
-        "shared-C/AND spans_both=False core\u03a6=2.000",
-        "shared-W/AND spans_both=False core\u03a6=2.000",
-        "reading: WIN \u2014 shared mediator merges; shared leaves do not"
+        "shared-S/AND spans_both=True coreΦ=4.000",
+        "shared-C/AND spans_both=False coreΦ=2.000",
+        "shared-W/AND spans_both=False coreΦ=2.000",
+        "reading: WIN — shared mediator merges; shared leaves do not"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/two_triad_shared_member/FINDINGS.md"
@@ -4481,14 +4481,14 @@
       "expect": [
         "min-AND agrees with binary AND on {0,1}^5: PASS",
         "ternary SBS TPM shape: (243, 243)  (expect (243, 243))",
-        "H1 (binary merge \u03a6=4.0, full core): SUPPORTED",
+        "H1 (binary merge Φ=4.0, full core): SUPPORTED",
         "Network(num_states_per_node=...):   False",
         "H2 (IIT-4.0 accepts ternary TPM):   REFUTED",
         "H3 (ternary spans both):           NOT_TESTABLE",
         "H4 (ternary core not local-only):  NOT_TESTABLE",
-        "H5 (membership/\u03a6 differs):         NOT_TESTABLE",
+        "H5 (membership/Φ differs):         NOT_TESTABLE",
         "H1=SUPPORTED  H2=REFUTED  H3=NOT_TESTABLE  H4=NOT_TESTABLE  H5=NOT_TESTABLE",
-        "reading: TOOLING_GAP \u2014 binary merge stands; ternary IIT-4.0 not computable here"
+        "reading: TOOLING_GAP — binary merge stands; ternary IIT-4.0 not computable here"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/shared_mediator_ternary/FINDINGS.md"
@@ -4497,17 +4497,17 @@
       "name": "mediator-hierarchy-census",
       "cmd": "python org_frontier/studies/mediator_hierarchy_census/analyze_hierarchy.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "depth \u03a6 (b=1, d=1..4):     [2.0, 2.0, 2.0, 2.0]",
-        "breadth \u03a6 (d=1, b=2..4):   [2.0, 3.0, 4.0]",
-        "H1 (depth flat \u03a6=2.0):                 SUPPORTED",
-        "H2 (breadth \u03a6 increases):              SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "depth Φ (b=1, d=1..4):     [2.0, 2.0, 2.0, 2.0]",
+        "breadth Φ (d=1, b=2..4):   [2.0, 3.0, 4.0]",
+        "H1 (depth flat Φ=2.0):                 SUPPORTED",
+        "H2 (breadth Φ increases):              SUPPORTED",
         "H3 (recurrent spans all levels):       SUPPORTED",
         "H4 (feedforward hub-chain top-local):  SUPPORTED",
         "H5 (closure decides level locus):      SUPPORTED",
-        "depth: \u03a6=2.0 flat (b=1); breadth: \u03a6 grows 2\u21924 (d=1)",
-        "crossed d=2/b=2: spans_all=True core\u03a6=2.000",
-        "reading: WIN \u2014 depth flat / breadth grows; recurrent spans levels, feedforward top-local"
+        "depth: Φ=2.0 flat (b=1); breadth: Φ grows 2→4 (d=1)",
+        "crossed d=2/b=2: spans_all=True coreΦ=2.000",
+        "reading: WIN — depth flat / breadth grows; recurrent spans levels, feedforward top-local"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/mediator_hierarchy_census/FINDINGS.md"
@@ -4516,17 +4516,17 @@
       "name": "spanning-mediator-multihub",
       "cmd": "python org_frontier/studies/spanning_mediator_multihub/analyze_spanning_multihub.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "beyond_pool_any:     False",
-        "H1 (control + pool ceilings + shared-S \u03a6=4.0):  SUPPORTED",
+        "H1 (control + pool ceilings + shared-S Φ=4.0):  SUPPORTED",
         "H2 (multi-hub below pool):                      SUPPORTED",
-        "H3 (spanning \u2264 pool at same n):                 SUPPORTED",
+        "H3 (spanning ≤ pool at same n):                 SUPPORTED",
         "H4 (recurrent 2h2p merges T+hubs+leaves):       SUPPORTED",
         "H5 (feedforward top excluded from core):        SUPPORTED",
         "H6 (full span reaches pool, does not exceed):   SUPPORTED",
-        "beyond pool? NO (max spanning core\u03a6 vs pool5=20.0)",
-        "merge analogy (recurrent 2h2p full core w/ T)? YES; core\u03a6=6.0 vs shared-S=4.0 vs mh5_m2=6.0",
-        "reading: WIN \u2014 spanning top does not beat pool; recurrent hub-span merges membership like shared-S; full span saturates pool"
+        "beyond pool? NO (max spanning coreΦ vs pool5=20.0)",
+        "merge analogy (recurrent 2h2p full core w/ T)? YES; coreΦ=6.0 vs shared-S=4.0 vs mh5_m2=6.0",
+        "reading: WIN — spanning top does not beat pool; recurrent hub-span merges membership like shared-S; full span saturates pool"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/spanning_mediator_multihub/FINDINGS.md"
@@ -4535,17 +4535,17 @@
       "name": "small-world-vs-hierarchy",
       "cmd": "python org_frontier/studies/small_world_vs_hierarchy/analyze_small_world.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring \u03a6:  n5=4.000  n6=4.000",
-        "hub \u03a6:   n5=4.000  n6=5.000",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring Φ:  n5=4.000  n6=4.000",
+        "hub Φ:   n5=4.000  n6=5.000",
         "H1 (anchors + morph endpoints):     SUPPORTED",
         "H2 (interiors do not combine):      SUPPORTED",
         "H3 (interiors collapse):            SUPPORTED",
         "H4 (pick-one at n=6 size contrast): SUPPORTED",
-        "H5 (hub-rewire \u2264 ring at n=5):      SUPPORTED",
+        "H5 (hub-rewire ≤ ring at n=5):      SUPPORTED",
         "verdict: PICK_ONE",
         "combine ring-cap with hub-growth? NO",
-        "reading: PICK_ONE \u2014 interiors collapse; only pure ring (cap \u03a6=4) and pure hub (\u03a6=n-1) recover; no combine"
+        "reading: PICK_ONE — interiors collapse; only pure ring (cap Φ=4) and pure hub (Φ=n-1) recover; no combine"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/small_world_vs_hierarchy/FINDINGS.md"
@@ -4554,41 +4554,56 @@
       "name": "interior-ring-pool",
       "cmd": "python org_frontier/studies/interior_ring_pool/analyze_interior.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring \u03a6:  [4.0, 4.0, 4.0]",
-        "pool \u03a6:  [12.0, 20.0, 30.0]",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring Φ:  [4.0, 4.0, 4.0]",
+        "pool Φ:  [12.0, 20.0, 30.0]",
         "any_log_sqrt_claim: False",
-        "n6 full-core \u03a6 steps: [4.0, 6.0, 8.0, 9.0, 12.0, 30.0]",
+        "n6 full-core Φ steps: [4.0, 6.0, 8.0, 9.0, 12.0, 30.0]",
         "H1 (ring cap + pool n(n-1)):        SUPPORTED",
         "H2 (fixed-n interiors exist):       SUPPORTED",
-        "H3 (no log/\u221an intermediate law):    SUPPORTED",
+        "H3 (no log/√n intermediate law):    SUPPORTED",
         "H4 (partial pools collapse):        SUPPORTED",
         "H5 (discrete steps at n=6):         SUPPORTED",
         "verdict: NO_INTERMEDIATE_LAW",
-        "log/\u221an intermediate law? NO",
+        "log/√n intermediate law? NO",
         "stable full-core interiors (not only poles)? YES",
-        "reading: NO_INTERMEDIATE_LAW \u2014 discrete full-core interiors exist (hub/chord/degree steps); no log or \u221an scaling in n; not pole-only collapse"
+        "reading: NO_INTERMEDIATE_LAW — discrete full-core interiors exist (hub/chord/degree steps); no log or √n scaling in n; not pole-only collapse"
       ],
       "timeout": 600,
       "source": "org_frontier/studies/interior_ring_pool/FINDINGS.md"
     },
     {
+      "name": "local-triad-necklace",
+      "cmd": "python org_frontier/studies/local_triad_necklace/analyze_necklace.py",
+      "expect": [
+        "H1 (controls + landmarks + shared-S Φ=4):  SUPPORTED",
+        "H2 (AND necklace = landmark, not new law): SUPPORTED",
+        "H3 (OR/directed necklaces collapse):       SUPPORTED",
+        "H4 (no new compose law on panel):          SUPPORTED",
+        "neck_AND coreΦ=4.000 full=True",
+        "verdict: COMPOSE_LANDMARK_OR_COLLAPSE",
+        "reading: COMPOSE_LANDMARK_OR_COLLAPSE — closed AND necklace recovers ring landmark Φ=4; OR/directed variants collapse; no new compose law"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/local_triad_necklace/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring4 core\u03a6=4.000  pool4 core\u03a6=12.000",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring4 coreΦ=4.000  pool4 coreΦ=12.000",
         "n=4 samples: 224  on_landmark=1.000",
         "between (4,12) values: [(6.0, 44)]",
         "triadic rates: ER0.3=0.375  fixed_k2=0.875  fixed_k3=1.000",
         "H1 (control + ring/pool poles):     SUPPORTED",
-        "H2 (\u03a6 \u226590% on landmarks):           SUPPORTED",
+        "H2 (Φ ≥90% on landmarks):           SUPPORTED",
         "H3 (triadic rate ER < k2 < k3):     SUPPORTED",
         "H4 (between-band only atom 6):      SUPPORTED",
         "H5 (WS clustering > ER):            SUPPORTED",
         "verdict: DISCRETE_LANDMARKS",
         "only discrete #19 landmarks? YES",
-        "reading: DISCRETE_LANDMARKS \u2014 random coupling \u03a6 sits on #19 atoms (on_landmark=1.00); triadic rate tracks ensemble; no continuous ring\u2013pool fill"
+        "reading: DISCRETE_LANDMARKS — random coupling Φ sits on #19 atoms (on_landmark=1.00); triadic rate tracks ensemble; no continuous ring–pool fill"
       ],
       "timeout": 360,
       "source": "org_frontier/studies/random_coupling_ensemble/FINDINGS.md"
@@ -4597,17 +4612,17 @@
       "name": "random-coupling-ensemble-n5",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble_n5.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring5 core\u03a6=4.000  pool5 core\u03a6=20.000",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring5 coreΦ=4.000  pool5 coreΦ=20.000",
         "n=5 samples: 92  on_landmark=0.957  off_count=4",
         "off-landmark values: [(5.0, 3), (9.0, 1)]",
         "triadic rates: ER0.4=0.450  fixed_k2=0.850  fixed_k3=1.000  WS0.3=0.950  BA=0.000",
-        "H1 (\u226590% on L5 + poles):            SUPPORTED",
-        "H2 (new \u03a6 values appear):           SUPPORTED",
+        "H1 (≥90% on L5 + poles):            SUPPORTED",
+        "H2 (new Φ values appear):           SUPPORTED",
         "H3 (triadic ER < fixed_k2):         SUPPORTED",
         "H4 (between-band in {6,8,12}):      REFUTED",
         "verdict: PARTIAL_N5",
-        "reading: PARTIAL_N5 \u2014 \u226590% on landmarks but some new atoms; mostly discrete"
+        "reading: PARTIAL_N5 — ≥90% on landmarks but some new atoms; mostly discrete"
       ],
       "timeout": 720,
       "source": "org_frontier/studies/random_coupling_ensemble/FINDINGS.md"
@@ -4616,21 +4631,21 @@
       "name": "fixed-k-atoms-n5",
       "cmd": "python org_frontier/studies/fixed_k_atoms_n5/analyze_atoms.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring5 \u03a6=4.000  pool5 \u03a6=20.000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring5 Φ=4.000  pool5 Φ=20.000  PASS",
         "n_derangements (!5) = 44",
-        "all \u03a6=9.0 full-core triadic: True",
-        "count \u03a6=5: 6  \u03a6=9: 0",
-        "\u03a6=5 n_cores: [4]  all_incomplete=True",
-        "H1 (all derangements \u03a6=9 full-core):  SUPPORTED",
-        "H2 (no \u03a6=9 in non-derangement):       SUPPORTED",
-        "H3 (\u03a6=5 recurs, incomplete core):     SUPPORTED",
-        "H4 (no continuum; atoms \u2286 L5\u222a{5,9}): SUPPORTED",
-        "H5 (k=2 on known atoms, no \u03a6=9):      SUPPORTED",
+        "all Φ=9.0 full-core triadic: True",
+        "count Φ=5: 6  Φ=9: 0",
+        "Φ=5 n_cores: [4]  all_incomplete=True",
+        "H1 (all derangements Φ=9 full-core):  SUPPORTED",
+        "H2 (no Φ=9 in non-derangement):       SUPPORTED",
+        "H3 (Φ=5 recurs, incomplete core):     SUPPORTED",
+        "H4 (no continuum; atoms ⊆ L5∪{5,9}): SUPPORTED",
+        "H5 (k=2 on known atoms, no Φ=9):      SUPPORTED",
         "verdict: NEW_RUNGS",
         "atom 9: DERANGEMENT RUNG (44/44)",
         "atom 5: RECURRING NON-DERANG INCOMPLETE",
-        "reading: NEW_RUNGS \u2014 \u03a6=9 = all derangement omits (rung); \u03a6=5 recurs on non-derangement incomplete cores; no continuum under denser k=3"
+        "reading: NEW_RUNGS — Φ=9 = all derangement omits (rung); Φ=5 recurs on non-derangement incomplete cores; no continuum under denser k=3"
       ],
       "timeout": 900,
       "source": "org_frontier/studies/fixed_k_atoms_n5/FINDINGS.md"
@@ -4639,18 +4654,18 @@
       "name": "omit-motif-phi5",
       "cmd": "python org_frontier/studies/omit_motif_phi5/analyze_motifs.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring5 \u03a6=4.000  pool5 \u03a6=20.000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring5 Φ=4.000  pool5 Φ=20.000  PASS",
         "motif M ((0, 1, 1, 1, 2), (3,), 0) size=120",
-        "M sample: all_\u03a65=True all_ncore4=True N=12",
-        "H1 (motif M \u2192 \u03a6=5, n_core=4):           SUPPORTED",
-        "H2 (no other nonder class \u2192 \u03a6=5):       SUPPORTED",
-        "H3 (same-indeg siblings \u2192 \u03a6=6):         SUPPORTED",
-        "H4 (\u03a6=5 exactly motif M):               SUPPORTED",
+        "M sample: all_Φ5=True all_ncore4=True N=12",
+        "H1 (motif M → Φ=5, n_core=4):           SUPPORTED",
+        "H2 (no other nonder class → Φ=5):       SUPPORTED",
+        "H3 (same-indeg siblings → Φ=6):         SUPPORTED",
+        "H4 (Φ=5 exactly motif M):               SUPPORTED",
         "H5 (designed witness, |M|=120):         SUPPORTED",
         "verdict: MOTIF_DISCRIMINANT",
         "discriminant: motif M = indeg(0,1,1,1,2) + 3-cycle + recip=0",
-        "reading: MOTIF_DISCRIMINANT \u2014 \u03a6=5 iff omit motif M (indeg (0,1,1,1,2) + 3-cycle + recip=0); same-indeg siblings \u2192 \u03a6=6; designed witness class size 120"
+        "reading: MOTIF_DISCRIMINANT — Φ=5 iff omit motif M (indeg (0,1,1,1,2) + 3-cycle + recip=0); same-indeg siblings → Φ=6; designed witness class size 120"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/omit_motif_phi5/FINDINGS.md"
@@ -4659,24 +4674,24 @@
       "name": "omit-lift-n6",
       "cmd": "python org_frontier/studies/omit_lift_n6/analyze_lift.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "ring6 \u03a6=4.000  pool6 cited=30.0  PASS",
-        "der \u03a6 hist={12.0: 5, 14.0: 2}  distinct=[12.0, 14.0]",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "ring6 Φ=4.000  pool6 cited=30.0  PASS",
+        "der Φ hist={12.0: 5, 14.0: 2}  distinct=[12.0, 14.0]",
         "M3 class size=720",
-        "M3 \u03a6=[8.0, 8.0]  n_cores=[5, 5]  uniform=True incomplete=True",
-        "siblings same-\u03a6-as-M3: 3/5  sib_phis=[8.0, 8.0, 9.0, 8.0, 9.0]",
-        "all distinct \u03a6=[8.0, 9.0, 12.0, 14.0]  outside_L6=[14.0]",
+        "M3 Φ=[8.0, 8.0]  n_cores=[5, 5]  uniform=True incomplete=True",
+        "siblings same-Φ-as-M3: 3/5  sib_phis=[8.0, 8.0, 9.0, 8.0, 9.0]",
+        "all distinct Φ=[8.0, 9.0, 12.0, 14.0]  outside_L6=[14.0]",
         "H1 (single derangement rung):           REFUTED",
         "H2 (3+3 differs from other cycle types): SUPPORTED",
-        "H3 (M3 incomplete-core, uniform \u03a6):     SUPPORTED",
+        "H3 (M3 incomplete-core, uniform Φ):     SUPPORTED",
         "H4 (sibling discriminant fails):        SUPPORTED",
         "H5 (new atom outside L6):               SUPPORTED",
         "verdict: LAWS_MORPH",
         "derangement spectrum: [12.0, 14.0]",
-        "M3 \u03a6=8.0 n_core=5",
-        "same-indeg motif\u2192\u03a6: M3(3,)/0\u21928.0; (2,)/1\u21928.0; (2, 2)/2\u21928.0; (2, 3)/1\u21929.0; (4,)/0\u21928.0; (5,)/0\u21929.0",
-        "new atom: \u03a6=14 (derangement 3+3) outside L6",
-        "reading: LAWS_MORPH \u2014 derangements split by cycle type (3+3 vs others); M3 incomplete-core persists but sibling cycle discriminant fails; new atom outside L6"
+        "M3 Φ=8.0 n_core=5",
+        "same-indeg motif→Φ: M3(3,)/0→8.0; (2,)/1→8.0; (2, 2)/2→8.0; (2, 3)/1→9.0; (4,)/0→8.0; (5,)/0→9.0",
+        "new atom: Φ=14 (derangement 3+3) outside L6",
+        "reading: LAWS_MORPH — derangements split by cycle type (3+3 vs others); M3 incomplete-core persists but sibling cycle discriminant fails; new atom outside L6"
       ],
       "timeout": 900,
       "source": "org_frontier/studies/omit_lift_n6/FINDINGS.md"
@@ -4685,22 +4700,22 @@
       "name": "derangement-33-phi14",
       "cmd": "python org_frontier/studies/derangement_33_phi14/analyze_33.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "!6 total=265  by_type={(6,): 120, (2, 4): 90, (3, 3): 40, (2, 2, 2): 15}",
         "H4_sizes=PASS",
-        "\u03a6 hist={14.0: 6}  all_\u03a614=True all_full=True",
-        "other \u03a6 hist={12.0: 9}  any_\u03a614=False",
-        "nonder \u03a6 hist={12.0: 3}  any_\u03a614=False",
-        "H1 (\u03a6=14 \u27fa 3+3 among ders):     SUPPORTED",
+        "Φ hist={14.0: 6}  all_Φ14=True all_full=True",
+        "other Φ hist={12.0: 9}  any_Φ14=False",
+        "nonder Φ hist={12.0: 3}  any_Φ14=False",
+        "H1 (Φ=14 ⟺ 3+3 among ders):     SUPPORTED",
         "H2 (other !6 types hit 14):      REFUTED",
         "H3 (non-ders hit 14):            REFUTED",
         "H4 (!6 sizes 120/90/40/15):       SUPPORTED",
-        "H5 (3+3 uniformity \u03a6=14 full):   SUPPORTED",
+        "H5 (3+3 uniformity Φ=14 full):   SUPPORTED",
         "verdict: PHI14_IS_33",
-        "3+3 \u2192 \u03a6=14: True (N=6/40)",
-        "other !6 \u2192 \u03a6=14: False",
-        "nonder \u2192 \u03a6=14: False",
-        "reading: PHI14_IS_33 \u2014 among !6, \u03a6=14 iff cycle type 3+3 (N_33=6 all 14; other types no 14); non-ders no 14 in thin sample"
+        "3+3 → Φ=14: True (N=6/40)",
+        "other !6 → Φ=14: False",
+        "nonder → Φ=14: False",
+        "reading: PHI14_IS_33 — among !6, Φ=14 iff cycle type 3+3 (N_33=6 all 14; other types no 14); non-ders no 14 in thin sample"
       ],
       "timeout": 900,
       "source": "org_frontier/studies/derangement_33_phi14/FINDINGS.md"
@@ -4709,7 +4724,7 @@
       "name": "same-indeg-band-n6",
       "cmd": "python org_frontier/studies/same_indeg_band_n6/analyze_band.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "match omit_lift catalog: PASS",
         "band law match all classes: True  all_pure=True",
         "H1 (cycle-type band 8 vs 9):        SUPPORTED",
@@ -4718,9 +4733,9 @@
         "H4 (no 3-cycle singleton analogue): SUPPORTED",
         "H5 (class catalog stable):          SUPPORTED",
         "verdict: BAND_DISCRIMINANT",
-        "discriminant: \u03a6=9 iff cycles\u2208{(5,),(2,3)}; else \u03a6=8 (indeg (0,1,1,1,1,2))",
+        "discriminant: Φ=9 iff cycles∈{(5,),(2,3)}; else Φ=8 (indeg (0,1,1,1,1,2))",
         "vs n=5: MOTIF_DISCRIMINANT was 3-cycle singleton; n=6 is multi-class band",
-        "reading: BAND_DISCRIMINANT \u2014 within indeg (0,1,1,1,1,2), \u03a6=9 iff cycles\u2208{(5,),(2,3)}; else \u03a6=8; classes pure; not n=5 3-cycle singleton; not recip/n_core alone"
+        "reading: BAND_DISCRIMINANT — within indeg (0,1,1,1,1,2), Φ=9 iff cycles∈{(5,),(2,3)}; else Φ=8; classes pure; not n=5 3-cycle singleton; not recip/n_core alone"
       ],
       "timeout": 1200,
       "source": "org_frontier/studies/same_indeg_band_n6/FINDINGS.md"
@@ -4729,7 +4744,7 @@
       "name": "discriminant-scale-blur",
       "cmd": "python org_frontier/studies/discriminant_scale_blur/analyze_blur.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "all 6 classes pure: True",
         "n=5 same-indeg pure (M+siblings): True",
         "n=6 all classes pure: True",
@@ -4737,10 +4752,10 @@
         "H2 (purity collapses / mixes at scale): REFUTED",
         "H3 (morphs into coarser band):          SUPPORTED",
         "H4 (n=5 singleton not verbatim at n=6): SUPPORTED",
-        "H5 (denser n=5 siblings pure \u03a6=6):      SUPPORTED",
+        "H5 (denser n=5 siblings pure Φ=6):      SUPPORTED",
         "verdict: SCALE_MORPHS",
-        "#42 scale-blur? NO \u2014 morphs, purity holds",
-        "reading: SCALE_MORPHS \u2014 class purity holds at n=5 and n=6 (no within-class mix); discriminant morphs singleton\u2192multi-class band; not blur, not copy"
+        "#42 scale-blur? NO — morphs, purity holds",
+        "reading: SCALE_MORPHS — class purity holds at n=5 and n=6 (no within-class mix); discriminant morphs singleton→multi-class band; not blur, not copy"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/discriminant_scale_blur/FINDINGS.md"
@@ -4749,16 +4764,16 @@
       "name": "indeg-002122-n6",
       "cmd": "python org_frontier/studies/indeg_002122_n6/analyze_indeg.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "catalog match: PASS",
         "all_pure=False",
         "H1 (cycle-type band/discriminant):  REFUTED",
-        "H2 (flat \u2014 one \u03a6 all classes):      REFUTED",
+        "H2 (flat — one Φ all classes):      REFUTED",
         "H3 (within-class mix):              SUPPORTED",
         "H4 (recip alone does not separate): SUPPORTED",
         "verdict: MIX",
         "indeg: (0, 0, 1, 1, 2, 2)",
-        "vs closed band (0,1,1,1,1,2): flat or mix \u2014 fingerprint-dependent"
+        "vs closed band (0,1,1,1,1,2): flat or mix — fingerprint-dependent"
       ],
       "timeout": 900,
       "source": "org_frontier/studies/indeg_002122_n6/FINDINGS.md"
@@ -4767,14 +4782,14 @@
       "name": "constructs-n-gt3",
       "cmd": "python org_frontier/studies/constructs_n_gt3/analyze_constructs.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "HMC n_cores=[2, 2, 3]",
-        "H1 (HMC \u22642-core / non-algorithmacy): REFUTED",
+        "H1 (HMC ≤2-core / non-algorithmacy): REFUTED",
         "H2 (CMC non-commit at n>3):          SUPPORTED",
-        "H3 (AI-MC \u22653-core boundary persists): SUPPORTED",
+        "H3 (AI-MC ≥3-core boundary persists): SUPPORTED",
         "H4 (algorithmacy controls irreducible): SUPPORTED",
         "verdict: SCALE_BLURS_CONSTRUCTS",
-        "reading: SCALE_BLURS_CONSTRUCTS \u2014 HMC or CMC reads as algorithmacy-like at n>3"
+        "reading: SCALE_BLURS_CONSTRUCTS — HMC or CMC reads as algorithmacy-like at n>3"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/constructs_n_gt3/FINDINGS.md"
@@ -4783,15 +4798,15 @@
       "name": "indeg-002122-grain",
       "cmd": "python org_frontier/studies/indeg_002122_grain/analyze_grain.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (tt=(1,1)\u21d212 on (2,2)/(4,); else 6): SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (tt=(1,1)⇒12 on (2,2)/(4,); else 6): SUPPORTED",
         "H2 (law extends to cycle (2,)):         SUPPORTED",
-        "H3 ((3,) stays \u03a6=6 flat):               REFUTED",
+        "H3 ((3,) stays Φ=6 flat):               REFUTED",
         "H4 (all subtypes pure / MIX dissolved): SUPPORTED",
         "H5 ((3,) z_targets 8 vs 6):             SUPPORTED",
         "verdict: ROLE_TARGETS_LAW",
-        "discriminant: t_targets=(1,1)\u2192\u03a6=12; (3,)+z_targets=(2,2)\u2192\u03a6=8; else \u03a6=6",
-        "reading: ROLE_TARGETS_LAW \u2014 MIX dissolved: t_targets=(1,1)\u21d2\u03a6=12; within (3,), z_targets=(2,2)\u21d2\u03a6=8 else \u03a6=6; all subtypes pure"
+        "discriminant: t_targets=(1,1)→Φ=12; (3,)+z_targets=(2,2)→Φ=8; else Φ=6",
+        "reading: ROLE_TARGETS_LAW — MIX dissolved: t_targets=(1,1)⇒Φ=12; within (3,), z_targets=(2,2)⇒Φ=8 else Φ=6; all subtypes pure"
       ],
       "timeout": 1200,
       "source": "org_frontier/studies/indeg_002122_grain/FINDINGS.md"
@@ -4800,14 +4815,14 @@
       "name": "indeg-001113-grain",
       "cmd": "python org_frontier/studies/indeg_001113_grain/analyze_grain.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (z_targets dissolves (2,) mix):     SUPPORTED",
-        "H2 ((3,) stays \u03a6=6):                   SUPPORTED",
-        "H3 ((2,2)/(4,) stay \u03a6=12):             SUPPORTED",
+        "H2 ((3,) stays Φ=6):                   SUPPORTED",
+        "H3 ((2,2)/(4,) stay Φ=12):             SUPPORTED",
         "H4 (all subtypes pure / MIX dissolved): SUPPORTED",
         "H5 (grain generalizes via z_targets):  SUPPORTED",
         "verdict: Z_TARGETS_LAW",
-        "reading: Z_TARGETS_LAW \u2014 on indeg (0,0,1,1,1,3): z_targets=(1,1)\u2192\u03a6=6 (n_core=3); cycles=(3,)\u2192\u03a6=6; else \u03a6=12 (n_core=4); t_targets constant; ROLE_TARGETS grain generalizes via zeros"
+        "reading: Z_TARGETS_LAW — on indeg (0,0,1,1,1,3): z_targets=(1,1)→Φ=6 (n_core=3); cycles=(3,)→Φ=6; else Φ=12 (n_core=4); t_targets constant; ROLE_TARGETS grain generalizes via zeros"
       ],
       "timeout": 1200,
       "source": "org_frontier/studies/indeg_001113_grain/FINDINGS.md"
@@ -4816,14 +4831,14 @@
       "name": "indeg-000123-grain",
       "cmd": "python org_frontier/studies/indeg_000123_grain/analyze_grain.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (joint subtypes \u03a6-pure / law):   SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (joint subtypes Φ-pure / law):   SUPPORTED",
         "H2 (t_targets alone insufficient):  SUPPORTED",
         "H3 (z_targets cut sufficient):      SUPPORTED",
         "H4 (cycle alone insufficient):      SUPPORTED",
         "H5 (multi-role grain, no irr. mix): SUPPORTED",
         "verdict: JOINT_TZ_LAW",
-        "reading: JOINT_TZ_LAW \u2014 on indeg (0,0,0,1,2,3): both t and z vary; (tt,zt)=((2,),(1,2,3))\u2192\u03a6=6 else \u03a6=12; t alone insufficient; z-cut sufficient; cycle alone mixes; no irreducible multi-role mix"
+        "reading: JOINT_TZ_LAW — on indeg (0,0,0,1,2,3): both t and z vary; (tt,zt)=((2,),(1,2,3))→Φ=6 else Φ=12; t alone insufficient; z-cut sufficient; cycle alone mixes; no irreducible multi-role mix"
       ],
       "timeout": 1200,
       "source": "org_frontier/studies/indeg_000123_grain/FINDINGS.md"
@@ -4832,15 +4847,15 @@
       "name": "construct-ladders-n5",
       "cmd": "python org_frontier/studies/construct_ladders_n5/analyze_ladders.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (CMC classical non-algo):              SUPPORTED",
-        "H2 (AI-MC \u22653-core boundary, whole dyadic): SUPPORTED",
-        "H3 (full joint flip \u03a6=n\u22121 both families):  SUPPORTED",
+        "H2 (AI-MC ≥3-core boundary, whole dyadic): SUPPORTED",
+        "H3 (full joint flip Φ=n−1 both families):  SUPPORTED",
         "H4 (COMMIT_READ transfers):               SUPPORTED",
         "H5 (boundary step transfers):             SUPPORTED",
         "verdict: BOUNDARY_TRANSFERS",
-        "boundary_step: pre_AND \u2192 full_AND (CMC and AI-MC)",
-        "reading: BOUNDARY_TRANSFERS \u2014 CMC and AI-MC ladders share HMC\u2019s last-party commit flip (whole triadic \u03a6=4, n_core=5) and COMMIT_READ; classical convey/transform baselines stay non-algo / \u22653-core-dyadic respectively"
+        "boundary_step: pre_AND → full_AND (CMC and AI-MC)",
+        "reading: BOUNDARY_TRANSFERS — CMC and AI-MC ladders share HMC’s last-party commit flip (whole triadic Φ=4, n_core=5) and COMMIT_READ; classical convey/transform baselines stay non-algo / ≥3-core-dyadic respectively"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/construct_ladders_n5/FINDINGS.md"
@@ -4849,14 +4864,14 @@
       "name": "construct-ladders-n6",
       "cmd": "python org_frontier/studies/construct_ladders_n6/analyze_ladders.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (all three PHI_TRACKS_NM1): SUPPORTED",
         "H2 (some family morphs):       REFUTED",
         "H3 (COMMIT_READ breaks):       REFUTED",
         "verdict: PHI_TRACKS_NM1_ALL",
-        "boundary_step: pre_AND \u2192 full_AND (all three)",
-        "phi_vs_nm1: \u03a6=5 = n\u22121",
-        "reading: PHI_TRACKS_NM1_ALL \u2014 HMC/CMC/AI-MC at n=6: pre_AND\u2192full_AND flip with \u03a6=5 (=n\u22121); COMMIT_READ holds; BOUNDARY_TRANSFERS scales with PHI_TRACKS_NM1"
+        "boundary_step: pre_AND → full_AND (all three)",
+        "phi_vs_nm1: Φ=5 = n−1",
+        "reading: PHI_TRACKS_NM1_ALL — HMC/CMC/AI-MC at n=6: pre_AND→full_AND flip with Φ=5 (=n−1); COMMIT_READ holds; BOUNDARY_TRANSFERS scales with PHI_TRACKS_NM1"
       ],
       "timeout": 600,
       "source": "org_frontier/studies/construct_ladders_n6/FINDINGS.md"
@@ -4865,12 +4880,12 @@
       "name": "construct-gates-n5",
       "cmd": "python org_frontier/studies/construct_gates_n5/analyze_gates.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (XOR \u2192 Regime B both):  SUPPORTED",
-        "H2 (MAJ \u2192 Regime C both):  SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (XOR → Regime B both):  SUPPORTED",
+        "H2 (MAJ → Regime C both):  SUPPORTED",
         "H3 (some family morphs):   REFUTED",
         "verdict: GATE_REGIMES_TRANSFER",
-        "reading: GATE_REGIMES_TRANSFER \u2014 CMC/AI-MC full-bind: XOR\u2192B (\u03a6\u226an\u22121), MAJ\u2192C (no flip), AND\u2192A; HMC GATE_SPLITS regimes transfer"
+        "reading: GATE_REGIMES_TRANSFER — CMC/AI-MC full-bind: XOR→B (Φ≪n−1), MAJ→C (no flip), AND→A; HMC GATE_SPLITS regimes transfer"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/construct_gates_n5/FINDINGS.md"
@@ -4879,12 +4894,12 @@
       "name": "construct-gates-seal",
       "cmd": "python org_frontier/studies/construct_gates_seal/analyze_seal.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (XNOR \u2192 Regime B):       SUPPORTED",
-        "H2 (AND_negE \u2192 Regime C):   SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (XNOR → Regime B):       SUPPORTED",
+        "H2 (AND_negE → Regime C):   SUPPORTED",
         "H3 (surprise flip / morph): REFUTED",
         "verdict: GATE_SEAL_HOLDS",
-        "reading: GATE_SEAL_HOLDS \u2014 CMC/AI-MC XNOR\u2192B (\u03a6\u226an\u22121), AND_negE\u2192C; GATE_REGIMES_TRANSFER sealed; construct/gate arc closable"
+        "reading: GATE_SEAL_HOLDS — CMC/AI-MC XNOR→B (Φ≪n−1), AND_negE→C; GATE_REGIMES_TRANSFER sealed; construct/gate arc closable"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/construct_gates_seal/FINDINGS.md"
@@ -4893,12 +4908,12 @@
       "name": "structure-aware-surrogate",
       "cmd": "python org_frontier/studies/structure_aware_surrogate/analyze_surrogate.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (structure beats coupling LOFO): REFUTED",
-        "H2 (no gain |\u0394|<0.05):              SUPPORTED",
-        "H3 (detect\u2260magnitude gain):         REFUTED",
+        "H2 (no gain |Δ|<0.05):              SUPPORTED",
+        "H3 (detect≠magnitude gain):         REFUTED",
         "verdict: NO_STRUCTURE_GAIN",
-        "reading: NO_STRUCTURE_GAIN \u2014 structure-aware \u2248 coupling under LOFO"
+        "reading: NO_STRUCTURE_GAIN — structure-aware ≈ coupling under LOFO"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/structure_aware_surrogate/FINDINGS.md"
@@ -4907,10 +4922,10 @@
       "name": "sample-complexity-screen",
       "cmd": "python org_frontier/studies/sample_complexity_screen/analyze_complexity.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (family n=3 T*\u22641000):  SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (family n=3 T*≤1000):  SUPPORTED",
         "H2 (hub T* grows with n): REFUTED",
-        "H3 (noise raises T*\u22651.5\u00d7): REFUTED",
+        "H3 (noise raises T*≥1.5×): REFUTED",
         "verdict: FAST_WITHIN_FAMILY",
         "Tstar_family_n3=125"
       ],
@@ -4921,7 +4936,7 @@
       "name": "spectral-invariant",
       "cmd": "python org_frontier/studies/spectral_invariant/analyze_spectral.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (spectral ranks across families): REFUTED",
         "H2 (all spectral fail like coupling): REFUTED",
         "H3 (detect not magnitude):            REFUTED",
@@ -4935,12 +4950,12 @@
       "name": "active-label-acquisition",
       "cmd": "python org_frontier/studies/active_label_acquisition/analyze_active.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (uncertainty \u227b random pooled): REFUTED",
-        "H2 (topo_balance \u227b unc. LOFO):    REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (uncertainty ≻ random pooled): REFUTED",
+        "H2 (topo_balance ≻ unc. LOFO):    REFUTED",
         "H3 (no policy beats random):      SUPPORTED",
         "verdict: AL_NO_GAIN",
-        "reading: AL_NO_GAIN \u2014 no acquisition policy beats random by \u22650.03 on pooled curves; label order secondary on this panel"
+        "reading: AL_NO_GAIN — no acquisition policy beats random by ≥0.03 on pooled curves; label order secondary on this panel"
       ],
       "timeout": 240,
       "source": "org_frontier/studies/active_label_acquisition/FINDINGS.md"
@@ -4949,12 +4964,12 @@
       "name": "commit-noise-phase",
       "cmd": "python org_frontier/studies/commit_noise_phase/analyze_phase.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (sharp phase / interior): REFUTED",
         "H2 (only smooth decay):      SUPPORTED",
-        "H3 (core/\u03a6 decoupling):      REFUTED",
+        "H3 (core/Φ decoupling):      REFUTED",
         "verdict: SMOOTH_DECAY",
-        "reading: SMOOTH_DECAY \u2014 \u03a6 monotone glide on conjunctive and parity hubs; verdict holds to p=0.5; no core/\u03a6 decoupling"
+        "reading: SMOOTH_DECAY — Φ monotone glide on conjunctive and parity hubs; verdict holds to p=0.5; no core/Φ decoupling"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/commit_noise_phase/FINDINGS.md"
@@ -4963,12 +4978,12 @@
       "name": "party-vs-mediator-noise",
       "cmd": "python org_frontier/studies/party_vs_mediator_noise/analyze_locus.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (thresholds differ \u22650.02): REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (thresholds differ ≥0.02): REFUTED",
         "H2 (same threshold both families): SUPPORTED",
-        "H3 (\u03a6/n_core differ at same p*): SUPPORTED",
+        "H3 (Φ/n_core differ at same p*): SUPPORTED",
         "verdict: SAME_THRESHOLD_DIFF_CURVE",
-        "reading: SAME_THRESHOLD_DIFF_CURVE \u2014 collapse p* matches (both 0.5); seat shapes \u03a6 (and/or n_core) differently"
+        "reading: SAME_THRESHOLD_DIFF_CURVE — collapse p* matches (both 0.5); seat shapes Φ (and/or n_core) differently"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/party_vs_mediator_noise/FINDINGS.md"
@@ -4977,12 +4992,12 @@
       "name": "parity-vs-conjunctive-noise",
       "cmd": "python org_frontier/studies/parity_vs_conjunctive_noise/analyze_families.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (parity flips earlier \u22650.02): REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (parity flips earlier ≥0.02): REFUTED",
         "H2 (same p* at n=3 and n=4):    SUPPORTED",
-        "H3 (parity faster \u03a6\u0302 | same p*): REFUTED",
+        "H3 (parity faster Φ̂ | same p*): REFUTED",
         "verdict: SAME_P_STAR",
-        "reading: SAME_P_STAR \u2014 verdict p*=0.5 both families at n=3,4; conjunctive sheds more normalized \u03a6 (parity not faster)"
+        "reading: SAME_P_STAR — verdict p*=0.5 both families at n=3,4; conjunctive sheds more normalized Φ (parity not faster)"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/parity_vs_conjunctive_noise/FINDINGS.md"
@@ -4991,12 +5006,12 @@
       "name": "timescale-separation",
       "cmd": "python org_frontier/studies/timescale_separation/analyze_timescale.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (factors like #62): SUPPORTED",
         "H2 (verdict robust to k): REFUTED",
-        "H3 (\u03a6 soft, no verdict flip): REFUTED",
+        "H3 (Φ soft, no verdict flip): REFUTED",
         "verdict: FACTORS_LIKE_62",
-        "reading: FACTORS_LIKE_62 \u2014 hold-for-k factors at k*=2 (core\u2192{S}); #62 sequential 6/6 dyadic; prob 1/k stays triadic (construction decides)"
+        "reading: FACTORS_LIKE_62 — hold-for-k factors at k*=2 (core→{S}); #62 sequential 6/6 dyadic; prob 1/k stays triadic (construction decides)"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/timescale_separation/FINDINGS.md"
@@ -5005,12 +5020,12 @@
       "name": "commit-response-delay",
       "cmd": "python org_frontier/studies/commit_response_delay/analyze_delay.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (delay flips verdict):     REFUTED",
         "H2 (magnitude only, fixed core): REFUTED",
         "H3 (core shift, no verdict flip): SUPPORTED",
         "verdict: DELAY_CORE_SHIFT",
-        "reading: DELAY_CORE_SHIFT \u2014 buffer stays triadic with shifting core; lagged read disagrees on verdict (construction decides); no #9 sticky-{S} factorization"
+        "reading: DELAY_CORE_SHIFT — buffer stays triadic with shifting core; lagged read disagrees on verdict (construction decides); no #9 sticky-{S} factorization"
       ],
       "timeout": 360,
       "source": "org_frontier/studies/commit_response_delay/FINDINGS.md"
@@ -5019,12 +5034,12 @@
       "name": "oscillatory-scaling",
       "cmd": "python org_frontier/studies/oscillatory_scaling/analyze_osc.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (different \u03a6 law):     SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (different Φ law):     SUPPORTED",
         "H2 (same zoo landmark):   REFUTED",
         "H3 (verdict split dominates): REFUTED",
         "verdict: DIFFERENT_LAW",
-        "reading: DIFFERENT_LAW \u2014 rot_ring \u03a6 constant (=2) with period=n; separable from and_ring cap and hub/parity landmarks (fifth shape vs #132 zoo)"
+        "reading: DIFFERENT_LAW — rot_ring Φ constant (=2) with period=n; separable from and_ring cap and hub/parity landmarks (fifth shape vs #132 zoo)"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/oscillatory_scaling/FINDINGS.md"
@@ -5033,12 +5048,12 @@
       "name": "correlated-output-noise",
       "cmd": "python org_frontier/studies/correlated_output_noise/analyze_correlated.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (interior verdict flip vs #61/node): REFUTED",
-        "H2 (same smooth decay / \u03a6\u2261indep_WC):  SUPPORTED",
+        "H2 (same smooth decay / Φ≡indep_WC):  SUPPORTED",
         "H3 (core shift, no verdict flip):     SUPPORTED",
         "verdict: CORE_SHIFT_NO_FLIP",
-        "reading: CORE_SHIFT_NO_FLIP \u2014 projection shifts n_core without interior verdict flip; still no extra flip vs #61"
+        "reading: CORE_SHIFT_NO_FLIP — projection shifts n_core without interior verdict flip; still no extra flip vs #61"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/correlated_output_noise/FINDINGS.md"
@@ -5047,13 +5062,13 @@
       "name": "genuine-bistability",
       "cmd": "python org_frontier/studies/genuine_bistability/analyze_bistability.py",
       "expect": [
-        "memoryless whole: triadic \u03a6=2.000000  PASS",
-        "sticky whole:     dyadic \u03a6=0.000000  PASS",
+        "memoryless whole: triadic Φ=2.000000  PASS",
+        "sticky whole:     dyadic Φ=0.000000  PASS",
         "H1 (triadic+dyadic coexistence): SUPPORTED",
         "H2 (only hysteresis, no coexistence): REFUTED",
         "H3 (multistable same-verdict, no H1): REFUTED",
         "verdict: GENUINE_COEXISTENCE",
-        "reading: GENUINE_COEXISTENCE \u2014 panel forms host coexisting triadic and dyadic attractors at fixed coupling; #109 sticky is MULTI_SAME (both dyadic) plus activity hysteresis, not cross-verdict bistability"
+        "reading: GENUINE_COEXISTENCE — panel forms host coexisting triadic and dyadic attractors at fixed coupling; #109 sticky is MULTI_SAME (both dyadic) plus activity hysteresis, not cross-verdict bistability"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/genuine_bistability/FINDINGS.md"
@@ -5062,12 +5077,12 @@
       "name": "phi-ascent-mediator",
       "cmd": "python org_frontier/studies/phi_ascent_mediator/analyze_ascent.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (to conjunctive hub): REFUTED",
         "H2 (to pool / catalog max): SUPPORTED",
         "H3 (somewhere else / plateau): SUPPORTED",
         "verdict: PLATEAU_ELSE_POOL",
-        "reading: PLATEAU_ELSE_POOL \u2014 under fixed party reads, S' ascent stops on a multi-form \u03a6=2 plateau (hub not selected); when topology can open, greedy \u03a6-ascent reaches the catalog max (pool uniquely at n=4; pool/ring tie at n=3)"
+        "reading: PLATEAU_ELSE_POOL — under fixed party reads, S' ascent stops on a multi-form Φ=2 plateau (hub not selected); when topology can open, greedy Φ-ascent reaches the catalog max (pool uniquely at n=4; pool/ring tie at n=3)"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/phi_ascent_mediator/FINDINGS.md"
@@ -5076,15 +5091,15 @@
       "name": "continuous-time-invariance",
       "cmd": "python org_frontier/studies/continuous_time_invariance/analyze_ct.py",
       "expect": [
-        "faithful triad sync: triadic \u03a6=2.000000  PASS",
+        "faithful triad sync: triadic Φ=2.000000  PASS",
         "grain-1 sync : 24/24",
         "grain-2 sync : 0/24",
         "sequential   : 0/24",
         "H1 (CT restores invariance):     REFUTED",
         "H2 (still schedule/grain dependent): SUPPORTED",
-        "H3 (NOT_TESTABLE on PyPhi pin):  REFUTED (proxy ran; native CT \u03a6 still absent)",
+        "H3 (NOT_TESTABLE on PyPhi pin):  REFUTED (proxy ran; native CT Φ still absent)",
         "verdict: STILL_DEPENDENT",
-        "reading: STILL_DEPENDENT \u2014 CTMC\u2192expm embedding softens #112's wipeout (200/216 cells triadic) but extreme rate asymmetry still flips 8/24 forms; native CT \u03a6 remains unavailable on the PyPhi pin"
+        "reading: STILL_DEPENDENT — CTMC→expm embedding softens #112's wipeout (200/216 cells triadic) but extreme rate asymmetry still flips 8/24 forms; native CT Φ remains unavailable on the PyPhi pin"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/continuous_time_invariance/FINDINGS.md"
@@ -5093,14 +5108,14 @@
       "name": "scaling-laws-closed-form",
       "cmd": "python org_frontier/studies/scaling_laws_closed_form/verify_laws.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "C1 conjunctive \u03a6=n-1:     PROVED (cut + MIP id #49 T2)",
-        "C2 pool \u03a6=n(n-1):         PROVED (cut + MIP id #49 T1)",
-        "C3 parity \u03a6=2^(2-n):      PARTIAL (cut proved; MIP=H n\u22645 via #49 T3)",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "C1 conjunctive Φ=n-1:     PROVED (cut + MIP id #49 T2)",
+        "C2 pool Φ=n(n-1):         PROVED (cut + MIP id #49 T1)",
+        "C3 parity Φ=2^(2-n):      PARTIAL (cut proved; MIP=H n≤5 via #49 T3)",
         "verification grid:        PASS",
         "best next:                #48 hub uniqueness at 2(n-1) edge floor",
-        "verdict: LAWS_CLOSED \u2014 GID cut formulas proved; pool/hub MIP identity proved (#49); parity MIP=H partial (I=1 uniqueness n\u22645)",
-        "reading: LAWS_CLOSED \u2014 conjunctive/pool closed for all n; parity closed on cut formula with MIP=H verified n\u22645; formal lane next is #48"
+        "verdict: LAWS_CLOSED — GID cut formulas proved; pool/hub MIP identity proved (#49); parity MIP=H partial (I=1 uniqueness n≤5)",
+        "reading: LAWS_CLOSED — conjunctive/pool closed for all n; parity closed on cut formula with MIP=H verified n≤5; formal lane next is #48"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/scaling_laws_closed_form/FINDINGS.md"
@@ -5109,15 +5124,15 @@
       "name": "mincut-mip",
       "cmd": "python org_frontier/studies/mincut_mip/verify_mip.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "T0 graph min-cut:           REFUTED (Q49)",
         "T1 pool MIP=A all n:        PROVED (smoke n=3..5; proof all n)",
         "T2 hub MIP=H/H' all n:      PROVED (smoke n=3..5; proof all n)",
-        "T3 parity MIP=H:            PARTIAL (I\u22652 all-n proved; I=1 uniqueness exhausted n\u22645)",
+        "T3 parity MIP=H:            PARTIAL (I≥2 all-n proved; I=1 uniqueness exhausted n≤5)",
         "verification grid:          PASS",
         "best next:                  #48 hub uniqueness at 2(n-1) edge floor",
-        "verdict: NORMALIZED_CUT \u2014 graph min-cut REFUTED (Q49); pool/hub MIP identity PROVED for all n; parity MIP=H PARTIAL (I=1 uniqueness n\u22645)",
-        "reading: NORMALIZED_CUT \u2014 #47 named cuts are the MIP for pool (A) and hub (H/H') by \u03c6=n_cut / star-phantom bounds; parity H wins by sel\u00b7I with I\u22652 dominated; least-coupled is normalized GID weight, not graph min-cut"
+        "verdict: NORMALIZED_CUT — graph min-cut REFUTED (Q49); pool/hub MIP identity PROVED for all n; parity MIP=H PARTIAL (I=1 uniqueness n≤5)",
+        "reading: NORMALIZED_CUT — #47 named cuts are the MIP for pool (A) and hub (H/H') by φ=n_cut / star-phantom bounds; parity H wins by sel·I with I≥2 dominated; least-coupled is normalized GID weight, not graph min-cut"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/mincut_mip/FINDINGS.md"
@@ -5126,7 +5141,7 @@
       "name": "hub-floor-uniqueness",
       "cmd": "python org_frontier/studies/hub_floor_uniqueness/verify_uniqueness.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "U0 floor universal: PASS",
         "U1 AND not unique:  PASS",
         "U2 dual orbit n=3..5: PASS",
@@ -5136,8 +5151,8 @@
         "U4 uniqueness verdict:        NOT_UNIQUE",
         "verification grid:            PASS",
         "best next:                    #50 lattice of coordination kinds",
-        "verdict: NOT_UNIQUE \u2014 conjunctive hub is one of four De Morgan duals (AND/OR/NAND/NOR) at \u03a6=n\u22121 on the hub wiring; many more non-AND forms at n=3 mediation floor (Q45)",
-        "reading: NOT_UNIQUE \u2014 uniqueness at the 2(n\u22121) floor is a class property (dual orbit on hub; monotone vs parity in mediation), not an AND-only property (#30/#116/Q45)"
+        "verdict: NOT_UNIQUE — conjunctive hub is one of four De Morgan duals (AND/OR/NAND/NOR) at Φ=n−1 on the hub wiring; many more non-AND forms at n=3 mediation floor (Q45)",
+        "reading: NOT_UNIQUE — uniqueness at the 2(n−1) floor is a class property (dual orbit on hub; monotone vs parity in mediation), not an AND-only property (#30/#116/Q45)"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/hub_floor_uniqueness/FINDINGS.md"
@@ -5146,15 +5161,15 @@
       "name": "coordination-lattice",
       "cmd": "python org_frontier/studies/coordination_lattice/analyze_lattice.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "L1 lex kinds = chain lattice:  CONFIRMED",
-        "L2 extremes \u22a5=zeros \u22a4\u2287pool:   CONFIRMED",
-        "L3 verdict dominates \u03a6:       CONFIRMED",
+        "L2 extremes ⊥=zeros ⊤⊇pool:   CONFIRMED",
+        "L3 verdict dominates Φ:       CONFIRMED",
         "verification grid:            PASS",
-        "formal lane:                  CLOSABLE (#47\u2013#50 done)",
+        "formal lane:                  CLOSABLE (#47–#50 done)",
         "best next:                    formal lane closable; prefer empirical/survey packets",
-        "verdict: LATTICE \u2014 lex(verdict, \u03a6) quotients the zoo catalog to a chain lattice of kinds; \u22a5=zeros (dyadic \u03a6=0), \u22a4=pool (tied and_ring at n=3); product (n_core,\u03a6) is not a catalog lattice",
-        "reading: LATTICE \u2014 coordination kinds ordered first by dyadic/triadic then by \u03a6; a rich dyad ranks below a lean triad; pool is the catalog top; formal lane #47\u2013#50 closable"
+        "verdict: LATTICE — lex(verdict, Φ) quotients the zoo catalog to a chain lattice of kinds; ⊥=zeros (dyadic Φ=0), ⊤=pool (tied and_ring at n=3); product (n_core,Φ) is not a catalog lattice",
+        "reading: LATTICE — coordination kinds ordered first by dyadic/triadic then by Φ; a rich dyad ranks below a lean triad; pool is the catalog top; formal lane #47–#50 closable"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/coordination_lattice/FINDINGS.md"
@@ -5163,15 +5178,15 @@
       "name": "agent-protocol-triad",
       "cmd": "python org_frontier/studies/agent_protocol_triad/analyze_protocols.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (protocol encoding flips like commit): SUPPORTED",
         "H2 (always dyadic without human):         REFUTED",
         "H3 (some protocols triadic, no human):    SUPPORTED",
-        "classical \u2245 joint_AND:                    YES",
+        "classical ≅ joint_AND:                    YES",
         "verification grid:    PASS",
         "best next:            #38 tool-in-core (inference displacement)",
-        "verdict: PROTOCOL_IS_COMMIT \u2014 protocol design sets dyadic vs triadic by the same COMMIT_READ / joint-commit cut as human mediation; 4 no-human forms are protocol-triadic (AND/OR/NAND/XOR); relay/broadcast/side-channel stay dyadic",
-        "reading: PROTOCOL_IS_COMMIT \u2014 a negotiation protocol is triadic without a human iff both agents jointly determine P and read P; LLM-style agents sit on the same conveyor-vs-commit cut (#88)"
+        "verdict: PROTOCOL_IS_COMMIT — protocol design sets dyadic vs triadic by the same COMMIT_READ / joint-commit cut as human mediation; 4 no-human forms are protocol-triadic (AND/OR/NAND/XOR); relay/broadcast/side-channel stay dyadic",
+        "reading: PROTOCOL_IS_COMMIT — a negotiation protocol is triadic without a human iff both agents jointly determine P and read P; LLM-style agents sit on the same conveyor-vs-commit cut (#88)"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/agent_protocol_triad/FINDINGS.md"
@@ -5180,16 +5195,16 @@
       "name": "agent-tool-core",
       "cmd": "python org_frontier/studies/agent_tool_core/analyze_tools.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (joins iff acts + reciprocity): REFUTED",
         "H2 (read-only tool never joins):   SUPPORTED",
         "H3 (can join without reciprocity): SUPPORTED",
         "#4 inference pattern (unused/pure/blend): MATCH",
-        "tool_blended \u2245 inference_blended:  YES",
+        "tool_blended ≅ inference_blended:  YES",
         "verification grid:    PASS",
         "best next:            #39 HITL rubber-stamp (alt #40 online learning)",
-        "verdict: TOOL_LIKE_INFERENCE \u2014 tool joins like inference (#4/#9): unused/read-only stays out; pure A'=T leaves T out of the major complex; blended A'=S\u2227T puts T in and displaces C; reciprocity is neither necessary (blend) nor always sufficient (tool_call_blended)",
-        "reading: TOOL_LIKE_INFERENCE \u2014 a called tool is not in the core just because the agent reads it; the #4 blend/displacement cut reappears under relabeling; COMMIT_READ (tool in S) is a separate join path; H1's iff fails"
+        "verdict: TOOL_LIKE_INFERENCE — tool joins like inference (#4/#9): unused/read-only stays out; pure A'=T leaves T out of the major complex; blended A'=S∧T puts T in and displaces C; reciprocity is neither necessary (blend) nor always sufficient (tool_call_blended)",
+        "reading: TOOL_LIKE_INFERENCE — a called tool is not in the core just because the agent reads it; the #4 blend/displacement cut reappears under relabeling; COMMIT_READ (tool in S) is a separate join path; H1's iff fails"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/agent_tool_core/FINDINGS.md"
@@ -5198,14 +5213,14 @@
       "name": "hitl-rubber-stamp",
       "cmd": "python org_frontier/studies/hitl_rubber_stamp/analyze_hitl.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (joins on COMMIT_READ / override): SUPPORTED",
         "H2 (rubber stamp excluded):           SUPPORTED",
         "H3 (partial coupling is the boundary): SUPPORTED",
         "verification grid:    PASS",
         "best next:            #40 online-learning displacement (alt #41 MARL)",
-        "verdict: HUMAN_COMMIT_READ \u2014 HITL human joins the major complex iff in S\u2019s determination and reads S (COMMIT_READ), matching regulator #76; rubber stamps (post-hoc/idle/sticky/observe) stay out; static veto and read-without-commit are the partial boundary; override puts H in a dyadic {H,S}",
-        "reading: HUMAN_COMMIT_READ \u2014 a HITL approval that does not gate the commit is a rubber stamp outside the core; veto+responsive (or full joint) is the minimal edit that puts the human in; #37/#38 pointers only"
+        "verdict: HUMAN_COMMIT_READ — HITL human joins the major complex iff in S’s determination and reads S (COMMIT_READ), matching regulator #76; rubber stamps (post-hoc/idle/sticky/observe) stay out; static veto and read-without-commit are the partial boundary; override puts H in a dyadic {H,S}",
+        "reading: HUMAN_COMMIT_READ — a HITL approval that does not gate the commit is a rubber stamp outside the core; veto+responsive (or full joint) is the minimal edit that puts the human in; #37/#38 pointers only"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/hitl_rubber_stamp/FINDINGS.md"
@@ -5214,15 +5229,15 @@
       "name": "ai-fidelity-displace",
       "cmd": "python org_frontier/studies/ai_fidelity_displace/analyze_fidelity.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (C declines: low in, full out):     SUPPORTED",
-        "H2 (sharp threshold, not \u03a6 glide):     SUPPORTED",
+        "H2 (sharp threshold, not Φ glide):     SUPPORTED",
         "H3 (full: M joins and displaces C):    SUPPORTED",
-        "#69 iso full \u2245 AI full:               YES",
+        "#69 iso full ≅ AI full:               YES",
         "verification grid:    PASS",
         "best next:            #41 MARL emergent structure vs learnability",
-        "verdict: SHARP_FULL_DISPLACE \u2014 AI policy-model fidelity tracks displacement as a sharp threshold at full clone (M'=S): low rungs keep C; only full puts M in and C out (#69); \u03a6 stays flat (~2), not a smooth glide; mid rungs can eject C without M joining (obs_C, partial_and)",
-        "reading: SHARP_FULL_DISPLACE \u2014 an online-learn proxy that reaches full counterpart-policy fidelity displaces C into the model node; partial fidelity does not gradually hand the core to M; candid: rungs \u2260 SGD training; #37\u2013#39 pointers only"
+        "verdict: SHARP_FULL_DISPLACE — AI policy-model fidelity tracks displacement as a sharp threshold at full clone (M'=S): low rungs keep C; only full puts M in and C out (#69); Φ stays flat (~2), not a smooth glide; mid rungs can eject C without M joining (obs_C, partial_and)",
+        "reading: SHARP_FULL_DISPLACE — an online-learn proxy that reaches full counterpart-policy fidelity displaces C into the model node; partial fidelity does not gradually hand the core to M; candid: rungs ≠ SGD training; #37–#39 pointers only"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/ai_fidelity_displace/FINDINGS.md"
@@ -5231,14 +5246,14 @@
       "name": "marl-emergent-learn",
       "cmd": "python org_frontier/studies/marl_emergent_learn/analyze_marl.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (emergent predicts learnability):  REFUTED",
         "H2 (designed verdict predicts difficulty): REFUTED",
-        "H3 (success \u21d2 emergent triadic on des-tri): REFUTED",
+        "H3 (success ⇒ emergent triadic on des-tri): REFUTED",
         "verification grid:    PASS",
-        "best next:            AI lane closable \u2014 synthesis in AI_MULTIAGENT_ARC.md",
-        "verdict: EMERGENT_NULL \u2014 emergent coordination verdict after tabular MARL does not predict task learnability (AUC emerg\u2192success=0.555, emerg\u2192easy=0.485); designed verdict still fails (#98-like AUC=0.456); successful AND/OR learners induce open-loop non-triadic policies \u2014 extends #98/#107; association only, not causal",
-        "reading: EMERGENT_NULL \u2014 the #98/#107 gap does not close when the verdict is read on the learned policy loop; irreducibility and learnability remain different things; candid tabular proxy \u2260 deep MARL; AI lane #37\u2013#41 closable"
+        "best next:            AI lane closable — synthesis in AI_MULTIAGENT_ARC.md",
+        "verdict: EMERGENT_NULL — emergent coordination verdict after tabular MARL does not predict task learnability (AUC emerg→success=0.555, emerg→easy=0.485); designed verdict still fails (#98-like AUC=0.456); successful AND/OR learners induce open-loop non-triadic policies — extends #98/#107; association only, not causal",
+        "reading: EMERGENT_NULL — the #98/#107 gap does not close when the verdict is read on the learned policy loop; irreducibility and learnability remain different things; candid tabular proxy ≠ deep MARL; AI lane #37–#41 closable"
       ],
       "timeout": 90,
       "source": "org_frontier/studies/marl_emergent_learn/FINDINGS.md"
@@ -5247,14 +5262,14 @@
       "name": "marl-deep-replicate",
       "cmd": "python org_frontier/studies/marl_deep_replicate/analyze_deep.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (MLP restores predictive association):  REFUTED",
         "H2 (EMERGENT_NULL survives):               SUPPORTED",
-        "H3 (partial \u2014 arch/curriculum disagree):   REFUTED",
+        "H3 (partial — arch/curriculum disagree):   REFUTED",
         "verification grid:    PASS",
         "best next:            AI lane remains closable (deep gap filled)",
-        "verdict: NULL_SURVIVES \u2014 deeper NumPy MLP/linear FA MARL (obs=[S,own,partner]) keeps the #41 null: MLP AUC emerg\u2192success=0.500, emerg\u2192easy=0.500; P(emerg_tri|succ\u2227des_tri)=0.000; AND open-loop=8/8; linear predicts=False; association only",
-        "reading: NULL_SURVIVES \u2014 neural/FA policies with larger obs still fail to link emergent \u03a6-verdict to learnability; open-loop success persists; AI lane closable with deep gap filled"
+        "verdict: NULL_SURVIVES — deeper NumPy MLP/linear FA MARL (obs=[S,own,partner]) keeps the #41 null: MLP AUC emerg→success=0.500, emerg→easy=0.500; P(emerg_tri|succ∧des_tri)=0.000; AND open-loop=8/8; linear predicts=False; association only",
+        "reading: NULL_SURVIVES — neural/FA policies with larger obs still fail to link emergent Φ-verdict to learnability; open-loop success persists; AI lane closable with deep gap filled"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/marl_deep_replicate/FINDINGS.md"
@@ -5263,14 +5278,14 @@
       "name": "dual-principal-conflict",
       "cmd": "python org_frontier/studies/dual_principal_conflict/analyze_dual.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (one principal dominates):     SUPPORTED  (n=3 dominate forms)",
         "H2 (stable shared/joint core):    SUPPORTED  (n=6 shared forms)",
         "H3 (collapse / both principals out): SUPPORTED  (n=4 collapse forms)",
         "verification grid:    PASS",
         "best next:            #30 endogenous coalition (alt #32 rival platforms)",
-        "verdict: CONFLICT_ENCODING \u2014 dual conflicting principals do not have a single winner rule: extractive asymmetry yields one-principal dominance ({S,A} / {S,B}); joint COMMIT_READ / joint principal commits yield a stable shared core; unresolved agenda conflict and majority / substitutable gates collapse \u2014 encoding decides, extending single-principal bidirectionality",
-        "reading: CONFLICT_ENCODING \u2014 whose core wins is set by the conflict encoding (dominate / share / collapse); a stable shared core exists when both principals jointly determine and read the commit; #37 pointer only"
+        "verdict: CONFLICT_ENCODING — dual conflicting principals do not have a single winner rule: extractive asymmetry yields one-principal dominance ({S,A} / {S,B}); joint COMMIT_READ / joint principal commits yield a stable shared core; unresolved agenda conflict and majority / substitutable gates collapse — encoding decides, extending single-principal bidirectionality",
+        "reading: CONFLICT_ENCODING — whose core wins is set by the conflict encoding (dominate / share / collapse); a stable shared core exists when both principals jointly determine and read the commit; #37 pointer only"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/dual_principal_conflict/FINDINGS.md"
@@ -5279,15 +5294,15 @@
       "name": "endogenous-coalition",
       "cmd": "python org_frontier/studies/endogenous_coalition/analyze_coalition.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (Nash recovers max-own-core pay): SUPPORTED",
-        "H2 (mismatch: max-own-core not\u2282Nash): SUPPORTED",
+        "H2 (mismatch: max-own-core not⊂Nash): SUPPORTED",
         "H3 (multiple stable coalitions):     SUPPORTED",
         "#66 imposed all-in is Nash & ejects P: YES",
         "verification grid:    PASS",
         "best next:            #31 worker-union scale (alt #32 rival platforms)",
-        "verdict: MULTI_NASH_MAXPAY \u2014 endogenous join/leave yields pure Nash {all-out, all-in} that both give max own-core pay; partial coalitions maximize some player yet are unstable (mismatch); #66's imposed full coalition is one equilibrium but not unique",
-        "reading: MULTI_NASH_MAXPAY \u2014 parties can endogenously sustain the #66 solidarity core, but also sustain no-coalition with equal membership pay; imposing the coalition selects one of two max-pay equilibria; #29 pointer only"
+        "verdict: MULTI_NASH_MAXPAY — endogenous join/leave yields pure Nash {all-out, all-in} that both give max own-core pay; partial coalitions maximize some player yet are unstable (mismatch); #66's imposed full coalition is one equilibrium but not unique",
+        "reading: MULTI_NASH_MAXPAY — parties can endogenously sustain the #66 solidarity core, but also sustain no-coalition with equal membership pay; imposing the coalition selects one of two max-pay equilibria; #29 pointer only"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/endogenous_coalition/FINDINGS.md"
@@ -5296,15 +5311,15 @@
       "name": "worker-union-scale",
       "cmd": "python org_frontier/studies/worker_union_scale/analyze_scale.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (union scales like counterpart coal): SUPPORTED",
         "H2 (vanishes past size, #97-like):        REFUTED",
         "H3 (different scaling vs counterpart):   REFUTED",
-        "worker persists at n=6 (\u2260#97 vanish): YES",
+        "worker persists at n=6 (≠#97 vanish): YES",
         "verification grid:    PASS",
         "best next:            #32 rival platforms (alt #33 regulator capture)",
-        "verdict: UNION_MIRRORS_COAL \u2014 worker union matches counterpart coalition cell-for-cell (\u03a6, n_core, core==group) under weak/strong/P; solidarity persists through n=6 (core=peer group) and does not vanish like #97's random single-mediator triadicity",
-        "reading: UNION_MIRRORS_COAL \u2014 role symmetry (#55) extends to union scaling; designed peer solidarity is the structure that survives at scale where random mediation disappears (#97); #29/#30 pointers only"
+        "verdict: UNION_MIRRORS_COAL — worker union matches counterpart coalition cell-for-cell (Φ, n_core, core==group) under weak/strong/P; solidarity persists through n=6 (core=peer group) and does not vanish like #97's random single-mediator triadicity",
+        "reading: UNION_MIRRORS_COAL — role symmetry (#55) extends to union scaling; designed peer solidarity is the structure that survives at scale where random mediation disappears (#97); #29/#30 pointers only"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/worker_union_scale/FINDINGS.md"
@@ -5313,14 +5328,14 @@
       "name": "rival-platforms",
       "cmd": "python org_frontier/studies/rival_platforms/analyze_rival.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (compete / one captures W):  SUPPORTED  (compete=2 one_wins=6)",
         "H2 (worker spans both / shared): SUPPORTED  (n=3 span forms)",
         "H3 (worker drops / collapse):    SUPPORTED  (n=2 drop forms)",
         "verification grid:    PASS",
         "best next:            #33 regulator capture (alt #34 transparency)",
-        "verdict: RIVAL_ENCODING \u2014 two rival platforms sharing a worker do not have a single winner rule: substitutable W'=S1\u2228S2 / XOR yields equal-\u03a6 rivalry (each state picks one platform triad with W); asymmetric preference or extractive S\u2190W captures W into that platform; joint W'=S1\u2227S2 with cross-reads spans both; idle W drops \u2014 encoding decides, extending #73's separate-cores result to rivalrous platforms",
-        "reading: RIVAL_ENCODING \u2014 whether cores compete for the worker, one captures, both span, or W drops is set by the dual-platform encoding; #73's separation is the default under OR/preference; span needs joint binding + cross-reads; #29\u2013#31 pointers only"
+        "verdict: RIVAL_ENCODING — two rival platforms sharing a worker do not have a single winner rule: substitutable W'=S1∨S2 / XOR yields equal-Φ rivalry (each state picks one platform triad with W); asymmetric preference or extractive S←W captures W into that platform; joint W'=S1∧S2 with cross-reads spans both; idle W drops — encoding decides, extending #73's separate-cores result to rivalrous platforms",
+        "reading: RIVAL_ENCODING — whether cores compete for the worker, one captures, both span, or W drops is set by the dual-platform encoding; #73's separation is the default under OR/preference; span needs joint binding + cross-reads; #29–#31 pointers only"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/rival_platforms/FINDINGS.md"
@@ -5329,14 +5344,14 @@
       "name": "regulator-capture",
       "cmd": "python org_frontier/studies/regulator_capture/analyze_capture.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (sharp capture threshold):     SUPPORTED  (pair=(2, 3))",
         "H2 (smooth membership shift):     REFUTED  (smooth_run=1 jump=True)",
         "H3 (stays out / always in):       REFUTED  (out=True in=True)",
         "verification grid:    PASS",
         "best next:            #34 algorithmic transparency (alt #35 gig substitution)",
-        "verdict: SHARP_FULL_CAPTURE \u2014 oversight becomes capture at a sharp coupling cut: under mutual gate S'=W\u2227C\u2227R, R'=S (or partial party reads) keeps oversight {W,S,C,R}; only full R'=W\u2227S\u2227C collapses the major complex to {S,R}; extractive S\u2190R is the same capture core; no-gate controls keep R out \u2014 extends #76/#111 with the principal-style hollowing cut",
-        "reading: SHARP_FULL_CAPTURE \u2014 a regulator that gates and is gated stays oversight until the platform fully determines the regulator; that single step is capture, not a smooth membership glide; #29\u2013#32 pointers only"
+        "verdict: SHARP_FULL_CAPTURE — oversight becomes capture at a sharp coupling cut: under mutual gate S'=W∧C∧R, R'=S (or partial party reads) keeps oversight {W,S,C,R}; only full R'=W∧S∧C collapses the major complex to {S,R}; extractive S←R is the same capture core; no-gate controls keep R out — extends #76/#111 with the principal-style hollowing cut",
+        "reading: SHARP_FULL_CAPTURE — a regulator that gates and is gated stays oversight until the platform fully determines the regulator; that single step is capture, not a smooth membership glide; #29–#32 pointers only"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/regulator_capture/FINDINGS.md"
@@ -5345,14 +5360,14 @@
       "name": "algo-transparency",
       "cmd": "python org_frontier/studies/algo_transparency/analyze_transpar.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (rule-open flips structure/core): SUPPORTED  (n=9 rule pairs; channel also \u0394core)",
-        "H2 (verdict invariant, \u03a6 only):      SUPPORTED  (n=1 \u03a6-only pairs)",
-        "H3 (enter via open only if act):     SUPPORTED  (publish_unread ok=True; act\u2192F=True; no_spy=True)",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (rule-open flips structure/core): SUPPORTED  (n=9 rule pairs; channel also Δcore)",
+        "H2 (verdict invariant, Φ only):      SUPPORTED  (n=1 Φ-only pairs)",
+        "H3 (enter via open only if act):     SUPPORTED  (publish_unread ok=True; act→F=True; no_spy=True)",
         "verification grid:    PASS",
         "best next:            #35 gig substitution (alt #36 ejection order)",
-        "verdict: OPEN_ACT_CUT \u2014 opening the commit *rule* to the parties is not the same as channel transparency (#24): publish-unread is theater (F out, party core unchanged); parties acting on the opened rule can flip core membership (e.g. to {W,C,F}); both-input open can keep {W,S,C} and raise \u03a6 only \u2014 encoding of how the rule is opened decides, COMMIT_READ bridge only",
-        "reading: OPEN_ACT_CUT \u2014 algorithmic transparency of the rule changes the structural verdict when parties act on the opened function; mere publication does not; \u03a6-only and core-flip regimes both exist; #29\u2013#33 pointers only"
+        "verdict: OPEN_ACT_CUT — opening the commit *rule* to the parties is not the same as channel transparency (#24): publish-unread is theater (F out, party core unchanged); parties acting on the opened rule can flip core membership (e.g. to {W,C,F}); both-input open can keep {W,S,C} and raise Φ only — encoding of how the rule is opened decides, COMMIT_READ bridge only",
+        "reading: OPEN_ACT_CUT — algorithmic transparency of the rule changes the structural verdict when parties act on the opened function; mere publication does not; Φ-only and core-flip regimes both exist; #29–#33 pointers only"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/algo_transparency/FINDINGS.md"
@@ -5361,14 +5376,14 @@
       "name": "gig-substitution",
       "cmd": "python org_frontier/studies/gig_substitution/analyze_gig.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (sharp drop at first subst):  SUPPORTED  (OR k1\u2192k2 drop; m-of-k r=0 in / r>0 out=True)",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (sharp drop at first subst):  SUPPORTED  (OR k1→k2 drop; m-of-k r=0 in / r>0 out=True)",
         "H2 (smooth dilution):            REFUTED  (binary frac 0/1 under symmetric m-of-k)",
         "H3 (never drops under solidarity): SUPPORTED  (AND k=1..4 all workers in)",
         "verification grid:    PASS",
         "best next:            #36 ejection order (PE lane closable after)",
-        "verdict: DROP_AT_FIRST_SUBST \u2014 in a symmetric gig match, the individual worker drops from the major complex at the first positive substitution rate (r=1\u2212m/k>0, or OR with k\u22652); r=0 all-required keeps every Wi in through k=4; no smooth dilution \u2014 extends #22 to a size/rate sweep; #8 pointer only",
-        "reading: DROP_AT_FIRST_SUBST \u2014 substitutability is binary for core membership: any interchangeable worker pool ejects individuals from the platform core; solidarity (all-required) never does; #29\u2013#34 pointers only"
+        "verdict: DROP_AT_FIRST_SUBST — in a symmetric gig match, the individual worker drops from the major complex at the first positive substitution rate (r=1−m/k>0, or OR with k≥2); r=0 all-required keeps every Wi in through k=4; no smooth dilution — extends #22 to a size/rate sweep; #8 pointer only",
+        "reading: DROP_AT_FIRST_SUBST — substitutability is binary for core membership: any interchangeable worker pool ejects individuals from the platform core; solidarity (all-required) never does; #29–#34 pointers only"
       ],
       "timeout": 240,
       "source": "org_frontier/studies/gig_substitution/FINDINGS.md"
@@ -5377,14 +5392,14 @@
       "name": "ejection-order",
       "cmd": "python org_frontier/studies/ejection_order/analyze_eject.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (#110 path co-eject\u2192owner):   SUPPORTED  (W|S|C \u2192 \u2205 \u2192 S|P)",
-        "H2 (strict W\u227aC\u227aR fine order):    REFUTED  (wc_split=False)",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (#110 path co-eject→owner):   SUPPORTED  (W|S|C → ∅ → S|P)",
+        "H2 (strict W≺C≺R fine order):    REFUTED  (wc_split=False)",
         "H3 (encoding sets residual):     SUPPORTED  (R endpoint disagree=True; ablate local=True)",
         "verification grid:    PASS",
-        "best next:            PE lane closable \u2014 synthesis in POLITICAL_ECONOMY_ARC.md",
-        "verdict: CO_EJECT_TO_OWNER \u2014 extractive ejection reproduces #110: {W,S,C} \u2192 null \u2192 {S,P} with W/C co-ejection (role symmetry); no transferable fine order W\u227aC\u227aR; regulator standing and single-party ablation are encoding-local \u2014 the predictive claim for stakeholders is co-loss of parties under owner tilt, not a ranked first-loss list",
-        "reading: CO_EJECT_TO_OWNER \u2014 #110's order is the transferable result; extending stakeholders does not yield a universal ejection ranking beyond party co-ejection to the owner core; #29\u2013#35 pointers only; PE lane closable"
+        "best next:            PE lane closable — synthesis in POLITICAL_ECONOMY_ARC.md",
+        "verdict: CO_EJECT_TO_OWNER — extractive ejection reproduces #110: {W,S,C} → null → {S,P} with W/C co-ejection (role symmetry); no transferable fine order W≺C≺R; regulator standing and single-party ablation are encoding-local — the predictive claim for stakeholders is co-loss of parties under owner tilt, not a ranked first-loss list",
+        "reading: CO_EJECT_TO_OWNER — #110's order is the transferable result; extending stakeholders does not yield a universal ejection ranking beyond party co-ejection to the owner core; #29–#35 pointers only; PE lane closable"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/ejection_order/FINDINGS.md"
@@ -5395,14 +5410,14 @@
       "expect": [
         "H1 (binary two-condition control): SUPPORTED",
         "H2 (stock pin accepts ternary):    REFUTED",
-        "H2b (overlay exact ternary \u03a6):     SUPPORTED",
+        "H2b (overlay exact ternary Φ):     SUPPORTED",
         "H3 (ternary non-bidir stays out):  SUPPORTED  @(2, 2, 2)",
         "H4 (ternary bidir parties in):     SUPPORTED  @(2, 2, 2)",
-        "H5 (state changes pivotality):     SUPPORTED  (faithful@(1, 1, 1) core\u2260{W,S,C})",
+        "H5 (state changes pivotality):     SUPPORTED  (faithful@(1, 1, 1) core≠{W,S,C})",
         "verification grid:    PASS",
         "best next:            #2 graded-commit / #3 mixed-radix mediator on overlay; expand state sweep",
-        "verdict: TWO_CONDITION_STATE_DEPENDENT \u2014 binary two-condition holds; stock pin rejects ternary; overlay M2 exact \u03a6 at (2, 2, 2): non-bidir out, bidir triad in (two-condition survives); at (1, 1, 1) faithful core W|S (state-dependent)",
-        "reading: TWO_CONDITION_STATE_DEPENDENT \u2014 agenda #1 partial: two-condition account survives at all-engaged ternary state; mid-grade state shrinks faithful core; PE/AI/formal/stoch/estimation/construct-omit closed"
+        "verdict: TWO_CONDITION_STATE_DEPENDENT — binary two-condition holds; stock pin rejects ternary; overlay M2 exact Φ at (2, 2, 2): non-bidir out, bidir triad in (two-condition survives); at (1, 1, 1) faithful core W|S (state-dependent)",
+        "reading: TWO_CONDITION_STATE_DEPENDENT — agenda #1 partial: two-condition account survives at all-engaged ternary state; mid-grade state shrinks faithful core; PE/AI/formal/stoch/estimation/construct-omit closed"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/ternary_pivotality/FINDINGS.md"
@@ -5411,7 +5426,7 @@
       "name": "multivalued-iit4-port",
       "cmd": "python org_frontier/studies/multivalued_iit4_port/analyze_port.py",
       "expect": [
-        "binary control \u03a6=2 triad:  PASS",
+        "binary control Φ=2 triad:  PASS",
         "binary regression match:   PASS  (stock=2.0, mv=2.0)",
         "stock Network accept:      False",
         "H_stock_rejects_ternary:   CONFIRMED",
@@ -5421,9 +5436,9 @@
         "H_m2_ternary_phi:          SUPPORTED",
         "M1 construct+preserve:     GREEN",
         "verification grid:    PASS",
-        "best next:            #2\u2013#4 on overlay; expand ternary state sweep (see BEYOND_BINARY_ARC.md)",
-        "verdict: M2_GREEN \u2014 M2 exact ternary IIT-4.0 \u03a6 on third_party/pyphi_iit4_mv; SBS preserved; binary regression matches stock; CI-off unused; #1 re-opened",
-        "reading: M2_GREEN \u2014 MultivaluedSubsystem + sia (GID) past backward_tpm blocker; no embedding proxy; no nonbinary IIT-3.0"
+        "best next:            #2–#4 on overlay; expand ternary state sweep (see BEYOND_BINARY_ARC.md)",
+        "verdict: M2_GREEN — M2 exact ternary IIT-4.0 Φ on third_party/pyphi_iit4_mv; SBS preserved; binary regression matches stock; CI-off unused; #1 re-opened",
+        "reading: M2_GREEN — MultivaluedSubsystem + sia (GID) past backward_tpm blocker; no embedding proxy; no nonbinary IIT-3.0"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/multivalued_iit4_port/FINDINGS.md"
@@ -5438,9 +5453,9 @@
         "MV Network (27,27):        OK",
         "CI-off log2 trap used:     False  (SBS-native path only)",
         "verification grid:    PASS",
-        "best next:            smoke_m2.py (exact ternary \u03a6)",
-        "verdict: M1_GREEN \u2014 ternary MultivaluedNetwork constructs; SBS preserved without int(log2) collapse",
-        "reading: M1_GREEN \u2014 vendored pin path third_party/pyphi_iit4_mv; stock binary IIT-4.0 unchanged"
+        "best next:            smoke_m2.py (exact ternary Φ)",
+        "verdict: M1_GREEN — ternary MultivaluedNetwork constructs; SBS preserved without int(log2) collapse",
+        "reading: M1_GREEN — vendored pin path third_party/pyphi_iit4_mv; stock binary IIT-4.0 unchanged"
       ],
       "timeout": 60,
       "source": "third_party/pyphi_iit4_mv/README.md"
@@ -5449,14 +5464,14 @@
       "name": "pyphi-iit4-mv-m2-smoke",
       "cmd": "python third_party/pyphi_iit4_mv/smoke_m2.py",
       "expect": [
-        "binary regression \u03a6=2:    PASS  (stock=2.0, mv=2.0)",
+        "binary regression Φ=2:    PASS  (stock=2.0, mv=2.0)",
         "SBS preserved (9,9):       True",
-        "independent sticky \u03a6\u22480:    PASS  (\u03a6=0.0)",
+        "independent sticky Φ≈0:    PASS  (Φ=0.0)",
         "CI-off log2 trap used:     False",
         "verification grid:    PASS",
         "best next:            #2 graded-commit / #3 mixed-radix on overlay (see BEYOND_BINARY_ARC.md)",
-        "verdict: M2_GREEN \u2014 exact ternary IIT-4.0 \u03a6 finite on 2-node control; binary regression matches stock pin \u03a6=2; maximal_complex works; independent sticky \u03a6=0; no log2 trap",
-        "reading: M2_GREEN \u2014 third_party/pyphi_iit4_mv computes exact \u03a6 via MultivaluedSubsystem + sia (GID); #1 TWO_CONDITION_STATE_DEPENDENT"
+        "verdict: M2_GREEN — exact ternary IIT-4.0 Φ finite on 2-node control; binary regression matches stock pin Φ=2; maximal_complex works; independent sticky Φ=0; no log2 trap",
+        "reading: M2_GREEN — third_party/pyphi_iit4_mv computes exact Φ via MultivaluedSubsystem + sia (GID); #1 TWO_CONDITION_STATE_DEPENDENT"
       ],
       "timeout": 60,
       "source": "third_party/pyphi_iit4_mv/README.md"
@@ -5467,12 +5482,12 @@
       "expect": [
         "control: PASS",
         "H1 (structure class stays sharp):   SUPPORTED",
-        "H2 (\u03a6 grades with commit level L):  SUPPORTED",
+        "H2 (Φ grades with commit level L):  SUPPORTED",
         "H3 (core membership grades with L): SUPPORTED",
         "verification grid:    PASS",
         "best next:            #3 mixed-radix mediator (binary parties, ternary S)",
-        "verdict: SHARP_CLASS_GRADED_PATH \u2014 faithful ternary graded commit: structure classes stay discrete (NULL/DYADIC/TRIADIC) while \u03a6 and n_core track commit level L on (L,L,L); binary AND control TRIADIC \u03a6=2",
-        "reading: SHARP_CLASS_GRADED_PATH \u2014 the dyadic/triadic label stays a sharp class; the path across commit levels grades both magnitude and membership; #1 state-dependence is the L=1 vs L=2 slice of this path"
+        "verdict: SHARP_CLASS_GRADED_PATH — faithful ternary graded commit: structure classes stay discrete (NULL/DYADIC/TRIADIC) while Φ and n_core track commit level L on (L,L,L); binary AND control TRIADIC Φ=2",
+        "reading: SHARP_CLASS_GRADED_PATH — the dyadic/triadic label stays a sharp class; the path across commit levels grades both magnitude and membership; #1 state-dependence is the L=1 vs L=2 slice of this path"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/graded_commit_verdict/FINDINGS.md"
@@ -5482,13 +5497,13 @@
       "cmd": "python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py",
       "expect": [
         "control: PASS",
-        "H1 (extra resolution \u2192 \u03a6 only):     SUPPORTED  (both forms)",
-        "H2 (extra resolution \u2192 membership): REFUTED",
+        "H1 (extra resolution → Φ only):     SUPPORTED  (both forms)",
+        "H2 (extra resolution → membership): REFUTED",
         "H3 (form-dependent pattern):        REFUTED",
         "verification grid:    PASS",
         "best next:            #4 higher-radix parity / balanced commit (blind spot)",
-        "verdict: EXTRA_RESOLUTION_TO_PHI \u2014 mixed-radix (2,3,2) S'=W+C: on (1,S,1) sweep both full and thresh keep fixed TRIADIC core while \u03a6 varies with mediator level S (mid S=1 is \u03a6-only extra resolution); binary AND control TRIADIC \u03a6=2",
-        "reading: EXTRA_RESOLUTION_TO_PHI \u2014 unlike all-ternary #2 (membership grades with L), binary parties + ternary mediator put the extra bit into \u03a6 magnitude; core stays {W,S,C}; #1/#2 pointers only"
+        "verdict: EXTRA_RESOLUTION_TO_PHI — mixed-radix (2,3,2) S'=W+C: on (1,S,1) sweep both full and thresh keep fixed TRIADIC core while Φ varies with mediator level S (mid S=1 is Φ-only extra resolution); binary AND control TRIADIC Φ=2",
+        "reading: EXTRA_RESOLUTION_TO_PHI — unlike all-ternary #2 (membership grades with L), binary parties + ternary mediator put the extra bit into Φ magnitude; core stays {W,S,C}; #1/#2 pointers only"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/mixed_radix_mediator/FINDINGS.md"
@@ -5499,12 +5514,12 @@
       "expect": [
         "#113 control: PASS",
         "H1 (binary-specific):                 REFUTED",
-        "H2 (sum-mod-k recreates low-\u03a6 band):  SUPPORTED",
+        "H2 (sum-mod-k recreates low-Φ band):  SUPPORTED",
         "H3 (morphs at higher radix):          REFUTED",
         "verification grid:    PASS",
-        "best next:            beyond-binary lane closable; optional M3 subset-\u03a6 fidelity on overlay",
-        "verdict: BLINDSPOT_SURVIVES_RADIX \u2014 #113 XOR \u03a6=0.5 pure-HO vs AND \u03a6=2 holds on stock; sum-mod-k at k=2,3,4 keeps a low flat full-system \u03a6 band (\u22480.5) while min-commit is high (2/3.17/4); blind spot is not binary-specific",
-        "reading: BLINDSPOT_SURVIVES_RADIX \u2014 balanced commits (sum mod k) recreate the #113 low-\u03a6 signature across radix; #1\u2013#3 pointers; beyond-binary science closable on overlay M2"
+        "best next:            beyond-binary lane closable; optional M3 subset-Φ fidelity on overlay",
+        "verdict: BLINDSPOT_SURVIVES_RADIX — #113 XOR Φ=0.5 pure-HO vs AND Φ=2 holds on stock; sum-mod-k at k=2,3,4 keeps a low flat full-system Φ band (≈0.5) while min-commit is high (2/3.17/4); blind spot is not binary-specific",
+        "reading: BLINDSPOT_SURVIVES_RADIX — balanced commits (sum mod k) recreate the #113 low-Φ signature across radix; #1–#3 pointers; beyond-binary science closable on overlay M2"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/parity_radix_blindspot/FINDINGS.md"
@@ -5513,14 +5528,14 @@
       "name": "thompson-verdict-bridge",
       "cmd": "python org_frontier/studies/thompson_verdict_bridge/analyze_thompson.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (clean type\u2192verdict map):           REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (clean type→verdict map):           REFUTED",
         "H2 (mismatches):                       SUPPORTED",
         "H3 (partial alignment only):           SUPPORTED",
         "verification grid:    PASS",
         "best next:            #44 Wageman-style measured task interdependence",
-        "verdict: PARTIAL_ALIGNMENT \u2014 Thompson types track the verdict loosely: pooled_indep\u2192dyadic and recip_cyclic\u2192triadic hold; sequential chain ties reciprocal at \u03a6=2 (not low); alternates flip (all-required pool triadic; hand-off dyadic; cycle-broken dyadic); alignment=0.429",
-        "reading: PARTIAL_ALIGNMENT \u2014 typology is not a clean map; joint determination and feedback cycle decide; q43 pointer; construct-validity arc opens at #43"
+        "verdict: PARTIAL_ALIGNMENT — Thompson types track the verdict loosely: pooled_indep→dyadic and recip_cyclic→triadic hold; sequential chain ties reciprocal at Φ=2 (not low); alternates flip (all-required pool triadic; hand-off dyadic; cycle-broken dyadic); alignment=0.429",
+        "reading: PARTIAL_ALIGNMENT — typology is not a clean map; joint determination and feedback cycle decide; q43 pointer; construct-validity arc opens at #43"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/thompson_verdict_bridge/FINDINGS.md"
@@ -5529,14 +5544,14 @@
       "name": "wageman-ti-verdict",
       "cmd": "python org_frontier/studies/wageman_ti_verdict/analyze_wageman.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (W predicts dyadic/triadic):        SUPPORTED",
         "H2 (weak/null):                        REFUTED",
-        "H3 (\u03a6 better than verdict):            REFUTED",
+        "H3 (Φ better than verdict):            REFUTED",
         "verification grid:    PASS",
         "best next:            #45 Boolean render of a real coordination dataset",
-        "verdict: WAGEMAN_PREDICTS_VERDICT \u2014 CM-only Wageman index W=(recip+input+affect)/3 on designed tasks: AUC=1.000 acc=1.000 @W\u22650.472; \u03c1(W,\u03a6)=0.883 <r_pb+0.10 so H3 fails; XOR/AND share W, \u03a6 0.5 vs 2",
-        "reading: WAGEMAN_PREDICTS_VERDICT \u2014 survey-style TI intensity separates dyadic/triadic on this panel; does not grade \u03a6 within same CM; #43 pointer; construct-validity arc #44"
+        "verdict: WAGEMAN_PREDICTS_VERDICT — CM-only Wageman index W=(recip+input+affect)/3 on designed tasks: AUC=1.000 acc=1.000 @W≥0.472; ρ(W,Φ)=0.883 <r_pb+0.10 so H3 fails; XOR/AND share W, Φ 0.5 vs 2",
+        "reading: WAGEMAN_PREDICTS_VERDICT — survey-style TI intensity separates dyadic/triadic on this panel; does not grade Φ within same CM; #43 pointer; construct-validity arc #44"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/wageman_ti_verdict/FINDINGS.md"
@@ -5545,15 +5560,15 @@
       "name": "conjunctive-law-real-render",
       "cmd": "python org_frontier/studies/conjunctive_law_real_render/analyze_render.py",
       "expect": [
-        "hub n=3: \u03a6=2.000 core={n0,n1,n2} n-1=2  PASS",
-        "hub n=4: \u03a6=3.000 core={n0,n1,n2,n3} n-1=3  PASS",
-        "H1 (real render shows \u03a6\u2248n\u22121 law):  REFUTED",
+        "hub n=3: Φ=2.000 core={n0,n1,n2} n-1=2  PASS",
+        "hub n=4: Φ=3.000 core={n0,n1,n2,n3} n-1=3  PASS",
+        "H1 (real render shows Φ≈n−1 law):  REFUTED",
         "H2 (null / not visible):           REFUTED",
         "H3 (only under strong modeling):   SUPPORTED",
         "verification grid:    PASS",
         "best next:            #46 formal-vs-informal coordination cut",
-        "verdict: LAW_ONLY_UNDER_STRONG_MODEL \u2014 institutional OSS elicits: v9 n=3 \u03a6=2 (triad only, not scaling); v10/v11 n=4 MC \u03a6=2 |core|=3 (miss n\u22121=3); v8 activity fit no signature; forced #116 hub on same role counts recovers law at n=3,4",
-        "reading: LAW_ONLY_UNDER_STRONG_MODEL \u2014 conjunctive \u03a6=n\u22121 not visible in institutional/fitted real renders as a scaling law; appears only when hub wiring is imposed; #43/#44 pointers"
+        "verdict: LAW_ONLY_UNDER_STRONG_MODEL — institutional OSS elicits: v9 n=3 Φ=2 (triad only, not scaling); v10/v11 n=4 MC Φ=2 |core|=3 (miss n−1=3); v8 activity fit no signature; forced #116 hub on same role counts recovers law at n=3,4",
+        "reading: LAW_ONLY_UNDER_STRONG_MODEL — conjunctive Φ=n−1 not visible in institutional/fitted real renders as a scaling law; appears only when hub wiring is imposed; #43/#44 pointers"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/conjunctive_law_real_render/FINDINGS.md"
@@ -5562,14 +5577,14 @@
       "name": "formal-informal-cut",
       "cmd": "python org_frontier/studies/formal_informal_cut/analyze_cut.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (formal\u2194triadic / informal\u2194dyadic): REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (formal↔triadic / informal↔dyadic): REFUTED",
         "H2 (cuts across):                      SUPPORTED",
         "H3 (partial alignment only):           SUPPORTED",
         "verification grid:    PASS",
-        "best next:            outside CV \u2014 agenda J #47 scaling-law closed forms",
-        "verdict: CUTS_ACROSS \u2014 formal spans dyadic\u2194triadic (commit gate vs convey/handoff); informal spans dyadic\u2194triadic (lateral idle vs back-channel/ring); alignment=0.333; distinction cuts across the verdict",
-        "reading: CUTS_ACROSS \u2014 prescribed vs lateral is not a dyadic/triadic map; joint determination and cycles decide; #43\u2013#45 pointers; construct-validity arc closable"
+        "best next:            outside CV — agenda J #47 scaling-law closed forms",
+        "verdict: CUTS_ACROSS — formal spans dyadic↔triadic (commit gate vs convey/handoff); informal spans dyadic↔triadic (lateral idle vs back-channel/ring); alignment=0.333; distinction cuts across the verdict",
+        "reading: CUTS_ACROSS — prescribed vs lateral is not a dyadic/triadic map; joint determination and cycles decide; #43–#45 pointers; construct-validity arc closable"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/formal_informal_cut/FINDINGS.md"
@@ -5578,13 +5593,13 @@
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (second human in S expands core):   SUPPORTED",
         "H2 (read-without-commit stays out):    SUPPORTED",
-        "H3 (full joint commit \u2192 algo \u03a6\u22653):     SUPPORTED",
-        "H4 (drop from commit \u2192 drop from core): SUPPORTED",
+        "H3 (full joint commit → algo Φ≥3):     SUPPORTED",
+        "H4 (drop from commit → drop from core): SUPPORTED",
         "verdict: COMMIT_READ_BOUNDARY",
-        "reading: COMMIT_READ_BOUNDARY \u2014 party enters core iff in S\u2019s determination and reads S; assist expands core; full \u2227-commit flips to algorithmacy \u03a6=3; dropping commit membership drops core membership"
+        "reading: COMMIT_READ_BOUNDARY — party enters core iff in S’s determination and reads S; assist expands core; full ∧-commit flips to algorithmacy Φ=3; dropping commit membership drops core membership"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/hmc_algo_boundary/FINDINGS.md"
@@ -5593,15 +5608,15 @@
       "name": "encoding-ladder-n5",
       "cmd": "python org_frontier/studies/encoding_ladder_n5/analyze_ladder.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (progressive assist expands, wholes dyadic): SUPPORTED",
         "H2 (read-without-commit stays out):             SUPPORTED",
-        "H3 (full joint bind \u2192 algo \u03a6\u22653, n_core=5):      SUPPORTED",
-        "H4 (drop from commit \u2192 drop from core):         SUPPORTED",
+        "H3 (full joint bind → algo Φ≥3, n_core=5):      SUPPORTED",
+        "H4 (drop from commit → drop from core):         SUPPORTED",
         "H5 (pre-boundary not yet algorithmacy):         SUPPORTED",
         "verdict: FULL_JOINT_FLIP",
-        "boundary_step: workers_AND_Cidle \u2192 algo_full_AND",
-        "reading: FULL_JOINT_FLIP \u2014 assist grows core 2\u21923\u21924 with dyadic wholes; literacy\u2192algorithmacy boundary is last outer party\u2019s commit into S (whole triadic \u03a6=4, n_core=5); COMMIT_READ_BOUNDARY holds at n=5"
+        "boundary_step: workers_AND_Cidle → algo_full_AND",
+        "reading: FULL_JOINT_FLIP — assist grows core 2→3→4 with dyadic wholes; literacy→algorithmacy boundary is last outer party’s commit into S (whole triadic Φ=4, n_core=5); COMMIT_READ_BOUNDARY holds at n=5"
       ],
       "timeout": 120,
       "source": "org_frontier/studies/encoding_ladder_n5/FINDINGS.md"
@@ -5610,15 +5625,15 @@
       "name": "encoding-ladder-n6",
       "cmd": "python org_frontier/studies/encoding_ladder_n6/analyze_ladder.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (flip + \u03a6=n\u22121 + same boundary):  SUPPORTED",
-        "H2 (\u03a6 saturates below n\u22121):         REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (flip + Φ=n−1 + same boundary):  SUPPORTED",
+        "H2 (Φ saturates below n−1):         REFUTED",
         "H3 (assist/boundary morphs at n=6): REFUTED",
         "COMMIT_READ_BOUNDARY:               HOLDS",
         "verdict: PHI_TRACKS_NM1",
-        "boundary_step: workers_AND_Cidle \u2192 algo_full_AND",
-        "phi_vs_nm1: \u03a6=5 = n\u22121",
-        "reading: PHI_TRACKS_NM1 \u2014 n=6 ladder same form as n=5; boundary workers_AND_Cidle \u2192 algo_full_AND; flip whole triadic n_core=6 \u03a6=5 (=n\u22121); COMMIT_READ_BOUNDARY holds"
+        "boundary_step: workers_AND_Cidle → algo_full_AND",
+        "phi_vs_nm1: Φ=5 = n−1",
+        "reading: PHI_TRACKS_NM1 — n=6 ladder same form as n=5; boundary workers_AND_Cidle → algo_full_AND; flip whole triadic n_core=6 Φ=5 (=n−1); COMMIT_READ_BOUNDARY holds"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/encoding_ladder_n6/FINDINGS.md"
@@ -5627,12 +5642,12 @@
       "name": "encoding-ladder-gates",
       "cmd": "python org_frontier/studies/encoding_ladder_gates/analyze_gates.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (flip + \u03a6=n\u22121 robust across gates): REFUTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (flip + Φ=n−1 robust across gates): REFUTED",
         "H2 (some gates stay dyadic at full bind): SUPPORTED",
         "H3 (assist path changes with gate):       SUPPORTED",
         "verdict: GATE_SPLITS_LADDER",
-        "reading: GATE_SPLITS_LADDER \u2014 AND/OR/NAND: flip \u03a6=n\u22121; parity XOR/XNOR: flip \u03a6\u226an\u22121; MAJ/MIXED: no triadic flip; assist breaks on XOR/XNOR"
+        "reading: GATE_SPLITS_LADDER — AND/OR/NAND: flip Φ=n−1; parity XOR/XNOR: flip Φ≪n−1; MAJ/MIXED: no triadic flip; assist breaks on XOR/XNOR"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/encoding_ladder_gates/FINDINGS.md"
@@ -5641,14 +5656,14 @@
       "name": "ladder-gate-properties",
       "cmd": "python org_frontier/studies/ladder_gate_properties/analyze_properties.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
-        "H1 (A \u2194 monotone\u2227extremal\u2227alldep):  SUPPORTED",
-        "H2 (B \u2194 affine\u2227alldep):             SUPPORTED",
-        "H3 (residual \u2192 C):                  SUPPORTED",
+        "faithful triad: triadic Φ=2.000000  PASS",
+        "H1 (A ↔ monotone∧extremal∧alldep):  SUPPORTED",
+        "H2 (B ↔ affine∧alldep):             SUPPORTED",
+        "H3 (residual → C):                  SUPPORTED",
         "H4 (weaker props fail to predict A): SUPPORTED",
         "verdict: MONO_EXTREMAL_VS_AFFINE",
         "accuracy: 16/16",
-        "reading: MONO_EXTREMAL_VS_AFFINE \u2014 A iff monotone\u2227wt\u2208{1,15}\u2227alldep; B iff affine\u2227alldep; else C; weaker canal/weight rules fail (CE: AND_negC/OR_negC/AND_negAB/OR_negAB)"
+        "reading: MONO_EXTREMAL_VS_AFFINE — A iff monotone∧wt∈{1,15}∧alldep; B iff affine∧alldep; else C; weaker canal/weight rules fail (CE: AND_negC/OR_negC/AND_negAB/OR_negAB)"
       ],
       "timeout": 180,
       "source": "org_frontier/studies/ladder_gate_properties/FINDINGS.md"
@@ -5657,7 +5672,7 @@
       "name": "ladder-gate-panel",
       "cmd": "python org_frontier/studies/ladder_gate_panel/analyze_panel.py",
       "expect": [
-        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "faithful triad: triadic Φ=2.000000  PASS",
         "H1 (rule holds on panel):     SUPPORTED",
         "H2 (counterexamples appear):  REFUTED",
         "H3 (refinement needed):       REFUTED",
@@ -5665,7 +5680,7 @@
         "accuracy: 448/448",
         "n_mismatch: 0",
         "n_ambiguous: 0",
-        "reading: RULE_HOLDS_PANEL \u2014 MONO_EXTREMAL_VS_AFFINE accuracy 448/448 on stratified panel; no counterexamples; no ambiguous \u03a6"
+        "reading: RULE_HOLDS_PANEL — MONO_EXTREMAL_VS_AFFINE accuracy 448/448 on stratified panel; no counterexamples; no ambiguous Φ"
       ],
       "timeout": 600,
       "source": "org_frontier/studies/ladder_gate_panel/FINDINGS.md"
@@ -5674,7 +5689,7 @@
       "name": "q214-triadic-classification",
       "cmd": "python -m org_frontier.questions.q214_triadic_classification.probe_triadic_classification",
       "expect": [
-        "control  conjunctive triad : triadic \u03a6=2.000000 PASS",
+        "control  conjunctive triad : triadic Φ=2.000000 PASS",
         "tertius_gaudens                  obstfeld2014    contingent   2.000",
         "tertius_iungens_integrating      obstfeld2005    necessary    0.000",
         "tertius_iungens_selfliquidating  obstfeld2005    reducible    0.000",
@@ -5861,10 +5876,10 @@
       "name": "q215-phi-family-robustness",
       "cmd": "python -m org_frontier.questions.q215_phi_family_robustness.probe_phi_family_robustness",
       "expect": [
-        "CTRL+ read-recipient triad                   4.0 \u03a6max=2.0000 BINDS    3.0 \u03a6max=3.5000 BINDS",
-        "E2    quorum 2-of-3                          4.0 \u03a6max=0.0000 FACTORS  3.0 \u03a6max=1.2688 BINDS",
-        "E4    rotation (4-cycle of copyists)         4.0 \u03a6max=2.0000 BINDS    3.0 \u03a6max=2.0000 BINDS",
-        "E8    maximal wiring (6 edges, no constants) 4.0 \u03a6max=0.0000 FACTORS  3.0 \u03a6max=0.6917 BINDS",
+        "CTRL+ read-recipient triad                   4.0 Φmax=2.0000 BINDS    3.0 Φmax=3.5000 BINDS",
+        "E2    quorum 2-of-3                          4.0 Φmax=0.0000 FACTORS  3.0 Φmax=1.2688 BINDS",
+        "E4    rotation (4-cycle of copyists)         4.0 Φmax=2.0000 BINDS    3.0 Φmax=2.0000 BINDS",
+        "E8    maximal wiring (6 edges, no constants) 4.0 Φmax=0.0000 FACTORS  3.0 Φmax=0.6917 BINDS",
         "H1 (quorum extremes law measure-robust): REFUTED",
         "H2 (rotation binds in both): CONFIRMED",
         "H4 (dispatch pair measure-robust both directions): CONFIRMED",

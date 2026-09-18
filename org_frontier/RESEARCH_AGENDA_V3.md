@@ -1,0 +1,94 @@
+# Research agenda v3 — questions only
+
+V2’s science cells are closed on `contrib` (topology #15–#20, estimation
+#21–#25 including #24 `HIDDEN_COLLAPSE_INTERMITTENT_CLIFF` on PR #749,
+omit/construct #42, construct validity #43–#46, formal #47–#50, plus the
+earlier beyond-binary / stoch-temporal / PE / AI lanes). This file lists
+**new** questions only — residuals of those arcs, and motifs V2 never
+named. No methods here. Numbered 1–16. Themes group them; each cites the
+V2 finding it grows from.
+
+Optional tooling leftover (M3 overlay subset-Φ fidelity on
+`third_party/pyphi_iit4_mv`) is **not** a V3 science cell unless a cell
+below is blocked without it.
+
+## A. Missing templates and determination algebra
+
+1. Beyond the five n=3 strict-mediation templates (relay / conjunctive /
+   additive / free / parity from V2 #27 / `template_coverage_census`),
+   does an **n=4 dual-mediator** census (series cascade, parallel
+   mediators, mediator-of-mediators) force a **sixth** template, or do
+   all triadic cores factor into products of the five?
+2. Is **threshold / majority** determination at n≥4 a new template, or
+   does it always collapse into the known redundancy-factors pattern
+   (probes #10/#67) once pivotality is lost — even under topologies that
+   restored triadicity for conjunctive hubs (V2 #15–#20)?
+3. Do **mixed-algebra seats** (one seat parity, one conjunctive) on a
+   single mediator produce a hybrid signature, or does the parity
+   blind-spot (V2 #4 `BLINDSPOT_SURVIVES_RADIX`) dominate the whole form?
+
+## B. Composed and hybrid topologies
+
+4. When **local conjunctive triads are composed on a cycle** (a necklace:
+   alternating hubs and shared parties), does the major complex merge
+   globally (generalizing V2 #16 `WIN` shared-mediator merge), recover a
+   known landmark (V2 #18 `DISCRETE_LANDMARKS` / #19
+   `NO_INTERMEDIATE_LAW`), or invent a new Φ law?
+5. Does a **ring-of-hubs** (hubs coupled as a ring, each hub serving a
+   private leaf set) combine ring-cap with hub-growth where V2 #17
+   `PICK_ONE` morphs failed, or does it also pick a landmark / collapse?
+6. Across **k>2 local triads sharing a single mediator** (the natural
+   lift of V2 #16), does merge Φ scale as k, as 2k, or saturate — and
+   does OR bridging still refuse merge?
+7. Is there a **hybrid feedforward+recurrent** seam (one recurrent cycle
+   feeding a feedforward chain) whose locus violates V2 #15’s
+   closure-decides-locus rule?
+
+## C. Scale morphs past n=6
+
+8. Does the omit cycle-type discriminant **morph again at n=7**, or does
+   the n=5→n=6 singleton→band shift (V2 #42 `SCALE_MORPHS`) stabilize
+   into a fixed band grammar?
+9. Do the discrete Φ atoms of V2 #18 / `interior_ring_pool` at n≤6
+   **sprout new interior atoms at n=7–8**, or only thicken existing
+   landmark multiplicities?
+10. Does the parity Φ = 2^(2−n) law (V2 #47/#115) remain exact under
+    **n>6 hub embeddings**, or do topology residuals appear once exact
+    enumeration is replaced by cut formulas alone?
+
+## D. Graded × topology and noise × structure
+
+11. On a **ring versus hub versus necklace** carrier, does graded commit
+    (V2 #2 `SHARP_CLASS_GRADED_PATH`) keep sharp class labels while Φ
+    grades, or does topology force class flips the fixed-hub panel
+    never saw?
+12. Does party-vs-mediator noise (V2 #7 `SAME_THRESHOLD_DIFF_CURVE`)
+    still share p*=0.5 when the carrier is a **composed necklace** or
+    **multi-hub span** rather than a single hub?
+
+## E. Validation bridges left open by V2 #45
+
+13. What is the **weakest Boolean render** of a real coordination log
+    that still recovers the conjunctive Φ=n−1 signature V2 #45 found
+    only under a forced hub — role counts alone, activity thresholds,
+    or institutional elicits?
+14. Can a **survey / Wageman-style instrument** (V2 #44) be paired with
+    an in-silico form so that measured W predicts not only the verdict
+    class but the **Φ landmark** (ring-4 vs hub-(n−1) vs pool)?
+
+## F. Estimation residuals after V2 #24
+
+15. Under V2 #24’s role-gated collapse (hide party kills MI screen; hide
+    mediator does not), does a **topology-aware imputer** (ring vs hub
+    prior) restore AUC, or is party absence a hard information cut no
+    prior repairs?
+16. Does the intermittent-observation **cliff at δ=0** soften under
+    **correlated party duty cycles** (two parties observed on
+    alternating slots), or does any zero-duty party recreate the
+    cliff?
+
+---
+
+**First cell run on this agenda:** #4 — local-triad necklace composition
+(`studies/local_triad_necklace/`). See that study’s FINDINGS for the
+verdict token and the short lane note `COMPOSED_TOPOLOGY_ARC.md`.
