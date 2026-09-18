@@ -1,0 +1,6 @@
+family,k,bridge,name,n,structure,whole_phi_mip,core,core_phi,n_core,full_core,seconds
+control,1,n/a,triad,3,triadic,2.0,W|S|C,2.0,3,1,0.11
+shared_S,2,AND,k2_AND,5,triadic,4.0,W1|C1|W2|C2|S,4.0,5,1,4.82
+shared_S,2,OR,k2_OR,5,dyadic,0.0,,nan,0,0,0.52
+shared_S,3,AND,k3_AND,7,triadic,6.0,W1|C1|W2|C2|W3|C3|S,6.0,7,1,390.27
+shared_S,3,OR,k3_OR,7,dyadic,0.0,,nan,0,0,10.18

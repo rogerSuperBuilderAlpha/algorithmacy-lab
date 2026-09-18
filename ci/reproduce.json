@@ -4602,6 +4602,21 @@
       "source": "org_frontier/studies/ring_of_hubs/FINDINGS.md"
     },
     {
+      "name": "shared-mediator-k",
+      "cmd": "python org_frontier/studies/shared_mediator_k/analyze_shared_k.py",
+      "expect": [
+        "H1 (triad + k=2 AND merge Φ=4 + k=2 OR refuse): SUPPORTED",
+        "H2 (k=3 OR refuses full merge):              SUPPORTED",
+        "H3 (AND merge Φ scaling named):             SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "scale=scale_2k",
+        "verdict: SCALE_2K_OR_REFUSES",
+        "reading: SCALE_2K_OR_REFUSES — shared-mediator AND merge Φ = 2k for k=1,2,3 (2,4,6); OR refuses full merge at k=2 and k=3 (lift of V2 #16 WIN)"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/shared_mediator_k/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

@@ -46,6 +46,9 @@ below is blocked without it.
 6. Across **k>2 local triads sharing a single mediator** (the natural
    lift of V2 #16), does merge Φ scale as k, as 2k, or saturate — and
    does OR bridging still refuse merge?
+   **Answered — SCALE_2K_OR_REFUSES.** AND merge Φ = 2k for k=1,2,3
+   (Φ=2,4,6; full cores); OR refuses full merge at k=2 and k=3. See
+   `studies/shared_mediator_k/`.
 7. Is there a **hybrid feedforward+recurrent** seam (one recurrent cycle
    feeding a feedforward chain) whose locus violates V2 #15’s
    closure-decides-locus rule?
@@ -97,5 +100,6 @@ below is blocked without it.
 
 **First cells run on this agenda:** #4
 (`studies/local_triad_necklace/` → `COMPOSE_LANDMARK_OR_COLLAPSE`); #5
-(`studies/ring_of_hubs/` → `FACTORS_NO_COMBINE`). Lane note
+(`studies/ring_of_hubs/` → `FACTORS_NO_COMBINE`); #6
+(`studies/shared_mediator_k/` → `SCALE_2K_OR_REFUSES`). Lane note
 `COMPOSED_TOPOLOGY_ARC.md`.

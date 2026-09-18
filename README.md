@@ -355,6 +355,7 @@ Multi-experiment batteries on one theme.
 - **[Same-indeg Φ=8 vs 9 band at n=6](org_frontier/studies/same_indeg_band_n6/README.md)** — n=6 fixed_k=4, **Φ=9 iff cycles ∈ {(5,), (2,3)}**; otherwise **Φ=8**. All six
 - **[Sample complexity of the cheap screen (agenda #23)](org_frontier/studies/sample_complexity_screen/README.md)** — family, mean pairwise MI already hits AUC **0.97 at T=125** (noise 0.08
 - **[Scaling laws closed-form (#47)](org_frontier/studies/scaling_laws_closed_form/README.md)** — See [`../mincut_mip/`](../mincut_mip/) and `FORMAL_THEORY_ARC.md`
+- **[Shared-mediator k-lift (V3 #6)](org_frontier/studies/shared_mediator_k/README.md)** — merge under AND with **Φ = 2k** (k=1,2,3 → Φ=2,4,6; full cores). OR
 - **[Shared-mediator ternary (beyond-binary)](org_frontier/studies/shared_mediator_ternary/README.md)** — {0,1}^5 cube. Exact **IIT-4.0** on this lab's PyPhi pin **cannot** ingest a
 - **[Small-world rewire vs hierarchy (agenda #17)](org_frontier/studies/small_world_vs_hierarchy/README.md)** — ring's size-independent Φ = 4 cap with hub growth (Φ = n−1). Interior morphs
 - **[Spanning mediator atop multi-hub (agenda #20)](org_frontier/studies/spanning_mediator_multihub/README.md)** — raise Φ beyond the pool ceiling. Under recurrent hub-span it **recreates the
