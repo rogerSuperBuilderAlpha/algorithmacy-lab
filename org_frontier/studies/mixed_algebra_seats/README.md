@@ -11,4 +11,5 @@ python org_frontier/studies/mixed_algebra_seats/analyze_mixed_seats.py
 
 ## Result in one line
 
-*(filled after run)*
+**BLINDSPOT_DOMINATES** — mixed seats never restore conjunctive whole-form
+Φ; form stays in the parity band or factors (no hybrid).

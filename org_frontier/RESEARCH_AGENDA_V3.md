@@ -33,6 +33,9 @@ below is blocked without it.
 3. Do **mixed-algebra seats** (one seat parity, one conjunctive) on a
    single mediator produce a hybrid signature, or does the parity
    blind-spot (V2 #4 `BLINDSPOT_SURVIVES_RADIX`) dominate the whole form?
+   **Answered — BLINDSPOT_DOMINATES.** Mixed seats never restore a
+   conjunctive whole-form Φ; the form stays in the parity band or
+   factors. See `studies/mixed_algebra_seats/`.
 
 ## B. Composed and hybrid topologies
 
@@ -115,5 +118,6 @@ below is blocked without it.
 (`studies/shared_mediator_k/` → `SCALE_2K_OR_REFUSES`); #7
 (`studies/hybrid_ff_recurrent_seam/` → `CLOSURE_HOLDS_HYBRID`); #1
 (`studies/dual_mediator_template_census/` → `FACTORS_INTO_FIVE`); #2
-(`studies/threshold_majority_template/` → `COLLAPSES_TO_REDUNDANCY`).
+(`studies/threshold_majority_template/` → `COLLAPSES_TO_REDUNDANCY`); #3
+(`studies/mixed_algebra_seats/` → `BLINDSPOT_DOMINATES`).
 Lane note `COMPOSED_TOPOLOGY_ARC.md`.

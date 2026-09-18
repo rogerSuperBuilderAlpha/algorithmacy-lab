@@ -28,11 +28,13 @@ None — #4–#7 closed.
 |---|---|---|
 | #1 | [`dual_mediator_template_census/`](studies/dual_mediator_template_census/) | **FACTORS_INTO_FIVE** |
 | #2 | [`threshold_majority_template/`](studies/threshold_majority_template/) | **COLLAPSES_TO_REDUNDANCY** |
+| #3 | [`mixed_algebra_seats/`](studies/mixed_algebra_seats/) | **BLINDSPOT_DOMINATES** |
 
-n=4 dual-mediator: no sixth template. Threshold/majority at n≥4 is not a
-new template — intermediate k factors even on AND-restoring carriers.
+n=4 dual-mediator: no sixth template. Threshold/majority factors. Mixed
+parity+conjunctive seats: parity blind-spot dominates whole-form Φ (no
+hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-**V3 #3** (mixed-algebra seats: parity + conjunctive on one mediator).
-M3 overlay only if a chosen cell is blocked without it.
+Scale lane **V3 #8** (omit cycle-type morph at n=7) or graded×topo
+**V3 #11**. M3 overlay only if a chosen cell is blocked without it.
