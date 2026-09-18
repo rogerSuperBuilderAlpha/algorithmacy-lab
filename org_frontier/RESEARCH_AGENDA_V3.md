@@ -52,6 +52,10 @@ below is blocked without it.
 7. Is there a **hybrid feedforward+recurrent** seam (one recurrent cycle
    feeding a feedforward chain) whose locus violates V2 #15’s
    closure-decides-locus rule?
+   **Answered — CLOSURE_HOLDS_HYBRID.** Hybrid AND seams keep the major
+   complex inside the recurrent zone (FF tail excluded); V2 #15’s
+   closure-decides-locus survives. OR relocates onto the FF pair alone.
+   See `studies/hybrid_ff_recurrent_seam/`.
 
 ## C. Scale morphs past n=6
 
@@ -101,5 +105,6 @@ below is blocked without it.
 **First cells run on this agenda:** #4
 (`studies/local_triad_necklace/` → `COMPOSE_LANDMARK_OR_COLLAPSE`); #5
 (`studies/ring_of_hubs/` → `FACTORS_NO_COMBINE`); #6
-(`studies/shared_mediator_k/` → `SCALE_2K_OR_REFUSES`). Lane note
+(`studies/shared_mediator_k/` → `SCALE_2K_OR_REFUSES`); #7
+(`studies/hybrid_ff_recurrent_seam/` → `CLOSURE_HOLDS_HYBRID`). Lane note
 `COMPOSED_TOPOLOGY_ARC.md`.

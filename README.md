@@ -322,7 +322,7 @@ Multi-experiment batteries on one theme.
 - **[Unconstrained n=4 holistic residual (F26 asterisk fix)](org_frontier/studies/holistic_residual_n4_unconstrained/README.md)** — unconstrained k=2 n=4 forms (seed 40), Probe-131 RF miss rate = **7.5% (75/1000)**, above the
 - **[Unconstrained n=5 holistic residual](org_frontier/studies/holistic_residual_n5_unconstrained/README.md)** — forms (seed 50), Probe-131 RF miss rate = **9.0% (45/500)**, inside the pre-registered hold band
 - **[Hub floor uniqueness (#48)](org_frontier/studies/hub_floor_uniqueness/README.md)** — form achieving Φ = n−1 at the 2(n−1) edge floor. On hub topology the
-- **[Hybrid feedforward+recurrent seam (V3 #7)](org_frontier/studies/hybrid_ff_recurrent_seam/README.md)**
+- **[Hybrid feedforward+recurrent seam (V3 #7)](org_frontier/studies/hybrid_ff_recurrent_seam/README.md)** — AND chain keeps the major complex **inside the recurrent zone**; the FF
 - **[Joint role-target grain on indeg (0,0,0,1,2,3)](org_frontier/studies/indeg_000123_grain/README.md)** — z_targets vary. Joint subtypes are Φ-pure:
 - **[Role-target grain on indeg (0,0,1,1,1,3)](org_frontier/studies/indeg_001113_grain/README.md)** — ((2,),1) **mixes** Φ=6/12 until split by **z_targets**. t_targets is
 - **[Finer grain on MIX indeg (0,0,1,1,2,2)](org_frontier/studies/indeg_002122_grain/README.md)** — Within indeg **(0,0,1,1,2,2)**: **t_targets=(1,1) ⇒ Φ=12** (n_core=4);

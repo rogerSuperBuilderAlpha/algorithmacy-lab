@@ -209,10 +209,18 @@ def main():
         rows.append(run_cell(name, labels, rules, zone, meta))
 
     path = os.path.join(RESULTS, "panel.csv")
+    fields = []
+    seen = set()
+    for r in rows:
+        for k in r:
+            if k not in seen:
+                seen.add(k)
+                fields.append(k)
     with open(path, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()
-        w.writerows(rows)
+        for r in rows:
+            w.writerow({k: r.get(k, "") for k in fields})
 
     print("HYBRID FF+RECURRENT SEAM — V3 #7")
     print("hypotheses fixed in hypotheses.md before this run")

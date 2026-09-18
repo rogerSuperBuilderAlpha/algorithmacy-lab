@@ -4617,6 +4617,21 @@
       "source": "org_frontier/studies/shared_mediator_k/FINDINGS.md"
     },
     {
+      "name": "hybrid-ff-recurrent-seam",
+      "cmd": "python org_frontier/studies/hybrid_ff_recurrent_seam/analyze_hybrid_seam.py",
+      "expect": [
+        "H1 (triad Φ=2 + hub_L2 top-local):           SUPPORTED",
+        "H2 (hybrid AND locus named):               SUPPORTED",
+        "H3 (OR seam locus reported):               SUPPORTED",
+        "H4 (panel closed):                         SUPPORTED",
+        "and_panel=AND_HOLDS",
+        "verdict: CLOSURE_HOLDS_HYBRID",
+        "reading: CLOSURE_HOLDS_HYBRID — hybrid FF+recurrent AND seams keep the major complex inside the recurrent zone (FF tail excluded); V2 #15 closure-decides-locus survives the hybrid"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/hybrid_ff_recurrent_seam/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

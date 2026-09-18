@@ -11,4 +11,5 @@ python org_frontier/studies/hybrid_ff_recurrent_seam/analyze_hybrid_seam.py
 
 ## Result in one line
 
-*(filled after run)*
+**CLOSURE_HOLDS_HYBRID** — hybrid AND seams keep the major complex in the
+recurrent zone; FF tail excluded (V2 #15 rule survives).
