@@ -1,0 +1,7 @@
+slug,class,predicted,structure,max_phi,core,core_phi,match,notes
+F_commit_gate,formal,triadic,triadic,2.0,"{W,S,C}",2.0,True,institutional AND gate; parties read S only
+F_convey_gate,formal,triadic,dyadic,0.0,"{W,S}",2.0,False,"institutional convey; prescribed channel, no joint commit"
+F_hierarchy_handoff,formal,triadic,dyadic,0.0,{C},1.0,False,acyclic prescribed hand-off
+I_lateral_idle_S,informal,dyadic,dyadic,0.0,"{W,C}",2.0,True,W↔C mutual adjustment; S idle
+I_backchannel,informal,dyadic,triadic,1.0,"{W,C}",2.0,False,convey + lateral OR back-channel
+I_copy_ring,informal,dyadic,triadic,2.0,"{W,S,C}",2.0,False,cyclic copy ring (emergent loop)

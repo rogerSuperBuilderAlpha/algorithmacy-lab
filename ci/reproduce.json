@@ -4609,6 +4609,22 @@
       "source": "org_frontier/studies/conjunctive_law_real_render/FINDINGS.md"
     },
     {
+      "name": "formal-informal-cut",
+      "cmd": "python org_frontier/studies/formal_informal_cut/analyze_cut.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (formal\u2194triadic / informal\u2194dyadic): REFUTED",
+        "H2 (cuts across):                      SUPPORTED",
+        "H3 (partial alignment only):           SUPPORTED",
+        "verification grid:    PASS",
+        "best next:            outside CV \u2014 agenda J #47 scaling-law closed forms",
+        "verdict: CUTS_ACROSS \u2014 formal spans dyadic\u2194triadic (commit gate vs convey/handoff); informal spans dyadic\u2194triadic (lateral idle vs back-channel/ring); alignment=0.333; distinction cuts across the verdict",
+        "reading: CUTS_ACROSS \u2014 prescribed vs lateral is not a dyadic/triadic map; joint determination and cycles decide; #43\u2013#45 pointers; construct-validity arc closable"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/formal_informal_cut/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

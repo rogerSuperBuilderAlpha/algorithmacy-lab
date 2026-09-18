@@ -304,6 +304,7 @@ Multi-experiment batteries on one theme.
 - **[Endogenous coalition (#30)](org_frontier/studies/endogenous_coalition/README.md)** — maximize own major-complex membership, pure Nash are **all-out** and
 - **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
+- **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
 - **[Gig substitution (#35)](org_frontier/studies/gig_substitution/README.md)** — individual worker drops from the major complex at the **first positive
 - **[Graded commit verdict (agenda #2)](org_frontier/studies/graded_commit_verdict/README.md)** — (`S'=min(W,C)`, ternary) keeps **discrete** structure labels

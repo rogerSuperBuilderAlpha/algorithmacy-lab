@@ -237,6 +237,9 @@ runnable design yet. Themes group them; numbering is 1–50.
    forced #116 hub on same role counts recovers Φ=n−1 at n=3,4. See
    `studies/conjunctive_law_real_render/`; `CONSTRUCT_VALIDITY_ARC.md`.
 46. Does the verdict align with the formal-vs-informal coordination distinction, or cut across it?
+   **Answered — CUTS_ACROSS.** Formal and informal each span
+   dyadic↔triadic (alignment 0.333). See `studies/formal_informal_cut/`;
+   `CONSTRUCT_VALIDITY_ARC.md` (lane closable).
 
 ## J. Formal and theoretical
 

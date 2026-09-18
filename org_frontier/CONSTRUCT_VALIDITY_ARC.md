@@ -1,9 +1,8 @@
-# Construct-validity arc — #43–#45
+# Construct-validity arc — #43–#46 closed
 
 Spine for `RESEARCH_AGENDA_50_V2` I (#43–#46) on PR #739. Exact binary
-IIT-4.0 Φ unless a later item truly needs the multivalued pin.
-Beyond-binary / PE / AI / formal / stoch / estimation / construct-omit
-stay closed except as pointers.
+IIT-4.0 Φ. Beyond-binary / PE / AI / formal / stoch / estimation /
+construct-omit stay closed except as pointers.
 
 ## Verdicts
 
@@ -12,25 +11,27 @@ stay closed except as pointers.
 | 43 | `thompson_verdict_bridge/` | **PARTIAL_ALIGNMENT** |
 | 44 | `wageman_ti_verdict/` | **WAGEMAN_PREDICTS_VERDICT** |
 | 45 | `conjunctive_law_real_render/` | **LAW_ONLY_UNDER_STRONG_MODEL** |
-| 46 | formal-vs-informal coordination cut | open |
+| 46 | `formal_informal_cut/` | **CUTS_ACROSS** |
 
-## Synthesis so far
+## Synthesis
 
-Thompson *labels* are not a clean map (#43). A Wageman-style
-*intensity* score on connectivity separates dyadic/triadic on designed
-tasks (#44) but does not grade Φ inside one CM. The conjunctive Φ=n−1
-*law* (#116) does not show up in institutional or fitted OSS Boolean
-renders as a scaling signature: n=4 elicits sit at MC Φ=2 with
-\|core\|<n; only forcing hub wiring recovers n−1 (#45).
+Org-theory *labels* do not transfer cleanly onto the verdict. Thompson
+types align only loosely (#43). Formal vs informal — prescribed channel
+vs lateral adjustment — **cuts across** dyadic/triadic: each class
+spans both structures (#46). What tracks the structure class on designed
+forms is a survey-echo *intensity* score on connectivity (#44), not Φ
+inside one CM. The conjunctive Φ=n−1 *scaling law* does not appear in
+institutional OSS Boolean renders unless hub wiring is forced (#45).
 
-Construct validity so far: survey-echo intensity tracks structure
-class; type names and scaling laws do not transfer off the shelf from
-real governance elicits.
+**Lane science is closable.** The bridges that hold are intensity→class
+on designed tasks; the bridges that fail or only hold under strong
+modeling are type names, formal/informal carving, and off-the-shelf
+scaling-law visibility in real elicits.
 
-## Best next
+## Best next (outside CV)
 
-**#46** — Does the verdict align with the formal-vs-informal
-coordination distinction, or cut across it?
+Agenda **J #47** — prove scaling laws closed-form from the MIP — or
+other open non-CV lanes.
 
 ## Reproduce
 
@@ -38,4 +39,5 @@ coordination distinction, or cut across it?
 python org_frontier/studies/thompson_verdict_bridge/analyze_thompson.py
 python org_frontier/studies/wageman_ti_verdict/analyze_wageman.py
 python org_frontier/studies/conjunctive_law_real_render/analyze_render.py
+python org_frontier/studies/formal_informal_cut/analyze_cut.py
 ```
