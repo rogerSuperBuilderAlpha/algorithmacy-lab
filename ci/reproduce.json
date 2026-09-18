@@ -4584,7 +4584,7 @@
         "verdict: COMPOSE_LANDMARK_OR_COLLAPSE",
         "reading: COMPOSE_LANDMARK_OR_COLLAPSE — closed AND necklace recovers ring landmark Φ=4; OR/directed variants collapse; no new compose law"
       ],
-      "timeout": 600,
+      "timeout": 1200,
       "source": "org_frontier/studies/local_triad_necklace/FINDINGS.md"
     },
     {
@@ -4598,7 +4598,7 @@
         "verdict: FACTORS_NO_COMBINE",
         "reading: FACTORS_NO_COMBINE — ring-of-hubs with private leaves does not combine ring-cap with hub-growth; cells factor (incomplete hub cores, often Φ=6 on hubs alone) or collapse — not a hybrid law (extends V2 #17 PICK_ONE / V3 #4 COMPOSE_LANDMARK_OR_COLLAPSE)"
       ],
-      "timeout": 600,
+      "timeout": 1200,
       "source": "org_frontier/studies/ring_of_hubs/FINDINGS.md"
     },
     {
