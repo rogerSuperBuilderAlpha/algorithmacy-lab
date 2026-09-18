@@ -1,0 +1,14 @@
+name,role,note,structure,whole_phi,phi,primary_core,witnesses,n_witnesses,p1_capture,p2_capture,compete,one_wins,span,w_in,drop
+ctrl_p1,capture,W only on platform 1; S2/C2 idle,dyadic,0.0,2.0,W|S1|C1,W|S1|C1,1,True,False,False,True,False,True,False
+ctrl_p2,capture,W only on platform 2; S1/C1 idle,dyadic,0.0,2.0,W|S2|C2,W|S2|C2,1,False,True,False,True,False,True,False
+either_OR,compete,W'=S1∨S2; each Si'=W∧Ci (substitutable),dyadic,0.0,2.0,W|S1|C1,S2|C2;W|S1|C1;W|S2|C2,3,True,True,True,False,False,True,False
+xor_W,compete,W'=S1⊕S2 parity rivalry,dyadic,0.0,2.0,W|S1|C1,S2|C2;W|S1;W|S1|C1;W|S2;W|S2|C2,5,True,True,True,False,False,True,False
+prefer_p1,capture,W←S1 only; both platforms alive,dyadic,0.0,2.0,W|S1|C1,S2|C2;W|S1|C1,2,True,False,False,True,False,True,False
+prefer_p2,capture,W←S2 only; both platforms alive,dyadic,0.0,2.0,S2|C2,S2|C2;W|S2|C2,2,False,True,False,True,False,True,False
+extract_p1,capture,S1'=W extractive; W responds either,dyadic,0.0,2.0,W|S1,S2|C2;W|S1,2,True,False,False,True,False,True,False
+extract_p2,capture,S2'=W extractive; W responds either,dyadic,0.0,2.0,W|S2,S1|C1;W|S2,2,False,True,False,True,False,True,False
+span_joint,span,W'=S1∧S2; Ci'=W cross-read,triadic,2.0,2.0,W|S1|C1|S2|C2,W|S1|C1|S2|C2,1,False,False,False,False,True,True,False
+cross_read,span,"W'=S1∧S2; C1←S2, C2←S1",triadic,3.0,3.0,W|S1|C1|S2|C2,W|S1|C1|S2|C2,1,False,False,False,False,True,True,False
+both_AND,span,multihome_both analogue (Ci←Si),triadic,2.0,2.0,S2|C2,S2|C2;W|S1|C1|S2|C2,2,False,False,False,False,True,True,False
+w_sticky,drop,W sticky (ignores both platforms),dyadic,0.0,2.0,S2|C2,S2|C2,1,False,False,False,False,False,False,True
+w_spectator,drop,W spectator; platforms ignore W,dyadic,0.0,2.0,S2|C2,S2|C2,1,False,False,False,False,False,False,True

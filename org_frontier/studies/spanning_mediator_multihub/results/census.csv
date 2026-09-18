@@ -1,0 +1,16 @@
+name,family,mode,n_hubs,n_parties,n,structure,whole_phi_mip,core,core_phi,n_core,full_core,T_in_core,hub_in_core,leaf_in_core,seconds
+pool4,pool,,,,4,triadic,12.000000,x0|x1|x2|x3,12.000000,4,True,False,False,False,0.69
+pool5,pool,,,,5,triadic,20.000000,x0|x1|x2|x3|x4,20.000000,5,True,False,False,False,5.35
+mh4_m2,multihub,base,2,2,4,triadic,4.000000,H0|H1|P1,6.000000,3,False,False,True,True,0.7
+mh5_m2,multihub,base,2,3,5,triadic,6.000000,H0|H1|P0|P1|P2,6.000000,5,True,False,True,True,5.27
+mh5_m3,multihub,base,3,2,5,triadic,6.000000,H0|H1|H2|P1,12.000000,4,False,False,True,True,5.47
+shared_S_AND,shared_S_AND,AND,,,5,triadic,4.000000,W1|C1|W2|C2|S,4.000000,5,True,True,False,True,4.92
+span_recurrent_2h1p,span_recurrent,recurrent,2,1,4,triadic,4.000000,H0|H1|P0,6.000000,3,False,False,True,True,0.73
+span_ff_2h1p,span_ff,ff,2,1,4,dyadic,0.000000,H0|H1|P0,6.000000,3,False,False,True,True,0.09
+span_full_2h1p,span_full,full,2,1,4,triadic,12.000000,T|H0|H1|P0,12.000000,4,True,True,True,True,0.7
+span_recurrent_2h2p,span_recurrent,recurrent,2,2,5,triadic,6.000000,T|H0|H1|P0|P1,6.000000,5,True,True,True,True,5.2
+span_ff_2h2p,span_ff,ff,2,2,5,dyadic,0.000000,H0|H1|P1,6.000000,3,False,False,True,True,0.38
+span_full_2h2p,span_full,full,2,2,5,triadic,6.000000,T|H0|H1|P1,12.000000,4,False,True,True,True,5.16
+span_recurrent_3h1p,span_recurrent,recurrent,3,1,5,triadic,6.000000,H0|H1|H2|P0,12.000000,4,False,False,True,True,5.16
+span_ff_3h1p,span_ff,ff,3,1,5,dyadic,0.000000,H0|H1|H2|P0,12.000000,4,False,False,True,True,0.39
+span_full_3h1p,span_full,full,3,1,5,triadic,20.000000,T|H0|H1|H2|P0,20.000000,5,True,True,True,True,5.23

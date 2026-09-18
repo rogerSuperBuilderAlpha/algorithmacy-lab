@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,verdict,reading
+SUPPORTED,SUPPORTED,REFUTED,SUPPORTED,SUPPORTED,ROLE_TARGETS_LAW,"ROLE_TARGETS_LAW — MIX dissolved: t_targets=(1,1)⇒Φ=12; within (3,), z_targets=(2,2)⇒Φ=8 else Φ=6; all subtypes pure"

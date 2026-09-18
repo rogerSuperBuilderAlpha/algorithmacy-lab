@@ -1,0 +1,25 @@
+# Borning, A., & Muller, M. (2012). Next steps for value sensitive design. *Proceedings of CHI 2012*, 1125–1134.
+
+**Identifier:** doi:10.1145/2207676.2208560 · **Read depth:** full_text (author preprint at homes.cs.washington.edu, paginated 1–10; page numbers below are the preprint's) · **Source-tier:** peer-reviewed, top venue (CHI); position essay by a VSD co-founder and an IBM Research participatory-design scholar · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders · **Relation last checked:** 2026-09-18
+
+## What it argues
+
+VSD "overclaims" (p. 1), and the overclaiming inhibits adoption. Four repairs: drop the position that certain values are universal, since "a universal design ... that works for all cultures seems like a chimera" (p. 3), and take a pluralistic stance instead; contextualise the value lists as "typical values from a liberal and relatively privileged Western perspective" (p. 4); give participants their own voice in reports to avoid "unintentional ventriloquism" (p. 5); and make the researchers' own standpoint and funding visible. Two passages carry the weight for this project. On what VSD should commit to, the authors "suggest that VSD commit to just those values that are essential to making VSD itself work: namely, pluralism or inclusivity (necessary to do the analysis of direct and indirect stakeholders well), plus openness and transparency" (p. 5), and they route everything else through the triad of "explicitly supported values, stakeholder values, and designer values" (p. 5). On power, they recall that "VSD originated in part in trying to apply participatory design in contexts for which PD methods at the time were ill-suited due, for example, to a lack of a clear organizational boundary, such as applying PD methods to browser design, or in today's world, Facebook ... in the process, some of PD's core commitments to co-design and sharing power were weakened, and instead power is back in the hands of the researchers" (p. 6). They also note that a published UrbanSim "check on allowing funding and other pragmatic considerations to unduly influence the implementation priorities ... leaves invisible exactly who invokes this check" (p. 7), and they lift a post-colonial question for VSD: "how are values-based decisions made and enacted when their impact is felt by people who are not recognized as design-makers or analysts?" (p. 8).
+
+## Relation to the argument
+
+This is the founder's own answer to the pass's central question, and it is no. VSD as Borning would have it commits to procedure — pluralism, openness, transparency — and to nothing substantive; adjudication between an operator's extraction value and a coopted party's is delegated to whoever sets the "explicitly supported values" of a given project, which in commissioned work is the operator. The Facebook passage is sharper still: VSD's stakeholder model was built precisely for the case with no organisational boundary — the platform case — and the price of that generality was PD's power-sharing. So the direct/indirect distinction was never designed to carry a power analysis; the authors say an organisational power structure "is often orthogonal" to it (Friedman, Kahn and Borning 2006, §6.2, which this paper builds on). For RQ5 that settles the relation as complement rather than rival: VSD supplies a process for choosing whose values the seam serves and openly lacks the rule for choosing against the operator; the affordances supply the seam. The paper does not cut against any affordance.
+
+## Caution
+
+A position essay with no empirical content beyond a count of ACM papers mentioning "human values" (20 in 2000 to 113 in 2010). Both authors are insiders proposing incremental repair, and they explicitly decline to make co-design or power-sharing a core VSD commitment ("we do not go so far," p. 2). Nothing here addresses automated intermediaries, two-party mediation, or contestation.
+
+---
+
+## S2 adversarial verification (2026-09-18)
+
+**Verdict:** confirmed
+
+**What I checked:** Downloaded the author preprint from homes.cs.washington.edu (10 pp.) and checked every quotation and preprint page number, plus the ACM paper count.
+
+**Findings:** All quotations are verbatim and correctly paginated in the preprint: "overclaims" (pp. 1–2), "seems like a chimera" (p. 3), "liberal and relatively privileged Western perspective" (p. 4), "unintentional ventriloquism" and the "just those values that are essential to making VSD itself work" commitment and the explicitly-supported/stakeholder/designer triad (p. 5), the participatory-design/Facebook passage (p. 6; the card's ellipsis covers "(Also see [15].) However,"), "leaves invisible exactly who invokes this check" (p. 7), the post-colonial question (p. 8) and "we do not go so far" (p. 2). The count "from 20 in 2000 to 113 in 2010" is on p. 2 (with r = 0.92). The relation-to-argument section attributes the "often orthogonal" line to Friedman, Kahn and Borning 2006 §6.2, not to this paper, which is correct (see friedman2006.md, verified separately).

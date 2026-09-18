@@ -1,6 +1,6 @@
 IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
 ====================================================================================
-  entries: 51   instrument: bypass-counterfactual (classifier/contingency.py)
+  entries: 54   instrument: bypass-counterfactual (classifier/contingency.py)
   --------------------------------------------------------------------------------
   entry                  domain         constraint_type        class       margin
   car_dealer             auto retail    franchise law          contingent   2.000
@@ -54,8 +54,11 @@ IRREDUCIBILITY CATALOG — necessary and contingent irreducible triads
   newspaper_classifieds  media          none (Craigslist opene reducible    0.000
   indie_record_label     music          none (direct distribut reducible    0.000
   retail_middleman_dtc   retail         none (DTC brands)      reducible    0.000
+  allocate_exactly_one   resource alloc none (XOR commit)      necessary   -1.500
+  require_agreement_xnor dual control   none (XNOR commit)     necessary   -1.500
+  single_winner_match    matching       none (exclusive match) necessary   -1.500
   --------------------------------------------------------------------------------
-  by class: necessary=13  contingent=25  partial=7  reducible=6
-  necessary vs contingent: 13 vs 25
+  by class: necessary=16  contingent=25  partial=7  reducible=6
+  necessary vs contingent: 16 vs 25
   all entries classify as cataloged: True
 ====================================================================================

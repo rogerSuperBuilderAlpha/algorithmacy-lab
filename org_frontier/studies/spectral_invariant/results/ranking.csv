@@ -1,0 +1,12 @@
+feature,class,auc,orient,rho_phi
+mean_mi,coupling,0.774545,-1,0.596896
+tc_per_node,coupling,0.774545,-1,0.593998
+abs_oinfo,coupling,0.672727,-1,0.225005
+adj_spectral_radius,spectral,0.849091,1,0.753974
+lap_lambda2,spectral,0.636364,1,0.573299
+lap_lambda_max,spectral,0.501818,-1,-0.191752
+lap_gap,spectral,0.647273,-1,0.373446
+graph_energy,spectral,0.803636,1,0.638909
+vn_entropy,spectral,0.518182,1,0.275133
+P_second_mod,spectral,0.860000,-1,0.638326
+P_spectral_gap,spectral,0.892727,1,0.669212

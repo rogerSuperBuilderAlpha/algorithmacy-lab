@@ -1,0 +1,13 @@
+name,role,note,labels,structure,whole_phi,core,n_core,phi,protocol_triadic,P_in_core,no_human
+relay,conveyor,P forwards A→B,APB,dyadic,0.0,A,1,1.0,False,False,True
+broadcast,conveyor,P self-loop; agents read P,APB,dyadic,0.0,P,1,1.0,False,True,True
+read_not_in_commit,COMMIT_READ,"P←A only; A,B read P",APB,dyadic,0.0,A|P,2,2.0,False,True,True
+side_channel,bypass,A↔B direct; P idle,APB,dyadic,0.0,A|B,2,2.0,False,False,True
+blackboard,weak,P aggregates; agents ignore P,APB,dyadic,0.0,B,1,1.0,False,False,True
+turn_token,schedule,P flips token; agents follow,APB,dyadic,0.0,P,1,1.0,False,True,True
+joint_AND,commit,P←A∧B; both read P,APB,triadic,2.0,A|P|B,3,2.0,True,True,True
+joint_OR,commit,P←A∨B; both read P,APB,triadic,2.0,A|P|B,3,2.0,True,True,True
+joint_NAND,commit,P←¬(A∧B); both read P,APB,triadic,2.0,A|P|B,3,2.0,True,True,True
+joint_XOR,commit,P←A⊕B; both read P,APB,triadic,0.5,A|P|B,3,0.5,True,True,True
+offer_accept,negotiate,asymmetric accept morph,APB,triadic,1.0,P|B,2,2.0,False,True,True
+classical_WSC,contrast,"human-label joint commit (W,S,C)",WSC,triadic,2.0,W|S|C,3,2.0,True,True,False

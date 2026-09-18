@@ -12,7 +12,9 @@ root [`../AGENTS.md`](../AGENTS.md). This note covers what is local here.
   `PROBES.md` under one global numbering.
 - [`questions/`](questions/) — each question taken end to end, under `q<NN>_<slug>/`.
 - [`classifier/`](classifier/), [`corpus/`](corpus/), [`multiparty/`](multiparty/),
-  [`principal/`](principal/), [`proxy_bridge/`](proxy_bridge/) — the shared instrument and sub-studies.
+  [`principal/`](principal/), [`proxy_bridge/`](proxy_bridge/), [`cascade/`](cascade/) — the shared
+  instrument, sub-studies, and the lab-default **B=10% top-B% margin cascade** (cheap RF screen;
+  exact Φ on the uncertain tenth; see [`cascade/README.md`](cascade/README.md)).
 - [`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the standing synthesis. The empirical and bridge
   arms (`qualitative/`, `recurrence/`, `survey/`, `field/`, `cognition/`) carry their own nested notes.
 - Writing arms (IGI, hospitality, Lima, Slacker, Hegel, OT) are **not** in this package. They live

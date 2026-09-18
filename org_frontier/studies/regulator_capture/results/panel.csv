@@ -1,0 +1,24 @@
+name,role,note,structure,whole_phi,core,n_core,phi,kind,n_parties,R_in,oversight,capture,out,n_reads,reads,gated
+observer,out,#76 observer,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,,,
+veto_only,out,#76 static veto,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,,,
+veto_resp,oversight,#76 veto+responsive,triadic,3.0,W|S|C|R,4,3.0,oversight,2,True,True,False,False,,,
+extract_S_eq_R,capture,extractive S'=R; R'=S,dyadic,0.0,S|R,2,2.0,capture,0,True,False,True,False,,,
+extract_S_OR,capture,S'=R∨(W∧C); R'=S,dyadic,0.0,S|R,2,2.0,capture,0,True,False,True,False,,,
+R_full_gate,capture,S'=W∧C∧R; R'=W∧S∧C (full mutual),triadic,2.0,S|R,2,2.0,capture,0,True,False,True,False,,,
+two_joint_veto,coalition,#111 joint veto+responsive,triadic,4.0,W|S|C|R1|R2,5,4.0,oversight,2,True,True,False,False,,,
+gate_R=static,sweep,S=W∧C∧R; R reads static,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,0,static,True
+gate_R=W,sweep,S=W∧C∧R; R reads W,triadic,1.0,W|S|R,3,2.0,partial,1,True,False,False,False,1,W,True
+gate_R=S,sweep,S=W∧C∧R; R reads S,triadic,3.0,W|S|C|R,4,3.0,oversight,2,True,True,False,False,1,S,True
+gate_R=C,sweep,S=W∧C∧R; R reads C,triadic,1.0,S|C|R,3,2.0,partial,1,True,False,False,False,1,C,True
+gate_R=W∧S,sweep,S=W∧C∧R; R reads W∧S,triadic,2.0,W|S|C|R,4,2.0,oversight,2,True,True,False,False,2,W∧S,True
+gate_R=W∧C,sweep,S=W∧C∧R; R reads W∧C,triadic,2.0,W|S|C|R,4,2.0,oversight,2,True,True,False,False,2,W∧C,True
+gate_R=S∧C,sweep,S=W∧C∧R; R reads S∧C,triadic,2.0,W|S|C|R,4,2.0,oversight,2,True,True,False,False,2,S∧C,True
+gate_R=W∧S∧C,sweep,S=W∧C∧R; R reads W∧S∧C,triadic,2.0,S|R,2,2.0,capture,0,True,False,True,False,3,W∧S∧C,True
+nogate_R=static,sweep,S=W∧C; R reads static,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,0,static,False
+nogate_R=W,sweep,S=W∧C; R reads W,dyadic,0.0,S|C,2,2.0,out,1,False,False,False,True,1,W,False
+nogate_R=S,sweep,S=W∧C; R reads S,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,1,S,False
+nogate_R=C,sweep,S=W∧C; R reads C,dyadic,0.0,W|S,2,2.0,out,1,False,False,False,True,1,C,False
+nogate_R=W∧S,sweep,S=W∧C; R reads W∧S,dyadic,0.0,S|C,2,2.0,out,1,False,False,False,True,2,W∧S,False
+nogate_R=W∧C,sweep,S=W∧C; R reads W∧C,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,2,W∧C,False
+nogate_R=S∧C,sweep,S=W∧C; R reads S∧C,dyadic,0.0,W|S,2,2.0,out,1,False,False,False,True,2,S∧C,False
+nogate_R=W∧S∧C,sweep,S=W∧C; R reads W∧S∧C,dyadic,0.0,W|S|C,3,2.0,out,2,False,False,False,True,3,W∧S∧C,False

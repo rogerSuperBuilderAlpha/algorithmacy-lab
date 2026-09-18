@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,boundary_step,reading
+SUPPORTED,REFUTED,REFUTED,PHI_TRACKS_NM1_ALL,pre_AND → full_AND (all three),PHI_TRACKS_NM1_ALL — HMC/CMC/AI-MC at n=6: pre_AND→full_AND flip with Φ=5 (=n−1); COMMIT_READ holds; BOUNDARY_TRANSFERS scales with PHI_TRACKS_NM1

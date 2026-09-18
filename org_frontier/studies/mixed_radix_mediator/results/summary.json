@@ -1,0 +1,29 @@
+{
+  "verdict": "EXTRA_RESOLUTION_TO_PHI",
+  "binary_control": {
+    "stock_core": "W|S|C",
+    "stock_phi": 2.0,
+    "mv_core": "W|S|C",
+    "mv_phi": 2.0,
+    "ok": true
+  },
+  "patterns": {
+    "full": {
+      "phi_only": true,
+      "membership": false
+    },
+    "thresh": {
+      "phi_only": true,
+      "membership": false
+    }
+  },
+  "h1": true,
+  "h1_both": true,
+  "h2": false,
+  "h3": false,
+  "ks": [
+    2,
+    3,
+    2
+  ]
+}

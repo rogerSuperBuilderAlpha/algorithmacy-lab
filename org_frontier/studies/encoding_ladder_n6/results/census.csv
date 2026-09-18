@@ -1,0 +1,16 @@
+name,arm,structure,whole_phi,core,core_phi,n_core,basis,elapsed_s
+hmc_classical,baseline,dyadic,0.000000,W1|S,2.000000,2,"W1↔S; W2,W3,W4,C idle",1.9
+assist_OR_W2,assist,dyadic,0.000000,W1|S|W2,2.000000,3,"S=W1∨W2; W1,W2 read S; W3,W4,C idle",1.2
+assist_AND_W2,assist,dyadic,0.000000,W1|S|W2,2.000000,3,"S=W1∧W2; W1,W2 read S; W3,W4,C idle",1.2
+assist_OR_W2W3,assist,dyadic,0.000000,W1|S|W2|W3,3.000000,4,"S=W1∨W2∨W3; W1,W2,W3 read S; W4,C idle",1.7
+assist_AND_W2W3,assist,dyadic,0.000000,W1|S|W2|W3,3.000000,4,"S=W1∧W2∧W3; W1,W2,W3 read S; W4,C idle",1.6
+assist_OR_W2W3W4,assist,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,S=W1∨W2∨W3∨W4; workers read; C idle,5.0
+assist_AND_W2W3W4,assist,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,S=W1∧W2∧W3∧W4; workers read; C idle,4.8
+C_reads_not_in_commit,commit_read,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,S=W1∧W2∧W3∧W4; C reads S only,2.3
+broadcast_W1,commit_read,dyadic,0.000000,W1|S,2.000000,2,"S=W1; W2,W3,W4,C read S (no multi-commit)",0.1
+workers_AND_Cidle,pre_boundary,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,S=W1∧W2∧W3∧W4; workers read; C idle (pre-boundary),4.8
+algo_full_AND,flip,triadic,5.000000,W1|S|W2|W3|W4|C,5.000000,6,S=W1∧W2∧W3∧W4∧C; all read S — flip,40.8
+algo_full_OR,flip,triadic,5.000000,W1|S|W2|W3|W4|C,5.000000,6,S=W1∨W2∨W3∨W4∨C; all read S — flip,43.0
+drop_C_idle,drop,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,"from full AND: C removed from S, idle",4.8
+drop_C_readonly,drop,dyadic,0.000000,W1|S|W2|W3|W4,4.000000,5,"from full AND: C removed from S, still reads",2.4
+drop_W4_idle,drop,dyadic,0.000000,W1|S|W2|W3|C,4.000000,5,"from full AND: W4 removed from S, idle",4.8

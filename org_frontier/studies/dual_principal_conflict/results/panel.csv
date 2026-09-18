@@ -1,0 +1,15 @@
+name,role,note,structure,whole_phi,core,n_core,phi,A_in,B_in,shared,dominates,collapse
+single_gate_mon,contrast,single P=A gates+monitors; B idle,dyadic,0.0,W|S|C|A,4,3.0,True,False,False,True,False
+both_idle,collapse,both principals idle spectators,dyadic,0.0,W|S|C,3,2.0,False,False,False,False,True
+extract_A_wins,dominate,S'=A extractive; both monitor,dyadic,0.0,S|A,2,2.0,True,False,False,True,False
+extract_B_wins,dominate,S'=B extractive; both monitor,dyadic,0.0,S|B,2,2.0,False,True,False,True,False
+A_full_B_mon,dominate,A gates+mon; B monitor-only,dyadic,0.0,W|S|C|A,4,3.0,True,False,False,True,False
+both_gate_AND,shared,S'=W∧C∧A∧B; both read S,triadic,4.0,W|S|C|A|B,5,4.0,True,True,True,False,False
+split_read_joint,shared,"joint gate; A←W, B←C",triadic,2.0,W|S|C|A|B,5,2.0,True,True,True,False,False
+both_extract_AND,shared,S'=A∧B; both read S,dyadic,0.0,S|A|B,3,2.0,True,True,True,False,False
+conflict_XOR,shared,S'=A⊕B conflict parity,dyadic,0.0,S|A|B,3,0.5,True,True,True,False,False
+rival_OR_extract,shared,S'=A∨B either forces,dyadic,0.0,S|A|B,3,2.0,True,True,True,False,False
+NAND_principals,shared,S'=¬(A∧B),dyadic,0.0,S|A|B,3,2.0,True,True,True,False,False
+both_gate_OR,collapse,substitutable principal gate,dyadic,0.0,W|S|C,3,2.0,False,False,False,False,True
+agenda_conflict,collapse,opposing agendas (A∧W)|(B∧C),dyadic,0.0,,0,0.0,False,False,False,False,True
+maj_2of_ABWC,collapse,"majority 2-of-4 (A,B,W,C)",dyadic,0.0,,0,0.0,False,False,False,False,True

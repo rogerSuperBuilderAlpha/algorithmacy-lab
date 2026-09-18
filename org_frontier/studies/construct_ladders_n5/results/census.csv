@@ -1,0 +1,17 @@
+name,family,rung,structure,whole_phi,core,core_phi,n_core,basis
+cmc_chain,CMC,baseline,dyadic,0.000000,W,1.000000,1,W→S→C→D→E one-way conveyor
+cmc_echo,CMC,baseline,dyadic,0.000000,W|S,2.000000,2,"S=W; C,D,E read S (broadcast convey)"
+cmc_assist_OR,CMC,assist,dyadic,0.000000,W|S|C,2.000000,3,"S=W∨C; W,C read S; D,E idle"
+cmc_pre_AND,CMC,pre_boundary,dyadic,0.000000,W|S|C|D,3.000000,4,S=W∧C∧D; readers; E idle (pre-boundary)
+cmc_E_reads,CMC,commit_read,dyadic,0.000000,W|S|C|D,3.000000,4,S=W∧C∧D; E reads only
+cmc_full_AND,CMC,flip,triadic,4.000000,W|S|C|D|E,4.000000,5,S=W∧C∧D∧E; all read S — flip
+cmc_full_OR,CMC,flip,triadic,4.000000,W|S|C|D|E,4.000000,5,S=W∨C∨D∨E; all read S — flip
+cmc_drop_E_ro,CMC,drop,dyadic,0.000000,W|S|C|D,3.000000,4,"from full AND: E removed from S, still reads"
+aimc_rewrite,AI-MC,baseline,dyadic,0.000000,W|A|C,2.000000,3,"W→A→C rewrite loop; D,E idle"
+aimc_blend,AI-MC,baseline,dyadic,0.000000,W|A|C,2.000000,3,"A blends W with C-context; D,E idle"
+aimc_all_read_A,AI-MC,transform,dyadic,0.000000,W|A,2.000000,2,A=W transform; all read A (still no multi-commit)
+aimc_pre_AND,AI-MC,pre_boundary,dyadic,0.000000,W|A|C|D,3.000000,4,A commits W∧C∧D; E idle (pre-boundary)
+aimc_E_reads,AI-MC,commit_read,dyadic,0.000000,W|A|C|D,3.000000,4,A=W∧C∧D; E reads only
+aimc_full_AND,AI-MC,flip,triadic,4.000000,W|A|C|D|E,4.000000,5,A=W∧C∧D∧E; all read A — flip
+aimc_full_OR,AI-MC,flip,triadic,4.000000,W|A|C|D|E,4.000000,5,A=W∨C∨D∨E; all read A — flip
+aimc_drop_E_ro,AI-MC,drop,dyadic,0.000000,W|A|C|D,3.000000,4,"from full AND: E removed from A, still reads"

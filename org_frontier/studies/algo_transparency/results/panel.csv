@@ -1,0 +1,17 @@
+name,family,note,opaque_match,n,structure,whole_phi,core,n_core,phi,F_in,party_reads_F,W_in,C_in,S_in
+opaque_AND,opaque,classic opaque triad,,3,triadic,2.0,W|S|C,3,2.0,False,,True,True,True
+opaque_XOR,opaque,opaque parity commit,,3,triadic,0.5,W|S|C,3,0.5,False,,True,True,True
+opaque_conveyor,opaque,opaque conveyor S'=W (dyadic),,3,dyadic,0.0,W|S,2,2.0,False,,True,False,True
+channel_p1,channel,#24 p=1: W'=C direct,opaque_AND,3,triadic,2.0,S|C,2,2.0,False,,False,True,True
+channel_mutual,channel,mutual party observation,opaque_AND,3,triadic,0.8300749985576875,W|C,2,2.0,False,,True,True,False
+open_both_inputs,rule_inputs,both parties read other input + S,opaque_AND,3,triadic,6.0,W|S|C,3,6.0,False,,True,True,True
+open_W_reads_C,rule_inputs,only W reads C input,opaque_AND,3,triadic,1.0,W|S,2,2.0,False,,True,False,True
+open_XOR_both,rule_inputs,XOR commit; both read inputs,opaque_XOR,3,triadic,0.8300749985576875,W|C,2,2.0,False,,True,True,False
+open_conveyor_inputs,rule_inputs,conveyor + both read inputs,opaque_conveyor,3,triadic,1.0,W|C,2,2.0,False,,True,True,False
+F_publish_unread,rule_F,F publishes rule; parties still only read S,opaque_AND,4,dyadic,0.0,W|S|C,3,2.0,False,False,True,True,True
+F_parties_read,rule_F,parties read F (act on opened rule),opaque_AND,4,dyadic,0.0,W|C|F,3,2.0,True,True,True,True,False
+F_is_commit,rule_F,S follows F; parties read F,opaque_AND,4,dyadic,0.0,W|C|F,3,2.0,True,True,True,True,False
+F_act_blend,rule_F,parties blend F with S,opaque_AND,4,triadic,4.0,W|S|C|F,4,4.0,True,True,True,True,True
+F_parties_gate,rule_F,opened F gates S with parties,opaque_AND,4,dyadic,0.0,W|C|F,3,2.0,True,True,True,True,False
+F_one_acts,rule_F,only W reads F; C opaque,opaque_AND,4,triadic,2.0,S|C,2,2.0,False,True,False,True,True
+F_read_S_and_F,rule_F,parties require S∧F,opaque_AND,4,triadic,4.0,W|S|C|F,4,4.0,True,True,True,True,True

@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading
+SUPPORTED,SUPPORTED,REFUTED,GATE_SEAL_HOLDS,"GATE_SEAL_HOLDS — CMC/AI-MC XNOR→B (Φ≪n−1), AND_negE→C; GATE_REGIMES_TRANSFER sealed; construct/gate arc closable"

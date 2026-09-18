@@ -1,0 +1,2 @@
+h1,h2,h3,h4,h5,h6,beyond_pool,rec_2h2p_core_phi,pool5_core_phi,shared_S_core_phi,reading
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,False,6.000,20.000,4.000,WIN — spanning top does not beat pool; recurrent hub-span merges membership like shared-S; full span saturates pool

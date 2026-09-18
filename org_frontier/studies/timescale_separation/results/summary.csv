@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,conj_hold_kstar,parity_hold_kstar,conj_hold_core_at_kstar,conj_prob_all_triadic,seq_dyadic_orders
+SUPPORTED,REFUTED,REFUTED,FACTORS_LIKE_62,FACTORS_LIKE_62 — hold-for-k factors at k*=2 (core→{S}); #62 sequential 6/6 dyadic; prob 1/k stays triadic (construction decides),2,2,{S},True,6/6

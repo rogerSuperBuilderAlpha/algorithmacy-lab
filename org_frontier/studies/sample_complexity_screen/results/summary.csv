@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,Tstar_family_n3,Tstar_hub_n3,Tstar_hub_n5,Tstar_noise16,reading
+SUPPORTED,REFUTED,REFUTED,FAST_WITHIN_FAMILY,125,,,125,FAST_WITHIN_FAMILY — family n=3 T*_MI=125≤1000; within-hub T* does not double by n=5 (hub T*_MI n3=None n4=None n5=None); noise0.16 T*=125; higher noise does not raise T*; cross-topo MI T* n4=None n5=None (longer T does not fix #134)

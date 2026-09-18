@@ -1,0 +1,3 @@
+n,n_kinds,chain_lattice,bot,top,l3_dominates,product_lattice,missing_join,missing_meet
+3,6,True,zeros,"and_ring,pool",True,False,1,2
+4,8,True,zeros,pool,True,False,1,2

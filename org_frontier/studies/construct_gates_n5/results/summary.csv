@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading
+SUPPORTED,SUPPORTED,REFUTED,GATE_REGIMES_TRANSFER,"GATE_REGIMES_TRANSFER — CMC/AI-MC full-bind: XOR→B (Φ≪n−1), MAJ→C (no flip), AND→A; HMC GATE_SPLITS regimes transfer"

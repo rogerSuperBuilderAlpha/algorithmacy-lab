@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,reading,first_dyadic,max_step_frac,max_sbs_residual,max_proj_gap,interior_core_shift,shared_shock_core_phi
+REFUTED,SUPPORTED,SUPPORTED,CORE_SHIFT_NO_FLIP,CORE_SHIFT_NO_FLIP — projection shifts n_core without interior verdict flip; still no extra flip vs #61,0.5,0.034111,2.500000e-01,0.000000e+00,1,2.000000

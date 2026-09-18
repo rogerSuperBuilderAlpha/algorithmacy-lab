@@ -1,0 +1,2 @@
+universe,residual_n,residual_mean_flip,residual_any_flip,near_hit_mean_flip,far_hit_mean_flip,tri_to_dya,dya_to_tri,h1,h2,h3,reading
+n4,75,0.37083333333333335,1.0,0.3921875,0.1525,200,245,SUPPORTED,SUPPORTED,REFUTED,PHASE BOUNDARY
