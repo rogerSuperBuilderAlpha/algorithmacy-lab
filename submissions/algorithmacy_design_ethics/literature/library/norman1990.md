@@ -24,3 +24,22 @@ Read from the 1989 preprint, whose text may differ from the 1990 published versi
 **What I checked:** Downloaded the NTRS copy of ICS Report 8904 (document 19900004678) and checked every quotation and report page (PDF page N = report p. N−2); pulled the PubMed abstract of the journal version.
 
 **Findings:** All quotations are verbatim on the report pages cited: abstract p. 1; 31,500 feet p. 2; Cape Cod pp. 2–3 (the OCR scatters "no automation was involved" across lines but the words are there); fuel leak p. 3; the two thought experiments, "type of automaton" and "informal chatter" p. 5; the informal-replication footnote p. 6; "the automation itself doesn't need it," the "new irony" and "a monitoring of its own monitoring abilities" p. 7; "soft, compliant technology" pp. 1 and 8. One thing to know before citing the journal: the published abstract reads "take over control that used to be done by people," where the preprint has "that which used to be done," so the wording did change between versions.
+
+---
+
+## Relation to Principle III — bounded outputs, not mechanistic interpretability (cluster F pass, 2026-09-18)
+
+**Remedy locus:** artifact (feedback the automation gives about what it is doing).
+
+Norman's cases fix what kind of feedback Principle III asks for, and it is not a view inside. The China Airlines autopilot and the fuel-leak autopilot each did the right thing by their own lights and said nothing about *what state they had drifted into* — compensating harder and harder for a condition the crew could not see. The remedy Norman draws is the first officer who says "I seem to be correcting this thing more and more — I wonder what's happening?" (p. 5): a report of the automation's own operating regime and of the fact that it is nearing the edge of it, in the automation's own terms and at a rate the captain can follow. That is regime disclosure — Sarter and Woods's mode awareness, the ODD's "fallback" — and it is the operational sense of predictability, not the mechanistic one; no crew member wanted the autopilot's control law. Two of his diagnoses transfer directly. "The culprit is not actually automation, but rather the lack of feedback" (p. 5) is the argument that the problem Principle III addresses is a design choice, not a property of complexity; and "the automation itself doesn't need it!" (p. 7) — feedback is omitted because the designer's task ends when the device works — is the mechanism by which a mediator's silence about its regime is the default, and under cooptation a convenient one. His "new irony," that the automation "is not powerful enough" (p. 7), also reads differently in the triad than in the cockpit: a more powerful mediator that reports more would, on his account, be better, whereas Principle III wants a mediator that does *less* outside its envelope and says so. The paper should take the feedback requirement and leave the "more powerful" prescription. The original relation section's caution stands: his second human is a crewmate on the same side, and the ideal he draws from her is a channel ideal.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only (the Principle III section). Every quotation it uses (pp. 5, 7) was verified against the NTRS preprint by the earlier S2 pass and is reused unchanged.
+
+**Findings:** No issues found. The section's point that Norman's "not powerful enough" prescription cuts the other way from Principle III is a fair reading of p. 7 and is flagged rather than smoothed over.

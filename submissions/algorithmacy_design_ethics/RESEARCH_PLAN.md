@@ -1,572 +1,586 @@
-# Algorithmacy for a design-ethics / human-factors readership — research plan
+# Algorithmacy is not literacy — research plan for the category-error paper
 
-Status: plan, not prose. Written 2026-09-18 against three governing texts — the Φ essay
-(`org_frontier/essays/literacy_or_algorithmacy.md`), the coordinative-cooptation draft
-(`submissions/algorithmacy_scaffolding/algorithmacy_scaffolding.md`) and its dossier
-(`submissions/algorithmacy_scaffolding/RESEARCH_DOSSIER.md`). The Gemini report "The Invisible
-Scripts of the Machine" is treated throughout as a hypothesis map: nothing in its bibliography
-enters a card until a pass agent has read the primary source.
+Status: plan, not prose. Written 2026-09-18 against `README.md` (the framing memo, authoritative),
+the archived dossier and draft (`archive/2026-09-18_*_pre-category-error-pivot.md`), the 99-card
+library (`literature/library/`, live), the coordinative_sovereignty library
+(`../coordinative_sovereignty/literature/library/cards/`, 400-odd cards in a different format), and
+the Berthon & Pitt PDF read in full from the user's Downloads folder. Every source named below is one
+I believe exists as cited; where I confirmed a record this session I say so, and where I could not the
+entry carries **[check]**. A pass agent that cannot resolve a **[check]** drops the entry and reports
+it dropped.
 
-Every source named below is one I believe exists as cited. Where I am unsure of a title, year,
-venue, or whether the text can be reached without a library, the entry carries **[check]**. A pass
-agent that cannot resolve a **[check]** drops the entry rather than guessing.
+Two findings from the planning read change the brief before the harness starts, so they come first.
+
+**The historical cluster is not blank.** The coordinative_sovereignty library already carries Ong
+1982, Goody & Watt 1963, Goody 1977, Goody 1968, Goody 1986, Eisenstein 1979, Innis 1951, Clanchy
+2013 (Havelock is the one absentee), and — this matters more — the whole counter-literature to the
+strong literacy thesis: Street 1984, Finnegan 1988, Scribner & Cole 1981, Graff 1991, Halverson 1992,
+Collins & Blot 2003. None of these reaches full text: Ong is carded from a publisher blurb (archive.org
+full text "located but not read"), Eisenstein from an H-Net review, Goody & Watt and Halverson with
+summaries withheld. So the brief's "no verified cards anywhere in the lab" is half right — the
+bibliography exists, the reading does not. The history pass starts from those cards, upgrades them to
+primary depth in this arm's format, and adds Johns. And the sovereignty chapter's own evidence audit
+already ruled on two things this paper will otherwise rediscover: "oracy" is Wilkinson's word, not
+Goody's or Ong's (audit item O6), and the great-divide thesis must be conceded contested in the same
+section that uses it (G8).
+
+**Berthon does not say what the critique needs him to say.** I read the seven-page in-press PDF.
+Berthon and Pitt build a four-mode typology of mindfulness (observation, remembering, discrimination,
+contemplation) from the Pali *sati*, arrange it on two axes and a nested model, and close with a page
+on marketing. They never use "technology fast," never speak of economic survival, and never claim
+anyone cannot opt out. The "mandatory condition for economic survival" framing is this paper's
+extension, not theirs. Section 2 states what the defensible critique of Berthon is instead.
 
 ---
 
-## 1. The definition, tightened for this audience
+## 1. The definition, tightened, and the Simmel collision resolved
 
-The working definition in the brief is right and it is two sentences too long for a human-factors
-reader, who will want to know what the construct does to the concept they already own —
-*appropriate reliance*. I propose this:
+> A person coordinates with another person through an automated third party. When that third party
+> is a **moderator** — it carries the two parties' signals without interpreting either, pursues
+> nothing of its own, and the two could reach each other without it — the coordination factors
+> (Φ = 0) and the competence the situation demands is literacy: read the interface, read the message.
+> When it is a **mediator** — it interprets both parties, commits determinations that bind both,
+> pursues an objective neither set, and no direct channel survives — the coordination is irreducible
+> (Φ > 0) and the competence it demands is algorithmacy: the capacity to infer what a third party is
+> doing with two people at once, to contest what it commits, and to hold one's ground as it changes.
 
-> A person coordinates with another person through an automated intermediary. The intermediary
-> **interprets both parties**, **commits determinations that bind both**, and **pursues an
-> objective neither of them set**. When the intermediary is a channel — the two parties could
-> reach each other without it and the coordination factors — the competence the situation demands
-> is literacy. When it is a party — no direct channel survives, the coordination is irreducible
-> (Φ > 0), and the determinations run through the intermediary's own objective — the competence
-> is algorithmacy: the interpretive, tactical and anticipatory capability to infer what the
-> intermediary is doing with both sides, contest what it commits, and adapt as it changes.
+Three things about this wording.
 
-Two things the tightening makes explicit that the brief's version left implicit, and both matter
-for this readership.
+**The two axes carry over unchanged.** The structural axis (interprets both, binds both, no direct
+channel) is what Φ detects; the objective axis (an objective neither party set) is what makes the
+mediation adversarial rather than merely load-bearing. A human interpreter is a mediator on the first
+axis and not the second. The archived dossier §1 argues this and the three-case ladder evidences it;
+neither is re-derived here.
 
-First, the definition has two independent axes. The **structural axis** (interprets both, binds
-both, no direct channel) is what Φ detects. The **objective axis** (pursues an objective neither
-party set) is what the cooptation reading names, and Φ does not measure it. A human interpreter
-between two people who share no language satisfies the structural axis — irreducible, interprets
-both, commits the translation — but not the objective axis, and no one would call that cooptation.
-A platform satisfies both. The competence is *demanded* by the structural axis; its *adversarial*
-character comes from the objective axis. The two lenses therefore do not overlap; they stack.
+**"Mediator" is the venue's own word for the Φ > 0 case, which is why the paper keeps it.** Latour
+draws the line between an *intermediary*, which "transports meaning or force without transformation,"
+and a *mediator*, which transforms, translates, distorts and modifies what it carries (*Reassembling
+the Social*, 2005, ch. 1 **[check page: I believe pp. 37–42]**). Verbeek (2014, p. 77, per the card,
+S2 not yet re-confirmed) takes the same line: technologies "are not merely silent 'intermediaries' but
+active 'mediators.'" A *Philosophy & Technology* or *Techné* reader will therefore hear
+moderator/mediator as the intermediary/mediator distinction they already own, with the same valence.
+That alignment is an asset and the paper should claim it in one sentence at first use.
 
-Second, the four affordances in the scaffolding draft split cleanly across those axes. Seamful
-disclosure and modular chunking address the structural axis: they make the intermediary's
-interpretive work legible. Counterfactual exploration and cognitive forcing address the objective
-axis: they return a judgment the intermediary was steering. That split is worth keeping in view
-because it is the paper's first non-obvious claim and it falls out of the definition rather than
-being bolted on.
+**The Simmel collision is resolved in the body text, on first co-occurrence, as a mapping — not a
+footnote.** Simmel's "mediator" is the self-effacing third who "seeks to eliminate himself, and only to
+bring to pass that the two disunited or ununited parties may unite directly" (1902 Small translation,
+part II, per `simmel1950.md`). That is this paper's *moderator*. Simmel's *arbitrator*, in whom "the
+decision ... has become a person," and his *tertius gaudens*, who "can set his own conditions for the
+decision," are this paper's *mediator*. Because Simmel's typology is load-bearing in the politics
+section (the archived §6 survives into the new draft), a footnote would leave a reader holding two
+incompatible senses across the section that needs both. The draft should say, where Simmel first
+appears: *Simmel's mediator is what this paper calls a moderator; his arbitrator and his tertius
+gaudens are what it calls a mediator, and the platform is the tertius.* One sentence, in the text,
+then the mapping is used without further apology. I considered renaming the paper's own term to avoid
+the collision ("the interested third," "arbitrator"); I reject it because "mediator" is postphenomenology's
+word for exactly the active case and the paper's argument is addressed to postphenomenology.
 
-One consequence for human factors: *appropriate reliance* (Lee & See 2004) is defined relative to
-the trustor's goals. It has no definition when the automation's goal is a third party's. Research
-question 4 below turns that into a claim.
+**One further collision the README did not flag: "moderator" is also what platforms call their
+content-moderation staff**, and Gillespie's *Custodians of the Internet* (2018) is in the readership's
+working vocabulary (the sovereignty library cards it as `gillespie2018custodians`). A content moderator
+is nothing like a Φ = 0 wire. The definition should weld the intended sense onto the term at first use
+— a moderator in the panel-chair or reactor sense, a party to the exchange who slows or relays it
+without entering it — and the draft should avoid the bare noun "moderation" throughout. If the read-aloud
+finds the term still misleading, the fallback is "conduit," which has no rival technical sense; the
+plan keeps "moderator" because the README fixed it and the two-syllable contrast with "mediator" does
+rhetorical work.
+
+A housekeeping item that belongs here because it touches Simmel: `simmel1950.md`'s own caution says the
+quotations are from the 1902 Small translation and that Wolff 1950 pagination (pp. 145–169) "could not be
+matched." The draft will cite one or the other; P6 below settles which, and if Wolff cannot be opened
+the reference list cites the AJS text, as the archived draft already did.
 
 ---
 
 ## 2. Research questions
 
-Nine questions. Each names the literature it pulls on (mapped in §3) and the tooth it has to cut
-with — the place where the existing lab constructs and the outside literature might actually
-disagree.
+Each of the six critiques gets one verification question, its correct source, a working hypothesis
+stated as a hypothesis, and the specific way it could fail. The historical questions and the three
+principle questions follow. A final census question (RQ12) is what makes the category-error claim
+greppable at the end rather than an impression.
 
-**RQ1 — Does Verbeek's mediation theory and the Φ-irreducibility reading agree on what makes a
-mediator load-bearing?**
-Verbeek and Ihde hold that mediation is constitutive and there is no neutral tool: every
-technology co-shapes perception and action. Φ says the opposite for a class of cases: a wire has
-Φ = 0, factors out, and is not a mediator at all. So the two accounts conflict on whether a
-threshold exists. The tooth: postphenomenology's relation schema is *human → technology → world*,
-one intentional party and a passive world. The lab's triad has two intentional parties and a
-mediator reading both. Does postphenomenology have a canonical two-human schema at all? If not,
-the paper can offer one — a bilateral hermeneutic relation — and Φ supplies the threshold
-Verbeek's non-neutrality thesis lacks. If it does (Wellner on cellphones is the candidate), the
-paper has to engage it. Latour's four meanings of mediation (translation, composition, reversible
-black-boxing, delegation) are the other formal account to set against Φ; "composition" is the one
-closest to irreducibility.
+### The six critiques
 
-**RQ2 — What does mediation theory add to, or subtract from, seamful boundary disclosure?**
-Verbeek (2006, 2011) tells designers to anticipate mediations and design them on purpose, which
-licenses the seam as a designed mediation. But the same theory implies the seam is itself a
-mediation: it co-shapes what the user perceives, so there is no "peripheral vision" from nowhere.
-Ehsan et al. already concede seams are designer-authored. The tooth is triadic: a seam disclosed to
-the worker is not disclosed to the customer. Ihde's multistability predicts that one seam means
-different things to the two parties. *Asymmetric seamfulness* — which party gets the seam and
-whether the other knows — is a design variable the dyadic XAI literature cannot see and the triad
-forces.
+**RQ1 — Verbeek. Does postphenomenology's relational vocabulary have an adaptivity axis?**
+The critique as inherited ("Verbeek assumes a static script") is already contradicted by
+`verbeek2014.md`: p. 77 says technologies are active mediators; p. 83 says of the persuasive mirror
+that "technologies use human beings here to do their work"; and `verbeek2015.md` (S2-confirmed) has
+an *immersion* relation for environments that "detect if people are present or not, recognize faces,
+give feedback on behavior" (pp. 29–30). Kudina and Verbeek (2019, *ST&HV* 44(2): 291–314, Crossref-
+confirmed this session) go further and argue that mediation reshapes the very values by which a
+technology is later judged — mediation is dynamic over time on Verbeek's own account. So "static" is
+dead. *Working hypothesis:* the schema distinguishes relation types (embodiment, hermeneutic, alterity,
+background, cyborg, immersion, augmentation) and influence types (Tromp's coercive/persuasive/
+seductive/decisive), but nowhere distinguishes a mediation fixed at design time (the speed bump, which
+mediates the same way for every driver) from one re-fitted at run time to the person it mediates (a
+model retrained on the user's own responses). Immersion is the nearest miss: the environment reads
+the human but does not, in Verbeek's telling, change what it is on the strength of the reading.
+*Source:* reopen `verbeek2014.md` first (Springer chapter is closed; the Twente record has no PDF —
+try institutional SpringerLink access, then the FutureLearn URL the card failed to record); cross-check
+against `verbeek2015.md`, `verbeek2008b.md` (both clean), `verbeek2008.md` (composite intentionality,
+the nearest thing to a mediator with its own directedness), and Kudina & Verbeek 2019. *How it fails:*
+if any Verbeek text distinguishes learning from non-learning mediations, or if "multistability" (2014,
+p. 86: "their mediating power is hardly predictable") is argued as run-time adaptivity rather than
+interpretive openness, the critique narrows again to "postphenomenology names adaptivity but has no
+design consequence for it." Either result is usable; only the "static script" version is not.
 
-**RQ3 — Does Vallor's technomoral wisdom give a criterion for which frictions are worth their
-cost?**
-The scaffolding draft names the dilemma: cognitive forcing functions reduce overreliance and users
-dislike them (Buçinca et al. 2021), while commercial design optimizes for frictionlessness. Two
-literatures pull opposite ways on friction. Sunstein's *sludge* says friction harms; the CFF
-literature says friction helps. Neither can be settled on felt preference (Buçinca shows preference
-runs against benefit) nor on designer intent alone. Vallor's 2015 moral-deskilling argument
-supplies a candidate criterion — friction that preserves a practice in MacIntyre's sense versus
-friction that merely taxes — and *The AI Mirror* (2024) may extend it to generative AI **[check:
-whether she discusses friction by name]**. The tooth: the cooptation reading offers a sharper cut
-than Vallor's — the criterion is *whose objective the friction serves* — and Φ tells you when a
-third objective is in the loop at all. Does Vallor's virtue criterion reduce to that, or does it
-add something a structural account cannot (the formation of the person, not just the outcome of
-the decision)?
+**RQ2 — Vallor. Do the technomoral virtues presuppose a subject with time to practise, and does the
+mediator set the tempo?** The archived plan's claim was capability-matching (2015, p. 115: a supervisor
+"must have more experience and practical wisdom than the supervisee"); the new claim is attentional and
+temporal. `vallor2015.md` already gives partial primary support the brief did not credit: "attention is
+a moral skill" (p. 117) and the lockout-app passage (p. 118) are the attention-bandwidth point in her
+own words, and p. 109 makes practice require "sufficient opportunity for repetition." What the 2015
+paper does not give is the fullest statement of moral attention and technomoral wisdom, which is the
+book. *Working hypothesis:* *Technology and the Virtues* (2016) makes the seven practices of moral
+self-cultivation — including "reflective self-examination" and "perceptual attention to moral
+salience" (Huff's review at p. 64, per `vallor2016.md`) — depend on occasions the agent can dwell in;
+a mediator that sets interaction tempo (dispatch in seconds, generation at reading speed) removes the
+occasions rather than the capacity, and Vallor's remedy — cultivate the subject — cannot reach a tempo
+the subject does not control. *Source:* the 2016 book at full text (OUP, paywalled; the user's
+institutional access is the route), chapters on moral self-cultivation and on social media; *The AI
+Mirror* (2024) only if it has a passage on generative tempo, which `vallor2024.md` could not settle.
+*Guardrails:* (i) Vallor 2015 never cites MacIntyre and never uses "friction"; the phrase "a practice in
+MacIntyre's sense" was caught once and must not return; (ii) Vallor is not naively individualist — 2015,
+p. 122 says values-by-design and participatory design "will not take us all the way" and asks for a
+cultural shift — so the critique must be that her *remedy locus* is the subject, not that she ignores
+structure. *How it fails:* if the book grounds the virtues institutionally (communities of practice that
+could themselves set tempo), the critique becomes "Vallor's institutions are not designed; the paper
+designs them," which is a friendlier and still usable result.
 
-**RQ4 — What does the human-factors automation-trust literature say once the automation is
-triadic?**
-Lee & See's calibration/resolution/specificity, Parasuraman & Riley's use/misuse/disuse/abuse,
-Parasuraman & Manzey's complacency, Bainbridge's ironies, Sarter & Woods's automation surprises,
-and Klein et al.'s "team player" agenda all model one operator (or one crew) and one automation
-over a shared world. The counterpart human is absent. The tooth: *appropriate reliance*
-presupposes the automation's goal is the operator's. When the automation is also calibrating the
-other party and its objective belongs to neither, calibration is undefined. Is there any HF
-literature on trust in a mediator that is simultaneously being trusted from the other side? The
-best candidate is controller–pilot datalink (CPDLC) and the "party line" literature — the
-replacement of a voice channel every pilot could overhear with a point-to-point data channel —
-which is the lab's "suppress the direct channel" flip in a real cockpit. Also worth checking: the
-computer in the clinical exam room; clinical decision support sitting between physician and
-pharmacist.
+**RQ3 — Winner. Is "no micro-level design guidance" already established, and does it survive the
+1977 material?** `winner1980.md` (S2-confirmed) already found it: "Winner has no competence claim at
+all; the person's only political move is the adoption decision, which in the platform case is not
+theirs." That reading coexists with the archived draft's separate critique (his required authority is a
+hierarchy among humans; the triad's is a hub) and both go into the new draft. *Working hypothesis:*
+Winner's politics are settled at adoption and design; once a person is inside the system he has no
+vocabulary for what she can do. *One thing to add, not re-derive:* *Autonomous Technology* (1977)
+contains "reverse adaptation" — the adjustment of human ends to technical means **[check: chapter and
+page; I believe the concept is in the "Technological Politics" chapter]** — which is the closest Winner
+comes to the disenfranchisement claim the historical analogy makes, and would let the draft cite Winner
+for the mechanism of "those who kept the old habits lost" rather than assert it. Winner 1993 ("Upon
+opening the black box and finding it empty," *ST&HV* 18(3): 362–378) is his charge that constructivism
+offers no normative guidance; the paper can note that the same charge applies to his own account at the
+level of the enrolled person. *Source:* reuse `winner1980.md`; card 1977 (the one [check]) and 1993 at
+whatever depth is reachable. *How it fails:* it does not; the 1980 reading is confirmed. The risk is
+overreach — Winner is not wrong, he is at the wrong altitude for this paper's question, and the draft
+should say exactly that.
 
-**RQ5 — Is value-sensitive design a rival or a complement to the four affordances, and where does
-contestability-by-design sit?**
-VSD is a process for designers (conceptual, empirical, technical investigations; direct and
-indirect stakeholders); the affordances are interface products. That makes them complements at
-different levels — VSD decides *whom* the seam serves, the affordances decide *what* it shows. The
-tooth is that VSD's stakeholder model is consensual: the platform operator is a legitimate
-stakeholder whose value (extraction) has standing. VSD's own critics (Le Dantec et al.; Manders-Huits;
-JafariNaimi et al.) say it cannot adjudicate whose values win. Under cooptation the direct/indirect
-distinction also inverts — the counterpart is "indirect" from the interface's viewpoint and a
-co-determined party from Φ's. A second design tradition, contestability-by-design (Hirsch et al.;
-Lyons, Velloso & Miller; Alfrink et al.), already targets "contest" in the definition and has to be
-placed relative to the four affordances rather than ignored. IEEE 7000 and Ethically Aligned Design
-are VSD institutionalized and belong here.
+**RQ4 — Martela & Steger. Does "coherence" require mechanistic or textual understanding, or only that
+one's circumstances make sense?** This is genuinely unverified; the archived plan dropped the paper and
+the seeded report reached it through a Scribd upload (audit entry 140). Crossref confirmed the record
+this session: *Journal of Positive Psychology* 11(5): 531–545, 2016. *Working hypothesis, from my
+knowledge of the paper and flagged for confirmation:* their coherence is a sense that one's *life* is
+comprehensible — that experiences fit a pattern — drawing on Antonovsky's sense of coherence and on
+Heintzelman & King's "meaning as information," in which the feeling of meaning tracks environmental
+regularity and pattern, even implicit pattern. If that holds, coherence on their account is
+predictability-shaped, not explanation-shaped: it is fed by regularity, not by seeing mechanisms. Two
+consequences. First, "generative AI makes coherence mathematically impossible, guaranteeing paralysis"
+is the report's inference and not anything Martela & Steger say; it must soften to a hypothesis —
+*a working life routed through a mediator whose behaviour one cannot predict puts the comprehensibility
+component of meaning under strain* — stated as testable, not proven. Second, and more useful:
+Principle III's redefinition of coherence as operational predictability turns out to be *closer* to
+Martela & Steger's own construct than the interpretability reading is, which converts a critique into
+an ally. *Source:* the 2016 paper at full text (Taylor & Francis, paywalled; institutional access), plus
+its immediate neighbours: Heintzelman & King (2014), "(The feeling of) meaning-as-information,"
+*Personality and Social Psychology Review* 18(2) **[check pages]**; George & Park (2016), "Meaning in
+life as comprehension, purpose, and mattering," *Review of General Psychology* 20(3) **[check pages]** —
+the parallel tripartite account, whose "comprehension" component is the one to compare; Antonovsky
+(1987), *Unraveling the Mystery of Health* (Jossey-Bass). *How it fails:* if Martela & Steger define
+coherence as requiring understanding of *why* things happen (causal comprehension rather than pattern),
+the critique stands as stated and Principle III has to argue that predictability is a sufficient
+substitute; the pass must quote the definition verbatim so the draft can pick the reading the text
+supports.
 
-**RQ6 — Is triadic irreducibility "inherently political" in Winner's second sense?**
-Winner makes two claims: artifacts settle political questions (the bridges), and some technologies
-are inherently political because they require a particular distribution of authority to operate
-(the nuclear plant). The first is contested (Joerges; Woolgar & Cooper) and the paper should not
-lean on the bridges. The second is stronger, less cited, and fits: a Φ > 0 coordination form
-*requires* the intermediary's authority to function — remove it and the coordination collapses. The
-tooth: Winner's argument is about artifacts; the triad is about a coordination *form*. The
-politics sits in the structure, not the object. Suchman's 1994 "Do categories have politics?" —
-her critique of the Winograd–Flores Coordinator, a system that inscribed and committed
-interpersonal commitments — is the earliest CSCW case of a mediator with its own script, and it
-already has Winner's title.
+**RQ5 — Berthon. What does the typology license, and what is this paper's own extension?** Read in
+full this session. What Berthon and Pitt (2019, *Business Horizons* 62(2): 131–137 — Crossref confirms
+the version of record; the local PDF is the 2018 in-press copy paginated 1–7, so every page cite below
+must be re-mapped to 131–137 by P3) actually argue: four modes of mindfulness from the Buddhist canon,
+two axes (experiential/aconceptual ↔ conceptual/abstract; receptive-reflective ↔ active-evaluative),
+an integrative model (Fig. 1) and a nested one (Fig. 2, observational → remembering → right → wise).
+The attention-economy framing is Simon 1971 and Davenport & Beck 2001; the platform passage is Tristan
+Harris ("business models are designed to make us mindless," in-press p. 6; "If you're not paying for
+it, you are the product," p. 6). The closing paragraph is the one the paper can use: observational
+mindfulness "may be of little help with addictive technology platforms," evaluative mindfulness "is
+needed," and "wise mindfulness or mindfulness that leads to insight is essential if we are to see how
+our minds are undermined by the technologies and content we interact with" (p. 6). *What this
+establishes:* Berthon's remedy is entirely subject-side — four modes of the user's own attention — and
+its object is insight into the platform, i.e. seeing through it, which is the literacy paradigm applied
+to attention. His one firm-side line ("challenges to innovate to develop new business models that do
+not run on attention," p. 6) is an exhortation, not a design. *What is this paper's extension and must
+be labelled as such:* that algorithmacy is a condition of economic participation one cannot opt out of
+by a technology fast. Berthon never says it; the nearest passage is that "employees are just as
+distracted as consumers" and that firms adopt mindfulness for productivity (p. 6). The draft either
+argues the extension in its own voice or drops it. *Two further cautions for the venue.* Berthon & Pitt
+is a seven-page practitioner column ("Marketing & Technology" department) with no study; a *Philosophy
+& Technology* referee will ask why it stands beside Vallor and Verbeek. The answer has to be that it
+represents a *genre* — the managerial mindfulness literature as the attention-economy's literacy remedy
+— and it should be paired with a scholarly representative of the same move: Williams (2018), *Stand Out
+of Our Light* (Cambridge UP, open access), is the obvious one **[check that it argues a subject-side
+remedy; my recollection is that it ends on design and regulation, which would make it the contrast
+rather than the companion]**. And the author and Berthon share an institution (Bentley); a referee may
+read the citation as collegial unless the argumentative reason for it is explicit on the page.
+*Source:* the local PDF, already read; P3 writes the card at full_text depth and re-maps pages.
 
-**RQ7 — Does Floridi's method of levels of abstraction license the Φ verdict's model-relativity,
-and does "distributed moral action" account for deflected accountability?**
-The Φ essay's honest limit is that the verdict holds relative to a stated model. Floridi & Sanders's
-levels of abstraction give that limit philosophical cover rather than leaving it as an apology.
-Floridi's "faultless responsibility" for distributed moral actions is the ethics-side account of
-what Stark & Vanden Broeck call accountability "distributed, deflected, and denied." The tooth:
-AI4People's five principles, including explicability, are written from the patient's side — the
-person affected. In the triad both humans are patient and agent at once. Does explicability have
-a triadic form, and does the transparency-ideal critique (Ananny & Crawford; Burrell) already
-contain the reason raw exposure fails — which would make Bo et al. 2025 a confirmation of a
-prediction rather than a surprise?
+**RQ6 — The Context Engine. Nothing new; one consistency note.** `mechanistic_interpretability_method.md`
+and `c2pa_content_provenance_standard.md` (both confirmed) found that each mechanism discloses to one
+party (the weight-holder; a downstream validator) and models no second human. Principle III rejects
+black-box legibility on a different ground — that predictability, not visibility, is what a
+coordinated party needs — and the two are compatible: the archived finding says interpretability is
+aimed at the wrong party, the new principle says it is aimed at the wrong property. The draft should
+make both points and not let one absorb the other. No research pass; P5 adapts the two cards' Relation
+sections and adds a `Remedy locus:` field (see RQ12).
 
-**RQ8 — Is algorithmacy tactical in de Certeau's sense, and is adversarial design its design
-politics?**
-The scaffolding definition says "navigate, contest, and steer." DiSalvo's three tactics —
-revealing hegemony, reconfiguring the remainder, articulating collectives — map onto the affordances
-with suspicious ease (FeedVis is revealing hegemony). De Certeau's tactics/strategies distinction
-says the co-opted party operates inside a space it does not own, which is Aneesh's "programmed
-alternatives" from the other side. Brunton & Nissenbaum's obfuscation is a user-side tactic no
-affordance provides. The tooth: DiSalvo's agonism assumes a public facing a hegemon. In the triad
-the two co-determined humans may be adversaries of each other (driver against customer) with the
-platform as tertius gaudens. Adversarial design *for whom*? Simmel's taxonomy of the third —
-mediator, tertius gaudens, divide et impera — is the oldest answer and belongs here.
+### The history
 
-**RQ9 — Audit: which design-ethics and human-factors literatures ever model a technology between
-two humans with its own objective?**
-This is the meta-question the other eight feed. My expectation is that almost none do: HF is
-operator–automation, XAI is user–model, VSD is designer–stakeholders, postphenomenology is
-human–technology–world. The exceptions I expect to find are CSCW coordination mechanisms (Schmidt &
-Simone), Suchman on the Coordinator, Simmel's triad, and the datalink party-line work. The Gemini
-report's "AI Context Engine" — mechanistic interpretability plus C2PA provenance — is the test case:
-provenance tells you where content came from and interpretability tells you what one model
-computes; neither discloses a third party's objective across two humans. If that holds, the
-hypothesis map's central proposal is a dyadic remedy for a triadic problem, and the paper says so.
+**RQ7a — Ong, Goody, Eisenstein: what do the primary texts license, at what altitude?** *Working
+hypothesis:* the texts support a claim about *competences and institutions* (what a member of a
+literate order had to be able to do that a member of an oral order did not; how record replaced
+memory as the ground of trust) and do not, in their defensible form, support a claim about *cognition*
+(that literacy remakes the mind). The paper's analogy needs only the first. *Sources, upgraded from the
+sovereignty cards:* Goody & Watt (1963), "The consequences of literacy," *CSSH* 5(3): 304–345 (DOI on
+the card) — the origin of the alphabetic-literacy-underwrote-a-critical-public claim; Goody (1977) and
+(1986), *The Logic of Writing and the Organization of Society* (CUP; DOI on the card) — the latter is
+the institutional version and the one to lead with; Ong (1982), *Orality and Literacy* (archive.org full
+text located by the sovereignty pass and not read — read it, chs. 3–5); Eisenstein (1979), 2 vols, or
+the 1983/2005 abridgement *The Printing Revolution in Early Modern Europe* (CUP) **[check which edition
+is reachable; the abridgement is the one most readers cite]**; Clanchy (2013, 3rd ed.), *From Memory to
+Written Record: England 1066–1307* — the documented case of trust migrating from persons to documents,
+at exactly the modest scale the paper's bridge (§5) needs; Havelock (1963), *Preface to Plato* (Harvard)
+**[optional; only if Ong's debt to it needs stating]**.
 
-Not carried forward: Martela & Steger's meaning-in-life framework. It is real (2016, *Journal of
-Positive Psychology*) and it has no purchase on a design-ethics or human-factors argument about
-mediated coordination. Drop unless a thesis later needs a well-being outcome measure.
+**RQ7b — Johns: was fixity in the press or in the institutions, and which answer helps?** Johns (1998),
+*The Nature of the Book* (Chicago), argues that print's fixity was an achievement of the Stationers'
+Company, of credit and piracy, of conventions of trust — made, not given by the machine. Eisenstein
+replied and Johns answered in the same issue: Eisenstein (2002), "An Unacknowledged Revolution
+Revisited," *AHR* 107(1): 87–105; Johns (2002), "How to Acknowledge a Revolution," *AHR* 107(1):
+106–125; Eisenstein's reply, pp. 126–128 (all three Crossref-confirmed this session). *Working
+hypothesis, and the reason Johns is an ally rather than a threat:* if the competence to live with print
+was built by institutions rather than read off the technology, then the historical lesson is
+Principle I and II's lesson — algorithmacy will be built by counter-agents, refusal rights and bounded
+contracts, not taught as a reading skill. The pass should read Johns's introduction and ch. 1 and the
+AHR exchange, and report whether Johns's argument supports that reading or whether he would say the
+institutions merely *stabilised* an affordance the press supplied (in which case the paper's use is
+weaker but still legitimate).
+
+**RQ7c — The great-divide counter-literature: what must the paper concede?** Street (1984),
+*Literacy in Theory and Practice*; Finnegan (1988), *Literacy and Orality*; Scribner & Cole (1981),
+*The Psychology of Literacy* (the Vai study, the empirical refutation of the cognitive version); Graff
+(1991), *The Literacy Myth*; Halverson (1992), "Goody and the implosion of the literacy thesis," *Man*
+27(2): 301–317 (DOI on the card). *Working hypothesis:* the paper concedes the cognitive version in one
+sentence, exactly as the sovereignty chapter's audit told that chapter to (G8), and keeps the
+institutional version, which none of these authors deny — Street's "ideological model" *is* the claim
+that literacy's effects are institutional. Graff is the one who cuts closest to "those who kept
+oracy-era habits were disenfranchised": his *literacy myth* is that literacy did not deliver the
+mobility promised for it. The draft must not claim that literacy *rewarded* the literate; it can claim
+that institutions came to *require* literacy, which Graff does not contest. That distinction is the
+whole difference between a claim a reviewer will accept and one they will not.
+
+### The three principles — relevance and adaptation, not research from zero
+
+**RQ8 — Principle I (agentic parity through counter-delegation). Which of the already-carded
+sources grounds an automated agent acting for the coordinated party, and which ground something
+adjacent?** The sovereignty cluster (Viljoen 2021, Calacci & Pentland 2022, Delacroix & Lawrence
+2019, DGA 2022, Aloisi 2024, Johnston & Land-Kazlauskas 2018, Benn & Lazar 2022, Fink 2024,
+Mackenzie & Stoljar 2000, Micheli et al. 2020) is verified *bibliographically*, not at this arm's
+standard: Viljoen, Aloisi, Benn & Lazar and Mackenzie are abstract-level; Calacci and Micheli are
+Crossref-only; Aloisi's one quotation is marked "confirm wording against the PDF." None passed an
+S2-style adversarial pass. And on inspection they split into two mechanisms the paper must not
+conflate: *collective standing* (trusts, cooperatives, bargaining — Delacroix, Fink, Micheli,
+Johnston, Aloisi, DGA Ch. III) and *counter-delegation proper* — a client-side agent that acts on the
+user's behalf inside the coordination. Only Calacci & Pentland's Shipt Calculator (workers pooling data
+to reverse-engineer the pay algorithm) is in the second family, and it is collective, not client-side.
+*Working hypothesis:* the sovereignty cluster grounds the *why* (Viljoen: harms are relational, so
+standing must be collective; Benn & Lazar: the wrong is structural, so notice-and-consent cannot reach
+it) and one *instrument* (Calacci); the client-side counter-agent needs its own small literature, which
+exists and is not yet carded anywhere in the lab: Fukuyama (2021), "Making the Internet Safe for
+Democracy," *Journal of Democracy* 32(2): 37–44, and Keller (2021), "The Future of Platform Power:
+Making Middleware Work," *JoD* 32(3): 168–172 (both Crossref-confirmed) — *middleware* is a user-chosen
+agent that re-ranks and filters on the user's behalf, which is Principle I in policy vocabulary, and
+Keller's is the sceptical read the paper must answer; Brunton & Nissenbaum (2015), *Obfuscation* —
+TrackMeNot and AdNauseam are automated client-side counter-agents, the strongest anchor already in
+this arm's library and still ⚠ (reopen; MIT Press has it open access **[check]**); Hardt, Mazumdar,
+Mendler-Dünner & Zrnic (2023), "Algorithmic Collective Action in Machine Learning," ICML/PMLR 202
+**[check: did not surface in Crossref, which often omits PMLR; locate via proceedings.mlr.press]**;
+Sigg, Hardt & Mendler-Dünner (2025), "Decline Now: A Combinatorial Model for Algorithmic Collective
+Action," CHI 2025, doi:10.1145/3706598.3713966 (Crossref-confirmed) — declining as collective action,
+which also belongs to Principle II; Hildebrandt (2015), *Smart Technologies and the End(s) of Law*
+(carded in the sovereignty library as `hildebrandt2015smart`; her counter-profiling argument is the
+legal-theory version of parity — upgrade depth); Maes (1994), "Agents that reduce work and information
+overload," *CACM* 37(7) **[check pages]** — the origin of the user-agent idea in HCI; Jennings et al.
+(2001), "Automated negotiation: prospects, methods and challenges," *Group Decision and Negotiation*
+10(2) **[check pages]** — negotiation between agents as a technical field, so the paper's counter-agent
+is not science fiction; Rahwan (2018), "Society-in-the-loop," *Ethics and Information Technology* 20:
+5–14 **[check]** — flagged as a lead in `tsamados2022.md` and never carded; and the DMA's
+interoperability obligations (`eu2022dma`, sovereignty library) as the legal precondition for any
+counter-agent to plug in. `green2019.md` stays as the negative anchor: the literature knows the second
+party has a claim ("defendants must have the right to hear and challenge claims against them," 50:21)
+and gives her no instrument. *What is missing and P5 should search for, reporting absence honestly:* a
+peer-reviewed treatment of LLM-based personal agents negotiating with platform agents on a user's
+behalf — Chan et al. (2023), "Harms from Increasingly Agentic Algorithmic Systems," FAccT 2023
+**[check]** is the nearest I know, and it is about harms, not parity.
+
+**RQ9 — Principle II (structural refusal, not hermeneutics). Does the contestability literature
+already show that interface-level contest leaves the objective intact?** Yes, and the lead card is
+clean: `lyons2021.md` (S2-confirmed) — robo-debt was contested successfully case by case for four
+years "while the system was allowed to remain in place," so contestability "should be considered to
+be the last line of defence" and contest "places a burden on the decision subject." That is the
+argument for refusal over hermeneutics in the literature's own words. `decerteau1984.md` (tactics
+inside a space one does not own) and `simmel1950.md` (the *gaudens*'s advantage lasts only while the
+parties fail to combine; so refusal's target is restoring the parties' ability to deal directly)
+carry forward. *What to add:* Zong & Matias (2024), "Data Refusal from Below," *ACM Journal on
+Responsible Computing* 1(1), doi:10.1145/3630107 (Crossref-confirmed) — the design framework for
+refusal the principle needs; Hirschman (1970), *Exit, Voice, and Loyalty* (`hirschman1970exit`,
+sovereignty library) — refusal as exit-within, and the sovereignty arm's exit/voice bridge is already
+built; the legal instruments already carded in the sovereignty library that make "sever the feedback
+loop without losing basic utility" a live obligation rather than a wish — GDPR Arts 21–22
+(`eu2016gdpr`) and DSA Art. 27(3) and Art. 38, the non-profiling recommender option
+(`eu2022dsa`) **[check article numbers against the OJ text]**; and the "withhold training data" line —
+Glaze and Nightshade (Shan et al., USENIX Security 2023; IEEE S&P 2024) **[check exact titles and
+venues]** as the technical form of refusal. `hirsch2017.md` and `alfrink2023.md` (both ⚠) are reopened
+second, only if the draft needs the "contestability by design" phrase; Lyons carries the argument
+without them.
+
+**RQ10 — Principle III (bounded outputs / operational predictability). Is the driver analogy
+already in the human-factors record?** It is: `bainbridge1983.md` (S2-confirmed) — give the operator
+control "at a rate which the operator can follow, even when this may not be the most efficient method
+technically" (p. 777); `miller2019.md` — "referring to probabilities ... is not as effective as
+referring to causes"; `floridisanders2004.md` — the level of abstraction at which a system is
+predictable is a choice the paper must state and rank. Also already carded and needing only
+adaptation: `leesee2004.md` (predictability as a basis of trust), `norman1990.md` (feedback), and
+`sarterwoods1995.md` (mode awareness: the operator needs to know what regime the automation is in,
+not how it computes). *What to add:* Muir (1994), "Trust in automation: Part I," *Ergonomics* 37(11)
+**[check pages]** — predictability, dependability, faith as the three bases of trust, the source Lee &
+See build on; Leveson (2011), *Engineering a Safer World* (MIT Press, open access) — safety as
+constraint enforcement, the engineering statement of "hard guarantees"; Chen, Zaharia & Zou, "How is
+ChatGPT's behavior changing over time?" (2023 arXiv; *Harvard Data Science Review* 2024 **[check]**)
+— documented drift, the empirical need for the guarantee; Rudin (2019), "Stop explaining black box
+machine learning models for high stakes decisions and use interpretable models instead," *Nature
+Machine Intelligence* 1: 206–215 — *the contrast case*: Rudin also rejects post-hoc interpretability,
+but her alternative is still seeing inside; the paper must distinguish bounded outputs from
+interpretable models or a referee will collapse Principle III into Rudin; the SAE J3016 "operational
+design domain" **[check current edition]** as the driver analogy's own engineering term. Perrow (1984),
+*Normal Accidents*, optional.
+
+### The target and the census
+
+**RQ11 — What does the establishment say for itself?** The thesis names five remedies as literacy
+tools misapplied: prompt engineering, mechanistic interpretability, model cards, C2PA, media literacy.
+Two are carded and confirmed (mech-interp, C2PA). One is carded in the scaffolding arm and adapts:
+Zamfirescu-Pereira et al. (2023), "Why Johnny can't prompt," CHI 2023 (`zamfirescupereira2023.md`).
+Two are not carded anywhere: Mitchell et al. (2019), "Model Cards for Model Reporting," FAT* 2019
+**[check pages]**; and a canonical statement of media literacy — Livingstone (2004), "Media literacy
+and the challenge of new information and communication technologies," *Communication Review* 7(1)
+**[check]**, or Buckingham (2003), *Media Education* (Polity) **[check which the field treats as
+canonical]**. The rival constructs the paper must cite and distinguish are already in hand: Long &
+Magerko 2020 (`longmagerko2020.md`), Cotter & Reisdorf 2020, and, in the sovereignty library,
+Dogruel et al. 2022 (an algorithm-literacy scale), Gran et al. 2021, Pangrazio & Selwyn 2019,
+Oeldorf-Hirsch 2025. The paper should quote each remedy's own statement of what it gives the user and
+to whom, then read off the `Remedy locus:` field.
+
+**RQ12 — The census. Where does each account locate the remedy?** The prior harness made RQ9
+answerable by grep with `Parties modeled:`. This pass adds a second header field to every card it
+writes or reopens — `Remedy locus:` with values `subject` (make the person a better reader or a more
+attentive one), `artifact` (make the artifact legible or attested), `adoption` (the yes/no on the whole
+system), `relation` (change the coordination form itself: a counter-agent, a refusal right, a bound),
+or `none`. The category-error thesis is the claim that all six accounts sit in `subject`, `artifact`
+or `adoption` and none in `relation`. If the census says otherwise, the thesis is wrong and the paper
+should know before it is written. A third, optional field for Cluster A cards only — `Adaptivity:`
+`fixed` / `adaptive` / `unaddressed` — is what answers RQ1 by grep.
 
 ---
 
 ## 3. Literature map
 
-Grouped by pass (see §6), not by question, so an agent can take a block whole. Confidence marks:
-plain = I am confident of author, title, venue; **[check]** = verify existence, year, or access
-before relying on it; **[paywalled?]** = expect abstract-only without a library.
+Grouped by pass (§6), so an agent can take a block whole. **Verified/adapt** means the card exists in
+this arm's library with an S2 verdict and needs only a new Relation section against the new thesis (and
+the two new header fields). **Upgrade** means a card exists in the sovereignty library at abstract or
+search depth and must be re-read to primary depth and re-carded in this arm's format. **New** means no
+card anywhere in the lab.
 
-### Cluster A — Postphenomenology and mediation (RQ1, RQ2)
+| Cluster | Verified/adapt (this arm) | Upgrade (sovereignty library) | New (primary-source verification from scratch) |
+|---|---|---|---|
+| A — Verbeek (RQ1) | verbeek2015 ✓, verbeek2008b ✓, verbeek2008 ✓, latour1994 ✓, ihde1990 ✓, corti2023 ✓, redaelli2022 ✓* | — | verbeek2014 (reopen ⚠), verbeek2011 (reopen ⚠), Kudina & Verbeek 2019, Rosenberger & Verbeek 2015 introduction (the field's own statement of its relation schema), Wellner 2014 on multi-attention **[check]**, Romele 2020 *Digital Hermeneutics* **[check relevance]** |
+| B — Vallor & Winner (RQ2, RQ3) | vallor2015 ✓ (p. 109, 117, 118, 122 are the new anchors), vallor2016 ✓ (secondary — the gap), vallor2024 ✓ (secondary), winner1980 ✓, joerges1999 ✓, woolgarcooper1999 ✓, suchman1994 ✓ | — | Vallor 2016 at full text; Vallor 2024 the deskilling/tempo chapters at full text; Winner 1977 (reverse adaptation) **[check]**; Winner 1993 |
+| C — Martela & Steger, Berthon (RQ4, RQ5) | — | — | Martela & Steger 2016; Heintzelman & King 2014; George & Park 2016; Antonovsky 1987 (optional); Berthon & Pitt 2019 (local PDF, full text); Williams 2018 **[check role]**; Wang, Berthon, Pitt & McCarthy 2016, *Business Horizons* 59(6): 655–661 (only if the draft needs Berthon's own service-work application) |
+| D — History (RQ7a–c) | — | ong1982orality, goody1963consequences, goody1977domestication, goody1986logic, goody1968literacy, eisenstein1979printing, innis1951bias, clanchy2013memory, street1984literacy, finnegan1988literacy, scribner1981psychology, graff1991literacy, halverson1992goody, collins2003literacy, wilkinson1965spoken (naming only) | Johns 1998; Eisenstein 2002; Johns 2002; Eisenstein reply 2002; Havelock 1963 (optional); Eisenstein 1983/2005 abridgement if the 1979 volumes are unreachable |
+| E — Principle I and the target (RQ8, RQ11) | green2019 ✓, bruntonnissenbaum2015 ⚠ (reopen), mechanistic_interpretability_method ✓, c2pa ✓*, longmagerko2020 ✓, cotterreisdorf2020 ✓, wachter2018 ✓, jacovi2021 ✓*; scaffolding: zamfirescupereira2023 | viljoen2021relational, calacci2022bargaining, delacroix2019bottom, eu2022dga, aloisi2024regulating, johnston2018organizing, benn2022s, fink2024data, mackenzie2000relational, micheli2020emerging, hildebrandt2015smart, eu2022dma, lazar2025governing, dogruel2022development, gran2021or | Fukuyama 2021; Keller 2021; Hardt et al. 2023 **[check]**; Sigg et al. 2025; Baumann & Mendler-Dünner 2024 (NeurIPS 37 — optional); Maes 1994; Jennings et al. 2001; Rahwan 2018; Chan et al. 2023 **[check]**; Mitchell et al. 2019; Livingstone 2004 or Buckingham 2003 |
+| F — Principles II & III (RQ9, RQ10) | lyons2021 ✓, decerteau1984 ✓*, simmel1950 ✓ (Wolff check), hirsch2017 ⚠ and alfrink2023 ⚠ (second, if at all), bainbridge1983 ✓*, miller2019 ✓*, floridisanders2004 ✓, floridi2016 ✓*, leesee2004 ✓, norman1990 ✓, sarterwoods1995 ✓, parasuramanriley1997 ✓, burrell2016 ✓*, selbstbarocas2018 ✓ | hirschman1970exit, eu2016gdpr, eu2022dsa, eu2024aiact, kaminski2021right, vredenburgh2022right | Zong & Matias 2024; Glaze/Nightshade **[check]**; Muir 1994; Leveson 2011; Chen, Zaharia & Zou 2023/24 **[check venue]**; Rudin 2019; SAE J3016 **[check]**; Perrow 1984 (optional) |
 
-- Ihde, D. (1990). *Technology and the Lifeworld: From Garden to Earth*. Indiana UP. The four
-  relations (embodiment, hermeneutic, alterity, background) and multistability. The hermeneutic
-  relation — the instrument "reads" the world for the human — is the closest existing relation to
-  an interpreting intermediary. Read chapters 5–6.
-- Verbeek, P.-P. (2005). *What Things Do*. Penn State UP. Already the lab's citation for
-  "constitutive mediator" (hospitality CLAIMS.md row 27); re-verify that use and extend it.
-- Verbeek, P.-P. (2006). "Materializing morality: Design ethics and technological mediation."
-  *Science, Technology, & Human Values* 31(3): 361–380. The design-ethics statement of mediation
-  theory; the home of "designers should anticipate mediations."
-- Verbeek, P.-P. (2008). "Cyborg intentionality." *Phenomenology and the Cognitive Sciences* 7(3):
-  387–395. Composite intentionality — human intentionality directed at technological
-  intentionality directed at the world — is the nearest thing to a mediator with its own
-  directedness.
-- Verbeek, P.-P. (2011). *Moralizing Technology*. U Chicago Press. The moralization debate
-  (Achterhuis's speed-bump charge **[check: Achterhuis 1995 is in Dutch; read via Verbeek's
-  account]**) and the account of scripts via Akrich and Latour. Note for the hypothesis map:
-  "script" is Akrich's term, not Verbeek's; Verbeek prefers "mediation."
-- Verbeek, P.-P. (2015). "Beyond interaction: A short introduction to mediation theory."
-  *interactions* 22(3): 26–31. Short, ACM, and the version an HCI reader will know.
-- Akrich, M. (1992). "The de-scription of technical objects." In Bijker & Law (eds), *Shaping
-  Technology / Building Society*. MIT Press. Source of "script."
-- Latour, B. (1992). "Where are the missing masses?" Same volume. And Latour, B. (1994). "On
-  technical mediation." *Common Knowledge* 3(2): 29–64. The four meanings of mediation to set
-  against Φ.
-- Rosenberger, R., & Verbeek, P.-P. (eds) (2015). *Postphenomenological Investigations*.
-  Lexington. For the field's own statement of its relation schema and whether it has a two-human
-  case.
-- Wellner, G. (2016). *A Postphenomenological Inquiry of Cell Phones*. Lexington. **[check:
-  whether it treats phone-mediated interpersonal relations as a distinct relation type]**. This is
-  the one place I expect postphenomenology may already have a two-human schema.
+Rough count: about 45 cards to adapt (a Relation rewrite and two header fields each), about 30 to
+upgrade from the sovereignty library, and about 30 genuinely new. That is roughly the same card
+volume as the prior harness, with a third of the primary reading, which is the right proportion for a
+pivot that keeps its structural core.
 
-### Cluster B — Vallor, virtue, friction (RQ3)
-
-- Vallor, S. (2015). "Moral deskilling and upskilling in a new machine age." *Philosophy &
-  Technology* 28(1): 107–124. The load-bearing paper for RQ3.
-- Vallor, S. (2016). *Technology and the Virtues*. Oxford UP. The twelve technomoral virtues and
-  technomoral wisdom; chapters on moral deskilling and on practices.
-- Vallor, S. (2024). *The AI Mirror*. Oxford UP. **[check: which chapters bear on automation of
-  judgment and whether "friction" appears]**.
-- Vallor, S. (2010). "Social networking technology and the virtues." *Ethics and Information
-  Technology* 12(2): 157–170. Early, and in a target journal.
-- MacIntyre, A. (1981/2007). *After Virtue*. Notre Dame. Chapter 14 on practices, internal goods,
-  institutions — the machinery Vallor imports.
-- Sunstein, C. R. (2021). *Sludge*. MIT Press. And Thaler, R. H., & Sunstein, C. R. (2008).
-  *Nudge*. Yale UP. The opposing literature on friction.
-- Cox, A. L., Gould, S. J. J., Cecchinato, M. E., Iacovides, I., & Renfree, I. (2016). "Design
-  frictions for mindful interactions: The case for microboundaries." CHI EA. The HCI paper that
-  argues for friction by name.
-- Frischmann, B., & Selinger, E. (2018). *Re-Engineering Humanity*. Cambridge UP. "Engineered
-  complacency" — the frictionless-design critique from law and philosophy.
-- Bainbridge, L. (1983). "Ironies of automation." *Automatica* 19(6): 775–779. Deskilling as a
-  human-factors finding forty years before Vallor; bridges clusters B and C.
-- Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018). "The dark (patterns)
-  side of UX design." CHI. Frictionlessness as manipulation, from the design side.
-
-### Cluster C — Human-factors automation trust and reliance (RQ4)
-
-Classic:
-- Lee, J. D., & See, K. A. (2004). "Trust in automation: Designing for appropriate reliance."
-  *Human Factors* 46(1): 50–80.
-- Parasuraman, R., & Riley, V. (1997). "Humans and automation: Use, misuse, disuse, abuse."
-  *Human Factors* 39(2): 230–253. "Abuse" is the designer's category and the closest the
-  literature comes to a third party's objective.
-- Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). "A model for types and levels of
-  human interaction with automation." *IEEE Trans. SMC-A* 30(3): 286–297.
-- Parasuraman, R., & Manzey, D. H. (2010). "Complacency and bias in human use of automation."
-  *Human Factors* 52(3): 381–410.
-- Mosier, K. L., Skitka, L. J., Heers, S., & Burdick, M. (1998). "Automation bias." *Int. J.
-  Aviation Psychology* 8(1): 47–63. And Skitka, Mosier & Burdick (1999). "Does automation bias
-  decision-making?" *IJHCS* 51(5): 991–1006.
-- Hoff, K. A., & Bashir, M. (2015). "Trust in automation: Integrating empirical evidence."
-  *Human Factors* 57(3): 407–434. The review to cite for the field's shape.
-- Dzindolet, M. T., et al. (2003). "The role of trust in automation reliance." *IJHCS* 58(6):
-  697–718.
-- Endsley, M. R., & Kiris, E. O. (1995). "The out-of-the-loop performance problem." *Human
-  Factors* 37(2): 381–394.
-- Sarter, N. B., & Woods, D. D. (1995). "How in the world did we ever get into that mode?" *Human
-  Factors* 37(1): 5–19. Automation surprises are the temporal component of algorithmacy in HF
-  vocabulary.
-- Norman, D. A. (1990). "The 'problem' with automation." *Phil. Trans. R. Soc. B* 327: 585–593.
-- Klein, G., Woods, D. D., Bradshaw, J. M., Hoffman, R. R., & Feltovich, P. J. (2004). "Ten
-  challenges for making automation a 'team player.'" *IEEE Intelligent Systems* 19(6): 91–95. And
-  Christoffersen, K., & Woods, D. D. (2002). "How to make automated systems team players."
-  *Advances in Human Performance and Cognitive Engineering Research* 2: 1–12. The "team player"
-  frame is dyadic by construction; that is the finding.
-- Hollnagel, E., & Woods, D. D. (2005). *Joint Cognitive Systems*. CRC. And Hutchins, E. (1995).
-  *Cognition in the Wild*. MIT Press. Distributed cognition is the nearest HF tradition to
-  irreducibility of a joint system.
-
-Recent human–AI reliance (the wider field around Bo/Buçinca):
-- Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). "Algorithm aversion." *JEP: General*
-  144(1): 114–126. And (2018) "Overcoming algorithm aversion." *Management Science* 64(3):
-  1155–1170 — modifiability restores use, which is evidence for the counterfactual affordance.
-- Logg, J. M., Minson, J. A., & Moore, D. A. (2019). "Algorithm appreciation." *OBHDP* 151:
-  90–103.
-- Bansal, G., et al. (2021). "Does the whole exceed its parts?" CHI.
-- Vasconcelos, H., et al. (2023). "Explanations can reduce overreliance on AI systems during
-  decision-making." *PACM HCI* 7(CSCW1).
-- Lai, V., Chen, C., Smith-Renner, A., Liao, Q. V., & Tan, C. (2023). "Towards a science of
-  human-AI decision making." FAccT. The design-space review.
-- Green, B., & Chen, Y. (2019). "The principles and limits of algorithm-in-the-loop decision
-  making." *PACM HCI* 3(CSCW).
-- Jacovi, A., Marasović, A., Miller, T., & Goldberg, Y. (2021). "Formalizing trust in artificial
-  intelligence." FAccT.
-- Miller, T. (2023). "Explainable AI is dead, long live explainable AI! Hypothesis-driven decision
-  support using evaluative AI." FAccT. The nearest published relative of cognitive forcing.
-
-Triadic HF cases:
-- Midkiff, A. H., & Hansman, R. J. (1993). "Identification of important 'party line' information
-  elements and implications for situational awareness in the datalink environment." *Air Traffic
-  Control Quarterly* 1(1). **[check: exact pages; access likely via MIT ICAT reports]**. And
-  Pritchett & Hansman on party-line information requirements **[check: year and venue — I am not
-  confident of the citation]**. If these hold, CPDLC is the paper's one real-world human-factors
-  case of suppressing the direct channel.
-- Exam-room computing and clinical decision support between two clinicians: no specific source I
-  can name with confidence — a pass agent should search, and report absence honestly.
-
-### Cluster D — Value-sensitive design, contestability, standards (RQ5)
-
-- Friedman, B., & Hendry, D. G. (2019). *Value Sensitive Design: Shaping Technology with Moral
-  Imagination*. MIT Press. Direct/indirect stakeholders; the seventeen methods.
-- Friedman, B., Kahn, P. H., & Borning, A. (2006/2008). "Value sensitive design and information
-  systems." In Zhang & Galletta (eds) 2006, reprinted in Himma & Tavani (eds) *Handbook of
-  Information and Computer Ethics* 2008.
-- Friedman, B., & Nissenbaum, H. (1996). "Bias in computer systems." *ACM TOIS* 14(3): 330–347.
-  Preexisting, technical, emergent bias — emergent bias is the temporal component again.
-- Le Dantec, C. A., Poole, E. S., & Wyche, S. P. (2009). "Values as lived experience." CHI.
-- Borning, A., & Muller, M. (2012). "Next steps for value sensitive design." CHI.
-- Manders-Huits, N. (2011). "What values in design?" *Science and Engineering Ethics* 17(2):
-  271–287. In a target journal.
-- JafariNaimi, N., Nathan, L., & Hargraves, I. (2015). "Values as hypotheses." *Design Issues*
-  31(4): 91–104. In a target journal; the sharpest critique.
-- van de Poel, I. (2013). "Translating values into design requirements." In Michelfelder et al.
-  (eds), *Philosophy and Engineering*. Springer. The values hierarchy.
-- Umbrello, S., & van de Poel, I. (2021). "Mapping value sensitive design onto AI for social good
-  principles." *AI and Ethics* 1: 283–296 **[check volume/pages]**.
-- Hirsch, T., Merced, K., Narayanan, S., Imel, Z. E., & Atkins, D. C. (2017). "Designing
-  contestability." DIS. Lyons, H., Velloso, E., & Miller, T. (2021). "Conceptualising
-  contestability." *PACM HCI* 5(CSCW1). Alfrink, K., Keller, I., Kortuem, G., & Doorn, N. (2023).
-  "Contestable AI by design." *Minds and Machines* 33: 613–639.
-- IEEE Global Initiative (2019). *Ethically Aligned Design*, 1st ed. Free. IEEE 7000-2021 and IEEE
-  7001-2021 **[paywalled?]**; Winfield, A. F. T., et al. (2021). "IEEE P7001: A proposed standard
-  on transparency." *Frontiers in Robotics and AI* 8 — open access and the readable route in.
-- Spiekermann, S. (2016). *Ethical IT Innovation*. CRC. The value-based engineering behind 7000.
-
-### Cluster E — Winner, STS, CSCW, the third party (RQ6, RQ8, RQ9)
-
-- Winner, L. (1980). "Do artifacts have politics?" *Daedalus* 109(1): 121–136. Winner, L. (1986).
-  *The Whale and the Reactor*. U Chicago. Winner, L. (1977). *Autonomous Technology*. MIT Press.
-  Read the second claim (inherently political technologies) more closely than the first.
-- Joerges, B. (1999). "Do politics have artefacts?" *Social Studies of Science* 29(3): 411–431.
-  Woolgar, S., & Cooper, G. (1999). "Do artefacts have ambivalence?" *SSS* 29(3): 433–449. The
-  bridges are contested; do not use them.
-- Winner, L. (1993). "Upon opening the black box and finding it empty." *ST&HV* 18(3): 362–378.
-- Winograd, T., & Flores, F. (1986). *Understanding Computers and Cognition*. Ablex. The
-  Coordinator. Suchman, L. (1994). "Do categories have politics?" *CSCW* 2(3): 177–190, and
-  Winograd's reply in the same issue. Suchman, L. (2007). *Human–Machine Reconfigurations*.
-  Cambridge UP.
-- Schmidt, K., & Simone, C. (1996). "Coordination mechanisms." *CSCW* 5(2–3): 155–200. The
-  protocol-plus-artifact account of a mechanism that coordinates *between* people.
-- Simmel, G. (1908/1950). "The triad." In Wolff (ed.), *The Sociology of Georg Simmel*. Free
-  Press, pp. 145–169. Mediator, tertius gaudens, divide et impera. Burt, R. S. (1992). *Structural
-  Holes*. Harvard UP. Obstfeld, D. (2005). "Social networks, the tertius iungens orientation."
-  *ASQ* 50(1): 100–130. The dissertation's Paper 1 may already hold these; check before carding.
-- de Certeau, M. (1984). *The Practice of Everyday Life*. U California. Introduction and ch. 3,
-  tactics versus strategies.
-- Brunton, F., & Nissenbaum, H. (2015). *Obfuscation*. MIT Press.
-- DiSalvo, C. (2012). *Adversarial Design*. MIT Press. DiSalvo, C. (2022). *Design as Democratic
-  Inquiry*. MIT Press. Mouffe, C. (2000). *The Democratic Paradox*. Verso — the agonism DiSalvo
-  builds on.
-- Dunne, A., & Raby, F. (2013). *Speculative Everything*. MIT Press. Bardzell, J., & Bardzell, S.
-  (2013). "What is 'critical' about critical design?" CHI. Ratto, M. (2011). "Critical making."
-  *The Information Society* 27(4): 252–260. For placing adversarial design among its neighbors.
-- Seams lineage, which Ehsan et al. cite and the paper should own: Weiser, M. (1991). "The
-  computer for the 21st century." *Scientific American* 265(3): 94–104. Chalmers, M., & Galani,
-  A. (2004). "Seamful interweaving." DIS. Inman, S., & Ribes, D. (2019). "'Beautiful seams':
-  Strategic revelations and concealments." CHI. Dourish, P., & Bell, G. (2011). *Divining a
-  Digital Future*. MIT Press, the seamful chapter.
-- Adjacent construct the paper must cite because it claims to supersede it: Long, D., & Magerko,
-  B. (2020). "What is AI literacy?" CHI. Cotter, K., & Reisdorf, B. C. (2020). "Algorithmic
-  knowledge gaps." *IJoC* 14. Zuboff, S. (1988). *In the Age of the Smart Machine*. Basic Books —
-  "informate" as the literacy-era competence.
-
-### Cluster F — Floridi, Taddeo, and the transparency-ideal critics (RQ7)
-
-- Floridi, L., & Sanders, J. W. (2004). "On the morality of artificial agents." *Minds and
-  Machines* 14(3): 349–379. Levels of abstraction.
-- Floridi, L. (2016). "Faultless responsibility." *Phil. Trans. R. Soc. A* 374: 20160112.
-- Floridi, L., Cowls, J., et al. (2018). "AI4People." *Minds and Machines* 28(4): 689–707. Floridi,
-  L., & Cowls, J. (2019). "A unified framework of five principles." *HDSR* 1(1).
-- Taddeo, M. (2010). "Modelling trust in artificial agents." *Minds and Machines* 20(2): 243–257.
-  Taddeo, M., & Floridi, L. (2018). "How AI can be a force for good." *Science* 361(6404):
-  751–752.
-- Mittelstadt, B. D., Allo, P., Taddeo, M., Wachter, S., & Floridi, L. (2016). "The ethics of
-  algorithms: Mapping the debate." *Big Data & Society* 3(2). Tsamados, A., et al. (2022). "The
-  ethics of algorithms: Key problems and solutions." *AI & Society* 37: 215–230.
-- Burrell, J. (2016). "How the machine 'thinks.'" *Big Data & Society* 3(1). Ananny, M., &
-  Crawford, K. (2018). "Seeing without knowing." *New Media & Society* 20(3): 973–989. Kroll, J.
-  A., et al. (2017). "Accountable algorithms." *U. Penn. L. Rev.* 165: 633–705. Selbst, A. D., &
-  Barocas, S. (2018). "The intuitive appeal of explainable machines." *Fordham L. Rev.* 87: 1085.
-- Wachter, S., Mittelstadt, B., & Russell, C. (2018). "Counterfactual explanations without opening
-  the black box." *Harvard JOLT* 31(2): 841–887. The legal-ethics ground for affordance 2.
-- Miller, T. (2019). "Explanation in artificial intelligence: Insights from the social sciences."
-  *Artificial Intelligence* 267: 1–38.
-
-### Cluster G — The hypothesis map's own proposal (RQ9 test case)
-
-- C2PA specification (Coalition for Content Provenance and Authenticity), current version — free,
-  a standard, not a paper.
-- Mechanistic interpretability: Olah, C., et al. (2020). "Zoom in: An introduction to circuits."
-  *Distill*. Elhage, N., et al. (2021). "A mathematical framework for transformer circuits."
-  Anthropic (web). Bereska, L., & Gavves, E. (2024). "Mechanistic interpretability for AI safety
-  — a review." *TMLR* **[check]**. Read only far enough to state what the method discloses and to
-  whom.
-- A sample of 20 entries from the Gemini report's 193-item bibliography, drawn at random, checked
-  for existence and for whether the cited text says what the report says. This yields a
-  fabrication-rate estimate and settles whether any of it is worth mining further.
+Not carried forward, and why: the four ⚠ human-factors cards (skitka1999, christoffersenwoods2002,
+hutchins1995, friedman2019) — the new thesis does not lean on them; the VSD cluster beyond the three
+critics already quoted — VSD is not one of the six accounts; DiSalvo 2012 ⚠ and Obstfeld 2005 ⚠ — the
+Simmel reading carries the politics without them.
 
 ---
 
-## 4. Candidate theses
+## 4. Venue: one paper for *Philosophy & Technology*, with the cut line pre-drawn
 
-Four positions, each of which the research above could support and each of which excludes the
-others as the paper's spine.
+**The call: one paper, *Philosophy & Technology* first, *Techné* second, at 11,000–12,000 words —
+and a compression device that makes that length honest rather than hopeful.** The device is that the
+six critiques are three pairs and each pair yields one principle:
 
-**T1 — The mediation thesis (philosophy of technology).** Postphenomenology has no relation type
-for a technology between two intentional parties, and its non-neutrality thesis cannot say when a
-mediator is load-bearing because it holds that every mediator is. The bilateral hermeneutic
-relation supplies the missing type, and Φ supplies the threshold: a mediation is constitutive when
-the coordination it carries is irreducible. Verbeek's design ethics then becomes conditional —
-anticipate mediations *where Φ > 0* — and seamful disclosure is its instrument. Risk: the paper
-becomes a Verbeek exegesis and the human-factors reader leaves.
+- *Legibility's two forms* — Verbeek's "equipping users with the ability to 'read' how the
+  technologies they use help to shape their actions" (2014, p. 78) and Winner's adoption-only politics
+  — both leave the enrolled person without an agent inside the coordination → **Principle I.**
+- *The cultivated subject* — Vallor's practised judgment and Berthon's trained attention — both
+  remedies presuppose a tempo the mediator sets → **Principle II.**
+- *Comprehensibility mistaken for visibility* — Martela & Steger's coherence and the Context Engine's
+  interpretability-plus-provenance — comprehensibility is predictability, not disclosure →
+  **Principle III.**
 
-**T2 — The friction thesis (design ethics with human-factors evidence).** The friction dilemma is
-unresolvable on the user's preference or the designer's intent and dissolves once friction is
-sorted by whose objective it serves. Friction that serves the intermediary's objective is sludge;
-friction that returns a judgment to a co-determined party is scaffolding. Vallor's deskilling
-argument gives the normative criterion (does the friction preserve a practice?), the cooptation
-reading gives the structural one (is there a third objective in the loop?), and Φ tells the
-designer when the second question even arises. Buçinca, Bo, and Rader are the evidence base
-already in hand; Sunstein is the opponent. Risk: the Φ half can read as decoration unless the
-paper shows a case where the dyadic and triadic readings recommend different frictions.
+Three triples at roughly 1,500 words each is 4,500; the construct and the three-case ladder, reused,
+2,500; the history, 1,500; the opening, the Simmel politics section and the close, 2,500. That is
+11,000 with room, and it is how a six-account critique fits a journal article without becoming a
+survey. The archived draft ran 6,400 words for a smaller thesis, so 11,000 is a stretch, not a leap.
 
-**T3 — The reliance thesis (human factors).** *Appropriate reliance* is undefined for triadic
-automation. Lee & See define trust relative to the trustor's goals; Parasuraman & Riley's
-categories run out at "abuse," which is the designer's fault, not a third party's pursuit. When the
-automation calibrates both humans and its objective belongs to neither, calibration has no target,
-and the operator's competence is not reliance but algorithmacy. CPDLC party-line loss is the field
-case. Risk: the case literature may be thinner than I hope, and *Human Factors* will want data.
+Why *Philosophy & Technology* over the split. The journal scan (2026-09-18) found no stated word cap,
+mediation theory in the last two volumes (Martino & Possati 2026; Zelny 2025, which already works
+Ihde and Verbeek against virtue — the nearest published neighbour to the Vallor/Verbeek pairing), and
+a commentary-and-reply culture that gives a category-error argument the second life it wants. Vallor
+2015 is in this journal. The Verbeek reformulation (RQ1) must be argued before readers who know the
+relation schema cold, and it cannot be argued in a design-journal aside. *Techné* is the second target
+for the same reason with an 8,500-word cap, which the compression device just fits; its virtue-ethics
+special issue closed in March, so the route is a regular submission. *Ethics and Information
+Technology*'s 8,000-word hard ceiling rules it out for the whole argument. *Big Data & Society* stays
+ruled out on the scan's own verdict.
 
-**T4 — The methodology thesis (design research).** VSD and the four affordances are complements at
-different levels — process versus product — but VSD's consensual stakeholder model breaks under
-cooptation, where one stakeholder's value is the extraction of the others' agency. Adversarial
-design supplies the politics VSD lacks; contestability-by-design supplies the verb the definition
-needs; and the four affordances are what adversarial design looks like when built for the co-opted
-party rather than for a public. Risk: three design traditions plus Φ is a crowded paper.
+Why not split now. A theory piece (six accounts, one error) that ends without the principles ends on
+"so what," and a design piece (three principles) without the critique has no warrant for its three
+"not X but Y" contrasts — each principle is defined against the paradigm it replaces. The thesis's force
+is the entailment, and a split severs it.
+
+**The cut line, if the draft passes 13,000 words or a referee asks for it:** the theory paper keeps
+the construct, the ladder, the history and the three pairs, and ends by *naming* the three principles
+in one paragraph as consequences; the design paper (for *EIT*, under 8,000, where Christiaens 2025 on
+Airbnb's two-sided rating system and Malone et al. 2025 on epistemic agency are the interlocutors)
+opens by citing the theory paper for the error and spends its length on the three principles' evidence
+— middleware, refusal design, bounded outputs — which is HCI-and-policy evidence a philosophy referee
+does not want at length anyway. That split is clean because the pairs → principles structure already
+puts the seam where the cut would go. Decide at 13,000 words, not before.
 
 ---
 
-## 5. Target journals
+## 5. Register and altitude: how the history and the structure connect without overclaiming
 
-I cannot check 2025–2026 tables of contents from here. Each entry states what the venue has
-published in this territory that I am confident of, and what shape of paper it takes; the harness
-includes a short pass to read the last two volumes' contents and confirm or overturn these fits.
+The three-case ladder is a micro, structural claim: *this* coordination form has Φ > 0 and *that* one
+does not, on stated models, evidenced by field cases (CPDLC, the Coordinator, gig platforms). The
+category-error framing is a macro, historical claim: print replaced an episteme and the oral were
+disenfranchised. The second is larger by orders of magnitude than anything the paper proves, and it is
+contested at every load-bearing point by people (Street, Graff, Johns) a reviewer at a mediation-theory
+venue will have read. The paper's own house rule — modest about what is proven, confident about the
+thesis — settles how the two connect.
 
-- **Ethics and Information Technology** (Springer). Vallor 2010 is here; the journal takes
-  conceptual argument at 8–10k words with a light empirical base. Best fit for T2 and a good home
-  for T1. Ranked first.
-- **Philosophy & Technology** (Springer; Floridi is editor-in-chief). Vallor 2015 deskilling is
-  here. Favors formally disciplined argument — a levels-of-abstraction defense of the Φ verdict
-  would be at home. Best fit for T1; T2 viable. Risk: an HF reader will not see it.
-- **Design Issues** (MIT Press). JafariNaimi et al. 2015 and DiSalvo's design-theory work are here.
-  Takes 6–8k-word theoretical essays on design; no experiments expected. Best fit for T4; T2 works
-  if framed as a design argument.
-- **Science and Engineering Ethics** (Springer). Manders-Huits 2011 is here. Engineering-ethics
-  readership; a VSD-methodology comparison (T4) fits; T2 fits if pitched at engineers.
-- **Big Data & Society** (SAGE, open access). Mittelstadt 2016, Burrell 2016, Seaver 2017. Critical
-  data studies; the cooptation lens is native here and Φ would need careful framing to avoid
-  reading as scientism. Fits a sociological cut of T2 or T4.
-- **International Journal of Human-Computer Studies** (Elsevier). Skitka 1999 and Dzindolet 2003
-  are here. Takes conceptual frameworks with theoretical depth as well as experiments. Best HF-side
-  home for T3 if the paper offers a formal model and testable propositions.
-- **Theoretical Issues in Ergonomics Science** (Taylor & Francis). The HF venue that exists for
-  theory papers. A cleaner fit for T3 than *Human Factors*.
-- **Human Factors** (SAGE/HFES). Lee & See 2004, Parasuraman & Riley 1997, Hoff & Bashir 2015 are
-  here. Takes reviews and theory only when they organize a literature; a pure argument paper is a
-  hard sell. Fit for T3 only with a substantial literature integration.
-- **Techné: Research in Philosophy and Technology**. Postphenomenology's home journal. Fit for T1
-  only; too narrow for the reconciliation the piece wants.
-- **AI & Society** (Springer). Tsamados 2022. Broad, receptive, lower selectivity. A fallback.
+**The history names the shape of the error; the structure proves the distinction. Nothing in the
+paper's argument depends on the history being true in its strong form.** Concretely:
 
-My ordering for T2: Ethics and Information Technology, then Design Issues, then Philosophy &
-Technology. For T3: IJHCS, then TIES.
+1. *The analogy licenses no inference.* The draft says, in as many words, that the print transition is
+   offered as a precedent for the *kind* of mistake — treating a new relation as a new medium of an old
+   kind — and not as evidence that generative AI is such a transition. What shows generative AI mediates
+   rather than moderates is the structural test on the three cases, and that test is what §3 of the
+   draft does. The history motivates; the ladder demonstrates.
+2. *The history is stated at the altitude the sources bear.* The sovereignty chapter already holds the
+   right line and was audited into it: the claim is about coordination and competence, not cognition.
+   Clanchy's memory-to-record and Goody 1986's institutional logic of writing are the register; Ong's
+   "restructuring of consciousness" is quoted, if at all, as the strong version the paper does not need.
+   One sentence concedes the great divide is contested (Street, Finnegan, Halverson, Scribner & Cole),
+   and one sentence says why the concession costs nothing here. Graff's literacy myth is answered by
+   claiming only that institutions came to *require* literacy, never that literacy rewarded the literate.
+3. *Johns is engaged as support, not parried.* If fixity was made by institutions, then the competence
+   to live with print was institutionally built; the paper's three principles are the institutional
+   building for the algorithmic case. The draft says this and cites the 2002 exchange so a reviewer
+   sees the debate was read, not skirted.
+4. *The two registers get different verbs.* The history is written in the past tense about what people
+   had to be able to do; the structure is written in the present tense about what a stated model shows.
+   Where the draft moves from one to the other, the sentence that carries the move names the change of
+   altitude ("The analogy stops here; what follows is a claim about a model").
+5. *The thesis stays confident.* Modest ≠ self-defeating. That the history is analogy does not make the
+   category error a hunch; the error is demonstrated on the six texts by the `Remedy locus:` census
+   (RQ12), which is a checkable claim about what those accounts say, and the three principles follow
+   from it whether or not Gutenberg did what Eisenstein says.
 
 ---
 
 ## 6. Harness design
 
-Precedent: the `algorithmacy_scaffolding` arm ran six parallel Fable passes, produced 41 cards, and
-its dossier found one misattributed citation carrying a claim it never supported (Quinby), one
-citation ambiguity verified only against a 2025 rewrite (DeKeyser), one chapter verified only from
-secondary characterizations (Scardamalia & Bereiter), four abstract-only or second-hand sources,
-and one verified finding that contradicted a design affordance as written (Bo 2025). That is the
-quality bar: a pass is good when it reports those things, not when it avoids them.
+Precedent: the prior harness on this arm ran eight research passes and three verification passes for
+99 cards and caught, among other things, a Spence/Vallor misattribution, a MacIntyre citation that did
+not exist in the text cited, and a Verbeek "static script" premise that the primary text contradicts.
+That is the bar: a pass is good when it reports what breaks.
 
-**Eight research passes plus two service passes**, Fable model, run in parallel, each writing
-cards to `submissions/algorithmacy_design_ethics/literature/library/` in the exact format of
-`submissions/algorithmacy_scaffolding/literature/library/ehsan2024.md`.
+**Six research passes plus one adversarial verification pass**, Fable model, run in parallel, each
+writing cards to `submissions/algorithmacy_design_ethics/literature/library/` in this arm's existing
+card format (header line, Identifier / Read depth / Source-tier / Evidence basis / Parties modeled /
+Relation last checked; then *What it argues*, *Relation to the argument*, *Caution*), extended by the
+two new header fields in RQ12.
 
-| Pass | Cluster | Questions | Expected cards |
-|---|---|---|---|
-| P1 | A — Postphenomenology and mediation | RQ1, RQ2 | 8–10 |
-| P2 | B — Vallor, virtue, friction | RQ3 | 8–10 |
-| P3 | C(i) — Classic HF automation trust | RQ4 | 10–12 |
-| P4 | C(ii) — Recent human–AI reliance + triadic HF cases | RQ4, RQ9 | 8–10 |
-| P5 | D — VSD, contestability, standards | RQ5 | 10–12 |
-| P6 | E — Winner, STS, CSCW, the third | RQ6, RQ8, RQ9 | 10–12 |
-| P7 | F — Floridi/Taddeo and transparency critics | RQ7 | 8–10 |
-| P8 | G — Hypothesis-map audit (mech-interp, C2PA, 20-entry sample) | RQ9 | 4–6 + a rate |
-| S1 | Journal scan: last two volumes of the nine venues in §5 | — | one memo |
-| S2 | Adversarial verification of every ✓ card from P1–P8 | — | corrections |
+| Pass | Cluster | Questions | Work | Expected cards |
+|---|---|---|---|---|
+| P1 | A — Verbeek and the adaptivity axis | RQ1 | Reopen verbeek2014 and verbeek2011; card Kudina & Verbeek 2019 and Rosenberger & Verbeek 2015; re-Relation verbeek2015/2008/2008b, latour1994, ihde1990, corti2023; set `Adaptivity:` on every Cluster A card | 4 new/reopened + 7 adapted |
+| P2 | B — Vallor and Winner | RQ2, RQ3 | Vallor 2016 and 2024 at full text (institutional access); Winner 1977 [check], 1993; re-Relation vallor2015 (p. 109/117/118/122 anchors), winner1980; police the MacIntyre error | 4 new + 4 adapted |
+| P3 | C — Martela & Steger; Berthon | RQ4, RQ5 | M&S 2016 full text with the coherence definition quoted verbatim; Heintzelman & King, George & Park; Berthon & Pitt 2019 from the local PDF, pages re-mapped to 131–137; Williams 2018 [check role] | 5–6 new |
+| P4 | D — The history | RQ7a–c | Upgrade the fifteen sovereignty cards to primary depth in this arm's format (Ong via archive.org; Goody & Watt via the DOI; Goody 1986; Clanchy; the critics); card Johns 1998 and the 2002 AHR exchange; carry the sovereignty audit's O6 and G8 findings into the Relation sections | 18–20 |
+| P5 | E — Principle I and the target's own texts | RQ8, RQ11 | Upgrade the ten sovereignty cards and hildebrandt2015smart; reopen bruntonnissenbaum2015; card middleware (Fukuyama, Keller), algorithmic collective action (Hardt [check], Sigg), Maes, Jennings, Rahwan [check], Chan [check]; card Mitchell 2019 and a media-literacy canon text; adapt green2019, mech-interp, C2PA, longmagerko2020, zamfirescupereira2023 (from the scaffolding arm); sort every card into *collective standing* vs *counter-delegation proper* | 12–14 new + 12 upgraded + 6 adapted |
+| P6 | F — Principles II and III | RQ9, RQ10 | Adapt lyons2021, decerteau1984, simmel1950 (and settle Wolff vs AJS pagination), bainbridge1983, miller2019, floridisanders2004, floridi2016, leesee2004, norman1990, sarterwoods1995; upgrade hirschman1970exit, eu2016gdpr, eu2022dsa; card Zong & Matias, Muir, Leveson, Chen–Zaharia–Zou [check], Rudin, SAE J3016 [check], Glaze/Nightshade [check]; reopen hirsch2017/alfrink2023 only if time remains | 8–10 new + 3 upgraded + 10 adapted |
+| S2 | Adversarial verification of every card P1–P6 touched | — | Re-open each source; string-match every quotation and page; check every Relation claim against the source; downgrade flags; write the verdict block | corrections |
 
-Roughly 70–80 cards before S2 prunes. That is about double the scaffolding arm, which is right for
-a paper that must show awareness of five literatures rather than one.
+**Every research-pass prompt must require** the seven disciplines of the prior harness, restated so
+they are not softened by familiarity:
 
-**Every research-pass prompt must require:**
+1. *Primary source or nothing.* No card without the version of record or an author-deposited copy
+   opened. Read depth recorded as `full_text`, `partial` (say which sections), `abstract_only` or
+   `secondary` (name the carrier). A card at less than full text says so in its first line.
+2. *Access flags by name* — paywalled, borrow-only, standards behind a fee — and no paraphrase of a
+   paywalled text's argument from its abstract as if read. Verbeek 2014, Vallor 2016, M&S 2016, Johns
+   1998 and Eisenstein 1979 are the five most likely to need institutional access; the pass says which
+   route worked.
+3. *No invented anything.* No page, quotation, DOI, volume or author list the agent did not see. A
+   **[check]** it cannot resolve is dropped and listed as dropped in the memo.
+4. *The two census fields on every card touched:* `Parties modeled:` (as before) and `Remedy locus:`
+   (RQ12); `Adaptivity:` on Cluster A.
+5. *Relation to the argument* written against §1's definition and the specific RQ, naming which
+   principle the source bears on, and saying outright when the source cuts *against* the critique it
+   was expected to support. For this pivot that instruction has teeth: P1 is expected to report that
+   Verbeek is not static, P3 that Berthon does not say "technology fast" and that Martela & Steger's
+   coherence may side with Principle III, P4 that Graff contests disenfranchisement. Contradictions are
+   the pass's most valuable output; a pass that confirms all six critiques as briefed has not read
+   carefully.
+6. *Caution section* on every card: what the source does not show, its genre (a practitioner column, a
+   reply to critics, a review), its sample.
+7. *A closing memo per pass, at most 400 words:* the three strongest cards, every source dropped and
+   why, every finding that contradicts a critique or a principle, the RQ's answer in one sentence, and
+   what the agent would read next with another day.
 
-1. *Primary-source verification.* No card without the agent having opened the version of record
-   or an author-deposited preprint. Read depth recorded as one of `full_text`, `partial`
-   (say which sections), `abstract_only`, or `secondary` (name the citing source). A card built at
-   `abstract_only` or `secondary` says so in its first line and in the INDEX flag.
-2. *Access flags.* Paywalled, HathiTrust search-only, standards behind a fee, and out-of-print
-   books each get a named flag. The agent does not paraphrase a paywalled paper's results from its
-   abstract as though they were read.
-3. *No invented anything.* No page number, quotation, DOI, volume, or author list the agent did
-   not see. A quotation without a seen page number is paraphrased and marked. A **[check]** entry
-   from §3 that cannot be resolved is dropped and reported as dropped.
-4. *The dyadic/triadic field.* A new header field for this arm: `Parties modeled:` with one of
-   `human–technology`, `human–technology–world`, `two humans + mediator`, `designer–stakeholders`,
-   or `n/a`. This is what makes RQ9 answerable by grep at the end rather than by re-reading.
-5. *Relation to the argument* written against the tightened definition in §1, naming which axis
-   (structural, objective) and which affordance the source touches, and stating outright when the
-   source cuts *against* the lab's construct. Contradictions are the pass's most valuable output.
-6. *Caution section* on every card, in the Ehsan-card style: what the source does not show, the
-   sample, the design, the setting.
-7. *A closing memo per pass* of at most 400 words: the three strongest cards, every source
-   dropped and why, every finding that contradicts the definition or an affordance, and what the
-   agent would read next with another day.
+**Two pass-specific instructions.** P4 writes cards that the sibling arm (`algorithmacy_scaffolding`)
+will cite, so each history card's Relation section carries two short paragraphs — one for this paper's
+category-error use, one for the scaffolding essay's "Post-Gutenberg imperative" section — and the memo
+flags anything in that essay's conclusion (its clerical-monopoly narrative, its "stripped of agency"
+claim) that the primary texts will not bear. P5 sorts, in its memo, which of the Principle I cards
+ground *counter-delegation proper* and which ground *collective standing*, because the draft must keep
+those two apart and the brief conflated them.
 
-**S2, the adversarial verifier**, takes each card marked ✓ and tries to break it: re-open the
-source, check that every quoted string and number appears, check that the "Relation" claim is not
-stronger than the source. It writes corrections into the card and downgrades the flag where
-warranted. This is the step that caught Quinby last time; it is not optional.
-
-**Ordering.** P1–P8 and S1 run in parallel on day one. S2 runs after all eight report. The INDEX
-and a dossier in the form of `RESEARCH_DOSSIER.md` are written last, by the coordinating agent, not
-by any pass — the dossier's job is to map cards back onto the nine questions and say which thesis
-survived.
-
-**What not to do.** Do not re-verify Flower & Hayes 1981, Ellis 1996, Yarlas & Sloutsky 2000,
-Eslami et al. 2015, Rader/Cotter/Cho 2018, Reich 1964, Stark & Vanden Broeck 2024, Llewellyn 1930,
-or Knorr Cetina & Bruegger 2002; adapt their existing cards with a fresh "Relation" section as the
-scaffolding arm did for Stark and Selznick. Do not card Martela & Steger. Do not treat any Gemini
-bibliography entry as a lead until P8 has sampled the fabrication rate.
+**Ordering.** P1–P6 run in parallel. S2 runs after all six report. The INDEX update and a dossier in
+the form of the archived `RESEARCH_DOSSIER.md` are written last by the coordinating agent, mapping
+cards onto RQ1–RQ12 and stating, per critique, whether it survived as briefed, survived reformulated,
+or fell. **No prose starts until that dossier says whether RQ1 and RQ4 came back.**
 
 ---
 
-## 7. The strongest candidate
+## 7. What this pass must establish before any prose is written
 
-T2, the friction thesis, is the one to build the paper around. It is the only candidate that makes
-both lenses do visible work in one argument: the cooptation reading supplies the criterion (whose
-objective the friction serves), the Φ reading supplies the trigger (whether a third objective is in
-the loop at all), and neither can carry the argument alone — a Φ-free version cannot tell a
-translator from a platform, and a cooptation-only version has no test for when the structure
-demands the competence. It has an opponent worth having in Sunstein's sludge and in every
-commercial frictionlessness brief, it inherits three verified experiments from the scaffolding arm
-as its evidence base, and it lands in the journal (*Ethics and Information Technology*) whose
-readership already knows Vallor and would meet the Φ material as a fresh instrument rather than an
-intrusion. Its one real risk is that Φ reads as decoration, and the cure is specific: the paper
-needs one worked case where the dyadic and triadic readings recommend different frictions — the
-datalink party line, if P4 finds it, or a delivery-platform model the lab can already compute. T1
-is the natural companion paper for *Philosophy & Technology* once T2 is out; T3 is the one to hold
-until the triadic HF cases are confirmed to exist.
+The one thing that has to come back is that the six accounts share a *single* fault that survives
+their primary texts — that Verbeek's "read the mediations," Vallor's cultivated judgment, Winner's
+adoption decision, Martela & Steger's comprehensibility, Berthon's wise mindfulness and the Context
+Engine's disclosure all locate the remedy in the subject, the artifact or the adoption decision, and
+none in the relation between the two coordinated people. That is what the `Remedy locus:` census tests,
+and it is the whole warrant for calling the mistake a category error rather than six separate
+disagreements; if even two of the six put the remedy in the relation, the paper has four quibbles and a
+list of design preferences, and the three principles lose the common ground that makes them one
+argument. The two readings most at risk are Verbeek (whose p. 78 "read" is subject-side but whose
+immersion relation and persuasive mirror reach toward the relation) and Martela & Steger (whose
+coherence may already be predictability, which would move them from target to ally). Settle those two
+first, on the texts, and the rest of the paper is a matter of writing.

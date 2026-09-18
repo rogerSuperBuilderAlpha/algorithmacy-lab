@@ -28,3 +28,22 @@ A survey of other people's experiments; the psychology it draws on (Hilton, Lomb
 **What I checked:** Downloaded arXiv 1706.07269 (66 pp.) and searched for every quotation; pulled the Crossref record for the DOI.
 
 **Findings:** All quotations are verbatim (the four findings, the causal-attribution sentence, the §4.5.2 probability passage, Hilton and McClure, Kulesza's soundness/completeness result and the three principles — printed as "(1) Be sound; (2) Be complete; but (3) Don't overwhelm" — dilution, "interpret explanations as biased," the "model of self" and "maxims of communication" sentences, and the foil sentence). One correction: the DOI was marked unverified; Crossref resolves 10.1016/j.artint.2018.07.007 to this article, *Artificial Intelligence* 267, pp. 1–38, and the Identifier and Caution lines now say so.
+
+---
+
+## Relation to Principle III — bounded outputs, not mechanistic interpretability (cluster F pass, 2026-09-18)
+
+**Remedy locus:** artifact (the explanatory agent's model of itself and its conversational conduct).
+
+Miller supplies Principle III's argument that mechanistic transparency is the wrong *kind* of thing to give a person, independently of whether it is feasible. "Extracting a causal chain and displaying it to a person is causal attribution, not (necessarily) an explanation ... for most AI models, it is not reasonable to expect a lay-user to be able to interpret a causal chain, no matter how it is presented" (§2.6.1, p. 20). Mechanistic interpretability is the causal chain at its most complete, and his findings say that completeness is the problem: explanations are "selected," people "rarely, if ever, expect an explanation that consists of an actual and complete cause," and "the less relevant parts of the chain will dilute those parts that are crucial to the particular question" (§5.3.5). Finding (3) does the same work against confidence displays and probabilistic transparency — "referring to probabilities or statistical relationships in explanation is not as effective as referring to causes." What a person can use, on his account, is a *contrastive* answer to a *selected* question, delivered in an interaction; and the precondition for asking a contrastive question is that the system's behaviour be stable enough for a foil to exist. That is the bridge to Principle III: bounded outputs are what make "why this determination rather than that" a question with an answer, because the space of "that" is declared. Two cautions the paper should keep. First, Miller's remedy is still an *explanation* — a better one — and Principle III is not an explanation principle; his work supports the negative half (not internals) and only indirectly the positive half (bounds). Second, his explainee is one person and his explainer has one "model of self"; in the triad the explanation given to A is information about B, which he does not consider. The contrast with Rudin (2019) is worth one sentence: both reject post-hoc explanation, but Rudin's answer is to make the causal chain readable and Miller's is that a readable chain is not what people want, which puts Miller nearer Principle III than Rudin is.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only (the Principle III section). Every quotation it uses (§1.2 findings, §2.6.1, §5.3.5) was verified against arXiv 1706.07269 by the earlier S2 pass and is reused unchanged.
+
+**Findings:** No issues found. The section keeps the two cautions that matter (Miller's remedy is a better explanation, not bounds; his explainee is one person), and the Rudin contrast is stated as the card's reading.

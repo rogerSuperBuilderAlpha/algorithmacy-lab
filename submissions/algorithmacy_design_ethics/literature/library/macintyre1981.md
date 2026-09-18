@@ -12,7 +12,7 @@ MacIntyre supplies the machinery RQ3 attributes to Vallor, and it maps onto both
 
 ## Caution
 
-I read the 1981 journal excerpt, not the book chapter; the excerpt omits the narrative-unity and tradition stages that MacIntyre says the definition needs (p. 29), and its pages do not correspond to *After Virtue* pages (the practice definition is commonly cited at p. 187 of the 2nd/3rd editions; not verified here). The account is about communities of practitioners over historical time, with chess, portraiture and farming as cases; it says nothing about technology, mediation or design, and MacIntyre's own politics treat the modern state and market as the corrupting institutions. Vallor 2015 does not cite him; whether *Technology and the Virtues* (2016) does could not be verified in this pass.
+I read the 1981 journal excerpt, not the book chapter; the excerpt omits the narrative-unity and tradition stages that MacIntyre says the definition needs (p. 29), and its pages do not correspond to *After Virtue* pages (the practice definition is commonly cited at p. 187 of the 2nd/3rd editions; not verified here). The account is about communities of practitioners over historical time, with chess, portraiture and farming as cases; it says nothing about technology, mediation or design, and MacIntyre's own politics treat the modern state and market as the corrupting institutions. Vallor 2015 does not cite him; *Technology and the Virtues* (2016) does — ch. 2 uses "MacIntyre's account of the conceptual structure that unifies virtue traditions" (p. 45), applies the internal/external goods distinction to technosocial goods (p. 46) and concludes that "a moral practice is irreducibly a social enterprise" (p. 49), with notes at pp. 258–261 citing *After Virtue* (1984 ed., pp. 150–152, 159) and *Dependent Rational Animals* (1999) (verified by Google Books search-inside on the cluster B pass, 2026-09-18; see vallor2016.md — that card records pp. 45–49 and the note at p. 260 citing *Dependent Rational Animals*, but not the p. 135 locus or the *After Virtue* 1984 page numbers given here, which stand on the cluster B pass alone and were not re-checked). The phrase "a practice in MacIntyre's sense" is therefore sourceable to the 2016 book, never to the 2015 paper.
 
 
 ---
@@ -24,3 +24,14 @@ I read the 1981 journal excerpt, not the book chapter; the excerpt omits the nar
 **What I checked:** The Hastings Center Report excerpt (JSTOR 3561072) is paywalled and no open copy surfaced through Crossref, Unpaywall, CORE or the Wayback CDX; I could not open it.
 
 **Findings:** No Hastings page number could be checked. The quotations themselves match the wording of *After Virtue* ch. 14 as I know it (practice definition and the tic-tac-toe/bricklaying/turnips contrasts, p. 187; internal and external goods, pp. 188–190; the virtue definition, p. 191; practices versus institutions and "acquisitiveness of the institution," p. 194; "simulacra might abound," p. 196, in the 2nd/3rd editions), but that is a verifier's recollection, not a source check, and the card should not cite it as one. The Relation section's use of the practice/institution distinction and the internal-goods clause does not overreach the quoted text.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** corrected
+
+**What I checked:** New-material only (the Caution sentences added on the cluster B pass about Vallor 2016 citing MacIntyre). The Hastings excerpt remains unopened (paywalled, as the earlier S2 pass found). Checked the new sentences against vallor2015.md's S2 note and vallor2016.md.
+
+**Findings:** The core caution holds and has not drifted: vallor2015.md's S2 pass confirmed "MacIntyre" occurs nowhere in the 2015 paper, and vallor2016.md records the 2016 book using "MacIntyre's account of the conceptual structure that unifies virtue traditions" (p. 45), the internal/external goods application (p. 46) and "irreducibly a social enterprise" (p. 49) from Google Books snippets. One flag: the card also gives a p. 135 locus and *After Virtue* 1984-edition pages (150–152, 159) in Vallor's notes and cites vallor2016.md for them, but that card records only pp. 45–49 and the p. 260 note to *Dependent Rational Animals*. Those two details stand on the cluster B pass alone; Google Books was CAPTCHA-blocked on this pass so they could not be re-checked, and the Caution now says so.
