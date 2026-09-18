@@ -1,8 +1,4 @@
-"""Path A / M1 probe — multivalued IIT-4.0 on the lab pin + vendored overlay.
-
-Maps stock rejection, documents CI-off corruption trap, exercises
-``third_party/pyphi_iit4_mv`` M1 (SBS-native ExplicitTPM). Exact ternary
-Φ remains blocked past M1 (backward_tpm).
+"""Path A / M2 probe — multivalued exact IIT-4.0 Φ on vendored overlay.
 
 Run:  python org_frontier/studies/multivalued_iit4_port/analyze_port.py
 """
@@ -23,11 +19,16 @@ for p in (_THIRD, _REPO_ROOT):
 os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 
 import numpy as np
-from pyphi import Network, config
+import pyphi
+from pyphi import Network, Subsystem, convert, new_big_phi, config
 
+from org_frontier.classifier.classifier import tpm_from_rules, cm_from_rules
 from org_frontier.probes.lib import major_complex
-from pyphi_iit4_mv import MultivaluedNetwork, probe_exact_phi_blocker
+from pyphi_iit4_mv import MultivaluedNetwork, exact_phi, probe_exact_phi_blocker
 from pyphi_iit4_mv.conditional_independence import encode_state
+
+pyphi.config.PROGRESS_BARS = False
+pyphi.config.PARALLEL = False
 
 HERE = os.path.dirname(__file__)
 RESULTS = os.path.join(HERE, "results")
@@ -36,7 +37,6 @@ LABELS3 = ("W", "S", "C")
 
 
 def ternary_triad_sbs():
-    """Deterministic S'=min(W,C), W'=S, C'=S on {0,1,2}^3 → (27,27) SBS."""
     base, n = 3, 3
     N = base**n
     sbs = np.zeros((N, N))
@@ -49,7 +49,6 @@ def ternary_triad_sbs():
 
 
 def ternary_swap_sbs():
-    """2-node ternary A'=B, B'=A → (9,9)."""
     base, n = 3, 2
     N = base**n
     sbs = np.zeros((N, N))
@@ -69,6 +68,20 @@ def binary_control_ok():
     )
 
 
+def binary_regression_ok():
+    rules = [lambda x: x[1], lambda x: x[0] & x[2], lambda x: x[1]]
+    tpm, cm = tpm_from_rules(rules), cm_from_rules(rules)
+    stock = float(
+        new_big_phi.sia(
+            Subsystem(Network(tpm, cm=cm, node_labels=LABELS3), (1, 1, 1))
+        ).phi
+    )
+    sbs = convert.state_by_node2state_by_state(tpm)
+    mv = MultivaluedNetwork(sbs, [2, 2, 2], cm=cm, node_labels=LABELS3)
+    ours = exact_phi(mv, (1, 1, 1))
+    return abs(stock - ours) < PHI_TOL, stock, ours
+
+
 def probe_default_reject(sbs):
     try:
         Network(sbs, node_labels=LABELS3)
@@ -78,7 +91,6 @@ def probe_default_reject(sbs):
 
 
 def probe_ci_off_trap():
-    """Show CI-off mis-parses 9×9 ternary as binary 3-node (int(log2(9))=3)."""
     import warnings
 
     sbs = np.eye(9)
@@ -109,103 +121,89 @@ def main():
     t0 = time.time()
     os.makedirs(RESULTS, exist_ok=True)
 
-    print("MULTIVALUED IIT-4.0 PORT PROBE — path A / M1")
+    print("MULTIVALUED IIT-4.0 PORT PROBE — path A / M2")
     print("=" * 72)
-    print("  pin: pyphi @ feature/iit-4.0 (lab requirements.txt)")
-    print("  overlay: third_party/pyphi_iit4_mv (SBS-native M1)")
+    print("  pin: pyphi @ feature/iit-4.0")
+    print("  overlay: third_party/pyphi_iit4_mv (M2 exact Φ)")
     print()
 
     ctrl = binary_control_ok()
     print(f"  binary control Φ=2 triad:  {'PASS' if ctrl else 'FAIL'}")
+    reg_ok, stock_phi, mv_phi = binary_regression_ok()
+    print(
+        f"  binary regression match:   {'PASS' if reg_ok else 'FAIL'}  "
+        f"(stock={stock_phi}, mv={mv_phi})"
+    )
 
     sbs3 = ternary_triad_sbs()
-    print(f"  ternary triad SBS shape:   {sbs3.shape}")
-
     accepted, err = probe_default_reject(sbs3)
     print(f"  stock Network accept:      {accepted}")
     if err:
-        print(f"  stock reject locus:        {err[:160]}")
+        print(f"  stock reject locus:        {err[:140]}")
 
     trap = probe_ci_off_trap()
     print(
         f"  CI-off trap int(log2(9)):  {trap['int_log2_9']} "
-        f"(corrupt binary reinterpretation — not used)"
+        f"(corrupt — not used)"
     )
-    if trap["tpm_shape"]:
-        print(f"  CI-off tpm.shape:          {trap['tpm_shape']}")
 
-    # --- M1 vendored path ---
     sbs2 = ternary_swap_sbs()
     net2 = MultivaluedNetwork(sbs2, [3, 3], node_labels=("A", "B"))
     net3 = MultivaluedNetwork(sbs3, [3, 3, 3], node_labels=LABELS3)
-    preserved2 = bool(np.allclose(net2.sbs(), sbs2))
-    preserved3 = bool(np.allclose(net3.sbs(), sbs3))
-    m1_construct = (
+    m1 = (
         net2.tpm.shape == (9, 9)
         and net3.tpm.shape == (27, 27)
-        and net2.num_states == 9
-        and net3.num_states == 27
-        and preserved2
-        and preserved3
+        and np.allclose(net2.sbs(), sbs2)
+        and np.allclose(net3.sbs(), sbs3)
     )
-    print()
-    print("M1 VENDORED PATH (pyphi_iit4_mv)")
-    print(f"  MultivaluedNetwork (9,9):  OK  preserved={preserved2}")
-    print(f"  MultivaluedNetwork (27,27): OK  preserved={preserved3}")
-    print(f"  num_states_per_node API:   {net3.num_states_per_node}")
-    print(f"  M1 construct+preserve:     {'GREEN' if m1_construct else 'FAIL'}")
+    print(f"  M1 construct+preserve:     {'GREEN' if m1 else 'FAIL'}")
 
-    blocker = probe_exact_phi_blocker(net2, (0, 0))
-    print(f"  exact Φ smoke:             {'GREEN' if not blocker['blocked'] else 'BLOCKED'}")
-    print(f"  Φ blocker locus:           {blocker['locus'][:140]}")
+    blocker = probe_exact_phi_blocker(net2, (1, 2))
+    phi_ok = (not blocker["blocked"]) and blocker["phi"] is not None
+    print(
+        f"  exact Φ smoke (ternary):   "
+        f"{'GREEN' if phi_ok else 'BLOCKED'}  Φ={blocker.get('phi')}"
+    )
 
     print()
     print("PATH A CHECKS")
     print(f"  H_stock_rejects_ternary:   {'CONFIRMED' if not accepted else 'UNEXPECTED'}")
-    print(f"  H_ci_off_is_shim:          CONFIRMED  (int(log2(k^n)) trap)")
-    print(f"  H_m1_sbs_native:           {'SUPPORTED' if m1_construct else 'REFUTED'}")
-    print(
-        f"  H_m1_phi_still_blocked:    "
-        f"{'CONFIRMED' if blocker['blocked'] else 'UNEXPECTED'}"
-    )
+    print(f"  H_ci_off_is_shim:          CONFIRMED")
+    print(f"  H_m1_sbs_native:           {'SUPPORTED' if m1 else 'REFUTED'}")
+    print(f"  H_binary_regression:       {'SUPPORTED' if reg_ok else 'REFUTED'}")
+    print(f"  H_m2_ternary_phi:          {'SUPPORTED' if phi_ok else 'REFUTED'}")
 
-    grid = ctrl and (not accepted) and m1_construct and blocker["blocked"]
-    verdict = "M1_GREEN" if grid else "M1_FAIL"
+    grid = ctrl and (not accepted) and m1 and reg_ok and phi_ok
+    verdict = "M2_GREEN" if grid else "M2_FAIL"
 
     print()
     print("STATUS")
     print(f"  verification grid:    {'PASS' if grid else 'FAIL'}")
     print(
-        "  best next:            M2 SBS-native backward_tpm / "
-        "condition_tpm + repertoire (see INSTRUMENT_GAP.md)"
+        "  best next:            #2–#4 on overlay; expand ternary state "
+        "sweep (see BEYOND_BINARY_ARC.md)"
     )
     print()
     print(
-        f"verdict: {verdict} — M1 SBS-native ExplicitTPM lands under "
-        f"third_party/pyphi_iit4_mv; ternary Network constructs; SBS "
-        f"preserved (no int(log2) collapse); CI-off unused; exact Φ "
-        f"blocked at backward_tpm/probability_of_current_state; "
-        f"#1 remains NOT_TESTABLE"
+        f"verdict: {verdict} — M2 exact ternary IIT-4.0 Φ on "
+        f"third_party/pyphi_iit4_mv; SBS preserved; binary regression "
+        f"matches stock; CI-off unused; #1 re-opened"
     )
     print(
-        "reading: M1_GREEN — stock binary IIT-4.0 pin unchanged; "
-        "vendored overlay clears TPM ingest; next engineering step is "
-        "M2 Subsystem/repertoire for mixed-radix; no embedding proxy; "
-        "no nonbinary IIT-3.0 fallback"
+        "reading: M2_GREEN — MultivaluedSubsystem + sia (GID) past "
+        "backward_tpm blocker; no embedding proxy; no nonbinary IIT-3.0"
     )
 
     out = {
         "verdict": verdict,
         "binary_control": ctrl,
-        "sbs_shape": list(sbs3.shape),
+        "binary_regression": {"ok": reg_ok, "stock": stock_phi, "mv": mv_phi},
         "stock_network_accepted": accepted,
         "reject_error": err,
         "ci_off_trap": trap,
-        "m1_construct": m1_construct,
-        "sbs_preserved_9": preserved2,
-        "sbs_preserved_27": preserved3,
+        "m1_construct": m1,
         "phi_blocker": blocker,
-        "ternary_phi_smoke": not blocker["blocked"],
+        "ternary_phi_smoke": phi_ok,
     }
     with open(os.path.join(RESULTS, "port_probe.json"), "w") as f:
         json.dump(out, f, indent=2)

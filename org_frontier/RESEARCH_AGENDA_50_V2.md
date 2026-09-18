@@ -8,10 +8,10 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 1. Do ternary parties (idle / engaged / overcommitted) change which party is pivotal, or does the
    two-condition account survive multivalued state? (parked #5; the whole corpus is binary)
-   **Instrument — NOT_TESTABLE.** Path (C) stands for science; path (A) M1
-   SBS-native TPM → **M1_GREEN** (`third_party/pyphi_iit4_mv`); exact Φ still
-   M2-blocked (`studies/multivalued_iit4_port/`). Binary two-condition control
-   holds. See `studies/ternary_pivotality/`; `BEYOND_BINARY_ARC.md`.
+   **Answered — TWO_CONDITION_STATE_DEPENDENT.** Stock pin rejects ternary;
+   overlay `third_party/pyphi_iit4_mv` M2 exact Φ: at `(2,2,2)` two-condition
+   survives; at `(1,1,1)` faithful core shrinks. See
+   `studies/ternary_pivotality/`; `BEYOND_BINARY_ARC.md`.
 2. Does a graded commit — the mediator outputs a level, not a bit — keep a sharp dyadic/triadic verdict,
    or does the verdict itself become graded?
 3. In a mixed-radix system (binary parties, ternary mediator), where does the extra mediator resolution

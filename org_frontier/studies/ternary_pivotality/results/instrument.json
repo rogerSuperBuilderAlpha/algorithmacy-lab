@@ -1,11 +1,19 @@
 {
-  "path": "C",
-  "h2_accepted": false,
-  "detail": {
-    "has_num_states_per_node": false,
-    "sbs_shape": "(27, 27)",
-    "accepted": false,
-    "error": "ValueError: operands could not be broadcast together with shapes (27,27) (16,16) "
-  },
-  "ternary_science": "NOT_TESTABLE"
+  "stock_accepted": false,
+  "overlay": "pyphi_iit4_mv",
+  "primary_state": [
+    2,
+    2,
+    2
+  ],
+  "alt_state": [
+    1,
+    1,
+    1
+  ],
+  "alt_faithful_core": [
+    "W",
+    "S"
+  ],
+  "verdict": "TWO_CONDITION_STATE_DEPENDENT"
 }

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""M1 smoke: ternary Network construct + SBS preserve; Φ blocker locus.
+"""M1 smoke: ternary Network construct + SBS preserve (ingest only).
+
+Exact Φ is covered by smoke_m2.py. This file keeps the M1 ingest gate.
 
 Run from repo root:
   python third_party/pyphi_iit4_mv/smoke_m1.py
@@ -22,7 +24,7 @@ os.environ.setdefault("PYPHI_WELCOME_OFF", "true")
 import numpy as np
 from pyphi import Network
 
-from pyphi_iit4_mv import MultivaluedNetwork, probe_exact_phi_blocker
+from pyphi_iit4_mv import MultivaluedNetwork
 from pyphi_iit4_mv.conditional_independence import encode_state
 
 
@@ -51,7 +53,6 @@ def main() -> int:
     print("M1 SMOKE — SBS-native ExplicitTPM (pyphi_iit4_mv)")
     print("=" * 72)
 
-    # 2-node ternary swap: A'=B, B'=A
     sbs2 = ternary_sbs(2, lambda st: (st[1], st[0]))
     rejected, err = assert_stock_rejects(sbs2, ("A", "B"))
     print(f"  stock pin rejects (9,9):   {rejected}")
@@ -65,41 +66,27 @@ def main() -> int:
     print(f"  SBS preserved:             {preserved}")
     print(f"  no log2 collapse:          {no_collapse}")
 
-    # 3-node ternary min-AND triad (agenda #1 failing case)
     sbs3 = ternary_sbs(3, lambda st: (st[1], min(st[0], st[2]), st[1]))
     net3 = MultivaluedNetwork(sbs3, [3, 3, 3], node_labels=("W", "S", "C"))
     ok3 = net3.tpm.shape == (27, 27) and np.allclose(net3.sbs(), sbs3)
     print(f"  MV Network (27,27):        {'OK' if ok3 else 'FAIL'}")
-
-    # Φ attempt — expect explicit M2 blocker, not proxy Φ
-    blocker = probe_exact_phi_blocker(net2, (0, 0))
-    print(f"  exact Φ blocked:           {blocker['blocked']}")
-    print(f"  blocker locus:             {blocker['locus'][:120]}")
-    print(f"  error:                     {blocker['error_type']}: {blocker['error'][:100]}")
-
-    # Refuse CI-off narrative: we never toggle VALIDATE_CONDITIONAL_INDEPENDENCE
     print("  CI-off log2 trap used:     False  (SBS-native path only)")
+    print("  note: exact Φ covered by smoke_m2.py (M2_GREEN)")
 
-    grid = rejected and preserved and no_collapse and ok3 and blocker["blocked"]
+    grid = rejected and preserved and no_collapse and ok3
     print()
     print("STATUS")
     print(f"  verification grid:    {'PASS' if grid else 'FAIL'}")
-    print(
-        "  best next:            M2 mixed-radix condition_tpm + "
-        "repertoire / Subsystem (see INSTRUMENT_GAP.md)"
-    )
+    print("  best next:            smoke_m2.py (exact ternary Φ)")
     print()
     if grid:
         print(
             "verdict: M1_GREEN — ternary MultivaluedNetwork constructs; "
-            "SBS preserved without int(log2) collapse; exact Φ still "
-            "blocked past ExplicitTPM at backward_tpm/"
-            "probability_of_current_state (treats SBS as binary SBN; M2)"
+            "SBS preserved without int(log2) collapse"
         )
         print(
             "reading: M1_GREEN — vendored pin path third_party/pyphi_iit4_mv; "
-            "stock binary IIT-4.0 unchanged; #1 science still NOT_TESTABLE "
-            "until M2–M3"
+            "stock binary IIT-4.0 unchanged"
         )
     else:
         print("verdict: M1_FAIL — see checks above")

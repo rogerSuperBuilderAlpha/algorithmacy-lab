@@ -1,33 +1,30 @@
 # Multivalued IIT-4.0 port — findings
 
-**Verdict: M1_GREEN.** Path A M1 landed under
-`third_party/pyphi_iit4_mv`: ternary `MultivaluedNetwork` constructs;
-SBS preserved without `int(log2)` collapse; CI-off unused. Exact
-ternary Φ remains **blocked** at stock
-`backward_tpm`/`probability_of_current_state` (M2). Agenda **#1
-remains NOT_TESTABLE**.
-
-See `INSTRUMENT_GAP.md` for locus, milestones, and next step.
+**Verdict: M2_GREEN.** Exact ternary IIT-4.0 Φ runs on
+`third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2.
+CI-off unused. Agenda **#1** re-opened →
+`TWO_CONDITION_STATE_DEPENDENT` (see `ternary_pivotality/`).
 
 ## Checks
 
 | check | result |
 |---|---|
-| binary control Φ=2 triad | PASS |
-| stock ternary `(27,27)` Network | REJECTED |
-| CI-off trap | CONFIRMED (do not use) |
-| M1 MultivaluedNetwork `(9,9)`/`(27,27)` | GREEN |
-| SBS preserved | GREEN |
-| ternary Φ smoke | BLOCKED (M2 locus documented) |
+| binary control / regression Φ=2 | PASS (match stock) |
+| stock ternary `(27,27)` | REJECTED |
+| M1 SBS ingest | GREEN |
+| M2 exact ternary Φ (2-node) | GREEN (Φ=log₂9) |
+| maximal_complex | GREEN |
+| independent sticky Φ≈0 | PASS |
+| CI-off trap | unused |
 
-## Next engineering step
+## Next
 
-**M2:** SBS-native `backward_tpm` + `condition_tpm` + repertoire over
-`∏ k_i`, then deterministic 2-node ternary `new_big_phi` smoke.
+M3 polish (broader alphabets / n ceiling docs); beyond-binary **#2–#4**
+on the overlay.
 
 ## Reproduce
 
 ```
-python third_party/pyphi_iit4_mv/smoke_m1.py
+python third_party/pyphi_iit4_mv/smoke_m2.py
 python org_frontier/studies/multivalued_iit4_port/analyze_port.py
 ```

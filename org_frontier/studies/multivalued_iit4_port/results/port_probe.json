@@ -1,10 +1,11 @@
 {
-  "verdict": "M1_GREEN",
+  "verdict": "M2_GREEN",
   "binary_control": true,
-  "sbs_shape": [
-    27,
-    27
-  ],
+  "binary_regression": {
+    "ok": true,
+    "stock": 2.0,
+    "mv": 2.0
+  },
   "stock_network_accepted": false,
   "reject_error": "ValueError: operands could not be broadcast together with shapes (27,27) (16,16) ",
   "ci_off_trap": {
@@ -23,16 +24,14 @@
     "size": 3
   },
   "m1_construct": true,
-  "sbs_preserved_9": true,
-  "sbs_preserved_27": true,
   "phi_blocker": {
     "attempted": true,
-    "phi": null,
-    "blocked": true,
-    "locus": "Subsystem.__init__ \u2192 tpm.backward_tpm \u2192 probability_of_current_state \u2014 treats SBS matrix as binary SBN (last axis = nodes); M2 needs SBS-native backward TPM / cause repertoire",
-    "error_type": "ValueError",
-    "error": "current_state must have length 9for state-by-node TPM of shape (9, 9)",
+    "phi": 3.169925001442312,
+    "blocked": false,
+    "locus": "phi_computed",
+    "error_type": "",
+    "error": "",
     "traceback_tail": ""
   },
-  "ternary_phi_smoke": false
+  "ternary_phi_smoke": true
 }

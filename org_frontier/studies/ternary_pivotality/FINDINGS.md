@@ -1,63 +1,53 @@
 # Ternary pivotality — findings
 
-**Verdict: NOT_TESTABLE.** Exact IIT-4.0 on this lab’s PyPhi pin
-**rejects** ternary n=3 SBS `(27,27)`. Path **(C)** stands for science.
-Path **(A)** M1 landed (`third_party/pyphi_iit4_mv` → **M1_GREEN**):
-ternary Network constructs and SBS is preserved, but exact Φ is still
-blocked at M2 (`backward_tpm`). CI-off remains a corrupt shim;
-`pyphi@nonbinary` rejected. Path **(B)** embeddings remain rejected for
-#1. Binary two-condition control **holds**. Ternary pivotality (H3–H5)
-remains **open**, not a scientific null.
+**Verdict: TWO_CONDITION_STATE_DEPENDENT.** Binary two-condition
+control holds. Stock pin still rejects ternary SBS. Vendored overlay
+`third_party/pyphi_iit4_mv` (M2) computes exact ternary Φ.
 
-In-silico. Hypotheses fixed after the instrument decision. Cited:
-probes #11–#12; WAVE10 #5; `shared_mediator_ternary/` pointer;
-`multivalued_iit4_port/INSTRUMENT_GAP.md`. PE / AI / formal / stoch /
-estimation / construct-omit closed.
+At all-engaged state `(2,2,2)`: two-condition **survives** (non-bidir
+out; faithful `{W,S,C}`). At mid-grade `(1,1,1)`: faithful major
+complex shrinks (not full triad) — pivotality is **state-dependent**.
+
+In-silico. Cited: probes #11–#12; WAVE10 #5; `pyphi_iit4_mv` M2.
+PE / AI / formal / stoch / estimation / construct-omit closed.
 
 ## Instrument
 
 | path | decision |
 |---|---|
-| (A) multivalued IIT-4.0 port | **M1_GREEN** / Φ still M2 (see port study) |
-| (B) embedding/proxy | rejected — does not answer party-level exact Φ |
-| **(C) NOT_TESTABLE** | **stands for #1 science** |
-
-Capability error: no `num_states_per_node`; SBS `(27,27)` fails binary
-convert/CI. Same pin class as `shared_mediator_ternary/`.
+| Stock `feature/iit-4.0` | rejects ternary `(27,27)` |
+| Overlay M2 exact Φ | **green** — science runs here |
+| (B) embeddings | rejected |
 
 ## Hypotheses
 
 | H | result |
 |---|---|
 | H1 binary two-condition control | **SUPPORTED** |
-| H2 IIT-4.0 accepts ternary n=3 | **REFUTED** |
-| H3 ternary non-bidir stays out | **NOT_TESTABLE** |
-| H4 ternary bidir parties in | **NOT_TESTABLE** |
-| H5 graded changes pivotality | **NOT_TESTABLE** |
+| H2 stock pin accepts ternary | **REFUTED** |
+| H2b overlay exact ternary Φ | **SUPPORTED** |
+| H3 ternary non-bidir stays out `@(2,2,2)` | **SUPPORTED** |
+| H4 ternary bidir parties in `@(2,2,2)` | **SUPPORTED** |
+| H5 state changes pivotality | **SUPPORTED** |
 
-## Binary control (witnesses)
+## Ternary panel `@(2,2,2)` (overlay)
 
 | form | core | reading |
 |---|---|---|
-| faithful | {W,S,C} Φ=2 | bidirectional triad |
+| faithful | {W,S,C} | bidirectional triad |
 | W_sticky / W_omitted | {S,C} | non-bidirectional W out |
 | C_sticky | {W,S} | non-bidirectional C out |
 
-## Reading
-
-Agenda #1 / WAVE10 #5 needs a vendored multivalued IIT-4.0 pin before
-any claim that ternary idle/engaged/overcommitted parties change (or
-preserve) pivotality. The binary two-condition account is healthy; the
-graded question is instrument-blocked, not answered.
+Faithful `@(1,1,1)`: core ≠ {W,S,C} (state-dependent shrink).
 
 ## Best next
 
-**Engineering:** `multivalued_iit4_port/INSTRUMENT_GAP.md` **M2**
-(SBS-native `backward_tpm` / repertoire). **#2–#4** stay blocked.
+**#2** graded commit / **#3** mixed-radix mediator on the overlay.
+Expand the ternary state sweep.
 
 ## Reproduce
 
 ```
+python third_party/pyphi_iit4_mv/smoke_m2.py
 python org_frontier/studies/ternary_pivotality/analyze_pivot.py
-python org_frontier/studies/multivalued_iit4_port/analyze_port.py
 ```

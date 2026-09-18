@@ -1,27 +1,19 @@
-"""Vendored IIT-4.0 multivalued pin surface (M1: SBS-native ExplicitTPM).
-
-Depends on the lab's stock ``pyphi @ feature/iit-4.0`` for binary IIT-4.0 Φ.
-This package does **not** replace that pin for binary work. It adds an
-isolated MultivaluedNetwork / SBSNativeExplicitTPM path that accepts
-ternary (and small mixed-radix) state-by-state TPMs without
-``int(log2(...))`` collapse.
-
-M1 scope: TPM ingest + Network construct + preserved SBS.
-Exact Φ on multivalued systems is M2+ (see ``phi_blocker``).
-
-Enable::
-
-    import sys
-    sys.path.insert(0, "<repo>/third_party")
-    from pyphi_iit4_mv import MultivaluedNetwork, SBSNativeExplicitTPM
-"""
+"""Public API for vendored IIT-4.0 multivalued pin (M1 ingest + M2 exact Φ)."""
 
 from .network import MultivaluedNetwork
+from .tpm import SBSNativeExplicitTPM, MultivaluedTPMError
 from .phi_blocker import probe_exact_phi_blocker
-from .tpm import SBSNativeExplicitTPM
+from .sia_mv import exact_phi, sia
+from .subsystem_mv import MultivaluedSubsystem
+from .complexes import maximal_complex
 
 __all__ = [
     "MultivaluedNetwork",
     "SBSNativeExplicitTPM",
+    "MultivaluedTPMError",
+    "MultivaluedSubsystem",
+    "exact_phi",
+    "sia",
+    "maximal_complex",
     "probe_exact_phi_blocker",
 ]

@@ -4444,14 +4444,15 @@
       "cmd": "python org_frontier/studies/ternary_pivotality/analyze_pivot.py",
       "expect": [
         "H1 (binary two-condition control): SUPPORTED",
-        "H2 (IIT-4.0 accepts ternary n=3):  REFUTED",
-        "H3 (ternary non-bidir stays out):  NOT_TESTABLE",
-        "H4 (ternary bidir parties in):     NOT_TESTABLE",
-        "H5 (graded changes pivotality):    NOT_TESTABLE",
+        "H2 (stock pin accepts ternary):    REFUTED",
+        "H2b (overlay exact ternary \u03a6):     SUPPORTED",
+        "H3 (ternary non-bidir stays out):  SUPPORTED  @(2, 2, 2)",
+        "H4 (ternary bidir parties in):     SUPPORTED  @(2, 2, 2)",
+        "H5 (state changes pivotality):     SUPPORTED  (faithful@(1, 1, 1) core\u2260{W,S,C})",
         "verification grid:    PASS",
-        "best next:            M2 SBS-native backward_tpm (INSTRUMENT_GAP); #2\u2013#4 blocked",
-        "verdict: NOT_TESTABLE \u2014 two-condition binary control holds; stock IIT-4.0 pin rejects ternary n=3 SBS ((27, 27)); path (A) M1 SBS-native overlay green but \u03a6 still M2-blocked; (B) embeddings rejected for #1; ternary pivotality remains open, not null",
-        "reading: NOT_TESTABLE \u2014 agenda #1 / WAVE10 #5 needs multivalued IIT-4.0; shared_mediator_ternary pointer; PE/AI/formal/stoch/estimation/construct-omit closed; beyond-binary lane instrument-blocked"
+        "best next:            #2 graded-commit / #3 mixed-radix mediator on overlay; expand state sweep",
+        "verdict: TWO_CONDITION_STATE_DEPENDENT \u2014 binary two-condition holds; stock pin rejects ternary; overlay M2 exact \u03a6 at (2, 2, 2): non-bidir out, bidir triad in (two-condition survives); at (1, 1, 1) faithful core W|S (state-dependent)",
+        "reading: TWO_CONDITION_STATE_DEPENDENT \u2014 agenda #1 partial: two-condition account survives at all-engaged ternary state; mid-grade state shrinks faithful core; PE/AI/formal/stoch/estimation/construct-omit closed"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/ternary_pivotality/FINDINGS.md"
@@ -4461,17 +4462,18 @@
       "cmd": "python org_frontier/studies/multivalued_iit4_port/analyze_port.py",
       "expect": [
         "binary control \u03a6=2 triad:  PASS",
+        "binary regression match:   PASS  (stock=2.0, mv=2.0)",
         "stock Network accept:      False",
         "H_stock_rejects_ternary:   CONFIRMED",
-        "H_ci_off_is_shim:          CONFIRMED  (int(log2(k^n)) trap)",
+        "H_ci_off_is_shim:          CONFIRMED",
         "H_m1_sbs_native:           SUPPORTED",
-        "H_m1_phi_still_blocked:    CONFIRMED",
+        "H_binary_regression:       SUPPORTED",
+        "H_m2_ternary_phi:          SUPPORTED",
         "M1 construct+preserve:     GREEN",
-        "exact \u03a6 smoke:             BLOCKED",
         "verification grid:    PASS",
-        "best next:            M2 SBS-native backward_tpm / condition_tpm + repertoire (see INSTRUMENT_GAP.md)",
-        "verdict: M1_GREEN \u2014 M1 SBS-native ExplicitTPM lands under third_party/pyphi_iit4_mv; ternary Network constructs; SBS preserved (no int(log2) collapse); CI-off unused; exact \u03a6 blocked at backward_tpm/probability_of_current_state; #1 remains NOT_TESTABLE",
-        "reading: M1_GREEN \u2014 stock binary IIT-4.0 pin unchanged; vendored overlay clears TPM ingest; next engineering step is M2 Subsystem/repertoire for mixed-radix; no embedding proxy; no nonbinary IIT-3.0 fallback"
+        "best next:            #2\u2013#4 on overlay; expand ternary state sweep (see BEYOND_BINARY_ARC.md)",
+        "verdict: M2_GREEN \u2014 M2 exact ternary IIT-4.0 \u03a6 on third_party/pyphi_iit4_mv; SBS preserved; binary regression matches stock; CI-off unused; #1 re-opened",
+        "reading: M2_GREEN \u2014 MultivaluedSubsystem + sia (GID) past backward_tpm blocker; no embedding proxy; no nonbinary IIT-3.0"
       ],
       "timeout": 60,
       "source": "org_frontier/studies/multivalued_iit4_port/FINDINGS.md"
@@ -4484,12 +4486,27 @@
         "SBS preserved:             True",
         "no log2 collapse:          True",
         "MV Network (27,27):        OK",
-        "exact \u03a6 blocked:           True",
         "CI-off log2 trap used:     False  (SBS-native path only)",
         "verification grid:    PASS",
-        "best next:            M2 mixed-radix condition_tpm + repertoire / Subsystem (see INSTRUMENT_GAP.md)",
-        "verdict: M1_GREEN \u2014 ternary MultivaluedNetwork constructs; SBS preserved without int(log2) collapse; exact \u03a6 still blocked past ExplicitTPM at backward_tpm/probability_of_current_state (treats SBS as binary SBN; M2)",
-        "reading: M1_GREEN \u2014 vendored pin path third_party/pyphi_iit4_mv; stock binary IIT-4.0 unchanged; #1 science still NOT_TESTABLE until M2\u2013M3"
+        "best next:            smoke_m2.py (exact ternary \u03a6)",
+        "verdict: M1_GREEN \u2014 ternary MultivaluedNetwork constructs; SBS preserved without int(log2) collapse",
+        "reading: M1_GREEN \u2014 vendored pin path third_party/pyphi_iit4_mv; stock binary IIT-4.0 unchanged"
+      ],
+      "timeout": 60,
+      "source": "third_party/pyphi_iit4_mv/README.md"
+    },
+    {
+      "name": "pyphi-iit4-mv-m2-smoke",
+      "cmd": "python third_party/pyphi_iit4_mv/smoke_m2.py",
+      "expect": [
+        "binary regression \u03a6=2:    PASS  (stock=2.0, mv=2.0)",
+        "SBS preserved (9,9):       True",
+        "independent sticky \u03a6\u22480:    PASS  (\u03a6=0.0)",
+        "CI-off log2 trap used:     False",
+        "verification grid:    PASS",
+        "best next:            #2 graded-commit / #3 mixed-radix on overlay (see BEYOND_BINARY_ARC.md)",
+        "verdict: M2_GREEN \u2014 exact ternary IIT-4.0 \u03a6 finite on 2-node control; binary regression matches stock pin \u03a6=2; maximal_complex works; independent sticky \u03a6=0; no log2 trap",
+        "reading: M2_GREEN \u2014 third_party/pyphi_iit4_mv computes exact \u03a6 via MultivaluedSubsystem + sia (GID); #1 TWO_CONDITION_STATE_DEPENDENT"
       ],
       "timeout": 60,
       "source": "third_party/pyphi_iit4_mv/README.md"
