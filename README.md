@@ -279,6 +279,7 @@ Multi-experiment batteries on one theme.
 - **[Algorithmic transparency (#34)](org_frontier/studies/algo_transparency/README.md)** — not channel transparency (#24). **Publish-unread** is theater: F stays
 - **[Commit-noise phase transition (agenda #6)](org_frontier/studies/commit_noise_phase/README.md)** — down as a monotone glide on both the conjunctive hub (Φ 2.0→0) and the
 - **[Commit→response delay (agenda #10)](org_frontier/studies/commit_response_delay/README.md)** — pipeline) keeps the conjunctive triad **triadic** at every d=0…3 —
+- **[Conjunctive law on real Boolean renders (agenda #45)](org_frontier/studies/conjunctive_law_real_render/README.md)** — (#116) is **not** visible as a scaling law in institutional or fitted
 - **[Constraint durability — which contingent gates fall next](org_frontier/studies/constraint_durability/README.md)** — The formal class crossed with a durability rubric forecasts which contingent gates fall, and the forecast
 - **[Construct gate transfer at n=5 — CMC / AI-MC](org_frontier/studies/construct_gates_n5/README.md)** — full-bind regimes **transfer** from HMC anchors to CMC and AI-MC at
 - **[Construct gate seal — XNOR + mixed-polarity on CMC](org_frontier/studies/construct_gates_seal/README.md)** — AND_negE (Regime C) transfer on CMC and AI-MC full-bind at n=5

@@ -4592,6 +4592,23 @@
       "source": "org_frontier/studies/wageman_ti_verdict/FINDINGS.md"
     },
     {
+      "name": "conjunctive-law-real-render",
+      "cmd": "python org_frontier/studies/conjunctive_law_real_render/analyze_render.py",
+      "expect": [
+        "hub n=3: \u03a6=2.000 core={n0,n1,n2} n-1=2  PASS",
+        "hub n=4: \u03a6=3.000 core={n0,n1,n2,n3} n-1=3  PASS",
+        "H1 (real render shows \u03a6\u2248n\u22121 law):  REFUTED",
+        "H2 (null / not visible):           REFUTED",
+        "H3 (only under strong modeling):   SUPPORTED",
+        "verification grid:    PASS",
+        "best next:            #46 formal-vs-informal coordination cut",
+        "verdict: LAW_ONLY_UNDER_STRONG_MODEL \u2014 institutional OSS elicits: v9 n=3 \u03a6=2 (triad only, not scaling); v10/v11 n=4 MC \u03a6=2 |core|=3 (miss n\u22121=3); v8 activity fit no signature; forced #116 hub on same role counts recovers law at n=3,4",
+        "reading: LAW_ONLY_UNDER_STRONG_MODEL \u2014 conjunctive \u03a6=n\u22121 not visible in institutional/fitted real renders as a scaling law; appears only when hub wiring is imposed; #43/#44 pointers"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/conjunctive_law_real_render/FINDINGS.md"
+    },
+    {
       "name": "hmc-algo-boundary",
       "cmd": "python org_frontier/studies/hmc_algo_boundary/analyze_boundary.py",
       "expect": [

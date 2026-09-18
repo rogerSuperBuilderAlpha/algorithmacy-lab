@@ -232,6 +232,10 @@ runnable design yet. Themes group them; numbering is 1–50.
    `CONSTRUCT_VALIDITY_ARC.md`.
 45. Is the conjunctive Φ = n−1 law (#116) visible in any real coordination dataset rendered as a Boolean
     form?
+   **Answered — LAW_ONLY_UNDER_STRONG_MODEL.** Institutional OSS elicits
+   (PyPhi/sklearn/k8s) and activity fit miss the scaling signature;
+   forced #116 hub on same role counts recovers Φ=n−1 at n=3,4. See
+   `studies/conjunctive_law_real_render/`; `CONSTRUCT_VALIDITY_ARC.md`.
 46. Does the verdict align with the formal-vs-informal coordination distinction, or cut across it?
 
 ## J. Formal and theoretical
