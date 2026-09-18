@@ -1,6 +1,6 @@
 # Vallor, S. (2015). Moral deskilling and upskilling in a new machine age: Reflections on the ambiguous future of character. *Philosophy & Technology*, 28(1), 107–124.
 
-**Identifier:** doi:10.1007/s13347-014-0156-9 · **Read depth:** full_text (Springer version of record, PDF mirrored at bhaven.org; pagination 107–124 matches the journal) · **Source-tier:** peer-reviewed, the field's main philosophy-of-technology journal; conceptual argument, no empirical study · **Evidence basis:** direct_read · **Parties modeled:** human–technology–world (soldier–weapon–target, carer–robot–patient, user–media–interlocutor); the intermediary is never modeled as interpreting both sides · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.1007/s13347-014-0156-9 · **Read depth:** full_text (Springer version of record, PDF mirrored at bhaven.org; pagination 107–124 matches the journal) · **Source-tier:** peer-reviewed, the field's main philosophy-of-technology journal; conceptual argument, no empirical study · **Evidence basis:** direct_read · **Parties modeled:** human–technology–world (soldier–weapon–target, carer–robot–patient, user–media–interlocutor); the intermediary is never modeled as interpreting both sides · **Remedy locus:** subject — cultivate the skill; design and participatory methods "will not take us all the way" (p. 122) and a cultural shift is asked for, but the thing to be repaired is the person's judgment · **Relation last checked:** 2026-09-18
 
 ## What it argues
 
@@ -16,6 +16,10 @@ This is the paper RQ3 turns on, and two things in it matter for the construct. F
 
 The argument is entirely conceptual; the only empirical material is second-hand (Wang and Tchernev 2012 on multitasking, Coeckelbergh 2013 on drone pilots). "Practice" here is Aristotelian via Annas, Hursthouse and Borgmann's focal practices; MacIntyre is not cited anywhere in the paper, so the RQ's phrase "a practice in MacIntyre's sense" cannot be attributed to this text. The word "friction" does not appear; the friction reading is the essay's, not Vallor's. The cases are dyadic-with-a-world (soldier, carer, user), never a mediated triad in which the intermediary interprets both parties, and the paper offers no design procedure — it ends by asking for a shift in cultural values and says "values by design" and "participatory design" "will not take us all the way" (p. 122).
 
+## Relation to the moderator/mediator pivot (cluster B pass, 2026-09-18)
+
+RQ2 asks whether the technomoral virtues presuppose a subject with time to practise, and the 2015 paper answers yes in its own terms: skills are "acquired in specific practices which, under the right conditions and with sufficient opportunity for repetition, foster the cultivation of practical wisdom" (p. 109), attention is itself a moral skill (p. 117), and the lockout-app passage (p. 118) is the attention-bandwidth point stated as a complaint about the design space ("Why must we choose between tools that debilitate us and digital lockboxes"). What the paper does not say is who sets the tempo. Its three cases are a soldier, a carer and a media user, and in each the technology is on the person's own side of the relation — the drone is the soldier's, the lift is the nurse's, the feed is the user's — so the opportunity for repetition is lost to a tool the person holds, not to a party that interprets two people at once and decides in seconds. The remedy locus follows from that framing: cultivate the subject, shift the culture, and treat design as a partial aid. The pivot's objection is therefore not that Vallor is individualist (p. 122 refutes that) but that her remedy is addressed to the one party in the relation who does not control its cadence. Winner (1977, pp. 304–305; see winner1977.md) made the same objection to the cultivate-the-subject remedy a generation earlier — nourishing "moral sensibility" is idle if the "organizational situation ... mocks the very idea of responsible conduct" — and Vallor's own 2024 book (pp. 88–91) imports Winner's reverse adaptation for AI-set tempo, so the objection can be run inside her own sources. One caution the book adds: the 2015 Caution's "friction is the essay's word, not Vallor's" is still true of this paper, but the 2016 book uses "communicative friction" as a term of art at pp. 161–163 (see vallor2016.md); cite the friction reading to the book.
+
 ---
 
 ## S2 adversarial verification (2026-09-18)
@@ -25,3 +29,14 @@ The argument is entirely conceptual; the only empirical material is second-hand 
 **What I checked:** Re-downloaded the Springer version of record (bhaven.org mirror, pagination 107–124) and searched all 34 quoted strings plus the words "MacIntyre" and "friction".
 
 **Findings:** Every quotation is verbatim at the page cited (109, 111, 113, 115, 118, 119, 120, 121, 122). "MacIntyre" occurs nowhere in the paper and "friction" occurs nowhere, so the Caution is correct and the RQ's phrase "a practice in MacIntyre's sense" cannot be sourced to this text. One error fixed: "what they may do with us" was cited to pp. 116, 118, 121; the phrase occurs only at pp. 118–119 ("for us" alone also at pp. 112–113). Relation section: the lift (p. 120), lockout (p. 118) and "Because capitalism" (p. 121) readings are supported by the text; no overreach.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only ("Relation to the moderator/mediator pivot" and the Remedy locus field). Its quotations (pp. 109, 117, 118, 122) were verified verbatim by the earlier S2 pass; checked the Winner and Vallor 2024 cross-references against winner1977.md and vallor2024.md.
+
+**Findings:** winner1977.md carries the pp. 304–305 passage ("moral sensibility ... organizational situation that mocks the very idea of responsible conduct") and vallor2024.md records reverse adaptation at pp. 88–91 with note 21 to Winner 1977 p. 226. The claim that "friction" is a term of art in the 2016 book at pp. 161–163 rests on vallor2016.md's snippet read, which this pass could not re-check (see that card). No issues found in what could be checked.

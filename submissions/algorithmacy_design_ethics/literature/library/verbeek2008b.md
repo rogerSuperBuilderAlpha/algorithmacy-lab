@@ -1,6 +1,6 @@
 # Verbeek, P.-P. (2008). Morality in design: Design ethics and the morality of technological artifacts. In P. E. Vermaas, P. Kroes, A. Light & S. A. Moore (eds), *Philosophy and Design: From Engineering to Architecture*. Springer, pp. 91–103.
 
-**Identifier:** no DOI seen; chapter in Vermaas et al. (eds) 2008, Springer, pagination 91–103 confirmed from the PDF (classes.matthewjbrown.net/teaching-files/stv/verbeek-design.pdf, a course-hosted copy of the published chapter) · **Read depth:** full_text · **Source-tier:** peer-reviewed edited volume, Springer; a condensed, design-facing version of the argument in *What Things Do* and "Materializing morality" · **Evidence basis:** direct_read · **Parties modeled:** human–technology–world, with a designer–user–artifact triangle in §3.1 · **Relation last checked:** 2026-09-18
+**Identifier:** no DOI seen; chapter in Vermaas et al. (eds) 2008, Springer, pagination 91–103 confirmed from the PDF (classes.matthewjbrown.net/teaching-files/stv/verbeek-design.pdf, a course-hosted copy of the published chapter) · **Read depth:** full_text · **Source-tier:** peer-reviewed edited volume, Springer; a condensed, design-facing version of the argument in *What Things Do* and "Materializing morality" · **Evidence basis:** direct_read · **Parties modeled:** human–technology–world, with a designer–user–artifact triangle in §3.1 · **Remedy locus:** artifact (mediation analysis and moral imagination in design, pp. 100–101) with a public-decision clause (p. 102) · **Adaptivity:** fixed · **Relation last checked:** 2026-09-18
 
 ## What it argues
 
@@ -9,6 +9,8 @@ Engineering ethics is "externalist": Challenger and the Pinto treat technology "
 ## Relation to the argument
 
 RQ1: the two-direction account (action via script, perception via hermeneutics) is what the construct's "interprets both parties" and "commits determinations that bind both" would translate into, but Verbeek's hermeneutic direction always runs from technology to world and back to one human; the fetus and the parents are not two intentional parties, since only the parents read. Page 99 cuts against a Φ reading taken as a property of the artifact: mediation is "no intrinsic quality," it emerges between designer, user and thing. Φ computed on a model of the coordination form rather than on the device is compatible with that, and the paper should say so. RQ2: this is the source that resolves the plan's [check] on Achterhuis. The "speed-bump charge" is not Achterhuis's; the speed bump is Latour's example and Achterhuis's contribution is the proposal to moralize apparatus, against which the technocracy and moral-laziness objections are raised (pp. 97, 101). Verbeek's answer, that designers already materialize morality so the choice is only between reflective and unreflective mediation, licenses the seam as a designed mediation. His demand that such materializations be public (p. 102) is a normative answer to asymmetric seamfulness before the question is asked: a seam disclosed to one party and withheld from the other would fail the res publica test.
+
+Against the tightened definition (adaptivity pass, 2026-09-18). Every mediation in the chapter is settled before use: the script is written into the bump and the cart, the ultrasound's hermeneutics is the machine's, and the designer's instrument is anticipation, "a mediation analysis" run "in the design process" (p. 100). Page 95's point that mediations "cannot be entirely reduced to the intentions of their designers and users" is about emergence in use (the 15 km/h car, the youth appointment), which is multistability over a fixed artifact, not an artifact that re-fits itself. The three-agency figure (p. 100) has one user class and a designer, so the remedy sits in the artifact as designed and, at p. 102, in the public decision to adopt; nothing sits between two users. This chapter is therefore the cleanest statement of the fixed-mediation design ethics that the construct's adaptive mediator outruns: anticipation presupposes that what is anticipated stays put.
 
 ## Caution
 
@@ -23,3 +25,14 @@ A short chapter that condenses two longer works and cites itself for the method;
 **What I checked:** Re-downloaded the course-hosted chapter PDF (pp. 91–103) and searched all 25 quoted strings with page mapping.
 
 **Findings:** All verbatim at the cited pages, including the Achterhuis 1995 reference on p. 102 and "a mediation analysis (cf. Verbeek, 2006)" on p. 100. The RQ2 resolution of the Achterhuis attribution is supported by pp. 97 and 101. No issues found.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only ("Against the tightened definition" paragraph and the Remedy locus / Adaptivity fields). Every quotation it reuses (pp. 95, 100, 102) was verified against the course-hosted chapter PDF by the earlier S2 pass.
+
+**Findings:** No issues found. "A mediation analysis" run in the design process (p. 100) and the public-decision clause (p. 102) support the remedy-locus assignment; the reading of p. 95 as multistability over a fixed artifact is consistent with the two examples the chapter gives.

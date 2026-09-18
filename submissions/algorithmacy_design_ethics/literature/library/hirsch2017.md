@@ -1,6 +1,6 @@
 # Hirsch, T., Merced, K., Narayanan, S., Imel, Z. E., & Atkins, D. C. (2017). Designing contestability: Interaction design, machine learning, and mental health. *Proceedings of the 2017 ACM Conference on Designing Interactive Systems (DIS '17)*, 95–99.
 
-**Identifier:** doi:10.1145/3064663.3064703 · PMC5590649 (NIH author manuscript) · **Read depth:** full_text (author manuscript in PubMed Central; no page numbers in that copy, so quotes are located by section) · **Source-tier:** peer-reviewed, good venue (DIS); a five-page design note, not a study · **Evidence basis:** direct_read · **Parties modeled:** two humans + mediator (therapist, supervisor/insurer, ML evaluator) · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.1145/3064663.3064703 · PMC5590649 (NIH author manuscript) · **Read depth:** full_text (author manuscript in PubMed Central; no page numbers in that copy, so quotes are located by section) · **Source-tier:** peer-reviewed, good venue (DIS); a five-page design note, not a study · **Evidence basis:** direct_read · **Parties modeled:** two humans + mediator (therapist, supervisor/insurer, ML evaluator) · **Remedy locus:** artifact and adoption (legibility, sandboxing, phased deployment, training modules; the objective the authors fear is left to "organizational pressures") · **Relation last checked:** 2026-09-18
 
 ## What it argues
 
@@ -23,3 +23,26 @@ A design note about one system in one domain with no evaluation ("a formal user 
 **What I checked:** The NIH author manuscript (PMC5590649) is behind a reCAPTCHA on both PMC hosts, Europe PMC's render endpoint and REST full-text service returned a Cloudflare challenge and an HTTP 500 respectively (the manuscript is not in the open-access XML subset), the ACM DL returned a bot page, and Semantic Scholar, OpenAlex and Unpaywall point only back to PMC. Web search budget was exhausted.
 
 **Findings:** No quotation could be checked. Europe PMC confirms the PMCID, title and DOI. The card's long quotations (the "black box in a glass box" Höök borrowing, the sandboxing sentence, the "cannot inquire about the ratings" sentence and the supervisor/insurer passage) are the load-bearing ones for the relation-to-argument section, whose claim that contestability arrives "already in the construct's shape" depends on the supervisor/insurer passage reading as the card quotes it. That should be re-verified by anyone who can open PMC in a browser; the manuscript is five pages and the check will take minutes.
+
+---
+
+## S3 verification (cluster F pass, 2026-09-18)
+
+**Verdict:** confirmed — the ⚠ flag can be lifted.
+
+**What I checked:** Opened the PMC author manuscript (PMC5590649, NIHMSID NIHMS892407, "Published in final edited form as: DIS (Des Interact Syst Conf). 2017 Jun;2017:95–99") in a real browser session, after the first attempt returned a rate-limit page, and read the full text against every quotation in the card.
+
+**Findings:** All quotations are verbatim: "contestability" as "a new principle for designing systems that evaluate human behavior" (Abstract); "inherently obscure" and "can be deciphered and interpreted" (From Transparency to Legibility); Höök's "black box in a glass box"; the sandboxing sentence, "allow users to probe models with various inputs to investigate their effects on predictions"; "judged by a machine" and "unlike a human supervisor, a trainee cannot inquire about the ratings, nor engage the evaluator about their assessment"; the supervisor/insurer passage in full, from "there will also be a need for more nuanced and substantial argumentation" through "an insurance company that employs machine learning algorithms in determining whether to cover an addiction treatment program"; "unpack aggregate measures, tracing system predictions all the way down to the transcript level"; "providing mechanisms for users to ask questions and record disagreements"; "aggregate effects that may not be apparent to individual users"; the Verbeek sentence about relationships "between therapists, supervisors, insurance providers, patients"; "rationalize"; "somewhat speculative"; "A formal user evaluation is currently underway"; and "on the behalf of vulnerable users." One refinement: the conflict-of-interest footnote reads "co-founders and minority equity stakeholders in a technology company ‐ Lyssn.io," so "minority" should be added if the caution is quoted. Section titles as the card gives them (From Transparency to Legibility; Facilitating Contestation; Design for Contestability) match. The relation-to-argument section's load-bearing reading — that the evaluated party argues *through* the system to a second human — is supported by the passage as printed.
+
+**For cluster F:** the note is also an early statement of Principle II's problem from the operator's side. Its remedies are all hermeneutic and procedural — legibility, confidence scores, sandboxing, training modules, mechanisms "to ask questions and record disagreements" — and the authors themselves say the one thing that would change the objective (stopping managers using the score "as a blunt assessment tool") is beyond what they can design: "there will likely be significant financial and organizational pressures to do so." That is the boundary Principle II draws, conceded by a design team that stayed on the hermeneutic side of it.
+
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** New-material only (the S3 note's "For cluster F" paragraph). Opened the PMC author manuscript (PMC5590649) in a browser session and searched the two new quotations.
+
+**Findings:** Both verbatim: "we recognize the potential for ML to be used as a blunt assessment tool by managers and businesses, to the detriment of therapists and patients," and "there will likely be significant financial and organizational pressures to do so, as our technology occurs at a time of increasing pressure to 'rationalize' mental health care." The conflict-of-interest footnote reads "co-founders and minority equity stakeholders," as the S3 note says. No issues found.
