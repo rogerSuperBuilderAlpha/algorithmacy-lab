@@ -339,6 +339,7 @@ Multi-experiment batteries on one theme.
 - **[MARL emergent learn (#41)](org_frontier/studies/marl_emergent_learn/README.md)** — predict task learnability (AUC emerg→success 0.555; emerg→easy 0.485)
 - **[Mediator hierarchy census (agenda #15)](org_frontier/studies/mediator_hierarchy_census/README.md)** — occupied level** (apex, mid if present, leaf); Φ is **flat in depth** (2.0 at
 - **[Min-cut MIP (#49)](org_frontier/studies/mincut_mip/README.md)** — (Q49 H5). For the #47 families a *normalized GID cut-weight* theorem
+- **[Mixed-algebra seats (V3 #3)](org_frontier/studies/mixed_algebra_seats/README.md)**
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
