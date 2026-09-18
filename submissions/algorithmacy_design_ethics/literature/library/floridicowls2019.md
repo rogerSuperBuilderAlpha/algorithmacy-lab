@@ -1,0 +1,25 @@
+# Floridi, L., & Cowls, J. (2019). A unified framework of five principles for AI in society. *Harvard Data Science Review*, 1(1).
+
+**Identifier:** doi:10.1162/99608f92.8cd550d1 · **Read depth:** full_text (HDSR PDF, 15 pp., published 23 Jun 2019, updated 1 Nov 2019; page numbers below are the PDF's) · **Source-tier:** peer-reviewed (HDSR inaugural issue), CC-BY; the compact statement of the AI4People synthesis · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders (experts vs non-experts) · **Relation last checked:** 2026-09-18
+
+## What it argues
+
+The same six documents and 47 principles as AI4People, now with the method stated (three inclusion criteria: recent, general rather than sectoral, reputable multi-stakeholder body, p. 5) and a "synoptic" Table 1 showing each of the five principles present in almost every document and carried forward into AI4People, the EC HLEG Guidelines and the OECD Recommendation (pp. 10–11). The framing shifts slightly from 2018. AI is "a reservoir of smart agency on tap," defined counterfactually after McCarthy et al. 1955 — "were a human to behave in that way, that behaviour would be called intelligent. It does not mean that the machine is intelligent, or even thinking" (p. 4). Explicability is now glossed with its audiences: "intelligibility (for non-experts, e.g., patients or business customers, and for experts, e.g., product designers or engineers) and accountability" (p. 6), and the definitional pair is repeated verbatim: intelligibility answers "how does it work?" and accountability "who is responsible for the way it works?" (p. 8). Autonomy is "the power to decide (to decide)": "the autonomy of machines should be restricted and made intrinsically reversible" and "any delegation should also remain overridable in principle (i.e., deciding to decide again)" (p. 7). The "patient or doctor" question recurs (p. 8) with the same answer — "we could be either" — and the paper adds a caution absent in 2018: "the underlying meaning of each of the principles is contested, with similar terms often used to mean different things," so "the convergence that we detect ... also demands caution" (pp. 5–6). Section 4 (which opens on p. 9) concedes the sample is Western and global-scope only and rejects the "ethics as Europe's silver bullet" reading (p. 10). The conclusion positions the framework as "architecture" within which sectoral rules are built (p. 10).
+
+## Relation to the argument
+
+RQ7, the tooth, and mostly a confirmation of the AI4People card with two sharpenings. First, the audience gloss on intelligibility settles what "explicable to whom" means for this school: to non-experts on the receiving end and to experts on the building end. Those are the two ends of a design relation, not two parties to a mediated coordination, so the dyad assumption is explicit rather than implicit here. Second, the counterfactual definition of AI (behaves as a human would, without being one) is the same move the lab makes when it lets Φ decide whether the intermediary is a party without asking whether it is a mind — a useful parallel for the paper's stance that "party" is a structural verdict, not an attribution of agency. The paper is also the citation for the claim that the five-principle framework is what the EC HLEG and OECD adopted (p. 10, Table 1), which matters if the paper wants to say the governing frameworks inherit the dyad.
+
+## Caution
+
+A short synthesis paper with no new analysis beyond AI4People; the "fine-grained analysis" is a reading of six documents by two authors with no coding protocol reported. Nothing empirical, nothing on explanation as a practice, nothing on mediation between users. Floridi's funding disclosure lists Facebook and Google alongside EPSRC (p. 11), and both authors ran the AI4People project whose framework the paper reports as having converged.
+
+---
+
+## S2 adversarial verification (2026-09-18)
+
+**Verdict:** corrected
+
+**What I checked:** Downloaded the HDSR PDF from the PubPub asset store (15 pp., "Published on: Jun 23, 2019, Updated on: Nov 01, 2019") and checked every quotation and page number.
+
+**Findings:** One page number off by one: the "Europe's silver bullet" line (Delcker 2018) is on p. 10, inside §4 "AI ethics: whence and for whom," which begins on p. 9; fixed. All other locations hold: "reservoir of smart agency on tap" and the McCarthy-style counterfactual definition p. 4; the three inclusion criteria and "multi-stakeholder" p. 5; the "contested ... different things" caution spanning pp. 5–6; the audience gloss on intelligibility p. 6; "the power to decide (to decide)," "intrinsically reversible" and "deciding to decide again" p. 7; "who is responsible for the way it works?" and "we could be either" p. 8; "architecture" p. 10; Table 1 with the HLEG and OECD columns pp. 10–11; the Facebook and Google funding disclosure p. 11. Quotations are verbatim. The relation-to-argument section does not overreach.

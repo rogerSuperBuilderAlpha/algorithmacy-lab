@@ -1,0 +1,25 @@
+# Umbrello, S., & van de Poel, I. (2021). Mapping value sensitive design onto AI for social good principles. *AI and Ethics*, 1(3), 283–296.
+
+**Identifier:** doi:10.1007/s43681-021-00038-3 · PMC7848675 · **Read depth:** full_text (open-access CC-BY full text via Europe PMC XML; the volume/issue/pages in the header are confirmed from the PMC record, which lists volume 1, pages 283–296, and from PhilArchive's listing of issue 3) · **Source-tier:** peer-reviewed journal, new venue at the time (AI and Ethics vol. 1); conceptual proposal with an ex post illustration · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders · **Relation last checked:** 2026-09-18
+
+## What it argues
+
+Machine learning breaks two VSD assumptions. Designers may not understand what a system has learned, and the system "may adapt in ways that 'disembody' the values embedded" in it (Abstract). The illustration is a tax-fraud neural network that can follow a biased rule "without this result being foreseeable or even clearly discernible," so bias is "emergent and opaque" (§Challenges posed by AI). Three modifications answer this. First, Floridi et al.'s seven AI4SG factors — falsifiability and incremental deployment, safeguards against manipulation of predictors, receiver-contextualised intervention, "receiver-contextualised explanation and transparent purposes," privacy and consent, situational fairness, human-friendly semanticisation — become the "norms" layer in van de Poel's values hierarchy (Fig. 4), between values and design requirements. Second, values promoted by a design (drawn from the UN SDGs) are distinguished from values respected by it (the EU HLEG's autonomy, non-harm, fairness, explicability); respected values translate into "constraints or boundary conditions rather than ... criteria that should be achieved as much as possible," and "set the deontological constraints that any design must meet to be ethically (minimally) acceptable" (§Formulating design requirements). Third, VSD extends "to the entire life cycle" so that unintended value consequences are monitored and the system redesigned, with prototyping scaled up "not unlike what is done in medical experiments with new drugs" (§Prototyping). On value lists the authors split the difference with Le Dantec et al. and Borning and Muller: a list "may well overlook values," while bottom-up elicitation "is hardly watertight as stakeholders themselves may fail to articulate important values or crucial stakeholders may not have been identified. Stakeholder values, too, may not always have ethical importance" (§Value sensitive design). The worked case is Germany's Corona Datenspende app, where the contextual analysis notes that a voluntary app "might nevertheless be applied in ways that endanger the voluntariness of use," by employers or transport operators.
+
+## Relation to the argument
+
+The AI-era VSD, and it carries three things for RQ5. Its life-cycle extension is the process counterpart to "adapt as it changes": the intermediary that drifts after deployment is exactly what the authors say VSD must now keep watching, and their emergent-and-opaque bias updates Friedman and Nissenbaum's emergent bias by moving the drift from the context into the system. The norm of "transparent purposes" — "the aims of any given system must be transparent" — is the objective axis written as a design requirement, and it is the process-level warrant for Seamful Boundary Disclosure of the objective. On adjudication the paper is more useful than it looks: respected values as boundary conditions are a rule that could exclude an extractive objective before trade-offs begin. But the rule is stated for a benevolent designer — a tax office, a public-health institute — and the paper never names an operator, never treats conflicting stakeholder interests, and never says who verifies that the constraints hold. The counterpart problem of RQ5 does not arise because only one human side is ever in view. It does not cut against any affordance; its "safeguards against the manipulation of predictors" is worth noting because it frames tactical adaptation by users as gaming to be prevented, the operator's mirror image of algorithmacy.
+
+## Caution
+
+A conceptual proposal; the contact-tracing illustration is "ex post facto," the app's actual design process was not studied, and no design requirement was implemented or tested. The SDGs are imported as "the best approximation of what we collectively believe to be valuable societal ends" without argument, and the AI4SG factors are Floridi and colleagues' list, not derived here. The authors write from inside the Delft design-for-values school, so the values hierarchy is their own instrument.
+
+---
+
+## S2 adversarial verification (2026-09-18)
+
+**Verdict:** confirmed
+
+**What I checked:** Re-fetched the Europe PMC full text (PMC7848675) and searched all 16 quoted strings.
+
+**Findings:** All verbatim. One trivial fix: the quoted AI4SG factor is "safeguards against the manipulation of predictors" (the card omitted "the"). Relation section supported; the "transparent purposes" norm is quoted correctly.
