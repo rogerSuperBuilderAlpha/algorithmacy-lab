@@ -351,6 +351,7 @@ Multi-experiment batteries on one theme.
 - **[Mixed-radix mediator (agenda #3)](org_frontier/studies/mixed_radix_mediator/README.md)** — mediator (`S'=W+C`, alphabets `(2,3,2)`), the extra mid level goes into
 - **[pyphi_iit4_mv M1 overlay](org_frontier/studies/multivalued_iit4_port/README.md)** — `third_party/pyphi_iit4_mv`. Binary regression matches stock pin Φ=2
 - **[Noise × composed carriers (V3 #12)](org_frontier/studies/noise_composed_carriers/README.md)** — share **p\*=0.5** on a composed **AND necklace** and a **shared-mediator
+- **[Omit cycle band grammar at n=8–9 (agenda V4 #8)](org_frontier/studies/omit_cycle_band_n89/README.md)** — that stabilized at n=7 cannot be re-adjudicated by exact IIT-4.0 core-Φ
 - **[Omit cycle-type morph at n=7 (V3 #8)](org_frontier/studies/omit_cycle_morph_n7/README.md)** — does **not** morph again. The n=5→n=6 singleton→band shift (V2 #42
 - **[Omit/derangement lift at n=6](org_frontier/studies/omit_lift_n6/README.md)** — fixed_k=4, **derangements split** into Φ=12 (cycle types 6, 4+2, 2+2+2) and
 - **[Omit-motif census: Φ=5 vs Φ=6 at n=5](org_frontier/studies/omit_motif_phi5/README.md)** — recip=0. Same-indeg siblings with other cycle structures all give **Φ=6**. Motif
