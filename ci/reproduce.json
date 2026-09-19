@@ -4839,6 +4839,23 @@
       "source": "org_frontier/studies/joint_obs_cliff_exact_phi/FINDINGS.md"
     },
     {
+      "name": "phase-lock-exact-phi",
+      "cmd": "python org_frontier/studies/phase_lock_exact_phi/analyze_phase.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (exact-Φ alt cliffs multifamily):      SUPPORTED",
+        "  H2 (exact-Φ phase holds multifamily):     SUPPORTED",
+        "  H3 (exact-Φ phase holds family_n3):       SUPPORTED",
+        "  H4 (MI phase holds / alt cliffs family):  SUPPORTED",
+        "  H5 (mean duty matched at δ=0.5):         SUPPORTED",
+        "  verdict: PHASE_RESTORES_JOINT",
+        "  reading: PHASE_RESTORES_JOINT — at matched δ=0.5, exact-Φ phase holds on multifamily (1.000) where alt cliffs (0.660); family_n3 phase=1.000; MI phase=0.913 alt=0.592; joint observation not mean duty",
+        "  metrics: phi_full_m=1.000; phi_alt_m=0.660; phi_phase_m=1.000; phi_phase_f=1.000; mi_phase_f=0.913; mi_alt_f=0.592; duty_alt=0.500; duty_phase=0.500"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/phase_lock_exact_phi/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

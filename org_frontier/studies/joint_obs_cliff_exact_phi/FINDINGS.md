@@ -61,8 +61,8 @@ joint-observation failure once topology leaves that family.
 
 ## Best next (V4)
 
-**#2** — does phase-locked same-slot duty restore exact-Φ ranking the
-way it restored MI in V3 #16?
+**#2** closed (`PHASE_RESTORES_JOINT`). Next **#3** — exact-Φ zero-duty
+vs induced party–mediator retain.
 
 ## Reproduce
 

@@ -355,6 +355,7 @@ Multi-experiment batteries on one theme.
 - **[Parity radix blind spot (agenda #4)](org_frontier/studies/parity_radix_blindspot/README.md)** — flat full-system Φ band (≈0.5) at k=2,3,4, while min-commit is high
 - **[Parity vs conjunctive under noise (agenda #8)](org_frontier/studies/parity_vs_conjunctive_noise/README.md)** — conjunctive hubs lose the triadic verdict at the **same** p*=0.5 under
 - **[Party vs mediator noise (agenda #7)](org_frontier/studies/party_vs_mediator_noise/README.md)** — mediator-column flip-noise collapse the triad at the **same** p*=0.5
+- **[Phase-lock under exact Φ (agenda V4 #2)](org_frontier/studies/phase_lock_exact_phi/README.md)** — multifamily panel (AUC **1.000**) where **alternation** cliffs
 - **[Φ-ascent adaptive mediator (agenda #14)](org_frontier/studies/phi_ascent_mediator/README.md)** — Φ does **not** converge to the conjunctive hub. Under fixed party
 - **[Random coupling ensemble at fixed n (agenda #18)](org_frontier/studies/random_coupling_ensemble/README.md)** — n=4 (ER / fixed-k / WS / BA-style), **every** core Φ lands on the discrete
 - **[Regulator capture (#33)](org_frontier/studies/regulator_capture/README.md)** — coupling cut**, not a smooth membership glide. Under mutual gate

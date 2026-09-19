@@ -19,6 +19,10 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 2. If exact-Φ alternation cliffs (or fails to), does a **phase-locked**
    same-slot duty at δ=0.5 restore exact-Φ ranking the way it restored
    MI in V3 #16, or does exact Φ need a different joint condition?
+   **Answered — PHASE_RESTORES_JOINT.** At matched δ=0.5, phase holds
+   on multifamily (AUC 1.000) where alt cliffs (0.660); MI phase holds
+   on family_n3 (0.913 vs alt 0.592). Joint observation, not mean duty.
+   See `studies/phase_lock_exact_phi/`.
 3. Under exact Φ, is **zero-duty** of one party still sufficient to cliff
    (V3 #16 H1), or can an induced party–mediator subsystem retain Φ
    rank when the absent party is frozen out?
@@ -64,5 +68,6 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 
 ---
 
-**First cell on this agenda:** #1
-(`studies/joint_obs_cliff_exact_phi/` → `TRANSFER_PARTIAL_EXACT_PHI`).
+**First cells on this agenda:** #1
+(`studies/joint_obs_cliff_exact_phi/` → `TRANSFER_PARTIAL_EXACT_PHI`);
+#2 (`studies/phase_lock_exact_phi/` → `PHASE_RESTORES_JOINT`).
