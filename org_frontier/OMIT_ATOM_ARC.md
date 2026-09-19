@@ -64,8 +64,8 @@ SCALE_MORPHS).
 
 ## Best next
 
-Validation **V3 #13** closed (`ROLE_COUNTS_HUB_WEAKEST` —
-[`weakest_boolean_render/`](studies/weakest_boolean_render/)). Next: Wageman×landmark **#14**
-(or estimation residual **#15**).
+Validation **V3 #14** closed (`W_N_PREDICTS_LANDMARK` —
+[`wageman_phi_landmark/`](studies/wageman_phi_landmark/)). Next: estimation **#15**
+(topology-aware imputer) or **#16** (correlated duty cycles).
 
 

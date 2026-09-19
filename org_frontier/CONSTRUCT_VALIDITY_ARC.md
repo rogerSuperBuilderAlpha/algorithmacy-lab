@@ -39,6 +39,11 @@ survey packets, or optional engineering (beyond-binary M3). See
 
 V3 #13 [`weakest_boolean_render/`](studies/weakest_boolean_render/) **ROLE_COUNTS_HUB_WEAKEST** — weakest recovering Boolean render of public OSS logs is role-count → conjunctive hub; activity/elicits miss.
 
+
+## Wageman × landmark (V3 #14)
+
+V3 #14 [`wageman_phi_landmark/`](studies/wageman_phi_landmark/) **W_N_PREDICTS_LANDMARK** — W+n predicts ring/hub/pool landmarks; W alone suffices at n=4.
+
 ## Reproduce
 
 ```

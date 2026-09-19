@@ -375,6 +375,7 @@ Multi-experiment batteries on one theme.
 - **[Threshold / majority template (V3 #2)](org_frontier/studies/threshold_majority_template/README.md)** — n≥4 is **not** a new template. Intermediate k always **factors** once
 - **[Timescale separation (agenda #9)](org_frontier/studies/timescale_separation/README.md)** — fast parties) factors the triad at **k\*=2** on both the conjunctive
 - **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both
+- **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
 - **[Worker union scale (#31)](org_frontier/studies/worker_union_scale/README.md)** — coalition cell-for-cell (Φ, n_core, core==peer group) under weak peer,

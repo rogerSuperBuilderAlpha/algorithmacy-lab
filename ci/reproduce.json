@@ -4771,6 +4771,23 @@
       "source": "org_frontier/studies/weakest_boolean_render/FINDINGS.md"
     },
     {
+      "name": "wageman-phi-landmark",
+      "cmd": "python org_frontier/studies/wageman_phi_landmark/analyze_wageman_landmark.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (n=4 W separates hub<ring<pool):      SUPPORTED",
+        "H2 (W alone fails cross-n, acc<0.85):  SUPPORTED",
+        "H3 ((W,n) recovers landmark cross-n):    SUPPORTED",
+        "H4 (W\u2192triadic verdict hold AUC\u22650.85):  SUPPORTED",
+        "H5 (panel closed):                       SUPPORTED",
+        "verdict: W_N_PREDICTS_LANDMARK",
+        "reading: W_N_PREDICTS_LANDMARK \u2014 survey-style W paired with form size n predicts ring-4 / hub-(n\u22121) / pool landmarks; at n=4 W alone orders hub<ring<pool; across n, W alone collides and needs n; dyadic/triadic verdict hold from V2 #44 intact",
+        "metrics: n4_acc=1.000; w_alone_acc=0.700; wn_acc=1.000; verdict_auc=1.000"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/wageman_phi_landmark/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

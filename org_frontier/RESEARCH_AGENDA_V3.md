@@ -120,6 +120,10 @@ below is blocked without it.
 14. Can a **survey / Wageman-style instrument** (V2 #44) be paired with
     an in-silico form so that measured W predicts not only the verdict
     class but the **Φ landmark** (ring-4 vs hub-(n−1) vs pool)?
+   **Answered — W_N_PREDICTS_LANDMARK.** Survey-style W paired with
+   form size n predicts ring-4 / hub-(n−1) / pool; at n=4 W alone
+   orders hub<ring<pool; across n W alone collides. See
+   `studies/wageman_phi_landmark/`.
 
 ## F. Estimation residuals after V2 #24
 
