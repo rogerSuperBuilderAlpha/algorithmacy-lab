@@ -42,9 +42,14 @@ should leave that sandbox on purpose:
 `ALTERNATION_RECREATES_CLIFF` under exact Φ (not only MI) — does losing
 joint party observation cliff the screen outside strict mediation?
 
+**V4 status.** Agenda opened in [`RESEARCH_AGENDA_V4.md`](RESEARCH_AGENDA_V4.md).
+First cell run: #1 `studies/joint_obs_cliff_exact_phi/` →
+**TRANSFER_PARTIAL_EXACT_PHI**.
+
 ## Reproduce anchors
 
 ```
 python org_frontier/studies/topology_aware_imputer/analyze_imputer.py
 python org_frontier/studies/correlated_party_duty/analyze_duty.py
+python org_frontier/studies/joint_obs_cliff_exact_phi/analyze_transfer.py
 ```

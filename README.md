@@ -333,6 +333,7 @@ Multi-experiment batteries on one theme.
 - **[Interior atoms at n=7–8 (V3 #9)](org_frontier/studies/interior_atoms_n78/README.md)** — {6, 8, 9, 12}, while also recalling prior atoms 6 and 12. Discrete atoms
 - **[Interior topology between ring and pool (agenda #19)](org_frontier/studies/interior_ring_pool/README.md)** — (Φ = 4) and the pool (Φ = n(n−1)) **exist**, but none in this designed census
 - **[Irreducibility catalog — necessary and contingent irreducible triads](org_frontier/studies/irreducibility_catalog/README.md)** — 54 entries classified by the bypass-counterfactual (q213): 41 real-world arrangements and 13
+- **[Joint-obs cliff under exact Φ (agenda V4 #1)](org_frontier/studies/joint_obs_cliff_exact_phi/README.md)** — replicates on family_n3 (0.967→0.585). Under an **exact-Φ** screen,
 - **[Ladder-gate stratified panel — stress-test MONO_EXTREMAL_VS_AFFINE](org_frontier/studies/ladder_gate_panel/README.md)** — stratified panel of **448** four-input gates at n=5 full bind:
 - **[Ladder-gate Boolean property classifier](org_frontier/studies/ladder_gate_properties/README.md)** — (anchors + property probes), regime membership is predicted exactly by:
 - **[Local-triad necklace (V3 #4)](org_frontier/studies/local_triad_necklace/README.md)** — triads on a cycle does **not** invent a new Φ law. The closed AND necklace

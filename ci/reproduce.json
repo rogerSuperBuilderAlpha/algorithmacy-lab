@@ -4822,6 +4822,23 @@
       "source": "org_frontier/studies/correlated_party_duty/FINDINGS.md"
     },
     {
+      "name": "joint-obs-cliff-exact-phi",
+      "cmd": "python org_frontier/studies/joint_obs_cliff_exact_phi/analyze_transfer.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (MI alt cliffs on family_n3):           SUPPORTED",
+        "  H2 (exact-Φ alt cliffs on family_n3):      REFUTED",
+        "  H3 (exact-Φ alt cliffs on multifamily):    SUPPORTED",
+        "  H4 (exact-Φ full holds both panels):       SUPPORTED",
+        "  H5 (exact-Φ zero-duty cliffs family_n3):   SUPPORTED",
+        "  verdict: TRANSFER_PARTIAL_EXACT_PHI",
+        "  reading: TRANSFER_PARTIAL_EXACT_PHI — MI alt cliffs (0.967→0.585); exact-Φ alt soft on family_n3 (1.000→0.812, no cliff bar) but cliffs on multifamily (1.000→0.660); zero_duty_f=0.792",
+        "  metrics: phi_full_f=1.000; phi_alt_f=0.812; phi_zero_f=0.792; phi_full_m=1.000; phi_alt_m=0.660; mi_full=0.967; mi_alt=0.585"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/joint_obs_cliff_exact_phi/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [
