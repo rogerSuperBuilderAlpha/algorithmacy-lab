@@ -4873,6 +4873,23 @@
       "source": "org_frontier/studies/zero_duty_retain_exact_phi/FINDINGS.md"
     },
     {
+      "name": "imputer-exact-phi",
+      "cmd": "python org_frontier/studies/imputer_exact_phi/analyze_imputer_phi.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (MI restore replicates #15):           SUPPORTED",
+        "  H2 (copy-W restores exact Φ):             SUPPORTED",
+        "  H3 (ring prior restores exact Φ):         REFUTED",
+        "  H4 (omit cliffs + const0 fails restore):  SUPPORTED",
+        "  H5 (full Φ holds):                        SUPPORTED",
+        "  verdict: COPY_RESTORES_RING_FAILS",
+        "  reading: COPY_RESTORES_RING_FAILS — MI restore holds (ring=0.944, copy=0.932); copy-W restores exact Φ (1.000→0.896) but ring does not (0.806); omit=0.750 const0=0.500",
+        "  metrics: mi_full=1.000; mi_hide=0.550; mi_ring=0.944; mi_copy=0.932; phi_full=1.000; phi_omit=0.750; phi_copy=0.896; phi_ring=0.806; phi_const0=0.500"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/imputer_exact_phi/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

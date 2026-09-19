@@ -62,8 +62,8 @@ scores.
 
 ## Best next (V4)
 
-**#4** — does V3 #15’s ring-prior (or copy-W) restoration transfer
-under exact-Φ scoring?
+**#4** answered (`COPY_RESTORES_RING_FAILS`). **#5** — topology-matched
+imputer under exact Φ.
 
 ## Reproduce
 

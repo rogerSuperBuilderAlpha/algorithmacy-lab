@@ -36,6 +36,9 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 4. Does V3 #15’s **ring-prior** (and naive copy-W) restoration of
    hide-party MI **transfer under exact-Φ scoring**, or does imputation
    only rescue the MI screen?
+   **Answered — COPY_RESTORES_RING_FAILS.** MI restore holds
+   (ring 0.944, copy-W 0.932); copy-W restores exact Φ (1.000→0.896)
+   but ring does not (0.806). See `studies/imputer_exact_phi/`.
 5. Across topologies, does a **topology-matched imputer** (ring on
    rings, hub on hubs) beat a mismatched prior under exact Φ, reversing
    V3 #15’s finding that hub priors fail on mediation family_n3?
@@ -75,4 +78,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 **First cells on this agenda:** #1
 (`studies/joint_obs_cliff_exact_phi/` → `TRANSFER_PARTIAL_EXACT_PHI`);
 #2 (`studies/phase_lock_exact_phi/` → `PHASE_RESTORES_JOINT`);
-#3 (`studies/zero_duty_retain_exact_phi/` → `RETAIN_FAILS_WITH_ZERO`).
+#3 (`studies/zero_duty_retain_exact_phi/` → `RETAIN_FAILS_WITH_ZERO`);
+#4 (`studies/imputer_exact_phi/` → `COPY_RESTORES_RING_FAILS`).
