@@ -64,9 +64,8 @@ verdict-class use of W is more robust under the same degradation.
 
 ## Best next (V4)
 
-**#7** — on logged collaboration graphs (or a public OSS role graph),
-does anti-correlated party duty predict failure of a cheap integration
-screen the way V3 #16 predicts in silico?
+**#7** answered (`CLIFF_RECREATES_ON_LOGGED`). **#8** — does V3 #8’s
+band grammar at n=7 hold at n=8–9?
 
 ## Reproduce
 

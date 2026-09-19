@@ -58,8 +58,13 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
    0.802 while verdict AUC stays 0.997; missing-subscale alone does not
    collapse this panel. See `studies/fielded_w_landmark/`.
 7. On logged collaboration graphs (or a public OSS role graph), does
-   **anti-correlated party duty** predict failure of a cheap integration
-   screen the way V3 #16 predicts in silico?
+   **anti-correlated party duty** recreate the exact-Φ joint-observation
+   cliff (as on synthetic multifamily), or does logged structure soften
+   it?
+   **Answered — CLIFF_RECREATES_ON_LOGGED.** Exact-Φ alt cliffs on the
+   logged-structure panel (1.000→0.591) as on synthetic multifamily
+   (1.000→0.660); logged wiring does not soften. See
+   `studies/logged_alt_duty_exact_phi/`.
 
 ## D. Scale beyond n=7–8
 
@@ -89,4 +94,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 #3 (`studies/zero_duty_retain_exact_phi/` → `RETAIN_FAILS_WITH_ZERO`);
 #4 (`studies/imputer_exact_phi/` → `COPY_RESTORES_RING_FAILS`);
 #5 (`studies/matched_imputer_exact_phi/` → `MATCHED_RETAINS_COPY_RANKS`);
-#6 (`studies/fielded_w_landmark/` → `LANDMARK_COLLAPSES_VERDICT_HOLDS`).
+#6 (`studies/fielded_w_landmark/` → `LANDMARK_COLLAPSES_VERDICT_HOLDS`);
+#7 (`studies/logged_alt_duty_exact_phi/` → `CLIFF_RECREATES_ON_LOGGED`).

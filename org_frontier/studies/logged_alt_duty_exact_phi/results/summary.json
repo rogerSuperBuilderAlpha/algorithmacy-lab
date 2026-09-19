@@ -1,0 +1,21 @@
+{
+  "verdict": "CLIFF_RECREATES_ON_LOGGED",
+  "reading": "CLIFF_RECREATES_ON_LOGGED \u2014 synthetic multifamily cliffs (1.000\u21920.660) and logged structure recreates it (1.000\u21920.591); anti-correlated duty is not softened by logged wiring",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "h5": true,
+  "auc": {
+    "phi_full_m": 1.0,
+    "phi_alt_m": 0.6596638655462185,
+    "phi_full_l": 1.0,
+    "phi_alt_l": 0.5909090909090909,
+    "phi_phase_m": 1.0,
+    "phi_phase_l": 1.0
+  },
+  "n_multi": 24,
+  "n_logged": 15,
+  "n_tri_l": 11,
+  "control_pass": true
+}
