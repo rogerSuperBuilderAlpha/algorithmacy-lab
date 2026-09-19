@@ -26,6 +26,10 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 3. Under exact Φ, is **zero-duty** of one party still sufficient to cliff
    (V3 #16 H1), or can an induced party–mediator subsystem retain Φ
    rank when the absent party is frozen out?
+   **Answered — RETAIN_FAILS_WITH_ZERO.** Zero-duty cliffs on
+   multifamily (1.000→0.592) and family_n3 (→0.750); retain_MA fails
+   with it (same AUCs); omit-mediator also cliffs (0.559). See
+   `studies/zero_duty_retain_exact_phi/`.
 
 ## B. Estimation / imputation leftovers
 
@@ -70,4 +74,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 
 **First cells on this agenda:** #1
 (`studies/joint_obs_cliff_exact_phi/` → `TRANSFER_PARTIAL_EXACT_PHI`);
-#2 (`studies/phase_lock_exact_phi/` → `PHASE_RESTORES_JOINT`).
+#2 (`studies/phase_lock_exact_phi/` → `PHASE_RESTORES_JOINT`);
+#3 (`studies/zero_duty_retain_exact_phi/` → `RETAIN_FAILS_WITH_ZERO`).

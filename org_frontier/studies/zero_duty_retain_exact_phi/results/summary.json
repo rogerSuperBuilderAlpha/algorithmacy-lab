@@ -1,0 +1,18 @@
+{
+  "verdict": "RETAIN_FAILS_WITH_ZERO",
+  "h1": "SUPPORTED",
+  "h2": "REFUTED",
+  "h3": "SUPPORTED",
+  "h4": "SUPPORTED",
+  "h5": "SUPPORTED",
+  "phi_full_multi_auc": 1.0,
+  "phi_zero_multi_auc": 0.592437,
+  "phi_retain_multi_auc": 0.592437,
+  "phi_omit_m_multi_auc": 0.558824,
+  "phi_full_family_auc": 1.0,
+  "phi_zero_family_auc": 0.75,
+  "phi_retain_family_auc": 0.75,
+  "n3_zero_eq_retain": "48/48",
+  "multi_zero_eq_retain": "20/24",
+  "reading": "RETAIN_FAILS_WITH_ZERO \u2014 zero-duty cliffs on multifamily (1.000\u21920.592) and retain_MA also fails to hold (0.592); omit_M=0.559 (H4=Y); family zero=0.750 retain=0.750; no escape via party\u2013mediator pair alone"
+}

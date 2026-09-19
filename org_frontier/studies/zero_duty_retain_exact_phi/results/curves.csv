@@ -1,0 +1,11 @@
+panel,screen,n_forms,n_tri,auc,orient
+family_n3,phi_full,48,24,1.000000,1
+family_n3,phi_zero_duty_B,48,24,0.750000,1
+family_n3,phi_retain_MA,48,24,0.750000,1
+family_n3,phi_omit_M,48,24,0.500000,1
+family_n3,phi_alt,48,24,0.802083,1
+multifamily,phi_full,24,17,1.000000,1
+multifamily,phi_zero_duty_B,24,17,0.592437,1
+multifamily,phi_retain_MA,24,17,0.592437,1
+multifamily,phi_omit_M,24,17,0.558824,1
+multifamily,phi_alt,24,17,0.659664,1

@@ -4856,6 +4856,23 @@
       "source": "org_frontier/studies/phase_lock_exact_phi/FINDINGS.md"
     },
     {
+      "name": "zero-duty-retain-exact-phi",
+      "cmd": "python org_frontier/studies/zero_duty_retain_exact_phi/analyze_retain.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (zero-duty cliffs multifamily):        SUPPORTED",
+        "  H2 (retain_MA holds multifamily):         REFUTED",
+        "  H3 (zero-duty cliffs family_n3):          SUPPORTED",
+        "  H4 (omit-mediator cliffs multifamily):    SUPPORTED",
+        "  H5 (full holds + n=3 zero≡retain):        SUPPORTED",
+        "  verdict: RETAIN_FAILS_WITH_ZERO",
+        "  reading: RETAIN_FAILS_WITH_ZERO — zero-duty cliffs on multifamily (1.000→0.592) and retain_MA also fails to hold (0.592); omit_M=0.559 (H4=Y); family zero=0.750 retain=0.750; no escape via party–mediator pair alone",
+        "  metrics: full_m=1.000; zero_m=0.592; retain_m=0.592; omit_M_m=0.559; full_f=1.000; zero_f=0.750; retain_f=0.750; n3_same=48/48; multi_same=20/24"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/zero_duty_retain_exact_phi/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

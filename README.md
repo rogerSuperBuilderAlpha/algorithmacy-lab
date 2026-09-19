@@ -383,6 +383,7 @@ Multi-experiment batteries on one theme.
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
 - **[Worker union scale (#31)](org_frontier/studies/worker_union_scale/README.md)** — coalition cell-for-cell (Φ, n_core, core==peer group) under weak peer,
+- **[Zero-duty vs retain under exact Φ (agenda V4 #3)](org_frontier/studies/zero_duty_retain_exact_phi/README.md)** — party cliffs** (multifamily 1.000→0.592; family_n3 1.000→0.750), and the
 
 ### Thinkers on the triad
 

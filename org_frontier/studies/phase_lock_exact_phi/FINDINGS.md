@@ -56,8 +56,8 @@ Same lesson for MI on mediation family_n3.
 
 ## Best next (V4)
 
-**#3** — under exact Φ, is zero-duty of one party still enough to cliff,
-or can an induced party–mediator subsystem retain rank?
+**#3** closed (`RETAIN_FAILS_WITH_ZERO`). Next **#4** — ring-prior /
+copy-W restoration under exact-Φ scoring.
 
 ## Reproduce
 
