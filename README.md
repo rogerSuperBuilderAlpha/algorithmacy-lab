@@ -339,6 +339,7 @@ Multi-experiment batteries on one theme.
 - **[Ladder-gate stratified panel — stress-test MONO_EXTREMAL_VS_AFFINE](org_frontier/studies/ladder_gate_panel/README.md)** — stratified panel of **448** four-input gates at n=5 full bind:
 - **[Ladder-gate Boolean property classifier](org_frontier/studies/ladder_gate_properties/README.md)** — (anchors + property probes), regime membership is predicted exactly by:
 - **[Local-triad necklace (V3 #4)](org_frontier/studies/local_triad_necklace/README.md)** — triads on a cycle does **not** invent a new Φ law. The closed AND necklace
+- **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
 - **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
 - **[MARL deep replicate (#41 gap)](org_frontier/studies/marl_deep_replicate/README.md)** — linear FA Q-policies with observation `[S, own_last, partner_last]` —
