@@ -4706,6 +4706,22 @@
       "source": "org_frontier/studies/interior_atoms_n78/FINDINGS.md"
     },
     {
+      "name": "parity-law-n-gt6",
+      "cmd": "python org_frontier/studies/parity_law_n_gt6/analyze_parity_n_gt6.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (controls n=3..5 reproduce law):          SUPPORTED",
+        "H2 (exact law at n>6):                       SUPPORTED",
+        "H3 (H-cut MIP matches exact; no residual):   SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: LAW_HOLDS_NGT6",
+        "reading: LAW_HOLDS_NGT6 \u2014 parity hub \u03a6 = 2^(2\u2212n) remains exact at n\u2208{6,7} with full cores; named H-cut is the MIP and matches exact \u03a6 (no topology residual when the cut formula stands in for enumeration)",
+        "law_grid: n=3 \u03a6=0.5 law=0.5 hold=True; n=4 \u03a6=0.25 law=0.25 hold=True; n=5 \u03a6=0.125 law=0.125 hold=True; n=6 \u03a6=0.0625 law=0.0625 hold=True; n=7 \u03a6=0.03125 law=0.03125 hold=True"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/parity_law_n_gt6/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

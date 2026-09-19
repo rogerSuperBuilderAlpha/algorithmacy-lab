@@ -64,11 +64,5 @@ SCALE_MORPHS).
 
 ## Best next
 
-Scale lane: **V3 #9** closed (`SPROUTS_NEW_ATOMS` —
-[`interior_atoms_n78/`](studies/interior_atoms_n78/); new Φ=10 at n=7).
-Next **V3 #10** (parity under n>6 hubs) or graded×topo **V3 #11**.
-Construct/gate arc already sealed
-([`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md)). Role-target:
-[`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md). Skip another multi-role
-indeg on the same family. Residual / cascade / ternary unless tooling
-lands.
+Scale formal: **V3 #10** closed (`LAW_HOLDS_NGT6`). Next graded×topo
+**V3 #11**. Construct/gate arc sealed. Skip another multi-role indeg.

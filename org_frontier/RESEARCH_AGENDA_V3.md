@@ -85,6 +85,9 @@ below is blocked without it.
 10. Does the parity Φ = 2^(2−n) law (V2 #47/#115) remain exact under
     **n>6 hub embeddings**, or do topology residuals appear once exact
     enumeration is replaced by cut formulas alone?
+   **Answered — LAW_HOLDS_NGT6.** Exact parity-hub Φ = 2^(2−n) at
+   n∈{6,7} with full cores; named H-cut is the MIP and matches exact Φ
+   (no cut-only residual). See `studies/parity_law_n_gt6/`.
 
 ## D. Graded × topology and noise × structure
 

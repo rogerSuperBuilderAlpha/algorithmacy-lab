@@ -36,7 +36,6 @@ hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-Scale lane **V3 #9** closed (`SPROUTS_NEW_ATOMS` —
-[`interior_atoms_n78/`](studies/interior_atoms_n78/)). Next: **V3 #10**
-(parity law under n>6 hubs) or graded×topo **V3 #11**. M3 overlay only if a
-chosen cell is blocked without it.
+Scale lane **V3 #10** closed (`LAW_HOLDS_NGT6` —
+[`parity_law_n_gt6/`](studies/parity_law_n_gt6/)). Next: graded×topo
+**V3 #11**. M3 overlay only if a chosen cell is blocked without it.

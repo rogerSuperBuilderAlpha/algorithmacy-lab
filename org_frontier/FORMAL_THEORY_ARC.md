@@ -9,6 +9,8 @@ construct / omit stay closed except as empirical pointers to the laws.
 [`studies/scaling_laws_closed_form/`](studies/scaling_laws_closed_form/)
 → cut formulas proved; MIP identity closed by #49 for pool/hub;
 parity residual on $I=1$ uniqueness for general $n$.
+V3 #10 (`parity_law_n_gt6/`) → **LAW_HOLDS_NGT6**: exact Φ = 2^(2−n)
+through n=7; H-cut MIP matches (no Φ residual in this window).
 
 ## #49 status
 
