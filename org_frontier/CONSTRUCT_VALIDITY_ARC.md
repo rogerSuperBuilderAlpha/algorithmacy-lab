@@ -48,6 +48,10 @@ V3 #14 [`wageman_phi_landmark/`](studies/wageman_phi_landmark/) **W_N_PREDICTS_L
 
 V3 #15 [`topology_aware_imputer/`](studies/topology_aware_imputer/) **IMPUTER_RESTORES_AUC** — ring prior restores hide-party MI; hub does not; naive copy-W also restores.
 
+## Correlated party duty (V3 #16)
+
+V3 #16 [`correlated_party_duty/`](studies/correlated_party_duty/) **ALTERNATION_RECREATES_CLIFF** — alternating W/C duty does not soften the δ=0 cliff; zero-duty still cliffs; phase-locked δ=0.5 holds.
+
 ## Reproduce
 
 ```

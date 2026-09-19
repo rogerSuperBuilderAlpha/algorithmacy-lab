@@ -4805,6 +4805,23 @@
       "source": "org_frontier/studies/topology_aware_imputer/FINDINGS.md"
     },
     {
+      "name": "correlated-party-duty",
+      "cmd": "python org_frontier/studies/correlated_party_duty/analyze_duty.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (zero-duty recreates cliff):         SUPPORTED",
+        "  H2 (alt_WC softens cliff):              REFUTED",
+        "  H3 (phase_WC softens):                  SUPPORTED",
+        "  H4 (sparse δ=0.10 holds):               SUPPORTED",
+        "  H5 (hide mediator stays ≥0.85):         SUPPORTED",
+        "  verdict: ALTERNATION_RECREATES_CLIFF",
+        "  reading: ALTERNATION_RECREATES_CLIFF — alt_WC fails soften bar (AUC=0.571 vs full=0.892); zero-duty still cliffs (zC=0.505); losing joint WC observation is enough to recreate the δ=0 cliff",
+        "  metrics: full=0.892; zero_C=0.505; zero_W=0.528; sparse=0.896; alt_WC=0.571; phase_WC=0.898; hide_med=0.889"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/correlated_party_duty/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

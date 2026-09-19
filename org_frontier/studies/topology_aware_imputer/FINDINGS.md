@@ -64,8 +64,8 @@ hub prior to carry the screen alone.
 
 ## Best next (V3)
 
-**#16** correlated party duty cycles vs the δ=0 intermittent cliff
-(last V3 cell).
+**#16** closed (`ALTERNATION_RECREATES_CLIFF`). V3 agenda complete —
+see `V3_LANE_CLOSE.md`.
 
 ## Reproduce
 

@@ -138,6 +138,10 @@ below is blocked without it.
     **correlated party duty cycles** (two parties observed on
     alternating slots), or does any zero-duty party recreate the
     cliff?
+   **Answered — ALTERNATION_RECREATES_CLIFF.** Alternating W/C (each
+   δ≈0.5, never jointly observed) keeps MI near chance (0.571); any
+   zero-duty party also cliffs; phase-locked δ=0.5 holds. See
+   `studies/correlated_party_duty/`.
 
 ---
 
@@ -149,4 +153,5 @@ below is blocked without it.
 (`studies/dual_mediator_template_census/` → `FACTORS_INTO_FIVE`); #2
 (`studies/threshold_majority_template/` → `COLLAPSES_TO_REDUNDANCY`); #3
 (`studies/mixed_algebra_seats/` → `BLINDSPOT_DOMINATES`).
-Lane note `COMPOSED_TOPOLOGY_ARC.md`.
+Lane notes: `COMPOSED_TOPOLOGY_ARC.md`; close-out
+[`V3_LANE_CLOSE.md`](V3_LANE_CLOSE.md).

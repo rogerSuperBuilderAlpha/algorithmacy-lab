@@ -64,8 +64,8 @@ SCALE_MORPHS).
 
 ## Best next
 
-Validation **V3 #15** closed (`IMPUTER_RESTORES_AUC` —
-[`topology_aware_imputer/`](studies/topology_aware_imputer/)). Next:
-estimation **#16** (correlated party duty cycles — last V3 cell).
+Validation / estimation residuals **V3 #15–#16** closed
+(`IMPUTER_RESTORES_AUC`, `ALTERNATION_RECREATES_CLIFF`). V3 agenda
+complete — see [`V3_LANE_CLOSE.md`](V3_LANE_CLOSE.md).
 
 
