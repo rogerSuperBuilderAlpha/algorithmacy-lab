@@ -79,6 +79,9 @@ below is blocked without it.
 9. Do the discrete Φ atoms of V2 #18 / `interior_ring_pool` at n≤6
    **sprout new interior atoms at n=7–8**, or only thicken existing
    landmark multiplicities?
+   **Answered — SPROUTS_NEW_ATOMS.** Designed ring–pool interiors at n=7
+   yield a new full-core atom Φ=10 outside L≤6 interiors {6,8,9,12}, while
+   also recalling 6 and 12. See `studies/interior_atoms_n78/`.
 10. Does the parity Φ = 2^(2−n) law (V2 #47/#115) remain exact under
     **n>6 hub embeddings**, or do topology residuals appear once exact
     enumeration is replaced by cut formulas alone?

@@ -36,7 +36,7 @@ hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-Scale lane **V3 #8** closed (`BAND_GRAMMAR_HOLDS` —
-[`omit_cycle_morph_n7/`](studies/omit_cycle_morph_n7/)). Next: **V3 #9**
-(interior atoms at n=7–8) or graded×topo **V3 #11**. M3 overlay only if a
+Scale lane **V3 #9** closed (`SPROUTS_NEW_ATOMS` —
+[`interior_atoms_n78/`](studies/interior_atoms_n78/)). Next: **V3 #10**
+(parity law under n>6 hubs) or graded×topo **V3 #11**. M3 overlay only if a
 chosen cell is blocked without it.

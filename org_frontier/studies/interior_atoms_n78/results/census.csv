@@ -1,0 +1,8 @@
+name,family,n,param,structure,whole_phi_mip,core,core_phi,n_core,full_core,interior,prior_atom,new_atom,seconds
+ring7,ring,7,0,triadic,4.000000,N0|N1|N2|N3|N4|N5|N6,4.000000,7,True,False,False,False,473.06
+pool7,pool,7,7,triadic,42.000000,N0|N1|N2|N3|N4|N5|N6,42.000000,7,True,False,False,False,433.17
+mh2_n7,multihub,7,2,triadic,10.000000,N0|N1|N2|N3|N4|N5|N6,10.000000,7,True,True,False,True,412.33
+mh3_n7,multihub,7,3,triadic,12.000000,N0|N1|N2|N3|N4|N5|N6,12.000000,7,True,True,True,False,3146.54
+chord_n7_c2,chordal,7,2,triadic,6.000000,N0|N1|N2|N3|N4,6.000000,5,False,False,False,False,438.08
+chord_n7_c3,chordal,7,3,triadic,6.000000,N0|N1|N2|N3|N4|N5|N6,6.000000,7,True,True,True,False,3138.80
+kreg_n7_d2,kregular,7,2,triadic,12.000000,N0|N1|N2|N3|N4|N5|N6,12.000000,7,True,True,True,False,439.96

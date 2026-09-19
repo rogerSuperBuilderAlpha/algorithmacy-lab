@@ -4690,6 +4690,22 @@
       "source": "org_frontier/studies/omit_cycle_morph_n7/FINDINGS.md"
     },
     {
+      "name": "interior-atoms-n78",
+      "cmd": "python org_frontier/studies/interior_atoms_n78/analyze_atoms_n78.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (anchors ring7=4 / pool7=42):             SUPPORTED",
+        "H2 (full-core interiors exist):              SUPPORTED",
+        "H3 (new interior atoms sprout):              SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: SPROUTS_NEW_ATOMS",
+        "reading: SPROUTS_NEW_ATOMS \u2014 designed ring\u2013pool interiors at n=7 yield new full-core \u03a6 atoms [10.0] outside L\u22646 interiors {6,8,9,12}; prior atoms recalled=[6.0, 12.0]",
+        "atom_law: L_prior={6,8,9,12}; new=[10.0]; prior_hits=[6.0, 12.0]; n_interior=4"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/interior_atoms_n78/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

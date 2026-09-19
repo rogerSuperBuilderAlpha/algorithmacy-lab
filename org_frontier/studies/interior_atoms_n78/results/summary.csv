@@ -1,0 +1,2 @@
+h1,h2,h3,h4,verdict,n_interiors,n_new_atoms,new_phi_set,prior_phi_set
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,SPROUTS_NEW_ATOMS,4,1,10.0,6.0;12.0
