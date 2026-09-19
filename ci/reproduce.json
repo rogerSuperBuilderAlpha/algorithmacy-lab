@@ -4890,6 +4890,24 @@
       "source": "org_frontier/studies/imputer_exact_phi/FINDINGS.md"
     },
     {
+      "name": "matched-imputer-exact-phi",
+      "cmd": "python org_frontier/studies/matched_imputer_exact_phi/analyze_matched.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (hub-matched retains hub triadics):    SUPPORTED",
+        "  H2 (ring-matched retains ring triadics):  SUPPORTED",
+        "  H3 (matched beats mismatched retention):  SUPPORTED",
+        "  H4 (copy-A restores mediation ranking):   SUPPORTED",
+        "  H5 (matched fails hub∪ring ranking):      SUPPORTED",
+        "  H6 (full holds; const0 fails mediation):  SUPPORTED",
+        "  verdict: MATCHED_RETAINS_COPY_RANKS",
+        "  reading: MATCHED_RETAINS_COPY_RANKS — matched retains native Φ (hub exact=1.000, ring exact=1.000; mismatched 0.000/0.000) but does not restore hub∪ring ranking (matched=0.551 vs full=1.000, copy=0.630); copy-A restores mediation (0.896)",
+        "  metrics: full_m=1.000; copy_m=0.896; hub_m=0.806; ring_m=0.883; full_hr=1.000; matched_hr=0.551; mismatched_hr=0.542; copy_hr=0.630; ret_hub=1.000; ret_hub_mis=0.000; ret_ring=1.000; ret_ring_mis=0.000; n_hub_tri=9; n_ring_tri=3"
+      ],
+      "timeout": 240,
+      "source": "org_frontier/studies/matched_imputer_exact_phi/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

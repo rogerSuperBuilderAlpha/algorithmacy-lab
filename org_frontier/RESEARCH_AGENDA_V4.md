@@ -42,6 +42,10 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 5. Across topologies, does a **topology-matched imputer** (ring on
    rings, hub on hubs) beat a mismatched prior under exact Φ, reversing
    V3 #15’s finding that hub priors fail on mediation family_n3?
+   **Answered — MATCHED_RETAINS_COPY_RANKS.** Matched priors retain
+   native Φ (hub/ring exact=1.000) and beat mismatch on magnitude, but
+   do not restore hub∪ring ranking (matched AUC 0.551); copy-A still
+   restores mediation (0.896). See `studies/matched_imputer_exact_phi/`.
 
 ## C. Validation / instrument bridge
 
@@ -79,4 +83,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 (`studies/joint_obs_cliff_exact_phi/` → `TRANSFER_PARTIAL_EXACT_PHI`);
 #2 (`studies/phase_lock_exact_phi/` → `PHASE_RESTORES_JOINT`);
 #3 (`studies/zero_duty_retain_exact_phi/` → `RETAIN_FAILS_WITH_ZERO`);
-#4 (`studies/imputer_exact_phi/` → `COPY_RESTORES_RING_FAILS`).
+#4 (`studies/imputer_exact_phi/` → `COPY_RESTORES_RING_FAILS`);
+#5 (`studies/matched_imputer_exact_phi/` → `MATCHED_RETAINS_COPY_RANKS`).

@@ -63,8 +63,8 @@ here.
 
 ## Best next (V4)
 
-**#5** — across topologies, does a topology-matched imputer beat a
-mismatched prior under exact Φ?
+**#5** answered (`MATCHED_RETAINS_COPY_RANKS`). **#6** — W+n landmark
+under a fielded instrument.
 
 ## Reproduce
 

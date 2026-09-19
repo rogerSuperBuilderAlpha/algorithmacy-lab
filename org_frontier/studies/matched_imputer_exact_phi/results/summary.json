@@ -1,0 +1,17 @@
+{
+  "verdict": "MATCHED_RETAINS_COPY_RANKS",
+  "h1": "SUPPORTED",
+  "h2": "SUPPORTED",
+  "h3": "SUPPORTED",
+  "h4": "SUPPORTED",
+  "h5": "SUPPORTED",
+  "h6": "SUPPORTED",
+  "ret_hub": 1.0,
+  "ret_hub_mis": 0.0,
+  "ret_ring": 1.0,
+  "ret_ring_mis": 0.0,
+  "auc_copy_mediation": 0.895833,
+  "auc_matched_hub_ring": 0.550926,
+  "auc_mismatched_hub_ring": 0.541667,
+  "reading": "MATCHED_RETAINS_COPY_RANKS \u2014 matched retains native \u03a6 (hub exact=1.000, ring exact=1.000; mismatched 0.000/0.000) but does not restore hub\u222aring ranking (matched=0.551 vs full=1.000, copy=0.630); copy-A restores mediation (0.896)"
+}
