@@ -113,6 +113,10 @@ below is blocked without it.
     that still recovers the conjunctive Φ=n−1 signature V2 #45 found
     only under a forced hub — role counts alone, activity thresholds,
     or institutional elicits?
+   **Answered — ROLE_COUNTS_HUB_WEAKEST.** Weakest recovering render is
+   role-count cardinality → conjunctive hub template; activity
+   thresholds/fits and institutional elicits miss the Φ=n−1 scaling
+   bar. See `studies/weakest_boolean_render/`.
 14. Can a **survey / Wageman-style instrument** (V2 #44) be paired with
     an in-silico form so that measured W predicts not only the verdict
     class but the **Φ landmark** (ring-4 vs hub-(n−1) vs pool)?

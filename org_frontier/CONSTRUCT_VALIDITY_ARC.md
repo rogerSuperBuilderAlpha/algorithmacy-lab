@@ -34,6 +34,11 @@ On this PR the formal lane (#47–#50) is already closed. Prefer empirical /
 survey packets, or optional engineering (beyond-binary M3). See
 [`PR739_PACKAGE.md`](PR739_PACKAGE.md).
 
+
+## Validation bridge (V3 #13)
+
+V3 #13 [`weakest_boolean_render/`](studies/weakest_boolean_render/) **ROLE_COUNTS_HUB_WEAKEST** — weakest recovering Boolean render of public OSS logs is role-count → conjunctive hub; activity/elicits miss.
+
 ## Reproduce
 
 ```

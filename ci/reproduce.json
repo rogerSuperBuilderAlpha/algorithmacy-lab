@@ -4754,6 +4754,23 @@
       "source": "org_frontier/studies/noise_composed_carriers/FINDINGS.md"
     },
     {
+      "name": "weakest-boolean-render",
+      "cmd": "python org_frontier/studies/weakest_boolean_render/analyze_weakest_render.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (institutional elicits miss scaling bar): SUPPORTED",
+        "H2 (activity thresholds/fits miss scaling):  SUPPORTED",
+        "H3 (role-count\u2192hub recovers scaling bar):    SUPPORTED",
+        "H4 (weaker count-only forms miss scaling):   SUPPORTED",
+        "H5 (panel closed):                           SUPPORTED",
+        "verdict: ROLE_COUNTS_HUB_WEAKEST",
+        "reading: ROLE_COUNTS_HUB_WEAKEST \u2014 weakest recovering render is role-count cardinality \u2192 conjunctive hub template; activity thresholds/fits and institutional elicits miss the \u03a6=n\u22121 scaling bar; weaker count-only wirings (identity/cycle/k-of-n) also miss",
+        "sig_grid: counts_identity_n3=0; counts_cycle_copy_n3=1; counts_k_of_n_1_n3=0; counts_k_of_n_nm1_n3=0; counts_hub_n3=1; counts_identity_n4=0; counts_cycle_copy_n4=0; counts_k_of_n_1_n4=0; counts_k_of_n_nm1_n4=0; counts_hub_n4=1; act3_fit=0; act3_thr_k1=0; act3_thr_kmax=0; act4_fit=0; act4_thr_k1=0; act4_thr_kmax=0; pyphi_v9_triad=1; sklearn_v10_fourrole=0; k8s_v11_prow=0"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/weakest_boolean_render/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

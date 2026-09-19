@@ -376,6 +376,7 @@ Multi-experiment batteries on one theme.
 - **[Timescale separation (agenda #9)](org_frontier/studies/timescale_separation/README.md)** — fast parties) factors the triad at **k\*=2** on both the conjunctive
 - **[Two-triad shared-member merger (agenda #16)](org_frontier/studies/two_triad_shared_member/README.md)** — mediator** merges two conjunctive triads into one major complex spanning both
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
+- **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
 - **[Worker union scale (#31)](org_frontier/studies/worker_union_scale/README.md)** — coalition cell-for-cell (Φ, n_core, core==peer group) under weak peer,
 
 ### Thinkers on the triad

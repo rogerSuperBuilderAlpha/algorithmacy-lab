@@ -1,0 +1,10 @@
+{
+  "verdict": "ROLE_COUNTS_HUB_WEAKEST",
+  "reading": "ROLE_COUNTS_HUB_WEAKEST \u2014 weakest recovering render is role-count cardinality \u2192 conjunctive hub template; activity thresholds/fits and institutional elicits miss the \u03a6=n\u22121 scaling bar; weaker count-only wirings (identity/cycle/k-of-n) also miss",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "h5": true,
+  "control_ok": true
+}

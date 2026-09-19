@@ -64,7 +64,8 @@ SCALE_MORPHS).
 
 ## Best next
 
-Noise×compose **V3 #12** closed (`SAME_PSTAR_COMPOSED` —
-[`noise_composed_carriers/`](studies/noise_composed_carriers/)). Next: validation **V3 #13**
+Validation **V3 #13** closed (`ROLE_COUNTS_HUB_WEAKEST` —
+[`weakest_boolean_render/`](studies/weakest_boolean_render/)). Next: Wageman×landmark **#14**
 (or estimation residual **#15**).
+
 
