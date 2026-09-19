@@ -1,0 +1,2 @@
+h1,h2,h3,verdict,full_auc,hidden_party_auc,hidden_mediator_auc,max_consec_drop,family_delta_spread,reading
+SUPPORTED,REFUTED,SUPPORTED,HIDDEN_COLLAPSE_INTERMITTENT_CLIFF,0.921875,0.546875,0.934028,0.421875,0.500000,"HIDDEN_COLLAPSE_INTERMITTENT_CLIFF — hidden party collapses (full=0.922→0.547); intermittent not smooth (max consec drop=0.422, mono=True); family/role mediates degradation"
