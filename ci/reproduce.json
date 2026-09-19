@@ -4942,6 +4942,23 @@
       "source": "org_frontier/studies/logged_alt_duty_exact_phi/FINDINGS.md"
     },
     {
+      "name": "omit-cycle-band-n89",
+      "cmd": "python org_frontier/studies/omit_cycle_band_n89/analyze_band_n89.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (n=7 control BAND_GRAMMAR_HOLDS):       SUPPORTED",
+        "  H2 (class count grows n7<n8<n9):           SUPPORTED",
+        "  H3 (n=8 exact micro adjudicable):          REFUTED",
+        "  H4 (band grammar holds at n=8 | H3):       REFUTED",
+        "  H5 (n=9 consistent | budget):              REFUTED",
+        "  verdict: SCALE_BLOCKS_EXACT_PHI",
+        "  reading: SCALE_BLOCKS_EXACT_PHI — cycle-type catalog expands (10->14->21; new n8=[[2, 2, 3], [2, 5], [3, 4], [7]], new n9=[[2, 2, 2, 2], [2, 2, 4], [2, 3, 3], [2, 6], [3, 5], [4, 4], [8]]) but exact core-Φ at n=8 is not adjudicable under the lab stack (dense-state major complex exceeds budget; sparse states Φ=0); n=7 BAND_GRAMMAR_HOLDS unrebutted",
+        "  metrics: n_classes_7=10; n_classes_8=14; n_classes_9=21; new_n8=[[2, 2, 3], [2, 5], [3, 4], [7]]; new_n9=[[2, 2, 2, 2], [2, 2, 4], [2, 3, 3], [2, 6], [3, 5], [4, 4], [8]]; micro_phis=[]; n7_phi_set=[12.0, 14.0]"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/omit_cycle_band_n89/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

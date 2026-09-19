@@ -1,0 +1,452 @@
+{
+  "7": {
+    "target_indeg": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "hits": 34208,
+    "n_classes": 10,
+    "classes": [
+      {
+        "cycles": [
+          2
+        ],
+        "recip": 1,
+        "count": 4658
+      },
+      {
+        "cycles": [
+          3
+        ],
+        "recip": 0,
+        "count": 4591
+      },
+      {
+        "cycles": [
+          4
+        ],
+        "recip": 0,
+        "count": 4507
+      },
+      {
+        "cycles": [
+          6
+        ],
+        "recip": 0,
+        "count": 4496
+      },
+      {
+        "cycles": [
+          5
+        ],
+        "recip": 0,
+        "count": 4484
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "recip": 1,
+        "count": 3787
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "recip": 1,
+        "count": 3384
+      },
+      {
+        "cycles": [
+          2,
+          2
+        ],
+        "recip": 2,
+        "count": 2234
+      },
+      {
+        "cycles": [
+          3,
+          3
+        ],
+        "recip": 0,
+        "count": 1492
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          2
+        ],
+        "recip": 3,
+        "count": 575
+      }
+    ]
+  },
+  "8": {
+    "target_indeg": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "hits": 17692,
+    "n_classes": 14,
+    "classes": [
+      {
+        "cycles": [
+          7
+        ],
+        "recip": 0,
+        "count": 1812
+      },
+      {
+        "cycles": [
+          3
+        ],
+        "recip": 0,
+        "count": 1773
+      },
+      {
+        "cycles": [
+          5
+        ],
+        "recip": 0,
+        "count": 1738
+      },
+      {
+        "cycles": [
+          4
+        ],
+        "recip": 0,
+        "count": 1734
+      },
+      {
+        "cycles": [
+          2
+        ],
+        "recip": 1,
+        "count": 1712
+      },
+      {
+        "cycles": [
+          6
+        ],
+        "recip": 0,
+        "count": 1709
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "recip": 1,
+        "count": 1448
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "recip": 1,
+        "count": 1285
+      },
+      {
+        "cycles": [
+          2,
+          5
+        ],
+        "recip": 1,
+        "count": 1221
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "recip": 0,
+        "count": 1003
+      },
+      {
+        "cycles": [
+          2,
+          2
+        ],
+        "recip": 2,
+        "count": 858
+      },
+      {
+        "cycles": [
+          3,
+          3
+        ],
+        "recip": 0,
+        "count": 610
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          3
+        ],
+        "recip": 2,
+        "count": 562
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          2
+        ],
+        "recip": 3,
+        "count": 227
+      }
+    ]
+  },
+  "9": {
+    "target_indeg": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "hits": 8794,
+    "n_classes": 21,
+    "classes": [
+      {
+        "cycles": [
+          8
+        ],
+        "recip": 0,
+        "count": 718
+      },
+      {
+        "cycles": [
+          5
+        ],
+        "recip": 0,
+        "count": 705
+      },
+      {
+        "cycles": [
+          7
+        ],
+        "recip": 0,
+        "count": 687
+      },
+      {
+        "cycles": [
+          3
+        ],
+        "recip": 0,
+        "count": 672
+      },
+      {
+        "cycles": [
+          6
+        ],
+        "recip": 0,
+        "count": 668
+      },
+      {
+        "cycles": [
+          2
+        ],
+        "recip": 1,
+        "count": 653
+      },
+      {
+        "cycles": [
+          4
+        ],
+        "recip": 0,
+        "count": 620
+      },
+      {
+        "cycles": [
+          2,
+          3
+        ],
+        "recip": 1,
+        "count": 584
+      },
+      {
+        "cycles": [
+          2,
+          4
+        ],
+        "recip": 1,
+        "count": 521
+      },
+      {
+        "cycles": [
+          2,
+          5
+        ],
+        "recip": 1,
+        "count": 492
+      },
+      {
+        "cycles": [
+          2,
+          6
+        ],
+        "recip": 1,
+        "count": 424
+      },
+      {
+        "cycles": [
+          3,
+          4
+        ],
+        "recip": 0,
+        "count": 408
+      },
+      {
+        "cycles": [
+          3,
+          5
+        ],
+        "recip": 0,
+        "count": 362
+      },
+      {
+        "cycles": [
+          2,
+          2
+        ],
+        "recip": 2,
+        "count": 326
+      },
+      {
+        "cycles": [
+          3,
+          3
+        ],
+        "recip": 0,
+        "count": 195
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          3
+        ],
+        "recip": 2,
+        "count": 191
+      },
+      {
+        "cycles": [
+          4,
+          4
+        ],
+        "recip": 0,
+        "count": 165
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          4
+        ],
+        "recip": 2,
+        "count": 157
+      },
+      {
+        "cycles": [
+          2,
+          3,
+          3
+        ],
+        "recip": 1,
+        "count": 146
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          2
+        ],
+        "recip": 3,
+        "count": 94
+      },
+      {
+        "cycles": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "recip": 4,
+        "count": 6
+      }
+    ]
+  },
+  "new_cycle_types_n8": [
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      7
+    ]
+  ],
+  "new_cycle_types_n9": [
+    [
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      4
+    ],
+    [
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      8
+    ]
+  ]
+}

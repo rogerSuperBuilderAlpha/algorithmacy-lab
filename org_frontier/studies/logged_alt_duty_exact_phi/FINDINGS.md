@@ -67,8 +67,8 @@ synthetic forms.
 
 ## Best next (V4)
 
-**#8** — does V3 #8’s band grammar at n=7 hold at **n=8–9**, or does a
-new morph appear once more cycle types fit?
+**#8** answered (`SCALE_BLOCKS_EXACT_PHI`). **#9** — does V3 #10’s
+parity-hub law Φ=2^(2−n) continue for **n>8**?
 
 ## Reproduce
 
