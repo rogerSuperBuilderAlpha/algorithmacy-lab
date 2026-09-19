@@ -4959,6 +4959,22 @@
       "source": "org_frontier/studies/omit_cycle_band_n89/FINDINGS.md"
     },
     {
+      "name": "parity-law-n-gt8",
+      "cmd": "python org_frontier/studies/parity_law_n_gt8/analyze_parity_n_gt8.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (V3 #10 controls LAW_HOLDS_NGT6):     SUPPORTED",
+        "  H2 (H-cut φ = law at n∈(8, 9, 10)):        SUPPORTED",
+        "  H3 (H is MIP at n=8; φ = law):           SUPPORTED",
+        "  H4 (no residual in checked window):      SUPPORTED",
+        "  verdict: LAW_HOLDS_NGT8",
+        "  reading: LAW_HOLDS_NGT8 — parity hub Φ=2^(2−n) survives n>8: named H-cut φ matches the law at n∈{8,9,10}; full SIA at n=8 keeps H as MIP with φ=law (no residual); major-complex census left at n≤7 (V3 #10) under the cut/SIA regime",
+        "  metrics: n8_sia=0.015625; n8_H_mip=True; cuts=n8=0.015625;n9=0.0078125;n10=0.00390625; law_n8=0.015625; law_n9=0.0078125; law_n10=0.00390625; n_controls=5"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/parity_law_n_gt8/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [

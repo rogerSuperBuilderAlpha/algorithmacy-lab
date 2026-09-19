@@ -1,0 +1,37 @@
+{
+  "verdict": "LAW_HOLDS_NGT8",
+  "reading": "LAW_HOLDS_NGT8 \u2014 parity hub \u03a6=2^(2\u2212n) survives n>8: named H-cut \u03c6 matches the law at n\u2208{8,9,10}; full SIA at n=8 keeps H as MIP with \u03c6=law (no residual); major-complex census left at n\u22647 (V3 #10) under the cut/SIA regime",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "sia8": {
+    "n": 8,
+    "sia_phi": 0.015625,
+    "law_phi": 0.015625,
+    "H_mip": true,
+    "match": true,
+    "seconds": 964.97
+  },
+  "cuts": [
+    {
+      "n": 8,
+      "H_phi": 0.015625,
+      "law_phi": 0.015625,
+      "match": true
+    },
+    {
+      "n": 9,
+      "H_phi": 0.0078125,
+      "law_phi": 0.0078125,
+      "match": true
+    },
+    {
+      "n": 10,
+      "H_phi": 0.00390625,
+      "law_phi": 0.00390625,
+      "match": true
+    }
+  ],
+  "scope": "lean: V3 #10 controls n\u22647; named H-cut n\u2208{8,9,10}; full SIA MIP check at n=8; major-complex not recomputed for n\u22658"
+}

@@ -74,12 +74,12 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
    (10→14→21; new lengths `(7,)`, `(8,)`, …) but exact core-Φ at n=8–9
    is not adjudicable under the lab stack; n=7 `BAND_GRAMMAR_HOLDS`
    unrebutted. See `studies/omit_cycle_band_n89/`.
-   **Answered — SCALE_BLOCKS_EXACT_PHI.** Cycle-type catalog expands
-   (10→14→21; new lengths `(7,)`, `(8,)`, …) but exact core-Φ at n=8–9
-   is not adjudicable under the lab stack; n=7 `BAND_GRAMMAR_HOLDS`
-   unrebutted. See `studies/omit_cycle_band_n89/`.
 9. Does V3 #10’s **parity-hub law** Φ=2^(2−n) continue for **n>8**, or
    does the closed-form break when reachability / MIP sampling bites?
+   **Answered — LAW_HOLDS_NGT8.** Named H-cut φ = law at n∈{8,9,10};
+   full SIA at n=8 keeps H as MIP with φ = law; no topology residual in
+   the lean window (major-complex census stays at n≤7; cut/SIA regime
+   for n≥8). See `studies/parity_law_n_gt8/`.
 10. At n≥6, do V3 #4–#7’s **composed-topology** verdicts (necklace /
     ring-of-hubs / shared-mediator / hybrid seam) remain discrete
     landmarks under a denser random-coupling draw, or do new interstitial
@@ -104,4 +104,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 #5 (`studies/matched_imputer_exact_phi/` → `MATCHED_RETAINS_COPY_RANKS`);
 #6 (`studies/fielded_w_landmark/` → `LANDMARK_COLLAPSES_VERDICT_HOLDS`);
 #7 (`studies/logged_alt_duty_exact_phi/` → `CLIFF_RECREATES_ON_LOGGED`);
-#8 (`studies/omit_cycle_band_n89/` → `SCALE_BLOCKS_EXACT_PHI`).
+#8 (`studies/omit_cycle_band_n89/` → `SCALE_BLOCKS_EXACT_PHI`);
+#9 (`studies/parity_law_n_gt8/` → `LAW_HOLDS_NGT8`).
