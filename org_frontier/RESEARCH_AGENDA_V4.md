@@ -53,6 +53,10 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
    **fielded / survey-style instrument** on a designed Boolean form
    (not the CM echo alone), or does instrument noise erase landmark
    separation?
+   **Answered — LANDMARK_COLLAPSES_VERDICT_HOLDS.** Clean (W,n) holds
+   (acc=1.000) but fielded rater noise σ=0.20 collapses landmark acc to
+   0.802 while verdict AUC stays 0.997; missing-subscale alone does not
+   collapse this panel. See `studies/fielded_w_landmark/`.
 7. On logged collaboration graphs (or a public OSS role graph), does
    **anti-correlated party duty** predict failure of a cheap integration
    screen the way V3 #16 predicts in silico?
@@ -84,4 +88,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 #2 (`studies/phase_lock_exact_phi/` → `PHASE_RESTORES_JOINT`);
 #3 (`studies/zero_duty_retain_exact_phi/` → `RETAIN_FAILS_WITH_ZERO`);
 #4 (`studies/imputer_exact_phi/` → `COPY_RESTORES_RING_FAILS`);
-#5 (`studies/matched_imputer_exact_phi/` → `MATCHED_RETAINS_COPY_RANKS`).
+#5 (`studies/matched_imputer_exact_phi/` → `MATCHED_RETAINS_COPY_RANKS`);
+#6 (`studies/fielded_w_landmark/` → `LANDMARK_COLLAPSES_VERDICT_HOLDS`).

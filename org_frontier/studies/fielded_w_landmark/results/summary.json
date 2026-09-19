@@ -1,0 +1,16 @@
+{
+  "verdict": "LANDMARK_COLLAPSES_VERDICT_HOLDS",
+  "h1": "SUPPORTED",
+  "h2": "SUPPORTED",
+  "h3": "SUPPORTED",
+  "h4": "SUPPORTED",
+  "h5": "SUPPORTED",
+  "clean_wn_acc": 1.0,
+  "clean_w_acc": 0.7,
+  "clean_auc": 1.0,
+  "field_wn": 0.8025,
+  "field_auc": 0.997222,
+  "sigma": 0.2,
+  "n_trials": 40,
+  "reading": "LANDMARK_COLLAPSES_VERDICT_HOLDS \u2014 clean (W,n) holds (1.000) but fielded rater noise \u03c3=0.2 collapses landmark acc to 0.802 while verdict AUC stays 0.997; missing-subscale alone does not collapse this symmetric panel (H4=Y)"
+}

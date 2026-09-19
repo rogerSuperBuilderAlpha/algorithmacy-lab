@@ -70,8 +70,8 @@ identified.
 
 ## Best next (V4)
 
-**#6** — does V3 #14’s W+n → landmark rule survive when W is taken from
-a fielded / survey-style instrument?
+**#6** answered (`LANDMARK_COLLAPSES_VERDICT_HOLDS`). **#7** — anti-
+correlated party duty on logged graphs.
 
 ## Reproduce
 
