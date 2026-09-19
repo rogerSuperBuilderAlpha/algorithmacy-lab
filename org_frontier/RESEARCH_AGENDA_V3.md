@@ -131,6 +131,9 @@ below is blocked without it.
     mediator does not), does a **topology-aware imputer** (ring vs hub
     prior) restore AUC, or is party absence a hard information cut no
     prior repairs?
+   **Answered — IMPUTER_RESTORES_AUC.** Ring prior restores hide-party
+   MI (0.550→0.944); hub prior does not (0.752); naive copy-W also
+   restores. See `studies/topology_aware_imputer/`.
 16. Does the intermittent-observation **cliff at δ=0** soften under
     **correlated party duty cycles** (two parties observed on
     alternating slots), or does any zero-duty party recreate the

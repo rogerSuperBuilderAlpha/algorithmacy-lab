@@ -1,0 +1,15 @@
+{
+  "verdict": "IMPUTER_RESTORES_AUC",
+  "h1": "SUPPORTED",
+  "h2": "REFUTED",
+  "h3": "SUPPORTED",
+  "h4": "REFUTED",
+  "h5": "SUPPORTED",
+  "full_auc": 1.0,
+  "hide_party_auc": 0.550347,
+  "hide_mediator_auc": 1.0,
+  "hub_prior_auc": 0.751736,
+  "ring_prior_auc": 0.944444,
+  "naive_best_auc": 0.932292,
+  "reading": "IMPUTER_RESTORES_AUC \u2014 hide-party collapse (full=1.000\u21920.550) repaired by ring=0.944; naive_best=0.932; topo_lift=0.012"
+}

@@ -36,8 +36,8 @@ hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-Validation **V3 #14** closed (`W_N_PREDICTS_LANDMARK` —
-[`wageman_phi_landmark/`](studies/wageman_phi_landmark/)). Next: estimation **#15**
-(topology-aware imputer) or **#16** (correlated duty cycles).
+Validation **V3 #15** closed (`IMPUTER_RESTORES_AUC` —
+[`topology_aware_imputer/`](studies/topology_aware_imputer/)). Next:
+estimation **#16** (correlated party duty cycles — last V3 cell).
 
 

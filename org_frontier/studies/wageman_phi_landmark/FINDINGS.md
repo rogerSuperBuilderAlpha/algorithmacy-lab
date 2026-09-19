@@ -64,8 +64,8 @@ here is topological, not algebraic.
 
 ## Best next (V3)
 
-**#15** topology-aware imputer under role-gated collapse. Alternate
-**#16** correlated party duty cycles vs δ=0 cliff.
+**#15** closed (`IMPUTER_RESTORES_AUC`). Next **#16** correlated party
+duty cycles vs δ=0 cliff (last V3 cell).
 
 ## Reproduce
 

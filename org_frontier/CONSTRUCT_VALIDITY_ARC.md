@@ -44,6 +44,10 @@ V3 #13 [`weakest_boolean_render/`](studies/weakest_boolean_render/) **ROLE_COUNT
 
 V3 #14 [`wageman_phi_landmark/`](studies/wageman_phi_landmark/) **W_N_PREDICTS_LANDMARK** — W+n predicts ring/hub/pool landmarks; W alone suffices at n=4.
 
+## Topology-aware imputer (V3 #15)
+
+V3 #15 [`topology_aware_imputer/`](studies/topology_aware_imputer/) **IMPUTER_RESTORES_AUC** — ring prior restores hide-party MI; hub does not; naive copy-W also restores.
+
 ## Reproduce
 
 ```
