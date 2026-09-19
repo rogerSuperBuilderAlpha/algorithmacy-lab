@@ -1,6 +1,6 @@
 # Friedman, B., & Hendry, D. G. (2019). *Value Sensitive Design: Shaping Technology with Moral Imagination*. MIT Press.
 
-**Identifier:** doi:10.7551/mitpress/7585.001.0001 · ISBN 9780262039536 (print), 9780262351690 (electronic) · **Read depth:** secondary — the MIT Press Direct book page (description and chapter list) was opened in the browser and every chapter is marked "Unavailable" without institutional access; the book's content is known here only through the sources that report it (Umbrello & van de Poel 2021; Spiekermann & Winkler 2022; Borning & Muller 2012 for the theory it consolidates) · **Source-tier:** university-press monograph, the field's reference statement · **Evidence basis:** secondary · **Parties modeled:** designer–stakeholders · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.7551/mitpress/7585.001.0001 · ISBN 9780262039536 (print), 9780262351690 (electronic) · **Read depth:** secondary — the MIT Press Direct book page (description and chapter list) was opened in the browser and every chapter is marked "Unavailable" without institutional access; the book's content is known here only through the sources that report it (Umbrello & van de Poel 2021; Spiekermann & Winkler 2022; Borning & Muller 2012 for the theory it consolidates) · **Source-tier:** university-press monograph, the field's reference statement · **Evidence basis:** secondary · **Parties modeled:** designer–stakeholders · **Remedy locus:** designer (secondary — a process of theory and seventeen methods, per the publisher's description; the book is unread) · **Relation last checked:** 2026-09-19
 
 ## What it argues
 
@@ -23,3 +23,9 @@ Not read. Do not cite this card for any specific claim about the book's content 
 **What I checked:** MIT Press's catalogue page returned "Access Denied" and MIT Press Direct was not reachable; Google Books was rate-limited. Crossref for doi:10.7551/mitpress/7585.001.0001 confirms the title, publisher (The MIT Press), electronic ISBN 9780262351690 and issue date 21 May 2019. The publisher's description that the card quotes ("seventeen methods," "ten application domains," "deeper investigation of indirect stakeholders") could not be re-read.
 
 **Findings:** Nothing in the card's content could be checked beyond the record. The card already confines itself to the publisher's description and two secondary sources and forbids citing it for content; the relation-to-argument section is explicit that the library's VSD claims rest on the 2006 chapter. That chapter's quotations are verified in friedman2006.md. No change.
+
+---
+
+## Relation to the protect/promote question (2026-09-19, F3 pass)
+
+Still unread; MIT Press Direct was not re-attempted today, and nothing here changes. The book's subtitle, *Shaping Technology with Moral Imagination*, is the closest VSD comes to a promotive title, and the paper should not lean on it: the content known here is a process (theory, seventeen methods, applications), and the open question the authors flag — indirect stakeholders — is a protective one. For the matrix the VSD row rests on friedman1996.md, friedman2006.md, borning2012.md and umbrello2021.md; this card contributes the remedy locus (designer, process) and nothing about telos. If the Theory chapter is ever opened, check whether it names flourishing or welfare as the method's aim rather than as a list entry. Remedy locus added today.

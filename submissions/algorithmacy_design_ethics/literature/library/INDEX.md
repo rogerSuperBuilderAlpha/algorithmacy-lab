@@ -560,6 +560,122 @@ regulation (2019/1150). That absence is itself the finding for both principles.
 - [`counter_agent_search_notes.md`](counter_agent_search_notes.md) — the 2026-09-18 search for a
   peer-reviewed client-side personal agent negotiating with a platform's agent: none found; preprints listed.
 
+## Cluster T — terminology pass (2026-09-18)
+
+Verifies the real academic terminology and citations behind the author's rewritten `DRAFT.md`
+("Beyond the Literacy Trap"). See `DRAFT_AUDIT.md` and `RESEARCH_PLAN_TERMINOLOGY.md` for the full
+brief; `RESEARCH_DOSSIER.md` §10 for the compressed summary. No separate S2 batch — a small pass,
+proportionate verification within each card (see reasoning in `RESEARCH_PLAN_TERMINOLOGY.md` §4).
+
+- ✓ [Peters, D., Calvo, R. A., & Ryan, R. M. (2018). Designing for motivation, engagement and
+  wellbeing.](peters2018.md) — real SDT vocabulary (support/undermine autonomy, competence,
+  relatedness) replacing the invented "meaning-affording"/"meaning-hostile" pairing.
+- ✓ [Mekler, E. D., & Hornbæk, K. (2019). A framework for the experience of meaning in HCI.](mekler2019.md)
+  — "afford the experience of meaning" is real CHI usage; its own coherence construct is
+  predictability-shaped, a second independent confirmation of Cluster C's finding.
+- ✓ [Schot, J., & Rip, A. (1997). The past and future of constructive technology assessment.](schotrip1997.md)
+  — CTA's origin; the founders' own admission that feedback-into-design was never secured.
+- ⚠ [Berthon, P., Pitt, L., & Campbell, C. (2019). Addictive de-vices.](berthon2019b.md) — abstract
+  only; checked specifically for the "harm mitigation... insufficient floor" claim and did not
+  find it. The claim has no source anywhere in this library and should be dropped.
+- ✓* [Verbeek, P.-P. (2006). Materializing morality.](verbeek2006.md) — upgraded in place via the
+  author's preprint (the VoR remains inaccessible, third failed route); confirms the CTA
+  augmentation reaches users as participants, and that "democratic" is Verbeek's own word while
+  "negotiate" belongs to Schot & Rip.
+- ✓ [Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from
+  language corpora contain human-like biases.](caliskan2017.md) — the "Princeton/Bath" word-embedding
+  citation, confirmed accurate.
+- ✓ [Wang, Y., & Kosinski, M. (2018). Deep neural networks are more accurate than humans at detecting
+  sexual orientation from facial images.](wangkosinski2018.md) — the "Stanford" study; correctly
+  attributed (a prior guess in this dossier that it was misattributed was itself wrong). The
+  "inevitable" quotation is real and verbatim; the paper's own framing is a privacy warning, not a
+  justification, which the draft now reflects.
+- ✓ [Buolamwini, J., & Gebru, T. (2018). Gender shades.](buolamwini2018.md) — cards the
+  "marginalized populations" / "automated surveillance and exclusion" clause the Wang & Kosinski
+  study doesn't itself support.
+- ✓ [Hofmann, V., Kalluri, P. R., Jurafsky, D., & King, S. (2024). AI generates covertly racist
+  decisions about people based on their dialect.](hofmann2024.md) — confirmed; covers employment and
+  criminal-justice decisions, not education. No citable LLM-grading-AAVE study exists; the draft no
+  longer claims one.
+- ✓ [Sap, M., Card, D., Gabriel, S., Choi, Y., & Smith, N. A. (2019). The risk of racial bias in hate
+  speech detection.](sap2019.md) — the earlier toxicity-detection anchor for AAE bias.
+- ✓ [Holland, S., Hosny, A., Newman, J., Joseph, J., & Chmielinski, K. (2018). The Dataset Nutrition
+  Label.](holland2018.md) — origin of the phrase; discloses to a downstream reader, not a coordinated
+  second party, same as `mitchell2019.md`.
+- ✓ [Velkova, M., & Kaun, A. (2021). Algorithmic resistance.](velkova2021.md) — read in full;
+  confirms "counter-agency" has no anchor here — this is individual, reactive, often-complicit
+  tactical repair, positioned in the draft as a foil, not a source, for counter-delegation.
+- ⚠→⚠ [DiSalvo, C. (2012). *Adversarial Design*.](disalvo2012.md) — third access route failed;
+  reinstate-or-drop decision made explicitly: stays dropped. Even the best-case table of contents
+  places him beside the already-covered obfuscation cluster, not beside counter-delegation.
+- ✓* [Zuboff, S. (2019). *The Age of Surveillance Capitalism*.](zuboff2019.md) — properly cited
+  (p. 8) for the first time in this arm; corrects the draft's "coercive" (Zuboff's own Part III
+  argument is that instrumentarian power is explicitly not coercive) to "built to tune and herd
+  behavior toward the firm's ends." A separate, less-verified card exists in the
+  `coordinative_sovereignty` arm; this card is cross-referenced to it, not a duplicate.
+
+## Cluster P — protect/promote pass (2026-09-19)
+
+Tests the author's own reading — "design ethics focuses too much on harm reduction and not enough
+on ETHICS" — against the five accounts now carrying the argument (Winner, Vallor, Verbeek, VSD,
+Nissenbaum). Three parallel passes (F1 Nissenbaum, F2 guideline-skew evidence, F3 fairness matrix,
+no separate S2 batch — proportionate given the small card count). See `RESEARCH_PLAN_FLOURISHING.md`
+for the brief, `RESEARCH_DOSSIER.md` §11 for the compressed synthesis, and
+`fairness_matrix_2026-09-19.md` for the full Account × Telos × Instrument × Deliverer table.
+
+- ✓ [Nissenbaum, H. (2004). Privacy as contextual integrity.](nissenbaum2004.md) — the Walzer
+  "spheres of justice" mechanism and the status-quo presumption; new fifth Prevailing-Frameworks
+  entry.
+- ✓ [Nissenbaum, H. (2010/2011). A contextual approach to privacy online.](nissenbaum2011.md) —
+  the CI parameters (actors, attributes, transmission principles) and heuristic; confirms the
+  benchmark covers flows, not the determinations a mediator commits.
+- ✓ [Nissenbaum, H. (2019). Contextual integrity up and down the data food chain.](nissenbaum2019.md)
+  — "differential attention... decision, action, reward, or punishment" (p. 242); confirms CI's own
+  author acknowledges the heuristic is outpaced by current technology (p. 248).
+- ✓ [Rule, J. B. (2019). Contextual integrity in an age of surveillance.](rule2019.md) — the one
+  published critic; attacks the heuristic's input (norms as contested), not its output/agent, which
+  this paper's critique attacks instead — the two are complementary, not overlapping.
+- ✓* [Brunton, F., & Nissenbaum, H. (2015). *Obfuscation*.](bruntonnissenbaum2015.md) — updated with
+  a two-Nissenbaums note: the user-side instrument CI itself lacks, Nissenbaum built in a separate
+  book.
+- ✓ [Jobin, A., Ienca, M., & Vayena, E. (2019). The global landscape of AI ethics guidelines.](jobin2019.md)
+  — corrected principle counts confirmed directly against extracted PDF text after an earlier digest
+  fetch returned fabricated numbers (non-maleficence 60/84, beneficence 41/84); "focus primarily on
+  how to preserve... while largely neglecting whether these principles could be promoted" (p. 15).
+- ✓ [Mittelstadt, B. (2019). Principles alone cannot guarantee ethical AI.](mittelstadt2019.md) —
+  the fiduciary-duty argument: AI development has no equivalent of medicine's duty to a named
+  patient.
+- ✓ [Floridi, L., et al. (2018). AI4People.](floridi2018.md) — updated with a protect/promote
+  Relation paragraph: beneficence operationalized mainly as a case for building AI at all, not as a
+  design instruction.
+- ✓* [Verbeek, P.-P. (2009). Cultivating Humanity? Ambient Intelligence and Its Politics.](verbeek2009.md)
+  — new primary source (found via a fallback search route after IA/Google Books/direct access
+  failed), the published form of *Moralizing Technology* chs. 2 and 4. Confirms Verbeek is
+  genuinely promotive in aim and instrument, and confirms he explicitly denies being a "prime mover"
+  (p. 256) — the draft's earlier "designer's conception of the good, materialized once" is corrected
+  to "one user's good, decided by the designer–user–artefact alliance and materialized once."
+- ✓* [Verbeek, P.-P. (2011).](verbeek2011.md) — its earlier paraphrase "relation to other people
+  acquires a desirable shape" was unsupported by both the 2009 text and the 2011 snippet; corrected
+  2026-09-19 to reflect what the sentence actually shapes (the subject's own relation to technology,
+  per the 2009 parallel passage), with the error and correction both recorded on the card.
+- ✓ VSD Remedy-locus and protect/promote fields updated on
+  [friedman1996.md](friedman1996.md), [friedman2006.md](friedman2006.md),
+  [friedman2019.md](friedman2019.md), [borning2012.md](borning2012.md),
+  [manders2011.md](manders2011.md), [jafarinaimi2015.md](jafarinaimi2015.md), and
+  [umbrello2021.md](umbrello2021.md) — the founding NRMP steel-man, the three in-tradition critics
+  (no methodology for distinguishing values from preferences; power "orthogonal" to the stakeholder
+  distinction; self-interest counts as a value too), and Umbrello & van de Poel's own admission that
+  AI4SG's promotive ends are imported from the UN SDGs, not built by the method.
+- ✓ [ieee2019.md](ieee2019.md) — protect/promote Relation paragraph added: well-being operationalized
+  in one chapter only (216 of 319 "well-being" tokens), elsewhere protective ("contest" twice,
+  "recourse" three times, "redress" never).
+- ✓ [winner1980.md](winner1980.md), [winner1977.md](winner1977.md) — protect/promote Relation
+  paragraphs added: zero promotive term in the 1977 book by OCR count ("flourish" once, descriptive;
+  "the good life" zero).
+- ✓ [vallor2016.md](vallor2016.md), [vallor2015.md](vallor2015.md), [vallor2024.md](vallor2024.md)
+  — protect/promote Relation paragraphs added, anchored on the 2024 p. 196 quote ("a new collective
+  agreement on what technologies are for") as a promotive telos with no design instrument attached.
+
 ## What to check before the next draft
 
 Four ⚠ flags carry real risk if cited as full-text now: `friedman2019.md` (the VSD book itself —

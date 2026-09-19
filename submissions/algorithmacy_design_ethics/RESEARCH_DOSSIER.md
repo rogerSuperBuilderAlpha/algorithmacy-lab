@@ -261,3 +261,95 @@ Every finding above traces to a specific card in `literature/library/`, each car
 depth and a dated S2 adversarial-verification block from this round (in addition to any block
 already present from the first harness). See `literature/library/INDEX.md` for the full card list
 before any of this enters a draft.
+
+---
+
+## 10. Terminology pass (2026-09-18) — the author's rewritten draft, reconciled
+
+The author pasted a more polished draft ("Beyond the Literacy Trap") as this arm's new working
+spine. A four-bucket audit (`DRAFT_AUDIT.md`) sorted its claims; a small, targeted research pass
+(`RESEARCH_PLAN_TERMINOLOGY.md`, 3 parallel passes, ~19 cards, no separate S2 batch — proportionate
+given none of these cards touch the RQ12 census) resolved the eight items that needed real
+citations, and `DRAFT.md` now reflects every finding.
+
+- **"Meaning-affording" / "meaning-hostile"** were confirmed invented. Replaced with real
+  vocabulary: self-determination theory's *support/undermine* of autonomy, competence, relatedness
+  (Peters, Calvo & Ryan, 2018) and the *afford the experience of meaning* usage from HCI's own
+  meaning-in-UX literature (Mekler & Hornbæk, 2019) — whose own account of coherence turned out to
+  be predictability-shaped too, an independent second confirmation of this arm's central §2 finding.
+- **Verbeek's "Constructive Technology Assessment"** confirmed genuine, not a conflation — and
+  strengthened: Schot & Rip (1997), CTA's own originators, already named the feedback-into-design
+  step as unsecured, which is exactly where proprietary AI breaks the method.
+- **The Berthon "harm mitigation... insufficient floor" claim** still has no source anywhere,
+  including in a second, previously-uncarded Berthon paper checked specifically for it. Dropped.
+- **"Stanford's facial recognition research"** was correctly attributed after all (Wang & Kosinski,
+  2018) — this dossier's own prior guess (Buolamwini & Gebru) was wrong. The "inevitable" quotation
+  is real and verbatim, but the paper frames itself as a privacy warning, not a justification for
+  the technology; the draft's "weaponizing... to justify" language has been corrected.
+- **The AAVE/LLM claim** confirmed real (Hofmann et al., 2024) but narrowed: the finding covers
+  employment and criminal-justice decisions, not education: no citable study for LLM grading of
+  AAVE was found, and the draft no longer claims one.
+- **"Counter-agency"** confirmed to have no real anchor. Retired in favor of *counter-delegation*
+  (already grounded in this arm's §4), with Velkova & Kaun's "algorithmic resistance" repositioned
+  as the draft's foil (individual, reactive, and often complicit with the system it resists) rather
+  than a source for the term. DiSalvo stays dropped — a third access route failed, and even the
+  best-case table of contents places him beside the already-covered obfuscation cluster, not beside
+  counter-delegation.
+- **The Moses-bridges reliance and the Stationers'/Star Chamber/*Flugschriften*/witch-craze
+  historical material** — both replaced per the confirmed default: Winner's argument now leads with
+  claim (b) (inherently political technologies), with the bridges kept only as an explicitly
+  contested illustration; the historical section now runs on the already-verified Innis/Clanchy/
+  Havelock/Johns argument instead of unsourced material duplicating the original seed report's own
+  examples.
+- **"Surveillance capitalism"** kept and properly cited (Zuboff, 2019, p. 8) — with "coercive"
+  corrected to "built to tune and herd behavior toward the firm's ends," since Zuboff's own Part III
+  argues instrumentarian power is explicitly *not* coercive.
+
+---
+
+## 11. Cluster P — protect/promote pass (2026-09-19)
+
+The author's own reading of the field — "design ethics focuses too much on harm reduction and not
+enough on ETHICS" — became a research question: does every prevailing account in fact stop at
+protection? Three passes (F1 Nissenbaum, F2 guideline-skew evidence, F3 fairness matrix) tested it
+against the five accounts now carrying the argument (Winner, Vallor, Verbeek, VSD, Nissenbaum —
+Martela & Steger and Berthon repositioned out of the critiqued set: the first into diagnostic
+vocabulary, the second into "Moral Hazards"). Full matrix in
+`literature/library/fairness_matrix_2026-09-19.md`.
+
+| Account | Telos | Design instrument | Who delivers the promotive part |
+|---|---|---|---|
+| Winner | protective | protective | no one |
+| Vallor | promotive | protective (+ one promotive criterion) | the cultivated person + "a new collective agreement" |
+| Verbeek | promotive | promotive | the designer–user–artefact alliance, for one user |
+| VSD | protective founding | procedural core | borrowed import (UN SDGs), by list-entry only |
+| Nissenbaum | institutional | benchmark for flows, not determinations | the context's own historical ends |
+
+The plain claim — "none of the five is promotive" — fails: Vallor and Verbeek plainly are. The
+reformulated claim holds for all five, no exception needed: **none assigns the promotive work to the
+design of the relation between the two people a mediator binds.** Verbeek was the account the
+research plan flagged as the biggest risk to this claim, and the risk was real — a new primary
+source (`verbeek2009.md`, found via a fallback search route after three others failed) confirms he
+is genuinely promotive in both aim and instrument, and still designs for one user facing one
+artifact, never two people bound by the same mediation. This is a second, independent diagnosis of
+the same error the RQ12 census already found by a different method (§1): fifteen cards there locate
+their remedy at subject/artifact/adoption, never relation; these five accounts here locate their
+*promotive* ambition at person/artifact/institution, never relation either. Two mechanically
+distinct tests, same verdict.
+
+Jobin, Ienca and Vayena's review of 84 AI-ethics guidelines corroborates the pattern at the level of
+practice, not just theory: non-maleficence appears in 60 of 84 documents against beneficence in 41,
+and the guidelines "focus primarily on how to preserve privacy, dignity, autonomy and individual
+freedom in spite of advances in AI, while largely neglecting whether these principles could be
+promoted" (2019, p. 15). Mittelstadt (2019) supplies a structural reason: medicine's ethics rests on
+a named fiduciary duty running to a patient; AI development's principal fiduciary duties run to
+shareholders, so nothing obligates a definition of beneficence the way clinical practice does.
+
+Martela & Steger's coherence/purpose/significance triad — no longer a critiqued sixth account —
+becomes the vocabulary for naming what a design would have to produce were it to actually promote:
+not disclosure (a model card, an audit report) but a built capacity for two coordinated people to
+make sense of, direct, and find their coordination significant. `DRAFT.md`'s new "Protection Without
+Promotion" section carries this argument; `INDEX.md`'s Cluster P entry lists the supporting cards.
+
+`DRAFT.md` is current as of this pass. Next step, whenever the author wants it: a read-aloud pass
+and a final citation check before submission prep.
