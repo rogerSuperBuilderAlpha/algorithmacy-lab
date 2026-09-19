@@ -95,16 +95,34 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 15. In a hierarchy of mediators (an org chart), which level holds the major complex, and does Φ scale by
     depth or by breadth?
+    **Answered — WIN.** Recurrent AND trees: complex spans occupied levels; Φ flat in
+    depth, grows with breadth. Feedforward hub chains stay top-local. Closure
+    decides locus. See `studies/mediator_hierarchy_census/`.
 16. When do two separately-triadic groups sharing one member merge into a single core versus stay two
     (extends the multi-role result #73 to two full triads)?
+    **Answered — WIN.** Shared mediator + AND merges (five-node core Φ=4.0);
+    shared worker or counterpart does not. Role decides. See
+    `studies/two_triad_shared_member/`.
 17. Does small-world coupling combine the ring's size-independent cap (#132) with a hub's growth, or
     pick one?
+    **Answered — PICK_ONE.** Hub-targeted morphs/rewires collapse or hold an
+    endpoint; only pure ring / pure hub recover family laws. See
+    `studies/small_world_vs_hierarchy/`.
 18. Across random coupling topologies at fixed n, what is the distribution of Φ and the triadic rate,
     and does it match any standard network ensemble?
+    **Answered — DISCRETE_LANDMARKS.** n=4 random conjunctive couplings land on
+    atoms {2,4,6,12}; triadic rate tracks generator. See
+    `studies/random_coupling_ensemble/`.
 19. Is there a topology between the ring (Φ capped at 4) and the pool (Φ = n(n−1)) whose law is
     logarithmic or square-root in n?
+    **Answered — NO_INTERMEDIATE_LAW.** Full-core interiors exist as discrete
+    hub/chord/degree steps; no log/√n law in n. See
+    `studies/interior_ring_pool/`.
 20. Does a "spanning" mediator added atop the symmetric multi-hub raise Φ beyond the pool, or is the
     pool the ceiling (#119)?
+    **Answered — WIN.** Spanning top does not beat the pool; recurrent hub-span
+    merges membership like shared-S; full span can saturate the pool. See
+    `studies/spanning_mediator_multihub/`.
 
 ## E. The estimation frontier
 
@@ -125,12 +143,16 @@ runnable design yet. Themes group them; numbering is 1–50.
     See `studies/sample_complexity_screen/`.
 24. How fast does estimability degrade under partial observation — a hidden node, or a party observed
     only intermittently?
+    **Answered — HIDDEN_COLLAPSE_INTERMITTENT_CLIFF.** Hide party: MI AUC
+    0.922→0.547; intermittent δ≥0.10 holds, cliffs at δ=0; hide mediator ≈
+    full. See `studies/partial_observation_screen/` (PR #749); lane note
+    `ESTIMATION_ARC.md` (closed).
 25. Which forms are most informative to label first when training a surrogate (active learning over the
     corpus)?
     **Answered — AL_NO_GAIN.** Uncertainty Δ=+0.015 vs random on pooled
     (H1/H2 refuted; H3 supported). Topo-balance hurts under LOFO.
     See `studies/active_label_acquisition/`; lane note
-    `ESTIMATION_ARC.md` (closable).
+    `ESTIMATION_ARC.md` (closed).
 
 ## F. The holistic residual
 
@@ -219,6 +241,10 @@ runnable design yet. Themes group them; numbering is 1–50.
 ## I. Construct validity and organization-theory bridges
 
 42. Do the HMC / CMC / AI-MC discriminants (#15, #19, #20) hold at n > 3, or does scale blur them?
+    **Answered — SCALE_MORPHS** (omit cycle-type discriminant arm). Class purity
+    holds at n=5,6; law morphs singleton→band — not within-class blur. See
+    `studies/discriminant_scale_blur/`; `OMIT_ATOM_ARC.md`. HMC/CMC/AI-MC named
+    constructs at n>3 remain a parallel open arm outside that omit verdict.
 43. Does the verdict correspond to Thompson's interdependence types — pooled dyadic, sequential the
     chain, reciprocal triadic?
    **Answered — PARTIAL_ALIGNMENT.** Canonical pooled_indep→dyadic and
@@ -245,9 +271,22 @@ runnable design yet. Themes group them; numbering is 1–50.
 
 47. Prove the scaling laws closed-form: conjunctive Φ = n−1, pool Φ = n(n−1), parity Φ = 2^(2−n) (#116,
     #132, #115) — derive them from the MIP rather than reading them off.
+    **Answered — PARTIAL_PROOFS.** Cut formulas proved; MIP identity closed by
+    #49 for pool/hub; parity residual on general-n I=1 uniqueness. See
+    `studies/scaling_laws_closed_form/`; `FORMAL_THEORY_ARC.md`.
 48. Is the conjunctive hub the unique form achieving its Φ at the 2(n−1) edge floor, or are there others
     (#30, #116)?
+    **Answered — NOT_UNIQUE.** On hub wiring the achievers are the De Morgan
+    orbit {AND, OR, NAND, NOR}; Q45 already found non-AND floor forms off that
+    wiring. See `studies/hub_floor_uniqueness/`.
 49. Is there a min-cut theorem placing the MIP at the least-coupled node for a class of forms, extending
     the worker-as-weakest-seam result (#26, #33)?
+    **Answered — NORMALIZED_CUT.** Graph min-cut ≡ Φ-seam REFUTED; normalized
+    GID cut-weight places pool/hub MIPs (parity partial). See
+    `studies/mincut_mip/`.
 50. Does the verdict, with Φ magnitude, induce a partial order on coordination forms — a lattice of
     coordination kinds — and what are its extremes?
+    **Answered — LATTICE.** Lex(verdict, Φ) quotients the zoo to a chain
+    lattice; ⊥=zeros, ⊤=pool (tied and_ring at n=3). See
+    `studies/coordination_lattice/`; formal lane closable
+    (`FORMAL_THEORY_ARC.md`).

@@ -1,0 +1,10 @@
+family,name,n,structure,whole_phi_mip,core,core_phi,n_core,full_core,seconds
+control,triad,3,triadic,2.0,W|S|C,2.0,3,1,0.12
+landmark,ring6,6,triadic,4.0,x0|x1|x2|x3|x4|x5,4.0,6,1,51.08
+landmark,hub6,6,triadic,5.0,x0|x1|x2|x3|x4|x5,5.0,6,1,40.24
+contrast,mh6_m3,6,triadic,9.0,x0|x1|x2|x5,12.0,4,0,44.24
+merge_ref,shared_S_AND,5,triadic,4.0,W1|C1|W2|C2|S,4.0,5,1,4.7
+necklace,neck_AND,6,triadic,4.0,P0|P1|P2|H0|H1|H2,4.0,6,1,54.1
+necklace,neck_OR_hub,6,dyadic,0.0,P0|H2,2.0,2,0,47.87
+necklace,neck_OR_party,6,dyadic,0.0,P2|H1|H2,2.0,3,0,45.91
+necklace,neck_directed,6,triadic,2.0,P2|H2,2.0,2,0,63.51

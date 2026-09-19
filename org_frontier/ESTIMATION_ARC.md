@@ -60,9 +60,17 @@ Label order is secondary; it does not repair the topology bottleneck.
 
 ## Best next
 
-**Estimation lane closable.** #21–#23 plus #25 fix the picture:
-within-family MI is cheap and fast; cross-topo needs family-matched
-labels or selective exact Φ; structure-aware, spectral, and active
-acquisition are partial or null levers, not a closed invariant.
-Optional later (outside this lane): agenda **#24** partial observation.
-Construct/omit/ladder stay closed.
+**Estimation lane closed.** #21–#25 fix the picture: within-family MI is
+cheap and fast; cross-topo needs family-matched labels or selective exact
+Φ; structure-aware, spectral, and active acquisition are partial or null
+levers, not a closed invariant. **#24**
+[`partial_observation_screen/`](studies/partial_observation_screen/)
+(PR #749) → **HIDDEN_COLLAPSE_INTERMITTENT_CLIFF** (hide party collapses
+MI AUC; intermittent cliffs at δ=0; hide mediator ≈ full).
+Construct/omit/ladder stay closed. V3 estimation residuals: **#15**
+[`topology_aware_imputer/`](studies/topology_aware_imputer/) →
+**IMPUTER_RESTORES_AUC**; **#16**
+[`correlated_party_duty/`](studies/correlated_party_duty/) →
+**ALTERNATION_RECREATES_CLIFF** (alternating party duty does not soften
+the δ=0 cliff; losing joint WC observation is enough; phase-locked
+δ=0.5 holds). V3 estimation residuals closed. See `V3_LANE_CLOSE.md`.
