@@ -64,6 +64,7 @@ SCALE_MORPHS).
 
 ## Best next
 
-Graded×topo **V3 #11** closed (`SHARP_HOLDS_ACROSS_TOPO`). Next noise×composed
-**V3 #12** (or validation **#13**). Construct/gate arc sealed. Skip another
-multi-role indeg.
+Noise×compose **V3 #12** closed (`SAME_PSTAR_COMPOSED` —
+[`noise_composed_carriers/`](studies/noise_composed_carriers/)). Next: validation **V3 #13**
+(or estimation residual **#15**).
+

@@ -102,6 +102,10 @@ below is blocked without it.
 12. Does party-vs-mediator noise (V2 #7 `SAME_THRESHOLD_DIFF_CURVE`)
     still share p*=0.5 when the carrier is a **composed necklace** or
     **multi-hub span** rather than a single hub?
+   **Answered — SAME_PSTAR_COMPOSED.** Party and mediator flip-noise
+   still share p*=0.5 on AND necklace and shared-mediator span
+   (shared_k2); V2 #7 coin-flip threshold survives composition. See
+   `studies/noise_composed_carriers/`.
 
 ## E. Validation bridges left open by V2 #45
 

@@ -36,7 +36,7 @@ hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-Graded×topo **V3 #11** closed (`SHARP_HOLDS_ACROSS_TOPO` —
-[`graded_topo_carriers/`](studies/graded_topo_carriers/)). Next: noise×composed
-**V3 #12** (or validation **#13**). M3 overlay only if a chosen cell is
-blocked without it.
+Noise×compose **V3 #12** closed (`SAME_PSTAR_COMPOSED` —
+[`noise_composed_carriers/`](studies/noise_composed_carriers/)). Next: validation **V3 #13**
+(or estimation residual **#15**).
+
