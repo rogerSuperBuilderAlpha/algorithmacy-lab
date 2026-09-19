@@ -39,6 +39,11 @@ k=2,3,4 against high min-commit (#4).
 Lane science is **closable** on overlay M2. Optional engineering: M3
 subset-Φ fidelity (pure-HO claims at k>2).
 
+
+## Graded × topology (V3)
+
+V3 #11 [`graded_topo_carriers/`](studies/graded_topo_carriers/) **SHARP_HOLDS_ACROSS_TOPO** — V2 #2 sharp-class path holds on ring and necklace carriers as well as the hub.
+
 ## Reproduce
 
 ```

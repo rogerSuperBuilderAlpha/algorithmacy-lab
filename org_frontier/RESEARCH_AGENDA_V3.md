@@ -95,6 +95,10 @@ below is blocked without it.
     (V2 #2 `SHARP_CLASS_GRADED_PATH`) keep sharp class labels while Φ
     grades, or does topology force class flips the fixed-hub panel
     never saw?
+   **Answered — SHARP_HOLDS_ACROSS_TOPO.** Graded min-commit keeps
+   discrete NULL→DYADIC→TRIADIC on hub, ring (n=3,4), and necklace while
+   Φ grades; no topology-forced class flip. See
+   `studies/graded_topo_carriers/`.
 12. Does party-vs-mediator noise (V2 #7 `SAME_THRESHOLD_DIFF_CURVE`)
     still share p*=0.5 when the carrier is a **composed necklace** or
     **multi-hub span** rather than a single hub?

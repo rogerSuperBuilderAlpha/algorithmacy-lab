@@ -64,5 +64,6 @@ SCALE_MORPHS).
 
 ## Best next
 
-Scale formal: **V3 #10** closed (`LAW_HOLDS_NGT6`). Next graded×topo
-**V3 #11**. Construct/gate arc sealed. Skip another multi-role indeg.
+Graded×topo **V3 #11** closed (`SHARP_HOLDS_ACROSS_TOPO`). Next noise×composed
+**V3 #12** (or validation **#13**). Construct/gate arc sealed. Skip another
+multi-role indeg.

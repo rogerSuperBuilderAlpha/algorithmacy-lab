@@ -36,6 +36,7 @@ hybrid). Template-algebra lane #1–#3 closed.
 
 ## Best next
 
-Scale lane **V3 #10** closed (`LAW_HOLDS_NGT6` —
-[`parity_law_n_gt6/`](studies/parity_law_n_gt6/)). Next: graded×topo
-**V3 #11**. M3 overlay only if a chosen cell is blocked without it.
+Graded×topo **V3 #11** closed (`SHARP_HOLDS_ACROSS_TOPO` —
+[`graded_topo_carriers/`](studies/graded_topo_carriers/)). Next: noise×composed
+**V3 #12** (or validation **#13**). M3 overlay only if a chosen cell is
+blocked without it.

@@ -4722,6 +4722,22 @@
       "source": "org_frontier/studies/parity_law_n_gt6/FINDINGS.md"
     },
     {
+      "name": "graded-topo-carriers",
+      "cmd": "python org_frontier/studies/graded_topo_carriers/analyze_graded_topo.py",
+      "expect": [
+        "  faithful triad: TRIADIC \u03a6=2.000000  PASS",
+        "H1 (sharp classes on all carriers):              SUPPORTED",
+        "H2 (\u03a6 grades with L on all carriers):            SUPPORTED",
+        "H3 (path = NULL\u2192DYADIC\u2192TRIADIC on all carriers): SUPPORTED",
+        "H4 (panel closed):                               SUPPORTED",
+        "verdict: SHARP_HOLDS_ACROSS_TOPO",
+        "reading: SHARP_HOLDS_ACROSS_TOPO \u2014 graded min-commit keeps discrete NULL/DYADIC/TRIADIC labels while \u03a6 grades on hub, ring (n=3,4), and necklace; no topology-forced class flip relative to V2 #2",
+        "path_grid: hub3=NULL\u2192DYADIC\u2192TRIADIC; ring3=NULL\u2192DYADIC\u2192TRIADIC; ring4=NULL\u2192DYADIC\u2192TRIADIC; necklace6=NULL\u2192DYADIC\u2192TRIADIC"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/graded_topo_carriers/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [
