@@ -84,6 +84,11 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
     ring-of-hubs / shared-mediator / hybrid seam) remain discrete
     landmarks under a denser random-coupling draw, or do new interstitial
     atoms dominate?
+    **Answered — LANDMARKS_HOLD_NGT6.** Denser random-AND at n=6 (N=28)
+    lands entirely on L6 (no interstitial); hybrid closure, roh factor,
+    and necklace compose survive densify (chord morphs Φ=4→2 inside L6).
+    Exact n≥8 motif lifts out of lean. See
+    `studies/composed_topo_landmarks_n6/`.
 
 ## E. Beyond the Boolean sandbox (only if A–D block)
 
@@ -105,4 +110,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 #6 (`studies/fielded_w_landmark/` → `LANDMARK_COLLAPSES_VERDICT_HOLDS`);
 #7 (`studies/logged_alt_duty_exact_phi/` → `CLIFF_RECREATES_ON_LOGGED`);
 #8 (`studies/omit_cycle_band_n89/` → `SCALE_BLOCKS_EXACT_PHI`);
-#9 (`studies/parity_law_n_gt8/` → `LAW_HOLDS_NGT8`).
+#9 (`studies/parity_law_n_gt8/` → `LAW_HOLDS_NGT8`);
+#10 (`studies/composed_topo_landmarks_n6/` → `LANDMARKS_HOLD_NGT6`).

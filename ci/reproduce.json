@@ -4975,6 +4975,22 @@
       "source": "org_frontier/studies/parity_law_n_gt8/FINDINGS.md"
     },
     {
+      "name": "composed-topo-landmarks-n6",
+      "cmd": "python org_frontier/studies/composed_topo_landmarks_n6/analyze_composed_n6.py",
+      "expect": [
+        "  faithful triad: triadic Φ=2.000000  PASS",
+        "  H1 (V3 #4–#7 controls reproduce):      SUPPORTED",
+        "  H2 (designed lifts keep class family):  SUPPORTED",
+        "  H3 (random ≥90% on L6):           SUPPORTED",
+        "  H4 (no interstitial in lean random):   SUPPORTED",
+        "  verdict: LANDMARKS_HOLD_NGT6",
+        "  reading: LANDMARKS_HOLD_NGT6 — V3 #4–#7 class families remain discrete at n≥6: denser random-AND (N=28) lands entirely on L6 (no interstitial); hybrid closure, roh factor, and necklace compose survive densify (chord morphs Φ=4→2 inside L6, not a new atom); exact n≥8 motif lifts left out of lean scope",
+        "  metrics: on_landmark=1.000; n_random=28; interstitial=[]; phi_hist={'2.0': 14, '3.0': 3, '4.0': 2, '5.0': 1, '6.0': 8}; hy_n6_AND=2.0; neck_chord=2.0; roh_dense=6.0; n_controls=17"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/composed_topo_landmarks_n6/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [
