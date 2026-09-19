@@ -1,6 +1,6 @@
 # Borning, A., & Muller, M. (2012). Next steps for value sensitive design. *Proceedings of CHI 2012*, 1125–1134.
 
-**Identifier:** doi:10.1145/2207676.2208560 · **Read depth:** full_text (author preprint at homes.cs.washington.edu, paginated 1–10; page numbers below are the preprint's) · **Source-tier:** peer-reviewed, top venue (CHI); position essay by a VSD co-founder and an IBM Research participatory-design scholar · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.1145/2207676.2208560 · **Read depth:** full_text (author preprint at homes.cs.washington.edu, paginated 1–10; page numbers below are the preprint's) · **Source-tier:** peer-reviewed, top venue (CHI); position essay by a VSD co-founder and an IBM Research participatory-design scholar · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders · **Remedy locus:** designer/researcher — procedural commitments only (pluralism, openness, transparency, p. 5), with power "back in the hands of the researchers" (p. 6) · **Relation last checked:** 2026-09-19
 
 ## What it argues
 
@@ -23,3 +23,9 @@ A position essay with no empirical content beyond a count of ACM papers mentioni
 **What I checked:** Downloaded the author preprint from homes.cs.washington.edu (10 pp.) and checked every quotation and preprint page number, plus the ACM paper count.
 
 **Findings:** All quotations are verbatim and correctly paginated in the preprint: "overclaims" (pp. 1–2), "seems like a chimera" (p. 3), "liberal and relatively privileged Western perspective" (p. 4), "unintentional ventriloquism" and the "just those values that are essential to making VSD itself work" commitment and the explicitly-supported/stakeholder/designer triad (p. 5), the participatory-design/Facebook passage (p. 6; the card's ellipsis covers "(Also see [15].) However,"), "leaves invisible exactly who invokes this check" (p. 7), the post-colonial question (p. 8) and "we do not go so far" (p. 2). The count "from 20 in 2000 to 113 in 2010" is on p. 2 (with r = 0.92). The relation-to-argument section attributes the "often orthogonal" line to Friedman, Kahn and Borning 2006 §6.2, not to this paper, which is correct (see friedman2006.md, verified separately).
+
+---
+
+## Relation to the protect/promote question (2026-09-19, F3 pass)
+
+The conditional the plan could not place is here, at preprint p. 3, in the discussion of universal values, re-located today on the homes.cs.washington.edu preprint (papers/borning-muller-chi2012.pdf): "In adopting this move, we still need to avoid the naturalistic fallacy (" 'is' does not equal 'ought' "), but this can be accomplished by qualifying prescriptive statements appropriately ("if we want to support human flourishing, then we should …")." Read in place it is weaker than manders2011.md's Caution makes it sound. "Human flourishing" is the example antecedent of a hypothetical imperative, offered to show how VSD can make prescriptions without deriving ought from is, and the next sentence turns to the abuses of "scientific" approaches to universal values. Flourishing is not a commitment; the only values the authors ask VSD to commit to are "pluralism or inclusivity ... plus openness and transparency" (p. 5). For the matrix: telos procedural, not promotive; instrument procedural; the promotive part, if any, is whatever antecedent a given project's "explicitly supported values" supply, which in commissioned work the operator supplies. Remedy locus added today.
