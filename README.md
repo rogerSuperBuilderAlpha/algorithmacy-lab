@@ -312,6 +312,7 @@ Multi-experiment batteries on one theme.
 - **[n=5 encoding ladder — HMC / literacy → algorithmacy](org_frontier/studies/encoding_ladder_n5/README.md)** — complex **2 → 3 → 4** while wholes stay dyadic. Core Φ can reach 3 on the
 - **[n=6 encoding ladder — does Φ track n−1?](org_frontier/studies/encoding_ladder_n6/README.md)** — as n=5: assist grows the core **2 → 3 → 4 → 5** with dyadic wholes; the
 - **[Endogenous coalition (#30)](org_frontier/studies/endogenous_coalition/README.md)** — maximize own major-complex membership, pure Nash are **all-out** and
+- **[Fielded W × Φ landmark (agenda V4 #6)](org_frontier/studies/fielded_w_landmark/README.md)** — still predicts HUB / RING4 / POOL (acc=1.000), but a **fielded rater-
 - **[Fixed-k atoms 5/9 at n=5](org_frontier/studies/fixed_k_atoms_n5/README.md)** — omit-derangements at fixed_k=3 give full-core triadic Φ=9.0. Atom **Φ=5** is a
 - **[FN-tail feature redesign](org_frontier/studies/fn_tail_feature_redesign/README.md)** — F28-motivated cheap fragility and algebraic table features to the Probe-125/131
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
