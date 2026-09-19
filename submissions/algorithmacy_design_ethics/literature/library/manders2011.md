@@ -1,6 +1,6 @@
 # Manders-Huits, N. (2011). What values in design? The challenge of incorporating moral values into design. *Science and Engineering Ethics*, 17(2), 271–287.
 
-**Identifier:** doi:10.1007/s11948-010-9198-2 · PMC3124645 · **Read depth:** full_text (open-access full text via Europe PMC XML; Springer's PDF was bot-blocked, so quotes are located by section, not page) · **Source-tier:** peer-reviewed journal (Sci Eng Ethics); conceptual critique from ethics of technology · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.1007/s11948-010-9198-2 · PMC3124645 · **Read depth:** full_text (open-access full text via Europe PMC XML; Springer's PDF was bot-blocked, so quotes are located by section, not page) · **Source-tier:** peer-reviewed journal (Sci Eng Ethics); conceptual critique from ethics of technology · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders · **Remedy locus:** designer — a "values advocate" on the design team, an explicit ethical theory, and a stated choice of whose values count · **Relation last checked:** 2026-09-19
 
 ## What it argues
 
@@ -24,3 +24,9 @@ A conceptual paper from 2011 with no cases, no design work and no empirical mate
 **What I checked:** Fetched the Europe PMC full-text XML for PMC3124645 and searched for every quotation.
 
 **Findings:** All eighteen strings checked are verbatim, including the five-count abstract claim, the "mere preferences, wishes and whims" sentence, the "initiators and potential customers" threat, the trade-off questions, the aneurysm example and the pharmaceutical-sponsor question, the indirect-stakeholder passage, and the closing line. Located by section, as the card says. No overreach.
+
+---
+
+## Relation to the protect/promote question (2026-09-19, F3 pass)
+
+Re-fetched the Europe PMC full text (PMC3124645) today: "flourish" does not occur in the paper, so the "if we want to support human flourishing" conditional the Caution attributes to Borning & Muller is theirs alone (2012, preprint p. 3; see borning2012.md), and the Caution's attribution is correct. The paper's own orientation is protective by argument rather than by vocabulary: its five deficits all concern VSD's inability to tell a moral value from a preference and to adjudicate trade-offs, and its remedy is a "values advocate" on the team. The one promotive-sounding element, "explicit value aims," is a demand that a project *state* its aims, not a claim about what they should be. For the matrix: telos unstated (a critique, not an account); instrument procedural; the promotive part is delegated to whichever ethical theory the team adopts. Remedy locus added today.

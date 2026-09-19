@@ -1,6 +1,6 @@
 # Winner, L. (1980). Do artifacts have politics? *Daedalus*, 109(1), 121–136. Reprinted as ch. 2 of *The Whale and the Reactor: A Search for Limits in an Age of High Technology* (U Chicago Press, 1986), pp. 19–39.
 
-**Identifier:** JSTOR stable/20024652; *Whale and the Reactor* ISBN 978-0-226-90211-9 (1986 reprint not independently opened; Suchman 1994 cites it at p. 19 and Joerges 1999 at pp. 19–39) · **Read depth:** full_text (JSTOR page images via faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf; the 1986 reprint and the 1985 MacKenzie–Wajcman version were not read) · **Source-tier:** the canonical STS essay; a philosophical essay with historical examples, no original research · **Evidence basis:** direct_read · **Parties modeled:** n/a (artifacts and the polity; no dyad of coordinated humans) · **Remedy locus:** adoption — "the initial choice about whether or not to adopt something is decisive" (p. 134); no competence, design rule, or move for the person already inside the form · **Relation last checked:** 2026-09-18
+**Identifier:** JSTOR stable/20024652; *Whale and the Reactor* ISBN 978-0-226-90211-9 (1986 reprint not independently opened; Suchman 1994 cites it at p. 19 and Joerges 1999 at pp. 19–39) · **Read depth:** full_text (JSTOR page images via faculty.cc.gatech.edu/~beki/cs4001/Winner.pdf; the 1986 reprint and the 1985 MacKenzie–Wajcman version were not read) · **Source-tier:** the canonical STS essay; a philosophical essay with historical examples, no original research · **Evidence basis:** direct_read · **Parties modeled:** n/a (artifacts and the polity; no dyad of coordinated humans) · **Remedy locus:** adoption — "the initial choice about whether or not to adopt something is decisive" (p. 134); no competence, design rule, or move for the person already inside the form · **Relation last checked:** 2026-09-19
 
 ## What it argues
 
@@ -38,3 +38,9 @@ The S2-confirmed finding stands and needs no re-derivation: Winner has no compet
 **What I checked:** New-material only ("Relation to the moderator/mediator pivot"). Its Daedalus quotations (pp. 130–131, 134) were located by the earlier S2 pass; checked the 1977 and 1993 cross-references against winner1977.md and winner1993.md.
 
 **Findings:** winner1977.md carries "at one point only" (pp. 228–229), the "Reverse Adaptation and Control" section (pp. 226–236, with specific passages at pp. 229 and 235), and "epistemological Luddism" as "a method of inquiry"; winner1993.md exists. No issues found. The finding of "zero micro-level design guidance" across the three texts is the card's synthesis and is labelled as the paper's finding for RQ3.
+
+---
+
+## Relation to the protect/promote question (2026-09-19, F3 pass)
+
+Brief re-read, no change. The essay's telos is political, not eudaimonic: politics is "arrangements of power and authority in human associations" (p. 123), and the good the essay defends is freedom from an authority the technology "requires" (pp. 129–131). No promotive term appears — no flourishing, no well-being, no good life — and none was expected. Its instrument is the adoption decision, "the initial choice about whether or not to adopt something is decisive" (p. 134), which is protective by construction: it can keep a form out and cannot make a form good. Who delivers the promotive part: no one; the essay has no positive account of what an artifact should give the people inside it. For the matrix this is the null row.

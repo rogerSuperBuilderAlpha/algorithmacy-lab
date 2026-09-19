@@ -1,6 +1,6 @@
 # JafariNaimi, N., Nathan, L., & Hargraves, I. (2015). Values as hypotheses: Design, inquiry, and the service of values. *Design Issues*, 31(4), 91–104.
 
-**Identifier:** doi:10.1162/DESI_a_00354 · JSTOR 43830434 · **Read depth:** partial — pp. 91–98 and 100–104 read as page images from the JSTOR PDF deposited on PhilPapers (no text layer reachable; every text route was paywalled or bot-blocked); in that copy PDF page 10 duplicates p. 93, so p. 99 — the page reporting the Envisioning Cards interview findings — is missing and was not read · **Source-tier:** peer-reviewed journal (Design Issues, MIT Press); philosophical argument with a small exploratory study · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders; the worked case is two humans with no mediator · **Relation last checked:** 2026-09-18
+**Identifier:** doi:10.1162/DESI_a_00354 · JSTOR 43830434 · **Read depth:** partial — pp. 91–98 and 100–104 read as page images from the JSTOR PDF deposited on PhilPapers (no text layer reachable; every text route was paywalled or bot-blocked); in that copy PDF page 10 duplicates p. 93, so p. 99 — the page reporting the Envisioning Cards interview findings — is missing and was not read · **Source-tier:** peer-reviewed journal (Design Issues, MIT Press); philosophical argument with a small exploratory study · **Evidence basis:** direct_read · **Parties modeled:** designer–stakeholders; the worked case is two humans with no mediator · **Remedy locus:** the designer's judgment in the situation of action — "the hard work of design ... to decide the whats and whens" (p. 100) · **Relation last checked:** 2026-09-19
 
 ## What it argues
 
@@ -24,3 +24,9 @@ A philosophical essay whose empirical component is small (30 practitioners, 15 i
 **What I checked:** Tried the PhilPapers deposit (JAFVAH.pdf) by direct fetch and through a fetch proxy, JSTOR, and repository/API lookups (Semantic Scholar, Unpaywall, CORE, Wayback CDX). Every route returned 403 or nothing.
 
 **Findings:** No quotation or page number could be checked against the source. The card already says its quotations were transcribed from page images and may contain slips, and that p. 99 is missing from the copy it used; that warning must stand until someone opens a text copy. The Relation section's reading (self-interest admitted as a value; values as hypotheses tested by whether they make a situation more productive) matches the sentences quoted, so the exposure is to transcription error, not to overreach.
+
+---
+
+## Relation to the protect/promote question (2026-09-19, F3 pass)
+
+The one VSD-critical text whose telos is promotive in form: values are hypotheses that make a problematic situation "more productive," Dewey's growth is the standard, and the closing line — "Service to the situations of human life and living is the value of values" (p. 104) — names flourishing-in-situation as the point of values work. The instrument, though, is the designer's in-situ judgment, and the paper's own charge against "prompts, checklists, and step-by-step procedures" (p. 100) is a charge against every fixed instrument, protective or promotive. Who delivers the promotive part: the designer deciding "the whats and whens" (p. 100); Luke's case has two people and no mediator. For the matrix this supports the VSD row rather than complicating it: the promotive vocabulary is there, and it is handed to the designer's practical wisdom, not to the design of a relation. Remedy locus added today.

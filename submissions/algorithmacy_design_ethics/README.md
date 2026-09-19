@@ -1,17 +1,29 @@
-# Algorithmacy and Design Ethics (journal article — pivoted 2026-09-18, research complete)
+# Algorithmacy and Design Ethics (journal article — pivoted 2026-09-18, flourishing pass 2026-09-19)
 
-**Status:** the pivot's Fable-planned research harness is complete — 6 research passes + 3
-adversarial-verification passes, 167 total cards (99 from the first harness, 68 new), and a new
-synthesis dossier. The category-error thesis survived its own test: a checkable census
-(`RESEARCH_DOSSIER.md` §1) confirms all six critiqued accounts locate their remedy in the subject,
-the artifact, or an adoption decision — none in the relation between the two coordinated people.
-Martela & Steger flipped from critique target to ally of Principle III; the "static script" critique
-of Verbeek is dead, replaced by a sharper, census-confirmed "no adaptivity axis" finding; Berthon's
-"technology fast" framing is confirmed as this paper's own extension, not his argument, three times
-over. No prose drafted yet. See `RESEARCH_DOSSIER.md` for the full findings, the confirmed thesis,
-and the target-journal decision (*Philosophy & Technology* first, *Techné* second, 11,000–12,000
-words). The prior friction-design-rule draft, dossier, and research plan remain archived in
-`archive/2026-09-18_*_pre-category-error-pivot.md`.
+**Status:** the category-error thesis is confirmed (`RESEARCH_DOSSIER.md` §1's census: fifteen
+cards for the critiqued accounts locate their remedy outside the relation between the two
+coordinated people), and a second, independent test now confirms the paper's other diagnosis
+(`RESEARCH_DOSSIER.md` §11: none of the field's five key accounts assigns the *promotive* work to
+that relation either). `DRAFT.md` is the working spine, rewritten 2026-09-19 to open from Shannon
+Vallor's own 2024 question ("a new collective agreement on what technologies are for," *The AI
+Mirror*, p. 196) and bridge explicitly to this paper's more technical question — where, structurally,
+that agreement would have to be built. "The Prevailing Frameworks" now runs exactly five key design-
+ethics scholars — Winner, Vallor, Verbeek, Value Sensitive Design, and Nissenbaum's contextual
+integrity (added as a fifth, researched 2026-09-19) — with Martela & Steger repositioned as
+diagnostic vocabulary in a new "Protection Without Promotion" section and Berthon repositioned into
+"Moral Hazards." Verbeek's "designer's conception of the good" phrasing corrected to "one user's
+good, decided by the designer–user–artefact alliance and materialized once," after a new primary
+source (`verbeek2009.md`) confirmed he explicitly denies being a "prime mover." `DRAFT.md` is now a
+full essay (~6,100 words) with an abstract and a complete, alphabetized References section (42
+entries, every one cross-checked against an in-text citation and vice versa); every direct quote was
+spot-verified against its library card in the same pass, catching one citation error (a sentence
+attributed to Winner as a direct quote that was actually this arm's own analytical prose in
+`winner1980.md`, now rephrased as the paper's own claim). See `RESEARCH_DOSSIER.md` §10 for the
+terminology pass and §11 for the flourishing round; `literature/library/INDEX.md`'s Cluster P for
+the full card list. Target venue unchanged: *Philosophy & Technology* first, *Techné* second. The
+prior friction-design-rule draft, dossier, and research plan remain archived in
+`archive/2026-09-18_*_pre-category-error-pivot.md`. Next step: a read-aloud pass and possible
+expansion toward the dossier's full word-count outline.
 
 ## The new thesis
 
