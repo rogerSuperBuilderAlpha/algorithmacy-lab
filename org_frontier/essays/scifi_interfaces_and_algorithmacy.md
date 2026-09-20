@@ -1,0 +1,23 @@
+# Speculative interfaces as a laboratory for algorithmacy
+
+Speculative fiction stages triadic coordination under interface regimes that field studies cannot yet invent. The cultural reading lives in the submission packet [`submissions/scifi_interfaces_algorithmacy/`](../../submissions/scifi_interfaces_algorithmacy/): *The Matrix*, *The Feed*, and *Upload*, plus embodied co-pilots, recommender oracles, and algospeak, as models of how the algorithmic third party is shown, hidden, or hacked. Sibling cultural work is the *Slacker* chapter ([`submissions/slacker_thirds/`](../../submissions/slacker_thirds/)); the construct essays are [`literacy_or_algorithmacy.md`](literacy_or_algorithmacy.md) and [`the_interested_third_party.md`](the_interested_third_party.md).
+
+This note does not import Φ numbers from those stories. It names follow-on questions the lab can take into probes or protocol studies, each still subject to the standing rules: hypotheses before compute, nulls reported, validation gap stated.
+
+## What the essay already locks
+
+Interface paradigm stratifies algorithmacy. Raw syntax, neural-spatial feed, immersive GUI, embodied human-agent teaming, and invisible curation demand different cognitive integration and admit different resistance modes. Literacy-era scaffolding (word separation, codex, punctuation) is analogy for how abstraction lowers load while also hiding the mediator's agenda. Resistance — bypass, extraction, subversive affordance, folk theory, linguistic camouflage — is a move against the third party's co-optive work, not proof of measured irreducibility in any real organization.
+
+## Research questions for the lab
+
+1. **Encoding ladders for interface opacity.** Can a Boolean ladder of mediator visibility (full syntax exposed → abstracted GUI → black-box curation) change MIP membership or Φ while holding the commit rule fixed? Prediction to pre-register: opacity alone does not flip the literacy/algorithmacy verdict if commit-and-read structure is unchanged; opacity may still change which variables enter the major complex when the mediator's private state is the only readable channel.
+
+2. **Folk theory versus exact-Φ core membership.** Recommender-oracle users build folk theories of punishment, reward, and training. On small models, do anthropomorphic or "trainable machine" encodings of the mediator match, mis-name, or displace the parties that exact Φ places in the irreducible core? Null of interest: folk theory predicts core membership no better than chance once surface labels are stripped.
+
+3. **Resistance and subversive affordance as core displacement.** *Upload*-style environmental hacks and algospeak-style channel evasion look like workers restoring a dyadic path around the mediator. Which design operations (omit mediator read, freeze mediator objective, open a direct worker–counterpart wire) reproduce that displacement in exact Φ, and which leave the triad intact while only changing payoffs?
+
+4. **System-0 scaffolding versus committed determination.** *The Feed*'s pre-attentive neural preprocessor is a claim that the third party acts before deliberation. Does a mediator that commits *before* either party's deliberative bit updates factor differently from a mediator that commits only after both warrant? Link to the interested-third-party and committed-determination lines without treating fiction as measurement.
+
+## Placement
+
+Cultural manuscript and claim lock: [`submissions/scifi_interfaces_algorithmacy/`](../../submissions/scifi_interfaces_algorithmacy/). Any probe that answers one of the questions above lands under `org_frontier/probes/` or `org_frontier/questions/`, registers in `ci/reproduce.json`, and states the in-silico scope. Fiction remains the motive and the taxonomy, not the evidence.
