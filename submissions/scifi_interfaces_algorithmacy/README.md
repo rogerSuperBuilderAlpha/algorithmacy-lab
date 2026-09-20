@@ -1,6 +1,6 @@
 # Sci-Fi Interfaces and Algorithmacy
 
-**Status:** draft import (2026-09-20). Cultural / HCI essay reading speculative fiction as a laboratory for triadic algorithmacy. Not an exact-Φ study; no lab numbers claimed here.
+**Status:** draft import (2026-09-20), restructured as an expandable per-work catalog. Cultural / HCI track. Not an exact-Φ study; no lab numbers claimed here.
 
 **Drive title.** Sci-Fi Interfaces and the Concept of Algorithmacy.
 
@@ -8,11 +8,33 @@
 
 **Source.** Google Doc linked in [`SOURCE.md`](SOURCE.md).
 
-**Sibling.** Closest cultural arm is [`../slacker_thirds/`](../slacker_thirds/) (*Slacker* as platform operational logic). Closest construct essays are [`../../org_frontier/essays/literacy_or_algorithmacy.md`](../../org_frontier/essays/literacy_or_algorithmacy.md) and [`../../org_frontier/essays/the_interested_third_party.md`](../../org_frontier/essays/the_interested_third_party.md). Research-track stub: [`../../org_frontier/essays/scifi_interfaces_and_algorithmacy.md`](../../org_frontier/essays/scifi_interfaces_and_algorithmacy.md).
+## How this packet is organized
+
+- **[`essay.md`](essay.md)** is the **seed narrative** — the imported manuscript that first laid out the taxonomy. Keep it as the continuous reading of the argument.
+- **[`works/`](works/)** is the **living research object** — one file per franchise or emergent paradigm, with room for **Alternative interpretations**. New shows and competing takes land here, not as rewrites of the essay.
+- **Contributions welcome.** Copy [`works/_TEMPLATE.md`](works/_TEMPLATE.md), append signed alternatives, open a PR into `contrib`. Details: [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+**Sibling.** Closest cultural arm: [`../slacker_thirds/`](../slacker_thirds/). Construct essays: [`../../org_frontier/essays/literacy_or_algorithmacy.md`](../../org_frontier/essays/literacy_or_algorithmacy.md), [`../../org_frontier/essays/the_interested_third_party.md`](../../org_frontier/essays/the_interested_third_party.md). Research stub: [`../../org_frontier/essays/scifi_interfaces_and_algorithmacy.md`](../../org_frontier/essays/scifi_interfaces_and_algorithmacy.md).
+
+## Catalog (`works/`)
+
+| Work / paradigm | File |
+| --- | --- |
+| *The Matrix* (raw syntax) | [`works/the_matrix.md`](works/the_matrix.md) |
+| *The Feed* (System 0 / hexagons) | [`works/the_feed.md`](works/the_feed.md) |
+| *Upload* (Lakeview / subversive affordances) | [`works/upload.md`](works/upload.md) |
+| Embodied co-pilot (AVs / HAT) | [`works/embodied_co_pilot_avs.md`](works/embodied_co_pilot_avs.md) |
+| Omniscient curator (recommender oracles) | [`works/omniscient_curator.md`](works/omniscient_curator.md) |
+| Algospeak / infrapolitical resistance | [`works/algospeak_resistance.md`](works/algospeak_resistance.md) |
+| Template for new entries | [`works/_TEMPLATE.md`](works/_TEMPLATE.md) |
+
+## Packet files
 
 | File | Use |
 | --- | --- |
-| [`essay.md`](essay.md) | Full manuscript (import; light markdown cleanup only) |
+| [`essay.md`](essay.md) | Full imported manuscript (seed narrative) |
+| [`works/`](works/) | Expandable per-work catalog (living object) |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to add a work or an alternative interpretation |
 | [`CLAIM.md`](CLAIM.md) | Locked one-page claim |
 | [`abstract.md`](abstract.md) | Short abstract |
 | [`SOURCE.md`](SOURCE.md) | Google Doc provenance |
