@@ -18,7 +18,7 @@ Speculative fiction is a laboratory for algorithmacy as a triadic competency. *T
 
 **Scope**
 
-Cultural / HCI reading. No exact-Φ results. Any follow-on probe that maps interface opacity or folk-theory membership to core structure lives under `org_frontier/`, registered and reproducible, not in this packet.
+Cultural / HCI reading. No exact-Φ results. The living object is [`works/`](works/) (one file per show or paradigm, with Alternative interpretations first-class); [`essay.md`](essay.md) is the seed narrative. Any follow-on probe that maps interface opacity or folk-theory membership to core structure lives under `org_frontier/`, registered and reproducible, not in this packet.
 
 **Do not claim**
 
