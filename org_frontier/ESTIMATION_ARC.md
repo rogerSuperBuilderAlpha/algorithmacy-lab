@@ -1,7 +1,7 @@
-# Estimation lane (#21–#23, #25) — working picture
+# Estimation lane (#21–#25) — working picture
 
-A short synthesis of the cheap-screen / surrogate estimation arm on
-PR #739. Exact binary IIT-4.0 Φ; in-silico. Sibling arcs:
+A short synthesis of the cheap-screen / surrogate estimation arm.
+Exact binary IIT-4.0 Φ; in-silico. Sibling arcs:
 [`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md) (closed),
 [`OMIT_ATOM_ARC.md`](OMIT_ATOM_ARC.md),
 [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md). No construct/omit/
@@ -9,11 +9,12 @@ ladder/indeg reopen.
 
 ## Verdict in one line
 
-**The generalization bottleneck is topology, not sample length,
-GNN-style structure, or label order.** Within-family MI is fast;
-cross-family coupling inverts; structure-aware RF adds little under
-holdout; transfer-operator spectral gap is a partial cross-family
-lever; active acquisition does not beat random on this panel.
+**The generalization bottleneck is topology; under partial observation
+the failure is role-gated (missing party), not smooth in duty cycle.**
+Within-family MI is fast; cross-family coupling inverts; structure-aware
+RF and active acquisition add little; spectral gap is partial; a hidden
+party collapses the cheap screen while intermittent logging (δ≥0.10)
+does not.
 
 ## Arc
 
@@ -22,6 +23,8 @@ lever; active acquisition does not beat random on this panel.
 | 1 | [`structure_aware_surrogate/`](studies/structure_aware_surrogate/) | **NO_STRUCTURE_GAIN** (#22) | cm+function RF ≈ coupling under LOFO (lift +0.049) |
 | 2 | [`sample_complexity_screen/`](studies/sample_complexity_screen/) | **FAST_WITHIN_FAMILY** (#23) | family n=3 MI AUC≥0.97 at T*=125; longer T ≠ cross-topo |
 | 3 | [`spectral_invariant/`](studies/spectral_invariant/) | **SPECTRAL_PARTIAL** (#21) | `P_spectral_gap` AUC=0.893 vs inverted MI 0.775; lift +0.118 < 0.15 |
+| 4 | [`active_label_acquisition/`](studies/active_label_acquisition/) | **AL_NO_GAIN** (#25) | uncertainty Δ=+0.015 vs random; topo_balance hurts LOFO |
+| 5 | [`partial_observation_screen/`](studies/partial_observation_screen/) | **HIDDEN_COLLAPSE_INTERMITTENT_CLIFF** (#24) | hide party 0.922→0.547; δ≥0.10 holds, cliffs at δ=0; hide mediator ≈ full |
 
 Cited priors (not reopened): #122 within-family MI; #123/#129 OOD
 surrogate failure; #134 coupling inversion; cascade/residual arm in
@@ -47,9 +50,17 @@ surrogate failure; #134 coupling inversion; cascade/residual arm in
    misses the pre-registered lift bar (#21). Useful baseline, not a
    closed topology-invariant instrument.
 
-5. **Practice.** Use family-matched cheap screens (or cascade selective
+5. **Partial observation is role-gated.** Hiding a party collapses the
+   within-family MI screen; hiding the mediator does not. Intermittent
+   party observation stays informative down to δ=0.10 and cliffs only
+   at total absence (#24). Missingness fraction is the wrong control;
+   which role is logged is the right one.
+
+6. **Practice.** Use family-matched cheap screens (or cascade selective
    exact Φ). Do not expect one coupling or GNN-style surrogate to travel
-   across topology without labels from that class.
+   across topology without labels from that class. Treat an unobserved
+   party as a hard fail for coupling screens; sparse party logs are
+   much safer than silence.
 
 ## Active learning (#25)
 
@@ -60,9 +71,19 @@ Label order is secondary; it does not repair the topology bottleneck.
 
 ## Best next
 
-**Estimation lane closable.** #21–#23 plus #25 fix the picture:
-within-family MI is cheap and fast; cross-topo needs family-matched
-labels or selective exact Φ; structure-aware, spectral, and active
-acquisition are partial or null levers, not a closed invariant.
-Optional later (outside this lane): agenda **#24** partial observation.
-Construct/omit/ladder stay closed.
+**Estimation lane closed.** #21–#25 fix the picture: within-family MI is
+cheap and fast; cross-topo needs family-matched labels or selective exact
+Φ; structure-aware, spectral, and active acquisition are partial or null
+levers, not a closed invariant. **#24**
+[`partial_observation_screen/`](studies/partial_observation_screen/)
+(PR #749) → **HIDDEN_COLLAPSE_INTERMITTENT_CLIFF** (hide party collapses
+MI AUC; intermittent cliffs at δ=0; hide mediator ≈ full).
+Construct/omit/ladder stay closed. V3 estimation residuals: **#15**
+[`topology_aware_imputer/`](studies/topology_aware_imputer/) →
+**IMPUTER_RESTORES_AUC**; **#16**
+[`correlated_party_duty/`](studies/correlated_party_duty/) →
+**ALTERNATION_RECREATES_CLIFF** (alternating party duty does not soften
+the δ=0 cliff; losing joint WC observation is enough; phase-locked
+δ=0.5 holds). V3 estimation residuals closed. See `V3_LANE_CLOSE.md`.
+Optional later outside this lane: **M3** overlay subset-Φ fidelity, or a
+new agenda gap. Construct/omit/ladder stay closed.

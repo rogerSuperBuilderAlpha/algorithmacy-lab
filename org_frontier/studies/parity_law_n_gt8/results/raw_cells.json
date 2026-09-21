@@ -1,0 +1,91 @@
+[
+  {
+    "n": 3,
+    "regime": "exact+sia",
+    "core_phi": 0.5,
+    "sia_phi": 0.5,
+    "law_phi": 0.5,
+    "H_mip": true,
+    "full_core": true,
+    "source": "v3_10"
+  },
+  {
+    "n": 4,
+    "regime": "exact+sia",
+    "core_phi": 0.25,
+    "sia_phi": 0.25,
+    "law_phi": 0.25,
+    "H_mip": true,
+    "full_core": true,
+    "source": "v3_10"
+  },
+  {
+    "n": 5,
+    "regime": "exact+sia",
+    "core_phi": 0.125,
+    "sia_phi": 0.125,
+    "law_phi": 0.125,
+    "H_mip": true,
+    "full_core": true,
+    "source": "v3_10"
+  },
+  {
+    "n": 6,
+    "regime": "exact+sia",
+    "core_phi": 0.0625,
+    "sia_phi": 0.0625,
+    "law_phi": 0.0625,
+    "H_mip": true,
+    "full_core": true,
+    "source": "v3_10"
+  },
+  {
+    "n": 7,
+    "regime": "exact+sia",
+    "core_phi": 0.03125,
+    "sia_phi": 0.03125,
+    "law_phi": 0.03125,
+    "H_mip": true,
+    "full_core": true,
+    "source": "v3_10"
+  },
+  {
+    "n": 8,
+    "regime": "sia",
+    "core_phi": null,
+    "sia_phi": 0.015625,
+    "law_phi": 0.015625,
+    "H_mip": true,
+    "full_core": null,
+    "source": "v4_9",
+    "seconds_sia": 964.97,
+    "note": "major-complex census not recomputed; cut/SIA regime"
+  },
+  {
+    "n": 8,
+    "regime": "H_cut",
+    "H_phi": 0.015625,
+    "law_phi": 0.015625,
+    "match": true,
+    "seconds_ss": 2.54,
+    "source": "v4_9"
+  },
+  {
+    "n": 9,
+    "regime": "H_cut",
+    "H_phi": 0.0078125,
+    "law_phi": 0.0078125,
+    "match": true,
+    "seconds_ss": 11.79,
+    "source": "v4_9"
+  },
+  {
+    "n": 10,
+    "regime": "H_cut",
+    "H_phi": 0.00390625,
+    "law_phi": 0.00390625,
+    "match": true,
+    "seconds_ss": 54.65,
+    "source": "v4_9"
+  }
+]

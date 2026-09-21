@@ -1,0 +1,4 @@
+carrier,n,L,structure,n_core,core,phi,note
+necklace,6,0,NULL,0,,0.0,full_maximal
+necklace,6,1,DYADIC,2,P0|H0,0.5199666673076944,bounded_max_size=4
+necklace,6,2,TRIADIC,3,P0|P1|H0,3.169925001442313,bounded_max_size=4

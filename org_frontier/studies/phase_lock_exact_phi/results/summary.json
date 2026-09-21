@@ -1,0 +1,17 @@
+{
+  "verdict": "PHASE_RESTORES_JOINT",
+  "h1": "SUPPORTED",
+  "h2": "SUPPORTED",
+  "h3": "SUPPORTED",
+  "h4": "SUPPORTED",
+  "h5": "SUPPORTED",
+  "phi_full_multi_auc": 1.0,
+  "phi_alt_multi_auc": 0.659664,
+  "phi_phase_multi_auc": 1.0,
+  "phi_phase_family_auc": 1.0,
+  "mi_phase_family_auc": 0.913194,
+  "mi_alt_family_auc": 0.592014,
+  "mean_duty_alt": 0.5,
+  "mean_duty_phase": 0.5,
+  "reading": "PHASE_RESTORES_JOINT \u2014 at matched \u03b4=0.5, exact-\u03a6 phase holds on multifamily (1.000) where alt cliffs (0.660); family_n3 phase=1.000; MI phase=0.913 alt=0.592; joint observation not mean duty"
+}

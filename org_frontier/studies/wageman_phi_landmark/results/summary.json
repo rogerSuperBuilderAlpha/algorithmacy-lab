@@ -1,0 +1,19 @@
+{
+  "verdict": "W_N_PREDICTS_LANDMARK",
+  "reading": "W_N_PREDICTS_LANDMARK \u2014 survey-style W paired with form size n predicts ring-4 / hub-(n\u22121) / pool landmarks; at n=4 W alone orders hub<ring<pool; across n, W alone collides and needs n; dyadic/triadic verdict hold from V2 #44 intact",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "h5": true,
+  "control_ok": true,
+  "n4_W": {
+    "HUB": 0.5,
+    "RING4": 0.6666666666666666,
+    "POOL": 1.0
+  },
+  "acc_n4": 1.0,
+  "acc_w_alone": 0.7,
+  "acc_wn": 1.0,
+  "verdict_auc": 1.0
+}

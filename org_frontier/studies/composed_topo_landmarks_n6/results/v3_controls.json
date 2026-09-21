@@ -1,0 +1,155 @@
+[
+  {
+    "family": "#4",
+    "name": "triad",
+    "n": 3,
+    "structure": "triadic",
+    "core_phi": 2.0,
+    "full_core": true,
+    "core": "W|S|C"
+  },
+  {
+    "family": "#4",
+    "name": "ring6",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 4.0,
+    "full_core": true,
+    "core": "x0|x1|x2|x3|x4|x5"
+  },
+  {
+    "family": "#4",
+    "name": "hub6",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 5.0,
+    "full_core": true,
+    "core": "x0|x1|x2|x3|x4|x5"
+  },
+  {
+    "family": "#4",
+    "name": "neck_AND",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 4.0,
+    "full_core": true,
+    "core": "P0|P1|P2|H0|H1|H2"
+  },
+  {
+    "family": "#4",
+    "name": "neck_OR_hub",
+    "n": 6,
+    "structure": "dyadic",
+    "core_phi": 2.0,
+    "full_core": false,
+    "core": "P0|H2"
+  },
+  {
+    "family": "#5",
+    "name": "roh_leaf_ring",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 6.0,
+    "full_core": false,
+    "core": "H0|H1|H2"
+  },
+  {
+    "family": "#5",
+    "name": "roh_hubs_ring",
+    "n": 6,
+    "structure": "dyadic",
+    "core_phi": 6.0,
+    "full_core": false,
+    "core": "H0|H1|H2"
+  },
+  {
+    "family": "#5",
+    "name": "roh_directed",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 2.0,
+    "full_core": false,
+    "core": "H2|P2"
+  },
+  {
+    "family": "#6",
+    "name": "triad",
+    "n": 3,
+    "structure": "triadic",
+    "core_phi": 2.0,
+    "full_core": true,
+    "core": "W|S|C"
+  },
+  {
+    "family": "#6",
+    "name": "k2_AND",
+    "n": 5,
+    "structure": "triadic",
+    "core_phi": 4.0,
+    "full_core": true,
+    "core": "W1|C1|W2|C2|S"
+  },
+  {
+    "family": "#6",
+    "name": "k2_OR",
+    "n": 5,
+    "structure": "dyadic",
+    "core_phi": NaN,
+    "full_core": false,
+    "core": ""
+  },
+  {
+    "family": "#6",
+    "name": "k3_AND",
+    "n": 7,
+    "structure": "triadic",
+    "core_phi": 6.0,
+    "full_core": true,
+    "core": "W1|C1|W2|C2|W3|C3|S"
+  },
+  {
+    "family": "#6",
+    "name": "k3_OR",
+    "n": 7,
+    "structure": "dyadic",
+    "core_phi": NaN,
+    "full_core": false,
+    "core": ""
+  },
+  {
+    "family": "#7",
+    "name": "triad",
+    "n": 3,
+    "structure": "triadic",
+    "core_phi": 2.0,
+    "full_core": null,
+    "core": "W|S|C"
+  },
+  {
+    "family": "#7",
+    "name": "hub_L2",
+    "n": 4,
+    "structure": "dyadic",
+    "core_phi": 2.0,
+    "full_core": null,
+    "core": "H0|P0"
+  },
+  {
+    "family": "#7",
+    "name": "hy_triad_AND",
+    "n": 5,
+    "structure": "dyadic",
+    "core_phi": 2.0,
+    "full_core": null,
+    "core": "W|S|C"
+  },
+  {
+    "family": "#7",
+    "name": "hy_triad_OR",
+    "n": 5,
+    "structure": "dyadic",
+    "core_phi": 2.0,
+    "full_core": null,
+    "core": "H1|P1"
+  }
+]

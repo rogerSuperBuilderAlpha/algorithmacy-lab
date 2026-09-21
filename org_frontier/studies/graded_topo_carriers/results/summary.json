@@ -1,0 +1,136 @@
+{
+  "verdict": "SHARP_HOLDS_ACROSS_TOPO",
+  "reading": "SHARP_HOLDS_ACROSS_TOPO \u2014 graded min-commit keeps discrete NULL/DYADIC/TRIADIC labels while \u03a6 grades on hub, ring (n=3,4), and necklace; no topology-forced class flip relative to V2 #2",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "control_ok": true,
+  "ref_path": [
+    "NULL",
+    "DYADIC",
+    "TRIADIC"
+  ],
+  "panel": [
+    {
+      "carrier": "hub",
+      "n": 3,
+      "L": 0,
+      "structure": "NULL",
+      "n_core": 0,
+      "core": "",
+      "phi": 0.0,
+      "note": "full_maximal"
+    },
+    {
+      "carrier": "hub",
+      "n": 3,
+      "L": 1,
+      "structure": "DYADIC",
+      "n_core": 2,
+      "core": "W|S",
+      "phi": 0.3899750004807708,
+      "note": "full_maximal"
+    },
+    {
+      "carrier": "hub",
+      "n": 3,
+      "L": 2,
+      "structure": "TRIADIC",
+      "n_core": 3,
+      "core": "W|S|C",
+      "phi": 3.169925001442312,
+      "note": "full_maximal"
+    },
+    {
+      "carrier": "ring",
+      "n": 3,
+      "L": 0,
+      "structure": "NULL",
+      "n_core": 0,
+      "core": "",
+      "phi": 0.0,
+      "note": "full_maximal (0.0s)"
+    },
+    {
+      "carrier": "ring",
+      "n": 3,
+      "L": 1,
+      "structure": "DYADIC",
+      "n_core": 2,
+      "core": "x0|x1",
+      "phi": 0.46797000057692495,
+      "note": "full_maximal (0.0s)"
+    },
+    {
+      "carrier": "ring",
+      "n": 3,
+      "L": 2,
+      "structure": "TRIADIC",
+      "n_core": 3,
+      "core": "x0|x1|x2",
+      "phi": 9.509775004326936,
+      "note": "full_maximal (0.0s)"
+    },
+    {
+      "carrier": "ring",
+      "n": 4,
+      "L": 0,
+      "structure": "NULL",
+      "n_core": 0,
+      "core": "",
+      "phi": 0.0,
+      "note": "full_maximal (0.1s)"
+    },
+    {
+      "carrier": "ring",
+      "n": 4,
+      "L": 1,
+      "structure": "DYADIC",
+      "n_core": 2,
+      "core": "x0|x1",
+      "phi": 0.5199666673076944,
+      "note": "full_maximal (1.3s)"
+    },
+    {
+      "carrier": "ring",
+      "n": 4,
+      "L": 2,
+      "structure": "TRIADIC",
+      "n_core": 4,
+      "core": "x0|x1|x2|x3",
+      "phi": 6.339850002884624,
+      "note": "full_maximal (1.2s)"
+    },
+    {
+      "carrier": "necklace",
+      "n": 6,
+      "L": 0,
+      "structure": "NULL",
+      "n_core": 0,
+      "core": "",
+      "phi": 0.0,
+      "note": "full_maximal"
+    },
+    {
+      "carrier": "necklace",
+      "n": 6,
+      "L": 1,
+      "structure": "DYADIC",
+      "n_core": 2,
+      "core": "P0|H0",
+      "phi": 0.5199666673076944,
+      "note": "bounded_max_size=4"
+    },
+    {
+      "carrier": "necklace",
+      "n": 6,
+      "L": 2,
+      "structure": "TRIADIC",
+      "n_core": 3,
+      "core": "P0|P1|H0",
+      "phi": 3.169925001442313,
+      "note": "bounded_max_size=4"
+    }
+  ]
+}

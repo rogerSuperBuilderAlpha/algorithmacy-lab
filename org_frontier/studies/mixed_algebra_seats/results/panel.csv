@@ -1,0 +1,9 @@
+family,arch,name,n,role,structure,whole_phi,core,core_phi,n_core,seats,kind,hybrid,seconds
+control,and_triad,and_triad,3,anchor,triadic,2.0,W|S|C,2.0,3,full_triad,conj_landmark,0,0.11
+control,xor_triad,xor_triad,3,anchor,triadic,0.5,W|S|C,0.5,3,full_triad,parity_band,0,0.21
+shared,shared_AA,shared_AA,5,pure_conj,triadic,4.0,W1|C1|W2|C2|S,4.0,5,conj_seat+parity_seat+S,conj_landmark,0,4.72
+shared,shared_XX_or,shared_XX_or,5,pure_parity,triadic,0.5,W1|C1|W2|C2|S,0.5,5,conj_seat+parity_seat+S,parity_band,0,7.55
+shared,mix_AND,mix_AND,5,mixed,dyadic,0.0,W2|C2|S,0.5,3,parity_seat+S,factors,0,0.54
+shared,mix_OR,mix_OR,5,mixed,dyadic,0.0,W2|C2|S,0.5,3,parity_seat+S,factors,0,0.87
+shared,mix_XOR,mix_XOR,5,mixed,triadic,0.125,C1|W2|C2|S,0.25,4,conj_seat+parity_seat+S,parity_band,0,5.01
+shared,mix_AND_XNOR,mix_AND_XNOR,5,mixed,triadic,0.5,W1|C1|S,2.0,3,conj_seat+S,parity_band,0,4.72

@@ -5,11 +5,11 @@
       "name": "thinkers-simmel-h1-superindividual",
       "cmd": "python -m org_frontier.thinkers.simmel.probe_simmel_superindividual",
       "expect": [
-        "control conjunctive triad: triadic Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "dyad_mutual            triadic  Φ_MIP=2.000000  core=('A', 'B') coreΦ=2.000",
-        "dyad_cut               dyadic   Φ_MIP=0.000000",
-        "triad_mutual           triadic  Φ_MIP=6.000000  core=('A', 'B', 'C') coreΦ=6.000",
-        "triad_broken_line      triadic  Φ_MIP=2.000000  core=('A', 'B', 'C') coreΦ=2.000",
+        "control conjunctive triad: triadic \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "dyad_mutual            triadic  \u03a6_MIP=2.000000  core=('A', 'B') core\u03a6=2.000",
+        "dyad_cut               dyadic   \u03a6_MIP=0.000000",
+        "triad_mutual           triadic  \u03a6_MIP=6.000000  core=('A', 'B', 'C') core\u03a6=6.000",
+        "triad_broken_line      triadic  \u03a6_MIP=2.000000  core=('A', 'B', 'C') core\u03a6=2.000",
         "H1 (superindividual triad): CONFIRMED"
       ],
       "timeout": 180,
@@ -19,14 +19,14 @@
       "name": "thinkers-simmel-h2-number",
       "cmd": "python -m org_frontier.thinkers.simmel.probe_simmel_number 5",
       "expect": [
-        "clique_2               triadic  Φ_MIP=2.000000",
-        "clique_3               triadic  Φ_MIP=6.000000",
-        "clique_4               triadic  Φ_MIP=12.000000",
-        "clique_5               triadic  Φ_MIP=20.000000",
-        "ΔΦ(2→3) = +4.000000",
-        "ΔΦ(3→4) = +6.000000",
-        "ΔΦ(4→5) = +8.000000",
-        "H2 (2→3 is the decisive step; increments diminish): REFUTED"
+        "clique_2               triadic  \u03a6_MIP=2.000000",
+        "clique_3               triadic  \u03a6_MIP=6.000000",
+        "clique_4               triadic  \u03a6_MIP=12.000000",
+        "clique_5               triadic  \u03a6_MIP=20.000000",
+        "\u0394\u03a6(2\u21923) = +4.000000",
+        "\u0394\u03a6(3\u21924) = +6.000000",
+        "\u0394\u03a6(4\u21925) = +8.000000",
+        "H2 (2\u21923 is the decisive step; increments diminish): REFUTED"
       ],
       "timeout": 300,
       "source": "org_frontier/thinkers/simmel/FINDINGS.md"
@@ -35,9 +35,9 @@
       "name": "thinkers-simmel-h3-majority",
       "cmd": "python -m org_frontier.thinkers.simmel.probe_simmel_majority",
       "expect": [
-        "majority_triad         dyadic   Φ_MIP=0.000000  core=() coreΦ=0.000",
-        "unanimity_triad        triadic  Φ_MIP=6.000000  core=('A', 'B', 'C') coreΦ=6.000",
-        "unanimity_dyad         triadic  Φ_MIP=2.000000  core=('A', 'B') coreΦ=2.000",
+        "majority_triad         dyadic   \u03a6_MIP=0.000000  core=() core\u03a6=0.000",
+        "unanimity_triad        triadic  \u03a6_MIP=6.000000  core=('A', 'B', 'C') core\u03a6=6.000",
+        "unanimity_dyad         triadic  \u03a6_MIP=2.000000  core=('A', 'B') core\u03a6=2.000",
         "H3 (majority triad binds all three): REFUTED"
       ],
       "timeout": 180,
@@ -47,9 +47,9 @@
       "name": "thinkers-simmel-h4-nonpartisan",
       "cmd": "python -m org_frontier.thinkers.simmel.probe_simmel_nonpartisan",
       "expect": [
-        "arbitrator             triadic  Φ_MIP=2.000000  core=('A', 'M', 'B') coreΦ=2.000",
-        "mediator               triadic  Φ_MIP=2.000000  core=('A', 'M', 'B') coreΦ=2.000",
-        "mediator_eliminated    dyadic   Φ_MIP=0.000000  core=('A', 'B') coreΦ=2.000",
+        "arbitrator             triadic  \u03a6_MIP=2.000000  core=('A', 'M', 'B') core\u03a6=2.000",
+        "mediator               triadic  \u03a6_MIP=2.000000  core=('A', 'M', 'B') core\u03a6=2.000",
+        "mediator_eliminated    dyadic   \u03a6_MIP=0.000000  core=('A', 'B') core\u03a6=2.000",
         "H4 (arbitrator in, mediator in but weaker, eliminated mediator out): PARTIAL"
       ],
       "timeout": 180,
@@ -59,11 +59,11 @@
       "name": "thinkers-simmel-h5-gaudens",
       "cmd": "python -m org_frontier.thinkers.simmel.probe_simmel_gaudens",
       "expect": [
-        "gaudens_balanced       dyadic   Φ_MIP=0.000000  core=('T', 'O') coreΦ=2.000",
+        "gaudens_balanced       dyadic   \u03a6_MIP=0.000000  core=('T', 'O') core\u03a6=2.000",
         "weights=(1, 1, 1)  infl(T)=0.750 infl(A)=0.250 infl(B)=0.250  T in core: True",
-        "gaudens_intermediate   dyadic   Φ_MIP=0.000000  core=('T', 'O') coreΦ=0.277",
+        "gaudens_intermediate   dyadic   \u03a6_MIP=0.000000  core=('T', 'O') core\u03a6=0.277",
         "weights=(2, 1, 1)  infl(T)=0.500 infl(A)=0.500 infl(B)=0.500  T in core: True",
-        "gaudens_dictator       dyadic   Φ_MIP=0.000000  core=('A', 'O') coreΦ=2.000",
+        "gaudens_dictator       dyadic   \u03a6_MIP=0.000000  core=('A', 'O') core\u03a6=2.000",
         "weights=(3, 1, 1)  infl(T)=0.250 infl(A)=0.750 infl(B)=0.250  T in core: False",
         "H5 (third's membership tracks the contestants' balance): CONFIRMED"
       ],
@@ -74,13 +74,13 @@
       "name": "thinkers-peirce-h1-irreducibility",
       "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_irreducibility",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
-        "copy_BCA               Φ_MIP=2.000000  core=('A', 'B', 'C')        adicity=2 (cause 2, effect 2)",
-        "copy_CCA               Φ_MIP=0.000000  core=('A', 'C')             adicity=3 (cause 2, effect 3)",
-        "copy_DDDA              Φ_MIP=0.000000  core=('A', 'D')             adicity=4 (cause 2, effect 4)  D -> cause A effect ABC (φ=1.000)",
-        "wirings=89  max genuine adicity=4  adicity counts={2: 11, 3: 66, 4: 12}  whole-irreducible (Φ>0)=8",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "copy_BCA               \u03a6_MIP=2.000000  core=('A', 'B', 'C')        adicity=2 (cause 2, effect 2)",
+        "copy_CCA               \u03a6_MIP=0.000000  core=('A', 'C')             adicity=3 (cause 2, effect 3)",
+        "copy_DDDA              \u03a6_MIP=0.000000  core=('A', 'D')             adicity=4 (cause 2, effect 4)  D -> cause A effect ABC (\u03c6=1.000)",
+        "wirings=89  max genuine adicity=4  adicity counts={2: 11, 3: 66, 4: 12}  whole-irreducible (\u03a6>0)=8",
         "H1 (no complexus of dyads reaches adicity 3): REFUTED",
-        "unbranched wirings (pure cycles and their products)=11, max adicity=2, Φ>0 in 8; branched wirings=78, min adicity=3, Φ>0 in 0; max cause-side adicity over all=2"
+        "unbranched wirings (pure cycles and their products)=11, max adicity=2, \u03a6>0 in 8; branched wirings=78, min adicity=3, \u03a6>0 in 0; max cause-side adicity over all=2"
       ],
       "timeout": 600,
       "source": "org_frontier/thinkers/peirce/FINDINGS.md"
@@ -89,9 +89,9 @@
       "name": "thinkers-peirce-h2-degeneracy",
       "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_degeneracy",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
-        "monadic_degenerate     Φ_MIP=0.000000  core=('C',)                 adicity=1 (cause 1, effect 1)",
-        "dyadic_degenerate      Φ_MIP=0.000000  core=('A',)                 adicity=2 (cause 2, effect 2)",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "monadic_degenerate     \u03a6_MIP=0.000000  core=('C',)                 adicity=1 (cause 1, effect 1)",
+        "dyadic_degenerate      \u03a6_MIP=0.000000  core=('A',)                 adicity=2 (cause 2, effect 2)",
         "adicity: monadic=1 dyadic=2 genuine=3  degenerate forms without a 3-member complex: True",
         "H2 (monadic < dyadic < genuine by adicity 1 < 2 < 3): CONFIRMED"
       ],
@@ -102,10 +102,10 @@
       "name": "thinkers-peirce-h3-giving",
       "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_giving",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
-        "giving_genuine         Φ_MIP=2.000000  core=('G', 'T', 'R')        adicity=3 (cause 3, effect 3)  R -> cause GT effect GT (φ=2.000)",
-        "giving_degenerate      Φ_MIP=2.000000  core=('G', 'T', 'R')        adicity=2 (cause 2, effect 2)",
-        "H3 (genuine giving adicity 3, degenerate ≤ 2): CONFIRMED"
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "giving_genuine         \u03a6_MIP=2.000000  core=('G', 'T', 'R')        adicity=3 (cause 3, effect 3)  R -> cause GT effect GT (\u03c6=2.000)",
+        "giving_degenerate      \u03a6_MIP=2.000000  core=('G', 'T', 'R')        adicity=2 (cause 2, effect 2)",
+        "H3 (genuine giving adicity 3, degenerate \u2264 2): CONFIRMED"
       ],
       "timeout": 180,
       "source": "org_frontier/thinkers/peirce/FINDINGS.md"
@@ -114,9 +114,9 @@
       "name": "thinkers-peirce-h4-sign",
       "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_sign",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
-        "sign_exogenous         Φ_MIP=0.000000  core=('O',)                 adicity=3 (cause 2, effect 3)  OS -> cause O effect SI (φ=1.000)",
-        "sign_pragmatic         Φ_MIP=2.000000  core=('O', 'S', 'I')        adicity=3 (cause 3, effect 2)  I -> cause OS effect O (φ=0.500)",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "sign_exogenous         \u03a6_MIP=0.000000  core=('O',)                 adicity=3 (cause 2, effect 3)  OS -> cause O effect SI (\u03c6=1.000)",
+        "sign_pragmatic         \u03a6_MIP=2.000000  core=('O', 'S', 'I')        adicity=3 (cause 3, effect 2)  I -> cause OS effect O (\u03c6=0.500)",
         "H4 (sign relation binds O, S, I at adicity 3 with the object exogenous): PARTIAL"
       ],
       "timeout": 180,
@@ -126,11 +126,11 @@
       "name": "thinkers-peirce-h5-polyads",
       "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_polyads 12",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
-        "two_input_00           Φ_MIP=0.830075  core=('B', 'C')             adicity=4 (cause 4, effect 4)  BD -> cause AC effect C (φ=1.000)",
-        "two_input_08           Φ_MIP=2.000000  core=('A', 'B', 'C', 'D')   adicity=4 (cause 4, effect 4)",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "two_input_00           \u03a6_MIP=0.830075  core=('B', 'C')             adicity=4 (cause 4, effect 4)  BD -> cause AC effect C (\u03c6=1.000)",
+        "two_input_08           \u03a6_MIP=2.000000  core=('A', 'B', 'C', 'D')   adicity=4 (cause 4, effect 4)",
         "adicity counts={4: 12}  adicity-4 forms=12/12  adicity>=3 forms=12/12",
-        "adicity-4 exemplar: A=AND(C,D);B=OR(C,D);C=NOR(B,D);D=XNOR(A,C)  BD -> cause AC effect C (φ=1.000) at 0000",
+        "adicity-4 exemplar: A=AND(C,D);B=OR(C,D);C=NOR(B,D);D=XNOR(A,C)  BD -> cause AC effect C (\u03c6=1.000) at 0000",
         "H5 (two-input rules compose into an adicity-4 fact): CONFIRMED"
       ],
       "timeout": 600,
@@ -140,10 +140,10 @@
       "name": "thinkers-caplow-h1-types",
       "cmd": "python -m org_frontier.thinkers.caplow.probe_caplow_types",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "t2_BC    w=(3, 2, 2) Φ_MIP=0.000000  core=('B', 'C', 'O')        coreΦ=2.000  wins  BINDS",
-        "t3_AB    w=(1, 2, 2) Φ_MIP=0.000000  core=('B', 'O')             coreΦ=2.000  wins  no",
-        "t5_BC    w=(4, 3, 2) Φ_MIP=0.000000  core=('B', 'O')             coreΦ=2.000  wins  no",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "t2_BC    w=(3, 2, 2) \u03a6_MIP=0.000000  core=('B', 'C', 'O')        core\u03a6=2.000  wins  BINDS",
+        "t3_AB    w=(1, 2, 2) \u03a6_MIP=0.000000  core=('B', 'O')             core\u03a6=2.000  wins  no",
+        "t5_BC    w=(4, 3, 2) \u03a6_MIP=0.000000  core=('B', 'O')             core\u03a6=2.000  wins  no",
         "types matching Caplow: 4/8  (differ: 3,5,7,8)  precoalition forms with no complex: 1,2,3,5,7,8",
         "H1 (binding coalitions = Caplow's predicted coalitions in every type): PARTIAL"
       ],
@@ -154,7 +154,7 @@
       "name": "thinkers-caplow-h2-weakness",
       "cmd": "python -m org_frontier.thinkers.caplow.probe_caplow_weakness",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "binding coalitions=5: t1_AB,t1_AC,t1_BC,t2_BC,t3_BC",
         "membership in binding coalitions: A=2 B=4 C=4",
         "in the core across all 24 coalition forms: A=18 B=7 C=6",
@@ -167,10 +167,10 @@
       "name": "thinkers-caplow-h3-dominance",
       "cmd": "python -m org_frontier.thinkers.caplow.probe_caplow_dominance",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "t7_BC    w=(3, 2, 1) Φ_MIP=0.000000  core=('A', 'B', 'O')        coreΦ=2.000  loses no",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "t7_BC    w=(3, 2, 1) \u03a6_MIP=0.000000  core=('A', 'B', 'O')        core\u03a6=2.000  loses no",
         "BC binds in types: none   forms with A out of the core: t7_pre,t8_pre",
-        "H3 (BC never binds and A holds every core when A ≥ B + C): PARTIAL"
+        "H3 (BC never binds and A holds every core when A \u2265 B + C): PARTIAL"
       ],
       "timeout": 180,
       "source": "org_frontier/thinkers/caplow/FINDINGS.md"
@@ -179,7 +179,7 @@
       "name": "thinkers-caplow-h4-kinds",
       "cmd": "python -m org_frontier.thinkers.caplow.probe_caplow_kinds",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "conservative  AB: core=('A', 'O')  A in core: True  partners both in core: False",
         "revolutionary BC: core=('B', 'O')  A in core: False  partners both in core: False",
         "H4 (all three Type 5 coalitions bind; only BC removes A from the core): PARTIAL"
@@ -191,7 +191,7 @@
       "name": "thinkers-caplow-h5-additivity",
       "cmd": "python -m org_frontier.thinkers.caplow.probe_caplow_additivity",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "winning coalitions=20  binding=5  equal-partner winners binding 5/5  unequal-partner winners binding 0/15",
         "binding coincides with equal partner weights: True",
         "H5 (every winning coalition binds regardless of the division of strength): REFUTED"
@@ -203,11 +203,11 @@
       "name": "thinkers-heider-h1-balance",
       "cmd": "python -m org_frontier.thinkers.heider.probe_heider_balance",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "triad_ppp      +++     Φ_MIP=0.000000  core=()                         coreΦ=0.000  attractors=000 111  rest=000,111",
-        "triad_ppm      ++−     Φ_MIP=6.000000  core=('p', 'o', 'q')            coreΦ=6.000  attractors=000 001 010 {011,100} 101 110 111  rest=none",
-        "structural classes=2  balanced (product +) Φ_MIP=0.0  unbalanced (product −) Φ_MIP=6.0",
-        "H1 (two classes by sign product, and the balanced class has the greater Φ): PARTIAL"
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "triad_ppp      +++     \u03a6_MIP=0.000000  core=()                         core\u03a6=0.000  attractors=000 111  rest=000,111",
+        "triad_ppm      ++\u2212     \u03a6_MIP=6.000000  core=('p', 'o', 'q')            core\u03a6=6.000  attractors=000 001 010 {011,100} 101 110 111  rest=none",
+        "structural classes=2  balanced (product +) \u03a6_MIP=0.0  unbalanced (product \u2212) \u03a6_MIP=6.0",
+        "H1 (two classes by sign product, and the balanced class has the greater \u03a6): PARTIAL"
       ],
       "timeout": 180,
       "source": "org_frontier/thinkers/heider/FINDINGS.md"
@@ -216,7 +216,7 @@
       "name": "thinkers-heider-h2-tension",
       "cmd": "python -m org_frontier.thinkers.heider.probe_heider_tension",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "balanced: rest states in all=True, all attractors rest=True | unbalanced: no rest state in all=True, attractors = 12 frozen unsatisfied fixed points + 2 cycles",
         "H2 (balanced triads rest at satisfied states; unbalanced have none): CONFIRMED"
       ],
@@ -227,9 +227,9 @@
       "name": "thinkers-heider-h3-allnegative",
       "cmd": "python -m org_frontier.thinkers.heider.probe_heider_allnegative",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "same Φ_MIP=True  same core size=True  same attractor count=True (ppm 7, mmm 7)",
-        "H3 (−−− is structurally distinct from ++−): REFUTED"
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "same \u03a6_MIP=True  same core size=True  same attractor count=True (ppm 7, mmm 7)",
+        "H3 (\u2212\u2212\u2212 is structurally distinct from ++\u2212): REFUTED"
       ],
       "timeout": 180,
       "source": "org_frontier/thinkers/heider/FINDINGS.md"
@@ -238,8 +238,8 @@
       "name": "thinkers-heider-h4-coevolution",
       "cmd": "python -m org_frontier.thinkers.heider.probe_heider_coevolution",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "coevolving     Φ_MIP=0.000000  core=('p', 'o', 'Lpo') coreΦ=3.000  attitudes in core=['p', 'o'] relations in core=['Lpo']  attractors: 8 fixed, 12 cycles",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "coevolving     \u03a6_MIP=0.000000  core=('p', 'o', 'Lpo') core\u03a6=3.000  attitudes in core=['p', 'o'] relations in core=['Lpo']  attractors: 8 fixed, 12 cycles",
         "H4 (the core joins attitudes and relations): CONFIRMED"
       ],
       "timeout": 1200,
@@ -250,11 +250,11 @@
       "name": "thinkers-heider-h5-degree",
       "cmd": "python -m org_frontier.thinkers.heider.probe_heider_degree",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "++++++       b=7/7=1.000  size= 8  Φ_MIP=0.000000  core=('c', 'd')         attractors: 8 fixed, 0 cycles  rest=2",
-        "++−−++       b=3/7=0.429  size= 8  Φ_MIP=12.000000  core=('a', 'b', 'c', 'd') attractors: 14 fixed, 1 cycles  rest=0",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "++++++       b=7/7=1.000  size= 8  \u03a6_MIP=0.000000  core=('c', 'd')         attractors: 8 fixed, 0 cycles  rest=2",
+        "++\u2212\u2212++       b=3/7=0.429  size= 8  \u03a6_MIP=12.000000  core=('a', 'b', 'c', 'd') attractors: 14 fixed, 1 cycles  rest=0",
         "distinct b levels: 0.429 (n=7), 1.000 (n=1)",
-        "H5 (Φ rises with the degree of balance, balanced class at the maximum): REFUTED"
+        "H5 (\u03a6 rises with the degree of balance, balanced class at the maximum): REFUTED"
       ],
       "timeout": 300,
       "source": "org_frontier/thinkers/heider/FINDINGS.md"
@@ -263,10 +263,10 @@
       "name": "thinkers-latour-h1-intermediary",
       "cmd": "python -m org_frontier.thinkers.latour.probe_latour_intermediary",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "chain0               Φ_MIP=2.000000  core=('A', 'B')                 coreΦ=2.000  makes_difference=A,B",
-        "chain3               Φ_MIP=2.000000  core=('A', 'I1', 'I2', 'I3', 'B') coreΦ=2.000  makes_difference=A,I1,I2,I3,B",
-        "H1 (intermediaries leave Φ unchanged and stay out of the core): REFUTED"
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "chain0               \u03a6_MIP=2.000000  core=('A', 'B')                 core\u03a6=2.000  makes_difference=A,B",
+        "chain3               \u03a6_MIP=2.000000  core=('A', 'I1', 'I2', 'I3', 'B') core\u03a6=2.000  makes_difference=A,I1,I2,I3,B",
+        "H1 (intermediaries leave \u03a6 unchanged and stay out of the core): REFUTED"
       ],
       "timeout": 300,
       "source": "org_frontier/thinkers/latour/FINDINGS.md"
@@ -275,10 +275,10 @@
       "name": "thinkers-latour-h2-mediator",
       "cmd": "python -m org_frontier.thinkers.latour.probe_latour_mediator",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "intermediary         Φ_MIP=2.000000  core=('A', 'M', 'B')            coreΦ=2.000  makes_difference=A,M,B",
-        "mediator_joint       Φ_MIP=2.000000  core=('M', 'B')                 coreΦ=2.000  makes_difference=A,M,B",
-        "mediator_specific    Φ_MIP=2.000000  core=('A', 'M', 'B')            coreΦ=2.000  makes_difference=A,M,B",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "intermediary         \u03a6_MIP=2.000000  core=('A', 'M', 'B')            core\u03a6=2.000  makes_difference=A,M,B",
+        "mediator_joint       \u03a6_MIP=2.000000  core=('M', 'B')                 core\u03a6=2.000  makes_difference=A,M,B",
+        "mediator_specific    \u03a6_MIP=2.000000  core=('A', 'M', 'B')            core\u03a6=2.000  makes_difference=A,M,B",
         "H2 (mediators count, the intermediary does not): PARTIAL"
       ],
       "timeout": 180,
@@ -288,8 +288,8 @@
       "name": "thinkers-latour-h3-difference",
       "cmd": "python -m org_frontier.thinkers.latour.probe_latour_difference",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "source               Φ_MIP=0.000000  core=('M', 'A')                 coreΦ=2.000  makes_difference=S,M,A",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "source               \u03a6_MIP=0.000000  core=('M', 'A')                 core\u03a6=2.000  makes_difference=S,M,A",
         "make a difference but out of the core: source:S | in the core but make no difference: none",
         "H3 (a node is in the core iff it makes a difference to another): REFUTED"
       ],
@@ -300,10 +300,10 @@
       "name": "thinkers-latour-h4-gun",
       "cmd": "python -m org_frontier.thinkers.latour.probe_latour_gun",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "neutral_tool         Φ_MIP=2.000000  core=('C', 'G', 'X')            coreΦ=2.000  makes_difference=C,G,X",
-        "autonomous           Φ_MIP=0.000000  core=('G',)                     coreΦ=1.000  makes_difference=G,X",
-        "translation          Φ_MIP=2.000000  core=('C', 'G', 'X')            coreΦ=2.000  makes_difference=C,G,X",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "neutral_tool         \u03a6_MIP=2.000000  core=('C', 'G', 'X')            core\u03a6=2.000  makes_difference=C,G,X",
+        "autonomous           \u03a6_MIP=0.000000  core=('G',)                     core\u03a6=1.000  makes_difference=G,X",
+        "translation          \u03a6_MIP=2.000000  core=('C', 'G', 'X')            core\u03a6=2.000  makes_difference=C,G,X",
         "H4 (translation binds citizen, gun, and act; each myth drops the party it demotes): PARTIAL"
       ],
       "timeout": 180,
@@ -313,9 +313,9 @@
       "name": "thinkers-latour-h5-star",
       "cmd": "python -m org_frontier.thinkers.latour.probe_latour_star",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "star_mediators       Φ_MIP=5.000000  core=('A', 'M1', 'M2', 'M3')    coreΦ=5.000  makes_difference=A,M1,M2,M3",
-        "star_intermediaries  Φ_MIP=3.000000  core=('A', 'M1', 'M2', 'M3')    coreΦ=3.000  makes_difference=A,M1,M2,M3",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "star_mediators       \u03a6_MIP=5.000000  core=('A', 'M1', 'M2', 'M3')    core\u03a6=5.000  makes_difference=A,M1,M2,M3",
+        "star_intermediaries  \u03a6_MIP=3.000000  core=('A', 'M1', 'M2', 'M3')    core\u03a6=3.000  makes_difference=A,M1,M2,M3",
         "H5 (the mediator star is a whole of four and out-integrates the intermediary star): CONFIRMED"
       ],
       "timeout": 300,
@@ -325,10 +325,10 @@
       "name": "thinkers-burt-h1-closure",
       "cmd": "python -m org_frontier.thinkers.burt.probe_burt_closure",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "info_open      Φ_MIP=2.000000  core=('E', 'X', 'Y')          coreΦ=2.000  without_E=0.000  V(E)=2.000  C=0.500",
-        "info_closed    Φ_MIP=0.830075  core=('X', 'Y')               coreΦ=2.000  without_E=2.000  V(E)=0.000  C=1.125",
-        "control_closed Φ_MIP=6.000000  core=('E', 'X', 'Y')          coreΦ=6.000  without_E=2.000  V(E)=4.000  C=1.125",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "info_open      \u03a6_MIP=2.000000  core=('E', 'X', 'Y')          core\u03a6=2.000  without_E=0.000  V(E)=2.000  C=0.500",
+        "info_closed    \u03a6_MIP=0.830075  core=('X', 'Y')               core\u03a6=2.000  without_E=2.000  V(E)=0.000  C=1.125",
+        "control_closed \u03a6_MIP=6.000000  core=('E', 'X', 'Y')          core\u03a6=6.000  without_E=2.000  V(E)=4.000  C=1.125",
         "V by node: E=4.000 X=4.000 Y=4.000   positional advantage of E = 0.000",
         "H1 (closure removes both the information and the control broker): PARTIAL"
       ],
@@ -339,9 +339,9 @@
       "name": "thinkers-burt-h2-equivalence",
       "cmd": "python -m org_frontier.thinkers.burt.probe_burt_equivalence",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "equivalent     Φ_MIP=1.000000  core=('E', 'Y', 'Z')          coreΦ=2.000  without_E=0.000  V(E)=2.000  C=0.840",
-        "nonredundant   Φ_MIP=2.000000  core=('E', 'Y', 'Z2')         coreΦ=2.000  without_E=0.000  V(E)=2.000  C=0.562",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "equivalent     \u03a6_MIP=1.000000  core=('E', 'Y', 'Z')          core\u03a6=2.000  without_E=0.000  V(E)=2.000  C=0.840",
+        "nonredundant   \u03a6_MIP=2.000000  core=('E', 'Y', 'Z2')         core\u03a6=2.000  without_E=0.000  V(E)=2.000  C=0.562",
         "H2 (structurally equivalent contacts count as one; nonredundant contacts as two): REFUTED"
       ],
       "timeout": 300,
@@ -351,7 +351,7 @@
       "name": "thinkers-burt-h3-constraint",
       "cmd": "python -m org_frontier.thinkers.burt.probe_burt_constraint",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "C_E: 0.333, 0.611, 0.840, 0.926   V(E): 3.000, 0.000, 0.000, 0.000   strictly decreasing=False  non-increasing=True",
         "H3 (value added falls strictly with constraint): PARTIAL"
       ],
@@ -362,8 +362,8 @@
       "name": "thinkers-burt-h4-rival",
       "cmd": "python -m org_frontier.thinkers.burt.probe_burt_rival",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "rival          Φ_MIP=0.000000  core=('R', 'Y')               coreΦ=0.189  without_E=2.000  V(E)=-1.811  C=0.500",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "rival          \u03a6_MIP=0.000000  core=('R', 'Y')               core\u03a6=0.189  without_E=2.000  V(E)=-1.811  C=0.500",
         "H4 (a rival spanning the same hole erodes the broker's autonomy): CONFIRMED"
       ],
       "timeout": 300,
@@ -373,7 +373,7 @@
       "name": "thinkers-burt-h5-complement",
       "cmd": "python -m org_frontier.thinkers.burt.probe_burt_complement",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "V(E): open=3.000  within=0.000  across=0.000  everywhere=0.000",
         "H5 (closure within the group and a hole beyond it maximizes the broker's value added): REFUTED"
       ],
@@ -384,10 +384,10 @@
       "name": "thinkers-granovetter-h1-strength",
       "cmd": "python -m org_frontier.thinkers.granovetter.probe_granovetter_strength",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via ties (A–M, M–B strong): Φ=2.000000 PASS",
-        "Φ over p: 0.252, 0.658, 1.236, 2.000  strictly increasing=True",
-        "H1 (Φ of a dyad rises strictly with tie strength): CONFIRMED"
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via ties (A\u2013M, M\u2013B strong): \u03a6=2.000000 PASS",
+        "\u03a6 over p: 0.252, 0.658, 1.236, 2.000  strictly increasing=True",
+        "H1 (\u03a6 of a dyad rises strictly with tie strength): CONFIRMED"
       ],
       "timeout": 180,
       "source": "org_frontier/thinkers/granovetter/FINDINGS.md"
@@ -396,9 +396,9 @@
       "name": "thinkers-granovetter-h2-triad",
       "cmd": "python -m org_frontier.thinkers.granovetter.probe_granovetter_triad",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via ties (A–M, M–B strong): Φ=2.000000 PASS",
-        "Φ open=2.000 weak=2.830 strong=6.000  ordered=True  all three in every core=True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via ties (A\u2013M, M\u2013B strong): \u03a6=2.000000 PASS",
+        "\u03a6 open=2.000 weak=2.830 strong=6.000  ordered=True  all three in every core=True",
         "H2 (closure of any strength raises the triad's integration, weak below strong): CONFIRMED"
       ],
       "timeout": 180,
@@ -408,8 +408,8 @@
       "name": "thinkers-granovetter-h3-bridge",
       "cmd": "python -m org_frontier.thinkers.granovetter.probe_granovetter_bridge",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via ties (A–M, M–B strong): Φ=2.000000 PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via ties (A\u2013M, M\u2013B strong): \u03a6=2.000000 PASS",
         "transmission equal at 12=True  core spans both dyads: weak=False strong=False",
         "H3 (a weak bridge joins the two dyads as a strong one does): REFUTED"
       ],
@@ -420,9 +420,9 @@
       "name": "thinkers-granovetter-h4-damage",
       "cmd": "python -m org_frontier.thinkers.granovetter.probe_granovetter_damage",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via ties (A–M, M–B strong): Φ=2.000000 PASS",
-        "damage — cut bridge: reach −8, coreΦ −0.000 | cut strong: reach −6, coreΦ −0.000",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via ties (A\u2013M, M\u2013B strong): \u03a6=2.000000 PASS",
+        "damage \u2014 cut bridge: reach \u22128, core\u03a6 \u22120.000 | cut strong: reach \u22126, core\u03a6 \u22120.000",
         "H4 (the weak bridge's removal does more damage than a strong tie's, on transmission and integration): PARTIAL"
       ],
       "timeout": 300,
@@ -432,8 +432,8 @@
       "name": "thinkers-granovetter-h5-community",
       "cmd": "python -m org_frontier.thinkers.granovetter.probe_granovetter_community",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via ties (A–M, M–B strong): Φ=2.000000 PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via ties (A\u2013M, M\u2013B strong): \u03a6=2.000000 PASS",
         "core spans all three dyads: chain=False ring=True strong_ring=True",
         "H5 (weak ties between cliques make the community one whole): PARTIAL"
       ],
@@ -444,9 +444,9 @@
       "name": "thinkers-bowen-h1-stable",
       "cmd": "python -m org_frontier.thinkers.bowen.probe_bowen_stable",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via noise path (ε=0): Φ=2.000000 PASS",
-        "triangle retains more than dyad at ε>0: nnnn   triangle core stays {A,B,C}: nnnn",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via noise path (\u03b5=0): \u03a6=2.000000 PASS",
+        "triangle retains more than dyad at \u03b5>0: nnnn   triangle core stays {A,B,C}: nnnn",
         "H1 (the triangle retains more of its integration under anxiety than the dyad): REFUTED"
       ],
       "timeout": 300,
@@ -456,8 +456,8 @@
       "name": "thinkers-bowen-h2-twosome",
       "cmd": "python -m org_frontier.thinkers.bowen.probe_bowen_twosome",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via noise path (ε=0): Φ=2.000000 PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via noise path (\u03b5=0): \u03a6=2.000000 PASS",
         "calm core is the twosome=True   triangled core is the triad=False",
         "H2 (calm: twosome with the outsider out; tension: the third is in): REFUTED"
       ],
@@ -468,10 +468,10 @@
       "name": "thinkers-bowen-h3-outside",
       "cmd": "python -m org_frontier.thinkers.bowen.probe_bowen_outside",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via noise path (ε=0): Φ=2.000000 PASS",
-        "ε=0.10 loss: A=0.237 B=0.237 C=0.100  least=C  C strictly least=True",
-        "ε=0.20 loss: A=0.458 B=0.458 C=0.200  least=C  C strictly least=True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via noise path (\u03b5=0): \u03a6=2.000000 PASS",
+        "\u03b5=0.10 loss: A=0.237 B=0.237 C=0.100  least=C  C strictly least=True",
+        "\u03b5=0.20 loss: A=0.458 B=0.458 C=0.200  least=C  C strictly least=True",
         "H3 (anxiety at the outsider costs the whole the least): CONFIRMED"
       ],
       "timeout": 300,
@@ -481,9 +481,9 @@
       "name": "thinkers-bowen-h4-interlock",
       "cmd": "python -m org_frontier.thinkers.bowen.probe_bowen_interlock",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via noise path (ε=0): Φ=2.000000 PASS",
-        "interlocked core at ε=0: ('A', 'B', 'C', 'D') (three parties=False)   four retains more than three at ε>0: nnnn",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via noise path (\u03b5=0): \u03a6=2.000000 PASS",
+        "interlocked core at \u03b5=0: ('A', 'B', 'C', 'D') (three parties=False)   four retains more than three at \u03b5>0: nnnn",
         "H4 (the four resolve into a triangle, and spreading the tension stabilizes): REFUTED"
       ],
       "timeout": 600,
@@ -493,8 +493,8 @@
       "name": "thinkers-bowen-h5-detriangle",
       "cmd": "python -m org_frontier.thinkers.bowen.probe_bowen_detriangle",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via noise path (ε=0): Φ=2.000000 PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via noise path (\u03b5=0): \u03a6=2.000000 PASS",
         "neutral out & reactive in=True",
         "H5 (the neutral third is out of the unit and its presence steadies the twosome): PARTIAL"
       ],
@@ -505,8 +505,8 @@
       "name": "thinkers-hegel-h1-middle",
       "cmd": "python -m org_frontier.thinkers.hegel.probe_hegel_middle",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "M in core=True  M necessary=False  Φ(syllogism)=2.000 vs Φ(judgment)=2.000  syllogism more=False",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "M in core=True  M necessary=False  \u03a6(syllogism)=2.000 vs \u03a6(judgment)=2.000  syllogism more=False",
         "H1 (the middle is necessary, and the syllogism outbinds the judgment): REFUTED"
       ],
       "timeout": 180,
@@ -516,7 +516,7 @@
       "name": "thinkers-hegel-h2-external",
       "cmd": "python -m org_frontier.thinkers.hegel.probe_hegel_external",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "H2 (the relaying middle connects the terms and unites none of them): CONFIRMED"
       ],
       "timeout": 180,
@@ -526,7 +526,7 @@
       "name": "thinkers-hegel-h3-return",
       "cmd": "python -m org_frontier.thinkers.hegel.probe_hegel_return",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "half_return core is {A,M}=True   syllogism core is {A,M,B}=True",
         "H3 (an extreme is united only if it returns to itself through the middle): CONFIRMED"
       ],
@@ -537,10 +537,10 @@
       "name": "thinkers-hegel-h4-system",
       "cmd": "python -m org_frontier.thinkers.hegel.probe_hegel_system",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "shares in syllogism: A=0.000  M=1.000  B=0.000",
         "shares in system: A=4.000  B=4.000  C=4.000",
-        "Φ(system)=6.000 vs 3×Φ(syllogism)=6.000 (equal=True)",
+        "\u03a6(system)=6.000 vs 3\u00d7\u03a6(syllogism)=6.000 (equal=True)",
         "H4 (the fixed middle bears the whole; in the system every term bears an equal share): PARTIAL"
       ],
       "timeout": 300,
@@ -550,8 +550,8 @@
       "name": "thinkers-hegel-h5-rotating",
       "cmd": "python -m org_frontier.thinkers.hegel.probe_hegel_rotating",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "rotating core is {A,B,C}=True   Φ rotating=0.000  system=6.000  syllogism=2.000  rotating=system:False",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "rotating core is {A,B,C}=True   \u03a6 rotating=0.000  system=6.000  syllogism=2.000  rotating=system:False",
         "H5 (the alternation of middles is the totality): PARTIAL"
       ],
       "timeout": 300,
@@ -561,7 +561,7 @@
       "name": "thinkers-girard-h1-triangle",
       "cmd": "python -m org_frontier.thinkers.girard.probe_girard_triangle",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "S and O in one complex (internal)=False   S and O apart once M is deleted=True",
         "H1 (subject and object are one only through the mediator): REFUTED"
       ],
@@ -572,7 +572,7 @@
       "name": "thinkers-girard-h2-mediation",
       "cmd": "python -m org_frontier.thinkers.girard.probe_girard_mediation",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "external: M outside and S,O not one=False   internal: core is {S,M,O}=False",
         "H2 (the distant mediator touches nothing; the near one makes the three one): REFUTED"
       ],
@@ -583,8 +583,8 @@
       "name": "thinkers-girard-h3-object",
       "cmd": "python -m org_frontier.thinkers.girard.probe_girard_object",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "double core is {S,M}=True   Φ(double core)=2.000 = Φ(dyad)=2.000: True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "double core is {S,M}=True   \u03a6(double core)=2.000 = \u03a6(dyad)=2.000: True",
         "H3 (the object is outside the structure and adds nothing to it): CONFIRMED"
       ],
       "timeout": 180,
@@ -594,9 +594,9 @@
       "name": "thinkers-girard-h4-distance",
       "cmd": "python -m org_frontier.thinkers.girard.probe_girard_distance",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via stochastic path: Φ=2.000000 PASS",
-        "core Φ over p>0: 0.000, 1.000, 1.500, 2.000  strictly rising=True   O in core at any p>0: False",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via stochastic path: \u03a6=2.000000 PASS",
+        "core \u03a6 over p>0: 0.000, 1.000, 1.500, 2.000  strictly rising=True   O in core at any p>0: False",
         "H4 (the nearer the mediator, the tighter the pair; the object never enters): CONFIRMED"
       ],
       "timeout": 300,
@@ -606,7 +606,7 @@
       "name": "thinkers-girard-h5-doubles",
       "cmd": "python -m org_frontier.thinkers.girard.probe_girard_doubles",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "shares in double: S=2.000  M=2.000  O=0.000",
         "shares in internal: S=0.000  M=2.000  O=0.000",
         "H5 (in double mediation the rivals are interchangeable; in single mediation they are not): CONFIRMED"
@@ -618,8 +618,8 @@
       "name": "thinkers-serres-h1-arrow",
       "cmd": "python -m org_frontier.thinkers.serres.probe_serres_arrow",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "arrow is a complex of host and parasite=False   exchange Φ=2.000",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "arrow is a complex of host and parasite=False   exchange \u03a6=2.000",
         "H1 (the one-way arrow is a relation): REFUTED"
       ],
       "timeout": 180,
@@ -629,7 +629,7 @@
       "name": "thinkers-serres-h2-theorem",
       "cmd": "python -m org_frontier.thinkers.serres.probe_serres_theorem",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "chain has no complex=True   noise in the new complex=True   F and T outside it=True",
         "H2 (noise gives rise to a new system): CONFIRMED"
       ],
@@ -640,9 +640,9 @@
       "name": "thinkers-serres-h3-third",
       "cmd": "python -m org_frontier.thinkers.serres.probe_serres_third",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "control via stochastic path: Φ=2.000000 PASS",
-        "exogenous: core {A,B} with Φ<2 → False (Φ=0.000)   endogenous: N in core → False (core=('A', 'B'))",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "control via stochastic path: \u03a6=2.000000 PASS",
+        "exogenous: core {A,B} with \u03a6<2 \u2192 False (\u03a6=0.000)   endogenous: N in core \u2192 False (core=('A', 'B'))",
         "H3 (noise from outside is excluded and felt; the system's own noise is included): REFUTED"
       ],
       "timeout": 300,
@@ -652,7 +652,7 @@
       "name": "thinkers-serres-h4-cascade",
       "cmd": "python -m org_frontier.thinkers.serres.probe_serres_cascade",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "shares in cascade: F=2.000  T=2.000  R=2.000  N=0.000",
         "H4 (the last to come wins the game): REFUTED"
       ],
@@ -663,8 +663,8 @@
       "name": "thinkers-serres-h5-quasiobject",
       "cmd": "python -m org_frontier.thinkers.serres.probe_serres_quasiobject",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "passing: all three one complex=True (Φ=2.000)   stopped: no complex=True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "passing: all three one complex=True (\u03a6=2.000)   stopped: no complex=True",
         "H5 (the moving token weaves the we; stopped, it marks the I): CONFIRMED"
       ],
       "timeout": 180,
@@ -674,8 +674,8 @@
       "name": "thinkers-davis-h1-theorem",
       "cmd": "python -m org_frontier.thinkers.davis.probe_davis_theorem",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "clusterable triangles rest at k≥3, ppm never, mmm not at k=2: True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "clusterable triangles rest at k\u22653, ppm never, mmm not at k=2: True",
         "H1 (no cycle with exactly one negative line): CONFIRMED"
       ],
       "timeout": 300,
@@ -686,7 +686,7 @@
       "slow": true,
       "cmd": "python -m org_frontier.thinkers.davis.probe_davis_classes",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "ppm all three in core=True   clusterable patterns fewer than three: ppp=True pmm=True mmm=True",
         "H2 (the classes follow clusterability): CONFIRMED"
       ],
@@ -698,8 +698,8 @@
       "slow": true,
       "cmd": "python -m org_frontier.thinkers.davis.probe_davis_alphabet",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "mmm core persons over k=2,3,4: [3, 2, 2] → True   ppm: [3, 2, 3] → False",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "mmm core persons over k=2,3,4: [3, 2, 2] \u2192 True   ppm: [3, 2, 3] \u2192 False",
         "H3 (the all-negative verdict is the two-camp verdict): PARTIAL"
       ],
       "timeout": 3600,
@@ -709,8 +709,8 @@
       "name": "thinkers-davis-h4-census",
       "cmd": "python -m org_frontier.thinkers.davis.probe_davis_census",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "64 patterns: 15 clusterable (8 balanced); rest⇔clusterable=True  triangle=cycle test=True  unique partition=True  clusterable with every attractor at rest: 4/15",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "64 patterns: 15 clusterable (8 balanced); rest\u21d4clusterable=True  triangle=cycle test=True  unique partition=True  clusterable with every attractor at rest: 4/15",
         "H4 (Theorem 1 on K4; triangles decide; clustering unique): CONFIRMED"
       ],
       "timeout": 300,
@@ -720,8 +720,8 @@
       "name": "thinkers-davis-h5-path",
       "cmd": "python -m org_frontier.thinkers.davis.probe_davis_path",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "partitions at rest=2 (≥2: True)   core persons=oq (<3: True)",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "partitions at rest=2 (\u22652: True)   core persons=oq (<3: True)",
         "H5 (the incomplete clusterable graph has several clusterings and dissolves): CONFIRMED"
       ],
       "timeout": 900,
@@ -731,7 +731,7 @@
       "name": "thinkers-coleman-h1-norm",
       "cmd": "python -m org_frontier.thinkers.coleman.probe_coleman_norm",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "compliance fixed: open=False closed=True   B and C one complex under closure=True",
         "H1 (closure lets the sanctioners combine and the norm hold): CONFIRMED"
       ],
@@ -742,9 +742,9 @@
       "name": "thinkers-coleman-h2-broker",
       "cmd": "python -m org_frontier.thinkers.coleman.probe_coleman_broker",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "info     coreΦ open→closed 2.000→2.000 (≥: True)   advantage of E 2.000→0.000 (<: True)",
-        "control  coreΦ open→closed 2.000→6.000 (≥: True)   advantage of E 2.000→0.000 (<: True)",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "info     core\u03a6 open\u2192closed 2.000\u21922.000 (\u2265: True)   advantage of E 2.000\u21920.000 (<: True)",
+        "control  core\u03a6 open\u2192closed 2.000\u21926.000 (\u2265: True)   advantage of E 2.000\u21920.000 (<: True)",
         "H2 (closure raises the whole and lowers the broker): CONFIRMED"
       ],
       "timeout": 300,
@@ -754,7 +754,7 @@
       "name": "thinkers-coleman-h3-parents",
       "cmd": "python -m org_frontier.thinkers.coleman.probe_coleman_parents",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "closed core is all four=False   open core smaller=True   basin larger under closure=False",
         "H3 (intergenerational closure makes the community one and the norm wider): REFUTED"
       ],
@@ -765,7 +765,7 @@
       "name": "thinkers-coleman-h4-credit",
       "cmd": "python -m org_frontier.thinkers.coleman.probe_coleman_credit",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "ring: complex of four with equal positive V=True   dyads: no complex above two=True",
         "H4 (the association is one unit and every member is necessary to it): CONFIRMED"
       ],
@@ -776,8 +776,8 @@
       "name": "thinkers-coleman-h5-public",
       "cmd": "python -m org_frontier.thinkers.coleman.probe_coleman_public",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "core Φ gain from closure=-1.631   ΔV(B)=-1.631   B's captured fraction=1.000",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "core \u03a6 gain from closure=-1.631   \u0394V(B)=-1.631   B's captured fraction=1.000",
         "H5 (the closer captures less than the whole gains): REFUTED"
       ],
       "timeout": 180,
@@ -787,7 +787,7 @@
       "name": "thinkers-ostrom-h1-monitors",
       "cmd": "python -m org_frontier.thinkers.ostrom.probe_ostrom_monitors",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "every appropriator's compliance in the core=True   Coleman's A outside=True",
         "H1 (the monitored are in the structure when they are also the monitors): CONFIRMED"
       ],
@@ -799,8 +799,8 @@
       "name": "thinkers-ostrom-h2-solutions",
       "cmd": "python -m org_frontier.thinkers.ostrom.probe_ostrom_solutions",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "self core all three=True   Φ self>leviathan=True (6.000 vs 3.000)   L advantage=0.000 (>0: False)   private binds nothing=False",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "self core all three=True   \u03a6 self>leviathan=True (6.000 vs 3.000)   L advantage=0.000 (>0: False)   private binds nothing=False",
         "H2 (self-governance is the tighter whole; the enforcer holds the edge; division binds nothing): PARTIAL"
       ],
       "timeout": 300,
@@ -810,7 +810,7 @@
       "name": "thinkers-ostrom-h3-nested",
       "cmd": "python -m org_frontier.thinkers.ostrom.probe_ostrom_nested",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "nest is one complex of seven=False   local triads irreducible inside=False   unnested = two triads=True",
         "H3 (nested layers are one whole and each layer stays a whole): REFUTED"
       ],
@@ -822,7 +822,7 @@
       "name": "thinkers-ostrom-h4-compliance",
       "cmd": "python -m org_frontier.thinkers.ostrom.probe_ostrom_compliance",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "mutual fixed points: 111000",
         "coleman_closed fixed points: 111 (sanction standing: True)",
         "H4 (compliance rests with the sanction retired, and a lapse is corrected): CONFIRMED"
@@ -834,7 +834,7 @@
       "name": "thinkers-ostrom-h5-boundary",
       "cmd": "python -m org_frontier.thinkers.ostrom.probe_ostrom_boundary",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "bounded leaves the enterprise unchanged=True   breach changes it=False",
         "H5 (a defined boundary keeps the outsider out; a breach changes the whole): PARTIAL"
       ],
@@ -845,7 +845,7 @@
       "name": "thinkers-blau-h1-contingent",
       "cmd": "python -m org_frontier.thinkers.blau.probe_blau_contingent",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "contingent binds both=True   independent leaves B unbound=True",
         "H1 (power is a relation when the service is contingent on compliance): CONFIRMED"
       ],
@@ -856,7 +856,7 @@
       "name": "thinkers-blau-h2-alternatives",
       "cmd": "python -m org_frontier.thinkers.blau.probe_blau_alternatives",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "supplier's advantage 0.000 -> -2.000 (falls: True)   value added 2.000 -> 0.000 (falls: True)",
         "H2 (an alternative supplier removes the superior's power): CONFIRMED"
       ],
@@ -867,7 +867,7 @@
       "name": "thinkers-blau-h3-organized",
       "cmd": "python -m org_frontier.thinkers.blau.probe_blau_organized",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "S's advantage 2.000 -> 0.000 (falls: True)   subordinates' V [0.0, 0.0] -> [2.0, 2.0] (rise: True)",
         "H3 (organizing the dependent shifts power toward them): CONFIRMED"
       ],
@@ -878,7 +878,7 @@
       "name": "thinkers-blau-h4-authority",
       "cmd": "python -m org_frontier.thinkers.blau.probe_blau_authority",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "authority holds without service=True   power lapses=True   subordinates one complex under authority=True",
         "H4 (legitimate authority is carried by the subordinates): CONFIRMED"
       ],
@@ -889,8 +889,8 @@
       "name": "thinkers-blau-h5-opposition",
       "cmd": "python -m org_frontier.thinkers.blau.probe_blau_opposition",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "mirror (same core size and Φ)=False   shared opposition rests, isolated does not=True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "mirror (same core size and \u03a6)=False   shared opposition rests, isolated does not=True",
         "H5 (opposition mirrors legitimation; only shared opposition brings the superior to rest): PARTIAL"
       ],
       "timeout": 180,
@@ -900,8 +900,8 @@
       "name": "thinkers-emerson-h1-network",
       "cmd": "python -m org_frontier.thinkers.emerson.probe_emerson_network",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
-        "A's advantage positive=True   V(A) = core Φ=True   dependents add nothing=True",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
+        "A's advantage positive=True   V(A) = core \u03a6=True   dependents add nothing=True",
         "H1 (power resides in the other's dependence): CONFIRMED"
       ],
       "timeout": 180,
@@ -911,7 +911,7 @@
       "name": "thinkers-emerson-h2-withdrawal",
       "cmd": "python -m org_frontier.thinkers.emerson.probe_emerson_withdrawal",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "B leaves the complex=True   A's advantage zero=True",
         "H2 (withdrawal balances): CONFIRMED"
       ],
@@ -922,7 +922,7 @@
       "name": "thinkers-emerson-h3-extension",
       "cmd": "python -m org_frontier.thinkers.emerson.probe_emerson_extension",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "A's advantage zero=True   A in core=True   core is all three=True   equal V=True",
         "H3 (extension balances and keeps three actors): CONFIRMED"
       ],
@@ -933,9 +933,9 @@
       "name": "thinkers-emerson-h4-status",
       "cmd": "python -m org_frontier.thinkers.emerson.probe_emerson_status",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "V(A) = V(B)=True   A and B in core=True   C adds nothing=True",
-        "H4 (status-giving balances the A–B relation only): CONFIRMED"
+        "H4 (status-giving balances the A\u2013B relation only): CONFIRMED"
       ],
       "timeout": 180,
       "source": "org_frontier/thinkers/emerson/FINDINGS.md"
@@ -944,7 +944,7 @@
       "name": "thinkers-emerson-h5-coalition",
       "cmd": "python -m org_frontier.thinkers.emerson.probe_emerson_coalition",
       "expect": [
-        "control conjunctive triad: Φ=2.000000 core=('A', 'M', 'B') PASS",
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') PASS",
         "both balance=True   extension lowers V(A) (2.000 -> 4.000)=False   coalition raises V(B), V(C) (0.000 -> 6.000)=True",
         "H5 (extension reduces the strong; coalition raises the weak): PARTIAL"
       ],
@@ -4573,6 +4573,424 @@
       "source": "org_frontier/studies/interior_ring_pool/FINDINGS.md"
     },
     {
+      "name": "local-triad-necklace",
+      "cmd": "python org_frontier/studies/local_triad_necklace/analyze_necklace.py",
+      "expect": [
+        "H1 (controls + landmarks + shared-S \u03a6=4):  SUPPORTED",
+        "H2 (AND necklace = landmark, not new law): SUPPORTED",
+        "H3 (OR/directed necklaces collapse):       SUPPORTED",
+        "H4 (no new compose law on panel):          SUPPORTED",
+        "neck_AND core\u03a6=4.000 full=True",
+        "verdict: COMPOSE_LANDMARK_OR_COLLAPSE",
+        "reading: COMPOSE_LANDMARK_OR_COLLAPSE \u2014 closed AND necklace recovers ring landmark \u03a6=4; OR/directed variants collapse; no new compose law"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/local_triad_necklace/FINDINGS.md"
+    },
+    {
+      "name": "ring-of-hubs",
+      "cmd": "python org_frontier/studies/ring_of_hubs/analyze_ring_of_hubs.py",
+      "expect": [
+        "H1 (controls + landmarks):                 SUPPORTED",
+        "H2 (no combine on roh panel):              SUPPORTED",
+        "H3 (each roh cell landmark or collapse):   REFUTED",
+        "H4 (no combine; all cells classified):     SUPPORTED",
+        "verdict: FACTORS_NO_COMBINE",
+        "reading: FACTORS_NO_COMBINE \u2014 ring-of-hubs with private leaves does not combine ring-cap with hub-growth; cells factor (incomplete hub cores, often \u03a6=6 on hubs alone) or collapse \u2014 not a hybrid law (extends V2 #17 PICK_ONE / V3 #4 COMPOSE_LANDMARK_OR_COLLAPSE)"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/ring_of_hubs/FINDINGS.md"
+    },
+    {
+      "name": "shared-mediator-k",
+      "cmd": "python org_frontier/studies/shared_mediator_k/analyze_shared_k.py",
+      "expect": [
+        "H1 (triad + k=2 AND merge \u03a6=4 + k=2 OR refuse): SUPPORTED",
+        "H2 (k=3 OR refuses full merge):              SUPPORTED",
+        "H3 (AND merge \u03a6 scaling named):             SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "scale=scale_2k",
+        "verdict: SCALE_2K_OR_REFUSES",
+        "reading: SCALE_2K_OR_REFUSES \u2014 shared-mediator AND merge \u03a6 = 2k for k=1,2,3 (2,4,6); OR refuses full merge at k=2 and k=3 (lift of V2 #16 WIN)"
+      ],
+      "timeout": 1200,
+      "source": "org_frontier/studies/shared_mediator_k/FINDINGS.md"
+    },
+    {
+      "name": "hybrid-ff-recurrent-seam",
+      "cmd": "python org_frontier/studies/hybrid_ff_recurrent_seam/analyze_hybrid_seam.py",
+      "expect": [
+        "H1 (triad \u03a6=2 + hub_L2 top-local):           SUPPORTED",
+        "H2 (hybrid AND locus named):               SUPPORTED",
+        "H3 (OR seam locus reported):               SUPPORTED",
+        "H4 (panel closed):                         SUPPORTED",
+        "and_panel=AND_HOLDS",
+        "verdict: CLOSURE_HOLDS_HYBRID",
+        "reading: CLOSURE_HOLDS_HYBRID \u2014 hybrid FF+recurrent AND seams keep the major complex inside the recurrent zone (FF tail excluded); V2 #15 closure-decides-locus survives the hybrid"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/hybrid_ff_recurrent_seam/FINDINGS.md"
+    },
+    {
+      "name": "dual-mediator-template-census",
+      "cmd": "python org_frontier/studies/dual_mediator_template_census/analyze_dual_mediator.py",
+      "expect": [
+        "H1 (AND \u03a6=2 + XOR \u03a6=0.5 anchors):           SUPPORTED",
+        "H2 (no sixth among closed triadic cores):  SUPPORTED",
+        "H3 (size-4 cores are known-phi products):   SUPPORTED",
+        "H4 (panel closed):                         SUPPORTED",
+        "verdict: FACTORS_INTO_FIVE",
+        "reading: FACTORS_INTO_FIVE \u2014 n=4 dual-mediator series / parallel / mediator-of-mediators yield no sixth template; closed triadic cores match the five n=3 templates; size-4 cores sit on known landmark \u03a6 (0.5 / 2 / 4=2+2 product)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/dual_mediator_template_census/FINDINGS.md"
+    },
+    {
+      "name": "threshold-majority-template",
+      "cmd": "python org_frontier/studies/threshold_majority_template/analyze_threshold_majority.py",
+      "expect": [
+        "H1 (anchors + plain-hub redundancy pattern): SUPPORTED",
+        "H2 (AND carriers restore/bind full core):    SUPPORTED",
+        "H3 (majority on restored carriers factors):  SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: COLLAPSES_TO_REDUNDANCY",
+        "reading: COLLAPSES_TO_REDUNDANCY \u2014 threshold/majority at n\u22654 is not a new template; intermediate k always factors once pivotality is lost, including on shared-mediator and recurrent carriers that restore triadicity under AND (#10/#67/#117 pattern holds)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/threshold_majority_template/FINDINGS.md"
+    },
+    {
+      "name": "mixed-algebra-seats",
+      "cmd": "python org_frontier/studies/mixed_algebra_seats/analyze_mixed_seats.py",
+      "expect": [
+        "H1 (AND \u03a6=2 + XOR \u03a6=0.5 anchors):           SUPPORTED",
+        "H2 (pure shared AND \u03a6=4 + XOR band):        SUPPORTED",
+        "H3 (mixed: no conjunctive whole landmark):   SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: BLINDSPOT_DOMINATES",
+        "reading: BLINDSPOT_DOMINATES \u2014 mixed conjunctive+parity seats on one mediator never restore a conjunctive whole-form \u03a6; the form stays in the parity blind-spot band or factors (V2 #4 pattern dominates; no hybrid)"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/mixed_algebra_seats/FINDINGS.md"
+    },
+    {
+      "name": "omit-cycle-morph-n7",
+      "cmd": "python org_frontier/studies/omit_cycle_morph_n7/analyze_morph_n7.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (class purity at n=7):                    SUPPORTED",
+        "H2 (discrete cycle-type bands):              SUPPORTED",
+        "H3 (not n=5-style singleton):                SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: BAND_GRAMMAR_HOLDS",
+        "reading: BAND_GRAMMAR_HOLDS \u2014 at n=7 the omit cycle-type discriminant keeps class-pure discrete \u03a6 bands (no singleton return, no continuum, no purity break); n=5\u2192n=6 singleton\u2192band shift stabilizes (V2 #42)",
+        "band_law: \u03a6=12\u2190[((2,), 1), ((2, 2), 2), ((2, 2, 2), 3), ((2, 4), 1), ((4,), 0), ((6,), 0)]; \u03a6=14\u2190[((2, 3), 1), ((3,), 0), ((3, 3), 0), ((5,), 0)]"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/omit_cycle_morph_n7/FINDINGS.md"
+    },
+    {
+      "name": "interior-atoms-n78",
+      "cmd": "python org_frontier/studies/interior_atoms_n78/analyze_atoms_n78.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (anchors ring7=4 / pool7=42):             SUPPORTED",
+        "H2 (full-core interiors exist):              SUPPORTED",
+        "H3 (new interior atoms sprout):              SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: SPROUTS_NEW_ATOMS",
+        "reading: SPROUTS_NEW_ATOMS \u2014 designed ring\u2013pool interiors at n=7 yield new full-core \u03a6 atoms [10.0] outside L\u22646 interiors {6,8,9,12}; prior atoms recalled=[6.0, 12.0]",
+        "atom_law: L_prior={6,8,9,12}; new=[10.0]; prior_hits=[6.0, 12.0]; n_interior=4"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/interior_atoms_n78/FINDINGS.md"
+    },
+    {
+      "name": "parity-law-n-gt6",
+      "cmd": "python org_frontier/studies/parity_law_n_gt6/analyze_parity_n_gt6.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (controls n=3..5 reproduce law):          SUPPORTED",
+        "H2 (exact law at n>6):                       SUPPORTED",
+        "H3 (H-cut MIP matches exact; no residual):   SUPPORTED",
+        "H4 (panel closed):                           SUPPORTED",
+        "verdict: LAW_HOLDS_NGT6",
+        "reading: LAW_HOLDS_NGT6 \u2014 parity hub \u03a6 = 2^(2\u2212n) remains exact at n\u2208{6,7} with full cores; named H-cut is the MIP and matches exact \u03a6 (no topology residual when the cut formula stands in for enumeration)",
+        "law_grid: n=3 \u03a6=0.5 law=0.5 hold=True; n=4 \u03a6=0.25 law=0.25 hold=True; n=5 \u03a6=0.125 law=0.125 hold=True; n=6 \u03a6=0.0625 law=0.0625 hold=True; n=7 \u03a6=0.03125 law=0.03125 hold=True"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/parity_law_n_gt6/FINDINGS.md"
+    },
+    {
+      "name": "graded-topo-carriers",
+      "cmd": "python org_frontier/studies/graded_topo_carriers/analyze_graded_topo.py",
+      "expect": [
+        "  faithful triad: TRIADIC \u03a6=2.000000  PASS",
+        "H1 (sharp classes on all carriers):              SUPPORTED",
+        "H2 (\u03a6 grades with L on all carriers):            SUPPORTED",
+        "H3 (path = NULL\u2192DYADIC\u2192TRIADIC on all carriers): SUPPORTED",
+        "H4 (panel closed):                               SUPPORTED",
+        "verdict: SHARP_HOLDS_ACROSS_TOPO",
+        "reading: SHARP_HOLDS_ACROSS_TOPO \u2014 graded min-commit keeps discrete NULL/DYADIC/TRIADIC labels while \u03a6 grades on hub, ring (n=3,4), and necklace; no topology-forced class flip relative to V2 #2",
+        "path_grid: hub3=NULL\u2192DYADIC\u2192TRIADIC; ring3=NULL\u2192DYADIC\u2192TRIADIC; ring4=NULL\u2192DYADIC\u2192TRIADIC; necklace6=NULL\u2192DYADIC\u2192TRIADIC"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/graded_topo_carriers/FINDINGS.md"
+    },
+    {
+      "name": "noise-composed-carriers",
+      "cmd": "python org_frontier/studies/noise_composed_carriers/analyze_noise_composed.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (hub3 control p*=0.5 both seats):     SUPPORTED",
+        "H2 (composed seats share p*):            SUPPORTED",
+        "H3 (composed p* stays 0.5):              SUPPORTED",
+        "H4 (panel closed):                       SUPPORTED",
+        "verdict: SAME_PSTAR_COMPOSED",
+        "reading: SAME_PSTAR_COMPOSED \u2014 party and mediator flip-noise still share p*=0.5 on necklace and shared-mediator span; V2 #7 coin-flip threshold survives composition",
+        "pstar_grid: hub3 med=0.5 party=0.5; shared_k2 med=0.5 party=0.5; necklace med=0.5 party=0.5"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/noise_composed_carriers/FINDINGS.md"
+    },
+    {
+      "name": "weakest-boolean-render",
+      "cmd": "python org_frontier/studies/weakest_boolean_render/analyze_weakest_render.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (institutional elicits miss scaling bar): SUPPORTED",
+        "H2 (activity thresholds/fits miss scaling):  SUPPORTED",
+        "H3 (role-count\u2192hub recovers scaling bar):    SUPPORTED",
+        "H4 (weaker count-only forms miss scaling):   SUPPORTED",
+        "H5 (panel closed):                           SUPPORTED",
+        "verdict: ROLE_COUNTS_HUB_WEAKEST",
+        "reading: ROLE_COUNTS_HUB_WEAKEST \u2014 weakest recovering render is role-count cardinality \u2192 conjunctive hub template; activity thresholds/fits and institutional elicits miss the \u03a6=n\u22121 scaling bar; weaker count-only wirings (identity/cycle/k-of-n) also miss",
+        "sig_grid: counts_identity_n3=0; counts_cycle_copy_n3=1; counts_k_of_n_1_n3=0; counts_k_of_n_nm1_n3=0; counts_hub_n3=1; counts_identity_n4=0; counts_cycle_copy_n4=0; counts_k_of_n_1_n4=0; counts_k_of_n_nm1_n4=0; counts_hub_n4=1; act3_fit=0; act3_thr_k1=0; act3_thr_kmax=0; act4_fit=0; act4_thr_k1=0; act4_thr_kmax=0; pyphi_v9_triad=1; sklearn_v10_fourrole=0; k8s_v11_prow=0"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/weakest_boolean_render/FINDINGS.md"
+    },
+    {
+      "name": "wageman-phi-landmark",
+      "cmd": "python org_frontier/studies/wageman_phi_landmark/analyze_wageman_landmark.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (n=4 W separates hub<ring<pool):      SUPPORTED",
+        "H2 (W alone fails cross-n, acc<0.85):  SUPPORTED",
+        "H3 ((W,n) recovers landmark cross-n):    SUPPORTED",
+        "H4 (W\u2192triadic verdict hold AUC\u22650.85):  SUPPORTED",
+        "H5 (panel closed):                       SUPPORTED",
+        "verdict: W_N_PREDICTS_LANDMARK",
+        "reading: W_N_PREDICTS_LANDMARK \u2014 survey-style W paired with form size n predicts ring-4 / hub-(n\u22121) / pool landmarks; at n=4 W alone orders hub<ring<pool; across n, W alone collides and needs n; dyadic/triadic verdict hold from V2 #44 intact",
+        "metrics: n4_acc=1.000; w_alone_acc=0.700; wn_acc=1.000; verdict_auc=1.000"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/studies/wageman_phi_landmark/FINDINGS.md"
+    },
+    {
+      "name": "topology-aware-imputer",
+      "cmd": "python org_frontier/studies/topology_aware_imputer/analyze_imputer.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (hide party collapses):              SUPPORTED",
+        "  H2 (hub prior restores):                REFUTED",
+        "  H3 (ring prior restores):               SUPPORTED",
+        "  H4 (topo beats naive by \u22650.05):        REFUTED",
+        "  H5 (hide mediator stays \u22650.85):         SUPPORTED",
+        "  verdict: IMPUTER_RESTORES_AUC",
+        "  reading: IMPUTER_RESTORES_AUC \u2014 hide-party collapse (full=1.000\u21920.550) repaired by ring=0.944; naive_best=0.932; topo_lift=0.012",
+        "  metrics: full=1.000; hide_party=0.550; hide_mediator=1.000; hub=0.752; ring=0.944; naive_best=0.932"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/topology_aware_imputer/FINDINGS.md"
+    },
+    {
+      "name": "correlated-party-duty",
+      "cmd": "python org_frontier/studies/correlated_party_duty/analyze_duty.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (zero-duty recreates cliff):         SUPPORTED",
+        "  H2 (alt_WC softens cliff):              REFUTED",
+        "  H3 (phase_WC softens):                  SUPPORTED",
+        "  H4 (sparse \u03b4=0.10 holds):               SUPPORTED",
+        "  H5 (hide mediator stays \u22650.85):         SUPPORTED",
+        "  verdict: ALTERNATION_RECREATES_CLIFF",
+        "  reading: ALTERNATION_RECREATES_CLIFF \u2014 alt_WC fails soften bar (AUC=0.571 vs full=0.892); zero-duty still cliffs (zC=0.505); losing joint WC observation is enough to recreate the \u03b4=0 cliff",
+        "  metrics: full=0.892; zero_C=0.505; zero_W=0.528; sparse=0.896; alt_WC=0.571; phase_WC=0.898; hide_med=0.889"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/correlated_party_duty/FINDINGS.md"
+    },
+    {
+      "name": "joint-obs-cliff-exact-phi",
+      "cmd": "python org_frontier/studies/joint_obs_cliff_exact_phi/analyze_transfer.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (MI alt cliffs on family_n3):           SUPPORTED",
+        "  H2 (exact-\u03a6 alt cliffs on family_n3):      REFUTED",
+        "  H3 (exact-\u03a6 alt cliffs on multifamily):    SUPPORTED",
+        "  H4 (exact-\u03a6 full holds both panels):       SUPPORTED",
+        "  H5 (exact-\u03a6 zero-duty cliffs family_n3):   SUPPORTED",
+        "  verdict: TRANSFER_PARTIAL_EXACT_PHI",
+        "  reading: TRANSFER_PARTIAL_EXACT_PHI \u2014 MI alt cliffs (0.967\u21920.585); exact-\u03a6 alt soft on family_n3 (1.000\u21920.812, no cliff bar) but cliffs on multifamily (1.000\u21920.660); zero_duty_f=0.792",
+        "  metrics: phi_full_f=1.000; phi_alt_f=0.812; phi_zero_f=0.792; phi_full_m=1.000; phi_alt_m=0.660; mi_full=0.967; mi_alt=0.585"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/joint_obs_cliff_exact_phi/FINDINGS.md"
+    },
+    {
+      "name": "phase-lock-exact-phi",
+      "cmd": "python org_frontier/studies/phase_lock_exact_phi/analyze_phase.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (exact-\u03a6 alt cliffs multifamily):      SUPPORTED",
+        "  H2 (exact-\u03a6 phase holds multifamily):     SUPPORTED",
+        "  H3 (exact-\u03a6 phase holds family_n3):       SUPPORTED",
+        "  H4 (MI phase holds / alt cliffs family):  SUPPORTED",
+        "  H5 (mean duty matched at \u03b4=0.5):         SUPPORTED",
+        "  verdict: PHASE_RESTORES_JOINT",
+        "  reading: PHASE_RESTORES_JOINT \u2014 at matched \u03b4=0.5, exact-\u03a6 phase holds on multifamily (1.000) where alt cliffs (0.660); family_n3 phase=1.000; MI phase=0.913 alt=0.592; joint observation not mean duty",
+        "  metrics: phi_full_m=1.000; phi_alt_m=0.660; phi_phase_m=1.000; phi_phase_f=1.000; mi_phase_f=0.913; mi_alt_f=0.592; duty_alt=0.500; duty_phase=0.500"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/phase_lock_exact_phi/FINDINGS.md"
+    },
+    {
+      "name": "zero-duty-retain-exact-phi",
+      "cmd": "python org_frontier/studies/zero_duty_retain_exact_phi/analyze_retain.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (zero-duty cliffs multifamily):        SUPPORTED",
+        "  H2 (retain_MA holds multifamily):         REFUTED",
+        "  H3 (zero-duty cliffs family_n3):          SUPPORTED",
+        "  H4 (omit-mediator cliffs multifamily):    SUPPORTED",
+        "  H5 (full holds + n=3 zero\u2261retain):        SUPPORTED",
+        "  verdict: RETAIN_FAILS_WITH_ZERO",
+        "  reading: RETAIN_FAILS_WITH_ZERO \u2014 zero-duty cliffs on multifamily (1.000\u21920.592) and retain_MA also fails to hold (0.592); omit_M=0.559 (H4=Y); family zero=0.750 retain=0.750; no escape via party\u2013mediator pair alone",
+        "  metrics: full_m=1.000; zero_m=0.592; retain_m=0.592; omit_M_m=0.559; full_f=1.000; zero_f=0.750; retain_f=0.750; n3_same=48/48; multi_same=20/24"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/zero_duty_retain_exact_phi/FINDINGS.md"
+    },
+    {
+      "name": "imputer-exact-phi",
+      "cmd": "python org_frontier/studies/imputer_exact_phi/analyze_imputer_phi.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (MI restore replicates #15):           SUPPORTED",
+        "  H2 (copy-W restores exact \u03a6):             SUPPORTED",
+        "  H3 (ring prior restores exact \u03a6):         REFUTED",
+        "  H4 (omit cliffs + const0 fails restore):  SUPPORTED",
+        "  H5 (full \u03a6 holds):                        SUPPORTED",
+        "  verdict: COPY_RESTORES_RING_FAILS",
+        "  reading: COPY_RESTORES_RING_FAILS \u2014 MI restore holds (ring=0.944, copy=0.932); copy-W restores exact \u03a6 (1.000\u21920.896) but ring does not (0.806); omit=0.750 const0=0.500",
+        "  metrics: mi_full=1.000; mi_hide=0.550; mi_ring=0.944; mi_copy=0.932; phi_full=1.000; phi_omit=0.750; phi_copy=0.896; phi_ring=0.806; phi_const0=0.500"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/imputer_exact_phi/FINDINGS.md"
+    },
+    {
+      "name": "matched-imputer-exact-phi",
+      "cmd": "python org_frontier/studies/matched_imputer_exact_phi/analyze_matched.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (hub-matched retains hub triadics):    SUPPORTED",
+        "  H2 (ring-matched retains ring triadics):  SUPPORTED",
+        "  H3 (matched beats mismatched retention):  SUPPORTED",
+        "  H4 (copy-A restores mediation ranking):   SUPPORTED",
+        "  H5 (matched fails hub\u222aring ranking):      SUPPORTED",
+        "  H6 (full holds; const0 fails mediation):  SUPPORTED",
+        "  verdict: MATCHED_RETAINS_COPY_RANKS",
+        "  reading: MATCHED_RETAINS_COPY_RANKS \u2014 matched retains native \u03a6 (hub exact=1.000, ring exact=1.000; mismatched 0.000/0.000) but does not restore hub\u222aring ranking (matched=0.551 vs full=1.000, copy=0.630); copy-A restores mediation (0.896)",
+        "  metrics: full_m=1.000; copy_m=0.896; hub_m=0.806; ring_m=0.883; full_hr=1.000; matched_hr=0.551; mismatched_hr=0.542; copy_hr=0.630; ret_hub=1.000; ret_hub_mis=0.000; ret_ring=1.000; ret_ring_mis=0.000; n_hub_tri=9; n_ring_tri=3"
+      ],
+      "timeout": 480,
+      "source": "org_frontier/studies/matched_imputer_exact_phi/FINDINGS.md"
+    },
+    {
+      "name": "fielded-w-landmark",
+      "cmd": "python org_frontier/studies/fielded_w_landmark/analyze_fielded.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (clean #14 replicate):               SUPPORTED",
+        "  H2 (rater noise collapses landmark):      SUPPORTED",
+        "  H3 (verdict holds under same noise):      SUPPORTED",
+        "  H4 (missing subscale keeps landmark):     SUPPORTED",
+        "  H5 (recip-only keeps N4 order):           SUPPORTED",
+        "  verdict: LANDMARK_COLLAPSES_VERDICT_HOLDS",
+        "  reading: LANDMARK_COLLAPSES_VERDICT_HOLDS \u2014 clean (W,n) holds (1.000) but fielded rater noise \u03c3=0.2 collapses landmark acc to 0.802 while verdict AUC stays 0.997; missing-subscale alone does not collapse this symmetric panel (H4=Y)",
+        "  metrics: clean_wn=1.000; clean_w=0.700; clean_auc=1.000; field_wn=0.802; field_wn_sd=0.104; field_auc=0.997; field_auc_sd=0.017; field_order=0.675; drop_recip=1.000; drop_input=1.000; drop_affect=1.000; recip_only=1.000; sigma=0.2; n_trials=40"
+      ],
+      "timeout": 240,
+      "source": "org_frontier/studies/fielded_w_landmark/FINDINGS.md"
+    },
+    {
+      "name": "logged-alt-duty-exact-phi",
+      "cmd": "python org_frontier/studies/logged_alt_duty_exact_phi/analyze_logged.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (multi alt cliffs):                    SUPPORTED",
+        "  H2 (multi full holds):                    SUPPORTED",
+        "  H3 (logged alt cliffs / recreates):       SUPPORTED",
+        "  H4 (logged full holds):                   SUPPORTED",
+        "  H5 (phase \u2261 full both panels):            SUPPORTED",
+        "  verdict: CLIFF_RECREATES_ON_LOGGED",
+        "  reading: CLIFF_RECREATES_ON_LOGGED \u2014 synthetic multifamily cliffs (1.000\u21920.660) and logged structure recreates it (1.000\u21920.591); anti-correlated duty is not softened by logged wiring",
+        "  metrics: phi_full_m=1.000; phi_alt_m=0.660; phi_full_l=1.000; phi_alt_l=0.591; phi_phase_m=1.000; phi_phase_l=1.000; n_multi=24; n_logged=15; n_tri_l=11; n_dya_l=4"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/logged_alt_duty_exact_phi/FINDINGS.md"
+    },
+    {
+      "name": "omit-cycle-band-n89",
+      "cmd": "python org_frontier/studies/omit_cycle_band_n89/analyze_band_n89.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (n=7 control BAND_GRAMMAR_HOLDS):       SUPPORTED",
+        "  H2 (class count grows n7<n8<n9):           SUPPORTED",
+        "  H3 (n=8 exact micro adjudicable):          REFUTED",
+        "  H4 (band grammar holds at n=8 | H3):       REFUTED",
+        "  H5 (n=9 consistent | budget):              REFUTED",
+        "  verdict: SCALE_BLOCKS_EXACT_PHI",
+        "  reading: SCALE_BLOCKS_EXACT_PHI \u2014 cycle-type catalog expands (10->14->21; new n8=[[2, 2, 3], [2, 5], [3, 4], [7]], new n9=[[2, 2, 2, 2], [2, 2, 4], [2, 3, 3], [2, 6], [3, 5], [4, 4], [8]]) but exact core-\u03a6 at n=8 is not adjudicable under the lab stack (dense-state major complex exceeds budget; sparse states \u03a6=0); n=7 BAND_GRAMMAR_HOLDS unrebutted",
+        "  metrics: n_classes_7=10; n_classes_8=14; n_classes_9=21; new_n8=[[2, 2, 3], [2, 5], [3, 4], [7]]; new_n9=[[2, 2, 2, 2], [2, 2, 4], [2, 3, 3], [2, 6], [3, 5], [4, 4], [8]]; micro_phis=[]; n7_phi_set=[12.0, 14.0]"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/omit_cycle_band_n89/FINDINGS.md"
+    },
+    {
+      "name": "parity-law-n-gt8",
+      "cmd": "python org_frontier/studies/parity_law_n_gt8/analyze_parity_n_gt8.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (V3 #10 controls LAW_HOLDS_NGT6):     SUPPORTED",
+        "  H2 (H-cut \u03c6 = law at n\u2208(8, 9, 10)):        SUPPORTED",
+        "  H3 (H is MIP at n=8; \u03c6 = law):           SUPPORTED",
+        "  H4 (no residual in checked window):      SUPPORTED",
+        "  verdict: LAW_HOLDS_NGT8",
+        "  reading: LAW_HOLDS_NGT8 \u2014 parity hub \u03a6=2^(2\u2212n) survives n>8: named H-cut \u03c6 matches the law at n\u2208{8,9,10}; full SIA at n=8 keeps H as MIP with \u03c6=law (no residual); major-complex census left at n\u22647 (V3 #10) under the cut/SIA regime",
+        "  metrics: n8_sia=0.015625; n8_H_mip=True; cuts=n8=0.015625;n9=0.0078125;n10=0.00390625; law_n8=0.015625; law_n9=0.0078125; law_n10=0.00390625; n_controls=5"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/parity_law_n_gt8/FINDINGS.md"
+    },
+    {
+      "name": "composed-topo-landmarks-n6",
+      "cmd": "python org_frontier/studies/composed_topo_landmarks_n6/analyze_composed_n6.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  H1 (V3 #4\u2013#7 controls reproduce):      SUPPORTED",
+        "  H2 (designed lifts keep class family):  SUPPORTED",
+        "  H3 (random \u226590% on L6):           SUPPORTED",
+        "  H4 (no interstitial in lean random):   SUPPORTED",
+        "  verdict: LANDMARKS_HOLD_NGT6",
+        "  reading: LANDMARKS_HOLD_NGT6 \u2014 V3 #4\u2013#7 class families remain discrete at n\u22656: denser random-AND (N=28) lands entirely on L6 (no interstitial); hybrid closure, roh factor, and necklace compose survive densify (chord morphs \u03a6=4\u21922 inside L6, not a new atom); exact n\u22658 motif lifts left out of lean scope",
+        "  metrics: on_landmark=1.000; n_random=28; interstitial=[]; phi_hist={'2.0': 14, '3.0': 3, '4.0': 2, '5.0': 1, '6.0': 8}; hy_n6_AND=2.0; neck_chord=2.0; roh_dense=6.0; n_controls=17"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/composed_topo_landmarks_n6/FINDINGS.md"
+    },
+    {
       "name": "random-coupling-ensemble",
       "cmd": "python org_frontier/studies/random_coupling_ensemble/analyze_ensemble.py",
       "expect": [
@@ -4944,6 +5362,20 @@
       ],
       "timeout": 240,
       "source": "org_frontier/studies/active_label_acquisition/FINDINGS.md"
+    },
+    {
+      "name": "partial-observation-screen",
+      "cmd": "python org_frontier/studies/partial_observation_screen/analyze_partial_obs.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (hidden party collapses):     SUPPORTED",
+        "H2 (intermittent smooth in \u03b4):   REFUTED",
+        "H3 (topology/family mediates):   SUPPORTED",
+        "verdict: HIDDEN_COLLAPSE_INTERMITTENT_CLIFF",
+        "full_auc=0.922  hidden_party_auc=0.547  hidden_mediator_auc=0.934"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/partial_observation_screen/FINDINGS.md"
     },
     {
       "name": "commit-noise-phase",

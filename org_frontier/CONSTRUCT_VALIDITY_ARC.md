@@ -34,6 +34,24 @@ On this PR the formal lane (#47–#50) is already closed. Prefer empirical /
 survey packets, or optional engineering (beyond-binary M3). See
 [`PR739_PACKAGE.md`](PR739_PACKAGE.md).
 
+
+## Validation bridge (V3 #13)
+
+V3 #13 [`weakest_boolean_render/`](studies/weakest_boolean_render/) **ROLE_COUNTS_HUB_WEAKEST** — weakest recovering Boolean render of public OSS logs is role-count → conjunctive hub; activity/elicits miss.
+
+
+## Wageman × landmark (V3 #14)
+
+V3 #14 [`wageman_phi_landmark/`](studies/wageman_phi_landmark/) **W_N_PREDICTS_LANDMARK** — W+n predicts ring/hub/pool landmarks; W alone suffices at n=4.
+
+## Topology-aware imputer (V3 #15)
+
+V3 #15 [`topology_aware_imputer/`](studies/topology_aware_imputer/) **IMPUTER_RESTORES_AUC** — ring prior restores hide-party MI; hub does not; naive copy-W also restores.
+
+## Correlated party duty (V3 #16)
+
+V3 #16 [`correlated_party_duty/`](studies/correlated_party_duty/) **ALTERNATION_RECREATES_CLIFF** — alternating W/C duty does not soften the δ=0 cliff; zero-duty still cliffs; phase-locked δ=0.5 holds.
+
 ## Reproduce
 
 ```

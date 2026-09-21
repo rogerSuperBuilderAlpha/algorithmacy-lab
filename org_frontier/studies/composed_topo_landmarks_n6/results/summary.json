@@ -1,0 +1,18 @@
+{
+  "verdict": "LANDMARKS_HOLD_NGT6",
+  "reading": "LANDMARKS_HOLD_NGT6 \u2014 V3 #4\u2013#7 class families remain discrete at n\u22656: denser random-AND (N=28) lands entirely on L6 (no interstitial); hybrid closure, roh factor, and necklace compose survive densify (chord morphs \u03a6=4\u21922 inside L6, not a new atom); exact n\u22658 motif lifts left out of lean scope",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "on_landmark": 1.0,
+  "interstitial": [],
+  "phi_hist": {
+    "2.0": 14,
+    "3.0": 3,
+    "4.0": 2,
+    "5.0": 1,
+    "6.0": 8
+  },
+  "scope": "lean: V3 #4\u2013#7 controls; designed n=6 densify/lifts; random AND n=6 N=28; exact n\u22658 motif lifts out of lean"
+}

@@ -1,0 +1,13 @@
+carrier,n,L,structure,n_core,core,phi,note
+hub,3,0,NULL,0,,0.0,full_maximal
+hub,3,1,DYADIC,2,W|S,0.3899750004807708,full_maximal
+hub,3,2,TRIADIC,3,W|S|C,3.169925001442312,full_maximal
+ring,3,0,NULL,0,,0.0,full_maximal (0.0s)
+ring,3,1,DYADIC,2,x0|x1,0.46797000057692495,full_maximal (0.0s)
+ring,3,2,TRIADIC,3,x0|x1|x2,9.509775004326936,full_maximal (0.0s)
+ring,4,0,NULL,0,,0.0,full_maximal (0.1s)
+ring,4,1,DYADIC,2,x0|x1,0.5199666673076944,full_maximal (1.3s)
+ring,4,2,TRIADIC,4,x0|x1|x2|x3,6.339850002884624,full_maximal (1.2s)
+necklace,6,0,NULL,0,,0.0,full_maximal
+necklace,6,1,DYADIC,2,P0|H0,0.5199666673076944,bounded_max_size=4
+necklace,6,2,TRIADIC,3,P0|P1|H0,3.169925001442313,bounded_max_size=4
