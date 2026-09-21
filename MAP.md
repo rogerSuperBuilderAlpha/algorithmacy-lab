@@ -75,6 +75,7 @@ Outward manuscripts. Live dates in [`NOW.md`](NOW.md) and [`submissions/CALENDAR
 | [`submissions/lima_pdw/`](submissions/lima_pdw/) | Lima PDW — algorithmacy as a communication competency |
 | [`submissions/slacker_thirds/`](submissions/slacker_thirds/) | *Slacker* chapter |
 | [`submissions/hegel_coordination/`](submissions/hegel_coordination/) | Hegel and the coordination program — a public reading |
+| [`submissions/phd1750_ericson/`](submissions/phd1750_ericson/) | PHD1750-3 Independent Research Project (Ericson, Fall 2026) |
 | [`submissions/proposals/`](submissions/proposals/) | Proposals — submissions to external calls |
 
 ## Machinery — generators and gates

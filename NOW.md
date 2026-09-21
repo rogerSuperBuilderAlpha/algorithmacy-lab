@@ -22,6 +22,7 @@ Full calendar, terms, and collisions: [`submissions/CALENDAR.md`](submissions/CA
 | Due | Piece | Path |
 | --- | --- | --- |
 | 2026-10-01 / 2026-11-01 | Slacker chapter (thesis locked 13 Sep: platform operational logic via proximity + selection) | [`submissions/slacker_thirds/chapter.md`](submissions/slacker_thirds/chapter.md) |
+| **2026-10-06** | PHD1750-3 paper proposal (Ericson) | [`submissions/phd1750_ericson/Hunt_PHD1750_Paper_Proposal.docx`](submissions/phd1750_ericson/Hunt_PHD1750_Paper_Proposal.docx) |
 | 2026-10-05–07 | Lima workshop (in person) | [`submissions/lima_pdw/`](submissions/lima_pdw/) |
 | 2027-01-31 | When is a combination a configuration? | [`submissions/proposals/`](submissions/proposals/) |
 

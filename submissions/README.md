@@ -11,7 +11,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`lima_pdw/`](lima_pdw/) | OS/OT PDW support arm (manuscript is the private dissertation Paper 2) | 2026-09-10 |
 | [`slacker_thirds/`](slacker_thirds/) | Bloomsbury *Slacker* chapter — platform operational logic via proximity + selection | 2026-11-01 |
 | [`scifi_interfaces_algorithmacy/`](scifi_interfaces_algorithmacy/) | Sci-fi interfaces essay — speculative fiction as laboratory for triadic algorithmacy (draft import) | no deadline |
-| [`dial_response_algorithmacy/`](dial_response_algorithmacy/) | IJHCS full article re-coding Belousov et al.'s (2027) DIAL corpus for algorithmacy — reach × act framework, IIT criterion, engagement layer (full draft) | no deadline |
+| [`phd1750_ericson/`](phd1750_ericson/) | PHD1750-3 Independent Research Project (Ericson): paper proposal — algorithmacy as a human factors re-coding of DIAL | 2026-10-06 |
 | [`proposals/`](proposals/) | *Organization Theory* STS | 2027-01-31 |
 | [`algorithmacy_design_ethics/`](algorithmacy_design_ethics/) | Design-ethics/human-factors journal article on algorithmacy — recommended: *Ethics and Information Technology* | full draft, author read-aloud pass pending |
 | [`hegel_coordination/`](hegel_coordination/) | Hegel Substack series | no deadline |

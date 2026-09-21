@@ -15,6 +15,7 @@ place.** Update it when a date moves, and say what moved it.
 | 2026-09-10 | Full manuscript | OS/OT PDW Lima | yes |
 | 2026-10-01 | First draft for editor feedback | *Slacker* collection, Bloomsbury | optional |
 | 2026-10-05→07 | Attend the workshop, in person, Lima | OS/OT PDW Lima | yes — plus roundtable reviewing |
+| 2026-10-06 | Paper proposal (~2–4 pages APA) | PHD1750-3 Independent Research Project (Ericson, Bentley) | yes — course |
 | 2026-11-01 | Final draft | *Slacker* collection, Bloomsbury | yes |
 | 2027-01-31 | Submission | *Organization Theory* Special Themed Section | yes |
 

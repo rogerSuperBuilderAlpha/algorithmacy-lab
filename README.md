@@ -116,6 +116,7 @@ Live deadlines and canonical drafts. Start at [`NOW.md`](NOW.md).
 - [Lima PDW — algorithmacy as a communication competency](submissions/lima_pdw/README.md) — A submission arm for the **OS & OT Paper Development Workshop in Organization Studies for Advanced
 - [*Slacker* chapter](submissions/slacker_thirds/README.md) — Bloomsbury collection *Slacker: Answering the True Call*. Final draft **2026-11-01**. Optional editor draft 2026-10-01. 3,000–5,000 words. Chicago endnotes
 - [Hegel and the coordination program — a public reading](submissions/hegel_coordination/README.md) — A Substack series that reads Hegel against the lab's coordination program, and a small research spine
+- [PHD1750-3 Independent Research Project (Ericson, Fall 2026)](submissions/phd1750_ericson/README.md) — A course-paper arm for PHD1750-3 Independent Research Project (Ericson, Bentley, Fall 2026). The live
 - [Proposals — submissions to external calls](submissions/proposals/README.md) — Planning documents for manuscripts the lab prepares for journal calls and special issues. Each proposal
 
 ### Reviews & articles

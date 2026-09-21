@@ -123,7 +123,7 @@ def _submissions() -> list:
     if os.path.exists(cal):
         out.append(f"  - [Calendar]({_link(cal)}) · [NOW.md]({_link(os.path.join(_ROOT, 'NOW.md'))})")
     for name in ("coordinative_sovereignty", "hospitality_phygital", "lima_pdw",
-                 "slacker_thirds", "hegel_coordination", "proposals"):
+                 "slacker_thirds", "hegel_coordination", "phd1750_ericson", "proposals"):
         r = os.path.join(base, name, "README.md")
         if not os.path.exists(r):
             continue

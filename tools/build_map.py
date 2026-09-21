@@ -144,6 +144,7 @@ _SUBMISSIONS = [
     ("submissions/lima_pdw", None),
     ("submissions/slacker_thirds", None),
     ("submissions/hegel_coordination", None),
+    ("submissions/phd1750_ericson", None),
     ("submissions/proposals", None),
 ]
 
