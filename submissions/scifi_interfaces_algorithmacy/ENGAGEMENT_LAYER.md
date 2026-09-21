@@ -29,7 +29,7 @@ This reversal is recorded here and as a signed alternative on each work file. Th
 | Omniscient curator ([`works/omniscient_curator.md`](works/omniscient_curator.md)) | Behavioral steering surface: swipe, linger, click | Users developing the recommender for one another; no finished product state exists | Records folk theories as superstition about a dyadic platform rather than partial developer models |
 | Algospeak ([`works/algospeak_resistance.md`](works/algospeak_resistance.md)) | Public language passing a classifier; off-platform side-channels | Community ships the working protocol over the vendor’s classifier; evasion and retraining co-develop the moderator | Sees literacy under censorship, missing that the public is developing the third party without a console |
 
-Every act in the third column is performed by a party that a designer → user framework — including Belousov et al.’s (2027) DIAL coding, critiqued in [`../dial_response_algorithmacy/draft.md`](../dial_response_algorithmacy/draft.md) §6 — would file as a user or recipient.
+Every act in the third column is performed by a party that a designer → user framework — including Belousov et al.’s (2027) DIAL coding, re-coded in [`../dial_response_algorithmacy/draft.md`](../dial_response_algorithmacy/draft.md) §4–5 — would file as a user or recipient.
 
 ## What follows for the catalog
 
@@ -39,5 +39,5 @@ Every act in the third column is performed by a party that a designer → user f
 
 ## Cross-references
 
-- DIAL response, §6 “Design for algorithmacy: the engagement layer, not the product layer”: [`../dial_response_algorithmacy/draft.md`](../dial_response_algorithmacy/draft.md)
+- DIAL article, §5.5 “Pastoral design and collective algorithmacy” and §4 (the six works as M1–M6 in the reach × act framework): [`../dial_response_algorithmacy/draft.md`](../dial_response_algorithmacy/draft.md)
 - Construct essays: [`../../org_frontier/essays/literacy_or_algorithmacy.md`](../../org_frontier/essays/literacy_or_algorithmacy.md), [`../../org_frontier/essays/the_interested_third_party.md`](../../org_frontier/essays/the_interested_third_party.md)

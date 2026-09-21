@@ -1,53 +1,59 @@
-# Outline — IJHCS commentary (~2,500–3,500 words)
+# Outline — IJHCS full article (~12,000 words main text)
 
-Target register: short, pointed, journal-adjacent commentary / letter. Claim-first prose. No first-person authorial “I.” Keystone thesis opens and closes; supporting critiques stay subordinate.
+Form: section-for-section mirror of Belousov et al. (2027). Register: IJHCS research article; claim-first prose; first person for authorial labour only. Three substitutions run through every section — BCI → algorithmic third party; input discrepancy → IIT cause–effect reconfiguration; user–technology dyad → party / mediator / counterpart triad.
 
-## 1. Opening (~400 words)
+## Front matter
 
-- Acknowledge the contribution: SF as method for DIAL; eight-type framework (context × purpose); five themes on identity, autonomy, hypercompetition.
-- Pivot immediately: the framework remains useful; the **ontological frame** is literacy-shaped.
-- State the keystone in plain terms: literacy distributes finished artefacts; algorithmacy coordinates through a cooptive third party that interaction continually remakes.
-- Preview: the paper’s UX-only coding, input-discrepancy ASC criterion, and designer-facing recommendations all inherit the same producer → consumer error.
+- Highlights (five bullets, as theirs).
+- Keywords.
+- Abstract, structured as theirs: problem, their contribution, the ontological gap, method (re-coding their fixed corpus + six catalogued works), framework (reach × act → eight types), IIT criterion, five themes, contribution.
 
-## 2. Literacy versus algorithmacy (~500–600 words)
+## 1. Introduction (~1,300)
 
-- Literacy: author → static medium → reader. The medium does not rewrite itself from the reading.
-- Algorithmacy: party A ↔ algorithmic third party ↔ party B (and further parties). The third party curates, filters, commits, and learns.
-- ASCII / prose diagram of the two forms.
-- Formal bridge (careful, no new numbers): on small Boolean coordination models used in this lab, forms that factor across a party-line cut read `Φ_MIP = 0` (dyadic / literacy); forms that will not factor read `Φ_MIP > 0` (triadic / algorithmacy). Cite as standing lab reading, not as a result of this commentary.
-- Implication for Belousov et al.: “user” and “recipient” roles still assume a finished system meeting a consciousness. Cooptive media dissolve that assumption.
+- Open on the fielded triad (rider–dispatcher–driver; writer–feed–reader).
+- Acknowledge Belousov et al.: DIAL, 25 novels, eight types, five themes.
+- The ontology is a generation late: user/recipient, UX-first, designer audience, implications-for-users horizon = literacy's architecture; BCI as frontier and input discrepancy as criterion both assume a conduit.
+- Three substitutions; the RQ; the method in one paragraph; roadmap.
 
-## 3. Why UX-only SF coding is obtuse for cooptive media (~400–500 words)
+## 2. Background (~2,600)
 
-- Quote their methodological choice: focus on explicitly visible user–technology interaction; UX as primary lens; broader sociotechnical questions deferred.
-- Argue: in cooptive systems, the visible UX is often the least informative layer. The generative action is contribution that updates rankings, embeddings, policies, dream-libraries, loyalty models — for everyone.
-- Their own corpus already contains upstream scenes (operators, corporations, military, platforms that write desires into workers). Coding that privileges downstream sensation treats those scenes as scenery.
-- Consequence: themes about “what happens to users” remain important but secondary to “who gets to rewrite the third party, and through what competence.”
+- 2.1 Three components of algorithmically mediated coordination replacing their three of DIAL: the algorithmic third party (with the two diagrams); cooptive coordination and the Φ_MIP = 0 / > 0 reading (cited, not re-derived); cause–effect reconfiguration.
+- 2.2 From input discrepancy to cause–effect reconfiguration: three failures of discrepancy the corpus exposes (peripheral; inputs are authored; blind to counterparts); IIT's criterion; two cautions.
+- 2.3 Reading already reorganises the brain: Dehaene, *scriptio continua* → word separation (Saenger), codex; BCI changes the channel, algorithmacy the mediator's activity.
+- 2.4 SF as inquiry and the layer to code at: their design-fiction lineage transfers; their UX-first layer does not; upstream operators in their own corpus.
 
-## 4. Semiotic parity of BCI and text (~250–350 words)
+## 3. Methods (~1,500)
 
-- Belousov et al. treat mind-altering tech (BCI, stimulation, immersive modulation) as a distinctive HCI frontier.
-- Counter: literacy already induces durable reorganization of consciousness — neuronal recycling / VWFA (Dehaene); historical cognitive load of *scriptio continua* and the later invention of word separation.
-- BCI changes the sensorimotor channel; it does not invent mediation of mind by designed signs. Algorithmacy changes the **activity** of the mediator, not merely the bandwidth into the skull.
+- 3.1 Data: their fixed 25-novel corpus (advantages of holding it fixed); six-work extension with Table 2 and the justification against their film exclusion.
+- 3.2 Analysis: cooptive-commit inclusion criterion; three evidence sources and tags (extract / canon / to verify / thin / catalog) with counts; the two aspects fixed before coding; leakage recorded separately; theme construction as theirs.
+- 3.3 Researcher's position: sole coder; laboratory and platform-work background; not a re-reading; agent-assistance declaration.
 
-## 5. IIT / Φ instead of input discrepancy (~300–400 words)
+## 4. Results (~4,300)
 
-- Summarize their ASC criterion: input discrepancy (signals from one system yield content associated with another), following Belousov et al. (2024) and Hobson-inflected reframing of Revonsuo.
-- Limits: discrepancy is a peripheral / representational mismatch test. It struggles with states where the world’s “inputs” are themselves algorithmically authored, or where the alteration is a change in how causes and effects hang together rather than a mis-labeling of channels.
-- Constructive substitute: IIT (Tononi; Oizumi, Albantakis & Tononi; Albantakis et al., IIT 4.0). An altered state is a reconfiguration of the cause–effect complex — which distinctions the system specifies, how they integrate — not merely a mismatch between sensory labeled streams and experienced content.
-- Scope honesty: this commentary does not compute Φ on fictional minds. Φ here is a theoretical frame for “altered,” and, separately, the lab’s instrument for coordination irreducibility. Consciousness claims about platforms or novels are refused.
+- Fig. 1 main concepts (reach; act → interpretive/structural read, sanctioned/subversive write). Fig. 2 eight-cell grid.
+- Two clarifications: read/write ≠ exploration/communication; internal/external drawn at moment of action.
+- 4.1 Folk theorizing — A25 refusal; M4, M5. 4.2 Backend reading — A11 block quote; A4, A3, A22, A12, A15, A10. 4.3 Shared folk theory — A21, A5; M2, M3, M4, M6. 4.4 Audit — M1, A8, A6, A14, A4, A20. 4.5 Training by response — configuration vs conditioning sub-types; RLHF analogue. 4.6 Subversive affordance — A20, A11, M3. 4.7 Operator commit — centralized vs distributed sub-types; A13 as cleanest cooptive commit. 4.8 Protocol shipping — A21, A6, A18, A15, A8; M6, M3; exit as boundary.
+- Each type closes on a reformulation ("Thus …") as theirs do.
 
-## 6. Constructive alternative — design for algorithmacy (~500–600 words)
+## 5. Discussion (~3,000)
 
-- Reject dyadic HCI as the default unit; reject conversational skeuomorphism that hides steering.
-- Design demand: expose latent-space steering and algorithmic white space — the operable room in which publics and operators co-steer the third party.
-- 6.1 lens: the layer to design is the **engagement layer, not the product layer**. Under algorithmacy the development process IS the product; reading, training, toggling, handing off, and coding around the mediator are development acts.
-- 6.2 six fictions of engagement as development: Cypher’s console as operator station (Matrix); implant + hexagon wall as one cooptive stack (Feed); admin layer under the hotel skin (Upload); handoffs and folk theories as co-development of the policy (embodied co-pilot); algorithmic pairing as users developing the recommender for one another (curator); communal code-making as shipping the working interface (algospeak). Every act performed by a party Belousov et al. would code as “user.”
-- Contrast with Belousov et al.’s center of gravity: dream-hacks, loyalty conditioning, pleasure circuits, identity erasure as things that happen *to* users.
-- Link to sibling cultural arm (`scifi_interfaces_algorithmacy`) without requiring the reader to leave the commentary.
+- Opening: redistribution result (transmission → 28/31 works; exchange splits) and what it makes visible.
+- 5.1 Write access and the stratified engagement layer (displaces their Theme 1): three-tier society; licence not literacy.
+- 5.2 Contribution as extraction (Theme 2): leakage table as evidence; every sanctioned write is a contribution.
+- 5.3 The self as a node others rewrite (Theme 5): borders kept, authorship lost; IIT sharpens.
+- 5.4 Truth as mediator commitment (Theme 4): no discrepancy in the consequential cases; auditable and contestable only with access.
+- 5.5 Pastoral design and collective algorithmacy (their humanism–transhumanism close): the right-hand column is performed by "users"; transparency paradox reframed; three-part design demand; inversion of their offer.
 
-## 7. Close (~200–300 words)
+## 6. Limitations and future research (~600)
 
-- Return to keystone: the solution is not sanitizing DIAL for novices under a designer’s care.
-- The solution is raising collective algorithmacy so that cooptive design — reading, contesting, and rewriting the shared third party — becomes ordinary public competence.
-- Offer Belousov et al. a reframed research question for their announced follow-on sociotechnical study: not only which experiences DIAL delivers to users, but which interaction regimes keep design triadic and cooptive rather than literacy-captured.
+- Inherited sampling limits; not a re-reading (counts of to-verify and thin); extension not comparable in sampling; no Φ computed, validation gap; two directions (their sequel's unit of analysis; empirical test of the fielded cells).
+
+## 7. Conclusion (~550)
+
+- Re-coding summary; three substitutions; five themes; the inverted offer; closing line.
+
+## Back matter
+
+- Declarations (AI assistance — author to confirm wording; competing interest; data availability).
+- Appendix A: Table A.1 with 31 rows — mediator, candidate scene(s), cell(s), tag(s).
+- References: only works in their list, the laboratory's, or verified DOIs.
