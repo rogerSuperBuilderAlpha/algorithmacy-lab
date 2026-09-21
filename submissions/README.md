@@ -11,6 +11,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`lima_pdw/`](lima_pdw/) | OS/OT PDW support arm (manuscript is the private dissertation Paper 2) | 2026-09-10 |
 | [`slacker_thirds/`](slacker_thirds/) | Bloomsbury *Slacker* chapter — platform operational logic via proximity + selection | 2026-11-01 |
 | [`scifi_interfaces_algorithmacy/`](scifi_interfaces_algorithmacy/) | Sci-fi interfaces essay — speculative fiction as laboratory for triadic algorithmacy (draft import) | no deadline |
+| [`dial_response_algorithmacy/`](dial_response_algorithmacy/) | IJHCS commentary on Belousov et al. (2027) DIAL — keystone: design is cooptive under algorithmacy (draft) | no deadline |
 | [`proposals/`](proposals/) | *Organization Theory* STS | 2027-01-31 |
 | [`algorithmacy_design_ethics/`](algorithmacy_design_ethics/) | Design-ethics/human-factors journal article on algorithmacy — recommended: *Ethics and Information Technology* | full draft, author read-aloud pass pending |
 | [`hegel_coordination/`](hegel_coordination/) | Hegel Substack series | no deadline |

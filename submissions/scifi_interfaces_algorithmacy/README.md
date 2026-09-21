@@ -34,6 +34,7 @@
 | --- | --- |
 | [`essay.md`](essay.md) | Full imported manuscript (seed narrative) |
 | [`works/`](works/) | Expandable per-work catalog (living object) |
+| [`ENGAGEMENT_LAYER.md`](ENGAGEMENT_LAYER.md) | Signed cross-catalog alternative: the engagement layer is what to design; the development process is the product (reverses the seed's novice-heuristics close) |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to add a work or an alternative interpretation |
 | [`CLAIM.md`](CLAIM.md) | Locked one-page claim |
 | [`abstract.md`](abstract.md) | Short abstract |
