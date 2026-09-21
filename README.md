@@ -136,6 +136,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Integrated information as a cooperative game](org_frontier/essays/phi_as_a_cooperative_game.md)
 - [The political economy of interested mediation: when the platform's rent survives its self-interest](org_frontier/essays/political_economy_of_interested_mediation.md)
 - [What Exact Φ Can Do for Organization Theory: A Complete Experiment Catalog](org_frontier/essays/pyphi_org_theory_catalog.md)
+- [Speculative interfaces as a laboratory for algorithmacy](org_frontier/essays/scifi_interfaces_and_algorithmacy.md)
 - [How this lab studies algorithmacy](org_frontier/essays/studying_algorithmacy.md)
 - [The interested third party: how a self-interested mediator changes the irreducibility of coordination](org_frontier/essays/the_interested_third_party.md)
 - [The Boolean corpus is a pre-disclosed prior catalog](org_frontier/essays/the_prior_catalog.md)

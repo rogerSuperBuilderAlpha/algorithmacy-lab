@@ -1,0 +1,26 @@
+# Miller, T. (2023). Explainable AI is dead, long live explainable AI! Hypothesis-driven decision support using evaluative AI. *Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (FAccT '23)*.
+
+**Identifier:** arXiv:2302.12389v3 (11 Mar 2023) · FAccT '23 DOI not verified · **Read depth:** full_text (arXiv v3 preprint, 16 pages; the version of record was not opened, and the subtitle "using evaluative AI" appears in the FAccT title but not on the arXiv title page) · **Source-tier:** peer-reviewed, top FAccT venue; position paper with no empirical study · **Evidence basis:** direct_read (preprint) · **Parties modeled:** human–technology (one decision-maker and one decision-support tool; other stakeholders are named in the cardinal-issues table and set aside) · **Relation last checked:** 2026-09-18
+
+## What it argues
+
+Stop recommending; start evaluating. The paper opens with two friends: Bluster, who always says what to do and then justifies it, and Prudence, who "never gives you an answer" but returns evidence for and against whatever you propose; an informal show of hands at a talk put 3 of 100-plus for Bluster. Recommendation-driven decision support — with or without explanations, with or without an interpretable model — is Bluster, and it fails on two counts: people cannot calibrate trust in a recommendation, so they under- or over-rely (citing Buçinca et al., Gajos & Mamykina, Sivaraman et al.), and a recommendation takes control of which options get scrutiny. Miller grounds the alternative in Peirce's abduction and Klein's data/frame sensemaking: experts generate a few frames, then hunt for evidence that refutes them; Rudolph's anaesthesiology residents who "jump to an initial conclusion and test it, looking for negative evidence, make the best decisions" (§4.1.3). Evaluative AI therefore filters options without ranking them, gives evidence for and against any hypothesis the human names, explains trade-offs between any pair of options, and leaves "who owns control over which hypotheses to explore" with the human (§4.1.2). Cognitive forcing gets credit and a rebuke: "it is just that Bluster pauses before stating their opinion" (§3.4). Table 4 scores five paradigms against six criteria for good decision support; evaluative AI wins on options, possibilities, judgement, trade-offs and understanding, and fails, like all the others, on stakeholder values. Miller concedes evaluative AI will cost more effort and that people prefer less.
+
+## Relation to the argument
+
+RQ4, structural axis, and the nearest published relative of the "frictional" affordances the essay wants. Evaluative AI is a design for one of algorithmacy's three limbs — contestation — because it makes the human the proposer and the machine the critic, which is what contesting a determination looks like when the machine cannot be argued with directly. Its explicit inheritance from Green & Chen's "machine-in-the-loop" also connects it to the risk-assessment triad. But the paper models one decision-maker and one tool. Other people appear only in Yates & Potworowski's cardinal issues — "Mode: Who will decide and how will they do it?" and "Acceptability: How can [we] get other stakeholders to accept our decision?" (the preprint reads "be") — and Miller sets those aside as "less relevant for AI research" (§2.1); "Value" (impact on stakeholders) is the one criterion no paradigm, including his own, supports (Table 4). Confirmed absence of a second served party, stated in the paper's own scoring. On the objective axis Miller has a quiet asset: an evaluative tool has no recommendation to be coopted, and the Bluster/Prudence contrast is, read structurally, the difference between a mediator that commits determinations and one that does not. The essay can use that to say what a non-coopting intermediary would look like, while noting Miller never frames it that way.
+
+## Caution
+
+A position paper: no study, no prototype beyond a sketch of a skin-lesion interface (Fig. 7), and an "incomplete research agenda." The 3-of-100 preference is an anecdote from a talk. The claims about expert cognition rest on NDM sources whose own evidence base is contested. Miller limits evaluative AI to medium- and high-stakes, low-frequency decisions where the human is accountable and has time; the essay's platform cases are mostly high-frequency. The FaccT DOI and final title should be checked before citing.
+
+
+---
+
+## S2 adversarial verification (2026-09-18)
+
+**Verdict:** corrected
+
+**What I checked:** Downloaded arXiv 2302.12389v3 and searched for every quotation.
+
+**Findings:** All quotations are verbatim except the two cardinal-issue rows, which the card had shortened. The source rows read "Who will decide and how will they do it?" (Mode) and "How can be get other stakeholders to accept our decision?" (Acceptability, with the preprint's typo); the body now gives the full wording with a bracketed "[we]." The 3-of-100 figure reads "just three out of over 100 people preferred Bluster"; "less relevant for AI research," "who owns control over which hypotheses to explore," "Bluster pauses before stating their opinion," and the Rudolph sentence all check. The FAccT DOI remains unverified, as stated.
