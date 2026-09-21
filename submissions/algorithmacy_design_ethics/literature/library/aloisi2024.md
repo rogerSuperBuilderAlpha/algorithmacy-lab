@@ -1,0 +1,25 @@
+# Aloisi, A. (2024). Regulating algorithmic management at work in the European Union: Data protection, non-discrimination and collective rights. *International Journal of Comparative Labour Law and Industrial Relations*, 40(1), 37–70.
+
+**Identifier:** doi:10.54648/ijcl2024001 (Crossref, which also settles the page range 37–70 the sovereignty card had left unconfirmed) · **Read depth:** abstract_only — the full abstract and keywords read verbatim from Crossref; the body not opened (Kluwer Law Online serves only the abstract; SSRN refused access). NOT UPGRADED to full text · **Source-tier:** peer-reviewed comparative labour-law journal; doctrinal · **Evidence basis:** direct_read (abstract only) · **Parties modeled:** human–technology–world — workers, employers, and algorithmic management systems, with "worker representatives" as a collective actor · **Remedy locus:** relation (co-design and collective claims), layered on subject-side rights · **Relation last checked:** 2026-09-18
+
+## What it argues
+
+"In recent years, algorithmic management practices have been widely adopted by employers to monitor remote work, analyse how applicants behave during job interviews, rate worker performance and calculate wage adjustments. As a result, the condition of workers being subjected to the upstream authority of managers has intensified. Employment protection legislation recognizes the importance of curbing the employer's unilateral discretionary power by deploying several controlling factors. However, the traditional guardrails have now been displaced by the transformative impact of data-driven technologies. As a response to this challenge, several measures implemented by the European Union (EU) could be pragmatically adapted to curtail the expansion of artificial intelligence-based management prerogative. By applying a multidimensional, anticipatory and participatory approach, this paper integrates substantive and procedural rules that contribute to rebalancing informational asymmetries within workplaces and assesses the effectiveness of these rules. Examining case law, administrative decisions and legislative developments, it also discusses the mutually reinforcing relationship between data protection and anti-discrimination measures, which renders automated decisions documentable and contestable. In addition to defensive tactics, this article calls for the involvement of worker representatives in co-designing digital human resource policies. As data are relational, collective bodies are uniquely placed to exchange information, raise awareness and bring claims, with a view to preventing the improper use of algorithms" (abstract). Keywords include "Co-Determination," "Right to Explanation," "Burden of Proof."
+
+## Relation to the argument
+
+RQ8. Sorted: **collective standing — grounds the why, with a labour-law instrument (co-determination)**. The abstract's last two sentences are the whole collective-standing argument in one place — "As data are relational, collective bodies are uniquely placed to exchange information, raise awareness and bring claims" — and the sovereignty card's paraphrase "data are relational" is now confirmed verbatim. Two points for the paper. The phrase "documentable and contestable" is the legal statement of the construct's contestation component, and Aloisi locates the machinery for it in data-protection and anti-discrimination law running through *representatives*, not in the worker. And "co-designing digital human resource policies" is standing over the rule before it runs — the trust-and-cooperative move (delacroix2019.md) in works-council form. CUTS AGAINST a client-side reading of Principle I: individual rights are here "defensive tactics," and the affirmative instrument is collective. The paper should cite Aloisi for the claim that, in the employment setting, the law already assigns the contestation function to a collective body, and ask what a worker does with a determination in the interval before any body acts.
+
+## Caution
+
+Only the abstract was read; the case law, decisions and the assessment of effectiveness are unverified. EU employment law only; the construct's non-employment coordinations (marketplaces, matching) fall outside "employer" and "worker representatives." Do not quote the body.
+
+---
+
+## S2 adversarial verification (2026-09-18, pivot round)
+
+**Verdict:** confirmed
+
+**What I checked:** Full check (new card). Re-fetched the Crossref record for doi:10.54648/ijcl2024001 (IJCLLIR 40(1), pp. 37–70, 2024) and compared the abstract and keyword list character by character with the card.
+
+**Findings:** No issues found. The abstract is verbatim; 'Co-Determination', 'Right to Explanation' and 'Burden of Proof' are in the keyword list. The Relation section stays within the abstract (documentable/contestable, representatives, co-designing, 'As data are relational'); the sentence that individual rights are 'defensive tactics' is a fair gloss of 'In addition to defensive tactics, this article calls for ...'. Body still unread, as the card states.
