@@ -5364,6 +5364,20 @@
       "source": "org_frontier/studies/active_label_acquisition/FINDINGS.md"
     },
     {
+      "name": "partial-observation-screen",
+      "cmd": "python org_frontier/studies/partial_observation_screen/analyze_partial_obs.py",
+      "expect": [
+        "faithful triad: triadic \u03a6=2.000000  PASS",
+        "H1 (hidden party collapses):     SUPPORTED",
+        "H2 (intermittent smooth in \u03b4):   REFUTED",
+        "H3 (topology/family mediates):   SUPPORTED",
+        "verdict: HIDDEN_COLLAPSE_INTERMITTENT_CLIFF",
+        "full_auc=0.922  hidden_party_auc=0.547  hidden_mediator_auc=0.934"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/partial_observation_screen/FINDINGS.md"
+    },
+    {
       "name": "commit-noise-phase",
       "cmd": "python org_frontier/studies/commit_noise_phase/analyze_phase.py",
       "expect": [

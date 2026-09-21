@@ -152,7 +152,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [PR #739 package — arcs on `cursor/triad-template-census-6ac4`](org_frontier/PR739_PACKAGE.md) — PR #739 merge package — closed arcs, instrument, human gates
 - [Omit-atom arc — working picture](org_frontier/OMIT_ATOM_ARC.md) — omit/discrete-Φ arc — motif-ruled atoms, scale morphs
 - [Construct × scale ladder arc — working picture](org_frontier/CONSTRUCT_LADDER_ARC.md) — construct×ladder arc — COMMIT_READ, Φ=n−1 flip, gate seal
-- [Estimation lane (#21–#23, #25) — working picture](org_frontier/ESTIMATION_ARC.md) — estimation lane — topology bottleneck; closable
+- [Estimation lane (#21–#25) — working picture](org_frontier/ESTIMATION_ARC.md) — estimation lane — topology bottleneck; closable
 - [Stoch–temporal arc — working picture](org_frontier/STOCH_TEMPORAL_ARC.md) — stoch–temporal arc — noise, delay, coexistence, CT proxy; closable
 - [Formal theory arc — #47–#50 working picture](org_frontier/FORMAL_THEORY_ARC.md) — formal theory arc — #47–#50; closable
 - [AI / multi-agent arc — #37–#41 synthesis](org_frontier/AI_MULTIAGENT_ARC.md) — AI/multi-agent arc — membership cuts; closable
@@ -362,6 +362,7 @@ Multi-experiment batteries on one theme.
 - **[Parity-hub law for n>8 (agenda V4 #9)](org_frontier/studies/parity_law_n_gt8/README.md)** — n>8 under the named H-cut formula and a feasible exact SIA check: H-cut
 - **[Parity radix blind spot (agenda #4)](org_frontier/studies/parity_radix_blindspot/README.md)** — flat full-system Φ band (≈0.5) at k=2,3,4, while min-commit is high
 - **[Parity vs conjunctive under noise (agenda #8)](org_frontier/studies/parity_vs_conjunctive_noise/README.md)** — conjunctive hubs lose the triadic verdict at the **same** p*=0.5 under
+- **[Partial observation / estimability (agenda #24)](org_frontier/studies/partial_observation_screen/README.md)** — strict-mediation n=3 family, mean pairwise MI under full observation
 - **[Party vs mediator noise (agenda #7)](org_frontier/studies/party_vs_mediator_noise/README.md)** — mediator-column flip-noise collapse the triad at the **same** p*=0.5
 - **[Phase-lock under exact Φ (agenda V4 #2)](org_frontier/studies/phase_lock_exact_phi/README.md)** — multifamily panel (AUC **1.000**) where **alternation** cliffs
 - **[Φ-ascent adaptive mediator (agenda #14)](org_frontier/studies/phi_ascent_mediator/README.md)** — Φ does **not** converge to the conjunctive hub. Under fixed party

@@ -31,6 +31,7 @@ Manual override; developing and sharing folk theories; refusing automation level
 - In a three-node encoding (driver, AV policy, world hazards), who enters the major complex under faithful vs self-interested AV objectives?
 - Do anthropomorphic folk theories predict exact-Φ core membership better than chance once labels are stripped? (Research stub question 2.)
 - Is “handoff” a discrete membership cut (human in iff COMMIT_READ) transferable from the lab’s HITL studies?
+- If driver interventions feed back into the shared policy (driver writes the AV node that other drivers later read), does a second driver enter the same major complex — that is, does co-development make the form multi-party rather than a series of dyads with a tool?
 
 ## Alternative interpretations
 
@@ -40,3 +41,8 @@ Manual override; developing and sharing folk theories; refusing automation level
 **Author:** seed contrast (import) · **Date:** 2026-09-20
 
 A contrasting take: the AV is a tool in a driver–world dyad. Algorithmacy language overfits unless a second human (fleet dispatcher, remote safety operator, insurer) is coordinated through the same stack. Folk theories then look like ordinary tool-use literacy under uncertainty.
+
+### Engagement layer as development-as-product
+**Author:** Roger Hunt (drafted by agent) · **Date:** 2026-09-21
+
+Under the tool reading the driver uses a finished vehicle; under the collaborative reading the driver and vehicle co-manage a road. The engagement-layer reading adds that every handoff, override, and folk theory is continuous co-development of the shared policy: an intervention on one car becomes training data for the next driver’s car, so the fleet the next driver meets is the sediment of prior engagement. There is no finished vehicle to use. The handoff interface is the development interface, and designing it as a product surface — smooth, explanatory, reassuring — hides the fact that the driver is a contributor to a policy shared with strangers.

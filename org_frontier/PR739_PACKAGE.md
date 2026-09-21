@@ -25,7 +25,7 @@ In-silico; validation gap stated in each FINDINGS. No Hegel/Substack.
 | Omit-atom | [`OMIT_ATOM_ARC.md`](OMIT_ATOM_ARC.md) | Discrete motif-ruled Φ; size morphs rule form (**SCALE_MORPHS**), not continuum |
 | Role-target grain | [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md) | ROLE_TARGETS / Z_TARGETS / JOINT_TZ purify MIX indegs |
 | Construct × ladder | [`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md) | COMMIT_READ + monotone Φ=n−1 flip; gate regimes seal (**GATE_SEAL_HOLDS**) |
-| Estimation | [`ESTIMATION_ARC.md`](ESTIMATION_ARC.md) | Topology bottleneck; MI fast within family; AL_NO_GAIN; lane closable |
+| Estimation | [`ESTIMATION_ARC.md`](ESTIMATION_ARC.md) | Topology bottleneck; MI fast within family; AL_NO_GAIN; **#24 HIDDEN_COLLAPSE_INTERMITTENT_CLIFF**; lane closed |
 | Stoch–temporal | [`STOCH_TEMPORAL_ARC.md`](STOCH_TEMPORAL_ARC.md) | p\*=0.5 smooth decay; construction decides time factoring; lane picture closed |
 | Formal theory | [`FORMAL_THEORY_ARC.md`](FORMAL_THEORY_ARC.md) | #47–#50 done (**PARTIAL_PROOFS** / **NORMALIZED_CUT** / **NOT_UNIQUE** / **LATTICE**); lane closable |
 | AI / multi-agent | [`AI_MULTIAGENT_ARC.md`](AI_MULTIAGENT_ARC.md) | Membership cuts transfer; displacement sharp; structure≠learnability; lane closable |
@@ -35,7 +35,7 @@ In-silico; validation gap stated in each FINDINGS. No Hegel/Substack.
 
 ## Agenda map (RESEARCH_AGENDA_50_V2 on this PR)
 
-Closed science cells include A #1–#4, B #5–#14 (stoch–temporal), topology #15–#20, estimation #21–#23+#25, PE #29–#36, AI #37–#41, omit/construct scale #42, CV #43–#46, formal #47–#50. Open curiosities (not blockers): estimation #24 partial observation; optional M3 subset-Φ fidelity; optional deep MARL.
+Closed science cells include A #1–#4, B #5–#14 (stoch–temporal), topology #15–#20, estimation #21–#25, PE #29–#36, AI #37–#41, omit/construct scale #42, CV #43–#46, formal #47–#50. Open curiosities (not blockers): optional M3 subset-Φ fidelity; optional deep MARL.
 
 ## Residual risks (not science reopen)
 
@@ -64,4 +64,4 @@ Spot-check closed arcs via their spine reproduce blocks (each `*_ARC.md`).
 | Merge style | squash vs merge commit | Squash collapses ~160 commits; merge preserves history |
 | Approving review | required (`REVIEW_REQUIRED`) | One approving review per branch protection |
 | CI | wait for reproduce green after 180m budget | update-directory already green historically |
-| Follow-ups | M3 overlay; #24; empirical/survey | Outside this PR’s science scope |
+| Follow-ups | M3 overlay; empirical/survey | Outside this PR’s science scope; #24 closed on follow-up branch |

@@ -31,6 +31,7 @@ Data obfuscation; strategic engagement patterns to “teach” or confuse the or
 - Do folk encodings of the mediator match, mis-name, or displace parties that exact Φ places in the irreducible core?
 - When the oracle’s objective is learned from both sides vs frozen self-interest, does membership track the interested-third-party line (Q126–Q129)?
 - Is “teaching the algorithm” a real change in the mediator’s commit rule or only in the user’s beliefs about it?
+- When the curator has no frozen state and its rule is a function of all users' prior engagement, does exact Φ place the other users in the irreducible core with the one being served, or does the learned rule absorb them (compare Q128's objective-as-member result)?
 
 ## Alternative interpretations
 
@@ -40,3 +41,8 @@ Data obfuscation; strategic engagement patterns to “teach” or confuse the or
 **Author:** seed contrast (import) · **Date:** 2026-09-20
 
 A contrasting take: recommenders are matching markets with ranking rules, continuous with search and advertising, not a novel triadic competency. Folk theories are consumer superstition around a dyadic platform–user relation; the “other human” never enters a joint determination with the user through the system.
+
+### Engagement layer as development-as-product
+**Author:** Roger Hunt (drafted by agent) · **Date:** 2026-09-21
+
+The market reading and the seed both assume a recommender that exists and is then negotiated with. The engagement-layer reading denies the curator any finished product state. “Algorithmic pairing” — swiping, lingering, clicking in patterns meant to teach — is users developing the recommender for one another, and the recommender any single person meets is the accumulated output of everyone else’s teaching. Folk theories are then not superstition about a dyadic platform but partial developer models of a system the public is collectively building without a console. The design demand that follows is a console: expose the steering surface so that the development already happening is legible and contestable.
