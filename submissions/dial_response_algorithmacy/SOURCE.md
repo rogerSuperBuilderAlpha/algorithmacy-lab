@@ -16,16 +16,21 @@ Belousov, A., Macey, J., Bujić, M., Ojell-Järventausta, T., & Hamari, J. (2027
 
 ## Local extract
 
-Plain-text extract used while drafting this packet:
+Plain-text extracts used while drafting this packet:
 
-- Workspace upload: `article-response_807e.txt` (OCR / PDF text dump of the published article).
+- Workspace upload: `article-response_807e.txt` (OCR / PDF text dump of the published article), used for the earlier commentary.
+- Publisher PDF (ScienceDirect download, 2026-09-21), read in full via `pdftotext` for the full-article rebuild. The article's Table 1, Table A.1 summaries, and §4–5 extracts are the `extract` evidence source in [`corpus_coding.md`](corpus_coding.md).
+
+## Corpus re-use
+
+The article re-codes Belousov et al.'s fixed 25-novel corpus (their indices A1–A25) as a secondary analysis, without re-reading the novels. Evidence for every scene is tagged in [`corpus_coding.md`](corpus_coding.md): `extract` (in their article), `canon` (widely documented, not in their article), `to verify` (author's recollection; check before submission), `thin` (mediator present, no supportable reading/writing scene). The six-work extension (M1–M6) is documented in [`../scifi_interfaces_algorithmacy/works/`](../scifi_interfaces_algorithmacy/works/) and tagged `catalog`. Their CC BY 4.0 licence permits quotation of the extracts they published; block quotations in `draft.md` §4 are the passages they quoted, cited by their index and section.
 
 ## Related Belousov line (as cited in the target article)
 
 - Belousov et al. (2023) — early DIAL framing.
 - Belousov et al. (2024) — typology of digitally induced ASC via **input discrepancy** (Academic Mindtrek).
 
-Exact bibliographic strings for those earlier pieces should be taken from Belousov et al. (2027)’s reference list when the commentary is typeset for submission; do not invent DOIs.
+Exact bibliographic strings for those earlier pieces should be taken from Belousov et al. (2027)’s reference list when the article is typeset for submission; do not invent DOIs.
 
 ## Working discussion (Gemini)
 
