@@ -12,7 +12,7 @@ As coordination moves from literacy to algorithmacy, the decisive difference is 
 
 1. **Semiotic parity.** Brain–computer interfaces are not exceptional relative to text. Literacy already reorganizes consciousness (neuronal recycling / visual word form area; the historical load of *scriptio continua*). DIAL is continuous with that history, not a rupture that begins at the skull.
 2. **Theory of mind.** The paper’s “input discrepancy” criterion for altered states should yield to Integrated Information Theory: an altered state is a reconfiguration of the cause–effect complex, not a peripheral mismatch between sensory channels and experienced content.
-3. **Design for algorithmacy.** Dyadic HCI (user ↔ tool) is the wrong unit once the third party is active. Conversational skeuomorphism conceals latent-space steering. Interfaces should expose algorithmic white space — the room in which operators and publics co-steer the mediator.
+3. **Design for algorithmacy.** Dyadic HCI (user ↔ tool) is the wrong unit once the third party is active. Conversational skeuomorphism conceals latent-space steering. Interfaces should expose algorithmic white space — the room in which operators and publics co-steer the mediator. The layer to design is the engagement layer, not the product layer: under algorithmacy the development process IS the product, and users engaging the interface are performing development acts.
 4. **Upstream creation.** Science-fiction analysis of DIAL should examine how creators and operators build and steer systems in fiction, not only sensational downstream effects (dream-hacks, loyalty conditioning). The constructive demand is to democratize creation, not to sanitize experience for novices.
 
 ## Scope

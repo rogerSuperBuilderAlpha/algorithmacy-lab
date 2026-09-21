@@ -41,7 +41,8 @@ Target register: short, pointed, journal-adjacent commentary / letter. Claim-fir
 
 - Reject dyadic HCI as the default unit; reject conversational skeuomorphism that hides steering.
 - Design demand: expose latent-space steering and algorithmic white space — the operable room in which publics and operators co-steer the third party.
-- SF examples of **upstream literacy of the third party**: Cypher / operators reading Matrix code; developers manipulating Feed hexagons; Upload’s object-property overrides; neuromancer-class console cowboys; Aristoi-style sub-identity operators. These are not only UX spectacles. They are fictions of cooptive design competence.
+- 6.1 lens: the layer to design is the **engagement layer, not the product layer**. Under algorithmacy the development process IS the product; reading, training, toggling, handing off, and coding around the mediator are development acts.
+- 6.2 six fictions of engagement as development: Cypher’s console as operator station (Matrix); implant + hexagon wall as one cooptive stack (Feed); admin layer under the hotel skin (Upload); handoffs and folk theories as co-development of the policy (embodied co-pilot); algorithmic pairing as users developing the recommender for one another (curator); communal code-making as shipping the working interface (algospeak). Every act performed by a party Belousov et al. would code as “user.”
 - Contrast with Belousov et al.’s center of gravity: dream-hacks, loyalty conditioning, pleasure circuits, identity erasure as things that happen *to* users.
 - Link to sibling cultural arm (`scifi_interfaces_algorithmacy`) without requiring the reader to leave the commentary.
 

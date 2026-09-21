@@ -31,6 +31,17 @@ Exact bibliographic strings for those earlier pieces should be taken from Belous
 
 A Gemini working discussion helped Roger Hunt pressure-test the keystone thesis (literacy-style designer/user split vs triadic cooptive coordination under algorithmacy) and the subordinate critiques (semiotic parity, IIT against input discrepancy, design for algorithmacy, upstream SF coding). That chat is process, not a citable source. Nothing from it is pasted here; claims in `draft.md` must stand on Belousov et al. (2027), the lab’s published construct essays, and standard cited literature (Dehaene; Tononi / Albantakis; historical literacy).
 
+Share links supplied for the engagement-layer review (2026-09-21):
+
+- https://share.gemini.google/rNXS6IgaWP7U
+- https://share.gemini.google/f9xVV5lfGmEk
+
+Both return only the Gemini sign-in shell to an unauthenticated fetch; the conversation content is behind Google auth and was **not** read while drafting. If the text is pasted or exported later, fold it into §6 of `draft.md` and into the sci-fi catalog alternatives, still as process rather than citation.
+
+## Sci-fi engagement-layer source
+
+The Google Doc supplied alongside the Gemini links (https://docs.google.com/document/d/13YlMAIU9dS4_3-ZadfJ-G6ToTX4YwDCAxj5DhH0gpKE/edit) is the same manuscript already imported as [`../scifi_interfaces_algorithmacy/essay.md`](../scifi_interfaces_algorithmacy/essay.md). The six works it covers are catalogued under [`../scifi_interfaces_algorithmacy/works/`](../scifi_interfaces_algorithmacy/works/); the engagement-layer re-reading of them lives in [`../scifi_interfaces_algorithmacy/ENGAGEMENT_LAYER.md`](../scifi_interfaces_algorithmacy/ENGAGEMENT_LAYER.md) and as signed alternatives on each work file.
+
 ## Lab constructs used (not re-derived)
 
 - Literacy vs algorithmacy; dyadic (`Φ_MIP = 0`) vs triadic (`Φ_MIP > 0`) coordination forms — see [`../../org_frontier/essays/literacy_or_algorithmacy.md`](../../org_frontier/essays/literacy_or_algorithmacy.md) and [`../../OVERVIEW.md`](../../OVERVIEW.md).
