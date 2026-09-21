@@ -1,0 +1,10 @@
+regime,n_forms,n_tri,mi_auc,orient
+full,48,24,1.000000,1
+hide_party_C,48,24,0.550347,-1
+hide_mediator_S,48,24,1.000000,1
+hub_prior,48,24,0.751736,1
+ring_prior,48,24,0.944444,1
+naive_copy_w,48,24,0.932292,1
+naive_copy_s,48,24,0.798611,1
+naive_const0,48,24,0.506944,1
+naive_bernoulli,48,24,0.545139,-1

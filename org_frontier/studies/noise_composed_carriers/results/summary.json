@@ -1,0 +1,29 @@
+{
+  "verdict": "SAME_PSTAR_COMPOSED",
+  "reading": "SAME_PSTAR_COMPOSED \u2014 party and mediator flip-noise still share p*=0.5 on necklace and shared-mediator span; V2 #7 coin-flip threshold survives composition",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "control_ok": true,
+  "stats": {
+    "hub3": {
+      "p_med": 0.5,
+      "p_party": 0.5,
+      "gap": 0.0,
+      "max_phi_gap": 0.42552500000000004
+    },
+    "shared_k2": {
+      "p_med": 0.5,
+      "p_party": 0.5,
+      "gap": 0.0,
+      "max_phi_gap": 0.20616400000000001
+    },
+    "necklace": {
+      "p_med": 0.5,
+      "p_party": 0.5,
+      "gap": 0.0,
+      "max_phi_gap": 0.0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "verdict": "SCALE_BLOCKS_EXACT_PHI",
+  "reading": "SCALE_BLOCKS_EXACT_PHI \u2014 cycle-type catalog expands (10->14->21; new n8=[[2, 2, 3], [2, 5], [3, 4], [7]], new n9=[[2, 2, 2, 2], [2, 2, 4], [2, 3, 3], [2, 6], [3, 5], [4, 4], [8]]) but exact core-\u03a6 at n=8 is not adjudicable under the lab stack (dense-state major complex exceeds budget; sparse states \u03a6=0); n=7 BAND_GRAMMAR_HOLDS unrebutted",
+  "h1": true,
+  "h2": true,
+  "h3": false,
+  "h4": false,
+  "h5": false,
+  "n_classes": {
+    "7": 10,
+    "8": 14,
+    "9": 21
+  },
+  "new_cycle_types_n8": [
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      7
+    ]
+  ],
+  "new_cycle_types_n9": [
+    [
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      4
+    ],
+    [
+      2,
+      3,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      8
+    ]
+  ],
+  "micro_phis": [],
+  "n7_phi_set": [
+    12.0,
+    14.0
+  ],
+  "scope": "lean: n=7 committed control + MC catalogs n=7/8/9 + optional n=8 all-1 exact micro; full designed census intractable"
+}

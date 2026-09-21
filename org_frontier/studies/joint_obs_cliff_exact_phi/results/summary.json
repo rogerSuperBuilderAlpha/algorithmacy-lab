@@ -1,0 +1,16 @@
+{
+  "verdict": "TRANSFER_PARTIAL_EXACT_PHI",
+  "h1": "SUPPORTED",
+  "h2": "REFUTED",
+  "h3": "SUPPORTED",
+  "h4": "SUPPORTED",
+  "h5": "SUPPORTED",
+  "phi_full_family_auc": 1.0,
+  "phi_alt_family_auc": 0.8125,
+  "phi_zero_family_auc": 0.791667,
+  "phi_full_multi_auc": 1.0,
+  "phi_alt_multi_auc": 0.659664,
+  "mi_full_auc": 0.967014,
+  "mi_alt_auc": 0.585069,
+  "reading": "TRANSFER_PARTIAL_EXACT_PHI \u2014 MI alt cliffs (0.967\u21920.585); exact-\u03a6 alt soft on family_n3 (1.000\u21920.812, no cliff bar) but cliffs on multifamily (1.000\u21920.660); zero_duty_f=0.792"
+}

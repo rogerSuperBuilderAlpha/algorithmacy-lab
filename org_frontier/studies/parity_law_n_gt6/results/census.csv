@@ -1,0 +1,6 @@
+name,family,n,core_phi,law_phi,n_core,full_core,law_holds,seconds_exact,sia_phi,H_mip,cut_matches_exact,seconds_sia
+parity_hub_n3,control,3,0.5000000000,0.5000000000,3,True,True,0.15,0.5000000000,True,True,0.02
+parity_hub_n4,control,4,0.2500000000,0.2500000000,4,True,True,0.7,0.2500000000,True,True,0.14
+parity_hub_n5,control,5,0.1250000000,0.1250000000,5,True,True,5.2,0.1250000000,True,True,1.19
+parity_hub_n6,new,6,0.0625000000,0.0625000000,6,True,True,44.98,0.0625000000,True,True,10.91
+parity_hub_n7,new,7,0.0312500000,0.0312500000,7,True,True,406.3,0.0312500000,True,True,97.08

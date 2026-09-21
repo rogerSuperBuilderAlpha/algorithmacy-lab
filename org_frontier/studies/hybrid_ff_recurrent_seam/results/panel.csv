@@ -1,0 +1,6 @@
+family,seam,name,n,structure,whole_phi_mip,core,core_phi,n_core,core_zones,meets_ff,in_rec_only,spans_recurrent,top_local_hub,locus,seconds,L
+control,n/a,triad,3,triadic,2.0,W|S|C,2.0,3,recurrent,0,1,1,0,holds,0.11,
+hub_chain,AND,hub_L2,4,dyadic,0.0,H0|P0,2.0,2,recurrent,0,1,1,1,holds,0.11,2
+hybrid_triad_ff,AND,hy_triad_AND,5,dyadic,0.0,W|S|C,2.0,3,recurrent,0,1,1,0,holds,0.3,
+hybrid_tree_ff,AND,hy_tree_AND,5,dyadic,0.0,S0|L0|L1,2.0,3,recurrent,0,1,1,0,holds,0.32,
+hybrid_triad_ff,OR,hy_triad_OR,5,dyadic,0.0,H1|P1,2.0,2,ff,1,0,0,0,violates,0.26,

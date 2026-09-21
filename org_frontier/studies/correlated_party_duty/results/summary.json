@@ -1,0 +1,16 @@
+{
+  "verdict": "ALTERNATION_RECREATES_CLIFF",
+  "h1": "SUPPORTED",
+  "h2": "REFUTED",
+  "h3": "SUPPORTED",
+  "h4": "SUPPORTED",
+  "h5": "SUPPORTED",
+  "full_auc": 0.892361,
+  "zero_duty_C_auc": 0.505208,
+  "zero_duty_W_auc": 0.527778,
+  "sparse_C_d010_auc": 0.895833,
+  "alt_WC_auc": 0.571181,
+  "phase_WC_auc": 0.897569,
+  "hide_mediator_auc": 0.888889,
+  "reading": "ALTERNATION_RECREATES_CLIFF \u2014 alt_WC fails soften bar (AUC=0.571 vs full=0.892); zero-duty still cliffs (zC=0.505); losing joint WC observation is enough to recreate the \u03b4=0 cliff"
+}

@@ -1,0 +1,9 @@
+family,name,n,structure,whole_phi_mip,core,core_phi,n_core,full_core,seconds
+control,triad,3,triadic,2.0,W|S|C,2.0,3,1,0.11
+landmark,ring6,6,triadic,4.0,x0|x1|x2|x3|x4|x5,4.0,6,1,50.71
+landmark,hub6,6,triadic,5.0,x0|x1|x2|x3|x4|x5,5.0,6,1,40.75
+ring_of_hubs,roh_leaf_ring,6,triadic,3.0,H0|H1|H2,6.0,3,0,47.4
+ring_of_hubs,roh_hubs_ring,6,dyadic,0.0,H0|H1|H2,6.0,3,0,0.24
+ring_of_hubs,roh_2h2p,6,triadic,2.0,H0|H1|L10|L11,3.0,4,0,43.28
+ring_of_hubs,roh_OR_leaf,6,triadic,3.0,H0|H1|H2,6.0,3,0,51.57
+ring_of_hubs,roh_directed,6,triadic,2.0,H2|P2,2.0,2,0,65.19

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "hy_n6_AND",
+    "n": 6,
+    "structure": "dyadic",
+    "core_phi": 2.0,
+    "core": "W|S|C",
+    "n_core": 3,
+    "full_core": 0,
+    "seconds": 0.43
+  },
+  {
+    "name": "hy_n6_OR",
+    "n": 6,
+    "structure": "dyadic",
+    "core_phi": 2.0,
+    "core": "H1|P1",
+    "n_core": 2,
+    "full_core": 0,
+    "seconds": 0.36
+  },
+  {
+    "name": "neck_AND",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 4.0,
+    "core": "P0|P1|P2|H0|H1|H2",
+    "n_core": 6,
+    "full_core": 1,
+    "seconds": 55.44
+  },
+  {
+    "name": "neck_AND_chord",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 2.0,
+    "core": "P0|P1|P2|H0|H1|H2",
+    "n_core": 6,
+    "full_core": 1,
+    "seconds": 57.24
+  },
+  {
+    "name": "roh_leaf_ring",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 6.0,
+    "core": "H0|H1|H2",
+    "n_core": 3,
+    "full_core": 0,
+    "seconds": 48.35
+  },
+  {
+    "name": "roh_dense_leaf",
+    "n": 6,
+    "structure": "triadic",
+    "core_phi": 6.0,
+    "core": "H0|H1|H2",
+    "n_core": 3,
+    "full_core": 0,
+    "seconds": 44.14
+  }
+]

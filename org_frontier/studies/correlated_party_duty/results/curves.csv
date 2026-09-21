@@ -1,0 +1,8 @@
+regime,n_forms,n_tri,mi_auc,orient
+full,48,24,0.892361,1
+zero_duty_C,48,24,0.505208,-1
+zero_duty_W,48,24,0.527778,-1
+sparse_C_d0.10,48,24,0.895833,1
+alt_WC,48,24,0.571181,1
+phase_WC_d0.50,48,24,0.897569,1
+hide_mediator,48,24,0.888889,1

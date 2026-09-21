@@ -1,0 +1,15 @@
+regime,metric,value
+summary,clean_order,1.000000
+summary,clean_n4_acc,1.000000
+summary,clean_w_acc,0.700000
+summary,clean_wn_acc,1.000000
+summary,clean_auc,1.000000
+summary,field_wn,0.802500
+summary,field_wn_sd,0.103652
+summary,field_auc,0.997222
+summary,field_auc_sd,0.017347
+summary,field_order_rate,0.675000
+summary,drop_recip_wn,1.000000
+summary,drop_input_wn,1.000000
+summary,drop_affect_wn,1.000000
+summary,recip_only_wn,1.000000

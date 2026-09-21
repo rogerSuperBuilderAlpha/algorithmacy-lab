@@ -5,9 +5,11 @@ Exact binary IIT-4.0 Φ; in-silico. Residual / cascade / ternary noted only.
 
 ## Verdict in one line
 
-**Discrete motif-ruled Φ.** Size **morphs the rule form** (singleton → band;
-derangement rung → cycle-type split). It does **not** open a continuum, and
-it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
+**Discrete motif-ruled Φ.** Size **morphs the rule form once** (singleton →
+band at n=5→n=6; derangement rung → cycle-type split). From n=6→n=7 the
+**band grammar holds** (#8 BAND_GRAMMAR_HOLDS). It does **not** open a
+continuum, and it does **not** blur into within-class mixing (#42
+SCALE_MORPHS).
 
 ## Arc
 
@@ -20,6 +22,7 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
 | 5 | [`derangement_33_phi14/`](studies/derangement_33_phi14/) | PHI14_IS_33 | among !6, Φ=14 iff cycle type 3+3; other types → 12 |
 | 6 | [`same_indeg_band_n6/`](studies/same_indeg_band_n6/) | BAND_DISCRIMINANT | within indeg (0,1,1,1,1,2), Φ=9 iff {(5,),(2,3)}; else 8; classes pure |
 | 7 | [`discriminant_scale_blur/`](studies/discriminant_scale_blur/) | SCALE_MORPHS (#42) | purity holds across n; law morphs singleton→band; not blur |
+| 8 | [`omit_cycle_morph_n7/`](studies/omit_cycle_morph_n7/) | BAND_GRAMMAR_HOLDS (#8) | n=7 indeg (0,1,1,1,1,1,2): Φ=12 vs 14 bands; grammar stabilizes |
 
 ## Working picture
 
@@ -27,17 +30,18 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
    track omit digraph features — cycle type, and for derangements the
    partition type — once indegree signature is fixed.
 
-2. **Size morphs the rule, not the discreteness.** At n=5 the incomplete-core
+2. **Size morphs the rule once, then holds.** At n=5 the incomplete-core
    separator is a **singleton** 3-cycle motif. At n=6 it is a **multi-class
-   band** of cycle types. Derangements likewise go from one rung (Φ=9) to a
-   **cycle-type split** (12 vs 14). The Φ spectrum stays discrete relative to
-   designed landmarks (L5 / L6); Φ=14 is a new atom, not a spray.
+   band** of cycle types. At n=7 the same band grammar persists (Φ=12 vs
+   14). Derangements likewise go from one rung (Φ=9) to a **cycle-type
+   split** (12 vs 14). The Φ spectrum stays discrete relative to designed
+   landmarks; Φ=14 is a new atom, not a spray.
 
 3. **Purity survives scale.** Within a (cycles, recip) class, uniformity
-   samples do not mix Φ as n grows (#42). Softness is across classes
+   samples do not mix Φ as n grows (#42, #8). Softness is across classes
    (coarser bands), not inside them.
 
-4. **Scope.** Conjunctive AND; fixed_k omit (k=n−2); n∈{5,6}. Band purity is
+4. **Scope.** Conjunctive AND; fixed_k omit (k=n−2); n∈{5,6,7}. Band purity is
    **fingerprint-dependent**: indeg (0,1,1,1,1,2) was pure under cycle type;
    indeg (0,0,1,1,2,2) mixed until **role-target grain**
    ([`indeg_002122_grain/`](studies/indeg_002122_grain/) ROLE_TARGETS_LAW:
@@ -60,9 +64,8 @@ it does **not** blur into within-class mixing (#42 SCALE_MORPHS).
 
 ## Best next
 
-Construct/gate arc sealed:
-[`CONSTRUCT_LADDER_ARC.md`](CONSTRUCT_LADDER_ARC.md)
-([`construct_gates_seal/`](studies/construct_gates_seal/) GATE_SEAL_HOLDS).
-**Arc closable.** Role-target: [`ROLE_TARGET_GRAIN.md`](ROLE_TARGET_GRAIN.md).
-Skip another multi-role indeg. Residual / cascade / ternary unless
-tooling lands.
+Validation / estimation residuals **V3 #15–#16** closed
+(`IMPUTER_RESTORES_AUC`, `ALTERNATION_RECREATES_CLIFF`). V3 agenda
+complete — see [`V3_LANE_CLOSE.md`](V3_LANE_CLOSE.md).
+
+

@@ -1,0 +1,20 @@
+slug,family,panel,n,W,TI_7,reciprocity,input,affect,n_edges,structure,triadic,phi,core,core_size,landmark,notes
+hub4,hub,n4_triad,4,0.5,4.0,0.5,0.5,0.5,6,triadic,1,3.0,"{x0,x1,x2,x3}",4,HUB,conjunctive hub Φ=n−1
+ring4,ring,n4_triad,4,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,8,triadic,1,4.0,"{x0,x1,x2,x3}",4,RING4,ring landmark Φ=4
+pool4,pool,n4_triad,4,1.0,7.0,1.0,1.0,1.0,12,triadic,1,12.0,"{x0,x1,x2,x3}",4,POOL,all-required pool Φ=n(n−1)
+hub3,hub,cross_n,3,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,triadic,1,2.0,"{x0,x1,x2}",3,HUB,conjunctive hub Φ=n−1
+hub4,hub,cross_n,4,0.5,4.0,0.5,0.5,0.5,6,triadic,1,3.0,"{x0,x1,x2,x3}",4,HUB,conjunctive hub Φ=n−1
+ring4,ring,cross_n,4,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,8,triadic,1,4.0,"{x0,x1,x2,x3}",4,RING4,ring landmark Φ=4
+pool4,pool,cross_n,4,1.0,7.0,1.0,1.0,1.0,12,triadic,1,12.0,"{x0,x1,x2,x3}",4,POOL,all-required pool Φ=n(n−1)
+hub5,hub,cross_n,5,0.4000000000000001,3.4000000000000004,0.4,0.4,0.4,8,triadic,1,4.0,"{x0,x1,x2,x3,x4}",5,HUB,conjunctive hub Φ=n−1
+ring5,ring,cross_n,5,0.5,4.0,0.5,0.5,0.5,10,triadic,1,4.0,"{x0,x1,x2,x3,x4}",5,RING4,ring landmark Φ=4
+pool5,pool,cross_n,5,1.0,7.0,1.0,1.0,1.0,20,triadic,1,20.0,"{x0,x1,x2,x3,x4}",5,POOL,all-required pool Φ=n(n−1)
+hub6,hub,cross_n,6,0.3333333333333333,3.0,0.3333333333333333,0.33333333333333337,0.33333333333333337,10,triadic,1,5.0,"{x0,x1,x2,x3,x4,x5}",6,HUB,conjunctive hub Φ=n−1
+ring6,ring,cross_n,6,0.4000000000000001,3.4000000000000004,0.4,0.4,0.4,12,triadic,1,4.0,"{x0,x1,x2,x3,x4,x5}",6,RING4,ring landmark Φ=4
+pool6,pool,cross_n,6,1.0,7.0,1.0,1.0,1.0,30,triadic,1,30.0,"{x0,x1,x2,x3,x4,x5}",6,POOL,all-required pool Φ=n(n−1)
+independent,holdout,verdict,3,0.0,1.0,0.0,0.0,0.0,0,dyadic,0,1.0,{C},1,OTHER,no edges
+one_way_feed,holdout,verdict,3,0.1111111111111111,1.6666666666666665,0.0,0.16666666666666666,0.16666666666666666,1,dyadic,0,1.0,{C},1,OTHER,W→S
+seq_handoff,holdout,verdict,3,0.2222222222222222,2.333333333333333,0.0,0.3333333333333333,0.3333333333333333,2,dyadic,0,1.0,{C},1,OTHER,acyclic hand-off
+and_chain,holdout,verdict,3,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,triadic,1,2.0,"{W,S,C}",3,OTHER,AND cyclic
+xor_chain,holdout,verdict,3,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,triadic,1,0.5,"{W,S,C}",3,OTHER,XOR same CM
+or_chain,holdout,verdict,3,0.6666666666666666,5.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,4,triadic,1,2.0,"{W,S,C}",3,OTHER,OR same CM

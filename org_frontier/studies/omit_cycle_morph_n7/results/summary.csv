@@ -1,0 +1,2 @@
+h1,h2,h3,h4,verdict,n7_phi_set,n7_n_classes,n7_multi_class_bands,n6_phi_set,n6_pure
+SUPPORTED,SUPPORTED,SUPPORTED,SUPPORTED,BAND_GRAMMAR_HOLDS,12.0;14.0,10,2,8.0;9.0,True
