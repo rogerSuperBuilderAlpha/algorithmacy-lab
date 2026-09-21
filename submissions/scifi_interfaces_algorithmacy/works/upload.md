@@ -31,6 +31,7 @@ Subversive affordances: exploit designed features and loopholes (boolean toggles
 - Which exact-Φ design operations (omit mediator read, freeze mediator objective, open a direct worker–counterpart wire) reproduce Nathan-style displacement, and which leave the triad intact while only changing payoffs?
 - Is “digital Robin Hood” redistribution a change in membership of the irreducible core or only in the mediator’s objective function?
 - Where does the transparency paradox bite if Lakeview dropped its GUI and looked like Matrix code?
+- Encode Nathan's admin-layer write as a read-and-commit on the mediator's variables: does giving the "customer" node write access change major-complex membership, or only shift the mediator's objective while the triad stays intact?
 
 ## Alternative interpretations
 
@@ -40,3 +41,8 @@ Subversive affordances: exploit designed features and loopholes (boolean toggles
 **Author:** seed contrast (import) · **Date:** 2026-09-20
 
 A contrasting take: Horizen is the principal whose afterlife product Nathan consumes; Nora is employee, not counterpart in a worker–system–customer triad. On that reading Nathan’s hacks are consumer fraud / piracy inside a dyadic firm–customer relation, and algorithmacy as *triadic competency* is the wrong frame until a second human party is genuinely coordinated *through* the system.
+
+### Engagement layer as development-as-product
+**Author:** Roger Hunt (drafted by agent) · **Date:** 2026-09-21
+
+Nathan’s property toggles are usually filed under resistance. File them under development. Lakeview’s hotel skin is the literacy costume — a stable product surface that invites consumption — and the admin layer beneath it, where object properties and data-cap flags can be flipped, is the engagement layer where the afterlife is actually made and remade. Horizen codes Nathan as a customer; the scenes show him doing the firm’s development work from the customer seat. The design lesson is not that Horizen should hide the admin layer better, nor that novices need a friendlier skin, but that the admin layer is the interface the residents already need, and the skin is what keeps them from it.

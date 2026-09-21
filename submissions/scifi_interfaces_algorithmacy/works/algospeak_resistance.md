@@ -31,6 +31,7 @@ Algospeak; data obfuscation; cooperative affordances (encrypted group coordinati
 - Modeled as “open a direct worker–counterpart wire,” does evasion flip a triadic form to dyadic in exact Φ, or leave the mediator in the core while only changing the message alphabet?
 - When is a moderator a channel (Φ = 0) and when a party (Φ > 0)? Does classifier aggressiveness track that cut?
 - How should the catalog distinguish resistance that displaces the core from resistance that only changes payoffs?
+- Model evasion and retraining as a loop (community writes the code, classifier updates on it, community writes again): does the community node stay in the core with the moderator, making the protocol a co-developed third party rather than a bypass of one?
 
 ## Alternative interpretations
 
@@ -40,3 +41,8 @@ Algospeak; data obfuscation; cooperative affordances (encrypted group coordinati
 **Author:** seed contrast (import) · **Date:** 2026-09-20
 
 A contrasting take: coded language is literacy (and rhetoric) under a censor, continuous with samizdat and euphemism. Calling it algorithmacy inflates a speech practice into a coordination-form claim. The algorithmic stack is then an inspecting audience, not a committing mediator between two parties.
+
+### Engagement layer as development-as-product
+**Author:** Roger Hunt (drafted by agent) · **Date:** 2026-09-21
+
+Calling algospeak literacy under censorship treats the moderator as fixed and the speakers as adapting. The engagement-layer reading reverses the roles. Communal code-making is collective development of the moderator’s blind-spot map, and the community, not the vendor, ships the working interface through which people actually reach each other; the vendor ships a classifier, the public ships the protocol that runs over it. Each evasion also retrains the classifier, so the community and the vendor are co-developing the same third party from opposite ends. That is development-as-product without a developer console, and it is why the practice is communal rather than individual.
