@@ -125,12 +125,16 @@ runnable design yet. Themes group them; numbering is 1–50.
     See `studies/sample_complexity_screen/`.
 24. How fast does estimability degrade under partial observation — a hidden node, or a party observed
     only intermittently?
+    **Answered — HIDDEN_COLLAPSE_INTERMITTENT_CLIFF.** Hide party:
+    MI AUC 0.922→0.547; intermittent δ≥0.10 holds, cliffs at δ=0;
+    hide mediator ≈ full. See `studies/partial_observation_screen/`;
+    lane note `ESTIMATION_ARC.md` (closed).
 25. Which forms are most informative to label first when training a surrogate (active learning over the
     corpus)?
     **Answered — AL_NO_GAIN.** Uncertainty Δ=+0.015 vs random on pooled
     (H1/H2 refuted; H3 supported). Topo-balance hurts under LOFO.
     See `studies/active_label_acquisition/`; lane note
-    `ESTIMATION_ARC.md` (closable).
+    `ESTIMATION_ARC.md` (closed).
 
 ## F. The holistic residual
 
