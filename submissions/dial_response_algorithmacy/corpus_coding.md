@@ -4,7 +4,9 @@
 
 ## Design
 
-This is a secondary re-coding of a fixed published corpus. Belousov, Macey, Bujić, Ojell-Järventausta and Hamari (2027) analysed 25 science-fiction novels (their Table 1 / Table A.1, indexed A1–A25) for digitally induced altered states of consciousness. I hold their corpus fixed and re-code it against a different inclusion criterion, then extend it with the six works already catalogued in [`../scifi_interfaces_algorithmacy/works/`](../scifi_interfaces_algorithmacy/works/) (indexed M1–M6).
+This corpus is built for a different thing than Belousov et al.'s. They selected 25 novels (their Table 1 / Table A.1, indexed A1–A25) for scenes of an **end product**: a finished mind-altering technology already at work on a character's consciousness, tested by input discrepancy. This study selects for scenes of the **mediator's development**: a party reading or writing the algorithmic third party's rule — operating it, auditing it, committing a change another party will meet.
+
+The primary corpus is six works already catalogued in [`corpus/works/`](corpus/works/) (indexed M1–M6), staged specifically so that operation on the mediator is visible — a console, a developer wall, an admin layer. Belousov et al.'s 25 are drawn on opportunistically, not held fixed as a base sample: wherever one of their DIAL extracts happens to also show a development scene, despite their different selection criterion, it is included and indexed as they indexed it. Two of the 25 — A16 (*TekWar*) and A19 (*The Stars My Destination*) — supply no such scene, only a finished product's personal use, and are excluded; see their entries below for the reasoning. The corpus actually used is therefore **29 works**: the 6 in Table 2 of the draft, plus 23 of Belousov et al.'s 25 (A1–A25 minus A16, A19).
 
 ### Inclusion criterion — cooptive commit
 
@@ -27,7 +29,8 @@ Belousov et al.'s criterion (input discrepancy: signals from one system yield co
 - `extract` — the scene is quoted or paraphrased in Belousov et al. (2027) §4–5 or summarised in their Table A.1. Section given.
 - `canon` — the scene is not in their article but is a well-documented, widely discussed scene of the work; page-checkable by any reader with the book.
 - `to verify` — my recollection of the work supplies the reading; it should be checked against the text before submission. Phrased conditionally in the draft.
-- `thin` — the work contains an algorithmic mediator by their criterion but no scene of a party reading or writing its rule that I can support. Reported as such.
+- `thin` — the work contains an algorithmic mediator by their criterion but the reading or writing scene supporting inclusion is one-sided (e.g. a write shown with no corresponding read, or vice versa). Reported as such; the work is still in the corpus.
+- `excluded` — the work contains an algorithmic mediator by their criterion but no scene, on either the reading or the writing side, shows a party operating on the mediator's rule; only a finished product's personal use is shown. Not in the corpus. Reported here and in draft Appendix A rather than silently dropped.
 
 Coder: Roger Hunt, with drafting assistance from a coding agent; single coder, no inter-rater check. See draft §3.3 and §6.
 
@@ -188,14 +191,16 @@ Mediator: brain sockets and synthetic neurons that let consciousness content be 
 | Off-grid hackers run a parallel rig and coordinate to contain the virus | 8 Protocol shipping | `canon` | Community ships a protocol over the vendor's stack |
 | Implanting ideas for political ends | 7a Operator commit | `extract` §4.7 | Sanctioned external write |
 
-### A16 — *TekWar* (Shatner, 1989)
+### A16 — *TekWar* (Shatner, 1989) — `excluded`
 
 Mediator: Tek chips that immerse a user in controlled dreams; memory modification. Table A.1 summary; extracts §4.1, §4.7.
 
-| Scene | Cell | Tag | Note |
+| Scene | Cell (under their coding) | Tag | Note |
 |---|---|---|---|
-| A user selects dream content on a Tek chip | 5 Training by response | `extract` (A.1 summary) | Sanctioned internal write |
-| Memory correction imposed by others | 7a Operator commit | `extract` §4.7 | `thin`: no scene of reading the rule supported |
+| A user selects dream content on a Tek chip | 5 Training by response | `extract` (A.1 summary) | Personal configuration of a finished product; no leak to another party, no operator scene, no audit |
+| Memory correction imposed by others | 7a Operator commit | `extract` §4.7 | No scene of anyone reading the rule; the "correction" is asserted, not shown as an act on the mediator |
+
+**Excluded.** Both candidate scenes are end-product material: a user picking a dream from a menu, and a stated-but-unstaged memory correction. Neither shows a party operating on the mediator's structure, and the work is absent from the leakage table (Section D) — no internal act here becomes another party's development. Does not meet the development-of-the-product criterion.
 
 ### A17 — *The Algebraist* (Banks, 2004)
 
@@ -216,13 +221,15 @@ Mediator: a biofeedback device (the Augmentor) through which a psychiatrist dire
 | The patient's dreams undercut the instructions (dreaming a solution the operator did not order) | 8 Protocol shipping | `canon` | Subversive write from the "recipient" seat |
 | The operator turns the device on himself; the patient disconnects it | 6 → 8 | `canon` | Subversive write that ends the operator's write access |
 
-### A19 — *The Stars My Destination* (Bester, 1956)
+### A19 — *The Stars My Destination* (Bester, 1956) — `excluded`
 
 Mediator: military implants altering perception of time, obtained by bribery. Table A.1 summary; extracts §4.5.
 
-| Scene | Cell | Tag | Note |
+| Scene | Cell (under their coding) | Tag | Note |
 |---|---|---|---|
-| The protagonist bribes his way to combat implants | 5 Training by response | `extract` (A.1 summary), §4.5 | `thin`: mediator has a fixed rule; no reading or rewriting scene supported |
+| The protagonist bribes his way to combat implants | 5 Training by response | `extract` (A.1 summary), §4.5 | Acquiring a finished product, not operating one; the implant's rule is fixed and never shown being read or rewritten |
+
+**Excluded.** Bribing his way to the implant is a purchase, not a development act; the mediator has a fixed rule with no scene of anyone reading or rewriting it. Does not meet the development-of-the-product criterion.
 
 ### A20 — *The Terminal Man* (Crichton, 1972)
 
@@ -286,7 +293,7 @@ Mediator: brain-socket chips granting temporary skills (add-ons) or personalitie
 
 ## B. Extension corpus — the catalogued works
 
-Source for each: the work file in [`../scifi_interfaces_algorithmacy/works/`](../scifi_interfaces_algorithmacy/works/) and the engagement-layer reading in [`../scifi_interfaces_algorithmacy/ENGAGEMENT_LAYER.md`](../scifi_interfaces_algorithmacy/ENGAGEMENT_LAYER.md). Tag `catalog` marks scenes already documented there.
+Source for each: the work file in [`corpus/works/`](corpus/works/) and the engagement-layer reading in [`corpus/ENGAGEMENT_LAYER.md`](corpus/ENGAGEMENT_LAYER.md). Tag `catalog` marks scenes already documented there.
 
 ### M1 — *The Matrix* (Wachowski, 1999)
 
@@ -350,13 +357,13 @@ Source for each: the work file in [`../scifi_interfaces_algorithmacy/works/`](..
 | 2 Backend reading | A1†, A3, A4, A10, A11, A12, A15, A22 |
 | 3 Shared folk theory | A5, A21, A23†, M2, M3, M4, M6 |
 | 4 Audit | A4, A6, A8, A9, A10†, A14, A20, M1 |
-| 5 Training by response | A1, A2, A4, A5, A7, A9, A10, A13, A16, A19‡, A22, A24, A25, M5 |
+| 5 Training by response | A1, A2, A4, A5, A7, A9, A10, A13, A22, A24, A25, M5 |
 | 6 Subversive affordance | A11, A18, A20, M3, M4, M5 |
-| 7a Operator commit — centralized | A1, A2, A3, A5, A6, A7, A8, A9, A10, A11, A12, A14, A15, A16‡, A17, A18, A20, A21, A23, A24‡, A25, M1, M2, M3 |
+| 7a Operator commit — centralized | A1, A2, A3, A5, A6, A7, A8, A9, A10, A11, A12, A14, A15, A17, A18, A20, A21, A23, A24‡, A25, M1, M2, M3 |
 | 7b Operator commit — distributed | A2, A5, A12, A13, A15, A17, A22, A23, M2, M4, M5 |
 | 8 Protocol shipping | A3†, A6, A8, A14†, A15, A18, A21, A23†, M3, M6 |
 
-† at least one `to verify` tag; ‡ `thin`.
+† at least one `to verify` tag; ‡ `thin` (one-sided evidence, still in corpus). A16 and A19 are `excluded` and do not appear in this table; see their entries above.
 
 ## D. Leakage — internal cells that become external in the narrative
 
