@@ -1,6 +1,6 @@
 # Triadic reduction — the talk
 
-**Status.** Sources ingested; claims register, verification, argument, deck and script to follow.
+**Status.** Sources ingested and verified; argument drafted; the claim awaits the author's lock ([`CLAIM.md`](CLAIM.md)). Deck and script follow the lock.
 **Venue.** ALGOCON, the algorithmacy.org conference, Port of Spain, 28–31 October 2026. Slot: 20 minutes.
 **Deliverables.** A black-and-white, text-only slide deck (`.pptx` built from Markdown) and a talk script.
 
@@ -36,6 +36,13 @@ others inside a system that does not factor. Φ > 0 alone is not the test: the l
 | [`sources/`](sources/) | Verbatim captures: Gemini share pages (G1–G7), Drive documents (D-series), the pasted Gemini script (P1) |
 | [`sources/MANIFEST.md`](sources/MANIFEST.md) | How each capture was made and checked, with hashes |
 | [`sources/capture_gemini_share.py`](sources/capture_gemini_share.py) | Re-captures a Gemini share page as Markdown |
+| [`CLAIM.md`](CLAIM.md) | The claim lock: title, question, the one thesis, what it licenses, what not to claim, open decisions — **draft, awaiting the author** |
+| [`ARGUMENT.md`](ARGUMENT.md) | The premise-by-premise argument, S1–S6, each premise with its card, CI or register support |
+| [`OUTLINE.md`](OUTLINE.md) | Slide-by-slide plan: on-slide text, premises carried, sources, timing |
+| [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md) | Decisions and items only the author can close |
+| [`claims/`](claims/) | The claims register: every claim the preliminary sources make, with a verbatim anchor and what became of it (`check_register.py` gates it) |
+| [`library/`](library/) | One card per work, marked verified, corrected, metadata-only or unverifiable against what was actually read |
+| [`talk/`](talk/) | Deck and script sources, the deck builder, the checker, the previewer, prepared Q&A |
 
 ## Re-capturing a Gemini share page
 
