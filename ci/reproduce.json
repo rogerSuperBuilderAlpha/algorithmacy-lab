@@ -137,6 +137,42 @@
       "source": "org_frontier/thinkers/peirce/FINDINGS.md"
     },
     {
+      "name": "thinkers-peirce-jd",
+      "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_joint_determination",
+      "expect": [
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "control                \u03a6_MIP=2.000000  core=('A', 'B', 'M')        jd=True  in_whole=True   M <- AB (\u03c6=2.000)",
+        "giving_genuine         \u03a6_MIP=2.000000  core=('G', 'R', 'T')        jd=True  in_whole=True   R <- GT (\u03c6=2.000)",
+        "sign_pragmatic         \u03a6_MIP=2.000000  core=('I', 'O', 'S')        jd=True  in_whole=True   I <- OS (\u03c6=0.500)",
+        "dyad_mutual            \u03a6_MIP=2.000000  core=('A', 'B')             jd=False in_whole=False  none",
+        "giving_degenerate      \u03a6_MIP=2.000000  core=('G', 'R', 'T')        jd=False in_whole=False  none",
+        "JD1 (criterion reads the exemplars: 3 in a whole, 7 with none): CONFIRMED  misreads=0",
+        "majority_triad         \u03a6_MIP=0.000000  core=()                     jd=True  in_whole=False  C <- AB (\u03c6=0.500, tied)",
+        "triad_mutual           \u03a6_MIP=6.000000  core=('A', 'B', 'C')        jd=True  in_whole=True   A <- BC (\u03c6=0.500), B <- AC (\u03c6=0.500), C <- AB (\u03c6=0.500)",
+        "mediator               \u03a6_MIP=2.000000  core=('A', 'B', 'M')        jd=True  in_whole=True   M <- AB (\u03c6=0.500)",
+        "JD2 (a party jointly determined in a system that factors: majority jd=True \u03a6_MIP=0.000000): CONFIRMED",
+        "post hoc: majority joint determination tie-robust=False",
+        "forms=8  joint determination in a whole=2  joint determination with \u03a6_MIP=0=2  no jd=0",
+        "post hoc, tie-robust only: in a whole=2  with \u03a6_MIP=0=2"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/thinkers/peirce/FINDINGS.md"
+    },
+    {
+      "name": "thinkers-peirce-jd-full",
+      "slow": true,
+      "cmd": "python -m org_frontier.thinkers.peirce.probe_peirce_joint_determination --full",
+      "expect": [
+        "control conjunctive triad: \u03a6=2.000000 core=('A', 'M', 'B') adicity=3 PASS",
+        "n=5 isomorphism classes=13  with joint determination=0",
+        "forms=30  joint determination in a whole=5  joint determination with \u03a6_MIP=0=11  no jd=1",
+        "post hoc, tie-robust only: in a whole=5  with \u03a6_MIP=0=11",
+        "JD3 (confirmation on unread families: n=5 none, both cells non-empty): CONFIRMED"
+      ],
+      "timeout": 3600,
+      "source": "org_frontier/thinkers/peirce/FINDINGS.md"
+    },
+    {
       "name": "thinkers-caplow-h1-types",
       "cmd": "python -m org_frontier.thinkers.caplow.probe_caplow_types",
       "expect": [
