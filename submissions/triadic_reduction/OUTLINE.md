@@ -4,9 +4,10 @@
 
 ---
 
-### Slide 1: Can a triad be built from pairs? (S1 · 30 s)
+### Slide 1: Do triads reduce to dyads? (S1 · 30 s)
 ```
-Can a triad be built from pairs?
+Do Triads Reduce to Dyads?
+The Ontology of Algorithmacy
 
 Literacy: a medium that answers to one party at a time.
 Algorithmacy: a third that both parties determine.
