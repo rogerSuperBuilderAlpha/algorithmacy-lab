@@ -1,0 +1,52 @@
+---
+citekey: burch1991reduction
+title: "A Peircean Reduction Thesis: The Foundations of Topological Logic"
+authors: "Burch, Robert W."
+year: 1991
+venue: "Texas Tech University Press, Lubbock"
+doi: ""
+section: "S1, S4"
+status: candidate
+verified: metadata-only
+source_basis: "metadata only: title, publisher and year confirmed in the reference lists of herethcorreia2004power, herethcorreia2006teridentity, dau2006instances and hereth2011logic (all read in full), in conarroe2020relations' Works Cited (read in full), in the Open Library record (ISBN 0-89672-247-3 / 978-0-89672-247-7; median 152 pp.) and in Burch's own SEP bibliography (burch2021sep, which misprints the subtitle). The book itself was not read. Everything this card says about its content is reported by other authors and has not been checked against Burch's text."
+access_url: "https://openlibrary.org/works/OL4459535W"
+retrieved: 2026-09-24
+sha256: ""
+---
+
+## What the talk may use it for
+The book has not been read, so every content claim here is reported by others. As reported by Hereth Correia & Pöschel (2004, 2006), Hereth & Pöschel (2011) and Dau & Hereth Correia (2006), the book defines Peircean Algebraic Logic (PAL) as an algebraization of Peirce's Beta existential graphs, gives teridentity a central role, and proves both clauses of the reduction thesis inside PAL. The same papers report a restriction on the irreducibility proof: juxtaposition (Cartesian product) is allowed "only as last or before last operation" (herethcorreia2006teridentity p. 2), implemented as join2 = δ(ρ × σ) with free products only in a final step (hereth2011logic p. 6). As reported by herethcorreia2004power (Remark 15), Burch enlarges the domain by hypostatic abstraction for the constructive clause on finite domains. As reported by Conarroe 2020, the book argues that Quine's constructions "involve Thirdness throughout" (p. 121). Burch's own later summary is citable directly: the SEP entry (burch2021sep) dates the proof to 1988 and lists Peirce's resources as negation, a generalized relative product and teridentity. The talk may cite the book for the existence of PAL and of a restricted proof. For anything more exact it must cite the reporting papers, or Burch's SEP entry, until the book is read.
+
+## Loci
+No locus was read in the book. The lines below are other authors' transcriptions. Each was seen once and none has been checked against Burch:
+- p. ix (as transcribed in conarroe2020relations p. 94) — "Peirce was certainly some sort of realist with regard to relations simpliciter…in his view, relations as such were fundamental, whereas individual entities were derivative by means of (hypostatic) abstraction from them" — Burch describing Peirce's view.
+- pp. 1–2 (Conarroe pp. 115, 139) — the relative product is "the most fundamental of all modes of conceptual combination", and quantification theory "places individuals at the fundamental level, by virtue of its variables and constants. This, in Peirce's view, is a mistake."
+- p. 3 (as quoted in hereth2011logic p. 1) — PAL expresses Peirce's "unitary logical vision".
+- p. 117 (koshkin2022reduction, arXiv p. 8) — "Let us say that Thirdness is involved in any operation or procedure... such that, if the operation or procedure were formalized in PAL, its definition would have to presuppose the availability of at least one non-degenerate triadic relation" — Burch's criterion for Thirdness in an operation.
+- p. 118 (Conarroe p. 145) — any reduction of triads to dyads "involves Thirdness" (Conarroe's quoted fragment).
+- p. 120 (Conarroe p. 141, note 139) — Burch cites Löwenheim 1915 alongside Quine.
+- p. 121 (Conarroe p. 145) — "Quine's methods for constructing relations from relations involve Thirdness throughout. These methods are formulated by using devices like quantification and the identification of free variables"
+
+## What the preliminary sources claim about it
+- burch-1991-bib (TR-S4-018, -054) → verified as metadata (bibliography only). Burch, Robert W. (1991), *A Peircean Reduction Thesis: The Foundations of Topological Logic*, Lubbock: Texas Tech University Press. Do not cite the AbeBooks listing.
+- burch-1991-bib (TR-S4-096, -102) → refuted. The publisher is Texas Tech University Press, not Springer's European Studies in Logic and Philosophy of Science. Every reference list read, the Open Library record and Burch's SEP bibliography agree.
+- burch-1991-formalized-pal (TR-S4-066, -131, -140, -197) → reported by herethcorreia2004power (abstract: Burch "proposed … an algebraization of the existential graphs and called it the Peircean Algebraic Logic (PAL)") and by dau2006instances p. 107 (teridentity "plays a crucial role for Peirce and also in Burch's book"); not read in Burch. Conarroe p. 139 independently reports "Peircean Algebraic Logic" at APRT p. 5.
+- burch-1991-formalized-pal (TR-S4-198) → corrected on the bibliography. The book's title is *A Peircean Reduction Thesis*; "Peircean Algebraic Logic" is the name of the system, not of the book.
+- burch-1991-proved-prt (TR-S4-005, -097, -141) → corrected as reported by herethcorreia2006teridentity (abstract and p. 2) and dau2006instances p. 106: Burch proved a version of the thesis in PAL *under the juxtaposition restriction*. Not read in Burch. The restriction is on PAL's term construction, not a "clone restriction" (TR-S4-097). Burch's own SEP summary claims "An exact exposition and proof" (1988, published 1991) and does not mention the restriction (burch2021sep).
+- burch-1991-proved-prt (TR-S4-132, -199) → corrected. "First algebraic proof" is wrong: Herzberger 1981 proves irreducibility (T7) and reducibility "within any sufficiently large domain" (T8) in his bonding algebra, now matched in two scans (herzberger1981theorem). herethcorreia2006teridentity p. 2 also credits Herzberger with "a first approach for an algebraic proof".
+- burch-terminal-juxtaposition-restriction (TR-S4-142, -145, -200) → reported by herethcorreia2006teridentity p. 2, hereth2011logic p. 6 and dau2006instances p. 106, which agree with one another; not read in Burch. "Terminal or penultimate steps" matches their "last or before last operation". TR-S4-145's "artificially restricting intermediate relational branchings" is the register's own gloss: dau2006instances p. 106 reports that Burch proves the restriction leaves expressivity unchanged.
+- burch-restriction-undermines-universality (TR-S4-147, -148, -149) → corrected: see herethcorreia2006teridentity. As reported there, the restriction limits the proof, not what PAL can express.
+- teridentity-not-generated-from-dyads (TR-S4-090) → corrected. As reported, Burch's non-reducibility result carries the juxtaposition restriction. The restriction-free result is herethcorreia2006teridentity Theorem 2.
+- burch-relations-simpliciter (TR-S4-143) → unverifiable; the book was not read. Conarroe (p. 94) transcribes "relations simpliciter" from p. ix, where Burch says Peirce was a realist about relations and took individuals as derived by hypostatic abstraction. If that transcription is right, the phrase describes Peirce's view as Burch reads it. "Grounded in graph topology" is not attested.
+- burch-topological-invariants (TR-S4-144) → unverifiable: the book was not read. The subtitle ("Topological Logic") and the 1992 abstract ("valental" characteristics; PAL as "a bridge between logic and topological graph theory", burch1992valental) show the topology framing. Whether Burch uses Listing's "choresis" and "cyclosis" is unchecked.
+- pal-translation-needs-hypostatic-abstraction (TR-S4-146) → corrected, partly unverifiable. What is reported (herethcorreia2004power Remark 15) is that Burch uses hypostatic abstraction, i.e. domain extension, for the *constructive clause on finite domains*. A single OCR snippet of Burch 1997 fits this ("The full rationale for the positive part of Peirce's reduction thesis involves the notion of “hypostatic…"; burch1997reduction). That it is needed "to translate standard quantification theory into PAL graphs" is not attested.
+- burch-branching-teridentity (TR-S4-064) → unverifiable in Burch's own words. As reported by herethcorreia2004power p. 8, teridentity in PAL graphs "just 'splits' one edge into three 'directions'", and koshkin2022reduction Fig. 2a shows the triple junction simulated by I3. Conarroe p. 140 reports that PAL's branching operation is called COMMA (Burch 1997, p. 244). The lab half of D4's sentence is a lab result, not Burch's.
+- pal-valency-conservation (TR-S1-052) → corrected, partly unverifiable. The valency rule is Herzberger's (herzberger1981theorem, matched in two scans). The valency-≤2 argument for positive PAL without id3 is herethcorreia2004power Remark 14. Whether Burch argues from valency conservation is unread. koshkin2022reduction §3 reports that juxtaposition "is the only operation of PAL that breaks the valency rule".
+- teridentity-branching-node (TR-S1-006, -013, -027, -035) → corrected (card sowa2018reasoning). As reported (herethcorreia2004power p. 8), teridentity is the branch point of a ligature in PAL/EG notation.
+- prt-citation (TR-S1-018, -025, -032) → corrected. For the *named* thesis and its PAL formulation cite Burch 1991. For a one-sentence statement in Burch's own words cite burch2021sep §14. For Peirce's own statements cite the peirce cluster's cards (1870 CP 3.144; CP 1.363; 1897 Monist). dau2006instances p. 106 notes that Peirce never states the thesis explicitly.
+- kempe-junction-burch-teridentity (TR-S5-195) → unverifiable; unchanged. The book was not read.
+
+## Notes
+- Burch's shorter expositions are burch1997reduction ("Peirce's Reduction Thesis", Studies in the Logic of CSP, chapter 13, from p. 234; single-scan search snippets only) and burch1992valental (Computers & Mathematics with Applications 23(6–9): 665–677, doi:10.1016/0898-1221(92)90128-5; Elsevier open archive; only the abstract was reached). Either could replace the unread book as the primary source for Burch's own statement of the theorem.
+- koshkin2022reduction §7 reports a second Burch restriction: negation may enclose only connected graphs, not juxtapositions. It is unverified here.
+- The lab's org_frontier/thinkers/peirce/paper.md says Burch "built a Peircean algebraic logic in which … the thesis is a theorem". That is fair only if the restriction is stated, and "a theorem" should be attributed to Burch as reported by Hereth/Pöschel.

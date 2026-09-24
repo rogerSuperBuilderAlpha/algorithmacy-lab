@@ -117,9 +117,13 @@ def render(rows: list[dict]) -> str:
                   "| id | source | kind | claim | cited work | status | note |",
                   "| --- | --- | --- | --- | --- | --- | --- |"]
         for r in sec_rows:
+            note = r.get("note") or ""
+            if r.get("correction"):
+                card = f" [{r['card']}]" if r.get("card") else ""
+                note = f"→ {r['correction']}{card}" + (f" {note}" if note else "")
             cells = [r["id"], r["source"] + (f" t{r['turn']}" if r.get("turn") else ""),
                      r["kind"], r["claim"], r.get("cited_work") or "",
-                     r["status"], r.get("note") or ""]
+                     r["status"], note]
             cells = [str(c).replace("|", "\\|").replace("\n", " ") for c in cells]
             lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines) + "\n"
