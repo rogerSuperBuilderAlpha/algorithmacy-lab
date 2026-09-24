@@ -1,0 +1,758 @@
+{
+  "control": {
+    "form": "control_conjunctive",
+    "labels": [
+      "A",
+      "M",
+      "B"
+    ],
+    "spec": null,
+    "verdict": "triadic",
+    "phi_mip": 2.0,
+    "core": [
+      "A",
+      "M",
+      "B"
+    ],
+    "core_phi": 2.0,
+    "genuine_adicity": 3,
+    "cause_adicity": 3,
+    "effect_adicity": 3,
+    "n_distinctions": 3,
+    "max_distinction": "M -> cause AB effect AB (\u03c6=2.000) at 010",
+    "seconds": 0.17
+  },
+  "JD1": {
+    "positive": [
+      {
+        "form": "control",
+        "labels": [
+          "A",
+          "M",
+          "B"
+        ],
+        "phi_mip": 2.0,
+        "core": [
+          "A",
+          "B",
+          "M"
+        ],
+        "jd_elements": {
+          "M": {
+            "purview": [
+              "A",
+              "B"
+            ],
+            "phi": 2.0,
+            "state": "010",
+            "tie_robust": true,
+            "n_tied_purviews": 1
+          }
+        },
+        "jd": true,
+        "jd_in_whole": true,
+        "post_hoc_jd_tie_robust": true,
+        "seconds": 0.16
+      },
+      {
+        "form": "giving_genuine",
+        "labels": [
+          "G",
+          "T",
+          "R"
+        ],
+        "phi_mip": 2.0,
+        "core": [
+          "G",
+          "R",
+          "T"
+        ],
+        "jd_elements": {
+          "R": {
+            "purview": [
+              "G",
+              "T"
+            ],
+            "phi": 2.0,
+            "state": "001",
+            "tie_robust": true,
+            "n_tied_purviews": 1
+          }
+        },
+        "jd": true,
+        "jd_in_whole": true,
+        "post_hoc_jd_tie_robust": true,
+        "seconds": 0.17
+      },
+      {
+        "form": "sign_pragmatic",
+        "labels": [
+          "O",
+          "S",
+          "I"
+        ],
+        "phi_mip": 2.0,
+        "core": [
+          "I",
+          "O",
+          "S"
+        ],
+        "jd_elements": {
+          "I": {
+            "purview": [
+              "O",
+              "S"
+            ],
+            "phi": 0.5,
+            "state": "000",
+            "tie_robust": true,
+            "n_tied_purviews": 1
+          }
+        },
+        "jd": true,
+        "jd_in_whole": true,
+        "post_hoc_jd_tie_robust": true,
+        "seconds": 0.62
+      }
+    ],
+    "negative": [
+      {
+        "form": "dyad_mutual",
+        "labels": [
+          "A",
+          "B"
+        ],
+        "phi_mip": 2.0,
+        "core": [
+          "A",
+          "B"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.04
+      },
+      {
+        "form": "copy_BCA",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "phi_mip": 2.0,
+        "core": [
+          "A",
+          "B",
+          "C"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.53
+      },
+      {
+        "form": "copy_CCA",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "phi_mip": 0.0,
+        "core": [
+          "A",
+          "C"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.03
+      },
+      {
+        "form": "giving_degenerate",
+        "labels": [
+          "G",
+          "T",
+          "R"
+        ],
+        "phi_mip": 2.0,
+        "core": [
+          "G",
+          "R",
+          "T"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.56
+      },
+      {
+        "form": "dyadic_degenerate",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "phi_mip": 0.0,
+        "core": [
+          "A"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.03
+      },
+      {
+        "form": "monadic_degenerate",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "phi_mip": 0.0,
+        "core": [
+          "C"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.06
+      },
+      {
+        "form": "sign_exogenous",
+        "labels": [
+          "O",
+          "S",
+          "I"
+        ],
+        "phi_mip": 0.0,
+        "core": [
+          "O"
+        ],
+        "jd_elements": {},
+        "jd": false,
+        "jd_in_whole": false,
+        "post_hoc_jd_tie_robust": false,
+        "seconds": 0.08
+      }
+    ],
+    "misreads": 0,
+    "verdict": "CONFIRMED"
+  },
+  "JD2": {
+    "majority_triad": {
+      "form": "majority_triad",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 0.0,
+      "core": [],
+      "jd_elements": {
+        "C": {
+          "purview": [
+            "A",
+            "B"
+          ],
+          "phi": 0.5,
+          "state": "000",
+          "tie_robust": false,
+          "n_tied_purviews": 3
+        }
+      },
+      "jd": true,
+      "jd_in_whole": false,
+      "post_hoc_jd_tie_robust": false,
+      "seconds": 0.27
+    },
+    "triad_mutual": {
+      "form": "triad_mutual",
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "phi_mip": 6.0,
+      "core": [
+        "A",
+        "B",
+        "C"
+      ],
+      "jd_elements": {
+        "A": {
+          "purview": [
+            "B",
+            "C"
+          ],
+          "phi": 0.5,
+          "state": "111",
+          "tie_robust": true,
+          "n_tied_purviews": 1
+        },
+        "B": {
+          "purview": [
+            "A",
+            "C"
+          ],
+          "phi": 0.5,
+          "state": "111",
+          "tie_robust": true,
+          "n_tied_purviews": 1
+        },
+        "C": {
+          "purview": [
+            "A",
+            "B"
+          ],
+          "phi": 0.5,
+          "state": "111",
+          "tie_robust": true,
+          "n_tied_purviews": 1
+        }
+      },
+      "jd": true,
+      "jd_in_whole": true,
+      "post_hoc_jd_tie_robust": true,
+      "seconds": 0.43
+    },
+    "mediator": {
+      "form": "mediator",
+      "labels": [
+        "A",
+        "M",
+        "B"
+      ],
+      "phi_mip": 2.0,
+      "core": [
+        "A",
+        "B",
+        "M"
+      ],
+      "jd_elements": {
+        "M": {
+          "purview": [
+            "A",
+            "B"
+          ],
+          "phi": 0.5,
+          "state": "111",
+          "tie_robust": true,
+          "n_tied_purviews": 1
+        }
+      },
+      "jd": true,
+      "jd_in_whole": true,
+      "post_hoc_jd_tie_robust": true,
+      "seconds": 0.39
+    },
+    "verdict": "CONFIRMED"
+  },
+  "JD3": {
+    "b": {
+      "forms": [
+        {
+          "form": "two_input_00",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 0.207519,
+          "core": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "jd_elements": {
+            "A": {
+              "purview": [
+                "B",
+                "D"
+              ],
+              "phi": 0.707519,
+              "state": "1110",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "B": {
+              "purview": [
+                "A",
+                "C"
+              ],
+              "phi": 0.915037,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "C": {
+              "purview": [
+                "B",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "D": {
+              "purview": [
+                "A",
+                "B"
+              ],
+              "phi": 0.707519,
+              "state": "0101",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": true,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 3.38,
+          "spec": "A=NOR(B,D);B=OR(A,C);C=NAND(B,D);D=AND(A,B)"
+        },
+        {
+          "form": "two_input_01",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 0.830075,
+          "core": [
+            "A",
+            "C"
+          ],
+          "jd_elements": {
+            "A": {
+              "purview": [
+                "C",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "B": {
+              "purview": [
+                "A",
+                "C"
+              ],
+              "phi": 0.5,
+              "state": "1110",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "C": {
+              "purview": [
+                "A",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": false,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 9.88,
+          "spec": "A=XNOR(C,D);B=NOR(A,C);C=XNOR(A,D);D=AND(A,B)"
+        },
+        {
+          "form": "two_input_02",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 2.0,
+          "core": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "jd_elements": {
+            "A": {
+              "purview": [
+                "B",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "D": {
+              "purview": [
+                "A",
+                "C"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": true,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 8.78,
+          "spec": "A=XOR(B,D);B=OR(A,D);C=OR(A,D);D=XNOR(A,C)"
+        },
+        {
+          "form": "two_input_03",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 0.830075,
+          "core": [
+            "B",
+            "D"
+          ],
+          "jd_elements": {
+            "A": {
+              "purview": [
+                "B",
+                "C"
+              ],
+              "phi": 0.5,
+              "state": "0010",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "B": {
+              "purview": [
+                "A",
+                "D"
+              ],
+              "phi": 0.830075,
+              "state": "0100",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "D": {
+              "purview": [
+                "A",
+                "B"
+              ],
+              "phi": 0.5,
+              "state": "0010",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": false,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 3.09,
+          "spec": "A=OR(B,C);B=NOR(A,D);C=OR(A,D);D=OR(A,B)"
+        },
+        {
+          "form": "two_input_04",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 0.0,
+          "core": [
+            "C",
+            "D"
+          ],
+          "jd_elements": {
+            "B": {
+              "purview": [
+                "C",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0101",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "C": {
+              "purview": [
+                "B",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "1010",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "D": {
+              "purview": [
+                "B",
+                "C"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": false,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 2.5,
+          "spec": "A=NAND(B,D);B=AND(C,D);C=XOR(B,D);D=XNOR(B,C)"
+        },
+        {
+          "form": "two_input_05",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 0.830075,
+          "core": [
+            "B",
+            "D"
+          ],
+          "jd_elements": {
+            "A": {
+              "purview": [
+                "B",
+                "D"
+              ],
+              "phi": 0.830075,
+              "state": "1000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "B": {
+              "purview": [
+                "C",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "D": {
+              "purview": [
+                "A",
+                "B"
+              ],
+              "phi": 0.5,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": false,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 4.25,
+          "spec": "A=NOR(B,D);B=XNOR(C,D);C=OR(A,B);D=OR(A,B)"
+        },
+        {
+          "form": "two_input_06",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 0.0,
+          "core": [
+            "B",
+            "C",
+            "D"
+          ],
+          "jd_elements": {
+            "C": {
+              "purview": [
+                "A",
+                "B"
+              ],
+              "phi": 0.707519,
+              "state": "0000",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "D": {
+              "purview": [
+                "B",
+                "C"
+              ],
+              "phi": 0.707519,
+              "state": "0011",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": false,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 3.08,
+          "spec": "A=NOR(B,D);B=AND(C,D);C=NAND(A,B);D=NOR(B,C)"
+        },
+        {
+          "form": "two_input_07",
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "phi_mip": 2.0,
+          "core": [
+            "C",
+            "D"
+          ],
+          "jd_elements": {
+            "B": {
+              "purview": [
+                "A",
+                "C"
+              ],
+              "phi": 0.5,
+              "state": "0001",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            },
+            "C": {
+              "purview": [
+                "B",
+                "D"
+              ],
+              "phi": 0.5,
+              "state": "0001",
+              "tie_robust": true,
+              "n_tied_purviews": 1
+            }
+          },
+          "jd": true,
+          "jd_in_whole": false,
+          "post_hoc_jd_tie_robust": true,
+          "seconds": 10.18,
+          "spec": "A=OR(B,C);B=XOR(A,C);C=XOR(B,D);D=XNOR(A,C)"
+        }
+      ],
+      "n": 8,
+      "jd_in_whole": 2,
+      "jd_factors": 2
+    }
+  }
+}

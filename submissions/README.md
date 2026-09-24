@@ -15,6 +15,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`algorithmacy_design_ethics/`](algorithmacy_design_ethics/) | Design-ethics/human-factors journal article on algorithmacy — recommended: *Ethics and Information Technology* | full draft, author read-aloud pass pending |
 | [`hegel_coordination/`](hegel_coordination/) | Hegel Substack series | no deadline |
 | [`triad_thinkers/`](triad_thinkers/) | Thinkers-on-the-triad Substack companion (post 1: Simmel) | no deadline |
+| [`triadic_reduction/`](triadic_reduction/) | ALGOCON talk: Peirce's reduction thesis, Simmel, Quine, the logicians, the lab's IIT move, and the case for algorithmacy (deck + script); sources ingested | 2026-10-28 |
 
 These arms borrow lab constructs. They do not re-run Φ. Exact-Φ results remain evidence about
 Boolean models.

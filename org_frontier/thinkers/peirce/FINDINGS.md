@@ -43,3 +43,30 @@ passed in all five probes.
 ~/iit-playground/venv-4.0/bin/python -m org_frontier.thinkers.peirce.probe_peirce_polyads        # 60 forms, ~9 min
 ~/iit-playground/venv-4.0/bin/python -m org_frontier.thinkers.peirce.probe_peirce_polyads 12     # CI prefix
 ```
+
+## Addendum — joint determination, fixed in advance (JD1–JD3, #449–#451)
+
+The criterion for an irreducible triad was fixed and pre-registered (commit `c7535bc`, 2026-09-24,
+[`jd_hypotheses.md`](jd_hypotheses.md), [`jd_methods.md`](jd_methods.md)) before any form below was
+read under it. The criterion is a one-element mechanism whose irreducible cause purview holds two other
+elements. It counts as *in a whole* when the system is irreducible (Φ_MIP > 0) and the element and two of
+those purview elements lie in the major complex. All three hypotheses held as pre-registered. The criterion
+reads every registered exemplar as claimed. A fresh two-input sample has joint determination both inside
+and outside a whole, so joint determination and wholeness now come apart in both directions on
+registered evidence.
+
+| H | claim | verdict | key numbers |
+|---|---|---|---|
+| JD1 | the criterion reads the registered exemplars as the talk claims | **CONFIRMED** | control M ← AB, genuine giving R ← GT, pragmatic sign I ← OS all in a whole; mutual dyad, copy_BCA, copy_CCA, imitation of giving, both degenerate grades and the exogenous sign show none; misreads = 0 |
+| JD2 | Simmel's majority: a party jointly determined in a system that factors | **CONFIRMED** (see post hoc) | majority_triad Φ_MIP = 0, C ← AB (φ = 0.5); triad_mutual (Φ 6.0) and mediator (Φ 2.0) in a whole |
+| JD3 | confirmation on families not read before | **CONFIRMED** | n = 5 one-input wirings, 13 isomorphism classes: 0 with joint determination. Two-input sample (seed 1, 30 forms): 5 in a whole, 11 with Φ_MIP = 0, 1 with none |
+
+**Post hoc, and it qualifies JD2.** The majority's joint determination rests on a tie. Each member's cause
+φ is 0.5 on all three two-element purviews (AB, AC, BC). PyPhi reports AB by index order, and PyPhi's own
+`ties` field does not record the tie; a direct recomputation over every purview does. The pre-registered
+reader returns joint determination, so the verdict stands, but the reading is tie-dependent. The fresh
+sample's counts do not depend on ties: all 5 and all 11 remain when only tie-robust elements count. The
+talk therefore cites the sample for "joint determination without a whole", not the majority.
+
+Scope as before: small Boolean models, not people. IIT 4.0's exclusion (grain) test on a paired
+re-encoding of the control is the named next test.
