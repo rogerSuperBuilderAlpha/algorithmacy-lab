@@ -35,3 +35,12 @@ The rows for 11 and 30 name `thinkers-peirce-jd-full`, registered by the lab add
 | 2022 | year | — | koshkin2022reduction |
 | 2025 | year | — | koshkin2025completeness |
 | 2026 | year | — | the conference |
+| 13 | lab result | thinkers-peirce-jd-full | n=5 isomorphism classes=13  with joint determination=0 |
+| 5 | lab result | thinkers-peirce-jd-full | forms=30  joint determination in a whole=5 |
+| 1.25 | locus | — | CP 1.25 (peirce1931papers) |
+| 1.325 | locus | — | CP 1.325 (peirce1931papers) |
+| 1.337 | locus | — | CP 1.337 (peirce1931papers) |
+| 1.346 | locus | — | CP 1.346 (peirce1931papers) |
+| 2.274 | locus | — | CP 2.274 (peirce1931papers) |
+| 1991 | year | — | burch1991reduction |
+| 1 | label | — | argument numbering on slides 6–8 |

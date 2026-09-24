@@ -4,6 +4,13 @@
 resolved decisions 1, 4, 6 and 7 (see the end of this file). Drafted from the Phase 4 argument (three
 reconstructions, three critics, a synthesis).
 
+**Framing revised by the author, 2026-09-24 (the thesis is unchanged).** Algorithmacy is introduced as a
+*sensibility*, beside oracy (understanding commands), literacy (navigating a text) and numeracy (navigating
+numbers). The talk examines the argument in order: Peirce's categories and his case for irreducible
+Thirdness; Quine's set-theoretic reduction as the case against, noting that Quine did not aim it at Peirce;
+the contemporary logicians, who find that some triads reduce and some do not. Then the talk makes its own
+move: IIT identifies the irreducible triads, and those are algorithmacy's targets. Simmel keeps one slide.
+
 ## Title
 **Do Triads Reduce to Dyads? The Ontology of Algorithmacy** (the author's choice; the drafted options were
 "Can a Triad Be Built from Pairs?", "Welded into One Fact" and "The Third That Pairs Cannot Make").

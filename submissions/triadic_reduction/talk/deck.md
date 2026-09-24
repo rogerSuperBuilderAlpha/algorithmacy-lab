@@ -2,116 +2,134 @@
 
 <!-- Source for build_deck.py. One block per slide. "###" is the headline; "> " a quotation; "— " an
 attribution; ``` a monospace block. Every quotation of four or more words must be a card locus; every
-numeral must be declared in NUMBERS.md. Revised 2026-09-24 after the Phase 6 panel. -->
+numeral must be declared in NUMBERS.md. v2, 2026-09-24: rebuilt in the author's order — sensibilities,
+the ontological question, Peirce, Simmel, Quine, the logicians, then our argument. -->
 
 ## Slide 1 — title
 ### Do Triads Reduce to Dyads?
 The Ontology of Algorithmacy
 ALGOCON · Port of Spain · October 2026
 
-## Slide 2 — the question
-### If triads reduce to dyads, algorithmacy names nothing new
-Literacy: a medium that answers to one party at a time — a letter, a notice, a manual.
-Algorithmacy: a third that both parties determine, and that acts back on both.
-Do some triads resist reduction, in the sense that matters for coordination?
+## Slide 2 — four sensibilities
+### Four sensibilities
+Oracy: understanding commands
+Literacy: navigating a text
+Numeracy: navigating numbers
+Algorithmacy: navigating triadic coordination
 
-## Slide 3 — Peirce 1870
-### Peirce states both clauses in 1870
-> nor can a conjugative term be reduced to any combination of simple relatives
-— Peirce, 1870 (CP 3.144)
-Every relation among four or more: built from relations among three.
-Asserted, not yet argued.
+## Slide 3 — the ontological question
+### The ontological question
+Do triads reduce to dyads?
+If they do, algorithmacy is not a thing.
+If some do not, algorithmacy has a target.
+Peirce · Quine · the logicians · our argument
 
-## Slide 4 — the arithmetic
-### The argument is arithmetic
+## Slide 4 — Peirce's categories
+### Peirce: three categories
+Firstness: "such as it is regardless of aught else" (CP 1.25)
+Secondness: "cause and effect are two" (CP 1.325)
+Thirdness: "the medium or connecting bond between the absolute first and last" (CP 1.337)
+
+## Slide 5 — thirdness is irreducible
+### Thirdness is its own kind of being
+> its three members are bound together by it in a way that does not consist in any complexus of dyadic relations
+— Peirce, CP 2.274
+The reduction thesis, first stated without proof in 1870: no triad from dyads; every higher relation from triads.
+
+## Slide 6 — argument 1: giving
+### Argument 1: giving is not throwing
+> A gives B to C. This does not consist in A's throwing B away and its accidentally hitting C
+> … merely one dyadic relation followed by another
+— Peirce, CP 1.345
+
+## Slide 7 — argument 2: valency
+### Argument 2: pairs only make pairs
+> you can never by such joining make a graph with three tails
+— Peirce, CP 1.346
 ```
 2 + 2 − 2 = 2
 3 + 3 − 2 = 4
 ```
 > artiads, or even-ads, can produce only artiads
-— Peirce, The Monist, 1897
-> no number of straight roads put end on end will give more than two termini
-— Peirce, CP 1.363
+— Peirce, 1897
 
-## Slide 5 — the junction
-### Everything turns on the junction
-Kempe, 1886: a triad = a unit plus three links. No relation among three.
-Peirce, 1892: mediation is still there, in "the attachment of lines to spots"
-Peirce, 1897: "every node of bonds is equivalent to a relative"
+## Slide 8 — argument 3: the junction
+### Argument 3: the junction is a triad
+> every node of bonds is equivalent to a relative
+— Peirce, 1897
+Kempe, 1886: redraw a triad as a unit with three links.
+Peirce, 1892: "a formidable objection" — yet the mediation is still there, in "the attachment of lines to spots"
 
-## Slide 6 — giving
-### Giving is one fact, not two events
-Genuine: "A's making C the possessor according to Law" (CP 8.331)
-Imitation: A throws B away and it happens to hit C — "merely one dyadic relation followed by another" (CP 1.345)
-
-## Slide 7 — Simmel
-### Simmel: the third opens a second route
-Two: when one refuses, "only the other remains, without any superindividual energy"
+## Slide 9 — Simmel
+### Simmel: the third changes the group
+Two: when one refuses, "only the other remains"
 Three: "each pair of elements are now joined by a broken line"
+But a distant third leaves "configurations of twos"
+— Simmel, 1902
+
+## Slide 10 — Quine's theorem
+### Quine: one two-place predicate is enough
+> there is only one predicate letter, and it a dyadic one
+— Quine, 1954
+Tools: "a fragment of set theory", ordered pairs, and a universe enlarged to contain them
+Löwenheim had done something similar in 1915.
+
+## Slide 11 — the worked example
+### How the reduction works
 ```
-A ——— B   directly
-A — C — B also, for every pair
+gives(A, B, C)
+  becomes one new object:  (tag, A, (B, C))
+  and one two-place fact about it
 ```
-— Simmel, 1902 (trans. Small)
+Every relation becomes dyadic, over a larger universe.
 
-## Slide 8 — three is not enough
-### Three parties are not yet a triad
-A third too distant from the other two leaves "configurations of twos"
-— Simmel, 1902 (Zweierkonfigurationen, 1908)
-Three is necessary. It is not sufficient.
+## Slide 12 — the case against Peirce
+### If Quine is right, Thirdness is notation
+Any triad can be rewritten as pairs.
+Then Thirdness is not a kind of being.
+Then algorithmacy is not a thing.
 
-## Slide 9 — Löwenheim, Kalmár, Quine
-### Dyadic predicates suffice — with new objects
-Löwenheim 1915: binary relatives suffice, over a domain of pairs
-Kalmár 1936: one binary relation, for deciding satisfiability
-Quine 1954: any first-order theory, with "only one predicate letter, and it a dyadic one"
-None of them aimed it at Peirce.
+## Slide 13 — Herzberger and Burch
+### The logicians: it depends on the operations
+Herzberger 1981: the thesis holds for valency-regular constructions with relative products
+> the reduction thesis collapses under standard notions of definability
+— Herzberger, 1981
+Burch 1991: a proof inside Peircean algebra, under a restriction
 
-## Slide 10 — every reduction keeps the junction
-### Every reduction keeps the junction
-"A gives B to C" → mint g, the giving: giver(g, A) · gift(g, B) · recipient(g, C)
-Kempe: a unit · Peirce: "this action" · Löwenheim and Quine: pairs
-Dyads build a triad only with a three-way junction. Without one, never.
-— Hereth Correia & Pöschel 2006; Koshkin 2025
+## Slide 14 — the three-way junction
+### The three-way junction decides it
+Hereth Correia & Pöschel 2006: in Peirce's algebra, pairs alone never build the three-way identity
+Dau & Hereth Correia 2006: in relational algebra it is "hidden in the operations"
+Koshkin 2025: with free variable-sharing, triads reduce to pairs on domains of 3+ values; on two-valued domains some do not
 
-## Slide 11 — both right?
-### Both right, or not both right
+## Slide 15 — both correct
+### Both correct
 > both Peirce and Quine were correct: the issue entirely depends on exactly what constructive resources are to be allowed
 — Burch, Stanford Encyclopedia of Philosophy
 > It cannot simply be that Peirce and Quine are both right.
 — Koshkin, 2022
+Logic tests relations as sets of tuples. It has no test for coordination as a running system.
 
-## Slide 12 — the lab's move
-### Give the junction a direction
-Triad = a party jointly determined by two others, inside a whole that does not factor.
-Φ: what a system loses under its weakest cut (IIT 4.0). Φ = 0: it splits into parts.
+## Slide 16 — our argument
+### Our argument: a causal test for irreducible triads
+Φ: what a system loses under its weakest cut. Φ = 0: it splits at some cut.
+IIT also reads, element by element, what each depends on irreducibly.
+Irreducible triad: a party jointly determined by two others, all three inside one whole.
 ```
-A <-> M <-> B     M' = A and B;  A' = M;  B' = M
-Φ = 2.0   all three in the core   "the control"
+M' = A and B;  A' = M;  B' = M
+Φ = 2.0, all three in the core
 ```
 
-## Slide 13 — composing pairs
-### Composing pairs: the prediction failed, then was located
-89 one-input wirings: pre-registered H1 REFUTED — branches make three-party facts
-Every three-party fact is a fan-out: one element read by several
-On the cause side: the element plus its one source, never more
+## Slide 17 — what IIT sorts
+### What IIT sorts
+Pairs chained, looped or branched: no one jointly determined (89 wirings; post hoc)
+A whole, no triad: a ring of pairs, Φ = 2.0
+A triad, no whole: 11 of 30 fresh four-element systems, Φ = 0
+A triad in a whole: the control, genuine giving; 5 of 30
 
-## Slide 14 — Φ alone is not the test
-### Φ alone is not the test
-Wholes, no joint determination: mutual pair, ring of copies, imitation of giving — Φ = 2.0
-Joint determination in a whole: the control, genuine giving, a sign that acts back on its object
-Joint determination, no whole: 11 of 30 fresh forms (pre-registered)
-
-## Slide 15 — two forms of coordination
-### Two forms of coordination
-Literacy: writer → text → reader — a chain
-Algorithmacy: A <-> M <-> B, M set by both at once — a whole
-Every sign is triadic. The coordination is a chain.
-Older than AI: Simmel's arbitrator, a shared tally, meet the same criterion.
-
-## Slide 16 — what follows
-### A target literacy cannot build
-Among fixed parties, one-input determination never composes joint determination.
-Joint determination in a whole exists.
-So coordination through a jointly determined third has a target of its own.
+## Slide 18 — algorithmacy's targets
+### Algorithmacy's targets
+The irreducible triads: a third fixed by two parties jointly, inside one whole with them.
+Older than AI: an arbitrator, a shared tally. Now at scale, through algorithms.
+Literacy handles chains. Algorithmacy handles these.
 Boolean models, not people. No platform's rule modelled.
