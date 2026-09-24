@@ -20,6 +20,7 @@ Run with a Python that has python-pptx:
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 import unicodedata
@@ -37,6 +38,8 @@ SLOT_MINUTES = 20
 BUFFER_MINUTES = 1.5
 WPM = 130
 FONTS = {"Arial", "Courier New"}
+FONT_FILES = {"Arial": "/System/Library/Fonts/Supplemental/Arial.ttf",
+              "Courier New": "/System/Library/Fonts/Supplemental/Courier New.ttf"}
 
 SLIDE_RE = re.compile(r"^## Slide (\d+)\b.*$", re.M)
 
@@ -66,6 +69,22 @@ def spoken(text: str) -> str:
     return text
 
 
+def missing_glyphs(text: str, face: str) -> str:
+    """Characters the face cannot draw (a venue without font fallback shows boxes)."""
+    try:
+        from PIL import ImageFont
+        font = ImageFont.truetype(FONT_FILES[face], 24)
+    except (ImportError, KeyError, OSError):
+        return ""
+    notdef = bytes(font.getmask("\U0010fffd"))  # a private-use code point no face draws
+
+    def absent(c):
+        mask = font.getmask(c)
+        return mask.getbbox() is None or bytes(mask) == notdef
+
+    return "".join(sorted({c for c in text if not c.isspace() and absent(c)}))
+
+
 def check_pptx(problems: list[str]) -> Presentation:
     prs = Presentation(HERE / "deck.pptx")
     if abs(prs.slide_width - Inches(13.333)) > Inches(0.01) or \
@@ -87,6 +106,9 @@ def check_pptx(problems: list[str]) -> Presentation:
                 continue
             for p in shape.text_frame.paragraphs:
                 for r in p.runs:
+                    missing = missing_glyphs(r.text, r.font.name)
+                    if missing:
+                        problems.append(f"slide {i}: {r.font.name} has no glyph for {missing!r}")
                     if r.font.name not in FONTS:
                         problems.append(f"slide {i}: font {r.font.name!r}")
                     try:
@@ -120,7 +142,9 @@ def load_numbers() -> tuple[set[str], list[str]]:
     declared, problems = set(), []
     if not path.exists():
         return declared, ["NUMBERS.md is missing"]
-    ci = (REPO / "ci" / "reproduce.json").read_text(encoding="utf-8")
+    manifest = json.loads((REPO / "ci" / "reproduce.json").read_text(encoding="utf-8"))
+    checks = manifest["checks"] if isinstance(manifest, dict) else manifest
+    expects = {c["name"]: "\n".join(c.get("expect", [])) for c in checks}
     for line in path.read_text(encoding="utf-8").splitlines():
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
         if len(cells) < 4 or cells[0] in ("number", "---") or set(cells[0]) <= {"-"}:
@@ -128,8 +152,8 @@ def load_numbers() -> tuple[set[str], list[str]]:
         number, kind, check, expect = cells[:4]
         declared.add(number.strip("`"))
         if kind == "lab result":
-            expect = expect.strip("`")
-            if check.strip("`") not in ci or expect not in ci:
+            check, expect = check.strip("`"), expect.strip("`")
+            if expect not in expects.get(check, ""):
                 problems.append(f"NUMBERS.md: {number} — check {check} / expect {expect!r} "
                                 "not found in ci/reproduce.json")
     return declared, problems
@@ -164,6 +188,7 @@ def card_quotes() -> list[str]:
 def check_quotes(texts: dict[str, str], problems: list[str]) -> None:
     pool = card_quotes()
     for name, text in texts.items():
+        text = re.sub(r"(?<!\n)\n(?!\n)", " ", text)  # a quotation may wrap across lines
         for q in re.findall(r"[\"“]([^\"”\n]+)[\"”]", text):
             if len(q.split()) < 4:
                 continue
