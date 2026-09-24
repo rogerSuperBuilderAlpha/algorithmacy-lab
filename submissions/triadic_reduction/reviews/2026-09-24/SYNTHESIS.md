@@ -65,6 +65,6 @@ sources.
 
 ## State after the pass
 
-`check_talk.py` passes except for two numbers (11, 30). They are backed by `thinkers-peirce-jd-full`, which
-arrives with PR #772. The script runs 2,190 spoken words, about seventeen minutes at 130 words a minute.
+`check_talk.py` passes; the two numbers from the lab addendum (11, 30) are registered by #772 as
+`thinkers-peirce-jd-full`. The script runs 2,190 spoken words, about seventeen minutes at 130 words a minute.
 The author's timed read-aloud is the remaining gate.

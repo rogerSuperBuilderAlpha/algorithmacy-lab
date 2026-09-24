@@ -4,8 +4,7 @@ Every numeral in `deck.md` and `script.md` appears in this table. A row of kind 
 in `ci/reproduce.json` and a substring of that check's expect strings; `check_talk.py` fails if the
 substring is not there. The other kinds are dates, loci, arithmetic and names, which cite no lab result.
 
-The rows for 11 and 30 name `thinkers-peirce-jd-full`, registered by the lab addendum PR #772. Until that PR
-merges and this branch picks it up, `check_talk.py` fails on those two rows, as it should.
+The rows for 11 and 30 name `thinkers-peirce-jd-full`, registered by the lab addendum (#772).
 
 | number | kind | check | expect |
 |---|---|---|---|

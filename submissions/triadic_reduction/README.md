@@ -1,6 +1,6 @@
 # Triadic reduction — the talk
 
-**Status.** Claim locked 2026-09-24. Deck (`talk/deck.pptx`, 16 slides) and script (`talk/script.md`, about seventeen minutes) drafted and corrected after a review panel ([`reviews/2026-09-24/`](reviews/2026-09-24/)); the author's timed read-aloud is next. Two numbers wait on the lab addendum, PR #772.
+**Status.** Claim locked 2026-09-24. Deck (`talk/deck.pptx`, 16 slides) and script (`talk/script.md`, about seventeen minutes) drafted and corrected after a review panel ([`reviews/2026-09-24/`](reviews/2026-09-24/)); the author's timed read-aloud is next.
 **Venue.** ALGOCON, the algorithmacy.org conference, Port of Spain, 28–31 October 2026. Slot: 20 minutes.
 **Deliverables.** A black-and-white, text-only slide deck (`.pptx` built from Markdown) and a talk script.
 
