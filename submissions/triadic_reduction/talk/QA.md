@@ -1,6 +1,6 @@
 # Prepared questions and answers
 
-Seeded by a red-team pass over ARGUMENT.md: for every premise and for the conclusion, the strongest objection an expert would raise, and an honest answer of under a minute with its evidence. Rows marked **backup** need a backup slide. These are working answers for the author to rewrite in the author's own voice, not a script.
+Seeded by a red-team pass over ARGUMENT.md: for every premise and for the conclusion, the strongest objection an expert would raise, and an honest answer of under a minute with its evidence. Rows marked **backup** need a backup slide. These are working answers for the author to rewrite in the author's own voice, not a script. They predate the Phase 6 panel (`../reviews/2026-09-24/`); where an answer conflicts with the revised `script.md`, the script governs.
 
 ## Q1. Your four regimes are a taxonomy you built so Peirce wins somewhere. Logicians settled on standard first-order definability long ago, and there triads reduce.
 

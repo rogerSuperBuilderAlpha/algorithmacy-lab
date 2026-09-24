@@ -1,6 +1,6 @@
 # Triadic reduction — the talk
 
-**Status.** Sources ingested and verified; argument drafted; the claim awaits the author's lock ([`CLAIM.md`](CLAIM.md)). Deck and script follow the lock.
+**Status.** Claim locked 2026-09-24. Deck (`talk/deck.pptx`, 16 slides) and script (`talk/script.md`, about seventeen minutes) drafted and corrected after a review panel ([`reviews/2026-09-24/`](reviews/2026-09-24/)); the author's timed read-aloud is next. Two numbers wait on the lab addendum, PR #772.
 **Venue.** ALGOCON, the algorithmacy.org conference, Port of Spain, 28–31 October 2026. Slot: 20 minutes.
 **Deliverables.** A black-and-white, text-only slide deck (`.pptx` built from Markdown) and a talk script.
 
@@ -43,6 +43,7 @@ others inside a system that does not factor. Φ > 0 alone is not the test: the l
 | [`claims/`](claims/) | The claims register: every claim the preliminary sources make, with a verbatim anchor and what became of it (`check_register.py` gates it) |
 | [`library/`](library/) | One card per work, marked verified, corrected, metadata-only or unverifiable against what was actually read |
 | [`talk/`](talk/) | Deck and script sources, the deck builder, the checker, the previewer, prepared Q&A |
+| [`reviews/`](reviews/) | The correctness panel: findings, the verification gate, and what was applied |
 
 ## Re-capturing a Gemini share page
 
@@ -51,3 +52,11 @@ others inside a system that does not factor. Φ > 0 alone is not the test: the l
 ```
 
 The script needs Google Chrome, pandoc, and a Python with bs4 and lxml. Keep raw dumps out of the repo.
+
+## Building and checking the talk
+
+```
+/usr/bin/python3 talk/build_deck.py          # deck.md + script.md -> deck.pptx (script in the speaker notes)
+/usr/bin/python3 talk/check_talk.py          # black on white, glyphs, notes = script, quotations, numbers, timing
+/usr/bin/python3 talk/preview_deck.py DIR    # PNG previews outside the repo
+```
