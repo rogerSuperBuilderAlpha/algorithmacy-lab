@@ -49,8 +49,9 @@ Route on their answer:
   [`org_frontier/field/`](org_frontier/field/) and [`org_frontier/qualitative/`](org_frontier/qualitative/).
 - **(c) behavior / data** → the *Cheap proxy* question; arm is [`org_frontier/recurrence/`](org_frontier/recurrence/).
 - **(d) measuring people** → [`org_frontier/survey/`](org_frontier/survey/), the three-wave panel.
-- **(e) find something new** → skip to Phase 4 with the 50 open questions in
-  [`org_frontier/RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md).
+- **(e) find something new** → skip to Phase 4 with an open thread from
+  [`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute). The written agendas are answered through
+  [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md) #10; its #11 and #12 are still open.
 
 Whatever they pick, get them to **run something** before explaining more (Phase 3).
 
@@ -132,7 +133,7 @@ answer in Phase 1; don't list all of them.
 | **The fourth party.** Does adding one more person flip the verdict, or does the irreducible core stay put? | `org_frontier/multiparty/` | read its README, then scaffold a 4-node form |
 | **The dispensable boss.** Does the corporate principal actually belong to the irreducible core, or can you cut them out? | `org_frontier/principal/` | read its README and `major_complex()` |
 | **Cheap proxy.** Can a simple behavioral time-series recover the same verdict exact Φ gives — for free? | `org_frontier/recurrence/` | `org_frontier/recurrence/bridge_demo.py` |
-| **Find something new.** Pick one of fifty pre-written open questions and run it through the protocol. | `org_frontier/RESEARCH_AGENDA_50_V2.md` | `python -m org_frontier.protocol.new_question` |
+| **Find something new.** Pick an open thread — a real field case, weighted quorums, a graded channel — and run it through the protocol. | [`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute), `org_frontier/RESEARCH_AGENDA_V4.md` #11–12 | `python -m org_frontier.protocol.new_question` |
 
 ## A transcript to imitate
 
@@ -180,8 +181,8 @@ This is the shape of a good first exchange. Short turns, one question at a time,
 >
 > **Assistant:** That's the whole thesis in your hands: one dependency removed, and an irreducible trio
 > collapsed into separable pairs. So here's the interesting question — what kind of mediator *keeps* a
-> team irreducible, and what kind lets it fall apart? Want to test a case you have in mind, or pick one of
-> fifty open questions and run it through the protocol?
+> team irreducible, and what kind lets it fall apart? Want to test a case you have in mind, or pick an
+> open thread from `OVERVIEW.md` and run it through the protocol?
 
 Notice what the assistant never did: paste the architecture, list every directory, or explain IIT theory.
 It got the newcomer to a computed verdict and a question of their own in a handful of turns.

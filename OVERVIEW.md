@@ -112,9 +112,11 @@ bridge arms below each come as a ready-to-run **handoff packet** — a front-doo
 discipline, and a runnable scaffold that takes a real input to a verdict. The five are indexed in
 [`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md).
 
-- **Pick an open question.** Fifty are pre-written and waiting in
-  [`org_frontier/RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md). Scaffold one with
-  `python -m org_frontier.protocol.new_question` and run it through the protocol.
+- **Pick an open question.** The pre-written agendas are answered — all fifty in
+  [`RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md) and #1–10 of
+  [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md) — and each answer names the residual it
+  leaves. V4 #11 (does the joint-observation cliff survive a graded channel?) and #12 are still open.
+  Scaffold one with `python -m org_frontier.protocol.new_question` and run it through the protocol.
 - **Stress a standing result.** The extremes-only quorum law (study D) uses clean threshold counts; does it
   survive *weighted or noisy* quorums? The membership law (study A) uses a single-node influence proxy;
   does a higher-order pivotality measure sharpen the Shapley correspondence past the null-player corner?
