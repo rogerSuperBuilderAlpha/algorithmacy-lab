@@ -162,7 +162,8 @@ def _syntheses() -> list:
         ("CONSTRUCT_VALIDITY_ARC.md", "construct-validity arc — #43–#46; closable"),
         ("CRITICAL_REVIEW_Q111_Q117.md", "a critical self-review"),
         ("PAPER_PIPELINE.md", "the plan to turn paper-less work into full papers"),
-        ("RESEARCH_AGENDA_50_V2.md", "the open agenda — questions waiting for a contributor"),
+        ("RESEARCH_AGENDA_50_V2.md", "the v2 agenda — all fifty answered; open threads are in OVERVIEW.md"),
+        ("RESEARCH_AGENDA_V4.md", "the v4 agenda — #1–#10 answered, #11–#12 open"),
     ]:
         path = os.path.join(of, name)
         if os.path.exists(path):

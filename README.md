@@ -161,7 +161,8 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Construct-validity arc — #43–#46 closed](org_frontier/CONSTRUCT_VALIDITY_ARC.md) — construct-validity arc — #43–#46; closable
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review
 - [Paper pipeline — turning paper-less work into full-package research papers](org_frontier/PAPER_PIPELINE.md) — the plan to turn paper-less work into full papers
-- [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the open agenda — questions waiting for a contributor
+- [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the v2 agenda — all fifty answered; open threads are in OVERVIEW.md
+- [Research agenda v4 — questions only](org_frontier/RESEARCH_AGENDA_V4.md) — the v4 agenda — #1–#10 answered, #11–#12 open
 
 ### Handoff packets — pick one up and run it
 

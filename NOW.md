@@ -1,31 +1,27 @@
 # NOW — what is live this week
 
-Start here. The rest of the repo is the lab, the catalog, and the archive. This page is the
-work that has a date on it.
+Start here. The rest of the repo is the lab, the catalog, and the archive. This page is the work that has
+a date on it. Last updated 2026-09-25.
 
-**Do not start a new Φ question until 10 September.** Three binding submissions land in twelve
-days. Computational code stays where it is (`org_frontier/questions/`, `probes/`). Writing lives
-under [`submissions/`](submissions/).
+**Coming from the ALGOCON talk?** Start at [`START_HERE.md`](START_HERE.md): it gets you from a clone to a
+computed Φ in about fifteen minutes. The talk's slides, script and open questions are in
+[`submissions/triadic_reduction/`](submissions/triadic_reduction/), and
+[`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute) lists the threads that need someone.
 
-## Binding deadlines
+## Next dates
 
-| Due | Piece | Canonical draft | Venue |
+| Due | Piece | Path | Venue |
 | --- | --- | --- | --- |
-| **2026-08-30** | Algorithmacy and Sovereignty | [`submissions/coordinative_sovereignty/chapter/chapter.md`](submissions/coordinative_sovereignty/chapter/chapter.md) | IGI Global |
-| **2026-09-04** | Who Hosts the Guest? | [`submissions/hospitality_phygital/manuscript/DRAFT.md`](submissions/hospitality_phygital/manuscript/DRAFT.md) | *Hospitality & Society* SI |
-| **2026-09-10** | The Competency a Form Demands | `dissertation/current/paper2/PAPER.md` (private nested repo) | OS/OT PDW Lima |
+| 2026-10-01 | Slacker chapter, first draft for editor feedback (optional) | [`submissions/slacker_thirds/chapter.md`](submissions/slacker_thirds/chapter.md) | Bloomsbury |
+| 2026-10-05–07 | Lima workshop, in person, plus roundtable reviewing | [`submissions/lima_pdw/`](submissions/lima_pdw/) | OS/OT PDW Lima |
+| 2026-10-28–31 | Do Triads Reduce to Dyads? — talk and live session | [`submissions/triadic_reduction/`](submissions/triadic_reduction/) | ALGOCON, Port of Spain |
+| 2026-11-01 | Slacker chapter, final draft | [`submissions/slacker_thirds/chapter.md`](submissions/slacker_thirds/chapter.md) | Bloomsbury |
+| 2027-01-31 | When is a combination a configuration? | [`submissions/proposals/`](submissions/proposals/) | *Organization Theory* |
 
-Full calendar, terms, and collisions: [`submissions/CALENDAR.md`](submissions/CALENDAR.md).
-
-## After the crunch
-
-| Due | Piece | Path |
-| --- | --- | --- |
-| 2026-10-01 / 2026-11-01 | Slacker chapter (thesis locked 13 Sep: platform operational logic via proximity + selection) | [`submissions/slacker_thirds/chapter.md`](submissions/slacker_thirds/chapter.md) |
-| 2026-10-05–07 | Lima workshop (in person) | [`submissions/lima_pdw/`](submissions/lima_pdw/) |
-| 2027-01-31 | When is a combination a configuration? | [`submissions/proposals/`](submissions/proposals/) |
-
-Hegel Substack series (no deadline): [`submissions/hegel_coordination/`](submissions/hegel_coordination/).
+The August–September deadlines (IGI Global, 30 August; *Hospitality & Society*, 4 September; the Lima
+manuscript, 10 September) have passed; their arms stay under [`submissions/`](submissions/). Full calendar,
+terms and collisions: [`submissions/CALENDAR.md`](submissions/CALENDAR.md). Hegel Substack series (no
+deadline): [`submissions/hegel_coordination/`](submissions/hegel_coordination/).
 
 ## Where everything else lives
 
