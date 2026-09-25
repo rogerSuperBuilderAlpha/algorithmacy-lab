@@ -1,135 +1,299 @@
-# Deck — Do Triads Reduce to Dyads? The Ontology of Algorithmacy
+# Deck — Do Triads Reduce to Dyads?
 
-<!-- Source for build_deck.py. One block per slide. "###" is the headline; "> " a quotation; "— " an
-attribution; ``` a monospace block. Every quotation of four or more words must be a card locus; every
-numeral must be declared in NUMBERS.md. v2, 2026-09-24: rebuilt in the author's order — sensibilities,
-the ontological question, Peirce, Simmel, Quine, the logicians, then our argument. -->
+<!-- Source for build_deck.py. v3, 2026-09-25: the author's deck ("Do Triads Reduce to Dyads?.pptx",
+supplied 2026-09-25), transcribed word for word with its design removed: no boxes, bars, cards, icons or
+colour on the text. Its pictures, its valency diagram and its table are kept. Text is not edited here;
+questions about it go to AUTHOR_TASKS.md.
+
+One block per slide. "####" is the small label above the headline; "###" the headline. A blank line
+starts a new group; consecutive lines sit tight. "**x**" is bold. "![caption](path)" places a picture in
+the left column with its caption under it, and the text moves right. Lines starting "|" are one table. -->
 
 ## Slide 1 — title
+#### RELATIONAL ALGEBRA • IIT 4.0 • PID
 ### Do Triads Reduce to Dyads?
-The Ontology of Algorithmacy
-ALGOCON · Port of Spain · October 2026
+The Peircean Reduction Thesis, Quine’s Fallacy, and the Mathematical Foundations of Algorithmacy.
+
+ALGOCON • Port of Spain • October 2026
+Theoretical Computing Group
 
 ## Slide 2 — four sensibilities
-### Four sensibilities
-Oracy: understanding commands
-Literacy: navigating a text
-Numeracy: navigating numbers
-Algorithmacy: navigating triadic coordination
+#### EPISTEMIC EVOLUTION
+### The Four Relational Sensibilities
+**Oracy** — ARITY: 1 • MONADIC
+Synchronous acoustic presence.
 
-## Slide 3 — the ontological question
-### The ontological question
-Do triads reduce to dyads?
-If they do, algorithmacy is not a thing.
-If some do not, algorithmacy has a target.
-Peirce · Quine · the logicians · our argument
+**Literacy** — ARITY: 2 • DYADIC
+Asynchronous document transmission.
+
+**Numeracy** — ARITY: 2 • FORMAL
+Symbolic quantitative mapping.
+
+**Algorithmacy** — ARITY: 3 • TRIADIC
+Autonomous synthetic mediation.
+
+## Slide 3 — the dilemma
+#### FOUNDATIONAL PROBLEM
+### The Ontological Reducibility Dilemma
+**Clone Question:** Does the dyadic clone generate all ternary relations: [R(2)] = R(3)?
+
+**Hypothesis A: Total Reducibility**
+Dyadic Collapse: All systems reduce to pairs.
+Zero Synergy: Multi-party interaction is nominal.
+Null Target: Algorithmacy lacks distinctive ontology.
+
+**Hypothesis B: Genuine Irreducibility**
+Strict Thirdness: Triads resist pairwise factorization.
+Positive Φ: Causal systems exhibit integration.
+Real Target: Algorithmacy governs irreducible mediation.
 
 ## Slide 4 — Peirce's categories
-### Peirce: three categories
-Firstness: "such as it is regardless of aught else" (CP 1.25)
-Secondness: "cause and effect are two" (CP 1.325)
-Thirdness: "the medium or connecting bond between the absolute first and last" (CP 1.337)
+#### PHANEROSCOPY & LOGIC
+### Peirce: The Three Irreducible Categories
+![](media/peirce.png)
+**Firstness (Monadic)**
+Immediate monadic potentiality without external relation.
 
-## Slide 5 — thirdness is irreducible
-### Thirdness is its own kind of being
-> its three members are bound together by it in a way that does not consist in any complexus of dyadic relations
-— Peirce, CP 2.274
-The reduction thesis, first stated without proof in 1870: no triad from dyads; every higher relation from triads.
+**Secondness (Dyadic)**
+Direct dyadic action-reaction across points.
 
-## Slide 6 — argument 1: giving
-### Argument 1: giving is not throwing
-> A gives B to C. This does not consist in A's throwing B away and its accidentally hitting C
-> … merely one dyadic relation followed by another
-— Peirce, CP 1.345
+**Thirdness (Triadic)**
+Genuine synthetic mediation uniting distinct terms.
 
-## Slide 7 — argument 2: valency
-### Argument 2: pairs only make pairs
-> you can never by such joining make a graph with three tails
-— Peirce, CP 1.346
-```
-2 + 2 − 2 = 2
-3 + 3 − 2 = 4
-```
-> artiads, or even-ads, can produce only artiads
-— Peirce, 1897
+## Slide 5 — the reduction thesis
+#### THEOREM FORMULATION
+### Peircean Reduction Thesis (PRT)
+**Thesis:** Triads do not reduce; polyads (n ≥ 4) reduce to triads.
 
-## Slide 8 — argument 3: the junction
-### Argument 3: the junction is a triad
-> every node of bonds is equivalent to a relative
-— Peirce, 1897
-Kempe, 1886: redraw a triad as a unit with three links.
-Peirce, 1892: "a formidable objection" — yet the mediation is still there, in "the attachment of lines to spots"
+**PART 1 • NEGATIVE CLAIM — Negative Thesis**
+Closure Property: Dyads cannot synthesize triads.
+Relational Gap: Pairwise projections lose join-irreducibility.
+Universal Algebra: Strict non-generation over closed domains.
 
-## Slide 9 — Simmel
-### Simmel: the third changes the group
-Two: when one refuses, "only the other remains"
-Three: "each pair of elements are now joined by a broken line"
-But a distant third leaves "configurations of twos"
-— Simmel, 1902
+**PART 2 • POSITIVE CLAIM — Positive Thesis**
+Subcubic Networks: All polyads form via triads.
+Universal Basis: Degree-three hypergraphs span all arities.
+Ternary Bound: Zero primitives required beyond triads.
 
-## Slide 10 — Quine's theorem
-### Quine: one two-place predicate is enough
-> there is only one predicate letter, and it a dyadic one
-— Quine, 1954
-Tools: "a fragment of set theory", ordered pairs, and a universe enlarged to contain them
-Löwenheim had done something similar in 1915.
+## Slide 6 — dyadic cascades
+#### SEMIOTIC ANALYSIS
+### Autonomous Mediation vs. Dyadic Cascades
+**FACTORIZABLE — Chained Dyadic Pipeline**
+R(A, B) • R(B, C) → Dyadic Sequence
+Independent Stages: First relation completes before second.
+Markov Property: Intermediate node screens off origin.
+Zero Integration: Total relation factors into projections.
 
-## Slide 11 — the worked example
-### How the reduction works
-```
-gives(A, B, C)
-  becomes one new object:  (tag, A, (B, C))
-  and one two-place fact about it
-```
-Every relation becomes dyadic, over a larger universe.
+**NON-FACTORIZABLE — Genuine Triadic Transaction**
+G(A, B, C) ≠ R1(A, B) × R2(B, C)
+Simultaneous Binding: Third party mutually constitutes event.
+Irreducible Mediant: Lawful bond precedes pairwise parts.
+Triadic Wholeness: Interaction collapses upon decomposition.
 
-## Slide 12 — the case against Peirce
-### If Quine is right, Thirdness is notation
-Any triad can be rewritten as pairs.
-Then Thirdness is not a kind of being.
-Then algorithmacy is not a thing.
+## Slide 7 — valency
+#### TOPOLOGICAL PROOF
+### Topological Obstructions to Dyadic Synthesis
+![Bonding Rule: 2 + 2 - 2 = 2](media/valency.png)
+**Valency Conservation**
+Connecting dyadic relations yields purely linear paths.
 
-## Slide 13 — Herzberger and Burch
-### The logicians: it depends on the operations
-Herzberger 1981: the thesis holds for valency-regular constructions with relative products
-> the reduction thesis collapses under standard notions of definability
-— Herzberger, 1981
-Burch 1991: a proof inside Peircean algebra, under a restriction
+**Topological Barrier**
+Degree-two vertices cannot construct a branch.
 
-## Slide 14 — the three-way junction
-### The three-way junction decides it
-Hereth Correia & Pöschel 2006: in Peirce's algebra, pairs alone never build the three-way identity
-Dau & Hereth Correia 2006: in relational algebra it is "hidden in the operations"
-Koshkin 2025: with free variable-sharing, triads reduce to pairs on domains of 3+ values; on two-valued domains some do not
+**Trivalent Junction**
+Every branching junction is intrinsically triadic.
 
-## Slide 15 — both correct
-### Both correct
-> both Peirce and Quine were correct: the issue entirely depends on exactly what constructive resources are to be allowed
-— Burch, Stanford Encyclopedia of Philosophy
-> It cannot simply be that Peirce and Quine are both right.
-— Koshkin, 2022
-Logic tests relations as sets of tuples. It has no test for coordination as a running system.
+## Slide 8 — teridentity
+#### ALGEBRAIC PRIMITIVE
+### The Teridentity Relation: =_3
+=_3 = {(x, x, x) ∈ X³ | x ∈ X}
 
-## Slide 16 — our argument
-### Our argument: a causal test for irreducible triads
-Φ: what a system loses under its weakest cut. Φ = 0: it splits at some cut.
-IIT also reads, element by element, what each depends on irreducibly.
-Irreducible triad: a party jointly determined by two others, all three inside one whole.
-```
-M' = A and B;  A' = M;  B' = M
-Φ = 2.0, all three in the core
-```
+**Branching Identity**
+Variable duplication across lines.
 
-## Slide 17 — what IIT sorts
-### What IIT sorts
-Pairs chained, looped or branched: no one jointly determined (89 wirings; post hoc)
-A whole, no triad: a ring of pairs, Φ = 2.0
-A triad, no whole: 11 of 30 fresh four-element systems, Φ = 0
-A triad in a whole: the control, genuine giving; 5 of 30
+**Burch's Proof (1991)**
+Unprovable from binary identity.
 
-## Slide 18 — algorithmacy's targets
-### Algorithmacy's targets
-The irreducible triads: a third fixed by two parties jointly, inside one whole with them.
-Older than AI: an arbitrator, a shared tally. Now at scale, through algorithms.
-Literacy handles chains. Algorithmacy handles these.
-Boolean models, not people. No platform's rule modelled.
+**Join-Irreducible**
+Minimal algebraic generator.
+
+## Slide 9 — Quine
+#### NOMINALIST CHALLENGE
+### Quine’s Dyadic Translation (1954)
+![](media/quine.png)
+Quine: “There is only one predicate letter, and it a dyadic one.”
+
+**Extensional Translation**
+Encodes ternary predicates into binary membership over tuples.
+
+**Tuple Stratification**
+R(x, y, z) maps to dyadic predicate ∈ over pairs.
+
+## Slide 10 — against Quine
+#### CRITICAL EXPOSURE
+### Deconstructing Quine’s Fallacy
+**Domain Escalation**
+Infinite set-theoretic universes required.
+
+**Smuggled Teridentity**
+Pairing functions hide teridentity.
+
+**Fixed-Domain Failure**
+Reduction fails on domains.
+
+## Slide 11 — co-clones
+#### MATHEMATICAL RESOLUTION
+### Relational Co-Clones and Expressive Power
+**BURCH (1991) — Peircean Algebra**
+Irreducible under project-join operations.
+
+**HERETH & PÖSCHEL (2006) — Clone Independence**
+Teridentity cannot be generated.
+
+**KOSHKIN (2024) — Domain Thresholds**
+Full predicate calculus analysis.
+
+**BOOLEAN HORIZON — Two-Valued Space**
+Non-factorizable gates stay irreducible.
+
+## Slide 12 — synergy
+#### INFORMATION DECOMPOSITION
+### The Synergistic Teridentity Correspondence
+**WILLIAMS & BEER (2010) PID**
+I(X1, X2; Y) = Red + Un1 + Un2 + Syn
+Synergy is the dynamic, measure-theoretic manifestation of teridentity =_3.
+
+**Canonical Case: 2-Input XOR**
+Y = X1 ⊕ X2 • Syn(X1, X2; Y) = 1.0 bit
+Marginal Vanishing: Individual mutual informations I(Xi; Y) = 0.
+Joint Determination: Knowledge of both sources uniquely determines output.
+Join-Irreducible Support: Parity forms non-factorizable relational subset.
+
+## Slide 13 — the causal test
+#### CAUSAL INTEGRATION
+### The Causal Test (IIT 4.0)
+**Φ = 0** — the system factors: cutting its weakest seam loses nothing.
+
+**Φ > 0** — the system is a whole: no cut leaves it as it was.
+
+**Wholeness Is Not Yet a Triad**
+Φ says whether the system factors, not whether any member is set by two others. A ring of one-input copies is a whole at Φ = 2.0.
+
+## Slide 14 — the sort
+#### EMPIRICAL VERIFICATION
+### IIT 4.0 Topological Architecture Sort
+| Topology Class | Wiring Count | Mechanism Support | System Φ | Causal Status |
+| Dyadic Cascade | 89 Wirings | Point-to-point lines | Φ > 0 in 8 | No Member Set by Two Others |
+| Dyadic Ring | One of the 89 | Recurrent pairs | Φ = 2.0 | Whole Without a Triad |
+| Uncoupled Triad | 11 / 30 Systems | Two-input gate | Φ = 0.0 | Triad Without a Whole |
+| Integrated Triad | 5 / 30 Systems | Two-input gate in the loop | Φ > 0 | Genuine Triadic Complex |
+
+## Slide 15 — conclusion
+#### SYNTHESIS & CONCLUSION
+### The Ontological Reality of Algorithmacy
+Algorithmacy is the epistemic and systemic facility required to model, audit, and navigate irreducible triadic causal systems that cannot be decomposed into dyadic communication channels.
+
+Join-Irreducible Thirdness
+Measure-Theoretic Synergy
+Positive Causal Integration (Φ > 0)
+
+## Slide 16 — genuine giving
+<!-- v4, 2026-09-25: slides 16–22 are Claude-drafted, not the author's text; the author's deck ends at slide 15 and resumes at slide 23. -->
+#### FROM THE LAB
+### Genuine Giving and Its Imitation
+**Same Members, Same Φ**
+Giver, thing, receiver. Both circuits hold together as wholes: Φ = 2.0.
+
+**Genuine Giving**
+The receiver's possession is set by the giver and the thing together.
+
+**The Imitation**
+Each member answers to one other. Φ cannot tell it from the real thing.
+
+**The Difference**
+One member set by the other two, inside the whole. Only the gift has it.
+
+## Slide 17 — a vote
+#### FROM THE LAB
+### A Vote Is Not Always a Whole
+**Majority Rule**
+Three members, each following the majority of the three: Φ = 0.0. The system factors.
+
+**Unanimity Rule**
+Each member goes only when all three say yes: Φ = 6.0. No cut leaves it whole.
+
+**A Caveat**
+A related quorum form, three parties reading a mediator that moves on any two, factors under IIT 4.0 and binds under IIT 3.0.
+
+## Slide 18 — by law or by nature
+#### FROM THE LAB
+### Irreducible by Law, or by Nature
+**The Car Dealer**
+Maker, dealer, buyer, in a ring franchise law closes. The dealer is inside: Φ = 2.0.
+
+**Lift the Ban**
+Let the maker sell direct: Φ = 2.0 → 0.0. The dealer drops out.
+
+**The Clearinghouse**
+A third that needs both sides to act keeps its place: Φ = 2.0 → 2.0.
+
+**The Brokerage Types, Sorted the Same Way**
+Keeps two sides apart: contingent. Needs both sides: necessary. Introduces them, then steps aside: reducible.
+
+## Slide 19 — fork
+#### JOIN THE LAB
+### Fork the Repository
+github.com/rogerSuperBuilderAlpha/algorithmacy-lab — MIT license, Python 3.10+
+
+**Validate, Then Run One**
+python -m org_frontier.classifier.validate
+python -m org_frontier.probes.probe_conjunctive_law
+
+**Ask Your Own Question**
+python -m org_frontier.protocol.new_question, then commit hypotheses.md first.
+
+**Publish**
+Register every number in ci/reproduce.json. Pull request into contrib. Nulls count.
+
+## Slide 20 — open questions
+#### JOIN THE LAB
+### Questions Waiting for Someone
+**Real People**
+Our one verdict on real gaze data changes with the coding. Which coding is right?
+
+**Real Rules**
+A field case with two coders agreeing on what sets each action. Nobody has run one.
+
+**Bigger Forms**
+Cliques of two to five read Φ = 2, 6, 12, 20. Six and up, and Shapley membership on larger forms: open.
+
+**Softer Channels**
+A graded channel. Weighted or noisy quorums. An arrangement that is algorithmacy but not directive algorithmic management.
+
+## Slide 21 — live
+#### LIVE
+### What Questions Are You Interested In?
+Name three or four parties and say who acts on whom.
+
+A plain sentence is enough: "The dispatcher assigns a job only when a driver and a rider both accept."
+
+We build it as a small circuit, compute Φ and the core, and read who is set by two others.
+
+A few seconds per form. A zero is a result too. Small Boolean models, not people.
+
+## Slide 22 — if the laptop fails
+#### LIVE
+### If the Laptop Fails
+| The sentence | Φ | Verdict | Core |
+| Dispatcher assigns only when driver and rider both accept; both wait on it | 2.0 | whole | all three; dispatcher set by driver and rider |
+| Client and worker now answer each other directly; the manager still hears both, but nobody waits on the manager | 0.0 | factors | client and worker |
+| Committee of three: by majority, then by unanimity | 0.0, then 6.0 | factors, then whole | none, then all three |
+| Dealer between maker and buyer; then the maker may sell direct | 2.0, then 0.0 | whole, then factors | all three; then the dealer drops out |
+
+## Slide 23 — image sources
+### Image Sources
+https://footnotes2plato.com/wp-content/uploads/2024/09/charles_sanders_peirce-colorized_cleanup-enhanced.jpg?w=640
+Source: footnotes2plato.com
+
+https://cdn.britannica.com/33/171633-050-ED21E678/Willard-Van-Orman-Quine-1958.jpg
+Source: www.britannica.com

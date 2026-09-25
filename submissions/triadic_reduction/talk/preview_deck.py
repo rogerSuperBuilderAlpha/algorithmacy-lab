@@ -11,11 +11,13 @@ still looks at the deck in PowerPoint or Keynote before presenting.
 """
 from __future__ import annotations
 
+import io
 import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 from pptx import Presentation
+from pptx.enum.shapes import MSO_SHAPE_TYPE
 from pptx.util import Emu
 
 HERE = Path(__file__).resolve().parent
@@ -24,6 +26,7 @@ FACES = {
     ("Arial", False, False): "Arial.ttf", ("Arial", True, False): "Arial Bold.ttf",
     ("Arial", False, True): "Arial Italic.ttf", ("Arial", True, True): "Arial Bold Italic.ttf",
     ("Courier New", False, False): "Courier New.ttf",
+    ("Cambria Math", False, False): "STIXTwoMath.otf",
 }
 DPI = 96  # pixels per inch in the preview
 
@@ -62,11 +65,36 @@ def render(prs, out: Path) -> list[str]:
         for shape in slide.shapes:
             x, y = px(shape.left), px(shape.top)
             bw, bh = px(shape.width), px(shape.height)
+            if shape.shape_type == MSO_SHAPE_TYPE.PICTURE:
+                pic = Image.open(io.BytesIO(shape.image.blob)).convert("RGBA")
+                img.paste(pic.resize((bw, bh)), (x, y), pic.resize((bw, bh)))
+                continue
+            if shape.has_table:
+                cy = y
+                for row in shape.table.rows:
+                    cx, rh = x, px(row.height)
+                    for col, cell in zip(shape.table.columns, row.cells):
+                        cw = px(col.width)
+                        run = cell.text_frame.paragraphs[0].runs[0]
+                        font = font_for(run)
+                        lines = wrap(draw, cell.text_frame.text, font, cw - 16)
+                        rh = max(rh, len(lines) * int(font.size * 1.2) + 12)
+                    for col, cell in zip(shape.table.columns, row.cells):
+                        cw = px(col.width)
+                        draw.rectangle([cx, cy, cx + cw, cy + rh], outline="black")
+                        font = font_for(cell.text_frame.paragraphs[0].runs[0])
+                        ty = cy + 6
+                        for line in wrap(draw, cell.text_frame.text, font, cw - 16):
+                            draw.text((cx + 8, ty), line, font=font, fill="black")
+                            ty += int(font.size * 1.2)
+                        cx += cw
+                    cy += rh
+                continue
             paras = []
             for p in shape.text_frame.paragraphs:
                 if not p.runs:
                     continue
-                run = p.runs[0]
+                run = max(p.runs, key=lambda r: len(r.text))
                 font = font_for(run)
                 gap = int(p.space_before.pt * DPI / 72) if p.space_before else 0
                 paras.append((gap, font, wrap(draw, p.text, font, bw)))

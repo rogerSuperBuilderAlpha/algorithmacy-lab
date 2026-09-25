@@ -1,183 +1,362 @@
 # Script — Do Triads Reduce to Dyads? The Ontology of Algorithmacy
 
-<!-- Draft for the author's voice. One section per slide; each becomes that slide's speaker notes.
-v2, 2026-09-24: rebuilt in the author's order. Text in square brackets is a stage direction and is not
-counted. -->
+<!-- v3, 2026-09-25. The author's script of 2026-09-25, re-sectioned onto the author's 16-slide deck of the
+same day. Every sentence is the author's, moved to the slide it speaks to and otherwise unedited, except
+the sentences inside a "new" comment pair, which Claude drafted because the new slide has no passage in
+the author's script. The author's Simmel section has no slide in the new deck and is held, verbatim, at
+the end of this file under "Held back". Text in square brackets is a stage direction and is not counted.
+HTML comments do not reach the speaker notes.
 
-## Slide 1 — title
-Thank you. I want to ask an old question from logic, because I think its answer decides whether
-algorithmacy names anything at all.
+v4, 2026-09-25: sections 16 to 22 are Claude-drafted for the seven new slides (three lab findings, two
+invitations to fork the repository, the live session and its fallback); every spoken sentence in them sits
+inside a "new" comment pair. The author's sections 1 to 15 are untouched, and the image-sources stub that
+was section 16 is now section 23. -->
 
-## Slide 2 — four sensibilities
-Start with the word. We already have names for the sensibilities a medium demands. Oracy is the ability
-to understand commands, spoken and heard. Literacy is the sensibility to navigate a text. Numeracy is the
-sensibility to navigate numbers. Each names a competence that a new medium made necessary.
+---
 
-Algorithmacy, as I use it, is the sensibility to navigate triadic coordination: coordinating with someone
-through a third that both of you shape and that shapes you both. The platform between a driver and a
-rider is the picture most of us have in mind.
+## Slide 1 — Do Triads Reduce to Dyads?
 
-## Slide 3 — the ontological question
-Every one of those words rests on a claim about what exists. Literacy only makes sense if texts are a
-kind of thing. Algorithmacy only makes sense if triads are a kind of thing. So the question is
-ontological. Do triads reduce to dyads?
+**Technical Presentation**
+This presentation investigates a foundational problem at the intersection of mathematical logic, universal algebra, and causal dynamical systems: whether triadic relations possess ontological autonomy or factorize into compositions of dyadic relations. The resolution of this question determines whether *algorithmacy* constitutes an independent communicative and cognitive competency, or whether it collapses into an extensional variant of conventional literacy.
 
-If they do, then any three-way coordination is just two pairs stacked together. Navigating it takes
-nothing more than navigating pairs, and algorithmacy is not a thing. If some triads do not reduce, then
-algorithmacy has a target of its own.
+**Layman's Explanation**
+When you interact with another person through an algorithm—such as hailing a ride, trading on a platform, or scrolling a curated social feed—is that algorithm merely an inert digital wire connecting two people, or is it an active third party in the room? If it is just a wire, you only need standard reading skills to navigate it. But if the three-way interaction cannot be sliced into two separate two-way conversations, we are dealing with a completely new medium that requires a distinct human capability.
 
-Philosophy has argued about exactly this question. I'll take you through Peirce, who said triads are
-irreducible; Quine, whose logic seemed to show they are not; the logicians who worked out who was right;
-and then our own argument.
+---
 
-## Slide 4 — Peirce's categories
-Charles Sanders Peirce built his philosophy on three categories. Firstness is quality, what a thing is
-"regardless of aught else" — the redness of red, before it touches anything. Secondness is reaction, one
-thing pushing against another: "cause and effect are two", he wrote. Thirdness is mediation, "the medium
-or connecting bond between the absolute first and last". A sign that stands between a thing and the mind
-that reads it. A law that connects a cause to its effect. A contract that binds two people to each other.
+## Slide 2 — The Four Relational Sensibilities
 
-## Slide 5 — thirdness is irreducible
-Peirce's central claim is that Thirdness is its own kind of being. A genuine triad, he wrote, is one whose
-"three members are bound together by it in a way that does not consist in any complexus of dyadic
-relations". You cannot build it out of pairs.
+**Technical Presentation**
+Human communication evolves through discrete phase shifts in coordination media:
 
-He first stated the thesis, without proof, in 1870, and it has two halves. No triad can be built from
-dyads. And every relation among four or more things can be built from triads. So three is enough to build
-everything, and nothing less will do. He argued for it later, in three ways.
+* **Oracy** emerged to govern synchronous, co-located spoken interaction, structured as an immediate acoustic dyad.
 
-## Slide 6 — argument 1: giving
-The first argument is an example. "A gives B to C." Peirce writes: "This does not consist in A's throwing
-B away and its accidentally hitting C". If that were all that happened, it would be "merely one dyadic
-relation followed by another". A throws. The thing hits. Two pairs.
+* **Literacy** decoupled author from reader across space and time via a passive symbolic conduit, establishing an asynchronous, feedforward dyadic architecture.
 
-Giving is different. Giving transfers a right. The giver, the gift and the receiver are held in one fact,
-and no sequence of two-party events adds up to it.
+* **Numeracy** formalized quantitative invariants and abstract mapping.
 
-## Slide 7 — argument 2: valency
-The second argument is arithmetic. Peirce drew relations as spots with tails, one tail for each place.
-A quality has one tail. A pair has two. When you join two relations, you tie a tail of one to a tail of
-the other, and those two tails disappear. So joining two pairs gives two plus two minus two: a pair
-again. However many pairs you chain, "you can never by such joining make a graph with three tails".
+* **Algorithmacy** denotes the cognitive competency required to navigate triadic cooptive coordination: interacting with a counterpart through an active algorithmic mediator—a discourse deputy—that enforces its own objective function and continuously transforms the interaction space.
 
-Triads behave differently. Three plus three minus two is four, and from there you can reach anything. In
-1897 he put it in one line: "artiads, or even-ads, can produce only artiads". Even plus even minus two
-stays even, forever.
+**Layman's Explanation**
+Oracy is talking face-to-face. Literacy is writing a letter: the paper never edits what you wrote while the recipient reads it. But algorithmacy is dealing with an active middleman. Think of a passenger, an Uber driver, and the dispatch algorithm: the app is not a passive sheet of paper. It sets prices, decides routes, evaluates ratings, and steers both humans simultaneously. Algorithmacy is the skill of handling that active third party.
 
-## Slide 8 — argument 3: the junction
-The third argument concerns a place where three lines meet. If you let three tails meet at one point,
-haven't you built a triad out of pairs? Peirce's answer: the meeting point is itself a relation. "Every
-node of bonds is equivalent to a relative."
+---
 
-Alfred Kempe's memoir of 1886 did exactly what that question suggests. It redrew a triad as a small unit
-with three plain links, so that nothing three-place appears. Kempe never mentioned Peirce, but Peirce saw
-the danger and called it "a formidable objection". In 1892 he conceded that Kempe's diagrams could express
-giving, and modified his position without surrendering it: the mediation is still there, in "the
-attachment of lines to spots", and in an abstraction the diagram never shows being made. Hold on to that
-point about the junction. It comes back.
+## Slide 3 — The Ontological Reducibility Dilemma
 
-## Slide 9 — Simmel
-Georg Simmel reached the same step from the sociology of groups. In a pair, when one member refuses,
-"only the other remains". Add a third and something new appears: "each pair of elements are now joined by
-a broken line", a route that runs through the third. But Simmel also saw that three people are not
-automatically a triad. A third too distant from the other two leaves only "configurations of twos". So the
-count of three is necessary, and it is not enough. That was the case for triads. Now the case against.
+**Technical Presentation**
+Every communicative competency presupposes the ontological autonomy of its target medium: literacy is meaningful only because texts are physically and semiotically real. Consequently, algorithmacy is coherent only if genuine triadic relations constitute an irreducible category of being. If all triadic coordination factorizes into compositions of dyadic projections, algorithmic mediation dissolves into pairwise transmission channels, leaving algorithmacy without an autonomous target. We trace this boundary across Charles Sanders Peirce, Willard Van Orman Quine, relational clone theory, and causal information theory.
 
-## Slide 10 — Quine's theorem
-In 1954 W. V. Quine proved a striking result. Take any theory written in ordinary first-order logic, with
-as many relations of as many places as you like. It can be rewritten as a theory in which "there is only
-one predicate letter, and it a dyadic one". One two-place relation is enough for everything.
+**Layman's Explanation**
+Does a three-way relationship actually exist on its own, or is it just two pairs glued together? Consider a three-legged stool: you cannot explain why it stands by testing pairs of legs in isolation; the stability exists only when all three work together at once. If three-way coordination is just two pairs stacked together, then learning to read text is all we need. If genuine three-way coordination is real and indivisible, we need a new framework.
 
-His tools were "a fragment of set theory" and the ordered pair: a way to package two things as one thing.
-And one more move, which matters: the new theory's universe is enlarged to contain all those pairs.
-Leopold Löwenheim had done something similar with pairs in 1915.
+---
 
-## Slide 11 — the worked example
-Here is how it works. Take the relation "A gives B to C". First package B and C into a pair. Then
-package A with that pair, and tag the result with which relation it belongs to. Now "A, B, C" is one new
-object in the enlarged universe. And "A gives B to C" becomes a single two-place fact about that object.
+## Slide 4 — Peirce: The Three Irreducible Categories
 
-Do that for every relation, of any number of places, and every relation in the theory has become
-two-place. The triad has disappeared into a tuple.
+**Technical Presentation**
+Charles Sanders Peirce structured his phenomenological and relational ontology upon three universal categories:
 
-## Slide 12 — the case against Peirce
-To be exact about the history: Quine never named Peirce in this paper, and never drew the conclusion
-himself. Others did. Robert Burch reports that after Quine's proof, many doubted Peirce's thesis. And you
-can see why. If any triad can be rewritten as pairs, then Thirdness is not a kind of being. It is a
-feature of our notation, which set theory can remove.
+* **Firstness** is monadic potentiality and immediate quality—what an entity is "regardless of aught else," formalizable as unary selection or uncoupled entropy.
 
-And if that is right, then algorithmacy is not a thing. So who is right?
+* **Secondness** is dyadic actuality and brute physical reaction—two terms locked in direct reciprocal resistance, where "cause and effect are two".
 
-## Slide 13 — Herzberger and Burch
-The logicians who came after both of them made the question precise, and the answer turned on the
-operations you allow. Hans Herzberger showed in 1981 that Peirce's thesis holds as a theorem for
-constructions that obey Peirce's valency rule, the tail-counting of slide seven, and that can form relative
-products. He also showed the other side: under standard notions of definability, "the reduction thesis
-collapses". Same author, same paper, two theorems. Robert Burch then built a whole Peircean algebra in 1991
-and proved the thesis inside it, under a restriction on how relations may be combined.
+* **Thirdness** is triadic mediation, law, and representation—"the medium or connecting bond between the absolute first and last," instantiated by the irreducible sign-object-interpretant relation.
 
-## Slide 14 — the three-way junction
-Later work located the difference exactly. Joachim Hereth Correia and Reinhard Pöschel proved in 2006
-that in Peirce's own algebra, on any domain of two or more things, one- and two-place relations never build
-the three-way identity: the relation that says three things are one and the same. Frithjof Dau and Hereth
-Correia pointed out that ordinary relational algebra can build it, but only because it is "hidden in the
-operations", in the step that lets one variable stand in three places. And Sergiy Koshkin has shown that
-when a variable may be shared freely, three-place relations do reduce to two-place ones on any finite
-domain of three or more values, while on two-valued domains some do not.
+**Layman's Explanation**
+Peirce argued that everything in reality falls into three buckets. Firstness is a pure, isolated quality, like seeing the color red in a dream. Secondness is direct, physical collision, like your bumper hitting a brick wall—two things pushing on each other. Thirdness is a traffic rule: the legal requirement that connects the red light to your foot pressing the brake. A law or a meaning cannot be described by raw collisions alone; the connecting rule is real.
 
-Notice where every one of these results lands: on Peirce's third argument, the junction.
+---
 
-## Slide 15 — both correct
-So what is the verdict? Burch, writing in the Stanford Encyclopedia, puts it this way: "both Peirce and
-Quine were correct: the issue entirely depends on exactly what constructive resources are to be allowed".
-Koshkin is less comfortable with a truce: "It cannot simply be that Peirce and Quine are both right." His
-view is that once you count each three-way junction as a triad, Peirce comes out right.
+## Slide 5 — Peircean Reduction Thesis (PRT)
 
-For our purposes, the upshot is this. Some triads reduce, and some do not, and the logicians have exact
-tests for which: but their tests apply to relations as sets of tuples, and they depend on the operations
-you allow. What algorithmacy needs is different. It needs a test for coordination as a running system:
-for a given form of coordination, is its third genuine, or two pairs in disguise? Koshkin himself pointed
-toward information integration as the place to look.
+**Technical Presentation**
+In 1870, Peirce formulated the Peircean Reduction Thesis (PRT): a genuine triad binds its members "in a way that does not consist in any complexus of dyadic relations". The thesis asserts two asymmetric claims:
 
-## Slide 16 — our argument
-Our argument is that integrated information theory, IIT, supplies a causal version of that test. IIT asks
-one question of a system: if you cut it into independent parts, what do you lose? Φ measures what is lost
-under the least damaging cut. If Φ is zero, the system splits at some cut. If Φ is above zero, every cut
-loses something. IIT also tells us, element by element, which other elements each one depends on
-irreducibly.
+1. No genuine triadic relation can be synthesized solely from monadic and dyadic relations.
 
-That gives us a precise meaning for an irreducible triad: a party whose state depends irreducibly on two
-others at once, with all three inside one whole. Here is the smallest example. M turns on only when A and
-B are both on, like a deal that closes only when both sign, and A and B each follow M. IIT finds the whole
-irreducible, Φ equal to 2.0, with all three in the core, the largest part that is itself a whole. And M
-depends on A and B together; its rule cannot be split into a part that answers to A and a part that
-answers to B.
+2. Every polyadic relation of arity $n \ge 3$ can be generated by compositions of triads.
+Triadicity is generative, universal, and join-complete; relations of arity $n \ge 4$ require no primitive higher-order operations beyond triadic branching.
 
-## Slide 17 — what IIT sorts
-We then used this test to sort cases. First, Peirce's side of the question. We built every system in
-which each element simply copies one other: 89 wirings at three and four elements, chained, looped or
-branched. No element in any of them depends on two others at once. Pairs make pairs, as Peirce said. I
-should say plainly that we split cause from effect after seeing the result, and that a copying element
-has only one cause, so this is close to true by construction. We also checked the instrument on thirteen
-kinds of wiring at five elements, with the same result.
+**Layman's Explanation**
+Peirce claimed that "three" is the magic number of the universe. You can never build a genuine three-way relationship out of simple two-way connections. But once you have true three-way connectors, you can assemble networks of any size or complexity—four-way, ten-way, or a million-way. Three is the fundamental building block; anything less is insufficient.
 
-Second, the sorting itself. We fixed the criterion in advance and tested it on thirty four-element systems
-nobody had read under it, each element driven by two others. Wholes can lack a triad: a ring of pairs is
-one whole, at Φ equal to 2.0, with no one depending on two others. Triads can lack a whole: in eleven of
-the thirty, a party depends on two others at once while the system splits. And in five of the thirty, as in
-the control and in genuine giving, the triad sits inside the whole. The rest have neither, or a triad
-outside the core. So IIT gives a causal version of the line the logicians drew.
+---
 
-## Slide 18 — algorithmacy's targets
-So here is the answer to the ontological question. Triads do not all reduce to dyads. The ones that do
-not, in these models, are a third fixed by two parties jointly, inside one whole with them. Those are
-algorithmacy's targets. Literacy is the sensibility for chains, where one person fixes a text and another
-reads it. Algorithmacy is the sensibility for these.
+## Slide 6 — Autonomous Mediation vs. Dyadic Cascades
 
-The target is older than AI. An arbitrator has this form, deciding from both sides and binding both; so
-does a tally that both sides write and both read. What is new is that this form now runs through ordinary
-work and life at scale, mostly through algorithms, and that is why the sensibility needs a name.
+**Technical Presentation**
+Peirce illustrates the irreducibility of Thirdness using the ternary proposition $\text{gives}(A, B, C)$. He demonstrates that an intentional transaction cannot be decomposed into sequential dyadic physical events, such as $A$ throwing object $B$ and $B$ subsequently colliding with recipient $C$. That physical sequence constitutes "merely one dyadic relation followed by another". Genuine giving transfers legal rights and intentional status, binding giver, gift, and recipient into a single non-factorizable fact.
 
-Two limits. These are models, not people: we have measured no worker and modelled no platform's rule.
-And whether two parties count as separate units is itself a choice; IIT has its own test for that, and
-running it is our next step. Thank you.
+**Layman's Explanation**
+Imagine I hand you a gift. That is a legal and social transfer of ownership. Now imagine I toss an apple out of a window, and it accidentally bounces off your head. In both cases, an apple left my hand and touched you. But the second scenario is just two physical accidents chained together. Genuine gift-giving requires all three parties—giver, gift, and receiver—to be united under a single mutual understanding.
+
+---
+
+## Slide 7 — Topological Obstructions to Dyadic Synthesis
+
+**Technical Presentation**
+Peirce formalized his topological valency calculus using graphical representations of relations. A monadic property possesses one external bond, a dyad possesses two, and a triad possesses three. Splicing two relations via relative product consumes two free bonds—one from each factor:
+
+$$2 + 2 - 2 = 2$$
+
+Chaining arbitrary even-valency relations ("artiads") strictly conserves even valency, permanently restricting compositions to linear paths or isolated cycles. Triadic composition, however, yields:
+
+$$3 + 3 - 2 = 4$$
+
+This allows the construction of arbitrary relational topologies.
+
+A classical mechanical counterargument suggests that allowing three dyadic bonds to intersect at a shared point generates a triad from binary lines. Peirce refuted this by showing that the intersection node is itself an active relation: "every node of bonds is equivalent to a relative". Alfred Kempe attempted to eliminate triads in 1886 by replacing them with configurations of binary links. Peirce demonstrated that Kempe had merely relocated the triad into the graphic attachment points—the primitive teridentity operator that synchronizes three distinct coordinates.
+
+**Layman's Explanation**
+Think of plumbing pipes. If you take straight pipes that each have two open ends, no matter how many you glue together, the finished line still only has two open ends. You can make long lines or closed loops, but you can never make a branch. To split a water line into a new direction, you need a T-junction pipe with three openings. Two-ended parts only produce two-ended systems.
+
+A skeptic might argue: "Look at a three-way road intersection; it is just three separate roads meeting in the middle!" Peirce responded that the middle of the intersection is not empty space—it is a roundabout or traffic light that coordinates all three roads simultaneously. You did not eliminate the triad; you just swept it into the middle of the intersection.
+
+---
+
+## Slide 8 — The Teridentity Relation: =_3
+
+**Technical Presentation**
+<!-- new -->
+That junction has an algebraic name, the **teridentity relation**:
+
+$$=_3 \; \equiv \{(x, x, x) \mid x \in A\}$$
+<!-- /new -->
+
+Robert Burch (1991) formalized Peircean Algebraic Logic (PAL), demonstrating algebraically that over a closed, fixed universe without domain expansion, dyadic relations cannot generate ternary relations under primitive positive logic.
+
+Over fixed domains, the three-way junction is join-irreducible.
+
+**Layman's Explanation**
+Modern algebra proved the exact mechanism. To coordinate three things, you need a "three-way identity switch"—a rule saying three different points must hold the exact same value simultaneously. Standard math formulas cheat by writing the variable letter $x$ three times in one equation and pretending that is not a three-way relation. It is. The moment you forbid that hidden trick, two-way wires can never build a three-way junction.
+
+---
+
+## Slide 9 — Quine’s Dyadic Translation (1954)
+
+**Technical Presentation**
+In 1954, Willard Van Orman Quine published a mathematical proof demonstrating that any formal theory expressible in first-order logic can be rewritten using only a single dyadic predicate, denoted $J$. Quine accomplished this by:
+
+* Compressing arguments into nested ordered pairs via Wiener-Kuratowski definitions.
+
+* Reifying polyadic relations as abstract individuals.
+
+* Expanding the universe of discourse to include an infinite hierarchy of sets of pairs, paralleling Leopold Löwenheim’s 1915 construction.
+
+The mechanics of Quine's translation are transparent. A ternary proposition like $\text{gives}(A, B, C)$ is packed as:
+
+$$\langle\text{tag}, A, \langle B, C\rangle\rangle \in J$$
+
+The original triadic fact is converted into an assertion of dyadic membership over an inflated domain. By recursively applying this procedure across all relations, every polyadic structure dissolves into an individual tuple embedded within an expanded universe of sets.
+
+**Layman's Explanation**
+In 1954, the famous philosopher Willard Van Orman Quine delivered what looked like a fatal blow to Peirce's theory. He showed a clever mathematical trick: if you bundle multiple pieces of information into pairs of nested envelopes, you can re-write any complex relationship in the world using just a single two-place relationship: "Does Envelope X contain Envelope Y?" It appeared that three-way relationships had been eliminated.
+
+Here is how Quine pulled it off: take "Alice gives a book to Bob". First, he packs "the book" and "Bob" into an envelope labeled "Target". Then he packs "Alice" and the "Target" envelope into a bigger envelope labeled "Giving Event". Now, you only ever ask two-item questions: "Is Alice inside the Giving envelope?" Quine replaced genuine three-way coordination with nested Russian nesting dolls.
+
+---
+
+## Slide 10 — Deconstructing Quine’s Fallacy
+
+**Technical Presentation**
+Quine's proof led twentieth-century logicians to conclude that Peirce's Reduction Thesis was mistaken. If any triadic relation can be represented as dyadic membership over a universe of pairs, Thirdness is not an autonomous category of being, but a syntactic convenience eliminated by set-theoretic packaging. If that conclusion holds, triadic interaction is an illusion: coordinating through an algorithm is just two chained dyadic steps, collapsing algorithmacy into conventional literacy.
+
+Universal algebra resolves this conflict by demonstrating that the outcome depends strictly on the constructive operations permitted:
+
+* Hans Herzberger (1981) proved that Peirce’s thesis holds as an exact theorem for valency-regular constructions under relative products, while confirming that under standard extensional definability over inflated domains, the thesis collapses.
+
+* Dau and Hereth Correia (2006) showed that standard relational algebra generates $=_3$ only by covertly smuggling it into variable identification operations ($\Delta$).
+
+**Layman's Explanation**
+If Quine is right, "three-way coordination" does not exist in nature—it is just lazy grammar that computer code can dismantle into pairs. And if that is true, you don't need any special skill to deal with algorithms; interacting with an AI or a platform is no different from reading two text messages one after the other.
+
+Logicians eventually realized both thinkers were right, but under different rules. If you are building a real machine out of a fixed set of physical parts, Peirce is completely right: you cannot build a three-way switch out of two-way switches. Quine only "won" on paper by assuming you have access to an infinite warehouse of magic envelopes to stuff things into.
+
+---
+
+## Slide 11 — Relational Co-Clones and Expressive Power
+
+**Technical Presentation**
+Relational clone theory formalizes the precise mathematical barrier. Hereth Correia and Pöschel (2006) proved that for any base domain $\vert{}A\vert{} \ge 2$, the clone generated by monadic and dyadic relations strictly excludes the **teridentity relation**:
+
+$$=_3 \; \equiv \{(x, x, x) \mid x \in A\}$$
+
+Koshkin (2024) proved that on infinite domains, non-degenerate relations have a strict lower bound of ternarity ($\text{ter}(R) \ge n - 2$).
+
+Robert Burch concluded in the *Stanford Encyclopedia of Philosophy* that both Peirce and Quine are correct relative to their premises: the outcome depends on the allowable constructive resources. Sergiy Koshkin showed that once the ternary junction is acknowledged as an explicit relation, Peirce’s claim is mathematically validated. However, static algebraic logic evaluates relations extensionally as frozen sets of tuples. It cannot evaluate real-time coordination within dynamic, running systems. To differentiate genuine triadic coordination from disguised dyadic transmission, we must employ causal information theory.
+
+**Layman's Explanation**
+On paper, if you allow infinite math tricks, Quine works; in physical geometry, Peirce works. But algorithms and humans do not live on paper as frozen database tables. We interact in real time with running software. We don't need another chalkboard proof; we need a physical test to determine whether a running computer system is genuinely triadic or just pretending to be one.
+
+---
+
+## Slide 12 — The Synergistic Teridentity Correspondence
+
+**Technical Presentation**
+<!-- new -->
+Partial Information Decomposition, due to Williams and Beer (2010), splits the information two sources carry about a target into four parts: what both carry (redundancy), what each carries alone (two unique terms), and what only the pair carries together (synergy). Exclusive-or is the canonical case. With $Y = X_1 \oplus X_2$, neither input alone tells you anything about $Y$, yet the two together fix it, and all of the information is synergy: one bit.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+Take two light switches wired so the lamp is on when exactly one of them is up. Look at either switch alone and you learn nothing about the lamp. Look at both and you know it for certain. That kind of information lives only in the pair, never in either part.
+<!-- /new -->
+
+---
+
+## Slide 13 — The Causal Test (IIT 4.0)
+
+**Technical Presentation**
+Integrated Information Theory (IIT 4.0) provides an operational test for dynamic irreducibility. IIT evaluates a system’s Transition Probability Matrix (TPM) across all bipartitions to determine the Minimum Information Partition (MIP):
+
+$$\Phi = \text{ID}\left(p \parallel p^{P_{\text{MIP}}}\right)$$
+
+If $\Phi = 0$, the system factorizes cleanly into independent components. If $\Phi > 0$, causal interactions are irreducible.
+
+**Layman's Explanation**
+We found our test in neuroscience: Integrated Information Theory. It asks a simple question: "If you take a pair of scissors and cut this system along its weakest seam, how much information is lost?" If cutting it loses nothing ($\Phi = 0$), it was just independent wires. If cutting it destroys the system's behavior ($\Phi > 0$), it is an indivisible whole.
+
+---
+
+## Slide 14 — IIT 4.0 Topological Architecture Sort
+
+**Technical Presentation**
+An **irreducible triad** is a mechanism jointly determined by two other elements, with all three belonging to an integrated complex ($\Phi > 0$). In our minimal control circuit ($M' = A \land B$; $A' = M$; $B' = M$), IIT 4.0 yields $\Phi = 2.0$, with all three nodes in the core complex.
+
+Applying this causal test across dynamical architectures resolves the structural taxonomy:
+
+1. **Dyadic Wirings Conserve Dyads:** Testing 89 discrete single-input copy architectures, no element is ever determined by two others: pairwise connections produce only pairwise determination. Our pre-registered hypothesis was refuted on the effect side, where one element can drive three; the cause-side reading is post hoc.
+
+2. **Wholeness and Triadicity Are Orthogonal:** Testing 30 four-element networks driven by two-input mechanisms proves that system-level integration and local triadic irreducibility do not always coincide:
+
+* *A whole without a triad:* A cyclic ring of pairwise copy elements achieves $\Phi = 2.0$ purely via feedback return, containing zero triadic mechanisms.
+
+* *A triad without a whole:* In 11 of the 30 networks, an element is jointly determined by two others, yet the system factorizes globally across its MIP ($\Phi = 0$).
+
+* *A triad integrated within a whole:* In 5 of the 30 networks—matching our control circuit and Peirce's model of genuine giving—the triadic mechanism resides inside an irreducible complex ($\Phi > 0$).
+
+**Layman's Explanation**
+In our circuit—where a mediator $M$ only triggers when both $A$ and $B$ act together, and both $A$ and $B$ listen to $M$—cutting the system destroys its function completely ($\Phi = 2.0$). It is a true, irreducible triad.
+
+We tested this across dozens of computational network designs and discovered two critical facts:
+First, connecting single-input wires end-to-end never creates a three-way decision—pairs only make pairs.
+Second, being a "unified system" is not the same as being a "triad". A circle of people whispering a rumor around a ring is a unified loop ($\Phi = 2.0$), but every step is still just a two-person exchange! Genuine triadicity requires an active coordinator that combines two inputs simultaneously inside that loop—which occurred in only 5 of our 30 test networks.
+
+---
+
+## Slide 15 — The Ontological Reality of Algorithmacy
+
+**Technical Presentation**
+Triads do not universally reduce to dyads. A genuine triadic system is one where an active third party is jointly determined by two participants and dynamically couples them within an integrated cause-effect structure ($\Phi > 0$). These non-factorizable systems are the specific operational targets of algorithmacy.
+
+While literacy parses feedforward, passive symbolic inscriptions, algorithmacy provides the cognitive capacity to model, interrogate, and negotiate the active, synergistic intent of an algorithmic third party. This structural form is not unique to artificial intelligence—it exists historically in legal arbitration and shared physical tallies. What is unprecedented is its automated deployment at societal scale through machine-learning platforms.
+
+Our current models are grounded in discrete Boolean state spaces, leaving continuous human behavior and the empirical identification of observational unit boundaries as our next investigative phase.
+
+**Layman's Explanation**
+The verdict is in: triads are real, physical, and cannot be broken down. When you read a book or an email, you use literacy to interpret static text that does not react to you. But when you drive for an app, manage an AI assistant, or interact through a platform, you are locked into an irreducible triad. The algorithm is an active player with its own incentives, measuring both sides at once. Basic literacy cannot protect you from being manipulated in this environment. Only algorithmacy—the ability to understand, question, and steer the active third party—allows humans to maintain agency in an automated world.
+
+---
+
+## Slide 16 — Genuine Giving and Its Imitation
+
+**Technical Presentation**
+<!-- new -->
+Same three members, two circuits: giver's act, thing, receiver's possession. In the gift, possession is set by giver and thing together; in the imitation, each member answers to one other. Both are wholes at Φ = 2.0.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+Back to the gift and the apple. Ask "is this one whole?" and both say yes. Ask "is anyone set by two others at once?" and only the gift says yes.
+<!-- /new -->
+
+---
+
+## Slide 17 — A Vote Is Not Always a Whole
+
+**Technical Presentation**
+<!-- new -->
+Each member following the majority: Φ = 0.0, the system factors. We had pre-registered the opposite. Unanimity instead: Φ = 6.0, all three in the core. On a related quorum form, IIT 3.0 says binds where IIT 4.0 says factors.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+A committee that goes with any two: any one of you can be outvoted, so cutting one away changes nothing. Make it all three or nothing, and cutting anyone stops it.
+<!-- /new -->
+
+---
+
+## Slide 18 — Irreducible by Law, or by Nature
+
+**Technical Presentation**
+<!-- new -->
+The dealer only relays: let the maker sell direct and Φ falls from 2.0 to 0.0. The clearinghouse keeps 2.0 under the same bypass. The brokerage types sort the same way. These are constructed forms, not markets.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+A toll booth on the only bridge matters until a second bridge goes up. A translator between strangers matters whatever you build. Our test builds the second bridge and asks who is still needed.
+<!-- /new -->
+
+---
+
+## Slide 19 — Fork the Repository
+
+**Technical Presentation**
+<!-- new -->
+Validate on two controls before you trust a verdict. A new question scaffolds from a template, and CI re-derives every registered number on each pull request.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+A kitchen with the recipes written down. Check the oven on a dish you know, then cook your own. Write down what you expect before you taste. A failed dish still goes in the book.
+<!-- /new -->
+
+---
+
+## Slide 20 — Questions Waiting for Someone
+
+**Technical Presentation**
+<!-- new -->
+We have pointed the instrument at real people once: two people's gaze, one step at a time. Coded per person, the streams factor; coded as a shared region, they integrate. The registered result: the verdict depends on the coder.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+Every line is a door. Bring a dataset, a workplace, a bigger committee.
+<!-- /new -->
+
+---
+
+## Slide 21 — What Questions Are You Interested In?
+
+[Live. Type the audience's sentence into Claude Code with talk/LIVE_SESSION.md loaded. Read three lines aloud: whole or factors, the core, who is set by two others. If the laptop or the network fails, show slide 22.]
+
+<!-- new -->
+An arrangement from your own work: three or four parties, who acts on whom. What questions are you interested in?
+<!-- /new -->
+
+---
+
+## Slide 22 — If the Laptop Fails
+
+[Not spoken unless the live session fails. Read the row that matches the question asked.]
+
+---
+
+## Slide 23 — Image Sources
+
+[Not spoken. Leave this up during questions, or skip it.]
+
+<!--
+## Held back — Simmel (no slide in the 2026-09-25 deck)
+
+The author's section, verbatim. Restore it by giving it a slide in deck.md and moving it into place.
+
+**Technical Presentation**
+Georg Simmel arrived at this boundary from structural sociology. An isolated dyad is fragile: if one member withdraws, the social unit dissolves; "only the other remains". Introducing a third party establishes mediation, non-linear routing ("broken lines"), and systemic stability via arbitration. However, Simmel recognized that a cardinality of three is necessary but insufficient: if the third party remains uncoupled, the system degenerates into isolated "configurations of twos". Triadicity requires joint interaction, not mere co-presence.
+
+**Layman's Explanation**
+In a two-person business partnership, if one partner walks away, the business ceases to exist. But add a third partner or an independent arbitrator, and the group survives even if two people disagree. The third person creates a bridge. However, if that third person sits in the corner and never talks to anyone, the group falls back into two people arguing in isolation.
+-->
