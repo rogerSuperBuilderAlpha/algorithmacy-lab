@@ -3,6 +3,34 @@
 Decisions and items only the author can close. Each has a default; nothing below blocks work unless it is
 marked **blocking**.
 
+## v4 additions (2026-09-25): for the author
+
+Slides 16–22 add three lab findings, two invitations to fork the repository, and a live session with its
+fallback. Nothing here has been applied to slides 1–15 or to `CLAIM.md`.
+
+1. **Approve or edit the slides 13–14 corrections.** They are proposed, not applied, in
+   [`reviews/2026-09-25/SLIDES_13_14.md`](reviews/2026-09-25/SLIDES_13_14.md). Row 1 of slide 14 stays
+   false until you decide.
+2. **Ask the organizers for a 30-minute slot.** That request is yours to make. If they keep 20 minutes,
+   speak the Layman passage only on slides 16–20, move the live session into Q&A, set `SLOT_MINUTES` in
+   `talk/check_talk.py` back to 20, and cut from slides 7, 9, 10 or 14.
+3. **`CLAIM.md` line 81 is stale.** It says joint determination and wholeness do not cross "both ways" on
+   registered evidence. `thinkers-peirce-jd`'s JD2 form and `thinkers-peirce-jd-full` now register that
+   crossing. Only you edit `CLAIM.md`.
+4. **Slides 16–20 are Claude-drafted and short**, 57–81 spoken words each, to fit the budget. Slide 21 is
+   live and slide 22 is not spoken unless the live session fails. Edit any of them; they are not your
+   text.
+5. **The headline "Irreducible by Law, or by Nature."** "Nature" may not be the right word for what
+   slide 18 shows: a mechanism that stays in the core for structural reasons, not a fact about nature.
+6. **Obstfeld, Rochet–Tirole and the gaze study go unnamed** on slide 20 because none has a card. Add
+   cards if you want the names on the slide.
+7. **Live-session limits, from the rehearsal.** Four nodes run in any form. Five run only when the form
+   is sparse; a dense five-node form took 9.5 minutes. Refuse six. The verdict can hinge on the
+   translation, so show both readings when a sentence is ambiguous. Run `classifier.validate` before the
+   projector is on — it prints the CI label words. Time one prompt end to end at pre-flight.
+8. **Lab items for a separate PR**, not this arm: `START_HERE.md` and `OVERVIEW.md` still advertise
+   answered agenda questions as open, and `NOW.md` is stale.
+
 ## v3 deck and script (2026-09-25): what the record says, for the author to decide
 
 The deck and script are the author's, and nothing below has been changed in them. A fact check against

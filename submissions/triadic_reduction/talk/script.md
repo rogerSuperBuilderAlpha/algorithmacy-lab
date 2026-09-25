@@ -5,7 +5,12 @@ same day. Every sentence is the author's, moved to the slide it speaks to and ot
 the sentences inside a "new" comment pair, which Claude drafted because the new slide has no passage in
 the author's script. The author's Simmel section has no slide in the new deck and is held, verbatim, at
 the end of this file under "Held back". Text in square brackets is a stage direction and is not counted.
-HTML comments do not reach the speaker notes. -->
+HTML comments do not reach the speaker notes.
+
+v4, 2026-09-25: sections 16 to 22 are Claude-drafted for the seven new slides (three lab findings, two
+invitations to fork the repository, the live session and its fallback); every spoken sentence in them sits
+inside a "new" comment pair. The author's sections 1 to 15 are untouched, and the image-sources stub that
+was section 16 is now section 23. -->
 
 ---
 
@@ -254,7 +259,93 @@ The verdict is in: triads are real, physical, and cannot be broken down. When yo
 
 ---
 
-## Slide 16 — Image Sources
+## Slide 16 — Genuine Giving and Its Imitation
+
+**Technical Presentation**
+<!-- new -->
+Same three members, two circuits: giver's act, thing, receiver's possession. In the gift, possession is set by giver and thing together; in the imitation, each member answers to one other. Both are wholes at Φ = 2.0.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+Back to the gift and the apple. Ask "is this one whole?" and both say yes. Ask "is anyone set by two others at once?" and only the gift says yes.
+<!-- /new -->
+
+---
+
+## Slide 17 — A Vote Is Not Always a Whole
+
+**Technical Presentation**
+<!-- new -->
+Each member following the majority: Φ = 0.0, the system factors. We had pre-registered the opposite. Unanimity instead: Φ = 6.0, all three in the core. On a related quorum form, IIT 3.0 says binds where IIT 4.0 says factors.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+A committee that goes with any two: any one of you can be outvoted, so cutting one away changes nothing. Make it all three or nothing, and cutting anyone stops it.
+<!-- /new -->
+
+---
+
+## Slide 18 — Irreducible by Law, or by Nature
+
+**Technical Presentation**
+<!-- new -->
+The dealer only relays: let the maker sell direct and Φ falls from 2.0 to 0.0. The clearinghouse keeps 2.0 under the same bypass. The brokerage types sort the same way, on constructed forms, not fitted markets.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+A toll booth on the only bridge matters until a second bridge goes up. A translator between two people with no common language matters whatever you build. Our test builds the second bridge and asks who is still needed.
+<!-- /new -->
+
+---
+
+## Slide 19 — Fork the Repository
+
+**Technical Presentation**
+<!-- new -->
+Validate on two controls before you trust a verdict. A new question scaffolds from a template, and CI re-derives every registered number on each pull request.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+A kitchen with the recipes written down. Check the oven on a dish you know, then cook your own. Write down what you expect before you taste. A dish that comes out wrong still goes in the book.
+<!-- /new -->
+
+---
+
+## Slide 20 — Questions Waiting for Someone
+
+**Technical Presentation**
+<!-- new -->
+We have pointed the instrument at real people once: two people's gaze, one step at a time. Coded per person, the streams factor; coded as a shared region, they integrate. The registered result: the verdict depends on the coder.
+<!-- /new -->
+
+**Layman's Explanation**
+<!-- new -->
+Every line is a door. Bring a dataset, a workplace, a bigger committee.
+<!-- /new -->
+
+---
+
+## Slide 21 — What Questions Are You Interested In?
+
+[Live. Type the audience's sentence into Claude Code with talk/LIVE_SESSION.md loaded. Read three lines aloud: whole or factors, the core, who is set by two others. If the laptop or the network fails, show slide 22.]
+
+<!-- new -->
+An arrangement from your own work: three or four parties, who acts on whom. What questions are you interested in?
+<!-- /new -->
+
+---
+
+## Slide 22 — If the Laptop Fails
+
+[Not spoken unless the live session fails. Read the row that matches the question asked.]
+
+---
+
+## Slide 23 — Image Sources
 
 [Not spoken. Leave this up during questions, or skip it.]
 

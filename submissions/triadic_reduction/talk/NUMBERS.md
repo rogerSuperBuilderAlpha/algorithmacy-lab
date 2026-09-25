@@ -52,3 +52,21 @@ record (`thinkers-peirce-h1-irreducibility`) has Φ > 0 in 8 of them, so `0.0` i
 | 2024 | year | — | koshkin2024reduction |
 | 2010 | year | — | williams2010decomposition |
 | 1.0 | arithmetic | — | XOR synergy of 1 bit (williams2010decomposition card, the carder's arithmetic, not W&B's printed numbers) |
+
+Added for v4 (2026-09-25). Slides 16–22 are new (`AUTHOR_TASKS.md`, "v4 additions"). Declaring `0.0` here
+also silences `check_talk.py` on the author's own slide 14, row 1 ("89 Wirings … Φ = 0.0"): that cell is
+still false against `thinkers-peirce-h1-irreducibility`'s `whole-irreducible (Φ>0)=8` until the author
+applies the correction proposed in `reviews/2026-09-25/SLIDES_13_14.md`. Declaring the number does not
+settle the fact.
+
+| 0.0 | lab result | thinkers-simmel-h3-majority | majority_triad         dyadic   Φ_MIP=0.000000  core=() coreΦ=0.000 |
+| 6.0 | lab result | thinkers-simmel-h3-majority | unanimity_triad        triadic  Φ_MIP=6.000000  core=('A', 'B', 'C') coreΦ=6.000 |
+| 6 | lab result | thinkers-simmel-h2-number | clique_3               triadic  Φ_MIP=6.000000 |
+| 12 | lab result | thinkers-simmel-h2-number | clique_4               triadic  Φ_MIP=12.000000 |
+| 20 | lab result | thinkers-simmel-h2-number | clique_5               triadic  Φ_MIP=20.000000 |
+| 3.0 | name | — | IIT 3.0 (q215-phi-family-robustness) |
+| 3.10 | version | — | Python 3.10 (GETTING_STARTED.md §1) |
+| 2.0 | lab result | thinkers-peirce-jd | giving_genuine         Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=True  in_whole=True   R <- GT (φ=2.000) |
+| 2.0 | lab result | thinkers-peirce-jd | giving_degenerate      Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=False in_whole=False  none |
+| 2.0 | lab result | q213-contingent-irreducibility | (Phi 2.000 -> 0.000) |
+| 0.0 | lab result | q213-contingent-irreducibility | (Phi 2.000 -> 0.000) |

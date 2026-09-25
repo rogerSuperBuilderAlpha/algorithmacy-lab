@@ -6,3 +6,7 @@ Does Envelope X contain Envelope Y?
 Alice gives a book to Bob
 Is Alice inside the Giving envelope?
 If you take a pair of scissors and cut this system along its weakest seam, how much information is lost?
+# v4 (2026-09-25), slides 16 and 21: imagined speech in the new sections.
+The dispatcher assigns a job only when a driver and a rider both accept.
+is this one whole?
+is anyone set by two others at once?

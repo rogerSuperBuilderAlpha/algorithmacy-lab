@@ -196,7 +196,100 @@ Join-Irreducible Thirdness
 Measure-Theoretic Synergy
 Positive Causal Integration (Φ > 0)
 
-## Slide 16 — image sources
+## Slide 16 — genuine giving
+<!-- v4, 2026-09-25: slides 16–22 are Claude-drafted, not the author's text; the author's deck ends at slide 15 and resumes at slide 23. -->
+#### FROM THE LAB
+### Genuine Giving and Its Imitation
+**Same Members, Same Φ**
+Giver, thing, receiver. Both circuits hold together as wholes: Φ = 2.0.
+
+**Genuine Giving**
+The receiver's possession is set by the giver and the thing together.
+
+**The Imitation**
+Each member answers to one other. Φ cannot tell it from the real thing.
+
+**The Difference**
+One member set by the other two, inside the whole. Only the gift has it.
+
+## Slide 17 — a vote
+#### FROM THE LAB
+### A Vote Is Not Always a Whole
+**Majority Rule**
+Three members, each following the majority of the three: Φ = 0.0. The system factors.
+
+**Unanimity Rule**
+Each member goes only when all three say yes: Φ = 6.0. No cut leaves it whole.
+
+**A Caveat**
+A related quorum form, three parties reading a mediator that moves on any two, factors under IIT 4.0 and binds under IIT 3.0.
+
+## Slide 18 — by law or by nature
+#### FROM THE LAB
+### Irreducible by Law, or by Nature
+**The Car Dealer**
+Maker, dealer, buyer, in a ring franchise law closes. The dealer is inside: Φ = 2.0.
+
+**Lift the Ban**
+Let the maker sell direct: Φ = 2.0 → 0.0. The dealer drops out.
+
+**The Clearinghouse**
+A third that needs both sides to act keeps its place: Φ = 2.0 → 2.0.
+
+**The Brokerage Types, Sorted the Same Way**
+Keeps two sides apart: contingent. Needs both sides: necessary. Introduces them, then steps aside: reducible.
+
+## Slide 19 — fork
+#### JOIN THE LAB
+### Fork the Repository
+github.com/rogerSuperBuilderAlpha/algorithmacy-lab — MIT license, Python 3.10+
+
+**Validate, Then Run One**
+python -m org_frontier.classifier.validate
+python -m org_frontier.probes.probe_conjunctive_law
+
+**Ask Your Own Question**
+python -m org_frontier.protocol.new_question, then commit hypotheses.md first.
+
+**Publish**
+Register every number in ci/reproduce.json. Pull request into contrib. Nulls count.
+
+## Slide 20 — open questions
+#### JOIN THE LAB
+### Questions Waiting for Someone
+**Real People**
+Our one verdict on real gaze data changes with the coding. Which coding is right?
+
+**Real Rules**
+A field case with two coders agreeing on what sets each action. Nobody has run one.
+
+**Bigger Forms**
+Cliques of two to five read Φ = 2, 6, 12, 20. Six and up, and Shapley membership on larger forms: open.
+
+**Softer Channels**
+A graded channel. Weighted or noisy quorums. An arrangement that is algorithmacy but not directive algorithmic management.
+
+## Slide 21 — live
+#### LIVE
+### What Questions Are You Interested In?
+Name three or four parties and say who acts on whom.
+
+A plain sentence is enough: "The dispatcher assigns a job only when a driver and a rider both accept."
+
+We build it as a small circuit, compute Φ and the core, and read who is set by two others.
+
+A few seconds per form. A zero is a result too. Small Boolean models, not people.
+
+## Slide 22 — if the laptop fails
+#### LIVE
+### If the Laptop Fails
+| The sentence | Φ | Verdict | Core |
+| Dispatcher assigns only when driver and rider both accept; both wait on it | 2.0 | whole | all three; dispatcher set by driver and rider |
+| Client and worker now answer each other directly; the manager still hears both, but nobody waits on the manager | 0.0 | factors | client and worker |
+| Committee of three: by majority, then by unanimity | 0.0, then 6.0 | factors, then whole | none, then all three |
+| Dealer between maker and buyer; then the maker may sell direct | 2.0, then 0.0 | whole, then factors | all three; then the dealer drops out |
+
+## Slide 23 — image sources
 ### Image Sources
 https://footnotes2plato.com/wp-content/uploads/2024/09/charles_sanders_peirce-colorized_cleanup-enhanced.jpg?w=640
 Source: footnotes2plato.com

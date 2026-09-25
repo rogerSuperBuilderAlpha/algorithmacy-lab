@@ -4,6 +4,8 @@ Seeded by a red-team pass over ARGUMENT.md: for every premise and for the conclu
 
 **v3 (2026-09-25).** Slide numbers in the answers below refer to the v1 and v2 decks, not to the author's 16-slide v3 deck. On v3 the questions most likely to come up are Q25 (Quine never aimed at Peirce: slides 9–10), Q32 (Koshkin 2025 on primitive-positive reduction: slides 8 and 11) and Q42 (the Φ = 2 ring of copies: slides 13–14). The fact check in `../reviews/2026-09-25/FACTCHECK.md` lists where the v3 slides and these answers disagree.
 
+**v4 (2026-09-25).** Slides 16–22 are new: three lab findings (the imitation gift at Φ = 2.0, the majority triad at Φ = 0.0 against unanimity at 6.0, the car dealer against the clearinghouse), two invitations to fork the repository, the live session and its fallback. Q64–Q68 answer the objections those slides invite. The slide 13–14 corrections in `../reviews/2026-09-25/SLIDES_13_14.md` are proposed, not applied.
+
 ## Q1. Your four regimes are a taxonomy you built so Peirce wins somewhere. Logicians settled on standard first-order definability long ago, and there triads reduce.
 
 *Target:* D1 (composition regimes)
@@ -507,3 +509,43 @@ It would overclaim if I meant that triads are primitives or that everyone needs 
 The definitions are mine, and the ceiling nearly follows from them. I said so. Two parts don't follow. First, joint determination can sit inside a whole at all, which is a lab result. Second, the Quinean route of pairing doesn't escape it among fixed parties, which is an argument. The circular part is the calibration. The rest is the claim.
 
 *Evidence:* CI thinkers-peirce-h1 control PASS; thinkers-peirce-h3 giving_genuine; thinkers-peirce-h4 sign_pragmatic. Register TR-S5-094. ARGUMENT P30.
+
+## Q64. Φ = 2 for the fake gift, so Φ is worthless?
+
+*Target:* slide 16 (the imitation reads Φ = 2.0)
+
+No: it answers a different question. Φ asks whether the system factors, and the imitation does not factor. Each member answers to one other around a ring, and cutting the ring loses something. The second question, whether any member is set by two others, is what separates the gift from the imitation. The test needs both questions, and neither alone is the test. That is what slide 16 shows, and it is why slide 13's old headline had to go.
+
+*Evidence:* CI thinkers-peirce-jd: 'giving_genuine         Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=True  in_whole=True   R <- GT (φ=2.000)'; 'giving_degenerate      Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=False in_whole=False  none'. peirce/forms.py GIVING_GENUINE and GIVING_DEGENERATE (l.37–38). CLAIM.md 'Do not claim' l.69–70, l.75.
+
+## Q65. Majority factors, so committees aren't wholes?
+
+*Target:* slide 17 (majority Φ = 0.0, unanimity Φ = 6.0)
+
+Some committees aren't, on this measure. Under majority rule any two carry the vote, so there is a cut that loses nothing and Φ reads 0.0 with an empty core. The same three under unanimity read 6.0 with all three in the core. The rule decides, not the headcount. Two cautions I give unasked. Our pre-registered hypothesis said the majority would bind, and it was refuted. And a related four-node quorum form binds under IIT 3.0 where 4.0 says it factors, so on quorums the sign belongs to the measure.
+
+*Evidence:* CI thinkers-simmel-h3-majority: 'majority_triad         dyadic   Φ_MIP=0.000000  core=() coreΦ=0.000'; 'unanimity_triad        triadic  Φ_MIP=6.000000  core=('A', 'B', 'C') coreΦ=6.000'; 'H3 (majority triad binds all three): REFUTED'. CI q215-phi-family-robustness: 'E2    quorum 2-of-3                          4.0 Φmax=0.0000 FACTORS  3.0 Φmax=1.2688 BINDS'. simmel/forms.py MAJORITY_TRIAD, UNANIMITY_TRIAD (l.51–52). Note for the speaker: thinkers-peirce-jd also registers the majority triad as jd=True (tied) with in_whole=False, so it is a member set by two others in a system that factors; do not call it a whole.
+
+## Q66. IIT 3.0 disagrees, which measure is right?
+
+*Target:* slide 17 caveat (q215)
+
+They agree wherever the verdict comes from gross structure. Every form that binds under 4.0 binds under 3.0, and the disconnected controls factor under both. They part on three forms whose factoring is subtle, and every split runs one way: 3.0 gives positive Φ where 4.0 finds a costless cut. I use 4.0 because a criterion needs zeros. A measure that calls nearly every connected system a whole cannot separate a configuration from an aggregate. So a verdict of binds is robust across the family, and a verdict of factors, beyond the trivial cases, is a claim about the 4.0 partition, and I say so on the slide.
+
+*Evidence:* CI q215-phi-family-robustness: 'headline forms sign-robust: 5/8'; 'H4 (dispatch pair measure-robust both directions): CONFIRMED'; 'H1 (quorum extremes law measure-robust): REFUTED'. org_frontier/questions/q215_phi_family_robustness/FINDINGS.md (the three splits, all in one direction; scope: eight forms, one 3.0 configuration).
+
+## Q67. Coder-dependent means subjective?
+
+*Target:* slide 20, 'Real People' (q204)
+
+It means the coding is a premise, and premises get stated. On the gaze data, both per-person codings give a Φ whose interval includes zero. The folded coding, which writes 'the two look at the same region' into each unit, gives a Φ clear of zero. That is a coding that manufactures integration, and the test caught it. The remedy is in the field protocol: ground every rule in a document, a log or convergent accounts, and where the parties disagree about what determines an action, model both readings and report both verdicts. Nobody has run that with two coders yet, which is why it is on the slide.
+
+*Evidence:* CI q204-phi-on-real-coordination: 'H2 (the integration verdict is coder-dependent): SUPPORTED'; 'H1 (exact Phi computed on real coordination; control reads integration): SUPPORTED'. org_frontier/questions/q204_phi_on_real_coordination/FINDINGS.md (three codings; the Φ values are unregistered, so speak none of them). org_frontier/field/PROTOCOL.md 'Limitations' (no inter-rater reliability yet; disagreement is data).
+
+## Q68. The dealer is a toy?
+
+*Target:* slide 18 (q213, q214)
+
+Yes. Three nodes, one rule each, and the probe's own docstring calls it a worked illustration, not a fitted model of a market. What it shows is that one test tells two reasons for irreducibility apart. The dealer sits in the core only while the buyer must go through it; restore the direct sale and it leaves. The clearinghouse sits there either way, because a direct link cannot reproduce a condition that needs both sides. The same test sorts the brokerage literature's types the same way, again on constructed forms. Whether any real dealer network has this shape is a per-form question, to be modelled and checked, and we have modelled none.
+
+*Evidence:* CI q213-contingent-irreducibility: 'contingent  (car dealer)      : contingent margin=2.000  D in core: constrained=True bypass=False  (Phi 2.000 -> 0.000)'; 'intrinsic   (clearinghouse)   : intrinsic  margin=0.000  S in core: constrained=True bypass=True  (Phi 2.000 -> 2.000)'. CI q214-triadic-classification: 'tertius_gaudens ... contingent   2.000'; 'two_sided_platform ... necessary    0.000'; 'tertius_iungens_selfliquidating ... reducible    0.000'. probe_contingent_irreducibility.py docstring ('a worked illustration, not a fitted model of a market'). CLAIM.md l.97 (no worker, platform or real rule is shown triadic).

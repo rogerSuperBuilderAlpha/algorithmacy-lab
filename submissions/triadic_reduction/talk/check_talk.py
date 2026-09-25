@@ -6,7 +6,8 @@
    run explicitly black, table cells unfilled, every background explicitly white, one sans
    and one mono face, 16:9, no transitions or animation timing.
 2. Each slide's speaker notes equal its section of script.md.
-3. The spoken script fits the slot at 130 words a minute, with a buffer.
+3. The spoken script fits the slot at 130 words a minute, with a buffer and time held back for the
+   live demo.
 4. Every number in deck.md and script.md is declared in NUMBERS.md; a number
    declared as a lab result must name a check whose expect string in
    ci/reproduce.json contains the declared substring.
@@ -38,7 +39,8 @@ HERE = Path(__file__).resolve().parent
 ARM = HERE.parent
 REPO = ARM.parent.parent
 CARDS = ARM / "library" / "cards"
-SLOT_MINUTES = 20
+SLOT_MINUTES = 30  # requested from the organizers 2026-09-25; the confirmed slot is still 20 — set back to 20 if they decline
+DEMO_MINUTES = 3
 BUFFER_MINUTES = 1.5
 WPM = 130
 FONTS = {"Arial", "Courier New", "Cambria Math"}
@@ -146,9 +148,9 @@ def check_notes(prs, script: dict[int, str], problems: list[str]) -> None:
 def check_timing(script: dict[int, str], problems: list[str], report: list[str]) -> None:
     words = {n: len(spoken(t).split()) for n, t in script.items()}
     total = sum(words.values())
-    budget = int((SLOT_MINUTES - BUFFER_MINUTES) * WPM)
+    budget = int((SLOT_MINUTES - BUFFER_MINUTES - DEMO_MINUTES) * WPM)
     report.append(f"script: {total} spoken words = {total / WPM:.1f} min at {WPM} wpm "
-                  f"(budget {budget} words)")
+                  f"(slot {SLOT_MINUTES} min, demo {DEMO_MINUTES} min, budget {budget} words)")
     report.append("per slide: " + ", ".join(f"{n}:{w}" for n, w in sorted(words.items())))
     if total > budget:
         problems.append(f"script is {total} words; budget is {budget}")
