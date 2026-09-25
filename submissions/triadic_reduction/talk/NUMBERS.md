@@ -44,3 +44,11 @@ The rows for 11 and 30 name `thinkers-peirce-jd-full`, registered by the lab add
 | 2.274 | locus | — | CP 2.274 (peirce1931papers) |
 | 1991 | year | — | burch1991reduction |
 | 1 | label | — | argument numbering on slides 6–8 |
+
+Added for v3 (2026-09-25). The v3 table on slide 14 prints `Φ = 0.0` for the 89 one-input wirings; the CI
+record (`thinkers-peirce-h1-irreducibility`) has Φ > 0 in 8 of them, so `0.0` is left undeclared and
+`check_talk.py` fails on it until the author decides (AUTHOR_TASKS.md, v3 item 2).
+
+| 2024 | year | — | koshkin2024reduction |
+| 2010 | year | — | williams2010decomposition |
+| 1.0 | arithmetic | — | XOR synergy of 1 bit (williams2010decomposition card, the carder's arithmetic, not W&B's printed numbers) |

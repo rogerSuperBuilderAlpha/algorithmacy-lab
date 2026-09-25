@@ -1,0 +1,8 @@
+# Quoted words in deck.md or script.md that are not quotations of a source: imagined speech, examples
+# and file names. check_talk.py skips these; every other quotation must match a verified card.
+Do Triads Reduce to Dyads?.pptx
+Look at a three-way road intersection; it is just three separate roads meeting in the middle!
+Does Envelope X contain Envelope Y?
+Alice gives a book to Bob
+Is Alice inside the Giving envelope?
+If you take a pair of scissors and cut this system along its weakest seam, how much information is lost?

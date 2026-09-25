@@ -1,8 +1,8 @@
 # Triadic reduction — the talk
 
-**Status.** Claim locked 2026-09-24. Deck (`talk/deck.pptx`, 16 slides) and script (`talk/script.md`, about seventeen minutes) drafted and corrected after a review panel ([`reviews/2026-09-24/`](reviews/2026-09-24/)); the author's timed read-aloud is next.
+**Status.** Claim locked 2026-09-24. **v3, 2026-09-25:** the deck is now the author's own 16-slide deck, with its design removed and its pictures, diagram and table kept (`talk/deck.pptx`, built from `talk/deck.md`). The script is the author's script of the same day, re-sectioned onto those slides (`talk/script.md`); it runs about 22.6 minutes at 130 words a minute against a 20-minute slot. Open questions on the new text are in [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md); the author's timed read-aloud is next.
 **Venue.** ALGOCON, the algorithmacy.org conference, Port of Spain, 28–31 October 2026. Slot: 20 minutes.
-**Deliverables.** A black-and-white, text-only slide deck (`.pptx` built from Markdown) and a talk script.
+**Deliverables.** A black-and-white slide deck (`.pptx` built from Markdown: black text on white, the author's two portraits, the valency diagram and one plain table, nothing else) and a talk script.
 
 The talk makes one argument. Literacy is a dyadic competence and algorithmacy a triadic one. If every
 triad reduces to dyads, algorithmacy is literacy applied twice and names nothing new. If some triads do
@@ -38,11 +38,11 @@ others inside a system that does not factor. Φ > 0 alone is not the test: the l
 | [`sources/capture_gemini_share.py`](sources/capture_gemini_share.py) | Re-captures a Gemini share page as Markdown |
 | [`CLAIM.md`](CLAIM.md) | The claim lock: title, question, the one thesis, what it licenses, what not to claim, open decisions — **draft, awaiting the author** |
 | [`ARGUMENT.md`](ARGUMENT.md) | The premise-by-premise argument, S1–S6, each premise with its card, CI or register support |
-| [`OUTLINE.md`](OUTLINE.md) | Slide-by-slide plan: on-slide text, premises carried, sources, timing |
+| [`OUTLINE.md`](OUTLINE.md) | Slide-by-slide plan: which passage of the author's script each slide carries, and its sources |
 | [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md) | Decisions and items only the author can close |
 | [`claims/`](claims/) | The claims register: every claim the preliminary sources make, with a verbatim anchor and what became of it (`check_register.py` gates it) |
 | [`library/`](library/) | One card per work, marked verified, corrected, metadata-only or unverifiable against what was actually read |
-| [`talk/`](talk/) | Deck and script sources, the deck builder, the checker, the previewer, prepared Q&A |
+| [`talk/`](talk/) | Deck and script sources, the deck's pictures (`talk/media/`), the deck builder, the checker, the previewer, prepared Q&A |
 | [`reviews/`](reviews/) | The correctness panel: findings, the verification gate, and what was applied |
 
 ## Re-capturing a Gemini share page

@@ -2,6 +2,8 @@
 
 Seeded by a red-team pass over ARGUMENT.md: for every premise and for the conclusion, the strongest objection an expert would raise, and an honest answer of under a minute with its evidence. Rows marked **backup** need a backup slide. These are working answers for the author to rewrite in the author's own voice, not a script. They predate the Phase 6 panel (`../reviews/2026-09-24/`); where an answer conflicts with the revised `script.md`, the script governs.
 
+**v3 (2026-09-25).** Slide numbers in the answers below refer to the v1 and v2 decks, not to the author's 16-slide v3 deck. On v3 the questions most likely to come up are Q25 (Quine never aimed at Peirce: slides 9–10), Q32 (Koshkin 2025 on primitive-positive reduction: slides 8 and 11) and Q42 (the Φ = 2 ring of copies: slides 13–14). The fact check in `../reviews/2026-09-25/FACTCHECK.md` lists where the v3 slides and these answers disagree.
+
 ## Q1. Your four regimes are a taxonomy you built so Peirce wins somewhere. Logicians settled on standard first-order definability long ago, and there triads reduce.
 
 *Target:* D1 (composition regimes)
