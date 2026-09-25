@@ -44,3 +44,28 @@ The rows for 11 and 30 name `thinkers-peirce-jd-full`, registered by the lab add
 | 2.274 | locus | — | CP 2.274 (peirce1931papers) |
 | 1991 | year | — | burch1991reduction |
 | 1 | label | — | argument numbering on slides 6–8 |
+
+Added for v3 (2026-09-25). The v3 table on slide 14 printed `Φ = 0.0` for the 89 one-input wirings; the CI
+record (`thinkers-peirce-h1-irreducibility`) has Φ > 0 in 8 of them. The author approved the correction on
+2026-09-25 (`reviews/2026-09-25/SLIDES_13_14.md`), so that cell now reads `Φ > 0 in 8`.
+
+| 2024 | year | — | koshkin2024reduction |
+| 2010 | year | — | williams2010decomposition |
+| 1.0 | arithmetic | — | XOR synergy of 1 bit (williams2010decomposition card, the carder's arithmetic, not W&B's printed numbers) |
+
+Added for v4 (2026-09-25). Slides 16–22 are new (`AUTHOR_TASKS.md`, "v4 additions"). The slide 14
+row 1 cell that `0.0` once also covered was corrected on 2026-09-25 and no longer prints `0.0`.
+
+| 0.0 | lab result | thinkers-simmel-h3-majority | majority_triad         dyadic   Φ_MIP=0.000000  core=() coreΦ=0.000 |
+| 6.0 | lab result | thinkers-simmel-h3-majority | unanimity_triad        triadic  Φ_MIP=6.000000  core=('A', 'B', 'C') coreΦ=6.000 |
+| 6 | lab result | thinkers-simmel-h2-number | clique_3               triadic  Φ_MIP=6.000000 |
+| 12 | lab result | thinkers-simmel-h2-number | clique_4               triadic  Φ_MIP=12.000000 |
+| 20 | lab result | thinkers-simmel-h2-number | clique_5               triadic  Φ_MIP=20.000000 |
+| 3.0 | name | — | IIT 3.0 (q215-phi-family-robustness) |
+| 3.10 | version | — | Python 3.10 (GETTING_STARTED.md §1) |
+| 2.0 | lab result | thinkers-peirce-jd | giving_genuine         Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=True  in_whole=True   R <- GT (φ=2.000) |
+| 2.0 | lab result | thinkers-peirce-jd | giving_degenerate      Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=False in_whole=False  none |
+| 2.0 | lab result | q213-contingent-irreducibility | (Phi 2.000 -> 0.000) |
+| 0.0 | lab result | q213-contingent-irreducibility | (Phi 2.000 -> 0.000) |
+| 8 | lab result | thinkers-peirce-h1-irreducibility | whole-irreducible (Φ>0)=8 |
+| 0.0 | lab result | thinkers-peirce-jd-full | joint determination with Φ_MIP=0=11 |

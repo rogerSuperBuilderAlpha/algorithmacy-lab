@@ -1,8 +1,8 @@
 # Triadic reduction — the talk
 
-**Status.** Claim locked 2026-09-24. Deck (`talk/deck.pptx`, 16 slides) and script (`talk/script.md`, about seventeen minutes) drafted and corrected after a review panel ([`reviews/2026-09-24/`](reviews/2026-09-24/)); the author's timed read-aloud is next.
-**Venue.** ALGOCON, the algorithmacy.org conference, Port of Spain, 28–31 October 2026. Slot: 20 minutes.
-**Deliverables.** A black-and-white, text-only slide deck (`.pptx` built from Markdown) and a talk script.
+**Status.** Claim locked 2026-09-24. **v4, 2026-09-25:** the deck is now 23 slides (`talk/deck.pptx`, built from `talk/deck.md`). Slides 1–15 are the author's own deck, design removed, pictures, diagram and table kept; slides 16–22 are new — three findings from the lab, two invitations to fork the repository, and a live session with its fallback; slide 23 is Image Sources, moved from 16. The script (`talk/script.md`) is 3,314 spoken words, 25.5 minutes at 130 words a minute, against a 30-minute slot (`talk/check_talk.py`); the 30-minute slot is requested, not confirmed — the venue's confirmed slot is 20 minutes. Open questions on the new text are in [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md); the author's timed read-aloud, with the live demo clocked separately, is next.
+**Venue.** ALGOCON, the algorithmacy.org conference, Port of Spain, 28–31 October 2026. Slot: 20 minutes confirmed, 30 minutes requested.
+**Deliverables.** A black-and-white slide deck (`.pptx` built from Markdown: black text on white, the author's two portraits, the valency diagram and one plain table, nothing else), a talk script, and a live-session runbook (`talk/LIVE_SESSION.md`) for building and running an audience member's coordination scenario during the talk.
 
 The talk makes one argument. Literacy is a dyadic competence and algorithmacy a triadic one. If every
 triad reduces to dyads, algorithmacy is literacy applied twice and names nothing new. If some triads do
@@ -38,11 +38,13 @@ others inside a system that does not factor. Φ > 0 alone is not the test: the l
 | [`sources/capture_gemini_share.py`](sources/capture_gemini_share.py) | Re-captures a Gemini share page as Markdown |
 | [`CLAIM.md`](CLAIM.md) | The claim lock: title, question, the one thesis, what it licenses, what not to claim, open decisions — **draft, awaiting the author** |
 | [`ARGUMENT.md`](ARGUMENT.md) | The premise-by-premise argument, S1–S6, each premise with its card, CI or register support |
-| [`OUTLINE.md`](OUTLINE.md) | Slide-by-slide plan: on-slide text, premises carried, sources, timing |
+| [`OUTLINE.md`](OUTLINE.md) | Slide-by-slide plan: which passage of the author's script each slide carries, and its sources |
 | [`AUTHOR_TASKS.md`](AUTHOR_TASKS.md) | Decisions and items only the author can close |
 | [`claims/`](claims/) | The claims register: every claim the preliminary sources make, with a verbatim anchor and what became of it (`check_register.py` gates it) |
 | [`library/`](library/) | One card per work, marked verified, corrected, metadata-only or unverifiable against what was actually read |
-| [`talk/`](talk/) | Deck and script sources, the deck builder, the checker, the previewer, prepared Q&A |
+| [`talk/`](talk/) | Deck and script sources, the deck's pictures (`talk/media/`), the deck builder, the checker, the previewer, prepared Q&A |
+| [`talk/LIVE_SESSION.md`](talk/LIVE_SESSION.md) | Runbook for the live session on slide 21: environment, translation rules, size and time limits, rehearsed prompts |
+| [`talk/live/`](talk/live/) | The live session's command-line helper (`show.py`) and its rehearsal record |
 | [`reviews/`](reviews/) | The correctness panel: findings, the verification gate, and what was applied |
 
 ## Re-capturing a Gemini share page
@@ -60,3 +62,8 @@ The script needs Google Chrome, pandoc, and a Python with bs4 and lxml. Keep raw
 /usr/bin/python3 talk/check_talk.py          # black on white, glyphs, notes = script, quotations, numbers, timing
 /usr/bin/python3 talk/preview_deck.py DIR    # PNG previews outside the repo
 ```
+
+For the live session on slide 21, `talk/live/show.py` takes a name, a label string and one rule per party
+(see `talk/LIVE_SESSION.md` for the recipe and `--bypass`); for example, `python talk/live/show.py
+dispatcher AMB "x[1]" "x[0] & x[2]" "x[1]"` prints the whole/factors verdict, the core and who is set by
+two others.
