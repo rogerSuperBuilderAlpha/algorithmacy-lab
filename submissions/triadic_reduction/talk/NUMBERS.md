@@ -45,19 +45,16 @@ The rows for 11 and 30 name `thinkers-peirce-jd-full`, registered by the lab add
 | 1991 | year | — | burch1991reduction |
 | 1 | label | — | argument numbering on slides 6–8 |
 
-Added for v3 (2026-09-25). The v3 table on slide 14 prints `Φ = 0.0` for the 89 one-input wirings; the CI
-record (`thinkers-peirce-h1-irreducibility`) has Φ > 0 in 8 of them, so `0.0` is left undeclared and
-`check_talk.py` fails on it until the author decides (AUTHOR_TASKS.md, v3 item 2).
+Added for v3 (2026-09-25). The v3 table on slide 14 printed `Φ = 0.0` for the 89 one-input wirings; the CI
+record (`thinkers-peirce-h1-irreducibility`) has Φ > 0 in 8 of them. The author approved the correction on
+2026-09-25 (`reviews/2026-09-25/SLIDES_13_14.md`), so that cell now reads `Φ > 0 in 8`.
 
 | 2024 | year | — | koshkin2024reduction |
 | 2010 | year | — | williams2010decomposition |
 | 1.0 | arithmetic | — | XOR synergy of 1 bit (williams2010decomposition card, the carder's arithmetic, not W&B's printed numbers) |
 
-Added for v4 (2026-09-25). Slides 16–22 are new (`AUTHOR_TASKS.md`, "v4 additions"). Declaring `0.0` here
-also silences `check_talk.py` on the author's own slide 14, row 1 ("89 Wirings … Φ = 0.0"): that cell is
-still false against `thinkers-peirce-h1-irreducibility`'s `whole-irreducible (Φ>0)=8` until the author
-applies the correction proposed in `reviews/2026-09-25/SLIDES_13_14.md`. Declaring the number does not
-settle the fact.
+Added for v4 (2026-09-25). Slides 16–22 are new (`AUTHOR_TASKS.md`, "v4 additions"). The slide 14
+row 1 cell that `0.0` once also covered was corrected on 2026-09-25 and no longer prints `0.0`.
 
 | 0.0 | lab result | thinkers-simmel-h3-majority | majority_triad         dyadic   Φ_MIP=0.000000  core=() coreΦ=0.000 |
 | 6.0 | lab result | thinkers-simmel-h3-majority | unanimity_triad        triadic  Φ_MIP=6.000000  core=('A', 'B', 'C') coreΦ=6.000 |
@@ -70,3 +67,5 @@ settle the fact.
 | 2.0 | lab result | thinkers-peirce-jd | giving_degenerate      Φ_MIP=2.000000  core=('G', 'R', 'T')        jd=False in_whole=False  none |
 | 2.0 | lab result | q213-contingent-irreducibility | (Phi 2.000 -> 0.000) |
 | 0.0 | lab result | q213-contingent-irreducibility | (Phi 2.000 -> 0.000) |
+| 8 | lab result | thinkers-peirce-h1-irreducibility | whole-irreducible (Φ>0)=8 |
+| 0.0 | lab result | thinkers-peirce-jd-full | joint determination with Φ_MIP=0=11 |

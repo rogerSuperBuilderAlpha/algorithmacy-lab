@@ -4,7 +4,7 @@ Seeded by a red-team pass over ARGUMENT.md: for every premise and for the conclu
 
 **v3 (2026-09-25).** Slide numbers in the answers below refer to the v1 and v2 decks, not to the author's 16-slide v3 deck. On v3 the questions most likely to come up are Q25 (Quine never aimed at Peirce: slides 9–10), Q32 (Koshkin 2025 on primitive-positive reduction: slides 8 and 11) and Q42 (the Φ = 2 ring of copies: slides 13–14). The fact check in `../reviews/2026-09-25/FACTCHECK.md` lists where the v3 slides and these answers disagree.
 
-**v4 (2026-09-25).** Slides 16–22 are new: three lab findings (the imitation gift at Φ = 2.0, the majority triad at Φ = 0.0 against unanimity at 6.0, the car dealer against the clearinghouse), two invitations to fork the repository, the live session and its fallback. Q64–Q68 answer the objections those slides invite. The slide 13–14 corrections in `../reviews/2026-09-25/SLIDES_13_14.md` are proposed, not applied.
+**v4 (2026-09-25).** Slides 16–22 are new: three lab findings (the imitation gift at Φ = 2.0, the majority triad at Φ = 0.0 against unanimity at 6.0, the car dealer against the clearinghouse), two invitations to fork the repository, the live session and its fallback. Q64–Q68 answer the objections those slides invite. The slide 13–14 corrections in `../reviews/2026-09-25/SLIDES_13_14.md` were applied on 2026-09-25 with the author's approval.
 
 ## Q1. Your four regimes are a taxonomy you built so Peirce wins somewhere. Logicians settled on standard first-order definability long ago, and there triads reduce.
 

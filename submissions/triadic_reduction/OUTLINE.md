@@ -24,8 +24,8 @@ author's deck ends at slide 15 and resumes at slide 23. Image Sources moves from
 | 10 | Deconstructing Quine’s Fallacy | 12; 13 (opening and Herzberger); 14 (Dau and Hereth Correia); 13 layman | herzberger1981theorem, dau2006instances |
 | 11 | Relational Co-Clones and Expressive Power | 14 (Hereth Correia and Pöschel; Koshkin); 15 | herethcorreia2006teridentity, koshkin2024reduction, burch2021sep |
 | 12 | The Synergistic Teridentity Correspondence | none: both passages are new | williams2010decomposition |
-| 13 | The Causal Test (IIT 4.0) | 16 (the test and the scissors) | albantakis2023information, CI (correction proposed in `reviews/2026-09-25/SLIDES_13_14.md`, not applied) |
-| 14 | IIT 4.0 Topological Architecture Sort | 16 (criterion, control, PID) and 17 | CI thinkers-peirce-h1-irreducibility, thinkers-peirce-jd-full (correction proposed in `reviews/2026-09-25/SLIDES_13_14.md`, not applied) |
+| 13 | The Causal Test (IIT 4.0) | 16 (the test and the scissors) | albantakis2023information, CI (corrected 2026-09-25 with the author's approval: `reviews/2026-09-25/SLIDES_13_14.md`) |
+| 14 | IIT 4.0 Topological Architecture Sort | 16 (criterion, control, PID) and 17 | CI thinkers-peirce-h1-irreducibility, thinkers-peirce-jd-full (corrected 2026-09-25 with the author's approval: `reviews/2026-09-25/SLIDES_13_14.md`) |
 | 15 | The Ontological Reality of Algorithmacy | 18 | ARGUMENT.md (S6) |
 | 16 | Genuine Giving and Its Imitation | new: Claude-drafted | CI thinkers-peirce-jd (`giving_genuine`, `giving_degenerate`) |
 | 17 | A Vote Is Not Always a Whole | new: Claude-drafted | CI thinkers-simmel-h3-majority (`majority_triad`, `unanimity_triad`); caveat CI q215-phi-family-robustness |
@@ -45,8 +45,8 @@ and layman passages on slide 12. Everything else in slides 1–15 is the author'
 their script sections are entirely Claude-drafted (`talk/deck.md`, `talk/script.md`, both marked
 `<!-- new -->`): three lab findings (16–18), two invitations to fork the repository (19–20), and the live
 session and its fallback (21–22). Every number on these slides is a CI-registered string, recorded in
-`talk/NUMBERS.md` under "Added for v4". Slides 13–14 are untouched pending the author's decision on
-`reviews/2026-09-25/SLIDES_13_14.md`.
+`talk/NUMBERS.md` under "Added for v4". Slides 13–14 carry the corrections the author approved on 2026-09-25
+(`reviews/2026-09-25/SLIDES_13_14.md`).
 
 **Live session.** Slide 21 is spoken live: the author reads an audience member's coordination sentence,
 and the assistant builds and runs it against the lab's own reader. The runbook, the translation rules, the

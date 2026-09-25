@@ -205,7 +205,7 @@ Take two light switches wired so the lamp is on when exactly one of them is up. 
 
 ---
 
-## Slide 13 — Causal Collapse Theorem (IIT 4.0)
+## Slide 13 — The Causal Test (IIT 4.0)
 
 **Technical Presentation**
 Integrated Information Theory (IIT 4.0) provides an operational test for dynamic irreducibility. IIT evaluates a system’s Transition Probability Matrix (TPM) across all bipartitions to determine the Minimum Information Partition (MIP):
@@ -222,11 +222,11 @@ We found our test in neuroscience: Integrated Information Theory. It asks a simp
 ## Slide 14 — IIT 4.0 Topological Architecture Sort
 
 **Technical Presentation**
-An **irreducible triad** is a mechanism jointly determined by two other elements, with all three belonging to an integrated complex ($\Phi > 0$). In our minimal control circuit ($M' = A \land B$; $A' = M$; $B' = M$), IIT 4.0 yields $\Phi = 2.0$, with all three nodes in the core complex. Under Partial Information Decomposition (PID), this configuration exhibits pure causal synergy ($\text{Syn} > 0$).
+An **irreducible triad** is a mechanism jointly determined by two other elements, with all three belonging to an integrated complex ($\Phi > 0$). In our minimal control circuit ($M' = A \land B$; $A' = M$; $B' = M$), IIT 4.0 yields $\Phi = 2.0$, with all three nodes in the core complex.
 
 Applying this causal test across dynamical architectures resolves the structural taxonomy:
 
-1. **Dyadic Wirings Conserve Dyads:** Testing 89 discrete single-input copy architectures confirms Peirce's valency rule: pairwise connections produce only pairwise distinctions, generating zero triadic mechanisms.
+1. **Dyadic Wirings Conserve Dyads:** Testing 89 discrete single-input copy architectures, no element is ever determined by two others: pairwise connections produce only pairwise determination. Our pre-registered hypothesis was refuted on the effect side, where one element can drive three; the cause-side reading is post hoc.
 
 2. **Wholeness and Triadicity Are Orthogonal:** Testing 30 four-element networks driven by two-input mechanisms proves that system-level integration and local triadic irreducibility do not always coincide:
 
@@ -291,12 +291,12 @@ A committee that goes with any two: any one of you can be outvoted, so cutting o
 
 **Technical Presentation**
 <!-- new -->
-The dealer only relays: let the maker sell direct and Φ falls from 2.0 to 0.0. The clearinghouse keeps 2.0 under the same bypass. The brokerage types sort the same way, on constructed forms, not fitted markets.
+The dealer only relays: let the maker sell direct and Φ falls from 2.0 to 0.0. The clearinghouse keeps 2.0 under the same bypass. The brokerage types sort the same way. These are constructed forms, not markets.
 <!-- /new -->
 
 **Layman's Explanation**
 <!-- new -->
-A toll booth on the only bridge matters until a second bridge goes up. A translator between two people with no common language matters whatever you build. Our test builds the second bridge and asks who is still needed.
+A toll booth on the only bridge matters until a second bridge goes up. A translator between strangers matters whatever you build. Our test builds the second bridge and asks who is still needed.
 <!-- /new -->
 
 ---
@@ -310,7 +310,7 @@ Validate on two controls before you trust a verdict. A new question scaffolds fr
 
 **Layman's Explanation**
 <!-- new -->
-A kitchen with the recipes written down. Check the oven on a dish you know, then cook your own. Write down what you expect before you taste. A dish that comes out wrong still goes in the book.
+A kitchen with the recipes written down. Check the oven on a dish you know, then cook your own. Write down what you expect before you taste. A failed dish still goes in the book.
 <!-- /new -->
 
 ---

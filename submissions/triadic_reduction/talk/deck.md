@@ -169,23 +169,24 @@ Marginal Vanishing: Individual mutual informations I(Xi; Y) = 0.
 Joint Determination: Knowledge of both sources uniquely determines output.
 Join-Irreducible Support: Parity forms non-factorizable relational subset.
 
-## Slide 13 — causal collapse
+## Slide 13 — the causal test
 #### CAUSAL INTEGRATION
-### Causal Collapse Theorem (IIT 4.0)
-**Φ = 0**
+### The Causal Test (IIT 4.0)
+**Φ = 0** — the system factors: cutting its weakest seam loses nothing.
 
-**Extensional Dyadic Decomposition Erases System Synergy**
-Forcing multi-input causal mechanisms into dyadic channels matches the partitioned repertoire with the whole.
-Integrated information vanishes under the Minimum Information Partition (MIP).
+**Φ > 0** — the system is a whole: no cut leaves it as it was.
+
+**Wholeness Is Not Yet a Triad**
+Φ says whether the system factors, not whether any member is set by two others. A ring of one-input copies is a whole at Φ = 2.0.
 
 ## Slide 14 — the sort
 #### EMPIRICAL VERIFICATION
 ### IIT 4.0 Topological Architecture Sort
 | Topology Class | Wiring Count | Mechanism Support | System Φ | Causal Status |
-| Dyadic Cascade | 89 Wirings | Point-to-point lines | Φ = 0.0 | No Complex |
-| Dyadic Ring | Feedback Loop | Recurrent pairs | Φ = 2.0 | Whole Without Synergy |
-| Uncoupled Triad | 11 / 30 Systems | Synergistic gate | Φ = 0.0 | Synergy Without Whole |
-| Integrated Triad | 5 / 30 Systems | Teridentity in loop | Φ = 2.0 | Genuine Triadic Complex |
+| Dyadic Cascade | 89 Wirings | Point-to-point lines | Φ > 0 in 8 | No Member Set by Two Others |
+| Dyadic Ring | One of the 89 | Recurrent pairs | Φ = 2.0 | Whole Without a Triad |
+| Uncoupled Triad | 11 / 30 Systems | Two-input gate | Φ = 0.0 | Triad Without a Whole |
+| Integrated Triad | 5 / 30 Systems | Two-input gate in the loop | Φ > 0 | Genuine Triadic Complex |
 
 ## Slide 15 — conclusion
 #### SYNTHESIS & CONCLUSION

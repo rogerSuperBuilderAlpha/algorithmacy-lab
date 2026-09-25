@@ -6,11 +6,11 @@ marked **blocking**.
 ## v4 additions (2026-09-25): for the author
 
 Slides 16–22 add three lab findings, two invitations to fork the repository, and a live session with its
-fallback. Nothing here has been applied to slides 1–15 or to `CLAIM.md`.
+fallback. Slides 1–12 and 15 and `CLAIM.md` are unchanged; slides 13–14 carry the corrections you approved.
 
-1. **Approve or edit the slides 13–14 corrections.** They are proposed, not applied, in
-   [`reviews/2026-09-25/SLIDES_13_14.md`](reviews/2026-09-25/SLIDES_13_14.md). Row 1 of slide 14 stays
-   false until you decide.
+1. ~~**Approve or edit the slides 13–14 corrections.**~~ *Done 2026-09-25:* approved and applied as
+   written in [`reviews/2026-09-25/SLIDES_13_14.md`](reviews/2026-09-25/SLIDES_13_14.md). Edit any cell
+   you want worded differently.
 2. **Ask the organizers for a 30-minute slot.** That request is yours to make. If they keep 20 minutes,
    speak the Layman passage only on slides 16–20, move the live session into Q&A, set `SLOT_MINUTES` in
    `talk/check_talk.py` back to 20, and cut from slides 7, 9, 10 or 14.
@@ -38,11 +38,11 @@ the verified cards and the lab's CI output found the problems listed here. The f
 file and line for every item, is in [`reviews/2026-09-25/FACTCHECK.md`](reviews/2026-09-25/FACTCHECK.md).
 They are in order of how much they would hurt in the room.
 
-1. **Slide 13, "Causal Collapse Theorem."** There is no such theorem, and the lab's own results
+1. *(Corrected 2026-09-25, see v4 item 1.)* **Slide 13, "Causal Collapse Theorem."** There is no such theorem, and the lab's own results
    contradict it. A ring of one-input copies and a mutual dyad both reach Φ = 2.0, and 8 of the 89
    one-input wirings have Φ > 0. Slide 14's second row and the script's slide 14 both say so, so the
    deck contradicts itself. The register already marks this as a Gemini invention (TR-S5-123).
-2. **Slide 14, the table.** Row 1 says all 89 wirings have Φ = 0.0; 8 of them have Φ > 0, and the Φ = 2.0
+2. *(Corrected 2026-09-25, see v4 item 1.)* **Slide 14, the table.** Row 1 says all 89 wirings have Φ = 0.0; 8 of them have Φ > 0, and the Φ = 2.0
    ring in row 2 is one of those 89, not a separate case. Row 4 says Φ = 2.0; the five forms run from
    0.21 to 2.0, and only one of them is 2.0. "Synergy" appears in rows 2–4, but no run measured
    synergy. The 11 of 30 and 5 of 30 counts are right. `check_talk.py` fails on row 1's `0.0` until
@@ -50,7 +50,7 @@ They are in order of how much they would hurt in the room.
 3. **Slides 12 and 15 and the script's slide 14, synergy.** No source links teridentity to PID synergy;
    Williams and Beer never mention teridentity. The lab ran no PID, and the AND control is not pure
    synergy (about 0.31 bit redundant, 0.5 bit synergistic). Slide 15 makes synergy one of three
-   supports for the conclusion. The script's "pure causal synergy (Syn > 0)" on slide 14 has the same
+   supports for the conclusion. The script's "pure causal synergy (Syn > 0)" on slide 14 (deleted 2026-09-25) had the same
    problem.
 4. **Slides 8, 10 and 11 and the script's logic passages, which operations.** The irreducibility results
    hold in Peirce's own algebra (PAL) without teridentity, as Hereth Correia and Pöschel proved.

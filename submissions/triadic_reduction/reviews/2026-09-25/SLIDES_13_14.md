@@ -1,4 +1,6 @@
-# Slides 13 and 14 — proposed corrections (NOT applied)
+# Slides 13 and 14 — corrections (applied 2026-09-25)
+
+**Applied.** The author approved these corrections on 2026-09-25, and every row below is now in `talk/deck.md` and `talk/script.md` as proposed. The text that follows is kept as it was written before approval.
 
 These are proposals for the author, drafted 2026-09-25 with the v4 slides. Nothing here has been applied: `talk/deck.md` and `talk/script.md` still carry the author's slides 13 and 14 word for word, and they stay that way until the author says yes to each row. Each "why" below was re-checked against `ci/reproduce.json` and `CLAIM.md` on 2026-09-25; where the author's wording is true it is kept, and only the false cells change. Applying every row also clears the two `check_talk.py` failures on the undeclared `0.0` (slide 14, row 1), because that cell disappears; the `0.0` that remains on row 3 then needs the NUMBERS.md row listed at the end.
 
