@@ -4,6 +4,12 @@
 author's revision); citation audit under `literature/audit/`. Seven facet searches under `literature/facets/`. A Substack essay drafted the same day (a Claude Doc,
 not in the repo) surveys the practitioner uses only.
 
+**Published.** Part 1, "Decision Experience Design: Yes, another XD", went live on Substack on 2026-09-30:
+<https://rogerhuntphdcand.substack.com/p/decision-experience-design>. The final text is archived in
+`published/2026-09-30_decision-experience-design.md`. That text is the author's revision, and where it differs from `REVIEW.md` (the earlier Claude draft), the
+published text governs. Part 2, "Decision Experience Design Ethics", is drafted in `part2_ethics/`
+from the author's capstone pitch (`part2_ethics/PITCH.md`).
+
 **Thesis (the author's, 2026-09-30).** UX design became a profession by importing cognitive science
 and human factors: how people read a screen, cognitive load, visual and haptic perception. As
 coordination moves from literacy to algorithmacy, the decision replaces the screen as the unit of
