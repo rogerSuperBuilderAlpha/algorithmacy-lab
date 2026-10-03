@@ -97,8 +97,9 @@ the structure: "When somebody loses on Kalshi, they're losing it to someone else
 **Reply to answer (Hanson).** The price is a positive by-product for people who do not trade; Fed staff use
 Kalshi's rate prices (`diercks2026kalshi`) [facet X]. The corrected premise: negative-sum for the bettors,
 with a public benefit for readers of the price. **Answer available:** stakes are not what make the number
-good. Play money matched real money on NFL games, and the same traders' stated beliefs scored better than
-their market price (`dana2019are`) [facet X]. A design could produce the number without the bet.
+good. Play money matched real money on NFL games, and the same traders' stated beliefs scored 0.210 on the
+Brier measure against 0.227 for prices, a difference that is not significant (p = 0.152), while beliefs and
+prices combined beat prices alone (p = 0.004) [checked] (`dana2019are`, Table 1). A design could produce the number without the bet.
 
 ## P6. In Forex the ordinary participant gets what they need; only speculators win or lose
 

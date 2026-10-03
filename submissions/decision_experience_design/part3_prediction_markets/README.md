@@ -1,6 +1,6 @@
 # Part 3: Decision markets as decision experience design (opened 2026-10-03)
 
-**Status:** research stage complete at full-text level for the load-bearing sources; outline revised; argument map drafted; no draft. Claude did all of the work for the author to revise. None of the prose is the author's.
+**Status:** draft 1 written (`DRAFT.md`, about 5,100 words, 40 references), from the author's argument and twelve research facets. Claude did all of the work for the author to revise. None of the prose is the author's.
 
 **Thesis (author ruling, 2026-10-03).** Kalshi and Polymarket present as prediction and decision markets and are sports betting in that dress; the dress is the design failure. Prediction markets compute a probability, but their interfaces ask the user to trade. That gap is a decision experience design failure by the criteria in Parts 1 and 2. See `OUTLINE.md`.
 
@@ -21,6 +21,7 @@
 | File | Use |
 | --- | --- |
 | `OUTLINE.md` | Thesis, section plan with per-claim status flags, jargon table, open questions |
+| `DRAFT.md` | Draft 1 of the essay, Claude-drafted at the author's request (2026-10-03). Defaults taken: conclusion as "a bet presented as coordination" with price and bet separated; effect-based reading of dark pattern; Forex narrowed to hedgers, grain as the clear case |
 | `ARGUMENT.md` | The author's argument P1–P8 and C, each premise with support, replies, status, and the two forms the conclusion can take |
 | `ARGUMENT_MAP.md` | Hanson's and Mansour's arguments and the counter-case, each row tied to a facet claim and marked for its bearing on the thesis |
 | `literature/facets/A_market_theory_use.*` | Market theory and decision use (62 entries) |
@@ -36,12 +37,12 @@
 | `literature/facets/M_mansour_arguments.*` | Mansour and Kalshi: premises A1–C5 with sources (72 entries) |
 | `literature/facets/X_counter_case.*` | Seven lines against the thesis, rated (38 entries) |
 | `literature/references.bib` | Built file: first-wins merge of the ten facet bibs (550 entries) |
-| `literature/cited_keys.txt` | The 51 keys `ARGUMENT.md` and `ARGUMENT_MAP.md` cite; replace with the draft's keys once a draft exists |
-| `literature/audit/AUDIT_00.md`, `AUDIT_01.md` | What I checked myself: 32 records and 11 claims (first run); 9 claims (second run) |
+| `literature/cited_keys.txt` | The 40 keys `DRAFT.md` cites |
+| `literature/audit/AUDIT_00.md`, `AUDIT_01.md`, `AUDIT_02.md` | What I checked myself: 32 records and 11 claims (first run); 9 claims (second run); every quotation and figure in the draft (AUDIT_02) |
 | `literature/audit/BIB_CHANGES.md` | Merge decisions and proposed bib changes, not applied to the facet files |
-| `literature/build_references.py` | Copied from Part 2; resolves all 51 keys and stops only because `DRAFT.md` does not exist |
+| `literature/build_references.py` | Copied from Part 2; writes the reference list at the end of `DRAFT.md` |
 
-**Not yet made.** `DRAFT.md`. A citation audit of the entries outside the load-bearing set.
+**Not yet made.** A citation audit of the facet entries the draft does not cite. The author's revision and read-aloud.
 
 **Open for the author.**
 - The seven questions in `OUTLINE.md` section (f), starting with which form the conclusion takes (`ARGUMENT.md`, section C).
