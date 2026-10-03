@@ -1,14 +1,19 @@
 arrow2008promise
+bis2025triennial
 burgi2026makers
 ca3_2026flaherty
 ca9_2026assad
 cardozo2026flb
 cftc2024nprm
 cftc2025letter2536
+cftc_cot_corn_20260929
+cftc_cot_eurofx_20260929
 cowgill2015corporate
 dana2019are
 diercks2026kalshi
+esma2018cfd
 fiedler2019myopia
+gray2018dark
 hanson1995gambling
 hanson1999decision
 hanson2003combinatorial
@@ -18,6 +23,7 @@ hanson2007logarithmic
 hanson2008insider
 hanson2009manipulator
 hanson2013vote
+hicks1939value
 kalda2021smartphone
 kalshi2023complaint
 kalshi2024appelleebrief
@@ -31,6 +37,7 @@ manski2006interpreting
 mansour2026freakonomics
 mansour2026raskin
 mansour2026rotowire
+mathur2021dark
 mellers2014psych
 moshrefi2026parlays
 ncpg2026comment
@@ -41,3 +48,4 @@ sah2026visualizations
 smith2006p2p
 stout1999
 westwood2020projecting
+working1953futures

@@ -60,3 +60,23 @@ Crossref's issued date is 2012-12-13 (deposit); volume 1(1), pp. 3–15.
 
 - old (facet A before this run): year 2012
 - new: year 2007, as facets H and A now record; confirm against the journal's own issue page before print
+
+## 4. Second run (facets F and K added; `references.bib` rebuilt: 609 facet entries, 550 kept)
+
+Merge order is now H, A, B, C, F, K, L, M, X, D. Further entries dropped because another key held the same DOI:
+
+| dropped key (facet) | kept key (facet) | DOI |
+|---|---|---|
+| mathur2019dark (K) | mathur2019scale (B) | 10.1145/3359183 |
+| luguri2021shining (K) | luguri2019shining (B) | 10.1093/jla/laaa006 |
+| chapkovski2026gamification (K) | chapkovski2024gamification (B) | 10.1287/mnsc.2022.02650 |
+| levitt2004why (X) | levitt2004gambling (F) | 10.1111/j.1468-0297.2004.00207.x |
+| packin2026science (D) | packin2026prediction (K) | 10.1126/science.aee3932 |
+
+Same-key repeats: facet F's `stout1999`, `stout2011`, `posner2012` and `levitt2004gambling` now win over the
+facet L and M versions, as facet F asked, because they carry the copy read. Facet B's `gray2018dark` wins over
+facet K's; facet K's note records the full-text read (NSF PAR accepted manuscript, intent passages pp. 1, 3,
+8, 9). Proposed: copy that note into facet B's entry.
+
+Three keys carry a year that differs from the issue year: `luguri2019shining` (2021), `chapkovski2024gamification`
+(2026), `mathur2019scale` (2019, correct). Proposed: no key changes; cite in text by issue year.

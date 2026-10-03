@@ -58,6 +58,29 @@ Consequences for the plan:
    probability without the trade; the missing piece is a funder) and Mansour's (an exchange is not a
    sportsbook; the chart is the product). See `ARGUMENT_MAP.md`.
 
+## (c0) The arc after the author's argument of 2026-10-03
+
+The author has now stated the argument: prediction markets are poor decision experience design because they
+present a win-or-lose bet as coordination through a third party, a dark pattern of the well-meant kind.
+`ARGUMENT.md` tests it premise by premise (P1–P8, C). The section plan in (c) stays as the evidence
+inventory; the essay's order follows the argument:
+
+1. The well-meant dark pattern (P1). Gray et al. (2018) pose the question; regulators answer by effect. The
+   Like button and personalised ads as designs their builders say were meant to help. Evidence: facet K.
+2. The good the markets aim at (P2). Hanson's accuracy claim with its conditions; Mansour's exchange against
+   the house. Evidence: (c)1, facets H and M.
+3. The obvious pitfall, set aside (P3). Evidence: (c)5, (c)6.
+4. What a decision needs that a choice does not (P4). New definition; mark it as sharpening Part 1.
+5. The bet (P5) and the hedge (P6). Negative-sum among bettors; the hedger-with-speculator structure in
+   currency and grain markets. Evidence: (c)3, facet F.
+6. What the product is (P7). Volume mix, Kalshi's 2024 brief, the confidential appendices. Evidence: (b)2,
+   (b)5, (c)2, (c)9.
+7. The presentation (P8). The price is jointly set; the bet factors. Evidence: (c)3, (c)4, facet T.
+8. The three replies and their answers. Evidence: facet R; (d).
+9. What a decision market would look like: Hanson's sponsor-funded design, which passes the test. Evidence:
+   (c)10.
+10. Limitations and propositions. Evidence: (c)11, `ARGUMENT.md` "Not yet supported".
+
 ## (c) Section plan
 
 1. The promise. Markets as forecasting by aggregation (Wolfers and Zitzewitz 2004; Arrow et al. 2008) [full].
@@ -152,13 +175,16 @@ Report these in the essay, not around it. Full treatment in `literature/facets/X
 
 ## (f) Open questions for the author
 
-1. Whether the essay answers Hanson on his ground (the missing funder) or holds to the interface. The
-   evidence supports both; the two make different essays.
-2. Whether to use Kalshi's 2024 brief against its 2025 sports listings. It is the sharpest fact in the
-   record, and it is Kalshi's legal position at a date, not a statement by Mansour.
-3. How to word the Polymarket share: Pew's 39% or the range.
-4. Whether section 9 (the regulatory dress) stays, given three circuit rulings in six months and a fourth
-   pending.
-5. Whether Part 1's "awareness without agency" line needs the correction Part 2 already flags (Eslami et
+1. Which form the conclusion takes: "a bet presented as coordination" (the author's wording, with the price
+   and the bet separated) or "a wager presented as a decision instrument" (drops the count of parties). See
+   `ARGUMENT.md`, section C. The first collides with the ALGOCON talk unless the two stages are separated.
+2. Whether Part 3 states openly that it adopts an effect-based reading of "dark pattern", which differs from
+   the intent-based sentence Part 1 published.
+3. Whether the Forex contrast stays, narrowed to hedgers, or the essay uses grain futures, where the hedging
+   class is large (about 38.5% of corn positions against about 3% of Euro currency futures).
+4. Whether to use Kalshi's 2024 brief against its 2025 sports listings. It is Kalshi's legal position at a
+   date, not a statement by Mansour.
+5. How to word the Polymarket share: Pew's 39% or the range.
+6. Whether Part 1's "awareness without agency" line needs the correction Part 2 already flags (Eslami et
    al. 2015).
-6. Whether the closing offers design proposals or only falsifiable propositions.
+7. Whether the closing offers design proposals or only falsifiable propositions.

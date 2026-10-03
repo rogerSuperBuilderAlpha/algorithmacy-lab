@@ -115,3 +115,12 @@ Source: `literature/facets/X_counter_case.md`. Ratings are the facet agent's.
    Cowgill and Zitzewitz's 25% accuracy gain is the Ford comparison only, at p = 0.104 (`cowgill2015corporate`).
 6. **The essay's ground is unoccupied.** Hanson, Mansour, the courts and the law reviews argue function,
    structure and category. None of them analyses what the interface asks of the user.
+
+---
+
+## 5. After the author's argument of 2026-10-03
+
+`ARGUMENT.md` now carries the author's premises P1–P8 and C against this map and four further facets:
+F (who trades currency and commodity futures, and why), K (whether a dark pattern requires intent),
+T (the triad test applied to six cases) and R (the replies Hanson and Mansour would make, bound to the
+claims above). Read `ARGUMENT.md` first; this map remains the index to what Hanson and Mansour say.
