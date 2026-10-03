@@ -4,7 +4,7 @@ Audit date 2026-10-03, by Claude. Not author text. I opened each source below an
 or number against it before the draft was written. "Locator from facet" means the words are confirmed and
 the page or section number is the facet agent's, not re-derived by me.
 
-## Confirmed against the source (44)
+## Confirmed against the source (41 entries, several carrying more than one quotation)
 
 | In the draft | Source opened | Note |
 |---|---|---|
