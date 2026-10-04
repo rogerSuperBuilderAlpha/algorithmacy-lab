@@ -8,7 +8,9 @@ not in the repo) surveys the practitioner uses only.
 <https://rogerhuntphdcand.substack.com/p/decision-experience-design>. The final text is archived in
 `published/2026-09-30_decision-experience-design.md`. That text is the author's revision, and where it differs from `REVIEW.md` (the earlier Claude draft), the
 published text governs. Part 2, "Decision Experience Design Ethics", is drafted in `part2_ethics/`
-from the author's capstone pitch (`part2_ethics/PITCH.md`).
+from the author's capstone pitch (`part2_ethics/PITCH.md`). Part 3, on decision markets, is in
+`part3_prediction_markets/`. The physical-space essay is archived in `physical_space/`, with the
+citation audit in `physical_space/CITATION_AUDIT.md`.
 
 **Thesis (the author's, 2026-09-30).** UX design became a profession by importing cognitive science
 and human factors: how people read a screen, cognitive load, visual and haptic perception. As
