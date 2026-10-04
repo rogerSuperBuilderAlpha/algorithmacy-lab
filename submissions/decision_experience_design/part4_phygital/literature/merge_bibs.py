@@ -61,6 +61,9 @@ def merge():
 
 
 if __name__ == '__main__':
+    unknown = [a for a in sys.argv[1:] if a != '--check']
+    if unknown:
+        sys.exit(f'unknown argument {unknown}; the only option is --check')
     text, dropped = merge()
     target = HERE / 'references.bib'
     if '--check' in sys.argv:
