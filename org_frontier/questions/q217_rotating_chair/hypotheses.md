@@ -36,3 +36,9 @@ Written and committed before any test runs.
 - **Predicted outcome:** {A,B,C} ⊆ major_complex(F_rot3).
 
 Scope: in-silico, designed deterministic forms, conjunctive chairs only.
+
+## H6 (added before probe 454 ran) — The no-veto result scales to four parties
+- **Claim:** With four parties and a mod-4 clock cycling the chair A→B→C→D, the core holds all four parties
+  and no party is a veto player; a fixed chair A leaves A as the sole veto player.
+- **H0:** Some party stays in every integrating coalition under full rotation at four parties.
+- **Predicted outcome:** veto_set(F4_rot) contains no party; veto_set(F4_fixed) == {A}.
