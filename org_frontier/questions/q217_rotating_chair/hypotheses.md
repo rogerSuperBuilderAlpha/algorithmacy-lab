@@ -42,3 +42,14 @@ Scope: in-silico, designed deterministic forms, conjunctive chairs only.
   and no party is a veto player; a fixed chair A leaves A as the sole veto player.
 - **H0:** Some party stays in every integrating coalition under full rotation at four parties.
 - **Predicted outcome:** veto_set(F4_rot) contains no party; veto_set(F4_fixed) == {A}.
+
+## H7 (added before probe 455 ran) — The veto-free result is not an AND artifact
+- **Claim:** With full three-party rotation and an OR or XOR chair, no party is a veto player and the core holds A, B, C.
+- **H0:** A non-conjunctive chair leaves some party in every integrating coalition, or shrinks the core.
+- **Predicted outcome:** veto_set empty of parties and {A,B,C} ⊆ core for both F_rot3_OR and F_rot3_XOR.
+
+## H8 (added before probe 455 ran) — An earned rotation pulls the schedule into the coordination
+- **Claim:** If the clock advances only when the current chair is active (the chair "passes the gavel" by acting),
+  the clock joins the major complex and the whole-system verdict reads triadic.
+- **H0:** The endogenous clock stays outside the core and the whole system reads dyadic, as with the free clock.
+- **Predicted outcome:** for F_earned3 (AND chair, endogenous mod-3 clock), clock ∈ core and structure == triadic.
