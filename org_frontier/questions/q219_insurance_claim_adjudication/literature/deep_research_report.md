@@ -1,19 +1,29 @@
 # Q219 — Stage 2 deep research: automated claims handling and the human in the loop
 
-**Status: partial.** This first pass collects 13 sources, each with a DOI checked against Crossref on
-2026-10-09. The protocol targets 15–30, so the scan is to be extended before the paper stage, especially on
-claims-handling practice and on regulation of automated individual decisions. The gap stated below does
-not depend on the missing sources: no source in this scan, or known to this review, computes whether a
-claims arrangement is structurally irreducible.
+**Status.** Twenty sources, each a journal article whose DOI was checked on 2026-10-09 against
+`api.crossref.org/works/<doi>` (HTTP 200, authors, title, and year matching the entry in `references.bib`)
+and against `https://doi.org/<doi>` (HTTP 302 redirect to the publisher). Years are Crossref's issued year,
+so Eling et al. reads 2021 (online) for volume 47 (2022) and Binns reads 2020 (online) for volume 16 (2022).
+A first scan of 13 sources was written before computation; the seven added after the probes ran
+(Mosier et al. 1998, Lee and See 2004, Goddard et al. 2012, Binns 2020, Derrig 2002, Viaene and Dedene 2004,
+Ngai et al. 2011) extend the same themes and did not inform the hypotheses.
 
 ## Automation in insurance claims
 
-Eling, Nuessle, and Staubli (2022) map artificial intelligence along the insurance value chain and place
+Eling, Nuessle, and Staubli (2021) map artificial intelligence along the insurance value chain and place
 claims management among the steps most exposed to automation, through straight-through processing of
-simple claims and machine fraud detection [eling2022impact]. Their account supplies the three designs this
+simple claims and machine fraud detection [eling2021impact]. Their account supplies the three designs this
 study models: a pass-through pipe, threshold auto-approval with human review of flagged claims, and a
 fraud-flag loop. It describes these designs by cost and risk and says nothing about the structure of the
 coordination they create.
+
+Insurance fraud is the reason the engine raises a flag at all. Derrig (2002) reviews how insurers detect
+and price claims fraud and treats suspicion scoring as a screening step ahead of human investigation
+[derrig2002insurance]. Viaene and Dedene (2004) describe the same division of labor, in which automated
+indicators route suspicious claims to special investigators [viaene2004insurance]. Ngai and colleagues
+(2011) classify the data-mining methods behind such scores across financial fraud, insurance fraud among
+them [ngai2011application]. All three describe a pipeline in which a score routes a claim to a person; none
+models the person's decision feeding back into the score, the loop variant c encodes.
 
 ## Levels of automation and human oversight
 
@@ -29,10 +39,14 @@ automating the routine cases leaves the human with the hardest cases and the lea
 
 Skitka, Mosier, and Burdick (1999) found that people supported by an automated aid commit omission and
 commission errors that unaided people avoid, so an adjuster shown an engine's flag may follow it
-[skitka1999automation]. Green (2022) reviews policies that require human oversight of government
+[skitka1999automation]. Mosier and colleagues (1998) found the same automation bias among airline crews
+[mosier1998automation], and Goddard, Roudsari, and Wyatt (2012) found it across clinical decision support
+[goddard2012automation]. Lee and See (2004) frame the problem as calibrating trust to an aid's actual
+reliability [lee2004trust]. Green (2022) reviews policies that require human oversight of government
 algorithms and finds that people cannot perform the oversight such policies assign them, which gives a
 mandated reviewer a legitimating role more than a corrective one [green2022flaws]. Wagner (2019) asks
-whether a human placed in an automated decision is in control or only liable [wagner2019liable]. Elish
+whether a human placed in an automated decision is in control or only liable [wagner2019liable]. Binns (2020) argues that a human in an algorithmic loop matters because individual
+justice requires case-by-case judgment that a rule applied at scale cannot supply [binns2020human]. Elish
 (2019) names the result a moral crumple zone: the human absorbs responsibility for a system it does not
 steer [elish2019moral]. Dietvorst, Simmons, and Massey (2015) add the opposite drift, in which people
 abandon an algorithm after seeing it err [dietvorst2015algorithm]. Together these accounts predict that
