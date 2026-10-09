@@ -85,6 +85,6 @@ Construct/omit/ladder stay closed. V3 estimation residuals: **#15**
 **ALTERNATION_RECREATES_CLIFF** (alternating party duty does not soften
 the δ=0 cliff; losing joint WC observation is enough; phase-locked
 δ=0.5 holds). V3 estimation residuals closed. See `V3_LANE_CLOSE.md`.
-M3 overlay subset-Φ fidelity is V4 #12
+M3 overlay subset-Φ fidelity is V4 item 12
 ([`m3_subset_fidelity_v4/`](studies/m3_subset_fidelity_v4/) →
 **M3_FLIPS_VERDICT**). Construct/omit/ladder stay closed.

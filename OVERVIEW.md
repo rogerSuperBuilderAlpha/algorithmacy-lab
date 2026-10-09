@@ -113,11 +113,11 @@ discipline, and a runnable scaffold that takes a real input to a verdict. The fi
 [`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md).
 
 - **Pick an open question.** The pre-written agendas are answered — all fifty in
-  [`RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md) and #1–10 of
+  [`RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md) and items 1–12 of
   [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md) — and each answer names the residual it
-  leaves. V4 #12 is answered (`M3_FLIPS_VERDICT`: induced exact Φ already decides #1–#3; overlay
-  background-subset Φ moves the #1 subset-estimand key). V4 #11 (does the joint-observation cliff
-  survive a graded channel?) is still open.
+  leaves. V4 item 11 is answered (`GRADED_HOLDS`: the joint-observation cliff tracks duty
+  correlation, not channel granularity). V4 item 12 is answered (`M3_FLIPS_VERDICT`: induced exact
+  Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key).
   Scaffold one with `python -m org_frontier.protocol.new_question` and run it through the protocol.
 - **Open the Ergodicity × Algorithmacy track.** Forty questions on when ensemble coordination statistics
   transfer to an individual trajectory

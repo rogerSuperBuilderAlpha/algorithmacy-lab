@@ -105,12 +105,13 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 12. Optional tooling: does **M3 subset-Φ fidelity** on
     `third_party/pyphi_iit4_mv` change any V4 #1–#3 verdict, or is
     exact binary Φ already decisive?
-    **Answered — M3_FLIPS_VERDICT.** Induced screens match across
-    engines (0/840) and the three published keys stand. Background-subset
-    Φ disagrees on 85/840 scores (max |Δ|=1) and moves the #1
-    subset-estimand key from `FAMILY_N3_ONLY` to
-    `EXACT_PHI_ROBUST_MI_ONLY`. #2 and #3 subset keys match across
-    engines. See `studies/m3_subset_fidelity_v4/`.
+    **Answered — M3_FLIPS_VERDICT.** H2, on the decision keeps, is
+    41/456 (still refuted). Induced decision keeps match (0/456) and
+    the three published keys stand. The all-keep descriptive subset
+    count is 85/840 (79 mediation, 6 parity). Background-subset Φ
+    moves the V4 item 1 subset-estimand key from `FAMILY_N3_ONLY` to
+    `EXACT_PHI_ROBUST_MI_ONLY`. V4 items 2 and 3 subset keys match
+    across engines. See `studies/m3_subset_fidelity_v4/`.
 
 ---
 
@@ -125,5 +126,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 #8 (`studies/omit_cycle_band_n89/` → `SCALE_BLOCKS_EXACT_PHI`);
 #9 (`studies/parity_law_n_gt8/` → `LAW_HOLDS_NGT8`);
 #10 (`studies/composed_topo_landmarks_n6/` → `LANDMARKS_HOLD_NGT6`);
-#11 (`studies/graded_channel_exact_phi/` → `GRADED_HOLDS`);
-#12 (`studies/m3_subset_fidelity_v4/` → `M3_FLIPS_VERDICT`).
+item 11 (`studies/graded_channel_exact_phi/` → `GRADED_HOLDS`);
+item 12 (`studies/m3_subset_fidelity_v4/` → `M3_FLIPS_VERDICT`).

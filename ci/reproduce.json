@@ -6870,13 +6870,17 @@
         "  H3 (XOR dyad inflates by \u22650.1):         REFUTED",
         "  H4 (overlay-induced keys match):        SUPPORTED",
         "  H5 (overlay-subset keys match):         REFUTED",
-        "  subset_gaps:          85/840  max|\u0394|=1",
-        "  induced_gaps:         0/840  max|\u0394|=0",
-        "  subset_gap_unit:      84/85",
-        "  subset_gap_families:  mediation=79 parity=6",
-        "  nonunit gap:          multifamily parity_hub_n4 keep=zero |\u0394|=0.25",
+        "  H2_decision_subset_gaps: 41/456  max|\u0394|=1",
+        "  allkeep_subset_gaps:  85/840  max|\u0394|=1  descriptive",
+        "  decision_induced_gaps: 0/456  max|\u0394|=0  descriptive",
+        "  allkeep_induced_gaps: 0/840  max|\u0394|=0  descriptive",
+        "  H2_gap_unit:          40/41",
+        "  H2_gap_families:      mediation=35 parity=6",
+        "  allkeep_gap_unit:     84/85",
+        "  allkeep_gap_families: mediation=79 parity=6",
+        "  H2 nonunit gap:       multifamily parity_hub_n4 keep=zero |\u0394|=0.25",
         "  verdict: M3_FLIPS_VERDICT",
-        "  metrics: phi_full_f41=1.000; phi_alt_f41=0.812; phi_zero_f41=0.792; phi_full_m=1.000; phi_alt_m=0.660; phi_zero_m=0.592; phi_retain_m=0.592; phi_omit_m=0.559; phi_full_f43=1.000; phi_zero_f43=0.750; phi_retain_f43=0.750; phi_phase_f42=1.000; xor_stock=1.000000; xor_overlay=1.000000; subset_gap_n=85/840; max_abs=1; induced_gaps=0/840; induced_max_abs=0"
+        "  metrics: phi_full_f41=1.000; phi_alt_f41=0.812; phi_zero_f41=0.792; phi_full_m=1.000; phi_alt_m=0.660; phi_zero_m=0.592; phi_retain_m=0.592; phi_omit_m=0.559; phi_full_f43=1.000; phi_zero_f43=0.750; phi_retain_f43=0.750; phi_phase_f42=1.000; xor_stock=1.000000; xor_overlay=1.000000; h2_decision_subset_gaps=41/456; h2_max_abs=1; allkeep_subset_gaps=85/840; allkeep_max_abs=1; decision_induced_gaps=0/456; allkeep_induced_gaps=0/840"
       ],
       "timeout": 300,
       "source": "org_frontier/studies/m3_subset_fidelity_v4/FINDINGS.md"

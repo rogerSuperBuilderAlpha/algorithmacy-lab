@@ -1,7 +1,7 @@
-"""M3 subset-Φ fidelity against V4 #1–#3 (RESEARCH_AGENDA_V4 #12).
+"""M3 subset-Φ fidelity against V4 items 1–3 (RESEARCH_AGENDA_V4 item 12).
 
 Does overlay subset Φ on third_party/pyphi_iit4_mv move the reading
-keys of #1–#3, or does exact binary Φ already decide them?
+keys of V4 items 1–3, or does exact binary Φ already decide them?
 
 Hypotheses, bars, witnesses, and reading keys were fixed in
 hypotheses.md before this script existed.
@@ -459,12 +459,21 @@ def _finite_pair(a, b):
     return np.isfinite(a) and np.isfinite(b)
 
 
+_KEEP_SCREENS = (
+    ("full", "phi_full"),
+    ("MA", "phi_MA"),
+    ("MB", "phi_MB"),
+    ("zero", "phi_zero"),
+    ("omit", "phi_omit"),
+)
+
+
 def engine_gaps(rows, estimand):
-    """Every keep, every scored form, one estimand. Returns (ok, n, max_abs, gaps)."""
-    n = 0
-    max_abs = 0.0
-    gaps = []
-    ok = True
+    """Gap tallies for one estimand.
+
+    ``decision`` is the preregistered H2 universe (``DECISION_KEEPS``).
+    ``allkeep`` scores every keep on every panel and is descriptive only.
+    """
     by_key = {}
     for r in rows:
         if r["estimand"] != estimand:
@@ -473,45 +482,53 @@ def engine_gaps(rows, estimand):
     panels_names = sorted({
         (r["panel"], r["name"]) for r in rows if r["estimand"] == estimand
     })
+    out = {
+        "decision": {"ok": True, "n": 0, "max_abs": 0.0, "gaps": []},
+        "allkeep": {"ok": True, "n": 0, "max_abs": 0.0, "gaps": []},
+    }
     for panel, name in panels_names:
         st = by_key[(panel, name, "stock")]
         ov = by_key[(panel, name, "overlay")]
-        for keep, screen in (
-            ("full", "phi_full"),
-            ("MA", "phi_MA"),
-            ("MB", "phi_MB"),
-            ("zero", "phi_zero"),
-            ("omit", "phi_omit"),
-        ):
-            n += 1
+        for keep, screen in _KEEP_SCREENS:
+            in_decision = keep in DECISION_KEEPS[panel]
+            buckets = ["allkeep"]
+            if in_decision:
+                buckets.append("decision")
             a, b = st[screen], ov[screen]
-            if not _finite_pair(a, b) or abs(a - b) > ABS_TOL:
-                ok = False
-                gap = None if not _finite_pair(a, b) else abs(a - b)
-                if gap is not None:
-                    max_abs = max(max_abs, gap)
-                gaps.append({
-                    "panel": panel,
-                    "name": name,
-                    "family": st["family"],
-                    "n": st["n"],
-                    "keep": keep,
-                    "stock": a,
-                    "overlay": b,
-                    "abs": gap,
-                })
-            elif abs(a - b) > max_abs:
-                max_abs = max(max_abs, abs(a - b))
-    gaps.sort(key=lambda g: -1.0 if g["abs"] is None else -g["abs"])
-    return ok, n, max_abs, gaps
+            mismatch = (not _finite_pair(a, b)) or abs(a - b) > ABS_TOL
+            gap = None if not _finite_pair(a, b) else abs(float(a) - float(b))
+            rec = {
+                "panel": panel,
+                "name": name,
+                "family": st["family"],
+                "n": st["n"],
+                "keep": keep,
+                "stock": a,
+                "overlay": b,
+                "abs": gap,
+                "h2_decision": in_decision,
+            }
+            for bucket in buckets:
+                slot = out[bucket]
+                slot["n"] += 1
+                if mismatch:
+                    slot["ok"] = False
+                    if gap is not None:
+                        slot["max_abs"] = max(slot["max_abs"], gap)
+                    slot["gaps"].append(rec)
+                elif gap is not None and gap > slot["max_abs"]:
+                    slot["max_abs"] = gap
+    for slot in out.values():
+        slot["gaps"].sort(key=lambda g: -1.0 if g["abs"] is None else -g["abs"])
+    return out
 
 
 def main():
     t_all = time.time()
-    print("AGENDA V4 #12 — M3 SUBSET-Φ FIDELITY VS V4 #1–#3")
+    print("AGENDA V4 item 12 — M3 SUBSET-Φ FIDELITY VS V4 items 1–3")
     print("=" * 80)
-    print("  cited: #1 TRANSFER_PARTIAL_EXACT_PHI; #2 PHASE_RESTORES_JOINT;")
-    print("         #3 RETAIN_FAILS_WITH_ZERO; overlay M2; XOR-dyad caveat")
+    print("  cited: item1 TRANSFER_PARTIAL_EXACT_PHI; item2 PHASE_RESTORES_JOINT;")
+    print("         item3 RETAIN_FAILS_WITH_ZERO; overlay M2; XOR-dyad caveat")
     print("  pointer: hypotheses.md fixed before this script")
     print(
         f"  protocol: |ΔΦ|≤{ABS_TOL:g}; anchor tol {ANCHOR_TOL}; "
@@ -626,8 +643,15 @@ def main():
     keys_ok = all(stock_I[c] == TARGET_KEY[c] for c in (1, 2, 3))
     h1 = keys_ok and not anchor_misses
 
-    h2, n_cmp, max_abs, gaps = engine_gaps(rows, "S")
-    _i_ok, n_ind, max_ind, ind_gaps = engine_gaps(rows, "I")
+    subset_gaps = engine_gaps(rows, "S")
+    induced_gaps = engine_gaps(rows, "I")
+    h2_slot = subset_gaps["decision"]
+    all_slot = subset_gaps["allkeep"]
+    h2 = h2_slot["ok"]
+    n_h2, max_h2, gaps_h2 = h2_slot["n"], h2_slot["max_abs"], h2_slot["gaps"]
+    n_all, max_all, gaps_all = all_slot["n"], all_slot["max_abs"], all_slot["gaps"]
+    ind_h2 = induced_gaps["decision"]
+    ind_all = induced_gaps["allkeep"]
     h3 = np.isfinite(xor_gap) and xor_gap >= 0.1
     blocked = len(incomplete) > 0
     h4 = (not blocked) and all(over_I[c] == stock_I[c] for c in (1, 2, 3))
@@ -654,15 +678,18 @@ def main():
     h5_label = "NOT_ADJUDICATED" if blocked else ("SUPPORTED" if h5 else "REFUTED")
 
     shift_txt = " ".join(
-        f"#{c}:{'YES' if estimand_shift[c] else 'NO'}" for c in (1, 2, 3)
+        f"item{c}:{'YES' if estimand_shift[c] else 'NO'}" for c in (1, 2, 3)
     )
     reading = (
         f"{verdict} — stock induced keys "
-        f"#1 {stock_I[1]} #2 {stock_I[2]} #3 {stock_I[3]}; "
-        f"overlay induced #1 {over_I[1]} #2 {over_I[2]} #3 {over_I[3]}; "
-        f"stock subset #1 {stock_S[1]} #2 {stock_S[2]} #3 {stock_S[3]}; "
-        f"overlay subset #1 {over_S[1]} #2 {over_S[2]} #3 {over_S[3]}; "
-        f"subset gaps {len(gaps)}/{n_cmp} max|Δ|={max_abs:.6g}; "
+        f"item1 {stock_I[1]} item2 {stock_I[2]} item3 {stock_I[3]}; "
+        f"overlay induced item1 {over_I[1]} item2 {over_I[2]} item3 {over_I[3]}; "
+        f"stock subset item1 {stock_S[1]} item2 {stock_S[2]} item3 {stock_S[3]}; "
+        f"overlay subset item1 {over_S[1]} item2 {over_S[2]} "
+        f"item3 {over_S[3]}; "
+        f"H2 decision subset gaps {len(gaps_h2)}/{n_h2} max|Δ|={max_h2:.6g}; "
+        f"all-keep subset gaps {len(gaps_all)}/{n_all} max|Δ|={max_all:.6g} "
+        f"(descriptive); "
         f"W_xor stock={wx['stock']:.6f} overlay={wx['overlay']:.6f}; "
         f"estimand_shift {shift_txt}"
     )
@@ -684,8 +711,12 @@ def main():
         f"phi_retain_f43={fmt_auc(A('family_s43', 'phi_retain'))}; "
         f"phi_phase_f42={fmt_auc(A('family_s42', 'phi_phase'))}; "
         f"xor_stock={wx['stock']:.6f}; xor_overlay={wx['overlay']:.6f}; "
-        f"subset_gap_n={len(gaps)}/{n_cmp}; max_abs={max_abs:.6g}; "
-        f"induced_gaps={len(ind_gaps)}/{n_ind}; induced_max_abs={max_ind:.6g}"
+        f"h2_decision_subset_gaps={len(gaps_h2)}/{n_h2}; "
+        f"h2_max_abs={max_h2:.6g}; "
+        f"allkeep_subset_gaps={len(gaps_all)}/{n_all}; "
+        f"allkeep_max_abs={max_all:.6g}; "
+        f"decision_induced_gaps={len(ind_h2['gaps'])}/{ind_h2['n']}; "
+        f"allkeep_induced_gaps={len(ind_all['gaps'])}/{ind_all['n']}"
     )
 
     print("HYPOTHESIS TESTS")
@@ -705,28 +736,48 @@ def main():
     print("STATUS")
     print(f"  verification grid:    {'PASS' if ctrl and ov_ok else 'FAIL'}")
     print(f"  estimand_shift:       {shift_txt}")
-    print(f"  subset_gaps:          {len(gaps)}/{n_cmp}  max|Δ|={max_abs:.6g}")
-    print(f"  induced_gaps:         {len(ind_gaps)}/{n_ind}  max|Δ|={max_ind:.6g}")
-    n_unit = sum(
-        1 for g in gaps
-        if g["abs"] is not None and abs(g["abs"] - 1.0) <= 1e-9
+    def _unit_count(items):
+        return sum(
+            1 for g in items
+            if g["abs"] is not None and abs(g["abs"] - 1.0) <= 1e-9
+        )
+
+    def _fam_txt(items):
+        fam_counts = {}
+        for g in items:
+            fam_counts[g["family"]] = fam_counts.get(g["family"], 0) + 1
+        return " ".join(f"{k}={fam_counts[k]}" for k in sorted(fam_counts))
+
+    print(
+        f"  H2_decision_subset_gaps: {len(gaps_h2)}/{n_h2}  "
+        f"max|Δ|={max_h2:.6g}"
     )
-    print(f"  subset_gap_unit:      {n_unit}/{len(gaps)}")
-    fam_counts = {}
-    for g in gaps:
-        fam_counts[g["family"]] = fam_counts.get(g["family"], 0) + 1
-    fam_txt = " ".join(f"{k}={fam_counts[k]}" for k in sorted(fam_counts))
-    print(f"  subset_gap_families:  {fam_txt}")
-    for g in gaps:
+    print(
+        f"  allkeep_subset_gaps:  {len(gaps_all)}/{n_all}  "
+        f"max|Δ|={max_all:.6g}  descriptive"
+    )
+    print(
+        f"  decision_induced_gaps: {len(ind_h2['gaps'])}/{ind_h2['n']}  "
+        f"max|Δ|={ind_h2['max_abs']:.6g}  descriptive"
+    )
+    print(
+        f"  allkeep_induced_gaps: {len(ind_all['gaps'])}/{ind_all['n']}  "
+        f"max|Δ|={ind_all['max_abs']:.6g}  descriptive"
+    )
+    print(f"  H2_gap_unit:          {_unit_count(gaps_h2)}/{len(gaps_h2)}")
+    print(f"  H2_gap_families:      {_fam_txt(gaps_h2)}")
+    print(f"  allkeep_gap_unit:     {_unit_count(gaps_all)}/{len(gaps_all)}")
+    print(f"  allkeep_gap_families: {_fam_txt(gaps_all)}")
+    for g in gaps_h2:
         if g["abs"] is None or abs(g["abs"] - 1.0) > 1e-9:
             gs = "nan" if g["abs"] is None else f"{g['abs']:.6g}"
             print(
-                f"  nonunit gap:          {g['panel']} {g['name']} "
+                f"  H2 nonunit gap:       {g['panel']} {g['name']} "
                 f"keep={g['keep']} |Δ|={gs}"
             )
-    if gaps:
-        print("  largest subset gaps:")
-        for g in gaps[:8]:
+    if gaps_h2:
+        print("  largest H2 decision gaps:")
+        for g in gaps_h2[:8]:
             gs = "nan" if g["abs"] is None else f"{g['abs']:.6g}"
             print(
                 f"    {g['panel']} {g['family']}:{g['name']} n={g['n']} "
@@ -743,7 +794,7 @@ def main():
     print(f"  verdict: {verdict}")
     print(f"  reading: {reading}")
     print(f"  metrics: {metrics}")
-    print("  best next:         V4 #11 graded party channel (still open)")
+    print("  best next:         V4 item 11 answered, GRADED_HOLDS")
     print(f"  elapsed_total={round(time.time() - t_all, 1)}s")
     print("=" * 80)
 
@@ -784,10 +835,13 @@ def main():
             })
 
     with open(os.path.join(RESULTS, "gaps.csv"), "w", newline="") as fh:
-        fields = ["panel", "family", "n", "name", "keep", "stock", "overlay", "abs"]
+        fields = [
+            "panel", "family", "n", "name", "keep", "stock", "overlay", "abs",
+            "h2_decision",
+        ]
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
-        for g in gaps:
+        for g in gaps_all:
             w.writerow({
                 "panel": g["panel"],
                 "family": g["family"],
@@ -797,6 +851,7 @@ def main():
                 "stock": "" if not np.isfinite(g["stock"]) else f"{g['stock']:.6f}",
                 "overlay": "" if not np.isfinite(g["overlay"]) else f"{g['overlay']:.6f}",
                 "abs": "" if g["abs"] is None else f"{g['abs']:.6e}",
+                "h2_decision": "yes" if g["h2_decision"] else "no",
             })
 
     def _json_phi(x):
@@ -824,12 +879,18 @@ def main():
             {"panel": p, "screen": s, "published": pub, "got": _json_phi(got)}
             for p, s, pub, got in anchor_misses
         ],
-        "subset_comparisons": n_cmp,
-        "subset_gaps": len(gaps),
-        "max_abs_subset": max_abs,
-        "induced_comparisons": n_ind,
-        "induced_gaps": len(ind_gaps),
-        "max_abs_induced": max_ind,
+        "h2_universe": "DECISION_KEEPS",
+        "h2_decision_comparisons": n_h2,
+        "h2_decision_gaps": len(gaps_h2),
+        "h2_decision_max_abs": max_h2,
+        "allkeep_subset_comparisons": n_all,
+        "allkeep_subset_gaps": len(gaps_all),
+        "allkeep_subset_max_abs": max_all,
+        "allkeep_subset_note": "descriptive; not the H2 universe",
+        "decision_induced_comparisons": ind_h2["n"],
+        "decision_induced_gaps": len(ind_h2["gaps"]),
+        "allkeep_induced_comparisons": ind_all["n"],
+        "allkeep_induced_gaps": len(ind_all["gaps"]),
         "w_xor": {k: _json_phi(v) if isinstance(v, float) else v for k, v in wx.items()},
         "w_parity": {
             "full_stock": _json_phi(wp["full_stock"]),
@@ -841,7 +902,7 @@ def main():
         },
         "reading": reading,
         "metrics": metrics,
-        "scope": "in-silico exact IIT-4.0, n<=4 Boolean panels of V4 #1–#3",
+        "scope": "in-silico exact IIT-4.0, n<=4 Boolean panels of V4 items 1-3",
     }
     with open(os.path.join(RESULTS, "summary.json"), "w") as fh:
         json.dump(summary, fh, indent=2)

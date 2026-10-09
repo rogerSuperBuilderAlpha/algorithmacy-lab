@@ -37,7 +37,7 @@ binary-specific: sum-mod-k commits keep a low flat Φ≈0.5 band at
 k=2,3,4 against high min-commit (#4).
 
 Lane science is **closable** on overlay M2. The leftover M3
-subset-Φ check is V4 #12, below.
+subset-Φ check is V4 item 12, below.
 
 
 ## Graded × topology (V3)
@@ -49,12 +49,15 @@ V3 #11 [`graded_topo_carriers/`](studies/graded_topo_carriers/) **SHARP_HOLDS_AC
 
 V3 #12 [`noise_composed_carriers/`](studies/noise_composed_carriers/) **SAME_PSTAR_COMPOSED** — V2 #7 p*=0.5 holds on necklace and shared-mediator span.
 
-## M3 subset-Φ fidelity (V4 #12)
+## M3 subset-Φ fidelity (V4 item 12)
 
-V4 #12 [`m3_subset_fidelity_v4/`](studies/m3_subset_fidelity_v4/)
-**M3_FLIPS_VERDICT.** Induced Φ matches stock (0/840) and the V4 #1–#3
-keys stand. Background-subset Φ is higher on parity pairs (85/840,
-max |Δ|=1), and that gap moves the #1 subset-estimand key from
+V4 item 12 [`m3_subset_fidelity_v4/`](studies/m3_subset_fidelity_v4/)
+**M3_FLIPS_VERDICT.** Induced Φ matches stock on the decision keeps
+(0/456) and the V4 items 1–3 keys stand. H2 on that grid is 41/456.
+The all-keep descriptive subset count is 85/840, of which 79 are
+mediation forms and 6 are parity hubs. The parity-triad witness is
+separate: pairs {W,S} and {S,C} go from stock 0 to overlay 1. The
+panel gap moves the V4 item 1 subset-estimand key from
 `FAMILY_N3_ONLY` to `EXACT_PHI_ROBUST_MI_ONLY`.
 
 ## Reproduce
