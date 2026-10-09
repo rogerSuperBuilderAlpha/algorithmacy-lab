@@ -1,96 +1,59 @@
 # Q217 — Findings: the rotating chair
 
-Probes 453 (three parties) and 454 (four parties). Hypotheses fixed in `hypotheses.md` before each run
-(commits 4b4f3d9e, and the H6 addendum before probe 454).
+Probes 453 (three parties), 454 (four parties), 455 (chair logic and earned rotation), and 456 (per-state,
+party-only audit). Hypotheses H1–H5 were committed before probe 453, H6 before 454, and H7–H8 before 455.
+Probe 456 was run after independent review; its two observations are exploratory.
 
-| Form | Whole-system | Major complex | Core Φ | Integrating coalitions | Veto players |
+## Central result
+In the tested conjunctive Boolean models, full rotation preserves peak party-core integration and its state
+coverage, while moving the veto between successive chairs so that no party keeps it across states.
+
+## Definitions
+- **Peak core:** the maximal complex at the reachable state with the highest Φ (`probes/lib.py:major_complex`).
+- **State coverage:** the share of distinct reachable states, counted uniformly, in which the party set is the
+  maximal complex. It is not temporal persistence: it does not measure time spent in the core along a trajectory.
+- **Party veto:** among party-only coalitions (size ≥ 2, φ_s > 0 at a state), the parties in every one. Reported
+  per state and intersected across states. Clock nodes are excluded from coalitions.
+
+## Results
+
+| Form | Whole-system max Φ | Peak core (Φ) | State coverage | Per-state party veto | Cross-state party veto |
 |---|---|---|---|---|---|
-| F_fixed (chair A, n=4 incl. idle clock) | dyadic | A,B,C | 2.0 | 3 | A |
-| F_rot2 (chair alternates A/B) | dyadic | A,B,C | 2.0 | 2 | A, B |
-| F_rot3 (chair cycles A→B→C) | dyadic | A,B,C | 2.0 | 5 | none |
-| F4_fixed (chair A, four parties) | dyadic | A,B,C,D | 3.0 | 7 | A |
-| F4_rot (chair cycles A→B→C→D) | dyadic | A,B,C,D | 3.0 | 9 | none |
+| F_fixed (chair A, idle clock) | 0 | A,B,C (2.0) | 2/8 | A | A |
+| F_rot2 (A/B alternation) | 0 | A,B,C (2.0) | 2/8 | A,B | A,B |
+| F_rot3 (A→B→C) | 0 | A,B,C (2.0) | 3/12 | current + previous chair | none |
+| F4_fixed | 0 | A,B,C,D (3.0) | 4/16 | A | A |
+| F4_rot (A→B→C→D) | 0 | A,B,C,D (3.0) | 4/16 | current + previous chair | none |
+| F_rot3_OR | 0 | A,B,C (2.0) | 3/12 | a pair | none |
+| F_earned3 (AND, earned gavel) | 0 | A,B,C (2.0) | 3/12 | a pair | none |
+| F_rot3_XOR | 0 | T (1.0) | 0/12 | A,B,C | A,B,C |
+| F_earned3_XOR | 0.5 (triadic, 7/12 states) | U (1.0) | 4/12 | A,B,C | A,B,C |
 
-## Verdicts
-- **H1 (rotation reads triadic): refuted at the whole-system level.** Every form, fixed included, reads dyadic
-  because the clock is a free-running node outside the core (cf. Q177 spectators). The major complex is triadic in all.
-- **H2 (clock joins the core): refuted.** The schedule shapes who holds power but is not a member.
-- **H3 (rotation dissolves the single veto): partial.** Full rotation leaves no veto player; two-seat
-  alternation spreads the veto to both seats. The veto set equals the set of parties that ever hold the chair
-  when that set is a strict subset of the parties.
-- **H4 (rotation integrates at least as much): holds as a tie.** Core Φ is identical (2.0 at three parties, 3.0 = n−1 at four).
-- **H5 (core is all parties): holds.**
-- **H6 (no-veto scales to four parties): holds.**
+Clock nodes form the maximal complex in many non-peak states, in both fixed and rotating forms; F_earned3 has a
+mixed B,C,U complex at one state and F_earned3_XOR has the whole five-node complex at two.
 
-## The finding
-Rotating the mediator role is integration-neutral and veto-dissolving: a full rotation keeps the same
-irreducible core and core Φ as a fixed hub (Φ = n−1), while removing every single-party bottleneck. The catalog
-had no form with a full irreducible core and an empty veto set under a conjunctive mediator.
+## Hypotheses
+- **H1 (rotation reads triadic): refuted.** Whole-system max Φ is 0 for fixed and rotating AND forms.
+- **H2 (clock joins the core): refuted for the peak core only.** Clock nodes do form maximal complexes at other states.
+- **H3 (rotation dissolves the single veto): partial.** Full rotation leaves no cross-state party veto; two-seat
+  alternation leaves both seats as veto players.
+- **H4 (rotation integrates at least as much): holds as a tie on its stated measure,** whole-system max Φ 0 vs 0.
+  Peak core Φ also ties (2 vs 2, 3 vs 3), a separate result.
+- **H5 (core holds all parties): holds for the peak core.**
+- **H6 (no cross-state veto at four parties): holds.**
+- **H7 (not an AND artifact): holds for OR, refuted for XOR,** where the party core is lost at the peak and all
+  three parties are party-only veto players.
+- **H8 (earned rotation pulls the clock in and reads triadic): refuted for AND.** Earned XOR reads triadic at the
+  whole-system level but its peak core is one clock bit and all parties hold the veto.
+
+## Exploratory audit findings (probe 456)
+1. **Moving veto.** Whenever party-only integrating coalitions exist (half the evaluated states), full
+   rotation gives the veto to the current and previous chairs: all six eligible three-party states and all
+   eight four-party states.
+2. **Equal state coverage.** Fixed and fully rotating conjunctive models both have 25% state coverage. Clock-only
+   cores occur in both controls; this does not show that any clock causes them.
 
 ## Limits
-In-silico, designed deterministic forms, conjunctive chairs, followers copy the chair, deterministic clock,
-n ≤ 6 nodes. Whole-system verdicts are confounded by the external clock.
-
-## Extension — probe 455 (H7, H8 fixed before the run)
-
-| Form | Whole-system | Max Φ | Major complex | Core Φ | Integrating | Veto |
-|---|---|---|---|---|---|---|
-| F_rot3_OR | dyadic | 0 | A,B,C | 2.0 | 5 | none |
-| F_rot3_XOR | dyadic | 0 | T | 1.0 | 2 | none |
-| F_earned3 (AND, gavel passes only when the chair acts) | dyadic | 0 | A,B,C | 2.0 | 8 | none |
-| F_earned3_XOR | triadic (7/12 states) | 0.5 | U | 1.0 | 9 | none |
-
-- **H7: holds for OR, refuted for XOR.** An OR chair keeps the full party core at Φ = 2 with no veto. A parity
-  chair under rotation loses the party core entirely; the maximal complex shrinks to one clock bit. Rotation is
-  veto-dissolving for monotone chairs and core-destroying for a parity chair, the reverse of the fixed-hub
-  result where parity binds more readily (gate-logic thread).
-- **H8: refuted for the AND chair.** Making the gavel pass only when the chair acts adds integrating coalitions
-  (5 → 8) but leaves the clock outside the core and the whole system dyadic. With an XOR chair the earned
-  rotation makes the whole system triadic (max Φ 0.5) for the first time in this question, but its maximal complex
-  is a single clock bit, so the whole-system reading and the core disagree (cf. Q74, Q152).
-
-## Corrections after independent review (reproduced numbers; interpretations narrowed)
-
-1. **Peak, not persistent, core.** `major_complex` reports the highest-Φ state. In F_rot3 the party core ABC is
-   the maximal complex in only 3 of 12 states; clock-only complexes win in the other nine. "Keeps the core"
-   means "preserves peak party-core Φ".
-2. **The clock does join complexes.** Clock nodes frequently form the maximal complex at non-peak states, and
-   F_earned3 has a mixed B,C,U complex at one state. H2's refutation holds only for the peak-Φ core.
-3. **Veto freedom is across states only.** In full three-party rotation every state with integrating party
-   coalitions has a two-party veto set (AB, BC, or AC); the empty set is their intersection across states. The
-   veto rotates; it does not vanish moment by moment.
-4. **The XOR empty veto is a clock artifact.** Restricting coalitions to parties, ABC is the only integrating
-   coalition for both free and earned XOR rotation, so all three parties are veto players. F_earned3_XOR also has
-   the whole five-node complex in two states; singleton U wins only at the peak state. H7 for XOR is therefore
-   "core lost at peak; all parties veto among party coalitions".
-5. **H4 measured as predicted.** H4 concerned whole-system max Φ: it ties at 0 vs 0. The core-Φ tie (2 vs 2,
-   3 vs 3) is a separate, also-reproduced result, not the test of H4.
-
-**Defensible conclusion.** In the tested conjunctive Boolean models, full rotation preserves peak party-core
-integration and removes a permanent veto across states. It does not establish continuous core membership,
-moment-by-moment veto freedom, or anything about real organizations.
-
-## Probe 456 — per-state, party-only audit (`run_456.txt`)
-
-Coalitions are restricted to parties; the veto set is computed per state and intersected across states.
-
-| Form | Party core is the maximal complex | Per-state party veto | Cross-state party veto |
-|---|---|---|---|
-| F_fixed | 2/8 states | A | A |
-| F_rot2 | 2/8 | AB | AB |
-| F_rot3 | 3/12 | AC, AB, or BC | none |
-| F4_fixed | 4/16 | A | A |
-| F4_rot | 4/16 | AD, AB, BC, or CD | none |
-| F_rot3_OR | 3/12 | AC, AB, or BC | none |
-| F_rot3_XOR | 0/12 | ABC | ABC |
-| F_earned3 | 3/12 | AC, AB, or BC | none |
-| F_earned3_XOR | 4/12 (ABC); ABC ⊆ complex in 8/12 | ABC | ABC |
-
-This confirms each review correction in code. Exploratory audit findings (identified after the
-original hypotheses): (a) state coverage, the share of distinct reachable states, counted uniformly, in which
-the party core is the maximal complex, is 25% for both the fixed and fully rotating conjunctive models (2/8,
-3/12, 4/16). This is not persistence: it does not measure time spent in the core along a trajectory. Clock-only
-cores occur in both the fixed and rotating controls; this does not establish that any clock causes them.
-(b) Whenever party-only integrating coalitions exist (half the evaluated states), full rotation gives the veto
-to the current and previous chairs (all six eligible three-party states, all eight four-party states). For XOR chairs, all three
-parties are veto players among party coalitions.
+In-silico, designed deterministic forms, at most four parties, an external clock, three chair logics. Results
+are per state, at the peak state, or intersected across states; none measure temporal persistence. Nothing here
+concerns real organizations.
