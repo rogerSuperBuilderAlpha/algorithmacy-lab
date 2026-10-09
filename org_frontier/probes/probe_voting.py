@@ -36,7 +36,7 @@ def main():
         v = verdict(rules, LABELS)
         core, phi = major_complex(rules, LABELS)
         parties = [p for p in ("W", "C1", "C2") if core and p in core]
-        print(f"  {name:<18} {v.structure:<8} Φ={v.max_phi:.3f}  parties in core: {parties}")
+        print(f"  {name:<18} {v.structure:<8} Phi={v.max_phi:.3f}  parties in core: {parties}")
     print("=" * 78)
     print("  Reading: aggregation rules differ in whether they bind the members into one irreducible")
     print("  decision. Rules where every member is pivotal bind; redundant rules (majority) factor.")

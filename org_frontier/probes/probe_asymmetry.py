@@ -29,7 +29,7 @@ def main():
     for k, r in FORMS.items():
         v = verdict(r, LABELS)
         core, phi = major_complex(r, LABELS)
-        print(f"  {k:<18} whole-system {v.structure:<8} Φ={v.max_phi:.3f}   core={core} Φ={phi:.3f}")
+        print(f"  {k:<18} whole-system {v.structure:<8} Phi={v.max_phi:.3f}   core={core} Phi={phi:.3f}")
     print("=" * 80)
 
 

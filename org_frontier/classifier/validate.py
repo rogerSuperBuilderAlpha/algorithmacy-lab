@@ -32,7 +32,7 @@ def irreducible_control():
 
 def main() -> int:
     print("=" * 80)
-    print("LITERACY-OR-ALGORITHMACY CLASSIFIER — instrument validation")
+    print("LITERACY-OR-ALGORITHMACY CLASSIFIER -- instrument validation")
     print("=" * 80)
     failures = 0
 
@@ -45,7 +45,7 @@ def main() -> int:
         ok = v.structure == expect
         failures += not ok
         print(f"  {'PASS' if ok else 'FAIL'}  {name:<30} -> {v.structure:<8} "
-              f"(Φ_MIP max {v.max_phi:.4f}; expected {expect})")
+              f"(Phi_MIP max {v.max_phi:.4f}; expected {expect})")
 
     print("\n[2/3] Built-in forms (regression suite)")
     for fname, builder in forms.FORMS.items():
@@ -54,12 +54,12 @@ def main() -> int:
         ok = v.structure == expect
         failures += not ok
         print(f"  {'PASS' if ok else 'FAIL'}  {fname:<22} -> {v.structure:<8} "
-              f"({v.competence:<12} Φ_MIP max {v.max_phi:.4f}; expected {expect})")
+              f"({v.competence:<12} Phi_MIP max {v.max_phi:.4f}; expected {expect})")
 
     print("\n[3/3] Summary")
     print(f"  PHI_EPS = {PHI_EPS:g}")
     if failures:
-        print(f"  {failures} FAILURE(S) — do not trust verdicts until resolved.")
+        print(f"  {failures} FAILURE(S) -- do not trust verdicts until resolved.")
         return 1
     print("  All controls and built-in forms pass. Instrument validated.")
     return 0

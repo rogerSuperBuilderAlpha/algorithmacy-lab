@@ -30,9 +30,9 @@ def or_hub(n):
 
 
 def main():
-    print("PROBE 116 (H1) — the conjunctive scaling law")
+    print("PROBE 116 (H1) -- the conjunctive scaling law")
     print("=" * 60)
-    print(f"  {'commit':<12}{'n':<5}{'Φ':<9}{'n-1':<7}{'core size':<11}{'law holds'}")
+    print(f"  {'commit':<12}{'n':<5}{'Phi':<9}{'n-1':<7}{'core size':<11}{'law holds'}")
     # n=8 (256-state exact SIA) does not finish in reasonable time; the law is verified n=4..7.
     for n in (4, 5, 6, 7):
         core, phi = major_complex(single_hub(n), tuple(f"n{i}" for i in range(n)))
@@ -44,7 +44,7 @@ def main():
         sz = len(core) if core else 0
         print(f"  {'OR-all':<12}{n:<5}{phi:<9.3f}{n-1:<7}{sz:<11}{abs(phi-(n-1))<1e-6 and sz==n}")
     print("=" * 60)
-    print("  Reading: Φ = n−1 with the full node set as the core, holding across sizes, states the law:")
+    print("  Reading: Phi = n-1 with the full node set as the core, holding across sizes, states the law:")
     print("  an all-required commit binds every member into one irreducible whole whose integration grows")
     print("  one bit per added member. OR-all matching AND-all confirms the symmetry the corpus shows.")
     print("=" * 60)
