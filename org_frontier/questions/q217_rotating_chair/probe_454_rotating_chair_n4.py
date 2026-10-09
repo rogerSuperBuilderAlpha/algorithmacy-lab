@@ -23,12 +23,13 @@ def form(rotating):
     return [party(i) for i in range(P)] + [lambda x: nxt(x) & 1, lambda x: (nxt(x) >> 1) & 1], tuple("ABCDTU")
 
 
-for name, rot in [("F4_fixed", False), ("F4_rot", True)]:
-    rules, L = form(rot)
-    v = verdict(rules, L)
-    core, phi = major_complex(rules, L)
-    net, tpm = network(rules, L)
-    W = integrating_coalitions(net, tpm, len(L))
-    vs = sorted(L[i] for i in veto_set(W))
-    print(f"{name:8s} structure={v.structure} maxPhi={v.max_phi:.4f} core={core} corePhi={phi:.4f} "
-          f"n_integrating={len(W)} veto={vs}", flush=True)
+if __name__ == "__main__":
+    for name, rot in [("F4_fixed", False), ("F4_rot", True)]:
+        rules, L = form(rot)
+        v = verdict(rules, L)
+        core, phi = major_complex(rules, L)
+        net, tpm = network(rules, L)
+        W = integrating_coalitions(net, tpm, len(L))
+        vs = sorted(L[i] for i in veto_set(W))
+        print(f"{name:8s} structure={v.structure} maxPhi={v.max_phi:.4f} core={core} corePhi={phi:.4f} "
+              f"n_integrating={len(W)} veto={vs}", flush=True)

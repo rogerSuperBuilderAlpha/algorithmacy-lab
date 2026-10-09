@@ -69,3 +69,25 @@ n ≤ 6 nodes. Whole-system verdicts are confounded by the external clock.
 **Defensible conclusion.** In the tested conjunctive Boolean models, full rotation preserves peak party-core
 integration and removes a permanent veto across states. It does not establish continuous core membership,
 moment-by-moment veto freedom, or anything about real organizations.
+
+## Probe 456 — per-state, party-only audit (`run_456.txt`)
+
+Coalitions are restricted to parties; the veto set is computed per state and intersected across states.
+
+| Form | Party core is the maximal complex | Per-state party veto | Cross-state party veto |
+|---|---|---|---|
+| F_fixed | 2/8 states | A | A |
+| F_rot2 | 2/8 | AB | AB |
+| F_rot3 | 3/12 | AC, AB, or BC | none |
+| F4_fixed | 4/16 | A | A |
+| F4_rot | 4/16 | AD, AB, BC, or CD | none |
+| F_rot3_OR | 3/12 | AC, AB, or BC | none |
+| F_rot3_XOR | 0/12 | ABC | ABC |
+| F_earned3 | 3/12 | AC, AB, or BC | none |
+| F_earned3_XOR | 4/12 (ABC); ABC ⊆ complex in 8/12 | ABC | ABC |
+
+This confirms each review correction in code. One further observation: the party core is the maximal complex
+in exactly a quarter of states for both the fixed chair and full rotation (2/8, 3/12, 4/16), so rotation costs
+no persistence relative to a fixed chair; the clock-only complexes are a property of including any clock.
+Under rotation the per-state veto is the current chair plus the next one in line. For XOR chairs, all three
+parties are veto players among party coalitions.

@@ -35,11 +35,12 @@ def rot3():
     return [party(0), party(1), party(2), lambda x: nxt(x) & 1, lambda x: (nxt(x) >> 1) & 1], tuple("ABCTU")
 
 
-for name, (rules, L) in [("F_fixed", F_fixed), ("F_rot2", rot2()), ("F_rot3", rot3())]:
-    v = verdict(rules, L)
-    core, phi = major_complex(rules, L)
-    net, tpm = network(rules, L)
-    W = integrating_coalitions(net, tpm, len(L))
-    vs = sorted(L[i] for i in veto_set(W))
-    print(f"{name:8s} structure={v.structure} maxPhi={v.max_phi:.4f} irreducible_states={v.n_states_irreducible}/{v.n_states_evaluated} "
-          f"core={core} corePhi={phi:.4f} n_integrating={len(W)} veto={vs}", flush=True)
+if __name__ == "__main__":
+    for name, (rules, L) in [("F_fixed", F_fixed), ("F_rot2", rot2()), ("F_rot3", rot3())]:
+        v = verdict(rules, L)
+        core, phi = major_complex(rules, L)
+        net, tpm = network(rules, L)
+        W = integrating_coalitions(net, tpm, len(L))
+        vs = sorted(L[i] for i in veto_set(W))
+        print(f"{name:8s} structure={v.structure} maxPhi={v.max_phi:.4f} irreducible_states={v.n_states_irreducible}/{v.n_states_evaluated} "
+              f"core={core} corePhi={phi:.4f} n_integrating={len(W)} veto={vs}", flush=True)
