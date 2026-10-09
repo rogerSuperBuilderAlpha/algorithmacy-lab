@@ -9,10 +9,15 @@ Does subset-Φ from `third_party/pyphi_iit4_mv` move any of the V4
 python org_frontier/studies/m3_subset_fidelity_v4/analyze_fidelity.py
 ```
 
-## Status
+## Result in one line
 
-Hypotheses and decision rules are fixed in [`hypotheses.md`](hypotheses.md).
-Results are not in this note until that script has been run.
+**M3_FLIPS_VERDICT** — induced Φ matches stock (0/840) and the three
+published keys stand; background-subset Φ moves the #1 key
+(`FAMILY_N3_ONLY` to `EXACT_PHI_ROBUST_MI_ONLY`).
+
+## Hypotheses
+
+Fixed before computing in [`hypotheses.md`](hypotheses.md).
 
 ## Priors
 

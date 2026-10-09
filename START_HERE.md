@@ -51,7 +51,7 @@ Route on their answer:
 - **(d) measuring people** → [`org_frontier/survey/`](org_frontier/survey/), the three-wave panel.
 - **(e) find something new** → skip to Phase 4 with an open thread from
   [`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute). The written agendas are answered through
-  [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md) #10; its #11 and #12 are still open.
+  [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md) #10 and #12; its #11 is still open.
 
 Whatever they pick, get them to **run something** before explaining more (Phase 3).
 

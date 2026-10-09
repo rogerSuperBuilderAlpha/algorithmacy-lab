@@ -36,8 +36,8 @@ not membership (#3). The parity / XOR blind spot of #113 is **not**
 binary-specific: sum-mod-k commits keep a low flat Φ≈0.5 band at
 k=2,3,4 against high min-commit (#4).
 
-Lane science is **closable** on overlay M2. Optional engineering: M3
-subset-Φ fidelity (pure-HO claims at k>2).
+Lane science is **closable** on overlay M2. The leftover M3
+subset-Φ check is V4 #12, below.
 
 
 ## Graded × topology (V3)
@@ -49,6 +49,14 @@ V3 #11 [`graded_topo_carriers/`](studies/graded_topo_carriers/) **SHARP_HOLDS_AC
 
 V3 #12 [`noise_composed_carriers/`](studies/noise_composed_carriers/) **SAME_PSTAR_COMPOSED** — V2 #7 p*=0.5 holds on necklace and shared-mediator span.
 
+## M3 subset-Φ fidelity (V4 #12)
+
+V4 #12 [`m3_subset_fidelity_v4/`](studies/m3_subset_fidelity_v4/)
+**M3_FLIPS_VERDICT.** Induced Φ matches stock (0/840) and the V4 #1–#3
+keys stand. Background-subset Φ is higher on parity pairs (85/840,
+max |Δ|=1), and that gap moves the #1 subset-estimand key from
+`FAMILY_N3_ONLY` to `EXACT_PHI_ROBUST_MI_ONLY`.
+
 ## Reproduce
 
 ```
@@ -56,4 +64,5 @@ python org_frontier/studies/ternary_pivotality/analyze_pivot.py
 python org_frontier/studies/graded_commit_verdict/analyze_graded.py
 python org_frontier/studies/mixed_radix_mediator/analyze_mixed.py
 python org_frontier/studies/parity_radix_blindspot/analyze_parity.py
+python org_frontier/studies/m3_subset_fidelity_v4/analyze_fidelity.py
 ```

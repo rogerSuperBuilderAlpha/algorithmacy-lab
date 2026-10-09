@@ -1,0 +1,70 @@
+{
+  "verdict": "M3_FLIPS_VERDICT",
+  "h1": true,
+  "h2": false,
+  "h3": false,
+  "h4": true,
+  "h5": false,
+  "blocked": false,
+  "n_incomplete": 0,
+  "keys": {
+    "stock_I": {
+      "1": "TRANSFER_PARTIAL_EXACT_PHI",
+      "2": "PHASE_RESTORES_JOINT",
+      "3": "RETAIN_FAILS_WITH_ZERO"
+    },
+    "overlay_I": {
+      "1": "TRANSFER_PARTIAL_EXACT_PHI",
+      "2": "PHASE_RESTORES_JOINT",
+      "3": "RETAIN_FAILS_WITH_ZERO"
+    },
+    "stock_S": {
+      "1": "FAMILY_N3_ONLY",
+      "2": "NO_ALT_CLIFF",
+      "3": "RETAIN_FAILS_WITH_ZERO"
+    },
+    "overlay_S": {
+      "1": "EXACT_PHI_ROBUST_MI_ONLY",
+      "2": "NO_ALT_CLIFF",
+      "3": "RETAIN_FAILS_WITH_ZERO"
+    }
+  },
+  "estimand_shift": {
+    "1": true,
+    "2": true,
+    "3": false
+  },
+  "anchor_misses": [],
+  "subset_comparisons": 840,
+  "subset_gaps": 85,
+  "max_abs_subset": 1.0,
+  "induced_comparisons": 840,
+  "induced_gaps": 0,
+  "max_abs_induced": 0.0,
+  "w_xor": {
+    "stock": 1.0,
+    "overlay": 1.0,
+    "errors": 0
+  },
+  "w_parity": {
+    "full_stock": 0.5,
+    "full_overlay": 0.5,
+    "pairs": {
+      "01": {
+        "stock": 0.0,
+        "overlay": 1.0
+      },
+      "02": {
+        "stock": 0.0,
+        "overlay": 0.0
+      },
+      "12": {
+        "stock": 0.0,
+        "overlay": 1.0
+      }
+    }
+  },
+  "reading": "M3_FLIPS_VERDICT \u2014 stock induced keys #1 TRANSFER_PARTIAL_EXACT_PHI #2 PHASE_RESTORES_JOINT #3 RETAIN_FAILS_WITH_ZERO; overlay induced #1 TRANSFER_PARTIAL_EXACT_PHI #2 PHASE_RESTORES_JOINT #3 RETAIN_FAILS_WITH_ZERO; stock subset #1 FAMILY_N3_ONLY #2 NO_ALT_CLIFF #3 RETAIN_FAILS_WITH_ZERO; overlay subset #1 EXACT_PHI_ROBUST_MI_ONLY #2 NO_ALT_CLIFF #3 RETAIN_FAILS_WITH_ZERO; subset gaps 85/840 max|\u0394|=1; W_xor stock=1.000000 overlay=1.000000; estimand_shift #1:YES #2:YES #3:NO",
+  "metrics": "phi_full_f41=1.000; phi_alt_f41=0.812; phi_zero_f41=0.792; phi_full_m=1.000; phi_alt_m=0.660; phi_zero_m=0.592; phi_retain_m=0.592; phi_omit_m=0.559; phi_full_f43=1.000; phi_zero_f43=0.750; phi_retain_f43=0.750; phi_phase_f42=1.000; xor_stock=1.000000; xor_overlay=1.000000; subset_gap_n=85/840; max_abs=1; induced_gaps=0/840; induced_max_abs=0",
+  "scope": "in-silico exact IIT-4.0, n<=4 Boolean panels of V4 #1\u2013#3"
+}
