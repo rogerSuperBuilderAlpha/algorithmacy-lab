@@ -9,9 +9,9 @@ insurer.
 
 Files: `review.md` (prior work), `literature/` (20 verified sources), `hypotheses.md` (fixed before
 computation), `methods.md`, `forms.py`, `probe_457_pipe.py` … `probe_460_liveness.py`, `results/`,
-`FINDINGS.md`, `paper.md`.
+`FINDINGS.md`, `paper.md`, `WORKFLOW_LOG.md` (step-by-step record).
 
-## Hypotheses (committed before any q219 form was computed, commit `51862bc9`)
+## Hypotheses (committed before any q219 form was computed, commit `a8abd0fa`)
 
 - **H1** — The pass-through pipe (engine only forwards) is triadic through closure alone, as Q11's
   identical three-node rotating ring is.
@@ -70,6 +70,9 @@ python ci/reproduce.py q219-h1-pipe q219-h2-gated q219-h3-h4-loop q219-h5-livene
 Each probe runs in about two seconds and rewrites its CSV under `results/`.
 
 ## Workflow & Grok Bot
+
+The full step-by-step record, with commands, outcomes, key numbers, and EDT times, is in
+[`WORKFLOW_LOG.md`](WORKFLOW_LOG.md).
 
 ### Steps
 
@@ -150,5 +153,8 @@ Prompt 2:
   `rg` search timed out until it was limited to Markdown and Python files.
 - **Formatting slip.** The first edit to `ci/reproduce.json` re-serialized the whole file (a 1,600-line
   diff). It was reverted and the four checks appended without reformatting.
-- **Commit identity.** No commit by Dheepak exists in the repo history, so the local commits use
-  `Dheepak Karan <dheepakkaran@users.noreply.github.com>`.
+- **Commit identity.** No commit by Dheepak existed in the repo history, so the first local commits used
+  a guessed address, `Dheepak Karan <dheepakkaran@users.noreply.github.com>`. Before the PR, author and
+  committer on every branch commit were rewritten to Dheepak's GitHub noreply address
+  `Dheepak Karan <67942227+dheepakkaran@users.noreply.github.com>`, which changed every commit hash; the
+  hashes cited in this folder were updated to match.

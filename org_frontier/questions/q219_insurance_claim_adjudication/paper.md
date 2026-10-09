@@ -53,7 +53,7 @@ triadic at Φ = 2.0) bear directly on the forms here.
 
 ## Hypotheses
 
-Fixed in `hypotheses.md` (commit `51862bc9`) before any q219 form was computed. H1: the pipe is triadic
+Fixed in `hypotheses.md` (commit `a8abd0fa`) before any q219 form was computed. H1: the pipe is triadic
 with all three in the core, as Q11's identical rotating ring is. H2: threshold auto-approval is triadic
 with all three in the core, and its irreducibility lives only in flagged states. H3: the fraud-flag loop
 with override learning is triadic with all three in the core; its null names a contraction to an
