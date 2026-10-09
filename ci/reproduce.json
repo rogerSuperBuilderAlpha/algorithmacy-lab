@@ -6545,6 +6545,23 @@
       ],
       "timeout": 180,
       "source": "org_frontier/studies/ergodic_gap_decomposition/FINDINGS.md"
+    },
+    {
+      "name": "probe-voting-stress",
+      "cmd": "python -m org_frontier.probes.probe_voting_stress",
+      "expect": [
+        "unanimity (AND)           triadic  Phi=3.000  core: ['W', 'C1', 'C2']",
+        "any (OR)                  triadic  Phi=3.000  core: ['W', 'C1', 'C2']",
+        "majority (2of3)           dyadic   Phi=0.000  core: []",
+        "weighted 2-1-1, t=2       dyadic   Phi=0.000  core: ['W']",
+        "weighted 2-1-1, t=3       dyadic   Phi=0.000  core: ['W']",
+        "weighted 3-1-1, t=3       dyadic   Phi=0.000  core: ['W']",
+        "weighted 3-1-1, t=4       dyadic   Phi=0.000  core: ['W']",
+        "parity (XOR)              triadic  Phi=0.250  core: ['W', 'C1', 'C2']",
+        "2-of-3 excluding W        dyadic   Phi=0.000  core: ['C1', 'C2']"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/probes/probe_voting_stress.py"
     }
   ]
 }
