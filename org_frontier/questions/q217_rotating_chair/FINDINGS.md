@@ -86,8 +86,11 @@ Coalitions are restricted to parties; the veto set is computed per state and int
 | F_earned3 | 3/12 | AC, AB, or BC | none |
 | F_earned3_XOR | 4/12 (ABC); ABC ⊆ complex in 8/12 | ABC | ABC |
 
-This confirms each review correction in code. One further observation: the party core is the maximal complex
-in exactly a quarter of states for both the fixed chair and full rotation (2/8, 3/12, 4/16), so rotation costs
-no persistence relative to a fixed chair; the clock-only complexes are a property of including any clock.
-Under rotation the per-state veto is the current chair plus the previous one. For XOR chairs, all three
+This confirms each review correction in code. Exploratory audit findings (identified after the
+original hypotheses): (a) state coverage, the share of distinct reachable states, counted uniformly, in which
+the party core is the maximal complex, is 25% for both the fixed and fully rotating conjunctive models (2/8,
+3/12, 4/16). This is not persistence: it does not measure time spent in the core along a trajectory. Clock-only
+cores occur in both the fixed and rotating controls; this does not establish that any clock causes them.
+(b) Whenever party-only integrating coalitions exist (half the evaluated states), full rotation gives the veto
+to the current and previous chairs (all six eligible three-party states, all eight four-party states). For XOR chairs, all three
 parties are veto players among party coalitions.
