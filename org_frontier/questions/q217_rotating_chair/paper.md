@@ -7,8 +7,9 @@ conjunctive Boolean models under exact IIT-4.0, full rotation preserves peak par
 three parties, Φ = n−1 = 3 at four) and its coverage of reachable states (25%, the same as a fixed chair),
 while transferring the veto between successive chairs: whenever party-only integrating coalitions exist, the
 current and previous chairs hold the veto, so no party retains it across states. Two-seat rotation leaves both
-seats as permanent veto players. An XOR chair is the boundary case: under rotation the party core is lost and
-all three parties hold the veto. The result depends on chair logic, and concerns the tested models only.
+seats as permanent veto players. An XOR chair is the boundary case: under free rotation the party core is never the maximal complex and
+all three parties hold the veto (under earned XOR rotation ABC is the exact maximal complex in 4/12 states,
+with all three parties still holding the veto). The result depends on chair logic, and concerns the tested models only.
 
 ## Question
 Does a rotating chair keep a coordination irreducible, and who holds its bottleneck?
@@ -26,7 +27,7 @@ and H7–H8 before 455. Probe 456 is a post-hoc per-state audit run after indepe
 **Pre-registered.** Peak party-core Φ is unchanged by full rotation (2 vs 2; 3 vs 3). The cross-state party
 veto is {A} for a fixed chair, {A, B} for two-seat alternation, and empty for full rotation at three and four
 parties (H3 partial, H6 holds). Whole-system max Φ is 0 for both fixed and rotating forms, so H4 is a tie at
-0 vs 0 and H1 is refuted at the whole-system level. H2 holds only for the peak-Φ core; clock nodes form the
+0 vs 0 and H1 is refuted at the whole-system level. H2 is refuted for the peak core (no clock node in it); clock nodes form the
 maximal complex in many other states. H7 holds for OR and fails for XOR. H8 fails for AND.
 
 **Exploratory audit findings (probe 456, identified after the original hypotheses).**
@@ -39,7 +40,8 @@ maximal complex in many other states. H7 holds for OR and fails for XOR. H8 fail
 
 **Boundary case.** With an XOR chair the party core is never the maximal complex under free rotation (0/12),
 and among party coalitions all three parties are veto players. An earned XOR rotation reads triadic at the
-whole-system level (max Φ 0.5) but still leaves all three parties as veto players.
+whole-system level (max Φ 0.5); ABC is the exact maximal complex in 4/12 states, and all three parties
+remain veto players.
 
 ## Discussion
 The lab's political-economy results locate the mediator's rent and veto in a fixed seat (Q111–Q112, the
@@ -50,8 +52,8 @@ expected to show a handed-over veto rather than none, and the effect should depe
 inputs.
 
 ## Limits
-In-silico evidence about designed deterministic Boolean models with at most four parties and an external
-clock. State coverage counts reachable states uniformly and does not measure temporal persistence along
+In-silico evidence about designed deterministic Boolean models with at most four parties and a clock that is
+external (free-running) in most forms and endogenous (advancing only when the chair acts) in the earned variants. State coverage counts reachable states uniformly and does not measure temporal persistence along
 trajectories. The veto results are per state and across states, not along time. The two audit findings are
 exploratory. Nothing here establishes how real leadership rotation behaves. Open next: trajectory-weighted
-persistence, noisy or endogenous schedules, more chair logics, and a field case.
+persistence, noisy schedules and other endogenous schedules (for example, an elected chair), more chair logics, and a field case.

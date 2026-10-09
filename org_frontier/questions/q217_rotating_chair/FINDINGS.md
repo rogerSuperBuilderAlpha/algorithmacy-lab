@@ -29,6 +29,9 @@ coverage, while moving the veto between successive chairs so that no party keeps
 | F_rot3_XOR | 0 | T (1.0) | 0/12 | A,B,C | A,B,C |
 | F_earned3_XOR | 0.5 (triadic, 7/12 states) | U (1.0) | 4/12 | A,B,C | A,B,C |
 
+*Table note:* per-state veto entries apply only to states where integrating party coalitions exist; the
+cross-state intersection excludes states with none (half of the evaluated states in the AND forms).
+
 Clock nodes form the maximal complex in many non-peak states, in both fixed and rotating forms; F_earned3 has a
 mixed B,C,U complex at one state and F_earned3_XOR has the whole five-node complex at two.
 
@@ -41,7 +44,8 @@ mixed B,C,U complex at one state and F_earned3_XOR has the whole five-node compl
   Peak core Φ also ties (2 vs 2, 3 vs 3), a separate result.
 - **H5 (core holds all parties): holds for the peak core.**
 - **H6 (no cross-state veto at four parties): holds.**
-- **H7 (not an AND artifact): holds for OR, refuted for XOR,** where the party core is lost at the peak and all
+- **H7 (not an AND artifact): holds for OR, refuted for XOR,** where under free rotation the party core is never the maximal complex (0/12), under earned rotation it is in
+  4/12 states but not at the peak, and all
   three parties are party-only veto players.
 - **H8 (earned rotation pulls the clock in and reads triadic): refuted for AND.** Earned XOR reads triadic at the
   whole-system level but its peak core is one clock bit and all parties hold the veto.
@@ -54,6 +58,6 @@ mixed B,C,U complex at one state and F_earned3_XOR has the whole five-node compl
    cores occur in both controls; this does not show that any clock causes them.
 
 ## Limits
-In-silico, designed deterministic forms, at most four parties, an external clock, three chair logics. Results
+In-silico, designed deterministic forms, at most four parties, a clock that is external (free-running) except in the earned variants, where it is endogenous, three chair logics. Results
 are per state, at the peak state, or intersected across states; none measure temporal persistence. Nothing here
 concerns real organizations.
