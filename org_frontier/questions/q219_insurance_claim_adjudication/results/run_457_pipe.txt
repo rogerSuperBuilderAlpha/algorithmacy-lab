@@ -1,0 +1,9 @@
+PROBE 457 (Q219-H1) — pass-through pipe: C'=A, E'=C, A'=E
+========================================================================
+[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS
+  pipe                   triadic  max Φ_MIP=2.0000  MIP=3 parts: {C,E,A}  core={C,E,A} core Φ=2.0000
+                         per-state Φ_MIP (C,E,A): 000:2.0000  100:2.0000  010:2.0000  110:2.0000  001:2.0000  101:2.0000  011:2.0000  111:2.0000
+                         irreducible states: 8/8 [000 100 010 110 001 101 011 111]
+========================================================================
+  pipe triadic with core {C,E,A}: True
+  H1 VERDICT: CONFIRMED

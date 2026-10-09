@@ -1,0 +1,10 @@
+PROBE 458 (Q219-H2) — threshold auto-approval: C'=E∧¬A, E'=C, A'=E∧C
+========================================================================
+[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS
+  gated                  triadic  max Φ_MIP=0.4150  MIP=2 parts: {C,EA}  core={C,E} core Φ=2.0000
+                         per-state Φ_MIP (C,E,A): 000:0.0000  100:0.0000  010:0.0000  011:0.0000  111:0.4150
+                         irreducible states: 1/5 [111]
+========================================================================
+  (i)+(ii) triadic with core {C,E,A}: False
+  (iii) every irreducible state has E=1: True | every E=0 state Φ=0: True (E=0 states reached: 000 100)
+  H2 VERDICT: REFUTED
