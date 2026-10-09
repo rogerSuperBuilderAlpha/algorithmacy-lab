@@ -632,7 +632,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q213](org_frontier/questions/q213_contingent_irreducibility/paper.md) | Contingent irreducibility: a party held in the core by a constraint, not a role | A new category of irreducibility and a reusable instrument to detect it. A mediator can sit in a triad's core |
 | [Q214](org_frontier/questions/q214_triadic_classification/paper.md) | A formal criterion for a verbal distinction: classifying the literature's triad types | The canonical triad types of the brokerage, sociology, and economics literature, classified by the q213 |
 | [Q215](org_frontier/questions/q215_phi_family_robustness) | phi family robustness | binding is measure-robust; the subtle factorings belong to IIT 4.0 |
-| [Q217](org_frontier/questions/q217_rotating_chair/paper.md) | The rotating chair: preserved integration and a moving veto | the rotating chair |
+| [Q217](org_frontier/questions/q217_rotating_chair/paper.md) | The rotating chair: preserved integration and a moving veto | A rotating chair moves the veto between successive chairs while peak party-core integration and state coverage stay unchanged |
 
 </details>
 

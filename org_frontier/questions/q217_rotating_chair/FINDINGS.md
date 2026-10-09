@@ -1,4 +1,4 @@
-# Q217 — Findings: the rotating chair
+# Q217 — A rotating chair moves the veto between successive chairs while peak party-core integration and state coverage stay unchanged
 
 Probes 453 (three parties), 454 (four parties), 455 (chair logic and earned rotation), and 456 (per-state,
 party-only audit). Hypotheses H1–H5 were committed before probe 453, H6 before 454, and H7–H8 before 455.
