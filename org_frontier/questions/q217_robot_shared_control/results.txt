@@ -1,0 +1,4 @@
+1 teleoperation            H'=R, P'=R, R'=H   -> dyadic  Φ_MIP max=0.0000  major complex=('H', 'R') φ=2.0000
+2 full autonomy            H'=R, P'=R, R'=P   -> dyadic  Φ_MIP max=0.0000  major complex=('P', 'R') φ=2.0000
+3 shared control           H'=R, P'=R, R'=H&P -> triadic  Φ_MIP max=2.0000  major complex=('H', 'P', 'R') φ=2.0000
+4 shared, human fb cut     H'=H, P'=R, R'=H&P -> dyadic  Φ_MIP max=0.0000  major complex=('P', 'R') φ=2.0000
