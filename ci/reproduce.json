@@ -6545,6 +6545,55 @@
       ],
       "timeout": 180,
       "source": "org_frontier/studies/ergodic_gap_decomposition/FINDINGS.md"
+    },
+    {
+      "name": "q219-h1-pipe",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_457_pipe",
+      "expect": [
+        "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
+        "pipe                   triadic  max Φ_MIP=2.0000  MIP=3 parts: {C,E,A}  core={C,E,A} core Φ=2.0000",
+        "irreducible states: 8/8 [000 100 010 110 001 101 011 111]",
+        "H1 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q219_insurance_claim_adjudication/FINDINGS.md"
+    },
+    {
+      "name": "q219-h2-gated",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_gated",
+      "expect": [
+        "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
+        "gated                  triadic  max Φ_MIP=0.4150  MIP=2 parts: {C,EA}  core={C,E} core Φ=2.0000",
+        "irreducible states: 1/5 [111]",
+        "(iii) every irreducible state has E=1: True | every E=0 state Φ=0: True (E=0 states reached: 000 100)",
+        "H2 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q219_insurance_claim_adjudication/FINDINGS.md"
+    },
+    {
+      "name": "q219-h3-h4-loop",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_loop",
+      "expect": [
+        "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
+        "loop                   triadic  max Φ_MIP=1.0000  MIP=2 parts: {C,EA}  core={E,A} core Φ=2.0000",
+        "loop_nolearn           triadic  max Φ_MIP=2.0000  MIP=2 parts: {E,CA}  core={C,A} core Φ=2.0000",
+        "H3 VERDICT: REFUTED",
+        "H4 VERDICT: REFUTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q219_insurance_claim_adjudication/FINDINGS.md"
+    },
+    {
+      "name": "q219-h5-liveness",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_liveness",
+      "expect": [
+        "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
+        "loop_frozen_claimant   dyadic   max Φ_MIP=0.0000  MIP=(factors)  core={E,A} core Φ=2.0000",
+        "H5 VERDICT: CONFIRMED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q219_insurance_claim_adjudication/FINDINGS.md"
     }
   ]
 }
