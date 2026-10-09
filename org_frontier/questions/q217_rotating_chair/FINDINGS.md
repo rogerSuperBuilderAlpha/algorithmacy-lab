@@ -89,5 +89,5 @@ Coalitions are restricted to parties; the veto set is computed per state and int
 This confirms each review correction in code. One further observation: the party core is the maximal complex
 in exactly a quarter of states for both the fixed chair and full rotation (2/8, 3/12, 4/16), so rotation costs
 no persistence relative to a fixed chair; the clock-only complexes are a property of including any clock.
-Under rotation the per-state veto is the current chair plus the next one in line. For XOR chairs, all three
+Under rotation the per-state veto is the current chair plus the previous one. For XOR chairs, all three
 parties are veto players among party coalitions.
