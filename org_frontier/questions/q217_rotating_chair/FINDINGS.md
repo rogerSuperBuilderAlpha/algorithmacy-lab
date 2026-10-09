@@ -48,3 +48,24 @@ n ≤ 6 nodes. Whole-system verdicts are confounded by the external clock.
   (5 → 8) but leaves the clock outside the core and the whole system dyadic. With an XOR chair the earned
   rotation makes the whole system triadic (max Φ 0.5) for the first time in this question, but its maximal complex
   is a single clock bit, so the whole-system reading and the core disagree (cf. Q74, Q152).
+
+## Corrections after independent review (reproduced numbers; interpretations narrowed)
+
+1. **Peak, not persistent, core.** `major_complex` reports the highest-Φ state. In F_rot3 the party core ABC is
+   the maximal complex in only 3 of 12 states; clock-only complexes win in the other nine. "Keeps the core"
+   means "preserves peak party-core Φ".
+2. **The clock does join complexes.** Clock nodes frequently form the maximal complex at non-peak states, and
+   F_earned3 has a mixed B,C,U complex at one state. H2's refutation holds only for the peak-Φ core.
+3. **Veto freedom is across states only.** In full three-party rotation every state with integrating party
+   coalitions has a two-party veto set (AB, BC, or AC); the empty set is their intersection across states. The
+   veto rotates; it does not vanish moment by moment.
+4. **The XOR empty veto is a clock artifact.** Restricting coalitions to parties, ABC is the only integrating
+   coalition for both free and earned XOR rotation, so all three parties are veto players. F_earned3_XOR also has
+   the whole five-node complex in two states; singleton U wins only at the peak state. H7 for XOR is therefore
+   "core lost at peak; all parties veto among party coalitions".
+5. **H4 measured as predicted.** H4 concerned whole-system max Φ: it ties at 0 vs 0. The core-Φ tie (2 vs 2,
+   3 vs 3) is a separate, also-reproduced result, not the test of H4.
+
+**Defensible conclusion.** In the tested conjunctive Boolean models, full rotation preserves peak party-core
+integration and removes a permanent veto across states. It does not establish continuous core membership,
+moment-by-moment veto freedom, or anything about real organizations.
