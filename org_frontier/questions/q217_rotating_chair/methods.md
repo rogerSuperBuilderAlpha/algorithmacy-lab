@@ -16,7 +16,9 @@ advance and which were added later. Probe 456 was not pre-specified; it was adde
 
 ## Instrument control (run first)
 `python -m org_frontier.classifier.validate` must print `Instrument validated` before any number is trusted.
-It passed before the runs and again when this file was written.
+Validation history: it was not run before probes 453–455 were executed. It was first run on this branch during
+independent review (before probe 456), and passed; it passed again on our rerun at 11:50 AM ET on 2026-10-09 and
+on each later validation. The probe outputs were unchanged by validation, and reruns match the saved outputs.
 
 ## Forms (implemented rules)
 Parties A, B, C (and D) and clock bits T (and U). Unless stated, a non-chair party copies the current chair,
@@ -63,6 +65,6 @@ python -m org_frontier.questions.q217_rotating_chair.probe_453_rotating_chair
 python -m org_frontier.questions.q217_rotating_chair.probe_454_rotating_chair_n4
 python -m org_frontier.questions.q217_rotating_chair.probe_455_rotating_chair_ext
 python -m org_frontier.questions.q217_rotating_chair.probe_456_per_state_veto
-python ci/reproduce.py q217-rotating-chair q217-rotating-chair-n4 q217-per-state-veto
+python ci/reproduce.py q217-rotating-chair q217-rotating-chair-n4 q217-chair-logic-earned q217-per-state-veto
 ```
 Saved outputs: `run_453.txt`, `run_454.txt`, `run_455.txt`, `run_456.txt`.
