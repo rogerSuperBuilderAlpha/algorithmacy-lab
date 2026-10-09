@@ -1,0 +1,43 @@
+PROBE 454 (H1–H5) — the chicken-and-egg feed: one-way chain or loop with no first cause?
+  (stylized models; not a model of any real platform or audience)
+========================================================================================================
+  controls: factoring=dyadic irreducible=triadic canonical triad Φ=2.000 -> PASS
+  Instrument validated.
+
+  form                   SC   whole          Φ  core            Φcore  top-Φ subsets (exploratory)
+  BROADCAST              no   dyadic     0.000  {P}             1.000  top=0.000 -
+  CONTAGION              no   dyadic     0.000  {A,B}           2.000  top=2.000 {A,B}
+  WOM-REACT              yes  triadic    6.000  {P,A,B}         6.000  top=6.000 {P,A,B}
+  FEED-CHRONO            no   dyadic     0.000  {P}             1.000  top=0.000 -
+  FEED-CHRONO-REACT      yes  triadic    1.000  {P,F,B}         2.000  top=2.000 {P,F,A} {P,F,B}
+  FEED-ENG               no   dyadic     0.000  {F,A,B}         2.000  top=2.000 {F,A} {F,B} {F,A,B}
+  FEED-ENG-REACT         yes  dyadic     0.000  {P,F}           2.000  top=2.000 {P,F}
+  FEED-ENG-COUNTS        no   dyadic     0.000  {F,A,B}         6.000  top=6.000 {F,A,B}
+  FEED-ENG-REACT-COUNTS  yes  dyadic     0.000  {A,B}           2.000  top=2.000 {P,F} {A,B}
+  CHAIN                  no   dyadic     0.000  {P}             1.000  top=0.000 -
+  RING                   yes  triadic    2.000  {P,F,A,B}       2.000  top=2.000 {P,F,A,B}
+
+  Encoding sweeps (T triadic, d dyadic; SC = strongly connected causal graph)
+  sweep rule swept                        a∧b     a∨b     ¬(a∧b)  ¬(a∨b)  a⊕b     ¬(a⊕b)  a∧¬b    ¬a∧b    a∨¬b    ¬a∨b     triadic
+  S1    FEED-ENG-REACT feed rule          d       T       d       T       T       T       d       d       d       d        4/10
+  S2    FEED-ENG feed rule                d*      d*      d*      d*      d*      d*      d*      d*      d*      d*       0/10
+  S3    FEED-ENG-REACT-COUNTS fan rule    T       d       T       d       T       T       T       d       d       T        6/10
+  S4    WOM-REACT celebrity rule          T       T       d       T       T       T       T       T       T       T        9/10
+  (* = causal graph not strongly connected for that encoding)
+
+  Connectivity table over 51 forms: triadic&SC=22  dyadic&SC=13  triadic&notSC=0  dyadic&notSC=16
+
+  Exploratory, added after the first run (not pre-registered): why FEED-ENG-REACT factors
+  E1 one fan                            triadic  Φ=2.000  core={P,F,A} Φcore=2.000
+  E2 fans differ: B needs feed AND A    dyadic   Φ=0.000  core={P,F} Φcore=2.000
+  E3 feed needs both fans               triadic  Φ=3.000  core={P,F,A,B} Φcore=3.000
+
+========================================================================================================
+  H1: feedforward forms dyadic with no multi-node complex: True -> CONFIRMED
+  H2: checks [True, True, True, True, True, True] -> CONFIRMED
+  H3: checks [False, False, False, False] -> REFUTED
+  H4: checks [FEED-CHRONO-REACT, WOM-REACT, RING triadic] = [True, True, True] -> CONFIRMED
+  H5: Φ>0 ⇒ SC without exception: True (0 exceptions); SC ⇒ Φ>0: 22/35 = 0.63 (≥0.90: False); S1 triadic 4/10 (≥8: False) -> REFUTED
+  sweeps: S1 4/10, S2 0/10, S3 6/10, S4 9/10 triadic
+========================================================================================================
+  wrote results/chicken_egg.png

@@ -6342,6 +6342,22 @@
       "source": "org_frontier/questions/q215_phi_family_robustness/FINDINGS.md"
     },
     {
+      "name": "q218-chicken-egg-feed",
+      "cmd": "python -m org_frontier.questions.q218_chicken_egg_feed.probe_chicken_egg_feed",
+      "expect": [
+        "Instrument validated.",
+        "WOM-REACT              yes  triadic    6.000",
+        "FEED-CHRONO-REACT      yes  triadic    1.000",
+        "FEED-ENG-REACT         yes  dyadic     0.000  {P,F}           2.000",
+        "RING                   yes  triadic    2.000",
+        "Connectivity table over 51 forms: triadic&SC=22  dyadic&SC=13  triadic&notSC=0  dyadic&notSC=16",
+        "H3: checks [False, False, False, False] -> REFUTED",
+        "sweeps: S1 4/10, S2 0/10, S3 6/10, S4 9/10 triadic"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q218_chicken_egg_feed/FINDINGS.md"
+    },
+    {
       "name": "ergodic-components-vs-phi",
       "cmd": "python org_frontier/studies/ergodic_components_vs_phi/analyze_components.py",
       "expect": [
