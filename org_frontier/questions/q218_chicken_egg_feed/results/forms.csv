@@ -1,0 +1,12 @@
+form,kind,strongly_connected,structure,max_phi,core,core_phi,top_subset_phi,tied_subsets
+BROADCAST,no feed,False,dyadic,0.0,{P},1.0,0.0,
+CONTAGION,no feed,False,dyadic,0.0,"{A,B}",2.0,2.0,"{A,B}"
+WOM-REACT,no feed,True,triadic,6.0,"{P,A,B}",6.0,6.0,"{P,A,B}"
+FEED-CHRONO,chronological feed,False,dyadic,0.0,{P},1.0,0.0,
+FEED-CHRONO-REACT,chronological feed,True,triadic,1.0,"{P,F,B}",2.0,2.0,"{P,F,A} {P,F,B}"
+FEED-ENG,engagement feed,False,dyadic,0.0,"{F,A,B}",2.0,2.0,"{F,A} {F,B} {F,A,B}"
+FEED-ENG-REACT,engagement feed,True,dyadic,0.0,"{P,F}",2.0,2.0,"{P,F}"
+FEED-ENG-COUNTS,engagement feed,False,dyadic,0.0,"{F,A,B}",6.0,6.0,"{F,A,B}"
+FEED-ENG-REACT-COUNTS,engagement feed,True,dyadic,0.0,"{A,B}",2.0,2.0,"{P,F} {A,B}"
+CHAIN,control,False,dyadic,0.0,{P},1.0,0.0,
+RING,control,True,triadic,2.0,"{P,F,A,B}",2.0,2.0,"{P,F,A,B}"

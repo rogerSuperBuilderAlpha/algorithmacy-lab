@@ -1,0 +1,29 @@
+{
+  "verdict": "GRADED_HOLDS",
+  "reading": "GRADED_HOLDS \u2014 the q=0.5 graded channel holds the exact-\u03a6 screen (1.000\u21920.853) where hard alternation cliffs (1.000\u21920.660); degradation is smooth, so the cliff tracks duty correlation, not channel granularity",
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "h5": true,
+  "auc": {
+    "multifamily:phi_q100": 1.0,
+    "multifamily:phi_q075": 1.0,
+    "multifamily:phi_q050": 0.8529411764705883,
+    "multifamily:phi_q025": 0.8235294117647058,
+    "multifamily:phi_alt": 0.6596638655462185,
+    "multifamily:phi_phase": 1.0,
+    "logged:phi_q100": 1.0,
+    "logged:phi_q075": 1.0,
+    "logged:phi_q050": 0.9090909090909092,
+    "logged:phi_q025": 0.8636363636363636,
+    "logged:phi_alt": 0.5909090909090909,
+    "logged:phi_phase": 1.0
+  },
+  "n_multi": 24,
+  "n_logged": 15,
+  "n_tri_m": 17,
+  "n_tri_l": 11,
+  "control_pass": true,
+  "full_flag": false
+}

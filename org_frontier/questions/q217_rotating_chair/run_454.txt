@@ -1,0 +1,2 @@
+F4_fixed structure=dyadic maxPhi=0.0000 core=('A', 'B', 'C', 'D') corePhi=3.0000 n_integrating=7 veto=['A']
+F4_rot   structure=dyadic maxPhi=0.0000 core=('A', 'B', 'C', 'D') corePhi=3.0000 n_integrating=9 veto=[]

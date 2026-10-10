@@ -1,0 +1,4 @@
+F_rot3_OR      structure=dyadic maxPhi=0.0000 irreducible=0/12 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=5 veto=[]
+F_rot3_XOR     structure=dyadic maxPhi=0.0000 irreducible=0/12 core=('T',) corePhi=1.0000 n_integrating=2 veto=[]
+F_earned3      structure=dyadic maxPhi=0.0000 irreducible=0/12 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=8 veto=[]
+F_earned3_XOR  structure=triadic maxPhi=0.5000 irreducible=7/12 core=('U',) corePhi=1.0000 n_integrating=9 veto=[]
