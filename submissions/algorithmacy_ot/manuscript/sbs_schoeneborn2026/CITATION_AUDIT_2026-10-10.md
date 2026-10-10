@@ -116,3 +116,12 @@ Three sentences generalize from a narrower source and say so imperfectly:
 2. The editors of the Obstfeld et al. volume and Korczynski's page range.
 3. Whether to keep sentences that rest on Wilkinson, Olson, Yates and Thompson (1995) before someone
    reads them.
+
+## 7. Added after the audit (10 October, later)
+
+| Source | Use | Depth | Checked |
+| --- | --- | --- | --- |
+| Hirschman (1970) | The seller's remedy is "exit with voice taken away" | Full text in the dissertation library | Voice definition read on p. 30 of the local scan today. No quotation used. |
+| Rochet & Tirole (2006) | An operator sets its terms for each side "so as to bring both on board" | Full text (working-paper version) | Wording read in the local text today; Crossref record matches. Paraphrased, because the working paper's pages are not the journal's. |
+| Braverman (1974) | "managerial control removes skill from the task" | **Reconstruction only.** No one in the lab has read the book; the card rests on Thompson (2010) and Gandini (2019). | Not checked against the book. |
+| Gandini (2019) | "see also", labour process theory applied to platforms | Full text in the dissertation library | Crossref record matches. |
