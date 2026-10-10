@@ -63,6 +63,7 @@ idiographic measurement problem.
 | [`EXPERIMENTS.md`](EXPERIMENTS.md) | One designed experiment per strand; runnable-now priority |
 | [`SOURCES.md`](SOURCES.md) | Verifiable bibliography (working notes + classics + volume papers) |
 | [`../studies/ergodic_components_vs_phi/`](../studies/ergodic_components_vs_phi/) | First cell (B1–B3): attractor / basin structure vs Φ_MIP |
+| [`../studies/ergodic_ensemble_richness/`](../studies/ergodic_ensemble_richness/) | B5: Φ_MIP vs basin entropy and attractor count on the 256-form census |
 | [`../studies/ergodic_backcoupling_twins/`](../studies/ergodic_backcoupling_twins/) | A4: convey vs accumulating twins |
 | [`../studies/ergodic_absorbing_ejection/`](../studies/ergodic_absorbing_ejection/) | D4: absorbing ejected mediator |
 | [`../studies/ergodic_sticky_returns/`](../studies/ergodic_sticky_returns/) | F4: sticky return times / inactive basins |

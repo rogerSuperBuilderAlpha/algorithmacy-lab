@@ -15,7 +15,7 @@ itself, or the celebrity reacting to engagement?
 | `literature/` | Stage 2: report with 18 verified sources and `references.bib` |
 | `hypotheses.md` | Stage 3: H1–H5 with nulls, committed before computation |
 | `methods.md` | Stage 4: node meanings, every rule with rationale, sweeps, decision rules |
-| `probe_chicken_egg_feed.py` | Stage 5: probe #454 |
+| `probe_chicken_egg_feed.py` | Stage 5: probe #452 |
 | `results/` | `run.txt`, `forms.csv`, `sweeps.csv`, `chicken_egg.png` |
 | `FINDINGS.md`, `paper.md` | Stage 6 |
 
@@ -71,7 +71,7 @@ at the SpaceXAI / Grok Bot hackathon. Jailson proposed the question (the "chicke
 celebrity post) and the comparison set; Grok Bot did the modeling, reading, coding, computation and drafting.
 
 1. **Setup.** Reused the validated environment. Branched `study/chicken-egg-feed` from `origin/contrib`;
-   scaffolded with `python -m org_frontier.protocol.new_question --id 218`. Q218 and probe #454 avoid
+   scaffolded with `python -m org_frontier.protocol.new_question --id 218`. Q218 and probe #452 avoid
    collisions with the separate, unmerged Q216 (#452) and Q217 (#453) submissions.
 2. **Review.** Located the lab's one-way-gate, rotation, and feedforward/recurrent seam results and wrote
    `review.md`, stating in advance which predictions are known IIT properties.
@@ -84,7 +84,7 @@ celebrity post) and the comparison set; Grok Bot did the modeling, reading, codi
    heterogeneous fans, a feed needing both fans) were added and labeled as not pre-registered; the
    pre-registered numbers did not change.
 6. **Write-up.** Refutations reported as refutations; known IIT properties labeled as such.
-7. **Registration.** Probe #454 in `org_frontier/probes/PROBES.md`, a check in `ci/reproduce.json`,
+7. **Registration.** Probe #452 in `org_frontier/probes/PROBES.md`, a check in `ci/reproduce.json`,
    regenerated indices, PR-style checks run locally.
 
 Nothing was pushed or posted by the assistant.

@@ -1,4 +1,4 @@
-"""Probe 454 (H1–H5) — the chicken-and-egg feed: does an engagement feed remove the first cause?
+"""Probe 452 (H1–H5) — the chicken-and-egg feed: does an engagement feed remove the first cause?
 
 Question: when a celebrity's post spreads, is the arrangement a one-way chain with a first cause (dyadic,
 Φ = 0) or a loop with no first cause (triadic, Φ > 0)? Which ingredient decides: an engagement-reactive
@@ -147,7 +147,7 @@ def controls():
 
 
 def main():
-    print("PROBE 454 (H1–H5) — the chicken-and-egg feed: one-way chain or loop with no first cause?")
+    print("PROBE 452 (H1–H5) — the chicken-and-egg feed: one-way chain or loop with no first cause?")
     print("  (stylized models; not a model of any real platform or audience)")
     print("=" * 104)
     controls()

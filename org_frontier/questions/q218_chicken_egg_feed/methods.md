@@ -57,4 +57,4 @@ S1 carries the H5 robustness decision; S2–S4 are reported and enter the H5 con
 
 ## Outputs
 `results/forms.csv`, `results/sweeps.csv`, `results/run.txt`, `results/chicken_egg.png`.
-Script: `probe_chicken_egg_feed.py` (probe #454).
+Script: `probe_chicken_egg_feed.py` (probe #452).

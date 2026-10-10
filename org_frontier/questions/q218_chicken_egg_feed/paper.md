@@ -1,6 +1,6 @@
 # The Chicken-and-Egg Feed: First Causes, Loops, and Φ in Stylized Post Spread
 
-code + data: `org_frontier/questions/q218_chicken_egg_feed/` ; probe #454 in `probes/PROBES.md`
+code + data: `org_frontier/questions/q218_chicken_egg_feed/` ; probe #452 in `probes/PROBES.md`
 
 ## Abstract
 A celebrity's post, a feed, and an audience were modeled as eleven small Boolean networks: broadcast, word
