@@ -6600,6 +6600,51 @@
       "source": "org_frontier/studies/ergodic_gap_decomposition/FINDINGS.md"
     },
     {
+      "name": "q217-rotating-chair",
+      "cmd": "python -m org_frontier.questions.q217_rotating_chair.probe_453_rotating_chair",
+      "expect": [
+        "F_fixed  structure=dyadic",
+        "corePhi=2.0000 n_integrating=3 veto=['A']",
+        "n_integrating=5 veto=[]"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q217_rotating_chair/FINDINGS.md"
+    },
+    {
+      "name": "q217-rotating-chair-n4",
+      "cmd": "python -m org_frontier.questions.q217_rotating_chair.probe_454_rotating_chair_n4",
+      "expect": [
+        "F4_fixed structure=dyadic maxPhi=0.0000 core=('A', 'B', 'C', 'D') corePhi=3.0000 n_integrating=7 veto=['A']",
+        "F4_rot   structure=dyadic maxPhi=0.0000 core=('A', 'B', 'C', 'D') corePhi=3.0000 n_integrating=9 veto=[]"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q217_rotating_chair/FINDINGS.md"
+    },
+    {
+      "name": "q217-chair-logic-earned",
+      "cmd": "python -m org_frontier.questions.q217_rotating_chair.probe_455_rotating_chair_ext",
+      "expect": [
+        "F_rot3_OR      structure=dyadic maxPhi=0.0000 irreducible=0/12 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=5 veto=[]",
+        "F_rot3_XOR     structure=dyadic maxPhi=0.0000 irreducible=0/12 core=('T',) corePhi=1.0000 n_integrating=2 veto=[]",
+        "F_earned3      structure=dyadic maxPhi=0.0000 irreducible=0/12 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=8 veto=[]",
+        "F_earned3_XOR  structure=triadic maxPhi=0.5000 irreducible=7/12 core=('U',) corePhi=1.0000 n_integrating=9 veto=[]"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q217_rotating_chair/FINDINGS.md"
+    },
+    {
+      "name": "q217-per-state-veto",
+      "cmd": "python -m org_frontier.questions.q217_rotating_chair.probe_456_per_state_veto",
+      "expect": [
+        "F_rot3: states=12 party-core-is-complex=3/12 states-with-party-coalitions=6 cross-state-party-veto=none",
+        "F4_rot: states=16 party-core-is-complex=4/16 states-with-party-coalitions=8 cross-state-party-veto=none",
+        "F_fixed: states=8 party-core-is-complex=2/8 states-with-party-coalitions=4 cross-state-party-veto=A",
+        "F_rot3_XOR: states=12 party-core-is-complex=0/12 states-with-party-coalitions=6 cross-state-party-veto=ABC"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/questions/q217_rotating_chair/FINDINGS.md"
+    },
+    {
       "name": "ergodic-cycle-order-unit",
       "cmd": "python org_frontier/ergodicity/test_cycle_order.py",
       "expect": [
