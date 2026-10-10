@@ -163,7 +163,7 @@ def _syntheses() -> list:
         ("CRITICAL_REVIEW_Q111_Q117.md", "a critical self-review"),
         ("PAPER_PIPELINE.md", "the plan to turn paper-less work into full papers"),
         ("RESEARCH_AGENDA_50_V2.md", "the v2 agenda — all fifty answered; open threads are in OVERVIEW.md"),
-        ("RESEARCH_AGENDA_V4.md", "the v4 agenda — #1–#10 answered, #11–#12 open"),
+        ("RESEARCH_AGENDA_V4.md", "the v4 agenda — items 1–12 answered"),
         ("ergodicity/README.md", "Ergodicity × Algorithmacy — open track; text vs platform as skew-product cut"),
     ]:
         path = os.path.join(of, name)

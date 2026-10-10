@@ -6844,6 +6844,46 @@
       ],
       "timeout": 60,
       "source": "org_frontier/questions/q216_robot_shared_control/FINDINGS.md"
+    },
+    {
+      "name": "m3-subset-fidelity-v4",
+      "cmd": "python org_frontier/studies/m3_subset_fidelity_v4/analyze_fidelity.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  overlay faithful max \u03a6=2.000000  PASS",
+        "  W_xor stock=1.000000  overlay=1.000000  gap=0.000000",
+        "  W_parity pair 01: stock=0.000000  overlay=1.000000",
+        "  W_parity pair 02: stock=0.000000  overlay=0.000000",
+        "  W_parity pair 12: stock=0.000000  overlay=1.000000",
+        "  W_parity full: stock=0.500000  overlay=0.500000",
+        "  family_s41   S/stock   phi_alt       AUC=0.736  orient=+1",
+        "  family_s41   S/overlay phi_alt       AUC=0.889  orient=+1",
+        "  multifamily  S/stock   phi_alt       AUC=0.857  orient=+1",
+        "  multifamily  S/overlay phi_alt       AUC=0.916  orient=+1",
+        "  multifamily  S/stock   phi_retain    AUC=0.655  orient=+1",
+        "  multifamily  S/overlay phi_retain    AUC=0.681  orient=+1",
+        "  #1 stock_I=TRANSFER_PARTIAL_EXACT_PHI  overlay_I=TRANSFER_PARTIAL_EXACT_PHI  stock_S=FAMILY_N3_ONLY  overlay_S=EXACT_PHI_ROBUST_MI_ONLY",
+        "  #2 stock_I=PHASE_RESTORES_JOINT  overlay_I=PHASE_RESTORES_JOINT  stock_S=NO_ALT_CLIFF  overlay_S=NO_ALT_CLIFF",
+        "  #3 stock_I=RETAIN_FAILS_WITH_ZERO  overlay_I=RETAIN_FAILS_WITH_ZERO  stock_S=RETAIN_FAILS_WITH_ZERO  overlay_S=RETAIN_FAILS_WITH_ZERO",
+        "  H1 (stock replay recovers #1\u2013#3):       SUPPORTED",
+        "  H2 (subset \u03a6 agrees within 1e-6):       REFUTED",
+        "  H3 (XOR dyad inflates by \u22650.1):         REFUTED",
+        "  H4 (overlay-induced keys match):        SUPPORTED",
+        "  H5 (overlay-subset keys match):         REFUTED",
+        "  H2_decision_subset_gaps: 41/456  max|\u0394|=1",
+        "  allkeep_subset_gaps:  85/840  max|\u0394|=1  descriptive",
+        "  decision_induced_gaps: 0/456  max|\u0394|=0  descriptive",
+        "  allkeep_induced_gaps: 0/840  max|\u0394|=0  descriptive",
+        "  H2_gap_unit:          40/41",
+        "  H2_gap_families:      mediation=35 parity=6",
+        "  allkeep_gap_unit:     84/85",
+        "  allkeep_gap_families: mediation=79 parity=6",
+        "  H2 nonunit gap:       multifamily parity_hub_n4 keep=zero |\u0394|=0.25",
+        "  verdict: M3_FLIPS_VERDICT",
+        "  metrics: phi_full_f41=1.000; phi_alt_f41=0.812; phi_zero_f41=0.792; phi_full_m=1.000; phi_alt_m=0.660; phi_zero_m=0.592; phi_retain_m=0.592; phi_omit_m=0.559; phi_full_f43=1.000; phi_zero_f43=0.750; phi_retain_f43=0.750; phi_phase_f42=1.000; xor_stock=1.000000; xor_overlay=1.000000; h2_decision_subset_gaps=41/456; h2_max_abs=1; allkeep_subset_gaps=85/840; allkeep_max_abs=1; decision_induced_gaps=0/456; allkeep_induced_gaps=0/840"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/m3_subset_fidelity_v4/FINDINGS.md"
     }
   ]
 }
