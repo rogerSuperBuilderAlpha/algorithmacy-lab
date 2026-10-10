@@ -1,0 +1,14 @@
+PROBE 460 (Q219-H3, H4) — fraud-flag loop with and without override learning
+========================================================================
+[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS
+  loop                   triadic  max Φ_MIP=1.0000  MIP=2 parts: {C,EA}  core={E,A} core Φ=2.0000
+                         per-state Φ_MIP (C,E,A): 000:0.0000  100:0.0000  110:0.4150  001:0.0000  111:1.0000
+                         irreducible states: 2/5 [110 111]
+  loop_nolearn           triadic  max Φ_MIP=2.0000  MIP=2 parts: {E,CA}  core={C,A} core Φ=2.0000
+                         per-state Φ_MIP (C,E,A): 000:0.0000  100:0.0000  010:0.0000  110:0.4150  011:0.0000  111:2.0000
+                         irreducible states: 2/6 [110 111]
+========================================================================
+  loop triadic with core {C,E,A}: False
+  H3 VERDICT: REFUTED
+  loop_nolearn triadic with core {C,E,A}: False
+  H4 VERDICT: REFUTED

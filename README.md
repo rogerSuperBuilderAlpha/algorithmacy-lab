@@ -463,12 +463,12 @@ Quantitative, systematic archival reviews: a body of scholarship treated as a da
   - **[reproducibility_signaling](org_frontier/reviews/reproducibility_signaling/README.md)** — one of 88 management abstracts signals any reproducibility practice
   - **[systematicity_consciousness_reviews](org_frontier/reviews/systematicity_consciousness_reviews/README.md)** — consciousness-science reviews report about a third of the systematicity practices
 
-### Questions — the logbook (168)
+### Questions — the logbook (169)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 168 questions</summary>
+<summary>Browse all 169 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -640,6 +640,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q216](org_frontier/questions/q216_robot_shared_control) | robot shared control | q216 robot shared control |
 | [Q217](org_frontier/questions/q217_rotating_chair/paper.md) | The rotating chair: preserved integration and a moving veto | A rotating chair moves the veto between successive chairs while peak party-core integration and state coverage stay unchanged |
 | [Q218](org_frontier/questions/q218_chicken_egg_feed/paper.md) | The Chicken-and-Egg Feed: First Causes, Loops, and Φ in Stylized Post Spread | no first cause needs a loop, but a loop is not enough; the engagement feed with look-alike fans factors |
+| [Q219](org_frontier/questions/q219_insurance_claim_adjudication/paper.md) | Who decides an insurance claim? An exact-Φ reading of claimant, engine, and adjuster | who decides an insurance claim? |
 
 </details>
 
