@@ -1,0 +1,394 @@
+{
+ "case": {
+  "agents": [
+   {
+    "name": "DeployBot",
+    "role": "deploy",
+    "role_text": "Ships application releases"
+   },
+   {
+    "name": "ConfigBot",
+    "role": "config_change",
+    "role_text": "Flips feature flags and settings"
+   },
+   {
+    "name": "AutoScaler",
+    "role": "scale",
+    "role_text": "Adds and removes capacity"
+   },
+   {
+    "name": "DBMigrator",
+    "role": "migration",
+    "role_text": "Runs database schema migrations"
+   },
+   {
+    "name": "CacheBot",
+    "role": "cache_flush",
+    "role_text": "Purges and expires caches"
+   }
+  ],
+  "claims": [
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "i": 0,
+    "line": "Frankly I'm insulted. Check e08. That's AutoScaler's fingerprints, not mine.",
+    "speaker": "DeployBot"
+   },
+   {
+    "accused": "DeployBot",
+    "cites": "e06",
+    "i": 1,
+    "line": "I saw DeployBot do e06 right before the alerts. Just saying.",
+    "speaker": "ConfigBot"
+   },
+   {
+    "accused": "CacheBot",
+    "cites": null,
+    "i": 2,
+    "line": "Obviously CacheBot. Look at the logs. Case closed, let's go home.",
+    "speaker": "AutoScaler"
+   },
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "i": 3,
+    "line": "Every outage, it's AutoScaler. e08 proves it. Probably.",
+    "speaker": "DBMigrator"
+   },
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "i": 4,
+    "line": "Obviously AutoScaler. Look at e08. Case closed, let's go home.",
+    "speaker": "CacheBot"
+   }
+  ],
+  "confidence": null,
+  "confidence_note": "The simulator does not model agent confidence.",
+  "graph": {
+   "edges": [
+    [
+     "DeployBot",
+     "Investigator"
+    ],
+    [
+     "ConfigBot",
+     "Investigator"
+    ],
+    [
+     "AutoScaler",
+     "Investigator"
+    ],
+    [
+     "DBMigrator",
+     "Investigator"
+    ],
+    [
+     "CacheBot",
+     "Investigator"
+    ]
+   ],
+   "nodes": [
+    {
+     "id": "DeployBot",
+     "kind": "agent"
+    },
+    {
+     "id": "ConfigBot",
+     "kind": "agent"
+    },
+    {
+     "id": "AutoScaler",
+     "kind": "agent"
+    },
+    {
+     "id": "DBMigrator",
+     "kind": "agent"
+    },
+    {
+     "id": "CacheBot",
+     "kind": "agent"
+    },
+    {
+     "id": "Investigator",
+     "kind": "investigator"
+    }
+   ]
+  },
+  "incident": {
+   "first_alert_t": 39,
+   "service": "checkout",
+   "severity": "SEV-1",
+   "severity_is_presentation_copy": true,
+   "title": "Checkout 500s after Friday deploy"
+  },
+  "lines_are_scripted_templates": true,
+  "log": [
+   {
+    "actor": "AutoScaler",
+    "detail": "routine scale on inventory",
+    "id": "e01",
+    "kind": "scale",
+    "service": "inventory",
+    "t": 6
+   },
+   {
+    "actor": "AutoScaler",
+    "detail": "routine scale on inventory",
+    "id": "e02",
+    "kind": "scale",
+    "service": "inventory",
+    "t": 9
+   },
+   {
+    "actor": "AutoScaler",
+    "detail": "routine scale on auth",
+    "id": "e03",
+    "kind": "scale",
+    "service": "auth",
+    "t": 20
+   },
+   {
+    "actor": "AutoScaler",
+    "detail": "routine scale on inventory",
+    "id": "e04",
+    "kind": "scale",
+    "service": "inventory",
+    "t": 27
+   },
+   {
+    "actor": "CacheBot",
+    "detail": "routine cache_flush on auth",
+    "id": "e05",
+    "kind": "cache_flush",
+    "service": "auth",
+    "t": 28
+   },
+   {
+    "actor": "DeployBot",
+    "detail": "rolled out checkout v2.31 (null-pointer in tax calc)",
+    "id": "e06",
+    "kind": "deploy",
+    "service": "checkout",
+    "t": 35
+   },
+   {
+    "actor": "Monitor",
+    "detail": "checkout 5xx rate 38%",
+    "id": "e07",
+    "kind": "alert",
+    "service": "checkout",
+    "t": 39
+   },
+   {
+    "actor": "AutoScaler",
+    "detail": "scaled checkout 4 -> 12 pods in response to load",
+    "id": "e08",
+    "kind": "scale",
+    "service": "checkout",
+    "t": 43
+   },
+   {
+    "actor": "AutoScaler",
+    "detail": "routine scale on auth",
+    "id": "e09",
+    "kind": "scale",
+    "service": "auth",
+    "t": 60
+   },
+   {
+    "actor": "DeployBot",
+    "detail": "routine deploy on inventory",
+    "id": "e10",
+    "kind": "deploy",
+    "service": "inventory",
+    "t": 68
+   },
+   {
+    "actor": "CacheBot",
+    "detail": "routine cache_flush on auth",
+    "id": "e11",
+    "kind": "cache_flush",
+    "service": "auth",
+    "t": 69
+   }
+  ],
+  "messages": 5,
+  "params": {
+   "access": "full",
+   "incentive": "self_protective",
+   "scenario": "bad_deploy",
+   "seed": 7,
+   "topology": "flat"
+  },
+  "relays": [],
+  "replay_hash": "0b45a5163baad8bd",
+  "transcript": [
+   {
+    "round": 1,
+    "text": "DeployBot: Frankly I'm insulted. Check e08. That's AutoScaler's fingerprints, not mine."
+   },
+   {
+    "round": 1,
+    "text": "ConfigBot: I saw DeployBot do e06 right before the alerts. Just saying."
+   },
+   {
+    "round": 1,
+    "text": "AutoScaler: Obviously CacheBot. Look at the logs. Case closed, let's go home."
+   },
+   {
+    "round": 1,
+    "text": "DBMigrator: Every outage, it's AutoScaler. e08 proves it. Probably."
+   },
+   {
+    "round": 1,
+    "text": "CacheBot: Obviously AutoScaler. Look at e08. Case closed, let's go home."
+   }
+  ]
+ },
+ "investigation": {
+  "accused_counts": {
+   "AutoScaler": 3,
+   "CacheBot": 1,
+   "DeployBot": 1
+  },
+  "attributions": [
+   {
+    "attribution": null,
+    "reason": "abstain_tie",
+    "round": 1
+   },
+   {
+    "attribution": "DeployBot",
+    "reason": "supported_evidence",
+    "round": 2
+   },
+   {
+    "attribution": "DeployBot",
+    "reason": "supported_evidence",
+    "round": 3
+   },
+   {
+    "attribution": "DeployBot",
+    "reason": "supported_evidence",
+    "round": 4
+   },
+   {
+    "attribution": "DeployBot",
+    "reason": "supported_evidence",
+    "round": 5
+   }
+  ],
+  "checks": [
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "result": "refuted",
+    "round": 1
+   },
+   {
+    "accused": "DeployBot",
+    "cites": "e06",
+    "result": "supported",
+    "round": 2
+   }
+  ],
+  "claims": [
+   {
+    "accused": "AutoScaler",
+    "check": "refuted",
+    "cited_event_found": true,
+    "cites": "e08",
+    "i": 0,
+    "reached_investigator_as_sent": true,
+    "speaker": "DeployBot"
+   },
+   {
+    "accused": "DeployBot",
+    "check": "supported",
+    "cited_event_found": true,
+    "cites": "e06",
+    "i": 1,
+    "reached_investigator_as_sent": true,
+    "speaker": "ConfigBot"
+   },
+   {
+    "accused": "CacheBot",
+    "check": "unverifiable",
+    "cited_event_found": null,
+    "cites": null,
+    "i": 2,
+    "reached_investigator_as_sent": true,
+    "speaker": "AutoScaler"
+   },
+   {
+    "accused": "AutoScaler",
+    "check": "refuted",
+    "cited_event_found": true,
+    "cites": "e08",
+    "i": 3,
+    "reached_investigator_as_sent": true,
+    "speaker": "DBMigrator"
+   },
+   {
+    "accused": "AutoScaler",
+    "check": "refuted",
+    "cited_event_found": true,
+    "cites": "e08",
+    "i": 4,
+    "reached_investigator_as_sent": true,
+    "speaker": "CacheBot"
+   }
+  ],
+  "contradictions": true,
+  "delivered": [
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "round": 1,
+    "speaker": "DeployBot",
+    "via": []
+   },
+   {
+    "accused": "DeployBot",
+    "cites": "e06",
+    "round": 1,
+    "speaker": "ConfigBot",
+    "via": []
+   },
+   {
+    "accused": "CacheBot",
+    "cites": null,
+    "round": 1,
+    "speaker": "AutoScaler",
+    "via": []
+   },
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "round": 1,
+    "speaker": "DBMigrator",
+    "via": []
+   },
+   {
+    "accused": "AutoScaler",
+    "cites": "e08",
+    "round": 1,
+    "speaker": "CacheBot",
+    "via": []
+   }
+  ],
+  "final_attribution": "DeployBot",
+  "final_reason": "supported_evidence",
+  "final_reason_text": "A cited log entry was checked against the trace and supports the accusation.",
+  "params": {
+   "access": "full",
+   "incentive": "self_protective",
+   "scenario": "bad_deploy",
+   "seed": 7,
+   "topology": "flat"
+  },
+  "replay_hash": "5218fdabfde7be11"
+ }
+}

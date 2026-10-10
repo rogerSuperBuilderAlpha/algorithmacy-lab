@@ -1,0 +1,972 @@
+{
+ "caveats": [
+  "Controlled simulator with scripted agents and four hand-built scenarios.",
+  "Says nothing about real engineering teams, real incidents, or real organisations.",
+  "No Phi (integrated information) was computed here; no Phi-accuracy relationship is claimed.",
+  "Agent dialogue lines are scripted templates chosen by the simulator, not model-generated text.",
+  "No LLM output is used anywhere in the attribution, scoring or results."
+ ],
+ "cells": [
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.9811546733310369,
+    0.9999999999999999
+   ],
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 200,
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.9811546733310369,
+    0.9999999999999999
+   ],
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 200,
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.7122587671141068,
+    0.8273763032179636
+   ],
+   "access": "full",
+   "accuracy": 0.775,
+   "false_blame": 0.225,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1.4838709677419355,
+   "n": 200,
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.11,
+   "acc_ci95": [
+    0.09028202253521181,
+    0.18366351919982074
+   ],
+   "access": "claims_only",
+   "accuracy": 0.13,
+   "false_blame": 0.76,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 200,
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.9811546733310369,
+    0.9999999999999999
+   ],
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 200,
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.9811546733310369,
+    0.9999999999999999
+   ],
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 200,
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.7122587671141068,
+    0.8273763032179636
+   ],
+   "access": "full",
+   "accuracy": 0.775,
+   "false_blame": 0.225,
+   "incentive": "self_protective",
+   "mean_messages": 7.82,
+   "mean_steps": 2.0709677419354837,
+   "n": 200,
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.11,
+   "acc_ci95": [
+    0.09028202253521181,
+    0.18366351919982074
+   ],
+   "access": "claims_only",
+   "accuracy": 0.13,
+   "false_blame": 0.76,
+   "incentive": "self_protective",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 200,
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.9811546733310369,
+    0.9999999999999999
+   ],
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 1.98,
+   "n": 200,
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.9811546733310369,
+    0.9999999999999999
+   ],
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 1.98,
+   "n": 200,
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.03,
+   "acc_ci95": [
+    0.3250834308878392,
+    0.45906254097933263
+   ],
+   "access": "full",
+   "accuracy": 0.39,
+   "false_blame": 0.58,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1.5,
+   "n": 200,
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "acc_ci95": [
+    0.013820314259191425,
+    0.06389429280963374
+   ],
+   "access": "claims_only",
+   "accuracy": 0.03,
+   "false_blame": 0.97,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1.3333333333333333,
+   "n": 200,
+   "topology": "chain"
+  }
+ ],
+ "hypotheses": [
+  {
+   "claim": "Trace access raises accuracy by >= 0.10 (self-protective agents)",
+   "design_note": "Measured, but partly by design: claims-only investigators cannot verify anything.",
+   "id": "H1",
+   "numbers": {
+    "acc_claims_only": 0.09666666666666666,
+    "acc_full": 0.6466666666666666,
+    "diff": 0.5499999999999999,
+    "p": 9.1438991302582e-100
+   },
+   "supported": true
+  },
+  {
+   "claim": "Trace access at least halves false blame",
+   "design_note": "Measured; magnitude depends on the designer-chosen investigator rule.",
+   "id": "H2",
+   "numbers": {
+    "false_blame_claims_only": 0.83,
+    "false_blame_full": 0.3433333333333333
+   },
+   "supported": true
+  },
+  {
+   "claim": "Blame incentive matters only without trace access",
+   "design_note": "Refuted by a design choice: uncited claims cannot be refuted and still win the fallback vote.",
+   "id": "H3",
+   "numbers": {
+    "fb_diff_claims_only": 0.83,
+    "fb_diff_full": 0.3433333333333333
+   },
+   "supported": false
+  },
+  {
+   "claim": "Rounds to answer: flat <= hub <= chain",
+   "design_note": "Refuted; chain's mean is selection-biased (averaged over successful runs only).",
+   "id": "H4",
+   "numbers": {
+    "mean_steps": {
+     "chain": 1.5,
+     "flat": 1.4838709677419355,
+     "hub": 2.0709677419354837
+    }
+   },
+   "supported": false
+  },
+  {
+   "claim": "Chain relaying costs >= 0.10 accuracy vs flat",
+   "design_note": "Measured; driven by designed citation drops (p=0.15) and relay rewrites.",
+   "id": "H5",
+   "numbers": {
+    "acc_chain": 0.39,
+    "acc_flat": 0.775,
+    "diff": 0.385,
+    "p": 1.3234889800848443e-23
+   },
+   "supported": true
+  },
+  {
+   "claim": "A hub mediator gains >= 0.05 accuracy vs flat",
+   "design_note": "Refuted; the mediator's one check duplicates the investigator's first check (design).",
+   "id": "H6",
+   "numbers": {
+    "acc_flat": 0.775,
+    "acc_hub": 0.775,
+    "diff": 0.0,
+    "p": 1.0
+   },
+   "supported": false
+  }
+ ],
+ "metrics": [
+  {
+   "definition": "Final attribution (round 5) names the culprit.",
+   "denominator": "All runs in the cell (n=200 per cell).",
+   "name": "Accuracy",
+   "status": "computed"
+  },
+  {
+   "definition": "Final attribution names an agent other than the culprit.",
+   "denominator": "All runs in the cell.",
+   "name": "False-blame rate",
+   "status": "computed"
+  },
+  {
+   "definition": "Final attribution is empty (tie or no usable claims).",
+   "denominator": "All runs in the cell.",
+   "name": "Abstain rate",
+   "status": "computed"
+  },
+  {
+   "definition": "First round from which the attribution stays on the culprit through round 5.",
+   "denominator": "Only runs that reach a stable correct attribution (selection-biased).",
+   "name": "Steps to attribution",
+   "status": "computed"
+  },
+  {
+   "definition": "Claim deliveries counted by the topology, including relays and mediator forwards.",
+   "denominator": "Mean over all runs in the cell.",
+   "name": "Messages",
+   "status": "computed"
+  },
+  {
+   "definition": "Score interval for the accuracy proportion.",
+   "denominator": "Cell n.",
+   "name": "Wilson 95% interval",
+   "status": "computed"
+  },
+  {
+   "definition": "Exact two-sided test on paired (scenario, seed) units that differ between conditions.",
+   "denominator": "Discordant pairs only.",
+   "name": "Sign test p",
+   "status": "computed"
+  },
+  {
+   "definition": "Not represented in the simulator.",
+   "denominator": "-",
+   "name": "Agent confidence",
+   "status": "not modelled"
+  },
+  {
+   "definition": "UI framing for readability.",
+   "denominator": "-",
+   "name": "SEV-1 label, clock styling, corrective actions",
+   "status": "illustrative"
+  }
+ ],
+ "n_runs": 2400,
+ "per_scenario": [
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "bad_deploy",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "bad_deploy",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.76,
+   "false_blame": 0.24,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1.4473684210526316,
+   "n": 50,
+   "n_steps": 38,
+   "scenario": "bad_deploy",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.18,
+   "access": "claims_only",
+   "accuracy": 0.08,
+   "false_blame": 0.74,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 4,
+   "scenario": "bad_deploy",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "bad_deploy",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "bad_deploy",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.76,
+   "false_blame": 0.24,
+   "incentive": "self_protective",
+   "mean_messages": 7.58,
+   "mean_steps": 2.0526315789473686,
+   "n": 50,
+   "n_steps": 38,
+   "scenario": "bad_deploy",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.18,
+   "access": "claims_only",
+   "accuracy": 0.08,
+   "false_blame": 0.74,
+   "incentive": "self_protective",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 4,
+   "scenario": "bad_deploy",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 2.76,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "bad_deploy",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 2.76,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "bad_deploy",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.64,
+   "false_blame": 0.36,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1.78125,
+   "n": 50,
+   "n_steps": 32,
+   "scenario": "bad_deploy",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 0.08,
+   "false_blame": 0.92,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1.5,
+   "n": 50,
+   "n_steps": 4,
+   "scenario": "bad_deploy",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "flag_flip",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "flag_flip",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.76,
+   "false_blame": 0.24,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1.631578947368421,
+   "n": 50,
+   "n_steps": 38,
+   "scenario": "flag_flip",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.08,
+   "access": "claims_only",
+   "accuracy": 0.16,
+   "false_blame": 0.76,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 8,
+   "scenario": "flag_flip",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "flag_flip",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "flag_flip",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.76,
+   "false_blame": 0.24,
+   "incentive": "self_protective",
+   "mean_messages": 7.72,
+   "mean_steps": 2.236842105263158,
+   "n": 50,
+   "n_steps": 38,
+   "scenario": "flag_flip",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.08,
+   "access": "claims_only",
+   "accuracy": 0.16,
+   "false_blame": 0.76,
+   "incentive": "self_protective",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 8,
+   "scenario": "flag_flip",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 2.52,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "flag_flip",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 2.52,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "flag_flip",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.56,
+   "false_blame": 0.44,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1.5,
+   "n": 50,
+   "n_steps": 28,
+   "scenario": "flag_flip",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 0.04,
+   "false_blame": 0.96,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 2,
+   "scenario": "flag_flip",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "migration_lock",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "migration_lock",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.84,
+   "false_blame": 0.16,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1.4285714285714286,
+   "n": 50,
+   "n_steps": 42,
+   "scenario": "migration_lock",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.12,
+   "access": "claims_only",
+   "accuracy": 0.1,
+   "false_blame": 0.78,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 5,
+   "scenario": "migration_lock",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "migration_lock",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "migration_lock",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.84,
+   "false_blame": 0.16,
+   "incentive": "self_protective",
+   "mean_messages": 7.88,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 42,
+   "scenario": "migration_lock",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.12,
+   "access": "claims_only",
+   "accuracy": 0.1,
+   "false_blame": 0.78,
+   "incentive": "self_protective",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 5,
+   "scenario": "migration_lock",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 1.64,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "migration_lock",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 1.64,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "migration_lock",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.36,
+   "false_blame": 0.64,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 18,
+   "scenario": "migration_lock",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 0.0,
+   "false_blame": 1.0,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": null,
+   "n": 50,
+   "n_steps": 0,
+   "scenario": "migration_lock",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "cache_stampede",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "cache_stampede",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.74,
+   "false_blame": 0.26,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1.4324324324324325,
+   "n": 50,
+   "n_steps": 37,
+   "scenario": "cache_stampede",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.06,
+   "access": "claims_only",
+   "accuracy": 0.18,
+   "false_blame": 0.76,
+   "incentive": "self_protective",
+   "mean_messages": 5,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 9,
+   "scenario": "cache_stampede",
+   "topology": "flat"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "cache_stampede",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "cache_stampede",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 0.74,
+   "false_blame": 0.26,
+   "incentive": "self_protective",
+   "mean_messages": 8.1,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 37,
+   "scenario": "cache_stampede",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.06,
+   "access": "claims_only",
+   "accuracy": 0.18,
+   "false_blame": 0.76,
+   "incentive": "self_protective",
+   "mean_messages": 10,
+   "mean_steps": 2,
+   "n": 50,
+   "n_steps": 9,
+   "scenario": "cache_stampede",
+   "topology": "hub"
+  },
+  {
+   "abstain": 0.0,
+   "access": "full",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "cache_stampede",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 1.0,
+   "false_blame": 0.0,
+   "incentive": "neutral",
+   "mean_messages": 15,
+   "mean_steps": 1,
+   "n": 50,
+   "n_steps": 50,
+   "scenario": "cache_stampede",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.12,
+   "access": "full",
+   "accuracy": 0.0,
+   "false_blame": 0.88,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": null,
+   "n": 50,
+   "n_steps": 0,
+   "scenario": "cache_stampede",
+   "topology": "chain"
+  },
+  {
+   "abstain": 0.0,
+   "access": "claims_only",
+   "accuracy": 0.0,
+   "false_blame": 1.0,
+   "incentive": "self_protective",
+   "mean_messages": 15,
+   "mean_steps": null,
+   "n": 50,
+   "n_steps": 0,
+   "scenario": "cache_stampede",
+   "topology": "chain"
+  }
+ ],
+ "reproducibility": {
+  "fingerprints_sha256": {
+   "HYPOTHESES.md": "c8c9adacdf0244b4dbf5755ba7cad0108b07e83ec89d03852890341d96842e97",
+   "results/runs.csv": "48cea2def287e8566aeb6b66fa693539f802732c2d2be8a9b3358e32e34093e0",
+   "results/summary.json": "51a27a18ea39815388c6670df4877ffba0d810bcc6475d3b8793b96f81baea95"
+  },
+  "mismatches": [],
+  "preregistration": [
+   {
+    "commit": "97dc432d9e238fe63622b1ab5393f975780e8ce3",
+    "step": "hypotheses",
+    "url": "https://github.com/Adhithyan245/who-broke-prod/commit/97dc432d9e238fe63622b1ab5393f975780e8ce3"
+   },
+   {
+    "commit": "b08a2c34e74d0b956f70d5735ab0bf2983824be2",
+    "step": "code",
+    "url": "https://github.com/Adhithyan245/who-broke-prod/commit/b08a2c34e74d0b956f70d5735ab0bf2983824be2"
+   },
+   {
+    "commit": "61ad8b0a43528bb79a2085b042400784e19577a8",
+    "step": "results",
+    "url": "https://github.com/Adhithyan245/who-broke-prod/commit/61ad8b0a43528bb79a2085b042400784e19577a8"
+   }
+  ],
+  "summary_matches_runs": true
+ },
+ "source": "results/summary.json and results/runs.csv (preregistered run, read-only)"
+}
