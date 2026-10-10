@@ -27,8 +27,32 @@ Measures (definitions frozen by studies that import them):
     distinct party-bit tuples visited strictly before cycle entry,
     scaled by ``2^{n_parties}`` into [0, 1].
 
+(f) **Cycle ordering** — finite-T phase remainder of a party bit on a
+    deterministic cycle, and sequence features of how those bits flip
+    around the cycle. Definitions are frozen by
+    ``studies/ergodic_cycle_ordering/hypotheses.md``. On a cycle of
+    period ``p`` with values ``x_0,…,x_{p-1}`` and mean ``μ``, a start
+    at phase ``φ`` and horizon ``T = qp + r`` (``r = T mod p``) has
+    signed remainder
+
+        (Ā_T(φ) − μ) = (1/T) · (Σ_{k=0}^{r-1} x_{(φ+k) mod p} − r μ)
+
+    when ``r > 0``, and ``0`` when ``r = 0``. The cycle-only predicted
+    gap averages ``|Ā_T − μ|`` over phases, party bits, and basins
+    (basin-mass weights). Ordering-versus-amplitude uses the same
+    window at the same ``T``: ``order_excess = R_obs − R_spread`` and
+    ``order_index = (R_obs − R_spread) / (R_clump − R_spread)`` when
+    the denominator is nonzero, else ``0``. ``R_spread`` is the mean
+    absolute remainder of the most evenly spaced binary placement of
+    the same weight; ``R_clump`` is the placement with all ones
+    consecutive. Co-flip synchrony, folded phase lag, lag-1
+    autocorrelation, the party-bit Hamming rate, and the canonical
+    flip-mask signature are properties of the cycle and do not depend
+    on ``T``, except that ``order_index`` / ``order_excess`` /
+    ``pred_gap_cycle`` do.
+
 Covariates recorded alongside: attractor periods, number of attractors,
-state-space size. Extensions (d)–(e) are backward compatible: prior
+state-space size. Extensions (d)–(f) are backward compatible: prior
 call sites and summaries are unchanged.
 """
 
@@ -552,6 +576,460 @@ def summarize_pre_cycle_diversity(
         n_party_bits=n_parties,
         scale=scale,
     )
+
+
+# ---------------------------------------------------------------------------
+# Cycle ordering (f). Frozen by studies/ergodic_cycle_ordering/hypotheses.md.
+# No Φ. Prior settling summaries are unchanged.
+# ---------------------------------------------------------------------------
+
+# Denominator below this is treated as "ordering cannot move the remainder".
+_ORDER_DENOM_EPS = 1e-15
+
+
+@dataclass(frozen=True)
+class CycleOrderingSummary:
+    """Per-form cycle-ordering covariates at one horizon.
+
+    ``pred_gap_cycle`` averages the on-cycle phase remainder over party
+    bits and basins. ``remainder_allstarts`` averages ``|Ā_T − μ_cycle|``
+    over every ensemble start, so transients are included and the
+    reference is the cycle mean rather than the basin mean of time
+    averages. The other fields are sequence features; see the module
+    docstring.
+    """
+
+    pred_gap_cycle: float
+    remainder_allstarts: float
+    order_index: float
+    order_excess: float
+    cofilip_sync: float
+    phase_lag: float
+    lag1_autocorr: float
+    hamming_party_rate: float
+    dominant_signature: str
+    n_attractors: int
+    n_party_bits: int
+    horizon: int
+    n_starts: int
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+def circular_signed_remainder(
+    values: Sequence[float], phase: int, horizon: int
+) -> float:
+    """Signed finite-T remainder ``Ā_T(phase) − μ`` on a circular sequence.
+
+    ``r = horizon mod p``. The remainder is ``0`` when ``r = 0`` (an
+    integer number of periods). Otherwise it is
+    ``(Σ_{k<r} x_{phase+k} − r μ) / horizon``.
+    """
+    p = len(values)
+    if p == 0 or horizon <= 0:
+        return float("nan")
+    mu = sum(values) / float(p)
+    r = horizon % p
+    if r == 0:
+        return 0.0
+    window = 0.0
+    for k in range(r):
+        window += values[(phase + k) % p]
+    return (window - r * mu) / float(horizon)
+
+
+def circular_mean_abs_remainder(values: Sequence[float], horizon: int) -> float:
+    """Mean over phases of ``|Ā_T(phase) − μ|``."""
+    p = len(values)
+    if p == 0 or horizon <= 0:
+        return float("nan")
+    total = 0.0
+    for phase in range(p):
+        total += abs(circular_signed_remainder(values, phase, horizon))
+    return total / float(p)
+
+
+def most_spread_binary(period: int, weight: int) -> list:
+    """Most evenly spaced circular placement of ``weight`` ones in ``period``.
+
+    The ``k``-th one sits at ``(k * period) // weight`` for
+    ``k = 0..weight-1``. Successive gaps differ by at most one. Rotating
+    the placement does not change ``circular_mean_abs_remainder``.
+    """
+    if period <= 0:
+        return []
+    weight = max(0, min(period, int(weight)))
+    seq = [0] * period
+    if weight == 0:
+        return seq
+    for k in range(weight):
+        seq[(k * period) // weight] = 1
+    return seq
+
+
+def most_clumped_binary(period: int, weight: int) -> list:
+    """All ones consecutive: ``1`` * weight followed by ``0`` * (period − weight)."""
+    if period <= 0:
+        return []
+    weight = max(0, min(period, int(weight)))
+    return [1] * weight + [0] * (period - weight)
+
+
+def _binary_weight(values: Sequence[float]) -> tuple:
+    bits = [1 if float(v) >= 0.5 else 0 for v in values]
+    return bits, sum(bits)
+
+
+def order_components(values: Sequence[float], horizon: int) -> tuple:
+    """Return ``(R_obs, R_spread, R_clump)`` for a party-bit cycle.
+
+    ``R_*`` is ``circular_mean_abs_remainder`` at ``horizon``. The
+    observed sequence is thresholded at 1/2 so the comparison is among
+    binary placements of the same weight. Boolean party bits are already
+    in ``{0,1}``.
+    """
+    bits, weight = _binary_weight(values)
+    period = len(bits)
+    if period == 0 or horizon <= 0:
+        return float("nan"), float("nan"), float("nan")
+    observed = circular_mean_abs_remainder(bits, horizon)
+    spread = circular_mean_abs_remainder(most_spread_binary(period, weight), horizon)
+    clump = circular_mean_abs_remainder(most_clumped_binary(period, weight), horizon)
+    return observed, spread, clump
+
+
+def order_index_of_sequence(values: Sequence[float], horizon: int) -> float:
+    """``(R_obs − R_spread) / (R_clump − R_spread)``, or ``0`` if the
+    denominator is numerically zero (ordering cannot move the remainder
+    at this horizon: ``r ∈ {0}`` or the weight forces a unique necklace).
+    """
+    observed, spread, clump = order_components(values, horizon)
+    if any(isinstance(v, float) and math.isnan(v) for v in (observed, spread, clump)):
+        return float("nan")
+    denom = clump - spread
+    if abs(denom) <= _ORDER_DENOM_EPS:
+        return 0.0
+    return (observed - spread) / denom
+
+
+def order_excess_of_sequence(values: Sequence[float], horizon: int) -> float:
+    """``R_obs − R_spread`` in the same units as a finite-T gap."""
+    observed, spread, _clump = order_components(values, horizon)
+    if isinstance(observed, float) and math.isnan(observed):
+        return float("nan")
+    return observed - spread
+
+
+def lag1_autocorr(values: Sequence[float]) -> Optional[float]:
+    """Circular lag-1 autocorrelation, or ``None`` if the series is constant."""
+    p = len(values)
+    if p == 0:
+        return None
+    mu = sum(values) / float(p)
+    dev = [v - mu for v in values]
+    den = sum(d * d for d in dev)
+    if den <= _ORDER_DENOM_EPS:
+        return None
+    num = sum(dev[t] * dev[(t + 1) % p] for t in range(p))
+    return num / den
+
+
+def cofilip_sync_of_cycle(cycle: Sequence[State], party_indices: Sequence[int]) -> float:
+    """Share of party-bit flip steps on which at least two party bits flip.
+
+    A step with no party-bit change is not a flip step. No flip steps ⇒ 0.
+    A single party bit cannot co-flip, so the value is 0.
+    """
+    p = len(cycle)
+    n_parties = len(party_indices)
+    if p == 0 or n_parties == 0:
+        return 0.0
+    n_flip = 0
+    n_sync = 0
+    for t in range(p):
+        cur = cycle[t]
+        nxt_st = cycle[(t + 1) % p]
+        delta = sum(1 for i in party_indices if cur[i] != nxt_st[i])
+        if delta >= 1:
+            n_flip += 1
+        if delta >= 2:
+            n_sync += 1
+    if n_flip == 0:
+        return 0.0
+    return n_sync / float(n_flip)
+
+
+def phase_lag_of_cycle(cycle: Sequence[State], party_indices: Sequence[int]) -> float:
+    """Mean folded lag of pairwise party-bit circular cross-correlation.
+
+    For each pair of non-constant party bits, ``ℓ*`` is the smallest lag
+    in ``0..p-1`` maximizing ``Σ_t (x_t−μ)(y_{t+ℓ}−μ)``. The folded lag
+    is ``min(ℓ*, p−ℓ*) / (p/2)`` ∈ ``[0, 1]`` (0 in phase, 1 anti-phase).
+    Pairs with a constant bit are skipped. No eligible pair ⇒ 0.
+    """
+    p = len(cycle)
+    if p < 2 or len(party_indices) < 2:
+        return 0.0
+    series = {
+        idx: [float(st[idx]) for st in cycle] for idx in party_indices
+    }
+    lags: list[float] = []
+    for a, ia in enumerate(party_indices):
+        for ib in list(party_indices)[a + 1 :]:
+            da = series[ia]
+            db = series[ib]
+            mua = sum(da) / float(p)
+            mub = sum(db) / float(p)
+            dev_a = [v - mua for v in da]
+            dev_b = [v - mub for v in db]
+            if (
+                sum(v * v for v in dev_a) <= _ORDER_DENOM_EPS
+                or sum(v * v for v in dev_b) <= _ORDER_DENOM_EPS
+            ):
+                continue
+            best_l = 0
+            best_c = None
+            for ell in range(p):
+                corr = sum(dev_a[t] * dev_b[(t + ell) % p] for t in range(p))
+                # Strict ``>`` keeps the smallest lag on a tie.
+                if best_c is None or corr > best_c + 1e-15:
+                    best_c = corr
+                    best_l = ell
+            lags.append(min(best_l, p - best_l) / (p / 2.0))
+    if not lags:
+        return 0.0
+    return sum(lags) / float(len(lags))
+
+
+def hamming_party_rate_of_cycle(
+    cycle: Sequence[State], party_indices: Sequence[int]
+) -> float:
+    """Mean per-step party-bit Hamming distance, divided by ``n_parties``.
+
+    Lies in ``[0, 1]``. Zero when no party bit changes around the cycle.
+    """
+    p = len(cycle)
+    n_parties = len(party_indices)
+    if p == 0 or n_parties == 0:
+        return 0.0
+    total = 0
+    for t in range(p):
+        cur = cycle[t]
+        nxt_st = cycle[(t + 1) % p]
+        total += sum(1 for i in party_indices if cur[i] != nxt_st[i])
+    return (total / float(p)) / float(n_parties)
+
+
+def flip_signature(cycle: Sequence[State], party_indices: Sequence[int]) -> str:
+    """Canonical circular signature of which party bits flip at each step.
+
+    Each step is a mask of ``0``/``1`` over ``party_indices`` (1 = that
+    bit changes). The string is the lexicographically minimal rotation,
+    masks joined by ``-``. Empty cycle ⇒ empty string.
+    """
+    p = len(cycle)
+    if p == 0:
+        return ""
+    masks = []
+    for t in range(p):
+        cur = cycle[t]
+        nxt_st = cycle[(t + 1) % p]
+        masks.append(
+            "".join("1" if cur[i] != nxt_st[i] else "0" for i in party_indices)
+        )
+    rotations = [tuple(masks[i:] + masks[:i]) for i in range(p)]
+    best = min(rotations)
+    return "-".join(best)
+
+
+def finite_T_time_average(
+    nxt: NextMap,
+    start: State,
+    observable: Observable,
+    horizon: int,
+) -> float:
+    """Exact time average of the first ``horizon`` states on the deterministic map.
+
+    Walks until the cycle is identified (a finite total map always cycles),
+    then uses the closed form: transient sum plus ``q`` full periods and a
+    residual window on the cycle. This is not a Monte Carlo estimate. It
+    is the quantity ``trajectory_time_average`` computes at ``noise=0``.
+    """
+    if horizon <= 0:
+        return float("nan")
+    cur = start
+    seen: dict[State, int] = {}
+    path: list[State] = []
+    # A total finite map repeats by step len(nxt). Guard one extra step.
+    limit = len(nxt) + 1
+    while cur not in seen and len(path) <= limit:
+        seen[cur] = len(path)
+        path.append(cur)
+        cur = nxt[cur]
+    if cur not in seen:
+        series = path[:horizon]
+        if not series:
+            return 0.0
+        return sum(observable(st) for st in series) / float(len(series))
+    transient_len = seen[cur]
+    if horizon <= transient_len:
+        return sum(observable(path[i]) for i in range(horizon)) / float(horizon)
+    cycle_states = path[transient_len:]
+    period = len(cycle_states)
+    trans_sum = sum(observable(path[i]) for i in range(transient_len))
+    cycle_vals = [observable(st) for st in cycle_states]
+    steps = horizon - transient_len
+    q, r = divmod(steps, period)
+    cyc_sum = q * sum(cycle_vals) + sum(cycle_vals[k] for k in range(r))
+    return (trans_sum + cyc_sum) / float(horizon)
+
+
+def _empty_ordering(n_parties: int, horizon: int, n_starts: int, n_attractors: int):
+    return CycleOrderingSummary(
+        pred_gap_cycle=float("nan"),
+        remainder_allstarts=float("nan"),
+        order_index=float("nan"),
+        order_excess=float("nan"),
+        cofilip_sync=float("nan"),
+        phase_lag=float("nan"),
+        lag1_autocorr=float("nan"),
+        hamming_party_rate=float("nan"),
+        dominant_signature="",
+        n_attractors=n_attractors,
+        n_party_bits=n_parties,
+        horizon=horizon,
+        n_starts=n_starts,
+    )
+
+
+def summarize_cycle_ordering(
+    form: Union[NextMap, Rules],
+    party_indices: Sequence[int],
+    *,
+    horizon: int,
+    ensemble: Optional[Sequence[State]] = None,
+    n: Optional[int] = None,
+) -> CycleOrderingSummary:
+    """Basin-mass-weighted cycle-ordering summary at one horizon.
+
+    Weights are ensemble counts per basin divided by the number of
+    starts (the full state space when ``ensemble`` is omitted). Within
+    a cycle, phase averages are uniform on the cycle states. Party bits
+    are averaged with equal weight. Constant bits contribute ``0`` to
+    ``order_index``, ``order_excess``, and ``lag1_autocorr``.
+    ``dominant_signature`` is the flip signature of the heaviest basin
+    (lowest cycle index breaks a tie).
+    """
+    nxt, n = _resolve_form(form, n)
+    ens = uniform_ensemble(n) if ensemble is None else list(ensemble)
+    part = attractor_partition(nxt)
+    cycles = part["cycles"]
+    n_parties = len(party_indices)
+    if not ens or n_parties == 0 or not cycles or horizon <= 0:
+        return _empty_ordering(n_parties, horizon, len(ens), len(cycles))
+
+    mass = [0] * len(cycles)
+    for st in ens:
+        mass[part["basin_of"][st]] += 1
+    total = float(len(ens))
+
+    pred_acc = 0.0
+    order_acc = 0.0
+    excess_acc = 0.0
+    sync_acc = 0.0
+    lag_acc = 0.0
+    ac_acc = 0.0
+    ham_acc = 0.0
+    dom = max(range(len(cycles)), key=lambda i: (mass[i], -i))
+
+    for i, cyc in enumerate(cycles):
+        weight = mass[i] / total
+        bit_pred = []
+        bit_order = []
+        bit_excess = []
+        bit_ac = []
+        for idx in party_indices:
+            vals = [float(st[idx]) for st in cyc]
+            bit_pred.append(circular_mean_abs_remainder(vals, horizon))
+            bit_order.append(order_index_of_sequence(vals, horizon))
+            bit_excess.append(order_excess_of_sequence(vals, horizon))
+            ac = lag1_autocorr(vals)
+            bit_ac.append(0.0 if ac is None else ac)
+        pred_acc += weight * (sum(bit_pred) / float(n_parties))
+        order_acc += weight * (sum(bit_order) / float(n_parties))
+        excess_acc += weight * (sum(bit_excess) / float(n_parties))
+        ac_acc += weight * (sum(bit_ac) / float(n_parties))
+        sync_acc += weight * cofilip_sync_of_cycle(cyc, party_indices)
+        lag_acc += weight * phase_lag_of_cycle(cyc, party_indices)
+        ham_acc += weight * hamming_party_rate_of_cycle(cyc, party_indices)
+
+    # All-start remainder versus the cycle mean (transients included).
+    rem_acc = 0.0
+    n_cells = 0
+    for idx in party_indices:
+        obs = bit_observable(idx)
+        cyc_mu = {
+            i: cycle_mean(obs, cyc) for i, cyc in enumerate(cycles)
+        }
+        for st in ens:
+            mu = cyc_mu[part["basin_of"][st]]
+            avg = finite_T_time_average(nxt, st, obs, horizon)
+            rem_acc += abs(avg - mu)
+            n_cells += 1
+    remainder_allstarts = rem_acc / float(n_cells) if n_cells else float("nan")
+
+    return CycleOrderingSummary(
+        pred_gap_cycle=pred_acc,
+        remainder_allstarts=remainder_allstarts,
+        order_index=order_acc,
+        order_excess=excess_acc,
+        cofilip_sync=sync_acc,
+        phase_lag=lag_acc,
+        lag1_autocorr=ac_acc,
+        hamming_party_rate=ham_acc,
+        dominant_signature=flip_signature(cycles[dom], party_indices),
+        n_attractors=len(cycles),
+        n_party_bits=n_parties,
+        horizon=horizon,
+        n_starts=len(ens),
+    )
+
+
+def exact_basin_gap(
+    form: Union[NextMap, Rules],
+    party_indices: Sequence[int],
+    *,
+    horizon: int,
+    ensemble: Optional[Sequence[State]] = None,
+    n: Optional[int] = None,
+) -> float:
+    """Closed-form basin-mode gap: mean ``|Ā_T − basin mean of Ā_T|``.
+
+    The basin reference is the mean of the closed-form time averages over
+    ensemble starts in the same zero-noise basin, pooled equally over
+    party bits. At ``noise=0`` this is the basin-mode ``gap_mean`` from
+    ``run_eoa_parties``.
+    """
+    nxt, n = _resolve_form(form, n)
+    ens = uniform_ensemble(n) if ensemble is None else list(ensemble)
+    if not ens or not party_indices or horizon <= 0:
+        return float("nan")
+    part = attractor_partition(nxt)
+    gaps: list[float] = []
+    for idx in party_indices:
+        obs = bit_observable(idx)
+        avgs = [finite_T_time_average(nxt, st, obs, horizon) for st in ens]
+        buckets: dict[int, list[float]] = {}
+        bids = []
+        for st, avg in zip(ens, avgs):
+            bid = part["basin_of"][st]
+            bids.append(bid)
+            buckets.setdefault(bid, []).append(avg)
+        refs = {bid: sum(vs) / float(len(vs)) for bid, vs in buckets.items()}
+        for avg, bid in zip(avgs, bids):
+            gaps.append(abs(avg - refs[bid]))
+    return sum(gaps) / float(len(gaps))
 
 
 # ---------------------------------------------------------------------------

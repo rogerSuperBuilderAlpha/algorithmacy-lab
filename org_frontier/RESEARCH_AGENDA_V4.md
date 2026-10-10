@@ -95,6 +95,13 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 11. Does the joint-observation cliff (V3 #16 / V4 #1) survive a
     **graded / continuous** party channel (soft duty, not hard mask), or
     is it an artifact of binary observation masks?
+    **Answered — GRADED_HOLDS.** A symmetric party→mediator channel,
+    correct with probability q and default-0 otherwise, at fixed
+    correlated duty, holds the exact-Φ screen at q=0.5 (multifamily
+    1.000→0.853; logged →0.909) and degrades smoothly to q=0.25 (0.824),
+    where hard alternation cliffs (0.660). The cliff tracks duty
+    correlation, not channel granularity. See
+    `studies/graded_channel_exact_phi/`.
 12. Optional tooling: does **M3 subset-Φ fidelity** on
     `third_party/pyphi_iit4_mv` change any V4 #1–#3 verdict, or is
     exact binary Φ already decisive?
@@ -111,4 +118,5 @@ methods here. Numbered 1–12. Each cites the V3 finding it grows from.
 #7 (`studies/logged_alt_duty_exact_phi/` → `CLIFF_RECREATES_ON_LOGGED`);
 #8 (`studies/omit_cycle_band_n89/` → `SCALE_BLOCKS_EXACT_PHI`);
 #9 (`studies/parity_law_n_gt8/` → `LAW_HOLDS_NGT8`);
-#10 (`studies/composed_topo_landmarks_n6/` → `LANDMARKS_HOLD_NGT6`).
+#10 (`studies/composed_topo_landmarks_n6/` → `LANDMARKS_HOLD_NGT6`);
+#11 (`studies/graded_channel_exact_phi/` → `GRADED_HOLDS`).
