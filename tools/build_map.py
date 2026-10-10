@@ -28,7 +28,7 @@ _MAP = os.path.join(_ROOT, "MAP.md")
 def _first_heading(path: str) -> str:
     """The first markdown H1, or "" if none."""
     try:
-        with open(path) as fh:
+        with open(path, encoding="utf-8") as fh:
             for line in fh:
                 if line.startswith("# "):
                     return line[2:].strip()
@@ -78,7 +78,7 @@ def _count_bib(pattern: str) -> int:
     total = 0
     for path in glob.glob(os.path.join(_ROOT, pattern)):
         try:
-            with open(path) as fh:
+            with open(path, encoding="utf-8") as fh:
                 total += len(re.findall(r"^@\w+\s*\{", fh.read(), re.M))
         except OSError:
             pass
@@ -282,7 +282,7 @@ def main() -> int:
     args = ap.parse_args()
 
     new = build()
-    current = open(_MAP).read() if os.path.exists(_MAP) else ""
+    current = open(_MAP, encoding="utf-8").read() if os.path.exists(_MAP) else ""
 
     if args.check:
         if new == current:
@@ -294,7 +294,7 @@ def main() -> int:
     if new == current:
         print("MAP.md already current; unchanged.")
         return 0
-    with open(_MAP, "w") as fh:
+    with open(_MAP, "w", encoding="utf-8") as fh:
         fh.write(new)
     print(f"Wrote {_MAP}")
     return 0

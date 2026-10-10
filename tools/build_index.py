@@ -36,7 +36,7 @@ _END = "<!-- END GENERATED DIRECTORY -->"
 def _first_heading(path: str) -> str:
     """The first markdown H1, or "" if none."""
     try:
-        with open(path) as fh:
+        with open(path, encoding="utf-8") as fh:
             for line in fh:
                 if line.startswith("# "):
                     return line[2:].strip()
@@ -48,7 +48,7 @@ def _first_heading(path: str) -> str:
 def _first_paragraph(path: str) -> str:
     """The first non-empty, non-heading, non-table paragraph line."""
     try:
-        with open(path) as fh:
+        with open(path, encoding="utf-8") as fh:
             for line in fh:
                 s = line.strip()
                 if s and not s.startswith(("#", "|", ">", "<", "-", "*", "```")):
@@ -635,7 +635,7 @@ def build_directory() -> str:
 
 
 def render_readme() -> str:
-    with open(_README) as fh:
+    with open(_README, encoding="utf-8") as fh:
         text = fh.read()
     block = build_directory()
     if _BEGIN in text and _END in text:
@@ -655,7 +655,7 @@ def main() -> int:
     args = ap.parse_args()
 
     new = render_readme()
-    with open(_README) as fh:
+    with open(_README, encoding="utf-8") as fh:
         current = fh.read()
 
     if args.check:
@@ -668,7 +668,7 @@ def main() -> int:
     if new == current:
         print("Directory already current; README.md unchanged.")
         return 0
-    with open(_README, "w") as fh:
+    with open(_README, "w", encoding="utf-8") as fh:
         fh.write(new)
     print("Rewrote the directory in README.md.")
     return 0

@@ -1,0 +1,3 @@
+F_fixed  structure=dyadic maxPhi=0.0000 irreducible_states=0/8 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=3 veto=['A']
+F_rot2   structure=dyadic maxPhi=0.0000 irreducible_states=0/8 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=2 veto=['A', 'B']
+F_rot3   structure=dyadic maxPhi=0.0000 irreducible_states=0/12 core=('A', 'B', 'C') corePhi=2.0000 n_integrating=5 veto=[]
