@@ -1,4 +1,4 @@
-# FINDINGS — q217 robot shared control
+# FINDINGS — q216 robot shared control
 
 Probe output (`results.txt`): teleoperation dyadic Φ_MIP max=0.0000 · full autonomy dyadic Φ_MIP max=0.0000 ·
 shared control triadic Φ_MIP max=2.0000 (major complex H, P, R, φ=2.0000) · shared control with human feedback cut

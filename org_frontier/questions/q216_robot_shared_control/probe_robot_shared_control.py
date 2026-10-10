@@ -1,4 +1,4 @@
-"""q217 probe: human-autopilot shared control of a robot (H, P, R)."""
+"""q216 probe: human-autopilot shared control of a robot (H, P, R)."""
 from org_frontier.probes.lib import verdict, major_complex
 
 LABELS = ("H", "P", "R")

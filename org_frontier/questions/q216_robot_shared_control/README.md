@@ -2,7 +2,7 @@
 
 **Author:** Gilson Dos Santos, with Grok Bot
 **Public page:** https://paige.youxlabs.com/p/robot-shared-control-who-really-steers-25997fda
-**Event:** Grok Bot Boston Hackathon, Oct 9, 2026 · Question folder `org_frontier/questions/q217_robot_shared_control/`
+**Event:** Grok Bot Boston Hackathon, Oct 9, 2026 · Question folder `org_frontier/questions/q216_robot_shared_control/`
 
 **Question:** When a human operator and an autopilot/safety controller both control a robot, are all three truly bound together (triadic), or does it really break into separate pairs (dyadic)? And which link makes the difference?
 
@@ -53,5 +53,5 @@ Reproduce from the repo root:
 python3.12 -m venv venv && source venv/bin/activate   # any Python 3.10+
 pip install -r requirements.txt
 python -m org_frontier.classifier.validate            # must print "Instrument validated"
-python -m org_frontier.questions.q217_robot_shared_control.probe_robot_shared_control
+python -m org_frontier.questions.q216_robot_shared_control.probe_robot_shared_control
 ```

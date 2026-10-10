@@ -1,4 +1,4 @@
-# Methods — q217 robot shared control
+# Methods — q216 robot shared control
 
 - Three nodes, one bit each: Human operator `H` (x[0]), Autopilot / safety controller `P` (x[1]), Robot `R` (x[2]).
   A bit of 1 means "commanding / approving / moving".

@@ -6722,6 +6722,18 @@
       ],
       "timeout": 900,
       "source": "org_frontier/probes/weighted_quorum/README.md"
+    },
+    {
+      "name": "q216-robot-shared-control",
+      "cmd": "python -m org_frontier.questions.q216_robot_shared_control.probe_robot_shared_control",
+      "expect": [
+        "1 teleoperation            H'=R, P'=R, R'=H   -> dyadic  \u03a6_MIP max=0.0000  major complex=('H', 'R') \u03c6=2.0000",
+        "2 full autonomy            H'=R, P'=R, R'=P   -> dyadic  \u03a6_MIP max=0.0000  major complex=('P', 'R') \u03c6=2.0000",
+        "3 shared control           H'=R, P'=R, R'=H&P -> triadic  \u03a6_MIP max=2.0000  major complex=('H', 'P', 'R') \u03c6=2.0000",
+        "4 shared, human fb cut     H'=H, P'=R, R'=H&P -> dyadic  \u03a6_MIP max=0.0000  major complex=('P', 'R') \u03c6=2.0000"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/questions/q216_robot_shared_control/FINDINGS.md"
     }
   ]
 }
