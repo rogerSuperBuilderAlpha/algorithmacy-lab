@@ -6584,6 +6584,41 @@
       "source": "org_frontier/studies/ergodic_gap_decomposition/FINDINGS.md"
     },
     {
+      "name": "who-broke-prod",
+      "cmd": "python org_frontier/studies/who_broke_prod/analyze_who_broke_prod.py",
+      "expect": [
+        "runs: 2400",
+        "H1 acc_full=0.6467 acc_claims_only=0.0967 diff=0.5500 p=9.144e-100: SUPPORTED",
+        "H2 false_blame_full=0.3433 false_blame_claims_only=0.8300: SUPPORTED",
+        "H3 fb_diff_claims_only=0.8300 fb_diff_full=0.3433: REFUTED",
+        "H4 mean_steps flat=1.4839 hub=2.0710 chain=1.5000: REFUTED",
+        "H5 acc_flat=0.7750 acc_chain=0.3900 diff=0.3850 p=1.323e-23: SUPPORTED",
+        "H6 acc_hub=0.7750 acc_flat=0.7750 diff=0.0000 p=1.000e+00: REFUTED"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/who_broke_prod/FINDINGS.md"
+    },
+    {
+      "name": "who-broke-prod-phi",
+      "cmd": "python org_frontier/studies/who_broke_prod_phi/analyze_who_broke_prod_phi.py",
+      "expect": [
+        "control joint_commit: triadic \u03a6=2.000000; relay: dyadic \u03a6=0.000000  PASS",
+        "flat_report  whole=dyadic   \u03a6_MIP=0.000000  core=('A2',) core\u03a6=1.000000  integrated=no",
+        "hub_forward  whole=dyadic   \u03a6_MIP=0.000000  core=('A2',) core\u03a6=1.000000  integrated=no",
+        "chain_relay  whole=dyadic   \u03a6_MIP=0.000000  core=('A1',) core\u03a6=1.000000  integrated=no",
+        "hub_commit   whole=dyadic   \u03a6_MIP=0.000000  core=('A1', 'M', 'A2') core\u03a6=2.000000  integrated=yes",
+        "docking vs who_broke_prod/results/runs.csv: 2400 rows, 0 mismatches  PASS",
+        "H1 non-commit forms lack an integrated core: SUPPORTED",
+        "H2 hub_commit core=('A1', 'M', 'A2') core\u03a6=2.000000 whole=dyadic: SUPPORTED",
+        "H3 (full) hub_commit=0.7750 vs best-without-core hub=0.7750 diff=0.0000 p=1.000e+00: REFUTED",
+        "H4 (claims_only) hub_commit=0.6950 vs best-without-core hub=0.1300 diff=0.5650 p=1.926e-34: SUPPORTED",
+        "H5 hub_commit=0.7750 vs hub=0.7750 diff=0.0000 p=1.000e+00: REFUTED",
+        "H6 neutral minimum accuracy 1.0000: SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/who_broke_prod_phi/FINDINGS.md"
+    },
+    {
       "name": "probe-weighted-quorum-ci",
       "cmd": "python -m org_frontier.probes.weighted_quorum.probe_weighted_quorum --ci",
       "expect": [
