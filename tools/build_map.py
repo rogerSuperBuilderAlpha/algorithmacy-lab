@@ -142,6 +142,7 @@ _SUBMISSIONS = [
     ("submissions/coordinative_sovereignty", None),
     ("submissions/hospitality_phygital", None),
     ("submissions/lima_pdw", None),
+    ("submissions/algorithmacy_ot", None),
     ("submissions/slacker_thirds", None),
     ("submissions/hegel_coordination", None),
     ("submissions/proposals", None),

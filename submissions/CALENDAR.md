@@ -17,6 +17,7 @@ place.** Update it when a date moves, and say what moved it.
 | 2026-10-05→07 | Attend the workshop, in person, Lima | OS/OT PDW Lima | yes — plus roundtable reviewing |
 | 2026-10-28→31 | Talk: deck, script and a live session ([`triadic_reduction/`](triadic_reduction/)) | ALGOCON, algorithmacy.org, Port of Spain | yes — slot day not yet fixed; added 2026-09-24. 20 minutes; 30 requested 2026-09-25, not confirmed |
 | 2026-11-01 | Final draft | *Slacker* collection, Bloomsbury | yes |
+| 2026-12-31 | Submission-ready draft ([`algorithmacy_ot/`](algorithmacy_ot/)) | *Organization Theory*, regular theory article — algorithmacy | no — the author's own target, set 2026-10-07 |
 | 2027-01-31 | Submission | *Organization Theory* Special Themed Section | yes |
 
 **The crunch is 30 August to 10 September: three binding deadlines in twelve days.** The Lima place is

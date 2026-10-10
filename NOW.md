@@ -16,6 +16,7 @@ computed Φ in about fifteen minutes. The talk's slides, script and open questio
 | 2026-10-05–07 | Lima workshop, in person, plus roundtable reviewing | [`submissions/lima_pdw/`](submissions/lima_pdw/) | OS/OT PDW Lima |
 | 2026-10-28–31 | Do Triads Reduce to Dyads? — talk and live session | [`submissions/triadic_reduction/`](submissions/triadic_reduction/) | ALGOCON, Port of Spain |
 | 2026-11-01 | Slacker chapter, final draft | [`submissions/slacker_thirds/chapter.md`](submissions/slacker_thirds/chapter.md) | Bloomsbury |
+| 2026-12-31 (target) | Algorithmacy theory article — the Lima paper rebuilt | [`submissions/algorithmacy_ot/`](submissions/algorithmacy_ot/) | *Organization Theory* |
 | 2027-01-31 | When is a combination a configuration? | [`submissions/proposals/`](submissions/proposals/) | *Organization Theory* |
 
 The August–September deadlines (IGI Global, 30 August; *Hospitality & Society*, 4 September; the Lima

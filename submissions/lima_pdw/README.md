@@ -10,6 +10,15 @@ The accepted title:
 > Algorithmacy: A communication competency construct for triadic mediated coordination, with
 > empirical evidence from a Caribbean AI engineering cohort
 
+**The workshop is done, and the paper has moved (2026-10-07).** The author submitted
+`manuscript/PAPER.md` for the 10 September deadline and attended in Lima on 5–7 October. The next
+version is a theory article for *Organization Theory*, and it lives in its own arm,
+[`../algorithmacy_ot/`](../algorithmacy_ot/). This arm is now two things: the record of the workshop
+paper, frozen at [`archive/2026-09-10_PAPER_submitted.md`](archive/2026-09-10_PAPER_submitted.md),
+and the shared library — `literature/` still takes new cards, and the new arm cites from it. Do not
+revise `manuscript/PAPER.md` for the journal; write in the new arm. Everything below describes the
+workshop paper as it stood at submission.
+
 **Revised on 2026-09-08 to a ~10,950-word body** (16,340 words total, 92 references) in one pass
 applying both the 2 September and 8 September Fable panels: the "unseen counterpart" contradiction
 (2 Sept item 1) is rewritten in place — opacity of consequence, not visibility, with a fourth scope

@@ -20,6 +20,16 @@ for the research plan in `../../manuscript/RESEARCH_PLAN.md`.
 | `eisenhardtgraebner2007.pdf` | Eisenhardt & Graebner, *AMJ* 50(1). Dropped 2026-08-28, from `josephmahoney.web.illinois.edu` (course-page repost of the JSTOR scan) |
 | `langley1999.pdf` | Langley, *AMR* 24(4). Dropped 2026-08-28, from `assets.super.so` |
 | `coghlanbrannick2014_ch1.pdf` | Coghlan & Brannick, *Doing Action Research in Your Own Organization* (4th ed.), Ch. 1 only. Dropped 2026-08-28, the official SAGE sample-chapter PDF from `us.sagepub.com`. Chapters 2–8 not obtained |
+| `orlikowskiscott2023.pdf` | Orlikowski & Scott, *Organization Theory* 4(2). Dropped 2026-10-07, from LSE Research Online (`eprints.lse.ac.uk/119271`); published version with an LSE cover page, so printed page = PDF page − 1 |
+| `hindsvonkrogh2024.pdf` | Hinds & von Krogh, *Organization Theory* 5(4). Dropped 2026-10-07, open-access version of record from `journals.sagepub.com` |
+| `schoeneborn2026.pdf` | Schoeneborn, Dobusch & Seidl, *Organization Theory* 7(3). Dropped 2026-10-07, open-access version of record from `journals.sagepub.com` |
+| `porsfelt2026.pdf` | Porsfelt, Vestergaard & Hjorth, *Organization Theory* 7(3). Dropped 2026-10-07, open-access version of record from `journals.sagepub.com` |
+| `starkvandenbroeck2024.pdf` | Stark & Vanden Broeck, *Organization Theory* 5(2). Dropped 2026-10-07, open-access version of record from `journals.sagepub.com` |
+| `stelmaszak2026.pdf` | Stelmaszak, Joshi & Constantiou, *JMS* 63(2). Dropped 2026-10-07 by the author; version of record |
+| `leonardileavell2026.pdf` | Leonardi & Leavell, *Organization Science* 37(2). Dropped 2026-10-07 by the author; version of record with an INFORMS cover page, so printed page = PDF page + 514 |
+
+Wanted for the *Organization Theory* version (`../../../algorithmacy_ot/`), not obtained:
+`anthony2023.pdf` (*Organization Science* 34(5), paywalled).
 
 Still missing: Spitzberg & Cupach (1984) book; the ACM PDF of Long & Magerko (2020); publisher
 PDFs of Spitzberg (2006) and Hancock et al. (2020), both read from Oxford's HTML but without page

@@ -1,6 +1,6 @@
 # Lima PDW — literature index
 
-388 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
+415 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
 
 This is the working library for the Lima support arm. Paper 2's 44 cited works are mapped in [`COVERAGE.md`](COVERAGE.md). Citation hazards are in [`TRAPS.md`](TRAPS.md). How to add a card is in [`README.md`](README.md).
 
@@ -16,11 +16,14 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 
 | Depth | Count |
 |---|---|
-| Full text | 110 |
-| Extended preview | 37 |
-| Abstract only | 215 |
-| Metadata only | 25 |
+| Full text | 127 |
+| Extended preview | 38 |
+| Abstract only | 217 |
+| Metadata only | 26 |
 | Abstract plus author secondary | 1 |
+| Preview | 1 |
+| Secondary summary | 4 |
+| Secondary via citing source | 1 |
 
 ## Clusters
 
@@ -28,11 +31,14 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 |---|---|
 | accountability-contestation | 56 |
 | ai-productivity-variance | 24 |
-| algorithmic-competence-rivals | 59 |
-| communication-competence | 74 |
-| coordination-forms | 21 |
-| opacity-folk-theories | 48 |
-| qualitative-method | 65 |
+| algorithmacy-lineage | 1 |
+| algorithmic-competence-rivals | 67 |
+| communication-competence | 75 |
+| coordination-forms | 31 |
+| coordinative-co-optation-empirical-motivation | 1 |
+| coordinative-co-optation-source | 3 |
+| opacity-folk-theories | 49 |
+| qualitative-method | 67 |
 | situated-learning | 39 |
 | (unclustered) | 2 |
 
@@ -217,18 +223,35 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Zhou, L., Lei, X., Cooke, F. L., Huang, X., & Zhang, J. (2025). The dual effects of algorithmic management on platform workers: An attribution perspective. *Human Resource Management*, 64(6), 1687–1707.](cards/zhou2025.md)**  
   This is the wedge §1 needs and the only peer-reviewed study in this cluster that supplies it.
 
-## algorithmic-competence-rivals (59)
+## algorithmacy-lineage (1)
+
+### Metadata only
+
+- **[Wilkinson, A. (1965). The concept of oracy. *Educational Review*, 17(4), 11–15.](cards/wilkinson1965.md)**  
+  The paper builds "algorithmacy" on the lineage of literacy, numeracy and oracy; crediting Wilkinson in one clause at first use of "oracy" matches how literacy's and numeracy's own disciplinary histories are left implicit rather than re-argued.
+
+## algorithmic-competence-rivals (67)
 
 ### Full text
 
 - **[Audrin, B., Audrin, C., & Salamin, X. (2024). Digital skills at work – Conceptual development and empirical validation of a measurement scale. *Technological Forecasting and Social Change*, 202, 123279.](cards/audrin2024.md)**  
   The workplace competence measure the manuscript's §11 will be compared against, and a neighbour rather than a rival — but a neighbour whose introduction announces the paper's own topic and then does not measure it.
+- **[Gagrčin, E., Naab, T. K., & Grub, M. F. (2026). Algorithmic media use and algorithm literacy: An integrative literature review. *New Media & Society*, 28(1), 423–447.](cards/gagrcin2026.md)**  
+  Cited once in `PAPER.md` (line 157): "In a review of 169 peer-reviewed studies, Gagrčin et al.
 - **[Grover, S., & Pea, R. (2013). Computational thinking in K–12: A review of the state of the field. *Educational Researcher*, 42(1), 38–43.](cards/grover2013.md)**  
   A neighbour, and the card that pins the computational-thinking family in place for §9.
+- **[Hargittai, E. (2002). Second-level digital divide: Differences in people's online skills. *First Monday*, 7(4).](cards/hargittai2002.md)**  
+  PAPER.md cites this once (the proposition near "second-level digital divides") only for its *structural logic*, not for any empirical finding: formally equal access does not guarantee equal effective use, and the resulting unmeasured skill gap generates a…
+- **[Hong, X., Cheng, X., & Liu, D. (2026). Working the algorithm: Contextual skills of on-demand gig workers. *Big Data & Society*, 13(2), 1–13.](cards/hong2026.md)**  
+  **Rival, and a fresh one — published the same year as Lima, on the same population as Zhou et al., with a nine-part inventory.** It is not a scale (twenty interviews, no psychometrics), but it is a named, structured competence construct for exactly the…
 - **[Markus, A., Carolus, A., & Wienrich, C. (2025). Objective measurement of AI literacy: Development and validation of the AI competency objective scale (AICOS). *Computers and Education: Artificial Intelligence*, 9, 100485.](cards/markus2025.md)**  
   Neighbour, and the most sophisticated instrument in the cluster — which is why its failure to contain a counterpart is the most decisive.
+- **[Oeldorf-Hirsch, A., & Neubaum, G. (2025). What do we know about algorithmic literacy? The status quo and a research agenda for a growing field. *New Media & Society*, 27(2), 681–701.](cards/oeldorfhirsch2025.md)**  
+  The most efficient resource in this sub-cluster, and it should do real work in §9 rather than sit in a footnote.
 - **[Pinski, M., & Benlian, A. (2023). AI literacy — Towards measuring human competency in artificial intelligence. In *Proceedings of the 56th Hawaii International Conference on System Sciences* (pp. 165–174).](cards/pinski2023.md)**  
   **This is the most dangerous card in the sub-cluster, and it still fails — but the manuscript must handle it explicitly rather than sweeping it into a general claim, because a reviewer who reads it superficially will think it has a human position in it.**
+- **[Stelmaszak, M., Joshi, M., & Constantiou, I. (2026). Artificial intelligence as an organizing capability arising from human-algorithm relations. *Journal of Management Studies*, 63(2), 335–365.](cards/stelmaszak2026.md)**  
+  **The *Organization Theory* draft cannot use this article as its example of a dyadic account.** The draft's section 2 says the article "inadvertently erases the interdependent human peer on the other side of the screen" and names the result a "dyadic…
 - **[Sutherland, W., Jarrahi, M. H., Dunn, M., & Nelson, S. B. (2020). Work precarity and gig literacies in online freelancing. *Work, Employment and Society*, 34(3), 457–475.](cards/sutherland2020.md)**  
   The manuscript already claims this as its nearest precedent, and the claim is right, but the card has to record something the manuscript should not discover from a reviewer: **this is the only source in the sub-cluster whose empirical design contains the…
 - **[van Deursen, A. J. A. M., Helsper, E. J., & Eynon, R. (2016). Development and validation of the Internet Skills Scale (ISS). *Information, Communication & Society*, 19(6), 804–823.](cards/vandeursen2016.md)**  
@@ -239,6 +262,10 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   A neighbour, and the one whose distance from algorithmacy is easiest to state and most useful to state, because computational thinking is the ancestor of most of the literacy constructs §9 sorts.
 - **[Wolff, A., Gooch, D., Cavero Montaner, J. J., Rashid, U., & Kortuem, G. (2016). Creating an understanding of data literacy for a data-driven society. *The Journal of Community Informatics*, 12(3), 9–26.](cards/wolff2016.md)**  
   A neighbour that shares algorithmacy's diagnosis of opacity and answers it in the opposite direction, which makes it worth naming rather than ignoring.
+- **[Yang, F., & Liechty, J. M. (2026). Building AI literacy and competency in social work. In R. An & M. A. Lindsey (Eds.), *Artificial intelligence in social work: Bridging technology and humanity* (pp. 545–570). Springer.](cards/yangliechty2026.md)**  
+  PAPER.md's boundary-case bullet (line 332) reads: "Public Child Welfare: Models of AI competence in social work address client trust and algorithmic risk scoring (Yang & Liechty, 2026), and frame the algorithmic system as an advisory decision-support tool…
+- **[Zhou, L., Lei, X., Liu, M., Huang, X., & Hou, R. (2025). Algorithmic competency of on-demand labor platform workers: Scale development, antecedents, and consequences. *Asia Pacific Journal of Human Resources*, 63(2).](cards/zhou2025apjhr.md)**  
+  **Rival, and the most dangerous one in the cluster.** It occupies the name, the level of analysis, the population and the psychometric ground at once: an individual-level competency construct about algorithmic management, validated on platform workers,…
 
 ### Extended preview
 
@@ -246,6 +273,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   I went looking for the construct closest to the manuscript's counterpart position — self-presentation directed at another human through a system — and this is it.
 - **[Carolus, A., Koch, M. J., Straka, S., Latoschik, M. E., & Wienrich, C. (2023). MAILS — Meta AI literacy scale: Development and testing of an AI literacy questionnaire based on well-founded competency models and psychological change- and meta-competencies. *Computers in Human Behavior: Artificial Humans*, 1(2), 100014.](cards/carolus2023.md)**  
   Neighbour with a sharp discrimination, and the strongest exhibit in the cluster for the *competency-versus-skill* point.
+- **[Chigbu, B. I. (2026). Algorithmic management in the global gig economy: An interdisciplinary systematic literature review and critical discourse analysis. *Frontiers in Sociology*, 11, 1743445.](cards/chigbu2026.md)**  
+  Cited once in `PAPER.md` (line 554): "Platform labor across the Anglophone Caribbean, by contrast, remains concentrated in traditional logistics, ride-hailing, and hospitality (ILO, 2025), with empirical scholarship on algorithmic coordination in the…
 - **[Cotter, K., & Reisdorf, B. C. (2020). Algorithmic knowledge gaps: A new dimension of (digital) inequality. *International Journal of Communication*, 14, 745–765.](cards/cotter2020.md)**  
   The single most useful empirical card in this sub-cluster for §10, for a reason the authors treat as a limitation.
 - **[DeVito, M. A. (2021). Adaptive folk theorization as a path to algorithmic literacy on changing platforms. *Proceedings of the ACM on Human-Computer Interaction*, 5(CSCW2), Article 339, 1–38.](cards/devito2021.md)**  
@@ -254,6 +283,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Cite this, not the scale, when the manuscript needs to show *how* the rival construct was built, because the chapter states the method openly: existing literacy concepts supply the dimensions, and interviews supply the sub-dimensions.
 - **[Ha, S., & Kim, S. (2024). Developing a conceptual framework for digital platform literacy. *Telecommunications Policy*, 48(3), 102682.](cards/ha2024.md)**  
   The nearest thing in the literacy family to a construct built *for* the platform form, and therefore the rival most worth taking seriously — and it loses on the paper's first discrimination, which is the outcome §9 predicts.
+- **[Hu, J. M., & Zhan, E. (S.) (2024). Algorithm awareness in online dating: Associations with mate-searching difficulty and future expectancies among U.S. online daters. *Behaviour & Information Technology*, 43(16), 4045–4060.](cards/huzhan2024.md)**  
+  Cited once in `PAPER.md` (line 333): "computational accounts analyze algorithmic awareness while omitting relational counterpart dynamics (Hu & Zhan, 2024)." This is accurate.
 - **[Iyamu, I., Wheelans, A., Haag, D., Roe, C., & Chang, H.-J. (2026). AI and algorithmic literacy among health workers: A scoping review through a digital health literacy lens. *Frontiers in Public Health*, 14.](cards/iyamu2026.md)**  
   **The most valuable single source in this cluster for the novelty claim, because it cuts both ways and the net is favourable.**
 - **[Karaca, O., Çalışkan, S. A., & Demir, K. (2021). Medical artificial intelligence readiness scale for medical students (MAIRS-MS) — Development, validity and reliability study. *BMC Medical Education*, 21, article 112.](cards/karaca2021.md)**  
@@ -262,19 +293,17 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Two jobs for this card.
 - **[OECD & European Commission. (2025). *Empowering learners for the age of AI: An AI literacy framework for primary and secondary education* (Review draft, May 2025). Paris: OECD.](cards/oecd2025.md)**  
   Neighbour, and the most important one for the manuscript's *stakes* rather than its logic.
-- **[Oeldorf-Hirsch, A., & Neubaum, G. (2025). What do we know about algorithmic literacy? The status quo and a research agenda for a growing field. *New Media & Society*, 27(2), 681–701.](cards/oeldorfhirsch2025.md)**  
-  The most efficient resource in this sub-cluster, and it should do real work in §9 rather than sit in a footnote.
 - **[Ridley, M., & Pawlick-Potts, D. (2021). Algorithmic literacy and the role for libraries. *Information Technology and Libraries*, 40(2).](cards/ridley2021.md)**  
   A neighbour, and the clearest specimen of the type §8 needs to exclude: a literacy defined *for the purpose of teaching it*.
 - **[UNESCO. (2024). *AI competency framework for teachers*. Paris: United Nations Educational, Scientific and Cultural Organization.](cards/unesco2024.md)**  
   Neighbour, with the most interesting near-miss in the grey literature — and one the manuscript should confront rather than skip, because "accountability" is one of algorithmacy's three withholdings and UNESCO uses the word as a competency title.
 - **[Zarouali, B., Boerman, S. C., & de Vreese, C. H. (2021). Is this recommended by an algorithm? The development and validation of the algorithmic media content awareness scale (AMCA-scale). *Telematics and Informatics*, 62, Article 101607.](cards/zarouali2021.md)**  
   The best available demonstration of §9's structural claim, and the manuscript should use it that way — quote the items.
-- **[Zhou, L., Lei, X., Liu, M., Huang, X., & Hou, R. (2025). Algorithmic competency of on-demand labor platform workers: Scale development, antecedents, and consequences. *Asia Pacific Journal of Human Resources*, 63(2).](cards/zhou2025apjhr.md)**  
-  **Rival, and the most dangerous one in the cluster.** It occupies the name, the level of analysis, the population and the psychometric ground at once: an individual-level competency construct about algorithmic management, validated on platform workers,…
 
 ### Abstract only
 
+- **[Aneesh, A. (2009). Global Labor: Algocratic Modes of Organization. *Sociological Theory*, 27(4), 347–370.](cards/aneesh2009.md)**  
+  Algocracy and the paper's own coined term, algorithmacy, sound alike and must not be conflated; they sit at different levels of analysis.
 - **[Annapureddy, R., Fornaroli, A., & Gatica-Perez, D. (2025). Generative AI literacy: Twelve defining competencies. *Digital Government: Research and Practice*, 6(1), 1–21.](cards/annapureddy2025.md)**  
   **Neighbour, and a clean illustration of §9's "object of knowledge" category.** The twelve competencies make the algorithm something to understand, use and use responsibly.
 - **[Ayasrah, M. N., Al-Rousan, A. H., Almulla, M. O., & Almulla, A. A. (2026). Assessing teachers' AI-algorithmic competence: Development and validation of the Metacognitive-Algorithmic Alignment Scale (MAAS). *Education and Information Technologies*, 31(12), 4525–4561.](cards/ayasrah2026.md)**  
@@ -283,6 +312,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Nearest rival by *site*, and the most important card in this sub-cluster for that reason.
 - **[Cotter, K. (2024). Practical knowledge of algorithms: The case of BreadTube. *New Media & Society*, 26(4), 2131–2150.](cards/cotter2024.md)**  
   The most sophisticated rival on the epistemology, and it takes the manuscript's easiest argument away.
+- **[Danaher, J. (2016). The Threat of Algocracy: Reality, Resistance and Accommodation. *Philosophy & Technology*, 29(3), 245–268.](cards/danaher2016.md)**  
+  Danaher's algocracy and the paper's algorithmacy name different things at different scales, and the resemblance in spelling is the whole risk.
 - **[DeVito, M. A. (2022). How transfeminine TikTok creators navigate the algorithmic trap of visibility via folk theorization. *Proceedings of the ACM on Human-Computer Interaction*, 6(CSCW2), 1–31.](cards/devito2022.md)**  
   This is the paper where an algorithm-competence construct comes closest to *binding determinations*, and the manuscript should use it for exactly that and no more.
 - **[Dogruel, L., Facciorusso, D., & Stark, B. (2022). 'I'm still the master of the machine.' Internet users' awareness of algorithmic decision-making and their perception of its effect on their autonomy. *Information, Communication & Society*, 25(9), 1311–1332.](cards/dogruel2022ics.md)**  
@@ -291,16 +322,12 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   This is the named rival for §9's "object of knowledge" cell, and the manuscript's structural claim survives it cleanly.
 - **[Fiers, F. (2024). Resilience in the gig economy: Digital skills in online freelancing. *Journal of Computer-Mediated Communication*, 29(5), zmae014.](cards/fiers2024.md)**  
   **Neighbour, and quietly useful to §8.** Fiers keeps the word *skill* and then describes something the manuscript's own definition of skill cannot hold.
-- **[Gagrčin, E., Naab, T. K., & Grub, M. F. (2024). Algorithmic media use and algorithm literacy: An integrative literature review. *New Media & Society*, 28(1), 423–447.](cards/gagrcin2024.md)**  
-  **The single most useful resource in this cluster, and the closest thing the manuscript has to independent corroboration of its own premise.** The abstract's claim — "nobody has named it" — is strongest when it does not have to be defended by the person…
 - **[Gran, A.-B., Booth, P., & Bucher, T. (2021). To be or not to be algorithm aware: A question of a new digital divide? *Information, Communication & Society*, 24(12), 1779–1796.](cards/gran2021.md)**  
   A resource for §10, not a rival.
 - **[Hargittai, E., Gruber, J., Djukaric, T., Fuchs, J., & Brombach, L. (2020). Black box measures? How to study people's algorithm skills. *Information, Communication & Society*, 23(5), 764–775.](cards/hargittai2020.md)**  
   A resource, and a load-bearing one for §11.
 - **[Hernandez, S., Song, Y., Kou, Y., & Gui, X. (2026). Making the gig economy infrastructure work: Gig drivers' adaptive, algorithmic, and social knowledge practices. *Computer Supported Cooperative Work (CSCW)*, 35(1).](cards/hernandez2026.md)**  
   **Neighbour, and the sharpest available evidence for stratified fluency.** The peer-regulation finding is directly on the manuscript's §10 property: if drivers deliberately choose what algorithmic knowledge to circulate, then equivalently placed workers…
-- **[Hong, X., Cheng, X., & Liu, D. (2026). Working the algorithm: Contextual skills of on-demand gig workers. *Big Data & Society*, 13(2).](cards/hong2026.md)**  
-  **Rival, and a fresh one — published the same year as Lima, on the same population as Zhou et al., with a nine-part inventory.** It is not a scale (twenty interviews, no psychometrics), but it is a named, structured competence construct for exactly the…
 - **[Kapania, S., Siy, O., Clapper, G., SP, A. M., & Sambasivan, N. (2022). "Because AI is 100% right and safe": User attitudes and sources of AI authority in India. In *CHI Conference on Human Factors in Computing Systems* (CHI '22), 1–18.](cards/kapania2022.md)**  
   Not a competence construct and not a rival, but a hard test of a premise the manuscript makes tacitly.
 - **[Koch, M. J., Carolus, A., Wienrich, C., & Latoschik, M. E. (2024). Meta AI literacy scale: Further validation and development of a short version. *Heliyon*, 10(21), e39686.](cards/koch2024.md)**  
@@ -311,6 +338,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   Neighbour, and the card that best exposes *whose* judgement fixes the boundary of algorithmic competence in this literature.
 - **[Laupichler, M. C., Aster, A., Haverkamp, N., & Raupach, T. (2023). Development of the "Scale for the assessment of non-experts' AI literacy" — An exploratory factor analysis. *Computers in Human Behavior Reports*, 12, 100338.](cards/laupichler2023.md)**  
   Neighbour, and the cleanest three-word demonstration of what the field takes algorithmic competence to be: understanding, appraisal, application.
+- **[Litt, E. (2012). Knock, Knock. Who's There? The Imagined Audience. *Journal of Broadcasting & Electronic Media*, 56(3), 330–345.](cards/litt2012.md)**  
+  Imagined-audience research is the closest existing construct to the paper's individual-level focus, and it is worth carding for how precisely it stops short.
 - **[Mahy, T., & Li, H. (2026). GenAI meets psychometrics: Development and validation of the Human-AI Collaboration Dynamics Scale and the Generative AI-Research Augmentation Scale. *International Journal of Human–Computer Interaction*, advance online publication, 1–47.](cards/mahy2026.md)**  
   Neighbour, and the card that closes off the most obvious objection to the paper's novelty claim: *surely somebody has measured human-AI collaboration competence.* Somebody has.
 - **[Mikalef, P., & Gupta, M. (2021). Artificial intelligence capability: Conceptualization, measurement calibration, and empirical study on its impact on organizational creativity and firm performance. *Information & Management*, 58(3), 103434.](cards/mikalef2021.md)**  
@@ -327,8 +356,6 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   **Rival on the name, neighbour on the construct, and the most recent thing in the field.** Published in 2026, this is the newest claim to have named the competence platform work demands, and a reviewer who tracks the literacy literature will have seen it.
 - **[Shin, D., Rasul, A., & Fotiadis, A. (2022). Why am I seeing this? Deconstructing algorithm literacy through the lens of users. *Internet Research*, 32(4), 1214–1234.](cards/shin2022.md)**  
   A neighbour, and the one that shows what happens when algorithm literacy gets absorbed into technology-acceptance research.
-- **[Stelmaszak, M., Joshi, M., & Constantiou, I. (2026). Artificial intelligence as an organizing capability arising from human-algorithm relations. *Journal of Management Studies*, 63(2), 335–365.](cards/stelmaszak2026.md)**  
-  **Named in §9 as a construct to be beaten, and the manuscript's disposal of it is correct but told too quickly.** The paper's §8 possession argument does the work: a capability is held by the party that owns the routine, and algorithmacy's subject owns…
 - **[Tour, E., & Zadorozhnyy, A. (2025). Conceptualizing and operationalizing prompt literacy for English language learners. *Journal of Adolescent & Adult Literacy*, 69(3), e70020.](cards/tour2025.md)**  
   Neighbour, and the clearest case in the cluster of a construct that is unambiguously **skill** by the paper's criterion.
 - **[Tully, S. M., Longoni, C., & Appel, G. (2025). Lower artificial intelligence literacy predicts greater AI receptivity. *Journal of Marketing*, 89(5), 1–20.](cards/tully2025.md)**  
@@ -349,7 +376,12 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Yu, H., Sang, Y., & Han, E. (2026). Digital competence of AI chatbot users: Scale development and its relationships with smart customer experience, trust, and reuse intention. *Telematics and Informatics*, 106, 102392.](cards/yu2026.md)**  
   **Neighbour, and worth a single line in a footnote at most.** Its value to the manuscript is as one more data point in the proliferation Gagrčin, Naab and Grub document: another named competence construct for interacting with an algorithmic system, in…
 
-## communication-competence (74)
+### Preview
+
+- **[Nutbeam, D. (2000). Health literacy as a public health goal: A challenge for contemporary health education and communication strategies into the 21st century. *Health Promotion International*, 15(3), 259–267.](cards/nutbeam2000.md)**  
+  PAPER.md cites Nutbeam only to source the tripartite hierarchy that Iyamu et al.
+
+## communication-competence (75)
 
 ### Full text
 
@@ -393,7 +425,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   **This is the closest thing in the communication literature to "a competency a coordination form demands," and the paper should know it exists.** Habermas's move has the same shape as §8's: a competence defined not by what an individual can do in general…
 - **[Hancock, J. T., Naaman, M., & Levy, K. (2020). AI-mediated communication: Definition, research agenda, and ethical considerations. *Journal of Computer-Mediated Communication*, 25(1), 89–100.](cards/hancock2020.md)**  
   §9 files this as "an agent serving the worker" and counts it among the constructs that "inherit a dyad." **That is the most vulnerable sentence in the section.** AI-MC is, on its own definition, a three-party arrangement: a sender, a receiver, and an…
-- **[Healy, J., & Pekarek, A. (2024). The triangular relationship in platform gig work: Consumers, platform beneficence and worker vulnerability. *New Technology, Work and Employment*, 40(2), 265–284.](cards/healy2024.md)**  
+- **[Healy, J., & Pekarek, A. (2025). The triangular relationship in platform gig work: Consumers, platform beneficence and worker vulnerability. *New Technology, Work and Employment*, 40(2), 265–284.](cards/healy2025.md)**  
   **The paper's closest structural competitor, in its own literature, and it is not cited.** Healy and Pekarek assert precisely §9's structural claim — that the arrangement has three positions, that a two-party analysis is a projection, and that the third…
 - **[Hohenstein, J., & Jung, M. (2020). AI as a moral crumple zone: The effects of AI-mediated communication on attribution and trust. *Computers in Human Behavior*, 106, 106190.](cards/hohenstein2020.md)**  
   **A genuine three-party finding in the AI-MC literature, and the closest empirical work to what §7 describes.** Two humans coordinating, an intelligent system between them, and a measured redistribution of responsibility across the three positions — the…
@@ -461,7 +493,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Wiemann, J. M., & Backlund, P. (1980). Current theory and research in communicative competence. *Review of Educational Research*, 50(1), 185–199.](cards/wiemann1980.md)**  
   The single best short statement of the hazard §8 walks into.
 - **[Wing, L., Martinez, J., Katsh, E., & Rule, C. (2021). Designing ethical online dispute resolution systems: The rise of the fourth party. *Negotiation Journal*, 37(1), 49–64.](cards/wing2021.md)**  
-  **The single most important card in this cluster for §9, and the one that most damages the section as written.** This is a peer-reviewed article whose subject is a non-human party that commits binding determinations in a multi-party arrangement, published…
+  Cited three times in the manuscript.
 - **[Zhao, S. (2003). Toward a taxonomy of copresence. *Presence: Teleoperators and Virtual Environments*, 12(5), 445–455.](cards/zhao2003.md)**  
   The nearest thing in this literature to a **positional** analysis, and it demonstrates both the value and the limit of the move §9 makes.
 
@@ -506,12 +538,27 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Suchman, L. A. (2007). *Human-machine reconfigurations: Plans and situated actions* (2nd ed.). Cambridge University Press.](cards/suchman2007.md)**  
   **The deepest available theoretical statement of asymmetric interpretation, and the paper does not cite it.** Suchman's asymmetry is exactly §7's: one party interprets richly from a thin trace, the other party's "interpretation" is a categorisation the…
 
-## coordination-forms (21)
+### Secondary via citing source
+
+- **[Wing, L. (2016). Ethical principles for online dispute resolution: A GPS device for the field. *International Journal of Online Dispute Resolution*, 3(1), 12–29.](cards/wing2016.md)**  
+  Cited once in the manuscript, at the point (line 252 in the current draft) where the paper names the closest available benchmark of values an institutional intermediary owes its participants, before arguing that algorithmic coordination regimes withhold…
+
+## coordination-forms (31)
 
 ### Full text
 
+- **[Hayek, F. A. (1945). The use of knowledge in society. *American Economic Review*, 35(4), 519–530.](cards/hayek1945.md)**  
+  Five uses, all defining the Market coordination form's mechanism: "the price mechanism as an aggregated public statistic" (line 38); "a posted price accompanied by an unrestricted right of refusal defines the classical market archetype...
+- **[Hinds, P., & von Krogh, G. (2024). Generative AI, emerging technology, and organizing: Towards a theory of progressive encapsulation. *Organization Theory*, 5(4), 1–14.](cards/hindsvonkrogh2024.md)**  
+  Hinds and von Krogh give the algorithmacy argument a process account, in the target journal, of how a learning system absorbs coordination that people once carried out between themselves and of why those people see less of that coordination as the system…
+- **[Orlikowski, W. J., & Scott, S. V. (2023). The digital undertow and institutional displacement: A sociomaterial approach. *Organization Theory*, 4(2), Article 26317877231180898.](cards/orlikowskiscott2023.md)**  
+  The paper gives the algorithmacy argument an industry-level precedent in the target journal: digitalization displaces, as an unintended side effect, the established apparatuses that coordinate and evaluate a sector, and in the hospitality case a platform's…
+- **[Porsfelt, R., Vestergaard, A., & Hjorth, D. (2026). Image, Imagination, Imaginaries: A Genealogy of Imago-Concepts in Organisational Research. *Organization Theory*, 7(3), 1–35.](cards/porsfelt2026.md)**  
+  Porsfelt, Vestergaard and Hjorth give the algorithmacy argument a recent *Organization Theory* warrant for treating imagination as a relational capacity that arises in an encounter rather than a faculty a person owns, and a separate warrant for treating it…
 - **[Ritter, T., & Gemünden, H. G. (2003). Network competence: Its impact on innovation success and its antecedents. *Journal of Business Research*, 56(9), 745–755.](cards/rittergemunden2003.md)**  
   This is the load-bearing citation for the network cell of the seventh row and for the paper's precedent claim that "this paper does for co-optation what the network literature did for networks." Three things in it do work.
+- **[Schoeneborn, D., Dobusch, L., & Seidl, D. (2026). Toward a theory of organizationality: A gradual view on collective actorhood. *Organization Theory*, 7(3), 1–19.](cards/schoeneborn2026.md)**  
+  The paper gives the algorithmacy argument a graded, attribution-based account of when a *collective* counts as an actor — and so a way to say that a platform's standing as an actor is a matter of degree that observers confer and withdraw — but it does not…
 
 ### Abstract only
 
@@ -519,6 +566,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The most textured counter-evidence to a near-zero market cell, and much the closest in *form* to what §5 and §7 describe for the platform worker.
 - **[Adler, P. S., & Borys, B. (1996). Two types of bureaucracy: Enabling and coercive. *Administrative Science Quarterly*, 41(1), 61–89.](cards/adlerborys1996.md)**  
   The best available support for §4's hierarchy cell, and a check on how it is worded.
+- **[Anthony, C., Bechky, B. A., & Fayard, A.-L. (2023). "Collaborating" with AI: Taking a system view to explore the future of work. *Organization Science*, 34(5), 1672–1694.](cards/anthony2023.md)**  
+  **Gives the new introduction its "counterpart" and, with it, the tool → medium → counterpart sequence that the paper's own oracy → literacy → algorithmacy sequence can be set beside.** The author's introduction cites it for generative AI "functioning more…
 - **[Berg, L. (2007). Competent consumers? Consumer competence profiles in Norway. *International Journal of Consumer Studies*, 31(4), 418–427.](cards/berg2007.md)**  
   Direct prior art on the market cell, and the most awkward kind: a named construct called consumer competence, measured at population scale, reported as unevenly distributed and outcome-relevant.
 - **[Bowen, D. E. (1986). Managing customers as human resources in service organizations. *Human Resource Management*, 25(3), 371–383.](cards/bowen1986.md)**  
@@ -559,7 +608,39 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Gittell, J. H. (2002). Coordinating mechanisms in care provider groups: Relational coordination as a mediator and input uncertainty as a moderator of performance effects. *Management Science*, 48(11), 1408–1426.](cards/gittell_relational_coordination.md)**  
   Anchors the Extant Constructs opening sentence, and the anchor holds.
 
-## opacity-folk-theories (48)
+### Secondary summary
+
+- **[Granovetter, M. (1985). Economic action and social structure: The problem of embeddedness. *American Journal of Sociology*, 91(3), 481–510.](cards/granovetter1985.md)**  
+  Three uses, always paired with Powell (1990), defining the Network coordination form: "A partner invests in an elective, revocable relationship grounded in informal social reciprocity and mutual reputational capital (Granovetter, 1985; Powell, 1990)" (line…
+- **[Powell, W. W. (1990). Neither market nor hierarchy: Network forms of organization. *Research in Organizational Behavior*, 12, 295–336.](cards/powell1990.md)**  
+  Four uses.
+- **[Simon, H. A. (1997). *Administrative behavior: A study of decision-making processes in administrative organizations* (4th ed.). Free Press. (Original work published 1947)](cards/simon1997.md)**  
+  Four uses in PAPER.md, always paired with Weber (1978) or in Appendix A's Table A1, to define the Hierarchy coordination form: "An employee operates within an authority-governed zone of acceptance, where managerial direction secures alignment through…
+- **[Weber, M. (1978). *Economy and society: An outline of interpretive sociology* (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1922)](cards/weber1978.md)**  
+  Five uses.
+
+## coordinative-co-optation-empirical-motivation (1)
+
+### Abstract only
+
+- **[Manky, O. (2025). Reimagining Work Security in Latin America's Platform Economy: Workers' Strategies Amid Urban Violence. *New Technology, Work and Employment*, 41(1), 33–44.](cards/manky2025.md)**  
+  Cited three times as the empirical anchor for the paper's motivating claim that a counterpart-directed, safety-relevant interpretive capacity already shows up in naturalistic fieldwork, ahead of the paper's own formal construct (algorithmacy): line 19…
+
+## coordinative-co-optation-source (3)
+
+### Full text
+
+- **[Stark, D., & Pais, I. (2020). Algorithmic Management in the Platform Economy. *Sociologica*, 14(3), 47–72.](cards/starkpais2020.md)**  
+  Cited three times (lines 44, 513, 524), always paired with Stark & Vanden Broeck (2024) for the same claim: automated enrollment/matching/evaluation/termination as coordinative co-optation's defining mechanism.
+- **[Stark, D., & Vanden Broeck, P. (2024). Principles of Algorithmic Management. *Organization Theory*, 5(2), 1–24.](cards/starkvandenbroeck2024.md)**  
+  The manuscript's source for the paper's own title-term mechanism, cited 7 times.
+
+### Extended preview
+
+- **[Selznick, P. (1949). *TVA and the Grass Roots: A Study in the Sociology of Formal Organization*. University of California Press.](cards/selznick1949.md)**  
+  Cited (by my count) 5–6 times across the body text, a definitional bullet list, and Appendix A's comparative table.
+
+## opacity-folk-theories (49)
 
 ### Full text
 
@@ -589,6 +670,8 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   The complement to the qualitative cluster and the source that keeps §7 from over-generalising.
 - **[Lee, M. K., Kusbit, D., Metsky, E., & Dabbish, L. (2015). Working with machines: The impact of algorithmic and data-driven management on human workers. *Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems* (CHI '15), 1603–1612.](cards/lee2015.md)**  
   "More knowledge more advantage" is §10's stratified-fluency property stated as a field finding, with the mechanism attached: the better-informed drivers acted differently and got better outcomes, and the worse-informed made errors that damaged their own…
+- **[Leonardi, P. M., & Leavell, V. (2026). Knowing enough to be dangerous: The problem of "artificial certainty" for expert authority when using AI for decision making and planning. *Organization Science*, 37(2), 516–543.](cards/leonardileavell2026.md)**  
+  **Partly supports the introduction's sentence.
 - **[Möhlmann, M., Zalmanson, L., Henfridsson, O., & Gregory, R. W. (2021). Algorithmic management of work on online labor platforms: When matching meets control. *MIS Quarterly*, 45(4), 1999–2022.](cards/mohlmann2021.md)**  
   Distinct from `mohlmann2023`, and the two should not be conflated in the bibliography — same first author, same platform, different construct.
 - **[Petre, C., Duffy, B. E., & Hund, E. (2019). "Gaming the system": Platform paternalism and the politics of algorithmic visibility. *Social Media + Society*, 5(4), 1–12.](cards/petreduffyhund2019.md)**  
@@ -665,7 +748,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 - **[Ziewitz, M. (2019). Rethinking gaming: The ethical work of optimization in web search engines. *Social Studies of Science*, 49(5), 707–731.](cards/ziewitz2019.md)**  
   **The strongest existing account of outbound signalling to an opaque evaluator**, and the one §7 should build the intent-specification facet on.
 
-## qualitative-method (65)
+## qualitative-method (67)
 
 ### Full text
 
@@ -675,10 +758,14 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
   This is now the design's governing methodology, not a supporting citation for role duality.
 - **[Eisenhardt, K. M., & Graebner, M. E. (2007). Theory building from cases: Opportunities and challenges. *Academy of Management Journal*, 50(1), 25–32.](cards/eisenhardtgraebner2007.md)**  
   The single-case justification is exactly as advertised and directly usable in "The Trinidad Field Setting as a Strategic Research Site": a single case is warranted when it is "unusually revelatory, extreme...
+- **[Flanagan, J. C. (1954). The critical incident technique. *Psychological Bulletin*, 51(4), 327–358.](cards/flanagan1954.md)**  
+  Cited once (PAPER.md line 579) as the warrant for the harness's per-module elicitation design: prompting for "a complete behavioral episode," redirecting participants who answer with a high-level generalization back toward a specific incident, and omitting…
 - **[Gioia, D. A., Corley, K. G., & Hamilton, A. L. (2013). Seeking qualitative rigor in inductive research: Notes on the Gioia methodology. *Organizational Research Methods*, 16(1), 15–31.](cards/gioia2013.md)**  
   Two corrections to the prior card.
 - **[Langley, A. (1999). Strategies for theorizing from process data. *Academy of Management Review*, 24(4), 691–710.](cards/langley1999.md)**  
   **Temporal bracketing is the directly usable strategy, and it names something the current draft's "Program" section does without naming it.** The section already narrates the two-year trajectory — Trinidad secondary schools (Jul–Aug 2025) → La Brea →…
+- **[Suddaby, R. (2010). Editor's comments: Construct clarity in theories of management and organization. *Academy of Management Review*, 35(3), 346–357.](cards/suddaby2010.md)**  
+  This is the article's own organizing rubric, borrowed directly and correctly.
 - **[Timmermans, S., & Tavory, I. (2012). Theory construction in qualitative research: From grounded theory to abductive analysis. *Sociological Theory*, 30(3), 167–186.](cards/timmermans2012.md)**  
   This is the citation for the paper's methods section.
 

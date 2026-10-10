@@ -74,6 +74,7 @@ Outward manuscripts. Live dates in [`NOW.md`](NOW.md) and [`submissions/CALENDAR
 | [`submissions/coordinative_sovereignty/`](submissions/coordinative_sovereignty/) | Coordinative sovereignty |
 | [`submissions/hospitality_phygital/`](submissions/hospitality_phygital/) | Hospitality phygital — algorithmic mediation and guest agency |
 | [`submissions/lima_pdw/`](submissions/lima_pdw/) | Lima PDW — algorithmacy as a communication competency |
+| [`submissions/algorithmacy_ot/`](submissions/algorithmacy_ot/) | Algorithmacy for *Organization Theory* |
 | [`submissions/slacker_thirds/`](submissions/slacker_thirds/) | *Slacker* chapter |
 | [`submissions/hegel_coordination/`](submissions/hegel_coordination/) | Hegel and the coordination program — a public reading |
 | [`submissions/proposals/`](submissions/proposals/) | Proposals — submissions to external calls |
@@ -95,7 +96,7 @@ Run the relevant generator after adding content, then verify with its `--check`.
 |---|---|---|
 | 165 | questions | `org_frontier/questions/q*_*/` |
 | 134 | probes | `org_frontier/probes/probe_*.py` |
-| 122 | studies | `org_frontier/studies/*/` |
+| 126 | studies | `org_frontier/studies/*/` |
 | 22 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 10 | literature reviews | `org_frontier/reviews/*/` with a `FINDINGS.md` |
