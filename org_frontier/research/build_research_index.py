@@ -21,7 +21,7 @@ META_RE = re.compile(r"<!--\s*run:\s*([0-9-]+)\s*\|\s*sources:\s*(\d+)\s*\|\s*ve
 def first_heading(path):
     if not os.path.exists(path):
         return None
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         for line in f:
             if line.startswith("# "):
                 return line[2:].strip()
@@ -31,7 +31,7 @@ def first_heading(path):
 def count_bib(path):
     if not os.path.exists(path):
         return 0
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return len(re.findall(r"^@\w+\s*\{", f.read(), re.M))
 
 
@@ -39,7 +39,7 @@ def meta(path):
     """The (run-date, sources, verified) from a report's leading metadata comment, or (None, 0, 0)."""
     if not os.path.exists(path):
         return (None, 0, 0)
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         head = f.read(400)
     m = META_RE.search(head)
     if m:
@@ -93,13 +93,13 @@ def main():
     out = os.path.join(HERE, "INDEX.md")
     content = build()
     if "--check" in sys.argv:
-        existing = open(out).read() if os.path.exists(out) else ""
+        existing = open(out, encoding="utf-8").read() if os.path.exists(out) else ""
         if existing != content:
             print("research INDEX.md is stale — run build_research_index.py")
             sys.exit(1)
         print("research INDEX.md is up to date.")
         return
-    with open(out, "w") as f:
+    with open(out, "w", encoding="utf-8") as f:
         f.write(content)
     print(f"Wrote {out}")
 
