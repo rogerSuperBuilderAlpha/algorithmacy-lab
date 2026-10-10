@@ -320,6 +320,7 @@ Multi-experiment batteries on one theme.
 - **[ergodic_absorbing_ejection (Strand D4)](org_frontier/studies/ergodic_absorbing_ejection/README.md)** — absorbing inactive attractor (cycle `000`, basin **7**, exit rate **0**,
 - **[ergodic_backcoupling_twins (Strand A4)](org_frontier/studies/ergodic_backcoupling_twins/README.md)** — vs accumulating split on all three twin pairs (**H1 SUPPORTED**). At
 - **[Ergodic components vs Φ (track first cell)](org_frontier/studies/ergodic_components_vs_phi/README.md)** — `CROSS_BASIN_SPLIT` | `BASIN_DETERMINATION_SPLIT`). Whole-form triadic
+- **[ergodic_cycle_ordering (Strand G / T8 residual)](org_frontier/studies/ergodic_cycle_ordering/README.md)** — Verdict: ORDERING_NULL. The residual basin-mode gap still ranks triadic forms on the frozen 42-form panel (AUC 0.7294)
 - **[Ergodic richness vs Φ on the strict-mediation census (B5)](org_frontier/studies/ergodic_ensemble_richness/README.md)** — census at n=3, Spearman ρ(Φ_MIP, basin entropy) = **0.1015** (positive
 - **[ergodic_eoa_basin (Strand G / T8 per-outcome fix)](org_frontier/studies/ergodic_eoa_basin/README.md)** — classes that drove the prior `EOA_TRACKS_MI_NOT_PHI` result, but the
 - **[ergodic_eoa_instrument (Strand G / T8 stress)](org_frontier/studies/ergodic_eoa_instrument/README.md)** — panel the EoA instrument agrees with whole-form Φ on **17/42** forms

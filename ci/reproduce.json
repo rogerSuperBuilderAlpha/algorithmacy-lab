@@ -6584,6 +6584,67 @@
       "source": "org_frontier/studies/ergodic_gap_decomposition/FINDINGS.md"
     },
     {
+      "name": "ergodic-cycle-order-unit",
+      "cmd": "python org_frontier/ergodicity/test_cycle_order.py",
+      "expect": [
+        "Ran 15 tests",
+        "OK"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/ergodicity/test_cycle_order.py"
+    },
+    {
+      "name": "ergodic-cycle-ordering-ci",
+      "cmd": "python org_frontier/studies/ergodic_cycle_ordering/analyze_ordering.py --ci",
+      "expect": [
+        "memoryless whole: triadic \u03a6=2.000000  PASS",
+        "sticky whole:     dyadic \u03a6=0.000000  PASS",
+        "panel: n=16 triadic=10 dyadic=6",
+        "H5 (closed form and committed gaps):                    SUPPORTED",
+        "H0 (AUC not a fluke):                                   NOT_TESTABLE",
+        "H1 (phase remainder identity):                          NOT_TESTABLE",
+        "H2 (predicted gap tracks triadic):                      NOT_TESTABLE",
+        "H3 (residualizing on predicted gap):                    NOT_TESTABLE",
+        "H4a (order_index absorbs):                              NOT_TESTABLE",
+        "H4i (remainder_allstarts absorbs):                      NOT_TESTABLE",
+        "verdict: ORDERING_INCONCLUSIVE",
+        "ranking winner: (none)"
+      ],
+      "timeout": 90,
+      "source": "org_frontier/studies/ergodic_cycle_ordering/FINDINGS.md"
+    },
+    {
+      "name": "ergodic-cycle-ordering-full",
+      "cmd": "python org_frontier/studies/ergodic_cycle_ordering/analyze_ordering.py",
+      "expect": [
+        "memoryless whole: triadic \u03a6=2.000000  PASS",
+        "sticky whole:     dyadic \u03a6=0.000000  PASS",
+        "panel: n=42 triadic=17 dyadic=25",
+        "H5 (closed form and committed gaps):                    SUPPORTED",
+        "H0 (AUC not a fluke):                                   SUPPORTED",
+        "  AUC=0.7294  bootstrap95=[0.5600, 0.8624]  perm_p=0.0075",
+        "  pred_AUC=0.5412  pred_bootstrap95=[0.4447, 0.6471]  pred_perm_p=0.6250",
+        "H1 (phase remainder identity):                          REFUTED",
+        "  mean_loglog_slope=-0.9763  mean_gapT_cv=0.0049",
+        "H2 (predicted gap tracks triadic):                      REFUTED",
+        "H3 (residualizing on predicted gap):                    REFUTED",
+        "  \u03b2_ratio=0.997633  partial_\u03c1=0.323661",
+        "H4a (order_index absorbs):                              REFUTED",
+        "H4g (party_osc_frac absorbs):                           REFUTED",
+        "  \u03b2_ratio=0.984862  partial_\u03c1=0.324800",
+        "H4i (remainder_allstarts absorbs):                      REFUTED",
+        "  \u03b2_ratio=0.741270  partial_\u03c1=0.193099",
+        "periods: p1=62 p2=19 p3=4 p4=3 p5=1",
+        "windows_T64: p1:r=0 p2:r=0 p3:r=1 p4:r=0 p5:r=4",
+        "nonzero_bit_remainders=9/194 p3=7 p5=2",
+        "verdict: ORDERING_NULL",
+        "ranking winner: (none)",
+        "descriptive lowest \u03b2_ratio: remainder_allstarts (0.741270)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/ergodic_cycle_ordering/FINDINGS.md"
+    },
+    {
       "name": "who-broke-prod",
       "cmd": "python org_frontier/studies/who_broke_prod/analyze_who_broke_prod.py",
       "expect": [

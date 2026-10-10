@@ -281,6 +281,26 @@ kills the basin H4 band (H4 REFUTED); recomputed gaps match the
 committed CSV (H5 SUPPORTED); verdict `GAP_UNEXPLAINED`. Does not
 rewrite the G2, instrument-stress, basin, or settling cells above.
 
+**Status (cycle ordering).** Run —
+`studies/ergodic_cycle_ordering/`. Extends `settling.py` with the
+finite-T phase remainder and sequence features of party-bit flips
+(co-flip synchrony, folded phase lag, lag-1 autocorrelation, Hamming
+rate, clump-versus-spread index). On the same frozen 42-form panel the
+gap–triadic association again clears the fluke check (AUC 0.7294;
+bootstrap 95% CI [0.5600, 0.8624]; permutation p 0.0075; H0 SUPPORTED).
+The on-cycle remainder does not match the basin gap (Spearman 0.242266;
+H1 REFUTED) and does not track triadic status (AUC 0.5412; H2
+REFUTED). Residualizing on that prediction leaves the logistic
+coefficient in place (β ratio 0.997633; H3 REFUTED). At T=64 every
+attractor period on the panel falls in {1, 2, 3, 4, 5}, so the
+order index and order excess are constant at 0 (H4a, H4b REFUTED).
+The T-independent ordering features and the amplitude controls,
+including `party_osc_frac` at β ratio 0.984862, likewise fail the shrink
+rule. Descriptive minimum is the all-start remainder (β ratio 0.741270),
+which still misses 0.50. Verdict `ORDERING_NULL`. Does not rewrite the
+G2, instrument-stress, basin, settling, or gap-decomposition cells
+above.
+
 ---
 
 ## Exp-H — Ensemble vs time-average RL renderings (Strand H / T9)
@@ -386,7 +406,7 @@ PR.
 | Exp-D | D | yes | `studies/ergodic_absorbing_ejection/` |
 | Exp-E | E | yes (with B) | folded into first cell + E4 report |
 | Exp-F | F | yes | `studies/ergodic_sticky_returns/` |
-| Exp-G | G | yes | `studies/ergodic_eoa_vs_phi/` + `studies/ergodic_eoa_instrument/` + `studies/ergodic_eoa_basin/` |
+| Exp-G | G | yes | `studies/ergodic_eoa_vs_phi/` + `studies/ergodic_eoa_instrument/` + `studies/ergodic_eoa_basin/` + `studies/ergodic_gap_decomposition/` + `studies/ergodic_settling_time/` + `studies/ergodic_cycle_ordering/` |
 | Exp-C | C | simulation only | deferred (no calibrated series in PR) |
 | Exp-H | H | partial | deferred pending render convention |
 | Exp-I | I | review only | deferred empirical |
