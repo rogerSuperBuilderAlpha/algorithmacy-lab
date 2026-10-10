@@ -6360,6 +6360,22 @@
       "source": "org_frontier/questions/q215_phi_family_robustness/FINDINGS.md"
     },
     {
+      "name": "q218-chicken-egg-feed",
+      "cmd": "python -m org_frontier.questions.q218_chicken_egg_feed.probe_chicken_egg_feed",
+      "expect": [
+        "Instrument validated.",
+        "WOM-REACT              yes  triadic    6.000",
+        "FEED-CHRONO-REACT      yes  triadic    1.000",
+        "FEED-ENG-REACT         yes  dyadic     0.000  {P,F}           2.000",
+        "RING                   yes  triadic    2.000",
+        "Connectivity table over 51 forms: triadic&SC=22  dyadic&SC=13  triadic&notSC=0  dyadic&notSC=16",
+        "H3: checks [False, False, False, False] -> REFUTED",
+        "sweeps: S1 4/10, S2 0/10, S3 6/10, S4 9/10 triadic"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q218_chicken_egg_feed/FINDINGS.md"
+    },
+    {
       "name": "ergodic-components-vs-phi",
       "cmd": "python org_frontier/studies/ergodic_components_vs_phi/analyze_components.py",
       "expect": [
@@ -6767,6 +6783,18 @@
       ],
       "timeout": 900,
       "source": "org_frontier/probes/weighted_quorum/README.md"
+    },
+    {
+      "name": "q216-robot-shared-control",
+      "cmd": "python -m org_frontier.questions.q216_robot_shared_control.probe_robot_shared_control",
+      "expect": [
+        "1 teleoperation            H'=R, P'=R, R'=H   -> dyadic  \u03a6_MIP max=0.0000  major complex=('H', 'R') \u03c6=2.0000",
+        "2 full autonomy            H'=R, P'=R, R'=P   -> dyadic  \u03a6_MIP max=0.0000  major complex=('P', 'R') \u03c6=2.0000",
+        "3 shared control           H'=R, P'=R, R'=H&P -> triadic  \u03a6_MIP max=2.0000  major complex=('H', 'P', 'R') \u03c6=2.0000",
+        "4 shared, human fb cut     H'=H, P'=R, R'=H&P -> dyadic  \u03a6_MIP max=0.0000  major complex=('P', 'R') \u03c6=2.0000"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/questions/q216_robot_shared_control/FINDINGS.md"
     }
   ]
 }
