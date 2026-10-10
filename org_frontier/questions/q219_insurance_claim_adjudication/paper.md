@@ -1,6 +1,6 @@
 # Who decides an insurance claim? An exact-Φ reading of claimant, engine, and adjuster
 
-code + data: `org_frontier/questions/q219_insurance_claim_adjudication/`; probes #457–#460 in
+code + data: `org_frontier/questions/q219_insurance_claim_adjudication/`; probes #458–#461 in
 `org_frontier/probes/PROBES.md`
 
 ## Abstract

@@ -1,4 +1,4 @@
-PROBE 458 (Q219-H2) — threshold auto-approval: C'=E∧¬A, E'=C, A'=E∧C
+PROBE 459 (Q219-H2) — threshold auto-approval: C'=E∧¬A, E'=C, A'=E∧C
 ========================================================================
 [control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS
   gated                  triadic  max Φ_MIP=0.4150  MIP=2 parts: {C,EA}  core={C,E} core Φ=2.0000

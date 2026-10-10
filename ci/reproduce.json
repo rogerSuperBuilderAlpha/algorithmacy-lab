@@ -4978,6 +4978,24 @@
       "source": "org_frontier/studies/logged_alt_duty_exact_phi/FINDINGS.md"
     },
     {
+      "name": "graded-channel-exact-phi",
+      "cmd": "python org_frontier/studies/graded_channel_exact_phi/analyze_graded.py",
+      "expect": [
+        "  faithful triad: triadic \u03a6=2.000000  PASS",
+        "  sticky:         dyadic \u03a6=0.000000  PASS",
+        "  H1 (controls replicate anchors):       SUPPORTED",
+        "  H2 (graded q=0.5 holds):              SUPPORTED",
+        "  H3 (smooth monotone degradation):     SUPPORTED",
+        "  H4 (graded beats alternation \u22650.10):  SUPPORTED",
+        "  H5 (logged panel replicates):         SUPPORTED",
+        "  verdict: GRADED_HOLDS",
+        "  reading: GRADED_HOLDS \u2014 the q=0.5 graded channel holds the exact-\u03a6 screen (1.000\u21920.853) where hard alternation cliffs (1.000\u21920.660); degradation is smooth, so the cliff tracks duty correlation, not channel granularity",
+        "  metrics: full_m=1.000; q75_m=1.000; q50_m=0.853; q25_m=0.824; alt_m=0.660; phase_m=1.000; full_l=1.000; q50_l=0.909; q25_l=0.864; alt_l=0.591; n_multi=24; n_logged=15; n_tri_m=17"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/studies/graded_channel_exact_phi/FINDINGS.md"
+    },
+    {
       "name": "omit-cycle-band-n89",
       "cmd": "python org_frontier/studies/omit_cycle_band_n89/analyze_band_n89.py",
       "expect": [
@@ -6358,6 +6376,25 @@
       "source": "org_frontier/studies/ergodic_components_vs_phi/FINDINGS.md"
     },
     {
+      "name": "ergodic-ensemble-richness",
+      "cmd": "python org_frontier/studies/ergodic_ensemble_richness/analyze_ensemble.py",
+      "expect": [
+        "memoryless whole: triadic \u03a6=2.000000  PASS",
+        "sticky whole:     dyadic \u03a6=0.000000  PASS",
+        "n_forms=256 n_triadic=24 n_dyadic=232",
+        "rho_entropy=0.1015 p_pos_entropy=0.0510 p_neg_entropy=0.9500",
+        "rho_count=0.1286 p_pos_count=0.0185 p_neg_count=0.9830",
+        "H1 (basin entropy tracks \u03a6):     REFUTED",
+        "H2 (attractor count tracks \u03a6):   REFUTED",
+        "H3 (entropy mean tracks triadic):SUPPORTED",
+        "H4 (count mean tracks triadic):  REFUTED",
+        "H5 (split-half entropy \u03c1):       SUPPORTED",
+        "verdict: NO_ENSEMBLE_LINK"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/ergodic_ensemble_richness/FINDINGS.md"
+    },
+    {
       "name": "ergodic-backcoupling-twins",
       "cmd": "python org_frontier/studies/ergodic_backcoupling_twins/analyze_twins.py",
       "expect": [
@@ -6548,7 +6585,7 @@
     },
     {
       "name": "q219-h1-pipe",
-      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_457_pipe",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_pipe",
       "expect": [
         "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
         "pipe                   triadic  max Φ_MIP=2.0000  MIP=3 parts: {C,E,A}  core={C,E,A} core Φ=2.0000",
@@ -6560,7 +6597,7 @@
     },
     {
       "name": "q219-h2-gated",
-      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_gated",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_gated",
       "expect": [
         "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
         "gated                  triadic  max Φ_MIP=0.4150  MIP=2 parts: {C,EA}  core={C,E} core Φ=2.0000",
@@ -6573,7 +6610,7 @@
     },
     {
       "name": "q219-h3-h4-loop",
-      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_loop",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_loop",
       "expect": [
         "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
         "loop                   triadic  max Φ_MIP=1.0000  MIP=2 parts: {C,EA}  core={E,A} core Φ=2.0000",
@@ -6586,7 +6623,7 @@
     },
     {
       "name": "q219-h5-liveness",
-      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_liveness",
+      "cmd": "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_461_liveness",
       "expect": [
         "[control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS",
         "loop_frozen_claimant   dyadic   max Φ_MIP=0.0000  MIP=(factors)  core={E,A} core Φ=2.0000",
@@ -6594,6 +6631,146 @@
       ],
       "timeout": 120,
       "source": "org_frontier/questions/q219_insurance_claim_adjudication/FINDINGS.md"
+    },
+    {
+      "name": "ergodic-cycle-order-unit",
+      "cmd": "python org_frontier/ergodicity/test_cycle_order.py",
+      "expect": [
+        "Ran 15 tests",
+        "OK"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/ergodicity/test_cycle_order.py"
+    },
+    {
+      "name": "ergodic-cycle-ordering-ci",
+      "cmd": "python org_frontier/studies/ergodic_cycle_ordering/analyze_ordering.py --ci",
+      "expect": [
+        "memoryless whole: triadic \u03a6=2.000000  PASS",
+        "sticky whole:     dyadic \u03a6=0.000000  PASS",
+        "panel: n=16 triadic=10 dyadic=6",
+        "H5 (closed form and committed gaps):                    SUPPORTED",
+        "H0 (AUC not a fluke):                                   NOT_TESTABLE",
+        "H1 (phase remainder identity):                          NOT_TESTABLE",
+        "H2 (predicted gap tracks triadic):                      NOT_TESTABLE",
+        "H3 (residualizing on predicted gap):                    NOT_TESTABLE",
+        "H4a (order_index absorbs):                              NOT_TESTABLE",
+        "H4i (remainder_allstarts absorbs):                      NOT_TESTABLE",
+        "verdict: ORDERING_INCONCLUSIVE",
+        "ranking winner: (none)"
+      ],
+      "timeout": 90,
+      "source": "org_frontier/studies/ergodic_cycle_ordering/FINDINGS.md"
+    },
+    {
+      "name": "ergodic-cycle-ordering-full",
+      "cmd": "python org_frontier/studies/ergodic_cycle_ordering/analyze_ordering.py",
+      "expect": [
+        "memoryless whole: triadic \u03a6=2.000000  PASS",
+        "sticky whole:     dyadic \u03a6=0.000000  PASS",
+        "panel: n=42 triadic=17 dyadic=25",
+        "H5 (closed form and committed gaps):                    SUPPORTED",
+        "H0 (AUC not a fluke):                                   SUPPORTED",
+        "  AUC=0.7294  bootstrap95=[0.5600, 0.8624]  perm_p=0.0075",
+        "  pred_AUC=0.5412  pred_bootstrap95=[0.4447, 0.6471]  pred_perm_p=0.6250",
+        "H1 (phase remainder identity):                          REFUTED",
+        "  mean_loglog_slope=-0.9763  mean_gapT_cv=0.0049",
+        "H2 (predicted gap tracks triadic):                      REFUTED",
+        "H3 (residualizing on predicted gap):                    REFUTED",
+        "  \u03b2_ratio=0.997633  partial_\u03c1=0.323661",
+        "H4a (order_index absorbs):                              REFUTED",
+        "H4g (party_osc_frac absorbs):                           REFUTED",
+        "  \u03b2_ratio=0.984862  partial_\u03c1=0.324800",
+        "H4i (remainder_allstarts absorbs):                      REFUTED",
+        "  \u03b2_ratio=0.741270  partial_\u03c1=0.193099",
+        "periods: p1=62 p2=19 p3=4 p4=3 p5=1",
+        "windows_T64: p1:r=0 p2:r=0 p3:r=1 p4:r=0 p5:r=4",
+        "nonzero_bit_remainders=9/194 p3=7 p5=2",
+        "verdict: ORDERING_NULL",
+        "ranking winner: (none)",
+        "descriptive lowest \u03b2_ratio: remainder_allstarts (0.741270)"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/studies/ergodic_cycle_ordering/FINDINGS.md"
+    },
+    {
+      "name": "who-broke-prod",
+      "cmd": "python org_frontier/studies/who_broke_prod/analyze_who_broke_prod.py",
+      "expect": [
+        "runs: 2400",
+        "H1 acc_full=0.6467 acc_claims_only=0.0967 diff=0.5500 p=9.144e-100: SUPPORTED",
+        "H2 false_blame_full=0.3433 false_blame_claims_only=0.8300: SUPPORTED",
+        "H3 fb_diff_claims_only=0.8300 fb_diff_full=0.3433: REFUTED",
+        "H4 mean_steps flat=1.4839 hub=2.0710 chain=1.5000: REFUTED",
+        "H5 acc_flat=0.7750 acc_chain=0.3900 diff=0.3850 p=1.323e-23: SUPPORTED",
+        "H6 acc_hub=0.7750 acc_flat=0.7750 diff=0.0000 p=1.000e+00: REFUTED"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/studies/who_broke_prod/FINDINGS.md"
+    },
+    {
+      "name": "who-broke-prod-phi",
+      "cmd": "python org_frontier/studies/who_broke_prod_phi/analyze_who_broke_prod_phi.py",
+      "expect": [
+        "control joint_commit: triadic \u03a6=2.000000; relay: dyadic \u03a6=0.000000  PASS",
+        "flat_report  whole=dyadic   \u03a6_MIP=0.000000  core=('A2',) core\u03a6=1.000000  integrated=no",
+        "hub_forward  whole=dyadic   \u03a6_MIP=0.000000  core=('A2',) core\u03a6=1.000000  integrated=no",
+        "chain_relay  whole=dyadic   \u03a6_MIP=0.000000  core=('A1',) core\u03a6=1.000000  integrated=no",
+        "hub_commit   whole=dyadic   \u03a6_MIP=0.000000  core=('A1', 'M', 'A2') core\u03a6=2.000000  integrated=yes",
+        "docking vs who_broke_prod/results/runs.csv: 2400 rows, 0 mismatches  PASS",
+        "H1 non-commit forms lack an integrated core: SUPPORTED",
+        "H2 hub_commit core=('A1', 'M', 'A2') core\u03a6=2.000000 whole=dyadic: SUPPORTED",
+        "H3 (full) hub_commit=0.7750 vs best-without-core hub=0.7750 diff=0.0000 p=1.000e+00: REFUTED",
+        "H4 (claims_only) hub_commit=0.6950 vs best-without-core hub=0.1300 diff=0.5650 p=1.926e-34: SUPPORTED",
+        "H5 hub_commit=0.7750 vs hub=0.7750 diff=0.0000 p=1.000e+00: REFUTED",
+        "H6 neutral minimum accuracy 1.0000: SUPPORTED"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/studies/who_broke_prod_phi/FINDINGS.md"
+    },
+    {
+      "name": "probe-weighted-quorum-ci",
+      "cmd": "python -m org_frontier.probes.weighted_quorum.probe_weighted_quorum --ci",
+      "expect": [
+        "C1a factoring control (C decoupled): dyadic \u03a6=0.000000  PASS",
+        "C1a irreducible control (full coupling): triadic \u03a6=0.830075  PASS",
+        "C1b AND (3-of-3): triadic \u03a6=3.000000 core={S,P1,P2,P3}  PASS",
+        "C1b OR (1-of-3): triadic \u03a6=3.000000 core={S,P1,P2,P3}  PASS",
+        "C1b 2-of-3: dyadic \u03a6=0.000000 core=none  PASS",
+        "C1 passed.",
+        "n=3: 8 classes with weights 0..5; 8 with weights 0..6; saturated",
+        "n=4: 25 classes with weights 0..5; 25 with weights 0..6; saturated",
+        "scored n: [3, 4]; classes scored: 33; extreme |R|>=2: 10; mixed: 21; with an irrelevant party: 11",
+        "H1 (extreme classes bind {S}+R):              SUPPORTED  violations 0/10",
+        "H1b (core \u03c6 = |R| on extreme classes):         SUPPORTED  violations 0/10",
+        "H2 (irrelevant parties stay out of the core):  SUPPORTED  violations 0/33",
+        "H2b (irrelevant party -> whole-system dyadic): SUPPORTED  violations 0/11",
+        "H3 (mixed classes bind at most one party):     REFUTED  violations 2/21",
+        "H4 (single core party has the unique max \u03b2):   SUPPORTED  scorable 10, tied 0, violations 0",
+        "H3 violation: n4-18 w=(1, 1, 2, 2) \u03b8=2 type=mixed R={P1,P2,P3,P4} \u03b2=(1, 1, 3, 3) core={S,P3,P4} \u03c6=2.000000 whole=dyadic \u03a6=0.000000",
+        "H3 violation: n4-21 w=(1, 1, 2, 2) \u03b8=5 type=mixed R={P1,P2,P3,P4} \u03b2=(1, 1, 3, 3) core={S,P3,P4} \u03c6=2.000000 whole=dyadic \u03a6=0.000000"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/probes/weighted_quorum/README.md"
+    },
+    {
+      "name": "probe-weighted-quorum-full",
+      "slow": true,
+      "cmd": "python -m org_frontier.probes.weighted_quorum.probe_weighted_quorum",
+      "expect": [
+        "C1 passed.",
+        "C2 (\u03b5=0 reproduces the deterministic readings): PASS",
+        "C3 (\u03b5=0.5 reads dyadic, no core with >=2 parties): PASS",
+        "H3 (mixed classes bind at most one party):     REFUTED  violations 2/21",
+        "n4-12  AND      4.0000    1.7661    0.9694    0.3689    0.1490    0.0491    0.0203    -*",
+        "n4-18  mixed    2.0000    1.5230    1.1350    0.5996    0.2881    0.1067    0.0464    -*",
+        "H5 (noise keeps extreme membership, \u03c6 non-increasing): SUPPORTED  violations 0",
+        "H6 (noise does not rescue a mixed quorum):             REFUTED  violations 12",
+        "H6 violation: n4-18 \u03b5=0.05 core={S,P3,P4} \u03c6=1.523037",
+        "H6 violation: n4-21 \u03b5=0.45 core={S,P3,P4} \u03c6=0.046396"
+      ],
+      "timeout": 900,
+      "source": "org_frontier/probes/weighted_quorum/README.md"
     }
   ]
 }

@@ -1,6 +1,6 @@
 """Q219 shared runner: classify one form, print its verdict, core and per-state Φ, write a CSV.
 
-Used by probe_457 … probe_460. The decision rules themselves live in each probe, as fixed in methods.md.
+Used by probe_458 … probe_461. The decision rules themselves live in each probe, as fixed in methods.md.
 """
 
 import csv

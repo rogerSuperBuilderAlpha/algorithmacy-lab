@@ -8,7 +8,7 @@ lab's standard instrument. Results are in-silico: evidence about these small mod
 insurer.
 
 Files: `review.md` (prior work), `literature/` (20 verified sources), `hypotheses.md` (fixed before
-computation), `methods.md`, `forms.py`, `probe_457_pipe.py` … `probe_460_liveness.py`, `results/`,
+computation), `methods.md`, `forms.py`, `probe_458_pipe.py` … `probe_461_liveness.py`, `results/`,
 `FINDINGS.md`, `paper.md`, `WORKFLOW_LOG.md` (step-by-step record).
 
 ## Hypotheses (committed before any q219 form was computed, commit `a8abd0fa`)
@@ -60,10 +60,10 @@ From the repo root, Python 3.10+ (this run: Python 3.12.15, PyPhi IIT-4.0 line):
 python3.12 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 python -m org_frontier.classifier.validate          # must print "Instrument validated"
-python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_457_pipe
-python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_gated
-python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_loop
-python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_liveness
+python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_pipe
+python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_gated
+python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_loop
+python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_461_liveness
 python ci/reproduce.py q219-h1-pipe q219-h2-gated q219-h3-h4-loop q219-h5-liveness
 ```
 
@@ -88,7 +88,7 @@ The full step-by-step record, with commands, outcomes, key numbers, and EDT time
    methods, and forms. Stopped for approval.
 6. Before locking, read Q11: its `rot_ring(3)` is exactly the pipe, reported triadic at Φ = 2.0. H1 was
    changed from "dyadic" to "triadic" and Q11 cited. Then `hypotheses.md` was committed alone.
-7. Committed the rest of the pre-registration, wrote and ran probes #457–#460, committed results.
+7. Committed the rest of the pre-registration, wrote and ran probes #458–#461, committed results.
 8. Extended the literature to 20 sources with every DOI checked, wrote FINDINGS, paper, this README,
    PROBES.md rows, `ci/reproduce.json` checks, and regenerated the indexes.
 

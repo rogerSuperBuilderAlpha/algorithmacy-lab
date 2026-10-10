@@ -7,11 +7,11 @@ profiles are in `results/`.
 
 | hypothesis | verdict | key numbers |
 |---|---|---|
-| H1 pass-through pipe is triadic through closure | **confirmed** | `pipe` triadic, max Φ_MIP = 2.000, MIP 3 parts {C,E,A}, core {C,E,A} 2.000, Φ = 2.000 in 8/8 states (`probe_457_pipe`) |
-| H2 threshold auto-approval triadic only through flagged claims | **refuted** | `gated` triadic as a whole, max Φ_MIP = 0.415 at state 111 only (1/5); core {C,E} 2.000, adjuster outside. The flagged-only clause held: E=0 states 000 and 100 read Φ = 0 (`probe_458_gated`) |
-| H3 fraud-flag loop with override learning is triadic | **refuted** | `loop` triadic as a whole, max Φ_MIP = 1.000 (110: 0.415, 111: 1.000; 2/5); core {E,A} 2.000, claimant outside, the outcome H3's null named (`probe_459_loop`) |
-| H4 loop survives removing override learning | **refuted** | `loop_nolearn` triadic as a whole, max Φ_MIP = 2.000 (110: 0.415, 111: 2.000; 2/6); core {C,A} 2.000, engine outside (`probe_459_loop`) |
-| H5 freezing the claimant collapses the loop | **confirmed** | `loop_frozen_claimant` dyadic, max Φ_MIP = 0.000 in 0/5 states; sub-complex {E,A} 2.000 remains (`probe_460_liveness`) |
+| H1 pass-through pipe is triadic through closure | **confirmed** | `pipe` triadic, max Φ_MIP = 2.000, MIP 3 parts {C,E,A}, core {C,E,A} 2.000, Φ = 2.000 in 8/8 states (`probe_458_pipe`) |
+| H2 threshold auto-approval triadic only through flagged claims | **refuted** | `gated` triadic as a whole, max Φ_MIP = 0.415 at state 111 only (1/5); core {C,E} 2.000, adjuster outside. The flagged-only clause held: E=0 states 000 and 100 read Φ = 0 (`probe_459_gated`) |
+| H3 fraud-flag loop with override learning is triadic | **refuted** | `loop` triadic as a whole, max Φ_MIP = 1.000 (110: 0.415, 111: 1.000; 2/5); core {E,A} 2.000, claimant outside, the outcome H3's null named (`probe_460_loop`) |
+| H4 loop survives removing override learning | **refuted** | `loop_nolearn` triadic as a whole, max Φ_MIP = 2.000 (110: 0.415, 111: 2.000; 2/6); core {C,A} 2.000, engine outside (`probe_460_loop`) |
+| H5 freezing the claimant collapses the loop | **confirmed** | `loop_frozen_claimant` dyadic, max Φ_MIP = 0.000 in 0/5 states; sub-complex {E,A} 2.000 remains (`probe_461_liveness`) |
 
 **Through-line.** Only the plainest design binds all three parties. The pass-through pipe, in which the
 engine forwards, the adjuster copies, and the claimant reads the decision, is one irreducible loop in
@@ -41,6 +41,6 @@ and adjuster under a learning fraud loop, the claimant and adjuster when the eng
   in one or two of them.
 
 **Reproduce.** From the repo root with the venv active:
-`python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_457_pipe` (and `probe_458_gated`,
-`probe_459_loop`, `probe_460_liveness`); or `python ci/reproduce.py q219-h1-pipe q219-h2-gated
+`python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_pipe` (and `probe_459_gated`,
+`probe_460_loop`, `probe_461_liveness`); or `python ci/reproduce.py q219-h1-pipe q219-h2-gated
 q219-h3-h4-loop q219-h5-liveness`.

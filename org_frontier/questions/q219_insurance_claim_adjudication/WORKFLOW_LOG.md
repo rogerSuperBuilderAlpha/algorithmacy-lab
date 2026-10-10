@@ -97,7 +97,7 @@ No Φ was computed and no probe was run. `python tools/build_index.py --check` n
 directory out of date; it was left unregenerated. Nothing was committed or pushed, pending approval of
 the hypotheses.
 
-## 2026-10-09 — q219 lock, probes #457–#460, write-up
+## 2026-10-09 — q219 lock, probes #458–#461, write-up
 
 **12:51 EDT — Q11 read before locking.** `org_frontier/questions/q11_oscillatory_scaling/` and
 `org_frontier/studies/oscillatory_scaling/` define `rot_ring(n)` as the pure cyclic shift
@@ -129,7 +129,7 @@ was created from `upstream/contrib`, with the untracked files carried over.
 13-source literature scan were committed as `618da350` ("q219: review, literature scan, methods, and forms
 (pre-registration, before computation)"). The unused scaffold file `probe_template.py` was deleted.
 
-**12:52 EDT — probes #457–#460.** `python -m org_frontier.classifier.validate` printed `Instrument
+**12:52 EDT — probes #458–#461.** `python -m org_frontier.classifier.validate` printed `Instrument
 validated`. The first run attempt failed before any probe started, because `results/` did not exist for
 `tee` and `/usr/bin/time` and `bc` are not installed; the rerun wrote `results/run_*.txt` and the CSVs.
 Every probe's control passed (chat_dyad dyadic Φ=0.000, ats_triad_mediator triadic Φ=2.000), and each
@@ -149,7 +149,7 @@ Seven sources were added to the report; every cited key resolves to the bib.
 
 **12:54 EDT — write-up and registration.** `FINDINGS.md`, `paper.md`, and the hackathon `README.md` (results
 table, plain-words verdicts, reproduction commands, and a "Workflow & Grok Bot" section quoting both
-prompts) were written. `PROBES.md` gained rows #457–#460, and `ci/reproduce.json` gained four checks with
+prompts) were written. `PROBES.md` gained rows #458–#461, and `ci/reproduce.json` gained four checks with
 expect strings copied from the run output. A first edit re-serialized the whole JSON file; it was reverted
 and the checks were appended without reformatting. `tools/build_index.py`, `tools/build_map.py`, and
 `build_research_index.py` regenerated their files, and all four index `--check`s passed.
@@ -166,7 +166,7 @@ branch commits to that identity. Order, trees, messages, and author dates were k
 hypotheses-only commit is still first. The new hashes, in branch order:
 - `a8abd0fa197ab4dd079cc8beaca5dedbe9216c03` (q219: hypotheses (fixed before computation))
 - `618da350e6f89cc4b4b994eb78e7bd152bf82401` (review, literature scan, methods, forms)
-- `8672323deb2fecbae310957afcddd2a6fa599ae3` (probes 457–460 and results)
+- `8672323deb2fecbae310957afcddd2a6fa599ae3` (probes 458–461 and results)
 - `9225d70f8536de52f66c2aac052e9b9032e4dd9b` (literature, findings, paper, README)
 - `04292647d53e7bfab15fe9d1651c4544dc0ad034` (PROBES rows, CI checks, indexes)
 

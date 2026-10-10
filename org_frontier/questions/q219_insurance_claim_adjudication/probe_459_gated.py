@@ -1,4 +1,4 @@
-"""Probe 458 (Q219-H2) — is threshold auto-approval triadic only through flagged claims?
+"""Probe 459 (Q219-H2) — is threshold auto-approval triadic only through flagged claims?
 
 Question: when the engine auto-approves small claims and the adjuster sees only flagged ones, is the
 arrangement triadic, and does its irreducibility live only in flagged states? Hypothesis (H2): `gated`
@@ -8,7 +8,7 @@ phi_profile, and major_complex(). Decision rule (methods.md): confirmed if all t
 if triadic with full core but the state clause fails; refuted otherwise. Instrument control first.
 
 Run (from the repo root, venv active):
-    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_gated
+    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_gated
 """
 
 import os
@@ -27,7 +27,7 @@ from org_frontier.questions.q219_insurance_claim_adjudication._run import (
 
 
 def main():
-    print("PROBE 458 (Q219-H2) — threshold auto-approval: C'=E∧¬A, E'=C, A'=E∧C")
+    print("PROBE 459 (Q219-H2) — threshold auto-approval: C'=E∧¬A, E'=C, A'=E∧C")
     print("=" * 72)
     print(check_controls(verdict))
     r = run_form("gated", GATED)

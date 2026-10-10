@@ -133,9 +133,13 @@ entropy (or with the number of attractors)?
 
 - *Why it matters.* Population-level test of whether irreducibility and ergodic
   richness travel together.
-- *Method.* Computational: sample random forms; compute Φ_MIP and attractor
-  statistics; report rank correlation with pre-registered null. **Computable
-  now.**
+- *Method.* Computational: the complete strict-mediation n=3 census
+  (`corpus.population.enumerate_family`, 256 forms), rank correlation of
+  Φ_MIP with basin entropy and with attractor count, permutation null.
+  **Computable now. Status: run** —
+  `studies/ergodic_ensemble_richness/` → `NO_ENSEMBLE_LINK`
+  (ρ_entropy 0.1015, p 0.0510; ρ_count 0.1286, p 0.0185; both under
+  |ρ| ≥ 0.20).
 - *Support / falsify.* Support: positive rank correlation past null. Falsify:
   near-zero or negative correlation.
 

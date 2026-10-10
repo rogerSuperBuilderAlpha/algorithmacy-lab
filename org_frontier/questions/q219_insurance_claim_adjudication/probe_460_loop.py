@@ -1,4 +1,4 @@
-"""Probe 459 (Q219-H3, H4) — is the fraud-flag loop triadic, and does it survive removing override learning?
+"""Probe 460 (Q219-H3, H4) — is the fraud-flag loop triadic, and does it survive removing override learning?
 
 Question: when the adjuster upholds the engine's fraud flag only if flag and claim agree, and the engine's
 next flag learns from the adjuster's last call, are all three parties bound? Does the triad depend on the
@@ -7,7 +7,7 @@ H4 — `loop_nolearn` (C'=A, E'=C, A'=E∧C) is also triadic with major complex 
 and major_complex(); Φ magnitudes reported, not compared. Instrument control first.
 
 Run (from the repo root, venv active):
-    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_loop
+    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_loop
 """
 
 import os
@@ -26,7 +26,7 @@ from org_frontier.questions.q219_insurance_claim_adjudication._run import run_fo
 
 
 def main():
-    print("PROBE 459 (Q219-H3, H4) — fraud-flag loop with and without override learning")
+    print("PROBE 460 (Q219-H3, H4) — fraud-flag loop with and without override learning")
     print("=" * 72)
     print(check_controls(verdict))
     loop = run_form("loop", LOOP)

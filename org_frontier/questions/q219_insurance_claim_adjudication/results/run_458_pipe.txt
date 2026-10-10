@@ -1,4 +1,4 @@
-PROBE 457 (Q219-H1) — pass-through pipe: C'=A, E'=C, A'=E
+PROBE 458 (Q219-H1) — pass-through pipe: C'=A, E'=C, A'=E
 ========================================================================
 [control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS
   pipe                   triadic  max Φ_MIP=2.0000  MIP=3 parts: {C,E,A}  core={C,E,A} core Φ=2.0000

@@ -59,7 +59,7 @@ LOOP_FROZEN_CLAIMANT = [lambda x: x[0],              lambda x: x[0] & x[2], lamb
 - **Controls:** the instrument control above.
 - **Decision rule:** H1 confirmed if `pipe` is triadic (max Φ_MIP > 1e-9) with major complex
   {C, E, A}. Refuted if dyadic, or if the major complex has fewer than three labels.
-- **Script:** `probe_457_pipe.py`.
+- **Script:** `probe_458_pipe.py`.
 
 ## H2 test — threshold auto-approval
 
@@ -69,7 +69,7 @@ LOOP_FROZEN_CLAIMANT = [lambda x: x[0],              lambda x: x[0] & x[2], lamb
 - **Decision rule:** H2 confirmed if (i) `gated` is triadic, (ii) the major complex is exactly {C, E, A},
   and (iii) every state in `phi_profile` with Φ_MIP > 1e-9 has E = 1 and every state with E = 0 has
   Φ_MIP ≤ 1e-9. Partial if (i) and (ii) hold and (iii) fails. Refuted if (i) or (ii) fails.
-- **Script:** `probe_458_gated.py` (planned).
+- **Script:** `probe_459_gated.py` (planned).
 
 ## H3 test — fraud-flag loop with override learning
 
@@ -78,7 +78,7 @@ LOOP_FROZEN_CLAIMANT = [lambda x: x[0],              lambda x: x[0] & x[2], lamb
 - **Controls:** the instrument control above.
 - **Decision rule:** H3 confirmed if `loop` is triadic with major complex {C, E, A}. Refuted if dyadic,
   or if the major complex has fewer than three labels (for example {E, A}).
-- **Script:** `probe_459_loop.py` (planned).
+- **Script:** `probe_460_loop.py` (planned).
 
 ## H4 test — robustness to removing override learning
 
@@ -88,7 +88,7 @@ LOOP_FROZEN_CLAIMANT = [lambda x: x[0],              lambda x: x[0] & x[2], lamb
 - **Decision rule:** H4 confirmed if `loop_nolearn` is triadic with major complex {C, E, A}. Refuted if it
   is dyadic or its core has fewer than three labels. The Φ magnitudes of `loop` and `loop_nolearn` are
   reported but not compared: the program treats Φ magnitude as encoding-dependent.
-- **Script:** `probe_459_loop.py` (same script as H3, planned).
+- **Script:** `probe_460_loop.py` (same script as H3, planned).
 
 ## H5 test — liveness of the claimant
 
@@ -97,9 +97,8 @@ LOOP_FROZEN_CLAIMANT = [lambda x: x[0],              lambda x: x[0] & x[2], lamb
 - **Controls:** the instrument control above; `loop` (H3) as the reference form.
 - **Decision rule:** H5 confirmed if `loop_frozen_claimant` is dyadic (max Φ_MIP ≤ 1e-9). Refuted if
   triadic.
-- **Script:** `probe_460_liveness.py` (planned).
+- **Script:** `probe_461_liveness.py` (planned).
 
 ## Numbering
 
-Probe numbers start at 457. Upstream `main` and `contrib` log probes up to #451; open pull requests claim
-#453–#456 (#810) and #454 (#806), so 452–456 are avoided.
+Probe numbers are 458–461. Probe 457 is the weighted-quorum probe on `contrib`. Probe 452 is the engagement-feed question, and probes 453–456 are the rotating chair.

@@ -1,4 +1,4 @@
-"""Probe 457 (Q219-H1) — is a pass-through claims pipe triadic through closure alone?
+"""Probe 458 (Q219-H1) — is a pass-through claims pipe triadic through closure alone?
 
 Question: when the engine only forwards the claim to the adjuster and the claimant reads the adjuster's
 decision, does the three-party arrangement factor? Hypothesis (H1): `pipe` (C'=A, E'=C, A'=E), identical
@@ -7,7 +7,7 @@ verdict() and major_complex(); decision rule from methods.md. Instrument control
 and ats_triad_mediator reads triadic at Φ=2.0 before the comparison.
 
 Run (from the repo root, venv active):
-    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_457_pipe
+    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_pipe
 """
 
 import os
@@ -24,7 +24,7 @@ from org_frontier.questions.q219_insurance_claim_adjudication._run import run_fo
 
 
 def main():
-    print("PROBE 457 (Q219-H1) — pass-through pipe: C'=A, E'=C, A'=E")
+    print("PROBE 458 (Q219-H1) — pass-through pipe: C'=A, E'=C, A'=E")
     print("=" * 72)
     print(check_controls(verdict))
     r = run_form("pipe", PIPE)

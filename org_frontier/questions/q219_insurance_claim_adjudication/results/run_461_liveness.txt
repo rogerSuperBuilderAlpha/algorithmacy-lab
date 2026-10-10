@@ -1,4 +1,4 @@
-PROBE 460 (Q219-H5) — claimant liveness: C'=C, E'=C∧A, A'=E∧C
+PROBE 461 (Q219-H5) — claimant liveness: C'=C, E'=C∧A, A'=E∧C
 ========================================================================
 [control] chat_dyad: dyadic Φ=0.000 | ats_triad_mediator: triadic Φ=2.000 -> PASS
   loop                   triadic  max Φ_MIP=1.0000  MIP=2 parts: {C,EA}  core={E,A} core Φ=2.0000

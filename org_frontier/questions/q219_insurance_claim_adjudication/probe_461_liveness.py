@@ -1,4 +1,4 @@
-"""Probe 460 (Q219-H5) — does freezing the claimant collapse the fraud-flag loop?
+"""Probe 461 (Q219-H5) — does freezing the claimant collapse the fraud-flag loop?
 
 Question: if the claimant no longer reads the decision, is the claim still decided by an irreducible
 three-party arrangement? Hypothesis (H5): `loop_frozen_claimant` (C'=C, E'=C∧A, A'=E∧C) is dyadic
@@ -6,7 +6,7 @@ three-party arrangement? Hypothesis (H5): `loop_frozen_claimant` (C'=C, E'=C∧A
 Decision rule (methods.md): confirmed if dyadic, refuted if triadic. Instrument control first.
 
 Run (from the repo root, venv active):
-    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_liveness
+    python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_461_liveness
 """
 
 import os
@@ -25,7 +25,7 @@ from org_frontier.questions.q219_insurance_claim_adjudication._run import run_fo
 
 
 def main():
-    print("PROBE 460 (Q219-H5) — claimant liveness: C'=C, E'=C∧A, A'=E∧C")
+    print("PROBE 461 (Q219-H5) — claimant liveness: C'=C, E'=C∧A, A'=E∧C")
     print("=" * 72)
     print(check_controls(verdict))
     ref = run_form("loop", LOOP)
