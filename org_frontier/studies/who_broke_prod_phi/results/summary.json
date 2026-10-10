@@ -1,0 +1,99 @@
+{
+ "forms": {
+  "chain_relay": {
+   "core": [
+    "A1"
+   ],
+   "core_phi": 1.0,
+   "integrated_core": false,
+   "labels": [
+    "A1",
+    "A2",
+    "A3",
+    "I"
+   ],
+   "phi_mip": 0.0,
+   "whole": "dyadic"
+  },
+  "flat_report": {
+   "core": [
+    "A2"
+   ],
+   "core_phi": 1.0,
+   "integrated_core": false,
+   "labels": [
+    "A1",
+    "A2",
+    "I"
+   ],
+   "phi_mip": 0.0,
+   "whole": "dyadic"
+  },
+  "hub_commit": {
+   "core": [
+    "A1",
+    "M",
+    "A2"
+   ],
+   "core_phi": 2.0,
+   "integrated_core": true,
+   "labels": [
+    "A1",
+    "M",
+    "A2",
+    "I"
+   ],
+   "phi_mip": 0.0,
+   "whole": "dyadic"
+  },
+  "hub_forward": {
+   "core": [
+    "A2"
+   ],
+   "core_phi": 1.0,
+   "integrated_core": false,
+   "labels": [
+    "A1",
+    "M",
+    "A2",
+    "I"
+   ],
+   "phi_mip": 0.0,
+   "whole": "dyadic"
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "supported": true
+  },
+  "H2": {
+   "supported": true
+  },
+  "H3": {
+   "best_without_core": "hub",
+   "diff": 0.0,
+   "p": 1.0,
+   "supported": false
+  },
+  "H4": {
+   "best_without_core": "hub",
+   "diff": 0.565,
+   "p": 1.925929944387236e-34,
+   "supported": true
+  },
+  "H5": {
+   "diff": 0.0,
+   "p": 1.0,
+   "supported": false
+  },
+  "H6": {
+   "supported": true
+  }
+ },
+ "neutral_min_accuracy": {
+  "chain": 1.0,
+  "flat": 1.0,
+  "hub": 1.0,
+  "hub_commit": 1.0
+ }
+}

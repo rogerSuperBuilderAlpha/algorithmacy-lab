@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <title>Figure 1. The three parts of algorithmacy as a cycle among participant, counterpart, and intermediary</title>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#222"/></marker>
+    <marker id="g" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#888"/></marker>
+  </defs>
+  <rect width="980" height="560" fill="#fff"/>
+  <!-- parties -->
+  <rect x="370" y="40" width="240" height="78" rx="6" fill="#f2f2f2" stroke="#222" stroke-width="1.5"/>
+  <text x="490" y="68" text-anchor="middle" font-weight="bold">Intermediary</text>
+  <text x="490" y="88" text-anchor="middle" font-size="12">evaluates and binds both; its rule is</text>
+  <text x="490" y="104" text-anchor="middle" font-size="12">hidden, unanswerable, and changing</text>
+  <rect x="250" y="360" width="170" height="56" rx="6" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <text x="335" y="393" text-anchor="middle" font-weight="bold">Participant</text>
+  <rect x="560" y="360" width="170" height="56" rx="6" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <text x="645" y="393" text-anchor="middle" font-weight="bold">Counterpart</text>
+  <!-- the arrangement (grey) -->
+  <line x1="428" y1="388" x2="552" y2="388" stroke="#888" stroke-width="1.5" marker-end="url(#g)" marker-start="url(#g)"/>
+  <text x="490" y="378" text-anchor="middle" fill="#666" font-size="12">their dealings</text>
+  <line x1="490" y1="356" x2="490" y2="126" stroke="#888" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#g)"/>
+  <text x="498" y="236" fill="#666" font-size="12">taken as</text>
+  <text x="498" y="252" fill="#666" font-size="12">evidence</text>
+  <line x1="420" y1="122" x2="345" y2="352" stroke="#888" stroke-width="1.5" marker-end="url(#g)"/>
+  <text x="372" y="236" text-anchor="end" fill="#666" font-size="12">verdict</text>
+  <line x1="560" y1="122" x2="635" y2="352" stroke="#888" stroke-width="1.5" marker-end="url(#g)"/>
+  <text x="608" y="236" fill="#666" font-size="12">verdict</text>
+  <!-- cycle (black) -->
+  <path d="M 366 62 C 250 90, 215 250, 262 352" fill="none" stroke="#222" stroke-width="2.2" marker-end="url(#a)"/>
+  <path d="M 300 422 C 380 490, 600 490, 680 422" fill="none" stroke="#222" stroke-width="2.2" marker-end="url(#a)"/>
+  <path d="M 718 352 C 765 250, 730 90, 614 62" fill="none" stroke="#222" stroke-width="2.2" marker-end="url(#a)"/>
+  <!-- labels -->
+  <text x="20" y="190" font-weight="bold">1  Interpreting</text>
+  <text x="20" y="210" font-size="12">Did the result come from the rule,</text>
+  <text x="20" y="226" font-size="12">the counterpart, or both?</text>
+  <text x="20" y="246" font-size="12" font-style="italic">helps recover accountability</text>
+  <text x="490" y="506" text-anchor="middle" font-weight="bold">2  Specifying intent</text>
+  <text x="490" y="526" text-anchor="middle" font-size="12">One act addressed to two readers, the counterpart and the intermediary</text>
+  <text x="490" y="544" text-anchor="middle" font-size="12" font-style="italic">helps recover common understanding</text>
+  <text x="772" y="190" font-weight="bold">3  Keeping track</text>
+  <text x="772" y="210" font-size="12">Has the rule changed,</text>
+  <text x="772" y="226" font-size="12">or has the counterpart?</text>
+  <text x="772" y="246" font-size="12" font-style="italic">helps recover predictability</text>
+</svg>

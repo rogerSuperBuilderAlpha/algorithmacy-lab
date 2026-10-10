@@ -1,0 +1,361 @@
+Decision Experience Design in Physical Space: Algorithmic Intermediation, Material Enforcement, and the Limits of Choice Architecture
+
+An algorithmic match calculated on remote servers produces immediate physical obligations on city streets. In commercial ride-hailing, two individuals converge on a specific curb under parameters determined by an automated system. The passenger follows a screen coordinate, while the driver follows a navigation system that locks out alternative routing software. Neither participant negotiated the price, selected the exact boarding location, or established the cancellation penalties (Cameron, 2024; Möhlmann et al., 2021). The platform ingests telemetry from both participants, computes the dispatch, and transfers the frictions of that match directly onto human bodies navigating physical streets (Cameron, 2024; Rosenblat & Stark, 2016).
+
+[[DIAGRAM:curbside]]
+
+Classical behavioral economics models environmental influence through static physical structures. In the canonical cafeteria experiment, a food director places fresh fruit at eye level and relocates desserts to less accessible corners (Thaler & Sunstein, 2008). The cafeteria displays an inert, material architecture that affects every patron identically. The serving counter collects no data from diner trays, alters no layouts in response to approaching individuals, and mediates no bilateral exchange between counterparties (Hollands et al., 2017).
+
+Decision Experience Design defines an interactive system wherein an adaptive, opaque algorithmic intermediary simultaneously reads multiple parties and commits binding determinations that neither party fully controls. While software interfaces frame users as disembodied operators viewing screens, corporate strategies in retail, logistics, and hospitality increasingly deploy computational intermediaries into physical space under the commercial label of the "phygital".
+
+Physical decision experience design exists only within narrow structural boundaries. Most hybrid environments remain classical choice architecture, governed by the traditional principles of environmental psychology and servicescape design. True physical decision experience design occurs exclusively when an adaptive intermediary ingests data from multiple human parties and enforces an outcome that those parties must execute with their physical bodies. The physical environment serves as the operational site where algorithmic determinations harden into material constraints, where refusal incurs concrete monetary or social costs, and where organizational systems displace administrative accountability onto frontline personnel.
+
+1. The Operational Marks of Decision Experience Design
+
+Evaluating whether a physical or hybrid space belongs to Decision Experience Design requires four operational criteria. These criteria separate genuine multi-party algorithmic intermediation from static choice architecture and direct corporate administration.
+
++--------------------------------------------------------------------------------------------------+
+|                              THE FOUR MARKS OF DECISION EXPERIENCE DESIGN                        |
++--------------------------------------------------------------------------------------------------+
+|  Mark 1: Distinct Intermediary  | Operates as an administratively distinct third party between    |
+|                                 | counterparties who hold divergent interests in the outcome.     |
++---------------------------------+----------------------------------------------------------------+
+|  Mark 2: Bilateral Telemetry    | Actively ingests operational data from both counterparties      |
+|                                 | during the encounter rather than relying on historical records. |
++---------------------------------+----------------------------------------------------------------+
+|  Mark 3: Mutual Binding         | Commits an outcome that neither party can unilaterally or      |
+|                                 | costlessly undo within the physical environment.                |
++---------------------------------+----------------------------------------------------------------+
+|  Mark 4: Dynamic Rule Drift     | Adjusts matching parameters, weights, or prices across          |
+|                                 | encounters rather than presenting a fixed, permanent rule.       |
++--------------------------------------------------------------------------------------------------+
+
+The first mark requires an administratively or economically distinct third party standing between counterparties who hold divergent interests. An employer directing an employee or a retailer selling to a customer represents a direct dyadic hierarchy, not an intermediated transaction. The intermediary must function as an external arbiter regulating the interaction.
+
+The second mark requires active, real-time sensing of both parties during the encounter. An environmental system that reads historical demographic aggregates or monitors only one participant fails this standard. The intermediary must ingest operational data from both sides of the exchange as the interaction unfolds.
+
+The third mark requires a binding determination that neither party can unilaterally or costlessly alter. If either participant can walk away without financial, legal, or physical penalties, the system functions as a advisory recommendation rather than an administrative ruling. The determination restricts subsequent human action.
+
+The fourth mark requires dynamic rule adaptation across encounters. Systems that enforce permanent, immutable rules function as static physical barriers or simple digital access controls. Decision Experience Design requires operational rules, dispatch algorithms, or pricing formulas that drift dynamically based on broader environmental conditions or machine learning retraining cycles.
+
+The curbside ride-hail pickup demonstrates all four marks. The platform operates as an economically distinct intermediary between an independent contractor and a consumer (Cameron, 2024). The application ingests continuous spatial coordinates, cancellation histories, and acceptance velocities from both parties (Möhlmann et al., 2021). The computed match binds the driver to proprietary navigation and a concealed fare, while binding the rider to upfront pricing and financial penalties for cancellation (Rosenblat & Stark, 2016). The pricing multipliers and dispatch matrices adapt continuously across shifts and geographic sectors (Lee et al., 2015).
+
+The behavioral cafeteria satisfies none of these operational marks. The dining facility features no third-party intermediary; the catering administration designs the serving space directly (Thaler & Sunstein, 2008). The food line reads no individual tray weights, heart rates, or payment capacities during selection (Hollands et al., 2017). The display places no binding contractual obligation upon the diner, who can bypass apples to reach cakes at zero monetary penalty (Thaler & Sunstein, 2008). The food placement remains stationary throughout the meal service, applying an unchanging geometry to every patron (Hollands et al., 2017). The cafeteria represents pure choice architecture.
+
+2. Theoretical Deficits in Phygital Research
+
+Marketing scholarship imported the term "phygital" directly from corporate advertising campaigns without establishing rigorous sociological or economic foundations (Johnson & Barlow, 2021; Mele et al., 2023). The construct represents an ambiguous conceptual category utilized primarily to describe commercial retail strategies (Mele et al., 2023). A systematic review indicates that empirical studies deploy the term without operational consensus, oscillating between ubiquitous computing descriptions and consumer experience frameworks (Mele et al., 2023).
+
+Marketing theorists argue that physical and digital interactions have fused into an indivisible continuum, attributing autonomous agency to hybrid environments (Mele & Russo-Spena, 2025). This scholarship builds on philosophical concepts of hyperconnected environments to declare the boundary between online and offline behavior obsolete (Floridi, 2015; Mele & Russo-Spena, 2025). From this perspective, physical and computational spaces form an integrated network where technologies co-create economic value alongside human participants (Mele & Russo-Spena, 2025).
+
+This theoretical perspective prioritizes the systematic elimination of transaction friction. Marketing literature characterizes the ideal customer journey as a continuous flow that removes conscious cognitive deliberation (Batat, 2024; Johnson & Barlow, 2021). Automated checkouts, mobile payments, and sensor-driven access eliminate tangible payment interactions, raising expenditures by reducing the felt "pain of payment" (Johnson & Barlow, 2021). Friction operates within this discourse as an operational failure requiring technological removal.
+
++--------------------------------------------------------------------------------------------------+
+|                            SEAMLESS DESIGNS VERSUS CONSTRUCTIVE FRICTION                         |
++--------------------------------------------------------------------------------------------------+
+|  Commercial "Seamless" Model     | Conceals pricing mechanisms, automates payment extraction,    |
+|                                  | accelerates checkout velocity, and removes cognitive pauses.  |
++----------------------------------+---------------------------------------------------------------+
+|  Constructive Friction Model     | Introduces explicit operational verifications, preserves human|
+|  (after Padigar et al., 2025)    | dignity, prevents automated steering, and exposes authority.  |
++--------------------------------------------------------------------------------------------------+
+
+A parallel body of research argues that not all friction is a defect: some customer effort creates value, and eliminating this constructive friction can hinder value creation (Padigar et al., 2025). Unstaffed just walk out stores generate consumer apprehension about privacy, payment, and system reliability, transforming routine transactions into encounters with camera-based surveillance (Hazée et al., 2025; Schultz & Paetz, 2025). Offering interaction with an employee as a fall-back option offsets the negative consequences of forcing customers onto self-service technology (Reinders et al., 2008).
+
+Empirical inquiries identify systemic structural problems within automated physical environments. Service providers engineer digital technology captivity by dismantling non-digital access methods, forcing consumers onto mobile applications to obtain admission to transit hubs, stadiums, and food markets (Wilson-Nash et al., 2026). Providers increasingly replace full service with technology-based self-service, sometimes leaving no other option, and forced use breeds negative attitudes toward both the technology and the provider (Reinders et al., 2008). Phygital service systems impose digitally enforced rules, and rigid rules intensify exclusion (Shabnam et al., 2026). Service research frames technology as able to augment or substitute for frontline employees (Larivière et al., 2017), and in practice self-checkout recasts cashiers as monitors who troubleshoot machine problems and police customers (Moradi et al., 2025).
+
+The central analytical failure of phygital scholarship lies in its exclusive reliance on dyadic models. Marketing research models an individual consumer moving through a corporate sales funnel, evaluating single-user perceptions of brand consistency and convenience (Batat, 2024; Johnson & Barlow, 2021). The field offers no conceptual model of an algorithmic system that ingests telemetric streams from two distinct human parties and executes a binding settlement between them.
+
+Phygital research often locates the remedy in legibility, holding that transparent algorithms enhance autonomy and trust while opacity reduces control (Shabnam et al., 2026). Informational disclosures fail because human autonomy inside computational systems depends on operational control rather than cognitive transparency. Reading a static disclosure notification provides a user with zero operational capacity to alter an automated administrative determination.
+
+3. Structural Predecessors: Static Environments, Physical Artifacts, and Built Scripts
+
+Physical environments have shaped human economic behavior through spatial design for decades. Marketing literature defined "atmospherics" as the purposeful structuring of retail space to stimulate emotional responses that increase sales probabilities (Kotler, 1973). Atmospherics manipulates sensory dimensions, including lighting, background acoustics, aromas, and spatial flow (Kotler, 1973). The framework assumes an autonomous consumer who browses a fixed physical setting and retains the unrestricted legal right to leave without financial penalties (Kotler, 1973). Atmospherics alters sensory perception, but it cannot alter legal terms or record individual biometric states.
+
+The servicescape framework expanded environmental analysis by modeling how physical space governs both customers and service employees (Bitner, 1992). Physical service environments accommodate conflicting operational priorities: layouts optimized for employee processing speeds frequently undermine customer physical comfort, and designs oriented toward leisure degrade employee labor efficiency (Bitner, 1992). The architecture of the servicescape settles this conflict through physical walls, fixed counter heights, and built walkways (Bitner, 1992).
+
++--------------------------------------------------------------------------------------------------+
+|                            HISTORICAL PROGRESSION OF PHYSICAL MEDIATION                          |
++--------------------------------------------------------------------------------------------------+
+|  Atmospherics (Kotler, 1973)     | Fixed sensory ambiance; assumes costless consumer exit;       |
+|                                  | single-party orientation; no individual telemetry.             |
++----------------------------------+---------------------------------------------------------------+
+|  Servicescapes (Bitner, 1992)    | Two-party physical conflict (worker vs. patron) settled at    |
+|                                  | design time; rigid physical partitions; completely static.     |
++----------------------------------+---------------------------------------------------------------+
+|  Prescriptive Objects            | Mechanical delegation; physical enforcement of civic scripts; |
+|  (Latour, 1992; Akrich, 1987)    | uncalibrated resistance; fixed ratios without computation.     |
++----------------------------------+---------------------------------------------------------------+
+|  Decision Experience Design      | Dynamic algorithmic intermediary; real-time bilateral         |
+|  (Contemporary DXD)              | telemetry; mutual binding enforcement; shifting parameters.   |
++--------------------------------------------------------------------------------------------------+
+
+Servicescapes manage two distinct human populations, but they settle operational tensions once during architectural design (Bitner, 1992). The reception desk, retail display, or office partition remains anchored to the floor until physical remodeling takes place (Bitner, 1992). Classical physical design does not assume a lone actor; it assumes multiple human actors whose competing priorities are constrained by an unmoving material room (Bitner, 1992).
+
+Public policy typologies for behavioral interventions formalize this architectural stability. The TIPPME framework classifies environmental nudges, such as item placement and container sizing, by explicitly excluding systems that tailor options to specific individuals or ingest personalized transactional histories (Hollands et al., 2017). Behavioral choice architecture restricts its scope to fixed environments that apply identical choices to all participants (Hollands et al., 2017).
+
+Choice architects frequently introduce structural nudges without deliberate intent (Thaler & Sunstein, 2008). Facility managers who specify door widths and warehouse workers who load shelves alter behavioral choices without conceptualizing their tasks as psychological engineering (Thaler & Sunstein, 2008). The fundamental distinction between choice architecture and Decision Experience Design does not hinge on the conscious intent of the architect; it hinges on whether the intermediating architecture remains static or adapts dynamically based on real-time data.
+
+Science and technology studies confirm that non-computational artifacts enforce social obligations through material construction (Latour, 1992). Organizations delegate human administrative tasks to mechanical objects: a hydraulic spring replaces a door attendant to keep conditioned air indoors, an ignition chime enforces seatbelt use, and a concrete speed bump compels vehicular deceleration (Latour, 1992). The mechanical artifact enforces an administrative script by physically obstructing non-compliant actions (Latour, 1992).
+
+These non-digital devices lack the core properties of Decision Experience Design. The speed bump and the hydraulic door-closer execute mechanical resistance uniformly across every user (Latour, 1992). The concrete mound cannot read vehicle registration plates to modify its elevation, nor can the door hinge assess the physical strength of an approaching pedestrian to alter its resistance (Latour, 1992). The artifact carries a rigid social script, but its operational behavior remains completely static.
+
+Mechanical meters historically functioned as physical arbiters between institutional suppliers and domestic consumers (Akrich, 1987). The electric utility meter in Abidjan mediated the relationship between a state utility vulnerable to revenue fraud and consumers vulnerable to fabricated billing claims (Akrich, 1987). The mechanical device required reciprocal participation: electricity had to cross the internal coils to turn the recording dials (Akrich, 1987). The physical device was an independent arbiter whose measurement bound both parties in administrative law (Akrich, 1987). The mechanical meter held entirely still: its internal gears operated on an immutable gear ratio determined by electromagnetism, incapable of dynamic algorithmic recalculation across time (Akrich, 1987).
+
+Built architectural forms cannot enforce governance in the absence of administrative legal authority (Joerges, 1999). The claim that low stone overpasses on Long Island parkways served as architectural barriers to exclude low-income bus riders from public beaches conflates design intent with institutional power (Joerges, 1999; Winner, 1980). Administrative regulations explicitly banned commercial buses from all New York parkways, low bridge clearances conformed to standard highway safety engineering practices of the era, and public transit buses traveled to Jones Beach via surface roads (Joerges, 1999). Physical structures do not govern on their own; institutional regulations, legal police powers, and property rights dictate behavioral outcomes (Joerges, 1999).
+
+4. Human-Computer Interaction Foundations: Seams, Invisibility, and Repair
+
+Ubiquitous computing research rejected the pursuit of cosmetic seamlessness early in its development. Pervasive computation integrates microprocessors into ordinary physical artifacts (Weiser, 1991). Physical environments introduce radical infrastructural fragmentation, including dropped wireless connections, degraded sensors, and hardware misalignments (Weiser, 1994). Rather than concealing operational faults behind artificial interfaces, systems must present their structural joints openly to human users through seamful design (Weiser, 1994).
+
++--------------------------------------------------------------------------------------------------+
+|                            SEAMFUL DESIGN VERSUS SEAMLESS CONCEALMENT                            |
++--------------------------------------------------------------------------------------------------+
+|  Seamful Paradigm                | Highlights communication boundaries, positioning errors, and  |
+|  (Chalmers, 2003; Weiser, 1994)  | infrastructural limits, enabling users to exploit edges.      |
++----------------------------------+---------------------------------------------------------------+
+|  Seamless Concealment            | Fabricates frictionless continuity, conceals system failures, |
+|  (Bell & Dourish, 2007)          | hides authority shifts, and eliminates opportunities to repair|
++--------------------------------------------------------------------------------------------------+
+
+Exposing infrastructural seams creates direct operational affordances for human users (Chalmers, 2003; Chalmers & Galani, 2004). Real-world computational architectures exhibit unavoidable material edges: radio frequencies fluctuate, satellite positioning drifts inside buildings, and battery voltages drop under load (Chalmers, 2003). In mixed-reality games, players quickly treated satellite signal shadows cast by tall buildings as tactical hiding locations rather than network errors (Chalmers, 2003). Physical and technical seams are not system pathologies; they represent the concrete boundaries of computational environments (Chalmers & Galani, 2004).
+
+The corporate vision of ubiquitous computing functions as an ungrounded technical fantasy (Bell & Dourish, 2007). Deployed computing infrastructure remains messy, incomplete, and dependent on legacy physical systems that resist clean corporate control (Bell & Dourish, 2007). Modern retail and marketing frameworks reproduce this seamless fantasy by treating operational friction as an intolerable defect. In pursuing frictionless environments, commercial developers systematically conceal the physical points where computational control extracts economic value.
+
+Interactive machines perceive human activities through narrow sensor apertures (Suchman, 1985). In observational studies of automated photocopiers, the computational system understood human action only through internal microswitches, projecting complex user behavior onto fixed procedural programs (Suchman, 1985). The machine cannot perceive the situated physical reality of the human actor.
+
+Resolving this sensory divide requires immediate, tangible mechanisms for operational repair rather than abstract system disclosures (Suchman, 1985). When an automated system malfunctions, users do not benefit from abstract explanations of internal machine logic; they require physical levers, paper-release doors, and manual abort controls to correct errors and restore operation (Suchman, 1985). Agency within physical computational environments requires tangible tools to halt, contest, and correct algorithmic operations during execution. Algorithmic literacy represents an operational capacity to act rather than a passive comprehension of system code.
+
+Seamful design provides direct operational affordances rather than informational disclosures (Chalmers, 2003). Explainable artificial intelligence research has predominantly tackled algorithmic opacity, and seamful XAI researchers argue that hiding system seams disempowers users from mitigating the fallout of AI mistakes (Ehsan et al., 2024). Seamful interaction focuses on structuring operational controls so that material and software discontinuities can be detected and navigated during action (Chalmers, 2003; Chalmers & Galani, 2004).
+
+5. Comparative Evaluation Across the Four Marks
+
+Evaluating physical and hybrid arrangements across the four operational marks distinguishes genuine Decision Experience Design from standard choice architecture and bureaucratic organizational control.
+
+[[TABLE]]
+
+5.1 Ride-Hail Kerbside Matching
+
+Ride-hail pickups satisfy all four operational marks of physical Decision Experience Design. The platform operates as an economically independent entity arbitrating between two participants with opposing incentives (Cameron, 2024). The software continuously tracks driver acceleration rates, GPS points, acceptance statistics, passenger locations, and account ratings (Möhlmann et al., 2021). The match locks both participants into binding physical obligations: the driver must navigate an unrevealed route for a predetermined fee under timer constraints, while an UberX passenger incurs per-minute wait fees for failing to board within two minutes of the driver's arrival (Cameron, 2024; Rosenblat & Stark, 2016; Uber, n.d.). Dispatch algorithms, surge factors, and incentive structures shift quickly and unpredictably from the driver's vantage point (Lee et al., 2015). Driver and passenger physically execute a match computed by an algorithmic intermediary.
+
+5.2 The Airport Biometric Gate
+
+International border boarding gates deploy the Traveler Verification Service (TVS) to automate identity verification (U.S. Customs and Border Protection [CBP], 2018; Transportation Security Administration [TSA], 2026). The federal government serves as a third-party intermediary arbitrating access between commercial air carriers and passengers (Adey, 2004). The system ingests commercial flight manifests from the airline while simultaneously recording live facial biometric geometry from the passenger at the turnstile (CBP, 2018; TSA, 2026). The determination commits an absolute outcome: biometric verification opens the physical boarding gate, whereas a system non-match blocks boarding and alerts enforcement officers (Adey, 2004; Kitchin & Dodge, 2009). The system updates facial gallery subsets and passenger risk scores for every departing flight (Adey, 2004; TSA, 2026).
+
+The airport gate reveals an operational hybrid: the algorithm generates a determination, but human agents commit the physical outcome. Border personnel and gate agents routinely override false rejections, verify secondary physical documents, and negotiate system discrepancies (Kitchin & Dodge, 2009).
+
+The biometric gate illustrates how physical systems inflate exit costs. Federal policy permits United States citizens to opt out of biometric face scans, but government auditors found that privacy notices were often incomplete, outdated, or unavailable and that opt-out information was limited (Gambler, 2022). Travelers attempting to exercise opt-out rights at airport checkpoints report being scanned before they could decline, being discouraged or refused by officers, and fearing secondary screening (Buolamwini et al., 2025). The physical environment renders nominal legal opt-out rights prohibitively costly.
+
+5.3 Warehouse Pick Paths and Rate Systems
+
+Automated fulfillment centers direct warehouse workers along software-optimized routes, indicating specific item locations and displaying countdown timers for item extraction (Cheon & Erickson, 2025; Delfanti, 2021). Wearable scanners record physical movements and calculate task execution speeds in real time (Cheon & Erickson, 2025). If a worker remains inactive for more than several minutes, the platform logs "Time Off Task," accumulating records that trigger automated termination notices (Cheon & Erickson, 2025; Gutelius & Theodore, 2019).
+
+The warehouse rate system does not satisfy all four marks of Decision Experience Design. The platform belongs entirely to the corporate employer rather than an independent third party. Frontline supervisors function merely as diagnostic investigators summoned to confirm or excuse automated algorithmic penalties (Cheon & Erickson, 2025). Telemetric sensing remains entirely one-sided: the scanner monitors the worker's physical body, while the consumer remains an unmonitored order record in a database. The determination binds the worker under threat of discharge but imposes zero physical obligations on the purchasing consumer. Picking quotas vary by facility and position and are imposed on workers rather than negotiated (Cheon & Erickson, 2025; U.S. Senate Committee on Health, Education, Labor, and Pensions, 2024). The warehouse represents asymmetric algorithmic control rather than multi-party decision design.
+
+The warehouse illustrates how algorithmic metrics manifest as physical constraints. State statutory regulations restrict these physical manifestations: California Assembly Bill 701 (2021) and the New York Warehouse Worker Protection Act (2022) require employers to provide written quota descriptions and prohibit quotas that penalize workers for taking bathroom breaks (Cal. Lab. Code §§ 2100–2112, 2021; N.Y. Lab. Law §§ 780–788, 2022). In France, the Conseil d'État cut the data-protection fine against Amazon France Logistique from €32 million to €15 million: it held that the scanner productivity indicators themselves had a lawful basis, but upheld the finding that retaining every worker's scanner data for 31 days breached the GDPR's data-minimisation principle (Conseil d'État, 2025).
+
+5.4 Hotel Housekeeping Dispatch
+
+Hospitality facilities deploy mobile workforce management platforms to direct room cleaning sequences (Spektor et al., 2023). Hotel attendants receive shifting cleaning assignments on handheld screens (Spektor et al., 2023). When guests request expedited check-ins, the software reorganizes the schedule, forcing attendants to maneuver linen carts between distant floors rather than cleaning rooms in geographical sequence (Spektor et al., 2023). Attendants cannot decline platform orders without facing workplace discipline (Spektor et al., 2023). The system operates as an asymmetric corporate tool: it records the employee's labor and responds to guest requests, binding the worker's physical exertion while providing the guest with seamless service (Spektor et al., 2023).
+
+5.5 Tracked Casino Floors
+
+Casinos track patron activities through magnetic loyalty cards and network-connected gaming terminals (Schüll, 2005, 2012). The system records bet frequency, wagering size, button actuation speed, and total losses (Schüll, 2005). Modern slot platforms dynamically modify payout pacing, visual assets, and game volatility based on real-time player-tracking data, while floor managers adjust spatial banks using real-time foot-traffic maps (Schüll, 2012).
+
+The casino floor does not qualify as Decision Experience Design. The house owns the entire apparatus, acting as an integrated commercial predator rather than an independent arbiter. The system ingests telemetry exclusively from the gambler, altering odds to maximize house revenue. Casino tracking represents sensor-augmented choice architecture designed for unilateral value extraction.
+
+5.6 SFpark: The Declared Operating Envelope
+
+The SFpark municipal parking system deployed roadway sensors to monitor block-by-block vehicle occupancy, adjusting street meter rates to maintain target vacancy levels of one to two spaces per block (Pierce & Shoup, 2013). The parking system alters pricing based on aggregate behavioral demand, but it operates through a published, predictable schedule (Pierce & Shoup, 2013). Rates shift within pre-announced ranges across six-week evaluation cycles (Pierce & Shoup, 2013).
+
++--------------------------------------------------------------------------------------------------+
+|                            THE DECLARED OPERATING ENVELOPE (SFpark)                              |
++--------------------------------------------------------------------------------------------------+
+|  Occupancy Telemetry       ==>  Aggregated over 6-week cycles across city blocks.                |
+|  Adjustment Schedule       ==>  Published, pre-announced intervals (no intraday volatility).     |
+|  Rate Adjustment Bounding  ==>  Constrained by fixed increments (+$0.25 / -$0.25 steps).         |
+|  Cognitive Navigability    ==>  Motorists navigate clear rules with zero dynamic opacity.        |
++--------------------------------------------------------------------------------------------------+
+
+SFpark illustrates a declared operating envelope in municipal infrastructure. The operational rules shift, but that adaptation remains bounded, public, and slow enough for human drivers to assess and navigate deliberately (Pierce & Shoup, 2013). The system lacks a multi-party intermediary and binds patrons only through standard municipal parking ordinances.
+
+5.7 App-Required Physical Access and Cashless Counters
+
+Automated convenience stores requiring mobile application check-ins and retail establishments that reject cash transactions enforce digital compliance at the physical boundary. The underlying logic remains static: software checks credentials at the doorway and applies an unchanging rule to all visitors. The system adapts nothing in real time.
+
+These spaces generate severe digital technology captivity (Wilson-Nash et al., 2026). Consumers who lack smartphones, active cellular data plans, or digital financial instruments face exclusion from purchasing food and essential merchandise (Wilson-Nash et al., 2026). Municipalities and state legislatures in Massachusetts and New York intervened by mandating cash acceptance at physical storefronts, blocking corporations from turning digital payment credentials into prerequisites for physical retail participation (Mass. Gen. Laws ch. 255D, § 10A, 1978; N.Y. Gen. Bus. Law § 396-ii, 2025; N.Y.C. Admin. Code § 20-840, 2020).
+
+5.8 Electronic Shelf Labels
+
+Federal regulators and legislative inquiries express concern that digital shelf displays enable surveillance pricing, where grocery stores alter food costs using facial scanners, personal loyalty histories, or local weather conditions (Federal Trade Commission [FTC], 2024, 2025; Warren & Casey, 2024). New York now requires any seller to disclose, alongside the price, when that price was set by an algorithm using the consumer's personal data (N.Y. Gen. Bus. Law § 349-a, 2025).
+
+Empirical deployments diverge sharply from these surveillance capabilities. Retailers install electronic shelf labels to reduce the labor and material costs of changing prices, and adoption produces more frequent, smaller price changes, most of them decreases (Stamatopoulos et al., 2021). Transaction data from a major US grocery chain show no meaningful rise in short-lived price spikes after shelf-label installation (Stamatopoulos et al., 2025). Documented commercial deployments in the United States do not read individual shoppers standing before shelves to deliver individualized prices. Electronic shelf tags represent unactivated computational infrastructure rather than functioning Decision Experience Design.
+
+5.9 Hostile Built Architecture
+
+Anti-vagrancy spikes, divided public benches, and sloped architectural ledges enforce social exclusion through physical geometry (Petty, 2016; Rosenberger, 2017). Hostile architecture satisfies none of the marks of Decision Experience Design. It incorporates no sensors, executes no algorithmic calculations, and mediates no bilateral transaction. It represents unilateral physical coercion operating through non-digital materials (Petty, 2016).
+
+6. Structural Evaluation of the Theoretical Model
+
+The empirical evidence clarifies which configurations of physical decision systems survive analytical scrutiny.
+
++--------------------------------------------------------------------------------------------------+
+|                            EVALUATION OF THE FOUR THEORETICAL FORMS                              |
++--------------------------------------------------------------------------------------------------+
+|  Form 1: Algorithmic Intermediary in Physical Space  | VALID, but restricted to transit, border  |
+|                                                      | security, and gig logistics.              |
++------------------------------------------------------+-------------------------------------------+
+|  Form 2: Mechanical Devices as Independent Arbiters  | REFUTED. Mechanical tools lack adaptive   |
+|                                                      | capacity; humans represent bureaucracy.   |
++------------------------------------------------------+-------------------------------------------+
+|  Form 3: Physical Systems as Choice Architecture     | BASELINE REALITY. Most hybrid spaces are  |
+|                                                      | static servicescapes or access controls.  |
++------------------------------------------------------+-------------------------------------------+
+|  Form 4: Physical Space as Enforcement Site          | EMPIRICALLY CONFIRMED. Material bodies    |
+|                                                      | absorb the structural costs of systems.   |
++--------------------------------------------------------------------------------------------------+
+
+Form 1 claims that algorithmic intermediaries reach directly into physical space to bind participants. The evidence validates this claim within a circumscribed operational domain. Ride-hail dispatch and biometric border checkpoints demonstrate that automated intermediaries ingest bilateral data and commit outcomes that participants must execute with their physical bodies (Adey, 2004; Cameron, 2024). Outside transit logistics and state security operations, commercial environments satisfying all four marks remain virtually non-existent.
+
+Form 2 claims that non-digital physical mechanisms or human actors function as independent intermediaries. The evidence refutes this claim. Mechanical artifacts enforce behavioral scripts, but their material components remain static across interactions (Akrich, 1987; Latour, 1992). Human gatekeepers adapt rules and assess individuals, but categorizing human personnel as algorithmic intermediaries collapses Decision Experience Design into general organizational sociology.
+
+Form 3 claims that physical designs function as classical choice architecture. This claim describes the baseline structural reality of modern commerce. Most hybrid retail deployments, automated payment terminals, and ambient service environments incorporate zero real-time individual telemetry. They enforce static corporate rules uniformly across visitors, operating as traditional servicescapes and behavioral choice architectures (Bitner, 1992; Kotler, 1973; Thaler & Sunstein, 2008).
+
+Form 4 claims that the physical layer serves as the operational site of enforcement and exit pricing. This claim receives overwhelming empirical confirmation. Physical environments represent the material boundary where computational systems enforce compliance: where turnstiles lock, where delivery drivers risk physical collisions to beat countdown clocks, and where individuals without digital credentials face physical exclusion (Cameron, 2024; Gregory, 2021; Wilson-Nash et al., 2026; Zheng et al., 2019). This reality applies equally to non-computational systems. The material world operates as the site where digital platforms cash their structural checks, forcing human bodies to absorb the frictions of automated models.
+
+7. Operational Design Principles for Physical Computational Systems
+
+Reforming computational deployments in physical environments requires concrete design standards that preserve human operational agency.
+
++--------------------------------------------------------------------------------------------------+
+|                            DESIGN PRINCIPLES FOR PHYSICAL COMPUTATION                            |
++--------------------------------------------------------------------------------------------------+
+|  1. Structural Refusal           | Provide viable, unpenalized non-digital pathways for all      |
+|                                  | basic services; eliminate coercive compliance gateways.       |
++----------------------------------+---------------------------------------------------------------+
+|  2. Declared Operating Envelopes | Publish pricing boundaries and enforce predictable temporal   |
+|                                  | intervals; eliminate opaque intraday algorithmic drift.       |
++----------------------------------+---------------------------------------------------------------+
+|  3. Conspicuous Commitment       | Provide legible transactional acknowledgments at points of    |
+|                                  | exchange; eliminate covert sensor-driven billing.             |
++----------------------------------+---------------------------------------------------------------+
+|  4. Administrative Human Presence| Station authorized human personnel with explicit discretion to|
+|                                  | override algorithmic determinations and grant exceptions.     |
++--------------------------------------------------------------------------------------------------+
+
+7.1 Structural Refusal in Built Space
+
+Digital systems permit refusal through software actions, such as closing browser windows or clicking cancellation links. Refusal in physical space requires viable, unpriced non-digital operational pathways. Biometric border checkpoints and automated retail stores fail to provide legitimate exit options when non-digital alternatives trigger officer pressure, delays, or outright exclusion from essential services (Buolamwini et al., 2025; Gambler, 2022; Wilson-Nash et al., 2026). Physical environments must provide non-digital alternatives that impose zero financial penalties, social stigmatization, or procedural delays.
+
+7.2 The Declared Operating Envelope
+
+Dynamic pricing algorithms in public facilities must publish operational parameters and adhere to predictable evaluation timelines. Systems must not alter operating rules unpredictably through hidden automated recalculations. Mimicking the municipal architecture of SFpark, systems must bound algorithmic adaptations within published ranges and slow operational changes down to intervals that human cognitive faculties can evaluate deliberately (Pierce & Shoup, 2013).
+
+7.3 Conspicuous Commitment Over Seamless Extraction
+
+Corporate design prioritizes seamless interaction to conceal the exact moments when financial extraction occurs. Consumers resist invisible billing, favoring visible verification mechanisms: in autonomous stores, limited access to staff and the inability to verify the basket before payment deter patronage (Benoit et al., 2024). In US grocery environments, Amazon removed camera-based Just Walk Out checkout from its Fresh supermarkets after customers said they wanted to view their receipt as they shopped (Palmer, 2024). In larger grocery stores, the company reported that shoppers so far preferred cart-mounted terminals that display a running tally of purchases and track spending in real time as goods enter the basket (Kumar, 2024). On January 27, 2026, Amazon announced that it would close its Amazon Go and Amazon Fresh physical stores, converting some locations to Whole Foods Market (Amazon Staff, 2026). Consumers require explicit, legible confirmations when economic or legal commitments occur.
+
+7.4 The Principle of the Accountable Human
+
+Software systems routinely route human grievances into automated form dead-ends and customer service chatbots. In physical facilities, platforms station retail clerks and security personnel who possess zero organizational authority to alter automated scores, forcing them to absorb user distress on behalf of absent software engineers.
+
++--------------------------------------------------------------------------------------------------+
+|                        THE STRUCTURAL SHIFT TO ADMINISTRATIVE HUMAN PRESENCE                     |
++--------------------------------------------------------------------------------------------------+
+|  The Human Shock Absorber Model   | Low-wage staff possess zero system discretion, enforce       |
+|  (Current Standard Deployment)   | opaque machine outputs, and absorb public frustration.        |
++----------------------------------+---------------------------------------------------------------+
+|  The Accountable Human Model     | Physically present personnel possess verified administrative  |
+|  (Required Ethical Standard)     | authority to override machine flags and resolve grievances.   |
++--------------------------------------------------------------------------------------------------+
+
+Physical computational systems must ban this buffer model. Wherever an algorithmic ruling binds a human body in physical space, the operating entity must station a physically present employee holding explicit institutional authority to grant exceptions, reverse algorithmic determinations, and formally answer for the system's operational outputs.
+
+7.5 Unaddressed Research Domains
+
+Academic literature exhibits two foundational omissions. Empirical researchers have never measured algorithmic literacy as a distinct cognitive capability that moderates decision success within physical environments. Scholarship offers extensive surveys measuring consumer acceptance and perceived convenience, but provides zero empirical evaluations of the cognitive skills required to navigate adaptive physical spaces.
+
+Users possess no technological counter-delegation mechanisms in physical environments. Gig delivery workers and retail consumers enter automated physical encounters relying solely on sensory observation. Corporate platforms deploy real-time telemetry architectures, dynamic pricing engines, and predictive behavioral models to optimize every second of the interaction. Countering this structural imbalance requires building user-facing technologies that automate counter-monitoring, audit environmental metrics, and protect human autonomy in physical encounters.
+
+8. Testable Propositions and Methodological Boundaries
+
+The theoretical arguments advanced here yield four testable empirical propositions:
+
+1. Physical service environments that dynamically read individual biometric or transactional streams to modify access or pricing produce higher rates of user entrapment and perceived helplessness than static arrangements that impose identical economic costs.
+2. Adaptive computational environments that operate within bounded, published operating envelopes produce higher user decision calibration and lower economic error rates than systems executing unannounced, real-time algorithmic adjustments at the same price variance.
+3. Automated physical security checkpoints staffed by personnel with formal authority to grant administrative overrides resolve contested flags with lower rates of service denial than checkpoints where personnel are limited to enforcing machine outputs.
+4. Field studies that track customer and employee telemetric streams simultaneously will show that algorithmic systems executing bilateral binding determinations at the point of encounter occur in a small minority of commercial service spaces.
+
+This analysis operates under specific empirical constraints. Proprietary corporate source code and private algorithm weights remain inaccessible behind trade secret protections, forcing researchers to evaluate commercial deployments via regulatory filings, court records, and field observations (Cal. Lab. Code §§ 2100–2112, 2021; FTC, 2025; N.Y. Lab. Law §§ 780–788, 2022). Future fieldwork inspecting live dispatch software and industrial sensory networks will refine the operational boundaries of this taxonomy.
+
+The physical environment does not dissolve computational power; it exposes and anchors that power. When algorithmic systems extend into built environments, they produce concrete physical junctions where human bodies must resolve the friction of automated calculations. Designing these systems with operational integrity requires abandoning the corporate ideal of seamlessness, exposing material boundaries, and ensuring that institutional authority remains visible, contestable, and accountable to human judgment.
+
+References
+
+⚬ Adey, P. (2004). Secured and sorted mobilities: Examples from the airport. Surveillance & Society, 1(4), 500–519. https://doi.org/10.24908/ss.v1i4.3333
+⚬ Akrich, M. (1987). Comment décrire les objets techniques? Techniques et Culture, 9, 49–64. Reprinted in Techniques & Culture, 54–55 (2010), 205–219. https://doi.org/10.4000/tc.4999
+⚬ Amazon Staff. (2026, January 27). Amazon to close Fresh, Go stores, expanding Whole Foods. About Amazon. https://www.aboutamazon.com/news/company-news/amazon-fresh-go-stores-closing-expanding-whole-foods
+⚬ Batat, W. (2024). What does phygital really mean? A conceptual introduction to the phygital customer experience (PH-CX) framework. Journal of Strategic Marketing, 32(8), 1220–1243. https://doi.org/10.1080/0965254X.2022.2059775
+⚬ Bell, G., & Dourish, P. (2007). Yesterday's tomorrows: Notes on ubiquitous computing's dominant vision. Personal and Ubiquitous Computing, 11(2), 133–143. https://doi.org/10.1007/s00779-006-0071-x
+⚬ Benoit, S., Altrichter, B., Grewal, D., & Ahlbom, C.-P. (2024). Autonomous stores: How levels of in-store automation affect store patronage. Journal of Retailing, 100(2), 217–238. https://doi.org/10.1016/j.jretai.2023.12.003
+⚬ Bitner, M. J. (1992). Servicescapes: The impact of physical surroundings on customers and employees. Journal of Marketing, 56(2), 57–71. https://doi.org/10.1177/002224299205600205
+⚬ Buolamwini, J., Raman, S., & Dean, A. (2025, July 21). Comply to fly? How airport travelers experience TSA's facial recognition experiment. Algorithmic Justice League. https://ajl.org/flyreport
+⚬ Cal. Lab. Code §§ 2100–2112 (2021). Part 8.6, Warehouse distribution centers (added by Stats. 2021, ch. 197 [AB 701]; effective January 1, 2022). https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=&division=2.&lawCode=LAB&part=8.6.&title=
+⚬ Cameron, L. D. (2024). The making of the "good bad" job: How algorithmic management manufactures consent through constant and confined choices. Administrative Science Quarterly, 69(2), 458–514. https://doi.org/10.1177/00018392241236163
+⚬ Chalmers, M. (2003). Seamful design: Showing the seams in wearable computing. In IEE Eurowearable '03 (pp. 11–16). IEE. https://doi.org/10.1049/ic:20030140
+⚬ Chalmers, M., & Galani, A. (2004). Seamful interweaving: Heterogeneity in the theory and design of interactive systems. In Proceedings of the 5th Conference on Designing Interactive Systems (DIS '04) (pp. 243–252). ACM. https://doi.org/10.1145/1013115.1013149
+⚬ Cheon, E., & Erickson, I. (2025). Fulfillment of the work games: Warehouse workers' experiences with algorithmic management. Proceedings of the ACM on Human-Computer Interaction, 9(7), Article CSCW228, 1–30. https://doi.org/10.1145/3757409
+⚬ Conseil d'État. (2025, December 23). Société Amazon France Logistique (No. 492830, 10e et 9e chambres réunies, ECLI:FR:CECHR:2025:492830.20251223). https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-12-23/492830
+⚬ Delfanti, A. (2021). Machinic dispossession and augmented despotism: Digital work in an Amazon warehouse. New Media & Society, 23(1), 39–55. https://doi.org/10.1177/1461444819891613
+⚬ Ehsan, U., Liao, Q. V., Passi, S., Riedl, M. O., & Daumé III, H. (2024). Seamful XAI: Operationalizing seamful design in explainable AI. Proceedings of the ACM on Human-Computer Interaction, 8(CSCW1), Article 119, 1–29. https://doi.org/10.1145/3637396
+⚬ Federal Trade Commission. (2024, July 23). FTC issues orders to eight companies seeking information on surveillance pricing [Press release]. https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-issues-orders-eight-companies-seeking-information-surveillance-pricing
+⚬ Federal Trade Commission. (2025, January). FTC surveillance pricing 6(b) study: Research summaries; A staff perspective. https://www.ftc.gov/system/files/ftc_gov/pdf/p246202_surveillancepricing6bstudy_researchsummaries_redacted.pdf
+⚬ Floridi, L. (Ed.). (2015). The onlife manifesto: Being human in a hyperconnected era. Springer. https://doi.org/10.1007/978-3-319-04093-6
+⚬ Gambler, R. (2022, July 27). Facial recognition technology: CBP traveler identity verification and efforts to address privacy issues (GAO-22-106154) [Testimony]. U.S. Government Accountability Office. https://www.gao.gov/products/gao-22-106154
+⚬ Gregory, K. (2021). 'My life is more valuable than this': Understanding risk among on-demand food couriers in Edinburgh. Work, Employment and Society, 35(2), 316–331. https://doi.org/10.1177/0950017020969593
+⚬ Gutelius, B., & Theodore, N. (2019). The future of warehouse work: Technological change in the U.S. logistics industry. UC Berkeley Center for Labor Research and Education; Working Partnerships USA. https://laborcenter.berkeley.edu/future-of-warehouse-work/
+⚬ Hazée, S., De Keyser, A., Larivière, B., Kim, Y., Talebi, A., & Gordeliy, I. (2025). Just walk out stores—The future of shopping? Examining configurations of reasons for and against consumer adoption. Psychology & Marketing, 42(4), 987–1017. https://doi.org/10.1002/mar.22161
+⚬ Hollands, G. J., Bignardi, G., Johnston, M., Kelly, M. P., Ogilvie, D., Petticrew, M., Prestwich, A., Shemilt, I., Sutton, S., & Marteau, T. M. (2017). The TIPPME intervention typology for changing environments to change behaviour. Nature Human Behaviour, 1(8), 0140. https://doi.org/10.1038/s41562-017-0140
+⚬ Joerges, B. (1999). Do politics have artefacts? Social Studies of Science, 29(3), 411–431. https://doi.org/10.1177/030631299029003004
+⚬ Johnson, M., & Barlow, R. (2021). Defining the phygital marketing advantage. Journal of Theoretical and Applied Electronic Commerce Research, 16(6), 2365–2385. https://doi.org/10.3390/jtaer16060130
+⚬ Kitchin, R., & Dodge, M. (2009). Airport code/spaces. In S. Cwerner, S. Kesselring, & J. Urry (Eds.), Aeromobilities: Theory and research (pp. 96–114). Routledge.
+⚬ Kotler, P. (1973). Atmospherics as a marketing tool. Journal of Retailing, 49(4), 48–64.
+⚬ Kumar, D. (2024, April 17). An update on Amazon's plans for Just Walk Out and checkout-free technology. About Amazon. https://www.aboutamazon.com/news/retail/amazon-just-walk-out-dash-cart-grocery-shopping-checkout-stores
+⚬ Larivière, B., Bowen, D., Andreassen, T. W., Kunz, W., Sirianni, N. J., Voss, C., Wünderlich, N. V., & De Keyser, A. (2017). "Service Encounter 2.0": An investigation into the roles of technology, employees and customers. Journal of Business Research, 79, 238–246. https://doi.org/10.1016/j.jbusres.2017.03.008
+⚬ Latour, B. (1992). Where are the missing masses? The sociology of a few mundane artifacts. In W. E. Bijker & J. Law (Eds.), Shaping technology/building society: Studies in sociotechnical change (pp. 225–258). MIT Press.
+⚬ Lee, M. K., Kusbit, D., Metsky, E., & Dabbish, L. (2015). Working with machines: The impact of algorithmic and data-driven management on human workers. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15) (pp. 1603–1612). ACM. https://doi.org/10.1145/2702123.2702548
+⚬ Mass. Gen. Laws ch. 255D, § 10A (1978). https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleIV/Chapter255D/Section10A
+⚬ Mele, C., & Russo-Spena, T. (2025). Agencement of onlife and phygital: Smart tech–enabled value co-creation practices. Journal of Service Management, 36(2), 217–240. https://doi.org/10.1108/JOSM-03-2023-0113
+⚬ Mele, C., Russo Spena, T., Marzullo, M., & Di Bernardo, I. (2023). The phygital transformation: A systematic review and a research agenda. Italian Journal of Marketing, 2023(3), 323–349. https://doi.org/10.1007/s43039-023-00070-7
+⚬ Möhlmann, M., Zalmanson, L., Henfridsson, O., & Gregory, R. W. (2021). Algorithmic management of work on online labor platforms: When matching meets control. MIS Quarterly, 45(4), 1999–2022. https://doi.org/10.25300/MISQ/2021/15333
+⚬ Moradi, P., Levy, K., & Cheyre, C. (2025). Pseudo-automation: How labor-offsetting technologies reconfigure roles and relationships in frontline retail work. Proceedings of the ACM on Human-Computer Interaction, 9(2), Article CSCW153, 1–21. https://doi.org/10.1145/3711051
+⚬ N.Y. Gen. Bus. Law § 349-a (2025). Algorithmic Pricing Disclosure Act (effective November 10, 2025). https://www.nysenate.gov/legislation/laws/GBS/349-A
+⚬ N.Y. Gen. Bus. Law § 396-ii (2025). Cashless policies prohibited (S4153A/A7929; effective March 21, 2026). https://www.nysenate.gov/legislation/bills/2025/S4153/amendment/A
+⚬ N.Y. Lab. Law §§ 780–788 (2022). Article 21-A, Warehouse Worker Protection Act (effective June 19, 2023). https://www.nysenate.gov/legislation/laws/LAB/A21-A
+⚬ N.Y.C. Admin. Code § 20-840 (2020). Local Law 34 of 2020. https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-114885
+⚬ Padigar, M., Li, Y., & Manjunath, C. N. (2025). "Good" and "bad" frictions in customer experience: Conceptual foundations and implications. Psychology & Marketing, 42(1), 21–43. https://doi.org/10.1002/mar.22111
+⚬ Palmer, A. (2024, April 3). Amazon ditches cashierless checkout system at its grocery stores. CNBC. https://www.cnbc.com/2024/04/03/amazon-ditches-cashierless-checkout-system-at-its-grocery-stores.html
+⚬ Petty, J. (2016). The London spikes controversy: Homelessness, urban securitisation and the question of 'hostile architecture'. International Journal for Crime, Justice and Social Democracy, 5(1), 67–81. https://doi.org/10.5204/ijcjsd.v5i1.286
+⚬ Pierce, G., & Shoup, D. (2013). Getting the prices right: An evaluation of pricing parking by demand in San Francisco. Journal of the American Planning Association, 79(1), 67–81. https://doi.org/10.1080/01944363.2013.787307
+⚬ Reinders, M. J., Dabholkar, P. A., & Frambach, R. T. (2008). Consequences of forcing consumers to use technology-based self-service. Journal of Service Research, 11(2), 107–123. https://doi.org/10.1177/1094670508324297
+⚬ Rosenberger, R. (2017). Callous objects: Designs against the homeless. University of Minnesota Press.
+⚬ Rosenblat, A., & Stark, L. (2016). Algorithmic labor and information asymmetries: A case study of Uber's drivers. International Journal of Communication, 10, 3758–3784.
+⚬ Schultz, C. D., & Paetz, F. (2025). The way out – Customer benefits and self-service satisfaction in cashierless shopping systems. Journal of Retailing and Consumer Services, 85, Article 104280. https://doi.org/10.1016/j.jretconser.2025.104280
+⚬ Schüll, N. D. (2005). Digital gambling: The coincidence of desire and design. The ANNALS of the American Academy of Political and Social Science, 597(1), 65–81. https://doi.org/10.1177/0002716204270435
+⚬ Schüll, N. D. (2012). The touch-point collective: Crowd contouring on the casino floor. Limn, 2. https://limn.press/article/the-touch-point-collective-crowd-contouring-on-the-casino-floor/
+⚬ Shabnam, S., Roy, S. K., Roten, Y. S., Singh, G., Suh, T., & Li, H. (2026). Transformative phygital service research (TPSR): An agenda for future research. Journal of Services Marketing. Advance online publication. https://doi.org/10.1108/JSM-09-2025-0679
+⚬ Spektor, F., Fox, S. E., Awumey, E., Riordan, C. A., Rho, H. J., Kulkarni, C., Martinez-Lopez, M., Stringam, B., Begleiter, B., & Forlizzi, J. (2023). Designing for wellbeing: Worker-generated ideas on adapting algorithmic management in the hospitality industry. In Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23) (pp. 623–637). ACM. https://doi.org/10.1145/3563657.3596018
+⚬ Stamatopoulos, I., Bassamboo, A., & Moreno, A. (2021). The effects of menu costs on retail performance: Evidence from adoption of the electronic shelf label technology. Management Science, 67(1), 242–256. https://doi.org/10.1287/mnsc.2019.3551
+⚬ Stamatopoulos, I., Sanders, R. E., & Bray, R. (2025). Electronic shelf labels have not led to surge pricing in US grocery retail, despite regulator concerns [Working paper]. SSRN. https://doi.org/10.2139/ssrn.5271491
+⚬ Suchman, L. A. (1985). Plans and situated actions: The problem of human-machine communication (Report No. ISL-6). Xerox Palo Alto Research Center.
+⚬ Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.
+⚬ Transportation Security Administration. (2026, January 16). Privacy impact assessment update for the Travel Document Checker automation using facial identification (DHS/TSA/PIA-046(e)). U.S. Department of Homeland Security. https://www.dhs.gov/publication/dhstsapia-046-travel-document-checker-automation-using-facial-recognition
+⚬ U.S. Customs and Border Protection. (2018, November 14). Privacy impact assessment for the Traveler Verification Service (DHS/CBP/PIA-056). U.S. Department of Homeland Security. https://www.dhs.gov/publication/dhscbppia-056-traveler-verification-service
+⚬ U.S. Senate Committee on Health, Education, Labor, and Pensions. (2024). The "injury-productivity trade-off": How Amazon's obsession with speed creates uniquely dangerous warehouses (Majority staff report). https://www.help.senate.gov/imo/media/doc/amazon_investigation.pdf
+⚬ Uber. (n.d.). Wait time fees and refunds. Uber Help. Retrieved October 4, 2026, from https://help.uber.com/en/riders/article/wait-time-fees-and-refunds?nodeId=469f1786-1543-4c83-abbf-ddccb7826fc2
+⚬ Warren, E., & Casey, R. P., Jr. (2024, August 5). Letter to Rodney McMullen, Chairman and CEO, The Kroger Co., regarding electronic shelving labels and price gouging. United States Senate. https://www.warren.senate.gov/wp-content/uploads/media/doc/warren_casey_letter_to_kroger_re_electronic_shelving_and_price_gouging.pdf
+⚬ Weiser, M. (1991). The computer for the 21st century. Scientific American, 265(3), 94–104. https://doi.org/10.1038/scientificamerican0991-94
+⚬ Weiser, M. (1994, November 2). Building invisible interfaces [Keynote presentation slides]. ACM Symposium on User Interface Software and Technology (UIST '94).
+⚬ Wilson-Nash, C., Angell, R., Qiu, Y., Pavlopoulou, I., & Kolyperas, D. (2026). No app, no entry: Conceptualizing digital technology captivity in service access. Psychology & Marketing, 43(5), 974–985. https://doi.org/10.1002/mar.70098
+⚬ Winner, L. (1980). Do artifacts have politics? Daedalus, 109(1), 121–136.
+⚬ Zheng, Y., Ma, Y., Guo, L., Cheng, J., & Zhang, Y. (2019). Crash involvement and risky riding behaviors among delivery riders in China: The role of working conditions. Transportation Research Record, 2673(4), 1011–1022. https://doi.org/10.1177/0361198119841028

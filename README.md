@@ -163,7 +163,7 @@ Cross-program essays and reviews — the best places to start window-shopping.
 - [Critical review: the political-economy and structural-law waves (Q111–Q117)](org_frontier/CRITICAL_REVIEW_Q111_Q117.md) — a critical self-review
 - [Paper pipeline — turning paper-less work into full-package research papers](org_frontier/PAPER_PIPELINE.md) — the plan to turn paper-less work into full papers
 - [50 new research questions (v2 agenda)](org_frontier/RESEARCH_AGENDA_50_V2.md) — the v2 agenda — all fifty answered; open threads are in OVERVIEW.md
-- [Research agenda v4 — questions only](org_frontier/RESEARCH_AGENDA_V4.md) — the v4 agenda — #1–#10 answered, #11–#12 open
+- [Research agenda v4 — questions only](org_frontier/RESEARCH_AGENDA_V4.md) — the v4 agenda — items 1–12 answered
 - [Ergodicity × Algorithmacy](org_frontier/ergodicity/README.md) — Ergodicity × Algorithmacy — open track; text vs platform as skew-product cut
 
 ### Handoff packets — pick one up and run it
@@ -320,6 +320,8 @@ Multi-experiment batteries on one theme.
 - **[ergodic_absorbing_ejection (Strand D4)](org_frontier/studies/ergodic_absorbing_ejection/README.md)** — absorbing inactive attractor (cycle `000`, basin **7**, exit rate **0**,
 - **[ergodic_backcoupling_twins (Strand A4)](org_frontier/studies/ergodic_backcoupling_twins/README.md)** — vs accumulating split on all three twin pairs (**H1 SUPPORTED**). At
 - **[Ergodic components vs Φ (track first cell)](org_frontier/studies/ergodic_components_vs_phi/README.md)** — `CROSS_BASIN_SPLIT` | `BASIN_DETERMINATION_SPLIT`). Whole-form triadic
+- **[ergodic_cycle_ordering (Strand G / T8 residual)](org_frontier/studies/ergodic_cycle_ordering/README.md)** — Verdict: ORDERING_NULL. The residual basin-mode gap still ranks triadic forms on the frozen 42-form panel (AUC 0.7294)
+- **[Ergodic richness vs Φ on the strict-mediation census (B5)](org_frontier/studies/ergodic_ensemble_richness/README.md)** — census at n=3, Spearman ρ(Φ_MIP, basin entropy) = **0.1015** (positive
 - **[ergodic_eoa_basin (Strand G / T8 per-outcome fix)](org_frontier/studies/ergodic_eoa_basin/README.md)** — classes that drove the prior `EOA_TRACKS_MI_NOT_PHI` result, but the
 - **[ergodic_eoa_instrument (Strand G / T8 stress)](org_frontier/studies/ergodic_eoa_instrument/README.md)** — panel the EoA instrument agrees with whole-form Φ on **17/42** forms
 - **[ergodic_eoa_vs_phi (Strand G2)](org_frontier/studies/ergodic_eoa_vs_phi/README.md)** — logs agrees with whole-form Φ on **7/9** forms (agree rate **0.778**;
@@ -332,6 +334,7 @@ Multi-experiment batteries on one theme.
 - **[Formal vs informal cut (agenda #46)](org_frontier/studies/formal_informal_cut/README.md)** — map onto dyadic/triadic. Formal spans both (commit gate vs
 - **[Genuine bistability (agenda #13)](org_frontier/studies/genuine_bistability/README.md)** — triadic and dyadic attractors — beyond #109's sticky-mediator activity
 - **[Gig substitution (#35)](org_frontier/studies/gig_substitution/README.md)** — individual worker drops from the major complex at the **first positive
+- **[Graded party channel vs Φ (V4 #11)](org_frontier/studies/graded_channel_exact_phi/README.md)** — channel? The mediating system reads each party through a lossy channel —
 - **[Graded commit verdict (agenda #2)](org_frontier/studies/graded_commit_verdict/README.md)** — (`S'=min(W,C)`, ternary) keeps **discrete** structure labels
 - **[Graded × topology carriers (V3 #11)](org_frontier/studies/graded_topo_carriers/README.md)** — (`x'=min(·)` / hub `S'=min(W,C)`) keeps **discrete** structure labels
 - **[HITL rubber stamp (#39)](org_frontier/studies/hitl_rubber_stamp/README.md)** — system commit, counterpart), the human joins the major complex **iff**
@@ -354,6 +357,7 @@ Multi-experiment batteries on one theme.
 - **[Ladder-gate Boolean property classifier](org_frontier/studies/ladder_gate_properties/README.md)** — (anchors + property probes), regime membership is predicted exactly by:
 - **[Local-triad necklace (V3 #4)](org_frontier/studies/local_triad_necklace/README.md)** — triads on a cycle does **not** invent a new Φ law. The closed AND necklace
 - **[Anti-correlated duty on logged structure (agenda V4 #7)](org_frontier/studies/logged_alt_duty_exact_phi/README.md)** — party admission recreates the exact-Φ joint-observation cliff on the
+- **[M3 subset-Φ fidelity vs V4 items 1–3 (agenda V4 item 12)](org_frontier/studies/m3_subset_fidelity_v4/README.md)** — Induced exact Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key
 - **[Margin-cascade selective exact Φ](org_frontier/studies/margin_cascade_phi/README.md)** — out-of-fold uncertain forms — cuts FN-among-triads sharply at fixed exact-Φ budget
 - **[Margin-cascade τ vs top-B% calibration](org_frontier/studies/margin_cascade_tau/README.md)** — On n=4, nested cal-fold τ-matching at B=10% yields the same FN|tri as top-B%
 - **[MARL deep replicate (#41 gap)](org_frontier/studies/marl_deep_replicate/README.md)** — linear FA Q-policies with observation `[S, own_last, partner_last]` —
@@ -403,6 +407,8 @@ Multi-experiment batteries on one theme.
 - **[Wageman W × Φ landmark (V3 #14)](org_frontier/studies/wageman_phi_landmark/README.md)** — with form size n predicts the Φ landmarks ring-4 / hub-(n−1) / pool
 - **[Wageman TI → verdict (agenda #44)](org_frontier/studies/wageman_ti_verdict/README.md)** — interdependence index separates dyadic from triadic on the designed
 - **[Weakest Boolean render (V3 #13)](org_frontier/studies/weakest_boolean_render/README.md)** — committed public OSS coordination logs that still recovers the conjunctive
+- **[WHO BROKE PROD? — incident attribution under coordination topologies](org_frontier/studies/who_broke_prod/README.md)** — is the largest single lever on attribution accuracy, and chain relaying is the largest topology cost. A
+- **[WHO BROKE PROD? × Φ — coordination-step structure versus investigative accuracy](org_frontier/studies/who_broke_prod_phi/README.md)** — integrated coordination core ({A1, M, A2}, Φ = 2.0). Its matched simulator condition beats the best
 - **[Worker union scale (#31)](org_frontier/studies/worker_union_scale/README.md)** — coalition cell-for-cell (Φ, n_core, core==peer group) under weak peer,
 - **[Zero-duty vs retain under exact Φ (agenda V4 #3)](org_frontier/studies/zero_duty_retain_exact_phi/README.md)** — party cliffs** (multifamily 1.000→0.592; family_n3 1.000→0.750), and the
 
@@ -458,12 +464,12 @@ Quantitative, systematic archival reviews: a body of scholarship treated as a da
   - **[reproducibility_signaling](org_frontier/reviews/reproducibility_signaling/README.md)** — one of 88 management abstracts signals any reproducibility practice
   - **[systematicity_consciousness_reviews](org_frontier/reviews/systematicity_consciousness_reviews/README.md)** — consciousness-science reviews report about a third of the systematicity practices
 
-### Questions — the logbook (165)
+### Questions — the logbook (169)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 165 questions</summary>
+<summary>Browse all 169 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -632,6 +638,10 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q213](org_frontier/questions/q213_contingent_irreducibility/paper.md) | Contingent irreducibility: a party held in the core by a constraint, not a role | A new category of irreducibility and a reusable instrument to detect it. A mediator can sit in a triad's core |
 | [Q214](org_frontier/questions/q214_triadic_classification/paper.md) | A formal criterion for a verbal distinction: classifying the literature's triad types | The canonical triad types of the brokerage, sociology, and economics literature, classified by the q213 |
 | [Q215](org_frontier/questions/q215_phi_family_robustness) | phi family robustness | binding is measure-robust; the subtle factorings belong to IIT 4.0 |
+| [Q216](org_frontier/questions/q216_robot_shared_control) | robot shared control | q216 robot shared control |
+| [Q217](org_frontier/questions/q217_rotating_chair/paper.md) | The rotating chair: preserved integration and a moving veto | A rotating chair moves the veto between successive chairs while peak party-core integration and state coverage stay unchanged |
+| [Q218](org_frontier/questions/q218_chicken_egg_feed/paper.md) | The Chicken-and-Egg Feed: First Causes, Loops, and Φ in Stylized Post Spread | no first cause needs a loop, but a loop is not enough; the engagement feed with look-alike fans factors |
+| [Q219](org_frontier/questions/q219_insurance_claim_adjudication/paper.md) | Who decides an insurance claim? An exact-Φ reading of claimant, engine, and adjuster | who decides an insurance claim? |
 
 </details>
 

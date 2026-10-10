@@ -1,0 +1,2 @@
+form,structure,max_phi,mip,core,core_phi,n_states,n_irreducible,irreducible_states,phi_profile
+pipe,triadic,2.000000,"3 parts: {C,E,A}","{C,E,A}",2.000000,8,8,000 100 010 110 001 101 011 111,000:2.000000 100:2.000000 010:2.000000 110:2.000000 001:2.000000 101:2.000000 011:2.000000 111:2.000000

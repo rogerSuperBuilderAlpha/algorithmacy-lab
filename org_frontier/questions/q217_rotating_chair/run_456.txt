@@ -1,0 +1,117 @@
+F_fixed: states=8 party-core-is-complex=2/8 states-with-party-coalitions=4 cross-state-party-veto=A
+    state=0000 complex=T(1.00) party_veto=(no party coalition)
+    state=1000 complex=T(1.00) party_veto=(no party coalition)
+    state=0110 complex=T(1.00) party_veto=A
+    state=1110 complex=ABC(2.00) party_veto=A
+    state=0001 complex=T(1.00) party_veto=(no party coalition)
+    state=1001 complex=T(1.00) party_veto=(no party coalition)
+    state=0111 complex=T(1.00) party_veto=A
+    state=1111 complex=ABC(2.00) party_veto=A
+F_rot2: states=8 party-core-is-complex=2/8 states-with-party-coalitions=4 cross-state-party-veto=AB
+    state=0000 complex=T(1.00) party_veto=(no party coalition)
+    state=0100 complex=T(1.00) party_veto=(no party coalition)
+    state=1010 complex=T(1.00) party_veto=AB
+    state=1110 complex=ABC(2.00) party_veto=AB
+    state=0001 complex=T(1.00) party_veto=(no party coalition)
+    state=1001 complex=T(1.00) party_veto=(no party coalition)
+    state=0111 complex=T(1.00) party_veto=AB
+    state=1111 complex=ABC(2.00) party_veto=AB
+F_rot3: states=12 party-core-is-complex=3/12 states-with-party-coalitions=6 cross-state-party-veto=none
+    state=00000 complex=T(1.00) party_veto=(no party coalition)
+    state=11000 complex=T(1.00) party_veto=AC
+    state=00100 complex=T(1.00) party_veto=(no party coalition)
+    state=11100 complex=ABC(2.00) party_veto=AC
+    state=00010 complex=TU(1.00) party_veto=(no party coalition)
+    state=10010 complex=TU(1.00) party_veto=(no party coalition)
+    state=01110 complex=TU(1.00) party_veto=AB
+    state=11110 complex=ABC(2.00) party_veto=AB
+    state=00001 complex=T(1.00) party_veto=(no party coalition)
+    state=01001 complex=T(1.00) party_veto=(no party coalition)
+    state=10101 complex=T(1.00) party_veto=BC
+    state=11101 complex=ABC(2.00) party_veto=BC
+F4_fixed: states=16 party-core-is-complex=4/16 states-with-party-coalitions=8 cross-state-party-veto=A
+    state=000000 complex=U(1.00) party_veto=(no party coalition)
+    state=100000 complex=U(1.00) party_veto=(no party coalition)
+    state=011100 complex=U(1.00) party_veto=A
+    state=111100 complex=ABCD(3.00) party_veto=A
+    state=000010 complex=U(1.00) party_veto=(no party coalition)
+    state=100010 complex=U(1.00) party_veto=(no party coalition)
+    state=011110 complex=U(1.00) party_veto=A
+    state=111110 complex=ABCD(3.00) party_veto=A
+    state=000001 complex=U(1.00) party_veto=(no party coalition)
+    state=100001 complex=U(1.00) party_veto=(no party coalition)
+    state=011101 complex=U(1.00) party_veto=A
+    state=111101 complex=ABCD(3.00) party_veto=A
+    state=000011 complex=U(1.00) party_veto=(no party coalition)
+    state=100011 complex=U(1.00) party_veto=(no party coalition)
+    state=011111 complex=U(1.00) party_veto=A
+    state=111111 complex=ABCD(3.00) party_veto=A
+F4_rot: states=16 party-core-is-complex=4/16 states-with-party-coalitions=8 cross-state-party-veto=none
+    state=000000 complex=U(1.00) party_veto=(no party coalition)
+    state=111000 complex=U(1.00) party_veto=AD
+    state=000100 complex=U(1.00) party_veto=(no party coalition)
+    state=111100 complex=ABCD(3.00) party_veto=AD
+    state=000010 complex=U(1.00) party_veto=(no party coalition)
+    state=100010 complex=U(1.00) party_veto=(no party coalition)
+    state=011110 complex=U(1.00) party_veto=AB
+    state=111110 complex=ABCD(3.00) party_veto=AB
+    state=000001 complex=U(1.00) party_veto=(no party coalition)
+    state=010001 complex=U(1.00) party_veto=(no party coalition)
+    state=101101 complex=U(1.00) party_veto=BC
+    state=111101 complex=ABCD(3.00) party_veto=BC
+    state=000011 complex=U(1.00) party_veto=(no party coalition)
+    state=001011 complex=U(1.00) party_veto=(no party coalition)
+    state=110111 complex=U(1.00) party_veto=CD
+    state=111111 complex=ABCD(3.00) party_veto=CD
+F_rot3_OR: states=12 party-core-is-complex=3/12 states-with-party-coalitions=6 cross-state-party-veto=none
+    state=00000 complex=ABC(2.00) party_veto=AC
+    state=11000 complex=T(1.00) party_veto=(no party coalition)
+    state=00100 complex=T(1.00) party_veto=AC
+    state=11100 complex=T(1.00) party_veto=(no party coalition)
+    state=00010 complex=ABC(2.00) party_veto=AB
+    state=10010 complex=TU(1.00) party_veto=AB
+    state=01110 complex=TU(1.00) party_veto=(no party coalition)
+    state=11110 complex=TU(1.00) party_veto=(no party coalition)
+    state=00001 complex=ABC(2.00) party_veto=BC
+    state=01001 complex=T(1.00) party_veto=BC
+    state=10101 complex=T(1.00) party_veto=(no party coalition)
+    state=11101 complex=T(1.00) party_veto=(no party coalition)
+F_rot3_XOR: states=12 party-core-is-complex=0/12 states-with-party-coalitions=6 cross-state-party-veto=ABC
+    state=00000 complex=T(1.00) party_veto=ABC
+    state=11000 complex=T(1.00) party_veto=(no party coalition)
+    state=00100 complex=T(1.00) party_veto=(no party coalition)
+    state=11100 complex=T(1.00) party_veto=ABC
+    state=00010 complex=TU(1.00) party_veto=ABC
+    state=10010 complex=TU(1.00) party_veto=(no party coalition)
+    state=01110 complex=TU(1.00) party_veto=(no party coalition)
+    state=11110 complex=TU(1.00) party_veto=ABC
+    state=00001 complex=T(1.00) party_veto=ABC
+    state=01001 complex=T(1.00) party_veto=(no party coalition)
+    state=10101 complex=T(1.00) party_veto=(no party coalition)
+    state=11101 complex=T(1.00) party_veto=ABC
+F_earned3: states=12 party-core-is-complex=3/12 states-with-party-coalitions=6 cross-state-party-veto=none
+    state=00000 complex=T(0.16) party_veto=(no party coalition)
+    state=10000 complex=U(0.28) party_veto=(no party coalition)
+    state=11000 complex=AC(0.16) party_veto=AC
+    state=11100 complex=ABC(2.00) party_veto=AC
+    state=00010 complex=T(0.44) party_veto=(no party coalition)
+    state=01010 complex=none(0.00) party_veto=(no party coalition)
+    state=01110 complex=AB(0.16) party_veto=AB
+    state=11110 complex=ABC(2.00) party_veto=AB
+    state=00001 complex=U(1.00) party_veto=(no party coalition)
+    state=00101 complex=none(0.00) party_veto=(no party coalition)
+    state=10101 complex=BCU(0.16) party_veto=BC
+    state=11101 complex=ABC(2.00) party_veto=BC
+F_earned3_XOR: states=12 party-core-is-complex=4/12 states-with-party-coalitions=9 cross-state-party-veto=ABC
+    state=00000 complex=ABC(0.50) party_veto=ABC
+    state=10000 complex=ABC(0.50) party_veto=ABC
+    state=11000 complex=ABCTU(0.42) party_veto=(no party coalition)
+    state=11100 complex=ABC(0.50) party_veto=ABC
+    state=00010 complex=ABC(0.50) party_veto=ABC
+    state=01010 complex=ABCU(0.50) party_veto=ABC
+    state=01110 complex=ABT(0.13) party_veto=(no party coalition)
+    state=11110 complex=ABCT(0.64) party_veto=ABC
+    state=00001 complex=U(1.00) party_veto=ABC
+    state=00101 complex=ABCU(0.50) party_veto=ABC
+    state=10101 complex=T(0.28) party_veto=(no party coalition)
+    state=11101 complex=ABCTU(0.50) party_veto=ABC
