@@ -45,6 +45,7 @@ others inside a system that does not factor. Φ > 0 alone is not the test: the l
 | [`talk/`](talk/) | Deck and script sources, the deck's pictures (`talk/media/`), the deck builder, the checker, the previewer, prepared Q&A |
 | [`talk/LIVE_SESSION.md`](talk/LIVE_SESSION.md) | Runbook for the live session on slide 21: environment, translation rules, size and time limits, rehearsed prompts |
 | [`talk/live/`](talk/live/) | The live session's command-line helper (`show.py`) and its rehearsal record |
+| [`talk/trinidad-2026/`](talk/trinidad-2026/) | Port of Spain conference deck (October 2026), 27 slides, revised from the author's Google Slides deck with the John, Sally and ball running example |
 | [`reviews/`](reviews/) | The correctness panel: findings, the verification gate, and what was applied |
 
 ## Re-capturing a Gemini share page
