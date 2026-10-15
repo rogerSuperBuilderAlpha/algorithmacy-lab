@@ -10,17 +10,23 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 
 | # | claim | status | evidence |
 |---|---|---|---|
-| 1 | On the selected curated forms (the 12 informative forms of the q161 corpus), timestamp-aware lag matching recovers the clean CRQA bottleneck reading after 30% random observation loss. | confirmed under the executed rule (S2-H2); unchanged under the margin reading and Bonferroni | CLEAN − B = −0.002 [−0.058, +0.052] |
-| 2 | Its improvement over gap-closing on those forms is +0.204 [+0.015, +0.417]. | confirmed under the executed rule (S2-H1: point ≥ 0.10, CI excludes 0) | B − A, form-aware 95% CI |
-| 3 | That improvement does not meet the 0.10-margin reading (CI lower bound ≥ 0.10) and does not survive the Bonferroni adjustment over the 10 confirmatory tests. | inconclusive | lower bound +0.015; Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms |
-| 4 | The improvement does not generalise convincingly to 30 random forms. No effect is detected there, which is not evidence that gap-closing is harmless. | inconclusive (S2-H6a, S2-H6b) | B − A = −0.007 [−0.082, +0.078]; clean pick over chance +0.136 [−0.001, +0.272] |
-| 5 | The triadic/dyadic classifier is unreliable as a proxy for exact Φ: it is at chance before any corruption. | descriptive (stage-1 audit) and exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1), 0.19 (R2) |
-| 6 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs. | scope | nothing here is evidence about a real organisation |
+| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) recovers the clean CRQA bottleneck reading after 30% whole-row random loss. | CONFIRMED (S2-H2) under every interval method checked and under Bonferroni; this is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052] |
+| 2 | B's advantage over gap-closing (A) on those forms: +0.204 [+0.015, +0.417]. | S2-H1: **CONFIRMED under the executed (lenient) rule** (point ≥ 0.10 and CI excludes 0); **INCONCLUSIVE under the strict margin reading** (CI lower bound ≥ 0.10); **does not survive Bonferroni**; **the positive lower bound is not robust to the interval method** | 95% lower bound +0.015 (percentile, as run; +0.017 at 20,000 resamples), +0.035 (BCa), +0.017 to +0.021 (form-only), but −0.008 to −0.004 (basic) and −0.024 (t on the 12 form means); Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms, the same 4 that dropped most in stage 1; sign test p = 0.375 |
+| 3 | The B − A advantage and the clean pick's edge both depend on the lag window. | descriptive (preregistered sensitivity) | at `MAX_LAG = 5`: B − A = −0.019 [−0.119, +0.108]; clean pick 0.585 against chance 0.556 |
+| 4 | On the curated forms the clean pick beats size-adjusted chance and its matched null, and B keeps that edge at 30% loss. | CONFIRMED at 95% (S2-H7a, S2-H7b, S2-H8; H7b largely restates H7a). Under Bonferroni: borderline for H7a/H7b, method-dependent for all three | 99.5% lower bounds: H7a/H7b about +0.003 (percentile, 50,000 resamples; sign depends on the bootstrap seed at 2,000), negative under BCa and t; H8 about +0.02 (percentile), negative under BCa and t |
+| 5 | The advantage does not generalise convincingly to 30 random forms. No effect is detected there, which is not evidence that gap-closing is harmless. | INCONCLUSIVE (S2-H6a, S2-H6b) | B − A = −0.007 [−0.082, +0.078]; clean pick over chance +0.136 [−0.001, +0.272] |
+| 6 | The triadic/dyadic classifier shows no evidence of signal before any corruption. | descriptive (stage-1 audit); the explanation offered is exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1, 16 forms), 0.19 (R2, 30 forms), no intervals |
+| 7 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs; whole-row missingness at random on an integer time grid. | scope | nothing here is evidence about a real organisation |
 
-Timestamp-aware lag matching (estimator B) computes lag-k recurrence only from observations exactly k
-recorded time steps apart. It is described here as the estimator this study used. Whether it coincides with
-an established estimator for irregularly sampled series has not yet been checked
-(`literature/deep_research_report.md`), and no novelty is claimed for it.
+**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart and
+never bridges a gap. It is Parzen's (1963) amplitude-modulated estimator applied to a categorical match rate, the
+Edelson & Krolik (1988) discrete correlation function with unit lag bins, and `statsmodels`' `missing='conservative'`;
+gap-closing (A) is the "equal spacing" treatment (Datta & Du 2012), `statsmodels`' `missing='drop'`. The identity was
+checked numerically (`stage2/test_estimator_identity.py`; `literature/deep_research_report.md` §2). "Timestamp-aware lag
+matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
+of the two estimators in the CRQA-to-Φ setting. The practical rule it supports ("do not concatenate across gaps; pair
+at recorded time differences") is consistent with established practice and was tested only on integer time grids with
+whole-row missingness at random; kernel, interpolation and edit-distance alternatives were not compared.
 
 ## Abstract
 
@@ -31,25 +37,31 @@ first stage (16 forms, 20 seeds) found that 30% random sample loss, with gaps cl
 bottleneck agreement from 0.819 to 0.647. Bursty loss and a one-channel clock offset did not.
 
 An audit then found three problems with the original analysis:
-- the comparison null was a tie-break artefact; the correct chance level is 0.667, and the corrupted reading sits at it;
+- the comparison null was a tie-break artefact; the correct chance level is 0.667, and the corrupted reading is not
+  distinguishable from it (gain −0.020 [−0.144, +0.104], an interval too wide to show it is *at* chance);
 - the intervals ignored variation between forms;
 - the triadic/dyadic decoder had no signal on clean data, so its hypotheses could not be informative.
 
-A second, separately preregistered stage tested the mechanism on fresh seeds and on 30 independently drawn forms.
-- **Curated corpus.** Timestamp-aware lag matching reproduces the clean CRQA reading: CLEAN − B = −0.002
-  [−0.058, +0.052]. It beats gap-closing by +0.204 [+0.015, +0.417], and a length-matched contiguous control
-  loses nothing. Under the executed rule the preregistered interpretation is reconstruction distortion
-  (concatenation pairs samples at the wrong lags) over information loss. The size of the penalty is imprecise:
-  - the CI does not clear the preregistered 0.10 margin, so S2-H1 is CONFIRMED only under the rule as run and is
-    INCONCLUSIVE under the margin reading, where the interpretation rule returns *mixed or inconclusive*;
+A second, separately preregistered stage compared the gap-closing estimator (A) with the classical pairwise-available
+estimator (B: Parzen's amplitude-modulated estimator, equivalently a unit-bin discrete correlation function) on fresh
+seeds of the same curated forms and on 30 independently drawn forms.
+- **Curated corpus.** B reproduces the clean CRQA reading: CLEAN − B = −0.002 [−0.058, +0.052], as expected when loss is
+  completely at random, and a length-matched contiguous control loses nothing. B's advantage over gap-closing is
+  +0.204 [+0.015, +0.417] (S2-H1), and the evidence for it is weak:
+  - S2-H1 is CONFIRMED under the executed (lenient) rule and INCONCLUSIVE under the strict margin reading, where the
+    preregistered interpretation rule returns *mixed or inconclusive* rather than *reconstruction distortion*;
   - it does not survive a Bonferroni correction over the 10 confirmatory tests;
-  - the effect comes from four of the 12 informative forms.
+  - its positive lower bound is not robust to the interval method (negative under the basic bootstrap and a t interval
+    on form means; post-hoc);
+  - the effect comes from four of the 12 informative forms, the same four that dropped most in stage 1, and it vanishes
+    at `MAX_LAG = 5`.
 - **Segmenting at gaps.** The stage-1 recommendation is not supported: segmenting discards the long-lag pairs.
 - **Independent forms.** Inconclusive. No gap-closing harm is detected (B − A = −0.007 [−0.082, +0.078]), but the
   interval neither shows equivalence nor rules out a penalty of 0.08. The clean bottleneck pick is not clearly above
   chance there either: +0.136 [−0.001, +0.272].
-- **Triadic/dyadic.** In exploratory analysis the decoder fails because coupling breadth does not track Φ
-  integration; refitting its threshold does not help.
+- **Triadic/dyadic.** The decoder shows no signal on clean data, and refitting its threshold does not help. Exploratory
+  analysis suggests that coupling breadth does not track Φ integration; that explanation is exploratory (16 and 30 forms,
+  no intervals) and untested.
 
 ## Introduction
 
@@ -68,15 +80,41 @@ Within the lab:
 - q162: whole-system recurrence carries signal of its own; its `random_wiring` generator supplies the R2 forms here.
 - q207 and Probe 112: model-side delay and grain.
 
-Outside the lab, the protocol's deep-research stage was not run before either experimental stage. A
-retrospective contextual review, written after the experiments, is pending in
-`literature/deep_research_report.md` with `literature/references.bib`. Until it is written, this paper makes
-no claim about whether the questions here, or estimator B, are already covered in the wider literature on
-recurrence analysis and irregularly sampled series.
+Outside the lab (retrospective). *This part was written after both stages had been run and merged (#827). It did not
+inform the design; see `literature/deep_research_report.md`, which also records that the protocol's
+literature-before-hypotheses order was not followed.*
+
+Cross-recurrence quantification analysis (CRQA) reads coupling between two series from the pairs of time points at which
+their states recur (Zbilut et al. 1998; Marwan & Kurths 2002; Marwan et al. 2007). The diagonal cross-recurrence profile
+turns this into a lead–lag read-out and is standard in interpersonal-coordination research (Shockley et al. 2003;
+Richardson & Dale 2005). Its categorical form, used here, follows Coco & Dale (2014), building on Webber & Zbilut (1994).
+
+The estimator labelled B in stage 2 pairs observations only at their true time difference and never bridges a gap. It is
+the amplitude-modulated estimator of Parzen (1963) applied to a categorical match rate. It is also the discrete correlation
+function of Edelson & Krolik (1988) with unit lag bins, and `missing='conservative'` in `statsmodels` (statsmodels
+developers 2026). Estimator A, which concatenates the observed rows, is the "equal spacing" treatment (Datta & Du 2012),
+`missing='drop'`. Under missingness completely at random (Rubin 1976), B's pairs are a random subsample of the
+complete-data pairs, and A pairs a fraction 1 − (1 − m)^k of index-lag-k samples at the wrong true lag. Kernel and
+interpolation alternatives for irregular sampling (Rehfeld et al. 2011) and edit-distance recurrence for irregular records
+(Ozken et al. 2015, 2018) were not compared here.
+
+Lead–lag structure is associational. Common drivers can produce or hide apparent coupling (Granger 1969; Sugihara et al.
+2012; Runge et al. 2019).
+
+The structural ground truth is exact IIT-4.0 Φ (Albantakis et al. 2023), computed with PyPhi (Mayner et al. 2018).
+Scoring an analysis method against a system whose structure is known follows Jonas & Kording (2017), and benchmarking
+estimators under degraded sampling follows Rehfeld et al. (2011). Recurrence analysis of team interaction (Gorman et al.
+2010, 2012) measures coordination behaviour without such a ground truth.
+
+No prior study was found that degrades the observation of a faithful simulated run and scores a CRQA reading against an
+exact-Φ structure. That controlled evaluation, not the estimator, is the contribution of q220.
+
+Intervals use a two-stage form/seed bootstrap (Saravanan et al. 2020). With 12 and 30 clusters its coverage is a known
+weakness (Cameron, Gelbach & Miller 2008), which is why the interval-method sensitivity check below matters.
 
 ## Hypotheses
 
-Stage 1, as fixed in `hypotheses.md` (commit `1a77f73`) before any computation, with BN the bottleneck pick
+Stage 1, as fixed in `hypotheses.md` (committed in `1a77f73`) before any computation, with BN the bottleneck pick
 and TD the triadic/dyadic call:
 - **H0** (instrument gate): the validator passes, the faithful triad reads triadic at Φ = 2.000, and every
   dose-0 corruption is the identity.
@@ -87,7 +125,7 @@ and TD the triadic/dyadic call:
 - **H5**: at every bin width g ≥ 2, TD is within 0.05 of the shuffled-time null; REFUTED if any g ≥ 2 sits
   more than 0.05 above it.
 
-Stage 2, as fixed in `stage2/PREREGISTRATION.md` (commit `48e479f4`) before any stage-2 run: S2-H1 to S2-H8,
+Stage 2, as fixed in `stage2/PREREGISTRATION.md` (committed in `48e479f4`) before any stage-2 run: S2-H1 to S2-H8,
 ten tests counting S2-H6a/b and S2-H7a/b. Each is stated with its contrast, margin and decision rule in the
 results table below.
 
@@ -122,14 +160,16 @@ null. Both readings are uninformative because clean TD is already at the null. S
 
 **Sets.**
 - S0: the original seeds, descriptive only.
-- R1: the q161 corpus with fresh seeds 1000–1019. The primary set is the 12 forms with |B| < n.
+- R1: the q161 corpus with fresh seeds 1000–1019. The primary set is the 12 forms with |B| < n. These are the forms
+  whose stage-1 results generated the stage-2 hypotheses, so R1 guards against seed reuse, not form reuse.
 - R2: 30 forms (15 with n = 3, 15 with n = 4) from `random_wiring` with `default_rng(220)`, selected on exact-Φ criteria
   alone, seeds 2000–2019.
 
 **Estimators.** All four see the same raw run, seed and mask:
 - CLEAN;
 - A, gap-closed (the reference);
-- B, timestamp-aware: lag-k recurrence only from observed pairs exactly k steps apart;
+- B, timestamp-aware: lag-k recurrence only from observed pairs exactly k steps apart (Parzen's amplitude-modulated
+  estimator; see Related work);
 - C, segment: pairs inside contiguous segments, pooled.
 
 **Controls.**
@@ -170,15 +210,30 @@ inconclusive* under the margin reading. Under either reading the information-los
 
 **Multiplicity sensitivity check.** With Bonferroni 99.5% intervals over the 10-test family (`stage2/margin_audit.py`):
 - B − A becomes [−0.052, +0.513];
-- S2-H2, S2-H3, S2-H7a, S2-H7b and S2-H8 keep their verdicts, the last three narrowly.
+- S2-H2 and S2-H3 keep their verdicts under every interval method;
+- S2-H7a and S2-H7b are borderline: positive in the committed run (seed 220, 2,000 resamples), but the sign of the
+  lower bound depends on the bootstrap seed at 2,000 resamples, it is only about +0.003 at 50,000, and it is negative
+  under BCa and t intervals;
+- S2-H8 stays positive under the percentile, basic and form-only intervals but not under BCa or t.
+
+More resamples improve the numerical precision of these bounds; they add no independent forms and no generalizability.
+
+**Interval-method sensitivity (post-hoc).** `stage2/stats_sensitivity.py` and `stage2/bonferroni_mc_stability.py` were
+added after the merge, from an independent review, and read only the committed table. At 95%, S2-H1's lower bound is
+positive under the percentile (+0.017 at 20,000 resamples), BCa (+0.035) and form-only (+0.017 to +0.021) bootstraps but
+negative under the basic bootstrap (−0.008 to −0.004) and a t interval on the 12 form means (−0.024). S2-H2, S2-H3 and,
+at 95%, S2-H7a, S2-H7b and S2-H8 are robust to the method. A naive run-level bootstrap that ignores clustering would
+confirm far more, so clustering by form matters. S2-H7b is not independent of S2-H7a (the null scores |B|/n in 74.2% of
+runs).
 
 The segment-at-gaps recommendation is not supported: C − A = +0.096 [−0.054, +0.244].
 
 Further results:
 - **Diagnostics.** Under gap-closing at MAR 0.3, 31% of lag-1 index pairs, and 78% of index pairs across lags 1–10, are at
-  the wrong true lag. The share of coupling peaks at lag 0 rises from 0.18–0.20 to 0.25.
-- **Sensitivity.** The B − A result is stable across flip 0.05/0.12 and `MIN_PAIRS` 10/100. It disappears at
-  `MAX_LAG = 5`, where the clean pick is itself near chance.
+  the wrong true lag. These are the analytic expectations under whole-row MAR (30% and 77.3%), not mechanism evidence.
+  The share of coupling peaks at lag 0 rises from 0.18–0.20 to 0.25.
+- **Sensitivity.** The B − A result keeps its sign at flip 0.05/0.12. `MIN_PAIRS` 10/100 change nothing because the
+  floor never binds for A, B or CLEAN. B − A disappears at `MAX_LAG = 5`, where the clean pick is itself near chance.
 - **Exploratory TD.** Normalised spread separates triadic from dyadic forms with AUC 0.62 on R1 and 0.19 (reversed) on R2.
   A held-out-by-form threshold refit does not beat chance.
 
@@ -189,22 +244,26 @@ judged from the paired contrasts in the table, not from overlapping bars.*
 
 ## Discussion
 
-On the curated forms, the recorded samples after 30% random loss still hold the information clean CRQA uses, and
-the evidence points to the reconstruction as what removes it. This is restoration of the clean decoder's reading, not a
-validation of that decoder against Φ. Concatenation re-pairs samples at the wrong time differences: synchronous pairs survive
-whole-row deletion intact, while lagged ones are diluted. A decoder that ranks nodes by summed lead-lag prominence then
-misranks them on the forms whose bottleneck shows up mainly in lagged coupling. Pairing at true time differences fixes
-this without imputation. Splitting into segments throws away most long-lag pairs and does not.
+On the curated forms, the recorded samples after 30% random loss still hold the information clean CRQA uses: the
+classical pairwise-available estimator recovers the clean reading, as it should when loss is completely at random. This is
+restoration of the clean decoder's reading, not a validation of that decoder against Φ. Concatenation re-pairs samples at
+the wrong time differences by construction: synchronous pairs survive whole-row deletion intact, while lagged ones are
+diluted. One account consistent with the results is that a decoder ranking nodes by summed lead–lag prominence then
+misranks them on the forms whose bottleneck shows up mainly in lagged coupling. The evidence that this costs accuracy
+(S2-H1) is weak: lenient-rule only, method-dependent and concentrated in four forms. Splitting into segments throws away
+most long-lag pairs.
 
 Two results limit how far this carries.
 - The effect is concentrated in four or five forms. On 30 random forms it is not detected, but that test is
   inconclusive: it is not evidence that gap-closing is harmless there.
-- Its size is imprecise. The CI includes penalties below the 0.10 margin, and it does not survive a Bonferroni correction.
+- Its size is imprecise. The CI includes penalties below the 0.10 margin, it does not survive a Bonferroni correction,
+  and its lower bound turns negative under the basic bootstrap and a t interval on form means.
 - The bottleneck pick has an edge over chance on the curated forms but only a marginal, unresolved one on random forms,
   and it depends on the lag window.
 
-The practical rule these results suggest is narrow and rests on the curated forms: do not concatenate across gaps;
-compute lag statistics from timestamp-matched pairs; report the pair counts. That CRQA recovers Φ structure from
+The practical rule these results are consistent with is established practice for gappy series, not a new finding: do
+not concatenate across gaps; compute lag statistics from pairs at their recorded time differences; report the pair counts.
+It was tested here only on integer time grids with whole-row missingness at random. That CRQA recovers Φ structure from
 behaviour has not been shown beyond the curated corpus.
 
 ## Limitations
@@ -220,7 +279,13 @@ behaviour has not been shown beyond the curated corpus.
   uninformative because every node is in B. R2 is filtered by exact-Φ inclusion rules.
 - Dependence: the form is the unit, and the 20 seeds per form are repeated measures. All intervals resample forms.
 - Ten confirmatory tests, uncorrected as preregistered. See the Bonferroni sensitivity check above.
-- No external literature review preceded either stage; the retrospective review is pending (`literature/`).
+- No external literature review preceded either stage. The review in `literature/` is retrospective: written after the
+  experiments, it did not inform the design, and the protocol's order was not followed.
+- R1 reuses the hypothesis-generating forms; only the seeds are fresh.
+- The matched nulls permute each channel independently: they cannot exhibit fabricated adjacency and they remove
+  autocorrelation on some forms. An autocorrelation-preserving null is future work.
+- The lead–lag reading is associational; common drivers are not ruled out.
+- Only A, B and C were compared; kernel, interpolation and edit-distance estimators were not.
 - Stage-2 hypotheses were chosen after seeing stage 1. Fresh seeds and new forms guard against reuse of data, not
   against the choice of what to test.
 
@@ -231,6 +296,18 @@ check.
 
 ## References
 
-Internal: q153, q159, q161, q162, q207; Probe 112. CRQA measures: Webber and Zbilut (1994); Marwan et al. (2007);
-Coco and Dale (2014), as cited in `org_frontier/recurrence/crqa.py`. These three do not yet resolve to
-`literature/references.bib`; they will be entered there, with DOIs, when the retrospective review is written.
+Internal: q153, q159, q161, q162, q207; Probe 112.
+
+External (retrospective; every entry is in `literature/references.bib`, key in brackets):
+Albantakis et al. 2023 [`albantakis2023iit`]; Cameron, Gelbach & Miller 2008 [`cameron2008bootstrap`]; Coco & Dale 2014
+[`coco2014cross`]; Datta & Du 2012 [`datta2012nonparametric`]; Edelson & Krolik 1988 [`edelson1988discrete`]; Gorman et al.
+2010 [`gorman2010team`]; Gorman et al. 2012 [`gorman2012measuring`]; Granger 1969 [`granger1969investigating`]; Jonas &
+Kording 2017 [`jonas2017could`]; Marwan & Kurths 2002 [`marwan2002nonlinear`]; Marwan et al. 2007
+[`marwan2007recurrence`]; Mayner et al. 2018 [`mayner2018pyphi`]; Ozken et al. 2015 [`ozken2015transformation`]; Ozken et
+al. 2018 [`ozken2018recurrence`]; Parzen 1963 [`parzen1963spectral`]; Rehfeld et al. 2011 [`rehfeld2011comparison`];
+Richardson & Dale 2005 [`richardson2005looking`]; Rubin 1976 [`rubin1976inference`]; Runge et al. 2019
+[`runge2019inferring`]; Saravanan et al. 2020 [`saravanan2020hierarchical`]; Shockley et al. 2003 [`shockley2003mutual`];
+statsmodels developers 2026 [`statsmodels_acovf`]; Sugihara et al. 2012 [`sugihara2012detecting`]; Webber & Zbilut 1994
+[`webber1994dynamical`]; Zbilut et al. 1998 [`zbilut1998detecting`]. The CRQA measures in `org_frontier/recurrence/crqa.py`
+are attributed there to Webber & Zbilut (1994), Marwan et al. (2007) and Coco & Dale (2014), which now resolve to verified
+entries.

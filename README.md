@@ -642,7 +642,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q217](org_frontier/questions/q217_rotating_chair/paper.md) | The rotating chair: preserved integration and a moving veto | A rotating chair moves the veto between successive chairs while peak party-core integration and state coverage stay unchanged |
 | [Q218](org_frontier/questions/q218_chicken_egg_feed/paper.md) | The Chicken-and-Egg Feed: First Causes, Loops, and Φ in Stylized Post Spread | no first cause needs a loop, but a loop is not enough; the engagement feed with look-alike fans factors |
 | [Q219](org_frontier/questions/q219_insurance_claim_adjudication/paper.md) | Who decides an insurance claim? An exact-Φ reading of claimant, engine, and adjuster | who decides an insurance claim? |
-| [Q220](org_frontier/questions/q220_observation_process_robustness/paper.md) | Observation-process robustness of the CRQA structural verdict (q220) | Timestamp-aware lag matching restores the clean CRQA bottleneck pick on curated forms; the gain is imprecise and not shown on random forms |
+| [Q220](org_frontier/questions/q220_observation_process_robustness/paper.md) | Observation-process robustness of the CRQA structural verdict (q220) | On curated forms, pairing samples at their true lags (a classical estimator) matches clean CRQA after random loss; its edge over gap-closing is… |
 
 </details>
 

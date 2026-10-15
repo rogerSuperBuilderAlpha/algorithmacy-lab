@@ -1,7 +1,12 @@
 # q220 stage 2 — Follow-up preregistration (gap-aware CRQA and chance-corrected baselines)
 
-**Status: fixed before any stage-2 simulation.** This file was committed and pushed before the
+**Status: fixed before any stage-2 simulation.** This file was committed before the
 stage-2 code was run on any trajectory. Its git commit is the timestamp.
+
+*Post-merge correction (follow-up to #827):* this line originally read "committed and pushed before". The record
+supports "committed before" (`48e479f4`, 09:22:58 ET 2026-10-15). The commit also reached the PR branch before the
+results commit (a GitHub Actions run for head `48e479f4` was created at 09:23:06 ET; the results commit `f084e3f3` is
+09:28:51 ET), but no record timestamps the start of the run itself.
 
 **This is a follow-up, not a retrofit.** Stage 2 was designed *after* seeing the original q220 results
 and the audit (`AUDIT.md`). The original preregistration (`../review.md`, `../hypotheses.md`,
