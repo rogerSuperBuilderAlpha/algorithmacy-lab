@@ -1,6 +1,8 @@
 # Q221 — Pairwise recurrence summaries do not identify the transition law of noisy Boolean networks
 
-**Status: exploratory and provisional.** Draft PR #842. Not preregistered, not confirmatory.
+**Status: provisional draft.** Draft PR #842. Everything is exploratory **except** the preregistered 4-node study
+of target A (`confirmatory_4node/`, prereg commit `2ad11e69`). That study's H2 and H3 are confirmatory within
+their stated scope.
 
 **Headline (target A).**
 - **Claim:** population pairwise categorical recurrence summaries do not identify the multivariate transition
@@ -10,6 +12,13 @@
 - **Not observationally equivalent:** the full and bivariate (X,Y) and (Y,H) laws differ, decided exactly.
 - **What separates the pairs:** transfer entropy, joint recurrence and SHREC do. The MdRQA full-vector
   recurrence rate does not; it is exactly equal.
+- **4-node study (preregistered).**
+  - **Exact:** 1,872 non-isomorphic recurrence-equal, law-different orbit pairs among 322,560 four-node affine
+    systems.
+  - **Confirmatory:** the R classifier is at chance on 40 held-out pairs (TOST). Likelihood separates 40/40,
+    TE 36/40 (population TE 25/40). MdRQA (8/40) and false-pair q220 (1/40) generally fail. JRR (23/40) and
+    SHREC (28/40) are unresolved.
+  - See `confirmatory_4node/RESULTS.md`.
 
 **Other targets.**
 
@@ -29,6 +38,7 @@
 | `GATES.md` | gates A–H |
 | `THEORY.md` | proofs |
 | `protocol.md` | frozen specs |
+| `confirmatory_4node/` | preregistration, deviations, results of the 4-node study |
 | `MANIFEST.json` | hashes and versions |
 | `results/checksums.sha256` | checksums |
 | `TECHNICAL_REPORT.md`, `REVIEW_HANDOFF.md`, `independent_audit/` | Hassan's work |

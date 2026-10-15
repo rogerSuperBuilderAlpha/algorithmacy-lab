@@ -192,3 +192,21 @@ lower bound > 0.5):
 
 The weak S1 false-pair signal, despite equal population means, indicates that the prominence statistic's
 sampling distribution differs beyond its mean. It is not evidence against target A.
+
+### Addendum 3: preregistered 4-node study of target A (2026-10-15, executor)
+
+- **Preregistration** `confirmatory_4node/PREREGISTRATION.md` (commit `2ad11e69`) was pushed before any study
+  code was run. Results are in `confirmatory_4node/RESULTS.md`; deviations (none affect outcomes) are in
+  `DEVIATIONS.md`.
+- **Exact result (H1).** Among 322,560 four-node affine noisy Boolean systems, 1,872 non-isomorphic orbit pairs
+  share every pairwise recurrence summary at all lags but have different transition laws.
+- **Confirmatory (H2).** A classifier on those summaries is equivalent to chance on 40 held-out pairs (mean 0.4999,
+  90% CI [0.493, 0.507]).
+- **Confirmatory (H3).**
+  - Transition likelihood separates 40/40.
+  - Lag-1 transfer entropy generally separates (36/40). Its population value separates only 25/40; the
+    excess is attributed, on an exploratory basis, to finite-sample estimator bias.
+  - The MdRQA rate (8/40) and the false-pair-calibrated q220 statistic (1/40) generally fail.
+  - Joint recurrence (23/40) and SHREC (28/40) are unresolved.
+- **Scope.** These results are limited to family F4, T = 600 and these implementations. They make no claim
+  about IIT targets.

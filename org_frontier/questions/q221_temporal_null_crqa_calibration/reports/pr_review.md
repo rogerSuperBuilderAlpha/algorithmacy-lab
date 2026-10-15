@@ -46,7 +46,7 @@
    `/workspace/algorithmacy-q221-briefs/pr842_body_v2.md` but not applied.
 
 **What still argues for keeping the PR as a draft:**
-- **No confirmatory evidence.** Everything is exploratory or pilot work.
+- **Confirmatory evidence is narrow.** It covers only the preregistered 4-node target-A study (family F4); everything else is exploratory or pilot work.
 - **Novelty is narrow.** The competing interpretation, that this is a textbook consequence of pairwise
   blindness plus a target-definition artefact, is largely accepted in `literature/NOVELTY_MATRIX.md`.
 - **The q161 convention question** is open with the maintainer.
@@ -59,3 +59,14 @@
 **Keep #842 as a draft.** The remaining gaps are scientific: there is no confirmatory study, and the target
 convention is undecided. They are not packaging issues. A non-draft version would need the maintainer's answer
 on the q161 convention and a decision on whether exploratory-only work is in scope for `contrib`.
+
+## Round 3 update (2026-10-15): preregistered 4-node study
+
+- **Preregistration:** `2ad11e69`, pushed before any study run. The scripts are frozen at `89118627` and
+  `11d34a7c`.
+- **H1 (exact):** 1,872 non-isomorphic orbit pairs.
+- **H2:** supported; the R classifier is at chance.
+- **H3:** all predictions met. C2 and C4 are unresolved.
+- **Deviations:** D1–D3, none outcome-affecting.
+- **Recommendation unchanged.** Keep #842 as a draft. The q161 convention question is still open with the
+  maintainer, and the confirmatory scope is a single synthetic family.

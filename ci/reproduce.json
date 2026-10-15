@@ -7043,6 +7043,18 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/identifiability/results/PAIR_SEARCH_STORAGE.md"
     },
     {
+      "name": "q221-4node-exact-screen",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.screen4",
+      "expect": [
+        "S0: |GL(4,2)| = 20160 ; systems = 322560",
+        "S3: classes with >= 2 orbits = 30216 ; unordered non-isomorphic system pairs = 1366408 ; unordered orbit pairs = 1872",
+        "marginals 1/2: 300/300",
+        "non-isomorphic (384 maps): 40/40"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
       "name": "q221-survivor-baselines",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
       "expect": [

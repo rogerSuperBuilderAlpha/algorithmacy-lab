@@ -46,4 +46,5 @@ generating process. They re-show Yuan & Shou (2022) for this statistic.
 - n = 3 enumeration only.
 - All three survivors are affine. The theorem does not cover non-affine rule families.
 - Comparators (spec `311a6477`): TE and JRP separate the survivors exactly. SHREC separates them in finite samples. The MdRQA rate (a trace invariant) and false-pair q220 do not. Not run: CCM, TTS.
-- There is no confirmatory study.
+- At the time this report was written there was no confirmatory study. *Update (2026-10-15, round 3):* the
+  preregistered 4-node target-A study now exists; see `confirmatory_4node/RESULTS.md`.

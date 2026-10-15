@@ -7,11 +7,12 @@
   "identifiability/test_invariants_extra.py (expensive tier: Q221_SLOW=1)",
   "identifiability/test_q220_regression.py",
   "identifiability/test_comparators.py",
-  "identifiability/test_pair_search_data.py"
+  "identifiability/test_pair_search_data.py",
+  "confirmatory_4node/test_confirmatory_4node.py (full screen re-run: Q221_SLOW=1)"
  ],
  "rejected_candidates_file": "identifiability/results/rejected_candidates.json",
- "status": "DRAFT, exploratory; no confirmatory evidence",
- "generated_at_commit": "311a6477c1a151e56b10752686c5021f446fa25c",
+ "status": "DRAFT. Exploratory except the preregistered 4-node study (confirmatory_4node/PREREGISTRATION.md, commit 2ad11e69): H1 exact; H2 and H3 decided by the preregistered rules (see confirmatory_4node/RESULTS.md)",
+ "generated_at_commit": "1ff1521ff76a6850ed2809684c94daf0919cd2a1",
  "versions": {
   "python": "3.12.15",
   "numpy": "2.5.4",
@@ -302,6 +303,57 @@
    "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.q220_intermediates",
    "sha256": {
     "identifiability/results/q220_intermediates.json": "9cad67116c99f2b9a86bb1b33335882cecff5d46586bdc41ac49841777f16702"
+   }
+  },
+  {
+   "name": "screen4_exact_4node",
+   "category": "4-node target-A study: exact screen (H1, exact)",
+   "script": "confirmatory_4node/screen4.py",
+   "spec_commit": "2ad11e69",
+   "seeds": "V1 default_rng(4210001); study-pair sampling default_rng(4210002)",
+   "results": [
+    "confirmatory_4node/results/screen4.txt",
+    "confirmatory_4node/results/screen4.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.screen4",
+   "sha256": {
+    "confirmatory_4node/results/screen4.txt": "f37658971c40fe4eb1669823825625101d987bfa411251098958b2330ac4182f",
+    "confirmatory_4node/results/screen4.json": "c980a5e4f1b883b1158a1de02be3b37b850dabd8e9241ff48fef97b56181ed20"
+   }
+  },
+  {
+   "name": "study4_comparators_4node",
+   "category": "4-node target-A study: preregistered finite-sample (H2, H3)",
+   "script": "confirmatory_4node/study4.py",
+   "spec_commit": "2ad11e69 (script frozen at 11d34a7c)",
+   "seeds": "trajectories default_rng(4220000 + 1000*q + 500*m + r), r<300; false-pair null 4290000+q",
+   "environment": "/workspace/shrec-venv: shrec @ 49c6d3e0, scikit-learn 1.9.1, umap-learn 0.5.12; run as --part 0 20 / --part 20 40 then --combine",
+   "results": [
+    "confirmatory_4node/results/study4.txt",
+    "confirmatory_4node/results/study4.json",
+    "confirmatory_4node/results/study4_part_00_20.json",
+    "confirmatory_4node/results/study4_part_20_40.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.study4",
+   "sha256": {
+    "confirmatory_4node/results/study4.txt": "5487d6818467d7f5069d1f2a083bfc659e20c3a7a94cf1364f255f9833c5c414",
+    "confirmatory_4node/results/study4.json": "ad0d54eff4950da2b7154dd3bc29d12efa779169294cf4e33aaffca53f979825",
+    "confirmatory_4node/results/study4_part_00_20.json": "06d7739534d606b3d180d01c1930cbd699d657b1f17685aa3b8ec0179fd915a4",
+    "confirmatory_4node/results/study4_part_20_40.json": "1b78f9feea649266e896130e182561368b1e1afbcf1da92a932940715ea766e6"
+   }
+  },
+  {
+   "name": "te_bias_diag_4node",
+   "category": "4-node study: post-hoc diagnostic (EXPLORATORY, not preregistered)",
+   "script": "confirmatory_4node/te_bias_diag.py",
+   "seeds": "default_rng(4380000+10q+m) long runs; 4390000+1000q+500m+k",
+   "results": [
+    "confirmatory_4node/results/te_bias_diag.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.te_bias_diag",
+   "sha256": {
+    "confirmatory_4node/results/te_bias_diag.json": "cd7fba16e58ba80ea18858278aee71beaf2876291b3b592699ee05f36b72ca35"
    }
   }
  ],

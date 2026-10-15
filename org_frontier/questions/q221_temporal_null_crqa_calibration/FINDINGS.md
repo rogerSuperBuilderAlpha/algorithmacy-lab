@@ -1,6 +1,8 @@
-# Q221 — Pairwise recurrence summaries do not identify the transition law; proved for the affine class (exploratory draft, not confirmatory)
+# Q221 — Pairwise recurrence summaries do not identify the transition law; proved for the affine class (draft; exploratory except one preregistered 4-node study)
 
-**Status: draft exploratory research. No preregistered confirmatory claim.**
+**Status: draft research.** Everything is exploratory **except** the preregistered 4-node study of target A
+(`confirmatory_4node/PREREGISTRATION.md`, commit `2ad11e69`; results in `confirmatory_4node/RESULTS.md`). That
+study's H2 and H3 are confirmatory empirical results within its stated scope (family F4, T = 600, these classifiers).
 
 *Hassan's concurrent heading, retained:* "The specified population recurrence profiles cannot identify both
 complete q161 bottleneck sets". This holds under q161's rule-freeze convention. Under the background-condition
@@ -26,6 +28,34 @@ Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed
 | **C** IIT quantity | Φ or major complex differ | **Does not survive.** Same major complex {X,H}, same Φ = 2, same per-state φ | `results/rep_verify.txt` |
 | **D** q220 decoder on held-out families | beats chance or baselines | **Not supported.** +0.04 [−0.05, +0.12] on `nsi` and +0.02 [−0.04, +0.08] on `aff`. A plug-in transition-law comparator scores 1.000 | `results/structural_baselines.txt` |
 
+## Preregistered 4-node study of target A (prereg `2ad11e69`; scripts frozen at `89118627` / `11d34a7c`)
+
+- **H1, exact result.** The family F4 is x' = Ax ⊕ c ⊕ noise with A ∈ GL(4,2) and p = 0.08: 322,560 systems
+  in 1,864 relabeling orbits (S4 × (Z2)^4). It contains **1,872 non-isomorphic orbit pairs** (1,366,408
+  system pairs) with exactly equal pairwise recurrence summaries R at all lags and different laws. The closed
+  form was checked against brute force on 300/300 systems; all 40/40 study pairs passed exact checks.
+- **H2, confirmatory and supported.** On 40 random orbit pairs, a nearest-centroid classifier on R (176
+  features) had mean held-out accuracy 0.4999, 90% CI [0.4929, 0.5070] ⊂ [0.45, 0.55]. It separated 0/40
+  pairs.
+- **H3, confirmatory.** Pairs separated out of 40, with verdicts under the Bonferroni Wilson rule:
+
+  | classifier | separated | verdict | predicted |
+  |---|---|---|---|
+  | C0 transition likelihood | 40 | generally separates | met |
+  | R | 0 | generally fails | met |
+  | C5 false-pair q220 | 1 | generally fails | met |
+  | C1 TE | 36 | generally separates | – |
+  | C3 MdRR | 8 | generally fails | – |
+  | C2 JRR | 23 | **unresolved** (mixed) | – |
+  | C4 SHREC | 28 | **unresolved** (mixed) | – |
+
+- **Descriptive.** Exact population TE separates only 25/40 pairs. Finite-sample TE separates 11 pairs whose
+  population TE is identical. A post-hoc diagnostic (**exploratory**) attributes this to plug-in bias that
+  differs between members.
+- **MdRR at n = 4.** MdRR is *not* generally equal: it differs exactly in 9/40 pairs. The n = 3 equality
+  below was specific to those survivors.
+- Deviations (none affect outcomes): `confirmatory_4node/DEVIATIONS.md`.
+
 ## Comparator study (prespecified, spec commit `311a6477`; exploratory)
 
 - Results: `identifiability/results/comparators.{txt,json}`.
@@ -37,7 +67,7 @@ Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed
 |---|---|---|---|---|
 | C1 transfer entropy (history 1) | **yes**, all 3 pairs (max diff 0.598 bits) | 1.000 | 1.000 | 1.000 |
 | C2 joint recurrence, categorical, lags 1–10 | **yes**, all 3 (max diff 0.176); the (X,H) block is equal | 1.000 | 1.000 | 0.995 |
-| C3 MdRQA full-vector recurrence rate, lags 1–10 | **no**: exactly equal = trace(P^k)/8 | 0.488 | 0.490 | 0.493 |
+| C3 MdRQA full-vector recurrence rate, lags 1–10 | **no**: exactly equal = trace(P^k)/8 (for these three pairs; not general — differs in 9/40 four-node study pairs) | 0.488 | 0.490 | 0.493 |
 | C4 SHREC (`williamgilpin/shrec` @ `49c6d3e0`, defaults; 4 prespecified driver features) | not computable | 0.895 | 1.000 | 0.918 |
 | C5 false-pair-calibrated q220 prominence | **no** (equal by the Corollary) | 0.583* | 0.483 | 0.505 |
 
@@ -155,16 +185,18 @@ spec committed in `ecd014dd`):
   - The block surrogate is inflated for Pearson at p = 0.98 (16.8%).
   - With n = 250 per cell, no interval fits inside the 0.025–0.075 band. Those cells are inconclusive by
     design, and **no improved-calibration claim is made.**
-- **No calibration claim for the q220 decoder and no confirmatory claim.**
+- **No calibration claim for the q220 decoder.** The only confirmatory claims are those of the 4-node target-A
+  study (above), and they concern summary blindness, not calibration.
 - Shuffle miscalibration under autocorrelation is already known (Yuan & Shou 2022). Circular shifts can also
   fail (Yuan & Shou 2024).
 - Evidence: `independent_audit/null_pilot_results.json` and `REPRODUCTION_STATUS.md`.
 
 ## 4. Structural prediction and confirmatory evidence
 
-- **None.** Track B (predicting the Φ bottleneck from recurrence on held-out forms) was not run.
-- No preregistration exists.
-- No confirmatory data were collected.
+- Track B (predicting the Φ bottleneck from recurrence on held-out forms) was **not run**. There is no
+  confirmatory evidence about IIT targets.
+- The only preregistered confirmatory data are those of the 4-node target-A study (see above and
+  `confirmatory_4node/RESULTS.md`).
 
 ## What is (possibly) new
 
@@ -211,7 +243,7 @@ python -m $M.identifiability.variants_abc
 python -m pytest -q org_frontier/questions/q221_temporal_null_crqa_calibration/
 ```
 
-## Future confirmatory work (not started)
+## Future confirmatory work (the 4-node target-A study is done; the items below are not started)
 
 Any confirmatory study needs:
 - a preregistration committed and pushed before data collection;

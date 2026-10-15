@@ -78,10 +78,24 @@ EXPERIMENTS = [
          results=["identifiability/results/comparators.txt", "identifiability/results/comparators.json"]),
     dict(name="q220_intermediates", category="finite-sample check (exploratory)", script="identifiability/q220_intermediates.py",
          seeds="trajectory default_rng(43000..43004)", results=["identifiability/results/q220_intermediates.json"]),
+    dict(name="screen4_exact_4node", category="4-node target-A study: exact screen (H1, exact)",
+         script="confirmatory_4node/screen4.py", spec_commit="2ad11e69",
+         seeds="V1 default_rng(4210001); study-pair sampling default_rng(4210002)",
+         results=["confirmatory_4node/results/screen4.txt", "confirmatory_4node/results/screen4.json"]),
+    dict(name="study4_comparators_4node", category="4-node target-A study: preregistered finite-sample (H2, H3)",
+         script="confirmatory_4node/study4.py", spec_commit="2ad11e69 (script frozen at 11d34a7c)",
+         seeds="trajectories default_rng(4220000 + 1000*q + 500*m + r), r<300; false-pair null 4290000+q",
+         environment="/workspace/shrec-venv: shrec @ 49c6d3e0, scikit-learn 1.9.1, umap-learn 0.5.12; run as --part 0 20 / --part 20 40 then --combine",
+         results=["confirmatory_4node/results/study4.txt", "confirmatory_4node/results/study4.json",
+                  "confirmatory_4node/results/study4_part_00_20.json", "confirmatory_4node/results/study4_part_20_40.json"]),
+    dict(name="te_bias_diag_4node", category="4-node study: post-hoc diagnostic (EXPLORATORY, not preregistered)",
+         script="confirmatory_4node/te_bias_diag.py", seeds="default_rng(4380000+10q+m) long runs; 4390000+1000q+500m+k",
+         results=["confirmatory_4node/results/te_bias_diag.json"]),
 ]
 TESTS = ["identifiability/test_invariants.py", "identifiability/test_invariants_extra.py (expensive tier: Q221_SLOW=1)",
          "identifiability/test_q220_regression.py", "identifiability/test_comparators.py",
-         "identifiability/test_pair_search_data.py"]
+         "identifiability/test_pair_search_data.py",
+         "confirmatory_4node/test_confirmatory_4node.py (full screen re-run: Q221_SLOW=1)"]
 
 CANDIDATES = [
     dict(id="A/B/C (A_self, B_xor, B_xor_memory)", status="rejected", reason="q161 targets ineligible (empty B) - rule 1", facts="see variants_abc.txt"),
@@ -107,7 +121,7 @@ def main():
         c.setdefault("reason", "survived exact screen (screen_exact.txt)")
         c.setdefault("facts", "screen_exact.txt; target_variants.txt")
     man = dict(schema_version="1", study="q221", protocol="protocol.md", tests=TESTS,
-               rejected_candidates_file="identifiability/results/rejected_candidates.json", status="DRAFT, exploratory; no confirmatory evidence", generated_at_commit=head,
+               rejected_candidates_file="identifiability/results/rejected_candidates.json", status="DRAFT. Exploratory except the preregistered 4-node study (confirmatory_4node/PREREGISTRATION.md, commit 2ad11e69): H1 exact; H2 and H3 decided by the preregistered rules (see confirmatory_4node/RESULTS.md)", generated_at_commit=head,
                versions=versions(), experiments=EXPERIMENTS, candidates=CANDIDATES,
                search_counts=dict(forms=8192, candidate_pairs=7488, no_constant=6816, equal_marginals=6432,
                                   equal_self_recurrence=180, equal_cross=180, non_isomorphic_raw=144,
