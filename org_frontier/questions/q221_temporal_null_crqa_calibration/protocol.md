@@ -35,3 +35,26 @@ These were declared in the mandate's baseline list but not executed:
 - joint recurrence plots and MdCRQA;
 - false-pair surrogates;
 - the TTS test.
+
+## Comparator study (prespecified 2026-10-15, before any run)
+
+- **Script:** `identifiability/comparators.py`. Its docstring is the binding spec, and it is committed before
+  the first execution.
+- **Pairs:** the 3 surviving pairs (S1 = the lead pair P/Q).
+- **Data:** the q220 generator at T = 600 and flip 0.08. Seeds `47000 + 1000·pair + 500·member + r`:
+  100 training and 200 test trajectories per member.
+- **Comparators:**
+  - C1: transfer entropy (history 1);
+  - C2: joint-recurrence rates (lags 1..10);
+  - C3: MdRQA full-vector recurrence rates (lags 1..10);
+  - C4: SHREC (`williamgilpin/shrec` @ `49c6d3e0`, library defaults, `random_state` = 0), with 4
+    prespecified features of the reconstructed driver;
+  - C5: false-pair surrogate z-scores of q220 prominence (199 label-agnostic surrogates, seed 47999).
+- **Exact population separation:** computed for C1–C3, with threshold 1e-12. For C5 it is equal by theorem.
+  For C4 it is not computable.
+- **Finite-sample test:** nearest-centroid classifier.
+- **Decision rule:** "separates" if the Bonferroni-adjusted Wilson lower bound (15 tests, z = 2.935)
+  is > 0.5.
+- **Theory-based expectations** are recorded in the docstring.
+- **Environment:** run in `/workspace/shrec-venv` (Python 3.12, numpy 2.5.4, scipy 1.18.1, scikit-learn
+  1.9.1, umap-learn 0.5.12). PyPhi is not needed.
