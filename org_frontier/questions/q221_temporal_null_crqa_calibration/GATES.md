@@ -112,6 +112,8 @@ reproduction.
 | **q220 rule** | **+0.039 [−0.05, +0.12]** | **+0.017 [−0.04, +0.08]** |
 | **plug-in transition law, then q161** | **+0.413 [+0.38, +0.45]** (score 1.000; exact rule recovered in 97.5%) | **+0.471 [+0.43, +0.50]** (score 1.000; 100%) |
 
+**Held-out truth-table leakage check (post-hoc QA guard).** The nsi and affine *generators* have a nonempty intersection even though their labels differ. Independent decoding of all 80 selected eligible forms in each family found 80 distinct truth tables per family and **zero shared truth tables between the two selected sets**. A fail-closed assertion was added to structural_baselines.py after form selection and before trajectories are generated, without changing the frozen seeds, selection algorithm, scoring, or existing results. This does not make the full generator families disjoint.
+
 **Selection and evaluation are kept separate.** These forms are a fresh random draw. The draw log records every
 form, eligible or not: 171 draws in `nsi`, 210 in `aff`. Nothing was selected on outcomes.
 
