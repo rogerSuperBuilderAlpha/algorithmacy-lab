@@ -3,7 +3,7 @@
 ## Scope and conventions
 
 - **Base.** `rogerSuperBuilderAlpha:contrib` at `44f9b491`, which is an ancestor of the head.
-- **Changed paths** (141 files vs contrib, after merging Hassan's latest): only
+- **Changed paths** (counts change as the draft evolves):
   - `org_frontier/questions/q221_temporal_null_crqa_calibration/**`;
   - the generated `README.md` and `MAP.md`;
   - `ci/reproduce.json`, where entries were inserted textually and the existing format is preserved.
@@ -56,8 +56,7 @@
 
 ## Recommendation
 
-**Keep #842 as a draft.** The remaining gaps are scientific: there is no confirmatory study, and the target
-convention is undecided. They are not packaging issues. A non-draft version would need the maintainer's answer
+**Keep #842 as a draft.** The four-node target-A study is the only reported preregistered confirmatory component; its scope is one synthetic family. The q161 target-convention question remains undecided, and the broader IIT/organizational conclusions are not confirmed. These are scientific review questions, not packaging failures. A non-draft version would need the maintainer's answer
 on the q161 convention and a decision on whether exploratory-only work is in scope for `contrib`.
 
 ## Round 3 update (2026-10-15): preregistered 4-node study
