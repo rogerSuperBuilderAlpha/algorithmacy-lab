@@ -6973,6 +6973,15 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/identifiability/results/structural_baselines.json"
     },
     {
+      "name": "q221-four-node-receipts-qa",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.audit_4node_records",
+      "expect": [
+        "q221 F4 record integrity: 40 orbit-disjoint pairs; 400 held-out trajectories each; 7 classifiers reproduced; H2 mean=0.4999375, CI90=[0.492921,0.506954] PASS"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
       "name": "q221-exact-all-lag-recurrence-proof",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
       "expect": [
