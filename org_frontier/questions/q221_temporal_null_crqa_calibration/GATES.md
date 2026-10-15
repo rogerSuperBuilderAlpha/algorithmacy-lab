@@ -34,6 +34,10 @@ Status values: **PASS**, **FAIL**, **BLOCKED**, **NOT RUN**. Gates A–H cover t
 | P4 (4-node target-A study) | Preregistration `2ad11e69` committed and pushed before any study code ran; exact screen with V1/V2; decision rules applied exactly as registered | `python -m ...confirmatory_4node.screen4` (about 10 s); `PYTHONPATH=. /workspace/shrec-venv/bin/python -m ...confirmatory_4node.study4 --part 0 20` / `--part 20 40` / `--combine` (about 8 min) | `test_confirmatory_4node.py`: closed form vs brute force, orbit ids vs direct enumeration, study-pair properties, MdRR trace identity, recomputed decision rules; `Q221_SLOW=1` re-runs the full screen counts | **MET.** H1 exact: 1,872 orbit pairs, V1 300/300, V2 40/40. H2 supported: 0.4999, 90% CI [0.493, 0.507]. H3: C0 separates; R, C5, C3 generally fail; C1 generally separates; C2 and C4 unresolved. Deviations D1–D3 do not affect outcomes. Scope: F4, T = 600 only |
 | H | Tests and validators pass. Checksums and manifest are present. | `pytest org_frontier/questions/q221_temporal_null_crqa_calibration -q` ; `python ci/reproduce.py --changed-file ...` | – | The expensive tier is separate: `Q221_SLOW=1` enables the PyPhi tests in `identifiability/test_invariants_extra.py`. |
 
+### Additional exact minimum-size check (post-hoc)
+
+The independently implemented certificate in independent_audit/minimality_affine.py enumerates **all 2 invertible one-node and 24 invertible two-node affine systems**. The latter form 16 exact recurrence-profile classes with 8 colliding pairs, all isomorphic under the 8-element node/value group. A non-isomorphic witness already exists at n=3. Rational TPM outputs agree with Walsh signatures over enough initial lags for a Cayley–Hamilton all-lag certificate; the result holds for all 0<p<1/2 under the stated family and symmetries. Regression test test_minimality_affine.py and registered check q221-affine-minimality cover the result. **Only statistical-model minimality, not q161 IIT-target minimality, is asserted.**
+
 ## Gate A details
 
 **Exact screen of all 7488 candidates** (`identifiability/screen_exact.py`, `results/screen_exact.txt`; exact
