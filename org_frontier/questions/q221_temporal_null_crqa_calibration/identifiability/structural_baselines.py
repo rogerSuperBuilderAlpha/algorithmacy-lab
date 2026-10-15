@@ -113,6 +113,20 @@ def main():
     fam = {}
     fam["nsi"], log_n = sample_family("nsi", ps.nsi_forms, 2210001, 0)
     fam["aff"], log_a = sample_family("aff", ps.affine_forms, 2210002, 100000)
+    # These generator families overlap (some no-self-input forms are affine).
+    # A held-out *family* comparison should never evaluate a truth table
+    # already encountered in the training family. Fail closed if seeds or
+    # eligibility changes ever create cross-family identity leakage.
+    def canonical_tables(f):
+        return tuple(tuple(int(v) for v in row) for row in f["tables"])
+    train_tables = {canonical_tables(f) for f in fam["nsi"]}
+    test_tables = {canonical_tables(f) for f in fam["aff"]}
+    if len(train_tables) != len(fam["nsi"]) or len(test_tables) != len(fam["aff"]):
+        raise AssertionError("repeated truth table within sampled family")
+    shared_tables = train_tables & test_tables
+    if shared_tables:
+        raise AssertionError("train/test family overlap: identical truth tables")
+
     print("draws: nsi %d (eligible %d) ; aff %d (eligible %d) ; %.0fs"
           % (len(log_n), sum(d["eligible"] for d in log_n), len(log_a), sum(d["eligible"] for d in log_a), time.time() - t0))
     for name in fam:
