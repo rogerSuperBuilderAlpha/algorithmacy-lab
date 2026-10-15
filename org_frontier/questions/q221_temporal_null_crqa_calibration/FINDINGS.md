@@ -1,4 +1,6 @@
-# Q221: findings (DRAFT; nothing here is preregistered or confirmatory)
+# Q221 — The specified population recurrence profiles cannot identify both complete q161 bottleneck sets (exploratory)
+
+**Status: draft exploratory research. No preregistered confirmatory claim.**
 
 Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed records:
 `IDENTIFIABILITY_NOTE.md`, `identifiability/SEARCH_RECORD.md`, `independent_audit/` (Hassan's parallel work), and
