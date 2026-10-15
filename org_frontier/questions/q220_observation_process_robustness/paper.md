@@ -1,12 +1,34 @@
 # Observation-process robustness of the CRQA structural verdict (q220)
 
+Code and data: `org_frontier/questions/q220_observation_process_robustness/`; probe row 463 in `probes/PROBES.md`.
+
+## Contribution
+
+q220 is a methodological stress test on small synthetic Boolean forms (networks of 3–5 nodes). It degrades
+only the recording of a faithful simulated run and asks whether categorical cross-recurrence (CRQA) still
+recovers the exact-Φ bottleneck. The claims, each with its evidential status:
+
+| # | claim | status | evidence |
+|---|---|---|---|
+| 1 | On the selected curated forms (the 12 informative forms of the q161 corpus), timestamp-aware lag matching recovers the clean CRQA bottleneck reading after 30% random observation loss. | confirmed under the executed rule (S2-H2); unchanged under the margin reading and Bonferroni | CLEAN − B = −0.002 [−0.058, +0.052] |
+| 2 | Its improvement over gap-closing on those forms is +0.204 [+0.015, +0.417]. | confirmed under the executed rule (S2-H1: point ≥ 0.10, CI excludes 0) | B − A, form-aware 95% CI |
+| 3 | That improvement does not meet the 0.10-margin reading (CI lower bound ≥ 0.10) and does not survive the Bonferroni adjustment over the 10 confirmatory tests. | inconclusive | lower bound +0.015; Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms |
+| 4 | The improvement does not generalise convincingly to 30 random forms. No effect is detected there, which is not evidence that gap-closing is harmless. | inconclusive (S2-H6a, S2-H6b) | B − A = −0.007 [−0.082, +0.078]; clean pick over chance +0.136 [−0.001, +0.272] |
+| 5 | The triadic/dyadic classifier is unreliable as a proxy for exact Φ: it is at chance before any corruption. | descriptive (stage-1 audit) and exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1), 0.19 (R2) |
+| 6 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs. | scope | nothing here is evidence about a real organisation |
+
+Timestamp-aware lag matching (estimator B) computes lag-k recurrence only from observations exactly k
+recorded time steps apart. It is described here as the estimator this study used. Whether it coincides with
+an established estimator for irregularly sampled series has not yet been checked
+(`literature/deep_research_report.md`), and no novelty is claimed for it.
+
 ## Abstract
 
-The lab reads coordination structure with exact IIT-4.0 Φ and reads behaviour with categorical cross-recurrence (CRQA).
-This study degrades only the *recording* of a faithful simulated run, not the model, and asks whether two CRQA decoders
-still recover the Φ verdict: the bottleneck pick and the triadic/dyadic threshold. A preregistered first stage
-(16 forms, 20 seeds) found that 30% random sample loss, with gaps closed by concatenation, lowers bottleneck agreement
-from 0.819 to 0.647. Bursty loss and a one-channel clock offset did not.
+The lab reads coordination structure with exact IIT-4.0 Φ and reads behaviour with categorical CRQA. This
+study degrades only the *recording* of a faithful simulated run, not the model, and asks whether two CRQA
+decoders still recover the Φ verdict: the bottleneck pick and the triadic/dyadic threshold. A preregistered
+first stage (16 forms, 20 seeds) found that 30% random sample loss, with gaps closed by concatenation, lowers
+bottleneck agreement from 0.819 to 0.647. Bursty loss and a one-channel clock offset did not.
 
 An audit then found three problems with the original analysis:
 - the comparison null was a tie-break artefact; the correct chance level is 0.667, and the corrupted reading sits at it;
@@ -14,19 +36,20 @@ An audit then found three problems with the original analysis:
 - the triadic/dyadic decoder had no signal on clean data, so its hypotheses could not be informative.
 
 A second, separately preregistered stage tested the mechanism on fresh seeds and on 30 independently drawn forms.
-- **Curated corpus.** A timestamp-aware estimator, which pairs observations only at their true time difference,
-  reproduces the clean CRQA reading: CLEAN − B = −0.002 [−0.058, +0.052]. It beats gap-closing by +0.204
-  [+0.015, +0.417], and a length-matched contiguous control loses nothing. The evidence favours fabricated adjacency
-  over lost information. The size of the penalty is imprecise, however:
+- **Curated corpus.** Timestamp-aware lag matching reproduces the clean CRQA reading: CLEAN − B = −0.002
+  [−0.058, +0.052]. It beats gap-closing by +0.204 [+0.015, +0.417], and a length-matched contiguous control
+  loses nothing. Under the executed rule the preregistered interpretation is reconstruction distortion
+  (concatenation pairs samples at the wrong lags) over information loss. The size of the penalty is imprecise:
   - the CI does not clear the preregistered 0.10 margin, so S2-H1 is CONFIRMED only under the rule as run and is
-    INCONCLUSIVE under the margin reading;
+    INCONCLUSIVE under the margin reading, where the interpretation rule returns *mixed or inconclusive*;
   - it does not survive a Bonferroni correction over the 10 confirmatory tests;
   - the effect comes from four of the 12 informative forms.
 - **Segmenting at gaps.** The stage-1 recommendation is not supported: segmenting discards the long-lag pairs.
 - **Independent forms.** Inconclusive. No gap-closing harm is detected (B − A = −0.007 [−0.082, +0.078]), but the
   interval neither shows equivalence nor rules out a penalty of 0.08. The clean bottleneck pick is not clearly above
   chance there either: +0.136 [−0.001, +0.272].
-- **Triadic/dyadic.** The decoder fails because coupling breadth does not track Φ integration, not because of its threshold.
+- **Triadic/dyadic.** In exploratory analysis the decoder fails because coupling breadth does not track Φ
+  integration; refitting its threshold does not help.
 
 ## Introduction
 
@@ -37,12 +60,36 @@ corruptions the CRQA verdicts tolerate and, in stage 2, why.
 
 ## Related work
 
+Within the lab:
 - q153: CRQA features do not beat the majority class on triadic/dyadic.
 - q159: a 600-step length budget.
 - q161: under update noise the bottleneck pick is the robust verdict and the threshold verdict the fragile one. q220
   shows that the "robust" bottleneck agreement must be read against a size-adjusted chance level.
 - q162: whole-system recurrence carries signal of its own; its `random_wiring` generator supplies the R2 forms here.
 - q207 and Probe 112: model-side delay and grain.
+
+Outside the lab, the protocol's deep-research stage was not run before either experimental stage. A
+retrospective contextual review, written after the experiments, is pending in
+`literature/deep_research_report.md` with `literature/references.bib`. Until it is written, this paper makes
+no claim about whether the questions here, or estimator B, are already covered in the wider literature on
+recurrence analysis and irregularly sampled series.
+
+## Hypotheses
+
+Stage 1, as fixed in `hypotheses.md` (commit `1a77f73`) before any computation, with BN the bottleneck pick
+and TD the triadic/dyadic call:
+- **H0** (instrument gate): the validator passes, the faithful triad reads triadic at Φ = 2.000, and every
+  dose-0 corruption is the identity.
+- **H1**: BN drops by at most 0.10 from no loss to 30% random loss. Null: a larger drop.
+- **H2**: TD drops by at least 0.10 over the same range. Null: a smaller drop.
+- **H3**: at 30% expected loss, bursty TD is at least 0.05 below random-loss TD.
+- **H4**: a 2-step offset of one channel lowers BN more than 30% random loss does.
+- **H5**: at every bin width g ≥ 2, TD is within 0.05 of the shuffled-time null; REFUTED if any g ≥ 2 sits
+  more than 0.05 above it.
+
+Stage 2, as fixed in `stage2/PREREGISTRATION.md` (commit `48e479f4`) before any stage-2 run: S2-H1 to S2-H8,
+ten tests counting S2-H6a/b and S2-H7a/b. Each is stated with its contrast, margin and decision rule in the
+results table below.
 
 ## Stage 1: design and results
 
@@ -71,8 +118,7 @@ null. Both readings are uninformative because clean TD is already at the null. S
 
 ## Stage 2: preregistered follow-up
 
-`stage2/PREREGISTRATION.md` was committed (`48e479f4`) before any stage-2 run. It was motivated by the stage-1 results and is
-not a retrofit.
+`stage2/PREREGISTRATION.md` was committed (`48e479f4`) after the stage-1 results and the audit, and before any stage-2 run.
 
 **Sets.**
 - S0: the original seeds, descriptive only.
@@ -157,9 +203,9 @@ Two results limit how far this carries.
 - The bottleneck pick has an edge over chance on the curated forms but only a marginal, unresolved one on random forms,
   and it depends on the lag window.
 
-The defensible practical rule is narrow: never concatenate across gaps; compute lag statistics from timestamp-matched
-pairs; report the pair counts. The broader claim that CRQA recovers Φ structure from behaviour is not supported beyond
-the curated corpus.
+The practical rule these results suggest is narrow and rests on the curated forms: do not concatenate across gaps;
+compute lag statistics from timestamp-matched pairs; report the pair counts. That CRQA recovers Φ structure from
+behaviour has not been shown beyond the curated corpus.
 
 ## Limitations
 
@@ -174,6 +220,7 @@ the curated corpus.
   uninformative because every node is in B. R2 is filtered by exact-Φ inclusion rules.
 - Dependence: the form is the unit, and the 20 seeds per form are repeated measures. All intervals resample forms.
 - Ten confirmatory tests, uncorrected as preregistered. See the Bonferroni sensitivity check above.
+- No external literature review preceded either stage; the retrospective review is pending (`literature/`).
 - Stage-2 hypotheses were chosen after seeing stage 1. Fresh seeds and new forms guard against reuse of data, not
   against the choice of what to test.
 
@@ -185,4 +232,5 @@ check.
 ## References
 
 Internal: q153, q159, q161, q162, q207; Probe 112. CRQA measures: Webber and Zbilut (1994); Marwan et al. (2007);
-Coco and Dale (2014), as cited in `org_frontier/recurrence/crqa.py`.
+Coco and Dale (2014), as cited in `org_frontier/recurrence/crqa.py`. These three do not yet resolve to
+`literature/references.bib`; they will be entered there, with DOIs, when the retrospective review is written.

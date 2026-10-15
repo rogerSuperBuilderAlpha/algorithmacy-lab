@@ -1,4 +1,24 @@
-# q220 — Gap-closing, not data loss, drove the bottleneck-pick drop on curated forms (4–5 of 12); the random-form test is inconclusive
+# q220 — Timestamp-aware lag matching restores the clean CRQA bottleneck pick on curated forms; the gain is imprecise and not shown on random forms
+
+## Contribution
+
+q220 is a methodological stress test on small synthetic Boolean forms (networks of 3–5 nodes). It degrades
+only the recording of a faithful simulated run and asks whether categorical cross-recurrence (CRQA) still
+recovers the exact-Φ bottleneck. The claims, each with its evidential status:
+
+| # | claim | status | evidence |
+|---|---|---|---|
+| 1 | On the selected curated forms (the 12 informative forms of the q161 corpus), timestamp-aware lag matching recovers the clean CRQA bottleneck reading after 30% random observation loss. | confirmed under the executed rule (S2-H2); unchanged under the margin reading and Bonferroni | CLEAN − B = −0.002 [−0.058, +0.052] |
+| 2 | Its improvement over gap-closing on those forms is +0.204 [+0.015, +0.417]. | confirmed under the executed rule (S2-H1: point ≥ 0.10, CI excludes 0) | B − A, form-aware 95% CI |
+| 3 | That improvement does not meet the 0.10-margin reading (CI lower bound ≥ 0.10) and does not survive the Bonferroni adjustment over the 10 confirmatory tests. | inconclusive | lower bound +0.015; Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms |
+| 4 | The improvement does not generalise convincingly to 30 random forms. No effect is detected there, which is not evidence that gap-closing is harmless. | inconclusive (S2-H6a, S2-H6b) | B − A = −0.007 [−0.082, +0.078]; clean pick over chance +0.136 [−0.001, +0.272] |
+| 5 | The triadic/dyadic classifier is unreliable as a proxy for exact Φ: it is at chance before any corruption. | descriptive (stage-1 audit) and exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1), 0.19 (R2) |
+| 6 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs. | scope | nothing here is evidence about a real organisation |
+
+Timestamp-aware lag matching (estimator B) computes lag-k recurrence only from observations exactly k
+recorded time steps apart. It is described here as the estimator this study used. Whether it coincides with
+an established estimator for irregularly sampled series has not yet been checked
+(`literature/deep_research_report.md`), and no novelty is claimed for it.
 
 q220 has two stages, reported separately.
 
@@ -92,8 +112,8 @@ are reported.
 - Neither reading establishes that the gap-closing penalty is at least 0.10, nor that B > A survives a multiplicity
   correction (§5a).
 
-The defensible statement is narrower than "the mechanism is established". On these curated forms the evidence favours
-distortion from concatenation over loss of information. The size of the gap-closing penalty is imprecise, and the formal
+The supported statement is narrower than "the mechanism is established". On these curated forms, and under the rule
+as run, the evidence favours distortion from concatenation over loss of information. The size of the gap-closing penalty is imprecise, and the formal
 confirmation rests on the more lenient of the two readings.
 
 - The observed samples still carry the information clean CRQA uses. Pairing them at their true lags reproduces the clean
@@ -130,8 +150,8 @@ Limits on the mechanism claim:
 - **Segmenting at gaps, the stage-1 recommendation, is not supported.** At MAR 0.3 the segments are short: lag 10 keeps
   about 11 pairs, below the 30-pair usability floor, against 281 for B. C gives 0.679, C − A is +0.096 [−0.054, +0.244], and the interval for C's gain
   over chance includes 0. B − C is positive in 5 forms and negative in 1, but the interval includes 0 (INCONCLUSIVE). The
-  stage-1 advice to "segment at gaps instead of splicing" is withdrawn. The supported advice is **pair observations at
-  their recorded time differences and never concatenate across gaps**.
+  stage-1 advice to "segment at gaps instead of splicing" is withdrawn. The advice these results support, on the curated forms,
+  is **pair observations at their recorded time differences and do not concatenate across gaps**.
 - **Out of corpus the comparison is inconclusive.** On the 30 R2 forms at MAR 0.3, A is 0.597, B 0.591 and clean 0.586.
   B − A = −0.007 [−0.082, +0.078], INCONCLUSIVE against the 0.05 margin (S2-H6a). This shows no detectable gap-closing
   harm. It does **not** show that gap-closing is harmless or that A and B are equivalent: the interval still includes a
