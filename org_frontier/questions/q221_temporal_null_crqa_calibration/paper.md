@@ -52,6 +52,12 @@ The independent standard-library rational certificate in independent_audit/exact
 
 **Target-set qualification:** The pinned PyPhi record reports bottleneck sets {X,H} and {H}. They differ as complete sets, but share node H. Accordingly, no deterministic decoder given only the common exact *population summary* can reconstruct both **complete sets** exactly. That does *not* imply no decoder can select a correct bottleneck node for both: predicting H would score as a correct singleton in both under the q220 tie-aware scoring rule. The result does not establish different maximum Phi or different major-complex membership, and it does not prove failure of a finite-sample q220 decoder.
 
+## Constructive sufficiency result under full-state observation
+
+For the model used in the experiment, each deterministic rule bit can be recovered from the full-state one-step conditional node probabilities. Specifically, with independent update flips at rate epsilon < 0.5, the conditional mean of next node j at current state s is epsilon + (1-2epsilon) f_j(s). Thresholding this value at 0.5 reconstructs the deterministic Boolean update table f exactly at the population level. The independent exact-rational certificate checks all 24 conditional state/node probabilities for each lead system and reconstructs both rule tables correctly.
+
+This provides a **sufficient alternative information representation** to the restricted recurrence profiles, not a minimality theorem. Under full observation and the stated noise mechanism, the recovered deterministic rules can be submitted to the specified q161 IIT computation to obtain the lab-defined bottleneck target. With hidden state variables, altered noise mechanisms, or finite data, this guarantee requires new assumptions and analysis. It is consistent with the recorded finding that full transition-aware classifiers distinguish the lead systems.
+
 ## Discussion
 
 The experiments illustrate that compressing multivariate trajectories to selected population one- and two-point categorical match summaries can remove information relevant to a *particular IIT-defined perturbational target*. A finite-sample decoder may still exploit differences in feature sampling distributions, and a transition-aware observer can recover distinctions discarded by the summaries. The observed mismatch is thus about **representation and task definition**, not a general inability to infer structure from observed dynamics.
