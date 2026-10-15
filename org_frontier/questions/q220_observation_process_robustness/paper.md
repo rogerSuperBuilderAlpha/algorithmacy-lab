@@ -10,7 +10,7 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 
 | # | claim | status | evidence |
 |---|---|---|---|
-| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) recovers the clean CRQA bottleneck reading after 30% whole-row random loss. | CONFIRMED (S2-H2) under every interval method checked and under Bonferroni; this is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052] |
+| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) recovers the clean CRQA bottleneck reading after 30% whole-row random loss. | CONFIRMED (S2-H2), a preregistered one-sided **non-inferiority** test with margin 0.10 (`decision.noninferiority`: CONFIRMED iff the 95% upper bound of CLEAN − B is < 0.10); it holds under every interval method checked and under Bonferroni. The whole interval also lies inside ±0.10, so agreement is shown only to within 0.10, not closer; a CI containing 0 alone would not show it. This is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052]; upper bound +0.052 < 0.10 |
 | 2 | B's advantage over gap-closing (A) on those forms: +0.204 [+0.015, +0.417]. | S2-H1: **CONFIRMED under the executed (lenient) rule** (point ≥ 0.10 and CI excludes 0); **INCONCLUSIVE under the strict margin reading** (CI lower bound ≥ 0.10); **does not survive Bonferroni**; **the positive lower bound is not robust to the interval method** | 95% lower bound +0.015 (percentile, as run; +0.017 at 20,000 resamples), +0.035 (BCa), +0.017 to +0.021 (form-only), but −0.008 to −0.004 (basic) and −0.024 (t on the 12 form means); Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms, the same 4 that dropped most in stage 1; sign test p = 0.375 |
 | 3 | The B − A advantage and the clean pick's edge both depend on the lag window. | descriptive (preregistered sensitivity) | at `MAX_LAG = 5`: B − A = −0.019 [−0.119, +0.108]; clean pick 0.585 against chance 0.556 |
 | 4 | On the curated forms the clean pick beats size-adjusted chance and its matched null, and B keeps that edge at 30% loss. | CONFIRMED at 95% (S2-H7a, S2-H7b, S2-H8; H7b largely restates H7a). Under Bonferroni: borderline for H7a/H7b, method-dependent for all three | 99.5% lower bounds: H7a/H7b about +0.003 (percentile, 50,000 resamples; sign depends on the bootstrap seed at 2,000), negative under BCa and t; H8 about +0.02 (percentile), negative under BCa and t |
@@ -203,7 +203,7 @@ null. Both readings are uninformative because clean TD is already at the null. S
 | id | contrast | value [95% CI] | verdict |
 |---|---|---|---|
 | S2-H1 | B − A, R1, MAR 0.3 | +0.204 [+0.015, +0.417] | CONFIRMED (rule as run); INCONCLUSIVE (margin reading) |
-| S2-H2 | CLEAN − B, R1, MAR 0.3 | −0.002 [−0.058, +0.052] | CONFIRMED |
+| S2-H2 | CLEAN − B, R1, MAR 0.3 (non-inferiority, margin 0.10) | −0.002 [−0.058, +0.052] | CONFIRMED (upper bound < 0.10) |
 | S2-H3 | CLEAN − LEN, R1, MAR 0.3 | +0.000 [−0.035, +0.035] | CONFIRMED |
 | S2-H4 | B − C, R1, MAR 0.3 | +0.108 [−0.017, +0.233] | INCONCLUSIVE |
 | S2-H5 | B − A, R1, BURST 0.3 (equivalence ±0.05) | +0.021 [−0.031, +0.096] | INCONCLUSIVE |
@@ -286,7 +286,7 @@ behaviour has not been shown beyond the curated corpus.
   under the rule as run; stage 2 six CONFIRMED as run (S2-H1, S2-H2, S2-H3, S2-H7a, S2-H7b, S2-H8; H7b largely restates
   H7a) and four INCONCLUSIVE (S2-H4, S2-H5, S2-H6a, S2-H6b). Under the strict margin reading S2-H1 is INCONCLUSIVE (5/5).
 - **What holds.** On the curated forms, the classical true-lag estimator reproduces clean CRQA after 30% random loss
-  (S2-H2), robustly across interval methods and under Bonferroni, as expected under missingness completely at random.
+  to within the preregistered non-inferiority margin of 0.10 (S2-H2; upper bound +0.052), robustly across interval methods and under Bonferroni, as expected under missingness completely at random.
 - **What is fragile.** B's advantage over gap-closing (S2-H1) is CONFIRMED only under the executed lenient rule; it is
   INCONCLUSIVE under the strict margin reading, does not survive Bonferroni, depends on the interval method and on
   `MAX_LAG`, and comes from four forms. The baseline margins (S2-H7a/b, S2-H8) are fragile under Bonferroni.
@@ -312,6 +312,10 @@ behaviour has not been shown beyond the curated corpus.
 - No external literature review preceded either stage. The review in `literature/` is retrospective: written after the
   experiments, it did not inform the design, and the protocol's order was not followed.
 - R1 reuses the hypothesis-generating forms; only the seeds are fresh.
+- **The B − A advantage is not shown on independent forms.** On the 12 curated forms B − A is +0.204, and that
+  mean is carried by four forms; on 30 independently generated random forms the same contrast is −0.007
+  [−0.082, +0.078] (S2-H6a, INCONCLUSIVE). The curated result should not be read as a general property of gap-closing.
+- S2-H2's agreement is shown to within the 0.10 non-inferiority margin only, not to any tighter tolerance.
 - The matched nulls permute each channel independently: they cannot exhibit fabricated adjacency and they remove
   autocorrelation on some forms. An autocorrelation-preserving null is future work.
 - The lead–lag reading is associational; common drivers are not ruled out.

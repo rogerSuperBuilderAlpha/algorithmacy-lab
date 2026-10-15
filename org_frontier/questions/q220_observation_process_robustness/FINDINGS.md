@@ -8,7 +8,7 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 
 | # | claim | status | evidence |
 |---|---|---|---|
-| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) recovers the clean CRQA bottleneck reading after 30% whole-row random loss. | CONFIRMED (S2-H2) under every interval method checked and under Bonferroni; this is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052] |
+| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) recovers the clean CRQA bottleneck reading after 30% whole-row random loss. | CONFIRMED (S2-H2), a preregistered one-sided **non-inferiority** test with margin 0.10 (`decision.noninferiority`: CONFIRMED iff the 95% upper bound of CLEAN − B is < 0.10); it holds under every interval method checked and under Bonferroni. The whole interval also lies inside ±0.10, so agreement is shown only to within 0.10, not closer; a CI containing 0 alone would not show it. This is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052]; upper bound +0.052 < 0.10 |
 | 2 | B's advantage over gap-closing (A) on those forms: +0.204 [+0.015, +0.417]. | S2-H1: **CONFIRMED under the executed (lenient) rule** (point ≥ 0.10 and CI excludes 0); **INCONCLUSIVE under the strict margin reading** (CI lower bound ≥ 0.10); **does not survive Bonferroni**; **the positive lower bound is not robust to the interval method** | 95% lower bound +0.015 (percentile, as run; +0.017 at 20,000 resamples), +0.035 (BCa), +0.017 to +0.021 (form-only), but −0.008 to −0.004 (basic) and −0.024 (t on the 12 form means); Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms, the same 4 that dropped most in stage 1; sign test p = 0.375 |
 | 3 | The B − A advantage and the clean pick's edge both depend on the lag window. | descriptive (preregistered sensitivity) | at `MAX_LAG = 5`: B − A = −0.019 [−0.119, +0.108]; clean pick 0.585 against chance 0.556 |
 | 4 | On the curated forms the clean pick beats size-adjusted chance and its matched null, and B keeps that edge at 30% loss. | CONFIRMED at 95% (S2-H7a, S2-H7b, S2-H8; H7b largely restates H7a). Under Bonferroni: borderline for H7a/H7b, method-dependent for all three | 99.5% lower bounds: H7a/H7b about +0.003 (percentile, 50,000 resamples; sign depends on the bootstrap seed at 2,000), negative under BCa and t; H8 about +0.02 (percentile), negative under BCa and t |
@@ -125,7 +125,7 @@ bootstrap 95% CIs.
 |---|---|---|---|---|
 | CLEAN | 0.785 | — | — | — |
 | A gap-closed (reference) | 0.583 | B − A | +0.204 [+0.015, +0.417] | S2-H1 CONFIRMED under the executed (lenient) rule; INCONCLUSIVE under the strict margin reading; does not survive Bonferroni; lower bound not robust to interval method |
-| B timestamp-aware | 0.787 | CLEAN − B | −0.002 [−0.058, +0.052] | S2-H2 CONFIRMED |
+| B timestamp-aware | 0.787 | CLEAN − B | −0.002 [−0.058, +0.052] | S2-H2 CONFIRMED (non-inferiority, margin 0.10: upper bound +0.052 < 0.10) |
 | LEN contiguous, same length | 0.785 | CLEAN − LEN | +0.000 [−0.035, +0.035] | S2-H3 CONFIRMED |
 | THIN clean pairs at B's counts | 0.796 | THIN − B | +0.008 [−0.054, +0.079] | — |
 | C segment-only | 0.679 | B − C | +0.108 [−0.017, +0.233] | S2-H4 INCONCLUSIVE |
@@ -281,6 +281,8 @@ Limits on the mechanism claim:
 
 ## 6. What remains unknown
 
+- **Whether CLEAN and B agree more closely than 0.10.** S2-H2 is a non-inferiority test at margin 0.10; the interval
+  [−0.058, +0.052] rules out neither a 0.05 loss nor a 0.05 gain.
 - **Whether the gap-closing penalty is material (≥ 0.10) and general.** Its CI includes values below 0.10, and it does
   not survive a Bonferroni correction.
 - **Why the curated forms suffer from gap-closing and random forms show no detectable effect.** One candidate is synchronous co-driven nodes,
