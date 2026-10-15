@@ -212,3 +212,16 @@ sampling distribution differs beyond its mean. It is not evidence against target
   - Joint recurrence (23/40) and SHREC (28/40) are unresolved.
 - **Scope.** These results are limited to family F4, T = 600 and these implementations. They make no claim
   about IIT targets.
+
+### Addendum 4: preregistered follow-up for joint recurrence and SHREC (2026-10-15, executor)
+
+- **Design.** Preregistration `confirmatory_4node/PREREGISTRATION_FOLLOWUP.md` (commit `74ef91c1`) includes a
+  power analysis and was pushed before any follow-up data. The study used 600 fresh non-isomorphic,
+  recurrence-equal orbit pairs and fresh seeds.
+- **Results.** The manipulation checks passed. Both comparators **generally separate** (confirmatory):
+  - joint recurrence: 347/600, Bonferroni Wilson [0.533, 0.623];
+  - SHREC: 363/600, [0.560, 0.649].
+- **Reading.**
+  - The effects are modest: each comparator fails on about 40% of pairs.
+  - Joint recurrence is limited by its population value, which is exactly equal for 37% of pairs.
+  - The finite-sample transfer-entropy artefact recurs (147 pairs). A Miller–Madow correction cannot remove it.

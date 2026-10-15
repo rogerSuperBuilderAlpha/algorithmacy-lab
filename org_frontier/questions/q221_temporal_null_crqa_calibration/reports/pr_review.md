@@ -65,7 +65,7 @@ on the q161 convention and a decision on whether exploratory-only work is in sco
   `11d34a7c`.
 - **H1 (exact):** 1,872 non-isomorphic orbit pairs.
 - **H2:** supported; the R classifier is at chance.
-- **H3:** all predictions met. C2 and C4 are unresolved.
+- **H3:** all predictions met. C2 and C4 were unresolved; a preregistered follow-up (`74ef91c1`, 600 fresh pairs) resolved both as generally separating: JR 347/600, SHREC 363/600.
 - **Deviations:** D1–D3, none outcome-affecting.
 - **Recommendation unchanged.** Keep #842 as a draft. The q161 convention question is still open with the
   maintainer, and the confirmatory scope is a single synthetic family.

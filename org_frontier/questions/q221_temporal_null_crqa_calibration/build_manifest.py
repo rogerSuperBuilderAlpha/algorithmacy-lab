@@ -88,6 +88,16 @@ EXPERIMENTS = [
          environment="/workspace/shrec-venv: shrec @ 49c6d3e0, scikit-learn 1.9.1, umap-learn 0.5.12; run as --part 0 20 / --part 20 40 then --combine",
          results=["confirmatory_4node/results/study4.txt", "confirmatory_4node/results/study4.json",
                   "confirmatory_4node/results/study4_part_00_20.json", "confirmatory_4node/results/study4_part_20_40.json"]),
+    dict(name="power_followup_4node", category="4-node C2/C4 follow-up: power analysis (pre-data)",
+         script="confirmatory_4node/power_followup.py", spec_commit="74ef91c1", seeds="none",
+         results=["confirmatory_4node/results/power_followup.txt"]),
+    dict(name="followup_c2_c4_4node", category="4-node C2/C4 follow-up: preregistered confirmatory",
+         script="confirmatory_4node/followup.py", spec_commit="74ef91c1 (script frozen at 21f705e9)",
+         seeds="pair sampling default_rng(5210002); trajectories default_rng(5220000 + 1000*q + 500*m + r), r<300",
+         environment="/workspace/shrec-venv: shrec @ 49c6d3e0; run as --select, 12 x --part LO LO+50 (single-threaded), --combine",
+         results=["confirmatory_4node/results/followup_pairs.json", "confirmatory_4node/results/followup.txt",
+                  "confirmatory_4node/results/followup.json"] +
+                 ["confirmatory_4node/results/followup_part_%03d_%03d.json" % (lo, lo + 50) for lo in range(0, 600, 50)]),
     dict(name="te_bias_diag_4node", category="4-node study: post-hoc diagnostic (EXPLORATORY, not preregistered)",
          script="confirmatory_4node/te_bias_diag.py", seeds="default_rng(4380000+10q+m) long runs; 4390000+1000q+500m+k",
          results=["confirmatory_4node/results/te_bias_diag.json"]),
@@ -121,7 +131,7 @@ def main():
         c.setdefault("reason", "survived exact screen (screen_exact.txt)")
         c.setdefault("facts", "screen_exact.txt; target_variants.txt")
     man = dict(schema_version="1", study="q221", protocol="protocol.md", tests=TESTS,
-               rejected_candidates_file="identifiability/results/rejected_candidates.json", status="DRAFT. Exploratory except the preregistered 4-node study (confirmatory_4node/PREREGISTRATION.md, commit 2ad11e69): H1 exact; H2 and H3 decided by the preregistered rules (see confirmatory_4node/RESULTS.md)", generated_at_commit=head,
+               rejected_candidates_file="identifiability/results/rejected_candidates.json", status="DRAFT. Exploratory except the preregistered 4-node study (confirmatory_4node/PREREGISTRATION.md, commit 2ad11e69): H1 exact; H2 and H3 decided by the preregistered rules; C2/C4 resolved by the preregistered follow-up 74ef91c1 (see confirmatory_4node/RESULTS.md)", generated_at_commit=head,
                versions=versions(), experiments=EXPERIMENTS, candidates=CANDIDATES,
                search_counts=dict(forms=8192, candidate_pairs=7488, no_constant=6816, equal_marginals=6432,
                                   equal_self_recurrence=180, equal_cross=180, non_isomorphic_raw=144,

@@ -56,8 +56,8 @@ The independent standard-library rational kernel computation, Walsh-signature cr
   | C5 false-pair q220 | 1 | generally fails | met |
   | C1 TE | 36 | generally separates | – |
   | C3 MdRR | 8 | generally fails | – |
-  | C2 JRR | 23 | **unresolved** (mixed) | – |
-  | C4 SHREC | 28 | **unresolved** (mixed) | – |
+  | C2 JRR | 23 | **unresolved** (mixed); **resolved by the follow-up: generally separates** | – |
+  | C4 SHREC | 28 | **unresolved** (mixed); **resolved by the follow-up: generally separates** | – |
 
 - **Descriptive.** Exact population TE separates only 25/40 pairs. Finite-sample TE separates 11 pairs whose
   population TE is identical. A post-hoc diagnostic (**exploratory**) attributes this to plug-in bias that
@@ -65,6 +65,17 @@ The independent standard-library rational kernel computation, Walsh-signature cr
 - **MdRR at n = 4.** MdRR is *not* generally equal: it differs exactly in 9/40 pairs. The n = 3 equality
   below was specific to those survivors.
 - Deviations (none affect outcomes): `confirmatory_4node/DEVIATIONS.md`.
+- **Preregistered follow-up for C2/C4** (follow-up prereg `74ef91c1`; script frozen at `21f705e9`):
+  - **Design:** 600 fresh orbit pairs, fresh seeds, the parent's per-pair rule, and a Bonferroni-over-2 Wilson rule.
+  - **Manipulation checks pass:** R separates 1/600; C0 separates 600/600.
+  - **Joint recurrence:** 347/600, π̂ 0.578, [0.533, 0.623] → **generally separates**.
+  - **SHREC:** 363/600, π̂ 0.605, [0.560, 0.649] → **generally separates**.
+  - Both labels are confirmatory empirical. Each comparator still fails on about 40% of pairs.
+  - **Population bound on JR:** population JRR is exactly equal for 221/600 pairs, and finite JR never separates
+    those pairs.
+  - **TE estimator artefact:** it recurs at scale (147 finite-only pairs). The registered Miller–Madow
+    correction cannot remove it (constant shift).
+  - Details: `confirmatory_4node/RESULTS.md` and `DEVIATIONS_FOLLOWUP.md` (F1–F4, none affect outcomes).
 
 ## Comparator study (prespecified, spec commit `311a6477`; exploratory)
 

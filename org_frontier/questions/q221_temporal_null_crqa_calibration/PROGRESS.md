@@ -46,3 +46,10 @@ The subsequent contributor run also committed THEORY.md (Walsh/GF(2) affine char
 The subsequent contributor registered and ran the four-node **target-A** study in `confirmatory_4node/`. Its `PREREGISTRATION.md`, `DEVIATIONS.md`, and `RESULTS.md` define a restricted 322,560-system invertible GF(2)-affine family, 40 sampled nonisomorphic orbit pairs, a 600-step trajectory protocol and prespecified classification rules. The recorded study supports equivalence-to-chance for its R summary classifier (H2) and resolves C0/R/C5 while leaving joint recurrence (C2) and SHREC (C4) unresolved. It does **not** confirm any q161/IIT bottleneck-target assertion or generalize outside the stated family. A separate, newly preregistered C2/C4 follow-up is defined in `confirmatory_4node/PREREGISTRATION_FOLLOWUP.md`; its results must not be inferred before the registered run finishes. See `reports/pr_review.md` and `GATES.md` for the current technical review.
 
 The independent canonical truth-table leakage check added to the earlier 3-node held-out-family pilot verifies 80 unique selected forms per family and zero shared selected truth tables; this check is registered as `q221-heldout-split-identity`. The generator families themselves are **not disjoint**, so the guard is necessary. Changes to the frozen 4-node scripts after outcomes must remain isolated and classified according to their own deviations policy.
+
+*Update (executor, 2026-10-15, after 19:40 ET).* The registered C2/C4 follow-up (`74ef91c1`, frozen script `21f705e9`)
+has now finished, with results in `28021e5f`:
+- 600 fresh pairs; the manipulation checks pass.
+- **Joint recurrence:** 347/600, [0.533, 0.623] → generally separates.
+- **SHREC:** 363/600, [0.560, 0.649] → generally separates.
+- See `confirmatory_4node/RESULTS.md` (follow-up section) and `DEVIATIONS_FOLLOWUP.md`.

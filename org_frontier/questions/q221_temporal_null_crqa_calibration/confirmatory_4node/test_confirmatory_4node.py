@@ -134,3 +134,83 @@ def test_full_exact_screen_counts_rerun(As):
         os_ = sorted({orbit[m] for m in members})
         pairs.update((x, y) for i, x in enumerate(os_) for y in os_[i + 1:])
     assert len(classes) == 66121 and len(pairs) == 1872
+
+
+# ---------------- follow-up (PREREGISTRATION_FOLLOWUP.md) ----------------
+def _fu_pairs():
+    return json.load(open(os.path.join(RES, "followup_pairs.json")))
+
+
+def test_followup_pairs_fresh_distinct_and_exactly_checked():
+    d = _fu_pairs()
+    pairs = d["pairs"]
+    parent = {(p["orbit_a"], p["orbit_b"]) for p in _screen()["study_pairs"]}
+    keys = [(p["orbit_a"], p["orbit_b"]) for p in pairs]
+    assert len(pairs) == 600 and len(set(keys)) == 600 and not (set(keys) & parent)
+    assert d["exact_checks_passed"] == 600
+    assert all(p["v_profiles_equal"] and p["v_tpm_differ"] and p["v_non_isomorphic"] for p in pairs)
+    for p in pairs[:3]:                                   # independent spot re-check
+        a, b = tuple(p["a"]), tuple(p["b"])
+        assert f4.exact_profiles(*a, 20) == f4.exact_profiles(*b, 20)
+        assert not np.array_equal(f4.tpm_int(*a), f4.tpm_int(*b))
+        assert not f4.isomorphic(a, b)
+        assert int(f4.orbit_ids([a[0]])[1][a[1]]) == p["orbit_a"] == a[0] * 16 + a[1]
+
+
+def test_followup_seed_ranges_disjoint_from_parent():
+    from org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node import followup as fu
+    new = (fu.SEED_TRAJ, fu.SEED_TRAJ + 1000 * 599 + 500 + 299)
+    old = [(4220000, 4220000 + 1000 * 39 + 500 + 299), (4290000, 4290039), (4380000, 4430000), (999000, 999999),
+           (4210001, 4210002)]
+    assert all(new[1] < lo or new[0] > hi for lo, hi in old)
+    assert fu.SEED_SAMPLE not in (4210001, 4210002) and not (new[0] <= fu.SEED_SAMPLE <= new[1])
+    assert abs(fu.Z_PAIR - _study()["z_pair"]) < 1e-12        # parent per-pair threshold held fixed
+
+
+def test_miller_madow_te_matches_definition_and_reduces_null_bias():
+    from org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node import followup as fu
+    rng = np.random.default_rng(7310004)
+    xs = [rng.integers(0, 2, size=(600, 4)) for _ in range(40)]      # iid: true TE = 0 for every ordered pair
+    plug = np.array([s4.f_TE(x) for x in xs]); mm = np.array([fu.f_TE_MM(x) for x in xs])
+    # with all 8 / 4 / 4 / 2 cells non-empty, the MM correction to TE is (3 + 3 - 1 - 7)/(2 N ln 2) = -2/(2 N ln 2)
+    assert np.allclose(mm - plug, -2 / (2 * 599 * np.log(2)), atol=1e-12)
+    assert abs(mm.mean()) < abs(plug.mean())
+
+
+def test_power_table_reproduces():
+    from org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node import power_followup as pw
+    assert abs(pw.power(0.575, 600) - 0.926) < 0.002
+    assert pw.power(0.70, 600) > 0.999
+    txt = open(os.path.join(RES, "power_followup.txt")).read()
+    assert "0.575 0.473   0.638   0.776   0.861   0.926   0.979" in txt
+
+
+def test_followup_results_complete_and_decision_rules_reproduce():
+    from org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node import followup as fu
+    d = json.load(open(os.path.join(RES, "followup.json")))
+    rows = d["pairs"]
+    sel = {p["q"]: p for p in _fu_pairs()["pairs"]}
+    assert d["M"] == 600 and [r["q"] for r in rows] == list(range(600))
+    assert all(r["a"] == sel[r["q"]]["a"] and r["b"] == sel[r["q"]]["b"] and r["n_test"] == 400 for r in rows)
+    parts = sorted(f for f in os.listdir(RES) if f.startswith("followup_part_"))
+    assert len(parts) == 12 and sum(len(json.load(open(os.path.join(RES, f)))["pairs"]) for f in parts) == 600
+    sep = lambda nm: sum(s4.wilson(r["correct"][nm], 400, fu.Z_PAIR)[0] > 0.5 for r in rows)
+    assert d["manipulation_checks_pass"] and sep("C0_likelihood") == 600 and sep("R") < 30
+    for nm, k, v in (("C2_JRR", 347, "generally separates"), ("C4_SHREC", 363, "generally separates")):
+        assert sep(nm) == k == d["summary"][nm]["pairs_separated"]
+        lo, hi = s4.wilson(k, 600, fu.Z_CLS)
+        assert lo > 0.5 and d["summary"][nm]["verdict"] == v
+    # finite JR never separates a pair whose exact population JRR is equal
+    assert not any(r["separates"]["C2_JRR"] and r["exact_maxdiff"]["C2_JRR"] <= 1e-12 for r in rows)
+    # Miller-Madow TE is a constant shift of plug-in TE here, so NCC decisions coincide (DEVIATIONS_FOLLOWUP F4)
+    # (a rare empty cell breaks the constant shift: counts coincide in 599/600 pairs, decisions in 600/600)
+    assert sum(r["correct"]["C1_TE"] != r["correct"]["C1_TE_MM"] for r in rows) == 1
+    assert all(r["separates"]["C1_TE"] == r["separates"]["C1_TE_MM"] for r in rows)
+
+
+def test_followup_exact_jrr_spot_check():
+    rows = json.load(open(os.path.join(RES, "followup.json")))["pairs"]
+    for r in rows[:2]:
+        ea, eb = s4.exact_pop(*r["a"]), s4.exact_pop(*r["b"])
+        got = max(abs(float(u) - float(v)) for u, v in zip(ea["C2_JRR"], eb["C2_JRR"]))
+        assert abs(got - r["exact_maxdiff"]["C2_JRR"]) < 1e-12

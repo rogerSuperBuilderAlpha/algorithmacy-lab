@@ -10,6 +10,7 @@ docstring, which fixes the seeds, sample sizes, predictors, metrics and decision
 | survivor baselines (`identifiability/baselines_survivors.py`) | `35313d47` | the following commit | test seeds 44100..44299 |
 | structural baselines on held-out families (`identifiability/structural_baselines.py`) | `ecd014dd` | crash-fix commit (None core → ineligible; spec text unchanged), then the run | eval families `nsi` ↔ `aff` (train on one, evaluate on the other) |
 | null extension (`identifiability/null_extension.py`) | `6ad206a3` | the following commit | – (calibration: known null DGP) |
+| **4-node C2/C4 follow-up** (`confirmatory_4node/followup.py`) | `74ef91c1` | frozen `21f705e9`; results `28021e5f` | 600 fresh orbit pairs; seeds 5220000+; deviations in `confirmatory_4node/DEVIATIONS_FOLLOWUP.md` |
 | **4-node target-A study** (`confirmatory_4node/`) — a separate preregistration document, not a docstring | `2ad11e69` | screen `89118627`/`11d34a7c`; study results `1ff1521f` | fresh seeds 4220000+ (train r < 100, test 100 ≤ r < 300), 40 random orbit pairs; deviations in `confirmatory_4node/DEVIATIONS.md` |
 
 ## Not prespecified (exploratory or exact)

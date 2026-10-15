@@ -17,7 +17,8 @@ their stated scope.
     systems.
   - **Confirmatory:** the R classifier is at chance on 40 held-out pairs (TOST). Likelihood separates 40/40,
     TE 36/40 (population TE 25/40). MdRQA (8/40) and false-pair q220 (1/40) generally fail. JRR (23/40) and
-    SHREC (28/40) are unresolved.
+    SHREC (28/40) were unresolved. A preregistered follow-up on 600 fresh pairs resolved both as **generally
+    separates**: JR 347/600 [0.533, 0.623]; SHREC 363/600 [0.560, 0.649].
   - See `confirmatory_4node/RESULTS.md`.
 
 **Other targets.**

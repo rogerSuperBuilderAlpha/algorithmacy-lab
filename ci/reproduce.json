@@ -7086,6 +7086,17 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
     },
     {
+      "name": "q221-4node-followup-combine",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.followup --combine",
+      "expect": [
+        "manipulation checks: R mean acc 0.5008, R separated 1/600 ; C0 separated 600/600 -> PASS",
+        "PRIMARY C2_JRR    separated 347/600  prop 0.578  Wilson(Bonf 2) [0.533, 0.623]  -> generally separates",
+        "PRIMARY C4_SHREC  separated 363/600  prop 0.605  Wilson(Bonf 2) [0.560, 0.649]  -> generally separates"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
       "name": "q221-survivor-baselines",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
       "expect": [

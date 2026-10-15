@@ -77,3 +77,78 @@ q = 31. No C1–C4 comparator separates q = 28 or q = 37. This observation is ex
 **Scope.** The confirmatory results cover only F4 (affine GF(2) maps with independent flip noise p = 0.08, T = 600)
 and these classifier implementations. They say nothing about q161 IIT targets, other families, or other noise
 models. No counterexample to any stated claim was found.
+
+---
+
+# Follow-up: resolving C2 (joint recurrence) and C4 (SHREC)
+
+- **Preregistration:** `PREREGISTRATION_FOLLOWUP.md`, commit **`74ef91c1`**, pushed before any follow-up data.
+- **Frozen script:** `followup.py` at `21f705e9`.
+- **Results:** `results/followup.{txt,json}`, with per-chunk files `results/followup_part_*.json`.
+- **Deviations:** `DEVIATIONS_FOLLOWUP.md` (F1–F4; none affect outcomes).
+
+## Design
+
+| item | value |
+|---|---|
+| pairs | M = 600 fresh orbit pairs, drawn from the 1,832 not used before (`default_rng(5210002)`) |
+| exact checks before any trajectory | 600/600 |
+| seeds | 5,220,000–5,819,799, disjoint from all earlier seeds |
+| per-pair rule | the parent's, unchanged: z = 3.7475, 400 test trajectories per pair |
+| per-classifier rule | Wilson interval, Bonferroni over 2 (z = 2.2414) |
+| power at the parent point estimates | 0.93 for JR, ≈ 1 for SHREC |
+
+## Manipulation checks: **PASS**
+
+| check | result |
+|---|---|
+| R | mean accuracy 0.5008. It separated 1/600 pairs (q = 92, 239/400): one per-pair false positive on a pair whose population R is exactly equal, consistent with the per-pair α |
+| C0 | separated 600/600 |
+
+## Primary verdicts: **confirmatory empirical**
+
+| classifier | pairs separated | π̂ | Wilson (Bonferroni over 2) | verdict | mean acc. | accuracy quartiles (min / Q1 / median / Q3 / max) |
+|---|---|---|---|---|---|---|
+| **C2 joint recurrence** | 347/600 | 0.578 | [0.533, 0.623] | **generally separates** | 0.760 | 0.44 / 0.51 / 0.85 / 1.00 / 1.00 |
+| **C4 SHREC** | 363/600 | 0.605 | [0.560, 0.649] | **generally separates** | 0.707 | 0.43 / 0.56 / 0.65 / 0.91 / 1.00 |
+
+Pooled with the parent's 40 pairs (descriptive), the verdicts are unchanged:
+- JR: 370/640, [0.534, 0.621];
+- SHREC: 391/640, [0.567, 0.653].
+
+**How to read "generally separates".** The rule tests π > 0.5. It does **not** say the comparators separate
+nearly every pair. At T = 600, each one fails on about 40% of pairs (JR on 253/600, SHREC on 237/600), and
+121/600 pairs are separated by neither. Both point
+estimates are modest (0.58 and 0.61).
+
+## Secondary (descriptive)
+
+| | exact population separates | finite separates | agree | exact only | finite only |
+|---|---|---|---|---|---|
+| C2 JRR (lags 1–10) | 379/600 | 347 | 568 | 32 | **0** |
+| C1 TE plug-in | 374/600 | 521 | 453 | 0 | **147** |
+| C1 TE Miller–Madow | 374/600 | 521 | 453 | 0 | 147 |
+
+- **JR is bounded by its population value.** Its population value is exactly equal for 221/600 pairs (37%), and
+  finite JR never separates a pair whose population JRR is equal. Its finite-sample failures are therefore mostly
+  structural. They are not a power problem.
+- **SHREC goes beyond JR.** It separates 115 of those 221 pairs (exploratory observation).
+- **The TE estimator artefact replicates at scale.** 147 pairs are separated by finite-sample TE although their
+  population TE is identical. The registered Miller–Madow correction gives identical separation decisions (600/600 agree); it
+  is a constant shift whenever all cells are occupied, see F4. It cannot fix this, so the bias is not the leading-order cell-count term (exploratory reading).
+- **Coverage.** 31/600 pairs are separated by none of TE, JR or SHREC; all 600 are separated by the transition
+  likelihood.
+
+## Classification
+
+| item | label |
+|---|---|
+| C2 JR | **generally separates: confirmatory empirical** (replaces the parent's "unresolved") |
+| C4 SHREC | **generally separates: confirmatory empirical** (replaces the parent's "unresolved") |
+| manipulation checks | pass |
+| secondary tables | descriptive |
+| "JR is bounded by its population value", "SHREC beyond JR", "TE bias is not the MM term" | **exploratory** |
+
+**Scope.** The same as the parent: F4, p = 0.08, T = 600, these implementations and library defaults (SHREC
+`49c6d3e0`). The results say nothing about IIT targets.
+
