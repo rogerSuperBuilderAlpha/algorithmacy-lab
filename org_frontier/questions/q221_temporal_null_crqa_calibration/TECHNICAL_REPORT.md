@@ -1,5 +1,7 @@
 # Q221 — Final exploratory technical report (2026-10-15)
 
+> **Historical checkpoint notice (2026-10-15).** This 12-part document describes the earlier three-node exploratory study. It predates Q221's later preregistered four-node target-A trial and extended theory. For the current combined evidence and preregistration scope consult `FINDINGS.md`, `THEORY.md`, `confirmatory_4node/RESULTS.md`, `TARGET_AUDIT.md`, and `reports/pr_review.md`. The historical contents below are retained as an auditable snapshot; statements here that no confirmatory study exists apply to that earlier checkpoint, **not** the current PR.
+
 **This report is exploratory and retrospective.** It is not a preregistered confirmatory study, an externally reproduced PyPhi result, a universal IIT theorem, or an assertion of novelty priority. It reflects repository records and independent exact-rational checks as identified below.
 
 ## 1. Executive conclusion
