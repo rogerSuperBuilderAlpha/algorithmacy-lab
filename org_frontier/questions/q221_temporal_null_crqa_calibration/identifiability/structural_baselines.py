@@ -44,8 +44,9 @@ def target(tables):
     ci, phi = core_indices(rules, L)
     B, base, drops = bottleneck_set(rules, L)
     B = set(int(b) for b in B)
+    ci = list(ci) if ci else []  # no complex in any reachable state -> ineligible
     elig = len(ci) >= 2 and 0 < len(B) < 3
-    return elig, sorted(B), list(ci)
+    return elig, sorted(B), ci
 
 
 def sample_family(name, gen, seed, offset):
