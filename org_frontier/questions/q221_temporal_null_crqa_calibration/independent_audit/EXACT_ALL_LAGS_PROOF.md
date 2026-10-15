@@ -85,6 +85,6 @@ The independent certificate exactly computes all 24 state-conditioned means for 
 
 ## Reproduction and boundary
 
-From the repository root, execute the Python module named independent_audit.exact_all_lags_certificate within the Q221 package and run test_exact_all_lags_certificate.py using pytest. The script uses only the Python standard library Fractions and needs no PyPhi installation. Four local regression tests passed.
+From the repository root, execute the Python module named independent_audit.exact_all_lags_certificate within the Q221 package and run test_exact_all_lags_certificate.py using pytest. The script uses only the Python standard library Fractions and needs no PyPhi installation. Six focused local regression tests passed.
 
 No claim is made about a different Phi value, about an IIT-formalism-independent target, about identifiability from full trajectories, about the q220 finite-sample feature distribution, or about novelty of the general information-loss idea.
