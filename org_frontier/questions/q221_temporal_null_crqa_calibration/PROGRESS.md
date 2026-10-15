@@ -4,7 +4,7 @@ Worktree `/workspace/algorithmacy-q221`, branch `q221-temporal-null-calibration`
 Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1).
 
 - [x] 0. Setup: worktree, scaffold (`new_question --id 221`), plan moved to `design/FEASIBILITY_PLAN.md`, blueprint summary
-- [~] 1. Phase 0 repo audit → `PHASE0_AUDIT.md`
+- [x] 1. Retrospective Phase 0 repo audit (q153/q159/q161/q220) → `PHASE0_AUDIT.md`; not a prospectively locked research-stage audit
 - [~] 2. Prospective literature review → `literature/` (commit before any pilot code)
 - [ ] 3. Pilot spec + null validity certificates → `PILOT_SPEC.md` (commit before pilot code)
 - [ ] 4. Pilot code + tests, run via box-run
@@ -18,7 +18,7 @@ Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1
 - [x] Retrospective `paper.md`, `methods.md`, `hypotheses.md`, and `review.md` updated to distinguish executed evidence from unperformed confirmatory work.
 - [x] Targeted prior-art and formalism-version notes added under `literature/`; exhaustive novelty certification is not claimed.
 - [x] GitHub `reproduce-the-numbers` succeeded on head `28c89ca8` after generated directory repair; newer documentation commits require a fresh final-head check.
-- [ ] PR body still stale: upstream GitHub PR metadata update returned HTTP 403 `Resource not accessible by integration`; no bypass attempted.
+- [x] PR body now reflects the completed mathematical result and the conditional IIT target (observed on the live upstream PR at commit `48a31a5b`). An earlier connector update had returned HTTP 403; a separately authorized workflow updated it.
 - [ ] Maintainer scientific review and merge decision remain external; PR stays draft.
 - The phase-0 audit, prospectively locked CRQA-null pilot protocol, and confirmatory CRQA pilot were **not executed**. They are not necessary to present the narrower exploratory case study, and must not be implied complete. The independent Pearson null pilot is separate (`independent_audit/`).
 
@@ -33,5 +33,10 @@ Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1
 - [x] Phase-0 q153/q159/q161/q220 evidence map, lead candidate manifest, formal proof, enhanced paper, and 12-section technical report committed.
 - [x] Unimplemented probe_template.py scaffold removed from the exploratory submission.
 - [x] Prepared PR_DESCRIPTION_READY.md after GitHub update_pull_request and update_issue both returned HTTP 403 for upstream PR metadata. This is an access limit, not a substitute for editing the upstream body.
-- [ ] Latest-head CI and maintainer scientific review remain required before changing draft status or merging.
+- [x] GitHub `reproduce-the-numbers` passed on `48a31a5b` (14 registered checks). This records that commit only; reverify after further changes.
+- [ ] Maintainer scientific review of the rule-freeze vs background-condition definition remains required before changing draft status or merging.
 - [ ] No prospective full-form generalization, full CRQA-null calibration, or cross-formalism IIT replication has been performed or claimed. These are separate future research scopes, not retrospective confirmations.
+
+## Reconciliation checkpoint (2026-10-15)
+
+The subsequent contributor run also committed THEORY.md (Walsh/GF(2) affine characterization), TARGET_AUDIT.md (intervention-convention sensitivity), protocol.md (frozen-before-run designs), three-class comparators, a q220-prominence temporal-null pilot, and deterministic compressed-search storage. The latest recorded complete CI (48a31a5b) passed and PR #842 remained draft/mergeable; no q161/q220 files changed. The primary contribution is the proven statistical insufficiency of the declared population pairwise summaries for the transition law, not an IIT-formalism-independent bottleneck-target finding. Confirmatory claims and publication-priority novelty remain unestablished.
