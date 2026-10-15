@@ -3,7 +3,7 @@ from fractions import Fraction
 from itertools import permutations
 
 from .exact_all_lags_certificate import (
-    LEAD_A, LEAD_B, NOISE, recurrence, tables, transform, transition
+    LEAD_A, LEAD_B, NOISE, recurrence, tables, transform, transition, reconstruct_rules_from_one_step_marginals
 )
 
 def test_stochastic_and_stationary_exactly():
@@ -27,3 +27,8 @@ def test_distinct_sets_but_common_correct_node():
     # Reported pinned-PyPhi target sets: no IIT computation is made by this test.
     p, q = {0, 2}, {2}
     assert p != q and p & q == {2}
+
+def test_one_step_conditional_recovery():
+    for code in (LEAD_A, LEAD_B):
+        P = transition(code)
+        assert reconstruct_rules_from_one_step_marginals(P) == tables(code)
