@@ -10,7 +10,7 @@ a confirmatory claim. The manifest is in `MANIFEST.json`, and the full report is
 | **C**: actual q220 pipeline | **PASS** | See [gate C details](#gate-c-details). |
 | **D**: baselines and generalisation | **PASS** (as an exploratory pilot). Comparators were added under spec `311a6477` (TE, JRP and SHREC separate; MdRQA rate and false-pair q220 do not) | See [gate D details](#gate-d-details). |
 | **E**: temporal-null calibration | **PASS** for verification and the measured comparison; no improved-calibration claim | See [gate E details](#gate-e-details). |
-| **F**: literature and novelty | **PASS**, with open items | See [gate F details](#gate-f-details). |
+| **F**: literature and novelty | **PASS for the targeted claim-to-source matrix; novelty certification NOT RUN** | See [gate F details](#gate-f-details). |
 | **G**: evidence separation | **PASS** | See [gate G details](#gate-g-details). |
 | **H**: reproducibility and integrity | **PASS** | See [gate H details](#gate-h-details). |
 
@@ -181,8 +181,8 @@ The conclusion is limited to Hassan's defensible wording.
 - No new searches after the bounded search. The exact screen re-filtered the existing 7488 candidates.
 - q161 and q220 are untouched. The diff against contrib is confined to the q221 folder plus the generated
   `README.md` and `MAP.md` index rows.
-- CI `ci/reproduce.py --changed-file`: all 6 checks pass.
-- #842 stays a draft. Nothing was posted to Roger.
+- CI `ci/reproduce.py --changed-file`: all 14 selected checks passed on PR head `48a31a5b08cfb167864f7f96e808693dac1b8fe2` (GitHub `reproduce-the-numbers` successful). This is a commit-specific receipt; future changes require their own run.
+- #842 remains a **draft**. The live PR description has been updated to the narrowed scientific claim (observed on 2026-10-15). Maintainer scientific approval has **not** been obtained and no merge occurred.
 
 ## Additional mathematical-verification gate (2026-10-15)
 
@@ -193,7 +193,7 @@ The conclusion is limited to Hassan's defensible wording.
 | Pinned IIT target calculation for lead pair | **MET within pinned lab environment**; separate independent external execution not claimed | identifiability/results/rep_verify.txt: core {X,H}, Phi=2 in both, B(P)={X,H}, B(Q)={H}; clamp-to-0 and clamp-to-1 agree |
 | Exact full bottleneck-set identification from shared population summary | **REFUTED as universally possible for this pair**, conditional on the pinned IIT target sets | Same summary, distinct complete sets. |
 | Impossibility of choosing a correct single node | **NOT ESTABLISHED; in fact this pair admits a common correct node** | H belongs to both reported sets; selecting H scores 1 under q220's tie-aware singleton scoring |
-| Latest-head registered CI certificate | **TO RECHECK** after adding ci/reproduce.json manifest entry | New check q221-exact-all-lag-recurrence-proof; requires successful current-head workflow |
+| Registered mathematical certificate CI | **PASS on `48a31a5b`** | Registered check `q221-exact-all-lag-recurrence-proof` is included in the green 14-check GitHub reproduction workflow. Recheck after any subsequent commit. |
 | Exact population q220 peak-prominence for lead pair | **MET** (population functional only) | Exact fractions give zero prominence on all three off-diagonal pairs at lags ±10, all-zero centrality, and tie-aware chance scores P=2/3, Q=1/3. Does not assert finite-sample zero prominence; see independent_audit/EXACT_ALL_LAGS_PROOF.md. |
 | Constructive population sufficiency of one-step state-conditioned node means | **MET under the stated Boolean flip model** | Independent exact-fraction reconstruction of all 24 rule bits for both lead systems using q_j(s)>1/2; independent_audit/exact_all_lags_certificate.py and EXACT_ALL_LAGS_PROOF.md. No claim of minimality or finite-sample guarantee. |
 | Novelty of the exact conjunction | **UNRESOLVED** | Partial primary-source review and literature/IDENTIFIABILITY_CLOSEST_PRIOR_ART.md; no exhaustive priority certification |
