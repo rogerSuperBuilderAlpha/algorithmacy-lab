@@ -1,4 +1,4 @@
-# q220 — Classical true-lag pairing recovers clean CRQA after random loss on curated forms; its edge over gap-closing is fragile and not shown on random forms
+# q220 — True-lag pairing is non-inferior to clean CRQA (margin 0.10) after random loss on curated forms; its edge over gap-closing is fragile
 
 ## Contribution
 
@@ -8,7 +8,7 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 
 | # | claim | status | evidence |
 |---|---|---|---|
-| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) recovers the clean CRQA bottleneck reading after 30% whole-row random loss. | CONFIRMED (S2-H2), a preregistered one-sided **non-inferiority** test with margin 0.10 (`decision.noninferiority`: CONFIRMED iff the 95% upper bound of CLEAN − B is < 0.10); it holds under every interval method checked and under Bonferroni. The whole interval also lies inside ±0.10, so agreement is shown only to within 0.10, not closer; a CI containing 0 alone would not show it. This is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052]; upper bound +0.052 < 0.10 |
+| 1 | On the 12 informative curated forms (the q161 corpus, which also generated the stage-2 hypotheses; fresh seeds only), pairing samples at their true lags (estimator B, a classical estimator; see below) is non-inferior to the clean CRQA bottleneck reading after 30% whole-row random loss, at the preregistered margin of 0.10. | CONFIRMED (S2-H2), a preregistered one-sided **non-inferiority** test with margin 0.10 (`decision.noninferiority`: CONFIRMED iff the 95% upper bound of CLEAN − B is < 0.10); it holds under every interval method checked and under Bonferroni. Equivalence was not the preregistered test; the whole interval also lies inside ±0.10, but agreement is shown only to within 0.10, not closer, and a CI containing 0 alone would not show it. This is the result expected analytically when loss is completely at random | CLEAN − B = −0.002 [−0.058, +0.052]; upper bound +0.052 < 0.10 |
 | 2 | B's advantage over gap-closing (A) on those forms: +0.204 [+0.015, +0.417]. | S2-H1: **CONFIRMED under the executed (lenient) rule** (point ≥ 0.10 and CI excludes 0); **INCONCLUSIVE under the strict margin reading** (CI lower bound ≥ 0.10); **does not survive Bonferroni**; **the positive lower bound is not robust to the interval method** | 95% lower bound +0.015 (percentile, as run; +0.017 at 20,000 resamples), +0.035 (BCa), +0.017 to +0.021 (form-only), but −0.008 to −0.004 (basic) and −0.024 (t on the 12 form means); Bonferroni 99.5% [−0.052, +0.513]; carried by 4 of 12 forms, the same 4 that dropped most in stage 1; sign test p = 0.375 |
 | 3 | The B − A advantage and the clean pick's edge both depend on the lag window. | descriptive (preregistered sensitivity) | at `MAX_LAG = 5`: B − A = −0.019 [−0.119, +0.108]; clean pick 0.585 against chance 0.556 |
 | 4 | On the curated forms the clean pick beats size-adjusted chance and its matched null, and B keeps that edge at 30% loss. | CONFIRMED at 95% (S2-H7a, S2-H7b, S2-H8; H7b largely restates H7a). Under Bonferroni: borderline for H7a/H7b, method-dependent for all three | 99.5% lower bounds: H7a/H7b about +0.003 (percentile, 50,000 resamples; sign depends on the bootstrap seed at 2,000), negative under BCa and t; H8 about +0.02 (percentile), negative under BCa and t |
@@ -167,8 +167,8 @@ than loss of information. The size of the gap-closing penalty is imprecise, the 
 lenient reading, and the positive lower bound does not survive two standard interval methods or a Bonferroni
 correction. The mechanism is not established.
 
-- The observed samples still carry the information clean CRQA uses. Pairing them at their true lags reproduces the clean
-  CRQA score (CLEAN − B ≈ 0). This is agreement with the clean decoder, not a new validation against exact Φ: B is only as
+- The observed samples still carry the information clean CRQA uses. Pairing them at their true lags scores within the
+  preregistered non-inferiority margin of the clean CRQA score (CLEAN − B −0.002, upper bound +0.052 < 0.10). This is agreement with the clean decoder, not a new validation against exact Φ: B is only as
   right as clean CRQA, which lands in the Φ bottleneck set 0.785 of the time on these 12 forms (chance 0.556) and has not
   been shown to beat chance on R2.
 - Neither a shorter contiguous record (LEN) nor fewer pairs (THIN) costs anything at this dose.
@@ -202,9 +202,10 @@ Limits on the mechanism claim:
 
 ## 4. Do gap-aware methods recover the lost performance?
 
-- **Timestamp-aware pairing restores the clean CRQA reading on the curated corpus.** At 30% loss, B is within 0.002 of
-  clean (CLEAN − B upper bound +0.052) and keeps a gain over chance of +0.232 [+0.094, +0.351] (S2-H8 CONFIRMED). This
-  restores clean-CRQA performance; it does not make the decoder more valid against Φ than clean CRQA already was.
+- **Timestamp-aware pairing is non-inferior to clean CRQA on the curated corpus (margin 0.10).** At 30% loss, CLEAN − B
+  is −0.002 with upper bound +0.052 < 0.10 (S2-H2, a one-sided non-inferiority test; equivalence was not the preregistered
+  test, although the interval also lies within ±0.10), and keeps a gain over chance of +0.232 [+0.094, +0.351] (S2-H8 CONFIRMED). Agreement
+  with clean CRQA is shown only to within 0.10; it does not make the decoder more valid against Φ than clean CRQA already was.
 - **Segmenting at gaps, the stage-1 recommendation, is not supported.** At MAR 0.3 the segments are short: lag 10 keeps
   about 11 pairs, below the 30-pair usability floor, against 281 for B. C gives 0.679, C − A is +0.096 [−0.054, +0.244], and the interval for C's gain
   over chance includes 0. B − C is positive in 5 forms and negative in 1, but the interval includes 0 (INCONCLUSIVE). The
