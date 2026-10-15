@@ -1,0 +1,241 @@
+{
+ "study": "q221",
+ "status": "DRAFT, exploratory; no confirmatory evidence",
+ "generated_at_commit": "c8f81d99879d0201b8f893538bb631dcaaa4d0a6",
+ "versions": {
+  "python": "3.12.15",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pyphi_iit_version": "4.0",
+  "pyphi_commit": "b78d0e342d37175cbd55cf35a6d52ae035b4c50f (feature/iit-4.0)"
+ },
+ "experiments": [
+  {
+   "name": "bounded_search",
+   "category": "exploratory search",
+   "script": "identifiability/pair_search.py",
+   "seeds": "none (deterministic)",
+   "results": [
+    "identifiability/results/pair_search.txt",
+    "identifiability/results/pair_search.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search",
+   "sha256": {
+    "identifiability/results/pair_search.txt": "df4fe121258d1d297fe7dfb9325d34fcf208d0b474dca417fbb38e8b40d78879",
+    "identifiability/results/pair_search.json": "7c54d45b690081003c836b696d6d63014aa5428a1d8221449a3ba2c75a58ba13"
+   }
+  },
+  {
+   "name": "candidate_verification",
+   "category": "exploratory search",
+   "script": "identifiability/verify_candidates.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/verify_candidates.txt",
+    "identifiability/results/verify_candidates.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.verify_candidates",
+   "sha256": {
+    "identifiability/results/verify_candidates.txt": "b84eb38b6e60c981d6bc564a47135fa527822efe16762807c9c35c93a2300c67",
+    "identifiability/results/verify_candidates.json": "fcbc4214249ea26a615e679844ad867ae423367270d8e2ccaee648163e0e221f"
+   }
+  },
+  {
+   "name": "adjudication_q220_pipeline",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/adjudicate.py",
+   "seeds": "trajectory default_rng(43000 + r), r < 400",
+   "results": [
+    "identifiability/results/adjudicate.txt",
+    "identifiability/results/adjudicate.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.adjudicate",
+   "sha256": {
+    "identifiability/results/adjudicate.txt": "2db0cce8d6b67a94dac9ac88f63aa4980d03b51f9cf42798f61524fc2d1ffd01",
+    "identifiability/results/adjudicate.json": "647f201779f2b95e61dc6e422c24d6cd9e49e3e20298da317d97707e6b0627cc"
+   }
+  },
+  {
+   "name": "exact_screen",
+   "category": "exploratory search (re-filter, no new search)",
+   "script": "identifiability/screen_exact.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/screen_exact.txt",
+    "identifiability/results/screen_exact.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.screen_exact",
+   "sha256": {
+    "identifiability/results/screen_exact.txt": "554005da5314edbf8a4b606a0c8d2571d4d774c62004e745b823c466457f906f",
+    "identifiability/results/screen_exact.json": "b597e5d870920a53687c4121017a0423ef8e251532c0aefc3f02a41b86db6fc0"
+   }
+  },
+  {
+   "name": "iso_check_matched_candidate",
+   "category": "exploratory search",
+   "script": "identifiability/iso_check_hassan_pair.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/iso_check_hassan_pair.txt"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.iso_check_hassan_pair",
+   "sha256": {
+    "identifiability/results/iso_check_hassan_pair.txt": "c164eecc518786b55439b0bf105febb3b7e22f307486b28e15915ef1b12ebf25"
+   }
+  },
+  {
+   "name": "lead_pair_exact_phi",
+   "category": "exploratory search",
+   "script": "identifiability/rep_verify.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/rep_verify.txt"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.rep_verify",
+   "sha256": {
+    "identifiability/results/rep_verify.txt": "eedd03a263465863d0f5da859b1fe170a478334a609869cd527085bfa3b23a79"
+   }
+  },
+  {
+   "name": "lead_pair_finite_sample_hassan_script",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/lead_pair_finite_sample.py",
+   "seeds": "0..299 per system",
+   "results": [
+    "identifiability/results/pinned_env_runs/lead_pair_finite_sample.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.lead_pair_finite_sample",
+   "sha256": {
+    "identifiability/results/pinned_env_runs/lead_pair_finite_sample.json": "16d35292ebf74731f7060ed3ed9165e5728c83f3e04465e10a1393aca0e60787"
+   }
+  },
+  {
+   "name": "affine_theory_check",
+   "category": "theory (exact check of proved propositions)",
+   "script": "identifiability/affine_theory.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/affine_theory.txt"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.affine_theory",
+   "sha256": {
+    "identifiability/results/affine_theory.txt": "b253bbe94beeb05e64869a4be4e3d6231b0bf51e82e6742b5f2122521068afdf"
+   }
+  },
+  {
+   "name": "survivor_baselines",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/baselines_survivors.py",
+   "spec_commit": "35313d47",
+   "seeds": "train 44000..44099, test 44100..44299",
+   "results": [
+    "identifiability/results/baselines_survivors.txt",
+    "identifiability/results/baselines_survivors.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
+   "sha256": {
+    "identifiability/results/baselines_survivors.txt": "fd1df49bc20929ab5dc0fad842975b9a953ec2d7f118ddd3cc5ebfbf418d2d22",
+    "identifiability/results/baselines_survivors.json": "88e86d5e89375a1bc99648b053e7a1f31b48a563e89f86bf2f66286ad58780a9"
+   }
+  },
+  {
+   "name": "structural_baselines_heldout_families",
+   "category": "structural prediction pilot (exploratory)",
+   "script": "identifiability/structural_baselines.py",
+   "spec_commit": "ecd014dd (crash fix 2nd commit, spec unchanged)",
+   "seeds": "form draws default_rng(2210001/2210002); trajectories default_rng(450000 + 10*index + r); bootstrap 2210003",
+   "results": [
+    "identifiability/results/structural_baselines.txt",
+    "identifiability/results/structural_baselines.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.structural_baselines",
+   "sha256": {
+    "identifiability/results/structural_baselines.txt": "e2389ad39c49ffdca3b985428d2de86a6a2e75b9d0d9d6caa3f9b4f14efdc1c2",
+    "identifiability/results/structural_baselines.json": "1c260ed4b8c261e9de1a066e60ed8bc1afdd46f32a991efb9d0045b7f1213952"
+   }
+  },
+  {
+   "name": "null_pilot_pearson",
+   "category": "pilot calibration (exploratory)",
+   "script": "independent_audit/null_pilot.py",
+   "seeds": "2212026",
+   "results": [
+    "independent_audit/null_pilot_results.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.null_pilot",
+   "sha256": {
+    "independent_audit/null_pilot_results.json": "0f3ca1928d347e0993adea8d6143294f34b27a51d5d06bb88262db2f3209db85"
+   }
+  },
+  {
+   "name": "null_extension_surrogates",
+   "category": "pilot calibration (exploratory)",
+   "script": "identifiability/null_extension.py",
+   "spec_commit": "6ad206a3",
+   "seeds": "2215001",
+   "results": [
+    "identifiability/results/null_extension.txt",
+    "identifiability/results/null_extension.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.null_extension",
+   "sha256": {
+    "identifiability/results/null_extension.txt": "fd91882eacc21ab67d4672a4e69be139bc072a6d081840d1368b5a356c6db2e4",
+    "identifiability/results/null_extension.json": "248c9ebe3489ea9d56c64e2d368e903bee176703cc6f42aa175058003a4d0a66"
+   }
+  },
+  {
+   "name": "variant_reconciliation",
+   "category": "exploratory search",
+   "script": "identifiability/variants_abc.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/variants_abc.txt"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.variants_abc",
+   "sha256": {
+    "identifiability/results/variants_abc.txt": "efae1d75346385c9b9857ab5cad6a0100bb5dc96ad24fb6c8f649068b48d01d0"
+   }
+  }
+ ],
+ "candidates": [
+  {
+   "id": "A/B/C (A_self, B_xor, B_xor_memory)",
+   "status": "rejected",
+   "reason": "q161 targets ineligible (empty B) - rule 1"
+  },
+  {
+   "id": "nsi(0,3,3) vs aff(6,9,5)",
+   "status": "rejected",
+   "reason": "constant node X'=0; X marginal 2/25 vs 1/2"
+  },
+  {
+   "id": "aff(6,9,5) vs aff(11,9,5)",
+   "status": "rejected",
+   "reason": "isomorphic: swap Y,H + flip Y,H values (48-group)"
+  },
+  {
+   "id": "aff(9,6,10) vs aff(9,15,10)",
+   "status": "surviving (lead)",
+   "facts": "equal marginals/auto/cross all lags; same major complex {X,H}, Phi 2; q161 B {X,H} vs {H}; not isomorphic"
+  },
+  {
+   "id": "aff(9,6,10) vs aff(9,15,12)",
+   "status": "surviving"
+  },
+  {
+   "id": "aff(9,6,11) vs aff(9,14,10)",
+   "status": "surviving"
+  }
+ ],
+ "search_counts": {
+  "forms": 8192,
+  "candidate_pairs": 7488,
+  "no_constant": 6816,
+  "equal_marginals": 6432,
+  "equal_self_recurrence": 180,
+  "equal_cross": 180,
+  "non_isomorphic_raw": 144,
+  "non_isomorphic_node_perm_unique": 24,
+  "non_isomorphic_48group_unique": 3
+ }
+}

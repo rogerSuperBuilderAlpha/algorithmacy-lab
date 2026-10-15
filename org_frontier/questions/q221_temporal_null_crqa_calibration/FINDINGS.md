@@ -12,6 +12,18 @@ Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed
 
 The evidence falls into four categories, kept strictly separate below.
 
+## 0. Theory (proved; `THEORY.md`)
+
+These results hold for invertible GF(2)-affine systems with i.i.d. flips, for any n.
+
+- **Proposition 1** gives a closed form for every pairwise recurrence statistic: marginals, plus auto- and
+  cross-profiles at every lag. These statistics depend on (A, c) only through the unit-vector paths of A^T,
+  specifically their hitting lags, weight sums and sign parities.
+- **Proposition 2.** One-step (|row| + 1)-point parity statistics identify (A, c) exactly.
+- **Exact check:** all 1344 invertible three-node forms (`results/affine_theory.txt`).
+- **Scope:** this is elementary Walsh–Fourier analysis. It explains *why* the survivors exist; no novelty in
+  the mathematics is claimed.
+
 ## 1. Exploratory search (deterministic, population-level, exact)
 
 | item | result | evidence |
@@ -34,6 +46,19 @@ under a locked protocol.
 | Hassan's `candidate_finite_sample.py` on P/Q (his own simulator, q220 `observe`), seeds 0..299 | Score 0.661 / 0.333, consistent with the row above. | `identifiability/results/pinned_env_runs/lead_pair_finite_sample.json` |
 | Prespecified simple baselines on all 3 survivors (spec committed in `35313d47` before running) | Marginals, self-recurrence and cross-recurrence give 0.43 to 0.53 (near chance). **Transition counts and transition likelihood give 1.000 (Wilson 95% CI 0.99 to 1.0) on every pair.** | `identifiability/results/baselines_survivors.txt` |
 
+**Structural prediction pilot on fresh, independently generated forms** (gate D, `results/structural_baselines.txt`;
+spec committed in `ecd014dd`):
+- 80 eligible forms per family, with held-out families; the unit is the form.
+- The q220 rule beats chance by **+0.039 [−0.05, +0.12]** on `nsi` and **+0.017 [−0.04, +0.08]** on `aff`.
+  Neither interval excludes zero.
+- Node-prior, marginal and autocorrelation baselines are also near or below chance.
+- A plug-in comparator (estimate the transition law, then compute the q161 target) scores 1.000 on both
+  families.
+- **Reading:** on this exploratory pilot, pairwise recurrence does not predict the target beyond chance, while
+  the full transition law does.
+- **Caveat:** this pilot is the *structural prediction* track. It is not confirmatory and not a test of q220's
+  published corpus.
+
 **Reading.**
 - The systems are trivially separable from finite data through three-point and transition statistics. One
   example: P(Y_{t+1} = X_t⊕Y_t) is 0.92 in P and 0.5 in Q.
@@ -52,7 +77,14 @@ under a locked protocol.
   It used 250 pairs per persistence level, 199 surrogates, and seed 2212026.
 - Naive-shuffle FPR: 5.6% / 34.0% / 67.2% at persistence 0.5 / 0.9 / 0.98.
 - Circular-shift FPR: 4.8% / 5.6% / 2.0%.
-- **No CRQA calibration claim. No q220-decoder calibration claim.**
+- **Extension (gate E, `results/null_extension.txt`; spec committed in `6ad206a3`):** a fresh seed, 250 pairs
+  per cell, and four surrogate types, applied both to Pearson and to **q220's actual prominence statistic**.
+  - Shuffle FPR for q220 prominence: 27.2% at p = 0.9 and 42.8% at p = 0.98.
+  - Circular, block-16 and fitted-Markov surrogates for q220 prominence: 2.0% to 6.4%.
+  - The block surrogate is inflated for Pearson at p = 0.98 (16.8%).
+  - With n = 250 per cell, no interval fits inside the 0.025–0.075 band. Those cells are inconclusive by
+    design, and **no improved-calibration claim is made.**
+- **No calibration claim for the q220 decoder and no confirmatory claim.**
 - Shuffle miscalibration under autocorrelation is already known (Yuan & Shou 2022). Circular shifts can also
   fail (Yuan & Shou 2024).
 - Evidence: `independent_audit/null_pilot_results.json` and `REPRODUCTION_STATUS.md`.
@@ -100,6 +132,10 @@ python -m $M.identifiability.rep_verify             # lead pair exact Φ (q161 +
 python -m $M.identifiability.adjudicate             # q220 actual pipeline on the lead pair (R=400)
 python -m $M.identifiability.lead_pair_finite_sample
 python -m $M.identifiability.baselines_survivors    # gate-3 baselines
+python -m $M.identifiability.affine_theory          # THEORY.md exact check (1344 forms)
+python -m $M.identifiability.structural_baselines   # gate D (held-out families)
+python -m $M.identifiability.null_extension         # gate E
+python -m $M.build_manifest                         # MANIFEST.json
 python -m $M.identifiability.variants_abc
 python -m pytest -q org_frontier/questions/q221_temporal_null_crqa_calibration/
 ```
