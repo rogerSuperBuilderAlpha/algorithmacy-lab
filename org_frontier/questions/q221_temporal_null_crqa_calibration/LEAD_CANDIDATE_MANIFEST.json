@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "candidate_id": "q221-affine-lead-PQ",
+  "scientific_status": "EXPLORATORY_EXACT_R_PROFILE_CERTIFICATE",
+  "state_order": "s = X + 2Y + 4H; binary nodes; all eight states",
+  "systems": {
+    "P": {
+      "affine_codes": [
+        9,
+        6,
+        10
+      ],
+      "rules": [
+        "NOT H",
+        "X XOR Y",
+        "X XOR H"
+      ],
+      "reported_q161_core": [
+        0,
+        2
+      ],
+      "reported_q161_phi": 2,
+      "reported_q161_leave_one_out_drops": [
+        2,
+        0,
+        2
+      ],
+      "reported_q161_bottleneck_set": [
+        0,
+        2
+      ]
+    },
+    "Q": {
+      "affine_codes": [
+        9,
+        15,
+        10
+      ],
+      "rules": [
+        "NOT H",
+        "NOT (X XOR Y XOR H)",
+        "X XOR H"
+      ],
+      "reported_q161_core": [
+        0,
+        2
+      ],
+      "reported_q161_phi": 2,
+      "reported_q161_leave_one_out_drops": [
+        1,
+        0,
+        2
+      ],
+      "reported_q161_bottleneck_set": [
+        2
+      ]
+    }
+  },
+  "observation_model": {
+    "independent_node_flip": "2/25",
+    "stationary_law": "uniform 1/8 (checked by exact rational row/column sums)",
+    "trajectory_law_equal": false
+  },
+  "recurrence_observable": {
+    "formula": "r_ij(k) = Sum_{s,z} pi(s)*(K^k)[s,z]*1{s_i=z_j}",
+    "ordered_pairs": "all 9 (auto and cross)",
+    "lags_verified_exactly": "0..15",
+    "exact_fraction_equalities": 144,
+    "all_integer_lags_extension": "Cayley-Hamilton degree-16 product recurrence, plus stationarity reversal for negative lags",
+    "isomorphism_group": "6 permutations times 8 per-node binary flips",
+    "allowed_isomorphisms_found": 0
+  },
+  "conditional_inference": {
+    "exact_full_bottleneck_set_identifiability": "NO: same input R, different full sets",
+    "correct_single_node_impossible": "NO SUCH CLAIM: H belongs to both target sets and would score correctly on either",
+    "identifiability_of_transition_law_from_R": "NO for this pair",
+    "full_trajectory_observational_identifiability": "NOT EQUIVALENT: transition matrices differ; transition-based baseline separates"
+  },
+  "pinned_iit_evidence": {
+    "reported_implementation": "PyPhi feature/iit-4.0 commit b78d0e34",
+    "iit_formalism_version": "repository-pinned historical IIT 4.0; do not equate with PyPhi 2.0 IIT_4_0_2026 default",
+    "source": "identifiability/results/rep_verify.txt",
+    "independent_external_pyphi_rerun_done": false,
+    "clamp_to_0_and_1_reported_agree": true
+  },
+  "references": {
+    "exact_certificate_git_blob": "19115901b985a4802edf14edbae193818c3867fd",
+    "exact_proof_git_blob": "3370683622025a53622e166a2ab24ab4daa6bf06",
+    "pinned_pyphi_script_git_blob": "34ebb8eb4fdca4319a92e2e52d0846dfdfbf95df",
+    "pinned_pyphi_receipt_git_blob": "de1606bd57ae27c0953e1eec02056a24017a6339",
+    "candidate_filter_git_blob": "d996e094b9c1b8ceaefa604bc9cf29afbe655523",
+    "baseline_results_git_blob": "aeba58bcb589cb04a96d1f819b050438a95063a4"
+  },
+  "limitations": [
+    "Search and candidate selection retrospective",
+    "No independently repeated external PyPhi computation",
+    "Not a proof of equal finite-sample feature distributions",
+    "No out-of-form generalization",
+    "No novelty certification of precise construction",
+    "No proof q220 cannot choose a correct node"
+  ]
+}

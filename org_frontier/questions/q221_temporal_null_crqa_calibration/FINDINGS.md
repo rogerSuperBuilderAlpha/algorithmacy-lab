@@ -66,6 +66,12 @@ These results hold for invertible GF(2)-affine systems with i.i.d. flips, for an
 The search is exploratory. Its 3 survivors are examples, not a characterisation. They have not been validated
 under a locked protocol.
 
+### Exact all-lag proof and task-level limitation
+
+An independent Python-standard-library rational certificate reconstructs the lead pair's two stochastic transition matrices and verifies **144 exact fractions**: all nine ordered auto/cross-channel categorical match rates for lags 0–15. By the Cayley–Hamilton recurrence of two eight-state transition matrices, those sixteen initial matches imply equality of the specified population summaries at **every integer lag** under stationarity; negative lags follow by swapping ordered channels. No node permutation or per-node value flip in the 48-element symmetry group maps the pair. Evidence: independent_audit/exact_all_lags_certificate.py, test_exact_all_lags_certificate.py, and EXACT_ALL_LAGS_PROOF.md. The certificate is independent of PyPhi and does not recompute the IIT targets.
+
+**Critical target distinction:** For the lead pair, B(P)={X,H} and B(Q)={H}. Different complete bottleneck sets cannot both be reconstructed exactly from a common population summary. **However, H belongs to both sets**: a decoder selecting node H would be correct on both under the q220 single-node membership/tie-aware score. Thus the mathematical counterexample is about **exact maximizer-set identification**, not universal failure to choose a correct bottleneck node, and not a difference in Phi or major complex. No general finite-sample q220 failure follows.
+
 ## 2. Finite-sample checks (exploratory, one form per system, seeded)
 
 | item | result | evidence |

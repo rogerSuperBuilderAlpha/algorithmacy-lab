@@ -177,3 +177,28 @@ The conclusion is limited to Hassan's defensible wording.
     spec unchanged.
   - A pre-rules search was quarantined (`EXACT_PHI_DECISION_RULES.md`).
   - A partial run of the q220 reproduce checks was interrupted. Those checks were rerun; see `FINDINGS.md`.
+- No new searches after the bounded search. The exact screen re-filtered the existing 7488 candidates.
+- q161 and q220 are untouched. The diff against contrib is confined to the q221 folder plus the generated
+  `README.md` and `MAP.md` index rows.
+- CI `ci/reproduce.py --changed-file`: all 6 checks pass.
+- #842 stays a draft. Nothing was posted to Roger.
+
+## Additional mathematical-verification gate (2026-10-15)
+
+| Property | Status | Evidence |
+|---|---|---|
+| Independent exact-rational profile equality for lead P/Q at all lags | **MET** (mathematics; does not run PyPhi) | independent_audit/exact_all_lags_certificate.py and EXACT_ALL_LAGS_PROOF.md: 144 exact initial rational matches at lags 0–15; Cayley–Hamilton extends to every integer lag. Four focused local tests passed. |
+| Non-isomorphism under six permutations × eight value flips | **MET** for lead pair | Independent exact rule-table enumeration in the rational script; zero mappings |
+| Pinned IIT target calculation for lead pair | **MET within pinned lab environment**; separate independent external execution not claimed | identifiability/results/rep_verify.txt: core {X,H}, Phi=2 in both, B(P)={X,H}, B(Q)={H}; clamp-to-0 and clamp-to-1 agree |
+| Exact full bottleneck-set identification from shared population summary | **REFUTED as universally possible for this pair**, conditional on the pinned IIT target sets | Same summary, distinct complete sets. |
+| Impossibility of choosing a correct single node | **NOT ESTABLISHED; in fact this pair admits a common correct node** | H belongs to both reported sets; selecting H scores 1 under q220's tie-aware singleton scoring |
+| Latest-head registered CI certificate | **TO RECHECK** after adding ci/reproduce.json manifest entry | New check q221-exact-all-lag-recurrence-proof; requires successful current-head workflow |
+| Novelty of the exact conjunction | **UNRESOLVED** | Partial primary-source review and literature/IDENTIFIABILITY_CLOSEST_PRIOR_ART.md; no exhaustive priority certification |
+
+Do not equate the exact set-valued insufficiency finding with poor finite-sample decoder accuracy, a different numerical Phi, different major-complex membership, or full-trajectory observational equivalence. The registered CI check proves only the mathematical recurrence side; it imports the IIT target sets from independently recorded PyPhi evidence.
+
+
+> **Executor note (merge, 2026-10-15).** Hassan's table above was written before `TARGET_AUDIT.md`. Its rows on
+> the "pinned IIT target" and "full bottleneck-set identification" hold **under the q161 rule-freeze convention**.
+> Under the IIT background-condition variant, B(P) = B(Q) = {X,H} (`identifiability/results/target_variants.txt`).
+> The current CI count is 15 changed-study checks, all passing (see `reports/pr_review.md`).
