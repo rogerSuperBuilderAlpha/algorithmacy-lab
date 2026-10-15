@@ -1,25 +1,35 @@
-# Q221 — Stage 4 methods
+# Q221: methods (DRAFT)
 
-For each hypothesis: the form or ensemble (exact rules/parameters), the measure, the controls, and the
-decision rule fixed before the run. A reader should reproduce every test from this file alone.
+## Instrument and environment
 
-## Shared infrastructure
-- Verdict / Φ / major complex: `classifier.classifier` (`classify_rules`, `tpm_from_rules`,
-  `cm_from_rules`), `probes/lib.py` (`verdict`, `major_complex`, `max_phi_float`).
-- Information measures: `probes/_info.py` (entropy, mutual_information, transfer_entropy, o_information).
-- Exact Φ / trajectories: `proxy_audit/exact_phi.py`.
-- Python: run from the repo root with the project venv active (see `GETTING_STARTED.md`).
+- PyPhi `feature/iit-4.0` @ `b78d0e34`: IIT 4.0, GENERALIZED_INTRINSIC_DIFFERENCE.
+- Python 3.12.15, numpy 2.5.4, scipy 1.18.1.
+- Targets come from q161 `core_indices` / `bottleneck_set`, computed on the deterministic TPM (rule 8). They
+  are cross-checked by an own loop using clamp-to-0 and clamp-to-1.
 
-## Instrument control (run first)
-<the known form whose verdict is already established, and the value it must reproduce before any
-comparison number is trusted>
+## Family
 
-## H1 test
-- **Form / ensemble:** <exact rules or sampling parameters>
-- **Measure:** <verdict / Φ / core / named info measure>
-- **Controls:** <baseline / positive control>
-- **Decision rule:** <what value confirms vs refutes H1>
-- **Script:** `probe_temporal_null_crqa_calibration.py`
+- Three nodes, synchronous, with an 8% independent flip on every node: q220's generator
+  `org_frontier.recurrence.crqa.trajectory`.
+- Forms: 4096 `nsi` (q220 R2) forms and 4096 GF(2)-affine forms.
 
-## H2 … H5 test
-<same structure>
+## Population statistics
+
+Exact rational arithmetic, with flip = 2/25, under each chain's own stationary law:
+- channel marginals;
+- self-recurrence P(x_i(t) = x_i(t+k));
+- cross-recurrence P(x_i(t) = x_j(t+k)).
+
+Equality at every lag follows from equality at enough consecutive lags, via the linear-recurrence argument
+(order ≤ 16).
+
+## Finite-sample statistics
+
+- q220 `stage2/observe.py`: `coupling` (timestamp, MIN_PAIRS 30), `centrality` (floor 0.05) and
+  `bottleneck_scores` (tie-aware).
+- Gate-3 baselines: nearest-centroid on marginals, self-recurrence, cross-recurrence and transition counts,
+  plus a transition-likelihood ratio.
+
+## Scripts
+
+See the reproduce block in `FINDINGS.md`. Registered CI checks: the `q221-*` entries in `ci/reproduce.json`.

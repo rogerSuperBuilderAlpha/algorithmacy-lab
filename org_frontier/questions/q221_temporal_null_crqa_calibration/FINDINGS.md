@@ -75,7 +75,7 @@ What may be new, and is still exploratory and unvalidated:
    different q161 leave-one-out bottleneck targets.
 2. The observation that the q161 target can change through a rule **outside** the major complex.
 
-A full search for prior work on IIT bottleneck or leave-one-out targets was not done (see `GATES.md`, gate 4).
+The comparison against the lab's recurrence review and against dependence-aware testing is in `literature/NOVELTY_ASSESSMENT.md`. That file also lists the open items: MdCRQA/joint recurrence, TE and CCM on the survivors, and a database search on IIT-target identifiability.
 
 ## Limitations
 
