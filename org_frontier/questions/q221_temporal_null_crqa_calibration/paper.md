@@ -19,6 +19,8 @@ and cross-match profiles at every lag.
   bivariate laws, differ: this was decided exactly for all T (`identifiability/process_law_equivalence.py`).
   The univariate laws and the (X,H) law are equal.
 
+**Minimum-node exact result (post-hoc):** An independent exhaustive audit of all invertible one- and two-node affine models finds no non-isomorphic models with equal population recurrence summaries (n=1: two models/two classes; n=2: 24 models/16 profile classes, eight collisions, all relabelings). Together with the verified three-node witness, **n=3 is the minimum** for this type of ambiguity within the specified invertible GF(2)-affine class for 0<p<1/2. See independent_audit/MINIMALITY_AFFINE.md. This is not IIT bottleneck-target minimality or a general Boolean-network theorem.
+
 **Which statistics recover the difference** (prespecified comparator study, `identifiability/comparators.py`;
 specs in `protocol.md`):
 
