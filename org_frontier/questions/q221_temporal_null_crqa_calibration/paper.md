@@ -52,6 +52,10 @@ The independent standard-library rational certificate in independent_audit/exact
 
 **Target-set qualification:** The pinned PyPhi record reports bottleneck sets {X,H} and {H}. They differ as complete sets, but share node H. Accordingly, no deterministic decoder given only the common exact *population summary* can reconstruct both **complete sets** exactly. That does *not* imply no decoder can select a correct bottleneck node for both: predicting H would score as a correct singleton in both under the q220 tie-aware scoring rule. The result does not establish different maximum Phi or different major-complex membership, and it does not prove failure of a finite-sample q220 decoder.
 
+### Loss-function dependence
+
+For a hypothetical balanced choice between these two systems when the input is only their **common exact population recurrence summary**, the maximum accuracy of any deterministic or randomized **complete bottleneck-set classifier** under zero-one exact-set loss is 50%: the target sets differ and the input is identical. In contrast, a **single-node classifier** always choosing H is correct for both sets, yielding 100% membership accuracy and singleton tie-aware score. These are mathematical optimum values for different tasks, not measured performance of q220 on held-out network forms. See independent_audit/EXACT_ALL_LAGS_PROOF.md.
+
 ## Constructive sufficiency result under full-state observation
 
 For the model used in the experiment, each deterministic rule bit can be recovered from the full-state one-step conditional node probabilities. Specifically, with independent update flips at rate epsilon < 0.5, the conditional mean of next node j at current state s is epsilon + (1-2epsilon) f_j(s). Thresholding this value at 0.5 reconstructs the deterministic Boolean update table f exactly at the population level. The independent exact-rational certificate checks all 24 conditional state/node probabilities for each lead system and reconstructs both rule tables correctly.

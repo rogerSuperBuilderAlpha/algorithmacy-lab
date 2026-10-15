@@ -193,6 +193,7 @@ The conclusion is limited to Hassan's defensible wording.
 | Exact full bottleneck-set identification from shared population summary | **REFUTED as universally possible for this pair**, conditional on the pinned IIT target sets | Same summary, distinct complete sets. |
 | Impossibility of choosing a correct single node | **NOT ESTABLISHED; in fact this pair admits a common correct node** | H belongs to both reported sets; selecting H scores 1 under q220's tie-aware singleton scoring |
 | Latest-head registered CI certificate | **TO RECHECK** after adding ci/reproduce.json manifest entry | New check q221-exact-all-lag-recurrence-proof; requires successful current-head workflow |
+| Constructive population sufficiency of one-step state-conditioned node means | **MET under the stated Boolean flip model** | Independent exact-fraction reconstruction of all 24 rule bits for both lead systems using q_j(s)>1/2; independent_audit/exact_all_lags_certificate.py and EXACT_ALL_LAGS_PROOF.md. No claim of minimality or finite-sample guarantee. |
 | Novelty of the exact conjunction | **UNRESOLVED** | Partial primary-source review and literature/IDENTIFIABILITY_CLOSEST_PRIOR_ART.md; no exhaustive priority certification |
 
 Do not equate the exact set-valued insufficiency finding with poor finite-sample decoder accuracy, a different numerical Phi, different major-complex membership, or full-trajectory observational equivalence. The registered CI check proves only the mathematical recurrence side; it imports the IIT target sets from independently recorded PyPhi evidence.

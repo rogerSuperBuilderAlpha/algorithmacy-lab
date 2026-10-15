@@ -49,6 +49,14 @@ If R(P)=R(Q) but B(P)!=B(Q), no deterministic decoder supplied only with the exa
 
 **Crucial limitation:** B(P) intersection B(Q) = {H}. The same node H is a valid correct-node prediction for both. Under q220's tie-aware single-node scoring, predicting singleton {H} scores 1 for either target. Therefore these systems do **not** prove that correct-node selection is impossible or that q220's single-node decoder must fail. They show that exact reconstruction of the *full set of maximizing interventions* is impossible from this restricted population representation.
 
+## Decision-theoretic consequence depends on the loss
+
+Give P and Q equal prior probability, and suppose the decoder observes only the common **exact population** summary R(P)=R(Q). For zero-one **complete-set** loss (the decoder is correct iff its predicted entire set equals B), any deterministic or randomized decoder has maximum expected exact-set accuracy **1/2**: its input distribution is identical under both systems and their two target sets differ. This is conditional on the pinned PyPhi target record.
+
+But for **single-node membership** loss, the optimal accuracy is **1**: always selecting H (node index 2) is in both targets. Under q220's tie-aware metric, a singleton top-centrality set M={H} yields score |M intersect B|/|M|=1 for either system. Under a Jaccard **full-set** similarity loss, selecting {H} instead yields 1/2 on P and 1 on Q, or 3/4 average; this differs from exact-set zero-one accuracy.
+
+These contrasting optimal scores show why a blanket assertion that pairwise recurrence "cannot predict the bottleneck" is unjustified. The impossibility applies to **exact-set identification under a specified loss**, not to every q220-compatible prediction problem. The bound is a population-information statement, not a claim that the finite-sample feature distributions coincide.
+
 ## Constructive sufficiency of state-conditioned one-step means
 
 Under the same model family (full state observed at each time step; deterministic Boolean update f followed by independently applied per-node flip with probability epsilon, with 0<=epsilon<1/2),
