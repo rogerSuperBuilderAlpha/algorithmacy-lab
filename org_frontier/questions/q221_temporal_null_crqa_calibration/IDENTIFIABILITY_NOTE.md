@@ -3,8 +3,8 @@
 **Status.** DRAFT. Findings are provisional. Nothing here is preregistered or confirmatory, and none of it is
 an IIT-specific claim. The exact-Φ gate follows the pre-specified rules in
 [`EXACT_PHI_DECISION_RULES.md`](EXACT_PHI_DECISION_RULES.md). The rules were committed in `82b3d80c`, and the
-chronology is disclosed in that file. The bounded search the rules allow (rule 3) is **still running**, so §6
-is pending.
+chronology is disclosed in that file. The bounded search the rules allow (rule 3) **completed within budget**
+and has been adjudicated (§6, `identifiability/SEARCH_RECORD.md`).
 
 The counterexample, the finite-sample stress test, the CMI values and the isomorphism check come from Hassan's
 parallel analysis. This note reproduces them independently with the lab's own code.
@@ -44,7 +44,24 @@ Hassan's Phase-10 numbers, checked exactly (`identifiability/results/ab_reproduc
 - the TPM difference matches the in-family pair;
 - the uniform-B, CMI and H-autocorrelation numbers match the fair-coin pair.
 
-**Open item for Hassan:** pin the exact rules behind each of his tables.
+**Resolved: the A/B/C variants (Hassan's naming, `independent_audit/STATIONARY_VARIANT_CORRECTION.md`).**
+Every number below was recomputed in exact rational arithmetic under each variant's **own** stationary law, by
+`identifiability/variants_abc.py` (output in `results/variants_abc.txt`). In all three variants X' = X and Y' = Y,
+with an 8% flip on every node. This is q220's family, so each variant has a q161 deterministic target.
+
+| variant | H rule | stationary law | H lag-1 self-match | CMI I(H';X,Y\|H) | cross pair × lag values equal to A (lags 0..20) | auto-profiles equal to A | q161 target |
+|---|---|---|---|---|---|---|---|
+| **A** = A_self | H' = H | uniform | 23/25 = 0.92000000 | 0 | — | — | ineligible (∅) |
+| **B** = B_xor | H' = X ⊕ Y | **non-uniform** (12443/62500 ×4, 1591/31250 ×4) | 0.74893568 | 0.41078149 | 126/126 (all 1/2) | X, Y yes; H no | ineligible (∅) |
+| **C** = B_xor_memory | H' = H ⊕ X ⊕ Y | uniform | 1/2 | 0.59782081 | 126/126 (all 1/2) | X, Y yes; H no | ineligible (∅, `results/ab_hassan_code.txt`) |
+
+**Where each of Hassan's numbers comes from.**
+- **C** produced his finite-sample table and the CMI 0.5978. C is the "B" in his committed
+  `independent_audit/finite_sample.py`.
+- The max TPM difference of 0.711 is the same for A vs B and A vs C.
+- The "fair-coin" reading in the table above, where X and Y are i.i.d. fair bits, is a fourth system. It
+  matches C on the H statistics only by coincidence of the uniform law, and it has no q161 target. It is
+  kept only as a historical record of my earlier reconstruction.
 
 ## 3. Population cross-profiles are identical at every integer lag (analytic)
 
@@ -97,8 +114,14 @@ Seeds: 41000–41399 (in-family) and 42000–42399 (fair-coin). Standard errors 
 - **In-family pair:** the pipeline's outputs are close at R = 400. A has slightly higher prominence (0.0617 vs
   0.0590, about 1.5 SE), and the evidence rates are equal.
 - **Fair-coin pair:** the direction is *reversed* from Hassan's table.
-- **Neither reading reproduces his A/B finite-sample row.** That is further evidence that his rules differ
-  from both. *Not resolved; needs his exact generator.*
+- **Resolved.** His finite-sample A/B row is variant **A vs C** (see §2). His committed
+  `independent_audit/finite_sample.py` was rerun in the pinned repo environment: Python 3.12.15, numpy 2.5.4,
+  q220 `stage2.observe`. Every value is **bit-identical** to his committed
+  `finite_sample_original_reproduction.json`: prominence 0.06265039 / 0.05416296, centrality 0.06100022 /
+  0.03782560, P(prom > 0.05) 0.645 / 0.470, H self-match 0.92002087 / 0.50138982. The output is in
+  `results/pinned_env_runs/finite_sample_results.json`.
+- His `null_pilot.py` was also rerun in the pinned environment and reproduced `null_pilot_results.json`
+  byte-for-byte. The `test_rule_variants.py` regression tests also pass there (2 of 2).
 
 ## 5. Exact IIT 4.0 targets (lab instrument, deterministic TPM, rule 8)
 
@@ -125,25 +148,39 @@ Seeds: 41000–41399 (in-family) and 42000–42399 (fair-coin). Standard errors 
   bottleneck difference, and rule 1 says a Φ difference alone is insufficient.
 - The fair-coin reading has no q161 target at all.
 
-## 6. Bounded search (rule 3): PENDING
+## 6. Bounded search (rule 3): completed; one representative pair independently reproduced
 
-**Space.** 8192 three-node forms:
-- every q162 `random_wiring` form, with no self-inputs (q220's R2 family);
-- every GF(2)-affine form with self-inputs.
+The full record is in `identifiability/SEARCH_RECORD.md`.
 
-**Filters.**
-1. Exact profile grouping (numpy).
-2. q161 targets only inside groups with more than one member, one computation per relabeling orbit.
-3. Exclusions:
-   - ineligible targets (rule 1);
-   - isomorphic pairs (rule 7);
-   - B margin ≤ 1e-4 (rule 2).
-4. Exact rational re-verification of candidates, with a core tie-gap check.
+**The search.**
+- Space: 8192 three-node forms in q220's family.
+- Wall time: 290 s of the 1800 s budget, with all 2823 groups examined.
+- Result: 74 candidate pairs, unique up to node permutation × value relabelling, with exactly equal
+  population cross-profiles and different, eligible q161 bottleneck sets.
 
-**Budget.** 30 minutes of wall time.
+**Adjudication.**
+1. 67 pairs have no constant-rule node.
+2. 63 of those also pass the core tie-gap check.
+3. Of the 63, **60 differ in auto-profiles**. Only **3** pairs agree on every pairwise statistic:
+   cross-profiles, auto-profiles and marginals.
 
-A pre-rules partial run was killed and quarantined unread (see the rules file). Results go here when the run
-finishes.
+**The representative pair.** P: X'=¬H, Y'=X⊕Y, H'=X⊕H vs Q: same, except Y'=¬(X⊕Y⊕H).
+- Major complex {X, H}, Φ = 2, and per-state φ are identical in P and Q.
+- The q161 bottleneck set B differs: {X, H} vs {H}. The leave-one-out drop for X is 2 in P and 1 in Q.
+- The B difference was reproduced by q161 code and by an own PyPhi loop at clamp 0 and clamp 1.
+- The B margin is ≥ 1, so it is not a tie artifact.
+- The pair is not 48-group isomorphic.
+- Cross- and auto-profiles are exactly equal at lags 0..40, hence at every lag.
+- Finite sample: q220's pipeline outputs are indistinguishable at R = 400, but its score against the q161
+  target is 0.64 for P and 0.33 for Q.
+
+**Rule-12 reading.**
+- The two systems differ only in a node outside the major complex.
+- So this is a **non-identifiability of the q161 leave-one-out bottleneck target from pairwise recurrence**,
+  inside q220's family.
+- It is **not** a difference in IIT 4.0's major complex or Φ, and it is not an IIT-specific result.
+- It also shows the q161 target can change with a rule outside the complex. That is a property of the target
+  definition, worth flagging for any study that uses it as ground truth.
 
 ## 7. Novelty (honest)
 
@@ -161,8 +198,12 @@ finishes.
 So "pairwise recurrence profiles do not identify XOR dynamics" is a known phenomenon in a new costume.
 
 **IIT-specific consequence.** It would only matter for CRQA→Φ bottleneck inference if an eligible pair with
-different targets exists. The original pair fails that test (§5), and the search is pending (§6). **No
-IIT-specific claim is made.**
+different targets exists. The original pair fails that test (§5). The search found eligible pairs (§6), but the targets differ
+only through the q161 leave-one-out operationalisation, not through the major complex or Φ. **No IIT-specific
+claim is made.** The narrow, defensible contribution is the following. Within the lab's own Boolean family,
+there are pairs whose pairwise recurrence statistics (cross and auto) are equal at every lag but whose q161
+bottleneck targets differ. So pairwise recurrence cannot be a consistent estimator of that target across the
+family. This is an exploratory, single-search finding. It needs locked, independent validation.
 
 ## 8. Limitations
 
@@ -172,4 +213,5 @@ IIT-specific claim is made.**
   for the in-family pair, because the cross pairs are independent with uniform marginals. That fails for
   general groups found by the search.
 - The finite-sample comparisons are Monte Carlo at R = 400 and support no identifiability statement.
-- Hassan's exact generator is not pinned (§2, §4).
+- Hassan's generators are now pinned (§2: his finite-sample table is A vs C).
+- The search covers only the `nsi` and GF(2)-affine three-node families. No R2-family (`nsi`–`nsi`) pair survives the value-relabelling check.
