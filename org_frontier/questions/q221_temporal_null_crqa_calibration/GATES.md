@@ -187,12 +187,13 @@ The conclusion is limited to Hassan's defensible wording.
 
 | Property | Status | Evidence |
 |---|---|---|
-| Independent exact-rational profile equality for lead P/Q at all lags | **MET** (mathematics; does not run PyPhi) | independent_audit/exact_all_lags_certificate.py and EXACT_ALL_LAGS_PROOF.md: 144 exact initial rational matches at lags 0–15; Cayley–Hamilton extends to every integer lag. Four focused local tests passed. |
+| Independent exact-rational profile equality for lead P/Q at all lags | **MET** (mathematics; does not run PyPhi) | independent_audit/exact_all_lags_certificate.py and EXACT_ALL_LAGS_PROOF.md: 144 exact initial rational matches at lags 0–15; Cayley–Hamilton extends to every integer lag. Six focused local tests passed. |
 | Non-isomorphism under six permutations × eight value flips | **MET** for lead pair | Independent exact rule-table enumeration in the rational script; zero mappings |
 | Pinned IIT target calculation for lead pair | **MET within pinned lab environment**; separate independent external execution not claimed | identifiability/results/rep_verify.txt: core {X,H}, Phi=2 in both, B(P)={X,H}, B(Q)={H}; clamp-to-0 and clamp-to-1 agree |
 | Exact full bottleneck-set identification from shared population summary | **REFUTED as universally possible for this pair**, conditional on the pinned IIT target sets | Same summary, distinct complete sets. |
 | Impossibility of choosing a correct single node | **NOT ESTABLISHED; in fact this pair admits a common correct node** | H belongs to both reported sets; selecting H scores 1 under q220's tie-aware singleton scoring |
 | Latest-head registered CI certificate | **TO RECHECK** after adding ci/reproduce.json manifest entry | New check q221-exact-all-lag-recurrence-proof; requires successful current-head workflow |
+| Exact population q220 peak-prominence for lead pair | **MET** (population functional only) | Exact fractions give zero prominence on all three off-diagonal pairs at lags ±10, all-zero centrality, and tie-aware chance scores P=2/3, Q=1/3. Does not assert finite-sample zero prominence; see independent_audit/EXACT_ALL_LAGS_PROOF.md. |
 | Constructive population sufficiency of one-step state-conditioned node means | **MET under the stated Boolean flip model** | Independent exact-fraction reconstruction of all 24 rule bits for both lead systems using q_j(s)>1/2; independent_audit/exact_all_lags_certificate.py and EXACT_ALL_LAGS_PROOF.md. No claim of minimality or finite-sample guarantee. |
 | Novelty of the exact conjunction | **UNRESOLVED** | Partial primary-source review and literature/IDENTIFIABILITY_CLOSEST_PRIOR_ART.md; no exhaustive priority certification |
 
