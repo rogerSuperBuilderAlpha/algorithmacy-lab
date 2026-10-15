@@ -184,53 +184,118 @@ def exact_profile(tables, max_lag=ep.MAX_LAG):
     return out
 
 
+TIE_MARGIN = 1e-4
+
+
+def b_margin(t):
+    """Gap between the largest leave-one-out drop and the largest drop OUTSIDE B (inf if B covers all)."""
+    d = t["drops"]
+    out = [d[i] for i in range(3) if i not in t["B"]]
+    return (max(d) - max(out)) if out else float("inf")
+
+
+def core_tie_gap(tables):
+    """At every reachable state where the maximal complex attains the form's mc Φ, the gap between that φ and
+    the best OTHER candidate subsystem's system φ (sia). Returns the minimum gap over those states."""
+    import pyphi
+    from pyphi import new_big_phi
+    from org_frontier.classifier.classifier import tpm_from_rules, cm_from_rules
+    from foundations.proxy_audit.exact_phi import reachable_states
+    rules = table_form(tables)
+    tpm, cm = tpm_from_rules(rules), cm_from_rules(rules)
+    net = pyphi.Network(tpm, cm=cm, node_labels=L)
+    per_state = []
+    for s in reachable_states(tpm, 3):
+        st = tuple((s >> i) & 1 for i in range(3))
+        mc = new_big_phi.maximal_complex(net, st)
+        if isinstance(mc, new_big_phi.NullPhiStructure):
+            continue
+        best_nodes, best_phi = tuple(mc.node_indices), float(mc.phi)
+        others = []
+        for r in (1, 2, 3):
+            for nodes in itertools.combinations(range(3), r):
+                if nodes == best_nodes:
+                    continue
+                try:
+                    others.append(float(new_big_phi.sia(pyphi.Subsystem(net, st, nodes)).phi))
+                except Exception:
+                    pass
+        per_state.append((best_phi, best_nodes, best_phi - max(others) if others else float("inf")))
+    top = max(p[0] for p in per_state)
+    return min(p[2] for p in per_state if abs(p[0] - top) <= 1e-9), [p for p in per_state if abs(p[0] - top) <= 1e-9]
+
+
 def main():
+    t_start = time.time()
     multi = stage1()
-    cache = json.load(open(PHI_CACHE)) if os.path.exists(PHI_CACHE) else {}
-    found, n_done, t0 = [], 0, time.time()
+    cache = {}
     budget = float(os.environ.get("Q221_SEARCH_BUDGET_S", "1800"))
-    stats = {"groups": len(multi), "groups_with_2plus_eligible": 0, "groups_with_distinct_eligible_B": 0}
+    stats = {"forms_total": 8192, "profile_classes_multi": len(multi), "groups_processed": 0,
+             "forms_phi_evaluated": 0, "groups_with_2plus_eligible": 0,
+             "noniso_pairs_distinct_B": 0, "noniso_pairs_distinct_B_margin_ok": 0,
+             "excluded_isomorphic_pairs": 0, "excluded_ineligible_forms": 0}
+    cands = []
     for gi, g in enumerate(multi):
-        if time.time() - t0 > budget:
+        if time.time() - t_start > budget:
             print("BUDGET EXHAUSTED at group %d/%d" % (gi, len(multi)), flush=True)
             stats["budget_exhausted_at_group"] = gi
             break
         tg = [(fid, tables, targets(tables, cache)) for fid, tables in g]
+        stats["forms_phi_evaluated"] += len(tg)
         el = [x for x in tg if eligible(x[2])]
+        stats["excluded_ineligible_forms"] += len(tg) - len(el)
         if len(el) >= 2:
             stats["groups_with_2plus_eligible"] += 1
-            bs = {tuple(x[2]["B"]) for x in el}
-            if len(bs) > 1:
-                stats["groups_with_distinct_eligible_B"] += 1
-                found.append([(list(fid), [list(t) for t in tables], x) for fid, tables, x in el])
-        n_done += 1
-        if gi % 25 == 0:
-            json.dump(cache, open(PHI_CACHE, "w"))
-            print("group %d/%d  orbits cached %d  found %d  %.0fs" % (gi, len(multi), len(cache), len(found),
-                                                                   time.time() - t0), flush=True)
-    json.dump(cache, open(PHI_CACHE, "w"))
-    stats["groups_processed"] = n_done
+        for a, b in itertools.combinations(el, 2):
+            if canon(a[1])[0] == canon(b[1])[0]:
+                stats["excluded_isomorphic_pairs"] += 1
+                continue
+            if a[2]["B"] == b[2]["B"]:
+                continue
+            stats["noniso_pairs_distinct_B"] += 1
+            ok = b_margin(a[2]) > TIE_MARGIN and b_margin(b[2]) > TIE_MARGIN
+            if ok:
+                stats["noniso_pairs_distinct_B_margin_ok"] += 1
+                cands.append((a, b))
+        stats["groups_processed"] = gi + 1
+        if gi % 100 == 0:
+            print("group %d/%d  phi-orbits %d  candidates %d  %.0fs" % (gi, len(multi), len(cache), len(cands),
+                                                                    time.time() - t_start), flush=True)
     stats["phi_orbits_computed"] = len(cache)
-    # exact re-verification of the first members of each found group
+    stats["search_seconds"] = round(time.time() - t_start, 1)
+    print("search done:", stats, flush=True)
+    # dedupe candidates by unordered pair of canonical classes
+    seen, uniq = set(), []
+    for a, b in cands:
+        k = tuple(sorted([str(canon(a[1])[0]), str(canon(b[1])[0])]))
+        if k not in seen:
+            seen.add(k)
+            uniq.append((a, b))
+    stats["candidate_pairs_unique_up_to_relabeling"] = len(uniq)
     verified = []
-    for grp in found[:50]:
-        a, b = None, None
-        for x in grp:
-            for y in grp:
-                if tuple(x[2]["B"]) != tuple(y[2]["B"]):
-                    a, b = x, y
-                    break
-            if a:
-                break
-        pa, pb = exact_profile(tuple(map(tuple, a[1]))), exact_profile(tuple(map(tuple, b[1])))
-        verified.append({"a": a, "b": b, "exact_equal_lags_0_20_all_ordered_pairs": pa == pb})
-    json.dump({"stats": stats, "found_groups": found, "verified_pairs": verified},
-              open(os.path.join(OUT, "pair_search.json"), "w"), indent=1)
-    print("STATS", stats)
-    for v in verified[:10]:
-        print("PAIR", v["a"][0], v["a"][2]["B"], v["a"][2]["core"], "|", v["b"][0], v["b"][2]["B"], v["b"][2]["core"],
-              "| exact-equal:", v["exact_equal_lags_0_20_all_ordered_pairs"])
-    print("verified pairs:", len(verified), "all exact-equal:", all(v["exact_equal_lags_0_20_all_ordered_pairs"] for v in verified))
+    for a, b in uniq[:20]:
+        pa, pb = exact_profile(a[1]), exact_profile(b[1])
+        ga, sa = core_tie_gap(a[1])
+        gb, sb = core_tie_gap(b[1])
+        verified.append({"a_id": list(a[0]), "a_tables": [list(t) for t in a[1]], "a_target": a[2],
+                         "b_id": list(b[0]), "b_tables": [list(t) for t in b[1]], "b_target": b[2],
+                         "exact_equal_cross_profiles_lags_m20_20": pa == pb,
+                         "a_B_margin": b_margin(a[2]), "b_B_margin": b_margin(b[2]),
+                         "a_core_tie_gap": ga, "b_core_tie_gap": gb,
+                         "core_tie_ok": ga > TIE_MARGIN and gb > TIE_MARGIN})
+        v = verified[-1]
+        print("CAND", v["a_id"], a[2]["core"], a[2]["B"], [round(d, 4) for d in a[2]["drops"]], "|",
+              v["b_id"], b[2]["core"], b[2]["B"], [round(d, 4) for d in b[2]["drops"]],
+              "| exact-equal:", v["exact_equal_cross_profiles_lags_m20_20"],
+              "| core-tie gaps %.4f %.4f" % (ga, gb), flush=True)
+    stats["verified_pairs"] = len(verified)
+    stats["verified_pairs_passing_all"] = sum(1 for v in verified if v["exact_equal_cross_profiles_lags_m20_20"]
+                                              and v["core_tie_ok"])
+    stats["total_seconds"] = round(time.time() - t_start, 1)
+    json.dump({"stats": stats, "verified": verified,
+               "all_candidates": [[list(a[0]), list(b[0])] for a, b in cands]},
+              open(os.path.join(OUT, "pair_search.json"), "w"), indent=1, default=str)
+    print("FINAL", stats, flush=True)
 
 
 if __name__ == "__main__":
