@@ -74,7 +74,9 @@
     "exact_full_bottleneck_set_identifiability": "NO: same input R, different full sets",
     "correct_single_node_impossible": "NO SUCH CLAIM: H belongs to both target sets and would score correctly on either",
     "identifiability_of_transition_law_from_R": "NO for this pair",
-    "full_trajectory_observational_identifiability": "NOT EQUIVALENT: transition matrices differ; transition-based baseline separates"
+    "full_trajectory_observational_identifiability": "NOT EQUIVALENT: transition matrices differ; transition-based baseline separates",
+    "exact_set_accuracy_bound_balanced_prior": "0.5 optimum under complete-set zero-one loss",
+    "correct_single_node_accuracy_bound_balanced_prior": "1.0 optimum by selecting H"
   },
   "pinned_iit_evidence": {
     "reported_implementation": "PyPhi feature/iit-4.0 commit b78d0e34",
@@ -84,12 +86,13 @@
     "clamp_to_0_and_1_reported_agree": true
   },
   "references": {
-    "exact_certificate_git_blob": "19115901b985a4802edf14edbae193818c3867fd",
-    "exact_proof_git_blob": "3370683622025a53622e166a2ab24ab4daa6bf06",
+    "exact_certificate_git_blob": "e677cf13aaed06aca8046e48cd1ceed2d5ad472a",
+    "exact_proof_git_blob": "17b73c1ec4ffd645929924031a5b788197fa811b",
     "pinned_pyphi_script_git_blob": "34ebb8eb4fdca4319a92e2e52d0846dfdfbf95df",
     "pinned_pyphi_receipt_git_blob": "de1606bd57ae27c0953e1eec02056a24017a6339",
     "candidate_filter_git_blob": "d996e094b9c1b8ceaefa604bc9cf29afbe655523",
-    "baseline_results_git_blob": "aeba58bcb589cb04a96d1f819b050438a95063a4"
+    "baseline_results_git_blob": "aeba58bcb589cb04a96d1f819b050438a95063a4",
+    "exact_regression_tests_git_blob": "f332570949d2db04e1dbdd04b0715a22a9b1d412"
   },
   "limitations": [
     "Search and candidate selection retrospective",
@@ -98,5 +101,14 @@
     "No out-of-form generalization",
     "No novelty certification of precise construction",
     "No proof q220 cannot choose a correct node"
-  ]
+  ],
+  "constructive_sufficient_observable": {
+    "name": "state-conditioned one-step next-node means",
+    "number_of_conditional_probabilities": 24,
+    "formula": "P(S_{t+1}^j=1|S_t=s) = epsilon + (1-2*epsilon)*f_j(s)",
+    "rule_recovery": "f_j(s) = 1{ conditional mean > 1/2 } for epsilon<1/2",
+    "verified_by_exact_rational_script": true,
+    "not_claimed_minimal": true,
+    "not_applicable_without_full_state_observation": true
+  }
 }

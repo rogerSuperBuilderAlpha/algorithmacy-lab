@@ -21,3 +21,16 @@ Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1
 - [ ] PR body still stale: upstream GitHub PR metadata update returned HTTP 403 `Resource not accessible by integration`; no bypass attempted.
 - [ ] Maintainer scientific review and merge decision remain external; PR stays draft.
 - The phase-0 audit, prospectively locked CRQA-null pilot protocol, and confirmatory CRQA pilot were **not executed**. They are not necessary to present the narrower exploratory case study, and must not be implied complete. The independent Pearson null pilot is separate (`independent_audit/`).
+
+## 2026-10-15 independent mathematical closure
+
+- [x] Exact-rational stationary profile certificate for lead pair aff(9,6,10) / aff(9,15,10): 144 rational matches at lags 0..15, all-lag Cayley–Hamilton extension, 48-group non-isomorphism.
+- [x] Independent derivation and test of full-state one-step conditional-mean recovery of each deterministic rule bit with per-node update flips < 1/2.
+- [x] Critical loss distinction: complete bottleneck-set exact recovery is impossible for the reported pair, but a shared correct node H exists, so the q220 single-node selection task is not shown impossible.
+- [x] Five focused mathematical regression tests passed in the independent container.
+- [x] CI registration added for q221-exact-all-lag-recurrence-proof; GitHub 7/7 registered checks passed on commit ba966a04, including this certificate. Latest-head CI must be checked separately.
+- [x] Phase-0 q153/q159/q161/q220 evidence map, lead candidate manifest, formal proof, enhanced paper, and 12-section technical report committed.
+- [x] Unimplemented probe_template.py scaffold removed from the exploratory submission.
+- [x] Prepared PR_DESCRIPTION_READY.md after GitHub update_pull_request and update_issue both returned HTTP 403 for upstream PR metadata. This is an access limit, not a substitute for editing the upstream body.
+- [ ] Latest-head CI and maintainer scientific review remain required before changing draft status or merging.
+- [ ] No prospective full-form generalization, full CRQA-null calibration, or cross-formalism IIT replication has been performed or claimed. These are separate future research scopes, not retrospective confirmations.
