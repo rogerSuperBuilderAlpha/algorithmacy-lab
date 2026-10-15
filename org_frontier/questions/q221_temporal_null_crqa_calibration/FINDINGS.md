@@ -1,4 +1,4 @@
-# Q221 — Pairwise recurrence summaries do not identify the transition law; proved for the affine class (draft; exploratory except one preregistered 4-node study)
+# Q221 — Pairwise recurrence summaries do not identify the transition law; proved for the affine class (draft; one preregistered study)
 
 **Status: draft research.** Everything is exploratory **except** the preregistered 4-node study of target A
 (`confirmatory_4node/PREREGISTRATION.md`, commit `2ad11e69`; results in `confirmatory_4node/RESULTS.md`). That
