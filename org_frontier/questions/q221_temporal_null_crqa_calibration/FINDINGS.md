@@ -4,7 +4,7 @@
 
 *Hassan's concurrent heading, retained:* "The specified population recurrence profiles cannot identify both
 complete q161 bottleneck sets". This holds under q161's rule-freeze convention. Under the background-condition
-reading the sets coincide (, ). The headline above follows
+reading the sets coincide (`TARGET_AUDIT.md`, `OPEN_QUESTION_FOR_MAINTAINER.md`). The headline above follows
 the 2026-10-15 instruction to lead with target A.
 
 Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed records:
