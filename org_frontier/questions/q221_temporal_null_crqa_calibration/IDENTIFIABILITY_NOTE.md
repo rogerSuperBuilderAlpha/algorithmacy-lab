@@ -174,6 +174,27 @@ The full record is in `identifiability/SEARCH_RECORD.md`.
 - Finite sample: q220's pipeline outputs are indistinguishable at R = 400, but its score against the q161
   target is 0.64 for P and 0.33 for Q.
 
+**Stricter exact screen (Hassan, 2026-10-15).** The 7488 raw candidates were screened in exact arithmetic,
+in stages. Pairs remaining at each stage (raw pairs, then unique up to the 48-group):
+
+| stage | raw pairs | unique up to the 48-group |
+|---|---|---|
+| all candidates | 7488 | 74 |
+| no constant node | 6816 | 67 |
+| + equal stationary channel marginals | 6432 | 67 |
+| + equal self-recurrence profiles, lags 0..20 | 180 | 3 |
+| + not isomorphic | 144 | 3 |
+
+**Survivors.** The 3 survivors are all GF(2)-affine; none is from the R2 family. P/Q is the lead.
+
+**Finite sample, Hassan's script.** His committed `candidate_finite_sample.py` was run on P/Q in the pinned
+environment with seeds 0..299. The tie-aware BN score was 0.661 for P and 0.333 for Q, against set-size chance
+of 0.667 and 0.333. So the q220 decoder is at chance on both systems.
+
+**Three-point statistics still separate the pair.** P(Y_{t+1} = X_t ⊕ Y_t) is 0.92 in P and 0.5 in Q. The
+finding is therefore **information loss in the pairwise (two-point) recurrence representation**, not
+non-identifiability from full trajectories.
+
 **Rule-12 reading.**
 - The two systems differ only in a node outside the major complex.
 - So this is a **non-identifiability of the q161 leave-one-out bottleneck target from pairwise recurrence**,

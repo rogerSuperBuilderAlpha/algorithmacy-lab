@@ -198,3 +198,64 @@ steps after 20 warm-up, MAX_LAG 10, floor 0.05, MIN_PAIRS 30. Both systems used 
 **Status.** Exploratory discovery under the fixed rules. It still needs fresh, independent validation under a
 locked protocol before any claim is made. It is an observation about the lab's q161 bottleneck target, not
 an IIT 4.0 result (rule 12).
+
+## Stricter exact screen over all 7488 candidates (`screen_exact.py`, `results/screen_exact.{txt,json}`; 108 s; no new search)
+
+Hassan asked for this screen on 2026-10-15, after he showed that the first candidate (`nsi (0,3,3)` vs
+`aff (6,9,5)`) is trivially separated by X's marginal: 7.97% vs 50.02%.
+
+**Method.**
+- Every stage uses exact rational arithmetic with flip = 2/25.
+- The stationary law is the noisy chain's own, solved exactly and checked with π P = π.
+- The screen covers all 7488 raw candidate pairs, not only the 74 representatives. This matters because value
+  relabelling changes the marginals.
+
+| stage | raw pairs | unique up to node permutation | unique up to the 48-group, not isomorphic |
+|---|---|---|---|
+| S0: all bounded-search candidates | 7488 | 689 | 74 |
+| S1: no constant-rule node in either member | 6816 | 593 | 67 |
+| S2: + equal stationary channel marginals P(x_i = 1) | 6432 | 525 | 67 |
+| S3: + equal self-recurrence profiles, 3 channels × lags 0..20 | **180** | 30 | **3** |
+| S4: + exact cross-profile re-check, 6 ordered pairs × lags 0..20 | 180 | 30 | 3 |
+| S5: + not 48-group isomorphic | 144 | 24 | **3** |
+
+**Survivors.**
+- The 3 surviving pairs, unique up to the 48-group, are all `aff`–`aff`. None is in q220's R2 (`nsi`) family.
+- Every survivor has marginals of 1/2 on all three channels.
+- The survivors are:
+  - `aff (9,6,10)` vs `aff (9,15,10)`, the lead;
+  - `aff (9,6,10)` vs `aff (9,15,12)`;
+  - `aff (9,6,11)` vs `aff (9,14,10)`.
+- In all three, the q161 core tie gap is 1.0 and the B margin is at least 1.0 (`adjudicate.txt`).
+
+**Lead example: P = `aff (9,6,10)`, Q = `aff (9,15,10)`.**
+- The exact-Φ results in the pinned environment are in the table above (`rep_verify.txt`).
+- Hassan's committed `independent_audit/candidate_finite_sample.py` was rerun on this pair in the pinned
+  environment. It used his `simulate` and `measure` unmodified, with seeds 0..299 for each system. The wrapper
+  is `lead_pair_finite_sample.py` and the output is
+  `results/pinned_env_runs/lead_pair_finite_sample.json`.
+
+| | P (B = {X, H}) | Q (B = {H}) |
+|---|---|---|
+| mean max prominence | 0.0605 | 0.0617 |
+| mean max centrality | 0.0608 | 0.0609 |
+| any prominence > 0.05 | 69.3% | 66.7% |
+| no evidence | 30.7% | 33.3% |
+| tie-aware BN score vs own target (± SE) | 0.661 ± 0.016 | 0.333 ± 0.016 |
+| set-size chance | 0.667 | 0.333 |
+| score vs the other system's target | 0.337 | 0.662 |
+
+**Reading (exploratory, one form per system).**
+- On the q220 decoder's inputs, P and Q look the same.
+- On both systems the decoder scores at set-size chance. The difference between its two scores comes only
+  from the size of the target set.
+- This agrees with the R = 400 run on seeds 43000+ (`adjudicate.txt`: 0.643 and 0.330).
+
+**What still separates P and Q.**
+- P and Q are identical on every one- and two-point statistic tested: marginals, auto-profiles and
+  cross-profiles at every lag.
+- They are **not** observationally equivalent as full processes. A three-point statistic separates them at
+  once: P(Y_{t+1} = X_t ⊕ Y_t) is 0.92 in P and 0.5 in Q. Q's Y-update equals X⊕Y only when H = 1, and H is
+  uniform.
+- So the result is **information loss of the pairwise (two-point) recurrence representation**, univariate and
+  cross. It is not structural non-identifiability from the full trajectory.

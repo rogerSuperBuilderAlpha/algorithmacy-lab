@@ -56,4 +56,27 @@ The ongoing bounded search is an **exploratory search**, not a preregistered tes
 | Phipson & Smyth (2010), DOI 10.2202/1544-6115.1585 | Nonzero finite Monte Carlo p-values | Proper Monte Carlo randomization tests are established | Confirm exchangeability before applying formula |
 | Albantakis et al. (2023), DOI 10.1371/journal.pcbi.1011465 | IIT 4.0 framework | IIT target is formalism-relative, not causal truth in general | Pin exact implementation and state/complex conventions |
 
+| Yuan & Shou (2022), eLife 11:e72518, DOI 10.7554/eLife.72518 | Shuffle permutation gives p < 0.05 in 30–92% of tests on independent autocorrelated series | **Pre-empts** the naive-shuffle FPR result in q221's pilot | *Added (q221 parallel run):* full text checked (PMC9391047, Fig 2B–C) |
+| Yuan & Shou (2024), PLOS Biol 22:e3002758, DOI 10.1371/journal.pbio.3002758 | Truncated time-shift test, provably valid if one series is stationary; cyclic permutation, IAAFT, block bootstrap and twin surrogates each exceeded 5% somewhere | Circular shift is neither new nor guaranteed valid; this is the closest competitor for null calibration | *Added:* full text checked (PMC11398661) |
+| Romano & Tirlea (2022), JTSA 43:781, DOI 10.1111/jtsa.12638 | Permutation tests for **serial** dependence of one series are not level-α; studentised fix | Not about two-series cross-dependence, so it does not pre-empt q221 | *Added:* abstract only |
+| Gilpin (2025), PRX 15:011005, DOI 10.1103/PhysRevX.15.011005 | Shared recurrences reconstruct a hidden common driver, including multiplicative higher-order drivers that pairwise inference misses | Closest recurrence precedent for "pairwise misses higher-order structure"; no FPR calibration and no IIT target | *Added:* full text checked (arXiv 2301.13516v3 §III.2) |
+| Wallot & Leonardi (2018), Front. Psychol. 9:2232, DOI 10.3389/fpsyg.2018.02232 | Recommends shuffled CRQA baselines; block shuffle for categorical series | Shows the shuffle baseline is common practice in categorical CRQA, which motivates calibration | *Added:* full text checked |
+| Williams & Beer (2010), arXiv:1004.2515 | XOR as pure synergy; each source alone carries no information | Pairwise blindness to XOR is textbook, so the P/Q result is new only in its IIT-target framing | *Added:* full text checked |
+
+**Narrow contribution after this matrix (q221 parallel run, 2026-10-15).**
+
+Not new:
+- naive-shuffle miscalibration (Yuan & Shou 2022);
+- circular-shift alternatives and their failures (Yuan & Shou 2024);
+- pairwise blindness to higher-order dependence (Williams & Beer 2010; Gilpin 2025).
+
+Possibly new, but exploratory and unvalidated:
+1. An exact construction inside the lab's Boolean family. Systems equal on all one- and two-point recurrence
+   statistics and on major complex and Φ still have different q161 leave-one-out bottleneck targets
+   (`identifiability/SEARCH_RECORD.md`).
+2. Calibration of the lab's specific prominence/centrality pipeline. This is not yet run.
+
+No search was run for prior work on IIT bottleneck targets or the q161 definition specifically, beyond Albantakis
+et al. (2023). That is a remaining gap.
+
 No novel surrogate method is claimed. A potentially new contribution would have to concern **the specific calibration and structural-identifiability boundary for the lab's IIT-targeted Boolean recurrence decoder**, established against the closest existing work.
