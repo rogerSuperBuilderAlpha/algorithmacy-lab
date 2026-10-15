@@ -1,1 +1,6 @@
 box-run: queued 'q221-pair-search-post' [test, 2000 MB]: all 1 test slot(s) busy
+box-run: start 'q221-pair-search-post' [test, 2000 MB est, as-cap off MB, timeout 2400s] after 53s wait
+stage1: 8192 forms, 2999 distinct cross-profile classes, 2823 classes with >1 member covering 8016 forms (1.5s)
+group 0/2823  phi-orbits 2  candidates 0  2s
+group 100/2823  phi-orbits 170  candidates 102  13s
+group 200/2823  phi-orbits 254  candidates 154  18s
