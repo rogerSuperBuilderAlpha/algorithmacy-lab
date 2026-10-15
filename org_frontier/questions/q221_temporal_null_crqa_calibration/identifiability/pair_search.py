@@ -292,9 +292,10 @@ def main():
     stats["verified_pairs_passing_all"] = sum(1 for v in verified if v["exact_equal_cross_profiles_lags_m20_20"]
                                               and v["core_tie_ok"])
     stats["total_seconds"] = round(time.time() - t_start, 1)
-    json.dump({"stats": stats, "verified": verified,
-               "all_candidates": [[list(a[0]), list(b[0])] for a, b in cands]},
-              open(os.path.join(OUT, "pair_search.json"), "w"), indent=1, default=str)
+    # stored compactly as results/pair_search.json.gz (same JSON bytes; see pair_search_data.py)
+    from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search_data import save
+    save({"stats": stats, "verified": verified,
+          "all_candidates": [[list(a[0]), list(b[0])] for a, b in cands]})
     print("FINAL", stats, flush=True)
 
 

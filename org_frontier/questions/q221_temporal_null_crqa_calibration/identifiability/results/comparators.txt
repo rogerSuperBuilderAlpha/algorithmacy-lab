@@ -1,0 +1,27 @@
+== S1 ('aff', 9, 6, 10) vs ('aff', 9, 15, 10)
+  C1_TE              exact: separates=True maxdiff=0.598             finite: acc 1.0000  W95 (0.9905, 1.0)  Bonf (0.9789, 1.0)  separates=True
+  C2_JRR             exact: separates=True maxdiff=0.176             finite: acc 1.0000  W95 (0.9905, 1.0)  Bonf (0.9789, 1.0)  separates=True
+  C3_MdRR            exact: separates=False maxdiff=0                finite: acc 0.4875  W95 (0.4389, 0.5364)  Bonf (0.4152, 0.5603)  separates=False
+  C4_SHREC           exact: separates=not computable                 finite: acc 0.8950  W95 (0.8611, 0.9214)  Bonf (0.8414, 0.932)  separates=True
+  C5_falsepair_q220  exact: separates=False                          finite: acc 0.5825  W95 (0.5336, 0.6298)  Bonf (0.5091, 0.6524)  separates=True
+  false-pair p<0.05 rate on test trajectories (channel pairs XY, XH, YH): a [0.075, 0.05, 0.125] ; b [0.11, 0.08, 0.11]
+  exact TE (bits) a: [0.597821, 0.597821, 0.0, 0.0, 0.597821, 0.0]
+  exact TE (bits) b: [0.0, 0.597821, 0.0, 0.0, 0.597821, 0.0]
+== S2 ('aff', 9, 6, 10) vs ('aff', 9, 15, 12)
+  C1_TE              exact: separates=True maxdiff=0.598             finite: acc 1.0000  W95 (0.9905, 1.0)  Bonf (0.9789, 1.0)  separates=True
+  C2_JRR             exact: separates=True maxdiff=0.176             finite: acc 1.0000  W95 (0.9905, 1.0)  Bonf (0.9789, 1.0)  separates=True
+  C3_MdRR            exact: separates=False maxdiff=0                finite: acc 0.4900  W95 (0.4413, 0.5389)  Bonf (0.4176, 0.5628)  separates=False
+  C4_SHREC           exact: separates=not computable                 finite: acc 1.0000  W95 (0.9905, 1.0)  Bonf (0.9789, 1.0)  separates=True
+  C5_falsepair_q220  exact: separates=False                          finite: acc 0.4825  W95 (0.4339, 0.5314)  Bonf (0.4103, 0.5554)  separates=False
+  false-pair p<0.05 rate on test trajectories (channel pairs XY, XH, YH): a [0.085, 0.095, 0.085] ; b [0.095, 0.07, 0.095]
+  exact TE (bits) a: [0.597821, 0.597821, 0.0, 0.0, 0.597821, 0.0]
+  exact TE (bits) b: [0.0, 0.0, 0.0, 0.597821, 0.597821, 0.0]
+== S3 ('aff', 9, 6, 11) vs ('aff', 9, 14, 10)
+  C1_TE              exact: separates=True maxdiff=0.598             finite: acc 1.0000  W95 (0.9905, 1.0)  Bonf (0.9789, 1.0)  separates=True
+  C2_JRR             exact: separates=True maxdiff=0.176             finite: acc 0.9950  W95 (0.982, 0.9986)  Bonf (0.9699, 0.9992)  separates=True
+  C3_MdRR            exact: separates=False maxdiff=0                finite: acc 0.4925  W95 (0.4438, 0.5413)  Bonf (0.4201, 0.5652)  separates=False
+  C4_SHREC           exact: separates=not computable                 finite: acc 0.9175  W95 (0.8864, 0.9407)  Bonf (0.8678, 0.9496)  separates=True
+  C5_falsepair_q220  exact: separates=False                          finite: acc 0.5050  W95 (0.4562, 0.5537)  Bonf (0.4323, 0.5775)  separates=False
+  false-pair p<0.05 rate on test trajectories (channel pairs XY, XH, YH): a [0.025, 0.045, 0.05] ; b [0.03, 0.055, 0.06]
+  exact TE (bits) a: [0.597821, 0.597821, 0.0, 0.0, 0.597821, 0.0]
+  exact TE (bits) b: [0.0, 0.597821, 0.0, 0.0, 0.597821, 0.0]

@@ -30,7 +30,10 @@ def versions():
 
 EXPERIMENTS = [
     dict(name="bounded_search", category="exploratory search", script="identifiability/pair_search.py",
-         seeds="none (deterministic)", results=["identifiability/results/pair_search.txt", "identifiability/results/pair_search.json"]),
+         seeds="none (deterministic)", results=["identifiability/results/pair_search.txt", "identifiability/results/pair_search.json.gz"],
+         note="pair_search.json is stored as a deterministic gzip; raw-JSON SHA-256 "
+              "7c54d45b690081003c836b696d6d63014aa5428a1d8221449a3ba2c75a58ba13 is checked by "
+              "identifiability/pair_search_data.py (restore with --restore)"),
     dict(name="candidate_verification", category="exploratory search", script="identifiability/verify_candidates.py",
          seeds="none", results=["identifiability/results/verify_candidates.txt", "identifiability/results/verify_candidates.json"]),
     dict(name="adjudication_q220_pipeline", category="finite-sample check (exploratory)", script="identifiability/adjudicate.py",
@@ -68,11 +71,17 @@ EXPERIMENTS = [
          script="identifiability/target_variants.py", seeds="none", results=["identifiability/results/target_variants.txt"]),
     dict(name="edge_removal_check", category="target audit (step 11)", script="identifiability/edge_removal_check.py",
          seeds="none", results=["identifiability/results/edge_removal_check.txt"]),
+    dict(name="comparators_te_jrp_mdrqa_shrec_falsepair", category="comparator study (exploratory, prespecified)",
+         script="identifiability/comparators.py", spec_commit="311a6477",
+         seeds="trajectories default_rng(47000 + 1000*pair + 500*member + r), r<300; false-pair null 47999",
+         environment="/workspace/shrec-venv: shrec @ 49c6d3e0 (github.com/williamgilpin/shrec), scikit-learn 1.9.1, umap-learn 0.5.12",
+         results=["identifiability/results/comparators.txt", "identifiability/results/comparators.json"]),
     dict(name="q220_intermediates", category="finite-sample check (exploratory)", script="identifiability/q220_intermediates.py",
          seeds="trajectory default_rng(43000..43004)", results=["identifiability/results/q220_intermediates.json"]),
 ]
 TESTS = ["identifiability/test_invariants.py", "identifiability/test_invariants_extra.py (expensive tier: Q221_SLOW=1)",
-         "identifiability/test_q220_regression.py"]
+         "identifiability/test_q220_regression.py", "identifiability/test_comparators.py",
+         "identifiability/test_pair_search_data.py"]
 
 CANDIDATES = [
     dict(id="A/B/C (A_self, B_xor, B_xor_memory)", status="rejected", reason="q161 targets ineligible (empty B) - rule 1", facts="see variants_abc.txt"),

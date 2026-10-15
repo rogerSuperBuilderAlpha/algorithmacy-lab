@@ -15,6 +15,7 @@ from fractions import Fraction
 import numpy as np
 
 from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability import pair_search as ps
+from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search_data import load as load_pair_search
 
 OUT = os.path.join(os.path.dirname(__file__), "results")
 TABLES = {}
@@ -46,7 +47,7 @@ def marg(t):
     return ps.IND @ pi, np.array(autos)
 
 
-d = json.load(open(os.path.join(OUT, "pair_search.json")))
+d = load_pair_search()
 ue = {}
 for a, b in d["all_candidates"]:
     ta, tb = TABLES[tuple(a)], TABLES[tuple(b)]

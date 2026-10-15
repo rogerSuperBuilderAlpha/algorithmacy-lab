@@ -11,6 +11,7 @@ import os
 from fractions import Fraction
 
 from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability import pair_search as ps
+from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search_data import load as load_pair_search
 
 OUT = os.path.join(os.path.dirname(__file__), "results")
 F = Fraction(2, 25)
@@ -91,7 +92,7 @@ def stats(fid):
 
 
 def main():
-    d = json.load(open(os.path.join(OUT, "pair_search.json")))
+    d = load_pair_search()
     pairs = [(tuple(a), tuple(b)) for a, b in d["all_candidates"]]
 
 

@@ -26,6 +26,7 @@ from foundations.proxy_audit.exact_phi import reachable_states
 from org_frontier.questions.q161_noise_robust_verdict.probe_noise_robust_verdict import (
     core_indices, bottleneck_set, mc_phi)
 from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability import pair_search as ps
+from org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search_data import load as load_pair_search
 
 pyphi.config.PROGRESS_BARS = False
 pyphi.config.PARALLEL = False
@@ -98,7 +99,7 @@ def describe(tables):
     return "; ".join(out)
 
 
-d = json.load(open(os.path.join(OUT, "pair_search.json")))
+d = load_pair_search()
 cands = [(tuple(a), tuple(b)) for a, b in d["all_candidates"]]
 classes = {}
 ext_iso, real = 0, []

@@ -10,9 +10,7 @@
 - **Untouched:** q161, q220 and #841.
 - **Generated indexes current:** `tools/build_index.py --check`, `tools/build_map.py --check`,
   `build_research_index.py --check` and `build_cards_index.py --check` all exit 0.
-- **Large file.** `identifiability/results/pair_search.json` is 716 KB (about 107k lines). It is the
-  full-enumeration record behind the screen counts. It could be compressed or trimmed before a non-draft
-  merge, at the maintainer's discretion.
+- **Large file: resolved.** `pair_search.json` (716 KB) is replaced by a deterministic 24 KB `.gz`, with a raw-content SHA-256 check and a restore command (`identifiability/results/PAIR_SEARCH_STORAGE.md`).
 
 ## Correctness checks run
 
@@ -37,23 +35,27 @@
   - Hassan's matched pair is isomorphic;
   - q220 is at chance.
 
-**Problems that block coming off draft:**
-1. **The structural target (B) depends on the convention** (`TARGET_AUDIT.md`). Narrative files written before
-   the audit (`IDENTIFIABILITY_NOTE.md`, `SEARCH_RECORD.md`, parts of `paper.md` and `hypotheses.md`) still
-   lead with "different q161 targets". The audit note is prepended or appended, but the main narrative should
-   be rewritten around target A.
-2. **No confirmatory evidence.** Everything is exploratory or pilot work.
-3. **Baselines not run:** transfer entropy, SHREC (Gilpin 2025, the strongest competing approach), JRP/MdCRQA,
-   false-pair surrogates.
-4. **The PR description is stale.** It lists the bounded search, the literature review and the pilot as
-   pending, but all are done.
-5. **Novelty is narrow.** The competing interpretation, that this is a textbook consequence of pairwise
-   blindness plus a target-definition artefact, is largely accepted in `literature/NOVELTY_MATRIX.md`.
+**Status of earlier review items (updated 2026-10-15, round 2):**
+1. **Target B depends on the convention.** The narrative is now led by target A: `paper.md` headline and
+   title, `FINDINGS.md` heading, folder `README.md`. Hassan's original text is retained below the headline.
+   The maintainer question is in `OPEN_QUESTION_FOR_MAINTAINER.md`.
+2. **Comparators: done.** Spec `311a6477`. TE, JRP and SHREC separate the survivors. The MdRQA rate and
+   false-pair q220 do not. CCM and TTS were not run.
+3. **Large file: resolved.** See above.
+4. **PR description:** replaced on 2026-10-15 with Hassan's approval. A comparator update is proposed in
+   `/workspace/algorithmacy-q221-briefs/pr842_body_v2.md` but not applied.
+
+**What still argues for keeping the PR as a draft:**
+- **No confirmatory evidence.** Everything is exploratory or pilot work.
+- **Novelty is narrow.** The competing interpretation, that this is a textbook consequence of pairwise
+  blindness plus a target-definition artefact, is largely accepted in `literature/NOVELTY_MATRIX.md`.
+- **The q161 convention question** is open with the maintainer.
+- **Older narrative files** (`IDENTIFIABILITY_NOTE.md`, `SEARCH_RECORD.md`, Hassan's `hypotheses.md` and
+  `methods.md`) still describe the earlier IIT-target framing. They carry audit notes but have not been
+  rewritten. They are kept as a historical record.
 
 ## Recommendation
 
-**Keep #842 as a draft.** Do not request review yet. A mergeable version would:
-- retitle the study around target A (a pairwise recurrence identifiability limit with a proof for the affine
-  class, plus measured q220 null FPRs);
-- drop the IIT-bottleneck framing, or demote it to a convention-sensitivity note;
-- update the PR description.
+**Keep #842 as a draft.** The remaining gaps are scientific: there is no confirmatory study, and the target
+convention is undecided. They are not packaging issues. A non-draft version would need the maintainer's answer
+on the q161 convention and a decision on whether exploratory-only work is in scope for `contrib`.

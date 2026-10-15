@@ -1,4 +1,4 @@
-# Q221: findings (DRAFT; nothing here is preregistered or confirmatory)
+# Q221 — Pairwise recurrence summaries do not identify the transition law; proved for the affine class (exploratory draft, not confirmatory)
 
 Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed records:
 `IDENTIFIABILITY_NOTE.md`, `identifiability/SEARCH_RECORD.md`, `independent_audit/` (Hassan's parallel work), and
@@ -18,6 +18,36 @@ Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed
 | **B** structural target | q161 B(P) ≠ B(Q) | **Survives only under the q161 freeze convention.** Under an IIT background-condition reading, no survivor pair has two distinct eligible targets | `TARGET_AUDIT.md`, `results/target_variants.txt` |
 | **C** IIT quantity | Φ or major complex differ | **Does not survive.** Same major complex {X,H}, same Φ = 2, same per-state φ | `results/rep_verify.txt` |
 | **D** q220 decoder on held-out families | beats chance or baselines | **Not supported.** +0.04 [−0.05, +0.12] on `nsi` and +0.02 [−0.04, +0.08] on `aff`. A plug-in transition-law comparator scores 1.000 | `results/structural_baselines.txt` |
+
+## Comparator study (prespecified, spec commit `311a6477`; exploratory)
+
+- Results: `identifiability/results/comparators.{txt,json}`.
+- Pairs: S1 = P/Q, S2 = aff(9,6,10)/aff(9,15,12), S3 = aff(9,6,11)/aff(9,14,10).
+- Finite-sample test: 400 test trajectories per pair at T = 600, nearest-centroid classifier, decision by a
+  Bonferroni-adjusted Wilson lower bound > 0.5 (15 tests).
+
+| comparator | exact population separation | S1 accuracy | S2 accuracy | S3 accuracy |
+|---|---|---|---|---|
+| C1 transfer entropy (history 1) | **yes**, all 3 pairs (max diff 0.598 bits) | 1.000 | 1.000 | 1.000 |
+| C2 joint recurrence, categorical, lags 1–10 | **yes**, all 3 (max diff 0.176); the (X,H) block is equal | 1.000 | 1.000 | 0.995 |
+| C3 MdRQA full-vector recurrence rate, lags 1–10 | **no**: exactly equal = trace(P^k)/8 | 0.488 | 0.490 | 0.493 |
+| C4 SHREC (`williamgilpin/shrec` @ `49c6d3e0`, defaults; 4 prespecified driver features) | not computable | 0.895 | 1.000 | 0.918 |
+| C5 false-pair-calibrated q220 prominence | **no** (equal by the Corollary) | 0.583* | 0.483 | 0.505 |
+
+\* For S1, C5's Bonferroni lower bound is 0.509, so it passes the prespecified rule, but only weakly. The
+population means are equal, so this reflects a difference in the sampling distribution of the nonlinear
+prominence statistic.
+
+**False-pair rejection rates (p < 0.05).** For each channel pair, the fraction of test trajectories whose
+coupling test rejects is 0.025–0.125 in both members. This is close to nominal.
+
+**Reading.**
+- The statistics that separate the pairs see joint multi-time structure of a channel pair or of the full
+  state: TE, JRP, transition counts and SHREC's shared multi-channel embedding.
+- The full-vector recurrence *rate* is a spectral invariant of the transition matrix, and it does not separate
+  the pairs.
+- This matches the exact law decision: the (X,Y) and (Y,H) laws differ, and the univariate and (X,H) laws
+  are equal.
 
 ## The three equalities, for the lead pair P/Q
 

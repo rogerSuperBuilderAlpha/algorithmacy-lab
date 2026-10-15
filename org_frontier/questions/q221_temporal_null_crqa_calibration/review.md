@@ -33,3 +33,16 @@ Following `TARGET_AUDIT.md`:
   - the measured q220 null FPRs.
 
 See `GATES.md` and `FINDINGS.md`.
+
+### Addendum 2 (2026-10-15, executor)
+
+- **Headline:** target A, statistical non-identifiability from pairwise recurrence summaries. It is proved for
+  the invertible affine class, and the paper now leads with it.
+- **Target B** is convention-dependent; see `OPEN_QUESTION_FOR_MAINTAINER.md`.
+- **Target C** is negative.
+- **Target D** is at chance.
+- **Comparators:**
+  - Transfer entropy, joint recurrence and SHREC separate the survivors.
+  - The MdRQA full-vector recurrence rate does not (it is exactly equal).
+  - False-pair-calibrated q220 is near chance.
+- **Decision:** unchanged. Exploratory methods contribution; keep the PR as a draft.

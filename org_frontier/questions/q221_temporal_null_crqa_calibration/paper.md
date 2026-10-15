@@ -1,6 +1,54 @@
-# Q221 — Information limits of pairwise recurrence summaries for IIT-defined bottleneck targets
+# Q221 — Pairwise recurrence summaries do not identify the transition law of noisy Boolean networks (exploratory)
 
 **Exploratory methods report — draft for scientific review, 2026-10-15.** This document reports retrospective computational discovery, not a prospectively preregistered or confirmatory hypothesis test. It does not claim a new estimator, a universal impossibility theorem, or indistinguishability from complete trajectories.
+
+
+## Headline (revised 2026-10-15; exploratory and provisional)
+
+*This section leads the report. Hassan's original framing follows unchanged from "Abstract" onward. The
+original title was "Information limits of pairwise recurrence summaries for IIT-defined bottleneck targets".*
+
+**Target A, statistical identifiability (main result).** Population pairwise categorical recurrence summaries
+do not identify the multivariate transition law. These summaries are the stationary marginals and the auto-
+and cross-match profiles at every lag.
+- *Proved* for invertible GF(2)-affine noisy networks (`THEORY.md`, Proposition 1 and Corollary). The proof is
+  checked exhaustively on 1344 of 1344 three-node forms.
+- *Instantiated* by three non-isomorphic 3-node pairs, found by an exact screen of the 7,488 existing candidates.
+  Hassan independently certified the all-lag equality (`independent_audit/EXACT_ALL_LAGS_PROOF.md`).
+- The systems are **not** observationally equivalent. The full process law, and the (X,Y) and (Y,H)
+  bivariate laws, differ: this was decided exactly for all T (`identifiability/process_law_equivalence.py`).
+  The univariate laws and the (X,H) law are equal.
+
+**Which statistics recover the difference** (prespecified comparator study, `identifiability/comparators.py`;
+specs in `protocol.md`):
+
+| statistic | population level | finite samples (T = 600) |
+|---|---|---|
+| transfer entropy | separates all 3 pairs exactly (TE X→Y: 0.598 bits vs 0) | accuracy 1.00 |
+| categorical joint-recurrence rates | separate all 3 pairs exactly | 0.995–1.00 |
+| full-state transition counts | separate | 1.00 |
+| Gilpin's SHREC (library defaults, prespecified features) | — | 0.90–1.00 |
+| full-vector (MdRQA-type) recurrence rate | **exactly equal** in all 3 pairs (with a uniform stationary law it equals trace(P^k)/8) | chance |
+| false-pair-calibrated q220 prominence | equal by the theorem | 0.48–0.58 |
+
+**Targets B–D.**
+
+| target | result |
+|---|---|
+| B: q161 structural target | **Convention-dependent.** The bottleneck sets differ only under q161's rule-freeze convention. Under an IIT background-condition reading, they coincide or become ineligible (`TARGET_AUDIT.md`, `OPEN_QUESTION_FOR_MAINTAINER.md`). |
+| C: IIT quantities | **Negative.** Same major complex {X,H}, same Φ = 2. |
+| D: q220 decoder | **At chance** on held-out families: +0.04 and +0.02 above chance, CIs include 0. Exploratory. |
+
+**Not claimed:** observational indistinguishability, failure of q220 in general, an IIT theorem, or
+confirmatory evidence.
+
+**Novelty is narrow.** Pairwise blindness to higher-order structure (Gilpin 2025; Williams & Beer) and
+observational equivalence of hidden Markov chains (Gilbert 1959; Ito et al. 1992) are established. Q221
+contributes:
+- an exact closed form for categorical recurrence in this class;
+- instances in the lab's own model space;
+- an audit of the lab's target definition;
+- measured null false-positive rates for q220's statistic.
 
 ## Abstract
 
@@ -113,3 +161,28 @@ The search scripts, exact-rational checks, pinned PyPhi receipts, q220 finite-sa
 - **Gate E extension (frozen spec `6ad206a3`).** It measures the shuffle-null FPR of q220's own prominence
   statistic: 0.272 at stay probability 0.9 and 0.428 at 0.98. Circular-shift, block and fitted-Markov
   surrogates stay at 0.02–0.07.
+
+### Addendum 2: comparator study (2026-10-15, executor)
+
+These are the prespecified comparators: spec commit `311a6477`, results in
+`identifiability/results/comparators.txt`.
+
+**Exact population separation:**
+- Transfer entropy and joint recurrence: yes, for all 3 pairs.
+- MdRQA full-vector recurrence rate: no. It is exactly equal (trace invariant).
+- False-pair q220: no, by the Corollary.
+- SHREC: not computable at the population level.
+
+**Finite-sample accuracy** (400 test trajectories, nearest centroid; the rule is a Bonferroni-adjusted Wilson
+lower bound > 0.5):
+
+| comparator | S1 | S2 | S3 |
+|---|---|---|---|
+| TE | 1.00 | 1.00 | 1.00 |
+| joint recurrence | 1.00 | 1.00 | 0.995 |
+| MdRQA | 0.488 | 0.490 | 0.493 |
+| SHREC | 0.895 | 1.00 | 0.918 |
+| false-pair q220 | 0.583 (lower bound 0.509, so it passes the rule weakly) | 0.483 | 0.505 |
+
+The weak S1 false-pair signal, despite equal population means, indicates that the prominence statistic's
+sampling distribution differs beyond its mean. It is not evidence against target A.

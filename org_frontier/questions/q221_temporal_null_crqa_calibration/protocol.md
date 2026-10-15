@@ -28,13 +28,12 @@ docstring, which fixes the seeds, sample sizes, predictors, metrics and decision
 
 ## Not run
 
-These were declared in the mandate's baseline list but not executed:
-- transfer entropy;
-- recurrence-only statistics other than q220's;
-- SHREC;
-- joint recurrence plots and MdCRQA;
-- false-pair surrogates;
-- the TTS test.
+- The TTS test.
+- CCM.
+- MdCRQA *between* channel subsets (only the full-vector MdRQA rate was run).
+
+Transfer entropy, joint recurrence, MdRQA, SHREC and false-pair surrogates were run later. Their spec was
+frozen first (see "Comparator study" below).
 
 ## Comparator study (prespecified 2026-10-15, before any run)
 

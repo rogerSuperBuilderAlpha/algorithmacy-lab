@@ -8,7 +8,7 @@ a confirmatory claim. The manifest is in `MANIFEST.json`, and the full report is
 | **A**: exact candidate verification and isomorphism | **PASS** | See [gate A details](#gate-a-details). |
 | **B**: pinned PyPhi | **PASS** for the computation. The target difference does **not** survive the IIT background-condition variant (`TARGET_AUDIT.md`) | See [gate B details](#gate-b-details). |
 | **C**: actual q220 pipeline | **PASS** | See [gate C details](#gate-c-details). |
-| **D**: baselines and generalisation | **PASS** (as an exploratory pilot) | See [gate D details](#gate-d-details). |
+| **D**: baselines and generalisation | **PASS** (as an exploratory pilot). Comparators were added under spec `311a6477` (TE, JRP and SHREC separate; MdRQA rate and false-pair q220 do not) | See [gate D details](#gate-d-details). |
 | **E**: temporal-null calibration | **PASS** for verification and the measured comparison; no improved-calibration claim | See [gate E details](#gate-e-details). |
 | **F**: literature and novelty | **PASS**, with open items | See [gate F details](#gate-f-details). |
 | **G**: evidence separation | **PASS** | See [gate G details](#gate-g-details). |
@@ -27,7 +27,8 @@ a confirmatory claim. The manifest is in `MANIFEST.json`, and the full report is
 | A | Exact rational equality of marginals and recurrence profiles. Not 48-group isomorphic. | `python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.screen_exact` | `affine_theory.py` closed form agrees 1344/1344. Hassan's self-profile screen gives the same 3 classes. | Limited to the 3-node, 2-rule-family space (no new search). |
 | B | Pinned PyPhi Φ / major complex / q161 B reproduce. The target definition is audited. | `python -m ...identifiability.rep_verify`, `...target_audit`, `...target_variants` | q161 code versus own clamp-0/1 implementation | B difference is convention-dependent (`TARGET_AUDIT.md`). |
 | C | The repo's own `q220.decode` functions give a score distribution, with set-size chance reported. | `python -m ...identifiability.adjudicate` | Hassan's `lead_pair_finite_sample.py` (0.661/0.333 vs 0.643/0.330) | One pair, T and flip as in q220 |
-| D | Frozen spec: held-out families, form-level bootstrap CIs | `python -m ...identifiability.structural_baselines` (slow, about 2 min) | – (single run, seed fixed in the spec commit `ecd014dd`) | Exploratory. The TE baseline and the recurrence-only non-q220 baseline were not run. |
+| D | Frozen spec: held-out families, form-level bootstrap CIs | `python -m ...identifiability.structural_baselines` (slow, about 2 min) | – (single run, seed fixed in the spec commit `ecd014dd`) | Exploratory. The comparators were run later, under the separate frozen spec `311a6477` (see the "Comparators" row below). |
+| D2 (comparators) | Frozen spec `311a6477`. Exact population separation for C1–C3; finite-sample nearest centroid with a Bonferroni-adjusted Wilson rule | `PYTHONPATH=. /workspace/shrec-venv/bin/python -m ...identifiability.comparators` (about 70 s) | exact values are cross-checked by plug-in estimates (`test_comparators.py`) | **PASS (exploratory).** TE and JRP separate all 3 pairs exactly and at ≥ 0.995 accuracy. SHREC: 0.895–1.000. MdRQA rate exactly equal, at chance. False-pair q220: 0.48–0.58. SHREC runs in a separate, unpinned venv |
 | E | Pilot numbers reproduce byte-identically. Spec frozen in `6ad206a3`. | `python -m ...null_pilot` ; `python -m ...identifiability.null_extension` (slow) | Hassan's committed outputs | Pilot only. FPR CIs are wider than the 0.025–0.075 band. |
 | F | Every required reference is DOI-verified and placed in the matrix. | `literature/references.bib` (Crossref check 2026-10-15) | – | Metadata-level verification only (M) for many entries |
 | G | Each claim is tagged exploratory, pilot, structural or confirmatory. | review `FINDINGS.md` | – | No confirmatory evidence exists. |
@@ -150,7 +151,7 @@ At p = 0.5, every cell lies between 0.032 and 0.056.
   strongest competing interpretation.
 - `literature/NOVELTY_ASSESSMENT.md` gives the narrative version.
 - **Open:**
-  - MdCRQA / JRP / TE / CCM / SHREC are not run on the survivors.
+  - TE, JRP, MdRQA, SHREC and false-pair surrogates have been run on the survivors (`identifiability/results/comparators.txt`). CCM has not.
   - The search of later work was a cursory web search, not a database search.
   - Several entries are verified only at level M or R.
 

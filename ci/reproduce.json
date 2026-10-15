@@ -7034,6 +7034,15 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
     },
     {
+      "name": "q221-pair-search-storage",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search_data --check",
+      "expect": [
+        "pair_search.json.gz OK: raw sha256 7c54d45b690081003c836b696d6d63014aa5428a1d8221449a3ba2c75a58ba13, 731681 raw bytes, 24174 gz bytes"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/identifiability/results/PAIR_SEARCH_STORAGE.md"
+    },
+    {
       "name": "q221-survivor-baselines",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
       "expect": [
