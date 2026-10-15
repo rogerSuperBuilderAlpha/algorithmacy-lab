@@ -6982,6 +6982,19 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
     },
     {
+      "name": "q221-affine-minimality",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.minimality_affine",
+      "expect": [
+        "\"first_nonisomorphic_ambiguity_n\": 3",
+        "\"systems\": 24",
+        "\"profile_classes\": 16",
+        "\"equal_profile_pairs\": 8",
+        "\"nonisomorphic_equal_profile_pairs\": 0"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/independent_audit/MINIMALITY_AFFINE.md"
+    },
+    {
       "name": "q221-exact-all-lag-recurrence-proof",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
       "expect": [
