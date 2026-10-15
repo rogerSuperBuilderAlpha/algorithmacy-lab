@@ -1,5 +1,7 @@
 # Suggested replacement description for draft PR #842
 
+> **Historic, superseded PR description.** The live upstream PR body was subsequently updated by a separately authorized author workflow and now includes the preregistered four-node confirmatory target-A study and the q161 target-convention audit. This file is preserved only as a historical editorial artifact. Do not paste it over the current PR body.
+
 **Draft exploratory methods study. No merge requested and no confirmatory hypothesis claim.**
 
 Q221 asks whether stationary categorical pairwise recurrence summaries can uniquely identify a lab-defined leave-one-node-out IIT bottleneck **set** for three-node Boolean systems under 8% independent per-node flip noise.
