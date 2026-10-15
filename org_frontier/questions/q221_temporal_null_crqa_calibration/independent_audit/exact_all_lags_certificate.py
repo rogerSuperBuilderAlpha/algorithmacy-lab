@@ -57,6 +57,17 @@ def recurrence(P, max_lag=15):
         Pk = matmul(Pk, P)
     return result
 
+def reconstruct_rules_from_one_step_marginals(P):
+    """Recover deterministic per-node rule table from fully observed noisy TPM.
+
+    Since Pr(next node j = 1 | current state s) is NOISE or 1-NOISE
+    (with NOISE=2/25 < 1/2), thresholding at 1/2 recovers every rule bit.
+    """
+    means = tuple(tuple(sum((P[s][z] for z in range(8) if BITS[z][j]),
+                            Fraction(0)) for s in range(8)) for j in range(3))
+    assert all(v in (NOISE, 1-NOISE) for row in means for v in row)
+    return tuple(tuple(int(v > Fraction(1, 2)) for v in row) for row in means)
+
 def transform(tab, perm, mask):
     out = [[0] * 8 for _ in range(3)]
     for state in range(8):
@@ -74,6 +85,8 @@ def certificate():
           for mask in range(8)
           if transform(tables(LEAD_A), perm, mask) == tables(LEAD_B)]
     assert not eq
+    assert reconstruct_rules_from_one_step_marginals(a) == tables(LEAD_A)
+    assert reconstruct_rules_from_one_step_marginals(b) == tables(LEAD_B)
     return {
         "status": "exact mathematical verification (no PyPhi run)",
         "candidate_ids": {"P": list(LEAD_A), "Q": list(LEAD_B)},
@@ -88,6 +101,10 @@ def certificate():
                           "formed by multiplying the two characteristic polynomials. "
                           "Sixteen initial zero values imply equality for every k>=0. "
                           "Stationarity gives r_ij(-k)=r_ji(k)."),
+        "state_conditional_one_step_means_recover_all_rule_bits": True,
+        "sufficient_information_statement": ("Full-state one-step per-node conditional "
+          "means recover every deterministic rule bit by thresholding at 1/2 "
+          "under independent flip noise epsilon<1/2; not claimed minimal."),
         "checked_symmetries": 48,
         "isomorphisms_found": eq,
         "reported_q161_bottleneck_sets_not_computed_here": {"P": [0, 2], "Q": [2]},
