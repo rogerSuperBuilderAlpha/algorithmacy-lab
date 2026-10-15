@@ -26,8 +26,9 @@ Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1
 
 - [x] Exact-rational stationary profile certificate for lead pair aff(9,6,10) / aff(9,15,10): 144 rational matches at lags 0..15, all-lag Cayley–Hamilton extension, 48-group non-isomorphism.
 - [x] Independent derivation and test of full-state one-step conditional-mean recovery of each deterministic rule bit with per-node update flips < 1/2.
+- [x] Exact population q220 prominence diagnostic on lead pair: all three cross-channel peak prominences zero at lags ±10; tie-aware scores equal 2/3 and 1/3 set-size chance. Finite-sample behavior is separately reported.
 - [x] Critical loss distinction: complete bottleneck-set exact recovery is impossible for the reported pair, but a shared correct node H exists, so the q220 single-node selection task is not shown impossible.
-- [x] Five focused mathematical regression tests passed in the independent container.
+- [x] Six focused mathematical regression tests passed in the independent container.
 - [x] CI registration added for q221-exact-all-lag-recurrence-proof; GitHub 7/7 registered checks passed on commit ba966a04, including this certificate. Latest-head CI must be checked separately.
 - [x] Phase-0 q153/q159/q161/q220 evidence map, lead candidate manifest, formal proof, enhanced paper, and 12-section technical report committed.
 - [x] Unimplemented probe_template.py scaffold removed from the exploratory submission.
