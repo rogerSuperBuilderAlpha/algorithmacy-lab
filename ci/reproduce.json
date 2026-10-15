@@ -6964,6 +6964,18 @@
       "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     },
     {
+      "name": "q221-exact-all-lag-recurrence-proof",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
+      "expect": [
+        "\"exact_components_equal_lags_0_to_15\": 144",
+        "\"equality_exact\": true",
+        "\"checked_symmetries\": 48",
+        "\"isomorphisms_found\": []"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/independent_audit/EXACT_ALL_LAGS_PROOF.md"
+    },
+    {
       "name": "probe-voting-robustness",
       "cmd": "python -m org_frontier.probes.probe_voting_robustness",
       "expect": [
