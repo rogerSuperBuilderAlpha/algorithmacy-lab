@@ -96,9 +96,15 @@ An independent exploratory pilot of **zero-lag Pearson correlation**, not q220's
 
 ## Exact mathematical certificate and correct-node distinction
 
-The independent standard-library rational certificate in independent_audit/exact_all_lags_certificate.py reconstructs the lead pair's 8-state noisy kernels from the affine rule codes, verifies the uniform stationary law exactly, and checks 144 exact rational recurrence equalities (all nine ordered channel profiles at lags 0–15). The Cayley–Hamilton argument in independent_audit/EXACT_ALL_LAGS_PROOF.md extends that finite exact check to **all integer lags** for the declared stationary categorical match statistic. A 48-element relabeling search rules out the specified node/value equivalences. Four lightweight regression tests pass locally. This is a mathematical verification of recurrence profiles, **not** a separate PyPhi rerun.
+The independent standard-library rational certificate in independent_audit/exact_all_lags_certificate.py reconstructs the lead pair's 8-state noisy kernels from the affine rule codes, verifies the uniform stationary law exactly, and checks 144 exact rational recurrence equalities (all nine ordered channel profiles at lags 0–15). The Cayley–Hamilton argument in independent_audit/EXACT_ALL_LAGS_PROOF.md extends that finite exact check to **all integer lags** for the declared stationary categorical match statistic. A 48-element relabeling search rules out the specified node/value equivalences. Six focused independent regression tests now pass locally (including the population decoder diagnostic). This is a mathematical verification of recurrence profiles, **not** a separate PyPhi rerun.
 
 **Target-set qualification:** The pinned PyPhi record reports bottleneck sets {X,H} and {H}. They differ as complete sets, but share node H. Accordingly, no deterministic decoder given only the common exact *population summary* can reconstruct both **complete sets** exactly. That does *not* imply no decoder can select a correct bottleneck node for both: predicting H would score as a correct singleton in both under the q220 tie-aware scoring rule. The result does not establish different maximum Phi or different major-complex membership, and it does not prove failure of a finite-sample q220 decoder.
+
+### Population q220 decoder diagnostic
+
+For the lead pair at the original q220 lag window ±10, the exact population **peak-minus-median** prominence is zero for all three unordered cross-channel pairs, despite nonflat negative-lag deviations in parts of the raw match profiles. With the 0.05 prominence threshold, the population centrality vector is all zero, the predicted max-centrality set is all three nodes, and the tie-aware scores are **2/3 for P and 1/3 for Q**—exactly their respective set-size chance baselines. The rational script and regression test check these statements without Monte Carlo error.
+
+This is an exact **population functional** result for these designed systems, not a guarantee that empirical prominence is always zero for finite trajectories. It explains why the current peak-only decoder can return no evidence on this pair without implying that the entire recurrence representation has no temporal information or that q220 generally fails.
 
 ### Loss-function dependence
 

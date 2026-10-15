@@ -30,6 +30,8 @@ The exact-set loss consequence is **not** an impossibility of a correct single-n
 
 The pinned receipt in identifiability/results/rep_verify.txt reports historical PyPhi feature/iit-4.0 @ b78d0e34, IIT version 4.0 with GENERALIZED_INTRINSIC_DIFFERENCE, identical major complex {X,H} and Phi=2, but different leave-one-out drops [2,0,2] vs [1,0,2]. The q161 implementation and an independently written direct PyPhi loop reportedly agree, including both clamp values. This work independently checked the recurrence mathematics; **it did not run an external second PyPhi installation**.
 
+The independent rational certificate also evaluates q220's **population peak-minus-median prominence** at the original lag window ±10: all three unordered pair prominences are exactly zero for both lead systems. The 0.05 threshold makes all centralities zero; q220's tie-aware score is precisely 2/3 (P) and 1/3 (Q), their set-size chance levels. Nonflat *negative* profile deviations are discarded by this peak-only statistic. This is not a guarantee about finite-sample prominences or general q220 performance.
+
 The q220 pipeline receipt in identifiability/results/adjudicate.txt uses its actual trajectory, timestamp coupling, prominence, centrality, and tie-aware score. Its lead-pair scores are close to respective set-size chance. This does not establish population-wide q220 failure. Newer PyPhi 2.0 defaults (IIT_4_0_2026) can differ materially from the pinned 2023-era formalism. See literature/FORMALISM_VERSION_NOTE.md.
 
 ## 5. Temporal-null results
@@ -87,7 +89,7 @@ Sources and verification levels appear in literature/LITERATURE_REGISTER_DRAFT.m
 
 ## 9. Files changed and tests executed
 
-The project files are confined to Q221 plus generated README.md/MAP.md and the explicit q221 entry added to ci/reproduce.json. Independent local mathematical regression: five tests passed after adding rule-recovery assertions. GitHub's changed-study reproducibility workflow passed 7/7 on commit ba966a04, including the newly registered 0.1s Q221 exact-certificate command. **The latest head may be newer and requires another CI check.** No q161/q220 study outputs were rewritten.
+The project files are confined to Q221 plus generated README.md/MAP.md and the explicit q221 entry added to ci/reproduce.json. Independent local mathematical regression: six tests passed after adding rule-recovery assertions. GitHub's changed-study reproducibility workflow passed 7/7 on commit ba966a04, including the newly registered 0.1s Q221 exact-certificate command. **The latest head may be newer and requires another CI check.** No q161/q220 study outputs were rewritten.
 
 The canonical lead candidate and evidence Git blob identifiers appear in LEAD_CANDIDATE_MANIFEST.json. The original degenerate XOR pair and the value-relabeling-isomorphic pair were explicitly rejected.
 

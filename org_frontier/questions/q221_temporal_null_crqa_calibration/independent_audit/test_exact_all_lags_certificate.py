@@ -3,7 +3,7 @@ from fractions import Fraction
 from itertools import permutations
 
 from .exact_all_lags_certificate import (
-    LEAD_A, LEAD_B, NOISE, recurrence, tables, transform, transition, reconstruct_rules_from_one_step_marginals
+    LEAD_A, LEAD_B, NOISE, recurrence, tables, transform, transition, reconstruct_rules_from_one_step_marginals, population_q220_peak_prominences
 )
 
 def test_stochastic_and_stationary_exactly():
@@ -32,3 +32,8 @@ def test_one_step_conditional_recovery():
     for code in (LEAD_A, LEAD_B):
         P = transition(code)
         assert reconstruct_rules_from_one_step_marginals(P) == tables(code)
+
+def test_population_peak_prominence_zero():
+    from fractions import Fraction
+    for code in (LEAD_A, LEAD_B):
+        assert population_q220_peak_prominences(transition(code)) == (0, 0, 0)

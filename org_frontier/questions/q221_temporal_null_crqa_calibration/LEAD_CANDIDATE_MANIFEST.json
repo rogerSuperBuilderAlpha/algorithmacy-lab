@@ -68,7 +68,22 @@
     "exact_fraction_equalities": 144,
     "all_integer_lags_extension": "Cayley-Hamilton degree-16 product recurrence, plus stationarity reversal for negative lags",
     "isomorphism_group": "6 permutations times 8 per-node binary flips",
-    "allowed_isomorphisms_found": 0
+    "allowed_isomorphisms_found": 0,
+    "population_q220_peak_minus_median_lags_minus10_to_10": [
+      "0",
+      "0",
+      "0"
+    ],
+    "population_q220_no_evidence_centrality": [
+      0,
+      0,
+      0
+    ],
+    "population_q220_tie_aware_scores": {
+      "P": "2/3",
+      "Q": "1/3"
+    },
+    "population_q220_peak_diagnostic_scope": "Population functional only; empirical finite-sample prominence may be nonzero."
   },
   "conditional_inference": {
     "exact_full_bottleneck_set_identifiability": "NO: same input R, different full sets",
@@ -86,13 +101,13 @@
     "clamp_to_0_and_1_reported_agree": true
   },
   "references": {
-    "exact_certificate_git_blob": "e677cf13aaed06aca8046e48cd1ceed2d5ad472a",
-    "exact_proof_git_blob": "17b73c1ec4ffd645929924031a5b788197fa811b",
+    "exact_certificate_git_blob": "871e6759b9c9211983d454387d3c81fed6a7a7e6",
+    "exact_proof_git_blob": "961c25bba137712e92161afa0b3247c65c4d2fa3",
     "pinned_pyphi_script_git_blob": "34ebb8eb4fdca4319a92e2e52d0846dfdfbf95df",
     "pinned_pyphi_receipt_git_blob": "de1606bd57ae27c0953e1eec02056a24017a6339",
     "candidate_filter_git_blob": "d996e094b9c1b8ceaefa604bc9cf29afbe655523",
     "baseline_results_git_blob": "aeba58bcb589cb04a96d1f819b050438a95063a4",
-    "exact_regression_tests_git_blob": "f332570949d2db04e1dbdd04b0715a22a9b1d412"
+    "exact_regression_tests_git_blob": "d19b54543a70b05f0474f1ff5faba893278d8b32"
   },
   "limitations": [
     "Search and candidate selection retrospective",

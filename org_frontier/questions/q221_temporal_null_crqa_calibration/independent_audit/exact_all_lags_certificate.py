@@ -6,6 +6,7 @@ No PyPhi dependency. The externally reported q161 target sets are NOT recomputed
 """
 from fractions import Fraction
 from itertools import permutations
+from statistics import median
 import argparse
 import json
 
@@ -57,6 +58,21 @@ def recurrence(P, max_lag=15):
         Pk = matmul(Pk, P)
     return result
 
+def population_q220_peak_prominences(P, lag_window=10):
+    """Exact q220 peak-minus-median at full-observation population level.
+
+    Returned entries correspond to unordered node pairs (0,1), (0,2), (1,2).
+    Finite-sample q220 prominence can be positive from noise; that is separate.
+    """
+    r = recurrence(P, lag_window)
+    out = []
+    for i in range(3):
+        for j in range(i + 1, 3):
+            vals = [r[(i, j, k)] if k >= 0 else r[(j, i, -k)]
+                    for k in range(-lag_window, lag_window + 1)]
+            out.append(max(vals) - median(vals))
+    return tuple(out)
+
 def reconstruct_rules_from_one_step_marginals(P):
     """Recover deterministic per-node rule table from fully observed noisy TPM.
 
@@ -87,6 +103,8 @@ def certificate():
     assert not eq
     assert reconstruct_rules_from_one_step_marginals(a) == tables(LEAD_A)
     assert reconstruct_rules_from_one_step_marginals(b) == tables(LEAD_B)
+    assert population_q220_peak_prominences(a) == (0, 0, 0)
+    assert population_q220_peak_prominences(b) == (0, 0, 0)
     return {
         "status": "exact mathematical verification (no PyPhi run)",
         "candidate_ids": {"P": list(LEAD_A), "Q": list(LEAD_B)},
@@ -105,6 +123,8 @@ def certificate():
         "sufficient_information_statement": ("Full-state one-step per-node conditional "
           "means recover every deterministic rule bit by thresholding at 1/2 "
           "under independent flip noise epsilon<1/2; not claimed minimal."),
+        "population_q220_peak_prominences_lags_pm10": ["0", "0", "0"],
+        "population_q220_no_evidence_scores_from_all_node_tie": {"P": "2/3", "Q": "1/3"},
         "checked_symmetries": 48,
         "isomorphisms_found": eq,
         "reported_q161_bottleneck_sets_not_computed_here": {"P": [0, 2], "Q": [2]},

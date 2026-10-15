@@ -1,5 +1,12 @@
 # Q221 — Pairwise recurrence summaries do not identify the transition law; proved for the affine class (exploratory draft, not confirmatory)
 
+**Status: draft exploratory research. No preregistered confirmatory claim.**
+
+*Hassan's concurrent heading, retained:* "The specified population recurrence profiles cannot identify both
+complete q161 bottleneck sets". This holds under q161's rule-freeze convention. Under the background-condition
+reading the sets coincide (, ). The headline above follows
+the 2026-10-15 instruction to lead with target A.
+
 Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed records:
 `IDENTIFIABILITY_NOTE.md`, `identifiability/SEARCH_RECORD.md`, `independent_audit/` (Hassan's parallel work), and
 `EXACT_PHI_DECISION_RULES.md` (fixed before the post-rules Φ runs).
