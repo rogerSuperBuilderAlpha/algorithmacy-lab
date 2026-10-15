@@ -643,7 +643,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q218](org_frontier/questions/q218_chicken_egg_feed/paper.md) | The Chicken-and-Egg Feed: First Causes, Loops, and Φ in Stylized Post Spread | no first cause needs a loop, but a loop is not enough; the engagement feed with look-alike fans factors |
 | [Q219](org_frontier/questions/q219_insurance_claim_adjudication/paper.md) | Who decides an insurance claim? An exact-Φ reading of claimant, engine, and adjuster | who decides an insurance claim? |
 | [Q220](org_frontier/questions/q220_observation_process_robustness/paper.md) | Observation-process robustness of the CRQA structural verdict (q220) | Gap-closing, not data loss, drove the bottleneck-pick drop on curated forms (4–5 of 12); the random-form test is inconclusive |
-| [Q221](org_frontier/questions/q221_temporal_null_crqa_calibration/paper.md) | Information limits of pairwise recurrence summaries for IIT-defined bottleneck targets | (DRAFT; nothing here is preregistered or confirmatory) |
+| [Q221](org_frontier/questions/q221_temporal_null_crqa_calibration/paper.md) | Information limits of pairwise recurrence summaries for IIT-defined bottleneck targets | The specified population recurrence profiles cannot identify both complete q161 bottleneck sets (exploratory) |
 
 </details>
 
