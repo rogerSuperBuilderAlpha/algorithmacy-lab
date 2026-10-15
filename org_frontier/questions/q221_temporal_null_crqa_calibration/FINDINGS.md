@@ -1,101 +1,113 @@
-# Q221: findings (DRAFT, exploratory; nothing here is preregistered or confirmatory)
+# Q221: findings (DRAFT; nothing here is preregistered or confirmatory)
 
-**Status.**
-- Draft PR #842. No merge requested and no IIT-specific claim.
-- **Q221 is narrowed** (see "Scope after verification").
-- Detailed records:
-  - `IDENTIFIABILITY_NOTE.md`;
-  - `identifiability/SEARCH_RECORD.md`;
-  - `independent_audit/` (Hassan's parallel analyses);
-  - `EXACT_PHI_DECISION_RULES.md` (fixed before the post-rules Φ runs).
+Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed records:
+`IDENTIFIABILITY_NOTE.md`, `identifiability/SEARCH_RECORD.md`, `independent_audit/` (Hassan's parallel work), and
+`EXACT_PHI_DECISION_RULES.md` (fixed before the post-rules Φ runs).
 
-## What was verified
+**Defensible conclusion (Hassan, binding):**
+- **Claimed:** pairwise *population* recurrence summaries may not identify the full multivariate transition law.
+- **Not claimed:** finite-sample indistinguishability.
+- **Not claimed:** that q220 fails.
+- **Not claimed:** an IIT theorem.
+
+The evidence falls into four categories, kept strictly separate below.
+
+## 1. Exploratory search (deterministic, population-level, exact)
 
 | item | result | evidence |
 |---|---|---|
-| Original A/B pair (all variants A, B, C) as an IIT-bottleneck counterexample | **Rejected (rule 1).** Every variant has an ineligible q161 target (empty B, single-node core). | `results/phi_detail.txt`, `ab_hassan_code.txt` |
-| A/B/C reconciliation | Every number is traced to exact rules and the variant's own stationary law. B_xor's law is non-uniform; A and C are uniform. Hassan's finite-sample table is A vs C. Population cross-profiles equal 1/2 in all variants at all lags. | `results/variants_abc.txt`; `independent_audit/test_rule_variants.py` |
-| Hassan's matched candidate aff(6,9,5) vs aff(11,9,5) | **Isomorphic** under the Y↔H swap with Y and H values flipped (2 of the 48 maps). The B sets {H}/{Y} are the same target relabelled, so it is not a counterexample. | `results/iso_check_hassan_pair.txt` |
-| Bounded exact-Φ search (rule 3) | **Completed in 290 s of 1800 s.** All 2823 groups examined; 7488 candidate pairs, 74 unique up to node permutation × value relabelling. | `identifiability/SEARCH_RECORD.md` |
-| Stricter exact screen: no constant node, equal marginals, equal self-recurrence | 7488 → 6816 → 6432 → **180** raw pairs. 74 → 67 → 67 → **3** unique up to the 48-group, all GF(2)-affine, none in the R2 family. | `results/screen_exact.txt` |
-| Lead surviving pair P/Q, exact Φ in the pinned environment | Same major complex {X, H}, same Φ = 2, same per-state φ. q161 bottleneck {X, H} vs {H}. Reproduced by q161 code and by an own clamp-0/clamp-1 loop. Not a tie artifact (margin ≥ 1). Exact cross- and auto-profiles equal at lags 0..40, hence at every lag. | `results/rep_verify.txt` |
-| Lead pair, finite sample (Hassan's script, pinned environment) | q220 decoder outputs match; BN score 0.661 vs 0.333 equals set-size chance (0.667 / 0.333). | `results/pinned_env_runs/lead_pair_finite_sample.json` |
-| Pinned-environment rerun of Hassan's committed modules | `null_pilot.py`, `finite_sample.py` and `candidate_finite_sample.py` all **bit-identical** to his recorded outputs. 4/4 `independent_audit` tests pass. | `results/pinned_env_runs/` |
-| Null-calibration pilot (Hassan's; exploratory; zero-lag Pearson, **not** CRQA) | Naive-shuffle FPR 5.6% / 34.0% / 67.2% at persistence 0.5 / 0.9 / 0.98. Circular shift 4.8% / 5.6% / 2.0% (250 pairs each). | `independent_audit/null_pilot_results.json` |
+| Original A/B pair (variants A, B, C) | All targets are ineligible for q161: empty B and a single-node core. Rejected as a bottleneck counterexample (rule 1). | `identifiability/results/phi_detail.txt`, `ab_hassan_code.txt` |
+| A/B/C reconciliation | Every number traced to exact rules and the variant's own stationary law. B_xor's law is non-uniform; A and C are uniform. Cross-recurrence is 1/2 at all lags in all three. Hassan's finite-sample table is A vs C. | `identifiability/results/variants_abc.txt` |
+| Bounded search (rule 3) | Completed 2823/2823 groups in 290 s of the 1800 s budget. 7488 candidate pairs, 74 unique up to perm × value flip. | `identifiability/SEARCH_RECORD.md` |
+| Exact screen, all 7488 pairs | 7488 → 6816 (no constant node) → 6432 (+ equal marginals) → 180 (+ equal self-recurrence, lags 0..20) → 180 (+ exact cross-recurrence) → **144 raw / 24 node-perm-unique / 3 unique up to the 48-group, not isomorphic**. All GF(2)-affine; none in the R2 family. | `identifiability/results/screen_exact.txt` |
+| Hassan's matched candidate aff(6,9,5) vs aff(11,9,5) | **Isomorphic**: swap Y and H, and flip the values of Y and H. Its B sets {H}/{Y} are the same target relabelled. Not a counterexample. | `identifiability/results/iso_check_hassan_pair.txt` |
+| Lead survivor P = aff(9,6,10), Q = aff(9,15,10) (pinned PyPhi) | Major complex {X,H}, Φ = 2 in both, with identical per-state φ for every subset. q161 B: {X,H} vs {H}. Same under clamp 0 and clamp 1. Tie gap 1.0; B margin ≥ 1; both eligible. Marginals and self- and cross-recurrence exactly equal at lags 0..40, hence at every lag. Not 48-group isomorphic. | `identifiability/results/rep_verify.txt` |
 
-## What may be claimed (narrow)
+The search is exploratory. Its 3 survivors are examples, not a characterisation. They have not been validated
+under a locked protocol.
 
-1. Within q220's Boolean family (three nodes, deterministic rule plus 8% flip), some non-isomorphic systems
-   share the following:
-   - every one-point statistic (marginals);
-   - every two-point recurrence statistic (cross- and auto-profiles at every lag);
-   - the major complex and Φ.
+## 2. Finite-sample checks (exploratory, one form per system, seeded)
 
-   They still have **different q161 leave-one-out bottleneck targets**. So no decoder that sees only pairwise
-   recurrence profiles can recover that target consistently across the family. On the lead pair, q220's
-   decoder scores at chance on both systems.
-2. The two systems differ in a node **outside** the major complex. This is a property of the q161 bottleneck
-   definition, not of IIT 4.0's major complex or Φ. Studies that use the target as ground truth should know it.
-3. Naive shuffling is miscalibrated for persistent binary channels. This is a **known** result (Yuan & Shou
-   2022), reproduced here as a methods check only.
+| item | result | evidence |
+|---|---|---|
+| q220's actual pipeline on P/Q: repo `crqa.trajectory`, then q220 `stage2.observe` `coupling` → `centrality` → `bottleneck_scores`; R = 400; seeds 43000+ | Pipeline outputs match within SE (max prominence 0.0607 / 0.0606). Tie-aware BN score 0.643 / 0.330, which equals set-size chance (0.667 / 0.333) for each system. | `identifiability/results/adjudicate.txt` |
+| Hassan's `candidate_finite_sample.py` on P/Q (his own simulator, q220 `observe`), seeds 0..299 | Score 0.661 / 0.333, consistent with the row above. | `identifiability/results/pinned_env_runs/lead_pair_finite_sample.json` |
+| Prespecified simple baselines on all 3 survivors (spec committed in `35313d47` before running) | Marginals, self-recurrence and cross-recurrence give 0.43 to 0.53 (near chance). **Transition counts and transition likelihood give 1.000 (Wilson 95% CI 0.99 to 1.0) on every pair.** | `identifiability/results/baselines_survivors.txt` |
 
-## What may NOT be claimed
+**Reading.**
+- The systems are trivially separable from finite data through three-point and transition statistics. One
+  example: P(Y_{t+1} = X_t⊕Y_t) is 0.92 in P and 0.5 in Q.
+- The equivalence is population-level, and only for one- and two-point summaries.
+- The q220 decoder scoring at chance on one designed pair is **not** evidence that q220 fails on its own corpus.
+- Two of the near-chance baselines have Wilson intervals that exclude 0.5: 0.427 and 0.440. The Wilson interval
+  treats the test trajectories as independent and ignores variability in the single fitted centroid. These
+  excursions are read as classifier-fit noise, not signal. No tuning was done.
+- Uncertainty across independently generated forms does not apply here. The 3 pairs are the complete survivor
+  set of a deterministic search, not a sample of forms.
 
-- Any IIT-specific theorem.
-- Non-identifiability from full trajectories. A three-point statistic separates P and Q: P(Y_{t+1} = X_t ⊕ Y_t)
-  is 0.92 vs 0.5.
-- Anything about q220's R2 family, which has no survivor.
-- Generality beyond three-node `nsi` and GF(2)-affine forms.
-- Any confirmatory or calibration result for CRQA itself; the pilot statistic is zero-lag Pearson.
-- That a circular shift is valid. Yuan & Shou 2024 show cyclic permutation can exceed 5%.
+## 3. Pilot calibration (exploratory methods check)
 
-## Scope after verification (Q221 narrowed)
+- Hassan's null pilot is reproduced bit-identically in the pinned environment.
+- **Its scope:** the zero-lag absolute **Pearson** correlation, for **independent binary Markov channels** only.
+  It used 250 pairs per persistence level, 199 surrogates, and seed 2212026.
+- Naive-shuffle FPR: 5.6% / 34.0% / 67.2% at persistence 0.5 / 0.9 / 0.98.
+- Circular-shift FPR: 4.8% / 5.6% / 2.0%.
+- **No CRQA calibration claim. No q220-decoder calibration claim.**
+- Shuffle miscalibration under autocorrelation is already known (Yuan & Shou 2022). Circular shifts can also
+  fail (Yuan & Shou 2024).
+- Evidence: `independent_audit/null_pilot_results.json` and `REPRODUCTION_STATUS.md`.
 
-Q221 continues, if at all, as:
+## 4. Structural prediction and confirmatory evidence
 
-**(A) Null calibration of q220's actual pairwise recurrence statistic.**
-- The known part is that naive shuffles fail.
-- The open part is which nulls are calibrated for q220's prominence/centrality pipeline under persistence,
-  common drivers and periodicity.
+- **None.** Track B (predicting the Φ bottleneck from recurrence on held-out forms) was not run.
+- No preregistration exists.
+- No confirmatory data were collected.
 
-**(B) The information limits of pairwise recurrence for the q161 target.**
-- This is the representation-loss result above.
+## What is (possibly) new
 
-**Track B (structural prediction of the Φ bottleneck from CRQA) is not pursued.** Its target is not identified
-by the representation q220 uses.
+The general phenomenon is classical. Pairwise statistics miss XOR and other higher-order structure (Williams &
+Beer 2010; James & Crutchfield 2017; Gilpin 2025). Dependence-aware testing is also established (Yuan & Shou
+2022/2024; Theiler 1992; Politis & Romano 1994).
+
+What may be new, and is still exploratory and unvalidated:
+1. An exact construction inside the lab's own Boolean family (q220's generator) of non-isomorphic systems that
+   are equal on every one- and two-point recurrence summary at every lag, and on major complex and Φ, yet have
+   different q161 leave-one-out bottleneck targets.
+2. The observation that the q161 target can change through a rule **outside** the major complex.
+
+A full search for prior work on IIT bottleneck or leave-one-out targets was not done (see `GATES.md`, gate 4).
 
 ## Limitations
 
-- Single-form, single-search, exploratory.
-- The 3 survivors were found by a search whose filters were fixed in advance. They still need independent
-  validation under a locked protocol, ideally symbolic and over larger families.
-- The q161 convention used: deterministic TPM, maximum over reachable states, clamp-to-0 leave-one-out (clamp-1
-  agrees on the lead pair).
+- Three nodes; synchronous; two families (`nsi`, GF(2)-affine).
+- The q161 Φ convention is the one used throughout.
+- Single search; single seeds per experiment.
+- The literature review is prospective and only partly full-text verified.
 - The mechanism of the residual-Φ difference was not dissected.
-- The literature review is prospective and only partly full-text verified (`literature/LITERATURE_REGISTER_DRAFT.md`).
 
 ## Reproduce
 
-Run from the repo root with the pinned environment: Python 3.12.15, numpy 2.5.4, scipy 1.18.1, PyPhi
-`feature/iit-4.0` @ `b78d0e34`.
+Use the pinned environment: Python 3.12.15, numpy 2.5.4, scipy 1.18.1, PyPhi `feature/iit-4.0` @ `b78d0e34`.
+Run from the repo root.
 
 ```
 M=org_frontier.questions.q221_temporal_null_crqa_calibration
-python -m $M.identifiability.pair_search          # bounded search (deterministic, ~5 min)
-python -m $M.identifiability.verify_candidates    # 48-group check + independent recomputation
-python -m $M.identifiability.adjudicate           # constant-node / tie / finite-sample adjudication
-python -m $M.identifiability.screen_exact         # stricter exact screen (marginals + self-recurrence)
-python -m $M.identifiability.rep_verify           # lead pair: exact Φ (q161 + own clamp 0/1), profiles to lag 40
-python -m $M.identifiability.lead_pair_finite_sample   # Hassan's simulate/measure on the lead pair
-python -m $M.identifiability.variants_abc         # A/B/C reconciliation
-python -m pytest -q org_frontier/questions/q221_temporal_null_crqa_calibration/independent_audit/
+python -m $M.identifiability.pair_search            # bounded search (~5 min, deterministic)
+python -m $M.identifiability.verify_candidates      # 48-group check + independent recomputation
+python -m $M.identifiability.screen_exact           # exact screen of all 7488 pairs
+python -m $M.identifiability.iso_check_hassan_pair  # aff(6,9,5) vs aff(11,9,5) isomorphism
+python -m $M.identifiability.rep_verify             # lead pair exact Φ (q161 + own clamp 0/1), profiles to lag 40
+python -m $M.identifiability.adjudicate             # q220 actual pipeline on the lead pair (R=400)
+python -m $M.identifiability.lead_pair_finite_sample
+python -m $M.identifiability.baselines_survivors    # gate-3 baselines
+python -m $M.identifiability.variants_abc
+python -m pytest -q org_frontier/questions/q221_temporal_null_crqa_calibration/
 ```
 
-**Exploratory vs future confirmatory.**
-- Everything above is exploratory.
-- A confirmatory study would need:
-  - a preregistration committed and pushed before data;
-  - a fresh seed stream;
-  - form-level holdouts;
-  - the baselines in `BLUEPRINT_REQUIREMENTS.md` §5;
-  - and, for (B), a symbolic or larger-family characterisation rather than single examples.
+## Future confirmatory work (not started)
+
+Any confirmatory study needs:
+- a preregistration committed and pushed before data collection;
+- a fresh seed stream and form-level holdouts;
+- the baselines in `BLUEPRINT_REQUIREMENTS.md` §5;
+- for the identifiability claim, a symbolic or larger-family characterisation rather than examples.
