@@ -1,4 +1,4 @@
-# q221 progress log (checkpoint; resume from the last unchecked step)
+# Q221 progress — exploratory feasibility record
 
 Worktree `/workspace/algorithmacy-q221`, branch `q221-temporal-null-calibration` off `upstream/contrib` 44f9b491.
 Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1).
@@ -15,5 +15,9 @@ Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1
 - [x] Lead pair P/Q: exact Φ (pinned), profiles to lag 40, Hassan's finite-sample script (pinned)
 - [x] A/B/C reconciliation (`variants_abc.py`); pinned-env rerun of Hassan's modules (bit-identical; 4/4 tests)
 - [x] FINDINGS.md (narrowed scope)
-- STOPPED here per Hassan's finish line. Not done (deferred to any future study): Phase 0 audit write-up, pilot spec,
-  CRQA-statistic pilot, PILOT_RESULTS.md. The exploratory null pilot is Hassan's (`independent_audit/`).
+- [x] Retrospective `paper.md`, `methods.md`, `hypotheses.md`, and `review.md` updated to distinguish executed evidence from unperformed confirmatory work.
+- [x] Targeted prior-art and formalism-version notes added under `literature/`; exhaustive novelty certification is not claimed.
+- [x] GitHub `reproduce-the-numbers` succeeded on head `28c89ca8` after generated directory repair; newer documentation commits require a fresh final-head check.
+- [ ] PR body still stale: upstream GitHub PR metadata update returned HTTP 403 `Resource not accessible by integration`; no bypass attempted.
+- [ ] Maintainer scientific review and merge decision remain external; PR stays draft.
+- The phase-0 audit, prospectively locked CRQA-null pilot protocol, and confirmatory CRQA pilot were **not executed**. They are not necessary to present the narrower exploratory case study, and must not be implied complete. The independent Pearson null pilot is separate (`independent_audit/`).
