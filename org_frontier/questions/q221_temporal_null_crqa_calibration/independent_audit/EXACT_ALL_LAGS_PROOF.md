@@ -49,6 +49,24 @@ If R(P)=R(Q) but B(P)!=B(Q), no deterministic decoder supplied only with the exa
 
 **Crucial limitation:** B(P) intersection B(Q) = {H}. The same node H is a valid correct-node prediction for both. Under q220's tie-aware single-node scoring, predicting singleton {H} scores 1 for either target. Therefore these systems do **not** prove that correct-node selection is impossible or that q220's single-node decoder must fail. They show that exact reconstruction of the *full set of maximizing interventions* is impossible from this restricted population representation.
 
+## Constructive sufficiency of state-conditioned one-step means
+
+Under the same model family (full state observed at each time step; deterministic Boolean update f followed by independently applied per-node flip with probability epsilon, with 0<=epsilon<1/2),
+
+\[
+q_j(s)=P(S_{t+1}^{j}=1\mid S_t=s)=\epsilon+(1-2\epsilon)f_j(s).
+\]
+
+Thus **the 8-by-3 array of state-conditioned one-step per-node means** uniquely identifies all 24 entries of the deterministic truth tables:
+
+\[
+f_j(s)={\bf 1}\{q_j(s)>1/2\}.
+\]
+
+This does not even require knowing the numerical epsilon, only that each flip probability is less than 1/2 and the noise model applies as specified. As every next-state probability is strictly positive at epsilon=2/25, the finite-state chain is irreducible and aperiodic; complete infinite trajectories identify these conditional probabilities consistently. With the deterministic update rules recovered, the lab's q161 target can in principle be computed under the pinned formalism and intervention convention.
+
+The independent certificate exactly computes all 24 state-conditioned means for **each** of the two systems; all equal either 2/25 or 23/25, and thresholding reconstructs both rule tables. This is a **sufficiency construction**, not a minimal sufficient-statistic theorem or a finite-sample recovery guarantee. It does not apply to hidden states, additional measurement corruption, arbitrary noise, or unknown state labels without further assumptions.
+
 ## Reproduction and boundary
 
 From the repository root, execute the Python module named independent_audit.exact_all_lags_certificate within the Q221 package and run test_exact_all_lags_certificate.py using pytest. The script uses only the Python standard library Fractions and needs no PyPhi installation. Four local regression tests passed.
