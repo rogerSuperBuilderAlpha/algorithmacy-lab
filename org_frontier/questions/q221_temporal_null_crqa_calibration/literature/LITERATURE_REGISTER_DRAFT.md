@@ -1,7 +1,6 @@
 # q221 literature register (DRAFT, in progress)
 
-This register is prospective for any future confirmatory study. No pilot code has run. The full review
-(claim-to-source matrix, novelty gate) is not finished.
+This is a **retrospective, incomplete** literature register supporting an exploratory feasibility study. Pilot code and the bounded search have run. The review may inform a **future** prospectively registered study, but no current Q221 result is confirmatory. The source-level novelty audit is incomplete.
 
 Raw downloads are kept outside the repo, on the box at `/workspace/q221-lit`.
 
@@ -38,3 +37,11 @@ Raw downloads are kept outside the repo, on the box at `/workspace/q221-lit`.
 | Rosas, Mediano, Gastpar & Jensen 2019, PRE 100:032305 | 10.1103/PhysRevE.100.032305 | A | O-information for synergy vs redundancy |
 | Battiston et al. 2020, Phys. Rep. 874:1 | 10.1016/j.physrep.2020.05.004 | M | Higher-order interactions |
 | Harris 2020, *Nonsense correlations in neuroscience*, bioRxiv | 10.1101/2020.11.29.402719 | snippet only (the full-text fetch failed) | Circular shift and phase randomisation "can all produce nonsense correlations"; session permutation is valid |
+
+## Additional formalism and novelty safeguards (2026-10-15)
+
+- **PyPhi formalism versions:** [PyPhi formalism-version documentation](https://pyphi.readthedocs.io/en/latest/theory/formalism-versions.html) distinguishes IIT 3.0, IIT 4.0 (2023) and IIT 4.0 (2026) and shows that Φ can change on the same substrate/state. Q221 pins the historical `feature/iit-4.0` implementation at `b78d0e34`; the exact formalism and configuration must be specified and should not be conflated with current PyPhi defaults. Level: **documentation checked**, not independent cross-version replication.
+- **Computing integrated information (2017):** [open full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC6007153/). Explains the interventional causal formalism and its difference from observed statistical dependencies. Level: **source page checked**.
+- **Measuring Integrated Information: Comparison of Candidate Measures in Theory and Simulation:** [open full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC7514120/). Existing work comparing information-integration measures across network models; Q221 must not claim that comparing statistical proxies with integrated-information targets is novel in general. Level: **source page checked**.
+
+**Novelty disposition:** Established surrogate and recurrence methodology is not new. The precise q161 leave-one-out bottleneck example may be a useful specific computational construction, but priority over all previous literature has **not** been verified. Do not label it a novel general theorem or an established new estimator.
