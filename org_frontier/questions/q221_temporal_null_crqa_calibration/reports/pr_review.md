@@ -3,7 +3,7 @@
 ## Scope and conventions
 
 - **Base.** `rogerSuperBuilderAlpha:contrib` at `44f9b491`, which is an ancestor of the head.
-- **Changed paths** (134 files vs contrib): only
+- **Changed paths** (141 files vs contrib, after merging Hassan's latest): only
   - `org_frontier/questions/q221_temporal_null_crqa_calibration/**`;
   - the generated `README.md` and `MAP.md`;
   - `ci/reproduce.json`, where entries were inserted textually and the existing format is preserved.
@@ -18,10 +18,10 @@
 
 | check | result |
 |---|---|
-| q221 fast tests | 16 pass |
+| q221 fast tests (including Hassan's) | 21 pass, 3 skipped (the slow tier) |
 | q221 expensive tier (`Q221_SLOW=1`) | 6 pass |
 | q220 tests | 73 pass |
-| `ci/reproduce.py --changed-file` | 13/13 pass |
+| `ci/reproduce.py --changed-file` | 14/14 pass |
 | slow reproduce checks (q161; q220 ×5; q221 exact screen, structural baselines and null extension) | 9/9 pass, 827 s |
 
 ## Scientific review

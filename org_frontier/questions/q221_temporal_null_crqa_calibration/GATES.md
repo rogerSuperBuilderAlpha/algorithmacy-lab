@@ -201,4 +201,4 @@ Do not equate the exact set-valued insufficiency finding with poor finite-sample
 > **Executor note (merge, 2026-10-15).** Hassan's table above was written before `TARGET_AUDIT.md`. Its rows on
 > the "pinned IIT target" and "full bottleneck-set identification" hold **under the q161 rule-freeze convention**.
 > Under the IIT background-condition variant, B(P) = B(Q) = {X,H} (`identifiability/results/target_variants.txt`).
-> The current CI count is 15 changed-study checks, all passing (see `reports/pr_review.md`).
+> After the merge, `ci/reproduce.py --changed-file` selects 14 checks, and all 14 pass (see `reports/pr_review.md`).
