@@ -4,3 +4,52 @@ stage1: 8192 forms, 2999 distinct cross-profile classes, 2823 classes with >1 me
 group 0/2823  phi-orbits 2  candidates 0  2s
 group 100/2823  phi-orbits 170  candidates 102  13s
 group 200/2823  phi-orbits 254  candidates 154  18s
+group 300/2823  phi-orbits 316  candidates 211  31s
+group 400/2823  phi-orbits 420  candidates 226  59s
+group 500/2823  phi-orbits 462  candidates 240  70s
+group 600/2823  phi-orbits 530  candidates 271  87s
+group 700/2823  phi-orbits 636  candidates 306  119s
+group 800/2823  phi-orbits 674  candidates 432  129s
+group 900/2823  phi-orbits 753  candidates 590  153s
+group 1000/2823  phi-orbits 754  candidates 618  153s
+group 1100/2823  phi-orbits 754  candidates 673  153s
+group 1200/2823  phi-orbits 754  candidates 684  153s
+group 1300/2823  phi-orbits 754  candidates 940  153s
+group 1400/2823  phi-orbits 906  candidates 6408  179s
+group 1500/2823  phi-orbits 930  candidates 6727  190s
+group 1600/2823  phi-orbits 932  candidates 6742  191s
+group 1700/2823  phi-orbits 938  candidates 6758  192s
+group 1800/2823  phi-orbits 946  candidates 6772  194s
+group 1900/2823  phi-orbits 946  candidates 6984  194s
+group 2000/2823  phi-orbits 948  candidates 7144  194s
+group 2100/2823  phi-orbits 1080  candidates 7296  202s
+group 2200/2823  phi-orbits 1208  candidates 7360  221s
+group 2300/2823  phi-orbits 1288  candidates 7392  252s
+group 2400/2823  phi-orbits 1356  candidates 7424  283s
+group 2500/2823  phi-orbits 1356  candidates 7472  283s
+group 2600/2823  phi-orbits 1356  candidates 7488  283s
+group 2700/2823  phi-orbits 1360  candidates 7488  285s
+group 2800/2823  phi-orbits 1362  candidates 7488  285s
+search done: {'forms_total': 8192, 'profile_classes_multi': 2823, 'groups_processed': 2823, 'forms_phi_evaluated': 8016, 'groups_with_2plus_eligible': 901, 'noniso_pairs_distinct_B': 7488, 'noniso_pairs_distinct_B_margin_ok': 7488, 'excluded_isomorphic_pairs': 420, 'excluded_ineligible_forms': 4656, 'phi_orbits_computed': 1362, 'search_seconds': 285.3}
+CAND ['nsi', 0, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 0, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 6, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 6, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 9, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 9, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 15, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 15, 3, 3] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['aff', 2, 9, 5] [1, 2] [1, 2] [0.0, 1.0, 1.0] | ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 2, 9, 5] [1, 2] [1, 2] [0.0, 1.0, 1.0] | ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 3, 9, 5] [1, 2] [1, 2] [0.0, 1.0, 1.0] | ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 3, 9, 5] [1, 2] [1, 2] [0.0, 1.0, 1.0] | ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | ['aff', 11, 9, 5] [1, 2] [1] [0.0, 2.0, 1.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | ['aff', 14, 9, 5] [1, 2] [1, 2] [0.0, 2.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 6, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | ['aff', 15, 9, 5] [1, 2] [1, 2] [0.0, 2.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | ['aff', 14, 9, 5] [1, 2] [1, 2] [0.0, 2.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['aff', 7, 9, 5] [1, 2] [2] [0.0, 1.0, 2.0] | ['aff', 15, 9, 5] [1, 2] [1, 2] [0.0, 2.0, 2.0] | exact-equal: True | core-tie gaps 1.0000 1.0000
+CAND ['nsi', 0, 3, 12] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 6, 9, 4] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 0, 3, 12] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 7, 9, 4] [1, 2] [2] [0.0, 1.0, 2.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+CAND ['nsi', 0, 3, 12] [1, 2] [1, 2] [0.0, 2.0, 2.0] | ['aff', 10, 9, 4] [1, 2] [1] [0.0, 2.0, 1.0] | exact-equal: True | core-tie gaps 2.0000 1.0000
+FINAL {'forms_total': 8192, 'profile_classes_multi': 2823, 'groups_processed': 2823, 'forms_phi_evaluated': 8016, 'groups_with_2plus_eligible': 901, 'noniso_pairs_distinct_B': 7488, 'noniso_pairs_distinct_B_margin_ok': 7488, 'excluded_isomorphic_pairs': 420, 'excluded_ineligible_forms': 4656, 'phi_orbits_computed': 1362, 'search_seconds': 285.3, 'candidate_pairs_unique_up_to_relabeling': 689, 'verified_pairs': 20, 'verified_pairs_passing_all': 20, 'total_seconds': 290.4}
+box-run: done 'q221-pair-search-post' rc=0 waited=53s ran=290s
