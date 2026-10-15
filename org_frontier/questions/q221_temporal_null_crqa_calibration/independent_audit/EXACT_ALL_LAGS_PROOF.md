@@ -49,6 +49,14 @@ If R(P)=R(Q) but B(P)!=B(Q), no deterministic decoder supplied only with the exa
 
 **Crucial limitation:** B(P) intersection B(Q) = {H}. The same node H is a valid correct-node prediction for both. Under q220's tie-aware single-node scoring, predicting singleton {H} scores 1 for either target. Therefore these systems do **not** prove that correct-node selection is impossible or that q220's single-node decoder must fail. They show that exact reconstruction of the *full set of maximizing interventions* is impossible from this restricted population representation.
 
+## Exact consequence for q220's population peak-prominence statistic
+
+The stronger result can be checked directly at q220's original lag window −10..+10. For each unordered node pair, take the exact population lag-match rates, define prominence as the **maximum rate minus the median rate** across these 21 lags (the functional used by q220 stage-2), and include only prominence strictly above 0.05 in coupling centrality.
+
+For P and Q, **all three pairwise population peak prominences are exactly zero**. This is verified by exact Fraction arithmetic in population_q220_peak_prominences() and a regression test. Some profiles have notable *troughs* (anti-matches), but their maximum and median both equal 1/2; the peak-only statistic treats them as no positive-prominence evidence. After thresholding, the population centrality vector is identically zero in both systems and the top-centrality set is all three nodes. The q220 tie-aware score therefore equals the respective set-size chance level: 2/3 for P and 1/3 for Q.
+
+This is a **population-level, candidate-specific diagnostic** of the exact q220 scoring functional, not a claim that all finite-sample prominences are zero or that q220 generally fails on its corpus. The finite-sample standard deviation of empirical rates may produce positive apparent peaks; the recorded trajectory-level scores are therefore separate. Testing negative deviations or alternative coupling statistics would be new exploratory work and would **not** resolve the full-set ambiguity while the input pairwise profiles remain identical.
+
 ## Decision-theoretic consequence depends on the loss
 
 Give P and Q equal prior probability, and suppose the decoder observes only the common **exact population** summary R(P)=R(Q). For zero-one **complete-set** loss (the decoder is correct iff its predicted entire set equals B), any deterministic or randomized decoder has maximum expected exact-set accuracy **1/2**: its input distribution is identical under both systems and their two target sets differ. This is conditional on the pinned PyPhi target record.
