@@ -1,4 +1,4 @@
-# <Title — short noun phrase>
+# Temporal-null calibration and pairwise-recurrence information limits (q221, DRAFT)
 
 <code + data: org_frontier/questions/q221_temporal_null_crqa_calibration/ ; probes #<a>–#<b> in probes/PROBES.md>
 
