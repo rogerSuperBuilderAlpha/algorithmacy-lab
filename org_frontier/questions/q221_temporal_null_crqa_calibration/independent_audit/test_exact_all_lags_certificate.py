@@ -3,7 +3,7 @@ from fractions import Fraction
 from itertools import permutations
 
 from .exact_all_lags_certificate import (
-    LEAD_A, LEAD_B, NOISE, recurrence, tables, transform, transition, reconstruct_rules_from_one_step_marginals
+    LEAD_A, LEAD_B, NOISE, recurrence, tables, transform, transition, reconstruct_rules_from_one_step_marginals, population_q220_peak_prominences
 )
 
 def test_stochastic_and_stationary_exactly():
@@ -36,8 +36,4 @@ def test_one_step_conditional_recovery():
 def test_population_peak_prominence_zero():
     from fractions import Fraction
     for code in (LEAD_A, LEAD_B):
-        assert all(v == Fraction(0) for v in
-                   __import__(
-                       "org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
-                       fromlist=["population_q220_peak_prominences"]
-                   ).population_q220_peak_prominences(transition(code)))
+        assert population_q220_peak_prominences(transition(code)) == (0, 0, 0)
