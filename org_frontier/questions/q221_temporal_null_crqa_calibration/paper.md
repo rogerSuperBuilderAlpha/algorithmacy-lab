@@ -1,6 +1,6 @@
 # Q221 — Pairwise recurrence summaries do not identify the transition law of noisy Boolean networks (exploratory)
 
-**Exploratory methods report — draft for scientific review, 2026-10-15.** This document reports retrospective computational discovery, not a prospectively preregistered or confirmatory hypothesis test. It does not claim a new estimator, a universal impossibility theorem, or indistinguishability from complete trajectories.
+**Draft scientific report, updated 2026-10-15.** The three-node candidate search, q161 bottleneck-target comparison, temporal-null pilots and general theory development are exploratory or exact mathematics. A separate four-node **target-A** classification study was prospectively preregistered (`confirmatory_4node/PREREGISTRATION.md`) and supports specific confirmatory empirical decisions only within that study's fixed synthetic model family and protocol; see `confirmatory_4node/RESULTS.md` and `DEVIATIONS.md`. No confirmatory IIT-specific bottleneck claim, new estimator, universal observational-impossibility theorem, or equivalence of complete trajectories is asserted.
 
 
 ## Headline (revised 2026-10-15; exploratory and provisional)
