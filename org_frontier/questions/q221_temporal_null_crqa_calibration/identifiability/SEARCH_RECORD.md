@@ -259,3 +259,28 @@ Hassan asked for this screen on 2026-10-15, after he showed that the first candi
   uniform.
 - So the result is **information loss of the pairwise (two-point) recurrence representation**, univariate and
   cross. It is not structural non-identifiability from the full trajectory.
+
+## Isomorphism check of Hassan's matched candidate `aff (6,9,5)` vs `aff (11,9,5)` (`iso_check_hassan_pair.py`, `results/iso_check_hassan_pair.txt`)
+
+**Rules.**
+- a: X' = X ⊕ Y; Y' = ¬H; H' = ¬Y.
+- b: X' = ¬(X ⊕ H); Y' = ¬H; H' = ¬Y.
+
+**Shared statistics (exact).** No constant node in either system. All three marginals are 1/2. Self-recurrence
+and cross-recurrence profiles are equal at lags 0..20.
+
+**The isomorphism.**
+- None of the 6 node permutations alone maps a to b.
+- **Two of the 48 maps do.** Swap Y and H and flip the values of Y and H; flipping X as well also works.
+- In closed form: set Y~ = ¬H and H~ = ¬Y in a. Then X' = X ⊕ Y = ¬(X ⊕ H~), Y~' = ¬H~ and H~' = ¬Y~. That is
+  exactly b.
+
+**Verdict: the pair is the same transition system under relabelling. It is not a counterexample.**
+- Its bottleneck sets, {H} vs {Y}, are the *same* target carried through the relabelling: a's H is b's Y~.
+- So the difference is not even a clamp-convention artifact.
+- The exact screen above already excludes this pair at stage S5. It counts among the 180 − 144 = 36 raw S4
+  pairs that are 48-group isomorphic.
+
+The 3 non-isomorphic survivors, with P/Q as the lead, stand as recorded above. Their isomorphism status was
+checked with the same 48-group canonical form (`screen_exact.ext_canon`). For P/Q it was also checked explicitly
+in `rep_verify.txt`.
