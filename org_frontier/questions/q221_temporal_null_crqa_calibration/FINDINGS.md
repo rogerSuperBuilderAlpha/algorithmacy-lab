@@ -82,8 +82,8 @@ A full search for prior work on IIT bottleneck or leave-one-out targets was not 
 - Three nodes; synchronous; two families (`nsi`, GF(2)-affine).
 - The q161 Φ convention is the one used throughout.
 - Single search; single seeds per experiment.
-- The literature review is prospective and only partly full-text verified.
-- The mechanism of the residual-Φ difference was not dissected.
+- The literature review is retrospective and only partly full-text verified; a future confirmatory study would require a separately prospective review and protocol.
+- The residual-Φ mechanism has been illustrated for selected pairs in `identifiability/SEARCH_RECORD.md`; it has not been characterized across all Boolean families.
 
 ## Reproduce
 
