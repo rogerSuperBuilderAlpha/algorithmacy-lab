@@ -1,1 +1,11 @@
 box-run: queued 'q221-cand-marg2' [test, 2000 MB]: all 1 test slot(s) busy
+box-run: queued 'q221-cand-marg2' [test, 2000 MB]: load1 22.48 > 16
+box-run: queued 'q221-cand-marg2' [test, 2000 MB]: load1 20.68 > 16
+box-run: queued 'q221-cand-marg2' [test, 2000 MB]: load1 19.02 > 16
+box-run: queued 'q221-cand-marg2' [test, 2000 MB]: load1 17.50 > 16
+box-run: queued 'q221-cand-marg2' [test, 2000 MB]: load1 16.82 > 16
+box-run: start 'q221-cand-marg2' [test, 2000 MB est, as-cap off MB] after 116s wait
+48-group-unique candidate pairs: 74
+  same single-channel means: 67 ; same auto profiles (lags 1..20): 3 ; both: 3
+  min over pairs of max |mean diff| = 0.0000 ; min over pairs of max |auto diff| = 0.0000
+box-run: done 'q221-cand-marg2' rc=0 waited=116s ran=11s
