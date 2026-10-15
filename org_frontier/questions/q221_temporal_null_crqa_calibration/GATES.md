@@ -1,7 +1,6 @@
 # q221 validation gates (Hassan's mandate, 2026-10-15): status and evidence
 
-Status values: **PASS**, **FAIL**, **BLOCKED**, **NOT RUN**. Every result here is exploratory; no gate licenses
-a confirmatory claim. The manifest is in `MANIFEST.json`, and the full report is in `FINDINGS.md`.
+Status values: **PASS**, **FAIL**, **BLOCKED**, **NOT RUN**. Gates A–H cover the original exploratory Q221 feasibility work; a separate **preregistered four-node target-A study** is documented in `confirmatory_4node/PREREGISTRATION.md`, `RESULTS.md`, and `DEVIATIONS.md` and supports only the decisions under its own fixed protocol. Nothing here makes a q161 IIT-bottleneck claim confirmatory. The manifest is in `MANIFEST.json`, and the full report is in `FINDINGS.md`.
 
 | gate | status | evidence |
 |---|---|---|
@@ -164,7 +163,7 @@ At p = 0.5, every cell lies between 0.032 and 0.056.
 - exploratory search, theory included;
 - finite-sample checks and the structural-prediction pilot;
 - pilot calibration;
-- confirmatory evidence, of which there is none.
+- confirmatory four-node target-A empirical evidence, isolated in `confirmatory_4node/` with its own preregistration and deviations; none for q161 target B or the q220 corpus.
 
 The conclusion is limited to Hassan's defensible wording.
 
