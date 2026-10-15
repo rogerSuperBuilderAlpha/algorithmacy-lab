@@ -28,6 +28,16 @@ Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed
 | **C** IIT quantity | Φ or major complex differ | **Does not survive.** Same major complex {X,H}, same Φ = 2, same per-state φ | `results/rep_verify.txt` |
 | **D** q220 decoder on held-out families | beats chance or baselines | **Not supported.** +0.04 [−0.05, +0.12] on `nsi` and +0.02 [−0.04, +0.08] on `aff`. A plug-in transition-law comparator scores 1.000 | `results/structural_baselines.txt` |
 
+## Minimum non-isomorphic ambiguity size within the invertible affine class (exact, post-hoc)
+
+An independent exhaustive small-system check establishes that **n=3 is minimal for non-isomorphic recurrence-profile ambiguity** within the invertible GF(2)-affine Boolean family with independent flip probability 0<p<1/2, modulo node permutation and per-node bit-value relabeling.
+
+- n=1: 2 systems, 2 exact profile classes, zero collisions.
+- n=2: 24 systems (6 matrices × 4 offsets), 16 exact profile classes, 8 equal-profile pairs, **all eight isomorphic** under the eight permitted transformations.
+- n=3: aff(9,6,10) and aff(9,15,10) form the previously verified non-isomorphic equal-profile witness.
+
+The independent standard-library rational kernel computation, Walsh-signature cross-check, and 2×2^n-lag Cayley–Hamilton finite criterion are documented in independent_audit/MINIMALITY_AFFINE.md and minimality_affine.py, with a new focused regression and registered CI check. This does **not** establish minimum size for q161's convention-dependent IIT bottleneck target or arbitrary non-affine/singular systems. These are post-hoc exact calculations, not new confirmatory empirical results.
+
 ## Preregistered 4-node study of target A (prereg `2ad11e69`; scripts frozen at `89118627` / `11d34a7c`)
 
 - **H1, exact result.** The family F4 is x' = Ax ⊕ c ⊕ noise with A ∈ GL(4,2) and p = 0.08: 322,560 systems

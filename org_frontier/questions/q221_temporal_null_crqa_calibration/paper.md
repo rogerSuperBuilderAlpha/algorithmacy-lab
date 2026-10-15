@@ -1,6 +1,6 @@
 # Q221 — Pairwise recurrence summaries do not identify the transition law of noisy Boolean networks (exploratory)
 
-**Exploratory methods report — draft for scientific review, 2026-10-15.** This document reports retrospective computational discovery, not a prospectively preregistered or confirmatory hypothesis test. It does not claim a new estimator, a universal impossibility theorem, or indistinguishability from complete trajectories.
+**Draft scientific report, updated 2026-10-15.** The three-node candidate search, q161 bottleneck-target comparison, temporal-null pilots and general theory development are exploratory or exact mathematics. A separate four-node **target-A** classification study was prospectively preregistered (`confirmatory_4node/PREREGISTRATION.md`) and supports specific confirmatory empirical decisions only within that study's fixed synthetic model family and protocol; see `confirmatory_4node/RESULTS.md` and `DEVIATIONS.md`. No confirmatory IIT-specific bottleneck claim, new estimator, universal observational-impossibility theorem, or equivalence of complete trajectories is asserted.
 
 
 ## Headline (revised 2026-10-15; exploratory and provisional)
@@ -18,6 +18,8 @@ and cross-match profiles at every lag.
 - The systems are **not** observationally equivalent. The full process law, and the (X,Y) and (Y,H)
   bivariate laws, differ: this was decided exactly for all T (`identifiability/process_law_equivalence.py`).
   The univariate laws and the (X,H) law are equal.
+
+**Minimum-node exact result (post-hoc):** An independent exhaustive audit of all invertible one- and two-node affine models finds no non-isomorphic models with equal population recurrence summaries (n=1: two models/two classes; n=2: 24 models/16 profile classes, eight collisions, all relabelings). Together with the verified three-node witness, **n=3 is the minimum** for this type of ambiguity within the specified invertible GF(2)-affine class for 0<p<1/2. See independent_audit/MINIMALITY_AFFINE.md. This is not IIT bottleneck-target minimality or a general Boolean-network theorem.
 
 **Which statistics recover the difference** (prespecified comparator study, `identifiability/comparators.py`;
 specs in `protocol.md`):

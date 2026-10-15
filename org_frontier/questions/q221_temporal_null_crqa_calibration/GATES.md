@@ -1,7 +1,6 @@
 # q221 validation gates (Hassan's mandate, 2026-10-15): status and evidence
 
-Status values: **PASS**, **FAIL**, **BLOCKED**, **NOT RUN**. Every result here is exploratory; no gate licenses
-a confirmatory claim. The manifest is in `MANIFEST.json`, and the full report is in `FINDINGS.md`.
+Status values: **PASS**, **FAIL**, **BLOCKED**, **NOT RUN**. Gates A–H cover the original exploratory Q221 feasibility work; a separate **preregistered four-node target-A study** is documented in `confirmatory_4node/PREREGISTRATION.md`, `RESULTS.md`, and `DEVIATIONS.md` and supports only the decisions under its own fixed protocol. Nothing here makes a q161 IIT-bottleneck claim confirmatory. The manifest is in `MANIFEST.json`, and the full report is in `FINDINGS.md`.
 
 | gate | status | evidence |
 |---|---|---|
@@ -34,6 +33,10 @@ a confirmatory claim. The manifest is in `MANIFEST.json`, and the full report is
 | G | Each claim is tagged exploratory, pilot, structural or confirmatory. | review `FINDINGS.md` | – | Confirmatory evidence exists only for the preregistered 4-node target-A study (row P4 below); everything else is exploratory. |
 | P4 (4-node target-A study) | Preregistration `2ad11e69` committed and pushed before any study code ran; exact screen with V1/V2; decision rules applied exactly as registered | `python -m ...confirmatory_4node.screen4` (about 10 s); `PYTHONPATH=. /workspace/shrec-venv/bin/python -m ...confirmatory_4node.study4 --part 0 20` / `--part 20 40` / `--combine` (about 8 min) | `test_confirmatory_4node.py`: closed form vs brute force, orbit ids vs direct enumeration, study-pair properties, MdRR trace identity, recomputed decision rules; `Q221_SLOW=1` re-runs the full screen counts | **MET.** H1 exact: 1,872 orbit pairs, V1 300/300, V2 40/40. H2 supported: 0.4999, 90% CI [0.493, 0.507]. H3: C0 separates; R, C5, C3 generally fail; C1 generally separates; C2 and C4 unresolved. Deviations D1–D3 do not affect outcomes. Scope: F4, T = 600 only |
 | H | Tests and validators pass. Checksums and manifest are present. | `pytest org_frontier/questions/q221_temporal_null_crqa_calibration -q` ; `python ci/reproduce.py --changed-file ...` | – | The expensive tier is separate: `Q221_SLOW=1` enables the PyPhi tests in `identifiability/test_invariants_extra.py`. |
+
+### Additional exact minimum-size check (post-hoc)
+
+The independently implemented certificate in independent_audit/minimality_affine.py enumerates **all 2 invertible one-node and 24 invertible two-node affine systems**. The latter form 16 exact recurrence-profile classes with 8 colliding pairs, all isomorphic under the 8-element node/value group. A non-isomorphic witness already exists at n=3. Rational TPM outputs agree with Walsh signatures over enough initial lags for a Cayley–Hamilton all-lag certificate; the result holds for all 0<p<1/2 under the stated family and symmetries. Regression test test_minimality_affine.py and registered check q221-affine-minimality cover the result. **Only statistical-model minimality, not q161 IIT-target minimality, is asserted.**
 
 ## Gate A details
 
@@ -164,7 +167,7 @@ At p = 0.5, every cell lies between 0.032 and 0.056.
 - exploratory search, theory included;
 - finite-sample checks and the structural-prediction pilot;
 - pilot calibration;
-- confirmatory evidence, of which there is none.
+- confirmatory four-node target-A empirical evidence, isolated in `confirmatory_4node/` with its own preregistration and deviations; none for q161 target B or the q220 corpus.
 
 The conclusion is limited to Hassan's defensible wording.
 

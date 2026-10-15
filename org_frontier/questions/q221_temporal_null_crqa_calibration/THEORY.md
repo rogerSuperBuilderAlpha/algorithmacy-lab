@@ -80,12 +80,23 @@ For the lead pair, P(Y_{t+1} = X_t ⊕ Y_t) equals 0.92 under P and 0.5 under Q.
 
 Exact check: all 1344 forms × 8 values of v × 3 values of j agree.
 
+## Proposition 3 (minimum size for non-isomorphic ambiguity)
+
+Within the invertible GF(2)-affine Boolean model class with independent per-node flip probability 0<p<1/2, under the exact labeled stationary categorical auto/cross match-rate representation and modulo **node permutation × independent per-node binary value flip**, the smallest number of nodes admitting non-isomorphic recurrence-equivalent systems is **n=3**.
+
+**Proof by exact enumeration at smaller sizes.** For n=1, the complete invertible affine family contains 2 models and 2 recurrence-profile classes, with no collisions. For n=2, the complete family contains 6 invertible matrices × 4 affine offsets = 24 models. It partitions into 16 exact recurrence-profile classes, with 8 unordered collisions. Every one of those eight pairs is isomorphic under at least one of the 2!×2²=8 allowed relabelings. The independent audit reconstructs each rational transition matrix at p=2/25 and checks all profiles for lags 0..7. Cayley–Hamilton guarantees that 8 initial matches would extend to all positive lags for the 4-state pair; stationarity handles negative lags. The resulting exact profile partition agrees with the closed-form Walsh-character signature partition. The signature's sign and nonnegative exponent are uniquely determined from nonzero deviations (1−2p)^S for every 0<p<1/2, so the size-minimality result holds throughout that interval, not just at p=2/25.
+
+For n=3, the verified aff(9,6,10) and aff(9,15,10) pair has equal recurrence profiles at all lags but no isomorphism among the 6×8 relabelings, completing the minimum-size argument. Executable certificate and focused test: independent_audit/minimality_affine.py, test_minimality_affine.py; derivation and scope: independent_audit/MINIMALITY_AFFINE.md.
+
+This is a **statistical-model minimality result**. It is not a minimum-size theorem for q161's convention-dependent bottleneck-target ambiguity or for arbitrary/singular/non-affine/partially observed systems.
+
 ## What this does and does not establish
 
-**Established, in the class of invertible GF(2)-affine systems with i.i.d. flips, any n:**
-- Pairwise population recurrence summaries do not, in general, identify the transition law.
-- The exact information they retain is the Corollary's data.
-- (|row| + 1)-point statistics restore identifiability.
+**Established for any n (Propositions 1–2):**
+- The exact data retained by pairwise population recurrence summaries are given in the Corollary.
+- (|row| + 1)-point parity statistics suffice to identify the affine transition rule.
+
+**Established non-identifiability and minimality in the specified model class:** non-isomorphic recurrence-equivalent systems exist at n=3 (and the independent n=4 extension). Exhaustive n=1 and n=2 enumeration finds none after permitted relabelings (Proposition 3).
 
 **Finite computational finding (n = 3, q161 convention, pinned PyPhi):**
 - Among the pairwise-equivalence classes, exactly 3 classes contain non-isomorphic eligible systems whose q161
@@ -98,8 +109,7 @@ Exact check: all 1344 forms × 8 values of v × 3 values of j agree.
 - any IIT theorem;
 - finite-sample indistinguishability. Proposition 2 implies finite samples separate these systems, and gate 3
   confirms it.
-- whether 3 nodes is the smallest size at which an eligible target-differing pair exists. Two-node systems
-  were not examined; the search was bounded to n = 3.
+- whether three nodes is the minimum size of an **eligible q161 bottleneck-target-differing** pair. Proposition 3 establishes only the minimum size for non-isomorphic *statistical recurrence ambiguity* in the invertible affine family; no two-node PyPhi-target audit was performed.
 
 **Competing interpretation, stated fairly.** The result may say more about the q161 leave-one-out
 operationalisation than about IIT. In the lead pair, the systems differ only in a node outside the major
