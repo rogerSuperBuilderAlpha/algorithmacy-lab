@@ -42,7 +42,11 @@ and are **not** in `references.bib`. Citation keys are given in brackets.
     lag-k products are formed only over pairs where both times are observed, and normalised by the number of such pairs.
   - Datta & Du (2012) [`datta2012nonparametric`] name two treatments of missing observations: the Amplitude Modulated
     estimator (missing points as non-serially-correlated zeros) and the Equal Spacing estimator, which treats the observed
-    data as equally spaced. Equal Spacing is q220's gap-closing estimator A (verified from the abstract).
+    data as equally spaced. Equal Spacing pairs observations as q220's gap-closing estimator A does (verified from the
+    abstract). Their §2 also separates normalisations: their Amplitude Modulated estimator divides the lag-k sum by the
+    number of observed points, while what they call the Parzen estimator divides by the number of observed lag-k pairs
+    (checked against the IFDP 1060 text in the final audit). B uses the pair-count normalisation, so B corresponds to
+    their "Parzen estimator", not to their "Amplitude Modulated estimator".
   - Both are software defaults: `statsmodels` `acovf(missing='conservative')` and `missing='drop'`, whose documentation
     describes `drop` as treating the non-missing observations as contiguous and cites Parzen 1963 [`statsmodels_acovf`].
   - In astronomy, the discrete correlation function bins pairs by their true time difference (Edelson & Krolik 1988
@@ -54,6 +58,20 @@ and are **not** in `references.bib`. Citation keys are given in brackets.
     RMSE for the lag-1 ACF and 60% lower for the CCF (abstract verified).
   - The spectral counterpart is the Lomb–Scargle periodogram (Lomb 1976 [`lomb1976least`]; Scargle 1982
     [`scargle1982studies`]).
+- **Derivation (conditions: integer time grid; one observation mask shared by both channels).** Let a_t ∈ {0, 1} mark
+  whether row t of the full grid t = 0, …, T − 1 was recorded, and let t_1 < … < t_n be the recorded times. B at lag k
+  averages 1[x_{t_i} = y_{t_j}] over the pairs (i, j) with t_j − t_i = k. Because the t_i are distinct integers, the map
+  (i, j) ↦ t_i is a bijection from those pairs onto {t : a_t a_{t+k} = 1}. Hence B's pair count is N_k = Σ_t a_t a_{t+k}
+  and B_k = Σ_t a_t a_{t+k} 1[x_t = y_{t+k}] / N_k. That is Parzen's estimator for the amplitude-modulated series
+  (lag-k sum over jointly observed pairs, divided by their number) with the kernel 1[x_t = y_{t+k}] in place of x_t y_{t+k}.
+  Writing 1[x = y] = Σ_s 1[x = s] 1[y = s] turns B_k into a sum, over states s, of non-demeaned Parzen cross-moments of
+  the state indicators; for x = y this is `acovf(missing='conservative', demean=False, adjusted=True)` summed over s. On
+  integer times, t_j − t_i ∈ [k − ½, k + ½) iff t_j − t_i = k, so the unit-bin DCF bin is exactly B's pair set, and the DCF
+  average with the match kernel replacing Edelson & Krolik's standardized product (a_i − ā)(b_j − b̄)/(σ_a σ_b) is B_k.
+  Gap-closing (A) instead pairs observations i and i + k, whose true separation t_{i+k} − t_i is ≥ k and equals k only
+  when no row between them is missing. Outside these conditions (non-integer timestamps, channel-specific masks with
+  wider bins, or the standardized DCF kernel) the identity is not claimed. Missingness at random is needed for B to be an
+  unbiased subsample of the clean pairs, not for the identity.
 - **The identity was checked numerically, twice and independently.** The external review checked that q220's timestamp
   lag profile (`stage2/observe.py`, timestamp mode) equals Parzen's amplitude-modulated form with a match indicator at all
   21 lags. The post-merge audit re-checked it with its own code on 200 random masked categorical pairs (MAR 0.1/0.3/0.5,
@@ -124,7 +142,7 @@ and are **not** in `references.bib`. Citation keys are given in brackets.
 
 | element | status in the literature | q220's contribution |
 |---|---|---|
-| Estimator B (pair at the true lag, never bridge) | **Established**: Parzen 1963 amplitude-modulated estimator; Edelson–Krolik DCF with unit bins; `statsmodels` `conservative` | None as a method. q220 applies it to a categorical match rate |
+| Estimator B (pair at the true lag, never bridge) | **Established**: Parzen 1963 estimator for amplitude-modulated series (pair-count normalisation); Edelson–Krolik DCF binning with unit bins; `statsmodels` `conservative` (univariate) | None as a method. q220 applies it to a categorical match rate |
 | Estimator A (concatenate) and its wrong-lag pairing | **Established** as "equal spacing" / `drop`; wrong-lag share analytic under MAR | Numerical confirmation only |
 | Segment-only pooling (C) losing long-lag support | Follows from segment-length counting; no dedicated source found | Descriptive |
 | Robustness benchmark with known ground truth under degraded sampling | **Established** design (Rehfeld et al. 2011; Shockley et al. 2002) | Design applied in a new setting |

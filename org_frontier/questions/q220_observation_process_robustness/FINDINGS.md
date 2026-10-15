@@ -1,4 +1,4 @@
-# q220 — On curated forms, pairing samples at their true lags (a classical estimator) matches clean CRQA after random loss; its edge over gap-closing is fragile and not shown on random forms
+# q220 — Classical true-lag pairing recovers clean CRQA after random loss on curated forms; its edge over gap-closing is fragile and not shown on random forms
 
 ## Contribution
 
@@ -16,12 +16,17 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 | 6 | The triadic/dyadic classifier shows no evidence of signal before any corruption. | descriptive (stage-1 audit); the explanation offered is exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1, 16 forms), 0.19 (R2, 30 forms), no intervals |
 | 7 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs; whole-row missingness at random on an integer time grid. | scope | nothing here is evidence about a real organisation |
 
-**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart and
-never bridges a gap. It is Parzen's (1963) amplitude-modulated estimator applied to a categorical match rate, the
-Edelson & Krolik (1988) discrete correlation function with unit lag bins, and `statsmodels`' `missing='conservative'`;
-gap-closing (A) is the "equal spacing" treatment (Datta & Du 2012), `statsmodels`' `missing='drop'`. The identity was
-checked numerically (`stage2/test_estimator_identity.py`; `literature/deep_research_report.md` §2). "Timestamp-aware lag
-matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
+**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart, never
+bridges a gap, and divides by the number of such pairs. On an integer time grid with one observation mask shared by
+both channels (whole-row missingness), that is Parzen's (1963) estimator for amplitude-modulated series with the
+categorical match 1[x_t = y_{t+k}] in place of the product x_t y_{t+k}; equivalently, the Edelson & Krolik (1988)
+discrete correlation function with unit lag bins and the same match in place of its standardized product; for a single
+channel, summed over state indicators, it is `statsmodels`' `acovf(missing='conservative', adjusted=True)`. Gap-closing
+(A) pairs the observed rows as if equally spaced: the "equal spacing" treatment (Datta & Du 2012), `statsmodels`'
+`missing='drop'`. (Datta & Du's own "amplitude modulated" estimator uses B's pairs but divides by the number of observed
+points, so it is not B.) The identity is derived in `literature/deep_research_report.md` §2 and checked against
+independent implementations in `stage2/test_estimator_identity.py`; it is claimed only under these conditions.
+"Timestamp-aware lag matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
 of the two estimators in the CRQA-to-Φ setting. The practical rule it supports ("do not concatenate across gaps; pair
 at recorded time differences") is consistent with established practice and was tested only on integer time grids with
 whole-row missingness at random; kernel, interpolation and edit-distance alternatives were not compared.
@@ -42,6 +47,18 @@ the correction is stated below.
 Scope throughout: exact IIT-4.0 Φ on small synthetic Boolean forms, stochastic runs of those forms, and categorical CRQA
 read from the runs. "Bottleneck" (BN) is the leave-one-node-out Φ articulation set B. "Agreement" means the CRQA
 coupling-centrality pick lands in B. Nothing here measures an organisation.
+
+**Five kinds of evidence, kept apart.**
+
+| category | what belongs here | where |
+|---|---|---|
+| Preregistered tests | stage-1 H0–H5 and stage-2 S2-H1…S2-H8, with the verdicts the runs printed (unchanged) | `results/q220_stdout.txt`, `stage2/results/stage2_stdout.txt` |
+| Original executed analyses | the pre-merge audit of stage 1, the preregistered descriptive and sensitivity analyses, and the pre-review margin/Bonferroni reanalysis | `stage2/AUDIT.md`, `stage2/results/audit_original.txt`, `stage2/results/margin_audit.txt` |
+| Retrospective sensitivity analyses | post-merge, from the committed table only: interval method and Bonferroni Monte Carlo stability | `stage2/stats_sensitivity.py`, `stage2/bonferroni_mc_stability.py` and their outputs |
+| Post-hoc reproducibility checks | the two CI entries that pin those scripts' outputs (`q220-stage2-posthoc-interval-sensitivity`, `q220-stage2-posthoc-bonferroni-mc-stability`); they check that the numbers regenerate, not that they are right | `ci/reproduce.json` |
+| Exploratory findings | TD diagnosis and every mechanism explanation; no verdicts | `stage2/explore_td.py`, `stage2/results/explore_td.txt` |
+
+The literature review and the estimator identity are context, not evidence for any verdict.
 
 ## 1. What the original run observed (stage 1)
 
@@ -97,7 +114,7 @@ bootstrap 95% CIs.
   - Clean BN: 0.785 [0.581, 0.958] against a chance level of 0.556. The gain is +0.230 [+0.078, +0.358] (S2-H7a CONFIRMED).
   - Clean BN against its matched shuffled null: +0.239 [+0.083, +0.372] (S2-H7b CONFIRMED). S2-H7b is not independent of
     S2-H7a: the null run has no evidence in 74.2% of runs and then scores |B|/n by construction, and the per-form signs
-    (+9/−3) are the same, so the "5 confirmed" tally counts dependent tests.
+    (+9/−3) are the same, so the tally of confirmed tests (6 as run, 5 under the margin reading) counts dependent tests.
   - Gap-closed MAR 0.3: 0.583, a gain over chance of +0.028 [−0.131, +0.174]. CLEAN − A = +0.202 [+0.008, +0.421].
 - **The new code reproduces stage 1 exactly.** On the original seeds (S0) it matches all 1920 original per-run BN hits for
   clean and gap-closed runs.
@@ -133,6 +150,16 @@ are reported.
   the basic bootstrap (−0.008 to −0.004) and a t interval on the 12 form means (−0.024) do not. Under those two methods
   S2-H1 would be INCONCLUSIVE even under the executed rule. The sign test on forms is p = 0.375. This analysis was done
   after the results were known and does not change the recorded verdict.
+
+**S2-H1 in five parts.**
+
+| | |
+|---|---|
+| 1. Historical verdict | **CONFIRMED**, as printed by the single preregistered run under `decision.superiority` (point ≥ 0.10 and 95% lower bound > 0). The preregistration lists S2-H1 as "superiority, margin 0.10" and refers its three-way verdicts to `decision.py`, where this rule was committed (`996be257`) 34 s before the preregistration (`48e479f4`). The preregistration's sentence "beats gap-closing by ≥ 0.10" reads more naturally as the strict rule, so CONFIRMED is the verdict of the executed, pre-committed rule, not the only reasonable reading of the text. It stands unchanged. |
+| 2. Evidence | B − A = +0.204 [+0.015, +0.417]. Strict margin reading (lower bound ≥ 0.10): INCONCLUSIVE. Bonferroni over the 10 tests (99.5%): [−0.052, +0.513], does not exclude 0. 95% lower bound positive under the percentile and BCa bootstraps, negative under the basic bootstrap and a t interval on form means. Four of 12 forms carry the effect (+0.85, +0.80, +0.60, +0.40; one −0.20; seven exactly 0); sign test p = 0.375. |
+| 3. Sensitivity to analytic choice | The sign of the lower bound depends on the interval method and the multiplicity convention; the effect vanishes at `MAX_LAG = 5` (−0.019 [−0.119, +0.108]); it keeps its sign at flip 0.05 and 0.12. Everything in this row except `MAX_LAG` and flip (preregistered sensitivity) is post-hoc. |
+| 4. Generalizability | The 12 forms are the ones that generated the hypothesis; only the seeds are fresh. On 30 independent forms B − A is −0.007 [−0.082, +0.078] (S2-H6a INCONCLUSIVE). More bootstrap resamples only sharpen the Monte Carlo estimate of a bound computed from the same 12 forms; they add no independent forms. |
+| 5. What can and cannot be concluded | Can: on these curated forms, gap-closing scored lower than true-lag pairing in the run, and the information-loss account fails its own criterion. Cannot: that the penalty is ≥ 0.10, that it survives multiplicity correction or a change of interval method, that it holds for forms outside this corpus, or that the mechanism is established. CONFIRMED here must not be read as robust across inference methods. |
 
 The supported statement is narrow. On these curated forms, and only under the executed (lenient) rule with the
 percentile interval, the preregistered interpretation rule reads the result as distortion from concatenation rather

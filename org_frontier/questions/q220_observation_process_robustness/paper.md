@@ -18,12 +18,17 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 | 6 | The triadic/dyadic classifier shows no evidence of signal before any corruption. | descriptive (stage-1 audit); the explanation offered is exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1, 16 forms), 0.19 (R2, 30 forms), no intervals |
 | 7 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs; whole-row missingness at random on an integer time grid. | scope | nothing here is evidence about a real organisation |
 
-**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart and
-never bridges a gap. It is Parzen's (1963) amplitude-modulated estimator applied to a categorical match rate, the
-Edelson & Krolik (1988) discrete correlation function with unit lag bins, and `statsmodels`' `missing='conservative'`;
-gap-closing (A) is the "equal spacing" treatment (Datta & Du 2012), `statsmodels`' `missing='drop'`. The identity was
-checked numerically (`stage2/test_estimator_identity.py`; `literature/deep_research_report.md` §2). "Timestamp-aware lag
-matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
+**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart, never
+bridges a gap, and divides by the number of such pairs. On an integer time grid with one observation mask shared by
+both channels (whole-row missingness), that is Parzen's (1963) estimator for amplitude-modulated series with the
+categorical match 1[x_t = y_{t+k}] in place of the product x_t y_{t+k}; equivalently, the Edelson & Krolik (1988)
+discrete correlation function with unit lag bins and the same match in place of its standardized product; for a single
+channel, summed over state indicators, it is `statsmodels`' `acovf(missing='conservative', adjusted=True)`. Gap-closing
+(A) pairs the observed rows as if equally spaced: the "equal spacing" treatment (Datta & Du 2012), `statsmodels`'
+`missing='drop'`. (Datta & Du's own "amplitude modulated" estimator uses B's pairs but divides by the number of observed
+points, so it is not B.) The identity is derived in `literature/deep_research_report.md` §2 and checked against
+independent implementations in `stage2/test_estimator_identity.py`; it is claimed only under these conditions.
+"Timestamp-aware lag matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
 of the two estimators in the CRQA-to-Φ setting. The practical rule it supports ("do not concatenate across gaps; pair
 at recorded time differences") is consistent with established practice and was tested only on integer time grids with
 whole-row missingness at random; kernel, interpolation and edit-distance alternatives were not compared.
@@ -43,7 +48,8 @@ An audit then found three problems with the original analysis:
 - the triadic/dyadic decoder had no signal on clean data, so its hypotheses could not be informative.
 
 A second, separately preregistered stage compared the gap-closing estimator (A) with the classical pairwise-available
-estimator (B: Parzen's amplitude-modulated estimator, equivalently a unit-bin discrete correlation function) on fresh
+estimator (B: Parzen's 1963 estimator for series with missing values, equivalently a unit-bin discrete correlation
+function, on the integer time grid used here; not a new method) on fresh
 seeds of the same curated forms and on 30 independently drawn forms.
 - **Curated corpus.** B reproduces the clean CRQA reading: CLEAN − B = −0.002 [−0.058, +0.052], as expected when loss is
   completely at random, and a length-matched contiguous control loses nothing. B's advantage over gap-closing is
@@ -62,6 +68,13 @@ seeds of the same curated forms and on 30 independently drawn forms.
 - **Triadic/dyadic.** The decoder shows no signal on clean data, and refitting its threshold does not help. Exploratory
   analysis suggests that coupling breadth does not track Φ integration; that explanation is exploratory (16 and 30 forms,
   no intervals) and untested.
+- **Baselines and multiplicity.** On the curated forms the clean pick and B beat size-adjusted chance at 95% (S2-H7a,
+  S2-H7b, S2-H8). Under a Bonferroni correction these margins are fragile: about +0.003 (H7a/H7b) and +0.02 (H8) under
+  the percentile bootstrap, and negative under BCa and t intervals. The interval-method checks were added after the
+  results were known (post-hoc) and change no recorded verdict.
+- **Limits.** Synthetic 3–5-node forms only; whole-row missingness at random on an integer grid; the matched shuffle
+  null removes autocorrelation on some forms (an autocorrelation-preserving null is future work); the literature review
+  is retrospective and did not inform the design.
 
 ## Introduction
 
@@ -89,11 +102,12 @@ their states recur (Zbilut et al. 1998; Marwan & Kurths 2002; Marwan et al. 2007
 turns this into a lead–lag read-out and is standard in interpersonal-coordination research (Shockley et al. 2003;
 Richardson & Dale 2005). Its categorical form, used here, follows Coco & Dale (2014), building on Webber & Zbilut (1994).
 
-The estimator labelled B in stage 2 pairs observations only at their true time difference and never bridges a gap. It is
-the amplitude-modulated estimator of Parzen (1963) applied to a categorical match rate. It is also the discrete correlation
-function of Edelson & Krolik (1988) with unit lag bins, and `missing='conservative'` in `statsmodels` (statsmodels
-developers 2026). Estimator A, which concatenates the observed rows, is the "equal spacing" treatment (Datta & Du 2012),
-`missing='drop'`. Under missingness completely at random (Rubin 1976), B's pairs are a random subsample of the
+The estimator labelled B in stage 2 pairs observations only at their true time difference and never bridges a gap. On an
+integer time grid with a shared observation mask it is Parzen's (1963) estimator for amplitude-modulated series
+(normalised by the number of observed lag-k pairs), with a categorical match in place of the product. It is also the
+discrete correlation function of Edelson & Krolik (1988) with unit lag bins and the same match, and, for one channel,
+`acovf(missing='conservative', adjusted=True)` in `statsmodels` (statsmodels developers 2026). Estimator A, which
+concatenates the observed rows, is the "equal spacing" treatment (Datta & Du 2012), `missing='drop'`. Under missingness completely at random (Rubin 1976), B's pairs are a random subsample of the
 complete-data pairs, and A pairs a fraction 1 − (1 − m)^k of index-lag-k samples at the wrong true lag. Kernel and
 interpolation alternatives for irregular sampling (Rehfeld et al. 2011) and edit-distance recurrence for irregular records
 (Ozken et al. 2015, 2018) were not compared here.
@@ -253,7 +267,7 @@ misranks them on the forms whose bottleneck shows up mainly in lagged coupling. 
 (S2-H1) is weak: lenient-rule only, method-dependent and concentrated in four forms. Splitting into segments throws away
 most long-lag pairs.
 
-Two results limit how far this carries.
+Three results limit how far this carries.
 - The effect is concentrated in four or five forms. On 30 random forms it is not detected, but that test is
   inconclusive: it is not evidence that gap-closing is harmless there.
 - Its size is imprecise. The CI includes penalties below the 0.10 margin, it does not survive a Bonferroni correction,
@@ -265,6 +279,22 @@ The practical rule these results are consistent with is established practice for
 not concatenate across gaps; compute lag statistics from pairs at their recorded time differences; report the pair counts.
 It was tested here only on integer time grids with whole-row missingness at random. That CRQA recovers Φ structure from
 behaviour has not been shown beyond the curated corpus.
+
+## Conclusion
+
+- **Historical record.** The preregistered verdicts stand as printed: stage 1 H0 confirmed, H1–H4 refuted, H5 confirmed
+  under the rule as run; stage 2 six CONFIRMED as run (S2-H1, S2-H2, S2-H3, S2-H7a, S2-H7b, S2-H8; H7b largely restates
+  H7a) and four INCONCLUSIVE (S2-H4, S2-H5, S2-H6a, S2-H6b). Under the strict margin reading S2-H1 is INCONCLUSIVE (5/5).
+- **What holds.** On the curated forms, the classical true-lag estimator reproduces clean CRQA after 30% random loss
+  (S2-H2), robustly across interval methods and under Bonferroni, as expected under missingness completely at random.
+- **What is fragile.** B's advantage over gap-closing (S2-H1) is CONFIRMED only under the executed lenient rule; it is
+  INCONCLUSIVE under the strict margin reading, does not survive Bonferroni, depends on the interval method and on
+  `MAX_LAG`, and comes from four forms. The baseline margins (S2-H7a/b, S2-H8) are fragile under Bonferroni.
+- **What is not shown.** Any effect on independently drawn forms (inconclusive), a material (≥ 0.10) gap-closing
+  penalty, the mechanism, any new estimator, and anything about real organisations.
+- **Limitations that bound every claim:** 12 curated and 30 random synthetic forms; whole-row MAR on an integer grid; a
+  shuffle null that removes autocorrelation on some forms; post-hoc sensitivity analyses; a retrospective literature
+  review.
 
 ## Limitations
 

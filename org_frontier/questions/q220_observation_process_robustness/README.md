@@ -26,12 +26,17 @@ recovers the exact-Φ bottleneck. The claims, each with its evidential status:
 | 6 | The triadic/dyadic classifier shows no evidence of signal before any corruption. | descriptive (stage-1 audit); the explanation offered is exploratory (stage 2) | clean 0.500 vs majority class 0.5625; spread AUC 0.62 (R1, 16 forms), 0.19 (R2, 30 forms), no intervals |
 | 7 | Scope: Φ structure of synthetic forms, simulated runs of them, and CRQA read from those runs; whole-row missingness at random on an integer time grid. | scope | nothing here is evidence about a real organisation |
 
-**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart and
-never bridges a gap. It is Parzen's (1963) amplitude-modulated estimator applied to a categorical match rate, the
-Edelson & Krolik (1988) discrete correlation function with unit lag bins, and `statsmodels`' `missing='conservative'`;
-gap-closing (A) is the "equal spacing" treatment (Datta & Du 2012), `statsmodels`' `missing='drop'`. The identity was
-checked numerically (`stage2/test_estimator_identity.py`; `literature/deep_research_report.md` §2). "Timestamp-aware lag
-matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
+**Estimator B is not new.** B forms lag-k recurrence only from observations exactly k recorded time steps apart, never
+bridges a gap, and divides by the number of such pairs. On an integer time grid with one observation mask shared by
+both channels (whole-row missingness), that is Parzen's (1963) estimator for amplitude-modulated series with the
+categorical match 1[x_t = y_{t+k}] in place of the product x_t y_{t+k}; equivalently, the Edelson & Krolik (1988)
+discrete correlation function with unit lag bins and the same match in place of its standardized product; for a single
+channel, summed over state indicators, it is `statsmodels`' `acovf(missing='conservative', adjusted=True)`. Gap-closing
+(A) pairs the observed rows as if equally spaced: the "equal spacing" treatment (Datta & Du 2012), `statsmodels`'
+`missing='drop'`. (Datta & Du's own "amplitude modulated" estimator uses B's pairs but divides by the number of observed
+points, so it is not B.) The identity is derived in `literature/deep_research_report.md` §2 and checked against
+independent implementations in `stage2/test_estimator_identity.py`; it is claimed only under these conditions.
+"Timestamp-aware lag matching" is only this study's label for it. q220 claims no new method: its contribution is the controlled evaluation
 of the two estimators in the CRQA-to-Φ setting. The practical rule it supports ("do not concatenate across gaps; pair
 at recorded time differences") is consistent with established practice and was tested only on integer time grids with
 whole-row missingness at random; kernel, interpolation and edit-distance alternatives were not compared.
@@ -59,6 +64,9 @@ The six stages of [`RESEARCH_PROTOCOL.md`](../../protocol/RESEARCH_PROTOCOL.md) 
 | pre-review audit | — (reanalysis of the committed stage-2 run) | S2-H1 under the executed rule and the margin reading; Bonferroni sensitivity over the 10 tests | `stage2/margin_audit.py`, `stage2/results/margin_audit.txt` |
 | exploratory | none (labelled exploratory) | TD diagnosis, held-out-by-form threshold refit | `stage2/results/explore_td.txt` |
 | post-hoc sensitivity (post-merge) | none (post-hoc, from an independent review after the results were known) | interval method (percentile, basic, BCa, form-only, t, run-level) for every confirmatory contrast; Monte Carlo stability of the Bonferroni bounds | `stage2/stats_sensitivity.py`, `stage2/bonferroni_mc_stability.py`, `stage2/results/stats_sensitivity.txt`, `stage2/results/bonferroni_mc_stability.txt` |
+
+FINDINGS.md lists five kinds of evidence separately: preregistered tests, original executed analyses, retrospective
+(post-merge) sensitivity analyses, post-hoc reproducibility checks in `ci/reproduce.json`, and exploratory findings.
 
 ## Reproduce
 
