@@ -170,7 +170,6 @@ def test_validate_times_rejects_bad_input():
 
 def test_deterministic_replay():
     T = _traj(3)
-    t = np.arange(T.shape[0])
     target = np.full(21, 200)
     r1 = ob.thinned_profile(T[:, 0], T[:, 1], 10, target, np.random.default_rng(30_000))
     r2 = ob.thinned_profile(T[:, 0], T[:, 1], 10, target, np.random.default_rng(30_000))
