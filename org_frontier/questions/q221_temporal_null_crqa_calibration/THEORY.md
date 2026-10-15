@@ -1,5 +1,7 @@
 # Q221 theory: what pairwise recurrence statistics retain in the GF(2)-affine class
 
+> **Target audit (2026-10-15, `TARGET_AUDIT.md`).** The q161 bottleneck-target differences reported here exist only under q161's rule-freeze convention: the frozen node is kept as a perturbed element with its edges retained. Under an IIT background-condition reading, P and Q (and the third survivor pair) have the same target {X,H}; in the second pair, one target becomes ineligible. Major complex and Φ never differ. Pairwise **statistical** non-identifiability (target A) is unaffected.
+
 **Status.** Propositions 1 and 2 are **proved**: elementary Walsh–Fourier arguments, given below. They are
 also checked exactly, in rational arithmetic, on all 1344 invertible three-node affine forms
 (`identifiability/affine_theory.py`, output in `results/affine_theory.txt`).

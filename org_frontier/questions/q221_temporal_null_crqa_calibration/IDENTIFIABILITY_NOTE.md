@@ -1,5 +1,7 @@
 # q221 identifiability note: pairwise recurrence vs XOR dynamics (DRAFT, provisional)
 
+> **Target audit (2026-10-15, `TARGET_AUDIT.md`).** The q161 bottleneck-target differences reported here exist only under q161's rule-freeze convention: the frozen node is kept as a perturbed element with its edges retained. Under an IIT background-condition reading, P and Q (and the third survivor pair) have the same target {X,H}; in the second pair, one target becomes ineligible. Major complex and Φ never differ. Pairwise **statistical** non-identifiability (target A) is unaffected.
+
 **Status.** DRAFT. Findings are provisional. Nothing here is preregistered or confirmatory, and none of it is
 an IIT-specific claim. The exact-Φ gate follows the pre-specified rules in
 [`EXACT_PHI_DECISION_RULES.md`](EXACT_PHI_DECISION_RULES.md). The rules were committed in `82b3d80c`, and the

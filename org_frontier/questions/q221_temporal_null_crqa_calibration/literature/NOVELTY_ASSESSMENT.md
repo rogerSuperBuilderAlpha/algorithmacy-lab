@@ -1,5 +1,7 @@
 # q221 novelty assessment (gate 4), anchored on the lab's recurrence review
 
+> **Target audit (2026-10-15, `TARGET_AUDIT.md`).** The q161 bottleneck-target differences reported here exist only under q161's rule-freeze convention: the frozen node is kept as a perturbed element with its edges retained. Under an IIT background-condition reading, P and Q (and the third survivor pair) have the same target {X,H}; in the second pair, one target becomes ineligible. Major complex and Φ never differ. Pairwise **statistical** non-identifiability (target A) is unaffected.
+
 **Anchor.** `org_frontier/research/recurrence/REVIEW.md` on `main`. That review assembled its sources on
 2026-06-23 and kept only works whose DOI or arXiv id was confirmed. Its DOIs are taken from
 `org_frontier/research/recurrence/literature/references.bib`. Where this note relies on a specific *claim*

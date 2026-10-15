@@ -10,6 +10,34 @@ Draft PR #842. No merge requested. Gate status: [`GATES.md`](GATES.md). Detailed
 - **Not claimed:** that q220 fails.
 - **Not claimed:** an IIT theorem.
 
+## Targets A–D: which survived
+
+| target | claim | status | evidence |
+|---|---|---|---|
+| **A** statistical identifiability | R(P) = R(Q) with P ≠ Q | **Survives. Proved** for invertible GF(2)-affine systems; 3 non-isomorphic classes found among 3-node systems | `THEORY.md`, `results/screen_exact.txt` |
+| **B** structural target | q161 B(P) ≠ B(Q) | **Survives only under the q161 freeze convention.** Under an IIT background-condition reading, no survivor pair has two distinct eligible targets | `TARGET_AUDIT.md`, `results/target_variants.txt` |
+| **C** IIT quantity | Φ or major complex differ | **Does not survive.** Same major complex {X,H}, same Φ = 2, same per-state φ | `results/rep_verify.txt` |
+| **D** q220 decoder on held-out families | beats chance or baselines | **Not supported.** +0.04 [−0.05, +0.12] on `nsi` and +0.02 [−0.04, +0.08] on `aff`. A plug-in transition-law comparator scores 1.000 | `results/structural_baselines.txt` |
+
+## The three equalities, for the lead pair P/Q
+
+1. **The declared recurrence observable.**
+   - Observable: r_ij(k) = P(x_i(t) = x_j(t+k)), for all ordered (i,j) with i = j included (auto-profiles),
+     lags k = 0..40 in both directions (negative lags are the reversed pair). Marginals are included too.
+   - Result: **exactly equal**, and equal at every lag by the linear-recurrence argument and Proposition 1.
+   - Relation to q220: q220's implemented statistic is the *empirical* estimator of the cross part of this
+     observable, followed by the nonlinear peak−median transform. q220's chain starts from the uniform law,
+     which is stationary for invertible A, so the estimator's expectation equals r_ij(k) exactly. Equality of
+     the expectations does **not** imply equality of the prominence distributions.
+2. **The full observed process law L(X_{0:T}).**
+   - **Not equal** (`results/process_law_equivalence.txt`; exact decision for all T by the
+     Tzeng/Schützenberger span algorithm).
+   - The univariate laws of X, Y and H are equal.
+   - The bivariate laws of (X,H) are equal; those of (X,Y) and (Y,H) differ.
+   - So the systems are **not** observationally indistinguishable, even from a single pair of channels.
+3. **Identity under an explicit bijection.** **Not equal**: no node permutation × value relabelling maps P to Q
+   (48-group check).
+
 The evidence falls into four categories, kept strictly separate below.
 
 ## 0. Theory (proved; `THEORY.md`)
@@ -33,7 +61,7 @@ These results hold for invertible GF(2)-affine systems with i.i.d. flips, for an
 | Bounded search (rule 3) | Completed 2823/2823 groups in 290 s of the 1800 s budget. 7488 candidate pairs, 74 unique up to perm × value flip. | `identifiability/SEARCH_RECORD.md` |
 | Exact screen, all 7488 pairs | 7488 → 6816 (no constant node) → 6432 (+ equal marginals) → 180 (+ equal self-recurrence, lags 0..20) → 180 (+ exact cross-recurrence) → **144 raw / 24 node-perm-unique / 3 unique up to the 48-group, not isomorphic**. All GF(2)-affine; none in the R2 family. | `identifiability/results/screen_exact.txt` |
 | Hassan's matched candidate aff(6,9,5) vs aff(11,9,5) | **Isomorphic**: swap Y and H, and flip the values of Y and H. Its B sets {H}/{Y} are the same target relabelled. Not a counterexample. | `identifiability/results/iso_check_hassan_pair.txt` |
-| Lead survivor P = aff(9,6,10), Q = aff(9,15,10) (pinned PyPhi) | Major complex {X,H}, Φ = 2 in both, with identical per-state φ for every subset. q161 B: {X,H} vs {H}. Same under clamp 0 and clamp 1. Tie gap 1.0; B margin ≥ 1; both eligible. Marginals and self- and cross-recurrence exactly equal at lags 0..40, hence at every lag. Not 48-group isomorphic. | `identifiability/results/rep_verify.txt` |
+| Lead survivor P = aff(9,6,10), Q = aff(9,15,10) (pinned PyPhi) | Major complex {X,H}, Φ = 2 in both, with identical per-state φ for every subset. q161 B: {X,H} vs {H}. Same under clamp 0 and clamp 1. **Equal ({X,H}) under the background-condition variant** (`TARGET_AUDIT.md`). Tie gap 1.0; B margin ≥ 1; both eligible. Marginals and self- and cross-recurrence exactly equal at lags 0..40, hence at every lag. Not 48-group isomorphic. | `identifiability/results/rep_verify.txt` |
 
 The search is exploratory. Its 3 survivors are examples, not a characterisation. They have not been validated
 under a locked protocol.

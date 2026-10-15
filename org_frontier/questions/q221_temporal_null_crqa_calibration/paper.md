@@ -1,5 +1,7 @@
 # Temporal-null calibration and pairwise-recurrence information limits (q221, DRAFT)
 
+> **Target audit (2026-10-15, `TARGET_AUDIT.md`).** The q161 bottleneck-target differences reported here exist only under q161's rule-freeze convention: the frozen node is kept as a perturbed element with its edges retained. Under an IIT background-condition reading, P and Q (and the third survivor pair) have the same target {X,H}; in the second pair, one target becomes ineligible. Major complex and Φ never differ. Pairwise **statistical** non-identifiability (target A) is unaffected.
+
 Code and data: `org_frontier/questions/q221_temporal_null_crqa_calibration/`. Status: draft, exploratory, not
 preregistered. The full record is in `FINDINGS.md` and `GATES.md`.
 
@@ -12,7 +14,8 @@ against a shuffle null. Q221 asked two questions about that design.
 an exact screen, found **3** classes of non-isomorphic systems whose marginals, self-recurrence and
 cross-recurrence profiles are equal in population at every lag. Their transition laws still differ.
 - In the lead pair, the major complex and Φ are identical, but the q161 leave-one-out bottleneck set differs
-  ({X,H} vs {H}).
+  ({X,H} vs {H}), but only under q161's rule-freeze convention. Under an IIT background-condition reading, the
+  targets are equal (`TARGET_AUDIT.md`).
 - The difference enters through a node outside the major complex.
 - Transition counts separate the systems perfectly from finite data. So the result is an information limit
   of the pairwise population representation, not finite-sample indistinguishability, not a failure of q220,

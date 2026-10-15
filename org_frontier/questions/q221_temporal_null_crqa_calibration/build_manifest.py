@@ -59,30 +59,67 @@ EXPERIMENTS = [
          spec_commit="6ad206a3", seeds="2215001", results=["identifiability/results/null_extension.txt", "identifiability/results/null_extension.json"]),
     dict(name="variant_reconciliation", category="exploratory search", script="identifiability/variants_abc.py",
          seeds="none", results=["identifiability/results/variants_abc.txt"]),
+    dict(name="process_law_equivalence", category="theory (exact decision, equality 2)",
+         script="identifiability/process_law_equivalence.py", seeds="none",
+         results=["identifiability/results/process_law_equivalence.txt"]),
+    dict(name="target_audit_q161", category="target audit (step 11)", script="identifiability/target_audit.py",
+         seeds="none", results=["identifiability/results/target_audit.txt"]),
+    dict(name="target_variants_background_condition", category="target audit (step 11)",
+         script="identifiability/target_variants.py", seeds="none", results=["identifiability/results/target_variants.txt"]),
+    dict(name="edge_removal_check", category="target audit (step 11)", script="identifiability/edge_removal_check.py",
+         seeds="none", results=["identifiability/results/edge_removal_check.txt"]),
+    dict(name="q220_intermediates", category="finite-sample check (exploratory)", script="identifiability/q220_intermediates.py",
+         seeds="trajectory default_rng(43000..43004)", results=["identifiability/results/q220_intermediates.json"]),
 ]
+TESTS = ["identifiability/test_invariants.py", "identifiability/test_invariants_extra.py (expensive tier: Q221_SLOW=1)",
+         "identifiability/test_q220_regression.py"]
 
 CANDIDATES = [
-    dict(id="A/B/C (A_self, B_xor, B_xor_memory)", status="rejected", reason="q161 targets ineligible (empty B) - rule 1"),
-    dict(id="nsi(0,3,3) vs aff(6,9,5)", status="rejected", reason="constant node X'=0; X marginal 2/25 vs 1/2"),
-    dict(id="aff(6,9,5) vs aff(11,9,5)", status="rejected", reason="isomorphic: swap Y,H + flip Y,H values (48-group)"),
+    dict(id="A/B/C (A_self, B_xor, B_xor_memory)", status="rejected", reason="q161 targets ineligible (empty B) - rule 1", facts="see variants_abc.txt"),
+    dict(id="nsi(0,3,3) vs aff(6,9,5)", status="rejected", reason="constant node X'=0; X marginal 2/25 vs 1/2", facts="preserved as failing example in test_invariants.py"),
+    dict(id="aff(6,9,5) vs aff(11,9,5)", status="rejected", reason="isomorphic: swap Y,H + flip Y,H values (48-group)", facts="iso_check_hassan_pair.txt"),
     dict(id="aff(9,6,10) vs aff(9,15,10)", status="surviving (lead)",
-         facts="equal marginals/auto/cross all lags; same major complex {X,H}, Phi 2; q161 B {X,H} vs {H}; not isomorphic"),
-    dict(id="aff(9,6,10) vs aff(9,15,12)", status="surviving"),
-    dict(id="aff(9,6,11) vs aff(9,14,10)", status="surviving"),
+         facts="equal marginals/auto/cross all lags; same major complex {X,H}, Phi 2; q161 B {X,H} vs {H}; not isomorphic; "
+               "background-condition target {X,H} vs {X,H} (difference vanishes; TARGET_AUDIT.md)"),
+    dict(id="aff(9,6,10) vs aff(9,15,12)", status="surviving (pairwise-identifiability only)",
+         facts="q161 B {X,H} vs {H}; background-condition {X,H} vs {X,Y,H} (second ineligible, |B|=3)"),
+    dict(id="aff(9,6,11) vs aff(9,14,10)", status="surviving (pairwise-identifiability only)",
+         facts="q161 B {X,H} vs {H}; background-condition {X,H} vs {X,H} (difference vanishes)"),
 ]
 
 
 def main():
     head = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, cwd=HERE).stdout.strip()
     for e in EXPERIMENTS:
+        e.setdefault("spec_commit", "none (not a prespecified evaluation)")
         e["command"] = "python -m %s.%s" % (M, e["script"][:-3].replace("/", "."))
         e["sha256"] = {r: sha(r) for r in e["results"]}
-    man = dict(study="q221", status="DRAFT, exploratory; no confirmatory evidence", generated_at_commit=head,
+    for c in CANDIDATES:
+        c.setdefault("reason", "survived exact screen (screen_exact.txt)")
+        c.setdefault("facts", "screen_exact.txt; target_variants.txt")
+    man = dict(schema_version="1", study="q221", protocol="protocol.md", tests=TESTS,
+               rejected_candidates_file="identifiability/results/rejected_candidates.json", status="DRAFT, exploratory; no confirmatory evidence", generated_at_commit=head,
                versions=versions(), experiments=EXPERIMENTS, candidates=CANDIDATES,
                search_counts=dict(forms=8192, candidate_pairs=7488, no_constant=6816, equal_marginals=6432,
                                   equal_self_recurrence=180, equal_cross=180, non_isomorphic_raw=144,
                                   non_isomorphic_node_perm_unique=24, non_isomorphic_48group_unique=3))
+    missing = [r for e in EXPERIMENTS for r, h in e["sha256"].items() if h is None]
+    assert not missing, missing
+
+    def nonull(x):
+        assert x is not None
+        if isinstance(x, dict):
+            [nonull(v) for v in x.values()]
+        elif isinstance(x, list):
+            [nonull(v) for v in x]
+    nonull(man)
+    json.dump([c for c in CANDIDATES if c["status"] == "rejected"],
+              open(os.path.join(HERE, "identifiability/results/rejected_candidates.json"), "w"), indent=1)
     json.dump(man, open(os.path.join(HERE, "MANIFEST.json"), "w"), indent=1)
+    files = sorted({r for e in EXPERIMENTS for r in e["results"]} | {"identifiability/results/rejected_candidates.json"})
+    with open(os.path.join(HERE, "results", "checksums.sha256"), "w") as f:
+        for r in files:
+            f.write("%s  %s\n" % (sha(r), r))
     print("MANIFEST.json written; %d experiments, %d candidates; missing results: %s"
           % (len(EXPERIMENTS), len(CANDIDATES), [r for e in EXPERIMENTS for r, h in e["sha256"].items() if h is None]))
 

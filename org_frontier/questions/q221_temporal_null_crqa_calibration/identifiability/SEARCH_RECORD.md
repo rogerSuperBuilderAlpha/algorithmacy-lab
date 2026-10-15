@@ -1,5 +1,7 @@
 # Bounded exact-Φ search: completion record (rules 3, 6, 7, 11)
 
+> **Target audit (2026-10-15, `TARGET_AUDIT.md`).** The q161 bottleneck-target differences reported here exist only under q161's rule-freeze convention: the frozen node is kept as a perturbed element with its edges retained. Under an IIT background-condition reading, P and Q (and the third survivor pair) have the same target {X,H}; in the second pair, one target becomes ineligible. Major complex and Φ never differ. Pairwise **statistical** non-identifiability (target A) is unaffected.
+
 **State: COMPLETED within budget.** It was not stopped by the budget and it did not crash.
 - Groups examined: 2823 of 2823.
 - Search phase: 285.3 s wall. Including the exact re-verification of 20 pairs: 290.4 s. The budget was 1800 s.

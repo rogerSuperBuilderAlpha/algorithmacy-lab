@@ -7002,6 +7002,26 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
     },
     {
+      "name": "q221-target-variants",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.target_variants",
+      "expect": [
+        "== Q = aff(9,15,10)  q161 freeze-rule target: base 2.000 drops [1.0, 0.0, 2.0] B [2]",
+        "   background-condition variant, x_k = 0: base 2.000 drops [1.0, 0.0, 1.0] B [0, 2]"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/TARGET_AUDIT.md"
+    },
+    {
+      "name": "q221-process-law-equivalence",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.process_law_equivalence",
+      "expect": [
+        "observed channels XY : law of the projected process equal for ALL T: False (span dim 16)",
+        "observed channels XH : law of the projected process equal for ALL T: True (span dim 4)"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
       "name": "q221-survivor-baselines",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
       "expect": [
