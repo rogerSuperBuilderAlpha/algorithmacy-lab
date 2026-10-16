@@ -1,5 +1,8 @@
 # Suggested replacement description for draft PR #842
 
+> **Historical fallback, superseded:** The upstream PR body was updated after this file was prepared. The text below predates the separate preregistered four-node study and C2/C4 follow-up and should **not** replace the current PR description. Read the live PR body, `FINDINGS.md`, and `confirmatory_4node/RESULTS.md` instead. Retained solely to document the earlier GitHub integration 403 and evidence chronology.
+
+
 > **Historic, superseded PR description.** The live upstream PR body was subsequently updated by a separately authorized author workflow and now includes the preregistered four-node confirmatory target-A study and the q161 target-convention audit. This file is preserved only as a historical editorial artifact. Do not paste it over the current PR body.
 
 **Draft exploratory methods study. No merge requested and no confirmatory hypothesis claim.**
