@@ -66,7 +66,7 @@ q = 31. No C1–C4 comparator separates q = 28 or q = 37. This observation is ex
 
 | claim | label |
 |---|---|
-| Target A (R does not identify the law), proved for all n | **verified theorem** (Proposition 1/2) |
+| Target A: pairwise summary non-injectivity, witnessed at n=3 and n=4; analytic profile formula holds for arbitrary n | **verified construction and theorem within the specified invertible affine class** (Propositions 1–3; no non-isomorphic collision at n=1,2) |
 | H1 at n = 4 | **exact result**: 1,872 non-isomorphic orbit pairs |
 | H2 | **confirmatory empirical, supported** |
 | H3 for C0, R, C5 (predicted) and C1, C3 | **confirmatory empirical** (as in the verdict column) |
