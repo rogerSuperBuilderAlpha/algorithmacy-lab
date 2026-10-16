@@ -4,7 +4,7 @@ Uses only committed pair identities and classifier outcomes; does not rerun the
 simulation and DOES NOT replace the preregistered finite-population Wilson rule.
 
 Connected components of the observed orbit-pair incidence graph are resampled
-as a deliberately conservative *diagnostic* for superpopulation dependence.
+as an alternative *diagnostic* for superpopulation dependence.
 The resulting percentile ranges are NOT calibrated design-based CIs: clusters
 are constructed from the observed sample graph, not sampled as independent
 population units.
@@ -115,7 +115,7 @@ def audit(draws=DRAWS, seed=SEED):
         "component_resample_percentile_ranges_NOT_CONFIDENCE_INTERVALS":
             {"JR": band(jr_samples), "SHREC": band(sh_samples),
              "SHREC_minus_JR": band(delta_samples)},
-        "largest_component_omitted": {
+        "worst_single_component_omission": {
             "JR": min((347 - c["jr"]) / (600 - c["n"]) for c in components),
             "SHREC": min((363 - c["sh"]) / (600 - c["n"]) for c in components),
         },
