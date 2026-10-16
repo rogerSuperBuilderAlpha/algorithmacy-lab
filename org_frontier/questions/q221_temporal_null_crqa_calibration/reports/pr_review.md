@@ -69,3 +69,14 @@ on the q161 convention and a decision on whether exploratory-only work is in sco
 - **Deviations:** D1–D3, none outcome-affecting.
 - **Recommendation unchanged.** Keep #842 as a draft. The q161 convention question is still open with the
   maintainer, and the confirmatory scope is a single synthetic family.
+
+## Independent review addendum: all-lag proof and pair-unit scope (2026-10-15)
+
+Two additional issues were checked without changing either preregistration or any empirical result:
+
+1. **All-lag justification.** The parent's V2 exact Markov check through lag 20 is valid as a finite check; the preregistration's generic "≥16 so all lags" Cayley–Hamilton justification would require 32 initial values for *two* distinct sixteen-state kernels. New retrospective regression checks and an independent integer-based calculation verify all **640** parent/follow-up pairs through lag 31 using exact Proposition-1 signatures. Every invertible four-node GF(2) matrix has order ≤15 (maximum observed 15 among 20,160 matrices). The corrected proof is in confirmatory_4node/ALL_LAG_VERIFICATION_ADDENDUM.md. The new registered CI check must pass at the final head.
+2. **Orbit-pair inference unit.** The 600 unique follow-up orbit pairs involve 782 distinct orbits; 413 pairs share at least one orbit with another pair, but the trajectory seed blocks are disjoint. The preregistered unit remains the orbit pair sampled without replacement from 1,832 possibilities. No independently sampled-superpopulation inference across 1,200 novel network systems is established. See confirmatory_4node/ORBIT_PAIR_UNIT_AUDIT.md. The preregistered Wilson decision rules and C2/C4 outcomes are unchanged.
+
+Both are **post-hoc quality controls**, not newly preregistered experiments. They affect how evidence should be described, not the numerical labels already reported. No q161/q220 files, original preregistrations, or recorded study outcomes were edited.
+
+**Latest-head CI and maintainer approval:** inspect the current GitHub run rather than assuming the previous pass carries forward. Keep the PR draft until Roger chooses whether to accept the narrowed, operational-definition-dependent methods contribution.
