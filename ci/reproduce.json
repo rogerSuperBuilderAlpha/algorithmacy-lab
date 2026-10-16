@@ -6964,6 +6964,15 @@
       "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     },
     {
+      "name": "q221-orbit-component-sensitivity",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.orbit_overlap_sensitivity",
+      "expect": [
+        "q221 orbit-overlap sensitivity audit: 600 pairs, 279 components, 34 max-size; JR 347, SHREC 363"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/POSTHOC_ORBIT_COMPONENT_SENSITIVITY.md"
+    },
+    {
       "name": "q221-heldout-split-identity",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.test_structural_family_overlap",
       "expect": [
