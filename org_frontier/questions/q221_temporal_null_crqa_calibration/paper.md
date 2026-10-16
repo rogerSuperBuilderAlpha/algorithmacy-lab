@@ -39,10 +39,9 @@ specs in `protocol.md`):
 |---|---|
 | B: q161 structural target | **Convention-dependent.** The bottleneck sets differ only under q161's rule-freeze convention. Under an IIT background-condition reading, they coincide or become ineligible (`TARGET_AUDIT.md`, `OPEN_QUESTION_FOR_MAINTAINER.md`). |
 | C: IIT quantities | **Negative.** Same major complex {X,H}, same Φ = 2. |
-| D: q220 decoder | **At chance** on held-out families: +0.04 and +0.02 above chance, CIs include 0. Exploratory. |
+| D: q220 decoder | **Not shown above chance** on held-out families: estimated gains +0.04 and +0.02, with intervals including zero. Exploratory; these intervals do not establish equivalence to chance. |
 
-**Not claimed:** observational indistinguishability, failure of q220 in general, an IIT theorem, or
-confirmatory evidence.
+**Not claimed for the three-node IIT-target or q220 studies:** observational indistinguishability, failure of q220 in general, an IIT theorem, or confirmatory evidence about those targets. Separate preregistered four-node confirmatory results for **statistical target A** are reported below.
 
 **Novelty is narrow.** Pairwise blindness to higher-order structure (Gilpin 2025; Williams & Beer) and
 observational equivalence of hidden Markov chains (Gilbert 1959; Ito et al. 1992) are established. Q221
