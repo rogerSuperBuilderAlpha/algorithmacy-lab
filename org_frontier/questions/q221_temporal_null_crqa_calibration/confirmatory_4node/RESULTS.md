@@ -152,3 +152,11 @@ estimates are modest (0.58 and 0.61).
 **Scope.** The same as the parent: F4, p = 0.08, T = 600, these implementations and library defaults (SHREC
 `49c6d3e0`). The results say nothing about IIT targets.
 
+
+## Independent post-hoc receipts audit (not a registered hypothesis)
+
+A separately implemented, read-only audit of the 600-pair follow-up is recorded in [POSTHOC_PAIRED_METHOD_AUDIT.md](POSTHOC_PAIRED_METHOD_AUDIT.md) and `audit_followup_receipts.py`. It validates all twelve original chunk files against the combined 600 rows, reproduces the frozen per-pair and class-level decision rules, confirms that no follow-up orbit pair overlaps the parent 40, and recalculates the secondary exact/finite agreement counts. The results are unchanged.
+
+A **post-hoc paired comparison** of C2 joint recurrence and C4 SHREC shows both=231 pairs, joint-only=116, SHREC-only=132, and neither=121. SHREC's separation proportion exceeds joint recurrence by only 16/600 = **2.67 percentage points**; an unregistered exact matched-pair/McNemar test gives two-sided **p=0.3409**. Therefore the two independently preregistered `generally separates` verdicts do **not** establish that SHREC is superior to joint recurrence. The parent-study and follow-up preregistrations, outcome classifications and primary results are unmodified.
+
+The 600 orbit pairs are distinct, but their members are not 1,200 independent orbit systems (782 distinct orbit IDs occur among the 1,200 appearances). The preregistration's pair-level estimand is preserved, with this generalization limitation explicitly disclosed.
