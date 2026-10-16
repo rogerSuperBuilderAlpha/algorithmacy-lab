@@ -6995,6 +6995,16 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/independent_audit/MINIMALITY_AFFINE.md"
     },
     {
+      "name": "q221-four-node-all-lag-audit",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.all_lag_audit",
+      "expect": [
+        "q221 4-node all-lag certificate: 640/640 signatures and k0..31 exact profiles",
+        "q221 GL4 order: 20160 matrices; maximum 15"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/ALL_LAG_VERIFICATION_ADDENDUM.md"
+    },
+    {
       "name": "q221-exact-all-lag-recurrence-proof",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
       "expect": [
