@@ -14,6 +14,15 @@ def audit():
     parent = json.loads((here / "screen4.json").read_text())["study_pairs"]
     followup = json.loads((here / "followup_pairs.json").read_text())["pairs"]
     assert len(parent) == 40 and len(followup) == 600
+    # Exploratory input-integrity QA for the follow-up sampling unit.
+    from collections import Counter
+    assert len({(r["orbit_a"], r["orbit_b"]) for r in followup}) == 600
+    degree = Counter(o for r in followup for o in (r["orbit_a"], r["orbit_b"]))
+    assert len(degree) == 782 and max(degree.values()) == 7
+    assert sum(degree[r["orbit_a"]] > 1 or degree[r["orbit_b"]] > 1 for r in followup) == 413
+    assert [r["q"] for r in followup] == list(range(600))
+    assert all(5220000 + 1000 * q + 799 < 5220000 + 1000 * (q + 1)
+               for q in range(599))
     n = 0
     for row in parent + followup:
         a, b = tuple(row["a"]), tuple(row["b"])
