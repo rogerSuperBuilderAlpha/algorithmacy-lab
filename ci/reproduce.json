@@ -6985,7 +6985,8 @@
       "name": "q221-heldout-split-identity",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.test_structural_family_overlap",
       "expect": [
-        "q221 split identity: nsi 80/80 unique; aff 80/80 unique; shared 0"
+        "q221 split identity: nsi 80/80 unique; aff 80/80 unique; shared 0",
+        "q221 split 48-group orbits: nsi 50; aff 43; shared 0"
       ],
       "timeout": 30,
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/identifiability/results/structural_baselines.json"
