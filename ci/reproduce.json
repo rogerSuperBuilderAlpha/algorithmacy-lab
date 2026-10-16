@@ -7023,6 +7023,17 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/ALL_LAG_VERIFICATION_ADDENDUM.md"
     },
     {
+      "name": "q221-finite-population-followup-bound",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.finite_population_tail_bound",
+      "expect": [
+        "C2_JRR 347/600 fraction 0.578333",
+        "C4_SHREC 363/600 fraction 0.605000",
+        "design-based finite-pair audit PASS"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/POSTHOC_FINITE_POPULATION_BOUND.md"
+    },
+    {
       "name": "q221-exact-all-lag-recurrence-proof",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
       "expect": [
