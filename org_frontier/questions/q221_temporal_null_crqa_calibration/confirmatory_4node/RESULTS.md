@@ -160,3 +160,12 @@ A separately implemented, read-only audit of the 600-pair follow-up is recorded 
 A **post-hoc paired comparison** of C2 joint recurrence and C4 SHREC shows both=231 pairs, joint-only=116, SHREC-only=132, and neither=121. SHREC's separation proportion exceeds joint recurrence by only 16/600 = **2.67 percentage points**; an unregistered exact matched-pair/McNemar test gives two-sided **p=0.3409**. Therefore the two independently preregistered `generally separates` verdicts do **not** establish that SHREC is superior to joint recurrence. The parent-study and follow-up preregistrations, outcome classifications and primary results are unmodified.
 
 The 600 orbit pairs are distinct, but their members are not 1,200 independent orbit systems (782 distinct orbit IDs occur among the 1,200 appearances). The preregistration's pair-level estimand is preserved, with this generalization limitation explicitly disclosed.
+
+
+## Retrospective all-lag mathematical proof audit (2026-10-15)
+
+**This audit does not change the registered design or any empirical decision.** The original V2 brute-force rational check covered lags 0–20. For two arbitrary 16-state transition matrices, equality over those 21 lags alone does not automatically imply all-lag equality via the *generic* Cayley–Hamilton argument: the difference between two scalar profiles can obey a recurrence of order **32** (the product of two degree-16 characteristic polynomials).
+
+An independent post-hoc audit now checks that **every one of the 40 parent and 600 follow-up pairs (640/640)** has matching exact GF(2) affine signatures and exact Proposition-1 population match profiles for **lags 0–31** across all 16 ordered channel pairs. These 32 initial equalities provide the correct finite Cayley–Hamilton certificate for all later lags; stationarity covers negative lags. An independent enumeration of all 20,160 matrices in GL(4,2) also confirms maximum element order 15, supporting the separate periodic-affine-signature argument underlying the original screening.
+
+Reproduction: run the standalone module in `confirmatory_4node/all_lag_audit.py` (fast, registered in `ci/reproduce.json`) and the focused tests in `test_confirmatory_4node.py`. Details and caveats are in `ALL_LAG_VERIFICATION_ADDENDUM.md`. These tests are retrospective *mathematical verification*, do not inspect classifier outcomes, and do not convert any exploratory finding to confirmatory status. The original frozen preregistration is retained verbatim as a transparent chronology record.
