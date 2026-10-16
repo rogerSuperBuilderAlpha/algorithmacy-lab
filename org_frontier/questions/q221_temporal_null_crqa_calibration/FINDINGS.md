@@ -164,7 +164,7 @@ An independent Python-standard-library rational certificate reconstructs the lea
 
 | item | result | evidence |
 |---|---|---|
-| q220's actual pipeline on P/Q: repo `crqa.trajectory`, then q220 `stage2.observe` `coupling` → `centrality` → `bottleneck_scores`; R = 400; seeds 43000+ | Pipeline outputs match within SE (max prominence 0.0607 / 0.0606). Tie-aware BN score 0.643 / 0.330, which equals set-size chance (0.667 / 0.333) for each system. | `identifiability/results/adjudicate.txt` |
+| q220's actual pipeline on P/Q: repo `crqa.trajectory`, then q220 `stage2.observe` `coupling` → `centrality` → `bottleneck_scores`; R = 400; seeds 43000+ | Pipeline outputs match within SE (max prominence 0.0607 / 0.0606). Tie-aware BN score 0.643 / 0.330, close to but **not numerically identical** to the set-size chance levels (0.667 / 0.333). Those descriptive differences are not evidence of above-chance recovery on this selected pair. | `identifiability/results/adjudicate.txt` |
 | Hassan's `candidate_finite_sample.py` on P/Q (his own simulator, q220 `observe`), seeds 0..299 | Score 0.661 / 0.333, consistent with the row above. | `identifiability/results/pinned_env_runs/lead_pair_finite_sample.json` |
 | Prespecified simple baselines on all 3 survivors (spec committed in `35313d47` before running) | Marginals, self-recurrence and cross-recurrence give 0.43 to 0.53 (near chance). **Transition counts and transition likelihood give 1.000 (Wilson 95% CI 0.99 to 1.0) on every pair.** | `identifiability/results/baselines_survivors.txt` |
 
