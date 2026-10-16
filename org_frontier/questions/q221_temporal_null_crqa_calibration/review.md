@@ -1,5 +1,8 @@
 # Q221 — Retrospective research review
 
+> **Scope note (2026-10-15):** This retrospective Stage-1 review describes the earlier exploratory three-node work. A separate, later four-node target-A study and C2/C4 follow-up were prospectively registered and completed; see `confirmatory_4node/RESULTS.md`. Neither confirms an IIT bottleneck claim. Historical exploratory-only statements below apply to the original stage, not the entire current Q221 PR.
+
+
 **Exploratory feasibility record. This is not a prospectively completed literature-first review.**
 
 ## Question
