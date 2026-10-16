@@ -90,6 +90,38 @@ def test_study_pairs_recurrence_equal_law_different_nonisomorphic():
         assert f4.orbit_ids([a[0]])[1][a[1]] != f4.orbit_ids([b[0]])[1][b[1]]
 
 
+def test_affine_all_lag_signature_for_all_640_recorded_pairs():
+    """Retrospective proof audit: full signatures, not only 21 brute-force lags.
+
+    The four-node matrices are 16-state Markov chains, so a generic
+    two-kernel Cayley-Hamilton argument can require 32 initial values.
+    Here the all-lag certificate instead follows the GL(4,2) periodic
+    Walsh paths: every invertible A has order <= 15, and the 0..40
+    affine signature identifies each orbit's nonzero hits and multipliers.
+    """
+    parent = _screen()["study_pairs"]
+    follow = _fu_pairs()["pairs"]
+    assert len(parent) == 40 and len(follow) == 600
+    for pair in parent + follow:
+        a, b = tuple(pair["a"]), tuple(pair["b"])
+        assert f4.signature(*a) == f4.signature(*b)
+        assert a != b
+
+def test_gl4_matrix_order_bound_for_affine_all_lag_proof(As):
+    identity = (1, 2, 4, 8)
+    max_order = 0
+    for A in As:
+        cols = identity
+        for k in range(1, 16):
+            cols = tuple(f4.AT(A, w) for w in cols)
+            if cols == identity:
+                max_order = max(max_order, k)
+                break
+        else:
+            raise AssertionError("invertible 4x4 matrix has order > 15")
+    assert max_order == 15
+
+
 def test_mdrr_is_trace_invariant_and_not_always_equal_at_n4():
     pairs = {p["q"]: p for p in _screen()["study_pairs"]}
     # q = 2 shares A and differs only in c; recorded exact MdRR difference is non-zero
