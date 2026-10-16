@@ -203,6 +203,20 @@ def test_followup_seed_ranges_disjoint_from_parent():
     assert abs(fu.Z_PAIR - _study()["z_pair"]) < 1e-12        # parent per-pair threshold held fixed
 
 
+def test_followup_orbit_pair_unit_and_seed_block_integrity():
+    """Post-hoc input QA: orbit reuse != pair duplication or RNG seed reuse."""
+    from collections import Counter
+    rows = _fu_pairs()["pairs"]
+    assert [r["q"] for r in rows] == list(range(600))
+    counts = Counter(orbit for r in rows for orbit in (r["orbit_a"], r["orbit_b"]))
+    assert len(counts) == 782
+    assert max(counts.values()) == 7
+    assert sum(counts[r["orbit_a"]] > 1 or counts[r["orbit_b"]] > 1 for r in rows) == 413
+    blocks = [(5220000 + 1000 * r["q"], 5220000 + 1000 * r["q"] + 799) for r in rows]
+    assert all(a[1] < b[0] for a, b in zip(blocks, blocks[1:]))
+    assert blocks[0][0] > 5210002  # separate identity-draw seed
+
+
 def test_miller_madow_te_matches_definition_and_reduces_null_bias():
     from org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node import followup as fu
     rng = np.random.default_rng(7310004)
