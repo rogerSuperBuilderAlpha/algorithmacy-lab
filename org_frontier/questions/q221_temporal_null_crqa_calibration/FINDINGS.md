@@ -73,8 +73,10 @@ The independent standard-library rational kernel computation, Walsh-signature cr
   - Both labels are confirmatory empirical. Each comparator still fails on about 40% of pairs.
   - **Population bound on JR:** population JRR is exactly equal for 221/600 pairs, and finite JR never separates
     those pairs.
-  - **TE estimator artefact:** it recurs at scale (147 finite-only pairs). The registered Miller–Madow
-    correction cannot remove it (constant shift).
+  - **Finite-only TE separation:** 147 orbit pairs are distinguishable using sampled TE features even
+    though their population TE vectors agree. Miller–Madow gives the same separation decisions, but
+    this does not uniquely attribute the result to estimator bias rather than sampling variance/covariance
+    differences. This secondary mechanistic interpretation remains exploratory.
   - Details: `confirmatory_4node/RESULTS.md` and `DEVIATIONS_FOLLOWUP.md` (F1–F4, none affect outcomes).
 
 ## Comparator study (prespecified, spec commit `311a6477`; exploratory)
