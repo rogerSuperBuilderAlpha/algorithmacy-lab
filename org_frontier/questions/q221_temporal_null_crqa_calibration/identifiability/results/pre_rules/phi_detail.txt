@@ -1,0 +1,68 @@
+box-run: queued 'q221-phi-detail' [test, 2000 MB]: all 1 test slot(s) busy
+box-run: start 'q221-phi-detail' [test, 2000 MB est, as-cap off MB] after 28s wait
+/workspace/algorithmacy-827-venv/lib/python3.12/site-packages/pyphi/new_big_phi/__init__.py:556: PyPhiWarning: distinctions.resolve_congruence() has not been called; results may include relations that do not exist after filtering out distinctions incongruent with the SIA specified state. Consider using `new_big_phi.phi_structure()` to obtain a consistent structure.
+  relations = compute_relations(distinctions, **relations_kwargs)
+
+Welcome to PyPhi!
+
+If you use PyPhi in your research, please cite the paper:
+
+  Mayner WGP, Marshall W, Albantakis L, Findlay G, Marchman R, Tononi G.
+  (2018). PyPhi: A toolbox for integrated information theory.
+  PLOS Computational Biology 14(7): e1006343.
+  https://doi.org/10.1371/journal.pcbi.1006343
+
+Documentation is available online (or with the built-in `help()` function):
+  https://pyphi.readthedocs.io
+
+To report issues, please use the issue tracker on the GitHub repository:
+  https://github.com/wmayner/pyphi
+
+For general discussion, you are welcome to join the pyphi-users group:
+  https://groups.google.com/forum/#!forum/pyphi-users
+
+To suppress this message, either:
+  - Set `WELCOME_OFF: true` in your `pyphi_config.yml` file, or
+  - Set the environment variable PYPHI_WELCOME_OFF to any value in your shell:
+        export PYPHI_WELCOME_OFF='yes'
+
+pyphi config: IIT_VERSION=4.0 REPERTOIRE_DISTANCE=GENERALIZED_INTRINSIC_DIFFERENCE
+====================================================================== 
+ A_self
+TPM (state-by-node, little-endian rows s=0..7): [[0, 0, 0], [1, 0, 0], [0, 1, 0], [1, 1, 0], [0, 0, 1], [1, 0, 1], [0, 1, 1], [1, 1, 1]]
+CM (cm[i,j]=1 iff j reads i): [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+verdict: structure=dyadic max_phi=0.0
+q161 core_indices: ((2,), 1.0)  mc_phi: 1.0
+q161 bottleneck_set: B=[] base=1.000000 drops=[0.0, 0.0, 0.0]
+reachable states: [0, 1, 2, 3, 4, 5, 6, 7]
+  state (0, 0, 0)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (1, 0, 0)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (0, 1, 0)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (1, 1, 0)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (0, 0, 1)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (1, 0, 1)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (0, 1, 1)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (1, 1, 1)  maximal_complex=('H',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:1.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  clamp X->0: core=((2,), 1.0) mc_phi=1.0000
+  clamp Y->0: core=((2,), 1.0) mc_phi=1.0000
+  clamp H->0: core=((1,), 1.0) mc_phi=1.0000
+CMI I(H';X,Y|H) = 0.000000 bits ; 1-h2(0.08) = 0.597821
+CMI noiseless-rule limit (flip 1e-9) = -0.000000
+====================================================================== 
+ B_xor
+TPM (state-by-node, little-endian rows s=0..7): [[0, 0, 0], [1, 0, 1], [0, 1, 1], [1, 1, 0], [0, 0, 0], [1, 0, 1], [0, 1, 1], [1, 1, 0]]
+CM (cm[i,j]=1 iff j reads i): [[1, 0, 1], [0, 1, 1], [0, 0, 0]]
+verdict: structure=dyadic max_phi=0.0
+q161 core_indices: ((1,), 1.0)  mc_phi: 1.0
+q161 bottleneck_set: B=[] base=1.000000 drops=[0.0, 0.0, 0.0]
+reachable states: [0, 3, 5, 6]
+  state (0, 0, 0)  maximal_complex=('Y',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:0.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (1, 1, 0)  maximal_complex=('Y',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:0.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (1, 0, 1)  maximal_complex=('Y',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:0.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  state (0, 1, 1)  maximal_complex=('Y',) phi=1.0000  | system-phi(sia) per candidate: X:1.000 Y:1.000 H:0.000 XY:0.000 XH:0.000 YH:0.000 XYH:0.000
+  clamp X->0: core=((1,), 1.0) mc_phi=1.0000
+  clamp Y->0: core=((0,), 1.0) mc_phi=1.0000
+  clamp H->0: core=((1,), 1.0) mc_phi=1.0000
+CMI I(H';X,Y|H) = 0.410781 bits ; 1-h2(0.08) = 0.597821
+CMI noiseless-rule limit (flip 1e-9) = 0.000000
+box-run: done 'q221-phi-detail' rc=0 waited=28s ran=2s

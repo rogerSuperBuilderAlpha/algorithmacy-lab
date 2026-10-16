@@ -1,0 +1,466 @@
+{
+ "schema_version": "1",
+ "study": "q221",
+ "protocol": "protocol.md",
+ "tests": [
+  "identifiability/test_invariants.py",
+  "identifiability/test_invariants_extra.py (expensive tier: Q221_SLOW=1)",
+  "identifiability/test_q220_regression.py",
+  "identifiability/test_comparators.py",
+  "identifiability/test_pair_search_data.py",
+  "confirmatory_4node/test_confirmatory_4node.py (full screen re-run: Q221_SLOW=1)"
+ ],
+ "rejected_candidates_file": "identifiability/results/rejected_candidates.json",
+ "status": "DRAFT. Exploratory except the preregistered 4-node study (confirmatory_4node/PREREGISTRATION.md, commit 2ad11e69): H1 exact; H2 and H3 decided by the preregistered rules; C2/C4 resolved by the preregistered follow-up 74ef91c1 (see confirmatory_4node/RESULTS.md)",
+ "generated_at_commit": "38cbe80057b2053aa1061ebb9d445246332aec38",
+ "versions": {
+  "python": "3.12.15",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pyphi_iit_version": "4.0",
+  "pyphi_commit": "b78d0e342d37175cbd55cf35a6d52ae035b4c50f (feature/iit-4.0)"
+ },
+ "experiments": [
+  {
+   "name": "bounded_search",
+   "category": "exploratory search",
+   "script": "identifiability/pair_search.py",
+   "seeds": "none (deterministic)",
+   "results": [
+    "identifiability/results/pair_search.txt",
+    "identifiability/results/pair_search.json.gz"
+   ],
+   "note": "pair_search.json is stored as a deterministic gzip; raw-JSON SHA-256 7c54d45b690081003c836b696d6d63014aa5428a1d8221449a3ba2c75a58ba13 is checked by identifiability/pair_search_data.py (restore with --restore)",
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search",
+   "sha256": {
+    "identifiability/results/pair_search.txt": "df4fe121258d1d297fe7dfb9325d34fcf208d0b474dca417fbb38e8b40d78879",
+    "identifiability/results/pair_search.json.gz": "dc8ab129d939aa36848b2a0b3b3d10c3bed6c77a7917f542bb688aa459b890a4"
+   }
+  },
+  {
+   "name": "candidate_verification",
+   "category": "exploratory search",
+   "script": "identifiability/verify_candidates.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/verify_candidates.txt",
+    "identifiability/results/verify_candidates.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.verify_candidates",
+   "sha256": {
+    "identifiability/results/verify_candidates.txt": "b84eb38b6e60c981d6bc564a47135fa527822efe16762807c9c35c93a2300c67",
+    "identifiability/results/verify_candidates.json": "fcbc4214249ea26a615e679844ad867ae423367270d8e2ccaee648163e0e221f"
+   }
+  },
+  {
+   "name": "adjudication_q220_pipeline",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/adjudicate.py",
+   "seeds": "trajectory default_rng(43000 + r), r < 400",
+   "results": [
+    "identifiability/results/adjudicate.txt",
+    "identifiability/results/adjudicate.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.adjudicate",
+   "sha256": {
+    "identifiability/results/adjudicate.txt": "2db0cce8d6b67a94dac9ac88f63aa4980d03b51f9cf42798f61524fc2d1ffd01",
+    "identifiability/results/adjudicate.json": "647f201779f2b95e61dc6e422c24d6cd9e49e3e20298da317d97707e6b0627cc"
+   }
+  },
+  {
+   "name": "exact_screen",
+   "category": "exploratory search (re-filter, no new search)",
+   "script": "identifiability/screen_exact.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/screen_exact.txt",
+    "identifiability/results/screen_exact.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.screen_exact",
+   "sha256": {
+    "identifiability/results/screen_exact.txt": "554005da5314edbf8a4b606a0c8d2571d4d774c62004e745b823c466457f906f",
+    "identifiability/results/screen_exact.json": "b597e5d870920a53687c4121017a0423ef8e251532c0aefc3f02a41b86db6fc0"
+   }
+  },
+  {
+   "name": "iso_check_matched_candidate",
+   "category": "exploratory search",
+   "script": "identifiability/iso_check_hassan_pair.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/iso_check_hassan_pair.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.iso_check_hassan_pair",
+   "sha256": {
+    "identifiability/results/iso_check_hassan_pair.txt": "c164eecc518786b55439b0bf105febb3b7e22f307486b28e15915ef1b12ebf25"
+   }
+  },
+  {
+   "name": "lead_pair_exact_phi",
+   "category": "exploratory search",
+   "script": "identifiability/rep_verify.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/rep_verify.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.rep_verify",
+   "sha256": {
+    "identifiability/results/rep_verify.txt": "eedd03a263465863d0f5da859b1fe170a478334a609869cd527085bfa3b23a79"
+   }
+  },
+  {
+   "name": "lead_pair_finite_sample_hassan_script",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/lead_pair_finite_sample.py",
+   "seeds": "0..299 per system",
+   "results": [
+    "identifiability/results/pinned_env_runs/lead_pair_finite_sample.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.lead_pair_finite_sample",
+   "sha256": {
+    "identifiability/results/pinned_env_runs/lead_pair_finite_sample.json": "16d35292ebf74731f7060ed3ed9165e5728c83f3e04465e10a1393aca0e60787"
+   }
+  },
+  {
+   "name": "affine_theory_check",
+   "category": "theory (exact check of proved propositions)",
+   "script": "identifiability/affine_theory.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/affine_theory.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.affine_theory",
+   "sha256": {
+    "identifiability/results/affine_theory.txt": "b253bbe94beeb05e64869a4be4e3d6231b0bf51e82e6742b5f2122521068afdf"
+   }
+  },
+  {
+   "name": "survivor_baselines",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/baselines_survivors.py",
+   "spec_commit": "35313d47",
+   "seeds": "train 44000..44099, test 44100..44299",
+   "results": [
+    "identifiability/results/baselines_survivors.txt",
+    "identifiability/results/baselines_survivors.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
+   "sha256": {
+    "identifiability/results/baselines_survivors.txt": "fd1df49bc20929ab5dc0fad842975b9a953ec2d7f118ddd3cc5ebfbf418d2d22",
+    "identifiability/results/baselines_survivors.json": "88e86d5e89375a1bc99648b053e7a1f31b48a563e89f86bf2f66286ad58780a9"
+   }
+  },
+  {
+   "name": "structural_baselines_heldout_families",
+   "category": "structural prediction pilot (exploratory)",
+   "script": "identifiability/structural_baselines.py",
+   "spec_commit": "ecd014dd (crash fix 2nd commit, spec unchanged)",
+   "seeds": "form draws default_rng(2210001/2210002); trajectories default_rng(450000 + 10*index + r); bootstrap 2210003",
+   "results": [
+    "identifiability/results/structural_baselines.txt",
+    "identifiability/results/structural_baselines.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.structural_baselines",
+   "sha256": {
+    "identifiability/results/structural_baselines.txt": "e2389ad39c49ffdca3b985428d2de86a6a2e75b9d0d9d6caa3f9b4f14efdc1c2",
+    "identifiability/results/structural_baselines.json": "1c260ed4b8c261e9de1a066e60ed8bc1afdd46f32a991efb9d0045b7f1213952"
+   }
+  },
+  {
+   "name": "null_pilot_pearson",
+   "category": "pilot calibration (exploratory)",
+   "script": "independent_audit/null_pilot.py",
+   "seeds": "2212026",
+   "results": [
+    "independent_audit/null_pilot_results.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.null_pilot",
+   "sha256": {
+    "independent_audit/null_pilot_results.json": "0f3ca1928d347e0993adea8d6143294f34b27a51d5d06bb88262db2f3209db85"
+   }
+  },
+  {
+   "name": "null_extension_surrogates",
+   "category": "pilot calibration (exploratory)",
+   "script": "identifiability/null_extension.py",
+   "spec_commit": "6ad206a3",
+   "seeds": "2215001",
+   "results": [
+    "identifiability/results/null_extension.txt",
+    "identifiability/results/null_extension.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.null_extension",
+   "sha256": {
+    "identifiability/results/null_extension.txt": "fd91882eacc21ab67d4672a4e69be139bc072a6d081840d1368b5a356c6db2e4",
+    "identifiability/results/null_extension.json": "248c9ebe3489ea9d56c64e2d368e903bee176703cc6f42aa175058003a4d0a66"
+   }
+  },
+  {
+   "name": "variant_reconciliation",
+   "category": "exploratory search",
+   "script": "identifiability/variants_abc.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/variants_abc.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.variants_abc",
+   "sha256": {
+    "identifiability/results/variants_abc.txt": "efae1d75346385c9b9857ab5cad6a0100bb5dc96ad24fb6c8f649068b48d01d0"
+   }
+  },
+  {
+   "name": "process_law_equivalence",
+   "category": "theory (exact decision, equality 2)",
+   "script": "identifiability/process_law_equivalence.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/process_law_equivalence.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.process_law_equivalence",
+   "sha256": {
+    "identifiability/results/process_law_equivalence.txt": "f9fc8baa1c4a48e474afb725d8b65421a586bb27a9d8262894457933a20c6972"
+   }
+  },
+  {
+   "name": "target_audit_q161",
+   "category": "target audit (step 11)",
+   "script": "identifiability/target_audit.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/target_audit.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.target_audit",
+   "sha256": {
+    "identifiability/results/target_audit.txt": "8216cb0799bba5fd238db4643be9cad54b0c0606a6b645ea77290419972b8b3b"
+   }
+  },
+  {
+   "name": "target_variants_background_condition",
+   "category": "target audit (step 11)",
+   "script": "identifiability/target_variants.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/target_variants.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.target_variants",
+   "sha256": {
+    "identifiability/results/target_variants.txt": "ed73d42433a96d37b37f2c6eb2e6aaaf5c73a778fcff5845b289b97143a129ea"
+   }
+  },
+  {
+   "name": "edge_removal_check",
+   "category": "target audit (step 11)",
+   "script": "identifiability/edge_removal_check.py",
+   "seeds": "none",
+   "results": [
+    "identifiability/results/edge_removal_check.txt"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.edge_removal_check",
+   "sha256": {
+    "identifiability/results/edge_removal_check.txt": "6755e948bdd9aee91653a4524fbbd11b83312b2868da5a81fa7a0e811502736a"
+   }
+  },
+  {
+   "name": "comparators_te_jrp_mdrqa_shrec_falsepair",
+   "category": "comparator study (exploratory, prespecified)",
+   "script": "identifiability/comparators.py",
+   "spec_commit": "311a6477",
+   "seeds": "trajectories default_rng(47000 + 1000*pair + 500*member + r), r<300; false-pair null 47999",
+   "environment": "/workspace/shrec-venv: shrec @ 49c6d3e0 (github.com/williamgilpin/shrec), scikit-learn 1.9.1, umap-learn 0.5.12",
+   "results": [
+    "identifiability/results/comparators.txt",
+    "identifiability/results/comparators.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.comparators",
+   "sha256": {
+    "identifiability/results/comparators.txt": "142dfbca2cb837a26148bf73d5d03dababb19a4b090fc6d30f39d07bde05c3e7",
+    "identifiability/results/comparators.json": "bec3f9b6db56f65e12631a04b98d07b93893ed54ce0e94a4ea0fd1b940c9a4e5"
+   }
+  },
+  {
+   "name": "q220_intermediates",
+   "category": "finite-sample check (exploratory)",
+   "script": "identifiability/q220_intermediates.py",
+   "seeds": "trajectory default_rng(43000..43004)",
+   "results": [
+    "identifiability/results/q220_intermediates.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.q220_intermediates",
+   "sha256": {
+    "identifiability/results/q220_intermediates.json": "9cad67116c99f2b9a86bb1b33335882cecff5d46586bdc41ac49841777f16702"
+   }
+  },
+  {
+   "name": "screen4_exact_4node",
+   "category": "4-node target-A study: exact screen (H1, exact)",
+   "script": "confirmatory_4node/screen4.py",
+   "spec_commit": "2ad11e69",
+   "seeds": "V1 default_rng(4210001); study-pair sampling default_rng(4210002)",
+   "results": [
+    "confirmatory_4node/results/screen4.txt",
+    "confirmatory_4node/results/screen4.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.screen4",
+   "sha256": {
+    "confirmatory_4node/results/screen4.txt": "f37658971c40fe4eb1669823825625101d987bfa411251098958b2330ac4182f",
+    "confirmatory_4node/results/screen4.json": "c980a5e4f1b883b1158a1de02be3b37b850dabd8e9241ff48fef97b56181ed20"
+   }
+  },
+  {
+   "name": "study4_comparators_4node",
+   "category": "4-node target-A study: preregistered finite-sample (H2, H3)",
+   "script": "confirmatory_4node/study4.py",
+   "spec_commit": "2ad11e69 (script frozen at 11d34a7c)",
+   "seeds": "trajectories default_rng(4220000 + 1000*q + 500*m + r), r<300; false-pair null 4290000+q",
+   "environment": "/workspace/shrec-venv: shrec @ 49c6d3e0, scikit-learn 1.9.1, umap-learn 0.5.12; run as --part 0 20 / --part 20 40 then --combine",
+   "results": [
+    "confirmatory_4node/results/study4.txt",
+    "confirmatory_4node/results/study4.json",
+    "confirmatory_4node/results/study4_part_00_20.json",
+    "confirmatory_4node/results/study4_part_20_40.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.study4",
+   "sha256": {
+    "confirmatory_4node/results/study4.txt": "5487d6818467d7f5069d1f2a083bfc659e20c3a7a94cf1364f255f9833c5c414",
+    "confirmatory_4node/results/study4.json": "ad0d54eff4950da2b7154dd3bc29d12efa779169294cf4e33aaffca53f979825",
+    "confirmatory_4node/results/study4_part_00_20.json": "06d7739534d606b3d180d01c1930cbd699d657b1f17685aa3b8ec0179fd915a4",
+    "confirmatory_4node/results/study4_part_20_40.json": "1b78f9feea649266e896130e182561368b1e1afbcf1da92a932940715ea766e6"
+   }
+  },
+  {
+   "name": "power_followup_4node",
+   "category": "4-node C2/C4 follow-up: power analysis (pre-data)",
+   "script": "confirmatory_4node/power_followup.py",
+   "spec_commit": "74ef91c1",
+   "seeds": "none",
+   "results": [
+    "confirmatory_4node/results/power_followup.txt"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.power_followup",
+   "sha256": {
+    "confirmatory_4node/results/power_followup.txt": "41a70ae5adb4c8e66410c3204518a145c5fbbe701416b8fe367b9ad425f3daab"
+   }
+  },
+  {
+   "name": "followup_c2_c4_4node",
+   "category": "4-node C2/C4 follow-up: preregistered confirmatory",
+   "script": "confirmatory_4node/followup.py",
+   "spec_commit": "74ef91c1 (script frozen at 21f705e9)",
+   "seeds": "pair sampling default_rng(5210002); trajectories default_rng(5220000 + 1000*q + 500*m + r), r<300",
+   "environment": "/workspace/shrec-venv: shrec @ 49c6d3e0; run as --select, 12 x --part LO LO+50 (single-threaded), --combine",
+   "results": [
+    "confirmatory_4node/results/followup_pairs.json",
+    "confirmatory_4node/results/followup.txt",
+    "confirmatory_4node/results/followup.json",
+    "confirmatory_4node/results/followup_part_000_050.json",
+    "confirmatory_4node/results/followup_part_050_100.json",
+    "confirmatory_4node/results/followup_part_100_150.json",
+    "confirmatory_4node/results/followup_part_150_200.json",
+    "confirmatory_4node/results/followup_part_200_250.json",
+    "confirmatory_4node/results/followup_part_250_300.json",
+    "confirmatory_4node/results/followup_part_300_350.json",
+    "confirmatory_4node/results/followup_part_350_400.json",
+    "confirmatory_4node/results/followup_part_400_450.json",
+    "confirmatory_4node/results/followup_part_450_500.json",
+    "confirmatory_4node/results/followup_part_500_550.json",
+    "confirmatory_4node/results/followup_part_550_600.json"
+   ],
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.followup",
+   "sha256": {
+    "confirmatory_4node/results/followup_pairs.json": "679798fd7c2e0229240ea3bee330a4c26030dcbec1abeae054c15454a69ce6f8",
+    "confirmatory_4node/results/followup.txt": "b33344673ee369c07c9528dc2f82761fd2ad694940e91ee5b86672cb595d4aec",
+    "confirmatory_4node/results/followup.json": "9c1e997a366933d55a9ce962eb5632d6feda748bcee97f4605f2ecf39cb2f054",
+    "confirmatory_4node/results/followup_part_000_050.json": "3984383d598703f1f5f23dca9f84a1715eb7652c8b67778446b1edf4946970fe",
+    "confirmatory_4node/results/followup_part_050_100.json": "889a79a8ad5ae455af2f1013aaad2c01b25a39ca65c79ddf71f9ec38cefe3024",
+    "confirmatory_4node/results/followup_part_100_150.json": "e2f10b32ca4f36655166eb1518263be4ca04f7a79977b63b1ad8f44a9de3352e",
+    "confirmatory_4node/results/followup_part_150_200.json": "1fa72ea9d23c9cc47bb35db89c5fa2599e4ce2257894beec01e990c9d74098a9",
+    "confirmatory_4node/results/followup_part_200_250.json": "c27d4cfb506ea65c826a536bb3be6e31022a321191239be9732441eaf75c956b",
+    "confirmatory_4node/results/followup_part_250_300.json": "a95599f628eaa806c87a08271188bcf8de420875f24b741514d7b182b5aef0b7",
+    "confirmatory_4node/results/followup_part_300_350.json": "6fc64e65afd422b111ab527ca942fd697bbdfd5084e33153ce1eba65a205c6ed",
+    "confirmatory_4node/results/followup_part_350_400.json": "7ccfc1f412275e4af2d19305032c6505126d8efa7141de5ab6e399921a6d6f94",
+    "confirmatory_4node/results/followup_part_400_450.json": "e5d3e0cbf023abc0deba1a144dd60af23dc51acfd863d7a35d183f08e6c9d5ce",
+    "confirmatory_4node/results/followup_part_450_500.json": "de187af3eafae1d5cadd00f3ee78ab8b807aee0888f20de7f7960cfa28f28011",
+    "confirmatory_4node/results/followup_part_500_550.json": "82d3bdca11b0b9495671fe292d8bcb72ef55f327e94e42696791858bb5031f8d",
+    "confirmatory_4node/results/followup_part_550_600.json": "2684db432ffe5b1a94c0c7cd1268ed93d344ae223031e46a7ca2b41406442e62"
+   }
+  },
+  {
+   "name": "te_bias_diag_4node",
+   "category": "4-node study: post-hoc diagnostic (EXPLORATORY, not preregistered)",
+   "script": "confirmatory_4node/te_bias_diag.py",
+   "seeds": "default_rng(4380000+10q+m) long runs; 4390000+1000q+500m+k",
+   "results": [
+    "confirmatory_4node/results/te_bias_diag.json"
+   ],
+   "spec_commit": "none (not a prespecified evaluation)",
+   "command": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.te_bias_diag",
+   "sha256": {
+    "confirmatory_4node/results/te_bias_diag.json": "cd7fba16e58ba80ea18858278aee71beaf2876291b3b592699ee05f36b72ca35"
+   }
+  }
+ ],
+ "candidates": [
+  {
+   "id": "A/B/C (A_self, B_xor, B_xor_memory)",
+   "status": "rejected",
+   "reason": "q161 targets ineligible (empty B) - rule 1",
+   "facts": "see variants_abc.txt"
+  },
+  {
+   "id": "nsi(0,3,3) vs aff(6,9,5)",
+   "status": "rejected",
+   "reason": "constant node X'=0; X marginal 2/25 vs 1/2",
+   "facts": "preserved as failing example in test_invariants.py"
+  },
+  {
+   "id": "aff(6,9,5) vs aff(11,9,5)",
+   "status": "rejected",
+   "reason": "isomorphic: swap Y,H + flip Y,H values (48-group)",
+   "facts": "iso_check_hassan_pair.txt"
+  },
+  {
+   "id": "aff(9,6,10) vs aff(9,15,10)",
+   "status": "surviving (lead)",
+   "facts": "equal marginals/auto/cross all lags; same major complex {X,H}, Phi 2; q161 B {X,H} vs {H}; not isomorphic; background-condition target {X,H} vs {X,H} (difference vanishes; TARGET_AUDIT.md)",
+   "reason": "survived exact screen (screen_exact.txt)"
+  },
+  {
+   "id": "aff(9,6,10) vs aff(9,15,12)",
+   "status": "surviving (pairwise-identifiability only)",
+   "facts": "q161 B {X,H} vs {H}; background-condition {X,H} vs {X,Y,H} (second ineligible, |B|=3)",
+   "reason": "survived exact screen (screen_exact.txt)"
+  },
+  {
+   "id": "aff(9,6,11) vs aff(9,14,10)",
+   "status": "surviving (pairwise-identifiability only)",
+   "facts": "q161 B {X,H} vs {H}; background-condition {X,H} vs {X,H} (difference vanishes)",
+   "reason": "survived exact screen (screen_exact.txt)"
+  }
+ ],
+ "search_counts": {
+  "forms": 8192,
+  "candidate_pairs": 7488,
+  "no_constant": 6816,
+  "equal_marginals": 6432,
+  "equal_self_recurrence": 180,
+  "equal_cross": 180,
+  "non_isomorphic_raw": 144,
+  "non_isomorphic_node_perm_unique": 24,
+  "non_isomorphic_48group_unique": 3
+ }
+}

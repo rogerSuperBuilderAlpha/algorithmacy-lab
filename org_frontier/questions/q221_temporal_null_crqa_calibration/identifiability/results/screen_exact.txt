@@ -1,0 +1,26 @@
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 51.46 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 47.50 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 43.86 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 40.74 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 37.88 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 34.93 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 32.13 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 29.56 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 27.19 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 25.09 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 23.08 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 21.23 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 19.53 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 17.97 > 16
+box-run: queued 'q221-screen' [research, 2000 MB]: load1 16.53 > 16
+box-run: start 'q221-screen' [research, 2000 MB est, as-cap off MB, timeout 1800s] after 73s wait
+S0 all candidates                                    pairs= 7488  unique(node perm)= 689  unique(48-group, non-iso)= 74
+S1 no constant node                                  pairs= 6816  unique(node perm)= 593  unique(48-group, non-iso)= 67
+S2 + equal stationary channel marginals              pairs= 6432  unique(node perm)= 525  unique(48-group, non-iso)= 67
+S3 + equal self-recurrence profiles (lags 0..20)     pairs=  180  unique(node perm)=  30  unique(48-group, non-iso)=  3
+S4 + exact cross-profile re-check                    pairs=  180  unique(node perm)=  30  unique(48-group, non-iso)=  3
+S5 + not 48-group isomorphic                         pairs=  144  unique(node perm)=  24  unique(48-group, non-iso)=  3
+survivor: ('aff', 9, 6, 10) ('aff', 9, 15, 10) marginals ['1/2', '1/2', '1/2']
+survivor: ('aff', 9, 6, 10) ('aff', 9, 15, 12) marginals ['1/2', '1/2', '1/2']
+survivor: ('aff', 9, 6, 11) ('aff', 9, 14, 10) marginals ['1/2', '1/2', '1/2']
+box-run: done 'q221-screen' rc=0 waited=73s ran=108s

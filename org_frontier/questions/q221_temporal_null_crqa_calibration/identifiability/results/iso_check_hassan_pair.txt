@@ -1,0 +1,14 @@
+box-run: start 'q221-iso' [research, 2000 MB est, as-cap off MB] after 0s wait
+a = ('aff', 6, 9, 5) X'=01100110; Y'=11110000; H'=11001100
+b = ('aff', 11, 9, 5) X'=10100101; Y'=11110000; H'=11001100
+perm (0, 1, 2) (Y<->H swap=False): a mapped = X'=01100110; Y'=11110000; H'=11001100 ; equals b: False
+perm (0, 2, 1) (Y<->H swap=True): a mapped = X'=01011010; Y'=11110000; H'=11001100 ; equals b: False
+perm (1, 0, 2) (Y<->H swap=False): a mapped = X'=11110000; Y'=01100110; H'=10101010 ; equals b: False
+perm (1, 2, 0) (Y<->H swap=False): a mapped = X'=11110000; Y'=00111100; H'=10101010 ; equals b: False
+perm (2, 0, 1) (Y<->H swap=False): a mapped = X'=11001100; Y'=10101010; H'=01011010 ; equals b: False
+perm (2, 1, 0) (Y<->H swap=False): a mapped = X'=11001100; Y'=10101010; H'=00111100 ; equals b: False
+node-permutation isomorphisms (6): []
+perm x value-flip isomorphisms (48): [((0, 2, 1), 6), ((0, 2, 1), 7)]
+cross-check with pair_search.permute_tables canon: False
+const nodes: False False ; marginals equal: True ['1/2', '1/2', '1/2'] ; self-recurrence equal (0..20): True ; cross equal (0..20): True
+box-run: done 'q221-iso' rc=0 waited=0s ran=0s

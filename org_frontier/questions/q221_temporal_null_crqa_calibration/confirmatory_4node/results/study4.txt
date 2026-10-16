@@ -1,0 +1,12 @@
+pairs completed: 40 ; per-pair Bonferroni z = 3.748 (7*M tests) ; per-classifier z = 2.690 (7 tests)
+R                  separated  0/40  prop 0.000  Wilson(Bonf) [0.000, 0.153]  -> generally fails       acc mean 0.500 (min 0.448, max 0.550)
+C0_likelihood      separated 40/40  prop 1.000  Wilson(Bonf) [0.847, 1.000]  -> generally separates   acc mean 1.000 (min 1.000, max 1.000)
+C1_TE              separated 36/40  prop 0.900  Wilson(Bonf) [0.706, 0.971]  -> generally separates   acc mean 0.874 (min 0.547, max 1.000)
+C2_JRR             separated 23/40  prop 0.575  Wilson(Bonf) [0.370, 0.757]  -> mixed (unresolved)    acc mean 0.758 (min 0.455, max 1.000)
+C3_MdRR            separated  8/40  prop 0.200  Wilson(Bonf) [0.083, 0.409]  -> generally fails       acc mean 0.582 (min 0.455, max 0.983)
+C4_SHREC           separated 28/40  prop 0.700  Wilson(Bonf) [0.487, 0.851]  -> mixed (unresolved)    acc mean 0.748 (min 0.497, max 1.000)
+C5_falsepair_q220  separated  1/40  prop 0.025  Wilson(Bonf) [0.003, 0.193]  -> generally fails       acc mean 0.505 (min 0.412, max 0.647)
+H2 (TOST, margin 0.05): R mean acc 0.4999, 90% t-CI [0.4929, 0.5070] -> EQUIVALENT TO CHANCE (H2 supported)
+secondary C1_TE    exact-population separates 25/40 ; finite separates 36/40 ; agree 29/40 ; exact-only 0 ; finite-only 11
+secondary C2_JRR   exact-population separates 25/40 ; finite separates 23/40 ; agree 38/40 ; exact-only 2 ; finite-only 0
+secondary C3_MdRR  exact-population separates 9/40 ; finite separates 8/40 ; agree 39/40 ; exact-only 1 ; finite-only 0

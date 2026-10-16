@@ -1,0 +1,14 @@
+per-classifier z (Bonferroni over 2, two-sided 0.05) = 2.2414
+C2_JRR 4-node estimate 23/40 = 0.575 ; unadjusted 95% Wilson [0.422, 0.715]
+C4_SHREC 4-node estimate 28/40 = 0.700 ; unadjusted 95% Wilson [0.546, 0.819]
+power (prob. of a resolved verdict in the true direction) by true pi and M:
+   pi   M=200   M=300   M=400   M=500   M=600   M=800  
+  0.400 0.743   0.892   0.962   0.987   0.996   1.000  
+  0.450 0.217   0.301   0.401   0.483   0.582   0.727  
+  0.550 0.217   0.301   0.401   0.483   0.582   0.727  
+  0.575 0.473   0.638   0.776   0.861   0.926   0.979  
+  0.600 0.743   0.892   0.962   0.987   0.996   1.000  
+  0.650 0.983   0.999   1.000   1.000   1.000   1.000  
+  0.700 1.000   1.000   1.000   1.000   1.000   1.000  
+chosen M = 600: power 0.9+ at the JR point estimate 0.575 and ~1.0 at SHREC 0.70; if JR's true pi is 0.55 power is ~0.6 (an unresolved outcome then remains possible).
+available fresh orbit pairs: 1872 - 40 used = 1832

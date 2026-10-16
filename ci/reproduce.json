@@ -6964,6 +6964,89 @@
       "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     },
     {
+      "name": "q221-orbit-component-sensitivity",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.orbit_overlap_sensitivity",
+      "expect": [
+        "q221 orbit-overlap sensitivity audit: 600 pairs, 279 components, 34 max-size; JR 347, SHREC 363"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/POSTHOC_ORBIT_COMPONENT_SENSITIVITY.md"
+    },
+    {
+      "name": "q221-parent-orbit-identity",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.parent_orbit_identity",
+      "expect": [
+        "q221 parent pair identity: 40 distinct pairs; 80 distinct orbits; 0 shared orbits"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/ORBIT_PAIR_UNIT_AUDIT.md"
+    },
+    {
+      "name": "q221-heldout-split-identity",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.test_structural_family_overlap",
+      "expect": [
+        "q221 split identity: nsi 80/80 unique; aff 80/80 unique; shared 0",
+        "q221 split 48-group orbits: nsi 50; aff 43; shared 0"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/identifiability/results/structural_baselines.json"
+    },
+    {
+      "name": "q221-four-node-receipts-qa",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.audit_4node_records",
+      "expect": [
+        "q221 F4 record integrity: 40 orbit-disjoint pairs; 400 held-out trajectories each; 7 classifiers reproduced; H2 mean=0.4999375, CI90=[0.492921,0.506954] PASS"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
+      "name": "q221-affine-minimality",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.minimality_affine",
+      "expect": [
+        "\"first_nonisomorphic_ambiguity_n\": 3",
+        "\"systems\": 24",
+        "\"profile_classes\": 16",
+        "\"equal_profile_pairs\": 8",
+        "\"nonisomorphic_equal_profile_pairs\": 0"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/independent_audit/MINIMALITY_AFFINE.md"
+    },
+    {
+      "name": "q221-four-node-all-lag-audit",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.all_lag_audit",
+      "expect": [
+        "q221 4-node all-lag certificate: 640/640 signatures and k0..31 exact profiles",
+        "q221 GL4 order: 20160 matrices; maximum 15"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/ALL_LAG_VERIFICATION_ADDENDUM.md"
+    },
+    {
+      "name": "q221-finite-population-followup-bound",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.finite_population_tail_bound",
+      "expect": [
+        "C2_JRR 347/600 fraction 0.578333",
+        "C4_SHREC 363/600 fraction 0.605000",
+        "design-based finite-pair audit PASS"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/POSTHOC_FINITE_POPULATION_BOUND.md"
+    },
+    {
+      "name": "q221-exact-all-lag-recurrence-proof",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.independent_audit.exact_all_lags_certificate",
+      "expect": [
+        "\"exact_components_equal_lags_0_to_15\": 144",
+        "\"equality_exact\": true",
+        "\"checked_symmetries\": 48",
+        "\"isomorphisms_found\": []"
+      ],
+      "timeout": 30,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/independent_audit/EXACT_ALL_LAGS_PROOF.md"
+    },
+    {
       "name": "probe-voting-robustness",
       "cmd": "python -m org_frontier.probes.probe_voting_robustness",
       "expect": [
@@ -6978,6 +7061,153 @@
       ],
       "timeout": 120,
       "source": "org_frontier/probes/probe_voting_robustness.py"
+    },
+    {
+      "name": "q221-iso-check-matched-candidate",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.iso_check_hassan_pair",
+      "expect": [
+        "node-permutation isomorphisms (6): []",
+        "perm x value-flip isomorphisms (48): [((0, 2, 1), 6), ((0, 2, 1), 7)]"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-lead-pair-exact-phi",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.rep_verify",
+      "expect": [
+        "== P CM=[[0, 1, 1], [0, 1, 0], [1, 0, 1]] ; q161 core=(0, 2) Φ=2.000000 ; drops=[2.0, 0.0, 2.0] ; B=[0, 2]",
+        "== Q CM=[[0, 1, 1], [0, 1, 0], [1, 1, 1]] ; q161 core=(0, 2) Φ=2.000000 ; drops=[1.0, 0.0, 2.0] ; B=[2]",
+        "exact cross equal (6 ordered pairs x lags 0..40): True ; exact auto equal (3 x 0..40): True",
+        "isomorphic under 48-group (node perm x value relabel): False"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-target-variants",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.target_variants",
+      "expect": [
+        "== Q = aff(9,15,10)  q161 freeze-rule target: base 2.000 drops [1.0, 0.0, 2.0] B [2]",
+        "   background-condition variant, x_k = 0: base 2.000 drops [1.0, 0.0, 1.0] B [0, 2]"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/TARGET_AUDIT.md"
+    },
+    {
+      "name": "q221-process-law-equivalence",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.process_law_equivalence",
+      "expect": [
+        "observed channels XY : law of the projected process equal for ALL T: False (span dim 16)",
+        "observed channels XH : law of the projected process equal for ALL T: True (span dim 4)"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-pair-search-storage",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.pair_search_data --check",
+      "expect": [
+        "pair_search.json.gz OK: raw sha256 7c54d45b690081003c836b696d6d63014aa5428a1d8221449a3ba2c75a58ba13, 731681 raw bytes, 24174 gz bytes"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/identifiability/results/PAIR_SEARCH_STORAGE.md"
+    },
+    {
+      "name": "q221-4node-exact-screen",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.screen4",
+      "expect": [
+        "S0: |GL(4,2)| = 20160 ; systems = 322560",
+        "S3: classes with >= 2 orbits = 30216 ; unordered non-isomorphic system pairs = 1366408 ; unordered orbit pairs = 1872",
+        "marginals 1/2: 300/300",
+        "non-isomorphic (384 maps): 40/40"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
+      "name": "q221-followup-receipts-independent",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.audit_followup_receipts",
+      "expect": [
+        "q221 followup receipts PASS: 600 pairs, 12 parts, 0 parent overlaps; JR=347, SHREC=363; R=1, C0=600",
+        "paired JR/SHREC: both=231 JR_only=116 SHREC_only=132 neither=121",
+        "exact McNemar p=0.3409"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
+      "name": "q221-4node-followup-combine",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.followup --combine",
+      "expect": [
+        "manipulation checks: R mean acc 0.5008, R separated 1/600 ; C0 separated 600/600 -> PASS",
+        "PRIMARY C2_JRR    separated 347/600  prop 0.578  Wilson(Bonf 2) [0.533, 0.623]  -> generally separates",
+        "PRIMARY C4_SHREC  separated 363/600  prop 0.605  Wilson(Bonf 2) [0.560, 0.649]  -> generally separates"
+      ],
+      "timeout": 120,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
+      "name": "q221-survivor-baselines",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.baselines_survivors",
+      "expect": [
+        "[['aff', 9, 6, 10], ['aff', 9, 15, 10]] a=0.463(0.4142, 0.5115) b=0.525(0.4761, 0.5735) c=0.465(0.4167, 0.514) d=1.000(0.9905, 1.0) e=1.000(0.9905, 1.0)"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-variant-reconciliation",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.variants_abc",
+      "expect": [
+        "H lag-1 self-match = 292553/390625 = 0.74893568 ; CMI I(H';X,Y|H) = 0.41078149 bits",
+        "H lag-1 self-match = 1/2 = 0.50000000 ; CMI I(H';X,Y|H) = 0.59782081 bits",
+        "A vs B (B_xor, H'=X^Y): cross pair×lag values equal 126/126 ; auto equal 43/63 ; max |Δcross| = 0"
+      ],
+      "timeout": 300,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-exact-screen",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.screen_exact",
+      "expect": [
+        "S5 + not 48-group isomorphic                         pairs=  144  unique(node perm)=  24  unique(48-group, non-iso)=  3"
+      ],
+      "timeout": 900,
+      "slow": true,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-affine-theory",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.affine_theory",
+      "expect": [
+        "Prop 1 closed form == exact profiles (lags 0..20, all i,j) and marginals 1/2: 1344/1344",
+        "Prop 2 one-step parity statistics == exact (all 8 v x 3 j): 1344/1344"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-structural-baselines",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.structural_baselines",
+      "expect": [
+        "   P4 score 0.6260 [0.5396, 0.7146]   minus chance +0.0385 [-0.0479, +0.1198]",
+        "   P4 score 0.5458 [0.4698, 0.6177]   minus chance +0.0167 [-0.0417, +0.0750]"
+      ],
+      "timeout": 900,
+      "slow": true,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
+    },
+    {
+      "name": "q221-null-extension",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.identifiability.null_extension",
+      "expect": [
+        "p=0.98 q220_prominence  shuffle   107/250 FPR 0.428  CI [0.3682, 0.49]  outside",
+        "p=0.90 q220_prominence  shuffle    68/250 FPR 0.272  CI [0.2206, 0.3303]  outside"
+      ],
+      "timeout": 1200,
+      "slow": true,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/FINDINGS.md"
     }
   ]
 }

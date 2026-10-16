@@ -1,0 +1,9 @@
+pairs completed: 600 of 600 ; per-pair z = 3.7475 (parent, fixed) ; per-classifier z = 2.2414 (Bonferroni over 2)
+manipulation checks: R mean acc 0.5008, R separated 1/600 ; C0 separated 600/600 -> PASS
+PRIMARY C2_JRR    separated 347/600  prop 0.578  Wilson(Bonf 2) [0.533, 0.623]  -> generally separates   (mean acc 0.760)
+PRIMARY C4_SHREC  separated 363/600  prop 0.605  Wilson(Bonf 2) [0.560, 0.649]  -> generally separates   (mean acc 0.707)
+pooled (descriptive) C2_JRR    370/640  [0.534, 0.621] -> generally separates
+pooled (descriptive) C4_SHREC  391/640  [0.567, 0.653] -> generally separates
+secondary C1_TE    exact separates 374/600 ; finite separates 521 ; agree 453 ; exact-only 0 ; finite-only 147
+secondary C1_TE_MM exact separates 374/600 ; finite separates 521 ; agree 453 ; exact-only 0 ; finite-only 147
+secondary C2_JRR   exact separates 379/600 ; finite separates 347 ; agree 568 ; exact-only 32 ; finite-only 0

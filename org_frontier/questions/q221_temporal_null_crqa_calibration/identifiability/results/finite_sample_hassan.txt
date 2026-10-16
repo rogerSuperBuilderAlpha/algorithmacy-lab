@@ -1,0 +1,10 @@
+box-run: start 'q221-ident-fsH' [research, 2000 MB est, as-cap off MB] after 0s wait
+Hassan-version systems, R = 400 each, seeds 42000..42399
+maxprom  A 0.0418 ±0.0005   B 0.0482 ±0.0005
+maxcc    A 0.0130 ±0.0013   B 0.0265 ±0.0018
+any      A 0.2225 ±0.0208   B 0.3925 ±0.0244
+noev     A 0.7775 ±0.0208   B 0.6075 ±0.0244
+lag0     A 0.5005 ±0.0006   B 0.5000 ±0.0006
+Hauto1   A 0.9201 ±0.0005   B 0.5011 ±0.0010
+exact CMI I(H';X,Y|H): A = 0 (H' depends on H only); B = H(H'|H) - H(H'|X,Y,H) = 1 - h2(0.08) = 0.597821 bits
+box-run: done 'q221-ident-fsH' rc=0 waited=0s ran=3s

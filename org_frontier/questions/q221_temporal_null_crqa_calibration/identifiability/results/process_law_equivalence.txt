@@ -1,0 +1,8 @@
+sanity: P vs P (all channels) equal: True ; Hassan's isomorphic pair aff(6,9,5)/aff(11,9,5), X only: True ; first candidate nsi(0,3,3)/aff(6,9,5), X only: False
+observed channels X  : law of the projected process equal for ALL T: True (span dim 4)
+observed channels Y  : law of the projected process equal for ALL T: True (span dim 8)
+observed channels H  : law of the projected process equal for ALL T: True (span dim 4)
+observed channels XY : law of the projected process equal for ALL T: False (span dim 16)
+observed channels XH : law of the projected process equal for ALL T: True (span dim 4)
+observed channels YH : law of the projected process equal for ALL T: False (span dim 16)
+observed channels XYH: law of the projected process equal for ALL T: False (span dim 16)
