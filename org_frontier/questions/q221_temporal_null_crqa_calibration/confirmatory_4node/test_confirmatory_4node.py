@@ -105,6 +105,10 @@ def test_affine_all_lag_signature_for_all_640_recorded_pairs():
     for pair in parent + follow:
         a, b = tuple(pair["a"]), tuple(pair["b"])
         assert f4.signature(*a) == f4.signature(*b)
+        # For two 16-state kernels, equality of 32 consecutive lag values
+        # (k=0..31) is sufficient by the PRODUCT of the two characteristic
+        # polynomials; 0..20 alone is not a generic all-lag certificate.
+        assert f4.prop1_profiles(*a, 31) == f4.prop1_profiles(*b, 31)
         assert a != b
 
 def test_gl4_matrix_order_bound_for_affine_all_lag_proof(As):
