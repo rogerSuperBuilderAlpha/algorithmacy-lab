@@ -1,5 +1,10 @@
 # Q221 progress — exploratory feasibility record
 
+## Current status addendum — 2026-10-15 (later than the original checkpoints)
+
+**Do not use the earlier unchecked follow-up or CI lines below as current status.** The four-node target-A study and its preregistered 600-pair C2/C4 follow-up have finished, with original data and preregistration preserved. Their results are in `confirmatory_4node/RESULTS.md`; the primary frozen rule gives C2=347/600 and C4=363/600 `generally separates` for the **finite orbit-pair population**. The independent `confirmatory_4node/POSTHOC_PAIRED_METHOD_AUDIT.md` verifies the paired counts, and `ORBIT_PAIR_UNIT_AUDIT.md` limits superpopulation extrapolation. An additional `POSTHOC_ORBIT_COMPONENT_SENSITIVITY.md` explores graph-dependent resampling without changing the frozen verdicts. Target B still depends on the q161 rule-freeze convention, unresolved with the maintainer. Latest-head CI must be checked on its own SHA before any merge decision.
+
+
 Worktree `/workspace/algorithmacy-q221`, branch `q221-temporal-null-calibration` off `upstream/contrib` 44f9b491.
 Python: `/workspace/algorithmacy-827-venv/bin/python` (numpy 2.5.4, scipy 1.18.1).
 
