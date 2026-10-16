@@ -176,3 +176,14 @@ This is an input and inferential-scope audit, **not** a new registered hypothesi
 
 The Wilson intervals are the **prespecified approximate procedure** for the 600 pair-specific separation events. Sampling without replacement from 1,832 available orbit pairs and independently generating trajectories for every selected pair require care in interpreting those intervals beyond the finite orbit-pair population. Orbit sharing does not entail reuse of physical trajectories; conversely, it limits any broad claim that the study independently sampled all underlying network forms. No post-hoc cluster correction or interval substitution was used to overturn or confirm the preregistered decisions. See ORBIT_PAIR_UNIT_AUDIT.md and test_followup_orbit_pair_unit_and_seed_block_integrity.
 
+
+## Post-hoc finite-pair concentration sensitivity (2026-10-15)
+
+A separate, independent read-only audit checks whether the C2/C4 verdicts are especially fragile to the follow-up's **sampling without replacement** of 600 orbit-pair IDs from a finite population of 1,832. It verifies all 600 unique pair IDs and original binary decisions and derives a conservative one-sided Chernoff bound for the null that the finite-population *average probability of a pair-specific separation event* is at most 1/2. The proof does **not** assume identical pair difficulty; it relies on uniform without-replacement pair selection and fresh independent trajectory simulations conditional on each selected pair.
+
+| Method | Observed separated | One-sided finite-pair null tail **upper bound** | Bonferroni 2-method bound |
+|---|---:|---:|---:|
+| C2 joint recurrence | 347/600 | ≤ 0.000615083 | ≤ 0.00123017 |
+| C4 SHREC | 363/600 | ≤ 0.00000162664 | ≤ 0.00000325327 |
+
+**This is POST-HOC supporting sensitivity analysis, not a preregistered test or replacement for the frozen Wilson intervals.** It supports robustness of the conclusions for the finite population of orbit-pair identities under the study's simulation design. It does **not** justify generalizing to independent network-orbit superpopulations, address SHREC-versus-JR superiority, or negate the different connected-component bootstrap diagnostic. See `POSTHOC_FINITE_POPULATION_BOUND.md` and the fast registered audit in `independent_audit/finite_population_tail_bound.py`.
