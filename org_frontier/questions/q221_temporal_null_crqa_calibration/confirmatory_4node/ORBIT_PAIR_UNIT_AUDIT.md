@@ -10,6 +10,12 @@ The sampled 600 pair records contain **782 distinct orbit identifiers**. Of the 
 
 The overlap does matter when interpreting the study as evidence about a hypothetical superpopulation of **independently sampled network forms**. Orbit pairs sharing a system can share structural difficulty, and the 600 records should not be described as 1,200 independent model forms.
 
+## Parent study: exact orbit identity audit (40 pairs)
+
+The separately preregistered **parent** four-node study selected 40 unordered orbit pairs. An independent standard-library calculation from the committed `results/screen4.json` receipt finds **40 distinct unordered pairs, 80 distinct constituent orbit identifiers, and zero reuse of an orbit across those 40 pairs**. Thus the specific orbit-sharing issue detected in the 600-pair follow-up is absent from the 40-pair parent sample. This does not turn the study into evidence about unrelated network families, and it does not modify the prespecified TOST or Wilson rules.
+
+The new fast `parent_orbit_identity.py` checks those exact identities and is registered in `ci/reproduce.json` under `q221-parent-orbit-identity`. It is a retrospective input-integrity assertion, not a rerun or re-selection of the 40 pairs.
+
 ## Stochastic evaluation is independent per sampled pair
 
 The preregistered trajectory seed formula is base 5,220,000 + 1,000*q + 500*member + r for pair index q=0..599, member=0/1 and run r=0..299. Its per-pair seed block is [5,220,000+1,000*q, 5,220,799+1,000*q]. Blocks for distinct pair indices are disjoint by at least 201 integer seeds. The sampling of orbit-pair identities uses a separate seed 5,210,002.
