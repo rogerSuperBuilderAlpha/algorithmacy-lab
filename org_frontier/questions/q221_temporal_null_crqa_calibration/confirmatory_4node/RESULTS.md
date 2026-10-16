@@ -133,9 +133,11 @@ estimates are modest (0.58 and 0.61).
   finite JR never separates a pair whose population JRR is equal. Its finite-sample failures are therefore mostly
   structural. They are not a power problem.
 - **SHREC goes beyond JR.** It separates 115 of those 221 pairs (exploratory observation).
-- **The TE estimator artefact replicates at scale.** 147 pairs are separated by finite-sample TE although their
-  population TE is identical. The registered Miller–Madow correction gives identical separation decisions (600/600 agree); it
-  is a constant shift whenever all cells are occupied, see F4. It cannot fix this, so the bias is not the leading-order cell-count term (exploratory reading).
+- **Finite-sample TE features distinguish some systems despite equal population TE.** This occurs for 147 pairs.
+  The registered Miller–Madow correction gives identical separation decisions (600/600 agree); as documented in F4,
+  the correction is normally a constant shift under complete cell occupancy. This rules out that *particular*
+  correction as a remedy, but does **not** uniquely identify the mechanism of discrimination: finite-sample
+  estimator bias, variance or covariance may differ between systems (exploratory interpretation).
 - **Coverage.** 31/600 pairs are separated by none of TE, JR or SHREC; all 600 are separated by the transition
   likelihood.
 
@@ -147,7 +149,7 @@ estimates are modest (0.58 and 0.61).
 | C4 SHREC | **generally separates: confirmatory empirical** (replaces the parent's "unresolved") |
 | manipulation checks | pass |
 | secondary tables | descriptive |
-| "JR is bounded by its population value", "SHREC beyond JR", "TE bias is not the MM term" | **exploratory** |
+| "JR is bounded by its population value", "SHREC beyond JR", "finite-sample TE separation despite equal population TE" | **exploratory** |
 
 **Scope.** The same as the parent: F4, p = 0.08, T = 600, these implementations and library defaults (SHREC
 `49c6d3e0`). The results say nothing about IIT targets.
