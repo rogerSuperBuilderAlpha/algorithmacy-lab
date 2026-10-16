@@ -7086,6 +7086,17 @@
       "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
     },
     {
+      "name": "q221-followup-receipts-independent",
+      "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.audit_followup_receipts",
+      "expect": [
+        "q221 followup receipts PASS: 600 pairs, 12 parts, 0 parent overlaps; JR=347, SHREC=363; R=1, C0=600",
+        "paired JR/SHREC: both=231 JR_only=116 SHREC_only=132 neither=121",
+        "exact McNemar p=0.3409"
+      ],
+      "timeout": 45,
+      "source": "org_frontier/questions/q221_temporal_null_crqa_calibration/confirmatory_4node/RESULTS.md"
+    },
+    {
       "name": "q221-4node-followup-combine",
       "cmd": "python -m org_frontier.questions.q221_temporal_null_crqa_calibration.confirmatory_4node.followup --combine",
       "expect": [
