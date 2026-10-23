@@ -1,0 +1,6 @@
+# zhou2026deep: Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models
+Full citation: Zhou, H., Zhang, J., Lou, J., Liu, Y., Lu, C., Qu, J., & Li, J. (2026). arXiv:2607.14049v1. PREPRINT. | Read: Abstract, §1, method overview, evaluation setup ("Automated Evaluation and Human Alignment"), limitations; result tables skimmed.
+Claim: Letting users directly edit a finished chain-of-thought (track-changes style) and re-prompting from the edit improves correction success by >25% and cuts tokens ~40% on STEM tasks vs re-generation or dialogue (Abstract; Conclusion).
+Method caveats (authors' own): large-scale results use QAgent, an automated agent that "utilizes reference solutions to simulate human corrective intervention"; an alignment study with students on 200 problems is offered as validation (Automated Evaluation section). Limitation: assumes users can identify errors — "more realistic for ... expert or semi-expert users" (Limitations).
+Correction to the packet: editing happens on a COMPLETED response, not mid-stream; the 25%/40% gains come mainly from simulated correctors, not people; there is no eye tracking or streaming.
+Cited by me for: segment-level editing of reasoning as a redirection mechanism — a possible "Act" after a decision space. Weak support for Roger's perceptual claims.
