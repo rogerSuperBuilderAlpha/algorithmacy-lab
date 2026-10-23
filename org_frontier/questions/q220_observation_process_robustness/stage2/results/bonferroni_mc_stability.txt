@@ -1,0 +1,36 @@
+Monte Carlo stability of two-stage bootstrap intervals (R1 primary, MAR 0.3; committed run only)
+verdict pair = (rule as run, margin reading); they differ only for superiority (S2-H1)
+
+S2-H1 (B - A), point +0.2042
+  level 0.950 boot   2000: lo +0.0104..+0.0250 (sd 0.0058)  hi +0.4063..+0.4271  verdicts [('CONFIRMED', 'INCONCLUSIVE')] STABLE
+  level 0.950 boot  20000: lo +0.0167..+0.0187 (sd 0.0011)  hi +0.4125..+0.4167  verdicts [('CONFIRMED', 'INCONCLUSIVE')] STABLE
+  level 0.950 boot  50000: lo +0.0167..+0.0187 (sd 0.0011)  hi +0.4125..+0.4188  verdicts [('CONFIRMED', 'INCONCLUSIVE')] STABLE
+  level 0.995 boot   2000: lo -0.0521..-0.0312 (sd 0.0080)  hi +0.4813..+0.5250  verdicts [('INCONCLUSIVE', 'INCONCLUSIVE')] STABLE
+  level 0.995 boot  20000: lo -0.0438..-0.0396 (sd 0.0019)  hi +0.5083..+0.5125  verdicts [('INCONCLUSIVE', 'INCONCLUSIVE')] STABLE
+  level 0.995 boot  50000: lo -0.0458..-0.0417 (sd 0.0021)  hi +0.5125..+0.5146  verdicts [('INCONCLUSIVE', 'INCONCLUSIVE')] STABLE
+
+S2-H7a (CLEAN - CHANCE), point +0.2299
+  level 0.950 boot   2000: lo +0.0715..+0.0819 (sd 0.0051)  hi +0.3583..+0.3618  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.950 boot  20000: lo +0.0757..+0.0792 (sd 0.0014)  hi +0.3611..+0.3625  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.950 boot  50000: lo +0.0750..+0.0778 (sd 0.0011)  hi +0.3597..+0.3632  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.995 boot   2000: lo -0.0181..+0.0222 (sd 0.0170)  hi +0.3882..+0.4069  verdicts [('CONFIRMED', 'CONFIRMED'), ('INCONCLUSIVE', 'INCONCLUSIVE')] UNSTABLE
+  level 0.995 boot  20000: lo -0.0049..+0.0104 (sd 0.0061)  hi +0.4000..+0.4062  verdicts [('CONFIRMED', 'CONFIRMED'), ('INCONCLUSIVE', 'INCONCLUSIVE')] UNSTABLE
+  level 0.995 boot  50000: lo +0.0014..+0.0042 (sd 0.0012)  hi +0.4014..+0.4069  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+
+S2-H7b (CLEAN - NULL-CLEAN), point +0.2387
+  level 0.950 boot   2000: lo +0.0733..+0.0850 (sd 0.0052)  hi +0.3695..+0.3781  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.950 boot  20000: lo +0.0799..+0.0810 (sd 0.0004)  hi +0.3750..+0.3778  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.950 boot  50000: lo +0.0778..+0.0810 (sd 0.0012)  hi +0.3753..+0.3782  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.995 boot   2000: lo -0.0167..+0.0222 (sd 0.0156)  hi +0.4067..+0.4238  verdicts [('CONFIRMED', 'CONFIRMED'), ('INCONCLUSIVE', 'INCONCLUSIVE')] UNSTABLE
+  level 0.995 boot  20000: lo -0.0038..+0.0128 (sd 0.0068)  hi +0.4176..+0.4235  verdicts [('CONFIRMED', 'CONFIRMED'), ('INCONCLUSIVE', 'INCONCLUSIVE')] UNSTABLE
+  level 0.995 boot  50000: lo +0.0017..+0.0052 (sd 0.0014)  hi +0.4190..+0.4233  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+
+S2-H8 (B - CHANCE), point +0.2319
+  level 0.950 boot   2000: lo +0.0882..+0.0937 (sd 0.0025)  hi +0.3500..+0.3556  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.950 boot  20000: lo +0.0875..+0.0896 (sd 0.0009)  hi +0.3528..+0.3542  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.950 boot  50000: lo +0.0861..+0.0896 (sd 0.0013)  hi +0.3521..+0.3556  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.995 boot   2000: lo +0.0111..+0.0423 (sd 0.0117)  hi +0.3861..+0.3924  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.995 boot  20000: lo +0.0167..+0.0222 (sd 0.0025)  hi +0.3889..+0.3958  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+  level 0.995 boot  50000: lo +0.0194..+0.0229 (sd 0.0015)  hi +0.3917..+0.3944  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE
+
+seeds (220, 1, 2, 3, 4); estimator stats.cluster_boot (percentile, numpy linear quantile)

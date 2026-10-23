@@ -6964,6 +6964,29 @@
       "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
     },
     {
+      "name": "q220-stage2-posthoc-bonferroni-mc-stability",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.bonferroni_mc_stability",
+      "expect": [
+        "  level 0.995 boot   2000: lo -0.0181..+0.0222 (sd 0.0170)  hi +0.3882..+0.4069  verdicts [('CONFIRMED', 'CONFIRMED'), ('INCONCLUSIVE', 'INCONCLUSIVE')] UNSTABLE",
+        "  level 0.995 boot  50000: lo +0.0014..+0.0042 (sd 0.0012)  hi +0.4014..+0.4069  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE",
+        "  level 0.995 boot  50000: lo +0.0194..+0.0229 (sd 0.0015)  hi +0.3917..+0.3944  verdicts [('CONFIRMED', 'CONFIRMED')] STABLE"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
+      "name": "q220-stage2-posthoc-interval-sensitivity",
+      "cmd": "python -m org_frontier.questions.q220_observation_process_robustness.stage2.stats_sensitivity",
+      "expect": [
+        "  0.950 basic lo -0.0083..-0.0042  hi +0.3896..+0.3917  INCONCLUSIVE/INCONCLUSIVE",
+        "  0.950 t     lo -0.0243..-0.0243  hi +0.4326..+0.4326  INCONCLUSIVE/INCONCLUSIVE",
+        "  0.995 bca   lo -0.0517..-0.0326  hi +0.3694..+0.3771  INCONCLUSIVE",
+        "  0.995 t     lo -0.0117..-0.0117  hi +0.4756..+0.4756  INCONCLUSIVE"
+      ],
+      "timeout": 600,
+      "source": "org_frontier/questions/q220_observation_process_robustness/FINDINGS.md"
+    },
+    {
       "name": "probe-voting-robustness",
       "cmd": "python -m org_frontier.probes.probe_voting_robustness",
       "expect": [

@@ -54,3 +54,6 @@ submissions/phd1750_spaces_in_stream/**/*.pdf
 submissions/phd1750_spaces_in_stream/sec2/img/
 submissions/phd1750_spaces_in_stream/algorithmacy/gal2020.xml
 submissions/phd1750_spaces_in_stream/sec3/claudecode/ronacher.html
+
+# Spaces in the Stream dissertation project: nested PRIVATE repo (algorithmacy-spaces). Never track here.
+spaces/
