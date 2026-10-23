@@ -21,6 +21,10 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`hegel_coordination/`](hegel_coordination/) | Hegel Substack series | no deadline |
 | [`triad_thinkers/`](triad_thinkers/) | Thinkers-on-the-triad Substack companion (post 1: Simmel) | no deadline |
 | [`triadic_reduction/`](triadic_reduction/) | ALGOCON talk: Peirce's reduction thesis, Simmel, Quine, the logicians, the lab's IIT move, and the case for algorithmacy (deck + script); sources ingested | 2026-10-28 |
+| [`phygital_amj_marketing/`](phygital_amj_marketing/) | *Australasian Marketing Journal* APA 2027 special issue: Human-Centric Phygital Marketing. Project opened 2026-10-23; angle proposed, not ruled. See [`PHYGITAL_APA_2027.md`](PHYGITAL_APA_2027.md) for all four calls | abstract 2026-11-10 |
+| [`phygital_cjas_leadership/`](phygital_cjas_leadership/) | *Canadian Journal of Administrative Sciences* APA 2027 special issue: Phygital Leadership. Project opened; abstract deadline passed | manuscript 2027-07-10 |
+| [`phygital_smq_value_creation/`](phygital_smq_value_creation/) | *Services Marketing Quarterly* APA 2027 special issue: Phygital Value Creation. Project opened; abstract deadline passed | manuscript 2027-05-30 |
+| [`phygital_bh_transformation/`](phygital_bh_transformation/) | *Business Horizons* APA 2027 special issue: Phygital Business Transformation. Project opened; abstract and registration deadlines passed | not stated |
 
 These arms borrow lab constructs. They do not re-run Φ. Exact-Φ results remain evidence about
 Boolean models.
