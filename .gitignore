@@ -57,3 +57,6 @@ submissions/phd1750_spaces_in_stream/sec3/claudecode/ronacher.html
 
 # Spaces in the Stream dissertation project: nested PRIVATE repo (algorithmacy-spaces). Never track here.
 spaces/
+
+# APA Summit 2027 phygital calls: the editors' PDFs, page copies and extracted text stay local
+submissions/phygital_*/cfp/source/
