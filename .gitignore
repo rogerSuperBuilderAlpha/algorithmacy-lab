@@ -47,5 +47,13 @@ org_frontier/reviews/
 submissions/slacker_thirds/reviews/**/*.pdf
 submissions/slacker_thirds/reviews/**/models/model_mcloughlin.md
 
+# PHD1750 "Spaces in the Stream": publisher PDFs, extracted full texts, page scans and third-party page copies (public repo; local only, in ~/phd1750-litreview)
+submissions/phd1750_spaces_in_stream/**/pdfs/
+submissions/phd1750_spaces_in_stream/**/texts/
+submissions/phd1750_spaces_in_stream/**/*.pdf
+submissions/phd1750_spaces_in_stream/sec2/img/
+submissions/phd1750_spaces_in_stream/algorithmacy/gal2020.xml
+submissions/phd1750_spaces_in_stream/sec3/claudecode/ronacher.html
+
 # Spaces in the Stream dissertation project: nested PRIVATE repo (algorithmacy-spaces). Never track here.
 spaces/

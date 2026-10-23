@@ -1,0 +1,7 @@
+# ridley2021: Algorithmic Literacy and the Role for Libraries
+Full citation: Ridley, M., & Pawlick-Potts, D. (2021). Information Technology and Libraries, 40(2). | DOI: 10.6017/ital.v40i2.12963 | Read: pp. 1–4 (definition and rationale) in full; library-role sections skimmed.
+Working description (p. 3): algorithmic literacy is "the skill, expertise, and awareness to" understand and reason about algorithms; recognize their use in systems; create and apply algorithmic techniques; assess their social, cultural, economic, political influence; and "Position the individual as a co-constituent in algorithmic decision-making." Two overarching concepts: "creativity and critical analysis."
+Rationale (p. 3): algorithms are "complex, opaque, invisible, shielded by intellectual property protection," and control "is held by those who build and deploy algorithms, not those who use them."
+The "Bawden" they cite is an older analysis of literacy definitions (note 28), not a 2024 work.
+Correction to the packet: the packet's paraphrase ("statistical inference," "pragmatic tool selection") does not match the five bullets; quote the bullets instead. "Bawden (2024)" and "Hagendorff (2024)" in the packet have no full reference and I did not verify them.
+Cited by me for: the established algorithmic-literacy definition that algorithmacy extends — it describes knowledge and awareness, with no real-time perceptual component (my reading, not the authors').
