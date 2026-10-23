@@ -46,3 +46,6 @@ org_frontier/reviews/
 # Re-acquisition commands in submissions/slacker_thirds/reviews/*/PROVENANCE.md
 submissions/slacker_thirds/reviews/**/*.pdf
 submissions/slacker_thirds/reviews/**/models/model_mcloughlin.md
+
+# Spaces in the Stream dissertation project: nested PRIVATE repo (algorithmacy-spaces). Never track here.
+spaces/
