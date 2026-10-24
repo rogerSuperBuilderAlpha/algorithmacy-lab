@@ -54,7 +54,7 @@ Roger B. Hunt III is a PhD candidate in Business at Bentley University, Waltham,
 | Gagrčin et al. 2026: 442 | "but one facet of competences needed to improve working conditions" (quoted verbatim; the source sentence continues ", mobilize for social causes…") | p. 442 | Verified |
 | Lazar 2025: 163 | "a choice between awful regimes cannot confer authority on either" | p. 163 | Verified |
 | Verhulst & G. Otero 2026 | "who has the power to shape, govern, and challenge these systems" | abstract | Verified. **[CONFIRM] surname form:** the PDF byline reads "Begoña G. Otero"; the Crossref record checked earlier gives "González Otero" |
-| Algorithmacy definition | the three dimensions (inferential, translational, temporal) from the IGI chapter §9; new wording, not the chapter's sentences | `../coordinative_sovereignty/chapter/chapter.md` §9 | Own construct. **Roger: cite the chapter as forthcoming?** |
+| Algorithmacy definition | the three dimensions (inferential, translational, temporal) from the IGI chapter §9; new wording, not the chapter's sentences | `../coordinative_sovereignty/chapter/chapter.md` §9 | Own construct. **Not cited: Roger ruled 24 Oct not to cite his own work** |
 
 ## Alternative titles (DRAFTED)
 1. After Literacy: Algorithmacy and the Conditions of Sovereignty under Algorithmic Coordination

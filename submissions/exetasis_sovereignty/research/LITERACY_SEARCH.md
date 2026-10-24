@@ -4,7 +4,7 @@
 
 **Thesis (Roger's ruling, 24 Oct):** literacy is necessary for sovereignty in a democratic state but insufficient in a triadic, opaque, co-optive environment. Just as people had to develop literacy to hold sovereignty in a democracy, they must develop algorithmacy to hold it now.
 
-**Scope ruling (Roger, 24 Oct):** "argue the same thesis" as the IGI chapter, but with the most recent literature and addressing the special issue's themes. This supersedes the README line saying the paper "must add to the chapter, not restate it". The paper still must not reuse the chapter's sentences and must cite the chapter (as forthcoming).
+**Scope ruling (Roger, 24 Oct):** "argue the same thesis" as the IGI chapter, but with the most recent literature and addressing the special issue's themes. This supersedes the README line saying the paper "must add to the chapter, not restate it". The paper still must not reuse the chapter's sentences. Roger ruled the same day that it does not cite the chapter or his other work.
 
 ## Search log
 | Date | Where | Query or route | Result |

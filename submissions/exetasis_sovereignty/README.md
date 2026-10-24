@@ -24,7 +24,7 @@ That project's IGI chapter already defines coordinative sovereignty and grounds 
 - item 3, the mediator's arbitrary power read as rent;
 - item 6, the normative core.
 
-The EU-statutory and hotel-OTA case belongs to the chapter, and this paper does not reuse it. The paper cites the chapter as forthcoming.
+The EU-statutory and hotel-OTA case belongs to the chapter, and this paper does not reuse it. **Ruled 24 Oct: the paper does not cite Roger's own work**, the chapter included.
 
 The parent library holds 405 cards, `library.bib`, the deep-research report and the collision map in `reviews/2026-08-23/LITERATURE_GAPS.md`. This project reuses all of it rather than redoing it.
 
@@ -47,5 +47,5 @@ The parent library holds 405 cards, `library.bib`, the deep-research report and 
 ## Next
 1. ~~Roger's checkpoint.~~ **Ruled 24 Oct 2026:** proceed with the abstract; the bio title is "PhD candidate". S7 found a new, self-run journal: domain registered on 20 May 2026, no ISSN, no back issues, no fees. Before writing the full paper, get the editor's name, ISSN status, OA and licence terms, and dates in writing. The style guide caps articles at 40,000 characters (about 6–7k words), against the call's "about 8,000 words".
 2. ~~Deep research~~ is done: the report is in `research/reports/`, the notes in `research/research_notes/`. ~~Hand verification~~ is done: 35 sources in `literature/VERIFICATION.md`. Roger supplied the PDFs on 24 Oct, so Stark & Vanden Broeck, Pisani, Verhulst & G. Otero, Ingham & Lovett and the published Lazar have all been read in full. Lovett's Appendix II is still open.
-3. ~~Angle~~ **ruled 24 Oct:** the thesis is the chapter's own (literacy was necessary for democratic sovereignty and algorithmacy is necessary now), updated with recent literature and fitted to the call's themes. Restating the chapter's thesis is allowed; reusing its sentences is not, and the paper cites it. The literacy search is in [`research/LITERACY_SEARCH.md`](research/LITERACY_SEARCH.md). Son (2022) must be read before any novelty claim.
+3. ~~Angle~~ **ruled 24 Oct:** the thesis is the chapter's own (literacy was necessary for democratic sovereignty and algorithmacy is necessary now), updated with recent literature and fitted to the call's themes. Restating the chapter's thesis is allowed; reusing its sentences is not. The paper does not cite the chapter or any of Roger's work (ruling, 24 Oct). The literacy search is in [`research/LITERACY_SEARCH.md`](research/LITERACY_SEARCH.md). Son (2022) must be read before any novelty claim.
 4. **`ABSTRACT.md` drafted 24 Oct** (494 words, Shapley left out by ruling). Next is Roger's read-aloud and one correction pass, then the final citation audit, the Gmail draft (unsent) and `PAPER_SKETCH.md`.
