@@ -1,0 +1,34 @@
+# Grunde-McLaughlin, M., Mozannar, H., Murad, M., Chen, J., Amershi, S., & Fourney, A. (2026). *Overseeing agents without constant oversight: Challenges and opportunities* (arXiv:2602.16844). arXiv preprint.
+
+**Identifier:** arXiv:2602.16844 · **Read depth:** full_text (arXiv v1, 18 Feb 2026, 29 pp.; the PDF still carries the ACM template's placeholder venue and "February 2018" date, so no venue has accepted it; pagination is the PDF's. Body, pp. 1–21, read in full; the reference list skimmed; supplementary materials not in the PDF) · **Source-tier:** preprint · **Evidence basis:** direct_read · **Design and sample:** three user studies of N = 12 each (tech-firm employees with agent experience): a formative think-aloud study (§3), a within-participant Wizard-of-Oz study of three trace designs (§4), and a counterbalanced Wizard-of-Oz comparison of baseline against a new interface (§5), all on the Magentic-UI computer-use agent · **Parties modeled:** person–system (a user and the agent whose run they review) · **Facets:** G (also named in Z) · **Read:** 2026-10-13
+
+## What it argues
+Grunde-McLaughlin et al. ask whether the step-by-step "trace" that an agent shows lets a person find its errors. Their answer in three studies is mostly no. In the formative study, participants missed "small but impactful errors" (§3.3.3, p. 7): of runs that finished, the person-plus-agent team got the wrong result in 1 of 9 attempts on the cart task, 5 of 10 on the recipe task and 10 of 12 on the ticket-price task (p. 7). In six runs the agent estimated a youth ticket price it could not find, and only three of those participants noticed (p. 7).
+
+The probe study (§4, pp. 9–14) gave participants finished runs with one of three summaries: a flowchart of the process, a cited summary, or a "Specification" listing requirements and assumptions. Overall accuracy at judging whether the answer was correct was 57.14% for the flowchart, 62.86% for citations and 77.14% for the specification (Table 1, p. 12). On the items where the answer was wrong it was 39.13%, 52.17% and 65.22%. The study was not balanced across tasks, and each method had its own tasks (p. 12). Participants who accepted a wrong answer most often cited that "the process seemed reasonable" (§4.3.2, p. 12).
+
+The controlled study (§5, pp. 14–18) compared the Magentic-UI trace with a new interface that adds the specification, linked annotations and website links. Accuracy was 72.92% against 77.08% (Hedges' g = 0.18, 95% CI −0.52 to 0.94). Time per judgment was 232.87 s against 221.28 s (g = −0.29, CI −1.95 to 1.26). Confidence on a 1–7 scale rose from 4.17 to 4.60 (g = 0.56). Where the answer was wrong and the participant called it right, confidence rose from 3.64 to 4.82 (g = 0.85, CI 0.01 to 1.88; Table 3, p. 18). The authors conclude that the standard trace creates "an illusion of accountability" (p. 3).
+
+## Relation to the argument
+This is the closest test in my batch of human-readable evidence for an agent, and it cuts against the idea that a better readout fixes oversight. It bears on premise P9 (aids that hand the person more to read show weaker, less consistent effects), on P12 (people monitor badly), and on risk 4 in `../../ARGUMENT_MAP.md` (lowering a cost has costs): the interface that helped most also made wrong answers feel safer. It is also an after-the-fact review of a finished run, which the authors say outright is the scenario they test: "the user returns to a completed query for post-hoc verification" (p. 20). That is the task the post's P15 sets for a person, so the study speaks to it, within its limits.
+
+On ruling D7 (understanding through deciding and quickly ingesting results): one participant wanted the agent to "curate all the information. So I'm the pilot, and it will become co-pilot" (P8, p. 7). That is a user's wish, not a finding, but the study's pattern fits the author's point: people judged from whether the process looked sensible, a reading task, and did worse than when they were handed requirements to check. It does not test learning by acting.
+
+Facet check: Facet G (abstract only) says the new interface "cut time to find errors". The body is weaker. The overall time effect is small and its interval spans zero. The larger effect (g = −0.65) applies to the subset where participants correctly judged a wrong answer wrong, and its interval (−1.54 to 0.12) also spans zero (Table 3, p. 18). Only the confidence effect on wrong-judged-right items has an interval clear of zero. The facet's accuracy and confidence statements stand.
+
+## In conversation with
+From the reference list: `turpin2023language` (ref. 78) is cited for the point that model explanations may not be faithful (p. 4); `bucinca2021trust` (ref. 16) is cited for explanation designs that fail to improve reliance, and as the model for "cognitive forcing functions" the authors want tested next (pp. 3, 19). Chan et al. (2023), "Harms from increasingly agentic algorithmic systems" (ref. 18), is cited for safety concerns, but it is not the same work as `chan2024visibility`. The meta-analysis they cite for "Human-AI teams perform worse on average than either alone" (p. 4; Vaccaro, Almaatouq & Malone, 2024) is not in `../references.bib`.
+Leads: Bansal et al. (2021), CHI, on explanations and team performance; Shavit et al. (2023), *Practices for governing agentic AI systems*; Vasconcelos et al. (2025) on uncertainty highlighting; Terry et al. (2023), arXiv:2311.00710.
+
+## Caution
+Twelve participants per study, all employees of one large technology firm with prior agent use (limitations, p. 20); one agent; browsing tasks with a known right answer. The two later studies are Wizard-of-Oz with hand-made annotations that copy the agent's own claims, and the controlled study allowed participants to use the browser, which "may have evened performance" (p. 19). The study is underpowered by the authors' own account (p. 16) and reports effect sizes with wide intervals, so it supports a claim of no evidence of an accuracy gain, not of no gain. Unreviewed preprint.
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** confirmed
+
+**What I checked:** Opened cards/grundemclaughlin2026overseeing.pdf (arXiv 2602.16844v1, 29 pp.). Checked the 5 in-source quotations by exact match plus about 35 numbers against Table 1 (p. 12), Table 3 (p. 18) and the text: all accuracy percentages, 1/9 - 5/10 - 10/12 error counts, n = 6 youth-price runs with half noticing, all Hedges' g values and confidence intervals, and the split of the -0.65 effect to the No-No subset. Also the limitations, power statement (p. 16), post-hoc passage (p. 20), refs 16, 18, 78.
+
+**Findings:** No issues found. The one non-matching quotation, 'cut time to find errors', is the facet file's wording; the source's abstract (n = 12, g = -0.65) says participants 'found errors faster', and the card's reading of the body table is correct.

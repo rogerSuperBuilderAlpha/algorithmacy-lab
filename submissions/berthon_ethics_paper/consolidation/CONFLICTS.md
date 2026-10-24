@@ -24,6 +24,8 @@ the history is for and on which wrong is central: the position (04–07), the bu
 missing promotive design (01), or the missing conditions of learning (02). The working titles follow the theses
 (M08), and Vallor's question (K15) opens only 01.
 
+**Ruled 2026-10-24, by Claude under the author's delegation** (`../nadella/README.md`, Rulings): the merge option, with Nadella's insider post as the central case. Reversible.
+
 **Decision.** Choose one thesis; or merge 04–07 with 08, so that the five positions supply the historical spine
 and the three wrongs supply the present-day reading; or keep them as separate papers. Whatever governs decides
 which of X02–X05 matter.
