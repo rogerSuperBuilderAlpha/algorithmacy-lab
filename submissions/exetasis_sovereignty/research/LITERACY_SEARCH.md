@@ -45,14 +45,14 @@
 ### Recent literature (2022–2026)
 | Source | Bearing | Status |
 |---|---|---|
-| **Son (2022)**, "Democracy in the Time of 'Hyperlead': Knowledge Acquisition via Algorithmic Recommendation and Its Political Implication in Comparison with Orality, Literacy, and Hyperlink", *Phil. & Tech.* 35(3) | **The closest collision found.** It runs an orality → literacy → hyperlink → algorithmic-recommendation sequence, and it is about democracy. It must be read before any novelty claim. | **Unreachable:** Springer client challenge; not open access. Roger to fetch via Bentley |
+| **Son (2022)**, "Democracy in the Time of 'Hyperlead'…", *Phil. & Tech.* 35(3), art. 80 | **Read in full on 24 Oct: a partial collision and the best foil.** It has the same sequence and the same premise ("literacy is the necessary condition for democracy", p. 13). Its object is dyadic knowledge acquisition, and its remedy is "technology literacy" ("learn how algorithmic recommendation systems work", p. 16) plus transparency and regulation. It has no triad, no coordination and no standing. The thesis differs at exactly the point Son stops: a literacy of the system is insufficient where the system is a co-optive third party | full text |
 | Coeckelbergh (2022), *AI and Ethics* 3(4) 1341–1350 | Epistemic agency as a precondition for democracy; supports the necessity premise | abstract read; the OA PDF is behind a Springer challenge |
 | Calzada (2022), *Citizenship Studies* 27(2) 160–188 | "Algorithmic citizenship" as an emerging regime | record only |
 | Honneth (2024), *The Working Sovereign* (Polity) | Labour as the ground of democratic citizenship. It neighbours "the coordinated actor as sovereign" (J4, J6) | known only from Deranty's 2025 review record; unread |
 | Oeldorf-Hirsch & Neubaum (2025); Gagrčin et al. (2026) | Reviews of algorithmic literacy (in the chapter) | lab cards |
 | Warnier (2025), *Politikon* (IAPSS student journal) | "From Human Sovereignty to Algorithmic Sovereignty"; abstract only. Low weight | abstract read |
 
-**I found no work** in the lab library, Crossref (2022–2026) or the chapter's references that argues **algorithmacy (a triadic competence) is to algorithmic sovereignty what literacy was to democratic sovereignty**. Son (2022) is the one that might, and it is unread. This is not yet a novelty claim: OpenAlex, Consensus, Semantic Scholar and PhilPapers have not been searched.
+**I found no work** in the lab library, Crossref (2022–2026) or the chapter's references that argues **a triadic competence is to sovereignty under algorithmic coordination what literacy was to democratic sovereignty**. Son (2022), read in full, makes the literacy→democracy premise but proposes "technology literacy" for a dyadic recommender. Coeckelbergh (2022) and Gagrčin et al. (2026) likewise stop at education, and Gagrčin et al. themselves say literacy "is but one facet" (p. 442). This is still not a final novelty claim: OpenAlex, Consensus, Semantic Scholar and PhilPapers remain to be searched.
 
 ## Mapping to the special issue's themes
 | Theme | Where the thesis answers it |
@@ -64,7 +64,10 @@
 | **J4** Economics: "technological rents"; "transformation of labor" | Why algorithmacy alone yields rank, not standing (chapter §9). The bloc result stays in the full paper |
 | **J2 / J8** Public–private power; "new forms of sovereignty" | The coordinated actor as bearer; Verhulst & G. Otero is the neighbour to distinguish from |
 
-## Roger to fetch
+## Read 24 Oct from Roger's PDFs
+Son; Coeckelbergh; Goody & Watt; Burrell; Oeldorf-Hirsch & Neubaum; Gagrčin et al.; Calzada; Möhlmann et al.; Lynn's review of Bateman. Rows are in VERIFICATION.md. Still missing: Habermas 1989 (optional now, since Goody & Watt carry the premise) and any verified source on literacy tests.
+
+## Roger to fetch (original list)
 1. **Son (2022)**, 10.1007/s13347-022-00573-9. Must read before any novelty claim.
 2. Coeckelbergh (2022), 10.1007/s43681-022-00239-4 (OA, but the Springer challenge blocks a script).
 3. Habermas, *Structural Transformation*, the pages on the reading public. Goody & Watt (1963), 10.1017/S0010417500001730.
