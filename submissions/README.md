@@ -25,6 +25,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`phygital_cjas_leadership/`](phygital_cjas_leadership/) | *Canadian Journal of Administrative Sciences* APA 2027 special issue: Phygital Leadership. Project opened; abstract deadline passed | manuscript 2027-07-10 |
 | [`phygital_smq_value_creation/`](phygital_smq_value_creation/) | *Services Marketing Quarterly* APA 2027 special issue: Phygital Value Creation. Project opened; abstract deadline passed | manuscript 2027-05-30 |
 | [`phygital_bh_transformation/`](phygital_bh_transformation/) | *Business Horizons* APA 2027 special issue: Phygital Business Transformation. Project opened; abstract and registration deadlines passed | not stated |
+| [`exetasis_sovereignty/`](exetasis_sovereignty/) | *Exetasis* (independent journal) CFP "AI and Sovereignty": 300–500-word abstract plus bio; develops open AGENDA items 2, 3 and 6 of `coordinative_sovereignty/`. Project opened 2026-10-24; deep research next, angle not ruled | abstract 2026-12-20 |
 
 These arms borrow lab constructs. They do not re-run Φ. Exact-Φ results remain evidence about
 Boolean models.
