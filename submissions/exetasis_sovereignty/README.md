@@ -45,6 +45,7 @@ The parent library holds 405 cards, `library.bib`, the deep-research report and 
 - Claude never sends the submission email. Claude may create a Gmail draft, and Roger sends it.
 
 ## Next
-1. Roger's checkpoint: is the venue worth the slot? The page gives no ISSN, no peer-review statement and no indexing; stream S7 checks. Roger also confirms his bio title (PhD candidate or student).
-2. Run deep research (streams S1–S7 in `research/CONCEPTS.md`).
-3. Write `IDEAS.md`, the angle memo, followed by `ABSTRACT.md` and `PAPER_SKETCH.md`.
+1. ~~Roger's checkpoint.~~ **Ruled 24 Oct 2026:** proceed with the abstract; the bio title is "PhD candidate". S7 found a new, self-run journal: domain registered on 20 May 2026, no ISSN, no back issues, no fees. Before writing the full paper, get the editor's name, ISSN status, OA and licence terms, and dates in writing. The style guide caps articles at 40,000 characters (about 6–7k words), against the call's "about 8,000 words".
+2. ~~Deep research~~ is done: the report is in `research/reports/`, the notes in `research/research_notes/`. ~~Hand verification~~ is done: 35 sources in `literature/VERIFICATION.md`. Stark & Vanden Broeck's wording and Pisani 2024 are unreachable (403/Cloudflare), so Roger opens them in a browser.
+3. **Roger rules on the angle in [`IDEAS.md`](IDEAS.md).**
+4. Then `ABSTRACT.md` and `PAPER_SKETCH.md`.
