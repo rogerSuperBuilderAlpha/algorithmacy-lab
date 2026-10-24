@@ -32,6 +32,18 @@
 - **Why C's coda:** it gives a Lazar-reading referee something new. The coda would say that voice works by making the coordinated parties a joint veto player, and that who then picks the split is a procedural question.
 - **Fallback:** A with D's infrastructure case, if you want the abstract to face the call's state-sovereignty themes (J2, J8). It would cost bearer novelty and lean on grey sources.
 
+## Roger's ruling, 24 Oct 2026 (his words, verbatim)
+> "the idea is that literacy is necessary for soverengty in a demoncratic government, but insufficient in a triadic, opaque, cooptive environment. just as poeopel needed to develop literacy to have soveregnty in demoncarcy, they need to develop algorithmacy to have soverengty in this new environment"
+
+[DRAFTED by Claude: how the ruling maps onto the research.]
+- **The thesis is an analogy of necessity:** literacy is to democratic sovereignty as algorithmacy is to sovereignty in algorithmic mediation. It supersedes options A–D as the frame. B comes closest, and A and C supply supporting moves.
+- **Each of the three adjectives has a verified source:**
+  - *triadic*: Stark & Vanden Broeck's "triangular structure" (p. 14);
+  - *opaque*: Burrell 2016;
+  - *cooptive*: Stark & Vanden Broeck, "on platforms they are coopted" (p. 5).
+- **The ruling is consistent with "competence alone confers no standing"** as long as the claim is *necessary, not sufficient*. Literacy was necessary but not sufficient too, since it needed published law, a press and a franchise.
+- **The open gap:** no verified source yet backs the first half, that literacy was *necessary* for democratic sovereignty. The Habermas line is still an unchecked paraphrase.
+
 ## Rulings needed
 1. **The angle:** A+C, A+D, or another combination.
 2. **The title.** A starting suggestion: "Sovereignty Through the Machine: Standing Inside a Mediation One Cannot Leave".
