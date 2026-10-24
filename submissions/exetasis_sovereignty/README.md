@@ -46,6 +46,6 @@ The parent library holds 405 cards, `library.bib`, the deep-research report and 
 
 ## Next
 1. ~~Roger's checkpoint.~~ **Ruled 24 Oct 2026:** proceed with the abstract; the bio title is "PhD candidate". S7 found a new, self-run journal: domain registered on 20 May 2026, no ISSN, no back issues, no fees. Before writing the full paper, get the editor's name, ISSN status, OA and licence terms, and dates in writing. The style guide caps articles at 40,000 characters (about 6–7k words), against the call's "about 8,000 words".
-2. ~~Deep research~~ is done: the report is in `research/reports/`, the notes in `research/research_notes/`. ~~Hand verification~~ is done: 35 sources in `literature/VERIFICATION.md`. Stark & Vanden Broeck's wording and Pisani 2024 are unreachable (403/Cloudflare), so Roger opens them in a browser.
+2. ~~Deep research~~ is done: the report is in `research/reports/`, the notes in `research/research_notes/`. ~~Hand verification~~ is done: 35 sources in `literature/VERIFICATION.md`. Roger supplied the PDFs on 24 Oct, so Stark & Vanden Broeck, Pisani, Verhulst & G. Otero, Ingham & Lovett and the published Lazar have all been read in full. Lovett's Appendix II is still open.
 3. **Roger rules on the angle in [`IDEAS.md`](IDEAS.md).**
 4. Then `ABSTRACT.md` and `PAPER_SKETCH.md`.

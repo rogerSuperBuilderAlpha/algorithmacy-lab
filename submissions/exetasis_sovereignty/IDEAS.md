@@ -36,7 +36,8 @@
 1. **The angle:** A+C, A+D, or another combination.
 2. **The title.** A starting suggestion: "Sovereignty Through the Machine: Standing Inside a Mediation One Cannot Leave".
 3. **Whether the Shapley material appears in the abstract** or is held for the full paper.
-4. **The two sources still unread, which you would need to open in a browser:**
-   - Stark & Vanden Broeck (2024). Is "interested third party" their phrase? If not, the abstract drops the attribution.
-   - Pisani (2024), *CLSR*.
-5. **Before any novelty sentence:** Lovett's Appendix II (pp. 239–256) needs a full read, and Consensus and Semantic Scholar should be rerun after their quotas reset on 1 Nov.
+4. ~~The two unread sources~~ were read on 24 Oct from Roger's PDFs (rows in `literature/VERIFICATION.md`):
+   - **Stark & Vanden Broeck (2024):** "interested third party" is **not** their phrase. Their wording is a "triangular structure … with the platform operator at the apex" (p. 14), and the operator "leverages rather than delegates" (p. 14). The abstract drops the old attribution.
+   - **Pisani (2024):** this is collective self-determination through co-regulation, with no exit/voice and no bypass. It supports B.
+   - Also read: **Verhulst & G. Otero** in full. Its unit is Europe, and its remedy for a dependent firm is competition law, so the bearer novelty stands. **Ingham & Lovett (2019)** is noncooperative (PBE, Palfrey-Rosenthal), so it does not pre-empt C and pairs with it. **Lazar's** quotes are on p. 163.
+5. **Before any novelty sentence:** Lovett's Appendix II (pp. 239–256) still needs a full read, and Consensus and Semantic Scholar should be rerun after their quotas reset on 1 Nov.
