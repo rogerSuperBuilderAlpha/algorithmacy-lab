@@ -28,7 +28,7 @@ Clusters: 26.
 | 18 | title+year | `algorithmacy_design_ethics/ong1982.md` (full; S2 corrected) | `berthon_ethics_course/ong1982orality.md` (partial; corrected) |
 | 19 | DOI, title+year | `algorithmacy_design_ethics/parasuramanmanzey2010.md` (full; S2 corrected) | `dxd_foundation/parasuraman2010complacency.md` (full; S2 corrected) |
 | 20 | DOI, title+year | `algorithmacy_scaffolding/rahman2021.md` (adapted; —) | `berthon_ethics_course/rahman2021invisible.md` (abstract; corrected) |
-| 21 | filename, title+year | `berthon_ethics_course/rosenblat2016algorithmic.md` (full; true) | `dxd_foundation/rosenblat2016algorithmic.md` (full; S2 confirmed) |
+| 21 | filename, title+year | `berthon_ethics_course/rosenblat2016algorithmic.md` (full; true) | `algorithmacy_scaffolding/rosenblatstark2016.md` (adapted; —); `dxd_foundation/rosenblat2016algorithmic.md` (full; S2 confirmed) |
 | 22 | title+year | `berthon_ethics_course/selbst2018intuitive.md` (partial; true) | `algorithmacy_design_ethics/selbstbarocas2018.md` (abstract; S2 confirmed) |
 | 23 | DOI, filename, title+year | `berthon_ethics_course/vasconcelos2023explanations.md` (full; corrected) | `algorithmacy_design_ethics/vasconcelos2023.md` (full; S2 confirmed); `dxd_foundation/vasconcelos2023explanations.md` (full; S2 corrected) |
 | 24 | DOI, title+year | `berthon_ethics_course/williams2018stand.md` (partial; true) | `algorithmacy_design_ethics/williams2018.md` (partial; S2 corrected) |

@@ -11,8 +11,8 @@ cites with no card anywhere are in `../NO_CARD.md`.
 | --- | --- | --- |
 | `berthon_ethics_course/` | `submissions/berthon_ethics_course/literature/cards/` | all 193 cards (the stale generated `REFERENCES.md` left behind) |
 | `algorithmacy_design_ethics/` | `submissions/algorithmacy_design_ethics/literature/library/` | the whole library: 188 cards, `INDEX.md`, and five working notes kept in place so their sibling links work (`counter_agent_search_notes.md`, `fairness_matrix_2026-09-19.md`, `gemini_report_citation_audit.md`, `journal_scan_memo.md`, `triadic_hf_search_notes.md`) |
-| `dxd_foundation/` | `submissions/dxd_foundation/literature/library/` | only the 35 cards matching a key or DOI that DXD Part 2 cites |
-| `algorithmacy_scaffolding/` | `submissions/algorithmacy_scaffolding/literature/library/` | only the 5 matching cards |
+| `dxd_foundation/` | `submissions/dxd_foundation/literature/library/` | only the 35 cards matching a key, DOI, or title and year that DXD Part 2 cites |
+| `algorithmacy_scaffolding/` | `submissions/algorithmacy_scaffolding/literature/library/` | only the 6 matching cards |
 
 ## Two formats
 

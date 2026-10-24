@@ -5,8 +5,8 @@ from their origin arms (see `../PROVENANCE.md`); fields are parsed from each car
 Basis is normalized: full, partial, abstract, secondary, adapted. Verified is the card's own
 field (Y format) or its S2 verdict (H format). Flags mark abstract-only, secondary, unverified cards.
 
-Cards: 421 — algorithmacy_design_ethics 188, algorithmacy_scaffolding 5, berthon_ethics_course 193, dxd_foundation 35.
-Basis: abstract 35, adapted 1, full 230, partial 130, record 2, reviews/secondary 1, secondary 22.
+Cards: 422 — algorithmacy_design_ethics 188, algorithmacy_scaffolding 6, berthon_ethics_course 193, dxd_foundation 35.
+Basis: abstract 35, adapted 2, full 230, partial 130, record 2, reviews/secondary 1, secondary 22.
 
 ## algorithmacy_design_ethics (188)
 
@@ -201,7 +201,7 @@ Basis: abstract 35, adapted 1, full 230, partial 130, record 2, reviews/secondar
 | [zong2024](cards/algorithmacy_design_ethics/zong2024.md) | Zong, J., & Matias, J. N. | 2024 | Data refusal from below: A framework for understanding, evaluating, and envisioning refusa | 10.1145/3630107 | full | S2 corrected |  |
 | [zuboff2019](cards/algorithmacy_design_ethics/zuboff2019.md) | Zuboff, S. | 2019 | The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Po |  | partial |  |  |
 
-## algorithmacy_scaffolding (5)
+## algorithmacy_scaffolding (6)
 
 | card | authors | year | title | DOI | basis | verified | flags |
 |---|---|---|---|---|---|---|---|
@@ -209,6 +209,7 @@ Basis: abstract 35, adapted 1, full 230, partial 130, record 2, reviews/secondar
 | [eslami2015](cards/algorithmacy_scaffolding/eslami2015.md) | Eslami, M., Rickman, A., Vaccaro, K., Aleyasen, A., Vuong, A | 2015 | "I always assumed that I wasn't really that close to [her]": Reasoning about invisible alg | 10.1145/2702123.2702556 | full |  |  |
 | [kim2024](cards/algorithmacy_scaffolding/kim2024.md) | Kim, S.S.Y., Liao, Q.V., Vorvoreanu, M., Ballard, S., & Vaug | 2024 | "I'm Not Sure, But...": Examining the Impact of Large Language Models' Uncertainty Express | 10.1145/3630106.3658941 | full |  |  |
 | [rahman2021](cards/algorithmacy_scaffolding/rahman2021.md) | Rahman, H. A. | 2021 | The invisible cage: Workers' reactivity to opaque algorithmic evaluations | 10.1177/00018392211010118 | adapted |  | adapted |
+| [rosenblatstark2016](cards/algorithmacy_scaffolding/rosenblatstark2016.md) | Rosenblat, A., & Stark, L. | 2016 | Algorithmic labor and information asymmetries: A case study of Uber's drivers | 10.2139/ssrn.2686227 | adapted |  | adapted |
 | [zamfirescupereira2023](cards/algorithmacy_scaffolding/zamfirescupereira2023.md) | Zamfirescu-Pereira, J.D., Wong, R.Y., Hartmann, B., & Yang, | 2023 | Why Johnny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts | 10.1145/3544548.3581388 | full |  |  |
 
 ## berthon_ethics_course (193)

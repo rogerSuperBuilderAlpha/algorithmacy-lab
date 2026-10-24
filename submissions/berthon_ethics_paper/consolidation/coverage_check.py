@@ -175,7 +175,7 @@ def main(check):
         used.add((SHORT[short], fname))
         if not os.path.exists(p):
             fails.append(f"card not found: {short}/{fname}")
-    nocard = read(os.path.join(ARM, "literature", "NO_CARD.md"))
+    nocard = read(os.path.join(ARM, "literature", "NO_CARD.md")).split("## Carded", 1)[0]
     for k in sorted(set(re.findall(r"`nocard:([^`]+)`", alltext))):
         if f"| {k} |" not in nocard:
             fails.append(f"nocard key not in NO_CARD.md: {k}")
