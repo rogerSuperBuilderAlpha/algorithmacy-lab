@@ -1,0 +1,35 @@
+# Stohl, C., Stohl, M., & Leonardi, P. M. (2016). Managing opacity: Information visibility and the paradox of transparency in the digital age. *International Journal of Communication, 10*, 123–137.
+
+**Identifier:** https://ijoc.org/index.php/ijoc/article/view/4466 (open access, CC BY-NC-ND; no DOI) · **Read depth:** full_text (published journal PDF with the journal's pagination, pp. 123–137; the reference list was read) · **Source-tier:** peer-reviewed article · **Evidence basis:** direct_read · **Design and sample:** none; a conceptual argument with illustrative examples and one schematic figure (Figure 1), no data · **Parties modeled:** an organisation that controls information, and third-party observers who want to reconstruct its decisions · **Facets:** G · **Read:** 2026-10-13
+
+## What it argues
+The authors attack the assumption that "the more ICTs help to make organizational actions visible, the more organizations will become transparent" (p. 124). They treat visibility as an empirical construct with three attributes. *Availability* is whether actions are inscribed as data and stored. *Approval* is whether the owners allow outsiders to see the data, through legal obligation, norms or social consciousness. *Accessibility* is whether third parties can in fact find and use the data, which depends on directory knowledge, classification, skill and effort (pp. 125–31; Table 1, p. 126). "Organizational actors can manipulate each of these attributes" (p. 125). Transparency, in their definition, means that "third parties can clearly follow the chain of activity and decision making that led to a certain outcome" (p. 124).
+
+They then propose the transparency paradox: the relation between visibility and transparency may be curvilinear, so that "high levels of visibility decrease transparency and produce opacity" (abstract, p. 123; Figure 1, p. 132). Two paths lead there. In *inadvertent opacity*, volume swamps the receiver, so that "important pieces of information become inadvertently hidden in the detritus of information made visible—that is, the information hides in plain sight" (p. 133); they name the cause as information overload and "interpretive blinders." In *strategic opacity*, "actors who wish to keep certain information hidden from view but who are bound by transparency regulations or norms can produce opacity by strategically increasing the availability, approval, and accessibility of information" (p. 133). They add that digital media make this cheap through "macrotargeting" and "micro-targeting" (pp. 133–34), and, citing Eisenberg, that opacity is "not necessarily problematic" because it can foster cohesion (p. 134). The examples are small: open-meeting laws negated by closed "unofficial" meetings (p. 128), three non-overlapping catalogues at the LSE library (p. 130), and faculty salary tables that moved from a statehouse binder to a website (p. 131). Their closing questions ask for "information minimums and maximums" for effective decision making and "effective monitoring of organizational conduct" (p. 135).
+
+## Relation to the argument
+**P9 (aids that hand the person something to read show weaker effects).** Stohl et al. give a mechanism for P9, not evidence. Their account says more material in view raises the recipient's cost of finding what matters. They offer no test, and the overload claim rests on Toffler (1970) and Edmunds and Morris (2000).
+
+**P11 and P12 (the post's "observe everything" and human-readable evidence; the person who must review).** The paradox predicts that a record complete in availability, approval and accessibility can still leave the reviewer unable to reconstruct a decision. The strategic path adds a point the facet omits: the party that controls the record can raise volume on purpose. In the post's setting that party is the deploying organisation, which fits D8's open question about who holds a convention. I did not re-read the post, so I cannot say the post does this.
+
+**P5/P6 (word separation re-represents the task).** This reading is Claude's, not Stohl's. The authors count "the skill of reading" and effort among the accessibility conditions (pp. 130–31) and hold that data can be available and approved yet "inaccessible to the general public because they required too much effort" (p. 131). Word spacing then reads as a move on accessibility alone: the text was already available and approved. The authors do not mention writing history.
+
+**D3 (disclosure does not change our ability to navigate).** The paper agrees in kind: exposing more does not give understanding. It concerns observers reconstructing an organisation's decisions, not users steering a mediator, so it supports the logic of D3 without removing the flag that no study shows disclosure leaves behaviour unchanged.
+
+**Facet check:** The facet's attributes, paradox definition and p. 133 quotation are correct. It names only the inadvertent path; the strategic path (pp. 133–34) is the one closer to Nadella's seat. It marks the card "read in part"; I read the whole article.
+
+## In conversation with
+No work in `references.bib` appears in the source's reference list. The source cites Flyverbom (2015) and Christensen and Cheney (2015) on transparency, Leonardi (2014) on communication visibility, Latour and Woolgar (1986) on inscription, Bowker and Star (1999) on classification, and Eisenberg (1984) on strategic ambiguity; none is in the bib. The bib's transparency items (`ananny2018seeing`, `rieder2020towards`, `kroll2021outlining`) post-date it and are not cited by it, so the link is the project's own. Leads outside the bib: Flyverbom (2015), *Sunlight in cyberspace*; Christensen & Cheney (2015), *Peering into transparency*; Leonardi (2014), *Social media, knowledge sharing, and innovation*.
+
+## Caution
+A theory piece with no data; "paradox" names a proposed shape (Figure 1 is schematic), not a measured one. It is about organisations and their observers, with no mention of algorithms, models or platforms, so applying it to AI agents is the project's step. It does not say when visibility helps, only that the relation can turn. The illustrations are anecdotes, several without a cited source (the LSE catalogues, the salary binders).
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** confirmed
+
+**What I checked:** Opened the IJoC journal PDF (pp. 123-137; page headers confirm); title, authors, year match. Checked 17 quotations and their pages, the three visibility attributes and Table 1 (pp. 125-126), Figure 1 (p. 132), the LSE catalogues (p. 130), the open-meeting example (p. 128), the salary example (p. 131), the Toffler and Edmunds and Morris citations (p. 133), and the cited authors (Flyverbom, Christensen and Cheney, Leonardi, Latour and Woolgar, Bowker and Star, Eisenberg).
+
+**Findings:** No issues found. The statement that the bib's transparency items are not in the source's reference list holds. The card's P5/P6 reading is flagged in the card as the project's own.

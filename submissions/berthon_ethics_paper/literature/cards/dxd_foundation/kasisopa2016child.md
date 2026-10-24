@@ -1,0 +1,39 @@
+# Kasisopa, B., Reilly, R. G., Luksaneeyanawin, S., & Burnham, D. (2016). Child readers' eye movements in reading Thai. *Vision Research, 123*, 8–19. https://doi.org/10.1016/j.visres.2015.07.009
+
+**Identifier:** doi:10.1016/j.visres.2015.07.009 · **Read depth:** full_text (publisher-formatted PDF from the Maynooth University repository MURAL, eprint 10442; journal pagination 8–19; read whole, including Tables 1–7) · **Source-tier:** peer-reviewed article · **Evidence basis:** direct_read · **Design and sample:** eye-tracking (EyeLink II, 500 Hz) of 18 Thai children reading Thai sentences silently with and without inserted word spaces: 10 younger (start of Grade 6, mean 11.4 years; 20 recruited, 15 completed, 10 usable) and 8 older (end of Grade 7, mean 12.7 years), Bangkok schools; 54 test sentences per child; linear mixed models with first- and last-character position-specific frequency and word frequency as covariates; comparison with the adults of Kasisopa et al. (2013), who had read the Set 2 materials (pp. 11–12; the adult N is not restated in this paper) · **Parties modeled:** person–artefact (child reader and page) · **Facets:** W · **Read:** 2026-10-15
+
+## What it argues
+
+Thai is "an alphabetic scriptio continua language" (abstract). Thai children learn to read "with inter-word spaces and continue with spaced text until almost the end of Grade 1", when "lessons change to the use of unspaced text" (p. 9; Tables 2A–2B). Adults, the authors had shown in 2013, land their eyes just left of word centre by using the frequency of characters that occur at word beginnings and ends; ten characters account for just over 50% of word-initial occurrences and five for about 50% of word-final ones (p. 9, Table 3). The question is whether children do the same.
+
+They do, with help. Mean landing site was 3.5 pixels left of word centre for younger and 2.55 for older children (p. 13); landing moved toward the centre with higher first-character frequency, "an advantage that was particularly pronounced for spaced text" and for high-frequency words (p. 13). On first-fixation duration, "Younger children only show an effect of first character frequency when reading spaced text" (p. 13); the single-fixation effect likewise held only where the first characters "can be clearly perceived – in spaced text" (p. 15). Last character frequency "appears to be a later development, and again its use is scaffolded by spacing and word frequency" (p. 18). Gaze durations for younger children ran, by condition, from 308 ms (spaced, high/high frequency) to 772 ms (spaced, low/low), against 353 and 429 ms in unspaced text (Table 5, p. 14), so spacing helped most where the boundary characters were common and hurt where they were rare. Comprehension was 93% (older) and 88% (younger) (p. 12). The authors' reading: "children use first character frequency early in reading Thai and this is scaffolded by spacing and word frequency" (p. 18); "it appears that eye movements in reading converge on the optimal landing site using whatever cues are available to guide such placement" (abstract). "it appears that spaces potentiate children's in learning to use boundary character frequency effects to aid word segmentation" (p. 17; the sentence is printed thus).
+
+## Relation to the argument
+
+The abstract's sentence turns on a scaffold: unspaced text "scaffolding literacy with oracy", and separation moving "boundary detection from the voice to the page". This study is the nearest living experiment on a scaffold for boundary detection, and it places the scaffold elsewhere.
+
+- **Supports** the idea that a spaced display scaffolds a learner's segmentation: Thai schooling spaces Grade 1 text and withdraws the spaces, and the children's data show spaces potentiating the pick-up of visual boundary cues.
+- **Cuts against "from the voice".** What the spaces scaffold is the eye's use of orthographic regularities; the children read silently, at 88–93% comprehension, and their boundary detection in unspaced text is done by character statistics, not by sounding the line. The route the abstract describes (voice first, then page) is not the route these learners take (page first, then page without spaces).
+- **Narrows** "freed literacy": here the display that removes the segmentation task is a stage of instruction, after which readers are expected to do without it. That matches facet C's finding that spacing belongs to pedagogy and cost, not to the spread of reading.
+- For the human-factors frame (ruling D6), the "whatever cues are available" conclusion is the same lesson as `perea2015colours`: the boundary is a representational job that several marks can do.
+
+## In conversation with
+
+- `kasisopa2013eye`: the adult study this replicates with children; its Table 7 is reproduced here (p. 18).
+- `winskel2009eye`: the other Thai spacing study, cited for the adult cost of added spaces.
+- `bai2008reading`, `blythe2012inserting`: the Chinese child and adult spacing studies the design is modelled on (p. 11).
+- `seymour2003foundation`: cited for orthographic depth and the rate of learning (p. 8).
+- `butskhrikidze2022what`: not cited; her claim that Thai phonology supplies boundary markers is the language-side version of the boundary-character finding here.
+- Leads not in the bib: Reilly, Radach, Corbic & Luksaneeyanawin (2005); Feng, Miller, Shu & Zhang (2009) on Chinese and English child readers; Krügel & Engbert (2014) Bayesian saccade targeting.
+
+## Caution
+
+Eighteen children in two narrow age bands at the top of primary and start of secondary school; five of fifteen younger children were lost to tracking error; many of the reported effects are three- and four-way interactions on this sample and should not be quoted as settled. No oral-reading condition and no Grade 1 or 2 children, so the paper does not observe the transition from spaced to unspaced text it describes; a longitudinal study was "in progress" (p. 18). Thai words are short and the script has no capitals or punctuation, so transfer to seventh-century Latin is by analogy only.
+
+## S2 adversarial verification (2026-10-15)
+
+**Verdict: corrected.**
+
+**What I checked:** Re-opened the MURAL publisher-layout PDF text (local copy dxd_foundation_local/pdfs/W/kasisopa2016child.txt; running heads mark pp. 9–19). Confirmed: "an alphabetic scriptio continua language" and "whatever cues are available" (abstract); spaced text "until almost the end of Grade 1" and the switch to unspaced text, 10 first-position characters accounting for "just over 50%" and five last-position characters for "roughly the same percentage" (p. 9); 8 older children (mean 12.7 years), 20 younger recruited, 15 completing, 10 usable (mean 11.4 years), 54 test trials (p. 11); comprehension 93% and 88% (p. 12); landing 3.5 and 2.55 pixels left of centre and "particularly pronounced for spaced text" (p. 13); Table 5 gaze durations 308 / 772 / 353 / 429 ms (p. 14); Table 7 (p. 18); "children use first character frequency early in reading Thai and this is scaffolded by spacing and word frequency" and the longitudinal study "now in progress" (p. 18). Crossref 10.1016/j.visres.2015.07.009: four authors, *Vision Research* 123, 8–19, 2016; matches. Read depth full_text stands.
+
+**What I changed:** (1) The "30 adults" figure is not in this paper and was removed. (2) The two quotations about younger children and spaced text were paraphrases in quotation marks; replaced with the printed sentences and their pages (pp. 13 and 15). (3) The last-character claim now quotes p. 18 as printed; the paper does not say the effect appeared "only in older children" in those words. (4) The "potentiate" sentence is quoted as printed, with its grammatical slip noted, instead of with a bracketed repair. Relation to the argument is unchanged; the card's reading (spaces scaffold visual cue use; the children read silently) is what the paper says.

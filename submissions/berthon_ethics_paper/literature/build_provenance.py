@@ -25,7 +25,7 @@ def last_commit(path):
 def pairs():
     meta = cl.sources()
     out = []
-    for dest, origin in meta["sources"].items():
+    for dest, origin in list(meta["sources"].items()) + list(meta.get("nadella_sources", {}).items()):
         out.append((dest, origin))
     for name in sorted(os.listdir(os.path.join(cl.ARM, "sources", "notes"))):
         origin = None

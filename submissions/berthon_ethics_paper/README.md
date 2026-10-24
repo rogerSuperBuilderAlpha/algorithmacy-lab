@@ -41,6 +41,7 @@ them side by side.
 | `literature/NO_CARD.md` | The 76 works DXD Part 2 cites that have no card anywhere, with bib data and every audit row |
 | `literature/dxd_part2/` | DXD Part 2's literature directory (facets A–E, audits, bib), copied whole |
 | `literature/references.bib` | First-wins merge of the Berthon-course and Part 2 bibs (809 entries) |
+| `nadella/` | The workstream on Nadella's X article and the ethics the Spaces paper bracketed: instruction, corpus index, the lab's earlier Nadella research (copied) and its 61 cards; full texts held locally |
 | `PROVENANCE.md` | Every copied file, its origin, origin commit, sha256, and whether it is still identical |
 
 ## How it was made

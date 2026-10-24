@@ -1,0 +1,38 @@
+# Leinenger, M. (2014). Phonological coding during reading. *Psychological Bulletin, 140*(6), 1534–1555. https://doi.org/10.1037/a0037830
+
+**Identifier:** doi:10.1037/a0037830; PMC4211933 (NIH author manuscript, text identical in substance to the journal article but without the journal's pagination, so locators below are section names) · **Read depth:** full_text (the whole manuscript: introduction, the sections on response-time tasks, fast priming, parafoveal preview, sentence and discourse reading, EEG/MEG, the inner voice, articulatory suppression, deaf readers, and the summary; reference list not read line by line) · **Source-tier:** peer-reviewed review article · **Evidence basis:** direct_read · **Design and sample:** narrative review of about a century of experiments on phonological coding in silent reading; no new data · **Parties modeled:** person–artefact (reader and page) · **Facets:** W · **Read:** 2026-10-15
+
+## What it argues
+
+Leinenger sets out three candidate roles for phonological coding, "the recoding of orthographic (written) information into phonological (sound) information" (Introduction): (1) codes generated early that aid lexical access; (2) codes generated during or after access that bolster working memory, comprehension and prosody; (3) codes that are "a byproduct of the reading instruction process" and "largely epiphenomenal in the skilled, adult reader" (Introduction). She reviews each method in turn and finds the first two supported and the third refuted.
+
+On timing, fast-priming studies during sentence reading find homophone priming of gaze duration at prime durations of 29–35 ms, and homophone and pseudohomophone priming at primes as short as 36 ms (Fast priming during reading); boundary-paradigm studies find phonological preview benefit, so coding "can even begin on a word before it is actually fixated" (Parafoveal preview benefit studies); ERP and MEG studies show differential phonological processing "emerging between 80-125ms in the ERP and MEG record" (Conclusions from reading tasks; the same figure is given in Neurophysiological recording while reading). On the later code, articulatory-suppression studies show that the inner voice helps verbatim memory, word order and cross-sentence integration (Effects of articulatory suppression), though she judges the suppression method confounded by general cognitive load (Evaluation of the Suppression Task). EMG studies show that vocal-muscle activity during silent reading "seemed to increase with text difficulty", and that readers given feedback could suppress it and still comprehend easy texts (Evaluation of the Suppression Task). Against the epiphenomenon view she sets phonological coding in Chinese and Hebrew and in prelingually deaf readers, who use either English or sign-based phonological codes: this "demonstrates quite conclusively that phonological coding is more than an epiphenomenon" (Summary). Her summary: "the pre-lexical/post-lexical dichotomy is, more or less, a false one"; coding "can begin before a word is even fixated and goes on to form a more speech like, complete code" (Summary).
+
+The opening sentence states the phenomenon the whole review explains: "When we read silently, we experience the sensation of 'hearing' the words of the text in our head" (Introduction).
+
+## Relation to the argument
+
+The abstract's sentence says word separation "freed literacy by moving boundary detection from the voice to the page" and "enabled readers to internalize text". Leinenger's review bears on what "the voice" is doing in a reader of fully spaced, modern text.
+
+- **Cuts against the strong reading.** Skilled silent readers of spaced scripts still run speech-like codes before and after lexical access; the articulators still move on hard text. If spacing moved anything, it moved overt vocalising and the segmentation task, not phonology. A sentence that says the voice left reading when spaces arrived is not what the reading science shows.
+- **Supports a narrower reading.** The dual-route account she summarises has beginning readers and skilled readers meeting unfamiliar words rely on assembled phonology, "which are all words for beginning readers" (When does phonological coding first begin?). A seventh-century scribe reading Latin as a learner fits that case, which is where Tunbridge (1992) and the Parkes snippets place the Insular motive. The abstract can say learners leaned on sound; it should not say spacing removed sound from reading.
+- **Bears on "internalize".** The post-lexical inner voice restores prosody and holds word order; that is an internalisation that spaced readers still do by sound. The word "internalize" in the abstract needs a definition that survives this.
+
+## In conversation with
+
+- `rayner1998unspaced`: Rayner chaired the qualifying paper this review grew from (Acknowledgments); the fast-priming and preview methods come from his laboratory.
+- `laubrock2015eyevoice`: cites the same working-memory account of the inner voice (Rayner & Pollatsek 1989, ch. 7) and extends it to reading aloud.
+- `busch2002lautes`, `balogh1927voces`: Balogh (1927, p. 227) already invoked "inner speech" and the Huey–Javal eye-movement work; Leinenger is the modern state of that question.
+- Leads not in the bib: Van Orden (1987) activation-verification model; Coltheart et al. (2001) dual-route model; Seidenberg & McClelland (1989); Share (1995) self-teaching hypothesis; Hardyck & Petrinovich (1970) EMG feedback study; Perfetti & Bell (1991) backward masking.
+
+## Caution
+
+A review of alphabetic (mostly English) reading by skilled adults, with Chinese, Hebrew and deaf readers as test cases; it contains no study of unspaced alphabetic text and nothing on Latin or on learners of a second language. Pagination is the manuscript's, not the journal's, so quotations carry section names only. Its verdicts on method (suppression confounded, response-time tasks insensitive) are the author's and were contested in the literature she cites.
+
+## S2 adversarial verification (2026-10-15)
+
+**Verdict: corrected (minor).**
+
+**What I checked:** Re-opened the PMC4211933 XML (local copy dxd_foundation_local/pdfs/W/leinenger2014.xml), stripped markup and located every quotation by its section heading. Fourteen quotations checked word for word (the opening sentence; "the recoding of orthographic (written) information into phonological (sound) information"; "a byproduct of the reading instruction process"; "largely epiphenomenal in the skilled, adult reader"; "can even begin on a word before it is actually fixated"; "seemed to increase with text difficulty"; "demonstrates quite conclusively that phonological coding is more than an epiphenomenon"; "the pre-lexical/post-lexical dichotomy is, more or less, a false one"; "can begin before a word is even fixated and goes on to form a more speech like, complete code"; "which are all words for beginning readers"; and the acknowledgment naming Keith Rayner as chair). All match and all sit in the sections the card names. Crossref 10.1037/a0037830: Leinenger, Mallorie; *Psychological Bulletin* 140(6), 1534–1555, 2014; matches the header and the facet .bib. Read depth full_text stands: the manuscript is the whole article.
+
+**What I changed:** (1) The fast-priming numbers: the text reports homophone priming at 29–35 ms (not "29–36 ms") in one study and homophone plus pseudohomophone priming "at prime durations as short as 36ms" in another; reworded. (2) The "80-125ms" figure is given in the text as the window in which "differential processing" emerges in the ERP and MEG record, not as "after word onset"; reworded and the second locator added. Nothing in Relation to the argument overstates the source.
