@@ -1,6 +1,6 @@
 # Abstract: *Exetasis*, "AI and Sovereignty"
 
-[v5, 26 Oct 2026. Merged by Claude from Roger's v4 text (24 Oct, `archive/ABSTRACT_v4_2026-10-24.md`) and Antonio Scala's revised plan and abstract (25 Oct, `PLAN_SCALA_2026-10-25.md`). Roger's sentences and Antonio's sentences are kept where they worked; the joins and the definition in paragraph 4 are new and marked. Body: 497 words by `wc -w`, inside the 300–500 limit. Nothing here has been sent.]
+[v5.2, 26 Oct 2026. Merged by Claude from Roger's v4 text (24 Oct, `archive/ABSTRACT_v4_2026-10-24.md`) and Antonio Scala's revised plan and abstract (25 Oct, `PLAN_SCALA_2026-10-25.md`). Roger's sentences and Antonio's sentences are kept where they worked; the joins and the definition in paragraph 4 are new and marked. Body: 493 words by `wc -w`, inside the 300–500 limit. Nothing here has been sent.]
 
 **Target:** *Exetasis*, special issue "AI and Sovereignty". Abstract 300–500 words plus a short bio and affiliation per author, to editorial@exetasis.net, subject line "CFP — AI and Sovereignty", deadline 20 December 2026. Full paper about 8,000 words if invited (the journal's style guide caps articles at 40,000 characters; see `README.md`).
 
@@ -16,46 +16,42 @@ Democratic theory has long tied popular sovereignty to civic competence. In fift
 
 Algorithmic coordination reproduces this gap in sharper form. It operates through "a triangular structure" with the platform operator at the apex (Stark & Vanden Broeck, 2024, p. 14). Its machine-learning opacity evades ordinary literacy (Burrell, 2016). Its authority issues no public decrees, so algorithmic governmentality "produces no subjectivation" (Rouvroy & Berns, 2013, pp. 173–174, our translation). Operating within it requires algorithmacy: the competence to infer intermediary evaluations, encode intent and adapt as predictive models evolve. Yet algorithm literacy is "but one facet of competences needed to improve working conditions" (Gagrčin et al., 2026, p. 442), and on its own it yields only positional advantage over peers. Exit is no remedy, since "a choice between awful regimes cannot confer authority on either" (Lazar, 2025, p. 163). Collective voice is what remains.
 
-Between competence and voice lies an unexamined step: the formation of the collective that could speak. We argue, drawing on network science, that the capacity for collective mobilisation is a property of the structure of relations in a population. Mobilisation that requires social reinforcement crosses between communities only through wide bridges of multiple converging ties (Centola & Macy, 2007). A minimal threshold-contagion simulation illustrates the consequence. Competence placed at random leaves mobilisation confined largely to its community of origin; the same budget placed at bridge positions carries it across most of the population. Recommendation systems shape which ties form and where bridges lie, without political intent (Santos et al., 2021). The intermediary therefore takes part in producing, or failing to produce, the collective subject that might contest it.
+Voice within a mediation requires the relations that carry collective action, and those relations have a structure the intermediary shapes. Mobilisation that requires social reinforcement crosses between communities only through wide bridges of multiple converging ties (Centola & Macy, 2007). A minimal threshold-contagion simulation illustrates the consequence: where bridges are thin, competence spread across the population leaves mobilisation confined largely to its community of origin, short of near-universal competence. Recommendation systems shape which ties form and where bridges lie, without political intent (Santos et al., 2021). The operator at the apex of the triad therefore governs both the evaluations the coordinated must read and the relations through which they could answer.
 
-We call the missing condition coordinative sovereignty: voice within the coordinative environment that binds the coordinated, sustained through relations that no single intermediary controls. It is the condition for sovereignty as such. Under algorithmic coordination no individual sovereignty remains; competence, position and exit are what an individual holds, and none of them is sovereignty. A population is sovereign only where it has voice within the mediation, and it has voice only where the relations that carry collective action can form. It stands in the lineage of constituent power, beyond what state technological sovereignty or individual autonomy captures. AI-literacy policies, like literacy campaigns before them, are necessary. They cannot by themselves secure self-government, because the conditions under which relations form are themselves a question of sovereignty.
+We call the condition that remains coordinative sovereignty: voice within the coordinative environment that binds the coordinated, sustained through relations that no single intermediary controls. It is the condition for sovereignty as such. The debate on AI and sovereignty runs between state sovereignty over AI and individual autonomy against it, and both assume a bearer of sovereignty who exists before the mediation. Under algorithmic coordination no such bearer remains; competence, position and exit are what an individual holds, and none of them is sovereignty. A population is sovereign only where it has voice within the mediation, and it has voice only where the relations that carry collective action can form. AI-literacy policies, like literacy campaigns before them, are necessary. They cannot by themselves secure self-government, because the conditions under which relations form are themselves a question of sovereignty.
 
-**Keywords:** algorithmacy; literacy; coordinative sovereignty; algorithmic coordination; complex contagion; network structure; constituent power; exit and voice
+**Keywords:** algorithmacy; literacy; coordinative sovereignty; algorithmic coordination; voice; complex contagion; network structure; triadic coordination
 
 ---
 
-## What works and what does not, by source text
+## Ruling, 26 Oct (Roger): incorporate Antonio where he pushes the thesis forward; ignore what misunderstands it
 
-### Roger's v4 (kept)
-- The literacy argument with its verified page-cited quotations (Goody & Watt p. 332; Paglayan p. 1242; Stark & Vanden Broeck p. 14; Rouvroy & Berns pp. 173–174; Gagrčin p. 442; Lazar p. 163). Every one of these has a Verified row in `literature/VERIFICATION.md`, and the abstract keeps the exact words so the rows still hold.
-- The three adjectives (triadic, opaque, co-optive), each with its source.
-- The individual definition of algorithmacy. Antonio's plan adopts it in §2 and then writes "defined relationally" in the §3 skeleton. The abstract uses the individual definition throughout; the skeleton needs the same fix.
-- "Collective voice is what remains" (v2 wording, weaker than "the only remedy", which Lazar p. 163 does not support).
+The thesis, as the repo has built it: sovereignty is the standing to hold authority to account through the medium in which power is exercised; each medium requires a competence matched to it (literacy, now algorithmacy); under triadic, opaque, co-optive coordination no individual sovereignty remains; sovereignty exists only as voice within the coordinative environment, and coordinative sovereignty is that condition.
 
-### Roger's v4 (dropped)
-- The Claude-drafted CFP opening paragraph. Antonio's version opens on the argument, and the theme fit now sits in this file's header rather than in the abstract.
-- The Mill quotation (ch. VIII). Verified and good, but it costs 30 words the mechanism paragraph needs. It returns in the full paper's §2.
-- "Co-optive" as a named mechanism ("enroll users and providers in a system of ratings"). Cut for space; the triangular structure carries the point. Returns in §3.
-- "This standing constitutes coordinative sovereignty" as the closing move. The v4 close named the concept without saying what it adds. Antonio's paragraphs 3 and 4 supply that.
+### Antonio's contribution that advances the thesis (kept)
+| Contribution | Why it advances the thesis | Where it sits |
+|---|---|---|
+| The intermediary shapes the relations through which voice could form (Santos et al. on link recommendation; Centola & Macy on wide bridges) | Extends the apex's power from evaluations to the relational structure among the coordinated. Voice needs relations; the operator sets their shape. This is what the chapter lacked. | Paragraph 3; full paper §4–5 |
+| Bridge-width result: with thin bridges, competence spread across the population does not mobilise it (short of near-universal competence) | Gives the "competence ≠ sovereignty" claim a mechanism that is structural rather than historical only | Paragraph 3; appendix |
+| The debate's two poles, state sovereignty over AI and individual autonomy against it | Lets the abstract say what both poles assume (a bearer prior to the mediation) and why neither survives coordination | Paragraph 4; §1 |
+| "What we are not claiming" (§3 of his plan: no fragmentation thesis, no legitimacy from cohesion, the Meta null results, how-possibly status of the model) | Protects the claim from the obvious objections | §7 |
+| Section plan, word budget and sequence | Workable as is, with the changes below | `PLAN_SCALA_2026-10-25.md` |
 
-### Antonio's 25 Oct abstract (kept)
-- Paragraph 3, the network mechanism and the simulation, nearly whole. The simulation claim now has a run behind it (`model/`); see the caution there about how close to built-in the result is.
-- Paragraph 4's placement against constituent power, state technological sovereignty and individual autonomy, and the closing sentence on the conditions under which relations form.
-- The co-author voice ("we"), which turns Rouvroy & Berns into "our translation".
+### Antonio's contribution that misunderstands the thesis (ignored)
+| His reading | What the thesis says instead | Effect |
+|---|---|---|
+| Coordinative sovereignty as "a population's capacity to form and sustain the relations…" | It is the condition for sovereignty, voice within the coordinative environment. Relations are what voice requires, and the capacity to form them is the condition's precondition. | Definition rewritten (paragraph 4); his §1 thesis and §6 definition need the same change |
+| The "missing middle" between state and individual sovereignty | There is no individual sovereignty left to sit beside. Both poles assume a bearer who precedes the mediation; neither survives it. | Paragraph 4 rewritten; §1 should open on this rather than on a third level |
+| Constituent power and the "collective subject" as the concept's lineage and object (Sieyès, Williams; "mediation as the production of collective subjects") | The question is standing within an existing mediation the coordinated cannot leave, in the lineage of standing and voice (the chapter's Pettit, Nedelsky, Markell, Hirschman). Constituent power asks how a people founds an order; this paper asks how the coordinated answer one. | Cut from the abstract and keywords; §5 and §6 of the plan need retitling |
+| Algorithmacy "defined relationally: competence in coordinating with others under algorithmic mediation" (his §3 skeleton) | Algorithmacy is individual: infer intermediary evaluations, encode intent, adapt as models evolve. Voice is collective; the competence is not. | Individual definition throughout; §3 skeleton to match his own §2 |
+| Competence modelled as signal weight ("better signalling/credibility") and the bridge-placement result ("competence compensates for thin bridges only at bridge positions") | This makes algorithmacy a peer-persuasion weight, which it is not; and the placement result is built in (see `model/README.md`). The thesis needs only the bridge-width result. | Placement result dropped from the abstract; model mapping to be revisited before the appendix |
+| "Gagrčin et al. (2026)" as the source for "positional advantage, not collective standing" | Their verified sentence is "but one facet of competences needed to improve working conditions" (p. 442). The positional-advantage claim is ours. | Quoted and inferred separately (paragraph 2) |
 
-### Antonio's 25 Oct abstract (changed, and why)
-1. **Gagrčin et al. attribution.** Antonio writes "algorithmacy yields positional advantage over peers, not collective standing (Gagrčin et al., 2026)". Their paper says algorithm literacy is "but one facet of competences needed to improve working conditions" (p. 442). The positional-advantage sentence is ours, built on that. v5 quotes them and states our inference separately, as v4 did.
-2. **Rouvroy & Berns paraphrase.** Antonio paraphrases ("producing no subject to address"). v5 restores the verified quotation with the translation marker, since the French original is what the Verified row covers.
-3. **"The intermediary takes part in producing … the collective subject that might contest it."** Kept, but the sentence before it now says "with no political intent required" as our gloss on Santos et al., whose paper models similarity-based link recommendation and polarisation. The abstract does not claim they show anything about bridges between communities; that is our reading and is marked by the sentence break.
-4. **Definition of coordinative sovereignty. Ruled by Roger, 26 Oct:** "Coordinative sovereignty is not the ability to, it's the condition for sovereignty. There is no longer personal or individual sovereignty. There is only sovereignty if you have voice within a coordinative environment." Antonio's wording ("a population's capacity to form and sustain the relations…") made the concept a capacity; v5 paragraph 4 now defines it as the condition, with voice within the coordinative environment as its substance and the formation of relations as what voice requires. This is consistent with the IGI chapter's definition (standing within an indispensable mediation; procedural voice as its mechanism), so the two publications no longer diverge. Antonio's §1 thesis and §6 definition in `PLAN_SCALA_2026-10-25.md` need the same change; the structural mechanism in §4 survives untouched, since it now explains when voice can form rather than defining the concept.
-5. **"a structural property of relations, not an aggregate of individual competences".** Rewritten without the contrast pair ("a property of the structure of relations in a population"), per Roger's working preferences.
-6. **"largely confined"** became "confined largely" and "carries it across most of the population" replaces the implied full reach, matching the run (1.00 at bridge width 1, 0.72–0.80 at widths 2–6).
-7. **"Situated in the lineage of constituent power"** became an active sentence with the concept as subject.
+### Kept from Roger's v4
+The literacy argument with its verified page-cited quotations, unchanged in wording; the three adjectives with their sources; the individual definition of algorithmacy; "Collective voice is what remains". Dropped for space: the Claude-drafted CFP opening and the Mill quotation (both return in the full paper), and the named co-optation mechanism (returns in §3).
 
 ### Open against the CFP
-- The journal page asks abstracts to "clearly present the research question or problem addressed, the main argument, and … the relevant theoretical, conceptual, or methodological framework". Paragraph 1 is the problem, paragraphs 2–3 the argument, paragraph 4 the framework. The research question is implicit; one sentence naming it could replace "Collective voice is what remains" if a reader wants it explicit.
-
----
+- The journal page asks abstracts to "clearly present the research question or problem addressed, the main argument, and … the relevant theoretical, conceptual, or methodological framework". Paragraph 1 is the problem, paragraphs 2–3 the argument, paragraph 4 the framework. The research question is implicit.
 
 ## Biographical profiles and affiliations (one per author; the call requires both)
 Roger B. Hunt III is a PhD candidate in Business at Bentley University, Waltham, Massachusetts [CONFIRM]. His research operates at the intersection of organization theory, political philosophy, and platform economics, focusing on algorithmacy (the competence of navigating algorithmic intermediaries) and coordinative sovereignty. He holds an MA in Philosophy from Boston University [CONFIRM] and is the founder and convener of the Algorithmacy Conference (2026) [CONFIRM].
@@ -86,7 +82,7 @@ Whether to attach the list: the call does not ask for one. Attaching it costs no
 Every quotation in the abstract is unchanged from v4's table (Goody & Watt p. 332; Paglayan p. 1242; Stark & Vanden Broeck p. 14; Rouvroy & Berns pp. 173–174; Gagrčin p. 442; Lazar p. 163), so the v4 Verified statuses carry over. The two new citations (Centola & Macy; Santos et al.) are paraphrased, carry no page numbers, and are Pending.
 
 ## Before sending
-1. ~~Rule on the definition.~~ Ruled 26 Oct (item 4 above); Antonio to confirm.
+1. ~~Rule on the definition.~~ Ruled 26 Oct; send Antonio the two tables above so he can confirm or push back.
 2. Verify Centola & Macy and Santos et al. by hand; add the rows.
 3. Antonio's bio and affiliation; resolve "et al.".
 4. Roger's read-aloud of the two new paragraphs.
