@@ -2,7 +2,7 @@
 
 [DRAFTED by Claude, 26 Oct 2026, from the organizers' pages. The angle is a proposal for the author to rule on.]
 
-**Status:** project opened on 26 Oct 2026, with an abstract, argument and outline drafted. **The abstract (350–500 words) is due 31 Oct 2026** (the platform shows 8 Nov). Nothing has been submitted.
+**Status: abstract SUBMITTED 26 Oct 2026** on eventos.uca.es (General stream). Decisions are expected in early December 2026.
 
 **The call:** 45th International Labour Process Conference, Cádiz (Jerez), 31 Mar – 2 Apr 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
