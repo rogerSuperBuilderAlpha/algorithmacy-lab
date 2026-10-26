@@ -2,6 +2,8 @@
 
 [DRAFTED by Claude, 26 Oct 2026, v3. Companion to the proposal. Every result below reproduces from the submission repository ([REPOSITORY URL]) with `python reproduce.py` (17 checks, about two minutes) and `pytest` (19 tests).]
 
+[Current version: https://docs.google.com/document/d/1fhM_C7pz6e3sR7aXY3_89oys06B-UyK9Vyf93bt1zFA/edit — the author's Google Doc supersedes this draft.]
+
 ## A. Encoding a coordinative structure
 
 A structure with *n* parties is a deterministic Boolean network on *n* nodes. Node *i* holds party *i*'s state, and a rule sets its next state from the current states of the parties it reads. Rules are written as expressions over party labels using `and`, `or`, `not`, `xor`, `0` and `1` (`irreducibility/rules.py`). The parser rejects anything else, so an encoding cannot execute code.

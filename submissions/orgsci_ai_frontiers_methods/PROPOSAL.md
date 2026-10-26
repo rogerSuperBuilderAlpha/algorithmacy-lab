@@ -2,6 +2,8 @@
 
 [DRAFTED by Claude, 26 Oct 2026, v3, planned against the CFP PDF only. Stage 1 proposal for *Organization Science*, "AI-Enabled Frontiers in Organizational Science" (due 1 Nov 2026). Every number reproduces from the submission repository with `python reproduce.py`; the repository URL replaces [REPOSITORY URL] once it is created. v1 and v2 are retired; see git history.]
 
+[Current version: https://docs.google.com/document/d/1fhM_C7pz6e3sR7aXY3_89oys06B-UyK9Vyf93bt1zFA/edit — the author's Google Doc supersedes this draft.]
+
 ## The structural fact strategy needs and cannot see
 
 Rahman's (2021) freelancers worked under a score that moved without notice, and among the things they could not decipher was who had moved it, the client or the platform. Curchod, Patriotta, Cohen and Neysen (2020) describe eBay's customer reviews as enacting triadic relationships among the platform operator, buyers and sellers, where a dyadic exchange had stood. Stark and Pais (2020) give the platform a triangular geometry in which the owner co-opts providers and users alike, and Cameron (2024) draws an algorithmic labor triangle. Organizations increasingly coordinate through such infrastructure: a dispatch system between driver and rider, an engine between claimant and adjuster, an AI agent between two firms. The literature calls these arrangements triadic by description. Nobody computes it.
