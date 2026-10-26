@@ -20,8 +20,16 @@ pip install -r requirements.txt
 ```
 
 `requirements.txt` pulls PyPhi's IIT-4.0 line and `phyid` from git, so the install needs network
-access and takes a few minutes. Every command below assumes this venv is active and that you run
-**from the repo root**, so that `org_frontier.*` and `foundations.*` resolve.
+access and takes a few minutes. The PyPhi line resolves to `wmayner/pyphi` `feature/iit-4.0` at
+`b78d0e342d37175cbd55cf35a6d52ae035b4c50f` (`1.2.1.dev1470+gb78d0e342`, 26 December 2025). That pin
+is what the benchmark runs, through `pyphi.Network`, `pyphi.Subsystem`, and `pyphi.new_big_phi`.
+Ternary and mixed-radix forms use the overlay in `third_party/pyphi_iit4_mv`, packaged on
+`rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`, pull request #1). Upstream
+PyPhi 2.0 is `wmayner/pyphi` `main` at `134a8f31` (16 October 2026; tag `v2.0.0rc4`, version line
+`2.0.0rc5.dev0`): `Substrate`, `System`, and `analyze()`, with `pyphi.iit4_2023()` reproducing the
+pinned controls and `pyphi.iit4_2026()` the Mayner, Marshall, and Tononi (2026) default. Every
+command below assumes this venv is active and that you run **from the repo root**, so that
+`org_frontier.*` and `foundations.*` resolve.
 
 ## 2. Confirm the instrument before you trust anything
 
