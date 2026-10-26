@@ -2,7 +2,7 @@
 
 [DRAFTED by Claude, 26 Oct 2026, from the editors' posts. The angle is a proposal for the author to rule on.]
 
-**Status:** the package was drafted 26 Oct 2026 and has not been submitted. It contains `PROPOSAL.md` (1,719 words), `TECHNICAL_APPENDIX.md`, and an anonymized repository built outside this repo; the submission files are in the author's Downloads. **The proposal package is due 1 Nov 2026.** Fit is low to moderate (FLAGS 3).
+**Status:** v2 drafted 26 Oct 2026 and not yet submitted. It is rewritten against the CFP PDF around the method: an oracle-adjudicated AI research loop, its 170-question record and an audit of its failure modes. It contains `PROPOSAL.md` (1,629 words), `TECHNICAL_APPENDIX.md`, `ABSTRACT.md` (the ScholarOne fields) and an anonymized repository built outside this repo (`oracle-loop`, in the author's Downloads). v1, built around the classifier, is retired. **Due 1 Nov 2026.**
 
 **The call:** a special issue that develops AI-enabled research infrastructure, with a workshop at Duke on 19–20 Feb 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
@@ -12,7 +12,7 @@
 | Development workshop | 19–20 Feb 2027 (date may change) |
 | Final papers (2,500–4,500 words) | Summer 2027 |
 
-**Angle:** the lab's exact-Φ classifier and AI-assisted pipeline, offered as shared infrastructure for testing whether a coordination form is triadic.
+**Angle (v2):** AI agents generate the research and an exact computation, the oracle, adjudicates it. This answers the CFP's question of whether AI loops do valid science or produce "Potemkin villages of slop". Contribution types: research loops under human direction; reusable infrastructure; diagnostic work.
 
 **Relation to other arms:** draws on `org_frontier/` (classifier, protocol, structural findings). It is distinct from [`../orgsci_agency_triad/`](../orgsci_agency_triad/), which is a theory paper for a different *Organization Science* special issue.
 

@@ -1,96 +1,117 @@
-# Technical Appendix: An Exact Test for Triadic Coordination
+# Technical Appendix: An Oracle-Adjudicated Research Loop for Organization Theory
 
-[DRAFTED by Claude, 26 Oct 2026. Anonymous. Companion to the proposal. Every number below was re-run on 26 Oct 2026 from the anonymized repository, or is tied to a regression check named in A6.]
+[DRAFTED by Claude, 26 Oct 2026, v2. Anonymous. Companion to the proposal. Part A specifies the loop, Part B the oracle, and Part C the record and the audit. Every count was re-run on 26 Oct 2026 from the anonymized repository.]
 
-## A1. Encoding a coordination form
+## Part A. The loop
 
-A coordination form with *n* parties is a deterministic Boolean network on *n* binary nodes. Node *i* holds party *i*'s state (acts or does not act, available or not, approves or does not), and a rule f_i maps the current state of the network to node *i*'s next state. The rules determine a state-by-node transition probability matrix (TPM) and a connectivity matrix. In the classifier's convention, node 0 is the worker, node 1 the system and node 2 the counterpart (little-endian state order).
+### A1. Division of labour
 
-Example: the strict-mediation triad.
+| Role | Who | What it may do | What it may not do |
+|---|---|---|---|
+| Director | human researcher | chooses questions, reads each stage's output, accepts or rejects results, commissions audits | (no restriction) |
+| Generator | AI agents | review, literature search, hypotheses, test design, code, paper | decide whether a hypothesis holds |
+| Oracle | deterministic exact computation | return a verdict on a formal model, after reproducing its controls | be influenced by the generator |
+| Ledger | append-only file of results | hold every prior result, refutations included | be renumbered or edited |
+
+### A2. Stages and their contracts
+
+The orchestration script (`org_frontier/protocol/question_pipeline.js`) runs each stage as an agent call. Stages 3 to 5 return JSON that must validate against a fixed schema.
+
+| Stage | Input | Output (artifact) | Schema or gate |
+|---|---|---|---|
+| 1. Review | the question; the ledger (`probes/PROBES.md`); the synthesis of findings | `review.md`: related prior probes, cited by number, and the gap | stops if a prior result answers the question |
+| 2. Literature | the question | `literature/deep_research_report.md`, `references.bib` | 15–30 sources with DOIs or arXiv IDs; an explicit open-gap statement |
+| 3. Hypotheses | the review and literature | `hypotheses.md` | exactly 5 items, each {name, claim, null, predicted, slug}; committed before any computation |
+| 4. Methods | the hypotheses | `methods.md` | exactly 5 items, each {hypothesis, slug, spec}; the spec gives the model or ensemble, the measure, the controls and the decision rule |
+| 5. Run (in parallel, one agent per test) | one spec | `probe_<slug>.py`, `results/` | the probe asserts a known control before testing; returns {verdict ∈ {confirmed, partial, refuted}, numbers, probe_file, probes_row} |
+| 5b. Log | the five result rows | rows appended to the ledger, continuing the numbering | existing rows are never renumbered |
+| 6. Paper | the results | `paper.md`, `FINDINGS.md` | every number traces to `results/` or the ledger; refutations are reported as refutations |
+
+A manual template (`org_frontier/protocol/template/`) reproduces each stage by hand when the automated run fails.
+
+### A3. Regression
+
+The lab's regression suite holds 542 commands with the output each must print. It re-runs the code behind reported numbers and fails on any change. It checks determinism, not correctness: a check passes if the code still prints what it printed before.
+
+## Part B. The oracle
+
+### B1. Encoding
+
+A coordination form with *n* parties is a deterministic Boolean network on *n* nodes. Node *i* holds party *i*'s state, and a rule sets node *i*'s next state from the current state of the network. The strict-mediation triad:
 
 | Party | Rule | Reading |
 |---|---|---|
-| Worker (0) | x0′ = x1 | the worker acts on the system's signal |
-| System (1) | x1′ = x0 AND x2 | the system commits only when both parties are in |
-| Counterpart (2) | x2′ = x1 | the counterpart responds to what the system shows |
+| Worker | W′ = S | acts on the system's signal |
+| System | S′ = W AND C | commits only when both parties are in |
+| Counterpart | C′ = S | responds to what the system shows |
 
-The worker and counterpart have no direct edge. Each reads only the system.
+### B2. Verdict
 
-## A2. The verdict
+PyPhi (Mayner et al., 2018) computes IIT-4.0 system integrated information (Albantakis et al., 2023) over the minimum-information partition (MIP), the directional cut that minimises normalised integrated information. The verdict is dyadic when Φ_MIP = 0 and triadic when Φ_MIP > 0. The oracle also returns the *major complex*, the subset of parties bound into the irreducible structure. Only the binary verdict and the complex are read. Φ magnitude depends on the encoding and is treated as ordinal at most.
 
-We compute system integrated information under IIT 4.0 (Albantakis et al., 2023) with PyPhi (Mayner et al., 2018). For a candidate system in state *s*, PyPhi evaluates every directional partition of the nodes and returns φ over the minimum-information partition (MIP), the partition that minimises normalised integrated information. The classifier takes the maximum over reachable states and returns:
+### B3. Controls (re-run 26 Oct 2026; `python -m org_frontier.classifier.validate`)
 
-| Φ over the MIP | Structure | Reading |
-|---|---|---|
-| Φ_MIP = 0 | dyadic | some party-respecting cut leaves the cause–effect structure intact |
-| Φ_MIP > 0 | triadic | no cut does; the parties are bound through the mediator |
-
-The test uses the MIP. Φ over the complete cut (every node separated) is positive for any coupled pair, so it over-calls every coupled dyad as a triad. The classifier also returns the *major complex*, the subset of nodes with maximal Φ, which names the parties bound into the irreducible structure. The major complex matters when a form has spectator nodes: a whole system can factor while a triad inside it stays irreducible.
-
-Only the binary verdict is interpreted. Φ magnitude depends on the encoding (the number of states per party, the rule family) and is at most an ordinal hint.
-
-## A3. Validation on the instrument's own controls
-
-Every run first reproduces known controls and stops if any fails (`python -m org_frontier.classifier.validate`). The controls include:
-
-| Control or form | Expected | Observed (re-run 26 Oct 2026) |
+| Control or form | Expected | Observed |
 |---|---|---|
 | Factoring control (counterpart decoupled) | dyadic | dyadic, Φ_MIP = 0.000 |
 | Irreducible control (full coupling) | triadic | triadic, Φ_MIP = 0.830 |
-| Chat dyad | dyadic | dyadic, Φ_MIP = 0.000 |
-| Dyadic gig model | dyadic | dyadic, Φ_MIP = 0.000 |
-| Strict-mediation triad (A1; résumé → applicant-tracking system → hiring manager) | triadic | triadic, Φ_MIP = 2.000 |
-| Applicant-tracking form with factoring feedback | dyadic | dyadic, Φ_MIP = 0.000 |
+| Strict-mediation triad (B1) | triadic | triadic, Φ_MIP = 2.000 |
+| Chat dyad; dyadic gig model; tracking form with factoring feedback | dyadic | dyadic, Φ_MIP = 0.000 each |
 | Gig "false dyad" (a worker alone with an app, bound to a hidden counterpart) | triadic | triadic, Φ_MIP = 2.000 |
 
-## A4. Results cited in the proposal
+### B4. Two reference results the oracle settles
 
-**R1. Census of the strict-mediation family** (`python -m org_frontier.corpus.population`). With no worker–counterpart edge, the worker's rule is one of 4 one-input functions of the system, the counterpart's likewise, and the system's rule one of 16 two-input functions of worker and counterpart: 4 × 16 × 4 = 256 forms. Re-run 26 Oct 2026:
+These results are not the contribution. They show the kind of claim the oracle decides, and why the verdict must be computed rather than read off a diagram.
+- **Census** (`python -m org_frontier.corpus.population`). The strict-mediation family has no worker–counterpart edge. Each outer party's rule is one of 4 one-input functions of the system, and the system's rule is one of 16 two-input functions, giving 4 × 16 × 4 = 256 forms. Of these, 24 are triadic. The intuitive rule "the mediator reads both parties" holds for 160 forms, of which 24 are triadic. It fails for the other 96, and none of them is triadic.
+- **Proxies** (`python -m org_frontier.proxy_bridge.run`). Two time-series proxies estimated from simulated trajectories, ΦID Φ_R and whole-minus-sum Φ, separate dyadic from triadic forms at rank-AUC 0.563 and 0.629, where 0.5 is chance.
 
-| Quantity | Value |
+## Part C. The record and the audit
+
+### C1. Worked run: Thompson's interdependence types (`org_frontier/questions/q43_thompson_interdependence/`)
+
+| Hypothesis (fixed before computing) | Verdict |
 |---|---|
-| Forms | 256 |
-| Triadic (Φ > 0) | 24 (9.4%) |
-| P(triadic \| mediator reads both parties) | 24/160 = 15.0% |
-| P(triadic \| mediator does not read both) | 0/96 = 0.0% |
+| H1: under one convention, the oracle does not reproduce pooled < sequential < reciprocal | confirmed: pooled Φ = 0.0, sequential Φ = 2.0, reciprocal Φ = 2.0 |
+| H2: pooled is verdict-ambiguous | confirmed: dyadic with independent contributions, triadic when one node is jointly determined by all contributors |
+| H3: sequential is verdict-ambiguous | confirmed: triadic with a return edge, dyadic when acyclic |
+| H4: reciprocal needs a closed cycle | confirmed: bidirectional labels without a cycle read dyadic |
+| H5: verdict = f(joint determination, feedback cycle) | refuted: four forms share (True, True), three of them with identical connectivity matrices, and they split across both verdicts |
 
-**R2. Time-series proxies** (`python -m org_frontier.proxy_bridge.run`). Eight curated forms (three triadic, five dyadic) × three noise levels (0.05, 0.10, 0.20) × three seeds, trajectories of 8,000 steps. Proxies: ΦID Φ_R with CCS redundancy, and uncorrected whole-minus-sum Φ_WMS. Ground truth: the exact verdict on the deterministic form. Re-run 26 Oct 2026:
+### C2. Verdict tally (`python tools/tally_verdicts.py`)
 
-| Proxy | Triadic mean | Dyadic mean | Rank-AUC | Best-threshold accuracy |
-|---|---|---|---|---|
-| Φ_R (CCS) | 0.139 | 0.091 | 0.563 | 0.736 |
-| Φ_WMS | 0.122 | 0.043 | 0.629 | 0.778 |
+The script reads each question's `FINDINGS.md`, takes each hypothesis's verdict from the findings table (or from an inline H*k* verdict where no table exists), and classifies it. It parses 163 of the 170 question records; the remaining 7 have no machine-readable verdicts.
 
-Per form, mean Φ_R: hierarchy with back-channel (dyadic) 0.205; gig false dyad (triadic) 0.206; strict bottleneck (triadic) 0.106; two-sided match (triadic) 0.106; pure relay (dyadic) 0.136. The back-channel creates dependence that the proxy reads as integration.
+| | Questions | Hypotheses | Confirmed | Refuted | Partial |
+|---|---|---|---|---|---|
+| All | 163 | 512 | 399 (77.9%) | 105 (20.5%) | 8 (1.6%) |
+| Q1–Q117 (before the audit) | 65 | 275 | | 17.1% | |
+| Q118 onward (after the audit) | 98 | 237 | | 24.5% | |
 
-**R3. Thompson's interdependence types** (`org_frontier/questions/q43_thompson_interdependence/`). Each type was built at n = 3 under one convention.
+The parse is automated, and checking a random sample by hand is a development-stage task. The before/after difference is descriptive only: the later questions differ in topic and were not randomised.
 
-| Hypothesis | Result |
-|---|---|
-| H1: under one convention, the verdict does not reproduce pooled < sequential < reciprocal | Confirmed: pooled Φ = 0.0, sequential Φ = 2.0, reciprocal Φ = 2.0; the top step collapses |
-| H2: pooled is verdict-ambiguous | Confirmed: dyadic with independent contributions, triadic when one node is jointly determined by all contributors |
-| H3: sequential is verdict-ambiguous | Confirmed: triadic with a return edge, dyadic when acyclic |
-| H4: reciprocal needs a closed cycle | Confirmed: bidirectional labels without a cycle read dyadic |
-| H5: verdict = f(joint determination, feedback cycle) | Refuted: four forms share (True, True), three with identical connectivity matrices, and they split across both verdicts |
+### C3. The audit (`org_frontier/AUDIT_Q111_Q117.md`)
 
-## A5. The research loop
+The adversarial review of Q111–Q117 read the wave through four lenses:
+- the method's own assumptions;
+- construct and external validity;
+- formal and cooperative-game method;
+- research process and integrity.
 
-| Stage | Artifact | Gate |
+The reviewers re-checked their load-bearing claims against the code and the ledger, and the review corrects its own critics where they overreached. The table lists the failure modes it found and the mechanism the proposal assigns to each.
+
+| Failure mode | Evidence in the wave | Proposed mechanism |
 |---|---|---|
-| 1. Review | `review.md`: the question against prior probes | names the related probes; stops if a prior probe answers the question |
-| 2. Literature | `literature/deep_research_report.md`, `references.bib` | sourced references with DOIs; states whether the gap is open |
-| 3. Hypotheses | `hypotheses.md`: H1–H5 with nulls and predicted outcomes | committed before any computation |
-| 4. Methods | `methods.md`: form, measure, controls and decision rule per hypothesis | a reader can reproduce each test without the code |
-| 5. Run | `probe_*.py`, `results/` | an instrument control passes first; refutations are logged as refutations |
-| 6. Paper | `paper.md`, `FINDINGS.md` | every number traces to a results file or a logged probe |
+| Non-severe testing | 24 of 24 hypotheses confirmed; one hypothesis restated the Shapley efficiency axiom | a vetting agent flags identities; a per-wave severity alarm |
+| Leaky pre-commitment | exploratory values computed before the hypotheses were fixed (Q115's sweep; Q117's predicate "found by inspecting the family") | hypotheses sealed to an external timestamp; oracle calls blocked until sealed |
+| Self-administered gates | one agent in one session produced the review, hypotheses, code, results and paper | separate vetting and auditing agents; the auditor does not see the predictions |
+| Vocabulary drift | Shapley shares of Φ described as "rent", "scarcity" and "value capture"; Φ magnitudes used cardinally | claim tracing: every finding sentence maps to a computed quantity, and unlicensed terms go to the director |
+| Determinism mistaken for correctness | regression checks re-print numbers but do not validate what a form models | an independent human re-implementation of a sample (proposal, step 3) |
 
-The orchestration script (`protocol/question_pipeline.js`) runs the six stages as agent calls with JSON-schema outputs for hypotheses, methods and verdicts. A manual template reproduces each stage by hand. Status on 26 Oct 2026: 170 questions have fixed hypotheses and probes, and 168 have a written paper.
+## Part D. Reproduction
 
-## A6. Reproducibility
-
-- **Environment:** Python 3.12, PyPhi with IIT 4.0 support, phyid for the ΦID proxy, NumPy and pandas. The repository's `requirements.txt` lists the dependencies and pins PyPhi to its `feature/iit-4.0` branch.
-- **Regression suite:** `ci/reproduce.json` lists 542 commands with expected output strings. Relevant checks include `instrument-controls` (A3), `q120-higher-order-binding` (24 of 256 strict-mediation forms triadic), `q43-thompson-ordering` and `q43-thompson-sequential` (R3), and `field-mocks` (nine of ten invented field cases matched the reading fixed before computing; ride-hail flips from triadic to dyadic under substitutable drivers). The R1 conditional rates and the R2 proxy statistics come from the module runs above and have no dedicated check yet.
-- **Runtime:** the full three-party census runs in about one second on a laptop CPU, and the proxy experiment in about five seconds. Exact computation becomes impractical beyond about ten to twelve nodes.
+- **Environment:** Python 3.12; PyPhi from its `feature/iit-4.0` branch; phyid; NumPy; pandas (`requirements.txt`).
+- **Runtime:** the controls, census, proxy experiment and Thompson probes each finish in seconds on a laptop CPU. Exact Φ becomes impractical beyond about ten nodes.
+- **The loop itself** runs today on a commercial model through a workflow runner. The stage prompts and schemas are in the script. The development stage adds an open-weight configuration.
 
 ## References
 
