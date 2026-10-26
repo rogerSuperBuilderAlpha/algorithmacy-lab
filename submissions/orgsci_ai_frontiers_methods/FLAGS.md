@@ -9,3 +9,7 @@
 5. **Numbers:** 24 of 256 triadic is in `ci/reproduce.json` (checks 303 and 503). The proxy rank-AUCs (0.563 and 0.629) are in `org_frontier/proxy_bridge/FINDINGS.md` and have **no CI check**. Add one before the appendix cites them. The best-threshold accuracy for the whole-minus-sum proxy is 0.778, so "near chance" refers to rank-AUC only.
 6. **Dissertation spine:** Φ is presented as a principled instrument. Nothing here calls it decorative or unnecessary. The limits stated are encoding sensitivity and the validation gap.
 7. **The INFORMS PDF was not read.** Format details come from the editors' Substack posts.
+
+8. **Re-run on 26 Oct 2026** [DRAFTED by Claude]. Census: 24/256; 24/160 = 15.0%; 0/96. Proxy rank-AUCs: 0.563 and 0.629. Controls: pass. The Q43 H1 and H3 checks pass. The anonymized package reproduces all of these standalone. The R1 conditional rates and R2 proxy statistics still have no dedicated `ci/reproduce.json` check.
+9. **Correction** [DRAFTED by Claude]. `question_pipeline.js` has no human-approval gate between stages. The researcher chooses the question and accepts or rejects the output. The summary that said "with a human approving each stage" was corrected, and the proposal states human approval only for the *proposed* case-to-model module.
+10. **The anonymized repository** is a scrubbed copy: no names, no lab or institution, no git history, and local paths, PR numbers and "dissertation" removed. The call asks for a Git repository, so it must be hosted somewhere anonymous before submission (see the README).

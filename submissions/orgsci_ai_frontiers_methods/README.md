@@ -2,7 +2,7 @@
 
 [DRAFTED by Claude, 26 Oct 2026, from the editors' posts. The angle is a proposal for the author to rule on.]
 
-**Status:** project opened on 26 Oct 2026, with a summary, argument and package outline drafted. **The proposal package is due 1 Nov 2026.** Nothing has been submitted. Fit is low to moderate (FLAGS 3).
+**Status:** the package was drafted 26 Oct 2026 and has not been submitted. It contains `PROPOSAL.md` (1,719 words), `TECHNICAL_APPENDIX.md`, and an anonymized repository built outside this repo; the submission files are in the author's Downloads. **The proposal package is due 1 Nov 2026.** Fit is low to moderate (FLAGS 3).
 
 **The call:** a special issue that develops AI-enabled research infrastructure, with a workshop at Duke on 19–20 Feb 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
