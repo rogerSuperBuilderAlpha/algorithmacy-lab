@@ -15,7 +15,7 @@ place.** Update it when a date moves, and say what moved it.
 | 2026-09-10 | Full manuscript | OS/OT PDW Lima | yes |
 | 2026-10-01 | First draft for editor feedback | *Slacker* collection, Bloomsbury | optional |
 | 2026-10-05→07 | Attend the workshop, in person, Lima | OS/OT PDW Lima | yes — plus roundtable reviewing |
-| 2026-10-27 | Accountability in the Triad | FAccT 2027 ([`facct2027_triad_accountability/`](facct2027_triad_accountability/)); abstract registration 27 Oct AoE; full 14-page paper 3 Nov AoE | no — project opened 2026-10-26, nothing submitted |
+| 2026-10-27 | Accountability in the Triad | FAccT 2027 ([`facct2027_triad_accountability/`](facct2027_triad_accountability/)); abstract registration 27 Oct AoE; full 14-page paper 3 Nov AoE | **abstract registered 2026-10-26** (non-archival); full paper due 3 Nov AoE |
 | 2026-10-28→31 | Talk: deck, script and a live session ([`triadic_reduction/`](triadic_reduction/)) | ALGOCON, algorithmacy.org, Port of Spain | yes — slot day not yet fixed; added 2026-09-24. 20 minutes; 30 requested 2026-09-25, not confirmed |
 | ~~2026-10-30~~ | Algorithmacy as an IS construct (8-page short paper) | ECIS 2027 ([`ecis2027_algorithmacy_is/`](ecis2027_algorithmacy_is/)); 30 Oct | **submitted 2026-10-26** (PCS #1520); decision 1 Feb 2027 |
 | 2026-10-31 | Co-optation as Control (350–500-word abstract) | ILPC 2027 ([`ilpc2027_cooptation_control/`](ilpc2027_cooptation_control/)); 31 Oct (platform shows 8 Nov) | no — project opened 2026-10-26, nothing submitted |

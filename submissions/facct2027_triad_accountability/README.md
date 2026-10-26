@@ -2,7 +2,7 @@
 
 [DRAFTED by Claude, 26 Oct 2026, from the organizers' pages. The angle is a proposal for the author to rule on.]
 
-**Status:** project opened on 26 Oct 2026, with an abstract, argument and outline drafted. **A full 14-page paper is due 3 Nov 2026, and the abstract registration closes 27 Oct 2026, 11:59 PM AoE.** Nothing has been submitted.
+**Status: abstract REGISTERED 26 Oct 2026** on OpenReview (non-archival; primary focus Power and practice, secondary Normative foundations). The registered abstract is in `ABSTRACT_REGISTERED.md`. **The full 14-page paper is due 3 Nov 2026, 11:59 PM AoE.**
 
 **The call:** ACM Conference on Fairness, Accountability, and Transparency, Porto, 21–24 June 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
