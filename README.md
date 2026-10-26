@@ -650,7 +650,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 
 ## Setup
 
-Requires Python ≥ 3.10 and PyPhi's IIT-4.0 line.
+Requires Python ≥ 3.10 and PyPhi's IIT-4.0 line. `requirements.txt` pins `wmayner/pyphi` `feature/iit-4.0` at `b78d0e342d37175cbd55cf35a6d52ae035b4c50f` (`1.2.1.dev1470+gb78d0e342`, 26 December 2025), the build `ci/reproduce.py` runs through `pyphi.Network`, `pyphi.Subsystem`, and `pyphi.new_big_phi`. Ternary and mixed-radix forms use the overlay `third_party/pyphi_iit4_mv`, also on `rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`). Upstream PyPhi 2.0 is `wmayner/pyphi` `main` at `134a8f31` (16 October 2026; tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`): `Substrate` / `System` / `analyze`, with `pyphi.iit4_2023()` reproducing the pinned controls and `pyphi.iit4_2026()` the Mayner, Marshall, and Tononi (2026) default.
 
 ```bash
 python -m venv venv && source venv/bin/activate
