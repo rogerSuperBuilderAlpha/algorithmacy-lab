@@ -67,3 +67,17 @@
 | oeldorf2025 | Verified; full text read | 10.1177/14614448231182662: *NM&S* 27(2) 681–701 (online 2023) | full text (Roger, 24 Oct) | Scope: "our focus is primarily on social media content filtering algorithms" (p. 683), a user and a feed. Users "had little power to influence or leverage it" (p. 686) | 2026-10-24 |
 | gagrcin2026 | Verified; full text read | 10.1177/14614448241291137: *NM&S* 28(1) 423–447 (online 2024) | full text (Roger, 24 Oct) | n = 169 review. "Adverse outcomes do not solely stem from a lack of AL but from the deliberate ambiguity cultivated in algorithmic moderation"; platform capitalism "encourages different actors to play each other through and around algorithms" (p. 441); AL "is but one facet of competences needed to improve working conditions, mobilize for social causes" (p. 442). **Supports "literacy is insufficient"** | 2026-10-24 |
 | mohlmann2021 | Verified; definition read | MISQ 45(4) 1999–2022 (Dec 2021); DOI 10.25300/MISQ/2021/15333 (Crossref confirmed 24 Oct) | partial (Roger, 24 Oct) | "We define algorithmic management as the large-scale collection and use of data on a platform to develop and improve learning algorithms that carry out coordination and control functions traditionally performed by managers" (p. 2001); matching serves "both sides" (Uber case) | 2026-10-24 |
+| **Antonio Scala's additions, 25 Oct (abstract-bearing rows first)** | | | | | |
+| centola2007 | Pending | 10.1086/521848 (as supplied; *AJS* 113(3) 702–734) | not read | complex contagion crosses communities only through wide bridges | 2026-10-26: Crossref, publisher, Scholar Gateway and Consensus all unreachable from the session |
+| santos2021 | Pending | 10.1073/pnas.2102141118 (as supplied; *PNAS* 118(50) e2102141118) | not read | link recommendation shapes which ties form; polarisation | 2026-10-26: same |
+| granovetter1978 | Pending | 10.1086/226707 (as supplied) | not read | threshold model (full paper, appendix) | 2026-10-26 |
+| guess2023 | Pending | 10.1126/science.abp9364 (as supplied) | not read | small feed effects on attitudes (full paper, §5 and §7) | 2026-10-26 |
+| klein2022 | Pending | 10.1111/jopp.12249 (as supplied) | not read | organised collective power (full paper, §6) | 2026-10-26 |
+| aytac2024 | Pending | 10.1177/00323217221096564 (as supplied) | not read | digital domination (full paper, §6) | 2026-10-26 |
+| hoeksema2023 | Pending | 10.1007/s13347-023-00618-7 (as supplied) | not read | radical republicanism (full paper, §6) | 2026-10-26 |
+| cohen2024 | Pending | 10.14763/2024.3.1794 (as supplied) | not read | capabilities to organise (full paper, §6) | 2026-10-26 |
+| schelling1971 | Pending | 10.1080/0022250X.1971.9989794 (as supplied) | not read | how-possibly models (full paper, §3 and §7) | 2026-10-26 |
+| weisberg2013 | Pending | OUP 2013 (as supplied) | not read | simulation as how-possibly explanation | 2026-10-26 |
+| williams2024 | Pending | CUP 2024; editors and pages unknown (Antonio flags this too) | not read | deterritorialised legitimacy (full paper, §6) | 2026-10-26 |
+| sieyes1789 | Pending | edition to choose | not read | constituent power | 2026-10-26 |
+| watts1999 | Pending | Princeton UP 1999 | not read | small worlds (appendix) | 2026-10-26 |
