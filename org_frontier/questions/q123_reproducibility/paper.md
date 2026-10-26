@@ -59,8 +59,19 @@ measure, and whether the genuine IIT-3.0 computation agrees is a separate, untes
 
 ## Limitations
 
-This pins one PyPhi commit and one IIT-4.0 config; other versions are untested, so reproducibility is
-established for this build, not across builds. EMD on the 4.0 path is degeneracy (Φ = 0, and errors on larger
-systems), not a valid IIT-3.0 verdict, which comes from the separate legacy computation and is untested here.
-The invariance shown is of the binary verdict, not the Φ magnitude. Determinism is not external correctness;
-that rests on PyPhi's own validation.
+This study pins one PyPhi commit and one IIT-4.0 config. The invariance grid is for that build. EMD on the
+4.0 path is degeneracy (Φ = 0, and errors on larger systems), not a valid IIT-3.0 verdict, which comes from
+the separate legacy computation and is untested here. The invariance shown is of the binary verdict, not the
+Φ magnitude. Determinism is not external correctness; that rests on PyPhi's own validation.
+
+An October 2026 check of upstream PyPhi 2.0 sits outside that grid. Upstream `wmayner/pyphi` `main` at
+`134a8f31` (tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`) under `pyphi.iit4_2023()` reproduces the pinned
+binary conjunctive triad at `(1,1,1)` (φ_s = 2.0; Φ = 4.5, 4 distinctions, 10 relations) and the ternary
+conjunctive triad (`num_states_per_node=(3,3,3)`, `S' = min(W,C)`) at `(2,2,2)` (φ_s = 1.584963, log₂ 3),
+matching `feature/iit-4.0@b78d0e342` and `third_party/pyphi_iit4_mv` to machine precision. The majority triad
+at `(1,1,1)` has φ_s = 1.666667. Under the 2.0 default `pyphi.iit4_2026()`, the ii(s) cap of Mayner, Marshall,
+and Tononi (2026) leaves the majority triad at φ_s = 1.666667, lowers the binary conjunctive triad to
+φ_s = 1.0 with that Φ-structure unchanged, and lowers the ternary state to φ_s = 0.630930. Each verdict stays
+positive (φ_s > 0). The cap is φ_s = min{φ_c, φ_e, ii(s)}, with ii(s) the minimum, over cause and effect, of
+the minimum of intrinsic differentiation and intrinsic specification. The majority triad in this check is the
+PyPhi majority gate. The lab's three-voter rule, which scores Φ_MIP = 0 on the pinned line, is a separate model.

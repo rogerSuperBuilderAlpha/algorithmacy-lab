@@ -18,8 +18,16 @@ pip install -r requirements.txt
 ```
 
 PyPhi installs from its IIT-4.0 line (see `requirements.txt`) and requires **Python 3.10 or newer** — the
-install fails with `requires a different Python` on an older default interpreter. Run probes and
-experiments from the repo root so `org_frontier.*` and `foundations.*` resolve.
+install fails with `requires a different Python` on an older default interpreter. That line is
+`wmayner/pyphi` `feature/iit-4.0` at `b78d0e342d37175cbd55cf35a6d52ae035b4c50f`
+(`1.2.1.dev1470+gb78d0e342`, 26 December 2025). `ci/reproduce.py` calls `pyphi.Network`,
+`pyphi.Subsystem`, and `pyphi.new_big_phi` on it, so the pin URL stays on
+`feature/iit-4.0`. Ternary and mixed-radix work uses `third_party/pyphi_iit4_mv`, packaged on
+`rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`). Upstream PyPhi 2.0 is
+`wmayner/pyphi` `main` at `134a8f31` (tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`): `Substrate` /
+`System` / `analyze`, with `pyphi.iit4_2023()` matching the pinned controls and `pyphi.iit4_2026()`
+the Mayner, Marshall, and Tononi (2026) default. Run probes and experiments from the repo root so
+`org_frontier.*` and `foundations.*` resolve.
 
 ## The research protocol
 

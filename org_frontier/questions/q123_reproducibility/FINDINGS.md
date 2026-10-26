@@ -69,9 +69,8 @@ separate question the agenda still lists.
 
 ## Caveats
 
-- **One implementation, one version.** "Pinned" pins this PyPhi commit and this IIT-4.0 config; a different
-  PyPhi version or a future 4.x revision is untested, so reproducibility is established for this build, not
-  across builds.
+- **One implementation, one version, for this grid.** The pre-registered checks pin `pyphi @ b78d0e342d37175cbd55cf35a6d52ae035b4c50f` and one IIT-4.0 config. Reproducibility in the table above is for that build.
+- **PyPhi 2.0, checked October 2026, sits outside the grid.** Upstream `main` at `134a8f31` (`v2.0.0rc4` / `2.0.0rc5.dev0`) under `pyphi.iit4_2023()` reproduces the pinned binary conjunctive triad (φ_s = 2.0; Φ = 4.5, 4 distinctions, 10 relations) and the ternary conjunctive triad at `(2,2,2)` (φ_s = 1.584963, log₂ 3). The majority triad at `(1,1,1)` has φ_s = 1.666667. Under `pyphi.iit4_2026()`, the ii(s) cap of Mayner, Marshall, and Tononi (2026) — φ_s = min{φ_c, φ_e, ii(s)}, with ii(s) the minimum over cause and effect of min(i_diff, i_spec) — leaves the majority triad at 1.666667, lowers the binary triad to φ_s = 1.0 with that Φ-structure unchanged, and lowers the ternary state to φ_s = 0.630930. All three stay positive. The majority triad here is the PyPhi majority gate, separate from the lab's three-voter rule (Φ_MIP = 0 on the pinned line).
 - **EMD on this path is degeneracy.** EMD returns Φ = 0 here and errors on larger systems, so it is inadmissible in substance and far from a valid 3.0 reading. The genuine IIT-3.0 verdict comes from
   the separate legacy computation and is untested (agenda #8); this study does not claim a 3.0-versus-4.0
   comparison.

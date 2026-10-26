@@ -25,6 +25,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`phygital_cjas_leadership/`](phygital_cjas_leadership/) | *Canadian Journal of Administrative Sciences* APA 2027 special issue: Phygital Leadership. Project opened; abstract deadline passed | manuscript 2027-07-10 |
 | [`phygital_smq_value_creation/`](phygital_smq_value_creation/) | *Services Marketing Quarterly* APA 2027 special issue: Phygital Value Creation. Project opened; abstract deadline passed | manuscript 2027-05-30 |
 | [`phygital_bh_transformation/`](phygital_bh_transformation/) | *Business Horizons* APA 2027 special issue: Phygital Business Transformation. Project opened; abstract and registration deadlines passed | not stated |
+| [`phi_program_review/`](phi_program_review/) | Synthesis review: five months of exact Φ on small coordination models, with the PyPhi pin and the upstream 2.0 control check | no deadline |
 
 These arms borrow lab constructs. They do not re-run Φ. Exact-Φ results remain evidence about
 Boolean models.
