@@ -2,7 +2,7 @@
 
 [DRAFTED by Claude, 26 Oct 2026, from the editors' posts. The angle is a proposal for the author to rule on.]
 
-**Status:** v2 drafted 26 Oct 2026 and not yet submitted. It is rewritten against the CFP PDF around the method: an oracle-adjudicated AI research loop, its 170-question record and an audit of its failure modes. It contains `PROPOSAL.md` (1,629 words), `TECHNICAL_APPENDIX.md`, `ABSTRACT.md` (the ScholarOne fields) and an anonymized repository built outside this repo (`oracle-loop`, in the author's Downloads). v1, built around the classifier, is retired. **Due 1 Nov 2026.**
+**Status:** v3 drafted 26 Oct 2026 and not yet submitted. It was planned against the CFP PDF only, with Fable planning the writing. The proposal (1,984 words) presents the AI + PyPhi pipeline that tests a coordinative structure for irreducibility, and the strategic model as Stage 2. The submission repository `irreducibility-pipeline` is built and committed locally at `~/iit-playground/irreducibility-pipeline` (tag `v0.1-stage1`; 19 tests and 17 reproduce checks pass in a fresh venv) and is not yet pushed to GitHub. v1 and v2 are retired. **Due 1 Nov 2026.**
 
 **The call:** a special issue that develops AI-enabled research infrastructure, with a workshop at Duke on 19–20 Feb 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
@@ -12,7 +12,7 @@
 | Development workshop | 19–20 Feb 2027 (date may change) |
 | Final papers (2,500–4,500 words) | Summer 2027 |
 
-**Angle (v2):** AI agents generate the research and an exact computation, the oracle, adjudicates it. This answers the CFP's question of whether AI loops do valid science or produce "Potemkin villages of slop". Contribution types: research loops under human direction; reusable infrastructure; diagnostic work.
+**Angle (v3):** exactly how AI and PyPhi test a coordinative structure for irreducibility, and why that matters for strategy as organizations rely on triadic infrastructure. The GitHub repo is the prototype.
 
 **Relation to other arms:** draws on `org_frontier/` (classifier, protocol, structural findings). It is distinct from [`../orgsci_agency_triad/`](../orgsci_agency_triad/), which is a theory paper for a different *Organization Science* special issue.
 

@@ -1,81 +1,83 @@
-# The AI Proposes, the Oracle Disposes: An Oracle-Adjudicated Research Loop for Organization Theory
+# Computing the Triad: An AI-and-PyPhi Pipeline for Testing Whether Coordinative Infrastructure Is Irreducible
 
-[DRAFTED by Claude, 26 Oct 2026, v2, rewritten against the CFP PDF. Research proposal for *Organization Science*, AI-Enabled Frontiers (Stage 1, due 1 Nov 2026). Anonymous. Contribution types addressed: "AI-enabled research loops under human direction", "Reusable research infrastructure", "Critical, diagnostic, or boundary-setting work". Counts come from the anonymized repository; the hypothesis tally is an automated count of the question records (TECHNICAL_APPENDIX.md, B4).]
+[DRAFTED by Claude, 26 Oct 2026, v3, planned against the CFP PDF only. Stage 1 proposal for *Organization Science*, "AI-Enabled Frontiers in Organizational Science" (due 1 Nov 2026). Every number reproduces from the submission repository with `python reproduce.py`; the repository URL replaces [REPOSITORY URL] once it is created. v1 and v2 are retired; see git history.]
 
-## The core contribution
+## The structural fact strategy needs and cannot see
 
-AI research loops face one problem above the others: the system that writes a claim also judges it. A language model that generates hypotheses, runs analyses and writes the paper grades its own work, and its errors come in the same fluent register as its findings. The editors put the open question bluntly: can such loops perform valid social science, or are they "Potemkin villages of slop masquerading as research"?
+Rahman's (2021) freelancers worked under a score that moved without notice, and among the things they could not decipher was who had moved it, the client or the platform. Curchod, Patriotta, Cohen and Neysen (2020) describe eBay's customer reviews as enacting triadic relationships among the platform operator, buyers and sellers, where a dyadic exchange had stood. Stark and Pais (2020) give the platform a triangular geometry in which the owner co-opts providers and users alike, and Cameron (2024) draws an algorithmic labor triangle. Organizations increasingly coordinate through such infrastructure: a dispatch system between driver and rider, an engine between claimant and adjuster, an AI agent between two firms. The literature calls these arrangements triadic by description. Nobody computes it.
 
-We propose a methodology that separates the two jobs. In an *oracle-adjudicated research loop*, AI agents do the generative work. They place a question against what is already known, search the literature, write competing hypotheses, design tests and draft the paper. Every empirical claim is decided by a deterministic, exact computation that the agents cannot influence: the *oracle*. The agents may propose anything, but a claim enters the record only as a prediction about the oracle's output, and the prediction is fixed before the oracle runs. The oracle's answer is final. In short, the AI proposes and the oracle disposes.
+The surface does not settle it. In the complete family of 256 three-party structures in which the outer parties have no direct link and must coordinate through a mediator, 24 are irreducibly triadic. The intuitive test, that the mediator reads both parties, is necessary but nowhere near sufficient: it holds for 160 structures, of which 24 are triadic, and fails for 96, of which none is. Most arrangements with a platform in the middle still factor into pairs.
 
-Organization theory suits this design because many of its central claims are structural. Is the arrangement of a worker, a platform and a customer irreducibly three-party, or does it factor into two-party relations? Does Thompson's (1967) ranking of pooled, sequential and reciprocal interdependence hold? Claims like these can be written as small formal models and settled exactly. Our oracle does this with integrated information theory 4.0 (Albantakis et al., 2023), computed with the open-source PyPhi package (Mayner et al., 2018). Given a Boolean model of a coordination form, it returns an exact verdict. If some cut along party lines leaves the form's cause–effect structure intact, the form is *dyadic*. If no cut does, the form is *triadic*. The method does not depend on this particular oracle. Any exact, deterministic adjudicator of formal models could take its place.
+Irreducibility is a strategic fact. It says who is bound to whom, who can leave, and what a redesign would change. We have built a method that computes it exactly for any small coordinative structure written as a model of who reads whom and what each party commits. We have not yet built the model of what to do about it. This proposal describes the method, shows it working, and lays out how we will build the strategic model on top of it.
 
-We have built the loop, run it on 170 research questions and audited its failures. In the development stage we will turn it into shared infrastructure, close the integrity gaps the audit exposed, and measure what such loops can and cannot do.
+## The pipeline: what AI does, what PyPhi computes, what the researcher decides
+
+1. **Bound and name.** The researcher fixes one recurring act (one match, one claim, one merge), names the parties as nodes, and states what each party's active bit means and what that binary collapses. *Built, as a written field protocol with a coding scheme, interview guide and ethics note.*
+2. **Encode.** A language model drafts rival Boolean encodings of the arrangement, one per defensible reading. Each party's next state is an expression over the parties it reads, such as `P' = D and R`, and every rule must quote the passage it rests on. For the mediator, the model must also say whether the evidence shows it *committing* on a joint condition, *conveying* one party's signal, or *storing* inputs for someone else. A second, adversarial prompt then searches for the most different readings the evidence still permits: commit versus convey, interchangeable parties, and outside options. Every encoding carries a predicted verdict fixed before anything is computed. A checker rejects any rule whose quotation does not appear verbatim in the source. *Built as prompts, a schema and the checker, and run on two cases; ingestion of interview transcripts at scale is planned.*
+3. **Compute.** For each encoding the rules become a state-by-node transition matrix and a connectivity matrix. PyPhi's implementation of integrated information theory 4.0 (Albantakis et al., 2023; Mayner et al., 2018) evaluates every reachable state and returns system integrated information Φ over the minimum-information partition (the cut that damages the cause–effect structure least), together with the major complex, the subset of parties that forms the irreducible core. If Φ is zero in every state, some cut along party lines leaves the structure intact and the arrangement is *dyadic*. If Φ is positive in any state, no cut does, and it is *triadic*. *Built.*
+4. **Validate first.** Before reading any verdict, the instrument must reproduce its controls: a structure with a decoupled party reads dyadic, and a fully coupled one reads triadic. If either fails, every script refuses to run. *Built.*
+5. **Report the spread.** The pipeline computes every approved encoding, reports the Φ gap and core overlap between rival readings, and names the single rule whose change flips the verdict. A verdict that holds across every defensible encoding is robust. One that does not is contested, and the flipping rule is the fact fieldwork must settle. *Built.*
+6. **Read the structure.** Three readings follow from the verdict. *Who is bound* is the major complex. *The mediator's position* comes from a lesion test: a bottleneck carries the coordination; an enricher adds to a coordination that survives its removal; capture binds the mediator to some parties and leaves others out; a bypassed mediator sits outside a core the parties form themselves. *Intrinsic or contingent* comes from restoring a forbidden direct tie: an intermediary that does integrative work stays in the core, while one held there only by a constraint on bypassing it drops out. *Built.*
+
+The division of labour is the design. The model proposes readings at a breadth no single coder sustains; PyPhi decides each exactly; the researcher bounds the act, approves encodings, fixes predictions and interprets the result for strategy.
+
+## A walk-through: gig dispatch
+
+The repository's first worked example applies the pipeline to a stipulated description of one dispatch event. The platform's manual says the system "assigns a trip only when an eligible driver is available and a rider has confirmed the request." A driver says "It's a suggestion, it follows what I do." The manual adds that "any eligible driver in range may be assigned," and some riders text their regular driver when the app is slow.
+
+The platform's account encodes as `D' = P, P' = D and R, R' = P`. PyPhi returns Φ = 2.0 at the state where all three are active, with all three parties in the core and the platform a bottleneck. Restoring a direct driver–rider tie leaves the platform in the core, so its place is intrinsic. The driver's account changes one rule, `P' = D`, and the structure factors (Φ = 0). The pipeline reports that this single rule carries the whole disagreement, so the question a study must answer is whether dispatch commits or relays. Pooling drivers, `P' = (D1 or D2) and R`, also factors the structure and removes the individual driver from the core, leaving platform and rider bound.
+
+Holding the platform's rule fixed and varying outside options gives the strategic reading. With both sides captive, the platform is a bottleneck. With a complementary direct tie, it is an enricher. With a captive driver and a mobile rider, it captures the driver; give the driver the option instead and the lock-in moves to the rider. Only symmetric options leave the platform outside the core. For a platform, a drivers' collective or a regulator, these are the structural consequences of each lever. Which lever to pull in which circumstance is the strategic model we will build.
+
+The AI step ran on this case. Given the description alone, the drafter reproduced the two rival readings a human coder wrote, with every quotation verbatim. The adversary then found the driver pool and the substitute direct tie, and declined a complementary tie that the text does not support. Both of its predictions failed when computed. It expected the pooled structure to stay triadic, but it factors. It expected the direct-tie structure to factor, but it stays irreducible with the platform bypassed. The model found the readings, and PyPhi decided them. On a second case, insurance-claim routing, the drafter declined to write rules for four of five designs because the description did not specify them, and the checker rejected the file. The gate worked as intended.
 
 ## What we have done
 
-**The loop.** A six-stage orchestration script runs each question, and a researcher sets the question.
-1. **Review.** An agent reads the lab's cumulative ledger of prior results, states the gap the question opens, and stops if the ledger already answers it.
-2. **Literature.** A research workflow returns 15 to 30 sourced references and states whether the gap is open.
-3. **Hypotheses.** An agent writes five distinct, falsifiable hypotheses in a fixed schema, each with its null and its predicted outcome. All five are committed before any computation runs.
-4. **Methods.** An agent writes one test per hypothesis. Each test specifies the model, the measure, a known control and a decision rule, in enough detail that a reader could reproduce it without the code.
-5. **Run.** Parallel agents write and execute the test code. Each test must first reproduce a known control, such as a strict-mediation triad reading triadic at Φ = 2.0, and aborts if it fails. Each returns confirmed, partial or refuted with the exact numbers, and the results are appended to the ledger.
-6. **Paper.** An agent writes the paper and a findings table. Every number must trace to a results file, and refuted hypotheses are reported as refuted.
+The repository ([REPOSITORY URL]) holds the pipeline as installable code, four worked examples (gig dispatch, insurance-claim routing, a code-review gate, and a dealer contrasted with a clearinghouse), the logged AI runs, the field protocol, 19 tests, and one command that reproduces all 17 reported results in about two minutes on a laptop.
 
-A regression suite of 542 commands re-runs the code behind the reported numbers and fails if any output changes.
+The reference results show why the verdict must be computed rather than read off a diagram, and why its encoding must be searched rather than chosen. Beyond the 256-structure census:
+- Two standard time-series proxies for integration separate dyadic from triadic structures at rank-AUC 0.563 and 0.629, barely above chance.
+- In ten invented organizations, the computed verdict matched the reading fixed before computing in nine. Four flipped under a second encoding the same story permits.
+- An adversary limited to readings the evidence permits flipped the point verdict on all 101 contested accounts it attacked.
 
-**One run, end to end.** We asked whether the oracle reproduces Thompson's ordering of interdependence. The loop fixed five hypotheses, built each type as a three-party model, and ran the tests. Pooled interdependence read dyadic, while sequential and reciprocal both read triadic, so the top step of Thompson's ordering collapsed. Pooled and sequential each changed verdict when a single edge changed. The loop then proposed a repair, a rule based on two structural primitives, and the oracle refuted it. Four forms share the same pair of primitives, three of them with identical wiring, and they still split across both verdicts. A refutation of the loop's own idea, settled by a computation the agents could not bend, is the method working as designed.
-
-**The record.** Across 163 questions with machine-readable findings tables, the loop fixed 512 hypotheses in advance. The oracle confirmed 399 (78%), refuted 105 (21%) and returned a partial result on 8. A loop that grades itself seldom refutes itself, so a refutation rate of one in five suggests that the oracle, not the agent, settled the outcomes.
-
-**The audit, and what it found.** A high confirmation rate is not evidence of validity, so we commissioned an adversarial review of one seven-question wave, Q111–Q117. The reviewers read the wave through four lenses: the method's assumptions, construct validity, formal method, and research integrity. They found four failure modes, each specific to AI-run research.
-- **Non-severe testing.** The wave confirmed 24 of 24 hypotheses. Several were true by construction; one restated the efficiency axiom of the Shapley value.
-- **Leaky pre-commitment.** In some questions the agents computed exploratory values before fixing their hypotheses, and so "predicted" results they had already seen.
-- **One agent in six hats.** A single agent in one session produced the review, hypotheses, code, results and paper, so every gate was self-administered.
-- **Vocabulary drift.** The oracle's numbers were exact, but the prose described them in economic terms such as "rent", "scarcity" and "value capture" that no computation licensed. The agents also treated Φ magnitudes as a cardinal scale, although the lab had declared them at most ordinal.
-
-The oracle catches false claims about its own output. It does not catch an interpretation laid over a true number, a hypothesis chosen because it cannot fail, or a prediction made after peeking. In the questions run after the review, the refuted share rose from 17% to 25%. We report this as a first observation, not as a causal effect.
+Encoding sensitivity is the method's central fact, and the pipeline reports it instead of hiding it. The outside-option law behind the walk-through holds on 60 of 60 random configurations. One outside contributor, working on their own machine with an AI assistant, took a new question (who decides an insurance claim?) through the laboratory's protocol to a reproducible result.
 
 ## What we hope to do
 
-The development stage would build three things.
+Stage 2 (January–May 2027) would build three things.
 
-**1. Integrity mechanisms for the failures we found.**
-- *Sealing.* The loop hashes each hypothesis set to an external timestamp, and the orchestration blocks any call to the oracle until the seal exists.
-- *Role separation.* A vetting agent rates each hypothesis's risk before the run and flags identities and by-construction claims. An auditing agent checks results and prose without seeing the predicted outcomes.
-- *Severity monitoring.* The loop tracks the confirmation rate for each wave and treats a run of confirmations as an alarm, not a success.
-- *Claim tracing.* Every sentence in a generated paper that states a finding must map to a computed quantity. Interpretive terms that have no computed referent are flagged for the human director.
+- **The encoding module, before the February workshop.** It will ingest interview transcripts, documents and logs; attach a locator to every rule; run the drafter and the adversary on open-weight as well as commercial models; and put a researcher's approval between drafting and computing. We will measure agreement between the AI drafter and two human coders against the coding scheme's bar (Krippendorff's α of 0.80), so workshop participants can run their own cases.
+- **The strategic model (February–April).** An actor-indexed table maps a structural position (verdict, core, mediator regime, intrinsic or contingent) and a design lever (add or remove a binding, break or restore liveness, require all parties or allow substitutes, open or close a bypass, change an outside option) to its consequence: who stays bound, who is freed, whether the mediator survives. Every cell is a computation the pipeline can already run. The model is structural and makes no claims about economic value.
+- **Validation on real cases (March–May).** We will encode 10 to 15 published platform and algorithmic-management cases from their own text and report, for each, the verdict under every defensible encoding and the detail that would decide between them. The interview packet for gig dispatch is complete and will be fielded once ethics approval is in hand.
 
-**2. A reusable, oracle-agnostic loop.** We will package the loop with an oracle interface. An oracle takes a formal model and returns a verdict together with the controls that validate it. The release will ship with the Φ oracle and with a second oracle built during development, a cooperative-game solver that settles claims about stable divisions of joint output. Organization scholars could then plug in agent-based simulations, game solvers or other exact computations from their own areas. The loop will run on open-weight models as well as commercial ones, so other researchers can reproduce it.
-
-**3. A test of what the loop can and cannot do.** We will rerun a fixed sample of questions under four conditions:
-- the current loop;
-- the loop with the integrity mechanisms;
-- the loop on an open-weight model;
-- an independent human re-implementation of a random subset.
-
-For each condition we will measure the refutation rate, the share of hypotheses that are true by construction, the share of claims that trace to a computed quantity, and agreement with the human re-implementation. The result is a direct, quantitative answer to the editors' question for one class of theory.
+The Stage 3 article would report the pipeline, the walk-through, the table of published cases, the lever table and the agreement between AI and human coders. If development stops short, a letter reporting encoding sensitivity alone would still serve anyone who computes structure from text.
 
 ## Key risks
 
-**A narrow oracle.** Exact adjudication is available only for claims that can be formalized, and exact Φ becomes impractical beyond about ten nodes. The method covers structural theory about small coordination units, not every organizational claim. The oracle interface is how other adjudicators would widen that reach.
-
-**The validation gap.** A verdict on a formal model is evidence about that model. It is not evidence that real workers experience an arrangement as irreducible. The loop makes theory exact; it does not replace fieldwork.
-
-**Translation.** Judgement enters at the step from a verbal theory to a formal model, and AI agents can take that step without anyone noticing. Two defensible encodings of the same arrangement can disagree: in our field protocol, four of ten invented cases flip verdict under a second encoding. The loop will require several encodings per claim, with a human sign-off on each.
-
-**Volume over value.** A loop that has run 170 questions could flood the literature, which is the editors' "more, not better" concern. Our answer is selection by the human director, together with severity monitoring that rewards refutation over confirmation.
+- **Encoding sensitivity.** This is the main risk. A verdict is exact for its encoding, not for the organization. The design response is to search the space of encodings, require human sign-off, and count a case as robust only when every defensible encoding agrees.
+- **The validation gap.** A verdict on a model says nothing yet about how workers experience an arrangement; that needs fieldwork.
+- **Scale.** Exact Φ is practical to about ten binary parties. Most coordination units have three to five.
+- **The model.** The drafter currently runs on a commercial model, and an open-weight configuration is planned. The strategic model does not yet exist.
+- **Ethics.** Verdicts concern arrangements, not persons. Field cases proceed only under approval. The same analysis that shows a platform how capture works shows workers and regulators which move dissolves it.
 
 ## How organizational science would change
 
-Organization theory develops largely in words, and verbal claims about structure are hard to refute. An oracle-adjudicated loop turns those claims into experiments that are stated in advance, run exactly and logged whatever the outcome. AI contributes what Girotra, Terwiesch and Ulrich (2010) identify as the source of the best ideas, a large and varied pool of candidates. The oracle, not the AI's judgement, does the filtering. The ledger makes the work cumulative: each new question starts from every prior result, refutations included, and every number can be re-run. Beyond organization theory, the method offers a template for AI-enabled social science in which the AI never grades its own work, with a measured account of where that safeguard still fails.
+Structural claims about triadic infrastructure would become computed, comparable and contestable. A study would publish its encodings, and a reader could rerun the verdict under a rival reading. Typologies built on description could be tested against one standard: Thompson's (1967) ordering of pooled, sequential and reciprocal interdependence collapses at its top step when computed. Strategy would gain a vocabulary of levers with exact structural consequences. Daft and Lewin (1990) asked organization studies to break out of the normal-science straitjacket. Borrowing an exact measure of irreducibility from another field, with AI doing the reading that makes it usable, is one way out, and the repository is where anyone can start.
 
 ## References
 
 Albantakis, L., Barbosa, L., Findlay, G., Grasso, M., Haun, A. M., Marshall, W., Mayner, W. G. P., Zaeemzadeh, A., Boly, M., Juel, B. E., Sasai, S., Fujii, K., David, I., Hendren, J., Lang, J. P., & Tononi, G. (2023). Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms. *PLOS Computational Biology*, 19(10), e1011465. https://doi.org/10.1371/journal.pcbi.1011465
 
-Girotra, K., Terwiesch, C., & Ulrich, K. T. (2010). Idea generation and the quality of the best idea. *Management Science*, 56(4), 591–605.
+Cameron, L. D. (2024). The making of the "good bad" job: How algorithmic management manufactures consent through constant and confined choices. *Administrative Science Quarterly*, 69(2), 458–514.
+
+Curchod, C., Patriotta, G., Cohen, L., & Neysen, N. (2020). Working for an algorithm: Power asymmetries and agency in online work settings. *Administrative Science Quarterly*, 65(3), 644–676. https://doi.org/10.1177/0001839219867024
+
+Daft, R. L., & Lewin, A. Y. (1990). Can organization studies begin to break out of the normal science straitjacket? An editorial essay. *Organization Science*, 1(1), 1–9.
 
 Mayner, W. G. P., Marshall, W., Albantakis, L., Findlay, G., Marchman, R., & Tononi, G. (2018). PyPhi: A toolbox for integrated information theory. *PLOS Computational Biology*, 14(7), e1006343. https://doi.org/10.1371/journal.pcbi.1006343
+
+Rahman, H. A. (2021). The invisible cage: Workers' reactivity to opaque algorithmic evaluations. *Administrative Science Quarterly*, 66(4), 945–988. https://doi.org/10.1177/00018392211010118
+
+Stark, D., & Pais, I. (2020). Algorithmic management in the platform economy. *Sociologica*, 14(3), 47–72. https://doi.org/10.6092/issn.1971-8853/12221
 
 Thompson, J. D. (1967). *Organizations in action: Social science bases of administrative theory*. McGraw-Hill.
