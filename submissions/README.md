@@ -34,7 +34,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | Due | Path | Piece |
 | --- | --- | --- |
 | abstract registration 27 Oct AoE; full 14-page paper 3 Nov AoE | [`facct2027_triad_accountability/`](facct2027_triad_accountability/) | FAccT 2027: Accountability in the Triad |
-| 30 Oct | [`ecis2027_algorithmacy_is/`](ecis2027_algorithmacy_is/) | ECIS 2027: Algorithmacy as an IS construct (8-page short paper) |
+| ~~30 Oct~~ **submitted 26 Oct** | [`ecis2027_algorithmacy_is/`](ecis2027_algorithmacy_is/) | ECIS 2027: Algorithmacy as an IS construct (8-page short paper) |
 | 31 Oct (platform shows 8 Nov) | [`ilpc2027_cooptation_control/`](ilpc2027_cooptation_control/) | ILPC 2027: Co-optation as Control (350–500-word abstract) |
 | 1 Nov (MC09); 16 Dec (Network J) | [`sase2027_platform_cooptation/`](sase2027_platform_cooptation/) | SASE 2027: Governed Without a Seat (about 1,000-word abstract; MC09 or Network J) |
 | 1 Nov | [`orgsci_ai_frontiers_methods/`](orgsci_ai_frontiers_methods/) | *Organization Science* AI-Enabled Frontiers: an exact test for triadic coordination (proposal plus repository) |

@@ -2,7 +2,7 @@
 
 [DRAFTED by Claude, 26 Oct 2026, from the organizers' pages. The angle is a proposal for the author to rule on.]
 
-**Status:** project opened on 26 Oct 2026, with an abstract, argument and outline drafted. **The 8-page short paper is due 30 Oct 2026.** Nothing has been submitted. See FLAGS 2 before deciding to submit.
+**Status: SUBMITTED 26 Oct 2026** (PCS submission 1520, Track 17, Short Paper). The submitted text is `PAPER_SUBMITTED.md` (the author's edit of `PAPER.md`). Acceptance is due 1 Feb 2027.
 
 **The call:** European Conference on Information Systems, Luxembourg, May 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
