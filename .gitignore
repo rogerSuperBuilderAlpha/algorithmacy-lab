@@ -60,3 +60,6 @@ spaces/
 
 # APA Summit 2027 phygital calls: the editors' PDFs, page copies and extracted text stay local
 submissions/phygital_*/cfp/source/
+
+# Calls-for-papers raw pages for every submission arm (public repo; refetchable)
+submissions/*/cfp/source/
