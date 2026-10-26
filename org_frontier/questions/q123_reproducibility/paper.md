@@ -64,14 +64,17 @@ This study pins one PyPhi commit and one IIT-4.0 config. The invariance grid is 
 the separate legacy computation and is untested here. The invariance shown is of the binary verdict, not the
 Φ magnitude. Determinism is not external correctness; that rests on PyPhi's own validation.
 
-An October 2026 check of upstream PyPhi 2.0 sits outside that grid. Upstream `wmayner/pyphi` `main` at
-`134a8f31` (tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`) under `pyphi.iit4_2023()` reproduces the pinned
-binary conjunctive triad at `(1,1,1)` (φ_s = 2.0; Φ = 4.5, 4 distinctions, 10 relations) and the ternary
-conjunctive triad (`num_states_per_node=(3,3,3)`, `S' = min(W,C)`) at `(2,2,2)` (φ_s = 1.584963, log₂ 3),
-matching `feature/iit-4.0@b78d0e342` and `third_party/pyphi_iit4_mv` to machine precision. The majority triad
-at `(1,1,1)` has φ_s = 1.666667. Under the 2.0 default `pyphi.iit4_2026()`, the ii(s) cap of Mayner, Marshall,
-and Tononi (2026) leaves the majority triad at φ_s = 1.666667, lowers the binary conjunctive triad to
-φ_s = 1.0 with that Φ-structure unchanged, and lowers the ternary state to φ_s = 0.630930. Each verdict stays
-positive (φ_s > 0). The cap is φ_s = min{φ_c, φ_e, ii(s)}, with ii(s) the minimum, over cause and effect, of
-the minimum of intrinsic differentiation and intrinsic specification. The majority triad in this check is the
-PyPhi majority gate. The lab's three-voter rule, which scores Φ_MIP = 0 on the pinned line, is a separate model.
+An October 2026 check of upstream PyPhi 2.0 (`wmayner/pyphi` `main` at `134a8f31`, tag `v2.0.0rc4`, version
+line `2.0.0rc5.dev0`, Python 3.13) sits outside that grid. Under `pyphi.iit4_2026`, φ_s = min{φ_c, φ_e, ii(s)}.
+A strictly deterministic transition has one forward effect state, so effect differentiation is 0, ii(s) = 0,
+and φ_s = 0 unless the run uses positive transition noise or `pyphi.iit4_2023`. On the binary conjunctive
+triad at (1, 1, 1), `pyphi.iit4_2023` at p = 0 returns φ_s = 2.000000 with structure Φ = 12.000000 (4
+distinctions, Σφ_d = 5.0; 8 relations, Σφ_r = 7.0), matching this pin, and then 1.898808, 1.533412,
+1.155438, 0.610634, 0.276923, and 0.089648 at p = 0.01, 0.05, 0.10, 0.20, 0.30, and 0.40. `pyphi.iit4_2026`
+returns φ_s = 0 at p = 0 (structure Φ still 12) and then 0.043216, 0.215495, 0.432740, a peak of 0.610634
+at p = 0.20, 0.276923, and 0.089648. The three-voter majority triad at (1, 1, 1) scores φ_s = 0 under both
+presets, with `len(sia.ties) == 4` and voter A's cause purview ties across the three pairs. The ternary
+conjunctive triad at (2, 2, 2) returns φ_s = 3.169925 = 2 log₂ 3 (structure Φ = 16.906267) under
+`pyphi.iit4_2023` at ε = 0, the same figure `smoke_m2.py` prints on its 2-node ternary control, and φ_s = 0
+under `pyphi.iit4_2026` at ε = 0 (0.043499 at ε = 0.01, with φ_c = 2.991744 and φ_e = 3.020328; 0.222002 at ε = 0.05, with φ_c = 2.387629 and φ_e = 2.481492). At (1, 1, 1) the 2023 preset
+returns φ_s = 0.194988 (φ_c = 0.194988, φ_e = 0.584963, `len(sia.ties) == 3`, structure Φ = 7.258146) on the full triad and 0.508798 on each dyadic pair {W, S} and {S, C}. Under `pyphi.iit4_2026`, (1, 1, 1) is φ_s = 0 at ε = 0, 0.043499 at ε = 0.01, and φ_s = φ_c = 0.179018 at ε = 0.05.

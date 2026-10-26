@@ -6,7 +6,7 @@ The same port is packaged on the fork branch `rogerSuperBuilderAlpha/pyphi@feat/
 
 Upstream `wmayner/pyphi#140`, `#141`, `#142`, and `#147` targeted the legacy `feature/iit-4.0` line. Will Mayner noted on `#147` that `feature/iit-4.0` is superseded by the PyPhi 2.0 release candidate on `main` (`pip install --pre pyphi`). All four pull requests closed on 25 October 2026. Upstream `main` is `134a8f31b49db512322465ed3ba5da7194d362fd` (16 October 2026; tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`). That line replaces `Network` / `Subsystem` / `new_big_phi.sia` with `Substrate` / `System` / `analyze()` (`System.sia()`, `System.phi_structure()`). Mixed-radix state is native: `FactoredTPM` takes an arbitrary `num_states_per_node`.
 
-Under `pyphi.iit4_2023()`, PyPhi 2.0 matches this overlay to machine precision on the ternary conjunctive triad (`num_states_per_node=(3,3,3)`, `S' = min(W,C)` at `(2,2,2)`, φ_s = 1.584963, which is log₂ 3) and matches `feature/iit-4.0@b78d0e342` on the binary conjunctive triad at `(1,1,1)` (φ_s = 2.0; Φ = 4.5, 4 distinctions, 10 relations). The 2.0 default, `pyphi.iit4_2026()`, applies the Mayner, Marshall, and Tononi (2026) cap φ_s = min{φ_c, φ_e, ii(s)} and lowers that ternary state to φ_s = 0.630930 and the binary triad to φ_s = 1.0. The positive triadic verdict (φ_s > 0) remains, and the Φ-structure is unchanged. The majority triad at `(1,1,1)` stays at φ_s = 1.666667 under both presets. That majority triad is the PyPhi majority gate, a separate model from the lab's three-voter rule (Φ_MIP = 0 on the pinned line).
+On PyPhi 2.0 at `134a8f31` (Python 3.13), a deterministic transition has one forward effect state, so under `pyphi.iit4_2026` effect differentiation is 0, ii(s) = 0, and φ_s = 0 at ε = 0. `pyphi.iit4_2023` on the binary conjunctive triad at (1, 1, 1) and p = 0 returns φ_s = 2.000000 with structure Φ = 12.000000 (4 distinctions, Σφ_d = 5.0; 8 relations, Σφ_r = 7.0), matching this pin, then 1.898808, 1.533412, 1.155438, 0.610634, 0.276923, and 0.089648 across p = 0.01, 0.05, 0.10, 0.20, 0.30, and 0.40. The 2026 preset is φ_s = 0 at p = 0 and then 0.043216, 0.215495, 0.432740, 0.610634 at p = 0.20, 0.276923, and 0.089648. The three-voter majority triad at (1, 1, 1) is φ_s = 0 under both presets (`len(sia.ties) == 4`). The ternary conjunctive triad at (2, 2, 2) is φ_s = 3.169925 = 2 log₂ 3 (structure Φ = 16.906267) under `pyphi.iit4_2023` at ε = 0. `smoke_m2.py` prints that same 3.169925 on its 2-node ternary control. Under `pyphi.iit4_2026` the (2, 2, 2) state is φ_s = 0 at ε = 0, 0.043499 at ε = 0.01 (φ_c = 2.991744, φ_e = 3.020328), and 0.222002 at ε = 0.05 (φ_c = 2.387629, φ_e = 2.481492). At (1, 1, 1) the 2023 preset returns φ_s = 0.194988 (φ_c = 0.194988, φ_e = 0.584963, `len(sia.ties) == 3`, structure Φ = 7.258146) on the full triad and 0.508798 on each dyadic pair. Under `pyphi.iit4_2026`, (1, 1, 1) is φ_s = 0 at ε = 0, 0.043499 at ε = 0.01, and φ_s = φ_c = 0.179018 at ε = 0.05.
 
 ## Enable
 
@@ -27,7 +27,7 @@ from pyphi_iit4_mv import MultivaluedNetwork, exact_phi, maximal_complex
 | Exact IIT-4.0 system Φ | **M2 green** |
 | Binary regression vs stock | **match** (Φ=2 triad) |
 | `maximal_complex` | **M2 green** |
-| PyPhi 2.0 `iit4_2023()` parity | **match** (ternary φ_s = log₂ 3) |
+| PyPhi 2.0 `iit4_2023()` parity | **match** (ternary φ_s = 3.169925 = 2 log₂ 3) |
 
 ## Limitations
 
