@@ -64,7 +64,12 @@ The instrument is the shared base; the four programs build around it.
 
 - **The instrument and its validation** — [`foundations/`](foundations/): a complete manuscript showing
   no cheap proxy recovers exact Φ, so the exact computation is needed. The classifier, controls, and the
-  major-complex reading live in [`org_frontier/classifier/`](org_frontier/classifier/).
+  major-complex reading live in [`org_frontier/classifier/`](org_frontier/classifier/). The benchmark pin
+  is PyPhi's `feature/iit-4.0` line at `b78d0e342` (`pyphi.Network`, `Subsystem`, `new_big_phi`). Ternary
+  and mixed-radix forms use [`third_party/pyphi_iit4_mv`](third_party/pyphi_iit4_mv/), also packaged on
+  `rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k`. Upstream PyPhi 2.0 is `wmayner/pyphi`
+  `main` at `134a8f31` (tag `v2.0.0rc4`): `pyphi.iit4_2023()` reproduces the pinned controls, and
+  `pyphi.iit4_2026()` is the Mayner, Marshall, and Tononi (2026) default.
 
 The **computational program** — exact Φ on Boolean models, the structural reading and the prior catalog:
 

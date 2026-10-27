@@ -52,6 +52,12 @@ all levels (Φ flat in depth / grows with breadth); feedforward hub chains are
 top-local. Follow-on: spanning mediator atop multi-hub (#20), or small-world
 vs hierarchy (#17).
 
+## Scope of the tooling gap
+
+The `TOOLING_GAP` line is the stock pin `feature/iit-4.0` at `b78d0e342d37175cbd55cf35a6d52ae035b4c50f`, the build this study ran, prior to the `third_party/pyphi_iit4_mv` M1+M2 overlay. `Network` there has no `num_states_per_node`, and the 3^5 state-by-state matrix is rejected. The hypotheses in `hypotheses.md` and the registered `shared-mediator-ternary` output are the record of that run.
+
+Later paths ingest the same mixed-radix TPM. The M1+M2 overlay `third_party/pyphi_iit4_mv` does, and so does the fork branch `rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`, pull request `rogerSuperBuilderAlpha/pyphi#1`). Upstream PyPhi 2.0 does too: `wmayner/pyphi` `main` at `134a8f31` (`v2.0.0rc4`) takes arbitrary `num_states_per_node` on `FactoredTPM`. `wmayner/pyphi#147`, which carried this overlay, closed on 25 October 2026 after Will Mayner noted that `feature/iit-4.0` is superseded by that release candidate.
+
 ## Reproduce
 
 ```
