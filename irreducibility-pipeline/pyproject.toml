@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "irreducibility-pipeline"
+version = "0.1.0"
+description = "Exact irreducibility analysis of coordinative structures with PyPhi (IIT 4.0), with an evidence-gated AI encoding step"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pyphi @ git+https://github.com/wmayner/pyphi@b78d0e342d37175cbd55cf35a6d52ae035b4c50f",
+]
+
+[project.optional-dependencies]
+proxy = ["phyid @ git+https://github.com/Imperial-MIND-lab/integrated-info-decomp"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["irreducibility"]
+
+[tool.pytest.ini_options]
+# So `pytest -q irreducibility-pipeline/tests` from the lab root imports this package.
+pythonpath = ["."]

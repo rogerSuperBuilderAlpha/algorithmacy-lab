@@ -1,0 +1,148 @@
+{
+  "new_encodings": [
+    {
+      "id": "driver_pool",
+      "account": "Several idle drivers in one zone are interchangeable candidates, and the platform commits when any one eligible driver and a confirmed rider are present. Each driver acts when a trip is shown, and the rider acts when told a driver is assigned.",
+      "role": "rival",
+      "labels": [
+        "D1",
+        "D2",
+        "P",
+        "R"
+      ],
+      "rules": {
+        "P": "(D1 or D2) and R",
+        "D1": "P",
+        "D2": "P",
+        "R": "P"
+      },
+      "evidence": {
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "The system assigns a trip only when an eligible driver is available and a rider has confirmed the request"
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶5",
+            "quote": "Any eligible driver in range may be assigned."
+          }
+        ],
+        "D1": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "D2": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶5",
+            "quote": "In dense hours several drivers are idle in the same zone."
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D1 or D2",
+          "why": "Under the drivers' account in ¶3, the platform only relays whichever driver is nearby: \"The app just pings me with whatever is nearby.\" That reading drops the rider's confirmation from the platform's rule."
+        }
+      },
+      "predicted": {
+        "structure": "triadic",
+        "core": [
+          "D1",
+          "D2",
+          "P",
+          "R"
+        ],
+        "reason": "P is active only when some driver and the rider are both active, so neither side reaches the other without P. The driver pool adds substitutes on the driver side but leaves the platform in the middle. The two drivers should enter the core together as interchangeable members, with P and R."
+      }
+    },
+    {
+      "id": "direct_contact_substitute",
+      "account": "Drivers and riders who have each other's numbers can arrange a trip directly. The platform is one route to a match, and the direct tie replaces it when the app fails. Where off-app contact is banned, this tie does not exist, so this reading holds only for the cities with contact.",
+      "role": "rival",
+      "rules": {
+        "P": "D and R",
+        "D": "P or R",
+        "R": "P or D"
+      },
+      "evidence": {
+        "P": [
+          {
+            "source": "prose.md",
+            "locator": "¶2",
+            "quote": "the assignment is binding on both and sets the fare"
+          }
+        ],
+        "D": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "Some drivers and riders exchange numbers and arrange repeat trips directly."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "When the trip comes up I go. If nothing comes up I wait."
+          }
+        ],
+        "R": [
+          {
+            "source": "prose.md",
+            "locator": "¶6",
+            "quote": "If the app is slow I just text my regular driver."
+          },
+          {
+            "source": "prose.md",
+            "locator": "¶4",
+            "quote": "Once it says a driver is assigned, I wait at the curb."
+          }
+        ]
+      },
+      "alternative": {
+        "P": {
+          "rule": "D",
+          "why": "The drivers' account in ¶3 treats the platform as following the driver: \"It's a suggestion, it follows what I do.\""
+        }
+      },
+      "predicted": {
+        "structure": "dyadic",
+        "core": [
+          "D",
+          "R"
+        ],
+        "reason": "The direct tie lets D and R each be active without P, and each stays active if the other is. The pair D-R sustains itself, so P drops out of the core. The match no longer depends on the mediator."
+      }
+    }
+  ],
+  "not_permitted": [
+    {
+      "reading": "Third commit-versus-convey reading",
+      "why": "The drafts already hold the two readings the text supports, which are the manual's commit in ¶2 and the driver's suggestion in ¶3. No passage supports a third, such as the platform following the rider alone."
+    },
+    {
+      "reading": "Direct tie as a complement (D or R needs both P and the other party)",
+      "why": "¶6 says \"If the app is slow I just text my regular driver\". The rider goes around the app instead of needing it as well, so the tie is a substitute. No passage says the parties need the mediator in addition to the direct contact."
+    },
+    {
+      "reading": "Direct tie present for all drivers and riders",
+      "why": "¶6 says \"Other cities ban off-app arrangements and drivers there have no way to reach riders except through the platform.\" In those cities the direct tie is absent, so the substitute encoding cannot be applied across all cities."
+    }
+  ]
+}
