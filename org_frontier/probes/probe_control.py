@@ -10,7 +10,7 @@ dyadic. The either-forces case (S = W OR C) is open — compute.
 
 Nodes: 0=W, 1=S, 2=C. W and C track S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_control
+Run:  python -m org_frontier.probes.probe_control
 """
 
 from .lib import verdict, major_complex

@@ -8,7 +8,7 @@ two-platform system and read the major complex.
 
 Nodes: 0=X, 1=S1, 2=C1, 3=S2, 4=W2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_multirole
+Run:  python -m org_frontier.probes.probe_multirole
 """
 
 from .lib import verdict, major_complex

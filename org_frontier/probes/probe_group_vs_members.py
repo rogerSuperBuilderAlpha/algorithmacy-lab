@@ -10,7 +10,7 @@ pair's — genuine group-level integration absent in the parts (Kramer's possibi
 
 Nodes: 0=W, 1=S, 2=C (and a 4-party pool).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_group_vs_members
+Run:  python -m org_frontier.probes.probe_group_vs_members
 """
 
 import itertools

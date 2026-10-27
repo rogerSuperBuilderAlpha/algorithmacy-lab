@@ -7,7 +7,7 @@ n=6 and n=7, where the single conjunctive hub is fragile. Method: build a single
 reading all parties, parties reading it) and a two-hub form (two mediators each gating their own group
 and reading each other) at n=6 and n=7; compare the verdict, Φ, and core size.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_distributed_mediators
+Run:  python -m org_frontier.probes.probe_distributed_mediators
 """
 
 import os

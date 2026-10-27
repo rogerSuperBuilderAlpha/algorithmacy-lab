@@ -1,0 +1,30 @@
+{
+  "cards": {
+    "berthon_ethics_course": {"origin": "submissions/berthon_ethics_course/literature/cards", "mode": "all", "exclude": ["REFERENCES.md"]},
+    "algorithmacy_design_ethics": {"origin": "submissions/algorithmacy_design_ethics/literature/library", "mode": "all", "exclude": []},
+    "dxd_foundation": {"origin": "submissions/dxd_foundation/literature/library", "mode": "matched", "exclude": []},
+    "algorithmacy_scaffolding": {"origin": "submissions/algorithmacy_scaffolding/literature/library", "mode": "matched", "exclude": []}
+  },
+  "dirs": {
+    "literature/dxd_part2": "submissions/decision_experience_design/part2_ethics/literature"
+  },
+  "sources": {
+    "sources/01_ade_DRAFT.md": "submissions/algorithmacy_design_ethics/DRAFT.md",
+    "sources/02_dxd_part2_DRAFT.md": "submissions/decision_experience_design/part2_ethics/DRAFT.md",
+    "sources/03_INTRODUCTION.md": "submissions/berthon_ethics_course/INTRODUCTION.md",
+    "sources/04_AUTHOR_DRAFT.md": "submissions/berthon_ethics_course/AUTHOR_DRAFT.md",
+    "sources/05_AUTHOR_DRAFT_v2.md": "submissions/berthon_ethics_course/AUTHOR_DRAFT_v2.md",
+    "sources/06_MANUSCRIPT_v2.md": "submissions/berthon_ethics_course/MANUSCRIPT_v2.md",
+    "sources/07_MANUSCRIPT_v3.md": "submissions/berthon_ethics_course/MANUSCRIPT_v3.md",
+    "sources/08_MANUSCRIPT_v4.md": "submissions/berthon_ethics_course/MANUSCRIPT_v4.md"
+  },
+  "notes_prefixes": {
+    "berthon_v4_": "submissions/berthon_ethics_course/v4/",
+    "berthon_review_": "submissions/berthon_ethics_course/review/",
+    "berthon_T_adjudication.md": "submissions/berthon_ethics_course/literature/facets/T_adjudication.md",
+    "berthon_VENUE_RECOMMENDATION.md": "submissions/berthon_ethics_course/venue/VENUE_RECOMMENDATION.md",
+    "berthon_": "submissions/berthon_ethics_course/",
+    "ade_": "submissions/algorithmacy_design_ethics/",
+    "part2_": "submissions/decision_experience_design/part2_ethics/"
+  }
+}

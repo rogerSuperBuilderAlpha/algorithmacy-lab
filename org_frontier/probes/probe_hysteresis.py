@@ -9,7 +9,7 @@ loop while ramping the parties' engagement drive d up 0→1 then down 1→0, car
 measure the system's mean activity at each d on each leg; report the area between the up and down curves
 for a sticky vs a memoryless mediator.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_hysteresis
+Run:  python -m org_frontier.probes.probe_hysteresis
 """
 
 import numpy as np

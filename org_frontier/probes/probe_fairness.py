@@ -9,7 +9,7 @@ principal-dominated (S follows P), reading the influence balance and the major c
 
 Nodes: 0=W, 1=S, 2=C, 3=P.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_fairness
+Run:  python -m org_frontier.probes.probe_fairness
 """
 
 from .lib import major_complex

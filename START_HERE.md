@@ -47,11 +47,15 @@ Route on their answer:
 - **(a) core idea** → Phase 2, then the *Three-as-one* question below.
 - **(b) real organizations** → the *Relay vs. decision* or *Dispensable boss* questions; arms live in
   [`org_frontier/field/`](org_frontier/field/) and [`org_frontier/qualitative/`](org_frontier/qualitative/).
+  If they can bring a real site, the packet is [`org_frontier/field/packets/gig_dispatch/`](org_frontier/field/packets/gig_dispatch/).
 - **(c) behavior / data** → the *Cheap proxy* question; arm is [`org_frontier/recurrence/`](org_frontier/recurrence/).
-- **(d) measuring people** → [`org_frontier/survey/`](org_frontier/survey/), the three-wave panel.
-- **(e) find something new** → skip to Phase 4 with an open thread from
-  [`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute). The written agendas are answered through
-  [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md). V4 item 11 is `GRADED_HOLDS` and V4 item 12 is `M3_FLIPS_VERDICT`.
+  Verified open datasets they can download today are in
+  [`org_frontier/research/DATA_SOURCES.md`](org_frontier/research/DATA_SOURCES.md).
+- **(d) measuring people** → [`org_frontier/survey/`](org_frontier/survey/), the three-wave panel; the
+  open cohort datasets are in [`DATA_SOURCES.md`](org_frontier/research/DATA_SOURCES.md) too.
+- **(e) find something new** → Phase 2 and Phase 3 first (they still need a validated instrument), then
+  Phase 3.5 with their own question, or an open row from [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md). The
+  written agendas are all answered; that file is what is still open.
 
 Whatever they pick, get them to **run something** before explaining more (Phase 3).
 
@@ -75,11 +79,16 @@ While it installs, ask which question from the bank below caught their eye.
 python -m org_frontier.classifier.validate
 ```
 
-**Then run a real probe** — one script, one hypothesis, one verdict:
+**Then run a real probe** — one script, one hypothesis, one verdict, about two seconds:
 
 ```bash
-python -m org_frontier.probes.probe_conjunctive_law
+python -m org_frontier.probes.probe_control
 ```
+
+That is Probe 7: the thesis's own clause, "determinations neither party controls." A mediator that
+follows one party alone reads dyadic; mutual veto and either-forces both read triadic. (The scaling-law
+probe, `probe_conjunctive_law`, computes exact Φ to seven nodes and takes about nine minutes; offer it
+later, not here.)
 
 **Then make them flip a verdict themselves.** This is the moment the idea lands. Have them paste this
 into a Python shell (`python`, from the repo root, venv active):
@@ -102,22 +111,52 @@ print(verdict(rules, ("W", "S", "C")).structure)   # -> dyadic
 One character changed the structure from irreducible to factorable. That is the whole thesis in their
 own hands. Now ask: *what would you want to test next?*
 
+## Phase 3.5 — place their question before scaffolding it
+
+When they state a question, do not scaffold it yet. The lab has already asked a great many, and the
+protocol's first stage is to place a new question against them. Run the catalog search with the
+question's keywords:
+
+```bash
+python tools/build_catalog.py --find "majority quorum mediator"
+```
+
+It prints the nearest prior questions, probes, studies, and open threads from `catalog.json`, with the
+one-line finding and the reproduce command for each. Read the closest rows with them and say which of
+three things their question is:
+
+- **Answered.** A row already gives the verdict. Show them the number, offer the reproduce command, and
+  ask what the result makes them want to test next. A result to cite is a result to stress.
+- **Adjacent.** A row answers a neighbor. The contribution is the residual: the same question on weighted
+  or noisy forms, at another size, under another update schedule. Scaffold that, citing the row.
+- **Open.** Nothing close. Scaffold it (Phase 4). If it needs real data rather than a computation, route
+  it to the matching handoff packet in [`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md)
+  and the datasets in [`DATA_SOURCES.md`](org_frontier/research/DATA_SOURCES.md).
+
+If they have no question of their own, [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) is the registry of what
+is waiting for someone, with what each thread needs (`compute`, `data`, `tooling`, `review`) and its first
+command. Offer the `compute` rows to someone at a keyboard today and the `data` rows to someone who can
+bring a series, a cohort, or a site. When they take one, they set its status to `claimed` in the same
+pull request as their scaffold.
+
 ## Phase 4 — turn curiosity into a contribution
 
-When they have a question of their own (or pick one from the agenda), scaffold it:
+When they have a placed question (Phase 3.5), scaffold it:
 
 ```bash
 python -m org_frontier.protocol.new_question --slug your_slug \
     --question "Your one-line research question"
 ```
 
-This creates `org_frontier/questions/q<NN>_<slug>/` from the template. The one rule that makes the record
-credible: **commit `hypotheses.md` before computing the results** — the git history is the evidence the
-claims were fixed first. From here, hand them to [`GETTING_STARTED.md`](GETTING_STARTED.md) for the full
-path from scaffold → register numbers in `ci/reproduce.json` → pull request into `contrib`.
+This creates `org_frontier/questions/q<NN>_<slug>/` from the template, with `probe_<slug>.py`, `results/`,
+and `literature/` ready. The one rule that makes the record credible: **commit `hypotheses.md` before
+computing the results** — the git history is the evidence the claims were fixed first
+(`python ci/precommit_audit.py origin/contrib..HEAD` checks the order on a branch). From here, hand them
+to [`GETTING_STARTED.md`](GETTING_STARTED.md) for the full path from scaffold → register numbers in
+`ci/reproduce.json` → pull request into `contrib`.
 
-If they would rather stress an *existing* result than open a new question, point them at the "Stress a
-standing result" and "Settle a construct question" threads in [`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute).
+If they would rather stress an *existing* result than open a new question, the `compute` rows of
+[`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) are exactly that.
 
 ---
 
@@ -128,12 +167,13 @@ answer in Phase 1; don't list all of them.
 
 | Hook (ask it like this) | Where it lives | First command |
 |---|---|---|
-| **Three-as-one.** Can three people be *more* than the sum of their pairs — and can you prove it with a number? | `org_frontier/probes/probe_conjunctive_law.py` | `python -m org_frontier.probes.probe_conjunctive_law` |
+| **Who decides?** If the system between two people follows one of them alone, is there still a triad? | `org_frontier/probes/probe_control.py` | `python -m org_frontier.probes.probe_control` (2 s) |
+| **Three-as-one.** Can three people be *more* than the sum of their pairs — and can you prove it with a number? | `org_frontier/probes/probe_conjunctive_law.py` | `python -m org_frontier.probes.probe_conjunctive_law` (about 9 min; Φ = n−1 to seven nodes) |
 | **Relay vs. decision.** Is a manager who only *relays* messages structurally different from one who makes the *binding call*? | `org_frontier/classifier/` | the `verdict()` snippet in Phase 3 — make the mediator commit vs. convey |
 | **The fourth party.** Does adding one more person flip the verdict, or does the irreducible core stay put? | `org_frontier/multiparty/` | read its README, then scaffold a 4-node form |
 | **The dispensable boss.** Does the corporate principal actually belong to the irreducible core, or can you cut them out? | `org_frontier/principal/` | read its README and `major_complex()` |
 | **Cheap proxy.** Can a simple behavioral time-series recover the same verdict exact Φ gives — for free? | `org_frontier/recurrence/` | `org_frontier/recurrence/bridge_demo.py` |
-| **Find something new.** Pick an open thread — a real field case, weighted quorums — and run it through the protocol. | [`OVERVIEW.md`](OVERVIEW.md#where-you-could-contribute) | `python -m org_frontier.protocol.new_question` |
+| **Find something new.** Pick an open thread — weighted quorums, a real field case, a real series — and run it through the protocol. | [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) | `python tools/build_catalog.py --find "<your question>"`, then `python -m org_frontier.protocol.new_question` |
 
 ## A transcript to imitate
 
@@ -182,15 +222,30 @@ This is the shape of a good first exchange. Short turns, one question at a time,
 > **Assistant:** That's the whole thesis in your hands: one dependency removed, and an irreducible trio
 > collapsed into separable pairs. So here's the interesting question — what kind of mediator *keeps* a
 > team irreducible, and what kind lets it fall apart? Want to test a case you have in mind, or pick an
-> open thread from `OVERVIEW.md` and run it through the protocol?
+> open thread from `OPEN_QUESTIONS.md` and run it through the protocol?
+>
+> **Newcomer:** a case of mine — does a majority vote among three people bind all three?
+>
+> **Assistant:** Let's see whether the lab has asked that. Run
+> `python tools/build_catalog.py --find "majority vote three parties bind"` and paste what it prints.
+>
+> **Newcomer:** top rows are probe #10, "majority (2-of-3) factors entirely → dyadic", and open thread O01,
+> weighted or noisy quorums.
+>
+> **Assistant:** So the clean majority is answered: it factors. The open residual is yours — does the
+> verdict survive when the votes are weighted or noisy? That is O01. Shall we scaffold it as your question
+> and mark O01 claimed?
 
 Notice what the assistant never did: paste the architecture, list every directory, or explain IIT theory.
-It got the newcomer to a computed verdict and a question of their own in a handful of turns.
+It got the newcomer to a computed verdict, placed their question against the catalog, and routed them to
+an open thread in a handful of turns.
 
 ## What the assistant must keep honest
 
 - **Validate the instrument first.** Every probe re-runs the control gate; a verdict before
   `Instrument validated` means nothing.
+- **Place before you scaffold.** Run the catalog search on their question (Phase 3.5) before creating a
+  directory. A question the lab has answered is a result to cite or stress, not a new study.
 - **State the scope.** Results are in-silico: exact Φ on small Boolean models, evidence about the models,
   not measurements of a real firm. Never present one as an empirical claim.
 - **Report nulls.** About a third of the lab's results are nulls or refutations. A negative answer to the

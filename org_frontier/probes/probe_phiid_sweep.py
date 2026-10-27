@@ -6,7 +6,7 @@ verdict recoverer; the separation stays small across MMI/CCS and across noise. M
 triadic and dyadic corpus forms, compute the minimum-over-bipartitions Φ_R with both the MMI and CCS
 redundancy lattices, at two noise levels, and report the triadic−dyadic group separation in each cell.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phiid_sweep
+Run:  python -m org_frontier.probes.probe_phiid_sweep
 """
 
 import os

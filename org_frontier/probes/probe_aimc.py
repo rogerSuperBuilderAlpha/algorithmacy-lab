@@ -10,7 +10,7 @@ Honest either way: if the W→A→C loop is irreducible, that is a real tension 
 
 Nodes: 0=W, 1=A (AI assist), 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_aimc
+Run:  python -m org_frontier.probes.probe_aimc
 """
 
 from .lib import verdict, major_complex

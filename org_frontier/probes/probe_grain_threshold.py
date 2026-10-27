@@ -6,7 +6,7 @@ grain tied to its dynamics, so there is a detectable band. Method: compose the k
 on the triadic corpus forms and find the first k at which the verdict flips, alongside the form's
 attractor period.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_grain_threshold
+Run:  python -m org_frontier.probes.probe_grain_threshold
 """
 
 import numpy as np

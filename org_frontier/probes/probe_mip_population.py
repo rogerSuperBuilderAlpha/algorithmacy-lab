@@ -7,7 +7,7 @@ every triadic form in the strict-mediation n=3 family.
 H33: across the family the worker is the most-frequently-severed element — the triad's weak seam is
 systematically the worker, not just in the curated cases.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_mip_population
+Run:  python -m org_frontier.probes.probe_mip_population
 """
 
 import collections
