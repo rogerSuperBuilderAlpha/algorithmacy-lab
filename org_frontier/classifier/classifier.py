@@ -32,7 +32,7 @@ import sys
 from dataclasses import dataclass, field
 from typing import Callable, Optional, Sequence
 
-# Repo root on the path so the sibling `proxy_audit` package imports.
+# Repo root on the path so the `foundations.proxy_audit` package imports.
 _REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 if _REPO_ROOT not in sys.path:
     sys.path.insert(0, _REPO_ROOT)
@@ -63,7 +63,7 @@ def tpm_from_rules(rules: Sequence[Callable], n: Optional[int] = None) -> np.nda
 
     ``rules[j]`` maps the current node-state tuple (little-endian: index 0 = first party)
     to node j's next value in {0, 1}. Little-endian indexing matches PyPhi and
-    ``proxy_audit.exact_phi``.
+    ``foundations.proxy_audit.exact_phi``.
     """
     n = len(rules) if n is None else n
     tpm = np.zeros((2 ** n, n))

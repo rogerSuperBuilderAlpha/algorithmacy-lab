@@ -7,8 +7,8 @@ the dissertation's Paper 2 (a private repository; the expected verdicts are fixe
 ``EXPECTED``); they double as the classifier's demo set and its regression suite.
 
 Drop in your own form by writing three (or n) rules and calling ``classifier.classify_rules``.
-A reusable library of broader forms — broadcast, market, hierarchy — is the next sub-experiment
-(see ``../landscape/SURVEY_FINDINGS.md``); stubs are marked TODO below.
+A reusable library of broader forms — broadcast, market, hierarchy — lives in ``../corpus/``
+(see ``../landscape/SURVEY_FINDINGS.md``).
 """
 
 # --------------------------------------------------------------------------------------
