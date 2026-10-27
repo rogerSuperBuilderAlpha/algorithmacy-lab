@@ -7,7 +7,7 @@ what it reveals: which party (or grouping) is the weakest structural link.
 H26: the MIP isolates the least-pivotal / most-separable party — the cut tells you where the
 coordination is most fragile, not just whether it is irreducible.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_mip
+Run:  python -m org_frontier.probes.probe_mip
 """
 
 from org_frontier.classifier.classifier import classify_rules

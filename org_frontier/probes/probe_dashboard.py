@@ -11,7 +11,7 @@ referential display and drops out — binding requires reading the signal that a
 
 Nodes: 0=W, 1=Sv (visible), 2=Sc (committing), 3=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_dashboard
+Run:  python -m org_frontier.probes.probe_dashboard
 """
 
 from .lib import verdict, major_complex

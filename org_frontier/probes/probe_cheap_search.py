@@ -8,7 +8,7 @@ the 256 forms, and report the best single measure.
 
 Reads: org_frontier/probes/results/consilience_panel.csv (run Probe 89 first).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_cheap_search
+Run:  python -m org_frontier.probes.probe_cheap_search
 """
 
 import csv

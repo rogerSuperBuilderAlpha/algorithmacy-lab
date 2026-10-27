@@ -8,7 +8,7 @@ compare EI and causal emergence between the verdict groups.
 
 Reads: org_frontier/probes/results/consilience_panel.csv (run Probe 89 first).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ei_family
+Run:  python -m org_frontier.probes.probe_ei_family
 """
 
 import csv

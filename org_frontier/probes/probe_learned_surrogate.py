@@ -8,7 +8,7 @@ single proxy captures it. Method: build a feature panel from noisy trajectories 
 label each by the exact verdict, and report 5-fold cross-validated accuracy and ROC-AUC for a random
 forest, against the majority-class baseline.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_learned_surrogate
+Run:  python -m org_frontier.probes.probe_learned_surrogate
 """
 
 import os

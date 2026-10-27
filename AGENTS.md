@@ -23,7 +23,9 @@ points back here for the shared rules.
 2. **[`MAP.md`](MAP.md)** — the one-screen index: instrument, computational lab, empirical arms,
    submissions, machinery, live counts. Generated, always current.
 3. **[`OVERVIEW.md`](OVERVIEW.md)** — what the lab argues and where it actually stands. Then this file
-   for the operating rules.
+   for the operating rules. **[`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md)** is the registry of open threads,
+   and `python tools/build_catalog.py --find "<keywords>"` places a question against everything already
+   asked.
 
 The repository is large (hundreds of directories and dozens of READMEs). `MAP.md` and the generated directory in
 `README.md` are the cheap ways in. Reach for a README in the specific subtree only once the map has
@@ -56,11 +58,15 @@ pip install -r requirements.txt                # pulls PyPhi + phyid from git: n
 ```
 
 Run everything from the repo root so `org_frontier.*` and `foundations.*` resolve. Confirm the instrument
-before trusting any result — the control probes assert that a known form reproduces its known verdict:
+before trusting any result — the controls assert that a known form reproduces its known verdict:
 
 ```bash
-python ci/reproduce.py            # re-derive every registered number; the instrument control is core
+python -m org_frontier.classifier.validate     # must print "Instrument validated" (about two seconds)
+python ci/reproduce.py instrument-controls     # the same gate as CI runs it
 ```
+
+`python ci/reproduce.py` with no arguments is the full manifest (hundreds of checks, some of them
+minutes each); that is the nightly job, not the confirm step.
 
 For large cheap-feature panels, the lab-default **margin cascade** screens with a Probe-131 RF and
 calls exact Φ only on the top **B=10%** most uncertain forms (OOF `|p−0.5|`, recomputed per panel):
@@ -76,14 +82,15 @@ See [`org_frontier/cascade/README.md`](org_frontier/cascade/README.md). Do not f
 
 ## Verify before you land
 
-Three generators keep the navigable surface current, each with a `--check` that CI gates. Run the ones
-your change touched, then confirm all three are clean:
+Four generators keep the navigable surface current, each with a `--check` that CI gates. Run the ones
+your change touched, then confirm all four are clean:
 
 ```bash
 python tools/build_index.py --check                       # the README directory
 python tools/build_map.py --check                         # MAP.md
+python tools/build_catalog.py --check                     # catalog.json, the searchable index
 python org_frontier/research/build_research_index.py --check   # the research watch index
-python ci/reproduce.py                                    # every number reproduces from its script
+python ci/reproduce.py <check-name> …                     # the numbers your change registered
 ```
 
 If a `--check` reports stale, run the same command without `--check` to regenerate, then commit the
@@ -99,7 +106,8 @@ shortest version:
 | Adding… | Lands under | Start from |
 |---|---|---|
 | a probe | `org_frontier/probes/probe_<slug>.py` | the global numbering in `org_frontier/probes/PROBES.md` |
-| a full question | `org_frontier/questions/q<NN>_<slug>/` | `org_frontier/protocol/template/` or the pipeline |
+| a full question | `org_frontier/questions/q<NN>_<slug>/` | `python tools/build_catalog.py --find …`, then `python -m org_frontier.protocol.new_question` |
+| an open thread | wherever its row in `OPEN_QUESTIONS.md` points | set the row to `claimed` in the same PR |
 | a qualitative study | `org_frontier/qualitative/<slug>/` | `org_frontier/qualitative/template/` |
 | a recurrence experiment | `org_frontier/recurrence/` | `crqa.py` and the existing Φ harnesses |
 | a survey study | `org_frontier/survey/<study>/` | the arm and its first study in `org_frontier/survey/README.md` |
@@ -122,16 +130,24 @@ gh pr create --base contrib --title "…" --body "…"
 # CI green → merge into contrib → open the contrib→main promotion PR → merge → delete the branch
 ```
 
+From a fork, `origin` is the fork: add this repository as `upstream`, branch off `upstream/contrib`,
+and open the PR with `--repo rogerSuperBuilderAlpha/algorithmacy-lab` (the recipe is in
+[`GETTING_STARTED.md`](GETTING_STARTED.md#8-open-a-pull-request)). The `update-directory` job cannot push
+to a fork, so regenerate the indexes locally before pushing.
+
 ## Definition of done — the gate before opening a PR
 
 - The instrument was validated on a known control before any comparison.
 - Numbers come from a committed script and are registered in `ci/reproduce.json`; `python ci/reproduce.py`
   passes locally.
-- All three index `--check`s are clean (`build_index.py`, `build_map.py`, `build_research_index.py`).
-- Hypotheses were fixed before computing, and nulls and refutations are reported as results.
+- All four index `--check`s are clean (`build_index.py`, `build_map.py`, `build_catalog.py`,
+  `build_research_index.py`).
+- Hypotheses were fixed before computing (`python ci/precommit_audit.py origin/contrib..HEAD` shows the
+  order), and nulls and refutations are reported as results.
 - Every result states the validation gap: it is evidence about the model, not about a real organization.
-- Prose follows the house style in [`CLAUDE.md`](CLAUDE.md) — no first person, plain declarative
-  sentences, and the de-slop self-check passed.
+- Prose follows the house style in [`CLAUDE.md`](CLAUDE.md), its current rules: claim-first paragraphs,
+  named agents in active voice, first person only for authorial labor, no emphasis-marker openers, and
+  the flow self-check passed.
 - Citations resolve to real DOIs / arXiv IDs / stable URLs; nothing is fabricated to fill a gap.
 - The git target was confirmed with `git rev-parse --show-toplevel` before committing.
 

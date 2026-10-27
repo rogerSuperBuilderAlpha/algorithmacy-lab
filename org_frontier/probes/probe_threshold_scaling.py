@@ -6,7 +6,7 @@ only the extreme thresholds (k=1 OR, k=n AND) keep the full core; intermediate t
 factor, because no single member is pivotal there. Method: build the k-of-n threshold commit (S=1 iff the
 party count ≥ k, every party reads S) at n=4 and n=5; for each k read the verdict, Φ, and core size.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_threshold_scaling
+Run:  python -m org_frontier.probes.probe_threshold_scaling
 """
 
 import os

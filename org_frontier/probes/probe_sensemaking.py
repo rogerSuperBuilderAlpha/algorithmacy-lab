@@ -8,7 +8,7 @@ processes the system; the counterpart is unconstituted or uncoupled) and classif
 
 Nodes: 0=W, 1=S, 2=C, 3=P (the worker's sensemaking process).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_sensemaking
+Run:  python -m org_frontier.probes.probe_sensemaking
 """
 
 from .lib import verdict, major_complex

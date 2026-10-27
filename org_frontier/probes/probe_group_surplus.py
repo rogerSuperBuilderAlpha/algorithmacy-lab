@@ -5,7 +5,7 @@ Where does the group surplus emerge across sizes and forms? Hypothesis: the all-
 growing surplus with n; the surplus is the whole Φ minus the best proper-subset Φ. Method: for the
 all-required pool at n=3,4,5, compute whole Φ and the best proper-subset Φ; report the surplus.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_group_surplus
+Run:  python -m org_frontier.probes.probe_group_surplus
 """
 
 import itertools

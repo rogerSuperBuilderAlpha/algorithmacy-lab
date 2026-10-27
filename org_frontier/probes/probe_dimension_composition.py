@@ -13,7 +13,7 @@ compose; neither alone sustains the binding.
 
 Nodes: 0=W, 1=S, 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_dimension_composition
+Run:  python -m org_frontier.probes.probe_dimension_composition
 """
 
 from .lib import verdict, major_complex

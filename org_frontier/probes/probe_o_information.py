@@ -8,7 +8,7 @@ synergy-dominated (O < 0) and dyadic ones redundancy-dominated (O > 0)?
 H46: triadic forms have negative O-information (synergy); dyadic forms have non-negative O-info
 (redundancy or independence). This would tie the exact-Φ verdict to a cheap, scalable measure.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_o_information
+Run:  python -m org_frontier.probes.probe_o_information
 """
 
 import numpy as np

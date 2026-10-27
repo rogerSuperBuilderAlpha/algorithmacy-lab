@@ -20,8 +20,16 @@ pip install -r requirements.txt
 ```
 
 `requirements.txt` pulls PyPhi's IIT-4.0 line and `phyid` from git, so the install needs network
-access and takes a few minutes. Every command below assumes this venv is active and that you run
-**from the repo root**, so that `org_frontier.*` and `foundations.*` resolve.
+access and takes a few minutes. The PyPhi line resolves to `wmayner/pyphi` `feature/iit-4.0` at
+`b78d0e342d37175cbd55cf35a6d52ae035b4c50f` (`1.2.1.dev1470+gb78d0e342`, 26 December 2025). That pin
+is what the benchmark runs, through `pyphi.Network`, `pyphi.Subsystem`, and `pyphi.new_big_phi`.
+Ternary and mixed-radix forms use the overlay in `third_party/pyphi_iit4_mv`, packaged on
+`rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`, pull request #1). Upstream
+PyPhi 2.0 is `wmayner/pyphi` `main` at `134a8f31` (16 October 2026; tag `v2.0.0rc4`, version line
+`2.0.0rc5.dev0`): `Substrate`, `System`, and `analyze()`, with `pyphi.iit4_2023()` reproducing the
+pinned controls and `pyphi.iit4_2026()` the Mayner, Marshall, and Tononi (2026) default. Every
+command below assumes this venv is active and that you run **from the repo root**, so that
+`org_frontier.*` and `foundations.*` resolve.
 
 ## 2. Confirm the instrument before you trust anything
 
@@ -37,10 +45,13 @@ every probe you write repeats it.
 ## 3. Run an existing experiment
 
 ```bash
-python -m org_frontier.probes.probe_conjunctive_law
+python -m org_frontier.probes.probe_control          # Probe 7, about two seconds
 ```
 
-A "probe" is one script that tests one hypothesis with exact Φ and prints a verdict. The log of
+A "probe" is one script that tests one hypothesis with exact Φ and prints a verdict. Probe 7 tests the
+thesis's own clause: a mediator that follows one party alone reads dyadic, mutual veto and either-forces
+read triadic. Exact Φ grows fast with node count, so check a probe's FINDINGS or docstring for its
+runtime before running it; `probe_conjunctive_law` goes to seven nodes and takes about nine minutes. The log of
 every probe run is `org_frontier/probes/PROBES.md`; the worked end-to-end question is
 `org_frontier/questions/q43_thompson_interdependence/`. Read one of each before writing your own.
 
@@ -67,20 +78,37 @@ The shared API lives in `org_frontier/classifier/classifier.py` (`classify_rules
 `max_phi_float`), and `foundations/proxy_audit/exact_phi.py` (`exact_big_phi`, `reachable_states`).
 Exact Φ is feasible up to roughly 10–12 nodes; keep forms small.
 
-## 5. Scaffold a new question
+## 5. Place your question, then scaffold it
+
+The lab has asked many questions already, and the protocol's first stage is to place a new one against
+them. Search the generated catalog with your question's keywords:
+
+```bash
+python tools/build_catalog.py --find "majority quorum mediator"
+```
+
+It prints the nearest prior questions, probes, studies, and open threads, each with its one-line
+finding and reproduce command. If a row answers your question, cite it and stress it instead of
+re-asking. If a row answers a neighbor, your study is the residual. If nothing is close, scaffold it.
+If you have no question of your own yet, [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) lists what is
+waiting for someone, with what each thread needs and its first command; set a row to `claimed` in the
+pull request that takes it.
 
 ```bash
 python -m org_frontier.protocol.new_question --slug your_slug \
     --question "Your one-line research question"
 ```
 
-This copies `org_frontier/protocol/template/` to `org_frontier/questions/q<NN>_<slug>/`, fills in
-the next free question number and probe number, and prints the next steps. Read
+This copies `org_frontier/protocol/template/` to `org_frontier/questions/q<NN>_<slug>/`, names the
+probe stub `probe_<slug>.py`, creates `results/` and `literature/`, fills in the next free question
+number and probe number, and prints the next steps. Read
 `org_frontier/protocol/RESEARCH_PROTOCOL.md` for what each artifact (`review.md`, `hypotheses.md`,
 `methods.md`, the `probe_*.py` scripts, `FINDINGS.md`, `paper.md`) must contain.
 
 The one rule that makes the record credible: **commit `hypotheses.md` before you compute the
-results.** The git history is the evidence that the claims were fixed first.
+results.** The git history is the evidence that the claims were fixed first;
+`python ci/precommit_audit.py origin/contrib..HEAD` reports the order for every question directory
+your branch touches.
 
 For qualitative research — reading a real coordination setting against the priors through interviews,
 observation, or document work — start instead from
@@ -123,17 +151,20 @@ python ci/reproduce.py your-check-name      # one check
 python ci/reproduce.py                       # the full manifest
 ```
 
-## 7. Refresh the README directory
+## 7. Refresh the generated indexes
 
 The README carries a generated directory of every question, study, essay, and review
-(`tools/build_index.py`). Regenerate it so your work shows up:
+(`tools/build_index.py`), and `catalog.json` is the searchable index the placement step reads.
+Regenerate both so your work shows up:
 
 ```bash
 python tools/build_index.py
+python tools/build_catalog.py
 ```
 
-A pull request from this repo regenerates it automatically; the `directory-current` CI check
-fails if it is stale, so run it before pushing (it commits a one-line change to README.md).
+A pull request from this repo regenerates them automatically; a pull request from a fork cannot, and
+the `directory-current` and `catalog-current` CI checks fail if either is stale, so run both before
+pushing.
 
 ## 8. Open a pull request
 
@@ -141,13 +172,19 @@ Work lands through `contrib`, never `main` directly. Read `REPO_LAYOUT.md` first
 this tree nests a second, private git repo under `dissertation/`, and the directory you run git
 from decides which repo you touch.
 
+Working from a fork, add this repository as `upstream` once, then branch off its `contrib`:
+
 ```bash
-git checkout contrib && git pull
-git checkout -b study/your-slug
+gh repo fork rogerSuperBuilderAlpha/algorithmacy-lab --clone   # or fork on GitHub and clone yours
+cd algorithmacy-lab                  # --clone already adds `upstream`; a hand-made clone needs `git remote add upstream https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab.git`
+git fetch upstream contrib
+git checkout -b study/your-slug upstream/contrib
 git add <your files> && git commit -m "..."   # hypotheses committed before results
 git push -u origin study/your-slug
-gh pr create --base contrib
+gh pr create --repo rogerSuperBuilderAlpha/algorithmacy-lab --base contrib
 ```
+
+With write access to this repository, `origin` is `upstream` and the first two lines are not needed.
 
 `PUBLISHING.md` describes the four-pass review your PR will get (reproduction, pre-commitment
 audit, argument, prose) and `CONTRIBUTING.md` covers house style.

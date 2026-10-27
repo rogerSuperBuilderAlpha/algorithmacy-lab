@@ -16,8 +16,9 @@ A form is **triadic** (irreducible; the lab's name for it is *algorithmacy*) or 
 
 The work runs as four programs on that one question, each a different lens on the same arrangement. The
 **computational program** fixes a protocol — a literature pass, five hypotheses set before any
-computation, an instrument-validated run, a paper — and has carried 74 questions through it, with a
-measure-validation arc that established Φ as the instrument first and six synthesis papers tying threads
+computation, an instrument-validated run, a paper — and has carried every question in
+[`org_frontier/questions/`](org_frontier/questions/) through it (the live count is in [`MAP.md`](MAP.md)),
+with a measure-validation arc that established Φ as the instrument first and six synthesis papers tying threads
 together. The **qualitative program** reads real coordination settings against that catalog of priors, on
 the questions of process and meaning fieldwork answers. The **recurrence program** pairs Φ with
 cross-recurrence quantification, a behavioral measure of how the parties' states track each other over
@@ -64,12 +65,17 @@ The instrument is the shared base; the four programs build around it.
 
 - **The instrument and its validation** — [`foundations/`](foundations/): a complete manuscript showing
   no cheap proxy recovers exact Φ, so the exact computation is needed. The classifier, controls, and the
-  major-complex reading live in [`org_frontier/classifier/`](org_frontier/classifier/).
+  major-complex reading live in [`org_frontier/classifier/`](org_frontier/classifier/). The benchmark pin
+  is PyPhi's `feature/iit-4.0` line at `b78d0e342` (`pyphi.Network`, `Subsystem`, `new_big_phi`). Ternary
+  and mixed-radix forms use [`third_party/pyphi_iit4_mv`](third_party/pyphi_iit4_mv/), also packaged on
+  `rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k`. Upstream PyPhi 2.0 is `wmayner/pyphi`
+  `main` at `134a8f31` (tag `v2.0.0rc4`): `pyphi.iit4_2023()` reproduces the pinned controls, and
+  `pyphi.iit4_2026()` is the Mayner, Marshall, and Tononi (2026) default.
 
 The **computational program** — exact Φ on Boolean models, the structural reading and the prior catalog:
 
-- **The logbook** — 74 questions in [`org_frontier/questions/`](org_frontier/questions/), each a full
-  paper, plus a per-probe log in [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md), and the
+- **The logbook** — the questions in [`org_frontier/questions/`](org_frontier/questions/), each a full
+  paper (count in [`MAP.md`](MAP.md); searchable through `catalog.json`), plus a per-probe log in [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md), and the
   thread and study corpus the catalog of priors is drawn from.
 - **Synthesis & reviews** — the six pipeline papers (core-membership law, coordination-logic atlas,
   discriminant boundaries, platform position, the field protocol) and the cross-program
@@ -107,23 +113,30 @@ The **survey program** — measuring the competence in people:
 
 ## Where you could contribute
 
-Concrete open threads, roughly easiest to hardest. Each is a real gap, not busywork. The empirical and
-bridge arms below each come as a ready-to-run **handoff packet** — a front-door README, the pre-registration
-discipline, and a runnable scaffold that takes a real input to a verdict. The five are indexed in
-[`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md).
+Concrete open threads, roughly easiest to hardest. Each is a real gap, not busywork. The registry with a
+status column, what each thread needs, and its first command is [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md);
+the bullets below are the same threads in prose. The empirical and bridge arms each come as a ready-to-run
+**handoff packet** — a front-door README, the pre-registration discipline, and a runnable scaffold that
+takes a real input to a verdict. The five are indexed in
+[`org_frontier/HANDOFF_PACKETS.md`](org_frontier/HANDOFF_PACKETS.md), and the verified open datasets each
+empirical line could start on today are in
+[`org_frontier/research/DATA_SOURCES.md`](org_frontier/research/DATA_SOURCES.md).
 
-- **Pick an open question.** The pre-written agendas are answered — all fifty in
+- **Bring your own question.** The pre-written agendas are answered — all fifty in
   [`RESEARCH_AGENDA_50_V2.md`](org_frontier/RESEARCH_AGENDA_50_V2.md) and items 1–12 of
   [`RESEARCH_AGENDA_V4.md`](org_frontier/RESEARCH_AGENDA_V4.md) — and each answer names the residual it
-  leaves. V4 item 11 is answered (`GRADED_HOLDS`: the joint-observation cliff tracks duty
-  correlation, not channel granularity). V4 item 12 is answered (`M3_FLIPS_VERDICT`: induced exact
-  Φ already decides V4 items 1–3; overlay background-subset Φ moves the V4 item 1 subset-estimand key).
-  Scaffold one with `python -m org_frontier.protocol.new_question` and run it through the protocol.
-- **Open the Ergodicity × Algorithmacy track.** Forty questions on when ensemble coordination statistics
+  leaves. Place a new question against them with `python tools/build_catalog.py --find "<keywords>"`,
+  then scaffold it with `python -m org_frontier.protocol.new_question` and run it through the protocol.
+- **Extend the Ergodicity × Algorithmacy track.** Forty questions on when ensemble coordination statistics
   transfer to an individual trajectory
   ([`org_frontier/ergodicity/`](org_frontier/ergodicity/)). The first cell —
-  [`studies/ergodic_components_vs_phi/`](org_frontier/studies/ergodic_components_vs_phi/) — asks whether
-  triadic forms differ from dyadic forms in attractor / basin structure; hypotheses are fixed, not yet run.
+  [`studies/ergodic_components_vs_phi/`](org_frontier/studies/ergodic_components_vs_phi/) — has run
+  (`NO_ERGODIC_SIGNATURE`), and the follow-ons leave a gap that no phase, path, observable, or panel
+  mechanism explains (`GAP_UNEXPLAINED`). That residual is open.
+- **Run the multivalued membership test.** The two-condition membership account was found on binary
+  parties. The ternary and mixed-radix overlay in [`third_party/pyphi_iit4_mv/`](third_party/pyphi_iit4_mv/)
+  now makes the parked design (#5 in [`designs/WAVE10_PARKED_DESIGNS.md`](org_frontier/designs/WAVE10_PARKED_DESIGNS.md))
+  runnable.
 - **Stress a standing result.** The extremes-only quorum law (study D) uses clean threshold counts; does it
   survive *weighted or noisy* quorums? The membership law (study A) uses a single-node influence proxy;
   does a higher-order pivotality measure sharpen the Shapley correspondence past the null-player corner?
@@ -166,7 +179,9 @@ discipline, and a runnable scaffold that takes a real input to a verdict. The fi
    in one paragraph, and the contributor path end to end.
 2. Read one worked question (e.g. [`org_frontier/questions/q43_thompson_interdependence/`](org_frontier/questions/q43_thompson_interdependence/))
    and the [research protocol](org_frontier/protocol/RESEARCH_PROTOCOL.md).
-3. Scaffold your own with `python -m org_frontier.protocol.new_question`, commit your hypotheses *before*
+3. Place your question with `python tools/build_catalog.py --find "<keywords>"`, or take a row from
+   [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
+4. Scaffold it with `python -m org_frontier.protocol.new_question`, commit your hypotheses *before*
    computing, register your numbers for CI, and open a pull request into `contrib` per
    [`PUBLISHING.md`](PUBLISHING.md).
 

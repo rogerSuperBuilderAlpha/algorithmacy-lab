@@ -8,7 +8,7 @@ a tolerance band of contestability the triad survives.
 
 Nodes: 0=W, 1=S, 2=C. W' = S with prob (1−q), persists (=W) with prob q; S'=W∧C; C'=S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_graded_contestability
+Run:  python -m org_frontier.probes.probe_graded_contestability
 """
 
 import csv

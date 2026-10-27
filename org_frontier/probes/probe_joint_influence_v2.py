@@ -10,7 +10,7 @@ compute marginal out-influence and a joint-influence (interaction) term; among b
 nodes, compare rank-AUC of marginal influence alone to the cross-validated AUC of a two-feature logistic
 model for in-core.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_joint_influence_v2 [N] [seed]
+Run:  python -m org_frontier.probes.probe_joint_influence_v2 [N] [seed]
 """
 
 import sys
