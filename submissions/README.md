@@ -27,6 +27,7 @@ This week's work is listed first in [`../NOW.md`](../NOW.md).
 | [`phygital_smq_value_creation/`](phygital_smq_value_creation/) | *Services Marketing Quarterly* APA 2027 special issue: Phygital Value Creation. Project opened; abstract deadline passed | manuscript 2027-05-30 |
 | [`phygital_bh_transformation/`](phygital_bh_transformation/) | *Business Horizons* APA 2027 special issue: Phygital Business Transformation. Project opened; abstract and registration deadlines passed | not stated |
 | [`phi_program_review/`](phi_program_review/) | Synthesis review: five months of exact Φ on small coordination models, with the PyPhi pin and the upstream 2.0 control check | no deadline |
+| [`exetasis_sovereignty/`](exetasis_sovereignty/) | *Exetasis* (independent journal) CFP "AI and Sovereignty": 300–500-word abstract plus bio; develops open AGENDA items 2, 3 and 6 of `coordinative_sovereignty/`. Project opened 2026-10-24; deep research next, angle not ruled | abstract 2026-12-20 |
 
 ## Calls for papers opened 26 Oct 2026, by due date
 
