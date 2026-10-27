@@ -1,0 +1,99 @@
+{
+  "cards": {
+    "berthon_ethics_course": {
+      "origin": "submissions/berthon_ethics_course/literature/cards",
+      "mode": "all",
+      "exclude": [
+        "REFERENCES.md"
+      ]
+    },
+    "algorithmacy_design_ethics": {
+      "origin": "submissions/algorithmacy_design_ethics/literature/library",
+      "mode": "all",
+      "exclude": []
+    },
+    "dxd_foundation": {
+      "origin": "submissions/dxd_foundation/literature/library",
+      "mode": "matched",
+      "exclude": []
+    },
+    "algorithmacy_scaffolding": {
+      "origin": "submissions/algorithmacy_scaffolding/literature/library",
+      "mode": "matched",
+      "exclude": []
+    }
+  },
+  "dirs": {
+    "literature/dxd_part2": "submissions/decision_experience_design/part2_ethics/literature"
+  },
+  "sources": {
+    "sources/01_ade_DRAFT.md": "submissions/algorithmacy_design_ethics/DRAFT.md",
+    "sources/02_dxd_part2_DRAFT.md": "submissions/decision_experience_design/part2_ethics/DRAFT.md",
+    "sources/03_INTRODUCTION.md": "submissions/berthon_ethics_course/INTRODUCTION.md",
+    "sources/04_AUTHOR_DRAFT.md": "submissions/berthon_ethics_course/AUTHOR_DRAFT.md",
+    "sources/05_AUTHOR_DRAFT_v2.md": "submissions/berthon_ethics_course/AUTHOR_DRAFT_v2.md",
+    "sources/06_MANUSCRIPT_v2.md": "submissions/berthon_ethics_course/MANUSCRIPT_v2.md",
+    "sources/07_MANUSCRIPT_v3.md": "submissions/berthon_ethics_course/MANUSCRIPT_v3.md",
+    "sources/08_MANUSCRIPT_v4.md": "submissions/berthon_ethics_course/MANUSCRIPT_v4.md"
+  },
+  "notes_prefixes": {
+    "berthon_v4_": "submissions/berthon_ethics_course/v4/",
+    "berthon_review_": "submissions/berthon_ethics_course/review/",
+    "berthon_T_adjudication.md": "submissions/berthon_ethics_course/literature/facets/T_adjudication.md",
+    "berthon_VENUE_RECOMMENDATION.md": "submissions/berthon_ethics_course/venue/VENUE_RECOMMENDATION.md",
+    "berthon_": "submissions/berthon_ethics_course/",
+    "ade_": "submissions/algorithmacy_design_ethics/",
+    "part2_": "submissions/decision_experience_design/part2_ethics/"
+  },
+  "nadella_sources": {
+    "nadella/sources/dxf_ABSTRACT_v4.md": "submissions/dxd_foundation/ABSTRACT_v4.md",
+    "nadella/sources/dxf_ARGUMENT_MAP.md": "submissions/dxd_foundation/ARGUMENT_MAP.md",
+    "nadella/sources/dxf_CLAIM.md": "submissions/dxd_foundation/CLAIM.md",
+    "nadella/sources/dxf_DRAFT.md": "submissions/dxd_foundation/DRAFT.md",
+    "nadella/sources/dxf_DRAFT_v2.md": "submissions/dxd_foundation/DRAFT_v2.md",
+    "nadella/sources/dxf_DRAFT_v3.md": "submissions/dxd_foundation/DRAFT_v3.md",
+    "nadella/sources/dxf_DRAFT_v4.md": "submissions/dxd_foundation/DRAFT_v4.md",
+    "nadella/sources/dxf_OUTLINE.md": "submissions/dxd_foundation/OUTLINE.md",
+    "nadella/sources/dxf_README.md": "submissions/dxd_foundation/README.md",
+    "nadella/sources/dxf_RESEARCH_PLAN.md": "submissions/dxd_foundation/RESEARCH_PLAN.md",
+    "nadella/sources/dxf_REVIEW_v2_2026-10-13.md": "submissions/dxd_foundation/REVIEW_v2_2026-10-13.md",
+    "nadella/sources/dxf_SOURCE.md": "submissions/dxd_foundation/SOURCE.md",
+    "nadella/sources/dxf_facet_E_human_factors_frame.md": "submissions/dxd_foundation/literature/facets/E_human_factors_frame.md",
+    "nadella/sources/dxf_facet_G_nadella_lineage.md": "submissions/dxd_foundation/literature/facets/G_nadella_lineage.md",
+    "nadella/sources/dxf_facet_H_candidate_moves.md": "submissions/dxd_foundation/literature/facets/H_candidate_moves.md",
+    "nadella/sources/dxf_facet_L_disclosure_and_choice.md": "submissions/dxd_foundation/literature/facets/L_disclosure_and_choice.md",
+    "nadella/sources/dxf_facet_S_hmi_read_to_check.md": "submissions/dxd_foundation/literature/facets/S_hmi_read_to_check.md",
+    "nadella/sources/dxf_facet_T_adjudication.md": "submissions/dxd_foundation/literature/facets/T_adjudication.md",
+    "nadella/sources/dxf_facet_X_counter_case.md": "submissions/dxd_foundation/literature/facets/X_counter_case.md",
+    "nadella/sources/dxf_facet_Z_gap_search.md": "submissions/dxd_foundation/literature/facets/Z_gap_search.md",
+    "nadella/sources/dxf_facet_G_nadella_lineage.bib": "submissions/dxd_foundation/literature/facets/G_nadella_lineage.bib",
+    "nadella/sources/dxf_facet_A_the_record.md": "submissions/dxd_foundation/literature/facets/A_the_record.md",
+    "nadella/sources/dxf_facet_A_the_record.bib": "submissions/dxd_foundation/literature/facets/A_the_record.bib",
+    "nadella/sources/dxf_facet_B_the_dispute.md": "submissions/dxd_foundation/literature/facets/B_the_dispute.md",
+    "nadella/sources/dxf_facet_B_the_dispute.bib": "submissions/dxd_foundation/literature/facets/B_the_dispute.bib",
+    "nadella/sources/dxf_facet_C_spacing_to_literacy.md": "submissions/dxd_foundation/literature/facets/C_spacing_to_literacy.md",
+    "nadella/sources/dxf_facet_C_spacing_to_literacy.bib": "submissions/dxd_foundation/literature/facets/C_spacing_to_literacy.bib",
+    "nadella/sources/dxf_facet_D_reading_science.md": "submissions/dxd_foundation/literature/facets/D_reading_science.md",
+    "nadella/sources/dxf_facet_D_reading_science.bib": "submissions/dxd_foundation/literature/facets/D_reading_science.bib",
+    "nadella/sources/dxf_facet_F_parallel_moves.md": "submissions/dxd_foundation/literature/facets/F_parallel_moves.md",
+    "nadella/sources/dxf_facet_F_parallel_moves.bib": "submissions/dxd_foundation/literature/facets/F_parallel_moves.bib",
+    "nadella/sources/dxf_facet_J_who_holds_the_convention.md": "submissions/dxd_foundation/literature/facets/J_who_holds_the_convention.md",
+    "nadella/sources/dxf_facet_J_who_holds_the_convention.bib": "submissions/dxd_foundation/literature/facets/J_who_holds_the_convention.bib",
+    "nadella/sources/dxf_facet_K_training_and_cause.md": "submissions/dxd_foundation/literature/facets/K_training_and_cause.md",
+    "nadella/sources/dxf_facet_K_training_and_cause.bib": "submissions/dxd_foundation/literature/facets/K_training_and_cause.bib",
+    "nadella/sources/dxf_facet_O_custody_of_conventions.md": "submissions/dxd_foundation/literature/facets/O_custody_of_conventions.md",
+    "nadella/sources/dxf_facet_O_custody_of_conventions.bib": "submissions/dxd_foundation/literature/facets/O_custody_of_conventions.bib",
+    "nadella/sources/dxf_facet_W_spacing_oracy_literacy.md": "submissions/dxd_foundation/literature/facets/W_spacing_oracy_literacy.md",
+    "nadella/sources/dxf_facet_W_spacing_oracy_literacy.bib": "submissions/dxd_foundation/literature/facets/W_spacing_oracy_literacy.bib",
+    "nadella/sources/bec_facet_B_print_1450_1800.md": "submissions/berthon_ethics_course/literature/facets/B_print_1450_1800.md",
+    "nadella/sources/bec_facet_B_print_1450_1800.bib": "submissions/berthon_ethics_course/literature/facets/B_print_1450_1800.bib",
+    "nadella/sources/bec_facet_V1_nadella_disclosure_paradigm.md": "submissions/berthon_ethics_course/literature/facets/V1_nadella_disclosure_paradigm.md",
+    "nadella/sources/bec_facet_V2_oracy_to_literacy.md": "submissions/berthon_ethics_course/literature/facets/V2_oracy_to_literacy.md",
+    "nadella/sources/bec_facet_V4_disclosure_and_burden.md": "submissions/berthon_ethics_course/literature/facets/V4_disclosure_and_burden.md",
+    "nadella/sources/bec_facet_V5_scaffolding.md": "submissions/berthon_ethics_course/literature/facets/V5_scaffolding.md",
+    "nadella/sources/bec_facet_V6_prior_work_and_objections.md": "submissions/berthon_ethics_course/literature/facets/V6_prior_work_and_objections.md",
+    "nadella/sources/bec_facet_V1_nadella_disclosure_paradigm.bib": "submissions/berthon_ethics_course/literature/facets/V1_nadella_disclosure_paradigm.bib",
+    "nadella/sources/bec_v4_RESEARCH_BRIEF.md": "submissions/berthon_ethics_course/v4/RESEARCH_BRIEF.md",
+    "nadella/sources/bec_v4_V4_CHECK_BRIEF.md": "submissions/berthon_ethics_course/v4/V4_CHECK_BRIEF.md"
+  }
+}

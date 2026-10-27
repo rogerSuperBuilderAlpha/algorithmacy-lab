@@ -1,0 +1,59 @@
+# AUDIT_02: Part 2 citation audit, batch 2 (33 keys)
+
+Date: 2026-10-01. Scope: exactly the 33 keys listed in the task. DRAFT.md and references.bib were not edited.
+
+Checks run. (1) Bib fields against Crossref (title, authors, year, venue, volume, pages, DOI) for all 26 DOI entries; OpenAlex, the CFPB PDF, Columbia Law Review PDF and the journal page for the non-DOI entries. (2) Crossref `updates:` filter for every DOI: no retraction, correction or expression-of-concern record for any key. (3) Every DRAFT.md citation of each key compared with the facet notes and, where I could open the text, the source (arXiv full texts for Bansal 2021, Fok & Weld, Buçinca, Bommasani; Knox OA PDF; Calo & Rosenblat PDF; CFPB PDF; Edwards & Veale Duke-paginated PDF in the repo library; OpenAlex/Consensus abstracts for the rest). Paywalled full texts (Bahner, Carroll, Catrambone, Kieras, Gero, Autor, Johnson, Burnyeat, Hirschman, Gegenhuber, Grinschgl, Healey) were checked at abstract level only and are marked so.
+
+Result: no metadata errors that change a citation; four claim or locator problems (rows marked FIX); several stale or unverified bib notes.
+
+| key | bib status | claim status | fix |
+|---|---|---|---|
+| akrich1992description | OK. Pages 205-224, MIT Press 1992 (OpenAlex/HAL record). No DOI. | Unverified first-hand. "script" or "scenario" at p. 208 comes from Hertz's notes (secondary); the French original matches. Draft claim is the standard attribution. | none; bib note already discloses it |
+| anderl2024conversational | OK. Crossref: Sci Rep 14(1), art. 17127, 25 Jul 2024. | OK. Abstract: two preregistered experiments, static text beat both agents. Facet (full read) gives voice both experiments, typed chat one of two; draft states exactly that. | none |
+| autor2003skill | OK. QJE 118(4) 1279-1333. | OK as paraphrase of abstract (explicit-rule tasks substituted, non-routine problem-solving complemented). "non-routine judgment" is the draft's gloss. Abstract only. | none |
+| bahner2008misuse | OK. IJHCS 66(9) 688-699. Crossref lists full given names. | OK. Quote "even though it might not avoid it completely" verbatim in the abstract (Consensus). N = 24 process-control simulation. Abstract only. | none |
+| bansal2021whole | OK. CHI 2021 pp. 1-16 (Crossref). | OK. Quote "explanations increased the chance that humans will accept the AI's recommendation, regardless of its correctness" verbatim in the abstract (arXiv v3). "Without raising decision quality" matches the abstract. | none |
+| beane2019shadow | Mostly OK. Crossref gives author "Matthew Beane"; bib has "Matt". | OK. "only a minority of robotic surgical trainees" and "shadow learning" verbatim in the abstract. "unapproved" is the draft's word; the abstract says the practices were "norm- and policy-challenging" yet "neither punished nor forbidden." Abstract only. | bib: author given name (see fixes) |
+| bommasani2026monocultures | OK. FAccT 2026 pp. 6351-6382; arXiv 2605.27371. | OK. Full text read (arXiv): "4% ... apply to 10 positions are recommended for rejection from all positions" and the "apply widely ... considered by a human" quotation are verbatim. One vendor (pymetrics), one dataset. Bib note "Abstract only" is stale. | bib note (see fixes) |
+| brevoort2015credit | OK. CFPB Office of Research, May 2015, authors as on cover; PDF carries a DRAFT mark. | OK. Read in the CFPB PDF: 26 million (11%) credit invisible in 2010, 19 million (8.3%) unscored, lenders "much less likely to extend credit." | none |
+| bucinca2021trust | OK. PACM HCI 5(CSCW1), art. 188, 1-21. | OK. arXiv: benefit larger for high Need for Cognition; least-preferred designs were those reducing overreliance most. | none |
+| burnyeat1997postscript | OK. CQ 47(1) 74-76. | Second-hand only, via Johnson (2000, p. 593). Draft says Gavrilov and Burnyeat "closed the question for classicists"; Johnson's words are "Given Gavrilov and Burnyeat ... we can now assert," so the attribution holds, but nobody on this project has read Burnyeat. | none; note disclosed in bib |
+| calo2017taking | OK. Colum. L. Rev. 117(6) 1623-1690 (OpenAlex; running heads in the journal PDF). | Locator verified: p. 1663 reads "Drivers have typically not been permitted by the company to opt out of uberPool." Draft says drivers "could not opt out"; the next paragraph says some succeeded by writing to support. FIX text (softening, facts only). Bib note "needs a check" is now stale. | text + bib note (see fixes) |
+| carroll1984training | OK. CACM 27(8) 800-806. | OK. Abstract: "unreachable" error states, faster learning, better comprehension. Abstract only. | none |
+| catrambone1987learning | OK. Crossref issue year 1986, conference 1987, as noted in bib. | OK. Abstract: training-wheels subjects "better able to perform advanced full-system editing functions" than full-system-trained subjects. | none |
+| connellpensky2026can | OK. Comput Educ 250, art. 105640, Sept 2026. Author order per Crossref. | OK. Abstract: 1,368 students, 65 sections, embedded practice and feedback, prompt and fact/source-checking skills improved. Sections, not students, were randomized; "randomized study of 1,368 students" is acceptable shorthand. | none |
+| delacroix2019bottom | OK. IDPL 9(4) 236-252 (Crossref has article number ipz014 only; vol/pages from the publisher record). | OK. Abstract: trustees exercise data rights on behalf of beneficiaries. "Collective, relational data-governance" is interpretive, in line with the card. | none |
+| dietvorst2018overcoming | OK. Mgmt Sci 64(3) 1155-1170. | FIX. Draft: modification "largely removed their aversion." Abstract: participants were "considerably more likely" to use a modifiable algorithm and "one can reduce algorithm aversion." Part 1's audit found 47% vs 71% use rates, so aversion fell, not vanished. "Existence of the channel mattering more than its width" matches "relatively insensitive to the magnitude." | text (see fixes) |
+| edwards2017slave | OK. Duke L. & Tech. Rev. 16(1) 18-84. DOI is the SSRN preprint (disclosed). | OK. Quote verified in the Duke-paginated PDF (repo library): "Individuals are mostly too time-poor ... use of these individual rights" is on p. 67. Draft lower-cases "individuals" mid-sentence. The printed reference mixes a journal citation with an SSRN DOI; acceptable but a reader may expect the SSRN label. | none |
+| fan2026help | OK. CHI 2026 pp. 1-25, 13 Apr 2026 (Crossref). | OK for the abstract: N = 60, Inline/Chat/Structured, "Chat yields higher correctness beyond a per-observation complexity threshold ... without a time cost." Draft says it read only the abstract. | none |
+| fok2024search | OK. AI Magazine 45(3) 317-332. | OK. Quote verified in arXiv 2305.07722: "we argue explanations are only useful to the extent that they allow a human decision maker to verify the correctness of the AI's prediction." Draft drops "only useful," which makes "help" slightly weaker than the source; wording acceptable. | none |
+| gegenhuber2021microphones | OK. Hum Relat 74(9) 1473-1503 (online June 2020). | FIX. "microphones ... megaphones" quote verified. Draft says workers got "none on platform decisions"; the abstract says two of six platforms consulted crowdworkers on platform-wide organisation. What was absent was co-determination. Abstract only. | text (see fixes) |
+| gero2020mental | OK. CHI 2020 pp. 1-12, twelve authors. | OK. "insufficient" is the authors' proposal in the abstract ("propose that understanding the underlying technology is insufficient"); draft states it as a finding with "was." Minor. Abstract only. | none |
+| grinschgl2021consequences | OK. QJEP 74(9) 1477-1496. | OK. "could almost completely counteract" verbatim in the abstract (Experiment 3: forced offloading with a memory-test goal). | none |
+| havelock1963preface | OK. Belknap Press of Harvard UP, 1963 (OpenAlex: Harvard UP, 1963). | OK per repo card: "the supply of readers" on p. 39. Not re-read (book; pp. 38-41 from archive.org per card). | none |
+| healey2012attention | OK. IEEE TVCG 18(7) 1170-1188. | OK for the term "pre-attentive"; abstract only. The review carries no result the draft quotes. | none |
+| hertwig2017nudging | OK. Perspect Psychol Sci 12(6) 973-986. | OK. First quote is the abstract (p. 973). "should persist once (successful) intervention is removed" is Table 1 (p. 974), verified in the publisher version by Part 1's audit and the F2 facet. | none |
+| hirschman1993exit | OK. World Politics 45(2) 173-202. | OK. Abstract: exit and voice "contrast with ... alternatives," "more complex pattern of interaction." Draft's "reinforce each other" is a reasonable reading but the abstract does not use that verb. Abstract only. | none |
+| johnson2000toward | OK. AJP 121(4) 593-627. | OK. Quote "there was no cognitive difficulty when fully literate ancient readers wished to read silently to themselves" matches the p. 593 excerpt in the facet. Only the opening paragraph was read. | none |
+| kazemitabaar2023studying | OK. CHI 2023 pp. 1-23. | OK. Abstract: 69 novices, Codex "not decreasing performance on manual code-modification tasks." Draft's "no loss on manual tasks" is accurate. Note: the draft's "Kazemitabaar et al. (2024)" at the structured-alternatives passage is a different paper, not this key. | none |
+| kieras1984role | OK. Cogn Sci 8(3) 255-273. | OK. Quote verbatim in the abstract (Crossref/OpenAlex). | none |
+| knox1968silent | OK. GRBS 9(4) 421-435, no DOI, journal page. | OK. Quote verified verbatim in the OA PDF on p. 435 ("Ancient books were normally read aloud, but there is nothing to show ... the phrase of Cicero"); draft lower-cases the first word. | none |
+| kozyreva2020citizens | OK. PSPI 21(3) 103-156. | OK. Abstract: boosts aimed at agency and at reasoning and resilience to manipulation; "boosting their information literacy." | none |
+| latour1992where | OK for the volume (225-258). | FIX. Draft locators p. 157 and pp. 161-162 are pages of the Johnson & Wetmore reprint (151-180), not of the 1992 volume the reference cites (225-258); p. 157 cannot lie in 225-258. Quotes are verbatim in the reprint (card, S2-checked). I cannot map them to the 1992 pagination and will not guess. | text: label locators as reprint pages, or re-map before print |
+| lee2025impact | OK. CHI 2025 pp. 1-22; seven authors. | OK. Abstract: higher confidence in GenAI associated with less critical thinking (beta -0.69, per the facet and Part 1's audit). Draft says "self-reported," correct. | none |
+
+## Proposed fixes
+
+Each `old` is an exact unique substring; none is applied.
+
+1. calo2017taking, text, DRAFT.md: "drivers could not opt out of pooled rides (Calo & Rosenblat, 2017, p. 1663)" to "drivers were typically not permitted to opt out of pooled rides (Calo & Rosenblat, 2017, p. 1663)".
+2. dietvorst2018overcoming, text: "largely removed their aversion to it" to "substantially reduced their aversion to it".
+3. gegenhuber2021microphones, text: "a say on task-level problems, none on platform decisions" to "a say on task-level problems, no co-determination of platform decisions".
+4. latour1992where, text: `"Prescription is the moral and ethical dimension of mechanisms" (p. 157)` to `"Prescription is the moral and ethical dimension of mechanisms" (reprint p. 157)`; and "narrower audience of permitted actors (pp. 161–162)" to "narrower audience of permitted actors (reprint pp. 161–162)". The proper fix is to re-map to the 1992 volume.
+5. beane2019shadow, bib: given name "Matt" to "Matthew" (Crossref).
+6. calo2017taking, bib note: the "needs a check" clause is stale; p. 1663 verified against the Columbia Law Review PDF running head.
+7. bommasani2026monocultures, bib note: "Abstract only" is stale; full text read via arXiv 2605.27371.
+
+## Not done
+
+No paywall was bypassed. Burnyeat remains unread. Havelock, Akrich and Latour were not re-read from the books themselves.

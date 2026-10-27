@@ -9,8 +9,9 @@ run it and the work that validated it.
   hypotheses, methods, run, paper), the quality gates, and the reusable infrastructure each stage uses.
   The authoritative spec.
 - **`template/`** — the per-question directory template (`review.md`, `hypotheses.md`, `methods.md`,
-  `paper.md`, `FINDINGS.md`, `probe_template.py`). Copy it to `questions/q<NN>_<slug>/` to run a question
-  by hand.
+  `paper.md`, `FINDINGS.md`, `probe_template.py`). `python -m org_frontier.protocol.new_question --slug
+  <slug>` copies it to `questions/q<NN>_<slug>/`, names the probe stub, and creates `results/` and
+  `literature/`; place the question first with `python tools/build_catalog.py --find "<keywords>"`.
 - **`question_pipeline.js`** — the Workflow script that runs all six stages automatically for one
   question. Manual execution by the template is the fallback whenever the automated run is brittle.
 - **`methodology_review.md`** — a Stage-1 review of the protocol itself against established norms.
@@ -47,8 +48,9 @@ replacement fails. The run validated the orchestration with no manual fallback.
 ## The public write-up
 
 `../essays/studying_algorithmacy.md` lays out the method this lab runs, grounded in the methodology
-research and the 134-probe track record, with the Q43 pilot as the worked example.
+research and the probe track record, with the Q43 pilot as the worked example.
 
 ## The queue
 
-`../RESEARCH_AGENDA_50_V2.md` holds 50 questions. Q43 is done; the rest are pending.
+The fifty questions in `../RESEARCH_AGENDA_50_V2.md` are answered, as are the later agendas. The threads
+still open, with status and what each needs, are in [`../../OPEN_QUESTIONS.md`](../../OPEN_QUESTIONS.md).

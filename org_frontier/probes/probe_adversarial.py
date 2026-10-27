@@ -9,7 +9,7 @@ parties' interests align does not bear on whether the coordination is structural
 
 Nodes: 0=W, 1=S, 2=C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_adversarial
+Run:  python -m org_frontier.probes.probe_adversarial
 """
 
 from .lib import verdict, major_complex

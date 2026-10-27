@@ -1,0 +1,32 @@
+# Danna, R., Iori, M., & Mina, A. (2022). *A numerical revolution: The diffusion of practical mathematics and the growth of pre-modern European economies* (LEM Working Paper 2022/18). Scuola Superiore Sant'Anna.
+
+**Identifier:** http://hdl.handle.net/10419/266088 · **Read depth:** partial (main text read in full; EconStor working paper, June 2022, 50 pp.; pagination is the paper's own; appendix tables A1–A9 and the reference list were skimmed, not read line by line) · **Source-tier:** working paper (not peer reviewed in this form) · **Evidence basis:** direct_read · **Design and sample:** panel of 815 European cities, 1,838 city-century observations (14th–17th centuries); 1,054 practical-arithmetic manuals written in 97 of those cities, drawn from a dataset of over 1,290 (350+ manuscripts, 940+ printed; 340+ authors; 120+ cities); pooled OLS, city fixed effects, 2SLS, propensity matching, placebo · **Parties modeled:** other (cities, schools, merchants) · **Facets:** F · **Read:** 2026-10-13
+
+## What it argues
+The authors argue that the spread of Hindu-Arabic numerals through vernacular arithmetic schools raised the growth of the cities that got them. The historical frame (§2): positional notation, zero and fractions let merchant-bankers handle exchange rates, insurance and profit-sharing that Roman numerals and the counting board handled badly (pp. 1–5). Fibonacci's *Liber abaci* (1202) is "not … a text exclusively addressed to merchants" but applies the new numerals to commercial problems; the carrier was the "abacus school", where lay pupils aged ten to thirteen spent about two years on Hindu-Arabic calculation (pp. 5–6). Enrolment estimates are 25 to 50 pupils per school, so a manual used in a school reached "over a hundred pupils" in a decade (p. 6). The manuals mostly consist of "long lists of worked examples" (p. 6). They say they have no direct evidence of the first economic use but that the numerals "surely had been adopted" by the end of the 13th century (p. 5). Diffusion ran south to north: Bruges and Lübeck had no such manual until 1569 and 1547 respectively, though both were major trade centres (p. 9).
+
+Measures (§3): city population growth as the proxy for income, and manuals in the previous century as the treatment (p. 12). Results, each a log-log elasticity: pooled OLS, a 10% rise in manuals goes with 1.12% more growth next century (Table 2); with city fixed effects, 0.61% (Table 3); 2SLS, with distance from the first manual in the country as instrument, 3.8%, and a city with any manual grew 107% more (Table 5, first-stage F = 219.6 for the count); matched sample of 97 treated and 97 untreated cities, 0.76% (Table 6). The placebo uses 681 Latin Ptolemy manuscripts in 61 cities: no significant effect (Table 7), which the authors read as showing that learned circulation of the same numerals in monasteries and universities did not matter (§4.4.3). Diffusion went by moving people, such as German masters in Antwerp, "around 50%" of names on a list (p. 18 area, §4.2); a city's founding of an abacus school was "intentional economic policy" (Pistoia's 14th-century justification quoted in §4.2). Conclusion (§5): the numerals worked as a "social technology" because they circulated widely and informally among practitioners (pp. 27–28).
+
+## Relation to the argument
+This is the paper's best worked case that a notation's effect depended on organised teaching, not on the notation alone. It bears on D6 (a complex of conventions, not one move) and D10 (the history as a guide): the authors credit numerals plus schools plus vernacular manuals plus fractions, and their placebo shows the same numerals had no measured effect where only scholars used them. That parallels P6, that spacing lowered a cost but came with other conventions. It also bears on P10: the schools were set up and paid for by city governments and merchants who shared the pupils' interest in learning to calculate.
+
+Facet check: the facet quotes the abstract's "over 1050 manuals". The body gives two counts: over 1,290 in the full dataset (p. 9) and 1,054 in the 815-city growth sample (p. 13). The facet's quotation of p. 5 ("no direct evidence of the first adoption … surely had been adopted by the end of the 13th century") is exact. The facet is silent on the main limitation below.
+
+## In conversation with
+- `chrisomalis2010numerical`: cited in the first sentence for the claim that Europe relied on tallies, finger reckoning, Roman numerals and reckoning boards (p. 1).
+- `danna2021figuring`: cited by the same lead author for merchants being among the first to adopt the positional system (p. 4).
+- `nothaft2020satanic`: not cited; Nothaft's 2014 work on computus is cited for Latin algorismi appearing with astronomy texts (§4.4.3).
+- Leads: Grendler (1989), *Schooling in Renaissance Italy*; Black (2007) on abacus-school history; Dittmar (2011) on printing and city growth, whose design they follow; Van Egmond (1976/1980) on abacus manuals.
+
+## Caution
+Working paper; check the published version before citing numbers. City population growth is a proxy for income, and manuals proxy schools and skills; the effect is an association strengthened by an instrument whose exclusion restriction the authors argue but cannot test. Nothing here concerns a notation's effect on how fast an individual learns; it is about adoption and city-level outcomes. The authors admit no direct evidence of first economic use of the numerals (p. 5).
+
+---
+
+## S2 adversarial verification (2026-10-13)
+
+**Verdict:** corrected
+
+**What I checked:** EconStor working paper PDF (danna2022numerical.pdf, 50 pp.), full text via pdftotext. 9 quoted strings of length over 5 characters matched; the regression results (10% rise to 1.12% OLS, 0.61% FE, 3.8% IV, 107% dummy, 0.76% matching, F = 219.6), sample (815 cities, 1,838 observations, 1,054 texts in 97 cities, over 1290 in the dataset), placebo (681 manuscripts, 61 cities), 25 to 50 pupils, Bruges 1569 and Lübeck 1547, Antwerp "around 50%", Pistoia, citations of Chrisomalis (2010), Danna (2021), Nothaft (2014), Dittmar (2011).
+
+**Findings:** (1) The short string "sure" was not the source's word; the paper says the numerals "surely had been adopted" by the end of the 13th century. Fixed. (2) Read depth changed from full_text to partial, since the card says the appendix tables and reference list were skimmed. Numbers all match. I did not check page locators beyond the ones given by section.

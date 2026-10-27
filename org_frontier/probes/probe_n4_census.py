@@ -6,7 +6,7 @@ forms cluster near the minimum edge count, as the irreducible cases are sparse a
 sample the n=4 strict-mediation family (S reads all parties, each party reads S), classify each with the
 exact verdict, and report the triadic rate and the edge-count distribution by group.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_n4_census [N]
+Run:  python -m org_frontier.probes.probe_n4_census [N]
 """
 
 import os

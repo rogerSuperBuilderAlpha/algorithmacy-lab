@@ -8,7 +8,7 @@ paths, and the duplicate tends to factor, consistent with the redundancy results
 
 Nodes: 0=W, 1=S1, 2=C, 3=S2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_redundant
+Run:  python -m org_frontier.probes.probe_redundant
 """
 
 from .lib import verdict, major_complex

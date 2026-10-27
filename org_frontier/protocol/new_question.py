@@ -2,8 +2,13 @@
 
 A new contributor does not have to hand-copy the template or guess the next probe number.
 This finds the highest probe number already logged in ``org_frontier/probes/PROBES.md``,
-copies ``org_frontier/protocol/template/`` to ``org_frontier/questions/q<NN>_<slug>/``, and
-substitutes the placeholders (`<NN>`, `<slug>`, the starting probe number) in each artifact.
+copies ``org_frontier/protocol/template/`` to ``org_frontier/questions/q<NN>_<slug>/``, renames
+the probe stub to ``probe_<slug>.py`` so the reproduce command in ``FINDINGS.md`` resolves, creates
+the ``results/`` and ``literature/`` directories the protocol's stages write into, and substitutes
+the placeholders (`<NN>`, `<slug>`, the starting probe number) in each artifact.
+
+Before scaffolding, place the question against what the lab already has:
+    python tools/build_catalog.py --find "your question in a few words"
 
 It does not touch PROBES.md or ci/reproduce.json — you register your numbers there yourself
 once the probes run, so the commit history shows hypotheses fixed before results.
@@ -52,6 +57,10 @@ def scaffold(qid: int, slug: str, question: str, start_probe: int) -> str:
         raise SystemExit(f"refusing to overwrite existing {dest}")
     shutil.copytree(_TEMPLATE, dest)
     open(os.path.join(dest, "__init__.py"), "w").close()
+    os.rename(os.path.join(dest, "probe_template.py"), os.path.join(dest, f"probe_{slug}.py"))
+    for sub in ("results", "literature"):
+        os.makedirs(os.path.join(dest, sub), exist_ok=True)
+        open(os.path.join(dest, sub, ".gitkeep"), "w").close()
 
     subs = {"<NN>": str(qid), "<slug>": slug, "<N>": str(start_probe), "<question>": question}
     for name in os.listdir(dest):
@@ -85,12 +94,16 @@ def main() -> int:
     dest = scaffold(qid, args.slug, args.question, start)
 
     rel = os.path.relpath(dest, _REPO_ROOT)
+    module = f"org_frontier.questions.q{qid}_{args.slug}.probe_{args.slug}"
     print(f"Scaffolded {rel} (probes start at {start}).")
     print("Next, following org_frontier/protocol/RESEARCH_PROTOCOL.md:")
-    print(f"  1. fill review.md, then hypotheses.md, and commit BEFORE computing")
-    print(f"  2. write methods.md and the probe_*.py scripts; run them from the repo root")
+    print(f"  1. fill review.md (prior probes: `python tools/build_catalog.py --find ...`),")
+    print(f"     then hypotheses.md, and commit BEFORE computing")
+    print(f"  2. write methods.md and probe_{args.slug}.py (add more probe_*.py as needed);")
+    print(f"     run from the repo root: python -m {module}")
     print(f"  3. write FINDINGS.md and paper.md, then register numbers in ci/reproduce.json")
-    print(f"  4. run `python tools/build_index.py` to add your question to the README directory")
+    print(f"  4. run `python tools/build_index.py` and `python tools/build_catalog.py` so the")
+    print(f"     question is indexed")
     return 0
 
 

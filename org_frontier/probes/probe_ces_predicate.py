@@ -7,7 +7,7 @@ separates the verdict perfectly. Method: compute the CES suite on a reachable st
 for each candidate predicate (n_relations ≥ k, n_distinctions ≥ k, frac_higher_order > 0, max_order ≥ 2),
 count errors against the exact verdict; report any zero-error predicate.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ces_predicate
+Run:  python -m org_frontier.probes.probe_ces_predicate
 """
 
 import os

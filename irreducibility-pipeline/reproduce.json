@@ -1,0 +1,175 @@
+{
+  "checks": [
+    {
+      "name": "instrument-controls",
+      "cmd": "python -m irreducibility.validate",
+      "expect": [
+        "Instrument validated",
+        "factoring   (C decoupled)      -> dyadic",
+        "irreducible (full coupling)    -> triadic"
+      ],
+      "what": "the two controls and five regression forms"
+    },
+    {
+      "name": "example-gig-dispatch",
+      "cmd": "python -m irreducibility.analyze examples/01_gig_dispatch/encodings.json",
+      "expect": [
+        "[A] platform's account",
+        "verdict: TRIADIC  max Φ_MIP = 2.000",
+        "major complex (who is bound): {D, P, R}",
+        "mediator (P) position: BOTTLENECK",
+        "verdict: DYADIC  max Φ_MIP = 0.000",
+        "major complex (who is bound): {P, R}",
+        "position: ENRICHER",
+        "position: CAPTURE",
+        "position: BYPASSED",
+        "single rule that flips it: P: 'D and R' -> 'D'"
+      ],
+      "what": "gig dispatch: rival readings and outside-option designs"
+    },
+    {
+      "name": "example-insurance-claim",
+      "cmd": "python -m irreducibility.analyze examples/02_insurance_claim/encodings.json",
+      "expect": [
+        "held in 2/5"
+      ],
+      "what": "insurance claim: five routing designs"
+    },
+    {
+      "name": "example-code-review-gate",
+      "cmd": "python -m irreducibility.analyze examples/03_code_review_gate/encodings.json",
+      "expect": [
+        "verdict: TRIADIC  max Φ_MIP = 1.000",
+        "major complex (who is bound): {A, M}",
+        "mediator (G) position: BYPASSED"
+      ],
+      "what": "code-review gate"
+    },
+    {
+      "name": "example-dealer-clearinghouse",
+      "cmd": "python -m irreducibility.analyze examples/04_dealer_vs_clearinghouse/encodings.json",
+      "expect": [
+        "bypass test on I: contingent (Φ lost when the bypass opens: 2.000",
+        "bypass test on I: intrinsic (Φ lost when the bypass opens: 0.000"
+      ],
+      "what": "intrinsic vs contingent intermediation"
+    },
+    {
+      "name": "encodings-admissible",
+      "cmd": "python -m irreducibility.encode_check examples/01_gig_dispatch/encodings.json",
+      "expect": [
+        "ADMISSIBLE: 8 encoding(s)"
+      ],
+      "what": "evidence gate on the human encodings"
+    },
+    {
+      "name": "ai-draft-gig",
+      "cmd": "python -m irreducibility.analyze examples/01_gig_dispatch/ai_draft_plus_adversary.json",
+      "expect": [
+        "[driver_pool]",
+        "predicted before computing: triadic, core {D1,D2,P,R}  -> FAILED",
+        "[direct_contact_substitute]",
+        "mediator (P) position: BYPASSED"
+      ],
+      "what": "logged AI drafter + adversary run, computed"
+    },
+    {
+      "name": "ai-draft-insurance-rejected",
+      "cmd": "python -m irreducibility.encode_check examples/02_insurance_claim/ai_draft.json",
+      "expect": [
+        "REJECTED: 9 problem(s) in 5 encoding(s)"
+      ],
+      "what": "logged AI drafter run that left rules unwritten",
+      "ok_codes": [
+        1
+      ]
+    },
+    {
+      "name": "census",
+      "cmd": "python -m studies.census",
+      "expect": [
+        "triadic (Φ > 0)                         : 24  (9.4%)",
+        "(24/160)",
+        "(0/96)"
+      ],
+      "what": "256-form strict-mediation census"
+    },
+    {
+      "name": "field-mocks",
+      "cmd": "python -m studies.field_mocks",
+      "expect": [
+        "verdict matched the reading fixed before computing: 9/10",
+        "4 sensitivity flip(s)",
+        "M1 Ride-hail dispatch: triadic -> dyadic under [substitutable drivers]"
+      ],
+      "what": "ten mock organizations and their sensitivity flips"
+    },
+    {
+      "name": "mediator-in-core",
+      "cmd": "python -m studies.mediator_in_core",
+      "expect": [
+        "BOTTLENECK     68  (13.6%)",
+        "2 substitute off-platform    -> BYPASSED"
+      ],
+      "what": "regimes over 500 random forms; disintermediation walk"
+    },
+    {
+      "name": "enricher-regime",
+      "cmd": "python -m studies.enricher_regime",
+      "expect": [
+        "CAPTURE      141  (28.2%)",
+        "ENRICHER      30  ( 6.0%)",
+        "law holds on 60/60 random option configurations",
+        "captive worker, mobile counterpart     [none/full] -> CAPTURE",
+        "BOTTLENECK    13  ( 2.6%)"
+      ],
+      "what": "outside-option law"
+    },
+    {
+      "name": "contingent-irreducibility",
+      "cmd": "python -m studies.contingent_irreducibility",
+      "expect": [
+        "H3 (bypass removes the contingent party: kind=contingent, margin=2.0): SUPPORTED",
+        "H4 (same bypass leaves the intrinsic mediator: kind=intrinsic, margin=0): SUPPORTED"
+      ],
+      "what": "bypass counterfactual"
+    },
+    {
+      "name": "design-operations",
+      "cmd": "python -m studies.design_operations",
+      "expect": [
+        "H3 build and break are inverse pairs per lever:       True"
+      ],
+      "what": "three design levers, build and break"
+    },
+    {
+      "name": "thompson-ordering",
+      "cmd": "python -m studies.thompson_ordering",
+      "expect": [
+        "H1 VERDICT: CONFIRMED",
+        "sequential Φ = 2.000000 (triadic)"
+      ],
+      "what": "Thompson's ordering collapses at the top step"
+    },
+    {
+      "name": "adversarial-coding",
+      "cmd": "python -m studies.adversarial_coding",
+      "expect": [
+        "forced flips           : 101",
+        "CI contains adv. point : 22"
+      ],
+      "what": "evidence-permitted adversary flips every contested account",
+      "slow": true
+    },
+    {
+      "name": "proxies",
+      "cmd": "python -m studies.proxy_run",
+      "expect": [
+        "rank-AUC=0.563",
+        "rank-AUC=0.629"
+      ],
+      "what": "time-series proxies cannot recover the verdict",
+      "slow": true
+    }
+  ]
+}

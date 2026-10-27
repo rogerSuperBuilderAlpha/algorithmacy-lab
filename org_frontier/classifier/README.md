@@ -27,19 +27,19 @@ ordinal hint.
 
 ## Use
 
-All commands run from the repo root with the IIT-4.0 venv.
+All commands run from the repo root with the project venv active (`GETTING_STARTED.md`).
 
 ```bash
 # 1. Validate the instrument on its own controls FIRST (compute, don't assert).
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.validate
+python -m org_frontier.classifier.validate
 
 # 2. Classify the built-in library and write results/verdicts.csv.
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.run
+python -m org_frontier.classifier.run
 
 # 3. Classify a single form by name, or your own JSON model.
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.cli --list
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.cli --form gig_false_dyad
-~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.cli --model my_form.json
+python -m org_frontier.classifier.cli --list
+python -m org_frontier.classifier.cli --form gig_false_dyad
+python -m org_frontier.classifier.cli --model my_form.json
 ```
 
 Or import it:
@@ -63,7 +63,8 @@ print(v.competence)   # "algorithmacy"
 
 ## Status
 
-Scaffolded. Core reuses the dissertation's proven 3-node oracle
-(`dissertation/paper2_construct/`) and the repo's exact-Φ oracle (`proxy_audit/exact_phi.py`).
-Next: broaden `forms.py` into the coordination-form TPM library (broadcast, market, hierarchy),
-and add the proxy bridge so the verdict can be estimated from interaction time-series.
+In use as the lab's instrument: every probe and question reads its verdict through `classify_rules`,
+and `validate.py` is the `instrument-controls` check CI runs on every pull request. The core wraps the
+repo's exact-Φ oracle (`foundations/proxy_audit/exact_phi.py`). The broader form library lives in
+[`../corpus/`](../corpus/), and the proxy bridge that estimates the verdict from time series is
+[`../proxy_bridge/`](../proxy_bridge/) with the margin cascade in [`../cascade/`](../cascade/).

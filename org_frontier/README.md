@@ -56,8 +56,9 @@ as first-class results.
 
 ## The logbook and programs
 
-- [`probes/PROBES.md`](probes/PROBES.md) — 134 exact-Φ experiments, each with question, hypothesis,
-  method, and result. About a third are nulls or refinements.
+- [`probes/PROBES.md`](probes/PROBES.md) — the exact-Φ probe log, each row a question, hypothesis,
+  method, and result (live count in [`../MAP.md`](../MAP.md); searchable through `../catalog.json`). About a
+  third are nulls or refinements.
 - [`RESEARCH_PROGRAM_V2.md`](RESEARCH_PROGRAM_V2.md) … [`RESEARCH_PROGRAM_V7.md`](RESEARCH_PROGRAM_V7.md) —
   the iterative programs, each closing a wave and opening the next. V2–V6 produced the computational
   logbook; [v7](RESEARCH_PROGRAM_V7.md) broadened the lab beyond the single computational line, adding the
@@ -65,7 +66,8 @@ as first-class results.
 - [`STRUCTURAL_FINDINGS.md`](STRUCTURAL_FINDINGS.md) — the synthesis: a coordination form demands
   algorithmacy when every party is bound into one irreducible joint determination. Substitutability
   collapses it; mediation depth does not; cheap proxies cannot detect it.
-- [`RESEARCH_AGENDA_50_V2.md`](RESEARCH_AGENDA_50_V2.md) — 50 open questions queued for the pipeline.
+- [`RESEARCH_AGENDA_50_V2.md`](RESEARCH_AGENDA_50_V2.md) — the fifty-question agenda, now answered; what is
+  still open is [`../OPEN_QUESTIONS.md`](../OPEN_QUESTIONS.md).
 - [`RESEARCH_NARRATIVE.md`](RESEARCH_NARRATIVE.md) — how the program has progressed through Q73 (instrument
   → seam thread → outreach law → self-audit) and the path forward.
 - [`RESEARCH_AGENDA_Q74.md`](RESEARCH_AGENDA_Q74.md) — the runnable next questions (Q74+) derived from the

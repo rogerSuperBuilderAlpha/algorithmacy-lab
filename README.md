@@ -32,7 +32,10 @@ Every result here is in-silico or pre-fieldwork, and the validation gap is the p
 need. Closing it is community work: each of the four empirical arms below is waiting on a different kind of
 real data, and the highest-value contribution available is to go get one piece of it. Bring it through a
 pull request into `contrib` (see [`CONTRIBUTING.md`](CONTRIBUTING.md)); the lab is reproducibility-first
-and fixes its claims before computing, so a contributor commits the questions before the data.
+and fixes its claims before computing, so a contributor commits the questions before the data. Verified
+open datasets each line could start on today, with the runnable-now ones flagged, are in
+[`org_frontier/research/DATA_SOURCES.md`](org_frontier/research/DATA_SOURCES.md); the open threads with
+a status column are in [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
 
 - **Field — one real arrangement, modeled to a Φ verdict.** No real worker, platform, or message
   has been measured. The [field protocol](org_frontier/field/PROTOCOL.md) needs one real coordination — a
@@ -92,6 +95,11 @@ theory. Each is a different lens on the same coordination arrangement.
   the cognitive theories of coordination. Each theory of mind models a channel between two parties and has
   nowhere to put an opaque, interested third; the major complex holds that third as a member of the
   irreducible core, and each failure point becomes a computable Φ prediction.
+- **The irreducibility pipeline** in [`irreducibility-pipeline/`](irreducibility-pipeline/) is the
+  self-contained prototype behind the *Organization Science* Stage 1 package: rival Boolean encodings of a
+  coordination arrangement, drafted by a model and gated on verbatim evidence, then computed to exact Φ(MIP),
+  the major complex and the mediator's position. `python irreducibility-pipeline/reproduce.py` re-derives
+  its 17 reference results. <!-- DRAFTED by Claude, 27 Oct 2026 -->
 
 Four readings meet on one arrangement: structure, fieldwork, behavior, and measurement. The field protocol
 turns real evidence into the structural reading, and the cognition program ties that structure back to the
@@ -653,14 +661,16 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 Requires Python ≥ 3.10 and PyPhi's IIT-4.0 line. `requirements.txt` pins `wmayner/pyphi` `feature/iit-4.0` at `b78d0e342d37175cbd55cf35a6d52ae035b4c50f` (`1.2.1.dev1470+gb78d0e342`, 26 December 2025), the build `ci/reproduce.py` runs through `pyphi.Network`, `pyphi.Subsystem`, and `pyphi.new_big_phi`. Ternary and mixed-radix forms use the overlay `third_party/pyphi_iit4_mv`, also on `rogerSuperBuilderAlpha/pyphi@feat/multivalued-iit4-radix-k` (`3d96339a`). Upstream PyPhi 2.0 is `wmayner/pyphi` `main` at `134a8f31` (16 October 2026; tag `v2.0.0rc4`, version line `2.0.0rc5.dev0`): `Substrate` / `System` / `analyze`, with `pyphi.iit4_2023()` reproducing the pinned controls and `pyphi.iit4_2026()` the Mayner, Marshall, and Tononi (2026) default.
 
 ```bash
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
+python3 --version                                      # 3.10+ needed; a stock python3 is often 3.9
+python3.12 -m venv venv && source venv/bin/activate    # any 3.10+ interpreter, named explicitly
+pip install -r requirements.txt                        # pulls PyPhi + phyid from git: needs network
+python -m org_frontier.classifier.validate             # must print "Instrument validated"
 ```
 
 Run an org_frontier probe, or a foundations experiment, from the repo root:
 
 ```bash
-python -m org_frontier.probes.probe_conjunctive_law          # a lab probe
+python -m org_frontier.probes.probe_control                  # a lab probe (Probe 7, about two seconds)
 python -m foundations.proxy_audit.run 15 1 && python -m foundations.proxy_audit.analyze
 ```
 
@@ -714,5 +724,9 @@ Three files serve agents, by purpose:
   Nested `AGENTS.md` files cover the subtrees with their own workflow.
 - **[`MAP.md`](MAP.md)** — a generated one-screen index of the entry documents, programs, machinery, and
   live counts. Load it instead of crawling the tree.
+- **[`catalog.json`](catalog.json)** — a generated, machine-readable index of every question, probe, study,
+  and open thread, with one-line findings and reproduce commands. `python tools/build_catalog.py --find
+  "<keywords>"` places a newcomer's question against it; [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) is the
+  registry of what is waiting for someone.
 - **[`llms.txt`](llms.txt)** — a token-light brief for *describing* the project to outside users: a
   canonical summary safe to copy into memory, framing rules, and links to the key documents.

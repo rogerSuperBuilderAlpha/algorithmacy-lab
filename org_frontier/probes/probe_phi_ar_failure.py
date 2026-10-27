@@ -9,7 +9,7 @@ forms) and compare their Φ_AR scores and ranks.
 
 Reads: org_frontier/probes/results/consilience_panel.csv (run Probe 89 first).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phi_ar_failure
+Run:  python -m org_frontier.probes.probe_phi_ar_failure
 """
 
 import csv

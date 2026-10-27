@@ -12,7 +12,7 @@ compute the major complex and record whether X is in it. 256 forms x 3 parties =
 H11: influence predicts core membership — zero influence (S ignores X) is never in core, and higher
 influence raises P(X in core).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_pivotality
+Run:  python -m org_frontier.probes.probe_pivotality
 """
 
 import csv

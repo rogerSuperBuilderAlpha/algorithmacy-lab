@@ -1,0 +1,6 @@
+numpy
+# PyPhi, IIT 4.0 line, pinned to the commit every number in this repository was computed with
+pyphi @ git+https://github.com/wmayner/pyphi@b78d0e342d37175cbd55cf35a6d52ae035b4c50f
+pytest
+# optional: only the proxy study (studies/proxy_run.py) needs phyid
+phyid @ git+https://github.com/Imperial-MIND-lab/integrated-info-decomp

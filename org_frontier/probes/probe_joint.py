@@ -12,7 +12,7 @@ Forms:
 - split (n=4): S1 handles W, S2 handles C, no combination. W'=S1, C'=S2, S1'=W, S2'=C.
 - split_shared_output (n=4): S1, S2 each commit, a reader R = S1 ∧ S2 but parties read their own Si.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_joint
+Run:  python -m org_frontier.probes.probe_joint
 """
 
 from .lib import verdict, major_complex

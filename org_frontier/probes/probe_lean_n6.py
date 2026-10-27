@@ -7,7 +7,7 @@ set is non-empty, just vanishingly rare. Method: build the single conjunctive st
 (S = AND of all five parties, each party reads S) and classify it directly; report the verdict, Φ, and
 core, with the n=4 and n=5 conjunctive forms for reference.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_lean_n6
+Run:  python -m org_frontier.probes.probe_lean_n6
 """
 
 import os
