@@ -1,6 +1,6 @@
 """Classify the built-in library and write results/verdicts.csv.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.run
+Run (from the repo root, venv active):  python -m org_frontier.classifier.run
 """
 
 import csv
