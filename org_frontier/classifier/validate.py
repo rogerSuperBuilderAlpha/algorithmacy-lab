@@ -8,7 +8,7 @@ built-in regression suite:
   2. IRREDUCIBLE control — a fully coupled 3-node network must classify TRIADIC (Φ > 0).
   3. Regression suite     — every built-in form matches its EXPECTED structural verdict.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.classifier.validate
+Run (from the repo root, venv active):  python -m org_frontier.classifier.validate
 Exit code is non-zero if any control fails.
 """
 
