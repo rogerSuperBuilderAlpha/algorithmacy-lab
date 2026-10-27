@@ -11,7 +11,7 @@ is part of what binds the worker into the triad.
 
 Nodes: 0=W, 1=S, 2=C. S' = W ∧ C; C' = S throughout. Only the worker's binding to S varies.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_contestability
+Run:  python -m org_frontier.probes.probe_contestability
 """
 
 from .lib import verdict, major_complex

@@ -7,7 +7,7 @@ and falls off on both sides. Method: a three-node form with S' = W∧C fixed; th
 phase parameter p (P(track correct) = p, so p=1 in-phase, p=0.5 random, p=0 anti-phase). Sweep p and
 read exact Φ, looking for an interior maximum.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_criticality
+Run:  python -m org_frontier.probes.probe_criticality
 """
 
 import numpy as np

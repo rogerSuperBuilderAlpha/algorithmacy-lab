@@ -6,7 +6,7 @@ commits, chain, pool — which it never saw? Hypothesis: it generalizes, because
 learned is topology-independent. Method: train the eight-feature random forest on the n=3 corpus; build
 labelled forms from the new families at n=4..6; score the trained surrogate against the exact verdict.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_ood_surrogate
+Run:  python -m org_frontier.probes.probe_ood_surrogate
 """
 
 import os

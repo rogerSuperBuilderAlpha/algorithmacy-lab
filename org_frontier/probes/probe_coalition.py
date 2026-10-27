@@ -9,7 +9,7 @@ H0: the worker stays in the core; the coalition channel does not displace it.
 
 Nodes: 0=W, 1=S, 2=C1, 3=C2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_coalition
+Run:  python -m org_frontier.probes.probe_coalition
 """
 
 from .lib import verdict, major_complex

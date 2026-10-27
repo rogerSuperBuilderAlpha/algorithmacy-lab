@@ -6,7 +6,7 @@ different deterministic map. Method: for the triadic corpus forms, build the seq
 (apply each node's rule in a fixed order within a step, each seeing the latest values) for a few orders,
 classify, and compare with the simultaneous verdict.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_async
+Run:  python -m org_frontier.probes.probe_async
 """
 
 import itertools

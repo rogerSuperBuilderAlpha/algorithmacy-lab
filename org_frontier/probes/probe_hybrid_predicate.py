@@ -7,7 +7,7 @@ Hypothesis: yes; the CES part catches the conjunctive forms and the coupling par
 forms, so the OR is zero-error. Method: over the corpus, compute the CES higher-order flag and MI[W;C] on
 a noisy trajectory; report the error of each part alone and of the disjunction over a threshold sweep.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_hybrid_predicate
+Run:  python -m org_frontier.probes.probe_hybrid_predicate
 """
 
 import os

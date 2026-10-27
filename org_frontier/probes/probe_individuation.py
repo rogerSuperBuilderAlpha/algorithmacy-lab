@@ -6,7 +6,7 @@ node permutation composed with every state relabeling leaves the verdict and Φ 
 Method: over the eight 3-node corpus forms, apply all 3! node permutations × 2^3 state-flips (48
 isomorphisms each), classify, and count any verdict flip or Φ difference.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_individuation
+Run:  python -m org_frontier.probes.probe_individuation
 """
 
 import itertools

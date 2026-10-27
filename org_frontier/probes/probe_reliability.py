@@ -9,7 +9,7 @@ until the mediator is near-random, where it collapses to dyadic.
 
 Nodes: 0=W, 1=S, 2=C. S' = W∧C with reliability r; W'=S, C'=S (deterministic).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_reliability
+Run:  python -m org_frontier.probes.probe_reliability
 """
 
 import csv

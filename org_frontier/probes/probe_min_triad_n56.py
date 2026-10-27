@@ -6,7 +6,7 @@ and n=6? Hypothesis: yes — the leanest triadic forms sit exactly at 2(n−1) e
 Method: sample strict-mediation forms at n=5 and n=6, classify, and report the minimum edge count among
 triadic forms against the 2(n−1) floor.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_min_triad_n56 [N5] [N6]
+Run:  python -m org_frontier.probes.probe_min_triad_n56 [N5] [N6]
 """
 
 import os

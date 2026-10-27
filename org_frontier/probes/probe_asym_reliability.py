@@ -9,7 +9,7 @@ the worker alone — the counterpart effectively drops, Φ falls, and the form h
 
 Nodes: 0=W, 1=S, 2=C. S' = W ∧ (C perceived at reliability r_c); W'=S; C'=S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_asym_reliability
+Run:  python -m org_frontier.probes.probe_asym_reliability
 """
 
 import csv

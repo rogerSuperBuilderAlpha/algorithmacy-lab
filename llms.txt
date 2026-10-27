@@ -64,6 +64,8 @@ Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
 
 ## Key documents
 
+- [START_HERE.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/START_HERE.md): the guided onboarding an assistant runs for a newcomer — from "what is this?" to a computed verdict, then placing their own question against the catalog and routing it to an open thread.
+- [OPEN_QUESTIONS.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/OPEN_QUESTIONS.md): the registry of open threads with a status column and what each needs (compute, data, tooling, review).
 - [NOW.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/NOW.md): this week's live deadlines and canonical drafts. Writing arms are under `submissions/`.
 - [README](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/README.md): what the lab is, the thesis, setup, layout.
 - [The method essay](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/org_frontier/essays/studying_algorithmacy.md): how the lab studies algorithmacy — the instrument, the discipline, what it has found and cannot do.

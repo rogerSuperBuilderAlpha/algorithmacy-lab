@@ -4,10 +4,12 @@ For each hypothesis: the form or ensemble (exact rules/parameters), the measure,
 decision rule fixed before the run. A reader should reproduce every test from this file alone.
 
 ## Shared infrastructure
-- Verdict / Φ / major complex: `classifier.classifier` (`classify_rules`, `tpm_from_rules`,
-  `cm_from_rules`), `probes/lib.py` (`verdict`, `major_complex`, `max_phi_float`).
-- Information measures: `probes/_info.py` (entropy, mutual_information, transfer_entropy, o_information).
-- Exact Φ / trajectories: `proxy_audit/exact_phi.py`.
+- Verdict / Φ / major complex: `org_frontier/classifier/classifier.py` (`classify_rules`,
+  `tpm_from_rules`, `cm_from_rules`), `org_frontier/probes/lib.py` (`verdict`, `major_complex`,
+  `max_phi_float`).
+- Information measures: `org_frontier/probes/_info.py` (entropy, mutual_information, transfer_entropy,
+  o_information).
+- Exact Φ / trajectories: `foundations/proxy_audit/exact_phi.py`.
 - Python: run from the repo root with the project venv active (see `GETTING_STARTED.md`).
 
 ## Instrument control (run first)

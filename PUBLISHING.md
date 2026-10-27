@@ -19,7 +19,8 @@ and attributed rather than blind.
 - **An essay.** A piece of prose that argues a position about coordination, measurement, the
   literacy-or-algorithmacy thesis, or the method. It lands in [`org_frontier/essays/`](org_frontier/essays/).
   An essay that makes an empirical claim has to point at the script that backs it.
-- **A study.** A research question taken through the six-stage protocol
+- **A study.** A research question (placed first with `python tools/build_catalog.py --find`, or taken
+  from [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md)) taken through the six-stage protocol
   ([`org_frontier/protocol/RESEARCH_PROTOCOL.md`](org_frontier/protocol/RESEARCH_PROTOCOL.md)): review,
   literature, hypotheses fixed before computing, methods, a run against the exact-Φ instrument, and a
   paper. It lands under `org_frontier/questions/q<NN>_<slug>/`.
@@ -45,9 +46,10 @@ stranger trust the result.
    the models, separated from claims about real organizations by a validation gap that computing harder
    never closes. Every submission says so where it could be mistaken for an empirical claim about firms.
 
-Prose follows the house style in [`CLAUDE.md`](CLAUDE.md): no first person, plain declarative
-sentences, citations that resolve to real sources, and a de-slop pass. The full contributor conventions
-for code and probes are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Prose follows the house style in [`CLAUDE.md`](CLAUDE.md), its current rules: claim-first paragraphs,
+named agents in active voice, first person only for authorial labor, no emphasis-marker openers, and
+citations that resolve to real sources. The full contributor conventions for code and probes are in
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## The workflow
 
@@ -81,7 +83,10 @@ A reviewer works a submission in four passes, in order. The first two are mechan
    that does not reproduce fails the check and blocks the merge until it is fixed or withdrawn. A reviewer
    can also run `python ci/reproduce.py` locally.
 2. **Pre-commitment audit.** For a study, confirm the git history shows the hypotheses and decision
-   rules committed before the result. Confirm nulls and refutations are reported, not buried.
+   rules committed before the result: `python ci/precommit_audit.py origin/contrib..<pr-head>` reports,
+   for every question directory the branch touches, whether `hypotheses.md` landed before `FINDINGS.md`
+   and `results/`. A `same-commit` row is not auditable and the reviewer asks the author. Confirm nulls
+   and refutations are reported, not buried.
 3. **Argument.** Judge the claim itself: whether the model represents what it says it does, whether the
    modeling commitments are declared, whether the conclusion follows from the verdict, and whether the
    scope statement is honest about the validation gap.

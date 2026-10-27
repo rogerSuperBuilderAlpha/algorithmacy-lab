@@ -8,7 +8,7 @@ exposure and low control means captured. Hypothesis: in a triad the principal (w
 core) has high control and low exposure, the worker the reverse. Method: compute control and exposure
 per role for named forms and relate to core membership.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_value_capture
+Run:  python -m org_frontier.probes.probe_value_capture
 """
 
 from org_frontier.classifier.classifier import tpm_from_rules, cm_from_rules

@@ -6,7 +6,7 @@ forever in exact arithmetic, but at some size it drops below any detectable floo
 irreducible in principle yet undetectable in practice well before that. Method: compute the parity hub's
 Φ at n=6 and n=7, confirm the 2^(2−n) form, and report the size where the law predicts Φ < 1e−6.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_parity_dissolution
+Run:  python -m org_frontier.probes.probe_parity_dissolution
 """
 
 import math
