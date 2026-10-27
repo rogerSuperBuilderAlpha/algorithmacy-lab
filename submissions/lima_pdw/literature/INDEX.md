@@ -1,6 +1,6 @@
 # Lima PDW — literature index
 
-425 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
+427 cards in [`cards/`](cards/). Grouped by cluster, then by read depth. Blurb is the first sentence of **Relation to the argument**. Regenerate with `_build_index.py`.
 
 This is the working library for the Lima support arm. Paper 2's 44 cited works are mapped in [`COVERAGE.md`](COVERAGE.md). Citation hazards are in [`TRAPS.md`](TRAPS.md). How to add a card is in [`README.md`](README.md).
 
@@ -18,7 +18,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 |---|---|
 | Full text | 127 |
 | Extended preview | 38 |
-| Abstract only | 222 |
+| Abstract only | 224 |
 | Metadata only | 26 |
 | Abstract plus author secondary | 1 |
 | Preview | 1 |
@@ -38,6 +38,7 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 | coordination-forms | 32 |
 | coordinative-co-optation-empirical-motivation | 1 |
 | coordinative-co-optation-source | 3 |
+| expectations-hype | 2 |
 | opacity-folk-theories | 49 |
 | qualitative-method | 67 |
 | situated-learning | 39 |
@@ -662,6 +663,15 @@ Three works were carded twice in the 18 August sweep. Both files stay. The junio
 
 - **[Selznick, P. (1949). *TVA and the Grass Roots: A Study in the Sociology of Formal Organization*. University of California Press.](cards/selznick1949.md)**  
   Cited (by my count) 5–6 times across the body text, a definitional bullet list, and Appendix A's comparative table.
+
+## expectations-hype (2)
+
+### Abstract only
+
+- **[Borup, M., Brown, N., Konrad, K., & van Lente, H. (2006). The sociology of expectations in science and technology. *Technology Analysis & Strategic Management*, 18(3–4), 285–298.](cards/borup2006.md)**  
+  Arm: `io_hype_ai_literacy`.
+- **[van Lente, H. (2012). Navigating foresight in a sea of expectations: Lessons from the sociology of expectations. *Technology Analysis & Strategic Management*, 24(8), 769–782.](cards/vanlente2012.md)**  
+  Arm: `io_hype_ai_literacy`.
 
 ## opacity-folk-theories (49)
 

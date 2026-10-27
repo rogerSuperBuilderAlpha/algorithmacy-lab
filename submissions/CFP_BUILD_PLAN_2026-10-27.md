@@ -300,3 +300,28 @@ edits, and anything Claude drafts is marked.
 [`../NOW.md`](../NOW.md) (the next-dates table, which stops at 31 Jan today), and the arm's own README
 status line. The 26 Oct audit's "Decisions by date" table should gain the rulings f and g dates
 (30 Nov) once the author confirms them.
+
+## Run log
+
+**27 Oct 2026.** Stages 1 to 3 were run from the cloud session, which the environment's network
+policy confines to search-engine snippets: every publisher, conference and repository host is denied.
+What landed, all on branch `submissions/cfp-build-plan-2026-10-27`:
+
+- Stage 1: eleven `cfp/README.md` files carry a dated verification section. Snippet-level findings:
+  EGOS short papers run about 3,000 words including references and are not blind-reviewed; the
+  INFORMS page opens the *Organization Science* Agency portal on 1 Nov; the *I&O* Assemblages call
+  shows 31 Jan 2027 on the journal's own index; AlgorLit's own pages disagree (15 Oct, 15 Nov);
+  *Personnel Psychology* shows 31 Aug on Wiley against 27 Aug on ANZAM. Length limits for *JITCAR*,
+  *SIJ*, *ISJ*, *Organization Science* Agency and *Personnel Psychology* still need a browser.
+- Stage 2: [`CFP_RULINGS_2026-10-27.md`](CFP_RULINGS_2026-10-27.md) holds a working default for each
+  of a–h. EURAM is dropped by default; EGOS defaults to sub-theme 64.
+- Stage 3: fifteen cards written or annotated in `lima_pdw/literature/cards/`, none above abstract or
+  secondary depth. Each names the open copy to read once access exists. Two full-text cards already
+  in the repo cover Burrell 2016 and Eslami 2019. Two abstract-level findings are flagged in the SIJ
+  and JMS arms (Fradkin 2021; Orlikowski & Scott 2014).
+- The abstract word counts in the table above were corrected; no abstract needs cutting.
+
+**Blocked on the author:** the browser verifications; the rulings sitting; either widening the
+environment's network access to the scholarly hosts or dropping PDFs into
+`lima_pdw/literature/pdfs/` so the cards can reach full text; the SPM biography; confirmation that
+survey wave 1 opened.
