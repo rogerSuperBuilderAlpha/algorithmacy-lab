@@ -6,6 +6,8 @@
 
 **The call:** Society for Phenomenology and Media, Mexico City, 16–20 Mar 2027. Digest: [`cfp/README.md`](cfp/README.md).
 
+**Axis to select:** Axis 1, Mediated Institutionality and Platform Governance; the anxiety finding also answers Axis 2's affectivity line. [Claude, 27 Oct 2026.]
+
 **Angle:** platform opacity is lived as a doubled address before an arbiter nobody chose (Simmel's third).
 
 **Relation to other arms:** draws on [`../triadic_reduction/`](../triadic_reduction/) (Simmel cards). It is distinct from [`../cepe2027_third_party_accountability/`](../cepe2027_third_party_accountability/), which argues accountability's logical form.
