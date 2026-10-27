@@ -20,3 +20,7 @@ test = ["pytest"]
 
 [tool.setuptools]
 packages = ["irreducibility"]
+
+[tool.pytest.ini_options]
+# So `pytest -q irreducibility-pipeline/tests` from the lab root imports this package.
+pythonpath = ["."]

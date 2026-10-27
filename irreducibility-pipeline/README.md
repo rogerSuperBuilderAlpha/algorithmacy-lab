@@ -157,7 +157,8 @@ evidence, inter-rater reliability, ethics) is in [`protocol/`](protocol/).
 
 ```bash
 python reproduce.py          # 17 checks, about 2 minutes on a laptop
-pytest -q                    # 19 tests
+pytest -q                    # 19 tests, from this directory
+# from the lab root: pytest -q irreducibility-pipeline/tests
 ```
 
 | Check | What it reproduces |
