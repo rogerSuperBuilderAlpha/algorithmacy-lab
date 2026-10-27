@@ -24,10 +24,16 @@ from collections import defaultdict
 RESULT_MARKERS = ("FINDINGS.md", "results/")
 
 
+def _is_result(rest: str) -> bool:
+    """`FINDINGS.md`, or anything under a `results/` directory at any depth of the question dir."""
+    return rest.startswith(RESULT_MARKERS) or "/results/" in rest
+
+
 def _commits(rng: str) -> list:
-    """Commits in the range, oldest first, with the files each one adds or changes."""
+    """Commits in the range, oldest first, with the files each one adds."""
     out = subprocess.run(
-        ["git", "log", "--reverse", "--format=%H %ad", "--date=short", "--name-only", rng],
+        ["git", "log", "--reverse", "--format=%H %ad", "--date=short", "--name-only",
+         "--diff-filter=A", rng],
         capture_output=True, text=True, check=True,
     ).stdout
     commits, cur = [], None
@@ -60,7 +66,7 @@ def audit(rng: str) -> list:
             rest = "/".join(parts[i + 2:])
             if rest == "hypotheses.md" and d not in first_hyp:
                 first_hyp[d] = c
-            if rest.startswith(RESULT_MARKERS) and d not in first_res:
+            if _is_result(rest) and d not in first_res:
                 first_res[d] = c
     rows = []
     for d in sorted(set(first_hyp) | set(first_res)):

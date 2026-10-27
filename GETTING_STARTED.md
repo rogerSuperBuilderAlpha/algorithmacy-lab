@@ -176,7 +176,7 @@ Working from a fork, add this repository as `upstream` once, then branch off its
 
 ```bash
 gh repo fork rogerSuperBuilderAlpha/algorithmacy-lab --clone   # or fork on GitHub and clone yours
-git remote add upstream https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab.git
+cd algorithmacy-lab                  # --clone already adds `upstream`; a hand-made clone needs `git remote add upstream https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab.git`
 git fetch upstream contrib
 git checkout -b study/your-slug upstream/contrib
 git add <your files> && git commit -m "..."   # hypotheses committed before results

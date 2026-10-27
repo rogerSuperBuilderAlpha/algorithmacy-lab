@@ -122,6 +122,12 @@ def _questions(by_dir: dict) -> list:
     return rows
 
 
+def _cmd_module(cmd: str) -> str:
+    """The module token after `-m` in a check command, or "" if there is none."""
+    m = re.search(r"(?:^|\s)-m\s+(\S+)", cmd)
+    return m.group(1) if m else ""
+
+
 def _probes(by_dir: dict) -> list:
     """Every `| n | concept | hypothesis | verdict | result |` row of PROBES.md, by number."""
     rows = {}
@@ -141,7 +147,7 @@ def _probes(by_dir: dict) -> list:
         num = int(m.group(1))
         script = re.search(r"`(probe_[a-z0-9_]+)\.py`", cells[-1])
         module = f"org_frontier.probes.{script.group(1)}" if script else ""
-        checks = [c for c in probe_checks if module and module in c["cmd"]]
+        checks = [c for c in probe_checks if module and _cmd_module(c["cmd"]) == module]
         rows[num] = {
             "kind": "probe",
             "id": f"#{num}",
@@ -293,7 +299,8 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.find:
-        signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # `| head` must not traceback
+        if hasattr(signal, "SIGPIPE"):  # absent on Windows
+            signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # `| head` must not traceback
         _print_find(args.find, build())
         return 0
 

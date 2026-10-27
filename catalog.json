@@ -4344,9 +4344,9 @@
    "result": "Unanimity (AND) and any-suffices (OR) bind all members (triadic, Φ=3.0); majority (2-of-3) factors to dyadic (no member pivotal); veto reduces to the vetoer (dyadic, core {W}); parity binds weakly (Φ=0.25). A majority-rule body is structurally not an irreducible collective. probe_voting.py",
    "path": "org_frontier/probes/probe_voting.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_voting_robustness"
+    "python -m org_frontier.probes.probe_voting"
    ],
-   "runtime": "fast"
+   "runtime": "unregistered"
   },
   {
    "kind": "probe",
