@@ -2,6 +2,8 @@
 
 [DRAFTED by Claude, 26 Oct 2026. For the author's read-aloud. SASE expects abstracts of about 1,000 words, not counting references. MC09 is due 1 Nov 2026.]
 
+[Revised by Claude, 27 Oct 2026, against the CFP: a Network J closing is supplied as an alternate; the MC09 text is unchanged. See `../CFP_FIT_REVIEW_2026-10-27.md`.]
+
 **Title:** Governed Without a Seat: Platform Co-optation and the Governance Work of the Governed
 
 ## Abstract
@@ -18,6 +20,8 @@ Hotels show the arrangement most completely. A hotel and its guests are the two 
 The paper builds this argument from published studies of three settings: online marketplaces, hotel rating platforms, and app stores and other complementor ecosystems. It reads each for the four features and for the two responses. Three implications follow for economic sociology. First, the analysis of platforms should treat the relation between the two rated parties as a site of governance, not only the relation between operator and provider. Second, research on digital inequality should measure competence in addressing an evaluator, not only access and skill with devices. Third, regulation that targets transparency alone will miss the problem. A published rule does not give the governed a seat, a shared forum or a portable record. Those three goods are the objects of the technopolitics the mini-conference asks about. They are also what the governed most lack.
 
 **Keywords:** platforms; co-optation; governance; evaluation; voice; digital economy
+
+**Network J variant (16 Dec route).** [Claude, 27 Oct 2026.] If the abstract goes to Network J instead of MC09, replace the last three sentences of the final paragraph with: "A published rule does not give the governed a seat, a shared forum or a portable record. Participatory evaluation systems and digital reputations, which the network studies as coordination instruments, are where those three goods are missing. The paper treats them as objects of governance in their own right." 
 
 ## References (cited in the abstract)
 - Hirschman, A. O. (1970). *Exit, voice, and loyalty: Responses to decline in firms, organizations, and states*. Harvard University Press.

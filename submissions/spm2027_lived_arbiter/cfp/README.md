@@ -21,3 +21,17 @@
 - Axis 1, "Mediated Institutionality and Platform Governance": "Digital platforms, social networks, and AI systems as emerging institutional structures."
 - "Algorithmic governance, automated decision-making, and the lived experience of bureaucratic opacity."
 - Axis 2: "The affectivity of institutions: institutional trust, anxiety, alienation, and sense of belonging."
+
+## Verification attempt, 27 Oct 2026
+
+[DRAFTED by Claude, 27 Oct 2026.]
+
+**Network state.** The session's egress proxy refused every outbound host (CONNECT 403), and WebFetch returned ENOTFOUND. Only search snippets were available.
+
+**URLs tried**
+- https://easychair.org/cfp/SPM2027 — WebFetch: ENOTFOUND; curl: CONNECT 403 (proxy policy). Failed.
+- WebSearch (one query) — succeeded; snippets of https://easychair.org/cfp/SPM2027 and https://easychair.org/cfp/spm2027.
+
+**Timezone for 15 Dec 2026:** still unverified. Snippets confirm "December 15, 2026" as both the abstract registration deadline and the submission deadline, with no time of day or timezone. (EasyChair CFP pages do not usually state one; the society page may.)
+
+**Side note from the snippets:** the two EasyChair CFP pages show different submission links, conf=spm20270 and conf=spm202701. Confirm which is live before submitting.
