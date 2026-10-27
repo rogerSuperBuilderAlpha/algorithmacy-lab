@@ -7047,6 +7047,23 @@
       "timeout": 1500,
       "slow": true,
       "source": "org_frontier/probes/PROBES.md (#116); the scaling-law probe in START_HERE.md"
+    },
+    {
+      "name": "irreducibility-pipeline-reproduce",
+      "cmd": "python irreducibility-pipeline/reproduce.py",
+      "expect": [
+        "PASS  instrument-controls",
+        "PASS  example-gig-dispatch",
+        "PASS  ai-draft-gig",
+        "PASS  census",
+        "PASS  adversarial-coding",
+        "PASS  proxies",
+        "17/17 checks passed."
+      ],
+      "timeout": 900,
+      "slow": true,
+      "what": "the irreducibility-pipeline prototype: 17 reference results (controls, four worked examples, logged AI runs, census, regimes, adversarial coding, proxies)",
+      "source": "irreducibility-pipeline/README.md"
     }
   ]
 }

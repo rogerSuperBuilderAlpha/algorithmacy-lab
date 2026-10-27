@@ -95,6 +95,11 @@ theory. Each is a different lens on the same coordination arrangement.
   the cognitive theories of coordination. Each theory of mind models a channel between two parties and has
   nowhere to put an opaque, interested third; the major complex holds that third as a member of the
   irreducible core, and each failure point becomes a computable Φ prediction.
+- **The irreducibility pipeline** in [`irreducibility-pipeline/`](irreducibility-pipeline/) is the
+  self-contained prototype behind the *Organization Science* Stage 1 package: rival Boolean encodings of a
+  coordination arrangement, drafted by a model and gated on verbatim evidence, then computed to exact Φ(MIP),
+  the major complex and the mediator's position. `python irreducibility-pipeline/reproduce.py` re-derives
+  its 17 reference results. <!-- DRAFTED by Claude, 27 Oct 2026 -->
 
 Four readings meet on one arrangement: structure, fieldwork, behavior, and measurement. The field protocol
 turns real evidence into the structural reading, and the cognition program ties that structure back to the
