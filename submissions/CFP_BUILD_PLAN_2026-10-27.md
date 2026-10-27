@@ -23,12 +23,12 @@ timeline governs theirs.
 
 | # | Due | Arm | Deliverable | Size | Recommendation |
 |---|---|---|---|---|---|
-| 1 | 15 Nov 2026 | [`algorlit2027_literacy_to_algorithmacy/`](algorlit2027_literacy_to_algorithmacy/) | 300–500-word abstract; 4,000–6,000-word paper after acceptance | S | **Go.** Abstract exists at 548 words; cut to 500, confirm the date, submit. |
+| 1 | 15 Nov 2026 | [`algorlit2027_literacy_to_algorithmacy/`](algorlit2027_literacy_to_algorithmacy/) | 300–500-word abstract; 4,000–6,000-word paper after acceptance | S | **Go.** The abstract body is 390 words, within the cap; confirm the date, submit. |
 | 2 | 15 Nov 2026 | [`jitcar_post_ai_enterprise/`](jitcar_post_ai_enterprise/) | Full paper, length unknown | L | **Hold.** A full paper in nineteen days, across ALGOCON and the *Slacker* final, at a lower-tier venue. Keep the angle (operator plus principal) for a later call. |
 | 3 | 15 Dec 2026 | [`spm2027_lived_arbiter/`](spm2027_lived_arbiter/) | 150–250-word abstract plus 50–100-word biography | S | **Go if virtual.** Cheap to write; the cost is fees and Mexico City. The author writes the biography. |
-| 4 | 16 Dec 2026 | [`sase2027_platform_cooptation/`](sase2027_platform_cooptation/) Network J | About 1,000-word abstract | S | **Conditional.** Only if MC09 is not sent on 1 Nov. The abstract exists at 824 words. |
+| 4 | 16 Dec 2026 | [`sase2027_platform_cooptation/`](sase2027_platform_cooptation/) Network J | About 1,000-word abstract | S | **Conditional.** Only if MC09 is not sent on 1 Nov. The abstract body is 841 words; about 1,000 are expected. |
 | 5 | 31 Dec 2026 (rolling) | [`cepe2027_third_party_accountability/`](cepe2027_third_party_accountability/) | 600–800-word abstract by email; 5,000-word paper only for the journal route | S | **Go, early.** Rolling review rewards an early send. Target the first week of December, before the OT push. |
-| 6 | 12 Jan 2027 | [`euram2027_algorithmacy/`](euram2027_algorithmacy/) | Full paper, 10–40 pages, plus 400-word abstract | M | **Conditional on ruling g.** The paper is the OT paper condensed. If OT could accept before June 2027, this breaches EURAM's rule. |
+| 6 | 12 Jan 2027 | [`euram2027_algorithmacy/`](euram2027_algorithmacy/) | Full paper, 10–40 pages, plus 400-word abstract | M | **Dropped by default (ruling g).** The paper is the OT paper condensed, and an OT acceptance before June 2027 would breach EURAM's rule. Reopens only if the author accepts the risk. |
 | 7 | 15 Jan 2027 | [`egos2027_st64_rules_of_play/`](egos2027_st64_rules_of_play/) | Short paper, length unconfirmed (usually about 3,000 words) | M | **Go, one of two.** Ruling f picks sub-theme 64 or the author's sub-theme 03 draft. Only one short paper per main author. |
 | 8 | 31 Jan 2027 | [`isj_future_of_work_design/`](isj_future_of_work_design/) | Full journal paper, length unknown | L | **Conditional on a browser read of the call.** January is the heaviest month; see the schedule. |
 | 9 | 31 Jan 2027 | [`io_hype_ai_literacy/`](io_hype_ai_literacy/) | Full journal paper, length unknown | L | **Hold unless the PDW confirms the call.** The hype literature is uncarded and the call is aggregator-only. |
@@ -64,7 +64,8 @@ paper is drafted, because the same claim cannot be a contribution in two arms.
 | g | Accept or reject the EURAM concurrency risk | EURAM |
 | h | How every spinoff cites the OT paper while it is under blind review | all |
 
-Proposed defaults, for the author to confirm or overturn in one sitting: (a) CEPE owns the logical
+Proposed defaults, for the author to confirm or overturn in one sitting (recorded as working
+defaults in [`CFP_RULINGS_2026-10-27.md`](CFP_RULINGS_2026-10-27.md)): (a) CEPE owns the logical
 form, FAccT the audits, as the audit already splits them. (b) SASE owns the four features. (c)
 *Organization Science* Agency owns standing at the organizational level; Exetasis keeps democratic
 sovereignty. (d) The OT vocabulary (interpreting, specifying intent, tracking) wins, and the codebook
@@ -121,12 +122,12 @@ need it.
 
 ### 1. AlgorLit 2027 (15 Nov, 23:59 Madrid)
 
-Exists: abstract (548 words, over the 500 cap), argument, outline. Verify: the date, in a browser;
+Exists: abstract (390 words, within the 300–500 range), argument, outline. Verify: the date, in a browser;
 if the calendar link is right the call closed on 15 Oct. Research: check each literacy definition
 carded (Dogruel 2021, DeVito 2021, Oeldorf-Hirsch & Neubaum 2023, Gagrčin 2026) for whether it names
 a second person; that reading is the "Results" the template asks for and it is the author's claim.
-Build: cut the abstract to 500 words with the four required headings (Objectives, Methodology,
-Results, Contribution) and 3–5 keywords; strip the author's name for double-blind review. Decision:
+Build: the abstract already carries the four required headings (Objectives, Methodology, Results,
+Contribution) and five keywords, and names no author; the remaining work is the author's read-aloud. Decision:
 submit by 13 Nov. Paper (4,000–6,000 words) only after the 15 Jan notification; card Wilkinson,
 Olson and Goody & Watt then.
 
@@ -142,10 +143,10 @@ framework.
 
 ### 3. SPM2027 (15 Dec)
 
-Exists: abstract (300 words, over the 250 cap), argument, outline. Verify: nothing blocked. Research:
+Exists: abstract (185 words, within the 150–250 range), argument, outline. Verify: nothing blocked. Research:
 card Ihde and Verbeek; re-read Jhaver et al. 2018 and Eslami et al. 2019 for the exact wording the
-flags question. Build: cut to 250 words naming the methodology (phenomenological reading of Simmel's
-third); the author writes the 50–100-word biography. Decision: go if the author will present
+flags question. Build: the abstract names its framework (Simmel's third); the author writes the 50–100-word
+biography. Decision: go if the author will present
 virtually or travel. Submit on EasyChair by 10 Dec.
 
 ### 4. SASE Network J (16 Dec), fallback only
@@ -156,10 +157,10 @@ in two homes.
 
 ### 5. CEPE 2027 (31 Dec, rolling)
 
-Exists: abstract (995 words, over the 800 cap), argument, outline. Verify: nothing blocked. Research:
+Exists: abstract (621 words, within the 600–800 range), argument, outline. Verify: nothing blocked. Research:
 Bovens's page; Herzberger and Burch on the conditions of Peirce's reduction thesis; the Katsh & Rifkin
-"fourth party" wording; convert Lyons's and Kroll's arXiv pages. Build: cut to 800 words excluding
-bibliography, APA, double-blind. Rulings a and e apply. Decision: send by email in the first week of
+"fourth party" wording; convert Lyons's and Kroll's arXiv pages. Build: the abstract is within range, APA,
+and names no author. Rulings a and e apply. Decision: send by email in the first week of
 December so the rolling review sees it before the OT push. The 5,000-word paper (15 Mar) is only for
 the journal route; decide that after the 31 Jan notification, since it would publish the forum
 argument first.
@@ -170,7 +171,8 @@ Exists: abstract (368 words, under the cap), argument, condensation outline. Ver
 opens late November; check *Organization Theory*'s policy on prior conference presentation. Research:
 Okhuysen & Bechky pages. Build: condense the OT manuscript to 10–40 double-spaced pages for ST09_03,
 anonymized, with the deskilling paragraph rewritten rather than reused. Ruling g gates the arm;
-submitting also commits the author to review two papers. Decision: rule g by 30 Nov. If go, condense
+submitting also commits the author to review two papers. Working default: dropped (see
+[`CFP_RULINGS_2026-10-27.md`](CFP_RULINGS_2026-10-27.md)). If the author overrules by 30 Nov, condense
 in the first week of January, after the OT draft is frozen.
 
 ### 7. EGOS 2027 sub-theme 64 (15 Jan, 12:00 CET)
@@ -180,7 +182,8 @@ review is blind, which decides "the author calls" versus "this paper calls". Res
 2013 (for the full paper, not the short one); confirm the Eliane Bucher 2021 reading. Build: the
 short paper, around 3,000 words if the usual cap holds, built on the convenors' question with
 anticipatory compliance as the new evidence and the two failure modes cited to OT. Ruling f decides
-between this and the sub-theme 03 Google Doc. Decision: rule f by 30 Nov; draft in the second week of
+between this and the sub-theme 03 Google Doc; the working default is sub-theme 64, compared side by
+side in [`CFP_RULINGS_2026-10-27.md`](CFP_RULINGS_2026-10-27.md). Decision: confirm f by 30 Nov; draft in the second week of
 December or the first week of January.
 
 ### 8. *ISJ* (31 Jan, unverified)
@@ -267,9 +270,9 @@ every arm here is a detour from Paper 1 unless it reuses prose already written f
 | Window | Work |
 |---|---|
 | 27 Oct – 1 Nov | Out-of-scope crunch (FAccT, ALGOCON, *Slacker*, SASE MC09, *Organization Science* methods). In scope, only stage 1: the eight browser verifications, recorded in each `cfp/README.md`. |
-| 2 – 8 Nov | Rulings a–h in one sitting. AlgorLit abstract cut to 500 words. *JITCAR* go/hold. |
+| 2 – 8 Nov | Rulings a–h confirmed or overturned in one sitting (working defaults in [`CFP_RULINGS_2026-10-27.md`](CFP_RULINGS_2026-10-27.md)). AlgorLit abstract read aloud. *JITCAR* go/hold. |
 | 9 – 15 Nov | AlgorLit submitted by 13 Nov. If *JITCAR* is a go, its §1–§3. |
-| 16 – 30 Nov | Shared cards (Simmel, Burrell, Bovens, Fradkin, Bolton). Rulings f and g confirmed. SPM and CEPE abstracts cut to length. *I&O* Hype PDW sent or dropped. |
+| 16 – 30 Nov | Shared cards (Simmel, Burrell, Bovens, Fradkin, Bolton). Rulings f and g confirmed. SPM and CEPE abstracts read aloud. *I&O* Hype PDW sent or dropped. |
 | 1 – 15 Dec | CEPE emailed (first week). SPM submitted by 10 Dec. *Organization Science* Agency §2–§4 in the author's prose. OT paper is the main work. |
 | 16 – 31 Dec | SASE Network J if MC09 was missed. EGOS short paper drafted. OT paper frozen 31 Dec. *Personnel Psychology* wave 3 closes around mid-December; export the data. |
 | 1 – 15 Jan | EURAM condensation (if g is go), submitted 12 Jan. EGOS submitted 15 Jan. *Organization Science* Agency §5–§6. |
@@ -287,8 +290,8 @@ most, and the last one is the only empirical test of the scale.
 ## What Claude can run without the author
 
 Stage 1 verifications need a browser the author controls, so they are the author's. Everything in
-stage 3 (carding), the length cuts in stage 4 for the five abstracts, and the stage 5 audits are
-Claude's to run on request. Drafting full papers follows the OT arm's rule 1: the author writes, Claude
+stage 3 (carding), the length checks on the five abstracts, and the stage 5 audits are Claude's to
+run on request. Drafting full papers follows the OT arm's rule 1: the author writes, Claude
 edits, and anything Claude drafts is marked.
 
 ## Records to update when an arm moves
