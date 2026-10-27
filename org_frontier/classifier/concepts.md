@@ -65,5 +65,5 @@ triadic coordination*. The second can hold while the first stays open.
 
 - Theory essay: [`../essays/literacy_or_algorithmacy.md`](../essays/literacy_or_algorithmacy.md)
 - Survey + gap: [`../landscape/SURVEY_FINDINGS.md`](../landscape/SURVEY_FINDINGS.md)
-- Proven oracle: `dissertation/paper2_construct/phi_instrument.py`, `proxy_audit/exact_phi.py`
-- Why MIP not complete cut: `dissertation/paper2_construct/party_partition.py`
+- Proven oracle: `foundations/proxy_audit/exact_phi.py` (the dissertation's own instrument file is private)
+- Why MIP not complete cut: [`methods.md`](methods.md); the public case is `ats_feedback_factors` in `forms.py`
