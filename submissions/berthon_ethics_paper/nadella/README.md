@@ -59,7 +59,7 @@ These points come from the lab's own audited research. The author decides what t
 - **The lab's earlier work**, copied byte for byte into `sources/` (49 files): the post's lineage (facet G), the
   disclosure paradigm and v4 research (V1–V6), the word-spacing record (dxd facets A–D, F, J, K, O, W), and print
   (facet B).
-- **The cards**: 219 in `../literature/cards/`, listed in `CARDS.md` with 260 facet sources that have no card.
+- **The cards**: 204 in `../literature/cards/`, listed in `CARDS.md` with 260 facet sources that have no card.
   `python3 -I nadella/collect.py --check` from the arm directory.
 - **The Spaces limitation**, paraphrased in `SOURCE.md`, verbatim in the local corpus.
 

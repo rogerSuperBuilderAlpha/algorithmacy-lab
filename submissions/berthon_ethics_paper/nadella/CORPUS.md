@@ -64,7 +64,7 @@ Facet G found no expert critique of the post in its first two days (`sources/dxf
 
 ## 4. Cards
 
-`CARDS.md` lists the 61 cards behind facets G and V1, now copied into `../literature/cards/` (and indexed in
+`CARDS.md` lists the 62 cards behind facets G and V1, now copied into `../literature/cards/` (and indexed in
 `../literature/CARD_INDEX.md`), and the 7 facet-G sources that have no card (Above Security, Ananny and Crawford,
 Endsley 1995, Lin and Zainescu, Mackworth, Tariq, Warm).
 

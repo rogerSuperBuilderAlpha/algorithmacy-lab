@@ -205,5 +205,5 @@ These are matters of dating or edition, recorded so they are not lost; none chan
 - Hirschman: the berthon card read the book in part; the design-ethics card holds second-hand quotations, which its
   verifier confirmed against the book (`bec/hirschman1970exit.md`; `ade/hirschman1970.md`).
 
-`../literature/DUPLICATES.md` lists all 26 works carded twice. In the pairs I read (Ong, Hirschman, Selbst and Barocas,
+`../literature/DUPLICATES.md` lists all 32 works carded twice. In the pairs I read (Ong, Hirschman, Selbst and Barocas,
 Oeldorf-Hirsch, Berthon et al.) the cards complement each other and do not disagree on substance.
