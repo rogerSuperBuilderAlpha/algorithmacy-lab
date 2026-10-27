@@ -3,8 +3,8 @@
 Each form is a small application-layer system rendered as per-party Boolean rules
 (little-endian: index 0 = W, 1 = S, 2 = C). The TPMs are derived from each case's actual
 coupling — who depends on whom — not chosen for a target Φ. These are the forms validated in
-the dissertation's Paper 2 (``dissertation/paper2_construct/worked_examples.py``); they double
-as the classifier's demo set and its regression suite (see ``EXPECTED``).
+the dissertation's Paper 2 (a private repository; the expected verdicts are fixed here in
+``EXPECTED``); they double as the classifier's demo set and its regression suite.
 
 Drop in your own form by writing three (or n) rules and calling ``classifier.classify_rules``.
 A reusable library of broader forms — broadcast, market, hierarchy — is the next sub-experiment
