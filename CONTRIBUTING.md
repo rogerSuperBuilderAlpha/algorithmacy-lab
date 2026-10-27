@@ -57,8 +57,11 @@ input to a verdict.
   strict numeric order, so there is no scaffolder for a plain probe number — take the next free one as the
   current maximum plus one:
   `grep -oE '^\| [0-9]+' org_frontier/probes/PROBES.md | grep -oE '[0-9]+' | sort -n | tail -1`.
-- A full question goes through the pipeline and lands under `org_frontier/questions/q<NN>_<slug>/`. Copy
-  [`org_frontier/protocol/template/`](org_frontier/protocol/template/), or run the orchestration.
+- A full question goes through the pipeline and lands under `org_frontier/questions/q<NN>_<slug>/`. Place
+  it first with `python tools/build_catalog.py --find "<keywords>"` (the nearest prior questions, probes,
+  and studies), then scaffold it with `python -m org_frontier.protocol.new_question --slug <slug>`, which
+  copies [`org_frontier/protocol/template/`](org_frontier/protocol/template/) and names the probe stub.
+  Open threads waiting for someone are in [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
 - Reuse the shared infrastructure rather than rebuilding it: `org_frontier/classifier/`,
   `org_frontier/probes/lib.py`, `org_frontier/probes/_info.py`, `foundations/proxy_audit/exact_phi.py`.
 
@@ -114,15 +117,16 @@ and leaves it to the nightly job.
 A contribution that registers no number — a qualitative or survey study — still triggers the `core`
 instrument control on the per-PR gate, and that control needs a working PyPhi environment (Python 3.10+).
 CI runs it for you on every PR, so a contributor without a compute environment verifies locally with the
-three index `--check`s (`build_index.py`, `build_map.py`, `build_research_index.py`) and lets CI run the
-control. The study stands on `directory-current`: once `python tools/build_index.py` indexes it, the gate
+four index `--check`s (`build_index.py`, `build_map.py`, `build_catalog.py`, `build_research_index.py`)
+and lets CI run the control. The study stands on `directory-current`: once `python tools/build_index.py` indexes it, the gate
 confirms it is listed.
 
 ## Prose
 
-All prose follows the house style in [`CLAUDE.md`](CLAUDE.md): no first person, plain declarative
-sentences, section titles as short noun phrases, and a de-slop pass (cut the antithesis machine,
-self-narration of rigor, and metronomic openers). Citations resolve to real sources.
+All prose follows the house style in [`CLAUDE.md`](CLAUDE.md), its current rules: claim-first paragraphs,
+named agents in active voice, first person only for authorial labor (I searched, I coded), no sentence
+commenting on the paper's own rigor, no emphasis-marker openers, section titles as short noun phrases, and
+the flow self-check run on each paragraph. Citations resolve to real sources.
 
 ## Git and the two repositories
 
