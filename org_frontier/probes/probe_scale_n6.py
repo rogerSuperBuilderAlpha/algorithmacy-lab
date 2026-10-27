@@ -6,7 +6,7 @@ positive rate rather than vanishing — irreducible coordination stays possible 
 Method: sample strict-mediation n=6 forms, classify, and report the triadic rate with a comparison to
 the smaller sizes.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_scale_n6 [N]
+Run:  python -m org_frontier.probes.probe_scale_n6 [N]
 """
 
 import os

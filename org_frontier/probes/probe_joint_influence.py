@@ -12,7 +12,7 @@ AUC is higher, narrowing the gap.
 
 Same family sample as Probe 12 (seed 11, N=800) for a paired comparison. Nodes 0,1,2 = A,B,C.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_joint_influence [N] [seed]
+Run:  python -m org_frontier.probes.probe_joint_influence [N] [seed]
 """
 
 import csv

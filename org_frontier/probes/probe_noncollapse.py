@@ -8,7 +8,7 @@ a sharp jump at n=4 the way an interaction-rich physical system does. Method: bu
 each node's next state is the majority of the others, add output noise so all states are reachable, and
 read exact IIT-4.0 max Φ for n=2..5.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_noncollapse
+Run:  python -m org_frontier.probes.probe_noncollapse
 """
 
 import os

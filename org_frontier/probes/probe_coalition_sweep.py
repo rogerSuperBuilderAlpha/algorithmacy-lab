@@ -9,7 +9,7 @@ H8: the worker is in the core far less often when a coalition channel is present
 
 Nodes: 0=W, 1=S, 2=C1, 3=C2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_coalition_sweep
+Run:  python -m org_frontier.probes.probe_coalition_sweep
 """
 
 import csv

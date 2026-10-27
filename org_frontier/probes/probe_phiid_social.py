@@ -9,7 +9,7 @@ H47: triadic forms carry more persistent synergy (sts) than dyadic forms — the
 coordination shows up as synergistic information the parts do not have separately — while dyadic
 forms are redundancy/transfer dominated.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phiid_social
+Run:  python -m org_frontier.probes.probe_phiid_social
 """
 
 import numpy as np

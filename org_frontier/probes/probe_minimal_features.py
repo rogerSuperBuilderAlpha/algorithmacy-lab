@@ -5,7 +5,7 @@ set is more interpretable and cheaper to estimate on real logs. Hypothesis: two 
 Method: over the 256-form corpus, compute the same thirteen features; rank each by single-feature AUC,
 then greedily add features to a random forest until 5-fold CV-AUC reaches ≈ 1.0.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_minimal_features
+Run:  python -m org_frontier.probes.probe_minimal_features
 """
 
 import os

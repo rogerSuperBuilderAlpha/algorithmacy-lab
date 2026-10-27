@@ -9,7 +9,7 @@ counterparts is triadic.
 
 Nodes: 0=W, 1=S, 2=C1, 3=C2.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_broadcast
+Run:  python -m org_frontier.probes.probe_broadcast
 """
 
 from .lib import verdict, major_complex

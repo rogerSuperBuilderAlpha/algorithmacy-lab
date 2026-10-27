@@ -8,7 +8,7 @@ corpus, compute Φ_AR as the minimum over bipartitions of (sum of parts' residua
 residual entropy), and test how well Φ_AR separates exact-triadic from exact-dyadic forms (group means
 and rank-AUC).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phi_ar
+Run:  python -m org_frontier.probes.probe_phi_ar
 """
 
 import os

@@ -6,7 +6,7 @@ fall into distinct law classes, and does a ring give a fifth? Hypothesis: five f
 constant, linear, quadratic, exponential decay, and whatever the ring gives. Method: build chain, ring,
 conjunctive hub, pool, and parity hub at n=3..6; read Φ and name the law class from the sequence.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_scaling_zoo
+Run:  python -m org_frontier.probes.probe_scaling_zoo
 """
 
 import os

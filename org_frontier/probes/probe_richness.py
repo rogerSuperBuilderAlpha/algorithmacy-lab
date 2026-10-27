@@ -9,7 +9,7 @@ counterpart binds all three, while one that reads only one worker bit drops the 
 
 Nodes: 0=W1, 1=W2, 2=S, 3=C. W1,W2,C track S.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_richness
+Run:  python -m org_frontier.probes.probe_richness
 """
 
 from .lib import verdict, major_complex

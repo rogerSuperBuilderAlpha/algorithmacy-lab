@@ -10,7 +10,7 @@ reputation rather than her present action.
 
 Nodes: 0=W, 1=S, 2=C, 3=M (the system's memory/score of the worker).
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_memory
+Run:  python -m org_frontier.probes.probe_memory
 """
 
 from .lib import verdict, major_complex

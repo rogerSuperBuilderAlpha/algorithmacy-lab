@@ -7,7 +7,7 @@ necessary but over-predicts, because the corpus shows forms with all those edges
 strict-mediation n=3 family (`enumerate_family`, 256 forms), compute two Φ-free predicates from the
 connectivity / function sensitivities and compare each to the exact verdict.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_phi_free_test
+Run:  python -m org_frontier.probes.probe_phi_free_test
 """
 
 from org_frontier.classifier.classifier import classify_rules, cm_from_rules

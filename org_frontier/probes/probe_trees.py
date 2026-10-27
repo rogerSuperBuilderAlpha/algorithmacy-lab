@@ -7,7 +7,7 @@ the chain (preserves) and pool (breadth) baselines.
 
 Nodes per form labeled inline.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_trees
+Run:  python -m org_frontier.probes.probe_trees
 """
 
 from .lib import verdict, major_complex

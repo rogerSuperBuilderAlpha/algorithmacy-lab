@@ -6,7 +6,7 @@ pure-higher-order and scales differently from the conjunctive hub — not the cl
 build the all-parity commit (S = XOR of all parties, every party reads S) at n=3,4,5; read Φ and the
 core, against the conjunctive hub for reference.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_parity_scaling
+Run:  python -m org_frontier.probes.probe_parity_scaling
 """
 
 import os

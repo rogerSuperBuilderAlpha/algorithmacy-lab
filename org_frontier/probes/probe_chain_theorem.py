@@ -6,7 +6,7 @@ middle, because the chain has a single 2-bit bottleneck of integration wherever 
 compute exact Φ and the MIP for chains of depth k = 1..K via `multiparty.chains.chain_rules`, and read
 off the cut at each depth.
 
-Run:  ~/iit-playground/venv-4.0/bin/python -m org_frontier.probes.probe_chain_theorem [K]
+Run:  python -m org_frontier.probes.probe_chain_theorem [K]
 """
 
 import sys
