@@ -6,3 +6,20 @@ one short turn at a time, never a wall of text.
 
 START_HERE.md is the script for that greeting. AGENTS.md, OVERVIEW.md, and README.md are reference to
 reach for once the newcomer is already moving, not material to dump up front.
+
+Once a session is doing work in the repo, remote visibility is mandatory. Do it before the first edit
+and again at every checkpoint. The push target is a working branch off `contrib`; `main` and `contrib`
+are protected.
+
+1. Create the branch and push it immediately: `git fetch --all --prune`,
+   `git checkout -b <topic>/<slug> origin/contrib`, `git push -u origin <branch>`. Open a draft pull
+   request into `contrib` with the first commit.
+2. Commit and `git push` after every meaningful step (probe, artifact, protocol stage, checkpoint).
+   Remote state is the recoverable state.
+3. Read the other open branches and pull requests before starting and again while working:
+   `git branch -r --sort=-committerdate`, recent commits across those branches, and
+   `gh pr list --state open`. When another branch or open pull request already covers the question,
+   join it or stop.
+
+The command block and the fork recipe are in AGENTS.md under "Remote visibility". Confirm
+`git rev-parse --show-toplevel` before every commit.

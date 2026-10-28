@@ -7,7 +7,8 @@
 How to navigate the lab, run it, verify a change, and land it. This is the tool-agnostic entry point for
 any coding agent. Three files divide the work and cross-reference each other:
 
-- **`AGENTS.md`** (this file) — how to operate *inside* the repo: map, commands, gates, the land flow.
+- **`AGENTS.md`** (this file) — how to operate *inside* the repo: remote visibility first, then map,
+  commands, gates, and the land flow.
 - **[`llms.txt`](llms.txt)** — how to *describe* the project to outside users at low token cost.
 - **[`CLAUDE.md`](CLAUDE.md)** — the house writing style, the dissertation spine, and the git-push rules.
 
@@ -48,6 +49,48 @@ and there is nothing to keep separate.
 Before any commit or push, run `git rev-parse --show-toplevel` and `git remote -v` to confirm which repo
 you are in. Never `git add -f dissertation/` from the outer repo, and never `git init` either tree. The
 full explanation and worked examples are in [`REPO_LAYOUT.md`](REPO_LAYOUT.md).
+
+## Remote visibility — branch, push, and read the other work
+
+A change that exists only in a local working tree is invisible to every other agent and researcher.
+Three rules bind every session in this repo, before the first edit and again at every checkpoint.
+`main` and `contrib` are protected: the push target is the working branch.
+
+**1. Create the branch and push it before substantive work.** Fetch, read what is already in flight
+(rule 3), then create the branch off `contrib` and push it immediately:
+
+```bash
+git fetch --all --prune
+git checkout -b <topic>/<slug> origin/contrib
+git push -u origin <topic>/<slug>
+```
+
+From a fork, `origin` is the fork and `upstream` is this repository: branch off `upstream/contrib` and
+`git push -u origin <topic>/<slug>`. Open a draft pull request into `contrib` with the first commit so
+the work is visible while it is still in progress. A session whose environment requires a particular
+branch-name template uses that template; the base is still `contrib`, and the push is still immediate.
+
+**2. Commit and push after every meaningful step.** A probe, an artifact, a protocol stage, a
+checkpoint, a doc edit: commit it and `git push`. Remote state is the recoverable state. Do not leave
+hours of work unpushed in the local tree.
+
+**3. Read the other open branches and pull requests before starting, and again while working.**
+
+```bash
+git fetch --all --prune
+git branch -r --sort=-committerdate
+git for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short) %(subject)' refs/remotes | head -30
+gh pr list --state open --limit 40
+```
+
+From a fork, list this repository's pull requests with
+`gh pr list --repo rogerSuperBuilderAlpha/algorithmacy-lab --state open`. Repeat the check before a
+long computation and before updating the pull request. When another branch or open pull request already
+covers the question, join it or stop. Parallel sessions stay aligned by reading each other's remote
+state, not by assuming the local tree is the only one.
+
+The same three rules apply inside the nested `dissertation/` repo, against that repo's own remote.
+Confirm the toplevel before every commit so a push cannot land in the wrong repository.
 
 ## Set up and run
 
@@ -118,15 +161,16 @@ entry to [`ci/reproduce.json`](ci/reproduce.json) and confirm `python ci/reprodu
 
 ## Land a change
 
-`main` and `contrib` are branch-protected: every change is a pull request into `contrib`, and promotion to
-`main` is a separate `contrib` → `main` PR.
+The branch already exists on the remote before this point (**Remote visibility**, above). `main` and
+`contrib` stay protected: every change is a pull request into `contrib`, and promotion to `main` is a
+separate `contrib` → `main` PR.
 
 ```bash
-git fetch origin contrib && git checkout -b <topic>/<slug> origin/contrib
-# … make the change, regenerate any stale index, register numbers …
+# already done before the first edit, and again after every meaningful step:
 git add <files> && git commit -m "…"
-git push -u origin <topic>/<slug>
-gh pr create --base contrib --title "…" --body "…"
+git push
+gh pr create --base contrib --draft --title "…" --body "…"   # with the first commit, not at the end
+# keep committing and pushing; mark the PR ready when the definition of done below is met
 # CI green → merge into contrib → open the contrib→main promotion PR → merge → delete the branch
 ```
 
@@ -150,6 +194,9 @@ to a fork, so regenerate the indexes locally before pushing.
   the flow self-check passed.
 - Citations resolve to real DOIs / arXiv IDs / stable URLs; nothing is fabricated to fill a gap.
 - The git target was confirmed with `git rev-parse --show-toplevel` before committing.
+- The working branch was pushed before the first substantive edit and again after every meaningful step.
+- Open remote branches and open pull requests were read before starting and again before the pull
+  request was updated. The work does not duplicate a branch or pull request already in flight.
 
 ## Standing rules
 

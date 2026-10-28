@@ -177,6 +177,25 @@ the repo and remote** — not intent. Before any commit or push:
 3. State the target remote to the user before pushing.
 4. Never `git add -f dissertation/` in the outer repo, and never re-`git init` either tree.
 5. `algorithmacy-lab`'s `main` and `contrib` branches are protected: direct pushes are rejected, so
-   land changes through a pull request into `contrib` (branch off `contrib`, push the branch, open a
-   PR). One approving review is required; the owner can merge as admin while there is one maintainer.
-   The nested `dissertation/` repo is not protected and still takes direct pushes. See `PUBLISHING.md`.
+   land changes through a pull request into `contrib`. One approving review is required; the owner can
+   merge as admin while there is one maintainer. The nested `dissertation/` repo is not protected and
+   still takes direct pushes. See `PUBLISHING.md`.
+
+## Remote visibility — every session, before the first edit
+
+Work that sits only in a local tree is invisible to the other agents and researchers in this repo.
+Three rules apply to every session, in both git repositories. The full command block is in
+[`AGENTS.md`](AGENTS.md) under **Remote visibility**.
+
+1. **Branch and push before substantive work.** `git fetch --all --prune`, create a branch off
+   `contrib`, and `git push -u origin <branch>` before editing. Open a draft pull request into
+   `contrib` with the first commit.
+2. **Commit and push after every meaningful step.** A probe, an artifact, a protocol stage, a
+   checkpoint, a paragraph: commit it and `git push`. Remote state is the recoverable state.
+3. **Read the other open branches and pull requests before starting, and again while working.**
+   `git branch -r --sort=-committerdate`, recent commits across those branches, and `gh pr list`.
+   Repeat the check before a long computation and before updating the pull request. When another
+   branch or open pull request already covers the question, join it or stop.
+
+The push target in `algorithmacy-lab` is the working branch. Confirm
+`git rev-parse --show-toplevel` before every commit so dissertation work and lab work cannot cross.
