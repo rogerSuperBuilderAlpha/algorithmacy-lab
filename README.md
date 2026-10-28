@@ -14,6 +14,11 @@ An open computational lab that applies **exact integrated information** (Φ, fro
 > it follows [`START_HERE.md`](START_HERE.md), a guided onboarding that gets you to your first computed
 > Φ verdict and your own research question in about fifteen minutes.
 
+**Agents editing this repo** follow [`AGENTS.md`](AGENTS.md). Before the first edit, create a branch off
+`contrib`, `git push -u origin <branch>`, and read the other remote branches and open pull requests.
+Commit and `git push` after every meaningful step. The rule is **Remote visibility** in `AGENTS.md`.
+`main` and `contrib` are protected.
+
 The thesis it tests: a coordination form is **dyadic** when its cause-effect structure factors into
 independent pieces (it demands *literacy*), and **triadic** when the structure stays irreducible across
 the worker–system–counterpart partition (it demands *algorithmacy*). On systems small enough to compute

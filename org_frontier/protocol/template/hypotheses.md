@@ -1,7 +1,9 @@
 # Q<NN> — Stage 3 hypotheses (fixed before computation)
 
 Five working hypotheses spanning the space, each with its structurally-expected null and the outcome it
-predicts. Written and committed before any test runs.
+predicts. Written, committed, and pushed before any test runs. The working branch is already on the
+remote (`AGENTS.md`, Remote visibility): `git push` this file before computing, and push again after
+every later stage.
 
 ## H1 — <name>
 - **Claim:** <falsifiable prediction>

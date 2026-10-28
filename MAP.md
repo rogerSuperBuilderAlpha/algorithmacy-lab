@@ -12,11 +12,11 @@ Start here. The full directory lives in [`README.md`](README.md); the operating 
 |---|---|
 | [`NOW.md`](NOW.md) | This week's live deadlines and canonical drafts — read this first |
 | [`START_HERE.md`](START_HERE.md) | Guided onboarding an AI assistant runs for a newcomer: from "what is this?" to a first computed verdict |
-| [`AGENTS.md`](AGENTS.md) | Operating manual for agents: map, run/verify, git rule, land flow, done-checklist |
+| [`AGENTS.md`](AGENTS.md) | Operating manual: remote visibility (branch and push first, push every step, read open PRs), run/verify, land flow |
 | [`README.md`](README.md) | What the lab is, the thesis, setup, and the full generated directory |
 | [`OVERVIEW.md`](OVERVIEW.md) | Five-minute orientation: the argument, where it stands, where to contribute |
 | [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) | The open threads with a status column: what is waiting for someone, and what each needs |
-| [`GETTING_STARTED.md`](GETTING_STARTED.md) | Hands-on: environment → confirm the instrument → scaffold → register → PR |
+| [`GETTING_STARTED.md`](GETTING_STARTED.md) | Hands-on: push a branch first → confirm the instrument → scaffold → push each step → PR |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Code, probe, study, and house-style conventions a submission must meet |
 | [`REPO_LAYOUT.md`](REPO_LAYOUT.md) | The two-repo git trap: this repo vs the nested private dissertation |
 | [`PUBLISHING.md`](PUBLISHING.md) | The reproducibility-first public review process for essays and studies |

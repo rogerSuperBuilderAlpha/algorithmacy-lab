@@ -4,6 +4,14 @@ The hub of the lab and the home of the **computational program**: exact Φ on sm
 through the six-stage protocol. The shared rules — git, verify, land, the done-checklist — live in the
 root [`../AGENTS.md`](../AGENTS.md). This note covers what is local here.
 
+## Remote visibility
+
+Before the first edit: `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+`gh pr list --state open`, create a branch off `origin/contrib`, and `git push -u origin <branch>`.
+Commit and `git push` after every probe, stage, or checkpoint. Re-check open branches and pull requests
+while working, and join an in-flight branch when it already covers the question. The full rule is
+**Remote visibility** in the root [`../AGENTS.md`](../AGENTS.md). Do not push to `main` or `contrib`.
+
 ## Where things are
 
 - [`protocol/`](protocol/) — the six-stage pipeline (review → research → fix five hypotheses → methods →

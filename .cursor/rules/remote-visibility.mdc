@@ -1,0 +1,26 @@
+---
+description: Push a working branch immediately, keep pushing, and read other open branches and PRs
+alwaysApply: true
+---
+
+# Remote visibility
+
+Every session that edits this repo follows the three rules in [`AGENTS.md`](../../AGENTS.md) under
+**Remote visibility**, and the same rules in [`CLAUDE.md`](../../CLAUDE.md). They apply before the
+first edit and again at every checkpoint. `main` and `contrib` are protected: the push target is the
+working branch.
+
+1. **Branch and push before substantive work.** `git fetch --all --prune`, create a branch off
+   `origin/contrib`, and `git push -u origin <branch>` before editing. Open a draft pull request into
+   `contrib` with the first commit.
+2. **Commit and `git push` after every meaningful step.** A probe, an artifact, a protocol stage, a
+   checkpoint, a doc edit. Remote state is the recoverable state. Do not leave hours of work unpushed
+   in the local tree.
+3. **Read the other open branches and pull requests before starting, and again while working.**
+   `git branch -r --sort=-committerdate`, recent commits across those branches
+   (`git for-each-ref --sort=-committerdate`), and `gh pr list --state open`. Repeat before a long
+   computation and before updating the pull request. When another branch or open pull request already
+   covers the question, join it or stop.
+
+Confirm `git rev-parse --show-toplevel` and `git remote -v` before every commit. The nested
+`dissertation/` repo is a different remote; the same three rules apply there.

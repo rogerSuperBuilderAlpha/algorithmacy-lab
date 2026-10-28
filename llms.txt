@@ -37,6 +37,10 @@ Borrowing is formal: Φ measures causal irreducibility, a fact about the measure
   status as a theory of consciousness does not bear on this use. No claim that platforms are conscious.
 Process: reproducibility-first; submit via PR into the `contrib` branch; public signed review; apply
   to the maintainer board via the `maintainer-applications` branch.
+Operating rule for any agent editing the repo: before the first edit, push a working branch off
+  `contrib` and read other remote branches plus open PRs (`git fetch --all --prune`,
+  `git branch -r --sort=-committerdate`, `gh pr list`); commit and `git push` after every meaningful
+  step; do not duplicate in-flight work. Full commands: AGENTS.md, section "Remote visibility".
 Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
 ```
 
@@ -78,7 +82,7 @@ Canonical URL: https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab
 
 ## How to contribute or become a representative
 
-- [AGENTS.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/AGENTS.md): the operating manual for an agent working *in* the repo — the map, run/verify commands, the two-repo git rule, the land flow, and the definition-of-done checklist. Start here to make a change; this `llms.txt` is for describing the project, AGENTS.md is for operating it.
+- [AGENTS.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/AGENTS.md): the operating manual for an agent working *in* the repo — remote visibility (push a branch before editing, push after every step, read open branches and PRs), the map, run/verify commands, the two-repo git rule, the land flow, and the definition-of-done checklist. Start here to make a change; this `llms.txt` is for describing the project, AGENTS.md is for operating it.
 - [PUBLISHING.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/PUBLISHING.md): publish an essay or study — fork, PR into `contrib`, reproducibility-first signed review, merge.
 - [MAINTAINERS.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/MAINTAINERS.md): the review board (reviewers/editors) and how to apply, via the `maintainer-applications` branch.
 - [CONTRIBUTING.md](https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab/blob/main/CONTRIBUTING.md): code, probe, and house-style conventions, and how to register a number for the CI reproduce gate.

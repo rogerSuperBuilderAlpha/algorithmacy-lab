@@ -181,9 +181,11 @@ empirical line could start on today are in
    and the [research protocol](org_frontier/protocol/RESEARCH_PROTOCOL.md).
 3. Place your question with `python tools/build_catalog.py --find "<keywords>"`, or take a row from
    [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
-4. Scaffold it with `python -m org_frontier.protocol.new_question`, commit your hypotheses *before*
-   computing, register your numbers for CI, and open a pull request into `contrib` per
-   [`PUBLISHING.md`](PUBLISHING.md).
+4. Before the scaffold, push a working branch off `contrib` and read the other open branches and pull
+   requests (**Remote visibility** in [`AGENTS.md`](AGENTS.md)). Scaffold with
+   `python -m org_frontier.protocol.new_question`, commit your hypotheses *before* computing, `git push`
+   after that commit and after every later step, register your numbers for CI, and keep the pull
+   request into `contrib` current per [`PUBLISHING.md`](PUBLISHING.md).
 
 ## The pitch, in one paragraph
 

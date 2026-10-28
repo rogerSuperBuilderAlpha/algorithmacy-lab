@@ -100,8 +100,14 @@ hypotheses are reported as refuted; the prose passes the de-slop checks below; e
 - **Citation integrity.** Every in-text citation resolves to a real source in `references.bib`; author
   names, years, and venues verified; no citation enters on model output alone.
 - **Reproducibility.** The paper's methods plus the committed `probe_*.py` reproduce every figure from the
-  venv, and every reported number is registered in `ci/reproduce.json`. Commit each stage on a branch off
-  `contrib` and land it by pull request (`AGENTS.md`); leave `dissertation/` untouched.
+  venv, and every reported number is registered in `ci/reproduce.json`. Leave `dissertation/` untouched.
+- **Remote visibility.** Before Stage 1, `git fetch --all --prune`, read
+  `git branch -r --sort=-committerdate` and `gh pr list --state open`, create a branch off `contrib`,
+  and `git push -u origin <branch>`. Commit and `git push` each stage as it lands (hypotheses before
+  any computation, then methods, then results, then the paper). Re-read the open branches and pull
+  requests before Stage 5 and again before the pull request is updated. When another branch already
+  covers the question, join it or stop. The command block is **Remote visibility** in `AGENTS.md`.
+  `main` and `contrib` are protected.
 
 ## Running it
 

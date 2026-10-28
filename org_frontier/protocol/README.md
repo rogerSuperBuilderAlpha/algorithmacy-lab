@@ -19,6 +19,15 @@ run it and the work that validated it.
   `references.bib`. Key finding: the per-hypothesis method plan (Stage 4), not the bare pre-commitment
   (Stage 3), is what the evidence shows buys credibility (Brodeur 2024).
 
+## Remote visibility, before any stage
+
+The pipeline does not create the branch. The session does, before Stage 1 and before copying the
+template. `git fetch --all --prune`, read `git branch -r --sort=-committerdate` and
+`gh pr list --state open`, branch off `origin/contrib`, and `git push -u origin <branch>`. Commit and
+`git push` after each stage (hypotheses before any computation). Re-check the open branches and pull
+requests before the run and before the pull request is updated. The full rule is **Remote visibility**
+in the root [`../../AGENTS.md`](../../AGENTS.md). `main` and `contrib` are protected.
+
 ## Running a question automatically
 
 Invoke the Workflow tool with the script and the question as args:
