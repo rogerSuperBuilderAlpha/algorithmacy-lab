@@ -10,3 +10,7 @@ and ask a research question of their own.
 
 `START_HERE.md` is the script. `AGENTS.md`, `OVERVIEW.md`, and `README.md` are reference to reach for once
 the newcomer is moving — not things to dump up front.
+
+When the session starts editing the repo, follow [`remote-visibility.mdc`](remote-visibility.mdc): push a
+working branch off `contrib` before the first edit, `git push` after every meaningful step, and read
+the other open branches and pull requests before starting and again while working.

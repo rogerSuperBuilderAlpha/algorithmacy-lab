@@ -149,11 +149,14 @@ python -m org_frontier.protocol.new_question --slug your_slug \
 ```
 
 This creates `org_frontier/questions/q<NN>_<slug>/` from the template, with `probe_<slug>.py`, `results/`,
-and `literature/` ready. The one rule that makes the record credible: **commit `hypotheses.md` before
-computing the results** — the git history is the evidence the claims were fixed first
-(`python ci/precommit_audit.py origin/contrib..HEAD` checks the order on a branch). From here, hand them
-to [`GETTING_STARTED.md`](GETTING_STARTED.md) for the full path from scaffold → register numbers in
-`ci/reproduce.json` → pull request into `contrib`.
+and `literature/` ready. Before that scaffold exists, the working branch is already on the remote:
+`git fetch --all --prune`, read `git branch -r --sort=-committerdate` and `gh pr list --state open`,
+branch off `contrib`, and `git push -u origin <branch>`. The one rule that makes the record credible:
+**commit `hypotheses.md` before computing the results, and `git push` that commit and every later
+stage** — the git history is the evidence the claims were fixed first
+(`python ci/precommit_audit.py origin/contrib..HEAD` checks the order on a branch). Re-read the open
+branches and pull requests before a long run. From here, hand them to [`GETTING_STARTED.md`](GETTING_STARTED.md)
+for the full path from scaffold → register numbers in `ci/reproduce.json` → pull request into `contrib`.
 
 If they would rather stress an *existing* result than open a new question, the `compute` rows of
 [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md) are exactly that.
