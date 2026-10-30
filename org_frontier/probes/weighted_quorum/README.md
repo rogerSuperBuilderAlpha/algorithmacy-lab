@@ -9,7 +9,17 @@ changes no core's membership; the `*` marks in the noise table of `results/run.t
 
 **Author:** Jiaxin Lin (GitHub: jiaxinaspenlin-dotcom). AI-assisted; see [`WORKFLOW.md`](WORKFLOW.md).
 
+## Input-noise extension
+
+The [input-noise experiment](input_noise/FINDINGS.md) finds positive whole-system Φ for
+2-of-3 majority at 10% independent input errors (Φ=0.026981), while its selected major complex
+remains a dyad. The interior-zero claim fails; full-group major-complex membership is a separate
+claim. The extension includes pre-fixed hypotheses, per-state results, and a CI reproduction check.
+
 ## Files
+
+- [`O01_AUDIT.md`](O01_AUDIT.md) — separates the full-group claim from smaller-core claims,
+  reproduces counts from saved results, and proposes an unrun input-noise test.
 
 - [`hypotheses.md`](hypotheses.md) — question, H1–H6 with nulls and decision rules, control gate, scope.
   Committed alone in `a3716ad8` before any code existed.

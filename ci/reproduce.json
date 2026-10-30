@@ -7064,6 +7064,35 @@
       "slow": true,
       "what": "the irreducibility-pipeline prototype: 17 reference results (controls, four worked examples, logged AI runs, census, regimes, adversarial coding, proxies)",
       "source": "irreducibility-pipeline/README.md"
+    },
+    {
+      "name": "probe-quorum-input-noise",
+      "cmd": "python -m org_frontier.probes.probe_quorum_input_noise",
+      "expect": [
+        "C2 deterministic TPM identity: PASS",
+        "C3 independent-input endpoint: PASS",
+        "majority     eta=0.0 whole=0.000000 core_phi=0.000000",
+        "majority     eta=0.1 whole=0.026981 core_phi=0.107922",
+        "OR           eta=0.1 whole=1.854569 core_phi=1.854569",
+        "AND          eta=0.1 whole=1.854569 core_phi=1.854569",
+        "weighted-2   eta=0.1 whole=0.015905 core_phi=1.360017",
+        "weighted-5   eta=0.1 whole=0.015905 core_phi=1.360017",
+        "H1: SUPPORTED",
+        "H2: REFUTED",
+        "H3: REFUTED"
+      ],
+      "timeout": 180,
+      "source": "org_frontier/probes/weighted_quorum/input_noise/FINDINGS.md"
+    },
+    {
+      "name": "probe-quorum-input-noise-probabilities",
+      "cmd": "python -m unittest org_frontier.probes.weighted_quorum.input_noise.test_input_noise",
+      "expect": [
+        "Ran 3 tests",
+        "OK"
+      ],
+      "timeout": 60,
+      "source": "org_frontier/probes/weighted_quorum/input_noise/test_input_noise.py"
     }
   ]
 }
