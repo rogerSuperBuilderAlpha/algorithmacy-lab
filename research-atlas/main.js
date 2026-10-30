@@ -38,7 +38,8 @@ function summary(row) {
 }
 
 function setView(next) {
-  view = next in sections ? next : "overview";
+  const [section, id] = next.split(":");
+  view = section in sections ? section : "overview";
   selected = null;
   limit = 60;
   $("#overview").hidden = view !== "overview";
@@ -56,6 +57,12 @@ function setView(next) {
     $("#needs-filter").value = "all";
     $("#needs-wrap").hidden = view !== "open";
     renderList();
+    const target = catalog.find((row) => row.kind === view && row.id === id);
+    if (target) {
+      selected = target;
+      renderList();
+      renderDetail(target);
+    }
   }
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
