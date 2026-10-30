@@ -147,12 +147,20 @@ function renderDetail(row) {
   box.replaceChildren(el("p", "eyebrow", `${row.kind === "open" ? "OPEN THREAD" : row.kind.toUpperCase()} · ${row.id}`), el("h2", "", pageTitle(row)));
   detailField(box, "Question", row.question || row.hypothesis);
   detailField(box, "Reported finding", row.finding || row.result || row.verdict);
-  if (row.kind === "open") detailField(box, "What is needed", `${row.needs || "Unknown"} · ${row.status || "Unknown status"}`);
+  if (row.kind === "open") {
+    detailField(box, "What is needed", `${row.needs || "Unknown"} · ${row.status || "Unknown status"}`);
+    detailField(box, "Where the repo points", row.where);
+    detailField(box, "First command", row.first_command);
+  }
   if (row.artifacts) detailField(box, "Available files", Object.entries(row.artifacts).filter(([, exists]) => exists).map(([name]) => name).join(" · ") || "No listed artifacts");
   if (row.reproduce?.length) detailField(box, "Reproduce", row.reproduce.slice(0, 2).join("  /  "));
   if (row.kind !== "open") detailField(box, "Evidence label", row.runtime === "fast" ? "Registered reproduction command" : row.runtime === "slow" ? "Registered nightly check" : "No registered reproduction command in the catalog");
   const links = el("div", "detail-links");
   detailLink(links, row.kind === "open" ? "Open question list" : "Open source", sourceUrl(row));
+  if (row.kind === "open") {
+    const path = row.where?.match(/(?:org_frontier|foundations|submissions|tools|ci)\/[A-Za-z0-9_./-]+|(?:MAINTAINERS|PUBLISHING|CONTRIBUTING)\.md/)?.[0];
+    if (path) detailLink(links, "Open related work", `${REPO}/${path.endsWith(".md") || path.endsWith(".py") ? "blob" : "tree"}/main/${path.split("/").map(encodeURIComponent).join("/")}`);
+  }
   if (row.kind === "question" && row.artifacts?.paper) detailLink(links, "Read paper", sourceUrl(row, "paper.md"));
   if (row.kind === "study") detailLink(links, "Read findings", sourceUrl(row, "FINDINGS.md"));
   box.append(links);
