@@ -8,6 +8,11 @@ capacity to coordinate with a counterpart through such an arrangement. These cla
 This note records a source review and a proposed test. It reports no new computation or field evidence.
 Source line numbers below refer to the files reviewed on 2026-10-30.
 
+The accompanying [claim records](O03_CLAIMS.json) answer “What supports O03?” with source types,
+line locators, support and challenge relations, and separate statuses for each claim. The records pin
+the sources to commit `5ecb7aff`. Their overall status is open; they are ready as a bounded research
+answer, with the proposed studies still unrun.
+
 ## The strongest case for distinctness
 
 A person can navigate a system's rules and still misunderstand the person on the other side. The
@@ -189,3 +194,17 @@ therefore support measurement distinctness without settling the proposed perform
 The registered survey remains unchanged. The [pre-registration](../survey/cohort_algorithmacy/PRE_REGISTRATION.md),
 lines 3–5, requires a dated amendment for changes after registration; this note is a separate proposal.
 O03 stays open until evidence resolves the arrangement claim, with the capacity claim reported separately.
+
+## Reading-card corrections and collection status
+
+The corrected [Wing card](../../submissions/lima_pdw/literature/cards/wing2021.md), lines 10–22,
+retracts an older attribution repeated in the ODR hearing: the source does not supply a four-item list
+of guaranteed requirements containing contestability and informed consent. It discusses a values
+framework and uses informed participation. The card supports the fourth-party antecedent, with this
+correction carried into any answer that uses it.
+
+The [survey lifecycle note](../survey/AGENTS.md), lines 3–5, says pre-fieldwork with no data collected,
+while the [Zhou card](../../submissions/lima_pdw/literature/cards/zhou2025apjhr.md), line 22, says the
+rival items are already fielded. This audit leaves collection status unresolved. Neither statement
+supplies an empirical result for algorithmacy's distinctness. The claim records preserve the conflict
+instead of treating a planned test or a fielding assertion as a completed result.
