@@ -13,7 +13,7 @@ Status is one of `open`, `claimed`, `answered`. Needs is what the thread is wait
 
 | id | question | status | needs | where | first command |
 |---|---|---|---|---|---|
-| O01 | Does the extremes-only quorum law survive weighted or noisy quorums? | open | compute | `org_frontier/probes/weighted_quorum/`, study D in `org_frontier/STRUCTURAL_FINDINGS.md` | `python -m org_frontier.protocol.new_question --slug weighted_quorum_law` |
+| O01 | Does the extremes-only quorum law survive weighted or noisy quorums? | open | compute | `org_frontier/probes/weighted_quorum/input_noise/FINDINGS.md`: input noise refutes interior-zero Φ; full-major-complex extension remains open | `python -m org_frontier.probes.probe_quorum_input_noise` |
 | O02 | Does exact Shapley pivotality sharpen the membership law past the null-player corner at larger forms, with a coalition-formation account? | open | compute | `org_frontier/threads/shapley_membership/THREAD.md` | `python -m org_frontier.threads.shapley_membership.shapley_membership` |
 | O03 | Is there a coordination arrangement that is algorithmacy but not directive algorithmic management, or does none exist? | open | compute | `org_frontier/designs/O03_CONSTRUCT_BOUNDARY.md` (source review and proposed test); the committee review, `org_frontier/essays/committed_determination_committee_review.md` | `python tools/build_catalog.py --find "algorithmic management directive"` |
 | O04 | Does the two-condition membership account hold when a party has more than two states? | open | compute | `org_frontier/designs/WAVE10_PARKED_DESIGNS.md` #5; the multivalued overlay in `third_party/pyphi_iit4_mv/` now supplies the tooling | `python third_party/pyphi_iit4_mv/smoke_m2.py` |
