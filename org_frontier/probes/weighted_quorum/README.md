@@ -11,6 +11,9 @@ changes no core's membership; the `*` marks in the noise table of `results/run.t
 
 ## Files
 
+- [`O01_AUDIT.md`](O01_AUDIT.md) — separates the full-group claim from smaller-core claims,
+  reproduces counts from saved results, and proposes an unrun input-noise test.
+
 - [`hypotheses.md`](hypotheses.md) — question, H1–H6 with nulls and decision rules, control gate, scope.
   Committed alone in `a3716ad8` before any code existed.
 - [`probe_weighted_quorum.py`](probe_weighted_quorum.py) — enumeration, control gate, readings, scoring.
