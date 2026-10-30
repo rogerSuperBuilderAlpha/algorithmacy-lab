@@ -42,16 +42,21 @@ jobs:
           python org_frontier/research/build_research_index.py
           python org_frontier/research/build_cards_index.py
           python research-atlas/build_cards.py
-          python research-atlas/build_snapshot.py
 
-      - name: Commit if any generated surface changed
+      - name: Commit generated indexes before pinning their revision
         run: |
-          if git diff --quiet -- README.md MAP.md catalog.json org_frontier/research/INDEX.md org_frontier/research/*/literature/REFERENCES.md research-atlas/cards.json research-atlas/snapshot.json; then
-            echo "Directory, map, research index, and reference-card indexes already current."
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md MAP.md catalog.json org_frontier/research/INDEX.md org_frontier/research/*/literature/REFERENCES.md research-atlas/cards.json research-atlas/snapshot.json
-          git commit -m "docs: regenerate README directory, MAP, catalog, research index, and reference-card indexes [skip ci]"
+          git add README.md MAP.md catalog.json org_frontier/research/INDEX.md org_frontier/research/*/literature/REFERENCES.md research-atlas/cards.json
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: regenerate directory and research indexes [skip ci]"
+          fi
+
+      - name: Pin the committed indexes and source revision
+        run: |
+          python research-atlas/build_snapshot.py
+          git add research-atlas/snapshot.json
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: pin atlas snapshot [skip ci]"
+          fi
           git push origin HEAD:${{ github.head_ref }}
