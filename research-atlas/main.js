@@ -1,5 +1,5 @@
 const REPO = "https://github.com/rogerSuperBuilderAlpha/algorithmacy-lab";
-const BASE = `${REPO}/blob/main/`;
+let sourceRevision;
 
 const sections = {
   open: { title: "Open questions", eyebrow: "WHAT THE LAB STILL NEEDS", description: "Questions waiting for a test, real data, tooling, or review. Status comes from OPEN_QUESTIONS.md." },
@@ -27,9 +27,9 @@ const el = (tag, className, text) => {
 const words = (value) => String(value || "").replace(/_/g, " ");
 
 function sourceUrl(row, file) {
-  if (row.kind === "open") return `${BASE}OPEN_QUESTIONS.md`;
+  if (row.kind === "open") return `${REPO}/blob/${sourceRevision}/OPEN_QUESTIONS.md`;
   const path = row.path.split("/").map(encodeURIComponent).join("/");
-  return `${REPO}/${file || /\.(md|py)$/.test(row.path) ? "blob" : "tree"}/main/${path}${file ? `/${file}` : ""}`;
+  return `${REPO}/${file || /\.(md|py)$/.test(row.path) ? "blob" : "tree"}/${sourceRevision}/${path}${file ? `/${file}` : ""}`;
 }
 
 function pageTitle(row) {
@@ -199,7 +199,7 @@ function renderDetail(row) {
   if (view === "paper") detailLink(links, "Read paper", sourceUrl(row, "paper.md"));
   if (row.kind === "open") {
     const path = row.where?.match(/(?:org_frontier|foundations|submissions|tools|ci)\/[A-Za-z0-9_./-]+|(?:MAINTAINERS|PUBLISHING|CONTRIBUTING)\.md/)?.[0];
-    if (path) detailLink(links, "Open related work", `${REPO}/${path.endsWith(".md") || path.endsWith(".py") ? "blob" : "tree"}/main/${path.split("/").map(encodeURIComponent).join("/")}`);
+    if (path) detailLink(links, "Open related work", `${REPO}/${path.endsWith(".md") || path.endsWith(".py") ? "blob" : "tree"}/${sourceRevision}/${path.split("/").map(encodeURIComponent).join("/")}`);
   }
   if (view !== "paper" && row.kind === "question" && row.artifacts?.paper) detailLink(links, "Read paper", sourceUrl(row, "paper.md"));
   if (row.kind === "study") detailLink(links, "Read findings", sourceUrl(row, "FINDINGS.md"));
@@ -208,22 +208,43 @@ function renderDetail(row) {
 
 async function start() {
   try {
+    const snapshotResponse = await fetch("./snapshot.json", { cache: "no-store" });
+    if (!snapshotResponse.ok) throw new Error(`Snapshot HTTP ${snapshotResponse.status}`);
+    const snapshot = await snapshotResponse.json();
     const [response, cardsResponse] = await Promise.all([
       fetch("../catalog.json", { cache: "no-store" }),
       fetch("./cards.json", { cache: "no-store" }),
     ]);
     if (!response.ok || !cardsResponse.ok) throw new Error(`HTTP ${!response.ok ? response.status : cardsResponse.status}`);
-    const [data, cardData] = await Promise.all([response.json(), cardsResponse.json()]);
+    const [catalogBytes, cardBytes] = await Promise.all([response.arrayBuffer(), cardsResponse.arrayBuffer()]);
+    async function readIndex(bytes, path) {
+      const expected = snapshot.indexes?.[path];
+      if (!/^[0-9a-f]{40}$/.test(expected || "")) throw new Error(`Missing snapshot hash for ${path}`);
+      const prefix = new TextEncoder().encode(`blob ${bytes.byteLength}\0`);
+      const blob = new Uint8Array(prefix.length + bytes.byteLength);
+      blob.set(prefix);
+      blob.set(new Uint8Array(bytes), prefix.length);
+      const hash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-1", blob)), byte => byte.toString(16).padStart(2, "0")).join("");
+      if (hash !== expected) throw new Error(`Snapshot mismatch for ${path}`);
+      return JSON.parse(new TextDecoder().decode(bytes));
+    }
+    const [data, cardData] = await Promise.all([
+      readIndex(catalogBytes, "catalog.json"),
+      readIndex(cardBytes, "research-atlas/cards.json"),
+    ]);
     if (!Array.isArray(data.rows)) throw new Error("Catalog has no rows");
     if (!Array.isArray(cardData.rows)) throw new Error("Reading card index has no rows");
+    if (!/^[0-9a-f]{40}$/.test(snapshot.revision || "")) throw new Error("Missing snapshot revision");
+    sourceRevision = snapshot.revision;
+    $(".sidebar-bottom a").href = `${REPO}/blob/${sourceRevision}/OVERVIEW.md`;
     catalog = data.rows;
     references = cardData.rows;
     $("#source-status").textContent = `${catalog.length.toLocaleString()} lab entries · ${references.length.toLocaleString()} reading cards`;
     renderOverview();
     setView(location.hash.slice(1));
   } catch (error) {
-    $("#source-status").textContent = "Catalog unavailable";
-    $("#overview-grid").replaceChildren(el("div", "empty-state", `Could not load ../catalog.json (${error.message}). Serve the repository root with python3 -m http.server.`));
+    $("#source-status").textContent = "Atlas snapshot unavailable";
+    $("#overview-grid").replaceChildren(el("div", "empty-state", `Could not load atlas snapshot (${error.message}). Serve the repository root with python3 -m http.server.`));
   }
 }
 
