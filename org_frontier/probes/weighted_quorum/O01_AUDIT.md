@@ -1,5 +1,8 @@
 # O01: what survives, and the next test
 
+Update: the proposed test has now run; see [input-noise findings](input_noise/FINDINGS.md).
+The review below records the evidence available before that experiment.
+
 The saved weighted-quorum results support the full-group extremes-only claim within the tested
 models. They refute the stronger claim that a mixed weighted rule cannot retain a smaller core.
 This note records a source review and a count of existing CSV rows on 2026-10-30. No new exact-Φ

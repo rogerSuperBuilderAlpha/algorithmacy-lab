@@ -7,6 +7,7 @@ controls and scoring were fixed in hypotheses.md before the first computation.
 
 import argparse
 import json
+from importlib.metadata import version
 from pathlib import Path
 
 import numpy as np
@@ -103,7 +104,7 @@ def main():
     for name, supported in scores.items():
         print(f"{name}: {'SUPPORTED' if supported else 'REFUTED'}")
     if args.write:
-        result = dict(pyphi_version=pyphi.__version__, phi_eps=PHI_EPS,
+        result = dict(pyphi_version=version("pyphi"), phi_eps=PHI_EPS,
                       hypotheses={name: "SUPPORTED" if ok else "REFUTED" for name, ok in scores.items()},
                       rows=rows)
         Path(__file__).with_name("results.json").write_text(json.dumps(result, indent=2) + "\n")
