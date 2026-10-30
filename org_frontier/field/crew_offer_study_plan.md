@@ -29,9 +29,33 @@ Protect participant identities and job details in any public artifact. Obtain th
 
 ## Encoding plan
 
-The first candidate nodes are producer (P), system (S), and crew member (C). A node is active when it takes a decision-relevant action in the bounded offer. The exact binary states and next-state rules must come from field evidence; they are not specified here. In particular, a ranking shown to a producer is not a binding assignment if the producer can freely choose anyone.
+The first candidate nodes are producer (P), system (S), and crew member (C). A node is active when it takes a decision-relevant action in the bounded offer. Before fieldwork, the site-specific plan must define what 0 and 1 mean for each node, write all three next-state rules, and state what each bit leaves out. The rules must follow the observed offer path. In particular, a ranking shown to a producer is not a binding assignment if the producer can freely choose anyone.
 
-Two coders independently map the same evidence to: (a) who reads whose state, (b) who can commit or block the offer, (c) whether the specific crew member is replaceable at that step, and (d) at least one plausible alternative rule for every uncertain edge. Record agreement before reconciliation, the disputed evidence, and both verdicts if defensible encodings disagree. Run the field protocol's control forms before any candidate model. Report whole-system Φ and major-complex membership, then rerun the rules on which the verdict depends.
+The two starting examples are the repo's relay and active-manager forms in `mocks.py` (M2), relabeled P/S/C. They are examples to test against evidence, not models of Roster: relay `P' = S, S' = P, C' = S`; binding selection `P' = S, S' = P AND C, C' = S`. In the second example, C's state must be available to S *before* selection. If the actual path has no such input, that rule is false. If a producer can bypass S, the model must include that path. Record the prediction and any changes to these rules before computing a site-specific verdict.
+
+Two coders independently map the same evidence to: (a) who reads whose state, (b) who can commit or block the offer, (c) whether the specific crew member is replaceable at that step, and (d) at least one plausible alternative rule for every uncertain edge. Code each directed P/S/C dependency as present or absent from the same evidence packet. Report raw agreement and Cohen's kappa on those edge decisions before reconciliation. The target is kappa >= 0.80. With only six possible directed edges per path, also report the counts and the full disagreement table; do not treat a high score from a few edges as strong evidence. If all decisions fall in one category and kappa is undefined, report that fact and require full raw agreement. If the target is missed, revise the coding guide and repeat independent coding on a fresh packet. Preserve the first pass. Report both verdicts whenever the coders' defensible rules differ on a verdict-changing edge, even if they later agree on one reading.
+
+Run the field protocol's decoupled and fully coupled controls before each candidate model. Record their verdicts and stop if either fails. Report whole-system Φ and major-complex membership, then rerun the rules on which the verdict depends.
+
+## Short interview guide and scoring
+
+Ask the producer and crew member separately about the same de-identified offer. Do not show either person's account to the other.
+
+1. What did you see before the offer, and what did you do next?
+2. Who or what decided which crew member appeared or received the offer? What makes you think so?
+3. Could you choose a different person, decline, correct an input, or bypass the system? Have you tried?
+4. If you disagreed with this result, who could change it, by what step, and before what deadline?
+5. What part of the decision can you not explain from what you saw?
+
+Score each explanation against the documented rule and event path, not against a researcher's view of whether the outcome was fair. **Correct** names the decisive input and actor, with no material error. **Partly correct** names at least one decisive input or actor but misses another or misstates a minor step. **Unsupported** names no decisive input or actor, or asserts a decision path contradicted by the record. Mark **not assessable** if the record cannot establish the path; do not count it as a wrong answer. Keep the person's words and the evidence used to score them in a private audit record.
+
+An override is **available** if a person can access a documented or observed path to request a different outcome. It is **effective** only if a completed action can change this offer before the decision is final, with a trace showing the changed outcome. A request queue, explanation screen, or later appeal alone is not an effective override for this offer. Record both attempted and completed overrides, including failures.
+
+## Permissions and public data
+
+Before recruitment or access to private logs, identify the site owner who may authorize access, obtain written site permission, and follow the responsible institution's human-subjects review process. Record the approval or exemption decision and consent process in the private study record. Do not infer that site access replaces each person's consent.
+
+Keep raw logs, names, contact details, pay, dates, production details, and interview audio outside the public repo with access limited to the study team. Remove direct identifiers and generalize combinations of details that could identify a crew member or job *before* committing any example. Publish only the minimum event fields and rule evidence needed to check the model, subject to the approved consent and data plan. If those fields cannot be released safely, report the limit and do not publish row-level records.
 
 ## Predictions to fix before fieldwork
 
