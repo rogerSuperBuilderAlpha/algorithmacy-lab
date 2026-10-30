@@ -7067,7 +7067,7 @@
     },
     {
       "name": "probe-quorum-input-noise",
-      "cmd": "python -m org_frontier.probes.weighted_quorum.input_noise.probe_input_noise",
+      "cmd": "python -m org_frontier.probes.probe_quorum_input_noise",
       "expect": [
         "C2 deterministic TPM identity: PASS",
         "C3 independent-input endpoint: PASS",

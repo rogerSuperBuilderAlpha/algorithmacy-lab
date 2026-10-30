@@ -74,7 +74,7 @@ The CI command prints results without writing artifacts. To regenerate the commi
 profiles, run:
 
 ```sh
-python -m org_frontier.probes.weighted_quorum.input_noise.probe_input_noise --write
+python -m org_frontier.probes.probe_quorum_input_noise --write
 ```
 
 [results.json](results.json) contains the rates, rules, per-state whole-system Φ and returned
@@ -92,6 +92,10 @@ claimed.
 Verification: all three regression tests passed; the `probe-quorum-input-noise` reproduction
 check passed (22.1 seconds). All four generated-index checks passed. No full-manifest run was
 attempted; the extension changes no shared instrument code.
+
+The standard probe entry point is `org_frontier/probes/probe_quorum_input_noise.py`; it
+delegates to the original implementation. The original nested module command also still works.
+This package is a probe submission, not a completed six-stage question or paper.
 
 ## Limits and next question
 

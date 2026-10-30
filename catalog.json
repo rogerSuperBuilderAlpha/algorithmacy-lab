@@ -8957,9 +8957,11 @@
    "hypothesis": "OR/AND retain full core; majority stays at zero whole Φ; weighted smaller cores persist with whole Φ=0",
    "verdict": "H1 supported; H2 and H3 refuted",
    "result": "At 10% independent input errors, majority has whole Φ=0.026981 in all four reachable states, selected dyad φ=0.107922. Weighted (1,1,2,2), quotas 2/5, have whole Φ=0.015905 while retaining {S,P3,P4} at φ=1.360017. OR/AND retain full core at Φ=1.854569. At 50% errors all five factor. Interior-zero law fails under input noise; full selected major-complex claim remains distinct",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/probes/probe_quorum_input_noise.py",
+   "reproduce": [
+    "python -m org_frontier.probes.probe_quorum_input_noise"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "study",
@@ -10453,7 +10455,7 @@
    "status": "open",
    "needs": "compute",
    "where": "org_frontier/probes/weighted_quorum/input_noise/FINDINGS.md: input noise refutes interior-zero Φ; full-major-complex extension remains open",
-   "first_command": "python -m org_frontier.probes.weighted_quorum.input_noise.probe_input_noise",
+   "first_command": "python -m org_frontier.probes.probe_quorum_input_noise",
    "path": "OPEN_QUESTIONS.md"
   },
   {
