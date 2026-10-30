@@ -25,6 +25,8 @@
         <nav id="nav">
           <button type="button" data-view="overview" class="nav-item active"><span>◈</span> Overview</button>
           <button type="button" data-view="open" class="nav-item"><span>◇</span> Open questions <b id="open-nav-count"></b></button>
+          <button type="button" data-view="paper" class="nav-item"><span>▤</span> Lab papers</button>
+          <button type="button" data-view="reference" class="nav-item"><span>≡</span> Reading cards</button>
           <button type="button" data-view="question" class="nav-item"><span>□</span> Research questions</button>
           <button type="button" data-view="probe" class="nav-item"><span>⌁</span> Probes</button>
           <button type="button" data-view="study" class="nav-item"><span>▤</span> Studies</button>
@@ -59,7 +61,7 @@
 
         <section id="catalog-view" class="view" hidden>
           <div class="list-head"><div><p class="eyebrow" id="list-eyebrow">THE CATALOG</p><h1 id="list-title">Research questions</h1><p id="list-description" class="lede"></p></div><div class="list-count"><strong id="list-total">0</strong><span>entries</span></div></div>
-          <div class="toolbar"><label class="search-wrap"><span class="sr-only">Search entries</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search this collection"></label><label id="needs-wrap" class="filter-wrap" hidden><span class="sr-only">Filter by need</span><select id="needs-filter"><option value="all">All needs</option><option value="data">Needs data</option><option value="compute">Needs computation</option><option value="tooling">Needs tooling</option><option value="review">Needs review</option></select></label><span id="shown-count" aria-live="polite"></span></div>
+          <div class="toolbar"><label class="search-wrap"><span class="sr-only">Search entries</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search this collection"></label><label id="needs-wrap" class="filter-wrap" hidden><span class="sr-only">Filter by need</span><select id="needs-filter"><option value="all">All needs</option><option value="data">Needs data</option><option value="compute">Needs computation</option><option value="tooling">Needs tooling</option><option value="review">Needs review</option></select></label><label id="program-wrap" class="filter-wrap" hidden><span class="sr-only">Filter by research program</span><select id="program-filter"><option value="all">All programs</option><option value="computational">Computational</option><option value="field">Field</option><option value="qualitative">Qualitative</option><option value="recurrence">Recurrence</option><option value="survey">Survey</option><option value="cognition">Cognition</option></select></label><span id="shown-count" aria-live="polite"></span></div>
           <div class="content-layout"><div id="card-list" class="card-list"></div><aside id="detail" class="detail" aria-live="polite"><div class="detail-placeholder"><span>↗</span><h2>Choose a card</h2><p>Open a question to see its finding, available files, and path into the repo.</p></div></aside></div>
         </section>
       </main>
