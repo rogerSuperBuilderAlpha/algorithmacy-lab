@@ -10461,7 +10461,7 @@
    "question": "Is there a coordination arrangement that is algorithmacy but not directive algorithmic management, or does none exist?",
    "status": "open",
    "needs": "compute",
-   "where": "the committee review, org_frontier/essays/committed_determination_committee_review.md",
+   "where": "org_frontier/designs/O03_CONSTRUCT_BOUNDARY.md (source review and proposed test); the committee review, org_frontier/essays/committed_determination_committee_review.md",
    "first_command": "python tools/build_catalog.py --find \"algorithmic management directive\"",
    "path": "OPEN_QUESTIONS.md"
   },
