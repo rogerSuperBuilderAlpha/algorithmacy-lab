@@ -1,0 +1,38 @@
+{
+ "controls": {
+  "decoupled": [
+   1.0,
+   "C"
+  ],
+  "cycle": [
+   2.0,
+   "CMW"
+  ],
+  "pass_": true
+ },
+ "v11": {
+  "true": [
+   2.0,
+   "CMW"
+  ],
+  "recovery": 1.0,
+  "pass_": true,
+  "cores": {
+   "CMW": 100
+  }
+ },
+ "v9": {
+  "true": [
+   2.0,
+   "CMW"
+  ],
+  "recovery": 0.82,
+  "pass_": true,
+  "cores": {
+   "CMW": 82,
+   "CM": 9,
+   "MW": 8,
+   "K": 1
+  }
+ }
+}
