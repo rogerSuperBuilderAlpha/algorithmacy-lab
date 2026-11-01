@@ -3681,9 +3681,9 @@
       "cmd": "python -m org_frontier.field.crew_offer_model_demo",
       "expect": [
         "relay: controls passed",
-        "relay: dyadic",
+        "relay: dyadic; whole-system Φ=0.000; major complex=P,S (Φ=2.000)",
         "binding: controls passed",
-        "binding: triadic",
+        "binding: triadic; whole-system Φ=2.000; major complex=P,S,C (Φ=2.000)",
         "Toy method check passed; no field verdict."
       ],
       "timeout": 180,
