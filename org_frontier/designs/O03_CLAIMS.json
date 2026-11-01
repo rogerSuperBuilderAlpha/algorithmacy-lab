@@ -1,0 +1,328 @@
+{
+  "question_id": "O03",
+  "question": "What supports O03?",
+  "question_source": {
+    "path": "OPEN_QUESTIONS.md",
+    "lines": [
+      18,
+      18
+    ],
+    "source_type": "question_registry",
+    "relation": "defines_question",
+    "anchor": "| O03 |"
+  },
+  "source_snapshot_commit": "5ecb7aff54e2b230e4e1e6d86b943c468203c42b",
+  "answer": "O03 remains open. The battery demonstrates overlap on stipulated models. Reading cards motivate a counterpart-focused competence hypothesis and supply precedents, but no verified separating arrangement or demonstrated added competence is established by this evidence.",
+  "overall_status": "open",
+  "readiness": "ready_as_bounded_research_answer",
+  "audit_scope": "Repository sources and reading cards only; original outside publications were not re-read. Stored computation output was inspected, not reproduced. No human data or expensive computation was analyzed.",
+  "claims": [
+    {
+      "id": "O03-C1",
+      "claim": "The discriminant battery demonstrates overlap with directive algorithmic management on the stipulated models, not separation.",
+      "epistemic_status": "recorded_model_result",
+      "overall_status": "supported_within_models",
+      "sources": [
+        {
+          "path": "org_frontier/studies/discriminant_boundaries/discriminant.py",
+          "lines": [
+            60,
+            65
+          ],
+          "source_type": "lab_model",
+          "relation": "supports",
+          "anchor": "x[0] & x[2]"
+        },
+        {
+          "path": "org_frontier/studies/discriminant_boundaries/discriminant.py",
+          "lines": [
+            81,
+            87
+          ],
+          "source_type": "lab_model",
+          "relation": "supports",
+          "anchor": "x[0] & x[2]"
+        },
+        {
+          "path": "org_frontier/studies/discriminant_boundaries/results/run.txt",
+          "lines": [
+            6,
+            18
+          ],
+          "source_type": "stored_computational_output",
+          "relation": "supports",
+          "anchor": "predictions matched: 5/6"
+        },
+        {
+          "path": "org_frontier/essays/committed_determination_synthesis.md",
+          "lines": [
+            147,
+            158
+          ],
+          "source_type": "lab_synthesis",
+          "relation": "supports",
+          "anchor": "No case has been found"
+        },
+        {
+          "path": "org_frontier/studies/discriminant_boundaries/FINDINGS.md",
+          "lines": [
+            23,
+            35
+          ],
+          "source_type": "lab_interpretation",
+          "relation": "qualifies",
+          "anchor": "HMC is therefore distinct"
+        },
+        {
+          "path": "submissions/lima_pdw/literature/cards/kellogg2020.md",
+          "lines": [
+            3,
+            20
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "context",
+          "anchor": "A review rather than a study",
+          "reported_read_depth": "full_text",
+          "underlying_source_type": "literature_review",
+          "doi": "10.5465/annals.2018.0174"
+        }
+      ],
+      "limitations": [
+        "Directive management and committing-channel sensitivity use identical update rules; these are not independent confirmations.",
+        "The stored output labels a two-node HMC form TRIADIC. The findings exclude it by party count; a positive verdict alone does not establish the social construct.",
+        "The models do not establish universal equivalence or represent measured organizations."
+      ],
+      "remains_untested": [
+        "An independently defined arrangement that qualifies as algorithmacy while excluding directive algorithmic management."
+      ]
+    },
+    {
+      "id": "O03-C2",
+      "claim": "Counterpart-focused competence is a plausible extension beyond system navigation, but added explanatory value has not been demonstrated here.",
+      "epistemic_status": "theoretical_hypothesis_with_indirect_empirical_motivation",
+      "overall_status": "plausible_untested",
+      "sources": [
+        {
+          "path": "submissions/lima_pdw/literature/cards/rahman2021.md",
+          "lines": [
+            10,
+            22
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "motivates",
+          "anchor": "platform dependence",
+          "reported_read_depth": "full_text",
+          "underlying_source_type": "qualitative_field_study",
+          "doi": "10.1177/00018392211010118"
+        },
+        {
+          "path": "submissions/lima_pdw/literature/cards/zhou2025apjhr.md",
+          "lines": [
+            10,
+            20
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "supports_and_challenges",
+          "anchor": "customer-oriented service behaviour",
+          "reported_read_depth": "full_text",
+          "underlying_source_type": "scale_development_study",
+          "doi": "10.1111/1744-7941.70004"
+        },
+        {
+          "path": "org_frontier/cognition/survey_bridge.md",
+          "lines": [
+            10,
+            26
+          ],
+          "source_type": "lab_theoretical_bridge",
+          "relation": "predicts",
+          "anchor": "does not make the survey"
+        },
+        {
+          "path": "org_frontier/cognition/five_theories.py",
+          "lines": [
+            38,
+            44
+          ],
+          "source_type": "lab_model",
+          "relation": "qualifies",
+          "anchor": "x[0] & x[2]"
+        }
+      ],
+      "limitations": [
+        "Rahman documents reactivity, not measured algorithmacy; dependence and prior setbacks are rival explanations.",
+        "Zhou includes strategic use and repair and predicts customer-oriented behavior; describing it as mere technical knowledge is contradicted by the card.",
+        "The claim that the rival scale omits counterpart coordination is the repository card author's interpretation, not a finding that Zhou tested algorithmacy and failed.",
+        "The cognition actor reuses the AND model; its structural result does not establish a separate human skill."
+      ],
+      "remains_untested": [
+        "Added prediction of counterpart understanding and useful action beyond combined communication and system-navigation skills.",
+        "Whether any advantage concentrates under opaque binding rather than reflecting general problem solving."
+      ]
+    },
+    {
+      "id": "O03-C3",
+      "claim": "Third parties that bind people have precedents beyond labor management, but the cited precedents and blind-review proposal are not a verified O03 counterexample.",
+      "epistemic_status": "conceptual_antecedents_and_candidate_case",
+      "overall_status": "candidate_unverified",
+      "sources": [
+        {
+          "path": "submissions/lima_pdw/literature/cards/katsh2001.md",
+          "lines": [
+            3,
+            28
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "supports_and_qualifies",
+          "anchor": "fourth party",
+          "reported_read_depth": "extended_preview",
+          "underlying_source_type": "conceptual_book",
+          "isbn": "9780787956769"
+        },
+        {
+          "path": "submissions/lima_pdw/literature/cards/starkvandenbroeck2024.md",
+          "lines": [
+            10,
+            18
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "challenges",
+          "anchor": "not located within the firm",
+          "reported_read_depth": "full_text",
+          "underlying_source_type": "conceptual_article",
+          "doi": "10.1177/26317877241257213"
+        },
+        {
+          "path": "submissions/algorithmacy_ot/manuscript/REVISION_2026-10-09.md",
+          "lines": [
+            61,
+            67
+          ],
+          "source_type": "construct_draft",
+          "relation": "proposes",
+          "anchor": "A blind review"
+        },
+        {
+          "path": "submissions/algorithmacy_ot/manuscript/REVISION_2026-10-09.md",
+          "lines": [
+            115,
+            123
+          ],
+          "source_type": "construct_draft",
+          "relation": "qualifies",
+          "anchor": "lopsided triads"
+        },
+        {
+          "path": "submissions/algorithmacy_ot/manuscript/REVISION_2026-10-09.md",
+          "lines": [
+            143,
+            147
+          ],
+          "source_type": "construct_draft",
+          "relation": "qualifies",
+          "anchor": "whether the lopsided triad"
+        },
+        {
+          "path": "submissions/lima_pdw/literature/cards/wing2021.md",
+          "lines": [
+            10,
+            22
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "corrects",
+          "anchor": "Contestability",
+          "reported_read_depth": "full_text",
+          "underlying_source_type": "normative_design_article",
+          "doi": "10.1111/nejo.12350"
+        }
+      ],
+      "limitations": [
+        "Being outside employment does not exclude algorithmic management: Stark and Vanden Broeck expressly discuss activity outside the firm.",
+        "The construct draft requires both parties to be bound while also admitting one-sided cases; the draft leaves the boundary unresolved.",
+        "Blind review is an expectation in a draft, not a documented case satisfying the full definition.",
+        "The corrected Wing card retracts the older four-item requirements paraphrase containing contestability and informed consent. Use the corrected card over the older ODR hearing; do not infer guaranteed safeguards from normative values."
+      ],
+      "remains_untested": [
+        "Independent coding of a candidate against definitions fixed before case selection, including a distinct counterpart and the required binding consequences."
+      ]
+    },
+    {
+      "id": "O03-C4",
+      "claim": "The survey plan and separate design note specify routes to testing distinctness; they are not empirical evidence that distinctness holds.",
+      "epistemic_status": "registered_analysis_plan_and_unrun_proposal",
+      "overall_status": "planned_not_demonstrated",
+      "sources": [
+        {
+          "path": "org_frontier/survey/cohort_algorithmacy/analysis_plan.md",
+          "lines": [
+            6,
+            12
+          ],
+          "source_type": "analysis_plan",
+          "relation": "qualifies",
+          "anchor": "small, self-selected"
+        },
+        {
+          "path": "org_frontier/survey/cohort_algorithmacy/analysis_plan.md",
+          "lines": [
+            57,
+            68
+          ],
+          "source_type": "analysis_plan",
+          "relation": "specifies_test",
+          "anchor": "published rival"
+        },
+        {
+          "path": "org_frontier/survey/cohort_algorithmacy/instruments/wave1_baseline.md",
+          "lines": [
+            11,
+            23
+          ],
+          "source_type": "survey_instrument",
+          "relation": "qualifies",
+          "anchor": "what will pass review"
+        },
+        {
+          "path": "org_frontier/survey/AGENTS.md",
+          "lines": [
+            3,
+            5
+          ],
+          "source_type": "study_lifecycle_note",
+          "relation": "reports_status",
+          "anchor": "no data collected yet"
+        },
+        {
+          "path": "submissions/lima_pdw/literature/cards/zhou2025apjhr.md",
+          "lines": [
+            20,
+            22
+          ],
+          "source_type": "repository_reading_card",
+          "relation": "conflicting_lifecycle_metadata",
+          "anchor": "already fielded"
+        },
+        {
+          "path": "org_frontier/designs/O03_CONSTRUCT_BOUNDARY.md",
+          "lines": [
+            148,
+            164
+          ],
+          "source_type": "design_proposal",
+          "relation": "specifies_test",
+          "anchor": "not a completed"
+        }
+      ],
+      "limitations": [
+        "The small-cohort rival comparison cannot settle arrangement distinctness or establish a behavioral advantage by itself.",
+        "Most baseline items concern rules, acceptance, and admissible inputs; they do not directly score separating counterpart intention from system rule.",
+        "Lifecycle metadata conflict: the survey note says pre-fieldwork while the Zhou card says rival items are already fielded. Fielding or collection status is unresolved in this audit; no empirical outcome is supplied by either assertion.",
+        "The design note is a derivative proposal, not independent corroboration or a completed pre-registration."
+      ],
+      "remains_untested": [
+        "Reported empirical results from the planned rival comparison.",
+        "The proposed diagnostic task and training comparison, with acceptance, understanding, and useful action measured separately."
+      ]
+    }
+  ]
+}
