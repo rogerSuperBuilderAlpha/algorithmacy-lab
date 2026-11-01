@@ -3677,6 +3677,19 @@
       "source": "org_frontier/studies/coordination_logic_atlas/FINDINGS.md"
     },
     {
+      "name": "crew-offer-model-demo",
+      "cmd": "python -m org_frontier.field.crew_offer_model_demo",
+      "expect": [
+        "relay: controls passed",
+        "relay: dyadic",
+        "binding: controls passed",
+        "binding: triadic",
+        "Toy method check passed; no field verdict."
+      ],
+      "timeout": 180,
+      "source": "org_frontier/field/crew_offer_study_plan.md"
+    },
+    {
       "name": "field-mocks",
       "cmd": "python -m org_frontier.field.run",
       "expect": [

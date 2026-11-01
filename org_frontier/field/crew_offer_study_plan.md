@@ -2,7 +2,7 @@
 
 ## Status and question
 
-This is a study plan, not a field result or a pre-registration. No Roster workflow, ranking feature, participant account, or decision log has been verified. The plan must be narrowed to an accessible site and committed as a pre-registration before evidence is collected or a model is computed.
+This is a study plan, not a field result or a site-specific pre-registration. No Roster workflow, ranking feature, participant account, or decision log has been verified. The plan must be narrowed to an accessible site, approved, and committed as a pre-registration before field evidence is collected or a site-specific model is computed. The toy models below only check the proposed method.
 
 For one crew offer on one production, does the software only carry an offer between a producer and a crew member, or does it determine which crew member can receive that offer? If it determines the offer, does that change what either person can explain or contest?
 
@@ -31,7 +31,14 @@ Protect participant identities and job details in any public artifact. Obtain th
 
 The first candidate nodes are producer (P), system (S), and crew member (C). A node is active when it takes a decision-relevant action in the bounded offer. Before fieldwork, the site-specific plan must define what 0 and 1 mean for each node, write all three next-state rules, and state what each bit leaves out. The rules must follow the observed offer path. In particular, a ranking shown to a producer is not a binding assignment if the producer can freely choose anyone.
 
-The two starting examples are the repo's relay and active-manager forms in `mocks.py` (M2), relabeled P/S/C. They are examples to test against evidence, not models of Roster: relay `P' = S, S' = P, C' = S`; binding selection `P' = S, S' = P AND C, C' = S`. In the second example, C's state must be available to S *before* selection. If the actual path has no such input, that rule is false. If a producer can bypass S, the model must include that path. Record the prediction and any changes to these rules before computing a site-specific verdict.
+The two starting examples are the repo's relay and active-manager forms in `mocks.py` (M2), relabeled P/S/C. They are examples to test against evidence, not models of Roster. In these examples P=1 means the producer acts on a presented result, S=1 means the system presents or commits an offer, and C=1 means the crew member is available and responds. Zero means that action is absent. These bits collapse offer timing, ranking, terms, partial availability, and the reason for a decline. The rules read the current bits and set the next bits:
+
+| Toy path | P' | S' | C' | Prediction before this run |
+| --- | --- | --- | --- | --- |
+| Relay | S | P | S | Dyadic: S copies P's action, and C is downstream |
+| Binding selection | S | P AND C | S | Triadic: S commits only if both P and C are active |
+
+`python -m org_frontier.field.crew_offer_model_demo` runs the two instrument controls before *each* toy path, then computes both verdicts and major complexes. These are the existing M2 rules with new labels, so the computation is a method check, not an independent result. In the second example, C's state must be available to S *before* selection. If the actual path has no such input, that rule is false. If a producer can bypass S, the model must include that path. Record the prediction, evidence for each bit and rule, and any changes before computing a site-specific verdict.
 
 Two coders independently map the same evidence to: (a) who reads whose state, (b) who can commit or block the offer, (c) whether the specific crew member is replaceable at that step, and (d) at least one plausible alternative rule for every uncertain edge. Code each directed P/S/C dependency as present or absent from the same evidence packet. Report raw agreement and Cohen's kappa on those edge decisions before reconciliation. The target is kappa >= 0.80. With only six possible directed edges per path, also report the counts and the full disagreement table; do not treat a high score from a few edges as strong evidence. If all decisions fall in one category and kappa is undefined, report that fact and require full raw agreement. If the target is missed, revise the coding guide and repeat independent coding on a fresh packet. Preserve the first pass. Report both verdicts whenever the coders' defensible rules differ on a verdict-changing edge, even if they later agree on one reading.
 
@@ -59,10 +66,10 @@ Keep raw logs, names, contact details, pay, dates, production details, and inter
 
 ## Predictions to fix before fieldwork
 
-The pre-registration will state a prediction only after the actual offer path is confirmed. The working propositions are:
+The site-specific pre-registration will state a prediction only after the actual offer path is confirmed. The working propositions are:
 
-- If software only carries a producer-selected offer, its model may factor as a relay. The exact verdict remains to be computed.
-- If software makes a binding selection using both parties' states, a triadic model is plausible. Substitution, human override, and alternative encodings may change that verdict.
+- If software only carries a producer-selected offer, the relay toy predicts a dyadic verdict. Field evidence may require different rules and a different verdict.
+- If software makes a binding selection using both parties' states, the binding toy predicts a triadic verdict. Substitution, human override, and alternative encodings may change that verdict.
 - A structural change alone makes no prediction that either person's understanding or control falls. Those outcomes are measured separately.
 
 Evidence that the producer can offer any eligible crew member directly would weaken a claim that software is necessary to this act. A result in which coders cannot agree on the rules, or plausible rules yield opposite verdicts, is reported as model uncertainty rather than resolved in favor of the preferred prediction.
