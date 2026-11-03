@@ -5226,11 +5226,11 @@
    "hypothesis": "The naive pooled < sequential < reciprocal ordering fails",
    "verdict": "confirmed",
    "result": "Matched triple at n=3 (AND family): pooled (independent relay) dyadic Φ=0.0; sequential (pass-through chain) triadic Φ=2.0; reciprocal (feedback cycle) triadic Φ=2.0. Sequential ties reciprocal, so the top step collapses. Control (chain #57) triadic Φ=2.0 {W,SC} passed. probe_thompson_ordering.py",
-   "path": "org_frontier/probes/probe_thompson_ordering.py",
+   "path": "org_frontier/questions/q43_thompson_interdependence/probe_thompson_ordering.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_thompson_ordering"
+    "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_ordering"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5239,9 +5239,9 @@
    "hypothesis": "Two pooled encodings split, on joint determination",
    "verdict": "confirmed",
    "result": "Independent-contribution pool dyadic (Φ=0, major complex {W,S}); all-required pool triadic (Φ=2.0 at n=3, 3.0 at n=4, surplus +1.0). Opposite verdicts at fixed n=3, same family. Joint determination is the switch. probe_thompson_pooled.py",
-   "path": "org_frontier/probes/probe_thompson_pooled.py",
+   "path": "org_frontier/questions/q43_thompson_interdependence/probe_thompson_pooled.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_thompson_pooled"
+    "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_pooled"
    ],
    "runtime": "unregistered"
   },
@@ -5252,11 +5252,11 @@
    "hypothesis": "A return edge decides chain vs hand-off",
    "verdict": "confirmed",
    "result": "Propagating chain triadic Φ=2.0 MIP {W,SC}; acyclic source→sink hand-off dyadic Φ=0. The return edge decides. Control passed. probe_thompson_sequential.py",
-   "path": "org_frontier/probes/probe_thompson_sequential.py",
+   "path": "org_frontier/questions/q43_thompson_interdependence/probe_thompson_sequential.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_thompson_sequential"
+    "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_sequential"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5265,9 +5265,9 @@
    "hypothesis": "Triadic only with a closed feedback cycle, not bidirectional labels",
    "verdict": "confirmed",
    "result": "Cyclic [x1, x0&x2, x1] triadic Φ=2.0 MIP {W,SC}, core {W,S,C}; bidirectional-acyclic [x1, x0&x2, x2] (C'=C self-loop) dyadic Φ=0. Both carry two-way arrows; only the closed loop binds. probe_thompson_reciprocal.py",
-   "path": "org_frontier/probes/probe_thompson_reciprocal.py",
+   "path": "org_frontier/questions/q43_thompson_interdependence/probe_thompson_reciprocal.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_thompson_reciprocal"
+    "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_reciprocal"
    ],
    "runtime": "unregistered"
   },
@@ -5278,9 +5278,9 @@
    "hypothesis": "Verdict is a function of {joint determination, feedback cycle}",
    "verdict": "refuted",
    "result": "Thompson type spans both verdicts, but four forms share the pair (True, True) — three with identical connectivity matrices — yet split: cyclic triadic Φ=2.0 vs bidirectional-acyclic dyadic Φ=0; the cycle predicate also fires on a dyadic pool. The verdict turns on closed cause-effect loops, finer than the pair. probe_thompson_primitives.py",
-   "path": "org_frontier/probes/probe_thompson_primitives.py",
+   "path": "org_frontier/questions/q43_thompson_interdependence/probe_thompson_primitives.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_thompson_primitives"
+    "python -m org_frontier.questions.q43_thompson_interdependence.probe_thompson_primitives"
    ],
    "runtime": "unregistered"
   },
@@ -5302,9 +5302,9 @@
    "hypothesis": "susceptibility dΦ/dp peaks at interior p",
    "verdict": "REFUTED",
    "result": "\\",
-   "path": "org_frontier/probes/probe_q6_susceptibility.py",
+   "path": "org_frontier/questions/q6_noise_phase_transition/probe_q6_susceptibility.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_q6_susceptibility"
+    "python -m org_frontier.questions.q6_noise_phase_transition.probe_q6_susceptibility"
    ],
    "runtime": "unregistered"
   },
@@ -5348,9 +5348,9 @@
    "hypothesis": "party (W) vs mediator (S) flip-noise Φ(p) sweeps, triadic conjunctive chain",
    "verdict": "CONFIRMED (g_max>1e-3)",
    "result": "g_max=0.9237 @ p=0.01; Φ_W(0.1)=0.7632 vs Φ_S(0.1)=1.1887 (g=−0.4255); self-ctrl=0.0; instrument p=0=2.0 triadic {W,SC}. probe_party_vs_mediator.py",
-   "path": "org_frontier/probes/probe_party_vs_mediator.py",
+   "path": "org_frontier/questions/q7_party_vs_mediator_noise/probe_party_vs_mediator.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_party_vs_mediator"
+    "python -m org_frontier.questions.q7_party_vs_mediator_noise.probe_party_vs_mediator"
    ],
    "runtime": "unregistered"
   },
@@ -5361,9 +5361,9 @@
    "hypothesis": "W-noise vs C-noise are the same curve",
    "verdict": "CONFIRMED",
    "result": "exact-overlay null on d(p)=Φ_W−Φ_C, +flip-point match, +H1-gap positive control: 0/51 points \\",
-   "path": "org_frontier/probes/probe_wc_symmetry.py",
+   "path": "org_frontier/questions/q7_party_vs_mediator_noise/probe_wc_symmetry.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_wc_symmetry"
+    "python -m org_frontier.questions.q7_party_vs_mediator_noise.probe_wc_symmetry"
    ],
    "runtime": "unregistered"
   },
@@ -5374,9 +5374,9 @@
    "hypothesis": "party-noise steeper slope & below across interior",
    "verdict": "REFUTED",
    "result": "m_W=102.44 > m_S=10.06 (party 10.2x steeper, slope half holds) but Φ_W>Φ_S at 17/49 interior p (first reversal p=0.33); ordering reverses → refuted. Instrument 2.0 triadic {W,SC}; H1 g_max=0.924; self-ctrl Δ=0. probe_slope_asymmetry.py / results/q7_slope_asymmetry.csv",
-   "path": "org_frontier/probes/probe_slope_asymmetry.py",
+   "path": "org_frontier/questions/q7_party_vs_mediator_noise/probe_slope_asymmetry.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_slope_asymmetry"
+    "python -m org_frontier.questions.q7_party_vs_mediator_noise.probe_slope_asymmetry"
    ],
    "runtime": "unregistered"
   },
@@ -5398,10 +5398,8 @@
    "hypothesis": "party verdict-collapse point vs the degenerate endpoint",
    "verdict": "REFUTED",
    "result": "both strict and effective collapse sit at the degenerate endpoint for both sites: p_v(W)=p_v(S)=0.5, p_eff(W)=p_eff(S)=0.5; W-noise stays triadic through p=0.49 (Φ_W=0.0146) and flips dyadic only at p=0.5. Party noise leaves the verdict on the endpoint where mediator noise also leaves it; the seat changes Φ (probe 145) but not the flip point. Instrument p=0=2.0 triadic {W,SC}",
-   "path": "org_frontier/probes/probe_verdict_flip.py",
-   "reproduce": [
-    "python -m org_frontier.probes.probe_verdict_flip"
-   ],
+   "path": "org_frontier/probes/PROBES.md",
+   "reproduce": [],
    "runtime": "unregistered"
   },
   {
@@ -5631,11 +5629,11 @@
    "hypothesis": "Bijective channel gates separate Phi=2.0 from monotone caps",
    "verdict": "confirmed",
    "result": "32/32 Phi=2.0 pairs bijective; 0 non-bijective at ceiling; 16 bijective below ceiling. probe_gate_bijectivity.py",
-   "path": "org_frontier/probes/probe_gate_bijectivity.py",
+   "path": "org_frontier/questions/q54_xor_parity_mechanism/probe_gate_bijectivity.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_gate_bijectivity"
+    "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_gate_bijectivity"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5644,11 +5642,11 @@
    "hypothesis": "Global TPM permutation accompanies Phi=2.0",
    "verdict": "refuted",
    "result": "24/24 Phi=2.0 pairs non-permutation TPM; 0/8 symmetric-AND permutation. probe_tpm_permutation.py",
-   "path": "org_frontier/probes/probe_tpm_permutation.py",
+   "path": "org_frontier/questions/q54_xor_parity_mechanism/probe_tpm_permutation.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_tpm_permutation"
+    "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_tpm_permutation"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5657,11 +5655,11 @@
    "hypothesis": "H(W,C\\",
    "verdict": "S) peaks at XOR Phi=2.0 pairs",
    "result": "confirmed",
-   "path": "org_frontier/probes/probe_seam_entropy.py",
+   "path": "org_frontier/questions/q54_xor_parity_mechanism/probe_seam_entropy.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_seam_entropy"
+    "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_seam_entropy"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5670,11 +5668,11 @@
    "hypothesis": "One-sided Phi=2.0 requires commit-topology match",
    "verdict": "confirmed",
    "result": "0 misalignments; worker_xor 4/8 (C-centric); counterpart_xor 4/8 (W-centric); symmetric_xor 8/8. probe_commit_alignment.py",
-   "path": "org_frontier/probes/probe_commit_alignment.py",
+   "path": "org_frontier/questions/q54_xor_parity_mechanism/probe_commit_alignment.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_commit_alignment"
+    "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_commit_alignment"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5683,11 +5681,11 @@
    "hypothesis": "Only parity-class gates restore Phi=2.0",
    "verdict": "confirmed",
    "result": "0/64 monotone at ceiling; symmetric_xnor 8/8 at Phi=2.0. probe_parity_necessity.py",
-   "path": "org_frontier/probes/probe_parity_necessity.py",
+   "path": "org_frontier/questions/q54_xor_parity_mechanism/probe_parity_necessity.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_parity_necessity"
+    "python -m org_frontier.questions.q54_xor_parity_mechanism.probe_parity_necessity"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5696,11 +5694,11 @@
    "hypothesis": "Below-ceiling bijective pairs are misaligned one-sided only",
    "verdict": "confirmed",
    "result": "16/16 below misaligned one-sided; 0 below symmetric; 0 below aligned; 32 ceiling (16 one-sided + 16 symmetric). probe_misaligned_partition.py",
-   "path": "org_frontier/probes/probe_misaligned_partition.py",
+   "path": "org_frontier/questions/q55_bijective_discriminator/probe_misaligned_partition.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_misaligned_partition"
+    "python -m org_frontier.questions.q55_bijective_discriminator.probe_misaligned_partition"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5709,11 +5707,11 @@
    "hypothesis": "Below half at 0.415037; ceiling at 2.0",
    "verdict": "confirmed",
    "result": "16/16 below at 0.415037 (spread 0); 32/32 ceiling at 2.0 (spread 0). probe_mid_rung_uniform.py",
-   "path": "org_frontier/probes/probe_mid_rung_uniform.py",
+   "path": "org_frontier/questions/q55_bijective_discriminator/probe_mid_rung_uniform.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_mid_rung_uniform"
+    "python -m org_frontier.questions.q55_bijective_discriminator.probe_mid_rung_uniform"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5722,11 +5720,11 @@
    "hypothesis": "Mean H(W,C\\",
    "verdict": "S) lower on below half",
    "result": "confirmed",
-   "path": "org_frontier/probes/probe_seam_entropy_split.py",
+   "path": "org_frontier/questions/q55_bijective_discriminator/probe_seam_entropy_split.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_seam_entropy_split"
+    "python -m org_frontier.questions.q55_bijective_discriminator.probe_seam_entropy_split"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5735,11 +5733,11 @@
    "hypothesis": "Below half at MIP {S,WC} exclusively",
    "verdict": "confirmed",
    "result": "16/16 below at 2 parts: {S,WC}; 0/32 ceiling at that partition. probe_mip_singleton.py",
-   "path": "org_frontier/probes/probe_mip_singleton.py",
+   "path": "org_frontier/questions/q55_bijective_discriminator/probe_mip_singleton.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_mip_singleton"
+    "python -m org_frontier.questions.q55_bijective_discriminator.probe_mip_singleton"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5748,11 +5746,11 @@
    "hypothesis": "XNOR inverts one-sided alignment vs XOR",
    "verdict": "confirmed",
    "result": "0 XNOR ceiling misalignments; worker_xnor 4/4 W-centric; counterpart_xnor 4/4 C-centric; XOR aligned 8/8 at ceiling. probe_xnor_alignment_flip.py",
-   "path": "org_frontier/probes/probe_xnor_alignment_flip.py",
+   "path": "org_frontier/questions/q55_bijective_discriminator/probe_xnor_alignment_flip.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_xnor_alignment_flip"
+    "python -m org_frontier.questions.q55_bijective_discriminator.probe_xnor_alignment_flip"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5761,11 +5759,11 @@
    "hypothesis": "Symmetric ceiling has complete-only official tie set",
    "verdict": "confirmed",
    "result": "16/16 symmetric at 3 parts: {W,S,C} only; 0/16 with outer-party in ties. probe_complete_only_tie.py",
-   "path": "org_frontier/probes/probe_complete_only_tie.py",
+   "path": "org_frontier/questions/q56_symmetric_complete_mip/probe_complete_only_tie.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_complete_only_tie"
+    "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_complete_only_tie"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5774,11 +5772,11 @@
    "hypothesis": "One-sided ceiling ties one outer-party cut with complete",
    "verdict": "confirmed",
    "result": "16/16 one-sided with exactly one outer-party two-part plus complete in official ties. probe_one_sided_outer_tie.py",
-   "path": "org_frontier/probes/probe_one_sided_outer_tie.py",
+   "path": "org_frontier/questions/q56_symmetric_complete_mip/probe_one_sided_outer_tie.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_one_sided_outer_tie"
+    "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_one_sided_outer_tie"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5787,11 +5785,11 @@
    "hypothesis": "Directional W/C symmetry distinguishes topology classes",
    "verdict": "confirmed",
    "result": "16/16 symmetric directionally symmetric; 0/16 one-sided. probe_directional_symmetry.py",
-   "path": "org_frontier/probes/probe_directional_symmetry.py",
+   "path": "org_frontier/questions/q56_symmetric_complete_mip/probe_directional_symmetry.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_directional_symmetry"
+    "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_directional_symmetry"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5800,11 +5798,11 @@
    "hypothesis": "Both outer-party cuts at system Phi but excluded on symmetric",
    "verdict": "confirmed",
    "result": "16/16 symmetric with both {W,SC} and {WS,C} at system Phi; 0/16 outer-party in official ties. probe_dual_outer_excluded.py",
-   "path": "org_frontier/probes/probe_dual_outer_excluded.py",
+   "path": "org_frontier/questions/q56_symmetric_complete_mip/probe_dual_outer_excluded.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_dual_outer_excluded"
+    "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_dual_outer_excluded"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5813,11 +5811,11 @@
    "hypothesis": "Minimum normalized_phi predicts official tie set",
    "verdict": "confirmed",
    "result": "32/32 ceiling pairs match min-norm prediction; 0 mismatches. probe_min_norm_tiebreak.py",
-   "path": "org_frontier/probes/probe_min_norm_tiebreak.py",
+   "path": "org_frontier/questions/q56_symmetric_complete_mip/probe_min_norm_tiebreak.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_min_norm_tiebreak"
+    "python -m org_frontier.questions.q56_symmetric_complete_mip.probe_min_norm_tiebreak"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5826,11 +5824,11 @@
    "hypothesis": "Back-channel recipient determines tied singleton",
    "verdict": "confirmed",
    "result": "16/16 recipient matches tied cut; worker→{W,SC}, counterpart→{WS,C}. probe_recipient_seam_rule.py",
-   "path": "org_frontier/probes/probe_recipient_seam_rule.py",
+   "path": "org_frontier/questions/q57_channel_direction_mip/probe_recipient_seam_rule.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_recipient_seam_rule"
+    "python -m org_frontier.questions.q57_channel_direction_mip.probe_recipient_seam_rule"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5839,11 +5837,11 @@
    "hypothesis": "Dual at-system outer cuts with 0.5/1.0 norm split",
    "verdict": "confirmed",
    "result": "16/16 both outer at system Phi; tied norm 0.5, excluded 1.0. probe_dual_norm_split.py",
-   "path": "org_frontier/probes/probe_dual_norm_split.py",
+   "path": "org_frontier/questions/q57_channel_direction_mip/probe_dual_norm_split.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_dual_norm_split"
+    "python -m org_frontier.questions.q57_channel_direction_mip.probe_dual_norm_split"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5852,11 +5850,11 @@
    "hypothesis": "Excluded/tied normalized_phi ratio exactly 2.0",
    "verdict": "confirmed",
    "result": "16/16 at ratio 2.0; spread 0. probe_norm_ratio.py",
-   "path": "org_frontier/probes/probe_norm_ratio.py",
+   "path": "org_frontier/questions/q57_channel_direction_mip/probe_norm_ratio.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_norm_ratio"
+    "python -m org_frontier.questions.q57_channel_direction_mip.probe_norm_ratio"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5865,11 +5863,11 @@
    "hypothesis": "Complete min norm equals tied outer cut",
    "verdict": "confirmed",
    "result": "16/16 complete norm equals tied outer (0.5). probe_complete_norm_equal.py",
-   "path": "org_frontier/probes/probe_complete_norm_equal.py",
+   "path": "org_frontier/questions/q57_channel_direction_mip/probe_complete_norm_equal.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_complete_norm_equal"
+    "python -m org_frontier.questions.q57_channel_direction_mip.probe_complete_norm_equal"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5878,11 +5876,11 @@
    "hypothesis": "XOR/XNOR preserve recipient→singleton mapping",
    "verdict": "confirmed",
    "result": "8/8 worker at {W,SC}; 8/8 counterpart at {WS,C}. probe_gate_invariant_direction.py",
-   "path": "org_frontier/probes/probe_gate_invariant_direction.py",
+   "path": "org_frontier/questions/q57_channel_direction_mip/probe_gate_invariant_direction.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_gate_invariant_direction"
+    "python -m org_frontier.questions.q57_channel_direction_mip.probe_gate_invariant_direction"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5891,11 +5889,11 @@
    "hypothesis": "Recipient severs twice as many cut-matrix ones",
    "verdict": "confirmed",
    "result": "16/16 cut_ones ratio 2.0 (4 vs 2); spread 0. probe_severed_edge_ratio.py",
-   "path": "org_frontier/probes/probe_severed_edge_ratio.py",
+   "path": "org_frontier/questions/q58_normalization_cut_geometry/probe_severed_edge_ratio.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_severed_edge_ratio"
+    "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_severed_edge_ratio"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5904,11 +5902,11 @@
    "hypothesis": "Excluded/tied normalization_factor ratio 2.0",
    "verdict": "confirmed",
    "result": "16/16 ratio 2.0 (0.5 vs 0.25); spread 0. probe_norm_factor_ratio.py",
-   "path": "org_frontier/probes/probe_norm_factor_ratio.py",
+   "path": "org_frontier/questions/q58_normalization_cut_geometry/probe_norm_factor_ratio.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_norm_factor_ratio"
+    "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_norm_factor_ratio"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5917,11 +5915,11 @@
    "hypothesis": "Unnormalized phi identical on both outer cuts",
    "verdict": "confirmed",
    "result": "16/16 phi ratio 1.0 (both 2.0). probe_equal_phi_baseline.py",
-   "path": "org_frontier/probes/probe_equal_phi_baseline.py",
+   "path": "org_frontier/questions/q58_normalization_cut_geometry/probe_equal_phi_baseline.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_equal_phi_baseline"
+    "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_equal_phi_baseline"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5930,11 +5928,11 @@
    "hypothesis": "Complete shares recipient cut geometry",
    "verdict": "confirmed",
    "result": "16/16 cut_ones=4 and norm_factor=0.25 match. probe_complete_cut_match.py",
-   "path": "org_frontier/probes/probe_complete_cut_match.py",
+   "path": "org_frontier/questions/q58_normalization_cut_geometry/probe_complete_cut_match.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_complete_cut_match"
+    "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_complete_cut_match"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5943,11 +5941,11 @@
    "hypothesis": "norm_phi ratio equals cut_ones ratio",
    "verdict": "confirmed",
    "result": "16/16 identity holds (ratio 2.0). probe_inverse_cut_law.py",
-   "path": "org_frontier/probes/probe_inverse_cut_law.py",
+   "path": "org_frontier/questions/q58_normalization_cut_geometry/probe_inverse_cut_law.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_inverse_cut_law"
+    "python -m org_frontier.questions.q58_normalization_cut_geometry.probe_inverse_cut_law"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5956,11 +5954,11 @@
    "hypothesis": "Back-channel cross-edge severed in both outer cuts",
    "verdict": "confirmed",
    "result": "16/16 cross-edge in both tied and excluded sets; 0 exclusive. probe_cross_edge_shared.py",
-   "path": "org_frontier/probes/probe_cross_edge_shared.py",
+   "path": "org_frontier/questions/q59_directed_cut_edges/probe_cross_edge_shared.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_cross_edge_shared"
+    "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_edge_shared"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5969,11 +5967,11 @@
    "hypothesis": "Symmetric difference exactly four directed edges",
    "verdict": "confirmed",
    "result": "16/16 at",
-   "path": "org_frontier/probes/probe_symdiff_size.py",
+   "path": "org_frontier/questions/q59_directed_cut_edges/probe_symdiff_size.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_symdiff_size"
+    "python -m org_frontier.questions.q59_directed_cut_edges.probe_symdiff_size"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5982,11 +5980,11 @@
    "hypothesis": "Removing cross-edge equalizes severed counts",
    "verdict": "refuted",
    "result": "0/16 equal; adj 3 vs 1 on all pairs. probe_cross_subtract_equal.py",
-   "path": "org_frontier/probes/probe_cross_subtract_equal.py",
+   "path": "org_frontier/questions/q59_directed_cut_edges/probe_cross_subtract_equal.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_cross_subtract_equal"
+    "python -m org_frontier.questions.q59_directed_cut_edges.probe_cross_subtract_equal"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -5995,11 +5993,11 @@
    "hypothesis": "Two mediator edges in recipient-only difference",
    "verdict": "confirmed",
    "result": "16/16 mediator count 2; adj ratio 3.0, spread 0. probe_mediator_only_diff.py",
-   "path": "org_frontier/probes/probe_mediator_only_diff.py",
+   "path": "org_frontier/questions/q59_directed_cut_edges/probe_mediator_only_diff.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_mediator_only_diff"
+    "python -m org_frontier.questions.q59_directed_cut_edges.probe_mediator_only_diff"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6008,11 +6006,11 @@
    "hypothesis": "Worker/counterpart edge templates gate-invariant",
    "verdict": "confirmed",
    "result": "8/8 worker and 8/8 counterpart match fixed templates. probe_recipient_template.py",
-   "path": "org_frontier/probes/probe_recipient_template.py",
+   "path": "org_frontier/questions/q59_directed_cut_edges/probe_recipient_template.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_recipient_template"
+    "python -m org_frontier.questions.q59_directed_cut_edges.probe_recipient_template"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6021,11 +6019,11 @@
    "hypothesis": "Q43 return-path typing tracks back-channel recipient",
    "verdict": "confirmed",
    "result": "8/8 worker→sequential, 8/8 counterpart→reciprocal; 0 other. probe_return_path_tracks_recipient.py",
-   "path": "org_frontier/probes/probe_return_path_tracks_recipient.py",
+   "path": "org_frontier/questions/q60_thompson_backchannel/probe_return_path_tracks_recipient.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_return_path_tracks_recipient"
+    "python -m org_frontier.questions.q60_thompson_backchannel.probe_return_path_tracks_recipient"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6034,11 +6032,11 @@
    "hypothesis": "All ceiling pairs triadic at max_phi=2.0",
    "verdict": "confirmed",
    "result": "16/16 triadic; max_phi spread 0. probe_uniform_triadic_verdict.py",
-   "path": "org_frontier/probes/probe_uniform_triadic_verdict.py",
+   "path": "org_frontier/questions/q60_thompson_backchannel/probe_uniform_triadic_verdict.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_uniform_triadic_verdict"
+    "python -m org_frontier.questions.q60_thompson_backchannel.probe_uniform_triadic_verdict"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6047,11 +6045,11 @@
    "hypothesis": "Feedback-cycle predicate assigns all reciprocal",
    "verdict": "confirmed",
    "result": "16/16 cycle=True; 0 sequential by cycle. probe_cycle_collapse.py",
-   "path": "org_frontier/probes/probe_cycle_collapse.py",
+   "path": "org_frontier/questions/q60_thompson_backchannel/probe_cycle_collapse.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_cycle_collapse"
+    "python -m org_frontier.questions.q60_thompson_backchannel.probe_cycle_collapse"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6060,11 +6058,11 @@
    "hypothesis": "Return-path type aligns with Q59 edge template",
    "verdict": "confirmed",
    "result": "16/16 template match; 8/8 each subpanel. probe_type_tracks_template.py",
-   "path": "org_frontier/probes/probe_type_tracks_template.py",
+   "path": "org_frontier/questions/q60_thompson_backchannel/probe_type_tracks_template.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_type_tracks_template"
+    "python -m org_frontier.questions.q60_thompson_backchannel.probe_type_tracks_template"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6073,11 +6071,11 @@
    "hypothesis": "Sequential/reciprocal subpanels identical at verdict",
    "verdict": "confirmed",
    "result": "Both subpanels triadic mean 2.0 spread 0. probe_no_phi_discrimination.py",
-   "path": "org_frontier/probes/probe_no_phi_discrimination.py",
+   "path": "org_frontier/questions/q60_thompson_backchannel/probe_no_phi_discrimination.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_no_phi_discrimination"
+    "python -m org_frontier.questions.q60_thompson_backchannel.probe_no_phi_discrimination"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6086,11 +6084,11 @@
    "hypothesis": "Official singleton seam tracks return-path type",
    "verdict": "confirmed",
    "result": "W seam+sequential 8/8; C seam+reciprocal 8/8; matches 16/16. probe_seam_tracks_type.py",
-   "path": "org_frontier/probes/probe_seam_tracks_type.py",
+   "path": "org_frontier/questions/q61_seam_return_typing/probe_seam_tracks_type.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_seam_tracks_type"
+    "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_tracks_type"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6099,11 +6097,11 @@
    "hypothesis": "Seam and type induce identical 8+8 partition",
    "verdict": "confirmed",
    "result": "partition equality 16/16; both labels 8+8. probe_coextensive_partitions.py",
-   "path": "org_frontier/probes/probe_coextensive_partitions.py",
+   "path": "org_frontier/questions/q61_seam_return_typing/probe_coextensive_partitions.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_coextensive_partitions"
+    "python -m org_frontier.questions.q61_seam_return_typing.probe_coextensive_partitions"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6112,11 +6110,11 @@
    "hypothesis": "No within-type seam heterogeneity",
    "verdict": "confirmed",
    "result": "heterogeneity 0/16; seq+C seam 0/8; rec+W seam 0/8. probe_seam_not_finer.py",
-   "path": "org_frontier/probes/probe_seam_not_finer.py",
+   "path": "org_frontier/questions/q61_seam_return_typing/probe_seam_not_finer.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_seam_not_finer"
+    "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_finer"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6125,11 +6123,11 @@
    "hypothesis": "No within-seam type heterogeneity",
    "verdict": "confirmed",
    "result": "heterogeneity 0/16; W seam+rec 0/8; C seam+seq 0/8. probe_seam_not_coarser.py",
-   "path": "org_frontier/probes/probe_seam_not_coarser.py",
+   "path": "org_frontier/questions/q61_seam_return_typing/probe_seam_not_coarser.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_seam_not_coarser"
+    "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_not_coarser"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6138,11 +6136,11 @@
    "hypothesis": "Seam subpanels match type despite uniform max_phi",
    "verdict": "confirmed",
    "result": "spread 0.000000; W-seam=seq 8/8; C-seam=rec 8/8. probe_seam_recover_discrimination.py",
-   "path": "org_frontier/probes/probe_seam_recover_discrimination.py",
+   "path": "org_frontier/questions/q61_seam_return_typing/probe_seam_recover_discrimination.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_seam_recover_discrimination"
+    "python -m org_frontier.questions.q61_seam_return_typing.probe_seam_recover_discrimination"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6151,11 +6149,11 @@
    "hypothesis": "Excluded singleton is complement of tied",
    "verdict": "confirmed",
    "result": "complement matches 16/16; mismatches 0/16. probe_excluded_complement.py",
-   "path": "org_frontier/probes/probe_excluded_complement.py",
+   "path": "org_frontier/questions/q62_excluded_cut_signal/probe_excluded_complement.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_excluded_complement"
+    "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_complement"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6164,11 +6162,11 @@
    "hypothesis": "Excluded inversely tracks return-path type",
    "verdict": "confirmed",
    "result": "inverse 16/16; direct 0/16. probe_inverse_type_track.py",
-   "path": "org_frontier/probes/probe_inverse_type_track.py",
+   "path": "org_frontier/questions/q62_excluded_cut_signal/probe_inverse_type_track.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_inverse_type_track"
+    "python -m org_frontier.questions.q62_excluded_cut_signal.probe_inverse_type_track"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6177,11 +6175,11 @@
    "hypothesis": "Excluded unique within each tied class",
    "verdict": "confirmed",
    "result": "within-tied heterogeneity 0/16. probe_tied_determines_excluded.py",
-   "path": "org_frontier/probes/probe_tied_determines_excluded.py",
+   "path": "org_frontier/questions/q62_excluded_cut_signal/probe_tied_determines_excluded.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_tied_determines_excluded"
+    "python -m org_frontier.questions.q62_excluded_cut_signal.probe_tied_determines_excluded"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6190,11 +6188,11 @@
    "hypothesis": "Triple collapses to exactly two joint cells",
    "verdict": "confirmed",
    "result": "distinct joints 2; (W,seq,C) 8/8; (C,rec,W) 8/8. probe_no_third_joint.py",
-   "path": "org_frontier/probes/probe_no_third_joint.py",
+   "path": "org_frontier/questions/q62_excluded_cut_signal/probe_no_third_joint.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_no_third_joint"
+    "python -m org_frontier.questions.q62_excluded_cut_signal.probe_no_third_joint"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6203,11 +6201,11 @@
    "hypothesis": "Excluded norm 1.0 with no Phi subpanel lift",
    "verdict": "confirmed",
    "result": "norm 16/16; excluded-W/C spread 0. probe_excluded_norm_phi.py",
-   "path": "org_frontier/probes/probe_excluded_norm_phi.py",
+   "path": "org_frontier/questions/q62_excluded_cut_signal/probe_excluded_norm_phi.py",
    "reproduce": [
-    "python -m org_frontier.probes.probe_excluded_norm_phi"
+    "python -m org_frontier.questions.q62_excluded_cut_signal.probe_excluded_norm_phi"
    ],
-   "runtime": "unregistered"
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6216,9 +6214,11 @@
    "hypothesis": "Reading the recipient makes outreach triadic; broadcast is dyadic",
    "verdict": "confirmed",
    "result": "read_recipient triadic Φ=2.0; broadcast dyadic Φ=0. q63/probe_read_recipient.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q63_outreach_coordination/probe_read_recipient.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q63_outreach_coordination.probe_read_recipient"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6227,9 +6227,11 @@
    "hypothesis": "Interchangeable recipients collapse the triad",
    "verdict": "confirmed",
    "result": "all_required triadic Φ=3.0; substitutable (E∧(R1∨R2)) dyadic Φ=0. q63/probe_substitutable.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q63_outreach_coordination/probe_substitutable.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q63_outreach_coordination.probe_substitutable"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6238,9 +6240,11 @@
    "hypothesis": "Announcing the agent does not change the structure",
    "verdict": "confirmed",
    "result": "disclosed major complex {E,M,R} Φ=2.0, D excluded, = read-recipient triad. q63/probe_disclosure.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q63_outreach_coordination/probe_disclosure.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q63_outreach_coordination.probe_disclosure"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6249,9 +6253,11 @@
    "hypothesis": "Mediator in-degree does not recover the verdict",
    "verdict": "confirmed",
    "result": "substitutable (dyadic) reads 3 sources ≥ read_recipient (triadic) 2; proxy non-monotone. q63/probe_cost_proxy.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q63_outreach_coordination/probe_cost_proxy.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q63_outreach_coordination.probe_cost_proxy"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6260,9 +6266,11 @@
    "hypothesis": "A read-but-frozen recipient leaves outreach dyadic",
    "verdict": "confirmed",
    "result": "conversation (R live) triadic Φ=2.0; one_shot (R frozen) dyadic Φ=0. q63/probe_liveness.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q63_outreach_coordination/probe_liveness.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q63_outreach_coordination.probe_liveness"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6271,9 +6279,11 @@
    "hypothesis": "All-binding campaign stays triadic at Φ=n−1 as recipients grow",
    "verdict": "confirmed",
    "result": "k=1..4 (n=3..6) triadic, Φ=2,3,4,5 = n−1. Conjunctive-hub law in the outreach frame. q64/probe_all_required_scaling.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q64_outreach_breadth_scaling/probe_all_required_scaling.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_all_required_scaling"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6282,9 +6292,11 @@
    "hypothesis": "A substitutable campaign factors at every breadth",
    "verdict": "confirmed",
    "result": "k=2,3,4 dyadic Φ=0. q64/probe_substitutable_scaling.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q64_outreach_breadth_scaling/probe_substitutable_scaling.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_substitutable_scaling"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6293,9 +6305,11 @@
    "hypothesis": "A broadcast that ignores recipients factors at every breadth",
    "verdict": "confirmed",
    "result": "k=2,3,4 dyadic Φ=0. q64/probe_pooled_broadcast.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q64_outreach_breadth_scaling/probe_pooled_broadcast.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_pooled_broadcast"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6304,9 +6318,11 @@
    "hypothesis": "One swappable recipient collapses an otherwise all-binding campaign",
    "verdict": "confirmed",
    "result": "k=3 mixed E∧R1∧(R2∨R3) dyadic; all-required Φ=4.0 triadic. q64/probe_mixed_collapse.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q64_outreach_breadth_scaling/probe_mixed_collapse.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_mixed_collapse"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6315,9 +6331,11 @@
    "hypothesis": "Every recipient sits in the irreducible core",
    "verdict": "confirmed",
    "result": "all-required core {E,M,R1..Rk} full at k=2,3. q64/probe_core_membership.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q64_outreach_breadth_scaling/probe_core_membership.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q64_outreach_breadth_scaling.probe_core_membership"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6326,9 +6344,11 @@
    "hypothesis": "Agent chain stays triadic at Φ=2.0 constant across depth",
    "verdict": "confirmed",
    "result": "d=1..4 (n=3..6) triadic, Φ=2.0 at every depth (depth preserves, vs breadth n−1). q65/probe_chain_depth.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q65_agent_chain_outreach/probe_chain_depth.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q65_agent_chain_outreach.probe_chain_depth"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6337,9 +6357,11 @@
    "hypothesis": "An agent reading only upstream collapses the chain",
    "verdict": "confirmed",
    "result": "intact triadic Φ=2.0; relay-gap dyadic Φ=0. q65/probe_relay_gap.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q65_agent_chain_outreach/probe_relay_gap.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q65_agent_chain_outreach.probe_relay_gap"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6348,9 +6370,11 @@
    "hypothesis": "The chain core is the recipient end, not the whole chain",
    "verdict": "refuted",
    "result": "d=2 major complex {A2,R} Φ=2.0, not {E,A1,A2,R}; sender + upstream agent feed the core without joining it. q65/probe_chain_core.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q65_agent_chain_outreach/probe_chain_core.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q65_agent_chain_outreach.probe_chain_core"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6359,9 +6383,11 @@
    "hypothesis": "Depth does not undo breadth",
    "verdict": "confirmed",
    "result": "agent before all-binding 2-recipient commit triadic Φ=2.0. q65/probe_depth_breadth.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q65_agent_chain_outreach/probe_depth_breadth.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q65_agent_chain_outreach.probe_depth_breadth"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6370,9 +6396,11 @@
    "hypothesis": "Open-chain core is a size-2 end pair, symmetric not recipient-biased",
    "verdict": "H1 refuted, H2 confirmed",
    "result": "core size 2 at d=2,3,4; {A2,R},{A3,R} but {E,A1} at d=4 — revises Q65's recipient-facing reading to a tie-break. q66/probe_chain_core_depth.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q66_chain_core_boundary/probe_chain_core_depth.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q66_chain_core_boundary.probe_chain_core_depth"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6381,9 +6409,11 @@
    "hypothesis": "Closing the chain into a loop binds the whole structure",
    "verdict": "confirmed",
    "result": "conjunctive ring core = full set, Φ=4.0 vs open chain 2.0. q66/probe_ring_core.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q66_chain_core_boundary/probe_ring_core.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q66_chain_core_boundary.probe_ring_core"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6392,9 +6422,11 @@
    "hypothesis": "Partial reciprocity seeds a local core but full coupling binds the exchange",
    "verdict": "H2 refuted, H1/H3/H4 confirmed",
    "result": "L0 relay dyadic; L1 one end-loop whole-system dyadic Φ=0 (local {A2,R} complex Φ=2.0); core jumps 2→4 at closure; Φ monotone 0<2<4. q67/probe_reciprocity_gradient.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q67_reciprocity_gradient/probe_reciprocity_gradient.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q67_reciprocity_gradient.probe_reciprocity_gradient"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6403,9 +6435,11 @@
    "hypothesis": "A triage agent joins the core only when bidirectionally coupled, and displaces the sender",
    "verdict": "confirmed",
    "result": "monitoring-only & gating-only T out (core {E,M,R}); bidirectional T in, core {M,R,T} (sender displaced), all Φ=2.0. q68/probe_triage_gating.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q68_triage_gating/probe_triage_gating.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q68_triage_gating.probe_triage_gating"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6414,9 +6448,11 @@
    "hypothesis": "When both sides delegate, the irreducible core is the two agents",
    "verdict": "confirmed",
    "result": "live chain core {Ar,R} (human in core); delegated core {As,Ar} (both humans displaced) Φ=2.0; closed ring all four Φ=4.0. q69/probe_two_sided.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q69_two_sided_agents/probe_two_sided.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q69_two_sided_agents.probe_two_sided"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6425,9 +6461,11 @@
    "hypothesis": "Multi-homing across interchangeable agents collapses the coordination",
    "verdict": "confirmed",
    "result": "single agent triadic Φ=2.0; substitutable (M1∨M2) dyadic Φ=0; required-both (M1∧M2) triadic Φ=4.0, core {E,M1,M2,C}. q70/probe_agent_substitutability.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q70_agent_substitutability/probe_agent_substitutability.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q70_agent_substitutability.probe_agent_substitutability"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6436,9 +6474,11 @@
    "hypothesis": "The outreach verdict is robust to stochastic noise",
    "verdict": "confirmed",
    "result": "triad Φ degrades 2.0→1.53→1.16→0.61→0.28→0 as eps 0→0.5; broadcast stays 0 (no spurious triad). q71/probe_noise_robustness.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q71_noise_robustness/probe_noise_robustness.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q71_noise_robustness.probe_noise_robustness"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6447,9 +6487,11 @@
    "hypothesis": "No cheap structural proxy recovers the outreach verdict",
    "verdict": "confirmed",
    "result": "read_recipient(tri)+one_shot(dy) share in-degree 2 & 4 edges; substitutable(dy)+all_required(tri) share in-degree 3 & 6 edges; verdict needs exact Φ. q72/probe_cost_proxy_frontier.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q72_cost_proxy_frontier/probe_cost_proxy_frontier.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q72_cost_proxy_frontier.probe_cost_proxy_frontier"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6458,9 +6500,11 @@
    "hypothesis": "The five-pillar law of when agent-mediated outreach demands algorithmacy",
    "verdict": "confirmed",
    "result": "P1 joint determination, P2 liveness, P3 non-substitutability, P4 closure binds all (ring Φ=4.0), P5 structural-not-cheap — all hold. q73/probe_law_pillars.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q73_outreach_law/probe_law_pillars.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q73_outreach_law.probe_law_pillars"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6469,9 +6513,11 @@
    "hypothesis": "A connectivity check on excluded elements selects which verdict to report",
    "verdict": "confirmed",
    "result": "spectator/frozen forms whole-dyadic + core-triadic (excluded non-bidirectional); chain whole-triadic + localized core (excluded A1 bidirectional); excluded bidirectional iff whole-system triadic. q74/probe_verdict_vs_complex.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q74_verdict_vs_complex/probe_verdict_vs_complex.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q74_verdict_vs_complex.probe_verdict_vs_complex"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6480,9 +6526,11 @@
    "hypothesis": "The triadic core is stable under added non-participating parties",
    "verdict": "confirmed",
    "result": "core stays {E,M,R} Φ=2.0 with 1-3 uncoupled, a read-only, and an emit-only spectator. q75/probe_spectator_robustness.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q75_spectator_robustness/probe_spectator_robustness.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q75_spectator_robustness.probe_spectator_robustness"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6491,9 +6539,11 @@
    "hypothesis": "The triad emerges gradually with the agent's probability of reading the recipient",
    "verdict": "confirmed",
    "result": "Φ 0→0.11→0.28→0.54→2.0 as p 0→1; partial reading already gives Φ>0; graded, no threshold. q79/probe_stochastic_threshold.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q79_stochastic_threshold/probe_stochastic_threshold.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q79_stochastic_threshold.probe_stochastic_threshold"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6502,9 +6552,11 @@
    "hypothesis": "The dyadic/triadic verdict survives asynchronous update",
    "verdict": "confirmed",
    "result": "read_recipient & all_required stay triadic (Φ 2.0→0.25, 3.0→0.20); broadcast stays dyadic; verdict preserved, magnitude falls. q80/probe_async_update.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q80_async_update/probe_async_update.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q80_async_update.probe_async_update"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6513,9 +6565,11 @@
    "hypothesis": "A gating coalition keeps a size-3 core; only one of two required agents enters",
    "verdict": "H1 refuted, H2-H4 confirmed",
    "result": "both-required core {M,R,T2} (one agent absorbed, vs regulator coalition probe 111 where both enter); either-suffices keeps {E,M,R}; single agent enters. q83/probe_agent_coalition.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q83_agent_coalition/probe_agent_coalition.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q83_agent_coalition.probe_agent_coalition"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6524,9 +6578,11 @@
    "hypothesis": "Influence requires membership: a non-core agent cannot flip the verdict",
    "verdict": "confirmed",
    "result": "read-only & emit-only X leave core {E,M,R} triadic; only bidirectional-pivotal X joins (core {E,M,R,X} Φ=3.0). q84/probe_adversarial_agent.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q84_adversarial_agent/probe_adversarial_agent.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q84_adversarial_agent.probe_adversarial_agent"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6535,9 +6591,11 @@
    "hypothesis": "A market of interchangeable agents is a broadcast at every size",
    "verdict": "confirmed",
    "result": "substitutable dyadic at N=2,3,4; all-required triadic Φ=4,6,8 with full core; one substitutable pair collapses it. q85/probe_agent_market.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q85_agent_market/probe_agent_market.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q85_agent_market.probe_agent_market"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6557,9 +6615,11 @@
    "hypothesis": "The surrogate beats every single proxy; edge count is a strong but imperfect rank",
    "verdict": "H1 refuted, H2-H4 confirmed",
    "result": "surrogate CV AUC 1.000 > edges 0.966 > in-degree 0.707 > Φ_R 0.621 > Φ_WMS 0.547; surrogate OOF acc 1.000 on the constant-in-degree subset where structure cannot separate. q82/probe_surrogate_vs_proxy.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q82_surrogate_vs_proxy/probe_surrogate_vs_proxy.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q82_surrogate_vs_proxy.probe_surrogate_vs_proxy"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6568,9 +6628,11 @@
    "hypothesis": "The core-membership law generalizes past n=3 in kind, at moderate strength",
    "verdict": "H1,H3,H4 confirmed, H2 refuted",
    "result": "non-bidir in-core 0.000 at n=3,4,5 (coupling strictly necessary); P(core) rises with influence at every n; rank-AUC 0.71/0.62/0.73 (flat, below the 0.75 bar set from the strict-mediation 0.89); n=6 out of reach. q90/probe_membership_law_scaling.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q90_membership_law_scaling/probe_membership_law_scaling.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q90_membership_law_scaling.probe_membership_law_scaling"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -6579,9 +6641,11 @@
    "hypothesis": "Structural and dynamical robustness come apart through the mediator",
    "verdict": "H1,H4 confirmed, H2,H3 refuted",
    "result": "all 24 triadic forms collapse under one single-bit flip; robustness near-binary (0.125 vs 0.250); parity mediators structurally sturdier (0.250) but noise-fragile (Φ 0.38 vs 1.16), the two robustness notions anti-align. q93/probe_fragility_margin.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q93_fragility_margin/probe_fragility_margin.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q93_fragility_margin.probe_fragility_margin"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6590,9 +6654,11 @@
    "hypothesis": "Heterogeneous agent membership is a property of the joint determination, not the agent",
    "verdict": "H1,H4 confirmed, H2,H3 refuted",
    "result": "passive agent excluded, substitutability still collapses; a partial-reading required agent drops out in a 2-agent market (core localizes to {M1,C}) but binds in a 3-agent mixed market (full core) — composition decides membership. q89/probe_heterogeneous_market.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q89_heterogeneous_market/probe_heterogeneous_market.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q89_heterogeneous_market.probe_heterogeneous_market"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6601,9 +6667,11 @@
    "hypothesis": "The membership gate is hard-conjunctive at the corners, additive inside",
    "verdict": "H1,H2,H4 confirmed, H3 refuted",
    "result": "P(core)=0.000 at zero reading or zero influence (neither compensates), =1.000 at strong both; but the sum predicts membership as well as the minimum (AUC 0.783 vs 0.772), so the interior is compensatory, not a strict min-gate. q98/probe_pivotality_bidirectionality.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q98_pivotality_bidirectionality/probe_pivotality_bidirectionality.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q98_pivotality_bidirectionality.probe_pivotality_bidirectionality"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6612,9 +6680,11 @@
    "hypothesis": "Coordination holds multiple coexisting cores; coupling does not fuse them",
    "verdict": "H1,H3 confirmed, H2,H4 refuted",
    "result": "two uncoupled units = 2 complexes; one-way bridge keeps 2; mutual bridge collapses to one smaller core {C,D} (compete, not fuse); a self-looping spectator forms its own 3rd complex. q94/probe_multiple_complexes.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q94_multiple_complexes/probe_multiple_complexes.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q94_multiple_complexes.probe_multiple_complexes"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6623,9 +6693,11 @@
    "hypothesis": "Composing two triads fragments rather than unifies",
    "verdict": "H4 confirmed, H1,H2,H3 refuted",
    "result": "two triads sharing a node give whole-system dyadic, 2 complexes {E1,M1,S}@2 and {M2,R2}@2; Φ does not add (stays 2.0); the shared node binds only the upstream core. Composition keeps units modular. q95/probe_composition_of_triads.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q95_composition_of_triads/probe_composition_of_triads.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q95_composition_of_triads.probe_composition_of_triads"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6634,9 +6706,11 @@
    "hypothesis": "The triad degrades gracefully under a lossy read; collapses only at zero channel capacity",
    "verdict": "all confirmed",
    "result": "mediator reads R through a binary symmetric channel: Φ 2.0→0.76→0.54→0.34→0.16→0 as error 0→0.5; triadic through e=0.4, dyadic at e=0.5; input-side mirror of Q79's commit-side emergence. q91/probe_lossy_channel.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q91_lossy_channel/probe_lossy_channel.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q91_lossy_channel.probe_lossy_channel"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6645,9 +6719,11 @@
    "hypothesis": "A tracking memory substitutes for a live read and reorganizes the core",
    "verdict": "all confirmed",
    "result": "tracking memory (M'=E∧Mem, Mem'=R) stays triadic Φ=2, core shifts to {M,R,Mem} (worker displaced); frozen memory and self-memory are dyadic. Liveness = recipient bound through any path, not the current read. q92/probe_stateful_mediator.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q92_stateful_mediator/probe_stateful_mediator.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q92_stateful_mediator.probe_stateful_mediator"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6656,9 +6732,11 @@
    "hypothesis": "State-contingent participation factors the whole but keeps a local core",
    "verdict": "H2,H3 confirmed, H1,H4 refuted",
    "result": "gating the recipient's read (M'=E∧(R∨¬T), T'=E) gives whole-system dyadic with a localized {M,R} core (φ=2); recipient bound locally, worker and gate excluded. Contingency behaves like optionality (Finding 5). q96/probe_contingent_membership.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q96_contingent_membership/probe_contingent_membership.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q96_contingent_membership.probe_contingent_membership"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6667,9 +6745,11 @@
    "hypothesis": "A coalition gains no influence without membership, but can capture the mediator",
    "verdict": "H2,H3,H4 confirmed, H1 refuted (whole-system)",
    "result": "two observers leave the core {E,M,R}; two sources can't manufacture; a bridging coalition becomes triadic with core {M,X1,X2}, capturing the mediator and displacing the legitimate worker and recipient — influence still requires membership. q97/probe_coordinated_adversary.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q97_coordinated_adversary/probe_coordinated_adversary.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q97_coordinated_adversary.probe_coordinated_adversary"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6678,9 +6758,11 @@
    "hypothesis": "The CES gives the verdict a face: integration lives in a joint mechanism; triads come in structural types",
    "verdict": "H2,H3 confirmed, H1,H4 refuted",
    "result": "every triad's maximal distinction is a joint (≥2-party) mechanism with φ_d=Φ; the single-party dual pair is the mediated signature only — rings/markets are symmetric ({E,C}↔{M1,M2}), chains distributed. The verdict hides a taxonomy. Opens the CES-semantics wave. q99/probe_binding_distinction.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q99_binding_distinction/probe_binding_distinction.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q99_binding_distinction.probe_binding_distinction"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6689,9 +6771,11 @@
    "hypothesis": "The CES fingerprints the coordination kind and is orthogonal to the scalar",
    "verdict": "H1,H2,H3 confirmed, H4 refuted",
    "result": "5/6 keystones have distinct fingerprints (all 3 dual types); equal Φ → different structure (joint-det Φ=2 vs chain Φ=2); relations DON'T track Φ (ρ=0.14): breadth market 128 relations at Φ=3 vs ring 14 at Φ=4. Richness is the kind, not the magnitude. q100/probe_structure_fingerprint.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q100_structure_fingerprint/probe_structure_fingerprint.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q100_structure_fingerprint.probe_structure_fingerprint"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6700,9 +6784,11 @@
    "hypothesis": "Coordination distinguishes the all-present, determination-firing joint state",
    "verdict": "H1,H2,H3 confirmed, H4 refuted",
    "result": "read_recipient binding {E,R} specifies (1,1), all_required {E,R1,R2}=(1,1,1) — the joint-success state; dyadic forms distinguish no joint state. H4 refuted: symmetric market has no single-party binder (its joint distinction still specifies all-present). q101/probe_what_it_distinguishes.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q101_what_it_distinguishes/probe_what_it_distinguishes.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q101_what_it_distinguishes.probe_what_it_distinguishes"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6711,9 +6797,11 @@
    "hypothesis": "Mediated coordination relates through a hub; the breadth count is combinatorial",
    "verdict": "all confirmed",
    "result": "mediated triads concentrate relations on the mediator (read_recipient 88%, breadth market 99%); the 128 = every subset of 7 hub-sharing distinctions (max relation binds 7); symmetric triads spread (36%, no hub). Explains Q100's Φ-orthogonal relation count. q102/probe_relation_skeleton.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q102_relation_skeleton/probe_relation_skeleton.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q102_relation_skeleton.probe_relation_skeleton"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6722,9 +6810,11 @@
    "hypothesis": "The whole-system CES collapses under substitution but diverges from major-complex membership",
    "verdict": "H1 confirmed, H2,H3,H4 refuted",
    "result": "substitution empties the structure (Φ=0); but a tracking memory (Mem as relay) and delegation (T in spanning purview {M}→{E,T}) keep the joint mechanism at {E,R} — the whole-system CES is not a membership readout (Q74 at the structure level). q103/probe_structure_under_operations.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q103_structure_under_operations/probe_structure_under_operations.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q103_structure_under_operations.probe_structure_under_operations"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6733,9 +6823,11 @@
    "hypothesis": "The integration concentrates in the binding distinction; every edge bears load",
    "verdict": "all confirmed",
    "result": "binding distinctions {M}↔{E,R} carry φ_d=Φ=2.0, singletons 0.5 each; all 4 edge knockouts collapse the triad to dyadic — no redundancy. The CES form of the law (whole 4x any part) and of Q93's fragility. q104/probe_load_bearing.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q104_load_bearing/probe_load_bearing.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q104_load_bearing.probe_load_bearing"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6744,9 +6836,11 @@
    "hypothesis": "The dyad/triad boundary is thin from the build side; triads are built at the parties, not the mediator",
    "verdict": "H1,H2,H3 confirmed, H4 refuted",
    "result": "90% of dyadic forms are within 2 edits of triadic ({1:120,2:88,3:24}); but only 33% of single-edit builds are at the mediator — 67% restore LIVENESS at a party's read (the binding is already present; Finding 3). Opens the design wave. q105/probe_construction_distance.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q105_construction_distance/probe_construction_distance.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q105_construction_distance.probe_construction_distance"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6755,9 +6849,11 @@
    "hypothesis": "The design vocabulary is the law's three conditions read as moves",
    "verdict": "all confirmed",
    "result": "six operations on three levers (binding, liveness, requirement), each a build (dyadic→triadic) paired with an inverse break; the design account and the diagnostic criterion are one law read two ways. Delivers the Paper 3 vocabulary. q106/probe_design_operations.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q106_design_operations/probe_design_operations.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q106_design_operations.probe_design_operations"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6766,9 +6862,11 @@
    "hypothesis": "Repair is lever-specific: the broken condition must be the one restored",
    "verdict": "all confirmed",
    "result": "binding damage repairs at the mediator (bits {5,6}), liveness damage at the party's read (bit {3}); neither routes around the other. No repair redundancy — the conditions don't substitute. The repair form of Q104. q107/probe_repair.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q107_repair/probe_repair.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q107_repair.probe_repair"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6777,9 +6875,11 @@
    "hypothesis": "Every party is a control node; the mediator is dominant, the parties knife-edge",
    "verdict": "all confirmed",
    "result": "varying any party reaches both verdicts; the mediator has 6/16 triad-preserving functions, each outer party only 1/4 (its live read) — Finding 3 as a control statement. The hub steers robustly, the spokes on a knife-edge. q108/probe_controllability.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q108_controllability/probe_controllability.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q108_controllability.probe_controllability"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6788,9 +6888,11 @@
    "hypothesis": "The dyad/triad boundary is asymmetric: easy to break, harder to build",
    "verdict": "all confirmed",
    "result": "every triad is 1 edit from a dyad (fragility margin all 1), but building a triad costs 1-3 edits (mean 1.59); the boundary favors destruction. Closes the design wave — algorithmacy is cheap to break, dear to build. q110/probe_reversibility.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q110_reversibility/probe_reversibility.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q110_reversibility.probe_reversibility"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6799,9 +6901,11 @@
    "hypothesis": "The mediator captures two-thirds of the coordination's value; an outsider captures negative",
    "verdict": "all confirmed",
    "result": "Shapley value of subsystem-Φ: mediator 1.333 (67%), each party 0.333 (17%), sum=Φ; a read-only spectator captures -0.833 (it factors the whole system). Platform power, quantified. Opens the political-economy wave. q111/probe_shapley_value.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q111_shapley_value/probe_shapley_value.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q111_shapley_value.probe_shapley_value"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6810,9 +6914,11 @@
    "hypothesis": "Destruction is democratic, value is concentrated",
    "verdict": "all confirmed",
    "result": "every core party can collapse the triad (universal veto), a spectator cannot; yet value concentrates at the mediator (Q111) because the coordination is not a unanimity game (sub-coalition {E,R}=0). Workers can hold the platform hostage; the platform captures the rent. q112/probe_veto_power.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q112_veto_power/probe_veto_power.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q112_veto_power.probe_veto_power"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6821,9 +6927,11 @@
    "hypothesis": "Substitutability destroys all value; a required set shares it equally",
    "verdict": "all confirmed",
    "result": "all-required market distributes Φ=4 equally (1 each); substitutable market captures 0 — the loss is the whole Φ, borne by all. Value concentrates only under asymmetric essentiality; interchangeability is catastrophic, not a discount. q113/probe_substitutability_value.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q113_substitutability_value/probe_substitutability_value.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q113_substitutability_value.probe_substitutability_value"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6832,9 +6940,11 @@
    "hypothesis": "A principal captures value by creating it; ownership alone captures nothing",
    "verdict": "all confirmed",
    "result": "bidirectional principal Shapley +0.417, Φ grows 2→3, every party rises (creation over extraction); monitor-only principal captures −0.833 and factors the system to Φ=0. The rent of Q111 is the productive position; ownership as such adds nothing. q114/probe_principal_rent.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q114_principal_rent/probe_principal_rent.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q114_principal_rent.probe_principal_rent"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6843,9 +6953,11 @@
    "hypothesis": "A growing required market commoditizes its agents and pays the scarce parties",
    "verdict": "all confirmed",
    "result": "Σ Shapley = Φ = 2N at N=2,3,4; outer-party value climbs 1.0→1.55→2.067 while each agent holds ~0.967. Scale rewards scarcity over requiredness; the economic law of scarcity falls out of the structure. q115/probe_market_value.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q115_market_value/probe_market_value.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q115_market_value.probe_market_value"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6854,9 +6966,11 @@
    "hypothesis": "Shapley value and singleton φ_d rank the parties alike and coincide only in the small",
    "verdict": "all confirmed",
    "result": "on the triad normalized φ_d = Shapley shares exactly (M 0.667, E/R 0.167); both rank parties identically on every form; on the principal they diverge (M structural 0.800 vs strategic 0.583), structure over-concentrating where they part. Strategic value is structural depth smoothed by marginal contribution; closes the value wave. q116/probe_value_against_structure.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q116_value_against_structure/probe_value_against_structure.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q116_value_against_structure.probe_value_against_structure"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6876,9 +6990,11 @@
    "hypothesis": "An interventional non-Φ criterion recovers the verdict where observation fails (answering critical-review T1)",
    "verdict": "all confirmed",
    "result": "on the 40 hard full-cycle forms, observational total-correlation is at chance (AUC 0.500) while interventional damage spreading (Kauffman/Derrida) separates perfectly (AUC 1.000, stable horizon≥2); full-family AUC is a trivial bar (cycle alone 0.966)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q121_external_criterion/probe_external_criterion.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q121_external_criterion.probe_external_criterion"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6887,9 +7003,11 @@
    "hypothesis": "The value function is a valid game where the wave used it; the critique holds for the degenerate case (answering T2/T3/T5)",
    "verdict": "all confirmed (two-sided)",
    "result": "v=subsystem-Φ is monotone AND superadditive (0 violations) on the triad, bidirectional principal, and markets N=2,3 — surplus reading licensed there; non-monotone on the monitor-only form (3 mono / 5 superadd violations), so its −0.833 is value destruction, not rent",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q122_game_validity/probe_game_validity.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q122_game_validity.probe_game_validity"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6898,9 +7016,11 @@
    "hypothesis": "The verdict is reproducible within IIT-4.0 and the SYSTEM_CUTS charge is misdirected (answering T6)",
    "verdict": "all confirmed",
    "result": "build pinned (pyphi @ b78d0e342); binary verdict bit-identical across all 256 forms under SYSTEM_CUTS=CONCEPT_STYLE, SHORTCIRCUIT_SIA=False, PARALLEL=True, and rerun (0/256 each). SYSTEM_CUTS is a legacy 3.0 knob off the 4.0 path (corrects the review). Of 13 alternative repertoire measures, 12 error and EMD is degenerate (Φ=0) — GID is the unique admissible non-degenerate measure",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q123_reproducibility/probe_reproducibility.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q123_reproducibility.probe_reproducibility"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6909,9 +7029,11 @@
    "hypothesis": "The verdict survives every reasonable state-aggregation; only the strict every-state rule flips it (answering F1/T4)",
    "verdict": "all confirmed",
    "result": "all 24 triadic forms stay triadic under max, mean, AND stationary (long-run occupancy) aggregation; the integrating state is genuinely occupied (stationary Φ>0 for all 24), refuting the \"cherry-picked unoccupied state\" charge. Only the strict min (integrate in every state) flips the 16 single-state integrators (8/24 survive), so the verdict is a capacity claim",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q124_aggregation_robustness/probe_aggregation_robustness.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q124_aggregation_robustness.probe_aggregation_robustness"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6920,9 +7042,12 @@
    "hypothesis": "No triadic form is a pure higher-order bind: every party is pivotal",
    "verdict": "confirmed",
    "result": "0 of 2312 triadic forms survive any single-party knockout; all three parties pivotal in every triadic form across strict-mediation (24/256) and fully-coupled (2288/4096), under both spectator (P'=x[P]) and silenced (P'=0) knockouts; tightens the law to a biconditional on 3 parties. q120_higher_order_binding/probe_higher_order_binding.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q120_higher_order_binding/probe_higher_order_binding.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q120_higher_order_binding.probe_higher_order_binding",
+    "python -m org_frontier.questions.q120_higher_order_binding.probe_higher_order_binding --quick"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -6931,9 +7056,12 @@
    "hypothesis": "A pure higher-order bind (irreducible, no single pivotal party) exists at four parties",
    "verdict": "refuted",
    "result": "0 of 267 irreducible four-party forms survive any single-party knockout; all four parties pivotal in every one across homogeneous-symmetric (14/16), curated-redundant (6/8), named-multiparty (3/7), and canonical-heterogeneous (244/256) families, under both knockout defs. Redundancy does not free the bind; extends Q120 to 4 parties",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q125_four_party_higher_order/probe_four_party_higher_order.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order",
+    "python -m org_frontier.questions.q125_four_party_higher_order.probe_four_party_higher_order --quick"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -6942,9 +7070,11 @@
    "hypothesis": "A system that imposes its own agenda over the parties strengthens (or erodes) the coordination",
    "verdict": "H1,H2 confirmed (erodes)",
    "result": "as the mediator overrides the parties joint determination toward its agenda, Φ falls to 0 and the parties leave the core; a denying agenda collapses the triad at the first override (overriding the parties point of agreement), an approving one tolerates one (Φ 2.0->0.5->0); order-averaged, deny decays linearly (2,1.5,1,0.5,0) while approve is non-monotone (parity re-integration)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q126_interested_mediator/probe_interested_mediator.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q126_interested_mediator.probe_interested_mediator"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6953,9 +7083,11 @@
    "hypothesis": "The agenda that collapses coordination fastest tracks the mediators minority output-class, not denial",
    "verdict": "H1 refuted, refined finding confirmed",
    "result": "denial is not special: AND->deny collapses at k=1 but OR->approve at k=1 (asymmetry flips with the baselines rare output); balanced baselines (XNOR/XOR) re-integrate -- a faithful Φ=0.5 mediator is sharpened by self-interest, Φ rising to 2.0 before collapsing at full imposition. Corrosiveness depends on how discriminating the faithful mediation already was",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q127_interest_baselines/probe_interest_baselines.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q127_interest_baselines.probe_interest_baselines"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6964,9 +7096,11 @@
    "hypothesis": "Does a predatory mediator (S=O) re-integrate the coordination when its objective adapts to the parties?",
    "verdict": "refined: iff it reads both",
    "result": "a fully self-executing mediator is dyadic when its objective is frozen or reads one party, triadic iff the objective encodes both (W&C/W",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q128_adaptive_mediator/probe_adaptive_mediator.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q128_adaptive_mediator.probe_adaptive_mediator"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6975,9 +7109,11 @@
    "hypothesis": "Does an adaptive objective hold the coordination across the interpolation?",
    "verdict": "refined: two readings diverge",
    "result": "parties-bound-in-core reading: frozen holds to m=3, adaptive breaks at m=1 (displaces the worker); whole-system reading (Q128): frozen never irreducible, adaptive only at m=4 (core SCO). An adaptive objective re-integrates the SYSTEM by joining the core and displacing a party; a frozen one preserves the PARTIES bind until full defection. \"Coordination survives\" has no single answer",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q129_mediator_interpolation/probe_mediator_interpolation.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q129_mediator_interpolation.probe_mediator_interpolation"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -6986,9 +7122,11 @@
    "hypothesis": "Are pivotality (removal collapses irreducibility) and core membership (in the major complex) the same?",
    "verdict": "H1,H2 confirmed: distinct",
    "result": "in the homogeneous symmetric 4-party forms, 14 parties are pivotal yet outside the major complex (necessity != membership); the core reads all 14; 0 core-but-not-pivotal, so core membership is a strict subset of pivotality. Mechanism: symmetry degeneracy (the major complex names one of several equivalent maximal complexes). The static form of Q129 displacement / influence-not-membership",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q130_pivotal_excluded/probe_pivotal_excluded.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q130_pivotal_excluded.probe_pivotal_excluded"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7008,9 +7146,11 @@
    "hypothesis": "Is destruction-vs-extraction baseline-relative, and does the value reading need the integrating state?",
    "verdict": "H2 confirmed (baseline-relative); H1 refined",
    "result": "verdict-aligned Shapley: AND/OR destroy (2/3 rent falls with Φ); XOR re-integrates under self-interest (Φ 0.5->2.0) and the mediator captures 2/3 -- EXTRACTION. The 2/3 rent tracks full integration, so self-interest extracts where it re-integrates (XOR) and destroys where it collapses (AND/OR) -- the value image of Q127",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q132_value_baselines/probe_value_baselines.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q132_value_baselines.probe_value_baselines"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7019,9 +7159,11 @@
    "hypothesis": "Does the destruction-vs-extraction value split mirror under the deny agenda?",
    "verdict": "H1,H2 confirmed: agenda-symmetric",
    "result": "under deny the extracting baseline is XNOR (Φ 0.5->2.0, mediator 2/3) -- the mirror of XOR-under-approve (Q132); AND/OR destroy, XOR stays weak. Each agenda re-integrates the balanced baseline whose minority output it overrides; re-integration is extraction. Value image of Q127 agenda symmetry. q133_deny_symmetry/probe_deny_symmetry.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q133_deny_symmetry/probe_deny_symmetry.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q133_deny_symmetry.probe_deny_symmetry"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7030,9 +7172,11 @@
    "hypothesis": "Is the mediator two-thirds share scale-invariant as parties are added?",
    "verdict": "H1 refuted: rent dilutes",
    "result": "conjunctive star n=3,4,5: total Φ=n-1 but mediator share falls 66.6%->58.3%->55.0% toward 1/2; outer parties collectively keep more (33%->45%) though each keeps less. The 2/3 is a 3-party number, not a law of bottlenecks; concentration is a small-coordination phenomenon. Bounds the Q111 platform-power reading. q134_rent_scaling/probe_rent_scaling.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q134_rent_scaling/probe_rent_scaling.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q134_rent_scaling.probe_rent_scaling"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7041,9 +7185,11 @@
    "hypothesis": "When the systems agenda joins the core, does it capture value and at whose expense?",
    "verdict": "H1 confirmed; co-equal rentier",
    "result": "Shapley of the Q128 adaptive-objective model: the objective captures exactly what the system does (O-share = S-share) in every adaptive form -- AND/OR 58% each, XOR 25% each. The parties value tracks Q129 displacement: negative under AND/OR (objective displaces a party, core SCO), positive equal-quarter under XOR (all four bound). The platform agenda is a rentier on a par with the platform",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q135_objective_rent/probe_objective_rent.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q135_objective_rent.probe_objective_rent"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7052,9 +7198,11 @@
    "hypothesis": "Does a second mediator (competition) return value to the parties?",
    "verdict": "H1,H2 confirmed: no",
    "result": "substitutable mediators (parties read S1",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q136_competing_mediators/probe_competing_mediators.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q136_competing_mediators.probe_competing_mediators"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7063,9 +7211,11 @@
    "hypothesis": "Can the worker reclaim value by gaming the system (algorithmic resistance)?",
    "verdict": "H1,H2 confirmed: no",
    "result": "sweeping system x worker interestedness: worker gaming collapses the coordination (Φ->0 for any k_W>=1) -- the worker reads only the system, so injecting an agenda makes it unresponsive and the triad factors. The workers share rises 17%->33% only when the SYSTEM defects (Q131 equalization) but its absolute value falls 0.333->0.167 and never exceeds baseline",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q137_interested_worker/probe_interested_worker.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q137_interested_worker.probe_interested_worker"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7074,9 +7224,11 @@
    "hypothesis": "How much forced faithfulness revives the coordination, and who gets the value?",
    "verdict": "H1,H2 confirmed",
    "result": "predatory mediator forced faithful on m/4 states: below 3/4 the coordination is dead (Φ=0); at 3/4 it revives with an EGALITARIAN split (Φ=0.5, mediator 33%, parties 67%); the mediator 2/3 returns only at full faithfulness (4/4, Φ=2.0)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q138_faithful_fraction/probe_faithful_fraction.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q138_faithful_fraction.probe_faithful_fraction"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7085,9 +7237,11 @@
    "hypothesis": "Is Q112 decoupling (equal veto, unequal value) fixed, or does it move with interest?",
    "verdict": "H1,H2 confirmed",
    "result": "veto is universal (3/3) at every interestedness level with positive Φ -- Q112 democratic destruction is robust to interest. The value-veto gap (mediator share - 1/3) tracks integration not veto: +1/3 at Φ=2.0, 0 at Φ=0.5, independent of baseline/agenda. Destructive interest (AND) democratizes value to match the equal veto (gap closes); re-integrating interest (XOR) re-concentrates it (gap opens)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q139_value_veto/probe_value_veto.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q139_value_veto.probe_value_veto"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7096,9 +7250,11 @@
    "hypothesis": "What does the cooperative-game core of the mediated triad look like, and what does interest do to it?",
    "verdict": "H1,H2 confirmed",
    "result": "faithful core is a single point: mediator takes 100% (not the Shapley 2/3), parties 0, because either party with the mediator reaches full value (v(WS)=v(SC)=v(N)=2) so each party is substitutable and has no stable claim. Interested mediator destroys the sub-coalition values (all 0) -> core opens to the whole simplex, parties can keep the entire reduced value (0.5)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q140_coalition_stability/probe_coalition_stability.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q140_coalition_stability.probe_coalition_stability"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7107,9 +7263,11 @@
    "hypothesis": "Does adaptation on a delay rescue the party that immediate adaptation displaces (Q129)?",
    "verdict": "H1,H2 confirmed",
    "result": "immediate objective (O=W&C, 4 nodes) displaces the worker -- core {S,C,O} Φ=1.0; a lagging objective (O=M, M=W&C, 5 nodes) re-integrates the worker -- core {W,S,C,O,M} Φ=2.0, all five bound. The timescale of the systems learning decides the workers place: real-time adaptation substitutes for the worker and pushes it out; slow learning (a memory of the joint state) keeps it constitutive",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q141_lagging_objective/probe_lagging_objective.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q141_lagging_objective.probe_lagging_objective"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7910,9 +8068,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Simmel (1902, I: 45): the dyad has no \"superindividual energy\"; the triad has, via the \"broken line\" through the third. Mutual dyad Phi=2.0 {A,B}; mutual triad Phi=6.0 {A,B,C}; direct A-B tie removed (A'=C, B'=C, C'=A&B) still binds A and B through C at Phi=2.0 — Simmel's broken line IS the lab's conjunctive-mediator control; cut dyad Phi=0, a single self-reading element remains",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/simmel/probe_simmel_superindividual.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.simmel.probe_simmel_superindividual"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7921,9 +8081,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Simmel: the 2->3 step changes the group in kind, later steps in degree. Mutual conjunctive cliques n=2..5: Phi = 2, 6, 12, 20 = n(n-1) (the count of directed ties); increments +4, +6, +8 GROW, so the 2->3 step is not distinguished on the pre-registered absolute rule. Post hoc: the proportional jump (x3, x2, x1.67) is largest at 2->3. thinkers/simmel/probe_simmel_number.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/simmel/probe_simmel_number.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.simmel.probe_simmel_number 5"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7932,9 +8094,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Simmel: at three a majority \"can override the individual\" — the triad's mechanism of superindividuality. A triad where each member follows maj(A,B,C) has NO irreducible structure: Phi_MIP=0 and no complex at any state, not even a pair; unanimity (X'=A&B&C) binds at Phi=6.0 {A,B,C}",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/simmel/probe_simmel_majority.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.simmel.probe_simmel_majority"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7943,9 +8107,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Simmel's nonpartisan scale: arbitrator (parties adopt M's decision) in core Phi=2.0; mediator (parties keep their will, A'=A&M, read only M) ALSO in core at Phi=2.0 — no \"intermediate grade\"; self-eliminated mediator (parties unite directly, M unread) out, whole factors, pair remains at 2.0 (cf. q214's self-liquidating iungens)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/simmel/probe_simmel_nonpartisan.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.simmel.probe_simmel_nonpartisan"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7954,9 +8120,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Simmel: the third's leverage is set \"exclusively\" by the balance between the two. Weighted outcome O'=[wAA + wTT > wBB + wT(1-T)], A'=B'=T'=O, only weights vary: balanced (1,1,1) infl(T)=.75, core {T,O} Phi=2.0; intermediate (2,1,1) infl .5, core {T,O} 0.277; dictator (3,1,1) infl .25, T out, core {A,O} 2.0. Membership tracks pivotality (probes 11, 16)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/simmel/probe_simmel_gaudens.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.simmel.probe_simmel_gaudens"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7965,9 +8133,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Peirce (CP 2.274): a genuine triad's members are bound \"in a way that does not consist in any complexus of dyadic relations.\" Rendering: a relation = an irreducible IIT-4.0 distinction; its adicity = \\",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_irreducibility.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_irreducibility"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7976,9 +8146,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Peirce (CP 1.473): every triad is monadically degenerate, dyadically degenerate, or genuine. His exemplars order exactly by adicity: three monads (A'=A,B'=B,C'=C) 1; \"A father of B, B father of C\" (B'=A, C'=B) 2; the conjunctive control 3. Degenerate forms Φ=0 with no complex above one element. thinkers/peirce/probe_peirce_degeneracy.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_degeneracy.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_degeneracy"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7987,9 +8159,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Peirce (CP 1.345, 8.331): \"A gives B to C\" is genuine; \"A's putting B away … C's subsequently taking B up\" is \"one dyadic relation followed by another.\" Genuine (G'=¬R, T'=¬R, R'=G∧T): adicity 3 (R←{G,T} φ=2.0), Φ=2.0 {G,T,R}. Degenerate (G'=¬R, T'=G, R'=T): adicity 2, yet ALSO Φ=2.0 {G,T,R}",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_giving.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_giving"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -7998,9 +8172,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Peirce (CP 2.274, 5.484): sign, object, interpretant are \"bound together,\" \"not resolvable into actions between pairs.\" Exogenous dynamical object (O'=O, S'=O, I'=S↔O): adicity 3 ({O,S}→{S,I} φ=1.0, effect side; cause side 2) but Φ=0, core {O} alone — a genuine triad in a system that factors (probe 5: the source is out)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_sign.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_sign"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8009,9 +8185,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Peirce (CP 1.363): tetrads are compounds of triads (\"A sells C to B for the price D\"). 60 random 4-node forms, each node reading 2 others via {AND,OR,XOR,NAND,NOR,XNOR} (seed 0): adicity {3: 2, 4: 58}; cause-side 4 in 43 (a pair jointly determined by a pair, e.g. {B,D}←{A,C} φ=1.0 in A=AND(C,D),B=OR(C,D),C=NOR(B,D),D=XNOR(A,C)); Φ>0 in 46, 4-member core in 7, Φ=3.0 in 4",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_polyads.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_polyads 12"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8020,9 +8198,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Caplow (1956, 1959): eight power types, a predicted pair for each. Rendered by his own assumptions (stronger partner controls the bloc; strength additive in the outcome; members read the outcome; 4 nodes A,B,C,O). A coalition BINDS iff both partners in the major complex",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/caplow/probe_caplow_types.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.caplow.probe_caplow_types"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8031,9 +8211,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Over the 5 binding coalitions (t1_AB, t1_AC, t1_BC, t2_BC, t3_BC) A is a party to 2, B to 4, C to 4 — strength is weakness among wholes. Over all 24 coalition forms A is in the core 18 times, B 7, C 6 — strength is strength among cores (dominance dyads {A,O}). thinkers/caplow/probe_caplow_weakness.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/caplow/probe_caplow_weakness.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.caplow.probe_caplow_weakness"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8042,9 +8224,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Caplow: \"true coalition is impossible\" (Types 4, 6); at A = B+C (7, 8) BC \"can block ... not sufficient to control.\" BC never binds in 4,6,7,8; Types 4,6: every form incl. precoalition core {A,O}. ADDITION: Type 7 (3,2,1) blocking BC (bloc = B) yields core {A,B,O} Φ=2.0 — the block binds A to his blocker; Type 8 (2,1,1) BC (bloc B∧C) core {A,C,O} 0.158 (B,C symmetric)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/caplow/probe_caplow_dominance.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.caplow.probe_caplow_dominance"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8053,9 +8237,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Caplow 1968, Type 5 (4,3,2): AB conservative → core {A,O}; AC improper → {A,O}; BC revolutionary → {B,O}. A out of the core only under BC (as the kinds imply); NO Type 5 coalition binds both partners — the junior partner is a spectator in all three. thinkers/caplow/probe_caplow_kinds.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/caplow/probe_caplow_kinds.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.caplow.probe_caplow_kinds"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8064,9 +8250,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Caplow A.3: coalition strength = sum. 20 of 24 coalitions win; 5 bind; binding coincides EXACTLY with equal partner weights (equal winners 5/5, unequal winners 0/15). Same margin, different structure: t2_BC (4 v 3) binds, t3_AB (3 v 2) is {B,O}. Strength adds; wholeness does not (finding 3; probe 373). thinkers/caplow/probe_caplow_additivity.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/caplow/probe_caplow_additivity.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.caplow.probe_caplow_additivity"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8075,9 +8263,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Heider (1946: 110) / Cartwright–Harary: balanced iff sign product +. Rule: signed majority with hold, s_i' = maj(σ_ij·s_j, σ_ik·s_k, s_i), self-dual so switching-equivalent patterns are one structure. All 8 sign vectors → exactly 2 classes by (Φ, core, attractors), matching the product. BUT balanced class (+++, +−−) Φ=0.000, no complex; unbalanced (++−, −−−) Φ=6.000, core {p,o,q}",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/heider/probe_heider_balance.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.heider.probe_heider_balance"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8086,9 +8276,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Balanced patterns: 2 rest states (all relations satisfied) each, all attractors rest. Unbalanced: no rest state; attractors = 6 frozen unsatisfied fixed points (\"if a change is not possible ... tension\") + 1 two-cycle (\"forces ... will arise\") each. thinkers/heider/probe_heider_tension.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/heider/probe_heider_tension.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.heider.probe_heider_tension"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8097,9 +8289,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Heider: −−− \"too indetermined,\" a third kind; Davis 1967: clusterable. −−− and ++− identical: Φ 6.000, core 3, 7 attractors (6 fixed + 1 cycle). One person's complement carries one into the other. Two kinds, not three. thinkers/heider/probe_heider_allnegative.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/heider/probe_heider_allnegative.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.heider.probe_heider_allnegative"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8108,9 +8302,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Six nodes (p,o,q,Lpo,Lpq,Loq); L_ij' = [s_i = s_j]. Whole Φ_MIP=0.000; core {p, o, Lpo} Φ=3.000 — two persons and their relation bind, the triad does not. 8 fixed points, ALL balanced rest states (2 unanimous +++, 6 two-against-one +−−); 12 two-cycles (attitudes/relations out of phase; synchronous-update caveat). ~2–4 min. thinkers/heider/probe_heider_coevolution.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/heider/probe_heider_coevolution.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.heider.probe_heider_coevolution"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8119,9 +8315,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Cartwright–Harary b(G) = positive cycles / 7 over the 8 switching classes of signed K4 (majority with hold over 3 signed inputs + self). Balanced class Φ=0.000 (core a dyad, 2.0); six single-negative-edge classes Φ=0.000 (core one node); the perfect-matching class (every person has one enemy) Φ=12.000, core all four",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/heider/probe_heider_degree.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.heider.probe_heider_degree"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8130,9 +8328,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Latour (2005: 39): an intermediary \"transports without transformation ... a black box counting for one.\" k = 0..3 copy-relays in a mutual dyad's tie: Φ_MIP = 2.000 at EVERY k (counts for one in Φ), but every relay is in the core — {A,B}, {A,I1,B}, …, {A,I1,I2,I3,B}. An intermediary in a loop counts for one more. thinkers/latour/probe_latour_intermediary.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/latour/probe_latour_intermediary.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.latour.probe_latour_intermediary"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8141,9 +8341,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Between A and B (A'=B, B'=M): copy M → core {A,M,B}; joint M'=A∧B → core {M,B} (A, a delayed copy of B, is evicted); specific M'=A⊕M → core {A,M,B}. All Φ 2.000. Mediators count; so does the intermediary; the joint mediator makes a neighbour count for nothing. thinkers/latour/probe_latour_mediator.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/latour/probe_latour_mediator.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.latour.probe_latour_mediator"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8152,9 +8354,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Latour (2005: 71). Boolean influence vs membership. Source (S'=S, M'=S∧A, A'=M): S makes a difference to M at every step, whole Φ_MIP 0.000, core {M,A} — S is outside what it drives. Spectator out too. Every core member makes a difference (necessary); not sufficient. Finding 3 restated: be read AND return. thinkers/latour/probe_latour_difference.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/latour/probe_latour_difference.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.latour.probe_latour_difference"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8163,9 +8367,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Latour (1994: 31–34). Translation X'=C∧G, C'=X, G'=X → {C,G,X} Φ 2.000. Autonomous destiny G'=G, X'=G, C'=X → core {G} alone, Φ 1.000 (citizen and act out). Neutral tool G'=C, X'=G, C'=X → {C,G,X} Φ 2.000 — the \"mere tool\" is a relay in a loop and binds; identical to translation. The two myths are not symmetrical on this criterion. thinkers/latour/probe_latour_gun.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/latour/probe_latour_gun.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.latour.probe_latour_gun"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8174,9 +8380,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Latour (2005: 217). Center A'=M1∧M2∧M3. Mediators M_i'=A∧M_{i+1}: core all four, Φ 5.000. Intermediaries M_i'=A: core all four, Φ 3.000. Attachments first in both; the mediator adds integration, the intermediary adds a member. Latour's line sorts Φ, not membership. thinkers/latour/probe_latour_star.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/latour/probe_latour_star.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.latour.probe_latour_star"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8185,9 +8393,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Burt (1992: 18, 30): the hole is \"an insulator\"; the same holes give information and control benefits. Information broker E=X∧Y, control broker E=X∨Y, contacts or(E[,other]). Open: both in core Φ 2.000, V(E)=2.000, advantage 2.000",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/burt/probe_burt_closure.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.burt.probe_burt_closure"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8196,9 +8406,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Burt (1992: 19): same contacts = redundant \"regardless of the relation between\" them. equivalent (X,Y both read Z): whole Φ_MIP 1.000, core {E,Y,Z} — one evicted, as Burt says. nonredundant (Z1,Z2): whole irreducible at 2.000 but major complex {E,Y,Z2} at 2.000 — a TIE; both contacts not in core → fails the rule",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/burt/probe_burt_equivalence.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.burt.probe_burt_equivalence"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8207,9 +8419,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Burt (1992: 54–55): advantage falls with aggregate constraint. Three contacts, 0/1/2/3 ties: C_E 0.333/0.611/0.840/0.926; V(E) 3.000/0/0/0. Monotone, not graded: the first tie among contacts makes them a complex that excludes the broker (k1 whole Φ_MIP 0; k3 contacts an OR-clique 6.000, E's positional advantage −4.000). The hole is a cliff, not a slope. thinkers/burt/probe_burt_constraint.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/burt/probe_burt_constraint.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.burt.probe_burt_constraint"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8218,9 +8432,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Burt (1992: 45): holes around your contacts \"and none attached to yourself.\" Rival R=X∧Y beside E=X∧Y, contacts or(E,R): whole reducible (Φ_MIP 0), largest complex {R,Y} 0.189, V(E)=V(R)=−1.811 (without either the rest is the conjunctive triad at 2.000). A replacement does not divide the advantage; it removes the whole. thinkers/burt/probe_burt_rival.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/burt/probe_burt_rival.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.burt.probe_burt_rival"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8229,9 +8445,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Burt (2000/2001/2005): closure inside the group realizes the value of brokerage beyond it. E=A1∧A2∧O: open V(E)=3.000 (advantage 2.000); within (A1–A2) 0; across (A1–O) 0; everywhere 0 (contacts a clique 6.000, E −4.000). Any closure around the broker closes over him. Burt 1992 beats Burt 2001. thinkers/burt/probe_burt_complement.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/burt/probe_burt_complement.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.burt.probe_burt_complement"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8240,9 +8458,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Granovetter (1973: 1361): strength a graded symmetric combination, first dimension time. Tie of strength p = each endpoint reads the other w.p. p per step; AND of reads, hold if none; exact Φ on the stochastic TPM. Dyad Φ 0.252 / 0.658 / 1.236 / 2.000 at p = .25 / .5 / .75 / 1 — monotone, not linear. thinkers/granovetter/probe_granovetter_strength.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/granovetter/probe_granovetter_strength.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.granovetter.probe_granovetter_strength"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8251,9 +8471,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Granovetter (1973: 1363): with A–B, A–C strong the B–C tie is \"always present (whether weak or strong).\" Open = the conjunctive triad Φ 2.000; weak-closed 2.830; strong-closed 6.000; core {A,B,C} each. The forbidden triad is already a whole; each closure adds integration in his order. thinkers/granovetter/probe_granovetter_triad.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/granovetter/probe_granovetter_triad.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.granovetter.probe_granovetter_triad"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8262,9 +8484,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Granovetter (1973: 1364): \"all bridges are weak ties\"; a bridge is the only path. Two strong dyads + bridge a2–b1: transmission 12 pairs weak or strong; major complex ONE DYAD {b1,b2} 2.000 under both; whole Φ_MIP 0.830 (weak), 2.000 (strong — ties the dyad). A bridge of any strength transmits across and integrates nothing across. thinkers/granovetter/probe_granovetter_bridge.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/granovetter/probe_granovetter_bridge.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.granovetter.probe_granovetter_bridge"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8273,9 +8497,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Granovetter (1973: 1366): removing a weak tie damages transmission more. Cut the weak bridge: −8 pairs; cut a strong within-dyad tie: −6. Major-complex Φ: unchanged either way (surviving dyad 2.000); whole Φ_MIP 0.830 → 0 either way. Right on transmission; nothing to lose on integration. thinkers/granovetter/probe_granovetter_damage.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/granovetter/probe_granovetter_damage.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.granovetter.probe_granovetter_damage"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8284,9 +8510,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Granovetter (1973: 1373–78): cliques without weak ties are fragmented at the aerial view; weak ties integrate. Three strong dyads: isolated Φ_MIP 0; weak CHAIN transmission 30 but core still a dyad (whole 0.830); weak RING core all six at 2.490; strong ring 4.000. Weak ties integrate when they close a cycle, not when they form a path. ~6 min. thinkers/granovetter/probe_granovetter_community.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/granovetter/probe_granovetter_community.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.granovetter.probe_granovetter_community"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8295,9 +8523,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Bowen (1978: 373): the triangle is \"the smallest stable relationship system.\" Togetherness = reading, anxiety = flip noise, stability = Φ retained. Triangled form (A reads B∧C; B reads A; C reads A∧B) retains LESS than the dyad at every ε (.794/.836, .618/.687, .347/.434, .167/.238) and its core is {A,C}, never the triad",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/bowen/probe_bowen_stable.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.bowen.probe_bowen_stable"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8306,9 +8536,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Bowen (1978: 373, 174): calm = close twosome + outsider; tension \"triangles\" the third. Calm core {A,B}, C out ✓. Triangled core {A,C} at 2.000 (whole 1.000): the third DISPLACES the other insider rather than joining — Bowen's own rotation (\"one of the original insiders now becomes the new outsider\"), not his unit claim. thinkers/bowen/probe_bowen_twosome.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/bowen/probe_bowen_twosome.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.bowen.probe_bowen_twosome"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8317,9 +8549,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Bowen (1978: 373–74): \"in periods of stress, the outside position is the most comfortable.\" Anxiety at one position of the triangled form: loss at ε=.1 A .237, B .237, C .100; at .2 .458/.458/.200. Anxiety at B (outside the {A,C} core) costs the core nothing; anxiety at C moves the core back to {A,B}. The anxious party is the one left out. thinkers/bowen/probe_bowen_outside.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/bowen/probe_bowen_outside.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.bowen.probe_bowen_outside"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8328,9 +8562,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Bowen (1978: 373–74): a fourth is triangled by the same move; the system is \"a series of interlocking triangles.\" At ε=0 the four are ONE complex {A,B,C,D} at 2.000 (pre-registered test fails); at every ε>0 the core is the triangle {A,C,D}; the four retain less than the three (.728/.794 … .097/.167). The triangle is the unit of the anxious system, not the calm one",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/bowen/probe_bowen_interlock.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.bowen.probe_bowen_interlock"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8339,9 +8575,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Bowen (1978: 174–75): a third in contact with both who does not react lets the twosome's tension resolve. Neutral C (reads both, read by both, holds) is OUT of the core; reactive C is IN (clique 6.000) ✓. But the insiders' core retains no more with the neutral third than the bare dyad (.836/.836, .686/.687, .423/.434, .210/.238) ✗ — under anxiety a read-but-unresponsive party is a noise source",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/bowen/probe_bowen_detriangle.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.bowen.probe_bowen_detriangle"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8350,9 +8588,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Hegel (SL 588; EL §181R): \"everything is a syllogism.\" Syllogism = the conjunctive triad under Hegel's labels: Φ 2.000, core {A,M,B}. Judgment (copy dyad) also 2.000 — the middle adds a member, no integration. Minus-M: whole Φ 0, but a self-holding extreme counts as a one-node complex (Φ 1) so the pre-registered \"no complex\" clause failed (post hoc with constants: no complex)",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/hegel/probe_hegel_middle.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.hegel.probe_hegel_middle"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8361,9 +8601,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Hegel (EL §182; SL 635–36): the formal middle is \"only the abstract particularity,\" communication passes \"without transition into the opposite.\" Relay (A holds, M copies A, B copies M) and broadcast: Φ 0, every term reachable from A, M in no complex. The conduit result in Hegel's vocabulary. thinkers/hegel/probe_hegel_external.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/hegel/probe_hegel_external.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.hegel.probe_hegel_external"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8372,9 +8614,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Hegel (EL §182): \"the subject joins itself together with itself by means of this mediation.\" Half-return (M reads B, B does not read M): core {A,M}, B out; syllogism core {A,M,B}. Return is the membership condition. thinkers/hegel/probe_hegel_return.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/hegel/probe_hegel_return.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.hegel.probe_hegel_return"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8383,9 +8627,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Hegel (SL 642–43; EL §198R): each term \"runs through the determination of the middle term and the extreme\"; \"the state is a system of three syllogisms.\" Shares (deletion cost): syllogism A 0, M 1.000 (2.000 with orphans constant), B 0 — the middle bears all; system (clique) 4.000 each — no binder. Φ(system) 6.000 = 3 × Φ(syllogism). thinkers/hegel/probe_hegel_system.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/hegel/probe_hegel_system.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.hegel.probe_hegel_system"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8394,9 +8640,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Moss's (2013) process reading: each term middle in turn by a three-phase clock. Rotating core {A,B,C} at 2.000 with the clock out — ONE syllogism's Φ, not the system's 6.000. Alternation in time spreads the middle's role and does not sum the syllogisms; simultaneity does. thinkers/hegel/probe_hegel_rotating.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/hegel/probe_hegel_rotating.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.hegel.probe_hegel_rotating"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8405,9 +8653,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Girard (1965: 2): \"the mediator is there, above that line, radiating toward both.\" S copies M; M = S∧O; O = M∧S. Internal core is {M, O} at 2.000 — the SUBJECT is out (whole 1.000). Minus M: no complex ✓. Subject and object are not one through the mediator; the mediator and object are one without the subject. thinkers/girard/probe_girard_triangle.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/girard/probe_girard_triangle.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.girard.probe_girard_triangle"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8416,9 +8666,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Girard (1965: 9): external = no contact between spheres; internal = penetration. External: S, O not one ✓ (M alone a self-holding one-node complex, clause failed on the artifact). Internal core {M, O}, not the triad. The distinction survives — no complex spans the spheres when external, one does when internal — but the complex is a pair. thinkers/girard/probe_girard_mediation.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/girard/probe_girard_mediation.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.girard.probe_girard_mediation"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8427,9 +8679,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Girard (1965: 10, 99): \"the impulse toward the object is ultimately an impulse toward the mediator\"; each copies \"the copy of his own desire.\" Double mediation core {S, M} 2.000 = bare dyad 2.000; O out. The object adds nothing. thinkers/girard/probe_girard_object.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/girard/probe_girard_object.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.girard.probe_girard_object"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8438,9 +8692,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Girard (1965: 9): \"we have only to vary the distance.\" M reads S w.p. p: core {M} alone at p ≤ .25; {S, M} at p = .5 (1.000), .75 (1.500), 1 (2.000). O in the core at no p. A threshold, then a gradient. thinkers/girard/probe_girard_distance.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/girard/probe_girard_distance.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.girard.probe_girard_distance"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8449,9 +8705,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Girard (1965: 122): \"differences ... gradually dissolve.\" Shares: double S 2.000, M 2.000, O 0 — the rivals interchangeable; internal S 0, M 2.000, O 0 — the disciple dispensable, the model not. thinkers/girard/probe_girard_doubles.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/girard/probe_girard_doubles.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.girard.probe_girard_doubles"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8460,9 +8718,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Serres (1982: 7–8): \"the simple, irreversible arrow ... the atomic form of our relations.\" A parasite reading a constant producer: no complex, Φ 0. Exchange A ⇄ B: 2.000. The lab's standing result; the instrument sides with Simmel. thinkers/serres/probe_serres_arrow.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/serres/probe_serres_arrow.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.serres.probe_serres_arrow"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8471,9 +8731,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Serres (1982: 14): \"Theorem: noise gives rise to a new system, an order that is more complex than the simple chain.\" Chain F → T → R: no complex. Add N' = R, R' = T ∧ ¬N: complex {R, N} 2.000 at the last position; F and T out. The interruption is the chain's only return. thinkers/serres/probe_serres_theorem.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/serres/probe_serres_theorem.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.serres.probe_serres_theorem"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8482,9 +8744,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Noise from a coin XORed onto the A→B channel does not lower the pair's Φ — it removes the pair, at every ε ∈ {0, .05, .1, .25, .4, .5} (post hoc). PyPhi's cause side infers a background unit's past from the present; a coin's past leaves no trace, so B' = A ⊕ N carries no cause information about A. The system's own noise (N' = A ∧ B) is outside the complex; core {A, B} 2.000 unchanged",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/serres/probe_serres_third.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.serres.probe_serres_third"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8493,9 +8757,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Serres (1982: 4): \"the last to come tries to supplant his predecessor.\" Cascade with every level ejecting the one above: core {T, R, N} 2.000 — all but the producer. Shares F 2.000 (outside the complex, indispensable), T 2.000, R 2.000, N 0 (inside, dispensable). Membership and indispensability come apart; the excluded-indispensable one is the producer. thinkers/serres/probe_serres_cascade.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/serres/probe_serres_cascade.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.serres.probe_serres_cascade"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8504,9 +8770,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Serres (1982: 225): \"when being passed, makes the collective, if it stops, it makes the individual.\" Token ring A' = C, B' = A, C' = B: {A, B, C} 2.000. Token frozen (constants): no complex. thinkers/serres/probe_serres_quasiobject.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/serres/probe_serres_quasiobject.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.serres.probe_serres_quasiobject"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8515,9 +8783,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Davis (1967: 181): clusterable iff no cycle with exactly one negative line. Persons hold a camp from k ∈ {2,3,4} (two bits), least-strain update. k ≥ 3: ppp, pmm, mmm rest; ppm never; k = 2: mmm has no rest state. thinkers/davis/probe_davis_theorem.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/davis/probe_davis_theorem.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.davis.probe_davis_theorem"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8526,9 +8796,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "At k = 4: ppm core {p, o, q} Φ 6.000 (the Heider number, on the high bits); ppp no complex; pmm core {p, o} 2.000; mmm core {p, q} 2.000. One pattern apart, three together — Davis's classes, not Cartwright–Harary's. ~18 min. thinkers/davis/probe_davis_classes.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/davis/probe_davis_classes.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.davis.probe_davis_classes"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8537,9 +8809,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "mmm core persons at k = 2, 3, 4: 3, 2, 2 — the Heider H3 refutation (−−− ≡ ++−) was the two-camp verdict and is withdrawn. ppm: 3, 2, 3 — the k = 3 encoding (dead code) dips; at full alphabets (one bit; k = 4) ppm is a whole of three at 6.000 both times. ~18 min. thinkers/davis/probe_davis_alphabet.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/davis/probe_davis_alphabet.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.davis.probe_davis_alphabet"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8548,9 +8822,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "64 sign patterns at k = 4: 15 clusterable (8 balanced); rest states exist iff clusterable 64/64; triangle test = cycle test 64/64; one partition per clusterable pattern 15/15. Synchronous swap cycles in 11/15. thinkers/davis/probe_davis_census.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/davis/probe_davis_census.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.davis.probe_davis_census"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8559,9 +8835,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Negative path p–o–q, no pq, k = 4: two partitions at rest ({p}{o}{q}, {p,q}{o}); Φ_MIP 0; core {o, q} 2.000 — one negative pair, not the mediator with both. thinkers/davis/probe_davis_path.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/davis/probe_davis_path.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.davis.probe_davis_path"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8570,9 +8848,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Coleman (1988: S105–S106): open, B and C \"cannot combine forces to sanction A\"; closed, they \"combine to provide a collective sanction.\" A' = B ∧ C; B' = ¬A [∨ C]. Open: no fixed point (sanction cycles), core {A, B, C} 2.000. Closed: 111 fixed, core {B, C} 0.369, A outside. The norm holds and the whole loosens. thinkers/coleman/probe_coleman_norm.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/coleman/probe_coleman_norm.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.coleman.probe_coleman_norm"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8581,9 +8861,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Burt's own forms re-read for the whole: info coreΦ 2→2, E's advantage 2→0; control coreΦ 2→6, advantage 2→0. The Burt H1 partial is Coleman's confirmation. thinkers/coleman/probe_coleman_broker.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/coleman/probe_coleman_broker.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.coleman.probe_coleman_broker"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8592,9 +8874,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Parents' tie: core moves from {P2, K2} to {P1, P2} at 2.000; children's value added 0. A coalition forms above the parties it governs. Basin of 1111 is 1/16 in both forms. thinkers/coleman/probe_coleman_parents.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/coleman/probe_coleman_parents.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.coleman.probe_coleman_parents"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8603,9 +8887,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Coleman (1988: S102–S103). Ring of four: core all four 2.000, every V 2.000 (any absconder destroys it). Two bilateral credits: core one pair. thinkers/coleman/probe_coleman_credit.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/coleman/probe_coleman_credit.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.coleman.probe_coleman_credit"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8614,9 +8900,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Coleman (1988: S119): the creator \"captures only a small part.\" Closing the norm form: core Φ 2.000 → 0.369 (gain −1.631); ΔV(B) −1.631, fraction 1.000. No gain to capture; closure levels every party to 0.369. thinkers/coleman/probe_coleman_public.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/coleman/probe_coleman_public.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.coleman.probe_coleman_public"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8625,9 +8913,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Ostrom (1990: 90, 95): monitors \"are the appropriators.\" Each of three complies if the others do or if jointly sanctioned, and sanctions when either other defects. Core {c1, c2, c3} 2.862, whole 0.830, sanction bits outside adding 0.862 each. Coleman's closed norm beside it: core {B, C}, A out. thinkers/ostrom/probe_ostrom_monitors.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/ostrom/probe_ostrom_monitors.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.ostrom.probe_ostrom_monitors"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8636,9 +8926,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Clique of contingent commitments 6.000 (all three in) vs enforcer's star 3.000 (all four in, all V 3.000, enforcer's advantage 0). Privatization: self-holding singletons count as complexes of one. thinkers/ostrom/probe_ostrom_solutions.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/ostrom/probe_ostrom_solutions.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.ostrom.probe_ostrom_solutions"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8647,9 +8939,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Two cliques under a federation: whole of seven irreducible at 2.000, exclusion returns one clique at 6.000; F outside the core with V 6.000, delegates 4.000, rank and file 0. Both cliques irreducible at 6.000 at the all-on state (post hoc). The Coleman parents pattern one level up. thinkers/ostrom/probe_ostrom_nested.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/ostrom/probe_ostrom_nested.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.ostrom.probe_ostrom_nested"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8658,9 +8952,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Ostrom (1990: 94): sanctions \"surprisingly low.\" mutual's only fixed point is 111000 (comply, no sanction); each single lapse returns in 4 steps. Coleman's closed norm rests at 111 (sanction standing). thinkers/ostrom/probe_ostrom_compliance.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/ostrom/probe_ostrom_compliance.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.ostrom.probe_ostrom_compliance"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8669,9 +8965,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "An unread outsider changes nothing (core and Φ as self, V(O) 0). A breach (a member reads the outsider) leaves core and Φ unchanged and makes the outsider indispensable, V(O) 6.000 — outside and necessary. thinkers/ostrom/probe_ostrom_boundary.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/ostrom/probe_ostrom_boundary.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.ostrom.probe_ostrom_boundary"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8680,9 +8978,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Blau (1964: 22): power by \"making the satisfaction of their need contingent on their compliance.\" Constant supplier + dependent: no complex (the Serres arrow). Contingent supplier: {S, B} 2.000. thinkers/blau/probe_blau_contingent.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/blau/probe_blau_contingent.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.blau.probe_blau_contingent"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8691,9 +8991,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Blau (1964: 118), second alternative. Single: V(S) 2.000, advantage 0. Two suppliers: V(S1) 0, advantage −2.000, V(B) 2.000 — Burt's control broker from the contacts' side. thinkers/blau/probe_blau_alternatives.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/blau/probe_blau_alternatives.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.blau.probe_blau_alternatives"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8702,9 +9004,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Subordinates who comply only together: core moves from {S, B1, B2} to {B1, B2} at 2.000; S's advantage 2.000 → 0; S outside the core with V 2.000 (outside, indispensable). thinkers/blau/probe_blau_organized.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/blau/probe_blau_organized.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.blau.probe_blau_organized"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8713,9 +9017,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Blau (1964: 23): consensus becomes \"group pressures that promote compliance.\" S off, both complying: power 011 → 100, authority 011 → 111. Authority core {B1, B2} 2.000, V(S) 0 (outside, dispensable). thinkers/blau/probe_blau_authority.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/blau/probe_blau_authority.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.blau.probe_blau_authority"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8724,9 +9030,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Shared opposition rests at S yielding; isolated never rests (Coleman's cycle). But the approving pair binds at 2.000 and the opposing pair at 0.369: same shape, not the same structure. thinkers/blau/probe_blau_opposition.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/blau/probe_blau_opposition.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.blau.probe_blau_opposition"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8735,9 +9043,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Emerson (1962: 32, 37). A' = B ∨ C; B' = A; C' = A. Core all three 2.000; V(A) 2.000, V(B) = V(C) 0; A's advantage 2.000. thinkers/emerson/probe_emerson_network.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/emerson/probe_emerson_network.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.emerson.probe_emerson_network"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8746,9 +9056,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "B holds its own state: core {A, C} 2.000, B out, V(A) 2.000 → 1.000, V(C) 0 → 1.000, advantage 0. The only operation that takes from A. thinkers/emerson/probe_emerson_withdrawal.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/emerson/probe_emerson_withdrawal.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.emerson.probe_emerson_withdrawal"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8757,9 +9069,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "B–C tie: OR-clique 6.000, all in, every V 4.000, advantage 0 — Emerson's \"still just a power network\"; Burt's closed control broker. thinkers/emerson/probe_emerson_extension.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/emerson/probe_emerson_extension.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.emerson.probe_emerson_extension"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8768,9 +9082,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "A' = B: core {A, B} 2.000, V(A) = V(B) 2.000, C outside with V 0. thinkers/emerson/probe_emerson_status.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/emerson/probe_emerson_status.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.emerson.probe_emerson_status"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8779,9 +9095,11 @@
    "hypothesis": "computational",
    "verdict": "partial",
    "result": "Both zero A's advantage; coalition (AND-clique) raises V(B), V(C) 0 → 6.000; extension raises V(A) 2.000 → 4.000 rather than lowering it. Network vs collective actor = a member adds 4.000 (a pair survives deletion) vs 6.000 (nothing does). thinkers/emerson/probe_emerson_coalition.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/emerson/probe_emerson_coalition.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.emerson.probe_emerson_coalition"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8790,9 +9108,12 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "Criterion fixed in c7535bc: a one-element mechanism with an irreducible cause purview of two other elements, in the major complex of a Φ > 0 whole. Control M ← AB, giving R ← GT, pragmatic sign I ← OS in a whole; seven negatives none; misreads 0. thinkers/peirce/probe_peirce_joint_determination.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_joint_determination.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_joint_determination",
+    "python -m org_frontier.thinkers.peirce.probe_peirce_joint_determination --full"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8801,9 +9122,12 @@
    "hypothesis": "computational",
    "verdict": "confirmed (tie-dependent, post hoc)",
    "result": "majority_triad Φ_MIP = 0, C ← AB φ 0.5, but AB/AC/BC tie at 0.5; triad_mutual 6.0 and mediator 2.0 in a whole. thinkers/peirce/probe_peirce_joint_determination.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/thinkers/peirce/probe_peirce_joint_determination.py",
+   "reproduce": [
+    "python -m org_frontier.thinkers.peirce.probe_peirce_joint_determination",
+    "python -m org_frontier.thinkers.peirce.probe_peirce_joint_determination --full"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8823,9 +9147,11 @@
    "hypothesis": "computational",
    "verdict": "H1, H2, H4 confirmed; H3, H5 refuted",
    "result": "11 stylized 3–4 node forms. Every form with a first cause Φ=0 (0/51 exceptions; known IIT feedforward property). Loops bind only 22/35. Engagement feed + reacting celebrity factors (Φ=0, core {P,F}; 4/10 feed encodings bind); word of mouth + reacting celebrity Φ=6.000; chronological feed + reacting celebrity Φ=1.000; ring 2.000. Exploratory: one fan or feed needing all fans binds",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q218_chicken_egg_feed/probe_chicken_egg_feed.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q218_chicken_egg_feed.probe_chicken_egg_feed"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8834,9 +9160,11 @@
    "hypothesis": "computational",
    "verdict": "H1 refuted, H2 refuted for the peak core, H3 partial, H4 tie (0 vs 0), H5 holds for the peak core",
    "result": "fixed chair, A/B alternation, full A→B→C rotation: whole-system max Φ 0 throughout; peak core ABC Φ=2 in all; veto (clock-inclusive, across states) {A}, {A,B}, none. q217_rotating_chair/probe_453_rotating_chair.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q217_rotating_chair/probe_453_rotating_chair.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q217_rotating_chair.probe_453_rotating_chair"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8845,9 +9173,11 @@
    "hypothesis": "computational",
    "verdict": "H6 holds",
    "result": "fixed vs full rotation: peak core ABCD Φ=3 in both; veto {A} vs none. q217_rotating_chair/probe_454_rotating_chair_n4.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q217_rotating_chair/probe_454_rotating_chair_n4.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q217_rotating_chair.probe_454_rotating_chair_n4"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8856,9 +9186,11 @@
    "hypothesis": "computational",
    "verdict": "H7 holds for OR, refuted for XOR; H8 refuted for AND",
    "result": "OR rotation peak core ABC Φ=2, no veto; XOR rotation peak core T; earned AND peak core ABC, whole dyadic; earned XOR whole triadic max Φ 0.5 (7/12 states), peak core U. q217_rotating_chair/probe_455_rotating_chair_ext.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q217_rotating_chair/probe_455_rotating_chair_ext.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q217_rotating_chair.probe_455_rotating_chair_ext"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8867,9 +9199,11 @@
    "hypothesis": "computational",
    "verdict": "exploratory",
    "result": "where party coalitions integrate, full rotation's veto is the current and previous chair (6/6 three-party, 8/8 four-party states); cross-state party veto none; state coverage 25% for fixed and rotating AND forms; XOR forms: all three parties veto. q217_rotating_chair/probe_456_per_state_veto.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q217_rotating_chair/probe_456_per_state_veto.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q217_rotating_chair.probe_456_per_state_veto"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8878,9 +9212,12 @@
    "hypothesis": "Only AND/OR over the relevant set binds it; mixed weighted quorums bind at most one party; commit noise changes no membership",
    "verdict": "partial: H1, H1b, H2, H2b, H4, H5 supported; H3, H6 refuted",
    "result": "Every weighted threshold rule at 3 and 4 parties (weights 0..5, saturated at 0..6): 8 and 25 classes up to party relabelling. Extreme classes bind {S}+R at φ = \\",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/probes/weighted_quorum/probe_weighted_quorum.py",
+   "reproduce": [
+    "python -m org_frontier.probes.weighted_quorum.probe_weighted_quorum",
+    "python -m org_frontier.probes.weighted_quorum.probe_weighted_quorum --ci"
+   ],
+   "runtime": "slow"
   },
   {
    "kind": "probe",
@@ -8889,9 +9226,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "pipe triadic, max Φ_MIP = 2.000, MIP 3 parts {C,E,A}, core {C,E,A} 2.000, Φ = 2.000 in all 8/8 states. Identical to Q11 rot_ring(3) under C,E,A = x0,x1,x2; replicates its Φ = 2.0. questions/q219_insurance_claim_adjudication/probe_458_pipe.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q219_insurance_claim_adjudication/probe_458_pipe.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_458_pipe"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8900,9 +9239,11 @@
    "hypothesis": "computational",
    "verdict": "refuted",
    "result": "Whole triadic, max Φ_MIP = 0.415 at the single irreducible state 111 (1/5), MIP {C,EA}; but the major complex is {C,E} at 2.000 and the adjuster is outside it, so the full-core clause fails. The flagged-only clause held: both E=0 states (000, 100) read Φ = 0. questions/q219_insurance_claim_adjudication/probe_459_gated.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q219_insurance_claim_adjudication/probe_459_gated.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_459_gated"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8911,9 +9252,11 @@
    "hypothesis": "computational",
    "verdict": "H3 refuted; H4 refuted",
    "result": "loop: whole triadic, max Φ_MIP = 1.000, MIP {C,EA}, core {E,A} 2.000 (the engine–adjuster pair named in H3's null), irreducible 110 (0.415), 111 (1.000). loop_nolearn: whole triadic, max Φ_MIP = 2.000, MIP {E,CA}, core {C,A} 2.000, engine out. Removing the learning edge moves the excluded party from claimant to engine. questions/q219_insurance_claim_adjudication/probe_460_loop.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q219_insurance_claim_adjudication/probe_460_loop.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_460_loop"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",
@@ -8922,9 +9265,11 @@
    "hypothesis": "computational",
    "verdict": "confirmed",
    "result": "loop_frozen_claimant dyadic, max Φ_MIP = 0.000 in 0/5 states; core {E,A} 2.000 persists as a sub-complex. questions/q219_insurance_claim_adjudication/probe_461_liveness.py",
-   "path": "org_frontier/probes/PROBES.md",
-   "reproduce": [],
-   "runtime": "unregistered"
+   "path": "org_frontier/questions/q219_insurance_claim_adjudication/probe_461_liveness.py",
+   "reproduce": [
+    "python -m org_frontier.questions.q219_insurance_claim_adjudication.probe_461_liveness"
+   ],
+   "runtime": "fast"
   },
   {
    "kind": "probe",

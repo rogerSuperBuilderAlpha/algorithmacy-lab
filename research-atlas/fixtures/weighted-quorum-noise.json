@@ -1,0 +1,16 @@
+{
+  "question": "What does commit noise do to weighted quorum cores?",
+  "answer": "In the specified small Boolean models, commit noise below ε = 0.5 did not change core membership or raise core Φ. The mixed rules with weights (1, 1, 2, 2) at quotas 2 and 5 were counterexamples to the proposed extremes-only law: both kept {S, P3, P4}. These are in-silico results, not evidence about a real organization.",
+  "claims": [
+    {
+      "kind": "model_result",
+      "text": "Commit noise below ε = 0.5 did not raise core Φ or change core membership in the tested models.",
+      "evidence": [{"path": "org_frontier/probes/weighted_quorum/README.md", "quote": "Commit noise below ε = 0.5 never raises a core's φ and\nchanges no core's membership", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}]
+    },
+    {
+      "kind": "model_result",
+      "text": "Two mixed weighted rules refuted H3 and retained the heavy-party core.",
+      "evidence": [{"path": "org_frontier/probes/weighted_quorum/README.md", "quote": "The two H3 counterexamples are classes n4-18 (θ = 2) and n4-21 (θ = 5), both with weights (1, 1, 2, 2)", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}, {"path": "org_frontier/probes/weighted_quorum/README.md", "quote": "each keeps its core\n{S, P3, P4} at every ε below 0.5", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}]
+    }
+  ]
+}
