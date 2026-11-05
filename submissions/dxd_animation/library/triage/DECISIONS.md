@@ -405,3 +405,19 @@ these lands, §4.1's "McLaren (1968)" has no citable source, and CHECK F1 stays 
 - The research card `ananny2016` dates a 2018 volume 2016; `natale2019if`, `hollanek2023ai`, `cameron2024social`,
   `chiou2023trusting`, `endsley2017from`, `warren2011values` and `hoerl2015seeing` take the volume year with
   `registered_year` set (README rule 4).
+
+## Checkpoint B — the author's rulings (2026-11-05)
+
+1. Shortlist approved as written: 60 new + 17 upgrades (Stark in; Miller 1968 in reserve).
+2. Closed works: "Do what you can leave a list for me for later." S4 fetches every open copy; every closed
+   or blocked work is carded now at the depth reached (abstract or metadata) and listed in
+   `BROWSER_LIST.md` for the author to supply later. No wait at Checkpoint C.
+3. S5–S6 run as a Workflow (author opted in).
+4. On the HF-triad finding (Cameron et al. 2024 and the multi-party HF models), the author's words:
+   "Their triad isn't a real triad and certainly isn't as well examined". Cards for
+   `cameron2024social`, `stanton2006distributed`, `chiou2023trusting` and the pointer `oneill2022human`
+   must therefore record precisely, with loci, what each source counts as its third party: whether the
+   third party (e.g. Cameron's Deployer) has interests of its own, acts *through* the artefact on the
+   user, and is modelled in the analysis or only named. The cards report what the source says; the
+   author's ruling is not written into "What it argues". The §3.2 flag in `../OUTLINE.md` stays until
+   the author rules at Checkpoint D with these reads in hand.
