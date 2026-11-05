@@ -48,3 +48,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct for metadata); authors, titles, publishers and years of the three hits match the card; year 1981 and subtitle correctly marked unchecked; depth metadata honest; sha256 matches; four sections in order · changed: APA bracket now also marks the 1981 publisher unchecked (Caution already said so; the records tie Abbeville only to 1987 and 1990)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); the Open Library search JSON holds exactly the three hits the card lists (OL34586365W Abbeville 1990, OL31195516W Abbeville 1987, OL7810929M BDD 1989), each crediting Frank Thomas and Ollie Johnston, none with 1981 or the subtitle; sha256 recomputed and matches; the 1981 year, subtitle and publisher are marked unchecked in the APA string, title and Caution, which is right; metadata depth honest; the c8 use is stated as resting on an unread book.
+- Changed: nothing.
+- For the author: the citation year 1981 and the subtitle "The Illusion of Life" have no record behind them in this run (OL2924612W, named in DECISIONS, is not in the folder). Supply the 1981 Abbeville edition or the chapter on the principles (BROWSER_LIST row 24), or accept the entry as marked.

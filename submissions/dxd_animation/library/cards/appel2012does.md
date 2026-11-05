@@ -46,3 +46,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (four authors, 2012, title, AHCI vol. 2012 pp. 1-10, DOI); abstract summary checked against the Crossref abstract; depth abstract confirmed; sha256 both files recomputed, match · changed: c6 bullet: removed the claim that the text-chat condition 'still showed some effects', which the abstract does not report; replaced with the abstract's comparison (virtual human drew stronger reactions than text chat)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); the summary matches the Crossref and OpenAlex abstracts (2×2 design, agency × interface, virtual-human results, the single agency-assumption result); frontmatter vs both records (four authors, 2012, AHCI vol. 2012, 1–10, DOI); sha256 of both files recomputed and matches; claim use: c6 is stated with its limit (text chat versus virtual human, one agency effect).
+- Changed: nothing.
+- For the author: (1) `load: exists` sits oddly with a c6 bullet that leans on the result; if the paper cites the finding, set load-bearing. (2) DECISIONS has this as gold OA (CC BY) but three fetches got 403 (BROWSER_LIST row 50); a browser copy would take it to full text.

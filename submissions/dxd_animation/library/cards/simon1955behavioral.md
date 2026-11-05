@@ -47,3 +47,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct); author, year, title, venue, 69(1), first page 99, DOI vs Crossref; depth metadata honest; OUTLINE cites Simon (1997) via lima simon1997, confirmed; sha256 recomputed · changed: c1/c2 bullet: 'F5 and DECISIONS list it for ... a bounded chooser' replaced, since DECISIONS states no use; the bounded-rationality wording is FACETS F5's and is now quoted
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs crossref.json (Simon, Herbert A.; QJE 69(1); first page 99; 1955-02; OUP; DOI; no abstract); the FACETS F5 sentence the card quotes found at FACETS.md line 203; sha256 recomputed; metadata depth honest; c1/c2 use kept at "exists".
+- Changed: nothing.
+- For the author: nothing. The end page (118 in the earlier card) stays unconfirmed until the JSTOR copy arrives (BROWSER_LIST row 33).

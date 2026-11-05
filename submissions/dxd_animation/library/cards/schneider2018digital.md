@@ -36,9 +36,16 @@ None.
 
 ## Caution
 - The DECISIONS row and the triage file expect the phrase "no neutral way to present choices" (from an F2 Consensus abstract). It does not appear in either record read here, so it is not confirmed from this source. Check it against the CACM text before quoting.
-- Do not confuse this with Weinmann, Schneider & vom Brocke (2016), *Business & Information Systems Engineering*, the work SOURCE.md cites as "digital nudging tools". CHECK F6 and CITED_WORKS row 2 name the 2018 CACM piece only in the check, not in the thesis text, so status is candidate. The 2016 work has no card in this run.
+- Do not confuse this with Weinmann, Schneider & vom Brocke (2016), *Business & Information Systems Engineering*, the work SOURCE.md cites as "digital nudging tools". CHECK F6 and CITED_WORKS row 2 name the 2018 CACM piece only in the check, not in the thesis text, so status is candidate. The 2016 work is carded in this run as `weinmann2016digital` (DECISIONS F6, approved). [Corrected by Fable, S7: the line read "The 2016 work has no card in this run."]
 - The key avoids the registry homonym `schneider2018` (Nathan Schneider, a different work).
 - Whether "most desirable" means desirable to the user or to the designer is not stated in the abstract.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; authors, 2018, title, CACM 61(7) 67–73, DOI match both records; one-sentence abstract quoted exactly; 'no neutral way' absent from both records, as the card says; schneider2018 homonym confirmed in registry; depth abstract honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 0/0 loci (None, abstract card); the one-sentence abstract is verbatim in both crossref.json and openalex.json; frontmatter vs both records (Schneider, Weinmann, vom Brocke; CACM 61(7), 67–73; 2018-06-25; DOI); both sha256 recomputed; the registry homonym `schneider2018` (research library, 10.1177/0038026118758533) confirmed; "no neutral way to present choices" absent from both records, as the card says.
+- Changed: Caution said "The 2016 work has no card in this run"; `cards/weinmann2016digital.md` exists and DECISIONS F6 approves it. The line now names that card and carries the correction note.
+- For the author: `role: anchor`, `load: load-bearing` on a one-sentence abstract. ACM returned 403 (FETCH_LOG row 53); the article is BROWSER_LIST row 24, and the phrase the triage expected is unconfirmed until it is read.

@@ -64,3 +64,10 @@ Quotations are verbatim; inner quotation marks are rendered as single quotes. Lo
 ## Verification
 
 2026-11-05 · S6 verifier, batch b02 (opus; not the writer) · verdict: corrected · checked: loci 10/10 found on the stated pages; metadata vs crossref (authors, title, Nature 623(7987) 493–498, 2023, journal-article, DOI) and openalex (review, bronze OA) match; depth full_text honest; sha256 matches · changed: deception locator p. 496 → pp. 496–497; rewrote the fine-tuning Caution line, which said fine-tuned systems 'differ' where the authors say the framing still applies (pp. 494–496)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found in shanahan2023role.txt (two-column layer, columns interleaved) on the stated pages, confirmed by the printed footers 493–497; frontmatter vs crossref.json and openalex.json (Shanahan, McDonell, Reynolds; Nature 623(7987), 493–498; online 2023-11-08, print 2023-11-16; DOI); sha256 recomputed; full_text depth honest; the c4/c7/c9 contrast uses follow the source and name the passive-simulator point with its locus.
+- Changed: nothing.
+- For the author: nothing.

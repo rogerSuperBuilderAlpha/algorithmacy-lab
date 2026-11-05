@@ -47,3 +47,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (authors, year 2011, title, Cognitive Science 35(8) 1489-1517, DOI); abstract summary checked line by line against the OpenAlex abstract; depth abstract confirmed; sha256 both files recomputed, match · changed: object_read and Caution: the PMC fetch got 403 and a 259,657-byte non-PDF page (FETCH_LOG rows 38, 75), not only a 403; added that OpenAlex lists the PMC copy as the accepted version
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); authors, 2011 (online 2011-10-04, print 2011-11), title, Cognitive Science 35(8) 1489–1517, DOI and both sha256 values against crossref.json and openalex.json; abstract summary against the full OpenAlex abstract (its last clause, 'and even breaks in continuity of spatial and temporal location', is not summarised but nothing in the card contradicts it); FETCH_LOG rows confirm the 403 and the 259,657-byte page; DECISIONS line 53 confirms the Cutting 2005 swap; the c6 use is marked as the paper's reading.
+- Changed: nothing.
+- For the author: the PMC accepted version (PMC3208769) is on the browser list (row 45); the card should be upgraded from it before §4.2 cites a finding.

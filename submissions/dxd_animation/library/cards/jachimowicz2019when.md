@@ -66,3 +66,10 @@ Quotations are verbatim, except that the text layer's ligature characters are wr
 ## Verification
 
 2026-11-05 · S6 verifier, batch b04 (opus; not the writer) · verdict: corrected · checked: loci 10/10 found at the stated journal pages (PDF p. 1 = p. 159); body numbers checked (n = 73,675, d+ = 0.63, 27.24 %, ten null, I2 = 98.21 %, κ = 0.59 p. 173, trim-and-fill 0.80, online vs offline n.s. in Tables 1–2 pp. 171, 175); metadata vs crossref/openalex (authors, 2019 vol. 3(2), 159–186, DOI) match; partial depth honest; sha256 matches; four sections in order · changed: What it argues: added Appendix B (p. 186) to the parts not read
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found verbatim in jachimowicz2019when.txt and a fresh pdftotext extraction, each on the printed journal page its locator gives (PDF p. n = p. 158 + n; the d = 0.68 sentence sits under 'Results: effect size' on the page headed 164); the body figures in 'What it argues' and Caution (n = 73,675; 27.24; I2 = 98.21; d+ = 0.63; trim-and-fill 0.80; ten null observations; kappa 0.59; Egger; robust variance; Appendices A and B) found in the text; four authors (capitals in Crossref), 2019, title, BPP 3(2) 159–186, DOI against crossref.json and openalex.json; sha256 of the PDF matches sha256.txt; partial depth honest (the card names what it did not read); OUTLINE line 69 does cite d = 0.68 with endorsement, and CHECK F5 does ask for presentation evidence.
+- Changed: nothing.
+- For the author: two wording choices the card leaves open: '58 studies' (abstract, CHECK F5) versus '58 datasets from 55 studies' (method, p. 163), and the move from endorsement to 'defaults presuppose a fixed goal', which the card marks as the paper's own inference.

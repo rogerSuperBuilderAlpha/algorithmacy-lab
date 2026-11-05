@@ -47,3 +47,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct); author, year, title, venue, 50(5), 364–371, DOI vs Crossref; depth metadata honest (no abstract in record); triage quotation found; sha256 recomputed · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); Crossref record carries no abstract, so metadata depth is honest; Slovic, 1995 (May), "The construction of preference.", American Psychologist 50(5), 364–371, APA, DOI match; sha256 recomputed and matches; the c1/c2 use is stated as unsupported until read, which is right.
+- Changed: nothing.
+- For the author: nothing (closed; on BROWSER_LIST).

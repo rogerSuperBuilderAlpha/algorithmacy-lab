@@ -50,3 +50,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for metadata); title, author, container, pp. 31-62, 1986 print date, DOI, URL, CRC Press/Boca Raton, ISBN and created date match crossref.json; depth metadata honest (no abstract in the record); no claim beyond the record; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs crossref.json (Norman; "Cognitive Engineering"; *User Centered System Design* pp. 31–62; CRC Press, Boca Raton; 1986 print date; ISBN 9780367807320; DOI; record created 2026-03-13); sha256 recomputed; metadata depth honest; the c1 use is marked unread.
+- Changed: nothing.
+- For the author: `role: anchor`, `load: load-bearing` on a metadata card. The triage row quoted an OpenAlex abstract (W4239943223) that was never fetched into the folder; a fetch would lift the card to abstract depth. The chapter is BROWSER_LIST row 12.

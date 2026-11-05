@@ -48,3 +48,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct: no text layer); authors, year, title, venue, 57(2), first page 243, DOI vs Crossref; depth metadata honest; sha256 recomputed and matches; Caution claims about the old card checked against it · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for a metadata card); authors, April 1944, title, AJP 57(2), first page 243, University of Illinois Press, DOI, cited-by 2173 and sha256 against crossref.json; prior_cards declares the dxd_animator card; c6 and c7 uses marked as the triage's expectation, not a read.
+- Changed: nothing.
+- For the author: JSTOR copy through the library (browser list row 29); the card stays metadata until then.

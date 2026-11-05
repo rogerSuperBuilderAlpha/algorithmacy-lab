@@ -57,3 +57,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0; metadata vs crossref.json; depth metadata honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); crossref.json gives Scott Bukatman, "The Poetics of Slumberland", subtitle "Animated Spirits and the Animating Spirit", University of California Press, 2012-03-26, ISBN 9780520951501, count 144, as the card says; sha256 matches; claim use: c7 is limited to "the book exists and its subtitle names the pair".
+- Changed: nothing.
+- For the author: nothing.

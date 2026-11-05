@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None); metadata vs OpenAlex (authors, 2018, title, no DOI, venue via locations); abstract summary checked against the OpenAlex abstract; depth abstract confirmed; sha256 openalex.json recomputed, matches · changed: venue field and Caution: the OpenAlex record itself supports ECIS 2018 Research Papers 113 (ECIS location, landing page ecis2018_rp/113, raw source 'Research Papers'), so the 'not from the record' note was wrong; object_read notes the AIS URL is the record's landing page; Caution's 'OUTLINE section 4.1 and section 247' fixed to OUTLINE lines 144 and 247
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); authors, 2018, title, no DOI, venue via the OpenAlex locations (ECIS source, landing page ecis2018_rp/113, raw source 'Research Papers') and sha256 against openalex.json; abstract summary against the OpenAlex abstract; OUTLINE lines 144 and 247 do name the 2022 paper, as Caution says; c5 and c6 uses marked as the paper's framing.
+- Changed: nothing.
+- For the author: the OpenAlex ECIS location's landing page is https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1112&context=ecis2018_rp, which on the AIS eLibrary is normally the PDF itself; the scripted fetch read records only and never tried it. A browser may open it and take the card to full text.

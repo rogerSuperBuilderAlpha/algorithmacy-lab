@@ -52,3 +52,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct for abstract); every quoted phrase found verbatim in the rebuilt abstract; authors, 114(4), pp. 864-886, DOI, URL, counts 3521 (Crossref) and 4192 (OpenAlex) match; depth abstract honest; sha256 matches; four sections in order · changed: removed the untested claim that both DOI case forms 'resolve to the same record'; moved the 'Not cited ... status candidate' line from the uses section to Caution, since it is not a claim-tag bullet
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); every quoted phrase in "What it argues" is in the OpenAlex abstract rebuilt from the inverted index (including the double hyphen before "the accessibility"); frontmatter vs crossref.json and openalex.json (three authors, Psych Review 114(4), 864–886, DOI stored with lower-case x, title with a final full stop, counts 3521 and 4192); sha256 of both files matches; claim uses: c4 marks the animation link as the paper's; c6 states both what helps and what cuts.
+- Changed: nothing.
+- For the author: not located by any open route (BROWSER_LIST row 35); a library copy would take an F3 support card to full text.

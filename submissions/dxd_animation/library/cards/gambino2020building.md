@@ -46,3 +46,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (authors, 2020, title, Human-Machine Communication 1, 71-86, DOI); abstract summary checked against the Crossref abstract; depth abstract confirmed; sha256 both files recomputed, match · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for an abstract card); authors, 2020, title, Human-Machine Communication 1, 71–86, DOI and both sha256 values against crossref.json and openalex.json; the abstract summary against the Crossref abstract sentence by sentence; the c6 contrast follows from the abstract's human-media-script claim and is marked as outline only.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (OpenAlex names a UCF STARS published-version PDF and a DOAJ route; both refused the scripted fetch).

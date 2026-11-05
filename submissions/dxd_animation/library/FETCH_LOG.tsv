@@ -81,3 +81,5 @@ lipshitz2001taking	10.1002/bdm.381		https://stars.library.ucf.edu/scopus2000/371
 maeda2025anthropomorphism	10.1609/aies.v8i2.36664	explicit_url_curl	https://ojs.aaai.org/index.php/AIES/article/download/36664/38802	200	135388	07de333360fb75016a54c6815ce9bbeb8a4cb527dc7f8b843c4734f3cbc3b6f3	95291	13	ok
 dragicevic2011temporal	10.1145/1978942.1979233	explicit_url_curl	https://inria.hal.science/inria-00556177/document	200	711408	b6a7c995774f5d197e3cde1fa0763874f33faabce7f6b5a0cbc392fddc0eb893	72188	11	ok
 chevalier2016animations	10.1145/2909132.2909255	explicit_url_curl	https://enac.hal.science/hal-01322962/document	200	1160377	bec93627de462aa519291af4ed807ad2c1f3006742cf066d8f697e1254de4cd0	70274	9	ok
+hoerl2015seeing	10.1111/j.1468-0378.2012.00565.x	explicit_url_curl (S7 follow-up)	https://wrap.warwick.ac.uk/50746/1/WRAP_Hoerl_ejop565.pdf	200	374419	6f1939bfe0d53373465e6f9cbdbc6e0bd96c8e37b67b37c44d4c777ab5cc6e67	96032	28	ok (accepted version)
+gnewuch2018faster		explicit_url_curl (S7 follow-up)	https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1112&context=ecis2018_rp	200					fail: HTML, not PDF; browser list

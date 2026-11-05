@@ -76,3 +76,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: corrected · checked: loci 0/0; every quotation in What it argues found verbatim in the OpenAlex text; metadata vs crossref/openalex; depth abstract honest · changed: Caution: the Illusion of Life bullet misdescribed CHECK F11 (F11 recommends Thomas and Johnston 1981 and cites Silvio 2010 p. 428; it does not concern Cholodenko); rewritten as a homonym note
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); every quotation in "What it argues" is in the OpenAlex text rebuilt from the inverted index, which does end in the running head "6 : : 'First Principles' of Animation"; frontmatter vs crossref.json and openalex.json (Cholodenko, 2014, Animating Film Theory, Duke, 98–110, DOI, chapter-pdf URL; no editor in either record; counts 21 and 35); sha256 of both files matches; claim uses: c5 and c7 are stated as not yet supported, which is honest for the excerpt.
+- Changed: nothing.
+- For the author: DECISIONS approved this as full text (bronze) but the fetch got 403 (BROWSER_LIST row 40); the editor (K. Beckman, per triage) stays out of the APA string until the title page is seen.

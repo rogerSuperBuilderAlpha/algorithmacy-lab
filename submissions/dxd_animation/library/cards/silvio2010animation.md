@@ -76,3 +76,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0 (none claimed); metadata and abstract quotations vs crossref.json all verbatim; depth abstract honest (folder holds crossref.json only) · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, abstract card); every abstract quotation in "What it argues" is verbatim in crossref.json; frontmatter vs the record (Silvio, Teri; JLA 20(2), 422–438; online 2010-11-19, print 2010-12; DOI; 107 citing works); sha256 recomputed; abstract depth honest; c4/c7 uses say the page loci are unread here.
+- Changed: nothing.
+- For the author: status cited, role anchor, load-bearing, yet every page the paper or CHECK gives (pp. 422, 428, 432) reaches the lab only through L. Stark (2024). The article (BROWSER_LIST row 2) must be read before Silvio is quoted directly.

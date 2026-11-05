@@ -59,3 +59,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0; metadata vs crossref.json; depth metadata honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs crossref.json (Payne, Bettman, Johnson with the Fuqua and Wharton affiliations; 1992-01; Annual Review of Psychology 43(1), 87–131; DOI; 994 citing works); sha256 recomputed; metadata depth honest; c1 use kept at "exists".
+- Changed: nothing.
+- For the author: the anchor role rests on the title alone until the review is read (BROWSER_LIST row 10).

@@ -40,3 +40,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; authors, 2007, title, TVCG 13(6) 1240–1247, DOI, issued 2007-11 match Crossref; no abstract in record, so metadata depth honest; no argument claimed · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for a metadata card); authors, 2007-11, title, TVCG 13(6) 1240–1247, DOI and sha256 against crossref.json (no abstract); c8 use limited to 'exists'.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (row 15).

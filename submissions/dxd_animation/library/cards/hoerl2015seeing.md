@@ -70,3 +70,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0; abstract quotations verbatim; metadata vs crossref/openalex; registered_year 2012 correct; depth abstract honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None; the five abstract phrases in 'What it argues' are verbatim from the OpenAlex abstract, rebuilt from the inverted index, and cited as the abstract); author, title, EJP 23(3) 676–702, DOI, online 2012-08-29, print 2015-09, registered_year 2012, pdfdirect URL, counts 9/25 and both sha256 values against crossref.json and openalex.json; FETCH_LOG 403; SOURCE Pass 2 line 32 does say the viewer 'locks in' and 'the perceptual gaps disappear', and CHECK F12 does propose apparent motion after Wertheimer, so the c6 contrast is stated correctly.
+- Changed: nothing.
+- For the author: besides the Wiley bronze URL the OpenAlex record lists an accepted-version PDF at Warwick WRAP (http://wrap.warwick.ac.uk/50746/1/WRAP_Hoerl_ejop565.pdf) and a PhilPapers archive copy (philarchive.org/rec/HOESMA); either may open in a browser and would let the card answer what Hoerl thinks does underlie cinema motion (DECISIONS finding b), which the abstract leaves open.

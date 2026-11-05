@@ -63,3 +63,10 @@ Page locators are PDF pages counted by form feeds in the HAL copy (the cover pag
 ## Verification
 
 2026-11-05 · S6 verifier, batch b06 (opus; not the writer) · verdict: verified · checked: loci 12/12 found on the stated PDF pages (matched against a fresh pdftotext extraction because the stored .txt interleaves columns); metadata vs crossref.json and openalex.json (authors, year, title/subtitle, AVI '16, pp. 280–287, DOI) and the HAL title page; sha256 recomputed and matches; depth full_text consistent with the 9-page PDF; summary facts (over 200 examples, 20 interviewees, five categories, Table 1 on PDF p. 3, §2.1 evaluation remark on PDF p. 3) found in the text · changed: added one Caution note on the Crossref split of "Henry Riche"
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found in a fresh pdftotext extraction of the HAL PDF (sha256 bec9362… unchanged; the stored .txt interleaves columns); PDF pages by form feed (cover = p. 1): all twelve locators correct; locus 2 prints the Betrancourt and Tversky definition in double quotes, converted as the card says; frontmatter vs crossref.json and openalex.json (five authors, title "Animations 25 Years Later" with Crossref subtitle "New Roles and Opportunities", AVI '16, 280–287, DOI); provenance.txt matches; claim use: c8 is marked as a stretch, in line with CHECK F11, and the card says what the source does support.
+- Changed: nothing.
+- For the author: SOURCE.md (Pass 2) cites this work for "the core methodologies of the animator"; the source reviews interface-animation roles, not the animator's craft. The sentence is the author's to keep, re-cite or reword (CHECK F11 already says so).

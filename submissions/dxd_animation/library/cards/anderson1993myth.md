@@ -44,3 +44,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: corrected · checked: loci 0/0; authors, 1993, title, JFV 45(1) 3–12, ERIC landing URL, no DOI match OpenAlex; status cited confirmed (OUTLINE 'rec', CHECK F12); prior card's claims confirmed absent from the record; depth abstract honest · changed: Caution's OCR note corrected: the card's quotations close the record's breaks rather than reproduce them, and the record omits the term 'persistence of vision' itself (not just its quotation marks); the card now says where the term comes from
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); the OpenAlex record (W165434426) gives the authors, 1993, JFV 45(1), 3–12, no DOI and the ERIC landing page as the card has them; the abstract text does drop the term after "the concept of" and does read "Vi sion" and "expla nation", as the Caution says; claim use: c6 is held to "persistence of vision is inadequate", and the active-viewer claims of the dxd_animator card are marked unverified.
+- Changed: nothing.
+- For the author: the full text (pp. 3–12, BROWSER_LIST row 28) is needed before the earlier card's active-viewer claims can be used.

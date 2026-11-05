@@ -57,3 +57,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0; metadata vs crossref.json; depth metadata honest; author correctly marked unchecked · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs crossref.json (title "2. animatedness", pp. 89–125, *Ugly Feelings*, Harvard University Press, 2004-12-31, DOI; no author, no abstract); sha256 recomputed; c7 use kept at "exists" and the "moved by another" gloss marked as FACETS's.
+- Changed: nothing.
+- For the author: the author's name is not in any record in the folder; confirm Sianne Ngai from the chapter's title page when it arrives (BROWSER_LIST row 4).

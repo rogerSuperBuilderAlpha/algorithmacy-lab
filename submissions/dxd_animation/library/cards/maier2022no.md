@@ -57,3 +57,10 @@ Quotation marks inside quotations are single; none occur in these quotations as 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b05 (opus; not the writer) · verdict: verified · checked: loci 5/5 found in maier2022no.txt (column-interleaved layout; each sentence rebuilt from its column), locators p. 1 of 2 / p. 2 of 2 confirmed; authors, year 2022, title, venue, 119(31), article number e2200300119 and DOI agree with crossref.json, openalex.json and the printed footer; Table 1 figures (0.43 [0.38, 0.48]; 0.04 [0.00, 0.14], BF01 = 0.95; 0.11 [0.00, 0.24], BF01 = 0.31) and the ref. 11 / ref. 12 footnote mismatch confirmed as printed; full_text depth honest (2-page Letter read whole); sha256 b8fd3d69… recomputed and matches · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 5/5 loci found in maier2022no.txt (two-column layer interleaves the columns; each sentence re-read from its own column), locators p. 1 of 2 / p. 2 of 2 confirmed; frontmatter vs crossref.json (six authors, 2022, title, PNAS 119(31), article e2200300119, DOI) and sha256 of the PDF recomputed; c1 contrast use follows the source and the card states the stretch.
+- Changed: nothing.
+- For the author: nothing.

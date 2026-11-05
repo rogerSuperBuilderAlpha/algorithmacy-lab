@@ -61,3 +61,10 @@ Page locators are the PDF page numbers, which match the arXiv page numbers print
 ## Verification
 
 2026-11-05 · S6 verifier, batch b06 (opus; not the writer) · verdict: corrected · checked: loci 10/10 found on the stated pages; metadata vs csl.json and openalex.json (Wadi and Ma, 2026, title, arXiv DOI 10.48550/arxiv.2609.28372, W7214217042, one citation) and the PDF header (arXiv:2609.28372v2 [econ.GN] 13 Oct 2026; McGill); sha256 recomputed and matches; depth partial honest; summary facts (N = 33,704, eight LLMs from three providers, validation studies point to acquisition rather than utilization on PDF p. 13, two alternatives in Study 1 and three in Study 2 on p. 16, "suggestive rather than conclusive" p. 15) found in the pages read · changed: Web Appendix page range corrected (figures/tables pp. 22–23, appendix from p. 24); added a Caution note on the csl.json version field
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found verbatim in wadi2026shopping.txt on the form-feed pages the card gives (1, 1, 2, 5, 14, 15, 16, 16, 16, 8), with the arXiv page numbers printed at the foot; p. 1 prints arXiv:2609.28372v2 [econ.GN] 13 Oct 2026 and McGill; "suggestive rather than conclusive" p. 15, "differs from the internal costs" p. 16, 33,704 p. 2; csl.json (DataCite, DOI 10.48550/ARXIV.2609.28372, version 2) and OpenAlex W7214217042 (2026-09-23, one citation, Wadi and Ma) match the frontmatter; sha256 recomputed and matches; partial depth honest with the pages read listed; the c1 and c3 uses follow and the card marks both as loose (fixed goal; simulated storefront; the human never sees the interaction).
+- Changed: nothing.
+- For the author: nothing.

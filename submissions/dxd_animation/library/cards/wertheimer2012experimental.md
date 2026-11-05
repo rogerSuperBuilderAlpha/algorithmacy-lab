@@ -65,3 +65,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: corrected · checked: loci 0/0; metadata vs crossref.json; depth metadata honest · changed: Caution: the card said DECISIONS asks to confirm the editor "from the title page"; DECISIONS actually states "Editor confirmed from the title page". Rewritten to quote it and flag it as unsupported this run; added that FACETS' "the 2012 translation is confirmed" is also not shown by the record
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); the Crossref chapter record shows exactly what the card says: book-chapter, "Experimental Studies on Seeing Motion", container "On Perceived Motion and Figural Organization", The MIT Press, 2012, ISBN 9780262305686 (electronic), language en, no author, editor, pages or abstract; sha256 recomputed and matches; the author field is marked unchecked, which the record requires; load "exists" is right for an unread text; the c6 use is stated as unsupported until read.
+- Changed: nothing.
+- For the author: the chapter record names no author, editor or translator; the book record (10.7551/mitpress/9222.001.0001, per the triage) or the title page settles who to credit. Until then the APA entry stands with its bracket.

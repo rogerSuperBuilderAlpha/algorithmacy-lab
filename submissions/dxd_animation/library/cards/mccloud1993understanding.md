@@ -48,3 +48,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for metadata); author, title, 1993, 19 editions, 17 publisher names and the two data errors match the record; 1993 publisher correctly marked unchecked; depth metadata honest; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs openlibrary_search.json (OL276032W, Scott McCloud, first publish year 1993, 19 editions, 17 publisher names, the two data errors); sha256 recomputed; metadata depth honest; c6 use kept at "exists".
+- Changed: nothing.
+- For the author: nothing new. The chapter on closure is BROWSER_LIST row 27.

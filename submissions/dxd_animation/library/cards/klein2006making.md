@@ -47,3 +47,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct); authors (initials only), year, title, venue, 21(4), 70–73, DOI vs Crossref; depth metadata honest; sha256 recomputed · changed: What it argues: 'the title says it surveys alternative perspectives' softened to what the title names, since 'surveys' goes beyond the record
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for a metadata card); authors as initials, July 2006, title, IEEE Intelligent Systems 21(4) 70–73, IEEE, DOI and sha256 against crossref.json (no abstract); the earlier card's definition stays marked unchecked.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (row 31).

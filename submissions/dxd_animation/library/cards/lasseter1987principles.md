@@ -44,3 +44,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; author, 1987, title, proceedings container, pp. 35–44, DOI 37401.37407 match both records; abstract quotations match OpenAlex; prior card's 37402 DOI, 21(4), principle list and count 272 confirmed as described; depth abstract honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None; the three abstract phrases in 'What it argues' are verbatim from the OpenAlex abstract and cited as the abstract); author, 1987-08, title, SIGGRAPH '87 proceedings container, pp. 35–44, ACM, DOI 10.1145/37401.37407 and both sha256 values against crossref.json and openalex.json; the prior card's principle list and second DOI correctly left unchecked.
+- Changed: nothing.
+- For the author: the principle list the paper would need for c8 is not in any record read; full text through the library (browser list row 39).

@@ -64,3 +64,10 @@ No inner quotation marks were converted. Locators are the proceedings page numbe
 ## Verification
 
 2026-11-05 · S6 verifier, batch b03 (opus; not the writer) · verdict: verified · checked: loci 12/12 found verbatim, all page and section locators correct (§3.1, §4, §5.1.1, §5.2, §5.3, §5.5 confirmed); Table 2 on p. 853 lists 16 dimensions, 13 significant, persuasiveness F = 76.8881; the session-order contradiction in §3.1 confirmed; NPC comparison on p. 857 confirmed ("non-playable characters"); author, 2025, title, IUI '25, 15 pages (pp. 846–860) and DOI match the printed ACM reference format; no registry JSON in the folder; read_depth full_text supported; sha256 714377… of the PDF recomputed and matches provenance.txt · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found in a fresh pdftotext extraction of the PDF (sha256 714377… unchanged; the stored .txt interleaves columns); pages mapped by form feed from p. 846: all twelve page locators correct; N = 103, "16 critical dimensions", persuasiveness F = 76.8881, the CC BY line, the NPC comparison and the §3.1 session-order contradiction confirmed; no registry record in the folder, and object_read says the imprint comes from the printed ACM reference; claim uses: c4 and c5 are both marked as stretches, with the interpretation-versus-measurement point made in Caution.
+- Changed: nothing.
+- For the author: nothing.

@@ -64,3 +64,10 @@ No inner quotation marks were converted. The text layer has no page numbers, so 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b03 (opus; not the writer) · verdict: corrected · checked: loci 10/10 found verbatim; all section locators consistent with heading order (Introduction, Results, Discussion, Methods); p = 0.212 and p = 0.029, alpha 0.63 and 0.66, two to four errors, reference 47 (arXiv:2305.09800) and the global trustworthiness discrepancy confirmed; authors, 2024, title, Scientific Reports 14, article 17127 and DOI match the PMC header; read_depth full_text supported (no figures); sha256 637059… recomputed and matches provenance.txt · changed: (1) "1,222 participants recruited, 556 and 666 analysed" to "1,222 participants in total (final samples of 556 and 666)": the source gives 1222 as the total and 556 + 666 = 1222 are the final samples; (2) "half the participants saw unbranded versions" to "randomly assigned to branded or unbranded versions", which is what the Methods say
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found in anderl2024conversational.txt (locus 2 prints "type" in double quotes, converted as the card says); the PMC header gives Sci Rep, volume 14, article 17127, PMC11272919, PubMed 39054335 and the DOI; N = 556, N = 666, 1222, α = 0.63, α = 0.66, "two to four errors", "unbranded" and the Abercrombie preprint reference confirmed in the text; sha256 6370592… of both .txt copies matches provenance.txt; no Crossref or OpenAlex record is in the folder, and object_read says so; claim uses: c5 and c6 are both marked as stretches, with the Experiment 1 null result stated.
+- Changed: nothing.
+- For the author: nothing. (If the paper cites the dynamic-text effect on its own, cite Experiment 2, as the Caution says.)

@@ -60,3 +60,10 @@ Quotations are verbatim; inner quotation marks, where any, are single quotes. Lo
 ## Verification
 
 2026-11-05 · S6 verifier, batch b02 (opus; not the writer) · verdict: verified · checked: loci 9/9 found on the stated pages (two-column interleave read by hand); metadata vs crossref (authors, 2008-12-16, title, JEMR 2(2), DOI; no pages in Crossref) match; percentages 15.8/25.1/32.4/9.4/10.9, n=7 and 117 cuts checked; depth full_text honest; sha256 matches · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found in smith2008edit.txt once the two columns are read across line breaks, each on the form-feed page the card gives (pp. 1, 1, 4, 7, 8, 11, 11, 12, 13); Crossref gives Smith and Henderson, JEMR 2(2), DOI, issued 2008-12-16 and no page field, as the card says; the running header "1-17" and DOI appear on every page; sha256 of the PDF recomputed and matches; 15.8/25.1/32.4/9.4/10.9 and 117 found on pp. 7–8; full_text depth honest; the c6 use follows and the card marks "the user also animates" as the paper's step.
+- Changed: nothing.
+- For the author: nothing.

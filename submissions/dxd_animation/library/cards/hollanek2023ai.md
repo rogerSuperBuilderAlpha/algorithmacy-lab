@@ -63,3 +63,10 @@ Quotation marks inside quotations are single, as printed in the source. Locators
 ## Verification
 
 2026-11-05 · S6 verifier, batch b05 (opus; not the writer) · verdict: corrected · checked: loci 10/10 found in hollanek2023ai.txt (two-column layout; each sentence rebuilt from its column), all page and section locators confirmed; author, year 2023 / registered_year 2020 (Crossref online 2020-11-17, print 2023-10), title, venue, 38(5), 2071–2079 and DOI agree with crossref.json and the printed header; full_text depth honest; sha256 d2ad739f… recomputed and matches · changed: (1) "What it argues" said critique from inside the firm "may only anticipate itself"; the source (p. 2077) asks whether in-house checks lead to "anything more than design that anticipates critique", so the sentence now quotes that question with its page; (2) "the Encyclopédie's plates" replaced by the source's own naming (Diderot and d'Alembert's Encyclopedia, pp. 2074–2075)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found in hollanek2023ai.txt (the text layer interleaves the two columns, so each sentence was rebuilt; all ten also match a fresh pdftotext extraction) and each on the page its locator gives (PDF p. n = p. 2070 + n); author, title, AI & Society 38(5) 2071–2079, DOI, online 2020-11-17, print 2023-10, registered_year 2020 and the 'Student Forum' header against crossref.json, openalex.json and the printed first page; sha256 of the PDF matches sha256.txt; the names in 'What it argues' (Flusser, Bratton, Diderot and d'Alembert, Crawford and Joler, Paglen, Chaslot's Algotransparency, Aether Committee, Dunne and Raby, Ratto, Zuboff's 'automate us') all appear in the text; the c8 and c3 uses state their limits (critique, not craft; Zuboff's account, not his).
+- Changed: nothing.
+- For the author: nothing.

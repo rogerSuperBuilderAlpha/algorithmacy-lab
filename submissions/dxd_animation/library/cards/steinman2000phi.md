@@ -46,3 +46,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (authors, Aug 2000, title, Vision Research 40(17) 2257-2264, DOI); depth metadata confirmed (no abstract in either record); sha256 both files recomputed, match · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); neither record carries an abstract and no text layer exists, so metadata depth is honest; Steinman, Pizlo, Pizlo, Aug 2000, title, Vision Research 40(17), 2257–2264, DOI match Crossref and OpenAlex W2099773696; sha256 of both files recomputed and match; the card rightly says the c6 contrast is the triage's inference from the title.
+- Changed: nothing.
+- For the author: nothing new (finding b stays open until this and Hoerl 2015 are read; on BROWSER_LIST).

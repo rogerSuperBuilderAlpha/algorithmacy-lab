@@ -60,3 +60,10 @@ Quotations are verbatim; where the text layer breaks a word at a line end, the c
 ## Verification
 
 2026-11-05 · S6 verifier, batch b02 (opus; not the writer) · verdict: corrected · checked: loci 8/8 found on the stated pages; metadata vs running head and the F2.jsonl OpenAlex record (no crossref/openalex file in the folder); DOI only from F2.jsonl; depth full_text honest; sha256 matches provenance.txt · changed: overall-recall locator pp. 220–221/220–222 → pp. 219–221/219–222 (the no-difference result is on p. 219)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 8/8 loci found in schwan2000do.txt (two-column OCR layer, columns interleaved; each sentence re-read from its column); pages 214, 215, 216, 221, 222 confirmed by the printed running heads; "about fifteen minutes" / "15.5 min" present for the card's "about 15 minutes"; the running head gives 28(2), 214–223; the DOI appears only in search/F2.jsonl (no Crossref or OpenAlex file in the folder, as the card says); sha256 matches provenance.txt; c6 use states which half of the triage claim the source supports.
+- Changed: nothing.
+- For the author: the second author's given name follows the OCR layer ("Barbel"); F2.jsonl carries no author names, so the umlaut cannot be settled from the folder. A Crossref record fetch for 10.3758/bf03213801 would settle it before the reference list is built.

@@ -62,3 +62,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0; metadata vs openlibrary_search.json; depth metadata honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); openlibrary_search.json holds the two works, years (1998, 2008), edition counts (4, 3), publishers and ISBNs exactly as the card lists them; sha256 matches; claim use: c5 is held to "the record cannot carry the McLaren line", which is right.
+- Changed: nothing.
+- For the author: §4.1's McLaren line still has no citable source (DECISIONS finding e); a copy of either edition (BROWSER_LIST row 3) is needed to confirm that Furniss reprints the definition and on which page.

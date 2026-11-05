@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct); authors, year, title, container title, 45–55, DOI and the PRS93 event field vs Crossref; depth metadata honest; sha256 recomputed · changed: title-based paraphrase of the argument cut; 'Lasseter 1987 as the F1 anchor' corrected to the triage's 'under F1'; Caution note added that the triage quotes an abstract not held locally
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); crossref.json gives Chang and Ungar, the UIST '93 container title, December 1993, 45–55, ACM, DOI, and the odd event field "PRS93: Parallel Rendering Symposium", as the card says; sha256 matches; claim use: c8 is held to "exists".
+- Changed: nothing.
+- For the author: nothing (closed, BROWSER_LIST row 34).

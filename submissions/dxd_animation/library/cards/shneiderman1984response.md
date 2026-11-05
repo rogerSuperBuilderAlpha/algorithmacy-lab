@@ -47,3 +47,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (author, 1984, title, ACM Computing Surveys 16(3) 265-285, DOI); abstract summary checked against the OpenAlex abstract (Crossref has none); depth abstract confirmed; sha256 both files recomputed, match · changed: c5 bullet: removed the claim that the abstract uses 'display rate' in a 1984 sense of showing output (the abstract does not define it); Caution: replaced 'command-driven systems' with what the abstract says (frequent users, profile of commands)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, abstract card; the card quotes nothing because the OpenAlex abstract is OCR-garbled); the paraphrase matches the OpenAlex abstract (W2104839312) sentence by sentence; frontmatter vs crossref.json and openalex.json (Shneiderman; 1984; ACM Computing Surveys 16(3), 265–285; DOI); both sha256 recomputed; abstract depth honest; c5 use states the step from display rate to token pacing is the paper's.
+- Changed: nothing.
+- For the author: `role: anchor`, `load: load-bearing` on an abstract. ACM returned 403 (FETCH_LOG row 47); the article is BROWSER_LIST row 19.

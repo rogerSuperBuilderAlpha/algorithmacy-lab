@@ -50,3 +50,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct); authors, year, title and subtitle, venue, pp. 5286–5297, DOI vs Crossref and OpenAlex; abstract quotation matched; depth abstract honest; sha256 recomputed for both files; tags against FACETS · changed: facets [F3] to [F3, F8] and claims [c1, c4] to [c4, c6] per FACETS; c1 bullet replaced by a c6 bullet; Caution note recording the change
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None; the two abstract phrases quoted are verbatim from the OpenAlex abstract); authors, 2016-05-07, title and subtitle, CHI '16 San Jose, pp. 5286–5297, ACM, DOI and both sha256 values against crossref.json and openalex.json; FACETS line 44 lists Luger & Sellen under F8 (also F3) and line 158 gives c6, so the verifier's tag change stands; the earlier card's 'shrank their goals' claim stays unchecked.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (row 37).

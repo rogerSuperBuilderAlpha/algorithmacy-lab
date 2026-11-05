@@ -44,3 +44,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for abstract); authors, year, title, venue, 18(3) 155–169, DOI match Crossref/OpenAlex; abstract paraphrase and quotations match the record; depth abstract honest (no .pdf/.txt) · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for an abstract card); the three phrases quoted in "What it argues" match the Crossref and OpenAlex abstracts word for word; author, 2008, title, JCP 18(3), 155–169, DOI match both records; sha256 of both JSON files recomputed and match; no PDF or .txt in the folder, so abstract depth is honest; c1 contrast use follows from the abstract and the card marks the conversation step as the paper's.
+- Changed: nothing.
+- For the author: nothing (full text on BROWSER_LIST).

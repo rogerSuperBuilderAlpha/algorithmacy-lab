@@ -68,3 +68,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: verified · checked: loci 0/0; metadata vs crossref.json; depth metadata honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs crossref.json (title and subtitle; Silvio, Teri J. as author; Alexy, Allison under `editor`; type edited-book; print 2019-09-30, online 2022-03-30; ISBN 9780824880989 electronic; DOI); sha256 recomputed; metadata depth honest; c4/c7 uses say p. 52 is unread and reaches the paper through Stark.
+- Changed: nothing.
+- For the author: two items. (1) Alexy's role differs between Crossref (editor) and the triage file's Open Library reading (second author); the title page settles it. (2) The p. 52 definition Pass 2 builds on is quoted only through Stark (2024, p. 1664); until the page is seen (BROWSER_LIST row 1) the paper should cite it as "quoted in Stark, 2024".

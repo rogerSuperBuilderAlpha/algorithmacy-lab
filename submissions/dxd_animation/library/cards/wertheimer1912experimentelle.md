@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for metadata); title (uber), author, 1912, language de, type dissertation / raw Hochschulschrift, biblio 61(3) 161-265, no DOI, closed, 975 citing works, URN and CiNii landing pages match; journal correctly marked unchecked; registry DOI mix-up confirmed as described; depth metadata honest; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); OpenAlex W3088045382 shows Max Wertheimer, 1912, language de, type dissertation with raw type "Hochschulschrift", no DOI, no abstract, no source, biblio 61(3) 161–265, 975 citing works, landing pages at nbn-resolving.org (urn:nbn:de:kobv:11-717944) and ci.nii.ac.jp, closed access, all as the card states; sha256 recomputed and matches; the journal name is marked unchecked, which is right since the record names none; rule 7 has nothing to apply to; the c6 use is stated as unread.
+- Changed: nothing.
+- For the author: (1) the registry row for this key carries Sekuler's DOI 10.1068/p251243 as if it were Wertheimer's; S8 should not emit it in references.bib. (2) The URN route to the German scan (BROWSER_LIST row 54) was not tried; the c6 wording in §4.2 waits on this read and on finding (b).

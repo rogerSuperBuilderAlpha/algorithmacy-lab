@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for metadata); author spelling, title, University of Minnesota Press, 2009 and ISBNs match; subtitle correctly left out; depth metadata honest; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for a metadata card); three Open Library work records (OL17203968W, OL15639738W, OL5846964W), author 'Thomas LaMarre', University of Minnesota Press, first publish year 2009, ISBNs 9780816651559 and 9780816651542 and sha256 against openlibrary_search.json; subtitle correctly left out; c5 and c8 uses limited to 'exists'.
+- Changed: nothing.
+- For the author: the chapter(s) on limited animation (browser list row 25); Ruddell (2008) carries the claim meanwhile, per DECISIONS.

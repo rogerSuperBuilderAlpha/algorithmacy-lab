@@ -65,3 +65,10 @@ Quotations are verbatim from the text layer. Inner quotation marks in the source
 ## Verification
 
 2026-11-05 · S6 verifier, batch b07 (opus; not the writer) · verdict: corrected · checked: loci 9/9 found verbatim in johnson2012beyond.txt (curly apostrophes and em-dash normalised), every page locator matches the printed page header, section page ranges (§1 488–493, §2 494–496, §3 496–498, §4 498–500) confirmed; metadata vs crossref/openalex (12 authors, year 2012, title, Marketing Letters 23(2), 487–504, DOI) match; UNBC OJS route confirmed in openalex.json as "Annual Review of Policy Design", publishedVersion, no licence given; depth full_text honest; sha256 of .pdf recomputed and matched; earlier-card statements confirmed in the dxd_animator card; SOURCE.md "proves", CHECK F5 and DECISIONS row 248 confirmed · changed: "consumer-behaviour researchers" (not in the text) replaced by the business-school affiliations printed on p. 487 (Caution)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found verbatim in johnson2012beyond.txt (curly apostrophes and em-dashes normalised), each on the printed journal page its locator gives (PDF p. n = p. 486 + n); 'anyone who present[s]', 'no neutral architecture', 'the alternative most people prefer', 'ethical risks', 'full disclosure of decision design', 'its effects deserve further study', 'roadmap' and the business-school affiliations all found in the text; twelve authors, 2012, title, Marketing Letters 23(2) 487–504, DOI and the UNBC OJS route against crossref.json and openalex.json; sha256 of the PDF matches sha256.txt; SOURCE.md line 25 does say 'proves' and CHECK F5 does flag it, so the c1 use is stated correctly.
+- Changed: nothing.
+- For the author: the verb in SOURCE Pass 2 ('proves', Johnson et al. 2012) is the author's wording; the card and CHECK F5 recommend 'shows' with Jachimowicz et al. (2019) as the evidence. The author decides. The copy read is an OJS republication whose authorisation was not confirmed (Caution); citing the Springer DOI and pagination is unaffected.

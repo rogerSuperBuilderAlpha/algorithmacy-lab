@@ -48,3 +48,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None); metadata vs Crossref (authors, volume year 2026, issued 2026-06-15, title, Psychology & Marketing 43(10) 2623-2636, DOI); abstract summary checked against the Crossref abstract; depth abstract confirmed; sha256 crossref.json recomputed, matches · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); the summary matches the Crossref abstract (five studies, goal formation versus fulfillment, reduced decision autonomy, interdependent selves); frontmatter vs crossref.json (three authors, Psychology & Marketing 43(10), 2623–2636, DOI, issued 2026-06-15, print 2026-10); sha256 matches; the homonym note is right (OUTLINE line 181 cites a different Chen et al. 2026, `chen2026cua`); claim use: c1 states its limit (personalization reaction, not goal movement).
+- Changed: nothing.
+- For the author: nothing.

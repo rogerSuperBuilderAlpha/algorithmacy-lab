@@ -65,3 +65,10 @@ Quotations are verbatim, with inner double quotation marks changed to single quo
 ## Verification
 
 2026-11-05 · S6 verifier, batch b04 (opus; not the writer) · verdict: corrected · checked: loci 9/9 found at the stated PDF pages (quote 1 starts p. 1 and runs to p. 2, as located); metadata vs crossref/openalex (authors per the PDF byline; Crossref gives Pondoc's given name as 'Christopher' only), year, pages 1–19, DOI match; partial depth honest (19-page PDF, parts listed); sha256 matches; four sections in order · changed: Caution: the second interface analysed in §4 is Spellburst, not 'a design-pattern survey' (§4 heading 'Examining the envisioning gap in three LLM interfaces'; §4.2 'Creative Coding using Spellburst')
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found in subramonyam2024bridging.txt after splitting the columns and repairing line-end hyphens, each on the form-feed page the card gives (the first starts on p. 1 and ends on p. 2, as stated; p. 14 for the "sweet spot" sentence); the arXiv stamp 2309.14459v2, 18 Mar 2024 on p. 1; Crossref gives the five authors (Pondoc as "Christopher"), issued 2024-05-11, CHI '24, pages 1-19, DOI, all matching; sha256 recomputed and matches; partial depth honest, with the parts read listed; Duncker's "continual restructuring" on p. 8 and "emotion" once on p. 7, as the card says; the c1 use and its two stretches (fixed goal, "moving target" trap) are correctly marked, and the c2 bullet correctly limits support to the cognitive side.
+- Changed: nothing.
+- For the author: the triage mapped the abstract's "what the task should be" onto c1's moving goal; the body defines that gap as "how to" procedures for a goal the LLM can meet (p. 6). Cite it for the intention-stage gap, not for a goal that moves.

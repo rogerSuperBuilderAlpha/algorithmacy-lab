@@ -44,3 +44,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; four authors, 2018, title, EPD 36(6) 1136–1153, DOI match; 'Rachel J. Gordon' variant confirmed in OpenAlex; abstract paraphrase and quotations match; depth abstract honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); every quoted phrase in "What it argues" is in the Crossref and OpenAlex abstracts; frontmatter vs both records (four authors, EPD 36(6), 1136–1153, DOI, online 2018-04-13, print 2018-12); sha256 of both files matches object_read; claim uses: c1 and c8 are marked as the paper's readings, not the abstract's.
+- Changed: nothing.
+- For the author: nothing.

@@ -61,3 +61,10 @@ Quotations are verbatim; inner quotation marks are rendered as single quotes. Lo
 ## Verification
 
 2026-11-05 · S6 verifier, batch b02 (opus; not the writer) · verdict: corrected · checked: loci 7/7 found on the stated PDF pages; metadata vs crossref (author, title, NM&S 21(3) 712–728, online 2018-10-15, print 2019-03, DOI) match; depth full_text honest for the draft; sha256 matches · changed: Caution quote 'dispelled confusion' → verbatim 'dispelled their confusion' (p. 20); 'online issue' → online publication / print issue; Turkle paraphrase 'choose' replaced by the source's wording (p. 16); natale2021 note now cites registry/FACETS, since the triage did not call it the book
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 7/7 loci found in natale2019if.txt on the stated PDF pages (2, 14, 15, 15, 17, 20, 23); the "supplied largely by the person himself" (p. 15) and "breathe life into a machine" (p. 16) phrases also found; frontmatter vs crossref.json and openalex.json (Natale; NM&S 21(3), 712–728; online 2018-10-15, print 2019-03; `registered_year: 2018`); sha256 recomputed; full_text depth honest for the author draft; c4/c6 uses state the stretch.
+- Changed: nothing.
+- For the author: the card offers an untagged c3/c5 fit (opacity breeds narratives, abstract). Decide whether to tag it.

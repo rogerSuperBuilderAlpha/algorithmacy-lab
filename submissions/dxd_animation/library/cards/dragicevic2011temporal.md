@@ -60,3 +60,10 @@ Page locators are PDF pages counted by form feeds in the HAL copy (cover page = 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b06 (opus; not the writer) · verdict: corrected · checked: loci 10/10 found on the stated PDF pages (locus 2 across the line-end hyphen "slow-/out"); metadata vs crossref.json and openalex.json (five authors with Elmqvist, 2011, CHI '11, pp. 2009–2018, DOI) and the HAL cover; sha256 recomputed and matches; depth full_text consistent with the 11-page PDF; summary facts (12 paid students, n = 200 generated points, 1,038 camera objects, 1-second transitions, errors 0.28/0.49/0.63/0.65, Space bar, frame budget, smooth pursuit) found in the text · changed: [8, 18] attributed correctly (Chang and Ungar; Johnston and Thomas) in the c8 bullet and Caution; Lasseter located as ref [24] and his actual use recorded in Caution
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found in a fresh pdftotext extraction of the HAL PDF (sha256 b6a7c99… unchanged); PDF pages by form feed (cover = p. 1): all ten locators correct (locus 2 across "slow-/out", locus 3 with the double quotes converted, locus 6 as a bullet item); [8] = Chang and Ungar, [18] = Johnston and Thomas, [24] = Lasseter, 12 participants, 1,038 objects and the 0.28/0.49/0.63/0.65 errors confirmed; frontmatter vs crossref.json and openalex.json (five authors with Elmqvist, CHI '11, 2009–2018, DOI); claim uses: c8 is a fair worked case with its counter-reading stated; c5 is marked thin.
+- Changed: nothing.
+- For the author: FACETS F9 lists "Chevalier" in place of Elmqvist among the authors; FACETS is outside the cards and was left alone.

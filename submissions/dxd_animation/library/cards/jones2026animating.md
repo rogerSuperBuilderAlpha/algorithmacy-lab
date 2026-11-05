@@ -63,3 +63,10 @@ Page locators are the journal page numbers printed in the object read (ARAL 46, 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b06 (opus; not the writer) · verdict: verified · checked: loci 11/11 found, page locators consistent with the printed journal pages (PDF n = p. 33 + n; reference list on PDF p. 22 = p. 55); metadata vs crossref.json and openalex.json (Jones, Rodney H.; 2026; ARAL 46, no issue, 34–55; DOI; print March 2026, online 10 July 2026; CC BY 4.0); sha256 recomputed and matches FETCH_LOG.tsv; depth full_text consistent with the 22-page PDF; the reference list holds only Stark 2023 (Daily Nous), and the co-producer list (raters, spokespeople, journalists), Silvio "she", Keane, Agha and Blommaert and Varis all appear in the text · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 11/11 loci found in jones2026animating.txt (inner double quotes rendered as single, as the card says) and in a fresh pdftotext extraction, each on the printed journal page its locator gives (PDF p. n = p. 33 + n; the reference list entry for Stark 2023 on p. 55); the reference list holds no Stark 2024 entry, as Caution says; Sesame.ai, Blommaert and Varis, Agha, Keane, Table 1, raters, journalists and spokespeople all appear in the text; author, 2026, title, ARAL 46, 34–55, DOI, print March 2026, online 10 July 2026 against crossref.json and openalex.json; sha256 of the PDF matches sha256.txt; the c4, c6 and c9 uses state their limits (voice and identity, not decisions; not independent of Stark).
+- Changed: nothing.
+- For the author: the triage's 'independent use of Silvio' claim holds only in part (Jones reads Silvio directly but credits Stark 2023 with the same argument); §6 should say so when it uses Jones against the gap claim.

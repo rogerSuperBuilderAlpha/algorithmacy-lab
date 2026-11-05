@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct); authors, year, title, venue, 19(2), 98–100, DOI vs Crossref and OpenAlex; abstract quotation and paraphrase matched to the reconstructed OpenAlex abstract; depth abstract honest; sha256 recomputed for both files · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, abstract card); the one quoted sentence is verbatim in the OpenAlex abstract (W2084235337); frontmatter vs crossref.json and openalex.json (Mori, MacDorman, Kageki; 2012; IEEE RAM 19(2), 98–100; DOI); both sha256 recomputed; c4/c6 uses stay at "exists" and the card says the step is the paper's.
+- Changed: nothing.
+- For the author: nothing.

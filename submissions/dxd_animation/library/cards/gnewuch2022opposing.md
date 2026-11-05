@@ -60,3 +60,10 @@ No inner quotation marks were converted. Locators are the journal pages printed 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b03 (opus; not the writer) · verdict: verified · checked: loci 11/11 found verbatim, all page and section locators correct; 200–400 ms, N = 202, 2.3 s, between-subjects lab design and European student pool confirmed in §4; volume 64, issue 6, pp. 773–791, DOI and handle match the printed cover and header (the folder holds no crossref.json or openalex.json, so metadata rests on the printed PDF); read_depth full_text supported; sha256 f7fea1… of the PDF recomputed and matches provenance.txt · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 11/11 loci found verbatim in gnewuch2022opposing.txt and in a fresh pdftotext extraction, each on the printed journal page its locator gives (cover page, then PDF p. n = p. 771 + n); N = 202, 200 to 400 ms, 2.3 s, between-subjects lab design, mobile phone plan task, Online Appendix A, European university student pool, social response theory and expectancy violations theory all found; authors, 2022, title and subtitle (no colon), BISE 64(6) 773–791, DOI, handle 10419/308600, CC BY 4.0 and 'Received 29 October 2020 / Published online 30 May 2022' against the EconStor cover and the p. 773 header (the folder holds no crossref.json or openalex.json, as the card says); sha256 of the PDF matches provenance.txt; OUTLINE lines 144 and 247 and CITED_WORKS row 31 do use the file name 'Typing delays in chatbots', as Caution says.
+- Changed: nothing.
+- For the author: OUTLINE §4.1 and CITED_WORKS row 31 name this paper by the lab's file name, not its title; the card leaves both files alone (README rule 3), so the fix is the author's. The paper's delay is a wait before the whole reply, not a typing animation; §4.1 should not describe it as one.

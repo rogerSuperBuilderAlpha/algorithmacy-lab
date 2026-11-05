@@ -48,3 +48,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None); metadata vs Crossref (authors, year 2012, title, Projections 6(1) 1-27, DOI, publisher Berghahn); depth metadata confirmed (no abstract in record, no text layer); sha256 crossref.json recomputed, matches · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); Crossref record has no abstract and no text layer exists, so metadata depth is honest; Tim J. Smith, 2012, title, Projections 6(1), 1–27, Berghahn, DOI match; sha256 recomputed and matches; the c6 use is correctly attributed to the triage file, not the record.
+- Changed: nothing.
+- For the author: nothing (closed; on BROWSER_LIST).

@@ -45,3 +45,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; author, 2016, title, IJoC 10(1) 110–122, landing URL, no DOI all match OpenAlex; abstract paraphrase and quotations match; depth abstract honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); every quoted phrase in "What it argues" is in the OpenAlex abstract (W2908084374); frontmatter vs openalex.json (Flyverbom, 2016, IJoC 10(1), 110–122, no DOI, the IJoC landing URL); sha256 matches; registry.tsv holds `flyverbometal2016` (research) as a different work, as the Caution says; claim uses: c3 follows the abstract; c8 is marked as the paper's link.
+- Changed: nothing.
+- For the author: nothing.

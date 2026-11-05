@@ -44,3 +44,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; three authors (capitals in Crossref), 1998, title, KER 13(2) 147–159, DOI, publisher 'Maximum Academic Press' match Crossref; abstract quotations match; CBB stages correctly not described; depth abstract honest · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); three authors (capitals in Crossref), 1998-07, title, KER 13(2) 147–159, DOI, publisher 'Maximum Academic Press' and sha256 against crossref.json; the three abstract phrases quoted in 'What it argues' are verbatim from the Crossref abstract and cited as the abstract.
+- Changed: nothing.
+- For the author: the c1 contrast cannot be supported until the CBB stages are read (browser list row 17); the card says so, and the DECISIONS fallback is he2003agent (reserve).

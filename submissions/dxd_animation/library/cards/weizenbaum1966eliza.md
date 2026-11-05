@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (author, 1966, title, CACM 9(1) 36-45, DOI); abstract summary checked against the Crossref abstract; depth abstract confirmed; sha256 both files recomputed, match · changed: marked the 1983 reprint DOI 10.1145/357980.357991 as taken from DECISIONS.md and unchecked (no record of it in the folder), in object_read and Caution
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for an abstract card); the "What it argues" paraphrase follows the Crossref and OpenAlex abstracts point by point (MAC time-sharing, decomposition and reassembly rules, the five problems, the closing psychological discussion); Weizenbaum, 1966, title, CACM 9(1), 36–45, DOI match both records; sha256 of both files recomputed and match; no PDF or .txt, so abstract depth is honest; the c4 and c6 uses are correctly limited to what the abstract shows.
+- Changed: nothing.
+- For the author: nothing (ACM copy on BROWSER_LIST; the 1983 reprint DOI stays unchecked).

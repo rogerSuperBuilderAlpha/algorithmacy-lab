@@ -48,3 +48,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b10 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None); metadata vs Crossref/OpenAlex (four authors, 2001, title, JBDM 14(5) 331-352, DOI); abstract summary checked against the Crossref abstract; OpenAlex submittedVersion locations confirmed; depth abstract confirmed; sha256 both files recomputed, match · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None; 'broadly defined' is in the Crossref abstract); four authors, 2001-12, title, JBDM 14(5) 331–352, Wiley, DOI and both sha256 values against crossref.json and openalex.json; abstract summary against the Crossref abstract; the c1 and c2 uses mark the goal-formation step as the paper's.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (row 42; the UCF STARS green copy refused the script).

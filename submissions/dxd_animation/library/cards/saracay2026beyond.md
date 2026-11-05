@@ -64,3 +64,10 @@ Quotations are verbatim. Where the source uses double quotation marks inside a q
 ## Verification
 
 2026-11-05 · S6 verifier, batch b04 (opus; not the writer) · verdict: corrected · checked: loci 9/9 found at the stated pages; numbers in body checked (n = 25, 85/75 %, 56 %, 54 %, 74.0 % parsing, 94.3/27.6 %, Appendix A at p. 19); metadata vs csl.json/openalex (authors, 2026, title, arXiv DOI) match; partial depth honest; sha256 matches; four sections in order · changed: object_read and What it argues: page count 62 → 61 (pdfinfo; last printed page 61); Caution: the 27.7 % gpt-5.2 figure comes from the p. 9 text on Figure 4A, not from Table 3
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found in saracay2026beyond.txt on the stated printed pages (1, 1, 3, 3, 5, 6, 6, 9, 10); the figures 56 %, 54 %, 94.3, 27.6, 27.7, 85 %, 75 %, 74.0 all present; frontmatter vs csl.json and openalex.json (Saracay, Schmidt, Guestrin; 2026; arXiv 2606.30863 v2; W7166830829); sha256 recomputed; partial depth honest (appendices unread); c1 use states where CoPref stops short of a moving goal.
+- Changed: nothing.
+- For the author: the card's own flag needs a ruling. CoPref keeps the target item fixed and grows only the user's awareness of its features, so the source supports "preference is constructed" and cuts against "the goal moves". Decide how c1 cites it.

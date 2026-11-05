@@ -63,3 +63,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: corrected · checked: loci 0/0 (None, correct for abstract); every quoted phrase found verbatim in the abstract with the right section label; authors, vol. 65(1), pp. 137-165, print 2023-02 / online 2021-04-27, short title Hum Factors, DOI, URL match; third-party questions (Checkpoint B) answered from the abstract only and so stated; depth abstract honest; sha256 matches; four sections in order · changed: claims list now [c3, c7, c9], because the body carries a c9 bullet that the frontmatter omitted
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); every quoted phrase in "What it argues" is in the Crossref structured abstract under the section the card names; frontmatter vs crossref.json (two authors, Hum Factors 65(1), 137–165, DOI, online 2021-04-27, print 2023-02, so `registered_year: 2021` is right); sha256 matches. Ruling 4: the third-party questions are answered from the abstract and marked as such; the abstract names no third party, and the card says so rather than guessing. Claim uses: c3, c7, c9 are each held to what the abstract shows.
+- Changed: nothing.
+- For the author: the Checkpoint D ruling needs the full text (pp. 137–165, BROWSER_LIST row 9); on the abstract this paper gives HF a two-way, relational dyad and "conflicting goals" with no owner named, not a third party.

@@ -42,3 +42,10 @@ None.
 
 ## Verification
 2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; author, 1996, title, CHI '96 container, pp. 27–34, ACM Press, DOI match Crossref; no abstract, metadata depth honest; smooth-vs-abrupt result correctly marked as triage-only · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for a metadata card); author, 1996, title, CHI '96 container and event, pp. 27–34, ACM Press, DOI and sha256 against crossref.json (no abstract in the record); the smooth-versus-abrupt result stays marked as triage-only.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (row 16).

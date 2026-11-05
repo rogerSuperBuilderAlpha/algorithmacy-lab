@@ -53,3 +53,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for abstract); every quoted phrase found verbatim in the abstract; authors, vol. 20(3), pp. 973-989, print 2018-03 / online 2016-12-13, DOI, URL match; seven prior_cards all present in registry.tsv under this DOI; depth abstract honest; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for an abstract card); every phrase quoted in "What it argues" is in the Crossref JATS abstract; frontmatter vs crossref.json (authors, 20(3), 973–989, DOI, online 2016-12-13, print 2018-03, so `registered_year: 2016` is right); the seven `prior_cards` match the seven registry.tsv rows for this DOI; claim uses: c3 and c8 are held to what the abstract supports, and the "across a relational environment" wording and the step to the user are marked as unconfirmed.
+- Changed: nothing.
+- For the author: the paper cites this work (SOURCE.md, Pass 2, "Second") on an abstract-only card; until the article arrives (BROWSER_LIST row 8) the "across a relational environment" phrase is the paper's, not confirmed as the authors', and the step from accountability to the user's decision is the author's own move.

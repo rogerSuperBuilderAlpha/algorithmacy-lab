@@ -46,3 +46,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for metadata); author, title, Routledge, 1998, edition counts and ISBNs match; registry DOI confirmed as the 2013 e-edition ISBN; claim tags flagged as a guess; depth metadata honest; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for metadata); the Open Library search JSON holds the two hits the card lists (OL2708440W Routledge 1998, 3 editions, ISBNs including 0415115965 and 0415115973; OL26742778W Routledge / Taylor & Francis 2013, 5 editions, ISBN 9781315004044 among them); sha256 recomputed and matches; no text of the book, so metadata depth is honest; the claim tags are declared a guess, and the load is "exists".
+- Changed: nothing.
+- For the author: nothing (closed; BROWSER_LIST row 26).

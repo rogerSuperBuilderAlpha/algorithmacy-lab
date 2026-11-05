@@ -66,3 +66,10 @@ Inner double quotation marks in the source were converted to single quotes. The 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b03 (opus; not the writer) · verdict: corrected · checked: loci 13/13 found verbatim (after splitting the two-column layout; inner double quotes converted as the card says); 12/13 locators correct; 343/309/240, 63 excluded by the latency-fidelity rule, n = 140, 45%, 31%, kappa .46–.80, usefulness post-hoc (9 s > 2 s only) and appendix pages confirmed; authors, title, CHI '26 venue and DOI match the printed ACM reference format; no registry JSON in the folder; read_depth full_text supported; sha256 989316… of tan2026impact.txt recomputed and matches provenance.txt · changed: (1) locator of "Overall, responses with longer latencies…" from §4.1 to §4.2 (the sentence sits under the 4.2 heading); (2) "What it argues" now notes the pulsing cursor during the wait (§3.2.2), so "cue-free" is not read as "no signal at all"
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 13/13 loci found verbatim in tan2026impact.txt after splitting the columns, each on the form-feed page the card gives (18 form-feed segments, 17 pages plus a trailing segment); p. 1 prints "arXiv:2604.06183v1 [cs.HC] 9 Feb 2026", "17 pages", the DOI and "Creative Commons Attribution 4.0 International License", as the card says; "comparative claims across coarse latency levels" on p. 13, kappa .46/.80 on p. 10, "normalized" on p. 11; sha256 of the .txt recomputed and matches provenance.txt; the folder holds no PDF and no registry record, so the frontmatter rests on the printed ACM reference line, which the card states; full_text depth honest for a text-only copy; the c5 and c6 uses follow and the card marks both stretches and the contrast.
+- Changed: nothing.
+- For the author: nothing to decide now. The arXiv number (2604.*) sits oddly with a 9 Feb 2026 date; the ACM version, when fetched, settles the stamp and the pagination.

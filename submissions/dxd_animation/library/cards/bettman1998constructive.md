@@ -70,3 +70,10 @@ None
 ## Verification
 
 2026-11-05 · S6 verifier, batch b08 (opus; not the writer) · verdict: corrected · checked: loci 0/0; abstract quotations verbatim; metadata vs crossref.json; depth abstract honest · changed: What it argues: "put consumer decision making at the centre of consumer research" overstated the abstract; replaced with its words "has been a focal interest in consumer research"
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct); every quoted phrase is in the Crossref abstract; frontmatter vs crossref.json (three authors, JCR 25(3), 187–217, DOI 10.1086/209535, issued 1998-12-01; the record's prefix 10.1093 and OUP publisher and count 2179 are as the Caution says); sha256 matches; claim uses: c1 marks the goal-shift step as the paper's own, c2 is limited to "cognitive".
+- Changed: nothing.
+- For the author: an anchor for c1 and c2 rests on an abstract; the article (BROWSER_LIST row 11) should be read before §1–§2 lean on it.

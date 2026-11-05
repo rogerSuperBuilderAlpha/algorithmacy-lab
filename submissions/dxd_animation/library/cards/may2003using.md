@@ -64,3 +64,10 @@ Page locators are the journal page numbers printed in the object read (HCI 18(4)
 ## Verification
 
 2026-11-05 · S6 verifier, batch b06 (opus; not the writer) · verdict: corrected · checked: loci 12/12 found, and each PDF page maps to the printed HCI page (PDF n = HCI 323 + n; printed numbers 360, 361, 365, 369, 370 confirmed); metadata vs crossref.json and openalex.json (May, Dean, Barnard; 2003; HCI 18(4), 325–372; DOI) and the eprint cover (Barnard–Dean order, short title); sha256 recomputed and matches; depth partial honest, and the unread sections are listed; summary facts (40-msec intervals, 10 classes, 1,327 + 503 + 86 = 1,916 cuts, "passive" and "under the control of the user" on HCI p. 328, "produced explicitly" on p. 370) found · changed: PDF page count 50 → 49 (pdfinfo); added a Caution note that §6.2–6.3 do not reconcile the abstract's "6 of the 10"
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found in may2003using.txt; the p. 328 loci sit between the printed running heads 327 and 329; frontmatter vs crossref.json (May, Dean, Barnard; 2003; HCI 18(4), 325–372; DOI) and the eprint cover; sha256 recomputed; partial depth honest, unread sections listed; c8/c5 uses follow the source with their limits stated.
+- Changed: nothing.
+- For the author: the abstract's "6 of the 10 classes" and §6.2's seven classes with peaks do not reconcile in the parts read (Caution). Quote the §6.2–6.3 figures, not the abstract's, until someone reads §6.1–6.2 whole.

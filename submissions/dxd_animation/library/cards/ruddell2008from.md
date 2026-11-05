@@ -60,3 +60,10 @@ Quotations are verbatim from the text layer; inner quotation marks are rendered 
 ## Verification
 
 2026-11-05 · S6 verifier, batch b02 (opus; not the writer) · verdict: corrected · checked: loci 5/5 found on the stated ms pages (the pp. 6–7 quote crosses the page break as stated); metadata vs crossref (authors, 2008, title, Animation 3(2) 113–128, DOI) match; depth full_text honest; sha256 matches · changed: suture locator pp. 19–22 → pp. 18–22 (section begins p. 18; 'sewn' is p. 5) in two places; added p. 18 to the 'seamless chain' locator
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 5/5 loci found in ruddell2008from.txt on the stated manuscript pages (2, 6–7 across the break, 7, 22, 24); "temporal matter of stillness" p. 7 and "sewn" p. 5 confirmed; frontmatter vs crossref.json (Ruddell; 2008-07; Animation 3(2), 113–128; DOI) and the manuscript's own first line; sha256 recomputed; full_text depth honest for the accepted manuscript; c5/c8 uses state the stretch.
+- Changed: nothing.
+- For the author: the suture passage (ms pp. 18–22) is an untagged c6 fit the card offers. Decide whether to tag it.

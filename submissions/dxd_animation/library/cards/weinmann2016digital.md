@@ -65,3 +65,10 @@ Quotations are verbatim. The source uses double quotation marks around inner quo
 ## Verification
 
 2026-11-05 · S6 verifier, batch b04 (opus; not the writer) · verdict: corrected · checked: loci 9/9 found at the stated journal pages (PDF p. 1 = p. 433); metadata vs crossref/openalex (authors, 2016 vol. 58(6), 433–436, DOI) match; full_text honest (4 pp. read whole by verifier too); sha256 matches; four sections in order · changed: What it argues: first sentence named the authors as the readers, now 'I read'; Table 2 range starts at business process management, not e-commerce; Loci note on the §4.2 sentence (it sits whole in one column; only the .txt interleaves it); Caution: Crossref holds 'vom' in the given name, not absent
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found in weinmann2016digital.txt (the §4.2 sentence whole once the columns are split), each on the journal page the card gives (PDF p. n = p. 432 + n); "Catchword", "Published online" and the Johnson and Goldstein citation on p. 433, the ethics warning ("short term gains", "loss of goodwill") on p. 434, Tables 1 and 2 on p. 435; Crossref gives Weinmann, Schneider, "Jan vom" Brocke, issued 2016-10-03, print Dec 2016, BISE 58(6), 433-436, DOI, matching the frontmatter and the card's Caution; sha256 recomputed and matches; full_text depth honest; the c1 use follows and the card marks the fixed-goal presumption as the paper's to argue.
+- Changed: nothing.
+- For the author: nothing.

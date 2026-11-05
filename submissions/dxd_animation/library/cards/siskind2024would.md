@@ -73,3 +73,10 @@ Quotations are verbatim from the PMC HTML text layer. Inner quotation marks in t
 ## Verification
 
 2026-11-05 · S6 verifier, batch b07 (opus; not the writer) · verdict: corrected · checked: loci 11/11 found verbatim in siskind2024would.txt (curly quotes normalised), all section locators match the printed headings; metadata vs crossref/openalex (authors, year 2024, title, venue, vol. 11, article 1256937, DOI) match; depth full_text honest (HTML and full text layer held; supplementary tables absent, as the card says); sha256 of .html recomputed and matched; Caution points (Table 1 E10 p = 0.179, "Section 2" cross-references, reverse trend, Honda funding) confirmed in the text · changed: §8 paraphrase softened to the authors' tentative "Perhaps" (What it argues); "mostly unfamiliar with robots" replaced by the text's "most common reply" (Caution); added the Table 1 Bonferroni note (Caution)
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 11/11 loci found verbatim in siskind2024would.txt, section locators match the printed headings; Crossref gives Siskind, Nichols, Gomez, 2024, Front. Robot. AI 11, article 1256937, DOI, all matching the frontmatter; sha256 of the .html recomputed and matches; thirty-four evaluators, Honda funding, "Section 2" cross-references, Table 1 E10 p = 0.179 and the §6.2.4 "reverse trend" all found in the text; full_text depth honest; the c8 contrast and c9 near-neighbour uses follow from the text and the card marks the LLM extension as the paper's.
+- Changed: nothing.
+- For the author: nothing new (status candidate; DECISIONS names it the §5 foil).

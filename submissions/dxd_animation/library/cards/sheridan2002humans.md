@@ -49,3 +49,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b09 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct for metadata); title, subtitle, Wiley-Interscience, July 11 2002, 280 pp., subjects and first sentence match the record; author correctly marked unchecked (record gives only OL828637A); depth metadata honest; sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, metadata card); frontmatter vs openlibrary.json (edition OL7613807M, work OL4274945W; Wiley-Interscience; "July 11, 2002"; 280 pp.; ISBN 9780471234289; subtitle with series name; subjects; first sentence); sha256 recomputed; metadata depth honest; c3 use kept at "exists" and no model attributed to the book. Ruling 4 names four other cards, not this one; the card attributes no third party to the source, so nothing to record.
+- Changed: nothing.
+- For the author: the author's name comes from the triage file, not from the record (only the key OL828637A); confirm from the book when it arrives (BROWSER_LIST row 14).

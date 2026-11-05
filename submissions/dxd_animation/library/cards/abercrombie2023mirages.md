@@ -61,3 +61,10 @@ Quotation marks inside quotations are already single quotes in the source or wer
 ## Verification
 
 2026-11-05 · S6 verifier, batch b03 (opus; not the writer) · verdict: verified · checked: loci 9/9 found verbatim, all page and section locators correct (pages mapped by form feed from p. 4776); "animated" occurs once as claimed; authors, year, title, venue, pages 4776–4790 and DOI match crossref.json and openalex.json; read_depth full_text supported by the 15-page PDF; sha256 30e1a4… of the PDF recomputed and matches sha256.txt and FETCH_LOG.tsv · changed: added one Caution line on the Crossref/OpenAlex raw author string "Amanda Curry" against the printed "Amanda Cercas Curry"
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found in the text layer (the stored .txt interleaves the two columns, so I matched against a fresh pdftotext extraction of the same PDF, sha256 30e1a4… unchanged; pages mapped by form feed from p. 4776: all nine page and section locators correct, note 3 on embodied robots on p. 4778 confirmed, "animated" occurs once); frontmatter vs crossref.json and openalex.json (title, pages 4776–4790, DOI, 2023, five authors; "Cercas Curry" follows the printed byline as the Caution says); claim uses: c4 is marked as a stretch by the card itself and rightly so; c8 reads the source narrowly and correctly (against gratuitous cues, not "damp the character").
+- Changed: nothing.
+- For the author: the card names a possible c6 use (reflexive personification, pp. 4777, 4783) that DECISIONS did not approve; add the tag or leave it.

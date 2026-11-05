@@ -47,3 +47,10 @@ None.
 ## Verification
 
 2026-11-05 · S6 verifier, batch b12 (opus; not the writer) · verdict: verified · checked: loci 0/0 (None, correct); author, year, title, container title, event (Pittsburgh, 15–20 May 1999), 159–166, DOI vs Crossref; depth metadata honest; triage's OpenAlex quotation found in F7-F8 and correctly not relied on; sha256 recomputed · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (None, correct for a metadata card); author, 1999, title, container title and event (Pittsburgh, 15–20 May 1999), pp. 159–166, ACM Press, DOI and sha256 against crossref.json (no abstract); the triage's OpenAlex abstract is correctly left out; the dyad-versus-triad remark is marked as unread.
+- Changed: nothing.
+- For the author: nothing beyond the browser list (row 33).

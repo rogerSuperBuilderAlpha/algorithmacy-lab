@@ -69,3 +69,10 @@ Quotations are verbatim, with inner double quotation marks changed to single quo
 ## Verification
 
 2026-11-05 · S6 verifier, batch b04 (opus; not the writer) · verdict: verified · checked: loci 12/12 found at the stated PDF pages; body numbers checked (482 incidents p. 6, 34 participants × 11 = 374, 310/374, 91/44/50/56 %, ages 18–29, 21 US / 7 China, three levels and 'moral scapegoat' p. 17); metadata vs crossref/openalex (five authors, 2026, pages 1–23, DOI) match; partial depth honest (23-page PDF, parts listed); sha256 matches; four sections in order · changed: nothing
+
+## Hand-check
+
+- 2026-11-05, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found against a fresh pdftotext reading-order extraction of the held PDF (the folder's .txt is column-interleaved), on the stated PDF pages (1, 1, 2, 3, 4, 5, 5, 6, 11, 11, 16, 18); the §3.1 definition (pp. 4–5), "moral scapegoat" (p. 17), 482 and 82.9 % present; frontmatter vs crossref.json and openalex.json (five authors; CHI '26 proceedings; pp. 1–23; 2026-04-13; DOI); sha256 recomputed; partial depth honest with the unread sections listed; c1 use states its limits.
+- Changed: nothing.
+- For the author: two items. (1) The object read is arXiv v4 with the CHI header, not the ACM version of record; wording and pagination may differ. (2) The card flags that Shi et al. treat authorship as "diffuse" and keep the human organisation accountable, which sits closer to a dyad plus an owner than to the paper's triad (c3, c7). Decide whether §3.2 must answer it.
