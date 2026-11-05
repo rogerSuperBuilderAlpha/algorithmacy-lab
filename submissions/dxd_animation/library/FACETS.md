@@ -439,3 +439,12 @@ retries these first. Nothing in their entries was filled in from memory.
 6. **The dxd_animator Wertheimer card** gives Sekuler 1996's DOI as Wertheimer's. Correct it there, or
    leave it and record the correction under Caution in the upgrade (README rule 3).
 7. **Gnewuch 2018.** Card it only if a record turns up; the 2022 BISE paper carries the claim.
+
+## Checkpoint A — the author's rulings (2026-11-05)
+
+1. Facets F1–F10 and G approved as written.
+2. Home: keep both libraries, point across (see decision 2 above).
+3. Ceiling: **upgrades sit outside the ceiling** — up to 60 new cards plus 17 upgrades (≈77).
+4. Books held: none. Every book anchor gets a metadata card and goes on `BROWSER_LIST.md`.
+5. Wertheimer DOI: leave the dxd_animator file alone; the upgrade card records the Sekuler (1996) DOI
+   correction under Caution.
