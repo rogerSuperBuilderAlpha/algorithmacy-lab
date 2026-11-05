@@ -41,3 +41,26 @@ the read; its depth is given. **record** means I confirmed only that the work ex
 The final paper's due date, length and rubric. Nor whether this change of topic from the approved DIAL
 proposal needs Ericson's agreement. The `dxd_foundation` change raised the same question and it was
 never answered.
+
+## Library update, run dxda-lib-2026-11 (S10)
+
+> [DRAFTED by Claude, 2026-11-05.] The flags above are left as first written. These rows say what
+> the library run found for each one; the cards are in `library/cards/`. Your text in `SOURCE.md` is
+> unchanged. Each correction below is a flag for you to decide.
+
+| Flag | Update | Card(s) |
+|---|---|---|
+| F1 | Still no citable McLaren source. Sifianos (1995) and Furniss (2008) are not held; both are on `library/BROWSER_LIST.md`. | `furniss2008art` (metadata) |
+| F2 | Unchanged: "argues". Stark's own framing is "to demonstrate the utility of such a frame" (§1). | `stark2024animation` (full) |
+| F2, "Verified as written" | **Correction to this file:** the "structuring trope" quotation is on **p. 1664**, not p. 1663 (PDF p. 2; range 1663–1671 confirmed on Crossref). | `stark2024animation` |
+| F3 | Silvio's book and article are still unread; p. 52 and pp. 422/428/432 reach the lab only through Stark. Maeda & L. Stark (2025) attribute the definition to Silvio **2010**, Stark (2024) to Silvio **2019** p. 52; only Silvio's texts settle it. | `silvio2019puppets` (metadata), `silvio2010animation` (abstract), `maeda2025anthropomorphism` (full) |
+| F4 | Unchanged. Stark adds that a chatbot's animators are **many** (staff, raters, moderators, authors, and the user as "final uncompensated animator", p. 1667). The singular "animator" in your text stretches him. | `stark2024animation` |
+| F5 | Johnson 2012 now read (OJS republication); it supports "shows", not "proves". Jachimowicz: "58 datasets from 55 studies" (p. 163) is more exact than "58 studies". | `johnson2012beyond` (full), `jachimowicz2019when` (partial) |
+| F6 | Weinmann 2016 and Schneider 2018 carded. | `weinmann2016digital` (full), `schneider2018digital` (abstract) |
+| F7 | **Resolved.** The monograph library's full-text card quotes Burrell's abstract: "technical illiteracy". | pointer `burrell2016how` (D/, private) |
+| F10 | Ananny & Crawford is still abstract-only; the step to the user's decision stays yours. | `ananny2018seeing` (abstract) |
+| F11 | Confirmed: Chevalier et al. review interface animation, not the animator's craft. Thomas & Johnston (metadata) and Lasseter 1987 (abstract) are carded but unread. | `chevalier2016animations` (full), `thomas1981illusion`, `lasseter1987principles` |
+| F12 | **The fix is disputed.** Hoerl (2015) and Steinman, Pizlo & Pizlo (2000) contest the standard apparent-motion account. Hoerl's accepted version is now held but not yet re-carded. Wertheimer is still unread (German scan not tried). | `wertheimer1912experimentelle`, `anderson1993myth`, `hoerl2015seeing`, `steinman2000phi` |
+
+**Correction to OUTLINE.md:** OUTLINE ties the ELIZA effect to Stark p. 1667. Its definition is on
+**p. 1665** (§2.1). p. 1667 carries the user-as-animator sentence.

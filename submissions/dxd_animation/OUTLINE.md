@@ -245,3 +245,16 @@ Return to the commuter, and end on the umbrella.
 5. Burrell (2016), to confirm the wording in a browser (F7)
 6. Wertheimer (1912), or a review of apparent motion (F12)
 7. Card Gnewuch et al. (2022) from the PDF already held
+
+## Library status after run dxda-lib-2026-11
+
+> [DRAFTED by Claude, 2026-11-05.] The section-by-section source map, and where the cards cut
+> against this outline, are in `library/CRITIC.md`; the c9 gap verdict and draft §6 wording (marked
+> as Claude's) are in `library/GAP_CHECK.md`. The run summary is in `library/RUN_REPORT.md`. The
+> source lists above are as first drafted; three corrections:
+> - §4.2: ELIZA effect is defined at Stark **p. 1665**, not p. 1667.
+> - §4.1: `gnewuch2022opposing` is cited by the lab file name "Typing delays in chatbots". Its delay
+>   is a wait before the whole reply, not a typing animation.
+> - §3.2: the triad flag stands. Stanton 2006 has task-role agents and no interested third party.
+>   Cameron 2024's Deployer has interests, but they are not modelled. Chiou 2023 is unread beyond
+>   the abstract. See ruling 4 in `library/triage/DECISIONS.md`.
