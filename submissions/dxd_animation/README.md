@@ -18,4 +18,4 @@ course headings and three of its five sources (Eslami, Ananny & Crawford, Dehaen
 | `CHECK.md` | Every citation and claim checked, with flags F1–F13 for Roger to decide |
 | `OUTLINE.md` | Section plan mapped to the course headings and library cards, the carry table, decisions D1–D5 and the fetch list |
 
-**Status.** Outline only. No prose drafted. The files are untracked and not committed.
+**Status.** Outline only; no prose drafted. Library run `dxda-lib-2026-11` is complete (77 cards; see `library/RUN_REPORT.md`). Branch `research/dxd-animation-library`, draft PR #878.
