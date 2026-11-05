@@ -97,7 +97,14 @@ headings, and the design move falls onto the fourth.
 #### 3.2 The environment is a platform — *Human factors and design*
 
 - **Claim** (Roger): Pass 2, "Second…" paragraph, as written.
-- **What to show** [DRAFTED]: HF's automation models are dyads. Parasuraman, Sheridan and Wickens
+- **[FLAG, Claude, 2026-11-05 — the next bullet overstates; see `library/triage/F7-F8.md`.]** The lab's
+  own cards contradict "two-node loop": `parasuraman2000types` records the phrase as an earlier draft's,
+  not the source's, and O'Neill et al. (2022) count 22 of 76 human–autonomy-teaming studies with two or
+  more humans. Cameron et al. (2024, Social Triad Model) already propose a user–robot–deployer triad.
+  A softer claim for Roger to judge: HF's canonical models take one operator and one aid as the unit;
+  where HF admits more parties they share a goal; a third party with interests of its own has entered
+  HRI and trust research only recently.
+- **What to show** [DRAFTED, superseded by the flag above]: HF's automation models are dyads. Parasuraman, Sheridan and Wickens
   (2000) model the operator and the aid as a two-node loop. Lee and See (2004) and Bainbridge (1983)
   study one human supervising one machine. A platform adds a third party with interests of its own.
   This is the gap the triad fills.
