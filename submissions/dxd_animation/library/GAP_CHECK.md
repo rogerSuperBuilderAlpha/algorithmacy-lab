@@ -93,7 +93,7 @@ I record each as the search result gave it and say no more about its argument th
 
 | hit (as given) | why it might bear on c9 | carded? |
 |---|---|---|
-| Jia-Qi Wu and Damien Masson, 2026-07-20, "AInimation: Animating from Prompt to AI-Generated Responses," ArXiv, DOI 10.48550/arxiv.2607.18507 (preprint) | The closest to (B) in this check. The abstract describes "animated transitions between a prompt and an AI-generated response," a taxonomy from 800 examples, and a study in which transitions helped users "review the response" (43% better at locating elements, 153% better at identifying changes, 20% better at verifying the prompt was interpreted), concluding that "well-crafted, slower animations are preferable to instant AI responses." It is interface animation for reviewing LLM output. The abstract does not read the LLM as an animated character, does not cite animation theory and does not name decisions. | **No.** Not in the registry. It appears in `search/F9.jsonl` (OpenAlex rank 17, W7170082640) but was not triaged. |
+| Jiaqi Wu and Damien Masson, 2026-07-20, "AInimation: Animating from Prompt to AI-Generated Responses," ArXiv, DOI 10.48550/arxiv.2607.18507 (preprint) | The closest to (B) in this check. The abstract describes "animated transitions between a prompt and an AI-generated response," a taxonomy from 800 examples, and a study in which transitions helped users "review the response" (43% better at locating elements, 153% better at identifying changes, 20% better at verifying the prompt was interpreted), concluding that "well-crafted, slower animations are preferable to instant AI responses." It is interface animation for reviewing LLM output. The abstract does not read the LLM as an animated character, does not cite animation theory and does not name decisions. | **No** at S9. **[Updated by Claude, 2026-11-06]:** now carded, full text: `wu2026ainimation`. |
 | Nomisha Kurian, 2025-04-11, "Once upon an AI: Six scaffolds for child-AI interaction design, inspired by Disney," Int. J. Child Comput. Interact., DOI 10.1016/j.ijcci.2025.100788 | Transfers design patterns from "52 works of animation" into child-centred AI design as a "design grammar" (abstract): a craft-to-AI transfer like c8. The abstract names children's understanding and learning, not decisions, and does not say the AI interface is an animation. | **No.** Not in the registry. |
 | Chien-Hsiung Chen and Jiwei He, 2025-07-10, "Integrating Waiting into the Experience: A Study on Visual Feedback Design for AI Doctor Agents," International Journal of Human–Computer Interaction, DOI 10.1080/10447318.2025.2527847 | A c5 neighbour: "animated delays signaled 'thinking'" and gradual versus instant content changed pleasure and arousal (abstract, n = 60). No animation-theory frame and no decision design in the abstract. | **No.** |
 | Takuya Maeda and Rebecca Buening, 2026, "Safety Theater in Anthropomorphic AI…," FAccT '26, DOI 10.1145/3805689.3812282 | Same first author as the closest prior. Governance, not animation or decisions (above). | **No.** |
@@ -107,7 +107,7 @@ The other hits are F9 or F3 territory the library already holds in reserve (Gonz
 **I found no work that frames an LLM interface as an animation and draws from that frame a design method for
 surfacing a user's decisions,** in the eight cards above, the G triage sources, six Consensus queries, three web
 searches and the Maeda & Buening record. The Semantic Scholar leg of the earlier API search failed (429), so
-the verdict holds for these sources only, and most of this check rests on abstracts.
+the verdict holds for these sources only, and most of this check rests on abstracts. **[Updated by Claude, 2026-11-06]:** Wu & Masson (2026) is now read in full (`wu2026ainimation`); the full text confirms the abstract reading.
 
 c9 is **narrowed** on three sides:
 
@@ -115,7 +115,9 @@ c9 is **narrowed** on three sides:
    and Jones (2026) applies Silvio to voice interfaces. §6 must not claim the animation reading.
 2. **Interface animation for LLM output is taken in part.** Wu & Masson (2026) animate the transition from
    prompt to response and measure review. Their abstract stops short of decisions and of the character
-   reading, but a reviewer will raise it. Card it before §6 is drafted.
+   reading, but a reviewer will raise it. **[Updated by Claude, 2026-11-06]:** carded from the full text
+   (`wu2026ainimation`); it has no "decision", no animation theory and no character reading. Its
+   "animation" means UI transitions.
 3. **A triadic, depicted-character frame exists outside LLMs.** Cameron et al. (2024), via Clark and Fischer,
    give HRI a character–audience–authority triad. Ruling 4 holds that it is not a real triad; the paper must
    still cite it.

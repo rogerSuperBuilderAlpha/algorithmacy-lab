@@ -2,7 +2,7 @@
 
 *Written by `tools/check_dois.py`. Metadata only: the registered title and year against the card.*
 
-Cards with a DOI: 67. ok: 67. year differs: 0; TITLE MISMATCH: 0; NOT FOUND: 0; ERROR: 0. Cards with no DOI: 10.
+Cards with a DOI: 68. ok: 68. year differs: 0; TITLE MISMATCH: 0; NOT FOUND: 0; ERROR: 0. Cards with no DOI: 10.
 
 ## Rows needing a look
 

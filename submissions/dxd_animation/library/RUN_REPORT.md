@@ -12,8 +12,8 @@
 | S3 triage | Opus; Fable for decisions | `triage/` | 60 new + 17 upgrades approved; Checkpoint B rulings recorded |
 | S4 fetch | Haiku + main | `FETCH_LOG.tsv`, `BROWSER_LIST.md`, `HELD_COPIES.tsv` | 26 PDFs held plus text-only copies; 55 rows for Roger's browser |
 | S5–S6 cards | Workflow: Sonnet/Opus writers, Opus verifiers | `cards/` | 77 cards, 24/24 agents, writer ≠ verifier on every card; 40 verified, 37 corrected, 0 pending |
-| S7 hand-check | Fable ×4 | `HAND_CHECK.md` | 77/77: 75 index, 2 index after fix, 0 hold |
-| S8 index | scripts + Haiku | `INDEX.md`, `TRACKER.tsv`, `references.bib`, `REFERENCES_APA.md`, `DOI_CHECK.md`, `QUOTE_CHECK.md` (+ `_NOTES`), `POINTERS.md` | schema 0 malformed; DOIs 67/67 ok; quotations 0 unsupported after hand trace; 107 pointers, 0 missing paths, 30 pointer-weak |
+| S7 hand-check | Fable ×5 | `HAND_CHECK.md` | 78/78 (incl. wu2026ainimation, added 2026-11-06): 75 index, 3 index after fix, 0 hold |
+| S8 index | scripts + Haiku | `INDEX.md`, `TRACKER.tsv`, `references.bib`, `REFERENCES_APA.md`, `DOI_CHECK.md`, `QUOTE_CHECK.md` (+ `_NOTES`), `POINTERS.md` | schema 0 malformed; DOIs 68/68 ok; quotations 0 unsupported after hand trace; 107 pointers, 0 missing paths, 30 pointer-weak |
 | S9 critic + gap | Opus | `CRITIC.md`, `GAP_CHECK.md` | c9 open but narrowed; 5 new candidate works |
 
 Plan checks: `build_index.py --check` exits 0; DOI title mismatches 0; quote misses all traced
@@ -24,7 +24,7 @@ exists; `SOURCE.md` unchanged; no PDF, text layer or registry in the tree.
 
 | read_depth | cards |
 |---|---|
-| full_text | 23 |
+| full_text | 24 |
 | partial | 6 |
 | abstract | 25 |
 | metadata | 23 |
@@ -47,9 +47,11 @@ verify and hand-check to move to full text. No browser needed.
    the moving goal is your contribution, stated as such, or needs a source.
 2. **c9: open but narrowed.** Stark 2024, Maeda & L. Stark 2025 and Jones 2026 already read LLM
    interfaces as animation. None turns that into a design method for the user's decision. Wu & Masson
-   2026, "AInimation" (arXiv, 10.48550/arxiv.2607.18507), comes nearest, but it sat untriaged in
-   `search/F9.jsonl`; card it before drafting §5–§6. Draft §6 wording, marked as Claude's, is in
-   `GAP_CHECK.md`.
+   2026, "AInimation" (arXiv, 10.48550/arxiv.2607.18507), comes nearest. **[Updated 2026-11-06]:**
+   now carded from the full text (`wu2026ainimation`). It animates prompt-to-response transitions as
+   UI technique (n = 16; review tasks). It has no "decision", no animation theory and no character
+   reading. It also gives the lab's only datum that a crafted, slower display beats an instant one,
+   which bears on c8. Draft §6 wording, marked as Claude's, is in `GAP_CHECK.md`.
 3. **Ruling 4 (HF triads):** Stanton 2006 has task-role agents and no interested third party.
    Cameron 2024's Deployer has interests, but they are not modelled, and the model is proposed and
    untested. Chiou 2023 is unread beyond the abstract, which names no third party. O'Neill 2022 is a
@@ -83,7 +85,7 @@ verify and hand-check to move to full text. No browser needed.
    - Thomas & Johnston: edition and year.
    - Schwan: umlaut.
    - Clark & Fischer: 2022 or 2023?
-9. **New candidates, not carded:** Wu & Masson 2026; Kurian 2025 (10.1016/j.ijcci.2025.100788);
+9. **New candidates, not carded:** Kurian 2025 (10.1016/j.ijcci.2025.100788);
    Chen & He 2025 (10.1080/10447318.2025.2527847); Clark & Fischer (BBS). Maeda & Buening 2026 does
    not pre-empt c9.
 10. **Pointer overlap:** POINTERS lists six works that also have cards here (Thomas & Johnston,
