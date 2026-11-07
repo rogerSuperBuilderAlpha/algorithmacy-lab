@@ -1,28 +1,29 @@
-# *Information* (MDPI): AI to AL (Berthon)
+# *Information* (MDPI): evolvable AI paper from Berthon's "AI to AL"
 
 [DRAFTED by Claude, 7 Nov 2026.]
 
-This arm is a second venue for Berthon's paper on when a human-supported lineage of machine-learning
-models becomes artificial life. It is forked from the *Artificial Life* arm
-(`submissions/artl_berthon_ai_to_al/`, branch `submission/artl-berthon-ai-to-al`). The target is
-*Information* (MDPI, ISSN 2078-2489), Artificial Intelligence section. MDPI's Article type needs
-Introduction, Materials and Methods, Results, Discussion and Conclusions, so the outline is rebuilt in
-that shape.
+This is a separate paper built from Berthon's original "AI to AL" draft. Its target is *Information*
+(MDPI, ISSN 2078-2489), Artificial Intelligence section.
+
+It joins a different debate from the *Artificial Life* paper (`submissions/artl_berthon_ai_to_al/`):
+- The *Artificial Life* paper asks when a model lineage counts as life.
+- This paper answers the 2026 exchange in *PNAS* on evolvable AI (Müller, Steels & Szathmáry; Boudry;
+  Rana & Singh), which asks for operational thresholds. Berthon's reproductive-work accounting supplies
+  them: it records who performs each reproductive function, not only whether the function is present.
 
 | Path | Contents | In git? |
 | --- | --- | --- |
-| `sources/` | Berthon's manuscript and its extraction, copied from the ALife arm | no (unpublished, public repo) |
-| `reviews/2026-11-07_information_requirements.md` | the journal's requirements, read from MDPI's pages on 7 Nov 2026 | no |
-| `reviews/OUTLINE_information_v1.md` | complete outline in MDPI form, with numbered references | no (describes the unpublished manuscript) |
-| `reviews/from_artl/`, `reviews/notes/` | the ALife arm's outline, audit and reading notes, copied for reference | no |
+| `sources/` | Berthon's manuscript and its extraction | no (unpublished, public repo) |
+| `reviews/OUTLINE_information_v2.md` | complete outline, MDPI Article form, numbered references | no |
+| `reviews/2026-11-07_information_requirements.md` | the journal's requirements, read 7 Nov 2026 | no |
+| `reviews/notes/pnas_evolvable_ai_debate.md` | reading notes on the four *PNAS* papers | no |
+| `reviews/from_artl/` | the *Artificial Life* arm's files, kept only for checking overlap | no |
+| `reviews/superseded/` | v1 outline, which was forked from the *Artificial Life* outline | no |
 
 ## Status
 
 - Opened 7 Nov 2026 on branch `submission/information-berthon-ai-to-al`, worktree
-  `~/iit-playground/wt-info-berthon`. Branched from the ALife arm's branch, not from `contrib`, because
-  this arm builds on that arm's outline.
-- This arm and the ALife arm are alternatives. *Information*'s cover letter must state that the paper
-  is not under consideration elsewhere.
+  `~/iit-playground/wt-info-berthon`.
+- The two papers share Berthon's accounting and levels. Each cover letter should disclose the other.
 - APC: CHF 1,800, charged on acceptance.
-- Not checked: whether *Information* offers the Hypothesis article type.
-- No text changed in the manuscript.
+- No text changed in Berthon's manuscript.
