@@ -143,3 +143,173 @@
 | 2026-11-08 | F5 | crossref | animation puppets projection Silvio | 20 | 10.1515/9780824880989; 10.1353/atj.2021.0019; 10.1386/eapc_00044_5 |
 | 2026-11-08 | F5 | semanticscholar | animation puppets projection Silvio | 20 | 10.1386/EAPC_00044_5; 10.1353/atj.2021.0019; 10.55383/iadc2025.50 |
 | 2026-11-08 | F5 | arxiv | animation puppets projection Silvio | 10 | arxiv:2207.11357v1; arxiv:2511.22940v3; arxiv:2104.06215v1 |
+
+### F6 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F6 | openalex | apparent motion philosophy perception seeing motion | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F6 | crossref | apparent motion philosophy perception seeing motion | 20 | 10.1515/9783110422993-035; 10.1515/9783110422993-037; 10.1515/9783110422993-036 |
+| 2026-11-08 | F6 | semanticscholar | apparent motion philosophy perception seeing motion | 20 | 10.1016/S0960-9822(95)00003-0; 10.1111/bjop.12680; 10.1038/s41598-023-38183-w |
+| 2026-11-08 | F6 | arxiv | apparent motion philosophy perception seeing motion | 10 | arxiv:2505.07259v1; arxiv:2606.29941v1; arxiv:0508180v2 |
+| 2026-11-08 | F6 | openalex | perceptual animacy causality motion cues | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F6 | crossref | perceptual animacy causality motion cues | 20 | 10.7551/mitpress/9313.003.0005; 10.1016/s1364-6613(00)01506-0; 10.1371/journal.pone.0285448 |
+| 2026-11-08 | F6 | semanticscholar | perceptual animacy causality motion cues | 20 | 10.1371/journal.pone.0285448; 10.31234/osf.io/4m5yt; 10.1016/j.neuroimage.2019.04.058 |
+| 2026-11-08 | F6 | arxiv | perceptual animacy causality motion cues | 10 | arxiv:0901.2234v1; arxiv:2610.06851v1; arxiv:2607.20995v2 |
+| 2026-11-08 | F6 | openalex | perception of animacy chasing psychophysics | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F6 | crossref | perception of animacy chasing psychophysics | 20 | 10.1016/j.cogpsych.2009.03.001; 10.3758/bf03193364; 10.1037/e505772014-200 |
+| 2026-11-08 | F6 | semanticscholar | perception of animacy chasing psychophysics | 4 | 10.1016/j.cogpsych.2009.03.001; 10.1037/a0030839; 10.1111/cogs.12775 |
+| 2026-11-08 | F6 | arxiv | perception of animacy chasing psychophysics | 10 | arxiv:2207.02241v1; arxiv:2607.20995v2; arxiv:1110.2215v1 |
+| 2026-11-08 | F6 | openalex | persistence of vision myth apparent motion film | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F6 | crossref | persistence of vision myth apparent motion film | 20 | 10.1016/0042-6989(95)00052-2; 10.1016/0042-6989(94)90320-4; 10.1167/8.6.328 |
+| 2026-11-08 | F6 | semanticscholar | persistence of vision myth apparent motion film | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F6 | arxiv | persistence of vision myth apparent motion film | 10 | arxiv:1412.2078v1; arxiv:2511.20644v2; arxiv:1909.10225v1 |
+| 2026-11-08 | F6 | openalex | gestalt motion perception Wertheimer phi | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F6 | crossref | gestalt motion perception Wertheimer phi | 20 | 10.1515/9783110422993-039; 10.4324/9780203783573-15; 10.1515/9783112469743-002 |
+| 2026-11-08 | F6 | semanticscholar | gestalt motion perception Wertheimer phi | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F6 | arxiv | gestalt motion perception Wertheimer phi | 10 | arxiv:1812.08775v1; arxiv:2112.08171v1; arxiv:1505.06539v1 |
+
+### F7 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F7 | openalex | essential epistemic opacity computer simulation | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F7 | crossref | essential epistemic opacity computer simulation | 20 | 10.1093/oso/9780190873288.003.0005; 10.1515/9783110322705.169; 10.1007/s11023-018-9481-6 |
+| 2026-11-08 | F7 | semanticscholar | essential epistemic opacity computer simulation | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F7 | arxiv | essential epistemic opacity computer simulation | 10 | arxiv:1904.01052v1; arxiv:2609.14971v3; arxiv:2402.12377v1 |
+| 2026-11-08 | F7 | openalex | transparency complex computational systems functional structural run | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F7 | crossref | transparency complex computational systems functional structural run | 20 | 10.1086/709729; 10.12794/metadc1808355; 10.4995/thesis/10251/161934 |
+| 2026-11-08 | F7 | semanticscholar | transparency complex computational systems functional structural run | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F7 | arxiv | transparency complex computational systems functional structural run | 10 | arxiv:2210.04165v2; arxiv:2310.08849v2; arxiv:0712.4290v1 |
+| 2026-11-08 | F7 | openalex | opacity machine learning in principle practical | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F7 | crossref | opacity machine learning in principle practical | 20 | 10.2139/ssrn.2660674; 10.3366/edinburgh/9781474463522.003.0012; 10.1515/9780295751986-005 |
+| 2026-11-08 | F7 | semanticscholar | opacity machine learning in principle practical | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F7 | arxiv | opacity machine learning in principle practical | 10 | arxiv:2306.04338v1; arxiv:2006.16189v4; arxiv:2201.12150v2 |
+| 2026-11-08 | F7 | openalex | explaining machine learning decisions philosophy of science | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F7 | crossref | explaining machine learning decisions philosophy of science | 20 | 10.1017/psa.2021.13; 10.1016/b978-1-55860-307-3.50036-8; 10.1016/j.shpsa.2023.10.004 |
+| 2026-11-08 | F7 | semanticscholar | explaining machine learning decisions philosophy of science | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F7 | arxiv | explaining machine learning decisions philosophy of science | 10 | arxiv:2306.04338v1; arxiv:2201.12150v2; arxiv:2006.16189v4 |
+| 2026-11-08 | F7 | openalex | algorithmic transparency double standard human decision making | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F7 | crossref | algorithmic transparency double standard human decision making | 20 | 10.1007/s00146-021-01200-5; 10.1007/s13347-018-0330-6; 10.2139/ssrn.7251401 |
+| 2026-11-08 | F7 | semanticscholar | algorithmic transparency double standard human decision making | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F7 | arxiv | algorithmic transparency double standard human decision making | 10 | arxiv:1202.4918v2; arxiv:2205.00033v1; arxiv:2609.02455v1 |
+| 2026-11-08 | F7 | openalex | understanding from opaque machine learning models link uncertainty | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F7 | crossref | understanding from opaque machine learning models link uncertainty | 20 | 10.1017/psa.2022.62; 10.21203/rs.3.rs-8787165/v1; 10.1021/acs.jcim.5c00464.s001 |
+| 2026-11-08 | F7 | semanticscholar | understanding from opaque machine learning models link uncertainty | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F7 | arxiv | understanding from opaque machine learning models link uncertainty | 10 | arxiv:2306.04338v1; arxiv:2006.16189v4; arxiv:2304.02381v2 |
+
+### F8 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F8 | openalex | hidden technical debt machine learning systems | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | hidden technical debt machine learning systems | 20 | 10.7551/mitpress/12440.003.0011; 10.17771/pucrio.acad.67941; 10.33612/diss.972242960 |
+| 2026-11-08 | F8 | semanticscholar | hidden technical debt machine learning systems | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F8 | arxiv | hidden technical debt machine learning systems | 10 | arxiv:2010.09711v2; arxiv:2306.04338v1; arxiv:2006.16189v4 |
+| 2026-11-08 | F8 | openalex | compound AI systems shift from models | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | compound AI systems shift from models | 20 | 10.1093/biostatistics/kxz041; 10.2139/ssrn.5950714; 10.22399/ijcesen.3895 |
+| 2026-11-08 | F8 | semanticscholar | compound AI systems shift from models | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F8 | arxiv | compound AI systems shift from models | 10 | arxiv:2406.00584v1; arxiv:2406.11255v1; arxiv:2501.02842v1 |
+| 2026-11-08 | F8 | openalex | challenges deploying machine learning case studies survey | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | challenges deploying machine learning case studies survey | 20 | 10.1145/3533378; 10.1017/9781009127356.009; 10.71465/ajml3037 |
+| 2026-11-08 | F8 | semanticscholar | challenges deploying machine learning case studies survey | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F8 | arxiv | challenges deploying machine learning case studies survey | 10 | arxiv:2201.12150v2; arxiv:2306.04338v1; arxiv:2006.16189v4 |
+| 2026-11-08 | F8 | openalex | large language model based autonomous agents survey architecture | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | large language model based autonomous agents survey architecture | 20 | 10.5220/0015396500004985; 10.2139/ssrn.5107557; 10.5220/0014378900004918 |
+| 2026-11-08 | F8 | semanticscholar | large language model based autonomous agents survey architecture | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F8 | arxiv | large language model based autonomous agents survey architecture | 10 | arxiv:2309.02427v3; arxiv:2402.11651v2; arxiv:2602.04518v1 |
+| 2026-11-08 | F8 | openalex | generative agents interactive simulacra | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | generative agents interactive simulacra | 20 | 10.61453/joit.v2023no15; 10.1145/3586183.3606763; 10.18653/v1/2025.emnlp-industry.8 |
+| 2026-11-08 | F8 | semanticscholar | generative agents interactive simulacra | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F8 | arxiv | generative agents interactive simulacra | 10 | arxiv:2112.03763v2; arxiv:2503.19334v1; arxiv:2509.02924v1 |
+| 2026-11-08 | F8 | openalex | emergent abilities large language models mirage | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | emergent abilities large language models mirage | 20 | 10.52202/075280-2425; 10.2139/ssrn.6584019; 10.4018/979-8-3693-8387-2.ch001 |
+| 2026-11-08 | F8 | semanticscholar | emergent abilities large language models mirage | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F8 | arxiv | emergent abilities large language models mirage | 10 | arxiv:2308.16118v2; arxiv:2610.00223v1; arxiv:2501.05032v2 |
+| 2026-11-08 | F8 | openalex | foundation models opportunities risks | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F8 | crossref | foundation models opportunities risks | 20 | 10.1148/ryai.220119; 10.1109/tpami.2025.3548729/mm1; 10.4274/dir.2025.253445 |
+| 2026-11-08 | F8 | semanticscholar | foundation models opportunities risks | 20 | 10.48550/arXiv.2108.07258; 10.4274/dir.2025.253445; 10.23919/ICACT63878.2025.10936649 |
+| 2026-11-08 | F8 | arxiv | foundation models opportunities risks | 10 | arxiv:2512.03307v1; arxiv:2108.07258v3; arxiv:2506.13817v1 |
+
+### F9 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F9 | openalex | willing suspension of disbelief poetic faith Coleridge | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F9 | crossref | willing suspension of disbelief poetic faith Coleridge | 20 | 10.5040/9781474218627.ch-001; 10.5040/9781474218627.ch-002; 10.5040/9781474218627.ch-003 |
+| 2026-11-08 | F9 | semanticscholar | willing suspension of disbelief poetic faith Coleridge | 20 | s2:e1ad55bc7aa2aa5973f02dbb976baf8d4d1f07a7; 10.5860/choice.197216; 10.1177/0040571X16676681d |
+| 2026-11-08 | F9 | arxiv | willing suspension of disbelief poetic faith Coleridge | 10 | arxiv:2107.06567v2; arxiv:1209.6542v3; arxiv:0207037v1 |
+| 2026-11-08 | F9 | openalex | make-believe fiction belief Walton mimesis | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F9 | crossref | make-believe fiction belief Walton mimesis | 20 | 10.2307/2108138; 10.2307/2219853; 10.2307/2108139 |
+| 2026-11-08 | F9 | semanticscholar | make-believe fiction belief Walton mimesis | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F9 | arxiv | make-believe fiction belief Walton mimesis | 10 | arxiv:2610.09484v2; arxiv:2606.22748v2; arxiv:2603.13545v2 |
+| 2026-11-08 | F9 | openalex | active creation of belief immersion narrative | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F9 | crossref | active creation of belief immersion narrative | 20 | 10.1093/acprof:oso/9780199647019.003.0007; 10.1093/9780198956433.003.0002; 10.4324/9780203712344-1 |
+| 2026-11-08 | F9 | semanticscholar | active creation of belief immersion narrative | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F9 | arxiv | active creation of belief immersion narrative | 10 | arxiv:2410.05252v1; arxiv:2411.05227v2; arxiv:2506.12167v2 |
+| 2026-11-08 | F9 | openalex | lock-in switching costs network effects dependency | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F9 | crossref | lock-in switching costs network effects dependency | 20 | 10.2139/ssrn.917785; 10.1016/j.telpol.2015.10.001; 10.2139/ssrn.2295134 |
+| 2026-11-08 | F9 | semanticscholar | lock-in switching costs network effects dependency | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F9 | arxiv | lock-in switching costs network effects dependency | 10 | arxiv:2603.01172v1; arxiv:2112.06424v1; arxiv:1105.1279v1 |
+| 2026-11-08 | F9 | openalex | platform co-optation actors assets activities | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F9 | crossref | platform co-optation actors assets activities | 20 | 10.4324/9781003214823-12; 10.18261/9788215026886-2016-07; 10.1515/9781399522380-005 |
+| 2026-11-08 | F9 | semanticscholar | platform co-optation actors assets activities | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F9 | arxiv | platform co-optation actors assets activities | 10 | arxiv:2002.05838v1; arxiv:2010.10425v1; arxiv:2509.23577v1 |
+| 2026-11-08 | F9 | openalex | suspension of disbelief film animation audience consent | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F9 | crossref | suspension of disbelief film animation audience consent | 20 | 10.5040/9780571351930.0150; 10.52846/aucphe.2025.01; 10.5040/9780571343713.0019 |
+| 2026-11-08 | F9 | semanticscholar | suspension of disbelief film animation audience consent | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F9 | arxiv | suspension of disbelief film animation audience consent | 10 | arxiv:2107.06567v2; arxiv:1502.02065v1; arxiv:2511.22940v3 |
+
+### F10 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F10 | openalex | brokerage third party tertius sociology review | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F10 | crossref | brokerage third party tertius sociology review | 20 | 10.5465/annals.2017.0024; 10.7765/9781526158260.00022; 10.59962/9780774829571-004 |
+| 2026-11-08 | F10 | semanticscholar | brokerage third party tertius sociology review | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F10 | arxiv | brokerage third party tertius sociology review | 10 | arxiv:1207.6739v5; arxiv:2108.03787v1; arxiv:2505.18332v1 |
+| 2026-11-08 | F10 | openalex | problem of many hands responsibility computer systems | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F10 | crossref | problem of many hands responsibility computer systems | 20 | 10.4324/9781315734217-10; 10.4324/9781315734217-12; 10.4324/9781315734217-8 |
+| 2026-11-08 | F10 | semanticscholar | problem of many hands responsibility computer systems | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F10 | arxiv | problem of many hands responsibility computer systems | 10 | arxiv:1812.01870v2; arxiv:1905.04225v2; arxiv:2105.10384v1 |
+| 2026-11-08 | F10 | openalex | social triad model deployer trust human robot | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F10 | crossref | social triad model deployer trust human robot | 20 | 10.1007/s12369-023-01048-3; 10.21236/ada413255; 10.1109/thms.2024.3488559/mm1 |
+| 2026-11-08 | F10 | semanticscholar | social triad model deployer trust human robot | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F10 | arxiv | social triad model deployer trust human robot | 10 | arxiv:2402.15671v1; arxiv:2005.05940v1; arxiv:2507.11460v1 |
+| 2026-11-08 | F10 | openalex | Simmel triad tertius gaudens mediator | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F10 | crossref | Simmel triad tertius gaudens mediator | 20 | 10.22215/etd/1984-00953; 10.1093/oed/9571185918; 10.1007/s11138-005-6827-0 |
+| 2026-11-08 | F10 | semanticscholar | Simmel triad tertius gaudens mediator | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F10 | arxiv | Simmel triad tertius gaudens mediator | 10 | arxiv:0609304v2; arxiv:1102.1496v2; arxiv:1208.0095v1 |
+| 2026-11-08 | F10 | openalex | moderated dyad versus triad intermediary determination | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F10 | crossref | moderated dyad versus triad intermediary determination | 20 | 10.1021/jp045042e.s001; 10.1021/jo035689f.s002; 10.1002/9781405165518.wbeosd100 |
+| 2026-11-08 | F10 | semanticscholar | moderated dyad versus triad intermediary determination | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F10 | arxiv | moderated dyad versus triad intermediary determination | 10 | arxiv:2602.13388v1; arxiv:2312.06881v1; arxiv:2503.08946v1 |
+
+### F11 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F11 | openalex | large language model animated character chatbot | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F11 | crossref | large language model animated character chatbot | 20 | 10.21070/ups.7006; 10.21070/ups.7532; 10.2139/ssrn.5276177 |
+| 2026-11-08 | F11 | semanticscholar | large language model animated character chatbot | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F11 | arxiv | large language model animated character chatbot | 10 | arxiv:2403.14702v1; arxiv:2405.11357v3; arxiv:2402.11651v2 |
+| 2026-11-08 | F11 | openalex | role play dialogue agents simulacra | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F11 | crossref | role play dialogue agents simulacra | 20 | 10.4324/9781315688794-14; 10.21437/interspeech.2013-296; 10.1007/springerreference_59988 |
+| 2026-11-08 | F11 | semanticscholar | role play dialogue agents simulacra | 20 | 10.1109/VR59515.2025.00025; 10.48550/arXiv.2509.00482; 10.48550/arXiv.2502.20757 |
+| 2026-11-08 | F11 | arxiv | role play dialogue agents simulacra | 10 | arxiv:2302.12944v1; arxiv:2605.04449v1; arxiv:2310.04733v1 |
+| 2026-11-08 | F11 | openalex | AI as character fiction intentional stance | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F11 | crossref | AI as character fiction intentional stance | 20 | 10.3389/frobt.2021.666586; 10.7551/mitpress/5352.003.0013; 10.1093/oso/9780199367511.003.0005 |
+| 2026-11-08 | F11 | semanticscholar | AI as character fiction intentional stance | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F11 | arxiv | AI as character fiction intentional stance | 10 | arxiv:2603.13545v2; arxiv:2606.22748v2; arxiv:2405.16490v2 |
+| 2026-11-08 | F11 | openalex | anthropomorphism dialogue systems mirages | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F11 | crossref | anthropomorphism dialogue systems mirages | 20 | 10.18653/v1/2023.emnlp-main.290; 10.21437/interspeech.2015-75; 10.1525/jsah.2013.72.3.399 |
+| 2026-11-08 | F11 | semanticscholar | anthropomorphism dialogue systems mirages | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F11 | arxiv | anthropomorphism dialogue systems mirages | 10 | arxiv:2302.12944v1; arxiv:2305.09800v2; arxiv:1601.04574v1 |
+| 2026-11-08 | F11 | openalex | automated subject large language model psychoanalysis | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F11 | crossref | automated subject large language model psychoanalysis | 20 | 10.5220/0013294100003938; 10.7565/landp.v8i2.1603; 10.2307/jj.25137008.14 |
+| 2026-11-08 | F11 | semanticscholar | automated subject large language model psychoanalysis | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F11 | arxiv | automated subject large language model psychoanalysis | 10 | arxiv:2603.23611v1; arxiv:2402.11651v2; arxiv:2312.10793v3 |
+| 2026-11-08 | F11 | openalex | talking about large language models anthropomorphic language | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F11 | crossref | talking about large language models anthropomorphic language | 20 | 10.1145/3624724; 10.2139/ssrn.5995414; 10.1007/978-981-95-1327-7_27 |
+| 2026-11-08 | F11 | semanticscholar | talking about large language models anthropomorphic language | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F11 | arxiv | talking about large language models anthropomorphic language | 10 | arxiv:2610.00223v1; arxiv:2503.21676v2; arxiv:2608.05850v2 |
