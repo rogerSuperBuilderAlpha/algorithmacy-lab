@@ -12,19 +12,23 @@ used_by_sections: [7]
 claims: [affordances-derived, wellbeing-valence]
 read_depth: abstract
 verified: crossref-verified
-verified_date: 2026-08-08
+verified_date: 2026-11-08
 source_basis: "Crossref record and Crossref-deposited abstract re-read 2026-11-08 (volume 43, issue 5, pp. 974-985; online 30 Dec 2025; print May 2026; CC-BY, Wiley hybrid OA). Full text NOT reached: Wiley (pdfdirect, pdf, full, full-xml) returned 403 Cloudflare challenge; Southampton eprint 508702 returned an Anubis proof-of-work page; no bot-challenge bypass attempted; Chrome extension not connected. No full-text quotes held."
 generated_run: 2026-08-08-audit-transcription
-flags: []
+flags: [abstract-only-debt]
 rejected_reason: "Not admitted for want of words."
 ---
 
 ## Summary
 
-Names digital technology captivity: a consumer vulnerability arising where digital becomes the
-mandatory gateway and preferred alternatives are removed, distinguished from digital exclusion and
-from voluntary unengagement as coerced participation. Documents the burden falling on older,
-disabled, low-income and unbanked customers.
+Names Digital Technology Captivity (DTC): a consumer vulnerability that arises when digital
+technologies become the mandatory gateway to essential services and preferred alternatives are
+limited, bringing stress and entrapment; consumers cope by adapting under strain or abandoning the
+service. Conceptual paper using Lazarus and Folkman's stress-and-coping framework; treats DTC as
+related to but distinct from service captivity. (Abstract only. An earlier version of this
+Summary also claimed distinctions from digital exclusion and voluntary unengagement and named
+older, disabled, low-income and unbanked customers; those claims are not in the abstract and were
+removed on 2026-11-08. They may be in the full text; no one here has read it.)
 
 ## Key facts / verified quotes with loci
 
@@ -59,3 +63,5 @@ Upgraded in rr-2026-11: full text unreachable (see source_basis), so `read_depth
 **Recommendation: admit** (to section 7, fifth principle), conditional on one human full-text read of pp. 974-985 to pull the captivity definition and the exclusion/unengagement distinctions with page locators before any sentence quotes it. The reviewer (R1.1) asked for the cite by name, so admission is low-risk even at abstract depth if the sentence claims only what the abstract states.
 
 **Kim et al. (2025) `kim2025shadow` (abstract only).** Complementary, not subsumed, on the evidence available: Kim et al. model mandatory self-service as unpaid labour transferred to the customer (job-demand/control, stress, resistance); the Wilson-Nash abstract models a vulnerability state under stress-and-coping with limited alternatives. They share the mandatory-gateway premise and differ in mechanism (labour transfer vs entrapment/coping). Keep both only if the word budget allows; if one must go, Wilson-Nash is the reviewer-requested cite. Re-judge after the full read.
+
+Fable-checked rr-2026-11 (2026-11-08): Summary rewritten to the abstract's content (removed the exclusion/unengagement distinctions and the named groups, which came from an unread audit); `verified_date` moved to today's abstract re-check; `abstract-only-debt` flag added. Four abstract quotes re-found in crossref.json.

@@ -49,3 +49,5 @@ who can contest), stage 4 (*Constitute*) takes "who is held accountable" and "th
 §5.1.4 gives the reason the deploying entity is the natural forum.
 
 Upgraded in rr-2026-11: new card; full text read from arXiv v1.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Five quotes re-found at arXiv pdf pp. 7, 12, 12, 12, 15.

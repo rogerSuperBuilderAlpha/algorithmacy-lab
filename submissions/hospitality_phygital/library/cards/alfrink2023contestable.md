@@ -27,9 +27,9 @@ Proposes contestability designed across a system's lifecycle rather than bolted 
 
 ## Key facts / verified quotes with loci
 
-- Contestability by design is defined as systems 'responsive to human intervention throughout the system lifecycle' [full-text]
+- Contestability by design is defined as systems 'responsive to human intervention throughout the system lifecycle' (abstract) [full-text]
 - The framework is both a system quality (contestability features) and a development practice ('contestability by design') — the distinction the paper's institutional claim depends on [full-text]
-- Justifies it on autonomy grounds: 'contestability protects human self-determination and ensures human control over automated systems' [full-text]
+- Justifies it on autonomy grounds: 'contestability protects human self-determination and ensures human control over automated systems' (§2, last paragraph) [full-text]
 - Built from a systematic literature review synthesized with qualitative interpretative and visual mapping methods [full-text]
 - *Minds and Machines* 33, pp. 613-639 [metadata]
 - (rr-2026-11) Five features (built-in safeguards; interactive control; explanations; human review and intervention requests; tools for scrutiny) and six practices (ex-ante safeguards; agonistic ML development; QA during development; QA after deployment; risk mitigation; third-party oversight) (§7 ¶1) [full-text]
@@ -48,6 +48,7 @@ Proposes contestability designed across a system's lifecycle rather than bolted 
 - Almada was cut as its co-citation, leaving this source to carry the lifecycle argument alone.
 - (rr-2026-11) Its "stages" are the ICO AI-lifecycle phases a *developer* moves through (§6.3: practices "are primarily performed by system developers"). The manuscript's roadmap stages (audit, specify, design, constitute, preserve) are an *operator's* sequence of rising commitment. Alfrink et al. support the content of stages 2–4, not the ordering; the ordering is the authors'.
 - (rr-2026-11) Nothing in Alfrink et al. supports stage 5 (preserve a real alternative to the automated route). That stage needs Hirschman (1970) and Wilson-Nash et al.
+- Bib: `references.bib` carries volume 33 and pages but no `number = {4}`; Crossref gives issue 4 (correction recorded here, bib not edited).
 - (rr-2026-11) Scope: the framework "assumes no context" beyond generic automated decision-making and the authors expect it to fit public services, where they note "the duty of care government organizations have towards citizens" (§7). Transfer to a commercial host is the paper's move.
 
 ## Where it enters the manuscript
@@ -57,3 +58,5 @@ stage 4 (a forum with authority to change the decision, not automatable) and §6
 specify questions.
 
 Upgraded in rr-2026-11: re-read from the archived publisher HTML; nine section-located quotes added for the condition-to-stage mapping; flagged that the roadmap ordering and stage 5 are not in the source; used_by_sections moved to the new numbering (was [6]).
+
+Fable-checked rr-2026-11 (2026-11-08): added the two missing locators (abstract; §2), recorded the missing issue number in the bib; all 11 located quotes re-checked against article.txt, no other change.

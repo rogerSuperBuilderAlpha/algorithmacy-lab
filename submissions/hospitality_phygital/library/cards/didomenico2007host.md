@@ -44,3 +44,5 @@ home and business, through domestic symbols, spatial management and unspoken pro
 
 Section 3 (new numbering, rr-2026-11): the face-to-face baseline in which host and guest negotiate
 the norms of the stay with the owner present.
+
+Fable-checked rr-2026-11 (2026-11-08): all five quotes match the OpenAlex abstract re-fetched 2026-11-08 (Crossref carries none); Crossref spells the first author 'Marialaura'; no change.

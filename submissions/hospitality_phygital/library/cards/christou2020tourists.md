@@ -31,9 +31,11 @@ Qualitative study (78 interviews) of how tourists view anthropomorphic robots. T
 ## Critical notes & threats
 
 - v4 sentence: "work on digitally mediated services suggests the outcomes sit on a range, since the same mediation can enchant, disenchant, or re-enchant depending on the surrounding arrangements (De Vos et al. 2024; Christou et al. 2020; Pan et al. 2025; Parkinson et al. 2022)." SUPPORT: PARTIAL. The abstract shows mixed outcomes (enhanced value and sadness at once), which fits "a range". It does not discuss enchantment or re-enchantment, nor "surrounding arrangements" as the moderator; the closest it gets is "carefully designed" robots and not replacing the human face.
-- Responses are tourists' perceptions in interviews during COVID-19 quarantine deployments, not measured outcomes.
+- Responses are tourists' perceptions in interviews, not measured outcomes. The abstract names the COVID-19 robot deployments as the occasion for the study ('Amidst the COVID-19 outbreak ... again igniting the ongoing dispute'), not as the setting of the interviews; when and where the 78 interviews were held is not in the abstract.
 - Bib vs Crossref: all fields match.
 
 ## Where it enters the manuscript
 
 Section 8 (v4 numbering), on well-being: "...the same mediation can enchant, disenchant, or re-enchant depending on the surrounding arrangements (De Vos et al. 2024; Christou et al. 2020; Pan et al. 2025; Parkinson et al. 2022)." One of four sources; carries the ambivalence.
+
+Fable-checked rr-2026-11 (2026-11-08): fixed one overreach (COVID-19 is the occasion, not the interview setting); five quotes re-checked against the Crossref structured abstract; PARTIAL stands.

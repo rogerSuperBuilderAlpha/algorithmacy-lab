@@ -29,10 +29,12 @@ Within-subjects laboratory study of an interface that explains an allocation alg
 
 ## Critical notes & threats
 
-- v4 sentence: "The fourth: a person must stay reachable who can actually reverse or revise the decision (Yurrita et al. 2023; Lee et al. 2019)." SUPPORT: PARTIAL. Lee supports outcome control, where people adjust the allocation themselves, as raising fairness, and says this "brings human elements into final decision-making". That is control by the affected group, not a reachable person who can reverse a decision, so it supports reversibility more than reachability of a person.
+- v4 sentence: "The fourth: a person must stay reachable who can actually reverse or revise the decision (Yurrita et al. 2023; Lee et al. 2019)." SUPPORT: PARTIAL. Lee supports outcome control, where people adjust the allocation themselves, as raising fairness, "by bringing human elements into final decision-making". That is control by the affected group, not a reachable person who can reverse a decision, so it supports reversibility more than reachability of a person.
 - Goods-division lab task, not a service encounter. Full text not read, so the interface details and effect sizes are unchecked.
 - Bib vs Crossref: all fields match; Crossref returns the short title "Procedural Justice in Algorithmic Fairness", and the bib and v4 give the full printed title.
 
 ## Where it enters the manuscript
 
 Section 7 (v4 numbering), fourth design principle: "The fourth: a person must stay reachable who can actually reverse or revise the decision (Yurrita et al. 2023; Lee et al. 2019)."
+
+Fable-checked rr-2026-11 (2026-11-08): fixed one paraphrase shown as a quote ('by bringing ...'); four quotes re-checked against the Crossref abstract; PARTIAL stands.

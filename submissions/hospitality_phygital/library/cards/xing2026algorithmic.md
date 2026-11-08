@@ -36,3 +36,5 @@ Critical-reflection review of AI in customer experience management in hospitalit
 ## Where it enters the manuscript
 
 Section 1 (v4 numbering): "We call AI a tool, a mediator, a facilitator, a co-creator, a form of social presence (Bitner et al. 2000; van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026)."
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Three quotes re-checked against the OpenAlex abstract fetched today; 'co-creator' appears in the title only.

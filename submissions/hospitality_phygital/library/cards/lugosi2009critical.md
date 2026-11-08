@@ -40,3 +40,5 @@ and lists eight challenges for it.
 ## Where it enters the manuscript
 
 Not entering (new numbering, rr-2026-11).
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Both quotes re-found in paper.txt under 'The development of a critical approach'; verifier_2 PASS accepted.

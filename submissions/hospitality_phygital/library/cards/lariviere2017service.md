@@ -35,3 +35,5 @@ Conceptual article on the service encounter as a three-way relation among techno
 ## Where it enters the manuscript
 
 Section 1 (v4 numbering): "Service research has quietly handed the host's role to the employee (Larivière et al. 2017; Odekerken-Schröder et al. 2022)." Section 4: "Phygital hospitality increasingly arranges these into a three-party relationship ... (Larivière et al. 2017; Li et al. 2021; Gursoy 2026)."
+
+Fable-checked rr-2026-11 (2026-11-08): no abstract in any record; second-hand quotes re-confirmed in sources/odekerken2021service/oa1.pdf p. 3 by verifier_1; Semantic Scholar TLDR ('changing interdependent roles of technology, employees, and customers') is consistent; no change.

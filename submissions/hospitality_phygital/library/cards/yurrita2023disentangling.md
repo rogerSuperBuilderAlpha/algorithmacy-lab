@@ -40,3 +40,5 @@ Online experiment (n=267) on a loan-approval scenario. Explanations raise inform
 ## Where it enters the manuscript
 
 Section 7 (v4 numbering), fourth design principle: "The fourth: a person must stay reachable who can actually reverse or revise the decision (Yurrita et al. 2023; Lee et al. 2019)." Rewrite or qualify so the claim rests on appeal that reaches a real re-decision; the "person" part needs the 2025 paper or the authors' argument.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes re-found by chunked check at pdf pp. 1, 7, 10, 11, 13 (ligatures dropped in the extraction).

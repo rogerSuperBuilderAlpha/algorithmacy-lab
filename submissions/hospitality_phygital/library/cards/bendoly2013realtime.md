@@ -32,8 +32,11 @@ Laboratory experiment with reservation agents who may accept bids below a revenu
 - v4 sentence (first use): "Reservation agents keep a sanctioned latitude to accept a rate below the system's prescription (Bendoly 2013)". SUPPORT: YES at abstract level. Nearly verbatim.
 - v4 sentence (second use): "Skilled front-desk employees often manufacture a guest's sense of control through small acts of discretion (Bendoly 2013)." SUPPORT: NO, as far as the abstract goes. The study is a lab experiment on reservation agents' pricing deviations under feedback regimes. It says nothing about front-desk staff, skill, small acts of discretion, or a guest's sense of control. This looks like a mis-citation or a citation carried over from another sentence; check the full text, and consider whether Fuller and Smith or another source was meant.
 - The bib note reads "readdepth=partial-full" and says to cite the paper as a complication (the algorithm re-anchors judgment rather than displacing it); I could not reproduce that reading this session.
-- Bib vs Crossref: all fields match (Crossref title has a Unicode hyphen; online 2012, print 2013).
+- Bib vs Crossref: all fields match (Crossref title has a Unicode hyphen; online 2012, print 2013). Crossref now lists the publisher as Wiley.
+- Fable (rr-2026-11): I re-read the abstract. It names only reservation agents, rate bids, management's view of deviation, a laboratory experiment and feedback regimes. Nothing in it concerns front-desk staff or a guest's sense of control, so the second v4 use is a mis-citation at abstract level; OpenAlex and Unpaywall list no open copy to check further.
 
 ## Where it enters the manuscript
 
 Section 4 (v4 numbering), twice. On pricing: "Reservation agents keep a sanctioned latitude to accept a rate below the system's prescription (Bendoly 2013), and in hotel pricing data ...". On the craft of hospitality: "Skilled front-desk employees often manufacture a guest's sense of control through small acts of discretion (Bendoly 2013)."
+
+Fable-checked rr-2026-11 (2026-11-08): confirmed the second v4 use (front-desk 'sense of control') is unsupported by the abstract; added publisher note; swap-candidate flag kept.

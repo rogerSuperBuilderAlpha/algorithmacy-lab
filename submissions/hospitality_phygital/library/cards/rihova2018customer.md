@@ -37,3 +37,5 @@ by customer-dominant logic.
 ## Where it enters the manuscript
 
 Not entering (new numbering, rr-2026-11).
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Both quotes re-found at manuscript pp. 1 and 2 (line numbers ignored).

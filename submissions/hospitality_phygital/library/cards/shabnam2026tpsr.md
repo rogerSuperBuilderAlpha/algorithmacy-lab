@@ -36,3 +36,5 @@ Conceptual paper building a transformative phygital service research framework o
 ## Where it enters the manuscript
 
 Section 7 (v4 numbering): "Those gains are real, and the field is far from uncritical of its tools. Recent work in this journal criticizes the speeding-up of hospitality by technology (Weaver 2025), and the field's own research agendas fault the opacity and rigidity of algorithmic systems (Shabnam et al. 2026)."
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Three quotes re-checked against the OpenAlex abstract fetched today (pp. 1-17, no volume or issue yet).

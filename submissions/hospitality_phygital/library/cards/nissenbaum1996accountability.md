@@ -55,3 +55,5 @@ computer-as-scapegoat barrier is the failure the paper names when a host hands t
 system.
 
 Upgraded in rr-2026-11: new card; full text read from the archived author copy.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Nine quotes re-found at preprint pdf pp. 3, 6, 10, 10, 11, 11, 14, 15, 15.

@@ -31,7 +31,10 @@ Philosophy-of-technology essay on hospitality towards technology, set against th
 - v4 sentence: "Philosophy of technology has imagined the machine as a guest we might extend hospitality to (Introna 2010)." SUPPORT: NOT CHECKABLE. The title is consistent with it (hospitality, ethical dwelling with technology), but I have no text or abstract. The bib note says the welcome is "owed BY humans TO artefacts. The machine as guest, never as host" and gives readdepth=abstract; I could not reproduce that reading this session.
 - Direction matters: if Introna treats technology as the guest, the sentence is right, but it is also a claim about a whole subfield ("Philosophy of technology") resting on one essay.
 - Bib vs Crossref: title, author, venue, volume, pages match; the bib year 2010 is the print year (online 2009).
+- Fable (rr-2026-11): Semantic Scholar's machine TLDR reads 'This paper attempts to argue for a decentering (or rather overcoming) of anthropocentric ethics'. Consistent with hospitality extended to non-humans, but a machine summary, not citable.
 
 ## Where it enters the manuscript
 
 Section 4 (v4 numbering), where the paper turns to machines in the host's chair: "That is our position at the threshold. Philosophy of technology has imagined the machine as a guest we might extend hospitality to (Introna 2010)." Needs a read before it is quoted for the guest-not-host direction.
+
+Fable-checked rr-2026-11 (2026-11-08): no abstract in any record; TLDR noted as a consistency check only; NOT CHECKABLE stands.

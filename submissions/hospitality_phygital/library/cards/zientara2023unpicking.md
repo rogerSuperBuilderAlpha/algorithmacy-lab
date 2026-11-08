@@ -36,3 +36,5 @@ Survey of UK hospitality workers using Hirschman's exit-voice-loyalty framework 
 ## Where it enters the manuscript
 
 Section 6 (v4 numbering), on silence: "...and hospitality's own voice research finds that workers in the sector often prefer to leave quietly rather than speak up (Zientara et al. 2023)." Suggest softening to "intend to leave rather than join a union".
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Three quotes re-checked against the OpenAlex abstract fetched today (try0.html is a captcha page); PARTIAL verdict stands.

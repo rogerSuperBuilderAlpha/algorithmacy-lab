@@ -57,3 +57,5 @@ commercial hospitality is the property (p. S25, p. S30). Optionally §3, for the
 guest (p. S28) as a reason standing has to be conferred.
 
 Upgraded in rr-2026-11: card created from the bib entry (no prior card); metadata to full-text; ten located quotes; the bib gloss on guest obligation narrowed.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Eleven quotes re-found at pdf pp. 1, 1, 1, 4, 5, 6, 9, 11, 11, 11, 11 (= S20, S20, S20, S23, S24, S25, S28, S30 x4).

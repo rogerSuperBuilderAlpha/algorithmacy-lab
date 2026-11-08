@@ -26,7 +26,7 @@ Conceptual article introducing automated social presence (ASP), the extent to wh
 - "it introduces the novel concept of automated social presence (ASP; i.e., the extent to which technology makes customers feel the presence of another social entity)" (JSR 20(1), p. 43, abstract) [full-text]
 - ASP "can either work in conjunction with or possibly fully substitute for human frontline employees (FLEs)" (p. 44) [full-text]
 - Delivers "a typology that highlights different combinations of automated and human social presence in organizational frontlines" (p. 43, abstract) [full-text]
-- Hospitality is mentioned once, in passing: "In the future, we expect more services to be collaboratively provided by human and social robot FLEs, such as in healthcare and hospitality services" (p. 44) [full-text]
+- Hospitality is mentioned once, in passing: "In the future, we expect more services to be collaboratively provided by human and social robot FLEs, such as in healthcare and hospitality services" (p. 46) [full-text]
 
 ## Critical notes & threats
 
@@ -37,3 +37,5 @@ Conceptual article introducing automated social presence (ASP), the extent to wh
 ## Where it enters the manuscript
 
 Section 1 (v4 numbering), on the vocabulary for the technology: "We call AI a tool, a mediator, a facilitator, a co-creator, a form of social presence (Bitner et al. 2000; van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026)." One of four sources for a five-item list; this one carries "social presence".
+
+Fable-checked rr-2026-11 (2026-11-08): one locator fixed: the hospitality sentence sits on p. 46 (the running head '46' precedes it in text.txt; verifier_2 gave pp. 45-46). Other quotes re-found at pp. 43, 44, 43.

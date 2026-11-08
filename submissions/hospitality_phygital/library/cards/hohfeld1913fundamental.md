@@ -51,3 +51,5 @@ New numbering (rr-2026-11). Section 3, one clause: standing is the guest-side co
 duty, in Hohfeld's sense that a claim is always held against someone (p. 32). It enters only if the
 authors want the rights-correlativity tradition named separately; Darwall (2013, p. 28) already
 carries it in one citation. That choice is the main word-budget decision for E.2.
+
+Fable-checked rr-2026-11 (2026-11-08): all five quotes re-checked in the Wabash transcription and placed on journal pp. 30, 31, 32, 32, 33 via the Commons scan (PDF page + 15); governor note stands; no change.

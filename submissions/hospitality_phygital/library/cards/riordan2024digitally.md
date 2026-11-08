@@ -36,3 +36,5 @@ Multi-sited ethnography of platform-based food delivery workers using Lashley's 
 ## Where it enters the manuscript
 
 Section 1 (v4 numbering): "That gap matters more than ever now that platforms and automated systems are taking over jobs human hosts used to do. Hospitality scholars have already asked what happens to hospitality when platforms push the human host out of view (Riordan 2024; Germann Molz 2026)."
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Three quotes re-checked against the OpenAlex abstract fetched today; PARTIAL verdict stands.

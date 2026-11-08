@@ -24,7 +24,7 @@ Book arguing that universalist design principles erase people who are intersecti
 ## Key facts / verified quotes with loci
 
 - Blurb: the book "demonstrates how universalist design principles and practices erase certain groups of people" (publisher abstract via Crossref) [abstract]
-- Blurb: "Design justice' is an approach to design that is led by marginalized communities" (publisher abstract) [abstract]
+- Blurb: "'Design justice' is an approach to design that is led by marginalized communities" (publisher abstract; the source sets the term in its own double quotation marks) [abstract]
 - Crossref type edited-book, DOI 10.7551/mitpress/12255.001.0001, 2020 [metadata]
 
 ## Critical notes & threats
@@ -36,3 +36,5 @@ Book arguing that universalist design principles erase people who are intersecti
 ## Where it enters the manuscript
 
 Section 7 (v4 numbering), on personalization removing the improviser: "...they then meet a system with no surface on which the misfit can be negotiated (Costanza-Chock 2020)." Needs the chapter read and a page cited.
+
+Fable-checked rr-2026-11 (2026-11-08): fixed the mismatched quotation mark in quote 2; both quotes re-checked against the Crossref blurb; NOT CHECKABLE stands (book body unread).

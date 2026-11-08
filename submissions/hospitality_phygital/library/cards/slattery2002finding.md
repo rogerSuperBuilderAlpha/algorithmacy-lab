@@ -50,3 +50,5 @@ nothing more.
 Section 2, *Distinctness* (new numbering, rr-2026-11): one sentence naming the seller–buyer
 position the paper argues past. Optionally section 8, where the hospitality lens is set against
 service management.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes re-found at pdf pp. 3, 3, 4, 5, 7, 9 (= pp. 21, 21, 22, 23, 25-26, 27).

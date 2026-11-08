@@ -37,3 +37,5 @@ Systematic review that names the customer-employee-AI "encounter triad" and sort
 ## Where it enters the manuscript
 
 Section 1 (v4 numbering), vocabulary sentence, and section 4: "Phygital hospitality increasingly arranges these into a three-party relationship: the guest, the hospitality employee or organization, and an algorithmic intermediary (Larivière et al. 2017; Li et al. 2021; Gursoy 2026)."
+
+Fable-checked rr-2026-11 (2026-11-08): four quotes match the Semantic Scholar abstract re-fetched 2026-11-08 (Crossref still has none); both YES verdicts stand; no change.

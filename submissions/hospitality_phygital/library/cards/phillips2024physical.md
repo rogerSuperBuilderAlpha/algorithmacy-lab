@@ -23,7 +23,7 @@ Thirty interviews around a simulated just-walk-out retail store. Finds that effo
 
 ## Key facts / verified quotes with loci
 
-- Method: "Interviews were conducted with 30 customers using a simulated frictionless retail experience" (author manuscript, PDF p. 1, abstract) [full-text]
+- Method: "Interviews were conducted with 30 customers using a simulated frictionless retail experience" (author manuscript, PDF p. 2, abstract; PDF p. 1 is the QUT cover sheet) [full-text]
 - Finding: "the reduction of customer effort is facilitated by removing high interpersonal effort which is associated with a more forgettable, or slippery, experience" (PDF p. 2) [full-text]
 - Positive effortless experiences "involved interaction with staff as knowledge experts" who could "intercept, absorb, and alleviate customer effort" (PDF p. 36) [full-text]
 - Conclusion: reducing effort "can facilitate a slippery slope for memorability within a utilitarian customer experience" (PDF p. 50) [full-text]
@@ -39,3 +39,5 @@ Thirty interviews around a simulated just-walk-out retail store. Finds that effo
 ## Where it enters the manuscript
 
 Section 7 (v4 numbering), closing paragraph of the argument against frictionless hospitality: "So the aim of phygital hospitality should not be to wipe out friction. It should be to remove the pointless kind while keeping the moments where recognition, negotiation, and exception stay possible (Padigar et al. 2025; Phillips et al. 2024)." Safe as support for the cost of removing interpersonal effort; keep the recognition/negotiation clause off its shoulders.
+
+Fable-checked rr-2026-11 (2026-11-08): one locator fixed (abstract quote is PDF p. 2, not p. 1; verifier_2 accepted). Other quotes re-found at PDF pp. 2, 36, 36, 50.

@@ -32,8 +32,11 @@ Conceptual paper arguing that automation and augmentation cannot be neatly separ
 
 - v4 sentence: "Does technology help hospitality or replace it? You cannot answer by asking how advanced it is (Raisch and Krakowski 2021; Parasuraman et al. 2000)." SUPPORT: PARTIAL. Raisch supports the neighbouring point that help versus replace is not a clean either/or and cannot be settled at the level of the task. It does not say that sophistication is the wrong question; technological advancement as such is not its topic. The inference "so ask what stays available to the guest" is the authors'.
 - Management-domain paper about AI at work, with no hospitality content (0 hits for hospitality or host).
+- (Fable, rr-2026-11) The four quotes are all from the abstract (p. 192 = pdf p. 2 of the UNIGE copy, after a cover page). The drafter read the abstract and introduction closely and skimmed the body; `read_depth: full-text` reflects the copy on disk, not a line-by-line read. Nothing in the card depends on the body.
 - Bib vs Crossref: all fields match (Crossref uses an en dash in the title).
 
 ## Where it enters the manuscript
 
 Section 5 (v4 numbering), opening of the three-condition argument: "Does technology help hospitality or replace it? You cannot answer by asking how advanced it is (Raisch and Krakowski 2021; Parasuraman et al. 2000)." Cite for non-separability; do not let it carry "advancement is irrelevant".
+
+Fable-checked rr-2026-11 (2026-11-08): one note added: the full-text label rests on a close read of abstract and introduction plus a skim of the body; quotes re-found at pdf p. 2 (= p. 192).

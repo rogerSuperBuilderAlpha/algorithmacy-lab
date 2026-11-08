@@ -37,3 +37,5 @@ Model of four types of automation (information acquisition, analysis, decision s
 ## Where it enters the manuscript
 
 Section 5 (v4 numbering): "Does technology help hospitality or replace it? You cannot answer by asking how advanced it is (Raisch and Krakowski 2021; Parasuraman et al. 2000)." Better as the thing being answered than as support; consider moving it to "for the levels of automation tradition, see".
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Four quotes re-checked against the OpenAlex abstract fetched today.

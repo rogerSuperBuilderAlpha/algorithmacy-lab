@@ -13,7 +13,7 @@ claims: [caw-rival, not-that-triad]
 read_depth: abstract
 verified: verified
 verified_date: 2026-11-08
-source_basis: "Abstract only, taken from the publisher-deposited record (Crossref/OpenAlex/Semantic Scholar) fetched 2026-11-08; full text not retrievable in this session (publisher and repository pages return bot-challenge or paywall responses, which I did not try to bypass). Crossref record compared with the bib entry."
+source_basis: "Abstract only, from the OpenAlex and Semantic Scholar records fetched 2026-11-08 (Crossref carries no abstract for this DOI); full text not retrievable in this session (publisher and repository pages return bot-challenge or paywall responses, which I did not try to bypass). Crossref record compared with the bib entry."
 generated_run: rr-2026-11
 flags: [abstract-only-debt, must-engage]
 ---
@@ -38,3 +38,5 @@ Conceptual paper that moves co-creation beyond dyadic provider-consumer models t
 ## Where it enters the manuscript
 
 Section 4 (v4 numbering), twice: the three-party relationship sentence and "As algorithms take on these jobs, agency gets redistributed across the arrangement. The most recent account of the hospitality triad already says so, and it puts guest autonomy and the governance of algorithmic actors on its agenda (Gursoy 2026)."
+
+Fable-checked rr-2026-11 (2026-11-08): corrected source_basis (Crossref has no abstract); four quotes re-checked against OpenAlex/Semantic Scholar; both YES verdicts stand at abstract level.

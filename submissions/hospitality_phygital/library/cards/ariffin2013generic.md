@@ -46,3 +46,5 @@ Not recommended (new numbering, rr-2026-11). At most a supporting clause in sect
 and personalisation as facets guests register, after a full-text read.
 
 Upgraded in rr-2026-11: card created (no prior card file existed despite the assignment); depth moved from bib-note metadata to abstract; abstract quotes added with loci; full read attempted and blocked, recorded in source_basis.
+
+Fable-checked rr-2026-11 (2026-11-08): abstract re-read from Consensus on 2026-11-08 (Crossref, OpenAlex and Semantic Scholar still carry none); all four quotes match; no change.

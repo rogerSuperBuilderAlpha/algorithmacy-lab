@@ -37,3 +37,5 @@ Interview study of UK hotel workers showing why they do not enforce employment r
 ## Where it enters the manuscript
 
 Section 6 (v4 numbering), on voice and silence: "So algorithmic mediation lands on top of an old problem in hospitality work: employee silence (Jung and Yoon 2019; Papadopoulos et al. 2021)." Well placed as baseline evidence.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes re-found on PDF p. 1; Discussion begins PDF p. 10.

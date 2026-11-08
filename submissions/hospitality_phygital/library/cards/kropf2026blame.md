@@ -41,6 +41,7 @@ displacing human accountability.
 
 - This is the strongest challenge to the *Transfer* move. If a system can occupy a role "tied to morally relevant duties", then delegating the welcome to a system might hand the role to something after all. The paper must answer it, not cite it in passing (`must-engage`).
 - The abstract says role responsibility rests on "social function"; the manuscript's reply (that a welcome's role is constituted by obligation owed to the arrival and by authority to make an exception, which a system cannot hold) cannot be checked against Kropf et al.'s actual definition until the full text is read. Which account of role responsibility they use (Hart's or another) is unknown from the abstract.
+- v4 already prints one sentence on this source (section 2): "Some in machine ethics hold that a machine can carry the duties of a role it occupies (Kropf et al. 2026)." SUPPORT: YES at abstract level (robots "operate within roles tied to morally relevant duties"). The abstract also says this narrows responsibility gaps "without displacing human accountability", which v4 does not report.
 - "Without displacing human accountability" may in fact support the paper: the robot's thin role responsibility sits beside, not instead of, the institution's. Confirm in the full text before using it either way.
 
 ## Where it enters the manuscript
@@ -51,3 +52,5 @@ before drafting that paragraph (Roger: the PDF opens from a normal browser at
 https://link.springer.com/content/pdf/10.1007/s12369-026-01369-z.pdf).
 
 Upgraded in rr-2026-11: card created from the bib entry (no prior card); abstract verified against Crossref; full-text retrieval failed in this environment.
+
+Fable-checked rr-2026-11 (2026-11-08): added the support verdict for the sentence v4 already prints (YES at abstract level); five quotes re-checked against Crossref; must-engage stands.

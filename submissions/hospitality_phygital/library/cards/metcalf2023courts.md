@@ -56,3 +56,5 @@ position from which a claim reaches someone obliged to answer it. Optionally §6
 standing is created by institutional design (procedural rights from an AIA regime).
 
 Upgraded in rr-2026-11: card file created (it was listed as held but missing), read from abstract to full text, quotes added with publisher page loci, bib author error flagged.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes re-found in mr.txt at pdf pp. 2, 4, 6, 6, 9 (= pp. 1451, 1453, 1455, 1455, 1458); bib given-name defect (Tafesse, Emnet) confirmed.

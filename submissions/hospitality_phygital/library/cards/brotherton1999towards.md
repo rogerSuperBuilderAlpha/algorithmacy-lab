@@ -13,7 +13,7 @@ claims: [hospitality-exceeds-service]
 read_depth: abstract
 verified: crossref-verified
 verified_date: 2026-11-08
-source_basis: "Crossref record fetched 2026-11-08 (IJCHM 11(4), 165-173, per OpenAlex biblio; Crossref gives pages 165-173 and no issue in the returned fields). Abstract read from the OpenAlex record. No full text reachable (Emerald closed; no repository copy in OpenAlex, Unpaywall or Semantic Scholar)."
+source_basis: "Crossref record fetched 2026-11-08 (IJCHM 11(4), 165-173; Crossref returns volume 11, issue 4, pages 165-173, July 1999; OpenAlex agrees). Abstract read from the OpenAlex record, which matches the Crossref abstract. No full text reachable (Emerald closed; no repository copy in OpenAlex, Unpaywall or Semantic Scholar)."
 generated_run: rr-2026-11
 flags: []
 rejected_reason: "Displaced for E.3 by slattery2002finding. Brotherton's definition reaches the paper more usefully through the debate it started, and Slattery's paper, read in full, quotes the Brotherton and Wood definition verbatim (Slattery 2002, p. 23). Citing both would spend references on one position."
@@ -37,3 +37,5 @@ management and proposes new ones for research and practice.
 ## Where it enters the manuscript
 
 Not entering (new numbering, rr-2026-11).
+
+Fable-checked rr-2026-11 (2026-11-08): corrected source_basis (Crossref does return issue 4); both quotes re-checked against the Crossref abstract; no other change.

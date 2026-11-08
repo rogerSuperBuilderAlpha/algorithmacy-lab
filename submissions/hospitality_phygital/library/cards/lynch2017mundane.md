@@ -34,3 +34,5 @@ Hospitality-theory article on welcome as everyday life politics (title only in t
 ## Where it enters the manuscript
 
 Section 2 (v4 numbering): "A guest can ask a question, turn down an offer, demand an explanation, challenge a decision, or ask to be treated as an exception to the usual rule (Lynch 2017; Beatty et al. 2016)."
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Metadata-only card; nothing further reachable; NOT CHECKABLE verdict stands.

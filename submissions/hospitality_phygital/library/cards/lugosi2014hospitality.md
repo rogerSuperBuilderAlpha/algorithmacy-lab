@@ -46,3 +46,5 @@ parties work on, not a delivered service.
 Section 3 (new numbering, rr-2026-11): one sentence placing negotiation inside hospitality's
 relation of obligation and power. Possibly section 2, *Holder*, on the organization as the party
 that extends hospitality, if the full text supports it.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. All four quotes re-checked against the Crossref abstract fetched today; abstract-only reading stands.

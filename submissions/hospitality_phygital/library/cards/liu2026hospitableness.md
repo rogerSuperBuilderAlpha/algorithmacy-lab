@@ -37,3 +37,5 @@ Interview study building the construct of robotic hospitableness: how robots can
 ## Where it enters the manuscript
 
 Section 4 (v4 numbering): "Some recent work has started to put machines in something like the host's chair, but it keeps asking a different question. Studies of 'robotic hospitableness' test whether a robot can make guests feel welcomed, attended to, and reassured (Liu et al. 2026); ..."
+
+Fable-checked rr-2026-11 (2026-11-08): four quotes match the OpenAlex abstract re-fetched 2026-11-08 (Crossref has none); YES stands, 'test' still slightly off for an interview-based construct study; no change.

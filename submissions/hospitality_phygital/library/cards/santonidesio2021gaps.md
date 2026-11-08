@@ -15,7 +15,7 @@ verified: verified
 verified_date: 2026-11-08
 source_basis: "Crossref record fetched 2026-11-08 (vol. 34, issue 4, pp. 1057-1084; online 14 May 2021). Full text read from the publisher's open-access article HTML (CC BY), retrieved via the Internet Archive capture of 2 Sep 2026 because link.springer.com served a bot challenge; copy kept at manuscript/revision_2026-11/research/sources/santonidesio2021gaps/. The HTML carries no page numbers, so locators are section number plus paragraph count within that section (paragraphs counted in the HTML, footnotes excluded)."
 generated_run: rr-2026-11
-flags: []
+flags: [claim-contradicted]
 ---
 
 Section numbers are the new numbering (rr-2026-11).
@@ -39,11 +39,11 @@ sources, rejects fatalism, deflationism and solutionism, and proposes "meaningfu
 - Places public accountability in Bovens' actor-forum relation (§2.3 ¶1) [full-text]
 - The tracing condition requires "at least one human agent along the chain of design, development, and use" with knowledge of the system and "sufficient moral awareness of, and capacity to comply with, her role as potential target of legitimate response for the behaviour of the system" (§4.1 ¶2) [full-text]
 - Keeps the answering duty with the institution's own officers whatever the technology: "If a public organisation has to remain accountable to their citizens, then arguably public officers and civil servants, not IT experts and private companies, should maintain the capacity and motivation to understand and explain the behaviour of their institution to the citizens, no matter how much technology is involved in the decision." (§4.3 ¶1) [full-text]
-- Warns against moving responsibility onto the machine: "Faultless liability regimes and legal personhood of artificial agents not only risk to shift away attention from culpability and accountability but also from active responsibility." (§3.2 ¶9) [full-text]
+- Warns against moving responsibility onto the machine: "Faultless liability regimes and legal personhood of artificial agents not only risk to shift away attention from culpability and accountability but also from active responsibility." (§3.2.2 ¶3) [full-text]
 
 ## Critical notes & threats
 
-- **The plan's analogy is not in this paper.** REVISION_PLAN.md §2 *Origin* cites Santoni de Sio and Mecacci for "need triggers care, trust triggers fiduciary duty and risk triggers governance duty". The full text contains no "fiduciary", no "governance" and no trigger typology (searched 2026-11-08). The analogy is the authors' own; it needs another source or must stand as argument.
+- **The plan's analogy is not in this paper, and v4 already asserts it.** REVISION_PLAN.md §2 *Origin* cites Santoni de Sio and Mecacci for "need triggers care, trust triggers fiduciary duty and risk triggers governance duty", and v4 §4 as submitted already reads: "Care is owed because someone is in need. Fiduciary duties are owed because someone has been trusted. Governance duties exist because a system creates risk (Santoni de Sio and Mecacci 2021)." The full text contains no "fiduciary", "governance" only inside a cited title (Stilgoe 2017), "trust" twice and never as a duty trigger, and no need/trust/risk typology (searched 2026-11-08; verifier_2 and Fable concur). Flagged `claim-contradicted`: the attribution is false as it stands. The analogy is the authors' own; it needs another source or must stand as argument.
 - The closest support for the paper's *Holder* move is §4.3 ¶1: the institution that answers must keep the capacity to explain "no matter how much technology is involved". That sentence is about public organisations and citizens; carrying it to a commercial host is an extension the authors make.
 - Its subject is the agents around a system (designers, operators, regulators), not a role constituted by a relation to an arriving party. It does not say a duty stays with a role when tasks are delegated; it says responsibility must be traceable to some human along the chain. The paper's ownership-moves-only-with-the-role claim goes beyond it.
 - Hart's role-responsibility enters only as a named sense in §2 ¶1; cite Hart directly if the paper leans on role-responsibility (see WS_A_obligation.md, lead outcome).
@@ -55,3 +55,5 @@ differs from, with §4.3 ¶1 as the nearest support for an institution keeping t
 under automation. Section 4 may cite the many-hands and organisational black-box points.
 
 Upgraded in rr-2026-11: card created from the bib entry (no prior card); full text read; nine located quotes added; flagged that the plan's need/trust/risk trigger analogy is not in the source.
+
+Fable-checked rr-2026-11 (2026-11-08): locator fixed ('Faultless liability regimes…' is §3.2.2 ¶3, not §3.2 ¶9; confirmed by heading/paragraph count in the saved HTML); flag `claim-contradicted` added for the v4 §4 need/trust/risk attribution; the other eight quotes re-found.

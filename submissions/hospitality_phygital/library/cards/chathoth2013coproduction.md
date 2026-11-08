@@ -38,3 +38,5 @@ production and recommends hotels move toward co-creation.
 ## Where it enters the manuscript
 
 Not entering. Recorded so a referee's suggestion has an answer (new numbering, rr-2026-11).
+
+Fable-checked rr-2026-11 (2026-11-08): three abstract quotes re-checked against ucf.html; Crossref gives authors as 'Prakash' and 'Robert James' where the card has initials (trivial); no change.

@@ -35,3 +35,5 @@ Study of how managers use customer feedback to monitor, evaluate and discipline 
 ## Where it enters the manuscript
 
 Section 4 (v4 numbering), on discretion and craft: "Algorithmic direction can snap that link at exactly the wrong point. Staff are still asked to produce the guest's sense of control, while no longer holding the controls that would produce it (Fuller and Smith 1991; Möhlmann et al. 2021)."
+
+Fable-checked rr-2026-11 (2026-11-08): both quotes match the Crossref abstract re-fetched 2026-11-08; the 'sense of control' sentence stays NOT CHECKABLE and doubtful at abstract level; no change.

@@ -39,3 +39,5 @@ Field study (n=108) and scenario experiment (n=361) of a robot-customer-frontlin
 ## Where it enters the manuscript
 
 Section 1 (v4 numbering), on how service research frames the encounter: "Service research has quietly handed the host's role to the employee (Larivière et al. 2017; Odekerken-Schröder et al. 2022)." Fine for the triad point; the host claim is the paper's own interpretation and should be marked as such.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Five quotes re-found at accepted-manuscript PDF pp. 3, 3, 3, 3, 4; 0 hits for 'host' confirmed.

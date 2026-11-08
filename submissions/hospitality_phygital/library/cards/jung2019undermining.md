@@ -36,3 +36,5 @@ Survey of 344 five-star hotel employees in South Korea on how undermining by sup
 ## Where it enters the manuscript
 
 Section 6 (v4 numbering): "So algorithmic mediation lands on top of an old problem in hospitality work: employee silence (Jung and Yoon 2019; Papadopoulos et al. 2021)."
+
+Fable-checked rr-2026-11 (2026-11-08): three quotes match the Crossref abstract re-fetched 2026-11-08; YES stands; no change.

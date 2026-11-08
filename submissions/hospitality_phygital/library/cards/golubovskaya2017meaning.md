@@ -13,7 +13,7 @@ claims: [hospitality-exceeds-service]
 read_depth: abstract
 verified: crossref-verified
 verified_date: 2026-11-08
-source_basis: "OpenAlex record fetched 2026-11-08 (IJCHM 29(5), 1282-1304). Structured abstract read from the Consensus record. No full text reachable: closed at Emerald; two CORE download links surfaced by web search returned an HTML challenge page, not a PDF."
+source_basis: "OpenAlex record fetched 2026-11-08 (IJCHM 29(5), 1282-1304). Structured abstract read from the Consensus record; Crossref and OpenAlex also carry the same structured abstract (re-fetched 2026-11-08, matches). No full text reachable: closed at Emerald; two CORE download links surfaced by web search returned an HTML challenge page, not a PDF."
 generated_run: rr-2026-11
 flags: [abstract-only-debt]
 hold_rationale: "Held pending author decision; second E.3 source if a full-text read confirms the abstract. Needs a references.bib entry before build_index --check will pass."
@@ -42,3 +42,5 @@ hospitality management.
 
 Section 2, *Distinctness*, or section 8 (new numbering, rr-2026-11): one clause that the service
 paradigm already displaces the host–guest model in hotel practice, before any algorithm arrives.
+
+Fable-checked rr-2026-11 (2026-11-08): three quotes re-checked against the Crossref structured abstract; source_basis widened; no other change.

@@ -28,10 +28,12 @@ Study of online reputation systems arguing that ratings drift upward over time, 
 
 ## Critical notes & threats
 
-- v4 sentence: "reputation records carry their own well-documented distortions, including inflation over time (Filippas et al. 2022)." SUPPORT: YES at abstract level for "inflation over time" making records less informative. The mechanism, the platform studied (a labour marketplace, not lodging) and the size of the effect are not checkable beyond the one-sentence abstract. "Well-documented" is the authors' word for one paper plus context; it overstates a single source.
+- v4 sentence: "reputation records carry their own well-documented distortions, including inflation over time (Filippas et al. 2022)." SUPPORT: YES at abstract level for "inflation over time" making records less informative. The mechanism, the platform studied and the size of the effect are not checkable beyond the one-sentence abstract. "Well-documented" is the authors' word for one paper plus context; it overstates a single source.
 - The bib note says the paper is cited "so the paper does not coin what is already named"; the abstract supports that use.
 - Bib vs Crossref: all fields match.
 
 ## Where it enters the manuscript
 
 Section 7 (v4 numbering), on reputation remedies: "reputation records carry their own well-documented distortions, including inflation over time (Filippas et al. 2022)." Fine as a named-pattern citation.
+
+Fable-checked rr-2026-11 (2026-11-08): removed the unsourced 'labour marketplace' claim (not in the one-sentence abstract); quote re-checked; YES stands.

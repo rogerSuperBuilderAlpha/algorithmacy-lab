@@ -49,3 +49,5 @@ deployer responsibility under delegation has been argued on tracing grounds (Kon
 paper's claim is about what the obligation contains, not only who keeps it.
 
 Upgraded in rr-2026-11: new card at abstract depth.
+
+Fable-checked rr-2026-11 (2026-11-08): all quotes match the Crossref abstract (6(5), art. 518, 14 Sep 2026) re-fetched 2026-11-08; no change.

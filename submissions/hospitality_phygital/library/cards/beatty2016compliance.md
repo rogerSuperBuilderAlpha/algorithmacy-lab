@@ -38,3 +38,5 @@ Grounded-theory study of critical incidents in which customers asked frontline e
 ## Where it enters the manuscript
 
 Section 2 (v4 numbering), on the guest's standing: "A guest can ask a question, turn down an offer, demand an explanation, challenge a decision, or ask to be treated as an exception to the usual rule (Lynch 2017; Beatty et al. 2016)." Section 6: "Frontline staff have always weighed and accommodated requests that fall outside the standard case (Beatty et al. 2016)."
+
+Fable-checked rr-2026-11 (2026-11-08): all four quotes match the Crossref abstract re-fetched 2026-11-08; PARTIAL verdict for the s.2 list stands (turn down, demand an explanation, challenge are not in the abstract); no change.

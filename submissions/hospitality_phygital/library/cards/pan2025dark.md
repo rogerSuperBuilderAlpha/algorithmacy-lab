@@ -35,3 +35,5 @@ Study of hotel employees and robot usage under an uncertainty management perspec
 ## Where it enters the manuscript
 
 Section 8 (v4 numbering), on well-being outcomes: "...the same mediation can enchant, disenchant, or re-enchant depending on the surrounding arrangements (De Vos et al. 2024; Christou et al. 2020; Pan et al. 2025; Parkinson et al. 2022)."
+
+Fable-checked rr-2026-11 (2026-11-08): no change. No abstract in Crossref or OpenAlex; metadata-only card; NOT CHECKABLE stands.
