@@ -73,3 +73,10 @@ None
 - verdict: verified
 - checked: frontmatter against openlibrary.json (edition OL1736610M: Yale University Press, New Haven, 1993, "xi, 273 p.", ISBN 0300054343, LCCN 92041688, subtitle "on the psychological activities of reading", by-statement "Richard J. Gerrig.", subjects as the card gives them, ocaid experiencingnarr0000gerr; work OL4313731W); openlibrary.json sha256 recomputed, matches; FETCH_LOG.tsv row present; no DOI in the record, so doi "" is right. The description is in both records and ends "Description from http://yalepress.yale.edu (Dec. 16, 2011)"; the three phrases the card quotes from it are verbatim. Triage F5-F9.md does say "No abstract" and names the 1999 Westview reprint OL8024257W; DECISIONS set metadata, so abstract depth on the publisher's description is honest and the card says whose words they are. Loci None. The c8 use names its stretches.
 - changed: nothing in the card's content. I removed the empty "## Hand-check" placeholder heading.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (abstract card on the publisher's description); the three phrases quoted from the description are verbatim in openlibrary.json; frontmatter vs the edition record (Yale UP, New Haven, 1993, xi + 273 pp., ISBN 0300054343, by-statement "Richard J. Gerrig."); sha256 recomputed, matches; inbox/ empty.
+- Changed: nothing.
+- For the author: status is `cited` although SOURCE.md and SKETCH.md do not name Gerrig.

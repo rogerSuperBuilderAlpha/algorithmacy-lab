@@ -88,3 +88,10 @@ None
 - verdict: corrected (c8 inference hedged; author-record checksums added)
 - checked: frontmatter (title with Crossref's spaced colon, 2015, Bloomsbury Academic, DOI, monograph, no author in Crossref) against crossref.json; author against Open Library editions (all four list OL8054106A) and the author records (OL8054106A = Michael Tomko, OL6950335A = Mark Knight, OL531353A = Emma Mason; Knight and Mason only on the 2017 edition, ISBN 9781350036024); 171 pp. for 9781780937304; chapter 1 title; the description against "What it argues"; the quoted sketch sentence against SKETCH.md l. 98; DECISIONS correction; sha256 of every record named
 - changed: c8 bullet: Tomko "would object to calling the viewer's absorption co-optation" and "an act the reader performs and wills" are not in the description; reworded as the card's inference from "willing" and "faith", to be checked against ch. 1, and the citable claim narrowed to "reconstructed as a form of poetic faith". object_read: the three author records had no checksum and no saved copy; the verifier fetched them and added their names and sha256
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (abstract card from the publisher's description). crossref.json sha256 recomputed (fbbc142d..., matches; monograph, Bloomsbury Academic, 2015, four ISBNs, no author). Refetched 2026-11-08 into my scratchpad: work OL21146931W (3b96d3f9..., matches; description credited to Bloomsbury Publishing, text as summarised), editions list (ec5cec9d..., matches; three 2015 editions name Tomko alone, 171 pp. for 9781780937304, the 2017 edition adds Knight and Mason), author records OL8054106A/OL6950335A/OL531353A (all match), Crossref chapter ch-001 (efb13dd1..., matches; title 'The willing suspension of disbelief', no pages or date). The c8 inference is marked as the card's own.
+- Changed: nothing
+- For the author: the Open Library records are not in the key folder; S4 should save them. Knight and Mason's role (series editors?) needs the title page

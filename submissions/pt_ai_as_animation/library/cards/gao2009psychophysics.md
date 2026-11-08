@@ -37,8 +37,9 @@ free-report or rating measures, which are hard to quantify and open to task dema
 performance tasks: a search for the chase (Experiments 1 to 3) and an interactive task where the viewer
 steers the sheep and must avoid the wolf (Experiments 4 and 5).
 
-Four results follow. Detection of chasing falls to chance once subtlety passes about 30 degrees, though the
-wolf still closes in. A wolf that heads for a mirrored phantom sheep with equal statistical correlation is
+Four results follow. Detection of chasing drops sharply once subtlety passes 30 degrees (above 60% correct
+only at 0° and 30°; at chance by 120° and 150°) [Corrected by Fable, S7: the card read "falls to chance once
+subtlety passes about 30 degrees"; the text, §2.3 Results, puts chance at 120° and 150°], though the wolf still closes in. A wolf that heads for a mirrored phantom sheep with equal statistical correlation is
 much harder to spot, so the percept is not general correlation detection. Played in reverse, the same chase
 is harder to detect. And in the avoidance task the wolf catches the viewer most often at moderate subtlety,
 where the chase is real but unperceived, which the authors call "stalking". Facing the direction of
@@ -97,3 +98,10 @@ gao2009psychophysics.pdf (sha256 above), read page by page with pdftotext.
 - verdict: verified. Frontmatter matches Crossref; all nine quotations are verbatim and on the stated printed and PDF pages; the summary and the c7 stretches hold against the text.
 - checked: crossref.json (authors, title, Cognitive Psychology 59(2), 154–179, issued Sept 2009, journal-article, DOI); sha256 of gao2009psychophysics.pdf recomputed, matches sha256.txt and the card; 26-page PDF, offset printed = PDF + 153 confirmed; each Loci quotation searched in pdftotext output of its page (the abstract quotation wraps across a line break but is verbatim); Caution quotations 'might not transfer' (p. 175) and the correctness question (p. 176) found; Experiments 1–5 structure, reversed-chasing, Don't-Get-Caught and Oriented Darts results, the 'stalking' label and the modular-processing reading checked in the text.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix (fixed here)**.
+- Checked: 9/9 loci found on the stated page (PDF p. = printed − 153); the abstract quotation sits in the interleaved two-column text layer and was checked on the PDF page; frontmatter vs crossref.json (Gao, Tao; Newman, George E.; Scholl, Brian J.; Cognitive Psychology 59(2) 154–179; 2009-09; DOI); PDF sha256 recomputed, matches sha256.txt; Caution's "might not transfer" (p. 175) and the correctness question (p. 176) found.
+- Changed: one paraphrase in What it argues: "Detection of chasing falls to chance once subtlety passes about 30 degrees" overstated the result; the text (§2.3, Results and discussion of Experiment 1) has accuracy above 60% only at 0° and 30° and at chance at 120° and 150°. Rewritten and marked.
+- For the author: status is `cited` although SOURCE.md and SKETCH.md do not name Gao et al.

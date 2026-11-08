@@ -110,4 +110,10 @@ Line-end hyphens in the text layer are rejoined.
 - checked: frontmatter against crossref.json (author, title, Philosophy & Technology 37(1), article number 32, DOI, journal-article, online 2024-02-23, print 2024-03, CC BY 4.0); sha256 recomputed, matches sha256.txt. I traced all 12 quotations with pdftotext page by page: each is verbatim and on the page given, and the section labels match the headings (§3 p. 11, §4.1 p. 15, §4.2 p. 17, §5 pp. 18–19, §6 p. 20). In the text I confirmed the four-line argument P1–K (p. 12), the deer and racist-order examples, the Kantian watch, "I tentatively suggest" (p. 3), "organismic mechanisms" and "non-biological, but thereby not artificial" (p. 20), the CC BY notice (p. 21), the doubled Burge (2010) entry, and the Jakobson/Kahneman placeholders in footnote 6 (p. 7). The c4 and c5 uses say plainly that they apply his criteria to a case he did not consider.
 - changed: nothing
 
+
 ## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found on the stated PDF page; frontmatter vs crossref.json (Gubelmann, Reto; P&T 37(1), article-number 32; online 2024-02-23, print 2024-03; DOI); PDF sha256 recomputed, matches sha256.txt; c4 and c5 uses say they apply his criteria to a case he did not consider.
+- Changed: nothing (I filled the empty "## Hand-check" heading the writer left).
+- For the author: nothing

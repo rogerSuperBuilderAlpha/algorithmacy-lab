@@ -72,3 +72,10 @@ None
 - verdict: verified
 - checked: Crossref book record: authors Alvaro Moreno and Matteo Mossio, title and subtitle, Springer Netherlands, series, 2015, ISBNs 9789401798365 and 9789401798372, DOI, no abstract; OpenAlex author display "Álvaro Julián Moreno Bergareche", HAL hal-01151449v1 bookPart, submittedVersion, cc-by-nc; both sha256 values match; BROWSER_LIST row 1 and full-list row; FETCH_LOG two 200 non-PDF responses of 12,613 bytes; Checkpoint B ruling 4 text; triage note on the "Introduction" deposit; metadata card says only what the records show.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); frontmatter against crossref.json (Alvaro Moreno, Matteo Mossio; book; Springer Netherlands; series History, Philosophy and Theory of the Life Sciences; 2015; ISBNs 9789401798365, 9789401798372; DOI) and openalex.json (display name 'Álvaro Julián Moreno Bergareche'; green OA via HAL hal-01151449v1); both sha256 values recomputed, match; status cited: SKETCH §2 names Moreno & Mossio. The c4 bullet marks the self-production objection as the triage's reading, not the book's.
+- Changed: nothing.
+- For the author: Checkpoint B ruling 4 puts this book first in Fable's reading order; the self-production objection c4 must answer still has no quoted source anywhere in the library.

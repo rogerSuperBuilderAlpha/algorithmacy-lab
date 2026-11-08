@@ -115,4 +115,10 @@ them as single quotes. An ellipsis marks words I left out.
 - checked: frontmatter against csl.json (title, 114 authors, the first 19 in APA order, issued 2021, DOI, version 3, CC BY 4.0, publisher arXiv); the p. 1 stamp "arXiv:2108.07258v3 [cs.LG] 12 Jul 2022" and the byline "Dorottya Demszky"; 214 pages per pdfinfo; sha256 recomputed, matches sha256.txt. I traced all 12 quotations with pdftotext page by page: each is verbatim and sits on the page given. The body's details check out in the text: "26 sections" (§1.4), the p. 14 line "not all the views expressed in this report are held by all the authors", and the p. 17 lines under the headings "§4.3: Adaptation" and §4.5 in §1.4.3. I did not read §§4.3 and 4.5 either; the card's Caution about them stands. The c2 and c1 uses name their stretches.
 - changed: nothing
 
+
 ## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found in the per-page text layer on the stated pages; frontmatter vs csl.json (114 authors, first 19 in APA order, 'Dora Demszky' vs the PDF's 'Dorottya'; issued 2021; version 3; arXiv DOI); PDF sha256 recomputed, matches; 214 pp. per pdfinfo; the p. 14 'not all the views' line present; partial depth stated honestly.
+- Changed: nothing (filled the empty Hand-check heading the card already carried)
+- For the author: §§4.3 and 4.5 remain unread by writer, verifier and me; read them before the paper rests the adaptation point on this report.

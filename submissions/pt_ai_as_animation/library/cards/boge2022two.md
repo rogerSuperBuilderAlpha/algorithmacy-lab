@@ -114,3 +114,10 @@ PDF (sha256 above). Curly single quotes inside a quotation are Boge's own.
 - verdict: verified
 - checked: frontmatter against crossref.json (author Florian J. Boge; title; *Minds and Machines* 32(1), 43-75; DOI; journal-article; issued and published-online 2021-09-03, published-print 2022-03, so `year: 2022` with `registered_year: 2021` is right). PDF sha256 recomputed; it matches sha256.txt and the card. All 16 quotations found verbatim in the PDF's text layer, each on the PDF page the card gives; the printed page = PDF page + 42 offset holds (PDF p. 1 header reads "32:43–75"). Section headings (2.2, 2.3, 3.1, 3.2, 4.1, 4.2, 5) match the text. Humphreys (2009, p. 618) is cited inside Boge's text as the card says; footnote 18 on PDF p. 17 (p. 59) names Creel (2020). Summary points spot-checked against the text: criterion (C1), the 'planing' study, the "cognizing, conscious agents" premise, and the four-condition hedge. The claim use (c7) and its four named stretches fit what the text says.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 16/16 loci found in the per-page text layer, each on the stated PDF page (printed = PDF + 42); frontmatter vs crossref.json (32(1), 43–75; online 2021-09-03, print 2022-03; registered_year 2021); PDF sha256 recomputed, matches; 33 pp. per pdfinfo; 'Published online: 3 September 2021' and '(C1)' present; the four c7 stretches are named.
+- Changed: nothing
+- For the author: status 'cited' though SOURCE.md and SKETCH.md do not name Boge (status note in part1.md).

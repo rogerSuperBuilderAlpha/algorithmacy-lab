@@ -66,3 +66,10 @@ None.
 - verdict: verified. An honest metadata card: every field matches Crossref and the body says only what the record shows; the triage's credit reading is attributed to the triage, not the work.
 - checked: crossref.json (Allison, Tanine; title; Quarterly Review of Film and Video 28(4), 325–341; published-print July 2011, no online date; journal-article; DOI with '2010' in its string; Informa UK); sha256 matches; BROWSER_LIST.md row (closed, not attempted); DECISIONS.md note that §5 cites it for one fact about Serkis and credit; Bestor (2016) as reserve R3 in F5-F9 triage. The F5-F9 triage quotes an abstract opening on Gollum from a record not held in this folder; the card rightly keeps it out.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json (Allison, Tanine; QRFV 28(4), 325–341; July 2011; DOI); sha256 recomputed, matches; inbox empty; claim uses marked as planned.
+- Changed: nothing
+- For the author: the c9 use rests on the triage's credit reading, which is not the same as determining what a viewer gets; decide whether Allison stays on c9 once the article is read. Status 'cited' though neither SOURCE.md nor SKETCH.md names Allison (see the status note in part1.md).

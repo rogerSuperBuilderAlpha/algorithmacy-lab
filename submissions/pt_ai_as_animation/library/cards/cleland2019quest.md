@@ -70,3 +70,10 @@ None. No text of the work was read this run.
 - verdict: verified
 - checked: frontmatter and APA against crossref.json (monograph; Cleland, Carol E.; title and subtitle; Cambridge University Press; online 2019-09-05, print 2019-09-12; ISBNs; DOI); crossref.json sha256 recomputed and matches; the record has no abstract and no table of contents; inbox empty; BROWSER_LIST row, DECISIONS row and Checkpoint B ruling 4 quoted correctly; SKETCH line quoted correctly and marked unverified there.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json (monograph; title and subtitle; CUP; online 2019-09-05, print 2019-09-12; ISBNs 9781139046893, 9780521873246); sha256 recomputed, matches; inbox empty.
+- Changed: nothing
+- For the author: book still unopened (Checkpoint B ruling 4); the sketch's 'theory, not definition' reading stays unverified until it is.

@@ -72,3 +72,10 @@ None
 - verdict: corrected (one unsourced author identification in Caution)
 - checked: Crossref: Paul Humphreys, title, Synthese 169(3), 615–626, DOI, journal-article, online 2008-11-28, print 2009-08, no abstract; OpenAlex 2008-11-27, closed, author display "Paul W. Humphreys", no abstract; registered_year 2008 matches DECISIONS; both sha256 values match; BROWSER_LIST and FETCH_LOG CiteSeerX 404; registry.tsv rows humphreys2010 (Ashlee) and humphreys2005 (M.); triage F5-F9 rows 1 and R1; SKETCH §4.2 wording; c7 stretch named.
 - changed: Caution called humphreys2004extending "the same Paul Humphreys's book"; the only source seen this run is the triage row "Humphreys, P. (2004)", so the bullet now says the triage file treats it as the same author's and that no record for it was seen.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card, as the folder holds only crossref.json and openalex.json); frontmatter against both records (Paul Humphreys; *Synthese* 169(3), 615–626; DOI; online 2008-11-28, print 2009-08; no abstract in either); both sha256 values recomputed, match; status cited: SKETCH §4.2 names Humphreys (2009). The c7 bullet names its own two stretches (attribution of 'essential epistemic opacity' rests on triage and Beisbart, not on the text; simulation vs trained models).
+- Changed: nothing.
+- For the author: the article is still unread; a browser copy into inbox/ would let the 'essential epistemic opacity' phrase be checked before §4.2 leans on it.

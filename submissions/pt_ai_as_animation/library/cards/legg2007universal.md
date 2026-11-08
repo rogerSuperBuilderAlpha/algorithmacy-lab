@@ -136,3 +136,10 @@ here has inner double quotation marks.
 - verdict: verified
 - checked: frontmatter against crossref.json (authors, 2007, title, Minds and Machines 17(4) 391-444, DOI, journal-article); PDF sha256 recomputed and matches sha256.txt; all 17 quotations found verbatim in legg2007universal.txt on the stated PDF pages; section locators checked against the in-text headings rather than the running headers (p. 17 quotation sits before the §3.2 heading, so §3.1 is right; p. 30 quotations sit before the §4 heading, so §3.5 is right); secondary locators checked ("ten definitions" §2.6 p. 11, [LH07] pp. 12, 31, 47, "report" p. 28, "Objective"/"Universal" p. 30, "Fundamental" p. 29, "could be anything" p. 17, AIXI upper bound p. 27, Table 1 p. 38); no count of about 70 definitions appears anywhere in the text layer; c3 and c5 stretches are named under use and Caution.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 17/17 loci found in legg2007universal.txt, each on the stated PDF page (1, 3, 4, 10, 11, 12, 16, 17, 20, 24, 27, 30, 30, 31, 41, 41, 42; the p. 12 definition also recurs on p. 15 as the card says); frontmatter against crossref.json (Legg, Hutter; *Minds and Machines* 17(4), 391–444; online 2007-11-10, print 2007-11-30; DOI); PDF sha256 recomputed, matches sha256.txt; 49 pages; the p. 1 stamp reads 'arXiv:0712.3329v1 [cs.AI] 20 Dec 2007'. The card's loci are preprint pages and it says so. The c3 and c5 bullets name their stretches, and the two untagged readings (c1/c2, c9/c11) are marked as the writer's.
+- Changed: nothing.
+- For the author: SKETCH §2 credits 'about 70 definitions' to Legg & Hutter (2007); this paper carries no count. The reference should point to the Collection (legg2007collection), not to this article.

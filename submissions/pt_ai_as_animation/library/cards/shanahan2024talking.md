@@ -139,3 +139,10 @@ heading; the PDF prints numerals §1–§13 (see Verification). Inner quotation 
   §§7–9 (not §§7–10), reasoning and few-shot pattern completion §§10–11 (not §§11–12), fine-tuning §12 (not
   §13). Corrected those, the Loci preamble, and the Caution "Section map" entry (now lists the printed
   numerals and headings).
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 14/14 loci found by per-page pdftotext of the arXiv v5 PDF (the .txt layer interleaves columns; sha256 recomputed, matches); the p. 11 phrases behind the c5 bullet ('no longer safely be applied', 'so convincingly intelligent') also found; frontmatter vs crossref.json and openalex.json (CACM 67(2), 68–79); claim uses, with the named stretches (no account of life, puppetry or liveness).
+- Changed: nothing
+- For the author: status is `cited`, but SKETCH.md names only Shanahan, McDonell & Reynolds (2023, *Nature*), a different paper; under README this card would be `candidate` unless the Checkpoint B approval counts as a ruling. All locators are arXiv pages, not CACM pages, as the card says

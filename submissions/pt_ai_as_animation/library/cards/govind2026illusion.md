@@ -105,3 +105,10 @@ for orientation and are not loci.
 - checked: the version DOI, the OpenAlex id, the ORCID and the "Reddy Govind" display all appear in DECISIONS (lines 308 and 358) and not in the local record, as the card says. The SKETCH line "an LLM produces its own in-betweens" is at §5 (line 116). One small paraphrase drops a word: the abstract says mind is "irreducibly individual", and the card has "mind is individual". It is not a quotation, so I left it.
 - for Fable: `status: cited`, but SOURCE.md and SKETCH.md do not name Govind; README's c12 wording does.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (abstract card); 9/9 phrases quoted from the abstract are verbatim in csl.json; frontmatter vs csl.json (author string "Govind Reddy", title in capitals, issued 2026-03-04, concept DOI, version 1.0); csl.json sha256 4ef41a77ed1903ff… recomputed (the card gives none; no PDF); ruling A2 names it, so `cited` holds; ruling B1: the card says what separates it (Govind reads the animation parallel as proving AI is illusion; the paper claims what AI development makes).
+- Changed: nothing.
+- For the author: (1) download version 1.0 from Zenodo into inbox/ so the card can rise to full_text and the byline can settle Govind/Reddy and the key. (2) The record's subject keywords look misattached (quantum terms); check the file is the same work.

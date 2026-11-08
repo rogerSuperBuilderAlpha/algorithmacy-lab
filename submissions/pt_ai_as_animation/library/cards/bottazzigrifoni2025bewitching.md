@@ -124,3 +124,10 @@ numbers. Inner quotation marks are single quotes, as printed.
   FACETS.md line 468 does print "Bottazzi & Ferrario", as the Caution says. read_depth full_text fits
   (body pp. 1–25 read; end matter is not argument). The c7 stretch and the c8 objections are stated.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 13/13 loci found in the per-page text layer, each on the stated page (2, 17, 18, 20, 23, 25 checked by page); frontmatter vs crossref.json (two-word family name; 38(2), article 61; online 2025-05-05, print 2025-06); PDF sha256 recomputed, matches; 33 pp. per pdfinfo; PI §242 present; c7 stretch and c8 objections stated.
+- Changed: nothing
+- For the author: nothing.

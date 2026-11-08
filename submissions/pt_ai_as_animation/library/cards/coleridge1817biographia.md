@@ -109,7 +109,7 @@ quotes.
 - **SKETCH §4.3** marks Coleridge's phrase "(unverified)". The scan confirms "willing suspension of
   disbelief" for 1817, Vol. II p. 2. FACETS (F9 anchors) quotes the phrase starting with a capital
   "That"; in the scan "that" falls mid-sentence. Both files are left alone.
-- **Text layer.** The .txt holds 618 form feeds against 626 PDF pages. For the pages quoted, the form-feed
+- **Text layer.** The .txt holds 626 form feeds, one per PDF page [Corrected by Fable, S7: the card said 618; `tr -cd '\f' | wc -c` gives 626]. For the pages quoted, the form-feed
   count and `pdftotext -f N -l N` agree, but I took every locator from the per-page extraction and the
   page image, not from the form-feed count.
 - **Read depth.** I read ch. XIV in full and searched the whole text layer for "illusion", "delusion",
@@ -127,3 +127,10 @@ quotes.
 - verdict: verified
 - checked: sha256 of the PDF recomputed and matches; PDF metadata (title, author, item id biographialitera00colerich, 626 pages) matches object_read; title pages at PDF pp. 9 and 309 give Vol. I and Vol. II, London, 23 Paternoster Row, 1817 (OCR garbles the publisher, as Caution says); all 11 quotations found verbatim in the per-page text layer (allowing for line-break hyphens, the OCR's "haheriis" and "Finall}^", which the page image of PDF p. 321 shows as "habenis") at the printed page and PDF page given, so every locator holds (Vol. II p. n = PDF p. 310 + n); paraphrases in "What it argues" ("pleasure, not truth", "delight from the whole", PDF p. 318) are in the text; FETCH_LOG.tsv has no coleridge row and the folder has no Open Library record, as the card says; SKETCH line 99 marks the phrase "(unverified)" and SOURCE.md carries "coopted into the suspended reality", as the card says; c8 use and its strains are stated, not overstated.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 11/11 loci checked against the page images of PDF pp. 311, 312, 321, 322, 458 and 573 (pdftoppm), since the OCR layer garbles eight of them; every quotation reads as the card gives it, italics and small capitals handled as the card says; title pages at PDF pp. 9 and 309 read 'London: Rest Fenner, 23, Paternoster Row. 1817', Vol. I and Vol. II; ch. XIV opens at PDF p. 311, ch. XXII at p. 441 and ch. XXIII at p. 564, so pp. 458 and 573 fall in the chapters stated; PDF sha256 recomputed, matches; 626 pp. per pdfinfo.
+- Changed: Caution said the text layer holds 618 form feeds; it holds 626, one per page. Corrected and marked.
+- For the author: (1) SKETCH line 99 marks the phrase '(unverified)'; the 1817 scan confirms it at Vol. II p. 2, so the mark can come off. (2) In the scan the semicolon in '"Lyrical Ballads;"' sits tight against the word; the card prints 'Ballads ;' with a space. Too small to change without the author's say. (3) No Open Library record or provenance.txt in the folder; S8 should add them.

@@ -111,3 +111,10 @@ with whitespace normalised; four were also confirmed in the HTML itself.
 - verdict: verified. The byline (eleven names, in the order of the author meta tag and the BibTeX block), the date "Feb 18, 2024", the page title and the URL all match the saved page and provenance.txt (access 2026-11-08). The sha256 values for the HTML and the text extraction match the ones the card gives. All 10 quotations are verbatim in zaharia2024shift.txt. Every locator matches: the opening paragraphs are numbered by the HTML `<p>` order, and the headings match "Why Use Compound AI Systems?", "Developing Compound AI Systems", "Key Challenges…" › "Optimization" and "Conclusion". The first and third reasons are right.
 - checked: the stray `<meta name="author" content="C.K. Wolfe">` (present, as the card says); the figure caption; the second-hand numbers (60% / 30% Databricks, 9% Medprompt, 30%→35%→80% "suppose" illustration, FrugalGPT 4% / 90%) in the text, all of which the card attributes to linked work. The c2 stretch (results and quality, not where intelligence sits) is named.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found in zaharia2024shift.txt; HTML and text sha256 recomputed (44e2dbc1..., 009484c9...), match; byline (eleven names in the author meta tag), the stray 'C.K. Wolfe' meta tag, the page title and 'Feb 18, 2024' all present in the saved HTML; provenance.txt gives the URL and access date; the c2 stretch (results and quality, not where intelligence sits) is named.
+- Changed: nothing
+- For the author: nothing (a blog post with no DOI; the card and the sketch already say so)

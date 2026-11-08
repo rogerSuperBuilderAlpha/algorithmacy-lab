@@ -68,3 +68,10 @@ None.
 - verdict: verified
 - checked: frontmatter against crossref.json (Cleland, Carol E.; Chyba, Christopher F.; "Defining ‘Life’"; 32(4), 387-393; issued and published-print 2002-08; DOI; journal-article; 35 references; abstract null). crossref.json sha256 recomputed and matches the card. No copy in the inbox. BROWSER_LIST.md and FETCH_LOG.tsv ("records only") carry the row as the card says. Triage F1-F4 row 4 and row R5 hold the Smith (2016) "definitional pessimism" attribution, which stays unchecked. SKETCH §2 does say "Cleland argues for a theory of life, not a definition" under "(all unverified)". The card says nothing about the argument beyond the record, and Loci is None, as a metadata card should.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json (Cleland, Carol E.; Chyba, Christopher F.; OLEB 32(4), 387–393, Aug 2002; DOI; no abstract); sha256 recomputed, matches; inbox empty.
+- Changed: nothing
+- For the author: SKETCH §2 names Cleland alone; this is a two-author article. Decide whether the sketch means this paper or cleland2019quest, and cite accordingly.

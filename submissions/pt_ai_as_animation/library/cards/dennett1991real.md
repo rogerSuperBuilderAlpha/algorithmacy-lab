@@ -74,3 +74,10 @@ None.
 - verdict: verified
 - checked: I re-fetched the *J. Phil.* record from api.crossref.org (10.2307/2027085) on 2026-11-08: Dennett, Daniel C.; "Real Patterns"; *The Journal of Philosophy* 88(1); page "27" only; issued and published-print 1991-01; journal-article; Philosophy Documentation Center; no abstract. The frontmatter matches it, and the end page stays open, as the card says. That record again sits only in my session scratchpad; S4 still has to save it to the key folder. The key folder's crossref.json (reprint: book-chapter, pp. 33-58, *Dennett's Real Patterns in Science and Nature*, 2026-03-31, ISBN 9780262052047, CC BY-NC-ND 4.0, The MIT Press, no editors, no abstract) matches the card; its sha256 recomputed and matches. BROWSER_LIST.md gives the Cloudflare 403 reason. DECISIONS, triage F1-F4 row 5 and FACETS F3 give the "answer to instrumentalism" reading that the card attributes to them, not to the text. No copy in the inbox. Loci None.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (metadata card); frontmatter vs the reprint crossref.json in the folder (book-chapter, pp. 33–58, MIT Press 2026-03-31, ISBN 9780262052047), sha256 recomputed, matches; the J. Phil. details (Dennett, Daniel C.; Real Patterns; 88(1); first page 27; 1991-01; Philosophy Documentation Center) re-fetched from api.crossref.org on 2026-11-08 into my scratchpad only and they match the card; end page still absent from the record.
+- Changed: nothing.
+- For the author: (1) the J. Phil. record is still not in the key folder; S4 should save it. (2) status `cited` rests on SKETCH naming Dennett's intentional stance and on FACETS F3 naming "Real patterns"; SKETCH does not name this article.

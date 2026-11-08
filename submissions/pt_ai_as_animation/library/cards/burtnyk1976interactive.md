@@ -70,3 +70,10 @@ None.
 - verdict: verified. An honest abstract card: frontmatter matches Crossref, the summary keeps to the Crossref abstract, Loci None, and the c6 and c1 uses are flagged as at abstract level and weak.
 - checked: crossref.json (Burtnyk, N.; Wein, M.; NRC Canada affiliation; CACM 19(10), 564–569, Oct 1976; journal-article; DOI; abstract text); sha256 of crossref.json matches the card; BROWSER_LIST.md row (ACM DL 403); no PDF in the folder; inbox has no copy; burtnyk1971computer in reserve per F1-F4 triage; SKETCH §3 table row 'Character model and rig | Model weights' confirmed.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (abstract card, Loci None); summary checked against the Crossref JATS abstract; frontmatter vs crossref.json (N. Burtnyk, M. Wein; CACM 19(10), 564–569, Oct 1976; DOI); sha256 recomputed, matches; inbox empty.
+- Changed: nothing
+- For the author: the 'rig = weights' mapping is the sketch's, not the abstract's, as the card says; status 'cited' though SOURCE.md and SKETCH.md do not name Burtnyk & Wein, while catmull1978problems on the same footing is 'candidate' (status note in part1.md).

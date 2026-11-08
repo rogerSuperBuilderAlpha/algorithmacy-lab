@@ -85,3 +85,10 @@ None
 - verdict: verified, no changes
 - checked: frontmatter (Hooks, Ed; 2023; Routledge, London; ed. 5; monograph; DOI) against crossref.json; chapter title and pp. 19-20 against the chapter record; OpenAlex year 2013 vs Crossref 2023 (registered_year correctly unset, since the registrant record gives 2023); every sentence of "What it argues" against the reconstructed OpenAlex abstract; FACETS DOI 10.4324/9781315618272 and the DECISIONS correction; sha256 of all three records
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (abstract card); the OpenAlex record W594927527 and the Crossref chapter record 10.4324/9781003289753-4 are not in the key folder, so I re-fetched both on 2026-11-08 into my scratchpad: sha256s f4aed1c762e4c733… and 31e861c54eab8a4d…, identical to the card's; the abstract supports every sentence of What it argues and the chapter record gives "Acting and the CG pipeline", pp. 19–20; frontmatter vs crossref.json (Hooks, Ed; Routledge; monograph; 2023-05-24; DOI); crossref.json sha256 recomputed, matches.
+- Changed: nothing.
+- For the author: S4 should save the OpenAlex and chapter records to the key folder. The c1 use rests on a chapter title only, as the card says.

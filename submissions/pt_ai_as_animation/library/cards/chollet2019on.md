@@ -16,7 +16,7 @@ claims: [c3, c5, c11]
 role: support
 load: load-bearing
 read_depth: partial
-object_read: "arXiv v2 PDF (65 pp., stamped 'arXiv:1911.01547v2 [cs.AI] 25 Nov 2019', dated 5 November 2019 on p. 1) and its text layer, at ~/iit-playground/pt_ai_animation_local/pdfs/chollet2019on/chollet2019on.pdf and chollet2019on.txt; no copy in inbox/; read 2026-11-08; sha256 773b9ecec3df33e664ab5a784f9e48818e7fd0d8e211b3243f4f4e0fdecb2fee (PDF, sha256.txt, recomputed with shasum -a 256, matches)"
+object_read: "arXiv v2 PDF (64 pp. [Corrected by Fable, S7: the card said 65 pp.; pdfinfo gives 64], stamped 'arXiv:1911.01547v2 [cs.AI] 25 Nov 2019', dated 5 November 2019 on p. 1) and its text layer, at ~/iit-playground/pt_ai_animation_local/pdfs/chollet2019on/chollet2019on.pdf and chollet2019on.txt; no copy in inbox/; read 2026-11-08; sha256 773b9ecec3df33e664ab5a784f9e48818e7fd0d8e211b3243f4f4e0fdecb2fee (PDF, sha256.txt, recomputed with shasum -a 256, matches)"
 verified: verified
 verified_against: "csl.json (arXiv DataCite record, v2); full text layer per page with pdftotext, 13 quotations traced; sha256 recomputed"
 prior_cards: []
@@ -72,3 +72,10 @@ Inner quotation marks in the source are changed to single quotes. Each quotation
 - verdict: verified (no changes)
 - checked: frontmatter against csl.json (author, 2019, title, DOI 10.48550/arxiv.1911.01547, version 2; `type: preprint` for a record typed 'article' is right for an arXiv preprint); the PDF's p. 1 stamp 'arXiv:1911.01547v2 [cs.AI] 25 Nov 2019' and date 'November 5, 2019'; sha256 of the PDF recomputed, matches sha256.txt and the card; all 13 quotations in Loci searched page by page with pdftotext -f N -l N, all verbatim (inner quotes changed to single, as the card says) and all on the stated page; prose claims spot-checked on the page: the Legg and Hutter quotation on p. 3, 'the non-intelligent output artifact' on p. 42, 'buy' and board and video games on pp. 1 and 18-19; the Caution that 'no general survey of tests and definitions has been published' is absent from the Legg v1 text layer is confirmed (no hit).
 - changed: nothing. Note for Fable: DECISIONS tags this work c5, c11; the card adds c3 and supports it with the pp. 3, 4 and 27 quotations. The c2 contact point in the c11 bullet is labelled as a contact point, not a tag.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 13/13 loci found in the per-page text layer on the stated pages (3, 4, 19, 27, 42, 57); frontmatter vs csl.json (arXiv DOI, version 2, 2019); PDF sha256 recomputed, matches; the v2 stamp and 'non-intelligent output artifact' present; partial depth lists the parts read.
+- Changed: object_read said '65 pp.'; pdfinfo and per-page extraction give 64. Corrected and marked.
+- For the author: the card tags c3 beyond DECISIONS's c5, c11, with pp. 3, 4, 27 quotations behind it; accept or drop the tag. Status 'cited' though SOURCE.md and SKETCH.md do not name Chollet (status note in part1.md).

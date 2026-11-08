@@ -102,3 +102,10 @@ output for that PDF page of the held PDF (sha256 above). No quotation needed inn
 - verdict: corrected. Frontmatter matches Crossref (year 2023 volume year, registered_year 2022); all 11 quotations verbatim on the stated preprint pages; version caveat is accurate (arXiv:2011.09926v3, 19 May 2022, footer "Vol. 1, No. 1, Article 1. Publication date: January 2022"); the Sculley "small fraction" sentence is indeed absent.
 - checked: frontmatter against crossref.json and openalex.json; sha256; each quotation by per-page pdftotext; arXiv stamp and footer on p. 1; searches for "fraction", "small part", "small portion", "tiny" (no hits outside unrelated text); Ashmore attribution; "reinvented" and the researchers/engineers passage; the five-year scope sentence on p. 2.
 - changed: What it argues: "case studies of roughly the five years before 2020" was not what the text says; it says papers "published in the last five years" (p. 2, §1), and the held version is from 2022. Reworded to quote the source.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 11/11 loci found in paleyes2023challenges.txt, each on the stated PDF page (1, 2, 3, 3, 12, 12, 12, 12, 12, 13, 20); frontmatter against crossref.json and openalex.json (Paleyes, Urma, Lawrence; *ACM Computing Surveys* 55(6), 1–29; online 2022-12-07, print 2023-07-31; DOI; hybrid OA); registered_year 2022 follows the DECISIONS rule; PDF sha256 recomputed, matches sha256.txt; 29 pages; the p. 1 stamp reads 'arXiv:2011.09926v3 [cs.LG] 19 May 2022'. read_depth partial lists the parts read. The c1 bullet names four stretches, including that the Sculley 'small fraction' sentence is absent (I also found no 'fraction' or 'small part' in the text layer).
+- Changed: nothing.
+- For the author: status 'cited' rests on DECISIONS line 87, which routes SKETCH's Sculley sentence through this card. The card shows the sentence is not in Paleyes et al. Either promote Sculley et al. (2015) and read it, or drop the sentence; as it stands the SKETCH claim has no source in the library.

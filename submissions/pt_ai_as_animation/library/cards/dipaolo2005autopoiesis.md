@@ -68,3 +68,10 @@ None.
 - verdict: verified
 - checked: frontmatter against crossref.json (Di Paolo, Ezequiel A.; "Autopoiesis, Adaptivity, Teleology, Agency"; *Phenomenology and the Cognitive Sciences* 4(4), 429-452; issued and published-print 2005-12, published-online 2006-04-11; DOI; journal-article; 39 references; abstract null). crossref.json sha256 recomputed and matches the card. DECISIONS rules no `registered_year` for this key, and the card sets none. BROWSER_LIST.md gives the figshare 202 / no-files reason; FETCH_LOG.tsv logs records only. "fallible and requiring nurturing" is Roger's sentence in SOURCE Pass 1, and triage F1-F4 row 5 makes the link to Di Paolo; the card says both. No copy in the inbox. Loci None, as a metadata card should.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (metadata card); frontmatter vs crossref.json (Di Paolo, Ezequiel A.; Phenom. Cogn. Sci. 4(4) 429–452; print 2005-12, online 2006-04-11; DOI; no abstract); sha256 recomputed, matches; "fallible and requiring nurturing" is in SOURCE.md; inbox/ empty.
+- Changed: nothing.
+- For the author: status is `cited` although SOURCE.md and SKETCH.md do not name Di Paolo; the link is triage's.

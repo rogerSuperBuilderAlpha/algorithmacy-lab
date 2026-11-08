@@ -100,3 +100,10 @@ None
 - verdict: corrected (two unsupported statements reworded)
 - checked: frontmatter (surname only, 2006, title, IEEE Intelligent Systems 21(5) 7-9, DOI, journal-article) against crossref.json and OpenAlex biblio; the three Crossref references; every sentence of "What it argues" and the c5/c10/c12 bullets against the reconstructed OpenAlex abstract; BROWSER_LIST rows 21 and 47; sha256 of both records
 - changed: c5 bullet: removed "systems that would make themselves", which the abstract does not say (the card itself notes the abstract never defines "creationism"); the line is now described as puppet systems versus learning and adaptation, with the abstract's own phrase, and "creationism" marked as undefined. "What it argues": "the column therefore sits in the singularity debate" became "the reference list places the column in the singularity debate ...; the abstract itself does not mention the singularity"
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (abstract card); the OpenAlex record W2168516896 is not in the key folder, so I re-fetched it from api.openalex.org on 2026-11-08 into my scratchpad: its sha256 is 783176acba9f8ba1…, identical to the card's, and the four phrases quoted from the abstract are verbatim; frontmatter vs crossref.json (surname only; IEEE Intelligent Systems 21(5) 7–9; 2006-10; DOI); crossref.json sha256 recomputed, matches; ruling B1: the card says what separates it (puppetry as a limit AI must cross vs the paper's craft as the right description).
+- Changed: nothing.
+- For the author: (1) S4 should save the OpenAlex record to the key folder. (2) The given name stays unconfirmed until the byline is seen. (3) Status `candidate` is right; BROWSER_LIST's priority row says you may promote it once read.

@@ -70,3 +70,10 @@ None.
 - verdict: corrected
 - checked: frontmatter against crossref.json (four authors in order; title; Artificial Life 16(1), 89-97; DOI; journal-article; print 2010-01; created 2009-10-26); sha256 of crossref.json recomputed (match); the summary against the Crossref abstract, sentence by sentence (no claim beyond it); BROWSER_LIST.md row (zenodo 403) and FETCH_LOG.tsv (records-only); no copy in inbox/; the OpenAlex 2009 date against the live API.
 - changed: Caution gains one marked note confirming OpenAlex's 2009-10-26 date. No `registered_year` added, per DECISIONS.md. The c4 and c12 uses remain tentative and say so.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (abstract card, Loci None); the summary checked sentence by sentence against the Crossref JATS abstract; frontmatter vs crossref.json (four authors in order, Artificial Life 16(1), 89–97, print 2010-01, created 2009-10-26); sha256 recomputed, matches.
+- Changed: nothing
+- For the author: both uses (c4, c12) stay tentative until the article is read; status 'cited' though SOURCE.md and SKETCH.md do not name Bedau et al. (status note in part1.md).

@@ -74,3 +74,10 @@ None. No text of the work was read this run.
 - verdict: corrected
 - checked: frontmatter against crossref.json and openalex.json (authors, 2015, title, J. Theoretical Biology 372, 179-191, DOI, article; no issue in either record); sha256s recomputed and match; neither record has an abstract; OpenAlex locations (HAL and CiteSeerX submittedVersion) confirmed; DECISIONS lines 373-374 on the "Mossio & Moreno 2010, HPLS" replacement confirmed; inbox empty.
 - changed: object_read credited the bot-check to FETCH_LOG.tsv, but FETCH_LOG.tsv records only "200 non-pdf (12613 bytes)" for HAL; the bot-check wording comes from BROWSER_LIST.md. The provenance now says so.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); frontmatter against crossref.json (Maël Montévil, Matteo Mossio; *Journal of Theoretical Biology* 372, 179–191; issued 2015-05; no issue field; DOI) and openalex.json (2015; green OA via hal.science/hal-01192916; no abstract in either); both sha256 values recomputed, match; the key folds the diacritic as the README requires. Status cited: Checkpoint A ruling 1 adds Montévil & Mossio by name. The c4 bullet claims nothing beyond title and existence.
+- Changed: nothing.
+- For the author: the HAL deposit (and a CiteSeerX copy) is a submitted version; opening it in the browser would give preprint text whose pages are not the journal's. The moreno2015biological card calls this 'the open article to quote for closure in the meantime'; until a copy is read it is metadata too.

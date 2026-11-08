@@ -20,7 +20,7 @@ object_read: "arXiv v2 (6 Aug 2023) PDF, set in the UIST '23 ACM format (its fir
 verified: corrected
 verified_against: "crossref.json, openalex.json; sha256 re-hashed; per-page pdftotext of the arXiv v2 PDF, 15 quotations traced (all verbatim, all page and section locators correct); numbers in What it argues checked against the text"
 prior_cards: []
-status: cited
+status: candidate
 added: 2026-11-08
 run: pta-lib-2026-11
 ---
@@ -150,3 +150,10 @@ marks are changed to single quotes.
   Rewrote that sentence. Added ref. [96] (Thomas & Johnston 1981, *Disney Animation: The Illusion of
   Life*, seen in the reference list, PDF p. 20) under Caution, marked as the verifier's addition. The
   version caution stands: the loci are not checked against the ACM DL file.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 15/15 loci found. The held text layer park2023generative.txt is a layout extraction that interleaves the two columns (a line-by-line grep finds 0 of 15), so I re-extracted the held PDF with pdftotext in reading order: every quotation is verbatim (the p. 6 'inner voice' carries double quotation marks in the PDF, given as single quotes as the Loci note says) and each sits on the stated PDF page (2, 3, 3, 2, 6, 8, 8, 11, 11, 11, 13, 13, 17, 17, 18). Frontmatter against crossref.json and openalex.json (six authors; UIST '23 proceedings; pp. 1–22; 2023-10-29 / 2023-10-20; DOI; bronze OA); PDF sha256 recomputed, matches sha256.txt; 22 pages. read_depth partial lists the parts not read. The c1, c6 and c11 bullets name their stretches.
+- Changed: status cited → candidate [Corrected by Fable, S7]. README defines cited as a work SOURCE.md or SKETCH.md uses; neither names Park et al., CITED_WORKS.md does not list them, and no Checkpoint ruling names the key. The role, load and claims are unchanged.
+- For the author: restore 'cited' if §4.1 or §6 will cite Park et al.; the verifier's Caution note that 'illusion of life' is Thomas & Johnston's phrase (ref. [96]) matters for how §3 credits it.

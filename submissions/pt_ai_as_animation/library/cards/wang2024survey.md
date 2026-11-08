@@ -112,3 +112,10 @@ quotes; no quotation below needed that.
 - verdict: corrected. Frontmatter matches Crossref; all 12 quotations are verbatim on the stated PDF pages; read_depth partial is honest; the c1 stretches are named.
 - checked: frontmatter against crossref.json; sha256 of the PDF; each quotation by per-page pdftotext with whitespace and hyphenation normalised; section numbers (§6.1-§6.6 headings, §6.6 Efficiency); "harness" occurrences (verb on p. 5 and a reference title only); "central controllers", "usually written into the prompt", "unified framework", "external planner", received/accepted dates, Renmin affiliation, corresponding-author marks, Fig. 1 date range; PDF page count (26) and printed page numbers.
 - changed: (1) c1 bullet: "efficiency appears only as slow inference (§6.6)" was too strong; the pages read also use efficiency for memory storage and retrieval, and the unread §4 lists "Efficiency metrics". Reworded. (2) Loci note said printed page numbers run 1-20 on the article pages; the held PDF numbers all 26 pages 1-26. Reworded; locators unchanged.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 12/12 loci found by per-page pdftotext (the .txt layer interleaves columns, as the card says); PDF sha256 recomputed, matches; frontmatter vs crossref.json (13 authors in the card's order; 18(6), article 186345; online 2024-03-22, print 2024-12); read_depth partial matches the parts listed; the three c1 stretches are named.
+- Changed: nothing
+- For the author: status `cited` though SKETCH does not name Wang et al. (see part4 header)

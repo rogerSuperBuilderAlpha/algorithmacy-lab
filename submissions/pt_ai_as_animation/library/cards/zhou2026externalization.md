@@ -130,3 +130,10 @@ double quotation marks inside a quotation, I give them as single quotes.
 - checked: csl.json; the PDF byline (21 names; affiliations Shanghai Jiao Tong, Sun Yat-Sen, Shanghai Innovation Institute, Carnegie Mellon, OPPO; Weinan Zhang one of four corresponding authors); "Date: April 10, 2026" on the title page; paraphrased phrases in the first two sections ("a dedicated cloud sandbox", "the broader discipline concerned with constructing…", "cost ceilings", "context budget"); no "virtual machine" in the text, as the card says. The c2 stretch (the authors decline the ontological reading, p. 6) is named on the card.
 - for Fable: the card sets `status: cited`, but neither SOURCE.md nor SKETCH.md names Zhou et al. Under the README definition the status would be `candidate`. Many cards in this run use `cited` for works DECISIONS approved, so I left the field alone; the author decides.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 15/15 loci found in zhou2026externalization.txt (three differ only by a printed page number falling inside the sentence or by the card's single-for-double inner quotation marks, both declared in the Loci preamble); PDF sha256 recomputed, matches; pdfinfo 54 pp.; arXiv stamp 'arXiv:2604.08224v1 [cs.SE] 9 Apr 2026' and 'Date: April 10, 2026' on p. 1; csl.json: 21 authors, version 1, copyright 'Creative Commons Attribution 4.0 International', DOI, arXiv URL; read_depth partial matches the parts listed; the c2 stretch (the authors decline the ontological reading) is named.
+- Changed: nothing
+- For the author: status `cited` though neither SOURCE.md nor SKETCH.md names Zhou et al. (the S6 verifier raised this too); decide `cited` vs `candidate`

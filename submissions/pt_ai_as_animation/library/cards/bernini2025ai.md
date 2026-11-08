@@ -92,4 +92,10 @@ it as a locus.
 - checked: frontmatter against crossref.json (author Marco Bernini, Durham University; title; Style 59(3), 466–507; DOI; journal-article; issued and published 2025-08, published-print 2026-04-17, created 2026-04-21; publisher The Pennsylvania State University Press) and openalex.json (W7155074459; 2025-08-01; the same volume, issue and pages; host University of Arkansas Press; green OA, with a Durham AAM preview URL as the only pdf_url). Both record hashes recomputed, and they match object_read. FETCH_LOG.tsv records HTTP 403 for the Durham copy, BROWSER_LIST.md has the row, inbox/ is empty, and Crossref's PDF link is on scholarlypublishingcollective.org, as the card says. "What it argues" stays within the Crossref abstract, and its first line says the card rests on the abstract. read_depth abstract and Loci None fit. The SKETCH line (SKETCH.md, row 35) matches the card's quotation of it. The c12, c5 and c10 uses are marked as inference from the abstract.
 - changed: nothing
 
+
 ## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (abstract card, Loci None); summary checked against the Crossref and OpenAlex abstracts (identical); frontmatter vs both records (59(3), 466–507; issued 2025-08, print 2026-04-17; Penn State UP vs Arkansas host); both sha256 recomputed, match; SKETCH row 35 as quoted.
+- Changed: nothing (filled the empty Hand-check heading the card already carried)
+- For the author: whether 'phenomenological opacity' earns a c7 tag can only be decided from the text; the article is on BROWSER_LIST.md.

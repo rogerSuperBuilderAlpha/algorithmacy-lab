@@ -76,3 +76,10 @@ None.
 - verdict: verified
 - checked: sha256 of crossref.json matches; author Barry J. C. Purves, title and subtitle, year 2014, publisher Bloomsbury Publishing Plc, ISBNs, type book and DOI match the record; edition-number 2 is in the record and DECISIONS (ruling on Purves's edition) keeps it off the APA, as the card does; every phrase quoted in "What it argues" is in the abstract; the record carries no chapter DOI or OpenAlex id, as Caution says; no inbox copy; status candidate is right (SKETCH names stop-motion but not Purves); the c10 contrast is marked as the sketch's, not Purves's.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (abstract card); the six phrases quoted in 'What it argues' all appear in the Crossref abstract field; frontmatter against crossref.json (Barry J. C. Purves; book; Bloomsbury Publishing Plc; 2014; ISBNs 9781474222365, 9781472521903; edition-number 2; DOI 10.5040/9781474222365); sha256 recomputed, matches; status candidate is right (SKETCH names stop-motion, not Purves). The c6 and c10 bullets mark 'a person authors every frame' as the sketch's, not Purves's.
+- Changed: nothing.
+- For the author: nothing.

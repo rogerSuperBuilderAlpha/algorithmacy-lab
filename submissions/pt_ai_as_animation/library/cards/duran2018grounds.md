@@ -68,3 +68,10 @@ Each quotation was matched against duran2018grounds.txt. The text layer joins so
 - verdict: corrected
 - checked: frontmatter against crossref.json (authors Juan M. Durán and Nico Formanek, title, *Minds and Machines* 28(4), 645-666, DOI, journal-article, print 2018-12, online 2018-10-29, CC BY 4.0 licence); sha256 of the PDF recomputed, matches; 22 PDF pages = printed pp. 645-666, offset 644 confirmed; all 11 quotations found verbatim on the stated printed page (six of them break across lines with the PDF's non-breaking hyphen, which the card rejoins, as it says); prose page references checked on the page: access and surveyability (pp. 647-649), Newman (pp. 646-647), information hiding (p. 647), Goldman's reliabilism (pp. 652-655), the four sources (pp. 645, 656-663), no mention of neural networks (0 hits).
 - changed: the 'trust does not need transparency' gloss in What it argues and in the Caution 'Trust claim' bullet. The word 'transparency' does not occur in the text layer; both now state the p. 652 claim in the authors' terms and mark 'transparency' as the card's word.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 11/11 loci found on the stated printed page (PDF p. = printed − 644); frontmatter vs crossref.json (Durán, Juan M.; Formanek, Nico; Minds & Machines 28(4) 645–666; online 2018-10-29, print 2018-12; DOI); PDF sha256 recomputed, matches sha256.txt; the c7 and c11 uses name their stretches.
+- Changed: nothing.
+- For the author: (1) status `cited` although SOURCE.md and SKETCH.md do not name Durán & Formanek. (2) The Caution's in-principle vs in-practice point stands: this source reads essential opacity as practical, which is weaker than SOURCE's "in principle black box"; you decide which §4.2 means.

@@ -70,3 +70,10 @@ None.
 - verdict: corrected
 - checked: frontmatter against crossref.json (F.G. Varela, H.R. Maturana, R. Uribe; title; "Biosystems" 5(4), 187-196; issued 1974-05; DOI; journal-article; abstract null) and openalex.json (W2093020640; disambiguated "Francisco J. Varela" with raw name "F.G. Varela"; 1974-05-01; biblio 5(4) 187-196; no abstract; the repositorio.uchile.cl location labelled submittedVersion, the DOI and PubMed locations publishedVersion). Both sha256 values recomputed and match the card. BROWSER_LIST.md gives the "Verificando acceso" reason; FETCH_LOG.tsv logs two non-PDF 200 responses. Triage notes rule that the card follow the byline. SKETCH §2 writes "Maturana & Varela". No copy in the inbox. Loci None.
 - changed: added one Caution bullet recording that Crossref styles the journal "Biosystems" while the card keeps "BioSystems". No other field changed.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); both record sha256 values recomputed, match; crossref.json: F.G. Varela, H.R. Maturana, R. Uribe; 'Biosystems' 5(4), 187–196; 1974-05; openalex.json W2093020640: raw name 'F.G. Varela', disambiguated 'Francisco J. Varela', repositorio.uchile.cl location labelled submittedVersion; status cited is right (SKETCH §2 names Maturana & Varela).
+- Changed: nothing
+- For the author: first author's initials (F. G. in the records vs Francisco J.) wait on the byline; SKETCH writes 'Maturana & Varela', which fits the 1980 book, not this article; the open repository copy needs a browser (bot check)

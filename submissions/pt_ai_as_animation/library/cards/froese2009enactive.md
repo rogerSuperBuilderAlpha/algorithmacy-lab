@@ -70,3 +70,10 @@ None
 - verdict: verified
 - checked: Crossref: authors Tom Froese and Tom Ziemke, title, Artificial Intelligence 173(3-4), 466–500, DOI, journal-article, only issue date 2009-03, no abstract; OpenAlex 2008-12-26, bronze OA, no abstract; both sha256 values match; BROWSER_LIST row 5 and full-list row; FETCH_LOG 403 and redirect; DECISIONS lists no registered_year for this key, so leaving the 2008 date to S8 in Caution is consistent with the bedau2010living handling.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (metadata card); frontmatter vs crossref.json and openalex.json (Froese, Tom; Ziemke, Tom; Artificial Intelligence 173(3–4) 466–500; issue 2009-03; OpenAlex 2008-12-26; no abstract in either); both sha256s recomputed, match; `candidate` is right (not named in SOURCE, SKETCH or a ruling).
+- Changed: nothing.
+- For the author: whether the 2008 online date needs `registered_year` (S8).

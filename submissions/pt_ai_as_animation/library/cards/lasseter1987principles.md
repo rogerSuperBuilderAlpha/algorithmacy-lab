@@ -74,3 +74,10 @@ None.
 - verdict: verified. An honest abstract card: frontmatter matches the proceedings record, the summary keeps to the OpenAlex abstract, Loci None, and the c6 use is flagged as abstract-level.
 - checked: crossref.json (Lasseter, John; Pixar, San Rafael affiliation; title; Proceedings of the 14th annual conference on Computer graphics and interactive techniques; SIGGRAPH '87 event; pp. 35–44; Aug 1987; proceedings-article; ACM; no abstract); openalex.json (conference-paper, bronze OA URL at dl.acm.org, abstract read in full); both sha256 match the card and the dxda card's object_read; dxda card uses the same DOI and claims [c8]; provenance.txt; BROWSER_LIST.md row; DECISIONS.md row naming both DOIs; SKETCH §3 anchors Thomas & Johnston (1981) and Lasseter (1987). The second DOI 10.1145/37402.37407 was not opened by me either.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (abstract card); the three phrases quoted in 'What it argues' match the OpenAlex abstract; 'Pixar, San Rafael' is in crossref.json; frontmatter against crossref.json (John Lasseter; Proceedings of the 14th annual conference on Computer graphics and interactive techniques, SIGGRAPH '87; pp. 35–44; 1987-08; ACM; DOI 10.1145/37401.37407); both sha256 values recomputed, match; provenance.txt names the dxd_animation_local copy; status cited: SKETCH §3 names Lasseter (1987). The c6 bullet names its stretch (abstract names no principle; nothing about life or AI).
+- Changed: nothing.
+- For the author: the ACM DL copy is bronze open access per OpenAlex; opening it in a browser would raise this anchor to full text.

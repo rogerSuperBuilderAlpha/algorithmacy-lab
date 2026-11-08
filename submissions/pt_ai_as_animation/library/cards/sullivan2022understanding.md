@@ -66,3 +66,10 @@ None.
 - verdict: verified
 - checked: frontmatter against crossref.json (Sullivan, Emily; title; The British Journal for the Philosophy of Science 73(1), 109-133; DOI; journal-article; University of Chicago Press; issued 2022-03-01; created 2019-08-02) and openalex.json (publication_date 2019-08-02), so `year: 2022` and `registered_year: 2019` follow the volume-year rule and DECISIONS.md; both sha256 values recomputed (match); the summary against the OpenAlex abstract, sentence by sentence (no claim beyond it); the named stretch on c7 (scientific models, not LLM products) is present; BROWSER_LIST.md and FETCH_LOG.tsv agree; reserve `sullivan2022inductive` exists in triage F5-F9.md (R4).
 - changed: nothing.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (abstract card); the summary matches the OpenAlex abstract sentence by sentence; both record sha256 values recomputed, match; crossref.json 73(1), 109–133, issued 2022-03-01, created 2019-08-02, so year 2022 and registered_year 2019 hold; the c7 stretch (scientific models, not LLM products) is named.
+- Changed: nothing
+- For the author: abstract only; status `cited` though SKETCH does not name Sullivan (see part4 header)

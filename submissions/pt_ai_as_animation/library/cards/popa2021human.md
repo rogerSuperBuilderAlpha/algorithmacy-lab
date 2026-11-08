@@ -20,7 +20,7 @@ object_read: "Registry records only: Crossref (crossref.json) and OpenAlex (open
 verified: verified
 verified_against: "crossref.json and openalex.json (author, title, 34(4), 1731-1750, DOI, dates, no abstract on either, OpenAlex oa_status closed); sha256 of both records recomputed; inbox checked empty; BROWSER_LIST row present"
 prior_cards: []
-status: cited
+status: candidate
 added: 2026-11-08
 run: pta-lib-2026-11
 ---
@@ -67,3 +67,10 @@ None.
 - verdict: verified (no changes). Metadata card says only what the records show; Loci None; no argument claimed.
 - checked: frontmatter against crossref.json and openalex.json; absence of an abstract in both; record sha256 values; Crossref reference count (56) and TDM licence; inbox empty on 2026-11-08; BROWSER_LIST.md row for the key.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: Loci = None (metadata card); frontmatter against crossref.json and openalex.json (Elena Popa; *Philosophy & Technology* 34(4), 1731–1750; online 2021-10-23, print 2021-12; DOI; closed; no abstract in either); both sha256 values recomputed, match; inbox/ empty. The card claims nothing from the title for c9 or c4 and says so.
+- Changed: status cited → candidate [Corrected by Fable, S7]. README defines cited as a work SOURCE.md or SKETCH.md uses; neither names Popa, CITED_WORKS.md does not list her, and no Checkpoint ruling names the key. Role, load and claims unchanged.
+- For the author: Ruling B2 requires every c9 card to record what the source counts as its third party. This card cannot, because the article is unread. Either open it (BROWSER_LIST) and rewrite the card, or remove c9 from its claims so the triad set stays complete.

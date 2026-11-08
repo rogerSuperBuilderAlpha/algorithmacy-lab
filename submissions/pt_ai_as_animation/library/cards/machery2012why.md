@@ -69,3 +69,10 @@ None
 - verdict: verified
 - checked: Crossref record: author, title, Synthese 185(1), 145–164, DOI, journal-article, online 2011-01-29, print 2012-03, no abstract; registered_year 2011 matches DECISIONS; sha256 of crossref.json matches; BROWSER_LIST row 8 and full-list row quoted correctly; SKETCH §2 wording matches the card; metadata card says only what the record shows; Loci None.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card; the folder holds crossref.json only); frontmatter against the record (Edouard Machery; *Synthese* 185(1), 145–164; online 2011-01-29, print 2012-03; DOI; no abstract); registered_year 2011 follows the DECISIONS rule; sha256 recomputed, matches; status cited: SKETCH §2 names Machery (2012, *Synthese*). The c3 bullet names the stretch ('hopeless' is SKETCH's word, 'stopped worrying' is the title's).
+- Changed: nothing.
+- For the author: nothing.

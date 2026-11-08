@@ -71,3 +71,10 @@ None
 - verdict: verified
 - checked: frontmatter against crossref.json (Auslander, Philip; type monograph; title "Liveness" with subtitle "Performance in a Mediatized Culture"; Routledge, London; edition-number 3; online and issued 2022-10-28; electronic ISBN 9781003031314; language en; DOI; 69 citing works; Taylor & Francis landing page; no abstract); crossref.json sha256 recomputed, matches; folder holds crossref.json only and inbox/ is empty; FETCH_LOG.tsv row "Crossref 200; records only"; BROWSER_LIST.md row present. Triage F5-F9.md row 1 does say "Crossref gives the main title only", which the local record contradicts, as the card says; DECISIONS approves the 3rd edition because it "answers the internet". What it argues states only record facts; Loci None. The c10 bullet's reading of the subtitle is the writer's inference and is labelled as an expectation, not a reading.
 - changed: nothing in the card's content. I removed the empty "## Hand-check" placeholder heading.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json (monograph, edition 3, Routledge London, 2022-10-28, ISBN 9781003031314, subtitle 'Performance in a Mediatized Culture', 69 citing works); sha256 recomputed, matches; inbox empty.
+- Changed: nothing
+- For the author: book still unopened (Checkpoint B ruling 4); status 'cited' though SOURCE.md and SKETCH.md do not name Auslander (status note in part1.md).

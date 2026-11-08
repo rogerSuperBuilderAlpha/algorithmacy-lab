@@ -134,3 +134,10 @@ here has inner double quotation marks.
 - verdict: verified
 - checked: frontmatter against crossref.json (authors, volume year 2018 with registered_year 2017 from issued/online 2017-04-06, Synthese 195(5) 1891-1908, DOI, journal-article); PDF sha256 recomputed and matches sha256.txt; all 15 quotations found verbatim on the stated printed pages (printed = PDF + 1890 confirmed from the running heads); section and footnote locators checked against the heading lines (§5 quotations on p. 1902 precede the §6 heading; §7 quotations on p. 1906 precede the §8 Conclusion heading; fn. 6 on p. 1900); the p. 1901-1902 tape sentence, "in a modest sense", fn. 2 (life-mind continuity), fn. 4 (Turing computability), fn. 5, normativity/teleology/individuation, the Maturana & Varela (1980) report on p. 1898 and the Kluwer reference on p. 1908 all confirmed.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 15/15 loci found by per-page pdftotext of the Springer VoR PDF (sha256 recomputed, matches; printed page = PDF page + 1890 holds for every locus); frontmatter vs crossref.json (Synthese 195(5), 1891–1908, online 2017-04-06, print 2018-05, so registered_year 2017); the Thompson block quotation is marked as second-hand; claim uses name the stretch (autonomy, not life; the LLM extension is the paper's).
+- Changed: nothing
+- For the author: nothing

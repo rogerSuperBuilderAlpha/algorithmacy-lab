@@ -118,3 +118,10 @@ I give them as single quotes.
 - verdict: verified
 - checked: frontmatter against crossref.json (author Luciano Floridi; title; *Philosophy & Technology* 36(1), article-number 15, no page field; DOI; journal-article; issued 2023-03, online 2023-03-10; no `registered_year` needed). PDF has 7 pages; sha256 recomputed and matches sha256.txt and the card. All 13 quotations found verbatim on the pages the card gives; the pp. 5–6 sentence was confirmed by reading the foot of p. 5 ("We have decoupled ... understand,") and the head of p. 6 ("reflect, consider or grasp anything."), with footnote 10 between. "EDITORIAL" label, received/accepted/online dates and the "exclusive licence" line confirmed on p. 1. The "alien to any culture in any past", "natural or even supernatural", "demiurges", stochastic-parrot, lazy-student, *Betrothed* and reinforcement-learning points in the summary are in the text. `floridi2025ai` and `floridi2026ai` exist in DECISIONS as the Caution says; `floridisanders2004` exists in the registry under designeth at full_text. The c5 inference is marked as the writer's own, and c12's limits are named.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 13/13 loci: 12 found on the stated PDF page by pdftotext; the 13th ("We have decoupled ...") runs from the foot of p. 5 to the head of p. 6 with footnote 10 between, confirmed by reading the text layer at lines 242–253; frontmatter vs crossref.json (Floridi; P&T 36(1), article-number 15, no page field; online 2023-03-10); PDF sha256 recomputed, matches sha256.txt; ruling A1 names this paper, so `cited` holds; c5 inference marked as the writer's.
+- Changed: nothing.
+- For the author: nothing

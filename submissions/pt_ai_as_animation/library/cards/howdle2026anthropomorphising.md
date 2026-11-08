@@ -61,7 +61,7 @@ not suit users.
   by fit to an aim, not by truth, and choosing one can be a mistake without any false belief. What
   he would object to in the paper's thesis: (1) the paper's "life frame" is not among his stances.
   It is a further, biomorphic stance, and on his account it is wrong wherever another stance better
-  serves the operative aim. "Better conceived as creating artificial life" cannot be a
+  serves the operative aim. "Better concieved [sic] as creating artificial life" [Corrected by Fable, S7: SOURCE.md line 23 spells it "concieved"; the card had silently corrected it] cannot be a
   context-free verdict; it has to name the aim it serves. (2) If the paper means "AI development is
   making life" literally, it moves into his metaphysical mode and takes on the ontological risk he
   describes. The paper must say which mode its life frame is in. (3) His stances are a *user's*
@@ -120,3 +120,10 @@ are Howdle's own.
 - checked: Utrecht affiliation; received/accepted dates; "modified publication 2026"; Stuart & Kneer, Marchegiani, Coghlan, Strasser and Wilby, the Sarah, Marcus and Lin cases; Wykowska; Coeckelbergh (2012); SKETCH §6 "believability and consistency over time" (lines 121–122). The c5 and c11 contrast uses and the stretch note fit the text.
 - for Fable: in the c5 bullet the card quotes the thesis as "Better conceived as creating artificial life"; SOURCE.md spells it "better concieved". I left the bullet alone.
 - changed: "What it argues", first paragraph: `that a user errs only if he or she "really means it"` → `that users err only if they "really mean it"`.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix (fixed here)**.
+- Checked: 11/11 loci found on the stated PDF page; frontmatter vs crossref.json (Howdle, Giles; P&T 39(3), article-number 140; online 2026-07-15, print 2026-09; DOI; abstract present); PDF sha256 recomputed, matches sha256.txt; c5 and c11 uses name their stretches; `candidate` is right.
+- Changed: the c5 bullet quoted the thesis as "Better conceived as creating artificial life"; SOURCE.md line 23 reads "better concieved", so the quotation now reads "better concieved [sic] ..." and is marked.
+- For the author: the writer added facet F3 to DECISIONS' F12; I kept it, since the argument runs on Dennett's stances. Drop it if you want the DECISIONS list to govern.

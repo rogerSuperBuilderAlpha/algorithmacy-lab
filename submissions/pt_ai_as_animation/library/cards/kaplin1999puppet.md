@@ -73,3 +73,10 @@ None.
 - verdict: corrected
 - checked: sha256 of crossref.json matches; author Stephen Kaplin, title, container "TDR/The Drama Review", volume 43, issue 3, pages 28-35, date 1999-09, publisher MIT Press - Journals, type journal-article and DOI match the record; the abstract sentence is quoted verbatim and is third-person, as the card says; the one reference (Craig, *The Marionette*, 1918, vol. 1, p. 171) is in the record; no inbox copy; BROWSER_LIST row present; the c10 use names the paper's own step.
 - changed: (1) status cited -> candidate: README defines cited as used in SOURCE.md or SKETCH.md, and neither names Kaplin (DECISIONS calls him an anchor, which is the role, kept); (2) the sketch quotation in "What the paper uses it for" was not verbatim ("puppetry may be the closer case"); it now quotes SKETCH §5 exactly.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None; the one abstract sentence quoted in 'What it argues' matches the Crossref abstract field verbatim (third person, so the card rightly calls it the journal's); frontmatter against crossref.json (Stephen Kaplin; *TDR/The Drama Review* 43(3), 28–35; 1999-09; MIT Press - Journals; DOI); sha256 recomputed, matches; status candidate is right (neither SKETCH nor SOURCE names Kaplin). The c10 use names its two stretches.
+- Changed: nothing.
+- For the author: nothing.

@@ -107,3 +107,10 @@ double quotation marks changed to single.
 - verdict: verified (no changes). Frontmatter matches Crossref; all 11 quotations verbatim on the stated pages; section and footnote locators (fn 4 p. 6; Nickel 2013 p. 500 on p. 11; fn 11 attached to §5 on p. 13) are right; the c9 stretches are named.
 - checked: frontmatter against crossref.json; sha256; each quotation by per-page pdftotext; section headings (§4 p. 11, §5 p. 13, §6 p. 16); Twente affiliation; received/accepted/online dates; SOMNILOQUIST and RANDOM cases; CDC and ChatGPT warning passages; the "humanlike voices" passage behind the design recommendation.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 11/11 loci found in the per-page text layer, each on the stated PDF page (3, 12, 13 checked by eye); frontmatter vs crossref.json (37(1), online 2024-01-30, print 2024-03); PDF sha256 recomputed, matches; 19 pp. per pdfinfo; SOMNILOQUIST/RANDOM and the 'may occasionally generate incorrect information' passage present; the four c9 stretches are named.
+- Changed: nothing
+- For the author: status 'cited' though SOURCE.md and SKETCH.md do not name Arora (status note in part1.md).

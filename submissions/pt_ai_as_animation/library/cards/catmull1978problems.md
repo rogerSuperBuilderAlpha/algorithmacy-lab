@@ -87,3 +87,10 @@ None.
 - verdict: verified
 - checked: sha256 of crossref.json matches; author, affiliation ("Old Westhury"), title, container title, event SIGGRAPH '78, pages 348-353, date 1978-08-23, publisher ACM (New York), type proceedings-article and DOI all match the record; no abstract in the record, so metadata depth is honest; the five reference titles named are in the record's 12 references; is-identical-to 10.1145/965139.807414 is in the record; the triage abstract lines are correctly kept out of Loci; BROWSER_LIST row says dl.acm.org 403; no inbox copy; status candidate is right (SKETCH and SOURCE do not name Catmull); every use is marked as resting on the unread text.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json (Edwin Catmull, SIGGRAPH '78 proceedings, pp. 348–353, 1978-08-23, ACM New York, no abstract); sha256 recomputed, matches; the triage abstract lines rightly kept out; inbox empty.
+- Changed: nothing
+- For the author: nothing beyond the status inconsistency with burtnyk1976interactive (status note in part1.md).

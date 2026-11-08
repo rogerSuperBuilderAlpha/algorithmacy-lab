@@ -130,3 +130,10 @@ not the pages of the Big Data & Society article. Inner quotation marks are singl
   (run-time modification/moderation is a construction stage). The version caution stands: no locus is
   checked against the SAGE version of record.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 9/9 loci found. The held text layer magee2023structured.txt interleaves the two columns (a line-by-line grep finds 2 of 9), so I re-extracted the held PDF with pdftotext -raw, which restores reading order: all 9 quotations are verbatim there and each sits on the stated PDF page (1, 2, 6, 7, 8, 14, 15, 16, 17). Frontmatter against crossref.json and openalex.json (Magee, Arora, Munn; *Big Data & Society* 10(2); issued 2023-07, online 2023-11-08; DOI; gold OA); PDF sha256 recomputed, matches sha256.txt; 20 pages. read_depth full_text with the bibliography excluded is honest. The c2 and c12 bullets name their stretches, and the DECISIONS question (construction = the system, not training only) is answered from p. 6.
+- Changed: nothing.
+- For the author: (1) status 'cited' rests on CITED_WORKS.md, which lists 'Magee et al. 2022/2023' as a work SKETCH names, but the current SKETCH.md and SOURCE.md contain no 'Magee', 'Munn', 'Arora' or 'Structured'. Either SKETCH changed after S0 or the row is wrong; decide whether the card stays cited. (2) Every locus is from the arXiv v1 preprint; nobody has checked the SAGE version of record.

@@ -82,3 +82,10 @@ None
 - verdict: corrected
 - checked: frontmatter against crossref.json (Silvio, Teri J., author; Alexy, Allison, under editor; type edited-book; title and subtitle; University of Hawaii Press; print and issued 2019-09-30, online 2022-03-30; electronic ISBN 9780824880989; DOI; 21 citing works; no abstract, no page count); crossref.json sha256 recomputed (3457c224...), matches provenance.txt, HELD_COPIES.tsv and the prior card `dxda/silvio2019puppets`, which tags c4, c7; FACETS.md F5 carries c10, c6, so the retagging holds; BROWSER_LIST.md row 2 present. In the dxda `stark2024animation` card, the definition quotation carries Stark's citation [89:52] on PDF p. 2 [p. 1664], as the card says.
 - changed: (1) c10 bullet: added a marked verifier note. The dxda Stark card's Caution records that Stark cites the "[hard] to separate" concession and his other animation-versus-performance lines to his ref. [88], Silvio (2010), not to this book; only the p. 52 definition is cited to [89], this book. The card had credited the concession to this book. (2) Alexy Caution: the second-author reading came from the dxd run's triage F1-F2.md; this run's triage F5-F9.md says "presumably a series editor". The sentence now says both. (3) I removed the empty "## Hand-check" placeholder heading.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); crossref.json sha256 recomputed (3457c224..., matches); record shows Silvio as author, Alexy as editor, type edited-book, print 2019-09-30, online 2022-03-30, ISBN 9780824880989, 21 citing works, no abstract, as the card says; claim uses rest on the dxda Stark card and are marked unchecked this run.
+- Changed: nothing
+- For the author: the book is unopened (ruling 4 puts ch. 1 second in the opening order); the p. 52 definition reaches the paper only through Stark; Alexy's role needs the title page

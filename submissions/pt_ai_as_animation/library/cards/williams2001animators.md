@@ -85,3 +85,10 @@ None
 - verdict: verified, no changes
 - checked: frontmatter (author, 2001, title, Faber, London, book, no DOI) against OL3753630M and the editions list; edition claims (2009 Expanded ed. 382 pp., Revised Edition record) against the editions list; every sentence of "What it argues" against the LoC blurb; the work-record review text; triage F1-F4 row 1 (timing and spacing); DECISIONS row and edition ruling; sha256 of all five records named in object_read
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (abstract card from the LoC publisher description). No key folder exists, so I refetched the records on 2026-11-08 into my scratchpad: edition OL3753630M (sha256 28df3d59..., matches), work OL6073254W (a9c1388b..., matches), author OL1538977A (913944ea..., matches; Richard Williams, born 1933); the editions list (cc53c28c... today, not ff618e5a...) and the LoC page (ab33c8f7... today, not 03757524...) hash differently but their content is as the card says: 2001 Faber, London, x+342 p., ISBNs 0571202284/0571212689, LCCN 2003446095; 2009 Expanded ed., 382 pp., ISBNs 0571238343/0571238335; the blurb's phrases ('the underlying principles of animation', 'invent but be believable', 'into a working system', Roger Rabbit, Toy Story, master classes) all present. The c6 stretch (timing, spacing, in-betweens unread) is named.
+- Changed: nothing
+- For the author: no folder pdfs/williams2001animators/ exists; S4 should save the records. Whether a publisher blurb counts as 'abstract' depth is a convention call; the card says what it is

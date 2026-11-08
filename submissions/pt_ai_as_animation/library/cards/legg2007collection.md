@@ -66,3 +66,10 @@ Each quotation was matched against legg2007collection.txt. Where the text layer 
 - verdict: corrected
 - checked: frontmatter against csl.json (Shane Legg, Marcus Hutter, 2007, title, DOI 10.48550/arxiv.0706.3639, version 1) and the PDF's p. 1 ('Technical Report IDSIA-07-07', 'arXiv:0706.3639v1 [cs.AI] 25 Jun 2007', '15 June 2007'); `type: report` against the record's 'article-journal' is justified by the PDF and flagged under Caution; sha256 of the PDF recomputed, matches; all 8 quotations found verbatim on the stated page; item numbers checked: Warwick is §4 item 17 'quoted in [4]', the authors' own definition is §4 item 8, the Sternberg epigraph is 'quoted in [14]'; the 'most up to date' online-version sentence is on p. 2.
 - changed: page count in object_read, 13 pp. to 12 pp. (pdfinfo gives 12 pages; the last printed page is 12), and the reference-list range in the read note, pp. 9-13 to pp. 9-12. Small point left as is: the source prints the Warwick entry as '. . . the mental ability to sustain successful life.'; the card quotes it without the leading ellipsis, which is a fair fragment.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 8/8 loci found in legg2007collection.txt (and in a fresh pdftotext -layout extraction), each on the stated PDF page (2, 2, 2, 2, 2, 8, 9, 9); frontmatter against csl.json (Legg, Hutter, 2007, title, DOI 10.48550/arxiv.0706.3639) and the PDF's p. 1 stamp 'arXiv:0706.3639v1 [cs.AI] 25 Jun 2007'; the csl abstract itself says '70-odd definitions', which backs the count the card takes from p. 2; PDF sha256 recomputed, matches sha256.txt; 12 pages per pdfinfo; status cited: SKETCH §2 names Legg & Hutter (2007). The c3 bullet names the stretch (the authors argue for one definition, not against defining).
+- Changed: nothing.
+- For the author: nothing.

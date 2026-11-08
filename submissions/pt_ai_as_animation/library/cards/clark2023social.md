@@ -17,7 +17,7 @@ claims: [c9, c10]
 role: anchor
 load: load-bearing
 read_depth: abstract
-object_read: "No text held. Records only: crossref.json (Crossref, with the JATS abstract) and openalex.json (W4221071943), at ~/iit-playground/pt_ai_animation_local/pdfs/clark2023social/; nothing in ~/iit-playground/pt_ai_animation_local/inbox/; read 2026-11-08. No sha256 (no PDF). The open copy (SDU portal d790c03c-4181-429c-bc5b-36fd59f8eae9) returned 403 to S4 (FETCH_LOG.tsv); the work is on BROWSER_LIST.md."
+object_read: "No text held. Records only: crossref.json (Crossref, with the JATS abstract) and openalex.json (W4221071943), at ~/iit-playground/pt_ai_animation_local/pdfs/clark2023social/; nothing in ~/iit-playground/pt_ai_animation_local/inbox/; read 2026-11-08. No PDF; sha256 of the records 1a95465f7b3efca03c423b8600744adf1bdc1ff2f9e2b0f7ace8d2ff9c728558 (crossref.json) and aabd829ef97ede668a747f2f4ccfc1beb9a832ccfe262a09b244c4dbfd4af0af (openalex.json), computed with shasum -a 256 [Corrected by Fable, S7: the card had 'No sha256 (no PDF)']. The open copy (SDU portal d790c03c-4181-429c-bc5b-36fd59f8eae9) returned 403 to S4 (FETCH_LOG.tsv); the work is on BROWSER_LIST.md."
 verified: verified
 verified_against: "crossref.json (authors, title, BBS 46 e21, DOI, dates, JATS abstract) and openalex.json (W4221071943, 2022, green OA, affiliations); abstract quotations checked; FETCH_LOG and BROWSER_LIST rows"
 prior_cards: []
@@ -99,3 +99,10 @@ for orientation and are not loci.
 - checked: the c9 bullet claims only what the abstract says about the "authorities" (that they are "responsible for" the robots), and it leaves the lab-criterion test open. The reply DOI e51 is marked as coming from DECISIONS, with no local record. The OA note matches openalex.json (green via SDU; primary location not OA) and the Crossref licence URL.
 - for Fable: `status: cited`, but SOURCE.md and SKETCH.md do not name Clark & Fischer; README's c9 wording does. The role question (anchor or contrast) is flagged on the card.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 0/0 (abstract card, Loci None); every phrase quoted in 'What it argues' is verbatim in the Crossref JATS abstract; frontmatter vs crossref.json and openalex.json (BBS 46, e21; online 2022-03-28, print 2023; registered_year 2022); record sha256 values computed; ruling B2 met: the card records that the abstract makes the third party 'responsible for' the robots and no more.
+- Changed: object_read had 'No sha256 (no PDF)'; added the sha256 of crossref.json and openalex.json, marked.
+- For the author: (1) role: anchor per DECISIONS, but after Checkpoint B the work is precedent and foil; 'contrast' may fit better. (2) The lab-criterion test (binding determination, own interest, keeping the parties apart) cannot be finished from the abstract; the article is on BROWSER_LIST.md.

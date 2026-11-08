@@ -104,4 +104,10 @@ quotation marks inside a quotation, I give them as single quotes.
 - checked: frontmatter against crossref.json (author, title, Philosophy & Technology 39(1), article number 36, DOI, journal-article, online 2026-02-19, print 2026-03, reference-count 0, licence URLs pointing only to Springer's TDM terms); sha256 recomputed, matches sha256.txt. I traced all 10 quotations with pdftotext page by page: each is verbatim and on the page given. In the text I confirmed "EDITOR LETTER", the exclusive-licence line, the accepted and online dates, "onlife", Replika's unsourced "over 40 million users", the Mattel–OpenAI agreement, the three movements (Way of the Future, Terasem, the Turing Church), and the Anthropic, OpenAI and Google DeepMind practices with "turn best practices into industry standards". The c5 and c12 uses name their stretches: users rather than developers, and puppets as credulity.
 - changed: nothing
 
+
 ## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 10/10 loci found on the stated PDF page; frontmatter vs crossref.json (Floridi; P&T 39(1), article-number 36; online 2026-02-19, print 2026-03; DOI); PDF sha256 recomputed, matches sha256.txt; c5 and c12 uses name their stretches (users vs developers; puppets as credulity).
+- Changed: nothing (I filled the empty "## Hand-check" heading the writer left).
+- For the author: nothing

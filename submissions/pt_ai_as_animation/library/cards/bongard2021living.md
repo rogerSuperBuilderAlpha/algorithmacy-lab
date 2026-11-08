@@ -115,3 +115,10 @@ Bongard and Levin put double quotation marks inside a quotation, I give them as 
 - verdict: corrected
 - checked: frontmatter against crossref.json (authors, title with subtitle, venue, volume 9, article number 650726, DOI, type, online date 2021-03-16; no print date, so no `registered_year`); PDF sha256 against sha256.txt and FETCH_LOG.tsv (match); all 16 quotations searched in the per-page `pdftotext -f N -l N` text, each found verbatim (ligatures, quote marks and dashes folded) on the page the card gives; the summary's page claims spot-checked ("for now" p. 4, Dijkstra epigraph p. 8, "Hypothesis and Theory" p. 1, sections "Improving definitions" p. 7, "An emerging field" p. 8, "Conclusion" p. 11).
 - changed: (1) the PDF has 15 printed pages, not 12: the footer runs 1 to 15 and the references fill pp. 12-15, so object_read and the Loci locator note now say so; (2) the authors' roles "computer scientist" and "biologist" are not in the PDF, so the summary now gives their affiliations from p. 1. Quotations, locators and claim tags unchanged.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 16/16 loci found in per-page pdftotext text (three with inner double quotes given as single, matched quote-agnostically on pp. 1–2); frontmatter vs crossref.json (full title with subtitle, vol. 9, article 650726, 2021-03-16); PDF sha256 recomputed, matches; 15 pp. per pdfinfo; 'HYPOTHESIS AND THEORY' and 'We see life from the organicist perspective' present.
+- Changed: nothing
+- For the author: nothing.

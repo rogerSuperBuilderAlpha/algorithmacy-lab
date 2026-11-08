@@ -20,7 +20,7 @@ object_read: "arXiv v2 (arXiv:2304.15004v2 [cs.AI], 22 May 2023; first page: 'Pr
 verified: verified
 verified_against: "crossref.json; sha256 re-hashed; per-page pdftotext of the arXiv v2 PDF, 8 quotations traced (all verbatim, page and section locators correct)"
 prior_cards: []
-status: cited
+status: candidate
 added: 2026-11-08
 run: pta-lib-2026-11
 ---
@@ -111,3 +111,10 @@ not the NeurIPS pagination 55565–55581. Inner quotation marks are single quote
   read_depth partial lists the parts read. No Sculley copy in inbox/, so the status note holds. The c2
   stretch (two steps, via Wei et al.) is named.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 8/8 loci found in schaeffer2023are.txt, each on the stated PDF page (1, 2, 2, 3, 4, 9, 9, 9); frontmatter against crossref.json (Schaeffer, Miranda, Koyejo; *Advances in Neural Information Processing Systems 36*, pp. 55565–55581; 2023; DOI 10.52202/075280-2425; the only record in the folder); PDF sha256 recomputed, matches sha256.txt; 14 pages; the p. 1 stamp reads 'arXiv:2304.15004v2 [cs.AI] 22 May 2023'. read_depth partial lists what was read, skimmed and not read. The c2 bullet names the two-step stretch via Wei et al.
+- Changed: status cited → candidate [Corrected by Fable, S7]. The card set 'cited' because it carries claim c2; README defines cited as a work SOURCE.md or SKETCH.md uses, and neither names Schaeffer et al. Checkpoint B ruling 5 names the key only as the card Sculley would displace. Role, load and claims unchanged.
+- For the author: the Sculley-vs-Schaeffer slot (ceiling 75) is still open; Sculley is not in inbox/.

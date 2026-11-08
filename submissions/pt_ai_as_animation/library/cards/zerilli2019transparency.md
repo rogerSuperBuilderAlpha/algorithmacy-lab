@@ -58,3 +58,10 @@ None.
 - verdict: corrected
 - checked: frontmatter against crossref.json (four authors in order, title, *Philosophy & Technology* 32(4), 661-683, DOI, journal-article, online 2018-09-05, print 2019-12, no abstract) and openalex.json (same authors, publication_year 2018, biblio 32/4/661-683, green OA at 10.17863/cam.47045, no abstract index); `year: 2019` with `registered_year: 2018` follows the DECISIONS record-correction rule; both sha256 values recomputed, match; the folder holds the two JSON files only and inbox/ is empty; BROWSER_LIST.md row 64 records the .docx; the c7 counter-reading matches FACETS.md F7 (lines 267-269: 'humans are no more transparent'); facets [F7, F12], role contrast and claims c7, c5 match the DECISIONS row; Loci None.
 - changed: in What it argues, the dates are now split by record (OpenAlex gives no print date); in the c7 bullet, 'opaque to others and to itself' cut to 'opaque', because neither FACETS nor the title says 'to itself'.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); both record sha256 values recomputed, match; crossref.json: four authors in order; 32(4), 661–683; online 2018-09-05, print 2019-12, so year 2019 and registered_year 2018; openalex.json: publication_year 2018, green OA at 10.17863/cam.47045, no abstract. The c7 and c5 uses are marked as the library's plan from FACETS, not the article.
+- Changed: nothing
+- For the author: load-bearing but unread; the Cambridge repository copy is a .docx (BROWSER_LIST); status `cited` though SKETCH does not name it (see part4 header)

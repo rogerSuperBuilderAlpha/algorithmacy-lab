@@ -110,3 +110,10 @@ quotes. Every quotation was matched against sun2026between.pdf (sha256 above), p
 - verdict: verified. Frontmatter matches Crossref; all eight quotations are verbatim in the pre-print and fall within the stated '-- end of page N --' marker pages; the PDF-page locators are right; the summary and the c10/c12 readings hold.
 - checked: crossref.json (Sun, Yuqian; Gualeni, Stefano; title; container 'Springer Series on Cultural Computing' and 'Artificial Media'; pp. 49–63; published-print 2026, online 2025-07-30, so year 2026 and registered_year 2025 are right; book-chapter; DOI; no editors in the record); sha256 recomputed, matches; 17-page pre-print whose first page names the 2025 chapter, pp. 49-63; marker positions computed in the full pdftotext output for each quotation's start and end (pp. 53, 54, 54, 56, 56, 56, 60, 61), PDF pages confirmed; 'does not suitably capture' (p. 56, referring to the puppet analogy), 'We refrain from proposing new terminology', Stark via Weinberg (2023) Daily Nous, Coeckelbergh's 'quasi-others', Lily, GPT Store, Generative Agents, ChatDev, Showrunner, ORIBA, and the line that this chapter was written with an LLM's aid all found in the text.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 8/8 loci found in the pre-print text layer (one differs only by the card's single-for-double inner quotation marks, as the Loci preamble says); PDF sha256 recomputed, matches; frontmatter vs crossref.json (Sun, Gualeni; pp. 49–63; online 2025-07-30, print 2026; no editors); ruling B1 is met: the c12 bullet says what separates the chapter (authorship, interface side, not a claim about what AI is).
+- Changed: nothing
+- For the author: pre-print pagination is provisional until the Springer chapter is checked; the APA string lacks the volume editors (record has none)

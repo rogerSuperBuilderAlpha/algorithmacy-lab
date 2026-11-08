@@ -71,3 +71,10 @@ None.
 - verdict: verified
 - checked: sha256 of openlibrary.json matches; title, subtitle, by-statement "Kendall L. Walton.", Harvard University Press, Cambridge, Mass., 1990, xiv + 450 p., references p. [431]-440, ISBN 0674576195 and subjects (edition and work) match the record; author given only as key OL1010637A, as Caution says; "drops belief" is the triage file's phrase (F5-F9 line 344) and "props" its row text, and the card marks both as unchecked; BROWSER_LIST row 7 and ruling 4's order (Walton fourth) are as stated; no inbox copy; status candidate is right (SKETCH does not name Walton). The conditional sketch of a make-believe account in the c8 bullet goes beyond the record, but the card marks it as unchecked and the paper may not use it until the book is read.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); openlibrary.json sha256 recomputed (77bc5444..., matches); edition OL2216209M: title and subtitle, by-statement 'Kendall L. Walton.', Harvard University Press, Cambridge, Mass., 1990, xiv, 450 p., references p. [431]–440, ISBN 0674576195, subjects, author key OL1010637A only, as the card says; the c8 reading is marked as the triage's words, unchecked.
+- Changed: nothing
+- For the author: the book is unopened (ruling 4 puts it fourth); the make-believe objection to c8 is a plan until it is read

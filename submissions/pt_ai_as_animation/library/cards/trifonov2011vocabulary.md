@@ -61,3 +61,10 @@ None.
 - verdict: verified
 - checked: frontmatter against crossref.json (Trifonov, Edward N.; title; Journal of Biomolecular Structure and Dynamics 29(2), 259-266; DOI; journal-article; print 2011-10; reference-count 21); sha256 of crossref.json recomputed (match); no copy in pdfs/ or inbox/; BROWSER_LIST.md and FETCH_LOG.tsv (records-only) agree; SKETCH.md marks the "123 definitions" line "(all unverified)", as the card says; triage row 1 does quote an OpenAlex abstract with the count.
 - changed: nothing. Note for S8 or the author: the live OpenAlex record W2115613299 carries an abstract (checked 2026-11-08, not saved, content not used here). Saving that record to the folder would let the card move to read_depth abstract.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); crossref.json sha256 recomputed (4d0c5c35..., matches); record: Trifonov, Edward N.; 29(2), 259–266; issued 2011-10; no abstract; status cited is right (SKETCH l. 55 names Trifonov for the 123 definitions, marked unverified).
+- Changed: nothing
+- For the author: the '123 definitions' count is still unverified; the verifier notes a live OpenAlex abstract (W2115613299) that S4 could save to lift the card to abstract depth; the article itself is on BROWSER_LIST

@@ -76,3 +76,10 @@ None.
 - verdict: corrected. Frontmatter and hashes match the records; the summary credited all four experiments with the belief effect, which the abstract gives only for Experiments 1, 3 and 4, and one SKETCH quotation was not verbatim. Both fixed.
 - checked: crossref.json (Green, Melanie C.; Brock, Timothy C.; title with final full stop; JPSP 79(5), 701–721; online Nov 2000; journal-article; DOI; no abstract); openalex.json (same biblio, publication_date 2000-01-01, closed, no repository full text, abstract read in full from the inverted index); both sha256 match the card; BROWSER_LIST.md row; the Murray-out swap in DECISIONS.md and F5-F9 triage.
 - changed: In What it argues, 'In four experiments (N = 97, 69, 274 and 258), the more readers were transported, the more they held beliefs...' became 'In Experiments 1, 3 and 4 (N = 97, 274 and 258)...' and the false-notes finding is now attributed to Experiment 2 (N = 69), as the abstract states. In the c8 bullet, "co-opted into the suspended reality" became "coopted into the suspended reality", as SKETCH.md and SOURCE.md spell it.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (abstract card); frontmatter vs crossref.json and openalex.json (Green, Melanie C.; Brock, Timothy C.; JPSP 79(5) 701–721; 2000-11; DOI); the experiment numbers and Ns match the OpenAlex abstract; both sha256s recomputed, match; "coopted" spelling is SOURCE's and SKETCH's.
+- Changed: nothing.
+- For the author: status is `cited` although SOURCE.md and SKETCH.md do not name Green & Brock.

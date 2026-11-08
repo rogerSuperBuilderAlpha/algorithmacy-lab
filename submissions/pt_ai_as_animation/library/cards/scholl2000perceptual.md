@@ -20,7 +20,7 @@ object_read: "Publisher-typeset PDF (11 pp., pp. 299–309; each page carries th
 verified: corrected
 verified_against: "crossref.json; sha256 of the held PDF; full text layer, 9 quotations traced page by page; SKETCH.md and SOURCE.md for the quoted sketch wording"
 prior_cards: []
-status: cited
+status: candidate
 added: 2026-11-08
 run: pta-lib-2026-11
 ---
@@ -114,3 +114,10 @@ are left out of the quotation. Every quotation was matched against scholl2000per
 - verdict: corrected. Frontmatter, sha256 and all nine Loci quotations check out; one quotation of the SKETCH in the c8 bullet was not verbatim and is fixed.
 - checked: crossref.json (authors, title, TICS 4(8), 299–309, Aug 2000, journal-article, DOI); sha256 of scholl2000perceptual.pdf recomputed, matches; 11-page PDF, offset printed = PDF + 298 confirmed; each Loci quotation found on its stated PDF page; ref. 53 = Berry et al. (1992) for the quantized-film result; 'largely consistent' and White's dissent (ref. 6 = White 1995) on p. 307; 'not well described' and 'much criticism' on p. 300; chimpanzees, cultures, equal and alphabetical authorship, Schlottmann and Shanks found; the SKETCH phrases quoted in c7 and c8 checked against SKETCH.md.
 - changed: In the c8 bullet, the SKETCH quotation "co-opted into the suspended reality" became "coopted into the suspended reality", as SKETCH.md line 98 and SOURCE.md spell it.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index after fix** (fixed here).
+- Checked: 9/9 loci found. The held text layer interleaves the two columns, as the card says (a line-by-line grep finds 2 of 9), so I re-extracted the held PDF with pdftotext in reading order: all 9 are verbatim and each sits on the stated PDF page (1, 1, 5, 5, 8, 8, 8, 8, 9), which the running head confirms as printed pp. 299, 303, 306, 307. Frontmatter against crossref.json (Scholl, Tremoulet; *Trends in Cognitive Sciences* 4(8), 299–309; 2000-08; Elsevier; DOI); PDF sha256 recomputed, matches sha256.txt; 11 pages with the 'TICS Aug 2000' proof stamp. The c7 and c8 bullets name their stretches (nothing about frames, film or intelligence; an unwilling percept, not an accumulating dependency).
+- Changed: status cited → candidate [Corrected by Fable, S7]. README defines cited as a work SOURCE.md or SKETCH.md uses; neither names Scholl & Tremoulet (SKETCH's F6 names are Wertheimer and Anderson & Anderson), CITED_WORKS.md does not list them, and no Checkpoint ruling names the key. Role anchor, load and claims unchanged.
+- For the author: restore 'cited' if §4.2 or §4.3 will cite them; the card is sound and the quantized-film result (their ref. 53, Berry et al. 1992) is the one to chase if §4.2 wants primary evidence.

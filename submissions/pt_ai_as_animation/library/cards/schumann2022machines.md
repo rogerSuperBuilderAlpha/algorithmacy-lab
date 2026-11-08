@@ -120,3 +120,10 @@ Apostrophes are curly, as in the source; the en dash in "human–machine" is the
 - verdict: verified (no changes). Frontmatter matches Crossref; all 14 quotations verbatim on the stated pages (the second abstract quotation runs onto p. 2 but begins on p. 1); section locators match the headings (§2 p. 3, §3 p. 4, §7 from p. 12, §8 Outlook p. 14); the contrast reading for c9 is the card's own and is marked as such.
 - checked: frontmatter against crossref.json; sha256; each quotation by per-page pdftotext; section headings; received/accepted/online dates; Davidson, Tomasello, Ihde, Malafouris, Aydin et al., Gibson and Norman attributions; "Agile" and "prosumer" passages.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 14/14 loci found by per-page pdftotext of the held PDF (sha256 recomputed, matches); frontmatter vs crossref.json (Schumann, Du; 35(2), article 32, online 2022-04-06); claim uses. Ruling B2 is met: the card states what the third party is (a co-developing team sharing the user's goal; no binding determination, own interest or separation) and that the lab-criterion contrast is the paper's, not theirs.
+- Changed: nothing
+- For the author: whether this card is the main foil for §4.4 (the card's own Caution asks); if so a fuller read of agile-versus-studio production is still wanted

@@ -57,3 +57,10 @@ None.
 - verdict: corrected
 - checked: frontmatter against crossref.json (author 'M Bedau', title, *Trends in Cognitive Sciences* 7(11), 505-512, DOI, journal-article, print 2003-11, Elsevier BV, reference-count 0, no abstract); sha256 of crossref.json recomputed, matches; the folder holds crossref.json only and inbox/ is empty; BROWSER_LIST.md row 37 lists the work ('closed route, not attempted'); the planned uses match FACETS.md F1 (lines 44-45, 65: 'ALife as a making discipline (c3, c12)') and the DECISIONS row (support, c3, c12); What it argues states only record facts; Loci None.
 - changed: `authors` and `apa` from 'Bedau, M. A.' to 'Bedau, M.', because the middle initial was seen only in triage files, not in the record (README Rules, 1); the Author initial Caution updated to match.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json ('M Bedau', TICS 7(11), 505–512, Nov 2003, Elsevier, no abstract); sha256 recomputed, matches; inbox empty.
+- Changed: nothing
+- For the author: restore the middle initial 'M. A.' only when a byline shows it; status 'cited' though SOURCE.md and SKETCH.md do not name Bedau (status note in part1.md).

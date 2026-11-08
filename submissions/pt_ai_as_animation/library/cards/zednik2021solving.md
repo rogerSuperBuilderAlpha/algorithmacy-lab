@@ -112,3 +112,10 @@ footnote 5 uses straight apostrophes, as given.
 - verdict: verified (no changes). Frontmatter matches Crossref; registered_year 2019 is right; all 15 quotations verbatim on the stated preprint pages; object_read matches pdfinfo (29 pp., LibreOffice 6.0, created 4 July 2019); the c7 counterweight reading is supported by footnote 5 (pp. 4-5) and the conclusion (pp. 24-25).
 - checked: frontmatter against crossref.json; sha256; each quotation by per-page pdftotext; pdfinfo metadata; Magdeburg affiliation; Tomsett et al. stakeholders, Marr questions (what, why, how, where) and loan example; footnote 5 on essential epistemic opacity; the conclusion's "increasingly possible" passage.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 15/15 loci found by per-page pdftotext of the arXiv preprint (sha256 recomputed, matches; pdfinfo: 29 pp., LibreOffice 6.0, created 4 July 2019, as object_read says); frontmatter vs crossref.json (34(2), 265–288; online 2019-12-20, print 2021-06, so registered_year 2019); read_depth partial matches the parts listed; the c7 counterweight reading (opacity agent-relative, Humphreys's impossibility practical) is supported by the quoted footnote and conclusion.
+- Changed: nothing
+- For the author: all locators are preprint pages; the Springer text (pp. 265–288) has not been checked

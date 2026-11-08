@@ -76,3 +76,10 @@ None
 - verdict: verified
 - checked: frontmatter against crossref.json (Crafton, Donald, as author and again as editor; type edited-book; title "Shadow of a Mouse" with subtitle "Performance, Belief, and World-Making in Animation"; University of California Press; print and issued 2012-12-31, online 2023-09-19; electronic ISBN 9780520352520; DOI; 34 citing works; De Gruyter Brill landing page; no abstract); crossref.json sha256 recomputed, matches; the folder holds crossref.json only and inbox/ is empty; FETCH_LOG.tsv row reads "Crossref 200; records only"; BROWSER_LIST.md row present; FACETS.md gives 2013 and DECISIONS rules 2012, as Caution says; triage F1-F4.md carries the OpenAlex abstract the card rightly leaves out. What it argues states only record facts; Loci None; the c6, c8, c10 uses say they are unread.
 - changed: nothing in the card's content. I removed the empty "## Hand-check" placeholder heading.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (metadata card, Loci None); frontmatter vs crossref.json (Crafton as author and editor, edited-book, UC Press, print 2012-12-31, ISBN 9780520352520, DOI); crossref.json sha256 recomputed, matches; inbox/ empty; the three claim uses say they are unread.
+- Changed: nothing.
+- For the author: status is `cited`, but SOURCE.md and SKETCH.md do not name Crafton (README: cited = SOURCE or SKETCH uses it); the role `anchor` is the paper's intention at metadata depth. Decide once the book is opened.

@@ -108,3 +108,10 @@ Stepney's quotation; I have not seen Langton's text.
 - verdict: verified
 - checked: PDF sha256 recomputed (match); provenance.txt; frontmatter against the PDF title page and footer, and against the live Crossref API record for the DOI, read 2026-11-08 and not saved to the folder (journal-article; Dorin, Alan; Stepney, Susan; title, Artificial Life, 30(1), 1-15; print 2024-02-01), which agrees on every field; all 13 quotations searched in the per-page `pdftotext -f N -l N` text, each found verbatim on the page the card gives; section numbers checked against the headings (§2.2 p. 5, §2.4 p. 7, §2.5 p. 8, §4 p. 9); paraphrases checked ("sustained a diverse range of opinions" p. 1, "relevant and engaging" p. 3, "reactive policy path" p. 10, "Editorial" running head).
 - changed: nothing. S8 may still want the Crossref record saved to the folder.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 13/13 loci found verbatim on the stated PDF page (pdftotext -f N -l N; the folder's .txt is a column dump, as the card says); frontmatter vs the PDF title page and footer (no record in the folder; the card says so); PDF sha256 recomputed, matches; provenance.txt names the Berthon copy (ruling B3); c3 and c12 uses name their stretches.
+- Changed: nothing.
+- For the author: (1) status `cited` although SOURCE.md and SKETCH.md do not name Dorin & Stepney. (2) No Crossref record is saved in the key folder; S8's DOI check should add one.

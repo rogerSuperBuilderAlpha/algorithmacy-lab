@@ -63,3 +63,10 @@ None.
 - verdict: verified
 - checked: frontmatter against crossref.json and openalex.json (Zerilli, John; title; Philosophy of Science 89(1), 1-19; DOI; journal-article; print 2022-01, online 2022-01-31; OpenAlex 2022); both sha256 values recomputed (match); the summary and the c7 use against the abstract, which is identical in both records (the card stays within it; "broadly the right approach to the problem" is verbatim); BROWSER_LIST.md and FETCH_LOG.tsv ("no candidates"); the homonym `zerilli2019transparency` against triage F5-F9.md row 4.
 - changed: nothing.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (abstract card); the summary stays within the Crossref/OpenAlex abstract, which is identical in both records, and 'broadly the right approach to the problem' is verbatim; both sha256 values recomputed, match; crossref.json: Zerilli, John; 89(1), 1–19; issued 2022-01, online 2022-01-31.
+- Changed: nothing
+- For the author: abstract only; status `cited` though SKETCH does not name it (see part4 header)

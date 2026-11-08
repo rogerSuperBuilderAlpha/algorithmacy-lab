@@ -78,3 +78,10 @@ None
 - verdict: corrected (one overreach in What it argues; one omission in Caution)
 - checked: Crossref and OpenAlex records: authors, title, Synthese 195(9), 3919–3946, DOI, journal-article, online 2017-04-18, print 2018-09, no abstract on either; registered_year 2017 matches DECISIONS; both sha256 values match; BROWSER_LIST and FETCH_LOG rows; triage F1-F4 row 5 note on Bich and F2; key note.
 - changed: What it argues said the title "poses Machery's question"; the records do not link the two, so the sentence now says the triage files make the pairing. Caution gains a bullet: OpenAlex lists philsci-archive accepted-version PDFs (12895, 12988) and a PhilPapers PDF that FETCH_LOG shows were never tried. Nothing fetched.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 (metadata card, Loci None); frontmatter vs crossref.json and openalex.json (Synthese 195(9), 3919–3946; online 2017-04-18, print 2018-09; no abstract on either); both sha256 recomputed, match; registered_year 2017 per DECISIONS.
+- Changed: nothing
+- For the author: OpenAlex lists philsci-archive accepted-version PDFs (12895, 12988) that S4 never tried; try them before promoting knuuttila2017what.

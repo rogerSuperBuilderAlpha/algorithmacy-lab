@@ -56,3 +56,10 @@ None.
 - verdict: verified (no changes)
 - checked: frontmatter against crossref.json (Anne Sophie Meincke; title; *European Journal for Philosophy of Science* 9(1); article-number 5, no page field; DOI; journal-article; online 2018-10-26, print 2019-01; Springer; 47 references; no abstract), so `year: 2019` with `registered_year: 2018` follows the DECISIONS record-correction rule; sha256 of crossref.json recomputed, matches; the folder holds crossref.json only and inbox/ is empty; BROWSER_LIST.md row 55 records the eprints 401; the quoted FACETS phrase 'process, not organization, is the better frame' is verbatim from FACETS.md F2 (line 87), and 'EJPS 8' is FACETS line 107; role contrast and c4 match the DECISIONS row; Loci None.
 - changed: nothing. Note for Fable: the c4 bullet's sketch of what a process view would say goes beyond FACETS and the title, but it is hedged ('If that reading holds') and marked as the library's plan.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card; folder holds crossref.json only); frontmatter against the record (Anne Sophie Meincke; *European Journal for Philosophy of Science* 9(1); article-number 5; online 2018-10-26, print 2019-01; 47 references; no abstract; DOI); registered_year 2018 follows the DECISIONS rule; sha256 recomputed, matches; inbox/ empty. Status cited: Checkpoint A ruling 1 adds Meincke to F2 by name, and SKETCH does not name her; I read the ruling as covering it.
+- Changed: nothing.
+- For the author: the c4 bullet's sketch of what a process view would object to goes beyond the title and the FACETS phrase; it is hedged and marked as the library's plan, but it should not reach the draft until the article is read.

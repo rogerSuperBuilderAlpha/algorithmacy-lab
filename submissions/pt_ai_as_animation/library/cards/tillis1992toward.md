@@ -81,3 +81,10 @@ None
 - verdict: corrected (one Caution bullet added)
 - checked: frontmatter (Tillis, Steve; 1992; title; Greenwood Press, New York; book) against OL1561974M; series no. 47, xii + 181 pp., bibliography pp. [171]-176, ISBN, LCCN, subjects, single edition; subtitle in the edition record vs the triage file; triage F5-F9 row 2 and FACETS l. 201/216 for the visible-double reading and the 1994 review anchor; sha256 of all four records
 - changed: added a Caution bullet: the edition record says "New York" but its MARC country code is ctu (Connecticut), so S8 should take the place from the title page or omit it
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card). No key folder exists, so I refetched the four Open Library records on 2026-11-08 into my scratchpad: work OL1857491W (sha256 c79d363a..., matches), edition OL1561974M (28c6ef8d..., matches), author OL222385A (2f289dab..., matches); the editions list hashes a47299d1... today, not f8f76baa... (Open Library lists carry volatile fields), but its content is as the card says (one edition). Edition facts (Greenwood Press, New York, 1992, series no. 47, xii+181 p., bibliography pp. [171]–176, ISBN 0313283591, LCCN 91043366, subjects, by-statement 'Steve Tillis.', country code ctu, IA scan id, subtitle 'puppetry as a theatrical art') all match; claim uses are marked as the triage's reading.
+- Changed: nothing
+- For the author: no folder pdfs/tillis1992toward/ exists; S4 should save the records. The edition record's subtitle 'puppetry as a theatrical art' matches the triage guess; decide whether a catalogue subtitle may enter the APA string before the title page is seen

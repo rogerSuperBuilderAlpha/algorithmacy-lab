@@ -95,3 +95,10 @@ markup; I matched them against the text inside the `<jats:p>` element.)
 - verdict: corrected
 - checked: frontmatter against crossref.json and openalex.json (Creel, Kathleen A.; 2020; title; Philosophy of Science 87(4) 568-589; DOI; journal-article); sha256s recomputed and match; the phrases quoted in the body ("often ineliminably opaque", "when full transparency is impossible", "particular hardware and data", "complex computational systems") are in the abstract of both records; the Crossref online date 2022-01-01 against the October 2020 issue and OpenAlex's 2020-04-30 confirmed; OpenAlex PhilSci-Archive acceptedVersion and PhilPapers submittedVersion locations confirmed; Roger's "in principle black box" is in SOURCE.md; the c7 extrapolation is marked as the writer's own.
 - changed: object_read credited both 403s to FETCH_LOG.tsv, but FETCH_LOG.tsv records only the PhilPapers route ("200 non-pdf (892496 bytes); HTTP Error 403: Forbidden"); the Cambridge Core 403 is recorded in BROWSER_LIST.md. The provenance now says so.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 0/0 loci (abstract card); the four phrases quoted from the abstract are verbatim in both crossref.json and openalex.json; frontmatter vs both records (Creel, Kathleen A.; Phil. Sci. 87(4) 568–589; DOI; 2020); both sha256s recomputed, match; Roger's "in principle black box" is SOURCE.md line 23; the c7 extrapolation is marked as the writer's.
+- Changed: nothing.
+- For the author: status is `cited` although SOURCE.md and SKETCH.md do not name Creel. The PhilSci-Archive accepted version OpenAlex lists would raise the card to full_text if you fetch it.

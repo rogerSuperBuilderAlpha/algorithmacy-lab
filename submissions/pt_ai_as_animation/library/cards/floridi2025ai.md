@@ -116,3 +116,10 @@ the PDF page numbers. Inner double quotation marks are changed to single quotes.
 - verdict: corrected (one locator in What it argues)
 - checked: Crossref frontmatter (author, title, venue, 38(1), article number 30, DOI, journal-article; online 2025-02-27, print 2025-03, so no registered_year); PDF sha256 db471bc5... recomputed, matches sha256.txt and FETCH_LOG row 69; all 12 Loci quotations found verbatim on the stated PDF page (printed "Page N of 27" equals PDF page; p. 1 carries no footer); section locators §1, §2, §4, §§5–10, §11–§14, §12.2, §12.3 checked against the headings in the text layer; accepted/published dates on p. 1; footnote typos on p. 3; claim tags c4, c5 and the stretches named.
 - changed: What it argues: the card placed Artificial Agency "between the artefactual and the biological" in §12; the text says this at the close of §11 ("blending aspects of artefactual and biological agency", p. 18). Rewrote that sentence with the quotation and its page. Nothing else changed.
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 14/14 loci found on the stated PDF page; frontmatter vs crossref.json (Floridi; P&T 38(1), article-number 30; online 2025-02-27, print 2025-03; DOI); PDF sha256 recomputed, matches sha256.txt; c4 and c5 uses name their stretches.
+- Changed: nothing.
+- For the author: status is `candidate`, but Checkpoint A ruling 1 names this paper (with the 2023 one) as what §2 must engage; you may set `cited`.

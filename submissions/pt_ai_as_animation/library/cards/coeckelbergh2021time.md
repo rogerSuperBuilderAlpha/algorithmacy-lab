@@ -119,3 +119,10 @@ give them as single quotes.
 - verdict: verified. Frontmatter matches crossref.json: author, title, *Philosophy & Technology* 34(4), pages 1623–1638, DOI, journal-article. Crossref issues the work in 2021 (online 23 Oct 2021, print Dec 2021), so no `registered_year` is needed. The sha256 matches sha256.txt. All 14 quotations are verbatim in the text layer. Each one sits on the PDF page the card gives, and each section label matches the headings (§3.1–3.3 on PDF pp. 5–11, §4 from PDF p. 11, §5 from PDF p. 14; the "lived technology" sentence comes before the §5 heading).
 - checked: the first-page header "34:1623–1628" against the Crossref range 1623–1638 (the card's reading is right); "corrected publication 2022"; the received, accepted and online dates; University of Vienna; the single *élan vital* mention; "GTP-3" on PDF p. 6 (= p. 1628); "becomes a character in the / story" (a line break in the source). The card names the stretches on c4 and c6 and leaves the c2 suggestion to Fable without retagging. That is consistent with what the text says.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: 14/14 loci found in the per-page text layer (five with inner double quotes given as single, matched quote-agnostically), each on the stated PDF page (printed = PDF + 1622); frontmatter vs crossref.json (34(4), 1623–1638; online 2021-10-23, print 2021-12); PDF sha256 recomputed, matches; 16 pp. per pdfinfo; 'corrected publication 2022' and 'GTP-3' present.
+- Changed: nothing
+- For the author: the card says the closest fit is c2 (and c7), not the c4/c6 tags DECISIONS assigned; decide whether to retag.

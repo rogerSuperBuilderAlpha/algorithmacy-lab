@@ -82,3 +82,10 @@ None.
   (2009), as the c7 bullet says. The card states no argument beyond the records and marks its one
   inference as an inference. Loci = None is correct.
 - changed: nothing
+
+## Hand-check
+
+- 2026-11-08, Fable (S7). Verdict: **index**.
+- Checked: Loci = None (metadata card); both record sha256 values recomputed, match; crossref.json: von Eschenbach, Warren J.; 34(4), 1607–1622; online 2021-09-01, print 2021-12; 36 references, and Burrell, Humphreys, Zednik, Zerilli, Baier, Hardin, Jones, Pettit, Simpson and O'Neill are all in the list; openalex.json: no abstract, oa_status closed. The card states no argument beyond the records.
+- Changed: nothing
+- For the author: closed article; open the DOI in a browser and drop a PDF in inbox/ if c7 is to cite it; status `cited` though SKETCH does not name it (see part4 header)
