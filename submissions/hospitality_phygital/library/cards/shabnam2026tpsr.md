@@ -59,3 +59,5 @@ Section 7 (v4 numbering): "Those gains are real, and the field is far from uncri
 Fable-checked rr-2026-11 (2026-11-08): no change. Three quotes re-checked against the OpenAlex abstract fetched today (pp. 1-17, no volume or issue yet).
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: opacity/rigidity use SUPPORTED; found the contestability-with-escalation recommendation (PDF p. 14) that overlaps v4's reachable-person principle, and a critique of "seamless channel integration" (PDF p. 2) that narrows the seamlessness claim; abstract-only-debt removed.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; 'must remain contestable' (PDF p. 14), 'reducing friction and restoring agency' (PDF p. 10) and the 'seamless channel integration' critique (PDF p. 2) confirmed against the full text in sources/; verdicts stand; no change.

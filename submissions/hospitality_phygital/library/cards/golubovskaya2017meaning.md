@@ -65,3 +65,5 @@ Section 2, *Distinctness*, or section 8 (new numbering, rr-2026-11): one clause 
 Fable-checked rr-2026-11 (2026-11-08): three quotes re-checked against the Crossref structured abstract; source_basis widened; no other change.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: displacement clause SUPPORTED (6 of 22 could define hospitality, p. 1296); its "essence" is attitude not obligation (pp. 1283, 1287), so not usable for Distinctness content; abstract-only-debt removed; hold_rationale updated.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; eleven quotes and the displacement/obligation verdicts confirmed against the full text in sources/ (6 of 22, p. 1296; 'overrides', pp. 1299–1300); no change.

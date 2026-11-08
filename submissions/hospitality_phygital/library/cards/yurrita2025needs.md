@@ -12,7 +12,7 @@ used_by_sections: [6]
 claims: [affordances-derived, institutional-not-trainable]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/yurrita2025needs/user_pdf/fulltext.pdf: ACM version of record (CC BY 4.0), PACM HCI 9(7), Article CSCW234, November 2025, 29 PDF pages. Identity confirmed against title, authors and DOI. Earlier basis: ACM Digital Library abstract and Crossref record; TU Delft contestable.ai listing."
 generated_run: 2026-08-11-p9
 flags: []
@@ -59,3 +59,5 @@ distributed responsibility. AI literacy shaped information needs but not views o
 v4 §7 (line 67), closing the two-sets paragraph. The card's "Not yet in the manuscript" was stale.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: corrected the "precondition" fact to the narrower social-transparency finding (p. CSCW234:18), recorded that the system was never deployed, judged line 67 PARTLY, and found p. CSCW234:16 usable for the reachable-person principle.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; 'pre-requisite' (p. CSCW234:18), 'unable to change the output' (p. 16) and 'not deployed to date' (p. 6) confirmed against the full text in sources/; references.bib now reads 9(7), article CSCW234 (the card's note on v4's reference stands for v4 as submitted); verified_date moved to today; no other change.

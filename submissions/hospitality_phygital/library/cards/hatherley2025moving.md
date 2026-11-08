@@ -54,3 +54,5 @@ Support verdicts (v4):
 v4 §5 (predictability), §6 (the lent skill as a moving target), §7 (third interface principle). Suggested wording fixes are in the report; drop "forecast the guest" from the citation's scope, and do not cite Hatherley as recommending visibility.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: update opacity defined (p. 7); mental-model depreciation supports the moving target (p. 5); all three v4 uses PARTLY, because Hatherley judges announcing updates insufficient (p. 11) and says nothing about forecasting users.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; p. 11 'may not reduce the epistemic or safety risks' and p. 12 'poorly equipped' confirmed against the full text in sources/; all three PARTLY verdicts stand; references.bib now carries issue 2 (27(2), art. 20); no card change.

@@ -35,6 +35,7 @@ actors. Role responsibility narrows the responsibility gap without closing it.
 - Working definition: "An actor (A) is responsible for an action (X) if and only if X belongs to the duties (D) that A has to fulfill due to an assumed role (R)." (p. 3) [full-text]
 - Source of the concept: "This article discusses the role responsibility described by Vincent [11], whereby she refers to Hart [12]." (p. 2) [full-text]
 - The robot's role is not the carer's role: "A care robot in a nursing home does not have the same role obligations as a nurse working in the same facility." (p. 4); "it seems appropriate not to confuse the role of Pepper in a care facility with that of a human nurse" (p. 6) [full-text]
+- The robot's role is scoped to what it can do: hoping the machine can "replace a human caregiver, does not currently correspond to R and the Ds just described are just as unachievable." (p. 6) [full-text]
 - Role without accountability: "care robots can be attributed responsibility based on their role (thin blame) without holding them accountable (thick blame)." (p. 7) [full-text]
 - "no moral responsibility (thick blame) can be assumed – which equates to accountability." (p. 8) [full-text]
 - On answerability specifically: "Accordingly, the answerability of care robots is currently inconceivable." (p. 9) [full-text]
@@ -54,14 +55,16 @@ The abstract phrase "without displacing human accountability" appears only in th
 
 Support verdicts (v4 at `scratchpad/hs_rr/submitted.md`):
 
-- v4 §2 (line 11): "Some in machine ethics hold that a machine can carry the duties of a role it occupies (Kropf et al. 2026)." **SUPPORTED.** Definition p. 3; robots "fail to fulfill a D associated with R" (p. 11).
-- v4 (line 30): "Kropf et al. (2026) argue that a robot can hold the role responsibility of a carer without being a moral agent". **PARTLY.** The robot holds role responsibility "in caregiving contexts" (abstract), but its role is explicitly *not* a carer's: "does not have the same role obligations as a nurse" (p. 4), "not to confuse the role of Pepper ... with that of a human nurse" (p. 6). "Of a care robot" or "within care" would be accurate; "of a carer" is not.
+- v4 §2 (line 11): "Some in machine ethics hold that a machine can carry the duties of a role it occupies (Kropf et al. 2026)." **SUPPORTED.** Definition p. 3; "the machine fails to fulfill a D associated with R" (p. 11).
+- v4 (line 30): "Kropf et al. (2026) argue that a robot can hold the role responsibility of a carer without being a moral agent". **PARTLY.** The robot holds role responsibility "in caregiving contexts" (abstract), but its role is explicitly *not* a carer's: "does not have the same role obligations as a nurse" (p. 4), "not to confuse the role of Pepper ... with that of a human nurse" (p. 6), and expecting it to "replace a human caregiver, does not currently correspond to R" (p. 6). "Of a care robot" or "within care" would be accurate; "of a carer" is not.
 - v4 (line 30): "and even they hold that recognizing this narrows the responsibility gap without displacing human accountability." **SUPPORTED.** p. 9 (gap "at least theoretically narrowing"), p. 10, p. 12.
 - v4 (line 30): "That is our position at the threshold." **SUPPORTED as a reading**, with the caveat above: Kropf et al. let the role move and keep accountability human; the plan's wording that ownership moves *only* with the role is a different claim.
 - Revision plan §2 *Transfer*, "Kropf et al.'s challenge from care" (REVISION_PLAN.md line 17) and WS_A ("Kropf et al. (2026) stand on the other side"). **NOT SUPPORTED as a challenge to the conclusion.** On accountability they stand on the paper's side (pp. 9, 10, 12). They challenge only the premise that a role cannot pass to a machine.
 - WS_A open question ("may make them less of an opponent than §2 assumes; read the full text first"): **settled yes.**
 
 The account of role responsibility is Vincent's, after Hart (p. 2). The earlier card's open question "Hart's or another" is answered.
+
+**Cross-card (Kong 2026).** Kong says the machine "is not a responsibility-bearer in any sense" (Kong p. 10). Kropf et al. grant it role responsibility and thin blame (pp. 3–7). Both keep accountability human, but they differ on whether the machine holds anything at all. If §2 cites both, it should not merge the two positions.
 
 ## Where it enters the manuscript
 
@@ -72,3 +75,5 @@ Upgraded in rr-2026-11: card created from the bib entry (no prior card); abstrac
 Fable-checked rr-2026-11 (2026-11-08): added the support verdict for the sentence v4 already prints (YES at abstract level); five quotes re-checked against Crossref; must-engage stands.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: Kropf et al. support human accountability staying put (answerability of robots "inconceivable", p. 9); "role responsibility of a carer" downgraded to PARTLY; "challenge from care" framing not supported; abstract-only-debt removed.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 notes accepted; p. 11 quote restored to the source's words ("the machine fails to fulfill a D associated with R"); p. 6 "replace a human caregiver" added for the PARTLY; cross-card note on Kong (machine "not a responsibility-bearer in any sense") added; full text read in sources/.

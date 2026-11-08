@@ -1,7 +1,7 @@
 ---
 citekey: didomenico2007host
 title: "Host/Guest Encounters in the Commercial Home"
-authors: "Di Domenico, MariaLaura and Lynch, Paul A."
+authors: "Di Domenico, Marialaura and Lynch, Paul A."
 year: 2007
 doi: 10.1080/02614360600898110
 venue: "Leisure Studies"
@@ -69,3 +69,5 @@ Section 3 (new numbering, rr-2026-11), if admitted: the copresent host as the ba
 Fable-checked rr-2026-11 (2026-11-08): all five quotes match the OpenAlex abstract re-fetched 2026-11-08 (Crossref carries none); Crossref spells the first author 'Marialaura'; no change.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: findings show host-set rules and guest deference (pp. 332–335), so the "negotiated" use is PARTLY; swap-candidate added; abstract-only-debt removed; hold_rationale updated.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 note accepted; frontmatter author spelling "MariaLaura"→"Marialaura" (cover page and byline, PDF pp. 1, 321; Crossref and the bib agree); verdicts and quotes confirmed against the full text in sources/; no other change.

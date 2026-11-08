@@ -12,7 +12,7 @@ used_by_sections: [5]
 claims: [algorithmacy-observed]
 read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/ytrearnemoe2021folk/user_pdf/fulltext.pdf: Sage version of record, Media, Culture & Society 43(5), pp. 807-824 (online 2020), 18 PDF pages. Identity confirmed against title, authors and DOI. Earlier basis: Crossref-verified against the publisher record; abstract read. The read-depth debt logged 2026-08-08 is paid."
 generated_run: 2026-08-08-library-build
 flags: [swap-candidate]
@@ -54,3 +54,5 @@ resignation" for the dominant affect: people find algorithms annoying but inesca
 v4 §6 (line 58), in the folk-theory cluster.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: paid the abstract-only debt, narrowed the representativeness claim to the 59% subsample (p. 812), judged line 58 PARTLY, and flagged swap-candidate against the plan's two-citation cut.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; N = 804 and 553 replies (p. 812), 'digital irritation' (p. 820) and 'inescapable' (pp. 819, 821) confirmed against the full text in sources/; PARTLY and swap-candidate stand; verified_date moved to today; no other change.

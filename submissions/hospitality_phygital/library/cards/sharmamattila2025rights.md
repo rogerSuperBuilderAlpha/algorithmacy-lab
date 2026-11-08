@@ -2,9 +2,9 @@
 citekey: sharmamattila2025rights
 title: "Rights and Responsibilities of Hospitality Service Robots"
 authors: "Sharma, Amit and Mattila, Anna S."
-year: 2025
+year: 2026
 doi: 10.1177/10963480251393749
-venue: "Journal of Hospitality & Tourism Research"
+venue: "Journal of Hospitality & Tourism Research 50(6), 904–920"
 cluster: ai-automation
 status: cited
 role: rival
@@ -48,10 +48,12 @@ Support verdicts (v4):
 - §4 (line 29): "That is the heir question we set aside above, and it leaves ours open." **SUPPORTED** (pp. 910, 915: robots made "responsible" for service; employee duties to be translated to robots; no discussion of what is owed to an arriving guest).
 - Revision plan / card use, "the third duty vocabulary" (governance duties triggered by risk): **SUPPORTED** (risk management, p. 915; liability for harms, p. 911).
 
-**Bibliographic note.** The version of record is 2026, 50(6), 904–920. references.bib and v4 already cite it as 2026 with those pages; this card's frontmatter `year: 2025` and the citekey reflect the online-first year. Left unchanged per the run brief; the reference list is correct.
+**Bibliographic note.** The version of record is 2026, 50(6), 904–920. references.bib and v4 already cite it as 2026 with those pages. The frontmatter `year` was corrected to 2026 in the Fable pass (2026-11-08). The earlier note that 2025 was "the online-first year" was wrong: the PDF carries only 2026 ("research-article2026", © The Author(s) 2026) and verifier_3's Crossref re-fetch gives online publication 16 Jan 2026. The year 2025 survives only in the DOI suffix and the citekey.
 
 ## Where it enters the manuscript
 
 v4 §4 (line 29), after Liu et al. and Gao et al., as the rights-and-responsibilities line framed as governance.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: governance framing SUPPORTED (pp. 904, 915); found the proposal to translate employee duties to robots (p. 915), which states the heir question outright; year confirmed 2026, 50(6) 904–920 (frontmatter 2025 left as is).
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 note accepted; frontmatter year 2025→2026 and venue given volume, issue and pages; the "online-first year" explanation corrected (PDF carries 2026 only; 2025 survives in the DOI suffix); seven quotes and three verdicts confirmed against the full text in sources/.

@@ -12,7 +12,7 @@ used_by_sections: [6]
 claims: [institutional-not-trainable]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/sterz2024effectiveness/user_pdf/fulltext.pdf: ACM version of record (CC BY 4.0), FAccT '24 proceedings, pp. 2495-2507, 13 PDF pages. Identity confirmed against title, authors and DOI. Earlier basis: ACM Digital Library abstract and Crossref record."
 generated_run: 2026-08-11-p9
 flags: []
@@ -53,3 +53,5 @@ against Article 14 of the EU AI Act.
 v4 §7 (line 66), the fourth principle. The card's "Not yet in the manuscript" was stale.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: added the pseudo-options quote (p. 2498) as the warrant for line 66 (SUPPORTED), and recorded that training and competence count as facilitators, which limits the institutional-not-trainable claim.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; 'pseudo-options' (p. 2498), 'beyond the scope' on accountability (p. 2498) and the iff definition (p. 2500) confirmed against the full text in sources/; verdicts stand; verified_date moved to today; no other change.

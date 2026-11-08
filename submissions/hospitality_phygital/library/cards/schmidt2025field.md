@@ -12,7 +12,7 @@ used_by_sections: [4]
 claims: [human-contact-conditional]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/schmidt2025field/user_pdf/fulltext.pdf: Wiley version of record (special issue article), Strategic Change 34(4), pp. 559-575 (2025; accepted 15 January 2025), 18 PDF pages. Identity confirmed against title and DOI. Authors per the PDF: Alexander Lennart Schmidt, Klaas Koerten, Aarni Tuomi, Dahlia El-Manstrly, Karoline Wiegerink; the card's earlier 'Anne Lise' and 'Kaj' were wrong, and v4's reference list is right."
 generated_run: 2026-08-11-p9
 flags: []
@@ -51,3 +51,5 @@ experience (inviting, care, comfort), satisfaction and revisit intention.
 v4 §5 (line 55). The card's "Not yet in the manuscript" was stale.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: corrected two author given names, recorded that guests self-selected the agent, and judged line 55 SUPPORTED with the "little is at stake" clause as the authors' gloss.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; self-selection (pp. 565, 571), 'indifferent effects' and 'clear functional boundaries' (p. 571) confirmed against the full text in sources/; SUPPORTED-with-gloss stands; verified_date moved to today; no other change.

@@ -56,3 +56,5 @@ Section 4 (v4 numbering): "Some recent work has started to put machines in somet
 Fable-checked rr-2026-11 (2026-11-08): four quotes match the OpenAlex abstract re-fetched 2026-11-08 (Crossref has none); YES stands, 'test' still slightly off for an interview-based construct study; no change.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: "test" confirmed wrong (authors defer testing, p. 9), so YES→PARTLY on the verb; the robot is denied moral agency (p. 9), which supports v4's perceive/owe contrast; abstract-only-debt removed.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; 'Future studies should test the framework' (p. 9) and 'relationally experienced' (p. 9) confirmed against the full text in sources/; PARTLY on 'test' stands; no change.

@@ -2,9 +2,9 @@
 citekey: wilsonnash2025captivity
 title: "No App, No Entry: Conceptualizing Digital Technology Captivity in Service Access"
 authors: "Wilson-Nash, Carolyn and Angell, Rob and Qiu, Yuanming and Pavlopoulou, Ismini and Kolyperas, Dimitrios"
-year: 2025
+year: 2026
 doi: 10.1002/mar.70098
-venue: "Psychology & Marketing"
+venue: "Psychology & Marketing 43(5), 974–985"
 cluster: phygital-service
 status: rejected
 role: evidence
@@ -60,9 +60,11 @@ Support verdicts:
 - Old Summary claims (exclusion/unengagement distinction; named groups): **SUPPORTED** (pp. 975–976, 980).
 - Kim et al. (2025) `kim2025shadow`: still complementary. Wilson-Nash's mechanism is appraisal, entrapment and coping (pp. 975–979). It does not model the transfer of labour.
 
-**Citation year.** The PDF's running foot gives "Psychology & Marketing, 2026; 43:974–985"; the copyright line reads 2025; Crossref gives online 30 Dec 2025. Citing as 2026 with vol. 43(5), pp. 974–985 matches the version of record. The citekey and `year: 2025` frontmatter are left unchanged; the bibliographic correction is recorded here and in the report.
+**Citation year.** The PDF's running foot gives "Psychology & Marketing, 2026; 43:974–985"; the copyright line reads 2025; Crossref gives online 30 Dec 2025. Citing as 2026 with vol. 43(5), pp. 974–985 matches the version of record. Frontmatter `year` and `venue` were set to the version of record in the Fable pass (2026-11-08); the citekey keeps its 2025 suffix. There is no references.bib entry, consistent with `status: rejected`; one is needed if the authors admit it.
 
 **Recommendation: admit** to §7, fifth principle. R1.1 asked for it by name; the full text now supports a sentence on why a real, not downgraded, alternative is part of what the guest is owed.
+
+**Recorded inconsistency (not resolved here).** The card recommends "admit" while `status` is `rejected` and "Where it enters" still says "Not admitted". The verifier flagged it; the authors decide admission, so status stands until they do. If admitted: set `status: cited`, drop `rejected_reason`, add the bib entry, and rewrite "Where it enters".
 
 ## Where it enters the manuscript
 
@@ -78,3 +80,5 @@ Upgraded in rr-2026-11 (Workstream D, 2026-11-08): full text unreachable at the 
 Fable-checked rr-2026-11 (2026-11-08): Summary rewritten to the abstract's content (removed the exclusion/unengagement distinctions and the named groups, which came from an unread audit); `verified_date` moved to today's abstract re-check; `abstract-only-debt` flag added. Four abstract quotes re-found in crossref.json.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: definition quoted (p. 975); exclusion/unengagement distinction confirmed (p. 976) and Summary restored; cost of refusal located (p. 979); "grounds the second condition" judged PARTLY; abstract-only-debt removed.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 notes accepted; frontmatter year 2025→2026 and venue given volume, issue and pages per the version of record (running foot p. 974); status/recommendation contradiction recorded for the authors, status unchanged; full text read in sources/.

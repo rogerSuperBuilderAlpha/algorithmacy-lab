@@ -60,3 +60,5 @@ Section 4 (v4 numbering), twice: the three-party relationship sentence and "As a
 Fable-checked rr-2026-11 (2026-11-08): corrected source_basis (Crossref has no abstract); four quotes re-checked against OpenAlex/Semantic Scholar; both YES verdicts stand at abstract level.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: both v4 uses SUPPORTED (pp. 152–153); Gursoy names shifting authority and accountability (p. 160) but not who owes the guest, so must-engage stays with a locator; abstract-only-debt removed.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; p. 160 'computational logics ... accountability' passage and both SUPPORTED verdicts confirmed against the full text in sources/; must-engage stands; no change.

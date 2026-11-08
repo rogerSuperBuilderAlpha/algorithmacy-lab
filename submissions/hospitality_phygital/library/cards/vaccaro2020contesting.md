@@ -12,7 +12,7 @@ used_by_sections: [5, 6]
 claims: [accountability-is-a-relation, published-nulls]
 read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/vaccaro2020contesting/user_pdf/fulltext.pdf: ACM version of record, PACM HCI 4(CSCW2), Article 167, October 2020, 22 PDF pages (pp. 167:1-167:22). Identity confirmed against title, authors and DOI. Earlier basis: Crossref-verified; abstract read."
 generated_run: 2026-08-08-library-build
 flags: []
@@ -40,6 +40,7 @@ automation itself, opacity and inconsistency, not only the decision.
 - Fatalism: "many participants report that at the end of the day Facebook does what it wants [P106] (n=27), often suggesting that users don't influence its decisions" (p. 167:15) [full-text]
 - The authors' own reading of the null: "While we believe most of the lack of effect should be attributed to poor appeal design, stronger effects might be found among communities that have experienced marginalization" (p. 167:15) [full-text]
 - A structural alternative they float: "in the face of broad social criticism of social media platforms as a whole, that appeals on these platforms can never provide users the voice they need" (p. 167:16) [full-text]
+- The conditional reversal of voice effects, quoted from Lind and Tyler (1988): "voice-based procedural justice effects can be attenuated or reversed when the procedure is weak or when there is social criticism of the procedure" (p. 167:16, their ref. 68) [full-text]
 - Skill matters inside appeals: they propose systems that, "Instead of prioritizing users who understand the systems better or make more experienced arguments", allow synchronous conversation or professional agents (p. 167:17) [full-text]
 - *PACM HCI* 4(CSCW2), Article 167, 22 pp.; hypothetical scenario, Facebook only (pp. 167:15-16) [metadata]
 
@@ -49,6 +50,7 @@ automation itself, opacity and inconsistency, not only the decision.
 - (rr-2026-11) The study does not vary competence and does not show that skill cannot create standing. Its design section implies the opposite tendency inside appeals: current systems favour "users who understand the systems better" (p. 167:17).
 - (rr-2026-11) It does not test transparency. Every condition carried the same explanation of the misinformation system (§3.3.2, p. 167:7), and opacity was one of the commonest objections (n = 113, p. 167:13). It cannot support a claim about "a perfectly transparent algorithm."
 - It is still the paper's best published null for appeal-as-remedy, and Martin and Waldman (2023) remains the positive counter-result the manuscript now cites.
+- (Fable, rr-2026-11) Cross-card, for the Lind card's contradicted sentence. Denied appeals scored numerically *below* no appeal on all four FACT measures, not significantly (Table 2, p. 167:11). That is the nearest data in the library to v4's claim that hollow voice "lowers those judgments", and it is a non-significant pattern in a hypothetical scenario. The Lind and Tyler quotation at p. 167:16 gives the conditional version of that claim a citable source.
 
 ## Support verdicts against v4 and the revision plan (rr-2026-11)
 
@@ -64,3 +66,5 @@ competence reaches; in section 6 it sets the bar for the contestability affordan
 routing back to the rule's author does not confer standing.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: confirmed the no-lift null (Table 2, p. 167:11) but recorded that the authors blame poor appeal design (p. 167:15), that transparency and skill were never varied, and downgraded the three v4 uses to PARTLY.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 notes accepted; added the Lind and Tyler (1988) "attenuated or reversed" quotation (p. 167:16) and the denied-below-no-appeal pattern (Table 2, n.s.) as cross-card support for a conditional rewrite of v4's Lind "limit" sentence; verified_date moved to today; full text read in sources/.

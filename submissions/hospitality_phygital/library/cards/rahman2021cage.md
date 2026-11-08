@@ -12,7 +12,7 @@ used_by_sections: [3]
 claims: [knowledge-redistribution]
 read_depth: full-text
 verified: crossref-verified
-verified_date: 2026-08-07
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/rahman2021cage/user_pdf/fulltext.pdf: JSTOR copy of the Sage version of record (stable URL jstor.org/stable/48648407), ASQ 66(4), pp. 945-988, 45 PDF pages including the JSTOR cover. Identity confirmed against title, author and DOI. Earlier basis: Crossref-verified; abstract read."
 generated_run: 2026-08-08-library-build
 flags: []
@@ -57,3 +57,5 @@ Section 4 in v4 numbering (lines 31 and 34), opening the knowledge redistributio
 working-as-intended point.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: both v4 uses SUPPORTED (pp. 947, 977, 979); corrected the summary's account of why the platform was opaque and how workers reacted.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; 'pathway to appeal' (p. 979), 'purport to know' (p. 977) and the 90 percent inflation figure (p. 952) confirmed against the full text in sources/; both SUPPORTED verdicts stand; verified_date moved to today; no other change.

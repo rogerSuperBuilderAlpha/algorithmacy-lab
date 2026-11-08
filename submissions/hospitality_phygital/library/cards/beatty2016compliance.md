@@ -57,3 +57,5 @@ Section 2 (v4 numbering), on the guest's standing: "A guest can ask a question, 
 Fable-checked rr-2026-11 (2026-11-08): all four quotes match the Crossref abstract re-fetched 2026-11-08; PARTIAL verdict for the s.2 list stands (turn down, demand an explanation, challenge are not in the abstract); no change.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: sample is oil-change and pest-control technicians, not hospitality (pp. 160–161), so §6 "frontline staff have always" downgraded YES→PARTLY; §2 list PARTLY confirmed; supervisor-bypass finding added (pp. 170–171); abstract-only-debt removed.
+
+Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; sample, incident counts and the 57.4%/68.4% deterrent figures confirmed against the full text in sources/ (pp. 160–161, 167); both PARTLY verdicts stand; no change.
