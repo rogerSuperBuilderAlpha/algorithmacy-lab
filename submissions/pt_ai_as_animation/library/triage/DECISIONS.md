@@ -419,3 +419,23 @@ Each one line, with my recommendation. Everything else above is decided.
    compound-AI premise then rests on a blog and a survey until Sculley lands. **Recommend: accept the web card and open
    the NeurIPS page.** (d) MacCormick ch. 12 is not carded; S9 opens it before the gap verdict closes (above). No
    decision needed unless it turns out to make the (B) claim.
+
+## Checkpoint B — rulings (Roger, 2026-11-08)
+
+Recorded by Claude from the author's answers.
+
+1. **c12 wording: accepted.** "AI development as a craft of animation, argued as a claim about what AI
+   is: not the interface (Stark 2024), not the illusion (Govind 2026), not an ALife experiment
+   (OpenLife, Masumori et al. 2026)."
+2. **c9: central, narrowed.** "The studio *determines* what the viewer gets." Schumann & Du (2022) and
+   Clark & Fischer (2023) are cited as prior triads and distinguished by the lab criterion (binding
+   determination, own interest, keeping the parties apart); their cards record exactly what each
+   source's third party does.
+3. **Life philosophy carded here.** The 17 F1–F2 cards live in this library; `dorin2024what` is written
+   from the copy Berthon's arm holds, with `provenance.txt` naming it; Berthon's arm points here.
+4. **Books: no answer again.** Treated as unopened; every book is a metadata card and a
+   `BROWSER_LIST.md` row until a copy lands in `pt_ai_animation_local/inbox/`. Fable's order stands
+   for when he opens them: Moreno & Mossio, Silvio ch. 1, Dennett 1987, Walton.
+5. **Defaults taken (not asked):** Govind/Reddy key follows the Zenodo PDF byline at S4 (default
+   `govind2026illusion`); ceiling holds at 75 (Sculley, if promoted, displaces `schaeffer2023are`);
+   Zaharia accepted as a web card; MacCormick ch. 12 is an S9 must-read.

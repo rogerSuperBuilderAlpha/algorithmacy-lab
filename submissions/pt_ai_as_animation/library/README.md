@@ -51,10 +51,10 @@ Paywalls are never bypassed; those works go to `BROWSER_LIST.md`.
 | c6 | animation is the craft of composing a living character from inert parts | §3 |
 | c7 | necessary opacity: no frame holds the motion, no component the intelligence | §4.2 |
 | c8 | co-optation: dependency grows with use; the viewer is co-opted | §4.3 |
-| c9 | triadicity: the studio determines what the viewer gets | §4.4 |
+| c9 | triadicity, narrowed (Checkpoint B): the studio *determines* what the viewer gets; distinguished from Schumann & Du 2022 and Clark & Fischer 2023 by the lab criterion | §4.4 |
 | c10 | the analogy breaks at liveness; puppetry; the LLM makes its own in-betweens | §5 |
 | c11 | implementation and evaluation under the life frame | §6 |
-| c12 | gap: no prior work frames AI development as animation craft or AI as life in the making | §1, §7 |
+| c12 | gap (Checkpoint B): AI development as a craft of animation, argued as a claim about what AI is: not the interface (Stark 2024), not the illusion (Govind 2026), not an ALife experiment (OpenLife, Masumori et al. 2026) | §1, §7 |
 
 ## Facets
 
