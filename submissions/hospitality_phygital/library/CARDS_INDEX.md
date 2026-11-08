@@ -4,7 +4,7 @@
 
 **220 cards.** Newest run: `rr-2026-11`.
 
-Status: cited 125, held 75, rejected 19, superseded 1.  Read depth: abstract 141, full-text 64, metadata 15.
+Status: cited 125, held 75, rejected 19, superseded 1.  Read depth: abstract 103, full-text 102, metadata 15.
 
 A card exists for every source the research touched, including candidates that were weighed and declined. `rejected` cards carry the displacement argument that kept them out; that is the record a reviewer response needs. Claim slugs are defined in [`CLAIMS.md`](CLAIMS.md); venue-level exclusions in [`VENUE_RULINGS.md`](VENUE_RULINGS.md).
 
@@ -15,36 +15,33 @@ A card exists for every source the research touched, including candidates that w
 | [ariffin2013generic](cards/ariffin2013generic.md) | abstract-only-debt | full text read |
 | [batat2025binge](cards/batat2025binge.md) | abstract-only-debt | full text read |
 | [batat2026phive](cards/batat2026phive.md) | must-engage, abstract-only-debt | full text read |
-| [beatty2016compliance](cards/beatty2016compliance.md) | abstract-only-debt | full text read |
 | [bendoly2013realtime](cards/bendoly2013realtime.md) | abstract-only-debt, swap-candidate | full text read |
 | [bitner2000technology](cards/bitner2000technology.md) | abstract-only-debt | full text read |
+| [bovens2007accountability](cards/bovens2007accountability.md) | claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
 | [cheneylippold2011identity](cards/cheneylippold2011identity.md) | abstract-only-debt | full text read |
 | [christou2020tourists](cards/christou2020tourists.md) | abstract-only-debt | full text read |
 | [costanzachock2020design](cards/costanzachock2020design.md) | abstract-only-debt | full text read |
 | [dar2026tourism](cards/dar2026tourism.md) | abstract-only-debt | full text read |
-| [didomenico2007host](cards/didomenico2007host.md) | abstract-only-debt | full text read |
 | [filippas2022inflation](cards/filippas2022inflation.md) | abstract-only-debt | full text read |
 | [fink2025oversight](cards/fink2025oversight.md) | abstract-only-debt | full text read |
 | [folger1977voice](cards/folger1977voice.md) | abstract-only-debt, claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
 | [fuller1991consumers](cards/fuller1991consumers.md) | abstract-only-debt | full text read |
 | [germannmolz2026](cards/germannmolz2026.md) | must-engage, abstract-only-debt | full text read |
-| [golubovskaya2017meaning](cards/golubovskaya2017meaning.md) | abstract-only-debt | full text read |
 | [goodwin1992consumer](cards/goodwin1992consumer.md) | abstract-only-debt | full text read |
-| [gursoy2026reconceptualizing](cards/gursoy2026reconceptualizing.md) | abstract-only-debt, must-engage | full text read |
+| [gursoy2026reconceptualizing](cards/gursoy2026reconceptualizing.md) | must-engage | engagement in the manuscript |
 | [hemmer2025complementarity](cards/hemmer2025complementarity.md) | must-engage | engagement in the manuscript |
 | [introna2010measure](cards/introna2010measure.md) | abstract-only-debt | full text read |
+| [jianu2025](cards/jianu2025.md) | claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
 | [jung2019undermining](cards/jung2019undermining.md) | abstract-only-debt | full text read |
 | [keegan2025edge](cards/keegan2025edge.md) | abstract-only-debt | full text read |
-| [kong2026delegation](cards/kong2026delegation.md) | abstract-only-debt | full text read |
-| [kropf2026blame](cards/kropf2026blame.md) | abstract-only-debt, must-engage | full text read |
+| [kropf2026blame](cards/kropf2026blame.md) | must-engage | engagement in the manuscript |
 | [krzywdzinski2024control](cards/krzywdzinski2024control.md) | abstract-only-debt | full text read |
 | [lariviere2017service](cards/lariviere2017service.md) | abstract-only-debt | full text read |
 | [lee2019procedural](cards/lee2019procedural.md) | abstract-only-debt | full text read |
 | [leelu2024consciousness](cards/leelu2024consciousness.md) | must-engage | engagement in the manuscript |
 | [li2021systematic](cards/li2021systematic.md) | abstract-only-debt | full text read |
 | [liang2017superhost](cards/liang2017superhost.md) | abstract-only-debt, swap-candidate | full text read |
-| [lind1990voice](cards/lind1990voice.md) | abstract-only-debt | full text read |
-| [liu2026hospitableness](cards/liu2026hospitableness.md) | abstract-only-debt | full text read |
+| [lind1990voice](cards/lind1990voice.md) | claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
 | [lugosi2014hospitality](cards/lugosi2014hospitality.md) | abstract-only-debt | full text read |
 | [lynch2017mundane](cards/lynch2017mundane.md) | abstract-only-debt | full text read |
 | [lynch2021critical](cards/lynch2021critical.md) | no-retained-copy | a retained copy, so the depth claim can be re-checked |
@@ -57,12 +54,9 @@ A card exists for every source the research touched, including candidates that w
 | [riordan2024digitally](cards/riordan2024digitally.md) | abstract-only-debt | full text read |
 | [roelofsenminca2018](cards/roelofsenminca2018.md) | abstract-only-debt | full text read |
 | [santonidesio2021gaps](cards/santonidesio2021gaps.md) | claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
-| [shabnam2026tpsr](cards/shabnam2026tpsr.md) | abstract-only-debt | full text read |
 | [shi2025residents](cards/shi2025residents.md) | must-engage | engagement in the manuscript |
 | [weaver2025fast](cards/weaver2025fast.md) | must-engage | engagement in the manuscript |
-| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | abstract-only-debt | full text read |
 | [xing2026algorithmic](cards/xing2026algorithmic.md) | abstract-only-debt | full text read |
-| [ytrearnemoe2021folk](cards/ytrearnemoe2021folk.md) | abstract-only-debt | full text read |
 | [zhou2025competency](cards/zhou2025competency.md) | must-engage | engagement in the manuscript |
 | [zientara2023unpicking](cards/zientara2023unpicking.md) | abstract-only-debt | full text read |
 
@@ -230,25 +224,25 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [algorithmacyLabLiteracy](cards/algorithmacyLabLiteracy.md) | Literacy or Algorithmacy? | 2026 | mediation-sovereignty | held | none | — | metadata | verified |
 | [algorithmacyLabSovereignty](cards/algorithmacyLabSovereignty.md) | Coordinative Sovereignty | 2026 | mediation-sovereignty | held | none | — | metadata | verified |
 | [almada2019intervention](cards/almada2019intervention.md) | Human Intervention in Automated Decision-Making: Toward the… | 2019 | mediation-sovereignty | held | evidence | 6 | abstract | verified |
-| [ananny2018seeing](cards/ananny2018seeing.md) | Seeing without Knowing: Limitations of the Transparency Ide… | 2018 | mediation-sovereignty | cited | null | 5 6 | abstract | crossref-verified |
+| [ananny2018seeing](cards/ananny2018seeing.md) | Seeing without Knowing: Limitations of the Transparency Ide… | 2018 | mediation-sovereignty | cited | null | 5 6 | full-text | crossref-verified |
 | [anderson2015transformative](cards/anderson2015transformative.md) | Transformative Service Research: Advancing Our Knowledge ab… | 2015 | phygital-service | cited | evidence | 4 | abstract | verified |
 | [andreev2025destination](cards/andreev2025destination.md) | Destination (Un)Known: Auditing Bias and Fairness in LLM-Ba… | 2025 | ai-automation | cited | evidence | 7 | abstract | verified |
-| [are2025appeals](cards/are2025appeals.md) | Dysfunctional Appeals and Failures of Algorithmic Justice i… | 2025 | mediation-sovereignty | cited | evidence | 5 6 | abstract | verified |
+| [are2025appeals](cards/are2025appeals.md) | Dysfunctional Appeals and Failures of Algorithmic Justice i… | 2025 | mediation-sovereignty | cited | evidence | 5 6 | full-text | verified |
 | [ariffin2013generic](cards/ariffin2013generic.md) | Generic Dimensionality of Hospitality in the Hotel Industry… | 2013 | hospitality-theory | held | governor | 3 | abstract | verified |
 | [batat2019experiential](cards/batat2019experiential.md) | Experiential Marketing: Consumer Behavior, Customer Experie… | 2019 | phygital-service | cited | framing | 2 5 | abstract | verified |
-| [batat2021ar](cards/batat2021ar.md) | How Augmented Reality (AR) Is Transforming the Restaurant S… | 2021 | phygital-service | cited | evidence | 4 | abstract | verified |
+| [batat2021ar](cards/batat2021ar.md) | How Augmented Reality (AR) Is Transforming the Restaurant S… | 2021 | phygital-service | cited | evidence | 4 | full-text | verified |
 | [batat2021gastronomy](cards/batat2021gastronomy.md) | The Role of Luxury Gastronomy in Culinary Tourism: An Ethno… | 2021 | hospitality-theory | held | evidence | 2 | full-text | verified |
 | [batat2022hospsociety](cards/batat2022hospsociety.md) | Luxury Service Brand Extensions and Their Spillover Effects… | 2022 | hospitality-theory | held | none | 2 | abstract | verified |
-| [batat2022tlr](cards/batat2022tlr.md) | Transformative Luxury Research (TLR): An Agenda to Advance … | 2022 | phygital-service | cited | framing | 8 | abstract | verified |
+| [batat2022tlr](cards/batat2022tlr.md) | Transformative Luxury Research (TLR): An Agenda to Advance … | 2022 | phygital-service | cited | framing | 8 | full-text | verified |
 | [batat2024metaverse](cards/batat2024metaverse.md) | Phygital Customer Experience in the Metaverse: A Study of C… | 2024 | phygital-service | held | framing | 7 | abstract | verified |
 | [batat2024paradigm](cards/batat2024paradigm.md) | Guest Editorial: The Phygital Research Paradigm: Philosophi… | 2024b | phygital-service | held | evidence | 3 | abstract | verified |
-| [batat2024phcx](cards/batat2024phcx.md) | What Does Phygital Really Mean? A Conceptual Introduction t… | 2024a | phygital-service | cited | framing | 1 3 | abstract | verified |
+| [batat2024phcx](cards/batat2024phcx.md) | What Does Phygital Really Mean? A Conceptual Introduction t… | 2024a | phygital-service | cited | framing | 1 3 | full-text | verified |
 | [batat2025binge](cards/batat2025binge.md) | Binge Delivery Behaviors among Digital Natives: A Phygital … | 2025 | phygital-service | held | framing | 7 8 | metadata | verified |
 | [batat2026phive](cards/batat2026phive.md) | The Phygital Intelligence Value Experience (PHIVE) Matrix: … | 2026 | phygital-service | held | framing | 3 7 | metadata | verified |
 | [batat2026psr](cards/batat2026psr.md) | Phygital Service Research (PSR): Advancing FSR and TSR towa… | 2026 | phygital-service | cited | framing | 1 | abstract | verified |
-| [batathammedi2023ert](cards/batathammedi2023ert.md) | The Extended Reality Technology (ERT) Framework for Designi… | 2023 | phygital-service | cited | framing | 3 7 | abstract | verified |
-| [beatty2016compliance](cards/beatty2016compliance.md) | Frontline Service Employee Compliance with Customer Special… | 2016 | hospitality-theory | cited | framing | 2 6 | abstract | verified |
-| [belanche2020](cards/belanche2020.md) | Robots or Frontline Employees? Exploring Customers' Attribu… | 2020 | ai-automation | cited | evidence | 6 | abstract | verified |
+| [batathammedi2023ert](cards/batathammedi2023ert.md) | The Extended Reality Technology (ERT) Framework for Designi… | 2023 | phygital-service | cited | framing | 3 7 | full-text | verified |
+| [beatty2016compliance](cards/beatty2016compliance.md) | Frontline Service Employee Compliance with Customer Special… | 2016 | hospitality-theory | cited | framing | 2 6 | full-text | verified |
+| [belanche2020](cards/belanche2020.md) | Robots or Frontline Employees? Exploring Customers' Attribu… | 2020 | ai-automation | cited | evidence | 6 | full-text | verified |
 | [bendoly2013realtime](cards/bendoly2013realtime.md) | Real-Time Feedback and Booking Behavior in the Hospitality … | 2013 | ai-automation | cited | evidence | 4 | abstract | verified |
 | [bertoldi2018museums](cards/bertoldi2018museums.md) | Facebook and Twitter, Social Networks for Culture: An Inves… | 2018 | mediation-sovereignty | held | evidence | 8 | abstract | verified |
 | [bishop2019gossip](cards/bishop2019gossip.md) | Managing Visibility on YouTube through Algorithmic Gossip | 2019 | mediation-sovereignty | held | evidence | 5 | full-text | crossref-verified |
@@ -256,7 +250,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [blockerbarrios2015](cards/blockerbarrios2015.md) | The Transformative Value of a Service Experience | 2015 | phygital-service | rejected | evidence | 4 | abstract | verified |
 | [boochua2022facial](cards/boochua2022facial.md) | An Integrative Model of Facial Recognition Check-in Technol… | 2022 | ai-automation | cited | both | 1 6 | abstract | verified |
 | [bosma2022platformed](cards/bosma2022platformed.md) | Platformed Professionalization: Labor, Assets, and Earning … | 2022 | platform-hospitality | held | evidence | 2 | full-text | crossref-verified |
-| [bovens2007accountability](cards/bovens2007accountability.md) | Analysing and Assessing Accountability: A Conceptual Framework | 2007 | mediation-sovereignty | cited | evidence | 5 | abstract | verified |
+| [bovens2007accountability](cards/bovens2007accountability.md) | Analysing and Assessing Accountability: A Conceptual Framework | 2007 | mediation-sovereignty | cited | evidence | 5 | full-text | verified |
 | [bowkerstar1999sorting](cards/bowkerstar1999sorting.md) | Sorting Things Out: Classification and Its Consequences | 1999 | mediation-sovereignty | cited | evidence | 7 | metadata | crossref-verified |
 | [brochado2026phygital](cards/brochado2026phygital.md) | Is Phygital the New Normal? A Literature Review of the Evol… | 2026 | phygital-service | cited | framing | 6 | abstract | verified |
 | [brotherton1999towards](cards/brotherton1999towards.md) | Towards a Definitive View of the Nature of Hospitality and … | 1999 | hospitality-theory | rejected | framing | 2 | abstract | crossref-verified |
@@ -291,16 +285,16 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [devos2026employee](cards/devos2026employee.md) | Enhancing Phygital Employee Experience in High-Involvement … | 2026 | phygital-service | cited | evidence | 4 | abstract | verified |
 | [devos2026strength](cards/devos2026strength.md) | Applying an Experiential Lens to the Strength-Based Approac… | 2026 | mediation-sovereignty | held | evidence | 8 | abstract | verified |
 | [devosqesja2022journey](cards/devosqesja2022journey.md) | Effective Consumer Journey: Personalizing Touchpoints and O… | 2022 | mediation-sovereignty | held | evidence | 6 | abstract | verified |
-| [didomenico2007host](cards/didomenico2007host.md) | Host/Guest Encounters in the Commercial Home | 2007 | hospitality-theory | held | evidence | 3 | abstract | crossref-verified |
+| [didomenico2007host](cards/didomenico2007host.md) | Host/Guest Encounters in the Commercial Home | 2007 | hospitality-theory | held | evidence | 3 | full-text | crossref-verified |
 | [dowding2000exit](cards/dowding2000exit.md) | Exit, Voice and Loyalty: Analytic and Empirical Developments | 2000 | mediation-sovereignty | held | evidence | 5 | abstract | crossref-verified |
 | [draper2024resignation](cards/draper2024resignation.md) | Privacy Resignation, Apathy, and Cynicism: Introduction to … | 2024 | mediation-sovereignty | held | framing | 5 | abstract | verified |
-| [duggan2026tensions](cards/duggan2026tensions.md) | Tensions in Algorithmic HRM: Worker Voice and Organizationa… | 2026 | mediation-sovereignty | cited | evidence | 5 | abstract | verified |
+| [duggan2026tensions](cards/duggan2026tensions.md) | Tensions in Algorithmic HRM: Worker Voice and Organizationa… | 2026 | mediation-sovereignty | cited | evidence | 5 | full-text | verified |
 | [edelman2017discrimination](cards/edelman2017discrimination.md) | Racial Discrimination in the Sharing Economy: Evidence from… | 2017 | platform-hospitality | cited | evidence | 2 4 | full-text | crossref-verified |
 | [edwardsveale2017slave](cards/edwardsveale2017slave.md) | Slave to the Algorithm? Why a 'Right to an Explanation' Is … | 2017 | mediation-sovereignty | cited | null | 6 | full-text | crossref-verified |
 | [eggeretal2020digitalfree](cards/eggeretal2020digitalfree.md) | Digital Free Tourism: An Exploratory Study of Tourist Motiv… | 2020 | phygital-service | rejected | evidence | 6 | full-text | crossref-verified |
 | [ehsan2024seamfulxai](cards/ehsan2024seamfulxai.md) | Seamful XAI: Operationalizing Seamful Design in Explainable AI | 2024 | mediation-sovereignty | cited | evidence | 7 | full-text | crossref-verified |
 | [ert2016trust](cards/ert2016trust.md) | Trust and Reputation in the Sharing Economy: The Role of Pe… | 2016 | platform-hospitality | held | evidence | 2 | abstract | verified |
-| [eslami2016folk](cards/eslami2016folk.md) | First I ``Like'' It, Then I Hide It: Folk Theories of Socia… | 2016 | mediation-sovereignty | cited | evidence | 5 | abstract | crossref-verified |
+| [eslami2016folk](cards/eslami2016folk.md) | First I ``Like'' It, Then I Hide It: Folk Theories of Socia… | 2016 | mediation-sovereignty | cited | evidence | 5 | full-text | crossref-verified |
 | [eu2024aiact](cards/eu2024aiact.md) | Regulation (EU) 2024/1689 of the European Parliament and of… | 2024 | mediation-sovereignty | held | evidence | 9 | full-text | verified |
 | [filippas2022inflation](cards/filippas2022inflation.md) | Reputation Inflation | 2022 | platform-hospitality | cited | evidence | 7 | abstract | verified |
 | [fink2025oversight](cards/fink2025oversight.md) | Human Oversight under Article 14 of the EU AI Act | 2025 | mediation-sovereignty | held | framing | 6 | full-text | verified |
@@ -313,16 +307,16 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [gaothebault2026townie](cards/gaothebault2026townie.md) | Is Your Chatbot a Tourist or a Townie? Quantifying Geograph… | 2026 | ai-automation | cited | evidence | 7 | abstract | verified |
 | [garcia2026strategic](cards/garcia2026strategic.md) | Strategic Responses to Algorithmic Recommendations: Evidenc… | 2026 | ai-automation | cited | evidence | 4 5 | full-text | verified |
 | [garlandthomson2011misfits](cards/garlandthomson2011misfits.md) | Misfits: A Feminist Materialist Disability Concept | 2011 | mediation-sovereignty | rejected | evidence | 7 | abstract | crossref-verified |
-| [germannmolz2018scale](cards/germannmolz2018scale.md) | Discourses of Scale in Network Hospitality: From the Airbnb… | 2018 | platform-hospitality | cited | framing | 2 | abstract | verified |
+| [germannmolz2018scale](cards/germannmolz2018scale.md) | Discourses of Scale in Network Hospitality: From the Airbnb… | 2018 | platform-hospitality | cited | framing | 2 | full-text | verified |
 | [germannmolz2026](cards/germannmolz2026.md) | Guests without Hosts: On the Digital Biopolitics of Network… | 2026 | platform-hospitality | cited | rival | 2 3 | abstract | crossref-verified |
-| [golubovskaya2017meaning](cards/golubovskaya2017meaning.md) | The Meaning of Hospitality: Do Employees Understand? | 2017 | hospitality-theory | held | evidence | 2 8 | abstract | crossref-verified |
+| [golubovskaya2017meaning](cards/golubovskaya2017meaning.md) | The Meaning of Hospitality: Do Employees Understand? | 2017 | hospitality-theory | held | evidence | 2 8 | full-text | crossref-verified |
 | [goodwin1992consumer](cards/goodwin1992consumer.md) | Consumer Responses to Service Failures: Influence of Proced… | 1992 | mediation-sovereignty | cited | evidence | 7 | abstract | verified |
-| [gursoy2026reconceptualizing](cards/gursoy2026reconceptualizing.md) | Reconceptualizing Customer Experience Co-Creation and Servi… | 2026 | phygital-service | cited | rival | 4 | abstract | verified |
-| [hatherley2025moving](cards/hatherley2025moving.md) | A Moving Target in AI-Assisted Decision-Making: Dataset Shi… | 2025 | ai-automation | cited | evidence | 4 6 | abstract | verified |
+| [gursoy2026reconceptualizing](cards/gursoy2026reconceptualizing.md) | Reconceptualizing Customer Experience Co-Creation and Servi… | 2026 | phygital-service | cited | rival | 4 | full-text | verified |
+| [hatherley2025moving](cards/hatherley2025moving.md) | A Moving Target in AI-Assisted Decision-Making: Dataset Shi… | 2025 | ai-automation | cited | evidence | 4 6 | full-text | verified |
 | [hemmer2025complementarity](cards/hemmer2025complementarity.md) | Complementarity in Human-AI Collaboration: Concept, Sources… | 2025 | ai-automation | cited | rival | 4 | abstract | verified |
 | [hemmington2007](cards/hemmington2007.md) | From Service to Experience: Understanding and Defining the … | 2007 | hospitality-theory | cited | evidence | 1 2 | full-text | verified |
 | [henkens2021](cards/henkens2021.md) | The Smarter, the Better?! Customer Well-Being, Engagement, … | 2021 | phygital-service | rejected | governor | 4 6 | full-text | verified |
-| [hirsbrunner2025contestation](cards/hirsbrunner2025contestation.md) | Contestation in Artificial Intelligence as a Practice | 2025 | mediation-sovereignty | cited | framing | 6 | abstract | verified |
+| [hirsbrunner2025contestation](cards/hirsbrunner2025contestation.md) | Contestation in Artificial Intelligence as a Practice: From… | 2025 | mediation-sovereignty | cited | framing | 6 | full-text | verified |
 | [hirschman1970exit](cards/hirschman1970exit.md) | Exit, Voice, and Loyalty: Responses to Decline in Firms, Or… | 1970 | mediation-sovereignty | cited | evidence | 5 | metadata | crossref-verified |
 | [hohfeld1913fundamental](cards/hohfeld1913fundamental.md) | Some Fundamental Legal Conceptions as Applied in Judicial R… | 1913 | mediation-sovereignty | held | governor | 3 | full-text | crossref-verified |
 | [hou2021crowding](cards/hou2021crowding.md) | Service Robots or Human Staff: How Social Crowding Shapes T… | 2021 | ai-automation | held | governor | 4 6 | full-text | verified |
@@ -330,13 +324,13 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [introna2010measure](cards/introna2010measure.md) | The 'Measure of a Man' and the Ethos of Hospitality: Toward… | 2010 | mediation-sovereignty | cited | framing | 4 | metadata | verified |
 | [ivanov2019ultimate](cards/ivanov2019ultimate.md) | Ultimate transformation: How will automation technologies d… | 2019 | ai-automation | held | evidence | 9 | abstract | crossref-verified |
 | [jhaver2018anxiety](cards/jhaver2018anxiety.md) | Algorithmic Anxiety and Coping Strategies of Airbnb Hosts | 2018 | mediation-sovereignty | cited | evidence | 5 | abstract | crossref-verified |
-| [jianu2025](cards/jianu2025.md) | Integrating Algorithmic Management in Hotels: Emerging Chal… | 2025 | ai-automation | cited | evidence | 3 8 | abstract | verified |
+| [jianu2025](cards/jianu2025.md) | Integrating Algorithmic Management in Hotels: Emerging Chal… | 2025 | ai-automation | cited | evidence | 3 8 | full-text | verified |
 | [jung2019undermining](cards/jung2019undermining.md) | The Effects of Social Undermining on Employee Voice and Sil… | 2019 | mediation-sovereignty | cited | evidence | 6 | abstract | verified |
 | [keegan2025edge](cards/keegan2025edge.md) | Algorithmic Management in Organizations? From Edge Case to … | 2025 | ai-automation | held | framing | 4 | abstract | verified |
 | [kim2021preference](cards/kim2021preference.md) | Preference for Robot Service or Human Service in Hotels? Im… | 2021 | ai-automation | cited | evidence | 4 6 | full-text | verified |
 | [kim2025shadow](cards/kim2025shadow.md) | When Customers Resist Self-Service Technology: A Shadow Wor… | 2025 | ai-automation | cited | evidence | 6 | abstract | verified |
-| [kong2026delegation](cards/kong2026delegation.md) | The Delegation Illusion: Why Deploying Autonomous AI Agents… | 2026 | mediation-sovereignty | held | rival | 2 | abstract | crossref-verified |
-| [kropf2026blame](cards/kropf2026blame.md) | Blame the Robot: Role Responsibility and Ethical Issues Reg… | 2026 | mediation-sovereignty | cited | rival | 2 | abstract | verified |
+| [kong2026delegation](cards/kong2026delegation.md) | The Delegation Illusion: Why Deploying Autonomous AI Agents… | 2026 | mediation-sovereignty | held | rival | 2 | full-text | crossref-verified |
+| [kropf2026blame](cards/kropf2026blame.md) | Blame the Robot: Role Responsibility and Ethical Issues Reg… | 2026 | mediation-sovereignty | cited | rival | 2 | full-text | verified |
 | [krzywdzinski2024control](cards/krzywdzinski2024control.md) | Between Control and Participation: The Politics of Algorith… | 2024 | ai-automation | held | evidence | 3 | abstract | verified |
 | [ladegaard2021strangers](cards/ladegaard2021strangers.md) | Strangers in the Sheets: How Airbnb Hosts Overcome Uncertainty | 2021 | platform-hospitality | held | evidence | 2 | abstract | crossref-verified |
 | [lariviere2017service](cards/lariviere2017service.md) | 'Service Encounter 2.0': An Investigation into the Roles of… | 2017 | phygital-service | cited | framing | 1 4 | metadata | verified |
@@ -346,12 +340,12 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [leick2024professionalisation](cards/leick2024professionalisation.md) | Professionalisation and Performance of Airbnb Hosts in Rura… | 2024 | platform-hospitality | held | evidence | 2 | abstract | crossref-verified |
 | [li2021systematic](cards/li2021systematic.md) | A Systematic Review of AI Technology-Based Service Encounte… | 2021 | phygital-service | cited | rival | 1 4 | abstract | verified |
 | [liang2017superhost](cards/liang2017superhost.md) | Be a ``Superhost'': The Importance of Badge Systems for Pee… | 2017 | platform-hospitality | held | evidence | 2 | abstract | crossref-verified |
-| [lin2025oscillation](cards/lin2025oscillation.md) | Oscillation between Resist and to Not? Users' Folk Theories… | 2025 | mediation-sovereignty | cited | evidence | 5 | abstract | verified |
+| [lin2025oscillation](cards/lin2025oscillation.md) | Oscillation between Resist and to Not? Users' Folk Theories… | 2025 | mediation-sovereignty | cited | evidence | 5 | full-text | verified |
 | [lin2026voice](cards/lin2026voice.md) | Will Employees Still Speak Up under Algorithmic Management?… | 2026 | mediation-sovereignty | cited | evidence | 5 | full-text | verified |
-| [lind1990voice](cards/lind1990voice.md) | Voice, Control, and Procedural Justice: Instrumental and No… | 1990 | mediation-sovereignty | cited | evidence | 7 | abstract | verified |
+| [lind1990voice](cards/lind1990voice.md) | Voice, Control, and Procedural Justice: Instrumental and No… | 1990 | mediation-sovereignty | cited | evidence | 7 | full-text | verified |
 | [lipsky1980street](cards/lipsky1980street.md) | Street-Level Bureaucracy: Dilemmas of the Individual in Pub… | 1980 | ai-automation | held | evidence | 3 | metadata | crossref-verified |
 | [lisun2025accessibility](cards/lisun2025accessibility.md) | Is Algorithmic Accessibility Sufficient? The Pivotal Role o… | 2025 | mediation-sovereignty | cited | evidence | 6 | abstract | verified |
-| [liu2026hospitableness](cards/liu2026hospitableness.md) | Conceptualizing Hospitableness in Human-Robot Hospitality I… | 2026 | phygital-service | cited | rival | 4 | abstract | verified |
+| [liu2026hospitableness](cards/liu2026hospitableness.md) | Conceptualizing Hospitableness in Human-Robot Hospitality I… | 2026 | phygital-service | cited | rival | 4 | full-text | verified |
 | [lugosi2008](cards/lugosi2008.md) | Hospitality Spaces, Hospitable Moments: Consumer Encounters… | 2008 | hospitality-theory | cited | evidence | 2 4 | full-text | verified |
 | [lugosi2009critical](cards/lugosi2009critical.md) | Critical Hospitality Management Research | 2009 | hospitality-theory | rejected | framing | 2 8 | full-text | crossref-verified |
 | [lugosi2014hospitality](cards/lugosi2014hospitality.md) | Hospitality and Organizations: Enchantment, Entrenchment an… | 2014 | hospitality-theory | held | evidence | 2 3 | abstract | crossref-verified |
@@ -362,7 +356,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [lynch2021critical](cards/lynch2021critical.md) | Hospitality & Society: Critical Reflections on the Theorizi… | 2021a | hospitality-theory | held | evidence | 1 2 | full-text | verified |
 | [lynch2021reprise](cards/lynch2021reprise.md) | Theorizing Hospitality: A Reprise | 2021b | hospitality-theory | held | evidence | 2 | abstract | verified |
 | [lyons2021conceptualising](cards/lyons2021conceptualising.md) | Conceptualising Contestability: Perspectives on Contesting … | 2021 | mediation-sovereignty | held | evidence | 7 | full-text | crossref-verified |
-| [mameli2026framework](cards/mameli2026framework.md) | A Comprehensive Framework for Phygital Tourism Experiences | 2026 | phygital-service | cited | framing | 7 | abstract | verified |
+| [mameli2026framework](cards/mameli2026framework.md) | A Comprehensive Framework for Phygital Tourism Experiences | 2026 | phygital-service | cited | framing | 7 | full-text | verified |
 | [manfreda2025pedagogy](cards/manfreda2025pedagogy.md) | The Pedagogy of Hospitableness: A Transformative Approach f… | 2025 | hospitality-theory | held | governor | 2 | abstract | verified |
 | [manfreda2025reciprocal](cards/manfreda2025reciprocal.md) | Beyond Exchange: Decoding Reciprocal Hospitableness in Luxu… | 2025 | hospitality-theory | cited | rival | 2 | abstract | verified |
 | [martinwaldman2022legitimacy](cards/martinwaldman2022legitimacy.md) | Are Algorithmic Decisions Legitimate? The Effect of Process… | 2022 | mediation-sovereignty | rejected | evidence | 6 | full-text | crossref-verified |
@@ -372,11 +366,11 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [mestre2025informational](cards/mestre2025informational.md) | Hospitality and the Informational At-Home | 2025 | mediation-sovereignty | held | governor | 3 | abstract | verified |
 | [metcalf2023courts](cards/metcalf2023courts.md) | Taking Algorithms to Courts: A Relational Approach to Algor… | 2023 | mediation-sovereignty | held | rival | 3 | full-text | verified |
 | [moganadas2026wellbeing](cards/moganadas2026wellbeing.md) | Navigating Employee Well-Being in the Age of Digital Transf… | 2026 | ai-automation | cited | evidence | 8 | full-text | verified |
-| [mohlmann2021algorithmic](cards/mohlmann2021algorithmic.md) | Algorithmic Management of Work on Online Labor Platforms: W… | 2021 | ai-automation | cited | evidence | 3 | abstract | verified |
+| [mohlmann2021algorithmic](cards/mohlmann2021algorithmic.md) | Algorithmic Management of Work on Online Labor Platforms: W… | 2021 | ai-automation | cited | evidence | 3 | full-text | verified |
 | [morosan2016](cards/morosan2016.md) | Modeling Guests' Intentions to Use Mobile Apps in Hotels | 2016 | phygital-service | cited | evidence | 6 | abstract | verified |
 | [morrison2014voice](cards/morrison2014voice.md) | Employee Voice and Silence | 2014 | mediation-sovereignty | cited | evidence | 5 | abstract | crossref-verified |
 | [mosca2021distribution](cards/mosca2021distribution.md) | The Evolution of Distribution in the Luxury Sector: From Si… | 2021 | mediation-sovereignty | held | framing | 6 | abstract | verified |
-| [mosca2025phygital](cards/mosca2025phygital.md) | Phygital Museums as Catalysts for Inclusivity, Well-Being, … | 2025 | phygital-service | cited | evidence | 4 | abstract | verified |
+| [mosca2025phygital](cards/mosca2025phygital.md) | Phygital Museums as Catalysts for Inclusivity, Well-Being, … | 2026 | phygital-service | cited | evidence | 4 | full-text | verified |
 | [mosca2026ai](cards/mosca2026ai.md) | Artificial Intelligence as a Strategic Inflection Point: Im… | 2026 | ai-automation | cited | framing | 5 6 | full-text | verified |
 | [moscacivera2017csr](cards/moscacivera2017csr.md) | The Evolution of CSR: An Integrated Approach | 2017 | mediation-sovereignty | held | framing | 4 | full-text | verified |
 | [moscalarosa2019](cards/moscalarosa2019.md) | 4.0 Technology within Fashion and Luxury Production | 2019 | mediation-sovereignty | cited | rival | 6 7 | full-text | verified |
@@ -387,28 +381,28 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [nissenbaum1996accountability](cards/nissenbaum1996accountability.md) | Accountability in a Computerized Society | 1996 | mediation-sovereignty | held | both | 2 | full-text | crossref-verified |
 | [odekerken2021service](cards/odekerken2021service.md) | The Service Triad: An Empirical Study of Service Robots, Cu… | 2021 | phygital-service | cited | framing | 1 | full-text | verified |
 | [okhuysenbechky2009](cards/okhuysenbechky2009.md) | Coordination in Organizations: An Integrative Perspective | 2009 | mediation-sovereignty | cited | evidence | 5 7 | full-text | verified |
-| [padigar2024friction](cards/padigar2024friction.md) | `Good' and `Bad' Frictions in Customer Experience: Conceptu… | 2024 | phygital-service | cited | evidence | 7 | abstract | verified |
+| [padigar2024friction](cards/padigar2024friction.md) | `Good' and `Bad' Frictions in Customer Experience: Conceptu… | 2025 | phygital-service | cited | evidence | 7 | full-text | verified |
 | [pan2025dark](cards/pan2025dark.md) | The Dark Side of Robot Usage for Hotel Employees: An Uncert… | 2025 | ai-automation | cited | evidence | 8 | metadata | verified |
 | [papadopoulos2021hotels](cards/papadopoulos2021hotels.md) | Violation and Lack of Awareness of Employment Rights in the… | 2021 | ai-automation | rejected | evidence | 5 | abstract | crossref-verified |
 | [papadopoulos2021violation](cards/papadopoulos2021violation.md) | Violation and Lack of Awareness of Employment Rights in the… | 2021 | mediation-sovereignty | cited | evidence | 6 | full-text | verified |
 | [parasuraman2000types](cards/parasuraman2000types.md) | A Model for Types and Levels of Human Interaction with Auto… | 2000 | ai-automation | cited | framing | 5 | abstract | verified |
 | [park2026lobbies](cards/park2026lobbies.md) | Transforming Hotel Lobbies via Community-Centered Design: C… | 2026 | hospitality-theory | cited | evidence | 8 | abstract | verified |
 | [parkinson2022online](cards/parkinson2022online.md) | Online Third Places: Supporting Well-Being through Identify… | 2022 | phygital-service | cited | evidence | 8 | abstract | verified |
-| [pedersen2022](cards/pedersen2022.md) | Discretionary Responses in Frontline Encounters: Balancing … | 2022 | ai-automation | cited | governor | 3 4 | abstract | verified |
+| [pedersen2022](cards/pedersen2022.md) | Discretionary Responses in Frontline Encounters: Balancing … | 2023 | ai-automation | cited | governor | 3 4 | full-text | verified |
 | [phillips2024physical](cards/phillips2024physical.md) | The Physical Frictionless Experience: A Slippery Slope for … | 2024 | phygital-service | cited | evidence | 7 | full-text | verified |
-| [pigac2026transparency](cards/pigac2026transparency.md) | Navigating Transparency in AI-Powered Luxury Hospitality: A… | 2026 | ai-automation | cited | rival | 6 | abstract | verified |
+| [pigac2026transparency](cards/pigac2026transparency.md) | Navigating Transparency in AI-Powered Luxury Hospitality: A… | 2026 | ai-automation | cited | rival | 6 | full-text | verified |
 | [pijls2017measuring](cards/pijls2017measuring.md) | Measuring the Experience of Hospitality: Scale Development … | 2017 | hospitality-theory | cited | evidence | 2 | full-text | verified |
-| [rahman2021cage](cards/rahman2021cage.md) | The Invisible Cage: Workers' Reactivity to Opaque Algorithm… | 2021 | ai-automation | cited | evidence | 3 | abstract | crossref-verified |
+| [rahman2021cage](cards/rahman2021cage.md) | The Invisible Cage: Workers' Reactivity to Opaque Algorithm… | 2021 | ai-automation | cited | evidence | 3 | full-text | crossref-verified |
 | [raisch2021paradox](cards/raisch2021paradox.md) | Artificial Intelligence and Management: The Automation-Augm… | 2021 | ai-automation | cited | framing | 5 | full-text | verified |
 | [rihova2018customer](cards/rihova2018customer.md) | Customer-to-Customer Co-creation Practices in Tourism: Less… | 2018 | hospitality-theory | rejected | none | 3 | full-text | crossref-verified |
 | [riordan2024digitally](cards/riordan2024digitally.md) | Digitally Mediated Hospitality and Algorithmic Hostility in… | 2024 | platform-hospitality | cited | framing | 1 | abstract | verified |
 | [roelofsenminca2018](cards/roelofsenminca2018.md) | The Superhost: Biopolitics, Home and Community in the Airbn… | 2018 | platform-hospitality | cited | evidence | 2 | abstract | crossref-verified |
 | [salazar2026restorying](cards/salazar2026restorying.md) | Restorying Hospitality in Times of Biopolitics and Polycris… | 2026 | hospitality-theory | held | framing | 8 | abstract | verified |
 | [santonidesio2021gaps](cards/santonidesio2021gaps.md) | Four Responsibility Gaps with Artificial Intelligence: Why … | 2021 | mediation-sovereignty | cited | both | 2 4 | full-text | verified |
-| [schmidt2025field](cards/schmidt2025field.md) | Human versus Robot: Comparing Service Agents in Hospitality… | 2025 | ai-automation | cited | evidence | 4 | abstract | verified |
+| [schmidt2025field](cards/schmidt2025field.md) | Human versus Robot: Comparing Service Agents in Hospitality… | 2025 | ai-automation | cited | evidence | 4 | full-text | verified |
 | [scottorlikowski2012accountability](cards/scottorlikowski2012accountability.md) | Reconfiguring Relations of Accountability: Materialization … | 2012 | platform-hospitality | cited | evidence | 3 | full-text | verified |
-| [shabnam2026tpsr](cards/shabnam2026tpsr.md) | Transformative Phygital Service Research (TPSR): An Agenda … | 2026 | phygital-service | cited | rival | 7 | abstract | verified |
-| [sharmamattila2025rights](cards/sharmamattila2025rights.md) | Rights and Responsibilities of Hospitality Service Robots | 2025 | ai-automation | cited | rival | 3 | abstract | verified |
+| [shabnam2026tpsr](cards/shabnam2026tpsr.md) | Transformative Phygital Service Research (TPSR): An Agenda … | 2026 | phygital-service | cited | rival | 7 | full-text | verified |
+| [sharmamattila2025rights](cards/sharmamattila2025rights.md) | Rights and Responsibilities of Hospitality Service Robots | 2025 | ai-automation | cited | rival | 3 | full-text | verified |
 | [shi2025residents](cards/shi2025residents.md) | Residents' Perceived Benefits of Host-Guest Interaction: Sc… | 2025 | hospitality-theory | cited | rival | 2 | abstract | verified |
 | [shryock2012breaking](cards/shryock2012breaking.md) | Breaking Hospitality Apart: Bad Hosts, Bad Guests, and the … | 2012 | hospitality-theory | held | evidence | 2 3 | full-text | verified |
 | [slattery2002finding](cards/slattery2002finding.md) | Finding the Hospitality Industry | 2002 | hospitality-theory | held | rival | 2 8 | full-text | crossref-verified |
@@ -419,27 +413,27 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [spier2024uncovering](cards/spier2024uncovering.md) | Uncovering Digital Platforms' Ethics and Politics: The Case… | 2024 | platform-hospitality | held | evidence | 3 | full-text | crossref-verified |
 | [star1999ethnography](cards/star1999ethnography.md) | The Ethnography of Infrastructure | 1999 | mediation-sovereignty | held | evidence | 7 | abstract | crossref-verified |
 | [starruhleder1996infrastructure](cards/starruhleder1996infrastructure.md) | Steps toward an Ecology of Infrastructure: Design and Acces… | 1996 | mediation-sovereignty | cited | evidence | 4 7 | abstract | crossref-verified |
-| [sterz2024effectiveness](cards/sterz2024effectiveness.md) | On the Quest for Effectiveness in Human Oversight: Interdis… | 2024 | mediation-sovereignty | cited | framing | 6 | abstract | verified |
+| [sterz2024effectiveness](cards/sterz2024effectiveness.md) | On the Quest for Effectiveness in Human Oversight: Interdis… | 2024 | mediation-sovereignty | cited | framing | 6 | full-text | verified |
 | [teubner2019reputation](cards/teubner2019reputation.md) | Reputation Transfer | 2019 | platform-hospitality | held | evidence | 3 | abstract | crossref-verified |
 | [tlili2023metaverse](cards/tlili2023metaverse.md) | Metaverse for Climbing the Ladder toward ``Industry 5.0'' a… | 2023 | phygital-service | held | evidence | 1 | abstract | verified |
 | [torres2014delight](cards/torres2014delight.md) | Examining Key Drivers of Customer Delight in a Hotel Experi… | 2014 | hospitality-theory | held | evidence | 7 | abstract | verified |
 | [tussyadiah2020automation](cards/tussyadiah2020automation.md) | A Review of Research into Automation in Tourism: Launching … | 2020 | ai-automation | held | framing | 1 | full-text | verified |
-| [vaccaro2020contesting](cards/vaccaro2020contesting.md) | 'At the End of the Day Facebook Does What It Wants': How Us… | 2020 | mediation-sovereignty | cited | null | 5 6 | abstract | crossref-verified |
+| [vaccaro2020contesting](cards/vaccaro2020contesting.md) | 'At the End of the Day Facebook Does What It Wants': How Us… | 2020 | mediation-sovereignty | cited | null | 5 6 | full-text | crossref-verified |
 | [vandoorn2017domo](cards/vandoorn2017domo.md) | Domo Arigato Mr. Roboto: Emergence of Automated Social Pres… | 2017 | phygital-service | cited | framing | 1 | full-text | verified |
 | [vandoorn2023](cards/vandoorn2023.md) | Organizational Frontlines in the Digital Age: The Consumer-… | 2023 | phygital-service | superseded | rival | 3 | abstract | verified |
 | [wang2024genai](cards/wang2024genai.md) | Personalizing Guest Experience with Generative AI in the Ho… | 2024 | ai-automation | held | evidence | 7 | abstract | verified |
 | [weaver2025fast](cards/weaver2025fast.md) | Fast Hospitality and Technology: Contemporaneous Connection… | 2025 | platform-hospitality | cited | rival | 7 | abstract | verified |
-| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2025 | phygital-service | rejected | evidence | 7 | abstract | crossref-verified |
+| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2025 | phygital-service | rejected | evidence | 7 | full-text | crossref-verified |
 | [wirtz2023digital](cards/wirtz2023digital.md) | Digital Service Technologies, Service Robots, AI, and the S… | 2023 | ai-automation | held | framing | 1 | abstract | verified |
 | [xiang2022covid](cards/xiang2022covid.md) | COVID-19 Prevention in Hotels: Ritualized Host-Guest Intera… | 2022 | hospitality-theory | held | evidence | 3 | full-text | crossref-verified |
 | [xing2026algorithmic](cards/xing2026algorithmic.md) | The Algorithmic Guest: AI as a Co-Creator in Customer Exper… | 2026 | phygital-service | cited | rival | 1 | abstract | verified |
 | [xu2020facial](cards/xu2020facial.md) | Facial Recognition Check-in Services at Hotels | 2020 | ai-automation | cited | evidence | 1 6 | abstract | verified |
 | [yeetal2023twosided](cards/yeetal2023twosided.md) | Effects of Reputation on Guest Satisfaction: From the Persp… | 2023 | platform-hospitality | rejected | evidence | 2 | abstract | crossref-verified |
 | [yeung2017hypernudge](cards/yeung2017hypernudge.md) | `Hypernudge': Big Data as a Mode of Regulation by Design | 2017 | mediation-sovereignty | cited | evidence | 6 | full-text | crossref-verified |
-| [ytrearnemoe2021folk](cards/ytrearnemoe2021folk.md) | Folk Theories of Algorithms: Understanding Digital Irritation | 2021 | mediation-sovereignty | cited | evidence | 5 | abstract | crossref-verified |
+| [ytrearnemoe2021folk](cards/ytrearnemoe2021folk.md) | Folk Theories of Algorithms: Understanding Digital Irritation | 2021 | mediation-sovereignty | cited | evidence | 5 | full-text | crossref-verified |
 | [yuan2026augment](cards/yuan2026augment.md) | Augment or Replace? AI Implementation and Employee Job Inse… | 2026 | ai-automation | held | rival | 4 | abstract | verified |
 | [yurrita2023disentangling](cards/yurrita2023disentangling.md) | Disentangling Fairness Perceptions in Algorithmic Decision-… | 2023 | mediation-sovereignty | cited | evidence | 7 | full-text | verified |
-| [yurrita2025needs](cards/yurrita2025needs.md) | Identifying Algorithmic Decision Subjects' Needs for Meanin… | 2025 | mediation-sovereignty | cited | evidence | 6 | abstract | verified |
+| [yurrita2025needs](cards/yurrita2025needs.md) | Identifying Algorithmic Decision Subjects' Needs for Meanin… | 2025 | mediation-sovereignty | cited | evidence | 6 | full-text | verified |
 | [zervas2021reputation](cards/zervas2021reputation.md) | A First Look at Online Reputation on Airbnb, Where Every St… | 2021 | platform-hospitality | cited | evidence | 3 | full-text | crossref-verified |
 | [zheng2025phygital](cards/zheng2025phygital.md) | The Phygital Tourism Experience Triad | 2025 | phygital-service | held | rival | 3 | full-text | verified |
 | [zhou2025competency](cards/zhou2025competency.md) | Algorithmic Competency of On-Demand Labor Platform Workers:… | 2025 | mediation-sovereignty | cited | rival | 5 | full-text | verified |

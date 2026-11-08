@@ -10,39 +10,62 @@ status: held
 role: evidence
 used_by_sections: [3]
 claims: [conditional-hospitality, four-criteria]
-read_depth: abstract
+read_depth: full-text
 verified: crossref-verified
 verified_date: 2026-11-08
-source_basis: "Crossref and OpenAlex records fetched 2026-11-08 (Leisure Studies 26(3), 321-338). Abstract read from the OpenAlex record. No full text reachable: closed at Taylor & Francis; Open University ORO returned 403, Strathprints 410, Napier and CORE gave no downloadable file."
+source_basis: "Full text read 2026-11-08 from the user-supplied PDF (sources/didomenico2007host/user_pdf/fulltext.pdf): Taylor & Francis version of record with publisher cover page, Leisure Studies 26(3), 321–338, July 2007, published online 11 Jun 2007; 19 PDF pages (cover + pp. 321–338). Title, authors and DOI match the card and Crossref (first author printed 'Marialaura' on the cover, 'MariaLaura' in the correspondence line). Locators are the printed journal pages. Earlier abstract record: OpenAlex, fetched 2026-11-08."
 generated_run: rr-2026-11
-flags: [abstract-only-debt]
-hold_rationale: "Held pending author decision; recommended as the third R1.2 source, conditional on a full-text read. Needs a references.bib entry before build_index --check will pass."
+flags: [swap-candidate]
+hold_rationale: "Held pending author decision. Read in full 2026-11-08: the findings show host-controlled house rules in a commercial home, with guests who lack power and do not complain, more than a negotiation between equals. Usable as the face-to-face baseline in which the host is present and reachable; weak as evidence that the encounter is negotiated. Needs a references.bib entry before build_index --check will pass."
 ---
 
 ## Summary
 
-Interviews with owner-managers of commercial homes (bed-and-breakfasts and similar) and a
-guest-researcher's observations show host and guest working out the rules of a space that is both
-home and business, through domestic symbols, spatial management and unspoken protocols.
+Two Scottish qualitative studies of commercial homes (bed-and-breakfasts, guesthouses, small
+hotels): interviews with 33 owner-hosts and a covert guest-researcher's 31 nights in seven
+establishments. Findings fall under two themes: domestic symbols as identity markers and stage
+props, and host strategies of spatial and temporal social control. Hosts set communicated and
+uncommunicated house rules and hold most of the power; guests often cannot tell what is expected
+and refrain from complaining; host and guest norms can clash, making shared spaces "contested".
 
 ## Key facts / verified quotes with loci
 
-- 'The findings reveal that domestic symbols add to the construction and interpretation of negotiated normative practices within these home-based enterprises.' (abstract) [abstract]
-- The paper explores 'social control and spatial management strategies employed by hosts and guests' (abstract) [abstract]
-- Commercial homes 'blur traditional boundaries between home and work and social constructions of hospitableness versus hospitality' (abstract) [abstract]
-- Boundary setting is 'framed by unspoken protocols' (abstract) [abstract]
-- Method: 'interviews with owner‐managers of these micro businesses and a guest‐researcher’s experiences and observations' (abstract) [abstract]
-- *Leisure Studies* 26(3), pp. 321-338 [metadata]
+- Abstract: "The findings reveal that domestic symbols add to the construction and interpretation of negotiated normative practices within these home-based enterprises." (p. 321) [full-text]
+- Method: 33 host participants in the main phase (p. 325); the guest-researcher "stayed 31 nights overall in seven different establishments" with covert observation (p. 326) [full-text]
+- On the terms: "The term 'host' reflects a more personal undertaking than the more neutral terms of 'owner' or 'proprietor'. Similarly, the term 'guest' is used in everyday discourse to refer to an invited person within one's home as distinct from the more value-free label of 'customer'" (p. 322) [full-text]
+- House rules and power: "all proprietors expected guests to abide by both communicated and non-communicated house 'rules'." ... "The balance of power in the host/guest relationship is perceived by hosts to rest firmly with them." (p. 332) [full-text]
+- Contested space: "the business domain as 'front stage' or home domain as 'back stage' became a type of 'contested space'." (p. 332) [full-text]
+- Guests do not press claims: "…in a hotel one might complain about the beds being uncomfortable, but as the guest in the home one does not, it's not the done thing…" (researcher's notes, p. 333) [full-text]
+- "Guests lack power in deciding the social control of initial access" (p. 333) [full-text]
+- Exclusion at host discretion: "We've thrown people out before." (host interview, p. 334); a host's report of a refusal rule based on prejudice (p. 334) [full-text]
+- Conclusion: "Guest and host may not concur in their definitions of acceptable behavioural and social norms. Each possesses routines and rituals, and their normative values may clash." (p. 335) [full-text]
+- Conclusion: house rules "reinforce ... the imbalance of power in the relationship, whereby decisions pertaining to access and behavioural conduct lie much more with host than guest." (p. 335) [full-text]
+- Hotel contrast: the commercial home is "a counterpoint to the unambiguous and therefore monodimensional hotel with clearly compartmentalized spaces." (p. 331) [full-text]
+- Commercial homes "convey competing conceptions of home and work, inclusion and privacy, domestic hospitableness and commercial hospitality." (p. 336) [full-text]
+- *Leisure Studies* 26(3), pp. 321–338 [metadata]
 
 ## Critical notes & threats
 
-- The only source found whose own findings use the word negotiation for the host–guest norms of a commercial setting. Paul Lynch co-authored it, so it sits inside the critical hospitality-studies tradition the paper draws on.
-- The setting cuts against the paper's case: in a commercial home the owner is present and is the host, so the counterparty is always reachable. That makes it the baseline the paper watches come apart, which is a fair use, but the paragraph must say so.
-- Leisure Studies is outside the preferred venue list. The plan's lead pointed to the 2007 *Hospitality: A Social Lens* volume; Crossref lists a Di Domenico and Lynch chapter there, "Commercial Home Enterprises: Identity, Space and Setting" (doi 10.1016/b978-0-08-045093-3.50012-6), which may be the better-placed version. Not read.
+**Settled: does it show host–guest negotiation?** Only in a thin sense. "Negotiated normative practices" is the authors' word in the abstract (p. 321), but the body never shows a guest making a claim that changes a rule. What it shows is host-set rules (p. 332), guests who are uncertain and powerless at entry (pp. 332–333), guests who do not complain because "it's not the done thing" (p. 333), clashing norms (p. 335) and hosts who eject guests (p. 334). Negotiation here is tacit adjustment under an acknowledged power imbalance. The paper's sense, a guest's claim that a party obliged to receive it must answer, does not appear.
+
+**A hospitality-vs-service distinction?** Partly. The authors defend "host" and "guest" over "owner" and "customer" (p. 322) and contrast the commercial home with the "monodimensional" hotel (p. 331), and with "commercial hospitality" (p. 336). It is a distinction of setting and meaning, not of what is owed.
+
+**What it can do for the paper.** It shows the face-to-face baseline: the host is present, can be addressed and holds the authority to admit, set rules and refuse (pp. 332–335). It also gives a warning the paper should take on. Copresence does not guarantee standing: guests in the home "do not" complain (p. 333). That cuts against a romantic reading of the human host.
+
+Support verdicts (no v4 sentence cites it):
+
+- WS_C synthesis (b): "In the commercial home, Di Domenico and Lynch (2007, abstract) find host and guest building 'negotiated normative practices' through domestic symbols, spatial management and 'unspoken protocols'". **PARTLY.** Both quotations are on p. 321 (the abstract) and are the authors' words, but the findings show host-imposed rules and guest deference (pp. 332–335), not negotiation between parties.
+- WS_C synthesis (b): "with the owner present to settle them". **SUPPORTED as setting** (owner-hosts present throughout, pp. 322, 332). But the owner settles by rule and exclusion (pp. 332, 334), not by hearing the guest.
+- WS_C synthesis (b): "Hospitality scholarship describes the host–guest encounter as negotiated rather than delivered." **PARTLY** for this source: it shows host-controlled norms with friction, not delivery, but not negotiation either.
+- Revision plan §3, "the hospitality literature on host–guest negotiation, which shows the encounter as a negotiated relation rather than a delivery". **PARTLY** for this source; Xiang et al. (2022) carries the negotiation claim better (WS_C).
+- `swap-candidate` added: for the negotiation claim, Xiang et al. (2022) or Lugosi (2014) should lead. Di Domenico and Lynch can stay as the copresent-host baseline, or for the point that copresence does not secure standing (p. 333).
+
+Leisure Studies is outside the preferred venue list. Crossref lists a Di Domenico and Lynch chapter in *Hospitality: A Social Lens* (2007), "Commercial Home Enterprises: Identity, Space and Setting" (doi 10.1016/b978-0-08-045093-3.50012-6). Not read.
 
 ## Where it enters the manuscript
 
-Section 3 (new numbering, rr-2026-11): the face-to-face baseline in which host and guest negotiate
-the norms of the stay with the owner present.
+Section 3 (new numbering, rr-2026-11), if admitted: the copresent host as the baseline in which the obligation has an address (pp. 332–335), with the caveat that copresence alone did not let guests press claims (p. 333).
 
 Fable-checked rr-2026-11 (2026-11-08): all five quotes match the OpenAlex abstract re-fetched 2026-11-08 (Crossref carries none); Crossref spells the first author 'Marialaura'; no change.
+
+Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: findings show host-set rules and guest deference (pp. 332–335), so the "negotiated" use is PARTLY; swap-candidate added; abstract-only-debt removed; hold_rationale updated.
