@@ -1,7 +1,7 @@
 ---
 citekey: mameli2026framework
 title: "A Comprehensive Framework for Phygital Tourism Experiences"
-authors: "Mameli, Eleonora and Scarles, Caroline and Stangl, Brigitte and Frohlich, David"
+authors: "Mameli, Elisa and Scarles, Caroline and Stangl, Brigitte and Frohlich, David"
 year: 2026
 doi: 10.1007/s40558-026-00362-6
 venue: "Information Technology & Tourism"
@@ -10,28 +10,43 @@ status: cited
 role: framing
 used_by_sections: [7]
 claims: [seamlessness-uncritiqued]
-read_depth: abstract
+read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
-source_basis: "Springer open article page reviewed for the abstract and framework structure."
+verified_date: 2026-11-08
+source_basis: "Read in full from the user-supplied PDF (rr-2026-11): version of record, Springer open access, Information Technology & Tourism (2026) 28:19, 31 pages, printed 'Page N of 31' locators. Title, authors and DOI match."
 generated_run: 2026-08-11-p9
 flags: []
 hold_rationale: "Held for section 7 paragraph 1 as the currency check on the gap."
 ---
 ## Summary
 
-Integrative framework for phygital tourism experience design built from 57 articles and 84 industry examples, organizing the field's design considerations.
+Narrative review guided by PRISMA (57 articles, July 2023 search) plus a content analysis of 84 industry phygital examples from 11 sectors, combined into an integrated framework for phygital tourism experiences: design components on a physical–digital "ratio" continuum, five experience types with features, and stakeholder co-design.
 
 ## Key facts / verified quotes with loci
 
-- Corpus is 57 articles plus 84 industry cases [abstract]
-- Seamlessness appears as an assumed design goal with no friction or agency dimension [abstract]
-- Published 2026, so the absence is current rather than historical [metadata]
+- Corpus: "a content analysis of 84 practical-phygital examples across 11 industries" and "A total of 57 academic articles were analysed" (Abstract, p. 1); restated "a narrative systematic review of 57 academic articles and a content analysis of 84 practical-phygital examples across 11 sectors" (p. 25) [full-text]
+- The word "friction" does not occur anywhere in the article (full-text search, confirmed by reading) [full-text]
+- Risks are named but only as a thin, under-researched theme: "only 5 studies have discussed the potential risks and challenges associated with phygital solutions"; Veer and Dobele "argue that scholars need to investigate the potential risks of phygital solutions instead of focusing only on the advantages" (p. 13) [full-text]
+- Luxury retail studies are faulted for "neglecting potential drawbacks such as technical glitches and privacy concerns, thus assuming that everyone views the presence of phygital solutions positively" (p. 14); Table 7 lists "Risks, and challenges of phygital experiences" as contradictory evidence (p. 22) [full-text]
+- Seamlessness is treated as defining, not questioned: the study emphasises "phygital as a distinct experiential form characterised by the seamless integration of sensory, spatial, and technological elements" (p. 25); DMOs may "seamlessly integrate physical and digital touchpoints" (p. 26) [full-text]
+- Calls for mixed methods "to explore factors influencing both positive and negative aspects of engagement and satisfaction in phygital experiences" (p. 26) [full-text]
+- Hospitality application is framed as merging "physical service delivery with digital enhancement" to "strengthen emotional connection, service quality, and brand differentiation" (p. 26) [full-text]
+
+## Support verdicts (rr-2026-11, against v4 and the revision plan)
+
+- v4 §7: "Smoothness has become a central goal in accounts of phygital hospitality (Batat and Hammedi 2023; Batat 2024; Mameli et al. 2026)". SUPPORTED for Mameli: "seamless integration" is part of its definition of phygital (p. 25).
+- v4 §7: "the most recent integrative framework for phygital tourism, built from 57 studies and 84 industry cases, ..." SUPPORTED: 57 articles/eligible studies (p. 1, p. 7) and 84 examples (p. 1, p. 8, p. 25). "Cases" paraphrases the source's "examples".
+- v4 §7: "... contains no discussion of friction at all". PARTLY. The term never appears, but the article does discuss "risks and challenges" (p. 13), "drawbacks such as technical glitches and privacy concerns" (p. 14) and "negative aspects of engagement" (p. 26). A reviewer who reads friction broadly can say the claim overstates. A defensible wording: the framework never uses the word friction and treats risks only as a research gap, never as a design consideration.
+- Revision plan §7 (seamlessness as the one design value left unquestioned): SUPPORTED for this source. Risks appear only as adoption barriers and gaps (pp. 13, 22). Seamless integration itself is never questioned.
 
 ## Critical notes & threats
 
-- A 2026 framework with no friction dimension is the cleanest evidence that the gap is open, and it is more persuasive than any number of older citations.
+- Bibliographic correction recorded here: the first author is **Elisa** Mameli (PDF p. 1), not "Eleonora" as this card's frontmatter had it. references.bib and v4 already have Elisa. The PDF prints the citation as "(2026) 28:19". It prints no issue number, so the bib's `number = {1}` is not confirmed by the PDF.
+- The search was July 2023 (p. 6), so "most recent" holds by publication date (2026), not by corpus currency.
+- The review cites Batat and Hammedi's ERT framework as "(2022)" (pp. 15, 23); that is their dating, not an error in this paper.
 
 ## Where it enters the manuscript
 
-Not yet in the manuscript. Enters section 7 paragraph 1.
+v4 §7 paragraph on seamlessness; revision §7.
+
+Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: counts confirmed; "no discussion of friction" judged PARTLY (word absent, risks discussed as a gap); first-name error in card corrected.
