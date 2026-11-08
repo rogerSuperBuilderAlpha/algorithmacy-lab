@@ -51,3 +51,5 @@ A qualitative case study of Le Petit Chef, a 3D video-mapped animated chef proje
 v4 §5 (the second test case); revision §5 if kept.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: delight and staff presence confirmed; "rules steady / staff discretion" and opt-out are not in the source (PARTLY).
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes on pp. 4, 5, 7, 8, 9, 10, 11 re-read; my own search for decline/opt/refuse found only technology-adoption uses, none about a diner declining the projection; PARTLY stands.

@@ -12,7 +12,7 @@ used_by_sections: [6]
 claims: [affordances-derived]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/pigac2026transparency/user_pdf/fulltext.pdf: Sage version of record, Cornell Hospitality Quarterly 67(3), pp. 283-297 (2026), 15 PDF pages. Identity confirmed against title and DOI. Authors per the PDF: Tilen Pigac, Ada Lee, Ava Huang (p. 283); the card's earlier 'Tin' and 'Alice' were wrong, and v4's reference list is right. Earlier basis: Sage publisher page and OpenAlex record."
 generated_run: 2026-08-11-p9
 flags: [must-engage]
@@ -56,3 +56,7 @@ insight, privacy-conscious elites want opt-in, user-controlled dashboards.
 v4 §7 (line 65), the first interface principle. The card's "Not yet in the manuscript" was stale.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: corrected two author names, overturned the "transparency only" fact (staff override and control are present, pp. 291-292), judged line 65 PARTLY on timing, and found Theme 4 usable for the fourth principle.
+
+- (Fable, rr-2026-11) The paper has no contestation, appeal or dispute vocabulary at all (full-text search: zero hits for contest, appeal, dispute). Its override is the concierge's, offered to reassure the guest (p. 291); the guest is never given a route to challenge a decision. That is the sharpest form of the "trust device, not standing" distinction.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4 in full; verified_date brought to 2026-11-08; added the zero-hit note on contest/appeal/dispute; quotes on pp. 286, 291, 292 re-read against the PDF; verdicts unchanged.

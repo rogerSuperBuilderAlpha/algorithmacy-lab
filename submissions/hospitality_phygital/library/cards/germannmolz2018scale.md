@@ -36,7 +36,7 @@ Critical discourse analysis of scholarship, journalism and Airbnb marketing. It 
 
 - v4 §3: "Research on Airbnb ... has documented ... the platform's idea of hospitality shaping what hosts feel they must offer (Roelofsen and Minca 2018; Germann Molz 2018)". PARTLY. The article shows the reputation system requiring a "stellar reputation" and recasting hospitality's moral responsibility (p. 237). It is a discourse analysis of marketing and secondary literature (p. 235), though, not a study of what hosts feel. "documented ... what hosts feel" leans on Roelofsen and Minca, or should read "requires of hosts".
 - v4 §3: "Hospitality scholarship ... was already worrying that a third party had unsettled the question of who hosts": SUPPORTED (pp. 244-245).
-- Revision plan §2 (transfer: ownership of the obligation moves only with the role; delegating to a system hands it to no one): SUPPORTED as a hospitality-literature precedent. The platform uses its digital status to transfer liabilities onto hosts and municipalities (pp. 244-245). This is a stronger use than the current §3 citation.
+- Revision plan §2 (transfer: ownership of the obligation moves only with the role; delegating to a system hands it to no one): PARTLY (changed from SUPPORTED by the Fable read, agreeing with verifier_4). What the article shows is the opposite movement: the platform "exempts itself from more binding regulation" (p. 244) and investors profit "while transferring legal and tax liabilities onto homeowners and regulatory obligations onto municipalities" (p. 245). That is an institution shedding obligation successfully, not obligation staying with the institution by default. It is a hospitality-literature precedent for the stakes of the Transfer question, and the revision can cite it as the problem the §2 move answers; it cannot be cited as support for the move's conclusion.
 
 ## Critical notes & threats
 
@@ -48,3 +48,5 @@ Critical discourse analysis of scholarship, journalism and Airbnb marketing. It 
 v4 §3 (Airbnb paragraph); revision §2 or §3.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: pagination settled at 229-251; host-feeling claim judged PARTLY (discourse analysis); liability-transfer passage (pp. 244-245) found for the revision's §2.
+
+Fable-checked rr-2026-11 (2026-11-08): revision-plan §2 Transfer verdict changed SUPPORTED → PARTLY (pp. 244-245 show the platform shedding obligation, a precedent for the problem, not for the conclusion); quotes on pp. 233, 235, 236, 237, 244, 245 re-read; other verdicts unchanged.

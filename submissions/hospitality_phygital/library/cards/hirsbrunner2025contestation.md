@@ -56,3 +56,5 @@ institutionalized from situative, bottom-up ("parrhesiastic") contestation.
 v4 §7 (line 67). The card's "Not yet in the manuscript" was stale. The revision plan cuts it.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: corrected two author names, recorded that the designer/community contrast is argued not found (p. 11) and that competence is a stated condition of contestation (p. 3); line 67 judged PARTLY.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes on pp. 2, 3, 11, 12 re-read against the PDF; PARTLY on line 67 and the "cut with the trimmed §7" note stand.

@@ -36,16 +36,18 @@ Three-phase qualitative lab study (November 2013 to April 2014) with 40 Facebook
 
 - v4 §6: "Through repeated encounters they build working theories of how a system behaves (Eslami et al. 2016; ...)". SUPPORTED: Aware participants' theories "developed naturally from their regular Facebook usage" (p. 2373). Caveat: the paper's main finding is that a seamful probe let unaware users form similar theories quickly (p. 2378). Repetition is one route, not the only one.
 - Old card claim "Folk theories form and drive behaviour with no livelihood at stake": PARTLY. Participants were ordinary users paid $10/hour for the session (p. 2373). The paper never frames the point as economic stakes, so "nothing economic at stake" is the card's inference.
-- v4 §6 "But there is a ceiling on what skill can do ... Skill cannot conjure a counterparty": not cited to Eslami, but the source supports it directly. Users holding theories still saw themselves without agency (p. 2380).
+- v4 §6 "But there is a ceiling on what skill can do ... Skill cannot conjure a counterparty": not cited to Eslami. Support is weak and double-edged (changed from "supports it directly" by the Fable read, agreeing with verifier_4). The p. 2380 finding is about perceived agency: users "did not see themselves as possessing any agency" and "see even these simple tasks as being outside of their abilities". The authors' remedy is "changing the design to give users a greater feeling of agency over their News Feed and promoting learning about it using seamful design" (p. 2380), which is the interface-and-education fix v4 line 67 calls a misdiagnosis. A reviewer can turn the source against the competence/standing split. Do not cite it for the ceiling claim.
 - Revision plan §7 (separating interruptibility from seamful design): this paper is a primary seamful-design source and should be engaged there. It ties "seamless" design to opacity (p. 2371) and seams to user empowerment (p. 2380).
 
 ## Critical notes & threats
 
 - Laboratory, non-representative sample; the authors decline prevalence claims (p. 2379).
-- The p. 2380 agency finding is better evidence for "competence is not standing" than the current v4 citations for that sentence. It also comes from a source the paper already cites.
+- (Fable, rr-2026-11) The earlier note that the p. 2380 agency finding is "better evidence for 'competence is not standing'" is withdrawn. The finding is about felt agency, and the authors treat it as a design and learning gap; see the verdict above.
 
 ## Where it enters the manuscript
 
 v4 §6 folk-theory sentence; revision §6 and §7 (seamful design).
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: folk-theory citation SUPPORTED; found the agency finding (p. 2380) and the seamless/seamful passages (pp. 2371, 2380) for revision §6-§7.
+
+Fable-checked rr-2026-11 (2026-11-08): the "supports directly" claim for the ceiling sentence downgraded to weak/double-edged (p. 2380 is perceived agency and its remedy is seamful design plus learning); the "better evidence" note withdrawn; folk-theory verdict SUPPORTED (p. 2373) stands; quotes on pp. 2371, 2373, 2379, 2380 re-read.

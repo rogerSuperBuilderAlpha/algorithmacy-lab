@@ -29,6 +29,7 @@ Thirty-two semi-structured interviews with food-delivery platform workers, mostl
 - Futility leads to silence: "At first, I used to complain all the time. Now I don't bother. It's just how the app works – you can't change it." (FD03, p. 1447) [full-text]
 - Customers as control: "customers effectively become extensions of managerial control" (p. 1448); workers "rarely having any opportunity to contest or dispute such reviews, resulting in a broken accountability loop" (p. 1448); "the customer seemingly has an uncontested voice, while the worker is denied the opportunity for response or redress" (p. 1449) [full-text]
 - Sample: "a total of 32 in-depth, semi-structured interviews" (p. 1441) [full-text]
+- (Fable, rr-2026-11) Data-structure table lists "Workers unable to contest or dispute ratings" and "Lack of formal channels for redress with OLP" as first-order concepts (p. 1444). This is the passage closest to v4's "at all", but it concerns ratings, not decisions in general, and the narrative text says "rarely" (p. 1448) [full-text]
 
 ## Support verdicts (rr-2026-11)
 
@@ -46,3 +47,5 @@ Thirty-two semi-structured interviews with food-delivery platform workers, mostl
 v4 §6 employee-silence paragraph; revision §6 (one paragraph) and §9.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: "enforced silence" confirmed; "at all" judged an overstatement (source says "rarely"); author first-name error in card corrected.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; added the p. 1444 table entry ("Workers unable to contest or dispute ratings") as the nearest passage to v4's wording, limited to ratings; quotes on pp. 1432, 1446, 1447, 1448, 1449 re-read; PARTLY stands.

@@ -46,3 +46,5 @@ Two vignette experiments with US respondents. Study 1 is a 2 x 2 design (human v
 v4 §7 fourth principle; revision §7.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: attribution claim SUPPORTED with vignette and effect-size qualifications; p. 283 human-assistance recommendation found.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Statistics (M = 4.01 vs 3.47, F = 16.33; M = 4.35 vs 4.12, F = 4.68; failure-only F = 3.97) and the pp. 282-283 passages re-read against the PDF; SUPPORTED with the two caveats stands.

@@ -356,7 +356,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [lynch2021critical](cards/lynch2021critical.md) | Hospitality & Society: Critical Reflections on the Theorizi… | 2021a | hospitality-theory | held | evidence | 1 2 | full-text | verified |
 | [lynch2021reprise](cards/lynch2021reprise.md) | Theorizing Hospitality: A Reprise | 2021b | hospitality-theory | held | evidence | 2 | abstract | verified |
 | [lyons2021conceptualising](cards/lyons2021conceptualising.md) | Conceptualising Contestability: Perspectives on Contesting … | 2021 | mediation-sovereignty | held | evidence | 7 | full-text | crossref-verified |
-| [mameli2026framework](cards/mameli2026framework.md) | A Comprehensive Framework for Phygital Tourism Experiences | 2026 | phygital-service | cited | framing | 7 | full-text | verified |
+| [mameli2026framework](cards/mameli2026framework.md) | A Comprehensive Framework for Phygital Tourism Experiences:… | 2026 | phygital-service | cited | framing | 7 | full-text | verified |
 | [manfreda2025pedagogy](cards/manfreda2025pedagogy.md) | The Pedagogy of Hospitableness: A Transformative Approach f… | 2025 | hospitality-theory | held | governor | 2 | abstract | verified |
 | [manfreda2025reciprocal](cards/manfreda2025reciprocal.md) | Beyond Exchange: Decoding Reciprocal Hospitableness in Luxu… | 2025 | hospitality-theory | cited | rival | 2 | abstract | verified |
 | [martinwaldman2022legitimacy](cards/martinwaldman2022legitimacy.md) | Are Algorithmic Decisions Legitimate? The Effect of Process… | 2022 | mediation-sovereignty | rejected | evidence | 6 | full-text | crossref-verified |
@@ -402,7 +402,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [schmidt2025field](cards/schmidt2025field.md) | Human versus Robot: Comparing Service Agents in Hospitality… | 2025 | ai-automation | cited | evidence | 4 | full-text | verified |
 | [scottorlikowski2012accountability](cards/scottorlikowski2012accountability.md) | Reconfiguring Relations of Accountability: Materialization … | 2012 | platform-hospitality | cited | evidence | 3 | full-text | verified |
 | [shabnam2026tpsr](cards/shabnam2026tpsr.md) | Transformative Phygital Service Research (TPSR): An Agenda … | 2026 | phygital-service | cited | rival | 7 | full-text | verified |
-| [sharmamattila2025rights](cards/sharmamattila2025rights.md) | Rights and Responsibilities of Hospitality Service Robots | 2025 | ai-automation | cited | rival | 3 | full-text | verified |
+| [sharmamattila2025rights](cards/sharmamattila2025rights.md) | Rights and Responsibilities of Hospitality Service Robots | 2026 | ai-automation | cited | rival | 3 | full-text | verified |
 | [shi2025residents](cards/shi2025residents.md) | Residents' Perceived Benefits of Host-Guest Interaction: Sc… | 2025 | hospitality-theory | cited | rival | 2 | abstract | verified |
 | [shryock2012breaking](cards/shryock2012breaking.md) | Breaking Hospitality Apart: Bad Hosts, Bad Guests, and the … | 2012 | hospitality-theory | held | evidence | 2 3 | full-text | verified |
 | [slattery2002finding](cards/slattery2002finding.md) | Finding the Hospitality Industry | 2002 | hospitality-theory | held | rival | 2 8 | full-text | crossref-verified |
@@ -423,7 +423,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [vandoorn2023](cards/vandoorn2023.md) | Organizational Frontlines in the Digital Age: The Consumer-… | 2023 | phygital-service | superseded | rival | 3 | abstract | verified |
 | [wang2024genai](cards/wang2024genai.md) | Personalizing Guest Experience with Generative AI in the Ho… | 2024 | ai-automation | held | evidence | 7 | abstract | verified |
 | [weaver2025fast](cards/weaver2025fast.md) | Fast Hospitality and Technology: Contemporaneous Connection… | 2025 | platform-hospitality | cited | rival | 7 | abstract | verified |
-| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2025 | phygital-service | rejected | evidence | 7 | full-text | crossref-verified |
+| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2026 | phygital-service | rejected | evidence | 7 | full-text | crossref-verified |
 | [wirtz2023digital](cards/wirtz2023digital.md) | Digital Service Technologies, Service Robots, AI, and the S… | 2023 | ai-automation | held | framing | 1 | abstract | verified |
 | [xiang2022covid](cards/xiang2022covid.md) | COVID-19 Prevention in Hotels: Ritualized Host-Guest Intera… | 2022 | hospitality-theory | held | evidence | 3 | full-text | crossref-verified |
 | [xing2026algorithmic](cards/xing2026algorithmic.md) | The Algorithmic Guest: AI as a Co-Creator in Customer Exper… | 2026 | phygital-service | cited | rival | 1 | abstract | verified |

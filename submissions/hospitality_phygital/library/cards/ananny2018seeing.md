@@ -51,3 +51,5 @@ The article traces the transparency ideal and lists ten limitations of it as a r
 v4 §5 (transparency paragraph); revision §5.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: insufficiency claim supported, obliged-answerer half rests on Bovens not on Ananny and Crawford (PARTLY); card's "forum" lineage claim corrected.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. "forum" and "Bovens" zero hits confirmed on my own extraction; quotes on pp. 976, 978, 984 re-read; PARTLY on both §5 uses stands.

@@ -35,7 +35,7 @@ Twelve ethnographic interviews (September to November 2022) with de-platformed I
 
 - v4 §6: "Knowing how to file an appeal is not the same as having a right to an answer (Vaccaro et al. 2020; Are 2025)." SUPPORTED: users who used every option heard nothing back (p. 2005), and recovery tracked clout and contacts (p. 2006). Caveat: one participant credits "utter persistence" (p. 2004), so the evidence is not that skill never works. It shows that working depends on someone at the platform choosing to act.
 - v4 §8: "individual skill cannot create institutional rights, authority, or responsibility (Vaccaro et al. 2020; Are 2025)". SUPPORTED on the same evidence (pp. 2005-2006).
-- Old card claim "The same actor investigates, judges and decides the appeal": PARTLY. "cop, judge and jury" is the author's metaphor (p. 2010). In it the algorithm is the cop and moderators the judge and jury, so it does not literally describe a single actor.
+- Old card claim "The same actor investigates, judges and decides the appeal": PARTLY. "cop, judge and jury" is the author's metaphor. The exact string "an algorithmic cop, judge and jury" is on p. 2011; p. 2010 reads "an algorithmic cop, algorithmic judge and jury", and the abstract has "'algorithmic cop, jury and judge'" (p. 1997). In the p. 2010 account the algorithm is the cop and moderators the judge and jury, so it does not literally describe a single actor.
 
 ## Critical notes & threats
 
@@ -47,3 +47,5 @@ Twelve ethnographic interviews (September to November 2022) with de-platformed I
 v4 §6 ceiling paragraph and §8 contribution summary.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: both v4 uses SUPPORTED; "same actor" note corrected to a metaphor; persistence caveat added.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4's locator fix, "cop, judge and jury" moved to p. 2011 with the p. 2010 and p. 1997 variants recorded (confirmed on PDF pages 15-16); quotes on pp. 2003, 2004, 2005, 2006 re-read; both SUPPORTED verdicts stand.

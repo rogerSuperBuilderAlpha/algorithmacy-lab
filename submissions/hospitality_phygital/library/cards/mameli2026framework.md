@@ -1,6 +1,6 @@
 ---
 citekey: mameli2026framework
-title: "A Comprehensive Framework for Phygital Tourism Experiences"
+title: "A Comprehensive Framework for Phygital Tourism Experiences: Bridging Academic Insights and Industry Practices across Sectors"
 authors: "Mameli, Elisa and Scarles, Caroline and Stangl, Brigitte and Frohlich, David"
 year: 2026
 doi: 10.1007/s40558-026-00362-6
@@ -41,7 +41,8 @@ Narrative review guided by PRISMA (57 articles, July 2023 search) plus a content
 
 ## Critical notes & threats
 
-- Bibliographic correction recorded here: the first author is **Elisa** Mameli (PDF p. 1), not "Eleonora" as this card's frontmatter had it. references.bib and v4 already have Elisa. The PDF prints the citation as "(2026) 28:19". It prints no issue number, so the bib's `number = {1}` is not confirmed by the PDF.
+- Bibliographic correction recorded here: the first author is **Elisa** Mameli (PDF p. 1), not "Eleonora" as this card's frontmatter had it. references.bib and v4 already have Elisa. The PDF prints the citation as "(2026) 28:19" and no issue number; verifier_4's Crossref fetch (2026-11-08) gives issue 1, so the bib's `number = {1}` and v4's "28:1, 19" are confirmed.
+- (Fable, rr-2026-11) The card `title` omits the subtitle. The PDF title page reads "A comprehensive framework for phygital tourism experiences: bridging academic insights and industry practices across sectors" (p. 1). references.bib and v4 carry the subtitle; the card frontmatter is corrected below.
 - The search was July 2023 (p. 6), so "most recent" holds by publication date (2026), not by corpus currency.
 - The review cites Batat and Hammedi's ERT framework as "(2022)" (pp. 15, 23); that is their dating, not an error in this paper.
 
@@ -50,3 +51,5 @@ Narrative review guided by PRISMA (57 articles, July 2023 search) plus a content
 v4 §7 paragraph on seamlessness; revision §7.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: counts confirmed; "no discussion of friction" judged PARTLY (word absent, risks discussed as a gap); first-name error in card corrected.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; card title completed with the PDF's subtitle; issue number recorded as Crossref-confirmed; "friction" zero hits re-run on my own extraction; 57/84 counts and the July 2023 search date (p. 6) re-read; verdicts unchanged.

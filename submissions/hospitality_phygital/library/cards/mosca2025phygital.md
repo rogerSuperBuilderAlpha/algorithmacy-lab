@@ -27,7 +27,7 @@ Conceptual paper that theorises the museum as a phygital ecosystem. Its framewor
 ## Key facts / verified quotes with loci
 
 - Well-being levels: "our conceptualization of well-being extends beyond the SDL notion of 'actor well-being' to embrace individual, social, and societal dimensions" at micro, meso and macro levels (p. 439) [full-text]
-- Seamlessness as goal: phygital museums are "holistic ecosystems ... where digital and physical elements converge to create seamless, multilayered experiences that should guarantee a coherent continuum in the delivery, circulation, and capturing of value (Batat, 2024)" (p. 427); designers should create "a seamless continuum in which physical exhibits, digital content, and human mediation are intertwined" (p. 440) [full-text]
+- Seamlessness as goal: phygital museums are "holistic ecosystems ... where digital and physical elements converge to create seamless, multilayered experiences that should guarantee a coherent continuum in the delivery, circulation, and capturing of value (Batat, 2024)" (p. 427); designers should create "a seamless continuum in which physical exhibits, digital content, and human mediation are intertwined" (pp. 440-441; the sentence crosses the page break after "human mediation") [full-text]
 - Human mediation required: "curators and technologists must ensure that visitors are assisted (empowered) by human facilitators in the use and understanding of technology" (p. 434); "Visitors must be guided—not overwhelmed—by technology" (p. 437) [full-text]
 - Risk named: "Without these, the use of digital technologies risks reinforcing existing inequalities, fostering short-term engagement only ... or falling into the trap of technological determinism" (p. 438) [full-text]
 - Critique of PH-CX: existing frameworks show a "narrow customer focus" that "risks flattening the museum complexities" (p. 431) [full-text]
@@ -37,7 +37,7 @@ Conceptual paper that theorises the museum as a phygital ecosystem. Its framewor
 
 - v4 §8: "Transformative research already asks how service ecosystems shape individual and collective well-being across economic, cognitive, emotional, and social lines (Anderson and Ostrom 2015; Batat 2022; Mosca et al. 2026b)". PARTLY for Mosca. It does treat well-being at individual and collective (social, societal) levels (p. 439), but its dimensions are "individual, social, and societal". It does not use "economic, cognitive, emotional, and social", and its setting is museums. The sentence holds only if the four lines are read as Batat's.
 - Old card use (§4 cluster on well-being valence): SUPPORTED in general terms (p. 438: amplification "is not a given consequence of phygitalization").
-- Not currently cited for seamlessness, but pp. 427 and 440 would show that an SI editor's own 2026 paper also sets "seamless" continuity as the goal. That would strengthen v4 §7's claim about the field.
+- Not currently cited for seamlessness, but pp. 427 and 440-441 would show that an SI editor's own 2026 paper also sets "seamless" continuity as the goal. That would strengthen v4 §7's claim about the field.
 
 ## Critical notes & threats
 
@@ -49,3 +49,5 @@ Conceptual paper that theorises the museum as a phygital ecosystem. Its framewor
 v4 §8 well-being sentence (as Mosca et al. 2026b); revision §8.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: well-being levels are individual/social/societal, not the four v4 lists (PARTLY); found seamless-continuum passages (pp. 427, 440) usable for §7.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4's locator fix, "seamless continuum" quotation now pp. 440-441 (confirmed: the p. 441 running head falls before "are intertwined"); p. 439 well-being passage re-read; PARTLY on the §8 sentence stands.

@@ -47,3 +47,5 @@ Special-issue communication that introduces transformative luxury research (TLR)
 v4 §8 well-being paragraph; revision §8.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: four levels confirmed (pp. 609, 618; p. 612 variant noted); "service ecosystems" judged PARTLY (TLR is about luxury ecosystems).
+
+Fable-checked rr-2026-11 (2026-11-08): no change. The "economic, cognitive, emotional, and social" wording re-read at pp. 609 and 618 and the "cultural" variant at p. 612; PARTLY on the §8 sentence stands.

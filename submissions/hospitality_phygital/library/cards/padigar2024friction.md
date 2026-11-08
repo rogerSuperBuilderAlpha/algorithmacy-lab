@@ -12,7 +12,7 @@ used_by_sections: [7]
 claims: [constructive-friction]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-07
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/padigar2024friction/user_pdf/fulltext.pdf: Wiley version of record, Psychology & Marketing 42(1), pp. 21-43 (2025; received 9 January 2024, accepted 9 August 2024), 23 PDF pages. Identity confirmed against title, authors and DOI. Earlier basis: Crossref-verified; abstract read."
 generated_run: 2026-08-11-p9
 flags: []
@@ -57,3 +57,7 @@ friction protects the customer.
 Section 7 in v4 numbering (line 72), giving the friction argument its consumer-research warrant.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: line 72 judged PARTLY; found that the paper classes contacting customer service as low-value friction (p. 32), which contradicts the card's negotiation gloss; year set to 2025.
+
+- (Fable, rr-2026-11) The p. 32 passage is hedged: the friction in the low-value tasks "can be 'frustrating friction,' and reducing or eliminating friction in these tasks can enhance customer experience". The card's "classes" and "files under" are a shade firmer than the source. The verdict does not change: the paper still offers no kept friction for recognition, negotiation or exception (zero hits for negotiat*, recogni*, exception in that sense).
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; verified_date brought to 2026-11-08; recorded the "can be" hedge on p. 32; nine quotes re-read against the PDF; verdict PARTLY on line 72 unchanged.

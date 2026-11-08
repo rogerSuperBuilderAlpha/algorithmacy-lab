@@ -37,7 +37,7 @@ A review article that separates phygital from multichannel, crosschannel and omn
 ## Support verdicts (rr-2026-11)
 
 - v4 §7 quotation "'fluidifying the journeys of customers from online to offline and inversely' (Batat 2024: 1220)". SUPPORTED: verbatim, p. 1220 (abstract).
-- v4 §7 "the founding framework of phygital customer experience aims at ..." SUPPORTED (p. 1220; the paper claims "no attempts have been made to conceptualize phygital" before it, p. 1237).
+- v4 §7 "the founding framework of phygital customer experience aims at ..." SUPPORTED, with a nuance (verifier_4, accepted). In the abstract fluidifying is the means, not the aim: the framework helps managers "design compelling customer experiences. This is done by fluidifying the journeys ..." (p. 1220). The aim-language is on p. 1235 ("should also focus on fluidifying"). "Aims at" is fair to the paper as a whole, not to the sentence quoted. "Founding" rests on the paper's own claim that "no attempts have been made to conceptualize phygital" before it (p. 1237).
 - v4 §7 "smoothness itself has stayed a goal, never a suspect": SUPPORTED. Fluidity and seamlessness are goals (pp. 1230, 1233, 1235), and friction appears only as irritation to prevent (p. 1235). Caution: p. 1238 says a positive experience should not be the framework's aim. A reviewer close to the editor may cite it.
 - v4 §4 "The frameworks call this movement fluidity (Batat 2024)": SUPPORTED. The source's word is "fluidifying" (pp. 1220, 1230, 1235).
 - v4 §1 "It presents artificial intelligence, apps, and automated interfaces as tools for a smoother, more personal, more guest-centred experience (Batat 2024, 2026; ...)": PARTLY for Batat 2024. Apps and smoothness are there and the framing is consumer-centric (p. 1229), but PH-CX does not discuss AI. Any AI support must come from Batat 2026 or Brochado et al. 2026, which this card does not cover.
@@ -53,3 +53,5 @@ A review article that separates phygital from multichannel, crosschannel and omn
 v4 §1 (tool framing), §4 (fluidity/relay), §7 (seamlessness quotation).
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: quotation and p. 1220 confirmed; §1 AI attribution judged PARTLY; found the human-connector and "seamless" passages (pp. 1233-1234) and the p. 1238 caution.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4's nuance on "aims at" (p. 1220 makes fluidifying the means; p. 1235 the goal); AI zero-hit confirmed on my own extraction (only reference-list titles); quotes on pp. 1220, 1229, 1234, 1238 re-read; verdicts unchanged.

@@ -12,7 +12,7 @@ used_by_sections: [5]
 claims: [competence-not-standing]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-11
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/lin2025oscillation/user_pdf/fulltext.pdf: Sage version of record (open access, CC BY-NC), Social Media + Society, January-March 2025, pp. 1-13, 13 PDF pages. Identity confirmed against title and DOI. Author is Hui Lin, King's College London (p. 1; ORCID 0009-0002-0642-7761, p. 11); the card's earlier 'Hongyu' was wrong and v4's 'Lin, Hui' is right."
 generated_run: 2026-08-11-p9
 flags: []
@@ -34,6 +34,7 @@ videos about regulation and censorship cultivate.
 - Central paradox: "although respondents said they were algorithmically aware and annoyed by algorithmic irritations ... they often behaved in ways that contradict those claims with limited resistance or even no resistance" (p. 10) [full-text]
 - Constraint: "most of their resistance behaviors remain constrained within the dominant use of technological affordances" (abstract, p. 1); resistance "remains predominantly confined to the dominant use of technological affordances, lacking the transformative capacity to subvert the ideological structures" (p. 11) [full-text]
 - Users can bend non-political curation: "Every time I pressed dislike, the relevant content was reduced" (Ruoxi, p. 9); against political content, "there is no use to 'dislike' politically relevant information" (p. 9) [full-text]
+- (Fable, rr-2026-11) The broader locator for selective steering is p. 8: after one participant's case, "another 16 respondents also showed similar fluid resistance to algorithms. They selectively resisted some of the content" (p. 8). Seventeen of 31 participants, so the p. 9 quotation is an instance, not the finding [full-text]
 - Some non-resistance is chosen: users "conducted limited or no resistance to algorithms when they also felt satisfied with the system"; the author calls this "active passivity", "a deliberate response" (p. 10) [full-text]
 - Resignation is cultivated by the platform: "users' apathy toward resisting algorithms stems not only from a lack of algorithmic awareness or folk theories ... but also from the learned algorithmic knowledge through educational videos about platform regulations and censorship" (p. 11) [full-text]
 - Limits: young, urban users; does not capture less algorithmically aware groups (pp. 6, 11) [full-text]
@@ -55,3 +56,5 @@ videos about regulation and censorship cultivate.
 v4 §6 (line 60). The card's "Not yet in the manuscript" was stale.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: corrected the author's given name to Hui, found that users can bend non-political curation (p. 9), and judged line 60 PARTLY with a suggested tighter wording.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; added the p. 8 locator (17 of 31 respondents steer selectively) as the stronger anchor than the single p. 9 case; verified_date brought to 2026-11-08; quotes on pp. 1, 9, 10, 11 re-read; PARTLY on line 60 stands.

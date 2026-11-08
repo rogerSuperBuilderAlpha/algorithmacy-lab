@@ -12,7 +12,7 @@ used_by_sections: [3, 8]
 claims: [discretion-redistribution]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-07
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/jianu2025/user_pdf/fulltext.pdf: Elsevier version of record, IJHM 129 (2025), article 104168, 14 PDF pages with printed folios 1-14. Identity confirmed against title, authors and DOI. Earlier basis: Crossref-verified; abstract read."
 generated_run: 2026-08-08-library-build
 flags: [claim-contradicted]
@@ -34,8 +34,8 @@ including translating algorithmic decisions for frontline staff.
 - Panel: 22 recruited (Table I, p. 4), nine of them academics (assistant, associate and full professors, senior lecturers); one revenue manager; 15 in round 2, 13 in round 3 (pp. 4-5) [full-text]
 - Translation runs from system to staff: line managers must "coach frontline associates to make sense of and respond appropriately to algorithmic decisions that are outside of their sphere of influence, and the workings of which manifest opaquely" (p. 7) [full-text]
 - Managers need enough technical understanding "to explain and justify otherwise opaque algorithmic decisions to frontline staff" (p. 10) [full-text]
-- Control is double-edged: "AM will provide new forms of control over employees ... but managers may equally lose control to the algorithm"; items "Control will always remain with the manager, unless AM is set to run automatically" (73.34%) and "Managers will have more control but less empowerment" (61.54%) (p. 5) [full-text]
-- Pricing appears only in the literature review: "managers may intervene and override pricing and inventory decisions based on contextual" factors (p. 3, citing others) [full-text]
+- Control is double-edged: "AM will provide new forms of control over employees ... but managers may equally lose control to the algorithm"; items "Control will always remain with the manager, unless AM is set to run automatically" (73.34%) and "Managers will have more control but less empowerment" (61.54%) (p. 5). Both items are among the "Three items [that] reached weaker consensus" (p. 5), so they carry less weight than the panel's main forecasts [full-text]
+- Pricing appears only where the authors cite other work: the literature review, "managers may intervene and override pricing and inventory decisions based on contextual" factors (p. 3, citing Garcia et al. 2024), and the conclusion, AM "applied primarily to areas such as revenue management, pricing, and data analytics for marketing purposes (see e.g. Hertzfeld, 2023; Ivanov and Webster, 2024)" (p. 9). Neither is a finding of the Delphi [full-text]
 - Recommended override: managers could "visibly intervene in the system to shorten the shift length. This approach would valorise employee voice, and make human oversight of AM systems visible" (p. 11) [full-text]
 - Limits: "experts representing predominantly UK-based hotel organisations" (p. 12) [full-text]
 - *IJHM* 129, article 104168; co-authored by Lugosi, whom the CFP cites [metadata]
@@ -60,3 +60,5 @@ v4 §4 (lines 31 and 33) and §6 (line 59); the card's section 8 entry, where th
 asymmetry is stated.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: found a forecasting Delphi with a mixed practitioner-academic panel whose "translation" runs to staff, not guests; line 33 NOT SUPPORTED (claim-contradicted added), lines 31 and 59 PARTLY.
+
+Fable-checked rr-2026-11 (2026-11-08): accepted verifier_4; marked the two p. 5 control items as weak-consensus items; added the p. 9 conclusion as the second place pricing appears (still citing others); verified_date brought to 2026-11-08; `claim-contradicted` on line 33 stands after re-reading pp. 3, 4, 9.

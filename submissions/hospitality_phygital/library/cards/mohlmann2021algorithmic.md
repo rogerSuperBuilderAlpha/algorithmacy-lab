@@ -55,3 +55,5 @@ The card said "Cut in the editor revision." v4 §4 (line 36) still cites it, on 
 hospitality.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: line 36 judged PARTLY with pp. 2009-2010 as the supporting passage; recorded that v4 still cites a source the card calls cut.
+
+Fable-checked rr-2026-11 (2026-11-08): no change. Quotes on pp. 2007, 2009, 2010 re-read against the PDF; PARTLY on line 36 stands. Frontmatter carries `superseded_by: jianu2025` while `status: cited`; the status field is the authors' call.

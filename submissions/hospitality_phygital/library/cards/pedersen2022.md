@@ -12,7 +12,7 @@ used_by_sections: [3, 4]
 claims: [discretion-redistribution, wellbeing-valence]
 read_depth: full-text
 verified: verified
-verified_date: 2026-08-07
+verified_date: 2026-11-08
 source_basis: "Read in full (rr-2026-11, 2026-11-08) from the user-supplied PDF at manuscript/revision_2026-11/research/sources/pedersen2022/user_pdf/fulltext.pdf: OUP version of record, JPART 33(1), pp. 80-93 (2023; advance access 5 March 2022), 15 PDF pages. Identity confirmed against title, authors and DOI. Earlier basis: Crossref-verified; abstract read."
 generated_run: 2026-08-11-p9
 flags: []
@@ -52,10 +52,12 @@ How far practitioners can bend the standard depends on their training and status
 
 ## Support verdicts against v4 and the revision plan (rr-2026-11)
 
-- v4 §4 (line 31): "staff keep some freedom to act, but more and more of their day goes to reading decisions made elsewhere and working around categories set elsewhere (Pedersen and Pors 2023; Spektor et al. 2025)." SUPPORTED for workarounds around imposed categories (pp. 80, 89). "More and more of their day" is not measured in the paper.
+- v4 §4 (line 31): "staff keep some freedom to act, but more and more of their day goes to reading decisions made elsewhere and working around categories set elsewhere (Pedersen and Pors 2023; Spektor et al. 2025)." PARTLY (changed from SUPPORTED by the Fable read, agreeing with verifier_4). The workaround clause is SUPPORTED (pp. 80, 89). The trend clause "more and more of their day" is not measured or claimed in the paper; the nearest sentence is that studying discretion-as-used "is becoming increasingly pertinent with ongoing digital reformations" (p. 91), which is about the research task, not staff time. Cut the trend clause or carry it on Spektor et al. alone.
 
 ## Where it enters the manuscript
 
 Section 4 in v4 numbering (line 31), as the qualification to the discretion redistribution.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: line 31 SUPPORTED (pp. 80, 89); frontmatter year set to 2023 to match the version of record; recorded that the well-being claim is not in the source.
+
+Fable-checked rr-2026-11 (2026-11-08): line 31 verdict changed SUPPORTED → PARTLY (trend clause unmeasured, verifier_4 accepted); verified_date brought to 2026-11-08; quotes on pp. 80, 89, 90, 91 re-read against the PDF.
