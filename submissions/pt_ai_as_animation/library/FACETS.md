@@ -574,3 +574,19 @@ today (the dxd run's OL2924612W stands). Nothing in their entries was filled in 
    directly, which argues for keeping F3 at least at 7. (c) Froese & Ziemke 2009 (enactive AI) and
    Rolla 2026 (in *P&T*) already bring the autonomy tradition to AI; c4 must say what animation adds
    that enactivism lacks, which is the making.
+
+## Checkpoint A — rulings (Roger, 2026-11-08)
+
+Recorded by Claude from the author's answers.
+
+1. **§2 position: organizational claim.** F2 rises to 9 cards (add Di Paolo, Montévil & Mossio,
+   Bongard & Levin, Meincke). F3 goes to 7, not 5, because *P&T*'s own LLM conversation is Floridi's
+   "agency without intelligence" (2023, doi 10.1007/s13347-023-00621-y, 547 cites in OpenAlex; 2025,
+   doi 10.1007/s13347-025-00858-9), which §2 must engage. Moreno & Mossio's self-production
+   requirement is the counter c4 must answer head-on: humans build the harness.
+2. **Govind 2026: cite and answer.** Full card (Zenodo preprint, doi 10.5281/zenodo.18859161,
+   record checked by Claude). §4.2 answers it; c12 is worded "AI development, not the interface or
+   the illusion".
+3. **Books:** no answer yet. Treated as none opened: the six books go on `BROWSER_LIST.md` at S4
+   and the open article substitutes carry §2 until copies land in `pt_ai_animation_local/inbox/`.
+4. **F5 puppetry** stays its own facet (Fable's recommendation; not contested).
