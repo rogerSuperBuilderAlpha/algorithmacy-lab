@@ -313,3 +313,76 @@
 | 2026-11-08 | F11 | crossref | talking about large language models anthropomorphic language | 20 | 10.1145/3624724; 10.2139/ssrn.5995414; 10.1007/978-981-95-1327-7_27 |
 | 2026-11-08 | F11 | semanticscholar | talking about large language models anthropomorphic language | 0 | HTTPError: HTTP Error 429:  |
 | 2026-11-08 | F11 | arxiv | talking about large language models anthropomorphic language | 10 | arxiv:2610.00223v1; arxiv:2503.21676v2; arxiv:2608.05850v2 |
+
+## F12 supplement: Crossref filtered to Philosophy & Technology (ISSN 2210-5433), 2019+ — run by Claude, 2026-11-08
+
+OpenAlex daily quota was exhausted from F8 onward, so the venue filter ran on Crossref instead. Hits in `search/F12_crossref_issn.jsonl`.
+
+| query | n | error |
+|---|---|---|
+| opacity explainability black box machine learning | 15 |  |
+| anthropomorphism artificial agents | 15 |  |
+| artificial life living machines | 15 |  |
+| large language models agency | 15 |  |
+| AI as tool or agent | 15 |  |
+| animation character illusion | 4 |  |
+| autonomy organization artificial systems | 15 |  |
+| dependence lock-in platform | 6 |  |
+
+### F12 — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | F12 | openalex | Philosophy and Technology opacity explainability black box | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F12 | crossref | Philosophy and Technology opacity explainability black box | 20 | 10.2139/ssrn.5266967; 10.2139/ssrn.4455428; 10.2139/ssrn.5225531 |
+| 2026-11-08 | F12 | semanticscholar | Philosophy and Technology opacity explainability black box | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F12 | arxiv | Philosophy and Technology opacity explainability black box | 10 | arxiv:0508180v2; arxiv:1910.04301v3; arxiv:0805.3007v2 |
+| 2026-11-08 | F12 | openalex | Philosophy and Technology anthropomorphism chatbot large language models | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F12 | crossref | Philosophy and Technology anthropomorphism chatbot large language models | 20 | 10.21070/ups.7532; 10.1007/979-8-8688-2733-4_5; 10.32832/educate.v11i1.22622 |
+| 2026-11-08 | F12 | semanticscholar | Philosophy and Technology anthropomorphism chatbot large language models | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F12 | arxiv | Philosophy and Technology anthropomorphism chatbot large language models | 10 | arxiv:2403.14702v1; arxiv:2610.00223v1; arxiv:0508180v2 |
+| 2026-11-08 | F12 | openalex | Philosophy and Technology artificial life embodiment artificial intelligence | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F12 | crossref | Philosophy and Technology artificial life embodiment artificial intelligence | 20 | 10.1007/s13347-026-01139-9; 10.5840/techne19984116; 10.4324/9780203486030-9 |
+| 2026-11-08 | F12 | semanticscholar | Philosophy and Technology artificial life embodiment artificial intelligence | 20 | 10.38119/cacs.2026.38.3; 10.19105/karsa.v33i1.19617; 10.24062/kpae.2024.37.3.153 |
+| 2026-11-08 | F12 | arxiv | Philosophy and Technology artificial life embodiment artificial intelligence | 10 | arxiv:2110.01831v1; arxiv:2110.01835v1; arxiv:2204.10358v1 |
+| 2026-11-08 | F12 | openalex | Philosophy and Technology AI agency without intelligence | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F12 | crossref | Philosophy and Technology AI agency without intelligence | 20 | 10.1007/s13347-025-00858-9; 10.1007/s13347-023-00621-y; 10.2139/ssrn.5135645 |
+| 2026-11-08 | F12 | semanticscholar | Philosophy and Technology AI agency without intelligence | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F12 | arxiv | Philosophy and Technology AI agency without intelligence | 10 | arxiv:2506.22276v2; arxiv:2103.06769v1; arxiv:0508180v2 |
+| 2026-11-08 | F12 | openalex | Philosophy and Technology large language models intentionality grounding | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F12 | crossref | Philosophy and Technology large language models intentionality grounding | 20 | 10.1007/s13347-026-01079-4; 10.54499/2025.03013.bd; 10.4324/9781003225348-7 |
+| 2026-11-08 | F12 | semanticscholar | Philosophy and Technology large language models intentionality grounding | 19 | 10.1080/00131857.2025.2610999; 10.15421/342605; 10.13140/RG.2.2.16152.92163/1 |
+| 2026-11-08 | F12 | arxiv | Philosophy and Technology large language models intentionality grounding | 10 | arxiv:2610.00223v1; arxiv:0508180v2; arxiv:2501.05032v2 |
+| 2026-11-08 | F12 | openalex | Philosophy and Technology definition of artificial intelligence generative | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | F12 | crossref | Philosophy and Technology definition of artificial intelligence generative | 20 | 10.1007/s13347-025-00863-y; 10.1201/9781003565703-1; 10.1201/9781003565703-16 |
+| 2026-11-08 | F12 | semanticscholar | Philosophy and Technology definition of artificial intelligence generative | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | F12 | arxiv | Philosophy and Technology definition of artificial intelligence generative | 10 | arxiv:2110.01831v1; arxiv:2204.10358v1; arxiv:2110.01835v1 |
+
+### G — API searches, 2026-11-08 (tools/search.py)
+
+| date | facet | source | query | n | top ids / note |
+|---|---|---|---|---|---|
+| 2026-11-08 | G | openalex | artificial intelligence development as animation craft character pipeline | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | G | crossref | artificial intelligence development as animation craft character pipeline | 20 | 10.1109/aixvr59861.2024.00067; 10.1201/9781003361893-3; 10.5121/csit.2023.130703 |
+| 2026-11-08 | G | semanticscholar | artificial intelligence development as animation craft character pipeline | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | G | arxiv | artificial intelligence development as animation craft character pipeline | 10 | arxiv:2110.01831v1; arxiv:2110.01835v1; arxiv:2204.10358v1 |
+| 2026-11-08 | G | openalex | AI engineering bringing a character to life studio production | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | G | crossref | AI engineering bringing a character to life studio production | 20 | 10.1109/lra.2026.3685938/mm1; 10.1201/9780429284991-13; 10.5040/9781472596420.ch-008 |
+| 2026-11-08 | G | semanticscholar | AI engineering bringing a character to life studio production | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | G | arxiv | AI engineering bringing a character to life studio production | 10 | arxiv:1411.4413v2; arxiv:0901.0512v4; arxiv:2601.07595v3 |
+| 2026-11-08 | G | openalex | large language model artificial life making sense craft | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | G | crossref | large language model artificial life making sense craft | 20 | 10.2307/j.ctvjz82ht.16; 10.1017/9781139149341.006; 10.2307/j.ctv2rcngs0.33 |
+| 2026-11-08 | G | semanticscholar | large language model artificial life making sense craft | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | G | arxiv | large language model artificial life making sense craft | 10 | arxiv:2201.04891v3; arxiv:2406.13037v1; arxiv:2303.04727v2 |
+| 2026-11-08 | G | openalex | illusion of life animation principles artificial intelligence inbetween frames | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | G | crossref | illusion of life animation principles artificial intelligence inbetween frames | 20 | 10.1177/1746847710377574; 10.1145/312379.312514; 10.1145/2157689.2157814 |
+| 2026-11-08 | G | semanticscholar | illusion of life animation principles artificial intelligence inbetween frames | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | G | arxiv | illusion of life animation principles artificial intelligence inbetween frames | 10 | arxiv:2110.01831v1; arxiv:2110.01835v1; arxiv:2204.10358v1 |
+| 2026-11-08 | G | openalex | machine organism language epistemology AI models | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | G | crossref | machine organism language epistemology AI models | 20 | 10.1007/s00146-026-03094-7; 10.1080/02691728.2024.2379271; 10.20944/preprints202608.1654.v1 |
+| 2026-11-08 | G | semanticscholar | machine organism language epistemology AI models | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | G | arxiv | machine organism language epistemology AI models | 10 | arxiv:2403.09676v1; arxiv:2505.08588v1; arxiv:2603.28944v2 |
+| 2026-11-08 | G | openalex | open-ended intelligence large language models artificial life | 0 | HTTPError: HTTP Error 429: Too Many Requests |
+| 2026-11-08 | G | crossref | open-ended intelligence large language models artificial life | 20 | 10.1109/icaie70080.2026.11751127; 10.1016/j.engappai.2026.115268; 10.70675/4b858087z5190z4bfdzbeeez1fc799394dbc |
+| 2026-11-08 | G | semanticscholar | open-ended intelligence large language models artificial life | 0 | HTTPError: HTTP Error 429:  |
+| 2026-11-08 | G | arxiv | open-ended intelligence large language models artificial life | 10 | arxiv:2110.01831v1; arxiv:2501.18924v1; arxiv:2110.01835v1 |
