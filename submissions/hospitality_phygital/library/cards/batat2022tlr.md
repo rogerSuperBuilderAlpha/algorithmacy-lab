@@ -6,7 +6,7 @@ year: 2022
 doi: 10.1177/02761467221135547
 venue: "Journal of Macromarketing"
 cluster: phygital-service
-status: held
+status: cited
 role: framing
 used_by_sections: [8]
 claims: [wellbeing-valence, editors-own-ground]

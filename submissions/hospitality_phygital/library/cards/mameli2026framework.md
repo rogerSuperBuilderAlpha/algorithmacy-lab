@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1007/s40558-026-00362-6
 venue: "Information Technology & Tourism"
 cluster: phygital-service
-status: held
+status: cited
 role: framing
 used_by_sections: [7]
 claims: [seamlessness-uncritiqued]

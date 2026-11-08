@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1016/j.ijhm.2023.103680
 venue: "International Journal of Hospitality Management"
 cluster: platform-hospitality
-status: cited
+status: held
 role: evidence
 used_by_sections: [2]
 claims: [platform-unsettled-hosting]

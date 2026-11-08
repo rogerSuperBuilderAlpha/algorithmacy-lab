@@ -6,7 +6,7 @@ year: 2023
 doi: 10.1108/JOSM-08-2022-0289
 venue: "Journal of Service Management"
 cluster: phygital-service
-status: held
+status: cited
 role: framing
 used_by_sections: [3, 7]
 claims: [seamlessness-uncritiqued, editors-own-ground]

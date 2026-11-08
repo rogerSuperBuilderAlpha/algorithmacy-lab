@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1177/20563051251313610
 venue: "Social Media + Society"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [5]
 claims: [competence-not-standing]

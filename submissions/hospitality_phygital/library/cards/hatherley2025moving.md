@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1007/s10676-025-09829-2
 venue: "Ethics and Information Technology"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [4, 6]
 claims: [integrating-conditions, affordances-derived]

@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1386/hosp_00107_1
 venue: "Hospitality & Society"
 cluster: platform-hospitality
-status: held
+status: cited
 role: rival
 used_by_sections: [2, 3]
 claims: [platform-unsettled-hosting, not-that-triad]

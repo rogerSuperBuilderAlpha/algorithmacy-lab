@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1145/3757415
 venue: "Proceedings of the ACM on Human-Computer Interaction"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [6]
 claims: [affordances-derived, institutional-not-trainable]

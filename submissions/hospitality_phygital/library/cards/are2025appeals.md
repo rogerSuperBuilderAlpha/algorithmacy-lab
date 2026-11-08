@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1080/1369118X.2024.2396621
 venue: "Information, Communication & Society"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [5, 6]
 claims: [accountability-is-a-relation, published-nulls]

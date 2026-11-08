@@ -6,7 +6,7 @@ year: 2022
 doi: 10.1177/0308518X211063492
 venue: "Environment and Planning A: Economy and Space"
 cluster: platform-hospitality
-status: cited
+status: held
 role: evidence
 used_by_sections: [2]
 claims: [platform-unsettled-hosting]

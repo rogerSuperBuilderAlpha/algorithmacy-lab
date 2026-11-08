@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1080/10447318.2025.2558022
 venue: "International Journal of Human-Computer Interaction"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [6]
 claims: [exit-voice-standing]

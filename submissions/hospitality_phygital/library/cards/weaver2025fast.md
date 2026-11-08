@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1386/hosp_00098_1
 venue: "Hospitality & Society"
 cluster: platform-hospitality
-status: held
+status: cited
 role: rival
 used_by_sections: [7]
 claims: [seamlessness-uncritiqued]

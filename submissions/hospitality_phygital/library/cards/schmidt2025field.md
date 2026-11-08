@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1002/jsc.2637
 venue: "Strategic Change"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [4]
 claims: [human-contact-conditional]

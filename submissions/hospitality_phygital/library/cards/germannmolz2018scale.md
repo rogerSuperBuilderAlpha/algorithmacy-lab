@@ -6,7 +6,7 @@ year: 2018
 doi: 10.1386/hosp.8.3.229_1
 venue: "Hospitality & Society"
 cluster: platform-hospitality
-status: held
+status: cited
 role: framing
 used_by_sections: [2]
 claims: [platform-unsettled-hosting]

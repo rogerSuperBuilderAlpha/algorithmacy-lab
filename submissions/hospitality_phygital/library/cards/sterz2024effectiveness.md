@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1145/3630106.3659051
 venue: "ACM FAccT 2024"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: framing
 used_by_sections: [6]
 claims: [institutional-not-trainable]

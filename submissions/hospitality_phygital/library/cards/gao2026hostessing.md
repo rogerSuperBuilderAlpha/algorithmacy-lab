@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1386/hosp_00109_1
 venue: "Hospitality & Society"
 cluster: platform-hospitality
-status: held
+status: cited
 role: evidence
 used_by_sections: [3]
 claims: [host-question-unasked]

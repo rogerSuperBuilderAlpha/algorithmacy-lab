@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1177/19389655261433944
 venue: "Cornell Hospitality Quarterly"
 cluster: ai-automation
-status: held
+status: cited
 role: rival
 used_by_sections: [6]
 claims: [affordances-derived]

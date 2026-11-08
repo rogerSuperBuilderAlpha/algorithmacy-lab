@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1080/0960085X.2025.2475962
 venue: "European Journal of Information Systems"
 cluster: ai-automation
-status: held
+status: cited
 role: rival
 used_by_sections: [4]
 claims: [poles-as-three-withholdings, integrating-conditions]

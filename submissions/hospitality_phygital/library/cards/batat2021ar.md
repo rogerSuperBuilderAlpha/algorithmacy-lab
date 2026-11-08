@@ -6,7 +6,7 @@ year: 2021
 doi: 10.1016/j.techfore.2021.121013
 venue: "Technological Forecasting and Social Change"
 cluster: phygital-service
-status: held
+status: cited
 role: evidence
 used_by_sections: [4]
 claims: [poles-as-three-withholdings, editors-own-ground]

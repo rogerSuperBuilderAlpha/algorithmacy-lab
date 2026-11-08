@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1080/09585192.2026.2699267
 venue: "International Journal of Human Resource Management"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: evidence
 used_by_sections: [5]
 claims: [employee-voice-silence]

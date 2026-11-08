@@ -6,7 +6,7 @@ year: 2025
 doi: 10.3389/fcomm.2025.1638257
 venue: "Frontiers in Communication"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: framing
 used_by_sections: [6]
 claims: [institutional-not-trainable]

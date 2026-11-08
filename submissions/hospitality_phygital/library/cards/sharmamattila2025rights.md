@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1177/10963480251393749
 venue: "Journal of Hospitality & Tourism Research"
 cluster: ai-automation
-status: held
+status: cited
 role: rival
 used_by_sections: [3]
 claims: [host-question-unasked]
