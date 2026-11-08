@@ -11,7 +11,7 @@ status: held
 role: evidence
 used_by_sections: [9]
 claims: [published-nulls]
-read_depth: full
+read_depth: full-text
 verified: publisher-verified
 verified_date: 2026-11-08
 source_basis: "Official Journal text of Reg. (EU) 2024/1689 (OJ L, 12.7.2024), English, fetched from the EU Publications Office Cellar (cellar:dc8116a1-3fe6-11ef-865a-01aa75ed71a1; XHTML and PDF, 144 pp.). eur-lex.eu pages themselves returned an empty WAF response and were not bypassed. Read: Art. 6, Art. 86, Art. 113, Annex III. Not checked: any later amending act or postponement of dates after 12.7.2024."
