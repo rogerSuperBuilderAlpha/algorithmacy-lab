@@ -36,8 +36,9 @@ Section 1 of the Act deems a "hotel", and only a hotel, to be an inn, and moves 
 ## Critical notes & threats
 
 - The Act does not restate the content of the duties; it carries over whatever the common law attached to an innkeeper "as such". Content (receive, custody of goods) has to come from the cases and from scholarship (calye1584case, bogen1996innkeeper, sandovalstrausz2005travelers).
-- Activation has four conditions, three on the guest's side (traveller presenting, able and willing to pay, fit state). It is conditional hospitality in statutory form, which suits the paper and cuts against "simply because they walked in the door" (pitch l. 21).
+- Section 1(3) is a definition of "hotel", not a rule stating when the duty is owed. Read as activation (my reading, and the drafter's), it has four conditions, three on the guest's side (traveller presenting, able and willing to pay, fit state); the duty itself still comes from the common law that s. 1(1) carries over. It is conditional hospitality in statutory form, which suits the paper and cuts against "simply because they walked in the door" (pitch l. 21).
 - Holder is "the proprietor", a single legal person. It answers R2.1c in law but restates R2.1e: in an owner/brand/operator structure, who is "the proprietor" is a question the Act does not settle. I found no case on that question in this run (not searched; H3's remit).
+- Section 2 was not read for this card. VERIFY_H_v3 read s. 2(3) from a Wayback capture and reports that it caps the proprietor's strict liability for guests' goods unless the loss came through the default of the proprietor or a servant, or the goods were deposited for safe custody. Do not cite s. 2 from this card.
 - England, Wales and Scotland only. Restaurants without beds and short-term rentals that do not hold out to "any traveller" fall outside.
 
 ## Where it enters the manuscript
@@ -47,3 +48,5 @@ Section 1 of the Act deems a "hotel", and only a hotel, to be an inn, and moves 
 ## Which reviewer point(s) it answers
 
 R2.1a, R2.1c, R2.2a, R2.2b (activation and holder); R2.5b (inn against "any other establishment"); R3.10 in part (the guest's side of the conditions).
+
+Fable-checked rr-2026-11-h (2026-11-10): s. 1(1)-(3) re-read against the saved capture (sources/hpa1956/s1.txt), all four quotations exact; s. 1(3) marked as a definition from which the activation conditions are read; s. 2(3) recorded as the verifier's reading, not this card's.

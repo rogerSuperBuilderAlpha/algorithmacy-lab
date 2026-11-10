@@ -50,3 +50,5 @@ Section 3, "Held and exercised", if the authors want a legal source for the clai
 R2.3b (holding versus exercising standing), R2.3a in part (shows how law keeps the claim separate from the accountability power).
 
 Created in rr-2026-11-h (H2), 2026-11-10.
+
+Fable-checked rr-2026-11-h (2026-11-10): no change. Seven quotations re-found in the saved Introduction (eprint pp. 1, 2, 4, 5, 7), all exact; read_depth abstract and the terminology warning stand.

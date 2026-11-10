@@ -46,6 +46,7 @@ citizens owed as hosts, and the market in hotels taking over the care of strange
 - "Kant understood that the ‘right of temporary sojourn’ required less of hosts, and more of guests, than did older models of hospitality." (p. S31) [full-text]
 - Informants' ideal: "‘True hospitality is not political’, I was instructed. ‘It is not calculated’." (p. S23) [full-text]
 - Points to Pitt-Rivers, "‘The law of hospitality’ (1977: 94-112), an essay that ends with a lengthy deliberation on bad hosts and guests" (p. S22) [full-text]
+- [rr-2026-11-h, Fable] The sentence before it puts that space outside the host-guest relation: "the space in which foreigners enjoy their officially guaranteed right of ‘temporary sojourn’ is itself located beyond domestic space, which places it beyond the realm of house, host, and guest." (p. S30) [full-text]
 - Names the modern successors, commercial and state: "How does one care for people in this space? Who does so? The answers, obvious to us now, are provided by the hospitality industry (the market in hotels, restaurants, and other sites of temporary accommodation) and the government bodies that control immigration and naturalization, creating citizens, providing temporary legal rights to citizens out of place, and imprisoning, deporting, or eliminating those who cannot be given a place." (p. S30) [full-text]
 
 ## Critical notes & threats
@@ -57,8 +58,9 @@ citizens owed as hosts, and the market in hotels taking over the care of strange
 
 ## Where it enters the manuscript
 
-Section 2, *Holder*: the obligation sits with whoever holds sovereignty over the threshold, which in
-commercial hospitality is the property (p. S25, p. S30). Optionally §3, for the asymmetry of host and
+Section 2, *Holder*: sovereignty is manifest in the ability to host (p. S25, said of Jordan's tribes and
+monarchy); in modern conditions the care of strangers passes to the industry and the state (p. S30). That
+the holder in commercial hospitality is the property is the authors' inference, not Shryock's. Optionally §3, for the asymmetry of host and
 guest (p. S28) as a reason standing has to be conferred.
 
 Upgraded in rr-2026-11: card created from the bib entry (no prior card); metadata to full-text; ten located quotes; the bib gloss on guest obligation narrowed.
@@ -72,3 +74,5 @@ R2.1c (holder as sovereign over the space), R3.10 (bad guests; the guest's side)
 Upgraded in rr-2026-11-h: re-read for obligation and commerce (pdf pp. 3-4, 9, 11-12); five quotations added (pp. S22, S23, S30-S31, S31 x2). The main addition cuts against the outline. Shryock does hand the care of strangers to "the hospitality industry" and "the government bodies that control immigration and naturalization" (p. S30). In the next sentence he suggests, hedged ("perhaps because"), that philosophers have avoided commerce and nationalist politics as modern platforms for hospitality because the host-guest relations "in these spheres are depersonalized, formulaic, monetized, and designed to insulate all parties from the risks and inconveniences of sharing" (pp. S30-S31); the characterisation is offered as a possible reason for the philosophers' reluctance and covers commerce and the state together. His informants "would never confuse karam with the hospitality offered to tourists" (p. S31). So Shryock locates the modern holders, industry and state (p. S30), and doubts, without asserting it flatly, that they stand in the sovereign host's moral position. The outline's §2.1 use ("The modern holder is the industry") narrows p. S30 by dropping the state; it is accurate only if it names both and stops there; it cannot borrow karam's obligation for the industry. The Pitt-Rivers pointer (p. S22) is passed to H4 (guests' duties).
 
 Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): the p. S30 quotation completed with "and the government bodies that control immigration and naturalization…" (it had stopped mid-sentence without an ellipsis), the holder note now names the state as well as the industry, and the upgrade note's gloss on pp. S30-S31 restores the "perhaps because" hedge and its scope (a reason for the philosophers' reluctance, covering commerce and nationalist politics).
+
+Fable-checked rr-2026-11-h (2026-11-10): pp. S22-S25 and S30-S31 re-read; the five rr-2026-11-h quotations exact and the VERIFY_H_v3 corrections (state restored, hedge restored) are right; added the p. S30 sentence placing the space of sojourn "beyond the realm of house, host, and guest"; "Where it enters" no longer attributes "the property" as holder to Shryock.

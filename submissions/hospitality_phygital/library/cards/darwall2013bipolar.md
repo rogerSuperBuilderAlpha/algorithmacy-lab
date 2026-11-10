@@ -71,3 +71,5 @@ Fable-checked rr-2026-11 (2026-11-08): all 15 quotes re-checked against the (p.N
 
 Upgraded in rr-2026-11-h (2026-11-10, H2): re-read the retained copy (b_clean.txt) for the relation between bipolar obligation and accountability; added four quotes (OSO abstract, pp. 21, 35, 36) and Threat 3 (Darwall's definition builds accountability into the directed relation). Existing claims and quotes unchanged.
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): Threat 3 now says Darwall is not himself circular, adds the p. 35 "Even so" continuation and limits p. 35 to held-versus-exercised, and notes the p. 36 gloss covers representative authority too.
+
+Fable-checked rr-2026-11-h (2026-11-10): no change. The four rr-2026-11-h quotations (OSO abstract, pp. 21, 35, 36) and the p. 35 "Even so" continuation re-read in b_clean.txt; the Threat 3 correction is right; Darwall's cite of "Thompson 345-6" confirmed at p. 28.

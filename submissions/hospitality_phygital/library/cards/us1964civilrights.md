@@ -34,6 +34,7 @@ Title II entitles all persons to full and equal enjoyment of places of public ac
 
 ## Critical notes & threats
 
+- For lodging the commerce condition is met by definition: "The operations of an establishment affect commerce within the meaning of this subchapter if (1) it is one of the establishments described in paragraph (1) of subsection (b)" (§ 2000a(c)(1)). The condition added after VERIFY_H_v3 therefore limits restaurants and places of entertainment (§ 2000a(c)(2)-(3)), not inns, hotels or motels. [full-text]
 - Modern public-accommodation law is an equal-access rule on listed grounds, not the full common-law duty to receive all comers. bogen1996innkeeper (p. 91): "The main significance of the right of access today is to protect against discrimination."
 - The owner-occupied exemption is a statutory line between the commercial host and the household host. Short-term rentals in an owner's home can fall on the household side.
 - Restaurants are covered (§ 2000a(b)(2)), so the statute reaches beyond the hotel desk (R3.8).
@@ -47,3 +48,5 @@ Title II entitles all persons to full and equal enjoyment of places of public ac
 R2.4 (which businesses carry a duty to receive), R2.5b (hotel against owner-occupied lodging), R3.8 (restaurants and places of entertainment are covered).
 
 Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): the § 2000a(b) condition (operations affect commerce, or discrimination supported by State action) added to the Summary and the chapeau quotation.
+
+Fable-checked rr-2026-11-h (2026-11-10): § 2000a(a)-(c) re-read in the saved LII text; three quotations exact; the commerce/State-action condition added after VERIFY_H_v3 is right but, for lodging, § 2000a(c)(1) deems it met, now recorded.

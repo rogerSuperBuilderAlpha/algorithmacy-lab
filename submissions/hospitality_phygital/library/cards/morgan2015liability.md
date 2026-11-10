@@ -37,7 +37,7 @@ Morgan examines liability for independent contractors in contract and tort after
 ## Critical notes & threats
 
 - Morgan's reformulation helps the paper more than the label does: what stays with the principal is a duty *that the work be done properly*, which it answers for if the performer fails (AM pdf p. 8). That is the shape of the paper's claim about a host who hands reception to a system.
-- In a contract setting (a paying hotel guest), Morgan's point is that the stricter duty is already the default (AM pdf p. 7). This may make the tort doctrine less necessary for hotels than for schools; it also means the hotel's contract terms can narrow the duty, which the paper should acknowledge.
+- In a contract setting (a paying hotel guest), Morgan's point is that the stricter duty is already the default (AM pdf p. 7). This may make the tort doctrine less necessary for hotels than for schools; it also means the hotel's contract terms can narrow the duty, which the paper should acknowledge. That is this card's inference, not Morgan's statement, and the freedom is limited: Woodland para 25(5) says the possibility of contracting out "is limited by legislation" (Morgan cites para 25(5) at AM pdf p. 7 n. 51), and VERIFY_H_v3 reads UCTA 1977 s 2(1) and CRA 2015 s 65 as barring exclusion of liability for death or personal injury from negligence.
 - AM page numbers are not journal pages; map before citing.
 
 ## Where it enters the manuscript
@@ -49,3 +49,5 @@ Section 2 only if a second source is wanted after Woodland: one clause, "no duty
 R2.2c, R2.1b.
 
 Created in rr-2026-11-h (H2), 2026-11-10.
+
+Fable-checked rr-2026-11-h (2026-11-10): AM pdf pp. 1, 7-8 re-read in the saved manuscript; six quotations exact; the "contract terms can narrow the duty" note marked as the card's inference and limited by Woodland para 25(5). Pages 2-6 and 9-24 not re-read by me; the text has no mention of inns or hotels (searched).

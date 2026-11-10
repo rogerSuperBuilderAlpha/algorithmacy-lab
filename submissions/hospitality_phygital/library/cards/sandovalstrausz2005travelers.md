@@ -36,8 +36,9 @@ Argues that American public-accommodations law grew from the common law of innke
 - Not rights: "these were not “rights” in any proper sense of the term." (p. 66) [full-text]
 - "Innkeeping is defined not simply as a private business pursued by a profit-seeking individual, but as a public calling subject at all points to regulation by the community." (p. 66; ligature normalised) [full-text]
 - "travelers enjoyed privileges and innkeepers bore obligations, but nobody possessed automatic entitlements." (p. 68) [full-text]
-- Against Singer's public-calling ground: "I agree with Singer’s normative argument and recognize the existence of public callings, but the historical record indicates that travelers and strangers did indeed have a special status." (p. 63 n. 15) [full-text]
+- On Singer, who holds that the public calling and not travel grounds the duty to serve; Sandoval-Strausz disputes the history, not the public-calling ground: "I agree with Singer’s normative argument and recognize the existence of public callings, but the historical record indicates that travelers and strangers did indeed have a special status." (p. 63 n. 15) [full-text]
 - "its duties and privileges had to be turned into rights" (p. 54) [full-text]
+- The traveller could nonetheless sue: "Innkeepers were thus compelled by two separate sets of regulation—the public law of the state and the private law of damages on suit—to serve the public without discriminating among guests." (p. 64) [full-text]
 
 ## Critical notes & threats
 
@@ -54,3 +55,5 @@ Argues that American public-accommodations law grew from the common law of innke
 ## Which reviewer point(s) it answers
 
 R2.1a (origin), R2.2a (activation by a traveller seeking lodging), R2.1c (innkeeper answers for servants and others), R2.4 (special legal status of travellers), R3.10 (reasonable rules, exclusion), R2.3a (privilege against obligation, not a right to answer).
+
+Fable-checked rr-2026-11-h (2026-11-10): quotations at pp. 54, 62-63, 63, 63 n. 15, 65, 66, 68 re-found in the saved text with their context, all exact; the Singer label corrected (VERIFY_H_v3 S10 was applied to WS_H1 but not to the card); added p. 64 on damages suits, which qualifies "not rights" (p. 66). Pages 69-94 not re-read by me.

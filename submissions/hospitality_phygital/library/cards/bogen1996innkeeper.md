@@ -37,6 +37,8 @@ Traces the innkeeper's duties from a 1345 London bill, through post-Black-Death 
 - Holding out by sign: Chamberlaine J (1623) "noted that simply by putting up a sign and lodging travelers, an individual became liable to an action on the case for refusing someone shelter" (p. 88, Bogen's paraphrase of the 1623 report, 81 Eng Rep 842, pin cite 843 per n. 183, "Id. at 843") [full-text]
 - Against monopoly: "innkeeping was not a monopoly" (p. 89 n. 192) [full-text]
 - Newton v Trigg (1691), Eyre J, as quoted: "Inns are of necessity; the keeper is chargeable to the public, and compellable to lodge all comers, he cannot refuse whom he pleases" and innkeepers "do not deal upon contracts as others do" (p. 90) [full-text]
+- Status in Bogen's own words, introducing Eyre J: "The innkeeper is governed by rules derived from his status: he must lodge strangers; he is liable for losses they suffer; and he is paid a reasonable sum of money for his services." (p. 90) [full-text]
+- On the guest's person, a footnote aside with no authority cited: "While innkeepers were liable for third-party injuries done to their guests, it would have been a further stretch to find them liable for third-party injuries done to persons they refused to serve." (p. 82 n. 160; the preceding sentence speaks of "assault or robbery by third parties") [full-text]
 - Conclusion: "The duty to serve the public was incidental to the innkeeper's liability for losses of his lodgers." (p. 91) [full-text]
 - "The main significance of the right of access today is to protect against discrimination." (p. 91) [full-text]
 
@@ -56,3 +58,5 @@ Traces the innkeeper's duties from a 1345 London bill, through post-Black-Death 
 R2.1a and R2.2a (what activates: entering the status; the "why" is contested), R2.1c (the innkeeper, answering for servants: pp. 57-58 on Beaubek), R2.4 (innkeeping as a special status), R3.10 (lien and detention for payment, p. 90).
 
 Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): Chamberlaine paraphrase given its pin cite, 81 Eng Rep 843 (n. 183); the case begins at 842.
+
+Fable-checked rr-2026-11-h (2026-11-10): quotations at pp. 52, 53, 75, 76, 88, 89 n. 192, 90, 91 re-found in the saved text with their context, all exact; the Chamberlaine pin-cite correction is right; added Bogen's own status sentence (p. 90) and the p. 82 n. 160 aside that calye1584case and WS_H1 rely on. Pages 54-74 and 77-87 not re-read by me.

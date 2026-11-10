@@ -52,3 +52,5 @@ Optional, §2.1, for the profession-of-a-trade formulation. If the cap binds, re
 R2.1a, R2.2a (activation by professing a public trade); R2.4 (the smith, carrier and innkeeper as a family of callings, not all businesses).
 
 Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): title and authors now mark Holt CJ as dissenting, and a line above the quotations says every quotation is his dissent; "If the Inn be full…" relocated from p. 484 to p. 485.
+
+Fable-checked rr-2026-11-h (2026-11-10): no change. Holt's passage re-read in the saved OCR: the three p. 484 quotations and the majority line (12 Mod 481) are exact, and the OCR breaks the page between "refuse to take in a Letter, or" and "any other Thing", which agrees with the verifier's relocation of "If the Inn be full" to p. 485; I did not see the page image.
