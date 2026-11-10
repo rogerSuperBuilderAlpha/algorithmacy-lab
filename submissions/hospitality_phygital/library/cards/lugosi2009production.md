@@ -32,6 +32,7 @@ disruptive customers; they spoke of an obligation to support the venue.
 ## Key facts / verified quotes with loci
 
 - Conditional hospitality and the guest's duties, as Lugosi summarises the philosophical literature: "Participation or inclusion in hospitality is always conditional: within hospitality transactions hosts have duties to ensure the wellbeing of their guests, while guests have obligations to respect the rules of the host and to reciprocate" (section "Hospitality") [full-text]
+- Both parties are bound: "both are subjugated to the hospitality transaction and to the creation of a hospitable space" (section "Hospitality") (added by Fable, rr-2026-11-h) [full-text]
 - Roles are negotiated: "those involved in transactions negotiate their roles alongside their dominance or subservience." (section "Hospitality") [full-text]
 - Shift of focus: the paper examines "how consumers' perceptions, actions and interactions shape the production of hospitality" (abstract) [full-text]
 - Norms of patronage: "discourses of hospitality can only experienced as a series of conditional offerings, rules, roles and obligations" (sic; section "Normative dimensions of hospitable space") [full-text]
@@ -50,7 +51,11 @@ disruptive customers; they spoke of an obligation to support the venue.
   roles and space among patrons and permissive managers. For the paper's "address" thesis it is
   evidence that guests shape outcomes where management leaves room, not that they hold standing.
 - A single, unusual venue (an under-resourced LGBT bar, data from the author's earlier ethnography).
-  The obligations patrons describe are to a community, not to the operator.
+  Lugosi places the obligations "not between individuals but between individuals and an imagined
+  community" (section "Normative dimensions of hospitable space"); his conclusion says guests "may
+  therefore have obligations, not just to the hosts/commercial providers, but to other guests/consumers
+  and the imagined community to which they belong" (section "Conclusion"). So they run past the
+  operator; the source does not say they exclude it.
 - Accepted manuscript, not version of record; page numbers missing. The cover calls it the "accepted post-review version", but Unpaywall classes the Bournemouth copy as "submittedVersion", and the VoR (SAGE, closed) was not reached. Check every quotation against the VoR, with page numbers, before it enters the paper.
 
 ## Where it enters the manuscript
@@ -66,3 +71,5 @@ R1.2 (value-creating, more-than-functional interaction). R3.8 (beyond hotel rece
 Created in rr-2026-11-h (2026-11-10), workstream H4: Fable lead (§4(g)) verified; full read of the accepted manuscript.
 
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): version status qualified (Unpaywall: submittedVersion; VoR unchecked).
+
+Fable-checked rr-2026-11-h (2026-11-10): verifier note (version status) accepted and the applied fix confirmed; all eleven quotations re-matched to the saved manuscript and read in their sections. Changed: "to a community, not to the operator" corrected to the source's "not just to the hosts/commercial providers" (Conclusion); one quotation added from the "Hospitality" section. Wording still unchecked against the SAGE version of record.

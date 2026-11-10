@@ -40,14 +40,16 @@ a hearing and a way to contest. Art. 22(3) does not say when intervention occurs
 
 - Applies only to *solely* automated decisions; a clerk who rubber-stamps may take a hotel's decision outside it, though the WP29 guidelines say token involvement does not count (card `article292018guidelines`, p. 21).
 - My reading, not the text: a hotel's booking, check-in and pricing decisions may sit under the contract exception, but only where the decision is "necessary for" the contract (Art. 22(2)(a)); if so, the guest's legal protection is the Art. 22(3) right to intervention and contest, whose timing the Article does not state. Whether a given hotel decision is "similarly significant" is untested; I found no case on hotel decisions.
+- Outside the Art. 22(2) exceptions the Article is not a later-appeal rule. The regulators read Art. 22(1) as "a general prohibition" that "applies whether or not the data subject takes an action" (card `article292018guidelines`, p. 19), so a solely automated decision with legal or similarly significant effect may not be taken at all without a human in it. "The law secures only a later appeal" therefore holds only where a decision is "necessary for" the contract or rests on explicit consent. [added by Fable, rr-2026-11-h]
 - EU-only (and the UK's retained version, not read). Jurisdiction is already a §9 boundary condition.
 - Not read: CJEU case law (e.g. SCHUFA, C-634/21, cited by Baum and Laux p. 4 n. 7; I did not open it).
 
 ## Where it enters the manuscript
 
-§9 jurisdiction boundary and §7 "reachable authority to reverse": one sentence saying the law of the
-paper's main jurisdiction secures a later appeal, not a person at the moment of decision, so immediacy has
-to come from the host's obligation rather than from data-protection law.
+§9 jurisdiction boundary and §7 "reachable authority to reverse": one sentence saying that, on H5's reading and inside the contract and consent exceptions, EU data-protection
+law (the outline's §9 names "the EU against other jurisdictions") secures human intervention and contest
+without fixing their timing, so immediacy has to come from the host's obligation rather than from
+data-protection law. The reading needs the two conditions stated in the Critical notes.
 
 ## Which reviewer point(s) it answers
 
@@ -56,3 +58,5 @@ leaves room for a hospitality-specific argument).
 
 New card in rr-2026-11-h (2026-11-10).
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): "safeguard is after the decision" and the contract-exception reading marked as inference (Art. 22(3) states no timing; Art. 22(2)(a) needs "necessary for").
+
+Fable-checked rr-2026-11-h (2026-11-10): verifier notes accepted and the applied fixes confirmed against Art. 22 and Recital 71 in the saved Official Journal text (Art. 22(3) states no timing; Art. 22(2)(a) needs "necessary for"). All four quotations match. Changed: Where-it-enters still stated "a later appeal" as what the law secures, now conditioned and marked as H5's reading; added that outside the exceptions Art. 22(1) operates as a prohibition (WP251 p. 19), which the "later appeal only" reading had left out.

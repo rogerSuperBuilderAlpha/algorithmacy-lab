@@ -41,6 +41,9 @@ decisions). In the hotels studied there was little empowerment in practice despi
 - Its choice/voice split maps onto the paper's discretion/authority split (PO §4): "choice" acts on the
   case, "voice" on the rule. The paper can borrow the parallel but should not claim Hales and Klidas
   made it.
+- The finding also bears on the paper's own baseline: staff gained neither "choice over how work was
+  done" nor "voice", so on this abstract the staffed five-star desk did not hold the discretion that PO
+  §2.4 and v4 §4 credit to the face-to-face encounter. [added by Fable, rr-2026-11-h]
 - Abstract only: no sample size, no methods detail, no quotations from staff. Amsterdam five-star hotels
   in the late 1990s.
 - Search results show an issue listing that attaches a different abstract to this title; use the
@@ -49,10 +52,14 @@ decisions). In the hotels studied there was little empowerment in practice despi
 ## Where it enters the manuscript
 
 Section 4 (outline numbering, rr-2026-11-h), as the alternate to Hewagama et al. (2019): frontline
-"empowerment" in luxury hotels meant responsibility without voice over the rules.
+"empowerment" in luxury hotels meant "increased employee responsibility rather than greater choice over
+how work was done or more voice in organizational decisions" (abstract): neither choice nor voice.
+"Voice over the rules" is the paper's gloss on "voice in organizational decisions".
 
 ## Which reviewer point(s) it answers
 
 R3.9.
 
 Created in rr-2026-11-h (2026-11-10), workstream H4: Fable lead (§4(g)) verified; record and abstract only.
+
+Fable-checked rr-2026-11-h (2026-11-10): verifier PASS accepted; Crossref record and OpenAlex abstract re-fetched, all four quotations match. Changed: Where-it-enters restated in the abstract's words (it had dropped "choice" and turned "organizational decisions" into "the rules"); one critical note added. read_depth stays abstract.

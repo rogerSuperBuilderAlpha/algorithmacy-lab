@@ -49,12 +49,16 @@ service-recovery timing, verified at abstract level (Tang 2018; Jin 2019).
 distinguish human-in-the-loop (no output without a human) from human-on-the-loop (the system runs and a
 human can correct it), and split the latter by time (arXiv v2 p. 4, Def. 1; p. 5, Def. 2). What separates
 the modes is "not elapsed time but whether intervention can occur before the token output becomes
-effective" (p. 6, §2.3). Only that synchronous mode can change the decision a person is actually subject
-to; asynchronous review "intervenes after the decision has been made, shaping future iterations", and
+effective" (p. 6, §2.3). Only that synchronous mode "can become outcome-HITL for a given deployer-runtime
+decision" (p. 6), which I gloss as changing the decision a person is actually subject to (the taxonomy
+itself says nothing about the person affected); asynchronous review "intervenes after the decision has been made, shaping future iterations", and
 anticipatory oversight "shapes the decision space before deployment" (pp. 6-7, §2.3). Where a decision is
 too fast for any person, as with emergency braking, the only human control left is to set its parameters
-in advance (pp. 7-8). R2.5a's "immediate interruptibility" is, in these terms, synchronous correction by
-someone with authority; a later appeal is asynchronous.
+in advance (p. 8), and advance rules count as oversight only while they can be revised (p. 6, n. 9).
+R2.5a's "immediate interruptibility" is, in these terms, synchronous correction by someone with
+authority. Calling a later appeal "asynchronous" is my analogy: Baum and Laux's asynchronous mode
+"targets future system behavior ... rather than the decision currently being made" (p. 6), and the
+taxonomy has no slot for a later review that reverses the same person's outcome.
 
 **On my reading, law secures the later appeal, not the person at the moment.** GDPR Article 22 bars solely automated
 decisions with legal or similarly significant effects (Art. 22(1)) but lifts the bar where the decision
@@ -64,12 +68,17 @@ decision" (Art. 22(3)). Recital 71 lists, as separate items, the right "to obtai
 decision reached after such assessment" and the right "to challenge the decision". My reading, not the
 law's text: booking, check-in and pricing fall under the contract exception only where the decision is
 "necessary for" the contract (Art. 22(2)(a)), and Art. 22(3) does not say when intervention occurs; if
-both hold, a hotel's legal floor is after-the-fact review. The
+both hold, a hotel's legal floor is after-the-fact review. Where neither exception applies the floor is
+higher, not lower: the regulators read Art. 22(1) as "a general prohibition" that "applies whether or
+not the data subject takes an action" (WP251rev.01 p. 19), so the decision may not be solely automated
+at all. The
 regulators add two markers the typology can borrow. "Cancellation of a contract" is a legal effect
-(WP251rev.01 p. 21), and differential pricing becomes significant only if "prohibitively high prices
-effectively bar someone from certain goods or services" (p. 22). They also make reversibility part of
+(WP251rev.01 p. 21), and differential pricing "could also have a significant effect if, for example,
+prohibitively high prices effectively bar someone from certain goods or services" (p. 22); they do not
+say that other pricing is insignificant. They also make reversibility part of
 significance ("a prolonged or permanent impact", p. 21) and require a reviewer "who has the appropriate
-authority and capability to change the decision" (p. 27). The AI Act's stop-button provision is a design
+authority and capability to change the decision" (p. 27). They call the Art. 22(3) intervention a
+"review" (p. 27), which fits my after-the-decision reading without stating it. The AI Act's stop-button provision is a design
 requirement, not a right of the affected person: Art. 14(4)(e) requires that a high-risk system be
 provided to the natural persons assigned to oversight in a way that enables them, "as appropriate and
 proportionate", "to intervene ... or interrupt the system through a 'stop' button" (OJ PDF p. 61). It
@@ -94,7 +103,7 @@ cited in the row; no source makes them for hotels.
 |---|---|---|---|---|---|
 | Admission or refusal at the door or check-in; booking not honoured; walked guest | High: shelter for the night; cancelling a booking is a legal effect ("cancellation of a contract"); refusing a walk-in is not among the regulators' examples | No: a refund next week does not return the night | Yes, the guest is at the threshold | **Synchronous**: a reachable person with authority before refusal takes effect | WP251 p. 21 (booking cancellation only; its "refused admission" is to a country); Baum & Laux p. 6; GDPR 22(3) states no timing (my reading: later review) |
 | Identity verification (e.g. facial check-in) | Low as verification; high if failure blocks entry | Yes, if a manual route exists | Only through its consequence | **Fallback route**, then synchronous if failure would refuse entry | AI Act Annex III 1(a) p. 127; Wilson-Nash et al. p. 981 (choice of access modes) |
-| Safety and access on the premises (key lock-out, alarms, removal for security) | Highest | Often no | Some too fast for any person | **Synchronous** where a person can act in time; **anticipatory** limits set and owned by the host where not | Baum & Laux pp. 7-8; AI Act Art. 14(4)(e) p. 61 as analogy only |
+| Safety and access on the premises (key lock-out, alarms, removal for security) | Highest | Often no | Some too fast for any person | **Synchronous** where a person can act in time; **anticipatory** limits set and owned by the host where not | Baum & Laux p. 8 and p. 6 n. 9 (advance limits must stay revisable); AI Act Art. 14(4)(e) p. 61 as analogy only |
 | Pricing (dynamic or personalised) | Usually moderate | Yes (refund, rebooking) | No; the guest can decline before contracting | **Asynchronous** appeal plus anticipatory rules; moves up if a price bars access | WP251 p. 22; Baum & Laux p. 7 |
 | Room assignment, upgrades, allocation | Low to moderate; high for an accessibility need | Mostly (room move) | Only on the arrival night | Asynchronous by default; **synchronous** where a guest's need makes the room unusable | WP251 p. 22 (vulnerable groups) |
 | Complaints and service recovery | Varies with failure severity | Partly | Speed helps on average, not for every guest | A **reachable** person with authority; speed tuned to the guest | Jin 2019; Tang 2018 (abstracts); Belanche 2020: 283 |
@@ -108,23 +117,26 @@ the host sets beforehand and answers for afterwards.
 
 ## 4. What this means for the host's obligation (FABLE_REVIEW §5)
 
-- **Threshold sovereignty (A), as description: supported.** The decisions that need a person at the
+- **Threshold sovereignty (A), as description: supported by my typology, not by a source.** On that
+  typology the decisions that need a person at the
   moment are those that act on a guest who is physically inside, or at the edge of, the host's premises
   (admission, safety, access). That dependence is A's core observation, and the typology turns it into a
   testable boundary: the framework should explain most where the guest is on site and least for remote,
   reversible decisions.
 - **Institutional role obligation (C): supported.** The sources locate the remedy in *authority to change
   the decision* assigned by the organisation (WP251 p. 27; Baum & Laux p. 2; Sterz et al. 2024: 2497),
-  and anticipatory oversight lets the host answer for decisions no frontline person could interrupt
-  (pp. 7-8). That answers R3.9: authority can be bounded by role, provided someone the organisation
+  and, on my application of Baum and Laux's anticipatory mode (p. 8; p. 6 n. 9), the host can answer
+  for decisions no frontline person could interrupt by owning and revising the limits set in advance. That answers R3.9: authority can be bounded by role, provided someone the organisation
   empowers is reachable at the moments that matter.
 - **Public calling (B): untested here.** The admission row is where B's duty to receive would bite. I did
   not read innkeeper law (another workstream's tradition); if H-workstreams verify it, B explains why
   refusal at the threshold is the paradigm case.
-- **Weakened:** any claim that *every* touchpoint must be interruptible. On my reading, law sets only after-the-fact
-  review (GDPR 22(3) states no timing); recovery evidence shows speed is not uniformly what guests want (Tang 2018). The
+- **Weakened:** any claim that *every* touchpoint must be interruptible. On my reading, and only inside the contract and consent
+  exceptions, law sets after-the-fact review (GDPR 22(3) states no timing; outside the exceptions Art.
+  22(1) prohibits the solely automated decision, WP251 p. 19); recovery evidence shows speed is not uniformly what guests want (Tang 2018). The
   paper should restrict immediacy to the irreversible, on-premises class. This also answers R2.4 in part:
-  general data-protection law does not demand immediacy, so a hospitality-specific ground is doing work.
+  general data-protection law does not state when the human must intervene, so a hospitality-specific
+  ground is doing work.
 
 ## 5. Reviewer points and recommendation
 
@@ -161,3 +173,15 @@ the host sets beforehand and answers for afterwards.
 - §3: AI Act Art. 14(4)(e) restated as a design requirement for assigned overseers, not a guest's right (finding 4).
 - §3: Jin et al. 2019 30-minute result marked unverified; no abstract retrievable (finding 5). The Jin entries in §1–2 and the typology's complaints row are records or citations, not the result, and were left as they are.
 - Typology, admission row: door refusal no longer presented as a regulators' legal-effect example; WP251 p. 21 covers cancelling a booking, and its "refused admission" is to a country (finding 6).
+
+## Fable corrections
+
+*Added by the Fable reader, rr-2026-11-h (2026-11-10), after reading the H5 cards on my list against their sources. The six earlier fixes listed above are right.*
+
+- §3, first paragraph: "the decision a person is actually subject to" marked as H5's gloss on "outcome-HITL for a given deployer-runtime decision" (Baum and Laux p. 6). The braking passage is on p. 8, not pp. 7-8. Added the condition that advance rules count as oversight only while revisable (p. 6, n. 9).
+- §3, first paragraph: "a later appeal is asynchronous" marked as H5's analogy. The source's asynchronous mode acts on future system behaviour, not on the decision already made (p. 6); a later review that reverses the same guest's outcome is not in the taxonomy.
+- §3, second paragraph: "differential pricing becomes significant only if ..." was the negative claim VERIFY_H_v1 caught on the card and missed here. WP251 p. 22 says such pricing "could also have a significant effect if, for example"; it makes no claim about other pricing.
+- §3, second paragraph, and §4 "Weakened": the "later appeal, not a person at the moment" reading left out the default. Outside the Art. 22(2) exceptions the regulators read Art. 22(1) as a prohibition (WP251 p. 19), so a human must be in the decision. Both passages now say the reading holds inside the exceptions only. Added that WP251 p. 27 calls the Art. 22(3) intervention a "review".
+- Typology, safety row, and §4 (C): locator pp. 7-8 corrected to p. 8 with p. 6 n. 9; "anticipatory oversight lets the host answer" marked as H5's application.
+- §4 (A): "supported" qualified. The support comes from H5's own typology, which no source makes for hotels.
+- §4, last bullet: "does not demand immediacy" restated as "does not state when the human must intervene", which is what Art. 22(3) carries.

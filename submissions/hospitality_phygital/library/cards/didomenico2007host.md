@@ -46,6 +46,7 @@ and refrain from complaining; host and guest norms can clash, making shared spac
 - Guests' reciprocal duties are unclear to guests: "guests may be unaware of their reciprocal obligations, including participation in household tasks, uncertain of what actions would be seen as appropriate from the standpoint of the host" (p. 332) [full-text]
 - Obligation as the brake on complaint: "The social niceties and obligations inherent in the interaction perpetuate the conflicts inherent in the provision of a commercial service within a domestic context", followed by the researcher's note on not complaining (p. 333) [full-text]
 - The setting decides: "The critical issue is whether the particular commercial home is closer to private home or hotel." (p. 333) [full-text]
+- Guests summon and hosts answer: "by virtue of what you do, you're always at their beck and call" (host interview, p. 332) (added by Fable, rr-2026-11-h) [full-text]
 - Host power is also bounded: hosts' "paradoxical powerlessness is evident in their essential position of service in relation to the guest" (p. 334); "They must meet the desires and demands of the paying guest, the 'master/mistress' of the experience." (p. 335) [full-text]
 
 ## Critical notes & threats
@@ -89,3 +90,5 @@ Fable-checked rr-2026-11 (2026-11-08): verifier_3 note accepted; frontmatter aut
 Upgraded in rr-2026-11-h (2026-11-10), workstream H4: re-read pp. 330-336 of the held PDF; added four located quotes (pp. 332-335); added the analysis of the p. 333 silence against the "address" thesis and Pitt-Rivers (2012); evidential basis of the silence narrowed to one researcher note. No frontmatter change.
 
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): the "necessary but not sufficient" inference attributed to H4, not "the authors"; the hotel licence for complaint attributed to the researcher's note and marked as H4's term.
+
+Fable-checked rr-2026-11-h (2026-11-10): verifier notes accepted and both applied fixes confirmed against pp. 332-335 (the "necessary but not sufficient" inference is H4's; the hotel contrast is the researcher's note and "licence" is H4's term). The four rr-2026-11-h quotations match at pp. 332, 333, 334, 335. Added one located line (p. 332) showing guests' summonses answered in the same homes.
