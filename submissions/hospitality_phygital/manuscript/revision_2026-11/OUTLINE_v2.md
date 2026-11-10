@@ -50,7 +50,7 @@ This answers Reviewer 1's request to present the test better in the abstract.
 - **The gap.**
   - Phygital research describes what technology does: tool, mediator, co-creator.
   - Algorithmic-accountability research asks who answers when a delegated system harms someone (Nissenbaum 1996; Kong 2026: 5).
-  - Hospitality research measures hospitableness as a personal disposition (Lashley 2015; Liu et al. 2026: 2).
+  - Hospitality research measures hospitableness as a personal motive or disposition (Lashley 2015: 1; Liu et al. 2026: 2).
   - None of the three asks where the commercial host's obligation goes when its work is delegated.
 - **Research question.** Unchanged from v1: where does the obligation of hosting go, and what must an arrangement preserve for the guest to remain a guest?
   - Ask it once here and answer it in §10.
@@ -70,13 +70,14 @@ This section answers all five of Reviewer 2's questions on obligation (R2-1, R2-
 
 ### 2.1 Two accounts of the host's obligation (350)
 
-**Claim.** Hospitality studies treat the host's obligation as a virtue of persons. The law treats it as a duty of a role. Only the second survives delegation.
+**Claim.** Hospitality studies know the host's obligation but locate its fulfilment in the motives of persons. The law treats it as a duty of a role. Only the second survives delegation.
 
-- **The virtue account.**
+- **The motive account.**
   - Hospitableness is "a host's disposition to care for a guest without expectation of reciprocity" (Liu et al. 2026: 2).
-  - Lashley's instrument identifies "individuals who are driven by a personal desire to be hospitable" (2015, abstract; full text pending).
+  - Lashley's instrument identifies "individuals who are driven by a personal desire to be hospitable to others" (2015: 1).
+  - The field states the duty: "the host is obliged to make the guests safe and to ensure that guests are unconditionally welcome" (Blain and Lashley 2014: 1). It then answers it by recruiting hospitable people, setting externally imposed obligation against hospitableness (p. 2). Hospitality was "a moral obligation until the advent of mass travel and commercialism" (Lashley 2015: 3).
   - Golubovskaya et al. call it "an attitude and spirit" (2017: 1287).
-  - A virtue belongs to a person. It cannot be delegated, and when the person is replaced by a system it simply disappears. That is why this account cannot answer Reviewer 2.
+  - A motive belongs to a person. It cannot be delegated, and when the person is replaced by a system it simply disappears. That is why this account cannot answer Reviewer 2.
 - **The role account.**
   - The common law bound the innkeeper, like the common carrier, to receive all comers. That duty "now attached only to common carriers by land and water … and innkeepers" (Burdick 1911: 523). The shopkeeper stayed free to refuse (Wyman 1904: 159).
   - The duty was "fixed by law rather than by contract" (Maese 2015: 501).
@@ -108,7 +109,7 @@ This section answers all five of Reviewer 2's questions on obligation (R2-1, R2-
 - **Several firms at once** (R2-1's "hotel company, operator, employee, platform, vendor").
   - In 1981 three parties shared one Holiday Inn: owners, an operator "in actual day-to-day control", and a franchisor. The court held all three answerable, reaching the brand because it presented the property as its own and guests relied on that (*Crinkley v Holiday Inns*, 844 F.2d 156, paras 7, 49–52). That is one circuit on reliance evidence it called "marginal", and the paper should state its scope.
   - A firm whose "own duty is not to perform the relevant function but only to arrange for its performance" is not liable (*Woodland* [2013] UKSC 66, para 25(3)). The paper borrows that line: perform versus arrange.
-  - Vendors sit in chains with "typically no one actor in overall control" (Cobbe et al. 2023, arXiv p. 7; convert to proceedings pages).
+  - Vendors sit in chains with "typically no one actor in overall control" (Cobbe et al. 2023: 1192).
 - **The paper's rule** (marked as the paper's own proposal).
   - Whoever holds itself out as host answers to the guest, alongside whoever controls the operation.
   - A party that only arranges the service, such as a vendor or a pure intermediary, answers to the host, not to the guest.
@@ -172,7 +173,7 @@ Each term below is defined only from the terms above it.
   - The guest owes "respect" and "honour" (Pitt-Rivers 2012: 514).
   - The guest breaches the role by insulting or rivalling the host, by "making himself at home", and by making "claims or demands" (p. 515).
   - A breach "entitles the person slighted … to relinquish his role" (p. 517).
-- **In commercial hospitality** the guest's "only obligation is to pay and behave reasonably" (Golubovskaya et al. 2017: 1286, reporting King 1995; read King first).
+- **In commercial hospitality** the guest's "only obligation is to pay and behave reasonably" (Golubovskaya et al. 2017: 1286, reporting King 1995; read King first). Guests are "expected not to overstay their welcome, misbehave, or endanger the hosts" (Lashley 2015: 2).
 - **In law** the traveller must appear able to pay and fit to be received (HPA s 1(3)).
 - **Hotels eject non-compliant guests** (Xiang et al. 2022; Di Domenico and Lynch 2007: 334).
 - **Replace the v4 passage** about "what guests owe" and about measuring standing. Keep only the measurement point, which survives: the field has no instrument for the guest's side.
@@ -215,7 +216,7 @@ This answers R3's points that authority is treated as absolute and that the pape
 - **Knowledge, discretion and authority** (v4 §4).
   - Knowledge drifts to the system (Rahman 2021).
   - Discretion is contested (Pedersen and Pors 2023; Spektor et al. 2023: 628–629).
-  - Authority over the rule drifts to whoever configures it, often the vendor, which keeps "rights to dictate terms of use and change, withdraw, or cancel products and services at will" (Cobbe et al., arXiv p. 10).
+  - Authority over the rule drifts to whoever configures it, often the vendor, which keeps "rights to dictate terms of use and change, withdraw, or cancel products and services at will" (Cobbe et al. 2023: 1195).
 - **Case and rule.** Discretion acts on the single case, authority on the rule. Hales and Klidas's "choice" and "voice" map onto them, although they do not make the paper's link.
 - **The employee as translator** (old §6, shortened).
   - Staff carry the guest's request into terms the system accepts (Hatherley 2025).
@@ -347,7 +348,6 @@ R3 asked for a clearer statement of what the paper achieved.
   - Hewagama et al.;
   - Hales and Klidas;
   - Baum and Laux (LNCS);
-  - Cobbe et al. (proceedings pages);
   - Lugosi 2009 (version of record).
 - **Proofreading pass for "it" and "this" without antecedents** (R1). Do this at the read-aloud, not by AI rewrite.
 - **Figure 1.** Reviewer 2 refers to a Figure 1. Check the submitted Word file. If there is a figure, it must show the §2.3 rule (holds out, controls, arranges) or be cut.

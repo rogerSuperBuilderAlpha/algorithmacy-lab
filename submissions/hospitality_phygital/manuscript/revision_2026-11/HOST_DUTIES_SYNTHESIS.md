@@ -21,15 +21,19 @@ The recommendation that survives all five workstreams is the one Fable proposed 
 
 ## 2. The literatures, and what each gives the paper
 
-### 2.1 Hospitality studies: a virtue, not a role
-Hospitableness research measures the host's duty as a personal disposition. Its examples are:
-- Lashley's (2015) instrument to "identify those individuals who are driven by a personal desire to be hospitable";
+### 2.1 Hospitality studies: a motive, not a role-holder's duty
+*(Revised 10 Nov after the debts run, WS_DEBTS.md and VERIFY_H_v4.md. Lashley 2015 and Blain and Lashley 2014 are now read in full.)*
+
+Hospitableness research measures the host's motive in place of the host's duty. Its examples are:
+- Lashley's (2015) instrument to "identify those individuals who are driven by a personal desire to be hospitable to others" (p. 1);
 - Liu et al.'s "host's disposition to care for a guest without expectation of reciprocity" (2026, p. 2);
 - Golubovskaya et al.'s "attitude and spirit" (2017, p. 1287).
 
-Lashley's 2014 editorial calls "the duty of the host to welcome and protect guests" a central feature of human morality, and says those obligations have lost their former importance (abstract). H1 found no hospitableness work that assigns the duty to an organisation or a role (Consensus, 10 Nov 2026). This is the position the paper argues past. It is also why hospitality studies alone cannot answer Reviewer 2: a virtue has no holder to delegate from.
+Neither Lashley paper calls hospitableness a virtue; both speak of motive and desire. The field knows the duty. Lashley writes that hospitality "has been, in all human settings, a moral obligation until the advent of mass travel and commercialism" (2015, p. 3). Blain and Lashley state it inside their hosting metaphor: "the host is obliged to make the guests safe and to ensure that guests are unconditionally welcome" (2014, p. 1). They offer that sentence as a model for service relations, but no service worker was studied. They then set an obligation that is "externally imposed" against Telfer's hospitableness, saying it "may be at odds" with it (p. 2). Their remedy is to recruit people with hospitable motives.
 
-**Debt:** this line rests mostly on abstracts. Every relevant full text was closed to the session: Telfer, King 1995, Lashley 2000, Lashley 2015, and Blain and Lashley 2014.
+The gap, restated: I found no hospitableness work that assigns the host's duty to an organisation. The closest, Blain and Lashley (2014), states the obligation within a metaphor and answers it by selecting motivated individuals (pp. 1–2). This is the position the paper argues past. It is also why hospitality studies alone cannot answer Reviewer 2: a motive has no holder who answers when the work is delegated.
+
+**Debt:** Telfer, King 1995 and Lashley 2000 remain closed. On Telfer p. 42, only one report quotes her, and it includes "duties to be hospitable" among the motives (Blain and Lashley p. 2). Lashley 2015's unquoted paraphrase, which gives no Telfer page, omits it (p. 5). Check Telfer before citing either.
 
 ### 2.2 Anthropology: duties on both sides, demands on neither
 Pitt-Rivers sets out the rule most fully (read in full):
@@ -38,6 +42,8 @@ Pitt-Rivers sets out the rule most fully (read in full):
 - **Breach** by either side "entitles the person slighted … to relinquish his role" (p. 517).
 
 Shryock (read in full) adds a warning about the commercial case. He hands the modern care of strangers to "the hospitality industry … and the government bodies that control immigration and naturalization" (p. S30). He suggests, hedged with "perhaps because", that relations in both spheres are "depersonalized, formulaic, monetized" (pp. S30–S31).
+
+Lashley gives the same pairing from inside hospitality studies. Guests "are to be protected by hosts but at the same time, expected not to overstay their welcome, misbehave, or endanger the hosts" (2015, p. 2, citing O'Gorman).
 
 This answers Reviewer 3's point about "what guests owe" (R3.10). It also tells the paper not to rest its idea of standing on hospitality's own anthropology.
 
@@ -72,7 +78,7 @@ Before any algorithm, three parties shared the welcome at a 1981 Holiday Inn des
 
 The court held all three answerable. It reached the brand by apparent agency, on reliance evidence it called "marginal" (para 52). That is one circuit applying North Carolina law, not a general rule.
 
-Technology adds a chain of firms in which "there is … typically no one actor in overall control" (Cobbe et al. 2023, arXiv p. 7). Vendors keep control while disclaiming accountability (p. 10). In short-term rentals the host role breaks into platform-defined parts: primary host, co-host and listing admin (Bosma 2022, p. 601). Self-check-in turns "hosting into ghosting" (p. 605).
+Technology adds a chain of firms in which "there is … typically no one actor in overall control" (Cobbe et al. 2023, p. 1192). Vendors keep control while disclaiming accountability (p. 1195). In short-term rentals the host role breaks into platform-defined parts: primary host, co-host and listing admin (Bosma 2022, p. 601). Self-check-in turns "hosting into ghosting" (p. 605).
 
 ### 2.6 Frontline authority: graded, not absolute
 Hotel service recovery is "carefully stage-managed and 'staircased' … with empowerment strongly related to hierarchical level" (Hewagama et al. 2019, abstract). In Amsterdam five-star hotels empowerment meant "increased employee responsibility rather than greater choice … or more voice" (Hales and Klidas 1998, abstract).
@@ -94,7 +100,7 @@ Data-protection law covers part of the ground:
 | **What switches the duty on** | Arrival. Contradicted: the law makes the trigger two-sided (holding out, plus a traveller who can pay and is fit to be received) | Holding out plus a traveller who presents himself. Documented (HPA s 1(3); *Calye* fol. 32b) | Admission into the host's charge (*Woodland* paras 7, 23(2) structure; Maese p. 501) |
 | **Who holds it** | Whoever controls the premises. Unsettled: control is split among owner, operator and brand (*Crinkley* para 7) | The proprietor, who answers for servants (HPA s 1(1); *Calye* fol. 33a) | The role-holder that undertook or was assigned the reception; employees hold derived job duties |
 | **Why it stays after delegation** | Not addressed | Status: the law fixes it (Bogen pp. 52, 75) | The work moves, the duty stays (*Woodland* para 7; Morgan p. 7) |
-| **Several firms** | No answer | Whoever held out; the guest's reliance (*Crinkley* paras 49–52) | A role split across firms (Bosma p. 601; Cobbe p. 8). H3's proposal: holding out fixes who answers to the guest, and control fixes who performs |
+| **Several firms** | No answer | Whoever held out; the guest's reliance (*Crinkley* paras 49–52) | A role split across firms (Bosma p. 601; Cobbe p. 1193). H3's proposal: holding out fixes who answers to the guest, and control fixes who performs |
 | **Guest's claim** | Not supplied: Pitt-Rivers makes demands a usurpation (p. 515) | The paying traveller's action at law (Sandoval-Strausz p. 64) | Supplied by the institution's accountability arrangements, which are separate from standing (§5) |
 | **Why hospitality** | Body, belongings and night inside another's house: survives as *description* | Duty to receive, special to innkeepers and carriers (Burdick p. 523) | Through B's content |
 | **Weakness** | No source grounds it | Explains when and who, not why; jurisdiction-bound; thin on the manner of the welcome | Role-obligation philosophy largely unread; needs B's content |
@@ -185,13 +191,12 @@ These are needed before the sentences that lean on them can be written:
 - **King 1995.** The outline's content sentence rests on it, and the library has it only through Golubovskaya p. 1286.
 - **Lashley 2000/2001.** The library has it only through Slattery. The bib and v4 give pp. 1–16; Crossref gives pp. 1–17 for the 2001 printing.
 - **Telfer 2000/2001.**
-- **Lashley 2015** and **Blain and Lashley 2014.** Open access, but blocked to the session.
+- **Telfer p. 42.** Blain and Lashley quote "duties to be hospitable" among her motives; Lashley 2015's unquoted paraphrase omits it. Check the chapter.
 - **Hewagama et al. 2019** and **Hales and Klidas 1998.** §6's answer to R3.9 leans on both.
 - **Germann Molz 2026.** It carries the positioning in §1 and is abstract-only.
 - **Hart, *Punishment and Responsibility*** (Postscript), and **Hardimon 1994.** These matter only if C is to cite role-obligation philosophy and not just law.
 - **Version checks:**
   - Baum and Laux: the LNCS chapter, which Crossref dates 2027;
-  - Cobbe et al.: proceedings pages (arXiv page + 1185);
   - Lugosi 2009: the version of record.
 
 These are now listed in `PAPERS_TO_GET.md` as nos. 61–70.
@@ -199,7 +204,7 @@ These are now listed in `PAPERS_TO_GET.md` as nos. 61–70.
 ## 10. Gaps the paper can claim
 
 These are stated in the form the research rules require:
-- **Hospitableness as a role.** I found no hospitableness work that assigns the host's duty to an organisation or a role (Consensus queries in WS_H1 §1, 10 Nov 2026).
+- **Hospitableness as an organisation's duty.** I found no hospitableness work that assigns the host's duty to an organisation (Consensus queries in WS_H1 §1, 10 Nov 2026; full reads of Lashley 2015 and Blain and Lashley 2014). Blain and Lashley come closest: they state the obligation within a hosting metaphor and answer it by recruiting motivated individuals (pp. 1–2).
 - **Unstaffed hotels.** I found no study of unstaffed hotels that asks who owes the guest anything or how a guest reaches a person with authority. The existing studies measure acceptance and satisfaction (WS_H3 §1).
 - **Escalation.** I found no hotel, restaurant or bar study that follows a guest's request up the escalation path to the party with authority over the rule. Xiang et al. (2022) come closest, with two cases (WS_H4).
 

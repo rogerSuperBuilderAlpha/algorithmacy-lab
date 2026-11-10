@@ -17,14 +17,14 @@ verified_date: 2026-11-10
 source_basis: "Crossref record 10.1080/22243534.2014.11828307 fetched 2026-11-10 (Research in Hospitality Management 4(1-2), 1-8, 2014; authors Matthew Blain, Conrad Lashley). Full text (8 pp.) read 2026-11-10 from the NISC published PDF as served by African Journals Online (ajol.info rhm article 141774, file 131509), retrieved from the Internet Archive Wayback snapshot because Taylor & Francis returned 403 and AJOL and CORE were blocked to the session. Saved at manuscript/revision_2026-11/research/sources/blain2014hospitableness/. The PDF prints DOI 10.2989/RHM.2014.4.1&2.1.1247, which does not resolve at doi.org; cite the Crossref DOI. Pages 4-7 (instrument iterations and statistics) read for content only; no quotation taken from them except the item on p. 7."
 generated_run: rr-2026-11-h
 flags: []
-hold_rationale: "Held because it is the one hospitableness source read that states a host obligation in a service role: the host 'is obliged to make the guests safe and to ensure that guests are unconditionally welcome' and 'the chief responsibilities ... lie with hosts' (p. 1), applied by metaphor to tour guides, air stewards and museum staff. That narrows the H1 gap statement. It also carries the only page-located report of Telfer's chapter (pp. 2-3). The authors decide admission; it overlaps lashley2015hospitality, so cite one unless both are needed."
+hold_rationale: "Held because it is the one hospitableness source read that states a host obligation and extends it, by metaphor, to service roles: the host 'is obliged to make the guests safe and to ensure that guests are unconditionally welcome' and 'the chief responsibilities which concern us here lie with hosts' (p. 1), with host-guest relationships that 'can be seen to apply' to tour guides, air stewards and museum staff (p. 1). That narrows the H1 gap statement. It also carries the only page-located report of Telfer's chapter (pp. 2-3). The authors decide admission; it overlaps lashley2015hospitality, so cite one unless both are needed."
 ---
 
 *Card drafted by Claude (rr-2026-11-h debts pass). Not the authors' wording.* Outline numbering (rr-2026-11-h): §2.1.
 
 ## Summary
 
-Builds a 13-item instrument to measure "genuine" (altruistic) hospitableness in individuals, for use in recruiting staff to commercial settings. The introduction extends host-guest relations by metaphor to many service roles and states that the host is obliged to keep guests safe and welcome them unconditionally. The theory section relies heavily on Telfer (2000), read as making hospitableness a matter of motive; externally imposed obligation is treated as at odds with genuine hospitableness.
+Builds a 13-item instrument to measure "genuine" (altruistic) hospitableness in individuals, for use in recruiting staff to commercial settings. The introduction extends host-guest relations by metaphor to many service roles and states that the host is obliged to keep guests safe and welcome them unconditionally. The theory section relies heavily on Telfer (2000), read as making hospitableness a matter of motive; externally imposed obligation "may be at odds" with Telfer's notion of hospitableness (p. 2).
 
 ## Key facts / verified quotes with loci
 
@@ -41,9 +41,10 @@ Builds a 13-item instrument to measure "genuine" (altruistic) hospitableness in 
 
 ## Critical notes & threats
 
-- The p. 1 sentence is the strongest statement in hospitality studies, among sources read in this run, that a host in a service role is *obliged* to keep guests safe and welcome them unconditionally. It is asserted in one sentence, not argued, and the paper then moves the whole question into individual motive. It names no organisation as holder; the "host" is whoever occupies the service role.
+- The p. 1 sentence is the strongest statement in hospitality studies, among sources read in this run, that a host is *obliged* to keep guests safe and welcome them unconditionally, extended by metaphor to service roles. It is asserted in one sentence, not argued, and the paper then moves the whole question into individual motive. It names no organisation as holder; by the metaphor, the "host" is whoever occupies the service role.
 - "Unconditionally welcome" runs against the law's conditional trigger (HPA s 1(3)) and against Lashley 2015 p. 1 ("only so long as they could pay the price"). The paper should not borrow "unconditional" from here.
-- Telfer is reported, not read. Lashley (2015, p. 5) gives a different version of the same Telfer list, without "duties". Use neither as Telfer's words.
+- Context narrows the p. 1 sentence. It follows "Using this metaphor, the visitor, as a guest, is entering the host's space" (p. 1), so the obligation belongs to the hosting metaphor; the next sentences offer it as an approach that "provides a model for building long-term customer loyalty" (p. 1), not an argued duty; and on p. 2 the obligation is one "accepted by hosts", not assigned to them. The service-role scope is hedged ("can be seen to apply", p. 1), and no service-role holder was studied: the instrument was developed with domestic dinner-party hosts (Lashley 2015, p. 6) and "a brewery that hosted the research" (p. 7). The scope describes the metaphor's reach, not the paper's evidence.
+- Telfer is reported, not read. This paper gives the only quoted report of Telfer's p. 42 list, including "duties to be hospitable" (p. 2); Lashley (2015, p. 5) gives an unquoted paraphrase, with no Telfer page, that omits it. Use neither as Telfer's words.
 - The sentence "Guests are offering hospitality because they are obliged to do so" (p. 2) reads as a slip for "hosts"; do not quote it.
 - Small, unrepresentative sample; the instrument is a recruitment tool, not a theory of obligation.
 
@@ -56,3 +57,5 @@ Builds a 13-item instrument to measure "genuine" (altruistic) hospitableness in 
 R2.1a (content of the host's duty: safety and welcome, p. 1); R3.8 in part (host roles beyond the reception desk, p. 1); R3.10 in part (guests have "some obligations", p. 1, not specified).
 
 Created in rr-2026-11-h (debts), 2026-11-10: PAPERS_TO_GET no. 70; full text read via the Wayback copy of the AJOL PDF.
+
+Corrected in rr-2026-11-h after VERIFY_H_v4 (2026-11-10): hold_rationale restores "which concern us here" in the p. 1 quotation and describes the service-role extension as by metaphor ("can be seen to apply"); Summary restores the source's hedge "may be at odds" (p. 2); Critical notes describe the p. 1 obligation as extended to service roles by metaphor, add the context of that sentence (hosting metaphor, loyalty model, "accepted by hosts" on p. 2, no service-role holder studied) and restate the Telfer p. 42 discrepancy as quoted report versus unquoted paraphrase.

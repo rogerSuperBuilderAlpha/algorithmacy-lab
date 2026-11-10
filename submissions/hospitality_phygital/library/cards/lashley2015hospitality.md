@@ -29,8 +29,9 @@ A short conceptual paper and instrument report. Lashley surveys religious and hi
 ## Key facts / verified quotes with loci
 
 - Aim: "a research instrument that can be used to identify those individuals who are driven by a personal desire to be hospitable to others" (p. 1, abstract) [full-text]
-- Hospitableness defined by motive: "hospitableness indicates the willingness to be hospitable for its own sake, without any expectation of recompense or reciprocity" (p. 1) [full-text]
+- Hospitableness defined by motive, as Lashley restates an earlier definition (he cites "Lashley & Morrison 2000, Lashley et al. 2007"): "hospitableness indicates the willingness to be hospitable for its own sake, without any expectation of recompense or reciprocity" (p. 1) [full-text]
 - The commercial welcome is conditional on payment: "'Hospitality' created an impression of guests being hosted and welcomed, but in reality, only so long as they could pay the price (Ashness & Lashley 1995)" (p. 1) [full-text]
+- Guests' obligations, at second hand and in pre-modern and Shakespearean settings, not commercial hosting: "Guests are to be protected by hosts but at the same time, expected not to overstay their welcome, misbehave, or endanger the hosts (O'Gorman 2007a)" (p. 2) [full-text]
 - Duty as a historical social obligation, now weaker: "Offering guests hospitality has been, in all human settings, a moral obligation until the advent of mass travel and commercialism. The obligation to offer hospitality to the stranger no longer carries the same moral obligation it once had in these societies" (p. 3) [full-text]
 - In the cultural domain the duty is not a private preference: "Frequently, the duty to provide hospitality, to act with generosity as a host, and to protect visitors is more than a matter left to the preferences of individuals." (p. 4) [full-text]
 - The commercial domain: "the commercial provision of hospitality activities is chiefly driven by the need to extract surplus value from the service interaction (Sweeney & Lynch 2007)" (p. 4) [full-text]
@@ -46,7 +47,7 @@ A short conceptual paper and instrument report. Lashley surveys religious and hi
 - No organisation, role or employer holds any duty in this paper. The firm appears as a seller of hospitality "at a price" (p. 5) and, implicitly, as a recruiter of hospitable individuals. That supports HOST_DUTIES_SYNTHESIS §2.1 ("a virtue, not a role"), though Lashley speaks of motive and "desire", not virtue.
 - It does name a duty, but as a social one: "more than a matter left to the preferences of individuals" (p. 4). The paper could cite this to show that hospitality studies itself once located the duty outside the individual, then measured only the individual.
 - "Only so long as they could pay the price" (p. 1) is the field's own version of the payment condition in innkeeper law (HPA s 1(3)). It is a critical remark about the industry's rhetoric, not a statement of what the guest owes.
-- The Telfer material on p. 5 is Lashley's report; its bulleted list of Telfer's motives differs from Blain and Lashley's quotation of the same passage (see telfer1995hospitableness). Do not cite Telfer through this paper.
+- The Telfer material on p. 5 is Lashley's report; its bulleted list of Telfer's motives is an unquoted paraphrase with no Telfer page, omits the "duties to be hospitable" that Blain and Lashley's quotation of the same passage includes (p. 2), and adds two items (see telfer1995hospitableness). Do not cite Telfer through this paper.
 - Not about King 1995; King is not cited.
 
 ## Where it enters the manuscript
@@ -55,6 +56,8 @@ A short conceptual paper and instrument report. Lashley surveys religious and hi
 
 ## Which reviewer point(s) it answers
 
-R2.1a and R2.4 in part (what hospitality studies says the host's duty is, and that it locates it in individuals); R3.11 in part (welcome is not one thing: Figure 2's six motives).
+R2.1a and R2.4 in part (what hospitality studies says the host's duty is, and that it locates it in individuals); R3.11 in part (welcome is not one thing: Figure 2's six motives); R3.10 in part (guests are "expected not to overstay their welcome, misbehave, or endanger the hosts", p. 2, via O'Gorman, not in the commercial setting).
 
 Created in rr-2026-11-h (debts), 2026-11-10: PAPERS_TO_GET no. 70; full text read via the Wayback copy of the AJOL PDF.
+
+Corrected in rr-2026-11-h after VERIFY_H_v4 (2026-11-10): the p. 1 hospitableness definition is now attributed as Lashley's statement of an earlier definition (Lashley & Morrison 2000, Lashley et al. 2007); added the p. 2 guest-conduct sentence ("expected not to overstay their welcome, misbehave, or endanger the hosts", via O'Gorman 2007a) to Key facts and R3.10; the Telfer-list note now describes Lashley's p. 5 list as an unquoted paraphrase without a Telfer page that omits the duty clause.
