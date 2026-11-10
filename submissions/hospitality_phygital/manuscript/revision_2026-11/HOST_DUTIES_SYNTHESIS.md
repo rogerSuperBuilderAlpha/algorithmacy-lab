@@ -177,7 +177,7 @@ The same check of the outline (my draft, so I can revise it when you decide):
 | H4 | `pittrivers2012law`, `hewagama2019empowerment` (full text needed) |
 | H5 | `baum2026constitutive` |
 
-All are `held`; you decide admission. The reference list must still lose about 40 entries net (RESEARCH_PLAN.md), so each entry here needs a matching cut.
+All are `held`; you decide admission. Correction (10 Nov): an earlier version of this line said the reference list must lose about 40 entries. Your ruling in `manuscript/JOURNAL_SPEC.md` is that references do not count toward the word limit, so no matching cut is required; prune references for quality only.
 
 ## 9. Debts before drafting §2
 
