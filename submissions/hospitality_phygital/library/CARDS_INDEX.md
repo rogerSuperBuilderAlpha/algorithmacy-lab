@@ -4,7 +4,7 @@
 
 **261 cards.** Newest run: `rr-2026-11-h`.
 
-Status: cited 125, held 116, rejected 19, superseded 1.  Read depth: abstract 112, full-text 132, metadata 17.
+Status: cited 125, held 117, rejected 18, superseded 1.  Read depth: abstract 112, full-text 132, metadata 17.
 
 A card exists for every source the research touched, including candidates that were weighed and declined. `rejected` cards carry the displacement argument that kept them out; that is the record a reviewer response needs. Claim slugs are defined in [`CLAIMS.md`](CLAIMS.md); venue-level exclusions in [`VENUE_RULINGS.md`](VENUE_RULINGS.md).
 
@@ -186,7 +186,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `wellbeing-valence` — henkens2021 *(rejected)*
 
 **§7. Against frictionless hospitality**
-- `affordances-derived` — moscalarosa2019, okhuysenbechky2009, wilsonnash2025captivity *(rejected)*
+- `affordances-derived` — moscalarosa2019, okhuysenbechky2009, wilsonnash2025captivity *(held)*
 - `constructive-friction` — chalmers2004seamful, ehsan2024seamfulxai, padigar2024friction, phillips2024physical, buellnorton2011labor *(rejected)*, chenschmidt2024friction *(held)*, natali2025friction *(held)*
 - `cultural-scripts` — andreev2025destination, costanzachock2020design, gaothebault2026townie, nguyen2024stereotypes, mattila1999 *(held)*, torres2014delight *(held)*, wang2024genai *(held)*
 - `editors-own-ground` — batathammedi2023ert, moscalarosa2019, batat2024metaverse *(held)*, batat2025binge *(held)*, batat2026phive *(held)*
@@ -205,7 +205,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `seamlessness-uncritiqued` — batathammedi2023ert, mameli2026framework, shabnam2026tpsr, weaver2025fast, batat2024metaverse *(held)*, batat2025binge *(held)*, batat2026phive *(held)*
 - `torque` — bowkerstar1999sorting, cheneylippold2011identity *(held)*, fourcadehealy2013classification *(held)*, garlandthomson2011misfits *(rejected)*
 - `voice-independent-of-outcome` — goodwin1992consumer, lind1990voice, folger1977voice *(held)*
-- `wellbeing-valence` — wilsonnash2025captivity *(rejected)*
+- `wellbeing-valence` — wilsonnash2025captivity *(held)*
 
 **§8. Discussion**
 - `conditional-hospitality` — bogen1996innkeeper *(held)*, heartofatlanta1964motel *(held)*, sandovalstrausz2005travelers *(held)*
@@ -231,7 +231,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 
 **hospitality-theory** — 59 cards (cited 13, held 42, rejected 4)
 
-**phygital-service** — 41 cards (cited 25, held 8, rejected 7, superseded 1)
+**phygital-service** — 41 cards (cited 25, held 9, rejected 6, superseded 1)
 
 **ai-automation** — 50 cards (cited 32, held 15, rejected 3)
 
@@ -487,7 +487,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [vandoorn2023](cards/vandoorn2023.md) | Organizational Frontlines in the Digital Age: The Consumer-… | 2023 | phygital-service | superseded | rival | 3 | abstract | verified |
 | [wang2024genai](cards/wang2024genai.md) | Personalizing Guest Experience with Generative AI in the Ho… | 2024 | ai-automation | held | evidence | 7 | abstract | verified |
 | [weaver2025fast](cards/weaver2025fast.md) | Fast Hospitality and Technology: Contemporaneous Connection… | 2025 | platform-hospitality | cited | rival | 7 | abstract | verified |
-| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2026 | phygital-service | rejected | evidence | 7 | full-text | crossref-verified |
+| [wilsonnash2025captivity](cards/wilsonnash2025captivity.md) | No App, No Entry: Conceptualizing Digital Technology Captiv… | 2026 | phygital-service | held | evidence | 7 | full-text | crossref-verified |
 | [wirtz2023digital](cards/wirtz2023digital.md) | Digital Service Technologies, Service Robots, AI, and the S… | 2023 | ai-automation | held | framing | 1 | abstract | verified |
 | [woodland2013uksc](cards/woodland2013uksc.md) | Woodland (Appellant) v Essex County Council (Respondent) | 2013 | mediation-sovereignty | held | evidence | 2 4 | full-text | verified |
 | [wyman1904law](cards/wyman1904law.md) | The Law of the Public Callings as a Solution of the Trust P… | 1904 | hospitality-theory | held | evidence | 2 | full-text | crossref-verified |

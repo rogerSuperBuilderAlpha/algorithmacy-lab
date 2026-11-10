@@ -6,7 +6,8 @@ year: 2026
 doi: 10.1002/mar.70098
 venue: "Psychology & Marketing 43(5), 974–985"
 cluster: phygital-service
-status: rejected
+status: held
+hold_rationale: "Admitted to DRAFT_v5 at Reviewer 1's request; becomes cited when v5 replaces DRAFT.md."
 role: evidence
 used_by_sections: [7]
 claims: [affordances-derived, wellbeing-valence]
@@ -16,7 +17,6 @@ verified_date: 2026-11-08
 source_basis: "Full text read 2026-11-08 from the user-supplied PDF (sources/wilsonnash2025captivity/user_pdf/fulltext.pdf): Wiley version of record, open access CC BY, downloaded from Wiley Online Library 08/11/2026; running foot 'Psychology & Marketing, 2026; 43:974–985'; received 30 Jun 2025, accepted 19 Dec 2025; copyright line '© 2025 The Author(s)'. 12 PDF pages = pp. 974–985. Title, authors and DOI match the card and Crossref. Locators are the printed journal pages. Earlier abstract record: Crossref, re-read 2026-11-08."
 generated_run: 2026-08-08-audit-transcription
 flags: []
-rejected_reason: "Not admitted for want of words."
 ---
 
 ## Summary
@@ -82,3 +82,5 @@ Fable-checked rr-2026-11 (2026-11-08): Summary rewritten to the abstract's conte
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: definition quoted (p. 975); exclusion/unengagement distinction confirmed (p. 976) and Summary restored; cost of refusal located (p. 979); "grounds the second condition" judged PARTLY; abstract-only-debt removed.
 
 Fable-checked rr-2026-11 (2026-11-08): verifier_3 notes accepted; frontmatter year 2025→2026 and venue given volume, issue and pages per the version of record (running foot p. 974); status/recommendation contradiction recorded for the authors, status unchanged; full text read in sources/.
+
+Admitted in rr-2026-11-h (2026-11-10): status set to held (cited in DRAFT_v5; becomes cited when v5 replaces DRAFT.md). Reviewer 1 asked for it (R1.1), the authors' pitch cites it (pp. 976, 978–981), and DRAFT_v5 §7–§8 use it. Bib entry added.
