@@ -53,6 +53,15 @@ This answers Reviewer 1's request to present the test better in the abstract.
   - Hospitality research measures hospitableness as a personal disposition (Lashley 2015; Liu et al. 2026: 2).
   - None of the three asks where the commercial host's obligation goes when its work is delegated.
 - **Research question.** Unchanged from v1: where does the obligation of hosting go, and what must an arrangement preserve for the guest to remain a guest?
+  - Ask it once here and answer it in §10.
+  - Do not introduce a second question about "AI" in §8 (R3).
+- **Fixed vocabulary** (R3: terms shift between AI, technology and algorithmic systems). Define once and use throughout:
+  - **"algorithmic system"**: software that takes or shapes a decision about a guest;
+  - **"phygital arrangement"**: the guest, staff, property, firms and systems together;
+  - **"touchpoint"**: a moment where the guest meets the arrangement.
+  - Retire "machine", "code, agents, interfaces" and "automated processes" as synonyms.
+- **Machines as heirs.** One sentence, stated as a scoping choice rather than a dismissal (R3 disputed "boring"): machines can hold operational roles (Kropf et al. 2026: 7), and whether they can answer is outside the paper's question.
+- **Claims under "we"** (R3). Every general claim gets a named source or is cut. Drop Bitner et al. 2000 as a source on AI.
 - **Thesis and itinerary.** One paragraph naming the three contributions and the sections that make them. Use the same contribution list everywhere (Fable review: four files currently differ).
 
 ## 2. The host's obligation (1,500)
@@ -236,7 +245,15 @@ This answers R1's request for a preamble on the test's purpose, and R3's comment
   - **Facial-recognition check-in** (Xu et al. 2021). Identity confirmation is clerical; profile scoring decides how the guest is received.
   - **Short-term-rental self-check-in** (Bosma 2022: 605). No one is reachable at the moment of a lock-out.
   - **The animated chef** (Batat 2021). Passes, because staff still host the meal.
-- **Tone** (R3). Cut "condemns … blesses", "bite" and similar rhetoric. State the results plainly.
+- **Tone** (R3). State the results plainly. Cut every phrase R3 named:
+  - the opening anecdote;
+  - "we talk" (p2);
+  - "the answer is boring" (p2);
+  - "condemns … blesses" (p13);
+  - "the six questions bite" (p13);
+  - "sitting ducks" (p14);
+  - the six-line sentence (p18);
+  - the Airbnb-remedy passage (p19).
 
 ## 6. Boundary conditions (650, new)
 
@@ -290,7 +307,10 @@ This answers R3's points that the contributions were unconvincing and the well-b
   - GDPR Art. 22(3) gives a narrow right to an addressee, without timing.
   - The AI Act's stop button (Art. 14(4)(e)) is a design duty owed to overseers, not a guest's right, and Annex III names no hospitality use.
   - Under both, how a guest reaches someone with authority is left largely to hospitality firms themselves.
-- **Well-being.** Either ground it or cut it. R3 could not see the link. If kept, it needs one sentence and a source on how a guest left without recourse is harmed, e.g. captivity "may carry a personal cost and loss" (Wilson-Nash et al. 2026: 979). Otherwise cut the subsection.
+- **Well-being (must stay; about 150 words).** The editor asked for well-being and societal implications (`submission/RESPONSE_TO_EDITOR.md`, row 4), and R3 could not see the link, so state it in a chain the reader can follow. Name the distinction first: standing held versus exercised (§3.1).
+  - For the individual guest: captivity "may carry a personal cost and loss" (Wilson-Nash et al. 2026: 979), and a guest who cannot press a claim bears that cost alone.
+  - For the collective: the same mediation can enchant, disenchant or re-enchant (De Vos et al. 2024), depending on whether the arrangement keeps a path to authority.
+  - Drop "two levels" and "a direction of travel for research rather than a finished theory" (R3).
 - **Not a case against the technology.** One paragraph, plain.
 
 ## 9. Limitations and a research agenda (450)
