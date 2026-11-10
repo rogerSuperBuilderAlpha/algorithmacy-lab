@@ -42,6 +42,11 @@ labour) and five managerial enablers, and call for an inter-paradigmatic view.
 - Limits of the guest's claim, in a manager's words to staff: "they are here as your guests, but they cannot demand everything, always try to help them, but we have own standard" (P-7, p. 1297) [full-text]
 - Limitation: sample "limited to upscale hotels in one region of Australia" (p. 1300) [full-text]
 - *International Journal of Contemporary Hospitality Management* 29(5), pp. 1282-1304 [metadata]
+- Context of the King sentence (p. 1286): commercial hospitality reduces reciprocity, "'absolving the guest of mutual obligation, and loyalty' (Lashley, 2000, p. 14)"; the next sentence adds that "the host can also take advantage of the guest at any given time due to the possession of specific knowledge, information or resources". The Lashley and King wording is secondary, not checked against Lashley 2000 or King 1995 [full-text]
+- Constraint runs both ways: hotels generate "standardized procedures and scripted interactions which mitigate employee freedom and independence and foster power inequalities between customers and employees" (p. 1295); "you cannot yell at them [guests] if they are wrong or rude with you" (P-22, p. 1295) [full-text]
+- A guest's claim can be lost in a hotel: "Unsavory individuals, who are discourteous, disrespectful will be eventually removed from the establishment and 'my space'. ... there are certain lines where if the guest crosses there is an iron curtain which comes down and that's it" (P-9, p. 1298) [full-text]
+- The authors read these as contradicting "King's (1995) proposition of a prevailing power asymmetry in commercial hospitality" (p. 1298) [full-text]
+- The p. 1297 manager quote sits in the authors' "organizational culture" enabler, beside "that mentality of empowering the frontline staff to look after the guests" (P-15, p. 1297) [full-text]
 
 ## Critical notes & threats
 
@@ -58,12 +63,22 @@ Support verdicts:
 
 xiang2022covid quotes this paper's definition at p. 1285. The page is right: Lashley's three domains and King's private-domain reciprocity sit on p. 1285.
 
+**What pp. 1286 and 1297 support (rr-2026-11-h, H4).**
+
+- p. 1286 is the only located hospitality-management statement of the commercial guest's duties: pay and behave reasonably. It is the authors' paraphrase of King (1995), and the "absolving the guest of mutual obligation" phrase is their quotation of Lashley (2000, p. 14). Neither King nor Lashley has been read on this project (King 1995: Crossref 10.1016/0278-4319(95)00045-3, IJHM 14(3-4), 219-234, closed, no abstract in OpenAlex). Cite as "Golubovskaya et al. 2017: 1286, drawing on King 1995", not as King.
+- p. 1297 shows a manager setting the bound on guest claims and on staff discretion in one breath ("empowering" staff, yet "they cannot demand everything ... we have own standard"). Usable for R3.9 as a located hotel instance of organisationally bounded authority. It is one participant's report of a manager's words, from upscale Australian hotels (p. 1300).
+- p. 1298 supplies a hotel instance of a guest losing the claim to be received (removal for discourtesy), parallel to Pitt-Rivers's infringement rule (card `pittrivers2012law`, p. 517).
+
 ## Where it enters the manuscript
 
 Section 2, *Distinctness*, or section 8 (new numbering, rr-2026-11): one clause that the service paradigm already displaces the host–guest model in hotel practice (p. 1296; pp. 1299–1300), before any algorithm arrives. Not for the obligation content.
+
+Section 3 (outline numbering, rr-2026-11-h), on what guests owe: the commercial guest's duty to "pay and behave reasonably" (p. 1286, after King 1995) and its breach by removal (p. 1298). Section 4, for R3.9: the manager's bound on guest demands and staff latitude (p. 1297).
 
 Fable-checked rr-2026-11 (2026-11-08): three quotes re-checked against the Crossref structured abstract; source_basis widened; no other change.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: displacement clause SUPPORTED (6 of 22 could define hospitality, p. 1296); its "essence" is attitude not obligation (pp. 1283, 1287), so not usable for Distinctness content; abstract-only-debt removed; hold_rationale updated.
 
 Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; eleven quotes and the displacement/obligation verdicts confirmed against the full text in sources/ (6 of 22, p. 1296; 'overrides', pp. 1299–1300); no change.
+
+Upgraded in rr-2026-11-h (2026-11-10), workstream H4: re-read pp. 1285-1286 and 1294-1299 of the held PDF; added five located items (pp. 1286, 1295, 1297, 1298); recorded that the p. 1286 King and Lashley wording is secondary; power-theme quotations located on p. 1295 (PDF p. 14). No frontmatter change.

@@ -37,6 +37,10 @@ and the encounter ends with the guest admitted as an "insider" or leaving as an 
 - The boundary: 'Only when guests do not abide by the ritual after repeated communications will they be asked to leave the hotel.' (same section) [full-text]
 - Claimed contribution: 'This study contributes to a better understanding of hotel staff-guest interactions through a hospitality paradigm—as the relationship between hosts and guests.' (Conclusions) [full-text]
 - *Annals of Tourism Research* 93, article 103376 [metadata]
+- Guests' duty toward others: non-compliance "puts other people at risk, which breaches one's moral obligation towards others and weakens the collective solidarity produced through interaction rituals" (Discussion) [full-text]
+- Losing the claim to be received: "There is, however, a clear group boundary in host-guest interactions, and those who fail become 'outsiders' and must leave the hotel." (Findings, "Group boundary: insider and outsider") [full-text]
+- A guest's own view of guest duties: "If people don't have a sense of responsibility and observe public order, they need to be banned. It's for our collective interest." (Interviewee_C14, Findings, Stage II, "Performance pathways: managing ritual violations") [full-text]
+- Frontline latitude is narrow: "the only thing we can do is explain the government's and subdistrict's anti-epidemic policies to guests again and again" (Interviewee_H8, same section) [full-text]
 
 ## Critical notes & threats
 
@@ -45,9 +49,13 @@ and the encounter ends with the guest admitted as an "insider" or leaving as an 
 - The rules being negotiated were state-imposed, and the authors say their Chinese setting (high power distance, collectivism, one upscale property) limits generalisation (Conclusions, limitations paragraph). The paper should cite it for the form of the encounter, not for guest compliance norms.
 - "Host" here is the hotel and its staff together; the study does not separate the institution's obligation from the employee's performance, which is the paper's section 2 distinction.
 
+**For Q6/Q7 (rr-2026-11-h, H4).** Beyond the compensation case, the study gives located hotel evidence on both H4 questions. Guests owe compliance with the stay's rules and regard for other guests (Discussion); a guest who will not comply after "repeated communications" is asked to leave and becomes an "outsider" (Findings, two sections). Frontline staff explain but cannot alter the rule ("the only thing we can do", H8), and the one accommodation found required "checking with hotel management". The rules were state-imposed, so the bound on staff authority here is legal as well as organisational.
+
 ## Where it enters the manuscript
 
 Section 3 (new numbering, rr-2026-11), in the Reviewer 1 paragraph on host–guest negotiation: the
 documented case of a management-approved compensation that depended on reaching someone with authority over the hotel's response; not an exception to the rule.
 
 Fable-checked rr-2026-11 (2026-11-08): gloss corrected: the manager-approved step is a compensation (hotel pays for the test), not an exception to the testing rule (verifier_2 accepted). All seven quotes re-found in paper.txt under the stated section headings.
+
+Upgraded in rr-2026-11-h (2026-11-10), workstream H4: re-read Findings and Discussion in paper.txt; added four located quotes on guests' duties, loss of the claim to be received, and frontline latitude; added the Q6/Q7 reading. PMC still carries no page numbers; check against the published PDF. No frontmatter change.

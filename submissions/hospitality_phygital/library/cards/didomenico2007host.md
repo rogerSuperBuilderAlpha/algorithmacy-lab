@@ -43,6 +43,10 @@ and refrain from complaining; host and guest norms can clash, making shared spac
 - Hotel contrast: the commercial home is "a counterpoint to the unambiguous and therefore monodimensional hotel with clearly compartmentalized spaces." (p. 331) [full-text]
 - Commercial homes "convey competing conceptions of home and work, inclusion and privacy, domestic hospitableness and commercial hospitality." (p. 336) [full-text]
 - *Leisure Studies* 26(3), pp. 321–338 [metadata]
+- Guests' reciprocal duties are unclear to guests: "guests may be unaware of their reciprocal obligations, including participation in household tasks, uncertain of what actions would be seen as appropriate from the standpoint of the host" (p. 332) [full-text]
+- Obligation as the brake on complaint: "The social niceties and obligations inherent in the interaction perpetuate the conflicts inherent in the provision of a commercial service within a domestic context", followed by the researcher's note on not complaining (p. 333) [full-text]
+- The setting decides: "The critical issue is whether the particular commercial home is closer to private home or hotel." (p. 333) [full-text]
+- Host power is also bounded: hosts' "paradoxical powerlessness is evident in their essential position of service in relation to the guest" (p. 334); "They must meet the desires and demands of the paying guest, the 'master/mistress' of the experience." (p. 335) [full-text]
 
 ## Critical notes & threats
 
@@ -62,12 +66,24 @@ Support verdicts (no v4 sentence cites it):
 
 Leisure Studies is outside the preferred venue list. Crossref lists a Di Domenico and Lynch chapter in *Hospitality: A Social Lens* (2007), "Commercial Home Enterprises: Identity, Space and Setting" (doi 10.1016/b978-0-08-045093-3.50012-6). Not read.
 
+**The silence finding and the paper's "address" thesis (rr-2026-11-h, H4).** Three readings of p. 333 matter.
+
+1. *What the evidence is.* The silence rests on one observational note by the covert guest-researcher (p. 333), set beside hosts' accounts of rules and ejection (pp. 332, 334). It is not a count of guests who chose not to complain. Cite it as an illustration, not a finding about guests in general.
+2. *What stops the complaint.* Not the absence of an addressee: the owner-host is present, reachable and holds the authority to change things (pp. 332, 335). What stops it is the guest role itself, "the social niceties and obligations inherent in the interaction" and "it's not the done thing" (p. 333). That is exactly Pitt-Rivers's law of hospitality: open complaint "would infringe the host's prerogative" and a guest who "makes claims or demands" usurps the host (Pitt-Rivers 2012, pp. 514-515; card `pittrivers2012law`).
+3. *Where the claim becomes licit.* The same note says "in a hotel one might complain" (p. 333), and the authors frame the question as whether a commercial home is "closer to private home or hotel" (p. 333). The commercial, impersonal setting is what licenses complaint; the paying guest is the "master/mistress" whose demands hosts must meet (p. 335).
+
+Consequence for the paper. An address (a reachable party with authority) is necessary for standing but not sufficient. Standing also needs a norm that makes a claim proper rather than rude, and in hospitality that norm comes from the commercial side of the relation (payment, the hotel's impersonality), not from the host-guest bond. The paper should say so: the "address" thesis holds as a necessary condition, and Di Domenico and Lynch show the second condition it needs. Phygital arrangements can fail on either: they can remove the address, or (by framing the guest as a self-serving user of a "seamless" system) remove the occasion on which a claim reads as proper. This is the authors' inference from pp. 333-335, not the source's.
+
 ## Where it enters the manuscript
 
 Section 3 (new numbering, rr-2026-11), if admitted: the copresent host as the baseline in which the obligation has an address (pp. 332–335), with the caveat that copresence alone did not let guests press claims (p. 333).
+
+Section 3 (outline numbering, rr-2026-11-h): replace "Presence alone is not enough" with the narrower point that a present host with full authority did not make complaint proper; the guest role did not license it, and the authors locate the licence in the hotel (p. 333). Pair with Pitt-Rivers (2012, pp. 514-515).
 
 Fable-checked rr-2026-11 (2026-11-08): all five quotes match the OpenAlex abstract re-fetched 2026-11-08 (Crossref carries none); Crossref spells the first author 'Marialaura'; no change.
 
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: findings show host-set rules and guest deference (pp. 332–335), so the "negotiated" use is PARTLY; swap-candidate added; abstract-only-debt removed; hold_rationale updated.
 
 Fable-checked rr-2026-11 (2026-11-08): verifier_3 note accepted; frontmatter author spelling "MariaLaura"→"Marialaura" (cover page and byline, PDF pp. 1, 321; Crossref and the bib agree); verdicts and quotes confirmed against the full text in sources/; no other change.
+
+Upgraded in rr-2026-11-h (2026-11-10), workstream H4: re-read pp. 330-336 of the held PDF; added four located quotes (pp. 332-335); added the analysis of the p. 333 silence against the "address" thesis and Pitt-Rivers (2012); evidential basis of the silence narrowed to one researcher note. No frontmatter change.

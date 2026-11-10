@@ -37,6 +37,10 @@ nothing more.
 - Locates the distinctive work of the industry in managing consumption on site: 'Hospitality managers are centrally involved in the creation of the context of consumption and the management of consumption' (pp. 25-26) [full-text]
 - Conclusion: 'By focusing only on the process of exchange in hospitality the three-domainers exclude the industrial and corporate contexts of hospitality and the diversity of venue contexts.' (p. 27) [full-text]
 - Brotherton replied (JoHLSTE 1(2), 76-79, doi 10.3794/johlste.12.32), Slattery rejoined (2(1), 120-121, doi 10.3794/johlste.21.40), Brotherton answered again (2(2), 67-70, doi 10.3794/johlste.22.56) and Jones commented (3(1), 66-67, doi 10.3794/johlste.31.69); Crossref records only, no archived copies found [metadata]
+- Chains replace independents: "As economies develop, so the hospitality industry consolidates and chains of hospitality businesses replace unaffiliated venues as the key operators in the industry." (p. 24) [full-text]
+- Corporate priorities have no domestic counterpart: "When the unit of analysis is the hospitality chain, then the corporate management of the business becomes central and an array of priorities emerge such as the performance of the chain and the conception and management of hospitality brands, which have no part to play in the social and private domains." (p. 25) [full-text]
+- Outsourcing and intermediaries: chains "are either involved themselves or outsource a range of services that include: suppliers, lenders, investors, investment banks, property developers, management consultants and demand processors such as travel agents, tour operators, global distribution systems and internet companies such as Lastminute and Travelocity." (p. 25) [full-text]
+- "The corporate context has no parallel in the social or private domains, and the more attention that is given to its realities, the less relevant is the three-domain approach." (p. 25) [full-text]
 
 ## Critical notes & threats
 
@@ -45,6 +49,8 @@ nothing more.
 - Tone is polemical (the Taliban example, p. 20; "blind leading the blind", p. 27). Cite the argument, not the rhetoric.
 - The Brotherton replies were not read. Do not characterise the exchange beyond Slattery's side.
 
+**For R3.9 (rr-2026-11-h, H4).** pp. 24-25 locate the decisions that govern a venue (brand, portfolio, supply chain, distribution through intermediaries) at the level of the chain, above the venue. That is a hospitality-studies source for the claim that a frontline host's authority was always set elsewhere in the organisation, before any algorithm. Slattery draws the opposite moral (drop the host-guest frame); the paper uses only his description of where authority sits. The multi-actor use (owner, brand, intermediary) belongs to H3.
+
 ## Where it enters the manuscript
 
 Section 2, *Distinctness* (new numbering, rr-2026-11): one sentence naming the seller–buyer
@@ -52,3 +58,5 @@ position the paper argues past. Optionally section 8, where the hospitality lens
 service management.
 
 Fable-checked rr-2026-11 (2026-11-08): no change. Quotes re-found at pdf pp. 3, 3, 4, 5, 7, 9 (= pp. 21, 21, 22, 23, 25-26, 27).
+
+Upgraded in rr-2026-11-h (2026-11-10), workstream H4: read pp. 24-25 for the corporate context; added four located quotes; added the R3.9 reading. No frontmatter change.
