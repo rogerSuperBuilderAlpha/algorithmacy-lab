@@ -60,3 +60,18 @@
 58. Xu, Feng Zeng; Zhang, Yun; Zhang, Tingting; Wang, Jing (2020). Facial Recognition Check-in Services at Hotels. https://doi.org/10.1080/19368623.2020.1813670
 59. Ytre-Arne, Brita; Moe, Hallvard (2021). Folk Theories of Algorithms: Understanding Digital Irritation. https://doi.org/10.1177/0163443720972314
 60. Yurrita, Mireia; Verma, Himanshu; Balayn, Agathe; Alfrink, Kars; Gadiraju, Ujwal; Bozzon, Alessandro (2025). Identifying Algorithmic Decision Subjects' Needs for Meaningful Contestability. https://doi.org/10.1145/3757415
+
+## Added 10 Nov 2026 (rr-2026-11-h): needed before §2 can be drafted
+
+Telfer (no. 8) and Hart (no. 7) above are also still needed.
+
+61. King, Carol A. (1995). What is hospitality? International Journal of Hospitality Management. https://doi.org/10.1016/0278-4319(95)00045-3 (the outline's content sentence; held only via Golubovskaya p. 1286)
+62. Lashley, Conrad (2000/2001). Towards a Theoretical Understanding. In In Search of Hospitality. https://doi.org/10.1016/b978-0-7506-5431-9.50005-6 (held only via Slattery; pages 1–17 per Crossref)
+63. Hewagama, Gayani; Boxall, Peter; Cheung, Gordon; Hutchison, Ann (2019). Service Recovery Through Empowerment? https://doi.org/10.1016/j.ijhm.2019.03.006 (carries R3.9; abstract only)
+64. Hales, Colin; Klidas, Antonis (1998). Empowerment in Five-Star Hotels: Choice, Voice or Rhetoric? https://doi.org/10.1108/09596119810210260 (alternate for R3.9; abstract only)
+65. Germann Molz, Jennie (2026). Guests without Hosts: On the Digital Biopolitics of Network Hospitality. https://doi.org/10.1386/hosp_00107_1 (carries §1 positioning; abstract only)
+66. Hardimon, Michael O. (1994). Role Obligations. Journal of Philosophy. https://doi.org/10.2307/2940934 (only if Position C cites role-obligation philosophy)
+67. Baum, Kevin; Laux, Johann (2026/2027). Constitutive vs. Corrective. LNCS. https://doi.org/10.1007/978-3-032-41269-0_8 (check arXiv quotes against the chapter)
+68. Lugosi, Peter (2009). The Production of Hospitable Space. Space and Culture. https://doi.org/10.1177/1206331209348083 (check accepted-manuscript quotes against version of record)
+69. Cobbe, Jennifer; Veale, Michael; Singh, Jatinder (2023). Understanding accountability in algorithmic supply chains. FAccT '23. https://doi.org/10.1145/3593013.3594073 (proceedings pages = arXiv page + 1185)
+70. Lashley, Conrad (2015) and Blain, Michael; Lashley, Conrad (2014): hospitableness instruments; open access but blocked to the session; DOIs in WS_H1_origin.md §4 Q5.
