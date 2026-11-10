@@ -1,5 +1,5 @@
 ---
-citekey: hewagama2019service
+citekey: hewagama2019empowerment
 title: "Service Recovery Through Empowerment? HRM, Employee Performance and Job Satisfaction in Hotels"
 authors: "Hewagama, Gayani and Boxall, Peter and Cheung, Gordon and Hutchison, Ann"
 year: 2019
@@ -69,3 +69,5 @@ recovery" (rank 1 of 30).
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): "escalates"/"escalation" marked as a gloss on the abstract's "staircased".
 
 Fable-checked rr-2026-11-h (2026-11-10): Crossref record and abstract re-fetched (Semantic Scholar); all four quotations match; the applied "escalation is a gloss" fix confirmed. Changed: "not held by whoever the guest meets" withdrawn (the abstract says graduated, not absent at the front line); "authority to make an exception" marked as the paper's term. read_depth stays abstract.
+
+Renamed in rr-2026-11-h (2026-11-10): card was hewagama2019service; merged onto the existing bib key hewagama2019empowerment (same DOI, cited in the full draft) to remove a duplicate entry.

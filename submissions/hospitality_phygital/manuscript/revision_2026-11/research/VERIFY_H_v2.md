@@ -85,7 +85,7 @@ Both copies are saved in the session scratchpad, not in `sources/`.
 - **Unsupported statement in the Summary.** The Summary says the essay was "first published in 1968 under a longer title". Nothing in the saved source says this; the publisher's note names only the 1977 *Fate of Shechem*, pp. 94–112. WS_H4 records the same: "I could not confirm 1968". Either source the 1968 claim or remove it.
 - **Synthesis.** The card's reading that guests may not press claims (pp. 509, 513–515) is supported by the text as quoted. Its Lineage line also checks out: Lugosi 2009 (section "Hospitality") and Golubovskaya et al. p. 1286 both match.
 
-### hewagama2019service: PASS-WITH-NOTES
+### hewagama2019empowerment: PASS-WITH-NOTES
 
 - **Identity.** Matches Crossref: IJHM 81, 73–82, August 2019, four authors.
 - **Quotations.** All 4 match the Semantic Scholar abstract word for word. The source has a curly ‘staircased’.

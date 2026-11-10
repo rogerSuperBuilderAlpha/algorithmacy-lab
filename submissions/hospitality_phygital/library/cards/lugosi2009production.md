@@ -16,7 +16,7 @@ verified_date: 2026-11-10
 source_basis: "Crossref record fetched 2026-11-10 (Space and Culture 12(4), 396-411, November 2009). Full text (about 9,400 words) read from the author's accepted post-review manuscript in Bournemouth University eprints (eprints.bournemouth.ac.uk/12211/3/), located by Unpaywall (green OA); saved at manuscript/revision_2026-11/research/sources/lugosi2009production/. The manuscript carries no journal page numbers, so loci are its section headings; check wording against the published version before quoting in the paper."
 generated_run: rr-2026-11-h
 flags: []
-hold_rationale: "Held as an alternate for R1.2 (the value-creation half) and R3.8 (a bar, not a hotel desk). It shows patrons co-producing the hospitable space and carrying obligations to it. Not within H4's cap of two unless the authors swap it for hewagama2019service."
+hold_rationale: "Held as an alternate for R1.2 (the value-creation half) and R3.8 (a bar, not a hotel desk). It shows patrons co-producing the hospitable space and carrying obligations to it. Not within H4's cap of two unless the authors swap it for hewagama2019empowerment."
 ---
 
 Section numbers are the outline numbering (rr-2026-11-h).

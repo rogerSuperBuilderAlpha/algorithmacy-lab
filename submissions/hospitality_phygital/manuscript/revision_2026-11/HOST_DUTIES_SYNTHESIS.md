@@ -174,7 +174,7 @@ The same check of the outline (my draft, so I can revise it when you decide):
 | H1 | `uk1956hotel`, `sandovalstrausz2005travelers`, `bogen1996innkeeper`, `us1964civilrights` |
 | H2 | `woodland2013uksc`, `thompson2004wrong`, and your choice of `morgan2015liability` or neither |
 | H3 | `crinkley1988holiday`, `cobbe2023understanding` |
-| H4 | `pittrivers2012law`, `hewagama2019service` (full text needed) |
+| H4 | `pittrivers2012law`, `hewagama2019empowerment` (full text needed) |
 | H5 | `baum2026constitutive` |
 
 All are `held`; you decide admission. The reference list must still lose about 40 entries net (RESEARCH_PLAN.md), so each entry here needs a matching cut.

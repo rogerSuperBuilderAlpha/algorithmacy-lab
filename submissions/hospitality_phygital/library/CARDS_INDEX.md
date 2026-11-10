@@ -35,7 +35,7 @@ A card exists for every source the research touched, including candidates that w
 | [hales1998empowerment](cards/hales1998empowerment.md) | abstract-only-debt | full text read |
 | [hardimon1994role](cards/hardimon1994role.md) | abstract-only-debt | full text read |
 | [hemmer2025complementarity](cards/hemmer2025complementarity.md) | must-engage | engagement in the manuscript |
-| [hewagama2019service](cards/hewagama2019service.md) | abstract-only-debt | full text read |
+| [hewagama2019empowerment](cards/hewagama2019empowerment.md) | abstract-only-debt | full text read |
 | [introna2010measure](cards/introna2010measure.md) | abstract-only-debt | full text read |
 | [ivanov2024automated](cards/ivanov2024automated.md) | abstract-only-debt | full text read |
 | [jianu2025](cards/jianu2025.md) | claim-contradicted | THE MANUSCRIPT'S CLAIM IS CONTRADICTED — full text, before submission |
@@ -114,7 +114,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `caw-rival` — vandoorn2023 *(superseded)*
 - `competence-not-standing` — darwall2013bipolar *(held)*
 - `conditional-hospitality` — candea2012return *(held)*, didomenico2007host *(held)*, lugosi2009production *(held)*, lugosi2014hospitality *(held)*, pittrivers2012law *(held)*, shryock2012breaking *(held)*, xiang2022covid *(held)*
-- `discretion-redistribution` — casalegno2020circular, christin2017practice, jianu2025, mohlmann2021algorithmic, pedersen2022, ala2022ethical *(held)*, hewagama2019service *(held)*, lipsky1980street *(held)*, spektor2023 *(held)*, spektor2023dis *(rejected)*
+- `discretion-redistribution` — casalegno2020circular, christin2017practice, jianu2025, mohlmann2021algorithmic, pedersen2022, ala2022ethical *(held)*, hewagama2019empowerment *(held)*, lipsky1980street *(held)*, spektor2023 *(held)*, spektor2023dis *(rejected)*
 - `dual-place-process` — batat2024phcx, batat2024paradigm *(held)*, melerussospena2022architecture *(rejected)*, zheng2025phygital *(held)*
 - `editors-own-ground` — batathammedi2023ert, casalegno2020circular, ala2022ethical *(held)*, batat2026phive *(held)*
 - `four-criteria` — ariffin2013generic *(held)*, didomenico2007host *(held)*, lugosi2009production *(held)*, xiang2022covid *(held)*
@@ -133,7 +133,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 - `affordances-derived` — hatherley2025moving
 - `authority-redistribution` — fuller1991consumers
 - `caw-rival` — gursoy2026reconceptualizing
-- `discretion-redistribution` — bendoly2013realtime, garcia2026strategic, pedersen2022, spektor2023designing, spektor2025working, hales1998empowerment *(held)*, hewagama2019service *(held)*
+- `discretion-redistribution` — bendoly2013realtime, garcia2026strategic, pedersen2022, spektor2023designing, spektor2025working, hales1998empowerment *(held)*, hewagama2019empowerment *(held)*
 - `editors-own-ground` — batat2021ar, moscacivera2017csr *(held)*
 - `framing-argued-past` — lariviere2017service
 - `hospitality-not-outcomes` — lugosi2008
@@ -357,7 +357,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [hemmer2025complementarity](cards/hemmer2025complementarity.md) | Complementarity in Human-AI Collaboration: Concept, Sources… | 2025 | ai-automation | cited | rival | 4 | abstract | verified |
 | [hemmington2007](cards/hemmington2007.md) | From Service to Experience: Understanding and Defining the … | 2007 | hospitality-theory | cited | evidence | 1 2 | full-text | verified |
 | [henkens2021](cards/henkens2021.md) | The Smarter, the Better?! Customer Well-Being, Engagement, … | 2021 | phygital-service | rejected | governor | 4 6 | full-text | verified |
-| [hewagama2019service](cards/hewagama2019service.md) | Service Recovery Through Empowerment? HRM, Employee Perform… | 2019 | hospitality-theory | held | evidence | 3 4 | abstract | crossref-verified |
+| [hewagama2019empowerment](cards/hewagama2019empowerment.md) | Service Recovery Through Empowerment? HRM, Employee Perform… | 2019 | hospitality-theory | held | evidence | 3 4 | abstract | crossref-verified |
 | [hirsbrunner2025contestation](cards/hirsbrunner2025contestation.md) | Contestation in Artificial Intelligence as a Practice: From… | 2025 | mediation-sovereignty | cited | framing | 6 | full-text | verified |
 | [hirschman1970exit](cards/hirschman1970exit.md) | Exit, Voice, and Loyalty: Responses to Decline in Firms, Or… | 1970 | mediation-sovereignty | cited | evidence | 5 | metadata | crossref-verified |
 | [hohfeld1913fundamental](cards/hohfeld1913fundamental.md) | Some Fundamental Legal Conceptions as Applied in Judicial R… | 1913 | mediation-sovereignty | held | governor | 3 | full-text | crossref-verified |

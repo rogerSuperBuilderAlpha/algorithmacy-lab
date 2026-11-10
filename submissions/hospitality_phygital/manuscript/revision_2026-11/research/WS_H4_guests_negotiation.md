@@ -9,7 +9,7 @@ Research run rr-2026-11-h · 10 November 2026 · questions Q6 and Q7 (FABLE_REVI
 | citekey | action | read_depth | recommend to enter? |
 |---|---|---|---|
 | `pittrivers2012law` | new card | full-text (HAU reprint, publisher PDF via Wayback) | **Yes, 1 of 2** |
-| `hewagama2019service` | new card | abstract | **Yes, 2 of 2**, conditional on a full read |
+| `hewagama2019empowerment` | new card | abstract | **Yes, 2 of 2**, conditional on a full read |
 | `hales1998empowerment` | new card | abstract | Alternate to Hewagama, not beside it |
 | `lugosi2009production` | new card | full-text (accepted manuscript) | Alternate, if the authors prefer to answer R1.2's value-creation half over R3.9 |
 | `candea2012return` | new card (bib entry had none) | abstract | No |
@@ -92,7 +92,7 @@ Owned but not touched: no `pittrivers*` or `candea*` card existed before this ru
 ## Sources recommended to enter (cap 2)
 
 1. **`pittrivers2012law`** (full-text). Carries R3.10 and the qualification of the address thesis.
-2. **`hewagama2019service`** (abstract; get the full text before 14 December). Carries R3.9 in a hospitality journal. If no full read is possible, it can still enter on its abstract-level finding; `hales1998empowerment` is the alternate, also abstract-only.
+2. **`hewagama2019empowerment`** (abstract; get the full text before 14 December). Carries R3.9 in a hospitality journal. If no full read is possible, it can still enter on its abstract-level finding; `hales1998empowerment` is the alternate, also abstract-only.
 
 The held cards upgraded here (Di Domenico and Lynch, Golubovskaya et al., Xiang et al., Slattery) carry the rest. If the authors judge R1.2's value-creation half more urgent than a second R3.9 source, swap Hewagama for `lugosi2009production`.
 
@@ -100,7 +100,7 @@ The held cards upgraded here (Di Domenico and Lynch, Golubovskaya et al., Xiang 
 
 - `guest-duties-located` (§3): guests owe honour and non-usurpation in the anthropological account and payment and reasonable conduct in the commercial one; breach ends the claim to be received. Carriers: `pittrivers2012law`, `golubovskaya2017meaning`, `xiang2022covid`. Replaces the narrowed `guest-obligation-untheorized`.
 - `address-necessary-not-sufficient` (§3): a reachable party with authority is necessary for a guest's claim to count but not sufficient; the claim also needs a norm that makes pressing it proper. Carriers: `didomenico2007host`, `pittrivers2012law`.
-- `authority-organisationally-bounded` (§2, §4): frontline authority over exceptions is assigned and graded by rank, and the rule above it sits elsewhere. Carriers: `hewagama2019service` (abstract; its phrase is "empowerment to address service failures", not exceptions), `hales1998empowerment` (abstract; little empowerment, not graded empowerment), `beatty2016compliance`; `golubovskaya2017meaning` and `slattery2002finding` on my inference only.
+- `authority-organisationally-bounded` (§2, §4): frontline authority over exceptions is assigned and graded by rank, and the rule above it sits elsewhere. Carriers: `hewagama2019empowerment` (abstract; its phrase is "empowerment to address service failures", not exceptions), `hales1998empowerment` (abstract; little empowerment, not graded empowerment), `beatty2016compliance`; `golubovskaya2017meaning` and `slattery2002finding` on my inference only.
 
 ## For the main session and the verifier
 

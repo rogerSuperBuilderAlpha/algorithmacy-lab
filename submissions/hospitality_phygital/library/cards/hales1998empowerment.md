@@ -16,7 +16,7 @@ verified_date: 2026-11-10
 source_basis: "Crossref record fetched 2026-11-10 (IJCHM 10(3), 88-95, 1 June 1998; authors Colin Hales, Antonis Klidas). Abstract read from the OpenAlex record W2103752341, fetched 2026-11-10. No full text reachable: Unpaywall reports it closed; no repository copy found by web search."
 generated_run: rr-2026-11-h
 flags: [abstract-only-debt]
-hold_rationale: "Held as the alternate to hewagama2019service for R3.9. Older, but it states the point in the field's own terms: hotel 'empowerment' gave staff responsibility, not choice over work or voice in decisions. Enter only in place of Hewagama et al., not beside it, unless a cited source is dropped."
+hold_rationale: "Held as the alternate to hewagama2019empowerment for R3.9. Older, but it states the point in the field's own terms: hotel 'empowerment' gave staff responsibility, not choice over work or voice in decisions. Enter only in place of Hewagama et al., not beside it, unless a cited source is dropped."
 ---
 
 Section numbers are the outline numbering (rr-2026-11-h).
