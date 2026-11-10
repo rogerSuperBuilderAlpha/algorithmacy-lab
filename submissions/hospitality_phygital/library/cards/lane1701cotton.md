@@ -1,7 +1,7 @@
 ---
 citekey: lane1701cotton
-title: "Lane v Cotton (1701) 12 Mod 472 (KB), Holt CJ"
-authors: "Holt, John (Chief Justice); Modern Reports (reporter)"
+title: "Lane v Cotton (1701) 12 Mod 472 (KB), Holt CJ dissenting"
+authors: "Holt, John (Chief Justice, dissenting); Modern Reports (reporter)"
 year: 1701
 doi: ""
 url: "https://archive.org/details/bim_eighteenth-century_modern-reports-or-case_great-britain-court-of-_1769"
@@ -28,10 +28,13 @@ An action against the Postmaster-General for exchequer bills stolen from a lette
 
 ## Key facts / verified quotes with loci
 
+Every quotation below is Holt CJ's, dissenting. The majority (Turton, Powis and Gould JJ) held that the action did not lie against the master (12 Mod 481); Holt's opinion opens "Holt C. J. cont.".
+
+
 - "wherever any Subject takes upon himself a Publick Trust for the Benefit of the rest of his fellow Subjects, he is [eo ipso] bound to serve the Subject in all the Things that are within the Reach and Comprehension of such an Office, under Pain of an Action against him" (p. 484; OCR "40 7p/o", repaired from burdick1911origin p. 520) [full-text]
 - The smith is bound "becauſe he has made Profeſſion of a Trade which is for the Publick Good, and has thereby expoſed and veſted an Intereſt of himſelf in all the King's Subjects that will employ him in the Way of his Trade." (p. 484, long s as printed) [full-text]
 - "If an Inn-keeper refuſe to entertain a Gueſt, where his Houſe is not full, an Action will lie againſt him" (p. 484; burdick1911origin p. 521 prints "when") [full-text]
-- Capacity limit: "If the Inn be full, or the Carrier's Horſes loaden, the Action would not lie for ſuch Refuſal; but one that has made Profeſſion of a publick Employment, is bound to the utmoſt Extent of that Employment to ſerve the Publick." (p. 484) [full-text]
+- Capacity limit: "If the Inn be full, or the Carrier's Horſes loaden, the Action would not lie for ſuch Refuſal; but one that has made Profeſſion of a publick Employment, is bound to the utmoſt Extent of that Employment to ſerve the Publick." (p. 485; the passage begins on p. 485, which opens "any other Thing proper to be sent by Post?") [full-text]
 - Holt speaks against the other judges: the duty to receive the bills "has been denied by Mr. Attorney and my two Brothers" (p. 484) [full-text]
 
 ## Critical notes & threats
@@ -47,3 +50,5 @@ Optional, §2.1, for the profession-of-a-trade formulation. If the cap binds, re
 ## Which reviewer point(s) it answers
 
 R2.1a, R2.2a (activation by professing a public trade); R2.4 (the smith, carrier and innkeeper as a family of callings, not all businesses).
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): title and authors now mark Holt CJ as dissenting, and a line above the quotations says every quotation is his dissent; "If the Inn be full…" relocated from p. 484 to p. 485.

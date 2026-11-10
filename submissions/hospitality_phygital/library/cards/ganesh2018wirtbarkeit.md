@@ -24,7 +24,7 @@ Outline numbering (rr-2026-11-h): §2.1.
 
 ## Summary
 
-Reads Kant's cosmopolitan right, defined as limited to the conditions of "hospitality" (Wirtbarkeit), by analogy to the Roman and common law of innkeepers, and grounds cosmopolitan right in the innate right to freedom.
+Reads Kant's cosmopolitan right, defined as limited to the conditions of "hospitality" (Wirtbarkeit), by analogy to the Roman and private law of innkeepers (the abstract names the *Digest of Justinian* and "the private law of innkeeping"; "common law" is not in it), and grounds cosmopolitan right in the innate right to freedom.
 
 ## Key facts / verified quotes with loci
 
@@ -43,3 +43,5 @@ Not yet. If read in full, a candidate for one clause in §2.1 linking the philos
 ## Which reviewer point(s) it answers
 
 R2.1a (obligation, not philanthropy), R2.4 (innkeeper against householder).
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): "Roman and common law" in the Summary replaced by "Roman and private law", the abstract's terms, until the article is read.

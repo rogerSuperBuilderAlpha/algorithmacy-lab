@@ -34,7 +34,7 @@ Traces the innkeeper's duties from a 1345 London bill, through post-Black-Death 
 - His thesis: "It was, however, concern for criminal activity in the inn, rather than any monopoly or innkeeper promise, that led to the obligation to serve the public." (p. 53) [full-text]
 - "English law, not the innkeeper's express commitment, imposed the duty to serve the public as a standard of performance that the common innkeeper must meet." (p. 75) [full-text]
 - Hospitality and commerce: "To some extent the inns were heirs to a medieval tradition of hospitality, [n. 133] but the innkeepers' hospitality was not free." (p. 76) [full-text]
-- Holding out by sign: Chamberlaine J (1623) "noted that simply by putting up a sign and lodging travelers, an individual became liable to an action on the case for refusing someone shelter" (p. 88, Bogen's paraphrase of 81 Eng Rep 842) [full-text]
+- Holding out by sign: Chamberlaine J (1623) "noted that simply by putting up a sign and lodging travelers, an individual became liable to an action on the case for refusing someone shelter" (p. 88, Bogen's paraphrase of the 1623 report, 81 Eng Rep 842, pin cite 843 per n. 183, "Id. at 843") [full-text]
 - Against monopoly: "innkeeping was not a monopoly" (p. 89 n. 192) [full-text]
 - Newton v Trigg (1691), Eyre J, as quoted: "Inns are of necessity; the keeper is chargeable to the public, and compellable to lodge all comers, he cannot refuse whom he pleases" and innkeepers "do not deal upon contracts as others do" (p. 90) [full-text]
 - Conclusion: "The duty to serve the public was incidental to the innkeeper's liability for losses of his lodgers." (p. 91) [full-text]
@@ -54,3 +54,5 @@ Traces the innkeeper's duties from a 1345 London bill, through post-Black-Death 
 ## Which reviewer point(s) it answers
 
 R2.1a and R2.2a (what activates: entering the status; the "why" is contested), R2.1c (the innkeeper, answering for servants: pp. 57-58 on Beaubek), R2.4 (innkeeping as a special status), R3.10 (lien and detention for payment, p. 90).
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): Chamberlaine paraphrase given its pin cite, 81 Eng Rep 843 (n. 183); the case begins at 842.

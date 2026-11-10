@@ -39,7 +39,7 @@ Argues, against Wyman's monopoly theory, that the duties to serve all comers and
 ## Critical notes & threats
 
 - Bogen calls this theory "not so much a theory as a tautology" (bogen1996innkeeper, p. 52). Use for activation (holding out), not for justification.
-- p. 523 is the strongest located statement for R2.4: by the twentieth century the duty to receive all comers bound carriers and innkeepers and not the other common callings.
+- p. 523 is the strongest located statement for R2.4: once the action of assumpsit developed, and "the liability of the common surgeon, the common tailor, the common farrier, etc., was no longer recognized", the duty to receive all comers bound carriers and innkeepers and not the other common callings. Burdick's "now" refers to that post-assumpsit (early modern) period, not to 1911; do not date it to the twentieth century.
 
 ## Where it enters the manuscript
 
@@ -48,3 +48,5 @@ Not recommended to enter. Held as the source of the holding-out theory, should a
 ## Which reviewer point(s) it answers
 
 R2.1a, R2.2a (activation by holding out), R2.4 (survival only for carriers and innkeepers), R2.5b (inn against boarding house).
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): p. 523 "now" re-dated to the period after assumpsit developed, not "by the twentieth century".

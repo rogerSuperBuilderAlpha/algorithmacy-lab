@@ -34,7 +34,7 @@ Implements the EU Payment Accounts Directive in the UK: non-discrimination in ac
 
 ## Critical notes & threats
 
-- Banks are not common callings at common law (wyman1904law, p. 156: private callings may "sell or not as one pleases"), but statute now gives consumers a regulated claim to be served. So "a duty that applies before any harm" is not unique to hospitality, as R2.4 suspects.
+- Banks are not common callings at common law (wyman1904law, p. 156: private callings may "sell or not as one pleases"), but regs. 18-19 forbid discrimination in access to payment accounts and fix the features of a basic account. So "a duty that applies before any harm" is not unique to hospitality, as R2.4 suspects.
 - I did not read the regulations that make the offer of a basic account compulsory; do not claim a bank "duty to receive" from regs. 18-19 alone.
 
 ## Where it enters the manuscript
@@ -44,3 +44,5 @@ Not recommended; available for one clause in §2.3 or the response letter.
 ## Which reviewer point(s) it answers
 
 R2.4.
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): "statute now gives consumers a regulated claim to be served" dropped as beyond regs. 18-19; replaced by what the two regulations do.

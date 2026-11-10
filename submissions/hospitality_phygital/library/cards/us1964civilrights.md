@@ -24,13 +24,13 @@ Outline numbering (rr-2026-11-h): §2.1 (scope of the duty to receive), §9 (for
 
 ## Summary
 
-Title II entitles all persons to full and equal enjoyment of places of public accommodation without discrimination on race, colour, religion or national origin, and lists the covered establishments, lodging first.
+Title II entitles all persons to full and equal enjoyment of places of public accommodation without discrimination on race, colour, religion or national origin, and lists the covered establishments, lodging first. An establishment that "serves the public" is a place of public accommodation only "if its operations affect commerce, or if discrimination or segregation by it is supported by State action" (§ 2000a(b), chapeau).
 
 ## Key facts / verified quotes with loci
 
 - "All persons shall be entitled to the full and equal enjoyment of the goods, services, facilities, privileges, advantages, and accommodations of any place of public accommodation, as defined in this section, without discrimination or segregation on the ground of race, color, religion, or national origin." (§ 2000a(a)) [full-text]
 - Lodging, with the owner-occupied exemption: "any inn, hotel, motel, or other establishment which provides lodging to transient guests, other than an establishment located within a building which contains not more than five rooms for rent or hire and which is actually occupied by the proprietor of such establishment as his residence" (§ 2000a(b)(1)) [full-text]
-- Covered establishments are those "which serves the public" (§ 2000a(b), chapeau) [full-text]
+- Covered establishments are those "which serves the public" (§ 2000a(b), chapeau), and only "if its operations affect commerce, or if discrimination or segregation by it is supported by State action" (same) [full-text]
 
 ## Critical notes & threats
 
@@ -45,3 +45,5 @@ Title II entitles all persons to full and equal enjoyment of places of public ac
 ## Which reviewer point(s) it answers
 
 R2.4 (which businesses carry a duty to receive), R2.5b (hotel against owner-occupied lodging), R3.8 (restaurants and places of entertainment are covered).
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): the § 2000a(b) condition (operations affect commerce, or discrimination supported by State action) added to the Summary and the chapeau quotation.

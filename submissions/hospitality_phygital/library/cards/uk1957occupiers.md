@@ -24,7 +24,7 @@ Outline numbering (rr-2026-11-h): §2.3 (what is not specific to hospitality).
 
 ## Summary
 
-Section 2 sets the "common duty of care" that every occupier of premises owes to every lawful visitor, permits the occupier to extend, restrict or exclude it by agreement, and limits the occupier's answerability for an independent contractor's faulty work.
+Section 2 sets the "common duty of care" that every occupier of premises owes to every lawful visitor, permits the occupier to extend, restrict or exclude it by agreement "in so far as he is free to", and limits the occupier's answerability for an independent contractor's faulty work.
 
 ## Key facts / verified quotes with loci
 
@@ -36,7 +36,7 @@ Section 2 sets the "common duty of care" that every occupier of premises owes to
 
 - The duty to keep visitors reasonably safe binds shops, banks and hospitals as occupiers as much as hotels. Safety alone does not distinguish hospitality (R2.4).
 - s. 2(4)(b) lets an occupier discharge the duty by reasonable choice of contractor: here the law does not make the safety duty non-delegable. H2 should weigh this against the innkeeper's answerability for servants (calye1584case, fol. 33a).
-- s. 2(1) allows the duty to be varied "by agreement": a negotiated term, owed to visitors generally.
+- s. 2(1) allows the duty to be varied "by agreement" only "in so far as he is free to". Other statutes limit that freedom: UCTA 1977 s 2(1) bars excluding or restricting, by contract term or notice, liability "for death or personal injury resulting from negligence", and CRA 2015 s 65(1) bars the same in consumer contracts, s 65(4)(c) naming "the common duty of care imposed by the Occupiers' Liability Act 1957". For a hotel guest the safety duty cannot be contracted out of for personal injury. (UCTA and CRA read by the verifier from Wayback captures, VERIFY_H_v3 §A; not saved in sources/.)
 
 ## Where it enters the manuscript
 
@@ -45,3 +45,5 @@ Not recommended. Governs §2.3: do not claim safety as hospitality's distinctive
 ## Which reviewer point(s) it answers
 
 R2.4 (banks, hospitals and shops as occupiers owe the same safety duty), R2.2c (contractor rule, for H2).
+
+Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): the power to vary "by agreement" now carries s 2(1)'s "in so far as he is free to" and the UCTA 1977 s 2(1) and CRA 2015 s 65(1), (4)(c) limits on excluding liability for death or personal injury.
