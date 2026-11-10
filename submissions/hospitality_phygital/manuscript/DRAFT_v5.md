@@ -216,6 +216,11 @@ This paper asked where the obligation of hosting goes when phygital arrangements
 <!-- v4, edited: final paragraph of v4 §9 kept in substance; closing epigram replaced by the agenda (R3). -->
 The question for phygital hospitality is therefore not whether technology can perform the jobs a host used to perform. Increasingly, it plainly can. The harder question is where, in an arrangement that has scattered those jobs across guest, employee, brand, vendor and platform, the obligation of hosting still has an address, and whether the guest can reach it. Answering that question for particular arrangements is empirical work: following claims along the path to authority, studying the formats in which no host is present, and reading the contracts that allocate the host's duties among firms. Each of these studies would test whether the guest's standing, which we have argued survives delegation, can still be exercised where it matters most.
 
+## Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process
+
+<!-- drafted by Claude: heading only. The section is mandatory under the journal's AI policy (JOURNAL_SPEC.md, "AI policy"), at the end of the article and before the References. The statement is the authors' own and must describe the process accurately, including any paragraphs of this draft marked "drafted by Claude" that survive the authors' rewrite. -->
+[AUTHORS TO WRITE. The journal's template: "Throughout the preparation of this work, the author(s) employed [NAME OF TOOL / SERVICE] to [PURPOSE]. Following the utilization of this tool/service, the author(s) thoroughly reviewed and edited the content as necessary, assuming full responsibility for the publication's content."]
+
 ## References
 
 Ananny, Mike and Crawford, Kate (2018), 'Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability', *New Media & Society*, 20:3, pp. 973–989.
