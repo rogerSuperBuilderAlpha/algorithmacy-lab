@@ -36,6 +36,9 @@ actors. Role responsibility narrows the responsibility gap without closing it.
 - Source of the concept: "This article discusses the role responsibility described by Vincent [11], whereby she refers to Hart [12]." (p. 2) [full-text]
 - The robot's role is not the carer's role: "A care robot in a nursing home does not have the same role obligations as a nurse working in the same facility." (p. 4); "it seems appropriate not to confuse the role of Pepper in a care facility with that of a human nurse" (p. 6) [full-text]
 - The robot's role is scoped to what it can do: hoping the machine can "replace a human caregiver, does not currently correspond to R and the Ds just described are just as unachievable." (p. 6) [full-text]
+- [rr-2026-11-h] Kropf et al. give Vincent's two questions: forward-looking, "What obligations are associated with the role of P?"; backward-looking, "What were P’s (role) responsibilities, and were they breached?" (p. 2, citing Vincent [11, p.27]) [full-text]
+- [rr-2026-11-h] Role duties are distinct from general duties: "a role entails specific obligations that would not exist without that role" (p. 3); a duty "only becomes a role-specific duty once tied to a particular role" (p. 4) [full-text]
+- [rr-2026-11-h] Roles add positive duties: "a role also, and perhaps even especially, expands positive duties" (p. 4 n. 3) [full-text]
 - Role without accountability: "care robots can be attributed responsibility based on their role (thin blame) without holding them accountable (thick blame)." (p. 7) [full-text]
 - "no moral responsibility (thick blame) can be assumed – which equates to accountability." (p. 8) [full-text]
 - On answerability specifically: "Accordingly, the answerability of care robots is currently inconceivable." (p. 9) [full-text]
@@ -77,3 +80,5 @@ Fable-checked rr-2026-11 (2026-11-08): added the support verdict for the sentenc
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: Kropf et al. support human accountability staying put (answerability of robots "inconceivable", p. 9); "role responsibility of a carer" downgraded to PARTLY; "challenge from care" framing not supported; abstract-only-debt removed.
 
 Fable-checked rr-2026-11 (2026-11-08): verifier_3 notes accepted; p. 11 quote restored to the source's words ("the machine fails to fulfill a D associated with R"); p. 6 "replace a human caregiver" added for the PARTLY; cross-card note on Kong (machine "not a responsibility-bearer in any sense") added; full text read in sources/.
+
+Upgraded in rr-2026-11-h (2026-11-10, H2): re-read pp. 2-4 of the retained PDF for what Kropf et al. take from Vincent and Hart; added three quotes. Vincent (2011, doi 10.1007/978-94-007-1878-4_2, pp. 15-35) and Hart's Postscript (2008, doi 10.1093/acprof:oso/9780199534777.003.0009, pp. 210-237) have Crossref records but were not reachable (closed; Internet Archive copies of Hart are lending-only); the captain example and the forward/backward questions are known here only through Kropf et al. Existing claims unchanged.
