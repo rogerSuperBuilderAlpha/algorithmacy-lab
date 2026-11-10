@@ -30,6 +30,8 @@ Critical discourse analysis of scholarship, journalism and Airbnb marketing. It 
 - Responsibility displaced through the platform: "By appealing to the digital scale of the platform, Airbnb exempts itself from more binding regulation" (p. 244); platforms profit "while transferring legal and tax liabilities onto homeowners and regulatory obligations onto municipalities" (p. 245) [full-text]
 - Hosting without meeting: "homeowners can host their guests without ever meeting them, giving another connotation to the notion of 'guests without hosts' (Germann Molz 2014a)" (p. 244) [full-text]
 - Via Dredge (2017): in the collaborative economy "responsibilities can be shifted elsewhere or even avoided" (p. 233) [full-text]
+- Platform as non-host; host carries the guest-facing work (Germann Molz glossing Srnicek's "lean platform"): "Airbnb is not in the hospitality business. It does not own any lodging properties or employ any service providers or cleaners or maintenance staff. Free-lance hosts own the accommodation and are responsible for paying the mortgage, for insuring and maintaining the property, and for all of the tasks of cleaning up after and caring for guests." (p. 243) [full-text]
+- Platform status as the ground of exemption: "because Airbnb is a platform that connects people – not a company that employs hosts or sells a product – it can claim exemption from other regulations as well, namely state and city taxes, and fair and equal housing laws" (p. 243) [full-text]
 - Pagination is settled: the article header reads "HOSP 8 (3) pp. 229-251" (p. 229), matching v4 and references.bib [full-text]
 
 ## Support verdicts (rr-2026-11)
@@ -50,3 +52,5 @@ v4 §3 (Airbnb paragraph); revision §2 or §3.
 Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: pagination settled at 229-251; host-feeling claim judged PARTLY (discourse analysis); liability-transfer passage (pp. 244-245) found for the revision's §2.
 
 Fable-checked rr-2026-11 (2026-11-08): revision-plan §2 Transfer verdict changed SUPPORTED → PARTLY (pp. 244-245 show the platform shedding obligation, a precedent for the problem, not for the conclusion); quotes on pp. 233, 235, 236, 237, 244, 245 re-read; other verdicts unchanged.
+
+Upgraded in rr-2026-11-h (2026-11-10, H3 workstream, Claude): re-read pp. 243-245 of the retained user PDF (sources/germannmolz2018scale/user_pdf/fulltext.pdf) for the multi-actor question. Added two p. 243 quotes stating how the platform allocates the guest-facing duties to hosts and grounds its own exemption in its platform status. Use with p. 245 for R2.1e/R2.2d (platform as a party that sheds the host role). The p. 243 "not in the hospitality business" sentence is the author's gloss on Srnicek (2016); attribute accordingly. Frontmatter unchanged.
