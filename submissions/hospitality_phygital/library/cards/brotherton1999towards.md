@@ -39,3 +39,5 @@ management and proposes new ones for research and practice.
 Not entering (new numbering, rr-2026-11).
 
 Fable-checked rr-2026-11 (2026-11-08): corrected source_basis (Crossref does return issue 4); both quotes re-checked against the Crossref abstract; no other change.
+
+Checked in rr-2026-11-h (2026-11-10), no upgrade possible: full text still closed (Semantic Scholar: CLOSED; Unpaywall: no OA location). One correction for the critical note above. Crossref lists the chapter "Hospitality and hospitality management" in *In Search of Hospitality*, pp. 134-156 (DOI 10.1016/b978-0-7506-5431-9.50012-3, issued 2001), under the single author name BROTHERTON; the project has called it "Brotherton and Wood". Slattery (p. 23) is the only held source for the two-author attribution; check the chapter's byline before citing it either way.

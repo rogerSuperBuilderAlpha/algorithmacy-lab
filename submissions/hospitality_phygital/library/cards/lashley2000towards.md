@@ -3,7 +3,7 @@ citekey: lashley2000towards
 title: "Towards a Theoretical Understanding"
 authors: "Lashley, Conrad"
 year: 2000
-doi: 
+doi: "10.1016/b978-0-7506-5431-9.50005-6"
 venue: "In Search of Hospitality: Theoretical Perspectives and Debates"
 cluster: hospitality-theory
 status: cited
@@ -12,10 +12,10 @@ used_by_sections: [1, 2]
 claims: [hospitality-exceeds-service, four-criteria]
 read_depth: metadata
 verified: verified
-verified_date: 2026-08-07
-source_basis: "Crossref-verified against the publisher record; bibliographic data only. Cited for a canonical framing, not a specific finding."
+verified_date: 2026-11-10
+source_basis: "Crossref-verified against the publisher record; bibliographic data only. Re-checked 10 Nov 2026 (rr-2026-11-h): Crossref 10.1016/b978-0-7506-5431-9.50005-6 gives pages 1-17 and issued year 2001 for the Butterworth-Heinemann volume (the book is usually cited as 2000); OpenAlex agrees on pp. 1-17 and has no abstract. Full text not reachable: Unpaywall closed; no copy found through OpenAlex or Semantic Scholar (an Internet Archive catalogue query failed and was not repeated). Still metadata depth."
 generated_run: 2026-08-08-library-build
-flags: []
+flags: [abstract-only-debt]
 ---
 
 ## Summary
@@ -26,7 +26,8 @@ inheriting its meanings from the other two rather than standing apart from them.
 ## Key facts / verified quotes with loci
 
 - Locates hospitality simultaneously in commercial exchange, private domesticity and social obligation [metadata]
-- Book chapter in *In Search of Hospitality*, pp. 1-16 [metadata]
+- Book chapter in *In Search of Hospitality*, pp. 1-17 per Crossref (the card earlier said 1-16) [metadata]
+- Crossref dates the chapter 2001; the reference list should state which year it uses and keep it consistent with telfer1995hospitableness and brotherton1999towards [metadata]
 
 ## Critical notes & threats
 
@@ -36,3 +37,9 @@ inheriting its meanings from the other two rather than standing apart from them.
 ## Where it enters the manuscript
 
 Sections 1 and 2, establishing that hospitality exceeds service provision.
+
+## Which reviewer point(s) it answers
+
+R2.1a only once read. At metadata depth it answers nothing.
+
+Upgraded in rr-2026-11-h: DOI added (10.1016/b978-0-7506-5431-9.50005-6); page range corrected to 1-17 and Crossref year 2001 recorded; full text sought (Unpaywall, OpenAlex, Semantic Scholar) and not found, so read_depth stays metadata and the abstract-only-debt flag is added. Two warnings for the authors. (1) The outline's sentence "Lashley (2000) holds that a genuine welcome differs from being welcomed as a valued customer" (PO §2.1) is known only through Slattery's quotation of "Lashley and Morrison 2000: 13" (card slattery2002finding, p. 22). Page 13 is inside this chapter's range, but the quotation is attributed to the volume editors, not to this chapter, and has not been checked. (2) The card's summary ("commercial domain inheriting its meanings from the other two") and the claim `four-criteria` are not supported by anything read; treat them as unverified. Status left as `cited` because changing it is the authors' call.
