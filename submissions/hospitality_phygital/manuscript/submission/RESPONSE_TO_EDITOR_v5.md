@@ -12,11 +12,11 @@ Delete this section before sending. Each item compares a claim in `RESPONSE_TO_E
    - Lynch et al. (2011): from §2's opening to §1 ¶2.
    - Human-centricity: from "§8, first contribution" to §8 ¶2.
    - The roadmap: from Table 2 to Table 4, with the same five stages.
-   - The "illustrate rather than test" limit: from §8 to §9 ¶1.
+   - The "illustrate rather than test" limit: from §8 to §9 ¶2.
 4. **Competence and standing.** The September letter's closing note derived the roadmap's later stages from "the competence-and-standing distinction". v5 folds that distinction into §3.3 and grounds the later stages in the non-delegable duty (§2.4). The note below is rewritten to match.
 5. **Length.**
    - September: a body of about 8,990 words and 125 references.
-   - v5: a body (§1–§10) of 8,878 words, by `wordcount.py` on a copy with the provenance markers stripped. The reference list has 80 entries, plus 4 cases and 7 items of legislation.
+   - v5: a body (§1–§9) of 8,872 words, by `wordcount.py` on a copy with the provenance markers stripped. The reference list has 80 entries, plus 4 cases and 7 items of legislation.
    - The September letter asked the editor whether references count. Nothing in the reviews answers it. [AUTHORS DECIDE: repeat the question or drop it. Your own ruling, in JOURNAL_SPEC.md, is that they do not count.]
 
 ---
@@ -39,4 +39,4 @@ Thank you again for your suggestions of 7 August, which shaped the version the r
 
 **What the paper does not claim.** One boundary is worth restating, because the roadmap invites a reading we do not intend. Section 9 states that the paper's cases illustrate its distinctions rather than test them, and the roadmap inherits that limit. It orders a diagnosis the framework licenses; we have not tested it as an intervention. What it does claim follows from section 2. The work of hosting can be delegated, but the duty cannot. A property that buys better interfaces has therefore delegated more of the work, and still holds the duty. That is why the later stages of the roadmap are institutional, and why procurement alone cannot discharge them.
 
-**Length.** The body, sections 1 to 10, runs to [8,878] words. The reference list holds 80 entries, plus four cases and seven items of legislation. [AUTHORS DECIDE: whether to repeat September's question about what counts toward the limit.]
+**Length.** The body, sections 1 to 9, runs to [8,872] words. The reference list holds 80 entries, plus four cases and seven items of legislation. [AUTHORS DECIDE: whether to repeat September's question about what counts toward the limit.]

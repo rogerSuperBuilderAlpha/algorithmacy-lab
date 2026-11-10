@@ -195,19 +195,19 @@ The well-being paragraph now names the distinction concerned, holding versus exe
 
 **R3.20** — *"The final paragraph of section 8 on limitations and implications for future research also need to be more detailed and clearer in the agenda they suggest."*
 
-Limitations and the research agenda now form a section of their own. It states three limitations and proposes three studies, each beginning from a gap we documented.
+The conclusion now states three limitations and proposes three studies, each beginning from a gap we documented.
 
-*Changed in section 9 (new):* "The first would follow a guest's request or complaint up the path from the person who receives it to the party with authority over the rule that produced it, and record whether it was heard and what changed".
+*Changed in section 9, third paragraph:* "The first would follow a guest's request or complaint up the path from the person who receives it to the party with authority over the rule that produced it, and record whether it was heard and what changed".
 
 **R3.21** — *"the conclusion should offer a clearer sense of what this paper has achieved in terms of its original questions and set a stronger agenda"*
 
 The conclusion now answers the research question directly and ends on the agenda.
 
-*Changed in section 10:* "The obligation does not go into the machine, and it does not dissolve. It stays with the party that took up the role of receiving the guest, by holding itself out, alongside whoever controls the operation, and it can be delegated only in its performance."
+*Changed in section 9, first paragraph:* "The obligation does not go into the machine, and it does not dissolve. It stays with the party that took up the role of receiving the guest, by holding itself out, alongside whoever controls the operation, and it can be delegated only in its performance."
 
 **R3.22** — *Evidence: "it needs serious revisions to clarify its purpose, provide consistent and convincing evidence …"*
 
-We have checked every source in the revised manuscript against its text. Where a claim rests on a source we could consult only in abstract, the paper says so (section 9). [AUTHORS: confirm once the remaining full texts are read.]
+We have checked every source in the revised manuscript against its text. Where a claim rests on a source we could consult only in abstract, the paper says so (section 9, second paragraph). [AUTHORS: confirm once the remaining full texts are read.]
 
 ---
 
@@ -241,10 +241,10 @@ We have checked every source in the revised manuscript against its text. Where a
 | R3.13 | Roadmap and forum | Must fix | Forum defined; Table 4 column | §7 ¶4; Table 4 | Done |
 | R3.14 | Table 2 explanation | Must fix | Sentence per question | §5 ¶3 | Done |
 | R3.15–16 | Contributions | Must fix | Rebuilt from contributions | §1 ¶4; §8 ¶1 | Done |
-| R3.17 | Emergent question; vocabulary | Must fix | One question; fixed terms | §1 ¶3; §10 | Done |
+| R3.17 | Emergent question; vocabulary | Must fix | One question; fixed terms | §1 ¶3; §9 ¶1 | Done |
 | R3.18–19 | Well-being; confusing phrases | Must fix | Link stated; phrases removed | §8 ¶3 | Done |
-| R3.20 | Limitations and agenda | Must fix | New section | §9 | Done |
-| R3.21 | Conclusion | Must fix | Answers the question | §10 | Done |
-| R3.22 | Evidence | Must fix | Sources checked; limits stated | §9; whole text | Done; **[CHECK] items pending** |
+| R3.20 | Limitations and agenda | Must fix | Three limits and three studies stated | §9 ¶2–3 | Done |
+| R3.21 | Conclusion | Must fix | Answers the question | §9 ¶1, ¶4 | Done |
+| R3.22 | Evidence | Must fix | Sources checked; limits stated | §9 ¶2; whole text | Done; **[CHECK] items pending** |
 
 Decisions waiting on you: R1.6 (proofread), R2.1 (Figure 1), R2.4 (whether to concede the mechanism), R3.1 (how to answer the AI remark) and R3.22 (the remaining full texts).
