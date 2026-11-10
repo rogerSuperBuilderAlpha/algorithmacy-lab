@@ -41,6 +41,8 @@ parties work on, not a delivered service.
 - Cuts both ways for the paper. It supports the claim that hospitality is a negotiated relation of obligation; it also warns that an organization's hospitality can be a means of control, which the section 3 paragraph should acknowledge rather than romanticise the encounter.
 - Its stakeholders are mainly organizational members; whether it treats the commercial guest's claims directly is unknown from the abstract.
 
+**H4 note (rr-2026-11-h).** The full abstract (OpenAlex W1993223885, re-fetched 2026-11-10) adds no guest-side content beyond the quotes above: the obligations hospitality "invoke[s]" run toward conforming to organisational norms and reciprocating, and the stakeholders named are "external stakeholders" and organisational members. Whether the article treats the commercial guest's duties is still unknown. For a readable Lugosi statement of guests' duties ("guests have obligations to respect the rules of the host and to reciprocate") and of guests co-producing hospitality, see `lugosi2009production` (accepted manuscript, full text).
+
 ## Where it enters the manuscript
 
 Section 3 (new numbering, rr-2026-11): one sentence placing negotiation inside hospitality's
@@ -48,3 +50,5 @@ relation of obligation and power. Possibly section 2, *Holder*, on the organizat
 that extends hospitality, if the full text supports it.
 
 Fable-checked rr-2026-11 (2026-11-08): no change. All four quotes re-checked against the Crossref abstract fetched today; abstract-only reading stands.
+
+Upgrade attempted in rr-2026-11-h (2026-11-10), workstream H4: Unpaywall, OpenAlex and Semantic Scholar re-checked, all closed with no repository copy; read_depth stays abstract and abstract-only-debt stands. Added the H4 note pointing to lugosi2009production. No frontmatter change.
