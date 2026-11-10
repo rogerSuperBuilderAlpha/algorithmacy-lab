@@ -40,20 +40,20 @@ performance and satisfaction; but empowerment to fix failures is rationed by hie
 ## Critical notes & threats
 
 - Answers R3.9 with hotel evidence: the authority to grant a recovery is not held by whoever the guest
-  meets; it is allocated by rank and escalates. That is the face-to-face baseline the paper should
+  meets; it is allocated by rank ("stage-managed and 'staircased'", "deliberately graduated according to rank"; "escalates" is my gloss, not the abstract's word). That is the face-to-face baseline the paper should
   describe instead of "all four sit in one person" (PO §2.4).
 - Abstract only. The sample sizes, the measures of empowerment and the content of the "staircase"
   (which ranks may grant what) are unknown. Do not state them.
 - One country; the abstract says only "thirty hotels in Sri Lanka" and does not give their grade.
   Whether the authors discuss the cultural context is unknown until the body is read.
 - It shows graded authority, not that guests could or could not reach the higher rank. For the paper's
-  "address" claim the question is whether escalation stays reachable; this source does not say.
+  "address" claim the question is whether escalation (my gloss) stays reachable; this source does not say.
 
 ## Where it enters the manuscript
 
 Section 4 (outline numbering, rr-2026-11-h), "Knowledge, discretion and authority", and the baseline
 sentence in §2.4 or §3: in staffed hotels the authority to make an exception was already graded by rank
-and reached through escalation, so the phygital question is whether the escalation path survives, not
+and, on my gloss of "staircased", reached through escalation, so the phygital question is whether the escalation path survives, not
 whether a single employee holds all authority.
 
 ## Which reviewer point(s) it answers
@@ -64,3 +64,5 @@ form of a guest's complaint changing an outcome).
 Created in rr-2026-11-h (2026-11-10), workstream H4: surfaced by Consensus query "frontline employee
 empowerment and discretion in hotels: limits on authority to handle guest requests and service
 recovery" (rank 1 of 30).
+
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): "escalates"/"escalation" marked as a gloss on the abstract's "staircased".

@@ -31,7 +31,7 @@ Thompson argues that judgements of justice have a distinct logical form, "bipola
 - These forms express "forms of bipolar normativity, or forms of relation of right" (p. 335). [full-text]
 - The contrast class: "non-relational, monopolar, or, as I will mostly say, merely monadic forms: X did wrong in doing A ... X has a duty to do A" (p. 338). [full-text]
 - Naming: "If, following Bentham, we call moral judgements of the monadic sort ‘deontological’, we might, in homage to Aristotle, call those of our bipolar sort ‘dikaiological’." (p. 338) [full-text]
-- Non-reduction: the monadic table "is not reducible to the bipolar in any straightforward way"; Rawls's account of promising "does not single out the unhappy promisee as one who is wronged in a way others are not—or, equivalently, as the one to whom the promisor had a duty." (pp. 338-339, page break in the copy after p. 338) [full-text]
+- Non-reduction: the monadic table "is not reducible to the bipolar in any straightforward way"; Rawls's account of promising "does not single out the unhappy promisee as one who is wronged in a way others are not—or, equivalently, as the one to whom the promisor had a duty." (p. 339) [full-text]
 - Orders of right in several keys: "A dikaiological order is simply the objective correlate of a particular ‘gear’ into which dikaiological judgement can be shifted or a particular ‘key’ in which it, or its language, can be sung." (p. 352) [full-text]
 - Legal and other "persons": "Lawyers speak of corporations as jural or legal persons and of states as persons under international right." (p. 355) [full-text]
 - None of the tabulated forms (pp. 335, 338) mentions answering, accountability, blame or demand; the relation is fixed by who owes what to whom. This is my reading of the table, not Thompson's statement. [full-text]
@@ -39,9 +39,9 @@ Thompson argues that judgements of justice have a distinct logical form, "bipola
 ## Critical notes & threats
 
 - **The use the paper needs.** Standing can be defined as Y's position in the bipolar relation ("X has a duty to Y"; "Y has a right against X", p. 335). That definition does not mention answering, so accountability can be defined afterwards without looping back. Darwall (2013) is a *rival* on exactly this point: he defines bipolar obligation through the obligee's "authority ... to hold the obligor personally accountable" (darwall2013bipolar, OSO chapter abstract). Citing Darwall alone for standing reproduces the circle R2.3 found.
-- **Keys.** Thompson's "key" (p. 352) is the source Darwall quotes for directed duties "sung in various keys" (darwall2013bipolar, p. 28). It licenses the paper to work in a conventional/legal key of commercial hospitality, where a hotel company can be a "jural person" (p. 355) and so an obligor.
+- **Keys.** Darwall (darwall2013bipolar, p. 28) cites Thompson pp. 345–6, where Thompson says the categories of the bipolar table "may be shifted into various gears, or sung in various keys"; the p. 352 sentence on a dikaiological order's "key" is a different passage making the same point. It licenses the paper to work in a conventional/legal key of commercial hospitality, where a hotel company can be a "jural person" (p. 355) and so an obligor.
 - **Difficulty.** The chapter is long and technical (Leibniz, Aquinas, a "modified Roman Empire"). Cite pp. 335 and 338 for the forms; do not paraphrase the later puzzle.
-- **Year.** Crossref dates the OSO record 2004; some citing works give 2006 for the volume. Check the printed volume's imprint before final citation.
+- **Year.** 2004 is correct: the Clarendon hardback (ISBN 9780199261888) appeared 19 March 2004; 2006 is the paperback (ISBN 9780199297641), per OpenLibrary as checked in VERIFY_H_v1.
 
 ## Where it enters the manuscript
 
@@ -52,3 +52,4 @@ Section 2.4 / 3: the definition of standing as the guest's place in a directed r
 R2.3a (circularity: standing defined without answering), R2.3b in part (standing held as a position in a relation, whatever the chance to exercise it), R2.2a in part (the key of a commercial order of right).
 
 Created in rr-2026-11-h (H2), 2026-11-10.
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): non-reduction quotations relocated to p. 339; Darwall's "keys" citation corrected to Thompson pp. 345–6, not p. 352; year note closed (2004 hardback).

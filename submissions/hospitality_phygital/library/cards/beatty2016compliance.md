@@ -41,7 +41,7 @@ employee assessments split into compliance motivators (desire to help, ease) and
 - Hotels mentioned only as prominent in a web search for "customer special requests" and via Ritz-Carlton's reputation (p. 158) [full-text]
 - p. 167 in full: "The most prevalent negative factor, producing noncompliance, in both companies involved requests that employees considered to be in violation of company policy or possibly illegal (first row under deterrents: oil change = 57.4%, pest control = 68.4%)." [the PDF text layer renders "=" as "¼"] Example: a ride in the company truck refused because "it's against company policy" (pest-control technician, p. 167) [full-text]
 - Empowerment as bounded judgment: frequent out-of-scope requests are "the essence of employee empowerment—that employees can and should make decisions based on the circumstances and use their best judgment"; an employee "may comply that day but explain that it is outside the contract so that the customer understands the deviation and does not expect it in the future" (p. 169) [full-text]
-- Customers do not know the bounds: knowledge-based requests by pest-control customers were refused for policy or legal reasons in 81.0% of such cases (Table 6, p. 168); the authors infer that "some customers lacked understanding of their contract with the firm or what to expect from employees" (p. 169) [full-text]
+- Customers do not know the bounds: knowledge-based requests by pest-control customers were refused for policy or legal reasons in 81.0% of refused knowledge-based requests (51 of 63; Table 6, "Noncompliance Situations", p. 168), not of all knowledge-based requests; the authors infer that "some customers lacked understanding of their contract with the firm or what to expect from employees" (p. 169) [full-text]
 
 ## Critical notes & threats
 
@@ -66,3 +66,5 @@ Upgraded to full text in rr-2026-11 (2026-11-08) from user-supplied PDF: sample 
 Fable-checked rr-2026-11 (2026-11-08): verifier_3 PASS accepted; sample, incident counts and the 57.4%/68.4% deterrent figures confirmed against the full text in sources/ (pp. 160–161, 167); both PARTLY verdicts stand; no change.
 
 Upgraded in rr-2026-11-h (2026-11-10), workstream H4: re-read pp. 167-170; added the full p. 167 sentence with its example, the p. 169 statement of bounded empowerment and the Table 6 knowledge/policy figure (p. 168); added the R3.9 reading. No frontmatter change.
+
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): 81.0% given its denominator (51 of 63 refused knowledge-based requests, Table 6).

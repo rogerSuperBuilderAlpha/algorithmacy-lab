@@ -30,7 +30,7 @@ A doctrinal analysis of whether a transaction platform can be liable to its cust
 - The question: "whether the platform operator may be held liable towards a platform customer for the violations caused by platform suppliers" (p. 1, abstract) [full-text]
 - Airbnb Ireland outcome as reported: "Airbnb was affirmed to be a pure intermediary providing information society services (Airbnb Ireland, 2019)" (p. 3) [full-text]
 - The decisive-influence criterion, per the Advocate General: aspects considered significant are "the price, the quality of services (vehicles), the conditions of access to the platform and services provided by its users"; the criterion was treated "as a determinative one" (p. 8) [full-text]
-- The subjective (appearance) approach: it "focuses not on the way the respective platform operator made the arrangements, but on how the users perceived the operator’s role in the respective relationships" (p. 13) [full-text]
+- The subjective (appearance) approach: it "focuses not on the way the respective platform operator made the arrangements, but on how the users perceived the operator’s role in the respective relationships" (pp. 12-13) [full-text]
 - Accommodation example: in a Booking.com case the Danish Western High Court held "the accommodation platform could not be held liable for the host’s violations since the appellant should have understood that they entered into an overnight stay with the place of residence, and that Booking.com alone acted as an intermediary" (p. 13, citing Ostergaard 2019) [full-text]
 - Model Rules: "a platform operator may be held liable towards a platform customer if the customer can reasonably rely on the platform operator having a predominant influence over the supplier" (p. 13, on art. 20 of the ELI Model Rules on Online Platforms) [full-text]
 - "both approaches are equally supported by scholars and courts" (p. 13) [full-text]
@@ -48,3 +48,5 @@ A doctrinal analysis of whether a transaction platform can be liable to its cust
 ## Which reviewer point(s) it answers
 
 R2.1e (platform as possible holder); R2.2d (sharing among actors); R2.5b (short-term rentals).
+
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): "focuses not on the way…" locator corrected to pp. 12-13.

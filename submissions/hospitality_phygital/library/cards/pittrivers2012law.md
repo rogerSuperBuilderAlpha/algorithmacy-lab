@@ -28,16 +28,15 @@ treating) that derives a general "law of hospitality" from the problem of how a 
 a stranger. Hospitality converts a potentially hostile stranger into a guest whose hostility is held in
 abeyance. The relation is reciprocal but never equal: the host ordains, the guest complies. Each side
 has duties, the law is best seen in its infringements, and any infringement ends the roles and
-returns the parties to hostility. Written by an anthropologist of the Mediterranean; first published
-in 1968 under a longer title, collected in 1977, reprinted in HAU in 2012 with the original
-pagination marked.
+returns the parties to hostility. Written by an anthropologist of the Mediterranean; collected in 1977 (*The Fate of Shechem*, pp.
+94-112, per the publisher's note), reprinted in HAU in 2012 with the original pagination marked.
 
 ## Key facts / verified quotes with loci
 
 - The guest's duties and rights, in one sentence: "while a host has rights and obligations in regard to his guest, the guest has no right other than to respect and no obligation other than to honour his host." (p. 514 [1977: 109]) [full-text]
 - Asymmetry of roles: "It is always the host who ordains, the guest who complies." (p. 513 [1977: 107]) [full-text]
 - Reciprocal but unspecific: "Host and guest must pay each other honour. ... Their mutual obligations are in essence unspecific, like those between spiritual kinsmen or blood-brothers; each must accede to the desires of the other. To this extent the relationship is reciprocal. But this reciprocity does not obscure the distinction between the roles." (p. 513 [1977: 107]) [full-text]
-- A guest's recourse is exit: "the guest who is dissatisfied with his treatment has no recourse but to retire from his role altogether by walking out." The diplomatic convention of turning one's plate over let a guest register a protest "without showing any discourtesy to his host. To complain openly would infringe the host's prerogative in the placing of his guests" (pp. 513-514 [1977: 107-108]) [full-text]
+- A guest's recourse is exit: "the guest who is dissatisfied with his treatment has no recourse but to retire from his role altogether by walking out." The diplomatic convention of turning one's plate over let a guest register a protest "without showing any discourtesy to his host. To complain openly would infringe the host's prerogative in the placing of his guests" (pp. 513-514 [1977: 107]) [full-text]
 - Guest infringements, listed: "A guest infringes the law of hospitality: 1. If he insults his host or by any show of hostility or rivalry; he must honour his host. 2. If he usurps the role of his host. ... If he makes claims or demands, he usurps the host's right to ordain according to his free will, even where custom lays down what he should wish to ordain. ... 3. If, on the other hand, he refuses what is offered he infringes the role of guest." (p. 515 [1977: 109]) [full-text]
 - Host infringements, listed: insult or rivalry; "If he fails to protect his guest or the honour of his guest"; "If he fails to attend to his guests, to grant them the precedence which is their due, to show concern for their needs and wishes" (p. 516 [1977: 110]) [full-text]
 - How the claim is lost: "failure to return honour or avoid disrespect entitles the person slighted in this way to relinquish his role and revert to the hostility which it suppressed. ... Once they are no longer host and guest they are enemies, not strangers." (p. 517 [1977: 111]) [full-text]
@@ -92,3 +91,4 @@ complies, protests obliquely, or exits, pp. 513-514). R2.3 in part (standing is 
 guest's own conduct, p. 517). R3.9 indirectly (the host's authority is itself territorial, p. 514).
 
 Created in rr-2026-11-h (2026-11-10), workstream H4: no prior card; full-text read of the HAU reprint.
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): unsourced "first published in 1968" removed; "To complain openly" quotation relocated to 1977 p. 107 only.

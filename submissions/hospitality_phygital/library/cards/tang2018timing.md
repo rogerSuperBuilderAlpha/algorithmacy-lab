@@ -36,7 +36,7 @@ Scenario experiment in a hotel setting crossing recovery timing (immediate or de
 
 - Vignettes, not guests; abstract only; "delayed" is not defined in the abstract.
 - It is about the timing of the remedy, not of the decision. It does not tell against a reachable person at the moment of a decision; it tells against equating "immediate" with "best" for complaints.
-- Contrast: Jin et al. (2019), *Journal of Hospitality and Tourism Management* 38: 149-158 (record verified, abstract seen in Consensus only, not carded): recovery in 30 minutes beat recovery in 2 hours across three strategies.
+- Contrast: Jin et al. (2019), *Journal of Hospitality and Tourism Management* 38: 149-158 (record verified, abstract seen in Consensus only, not carded): recovery in 30 minutes beat recovery in 2 hours across three strategies [UNVERIFIED — no abstract found, VERIFY_H_v1].
 
 ## Where it enters the manuscript
 
@@ -47,3 +47,4 @@ Scenario experiment in a hotel setting crossing recovery timing (immediate or de
 R2.5a (the "less important" half of the question).
 
 New card in rr-2026-11-h (2026-11-10), abstract only.
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): Jin et al. (2019) 30-minute result marked unverified (OpenAlex holds no abstract).

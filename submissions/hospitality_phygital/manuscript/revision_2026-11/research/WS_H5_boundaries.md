@@ -56,24 +56,29 @@ too fast for any person, as with emergency braking, the only human control left 
 in advance (pp. 7-8). R2.5a's "immediate interruptibility" is, in these terms, synchronous correction by
 someone with authority; a later appeal is asynchronous.
 
-**Law secures the later appeal, not the person at the moment.** GDPR Article 22 bars solely automated
+**On my reading, law secures the later appeal, not the person at the moment.** GDPR Article 22 bars solely automated
 decisions with legal or similarly significant effects (Art. 22(1)) but lifts the bar where the decision
 is "necessary for entering into, or performance of, a contract" (Art. 22(2)(a)). Then the safeguard is
 "the right to obtain human intervention ... to express his or her point of view and to contest the
-decision" (Art. 22(3)), and Recital 71 speaks of challenging "the decision reached after such assessment".
-Booking, check-in and pricing are contractual, so a hotel's legal floor is after-the-fact review. The
+decision" (Art. 22(3)). Recital 71 lists, as separate items, the right "to obtain an explanation of the
+decision reached after such assessment" and the right "to challenge the decision". My reading, not the
+law's text: booking, check-in and pricing fall under the contract exception only where the decision is
+"necessary for" the contract (Art. 22(2)(a)), and Art. 22(3) does not say when intervention occurs; if
+both hold, a hotel's legal floor is after-the-fact review. The
 regulators add two markers the typology can borrow. "Cancellation of a contract" is a legal effect
 (WP251rev.01 p. 21), and differential pricing becomes significant only if "prohibitively high prices
 effectively bar someone from certain goods or services" (p. 22). They also make reversibility part of
 significance ("a prolonged or permanent impact", p. 21) and require a reviewer "who has the appropriate
-authority and capability to change the decision" (p. 27). The AI Act's stop-button duty, the right "to
-intervene ... or interrupt the system through a 'stop' button" (Art. 14(4)(e), OJ PDF p. 61), binds only
-high-risk systems, and Annex III names no hospitality use (card `eu2024aiact`). It expressly excludes
+authority and capability to change the decision" (p. 27). The AI Act's stop-button provision is a design
+requirement, not a right of the affected person: Art. 14(4)(e) requires that a high-risk system be
+provided to the natural persons assigned to oversight in a way that enables them, "as appropriate and
+proportionate", "to intervene ... or interrupt the system through a 'stop' button" (OJ PDF p. 61). It
+confers nothing on a guest, binds only high-risk systems, and Annex III names no hospitality use (card `eu2024aiact`). It expressly excludes
 biometric verification whose sole purpose is "to confirm that a specific natural person is the person he
 or she claims to be" (Annex III 1(a), p. 127).
 
 **Hospitality evidence says immediacy matters for remedy, but not uniformly.** In hotel vignettes,
-recovery within 30 minutes beat recovery within 2 hours (Jin et al. 2019, abstract). Yet immediate,
+recovery within 30 minutes beat recovery within 2 hours (Jin et al. 2019) [UNVERIFIED — no abstract found, VERIFY_H_v1]. Yet immediate,
 economic recovery suited guests with mild negative emotion, while delayed, psychological recovery suited
 those with intense emotion (Tang et al. 2018, abstract). Guests who meet a robot failure blame the firm,
 and Belanche et al. advise human help "proactively following a robot failure" (2020: 283; card
@@ -87,7 +92,7 @@ cited in the row; no source makes them for hotels.
 
 | Decision | Stakes | Reversible in time? | Time-critical? | Recourse it needs | Basis |
 |---|---|---|---|---|---|
-| Admission or refusal at the door or check-in; booking not honoured; walked guest | High: shelter for the night; cancellation is a legal effect | No: a refund next week does not return the night | Yes, the guest is at the threshold | **Synchronous**: a reachable person with authority before refusal takes effect | WP251 p. 21; Baum & Laux p. 6; GDPR 22(3) gives only later review |
+| Admission or refusal at the door or check-in; booking not honoured; walked guest | High: shelter for the night; cancelling a booking is a legal effect ("cancellation of a contract"); refusing a walk-in is not among the regulators' examples | No: a refund next week does not return the night | Yes, the guest is at the threshold | **Synchronous**: a reachable person with authority before refusal takes effect | WP251 p. 21 (booking cancellation only; its "refused admission" is to a country); Baum & Laux p. 6; GDPR 22(3) states no timing (my reading: later review) |
 | Identity verification (e.g. facial check-in) | Low as verification; high if failure blocks entry | Yes, if a manual route exists | Only through its consequence | **Fallback route**, then synchronous if failure would refuse entry | AI Act Annex III 1(a) p. 127; Wilson-Nash et al. p. 981 (choice of access modes) |
 | Safety and access on the premises (key lock-out, alarms, removal for security) | Highest | Often no | Some too fast for any person | **Synchronous** where a person can act in time; **anticipatory** limits set and owned by the host where not | Baum & Laux pp. 7-8; AI Act Art. 14(4)(e) p. 61 as analogy only |
 | Pricing (dynamic or personalised) | Usually moderate | Yes (refund, rebooking) | No; the guest can decline before contracting | **Asynchronous** appeal plus anticipatory rules; moves up if a price bars access | WP251 p. 22; Baum & Laux p. 7 |
@@ -109,15 +114,15 @@ the host sets beforehand and answers for afterwards.
   testable boundary: the framework should explain most where the guest is on site and least for remote,
   reversible decisions.
 - **Institutional role obligation (C): supported.** The sources locate the remedy in *authority to change
-  the decision* assigned by the organisation (WP251 p. 27; Baum & Laux p. 2; Sterz et al. 2024: 2498),
+  the decision* assigned by the organisation (WP251 p. 27; Baum & Laux p. 2; Sterz et al. 2024: 2497),
   and anticipatory oversight lets the host answer for decisions no frontline person could interrupt
   (pp. 7-8). That answers R3.9: authority can be bounded by role, provided someone the organisation
   empowers is reachable at the moments that matter.
 - **Public calling (B): untested here.** The admission row is where B's duty to receive would bite. I did
   not read innkeeper law (another workstream's tradition); if H-workstreams verify it, B explains why
   refusal at the threshold is the paradigm case.
-- **Weakened:** any claim that *every* touchpoint must be interruptible. Law sets only after-the-fact
-  review (GDPR 22(3)); recovery evidence shows speed is not uniformly what guests want (Tang 2018). The
+- **Weakened:** any claim that *every* touchpoint must be interruptible. On my reading, law sets only after-the-fact
+  review (GDPR 22(3) states no timing); recovery evidence shows speed is not uniformly what guests want (Tang 2018). The
   paper should restrict immediacy to the irreversible, on-premises class. This also answers R2.4 in part:
   general data-protection law does not demand immediacy, so a hospitality-specific ground is doing work.
 
@@ -145,3 +150,14 @@ the host sets beforehand and answers for afterwards.
 - **Proposed claim slug:** `interruptibility-before-effect` (§§5, 7, 9): immediate interruptibility is owed
   where a decision takes effect on the guest before any later review could undo it; elsewhere a later
   appeal or advance rules suffice.
+
+## Corrections after verification
+
+*Added in rr-2026-11-h after VERIFY_H_v1 (2026-11-10).*
+
+- §4: Sterz et al. 2024 locator for organisational "authority" corrected from p. 2498 to p. 2497 (finding 1).
+- §3: Recital 71 splice undone; the explanation right and the right to challenge are quoted as two items (finding 2).
+- §3, §4 and the typology: "booking, check-in and pricing are contractual, so … after-the-fact review" marked as my reading; Art. 22(2)(a) needs "necessary for", and Art. 22(3) states no timing (finding 3).
+- §3: AI Act Art. 14(4)(e) restated as a design requirement for assigned overseers, not a guest's right (finding 4).
+- §3: Jin et al. 2019 30-minute result marked unverified; no abstract retrievable (finding 5). The Jin entries in §1–2 and the typology's complaints row are records or citations, not the result, and were left as they are.
+- Typology, admission row: door refusal no longer presented as a regulators' legal-effect example; WP251 p. 21 covers cancelling a booking, and its "refused admission" is to a country (finding 6).

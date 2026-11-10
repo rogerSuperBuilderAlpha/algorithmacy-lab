@@ -49,7 +49,7 @@ nothing more.
 - Tone is polemical (the Taliban example, p. 20; "blind leading the blind", p. 27). Cite the argument, not the rhetoric.
 - The Brotherton replies were not read. Do not characterise the exchange beyond Slattery's side.
 
-**For R3.9 (rr-2026-11-h, H4).** pp. 24-25 locate the decisions that govern a venue (brand, portfolio, supply chain, distribution through intermediaries) at the level of the chain, above the venue. That is a hospitality-studies source for the claim that a frontline host's authority was always set elsewhere in the organisation, before any algorithm. Slattery draws the opposite moral (drop the host-guest frame); the paper uses only his description of where authority sits. The multi-actor use (owner, brand, intermediary) belongs to H3.
+**For R3.9 (rr-2026-11-h, H4).** H4's reading, not Slattery's claim: Slattery writes about corporate management priorities (chains, brands, portfolio, chain supply), not about frontline authority or decisions. On that reading, pp. 24-25 locate the decisions that govern a venue (brand, portfolio, supply chain, distribution through intermediaries) at the level of the chain, above the venue. That is a hospitality-studies source for the claim that a frontline host's authority was always set elsewhere in the organisation, before any algorithm. Slattery draws the opposite moral (drop the host-guest frame); the paper uses only his description of corporate priorities, read by H4 as showing where authority sits. The multi-actor use (owner, brand, intermediary) belongs to H3.
 
 ## Where it enters the manuscript
 
@@ -60,3 +60,5 @@ service management.
 Fable-checked rr-2026-11 (2026-11-08): no change. Quotes re-found at pdf pp. 3, 3, 4, 5, 7, 9 (= pp. 21, 21, 22, 23, 25-26, 27).
 
 Upgraded in rr-2026-11-h (2026-11-10), workstream H4: read pp. 24-25 for the corporate context; added four located quotes; added the R3.9 reading. No frontmatter change.
+
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): R3.9 "where authority sits" reading marked as H4's inference from corporate priorities.

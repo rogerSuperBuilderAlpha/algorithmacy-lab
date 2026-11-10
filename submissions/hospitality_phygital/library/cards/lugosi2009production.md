@@ -51,7 +51,7 @@ disruptive customers; they spoke of an obligation to support the venue.
   evidence that guests shape outcomes where management leaves room, not that they hold standing.
 - A single, unusual venue (an under-resourced LGBT bar, data from the author's earlier ethnography).
   The obligations patrons describe are to a community, not to the operator.
-- Accepted manuscript, not version of record; page numbers missing.
+- Accepted manuscript, not version of record; page numbers missing. The cover calls it the "accepted post-review version", but Unpaywall classes the Bournemouth copy as "submittedVersion", and the VoR (SAGE, closed) was not reached. Check every quotation against the VoR, with page numbers, before it enters the paper.
 
 ## Where it enters the manuscript
 
@@ -64,3 +64,5 @@ guests owe respect for the host's rules and reciprocity (section "Hospitality").
 R1.2 (value-creating, more-than-functional interaction). R3.8 (beyond hotel reception). R3.10 in part.
 
 Created in rr-2026-11-h (2026-11-10), workstream H4: Fable lead (§4(g)) verified; full read of the accepted manuscript.
+
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): version status qualified (Unpaywall: submittedVersion; VoR unchecked).

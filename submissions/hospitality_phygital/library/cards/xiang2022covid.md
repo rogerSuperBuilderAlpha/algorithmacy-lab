@@ -49,7 +49,7 @@ and the encounter ends with the guest admitted as an "insider" or leaving as an 
 - The rules being negotiated were state-imposed, and the authors say their Chinese setting (high power distance, collectivism, one upscale property) limits generalisation (Conclusions, limitations paragraph). The paper should cite it for the form of the encounter, not for guest compliance norms.
 - "Host" here is the hotel and its staff together; the study does not separate the institution's obligation from the employee's performance, which is the paper's section 2 distinction.
 
-**For Q6/Q7 (rr-2026-11-h, H4).** Beyond the compensation case, the study gives located hotel evidence on both H4 questions. Guests owe compliance with the stay's rules and regard for other guests (Discussion); a guest who will not comply after "repeated communications" is asked to leave and becomes an "outsider" (Findings, two sections). Frontline staff explain but cannot alter the rule ("the only thing we can do", H8), and the one accommodation found required "checking with hotel management". The rules were state-imposed, so the bound on staff authority here is legal as well as organisational.
+**For Q6/Q7 (rr-2026-11-h, H4).** Beyond the compensation case, the study gives located hotel evidence on both H4 questions. Guests owe compliance with the stay's rules and regard for other guests (Discussion); a guest who will not comply after "repeated communications" is asked to leave and becomes an "outsider" (Findings, two sections). Frontline staff explain the rule ("the only thing we can do", H8; the passage is about staff keeping their composure while guests shout, so "cannot alter the rule" is H4's inference), and the one accommodation found required "checking with hotel management". The rules were state-imposed, so the bound on staff authority here is legal as well as organisational.
 
 ## Where it enters the manuscript
 
@@ -59,3 +59,5 @@ documented case of a management-approved compensation that depended on reaching 
 Fable-checked rr-2026-11 (2026-11-08): gloss corrected: the manager-approved step is a compensation (hotel pays for the test), not an exception to the testing rule (verifier_2 accepted). All seven quotes re-found in paper.txt under the stated section headings.
 
 Upgraded in rr-2026-11-h (2026-11-10), workstream H4: re-read Findings and Discussion in paper.txt; added four located quotes on guests' duties, loss of the claim to be received, and frontline latitude; added the Q6/Q7 reading. PMC still carries no page numbers; check against the published PDF. No frontmatter change.
+
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): H8 "cannot alter the rule" reading marked as H4's inference.

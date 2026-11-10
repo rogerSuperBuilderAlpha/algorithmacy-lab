@@ -44,12 +44,15 @@ what counts as a legal or similarly significant effect, and what the human-inter
 
 ## Where it enters the manuscript
 
-§5 check-in and pricing examples; §9 boundary conditions. It lets the typology say that refusal or
-cancellation at the door is a legal effect on the regulators' reading, while ordinary dynamic pricing is
-not, unless it bars access.
+§5 check-in and pricing examples; §9 boundary conditions. It lets the typology say that cancelling a
+booking is a legal effect on the regulators' reading ("cancellation of a contract", p. 21), and that
+differential pricing "could" be significant where it bars access (p. 22). It does not cover a walk-in
+refused at the door: the "refused admission" example is admission to a country. Nor does it say that
+ordinary dynamic pricing is not significant; it makes no negative claim.
 
 ## Which reviewer point(s) it answers
 
 R2.5a (stakes dimension, with regulators' examples).
 
 New card in rr-2026-11-h (2026-11-10).
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): "Where it enters" no longer claims door refusal as a regulators' legal-effect example or that ordinary pricing "is not" significant.

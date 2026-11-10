@@ -23,7 +23,7 @@ hold_rationale: "Recommended by H3 as one of its two new sources (cap 2). It is 
 
 ## Summary
 
-A conceptual FAccT paper. It argues that the "many hands" frame, which treats an algorithmic system as the product of one organisation's many people, no longer fits systems assembled from services that other firms control. In an algorithmic supply chain, production, deployment and use are split among actors linked by data flows; responsibility is distributed, nobody controls the whole chain, each actor sees only a step or two (the "accountability horizon"), and providers write service terms that keep control while shedding accountability. It treats accountability as a mechanism (actor gives account to a forum) and says allocation must follow factual control, not contractual labels.
+A conceptual FAccT paper. It argues that the "many hands" frame, which treats an algorithmic system as the product of one organisation's many people, no longer fits systems assembled from services that other firms control. In an algorithmic supply chain, production, deployment and use are split among actors linked by data flows; responsibility is distributed, nobody controls the whole chain, each actor sees only a step or two (the "accountability horizon"), and providers write service terms that keep control while shedding accountability. It treats accountability as a mechanism (actor gives account to a forum). It reports that the CJEU, in data-protection law, has held "the factual situation outweighs contractual or other arrangements" (arXiv p. 8), and notes that challenging providers' claims "would involve litigation or regulatory investigation"; it states no general rule that allocation must follow factual control.
 
 ## Key facts / verified quotes with loci
 
@@ -53,3 +53,4 @@ A conceptual FAccT paper. It argues that the "many hands" frame, which treats an
 ## Which reviewer point(s) it answers
 
 R2.1e (responsibility "may sit with the hotel company, operator, employee, platform, vendor, or several actors at once"); R2.2d (how responsibility is shared among multiple actors); R2.2e in part (shows what is general about the mechanism, which the paper should concede).
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): Summary no longer attributes an "allocation must follow factual control" rule to the authors; p. 8 reports the CJEU data-protection rule.

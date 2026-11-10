@@ -40,6 +40,7 @@ Thirty-five semi-structured interviews (Feb-Apr 2018) with individual Airbnb hos
 ## Critical notes & threats
 
 - Data are 2018, which the authors call "a historical snapshot" (p. 3); the platform's terms and EU law have changed since (EU Short-Term Rental Regulation not read in this run).
+- Not independent of farmaki2019selfperceptions: Farmaki, Stergiou and Kaniadakis (2019) report the same design (35 European hosts, recruited through a COST Action network, interviewed on Skype; AM p. 6), so the two papers very probably draw on one dataset. Do not present them as independent corroboration.
 - Host perceptions only; no guest data and no platform documents. It shows what hosts think they owe, not what is owed.
 - Several of its strongest framing sentences are the authors' summaries of others (Van Doorn 2020; Gorwa 2019; Codagnone et al. 2016). Attribute them as such.
 - Its reference list cites "Edelman and Geradin (2015)" as a Harvard Business School working paper, confirming that the Fable lead exists in some form (see WS_H3 report).
@@ -51,3 +52,4 @@ Thirty-five semi-structured interviews (Feb-Apr 2018) with individual Airbnb hos
 ## Which reviewer point(s) it answers
 
 R2.1e (platform as a possible holder); R2.5b (short-term rentals as a format where the explanatory power changes); R3.8 (hosting outside hotel reception).
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): added the probable shared dataset with farmaki2019selfperceptions (not independent corroboration).

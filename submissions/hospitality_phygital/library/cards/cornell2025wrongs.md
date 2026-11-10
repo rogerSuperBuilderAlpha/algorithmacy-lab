@@ -13,7 +13,7 @@ claims: [accountability-is-a-relation]
 read_depth: abstract
 verified: crossref-verified
 verified_date: 2026-11-10
-source_basis: "Crossref records 10.2307/jj.21275861 (monograph) and 10.4159/9780674245037 fetched 2026-11-10, Harvard UP, issued 2025-03-04 (OpenAlex dates it 2024). Publisher abstract read via OpenAlex. Book not reachable. Also read: the abstract of Cornell, 'Wrongs, Rights, and Third Parties', Philosophy & Public Affairs 43(2) (2015) 109-143, doi 10.1111/papa.12054 (Crossref; the repository and Internet Archive copies were blocked or rate-limited this session), and the abstract of Bradley, 'Accountability and Obligations Come Apart', Canadian Journal of Law & Jurisprudence (2026) 1-22, doi 10.1017/cjlj.2026.10074 (Crossref; a critical notice of this book; Cambridge returned HTTP 429)."
+source_basis: "Crossref records 10.2307/jj.21275861 (monograph) and 10.4159/9780674245037 fetched 2026-11-10, Harvard UP; 10.2307/jj.21275861 gives issued 2025-03-04, 10.4159/9780674245037 gives 2024-10-25 (online), and OpenAlex gives 2024 for both, so the year is unsettled between 2024 and 2025. Publisher abstract read via OpenAlex; no copy of the abstracts is saved under sources/. Book not reachable. Also read: the abstract of Cornell, 'Wrongs, Rights, and Third Parties', Philosophy & Public Affairs 43(2) (2015) 109-143, doi 10.1111/papa.12054 (Crossref; the repository and Internet Archive copies were blocked or rate-limited this session), and the abstract of Bradley, 'Accountability and Obligations Come Apart', Canadian Journal of Law & Jurisprudence (2026) 1-22, doi 10.1017/cjlj.2026.10074 (Crossref; a critical notice of this book; Cambridge returned HTTP 429)."
 generated_run: rr-2026-11-h
 flags: [abstract-only-debt]
 hold_rationale: "Held (H2, ranked 5th) as the current book-length argument that accountability practices (rooted in wrongs) and obligations (rooted in rights) are distinct relations. It is the strongest published support for defining standing without reference to answering, and the strongest objection to Darwall's linkage. Not recommended to enter until read."
@@ -37,6 +37,7 @@ From the publisher abstract: Cornell rejects the common view that "to be wronged
 - **Why it matters.** R2.3's circle is an instance of the OAN: the paper defines standing through answering and answering through standing. Cornell and Bradley both reject the OAN, from different directions. That gives the paper published cover for separating (i) the directed duty and the guest's claim from (ii) accountability for breach.
 - **Caution on Cornell's terms.** Cornell ties "standing to complain" to *wrongs*, not to rights (Liau's reading, liau2023standing pdf p. 4). If the paper defines standing as the correlate of the host's duty (rights side), it is closer to Bradley's "rights-based view that rejects the OAN" than to Cornell. Read both before choosing.
 - Everything here is abstract-level. Do not attribute arguments beyond the abstracts.
+- **Year.** Settle 2024 or 2025 against the HUP imprint before citing.
 
 ## Where it enters the manuscript
 
@@ -47,3 +48,4 @@ At most one sentence in §2.4 or §3, after a full read: the separation of a dir
 R2.3a.
 
 Created in rr-2026-11-h (H2), 2026-11-10.
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): year recorded as unsettled (2024 online vs 2025), and the absence of a saved abstract copy noted.

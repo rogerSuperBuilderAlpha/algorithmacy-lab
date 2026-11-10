@@ -13,7 +13,7 @@ claims: [limits-and-agenda, institutional-not-trainable]
 read_depth: full-text
 verified: crossref-verified
 verified_date: 2026-11-10
-source_basis: "Crossref record 10.1007/978-3-032-41269-0_8 fetched 2026-11-10 (LNCS chapter, pp. 115-130, published 13 Oct 2026, CC BY 4.0). The Springer PDF returned a bot challenge, so the full text was read from arXiv 2603.19213v2 (20 Aug 2026, 15 pp.), the version OpenAlex links to the chapter. Locators are arXiv v2 PDF pages and section numbers; the version of record was not compared, so pagination and wording may differ. Copy at manuscript/revision_2026-11/research/sources/baum2026constitutive/."
+source_basis: "Crossref record 10.1007/978-3-032-41269-0_8 fetched 2026-11-10 (LNCS chapter, pp. 115-130, published online 13 Oct 2026, CC BY 4.0; Crossref gives the print date as 2027, so decide which year to cite). The Springer PDF returned a bot challenge, so the full text was read from arXiv 2603.19213v2 (20 Aug 2026, 15 pp.), the version OpenAlex links to the chapter. Locators are arXiv v2 PDF pages and section numbers; the version of record was not compared, so pagination and wording may differ. Copy at manuscript/revision_2026-11/research/sources/baum2026constitutive/."
 generated_run: rr-2026-11-h
 flags: []
 hold_rationale: "Proposed as the one H5 entry (cap 1). It supplies the criterion R2.5a asks for: whether a human can intervene before a decision takes effect, rather than how fast review comes. The authors decide admission."
@@ -65,3 +65,4 @@ R2.5a (which decisions need immediate interruptibility); R3.7 (technology takes 
 taxonomy distinguishes configurations); in part R3.9.
 
 New card in rr-2026-11-h (2026-11-10): full text read from arXiv v2.
+Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): recorded the 2027 print date beside the 2026 online date; all quotations remain verified against arXiv v2 only.
