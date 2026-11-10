@@ -44,3 +44,5 @@ Section 2, *Holder*, only after a full read.
 R2.2 (theory of role obligation), potentially R2.2a and R2.2c.
 
 Created in rr-2026-11-h (H2), 2026-11-10.
+
+Upgraded in rr-2026-11-h (debts), 2026-11-10: not upgraded; article not reached. Routes tried: Unpaywall (closed), OpenAlex (closed, JSTOR only), Semantic Scholar (no record for the DOI), web search for an open copy (none; PhilPeople lists the article without a file). The Chrome browser route was unavailable (no connected browser), so JSTOR access through the user's institution could not be tried. read_depth stays metadata.

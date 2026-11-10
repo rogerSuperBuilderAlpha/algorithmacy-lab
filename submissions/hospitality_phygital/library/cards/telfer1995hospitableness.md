@@ -30,6 +30,11 @@ Not read. Metadata only: a philosophical paper on hospitableness, with a 2000/20
 
 - Philosophical Papers 24(3), pp. 183-196, 1995 [metadata]
 - Chapter "The philosophy of hospitableness", In Search of Hospitality, pp. 38-55 (Crossref year 2001) [metadata]
+- Secondary report, not Telfer's text (blain2014hospitableness p. 2): Telfer "makes a distinction between hospitality and hospitableness"; hospitality is "the provision of food, drink, and accommodation to those who are not members of a household", and even in commercial settings "the central ides [sic] of the concept remains that of sharing one's own home and provisions with others" (Blain and Lashley give Telfer p. 39) [metadata]
+- Secondary report (blain2014hospitableness p. 2) of Telfer's list of motives, with a duty among them: "These include the desire to please others, stemming from general friendliness and benevolence or from affection for particular people; concern or compassion, the desire to meet other's needs; and allegiance to what one sees as duties to be hospitable, a duty help one's friends or a duty to help those in trouble" (Blain and Lashley give Telfer p. 42; wording as printed) [metadata]
+- Conflicting secondary report of the same list (lashley2015hospitality p. 5) gives "A desire to entertain one's friends or to help those in trouble" and drops the duty clause. The two reports cannot both be Telfer's words; check p. 42 before using either [metadata]
+- Secondary report on commercial settings: Telfer "reminds us that this is a somewhat simplistic view because it may be that hospitable people are drawn to work in bars, hotels and restaurants, and offer hospitableness beyond, and in spite of, the commercial transaction and materialistic instructions from owners" (lashley2015hospitality p. 5; blain2014hospitableness p. 3 has nearly the same sentence with "managers") [metadata]
+- Secondary report: Telfer's "biggest assertion is that hospitable people may not be good hosts", since hospitableness "cannot be undone by a lack of skill" (Blain and Lashley's paraphrase, p. 3); and the quoted formula "what good hosts are good at is making their guests happy" (Blain and Lashley give Telfer p. 40) [metadata]
 
 ## Critical notes & threats
 
@@ -42,3 +47,5 @@ Not until read. Order the PDF.
 ## Which reviewer point(s) it answers
 
 R2.1a and R3.11 (virtue against role), pending a read.
+
+Upgraded in rr-2026-11-h (debts), 2026-11-10: not upgraded; neither the 1995 article nor the 2001 chapter was reached. Routes tried for both DOIs: Unpaywall (closed), OpenAlex (closed; no repository copy), Semantic Scholar (chapter CLOSED; no record for the 1995 article), web search for an open copy (none), Google Books partial preview of In Search of Hospitality (search-inside returned Google's automated-traffic CAPTCHA page; stopped, recorded as blocked). The Chrome browser route was unavailable (no connected browser). Added five secondary reports from Blain and Lashley (2014) and Lashley (2015), both read in full, with the pages they give for the chapter. On those reports Telfer treats hospitableness as a matter of motive, places a felt duty among the motives, and does discuss commercial settings, but as individuals bringing hospitableness into paid work, not as duties owed by a commercial host. Whether she calls hospitableness a virtue cannot be said: neither secondary source uses the word for her. The FABLE guess therefore stays unconfirmed, and the two secondary reports of p. 42 disagree on whether "duties" appear in her list. read_depth stays metadata.

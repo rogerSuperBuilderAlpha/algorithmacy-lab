@@ -73,3 +73,5 @@ Created in rr-2026-11-h (2026-11-10), workstream H4: Fable lead (§4(g)) verifie
 Corrected in rr-2026-11-h after VERIFY_H_v1/v2 (2026-11-10): version status qualified (Unpaywall: submittedVersion; VoR unchecked).
 
 Fable-checked rr-2026-11-h (2026-11-10): verifier note (version status) accepted and the applied fix confirmed; all eleven quotations re-matched to the saved manuscript and read in their sections. Changed: "to a community, not to the operator" corrected to the source's "not just to the hosts/commercial providers" (Conclusion); one quotation added from the "Hospitality" section. Wording still unchecked against the SAGE version of record.
+
+Upgraded in rr-2026-11-h (debts), 2026-11-10: version of record not reached. Unpaywall's only open location is the Bournemouth eprint already read; OpenAlex and Wayback hold no copy of the SAGE PDF, and the Chrome browser route was unavailable (no connected browser). Locators remain section headings of the eprint; no page numbers can be given. Do not quote this source in the draft with page locators until the SAGE version is checked.
