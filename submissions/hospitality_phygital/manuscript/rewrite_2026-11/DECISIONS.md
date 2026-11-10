@@ -36,3 +36,16 @@ The approved plan is `~/.claude/plans/crystalline-tickling-reef.md`.
 
 ### D2 · 10 Nov · Library sign-in not live
 The proxy link for Lugosi (2014) lands on the Microsoft password page. I am starting the journal study on the open-access texts and will add the closed ones when the sign-in is done. If it never is, `JOURNAL_MODEL.md` will say which texts it rests on and which it lacks.
+
+### D3 · 10 Nov · The journal model rests on eight full reads, not twelve
+Six regular articles and two editorials are read end to end (`journal/CORPUS.md`). The plan's target was twelve, three of them on technology or commercial hosting. The texts that would close the gap are all behind the paywall. I am going ahead on version 1 of `journal/JOURNAL_MODEL.md` and will revise it when the closed texts are read. Alternative: wait for the sign-in. Reason for not waiting: the six agree on almost every trait that matters for the plan of the paper, and the gauge and research can proceed meanwhile.
+
+### D4 · 10 Nov · v6 follows the journal where the journal is near-unanimous
+Three rulings in `journal/JOURNAL_MODEL.md` depart from standing rules:
+- a roadmap at the end of the introduction (5 of 6 articles), against `REGISTER.md` rule 3;
+- the thesis and main moves stated with 'we argue' (5 of 6), against `REGISTER.md` rule 1 and against the house rule that first person marks the author's labour and not the claim;
+- the scholar as grammatical subject where the paper leans on or disputes that scholar (6 of 6), which narrows `REGISTER.md` ruling 3.
+The skill's precedence rule sends a unanimous genre trait to the author. Under "no stops" I am following the journal. **YOURS to reverse**: if you want the house rule kept, the 'we argue' sentences in v6 can be recast with the claim as subject; the ledger will mark each one.
+
+### D5 · 10 Nov · Paragraph length is not the problem the structure check said it was
+`revision_2026-11/STRUCTURE_CHECK.md` set v5's mean of 211 words against two editorials (153 and 163). The four conceptual articles run about 130, 180, 185 and 200. v6 will aim inside 130–200 with spread, and I am not treating v5's length as a defect to fix by splitting.
