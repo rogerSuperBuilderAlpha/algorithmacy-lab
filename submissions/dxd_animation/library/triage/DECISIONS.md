@@ -442,7 +442,9 @@ these lands, §4.1's "McLaren (1968)" has no citable source, and CHECK F1 stays 
 | R4 | How far this pass goes | "Dossier, outline and full draft" | I write `../../MODEL.md`, `../../OUTLINE_v2.md` and `../../DRAFT_v1.md` by hand. He accepted that prose is drafted before he has ruled on the model. Every paragraph of mine is marked. |
 
 He also asked that the work use Fable 5.2. For run 2 every agent therefore runs on Fable 5.2, which
-replaces the model-per-task table of run 1. The writer of a card and its verifier are still different
+replaces the model-per-task table of run 1. **Later the same day he switched the session to Opus 5.5
+(`/model`) and said "continue"; I read that as replacing the Fable rule, so from that point the lead
+and every subagent run on Opus 5.5.** The writer of a card and its verifier are still different
 agents, and I still read every card against its source before it is indexed.
 
 ## Defaults I take until he rules (each is flagged [DECISION] in `../../MODEL.md`)
@@ -491,3 +493,25 @@ Ribeiro & Paiva 2012; Schulz et al. 2018; Lewis et al. 2026; Thomas & Calder 200
 Run 1 left the *Timing for Animation* chapter records out as "applications or manuals" (`F1-F2.md`,
 "Left out"). Run 2 admits one timing source, because the model's second and third rows turn on timing
 charts and holds, which no carded work covers.
+
+## What the browser reached (2026-11-11)
+
+- **Obtained through his Chrome session (ACM Digital Library):** Lasseter 1987, Chang & Ungar 1993,
+  Thomas & Calder 2001, González 1996, Takayama et al. 2011, Ribeiro & Paiva 2012, Schulz et al. 2019.
+  The first came by a scripted fetch inside the ACM page; Chrome then blocked further automatic
+  downloads from the site, and the rest were opened in Chrome's PDF viewer and saved with its download
+  button. I did not change Chrome's site settings.
+- **Obtained openly (arXiv, by curl):** Kurian 2025 (submitted version), Lewis et al. 2026.
+- **Not obtained — the three craft books.** The Internet Archive's legitimate copies of Thomas &
+  Johnston (*The Illusion of Life*), Williams (*The Animator's Survival Kit*) and Whitaker & Halas
+  (*Timing for Animation*) are lending copies ("access-restricted"), so each needs a loan on his
+  account; under R2's terms a loan stops the source. The same catalogue lists unrestricted user uploads
+  of these in-copyright books; they look unauthorized and I did not open them. The books go to
+  `BROWSER_LIST.md` for him to borrow.
+- **Closed, not attempted further:** Silvio 2010 and 2019, Ananny & Crawford 2018, Chiou & Lee 2023,
+  Chen 2026, Kahneman & Klein 2009 (OpenAlex lists no open copy for any of them).
+- **Consequence for the model.** The craft column rests on Lasseter (1987), read in full, which states
+  the principles and quotes Thomas and Johnston at length; and on Chang & Ungar (1993) and Thomas &
+  Calder (2001), read in full, which carry them into interfaces. Thomas and Johnston are cited "as
+  cited in Lasseter (1987)" until the book is read. No production source on model sheets has been
+  read, so the "on model" cell of the opaque row is struck unless one is found.

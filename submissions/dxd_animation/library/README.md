@@ -49,6 +49,31 @@ lab libraries, for de-duplication; it names private paths, so it is never commit
 
 Facets F1–F10 and G are defined in `FACETS.md` and in `tools/build_index.py`.
 
+**Run 2 (`dxda-lib-2026-11b`, from 2026-11-11).** The paper became a model paper (`../SOURCE.md`, Pass 3;
+rulings in `triage/DECISIONS.md`, "Run 2"). Run 2 adds facets F11–F13 and G2 and the model's claims
+m1–m7 (in `tools/build_index.py`; the model itself is `../MODEL.md`). Run-1 cards keep their c-tags.
+
+| tag | claim of the model |
+|---|---|
+| m1 | opaque row: idempotent interpretation; staging and labelled sources |
+| m2 | co-optive row: intent specification; key poses and instructions to other hands |
+| m3 | triadic row: intuitive governance tracking; anticipation and change between moves |
+| m4 | transfer warrant: craft carries over only through an account of the receiver |
+| m5 | dissociation: craft spent on the character versus craft spent on the decision |
+| m6 | boundary: the model applies where an intermediary binds a counterpart |
+| m7 | gap: no prior model selects animation craft through decision competencies |
+
+| facet | name |
+|---|---|
+| F11 | The animator's craft: principles, keys and in-betweens, timing, staging |
+| F12 | Animation principles carried to interfaces, robots and agents |
+| F13 | Competence and intuition under opaque, changing rules |
+| G2 | Gap check 2: prior work selecting animation craft for decision design |
+
+In run 2 every agent ran on the session's model (Fable 5.2 at first, Opus 5.5 from 11 Nov at the
+author's switch). A card's writer and its verifier are different agents; the lead reads every card
+against its source before it is indexed.
+
 ## Keys
 
 `firstauthorsurnameYEARfirsttitleword`, lowercase ASCII, articles skipped, diacritics folded. A key
