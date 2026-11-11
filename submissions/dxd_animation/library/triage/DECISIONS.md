@@ -421,3 +421,73 @@ these lands, §4.1's "McLaren (1968)" has no citable source, and CHECK F1 stays 
    user, and is modelled in the analysis or only named. The cards report what the source says; the
    author's ruling is not written into "What it argues". The §3.2 flag in `../OUTLINE.md` stays until
    the author rules at Checkpoint D with these reads in hand.
+
+---
+
+# Run 2 (`dxda-lib-2026-11b`) — the model paper
+
+> **[Written by Claude (Fable), 2026-11-11.]** On 11 Nov 2026 Roger redirected the paper
+> (`../../SOURCE.md`, Pass 3): it must build a model for Decision Experience Design from professional
+> animation technique and from algorithmacy's three competencies. This section logs his rulings of
+> that day, the defaults I take where he has not ruled, and the reading list for run 2. The option
+> wording in the rulings table is mine; the choice in each row is his.
+
+## The author's rulings (2026-11-11)
+
+| # | Question I put | His choice | What it fixes |
+|---|---|---|---|
+| R1 | What "idempotent interpretation" means, given three senses of "idempotent" in his texts and the computing sense | "Many causes, one stable reading" | The problem stays as he worded it on 10 Oct: an output looks the same whatever produced it (`L/submissions/algorithmacy_ot/manuscript/sbs_schoeneborn2026/ASSEMBLED_2026-10-10.md:17`). The competency is reaching a reading that a second look, or a regenerated reply, does not change. "Idempotent" is used in the computing sense: applying an operation twice gives the same result as applying it once. |
+| R2 | How to obtain the animation craft texts, none of which is read in any lab library | "Drive my Chrome" | I use his browser session to open pages he already has access to and save copies to `~/iit-playground/dxd_animation_local/`. This lifts Checkpoint B ruling 2's wait on his browser for the works run 2 lists. Rule 8 stands: no paywall, bot wall or captcha is bypassed, and I enter no credentials. |
+| R3 | What the first full version is built to | "Journal article first" | A full model article of about 9–12k words aimed at *Theoretical Issues in Ergonomics Science*, with *Interacting with Computers* as fallback. The course paper is cut from it later, once he supplies length, due date and rubric. |
+| R4 | How far this pass goes | "Dossier, outline and full draft" | I write `../../MODEL.md`, `../../OUTLINE_v2.md` and `../../DRAFT_v1.md` by hand. He accepted that prose is drafted before he has ruled on the model. Every paragraph of mine is marked. |
+
+He also asked that the work use Fable 5.2. For run 2 every agent therefore runs on Fable 5.2, which
+replaces the model-per-task table of run 1. The writer of a card and its verifier are still different
+agents, and I still read every card against its source before it is indexed.
+
+## Defaults I take until he rules (each is flagged [DECISION] in `../../MODEL.md`)
+
+- **D-a Rows of the model.** The rows are the animation paper's three properties (opaque, co-optive,
+  triadic), each glossed by the property that generates a competency in the Lima derivation
+  (`L/submissions/lima_pdw/manuscript/PAPER.md:161`): opacity, bindingness, adaptivity. His 10 Oct
+  wording ties co-optation to bindingness: "co-opt …, i.e., evaluate and bind"
+  (`ASSEMBLED_2026-10-10.md:15`). Adaptivity has no property of its own in Pass 2, so the third row
+  carries it. The alternative, rows on the generating triple with "co-optive" as the form of
+  enrolment, is recorded in `MODEL.md`.
+- **D-b Anchor case.** As Pass 2 words it, the commuter "land[s] on a retail site", and the critic
+  reads that as a dyad plus an owner (`../CRITIC.md`, cut 6). The case is a triad only if the agent
+  selects among merchants on her behalf. I leave his sentences as they are and add one marked sentence.
+- **D-c "Animator"** names a seat that many parties fill, following L. Stark (2024, p. 1666).
+- **D-d Whose competencies.** The three competencies are what the designer must know about the
+  person's work, per his 30 Sep thesis and ruling (`L/submissions/decision_experience_design/README.md:20-22, 39-44`).
+- **D-e Lock-in mechanism.** The model does not rest on apparent motion. It uses Hoerl (2015) and the
+  perceptual-animacy work, both read in full in the sibling library.
+- **D-f "Intuitive".** Grounded in his "sensing them as dynamic flows". Kahneman and Klein (2009) is
+  checked as a candidate source before any use.
+- **D-g CHECK flags F1–F13.** Each is closed by a read source in run 2 or carried into the draft.
+
+## Run 2 reading list
+
+Three tiers. A work enters a model cell only at full-text or partial depth with a locus.
+
+**Tier 1 — the model cannot be stated without these. I card them myself from the full text.**
+
+| key | work | state before run 2 | why |
+|---|---|---|---|
+| `lasseter1987principles` | Lasseter 1987, SIGGRAPH '87 | abstract | the principles as a peer-reviewed list |
+| `thomas1981illusion` | Thomas & Johnston 1981, the principles chapter | metadata | the primary source of the principles |
+| `williams2001animators` (or a timing source) | Williams 2001; *Timing for Animation* if reachable (authors and edition to be taken from a record, not from memory) | publisher blurb (sibling library) | keys, in-betweens, timing charts, holds |
+| (to be keyed) | one production source on model sheets and the division of labour | none | "on model" across many hands |
+| `chang1993animation` | Chang & Ungar 1993 | metadata | the HCI precedent for cartoon principles at the interface |
+| `hoerl2015seeing` | Hoerl 2015 | abstract (copy held) | re-card from the held copy |
+| `may2003using` | May, Dean & Barnard 2003 | partial | read §§3–5, the account itself |
+
+**Tier 2 — neighbours a reviewer will raise.** Govind Reddy 2026; Kurian 2025; Takayama et al. 2011;
+Ribeiro & Paiva 2012; Schulz et al. 2018; Lewis et al. 2026; Thomas & Calder 2001; Baecker & Small 1990.
+
+**Tier 3 — flags carried from run 1.** Silvio 2019 (p. 52) and Silvio 2010; McLaren through Sifianos
+1995 or Furniss 2008; Ananny & Crawford 2018; Chiou et al. 2023; Chen 2026; Kahneman & Klein 2009.
+
+Run 1 left the *Timing for Animation* chapter records out as "applications or manuals" (`F1-F2.md`,
+"Left out"). Run 2 admits one timing source, because the model's second and third rows turn on timing
+charts and holds, which no carded work covers.

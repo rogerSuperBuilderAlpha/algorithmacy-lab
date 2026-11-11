@@ -32,3 +32,12 @@ Understanding LLM interfaces as animation clarifies why platform environments be
 * Animation is co-optive. At a certain threshold in an animated sequence, the viewer "locks in" and the perceptual gaps disappear, enlisting the viewer's own perception to supply continuity where none exists.
 * Animation is triadic. Watching a stage actor is a dyadic encounter between an audience member ("I") and a performer ("Actor"). Watching animation introduces a third term: "I" am watching a "character" manipulated by an unseen "animator."
 To build interfaces suited for Decision Experience Design, researchers and designers must learn and apply the core methodologies of the animator (Chevalier et al., 2016; Silvio, 2019; Stark, 2024)—working deliberately with the missing frames rather than pretending the gaps do not exist.
+
+## Pass 3 (11 Nov 2026)
+
+[Note by Claude, 2026-11-11: Roger gave this direction in a Claude Code session on 11 Nov 2026. It is
+reproduced verbatim, typos included. It turns the paper into a model paper. His four rulings of the
+same day were choices among options Claude worded, so they are logged in
+`library/triage/DECISIONS.md`, not here. The text below this note is his.]
+
+this paper is supposed to build a model for decision experience design using insights from profressiona animation technique and built upon the insights from algorithmacy.  We need to design like animators and consider the new skillsets and competencies for naviagting opaque, cooptive, triadic environments.  intent specification, idempotent interpretation, and intuitive governance tracking.  Use Fable 5.2 to flesh out all the key concepts and what we currently have in order to develop a highly robust, publishable paper
