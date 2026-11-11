@@ -477,12 +477,12 @@ Quantitative, systematic archival reviews: a body of scholarship treated as a da
   - **[reproducibility_signaling](org_frontier/reviews/reproducibility_signaling/README.md)** — one of 88 management abstracts signals any reproducibility practice
   - **[systematicity_consciousness_reviews](org_frontier/reviews/systematicity_consciousness_reviews/README.md)** — consciousness-science reviews report about a third of the systematicity practices
 
-### Questions — the logbook (170)
+### Questions — the logbook (171)
 
 Each question fixes five hypotheses, runs them against the exact-Φ instrument, and writes a paper. The full per-probe log is [`org_frontier/probes/PROBES.md`](org_frontier/probes/PROBES.md).
 
 <details>
-<summary>Browse all 170 questions</summary>
+<summary>Browse all 171 questions</summary>
 
 | # | Question | Finding |
 |---|----------|---------|
@@ -656,6 +656,7 @@ Each question fixes five hypotheses, runs them against the exact-Φ instrument, 
 | [Q218](org_frontier/questions/q218_chicken_egg_feed/paper.md) | The Chicken-and-Egg Feed: First Causes, Loops, and Φ in Stylized Post Spread | no first cause needs a loop, but a loop is not enough; the engagement feed with look-alike fans factors |
 | [Q219](org_frontier/questions/q219_insurance_claim_adjudication/paper.md) | Who decides an insurance claim? An exact-Φ reading of claimant, engine, and adjuster | who decides an insurance claim? |
 | [Q220](org_frontier/questions/q220_observation_process_robustness/paper.md) | Observation-process robustness of the CRQA structural verdict (q220) | True-lag pairing is non-inferior to clean CRQA (margin 0.10) after random loss on curated forms; its edge over gap-closing is fragile |
+| [Q221](org_frontier/questions/q221_temporal_null_crqa_calibration/paper.md) | Pairwise recurrence summaries do not identify the transition law of noisy Boolean networks (exploratory) | Pairwise recurrence summaries do not identify the transition law; proved for the affine class (draft; one preregistered study) |
 
 </details>
 

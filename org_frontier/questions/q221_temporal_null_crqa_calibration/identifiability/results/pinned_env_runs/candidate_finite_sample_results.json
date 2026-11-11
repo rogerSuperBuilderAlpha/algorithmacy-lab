@@ -1,0 +1,27 @@
+{
+  "A": {
+    "max_prominence_mean": 0.041941034830123576,
+    "max_centrality_mean": 0.016199177834710577,
+    "any_prominence_above_floor": 0.24666666666666667,
+    "no_evidence": 0.7533333333333333,
+    "bn_score": 0.7488888888888889,
+    "chance": 0.6666666666666666
+  },
+  "B": {
+    "max_prominence_mean": 0.048983369821046265,
+    "max_centrality_mean": 0.026837935987661935,
+    "any_prominence_above_floor": 0.38333333333333336,
+    "no_evidence": 0.6166666666666667,
+    "bn_score": 0.3655555555555555,
+    "chance": 0.3333333333333333
+  },
+  "design": {
+    "exploratory": true,
+    "seeds_per_system": 300,
+    "steps": 600,
+    "warmup": 20,
+    "flip": 0.08,
+    "max_lag": 10,
+    "prom_floor": 0.05
+  }
+}
