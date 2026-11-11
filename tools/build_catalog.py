@@ -131,12 +131,14 @@ def _cmd_module(cmd: str) -> str:
 def _probes(by_dir: dict) -> list:
     """Every `| n | concept | hypothesis | verdict | result |` row of PROBES.md, by number."""
     rows = {}
+    probe_files = {}
+    for path in glob.glob(os.path.join(_ROOT, "org_frontier", "**", "probe_*.py"), recursive=True):
+        probe_files.setdefault(os.path.basename(path), []).append(_rel(path))
     try:
         with open(_PROBES_MD, encoding="utf-8") as fh:
             lines = fh.read().splitlines()
     except OSError:
         return []
-    probe_checks = by_dir.get("org_frontier/probes", [])
     for line in lines:
         m = re.match(r"^\|\s*(\d+)\s*\|(.*)\|\s*$", line)
         if not m:
@@ -145,9 +147,14 @@ def _probes(by_dir: dict) -> list:
         if len(cells) < 4:
             continue
         num = int(m.group(1))
-        script = re.search(r"`(probe_[a-z0-9_]+)\.py`", cells[-1])
-        module = f"org_frontier.probes.{script.group(1)}" if script else ""
-        checks = [c for c in probe_checks if module and _cmd_module(c["cmd"]) == module]
+        script = re.search(r"`((?:[a-z0-9_]+/)*probe_[a-z0-9_]+)\.py`", cells[-1])
+        script_path = script.group(1) if script else ""
+        path = f"org_frontier/probes/{script_path}.py" if script else ""
+        if path and not os.path.isfile(os.path.join(_ROOT, path)):
+            matches = probe_files.get(os.path.basename(path), [])
+            path = matches[0] if len(matches) == 1 else ""
+        module = path[:-3].replace("/", ".") if path else ""
+        checks = [c for c in by_dir.get(os.path.dirname(path), []) if _cmd_module(c["cmd"]) == module]
         rows[num] = {
             "kind": "probe",
             "id": f"#{num}",
@@ -155,7 +162,7 @@ def _probes(by_dir: dict) -> list:
             "hypothesis": _strip_md(cells[1]),
             "verdict": _strip_md(cells[2]),
             "result": _clip(_strip_md(cells[3]), 400),
-            "path": f"org_frontier/probes/{script.group(1)}.py" if script else "org_frontier/probes/PROBES.md",
+            "path": path or "org_frontier/probes/PROBES.md",
             "reproduce": sorted(c["cmd"] for c in checks) or ([f"python -m {module}"] if module else []),
             "runtime": _runtime(checks),
         }
