@@ -1921,3 +1921,452 @@ Note 1 and the other notes are not partitioned. The journal discourages notes an
 - **Thesis** — none new.
 - **Register** — 'It is useful, therefore, to ask': a modest way to pose a question without a question mark.
 - **Our slot** — the hook: it is useful, therefore, to ask which decisions need a person with authority at the moment they are taken, and which do not.
+
+### M.191 · S3.3 ¶1 · p. 15 · ~27w
+> 'Despite these acts of resistance, it can appear fairly clear who … are in many camps.' Frame: *Despite these …, it can appear fairly clear who the A (…) and B (…) are in many X*.
+
+- **Move** — states the appearance the subsection will complicate.
+- **Paragraph role** — first of four.
+- **Research question** — who is host and who is guest.
+- **Thesis** — sets up the last disruption.
+- **Register** — 'it can appear fairly clear': a double hedge. Bracketed identifications.
+- **Our slot** — the appearance to be complicated: it can seem that every touchpoint needs a person with authority standing by. It does not, and the argument is better served by saying which ones do. No self-praise in the wording.
+
+### M.192 · S3.3 ¶1 · pp. 15–16 · ~44w
+> 'While 'hosts' may themselves be 'guests' of the national territory …, the various … powers of hospitality appear to be exercised by a particularly privileged group …' Frame: *While 'A' may themselves be 'B' of …, the various … powers of X appear to be exercised by a … group capable of …*.
+
+- **Move** — develops the appearance, with a concession.
+- **Paragraph role** — second.
+- **Research question** — none new.
+- **Thesis** — none new.
+- **Register** — *exercised*, *generating*. Three adjectives carried from the imported scheme. 'appear to be' again.
+- **Our slot** — the distinction that sorts touchpoints, with its source: forms of human involvement differ by whether intervention can occur before a decision takes effect (Baum and Laux, arXiv version).
+
+### M.193 · S3.3 ¶1 · p. 16 · ~44w
+> 'Yet, when examined closely, the space of the refugee camp is riven with … guests becoming-hosts.' Frame: *Yet, when examined closely, X is riven with diverse A, B and C which are never encompassed by reductive visions of '…' and '…' – the … are always in the process of becoming-…, and …*.
+
+- **Move** — the complication: roles are in motion. 'Yet' turns; a dash delivers the formula.
+- **Paragraph role** — third; the turn.
+- **Research question** — answers who the host is: not fixed.
+- **Thesis** — the canon's *hôte* found in practice.
+- **Register** — *riven*, *encompassed*. 'reductive visions' is a judgement. Hyphenated 'becoming-guests'.
+- **Our slot** — the three kinds of human control that follow: intervention before the decision takes effect; review afterwards; and, for decisions too fast for anyone, a limit set in advance.
+
+### M.194 · S3.3 ¶1 · p. 16 · ~42w
+> 'Examining the way power is operating to produce these identities also allows us to identify tendencies … (1999b: 70; 2001: 22).' Frame: *Examining the way … also allows us to identify tendencies within this practice … which may approach the '…' attempts to negotiate '…' forms which X held as his aim*.
+
+- **Move** — HOOK with a purpose: the subsection will look for the 'better' the canon wanted.
+- **Paragraph role** — last. Recalls M.011 and M.019.
+- **Research question** — its normative half returns.
+- **Thesis** — ties the case to the retained aim.
+- **Register** — *allows*, *identify*, *approach*, *negotiate*. 'may approach' hedges.
+- **Our slot** — the boundary stated for hospitality, in three clauses that follow the host's obligation: where a decision takes effect on the guest's person, access or contract during the stay and cannot be undone in time; where it can be deferred or undone; where it is too fast for anyone.
+
+### M.195 · S3.3 ¶2 · p. 16 · ~50w
+> 'Hyndman's study of Dadaab (2000: 11) thus notes a hierarchy of three identities …: the 'sub-citizens' … and 'supra-citizens' (…).' Frame: *X's study of Y (year: page) thus notes a hierarchy of three …: the '…' (gloss), ordinary '…' (gloss), and '…' (gloss)*.
+
+- **Move** — CASE-FACT: a named study's three-level scheme, each level glossed in brackets.
+- **Paragraph role** — first of six.
+- **Research question** — none.
+- **Thesis** — evidence.
+- **Register** — *notes*, *operating*. A count delivered after a colon.
+- **Our slot** — the typology introduced: common hospitality decisions placed against the boundary, in the paper's first table. The table is called out by number in this sentence.
+
+### M.196 · S3.3 ¶2 · p. 16 · ~28w
+> 'These groups are spatially segregated, with sub-citizens in the camps (…), citizens in nearby towns, and supra-citizens in 'safe' compounds outside the camps.' Frame: *These groups are …, with A in … (…), B in …, and C in '…' …*.
+
+- **Move** — CASE-FACT: where each level lives.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — evidence: hierarchy is spatial.
+- **Register** — *segregated*. Scare quotes on 'safe'.
+- **Our slot** — the high end of the typology in prose: refusal at the door and lock-out on the premises need a reachable person before they take effect.
+
+### M.197 · S3.3 ¶2 · p. 16 · ~8w
+> 'Each are subject to their own restrictions (2000: 140).' Frame: *Each are subject to their own …*.
+
+- **Move** — a short qualification: constraint is not only on the lowest.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — plain. Ends on a citation.
+- **Our slot** — the low end, short: routine requests can be automated under rules set in advance.
+
+### M.198 · S3.3 ¶2 · p. 16 · ~15w
+> 'And beyond this structure, there appears a final category of the most-marginalised, most disempowered: women.' Frame: *And beyond this structure, there appears a final category of the most-…, most …: X*.
+
+- **Move** — a further finding, held to the last word after a colon.
+- **Paragraph role** — fourth.
+- **Research question** — none.
+- **Thesis** — evidence.
+- **Register** — 'And' opening. Two superlatives. Existential 'there appears'.
+- **Our slot** — the middle of the typology: identity checks, room allocation and pricing need a later appeal by default, and a reachable person where failure would refuse entry or make a room unusable.
+
+### M.199 · S3.3 ¶2 · p. 16 · ~37w
+> 'The rising levels of consultation … are rarely if ever attended by women, who are deemed … (2000: 142).' Frame: *The … that take place between A and B (…) are rarely if ever attended by X, who are deemed to have insufficient … or …*.
+
+- **Move** — CASE-FACT supporting M.198.
+- **Paragraph role** — fifth.
+- **Research question** — none.
+- **Thesis** — evidence: who is left out of the forum.
+- **Register** — *attended*, *deemed*. 'rarely if ever'.
+- **Our slot** — the status of the placements, stated plainly: they are our reading of the sources cited; no study makes them for hospitality.
+
+### M.200 · S3.3 ¶2 · p. 16 · ~24w
+> 'Given the permanently gendered character of hospitality (…) it is unsurprising that we see … of 'guests'.' Frame: *Given the … character of X (sources) it is unsurprising that we see …*.
+
+- **Move** — READING that ties the finding back to the canon.
+- **Paragraph role** — last.
+- **Research question** — none.
+- **Thesis** — the canon credited for a point it made.
+- **Register** — 'it is unsurprising that'. Inclusive 'we see'.
+- **Our slot** — the tie back to the host's obligation: the typology follows the duties to receive and to protect, which is why admission and safety sit at its top.
+
+### M.201 · S3.3 ¶3 · p. 16 · ~22w
+> 'Agier (2011: 139-140), in his own study of Dadaab, notes a more differentiated, four level social hierarchy …' Frame: *X (year: pages), in his own study of Y, notes a more differentiated, four level … within the '…' identified by Z*.
+
+- **Move** — CASE-FACT from a second study, announced by count and set beside the first.
+- **Paragraph role** — first of eleven.
+- **Research question** — none.
+- **Thesis** — evidence, refined.
+- **Register** — *notes*. 'more differentiated' again: his standing reason for preferring a source.
+- **Our slot** — a second source set beside the first: the law, which sets a floor beneath the boundary.
+
+### M.202 · S3.3 ¶3 · p. 16 · ~18w
+> 'At the top are the small number of Somali notables, the heads of clans with a superior status.' Frame: *At the top are …, the …*.
+
+- **Move** — first of the four levels.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — plain; inverted for position.
+- **Our slot** — what the law gives: a person subject to a solely automated decision with significant effects has at least the right to obtain human intervention and to contest the decision.
+
+### M.203 · S3.3 ¶3 · p. 16 · ~22w
+> 'A second category is formed by the 'voluntary community workers', … proximity to international workers.' Frame: *A second category is formed by the '…', … who gain … through their proximity to …*.
+
+- **Move** — second level, with how its members gain their place.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — *formed*, *gain*.
+- **Our slot** — who the reviewer must be, in the guidance's words: someone with the authority and capability to change the decision.
+
+### M.204 · S3.3 ¶3 · p. 16 · ~26w
+> 'Third there are the petty traders and craft workers who depend upon … reliant upon camp aid.' Frame: *Third there are the … who depend upon … for …, but are primarily reliant upon …*.
+
+- **Move** — third level.
+- **Paragraph role** — fourth.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — *depend upon*, 'reliant upon'. Counting in prose ('A second', 'Third').
+- **Our slot** — what the law does not give: it states no timing, and many hotel decisions may fall within the exception for contracts.
+
+### M.205 · S3.3 ¶3 · p. 16 · ~40w
+> 'The base of the hierarchy, and by far the most numerous group, are those who live on … outside the camp.' Frame: *The base of …, and by far the most numerous group, are those who live on … (A, B, C, D, E and F), as well as …*.
+
+- **Move** — fourth level, the largest, with a bracketed list of six kinds of aid.
+- **Paragraph role** — fifth.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — *live on*. A list of six in brackets.
+- **Our slot** — the consequence: the law secures a later review and not a person at the threshold.
+
+### M.206 · S3.3 ¶3 · p. 16 · ~8w
+> 'This group has no resources of its own.' Frame: *This group has no … of its own*.
+
+- **Move** — a short, flat fact after a long sentence.
+- **Paragraph role** — sixth.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — eight plain words. 'This' with its noun.
+- **Our slot** — a short, flat sentence: the framework therefore explains most where the guest is on site and the decision is hard to undo.
+
+### M.207 · S3.3 ¶3 · pp. 16–17 · ~34w
+> 'However, Agier's study, which took place ten years after Hyndman's, illustrates how … (Agier 2011: 142).' Frame: *However, X's study, which took place … after Y's, illustrates how these … are dynamic, evolving and re-forming …, with … being '…' onto existing ones*.
+
+- **Move** — COMPLICATION: the hierarchy moves over time; the two studies' dates are used as evidence.
+- **Paragraph role** — seventh; the turn.
+- **Research question** — none.
+- **Thesis** — roles shift, as promised.
+- **Register** — *illustrates*, *evolving*, *re-forming*, *patched* (quoted).
+- **Our slot** — the complication by format (Reviewer 2.5b): the framework explains less where decisions are remote and reversible.
+
+### M.208 · S3.3 ¶3 · p. 17 · ~35w
+> 'NGOs are further complicating the picture by funding certain groups … counterposing alternatives (2011: 144).' Frame: *X are further complicating the picture by …, bringing … and challenging … by …*.
+
+- **Move** — CASE-FACT: who is changing the hierarchy and how.
+- **Paragraph role** — eighth.
+- **Research question** — none.
+- **Thesis** — evidence.
+- **Register** — *complicating*, *funding*, *bringing*, *challenging*. Active agents.
+- **Our slot** — where the framework reaches its edge: the line between commercial and household hosting, which public accommodation law draws at five rooms in the proprietor's own residence.
+
+### M.209 · S3.3 ¶3 · p. 17 · ~31w
+> 'For example, NGO workers record football matches and films … for a small fee.' Frame: *For example, X record A and B which are then shown in '…' run by … but are frequented by all for a small fee*.
+
+- **Move** — CASE-FACT, small and concrete: video shops.
+- **Paragraph role** — ninth.
+- **Research question** — none.
+- **Thesis** — the abstract claim touched to a thing a reader can see.
+- **Register** — *record*, *shown*, *run*, *frequented*. 'For example'. Everyday nouns.
+- **Our slot** — the edge made concrete: a short-term rental in a host's own home can fall on the household side of that line.
+
+### M.210 · S3.3 ¶3 · p. 17 · ~11w
+> 'Similarly, coffee shops and markets have formed throughout Dadaab (2011: 134-7).' Frame: *Similarly, A and B have formed throughout X*.
+
+- **Move** — a second small fact, in eleven words.
+- **Paragraph role** — tenth.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — plain. 'Similarly'.
+- **Our slot** — none needed; one concrete edge case is enough.
+
+### M.211 · S3.3 ¶3 · p. 17 · ~28w
+> 'Such interference and shifting of identities and power relations has been met with … continue (2011: 142-4).' Frame: *Such … has been met with significant resistance in itself, yet the … continue*.
+
+- **Move** — the paragraph's close: change is resisted and goes on.
+- **Paragraph role** — last.
+- **Research question** — none.
+- **Thesis** — support.
+- **Register** — *met with*, *continue*. 'yet' in mid-sentence.
+- **Our slot** — the paragraph's close: there the role obligation we describe is weakest.
+
+### M.212 · S3.3 ¶4 · p. 17 · ~41w
+> 'While there are signs of agency, … we could also suggest that these sometimes take the form of refugees themselves seizing … – becoming hosts themselves.' Frame: *While there are signs of …, we could also suggest that these sometimes take the form of X themselves seizing … – becoming … themselves*.
+
+- **Move** — the subsection's furthest claim, heavily hedged ('could also suggest', 'sometimes'), ending after a dash on the reversal.
+- **Paragraph role** — first of seven.
+- **Research question** — who can be a host: the guest.
+- **Thesis** — the strongest disruption of the assumptions.
+- **Register** — *seizing*, *becoming*. Inclusive 'we could'.
+- **Our slot** — the turn from where a person is needed to how an organization keeps one: some conditions can be delivered at the interface, and some only by the institution.
+
+### M.213 · S3.3 ¶4 · p. 17 · ~25w
+> 'We can see this occurring as the camps become temporally stretched, … set up to deal with.' Frame: *We can see this occurring as …, developing and sustaining themselves beyond …*.
+
+- **Move** — when the claim holds: over time.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — *see*, *occurring*, *stretched*. Inclusive 'we'.
+- **Our slot** — the interface principles in one sentence each: explain a decision where it lands; let guests adjust what matters; make rule changes visible.
+
+### M.214 · S3.3 ¶4 · p. 17 · ~35w
+> 'Agier notes that at Maheba camp in Zambia, the first generation of arrivals had become self-sufficient … and had appropriated.' Frame: *X notes that at [place], the first generation of … had become … by …, through …*.
+
+- **Move** — CASE-FACT: the instance, with place and date.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — evidence.
+- **Register** — *notes*, *farming*, *offered*, *appropriated*.
+- **Our slot** — what those three do and do not do: they improve the interaction; none decides who is answerable within it.
+
+### M.215 · S3.3 ¶4 · p. 17 · ~32w
+> 'This commandeering of land has meant that, as the camp needed to expand, the UNHCR had to negotiate with older refugees … (Agier 2011: 120-6).' Frame: *This … has meant that, as …, X had to negotiate with Y for …*.
+
+- **Move** — READING: the consequence. The host had to negotiate with its guests.
+- **Paragraph role** — fourth.
+- **Research question** — none.
+- **Thesis** — the reversal shown.
+- **Register** — *commandeering*, *negotiate*. 'This' with its noun.
+- **Our slot** — the first institutional principle: a person must stay reachable who can reverse or revise the decision; a human who only approves is not an overseer.
+
+### M.216 · S3.3 ¶4 · p. 17 · ~9w
+> 'The administrators could no longer simply assign that space.' Frame: *The … could no longer simply …*.
+
+- **Move** — the same consequence in nine words.
+- **Paragraph role** — fifth. A beat.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — plain. 'no longer simply'.
+- **Our slot** — the same in few words: what guests need is someone with the power to change the answer.
+
+### M.217 · S3.3 ¶4 · p. 17 · ~58w
+> 'While this 'sovereign' appropriation and 'mastery' appears far more precarious than …, it does signify the limits which hospitality in camps can potentially reach, …' Frame: *While this '…' and '…' appears far more precarious than … (being impinged upon by …, from … to …), it does signify the limits which … can potentially reach, disrupting and destabilizing our previous conceptions of A, B, C and D*.
+
+- **Move** — weighs the finding: concedes its fragility, then says what it signifies.
+- **Paragraph role** — sixth. The case section's summing sentence.
+- **Research question** — answered as far as the case allows.
+- **Thesis** — 'his assumptions are being disrupted', in the case's terms.
+- **Register** — *appears*, *signify*, *reach*, *disrupting*, *destabilizing*. The canon's words in scare quotes. A list of four.
+- **Our slot** — the second institutional principle and its weight: a real alternative for guests who decline the automated route, because refusing a system that has become unavoidable carries a cost.
+
+### M.218 · S3.3 ¶4 · p. 17 · ~21w
+> 'The space of the camp, its hospitality, homeliness, ethics and power relations, can thus take on a life of their own.' Frame: *The space of X, its A, B, C and D, can thus take on a life of their own*.
+
+- **Move** — the case section's last sentence: a short conventional figure.
+- **Paragraph role** — last.
+- **Research question** — none.
+- **Thesis** — a close, not a claim.
+- **Register** — 'take on a life of their own': the one idiom he allows himself at a section's end.
+- **Our slot** — the section's last sentence is not here: v6 has a fourth subsection, on interruptibility and the five stages, which the model does not. Its close is plain: a property that stops at better interfaces may have automated its hospitality without deciding who answers for it.
+
+---
+
+## 'Conclusion' · 3 paragraphs · pp. 17–18
+
+### M.219 · C ¶1 · p. 17 · ~20w
+> 'Derrida's thought on hospitality is crucial to thinking through … in international politics.' Frame: *X's thought on … is crucial to thinking through its possibilities and limits for …*.
+
+- **Move** — CANON-STANDING, again. The conclusion opens where the introduction did.
+- **Paragraph role** — first of three.
+- **Research question** — none.
+- **Thesis** — the 'reaffirm' half, last time.
+- **Register** — 'crucial' as predicate adjective. *thinking through*.
+- **Our slot** — the conclusion opens where the introduction did: the field's account of what a host owes remains the right starting point for phygital hospitality.
+
+### M.220 · C ¶1 · p. 17 · ~32w
+> 'Yet, like international ethics more broadly, Derrida's hospitality remains largely tied to … welcome and rejection.' Frame: *Yet, like [field] more broadly, X's … remains largely tied to the centrality of A and B in focusing on the moment of C and D, E and F*.
+
+- **Move** — LIMIT, restated for the last time, in one sentence.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — the limit.
+- **Register** — *remains*, *tied*. 'largely' limits. Two pairs.
+- **Our slot** — the limit restated: that account pictures one host who holds the obligation in person, and commercial hospitality has not worked that way for a long time.
+
+### M.221 · C ¶1 · pp. 17–18 · ~42w
+> 'As such, we arguably need to push hospitality to do more, to extend our understanding … of international ethics as hospitality.' Frame: *As such, we arguably need to push X to do more, to extend our understanding of … in order to further Y's aim of A, B and '…' the practice of …*.
+
+- **Move** — the need that follows, tied once more to the canon's aim.
+- **Paragraph role** — last.
+- **Research question** — restated as a need.
+- **Thesis** — the programme.
+- **Register** — *push*, *extend*, *further*. 'arguably'. Inclusive 'we'.
+- **Our slot** — the need that follows: the obligation has to be followed to its holder when the work is spread across systems and firms.
+
+### M.222 · C ¶2 · p. 18 · ~36w
+> 'In this article I have argued that we need to venture beyond Derrida, … specific practices of hospitality.' Frame: *In this article I have argued that we need to …, to think more about the interaction between A, B and C that both produces, and is produced through, …*.
+
+- **Move** — RESTATE. The three title nouns return.
+- **Paragraph role** — first of five.
+- **Research question** — answered.
+- **Thesis** — restated in the past tense.
+- **Register** — *argued*, *venture*, *think*. First person singular, present perfect.
+- **Our slot** — 'In this article we have argued that …': the obligation is a role obligation; it stays with whoever took the role up; delegation removes the guest's path to authority.
+
+### M.223 · C ¶2 · p. 18 · ~13w
+> 'To do this is to challenge and advance the way hospitality works globally.' Frame: *To do this is to challenge and advance the way X works …*.
+
+- **Move** — what the argument is good for, in thirteen words.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — its value, stated without ornament.
+- **Register** — *challenge*, *advance*. An infinitive as subject.
+- **Our slot** — what the argument is good for, briefly: it catches an arrangement that works as designed, harms no one, and leaves the guest with no one to address.
+
+### M.224 · C ¶2 · p. 18 · ~42w
+> 'There are many directions in which we could move beyond Derrida here, from, for example, … Roberto Esposito (2009; 2011).' Frame: *There are many directions in which we could move beyond X here, from, for example, a return to A (see …) to a … reading developing on the work of B*.
+
+- **Move** — ROADS-NOT-TAKEN: two other routes, each with a name.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — modesty about the route chosen.
+- **Register** — *move*, *developing*. Existential 'There are'.
+- **Our slot** — the neighbouring routes, each named: service management asks whether an encounter delivers value; algorithmic accountability asks who answers for harm; regulation leaves the guest's path to authority largely to firms.
+
+### M.225 · C ¶2 · p. 18 · ~65w
+> 'In my own, more Foucauldian-inspired intervention, I have argued that we need consider, firstly, …; and secondly, … discipline and control.' Frame: *In my own, more …-inspired intervention, I have argued that we need consider, firstly, the way that …; and secondly, how once …, …*.
+
+- **Move** — RESTATE in detail: the two findings, numbered inside one long sentence across a semicolon.
+- **Paragraph role** — fourth.
+- **Research question** — answered in two parts.
+- **Thesis** — the two steps, last statement.
+- **Register** — *argued*, *consider*, *work*, *operate*, *supplementing*, *disturbing*. 'firstly … secondly'.
+- **Our slot** — what the paper offers, numbered in prose: first, an account of the host's obligation under delegation; second, an account of standing that separates holding it from exercising it; third, a test, a typology and five stages. Two sentences if one would pass fifty words.
+
+### M.226 · C ¶2 · p. 18 · ~55w
+> 'A greater awareness of the micro-politics of hospitality as ethics, … by means of such procedures' (Foucault 2007b: 42).' Frame: *A greater awareness of … is a mode of critique which … are already conducting: modes which draw out '…'*.
+
+- **Move** — closes the paragraph by handing the last words to a quotation, after crediting the guests themselves with the critique.
+- **Paragraph role** — last.
+- **Research question** — none.
+- **Thesis** — the argument joined to the practice it describes.
+- **Register** — *conducting*, *draw out*. Ends on a long quotation.
+- **Our slot** — human-centricity defined, as the editor asked: what an arrangement protects or withholds (guest agency, employee discretion, relational judgement), not whether people stay visible. Our own words close the paragraph, not a quotation.
+
+### M.227 · C ¶3 · p. 18 · ~24w
+> 'There is a definite danger in such an analysis of romanticizing refugee camps, or other spaces; something which I have no desire to do.' Frame: *There is a definite danger in such an analysis of …; something which I have no desire to do*.
+
+- **Move** — GUARD against a misreading of the case.
+- **Paragraph role** — first of seven.
+- **Research question** — none.
+- **Thesis** — protects it.
+- **Register** — 'a definite danger'; 'I have no desire to do': plain and personal.
+- **Our slot** — our guard and our limits, announced plainly: this is a conceptual paper, and its cases illustrate its distinctions and do not test them.
+
+### M.228 · C ¶3 · p. 18 · ~25w
+> 'Yet, if there are tendencies towards a 'better' form of hospitality …, we must attend to them with urgency.' Frame: *Yet, if there are tendencies towards a '…' form of X to be drawn out of …, we must attend to them with urgency*.
+
+- **Move** — the reason to look anyway, in the thesis's conditional form.
+- **Paragraph role** — second.
+- **Research question** — its normative half.
+- **Thesis** — recalls M.011 and M.019.
+- **Register** — *drawn out*, *attend*. 'better' in scare quotes throughout the paragraph.
+- **Our slot** — the limits, counted: the jurisdictions the legal sources come from; the typology as our own reading; the structure of non-delegable duty borrowed from a judgment about schools and hospitals.
+
+### M.229 · C ¶3 · p. 18 · ~25w
+> 'Any discussion of this 'better' must remain tentative as it can only ever be … (see Bulley, 2006).' Frame: *Any discussion of this '…' must remain tentative as it can only ever be the product of …*.
+
+- **Move** — limits the normative claim before making it.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — its limit.
+- **Register** — 'must remain tentative'. Self-citation.
+- **Our slot** — what each limit means for the claim: whether courts would place commercial hosts in that category is a question for legal scholarship.
+
+### M.230 · C ¶3 · p. 18 · ~31w
+> 'However, my wager is that 'better' forms would not only seek …, but also seeks to keep that welcome open once the threshold is passed.' Frame: *However, my wager is that '…' forms would not only seek …, but also … once the threshold is passed*.
+
+- **Move** — WAGER: the normative conclusion, owned and marked as a bet.
+- **Paragraph role** — fourth.
+- **Research question** — the normative answer.
+- **Thesis** — closes the loop opened by 'better' in M.019.
+- **Register** — 'my wager is that'. 'not only … but also'.
+- **Our slot** — the research the framework points to, first study: follow a guest's request or complaint from the person who receives it to the party with authority over the rule, and record what changed.
+
+### M.231 · C ¶3 · p. 18 · ~37w
+> 'Such a negotiation between host and guest would perhaps allow the flourishing of …, thus reducing them to the same.' Frame: *Such a … between A and B would perhaps allow the flourishing of …, …, … and …, without seeking to control …, thus …*.
+
+- **Move** — what the wager would allow, hedged.
+- **Paragraph role** — fifth.
+- **Research question** — none.
+- **Thesis** — its promise.
+- **Register** — *allow*, *seeking*, *control*, *reducing*. 'would perhaps'. A list of four.
+- **Our slot** — second and third studies: unstaffed and app-only properties, asking whom a guest can reach; and the contracts that divide the host's duties among owner, brand, operator, platform and vendor.
+
+### M.232 · C ¶3 · p. 18 · ~19w
+> ''Better' forms of hospitality would be more open to processes of hosts and guests shifting and reversing their roles.' Frame: *'…' forms of X would be more open to processes of A and B shifting and reversing their roles*.
+
+- **Move** — a second, shorter statement of the wager.
+- **Paragraph role** — sixth.
+- **Research question** — none.
+- **Thesis** — its promise, again.
+- **Register** — *shifting*, *reversing*.
+- **Our slot** — practice and well-being, as the editor asked: what organizations gain from phygital arrangements, what a guest who cannot press a claim bears alone, and what the five stages ask of a property.
+
+### M.233 · C ¶3 · p. 18 · ~32w
+> 'We see glimpses of such potentially transformative hospitality in spaces such as refugee camps (…), though they remain halting, temporary and all-too reversible.' Frame: *We see glimpses of such … in spaces such as X (for an excellent example not discussed here, see …), though they remain A, B and all-too C*.
+
+- **Move** — CONCESSION-CLOSE. The article ends on what is still limited, in three adjectives.
+- **Paragraph role** — last sentence of the article.
+- **Research question** — left open, honestly.
+- **Thesis** — ends below its own claim, not above it.
+- **Register** — *see*, *remain*. 'glimpses'. Praise of a source in brackets. No epigram.
+- **Our slot** — our last sentence: the question for phygital hospitality is where the obligation of hosting still has an address and whether the guest can reach it; answering it for particular arrangements is empirical work not yet done. No epigram.
+
+---
+
+## Count
+
+| Section | Paragraphs | Entries | Ids |
+|---|---|---|---|
+| Introduction | 3 | 19 | M.001–M.019 |
+| International hospitality and ethics | 11 | 70 (one display) | M.020–M.089 |
+| Power and hospitality: Beyond sovereign mastery? | 7 | 48 (one display) | M.090–M.137 |
+| Producing space/governing hospitality | 13 | 81 | M.138–M.218 |
+| Conclusion | 3 | 15 | M.219–M.233 |
+| **Total** | **37** | **233** | **M.001–M.233** |
+
+Paragraph counts agree with the skeleton in `MODEL_BRIEF.md`. The eight notes are not partitioned.
