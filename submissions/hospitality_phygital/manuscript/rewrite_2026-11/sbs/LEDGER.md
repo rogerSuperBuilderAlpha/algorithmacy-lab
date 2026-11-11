@@ -1489,6 +1489,8 @@
 - **Truth** ✅ Xiang card (setting; the management-approved compensation).
 - **Correction at verification (10 Nov 2026)** ❌ Xiang card: the testing rule was not waived; the hotel covered the cost and arranged transport. 'was received' overstated the outcome.
 - **As written** > In an upscale hotel in south-eastern China during the pandemic, a guest who arrived without a test report was not simply turned away: after a front-office employee checked with management, the hotel paid for the test and arranged his transport to it (Xiang et al. 2022).
+- **Register at verification** ❌ 'simply' softens; cut.
+- **As written** > In an upscale hotel in south-eastern China during the pandemic, a guest who arrived without a test report was not turned away: after a front-office employee checked with management, the hotel paid for the test and arranged his transport to it (Xiang et al. 2022).
 
 ### S-146 · answers M.136 · 25w
 > A guest refused at the desk in the same study took his complaint the next day to the general manager and the group head office.

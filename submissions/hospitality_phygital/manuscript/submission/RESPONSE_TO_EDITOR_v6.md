@@ -12,7 +12,7 @@ Delete this section before sending.
 2. **The dual-place process.** The September letter said the break in the chain falls 'at exactly these crossings' between physical and digital. v6 keeps the relay (physical moments become digital records, digital rulings come back as physical facts) and the break in the chain, in the first and fourth paragraphs of 'The authority–answerability split'. It does not say that the break falls at the crossings. The row below claims only what v6 says. If you want the stronger September claim back, it needs one sentence in the fourth paragraph.
 3. **Places have moved.** v6 has five sections, unnumbered, on the plan of the journal's conceptual articles. Every row below points to a section name and paragraph.
 4. **Weaver's year.** The article is now in print as 16:2 (2026). v6 cites Weaver (2026); the September letter and v5 said 2025.
-5. **Length.** Body (Introduction to Conclusion) 8,270 words by the repository's word-count rules; `preflight.py`, run on a copy with numbered headings, gives 8,335. 81 references, 4 cases, 7 items of legislation. [AUTHORS DECIDE: whether to repeat September's question about what counts toward the limit; your ruling in JOURNAL_SPEC.md is that references do not.]
+5. **Length.** Body (Introduction to Conclusion) 8,314 words by the repository's word-count rules (`rewrite_2026-11/VERIFICATION.md`). 81 references, 4 cases, 7 items of legislation. [AUTHORS DECIDE: whether to repeat September's question about what counts toward the limit; your ruling in JOURNAL_SPEC.md is that references do not.]
 6. **Title.** v6 sets the title in sentence case without the serial comma, which is the journal's practice; the wording is unchanged. [AUTHORS DECIDE.]
 
 ---
@@ -35,4 +35,4 @@ Thank you again for your suggestions of 7 August, which shaped the version the r
 
 **What the paper does not claim.** The paper's cases illustrate its distinctions rather than test them, and the roadmap inherits that limit: it orders a diagnosis the argument licenses, and we have not tested it as an intervention. What it does claim follows from the first two sections. The work of hosting can be delegated, and the duty cannot. A property that buys better interfaces has therefore delegated more of the work and still holds the duty, which is why the later stages of the roadmap are institutional and why procurement alone cannot discharge them.
 
-**Length.** The body, from the introduction to the conclusion, runs to [8,270] words. The reference list holds 81 entries, with four cases and seven items of legislation. [AUTHORS DECIDE: whether to repeat September's question about what counts toward the limit.]
+**Length.** The body, from the introduction to the conclusion, runs to [8,314] words. The reference list holds 81 entries, with four cases and seven items of legislation. [AUTHORS DECIDE: whether to repeat September's question about what counts toward the limit.]

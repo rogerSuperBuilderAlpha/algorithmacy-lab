@@ -61,3 +61,15 @@ Set out with reasons and alternatives in `PROPOSAL.md` (P1–P8). The title goes
 
 ### D9 · 10 Nov · New cards were verified independently
 `varley2018hospitality` and `moysidou2023theorizing` were written from my own full reads and then checked by a separate verifier against the source texts. Every quotation matched; one method description was reworded.
+
+### D10 · 10 Nov · The sentence-by-sentence pass is complete
+`sbs/MODEL.md` M.001–M.233 (233 of 233 model sentences); `sbs/OUTLINE.md` S-001–S-278 and A-1–A-6 (every model entry answered or warranted); `sbs/LEDGER.md` S-001–S-278 and A-1–A-6, six verdicts each. `sbs/MANUSCRIPT.md` was written by hand from the ledger and checked against it by script. `manuscript/DRAFT_v6.md` adds the AI-acknowledgment heading, the references (81), cases (4) and legislation (7).
+
+### D11 · 10 Nov · An independent check of every quotation, and the corrections it forced
+A separate read-only agent checked 79 quoted passages and eight paraphrases against the cards and saved texts. No wording errors; seven problems of sense or locator, the worst inherited from v5 (Wilson-Nash p. 978 read in reverse). All fixed and recorded (`VERIFICATION.md`). Three quotations that were exact against the saved sources but missing from their cards were added to the cards.
+
+### D12 · 10 Nov · Baum and Laux pages are arXiv pages
+D6 said v6 cites the arXiv version. The bibliography entry, unchanged, renders the LNCS chapter. I left the entry alone, because v4 and v5 use it, and listed the mismatch as a debt (`VERIFICATION.md`, debt 1). **YOURS**: map the pages or switch the entry.
+
+### D13 · 10 Nov · Tooling change
+`check_citations.py` now takes an optional second argument naming the key list. The default is unchanged. `preflight.py` and `wordcount.py` still expect numbered headings; I ran them on a numbered copy and recorded the results rather than changing them.
