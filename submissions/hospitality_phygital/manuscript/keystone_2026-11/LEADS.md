@@ -38,7 +38,7 @@ A workstream reports each lead as: verified and read; record exists but content 
 - [R] Wallace (2019), *The Moral Nexus*, doi 10.23943/princeton/9780691172170.001.0001. Closed.
 - [R] Shoemaker (2011), doi 10.1086/659003, and Smith (2012), doi 10.1086/664752, on answerability. Closed.
 - [R] Gilbert, *Rights and Demands* (2018): only reviews of the book were found (Umbers 2019; Taylor 2021; Wallace 2020, doi 10.5840/jphil202011713).
-- [M] For K7's step P3: Gardner's continuity thesis; civil recourse theory (Goldberg and Zipursky); Duff on answerability; May on directed duties (the library has an abstract); Sreenivasan; Cruft.
+- [M] For K7's step P3: Gardner's continuity thesis; civil recourse theory (Goldberg and Zipursky); Duff on answerability; May on directed duties (no library card exists, contrary to an earlier note); Sreenivasan; Cruft.
 - [M] Kong (2026) is already carded at full text and distinguishes being answerable from being held answerable (p. 4).
 
 ## P4. Law (K4, K5, K7, K8)

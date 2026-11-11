@@ -30,12 +30,12 @@ Section 2 sets the "common duty of care" that every occupier of premises owes to
 
 - "An occupier of premises owes the same duty, the “common duty of care”, to all his visitors, except in so far as he is free to and does extend, restrict, modify or exclude his duty to any visitor or visitors by agreement or otherwise." (s. 2(1)) [full-text]
 - "The common duty of care is a duty to take such care as in all the circumstances of the case is reasonable to see that the visitor will be reasonably safe in using the premises for the purposes for which he is invited or permitted by the occupier to be there." (s. 2(2)) [full-text]
-- Contractors: where damage is due to "the faulty execution of any work of construction, maintenance or repair by an independent contractor employed by the occupier, the occupier is not to be treated without more as answerable for the danger if in all the circumstances he had acted reasonably in entrusting the work to an independent contractor" (s. 2(4)(b)) [full-text]
+- Contractors: where damage is due to "the faulty execution of any work of construction, maintenance or repair by an independent contractor employed by the occupier, the occupier is not to be treated without more as answerable for the danger if in all the circumstances he had acted reasonably in entrusting the work to an independent contractor and had taken such steps (if any) as he reasonably ought in order to satisfy himself that the contractor was competent and that the work had been properly done" (s. 2(4)(b)) [full-text]
 
 ## Critical notes & threats
 
 - The duty to keep visitors reasonably safe binds shops, banks and hospitals as occupiers as much as hotels. Safety alone does not distinguish hospitality (R2.4).
-- s. 2(4)(b) lets an occupier discharge the duty by reasonable choice of contractor: here the law does not make the safety duty non-delegable. H2 should weigh this against the innkeeper's answerability for servants (calye1584case, fol. 33a).
+- s. 2(4)(b) lets an occupier discharge the duty by reasonable choice of contractor **and by taking such steps as he reasonably ought to satisfy himself that the contractor was competent and the work properly done**: here the law does not make the safety duty non-delegable, but the defence itself requires oversight of the delegate. H2 should weigh this against the innkeeper's answerability for servants (calye1584case, fol. 33a).
 - s. 2(1) allows the duty to be varied "by agreement" only "in so far as he is free to". Other statutes limit that freedom: UCTA 1977 s 2(1) bars excluding or restricting, by contract term or notice, liability "for death or personal injury resulting from negligence", and CRA 2015 s 65(1) bars the same in consumer contracts, s 65(4)(c) naming "the common duty of care imposed by the Occupiers' Liability Act 1957". For a hotel guest the safety duty cannot be contracted out of for personal injury. (UCTA and CRA read by the verifier from Wayback captures, VERIFY_H_v3 §A; not saved in sources/.)
 
 ## Where it enters the manuscript
@@ -47,3 +47,5 @@ Not recommended. Governs §2.3: do not claim safety as hospitality's distinctive
 R2.4 (banks, hospitals and shops as occupiers owe the same safety duty), R2.2c (contractor rule, for H2).
 
 Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): the power to vary "by agreement" now carries s 2(1)'s "in so far as he is free to" and the UCTA 1977 s 2(1) and CRA 2015 s 65(1), (4)(c) limits on excluding liability for death or personal injury.
+
+Corrected in rr-2026-11-k (2026-11-11, Claude, Fable 5.2): the s. 2(4)(b) quotation had been cut off before its last clause ('and had taken such steps (if any) as he reasonably ought in order to satisfy himself that the contractor was competent and that the work had been properly done'). Restored from the saved official text (sources/ola1957/s2.html). The clause bears on K7 (the holder's oversight) and K8 (what stays with the holder).
