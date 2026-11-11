@@ -89,8 +89,26 @@ All found at the reported locator unless noted.
 | 70 | Dagger and Lefkowitz 2021, §4.3 | 'a moral principle external to it' | MATCH | Followed at once by the associative theorists' 'disable ... ground' reply |
 | 71 | *Kuoni* UKSC, para 31 | 'Kuoni undertook to provide a package holiday at a four-star hotel' | MATCH | |
 
+## Batch 3 (11 Nov, the R7 and R8 passages ARGUMENT.md uses)
+
+| # | Source | Passage | Verdict | Note |
+|---|---|---|---|---|
+| 72 | *Global-Tech*, 563 U.S. at 769 | 'The defendant must subjectively believe that there is a high probability that a fact exists and (2) the defendant must take deliberate actions to avoid learning of that fact' | MATCH | First hit was the LII syllabus; confirmed in the opinion (CAP text and LII opinion file). 'surpasses recklessness and negligence' follows |
+| 73 | *The Star Sea* [2001] UKHL 1, para 116 (Lord Scott) | 'the suspicion must be firmly grounded and targeted on specific facts' | MATCH | |
+| 74 | *The Star Sea*, para 117 | earlier masters' incompetence did not put the managers 'in a position in which they were bound to enquire into the competence of every other master' | MATCH | |
+| 75 | Hormio 2018 (preprint), p. 17 | 'could not justify this way of operating by appealing to ignorance' | MATCH | Said of an organisation running a known risk 'without adequate safety checks' |
+| 76 | Hormio 2018, p. 1 | 'sometimes organisational design alone can create individual ignorance' | MATCH | |
+| 77 | Rudy-Hiller 2022, §2 | Smith's 'benighting act'; Rosen's 'procedural epistemic obligation' | MATCH | Both reported by Rudy-Hiller |
+| 78 | *Page v Sloan*, 281 N.C. 697 | duties 'to exercise due care to keep his premises in a reasonably safe condition and to warn guests of any hidden peril are nondelegable' | NOTE | The hit is the reporter's headnote; CV-F checks the opinion's own words at pp. 702-704 |
+| 79 | Schumacher and Komppula 2016, p. 121 | 'The case hotel relies mainly on customer feedback concerning service failures' | MATCH | |
+| 80 | Schumacher and Komppula 2016, p. 120 | 'Frontline employees may either spot the service failures themselves or be informed about them by customers' | MATCH | The authors' frame, from Lovelock and Wirtz |
+| 81 | Xu and Greiffenhagen 2024, p. 5035, n. 1 | 'for legal and technical reasons, there are still service workers present' | MATCH | In an endnote |
+| 82 | Xu and Greiffenhagen 2024, p. 5022 | guests who approach the worker are redirected to 'do it yourself' at the kiosk | MATCH | 'In rare cases' |
+| 83 | Xu and Greiffenhagen 2024, p. 5030 | 'it is the response-giver who has to modify their behaviour' | MATCH | |
+| 84 | Min and Kim 2020, pp. 1-2 | 'reducing an opportunity for the service provider to hear from customers' | MATCH | Practitioner summary from an Internet Archive capture |
+| 85 | Gelbrich and Roschk 2011, p. 28 | negative word of mouth may arise 'prior to—or in lieu of—a complaint' | MATCH | Following Blodgett and Anderson 2000 |
+
 ## Still to check
 
-- The passages R7 and R8 bring in, once their reports land.
 - Any passage `ARGUMENT.md` uses that is not in the table above. Each is added here before the dossier goes to the red team.
 - The verifiers' reports (`VERIFY_CARDS_A.md` to `E.md`): every quotation they mark other than MATCH is corrected on its card before use.
