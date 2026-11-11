@@ -20,6 +20,7 @@
 | `kekstaite2022` | Kekstaite (2022), 'Beyond Derrida' | Regular article, interview study | Accepted manuscript | `notes/kekstaite2022.md` |
 | `lynch2011` | Lynch, Germann Molz, McIntosh, Lugosi and Lashley (2011), 'Theorizing hospitality', 1:1, 3–24 | Founding editorial | Repository copy | `notes/lynch2011.md` |
 | `tzanelli2026` | Tzanelli and Germann Molz (2026), 'Life in the age of extremes', 16, 3–12 | Special-issue introduction | Accepted manuscript (CC BY) | `notes/tzanelli2026.md` |
+| `baah2023` | Baah, Filep, Lin and Badu-Baiden (2023), 'Introduction of generosity into commercial hospitality', 13:2 | Short conceptual article | Accepted manuscript (Griffith) | `notes/baah2023.md` |
 | `bialski2012` | Bialski (2012), 'Technologies of hospitality', 1:3, 245–260 | Regular article, ethnography | **Version of record** (St Gallen repository) | `notes/bialski2012.md`; read after v6 was first assembled |
 
 ## Read in part
@@ -41,7 +42,6 @@ All closed. Each needs your Bentley sign-in (`http://ezp.bentley.edu/login?url=`
 | Riordan (2024), 'Digitally mediated hospitality and algorithmic hostility in the platform economy' | 10.1386/hosp_00083_1 | Promised to the editor in September; card is abstract only |
 | 'Hostessing by robots? Hotel customers' experiences of gendered robotic services' (2026) | 10.1386/hosp_00109_1 | Robots in hotels, in the journal, this year |
 | ''Fast hospitality' and technology' (2025) | 10.1386/hosp_00098_1 | Weaver (2025), which v5 cites (bib key `weaver2025fast`); read so far at abstract depth only |
-| 'Introduction of generosity into commercial hospitality: Conceptual foundations' (2023) | 10.1386/hosp_00063_1 | A recent conceptual article on what a commercial host gives |
 | Germann Molz (2012), 'CouchSurfing and network hospitality' | 10.1386/hosp.1.3.215_2 | Second most cited; technology |
 | Bell (2012), 'Hospitality is society' | 10.1386/hosp.1.2.137_1 | A founding conceptual statement |
 | Poulston (2015), 'Expressive labour and the gift of hospitality' | 10.1386/hosp.5.2-3.145_1 | Commercial hospitality and the gift |
@@ -52,4 +52,4 @@ One open text was not obtained: Minca (2026), 'Biopolitics, sovereign power and 
 
 ## What this means for the model
 
-`JOURNAL_MODEL.md` rests on **seven regular articles and two editorials read in full**, three of the nine from 2022 or later. The plan's target was twelve, with three on technology or commercial hosting; three of the seven meet that description (Bialski 2012; Germann Molz 2018; Varley et al. 2018). The gap is the closed list above. Also obtained on 10 Nov 2026: the open-access LNCS chapter of Baum and Laux (2026), outside the journal.
+`JOURNAL_MODEL.md` rests on **eight regular articles and two editorials read in full**, four of the ten from 2022 or later. The plan's target was twelve, with three on technology or commercial hosting; three of the seven meet that description (Bialski 2012; Germann Molz 2018; Varley et al. 2018). The gap is the closed list above. Also obtained on 10 Nov 2026: the open-access LNCS chapter of Baum and Laux (2026), outside the journal.

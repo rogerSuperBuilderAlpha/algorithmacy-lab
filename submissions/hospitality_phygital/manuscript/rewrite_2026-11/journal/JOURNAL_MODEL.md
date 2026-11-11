@@ -93,5 +93,9 @@ Rulings 1 to 3 depart from `REGISTER.md` and ruling 2 from the house rule that f
 Bialski (2012), 'Technologies of hospitality', read in full in its typeset version after v6 was first assembled (`notes/bialski2012.md`). It confirms the plan and corrects one statement.
 
 - **Confirms:** a roadmap closes the introduction ('This article first outlines … The discussion section explains …'); 'I argue' carries the thesis; headings are unnumbered and set in small capitals; no tables.
-- **Corrects:** the claim above that none of the sample has a section headed 'Discussion'. Bialski, an ethnography, has one. Among the seven regular articles, then, a 'Discussion' heading appears in one empirical study, and a 'Findings and discussion' heading in another (Moysidou and Stanley 2023); none of the five conceptual articles has either. Ruling 4 stands for v6, which is conceptual.
+- **Corrects:** the claim above that none of the sample has a section headed 'Discussion'. Bialski, an ethnography, has one. Among the seven regular articles, then, a 'Discussion' heading appears in one empirical study, and a 'Findings and discussion' heading in another (Moysidou and Stanley 2023); none of the four conceptual articles has either, and nor does Kekstaite's (2022) interview study. Ruling 4 stands for v6, which is conceptual.
 - **Adds to the journal's conversation:** platform design as an instrument of the host's control (profiles give hosts 'the power to choose', p. 257; a response-rate rule disciplines hosts, p. 253). v6's introduction now cites it.
+
+## Version 1.2 (10 Nov 2026): a short conceptual article
+
+Baah et al. (2023), read in full in its accepted manuscript (`notes/baah2023.md`). At about 2,700 words it is a short piece, and it does three things the full-length conceptual articles do not: numbered headings, a figure of its model, and a section headed 'Implications'. Its introduction ends on a one-line pointer rather than a roadmap. The rulings above are for a full-length conceptual article and stand for v6; the statement that no article in the sample has an 'Implications' heading now holds for the full-length articles only.
