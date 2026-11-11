@@ -65,16 +65,18 @@ A customer of a Rotherham nightclub was badly injured while a door attendant eje
 **K7, premises P2 and P3: limits.** What stays with the holder in the ordinary case is "limited to ensuring that the independent contractor who he has employed is competent" (para 19). That is a duty about choosing. The court ties its discharge to a licence check and to past experience (paras 47-50) and describes no continuing duty to monitor or to be reachable. This is the position K7's 'refutes or narrows' list describes: discharge by choosing a competent delegate.
 
 **What the paper may say on this authority.**
-- The Court of Appeal held that a nightclub owner was not liable to a customer negligently injured by a door attendant supplied by an independent security contractor (paras 1, 25, 54, order).
+- The Court of Appeal held that a nightclub owner was not liable to a visitor to the club (para 28) negligently injured by a door attendant supplied by an independent security contractor (paras 1, 25, 54, order).
 - The owner's duty was "to take reasonable steps to satisfy himself" that the contractor "was a competent person to whom to delegate the provision of door supervisors" (para 45).
 - An employer of an independent contractor is not liable for the contractor's negligence unless he selected negligently, was himself responsible for how the task was done, or the task or duty falls within an exception such as a non-delegable duty (para 32).
 - Checking that the contractor's staff held the licence required by the local council and police was enough, given eighteen months without cause for doubt (paras 47-50).
 - Experience that a contractor's employee is "wholly unsatisfactory and unreliable" could make continued reliance negligent (para 50).
 
 **What it may not say.**
-- That the Court of Appeal decided a nightclub owes its customers no non-delegable duty. The trial judge so held and the point was not appealed (paras 1, 19).
+- That the Court of Appeal decided a nightclub owes its customers no non-delegable duty. The trial judge so held, and the Court of Appeal proceeded on that ruling (paras 1, 19).
 - That the owner had a duty to supervise or monitor the door staff. The judgments speak of selection.
 - That the owner was bound to make sure the contractor could pay a claim. The court rejected that duty absent special circumstances (paras 34, 43).
 - Anything about *Gwilliam* or *Bottomley* beyond what this judgment reports of them.
 
 Card written by a Claude (Fable 5.2) subagent, reader R5a, from the saved National Archives text read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may say' 1 ('a visitor to the club') and 'may not say' 1 (the Court of Appeal proceeded on the trial judge's ruling) narrowed.

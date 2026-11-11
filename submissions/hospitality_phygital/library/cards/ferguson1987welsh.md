@@ -1,7 +1,7 @@
 ---
 citekey: ferguson1987welsh
 title: "Ferguson (A.P.) (Appellant) v Welsh and others (Respondents)"
-authors: "House of Lords (Lord Keith of Kinkel; Lord Brandon of Oakbrook and Lord Griffiths agreeing; Lord Oliver of Aylmerton and Lord Goff of Chieveley concurring in the result with their own reasons)"
+authors: "House of Lords (Lord Keith of Kinkel; Lord Brandon of Oakbrook and Lord Griffiths agreeing; Lord Oliver of Aylmerton adopting Lord Keith's reasons with observations of his own; Lord Goff of Chieveley concurring in the result with his own reasons)"
 year: 1987
 doi: ""
 url: "http://www.bailii.org/uk/cases/UKHL/1987/14.html"
@@ -51,7 +51,7 @@ A district council engaged a demolition contractor on terms forbidding sub-contr
 
 ## Critical notes & threats
 
-- **How much is holding.** The House decided that the fresh evidence did not justify a new trial against the council (pp. 8-9). Lord Keith's reading of s. 2(4)(b) is his route to that result. Lords Brandon and Griffiths agreed with it in terms, which makes three of five. Lord Oliver agreed that the appeal should be dismissed for Lord Keith's reasons, while inclining to think that any such liability would be a joint tortfeasor's and not an occupier's. His statements of when an occupier "might" be liable or when action "might well be reasonable" (p. 7) are guarded on their face. Lord Goff did not join them.
+- **How much is holding.** The House decided that the fresh evidence did not justify a new trial against the council (pp. 8-9). Lord Keith's reading of s. 2(4)(b) is his route to that result. Lords Brandon and Griffiths agreed with it in terms, and Lord Oliver agreed that the appeal should be dismissed for Lord Keith's reasons, which makes four of five; Lord Oliver added observations, while inclining to think that any such liability would be a joint tortfeasor's and not an occupier's. His statements of when an occupier "might" be liable or when action "might well be reasonable" (p. 7) are guarded on their face. Lord Goff did not join them.
 - **The claimant was the contractor's own workman.** Lord Keith's sentence against supervision is about supervising a contractor's "duty to his employees to observe a safe system of work" (p. 7). A guest is nearer Lord Goff's postman: a visitor endangered by the contractor's work, to whom the occupier may be liable subject to s. 2(4)(b) (p. 11). The case therefore understates neither the occupier's exposure to visitors nor the entrustment defence; it applies the defence in a setting less favourable to claimants than a guest's.
 - **Knowledge is the hinge, and the judgment does not require the means of getting it.** Liability turned on whether the council "knew or had reason to suspect" (p. 7). The House imposed no duty to inspect the site or to arrange to be told; it held that what the architects' people saw did not count because no one "informed the council" (p. 8). The council had contractual controls (approval of sub-contractors, insurance) and was not faulted for failing to police them.
 - **The statute's second limb is treated as real.** Lord Keith reads "satisfy himself ... that the work had been properly done" as extending to work "being properly done" (p. 7). So the entrustment defence is not selection alone. How far "reasonable steps" go is left to the circumstances.
@@ -64,8 +64,8 @@ A district council engaged a demolition contractor on terms forbidding sub-contr
 **K8 (holder under delegation): narrows.** For dangers a contractor creates on the premises, the occupier's liability is conditional: it depends on reasonable entrustment and on reasonable steps as to competence and the work (p. 7, applying s. 2(4)(b)). The holder does not simply 'stay liable'.
 
 **What the paper may say on this authority.**
-- The House of Lords read s. 2(4)(b) of the Occupiers' Liability Act 1957 as covering dangers created by a contractor while the work is in progress, so that an occupier "might, in certain circumstances, be liable" if it "did not take reasonable steps to satisfy himself that the contractor was competent and that the work was being properly done" (p. 7, Lord Keith).
-- Lord Keith said it "would not ordinarily be reasonable to expect an occupier" who reasonably regards its contractor as competent "to supervise the contractor's activities" (p. 7).
+- Lord Keith, with whom Lords Brandon and Griffiths agreed and whose reasons Lord Oliver adopted, read s. 2(4)(b) of the Occupiers' Liability Act 1957 as covering dangers created by a contractor while the work is in progress, so that an occupier "might, in certain circumstances, be liable" if it "did not take reasonable steps to satisfy himself that the contractor was competent and that the work was being properly done" (p. 7). Lord Goff held the Act inapplicable (p. 11).
+- Lord Keith said it "would not ordinarily be reasonable to expect an occupier" who reasonably regards its contractor as competent "to supervise the contractor's activities in order to ensure that he was discharging his duty to his employees to observe a safe system of work" (p. 7).
 - He said that where the occupier "knows or has reason to suspect" an unsafe system, "it might well be reasonable for the occupier to take steps to see that the system was made safe" (p. 7).
 - Lord Goff did not accept that knowledge or suspicion "can of itself be enough" (p. 11).
 
@@ -76,3 +76,5 @@ A district council engaged a demolition contractor on terms forbidding sub-contr
 - That the case concerned a visitor in a guest's position. The claimant was the sub-contractor's workman (pp. 1, 3).
 
 Card written by a Claude (Fable 5.2) subagent, reader R5a, from the saved BAILII text read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): Lord Oliver adopted Lord Keith's reasons, so four of five Lords did, not three (front matter and critical note); 'may say' 1 and 2 narrowed.

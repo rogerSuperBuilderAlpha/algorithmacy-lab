@@ -59,7 +59,7 @@ The Supreme Court held that Barclays Bank was not vicariously liable for sexual 
 **K7, premise P2: narrows.** P2 says a holder that performs through others "keeps a duty to see that the work is done with care". Vicarious liability supplies no such duty. It makes an employer pay for an employee's tort and imposes nothing on a principal whose contractor runs an independent business (paras 27-28). P2 therefore has to rest on the other doctrines, duty by duty.
 
 **What the paper may say on this authority.**
-- In English law the employer of an independent contractor is, in general, not liable for the contractor's negligence or other torts (para 7, Lady Hale quoting Lord Bridge in *D & F Estates*).
+- In English law the employer of an independent contractor is, in general, not liable for the contractor's negligence or other torts (para 7, Lady Hale quoting Lord Bridge in *D & F Estates* while stating the Bank's position; the holding is at paras 24 and 27).
 - Vicarious liability extends to relationships akin to employment and stops where the wrongdoer carries on business on his own account (paras 24, 27).
 - The Supreme Court gave a window-cleaning company and a firm of auditors as plain cases of independent contractors (para 28).
 - Workers who are "technically self-employed or agency workers" may still be "part and parcel of the employer’s business" (para 27).
@@ -71,3 +71,5 @@ The Supreme Court held that Barclays Bank was not vicariously liable for sexual 
 - That the judgment says anything about oversight. It does not.
 
 Card written by a Claude (Fable 5.2) subagent, reader R5a, from the saved National Archives text read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may say' 1 locates the holding at paras 24 and 27.

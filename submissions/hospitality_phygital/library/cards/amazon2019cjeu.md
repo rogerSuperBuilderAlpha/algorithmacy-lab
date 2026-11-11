@@ -83,7 +83,7 @@ A German federation of consumer organisations sought an injunction against Amazo
 
 - The Court of Justice has held that the Consumer Rights Directive "necessarily requires traders to put at the disposal of all consumers a means of communication which allows the latter to contact them quickly and to communicate with them efficiently" (para 46).
 - The Court called the possibility of quick contact and efficient communication "of fundamental importance for ensuring and effectively implementing consumer rights" (para 41).
-- The same judgment held that a trader need not maintain a telephone line and may meet the requirement by other means, such as a web form, a chat or a callback, provided they allow direct and effective communication (paras 48, 51, 52).
+- The same judgment held that a trader need not maintain a telephone line and may meet the requirement by other means, such as a web form, a chat or a callback, provided they allow direct and effective communication (paras 48, 51, 52), on art. 6(1)(c) as then worded. Directive 2019/2161 has since required the telephone number, from 28 May 2022.
 - The Court reached that result by balancing consumer protection against the competitiveness of undertakings and the freedom to conduct a business (para 44).
 
 **What the paper may not say**
@@ -95,3 +95,5 @@ A German federation of consumer organisations sought an injunction against Amazo
 - That the Consumer Rights Directive applies to a package holiday, or, without further authority, to a contract concluded at automated premises (art. 3(3)(g), (l)).
 
 Card written by a Claude (Fable 5.2) subagent, reader R6a, from the saved judgment read in full and the directive provisions named in source_basis, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may say' 3 notes the wording then in force and the 2019 amendment.

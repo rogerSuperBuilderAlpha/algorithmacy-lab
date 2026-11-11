@@ -122,7 +122,7 @@ The Regulations transposed Directive (EU) 2015/2302 and came into force on 1 Jul
 **What the paper may not say**
 
 - That these Regulations apply to a hotel booked directly.
-- That a traveller can sue in the United Kingdom for the absence or failure of the contact point as such. The requirement is outside the implied conditions and breach of it gives no civil action by itself (regs 7(10), 35).
+- That a traveller can sue in the United Kingdom for the absence of the contact point as such. The requirement is outside the implied conditions, and there is no civil action "by reason only of the commission of an offence" (regs 7(10), 35). Failure of a named contact point to answer is not addressed.
 - That the Regulations require a person, or a person with authority, at the contact point.
 - That United Kingdom law contains the duty to be "easily contactable" found in art. 16a of the amended Directive.
 - That the organiser must supervise the hotel. The Regulations impose liability for performance, not a duty of oversight.
@@ -130,3 +130,5 @@ The Regulations transposed Directive (EU) 2015/2302 and came into force on 1 Jul
 - That linked travel arrangements remain part of United Kingdom law after 6 April 2027 for new contracts.
 
 Card written by a Claude (Fable 5.2) subagent, reader R6a, from archive captures of the revised text read as described in source_basis, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may not say' 2 confined to the absence of a contact point.

@@ -51,7 +51,7 @@ The Supreme Court of the United Kingdom asked whether a tour organiser could rel
 
 ## Critical notes & threats
 
-- **Repealed instrument.** The ruling interprets Directive 90/314, repealed from 1 July 2018 (Directive 2015/2302, art. 29; card eu2015package). The defence at issue, an event that could not be foreseen or forestalled, is not among the three defences of art. 14(3) of the 2015 Directive on my reading of the two texts. I read no ruling that carries the "sphere of control" test over to the 2015 Directive.
+- **Repealed instrument.** The ruling interprets Directive 90/314, repealed from 1 July 2018 (Directive 2015/2302, art. 29; card eu2015package). The defence at issue, an event that could not be foreseen or forestalled, is not among the three defences of art. 14(3) of the 2015 Directive on my reading of the two texts. CV-C (11 Nov) leaves this OPEN and leaning against: art. 14(3)(c), read with the definition of unavoidable and extraordinary circumstances in art. 3(12) (reg. 16(4)(c) with reg. 2(1) in the UK), is the nearest analogue. Do not say the old defence was abolished. I read no ruling that carries the "sphere of control" test over to the 2015 Directive.
 - **The first issue was assumed.** Whether guiding a guest was within the contract, and whether the assault was improper performance, were premises supplied by the referring court (paras 21, 51). The Supreme Court decided them afterwards (kuoni2021uksc, paras 28-35).
 - **The "sphere of control" is the organiser's or the supplier's.** The organiser answers for what lies within its supplier's control, which it does not itself control. The test extends the organiser's answerability; it does not say that control is the ground of the liability, which the Court rests on the Directive's system and on consumer protection (paras 34-35, 45, 49).
 - **Contract only.** The ruling concerns contractual liability under the package contract and leaves other liabilities, including the supplier's and the employee's own, untouched (para 44).
@@ -78,3 +78,5 @@ The Supreme Court of the United Kingdom asked whether a tour organiser could rel
 - That the ruling concerns the hotel's liability to the guest.
 
 Card written by a Claude (Fable 5.2) subagent, reader R6a, from the saved judgment read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): the old-defence comparison marked open.

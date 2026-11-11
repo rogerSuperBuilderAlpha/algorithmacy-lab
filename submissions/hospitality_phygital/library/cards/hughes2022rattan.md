@@ -61,7 +61,7 @@ An adult NHS dental patient sued the owner of the practice for the alleged negli
 
 ## Where it bears on the argument
 
-**K8 (holder under delegation): supports, narrowly.** K8 asks for "any non-delegable-duty case with adult paying customers". This is one: an adult who chose the business, paid the charge at its desk and was free to go elsewhere (paras 6, 9, 10, 71(3)), owed a non-delegable duty by the owner of the business for work done by self-employed professionals (paras 68, 72). The owner need not be the one with the skill; a company would be in the same position (para 71(2)). The support is narrow because the claimant qualified as a patient (para 71(1)).
+**K8 (holder under delegation): supports, narrowly.** K8 asks for "any non-delegable-duty case with adult paying customers". This is the nearest, for an adult NHS patient who paid the NHS charge (paras 9-10, 56): an adult who chose the business, paid the charge at its desk and was free to go elsewhere (paras 6, 9, 10, 71(3)), owed a non-delegable duty by the owner of the business for work done by self-employed professionals (paras 68, 72). The owner need not be the one with the skill; a company would be in the same position (para 71(2)). The support is narrow because the claimant qualified as a patient (para 71(1)).
 
 **K8, allocation among firms: supports the test of who undertook to provide.** The court refused to treat the business as a "booking agency" that merely arranged treatment (paras 60, 66, 68-70). It looked at who was named as provider and whose customers the patients were.
 
@@ -72,7 +72,7 @@ An adult NHS dental patient sued the owner of the practice for the alleged negli
 - The patient's freedom to go elsewhere did not defeat the duty (para 71(3)).
 - The court relied on the owner being named as provider on the treatment plan and on the associates' covenants not to treat "patients of the Practice" (paras 69-70).
 - The same court held the owner not vicariously liable for the same associates (paras 88-91).
-- The owner's contract with the health body required him to check his associates' competence, to run a quality assurance system and to provide a complaints procedure (paras 25, 55).
+- The owner's contract with the health body required him to check his associates' competence, to run a quality assurance system and, as the trial judge summarised it, to provide a complaints procedure (paras 25, 55(iii)).
 
 **What it may not say.**
 - That English law owes hotel guests or customers generally a non-delegable duty. The court applied *Woodland*'s category of "patient" (para 71(1)).
@@ -81,3 +81,5 @@ An adult NHS dental patient sued the owner of the practice for the alleged negli
 - That the claimant proved negligence. The merits were untried (para 2).
 
 Card written by a Claude (Fable 5.2) subagent, reader R5a, from the saved National Archives text read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may say' 5 attributes the complaints procedure to the trial judge's summary; the K8 line names the patient as an NHS patient who paid the NHS charge.

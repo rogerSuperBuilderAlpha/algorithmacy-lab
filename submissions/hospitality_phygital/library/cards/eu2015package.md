@@ -115,7 +115,7 @@ The Directive regulates contracts for packages: combinations of at least two dif
 - **Defences and caps remain** (art. 14(3), (4)): the traveller's own fault, an unconnected third party, unavoidable and extraordinary circumstances; and a contractual cap of not less than three times the price for loss other than personal injury or damage caused intentionally or negligently.
 - **Business travel under a framework agreement is excluded** (art. 2(2)(c)), which matters for guests placed by an employer.
 - **Not a consolidated text.** I read the 2015 Official Journal version. Directive (EU) 2025/2647 is named in the 2026 directive (footnote 8) as amending this Directive after the end of the online dispute resolution platform; I did not read it.
-- **Comparison with the Directive it replaced** (Directive 90/314, art. 5(2), read only as quoted in kuoni2021cjeu, para 7): the old defence of "an event which the organiser and/or retailer or the supplier of services, even with all due care, could not foresee or forestall" has no counterpart in art. 14(3). This is my comparison of the two wordings, not a statement any source makes.
+- **Comparison with the Directive it replaced** (Directive 90/314, art. 5(2), read only as quoted in kuoni2021cjeu, para 7): the old defence of "an event which the organiser and/or retailer or the supplier of services, even with all due care, could not foresee or forestall" has no counterpart in art. 14(3). This is my comparison of the two wordings, not a statement any source makes. CV-C (11 Nov) leaves this OPEN and leaning against: art. 14(3)(c), read with the definition of unavoidable and extraordinary circumstances in art. 3(12) (reg. 16(4)(c) with reg. 2(1) in the UK), is the nearest analogue. Do not say the old defence was abolished.
 - Later treatment not checked, apart from Directive (EU) 2026/1024.
 
 ## Where it bears on the argument
@@ -135,7 +135,7 @@ The Directive regulates contracts for packages: combinations of at least two dif
 - The traveller must report a failure without undue delay; the organiser must then remedy it unless that is impossible or disproportionately costly; and if the organiser does not act within a reasonable period the traveller sets, the traveller may put it right and recover the cost, at once where immediate remedy is needed (art. 13(2)-(4)).
 - The organiser must give appropriate assistance without undue delay to a traveller in difficulty (art. 16).
 - The traveller may send messages and complaints to the retailer that sold the package, and receipt by the retailer counts as receipt by the organiser (art. 15).
-- Where remedy fails, the traveller is entitled to a price reduction and to compensation, subject to three defences (art. 14(1)-(3)).
+- The traveller is entitled to a price reduction for any period of non-conformity unless it is attributable to the traveller, whether or not the failure was remedied (art. 14(1)), and to compensation, subject to three defences (art. 14(2)-(3)).
 
 **What the paper may not say**
 
@@ -148,3 +148,5 @@ The Directive regulates contracts for packages: combinations of at least two dif
 - That the consequence of the traveller's silence is in the articles. It is stated only in recital 34.
 
 Card written by a Claude (Fable 5.2) subagent, reader R6a, from the saved Official Journal text read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may say' 8 (price reduction is not conditional on a failed remedy); the old-defence comparison marked open.

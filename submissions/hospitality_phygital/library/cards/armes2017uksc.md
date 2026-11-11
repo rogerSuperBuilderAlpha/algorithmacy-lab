@@ -74,7 +74,7 @@ A child in local-authority care was abused by two sets of foster parents with wh
 - The Supreme Court calls liabilities of that kind "exceptional" (para 32).
 - The dividing question is whether the defendant was bound to perform a function with care or "merely bound to arrange to have performed, subject to a duty to take care in making and supervising those arrangements" (para 37).
 - Where a statute made a public authority an arranger, the Supreme Court described its continuing responsibility as prior approval and "subsequent inspection, supervision and removal", aimed at identifying and addressing problems "once they have become capable of observation" (para 48).
-- A body that recruits, trains, pays and supervises carers who run no independent business may be vicariously liable for them without day-to-day control (paras 59-62, 65).
+- A body that recruits, trains, pays and supervises carers who run no independent business may be vicariously liable for them; it is "not necessary for there to be micro-management, or any high degree of control" (para 65), and the court found "a significant degree of control" (para 62) (paras 59-62, 65).
 
 **What it may not say.**
 - That English law requires a duty-holder who delegates to monitor the delegate. The monitoring duty in *Armes* was statutory and belonged to an arranger (paras 38, 47-48).
@@ -84,3 +84,5 @@ A child in local-authority care was abused by two sets of foster parents with wh
 - That *Armes* extends non-delegable duties. It refused one (para 49).
 
 Card written by a Claude (Fable 5.2) subagent, reader R5a, from the saved National Archives text read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-C (`manuscript/keystone_2026-11/VERIFY_CARDS_C.md`): 'may say' 5 uses the court's words on control.
