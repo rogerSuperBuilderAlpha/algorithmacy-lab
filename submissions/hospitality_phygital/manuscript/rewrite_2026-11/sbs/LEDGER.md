@@ -960,3 +960,552 @@
 **Amendments recorded in this section**
 - S-049 'hotel robots' → 'service robots'.
 - S-062 rewritten for a pronoun without an antecedent.
+
+---
+
+## Delegation and standing: Beyond the host in person?
+
+### S-095 · answers M.090 · 21w
+> Hospitality scholars have been right about what a host owes, and we have argued that the obligation belongs to a role.
+
+- **Form** ✅ 21w against 40; BRIDGE.
+- **Construction** ✅ Scholars as subject.
+- **Register** ✅ *been right*, *argued*. 'we have argued' reports our own earlier move, as M.090's 'I have suggested'.
+- **Value** ✅ Sums the first step.
+- **Counterpart** ✅
+- **Truth** ✅ Section 1.
+
+### S-096 · answers M.091 · 17w
+> We now push beyond a second part of their account: its picture of the host as one person.
+
+- **Form** ✅
+- **Construction** ✅ 'their' refers to the scholars; 'its' to 'their account'.
+- **Register** ✅ *push beyond*: M.091's verb, used once in v6.
+- **Value** ✅ Announces the second step.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §4 ¶1 (the image of one host).
+
+### S-097 · answers M.092 · 41w
+> The host of the classical account is a single figure who ordains and protects (Pitt-Rivers 2012: 513, 516), and the owners of commercial homes whom Di Domenico and Lynch studied perceived the balance of power to 'rest firmly with them' (2007: 332).
+
+- **Form** ✅ 41w against 55.
+- **Construction** ✅ 'them' refers to 'the owners'.
+- **Register** ✅ *ordains* (the source's verb), *protects*, *perceived*.
+- **Value** ✅ Documents the field's habit.
+- **Counterpart** ✅
+- **Truth** ✅ Pitt-Rivers card pp. 513, 516; Di Domenico and Lynch card p. 332 ('The balance of power in the host/guest relationship is perceived by hosts to rest firmly with them').
+
+### S-098 · answers M.093 · 25w
+> A staffed hotel has never had a host of that kind, and a phygital arrangement places several firms behind each decision a guest meets.
+
+- **Form** ✅ 25w against 47.
+- **Construction** ✅ Named subjects; no bare 'This'.
+- **Register** ✅ Plain. M.093's 'profoundly limiting' is not imitated; the facts carry the limit.
+- **Value** ✅ Why one host limits the account.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §4 ¶1; I.1.
+
+### S-099 · answers M.094 · 13w
+> The single host holds together four things that need to be kept apart.
+
+- **Form** ✅
+- **Construction** ✅ Announces a count of four that S-100 to S-103 deliver in order.
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ⚠️ M.094 traces the canon to an etymology; ours to the four things the single host unites. The job, showing where the assumption comes from, is the same.
+- **Truth** ✅ v5 §3.1 ¶2.
+
+### S-100 · answers M.095 · 16w
+> Obligation is what the host owes the guest, the duties set out in the previous section.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *owes*.
+- **Value** ✅ First definition (Reviewer 2.3a).
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.1 ¶2.
+
+### S-101 · answers M.096 · 28w
+> Responsibility is the holder's retained duty to see that the obligation is performed, by whoever does the work (Woodland v. Essex County Council 2013: para 7; Morgan 2015: 7–8).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.1 ¶2; Woodland card para 7.
+
+### S-102 · answers M.097 · 29w
+> Authority is the power, assigned by an organization, to change a decision or the rule behind it, a sense we stipulate because the word carries technical meanings elsewhere.
+
+- **Form** ✅
+- **Construction** ✅ Appositive closing clause.
+- **Register** ✅ *assigned*, *stipulate*.
+- **Value** ✅ Authority is organizational (Reviewer 3.9).
+- **Counterpart** ✅ M.097's key term arrives here.
+- **Truth** ✅ v5 §3.1 ¶2.
+
+### S-103 · answers M.098 · 46w
+> Accountability is the arrangement through which the holder answers to the guest for how the obligation was performed, in Bovens' terms a relation in which an actor must explain and justify its conduct to a forum that can pose questions and pass judgement (2007: 450, 452).
+
+- **Form** ✅ 46w against 13: a definition with its source.
+- **Construction** ✅ 'its' refers to 'an actor'.
+- **Register** ✅ *answers*, *explain*, *justify*, *pass judgement*.
+- **Value** ✅ The forum named (Reviewer 3.13 is answered again at S-248).
+- **Counterpart** ✅
+- **Truth** ✅ Bovens card pp. 450, 452.
+
+### S-104 · answers M.099 · 28w
+> In a single host the four sit together, which fits the owner of a small commercial home (Di Domenico and Lynch 2007: 332–335) and not a staffed hotel.
+
+- **Form** ✅
+- **Construction** ✅ 'which' refers to the clause.
+- **Register** ✅ *sit together*, *fits*.
+- **Value** ✅
+- **Counterpart** ✅ The sum, as M.099.
+- **Truth** ✅ v5 §4 ¶1.
+
+### S-105 · answers M.101, M.102 · 17w
+> Keeping them apart matters because commercial hospitality has long divided the host's position among several parties.
+
+- **Form** ✅
+- **Construction** ✅ 'them' refers to 'the four' in S-104.
+- **Register** ✅ *divided*.
+- **Value** ✅ Why the separation matters.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.3 ¶2 s1.
+
+### S-106 · answers M.103 · 47w
+> This journal already has words for the result: Bulley calls the agencies that run a refugee camp, once refugees are past its formal threshold, an assembled host (2015), and Lynch et al. (2011), after Robinson and Lynch, distinguish micro-hosts from macro-hosts such as a train company.
+
+- **Form** ✅ 47w against 14; credit to the journal for the term.
+- **Construction** ✅ 'its' refers to 'a refugee camp'. Colon delivers two credits.
+- **Register** ✅ *calls*, *distinguish*. No quotation marks: the terms are used, credited, and need no page.
+- **Value** ✅ The several-firm host in the journal's words (Reviewer 2.1e).
+- **Counterpart** ✅ M.103 introduces the canon's paradox with praise; ours introduces the journal's terms with credit.
+- **Truth** ✅ Bulley card and note (MS p. 13: agencies 'perform the role of an assembled host'); note `lynch2011` ('Exchange' ¶3).
+
+### S-107 · answers M.105 · 19w
+> An assembled host raises a question the single host never did: which of its members answers to the guest.
+
+- **Form** ✅ Short topic sentence.
+- **Construction** ✅ 'its' refers to 'an assembled host'.
+- **Register** ✅
+- **Value** ✅ The paragraph's question.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.3 ¶2.
+
+### S-108 · answers M.106 · 46w
+> In Crinkley v. Holiday Inns, a single decision under North Carolina law, the owners of a franchised motel, the company that ran it day to day and the franchisor whose brand it carried were all held liable to guests assaulted in their room (1988: para 7).
+
+- **Form** ✅
+- **Construction** ✅ 'it' twice, both 'a franchised motel'; 'their' refers to 'guests'.
+- **Register** ✅ *held liable*.
+- **Value** ✅ The law's answer in one case.
+- **Counterpart** ✅
+- **Truth** ✅ Crinkley card para 7.
+
+### S-109 · answers M.106, M.107 · 44w
+> The franchisor was liable vicariously, through apparent agency: the jury could find that the brand had presented the property as its own and that the guests had relied on it, though the court called the evidence of reliance 'marginal' (1988: paras 9, 49–52).
+
+- **Form** ✅
+- **Construction** ✅ 'its own' refers to 'the brand'; 'it' to the presentation.
+- **Register** ✅ *presented*, *relied*.
+- **Value** ✅ How holding out bound the brand, with its limit.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.3 ¶2.
+
+### S-110 · answers M.108 · 39w
+> English law supplies a second line: a party whose 'own duty is not to perform the relevant function but only to arrange for its performance' is not liable for how it is performed (Woodland v. Essex County Council 2013: para 25(3)).
+
+- **Form** ✅
+- **Construction** ✅ 'it' refers to 'the relevant function'.
+- **Register** ✅ *supplies*.
+- **Value** ✅ The arranger.
+- **Counterpart** ✅
+- **Truth** ✅ Woodland card para 25(3).
+
+### S-111 · answers M.109 · 37w
+> Phygital arrangements multiply such arrangers, chiefly the vendors of systems that price, verify and allocate, and Cobbe et al. find that in such supply chains there is 'typically no one actor in overall control' (2023: 1192).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *multiply*, *find*. Scholars as subject.
+- **Value** ✅ Credit to those who showed the chain.
+- **Counterpart** ✅
+- **Truth** ✅ Cobbe card p. 1192.
+
+### S-112 · answers M.110, M.111 · 45w
+> We propose that the party which holds itself out as host answers to the guest, alongside the party that controls the operation, and that a party which only arranges a service, such as a technology vendor, answers to the host; no court has held this.
+
+- **Form** ✅
+- **Construction** ✅ 'this' at the end has its noun in the proposal; one candidate.
+- **Register** ✅ *propose*, *answers*, *held*.
+- **Value** ✅ The thesis's allocation (Reviewer 2.2d).
+- **Counterpart** ✅ M.110–M.111: the result, and its status.
+- **Truth** ✅ v5 §2.3 ¶2, last two sentences.
+
+### S-113 · answers M.112 · 17w
+> Between them, the law and the field say who holds the obligation when the guest is received.
+
+- **Form** ✅
+- **Construction** ⚠️ 'the field' as agent, paired with 'the law'; kept because both have been named at length.
+- **Register** ✅
+- **Value** ✅ What is established.
+- **Counterpart** ✅
+- **Truth** ✅ Sections 1 and 2.3.
+
+### S-114 · answers M.113 · 5w
+> Their concern is with reception.
+
+- **Form** ✅ A beat.
+- **Construction** ✅ 'Their' refers to 'the law and the field'.
+- **Register** ✅
+- **Value** ✅ Plants the word.
+- **Counterpart** ✅
+- **Truth** ✅
+
+### S-115 · answers M.114 · 15w
+> But what becomes of the host's obligation once the work of hosting is handed on?
+
+- **Form** ✅ The driving question, in M.114's frame.
+- **Construction** ✅
+- **Register** ✅ 'becomes of', as the model.
+- **Value** ✅ Research question, statement 3.
+- **Counterpart** ✅
+- **Truth** ✅
+
+### S-116 · answers M.115 · 9w
+> The work can be delegated, and the duty cannot.
+
+- **Form** ✅ A short first answer.
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.4 ¶1.
+
+### S-117 · answers M.116 · 35w
+> The UK Supreme Court put the structure plainly in Woodland: the work required to perform certain duties 'may well be delegable, and usually is. But the duty itself remains the defendant's' (2013: para 7).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *put plainly*.
+- **Value** ✅ The law's statement.
+- **Counterpart** ✅
+- **Truth** ✅ Woodland card para 7.
+
+### S-118 · answers M.116 · 41w
+> Such a duty arises from 'an antecedent relationship' and is 'a positive or affirmative duty to protect' (para 7), and Morgan states the principle in a line: 'No duty of care can be delegated, but its performance may well be' (2015: 7).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.4 ¶1 (para 7; Morgan p. 7).
+
+### S-119 · answers M.116 · 43w
+> Woodland concerns schools and hospitals, not hotels, and we borrow its structure without claiming that the law already places hotels in its category, although the court noted that a fee-paying provider's responsibilities are already non-delegable 'because they are contractual' (para 25(5)).
+
+- **Form** ✅
+- **Construction** ✅ 'its' twice, both 'Woodland'.
+- **Register** ✅ *borrow*, *noted*.
+- **Value** ✅ GUARD on the borrowing.
+- **Counterpart** ✅
+- **Truth** ✅ Woodland card para 25(5).
+
+### S-120 · answers M.117 · 26w
+> Delegation is not new to hospitality, for the innkeeper of 1584 already answered for 'a default in him or his servants' (Calye's Case 1584: fol. 33a).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ A statement where M.117 asks a question.
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ Calye card fol. 33a.
+
+### S-121 · answers M.118 · 7w
+> What algorithmic delegation changes is the performer.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.4 ¶1.
+
+### S-122 · answers M.119 · 25w
+> A servant who erred could be found and named, whereas a system that errs may be supplied by a firm that no guest can reach.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ The paragraph's close.
+- **Counterpart** ✅ Answers M.119's look ahead with a contrast that points to the touchpoint.
+- **Truth** ✅ v5 §2.4 ¶1, last sentence.
+
+### S-123 · answers M.121 · 19w
+> If the duty stays with the holder, the holder is the party the guest must be able to reach.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ Conditional, as M.121.
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅
+
+### S-124 · answers M.122 · 22w
+> Writers on algorithmic accountability already hold that deploying an autonomous system does not lessen the deployer's responsibility (Nissenbaum 1996; Kong 2026: 5).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *hold*, *lessen*.
+- **Value** ✅ CONCEDE.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.4 ¶2; Kong card p. 5.
+
+### S-125 · answers M.123 · 33w
+> Kong grounds that responsibility in the deployer's control over the act of delegating and concludes that 'one who elects a delegate that cannot answer thereby elects to answer for it' (2026: 4–5, 10).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *grounds*, *concludes*.
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ Kong card pp. 4 (guidance control over delegation), 10.
+
+### S-126 · answers M.124 · 46w
+> We agree with the conclusion, but our duty has a different shape: it is not a responsibility for harm that a delegated system might cause but a first-order duty owed to a particular person from the moment of reception, whether or not anything goes wrong.
+
+- **Form** ✅
+- **Construction** ✅ 'it' refers to 'our duty'. One 'not … but' whose wrong half is Kong's position.
+- **Register** ✅ *agree*.
+- **Value** ✅ Differentiates from organizational delegation and accountability (Reviewer 2.2e).
+- **Counterpart** ✅ CONCEDE-LIMIT.
+- **Truth** ✅ v5 §2.4 ¶2.
+
+### S-127 · answers M.124 · 37w
+> The duty rests, in Woodland's terms, not on 'control of the environment' but on 'control over the claimant for the purpose of performing a function' that the defendant has assumed (2013: para 24).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ The court's words.
+- **Value** ✅ The ground of the difference.
+- **Counterpart** ✅
+- **Truth** ✅ Woodland card para 24. **Correction of v5**: v5 paraphrased para 24 as 'a relation of charge over the person received'; para 24 speaks of control over the claimant, and 'charge' is para 23's word. v6 quotes para 24.
+
+### S-128 · answers M.125 · 42w
+> Kropf et al. reach a compatible position from the ethics of care, holding that a robot can occupy a narrow role without accountability, that its answerability 'is currently inconceivable', and that blame stays with the humans who deploy it (2026: 7, 9).
+
+- **Form** ✅
+- **Construction** ✅ 'its' and 'it' refer to 'a robot'.
+- **Register** ✅ *reach*, *holding*.
+- **Value** ✅ Credit returned.
+- **Counterpart** ✅
+- **Truth** ✅ Kropf card pp. 7, 9 ('the answerability of care robots is currently inconceivable'; thin and thick blame). 'blame stays with the humans' paraphrases thick blame lying with human actors (p. 10 in the card); **locator amended** to 7, 9–10 in the manuscript.
+
+### S-129 · answers M.126 · 33w
+> A machine can therefore perform the role of hosting, while the duty to the guest, and the answering for how it is performed, remain with the party that took the role up.
+
+- **Form** ✅
+- **Construction** ✅ 'it' refers to 'the role'.
+- **Register** ✅
+- **Value** ✅ The conclusion.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.4 ¶2, last sentence.
+
+### S-130 · answers M.127 · 24w
+> If the obligation persists under delegation, so does the guest's standing, provided that standing is defined from the obligation and not from accountability.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.1 ¶1 s1.
+
+### S-131 · answers M.127 · 45w
+> Darwall glosses the authority of an obligee as a 'standing to address claims and demands and hold accountable' (2013: 36), so that to take standing from his account and then define accountability as answering someone with standing would make each term depend on the other.
+
+- **Form** ✅
+- **Construction** ✅ 'his' refers to Darwall.
+- **Register** ✅ *glosses*.
+- **Value** ✅ The circularity, shown (Reviewer 2.3a).
+- **Counterpart** ✅
+- **Truth** ✅ Darwall card p. 36 (quotation exact). v5's paraphrase ('the obligee's authority to make demands of the obligor and to hold the obligor personally accountable') is replaced by the card's quotation.
+
+### S-132 · answers M.129 · 31w
+> Thompson's forms of directed duty, 'X has a duty to Y to do A' and 'X has a right against Y' (2004: 335), fix who owes what to whom without mentioning answering.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *fix*.
+- **Value** ✅ The way out.
+- **Counterpart** ✅
+- **Truth** ✅ Thompson card p. 335.
+
+### S-133 · answers M.128 · 50w
+> We therefore define the guest's standing in two parts: first, standing held, the guest's position as the one to whom the host's directed duties are owed; and second, standing exercised, the guest's pressing of that claim, by asking, objecting or requesting an exception, on a party able to receive it.
+
+- **Form** ✅ 50w against 27; a definition in two parts.
+- **Construction** ✅ 'it' refers to 'that claim'. 'first … second' inside the sentence, as M.128.
+- **Register** ✅ *define*, *pressing*.
+- **Value** ✅ Held and exercised (Reviewer 2.3b).
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.1 ¶1.
+
+### S-134 · answers M.129 · 42w
+> Standing in the first sense exists whether or not it is claimed, as Darwall himself concedes when he writes that a right holder 'need not actually claim her right or demand compliance with it in order for the right to exist' (2013: 35).
+
+- **Form** ✅
+- **Construction** ✅ 'it' refers to standing; 'he' to Darwall.
+- **Register** ✅ *concedes*.
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ Darwall card p. 35. Liau (2023), which v5 cited here with a `[CHECK]` flag, is left out (`DECISIONS.md`, D6).
+
+### S-135 · answers M.130 · 22w
+> Under algorithmic mediation, then, the guest still holds standing, because the host's obligation persists, and what can fail is its exercise.
+
+- **Form** ✅
+- **Construction** ✅ 'its' refers to 'standing'.
+- **Register** ✅
+- **Value** ✅ The diagnosis.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.1 ¶2.
+
+### S-136 · answers M.131 · 10w
+> Exercising standing has conditions, and guests do not supply them.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.3.
+
+### S-137 · answers M.132 · 46w
+> Hospitality's own norms tend to withhold the power to press a claim: in Pitt-Rivers' account a dissatisfied guest 'has no recourse but to retire from his role altogether by walking out', and the diplomatic guest who turned his plate over registered a protest without discourtesy (2012: 513–514).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *withhold*, *registered*.
+- **Value** ✅ First evidence.
+- **Counterpart** ✅
+- **Truth** ✅ Pitt-Rivers card pp. 513–514.
+
+### S-138 · answers M.133 · 45w
+> The same restraint appears in the commercial home, where Di Domenico and Lynch's researcher noted that a complaint about the beds that one might make in a hotel is 'not the done thing' for a guest in a home (2007: 333); the evidence is a single note.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *noted*.
+- **Value** ✅ Second evidence, with its weight.
+- **Counterpart** ✅
+- **Truth** ✅ Card p. 333.
+
+### S-139 · answers M.134 · 47w
+> In commercial hospitality what makes a claim proper to press is the paying relation and the law behind it, since commercial hosts 'must meet the desires and demands of the paying guest' (Di Domenico and Lynch 2007: 335) and a refused traveller could sue for damages (Sandoval-Strausz 2005: 64).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ Di Domenico and Lynch card p. 335 (quotation as in v5; the card abbreviates it); Sandoval-Strausz card p. 64 ('the private law of damages on suit').
+
+### S-140 · answers M.134 · 38w
+> Moysidou and Stanley (2023), writing in this journal on homestays, treat a guest's confidence that a complaint will be acted on as a form of power, and show an au pair who cannot leave choosing not to complain.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *treat*, *show*.
+- **Value** ✅ Evidence from the journal.
+- **Counterpart** ✅
+- **Truth** ✅ Moysidou and Stanley card (MS pp. 7, 12, 13). Paraphrased: manuscript pages.
+
+### S-141 · answers M.135 · 10w
+> Competence with algorithmic systems does not supply those conditions either.
+
+- **Form** ✅
+- **Construction** ✅ 'those conditions' refers to S-136.
+- **Register** ✅
+- **Value** ✅ The turn.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.3.
+
+### S-142 · answers M.135 · 41w
+> Users build working theories of the systems they meet (Eslami et al. 2016), yet understanding a platform does not give them influence over it (Lin 2025), and knowing how to appeal is not the same as being answered (Vaccaro et al. 2020).
+
+- **Form** ✅ Three findings in one sentence.
+- **Construction** ✅ 'them' refers to 'users'; 'it' to 'a platform'.
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.3.
+
+### S-143 · answers M.135 · 25w
+> Competence is learned, while the occasion and the addressee for a claim are provided, or withheld, by the institution that holds the host's role.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.3, last sentence.
+
+### S-144 · answers M.136 · 16w
+> Where requests do change outcomes in hospitality, they reach someone with authority to grant them.
+
+- **Form** ✅
+- **Construction** ✅ 'they' refers to 'requests'.
+- **Register** ✅
+- **Value** ✅ Claim first.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.4.
+
+### S-145 · answers M.136 · 37w
+> In an upscale hotel in south-eastern China during the pandemic, a guest who arrived without a test report was received after a front-office employee checked with management, and the hotel paid for the test (Xiang et al. 2022).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅ CASE-FACT, as M.136.
+- **Truth** ✅ Xiang card (setting; the management-approved compensation).
+
+### S-146 · answers M.136 · 25w
+> A guest refused at the desk in the same study took his complaint the next day to the general manager and the group head office.
+
+- **Form** ✅
+- **Construction** ✅ 'his': the study reports the guest as a man (card).
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ Xiang card ('came back the next day to file complaints to the general manager and the group head office').
+
+### S-147 · answers M.136 · 38w
+> In Lugosi's study of a bar, house cocktails invented by regulars and staff disappeared when the regulars who asked for them stopped coming, and management's allowance gave patrons only the opportunity to make such things (2009).
+
+- **Form** ✅
+- **Construction** ✅ 'them' refers to the cocktails.
+- **Register** ✅
+- **Value** ✅
+- **Counterpart** ✅
+- **Truth** ✅ Lugosi 2009 card ('Situational dimensions'). Paraphrased: accepted manuscript.
+
+### S-148 · answers M.137 · 36w
+> What a guest can expect from the host's obligation is therefore a hearing by someone with authority, not the exception itself, and the next section shows how phygital arrangements change the path to that person.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ The close, and the hook.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.4, last two sentences.
+
+**Section gate.** Delegation and standing: nine paragraphs, about 1,640 words by eye, against a budget of 1,710 ± 10%. Inside.
+
+**Amendments recorded in this section**
+- S-128 locator: (2026: 7, 9–10).
