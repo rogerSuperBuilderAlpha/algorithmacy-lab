@@ -115,6 +115,8 @@
 - **Value** ✅ First limit.
 - **Counterpart** ✅ Names what is left undone.
 - **Truth** ✅ v5 §1 ¶2, s2–3.
+- **Amended at the conclusion** ❌ The September note to the editor promised the phygital research of Batat (2026) and Brochado et al. (2026), which v5 §1 ¶2 s1 cites for presenting these systems as means to a smoother, more personal experience. The first version dropped both. Rewritten to carry both claims of v5's two sentences:
+- **As written** > The phygital literature presents such systems as means to a smoother and more personal experience (Batat 2024, 2026; Brochado et al. 2026) and describes them by what they do, as tools, mediators, facilitators and co-creators (van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026), without saying what the party that deploys them owes the guest.
 
 ### S-012 · answers M.005 · 49w
 > Algorithmic-accountability research keeps answerability with the party that delegates but ties it to harm (Nissenbaum 1996; Kong 2026: 5), and hospitality research measures hospitableness as a motive of individual hosts (Lashley 2015: 1), so the host's obligation is sought either in an injury or in a person's motive.
@@ -1715,7 +1717,8 @@
 
 - **Form** ✅ **Construction** ✅ 'her': Batat is referred to as 'her' in v5 and in the card ('her own framework'); no inference from a name is made here beyond what v5 already printed. ⚠️ Kept pending your check; 'for the framework she proposes' would be safer and is used in the manuscript.
 - **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Batat 2024 card p. 1234; Ananny and Crawford paraphrased as in v5.
-- **As written** > Batat holds the parallel for the framework she proposes, that failures by human connectors 'cannot be fixed or improved by improving other connectors' (2024: 1234), and Ananny and Crawford show that transparency alone cannot produce accountable systems (2018: 984).
+- **As written** > Batat makes the parallel claim within the phygital framework, that failures by human connectors 'cannot be fixed or improved by improving other connectors' (2024: 1234), and Ananny and Crawford show that transparency alone cannot produce accountable systems (2018: 984).
+- **Correction** ❌ The intermediate version kept 'she', a pronoun inferred from a name. Rewritten without a pronoun.
 
 ### S-185 · answers M.174 · 14w
 > The test asks six questions, in the order in which a claim would travel.
@@ -2098,4 +2101,189 @@
 **Section gate.** Assembled hosts at the touchpoint: sixteen paragraphs, about 2,810 words of prose by eye, plus a list of about 50 words and two tables of about 350; about 3,210 in all, against a budget of 3,110 ± 10% and the venue's 22–57% for the case. Inside both.
 
 **Amendments recorded in this section**
-- S-184: 'for her own framework' → 'for the framework she proposes'.
+- S-184: 'for her own framework' → 'within the phygital framework'.
+
+---
+
+## Conclusion
+
+### S-253 · answers M.219 · 19w
+> Hospitality studies' account of what a host owes remains the right place to begin an account of phygital hospitality.
+
+- **Form** ✅ CANON-STANDING, last time. **Construction** ✅ **Register** ✅ M.219's 'is crucial to thinking through' made plain. **Value** ✅ **Counterpart** ✅ **Truth** ✅ Sections 1–2.
+
+### S-254 · answers M.220 · 36w
+> That account, however, pictures a single host who holds the obligation in person, and commercial hospitality has long divided the host's position among owners, operators and brands and now divides it among vendors as well.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the host's position'. **Register** ✅ **Value** ✅ The limit, last time. **Counterpart** ✅ **Truth** ✅ 2.1–2.3.
+
+### S-255 · answers M.221 · 21w
+> The obligation therefore has to be followed to its holder when the work of hosting is spread across systems and firms.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ The need. **Counterpart** ✅ **Truth** ✅
+
+### S-256 · answers M.222 · 39w
+> In this article we have argued that the commercial host's obligation is a role obligation, imposed by law on whoever takes up the role of receiving travellers, taken up by holding out, and held alongside whoever controls the operation.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ M.222's 'In this article I have argued that'. **Value** ✅ The question answered (Reviewer 3.21). **Counterpart** ✅ **Truth** ✅ v5 §9 ¶1.
+
+### S-257 · answers M.222 · 37w
+> Its work can be delegated and its duty cannot, so that algorithmic mediation leaves the obligation in place and takes away, where it takes anything, the guest's path to someone with authority to answer for it.
+
+- **Form** ✅ **Construction** ⚠️ 'Its' twice refers to the obligation of S-256; 'it' later twice, 'algorithmic mediation' then 'the obligation'. Each has one candidate in its clause. **Register** ✅ Varied from S-018 rather than repeated. **Value** ✅ The thesis restated. **Counterpart** ✅ **Truth** ✅ v5 §9 ¶1.
+
+### S-258 · answers M.223 · 23w
+> The argument catches an arrangement that works exactly as designed and harms no one, yet leaves the guest with no one to address.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *catches*. **Value** ✅ What the argument is good for. **Counterpart** ✅ **Truth** ✅ v5 §8 ¶2.
+
+### S-259 · answers M.224 · 51w
+> Service management asks whether an encounter delivers value to the customer, and algorithmic accountability asks who answers when a delegated system causes harm, finding that answerability stays with the deployer (Kong 2026: 5, 10) and that in chains of providers responsibility is partial and unequally distributed (Cobbe et al. 2023: 1193).
+
+- **Form** ⚠️ 51w. **Construction** ✅ **Register** ✅ **Value** ✅ The neighbouring routes (Reviewer 3.15). **Counterpart** ✅ ROADS-NOT-TAKEN, as M.224. **Truth** ✅ v5 §8 ¶2.
+
+### S-260 · answers M.224 · 20w
+> The role account asks a third question, what the holder of a public calling owes the person it has received.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the holder'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §8 ¶2.
+
+### S-261 · answers none (W4) · 44w
+> The European Union's Artificial Intelligence Act requires that the overseers of high-risk systems can stop them 'through a "stop" button' (Regulation (EU) 2024/1689, art. 14(4)(e)), but that requirement is owed to overseers, not guests, and the Act lists no hospitality use as high-risk.
+
+- **Form** ⚠️ W4. **Construction** ✅ 'them' refers to 'high-risk systems'. **Register** ✅ **Value** ✅ Societal implications (the editor). **Counterpart** ⚠️ W4. **Truth** ✅ v5 §8 ¶2 (art. 14(4)(e); the Act's list names no hospitality application).
+
+### S-262 · answers M.225 · 39w
+> The paper offers three things: first, an account of the host's obligation under delegation; second, an account of standing that separates holding it from exercising it; and third, a test, a typology of decisions and five stages for organizations.
+
+- **Form** ✅ **Construction** ✅ Counted in prose, as M.225's 'firstly … secondly'. **Register** ✅ **Value** ✅ Contributions, one list (Reviewer 3.16). **Counterpart** ✅ **Truth** ✅ v5 §8 ¶1.
+
+### S-263 · answers M.226 · 37w
+> Human-centricity, on this reading, concerns what an arrangement protects or withholds, namely guest agency, employee discretion and relational judgement, and keeping humans visible in the encounter is neither necessary nor sufficient for any of the three.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ Our words close the paragraph, where M.226 hands it to a quotation. **Value** ✅ The editor's human-centricity. **Counterpart** ✅ **Truth** ✅ v5 §8 ¶2 (the authors' v4 sentences, in substance).
+
+### S-264 · answers M.227 · 24w
+> This is a conceptual paper, and its cases illustrate its distinctions without testing them; four further limits follow from how it was built.
+
+- **Form** ✅ **Construction** ⚠️ Opens on 'This is …', a deictic for the paper itself; its noun follows at once. Announces four, delivered in order. **Register** ✅ **Value** ✅ GUARD. **Counterpart** ✅ **Truth** ✅ v5 §9 ¶2 s1.
+
+### S-265 · answers M.228 · 46w
+> First, its legal sources are English, United States federal and European Union law, with one decision of a United States federal appeals court, so the account of when the obligation comes into force and who holds it may not travel unchanged to other jurisdictions.
+
+- **Form** ✅ **Construction** ✅ 'its' refers to 'the paper'. **Register** ✅ **Value** ✅ A limit that changes the claim. **Counterpart** ✅ **Truth** ✅ v5 §9 ¶2.
+
+### S-266 · answers M.228 · 27w
+> Second, Table 1 is our own reading of sources that do not address hospitality directly, and it needs testing against the decisions properties actually take.
+
+- **Form** ✅ **Construction** ✅ **Register** ⚠️ 'actually' is a nudge the register excludes; it here contrasts reading with practice. Cut in the manuscript. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §9 ¶2.
+- **As written** > Second, Table 1 is our own reading of sources that do not address hospitality directly, and it needs testing against the decisions properties take.
+
+### S-267 · answers M.229 · 39w
+> Third, we have borrowed the structure of non-delegable duty from a judgment about schools and hospitals (Woodland v. Essex County Council 2013), and whether courts would place commercial hosts in that category is a question for legal scholarship.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §9 ¶2.
+
+### S-268 · answers M.229 · 20w
+> Fourth, every case the argument uses comes from published studies and judgments, none of them gathered to answer our question.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ A limit on the evidence (Reviewer 3.22). **Counterpart** ✅ **Truth** ✅ The cases in 2.9 and 3.2.3 are from Xiang et al. (2022), Lugosi (2009), Garcia et al. (2026), Xu et al. (2021), Bosma (2022) and Batat (2021), and the legal ones from reported cases.
+
+### S-269 · answers M.230 · 13w
+> The framework points to three studies, each starting from a gap we documented.
+
+- **Form** ✅ **Construction** ✅ Announces three. **Register** ✅ **Value** ✅ Reviewer 3.20. **Counterpart** ✅ M.230's wager becomes the agenda. **Truth** ✅ v5 §9 ¶3.
+
+### S-270 · answers M.230 · 36w
+> The first would follow a guest's request or complaint from the person who receives it to the party with authority over the rule that produced it, and record whether it was heard and what changed.
+
+- **Form** ✅ **Construction** ✅ 'it' four times, all 'a guest's request or complaint' except 'produced it' (the outcome); ⚠️ kept, since 'the rule that produced it' reads as the request's outcome. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §9 ¶3.
+
+### S-271 · answers M.230 (stands for M.152) · 21w
+> We found no such study in hotels, restaurants or bars, and the nearest, by Xiang et al. (2022), reports two cases.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ 'We found no …' (research rule on gap claims). **Value** ✅ The gap, located. **Counterpart** ✅ **Truth** ✅ v5 §9 ¶3; gap search in `revision_2026-11/research/`.
+
+### S-272 · answers M.231 · 45w
+> The second would examine unstaffed and app-only hotels and short-term rentals with self-check-in, asking whom a guest can reach when a decision goes against them; the studies of unstaffed hotels we found measure acceptance and satisfaction, and none asks who owes the guest anything.
+
+- **Form** ✅ **Construction** ✅ 'them' refers to 'a guest' in the plural sense; ⚠️ singular 'them' for 'a guest', as v5. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §9 ¶3.
+
+### S-273 · answers M.231 · 40w
+> The third would map how management agreements, franchise agreements and platform terms divide duties to guests among owner, brand, operator, platform and vendor, testing our proposal that the party which holds itself out answers alongside the party in control.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §9 ¶3. v5's open question about silence is left out for length.
+
+### S-274 · answers M.232 · 22w
+> Transformative service research asks how service systems bear on the well-being of individuals and of communities (Anderson and Ostrom 2015; Batat 2022).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Well-being (Reviewer 3.18; the editor). **Counterpart** ✅ **Truth** ✅ v5 §8 ¶3.
+
+### S-275 · answers M.232 · 28w
+> For the individual guest, a touchpoint that withholds any reachable authority turns a claim into a private cost, borne alone whatever the quality of the service around it.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'a touchpoint'. **Register** ✅ **Value** ✅ The link to well-being, stated (Reviewer 3.18). **Counterpart** ✅ **Truth** ✅ v5 §8 ¶3.
+
+### S-276 · answers M.232 · 48w
+> For communities the evidence suggests a range rather than a verdict, since the same digital mediation can enchant, disenchant or re-enchant a service encounter depending on the arrangements around it (De Vos et al. 2024), and whether the path from the guest to authority survives is one of those arrangements.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ The three verbs are the source's terms. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §8 ¶3.
+
+### S-277 · answers M.232 · 40w
+> Phygital arrangements bring real gains, in responsiveness and in how much a small team can offer many guests, and the framework is meant to help organizations keep those gains without giving up the relation that makes them worth having.
+
+- **Form** ✅ **Construction** ✅ 'them' refers to 'those gains'. **Register** ✅ v5's 'None of this is a case against the technology' cut as a pre-emption. **Value** ✅ Industry gains (the editor). **Counterpart** ✅ **Truth** ✅ v5 §8 ¶3.
+
+### S-278 · answers M.233 · 52w
+> The question for phygital hospitality is therefore not whether technology can do the jobs a host used to do, but where, in an arrangement that has scattered those jobs across guest, employee, brand, vendor and platform, the obligation of hosting still has an address, and whether the guest can reach it.
+
+- **Form** ⚠️ 52w, the article's last sentence. **Construction** ✅ 'it' refers to 'the obligation'. One 'not … but' whose wrong half is the field's usual question. **Register** ✅ *address* is the paper's term; no epigram. **Value** ✅ **Counterpart** ✅ M.233 ends below its claim; ours ends on the open question. **Truth** ✅ v5 §9 ¶4.
+
+**Section gate.** Conclusion: five paragraphs, about 865 words by eye. Below the budget of 1,000 ± 10% by about 35 words, and inside the venue's 280–1,090. ⚠️ The budget was ours; the venue band is the gate, and it is met.
+
+---
+
+## Abstract (model: Germann Molz 2018, abstract)
+
+### A-1 · 29w
+> Hospitality firms now hand much of the work of hosting, from admission and pricing to check-in, room allocation and complaints, to algorithmic systems supplied by several firms at once.
+- **Form** ✅ The phenomenon, as 'Tourists are increasingly turning to …'. **Register** ✅ 'now' in place of 'increasingly'. **Truth** ✅ v5 abstract s1.
+
+### A-2 · 14w
+> Each places the party that decides at a distance from the guest it affects.
+- **Form** ✅ The stakes, as 'For better or for worse, …'. **Construction** ✅ 'Each' refers to the systems; 'it' to 'the party'. **Truth** ✅ I.1.
+
+### A-3 · 45w
+> The article begins from hospitality studies' account of what a host owes and argues, with the law of innkeepers as evidence, that the commercial host's obligation is a role obligation, imposed on whoever takes up the role of receiving travellers and taken up by holding out.
+- **Form** ✅ 'The article begins by …'. **Truth** ✅ Section 1.
+
+### A-4 · 44w
+> It then asks what becomes of that obligation when the work is handed on: the work can be delegated and the duty cannot, so the guest's standing survives, but its exercise depends on a reachable party with authority to change the decision.
+- **Form** ✅ 'It then asks …'. **Construction** ✅ 'It' refers to 'the article'. **Truth** ✅ Section 2.
+
+### A-5 · 21w
+> It offers a test of phygital touchpoints, scoped by the type of decision, and a roadmap for organizations.
+- **Form** ✅ 'Drawing on …, the analysis …', shortened. **Truth** ✅ Section 3.
+
+### A-6 · 26w
+> We argue that what algorithmic mediation removes is rarely the host's obligation and more often the guest's path to anyone with authority to answer for it.
+- **Form** ⚠️ The model abstract has no first-person thesis; four of five sibling abstracts do ('I argue', 'We argue', 'We contribute'). **Truth** ✅ Thesis.
+
+**Abstract:** about 179 words, inside the journal's 100–200.
+
+**Keywords:** phygital hospitality; algorithmic mediation; host obligation; guest standing; accountability; interruptibility (unchanged from v5).
+
+---
+
+## Count
+
+| Part | Entries | Ids |
+|---|---|---|
+| Introduction | 26 | S-001–S-026 |
+| The host's power and the host's obligation | 68 | S-027–S-094 |
+| Delegation and standing | 54 | S-095–S-148 |
+| Assembled hosts at the touchpoint | 104 | S-149–S-252 |
+| Conclusion | 26 | S-253–S-278 |
+| **Body** | **278 of 278** | **S-001–S-278** |
+| Abstract | 6 of 6 | A-1–A-6 |
+
+Marks used, counted in the file below the header: ⚠️ 63 times, ❌ 12 times (each with both attempts kept), REFUSED 1 time (S-069, the stabilization claim).
