@@ -519,3 +519,269 @@ M.039 (the goods a house gives) and M.102 (the stakes of the assumption) are ans
 ### S-094 · 1.11 · ~22w · answers M.089
 - **Move** HOOK to the second step. **Role** last.
 - **Register** Plain statement of the next question; no question mark.
+
+---
+
+## Delegation and standing: Beyond the host in person? · 2.1–2.9 · 1,710 words
+
+### S-095 · 2.1 · ~22w · answers M.090
+- **Move** BRIDGE: credit the field, sum our first step. **Role** first of four.
+- **Support** section 1.
+- **Register** M.090 'While X has been vital …, I have suggested that …' → 'we have argued'.
+
+### S-096 · 2.1 · ~22w · answers M.091
+- **Move** STEP-BEYOND, second, announced. **Role** second.
+- **Owes** Q: names its second half.
+- **Register** M.091 'another area in which we need to push beyond'. *push beyond* is the model's verb and may be used once.
+
+### S-097 · 2.1 · ~42w · answers M.092
+- **Move** EXPOSITION of the field's habit, documented. **Role** third.
+- **Support** Pitt-Rivers 2012: 513, 516; Di Domenico and Lynch 2007: 332 (hosts perceive power to rest 'firmly' with them).
+- **Register** Scholars as subjects; quoted words short.
+
+### S-098 · 2.1 · ~26w · answers M.093
+- **Move** LIMIT, second. **Role** last.
+- **Support** v5 §4 ¶1 (the image of one host fits the small commercial home, not the staffed hotel); I.1.
+- **Register** M.093 is 'profoundly limiting'; ours states the fact and lets it carry the limit. Named subject, no bare 'This' (Reviewer 1.6).
+
+### S-099 · 2.2 · ~14w · answers M.094
+- **Move** where the single host's unity lies: four things. **Role** first of seven.
+- **Register** Plain.
+
+### S-100 · 2.2 · ~14w · answers M.095
+- **Move** DEFINE obligation. **Role** second.
+- **Support** v5 §3.1 ¶2 s2.
+- **Register** Definitions in the order of v5, each a sentence.
+
+### S-101 · 2.2 · ~26w · answers M.096
+- **Move** DEFINE responsibility. **Role** third.
+- **Support** Woodland 2013: para 7; Morgan 2015: 7–8.
+- **Register** Plain.
+
+### S-102 · 2.2 · ~30w · answers M.097
+- **Move** DEFINE authority, stipulated. **Role** fourth.
+- **Support** v5 §3.1 ¶2 s4.
+- **Register** 'We stipulate this sense …'.
+
+### S-103 · 2.2 · ~44w · answers M.098
+- **Move** DEFINE accountability, with Bovens. **Role** fifth.
+- **Support** Bovens 2007: 450, 452.
+- **Register** Bovens' terms named as his.
+
+### S-104 · 2.2 · ~26w · answers M.099
+- **Move** sum: in one host the four sit together, which fits one setting. **Role** last.
+- **Support** Di Domenico and Lynch 2007: 332–335 (v5 §4 ¶1).
+- **Register** Ends on 'a staffed hotel'.
+
+### S-105 · 2.3 · ~18w · answers M.101, M.102
+- **Move** why the separation matters. **Role** first of eight.
+- **Support** v5 §2.3 ¶2 s1.
+- **Register** Plain.
+
+### S-106 · 2.3 · ~42w · answers M.103
+- **Move** credit to the journal for the term. **Role** second.
+- **Support** Bulley 2015 (the agencies that perform the role of an assembled host); Lynch et al. 2011 (micro-hosts and macro-hosts, after Robinson and Lynch 2007). No quotation marks; no page owed.
+- **Register** M.103 praises; ours credits plainly.
+
+### S-107 · 2.3 · ~18w · answers M.105
+- **Move** the question an assembled host raises. **Role** third.
+- **Register** Short topic sentence for the rest of the paragraph.
+
+### S-108 · 2.3 · ~36w · answers M.106
+- **Move** CASE-FACT from law. **Role** fourth.
+- **Support** Crinkley 1988: para 7.
+- **Register** Parties named by function.
+
+### S-109 · 2.3 · ~40w · answers M.106, M.107
+- **Move** the basis and its limit. **Role** fifth.
+- **Support** Crinkley 1988: paras 9, 49–52 ('marginal').
+- **Register** One case read as an illustration, said in the same sentence.
+
+### S-110 · 2.3 · ~34w · answers M.108
+- **Move** a second line from law. **Role** sixth.
+- **Support** Woodland 2013: para 25(3).
+- **Register** Quotation under forty words.
+
+### S-111 · 2.3 · ~34w · answers M.109
+- **Move** credit to those who showed the chain. **Role** seventh.
+- **Support** Cobbe et al. 2023: 1192.
+- **Register** Scholars as subject.
+
+### S-112 · 2.3 · ~44w · answers M.110, M.111
+- **Move** our proposal, with its status. **Role** last.
+- **Owes** T: who among the assembled host answers.
+- **Support** v5 §2.3 ¶2, last two sentences.
+- **Register** 'We propose …'; 'no court has held it'.
+
+### S-113 · 2.4 · ~16w · answers M.112
+- **Move** what is now established, fairly stated. **Role** first of ten.
+- **Register** Plain.
+
+### S-114 · 2.4 · ~8w · answers M.113
+- **Move** one short sentence planting the word. **Role** second.
+- **Register** Short.
+
+### S-115 · 2.4 · ~15w · answers M.114
+- **Move** the driving question. **Role** third; the turn of the paper.
+- **Owes** Q: statement 3.
+- **Register** M.114's frame exactly: 'But what becomes of … once …?'
+
+### S-116 · 2.4 · ~8w · answers M.115
+- **Move** first, short answer. **Role** fourth.
+- **Register** Eight words.
+
+### S-117 · 2.4 · ~36w · answers M.116
+- **Move** the law's statement. **Role** fifth.
+- **Support** Woodland 2013: para 7.
+- **Register** The court as subject.
+
+### S-118 · 2.4 · ~38w · answers M.116
+- **Move** the duty's ground, and a second statement. **Role** sixth.
+- **Support** Woodland 2013: para 7; Morgan 2015: 7.
+- **Register** Two short quotations.
+
+### S-119 · 2.4 · ~42w · answers M.116
+- **Move** GUARD on the borrowing. **Role** seventh.
+- **Support** Woodland 2013: para 25(5) (v5 §2.4 ¶1).
+- **Register** Plain.
+
+### S-120 · 2.4 · ~22w · answers M.117
+- **Move** delegation is old. **Role** eighth.
+- **Support** Calye's Case 1584: fol. 33a.
+- **Register** Statement, not a question (M.117 is one).
+
+### S-121 · 2.4 · ~8w · answers M.118
+- **Move** what changes, short. **Role** ninth.
+- **Register** Short.
+
+### S-122 · 2.4 · ~24w · answers M.119
+- **Move** the contrast. **Role** last.
+- **Support** v5 §2.4 ¶1, last sentence.
+- **Register** Plain contrast of two performers.
+
+### S-123 · 2.5 · ~18w · answers M.121
+- **Move** why the answer matters. **Role** first of seven.
+- **Register** Conditional as in M.121.
+
+### S-124 · 2.5 · ~24w · answers M.122
+- **Move** CONCEDE: what the neighbouring field holds. **Role** second.
+- **Support** Nissenbaum 1996; Kong 2026: 5.
+- **Register** 'Writers on …' named in the citation.
+
+### S-125 · 2.5 · ~32w · answers M.123
+- **Move** the evidence, quoted. **Role** third.
+- **Support** Kong 2026: 4–5, 10.
+- **Register** Scholar as subject.
+
+### S-126 · 2.5 · ~40w · answers M.124
+- **Move** CONCEDE-LIMIT: agree, then the difference. **Role** fourth.
+- **Support** v5 §2.4 ¶2.
+- **Register** 'We agree with …, but …'.
+
+### S-127 · 2.5 · ~24w · answers M.124
+- **Move** the ground of the difference. **Role** fifth.
+- **Support** Woodland 2013: para 24.
+- **Register** Plain.
+
+### S-128 · 2.5 · ~38w · answers M.125
+- **Move** credit returned: a compatible position. **Role** sixth.
+- **Support** Kropf et al. 2026: 7, 9.
+- **Register** Scholars as subject.
+
+### S-129 · 2.5 · ~28w · answers M.126
+- **Move** the conclusion both support. **Role** last.
+- **Support** v5 §2.4 ¶2, last sentence.
+- **Register** Plain.
+
+### S-130 · 2.6 · ~22w · answers M.127
+- **Move** what follows for the guest, conditional. **Role** first of six.
+- **Support** v5 §3.1 ¶1 s1.
+- **Register** Plain.
+
+### S-131 · 2.6 · ~44w · answers M.127
+- **Move** the circularity, shown. **Role** second (Reviewer 2.3a).
+- **Support** Darwall 2013: 36.
+- **Register** Scholar as subject.
+
+### S-132 · 2.6 · ~26w · answers M.129
+- **Move** the way out. **Role** third.
+- **Support** Thompson 2004: 335, 338.
+- **Register** His form quoted.
+
+### S-133 · 2.6 · ~48w · answers M.128
+- **Move** DEFINE standing, owned and counted. **Role** fourth.
+- **Support** v5 §3.1 ¶1.
+- **Register** M.128's 'firstly … secondly' → 'first … second'.
+
+### S-134 · 2.6 · ~36w · answers M.129
+- **Move** support for the first sense. **Role** fifth.
+- **Support** Darwall 2013: 35.
+- **Register** 'as Darwall himself concedes'.
+
+### S-135 · 2.6 · ~22w · answers M.130
+- **Move** the diagnosis. **Role** last.
+- **Support** v5 §3.1 ¶2, last two sentences.
+- **Register** Named subjects.
+
+### S-136 · 2.7 · ~10w · answers M.131
+- **Move** short opening. **Role** first of five.
+- **Register** Short.
+
+### S-137 · 2.7 · ~44w · answers M.132
+- **Move** first evidence: the classical norm. **Role** second.
+- **Support** Pitt-Rivers 2012: 513–514.
+- **Register** One quotation, one paraphrase.
+
+### S-138 · 2.7 · ~38w · answers M.133
+- **Move** second evidence, with its weight. **Role** third.
+- **Support** Di Domenico and Lynch 2007: 333 (researcher's note).
+- **Register** 'one researcher's note' said plainly.
+
+### S-139 · 2.7 · ~42w · answers M.134
+- **Move** what makes a claim proper in commerce. **Role** fourth.
+- **Support** Di Domenico and Lynch 2007: 335; Sandoval-Strausz 2005: 64.
+- **Register** Plain.
+
+### S-140 · 2.7 · ~36w · answers M.134
+- **Move** evidence from the journal. **Role** last.
+- **Support** Moysidou and Stanley 2023 (card `moysidou2023theorizing`, full text). Paraphrased: manuscript pages.
+- **Register** Authors as subject; their setting named.
+
+### S-141 · 2.8 · ~22w · answers M.135
+- **Move** the turn: understanding is not influence. **Role** first of three.
+- **Support** v5 §3.3, last three sentences.
+- **Register** Plain.
+
+### S-142 · 2.8 · ~38w · answers M.135
+- **Move** evidence grouped. **Role** second.
+- **Support** Eslami et al. 2016; Lin 2025; Vaccaro et al. 2020.
+- **Register** One sentence for three findings (house rule 8).
+
+### S-143 · 2.8 · ~24w · answers M.135
+- **Move** the conclusion. **Role** last.
+- **Support** v5 §3.3, last sentence.
+- **Register** Short contrast.
+
+### S-144 · 2.9 · ~16w · answers M.136
+- **Move** the claim the evidence supports. **Role** first of five.
+- **Register** Claim first.
+
+### S-145 · 2.9 · ~32w · answers M.136
+- **Move** CASE-FACT, success. **Role** second.
+- **Support** Xiang et al. 2022 (card: after checking with management the hotel covered the cost of the test).
+- **Register** Paraphrase; no page in an article-number journal is given as a section.
+
+### S-146 · 2.9 · ~26w · answers M.136
+- **Move** CASE-FACT, failure. **Role** third.
+- **Support** Xiang et al. 2022 (card: complaint to the general manager and the group head office).
+- **Register** Plain.
+
+### S-147 · 2.9 · ~30w · answers M.136
+- **Move** CASE-FACT from a bar. **Role** fourth.
+- **Support** Lugosi 2009 (card, section 'Situational dimensions'). Paraphrased: accepted manuscript.
+- **Register** Plain.
+
+### S-148 · 2.9 · ~38w · answers M.137
+- **Move** the close, and HOOK. **Role** last.
+- **Support** v5 §3.4, last two sentences.
+- **Register** M.137 'We can perhaps begin to see'; ours states what follows and names the next section's job.
