@@ -18,13 +18,13 @@
 | M.081 | Displayed quotation (Massey) | The statute is quoted in running text in S-077, under forty words a part; Intellect displays only longer quotations |
 | M.100 | Ties the canon's assumption to the field's | The tie to algorithmic accountability is made in 2.5 and C.2, where it has its evidence |
 | M.104 | Displayed quotation (Derrida) | The assembled host is shown by cases in running text |
-| M.120 | Fifth question in a run of five | A block of questions is the model's signature, not the venue's; Reviewer 3 objected to rhetorical effects. v6 asks one question at the turn (S-118) |
+| M.120 | Fifth question in a run of five | A block of questions is the model's signature, not the venue's; Reviewer 3 objected to rhetorical effects. v6 asks one question at the turn (S-115) |
 | M.141 | Author's self-citation | The manuscript is anonymized |
 | M.152 | A limit of knowledge, stated flatly | Stated in C.4, where the gap search that supports it is reported |
 | M.156 | The paragraph's most concrete sentence | Carried by the four cases in 3.2.3, which would otherwise repeat it |
-| M.210 | A second small concrete fact | One concrete edge case (S-226) is enough |
+| M.210 | A second small concrete fact | One concrete edge case (S-225) is enough |
 
-M.039 (the goods a house gives) and M.102 (the stakes of the assumption) are answered out of position, by S-061 and S-106.
+M.039 (the goods a house gives) and M.102 (the stakes of the assumption) are answered out of position, by S-060 and S-105.
 
 ---
 
@@ -785,3 +785,654 @@ M.039 (the goods a house gives) and M.102 (the stakes of the assumption) are ans
 - **Move** the close, and HOOK. **Role** last.
 - **Support** v5 §3.4, last two sentences.
 - **Register** M.137 'We can perhaps begin to see'; ours states what follows and names the next section's job.
+
+---
+
+## Assembled hosts at the touchpoint · 3.0–3.4.4 · 3,110 words
+
+### S-149 · 3.0 · ~30w · answers M.138
+- **Move** BRIDGE into the case: what the two steps bring into view. **Role** first of five.
+- **Support** sections 1 and 2.
+- **Register** M.138 'When we try to venture beyond …, what becomes apparent is …'. One reaching verb allowed.
+
+### S-150 · 3.0 · ~9w · answers M.139
+- **Move** the obvious setting. **Role** second.
+- **Register** Short.
+
+### S-151 · 3.0 · ~36w · answers M.140
+- **Move** what a scholar in the journal showed of the other side of the path. **Role** third.
+- **Support** Germann Molz 2018: 243–244 (VoR): Airbnb owns no lodging, employs no hosts, and appeals to its platform status to evade legal responsibility.
+- **Register** Paraphrase in place of M.140's forty-word quotation.
+
+### S-152 · 3.0 · ~20w · answers M.142
+- **Move** CASE-SCOPE, owned. **Role** fourth.
+- **Support** v5 §1 ¶1 (formats); special-issue call.
+- **Register** 'To keep with …, we concentrate on …'.
+
+### S-153 · 3.0 · ~28w · answers M.143
+- **Move** what the section will do; its limit in passing. **Role** last; hook.
+- **Support** v5 §9 ¶2 s1 (illustrate, not test).
+- **Register** M.143's 'Though necessarily briefly' → 'as illustrations'.
+
+### S-154 · 3.1.1 · ~32w · answers M.144
+- **Move** DEFINE the split at the head of its subsection. **Role** first of seven (Reviewer 1.3).
+- **Support** v5 §4 ¶1 s1.
+- **Register** 'By the … we mean …'.
+
+### S-155 · 3.1.1 · ~20w · answers M.145
+- **Move** what the split does to a claim. **Role** second.
+- **Support** v5 §4 ¶1 s1.
+- **Register** Plain.
+
+### S-156 · 3.1.1 · ~26w · answers M.146
+- **Move** the prevailing view, with its authors. **Role** third.
+- **Support** Batat 2024: 1220, 1233 (fluidity; seamlessness as goal) (v5 §4 ¶2, §7 ¶3).
+- **Register** Authors named as agents.
+
+### S-157 · 3.1.1 · ~28w · answers M.147
+- **Move** that view at its strongest. **Role** fourth.
+- **Support** Batat and Hammedi 2023; Batat 2024 (v5 §7 ¶3).
+- **Register** Stated fairly; no irony.
+
+### S-158 · 3.1.1 · ~36w · answers M.148
+- **Move** COMPLICATION: a relay. **Role** fifth.
+- **Support** v5 §4 ¶2 (physical moments to records, rulings back to facts; key card; price on the screen).
+- **Register** 'relay' is the one figure kept, argued against 'fluidity' (OUR_BRIEF, register 2).
+
+### S-159 · 3.1.1 · ~22w · answers M.148
+- **Move** what the relay raises. **Role** sixth.
+- **Support** v5 §4 ¶2.
+- **Register** Plain.
+
+### S-160 · 3.1.1 · ~22w · answers M.149
+- **Move** HOOK to formats. **Role** last (Reviewer 3.8).
+- **Support** v5 §4 ¶5 s1.
+- **Register** Named subject.
+
+### S-161 · 3.1.2 · ~14w · answers M.150
+- **Move** formats differentiated. **Role** first of five.
+- **Register** Plain.
+
+### S-162 · 3.1.2 · ~40w · answers M.151
+- **Move** the rental: roles divided; no one at arrival. **Role** second.
+- **Support** Bosma 2022: 601, 605.
+- **Register** 'what Bosma calls ghosting'.
+
+### S-163 · 3.1.2 · ~38w · answers M.153
+- **Move** reading: hosts resist the hotel's role while duties pass to them. **Role** third.
+- **Support** Kaniadakis and Farmaki 2022: 14; Germann Molz 2018: 243–245.
+- **Register** One short quotation.
+
+### S-164 · 3.1.2 · ~18w · answers M.153
+- **Move** the restaurant, by contrast. **Role** fourth.
+- **Support** Batat 2021 (`batat2021ar`).
+- **Register** Plain.
+
+### S-165 · 3.1.2 · ~28w · answers M.154, M.155
+- **Move** the shared question. **Role** last.
+- **Support** v5 §4 ¶5, last sentence.
+- **Register** Plain.
+
+### S-166 · 3.1.3 · ~10w · answers M.157
+- **Move** a general claim. **Role** first of five (Reviewer 3.9).
+- **Register** Short.
+
+### S-167 · 3.1.3 · ~7w · answers M.158
+- **Move** compressed. **Role** second.
+- **Register** Seven words.
+
+### S-168 · 3.1.3 · ~34w · answers M.159
+- **Move** evidence held in full. **Role** third.
+- **Support** Golubovskaya et al. 2017: 1297 (a manager to staff: guests 'cannot demand everything'; 'we have own standard').
+- **Register** Quoted fragments, attributed to the manager.
+
+### S-169 · 3.1.3 · ~42w · answers M.160
+- **Move** two settings set side by side. **Role** fourth.
+- **Support** Di Domenico and Lynch 2007: 332–335; Crinkley 1988: para 7.
+- **Register** A contrast across 'while'.
+
+### S-170 · 3.1.3 · ~32w · answers M.161
+- **Move** what phygital arrangements change. **Role** last.
+- **Support** v5 §4 ¶1, last two sentences.
+- **Register** Three verbs, each distinct: lengthen, obscure, remove.
+
+### S-171 · 3.1.4 · ~20w · answers M.162
+- **Move** the chain named. **Role** first of seven.
+- **Support** v5 §4 ¶2.
+- **Register** Plain.
+
+### S-172 · 3.1.4 · ~12w · answers M.163
+- **Move** three things come apart. **Role** second; announces a count of three that the next three sentences deliver.
+- **Register** Count delivered in order.
+
+### S-173 · 3.1.4 · ~30w · answers M.163
+- **Move** knowledge. **Role** third.
+- **Support** Rahman 2021; Calo and Rosenblat 2017.
+- **Register** Plain.
+
+### S-174 · 3.1.4 · ~28w · answers M.163
+- **Move** discretion. **Role** fourth.
+- **Support** Pedersen and Pors 2023; Spektor et al. 2025.
+- **Register** Plain.
+
+### S-175 · 3.1.4 · ~42w · answers M.164
+- **Move** authority, with the vendor's terms quoted. **Role** fifth.
+- **Support** Scott and Orlikowski 2012; Cobbe et al. 2023: 1195.
+- **Register** Plain.
+
+### S-176 · 3.1.4 · ~28w · answers M.165
+- **Move** the distinction that matters. **Role** sixth.
+- **Support** v5 §4 ¶3, last two sentences.
+- **Register** Plain.
+
+### S-177 · 3.1.4 · ~32w · answers M.166
+- **Move** the subsection's close. **Role** last.
+- **Support** v5 §4 ¶2, last two sentences.
+- **Register** Plain verb; no 'manufacture'.
+
+### S-178 · 3.2.1 · ~16w · answers M.167
+- **Move** BRIDGE into the test. **Role** first of seven.
+- **Register** Plain.
+
+### S-179 · 3.2.1 · ~32w · answers M.168
+- **Move** the test's purpose, before the test (Reviewer 1.4). **Role** second.
+- **Support** v5 §5 ¶1.
+- **Register** Plain.
+
+### S-180 · 3.2.1 · ~18w · answers M.169
+- **Move** who can use it. **Role** third.
+- **Support** v5 §5 ¶1.
+- **Register** Plain.
+
+### S-181 · 3.2.1 · ~30w · answers M.170, M.171
+- **Move** IMPORT announced, with its source. **Role** fourth.
+- **Support** Okhuysen and Bechky 2009: 483.
+- **Register** The source's triad, not decoration.
+
+### S-182 · 3.2.1 · ~40w · answers M.172
+- **Move** each condition filled from the host's duties (replaces v5 Table 1). **Role** fifth.
+- **Support** v5 §5 ¶1 and Table 1.
+- **Register** Three clauses, one per condition.
+
+### S-183 · 3.2.1 · ~36w · answers M.173
+- **Move** degrees; accountability cannot be made up by the others. **Role** sixth.
+- **Support** v5 §5 ¶2.
+- **Register** No 'bought back'.
+
+### S-184 · 3.2.1 · ~42w · answers M.173
+- **Move** two supporting positions. **Role** last.
+- **Support** Batat 2024: 1234; Ananny and Crawford 2018: 984.
+- **Register** One quotation, one paraphrase.
+
+### S-185 · 3.2.2 · ~14w · answers M.174
+- **Move** the questions announced, with their order. **Role** first of five.
+- **Register** Announces a count it delivers.
+
+### S-186 · 3.2.2 · list, ~50w · answers M.174
+- **Move** the six questions, displayed. **Role** display.
+- **Support** v5 Table 2.
+- **Register** Questions asked outright, in a numbered list (REGISTER rule 2: questions belong in display).
+
+### S-187 · 3.2.2 · ~22w · answers M.175
+- **Move** what the first three examine. **Role** third.
+- **Support** v5 §5 ¶3.
+- **Register** Plain.
+
+### S-188 · 3.2.2 · ~32w · answers M.176
+- **Move** what the fourth and fifth separate. **Role** fourth.
+- **Support** v5 §5 ¶3.
+- **Register** Plain.
+
+### S-189 · 3.2.2 · ~40w · answers M.177
+- **Move** the sixth, with its reason. **Role** last.
+- **Support** v5 §5 ¶3; Hirschman 1970.
+- **Register** Plain.
+
+### S-190 · 3.2.3 · ~14w · answers M.178
+- **Move** cases announced. **Role** first of eight (Reviewer 3.7).
+- **Register** Short.
+
+### S-191 · 3.2.3 · ~30w · answers M.179
+- **Move** CASE-FACT, pricing. **Role** second.
+- **Support** Garcia et al. 2026.
+- **Register** Plain.
+
+### S-192 · 3.2.3 · ~42w · answers M.180
+- **Move** reading of the pricing case. **Role** third.
+- **Support** v5 §5 ¶4; Article 29 Working Party 2018: 22.
+- **Register** Plain.
+
+### S-193 · 3.2.3 · ~36w · answers M.181
+- **Move** CASE-FACT, identity. **Role** fourth.
+- **Support** Xu et al. 2021.
+- **Register** Plain contrast of two jobs.
+
+### S-194 · 3.2.3 · ~12w · answers M.181
+- **Move** reading. **Role** fifth.
+- **Register** Short.
+
+### S-195 · 3.2.3 · ~30w · answers M.182, M.183
+- **Move** CASE-FACT, rental, and its reading. **Role** sixth.
+- **Support** Bosma 2022: 605.
+- **Register** Plain.
+
+### S-196 · 3.2.3 · ~38w · answers M.184, M.185
+- **Move** CASE-FACT, restaurant, and its reading. **Role** seventh.
+- **Support** Batat 2021.
+- **Register** Plain.
+
+### S-197 · 3.2.3 · ~20w · answers M.186
+- **Move** what the cases show together. **Role** last.
+- **Support** v5 §5 ¶1.
+- **Register** Plain.
+
+### S-198 · 3.2.4 · ~16w · answers M.187
+- **Move** COMPLICATION: an employee stands between. **Role** first of five.
+- **Register** Plain.
+
+### S-199 · 3.2.4 · ~26w · answers M.188
+- **Move** CASE-FACT, the craft. **Role** second.
+- **Support** Bendoly 2013.
+- **Register** Plain.
+
+### S-200 · 3.2.4 · ~38w · answers M.188
+- **Move** translation in both directions. **Role** third.
+- **Support** Jianu et al. 2025; v5 §4 ¶4.
+- **Register** Plain.
+
+### S-201 · 3.2.4 · ~30w · answers M.189
+- **Move** fragility. **Role** fourth.
+- **Support** Hatherley 2025.
+- **Register** Plain.
+
+### S-202 · 3.2.4 · ~42w · answers M.189
+- **Move** silence, grouped evidence. **Role** fifth.
+- **Support** Fuller and Smith 1991; Möhlmann et al. 2021; Morrison 2014; Cheng et al. 2025.
+- **Register** One sentence for four findings.
+
+### S-203 · 3.2.4 · ~22w · answers M.190
+- **Move** HOOK. **Role** last.
+- **Register** M.190 'It is useful, therefore, to ask …'.
+
+### S-204 · 3.3.1 · ~11w · answers M.191
+- **Move** the appearance to be corrected. **Role** first of six.
+- **Register** Plain; no self-praise.
+
+### S-205 · 3.3.1 · ~44w · answers M.192
+- **Move** the distinction, from its source. **Role** second.
+- **Support** Baum and Laux 2026: 6 (arXiv version).
+- **Register** Scholars as subject.
+
+### S-206 · 3.3.1 · ~44w · answers M.193
+- **Move** three kinds of control. **Role** third.
+- **Support** Baum and Laux 2026: 6–8.
+- **Register** A triad from the source.
+
+### S-207 · 3.3.1 · ~14w · answers M.194
+- **Move** applied to hospitality. **Role** fourth.
+- **Register** Plain.
+
+### S-208 · 3.3.1 · ~34w · answers M.194
+- **Move** the boundary, first clause. **Role** fifth.
+- **Support** v5 §6 ¶1.
+- **Register** Plain.
+
+### S-209 · 3.3.1 · ~30w · answers M.194
+- **Move** the boundary, other two clauses. **Role** last.
+- **Support** v5 §6 ¶1.
+- **Register** Plain.
+
+### S-210 · 3.3.2 · ~10w · answers M.195
+- **Move** the table called out. **Role** first of six.
+- **Register** Plain.
+
+### S-211 · 3.3.2 · table · answers M.195
+- **Move** Table 1. **Support** v5 Table 3.
+
+### S-212 · 3.3.2 · ~40w · answers M.196
+- **Move** the top of the table. **Role** second.
+- **Support** v5 Table 3; Article 29 Working Party 2018: 21.
+- **Register** Plain.
+
+### S-213 · 3.3.2 · ~16w · answers M.197
+- **Move** the bottom. **Role** third.
+- **Register** Short.
+
+### S-214 · 3.3.2 · ~28w · answers M.198
+- **Move** the middle. **Role** fourth.
+- **Support** v5 Table 3.
+- **Register** Plain.
+
+### S-215 · 3.3.2 · ~16w · answers M.199
+- **Move** status of the placements. **Role** fifth.
+- **Support** v5 §6 ¶1, last sentence.
+- **Register** Flat.
+
+### S-216 · 3.3.2 · ~18w · answers M.200
+- **Move** tie back to the host's obligation. **Role** last.
+- **Register** Plain.
+
+### S-217 · 3.3.3 · ~12w · answers M.201
+- **Move** the law as a floor. **Role** first of ten.
+- **Register** Plain.
+
+### S-218 · 3.3.3 · ~44w · answers M.202
+- **Move** the right, quoted. **Role** second.
+- **Support** Regulation (EU) 2016/679, art. 22(3).
+- **Register** Quotation under forty words.
+
+### S-219 · 3.3.3 · ~24w · answers M.203
+- **Move** who the reviewer must be. **Role** third.
+- **Support** Article 29 Working Party 2018: 27.
+- **Register** Plain.
+
+### S-220 · 3.3.3 · ~24w · answers M.204
+- **Move** what the law does not give. **Role** fourth.
+- **Support** art. 22(2)(a); v5 §6 ¶2.
+- **Register** Plain.
+
+### S-221 · 3.3.3 · ~13w · answers M.205
+- **Move** consequence. **Role** fifth.
+- **Register** Short.
+
+### S-222 · 3.3.3 · ~20w · answers M.206
+- **Move** where the framework explains most. **Role** sixth.
+- **Register** Plain.
+
+### S-223 · 3.3.3 · ~10w · answers M.207
+- **Move** where it explains less. **Role** seventh.
+- **Register** Short.
+
+### S-224 · 3.3.3 · ~46w · answers M.208
+- **Move** its edge, from law. **Role** eighth.
+- **Support** Civil Rights Act 1964, § 2000a(b)(1).
+- **Register** Quoted parts under forty words.
+
+### S-225 · 3.3.3 · ~17w · answers M.209
+- **Move** the edge made concrete. **Role** ninth.
+- **Register** Plain.
+
+### S-226 · 3.3.3 · ~9w · answers M.211
+- **Move** the close. **Role** last.
+- **Register** Short.
+
+### S-227 · 3.4.1 · ~13w · answers M.212
+- **Move** a disagreement in the field. **Role** first of six.
+- **Register** Plain.
+
+### S-228 · 3.4.1 · ~36w · answers M.212
+- **Move** both sides, sourced. **Role** second.
+- **Support** Mosca and La Rosa 2019; Mosca 2026.
+- **Register** Plain.
+
+### S-229 · 3.4.1 · ~16w · answers M.212
+- **Move** our verdict on concealment. **Role** third.
+- **Support** v5 §7 ¶1.
+- **Register** Plain.
+
+### S-230 · 3.4.1 · ~18w · answers M.212
+- **Move** the division that organizes the subsection. **Role** fourth.
+- **Support** v5 §7 ¶1.
+- **Register** Plain.
+
+### S-231 · 3.4.1 · ~52w · answers M.213
+- **Move** three interface principles, each with its reason. **Role** fifth.
+- **Support** Pigac et al. 2026: 286; Yeung 2017; Hatherley 2025.
+- **Register** A semicolon list of three distinct members.
+
+### S-232 · 3.4.1 · ~16w · answers M.214
+- **Move** what they do not do. **Role** last.
+- **Register** Plain.
+
+### S-233 · 3.4.2 · ~11w · answers M.215
+- **Move** the institutional principles announced. **Role** first of six.
+- **Register** Plain.
+
+### S-234 · 3.4.2 · ~38w · answers M.215
+- **Move** the first: reachable authority to reverse. **Role** second.
+- **Support** Baum and Laux 2026: 12.
+- **Register** One quotation.
+
+### S-235 · 3.4.2 · ~40w · answers M.215
+- **Move** evidence grouped. **Role** third.
+- **Support** Lyons et al. 2021; Shabnam et al. 2026 (paraphrased: no printed pages); Martin and Waldman 2023.
+- **Register** Plain.
+
+### S-236 · 3.4.2 · ~18w · answers M.216
+- **Move** the same in few words. **Role** fourth.
+- **Register** Short.
+
+### S-237 · 3.4.2 · ~44w · answers M.217
+- **Move** the second: a real alternative. **Role** fifth (Reviewer 1.1).
+- **Support** Wilson-Nash et al. 2026: 976, 978, 979.
+- **Register** Plain.
+
+### S-238 · 3.4.2 · ~28w · answers M.217
+- **Move** what the cost is paid in. **Role** last.
+- **Support** Kim et al. 2025 (**abstract only**: mandatory self-service as labour moved to the customer).
+- **Register** Claim kept within the abstract.
+
+### S-239 · 3.4.3 · ~11w · answers none (W2)
+- **Move** where interruptibility is owed. **Role** first of seven.
+- **Register** Plain.
+
+### S-240 · 3.4.3 · ~32w · answers none (W2)
+- **Move** smoothness, and the journal's own criticism. **Role** second.
+- **Support** Batat 2024; Weaver 2026 (**abstract only**: speed set by large corporations).
+- **Register** Plain.
+
+### S-241 · 3.4.3 · ~32w · answers none (W2)
+- **Move** what smoothness can remove. **Role** third.
+- **Support** Star and Ruhleder 1996 (v5 §7 ¶3).
+- **Register** One chiasmus kept from v5 only if it states a fact; otherwise plain.
+
+### S-242 · 3.4.3 · ~30w · answers none (W2)
+- **Move** DEFINE interruptibility. **Role** fourth.
+- **Support** v5 §7 ¶3.
+- **Register** 'By interruptibility we mean …'.
+
+### S-243 · 3.4.3 · ~30w · answers none (W2)
+- **Move** seams need someone behind them. **Role** fifth.
+- **Support** Chalmers and Galani 2004.
+- **Register** Plain.
+
+### S-244 · 3.4.3 · ~30w · answers none (W2)
+- **Move** where it is owed. **Role** sixth.
+- **Support** subsection 3.3.
+- **Register** Plain.
+
+### S-245 · 3.4.3 · ~26w · answers none (W2)
+- **Move** voice without authority. **Role** last.
+- **Support** Lind et al. 1990.
+- **Register** Plain.
+
+### S-246 · 3.4.4 · ~16w · answers M.218
+- **Move** the roadmap announced, with its table. **Role** first of six.
+- **Register** Plain.
+
+### S-247 · 3.4.4 · ~38w · answers M.218
+- **Move** the first three stages. **Role** second.
+- **Support** v5 §7 ¶4.
+- **Register** Plain.
+
+### S-248 · 3.4.4 · ~32w · answers M.218
+- **Move** the fourth, with Bovens' forum. **Role** third (Reviewer 3.13).
+- **Support** Bovens 2007: 450, 452.
+- **Register** Plain.
+
+### S-249 · 3.4.4 · ~26w · answers M.218
+- **Move** the forum in a hotel. **Role** fourth.
+- **Support** v5 §7 ¶4.
+- **Register** Plain.
+
+### S-250 · 3.4.4 · ~28w · answers M.218
+- **Move** the fifth; Table 1's use. **Role** fifth.
+- **Support** v5 §7 ¶4.
+- **Register** Plain.
+
+### S-251 · 3.4.4 · ~22w · answers M.218
+- **Move** the section's close. **Role** last.
+- **Support** v5 §7 ¶4, last sentence.
+- **Register** No idiom.
+
+### S-252 · 3.4.4 · table · answers M.218
+- **Move** Table 2. **Support** v5 Table 4.
+
+---
+
+## Conclusion · C.1–C.5 · 1,000 words
+
+### S-253 · C.1 · ~18w · answers M.219
+- **Move** CANON-STANDING, last time. **Role** first of three.
+- **Register** Plain credit.
+
+### S-254 · C.1 · ~30w · answers M.220
+- **Move** LIMIT, last time. **Role** second.
+- **Register** Plain.
+
+### S-255 · C.1 · ~22w · answers M.221
+- **Move** the need. **Role** last.
+- **Register** Plain.
+
+### S-256 · C.2 · ~40w · answers M.222
+- **Move** RESTATE. **Role** first of eight.
+- **Owes** Q: answered (`OUR_BRIEF.md`, 5).
+- **Support** v5 §9 ¶1.
+- **Register** 'In this article we have argued that …'.
+
+### S-257 · C.2 · ~30w · answers M.222
+- **Move** RESTATE, the thesis. **Role** second.
+- **Support** v5 §9 ¶1.
+- **Register** Varied from S-018, not repeated.
+
+### S-258 · C.2 · ~22w · answers M.223
+- **Move** what the argument is good for. **Role** third.
+- **Support** v5 §8 ¶2.
+- **Register** Plain.
+
+### S-259 · C.2 · ~46w · answers M.224
+- **Move** the neighbouring routes. **Role** fourth.
+- **Support** Kong 2026: 5, 10; Cobbe et al. 2023: 1193 (v5 §8 ¶2).
+- **Register** Plain.
+
+### S-260 · C.2 · ~20w · answers M.224
+- **Move** the role account's own question. **Role** fifth.
+- **Register** Plain.
+
+### S-261 · C.2 · ~50w · answers none (W4)
+- **Move** what regulation leaves to firms. **Role** sixth.
+- **Support** Regulation (EU) 2024/1689, art. 14(4)(e) (v5 §8 ¶2).
+- **Register** Plain.
+
+### S-262 · C.2 · ~38w · answers M.225
+- **Move** what the paper offers, counted. **Role** seventh (Reviewer 3.16).
+- **Support** v5 §8 ¶1.
+- **Register** 'first … second … third'.
+
+### S-263 · C.2 · ~36w · answers M.226
+- **Move** human-centricity defined (the editor). **Role** last.
+- **Support** v5 §8 ¶2 (the authors' v4 sentences, in substance).
+- **Register** Our words close; no quotation.
+
+### S-264 · C.3 · ~15w · answers M.227
+- **Move** GUARD, and the status of the cases. **Role** first of five.
+- **Support** v5 §9 ¶2 s1.
+- **Register** Plain.
+
+### S-265 · C.3 · ~44w · answers M.228
+- **Move** limit one: jurisdictions. **Role** second.
+- **Support** v5 §9 ¶2.
+- **Register** 'First, …'.
+
+### S-266 · C.3 · ~26w · answers M.228
+- **Move** limit two: the typology. **Role** third.
+- **Support** v5 §9 ¶2.
+- **Register** 'Second, …'.
+
+### S-267 · C.3 · ~38w · answers M.229
+- **Move** limit three: the borrowed structure. **Role** fourth.
+- **Support** v5 §9 ¶2.
+- **Register** 'Third, …'.
+
+### S-268 · C.3 · ~22w · answers M.229
+- **Move** limit four: the evidence is others'. **Role** last.
+- **Support** v5 §9 ¶2 s1 (cases illustrate); the cases in 3.2.3 and 2.9 are all from published studies and judgments.
+- **Register** Plain.
+
+### S-269 · C.4 · ~13w · answers M.230
+- **Move** the studies announced. **Role** first of five.
+- **Register** Count delivered.
+
+### S-270 · C.4 · ~32w · answers M.230
+- **Move** study one. **Role** second.
+- **Support** v5 §9 ¶3.
+- **Register** Plain.
+
+### S-271 · C.4 · ~26w · answers M.230 (and stands for M.152)
+- **Move** the gap behind study one. **Role** third.
+- **Support** v5 §9 ¶3; Xiang et al. 2022.
+- **Register** 'we found no such study in …'.
+
+### S-272 · C.4 · ~40w · answers M.231
+- **Move** study two, with its gap. **Role** fourth.
+- **Support** v5 §9 ¶3.
+- **Register** Plain.
+
+### S-273 · C.4 · ~40w · answers M.231
+- **Move** study three, and one open question. **Role** last.
+- **Support** v5 §9 ¶3.
+- **Register** Plain.
+
+### S-274 · C.5 · ~22w · answers M.232
+- **Move** well-being, with its literature. **Role** first of five (Reviewer 3.18).
+- **Support** Anderson and Ostrom 2015; Batat 2022.
+- **Register** Plain.
+
+### S-275 · C.5 · ~28w · answers M.232
+- **Move** the individual guest. **Role** second.
+- **Support** v5 §8 ¶3.
+- **Register** Plain.
+
+### S-276 · C.5 · ~46w · answers M.232
+- **Move** communities: a range. **Role** third.
+- **Support** De Vos et al. 2024.
+- **Register** Plain.
+
+### S-277 · C.5 · ~38w · answers M.232
+- **Move** the gains (the editor). **Role** fourth.
+- **Support** v5 §8 ¶3, last three sentences.
+- **Register** No 'None of this is a case against …' pre-emption.
+
+### S-278 · C.5 · ~48w · answers M.233
+- **Move** last sentence: where the obligation has an address. **Role** last.
+- **Support** v5 §9 ¶4.
+- **Register** No epigram; ends on the guest's reach.
+
+---
+
+## Abstract · A-1 to A-6 · about 155 words · model: Germann Molz (2018) abstract (VoR)
+
+| Id | Move (Germann Molz's) | Claim | Support |
+|---|---|---|---|
+| A-1 | phenomenon ('Tourists are increasingly turning to …') | Hospitality firms hand the work of hosting to algorithmic systems supplied by several firms | v5 abstract s1 |
+| A-2 | stakes ('For better or for worse, …') | Each places the party that decides at a distance from the guest | I.1 |
+| A-3 | 'The article begins by …' | Begins from hospitality studies' account of the host and argues that the obligation is a role obligation | section 1 |
+| A-4 | 'It then asks …' | Asks what becomes of it when the work is handed on: work delegable, duty not; standing survives, exercise needs reachable authority | section 2 |
+| A-5 | 'Drawing on …, the analysis …' | Drawing on the law of innkeepers, the analysis offers a test scoped by decision and a roadmap | section 3 |
+| A-6 | (thesis, ours) | What mediation removes is the guest's path to anyone with authority to answer | thesis |
+
+---
+
+## Count
+
+| Part | Entries | Ids |
+|---|---|---|
+| Introduction | 26 | S-001–S-026 |
+| The host's power and the host's obligation | 68 | S-027–S-094 |
+| Delegation and standing | 54 | S-095–S-148 |
+| Assembled hosts at the touchpoint | 104 (one list, two tables) | S-149–S-252 |
+| Conclusion | 26 | S-253–S-278 |
+| **Body** | **278** | **S-001–S-278** |
+| Abstract | 6 | A-1–A-6 |
+
+Every model entry M.001–M.233 is answered or carries a warrant in the table at the head of this file.
