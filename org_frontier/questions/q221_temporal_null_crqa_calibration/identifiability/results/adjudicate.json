@@ -1,0 +1,4412 @@
+{
+ "rows": [
+  {
+   "a": [
+    "nsi",
+    0,
+    3,
+    3
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    5
+   ],
+   "a_const_nodes": [
+    0
+   ],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "nsi",
+    6,
+    3,
+    3
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    5
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 2.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    9,
+    5
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    5
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    9,
+    5
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    5
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    6,
+    9,
+    5
+   ],
+   "b": [
+    "aff",
+    14,
+    9,
+    5
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 2.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    6,
+    9,
+    5
+   ],
+   "b": [
+    "aff",
+    15,
+    9,
+    5
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 2.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "nsi",
+    0,
+    3,
+    12
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    4
+   ],
+   "a_const_nodes": [
+    0
+   ],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "nsi",
+    6,
+    3,
+    12
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    4
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 2.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    9,
+    4
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    4
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    9,
+    4
+   ],
+   "b": [
+    "aff",
+    6,
+    9,
+    4
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    6,
+    9,
+    4
+   ],
+   "b": [
+    "aff",
+    14,
+    9,
+    4
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     0.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 2.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    0,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "a_const_nodes": [
+    1
+   ],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    0,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "a_const_nodes": [
+    1
+   ],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    0,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [
+    1
+   ],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    0,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [
+    1
+   ],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    0,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [
+    1
+   ],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": false,
+   "same_auto": false,
+   "no_constant_node": false
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    4,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    4,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    4,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    4,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    4,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    5,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    5,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    5,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    5,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    5,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": true,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": true,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": true,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    6,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     2.0
+    ]
+   },
+   "a_B_margin": 2.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    12,
+    10
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    14,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     0.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    9,
+    12,
+    11
+   ],
+   "b": [
+    "aff",
+    9,
+    15,
+    12
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    8
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    9
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    4,
+    7
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    4,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    6
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    7
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    8
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    9
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    12,
+    4,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    6
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    7
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    12
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    9
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    12
+   ],
+   "b": [
+    "aff",
+    12,
+    4,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    12
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    6
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    12
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    7
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    12
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    14
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    9
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    14
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    6
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    14
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    7
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    10,
+    14
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    9
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    7
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    10,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    6,
+    10,
+    9
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1
+    ],
+    "phi": 2.0,
+    "B": [
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     1.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    10,
+    7
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    10,
+    12
+   ],
+   "b": [
+    "aff",
+    12,
+    5,
+    14
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     1.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 1.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    8,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    8,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 0.0
+  },
+  {
+   "a": [
+    "aff",
+    2,
+    8,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    8,
+    11
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 0.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    8,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    8,
+    10
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 0.0
+  },
+  {
+   "a": [
+    "aff",
+    3,
+    8,
+    6
+   ],
+   "b": [
+    "aff",
+    12,
+    8,
+    11
+   ],
+   "a_const_nodes": [],
+   "a_target": {
+    "core": [
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     0
+    ],
+    "base": 2.0,
+    "drops": [
+     2.0,
+     1.0,
+     1.0
+    ]
+   },
+   "a_B_margin": 1.0,
+   "a_rules": null,
+   "b_const_nodes": [],
+   "b_target": {
+    "core": [
+     0,
+     1,
+     2
+    ],
+    "phi": 2.0,
+    "B": [
+     1,
+     2
+    ],
+    "base": 2.0,
+    "drops": [
+     1.0,
+     2.0,
+     2.0
+    ]
+   },
+   "b_B_margin": 1.0,
+   "b_rules": null,
+   "same_means": true,
+   "same_auto": false,
+   "no_constant_node": true,
+   "a_core_tie_gap": 1.0,
+   "b_core_tie_gap": 0.0
+  }
+ ],
+ "representative": {
+  "a": [
+   "aff",
+   9,
+   6,
+   10
+  ],
+  "b": [
+   "aff",
+   9,
+   15,
+   10
+  ],
+  "a_const_nodes": [],
+  "a_target": {
+   "core": [
+    0,
+    2
+   ],
+   "phi": 2.0,
+   "B": [
+    0,
+    2
+   ],
+   "base": 2.0,
+   "drops": [
+    2.0,
+    0.0,
+    2.0
+   ]
+  },
+  "a_B_margin": 2.0,
+  "a_rules": null,
+  "b_const_nodes": [],
+  "b_target": {
+   "core": [
+    0,
+    2
+   ],
+   "phi": 2.0,
+   "B": [
+    2
+   ],
+   "base": 2.0,
+   "drops": [
+    1.0,
+    0.0,
+    2.0
+   ]
+  },
+  "b_B_margin": 1.0,
+  "b_rules": null,
+  "same_means": true,
+  "same_auto": true,
+  "no_constant_node": true,
+  "a_core_tie_gap": 1.0,
+  "b_core_tie_gap": 1.0
+ },
+ "finite_sample": {
+  "a": {
+   "maxprom": [
+    0.06069778741072485,
+    0.0009594233511420541
+   ],
+   "anyev": [
+    0.68,
+    0.023353017118164905
+   ],
+   "noev": [
+    0.32,
+    0.023353017118164905
+   ],
+   "score_own": [
+    0.6433333333333334,
+    0.013442017359304023
+   ],
+   "score_other": [
+    0.31416666666666665,
+    0.01294434405000849
+   ],
+   "mean_x": [
+    0.5013375000000001,
+    0.0017476233886917145
+   ],
+   "mean_y": [
+    0.49863749999999996,
+    0.001390143611395433
+   ],
+   "mean_h": [
+    0.49828333333333336,
+    0.0017805086194755512
+   ],
+   "pick_share_XYH": [
+    0.3292,
+    0.3567,
+    0.3142
+   ]
+  },
+  "b": {
+   "maxprom": [
+    0.06063869095940985,
+    0.0009299034110518509
+   ],
+   "anyev": [
+    0.6925,
+    0.023101809648219257
+   ],
+   "noev": [
+    0.3075,
+    0.023101809648219257
+   ],
+   "score_own": [
+    0.33,
+    0.013734564511569809
+   ],
+   "score_other": [
+    0.6375000000000001,
+    0.01361946276774056
+   ],
+   "mean_x": [
+    0.5013375000000001,
+    0.0017476233886917145
+   ],
+   "mean_y": [
+    0.49933750000000005,
+    0.0014409728550793268
+   ],
+   "mean_h": [
+    0.49828333333333336,
+    0.0017805086194755512
+   ],
+   "pick_share_XYH": [
+    0.3075,
+    0.3625,
+    0.33
+   ]
+  }
+ },
+ "R": 400
+}

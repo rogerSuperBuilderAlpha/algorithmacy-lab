@@ -1,0 +1,75 @@
+box-run: start 'q221-verify-cands' [test, 2000 MB est, as-cap off MB, timeout 1800s] after 0s wait
+
+Welcome to PyPhi!
+
+If you use PyPhi in your research, please cite the paper:
+
+  Mayner WGP, Marshall W, Albantakis L, Findlay G, Marchman R, Tononi G.
+  (2018). PyPhi: A toolbox for integrated information theory.
+  PLOS Computational Biology 14(7): e1006343.
+  https://doi.org/10.1371/journal.pcbi.1006343
+
+Documentation is available online (or with the built-in `help()` function):
+  https://pyphi.readthedocs.io
+
+To report issues, please use the issue tracker on the GitHub repository:
+  https://github.com/wmayner/pyphi
+
+For general discussion, you are welcome to join the pyphi-users group:
+  https://groups.google.com/forum/#!forum/pyphi-users
+
+To suppress this message, either:
+  - Set `WELCOME_OFF: true` in your `pyphi_config.yml` file, or
+  - Set the environment variable PYPHI_WELCOME_OFF to any value in your shell:
+        export PYPHI_WELCOME_OFF='yes'
+
+candidates (non-iso under 6 perms, distinct eligible B, margin ok): 7488
+  of which isomorphic under perm x value-relabeling (48-group): 1008
+  remaining (not isomorphic under the 48-group): 6480 ; unique up to node relabeling: 589
+  unique up to the 48-group: 74
+  family breakdown of 48-group-unique pairs: {('nsi', 'aff'): 4, ('aff', 'aff'): 70}
+
+==== representative pair
+ a ['nsi', 0, 3, 3] :: X' = 0; Y' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; H' = ~X~Y~H | X~Y~H | ~X~YH | X~YH
+    q161: core=[1, 2] Φ=2.0000 base=2.0000 drops=[0.0, 2.0, 2.0] B=[1, 2]
+    own clamp0: base=2.0000 core=(1, 2) drops=[0.0, 2.0, 2.0] B=[1, 2]
+    own clamp1: base=2.0000 core=(1, 2) drops=[0.0, 2.0, 2.0] B=[1, 2]
+ b ['aff', 6, 9, 5] :: X' = X~Y~H | ~XY~H | X~YH | ~XYH; Y' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; H' = ~X~Y~H | X~Y~H | ~X~YH | X~YH
+    q161: core=[1, 2] Φ=2.0000 base=2.0000 drops=[0.0, 1.0, 2.0] B=[2]
+    own clamp0: base=2.0000 core=(1, 2) drops=[0.0, 1.0, 2.0] B=[2]
+    own clamp1: base=2.0000 core=(1, 2) drops=[0.0, 1.0, 2.0] B=[2]
+ exact cross profiles equal (6 ordered pairs, lags 0..20 each way): True ; distinct values: ['1/2', '1016954145236702/2384185791015625', '1510208609522/3814697265625', '175274692034420134520217422/363797880709171295166015625', '2/25', '2151213542/6103515625']
+
+==== representative pair
+ a ['nsi', 0, 3, 12] :: X' = 0; Y' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; H' = ~XY~H | XY~H | ~XYH | XYH
+    q161: core=[1, 2] Φ=2.0000 base=2.0000 drops=[0.0, 2.0, 2.0] B=[1, 2]
+    own clamp0: base=2.0000 core=(1, 2) drops=[0.0, 2.0, 2.0] B=[1, 2]
+    own clamp1: base=2.0000 core=(1, 2) drops=[0.0, 2.0, 2.0] B=[1, 2]
+ b ['aff', 6, 9, 4] :: X' = X~Y~H | ~XY~H | X~YH | ~XYH; Y' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; H' = ~XY~H | XY~H | ~XYH | XYH
+    q161: core=[1, 2] Φ=2.0000 base=2.0000 drops=[0.0, 1.0, 2.0] B=[2]
+    own clamp0: base=2.0000 core=(1, 2) drops=[0.0, 1.0, 2.0] B=[2]
+    own clamp1: base=2.0000 core=(1, 2) drops=[0.0, 1.0, 2.0] B=[2]
+ exact cross profiles equal (6 ordered pairs, lags 0..20 each way): True ; distinct values: ['1/2', '1016954145236702/2384185791015625', '12443/15625', '1367231645778923/2384185791015625', '1510208609522/3814697265625', '175274692034420134520217422/363797880709171295166015625']
+
+==== representative pair
+ a ['aff', 9, 0, 10] :: X' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; Y' = 0; H' = X~Y~H | XY~H | ~X~YH | ~XYH
+    q161: core=[0, 2] Φ=2.0000 base=2.0000 drops=[2.0, 0.0, 2.0] B=[0, 2]
+    own clamp0: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 2.0] B=[0, 2]
+    own clamp1: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 2.0] B=[0, 2]
+ b ['aff', 9, 12, 10] :: X' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; Y' = ~XY~H | XY~H | ~X~YH | X~YH; H' = X~Y~H | XY~H | ~X~YH | ~XYH
+    q161: core=[0, 2] Φ=2.0000 base=2.0000 drops=[2.0, 0.0, 1.0] B=[0]
+    own clamp0: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 1.0] B=[0]
+    own clamp1: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 1.0] B=[0]
+ exact cross profiles equal (6 ordered pairs, lags 0..20 each way): True ; distinct values: ['1/2', '1016954145236702/2384185791015625', '110765544212423038478689320602/227373675443232059478759765625', '1510208609522/3814697265625', '175274692034420134520217422/363797880709171295166015625', '2/25']
+
+==== representative pair
+ a ['aff', 9, 0, 10] :: X' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; Y' = 0; H' = X~Y~H | XY~H | ~X~YH | ~XYH
+    q161: core=[0, 2] Φ=2.0000 base=2.0000 drops=[2.0, 0.0, 2.0] B=[0, 2]
+    own clamp0: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 2.0] B=[0, 2]
+    own clamp1: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 2.0] B=[0, 2]
+ b ['aff', 9, 12, 11] :: X' = ~X~Y~H | X~Y~H | ~XY~H | XY~H; Y' = ~XY~H | XY~H | ~X~YH | X~YH; H' = ~X~Y~H | ~XY~H | X~YH | XYH
+    q161: core=[0, 2] Φ=2.0000 base=2.0000 drops=[2.0, 0.0, 1.0] B=[0]
+    own clamp0: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 1.0] B=[0]
+    own clamp1: base=2.0000 core=(0, 2) drops=[2.0, 0.0, 1.0] B=[0]
+ exact cross profiles equal (6 ordered pairs, lags 0..20 each way): True ; distinct values: ['1/2', '1016954145236702/2384185791015625', '110765544212423038478689320602/227373675443232059478759765625', '1510208609522/3814697265625', '175274692034420134520217422/363797880709171295166015625', '2/25']
+box-run: done 'q221-verify-cands' rc=0 waited=0s ran=27s
