@@ -903,3 +903,487 @@ Note 1 and the other notes are not partitioned. The journal discourages notes an
 - **Thesis** — a hook to the second step.
 - **Register** — *limit*, *deconstruct*. Formal inversion ('Should we').
 - **Our slot** — the section's close and hook: the question for the next section is what becomes of the obligation when the holder hands the work to others.
+
+---
+
+## 'Power and hospitality: Beyond sovereign mastery?' · 7 paragraphs · pp. 8–11
+
+### M.090 · S2 ¶1 · p. 8 · ~40w
+> 'While Derrida's work has been vital … other potentially ethical conduct.' Frame: *While X's work has been vital for drawing out the A, B and C of …, I have suggested that we also need to be clearer than he allows in …*.
+
+- **Move** — BRIDGE. Credits the canon again, then sums the first section's result in the author's own voice.
+- **Paragraph role** — first of four. The section opens by looking back.
+- **Research question** — none new.
+- **Thesis** — first step, recalled.
+- **Register** — *drawing out*, *suggested*, *separating*. 'vital' is praise. 'I have suggested' reports his own earlier move.
+- **Our slot** — the bridge: the field has been right about what the host owes; we have argued that the obligation belongs to a role. One sentence.
+
+### M.091 · S2 ¶1 · p. 8 · ~25w
+> 'But another area in which we need to push beyond Derrida's thought … practices of hospitality.' Frame: *But another area in which we need to push beyond X's thought is in the relation between A and B*.
+
+- **Move** — STEP-BEYOND, the second, announced as a further area.
+- **Paragraph role** — second. States the section's business.
+- **Research question** — names its second half: power.
+- **Thesis** — second step, announced.
+- **Register** — *push beyond*, as in M.006. Inclusive 'we need to'.
+- **Our slot** — the second step, announced: a further respect in which the field's account must be carried on is its picture of the host as one person.
+
+### M.092 · S2 ¶1 · p. 8 · ~55w
+> 'Throughout his writings on the concept, Derrida frequently traces … (for example, see …).' Frame: *Throughout his writings …, X frequently traces A to the question of B and the decision of C – whether …, …, or … (for example, see …)*.
+
+- **Move** — EXPOSITION of the canon's habit, with three variants after a dash and a cluster of five sources.
+- **Paragraph role** — third. The evidence for the charge that follows.
+- **Research question** — ground.
+- **Thesis** — documents the assumption.
+- **Register** — *traces*. 'frequently' and 'Throughout' claim a pattern, and the cluster backs it.
+- **Our slot** — the field's habit, documented: the host of the canon is a single figure who commands, protects and answers (Pitt-Rivers; Shryock; the owner of a commercial home in Di Domenico and Lynch).
+
+### M.093 · S2 ¶1 · p. 8 · ~47w
+> 'This is profoundly limiting to our ability to think … study of international politics (Jabri 1998).' Frame: *This is profoundly limiting to our ability to think X beyond Y, to other A, B and C; furthermore this restriction … is a common trope in …*.
+
+- **Move** — LIMIT, the second of the article, at full strength, then widened to the field after a semicolon.
+- **Paragraph role** — last. The charge the section must make good.
+- **Research question** — ground for the driving question.
+- **Thesis** — the assumption named as limiting.
+- **Register** — 'profoundly limiting': stronger than M.005's 'potentially very limiting'. Bare 'This'. 'a common trope'.
+- **Our slot** — why the single host limits us: a staffed hotel has never had one, and a phygital arrangement has several firms behind every decision. Named subject, no bare 'This'.
+
+### M.094 · S2 ¶2 · p. 8 · ~45w
+> 'A regular recurrence in Derrida is the reference to the structural linguist, … potis, potestas and ipse (…).' Frame: *A regular recurrence in X is the reference to the [trade], [name], who traces the word … to …, where … links to …*.
+
+- **Move** — EXPOSITION through the canon's own source: an etymology, with the Latin given.
+- **Paragraph role** — first of seven. The paragraph shows where the canon's idea of power comes from.
+- **Research question** — none.
+- **Thesis** — support for the charge.
+- **Register** — *traces*, *links*. The scholar's trade and full name. Latin terms in a list.
+- **Our slot** — where the single host comes from: in the classical law of hospitality one person holds the house and its rule.
+
+### M.095 · S2 ¶2 · p. 8 · ~28w
+> 'In this way, hospitality is linguistically closely tied to power … (through ipse).' Frame: *In this way, X is … closely tied to A (gloss – '…' (source)) and B (through …)*.
+
+- **Move** — GLOSS of the etymology: what it ties together.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — support.
+- **Register** — *tied*. Nested brackets carry the Latin and its translation.
+- **Our slot** — what that figure holds together: obligation, responsibility, authority and answerability. The four terms are named here and defined in the next sentences.
+
+### M.096 · S2 ¶2 · p. 8 · ~30w
+> 'The power of hospitality is treated as a specific and traditional kind of power here, … its space (…).' Frame: *The X of hospitality is treated as a specific … kind of X here, that of …, … and …*.
+
+- **Move** — names the kind of power the canon assumes.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — the assumption, specified.
+- **Register** — *treated*. Agentless passive, with 'here' pointing to the source just cited. Italic stress on 'power over' likely.
+- **Our slot** — first two definitions: obligation is what the host owes the guest; responsibility is the holder's duty to see it performed, by whoever does the work. Agents named.
+
+### M.097 · S2 ¶2 · p. 8 · ~25w
+> 'Thus the power of hospitality appears to be that of 'mastery' … (ipse) (…).' Frame: *Thus the X of hospitality appears to be that of '…' (source), … of A, B and C*.
+
+- **Move** — the key term 'mastery' arrives, quoted and sourced.
+- **Paragraph role** — fourth.
+- **Research question** — none.
+- **Thesis** — the term to be gone beyond.
+- **Register** — 'appears to be' hedges an exposition. The term is quoted on first use and bare afterwards.
+- **Our slot** — third definition: authority is the power, assigned by the organization, to change a decision or the rule behind it. We stipulate the sense.
+
+### M.098 · S2 ¶2 · p. 8 · ~13w
+> 'It is about control of thresholds, … welcome or reject (Derrida 2000: 14).' Frame: *It is about control of X, of the decision to A or B*.
+
+- **Move** — the term glossed in plain words. Short.
+- **Paragraph role** — fifth.
+- **Research question** — sets up 'threshold', the word the driving question turns on.
+- **Thesis** — support.
+- **Register** — plain. Bare 'It'.
+- **Our slot** — fourth definition, short: accountability is the arrangement through which the holder answers to the guest. Named subject.
+
+### M.099 · S2 ¶2 · pp. 8–9 · ~37w
+> 'So the power of hospitality is the power of the male sovereign … that which is self-same.' Frame: *So the X of hospitality is the X of the … to decide on who is allowed in and to control …, often equated with …*.
+
+- **Move** — sums the exposition, opening on 'So'.
+- **Paragraph role** — sixth.
+- **Research question** — none.
+- **Thesis** — the assumption in its plainest form.
+- **Register** — *decide*, *control*, *equated*. 'So' as a summing connective. 'male' is a pointed adjective, used once.
+- **Our slot** — the sum: in the single host these four sit together; that picture fits the owner of a small commercial home.
+
+### M.100 · S2 ¶2 · p. 9 · ~33w
+> 'In this sense, his rendering parallels the traditional IR understanding … (Jackson, 1987; Sørensen, 1997).' Frame: *In this sense, his rendering parallels the traditional [field] understanding of …: a …*.
+
+- **Move** — ties the canon's assumption to the field's, with a colon delivering the shared idea.
+- **Paragraph role** — last.
+- **Research question** — none.
+- **Thesis** — the double target: the figure and the field.
+- **Register** — *parallels*. A bracketed contrast. 'In this sense' for the second time in the article.
+- **Our slot** — the tie to the neighbouring field: the single host matches the single deployer that writing on algorithmic accountability assumes.
+
+### M.101 · S2 ¶3 · p. 9 · ~19w
+> 'This sovereign power over the home is, in part, … described earlier.' Frame: *This … is, in part, what allows the equation of A as B described earlier*.
+
+- **Move** — connects the assumption to the claim granted in the first section. A signpost ('described earlier').
+- **Paragraph role** — first of three, before a display.
+- **Research question** — none.
+- **Thesis** — shows the assumption is load-bearing in the canon, not incidental.
+- **Register** — *allows*. 'This' with its noun. 'in part' limits.
+- **Our slot** — why the single host matters to the field's account: it is what lets the host's obligation be read as one person's motive.
+
+### M.102 · S2 ¶3 · p. 9 · ~24w
+> 'Without it, the ethos, the self-same, … is threatened and potentially void.' Frame: *Without it, the A, the B, the C that is produced by and through …, is threatened and potentially void*.
+
+- **Move** — the stakes of the assumption for the canon.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — support.
+- **Register** — *threatened*, 'void'. Three renamings of one thing.
+- **Our slot** — without one person to hold it, the motive account has nowhere to put the obligation.
+
+### M.103 · S2 ¶3 · p. 9 · ~14w
+> 'Yet this leads to a paradoxical trait of hospitality, beautifully outlined by Derrida (2000: 14),' Frame: *Yet this leads to a paradoxical trait of X, beautifully outlined by Y (year: page),*.
+
+- **Move** — introduces a displayed quotation, with praise.
+- **Paragraph role** — third; hands over to the display.
+- **Research question** — none.
+- **Thesis** — the canon credited at the moment it is about to be exceeded.
+- **Register** — *leads*, *outlined*. 'beautifully' is open admiration.
+- **Our slot** — yet commercial hospitality has long worked otherwise, and the journal has the words for it: Bulley's 'assembled host'. Credit given by name.
+
+### M.104 · S2 ¶3 · p. 9 · display, ~100w
+> Displayed quotation from Derrida (2000: 14), on hospitality limiting itself 'at its very beginning' and becoming 'the threshold'.
+
+- **Move** — EXPOSITION by display. The canon states its own paradox.
+- **Paragraph role** — closes ¶3. The second and last display of the article.
+- **Research question** — supplies 'threshold' in the canon's voice, just before the question that turns on it.
+- **Thesis** — the strongest statement of what is about to be gone beyond.
+- **Register** — not his words.
+- **Our slot** — no display here. The assembled host is shown by cases in running text: the camp's agencies as Bulley describes them; the seated passenger, the guard and the train company; the three firms in *Crinkley*.
+
+### M.105 · S2 ¶4 · p. 9 · ~10w
+> 'Self-mastery and sovereignty is essential and yet radically undermines hospitality.' Frame: *X is essential and yet radically undermines Y*.
+
+- **Move** — the display compressed into ten words.
+- **Paragraph role** — first of seven. A short topic sentence.
+- **Research question** — none.
+- **Thesis** — the paradox the second step works from.
+- **Register** — *undermines*. 'and yet'. Short after the display.
+- **Our slot** — a short topic sentence: an assembled host raises a question the single host did not, which of its members answers to the guest.
+
+### M.106 · S2 ¶4 · p. 9 · ~33w
+> 'Without sovereignty, we would offer nothing … giving something determinate' (2003: 129; 1999b: 69).' Frame: *Without X, we would offer nothing …, and as Y affirms, … would be ineffective '…'*.
+
+- **Move** — first half of the paradox, with the canon quoted in support.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — support.
+- **Register** — *offer*, *affirms*. Inclusive 'we' as host.
+- **Our slot** — what the law says of the franchised motel: owners, operator and franchisor were all held liable to the guests, the franchisor through the way the brand had presented the property.
+
+### M.107 · S2 ¶4 · p. 9 · ~22w
+> 'But in offering something, we offer this but not that; … not the master's bed.' Frame: *But in offering something, we offer this but not that; A, but not B; B, but not C*.
+
+- **Move** — second half, made concrete in three steps across semicolons, each step taking up the last word of the one before.
+- **Paragraph role** — third. The most concrete sentence of the section so far.
+- **Research question** — none.
+- **Thesis** — support by small case.
+- **Register** — plain nouns: food, a bed, the master's bed. A staircase of clauses.
+- **Our slot** — a limit on that decision, plainly: one case, under one state's law, read as an illustration and not as a rule.
+
+### M.108 · S2 ¶4 · p. 9 · ~36w
+> 'Free-reign over the home, a genuinely unconditional hospitality, … the property of the other.' Frame: *X, a genuinely …, would be to relinquish …, making the host the guest and the guest the host, thereby offering nothing, nothing that …*.
+
+- **Move** — the limiting case, in the conditional, with a reversal and a repeated 'nothing'.
+- **Paragraph role** — fourth.
+- **Research question** — none.
+- **Thesis** — support.
+- **Register** — *relinquish*, *making*, *offering*. Chiasmus ('the host the guest and the guest the host').
+- **Our slot** — the second line of authority: a party whose duty is only to arrange for a function to be performed is not liable for how it is performed. Phygital arrangements multiply such arrangers.
+
+### M.109 · S2 ¶4 · p. 9 · ~22w
+> 'The destabilising, indeed genocidal, effects … elegantly illustrated by Gideon Baker (2010).' Frame: *The …, indeed …, effects of such … have been elegantly illustrated by [first name surname] (year)*.
+
+- **Move** — credits a contemporary, the same one he disputed in M.068, for showing the limiting case.
+- **Paragraph role** — fifth.
+- **Research question** — none.
+- **Thesis** — fairness to an opponent.
+- **Register** — passive with the agent named at the end. 'elegantly' is praise.
+- **Our slot** — credit to those who have shown the chain of providers: in algorithmic supply chains there is 'typically no one actor in overall control'. Scholar as subject.
+
+### M.110 · S2 ¶4 · p. 9 · ~16w
+> 'Thus the undecidability that Derrida reveals … and displaces it.' Frame: *Thus the X that Y reveals simultaneously reverses A, and displaces it*.
+
+- **Move** — the result of the paradox for the assumption: reversed and displaced.
+- **Paragraph role** — sixth.
+- **Research question** — none.
+- **Thesis** — grants that the canon itself unsettles mastery at the threshold.
+- **Register** — *reveals*, *reverses*, *displaces*. A technical noun as subject.
+- **Our slot** — our proposal, stated: the party that holds itself out as host answers to the guest, alongside the party that controls the operation; a party that only arranges a service answers to the host.
+
+### M.111 · S2 ¶4 · p. 9 · ~38w
+> 'What we are left with is the hôte, … stable, sovereign identities (Derrida 1999a: 41-2).' Frame: *What we are left with is the X, that which in French means both '…' and '…', but neither simply one not the other …*.
+
+- **Move** — closes the paragraph on a term from the canon that holds the paradox in one word.
+- **Paragraph role** — last.
+- **Research question** — none.
+- **Thesis** — the furthest the canon goes by itself.
+- **Register** — *left with*, *means*, *denoting*. A foreign word glossed.
+- **Our slot** — the status of that proposal: it is ours, and no court has held it. Hedged in the first person.
+
+### M.112 · S2 ¶5 · p. 9 · ~23w
+> 'Derrida's reading of hospitality thus exposes … of inclusion or exclusion.' Frame: *X's reading of … thus exposes the … of A as it pertains to the moment, the decision, of B or C*.
+
+- **Move** — sums what the canon achieves, and by the phrase 'as it pertains to the moment' marks where it stops.
+- **Paragraph role** — first of nine. Sets up the turn.
+- **Research question** — ground.
+- **Thesis** — the canon's reach, stated fairly.
+- **Register** — *exposes*, *pertains*. 'the moment, the decision': an appositive that narrows.
+- **Our slot** — what the law and the field establish between them: who holds the obligation at the moment the guest is received.
+
+### M.113 · S2 ¶5 · pp. 9–10 · ~9w
+> 'It is, as he notes, a matter of thresholds.' Frame: *It is, as he notes, a matter of X*.
+
+- **Move** — one short sentence that plants the word the question will use.
+- **Paragraph role** — second.
+- **Research question** — immediate set-up.
+- **Thesis** — none.
+- **Register** — plain. Bare 'It'. 'as he notes' gives him the credit.
+- **Our slot** — one short sentence planting our word: the law's concern is reception.
+
+### M.114 · S2 ¶5 · p. 10 · ~13w
+> 'But what becomes of the power of hospitality once this threshold is crossed?' Frame: *But what becomes of the X of hospitality once this Y is crossed?*.
+
+- **Move** — QUESTION-RUN, the first and governing question.
+- **Paragraph role** — third; the turn of the whole article.
+- **Research question** — the driving question (`MODEL_BRIEF.md`, statement 3).
+- **Thesis** — the question the thesis answers.
+- **Register** — plain words; 'becomes of' is idiomatic and exact.
+- **Our slot** — our question in his form: 'But what becomes of the host's obligation once the work of hosting is handed on?' The one question in the section.
+
+### M.115 · S2 ¶5 · p. 10 · ~8w
+> 'Once inside, both host and guest are destabilized.' Frame: *Once inside, both A and B are …*.
+
+- **Move** — a first, short answer between the questions.
+- **Paragraph role** — fourth.
+- **Research question** — begins the answer.
+- **Thesis** — support.
+- **Register** — *destabilized*. Eight words.
+- **Our slot** — a first, short answer: the work can be delegated; the duty stays.
+
+### M.116 · S2 ¶5 · p. 10 · ~27w
+> 'Both will perhaps seek in various ways to assert their sovereignty, … casting the other out.' Frame: *Both will perhaps seek … to assert …, but neither can successfully do so without ending … and casting the other out*.
+
+- **Move** — develops the short answer: what each party might do and why it cannot succeed.
+- **Paragraph role** — fifth.
+- **Research question** — answer continued.
+- **Thesis** — support.
+- **Register** — *seek*, *assert*, *ending*, *casting out*. 'perhaps' hedges a prediction.
+- **Our slot** — the law's statement of that structure: the work 'may well be delegable, and usually is', while the duty remains the defendant's. The court and paragraph are named.
+
+### M.117 · S2 ¶5 · p. 10 · ~23w
+> 'Once the outside is inside, as it always necessarily is, how is the power … control the home?' Frame: *Once …, as it always necessarily is, how is the X of hospitality exercised to manage and control Y?*.
+
+- **Move** — QUESTION-RUN, second question: how power is exercised.
+- **Paragraph role** — sixth.
+- **Research question** — a sub-question.
+- **Thesis** — points to the case.
+- **Register** — *exercised*, *manage*, *control*. Echoes M.115's 'Once'.
+- **Our slot** — not a question. A statement that delegation is old in hospitality: the innkeeper of 1584 answered for the defaults of his servants.
+
+### M.118 · S2 ¶5 · p. 10 · ~14w
+> 'How does this work to produce … exclusive inclusions?' Frame: *How does this work to produce more or less …?*.
+
+- **Move** — QUESTION-RUN, third.
+- **Paragraph role** — seventh.
+- **Research question** — a sub-question.
+- **Thesis** — none directly.
+- **Register** — a chiasmus of coined pairs. Bare 'this'.
+- **Our slot** — not a question. What algorithmic delegation changes: the performer.
+
+### M.119 · S2 ¶5 · p. 10 · ~12w
+> 'What subjects or identities are enabled when 'host' and 'guest' are displaced?' Frame: *What … are enabled when '…' and '…' are displaced?*.
+
+- **Move** — QUESTION-RUN, fourth: it looks ahead to the third subsection of the case.
+- **Paragraph role** — eighth.
+- **Research question** — a sub-question the case answers.
+- **Thesis** — none directly.
+- **Register** — *enabled*, *displaced*.
+- **Our slot** — not a question. The contrast in one sentence: the servant who erred could be found and named; the system that errs may be supplied by a firm no guest can reach.
+
+### M.120 · S2 ¶5 · p. 10 · ~24w
+> 'Does such power multiply and diffuse thresholds … placing it in the past?' Frame: *Does such X multiply and diffuse … throughout …, or has … been defused, placing it in the past?*.
+
+- **Move** — QUESTION-RUN, fifth, an either-or with a play on 'diffuse' and 'defused'.
+- **Paragraph role** — last. The run ends on an alternative the case will settle.
+- **Research question** — the sharpest form of the sub-questions.
+- **Thesis** — none directly.
+- **Register** — *multiply*, *diffuse*, *defused*. A pun, the only one in the article.
+- **Our slot** — none. Five questions are the model's signature and not the genre's; Reviewer 3 objected to rhetorical effects. Warrant recorded in the outline.
+
+### M.121 · S2 ¶6 · p. 10 · ~22w
+> 'If we are to consider the ethico-spatial power relations … we must consider these questions.' Frame: *If we are to consider …, we must consider these questions*.
+
+- **Move** — justifies the run in one conditional sentence.
+- **Paragraph role** — first of ten.
+- **Research question** — affirms it.
+- **Thesis** — the thesis's conditional form again ('if we are to …, we must').
+- **Register** — *consider* twice. A hyphenated coinage.
+- **Our slot** — why the answer matters for what follows: if the duty stays with the holder, the holder is the party the guest must be able to reach.
+
+### M.122 · S2 ¶6 · p. 10 · ~15w
+> 'Derrida shows some awareness of the diversity of power relations once the threshold is crossed.' Frame: *X shows some awareness of … once …*.
+
+- **Move** — CONCEDE-LIMIT, the concession.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — fairness before the limit.
+- **Register** — *shows*. 'some awareness' is measured.
+- **Our slot** — the concession to the neighbouring field: writers on algorithmic accountability already hold that deploying an autonomous system does not lessen the deployer's responsibility.
+
+### M.123 · S2 ¶6 · p. 10 · ~38w
+> 'After claiming that 'ethics is hospitality' he observes that … modalities of violence' (Derrida 2001: 17).' Frame: *After claiming that '…' he observes that … '…' (source)*.
+
+- **Move** — evidence for the concession, by quotation.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — fairness.
+- **Register** — *claiming*, *observes*.
+- **Our slot** — the evidence, by short quotation: 'one who elects a delegate that cannot answer thereby elects to answer for it' (Kong).
+
+### M.124 · S2 ¶6 · p. 10 · ~26w
+> 'But his concern is with the reception and inclusion; he does not pursue … such efforts to control.' Frame: *But his concern is with A; he does not pursue what …*.
+
+- **Move** — CONCEDE-LIMIT, the limit: what the canon does not pursue.
+- **Paragraph role** — fourth.
+- **Research question** — the gap the article fills.
+- **Thesis** — the limit, at its most exact.
+- **Register** — *pursue*, *rendered*. Two clauses across a semicolon, the second a plain denial.
+- **Our slot** — the limit: Kong's responsibility is for harm a delegated system might cause; ours is a duty owed to a particular person from reception, whether or not anything goes wrong.
+
+### M.125 · S2 ¶6 · p. 10 · ~13w
+> 'Despite this, Derrida's focus on hospitality is neither politically neutral nor abstractly theoretical.' Frame: *Despite this, X's focus on … is neither A nor B*.
+
+- **Move** — returns credit after the limit.
+- **Paragraph role** — fifth.
+- **Research question** — none.
+- **Thesis** — the 'reaffirm' half again.
+- **Register** — 'neither … nor'. Bare 'this' after 'Despite'.
+- **Our slot** — credit returned: a compatible position reached from the ethics of care (Kropf et al.), where a robot can occupy a role and blame stays with those who deploy it.
+
+### M.126 · S2 ¶6 · p. 10 · ~36w
+> 'Rather, he comes at it through the 'burning issue' … going on today in our world' (Derrida 1999b: 70).' Frame: *Rather, he comes at it through the '…' of …, his aim being to '…'*.
+
+- **Move** — the canon's practical purpose, in its own quoted words.
+- **Paragraph role** — sixth.
+- **Research question** — none.
+- **Thesis** — the aim the thesis says it retains.
+- **Register** — *comes at*: slightly informal. Two quotations.
+- **Our slot** — the conclusion both positions support: a machine can perform the role of hosting, and the duty to the guest remains with the party that took the role up.
+
+### M.127 · S2 ¶6 · p. 10 · ~26w
+> 'His retention of the apparently impossible unconditional hospitality … (2001: 22).' Frame: *His retention of … alongside … is born of a desire to '…' the practice of …*.
+
+- **Move** — explains a feature of the canon by that purpose.
+- **Paragraph role** — seventh.
+- **Research question** — none.
+- **Thesis** — none new.
+- **Register** — 'is born of': a mild figure. A nominalised subject.
+- **Our slot** — what follows for the guest: if the obligation persists under delegation, so does the guest's standing, provided standing is defined from the obligation.
+
+### M.128 · S2 ¶6 · p. 10 · ~27w
+> 'While I share this desire and goal, I am suggesting that he … centred on sovereign power.' Frame: *While I share this …, I am suggesting that he effectively imposes limits on X as, firstly, …, and secondly, …*.
+
+- **Move** — the two limits restated together and numbered, behind a concessive clause of agreement.
+- **Paragraph role** — eighth.
+- **Research question** — none new.
+- **Thesis** — the thesis's two targets, in one sentence.
+- **Register** — *share*, *suggesting*, *imposes*. 'firstly … secondly' inside the sentence.
+- **Our slot** — our definition, owned and numbered: standing is, first, held, as the guest's position as the one to whom the host's duties are owed; and second, exercised, when the guest presses that claim on a party able to receive it.
+
+### M.129 · S2 ¶6 · p. 10 · ~30w
+> 'He thus repeats the concerns and limitations … (see Walker, 1993).' Frame: *He thus repeats the … imposed by traditional approaches to … in [field], where X forms the horizon of …*.
+
+- **Move** — ties the figure's limits to the field's.
+- **Paragraph role** — ninth.
+- **Research question** — none.
+- **Thesis** — the double target again.
+- **Register** — *repeats*, *forms*. 'horizon' is a conventional figure.
+- **Our slot** — the philosophical support in a clause each: a directed duty fixes who owes what to whom (Thompson); a right exists whether or not it is claimed (Darwall).
+
+### M.130 · S2 ¶6 · p. 10 · ~18w
+> 'This means we cannot effectively see, understand or transform … the contemporary world.' Frame: *This means we cannot effectively see, understand or transform the … of X in …*.
+
+- **Move** — the cost of the limits, in three verbs.
+- **Paragraph role** — last.
+- **Research question** — why the question matters.
+- **Thesis** — the practical stake.
+- **Register** — *see*, *understand*, *transform*: plain and rising. Bare 'This'.
+- **Our slot** — the diagnosis in one sentence: under algorithmic mediation the guest still holds standing, and what can fail is its exercise. Named subject.
+
+### M.131 · S2 ¶7 · p. 10 · ~10w
+> 'The urgency, the burning nature of the issue is undeniable.' Frame: *The X, the … nature of the issue is undeniable*.
+
+- **Move** — STAKE, announced in ten words.
+- **Paragraph role** — first of seven. The section's last paragraph turns to the world.
+- **Research question** — its urgency.
+- **Thesis** — none.
+- **Register** — 'burning' taken up from the quotation in M.126. 'undeniable'.
+- **Our slot** — a short opening to the section's last paragraph: exercising standing has conditions, and guests do not supply them.
+
+### M.132 · S2 ¶7 · p. 10 · ~23w
+> 'According to the UNHCR (2014: 2), an average of 32200 people per day … hospitality elsewhere.' Frame: *According to [body] (year: page), an average of [number] people per day are forced to …*.
+
+- **Move** — STAKE, first figure, with source and page.
+- **Paragraph role** — second.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — a number in running prose; plain verbs. A note qualifies the figure.
+- **Our slot** — first piece of evidence, with its page: hospitality's own norms tend to withhold the power to complain (Pitt-Rivers' guest who can only walk out).
+
+### M.133 · S2 ¶7 · pp. 10–11 · ~38w
+> 'By the end of 2013 the total number of displaced people … Spain or South Africa.' Frame: *By the end of [year] the total number of … had risen to over a record [number], up from [number] the year before (source), roughly equivalent to the population of X or Y*.
+
+- **Move** — STAKE, second figure, with a comparison a reader can picture.
+- **Paragraph role** — third.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — two numbers and a homely equivalent.
+- **Our slot** — second piece of evidence: the guest in a commercial home who would complain about the beds in a hotel and does not complain here. Its weight stated: one researcher's note.
+
+### M.134 · S2 ¶7 · p. 11 · ~12w
+> 'This included 16.7 million refugees and 33.3 million internally displaced (UNHCR 2014).' Frame: *This included [number] A and [number] B (source)*.
+
+- **Move** — STAKE, the breakdown. Short.
+- **Paragraph role** — fourth.
+- **Research question** — none.
+- **Thesis** — none.
+- **Register** — two figures. Bare 'This'.
+- **Our slot** — what makes a claim proper to press in commerce: the paying relation and the law behind it. Short.
+
+### M.135 · S2 ¶7 · p. 11 · ~50w
+> 'However, despite the concentration of hospitality literature on … 80% of refugees (UNHCR 2011: 23).' Frame: *However, despite the concentration of the literature on A (…, for example, see …), the vast majority of … remain in B, including …*.
+
+- **Move** — sets the literature's attention against where the phenomenon is, with a cluster and a figure.
+- **Paragraph role** — fifth; the turn of the paragraph.
+- **Research question** — shows the field looking in the wrong place.
+- **Thesis** — support for moving beyond the state.
+- **Register** — *remain*. 'despite' concedes; a percentage closes.
+- **Our slot** — the same turn for us: research has taught guests and users to understand algorithmic systems, and understanding a system does not let them move it. Sources clustered.
+
+### M.136 · S2 ¶7 · p. 11 · ~40w
+> 'Yet the hospitable assistance (the concrete offer of something determinate) … the UNHCR (2011: 7).' Frame: *Yet the … (gloss) given to over [number] (…) of these people is not offered by A at all, but by B, the …*.
+
+- **Move** — the fact that makes the case: most of the hosting is done by a body the canon does not see. A 'not … but' on a fact.
+- **Paragraph role** — sixth.
+- **Research question** — points at who the host actually is.
+- **Thesis** — the evidence that 'his assumptions are being disrupted'.
+- **Register** — passive, with the agents at the end for weight. A gloss in brackets takes up M.106's quotation.
+- **Our slot** — the fact that makes our case: where requests do change outcomes in hotels, they reach someone with authority to grant them. Xiang et al.'s two guests.
+
+### M.137 · S2 ¶7 · p. 11 · ~28w
+> 'We can perhaps begin to see how inadequate a picture … as its primary reference.' Frame: *We can perhaps begin to see how inadequate a picture is given by an approach to X which takes A and B as its primary reference*.
+
+- **Move** — the section's close: a hedged verdict on the canon's frame, which opens the case.
+- **Paragraph role** — last.
+- **Research question** — none new.
+- **Thesis** — the second step concluded, modestly.
+- **Register** — *see*, *given*, *takes*. 'perhaps begin to' double-hedges.
+- **Our slot** — the section's close and hook: what the guest can expect from the host's obligation is a hearing by someone with authority; the next section shows how phygital arrangements change the path to that person.
