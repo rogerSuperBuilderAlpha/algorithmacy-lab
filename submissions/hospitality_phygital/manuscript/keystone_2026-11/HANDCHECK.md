@@ -108,6 +108,32 @@ All found at the reported locator unless noted.
 | 84 | Min and Kim 2020, pp. 1-2 | 'reducing an opportunity for the service provider to hear from customers' | MATCH | Practitioner summary from an Internet Archive capture |
 | 85 | Gelbrich and Roschk 2011, p. 28 | negative word of mouth may arise 'prior to—or in lieu of—a complaint' | MATCH | Following Blodgett and Anderson 2000 |
 
+## Batch 4 (11 Nov, passages new in ARGUMENT.md draft 2)
+
+| # | Source | Passage | Verdict | Note |
+|---|---|---|---|---|
+| 86 | Herstein, SEP 'Legal Rights', §8.4 | 'the same claim-right seemingly can count in favor of different and changing duties, for instance given changes in factual circumstances' | MATCH | Reported, for legal rights |
+| 87 | Herstein, §1 | 'The stronger the dependency, the stronger the justification' (citing Nickel 2007) | MATCH | |
+| 88 | Kiesewetter 2015, p. 922 | ''Ought', that is, transmits to necessary means' | MATCH | |
+| 89 | Kong 2026, p. 6 | an admissible type 'names a causal or dispositional mechanism' | MATCH | Two-column PDF; 'disposi- tional' split across columns |
+| 90 | Kong 2026, p. 7 | 'the faultless accident' | MATCH | |
+| 91 | *Wheat v E Lacon* [1966] AC 552, Lord Denning | 'dependent on his degree of control'; 'they should have reported it to the Brewery Company'; 'took in guests for her private profit'; Lord Pearson 'occupational control' | MATCH | Archive copy of BAILII; HL print pages inline |
+| 92 | Directive 2005/29, art. 9(d) | 'any onerous or disproportionate non-contractual barriers imposed by the trader where a consumer wishes to exercise rights under the contract' | MATCH | Consolidated text of 27.9.2026 |
+| 93 | DMCC Act 2024, s. 228(2)(f) | 'whether the practice requires a consumer to take onerous or disproportionate action in order to exercise rights' | MATCH | Capture of 12 Dec 2025 |
+| 94 | Equality Act 2010, s. 20(6) | 'in an accessible format' | MATCH | |
+| 95 | *Poole* [2019] UKSC 25, para 65(2), para 80 | 'public authorities do not owe a duty of care at common law merely because they have statutory powers or duties'; 'often assumes a responsibility to those using the service' | MATCH | |
+| 96 | Bulley 2015, AM pp. 2, 18 | 'need to be policed, managed and controlled, even after the threshold of the home is crossed'; 'keep that welcome open once the threshold is passed' | MATCH | |
+| 97 | Moysidou and Stanley 2023, pp. 4-5, 7, 12 | 'necessary conditions to the offering of hospitality'; 'I cannot leave'; 'Knowing how to complain, and feeling that the complaint will be acted upon, are latent forms of power' | MATCH | |
+| 98 | Lynch et al. 2011, PDF pp. 3, 9 | 'Hospitality as social control'; 'enable contestation and conflict to occur' | MATCH | The second is the editors' sentence, not marked as Dikeç's |
+| 99 | Petie et al. 2025, MS pp. 11, 12 | 'lacked the knowledge needed to act'; 'victims of decisions made by management'; 'dealt with appropriately' | MATCH | |
+| 100 | *Groh*, ¶ 7 | 'we are drunk. we can't drive.' | MATCH | Draft 2 keeps to the court's words |
+| 101 | UN Guiding Principles, Principle 29, Commentary | 'By analysing trends and patterns in complaints, business enterprises can also identify systemic problems and adapt their practices accordingly' | MATCH | |
+| 102 | Hemmington 2007, AV p. 9 | rules of domestic hospitality 'such as not complaining, that are clearly at variance with the commercial manager-customer relationship' | MATCH | Reporting Darke and Gurney 2000 |
+| 103 | Pitt-Rivers 2012, p. 514 | 'A host is host only on the territory over which on a particular occasion he claims authority' | MATCH | OCR prints 'c1aims' |
+| 104 | Xu and Greiffenhagen 2024, p. 5016 | 'disciplined by a technology that uses voice commands to tell them what to do with their bodies' | MATCH | |
+| 105 | O'Gorman 2005, p. 146 | inns' reputation 'for bedbugs, discomfort, violence and danger' | MATCH | |
+| 106 | Digest 4.9.3.1 | 'reprimendae improbitatis hoc genus hominum' | MATCH | Pomponius as reported by Ulpian. Draft 1's English was a reader's gloss presented as quotation; draft 2 quotes the Latin and marks the gloss |
+
 ## Still to check
 
 - Any passage `ARGUMENT.md` uses that is not in the table above. Each is added here before the dossier goes to the red team.
