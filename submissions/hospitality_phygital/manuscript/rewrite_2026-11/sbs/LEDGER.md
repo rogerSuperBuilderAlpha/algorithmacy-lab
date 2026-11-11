@@ -343,6 +343,8 @@
 - **Value** ✅ The obligation stated on an authority the field knows.
 - **Counterpart** ✅ What the instances add up to.
 - **Truth** ✅ Varley card (§2 ¶2), on King 1995. King is cited as Varley et al. cite him; King's own text is held at abstract depth only, and v6 makes no claim about it beyond theirs.
+- **Correction at verification** ❌ The possessive form "King's (1995)" misreads in `check_citations.py`, and Intellect Harvard puts the year after the name. Rewritten.
+- **As written** > Writing in this journal, Varley et al. (2018) put the point on the authority of King (1995): historically, the host was obliged to see to the guest's safety and comfort as well as to provide a place to stay.
 
 ### S-034 · answers M.029 · 13w
 > Guests, Shryock writes, 'depend on their hosts for protection and respect' (2012: S23).
