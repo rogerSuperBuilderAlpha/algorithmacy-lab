@@ -73,3 +73,6 @@ D6 said v6 cites the arXiv version. The bibliography entry, unchanged, renders t
 
 ### D13 · 10 Nov · Tooling change
 `check_citations.py` now takes an optional second argument naming the key list. The default is unchanged. `preflight.py` and `wordcount.py` still expect numbered headings; I ran them on a numbered copy and recorded the results rather than changing them.
+
+### D14 · 10 Nov · Baum and Laux now cited from the chapter
+The LNCS chapter is open access. I read it and replaced the arXiv page numbers with its printed pages (S-205, S-206, S-234), which settles D12's page mismatch. The year stays 2026, the online date; the chapter footer says 2027. **YOURS**: which year to print.

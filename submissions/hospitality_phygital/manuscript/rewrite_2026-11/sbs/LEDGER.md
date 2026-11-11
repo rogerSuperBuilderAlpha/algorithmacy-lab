@@ -1853,11 +1853,15 @@
 > Baum and Laux distinguish forms of human involvement in automated systems by whether intervention can come before a decision takes effect, and what matters, they write, is 'not elapsed time but whether intervention can occur before the token output becomes effective' (2026: 6).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Baum and Laux card p. 6, arXiv version (`DECISIONS.md`, D6).
+- **Correction at verification (10 Nov 2026)** ❌ Pages mapped from arXiv v2 to the open-access LNCS chapter read in full on 10 Nov 2026 (pp. 115–130; printed page = PDF page + 114): the quotation is on p. 120, the three temporal modes on pp. 120–122, the overseer passage on p. 126, where the chapter spells 'rubber-stamps'.
+- **As written** > Baum and Laux distinguish forms of human involvement in automated systems by whether intervention can come before a decision takes effect, and what matters, they write, is 'not elapsed time but whether intervention can occur before the token output becomes effective' (2026: 120).
 
 ### S-206 · answers M.193 · 44w
 > Synchronous intervention can change the decision a person is subject to, asynchronous review shapes future decisions, and for decisions too fast for any person the only human control is a limit set in advance and kept open to revision (Baum and Laux 2026: 6–8).
 
 - **Form** ✅ **Construction** ✅ Three clauses from the source. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1.
+- **Correction at verification (10 Nov 2026)** ❌ Pages mapped from arXiv v2 to the open-access LNCS chapter read in full on 10 Nov 2026 (pp. 115–130; printed page = PDF page + 114): the quotation is on p. 120, the three temporal modes on pp. 120–122, the overseer passage on p. 126, where the chapter spells 'rubber-stamps'.
+- **As written** > Synchronous intervention can change the decision a person is subject to, asynchronous review shapes future decisions, and for decisions too fast for any person the only human control is a limit set in advance and kept open to revision (Baum and Laux 2026: 120–122).
 
 ### S-207 · answers M.194 · 13w
 > Applied to hospitality, the distinction gives a boundary that follows the host's obligation.
@@ -2016,6 +2020,8 @@
 > The first is reachable authority to reverse: someone who can reverse or revise the decision must stay reachable, because a human who 'rubberstamps without genuine judgment does not thereby become an overseer' (Baum and Laux 2026: 12).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Baum and Laux card p. 12.
+- **Correction at verification (10 Nov 2026)** ❌ Pages mapped from arXiv v2 to the open-access LNCS chapter read in full on 10 Nov 2026 (pp. 115–130; printed page = PDF page + 114): the quotation is on p. 120, the three temporal modes on pp. 120–122, the overseer passage on p. 126, where the chapter spells 'rubber-stamps'.
+- **As written** > The first is reachable authority to reverse: someone who can reverse or revise the decision must stay reachable, because a human who 'rubber-stamps without genuine judgment does not thereby become an overseer' (Baum and Laux 2026: 126).
 
 ### S-235 · answers M.215 · 49w
 > The deploying organization is best placed to reverse a decision (Lyons et al. 2021), algorithmic governance in services calls for routes of escalation and human oversight (Shabnam et al. 2026), and of five governance mechanisms only appeal raised the perceived legitimacy of an adverse algorithmic decision (Martin and Waldman 2023).

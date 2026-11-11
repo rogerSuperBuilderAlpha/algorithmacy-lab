@@ -52,7 +52,7 @@ v5 carried these; v6 does not.
 
 ## Debts left for the authors
 
-1. **Baum and Laux (2026).** Quotations and pages (6, 6–8, 12) are from arXiv v2. The reference list renders the LNCS chapter (pp. 115–130, print date 2027). Before submission, either map the pages to the chapter or cite the arXiv version.
+1. **Baum and Laux (2026). Resolved for pages, open for the year.** The open-access chapter was read on 10 Nov 2026 and DRAFT_v6 now cites its printed pages (120, 120–122, 126), with the chapter's spelling 'rubber-stamps'. The chapter was published online on 13 Oct 2026, and its own footer gives the volume year as 2027. v6 keeps 2026; choose which year Intellect should print.
 2. **Abstract-only sources.** Germann Molz (2026), Riordan (2024), Weaver (2026) and Kim et al. (2025) are described only as far as their abstracts go. Read them in full after your Bentley sign-in and check the four sentences that cite them (S-010, S-238, S-240).
 3. **Accepted manuscripts.** v6 quotes none of them, so no journal page is owed. If you add a quotation from Bulley, Varley et al., Moysidou and Stanley, Lugosi (2009), O'Gorman (2009) or Lynch et al. (2011), take the page from the version of record.
 4. **Your read-aloud.** No check above stands in for it (`~/.claude/CLAUDE.md`).
