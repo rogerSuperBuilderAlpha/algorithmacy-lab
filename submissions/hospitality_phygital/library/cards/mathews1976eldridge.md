@@ -100,7 +100,7 @@ One point helps K7 more than the bare holding suggests. What the Court found ade
 - In United States constitutional law, a claim to a hearing before a deprivation "rests on the proposition that full relief cannot be obtained at a postdeprivation hearing" (*Mathews v. Eldridge*, 424 U.S. at 331).
 - The Supreme Court fixes what process is due, and when, by weighing the private interest affected, the risk of error and the value of further safeguards, and the government's interest including cost (at 335).
 - The Court requires the opportunity to be heard "at a meaningful time and in a meaningful manner" (at 333).
-- Applying that test, the Court held that a recipient of disability benefits was not entitled to an evidentiary hearing before the benefits ended, because full retroactive relief was available afterwards and he had been able to answer the agency's proposed decision in writing (at 340, 346, 349).
+- Applying that test, the Court held that a recipient of disability benefits was not entitled to an evidentiary hearing before the benefits ended, on a weighing of all three factors (at 340-349), among them that full retroactive relief was available afterwards and that he had been able to answer the agency's proposed decision in writing (at 340, 346, 349).
 - The Court said that only in *Goldberg v. Kelly*, where the payments were the recipient's means of subsistence, had it required an evidentiary hearing before a temporary deprivation (at 340).
 - The doctrine constrains "governmental decisions" (at 332).
 
@@ -114,3 +114,5 @@ One point helps K7 more than the bare holding suggests. What the Court found ade
 - Anything about *Goldberg v. Kelly* beyond what *Mathews* says of it, on this card's authority.
 
 Card written by a Claude (Fable 5.2) subagent, reader R6b, from the saved Caselaw Access Project text read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-D (`manuscript/keystone_2026-11/VERIFY_CARDS_D.md`): 'may say' 4: the holding rests on all three factors.

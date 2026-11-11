@@ -75,3 +75,13 @@ Fable 5.2 reached its usage limit at about 17:15 on 11 Nov. All eight agents the
 - **What was done on Fable 5.2.** Stages 0 to 2, the claim audit and its verification, the nine reader reports and the 67 new cards. The commit trailers show which model wrote each commit.
 - **A guard affected.** The standing rule for research-run cards asks for a hand-check by Fable. The hand-check is now done by Opus 5.5; if the authors want the Fable check, it can be re-run on the Tier 1 cards when Fable is available again.
 
+### K-D12 · 11 Nov · Internet Archive copies of open texts count as open copies
+Several readers fetched texts from Internet Archive captures because the live site returned a bot check, HTTP 202 with no body, or HTTP 403 to automated requests: legislation.gov.uk, BAILII, Wiley and PhilPapers (de Kenessey 2024, CC BY-NC), the California legislature's site (AB 1609), and a repository copy of Gelbrich and Roschk (2011). CV-D asked whether this satisfies guard 6 ('open copies only; no CAPTCHA or bot check; no paywall workaround').
+
+**Ruling.** An Internet Archive capture counts as an open copy when the text is itself open: public law, an openly licensed article, or a copy a repository serves without charge. No agent completed or evaded a challenge on the live site; the capture is a copy held by a separate public library. A capture of a paywalled text would not count, and none was used. Each card records the capture it used, and the verifiers checked identity against it.
+
+**Alternative.** Treat any text whose live site blocks scripts as closed. Reason for not doing so: the texts are open by licence or by law, and the block is on automated access, not on the reader. The authors may reverse this; if they do, the affected cards (`dekenessey2024two`, `ca2026ab1609`, `uk2025datause`, `americancyanamid1975ethicon`, the legislation.gov.uk statute cards, `gelbrich2011metaanalysis`) drop to 'closed' and the dossier's uses of them must be re-checked.
+
+### K-D13 · 11 Nov · R8 changes the thesis's second half
+R8 found that the one automated hotel chain read kept a worker on site as a fall-back, and that no open study shows automation removing the person with authority. The dossier therefore says that automation *can move* the person with power behind the machine, so that the guest reaches them only by seeking them out. It no longer says that mediation removes the path. The v6 abstract and conclusion state the stronger version and will be changed in v7.
+

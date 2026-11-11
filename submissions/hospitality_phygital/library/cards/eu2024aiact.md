@@ -123,20 +123,22 @@ Added in rr-2026-11-k (reader R6b).
 
 **What the paper may say on this source's authority**
 
-- For high-risk AI systems, the EU's Artificial Intelligence Act requires that the natural persons assigned to oversee a system be able to decide, "in any particular situation", not to use it or to "disregard, override or reverse" its output, and to stop it (art. 14(4)(d)-(e)).
+- For high-risk AI systems, the EU's Artificial Intelligence Act requires that high-risk systems be provided so that the persons assigned to oversee them are enabled, as appropriate and proportionate, to decide, "in any particular situation", not to use it or to "disregard, override or reverse" its output, and to stop it (art. 14(4)(d)-(e)).
 - The firm that uses such a system must assign that oversight to natural persons "who have the necessary competence, training and authority, as well as the necessary support" (art. 26(2)).
-- That firm must monitor the system's operation and, where it has reason to consider that the system presents a risk to health, safety or fundamental rights, inform the provider and the market surveillance authority and suspend its use (arts 26(5), 79(1)).
-- The Act gives a person affected by a decision the right to be told that a high-risk system is in use, to obtain an explanation of the system's role in a decision taken, and to complain to a market surveillance authority (arts 26(11), 86(1), 85).
+- That firm must monitor the system's operation and, where it has reason to consider that use of the system may result in a risk to health, safety or fundamental rights, inform the provider or distributor and the market surveillance authority and suspend its use (arts 26(5), 79(1)).
+- The Act gives a person affected by a decision the right to be told that a high-risk system is in use, to obtain an explanation of the system's role in a decision taken (for Annex III systems other than point 2, and decisions with legal or similarly significant adverse effect; subsidiary to other Union law, art. 86(3)), and to complain to a market surveillance authority (arts 26(11), 86(1), 85).
 - Breach of a deployer's duties under art. 26 is punishable by administrative fines of up to EUR 15 000 000 or 3 per cent of worldwide annual turnover (art. 99(4)(e)).
-- For systems listed in Annex III these duties apply from 2 December 2027 (Art. 113 as amended by Regulation (EU) 2026/1744, point (40)(b)).
+- For systems listed in Annex III the duties in arts 14 and 26 apply from 2 December 2027 (arts 85-86 sit in Chapter IX, which applies from 2 August 2026) (Art. 113 as amended by Regulation (EU) 2026/1744, point (40)(b)).
 
 **What the paper may not say**
 
 - That the stop-button requirement is "owed to overseers". The Act states what overseers must be enabled to do and does not say to whom the requirement is owed; it is enforced by public authorities (arts 14(4), 85, 99).
-- That the Act gives a guest, or any affected person, a way to reach the overseer, to have a decision reviewed or to have a system stopped. No article does.
+- That the Act gives a guest, or any affected person, a way to reach the overseer, to have a decision reviewed or to have a system stopped. No article does. Art. 27(1)(f) and recital 96 require some deployers, in their fundamental-rights impact assessment, to set out 'complaint mechanisms', without linking them to the overseer.
 - That the Act requires a human to approve each automated decision before it takes effect. Only art. 14(5) requires prior human verification, and only for remote biometric identification.
 - That these duties bind hotels for guest-facing systems. They bind providers and deployers of high-risk systems, and no Annex III area names hospitality (this card, Key facts, Annex III).
 - That the duties are in force now. Chapter III, Sections 2 and 3 apply to Annex III systems from 2 December 2027.
 - That the deployer must act on a complaint from the person affected. The duty to monitor is "on the basis of the instructions for use" (art. 26(5)).
 
 Upgraded in rr-2026-11-k (2026-11-11, Claude, Fable 5.2, reader R6b): added Arts 14(1)-(5), 16(a), 8(1), 26(1)-(3), (5)-(7), (11)-(12), 2(1)(g), 3(4), 79(1), 85, 86(2) and 99(4), recitals 73, 91, 93 and 171, and Omnibus points (5) and (38), each read in the saved Official Journal texts; added the K7 and K9 claims, sections 4 and 5 (v6 numbering) to `used_by_sections`, the 'Where it bears on the argument' section and the two lists; extended `source_basis` and `hold_rationale` and moved `verified_date` to today. `role`, `status`, `generated_run`, `title`, `url` and `venue` are unchanged. Every earlier field and line is kept. All text added by this run is marked 'Added rr-2026-11-k' or sits under a heading so marked.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-D (`manuscript/keystone_2026-11/VERIFY_CARDS_D.md`): 'may say' 1, 3, 4, 6 narrowed; art. 27(1)(f) complaint mechanisms added to 'may not say' 2.

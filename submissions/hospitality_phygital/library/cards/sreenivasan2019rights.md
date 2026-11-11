@@ -63,8 +63,10 @@ The reviewer's own position:
 
 ## Where it bears on the argument
 
-- **K6 (supports, and sharpens).** The disagreement stated exactly: Gilbert makes being owed a duty equivalent to the holder's standing to demand it (equivalence (3)); Sreenivasan holds that the standing is a real aspect of claim-rights and not their analysis. K6's sentence that the matter 'is contested among theories of directed duty' is safe on this text. K6 can also be put more strongly for the ordinary case, since the critic of the demand analysis himself affirms the right-holder's standing.
+- **K6 (supports, and sharpens).** The disagreement stated exactly: Gilbert makes being owed a duty equivalent to the holder's standing to demand it (equivalence (3)); Sreenivasan holds that the standing is a real aspect of claim-rights and not their analysis. K6's sentence that the matter 'is contested among theories of directed duty' is safe on this text. K6 can also be put more strongly for the ordinary case, since the critic of the demand analysis himself affirms the right-holder's standing. (Narrowed after CV-D: Sreenivasan affirms the standing to demand of 'a property owner'; its extension to a guest is the card's.)
 - **K7, second route (narrows).** If standing to demand can be held by parties who are owed nothing, then an argument from 'the guest has standing to demand' to 'the host owes the guest an addressee' needs more than the standing. The review supplies no premise of that kind. It does supply one usable point: a demand presupposes a right already held and creates none (reported of Gilbert, her p. 62), so a channel for demands adds nothing to what the guest is owed; it serves the exercise.
 - **K5 (bears indirectly).** The remark about agents 'incapable of making demands' is the will theory's old difficulty. The classical guest is not incapable; the code forbids him. The review does not discuss a right-holder barred from demanding by a rule of role.
 
 Card written by a Claude (Fable 5.2) subagent, reader R3, from the saved NDPR page read whole, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-D (`manuscript/keystone_2026-11/VERIFY_CARDS_D.md`): K6 line narrowed.

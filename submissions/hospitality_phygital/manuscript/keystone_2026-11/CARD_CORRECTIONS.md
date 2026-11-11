@@ -75,3 +75,19 @@
 
 **Effect on ARGUMENT.md.** Step 4 no longer says Blackstone leaves the two routes unexplained; *Thomas* keeps 'usually treated'; *Rasnick*'s hung-up call is the wife's testimony. The dossier already read *Rasnick* as narrowing P1, not refuting C.
 
+## CV-D (contact law, automated decisions, rights theory): 16 cards, 0 FAIL, 589 quotations all MATCH
+
+| Card or report | What the verifier found | What I changed |
+|---|---|---|
+| `gardner2011what` | n. 57 names only 'confessing or apologizing', so the thesis is silent on explanation rather than excluding it; n. 53 concerns acts 'both necessary and sufficient', a derivation Gardner raises and sets aside; 'the sooner ... the closer' is the card's inference | Critical notes and K7 line corrected |
+| `eu2024aiact` (and R6b items 12, 35) | Art. 27(1)(f) and recital 96 ask some deployers to set out complaint mechanisms; four 'may say' sentences too wide | Caveat added; sentences narrowed |
+| `es2025clientela`, `uk2025datause`, `mathews1976eldridge` | 'May say' sentences too wide | Narrowed |
+| `sreenivasan2019rights`, `ripstein2026theories`, `fox2007uncertain` | 'Where it bears' lines too wide | Narrowed |
+| WS_P3_R3 §3 | 'Their due' modifies precedence, not attention (Pitt-Rivers p. 516) | The report stands as written; ARGUMENT.md corrected |
+| WS_P3_R3 §6 | 'The channel serves performance, accountability serves repair' has no source | ARGUMENT.md now marks the mapping as the paper's own |
+| The brief's conclusion (e) | Refuted as worded: the platform-work directive requires both a route and a person with power, for persons performing platform work, though the reachable person is not the one with power | ARGUMENT.md states the narrower form: no instrument read requires it for a consumer or guest |
+
+**Effect on ARGUMENT.md.** Four changes. (1) Gardner no longer answers the 'enabling steps are reasons, not obligations' objection; the paper sides with Hindriks against Gardner and says the philosophy is divided. (2) Pitt-Rivers: precedence is the guests' due; failing to attend infringes the law of hospitality. (3) The AI Act paragraph carries the art. 27(1)(f) caveat. (4) The platform-work directive is stated as requiring both, for workers.
+
+**Access route.** CV-D asked for a ruling on texts read from Internet Archive captures (de Kenessey 2024, AB 1609, UK s. 80, *American Cyanamid*). See `DECISIONS_K.md`, K-D12.
+

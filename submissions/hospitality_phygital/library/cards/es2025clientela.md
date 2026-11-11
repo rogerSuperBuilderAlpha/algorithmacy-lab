@@ -107,10 +107,10 @@ The law sets minimum quality standards for the customer service of two groups of
 
 - Spain's Ley 10/2025 forbids answering machines or similar means as the only means of customer service (art. 8(1)).
 - Where a firm within the law uses automated means, the customer must be able to ask for a natural person from the main menu at any point of the interaction, and that person must answer in real time (art. 8(2)).
-- The law requires that 95 per cent of such requests be met, on average, in under three minutes, and lets a dissatisfied customer ask for a supervisor within the same communication (art. 8(2)-(3)).
-- The law binds suppliers of listed basic services and, among other firms, those with at least 250 workers, turnover above 50 million euros or a balance sheet above 43 million euros, counted across the group (art. 2(1)-(2)).
+- The law requires that 95 per cent of such requests be met, on average, in under three minutes, and lets a dissatisfied customer ask for a supervisor or the quality department within the same communication, with a call-back the same working day if transfer within three minutes fails (art. 8(2)-(3)).
+- The law binds suppliers of listed basic services and, among firms selling mainly to consumers in Spain, those with at least 250 workers, turnover above 50 million euros or a balance sheet above 43 million euros, counted across the group (art. 2(1)-(2)).
 - The firm is bound whether its customer service is run in-house or by a third party (arts 2(3), 3(11)).
-- Under a contract for continuing services, a complaint about the ground of an intended suspension bars the suspension until a reasoned resolution is communicated (art. 4(4)).
+- Under a contract for continuing services, a complaint about the ground of an intended suspension bars the suspension until a reasoned resolution is communicated, subject to the safety and sector-rule exceptions (art. 4(4)).
 - Breach is sanctioned as a consumer-law infringement, and the firm bears the burden of proving compliance (arts 23(1), 4(7)).
 - The preamble says firms may use artificial intelligence but that customers must be able to reach trained people if they wish (preamble III).
 
@@ -126,3 +126,5 @@ The law sets minimum quality standards for the customer service of two groups of
 - Anything in the Spanish as if it were an official English text. The English here is my paraphrase.
 
 Card written by a Claude (Fable 5.2) subagent, reader R6b, from the saved Boletín Oficial del Estado text read in full in Spanish, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-D (`manuscript/keystone_2026-11/VERIFY_CARDS_D.md`): 'may say' 3, 4 and 6 narrowed.

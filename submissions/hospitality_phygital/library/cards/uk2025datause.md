@@ -93,7 +93,7 @@ Section 80 rewrites the United Kingdom's law on automated decisions. It removes 
 
 - Since 5 February 2026 the United Kingdom has replaced Article 22 of the UK GDPR with Articles 22A to 22D (Data (Use and Access) Act 2025, s. 80(1); S.I. 2026/82, reg. 2(j)).
 - The new articles forbid a solely automated significant decision only where it is based on special-category data without one of two stated conditions, or where the processing relies on Article 6(1)(ea) (art. 22B).
-- For other solely automated significant decisions the controller must have safeguards in place that tell the data subject about the decision and enable the data subject to make representations, obtain human intervention and contest it (art. 22C).
+- For any solely automated significant decision based on personal data the controller must have safeguards in place that tell the data subject about the decision and enable the data subject to make representations, obtain human intervention and contest it (art. 22C).
 - A decision is solely automated only if there is "no meaningful human involvement in the taking of the decision" (art. 22A(1)(a)).
 - The Act sets no time for human intervention and empowers the Secretary of State to make regulations about "how and when" the safeguards must operate (art. 22D(3)(b)).
 
@@ -107,3 +107,5 @@ Section 80 rewrites the United Kingdom's law on automated decisions. It removes 
 - That regulations under Article 22D have or have not been made. I did not check.
 
 Card written by a Claude (Fable 5.2) subagent, reader R6b, from the saved Internet Archive captures of legislation.gov.uk read in full for s. 80 and for regs 2 and 5 of S.I. 2026/82, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-D (`manuscript/keystone_2026-11/VERIFY_CARDS_D.md`): 'may say' 3 narrowed to decisions based on personal data.

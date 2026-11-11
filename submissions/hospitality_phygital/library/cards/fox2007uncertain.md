@@ -56,7 +56,9 @@ Fox questions the assumption that transparency produces accountability. Writing 
 
 ## Where it bears on the argument
 
-- **K7 (supports the vocabulary; narrows the mapping).** Supports: a published, quotable distinction between being able to demand answers and being able to sanction (p. 665), and the placing of 'compensation and/or remediation' at the hard end (Table 1, p. 668), which fits K7's pairing of accountability with repair. Supports also the paper's warning that information is offered in place of answerability (p. 664). Narrows: answerability in this sense arises after decisions are made, so it belongs with what K7 puts after a lapse, and it does not name the channel during performance.
+- **K7 (supports the vocabulary; narrows the mapping).** Supports: a published, quotable distinction between being able to demand answers and being able to sanction (p. 665), and the placing of 'compensation and/or remediation' at the hard end (Table 1, p. 668), which fits K7's pairing of accountability with repair. Supports also the paper's warning that information is offered in place of answerability (p. 664). Narrows: answerability in this sense arises after decisions are made, so it belongs with what K7 puts after a lapse, and it does not name the channel during performance. (Narrowed after CV-D: Fox's p. 664 point is transparency offered instead of accountability.)
 - **K8 (bears).** 'The problem of many hands' (p. 666, citing Thompson 1987) is the public-administration name for responsibility dispersed among many contributors. Fox reports it in one sentence.
 
 Card written by a Claude (Fable 5.2) subagent, reader R3, from the saved eScholarship copy of the publisher's PDF read whole, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-D (`manuscript/keystone_2026-11/VERIFY_CARDS_D.md`): K7 line narrowed.
