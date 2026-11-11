@@ -87,7 +87,7 @@ Added in rr-2026-11-k.
 - For service-providers the duty is owed by reference to "disabled persons generally" (Sch. 2 para. 2(2)), and failing to comply with it "in relation to that person" is discrimination against that person (s. 21(2)).
 - The provider cannot charge the disabled person for the adjustment (s. 20(7)) and need not "fundamentally alter" the nature of the service (Sch. 2 para. 2(7)).
 - The disabled person can sue in the county court (s. 114(1)(a)); the court may grant any remedy available in tort or on judicial review (s. 119(2)), and damages "may include compensation for injured feelings" (s. 119(4)).
-- So at least one departure from a host's standard practice is something a guest is legally owed.
+- So the law of Great Britain makes reasonable adjustment of a host's provision, criterion or practice something a disabled guest is legally owed, within what it is reasonable to have to take and short of altering the nature of the service (ss. 20(3), 21(2); Sch. 2 para. 2(2), (7)).
 
 **What the paper may not say**
 
@@ -98,3 +98,5 @@ Added in rr-2026-11-k.
 - Anything about how "substantial", "disability" or "service-provider" are defined, or about Northern Ireland.
 
 Upgraded in rr-2026-11-k (2026-11-11, Claude, Fable 5.2, reader R4a): added ss. 20(2)-(7), (11), 21(1)-(3), 29(2), 114(1)(a), (6)(a), 119(2), (4) and Sch. 2 paras 2(1)-(4), (7) from the saved Internet Archive captures of legislation.gov.uk, each read in full; added the K4, K5 and K7 claims, the 'Where it bears on the argument' section and the two lists; changed `role` from `governor` to `rival` and set the `must-engage` flag because ss. 20-21 are the refuter K4 names for v6's statement on exceptions; extended `title`, `source_basis` and `hold_rationale` and moved `verified_date` to today. Every earlier field and line is kept. All text added by this run is marked 'Added rr-2026-11-k' or sits under a heading so marked.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'may say' 5 narrowed to a disabled guest and the statute's limits.

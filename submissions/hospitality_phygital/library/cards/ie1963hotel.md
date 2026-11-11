@@ -72,9 +72,9 @@ The Act replaces the common law of innkeepers in Ireland with a statutory code f
 
 - Ireland's Hotel Proprietors Act 1963 puts a hotel's proprietor "under a duty to receive at the hotel as guests all persons who ... present themselves", "unless he has reasonable grounds of refusal" (s. 3(1)).
 - Once a guest is received, the proprietor "is under a duty to take reasonable care of the person of the guest and to ensure that ... the premises are as safe as reasonable care and skill can make them" (s. 4(1)), a duty "independent of any liability of the proprietor as occupier" (s. 4(2)).
-- The proprietor is liable for guests' property without fault (s. 6(1)), up to a cap that falls away where the guest wished to deposit the property and "through the default of the proprietor or a servant of his, was unable to do so" (s. 7(1)(c)).
+- For a guest for whom sleeping accommodation is engaged, the proprietor is liable without fault for property received, subject to the s. 6(5) exemptions (s. 6(1)), up to £100 as enacted. The cap applies only if the First Schedule notice was displayed (s. 7(3)), and it falls away where the guest wished to deposit the property and "through the default of the proprietor or a servant of his, was unable to do so" (s. 7(1)(c)).
 - No notice or agreement can exclude liability under the Act (s. 9).
-- Refusing to receive a person is both a civil wrong and an offence (ss. 10, 12).
+- The Act makes breach of the duty to receive persons (s. 3) or property (s. 5) an offence "without prejudice to his civil liability" (s. 12), and gives the courts jurisdiction over "all civil actions arising under this Act" (s. 10(1)). It presupposes the civil action; it does not create one in terms.
 - The Act defines the proprietor as "the person carrying on the business of the hotel" (s. 1(1)).
 
 **What the paper may not say**
@@ -86,3 +86,5 @@ The Act replaces the common law of innkeepers in Ireland with a statutory code f
 - That failing to take care of a guest's person is a criminal offence under the Act. S. 12 covers ss. 3 and 5 only.
 
 Card written by Claude (Fable 5.2), reader R4a, from the Irish Statute Book text of the Act as enacted, read in full on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'may say' 3 and 5 narrowed (bed-engaged guests, exemptions, notice condition; the civil action presupposed, not created). The £100 cap is the figure as enacted.

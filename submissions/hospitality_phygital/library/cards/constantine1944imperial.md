@@ -5,7 +5,7 @@ authors: "High Court of Justice, King's Bench Division (Birkett J)"
 year: 1944
 doi: ""
 url: "https://archive.org/details/law-reports-queens-bench_1944_1"
-venue: "[1944] KB 693 (argued 19 and 21 June 1944, judgment 28 June 1944)"
+venue: "[1944] KB 693 (the report's running heads print '1 K. B.'; whether the citation is [1944] 1 KB 693 is unchecked against a catalogue) (argued 19 and 21 June 1944, judgment 28 June 1944)"
 cluster: mediation-sovereignty
 status: held
 role: evidence
@@ -17,7 +17,7 @@ verified_date: 2026-11-11
 source_basis: "Primary legal source ('verified' because the validator has no primary-legal-source tier). Whole report read on 11 Nov 2026, pp. 693-708 (headnote, facts, argument, judgment), from the Internet Archive scan of The Law Reports, King's Bench Division, 1944 (item law-reports-queens-bench_1944_1). The saved text is OCR (manuscript/revision_2026-11/research/sources/constantine1944imperial/1944_KB_693_ia_djvu_extract.txt). I fetched the scan's page images for pp. 693, 694, 697, 698 and 708 the same day and checked every quotation below against them; they are saved in the same folder under page_images/. Pp. 695-696 and 699-707 (argument, and the judge's survey of defamation, malicious prosecution, maintenance, Ashby v White and Rothfield) were read in OCR only and nothing is quoted from them. Record verified from the Internet Archive item metadata and the printed running heads. The case is not on the National Archives service (scout log). Locators are report pages."
 generated_run: rr-2026-11-k
 flags: []
-hold_rationale: "Held as the English case in which a traveller refused by an inn sued the innkeeper in his own name and won, the court holding that the action is for the violation of a right at common law and lies without proof of special damage (pp. 693, 708). K5's claim that the duty to receive is owed to the particular guest, who can sue on it, rests on it for England. Its limits are that the duty itself was conceded and that the remedy was five guineas. The authors decide admission."
+hold_rationale: "Held as the English case in which a traveller refused by an inn sued the innkeeper in his own name and won, Birkett J holding that the action lies without proof of special damage because 'His right, I think, is founded on the common law' (p. 708). The phrase 'a right at common law' is the reporter's headnote (p. 693), not the judge's words. K5's claim that the duty to receive is owed to the particular guest, who can sue on it, rests on it for England. Its limits are that the duty itself was conceded and that the remedy was five guineas. The authors decide admission."
 ---
 
 Section numbering (rr-2026-11-k, v6): 2 The host's power and the host's obligation; 3 Delegation and standing.
@@ -59,16 +59,16 @@ The plaintiff, Mr Constantine, described in the report as "the well-known West I
 
 ## Where it bears on the argument
 
-- **K5 (directedness): supports, strongly, for the duty to receive in England.** A refused traveller sued the innkeeper in his own name and won on "a right at common law" (pp. 693, 708). This collides with the reading that the innkeeper's duty was public only (the Sandoval-Strausz lead in K5), at least for England in 1944. The same page records the indictment route (p. 698), so the duty was both.
+- **K5 (directedness): supports, strongly, for the duty to receive in England.** A refused traveller sued the innkeeper in his own name and won: "His right, I think, is founded on the common law. That right I found was violated." (p. 708; the headnote at p. 693 puts it as "a right at common law"). Birkett J places the action among actions on the case brought "certainly from very early times" (pp. 697-698), so the private action is much older than 1944; what was new was that it lay without special damage. This collides with the reading that the innkeeper's duty was public only (the Sandoval-Strausz lead in K5), at least for England in 1944. The same page records the indictment route (p. 698), so the duty was both.
 - **K4 (admission tier): supports the conditions as conceded.** Common inn, traveller, room available, ready and willing to pay, no ground of refusal (p. 694).
 - **K7 (channel): narrows.** The remedy was damages afterwards, and nominal (p. 708). This is an instance of the defeater K7 names: remedies doctrine satisfied by later damages.
 - **K8 (holder): a small point for several-firm cases.** Performance at another establishment of the same owner did not discharge the duty owed at the inn the traveller chose (p. 697). The holder was "the proprietors" of the inn (p. 694).
 
 **What the paper may say**
 
-- In English law a traveller wrongfully refused by an inn could sue the innkeeper in his own name, and the action lay "without proof of special damage" because it was "for the violation of a right at common law" (pp. 693, 708).
+- A traveller wrongfully refused by an inn could sue the innkeeper in his own name without proof of special damage: Birkett J held the action "maintainable without proof of special damage" because "His right, I think, is founded on the common law" (p. 708). The words "a right at common law" are the headnote's (p. 693).
 - The court said of the traveller: "His right, I think, is founded on the common law. That right I found was violated." (p. 708).
-- The innkeeper did not discharge the duty by lodging the traveller at another hotel it owned (pp. 694, 697).
+- Where the traveller went to the innkeeper's other hotel "under protest", and the only evidence of the relation between the hotels was common ownership, lodging him there was "no answer" to the refusal (p. 697).
 - The same judgment notes that an innkeeper could also be indicted for refusing a guest (p. 698).
 - The remedy was nominal damages of five guineas; the judge refused more although he found "much unjustifiable humiliation and distress" (p. 708).
 
@@ -81,3 +81,5 @@ The plaintiff, Mr Constantine, described in the report as "the well-known West I
 - Anything about *Ashby v White*, *Rothfield* or *R v Sprague* beyond what this report says of them.
 
 Card written by Claude (Fable 5.2), reader R4a, from the Internet Archive OCR text read in full and checked against page images on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'a right at common law' re-attributed to the headnote and the judge's p. 708 words used instead; 'may say' 1 and 3 narrowed; the action's age before 1944 added (pp. 697-698); the citation's volume number flagged.

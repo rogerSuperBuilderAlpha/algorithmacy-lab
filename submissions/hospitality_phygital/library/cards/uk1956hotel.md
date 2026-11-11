@@ -74,13 +74,13 @@ Added in rr-2026-11-k.
 
 - **K4 (two tiers): supports both, for hotels in Great Britain.** S. 1 carries over the innkeeper's common-law duties, the duty to receive among them, to the proprietor of a hotel and to no one else, on the conditions in s. 1(3). S. 2 states the present limits of the goods duty.
 - **K8 (holder, goods): supports with a limit.** The strict liability for guests' goods stays with the proprietor "even though it was not due to any fault of the proprietor or staff" (Schedule), which fits K8's first bullet. It is capped (s. 2(3)), and K8 should say so. The duties "shall not attach to any other person" (s. 1(1)), so a brand or platform that is not the proprietor does not hold them under this Act.
-- **K7 (channel): a statutory analogue, for goods only.** The proprietor loses the cap where the guest "wished so to offer the property in question but, through the default of the proprietor or a servant of his, was unable to do so" (s. 2(3)(c)). The law here makes the holder pay for being unreachable. The remedy is damages afterwards, and the duty concerned is custody of goods.
+- **K7 (channel): a statutory analogue, for goods only.** The proprietor loses the cap where the guest "wished so to offer the property in question but, through the default of the proprietor or a servant of his, was unable to do so" (s. 2(3)(c)). The default must be the proprietor's or a servant's, and the only consequence is that the cap on liability for goods is lost; whether a contractor's or a system's default counts is open on the words. The remedy is damages afterwards, and the duty concerned is custody of goods.
 - **K5 (directedness): consistent.** The liabilities run to "any guest of his" (ss. 1(2), 2(2)) and "any one guest" (s. 2(3)).
 
 **What the paper may say**
 
 - In Great Britain an innkeeper's duties now attach to "the proprietor" of a hotel and "shall not attach to any other person" (s. 1(1)).
-- The proprietor is liable for a guest's property "even though it was not due to any fault of the proprietor or staff of the hotel" (Schedule), but only where a bed was engaged (s. 2(1)) and only up to fifty pounds an article and one hundred pounds in all (s. 2(3)).
+- The proprietor "may in certain circumstances be liable" for a guest's property "even though it was not due to any fault of the proprietor or staff of the hotel" (Schedule), but only where a bed was engaged and the loss fell within the stay (s. 2(1)). If the Schedule notice was displayed, liability is limited to fifty pounds an article and one hundred pounds in all unless s. 2(3)(a), (b) or (c) applies (s. 2(3) and proviso).
 - The cap falls away where the loss came through "the default, neglect or wilful act of the proprietor or some servant of his" (s. 2(3)(a)), where the property was deposited for safe custody (s. 2(3)(b)), or where the guest wished to deposit it "but, through the default of the proprietor or a servant of his, was unable to do so" (s. 2(3)(c)).
 - The Act provides for a hotel with "no reception office or desk" (s. 2(3), proviso).
 
@@ -95,3 +95,5 @@ Added in rr-2026-11-k.
 Fable-checked rr-2026-11-h (2026-11-10): s. 1(1)-(3) re-read against the saved capture (sources/hpa1956/s1.txt), all four quotations exact; s. 1(3) marked as a definition from which the activation conditions are read; s. 2(3) recorded as the verifier's reading, not this card's.
 
 Upgraded in rr-2026-11-k (2026-11-11, Claude, Fable 5.2, reader R4a): read the whole Act from the saved Internet Archive capture of legislation.gov.uk and added s. 2(1)-(3) with the proviso, s. 3(2)-(4), the long title and the Schedule's notice; added the K4, K7 and K8 claims, section 3 to `used_by_sections`, the 'Where it bears on the argument' section and the two lists; marked the earlier 'Do not cite s. 2' note as superseded; extended `title`, `source_basis` and `hold_rationale` and moved `verified_date` to today. Every earlier field and line is kept. All text added by this run is marked 'Added rr-2026-11-k' or sits under a heading so marked.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): the K7 bullet's 'pay for being unreachable' narrowed to the words of s. 2(3)(c); 'may say' 2 narrowed per CV-A. `used_by_sections` still lists '9' from the rr-2026-11-h outline.

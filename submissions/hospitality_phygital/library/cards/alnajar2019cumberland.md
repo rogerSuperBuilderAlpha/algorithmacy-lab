@@ -75,7 +75,7 @@ Three sisters from the United Arab Emirates, staying with their family at the Cu
 
 **What the paper may say**
 
-- In English law a hotel owes its guests a duty to take reasonable care to protect them against injury caused by the criminal acts of third parties (para 187; para 240(1)).
+- In *Al-Najar* the High Court held that the hotel owed its staying guests a duty to take reasonable care to protect them against injury caused by the criminal acts of third parties (paras 187, 240(1)). The hotel had admitted a general duty of care, the guests lost on breach, and the finding was not challenged on appeal.
 - The High Court grounded that duty in an assumption of responsibility: the hotel "invited guests to come and stay at the hotel and thereby assumed a duty to take reasonable care to protect guests" (para 187).
 - The judge recorded that the old innkeeper's law protected the guest's goods more strictly than the guest, and that the common law "has developed since" (paras 183, 187).
 - The duty is one of reasonable care, "not an absolute duty to prevent an attack" (para 229), and the guests' claim failed because the hotel had taken reasonable care (paras 229, 240).
@@ -91,3 +91,5 @@ Three sisters from the United Arab Emirates, staying with their family at the Cu
 - Anything about *Robinson*, *Stansbie* or *Chordas* beyond what this judgment says of them.
 
 Card written by Claude (Fable 5.2), reader R4a, from the saved Find Case Law text read in full on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'may say' 1 attributed to the High Court, with the admission, the outcome on breach and the appeal noted.

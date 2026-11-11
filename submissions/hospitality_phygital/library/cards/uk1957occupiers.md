@@ -72,7 +72,7 @@ Added in rr-2026-11-k.
 - In England and Wales every occupier owes every visitor a "common duty of care" to see that the visitor "will be reasonably safe in using the premises" (s. 2(1)-(2)); a hotel owes it as any occupier does.
 - Where a danger is due to an independent contractor's faulty construction, maintenance or repair, the occupier "is not to be treated without more as answerable" if he acted reasonably in entrusting the work and "had taken such steps (if any) as he reasonably ought in order to satisfy himself that the contractor was competent and that the work had been properly done" (s. 2(4)(b)).
 - For a person who enters under a contract with the occupier, the duty that rests on a term implied from the right to enter "shall be the common duty of care" (s. 5(1)).
-- So in occupiers' law the holder who delegates repair work keeps a duty to check, and loses liability only if that checking was reasonable.
+- Under s. 2(4)(b) an occupier who entrusts construction, maintenance or repair to an independent contractor escapes answerability for the contractor's faulty work only if the entrustment was reasonable and he took "such steps (if any) as he reasonably ought" to satisfy himself of the contractor's competence and the work.
 
 **What the paper may not say**
 
@@ -87,3 +87,5 @@ Corrected in rr-2026-11-h after VERIFY_H_v3 (2026-11-10): the power to vary "by 
 Corrected in rr-2026-11-k (2026-11-11, Claude, Fable 5.2): the s. 2(4)(b) quotation had been cut off before its last clause ('and had taken such steps (if any) as he reasonably ought in order to satisfy himself that the contractor was competent and that the work had been properly done'). Restored from the saved official text (sources/ola1957/s2.html). The clause bears on K7 (the holder's oversight) and K8 (what stays with the holder).
 
 Upgraded in rr-2026-11-k (2026-11-11, Claude, Fable 5.2, reader R4a): added s. 5(1)-(4) and the opening words of s. 2(4) and s. 2(5) from the saved Internet Archive captures of legislation.gov.uk, each section read in full; added the K4, K7 and K8 claims, section 3 to `used_by_sections`, the `must-engage` flag, the 'Where it bears on the argument' section and the two lists; extended `title`, `source_basis` and `hold_rationale` and moved `verified_date` to today. `role` stays `governor`: the Act narrows K8 and K7 and does not refute either. Every earlier field and line is kept. All text added by this run is marked 'Added rr-2026-11-k' or sits under a heading so marked.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'may say' 4 confined to construction, maintenance or repair, with 'steps (if any)'.

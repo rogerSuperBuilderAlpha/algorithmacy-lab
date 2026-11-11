@@ -45,7 +45,7 @@ Rymer kept the Sea House Hotel at Worthing. Under the same roof and licence, wit
 ## Critical notes & threats
 
 - **Holding and dicta.** Three grounds. Kelly CB says of the first that "on this ground, even if it stood alone, this conviction must be quashed" (p. 140); the second and third are given as further reasons, the third on the assumption that the first two were wrong. The remarks about dogs in inns (pp. 140-141) are dicta. No counsel appeared (p. 139), so the points were not argued.
-- **A criminal case.** It shows the public route of enforcement: indictment at quarter sessions for refusing a traveller. It does not decide whether the traveller could also sue. The judges nonetheless speak of what a person "has a right to insist on" (p. 140), which is the language of an entitlement in the person refused.
+- **A criminal case.** It shows the public route of enforcement: indictment at quarter sessions for refusing a traveller. It does not decide whether the traveller could also sue. The phrase "has a right to insist on" (p. 140) must not be lifted out: the sentence is "In such a place as this no one has a right to insist on being served any more than in any other shop". At most it implies, by contrast, an entitlement at a true inn.
 - **The definition of an inn is quoted from *Calye's Case*.** The library's card for that case has the same phrase at fol. 32b (calye1584case).
 - **Date.** The margin on p. 136 gives 20 January and the text on p. 139 gives 25 January. I cannot tell from the report which is the date of judgment.
 - **OCR.** The saved text misreads the judges' names ("Kruy, C.B.", "Frexp, J., and Huppisston, B."), the recognizance ("500." for "50l."), a case name ("Burgess vy. Olements") and a date ("8rd of March"). Names and quotations above follow the page images. Line-break hyphens are mended and footnote markers dropped.
@@ -59,7 +59,7 @@ Rymer kept the Sea House Hotel at Worthing. Under the same roof and licence, wit
 **What the paper may say**
 
 - In 1877 an innkeeper could be indicted for refusing a traveller without reasonable cause (pp. 136, 139).
-- The court confined the duty to inns and travellers: a refreshment bar attached to a hotel "is not an inn", and there "no one has a right to insist on being served any more than in any other shop" (p. 140).
+- The court confined the duty to inns and travellers. A refreshment bar under the hotel's roof but "entirely separate from it, with a separate entrance", and in effect "a mere shop", was not an inn (pp. 139-140), and there "no one has a right to insist on being served any more than in any other shop" (p. 140). The court decided on those facts; the case is silent on a restaurant inside an inn.
 - The stated object of the rule was "merely to secure that travellers shall not, while upon their journeys, be deprived of necessary food and lodging" (pp. 140-141).
 - An innkeeper may refuse for reasonable cause (p. 140).
 
@@ -71,3 +71,5 @@ Rymer kept the Sea House Hotel at Worthing. Under the same roof and licence, wit
 - That the court was unanimous after argument. No counsel appeared.
 
 Card written by Claude (Fable 5.2), reader R4a, from the Internet Archive OCR text read in full and checked against page images on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): the fragment 'has a right to insist on' restored to its negative sentence; 'may say' 2 narrowed to the facts (a separate bar with its own entrance).
