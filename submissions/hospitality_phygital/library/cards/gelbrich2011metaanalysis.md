@@ -16,7 +16,7 @@ verified_date: 2026-11-11
 source_basis: "Full text read 11 Nov 2026 from the SAGE version of record (22-page PDF: an Ilmenau University Library cover sheet, the SAGE cover page, then journal pp. 24-43), deposited open access by TU Ilmenau under the DFG Alliance and national licence (urn:nbn:de:gbv:ilm1-2014210204). The live repository (db-thueringen.de) served an Anubis proof-of-work bot check and CORE a Cloudflare challenge; I passed neither. I fetched the Internet Archive capture of the repository PDF of 13 Jan 2026 (web.archive.org/web/20260113213110id_/https://www.db-thueringen.de/servlets/MCRFileNodeServlet/dbt_derivate_00030488/ilm1-2014210204.pdf), saved at manuscript/revision_2026-11/research/sources/gelbrich2011metaanalysis/ (wayback_dbt_ilm1-2014210204.pdf, SHA-256 1a9f529a719b6321..., with paper_paged.txt and crossref.json). Record: Crossref (JSR 14(1) 24-43; online 3 Dec 2010), OpenAlex W2128616827 and Unpaywall, fetched 11 Nov 2026; title, authors and DOI match the PDF. Read pp. 24-40 in full; references skimmed. Locators are printed journal pages."
 generated_run: rr-2026-11-k
 flags: []
-hold_rationale: "Held for the authors. The strongest open synthesis of complaint handling: across 87 studies it ties recovery outcomes to three organizational responses (compensation, the employee's manner, complaint procedures) and finds the employee's manner matters more in services. It supports K7's P4 only indirectly. It never codes who handles the complaint or with what power, covers only customers who did complain, and does not separate hotels from other services. Cite it for what recovery runs on, not for the claim that a person with authority is needed."
+hold_rationale: "Held for the authors. The strongest open synthesis of complaint handling: across 87 studies it ties recovery outcomes to three organizational responses (compensation, the employee's manner, complaint procedures) and finds that fair treatment matters more in services, for cumulative satisfaction. It supports K7's P4 only indirectly. It never codes who handles the complaint or with what power, covers only customers who did complain, and does not separate hotels from other services. Cite it for what recovery runs on, not for the claim that a person with authority is needed."
 ---
 
 Outline numbering (rr-2026-11-k, v6): section 3, 'Delegation and standing'; section 4, 'Assembled hosts at the touchpoint'.
@@ -53,14 +53,14 @@ Gelbrich and Roschk pool the complaint-handling literature from 1980 to June 200
 
 **K7, P4, first half (the guest's report as the timely signal): narrows, slightly.** The meta-analysis studies only complainants. Its one relevant remark is that negative word of mouth can arise "in lieu of" a complaint (p. 28). A failure the guest does not report may never reach the firm.
 
-**K7, P4, second half (correction needs a person with power over the single case): consistent, not shown.** Recovery outcomes run through a remedy the firm grants (compensation, gamma = .53 on distributive justice) and an employee's manner (gamma = .59 on interactional justice), and the employee's manner weighs more in services (pp. 32, 34, 36). The study does not test whether the remedy depends on the authority of the person the complainant meets.
+**K7, P4, second half (correction needs a person with power over the single case): consistent, not shown.** Recovery outcomes run through a remedy the firm grants (compensation, gamma = .53 on distributive justice) and an employee's manner (gamma = .59 on interactional justice), and fair treatment (interactional justice) weighed more in services, for cumulative satisfaction (pp. 32, 34, 36). The study does not test whether the remedy depends on the authority of the person the complainant meets.
 
 **K9, empirical side: no bearing.** Automated or self-service complaint handling was not studied; online versus offline handling is listed as unexamined (p. 40).
 
 **What the paper may say on this source's authority**
 
 - Across 87 studies of complaint handling (95 samples, N = 28,826), Gelbrich and Roschk (2011: 28, 36) found that compensation chiefly shaped complainants' sense of a fair outcome, the employee's manner their sense of fair treatment, and complaint procedures their sense of a fair process.
-- Complainants' satisfaction with the firm as a whole rested slightly more on how they were treated than on what they received (Gelbrich and Roschk 2011: 36), and treatment weighed more in service than in goods settings (34).
+- Complainants' satisfaction with the firm as a whole rested slightly more on how they were treated than on what they received (Gelbrich and Roschk 2011: 36), and, for cumulative satisfaction only, fair treatment weighed more in service than in goods settings, on 28 service against 4 non-service samples, with no industry effect on transaction-specific satisfaction (34).
 - Gelbrich and Roschk (2011: 39) advise that complaint procedures let employees ask complainants what remedy they expect instead of prescribing one.
 
 **What it may not say**
@@ -71,3 +71,5 @@ Gelbrich and Roschk pool the complaint-handling literature from 1980 to June 200
 - The 5% apology figure as Gelbrich and Roschk's own; it is the Customer Care Alliance's (p. 39).
 
 Card written by a Claude (Opus 5.5) subagent (reader R8) from the full text saved in sources/gelbrich2011metaanalysis/, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-F (`manuscript/keystone_2026-11/VERIFY_CARDS_F.md`): 'may say' 2 and the K7 reading narrowed: fair treatment, for cumulative satisfaction, on 28 against 4 samples.

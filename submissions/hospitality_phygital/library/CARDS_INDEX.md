@@ -568,7 +568,7 @@ The contextual view: which sources carry which claim, where. Unmarked entries ar
 | [riordan2024digitally](cards/riordan2024digitally.md) | Digitally Mediated Hospitality and Algorithmic Hostility in… | 2024 | platform-hospitality | cited | framing | 1 | abstract | verified |
 | [ripstein2026theories](cards/ripstein2026theories.md) | Theories of the Common Law of Torts | 2026 | mediation-sovereignty | held | governor | 3 | full-text | verified |
 | [roelofsenminca2018](cards/roelofsenminca2018.md) | The Superhost: Biopolitics, Home and Community in the Airbn… | 2018 | platform-hospitality | cited | evidence | 2 | abstract | crossref-verified |
-| [rudyhiller2022epistemic](cards/rudyhiller2022epistemic.md) | The Epistemic Condition for Moral Responsibility | 2022 | mediation-sovereignty | held | governor | 3 | full-text | verified |
+| [rudyhiller2022epistemic](cards/rudyhiller2022epistemic.md) | The Epistemic Condition for Moral Responsibility | 2025 | mediation-sovereignty | held | governor | 3 | full-text | verified |
 | [rymer1877queen](cards/rymer1877queen.md) | The Queen v Rymer | 1877 | mediation-sovereignty | held | governor | 2 | full-text | verified |
 | [salazar2026restorying](cards/salazar2026restorying.md) | Restorying Hospitality in Times of Biopolitics and Polycris… | 2026 | hospitality-theory | held | framing | 8 | abstract | verified |
 | [sandovalstrausz2005travelers](cards/sandovalstrausz2005travelers.md) | Travelers, Strangers, and Jim Crow: Law, Public Accommodati… | 2005 | hospitality-theory | held | evidence | 2 8 | full-text | crossref-verified |

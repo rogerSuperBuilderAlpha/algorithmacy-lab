@@ -91,3 +91,16 @@
 
 **Access route.** CV-D asked for a ruling on texts read from Internet Archive captures (de Kenessey 2024, AB 1609, UK s. 80, *American Cyanamid*). See `DECISIONS_K.md`, K-D12.
 
+## CV-F (the R7 and R8 cards): 10 cards, 0 FAIL; 340 source quotations, 337 MATCH
+
+| Card | What the verifier found | What I changed |
+|---|---|---|
+| `manifest2001unipolaris` | 'no special steps' was paraphrase given as quotation; para 117's 'bound to enquire' belongs to the privity test, not a duty to enquire; no Lord held negligence; 'I think that is dishonesty' is Lord Blackburn's | All corrected. The corrected reading supports P3 as a claim about what care requires |
+| `page1972sloan` | 'depending,on' is an OCR speck | Quoted as printed |
+| `rudyhiller2022epistemic` | Three 'may say' sentences too wide; the year differs between card (2022) and BibTeX (2025) | Narrowed; year set to 2025, the edition cited |
+| `hormio2018culpable` | Two 'may say' sentences stated beyond her example; journal version unseen | Narrowed; preprint pages only |
+| `gelbrich2011metaanalysis` | 'Employee's manner weighs more in services' conflates the response with the perception, and holds for cumulative satisfaction only | Narrowed (also R8's report) |
+| `lee2025robot`, `min2020angry`, `xu2024disciplined` | Statistic and sample frame missing; 'lost the chance' not the source's words; 'fixed alone' overstated | Corrected; Min's swap target is JBR 95: 93-102 |
+
+**Effect on ARGUMENT.md.** *The Star Sea* paragraph now says para 117 is about privity, not a duty to enquire, and that the speeches call such failures negligence; Hormio's sentence is tied to her example; the guests at the kiosk were sometimes advised by bystanders.
+

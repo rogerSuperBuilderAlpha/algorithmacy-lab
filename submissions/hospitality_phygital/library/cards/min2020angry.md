@@ -52,7 +52,7 @@ A three-page research report in which Min and Kim summarise experiments built on
 
 **What the paper may say on this source's authority**
 
-- Min and Kim (2020: 2) report from restaurant experiments that angry customers who did not feel powerful were reluctant to complain face to face, so the operator lost the chance to hear of the failure. Prefer citing Min, Joireman and Kim (2019) once it is read.
+- Min and Kim (2020: 2) report from restaurant experiments that angry customers who did not feel powerful were reluctant to complain face to face, "reducing an opportunity for the service provider to hear from customers" (p. 2). Prefer citing the underlying study, Min, Joireman and Kim (2019), *Journal of Business Research* 95: 93-102, doi 10.1016/j.jbusres.2018.10.017, once it is read (not the 2019 *IJHM* paper).
 
 **What it may not say**
 
@@ -61,3 +61,5 @@ A three-page research report in which Min and Kim summarise experiments built on
 - That most dissatisfied guests do not complain.
 
 Card written by a Claude (Opus 5.5) subagent (reader R8) from the full text saved in sources/min2020angry/, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-F (`manuscript/keystone_2026-11/VERIFY_CARDS_F.md`): 'may say' 1 uses the source's words; the swap target is JBR 95: 93-102.

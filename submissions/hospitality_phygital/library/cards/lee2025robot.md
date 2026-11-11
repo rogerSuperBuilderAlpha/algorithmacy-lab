@@ -56,7 +56,7 @@ A cross-sectional retrospective survey in Macau. Lee and colleagues reached resp
 
 **What the paper may say on this source's authority**
 
-- In a survey of 330 people in Macau recalling a failure by a service robot, Lee et al. (2025: 9) found no direct effect of the failure on their intention to switch to human-staffed service.
+- In a survey of 330 people in Macau recalling a failure by a service robot of any kind, recruited by judgmental sampling through WeChat (pp. 7-8), Lee et al. (2025: 9, 13) report no significant direct effect of the failure on intention to switch to human-staffed service (β = 0.136, t = 1.959, a borderline value).
 - Lee et al. (2025: 17) nonetheless recommend that service staff stand behind robot services and be able to remedy failures and follow up.
 
 **What it may not say**
@@ -66,3 +66,5 @@ A cross-sectional retrospective survey in Macau. Lee and colleagues reached resp
 - The direction or size of the satisfaction-to-switching effect without noting that text and table disagree (pp. 9, 13).
 
 Card written by a Claude (Opus 5.5) subagent (reader R8) from the full text saved in sources/lee2025robot/, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-F (`manuscript/keystone_2026-11/VERIFY_CARDS_F.md`): 'may say' 1 adds the sample frame and the statistic. PLOS's own citation gives 'Helen Lee WH, Grace Chan SH'; the Discussion (p. 13) reads H3 as negative; the text swaps Tables 2 and 3 (p. 9).

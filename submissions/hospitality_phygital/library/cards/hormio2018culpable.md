@@ -67,8 +67,8 @@ Hormio asks how organisational practices shape what members know about the cause
 
 - Hormio argues that "sometimes organisational design alone can create individual ignorance" and that "the act that creates conditions for culpable ignorance" can take place "at the collective level" (Hormio 2018, preprint: p. 1).
 - She extends Holly Smith's account of culpable ignorance to organisations, "allowing for the benighting act to be done by a different person than the morally inferior act that follows" (p. 16), so that "any possible blame should be directed at the collective" (p. 16).
-- On her account an organisation that runs a known risk without adequate checks "could not justify this way of operating by appealing to ignorance", because "the knowledge would have been found out given the right resources and motivation" (p. 17).
-- She holds that "organisations have less excuses of being ignorant of facts than individuals do" (p. 5).
+- Of her example, an organisation whose ethos puts excitement over other considerations and which runs a known risk without adequate checks, she says it "could not justify this way of operating by appealing to ignorance", because "the knowledge would have been found out given the right resources and motivation" (p. 17).
+- Of "knowable recognised unknowns", she holds that "organisations have less excuses of being ignorant of facts than individuals do" (p. 5).
 - She concludes that once problems emerge or are pointed out, an organisation "has a forward-looking duty to try to fix its design", and is blameworthy if it does not improve its practices "when it comes to information flows" (pp. 20-21).
 
 **What the paper may not say**
@@ -79,3 +79,5 @@ Hormio asks how organisational practices shape what members know about the cause
 - Journal page numbers, until the journal version has been read.
 
 Card written by a Claude (Opus 5.5) subagent, reader R7, from the SocArXiv preprint PDF read in full, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-F (`manuscript/keystone_2026-11/VERIFY_CARDS_F.md`): 'may say' 3 and 4 narrowed to her example and to 'knowable recognised unknowns'. The journal version (Acta Philosophica Fennica 94, 2018) exists but the article was not seen; cite preprint pages only.

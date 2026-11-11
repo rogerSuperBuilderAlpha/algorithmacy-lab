@@ -2,7 +2,7 @@
 citekey: rudyhiller2022epistemic
 title: "The Epistemic Condition for Moral Responsibility"
 authors: "Rudy-Hiller, Fernando"
-year: 2022
+year: 2025
 doi: ""
 url: "https://plato.stanford.edu/entries/moral-responsibility-epistemic/"
 venue: "The Stanford Encyclopedia of Philosophy, ed. Edward N. Zalta and Uri Nodelman (first published 12 September 2018; substantive revision 4 October 2022; latest version archived as the Fall 2025 Edition, minor correction)"
@@ -60,12 +60,12 @@ Rudy-Hiller sets out the epistemic condition (EC) for moral responsibility: what
 
 **What the paper may say**
 
-- Philosophers commonly hold that culpable ignorance does not excuse, though not all agree (Rudy-Hiller 2022: §2, reporting Holly Smith and others).
+- That culpable ignorance does not excuse, at least completely, is widely though not universally accepted (Rudy-Hiller 2022: §2 ¶2, citing Holly Smith 2017 and Ross 1939 against).
 - On the tracing account, ignorance is culpable when it results from a 'benighting act', "an action or omission the consequence of which is the lack of a true belief about the impermissibility of one’s conduct" (Holly Smith 1983, as reported in Rudy-Hiller 2022: §2), such as failing to read instructions or to ask (§2).
 - Rosen calls the obligation breached by such an omission a "‘procedural epistemic obligation’" to inform oneself (Rosen 2004: 301, as quoted in Rudy-Hiller 2022: §2).
-- Several philosophers reject accounts on which "one could shield oneself from blame simply by" not thinking about what one is doing (Rudy-Hiller 2022: §1.2, reporting Guerrero, Timpe, Robichaud and Levy).
+- Dispositionalists argue against occurrentism that on the latter "one could shield oneself from blame simply by" not thinking about the moral status of one's action (Rudy-Hiller 2022: §1.2 ¶7, reporting Guerrero, Timpe, Robichaud and Levy).
 - Capacitarians hold that an agent can be blameworthy if she "should and could" have been aware of the relevant considerations (Rudy-Hiller 2022: §3.4); volitionists deny it and require that culpable ignorance trace back to an act done in full awareness (§2).
-- Rudy-Hiller distinguishes norms of awareness, which concern "states of mind", from duties of inquiry, which concern "activities" (§3.4).
+- Rudy-Hiller, following Rosen, H. Smith and Wieland, distinguishes norms of awareness, which concern "states of mind", from duties of inquiry, which concern "activities" (§3.4).
 
 **What the paper may not say**
 
@@ -75,3 +75,5 @@ Rudy-Hiller sets out the epistemic condition (EC) for moral responsibility: what
 - Any quotation of Holly Smith, Rosen, Zimmerman, FitzPatrick, Montmarquet, Sher or Guerrero without 'as quoted in' or 'as reported in' Rudy-Hiller.
 
 Card written by a Claude (Opus 5.5) subagent, reader R7, from the saved Stanford Encyclopedia HTML read in full and re-verified against the live entry, 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-F (`manuscript/keystone_2026-11/VERIFY_CARDS_F.md`): 'may say' 1, 4 and 6 narrowed; year set to 2025 to match the edition cited (Fall 2025; substantive revision 4 Oct 2022) and the BibTeX entry.
