@@ -76,7 +76,7 @@ A position paper on hospitality as a university subject. Morrison and O'Gorman r
 **What the paper may say on this source's authority.**
 
 - Morrison and O'Gorman list, among the 'business principles' of hospitality, that 'Businesses have a responsibility for the health, safety and security of the guests' (2008: Figure 2).
-- They derive their principles from St Benedict's Rule and restate them in 'modern business terminology' (2008; AM p. 6).
+- They derive their principles from the Rule and contemporaneous monastic practice, read with commentaries, and restate them in 'modern business terminology' (2008; AM p. 6).
 - In their taxonomy the person serving 'is seen by the guest as representing the business as a whole', and managers 'have to be seen by the guests as the host' (2008: Figure 2).
 - They state the business's responsibility and do not argue it: the principle appears in a figure and the text does not discuss it (Figure 2; AM p. 7).
 - Their taxonomy does not say when the responsibility begins or which of several firms holds it (Figure 2, read whole).
@@ -90,3 +90,5 @@ A position paper on hospitality as a university subject. Morrison and O'Gorman r
 - Any journal page number for these passages.
 
 Card written by Claude (Fable 5.2), reader R1, from the Strathclyde repository copy read whole (sources/morrison2008hospitality/), on 11 Nov 2026, run rr-2026-11-k. Every quotation in the key facts was checked by script, with its page, against the saved PDF's text layer.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): 'may say' 2 narrowed (the Rule and contemporaneous monastic practice). Figure 2 should be checked against the published version before citing.

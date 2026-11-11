@@ -47,7 +47,7 @@ Not read beyond the abstract. On the abstract, a conceptual paper proposing that
 
 ## Where it bears on the argument
 
-**K2 (rival at abstract depth).** K2's second refuter is 'hospitableness scholars who already assign the host's duty to an organization. One such source defeats the gap statement'. This abstract assigns a virtue, and no duty, to organizations, so on the abstract it does not defeat the gap statement. It does show that 'hospitality at the organizational level' is a named topic with a stated gap of its own, and K2's wording should not suggest that the organizational level is unoccupied.
+**K2 (rival at abstract depth).** K2's second refuter is 'hospitableness scholars who already assign the host's duty to an organization. One such source defeats the gap statement'. This abstract assigns a virtue, and no duty, to organizations, so on the abstract it does not defeat the gap statement. It does show that hospitality as a virtue 'practiced at the organizational level' ('organization-level hospitality virtue') is a named topic with a stated gap of its own, and K2's wording should not suggest that the organizational level is unoccupied.
 
 **K2's premise (collides).** K2 treats hospitableness as the manner in which a role is performed and holds that the duty attaches to the role. This abstract treats hospitality itself as a virtue that scales from persons to organizations. The two framings compete for the same ground.
 
@@ -65,3 +65,5 @@ Not read beyond the abstract. On the abstract, a conceptual paper proposing that
 - That no one has theorized hospitality at the level of the organization.
 
 Card written by Claude (Fable 5.2), reader R1, from the Crossref-deposited abstract only (sources/dogru2025service/), on 11 Nov 2026, run rr-2026-11-k. Every quotation was checked by script against the saved record.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): a paraphrase-as-quotation replaced with the abstract's words.

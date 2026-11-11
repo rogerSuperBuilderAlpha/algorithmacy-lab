@@ -58,7 +58,7 @@ A review of what philosophers have said about hospitality, written to ask whethe
 
 **Register.** Exposition of philosophy for a management readership. The duties it mentions are Telfer's (a felt 'sense of duty' as one hospitable motive; guests 'the host is obliged to offer hospitality to', in O'Gorman's paraphrase) and Derrida's ('rights and duties that are always conditioned and conditional'). Its own closing sentence returns to hospitality as 'a gift', which sits uneasily with duty.
 
-**Person, role or organization.** Persons and states. Telfer's host is a householder. Derrida's is the master of a house or a nation. No firm appears as host. O'Gorman's point that the commercial context has 'its own different sets of laws' is where a commercial host's duty would go, and he leaves the place empty.
+**Person, role or organization.** Persons and states. Telfer's host is a householder. Derrida's is the master of a house or a nation. No firm appears as host. O'Gorman's point that the commercial context has 'their own different sets of laws' is where a commercial host's duty would go, and he leaves the place empty.
 
 **Telfer through this carrier.** Five passages of *Food for Thought* with pages, all on private hospitality. Two matter for K2. Page 82 puts a 'sense of duty' among the hospitable motives, on condition that there is 'also concern for the guests themselves'. Page 101 calls hospitality an 'ideal' that 'presents itself as joyful rather than onerous'. Together they show Telfer placing duty inside hospitableness, as one of its motives, while describing the whole as an ideal and a virtue. O'Gorman's own gloss ('a distinction ... between hospitality for pleasure and hospitality that is born out of a sense of duty') is his and is not in the words he quotes.
 
@@ -96,3 +96,5 @@ A review of what philosophers have said about hospitality, written to ask whethe
 - Any journal page number for these passages.
 
 Card written by Claude (Fable 5.2), reader R1, from the Strathclyde repository copy read whole (sources/ogorman2007phenomenon/), with the 2006 magazine version read whole for comparison (sources/ogorman2006jacques/), on 11 Nov 2026, run rr-2026-11-k. Every quotation in the key facts was checked by script, with its page, against the saved PDF's text layer.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): a paraphrase given as quotation corrected to the text's 'their own different sets of laws' (AM p. 22).

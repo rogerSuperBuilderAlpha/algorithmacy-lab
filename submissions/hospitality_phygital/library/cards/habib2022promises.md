@@ -75,7 +75,7 @@ Habib sorts theories of promissory obligation into four types: normative power, 
 - On Thomson's view a promise is "an invitation to rely", and a wrong requires that the person who relied in fact suffer loss (as reported in Habib 2022: §3.2, paras 1-2).
 - All three kinds of expectation theory require uptake by the other party (§3.3, para. 3).
 - Critics object that such theories are circular and that they fail where the other party has no expectation (§3.3, paras 6-8).
-- Courts measure some contract damages by the loss a plaintiff suffered in relying on a promise, as Fuller and Perdue argued (as reported in Habib 2022: §6.2, para. 4).
+- Fuller and Perdue argued that some contract damages should be measured by the loss a plaintiff suffered in relying on a promise (as reported in Habib 2022: §6.2, para. 4). This source supports no statement of what courts do.
 
 **What the paper may not say**
 
@@ -87,3 +87,5 @@ Habib sorts theories of promissory obligation into four types: normative power, 
 - That the entry mentions hosts, hospitality, holding out or apparent agency. It does not.
 
 Card written by a Claude (Fable 5.2) subagent, reader R2, from the saved Stanford Encyclopedia HTML (introduction and sections 2.3, 3, 4, 5.1 and 6.2 read whole), 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): 'may say' 7 attributes the point to Fuller and Perdue and makes no statement of law.

@@ -80,7 +80,7 @@ A conceptual article arguing that scholars and the trade have misdescribed comme
 
 - Hemmington makes 'safety and security' one of five dimensions of hospitality as a commercial experience (2007; AV p. 16).
 - Hemmington holds that hospitality businesses 'must behave like hosts taking responsibility for the experience' (2007; AV p. 16).
-- Hemmington argues that security in hospitality 'should' centre on the guest and not on the firm's goods and procedures (2007; AV pp. 15-16).
+- Hemmington argues that security in hospitality 'should ... focus on guest security', which he sees as dominant over the security of the hotel's resources and procedures, though financial security is not to be ignored (2007; AV pp. 15-16).
 - Hemmington observes that the guest's safety 'is often overlooked and is perhaps insufficiently recognized by the industry' (2007; AV p. 15).
 - Telfer, as quoted in Hemmington, writes that 'traditionally the most important responsibility of all was the guest's safety' (2007; AV p. 15; no Telfer page).
 
@@ -97,3 +97,5 @@ A conceptual article arguing that scholars and the trade have misdescribed comme
 Retained from the earlier card (outline of August 2026): Sections 1 and 2, with Lashley, establishing the relational reading. An earlier note here recorded that the source was acquired in research round 2 to close a density gap in section 2 and that the field map was not updated.
 
 Upgraded in rr-2026-11-k (11 Nov 2026) by Claude (Fable 5.2), reader R1: read whole in the Bournemouth author version (sources/hemmington2007/); the three earlier quotations located (AV pp. 1, 1, 6) and the others added with pages; claims k1-host-responsibility and k2-role-not-motive added; venue completed from Crossref; verified_date and source_basis updated. Status, role, cluster and used_by_sections unchanged. Every quotation in the key facts was checked by script, with its page, against the saved PDF's text layer.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): 'may say' 3 narrowed to the text.

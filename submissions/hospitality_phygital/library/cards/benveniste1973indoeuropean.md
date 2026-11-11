@@ -77,7 +77,7 @@ A chapter of comparative philology. Benveniste takes the Latin word for guest an
 - Benveniste traces Latin *hospes* to *\*hosti-pet-s* and argues that *hostis* first named not an enemy but 'he who stands in a compensatory relationship' (ch. 7, para. 30).
 - On his account hospitality 'is founded on the idea that a man is bound to another ... by the obligation to compensate a gift or service from which he has benefited' (ch. 7, para. 31).
 - The Greek *xénos*, he writes, names 'men bound by a pact which implies precise obligations that also devolve on their descendants' (ch. 7, para. 32).
-- Benveniste holds that the one who receives 'is not the “master” of his guest' (ch. 7, para. 34).
+- Benveniste holds, of the original sense of *-pot-* in *hospes* and *atithi-pati*, that the one who receives 'is not the “master” of his guest' (ch. 7, para. 34).
 
 **What the paper may not say.**
 
@@ -87,3 +87,5 @@ A chapter of comparative philology. Benveniste takes the Latin word for guest an
 - Any page number, until a printed edition is checked.
 
 Card written by Claude (Fable 5.2), reader R1, from the Center for Hellenic Studies online edition, Internet Archive capture of 7 July 2024 (sources/benveniste1973indoeuropean/), on 11 Nov 2026, run rr-2026-11-k. Every quotation was checked by script against the saved extraction.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): 'may say' 4 narrowed to the etymological claim.

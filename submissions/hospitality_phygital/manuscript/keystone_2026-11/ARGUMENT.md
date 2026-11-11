@@ -36,7 +36,7 @@ The paper's own step comes last. A duty performed through others and through sys
 **Narrowing.**
 
 - 'Across the hospitality canon' is too wide. The management definitions of the 1980s and 1990s describe an exchange and name no duty (Brotherton and Wood 2000, as quoted in `hemmington2007`, AV pp. 5–6; `morrison2008hospitality`, AM p. 5).
-- For the commercial host the responsibility is prescribed, not observed: Hemmington reports that the trade overlooks it (AV p. 15), and Morrison and O'Gorman derive their principles from a monastic rule whose chapter on guests says nothing of safety (`morrison2008hospitality`, AM pp. 6, 14–15; *R1's reading*).
+- For the commercial host the responsibility is prescribed, not observed: Hemmington reports that the trade overlooks it (AV p. 15), and Morrison and O'Gorman derive their principles from the Rule of St Benedict and contemporaneous monastic practice, whose chapter on guests, as their Figure 1 prints it, says nothing of safety (`morrison2008hospitality`, AM pp. 6, 14–15; *R1's reading*).
 - The oldest content of the obligation is reciprocity, not care (`benveniste1973indoeuropean`, ch. 7, para. 31; `ogorman2005modern`, p. 142).
 - Kant's right of hospitality is a right of visit against whoever holds the land, 'not a right to be treated as a guest'; it carries no duty to a person received (`kant1795perpetual`, pp. 137–139; AA 8:357–358).
 - The paper's duty is a duty of conditional hospitality. It may not claim the unconditional law for it.

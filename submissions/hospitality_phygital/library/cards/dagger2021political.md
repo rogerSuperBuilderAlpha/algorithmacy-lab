@@ -74,15 +74,17 @@ Dagger and Lefkowitz survey theories of political obligation, understood as a mo
 - On that view it "makes no difference" whether the role was entered voluntarily, "as in the case of professional relationships", or not (§4.3, para. 2).
 - Critics of the associative view (the entry cites Dagger, Wellman and Simmons) hold that the duty to perform the conventional duties of a role depends on an exercise of will or on a natural duty, so that justification "bottoms out not in the fact of association but in a moral principle external to it" (§4.3, para. 8). The paper may say that it follows these critics.
 - Associative theorists reply that such critics confuse conditions that disable an obligation with what grounds it, and that the relevant standards are internal to the role (§4.3, paras 9-10). The paper should report the reply where it takes the critics' side.
-- Consent is widely accepted as a source of obligation; the dispute in political philosophy is over how many people have given it (§4.1, para. 1).
+- Even critics of consent theory typically accept consent as a source of obligation; their complaint is that too few have given it (§4.1, para. 1).
 - Some theorists hold that no single principle grounds political obligation and combine several; sceptics answer that principles which fail singly do not succeed together (§5, paras 2-3).
 
 **What the paper may not say**
 
-- That philosophers agree that roles bind only through external principles. The entry reports a dispute that "remains" open.
+- That philosophers agree that roles bind only through external principles. The entry reports that of the answers given to the critics "none now commands widespread assent" (preamble, para. 1) and leaves the associative theorists' replies unanswered (§4.3, paras 9-11).
 - That Simmons, Wellman, Horton, Scheffler, Dworkin or Renzo say anything beyond the words quoted or the summary given in the entry, or that the paper has read them.
 - That the entry concerns hosts, firms, commercial roles or duties owed to outsiders. Its subject is the duty to obey the law.
 - That the entry endorses K3. Its authors report the critics' view, to which one of them belongs, and the replies.
 - That the entry offers voluntary assumption, reliance and dependence as a set. Its four families are consent, fair play, membership and natural duty.
 
 Card written by a Claude (Fable 5.2) subagent, reader R2, from the saved Stanford Encyclopedia HTML (preamble and sections 2, 4 and 5 read whole), 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): 'remains' was quoted from the section on pluralism; replaced; 'may say' 5 narrowed.

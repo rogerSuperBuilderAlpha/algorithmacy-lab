@@ -5,7 +5,7 @@ authors: "Kant, Immanuel; translated with introduction and notes by Campbell Smi
 year: 1795
 doi: ""
 url: "https://www.gutenberg.org/ebooks/50922"
-venue: "London: George Allen & Unwin (first edition 1903; third impression 1917), pp. 137-142; Akademie-Ausgabe 8:357-360"
+venue: "London: Swan Sonnenschein, 1903 (the text read is the third impression, George Allen & Unwin, 1917, whose page breaks match), pp. 137-142; Akademie-Ausgabe 8:357-360"
 cluster: hospitality-theory
 status: held
 role: governor
@@ -80,3 +80,5 @@ The third of the three 'definitive articles' that Kant proposes for a perpetual 
 - That Kant grants a right to shelter or to stay. The owner 'may send him away again' short of causing his death.
 
 Card written by Claude (Fable 5.2), reader R1, from the Project Gutenberg transcription of Campbell Smith's translation and the Akademie text at the Bonn Kant-Korpus (sources/kant1795perpetual/), on 11 Nov 2026, run rr-2026-11-k. Every English and German quotation was checked by script against the saved files.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-E (`manuscript/keystone_2026-11/VERIFY_CARDS_E.md`): the 1903 edition's publisher is Swan Sonnenschein; Allen & Unwin is the 1917 impression read. BibTeX entry corrected to match.

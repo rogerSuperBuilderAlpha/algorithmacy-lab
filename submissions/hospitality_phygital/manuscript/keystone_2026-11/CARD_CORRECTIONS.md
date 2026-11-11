@@ -39,3 +39,20 @@
 
 **Effect on ARGUMENT.md.** Steps 5 and 6 now give the knowledge passage as Lord Keith's guarded dictum, with Lord Goff's dissent from it and the Court of Appeal's 'reason to contemplate'. 'Answers for the result' becomes 'answers for the delegate's want of care'. *Kuoni* para 30 is an example, not a holding. The R5a report's claim that the leisure-centre operator had contracted away its power to open its machines is wrong (see `maguire2006sefton`), and the dossier does not use it.
 
+## CV-E (the canon, special obligations and oversight): 17 cards, 0 FAIL; about 900 quoted strings, 5 not MATCH
+
+| Card | What the verifier found | What I changed |
+|---|---|---|
+| `ogorman2007phenomenon`, `hindriks2025moral`, `dogru2025service` | Three paraphrases given as quotations | Replaced with the sources' own words |
+| `dagger2021political` | 'remains' quoted from the section on pluralism, used for the associative dispute; 'may say' 5 too wide | Replaced with the preamble's 'none now commands widespread assent' and §4.3 paras 9-11; 'may say' narrowed |
+| `jeske2019special` (and WS_P2_R2 statement 7) | Dowie's 'signing on' words are the standard view as Hardimon explains it, not Hardimon's own | Critical note corrected; 'may say' 6 narrowed |
+| `kant1795perpetual` and its BibTeX entry | The 1903 edition's publisher is Swan Sonnenschein; Allen & Unwin printed the 1917 impression read | `venue` and `publisher` corrected |
+| `marchand2019barnhill` (and WS_P2_R2 statement 31) | 'May say' 3 overstates the pleading-stage holding; 'consumers have no claim' is inference | Both corrected |
+| `morrison2008hospitality`, `hemmington2007`, `benveniste1973indoeuropean`, `habib2022promises` | Four 'may say' sentences wider than the text | Narrowed |
+
+**Open for the authors.** Brandt's quotations come from the accepted manuscript, and the version of record's wording differs at least in the abstract; check each quotation the paper uses against the published article. Morrison and O'Gorman's Figure 2 should be checked against the published version. Jeske's citekey year (2019) differs from the recommended Winter 2021 edition of the entry. *Marchand*'s reporter citation is unverified.
+
+**What CV-E confirmed for ARGUMENT.md.** Morrison and O'Gorman's sentence is in Figure 2 of an unpaginated manuscript, stated and not argued. Kant's right is a right of visit, 'not a right to be treated as a guest' (pp. 137-138). UN Guiding Principle 29 is on p. 31 and 'channel' is in its commentary on p. 32, for human-rights impacts only. Hindriks states the duty of control on pp. 2 and 4 and argues it from risk to others. Brandt's delegator must step in, with no duty to monitor. *Marchand* asks directors to try, in good faith, to set up a reporting system. The safe 'as quoted in' attributions for Telfer, Derrida and Hardimon are listed in `VERIFY_CARDS_E.md`; Hardimon's pp. 335 and 354 may not be given as his own view.
+
+**Effect on ARGUMENT.md.** Step 1's description of Morrison and O'Gorman's method follows the narrowed card.
+
