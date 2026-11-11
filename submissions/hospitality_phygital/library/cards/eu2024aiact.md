@@ -25,6 +25,7 @@ The primary legal text. Article 86 gives a person affected by a decision a deplo
 
 ## Key facts / verified quotes with loci
 
+- Art. 14(4)(e): high-risk systems must enable those assigned to oversee them "to intervene in the operation of the high-risk AI system or interrupt the system through a ‘stop’ button or a similar procedure that allows the system to come to a halt in a safe state" (art. 14(4)(e); Official Journal text saved at revision_2026-11/research/sources/eu2024aiact/aiact.txt) (added 10 Nov 2026 for DRAFT_v6) [full-text]
 **Article 86, Right to explanation of individual decision-making** (PDF p. 110/144) [full-text]
 - "1. Any affected person subject to a decision which is taken by the deployer on the basis of the output from a high-risk AI system listed in Annex III, with the exception of systems listed under point 2 thereof, and which produces legal effects or similarly significantly affects that person in a way that they consider to have an adverse impact on their health, safety or fundamental rights shall have the right to obtain from the deployer clear and meaningful explanations of the role of the AI system in the decision-making procedure and the main elements of the decision taken." [full-text]
 - "3. This Article shall apply only to the extent that the right referred to in paragraph 1 is not otherwise provided for under Union law." [full-text]

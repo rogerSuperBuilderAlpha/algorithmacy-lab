@@ -28,6 +28,7 @@ Traces the innkeeper's duties from a 1345 London bill, through post-Black-Death 
 
 ## Key facts / verified quotes with loci
 
+- The holding-out explanation dismissed: offering services to the public as an undertaking to serve all "is not so much a theory as a tautology" (p. 52) (added 10 Nov 2026 for DRAFT_v6, from the saved article text, revision_2026-11/research/sources/bogen1996innkeeper/article.txt; previously recorded only second-hand on the Burdick card) [full-text]
 - Against the undertaking theory: "Innkeepers made no express promise to serve all comers, and an invitation to the public to request services does not necessarily imply a promise to provide them." (p. 52) [full-text]
 - Status, not promise: "When the court said innkeepers must serve the public, the obligation became an element of the status of an innkeeper; thereafter, the act of becoming an innkeeper included undertaking that obligation. Why the court imposed the obligation in the first place remains a question." (p. 52) [full-text]
 - "The analogy to public officeholders, and thus the idea of a public calling, was a product of duties imposed rather than a cause of them." (p. 52) [full-text]

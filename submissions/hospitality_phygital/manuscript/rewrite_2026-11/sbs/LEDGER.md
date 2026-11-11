@@ -898,6 +898,8 @@
 - **Value** ✅ The law and practice match.
 - **Counterpart** ✅
 - **Truth** ✅ HPA s. 1(3) (S-077); Xiang card ('Only when guests do not abide by the ritual after repeated communications will they be asked to leave'). 'requests' paraphrases 'communications'.
+- **Correction at verification (10 Nov 2026)** ❌ Xiang card: 'after repeated communications'. 'requests' drifted from the source.
+- **As written** > The statutory traveller of 1956, able to pay and fit to be received, is already such a guest, and hotels ask guests to leave who will not follow the stay's rules after repeated communications (Xiang et al. 2022).
 
 ### S-089 · answers M.084 · 32w
 > The guest's side of the relation is therefore stated and conditional, and in the classical account a guest who fails it entitles the host to give up the role (Pitt-Rivers 2012: 517).
@@ -1108,6 +1110,8 @@
 - **Value** ✅ The law's answer in one case.
 - **Counterpart** ✅
 - **Truth** ✅ Crinkley card para 7.
+- **Correction at verification (10 Nov 2026)** ❌ Crinkley card: para 7 sets out the three defendants; liability of all three is at para 9.
+- **As written** > In Crinkley v. Holiday Inns, a single decision under North Carolina law, the owners of a franchised motel, the company that ran it day to day and the franchisor whose brand it carried were all held liable to guests assaulted in their room (1988: paras 7, 9).
 
 ### S-109 · answers M.106, M.107 · 44w
 > The franchisor was liable vicariously, through apparent agency: the jury could find that the brand had presented the property as its own and that the guests had relied on it, though the court called the evidence of reliance 'marginal' (1988: paras 9, 49–52).
@@ -1218,6 +1222,8 @@
 - **Value** ✅ GUARD on the borrowing.
 - **Counterpart** ✅
 - **Truth** ✅ Woodland card para 25(5).
+- **Correction at verification (10 Nov 2026)** ❌ Woodland card para 25(5): 'The responsibilities of fee-paying schools'. 'a fee-paying provider's' generalized the court's words.
+- **As written** > Woodland concerns schools and hospitals, not hotels, and we borrow its structure without claiming that the law already places hotels in its category, although the court noted that the responsibilities of fee-paying schools are already non-delegable 'because they are contractual' (para 25(5)).
 
 ### S-120 · answers M.117 · 26w
 > Delegation is not new to hospitality, for the innkeeper of 1584 already answered for 'a default in him or his servants' (Calye's Case 1584: fol. 33a).
@@ -1429,6 +1435,8 @@
 - **Value** ✅ Evidence from the journal.
 - **Counterpart** ✅
 - **Truth** ✅ Moysidou and Stanley card (MS pp. 7, 12, 13). Paraphrased: manuscript pages.
+- **Correction at verification (10 Nov 2026)** ❌ Moysidou and Stanley card, MS p. 7: 'that's probably why I haven't complained about little things'.
+- **As written** > Moysidou and Stanley (2023), writing in this journal on homestays, treat a guest's confidence that a complaint will be acted on as a form of power, and show an au pair who cannot leave choosing not to complain about little things.
 
 ### S-141 · answers M.135 · 10w
 > Competence with algorithmic systems does not supply those conditions either.
@@ -1479,6 +1487,8 @@
 - **Value** ✅
 - **Counterpart** ✅ CASE-FACT, as M.136.
 - **Truth** ✅ Xiang card (setting; the management-approved compensation).
+- **Correction at verification (10 Nov 2026)** ❌ Xiang card: the testing rule was not waived; the hotel covered the cost and arranged transport. 'was received' overstated the outcome.
+- **As written** > In an upscale hotel in south-eastern China during the pandemic, a guest who arrived without a test report was not simply turned away: after a front-office employee checked with management, the hotel paid for the test and arranged his transport to it (Xiang et al. 2022).
 
 ### S-146 · answers M.136 · 25w
 > A guest refused at the desk in the same study took his complaint the next day to the general manager and the group head office.
@@ -1499,6 +1509,8 @@
 - **Value** ✅
 - **Counterpart** ✅
 - **Truth** ✅ Lugosi 2009 card ('Situational dimensions'). Paraphrased: accepted manuscript.
+- **Correction at verification (10 Nov 2026)** ❌ Lugosi card: 'invented by some of customers and staff'; the regulars 'who drank them stopped coming'.
+- **As written** > In Lugosi's study of a bar, house cocktails invented by customers and staff disappeared when the regulars who drank them stopped coming, and management's allowance gave patrons only the opportunity to make such things (2009).
 
 ### S-148 · answers M.137 · 36w
 > What a guest can expect from the host's obligation is therefore a hearing by someone with authority, not the exception itself, and the next section shows how phygital arrangements change the path to that person.
@@ -2017,11 +2029,15 @@
 > The second is a real alternative: digital captivity is 'coerced participation in systems that have become unavoidable' (Wilson-Nash et al. 2026: 976), even a downgraded analogue route preserves a choice (2026: 978), and refusing the system 'may carry a personal cost and loss' (2026: 979).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Reviewer 1.1. **Counterpart** ✅ **Truth** ✅ Wilson-Nash card pp. 976, 978, 979.
+- **Correction at verification (10 Nov 2026)** ❌ Wilson-Nash card p. 978: co-existence, 'analogue retained but downgraded and more difficult to access', is a trigger of captivity; p. 981: 'allowing consumers to choose modes of access' prevents it. v5's sentence, carried into the first version, said the reverse. Found by the independent verifier.
+- **As written** > The second is a real alternative: digital captivity is 'coerced participation in systems that have become unavoidable' (Wilson-Nash et al. 2026: 976), an analogue route that is kept but downgraded is one of its triggers rather than a remedy (2026: 978), and letting consumers 'choose modes of access' is one way to prevent it (2026: 981).
 
 ### S-238 · answers M.217 · 30w
 > That cost is usually paid in effort rather than money, and research on mandatory self-service treats the work it moves onto the customer as labour (Kim et al. 2025).
 
 - **Form** ✅ **Construction** ✅ 'it' refers to 'mandatory self-service'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Kim card, **abstract only**; the claim is the abstract's.
+- **Correction at verification (10 Nov 2026)** ❌ Wilson-Nash card p. 979: the cost attaches to abandoning or avoiding the service category, not to refusing a system while still being served. The quotation moved here from S-237, with its context stated. Kim et al. remain abstract only.
+- **As written** > A guest who avoids such a system pays for doing so, since withdrawing from a service 'may carry a personal cost and loss' (Wilson-Nash et al. 2026: 979), and research on mandatory self-service treats the work such systems move onto the customer as labour (Kim et al. 2025).
 
 ### S-239 · answers none (W2) · 10w
 > The two institutional principles also show where interruptibility is owed.

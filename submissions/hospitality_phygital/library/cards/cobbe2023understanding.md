@@ -27,6 +27,7 @@ A conceptual FAccT paper. It argues that the "many hands" frame, which treats an
 
 ## Key facts / verified quotes with loci
 
+- Vendors keep control of the terms: providers have bargaining power, "reserving rights to dictate terms of use and change, withdraw, or cancel products and services at will" (proceedings p. 1195; arXiv p. 10; also in the version-of-record copy, cobbe2023understanding_vor/vor.txt) (added 10 Nov 2026 for DRAFT_v6) [full-text]
 - Restates the many-hands problem and moves past it: "The ‘many hands’ problem holds that accountability is difficult where many people have together contributed to activity or outcome, as it may be impossible to allocate responsibility to any one of them" (p. 1186; arXiv p. 1) [full-text]
 - The shift from organisation to chain: systems "often now involve a group of organisations arranged together in a data-driven supply chain, each retaining control over component systems they provide as services to others" (p. 1187; arXiv p. 2) [full-text]
 - No single controller: "Responsibility for the workings and outcomes of supply chains is thus distributed among several actors who may not be straightforward to identify nor consistent across instances. Even when some actors are influential, there is therefore typically no one actor in overall control of a supply chain." (p. 1192; arXiv p. 7, §4.1) [full-text]
