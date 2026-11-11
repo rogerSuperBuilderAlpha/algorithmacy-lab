@@ -56,3 +56,14 @@ The brief is revised (version 1.1) for the three blind spots: a ninth mismatch c
 ### K-D8 · 11 Nov · Ten auditors, not five
 The calibration cost about 18,000 tokens a sentence. At that rate a batch of 60 sentences would exhaust one agent. The audit runs in ten batches of at most 34 sentences: the abstract and Introduction; 'The host's power' in two; 'Delegation and standing' in two; the opening of 'Assembled hosts' with 'The authority–answerability split'; 'Three conditions and six questions'; 'When a person must be reachable' with Table 1; 'Designing for interruptible hospitality' with Table 2; the Conclusion. The sections that survive into v7 go first.
 
+### K-D9 · 11 Nov · Two readers added after the gate
+The Tier 1 list is extended by two small reading tasks, each tied to one premise of K7.
+
+- **R7, on knowledge.** The reader of the English delegation cases found that the occupier's and contractor-employer's duties turn on what the holder 'knows or has reason to suspect' (*Ferguson*; *Naylor*; *Maguire*), and suggested the form the paper's step should take: a host that removes every route by which a guest could tell it has put itself where the law's own trigger cannot operate. R7 tests whether the principle behind that (a duty that turns on knowledge cannot be met by arranging not to know) is in print, in philosophy (culpable ignorance, duties to inquire) and in law (wilful blindness, blind-eye knowledge), and how far it reaches. It also cards *Page v. Sloan*.
+- **R8, on the empirical premise.** P4 says the guest's report is often the only timely signal and that correction needs a person with power in the single case. The planned evidence workstream (P6) had not run; R8 reads the open studies on complaint handling, forced self-service and frontline authority, and reports contrary evidence first.
+
+P6 and P7 are not run as full workstreams. The claim audit showed that the paper's four cases are its weakest evidence, and the law reports carded in this run supply documented cases that can replace them (*Rasnick*, *Groh*, *R (DMA)*, with Xiang et al. and Petie et al.).
+
+### K-D10 · 11 Nov · A wrong number in a commit message
+The message of commit 7ad42b93 says the run produced 76 new cards. The count is **67 new cards and 6 upgraded** (332 cards in the library, 265 before the run). The message cannot be changed without rewriting pushed history, so the correction is recorded here.
+
