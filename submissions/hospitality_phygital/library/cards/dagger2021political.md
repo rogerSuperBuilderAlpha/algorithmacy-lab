@@ -5,7 +5,7 @@ authors: "Dagger, Richard; Lefkowitz, David"
 year: 2021
 doi: ""
 url: "https://plato.stanford.edu/entries/political-obligation/"
-venue: "The Stanford Encyclopedia of Philosophy (first published 17 April 2007; substantive revision 15 March 2021)"
+venue: "The Stanford Encyclopedia of Philosophy, ed. Edward N. Zalta (first published 17 April 2007; substantive revision 15 March 2021; latest version archived as the Summer 2021 Edition, minor correction)"
 cluster: mediation-sovereignty
 status: held
 role: evidence
@@ -14,7 +14,7 @@ claims: [k3-grounds-of-the-duty]
 read_depth: full-text
 verified: verified
 verified_date: 2026-11-11
-source_basis: "Encyclopaedia entry. Read on 11 Nov 2026: the preamble, section 2 (2.1-2.3), section 4 (4.1-4.4) and section 5, each whole, from the HTML saved at manuscript/revision_2026-11/research/sources/dagger2021political/ (sep_political-obligation_fetched_2026-11-11.html and the .txt extracted from it). Sections 1 (history) and 3 (philosophical anarchism) were not read, and the card says nothing about them. read_depth is full-text for the sections named. Record verified on the publisher's own page: the live entry was re-fetched on 11 Nov 2026 and is byte-identical to the saved HTML (SHA-256 ea8e311f...); its metadata give the authors (Dagger, Richard; Lefkowitz, David), issued 2007-04-17 and modified 2021-03-15. No DOI. Locators are section and paragraph; a block quotation counts as part of the paragraph that introduces it."
+source_basis: "Encyclopaedia entry. Read on 11 Nov 2026: the preamble, section 2 (2.1-2.3), section 4 (4.1-4.4) and section 5, each whole, from the HTML saved at manuscript/revision_2026-11/research/sources/dagger2021political/ (sep_political-obligation_fetched_2026-11-11.html and the .txt extracted from it). Sections 1 (history) and 3 (philosophical anarchism) were not read, and the card says nothing about them. read_depth is full-text for the sections named. Record verified on the publisher's own page: the live entry was re-fetched on 11 Nov 2026 and is byte-identical to the saved HTML (SHA-256 ea8e311f...); its metadata give the authors (Dagger, Richard; Lefkowitz, David), issued 2007-04-17 and modified 2021-03-15. The entry's citation page (archinfo.cgi, fetched 11 Nov 2026 and saved as sep_citation_page_fetched_2026-11-11.html) says the latest version is to be cited as the Summer 2021 Edition (minor correction), edited by Edward N. Zalta. No DOI. Locators are section and paragraph; a block quotation counts as part of the paragraph that introduces it."
 generated_run: rr-2026-11-k
 flags: []
 hold_rationale: "Held as the one open text found in this run that states K3's structure in print: critics of associative obligation hold that the conventional duties constituting a role bind only through an external moral principle. The entry reports that view and the associativists' three replies to it, and it carries a standing objection to combining several grounds. It is a survey of the debate over the duty to obey the law; using it for a commercial host is the paper's extension. The authors decide admission."

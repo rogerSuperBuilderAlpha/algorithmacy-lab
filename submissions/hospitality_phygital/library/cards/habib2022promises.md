@@ -5,7 +5,7 @@ authors: "Habib, Allen"
 year: 2022
 doi: ""
 url: "https://plato.stanford.edu/entries/promises/"
-venue: "The Stanford Encyclopedia of Philosophy (first published 10 October 2008; substantive revision 17 June 2022)"
+venue: "The Stanford Encyclopedia of Philosophy, eds Edward N. Zalta and Uri Nodelman (first published 10 October 2008; substantive revision 17 June 2022; latest version archived as the Winter 2022 Edition, minor correction)"
 cluster: mediation-sovereignty
 status: held
 role: governor
@@ -14,7 +14,7 @@ claims: [k3-grounds-of-the-duty]
 read_depth: full-text
 verified: verified
 verified_date: 2026-11-11
-source_basis: "Encyclopaedia entry. Read on 11 Nov 2026: the introduction, section 2.3 (hybrid theories), section 3 whole (3.1 assurance, 3.2 reliance, 3.3 trust and the objections), section 4 (4.1, 4.2), section 5.1 (the uptake condition) and section 6.2 (promise, contracts and the law), from the HTML saved at manuscript/revision_2026-11/research/sources/habib2022promises/ (sep_promises_fetched_2026-11-11.html and the .txt extracted from it). Sections 1, 2.1-2.2, 5.2-5.4, 6.1 and 6.3 were not read. read_depth is full-text for the sections named. Record verified on the publisher's own page: the live entry was re-fetched on 11 Nov 2026 and is byte-identical to the saved HTML (SHA-256 b9635c2c...); its metadata give the author (Habib, Allen), issued 2008-10-10 and modified 2022-06-17. No DOI. Locators are section and paragraph; a block quotation or displayed principle counts as part of the paragraph that introduces it."
+source_basis: "Encyclopaedia entry. Read on 11 Nov 2026: the introduction, section 2.3 (hybrid theories), section 3 whole (3.1 assurance, 3.2 reliance, 3.3 trust and the objections), section 4 (4.1, 4.2), section 5.1 (the uptake condition) and section 6.2 (promise, contracts and the law), from the HTML saved at manuscript/revision_2026-11/research/sources/habib2022promises/ (sep_promises_fetched_2026-11-11.html and the .txt extracted from it). Sections 1, 2.1-2.2, 5.2-5.4, 6.1 and 6.3 were not read. read_depth is full-text for the sections named. Record verified on the publisher's own page: the live entry was re-fetched on 11 Nov 2026 and is byte-identical to the saved HTML (SHA-256 b9635c2c...); its metadata give the author (Habib, Allen), issued 2008-10-10 and modified 2022-06-17. The entry's citation page (archinfo.cgi, fetched 11 Nov 2026 and saved as sep_citation_page_fetched_2026-11-11.html) says the latest version is to be cited as the Winter 2022 Edition (minor correction), edited by Edward N. Zalta and Uri Nodelman. No DOI. Locators are section and paragraph; a block quotation or displayed principle counts as part of the paragraph that introduces it."
 generated_run: rr-2026-11-k
 flags: []
 hold_rationale: "Held as the governor on K3's second ground, which the paper calls invited reliance. It is the open text that sets out the assurance, reliance and trust accounts side by side, reproduces Scanlon's Principle F with its page, and lists the standard objections. It reports those accounts for promises; it does not treat expectations raised without a promise, and Scanlon (1998, ch. 7) and Thomson (1990, ch. 12) are closed. The authors decide admission."

@@ -83,7 +83,7 @@ The Guiding Principles set out, in thirty-one principles with official commentar
 
 **What the paper may say**
 
-- The UN Guiding Principles, endorsed by the Human Rights Council in 2011, state that business enterprises "should establish or participate in effective operational-level grievance mechanisms for individuals and communities who may be adversely impacted", in order "[t]o make it possible for grievances to be addressed early and remediated directly" (Principle 29, p. 31).
+- The UN Guiding Principles, endorsed by the Human Rights Council in 2011, state: "To make it possible for grievances to be addressed early and remediated directly, business enterprises should establish or participate in effective operational-level grievance mechanisms for individuals and communities who may be adversely impacted." (Principle 29, p. 31)
 - The official commentary describes such a mechanism as "a channel for those directly impacted by the enterprise’s operations to raise concerns when they believe they are being or will be adversely impacted", and says it allows impacts "to be remediated early and directly by the business enterprise, thereby preventing harms from compounding" (Principle 29, Commentary, p. 32).
 - The Principles ask enterprises to "track the effectiveness of their response", drawing on feedback from "affected stakeholders" (Principle 20, p. 22).
 - They distinguish prevention or mitigation of potential impacts from remediation of impacts that have occurred (Principle 17, Commentary, p. 18; Principle 22, p. 24).
