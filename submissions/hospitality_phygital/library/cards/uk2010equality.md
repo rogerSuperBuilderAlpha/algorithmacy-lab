@@ -100,3 +100,36 @@ Added in rr-2026-11-k.
 Upgraded in rr-2026-11-k (2026-11-11, Claude, Fable 5.2, reader R4a): added ss. 20(2)-(7), (11), 21(1)-(3), 29(2), 114(1)(a), (6)(a), 119(2), (4) and Sch. 2 paras 2(1)-(4), (7) from the saved Internet Archive captures of legislation.gov.uk, each read in full; added the K4, K5 and K7 claims, the 'Where it bears on the argument' section and the two lists; changed `role` from `governor` to `rival` and set the `must-engage` flag because ss. 20-21 are the refuter K4 names for v6's statement on exceptions; extended `title`, `source_basis` and `hold_rationale` and moved `verified_date` to today. Every earlier field and line is kept. All text added by this run is marked 'Added rr-2026-11-k' or sits under a heading so marked.
 
 Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'may say' 5 narrowed to a disabled guest and the statute's limits.
+
+## rr-2026-11-k addendum (R10)
+
+Added by reader R10 (Claude Opus 5.5), 11 Nov 2026, in answer to REDTEAM_TORT.md, T6. Nothing above is changed. Read in full from the saved captures already named in `source_basis`: s. 20(1)-(13) (`sources/eqa2010s20/s20.txt`, capture stating the section is up to date to 7 Nov 2026) and Sch. 2 paras 1-4 (`sources/eqa2010s20/sch2.txt`, which states it is up to date to 7 Nov 2026; the card above dates the capture 8 Nov 2026). I did not re-fetch the captures. Locators are section and subsection, or Schedule paragraph and sub-paragraph.
+
+**What the provisions say, for the question T6 asks** (whether a host can define away a guest's route to help by selling an unstaffed stay)
+
+- The third requirement: "where a disabled person would, but for the provision of an auxiliary aid, be put at a substantial disadvantage in relation to a relevant matter in comparison with persons who are not disabled, to take such steps as it is reasonable to have to take to provide the auxiliary aid." (s. 20(5)); and "A reference in this section, section 21 or 22 or an applicable Schedule to an auxiliary aid includes a reference to an auxiliary service." (s. 20(11)). [full-text]
+- Information: "Where the first or third requirement relates to the provision of information, the steps which it is reasonable for A to have to take include steps for ensuring that in the circumstances concerned the information is provided in an accessible format." (s. 20(6)). [full-text]
+- The first requirement, which reaches a provider's own policies: "where a provision, criterion or practice of A's puts a disabled person at a substantial disadvantage ... to take such steps as it is reasonable to have to take to avoid the disadvantage." (s. 20(3)). [full-text]
+- For services, all three apply and are anticipatory: "A must comply with the first, second and third requirements." (Sch. 2 para. 2(1)); "the reference in section 20(3), (4) or (5) to a disabled person is to disabled persons generally." (Sch. 2 para. 2(2)); "the relevant matter is the provision of the service, or the exercise of the function, by A." (Sch. 2 para. 2(4)). [full-text]
+- Physical features may be met by "a reasonable alternative method of providing the service" (Sch. 2 para. 2(3)), and include features "brought by or on behalf of A, in the course of providing the service ..., on to premises other than those that A occupies" (Sch. 2 para. 2(6)). [full-text]
+- The limit: "If A is a service-provider, nothing in this paragraph requires A to take a step which would fundamentally alter— (a) the nature of the service, or (b) the nature of A's trade or profession." (Sch. 2 para. 2(7)). [full-text]
+- The cost cannot be passed on: A is "not ... entitled to require a disabled person ... to pay to any extent A's costs of complying with the duty" (s. 20(7)). [full-text]
+
+**How this bears on Step 6 (legal register)**
+
+- **A floor the host's own description of the service does not set, with one exception.** The duty attaches to "the provision of the service" (Sch. 2 para. 2(4)), not to what the provider undertook, and it is owed to "disabled persons generally" in advance (para. 2(2)). A host whose only route to help is a kiosk, an app or an unanswered line, and whose disabled guests are put at a substantial disadvantage by that, must take reasonable steps: an auxiliary service such as a person who can be reached (s. 20(5), (11)), information about how to get help in an accessible format (s. 20(6)), or a change to the kiosk-only practice (s. 20(3)) *(my application of the text to the self-service hotel; no case read)*. The one exit is a step that would "fundamentally alter" the nature of the service or trade (para. 2(7)). Whether giving a disabled guest a reachable person fundamentally alters an unstaffed hotel is the question the self-service host would raise, and the text does not answer it.
+- **It answers T6 only for disabled guests, and only to the reasonable.** The duty runs to disabled persons (s. 20(3)-(5)); the steps are those "it is reasonable to have to take". It does not require a channel for every guest, or a person with power over the single case.
+- **It is the guest's own right.** Failure "in relation to that person" is discrimination against that person (s. 21(2), above), actionable in the county court (s. 114(1)(a), above). It fits T4: the legal correlate is the guest's remedial right.
+- **Who is bound in a several-firm arrangement** remains open on this card (s. 31 not read).
+
+**What the paper may say (added)**
+
+- In Great Britain a provider of services to the public must, in anticipation, take such steps as it is reasonable to have to take to provide an auxiliary aid or service where a disabled person would otherwise be put at a substantial disadvantage, and where information is involved those steps include providing it "in an accessible format" (Equality Act 2010, s. 20(5)-(6), (11); Sch. 2 para. 2(1)-(2)).
+- The provider need not take a step that would "fundamentally alter" the nature of the service or of its trade (Sch. 2 para. 2(7)).
+
+**What the paper may not say (added)**
+
+- That the Act requires every host to keep a channel to a person for every guest, or a person with power to correct performance.
+- That the Act settles whether a reachable person is a reasonable step for an unstaffed hotel, or whether it would fundamentally alter the service.
+
+Addendum written by a Claude (Opus 5.5) subagent, reader R10, from the saved legislation.gov.uk captures of s. 20 and Sch. 2 read in full, on 11 Nov 2026; run rr-2026-11-k.
