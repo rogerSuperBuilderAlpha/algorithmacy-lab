@@ -53,7 +53,7 @@ Earl D. Thomas, a Black man, sued The Pick Hotels Corporation and others for dam
 ## Where it bears on the argument
 
 - **K5 (directedness): supports, thinly.** A refused guest sues the hotel in his own name on the duty to receive. The court accepts that the breach is "redressible in tort" and that the statute makes the offender "liable in damages to the person or persons injured thereby" (666). The remedy on the tort side was lost to time, and on the contract side was only allowed to be tried.
-- **K4 (admission tier): supports for one US state in 1955.** The duty "to provide accommodations" is described as common law that "has never been abrogated" (666). The words "to accommodate all members of the general public" are the plaintiff's pleading as the court summarises it (665).
+- **K4 (admission tier): supports for one US state in 1955.** The court describes the duty "to provide accommodations" as common law that "has never been abrogated" (666). The words "to accommodate all members of the general public" are the plaintiff's pleading as the court summarises it (665).
 - **K3 (grounds): supports the role as what the duty attaches to.** The duty is "relational" and arises from the innkeeper–guest relationship, which a contract merely induces or establishes (665–666). The opinion names no further ground: nothing on reliance, dependence or holding out.
 
 **What the paper may say** (naming the court, the year and Kansas law):

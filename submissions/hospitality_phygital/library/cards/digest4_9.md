@@ -73,7 +73,7 @@ Title 4.9 of the Digest gathers seven fragments of Ulpian, Gaius and Paul on the
 - Ulpian explains the edict by the traveller's need to trust the innkeeper with his things and by the risk of collusion with thieves, and says it is not harsh because innkeepers are free to receive no one (D. 4.9.1.1).
 - The innkeeper was paid for letting travellers stay and not for custody, and a guest lodged for nothing kept the action (D. 4.9.5 pr.; 4.9.6 pr.).
 - The innkeeper answered for the acts of other travellers (D. 4.9.2).
-- The title makes a ship's operator answer for the crew he took on "at his own risk" and treats ship, inn and stable together (D. 4.9.7 pr.; 4.9.7.6).
+- The title makes a ship's operator answer for the crew he took on at his own risk ("suo periculo") and treats ship, inn and stable together (D. 4.9.7 pr.; 4.9.7.6).
 
 **What the paper may not say:**
 - That Roman law obliged an innkeeper to receive travellers. The text says the contrary.

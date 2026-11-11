@@ -28,7 +28,7 @@ A guest at the Imperial Hotel, Liverpool, was badly injured on the night of 17 J
 
 ## Key facts / verified quotes with loci
 
-- Court, date, judge: King's Bench Division, McCardie J, "Further consideration of an action tried by McCardie J. and a jury at the Liverpool Assizes"; argued 2 and 3 May, judgment 4 May 1917 (pp. 325, 327); England. [full-text]
+- Court, date, judge: King's Bench Division, McCardie J, "FURTHER CONSIDERATION of an action tried by McCardie J. and a jury at the Liverpool Assizes"; argued 2 and 3 May, judgment 4 May 1917 (pp. 325, 327); England. [full-text]
 - Who sued whom: "The plaintiff, an unmarried woman, claimed damages from the defendant, a hotel proprietor, for personal injuries sustained by her on the occasion of an outbreak of fire at the defendant’s hotel on June 17, 1916, while the plaintiff was staying there as a guest." (p. 325). [full-text]
 - The defendant's position: "The defendant is an innkeeper. He is the lessee and occupier of the well-known Imperial Hotel in the centre of Liverpool. On the night of June 17, 1916, the plaintiff became a guest for reward to the defendant at this hotel." (p. 327). [full-text]
 - The two grounds of claim: "She based her claim on two grounds—namely, (a) breach of warranty, and (b) personal negligence by the defendant." (p. 327). [full-text]
