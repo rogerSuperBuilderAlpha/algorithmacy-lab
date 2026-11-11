@@ -68,7 +68,7 @@ Text audited: `manuscript/DRAFT_v6.md` as it stood on 11 Nov 2026, paragraphs 6 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 | S-064.1 | None of the paragraph's six sources makes a negotiated exception something the guest is owed | Paraphrase (a negative reading of Sandoval-Strausz, Calye, Bogen, Maese, Pitt-Rivers, Golubovskaya) | as above; Pitt-Rivers 2012: 513, 515, 516 is the pressure point | "Their mutual obligations are in essence unspecific … each must accede to the desires of the other." (p. 513). "If he makes claims or demands, he usurps the host's right to ordain according to his free will" (p. 515) | 5, 9 | partial | material | 'Owed' has two senses and the sources split on them. No source gives the guest a claim-right to an exception. Pitt-Rivers does bind the host to accede to the guest's desires and to show concern for needs and wishes; what he denies is the guest's standing to demand. The sentence lumps one customary source with five legal or empirical ones. 'Negotiated exception' is the paper's term and appears in no source. **Defeater outside the six, in a statute the paper cites two sentences later:** Equality Act 2010 s. 29(7): 'A duty to make reasonable adjustments applies to— (a) a service-provider'; s. 21(2): 'A discriminates against a disabled person if A fails to comply with that duty in relation to that person'; enforceable in the county court (ss. 114, 119). Hotels are service-providers. K4 names this as the finding that corrects the sentence. **Direct support available (lead):** Browne v Brandt [1902] 1 KB 696, 698, KBD Divisional Court, England, holding, Lord Alverstone CJ: 'a person who comes to the inn has no legal right to demand to pass the night in a public sitting-room if the bedrooms are all full'. |
-| S-064.2 | An innkeeper was not charged where the loss arose from the guest's own fault | Legal proposition | Calye's Case, KB, England, 1584; 8 Co Rep fol. 33a | "if the guest's servant, or he who comes with him, or he whom he desires to be lodged with him, steals or carries away his goods, the innkeeper shall not be charged; for there the fault is in the guest to have such companion or servant" | none | supported | — | Dictum (point 4 of the exposition). A second instance on the same folio: the guest who leaves goods in an outer court after being told to lock them in a chamber. **Can carry:** England, 1584, goods: the guest's own fault excuses the innkeeper. |
+| S-064.2 | An innkeeper was not charged where the loss arose from the guest's own fault | Legal proposition | Calye's Case, KB, England, 1584; 8 Co Rep fol. 33a | "if the guest's servant, or he who comes with him, or he whom he desires to be lodged with him, steals or carries away his goods, the innkeeper shall not be charged; for there the fault is in the guest to have such companion or servant" | none | supported | — | Dictum (point 4 of the exposition). The passage is as printed, with a marginal reference removed and two OCR slips repaired ('sor', 'fauit'). A second instance on the same folio: the guest who leaves goods in an outer court after being told to lock them in a chamber. **Can carry:** England, 1584, goods: the guest's own fault excuses the innkeeper. |
 | S-064.3 | The exceptions the law recognized ran in the host's favour | Own inference | — | — | — | equivocal | material | See list. |
 
 - **Premises.** P1 (sourced, S-064.2): the guest's fault excused the innkeeper. P2 (assumption): this is typical of 'the exceptions the law recognized'. C: the law's exceptions favoured the host.
@@ -93,7 +93,7 @@ Text audited: `manuscript/DRAFT_v6.md` as it stood on 11 Nov 2026, paragraphs 6 
 
 | Duty | Source and passage | Register | Jurisdiction, period | Owed to the guest? |
 |---|---|---|---|---|
-| To receive | Sandoval-Strausz 2005: 63, 'to provide any available accommodation ("bed") to any traveler willing to pay a reasonable price' | law (common law and statute) | United States, colonial to nineteenth century | Enforced by licence and prosecution and by 'the private law of damages on suit' (p. 64). Yet 'these were not "rights" in any proper sense' (p. 66) until judges recast them from the 1830s 'as individually possessed entitlements' (p. 69). |
+| To receive | Sandoval-Strausz 2005: 63, 'to provide any available accommodation ("bed") to any traveler willing to pay a reasonable price' | law (common law and statute) | United States, colonial to nineteenth century | Enforced by licence and prosecution and by 'the private law of damages on suit' (p. 64). Yet 'these were not "rights" in any proper sense' (p. 66) until judges, 'around the middle of the nineteenth century', redefined them 'as individually possessed entitlements' (p. 69). |
 | | Bogen 1996: 75, 85–86, 89 | law | England, dicta from 1460, White's Case 1558, settled by 1624 | 'a private cause of action brought for damages by the person excluded' (p. 86), though 'no litigation directly involved the issue' for centuries (p. 82). |
 | | Burdick 1911: 515, 523 | law | England and United States | An action on the case for refusal. |
 | | Lane v Cotton, Holt CJ dissenting, p. 484 | law, dictum in a dissent | England, 1701 | 'an Action will lie against him'; the trader has 'vested an Interest of himself in all the King's Subjects that will employ him'. |
@@ -206,7 +206,7 @@ Signpost. No check.
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 | S-076.1 | Arrival alone has never been enough | Own inference | S-076.2, S-076.3 | — | — | valid with added premise | minor | See list. |
-| S-076.2 | Calye's Case held that common inns 'are instituted for passengers and wayfaring men' | Legal proposition, with quotation | Calye's Case, KB, England, 1584; 8 Co Rep fol. 32b | "by which it appears that common inns are instituted for passengers and wayfaring men … And therefore if a neighbour, who is no traveller, as a friend, at the request of the innholder lodges there, and his goods be stolen, &c. he shall not have an action" | 5, 3 | partial | minor | The quotation is exact and the folio right. 'Held' overstates: this is point 2 of the exposition, not the decision. Its subject is the action for stolen goods, and its example is the innholder's private guest, not a refused traveller. **Can carry:** England, 1584: the custom protects travellers. For refusal, cite R v Rymer (1877) 2 QBD 136, 140, Court for Crown Cases Reserved, holding: 'An inn is a place "instituted for passengers and wayfaring men": Calye's Case … it is essential to such a prosecution that the prosecutor should be a traveller'. **Later treatment:** by 1951 anyone who came to use the inn and was received was a traveller, 'even though he was a local resident' (Williams v Linnitt, headnote, per totam curiam). |
+| S-076.2 | Calye's Case held that common inns 'are instituted for passengers and wayfaring men' | Legal proposition, with quotation | Calye's Case, KB, England, 1584; 8 Co Rep fol. 32b | "by which it appears that common inns are instituted for passengers and wayfaring men … And therefore if a neighbour, who is no traveller, as a friend, at the request of the innholder lodges there, and his goods be stolen, &c. he shall not have an action" | 5, 3 | partial | minor | The quotation is exact and the folio right. I repaired the OCR of the second sentence ('neigh, bour', 'stoben') against Lord Tucker's quotation of it in Williams v Linnitt at 571. 'Held' overstates: this is point 2 of the exposition, not the decision. Its subject is the action for stolen goods, and its example is the innholder's private guest, not a refused traveller. **Can carry:** England, 1584: the custom protects travellers. For refusal, cite R v Rymer (1877) 2 QBD 136, 140, Court for Crown Cases Reserved, holding: 'An inn is a place "instituted for passengers and wayfaring men": Calye's Case … it is essential to such a prosecution that the prosecutor should be a traveller'. **Later treatment:** by 1951 anyone who came to use the inn and was received was a traveller, 'even though he was a local resident' (Williams v Linnitt, headnote, per totam curiam). |
 | S-076.3 | In Holt's dissent in Lane v Cotton a full house excused refusal | Legal proposition | Lane v Cotton, KB, England, 1701; Holt CJ dissenting; 12 Mod 472, 485 | "If the Inn be full, or the Carrier's Horses loaden, the Action would not lie for such Refusal; but one that has made Profession of a publick Employment, is bound to the utmost Extent of that Employment to serve the Publick." | none | supported | — | The draft says it is a dissent. It is an illustration inside a dissent in a case about the Postmaster-General. Page 485 rests on the catchword in the OCR; I did not see the page image. **Replace or pair with a holding (lead):** Browne v Brandt [1902] 1 KB 696, KBD Divisional Court: 'If all the bedrooms of an inn be full, the innkeeper is under no obligation at common law to provide a traveller with shelter' (headnote). **Also usable from Holt, p. 484:** the trader 'has made Profession of a Trade which is for the Publick Good, and has thereby exposed and vested an Interest of himself in all the King's Subjects that will employ him', which states holding out and a directed duty in one line. |
 
 - **Premises (S-076.1).** P1 (S-076.2): the inn is for travellers. P2 (S-076.3): a full house excuses. C: arrival alone never sufficed.
@@ -272,6 +272,8 @@ Signpost. No check.
 | S-083.1 | That the law imposes the duty does not mean the law explains it | Own inference | Bogen 1996: 52 | "Why the court imposed the obligation in the first place remains a question." | — | valid | — | K3. |
 | S-083.2 | The 1956 Act sets hotels apart by deeming them, and no other establishment, to be inns | Legal proposition | Hotel Proprietors Act 1956 s. 1(1), Great Britain | "An hotel within the meaning of this Act shall, and any other establishment shall not, be deemed to be an inn" | 5 | partial | material | 'Hotel' here is the Act's defined term, not hotels at large. An establishment is one only if it is held out, 'without special contract', to 'any traveller presenting himself' (s. 1(3)). The Act's long title is 'to amend the law relating to inns and innkeepers'; it renames and narrows an old category and limits its liabilities. Its own Schedule has the proprietor say that the notice 'does not constitute an admission either that the Act applies to this hotel'. Lord Esher thought it 'open to argument that the large London hotels do not hold themselves out as receiving customers according to the custom of England' (Lamond at 545, Court of Appeal, dictum). Whether a hotel that takes guests only by reservation, an app-only hotel or a short-term rental is within s. 1(3) I did not check; no case on 'without special contract' was read. The paper's applications depend on the answer. |
 
+- **S-083.1. Premises.** P1 (sourced, Bogen 1996: 75): English law imposed the duty. P2 (sourced, Bogen 1996: 52): why the courts imposed it 'remains a question'. C: imposition is one thing and explanation another. **Tests.** No counter-model; no term shifts. **Verdict.** Valid. **K claim.** K3.
+
 ### S-084 · ¶9
 > What the law does give is the moment at which the obligation comes into force and the party who holds it.
 
@@ -293,7 +295,9 @@ Signpost. No check.
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-085.1 | The guest has duties as well as claims | Own inference | S-086 to S-088 | — | — | valid with added premise | minor | The added premise is a register. In custom the guest has duties and almost no claims: 'no right other than to respect' (S-086.1). In English law the traveller has a right to be received (Constantine at 708) and an action for goods. The sentence states both halves without saying which register each belongs to. K5, K6. |
+| S-085.1 | The guest has duties as well as claims | Own inference | S-086 to S-088 | — | — | valid with added premise | minor | The added premise is a register. In custom the guest has duties and almost no claims: 'no right other than to respect' (S-086.1). In English law the traveller has a right to be received (Constantine at 708) and an action for goods. The sentence states both halves without saying which register each belongs to. |
+
+- **Premises.** P1 (sourced, S-086, S-087.2): the guest owes honour, or payment and reasonable conduct. P2 (assumption): the guest also has claims. C: duties as well as claims. **Tests.** P2 is true in English law and nearly false in Pitt-Rivers' custom; the added premise names the register. **K claim.** K5, K6.
 
 ### S-086 · ¶10
 > In Pitt-Rivers' classical rule the guest 'has no right other than to respect and no obligation other than to honour his host' (2012: 514), and a guest who 'makes claims or demands' usurps the host's place (2012: 515).
@@ -308,9 +312,11 @@ Signpost. No check.
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-087.1 | In commercial hospitality the guest's duties narrow | Own inference | S-086.1, S-087.2 | — | — | valid | — | Honour and a return of hospitality give way to payment and reasonable conduct. The source's own gloss is a loss of reciprocity, 'absolving the guest of mutual obligation, and loyalty' (Lashley 2000, as quoted at Golubovskaya et al. 2017: 1286). K claim: none. |
+| S-087.1 | In commercial hospitality the guest's duties narrow | Own inference | S-086.1, S-087.2 | — | — | valid | — | Honour and a return of hospitality give way to payment and reasonable conduct. The source's own gloss is a loss of reciprocity, 'absolving the guest of mutual obligation, and loyalty' (Lashley 2000, as quoted at Golubovskaya et al. 2017: 1286). |
 | S-087.2 | Golubovskaya et al. write that commercial hospitality often empowers the guest, 'whose only obligation is to pay and behave reasonably' | Quotation | Golubovskaya et al. 2017: 1286 | "while the essence of hospitality assumes that guests and hosts are equal, commercial hospitality often empowers the guest, whose only obligation is to pay and behave reasonably (King, 1995)." | none | supported | — | Exact; 'often' kept. It is a sentence of the literature review, not a finding of the study. |
 | S-087.3 | King (1995) is the origin of the point | Paraphrase at second hand | King 1995, IJHM 14(3–4): 219–234 | not read | — | unverifiable | minor | Closed text. A library copy of the article would settle it. King is in the reference list and no one in the project has read past the abstract. |
+
+- **S-087.1. Premises.** P1 (sourced, S-086.1): the customary guest must honour the host and return hospitality. P2 (sourced, S-087.2): the commercial guest must pay and behave reasonably. C: the duties narrow. **Tests.** Both premises are in the customary or descriptive register; no term shifts. **Verdict.** Valid. **K claim.** None.
 
 ### S-088 · ¶10
 > The statutory traveller of 1956, able to pay and fit to be received, is already such a guest, and in one hotel under pandemic rules, guests who would not follow the stay's rules after repeated communications were asked to leave (Xiang et al. 2022).
@@ -329,8 +335,10 @@ Signpost. No check.
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-089.1 | The guest's side of the relation is stated and conditional | Own inference | S-086 to S-088 | — | — | equivocal | minor | The conclusion adds a customary rule (Pitt-Rivers), a sentence from a literature review (Golubovskaya et al.), a British statute's definition and one Chinese hotel's practice. 'Stated' is true of each in a different register; 'conditional' is not said of any. Keep the registers apart. K claim: none. |
+| S-089.1 | The guest's side of the relation is stated and conditional | Own inference | S-086 to S-088 | — | — | equivocal | minor | The conclusion adds a customary rule (Pitt-Rivers), a sentence from a literature review (Golubovskaya et al.), a British statute's definition and one Chinese hotel's practice. 'Stated' is true of each in a different register; 'conditional' is not said of any. Keep the registers apart. |
 | S-089.2 | In the classical account a guest who fails it entitles the host to give up the role | Paraphrase | Pitt-Rivers 2012: 517 | "failure to return honour or avoid disrespect entitles the person slighted in this way to relinquish his role and revert to the hostility which it suppressed." | none | supported | — | The rule is symmetrical: 'the person slighted' may be the guest. **Can carry for K5 and K7:** in custom a slighted guest's remedy is to give up the role, which matches p. 513, 'no recourse but to retire from his role altogether by walking out'. |
+
+- **S-089.1. Premises.** P1 (S-086): custom states the guest's part. P2 (S-087.2): so does the hospitality literature. P3 (S-088.1, equivocal): so does the 1956 Act. P4 (S-088.2, partial): one hotel removes guests who break the rules. C: the guest's side is stated and conditional. **Tests.** 'Stated' changes register with each premise; P3 and P4 do not hold as written. **Verdict.** Equivocal. **K claim.** None.
 
 ---
 
@@ -376,9 +384,10 @@ Signpost. No check.
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-093.1 | The obligation is not confined to the innkeeper in person | Own inference | S-090.1 | — | — | valid with added premise | minor | The premise and its sources are at S-090.1. K2. |
+| S-093.1 | The obligation is not confined to the innkeeper in person | Own inference | S-090.1 | — | — | valid with added premise | minor | The premise and its sources are at S-090.1. |
 | S-093.2 | Holding out is how a party takes the role up | Own inference with a legal premise | Hotel Proprietors Act 1956 s. 1(3); no source in the sentence | "an establishment held out by the proprietor as offering food, drink and, if so required, sleeping accommodation, without special contract, to any traveller presenting himself" | — | valid with added premise | material | See list. |
 
+- **S-093.1.** Premise, tests and K claim as at S-090.1 (K2, K8).
 - **Premises (S-093.2).** P1 (sourced): the Act defines the hotel by the proprietor's holding out. P2 (sourced, leads): the common law did the same. 'An inn is a house, the owner of which holds out that he will receive all travellers and sojourners who are willing to pay' (Best J, as quoted by Kennedy J, Orchard v Bush at 288). Whether a hotel is so held out is 'a question of fact what was the intention of those who carried on the business' (Lamond at 545). By 'putting up a sign and lodging travelers, an individual became liable' (Bogen 1996: 88, reporting a case of 1623 that I did not read). C: holding out is how the role is taken up.
 - **Tests.** The conclusion follows for the innkeeper in English and British law. The added premise is that the party holds out in the Act's sense: to any traveller, without special contract. Two consequences are left unstated. First, a host can decline the role by not holding out in that way (Lord Esher's London hotels; the Schedule's disclaimer; see S-083.2), so 'whoever takes up the role of receiving travellers' is narrower than whoever receives travellers. This is the weakness K3 predicts for assumption: it can be avoided by notice. Second, Bogen's objection stands against any use of holding out as the reason the duty binds (S-080.2).
 - **K claim.** K3.
@@ -394,25 +403,47 @@ Signpost. No check.
 
 ### 1. Counts
 
-COUNTS_PLACEHOLDER
+34 sentences: 31 with rows and 3 signposts (S-074, S-079, S-094). 52 rows.
+
+| Verdict | Rows | Of which fatal | material | minor |
+|---|---|---|---|---|
+| supported | 15 | — | — | — |
+| supported (abstract only) | 0 | — | — | — |
+| partial | 17 | 0 | 10 | 7 |
+| not in source | 0 | — | — | — |
+| contradicted | 0 | — | — | — |
+| unverifiable | 2 | 0 | 1 | 1 |
+| valid | 2 | — | — | — |
+| valid with added premise | 8 | 0 | 3 | 5 |
+| equivocal | 6 | 2 | 2 | 2 |
+| overgenerates | 1 | 0 | 1 | 0 |
+| undergenerates | 1 | 0 | 1 | 0 |
+| invalid | 0 | — | — | — |
+| **Total** | **52** | **2** | **18** | **15** |
+
+By type: 18 own inferences (2 valid, 8 valid with added premise, 6 equivocal, 1 overgenerates, 1 undergenerates); 11 legal propositions (5 supported, 6 partial); 20 quotations, paraphrases and case descriptions (10 supported, 9 partial, 1 unverifiable); 2 gap claims (both partial); 1 empirical generalization with no source (unverifiable).
+
+No row is 'contradicted' because the one sentence that collides with its own source (S-092.1 against s. 1(1) of the 1956 Act) does so on one of two readings; I record it as equivocal and fatal.
 
 ### 2. The fifteen rows that most endanger the paper
 
 1. **S-092.1** (fatal). The list of four holders is asserted as fact and, on its natural reading, contradicts 'shall not attach to any other person' in the Act the paper cites; Crinkley does not make a brand the holder of an innkeeper's duty.
-2. **S-065.1** (fatal). The four duties mix three legal duties from three jurisdictions with one customary duty; 'to protect' the person has no legal source in the paper's main jurisdiction and Calye denies it.
+2. **S-065.1** (fatal). The four duties add three legal duties from three jurisdictions to one customary duty; 'to protect' the person has no legal source in the paper's main jurisdiction, and Calye denies it.
 3. **S-075.1**. 'Comes into force' runs together the innkeeper's status, the duty to receive (on request, with room and payment) and the duties to a guest (on reception).
 4. **S-084.1**. 'The law gives the moment and the holder' treats a bundle as one obligation and one British statute as 'the law'.
-5. **S-064.1**. 'No source makes an exception something the guest is owed' is false of the Equality Act, s. 29(7), a section the paper cites; and Pitt-Rivers binds the host to accede to the guest's desires.
-6. **S-093.2**. Holding out as the way the role is taken up lets a host stay out of the role by not holding out; the paper does not say so.
-7. **S-083.2**. The Act sets apart only establishments that meet s. 1(3); whether the paper's cases (reservation-only hotels, app-only hotels, rentals) do was not established.
+5. **S-064.1**. 'No source makes an exception something the guest is owed' is false of the Equality Act s. 29(7), in a section the paper cites; and Pitt-Rivers binds the host to accede to the guest's desires.
+6. **S-093.2**. If holding out is how the role is taken up, a host stays out of the role by not holding out; the paper does not say so.
+7. **S-083.2**. The Act sets apart only establishments that meet s. 1(3); whether the paper's cases (reservation-only hotels, app-only hotels, rentals) meet it is not established.
 8. **S-071.3**. The distinctiveness claim overgenerates to carriers and hospitals and undergenerates for restaurants, bars and rentals.
-9. **S-061.3** and **S-061.2**. Liability for the guest's person rests on a student comment relaying an American treatise and on an uncited footnote aside.
-10. **S-067.1** and **S-068.1**. Two of the three comparators are rules against discrimination, not duties to serve; one of them covers hotels.
-11. **S-080.1**. 'The legal history does not settle the question' is supported by a source that says it does.
-12. **S-081.1**. 'The most persuasive account' is unargued and Bogen disputes it.
-13. **S-090.1** and **S-073.2**. That a firm can be the innkeeper has no legal source in v6; the role does not exist in law for restaurants and bars.
-14. **S-064.3**. 'Exceptions ran in the host's favour' turns on two senses of 'exception', and Bogen says the exceptions arose for travellers.
-15. **S-070.1**. An uncited claim that banking and online retail are troubled 'as much as' hospitality.
+9. **S-061.3**. Liability for the guest's person rests on a student comment relaying an American treatise, with the standard of care dropped.
+10. **S-068.1**. The Equality Act comparator is a rule against discrimination, not a duty to serve, and it covers hotels.
+11. **S-067.1**. The banking comparator is also a rule against discrimination; the regulation that does bind banks to serve (reg. 22) goes uncited.
+12. **S-080.1**. 'The legal history does not settle the question' rests on a source that says it does.
+13. **S-081.1**. 'The most persuasive account' is unargued, and Bogen disputes it.
+14. **S-090.1**. That a firm can be the innkeeper has no legal source in v6.
+15. **S-064.3**. 'Exceptions ran in the host's favour' turns on two senses of 'exception', and Bogen says the exceptions arose for travellers.
+
+Next in line: S-061.2 (Bogen's footnote aside), S-073.2 (no innkeeper's role in law for restaurants and bars), S-070.1 (the uncited comparison with banking and online retail), S-071.2 (a formula credited to Sandoval-Strausz).
 
 ### 3. Sources not read in full, and the rows that wait on them
 
@@ -424,7 +455,7 @@ COUNTS_PLACEHOLDER
 - **Slattery 2002**: pp. 19–20, 22–23, 26–28 searched only. S-073.1, S-091.1, S-091.2.
 - **Burdick 1911, Parts II and III**: not read. S-071.1 (how far the duty to serve spread to later public service companies).
 - **Lane v Cotton**: only Holt CJ at 484–485. S-076.3.
-- **Crinkley**: by search. S-092.1 (the full audit belongs to the batch that holds S-108 to S-110).
+- **Crinkley**: by search. S-092.1 (the full audit belongs to the batch that holds the Crinkley sentences of 'Delegation and standing' ¶3).
 - **Statutes read in part**: Equality Act 2010 (exceptions in Part 3 and Sch. 3 not read; S-068.1, S-064.1); Payment Accounts Regulations 2015 (enforcement and current status not read; S-067.1); § 1395dd (subsections (c), (f), (i) not read; S-069.1).
 - **Williams v Linnitt**: Asquith and Denning LJJ not read. **MacLenan v Segar**: after p. 330 not read. **R v Rymer**: part of the case stated not read. All three are leads, not rows.
 - **No page images.** Every reported case was read as OCR text.
@@ -434,7 +465,7 @@ COUNTS_PLACEHOLDER
 
 **S-080.1, 'The legal history does not settle the question', and S-081.1, 'The most persuasive account we have found'.**
 - Library: `grep` of `library/cards/` and of the scout files. Cards exist for Bogen 1996, Burdick 1911, Wyman 1904, Sandoval-Strausz 2005 and Ganesh 2018. `WS_P4a_scout.md` records Singer 1996 (record found, closed) and Sage 2022.
-- Consensus, 'origin of the innkeeper's common law duty to serve all travellers: why were innkeepers and common carriers bound (public calling, monopoly, holding out, crime control)', page size 30: 30 results. Leads, not sources: [Liberalism and the Common Callings](https://consensus.app/papers/details/w:5a6e052f-98af-4afd-acfe-d0a93a95ea46/?utm_source=claude_desktop) (Sage 2022, King's Law Journal, doi 10.1080/09615768.2022.2034592); [The Origin and First Test of Public Callings](https://consensus.app/papers/details/w:7c36fcf9-29c5-4b2c-b97e-86b604318c7a/?utm_source=claude_desktop) is Bogen 1996, already held; Arterburn 1927, 'The Origin and First Test of Public Callings', U Pa L Rev (doi 10.2307/3307250); Molot 1968, 'The Duty of Business to Serve the Public: Analogy to the Innkeeper's Obligation', Canadian Bar Review; Ganesh 2018, 'Wirtbarkeit: Cosmopolitan Right and Innkeeping', Legal Theory (doi 10.1017/s1352325218000162); MacLeod 2022 (doi 10.2139/ssrn.4273296); Cherry 1999, 'Origins of Common Carrier Liability Rules and Practices' (doi 10.1007/978-1-4615-4993-2_2).
+- Consensus, 'origin of the innkeeper's common law duty to serve all travellers: why were innkeepers and common carriers bound (public calling, monopoly, holding out, crime control)', page size 30: 30 results. The first result was Bogen 1996, already held. Leads, not sources: [Liberalism and the Common Callings](https://consensus.app/papers/details/w:5a6e052f-98af-4afd-acfe-d0a93a95ea46/?utm_source=claude_desktop) (Sage 2022, King's Law Journal, doi 10.1080/09615768.2022.2034592); [The Origin and First Test of Public Callings](https://consensus.app/papers/details/w:eec44f2c-c5f8-4894-9907-9716aafee254/?utm_source=claude_desktop) (Arterburn 1927, U Pa L Rev, doi 10.2307/3307250); [The Duty of Business to Serve the Public: Analogy to the Innkeeper's Obligation](https://consensus.app/papers/details/w:1a3a89db-46f8-41ec-a507-adfa26ddcb49/?utm_source=claude_desktop) (Molot 1968, Canadian Bar Review); [Wirtbarkeit: Cosmopolitan Right and Innkeeping](https://consensus.app/papers/details/w:1aaeb4e8-ba07-43ad-9a09-cd334834378c/?utm_source=claude_desktop) (Ganesh 2018, Legal Theory, doi 10.1017/s1352325218000162); [The First Amendment, Discrimination, and Public Accommodations at Common Law](https://consensus.app/papers/details/w:781840be-bd19-4dab-9df9-43febd801e4e/?utm_source=claude_desktop) (MacLeod 2022, doi 10.2139/ssrn.4273296); [Origins of Common Carrier Liability Rules and Practices](https://consensus.app/papers/details/w:e3f2aa20-c663-4bb7-a460-e6c73b9ced54/?utm_source=claude_desktop) (Cherry 1999, doi 10.1007/978-1-4615-4993-2_2).
 - OpenAlex, `innkeeper duty to serve public calling origin common law`: 1,038 results; first twelve read; Bogen 1996 and Sandoval-Strausz 2005 among them.
 - OpenAlex, `public accommodations common law duty to serve right to exclude history`: 13,620 results; first twelve read.
 - OpenAlex, `common callings duty to serve history innkeepers carriers`: 364 results; first twelve read.

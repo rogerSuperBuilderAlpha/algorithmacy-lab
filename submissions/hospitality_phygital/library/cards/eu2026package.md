@@ -67,7 +67,7 @@ The amending Directive leaves the organiser's responsibility for performance (ar
 **What the text does not contain** (whole-text searches of the saved file, 11 Nov 2026)
 
 - No provision says that a person must answer at the contact point or that whoever answers must have authority to decide. "natural person" occurs once, in the definition of trader (art. 3(7) as replaced); "human" occurs once, in "human health" (recital 18); "automat" does not occur. [full-text]
-- No provision obliges the organiser to supervise or monitor suppliers. "supervise" and "monitor" occur only for Member States' oversight of insolvency protection (recital 23; art. 17(3) as replaced). [full-text]
+- No provision obliges the organiser to supervise or monitor suppliers. "supervise" and "monitor" occur only for Member States' oversight of insolvency protection (recital 23; art. 17(3) as replaced), and "supervision" only for Member States' supervision of organisers (art. 18(2) as replaced). [full-text]
 
 ## Critical notes & threats
 

@@ -13,7 +13,7 @@
 | *Hayman v. Ramada Inn, Inc.*, 86 N.C. App. 274 (1987) | Whole opinion and dissent; and the order at 320 N.C. 631, fetched this session | `sources/hayman1987ramada/` (order saved as `cap_320_nc_631.json`) |
 | Morgan (2015) | Whole, in the accepted manuscript (24 pp.); the journal version is closed. 'AM p.' is an accepted-manuscript page, not a journal page | `sources/morgan2015liability/morgan.txt` |
 | *Calye's Case* (1584) | Whole report, fols 32a–33b, in the 1777 edition of Coke's Reports (spelling modernized below) | `sources/calye1584/` |
-| Bovens (2007) | pp. 447, 449–454, 457–458 of the version of record | `sources/bovens2007accountability/user_pdf/` |
+| Bovens (2007) | pp. 447, 449–454, 457–459 of the version of record | `sources/bovens2007accountability/user_pdf/` |
 | Pitt-Rivers (2012) | pp. 513–517 | `sources/pittrivers2012law/paper.txt` |
 | Di Domenico and Lynch (2007) | pp. 321–322, 326, 331–336 of the version of record | `sources/didomenico2007host/user_pdf/` |
 | Bulley (2015) | Accepted manuscript pp. 12–15 | `journal/corpus/bulley2015/plain.txt` |
@@ -131,7 +131,7 @@ Uses in another sense:
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 | S-103.1 | 'Accountability' means the arrangement through which the holder answers to the guest for how the obligation was performed | Definition (stipulated) | — | — | — | equivocal | material | Used in at least six other senses (list below). The largest gap: the definition is retrospective ('was performed'), and Table 2 makes accountability work 'in real time' (L142). |
-| S-103.2 | Bovens defines accountability as a relation in which an actor must explain and justify its conduct to a forum that can pose questions and pass judgement | Paraphrase | Bovens 2007 (version of record), p. 450; Box 1 at p. 452 | 'Accountability is a relationship between an actor and a forum, in which the actor has an obligation to explain and to justify his or her conduct, the forum can pose questions and pass judgement, and the actor may face consequences.' (450) | 3 Strength, 2 Setting | partial | material | The paraphrase drops the last element, which Bovens holds constitutive: 'the possibility of sanctions of some kind is a constitutive element of narrow accountability and … should be included in the definition' (451). His setting is public administration in the European Union; the application to host and guest is the paper's. Usable: the seven elements (452, Box 1); 'accountability, as defined here, is in nature retrospective. Actors are to account to a forum after the fact' (453), which supports K7's split between interrupting (during) and accounting (after); 'Accountability is a form of control, but not all forms of control are accountability mechanisms' (454); the 'problem of many hands' and four ways of choosing who accounts (457–458), which bears on S-107. Not usable: for a real-time duty to change a decision, or for exit as accountability. |
+| S-103.2 | Bovens defines accountability as a relation in which an actor must explain and justify its conduct to a forum that can pose questions and pass judgement | Paraphrase | Bovens 2007 (version of record), p. 450; Box 1 at p. 452 | 'Accountability is a relationship between an actor and a forum, in which the actor has an obligation to explain and to justify his or her conduct, the forum can pose questions and pass judgement, and the actor may face consequences.' (450) | 3 Strength, 2 Setting | partial | material | The paraphrase drops the last element, which Bovens holds constitutive: 'the possibility of sanctions of some kind is a constitutive element of narrow accountability and … should be included in the definition' (451). His setting is public administration in the European Union; the application to host and guest is the paper's. Usable: the seven elements (452, Box 1); 'accountability, as defined here, is in nature retrospective. Actors are to account to a forum after the fact' (453), which supports K7's split between interrupting (during) and accounting (after); 'Accountability is a form of control, but not all forms of control are accountability mechanisms' (454); the 'problem of many hands' and four ways of choosing who accounts (457–459), which bears on S-107. Not usable: for a real-time duty to change a decision, or for exit as accountability. |
 
 Uses of 'accountab-' in another sense:
 
@@ -148,7 +148,7 @@ Uses of 'answer' (no definition is given; S-107 and S-112 turn on it):
 - (a) To be liable in damages: L58 (the innkeeper 'answered for' a default); L56 so far as *Crinkley* licenses it. *Woodland* uses the word this way: 'answerable for the careful exercise of its control by the delegate' (para 25(1)).
 - (b) To give an account, or to be the party a claim is addressed to: L24, L54, L56 (three times), L60 ('the answering for how it is performed'), L86, L94 (question 5), L97, L105, L127, L133, L142, L149, L153; and 'authority to answer for it' at L12, L22, L149.
 - (c) To receive a reply: L66 ('being answered'), L82 ('where the guest can be answered').
-- (d) Answerability for harm, as in algorithmic accountability: L20, L60 (three times), L149 (twice); and the coined 'authority–answerability split' (L74, L76) and Table 2's title (L135).
+- (d) Answerability for harm, as in algorithmic accountability: L20, L60 (four times, two of them in Kong's words), L149 (twice); and the coined 'authority–answerability split' (L74, L76) and Table 2's title (L135).
 - (e) The decision itself: L129 ('the power to change the answer').
 - (f) Ordinary: L32, L44, L99, L151.
 
@@ -181,7 +181,16 @@ Inference S-104.1:
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 | S-105.1 | Commercial hospitality has long divided the host's position among several parties | Empirical generalization; no source in the sentence | In this paragraph only *Crinkley*, 844 F.2d 156, para 7 (at 159): one motel, events of 1981 | 'TRAVCO was alleged to be liable as the entity in actual day-to-day control of the operation of the motel, which was managed under a franchise agreement with Holiday Inns.' | 6 Design | partial | minor | One case shows one instance. The general claim rests on Slattery (2002: 24–25) in the previous section, which is another batch's row. Cite it here or narrow to 'franchised and managed hotels'. |
-| S-105.2 | So the four must be kept apart | Own inference | — | — | — | valid | — | Follows if S-105.1 holds: where several parties share a position, one may hold the duty and another the power. K8. |
+| S-105.2 | So the four must be kept apart | Own inference | — | — | — | valid | — | Follows if S-105.1 holds: where several parties share a position, one may hold the duty and another the power. |
+
+Inference S-105.2:
+
+1. Commercial hospitality divides the host's position among several parties (S-105.1; empirical, sourced here for one motel).
+2. Where several parties share a position, the duty, the power to decide and the answering can fall to different parties (assumption).
+3. So the four need separate names.
+
+- Counter-model: none; the step is valid if premise 1 holds.
+- K claim: K8.
 
 ### S-106 · Delegation and standing ¶3
 > This journal already has words for the result: Bulley calls the agencies that run a refugee camp, once refugees are past its formal threshold, an assembled host (2015), and Lynch et al. (2011), after Robinson and Lynch, distinguish micro-hosts from macro-hosts such as a train company.
@@ -197,7 +206,15 @@ Inference S-104.1:
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-107.1 | A host made of several parties raises the question which of them answers to the guest | Own inference | — | — | — | valid | — | The question follows from plurality. 'Answers' is undefined here and takes sense (b) of the list under S-103; the next sentence answers it in sense (a). The rewrite should ask two questions: who is liable, and who must be reachable. Bovens (2007: 457–458) names the problem ('many hands') and four ways to choose the actor. K8. |
+| S-107.1 | A host made of several parties raises the question which of them answers to the guest | Own inference | — | — | — | valid | — | The question follows from plurality. 'Answers' is undefined here and takes sense (b) of the list under S-103; the next sentence answers it in sense (a). The rewrite should ask two questions: who is liable, and who must be reachable. Bovens (2007: 457–459) names the problem ('many hands') and four ways to choose the actor. |
+
+Inference S-107.1:
+
+1. An assembled host has several members (S-106; sourced for a refugee camp and a railway, applied by the paper to firms).
+2. So it is an open question which member answers to the guest.
+
+- Terms: 'answers' is not fixed (list under S-103).
+- K claim: K8.
 
 ### S-108 · Delegation and standing ¶3
 > In Crinkley v. Holiday Inns, a single decision under North Carolina law, the owners of a franchised motel, the company that ran it day to day and the franchisor whose brand it carried were all held liable to guests assaulted in their room (1988: 159).
@@ -207,7 +224,7 @@ Court and posture for every row: United States Court of Appeals, Fourth Circuit,
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 | S-108.1 | *Crinkley* is a single decision under North Carolina law | Legal proposition | 844 F.2d 156, para 12 (at 160); dissent para 68 (at 169) | 'In a diversity case, the standard for assessing the sufficiency of the evidence to establish a submissible case under state substantive law is governed by federal law' (para 12) | 4 Speaker | partial | minor | True, and incomplete: it is a federal court's reading of state law, by a divided panel, and binds no North Carolina court. The dissent says so: the proper bodies are 'first, the North Carolina legislature, secondly, the North Carolina courts, and least of all, a federal court sitting in diversity' (para 68). L151 says it; this sentence should too. |
-| S-108.2 | The defendants were the motel's owners, the company that ran it day to day and the franchisor | Case description | Para 7 (at 159) | 'The last three were alleged to be liable as the actual owners of the motel. TRAVCO was alleged to be liable as the entity in actual day-to-day control of the operation of the motel, which was managed under a franchise agreement with Holiday Inns.' | none | supported | — | Five appellants: Holiday Inns, Inc.; TRAVCO; and three owners (a company and two men). Three further defendants, partners in Summit Associates, did not appeal; the opinion does not say what became of the claims against them. |
+| S-108.2 | The defendants were the motel's owners, the company that ran it day to day and the franchisor | Case description | Para 7 (at 159) | 'The last three were alleged to be liable as the actual owners of the motel. TRAVCO was alleged to be liable as the entity in actual day-to-day control of the operation of the motel, which was managed under a franchise agreement with Holiday Inns.' | none | supported | — | Five appellants: Holiday Inns, Inc.; TRAVCO; and three owners (a company and two men). The caption names three further defendants (partners in Summit Associates); para 7 says only these five 'remained as defendants' after pre-trial rulings. |
 | S-108.3 | All three were held liable to the guests | Legal proposition | Paras 9 (at 159–60), 1 (at 158), 13 (at 160), 32 (at 163) | 'the jury returned verdicts in favor of the Crinkleys against all the defendants above identified … Holiday Inns was found vicariously liable on the basis of apparent agency' (para 9); 'We find no reversible error and affirm' (para 1) | 3 Strength, 8 Version | partial | material | A jury found them liable. The court held that the evidence sufficed to go to a jury and that the damages were not excessive: holding, on a standard that asks only whether reasonable jurors 'could reasonably return a verdict' (para 13). On causation 'we think the issue a close one' (para 32). Write 'a jury found … and the Fourth Circuit affirmed'. Locator: the verdict sentence runs from 159 to 160. |
 | S-108.4 | The guests were assaulted in their room | Case description | Para 5 (at 158–59) | 'the man succeeded in getting the Crinkleys into their room. The man was armed with a gun, and once inside he beat James Crinkley' | none | supported | — | None. |
 | S-108.5 | (In context) the case shows which members of an assembled host answer to the guest | Own application of a case | Para 16 (at 160) | 'The duty here in issue is that of a landowner or lessee to business invitees on his premises. In North Carolina, as generally, there is no duty on such a person's part to insure the safety of his invitees.' | 5 Scope, 7 Application | partial | material | The owners and the operator were liable for their own negligence in security, under the general law of premises, and only because the attack was foreseeable (paras 17–23). The same paragraph lists the duty as one owed by a college and a convenience store. The court did not separate owner from operator and gave no rule of allocation. The franchisor was liable for the operator's negligence, not for a duty of its own (S-109.1). Usable for: one instance in which owner, operator and brand all paid damages to guests. Not usable for: a rule about who holds the host's obligation, or for any duty to be reachable. |
@@ -283,7 +300,16 @@ Inference S-112.3:
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-113.1 | The law and the field together say who holds the obligation when the guest is received | Own inference (a summary) | — | — | — | valid with added premise | material | Added premise: there is one proprietor. For that case the previous section gives a holder (the 1956 Act's proprietor; another batch). For several firms the sentence before this one says the allocation is a proposal that 'no court has held'. The two sentences cannot both stand. K8. |
+| S-113.1 | The law and the field together say who holds the obligation when the guest is received | Own inference (a summary) | — | — | — | valid with added premise | material | Added premise: there is one proprietor. For that case the previous section gives a holder (the 1956 Act's proprietor; another batch). For several firms the sentence before this one says the allocation is a proposal that 'no court has held'. The two sentences cannot both stand. |
+
+Inference S-113.1:
+
+1. The law names a holder, the proprietor who holds the house out (previous section; another batch's rows).
+2. Hospitality scholars say what the host owes the guest it receives (previous section).
+3. So law and field together say who holds the obligation when the guest is received.
+
+- Counter-model: the franchised motel of S-108. Owner, operator and brand are all candidates, and S-112.4 says no court has allocated among them by the paper's rule.
+- K claim: K8.
 
 ### S-114 · Delegation and standing ¶4
 > Their concern is with reception.
@@ -291,6 +317,8 @@ Inference S-112.3:
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 | S-114.1 | The law and the field are concerned with reception and not with delegation | Own inference | — | — | — | invalid | minor | The next five sentences cite the law on delegation (*Woodland*, Morgan, *Calye's Case*), and the previous section cites Bulley and Pitt-Rivers on the host's conduct after admission (L30). The bridge is false on the paper's own sources. What the sources leave open is delegation to firms and systems in hospitality. |
+
+Inference S-114.1: no premise is stated. Counter-model: the paragraph's own sources, which are law about delegation. K claim: none.
 
 ### S-115 · Delegation and standing ¶4
 > But what becomes of the host's obligation once the work of hosting is handed on?
@@ -386,7 +414,16 @@ Inference S-120.3:
 
 | Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
-| S-121.1 | Algorithmic delegation changes who performs and nothing else about the duty or its holder | Own inference from S-116 and S-120 | *Woodland*, para 3; Morgan AM pp. 8, 22 | 'One case in which vicarious liability remains axiomatically unavailable … is when the person employed to do the job was an independent contractor.' (Morgan AM p. 8) | — | valid with added premise | material | Added premise: that the legal relation between holder and performer makes no difference to what the holder answers for. In tort it makes the difference: servant, then vicarious liability; independent vendor, then liability only for careless choice, unless the duty is of an exceptional class. It makes none in contract for services the host promised, and none for goods. A second gap: a system is not a person. Either the host uses it as its own tool, and then nothing is delegated and the host acts itself, or the host hires the vendor, and then the vendor is the delegate. The sentence should say which. K8, K9. |
+| S-121.1 | Algorithmic delegation changes who performs and nothing else about the duty or its holder | Own inference from S-116 and S-120 | *Woodland*, para 3; Morgan AM pp. 8, 22 | 'One case in which vicarious liability remains axiomatically unavailable … is when the person employed to do the job was an independent contractor.' (Morgan AM p. 8) | — | valid with added premise | material | Added premise: that the legal relation between holder and performer makes no difference to what the holder answers for. In tort it makes the difference: servant, then vicarious liability; independent vendor, then liability only for careless choice, unless the duty is of an exceptional class. It makes none in contract for services the host promised, and none for goods. A second gap: a system is not a person. Either the host uses it as its own tool, and then nothing is delegated and the host acts itself, or the host hires the vendor, and then the vendor is the delegate. The sentence should say which. |
+
+Inference S-121.1:
+
+1. The innkeeper answered when servants did the work (S-120; sourced for goods).
+2. The duty cannot be delegated (S-116; equivocal).
+3. So when a system does the work, the performer changes and nothing else does.
+
+- Counter-model: a hotel that replaces its own night porter with a contractor's remote lock service. In English tort the hotel answered for the porter and, absent an exceptional duty, answers only for a careless choice of contractor. The rule changed with the performer.
+- K claim: K8, K9.
 
 ---
 
@@ -398,13 +435,13 @@ Inference S-120.3:
 
 | Verdict | Rows |
 |---|---|
-| supported | 14 |
+| supported | 13 |
 | partial | 22 |
 | not in source | 1 |
 | unverifiable | 2 |
 | valid | 2 |
-| valid with added premise | 6 |
-| equivocal | 6 |
+| valid with added premise | 5 |
+| equivocal | 7 |
 | invalid | 2 |
 | signpost, no verdict | 5 |
 | contradicted, supported (abstract only), overgenerates, undergenerates | 0 each (overgeneration is recorded inside S-112.1 and S-116.1) |
@@ -437,9 +474,9 @@ Next in line: S-096.2 (the field 'pictures one person', against the journal's ow
 |---|---|---|---|
 | Morgan (2015), journal version | Accepted manuscript, whole | S-101.3, S-118.3 (no journal page; wording may differ) | A library copy of CLJ 74(1) 109–139 |
 | Bulley (2015), journal version | Accepted MS pp. 12–15 | S-106.1 (no journal page) | The version of record |
-| Lynch et al. (2011), journal version | One page of the author's version | S-106.2, S-096.2 (no journal page) | The version of record, which is open |
+| Lynch et al. (2011), journal version | One page of the author's version | S-106.2, S-096.2 (no journal page) | The version of record (the author's copy says it is free to download from the publisher) |
 | Robinson and Lynch (2007) | Not held | S-106.2 attributes it only through Lynch et al. | The chapter |
-| Bovens (2007) | pp. 447, 449–454, 457–458 | None for the verdicts; the 'many hands' lead at 457–459 is partly read | Read pp. 455–468 |
+| Bovens (2007) | pp. 447, 449–454, 457–459 | None for the verdicts | Read pp. 455–456 and 460–468 before using the typology of forums |
 | Pitt-Rivers (2012) | pp. 513–517 | None (S-097.1 to S-097.3 rest on these pages) | — |
 | Di Domenico and Lynch (2007) | pp. 321–322, 326, 331–336 | None for the verdicts; the number of host interviews is unchecked | pp. 323–330 |
 | Cobbe et al. (2023) | pp. 1192–1193 and one sentence at 1195 | None for S-111.2 | — |
@@ -487,5 +524,5 @@ Leads, with record and where found. None is citable for more than is stated unti
 | Consumer Rights Act 2015, ss. 49 and 57 | Saved per the P4b scout; not read by me | The legislation that limits contracting out, which para 25(5) of *Woodland* mentions and S-119.3 omits |
 | *Hayman v. Ramada Inn*, 86 N.C. App. 274 (1987) | Saved; read whole | K3 and K8: the placed guest, and disclosure as a defence to holding out. Already in the draft only through *Crinkley*'s footnote; cite it directly |
 | *Shadday v. Omni Hotels*, 477 F.3d 511, 513 (7th Cir. 2007; Posner J.) | Saved; passages only | That an elevated innkeeper's standard is 'the rule in some states (but by no means in all …)', with *Crinkley* cited for a state without one |
-| Bovens (2007: 457–458), 'the problem of many hands' | Version of record, held | S-107: four published ways to choose which of many actors accounts (the organisation, its head, all, each) |
+| Bovens (2007: 457–459), 'the problem of many hands' | Version of record, held; read | S-107: four published ways to choose which of many actors accounts (the organisation as such, its head, any member, each by contribution). With corporate accountability a forum can 'turn directly to the organisation and hold it to account for the collective outcome' (458) |
 | Cobbe et al. (2023: 1193) | Version of record, held | Against the third limb of S-112: allocation should follow who controls which part of the chain |

@@ -1,0 +1,83 @@
+---
+citekey: maguire2006sefton
+title: "Maguire v Sefton Metropolitan Borough Council and Precor Products Limited"
+authors: "Court of Appeal of England and Wales, Civil Division (Rix LJ; Carnwath LJ and Jacob LJ agreeing)"
+year: 2006
+doi: ""
+url: "https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/316"
+venue: "[2006] EWCA Civ 316 (judgment of 23 February 2006, on appeal from Liverpool County Court)"
+cluster: mediation-sovereignty
+status: held
+role: rival
+used_by_sections: [3, 4]
+claims: [k8-holder-under-delegation, k7-channel-from-guest]
+read_depth: full-text
+verified: verified
+verified_date: 2026-11-11
+source_basis: "Primary legal source. Whole judgment read on 11 Nov 2026 (paras 1-35: Rix LJ, paras 1-31; Carnwath LJ, paras 32-34; Jacob LJ, para 35; and the order) from the National Archives Find Case Law text saved at manuscript/revision_2026-11/research/sources/maguire2006sefton/ (tna_ewca_civ_2006_316.xml and the .txt extracted from it). Record verified by re-fetching caselaw.nationalarchives.gov.uk/ewca/civ/2006/316/data.xml on 11 Nov 2026 (HTTP 200, byte-identical to the saved XML; its metadata gives the name 'Maguire v Sefton Metropolitan Borough Council & Anor', the neutral citation and the judgment date). No law-report citation checked. The transcript's header names the court below as 'MR JUSTICE MACKAY' and para 3 names the judge as 'HHJ Mackay'. Locators are the Court of Appeal's paragraph numbers."
+generated_run: rr-2026-11-k
+flags: [must-engage]
+hold_rationale: "Held as a rival to K8's contract limb. A paying member of a leisure centre, injured by a machine that the operator's maintenance contractor had inspected badly, lost against the operator in contract and under the Occupiers' Liability Act 1957. Rix LJ holds that section 5 of the Act makes the term implied into a contract of entry the common duty of care, so that an occupier does not warrant its contractor's care, and he says this differs from contract generally. He also records that the older innkeeper's warranty was stricter. The authors decide admission."
+---
+
+Outline numbering (rr-2026-11-k, v6): section 3, 'Delegation and standing'; section 4, 'Assembled hosts at the touchpoint'.
+
+## Summary
+
+A man who paid a monthly fee to use a council-run leisure centre fell from an exercise machine when its worn drive belt failed. Six weeks earlier the manufacturer's English subsidiary, engaged by the council under a new service agreement, had inspected the machine without opening it. The county court judge held the council liable in contract, on an implied term that any machine was safe to use, and under the 1957 Act, for having no proper system of inspection. The Court of Appeal allowed the council's appeal on both. Section 5 of the Act fixes the term implied into a contract of entry as the common duty of care and nothing stricter; and the council had discharged that duty by entrusting inspection and maintenance to a competent contractor, with no reason to supervise it. The contractor's liability stood. English law.
+
+## Key facts / verified quotes with loci
+
+- Court and date: Court of Appeal (Civil Division), 23 February 2006, [2006] EWCA Civ 316, on appeal from Liverpool County Court. Rix LJ gave the judgment (paras 1-31); Carnwath LJ: "I agree" (para 32); Jacob LJ: "I also agree" (para 35). [full-text]
+- Parties and claim: Mr Maguire "suffered an accident on an exercise machine which he was using at a leisure centre operated by Sefton Metropolitan Council". The manufacturer's English subsidiary, Precor, had "by a service agreement dated 22 March 2000, that is to say only just over one month before the accident in question," undertaken "to maintain that and other machines" (para 1). He sued the council "both in contract and under the Occupiers’ Liability Act 1957" and Precor in negligence (para 3). Judgment below was for "an agreed total amount of £2,545" (para 2). [full-text]
+- A paying customer of a public operator: "Mr Maguire paid a fee of something like £20 a month for the use of the leisure centre. He was therefore a visitor under contract and that was common ground." (para 15) The operator was a local authority running a paid facility, not a private firm. The judgment does not give the claimant's age. [full-text]
+- The trial judge's contract holding, as quoted: "there was in my view an implied term in the contract that any machine that the Claimant was to use on the premises was safe to be used" (para 3, quoting the judge's para 18). [full-text]
+- The trial judge's statutory holding, as quoted: the council "ought to have ensured that there was a proper system of control, inspection, maintenance and repair of every machine, and in failing to do that, and in failing to be aware of the defect which plainly existed in that machine, they are in breach of their duty" (para 4, quoting the judge's para 21). [full-text]
+- The service contract kept the council's hands off the machines: a customer's obligation was not to allow "any person other than the Contractor’s representatives to adjust, maintain, repair, replace or remove any part of the Equipment" (para 8, quoting clause 5.1.4). [full-text]
+- What happened after the fall: "The malfunction of the machine was immediately reported for repair to Precor" and an engineer "promptly attended" (para 9). [full-text]
+- Section 2(4)(b) is an example: having quoted it, Rix LJ says "I underline the fact that that scenario is given as one possible example of the circumstances in which the question on all the relevant circumstances might have to be decided." (para 13) [full-text]
+- Section 5, as quoted: for persons who enter "in exercise of a right conferred by contract with a person occupying or having control of the premises, the duty he owes to them in respect of dangers due to the state of the premises or to things done or omitted to be done on them, insofar as the duty depends on the terms being implied in the contract by reason of its conferring that right, shall be the common duty of care." (para 14) [full-text]
+- The only authority found on s. 5: Swanwick J in *Sole v W J Hallt Ltd*, as quoted, thought the section "designed to reduce what was at common law the higher duty of an occupier owed to such persons entering by right of contract and to equate them in this respect with other visitors." Rix LJ: "That is consistent with my view of the function and effect of section 5." (para 19) [full-text]
+- The older, stricter implied terms, including the innkeeper's. In *Francis v Cockrell*, as Rix LJ describes it, the majority implied a term that a stand "should be reasonably fit for the purpose" (para 21). "Later, however, in MacLenan v Segar [1917] 2 KB 325, which concerned the responsibility of an innkeeper for the personal safety of his guests", McCardie J put it that "where the occupier of premises agrees for reward that a person shall have the right to enter and use them for a mutually contemplated purpose, the contract between the parties (unless it provides to the contrary) contains an implied warranty that the premises are as safe for that purpose as reasonable care and skill on the part of anyone can make them" (para 21, quoting 332/3). [full-text]
+- The holding on contract: "it is clear to my mind that section 5 of the Act was meant to do away with all such previous distinctions. The content of a contractually implied term, in the absence of contrary agreement, was to be exactly the same as the duty for which section 2 provided. The effect of that is to make it clear that the implied term, whose content is expressed as the common duty of care, is to take effect so that the warranty given by an occupier is not a warranty that his independent contractor, if he uses one consistently with the common duty of care provided for in section 2, will himself take care. In this respect therefore, the content of the common duty of care in contract pursuant to section 5 of the Act differs from the position in contract generally, where a contractor is bound by his warranty according to its terms however he seeks to perform his contract, and whether he performs it by himself, by his servant or agent, or by an independent contractor." (para 24) [full-text]
+- A route not taken: counsel "did not rely" on any "activity duty", so the court was "not concerned in this case with any submission to the effect that by reason of the council’s activity duties as distinct from its duties as occupier a term can be implied into the relevant contract which would fall outside the limitation of section 5 of the 1957 Act." (para 18) [full-text]
+- The contractor was competent: "Precor, it is common ground, was a competent independent contractor for the purposes of inspecting and maintaining the equipment. Indeed, one could go further and say that there could be no more suitable independent contractor for these purposes than a company which was in effect the manufacturer and supplier of this equipment." (para 25) [full-text]
+- The holding on the common duty of care: "It seems to me that the council were entitled to rely upon Precor as the experts to perform a proper inspection at the time of that pre-contract inspection." (para 27) [full-text]
+- No duty to supervise without reason: "There is nothing in the evidence at all to suggest that the council had any reason to contemplate that the pre-contract inspection – or indeed any inspection to be carried out by Precor –would be a limited, partial or unsatisfactory or deficient one". "There is nothing about what is known or might have been known by the council about these machines to suggest that they were sensitive or likely to go wrong, or that the council had to take any special measures in controlling or supervising Precor’s own inspection or in telling them how to do their own business, so as to acquit themselves of their common duty of care." (para 30) [full-text]
+- Disposition: "the council must be acquitted both in contract and under the 1957 Act of any liability to Mr Maguire." (para 31) "Order: Appeal allowed." The claim against the operator failed; the contractor did not appeal its own liability (para 4). [full-text]
+- Jacob LJ, on an occupier who does nothing: a claimant should ask the occupier "what steps if any he has taken to ensure that the machine is safe. If no steps have been taken, then the action may well lie against the occupier as well as the manufacturer or maintainer of the machine." (para 35) [full-text]
+- Carnwath LJ: the purpose of the 1957 codification "would be wholly frustrated if it were open to a judge to decide to apply a different standard to meet his views on the merits of a particular case." (para 34) [full-text]
+- The judgment does not use the term "non-delegable" or mention vicarious liability (searched the saved text, 11 Nov 2026). [full-text]
+
+## Critical notes & threats
+
+- **What s. 5 covers and what it leaves.** The section governs the duty owed "in respect of dangers due to the state of the premises or to things done or omitted to be done on them", so far as it rests on a term implied because the contract confers a right of entry (para 14). Rix LJ's own contrast is with "contract generally", where a party is bound by its warranty whoever performs (para 24). An express term, a term implied for another reason, and services other than the provision of safe premises are outside the holding. The court also left open an argument from "activity duties" (para 18).
+- **For a hotel, this is the hinge.** A guest enters and uses premises under contract. On *Maguire*, the term English law implies about the safety of those premises is the common duty of care, entrustment defence included; the stricter warranty that McCardie J stated for an innkeeper in 1917, safe as "care and skill on the part of anyone can make them", is among the "previous distinctions" that s. 5 "was meant to do away with" (paras 21, 24). K8's contract limb therefore holds for services the host promised and does not hold, without more, for dangers on the premises. I read *MacLenan v Segar* only as quoted here.
+- **Oversight was argued and rejected on the facts.** The trial judge thought the operator needed "a proper system of control, inspection, maintenance and repair" and should have been "aware of the defect" (para 4). The Court of Appeal held that engaging the best-placed contractor was itself the proper step, and that nothing gave the council "any reason" to control or supervise the contractor's work (para 30). The reasoning is conditional on the absence of a reason; it does not say what the council would have had to do had members reported a loose pedal.
+- **The holder had contracted away its own access.** Clause 5.1.4 forbade anyone but the contractor to open or adjust the machines (para 8). The court drew nothing from this; it shows how delegation can remove the holder's means of learning.
+- **The first signal was the injury.** The record of the defect begins with the claimant's fall and his incident form (para 9). Nothing in the judgment speaks to reports from users before the accident.
+- **Small claim, short judgment.** Agreed damages were £2,545 (para 2); Rix LJ notes that "authority on the workings of section 5 barely exists" (para 16). The reasoning on s. 5 is brief.
+- **Later treatment not checked.** The Consumer Rights Act 2015 postdates the case; how its s. 49 term relates to s. 5 of the 1957 Act is not addressed in any text I read (see uk2015consumer).
+
+## Where it bears on the argument
+
+**K8 (holder under delegation): refutes the contract limb as worded, for premises dangers.** K8 says the rule for independent contractors is "without that defence where the duty is non-delegable or contractual", and that "the party that promised the stay answers for its performance by others". *Maguire* holds that a contract of entry carries, by implication, only the common duty of care, so that the occupier does not warrant the care of a contractor it reasonably uses (para 24). A paying customer lost in contract for that reason (paras 15, 24, 31). K8 has to separate the service promised, where the general rule of contract applies (para 24, last sentence), from the safety of the premises, where s. 5 applies.
+
+**K8, the general contract rule: supports in a dictum.** In "contract generally", a party "is bound by his warranty according to its terms however he seeks to perform his contract, and whether he performs it by himself, by his servant or agent, or by an independent contractor" (para 24).
+
+**K7, premise P3: limits.** An occupier that has engaged a competent contractor to inspect and maintain need not take "special measures in controlling or supervising" the contractor unless something gives it reason to (para 30). That is discharge by choosing a competent delegate. Jacob LJ's remark marks the floor: an occupier that has taken "no steps" may be liable (para 35).
+
+**What the paper may say on this authority.**
+- The Court of Appeal held that under s. 5 of the Occupiers' Liability Act 1957 the term implied into a contract conferring a right to enter and use premises is the common duty of care, so that the occupier's warranty "is not a warranty that his independent contractor ... will himself take care" (para 24).
+- A paying member of a leisure centre, injured by a machine the operator's maintenance contractor had inspected deficiently, failed against the operator in contract and under the Act (paras 15, 26-27, 31).
+- Rix LJ contrasted this with "the position in contract generally", where a party is bound by its warranty whether it performs "by himself, by his servant or agent, or by an independent contractor" (para 24).
+- As Rix LJ records it, McCardie J in 1917 stated an innkeeper's implied warranty in stricter terms, and s. 5 was meant to remove such distinctions (paras 21, 24).
+- The operator did not have to control or supervise a competent contractor's inspection in the absence of any reason to doubt it (para 30).
+
+**What it may not say.**
+- That a paying guest's contract makes the host answerable for a contractor's carelessness about the premises. *Maguire* holds the contrary for the implied term (para 24).
+- That the case decides anything about services other than safe premises, about express terms, or about "activity duties" (paras 18, 24).
+- That an occupier need do nothing. The council had engaged a competent contractor; "no steps" is a different case (para 35).
+- That the case considered a non-delegable duty or the Consumer Rights Act 2015. It did neither.
+
+Card written by a Claude (Fable 5.2) subagent, reader R5a, from the saved National Archives text read in full, 11 Nov 2026, run rr-2026-11-k.

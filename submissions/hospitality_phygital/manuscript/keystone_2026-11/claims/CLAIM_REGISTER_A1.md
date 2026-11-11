@@ -164,3 +164,210 @@
 | S-007.3 | Each places the party who decides at a distance from the guest it affects | Own inference | As A-2.1 | As A-2.1 | — | invalid | material | As A-2.1. |
 
 - **S-007.3.** Premises, counter-model, terms and quantifier as under A-2.1. K claim: K9.
+
+### S-008 · Introduction ¶2
+> Hospitality scholars have long resisted a definition of hospitality as the provision of food, drink and a bed, and the founding editors of this journal set out to study it as a lens on social relations and power (Lynch et al. 2011).
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-008.1 | Hospitality scholars have long resisted a definition of hospitality as the provision of food, drink and a bed | Paraphrase | Lynch et al. 2011, H&S 1(1): 3–24, accepted-manuscript copy without journal pages (`corpus/lynch2011/plain.txt`), Introduction ¶3 | 'the definition that tends to dominate public and academic discourse on the topic is one based on organizational practices and the provision of food, drink and accommodation. Such a definition, whilst useful, is limited as it fails to address the essence of hospitality'. | 3 ('long' and the generic 'hospitality scholars' are not in the source); 4 (the editors criticize the definition in 2011; they report that it dominates academic discourse and call it 'useful') | partial | minor | 'The founding editors of this journal judged the dominant definition, the provision of food, drink and accommodation, too narrow'. This passage narrows K1: the editors themselves report that the field's prevailing definition names no duty. |
+| S-008.2 | The founding editors set out to study hospitality as a lens on social relations and power | Paraphrase | Lynch et al. 2011, same copy, 'An agenda for hospitality studies' ¶1–2 | 'Hospitality is, as Lashley, Lynch and Morrison (2007) suggest, a social lens. … we see hospitality as both a condition and an effect of social relations, spatial configurations and power structures.' | — | supported | — | Add the page from the printed article if a locator is wanted; the saved copy has none. |
+
+### S-009 · Introduction ¶2
+> On that view the host owes the guest more than a service, and Shryock's good host is one able to 'protect guests from harm' (2012: S20).
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-009.1 | On the editors' view the host owes the guest more than a service | Own inference presented as the source's view | Lynch et al. 2011, same copy, Introduction ¶2 | 'In these traditions, hospitality entailed a sacred obligation not just to accommodate the guest, but to protect the stranger who arrived at the door.' ('These traditions' are the 'Greek and Roman or Enlightenment antecedents' of historical accounts, cited to O'Gorman 2007 and Still 2006.) | 4 (the editors report what historians say of ancient traditions; their own 'lens' states no duty of hosts); 5 (a sacred duty to the stranger at the door becomes what 'the host owes the guest', commercial hosts included) | partial | material | 'The editors recall that in the Greek, Roman and Enlightenment traditions hospitality was a sacred obligation to protect the stranger'. v6 already says this accurately at S-031; the Introduction should not say more. |
+| S-009.2 | Shryock's good host is one able to 'protect guests from harm' | Quotation | Shryock 2012, JRAI 18(S1), publisher-typeset copy, p. S20; cf. p. S31 (`shryock2012breaking/plain.txt`) | S20: 'The man who is karim (hospitable, generous, noble) is able to feed others, project an honourable and enviable reputation, and protect guests from harm. Hospitality, as Bedouin describe it, is a quality of persons and households, of tribal and ethnic groups'. | 2 (Balga Bedouin, Jordan; the sentence names no setting); 4 ('as Bedouin describe it'); 5 and 9 (an ability that tests sovereignty is joined to 'owes'; the source says the Balga 'would never confuse karam with the hospitality offered to tourists', S31) | partial | material | Words and page are exact. Add the setting ('among the Balga Bedouin of Jordan') and keep 'is able to' apart from 'owes'. Shryock is a defeater as much as a support: at S31 he calls host–guest relations in commerce 'depersonalized, formulaic, monetized'. |
+
+- **S-009.1 as inference.** P1 (sourced): the editors study hospitality as a lens on social relations and power. P2 (sourced, reported speech): historians describe an ancient sacred obligation to protect the stranger. C: on the editors' view the host owes the guest more than a service. C does not follow from P1; from P2 it follows only for the traditions named. Customary register. K claim: K1, in its weakest form (a source 'that describe[s] an ideal and do[es] not claim that hosts are bound').
+
+### S-010 · Introduction ¶2
+> This journal has studied platforms since its first volume: Bialski (2012: 257) found that a hospitality network's profiles gave hosts 'the power to choose one member over the other', Germann Molz (2018: 244) described Airbnb using its status as a platform to evade legal responsibility, and later work describes guests without hosts and an algorithmic hostility towards food-delivery workers (Germann Molz 2026; Riordan 2024).
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-010.1 | This journal has studied platforms since its first volume | Paraphrase | Bialski, H&S 1(3): 245–260 (Crossref 10.1386/hosp.1.3.245_1, issued 16 Feb 2012; typeset proof, `corpus/bialski2012/body.txt`) | Header: 'Hospitality & Society Volume 1 Number 3'. Abstract: 'New technologies in use today like CouchSurfing.com are allowing people to create…'. | — | supported | — | The platform is a non-commercial network; the sentence says 'hospitality network', which is right. |
+| S-010.2 | Bialski found that a hospitality network's profiles gave hosts 'the power to choose one member over the other' | Quotation | Bialski 2012: 257 | 'The online profile offers hosts the power to choose one member over the other – and the host chooses the visitor (and vice versa) based on the perceived ease of interaction.' | — | supported | — | None. Bialski calls this a 'fantasy of control' on the same page; the sentence does not need it. |
+| S-010.3 | Germann Molz described Airbnb using its status as a platform to evade legal responsibility | Paraphrase (close to quotation) | Germann Molz 2018, H&S 8(3), version of record, p. 244 (`corpus/germannmolz2018/plain.txt`) | 'The Community Commitment to anti-discrimination was a preemptive move that brings into stark relief the lengths to which Airbnb goes to use its status as a digital platform to evade legal responsibility.' | — | supported | — | None. The responsibility in question is under anti-discrimination and tax law. |
+| S-010.4 | Later work in the journal describes guests without hosts | Paraphrase | Germann Molz 2026, H&S 16(1): 63–82, Crossref abstract only. Closed. | 'This article uses the concept of guests without hosts to explore digital biopolitics in hospitality … Originally conceived to describe the blurring of hosting and guesting practices in network hospitality'. | — | supported (abstract only) | minor | The abstract reads the phrase two ways, as 'an inhospitable form of institutional and algorithmic governance' and as 'a potential model of collaborative sociality'. Nothing beyond the abstract may be said. The full text is the nearest neighbour in the target journal and could defeat S-011c.3, S-023 and A-6; see closing list 3. |
+| S-010.5 | Later work describes an algorithmic hostility towards food-delivery workers | Paraphrase | Riordan 2024, H&S 14(3): 277–299, Crossref abstract only. Closed. | 'this article introduces the concept of algorithmic hostility to demonstrate how platforms, restaurant staff, customers and others utilize digital technologies and existing social divisions to exploit contingent workers'. | — | supported (abstract only) | minor | None beyond obtaining the text. |
+
+### S-011 · Introduction ¶2 (three sentences in v6)
+> (a) Phygital operation may now be the normal condition of services (Brochado et al. 2026). (b) The literature on it presents such systems as means to a smoother and more personal experience (Batat 2024) and describes them by what they do, as social presences, mediators, facilitators and co-creators (van Doorn et al. 2017; Li et al. 2021; Xing and Zhang 2026). (c) Where it turns to governance, it calls for human-first design and contestable rules (Batat 2026; Shabnam et al. 2026), without saying to whom these safeguards are owed or which of the firms behind a system owes them.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-011a.1 | Phygital operation may now be the normal condition of services | Paraphrase | Brochado et al. 2026, J. Services Marketing (online first, pp. 1–20), Crossref abstract only. Closed. | 'This study aims to explore how recent research has reflected the evolving role of phygital strategies in services marketing … The review covered 105 papers from the Scopus database'. | — | unverifiable | minor | The title asks 'Is phygital the new normal?'; the abstract does not answer it and reviews research, not operations. The full text would settle it. Until then cite the title's question as a question, or drop the sentence. |
+| S-011b.1 | The phygital literature presents such systems as means to a smoother and more personal experience | Paraphrase | Batat 2024, J. Strategic Marketing 32(8), version of record, pp. 1220, 1223, 1230 (`batat2024phcx/user_pdf/fulltext.txt`) | p. 1220: 'This is done by fluidifying the journeys of customers from online to offline and inversely, along with capturing consumers' values and responding to their tangible needs … and their intangible needs (e.g., their emotional needs).' | 5 (Batat's subject is the phygital strategy and its connectors, not software that decides about a guest); 3 ('more personal': 'personalized services' appears on p. 1223 as a benefit others claim for multichannel strategies) | partial | minor | 'presents the phygital journey as one to be made fluid (Batat 2024: 1220, 1230)'. |
+| S-011b.2 | It describes them as social presences | Paraphrase | van Doorn et al. 2017, J. Service Research 20(1), published PDF, p. 43 (`vandoorn2017domo/text.txt`) | 'it introduces the novel concept of automated social presence (ASP; i.e., the extent to which technology makes customers feel the presence of another social entity) to the services literature.' | 5 (service research of 2016–17; the word 'phygital' does not occur in the article) | partial | minor | Write 'service research' for this source, not 'the literature on [phygital operation]'. |
+| S-011b.3 | … as mediators and facilitators | Paraphrase | Li et al. 2021, IJHM 95, 102930, abstract only (Semantic Scholar; Crossref carries none). Closed. | 'the study identified 4 modes of AI technology-based service encounters: AI-supplemented, AI-generated, AI-mediated, and AI-facilitated encounters.' | — | supported (abstract only) | minor | The abstract names kinds of encounter, not kinds of system; 'mediators, facilitators' is a fair noun for them. Same scope note as S-011b.2. |
+| S-011b.4 | … and as co-creators | Paraphrase | Xing and Zhang 2026, IJCHM 38(4): 1433–1452, title and Crossref abstract only. Closed. | Title: 'The algorithmic guest: AI as a co-creator in customer experience management'. The abstract does not use the word. | — | supported (abstract only) | minor | The support is the title alone. Read the article or drop the citation. |
+| S-011c.1 | Where the literature turns to governance it calls for human-first design | Paraphrase | Batat 2026, J. Services Marketing 40(4): 505–518, Crossref abstract only. Closed. | 'proposes a human-first logic grounded in "phygital phenomenology" by integrating technology without compromising experiential authenticity.' | — | supported (abstract only) | minor | None beyond obtaining the text. |
+| S-011c.2 | … and for contestable rules | Paraphrase | Shabnam et al. 2026, J. Services Marketing, published-online version, PDF p. 14, §7.2 (`shabnam2026tpsr/user_pdf/fulltext.pdf`) | 'Secondly, algorithmic governance must remain contestable. Digitally enforced rules should incorporate escalation pathways and human oversight to prevent rigid exclusion.' | — | supported | — | None. |
+| S-011c.3 | The literature does not say to whom these safeguards are owed or which of the firms behind a system owes them | Gap claim | Tested on Shabnam et al. 2026 (full text), Batat 2026 (abstract), the library, and the queries in closing list 4. Defeater texts read: Sharma and Mattila 2026, JHTR 50(6): 911, 915; Gursoy 2026, JHMM 35(2): 155–156, 160 (both saved, neither cited in v6). | Sharma and Mattila p. 911: 'who should be blamed? The restaurant company, the robotic manufacturer who provided the robot, or the algorithm creators who made it? Or was the manager on duty responsible…?' Gursoy p. 160: 'Algorithmic governance shifts authority from interpersonal judgment to computational logics, raising questions about accountability when harm, bias, or exclusion arise'. | — | partial | material | The gap survives only in a narrow form. Rewrite as: 'I found no work that states a duty owed to the guest or allocates it among the firms behind a system [databases, queries, date]', and engage the two papers that pose the question. Detail below. |
+
+- **S-011c.3, what the texts say.** Shabnam et al. address 'managers' and 'organisations' ('organisations should prioritise transparent artefact design', PDF p. 14) and policymakers, and name the beneficiary ('advancing consumer well-being'). They state no duty owed to the customer and do not divide the task among several firms. So 'without saying to whom … or which of the firms' is true of duty and of allocation, and misleading if read as 'the literature names neither an actor nor a beneficiary'.
+- **Limits of the evidence.** One of the two governance sources was read only in abstract, so its silence is unknown. 'The phygital literature' in (b) is built from service-robot and AI-encounter papers; on that same wide reading, hospitality papers on AI belong to it, and two of them ask the 'which party' question in terms of blame and liability (Sharma and Mattila 2026: 911, 915) or say that AI 'shifts responsibility' and 'authority' (Gursoy 2026: 155–156, 160). Neither answers it, and neither grounds it in what a host owes. That is the gap the paper can claim.
+- **Unread leads that could close the gap further** (records fetched, texts not read): Wirtz, Kunz, Hartley and Tarbit 2022, 'Corporate digital responsibility in service firms and their ecosystems', J. Service Research 26(2): 173–190; Kunz and Wirtz 2026, 'Corporate digital responsibility in tourism and hospitality', in *The Ethics of AI in Hospitality and Tourism*, pp. 57–71; Gustafsson 2026, 'Unmanned, not unmanaged', J. Services Marketing. See closing list 5.
+
+### S-012 · Introduction ¶2
+> Algorithmic-accountability research looks for answerability among those who design or deploy a system and ties it to harm (Nissenbaum 1996; Kong 2026: 5), and hospitality research measures hospitableness as a motive of individual hosts (Lashley 2015: 1), so the host's obligation is sought either in an injury or in a person's motive.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-012.1 | Algorithmic-accountability research looks for answerability among those who design or deploy a system | Paraphrase | Nissenbaum 1996, author's preprint (18 pp., not journal pages), pdf p. 11 (`nissenbaum1996accountability/author_preprint.txt`); Kong 2026, AI and Ethics 6:518, version of record, p. 5 (`kong2026delegation/user_pdf/fulltext.pdf`) | Nissenbaum: 'working out new lines of accountability may point to designers of the system, the human experts who served as sources, or the organization that chooses to put the system to use.' Kong p. 5: answerability 'is relocated to the prior act of delegation: the choice of objective, the choice of constraints, and the choice to release the process'. | — | supported | — | None. Kong's locator is right. Nissenbaum has no page in v6; a journal page (25–42) would need the printed article. |
+| S-012.2 | … and ties it to harm | Paraphrase used as a characterization of a field | Nissenbaum pdf p. 2; Kong pp. 3, 5. Against: Lyons, Velloso and Miller 2021 (in v6's reference list), arXiv copy p. 3, §2.1 (`lyons2021conceptualising/arxiv.txt`). | Nissenbaum: accountability 'specifically for the harms and risks of faulty and malfunctioning systems'. Kong p. 5: 'A gap is genuine only when the harmful disposition the agent expressed was not a foreseeable property of the deployment specification'. Lyons et al.: the ability to contest 'is an important way to uphold human dignity and autonomy'. | 3 and 5 (true of the two works cited; widened to 'algorithmic-accountability research') | partial | material | 'Nissenbaum (1996) and Kong (2026: 5) tie answerability to harmful outcomes'. Work the paper itself cites grounds contestation in dignity and autonomy (Lyons et al.), and GDPR art. 22, as v6 itself paraphrases it, turns on legal or similarly significant effects, not harm (I did not re-read the Regulation for this row). Kong also grounds answerability in a role taken up (p. 3: 'provided one occupied a role, undertook a task, or created a risk'), which is close to the paper's own move and should be credited. |
+| S-012.3 | Hospitality research measures hospitableness as a motive of individual hosts | Paraphrase used as a characterization of a field | Lashley 2015, RHM 5(1), published PDF, p. 1 (`lashley2015hospitality/paged.txt`). Against: Pijls et al. 2017, IJHM 67: 125–126; Tasci, Aktas and Acikgoz 2021, THM 27(2): 341 (open copy saved this session, `tasci2021cultural/`). | Lashley p. 1: 'a research instrument that can be used to identify those individuals who are driven by a personal desire to be hospitable to others.' Tasci et al. p. 341: 'most studies measured hospitableness and hospitality at the firm level'. Pijls et al. p. 126: a scale that 'includes the experience of hospitality offered by the organization as a whole'. | 3 (one instrument stands for 'hospitality research'; other scales measure providers' behaviour as guests perceive it, or the organization's hospitality) | partial | minor | 'Lashley's instrument measures hospitableness as a motive of individuals (2015: 1)'. Locator correct. |
+| S-012.4 | So the host's obligation is sought either in an injury or in a person's motive | Own inference | Lashley 2015: 3, 4 | p. 4: 'the duty to provide hospitality, to act with generosity as a host, and to protect visitors is more than a matter left to the preferences of individuals.' p. 3: 'Offering guests hospitality has been, in all human settings, a moral obligation until the advent of mass travel and commercialism.' | — | equivocal | material | Rebuild on K2's wording: the hospitality literature states the host's duty and has not said who holds it when the host is an organization. Detail below. |
+
+- **Premises (S-012.4).** P1 (sourced, S-012.2): two accountability writers tie answerability to harmful outcomes. P2 (sourced, S-012.3): one hospitality instrument measures hospitableness as an individual's motive. C: the host's obligation is sought either in an injury or in a person's motive.
+- **Counter-model.** Both premises are true and the paper's own next paragraph refutes C: hospitality studies has an 'account of what a host owes' (S-013), which v6 finds in custom and law, not in injury or motive. Lashley himself puts the obligation in moral and religious systems (pp. 3–4) and says it held 'until the advent of mass travel and commercialism' (p. 3).
+- **Terms.** 'Answerability' (P1) and 'hospitableness' (P2) both become 'the host's obligation' in C. Accountability research does not seek a host's obligation at all; hospitableness research measures a disposition and says so. Kong keeps answerability apart from owing: his position 'is consistent with a deployer's turning out … to owe nothing at all' (p. 3).
+- **Quantifiers.** 'Either … or' is exhaustive; two literatures, each reduced to one or two works, cannot exhaust where an obligation 'is sought'.
+- **Overgeneration / undergeneration.** Not a duty claim; not applicable.
+- **K claim.** K2. Lashley pp. 3–4 also narrows K1: he confines the strong obligation to pre-commercial settings.
+
+### S-013 · Introduction ¶3
+> This article seeks to keep hospitality studies' account of what a host owes, and to say where that obligation goes when the work of hosting is delegated to algorithmic systems spread across several firms.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-013.1 | The article's aim: keep the account of what a host owes and say where the obligation goes under delegation | Signpost | — | — | — | — | — | Two presuppositions carry over from rows above: that hospitality studies has one account of what a host owes that covers commercial hosts (S-008.1, S-009.1, S-009.2, S-012.4), and that the work is delegated to systems 'spread across several firms' (S-005.1). |
+
+### S-014 · Introduction ¶3
+> Read as a role, the obligation has a content, a moment at which it comes into force and a holder, and the law of innkeepers supplies all three.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-014.1 | A role obligation has a content, a moment at which it comes into force and a holder | Definition | — | — | — | valid | — | Used in this sense in A-3 and S-015. It matches K3 ('content … trigger … holder'). |
+| S-014.2 | The law of innkeepers supplies all three | Own inference | Premises rest on rows in batch A2. Primary texts I checked: Hotel Proprietors Act 1956 s 1(1), (3); Calye's Case (1777 ed. of Coke, Part VIII; v6 cites fol. 33b, which I did not re-check against the folio marks) | HPA s 1(1): the innkeeper's duties 'shall … attach to the proprietor of such an hotel and shall not attach to any other person'. Calye: 'if the guest be beaten in the inn, the innkeeper shall not answer for it'. | — | equivocal | material | Say which obligation the law supplies: a duty to receive and a strict duty for goods, for inns and statutory hotels, in English law. Protection of the guest's person needs another source (K4's reception tier). |
+
+- **Premises (S-014.2).** P1 (sourced, batch A2): innkeeper law names duties to receive and to keep the guest's goods. P2 (sourced): the 1956 Act makes an hotel one 'held out by the proprietor' to 'any traveller presenting himself' (s 1(3)). P3 (sourced): it attaches the duties to 'the proprietor' and no other person (s 1(1)). P4 (assumption): the obligation so described is 'that obligation' of S-013, the one hospitality studies describes. C: the law of innkeepers supplies the content, the moment and the holder of the host's obligation.
+- **Counter-model.** P1 to P3 hold and C fails on content: S-009 names protection from harm as what the host owes, and Calye's Case excludes the guest's person from the innkeeper's strict duty. C fails on holder for v6's own purposes: s 1(1) excludes every person but the proprietor, while v6 goes on to name operators and brands as holders.
+- **Terms.** 'The obligation' is customary in S-013 and legal in S-014. 'The law of innkeepers' is English common law and one statute, with United States common law reported at second hand.
+- **Quantifiers.** 'All three' holds only for an inn or a statutory hotel.
+- **Overgeneration.** The same three items can be read off the law of carriers.
+- **Undergeneration.** No content, moment or holder is supplied for a restaurant, a rental in the host's home or a placed guest.
+- **K claim.** K3 and K4.
+
+### S-015 · Introduction ¶3
+> Because the law attaches the duty to the role, the work of hosting can pass to staff, contractors or systems while the duty, and the answering for it, stay with the holder.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-015.1 | Because the law attaches the duty to the role, work can pass to staff, contractors or systems while the duty and the answering for it stay with the holder | Own inference | As A-4.1: Woodland [2013] UKSC 66 paras 7, 22, 24, 25(3); Occupiers' Liability Act 1957 s 2(4)(b). Later treatment not checked. | OLA s 2(4)(b): 'the occupier is not to be treated without more as answerable for the danger if in all the circumstances he had acted reasonably in entrusting the work to an independent contractor and had taken such steps (if any) as he reasonably ought in order to satisfy himself that the contractor was competent and that the work had been properly done.' | — | invalid | fatal | Replace with K8's statement per duty: the innkeeper's liability for goods stays; the holder answers for employees; for contractors the rule varies; the party that promised the stay answers for its performance. Say that no authority yet covers systems. |
+
+- **Premises.** P1 (earlier inference, S-014.2): the law attaches the duty to the role. P2 (sourced): where a duty is non-delegable the work may be delegated and the duty stays (Woodland para 7). P3 (assumption): a duty that the law attaches to a role is non-delegable, whoever the delegate. C: the work can pass to staff, contractors or systems while the duty, and the answering for it, stay with the holder.
+- **Counter-model.** P1 and P2 are true. A hotel entrusts lift maintenance to a competent contractor, checks the work, and a guest is hurt. Under s 2(4)(b) the hotel is 'not … answerable'. The duty attached to a status (occupier) and did not stay. P3 is false, so 'because' fails: attaching a duty to a role does not make it non-delegable. Woodland says the same in general terms: 'as a general rule he is not liable for the contractor's negligence' (para 24), and a party whose duty is 'only to arrange for its performance' is not liable (para 25(3)).
+- **Where C does hold.** For staff (v6's Calye passage: 'a default in him or his servants'); for the innkeeper's goods liability; for the contract with a paying guest (Woodland para 7 on the contracting party).
+- **Terms.** 'The answering for it' means liability here, accountability to a forum in section 3, and Kong's answerability in S-012. The statute's own word for liability is 'answerable', and it withholds it in the contractor case. For 'systems' v6 cites no authority; S-025 sets aside whether a machine can bear a host's duties, yet this sentence needs the answer 'no', and Kropf et al. (S-025.2) hold that a robot can bear role responsibility.
+- **Quantifiers.** One rule for three kinds of delegate; the law has three rules.
+- **Overgeneration.** Yes: any firm whose duties attach to a status. Woodland warns against 'the exception … eating up the rule' (para 22).
+- **Undergeneration.** A placed guest has no contract; a restaurant has no innkeeper's liability.
+- **K claim.** K8 (and K3). The sentence states as a universal what K8 states per duty.
+
+### S-016 · Introduction ¶3
+> The guest's standing therefore survives delegation.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-016.1 | The guest's standing survives delegation | Own inference | Rests on S-015.1 and the definition in section 3 ¶6 | — | — | valid with added premise | minor | Added premises: the stipulated sense of 'standing held' (not yet given), and that each duty which stays is owed to the guest (K5). It inherits S-015.1's fault: where the duty does not stay, neither does the standing. |
+
+- **Premises.** P1 (earlier inference, S-015.1): the duty stays with the holder. P2 (stipulation, section 3): standing held is 'the guest's position as the one to whom the host's directed duties are owed'. P3 (assumption): the duties that stay are directed to the guest. C: the guest's standing survives delegation.
+- **Counter-model.** A duty that stays and is public, enforced by the state and not by the traveller (the case K5 lists as its defeater; I did not read that source). P1 is true and the guest holds nothing.
+- **Terms.** 'Standing' in ordinary and legal use is a power to bring a claim; here it is a position. A reader of the Introduction has only the ordinary sense.
+- **K claim.** K5 and K6.
+
+### S-017 · Introduction ¶3
+> What can fail is its exercise, and from that distinction we derive a test, scoped by the type of decision, of whether a touchpoint keeps the conditions under which a guest can press a claim.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-017.1 | What can fail is the exercise of standing | Own inference | Rests on S-016.1 and the definition of 'standing exercised' | — | — | valid with added premise | minor | Added premise: the definition of exercise (pressing the claim 'on a party able to receive it'), not yet given. |
+| S-017.2 | The test is derived from the distinction between holding and exercising standing | Own inference | v6 'Three conditions and six questions' ¶1 | v6: 'Its conditions take their names from the study of coordination … Their content here comes from the host's duties'. | — | valid with added premise | minor | Added premises: three conditions from Okhuysen and Bechky, the sixth question from Hirschman, the scoping from Baum and Laux. 'Build' is truer than 'derive'. |
+| S-017.3 | The test is scoped by the type of decision and asks whether a touchpoint keeps the conditions for pressing a claim | Signpost | — | — | — | — | — | None. |
+
+- **K claim (S-017.1, S-017.2).** K7, second route; K9.
+
+### S-018 · Introduction ¶3
+> We argue that algorithmic mediation rarely removes the host's obligation; what it removes is the path from the guest to anyone with the authority to answer for it.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-018.1 | Mediation rarely removes the obligation; what it removes is the guest's path to authority | Own inference | As A-6.1 and A-6.2. v6 section 4, 'The authority–answerability split' ¶3 | v6: 'the path from the guest to graded authority, which an algorithmic system can lengthen, obscure or remove'. | — | invalid | material | The body says 'can … remove'; the thesis says 'removes'. Use the body's modal. Premises and tests as under A-6. |
+| S-018.2 | The party sought has 'the authority to answer for' the obligation | Definition in use | As A-6.3 | — | — | equivocal | minor | As A-6.3. |
+
+- **K claim.** K9, with K7.
+
+### S-019 · Introduction ¶4
+> The article begins by setting out the host's power and obligation as hospitality studies describes them, and argues that the obligation belongs to a role.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-019.1 | Roadmap: first section | Signpost | — | — | — | — | — | None. |
+
+### S-020 · Introduction ¶4
+> The second section follows the obligation when its holder hands on the work, and defines the guest's standing from it.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-020.1 | Roadmap: second section | Signpost | — | — | — | — | — | None. |
+
+### S-021 · Introduction ¶4
+> The third section examines touchpoints in hotels, short-term rentals and restaurants, each of which hands part of a host's work to a system with several firms behind it.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-021.1 | Roadmap: third section | Signpost | — | — | — | — | — | None. |
+| S-021.2 | Hotels, short-term rentals and restaurants each hand part of a host's work to a system with several firms behind it | Empirical generalization (uncited; rests on the cases of section 4) | Garcia WP p. 2; Bosma 2022: 605; v6 section 4 on the restaurant case | Garcia p. 2: 'an independent revenue management company (the algorithm's designer)'. v6 on the projected chef: it 'decides nothing about the guest', and 'staff go on hosting'. | 3 ('each … several firms': the pricing case shows one supplier, and the restaurant case shows no handed-over work and names no firm) | partial | minor | 'each of which can hand part of a host's work to a system, often one that other firms supply'. |
+
+### S-022 · Introduction ¶4
+> We close with the paper's limits, three studies it calls for, and what it asks of organizations.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-022.1 | Roadmap: the close | Signpost | — | — | — | — | — | None. (The roadmap for organizations sits in section 4, not in the Conclusion.) |
+
+### S-023 · Introduction ¶4
+> We suggest that, by looking for the obligation in the host's motive, the debate about commercial hospitality has had no way to say where it goes once no person does the hosting.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-023.1 | The debate about commercial hospitality looks for the obligation in the host's motive | Paraphrase used as a characterization of a field | Lashley 2015: 1, 3, 4 (the debate's main voice in v6). Telfer, on whom the debate rests, is closed and unread. | p. 4: 'the duty to provide hospitality, to act with generosity as a host, and to protect visitors is more than a matter left to the preferences of individuals. Beliefs about hospitality and obligations to others are located in views and visions about the nature of society'. | 5 (the debate looks for hospitableness, the genuineness of the welcome, in motive; Lashley places the obligation in moral and religious systems) | partial | material | 'by asking whether a paid welcome can be genuine, the debate has tied hospitableness to a person's motive'. Then make K2's claim: the literature states the duty and names no holder for a host that is an organization. |
+| S-023.2 | The debate has had no way to say where the obligation goes once no person does the hosting | Gap claim | Library and queries in closing list 4. Texts read: Liu et al. 2026, IJHM 135, 104640, p. 9 (cited in v6); Sharma and Mattila 2026: 915 and Gursoy 2026: 155–156 (not cited in v6); Kropf et al. 2026: abstract, p. 7. | Liu et al. p. 9: 'robotic hospitableness is relationally experienced by guests rather than internally possessed by the machine.' Sharma and Mattila p. 915: 'What are the rights and responsibilities of a human employee, and how should the firm (owners and management) translate those into the service robot context?' | — | partial | material | Hospitality research has begun to say where hospitableness and responsibility go when a machine hosts: to the guest's experience (Liu et al.), to the firm as a matter of liability and governance (Sharma and Mattila), to 'hospitality firms' (Gursoy). None grounds this in what a host owes or picks a holder among several firms. Claim that, in the form 'I found no work that…', and cite the three. |
+
+- **S-023 as inference.** P1 (S-023.1): the debate looks for the obligation in the host's motive. P2 (v6 section 2 ¶4): a motive belongs to a person and cannot be handed on. C: the debate cannot say where the obligation goes once no person hosts. P1 swaps 'obligation' for 'hospitableness'; with the right term the conclusion is that the debate cannot say where *hospitableness* goes, and Liu et al. (2026) say exactly that. The hedge 'We suggest' is kept.
+- **K claim.** K2. Its listed defeater is a hospitableness scholar who assigns the host's duty to an organization; I found none who does so as a duty to the guest, and the nearest are named in the row.
+
+### S-024 · Introduction ¶4
+> The role account brings into view the parties, such as operators, brands and vendors, that now do much of that work.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-024.1 | The role account brings into view the operators, brands and vendors that now do much of the hosting | Own inference | — | — | — | valid with added premise | minor | Added premise (empirical, uncited here): operators, brands and vendors now do much of the work of hosting. Note that on v6's own proposal a vendor 'answers to the host' and holds no role towards the guest; the account brings vendors into view as performers, not as holders. |
+
+- **K claim.** K8.
+
+### S-025 · Introduction ¶4
+> Whether a machine could itself bear a host's duties we set aside: a robot can occupy a role without being a moral agent (Kropf et al. 2026: 7), and our concern is the parties who deploy such systems and the guests who meet them.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-025.1 | The paper sets aside whether a machine could itself bear a host's duties | Stipulation (scope) | — | — | Not one of the nine: the stipulation is not kept | partial | minor | S-015 ('the duty … stay[s] with the holder' when work passes to systems) needs the answer 'no'. Either keep the question open in S-015 or say here that the paper assumes the machine holds no duty. |
+| S-025.2 | A robot can occupy a role without being a moral agent | Paraphrase | Kropf, Spöck and Werner 2026, Int. J. Social Robotics 18:30, version of record, p. 7 (`kropf2026blame/user_pdf/fulltext.pdf`) | 'Robots are not moral agents, but social actors who, due to their role, are subject to evaluation and certain reactions from interacting humans.' | — | supported | — | Locator correct. The source is about AI-based care robots and goes further than the sentence: such robots 'can still hold role responsibility based on their social function in caregiving contexts' (abstract, p. 1). That cuts against S-015; see there. |
+| S-025.3 | The paper's concern is the deploying parties and the guests | Signpost | — | — | — | — | — | None. |
+
+### S-026 · Introduction ¶4
+> The study of phygital hospitality has to ask who answers to the guest, and what an organization must keep for its guests to remain guests.
+
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
+|---|---|---|---|---|---|---|---|---|
+| S-026.1 | The field must ask who answers to the guest, and what an organization must keep for its guests to remain guests | Own inference (normative) | v6 section 4, 'Three conditions and six questions' ¶1 | v6: 'a guest who understands a system and can predict it has still been hosted by no one if no party is obliged to answer'. | — | equivocal | minor | 'Guest' has two senses. In S-016 a guest is whoever is owed the host's duties, and stays one under delegation. Here a guest stops being one if the organization fails to keep something. Write 'for its guests to be able to press what they are owed'. |
+
+- **Premises.** P1 (earlier inference, S-016.1): the guest's standing survives delegation. P2 (earlier inference, S-018.1): what can be lost is the path to authority. C: the field has to ask who answers to the guest, and what an organization must keep for its guests to remain guests.
+- **Counter-model.** By P1 a guest with no path to authority is still a guest. So nothing the organization keeps or drops decides whether 'its guests … remain guests', unless 'guest' changes sense.
+- **Terms.** 'Answers to' is accountability to a forum (section 3); S-015's 'answering for' is liability. 'Guest' as above.
+- **Overgeneration.** A bank's customers could be said to 'remain customers' on the same terms; v6 concedes the mechanism is general.
+- **K claim.** K7 and K9.
