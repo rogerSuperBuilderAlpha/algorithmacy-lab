@@ -485,7 +485,8 @@ Three tiers. A work enters a model cell only at full-text or partial depth with 
 | `may2003using` | May, Dean & Barnard 2003 | partial | read §§3–5, the account itself |
 
 **Tier 2 — neighbours a reviewer will raise.** Govind Reddy 2026; Kurian 2025; Takayama et al. 2011;
-Ribeiro & Paiva 2012; Schulz et al. 2018; Lewis et al. 2026; Thomas & Calder 2001; Baecker & Small 1990.
+Ribeiro & Paiva 2012; Schulz et al. 2019 (the run-1 triage and my first list said 2018; Crossref and
+the article give 2019); Lewis et al. 2026; Thomas & Calder 2001; Baecker & Small 1990.
 
 **Tier 3 — flags carried from run 1.** Silvio 2019 (p. 52) and Silvio 2010; McLaren through Sifianos
 1995 or Furniss 2008; Ananny & Crawford 2018; Chiou et al. 2023; Chen 2026; Kahneman & Klein 2009.
