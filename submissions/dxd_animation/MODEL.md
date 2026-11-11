@@ -202,6 +202,10 @@ The craft column rests on three full-text sources (run 2) and one tested princip
 | Chang & Ungar 1993 (`chang1993animation`) | full | The interface problem as interpretation of change (p. 45); animation "offloading some of the cognitive burden of interpreting the change to the perceptual system" (p. 46); anticipation as a cue (p. 50); effects that work below awareness (pp. 50, 52); §4 on what does not transfer (p. 53); anticipation for "remotely initiated actions" (p. 54) |
 | Thomas & Calder 2001 (`thomas2001applying`) | full | Indirect changes whose before and after look alike (p. 209); the telltale preview of a trial operation, commit or cancel (p. 210); liking without performance gains, N = 17 and N = 13 (pp. 215, 219) |
 | Dragicevic et al. 2011 (`dragicevic2011temporal`) | full | The one animator's principle tested in an interface (slow-in/slow-out); it helped object tracking; animation principles "may not necessarily transfer to interaction design" |
+| Gonzalez 1996 (`gonzalez1996does`) | full | The one test of interface animation against **decision accuracy**: N = 89; gradual transitions — in which only one element changed in each frame — gave more accurate decisions than abrupt ones (F(1,78) = 5.84, p < .05), with no effect on time; transparent tasks with one right answer; dyadic |
+| Schulz et al. 2019 (`schulz2019animation`) | full | Review of 27 HRI studies: key frames "define important (key) points in a movement. Then, the software or other animators interpolate the frames between the key frames" (p. 12:3); timing, staging, solid drawing and appeal tested in none; principles "were not verified scientifically" |
+| Takayama et al. 2011 (`takayama2011expressing`) | full | N = 273 online video experiment: a robot's **forethought** (anticipation) did **not** predict correct readings of what it was doing (F(1,271) = 0.65, n.s.) but made viewers **more sure** (5.69 vs 5.20, F(1,255) = 15.95) and raised appeal |
+| Ribeiro & Paiva 2012; Lewis et al. 2026; Kurian 2025 (cards) | full (Kurian: arXiv submitted version) | Craft carried into robots and child–AI design for life-likeness and persona; Lewis: Disney principles are "inherently limited" for embodied characters, puppetry principles instead, and an observer may read a calibrating robot's motion as "a shrug of apathy"; Kurian: six scaffolds from 52 Disney films, with persona craft offered as a route to "selective anthropomorphism" |
 
 **What is not read.** Thomas and Johnston (1981), Williams (2001), and Whitaker and Halas (1981) are
 book-length craft sources needing a library loan (DECISIONS, "What the browser reached"). The paper
@@ -217,8 +221,23 @@ change "to the perceptual system" (p. 46). Lasseter's anticipation settles "what
 next" while it "may not show why" (p. 38). That is the shape of DXD after Part 1 and the 30 Sep
 ruling: do not teach the person to read the algorithm; build the reading into the interface. Roger's
 "I can tell you everything about the algorithm and you would not be any better off" (`ASSEMBLED…:17`)
-says the same thing about knowledge that Hoerl's argument says about frames [PENDING `hoerl2015seeing`
-re-card: whether he supports "the motion is in no frame"].
+has a perceptual counterpart in Hoerl (2015; `hoerl2015seeing`, full text, Early View pages): at
+slower projection speeds the motion seen at normal speed becomes invisible, which "does nothing to show
+that the appearance of it at normal speed must be illusory" (EV p. 15). Slowing down does show
+something true — that cinematic motion "objectively lacks continuity" (EV p. 15) — but it loses what
+the viewer needed. The paper's analogy, which is mine and not Hoerl's: inspecting a single output of an
+intermediary, as one would a frame, shows something true about it and hides what the decision needs,
+which is a property of the sequence of determinations (who moved, whether the rule moved). Hoerl says
+nothing about interfaces or AI and does not say the viewer is fooled.
+
+**What the robot studies add [DRAFTED].** Takayama, Dooley and Ju (2011) give the model its sharpest
+datum. Their robot's anticipatory "forethought" did not help viewers read what it was doing, yet made
+them surer of their readings and liked the robot more. Craft spent on the character raised confidence
+without raising accuracy — the dissociation of P5, and Kahneman and Klein's warning that confidence is
+not validity. Lewis et al. (2026) supply the other half: a robot that is calibrating may be read as
+shrugging, so a designer who animates a character chooses which of several readings the viewer
+reaches, and may choose a false one. Both bear on idempotent interpretation: craft can make a reading
+stable without making it true.
 
 **Why the craft is also the danger [DRAFTED].** The same craft gives a character a mind ("Without a
 thought process, the actions of a character are just a series of unrelated motions", Lasseter p. 43),
@@ -268,6 +287,13 @@ none; `library/CRITIC.md`, §1–2).
   seeing the one idea that matters — and (b) in the decision interface it does the work of one of
   the three competencies. Techniques whose home job is to give the character life — personality,
   appeal, exaggeration of the persona — fail (b) and stay out of the decision layer.
+  **What is not new [FLAG].** Selecting animation techniques for a purpose, through an account of
+  the receiver, has precedents: Gonzalez (1996) chose animation features by their effect on decision
+  accuracy; Kurian (2025) chose Disney techniques through children's developmental stages; May, Dean
+  and Barnard (2003) argued that film craft transfers only through a psychological account of the
+  viewer. What the model adds is the receiver account itself — the three competencies an opaque,
+  co-optive, triadic intermediary demands — and the placement rule, which runs against Kurian's use of
+  persona craft to manage reliance.
 - **The placement rule.** Craft goes on the decision (its keys, its sources, its changes), not on the
   character (its voice, its apparent thinking, its warmth).
 
@@ -278,10 +304,10 @@ Each proposition can fail. The disconfirming result is given with it.
 | # | Proposition | Disconfirmed if | Evidence now |
 |---|---|---|---|
 | **P1 Selection** | Techniques that pass the selection rule improve decision outcomes through an intermediary more than techniques that fail it, at equal liking. | Techniques chosen by the rule do no better on decision outcomes than a principle list applied wholesale. | Indirect: Dragicevic et al. (one principle, tested; warns against wholesale transfer); Chang and Ungar §4 (argued selection). No test. |
-| **P2 Staged sources** | Staging one determination at a time with the producing seat labelled makes a person's attribution of a result more stable across regenerations and more accurate than an explanation of the model. | Labelled staging yields attributions no more stable or accurate than explanation, or no better than nothing. | Chang and Ungar p. 45 and Thomas and Calder p. 209 state the problem; Part 1's XAI findings (`:100–102`) suggest explanation fails. No test of labelled staging in a triad. |
+| **P2 Staged sources** | Staging one determination at a time with the producing seat labelled makes a person's attribution of a result more stable across regenerations and more accurate than an explanation of the model. | Labelled staging yields attributions no more stable or accurate than explanation, or no better than nothing. | Chang and Ungar p. 45 and Thomas and Calder p. 209 state the problem; Gonzalez 1996 (one change per frame raised decision accuracy, dyadic, transparent tasks); Part 1's XAI findings (`:100–102`) suggest explanation fails; Lewis et al. 2026 (a stable reading can be false). No test of labelled staging in a triad. |
 | **P3 Key poses** | Letting a person set a few binding commitments, with the intermediary's in-between output shown as provisional, raises decision quality and the counterpart's ability to trace results back, compared with free prompting. | Key-pose interfaces do no better than free prompting on either outcome. | Lasseter p. 40 (division of labour); Thomas and Calder p. 210 (telltale; recall effect cited, not read); Dietvorst et al. 2018 via Part 1 `:104` (a narrow channel restored use). No triadic test. |
-| **P4 Anticipated change** | A governance change cued before it lands and landed between decisions is detected more often than a silent or mid-decision change, and the person's confidence tracks the change better. | Cued, between-move changes are detected no better than silent ones; or confidence stays miscalibrated. | Lasseter p. 42; Chang and Ungar p. 54 (proposed); Kahneman and Klein pp. 520–524 (why silent drift defeats intuition); Part 1 `:110` reports chance-level detection of updates (Mohanty et al., not carded here). |
-| **P5 Dissociation** | Craft spent on the character raises liking, attributed competence and reliance without raising decision quality; craft spent on the decision raises decision quality without that rise in reliance. | Character craft raises decision quality, or decision craft raises reliance as much as character craft does. | Thomas and Calder pp. 215, 219 (liked, no performance gain); Bhat 2025 (`bhat2025dynamic`, full: streaming raised perceived persuasiveness and competence, not perceived effectiveness); [PENDING Takayama, Ribeiro & Paiva, Schulz, Kurian, Lewis]. |
+| **P4 Anticipated change** | A governance change cued before it lands and landed between decisions is detected more often than a silent or mid-decision change, and the person's confidence tracks the change better. The cue must announce the change to the rule, not show the character deliberating. | Cued, between-move changes are detected no better than silent ones; or the cue raises confidence without raising detection. | Lasseter p. 42; Chang and Ungar p. 54 (proposed); Kahneman and Klein pp. 520–524 (why silent drift defeats intuition); Takayama et al. 2011 (anticipation in the character raised sureness, not accuracy — the failure P4 must avoid); Part 1 `:110` reports chance-level detection of updates (Mohanty et al., not carded here). |
+| **P5 Dissociation** | Craft spent on the character raises liking, attributed competence and confidence without raising decision quality; craft spent on the decision raises decision quality without that rise in confidence. | Character craft raises decision quality, or decision craft raises confidence as much as character craft does. | Takayama et al. 2011 (forethought: sureness and appeal up, correct readings unchanged); Thomas and Calder pp. 215, 219 (liked, no performance gain); Bhat 2025 (streaming raised perceived competence, trustworthiness and more; "no significant differences" in perceived effectiveness, p. 846); Tan et al. 2026 (longer latency read as more "thoughtful"; behaviour robust to latency). Against: Gonzalez 1996 (accuracy and enjoyment rose together, but her animation was of the decision display, not a character); Kurian 2025 proposes persona craft as a remedy for over-reliance. |
 | **P6 Boundary** | The gains in P2–P4 are larger when the intermediary binds a counterpart than when it advises one person. | The gains are the same with a dyadic advisor. | Part 1 Proposition 2 (`:162`), untested. |
 | **P7 Designers** | Designers given the three competencies choose and place animation techniques that meet P1–P4 more often than designers given the principle list. | No difference. | None. |
 
@@ -327,9 +353,13 @@ gloss the word or avoid it.
 
 ## 5. The method warrant
 
-May, Dean and Barnard (2003; `may2003using`, partial in run 1, full re-read [PENDING]) argue that film
-craft transfers to interface design "economically" only through "an intermediate psychological
-account" (p. 332). The model takes that form: craft → an account of the receiver → design guidance.
+May, Dean and Barnard (2003; `may2003using`, full text in run 2) argue that film craft transfers to
+interface design "economically" only through "an intermediate psychological account" (p. 332). Their
+account is Interacting Cognitive Subsystems; they tested it against one film (*The Mask of Zorro*,
+1,916 cuts, 1,731 analysed, four viewers) and never against an interface, and two of their predictions
+went "clearly in the wrong direction" (p. 363). The model takes their form only: craft → an account of
+the receiver → design guidance. Kurian (2025) is a second precedent for the form, with child
+development as the receiver account.
 Its bridge has two spans.
 1. **Why the craft works on viewers** — Chang and Ungar's offloading to perception (p. 46); Lasseter's
    practitioner account of anticipation and staging (p. 38). These are practitioners' claims, not
