@@ -69,7 +69,7 @@ Where requests do change outcomes in hospitality, they reach someone with author
 
 ## Assembled hosts at the touchpoint
 
-Once the host is understood as assembled and the duty as staying with the role's holder, what comes into view is the path a guest's claim must travel to reach that holder. The most familiar setting is the hotel front desk. Germann Molz (2018: 243–244) has shown the other end of the path, where a company that owns no lodging and employs no hosts appeals to its status as a platform to avoid legal responsibility. To keep with the theme of this special issue, we concentrate on phygital touchpoints in hotels, short-term rentals and restaurants. We follow a claim from the guest to whoever could grant it and ask what an arrangement must keep, using cases that illustrate the distinctions rather than test them.
+Once the host is understood as assembled and the duty as staying with the role's holder, what comes into view is the path a guest's claim must travel to reach that holder. The most familiar setting is the hotel front desk. The path can fail even there. In the Glasgow hotels that housed asylum seekers during the pandemic, Petie et al. (2025) describe hosting divided by outsourcing among agencies whose responsibilities no one had made clear: residents could not tell where to seek help, and the receptionist they often approached first was not equipped for complex problems. Germann Molz (2018: 243–244) has shown the other end of the path, where a company that owns no lodging and employs no hosts appeals to its status as a platform to avoid legal responsibility. To keep with the theme of this special issue, we concentrate on phygital touchpoints in hotels, short-term rentals and restaurants. We follow a claim from the guest to whoever could grant it and ask what an arrangement must keep, using cases that illustrate the distinctions rather than test them.
 
 ### The authority–answerability split
 
@@ -279,6 +279,8 @@ O'Gorman, Kevin D. (2009), 'Origins of the commercial hospitality industry: from
 Okhuysen, Gerardo A. and Bechky, Beth A. (2009), 'Coordination in organizations: An integrative perspective', *Academy of Management Annals*, 3:1, pp. 463–502.
 
 Pedersen, Kirstine Zinck and Pors, Anja Svejgaard (2023), 'Discretionary responses in frontline encounters: Balancing standardization with the ethics of office', *Journal of Public Administration Research and Theory*, 33:1, pp. 80–93.
+
+Petie, Olivia, Phillimore, Jenny and Allsopp, Jennifer (2025), 'Exploring hospitality, hostility and (un)home in hotel accommodation for asylum seekers in the United Kingdom', *Hospitality & Society*, 15:1, pp. 23–44.
 
 Pigac, Tilen, Lee, Ada and Huang, Ava (2026), 'Navigating transparency in AI-powered luxury hospitality: A dynamic guest-centric approach', *Cornell Hospitality Quarterly*, 67:3, pp. 283–297.
 

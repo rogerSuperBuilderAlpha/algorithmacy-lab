@@ -1550,6 +1550,26 @@
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ Plain. **Value** ✅ The obvious setting. **Counterpart** ✅ **Truth** ✅ v5 §4.
 
+### S-150a · answers none · 6w · inserted 11 Nov 2026
+> The path can fail even there.
+
+- **Form** ✅ 6w; a short sentence punctures the run before a long one.
+- **Construction** ✅ 'there' has one antecedent, 'the hotel front desk'; 'The path' takes up S-149's 'the path a guest's claim must travel'.
+- **Register** ✅ *fail*. Plain.
+- **Value** ✅ Turns the familiar setting into the first place the path breaks.
+- **Counterpart** ⚠️ Answers no model entry. Added after a further full read (`journal/notes/petie2025.md`); `DECISIONS.md`, D16.
+- **Truth** ✅ Carried by S-150b.
+
+### S-150b · answers none · 50w · inserted 11 Nov 2026
+> In the Glasgow hotels that housed asylum seekers during the pandemic, Petie et al. (2025) describe hosting divided by outsourcing among agencies whose responsibilities no one had made clear: residents could not tell where to seek help, and the receptionist they often approached first was not equipped for complex problems.
+
+- **Form** ⚠️ 50w, long; the colon delivers two consequences of one finding, and the paragraph rises from 124 to 180 words, inside the venue's band.
+- **Construction** ✅ 'they' refers to 'residents'. Ends on 'complex problems'; S-151 then opens on 'the other end of the path', which the receptionist's end sets up.
+- **Register** ✅ *housed*, *describe*, *divided*, *approached*. Scholars as subject. 'responsibilities' is the source's word; 'answers' is kept for our own claims. Worded away from the source's phrases ('lack of clarity', 'did not know where to turn'), since an accepted manuscript is not quoted.
+- **Value** ✅ The journal's own evidence of an assembled host whose members' responsibilities were unsettled, in a setting with no algorithm, which is the path's failure at its nearest point.
+- **Counterpart** ⚠️ Answers no model entry; as S-150a.
+- **Truth** ✅ Petie et al. 2025, MS p. 11 (card `petie2025exploring`, full text): 'A web of hosts was created in Glasgow through complex outsourcing arrangements'; 'a lack of clarity around what each different agency was responsible for'; asylum seekers 'did not know where to turn for help'; the receptionist, often the first port of call, 'lacked the skills and knowledge to deal with complex problems'. Glasgow hotels at the outbreak of the pandemic: MS p. 9. Paraphrase only; the findings are the inquiry and evaluation reports' as the authors read them, which 'describe' carries.
+
 ### S-151 · answers M.140 · 36w
 > Germann Molz (2018: 243–244) has shown the other end of the path, where a company that owns no lodging and employs no hosts appeals to its status as a platform to avoid legal responsibility.
 

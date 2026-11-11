@@ -69,4 +69,4 @@ phygital hospitality; algorithmic mediation; host obligation; guest standing; ac
 - [ ] References headed 'References', Intellect Harvard, only works cited; Cases and Legislation lists checked against the journal's style for legal sources
 - [ ] Nothing in the file identifies the contributors
 - [ ] The header comment and the bracketed AI template removed; the AI acknowledgment written and true
-- [ ] Journal page numbers for any quotation from an accepted manuscript (none at present: v6 paraphrases Bulley, Varley et al., Moysidou and Stanley, Lugosi 2009, O'Gorman 2009 and Lynch et al. 2011)
+- [ ] Journal page numbers for any quotation from an accepted manuscript (none at present: v6 paraphrases Bulley, Varley et al., Moysidou and Stanley, Petie et al., Lugosi 2009, O'Gorman 2009 and Lynch et al. 2011)

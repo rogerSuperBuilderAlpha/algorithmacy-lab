@@ -30,8 +30,9 @@ The field's canon states both halves.
 - **'Micro-hosts' and 'macro-hosts'.** The seated passenger, the guard and the train company (Lynch et al. 2011, 'Exchange' ¶3) [full; Robinson and Lynch 2007 via Lynch et al.].
 - **Person and organization.** 'asymmetric hospitalities', where the relationship is 'between individuals and broader, more ambiguous, entities' (Lugosi 2011 ¶2, citing Lugosi 2009) [full for 2011 and 2009].
 - **Scale.** Bad hospitality 'accumulates in the gaps created by shifts in scale' (Shryock 2012: S20) [full].
+- **The divided host in practice.** In the Glasgow hotels that housed asylum seekers during the pandemic, outsourcing made 'a web of hosts'; inquiry reports found 'a lack of clarity around what each different agency was responsible for', residents 'did not know where to turn for help', and the receptionist they often turned to first lacked the skills for complex problems (Petie et al. 2025: MS p. 11) [full, accepted manuscript, CC BY; read 11 Nov 2026].
 
-**Use in v6.** The several-firm host is already named in the journal. v6 adds what the journal has not: which of the assembled hosts answers to the guest.
+**Use in v6.** The several-firm host is already named in the journal, and Petie et al. (2025) show what its unsettled division costs a guest. v6 adds what the journal has not: which of the assembled hosts answers to the guest.
 
 ## 4. Technology and hosting, in the journal
 
@@ -58,5 +59,7 @@ The field's canon states both halves.
 - **What the 37 technology records concern:** CouchSurfing and Airbnb as network hospitality; platform labour; robots and gender; speed; online reviews and marketing; virtual reality.
 
 **Statement.** In the titles and abstracts of these 282 records I found no article that asks where the commercial host's obligation to the guest sits when the work of hosting is delegated to software or spread across firms, and none that treats the guest's ability to press a claim on a host as its subject. The nearest are Germann Molz (2018, read in full), who shows a platform disclaiming responsibility and asks that scholars watch whether it is held accountable, and Germann Molz (2026, abstract only), on the erasing of hosts.
+
+**Correction after a full read (11 Nov 2026).** Petie, Phillimore and Allsopp (2025) is the nearest work in the journal to v6's question, and the screen missed it: `hs_screen.tsv` codes it 0 on all three families, because its abstract speaks of hoteliers, housing companies and home, not of obligation, technology or voice. Read in full for the journal study, it describes hosting divided by outsourcing in which no one could say which agency was responsible and residents could not tell where to seek help (MS pp. 3, 11). Its question is how asylum seekers experience hospitality and home, not where the host's obligation sits once hosting is divided, so the statement above stands as worded; Petie et al. now belong among the nearest works, beside Germann Molz (2018), and v6 cites them (S-150b). The miss is a limit of a term-based screen over abstracts, recorded here so the statement is not read as stronger than it is.
 
 **Limits of the statement.** It rests on titles and abstracts, not full texts, for all but eight records. It covers this journal only; the wider gap search is in `revision_2026-11/research/` (WS_H1 to WS_H5).

@@ -8,7 +8,7 @@
 |---|---|---|
 | Every ledger sentence is in the manuscript, in order, and nothing else is | Script comparing `sbs/LEDGER.md` ("As written" where present) with `sbs/MANUSCRIPT.md`; reverse pass removing every ledger sentence | 287 of 287 found in order; the remainder is headings, keywords, list numerals and table titles only |
 | Manuscript body and DRAFT_v6 body are identical | Normalized comparison | Identical |
-| Body length | `wordcount.py`'s `strip_markdown`, Introduction to Conclusion | **8,329 words** (limit 9,000), after the Bialski amendment to S-010. `preflight.py`, which counts headings slightly differently, gave 8,335 before the last corrections |
+| Body length | `wordcount.py`'s `strip_markdown`, Introduction to Conclusion | **8,385 words** (limit 9,000), after the Bialski amendment to S-010 (8,329) and the Petie insertion (S-150a, S-150b; 11 Nov). `preflight.py`, which counts headings slightly differently, gave 8,335 before the last corrections |
 | Section shares | Same count | Introduction 9%, first section 22%, second 20%, application 38%, conclusion 10%; all inside the venue's ranges (`journal/JOURNAL_MODEL.md`) |
 | Paragraphs | Same count | 47 paragraphs; mean 167 words, median 176 (venue band 130–200) |
 | Abstract | Whitespace count | 175 words (journal: 100–200) |
@@ -54,7 +54,7 @@ v5 carried these; v6 does not.
 
 1. **Baum and Laux (2026). Resolved for pages, open for the year.** The open-access chapter was read on 10 Nov 2026 and DRAFT_v6 now cites its printed pages (120, 120–122, 126), with the chapter's spelling 'rubber-stamps'. The chapter was published online on 13 Oct 2026, and its own footer gives the volume year as 2027. v6 keeps 2026; choose which year Intellect should print.
 2. **Abstract-only sources.** Germann Molz (2026), Riordan (2024), Weaver (2026) and Kim et al. (2025) are described only as far as their abstracts go. Read them in full after your Bentley sign-in and check the four sentences that cite them (S-010, S-238, S-240).
-3. **Accepted manuscripts.** v6 quotes none of them, so no journal page is owed. If you add a quotation from Bulley, Varley et al., Moysidou and Stanley, Lugosi (2009), O'Gorman (2009) or Lynch et al. (2011), take the page from the version of record.
+3. **Accepted manuscripts.** v6 quotes none of them, so no journal page is owed. If you add a quotation from Bulley, Varley et al., Moysidou and Stanley, Petie et al., Lugosi (2009), O'Gorman (2009) or Lynch et al. (2011), take the page from the version of record.
 4. **Your read-aloud.** No check above stands in for it (`~/.claude/CLAUDE.md`).
 5. **The AI acknowledgment** and the reply to R3.1 (`DECISIONS.md`, conflict 1).
 
@@ -62,3 +62,11 @@ v5 carried these; v6 does not.
 
 - **S-010 amended** to begin the journal's work on platforms with Bialski (2012), read in full in its version of record after this record was first written. The quotation ('the power to choose one member over the other', p. 257) was checked against the saved text. Card `bialski2012technologies` and a bibliography entry were added; the reference list now has 82 entries. Ledger order check, citation check and preflight re-run: unchanged results.
 - **Baum and Laux** now cited from the open-access chapter (debt 1, above).
+- **S-150a and S-150b inserted (11 Nov 2026)** in the first paragraph of 'Assembled hosts at the touchpoint', after a full read of Petie et al. (2025) for the journal study (`journal/notes/petie2025.md`). They show the path from guest to host failing at the front desk of an assembled host with no algorithm in it. Paraphrase only (accepted manuscript), checked against the saved text, MS p. 11; card `petie2025exploring` and a bibliography entry added; `DECISIONS.md`, D16. The ids are lettered so that no existing id moves. Checks re-run on the amended draft:
+  - Ledger against manuscript (a new script, kept outside the repository): 286 entries, the 280 body sentences (S-001 to S-278, with S-150a and S-150b) and the six abstract sentences, each found in order within its run; what remains is headings, keywords, the six-question list and the two tables. Manuscript body and DRAFT_v6 body identical. The record above says 287 of 287 before the insertion; this script finds 284 entries in that ledger, so the earlier script, which I did not keep, counted three items differently. I cannot now say which.
+  - Body 8,385 words by the count above (8,329 before); the amended paragraph 180 words (124 before); section shares unchanged to the per cent except the introduction, 10% to 9%; 4.4 'we/our/us' per 1,000.
+  - `check_citations.py DRAFT_v6.md cited_keys_v6.txt`: 109 citations, the same single flag (Woodland, a case).
+  - References re-rendered with `render_refs.py`: 83 entries, identical to the list in DRAFT_v6.
+  - `preflight.py` on a numbered copy: 20 of 23, the same three artefact failures.
+  - Reviewer letter: the 27 quotations introduced by 'Changed in …' all match DRAFT_v6 verbatim; none spans the inserted sentences.
+  - `build_index.py --check`: OK, 265 cards.

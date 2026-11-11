@@ -800,6 +800,16 @@ M.039 (the goods a house gives) and M.102 (the stakes of the assumption) are ans
 - **Move** the obvious setting. **Role** second.
 - **Register** Short.
 
+### S-150a · 3.0 · ~6w · answers none (inserted 11 Nov 2026)
+- **Move** TURN: the familiar setting is where the path can already fail. **Role** between second and third.
+- **Register** Short, after a short sentence; 'there' takes up 'the hotel front desk'.
+- **Why lettered** Added after the ledger was complete; a letter keeps every existing id in place (`ENTRY_FORMS.md`: ids never move).
+
+### S-150b · 3.0 · ~50w · answers none (inserted 11 Nov 2026)
+- **Move** EVIDENCE from the journal: an assembled host with no algorithm in it, in which no one could say which member answered to the guest. **Role** grounds S-150a; the near end of the path, before S-151 turns to 'the other end'.
+- **Support** Petie et al. 2025 (card `petie2025exploring`, full text, accepted manuscript, CC BY), MS p. 11: outsourcing in the Glasgow hotels made a web of hosts; reports found it unclear what each agency was responsible for; residents did not know where to turn; the receptionist, often the first port of call, lacked the skills and knowledge for complex problems.
+- **Register** Scholars as subject; paraphrase only, since the accepted manuscript has no journal page. Keep 'responsible' (the source's word), not 'answers' (ours).
+
 ### S-151 · 3.0 · ~36w · answers M.140
 - **Move** what a scholar in the journal showed of the other side of the path. **Role** third.
 - **Support** Germann Molz 2018: 243–244 (VoR): Airbnb owns no lodging, employs no hosts, and appeals to its platform status to evade legal responsibility.

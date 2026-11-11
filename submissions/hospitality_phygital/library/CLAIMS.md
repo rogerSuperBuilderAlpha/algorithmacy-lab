@@ -57,4 +57,5 @@ here and from every card that used it — `--check` will find any you miss.
 | `competence-not-standing` | 5 | Competence with an algorithmic system is learned and standing to be answered is conferred, and no quantity of the first produces the second |
 | `seamlessness-uncritiqued` | 7 | The phygital frameworks state seamlessness as a design goal and have not questioned it as such, while questioning technocentrism, efficiency logics, speed and AI's harms around it |
 | `wellbeing-levels-unmet` | 8 | Individual-level automation evidence and collective-level well-being evidence have not met inside a single study |
+| `divided-host-unanswered` | v6, Assembled hosts | When hosting is divided among several firms, which of them answers to the guest goes unsettled in practice, and the guest cannot tell where to press a claim |
 | `editors-own-ground` | 1, 2, 3, 4, 5, 6, 7, 8 | The claim is established, approached or contested in the special issue editors' own published work before any general literature is called |

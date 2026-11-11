@@ -22,6 +22,8 @@
 | `tzanelli2026` | Tzanelli and Germann Molz (2026), 'Life in the age of extremes', 16, 3–12 | Special-issue introduction | Accepted manuscript (CC BY) | `notes/tzanelli2026.md` |
 | `baah2023` | Baah, Filep, Lin and Badu-Baiden (2023), 'Introduction of generosity into commercial hospitality', 13:2 | Short conceptual article | Accepted manuscript (Griffith) | `notes/baah2023.md` |
 | `bialski2012` | Bialski (2012), 'Technologies of hospitality', 1:3, 245–260 | Regular article, ethnography | **Version of record** (St Gallen repository) | `notes/bialski2012.md`; read after v6 was first assembled |
+| `petie2025` | Petie, Phillimore and Allsopp (2025), 'Exploring hospitality, hostility and (un)home in hotel accommodation for asylum seekers in the UK', 15:1–2, 23–44 | Regular article, conceptual framework applied to two document-based cases | Accepted manuscript (CC BY, Birmingham) | `notes/petie2025.md`; read 11 Nov 2026 |
+| `elhajal2025` | El Hajal (2025), 'Rethinking hospitality and tourism education', 15:3, 295–306 | Short essay, dialogic | Accepted manuscript (Groningen) | `notes/elhajal2025.md`; read 11 Nov 2026 |
 
 ## Read in part
 
@@ -50,6 +52,11 @@ All closed. Each needs your Bentley sign-in (`http://ezp.bentley.edu/login?url=`
 
 One open text was not obtained: Minca (2026), 'Biopolitics, sovereign power and mobility' (the Bologna repository holds a Word file that did not download).
 
+## Not obtained on 11 Nov 2026
+
+- Mooney et al. (2023), 'Understanding gender and sexual politics in hospitality as Hospo-gender', and Williamson (2017), 'Too close to servility?': the Auckland University of Technology repository did not respond, to the script or the browser.
+- No open copy of Germann Molz (2026), Riordan (2024) or Weaver (2026) was found by OpenAlex or a web search. The University of Queensland repository, which might hold Riordan's manuscript, put up a bot check, which I do not complete.
+
 ## What this means for the model
 
-`JOURNAL_MODEL.md` rests on **eight regular articles and two editorials read in full**, four of the ten from 2022 or later. The plan's target was twelve, with three on technology or commercial hosting; four of the eight meet that description (Bialski 2012; Germann Molz 2018; Varley et al. 2018; Baah et al. 2023). The gap is the closed list above. Also obtained on 10 Nov 2026: the open-access LNCS chapter of Baum and Laux (2026), outside the journal.
+`JOURNAL_MODEL.md` rests on **twelve texts read in full: ten regular articles, two of them short pieces, and two editorials**. Six of the twelve are from 2022 or later. Six concern technology or commercial hosting (Bialski 2012; Germann Molz 2018; Varley et al. 2018; Baah et al. 2023; Petie et al. 2025; El Hajal 2025). This meets the plan's target of twelve, with at least three on technology or commercial hosting. Of the eight full-length regular articles, four are conceptual (Bulley; Kesimoğlu; Germann Molz 2018; Varley et al.) and four report fieldwork, interviews or documents (Bialski; Kekstaite; Moysidou and Stanley; Petie et al.), which are used for framing, opening and closing; the two short pieces are conceptual essays. The closed list above is still the gap, above all Germann Molz (2026) and Lugosi (2014). Also obtained on 10 Nov 2026: the open-access LNCS chapter of Baum and Laux (2026), outside the journal.

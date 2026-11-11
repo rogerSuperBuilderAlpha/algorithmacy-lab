@@ -1,4 +1,4 @@
-<!-- DRAFTED BY CLAUDE (Fable 5.2; version 1.1 by Opus 5.5), 10 Nov 2026, for Roger and Pierre. The journal's normal model for a conceptual article, built from the full-read notes in notes/. Every count is over the six regular articles read in full unless it says otherwise. Version 1: it will be revised when the closed texts listed in CORPUS.md are read. -->
+<!-- DRAFTED BY CLAUDE (Fable 5.2; versions 1.1–1.3 by Opus 5.5), 10–11 Nov 2026, for Roger and Pierre. The journal's normal model for a conceptual article, built from the full-read notes in notes/. Every count is over the six regular articles read in full unless it says otherwise. Version 1: it will be revised when the closed texts listed in CORPUS.md are read. -->
 
 # How a conceptual article in *Hospitality & Society* is built
 
@@ -99,3 +99,12 @@ Bialski (2012), 'Technologies of hospitality', read in full in its typeset versi
 ## Version 1.2 (10 Nov 2026): a short conceptual article
 
 Baah et al. (2023), read in full in its accepted manuscript (`notes/baah2023.md`). At about 2,700 words it is a short piece, and it does three things the full-length conceptual articles do not: numbered headings, a figure of its model, and a section headed 'Implications'. Its introduction ends on a one-line pointer rather than a roadmap. The rulings above are for a full-length conceptual article and stand for v6; the statement that no article in the sample has an 'Implications' heading now holds for the full-length articles only.
+
+## Version 1.3 (11 Nov 2026): twelve texts
+
+Two more read in full in their accepted manuscripts (`notes/petie2025.md`; `notes/elhajal2025.md`). The sample is now ten regular articles, two of them short, and two editorials (`CORPUS.md`).
+
+- **Petie, Phillimore and Allsopp (2025)**, a full-length regular article that builds a framework and applies it to two cases drawn from documents. It **confirms** rulings 1, 2, 4 and 5: the introduction ends on a full roadmap, 'our original contribution' is stated in the first person, one closing section ('Conclusions') holds summary, uses and research directions, and the headings are unnumbered. Its cases take 38% of the body, inside the range above. It has a 'Methodology' section because its cases rest on a documented search; v6's cases illustrate and need none.
+- **Figures.** Petie et al. draw their framework as Figure 1. Three of the eight full-length regular articles now have a figure of the scheme (Varley et al.; Moysidou and Stanley; Petie et al.), and none has a table that carries the argument. Ruling 6 stands, and the case for a figure in v6 (Reviewer 2.1; the authors' decision) is a little stronger than it was.
+- **El Hajal (2025)**, a short dialogic essay of about 3,000 words headed by five questions. Like Baah et al. (2023) it departs from the full-length plan; the rulings stand for v6. It contains the one sentence in the sample that grades its own method; ruling 8 stands.
+- **An AI declaration in the sample.** El Hajal's accepted manuscript ends with a 'Declaration of Generative AI and AI-assisted technologies in the writing process', declaring GPT-4 for language, clarity and brevity (MS p. 9). It is evidence of what one 2025 author declared, not of the journal's template, which `JOURNAL_SPEC.md` records.
