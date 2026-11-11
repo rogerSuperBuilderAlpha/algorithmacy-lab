@@ -18,8 +18,8 @@ role: support
 load: load-bearing
 read_depth: full_text
 object_read: "version: Wiley Early View layout of the article (2012; article pages printed 2–27, p. 1 unnumbered, no issue pagination) behind a one-page Warwick WRAP cover sheet, 28 PDF pages (pdfinfo; PDF created 2012-08-29); place: ~/iit-playground/dxd_animation_local/pdfs/hoerl2015seeing/hoerl2015seeing.pdf, with text layers hoerl2015seeing.txt and hoerl2015seeing.readorder.txt (28 form-feed pages each), fetched 2026-11-05 from https://wrap.warwick.ac.uk/50746/1/WRAP_Hoerl_ejop565.pdf (provenance.txt; FETCH_LOG.tsv); read in full 2026-11-11; sha256 6f1939bfe0d53373465e6f9cbdbc6e0bd96c8e37b67b37c44d4c777ab5cc6e67 (recomputed this run). Records: crossref.json sha256 11b79f464a23ccbdf35489940c54676606e2af468a93ac325f11ca5977ba64d1; openalex.json sha256 35328e3d316b310d287c5ea1e96bfb55482d2d5d22eb2c8b07aa7a78e3c831ee"
-verified: pending
-verified_against: ""
+verified: corrected
+verified_against: "both text layers split by form feed (PDF p. = EV p. + 1); pdfinfo; WRAP cover sheet; crossref.json; openalex.json; FETCH_LOG.tsv rows 39 and 84; sibling card in pt_ai_as_animation; sha256 of PDF and both records recomputed"
 prior_cards: [hoerl2015seeing (pt_ai_as_animation)]
 status: candidate
 added: 2026-11-05
@@ -172,10 +172,13 @@ No quotation contains double quotation marks; the single quotes in locus 15 are 
   perceiving motion in film projection and laboratory displays; nothing in the text concerns comprehension,
   tasks, interfaces or AI. (d) He separates cinema from apparent motion, so the paper cannot cite apparent
   motion and Hoerl for the same lock-in claim.
-- **More frames.** The only material on adding frames is Kolers's study as Hoerl reports it (locus 16): added
-  intermediate flashes first weakened the impression of motion. Hoerl uses the result to separate two-stimulus
-  from multi-stimulus displays, not to say anything about revealing frames. Cite Kolers (1972) only after
-  reading Kolers.
+- **More frames.** Hoerl reports two results on adding intermediate stimuli. In Kolers's study (locus 16), added
+  intermediate flashes first weakened the impression of motion. In Kaplan and Sperling's, as Hoerl quotes
+  Sperling et al. (1985), whenever the number of points along a motion path was doubled, "the rated quality of
+  motion always increased" (EV p. 18), and note 28 (EV pp. 24–25) treats their densest displays as "very simple
+  cases of cinematic motion". Hoerl uses both results to separate two-stimulus from multi-stimulus displays,
+  not to say anything about revealing frames. Cite Kolers (1972) and Sperling et al. (1985) only after reading
+  them.
 - **Second-hand sources.** Hoerl quotes Wertheimer from the 1961 partial English translation and notes that
   some relevant passages are "not even reproduced in the abridged English version" (EV p. 17). The text layer
   renders the Greek phi as "f" in §3 (EV pp. 7–8) and as "j" in note 11, so a quotation from those passages
@@ -185,3 +188,11 @@ No quotation contains double quotation marks; the single quotes in locus 15 are 
   cards/hoerl2015seeing.md` (run pta-lib-2026-11, full text, 16 loci). I re-found every locus here in this
   library's held text and chose my own; eight of my 16 are also among its 16. Its reading matches mine except
   for the "sequence" gloss above.
+
+## Verification
+
+2026-11-11 · S6 verifier, batch B (Opus 5.5; not the writer) · verdict: corrected · checked: 16/16 loci found once in both text layers, each on PDF p. = EV p. + 1 (running heads confirm; EV p. 1 unnumbered, EV pp. 2–27 printed); section of each locus checked against the headings (§4 opens on EV p. 12, §5 on EV p. 16, §6 on EV p. 19 after locus 13); frontmatter vs crossref.json (vol. 23(3), 676–702, online 2012-08-29, print 2015-09, so registered_year 2012 is right) and openalex.json (publication_year 2012; 25 citing works against Crossref's 9; the WRAP file labelled acceptedVersion); the WRAP cover sheet says version of record under OnlineOpen; pdfinfo gives 28 pages, created 2012-08-29; sha256 recomputed for the PDF (6f1939…), crossref.json (11b79f…) and openalex.json (35328e…), all match (the folder has no sha256.txt; provenance.txt gives the same PDF hash); FETCH_LOG rows 39 (DOI fetch, HTTP 403) and 84 (WRAP copy) confirm the run-1 history; read_depth full_text honest; body: Grush (intentionalist, Orwellian) and Dainton (extensionalist, Stalinesque) in that order and the shared ruling-out of direct realism (EV pp. 2–7), pure motion and "psychological relativity" (EV pp. 9, 12), Currie, Kania, Kalderon's pointillist painting, the 100 Hz click train, Goodman's dissective property, the billiard-ball reply and "re-identifiable spatial particulars" (EV pp. 13–15), the indistinguishability claim, Boring, Dimmick and Scahill, De Silva and the Sperling et al. (1985) quotation (EV pp. 17–18), notes 21 and 29, phi as "f" (EV p. 7) and "j" (note 11); "animat", "interface", "decision", "fool", "deceiv" and "trick" absent, "frame(s)" only in note 21; the sibling card's "the sequence does" gloss (its c7 bullet) and 8 of 16 shared loci; claim uses: the card credits Hoerl with nothing about interfaces, AI or a fooled viewer, and it marks the move from screen motion to an AI system's output as the paper's analogy · changed: Caution, "More frames": "The only material on adding frames is Kolers's study" was wrong. Hoerl also quotes Sperling et al. (1985) that doubling the points along a path always raised the rated quality of motion (EV p. 18), and note 28 (EV pp. 24–25) treats those dense displays as simple cinematic motion. I rewrote the bullet's first two sentences to report both results and added Sperling et al. to the read-first warning · for the lead: the Sperling result runs opposite to Kolers's. Any sentence about what adding frames does must cite both, and both reach this library only through Hoerl.
+
+## Hand-check
+
+- 2026-11-11, Claude (Opus 5.5, lead; S7). Verdict: **index**. Writer: subagent; check: S6 verifier, batch B (corrected: adding-frames bullet). Checked: 'does nothing to show that the appearance of it at normal speed must be illusory' and 'cinematic motion objectively lacks continuity' re-found on EV p. 15 (PDF p. 16). Changed: nothing. For the author: the held PDF is the Early View version of record, not the accepted manuscript; map EV pages to the 2015 issue before submission.

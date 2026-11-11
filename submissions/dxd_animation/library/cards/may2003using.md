@@ -17,8 +17,8 @@ role: support
 load: load-bearing
 read_depth: full_text
 object_read: "version: White Rose eprint 470, a deposited copy of the typeset journal article (HCI 18, journal pages 325–372 printed) behind a one-page eprint cover, 49 PDF pages (pdfinfo); place: ~/iit-playground/dxd_animation_local/pdfs/may2003using/may2003using.pdf, with text layers may2003using.txt and may2003using.readorder.txt, fetched 2026-11-05 from https://eprints.whiterose.ac.uk/id/eprint/470/1/mayj3.pdf (FETCH_LOG.tsv); read in full 2026-11-11 (run 1 read pp. 325–334 and 359–370 on 2026-11-05); sha256 ea3bd9adf162cfbcc6284c2fc139c6d27a0f3c0889237e765521db05345d948c (recomputed this run; matches sha256.txt). Records: crossref.json sha256 cb9680b0715c673eb8348629f5ebc57f2765c33395e89fff99e891489473e33c; openalex.json sha256 ec78a2b16f83f022fb4ffb76a81e3825e91e66ea4f4d98eafe8425e1fb780853"
-verified: pending
-verified_against: ""
+verified: corrected
+verified_against: "both text layers split by form feed (HCI p. = PDF p. + 323); page image of PDF p. 32 (Figure 8); eprint cover and typeset title page; crossref.json; openalex.json; FETCH_LOG.tsv row 63; sha256 of PDF and both records recomputed"
 prior_cards: []
 status: candidate
 added: 2026-11-05
@@ -34,7 +34,7 @@ intermediate psychological account of why the craft works on viewers. Film textb
 copying their rules case by case, they write, "lacks generalizability" (p. 332). They pick one rule to carry
 over, collocation: the editor places the object the viewer should look at next where the viewer was already
 looking. They pick it because it rests on "physical location rather than narrative or thematic relations"
-(p. 328), which makes it the rule most directly applicable to interfaces.
+(p. 328), which makes it potentially the rule most directly applicable to interfaces.
 
 The account sits in Barnard's Interacting Cognitive Subsystems (ICS) framework (§4). ICS treats cognition as a
 chain of subsystems that recode information, each with its own image record of what it has processed, and the
@@ -69,7 +69,7 @@ topical and novel cuts were "clearly in the wrong direction" (p. 363). The faste
 conversation cuts, came too soon to be reactions to the new shot, so the authors suggest that the editor may
 be following the viewer's gaze rather than driving it (locus 9).
 
-§§7–8 turn the account into interface advice: keep the detail a user zooms on in the same screen position,
+§6.3 (p. 363) and §§7–8 turn the account into interface advice: keep the detail a user zooms on in the same screen position,
 show the result of an operation where the operation happened, prefer a cut (or a few discrete steps) to a
 continuous fly-through when the user only wants detail (locus 11), pass through an overview between two
 close-ups, and use the film-breaking jump cut on purpose to interrupt the user (locus 12). The authors test
@@ -204,3 +204,11 @@ run 1's numbers.
   Cutting Techniques in Interface Design" and the order May, Dean, Barnard. The card follows the typeset
   article and Crossref. Crossref gives print date December 2003, vol. 18, issue 4, pages 325–372; the typeset
   page header gives "HUMAN–COMPUTER INTERACTION, 2003, Volume 18, pp. 325–372" with no issue number.
+
+## Verification
+
+2026-11-11 · S6 verifier, batch B (Opus 5.5; not the writer) · verdict: corrected · checked: 22/22 loci found once in both text layers (locus 18 in two halves across the p. 344–345 break and the Figure 3 caption); HCI p. = PDF p. + 323 confirmed by running heads; each locus's section checked against the CONTENTS list (p. 326) and the headings; Figure 8 class counts read on the page image of PDF p. 32 (54, 61, 276, 560, 142, 26, 149, 341, 95, 27; they sum to 1,731); counts and statistics: 1,916 cuts in 132 min (p. 354, again p. 357), 185 cuts dropped and 1,731 analysed (p. 358), 185 classifications queried (9.7%, p. 355), five participants, one excluded at 9.5% off-screen, four analysed (pp. 357–358), 22° by 9°, gaze logged every 20 msec, 16 × 40-msec intervals from 40 msec before to 600 msec after the cut, peaks for seven classes and none for detail, following and novel (pp. 358–360); I recomputed §6.3's groups from its text: expected = detail, following, conversation, subjective, previous, end of scene (1,208 on Figure 8), not = over-the-shoulder, topical, novel (462), ambiguous = result (61); 1,327 + 503 + 86 = 1,916 and 119 + 41 + 25 = 185, as the card says; the abstract's "160 and 280" and "6 of the 10" (p. 326); Kraft's finding attributed to Kraft (1986) as May et al. report it (p. 335), and the card flags it as second-hand; frontmatter vs crossref.json (May, Dean, Barnard; HCI 18(4), 325–372, December 2003; DOI) and the typeset title page; eprint cover title and author order as the card says; sha256 recomputed for the PDF (ea3bd9…), crossref.json (cb9680…) and openalex.json (ec78a2…), all match; read_depth full_text honest; claim uses · changed: (1) "What it argues", last paragraph: "§§7–8 turn the account into interface advice" → "§6.3 (p. 363) and §§7–8 turn …", because the detail and result rules ("the detail that has been operated on (or selected) should be collocated"; "any view of the results of this operation should be collocated with the focus of the operation") are stated in §6.3 on p. 363, before §7 begins on p. 364. (2) First paragraph: "which makes it the rule most directly applicable" → "which makes it potentially the rule most directly applicable", restoring the authors' hedge "it is potentially the most directly applicable to interface design" (p. 328) · for the lead: nothing.
+
+## Hand-check
+
+- 2026-11-11, Claude (Opus 5.5, lead; S7). Verdict: **index**. Writer: subagent; check: S6 verifier, batch B (corrected). Checked: 'an intermediate psychological account was needed' (p. 332) and 'clearly in the wrong direction' (p. 363) re-found (PDF p. 1 is the eprint cover). Changed: nothing. For the author: one film, four viewers, no interface test.

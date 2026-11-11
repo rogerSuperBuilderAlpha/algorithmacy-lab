@@ -17,8 +17,8 @@ role: contrast
 load: load-bearing
 read_depth: full_text
 object_read: "version: arXiv submitted version of the article, arXiv:2504.08670, NOT the Elsevier version of record; the arXiv API record fetched the same day lists v3 (updated 15 Aug 2025) as current and links the journal DOI, and the PDF itself carries no arXiv version stamp; 28 PDF pages made from a Google Docs file titled 'Arxiv Preprint Revised.docx'; all pages and section numbers on this card are the arXiv PDF's; place: ~/iit-playground/dxd_animation_local/pdfs/kurian2025once/kurian2025once.pdf (+ .txt, .readorder.txt), fetched with curl from https://arxiv.org/pdf/2504.08670 (provenance.txt); date: 2026-11-11; sha256: ab66164eb28bf0c887ab7eecf10679259dd2fcac57f67baf5c0302abff206403; metadata from crossref.json (sha256 dece88e0c7ff566cb0ab7f033e88e8df69088be13b206dd86af2de3cb02eb67e) and arxiv.xml, both fetched 2026-11-11"
-verified: pending
-verified_against: ""
+verified: verified
+verified_against: "both text layers split by form feed; pdfinfo; crossref.json; arxiv.xml; sha256 of PDF and crossref.json recomputed"
 prior_cards: []
 status: candidate
 added: 2026-11-11
@@ -81,3 +81,11 @@ Matched against both text layers (`kurian2025once.txt`, `.readorder.txt`); every
 - **Principles source.** Her one statement of Disney's principles rests on Tremosa (2024), an Interaction Design Foundation piece on UI animation (reference list, p. 26), not on an animator's text. Her reference list gives the craft book as "Johnston, O., & Thomas, F. (1981). The illusion of life: Disney animation" with Disney Editions (p. 23); Lewis et al. (`lewis2026invisible`, ref. [115]) give Thomas and Johnston, Abbeville Press. The paper should cite the book from the library's own card, not from Kurian's entry.
 - **Self-citation.** Kurian grounds several claims in her own earlier work (Kurian 2023, 2024, 2025; Kurian & Sapsed 2025; Kurian & Saad 2024), including the term "developmentally aligned AI" (pp. 1–2). None of those works was read this run.
 - The paper states its length as "Wordcount: 8127 excluding references" (p. 1).
+
+## Verification
+
+2026-11-11 · S6 verifier, batch B (Opus 5.5; not the writer) · verdict: verified · checked: 14/14 loci found in both text layers (loci 1, 6 and 12 after the stated change of inner double quotation marks to single); printed page = PDF page, and the section numbers are as the arXiv PDF prints them, including the missing §3.3; frontmatter vs crossref.json (title, sole author, IJCCI vol. 46, article 100788, issued 2025-12, DOI; CC BY 4.0 licence from 2025-11-07) and arxiv.xml (v3 updated 2025-08-15, journal DOI linked); pdfinfo gives 28 pages, title "Arxiv Preprint Revised.docx", Google Docs renderer; sha256 recomputed for the PDF (ab6616…) and crossref.json (dece88…), both match; read_depth full_text honest; quotations and numbers in the body: ages 2–11, ~70 hours, 52 films 1937–2021 split 37 + 15, the 15-film pilot and its six codes, the scaffold page spans, Table 1 on p. 19, Tremosa (2024) as an Interaction Design Foundation piece on Disney's 12 principles for UI (p. 26), Johnston and Thomas cited once in the body (p. 8) and listed with Disney Editions (p. 23), "decision" once (p. 2), "opaque" once (p. 5), caregivers on pp. 10, 12, 17 and 18, no platforms or operators, Faria and Ayrosa (pp. 11–12) and Park et al. (p. 10) as second-hand results, the 8127 word count; Lewis et al.'s ref. [115] (Thomas and Johnston, Abbeville Press) confirmed in their reference list; claim uses · changed: nothing · for the lead: (1) The Pixar doubt in Caution is marked unchecked and the card does not assert it; I did not check studio credits either. (2) Kurian's text says the pilot codebook drew on "six key works" from the CCI literature (p. 7), but her footnote 3 lists five: Hanna, Risden and Alexander (1999); Chiasson and Gutwin (2005); Hourcade (2008); Druin (2002); Antle (2007). The card repeats "six" from the text. The paper should not repeat either count without noting the mismatch.
+
+## Hand-check
+
+- 2026-11-11, Claude (Opus 5.5, lead; S7). Verdict: **index**. Writer: subagent; check: S6 verifier, batch B (verified). Checked: the sidekick/selective-anthropomorphism sentence (p. 14) and the exclusion of recommendation systems (p. 2) re-found in the arXiv text. Changed: nothing. For the author: her footnotes conflict with her text on the film corpus and on the count of child-computer interaction works; check before repeating either.

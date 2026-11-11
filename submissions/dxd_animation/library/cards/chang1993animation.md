@@ -17,8 +17,8 @@ role: anchor
 load: load-bearing
 read_depth: full_text
 object_read: "PDF of the UIST '93 paper (11 pp., printed pp. 45–55), from the ACM Digital Library (dl.acm.org/doi/pdf/10.1145/168642.168647), opened in Chrome's PDF viewer and saved 2026-11-11 through the author's browser session; ~/iit-playground/dxd_animation_local/pdfs/chang1993animation/chang1993animation.pdf; sha256 7e7bdd5b80ec62478ca6b151e40f3ad55df47bc7f225b076b8f077d1bfd460cc; read in full from the PDF and its reading-order text layer; Crossref record re-fetched 2026-11-11 (crossref.json, sha256 cd9784985f97c9ba031e3fe2ec26db2206179636c81ddcd0d862cee7b78ed644)"
-verified: pending
-verified_against: ""
+verified: verified
+verified_against: "16/16 loci in the reading-order text layer of the ACM DL PDF (sha256 7e7bdd5b...), PDF p. 9 on the page image; crossref.json (sha256 cd978498...)"
 prior_cards: [chang1993animation (dxd_animator)]
 status: candidate
 added: 2026-11-05
@@ -76,3 +76,11 @@ Matched against the reading-order text layer (`chang1993animation.readorder.txt`
 - **Thomas and Johnston at second hand.** The principles are Thomas and Johnston's as Chang and Ungar read them (reference [24], dated 1981, Abbeville). Cite accordingly until the book is read.
 - **OCR.** The text layer garbles many words ("confime", "faater", "distuding"); quotations outside the loci above should be checked against the PDF page before use.
 - **Pronouns.** The authors alternate "he" and "her" for the user.
+
+## Verification
+
+2026-11-11 · S6 verifier, batch A (Opus 5.5; not the writer) · verdict: verified · checked: 16/16 loci found (text layer; the PDF p. 9 page image confirms loci 12–13), every locator correct (PDF p. N = p. 44 + N), section labels correct (locus 14 is in §5, "Implementation notes"; locus 16 in §6); frontmatter vs crossref.json (Chang and Ungar, UIST '93 proceedings, pp. 45–55, 10.1145/168642.168647; event field "PRS93: Parallel Rendering Symposium"; issued December 1993) and the footer ("November 3-5, 1993", "Atlanta, Georgia"); sha256 of the PDF and of crossref.json recomputed and match; full_text honest (11 pp.); quotations in the body ("exceedingly successful at engaging its audience", "efficiently and reliably", "anticipates that move with small, quick contrary movement", "are quickly forgotten", "about remotely initiated actions"), the three groups against the subsection headings and the p. 52 summary table (which lists "solid drawing" as a principle), "Because of persistence of vision" (p. 47, split across lines in the text layer), [24] = Thomas and Johnston 1981 Abbeville, the OCR examples, the pronouns; claim uses · changed: nothing · for the lead: the page image shows the adjective the card paraphrases is "disturbing" ("Such a surprise can be desirable in cartoons, but would be quite disturbing in the user interface", p. 53), so the paper can quote it. Chang and Ungar credit the "surprise gags" use of anticipation (locus 12, m5) to Thomas and Johnston [24].
+
+## Hand-check
+
+- 2026-11-11, Claude (Opus 5.5, lead; S7). Verdict: **index**. Writer: the lead; check: S6 verifier, batch A (verified). Checked: all 16 loci re-found when writing; the verifier read the garbled adjective on p. 53 as 'disturbing' from the page image. Changed: nothing. For the author: the evidence is informal user testing only (p. 53).
