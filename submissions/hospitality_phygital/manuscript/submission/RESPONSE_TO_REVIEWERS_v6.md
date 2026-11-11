@@ -38,13 +38,13 @@ The split is now defined in the first sentence of the subsection that develops i
 
 **R1.4** — *"Some discussion around the test and the purpose of the test will be helpful … the presentation of the test in the abstract can also be improved."*
 
-The subsection on the test now opens by saying what the test is for, who can use it and what it does not measure, and the abstract states the test.
+The subsection on the test now opens by saying what the test is for, who can use it and what it does not measure, and the abstract names the test and its scope.
 
 *Changed in 'Three conditions and six questions', first paragraph:* "The test we propose tells whether the conditions under which a guest can exercise standing survive the delegation of hosting work at a given touchpoint, and it measures neither satisfaction nor harm. Researchers can use it to analyse an arrangement, and managers to audit one before or after deployment." *Changed in the abstract:* "It offers a test of phygital touchpoints, scoped by the type of decision, and a roadmap for organizations."
 
 **R1.5** — *"The author(s) describe a framework in the fourth paragraph of Section 8 Discussion, but it is not clear what is being referred to …"*
 
-The Discussion has been folded into the conclusion, and each mention of the framework's parts now names them. Where the paper refers to a table, it names it.
+The Discussion has been folded into the conclusion, and each mention of the framework's parts now names them. [AUTHORS: three bare uses of 'framework' remain ('When a person must be reachable', fourth paragraph; 'Conclusion', fourth and fifth paragraphs). Name the part or cut the word before sending.] Where the paper refers to a table, it names it.
 
 *Changed in 'Conclusion', second paragraph:* "The paper offers three things: first, an account of the host's obligation under delegation; second, an account of standing that separates holding it from exercising it; and third, a test, a typology of decisions and five stages for organizations." *Changed in 'Designing for interruptible hospitality', fourth paragraph:* "For organizations, the five principles line up as a roadmap of rising cost, which Table 2 sets out."
 
@@ -99,11 +99,11 @@ We are grateful for this report. We have taken its points on style, on assumptio
 
 **R3.1** — *"the conversational style was engaging, but the rhetoric often felt jarring … In the end I wasn't sure whether AI assistance was the problem or a possible solution."*
 
-We have revised the register throughout. Claims are stated plainly, the second-person address and rhetorical questions are gone (one question remains, at the turn of the argument), and the passages the reviewer listed are cut (R3.2). The paper is now built on the plan of the conceptual articles this journal publishes. [AUTHORS DECIDE: how to answer the remark about AI assistance. The journal's policy requires any use beyond grammar and spelling to be disclosed in the labelled section before the References. DRAFT_v6 was written by Claude from your arguments; whatever text you submit, the disclosure and this answer must describe the process truthfully. `rewrite_2026-11/DECISIONS.md`, conflict 1.]
+We have revised the register throughout. Claims are stated plainly, the second-person address and rhetorical questions are gone (two remain in the body, each at a turn of the argument, and one in a heading), and the passages the reviewer listed are cut (R3.2). The paper is now built on the plan of the conceptual articles this journal publishes. [AUTHORS DECIDE: how to answer the remark about AI assistance. The journal's policy requires any use beyond grammar and spelling to be disclosed in the labelled section before the References. DRAFT_v6 was written by Claude from your arguments; whatever text you submit, the disclosure and this answer must describe the process truthfully. `rewrite_2026-11/DECISIONS.md`, conflict 1.]
 
 **R3.2** — *"Opening with the anecdote, asking about how 'we talk' about technology (p2), stating that 'put that way, the answer is boring' (p2), arguing that the test 'condemns the first…blesses the second' (p13); pointing to the 'bite' of the six question (p13) and referring to 'sitting ducks' (p14) … The sentence on page 18 goes on for six lines."*
 
-All of these have been removed. The introduction now opens on the range of technologies at issue, and no sentence in the revised paper runs to more than about fifty words.
+All of these have been removed. The introduction now opens on the range of technologies at issue, and the longest sentence in the revised paper runs to 64 words. [AUTHORS: recount after your revision; 11 sentences now exceed fifty words.]
 
 **R3.3** — *"The point on page 19 regarding the Airbnb experiment and its results, and the closing of the gap was difficult to comprehend."*
 
@@ -199,7 +199,7 @@ The conclusion now answers the research question directly.
 
 **R3.22** — *"it needs serious revisions to clarify its purpose, provide consistent and convincing evidence …"*
 
-We have checked every quotation and locator in the revised manuscript against the text of its source, corrected several, and removed claims that rested on sources we could read only in abstract. Where the paper still relies on an abstract, it says only what the abstract says. The conclusion states the limits of the evidence ('Conclusion', third paragraph). [AUTHORS: confirm once the remaining full texts are read.]
+We have checked every quotation and locator in the revised manuscript against the text of its source, corrected several, and removed claims that rested on sources we could read only in abstract. Where the paper still relies on an abstract, it says only what the abstract says. The conclusion states the limits of the evidence ('Conclusion', third paragraph). [AUTHORS: confirm once the remaining full texts are read. On 11 Nov the reviewer pack found this paragraph untrue of the 10 Nov text: locators taken from accepted manuscripts (Morgan; Kaniadakis and Farmaki), and claims beyond an abstract (Bendoly; Xu et al.; De Vos et al.). Those are corrected (`rewrite_2026-11/CORRECTIONS_2026-11-11.md`). Still unconfirmed against full text: Cheng et al. 2025 and Morrison 2014 (the silence sentence), Weaver 2026 ('traced … to large corporations'), Batat and Hammedi 2023 (the 'queues …' list), Hirschman 1970 (metadata only), and the Lynch et al. 2011 attributions. Do not send the paragraph as it stands until these are read or cut.]
 
 ---
 
