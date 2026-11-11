@@ -1,4 +1,4 @@
-<!-- DRAFTED BY CLAUDE (Fable 5.2), 11 Nov 2026. Brief for the claim audit of DRAFT_v6 in run rr-2026-11-k. Read RUN_BRIEF_K.md first; its guards apply here. -->
+<!-- DRAFTED BY CLAUDE (Fable 5.2), 11 Nov 2026. Brief for the claim audit of DRAFT_v6 in run rr-2026-11-k. Read RUN_BRIEF_K.md first; its guards apply here. Version 1.1, revised after the calibration run (DECISIONS_K.md, K-D3): a ninth mismatch class, a 'not in source' verdict, a severity scale, and rules on context, on results sections and on cautions. -->
 
 # Claim audit: brief
 
@@ -40,13 +40,24 @@ Split each sentence into the separate things it asserts. A sentence about a case
 5. **Scope**: does the source's statement cover what the sentence applies it to?
 6. **Design**: is a forecast, a vignette, a lab study, an editorial or a single case presented as an observed general fact?
 7. **Application**: is the paper's own application or scenario presented as the source's?
-8. **Version**: is the locator a page of the version in the reference list?
+8. **Version**: is the locator a page of the version in the reference list of `DRAFT_v6.md`?
+9. **Combination**: when two quotations, formulas or findings are joined in one sentence, do they still mean together what each means alone? Check that the variables or roles in two quoted formulas line up (the calibration run passed a sentence that quoted 'X has a duty to Y' beside 'X has a right against Y', where the roles swap), and that two findings joined as one come from the same sample and condition.
 
 ## The rule that decides a verdict
 
 **No passage, no 'supported'.** A row is 'supported' only if you have pasted, from the source's own text, the passage that licenses the proposition (at most about 60 words, with locator), and every mismatch class is clean. If you could reach only an abstract, the best verdict is 'supported (abstract only)', and only for what the abstract itself says.
 
-**Verdicts.** `supported` · `supported (abstract only)` · `partial` (say which class fails) · `contradicted` · `unverifiable` (closed text; say what would settle it) · for inferences: `valid` · `valid with added premise` (state it) · `equivocal` (a term changes sense) · `overgenerates` · `undergenerates` · `invalid`.
+**Results, not the authors' summary.** For an empirical claim, find the result in the study's results section and say which study, sample and condition produced it. An abstract or discussion sentence that sounds like the claim is not enough: the calibration run passed 'of five mechanisms only appeal raised the legitimacy of an adverse decision' on the strength of a summary line, when only appeal had been tested on adverse decisions.
+
+**Read the sentence in its paragraph.** A sentence can be accurate alone and wrong in place: 'moreover', 'such', a pronoun or the sentence before it can carry a scope the source does not have (a liability for goods read as a liability for persons). A fault that arises from context is a fault.
+
+**A caution is not a pass.** If something you would write as a caution changes what a reader takes from the sentence, the verdict is `partial`, not `supported` with a note.
+
+**Verdicts.** `supported` · `supported (abstract only)` · `partial` (say which class fails) · `not in source` (you read the source in full and nothing in it licenses the proposition) · `contradicted` · `unverifiable` (closed text; say what would settle it) · for inferences: `valid` · `valid with added premise` (state it) · `equivocal` (a term changes sense) · `overgenerates` · `undergenerates` · `invalid`.
+
+**Severity**, for every row that is not `supported` or `valid`: `fatal` (false or unsupported, and the argument leans on it) · `material` (must be corrected before submission) · `minor` (a locator, a word, a hedge of small consequence).
+
+**Searching saved texts.** Many are two-column PDFs turned to text, so a quotation may be split across lines or hyphenated. Search for a short distinctive fragment, and normalize whitespace before concluding that words are absent.
 
 ## Testing inferences
 
@@ -74,9 +85,11 @@ For each sentence:
 ### S-108 · Delegation and standing ¶3
 > the sentence as it stands
 
-| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | K | Action |
+| Row | Proposition | Type | Source, version, locator | Passage (from the source) | Classes failed | Verdict | Severity | Action |
 |---|---|---|---|---|---|---|---|---|
 ```
+
+Give the K claim only for inferences, in the list under the table.
 
 For an inference, put the premises, the tests and the verdict in a short list under the table.
 

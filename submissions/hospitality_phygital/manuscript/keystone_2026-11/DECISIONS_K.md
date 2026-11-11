@@ -42,3 +42,17 @@ Eleven slugs for this run were added to `library/CLAIMS.md` (`k1-…` to `k9-…
 
 ### K-D7 · 11 Nov · Depth of the audit follows what survives
 The two theory sections will be rewritten, so their sources and inferences are audited in full and their wording is not. The other sections get the full row-by-row audit. v7's new sentences are audited afterwards by an agent that did not write them.
+
+**K-D3, result (11 Nov).** The auditor's register is `claims/CALIBRATION_RESULT.md` (60 rows; about 440,000 tokens and 26 minutes). Scored against the key:
+
+- **Known-bad, 12:** 10 faulted, each for the reason confirmed on 11 Nov. That meets the threshold.
+  - Missed: the Thompson sentence, where two quoted formulas were each exact and together swap who owes whom.
+  - Passed with a caution only: the Sandoval-Strausz sentence, whose fault lies in what the sentence before it implies. The test withheld the draft, so the item was not a fair one; the auditor did note that the liability is for goods.
+  - Inside a faulted sentence, the Martin and Waldman clause was passed on the authors' summary line.
+- **Known-good, 12:** none faulted; one marked unverifiable because the test did not supply the text for one of its two citations.
+
+The brief is revised (version 1.1) for the three blind spots: a ninth mismatch class (combination), a rule to find empirical results in the results section, a rule to read each sentence in its paragraph, and a rule that a caution which changes the reader's understanding is a `partial`. It also gains a `not in source` verdict and a severity scale, which the auditor asked for. I did not repeat the test after these changes; the full audit's independent verifier re-checks every legal and theoretical row and a sample of the rest.
+
+### K-D8 · 11 Nov · Ten auditors, not five
+The calibration cost about 18,000 tokens a sentence. At that rate a batch of 60 sentences would exhaust one agent. The audit runs in ten batches of at most 34 sentences: the abstract and Introduction; 'The host's power' in two; 'Delegation and standing' in two; the opening of 'Assembled hosts' with 'The authority–answerability split'; 'Three conditions and six questions'; 'When a person must be reachable' with Table 1; 'Designing for interruptible hospitality' with Table 2; the Conclusion. The sections that survive into v7 go first.
+
