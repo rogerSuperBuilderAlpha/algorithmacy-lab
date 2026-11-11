@@ -1,4 +1,4 @@
-<!-- DRAFTED BY CLAUDE (Fable 5.2), 10 Nov 2026, for Roger and Pierre. The journal's normal model for a conceptual article, built from the full-read notes in notes/. Every count is over the six regular articles read in full unless it says otherwise. Version 1: it will be revised when the closed texts listed in CORPUS.md are read. -->
+<!-- DRAFTED BY CLAUDE (Fable 5.2; version 1.1 by Opus 5.5), 10 Nov 2026, for Roger and Pierre. The journal's normal model for a conceptual article, built from the full-read notes in notes/. Every count is over the six regular articles read in full unless it says otherwise. Version 1: it will be revised when the closed texts listed in CORPUS.md are read. -->
 
 # How a conceptual article in *Hospitality & Society* is built
 
@@ -87,3 +87,11 @@ Each replaces or confirms a rule in `REGISTER.md`, which was measured in August 
 | 9 | Questions: at most one or two, where the model article uses them | 3 of 6 | Keeps the August rule in spirit |
 
 Rulings 1 to 3 depart from `REGISTER.md` and ruling 2 from the house rule that first person marks the author's labour and not the claim. The journal is nearly unanimous on each, so I am following the journal and recording the departure in `DECISIONS.md` (D4).
+
+## Version 1.1 (10 Nov 2026): a seventh regular article
+
+Bialski (2012), 'Technologies of hospitality', read in full in its typeset version after v6 was first assembled (`notes/bialski2012.md`). It confirms the plan and corrects one statement.
+
+- **Confirms:** a roadmap closes the introduction ('This article first outlines … The discussion section explains …'); 'I argue' carries the thesis; headings are unnumbered and set in small capitals; no tables.
+- **Corrects:** the claim above that none of the sample has a section headed 'Discussion'. Bialski, an ethnography, has one. Among the seven regular articles, then, a 'Discussion' heading appears in one empirical study, and a 'Findings and discussion' heading in another (Moysidou and Stanley 2023); none of the five conceptual articles has either. Ruling 4 stands for v6, which is conceptual.
+- **Adds to the journal's conversation:** platform design as an instrument of the host's control (profiles give hosts 'the power to choose', p. 257; a response-rate rule disciplines hosts, p. 253). v6's introduction now cites it.

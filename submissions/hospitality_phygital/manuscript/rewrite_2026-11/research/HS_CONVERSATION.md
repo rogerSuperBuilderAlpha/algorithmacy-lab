@@ -38,7 +38,8 @@ The field's canon states both halves.
 | Text | Depth | What it says |
 |---|---|---|
 | Lynch et al. (2011) | [full] | Calls for a hospitality perspective on 'human–machine interactions'; through Ciborra, 'technology can dominate the host' |
-| Germann Molz (2012); Bialski (2012) | not read | CouchSurfing; 'technologies of hospitality' (titles and abstracts only) |
+| Germann Molz (2012) | not read | CouchSurfing (title and abstract only) |
+| Bialski (2012) | [full, VoR] | 'technologies of hospitality'; the online profile 'offers hosts the power to choose one member over the other' (p. 257); a response-rate rule pushes hosts to answer every request (p. 253) |
 | Germann Molz (2018) | [full] | A platform 'does not own any lodging properties or employ any service providers' (p. 243); Airbnb uses 'its status as a digital platform to evade legal responsibility' (p. 244); hosting can occur 'entirely at the scale of the digital' (p. 244); scholars will need to watch 'how, or whether, companies like Airbnb are held accountable' (p. 246) |
 | Riordan (2024) | [abstract] | Adds a 'virtual domain' to Lashley's three; 'algorithmic hostility' towards delivery workers |
 | Paloniemi (2024) | [abstract] | Airbnb practices in Lapland; platforms increase the 'elasticity' of hospitality practices |

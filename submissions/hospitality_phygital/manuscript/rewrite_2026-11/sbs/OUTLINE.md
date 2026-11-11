@@ -90,6 +90,7 @@ M.039 (the goods a house gives) and M.102 (the stakes of the assumption) are ans
 - **Owes** Q: the closest work. T: none yet.
 - **Support** Germann Molz 2018: 244, 246 (VoR, full text): Airbnb uses its platform status to evade legal responsibility; scholars should watch whether such companies are held accountable. Germann Molz 2026 and Riordan 2024, **abstract only**: guests without hosts; algorithmic hostility and a virtual domain.
 - **Register** M.003's *offered*; scholars as subjects. Abstract-depth claims kept to the abstracts' words.
+- **Correction 10 Nov 2026** Support extended to Bialski 2012: 257 (card `bialski2012technologies`, full text), read after Stage 5; the sentence now begins the journal's work on platforms in its first volume.
 
 ### S-011 · I.2 · ~38w · answers M.004
 - **Move** LIMIT, first. **Role** fourth.

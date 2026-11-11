@@ -8,7 +8,7 @@
 |---|---|---|
 | Every ledger sentence is in the manuscript, in order, and nothing else is | Script comparing `sbs/LEDGER.md` ("As written" where present) with `sbs/MANUSCRIPT.md`; reverse pass removing every ledger sentence | 287 of 287 found in order; the remainder is headings, keywords, list numerals and table titles only |
 | Manuscript body and DRAFT_v6 body are identical | Normalized comparison | Identical |
-| Body length | `wordcount.py`'s `strip_markdown`, Introduction to Conclusion | **8,314 words** (limit 9,000). `preflight.py`, which counts headings slightly differently, gave 8,335 before the last corrections |
+| Body length | `wordcount.py`'s `strip_markdown`, Introduction to Conclusion | **8,329 words** (limit 9,000), after the Bialski amendment to S-010. `preflight.py`, which counts headings slightly differently, gave 8,335 before the last corrections |
 | Section shares | Same count | Introduction 9%, first section 22%, second 20%, application 38%, conclusion 10%; all inside the venue's ranges (`journal/JOURNAL_MODEL.md`) |
 | Paragraphs | Same count | 47 paragraphs; mean 167 words, median 176 (venue band 130–200) |
 | Abstract | Whitespace count | 175 words (journal: 100–200) |
@@ -57,3 +57,8 @@ v5 carried these; v6 does not.
 3. **Accepted manuscripts.** v6 quotes none of them, so no journal page is owed. If you add a quotation from Bulley, Varley et al., Moysidou and Stanley, Lugosi (2009), O'Gorman (2009) or Lynch et al. (2011), take the page from the version of record.
 4. **Your read-aloud.** No check above stands in for it (`~/.claude/CLAUDE.md`).
 5. **The AI acknowledgment** and the reply to R3.1 (`DECISIONS.md`, conflict 1).
+
+## After verification (10 Nov 2026)
+
+- **S-010 amended** to begin the journal's work on platforms with Bialski (2012), read in full in its version of record after this record was first written. The quotation ('the power to choose one member over the other', p. 257) was checked against the saved text. Card `bialski2012technologies` and a bibliography entry were added; the reference list now has 82 entries. Ledger order check, citation check and preflight re-run: unchanged results.
+- **Baum and Laux** now cited from the open-access chapter (debt 1, above).

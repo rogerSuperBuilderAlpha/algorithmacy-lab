@@ -105,6 +105,8 @@
 - **Value** ✅ The nearest work, named.
 - **Counterpart** ⚠️ M.003 states the canon's central claim; ours states the journal's latest turn. Stage 4 overruled the slot, because the claim our argument starts from (protection) is already in S-009.
 - **Truth** ✅ Germann Molz 2018: 244 (VoR, 'to use its status as a digital platform to evade legal responsibility'). **Abstract only** for Germann Molz 2026 and Riordan 2024; both claims are in the abstracts' words.
+- **Amendment after a further full read (10 Nov 2026)** ❌ Bialski (2012), read in full after the ledger was complete, is the journal's earliest sustained study of a platform; the first version's 'More recently' implied earlier work it did not name. Rewritten to start the journal's conversation in its first volume. ⚠️ 53w. Bialski card p. 257; Germann Molz 2026 and Riordan 2024 remain abstract only, their coinages used as terms.
+- **As written** > This journal has studied platforms since its first volume: Bialski (2012: 257) found that a hospitality network's profiles gave hosts 'the power to choose one member over the other', Germann Molz (2018: 244) showed Airbnb using its status as a platform to evade legal responsibility, and later work describes guests without hosts and algorithmic hostility (Germann Molz 2026; Riordan 2024).
 
 ### S-011 · answers M.004 · 46w
 > The phygital literature describes such systems by what they do, as tools, mediators, facilitators and co-creators of the guest's experience, and does not say what the party that deploys them owes the guest (van Doorn et al. 2017; Li et al. 2021; Batat 2024; Xing and Zhang 2026).

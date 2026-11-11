@@ -76,3 +76,6 @@ D6 said v6 cites the arXiv version. The bibliography entry, unchanged, renders t
 
 ### D14 · 10 Nov · Baum and Laux now cited from the chapter
 The LNCS chapter is open access. I read it and replaced the arXiv page numbers with its printed pages (S-205, S-206, S-234), which settles D12's page mismatch. The year stays 2026, the online date; the chapter footer says 2027. **YOURS**: which year to print.
+
+### D15 · 10 Nov · Bialski (2012) added after the ledger was complete
+I found an open, typeset copy of Bialski (2012) while the sign-in was still pending and read it in full. It is the journal's earliest study of a platform and bears on the host's power, so I rewrote one sentence (S-010) to cite it, through the outline and ledger like every other sentence. Alternative: leave v6 as assembled and note Bialski for later. Reason for adding: a reviewer from this journal would expect the paper's account of the journal's work on platforms to start where the journal did.
