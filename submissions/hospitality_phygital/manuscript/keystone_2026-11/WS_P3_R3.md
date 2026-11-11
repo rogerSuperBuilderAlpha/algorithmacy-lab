@@ -50,8 +50,8 @@ What the paper's own source says (card `pittrivers2012law`; R3 rechecked each pa
     - Locator: `wenar2025rights`, §2.1.2, displayed definition. `pittrivers2012law`, p. 514.
 13. Cost two: the description is unavailable on two of the three main families of theory. On the will theory the guest holds no right, since the guest can neither waive (a guest who refuses what is offered infringes) nor enforce. On demand theories a right is what can be demanded 'without embarrassment or shame', and Gilbert, as reported, makes being owed equivalent to standing to demand. Only the interest theory and the bare Hohfeldian form allow it.
     - Locator: `wenar2025rights`, §2.2.2, para. 2 (will theory), block quotation after para. 15 (Feinberg), para. 8 (interest theory). `sreenivasan2019rights`, equivalence (3). `pittrivers2012law`, p. 515. The application to the guest is R3's reading.
-14. Cost three: the paper could not cite Darwall for the customary duty's direction, since Darwall is a demand theorist as Wenar and Cruft report him. It would rest on Thompson alone.
-    - Locator: `wenar2025rights`, §2.2.2, para. 16. Existing card `darwall2013bipolar`, pp. 27, 31–32.
+14. Cost three: the paper could not cite Darwall for the customary duty's direction, since both encyclopaedia entries report Darwall as a demand theorist. It would rest on Thompson alone.
+    - Locator: `wenar2025rights`, §2.2.2, para. 16. `herstein2023legal`, §4.3, para. 1. Existing card `darwall2013bipolar`, pp. 27, 31–32.
 
 **(ii) Not directed: a duty of the host's office or honour.**
 
@@ -70,8 +70,8 @@ What the paper's own source says (card `pittrivers2012law`; R3 rechecked each pa
     - Locator: `pittrivers2012law`, p. 515 ('even where custom lays down what he should wish to ordain'). `wenar2025rights`, §2.1.1, displayed definition (a privilege is the absence of a duty not to act). The Hohfeldian description is R3's reading.
 20. For it: it is the description that fits v6's own distinction between standing held and standing exercised, and three texts supply pieces of it: a right that exists unclaimed, a demand that is warranted and better not made, and claims held without privileges.
     - Locator: `DRAFT_v6.md`, line 62. Existing card `darwall2013bipolar`, p. 35 (a right exists unclaimed). `dekenessey2024two`, §1.2, EV p. 6 (a demand can be warranted when there are compelling practical reasons not to make it; his example is prudence, and the extension to a rule of role is R3's reading). `herstein2023legal`, §3.2, para. 4 (claims without privileges).
-21. For it also: the classical code keeps an oblique channel. The guest at table could protest by convention until the error 'was corrected, or at least until his protest had been registered'.
-    - Locator: `pittrivers2012law`, pp. 513–514.
+21. For it also: Pitt-Rivers records a conventional way for a guest to signal a failure without demanding. He calls it 'An intermediary solution' between complying and walking out: in diplomatic etiquette a guest could 'call attention to an error of protocol of which he was the victim' by turning his plate over, until the error 'was corrected, or at least until his protest had been registered'. Even the classical code, on this evidence, knew a channel from the guest. The inference is R3's reading.
+    - Locator: `pittrivers2012law`, pp. 513–514 (rechecked in the saved PDF; the phrase 'of which he was the victim' is not on the existing card).
 22. Cost one: it is a construction. No source read states it of hospitality, and the step from 'claims are defined without reference to demand' to 'a claim can be held where demand is forbidden' is an inference from definitions that neither encyclopaedia entry draws.
     - Locator: `wenar2025rights`, §§2.1.1–2.1.3 and 2.1.6 (definitions only).
 23. Cost two: it holds on the interest theory and the Hohfeldian form and fails on the will and demand theories, exactly as (i) does. By Feinberg's test, as quoted, a right is something that can be demanded 'without embarrassment or shame'; the classical guest cannot.
@@ -80,6 +80,8 @@ What the paper's own source says (card `pittrivers2012law`; R3 rechecked each pa
     - Locator: `dekenessey2024two`, §3, EV p. 14 (the birthday call). The classification of the duty to attend is R3's reading.
 
 **Which is best.** Option (iii) describes most accurately what Pitt-Rivers' code does: it fixes what is due to the guest and forbids the guest to demand it. Whether that amounts to a right the guest may not claim or to no right at all depends on the theory of rights, and the texts read do not settle it. The safest wording is therefore neutral between (i), (ii) and (iii) on the word 'right' and commits only to direction in the sense of wronging.
+
+- Locator: statements 11–24. The judgement between the options is R3's.
 
 - **The paper may say:** in the classical code attention is the guest's due, a host who withholds it slights the guest, and the guest may not demand it (Pitt-Rivers 2012: 515–517). It may add that on the standard definition a duty owed to someone is that person's claim (Wenar and Cruft 2025: §2.1.2), that theories of rights divide on whether a claim includes the standing to demand (§2.2.2), and that the classical guest's position is a claim on one family of theories and none on another.
 - **The paper may not say:** that the classical guest holds claims, without qualification (`DRAFT_v6.md`, line 46, has 'the guest has duties as well as claims' next to 'no right other than to respect'); that any source read describes a duty owed to a competent adult who is forbidden to demand it; that Darwall supports the direction of the customary duty; that Martin (2021) or de Kenessey (2024) shows 'duties owed without rights' (Martin is unread; de Kenessey denies it, EV p. 2).
@@ -106,7 +108,7 @@ What the paper's own source says (card `pittrivers2012law`; R3 rechecked each pa
 
 **The disagreement stated precisely.** The theories differ on what a claim-right does for its holder, and so on whether the holder's control over the duty, or authority to demand it, is constitutive of holding the claim (will and demand theories: yes; interest theory and the bare Hohfeldian form: no; hybrid: so far as it serves the holder). They differ in consequence on cases: unwaivable rights, right-holders who cannot demand, and third parties who can. They do not differ, in anything read here, on the ordinary case. A competent adult to whom an un-overridden duty is owed may ordinarily demand its performance, and in law the right of action is typically that person's alone.
 
-- Locator for the ordinary case: `sreenivasan2019rights`, para. beginning 'My first objection, then'. `dekenessey2024two`, EV p. 2 ('usually') and p. 14 ('typically'). `herstein2023legal`, §10.4, para. 2. `ripstein2026theories`, §4.4, para. 2.
+- Locator for the points of difference: statements 26–32 and 8–10. Locator for the ordinary case: `sreenivasan2019rights`, para. beginning 'My first objection, then'. `dekenessey2024two`, EV p. 2 ('usually') and p. 14 ('typically'). `herstein2023legal`, §10.4, para. 2. `ripstein2026theories`, §4.4, para. 2.
 
 **Verdict on K6: holds.** Two refinements.
 
@@ -175,6 +177,7 @@ What the paper's own source says (card `pittrivers2012law`; R3 rechecked each pa
 56. One legal theory values what K7 values. Civil recourse makes the aim of a tort remedy 'to empower plaintiffs to confront and make a demand on the persons who wronged them'. It places the duty on the state, after the wrong.
     - Locator: `ripstein2026theories`, §4.4, para. 3.
 57. In the moral register the strongest objection is Ripstein's reading of Gardner (statement 48) joined to statement 49: the continuity thesis explains what a party in breach must do next and is silent on any duty, before breach, to arrange to be told.
+    - Locator: `ripstein2026theories`, §4.3, para. 4. `gardner2011what`, typescript pp. 37–38 and 39–40. That the thesis is silent on such a duty is R3's reading of the whole eprint.
 
 - **The paper may say:** that a duty which can no longer be performed leaves a duty to do the next-best thing (Gardner 2011, at the version of record; or, until then, 'as Ripstein (2026: §4.3) reports Gardner'); that repair never equals performance, so that what can be corrected while performance is still possible should be; that the channel K7 requires serves performance and near-performance, and accountability serves repair.
 - **The paper may not say:** that the continuity thesis yields a duty to be reachable, to explain, or to apologise; that the line between performing and repairing falls at check-out; that tort law imposes a duty to repair before suit without noting that this is contested (Ripstein 2026: §4.4); that P3 is in the literature. P3 remains the paper's own step, and on Gardner's account it needs P4: a channel is owed only if it is necessary to performing the duty.
@@ -208,7 +211,7 @@ The rest of the chapter concerns the authority of the criminal law and is not ne
 1. `gardner2011what`: the card has no quotations from the eprint to match, so each paraphrase needs reading against its typescript page, above all pp. 37–38 with n. 53, pp. 39–40, p. 43 with n. 57 and p. 46. The estimate of version-of-record pages (near pp. 32–34) rests on two fixes only.
 2. `dekenessey2024two`: the text came from Internet Archive captures because the live pages returned a bot check. Check that the saved PDF is the publisher's version, and that Early View page plus 912 gives the issue page.
 3. Paragraph numbers in the three encyclopaedia cards: paragraphs are counted within the section, with displayed definitions, block quotations and list items not counted.
-4. The inferences marked 'R3's reading' in statements 3, 13, 19, 20, 24, 45 and 53, and those marked as the card's on `wenar2025rights` and `dekenessey2024two`. None is stated by a source.
+4. The inferences marked 'R3's reading' in statements 3, 13, 19, 20, 21, 24, 45, 53 and 57, the judgement between options (i) to (iii), and those marked as the card's on `wenar2025rights` and `dekenessey2024two`. None is stated by a source.
 5. `ripstein2026theories`, §4.2, para. 7: the entry's 'does require' looks like a slip for 'does not require'; the card says so and does not rely on it.
 
 ## (b) What was read

@@ -9,15 +9,15 @@ venue: "Official Journal of the European Union, L series, 12.7.2024"
 cluster: mediation-sovereignty
 status: held
 role: evidence
-used_by_sections: [9]
-claims: [published-nulls]
+used_by_sections: [9, 4, 5]
+claims: [published-nulls, k7-channel-from-guest, k9-mediation]
 read_depth: full-text
 verified: verified
-verified_date: 2026-11-08
-source_basis: "Official Journal text of Reg. (EU) 2024/1689 (OJ L, 12.7.2024), English, fetched from the EU Publications Office Cellar (cellar:dc8116a1-3fe6-11ef-865a-01aa75ed71a1; XHTML and PDF, 144 pp.). eur-lex.eu pages themselves returned an empty WAF response and were not bypassed. Read: Art. 6, Art. 86, Art. 113, Annex III. Amendments checked 2026-11-08 by Fable: Regulation (EU) 2026/1744 of 8 July 2026 (Digital Omnibus on AI), OJ L 2026/1744, 24.7.2026, fetched from EUR-Lex (legal-content/EN/TXT/HTML/?uri=OJ:L_202601744) and saved as sources/eu2024aiact/reg_2026_1744_omnibus.html and .txt; its amendment point (40) rewrites Art. 113. No consolidated text was read. Cluster set to mediation-sovereignty and verified to 'verified' because the validator has no legal-instrument values."
+verified_date: 2026-11-11
+source_basis: "Official Journal text of Reg. (EU) 2024/1689 (OJ L, 12.7.2024), English, fetched from the EU Publications Office Cellar (cellar:dc8116a1-3fe6-11ef-865a-01aa75ed71a1; XHTML and PDF, 144 pp.). eur-lex.eu pages themselves returned an empty WAF response and were not bypassed. Read: Art. 6, Art. 86, Art. 113, Annex III. Amendments checked 2026-11-08 by Fable: Regulation (EU) 2026/1744 of 8 July 2026 (Digital Omnibus on AI), OJ L 2026/1744, 24.7.2026, fetched from EUR-Lex (legal-content/EN/TXT/HTML/?uri=OJ:L_202601744) and saved as sources/eu2024aiact/reg_2026_1744_omnibus.html and .txt; its amendment point (40) rewrites Art. 113. No consolidated text was read. Cluster set to mediation-sovereignty and verified to 'verified' because the validator has no legal-instrument values. Upgraded rr-2026-11-k (reader R6b, 11 Nov 2026): I read in full, in the saved Official Journal text (manuscript/revision_2026-11/research/sources/eu2024aiact/aiact.txt), Art. 14, Art. 26, Art. 85, Art. 86 and Art. 99, recitals 73, 91, 92, 93 and 171, and, for context only, Art. 2(1), Art. 3 points (3), (4), (8) and (49), Art. 8(1), Art. 16 point (a), Art. 79(1) and Art. 113. In the saved Omnibus text (reg_2026_1744_omnibus.txt) I read points (5), (38) and (40) and the recital on Art. 113, and searched the whole text for 'Article 26', 'Article 86', 'Article 85' and 'human oversight'. I also read the EUR-Lex 'modified by' table for CELEX 32024R1689 saved in the same folder on 11 Nov 2026 by the A10 claim auditor (eurlex_status_modifiedby_2026-11-11.txt). 'read_depth: full-text' on this card means that each provision listed was read in full in the Official Journal text; the Regulation as a whole (180 recitals, 113 articles, 13 annexes) was not read, and no consolidated text was read. I did not re-fetch the record; the saved files are those of 8 Nov 2026. For the added material, locators are article, paragraph and point, or recital number."
 generated_run: rr-2026-11
 flags: []
-hold_rationale: "Held for the authors' decision on the section 9 jurisdiction sentence. Primary legal text, not a scholarly source; cite only with the amended application dates below."
+hold_rationale: "Held for the authors' decision on the section 9 jurisdiction sentence. Primary legal text, not a scholarly source; cite only with the amended application dates below. Added in rr-2026-11-k: Arts 14 and 26 are the statutory text nearest to K7's premise P3. They require that a named natural person, with competence, training and authority, can override or reverse a system's output in the single case, and that the deployer monitor the system and suspend its use when it presents a risk. They give the person affected no way to reach that overseer. The paper's present sentence that the stop-button requirement 'is owed to overseers, not guests' needs rewording from the text. The duties apply to Annex III systems from 2 December 2027. The authors decide admission."
 ---
 ## Summary
 
