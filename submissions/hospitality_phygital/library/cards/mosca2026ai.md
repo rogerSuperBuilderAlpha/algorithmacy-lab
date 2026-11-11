@@ -6,7 +6,7 @@ year: 2026
 doi: 10.36253/jep-20876
 venue: "Journal of Emerging Perspectives"
 cluster: ai-automation
-status: held
+status: cited
 role: framing
 used_by_sections: [5, 6]
 claims: [affordances-derived, algorithmacy-observed, editors-own-ground]

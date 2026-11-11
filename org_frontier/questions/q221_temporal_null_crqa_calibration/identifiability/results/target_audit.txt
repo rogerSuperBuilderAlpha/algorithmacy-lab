@@ -1,0 +1,33 @@
+box-run: start 'q221-target-audit' [research, 2000 MB est, as-cap off MB] after 0s wait
+q161 TOL = 1e-06
+== P: B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0]
+   (a) node-permutation equivariant under all 6: True
+   (b) value flip mask 100 (flip X): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 010 (flip Y): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 110 (flip XY): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 001 (flip H): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 101 (flip XH): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 011 (flip YH): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 111 (flip XYH): B=[0, 2] base=2.000 drops=[2.0, 0.0, 2.0] ; same as unflipped: True
+   (c/d) freeze X := 0 -> residual major complex None, Phi -1.0
+   (c/d) freeze Y := 0 -> residual major complex ('X', 'H'), Phi 2.0
+   (c/d) freeze H := 0 -> residual major complex None, Phi -1.0
+   (c/d) freeze X := 1 -> residual major complex None, Phi -1.0
+   (c/d) freeze Y := 1 -> residual major complex ('X', 'H'), Phi 2.0
+   (c/d) freeze H := 1 -> residual major complex None, Phi -1.0
+== Q: B=[2] base=2.000 drops=[1.0, 0.0, 2.0]
+   (a) node-permutation equivariant under all 6: True
+   (b) value flip mask 100 (flip X): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 010 (flip Y): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 110 (flip XY): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 001 (flip H): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 101 (flip XH): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 011 (flip YH): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (b) value flip mask 111 (flip XYH): B=[2] base=2.000 drops=[1.0, 0.0, 2.0] ; same as unflipped: True
+   (c/d) freeze X := 0 -> residual major complex ('Y',), Phi 1.0
+   (c/d) freeze Y := 0 -> residual major complex ('X', 'H'), Phi 2.0
+   (c/d) freeze H := 0 -> residual major complex None, Phi -1.0
+   (c/d) freeze X := 1 -> residual major complex ('Y',), Phi 1.0
+   (c/d) freeze Y := 1 -> residual major complex ('X', 'H'), Phi 2.0
+   (c/d) freeze H := 1 -> residual major complex None, Phi -1.0
+box-run: done 'q221-target-audit' rc=0 waited=0s ran=6s

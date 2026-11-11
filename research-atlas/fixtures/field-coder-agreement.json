@@ -1,0 +1,16 @@
+{
+  "question": "Has the field coder-agreement target been met?",
+  "answer": "No field AI–human coder-agreement score is reported here. The proposal sets Krippendorff's α ≥ 0.80 per rule as a target and says it is unmeasured. A separate synthetic coder panel found that lower agreement widened the model's Φ interval; that result does not measure agreement in a real field case.",
+  "claims": [
+    {
+      "kind": "research_target",
+      "text": "The proposed field AI–human coder-agreement target is α ≥ 0.80 per rule, and it is unmeasured.",
+      "evidence": [{"path": "submissions/proposals/orgsci_ai_2026/gdoc_1fhM_v6_story_plus_addendum.md", "quote": "AI–human coder agreement (target Krippendorff's α ≥ 0.80 per rule) is unmeasured", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}]
+    },
+    {
+      "kind": "model_result",
+      "text": "The agreement-to-interval test used synthetic coder panels, not field accounts.",
+      "evidence": [{"path": "org_frontier/questions/q174_alpha_phi_width/FINDINGS.md", "quote": "Synthetic coder panels and synthetic active-bit decisions, not coded field\n  accounts.", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}, {"path": "org_frontier/questions/q174_alpha_phi_width/FINDINGS.md", "quote": "As coder agreement\nfalls, the interval widens monotonically", "snapshot": "b6c5a5251c2d8f06089da6d30d46f381ba010b3a"}]
+    }
+  ]
+}

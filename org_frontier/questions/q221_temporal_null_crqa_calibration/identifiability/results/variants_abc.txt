@@ -1,0 +1,33 @@
+reference 1 - h2(0.08) = 0.59782081
+============================== in-family
+max |TPM_A - TPM_B| entry = 0.710976
+  A stationary uniform: True   pi = ['1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8']
+  A CMI I(H';X,Y|H) = -0.00000000 bits
+  B stationary uniform: False   pi = ['12443/62500', '1591/31250', '1591/31250', '12443/62500', '1591/31250', '12443/62500', '12443/62500', '1591/31250']
+  B CMI I(H';X,Y|H) = 0.41078149 bits
+  cross pair x lag values compared (6 ordered pairs x lags 0..20 = 126): 126 equal exactly; all = 1/2: True
+  auto X max |A-B| over lags 0..20 = 0.000000
+  auto Y max |A-B| over lags 0..20 = 0.000000
+  auto H max |A-B| over lags 0..20 = 0.177151
+============================== fair-coin
+max |TPM_A - TPM_B| entry = 0.210000
+  A stationary uniform: True   pi = ['1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8']
+  A CMI I(H';X,Y|H) = 0.00000000 bits
+  B stationary uniform: True   pi = ['1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8']
+  B CMI I(H';X,Y|H) = 0.59782081 bits
+  cross pair x lag values compared (6 ordered pairs x lags 0..20 = 126): 126 equal exactly; all = 1/2: True
+  auto X max |A-B| over lags 0..20 = 0.000000
+  auto Y max |A-B| over lags 0..20 = 0.000000
+  auto H max |A-B| over lags 0..20 = 0.420000
+isomorphic under some of the 6 node permutations: False []
+== A (A_self, H'=H)
+   stationary π (little-endian X,Y,H) = ['1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8'] ; uniform: True
+   H lag-1 self-match = 23/25 = 0.92000000 ; CMI I(H';X,Y|H) = 0.00000000 bits
+== B (B_xor, H'=X^Y)
+   stationary π (little-endian X,Y,H) = ['12443/62500', '1591/31250', '1591/31250', '12443/62500', '1591/31250', '12443/62500', '12443/62500', '1591/31250'] ; uniform: False
+   H lag-1 self-match = 292553/390625 = 0.74893568 ; CMI I(H';X,Y|H) = 0.41078149 bits
+== C (B_xor_memory, H'=H^X^Y)
+   stationary π (little-endian X,Y,H) = ['1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8', '1/8'] ; uniform: True
+   H lag-1 self-match = 1/2 = 0.50000000 ; CMI I(H';X,Y|H) = 0.59782081 bits
+A vs B (B_xor, H'=X^Y): cross pair×lag values equal 126/126 ; auto equal 43/63 ; max |Δcross| = 0
+A vs C (B_xor_memory, H'=H^X^Y): cross pair×lag values equal 126/126 ; auto equal 43/63 ; max |Δcross| = 0

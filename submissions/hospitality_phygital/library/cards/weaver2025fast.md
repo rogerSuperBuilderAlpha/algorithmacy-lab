@@ -2,11 +2,11 @@
 citekey: weaver2025fast
 title: "Fast Hospitality and Technology: Contemporaneous Connections between Liquid and Solid in Modern Times"
 authors: "Weaver, Adam"
-year: 2025
+year: 2026
 doi: 10.1386/hosp_00098_1
 venue: "Hospitality & Society"
 cluster: platform-hospitality
-status: held
+status: cited
 role: rival
 used_by_sections: [7]
 claims: [seamlessness-uncritiqued]

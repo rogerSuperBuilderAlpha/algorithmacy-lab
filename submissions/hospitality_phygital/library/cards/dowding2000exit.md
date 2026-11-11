@@ -6,7 +6,7 @@ year: 2000
 doi: 10.1111/1475-6765.00522
 venue: "European Journal of Political Research"
 cluster: mediation-sovereignty
-status: cited
+status: held
 role: evidence
 used_by_sections: [5]
 claims: [exit-voice-standing]
@@ -17,6 +17,7 @@ source_basis: "Crossref-verified against the publisher record; abstract read."
 generated_run: 2026-08-11-p9
 flags: []
 superseded_by: "hirschman1970exit"
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 > **Status corrected 2026-08-11 (P9 reconciliation).** This card's frontmatter had gone out of step with the manuscript, which moved after the 8 August build while the library stood still. The frontmatter below is now true; the prose beneath it predates the correction and has not been rewritten.

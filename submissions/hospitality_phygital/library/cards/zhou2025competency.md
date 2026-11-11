@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1111/1744-7941.70004
 venue: "Asia Pacific Journal of Human Resources"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: rival
 used_by_sections: [5]
 claims: [algorithmacy-observed, competence-not-standing]

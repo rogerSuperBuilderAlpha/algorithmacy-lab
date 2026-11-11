@@ -1,0 +1,19 @@
+box-run: start 'q221-gateD2' [research, 2000 MB est, as-cap off MB, timeout 3000s] after 0s wait
+draws: nsi 171 (eligible 80) ; aff 210 (eligible 80) ; 74s
+features done 124s
+== evaluate on nsi (train-only rules learned on aff), n_forms=80, plug-in exact-rule rate 0.975
+   P0 score 0.5875 [0.5583, 0.6167]   minus chance +0.0000 [+0.0000, +0.0000]
+   P1 score 0.5125 [0.4000, 0.6250]   minus chance -0.0750 [-0.1875, +0.0333]
+   P2 score 0.5156 [0.4156, 0.6156]   minus chance -0.0719 [-0.1698, +0.0344]
+   P3 score 0.5698 [0.4677, 0.6687]   minus chance -0.0177 [-0.1198, +0.0782]
+   P4 score 0.6260 [0.5396, 0.7146]   minus chance +0.0385 [-0.0479, +0.1198]
+   P5 score 1.0000 [1.0000, 1.0000]   minus chance +0.4125 [+0.3833, +0.4458]
+== evaluate on aff (train-only rules learned on nsi), n_forms=80, plug-in exact-rule rate 1.000
+   P0 score 0.5292 [0.4917, 0.5625]   minus chance +0.0000 [+0.0000, +0.0000]
+   P1 score 0.4875 [0.4188, 0.5500]   minus chance -0.0417 [-0.0937, +0.0104]
+   P2 score 0.4646 [0.3865, 0.5396]   minus chance -0.0646 [-0.1365, +0.0063]
+   P3 score 0.5406 [0.4531, 0.6250]   minus chance +0.0115 [-0.0781, +0.0969]
+   P4 score 0.5458 [0.4698, 0.6177]   minus chance +0.0167 [-0.0417, +0.0750]
+   P5 score 1.0000 [1.0000, 1.0000]   minus chance +0.4708 [+0.4333, +0.5042]
+total 125s
+box-run: done 'q221-gateD2' rc=0 waited=0s ran=127s

@@ -6,7 +6,7 @@ year: 2019
 doi: 10.4468/2019.2.08mosca.larosa
 venue: "Symphonya. Emerging Issues in Management"
 cluster: mediation-sovereignty
-status: held
+status: cited
 role: rival
 used_by_sections: [6, 7]
 claims: [affordances-derived, editors-own-ground]

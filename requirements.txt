@@ -15,4 +15,6 @@ phyid @ git+https://github.com/Imperial-MIND-lab/integrated-info-decomp
 # native multivalued FactoredTPM, and pyphi.iit4_2023 versus pyphi.iit4_2026.
 # This line stays on feature/iit-4.0 so the benchmark does not move.
 #   pip install "pyphi @ git+https://github.com/wmayner/pyphi@feature/iit-4.0"
-pyphi @ git+https://github.com/wmayner/pyphi@feature/iit-4.0
+# Exact pin of the benchmark commit; graphillion (a PyPhi dependency) builds from source and needs a C++
+# compiler (e.g. apt install g++) on platforms without a prebuilt wheel, such as Python 3.13 on Linux.
+pyphi @ git+https://github.com/wmayner/pyphi@b78d0e342d37175cbd55cf35a6d52ae035b4c50f

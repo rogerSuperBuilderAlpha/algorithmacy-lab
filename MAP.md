@@ -96,11 +96,11 @@ Run the relevant generator after adding content, then verify with its `--check`.
 
 | count | what | source |
 |---|---|---|
-| 170 | questions | `org_frontier/questions/q*_*/` |
+| 171 | questions | `org_frontier/questions/q*_*/` |
 | 136 | probes | `org_frontier/probes/probe_*.py` |
 | 127 | studies | `org_frontier/studies/*/` |
 | 22 | essays | `org_frontier/essays/*.md` |
 | 9 | foundations experiments | `foundations/*/` with a `FINDINGS.md` |
 | 10 | literature reviews | `org_frontier/reviews/*/` with a `FINDINGS.md` |
 | 773 | watch entries (program-level) | `org_frontier/research/*/literature/references.bib` |
-| 15 | open threads | `OPEN_QUESTIONS.md` rows with status `open` |
+| 14 | open threads | `OPEN_QUESTIONS.md` rows with status `open` |
