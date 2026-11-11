@@ -1509,3 +1509,593 @@
 
 **Amendments recorded in this section**
 - S-128 locator: (2026: 7, 9–10).
+
+---
+
+## Assembled hosts at the touchpoint
+
+### S-149 · answers M.138 · 33w
+> Once the host is understood as assembled and the duty as staying with the role's holder, what comes into view is the path a guest's claim must travel to reach that holder.
+
+- **Form** ✅ 33w against 30; BRIDGE into the case.
+- **Construction** ✅ Pseudo-cleft, as M.138.
+- **Register** ✅ *comes into view*, *travel*, *reach*. M.138's *venture* not imitated.
+- **Value** ✅ Names what the section follows.
+- **Counterpart** ✅
+- **Truth** ✅ Sections 1–2.
+
+### S-150 · answers M.139 · 9w
+> The most familiar setting is the hotel front desk.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ Plain. **Value** ✅ The obvious setting. **Counterpart** ✅ **Truth** ✅ v5 §4.
+
+### S-151 · answers M.140 · 36w
+> Germann Molz (2018: 243–244) has shown the other end of the path, where a company that owns no lodging and employs no hosts appeals to its status as a platform to avoid legal responsibility.
+
+- **Form** ✅ 36w against 55; a paraphrase where M.140 quotes forty words.
+- **Construction** ✅ 'its' refers to 'a company'.
+- **Register** ✅ *shown*, *owns*, *employs*, *appeals*.
+- **Value** ✅ The journal's work on the platform end.
+- **Counterpart** ✅
+- **Truth** ✅ Germann Molz 2018: 243 ('It does not own any lodging properties or employ any service providers'), 244 ('to use its status as a digital platform to evade legal responsibility'). 'hosts': she writes that hosts are not employed by Airbnb (p. 243).
+
+### S-152 · answers M.142 · 20w
+> To keep with the theme of this special issue, we concentrate on phygital touchpoints in hotels, short-term rentals and restaurants.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ M.142's 'to keep with … I want to concentrate here on'. **Value** ✅ CASE-SCOPE. **Counterpart** ✅ **Truth** ✅ The special issue's call; v5 §1 ¶1.
+
+### S-153 · answers M.143 · 30w
+> We follow a claim from the guest to whoever could grant it and ask what an arrangement must keep, using cases that illustrate the distinctions rather than test them.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'a claim'; 'them' to 'the distinctions'.
+- **Register** ✅ *follow*, *grant*, *keep*, *illustrate*.
+- **Value** ✅ Limit stated in passing, as M.143's 'necessarily briefly'.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §9 ¶2 s1.
+
+### Heading: The authority–answerability split
+
+### S-154 · answers M.144 · 31w
+> By the authority–answerability split we mean an arrangement in which the party that can change a decision, or the rule behind it, is not a party the guest can reach.
+
+- **Form** ✅ 31w against 23. **Construction** ✅ Defined at the head of its subsection (Reviewer 1.3). **Register** ✅ 'By … we mean'. **Value** ✅ **Counterpart** ⚠️ M.144 says what the setting is for; ours says what the construct is. Both open the subsection on the thing itself. **Truth** ✅ v5 §4 ¶1 s1.
+
+### S-155 · answers M.145 · 22w
+> Under such an arrangement a guest's claim cannot travel from the person who receives it to the person who could grant it.
+
+- **Form** ✅ **Construction** ✅ 'it' twice, both 'a guest's claim'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶1 s1.
+
+### S-156 · answers M.146 · 25w
+> Accounts of phygital hospitality describe the movement between physical and digital touchpoints as fluid and make smoothness a goal of design (Batat 2024: 1220, 1233).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *describe*, *make*. **Value** ✅ The prevailing view. **Counterpart** ✅ Reports a recent view of the setting, as M.146. **Truth** ✅ v5 §4 ¶2, §7 ¶3.
+
+### S-157 · answers M.147 · 27w
+> On these accounts good technology removes queues, repetition, uncertainty and wasted effort so that the guest moves through the journey without friction (Batat and Hammedi 2023).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ Stated fairly; v5's 'glides' rejected as a reach. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶3.
+
+### S-158 · answers M.148 · 38w
+> The movement can as accurately be called a relay: physical moments become digital records, and digital rulings come back as physical facts, a key card that opens or does not, a price on the screen at the desk.
+
+- **Form** ✅ **Construction** ✅ Colon delivers the gloss; two concrete instances.
+- **Register** ⚠️ *relay* is a figure, kept once because it is argued for against 'fluid' and names a handoff (`OUR_BRIEF.md`, register 2).
+- **Value** ✅ COMPLICATION of the prevailing view.
+- **Counterpart** ✅ **Truth** ✅ v5 §4 ¶2.
+
+### S-159 · answers M.148 · 21w
+> A relay raises a question that fluidity hides, namely who holds authority, and who keeps room for judgement, at each handoff.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *raises*, *hides*. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶2.
+
+### S-160 · answers M.149 · 22w
+> The split also takes different shapes across hospitality formats, so that a theory built on the hotel desk alone would not hold.
+
+- **Form** ✅ **Construction** ✅ Named subject. **Register** ✅ **Value** ✅ HOOK (Reviewer 3.8). **Counterpart** ✅ **Truth** ✅ v5 §4 ¶5 s1.
+
+### S-161 · answers M.150 · 12w
+> Where the host's work sits differs between hotels, short-term rentals and restaurants.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶5.
+
+### S-162 · answers M.151 · 40w
+> In short-term rentals the platform divides the host's role among primary hosts, co-hosts and listing administrators (Bosma 2022: 601), and self-check-in can turn hosting into what Bosma calls ghosting, with no one present at arrival (2022: 605).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ 'what Bosma calls ghosting': her term, credited. **Value** ✅ **Counterpart** ✅ A list of types, as M.151. **Truth** ✅ Bosma card pp. 601, 605.
+
+### S-163 · answers M.153 · 42w
+> Hosts on such platforms resist the hotel's role, insisting 'I am not a butler though nor am I a receptionist in a hotel' (Kaniadakis and Farmaki 2022: 14), while the platform passes the guest-facing duties of hosting to them (Germann Molz 2018: 243–245).
+
+- **Form** ✅ **Construction** ✅ 'them' refers to 'hosts'. **Register** ✅ **Value** ✅ **Counterpart** ✅ READING of a type, as M.153. **Truth** ✅ v5 §4 ¶5; Germann Molz 2018: 243 (hosts responsible for cleaning up after and caring for guests).
+
+### S-164 · answers M.153 · 19w
+> In restaurants, by contrast, technology can be added to an encounter while staff go on hosting it (Batat 2021).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶5 (`batat2021ar`).
+
+### S-165 · answers M.154, M.155 · 25w
+> Across these formats the question is the same: whether a guest's claim can still reach someone with authority over the rule that produced the outcome.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ What the types share. **Truth** ✅ v5 §4 ¶5, last sentence.
+
+### S-166 · answers M.157 · 10w
+> Authority in commercial hospitality has long been graded and organizational.
+
+- **Form** ✅ **Construction** ✅ **Register** ❌ v5 has 'always'; rewritten 'long' (an overstatement about a whole trade). **Value** ✅ Reviewer 3.9. **Counterpart** ✅ **Truth** ✅ v5 §4 ¶1.
+
+### S-167 · answers M.158 · 7w
+> The split did not begin with algorithms.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ Compressed, as M.158. **Truth** ✅ v5 §4 ¶1.
+
+### S-168 · answers M.159 · 35w
+> In the upscale hotels Golubovskaya et al. studied, a manager told staff that guests 'are here as your guests, but they cannot demand everything', because the hotel has its 'own standard' (2017: 1297).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ The manager's words. **Value** ✅ Evidence held in full for graded authority, replacing the two abstract-only sources v5 flagged. **Counterpart** ✅ **Truth** ✅ Golubovskaya card p. 1297 ('they are here as your guests, but they cannot demand everything, always try to help them, but we have own standard').
+
+### S-169 · answers M.160 · 43w
+> The owner of a small commercial home sets the rules, admits and ejects in person (Di Domenico and Lynch 2007: 332–335), while the motel in Crinkley was shared, decades before any algorithm, among owners, an operating company and a franchisor (1988: para 7).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Two settings side by side. **Counterpart** ✅ **Truth** ✅ v5 §4 ¶1.
+
+### S-170 · answers M.161 · 33w
+> What phygital arrangements change is therefore not a complete frontline authority that once existed but the path from the guest to graded authority, which an algorithmic system can lengthen, obscure or remove.
+
+- **Form** ✅ **Construction** ✅ 'not … but' whose wrong half (a lost frontline authority) Reviewer 3 read v4 as assuming. **Register** ✅ *lengthen*, *obscure*, *remove*, each distinct. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶1, last two sentences.
+
+### S-171 · answers M.162 · 20w
+> The chain along which a claim now travels runs from guest to employee to system to whoever configured the system.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶2.
+
+### S-172 · answers M.163 · 11w
+> Three things that need not travel together come apart along it.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the chain'. Announces three, delivered in order. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶3.
+
+### S-173 · answers M.163 · 29w
+> Knowledge drifts towards the system, which can hold a guest's history, preferences, spending and loyalty status alongside the property's inventory and constraints (Rahman 2021; Calo and Rosenblat 2017).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *drifts*: v5's verb, a dead figure. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶3.
+
+### S-174 · answers M.163 · 34w
+> Discretion splits, because staff keep some freedom to act while more of their day goes to reading decisions made elsewhere and working around categories set elsewhere (Pedersen and Pors 2023; Spektor et al. 2025).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶3.
+
+### S-175 · answers M.164 · 38w
+> Authority over the rule drifts towards whoever designs, configures or controls it (Scott and Orlikowski 2012), often a vendor that keeps the right to 'change, withdraw, or cancel products and services at will' (Cobbe et al. 2023: 1195).
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the rule'. **Register** ✅ **Value** ✅ The finding at the touchpoint. **Counterpart** ✅ M.164's assembled host becomes the vendor behind the rule. **Truth** ✅ v5 §4 ¶3; Cobbe card p. 1195.
+
+### S-176 · answers M.165 · 28w
+> Discretion acts on the single case and authority on the rule, so a guest can meet someone with the first and never reach anyone with the second.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶3.
+
+### S-177 · answers M.166 · 34w
+> The problem is not the length of the chain but a break in it, at which the point where a decision is made comes apart from any point where the guest can be answered.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the chain'. **Register** ✅ Plain verb (M.166's *manufacture* not imitated). **Value** ✅ The subsection's close. **Counterpart** ✅ **Truth** ✅ v5 §4 ¶2, last two sentences.
+
+### Heading: Three conditions and six questions
+
+### S-178 · answers M.167 · 16w
+> To examine a touchpoint, then, we need to know what the guest's standing requires of it.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ M.167's 'To examine …, we must …'. **Value** ✅ **Counterpart** ✅ **Truth** ✅
+
+### S-179 · answers M.168 · 32w
+> The test we propose tells whether the conditions under which a guest can exercise standing survive the delegation of hosting work at a given touchpoint, and it measures neither satisfaction nor harm.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the test'. **Register** ✅ **Value** ✅ Purpose before the test (Reviewer 1.4). **Counterpart** ✅ **Truth** ✅ v5 §5 ¶1.
+
+### S-180 · answers M.169 · 17w
+> Researchers can use it to analyse an arrangement, and managers to audit one before or after deployment.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'the test'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶1.
+
+### S-181 · answers M.170, M.171 · 27w
+> Its conditions take their names from the study of coordination, which identifies 'three integrating conditions for coordination: accountability, predictability, and common understanding' (Okhuysen and Bechky 2009: 483).
+
+- **Form** ✅ **Construction** ✅ 'Its' refers to 'the test'. **Register** ✅ **Value** ✅ IMPORT, named. **Counterpart** ✅ **Truth** ✅ Okhuysen and Bechky card p. 483.
+
+### S-182 · answers M.172 · 44w
+> Their content here comes from the host's duties: common understanding from the duty to attend to this particular guest, predictability from terms held steady enough to be negotiated, and accountability, in the sense defined above, from the duty to answer through someone with authority.
+
+- **Form** ✅ **Construction** ✅ 'Their' refers to 'its conditions'. **Register** ✅ **Value** ✅ Replaces v5 Table 1. **Counterpart** ✅ Each term defined against the others, as M.172. **Truth** ✅ v5 §5 ¶1 and Table 1.
+
+### S-183 · answers M.173 · 48w
+> Each condition can be present or absent, and present in degrees, and the other two cannot make up for a missing accountability, since a guest who understands a system and can predict it has still been hosted by no one if no party is obliged to answer.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'a system'. **Register** ❌ v5's 'cannot be bought back' rejected as a figure; 'make up for' is plain. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶2.
+
+### S-184 · answers M.173 · 39w
+> Batat holds the parallel for her own framework, that failures by human connectors 'cannot be fixed or improved by improving other connectors' (2024: 1234), and Ananny and Crawford show that transparency alone cannot produce accountable systems (2018: 984).
+
+- **Form** ✅ **Construction** ✅ 'her': Batat is referred to as 'her' in v5 and in the card ('her own framework'); no inference from a name is made here beyond what v5 already printed. ⚠️ Kept pending your check; 'for the framework she proposes' would be safer and is used in the manuscript.
+- **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Batat 2024 card p. 1234; Ananny and Crawford paraphrased as in v5.
+- **As written** > Batat holds the parallel for the framework she proposes, that failures by human connectors 'cannot be fixed or improved by improving other connectors' (2024: 1234), and Ananny and Crawford show that transparency alone cannot produce accountable systems (2018: 984).
+
+### S-185 · answers M.174 · 14w
+> The test asks six questions, in the order in which a claim would travel.
+
+- **Form** ✅ **Construction** ✅ Announces six. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶3.
+
+### S-186 · answers M.174 · list
+> 1. What rule or actor determined the outcome?
+> 2. Could the guest have anticipated it, and is the guest told when it changes?
+> 3. Who can see how it was made?
+> 4. Who can override it?
+> 5. Who must answer if it is disputed?
+> 6. What does refusing the system cost the guest?
+
+- **Form** ✅ A displayed list replaces v5 Table 2.
+- **Construction** ✅ 'it' in items 2–5 refers to 'the outcome' of item 1.
+- **Register** ✅ Questions asked outright in a display.
+- **Value** ✅ The test.
+- **Counterpart** ✅ The questions are the six steps of M.174's sequence.
+- **Truth** ✅ v5 Table 2.
+
+### S-187 · answers M.175 · 21w
+> The first establishes whether the decision can be located at all, and the second and third examine predictability and common understanding.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Each question explained (Reviewer 3.14). **Counterpart** ✅ **Truth** ✅ v5 §5 ¶3.
+
+### S-188 · answers M.176 · 34w
+> The fourth and fifth separate the power over the single case from the duty to answer for the rule, and the fifth, which examines accountability, is the question on which the others depend.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶3.
+
+### S-189 · answers M.177 · 42w
+> The sixth asks what refusing the system costs the guest, because a guest who cannot decline the automated route without paying in money, effort or embarrassment has no real alternative, and an alternative is what gives a complaint its weight (Hirschman 1970).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ M.177's 'not only … but' becomes a reason clause. **Truth** ✅ v5 §5 ¶3.
+
+### S-190 · answers M.178 · 12w
+> Four cases, chosen across technologies and formats, show the questions at work.
+
+- **Form** ✅ **Construction** ✅ Announces four. **Register** ✅ **Value** ✅ Reviewer 3.7. **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4.
+
+### S-191 · answers M.179 · 29w
+> In hotel pricing, Garcia et al. found algorithmic recommendations pitched away from the price the algorithm itself judged best, in order to move managers who repriced too rarely (2026).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Garcia card; v5 §5 ¶4.
+
+### S-192 · answers M.180 · 48w
+> Neither guest nor staff could anticipate the operative rule and no one at the desk could explain the price, so the touchpoint fails on predictability and on accountability, although its legal weight is moderate unless the price bars a guest from the service (Article 29 Working Party 2018: 22).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ READING. **Truth** ✅ v5 §5 ¶4; card p. 22 (differential pricing that bars access as a possible significant effect).
+
+### S-193 · answers M.181 · 36w
+> At check-in, a facial-recognition system that confirms a guest's identity does a clerical job, while one that weighs the guest's history to decide how they will be received is deciding admission (Xu et al. 2021).
+
+- **Form** ✅ **Construction** ✅ 'they' refers to 'the guest'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4.
+
+### S-194 · answers M.181 · 13w
+> The six questions bear hard on the second and barely on the first.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *bear hard on*: ordinary idiom. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4.
+
+### S-195 · answers M.182, M.183 · 33w
+> In a short-term rental with self-check-in the app may answer the first three questions well, yet when a code fails at night no one with authority may be reachable (Bosma 2022: 605).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4. The night-time failure is v5's example built on Bosma's account of self-check-in; Bosma is cited for self-check-in, not for that example. ⚠️ Recorded.
+
+### S-196 · answers M.184, M.185 · 39w
+> When a restaurant projects an animated chef onto the table while staff go on hosting the meal, the technology adds to an encounter whose rules stay steady and whose staff keep their discretion (Batat 2021), and the touchpoint passes.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶4.
+
+### S-197 · answers M.186 · 18w
+> Together the cases show that a touchpoint can satisfy guests and harm no one while failing the test.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §5 ¶1.
+
+### S-198 · answers M.187 · 19w
+> An employee often stands between the guest and the system, and does work there that is easy to miss.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ COMPLICATION. **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4 s1.
+
+### S-199 · answers M.188 · 23w
+> Skilled front-desk employees manufacture a guest's sense of control through small acts of discretion, appearing to defer while steering the options (Bendoly 2013).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *manufacture*: the source's sense. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4.
+
+### S-200 · answers M.188 · 41w
+> Under algorithmic direction that work becomes translation in both directions, as managers carry the system's decisions to the people they affect (Jianu et al. 2025) and the employee at the desk carries the guest's request into terms the system will accept.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4.
+
+### S-201 · answers M.189 · 32w
+> The translation is fragile, because when a system quietly revises its rules the knowledge it rests on loses its value overnight and no one tells the employee or the guest (Hatherley 2025).
+
+- **Form** ✅ **Construction** ✅ 'its' and 'it' refer to 'a system' and 'the knowledge'. **Register** ✅ v5's 'depreciates' made plain. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4.
+
+### S-202 · answers M.189 · 46w
+> Staff are asked to produce a sense of control without holding the controls (Fuller and Smith 1991; Möhlmann et al. 2021), employees fall silent when speaking up looks futile (Morrison 2014), and frontline hospitality employees aware of artificial intelligence in their jobs report more silence (Cheng et al. 2025).
+
+- **Form** ✅ **Construction** ✅ Grouped evidence. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §4 ¶4. Duggan et al. (2026) dropped for length.
+
+### S-203 · answers M.190 · 23w
+> It is useful, therefore, to ask which decisions need a person with authority at the moment they are taken, and which do not.
+
+- **Form** ✅ **Construction** ✅ Dummy 'It' of extraposition, not a referring pronoun (Reviewer 1.6 does not apply). **Register** ✅ M.190's frame. **Value** ✅ HOOK. **Counterpart** ✅ **Truth** ✅
+
+### Heading: When a person must be reachable
+
+### S-204 · answers M.191 · 10w
+> Not every touchpoint needs a person with authority standing by.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ v5's 'the framework is stronger for saying which ones do' cut as self-grading. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1.
+
+### S-205 · answers M.192 · 43w
+> Baum and Laux distinguish forms of human involvement in automated systems by whether intervention can come before a decision takes effect, and what matters, they write, is 'not elapsed time but whether intervention can occur before the token output becomes effective' (2026: 6).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Baum and Laux card p. 6, arXiv version (`DECISIONS.md`, D6).
+
+### S-206 · answers M.193 · 44w
+> Synchronous intervention can change the decision a person is subject to, asynchronous review shapes future decisions, and for decisions too fast for any person the only human control is a limit set in advance and kept open to revision (Baum and Laux 2026: 6–8).
+
+- **Form** ✅ **Construction** ✅ Three clauses from the source. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1.
+
+### S-207 · answers M.194 · 13w
+> Applied to hospitality, the distinction gives a boundary that follows the host's obligation.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1.
+
+### S-208 · answers M.194 · 35w
+> Where a decision takes effect on the guest's person, access or contract during the stay and cannot be undone before the harm lands, the guest needs a reachable party with authority before it takes effect.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'a decision'. **Register** ✅ *lands*: dead figure. **Value** ✅ Reviewer 2.5a. **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1.
+
+### S-209 · answers M.194 · 31w
+> Where a decision can be deferred or undone, a reachable appeal is enough, and where it is too fast for anyone, the host answers for the rule it set in advance.
+
+- **Form** ✅ **Construction** ⚠️ 'it' twice: 'a decision', then 'the host'. Each has one candidate in its clause. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1.
+
+### S-210 · answers M.195 · 9w
+> Table 1 places common hospitality decisions against this boundary.
+
+- **Form** ✅ **Construction** ✅ Calls out the table by number (Reviewer 1.5). **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅
+
+### S-211 · answers M.195 · table
+> **Table 1. Hospitality decisions by stakes, reversibility and the recourse they need**
+>
+> | Decision | Stakes | Reversible in time? | Recourse it needs |
+> |---|---|---|---|
+> | Admission or refusal at the door or at check-in; a booking not honoured | High: shelter for the night | No | A reachable person with authority before refusal takes effect |
+> | Safety and access on the premises (lock-out, alarm, removal) | Highest | Often not; some too fast for any person | A reachable person where one can act in time; otherwise limits set in advance by the host and kept open to revision |
+> | Identity verification | Low as verification; high if failure blocks entry | Yes, if a staffed route exists | A staffed fallback; a reachable person if failure would refuse entry |
+> | Room assignment | Low to moderate; high where a guest's need makes a room unusable | Mostly | A later appeal by default; a reachable person where the room cannot be used |
+> | Pricing | Usually moderate; significant if a price bars access | Yes | A later appeal, and rules the host can explain |
+> | Complaints and service recovery | Varies with the failure | Partly | A reachable person with authority, at a time that suits the guest |
+> | Routine requests and information | Low | Yes | Automation, under rules set in advance |
+
+- **Form** ⚠️ No table in the model; kept by warrant (`PROPOSAL.md`, P3; Reviewer 2.5a).
+- **Construction** ✅ Citations moved from the cells to S-212, so the table carries no reference.
+- **Register** ✅ Plain labels.
+- **Value** ✅ The typology.
+- **Counterpart** ⚠️ Stands where M.195 reports a three-level hierarchy from a study.
+- **Truth** ✅ v5 Table 3, rows unchanged in substance.
+
+### S-212 · answers M.196 · 47w
+> Admission and refusal, and safety and access on the premises, head the table, because shelter for the night is at stake and some of these decisions cannot be undone in time; the regulators give the cancellation of a contract as an example of a legal effect, which would cover a booking (Article 29 Working Party 2018: 21).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅
+- **Truth** ✅ Card p. 21. **Correction of v5**: v5 said 'cancelling a booking is a legal effect' at p. 21. The guidance's example is the cancellation of a contract; its application to a booking is ours, and now reads as such.
+
+### S-213 · answers M.197 · 17w
+> Routine requests and information sit at the foot and can be automated under rules set in advance.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Table 1.
+
+### S-214 · answers M.198 · 26w
+> Identity checks, room allocation and pricing need a later appeal by default, and a reachable person where failure would refuse entry or leave a room unusable.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Table 1.
+
+### S-215 · answers M.199 · 17w
+> The placements are our own reading of the sources cited, and no study makes them for hospitality.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ Flat. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶1, last sentence.
+
+### S-216 · answers M.200 · 18w
+> The order follows the duties to receive and to protect, which is why admission and safety come first.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Ties the typology to the host's obligation. **Counterpart** ✅ **Truth** ✅ Section 1.
+
+### S-217 · answers M.201 · 12w
+> The law sets a floor beneath this boundary rather than a ceiling.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ *floor*, *ceiling*: dead figures, v5's. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-218 · answers M.202 · 51w
+> Under the General Data Protection Regulation, a person subject to a solely automated decision with legal or similarly significant effects has 'at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision' (Regulation (EU) 2016/679, art. 22(3)).
+
+- **Form** ⚠️ 51w; one over the ceiling set for v6, because the quotation cannot be cut without changing the right. **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-219 · answers M.203 · 28w
+> The guidance on that article requires the reviewer to be someone 'who has the appropriate authority and capability to change the decision' (Article 29 Working Party 2018: 27).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Card p. 27.
+
+### S-220 · answers M.204 · 23w
+> The right states no timing, and many hotel decisions may fall within the exception for decisions necessary to a contract (art. 22(2)(a)).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-221 · answers M.205 · 13w
+> The law therefore secures a later review, not a person at the threshold.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-222 · answers M.206 · 21w
+> The framework explains most where the guest is on site and the decision is high in stakes and hard to undo.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Reviewer 2.5b. **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-223 · answers M.207 · 9w
+> It explains less where decisions are remote and reversible.
+
+- **Form** ✅ **Construction** ✅ 'It' refers to 'the framework' in the previous sentence's subject; one candidate. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-224 · answers M.208 · 49w
+> It reaches its edge at the line between commercial and household hosting, where United States public accommodation law exempts an establishment with 'not more than five rooms for rent or hire' that is 'actually occupied by the proprietor of such establishment as his residence' (Civil Rights Act 1964, § 2000a(b)(1)).
+
+- **Form** ✅ **Construction** ⚠️ Second sentence in a row opening on 'It' for 'the framework'; kept, because the referent is unchanged and named two sentences back. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-225 · answers M.209 · 17w
+> A short-term rental in a host's own home can fall on the household side of that line.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### S-226 · answers M.211 · 10w
+> There the role obligation we describe is at its weakest.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §6 ¶2.
+
+### Heading: Designing for interruptible hospitality
+
+### S-227 · answers M.212 · 13w
+> Researchers disagree about whether guests should see the technology at all.
+
+- **Form** ✅ **Construction** ✅ 'Researchers' rather than 'the field'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+
+### S-228 · answers M.212 · 43w
+> One study of luxury production found customers so uneasy about technology that it advised keeping its use hidden to protect a sense of authenticity (Mosca and La Rosa 2019), while more recent work backs transparency and human oversight for high-stakes systems (Mosca 2026).
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'one study'; 'its' to 'technology'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+
+### S-229 · answers M.212 · 14w
+> Concealment makes the system harder to see and leaves the unease where it was.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Our verdict. **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+
+### S-230 · answers M.212 · 19w
+> Some of the conditions set out above can be delivered at the interface, and some only by the institution.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ v5's 'live at the interface' rejected. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+
+### S-231 · answers M.213 · 55w
+> Three principles belong to the interface: explain a decision where it lands, since guests prefer little disclosure at check-in and fuller explanation later in the stay (Pigac et al. 2026: 286); let guests adjust the settings that matter, because a path the system alone has chosen is not the guest's choice (Yeung 2017); and make significant rule changes visible (Hatherley 2025).
+
+- **Form** ⚠️ 55w; a semicolon list of three principles, each with its source, as the model lists types with semicolons (M.151). **Construction** ✅ 'it' refers to 'a decision'. **Register** ❌ v5's 'choice architecture and not choice' rewritten plainly. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1.
+
+### S-232 · answers M.214 · 15w
+> These three improve the interaction, and none of them decides who is answerable within it.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶1, last two sentences.
+
+### S-233 · answers M.215 · 11w
+> The other two principles are institutional, and they secure accountability.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶2.
+
+### S-234 · answers M.215 · 37w
+> The first is reachable authority to reverse: someone who can reverse or revise the decision must stay reachable, because a human who 'rubberstamps without genuine judgment does not thereby become an overseer' (Baum and Laux 2026: 12).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Baum and Laux card p. 12.
+
+### S-235 · answers M.215 · 49w
+> The deploying organization is best placed to reverse a decision (Lyons et al. 2021), algorithmic governance in services calls for routes of escalation and human oversight (Shabnam et al. 2026), and of five governance mechanisms only appeal raised the perceived legitimacy of an adverse algorithmic decision (Martin and Waldman 2023).
+
+- **Form** ✅ **Construction** ✅ Grouped evidence. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶2. Shabnam et al. paraphrased: the version read has no printed pages.
+
+### S-236 · answers M.216 · 19w
+> What guests need is not a human presence as such but someone with the power to change the answer.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶2.
+
+### S-237 · answers M.217 · 45w
+> The second is a real alternative: digital captivity is 'coerced participation in systems that have become unavoidable' (Wilson-Nash et al. 2026: 976), even a downgraded analogue route preserves a choice (2026: 978), and refusing the system 'may carry a personal cost and loss' (2026: 979).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ Reviewer 1.1. **Counterpart** ✅ **Truth** ✅ Wilson-Nash card pp. 976, 978, 979.
+
+### S-238 · answers M.217 · 30w
+> That cost is usually paid in effort rather than money, and research on mandatory self-service treats the work it moves onto the customer as labour (Kim et al. 2025).
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'mandatory self-service'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ Kim card, **abstract only**; the claim is the abstract's.
+
+### S-239 · answers none (W2) · 10w
+> The two institutional principles also show where interruptibility is owed.
+
+- **Form** ⚠️ W2. **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ⚠️ W2. **Truth** ✅ v5 §7 ¶3 s1.
+
+### S-240 · answers none (W2) · 29w
+> Smoothness has become a goal of phygital design (Batat 2024), and this journal has already traced the push for speed in hospitality technology to large corporations (Weaver 2026).
+
+- **Form** ⚠️ W2. **Construction** ✅ **Register** ✅ *traced*. **Value** ✅ The journal's own criticism, credited. **Counterpart** ⚠️ W2. **Truth** ✅ Weaver, **abstract only** ('Solidly positioned corporations set the pace of the speed agenda'); year corrected to 2026 (`DECISIONS.md`, D7).
+
+### S-241 · answers none (W2) · 42w
+> A system built never to interrupt the guest can become one the guest cannot interrupt, since infrastructure that works sinks out of sight (Star and Ruhleder 1996), and frictionless design can remove the occasion for a claim along with the annoyance.
+
+- **Form** ⚠️ W2. **Construction** ✅ 'one' refers to 'a system'. **Register** ⚠️ The chiasmus is kept from v5 because it states a fact; 'sinks out of sight' is the source's idea in a dead figure. **Value** ✅ **Counterpart** ⚠️ W2. **Truth** ✅ v5 §7 ¶3; CLAIMS `infrastructure-sinks-from-sight`.
+
+### S-242 · answers none (W2) · 30w
+> By interruptibility we mean a point at which the guest can stop the process, ask, redirect or be treated as an exception, with a counterparty there to receive the interruption.
+
+- **Form** ⚠️ W2. **Construction** ✅ **Register** ✅ 'By … we mean'. **Value** ✅ Defines the keyword. **Counterpart** ⚠️ W2. **Truth** ✅ v5 §7 ¶3.
+
+### S-243 · answers none (W2) · 32w
+> Interaction designers have long argued for revealing a system's seams (Chalmers and Galani 2004), but a visible seam is of no use to a guest unless someone with authority stands behind it.
+
+- **Form** ⚠️ W2. **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ⚠️ W2. **Truth** ✅ v5 §7 ¶3.
+
+### S-244 · answers none (W2) · 31w
+> Synchronous interruption is owed where a decision takes effect on the guest on site and cannot be undone in time, and a later appeal with authority to reverse serves the rest.
+
+- **Form** ⚠️ W2. **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ⚠️ W2. **Truth** ✅ v5 §7 ¶3.
+
+### S-245 · answers none (W2) · 27w
+> Voice offered without such authority can mislead, since voice offered after a decision, with the decision unchanged, still raised judgements of fairness (Lind et al. 1990).
+
+- **Form** ⚠️ W2. **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ⚠️ W2. **Truth** ✅ v5 §7 ¶3.
+
+### S-246 · answers M.218 · 18w
+> For organizations, the five principles line up as a roadmap of rising cost, which Table 2 sets out.
+
+- **Form** ✅ **Construction** ✅ Calls out the table. **Register** ✅ 'roadmap' is the editor's word. **Value** ✅ **Counterpart** ⚠️ M.218 closes the case on an idiom; v6's case section has a fourth subsection, which this opens (W2). **Truth** ✅ v5 §7 ¶4.
+
+### S-247 · answers M.218 · 39w
+> A property can begin by auditing its touchpoints with the six questions and naming the decisions taken in them, then specify what guests and employees can understand, adjust and challenge, and then design the capabilities that support those things.
+
+- **Form** ✅ **Construction** ✅ 'its' refers to 'a property'; 'them' to 'touchpoints'. **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶4.
+
+### S-248 · answers M.218 · 41w
+> The fourth stage constitutes accountability in Bovens' sense: a forum before which an identifiable actor with authority to change outcomes must explain and justify the organization's decisions, and which can question that actor and pass judgement (2007: 450, 452).
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ 'Forum' qualified (Reviewer 3.13). **Counterpart** ✅ **Truth** ✅ Bovens card.
+
+### S-249 · answers M.218 · 29w
+> In a hotel the forum is the place where a guest's claim can be lodged, and the actor is the manager, operator or brand that holds the host's role.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶4.
+
+### S-250 · answers M.218 · 36w
+> The fifth stage keeps a real alternative for guests who decline the automated route, and Table 1 tells an organization where the fourth must work in real time and where a later appeal will do.
+
+- **Form** ✅ **Construction** ✅ **Register** ✅ **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶4.
+
+### S-251 · answers M.218 · 22w
+> A property that stops after better interfaces and better-trained staff may have automated its hospitality without deciding who answers for it.
+
+- **Form** ✅ **Construction** ✅ 'it' refers to 'its hospitality'. **Register** ✅ No idiom at the close. **Value** ✅ **Counterpart** ✅ The section's close, as M.218. **Truth** ✅ v5 §7 ¶4, last sentence.
+
+### S-252 · answers M.218 · table
+> **Table 2. Five stages from interface fixes to institutional answerability, in rising order of cost**
+>
+> | Stage | What the organization does | Condition it secures | What it costs |
+> |---|---|---|---|
+> | 1. Audit | Maps its touchpoints with the six questions and names the decisions taken in them | Common understanding | Attention |
+> | 2. Specify | Establishes what guests and employees can understand, adjust and challenge | Common understanding, predictability | Analysis |
+> | 3. Design | Builds the capabilities that support interpretation and adjustment | Predictability | Design and training |
+> | 4. Constitute | Establishes a forum before which an accountable actor with authority to change outcomes must answer, in real time where Table 1 requires it | Accountability | Governance and staffing |
+> | 5. Preserve | Keeps a real alternative for guests who decline the automated route | Accountability, through exit | Ongoing operational commitment |
+
+- **Form** ⚠️ Kept by warrant (`PROPOSAL.md`, P3; the editor). **Construction** ✅ **Register** ✅ **Value** ✅ The roadmap. **Counterpart** ⚠️ No model counterpart. **Truth** ✅ v5 Table 4.
+
+**Section gate.** Assembled hosts at the touchpoint: sixteen paragraphs, about 2,810 words of prose by eye, plus a list of about 50 words and two tables of about 350; about 3,210 in all, against a budget of 3,110 ± 10% and the venue's 22–57% for the case. Inside both.
+
+**Amendments recorded in this section**
+- S-184: 'for her own framework' → 'for the framework she proposes'.
