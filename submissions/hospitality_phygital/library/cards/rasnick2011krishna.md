@@ -1,0 +1,88 @@
+---
+citekey: rasnick2011krishna
+title: "Rasnick v. Krishna Hospitality, Inc., 289 Ga. 565, 713 S.E.2d 835 (2011)"
+authors: "Supreme Court of Georgia (Hines, J., for the court; Carley, P.J., dissenting, joined by Hunstein, C.J., and Benham, J.)"
+year: 2011
+doi: ""
+url: "https://static.case.law/ga/289/html/0565-01.html"
+venue: "Georgia Reports, vol. 289, p. 565 (No. S10G0971, decided 5 July 2011; reconsideration denied 21 July 2011)"
+cluster: mediation-sovereignty
+status: held
+role: rival
+used_by_sections: [2, 3]
+claims: [k4-two-tier-duties, k7-channel-from-guest, k3-grounds-of-the-duty]
+read_depth: full-text
+verified: verified
+verified_date: 2026-11-11
+source_basis: "Primary legal source. Majority opinion, both footnotes and the dissent read whole on 11 Nov 2026 from the Harvard Caselaw Access Project (CAP) copy of 289 Ga. 565, saved by the P4a scout at manuscript/revision_2026-11/research/sources/rasnick2011krishna/ (HTML and extracted text). I re-fetched static.case.law/ga/289/html/0565-01.html the same day and it is byte-identical to the saved file. Record checked against CAP's case metadata (static.case.law/ga/289/cases/0565-01.json: official cite 289 Ga. 565, parallel 713 S.E.2d 835, decided 2011-07-05, docket S10G0971). The CAP text is OCR of the bound reporter with star pages; locators are reporter pages; three OCR slips are noted below. Restatement (Second) of Torts s. 314A was not read; it is recorded only as this court quotes it. 'verified' is used because the validator has no legal-source tier (precedent: eu2024aiact)."
+generated_run: rr-2026-11-k
+flags: [must-engage]
+hold_rationale: "Held as the rival the keystone must answer. A state supreme court held that a motel which a guest's wife telephoned repeatedly, asking that someone check on him, had no legal duty to do so, and it separated the moral obligation from the legal one in terms. The court left open whether a duty to render or summon aid exists in Georgia, so the case narrows K4 and K7 in one state and does not abolish the innkeeper's duty of care there. Three justices dissented. Authors decide admission; the jurisdiction (Georgia) must be stated wherever it is used."
+---
+
+*Card drafted by Claude (Fable 5.2), reader R4b, run rr-2026-11-k. Not the authors' wording.* Section numbers are v6's five sections.
+
+## Summary
+
+Sidney Rasnick, 77, on a work assignment from Texas, was a paying guest at a motel owned and operated by the defendant. On the evening of 12 March 2006 his wife telephoned the motel repeatedly, said he was on medication and that she was very worried, and asked that someone check on him. One operator told her she was disturbing her husband and hung up; her last five calls met a recorded message. A housekeeper found him on the floor the next morning and he died that day; a cardiologist said he would have survived with treatment the evening before. His widow sued for wrongful death in negligence. The Supreme Court of Georgia affirmed summary judgment for the motel: Georgia law imposed no duty on an innkeeper "to investigate or check on their guests to determine if they are in medical need" (570). The majority declined to adopt Restatement (Second) of Torts § 314A on these facts and left open whether any duty to render or summon aid under § 314A(2) exists in Georgia. Three justices dissented and would have sent the case to a jury.
+
+## Key facts / verified quotes with loci
+
+- **Court, date, vote.** Supreme Court of Georgia, No. S10G0971, decided 5 July 2011, reconsideration denied 21 July 2011; 289 Ga. 565, 713 S.E.2d 835. Hines, J., wrote for the court. The judgment line reads: "All the Justices concur, except Hunstein, C. J., Carley, P. J., and Benham, J., who dissent." (570). The opinion does not state the size of the bench, so the text supports "three justices dissented" and not, by itself, "4–3". [full-text]
+- **Jurisdiction and law applied.** Georgia common law and statute, on certiorari from the Georgia Court of Appeals (302 Ga. App. 260), which had affirmed summary judgment for the motel (565–566). [full-text]
+- **Parties and claim.** Virginia Rasnick sued Krishna Hospitality, Inc., which "owned and operated" the Motel Jesup, for the wrongful death of her husband, alleging that the failure of its personnel to heed her concern was a breach of a "duty to render aid to a paying guest" (565–566). Owner and operator were one firm; no brand or contractor appears in the opinion. [full-text]
+- **What the wife asked, and whom she reached** (n. 1, marked at 566, from her deposition as the Court of Appeals set it out). At 6:51 and 7:36 p.m. a female operator connected her to the room and nobody answered. At 7:55 p.m. she told a male operator "that her husband was on medication, that she was very worried about him, and that she needed someone to check on him"; "The operator told her that he knew who she was, that her husband was resting, and that she was disturbing him, and hung up." At 8:16 p.m. a female operator connected her to the room again. At 8:30 p.m. she asked the male operator whether he had found out about her husband; he "became irate, ranted and told Rasnick to dial her husband's room number, and then hung up". [full-text]
+- **The unanswered calls.** She "called the motel five more times from 7:58 p.m. to 10:44 p.m.", and "there was a recorded message advising that the party was unavailable" (n. 1; "7:58" is as printed and does not fit the sequence of earlier calls). The dissent describes the same calls as "each time receiving only an automated response from the motel switchboard" (572) and adds that at 8:16 p.m. "a female operator told her that the manager would be back shortly" (572). [full-text]
+- **No undertaking.** "Rasnick conceded that no motel operator ever told her that he or she would check on her husband." (n. 1) [full-text]
+- **Outcome on the facts.** The housekeeper found him on the morning of 13 March, the owner called 911, and he died that day; "A cardiologist opined to a reasonable degree of medical certainty that Mr. Rasnick would have survived had he received medical treatment on the evening of March 12." (565) [full-text]
+- **Holding 1: no general duty to rescue, and the premises duty does not reach the guest's illness.** The court applied "the general principle that, “a person is under no duty to rescue another from a situation of peril which the former has not caused.”" (567). It accepted "the well-settled principle that innkeepers have the duty to exercise ordinary care to provide their guests with premises that are reasonably safe for the guests' use and occupancy" (567) and held that a medical condition unrelated to the stay "is not internal to the premises but rather internal to the guest" (568; italics in the report). [full-text]
+- **Statutory basis of the premises duty, as the court quotes it.** OCGA § 51-3-1: "Where an owner or occupier of land, by express or implied invitation, induces or leads others to come upon his premises for any lawful purpose, he is liable in damages to such persons for injuries caused by his failure to exercise ordinary care in keeping the premises and approaches safe." (n. 2, marked at 567) [full-text]
+- **Restatement (Second) of Torts § 314A, as quoted by this court** (568), which gives its title as "Special Relations Giving Rise to Duty to Aid or Protect": "(1) A common carrier is under a duty to its passengers to take reasonable action (a) to protect them from unreasonable risk of physical harm, and (b) to give them first aid after it knows or has reason to know that they are ill or injured, and to care for them until they can be cared for by others. (2) An innkeeper is under a similar duty to his guests. (3) A possessor of land who holds it open to the public is under a similar duty to members of the public who enter in response to his invitation. (4) One who is required by law to take or who voluntarily takes the custody of another under circumstances such as to deprive the other of his normal opportunities for protection is under a similar duty to the other." The court adds "(Emphasis supplied.)"; the CAP HTML italicises subsection (2). [full-text]
+- **Holding 2: no duty to investigate or check.** "In light of a legislative reluctance to do so and in recognition of clear considerations of policy and pragmatism, we decline to judicially engraft into the caselaw of this State, the additional duty upon innkeepers to investigate or check on their guests to determine if they are in medical need, as urged by Rasnick." (570) [full-text]
+- **What the court left open.** "This holding is sufficient to decide this case, and thus, we need not determine now whether any duty to render or summon medical aid as may be set forth in Section 314A (2) should be adopted in Georgia." (570) [full-text]
+- **How the court distinguished the § 314A cases from other states.** "They involve situations in which the owner or operator of the premises had knowledge that its invitee was in imminent danger because of observation of the physical peril; no manner of investigation or inquiry was at issue." (568) [full-text]
+- **Reasons: the legislature.** The innkeeper statutes (OCGA § 43-21-1 et seq.) "do not impose upon innkeepers the duty to rescue and do not expand an innkeeper's duty of care for the personal safety of its guests beyond that required in our State's caselaw" (569). [full-text]
+- **Reasons: workability and privacy.** "To require that an innkeeper monitor in any manner the possible health problems of a guest, which are not caused by or are unrelated to the stay at the facility, is not only unwarranted as a matter of law but unworkable as a matter of fact and practicality." The court asks: "What type of inquiry would or should cause the innkeeper to inquire into the guest's state of health and from whom? Would the triggering inquiry have to be from a family member or would a friend or colleague or anyone with ostensible concern about the guest's health situation suffice? Such questions become crucial because issues implicating the guest's privacy are extant." (569) [full-text]
+- **What the court made of the calls.** It treated them as, at most, "reasonable information suggesting the guest may need medical assistance" (the plaintiff's phrase), that is, as foreseeability, which "does not mandate the expansion of traditional tort concepts" (569). [full-text]
+- **Moral and legal registers separated by the court.** "While issues of morality and humanity are certainly raised by the circumstances of this case, a moral or humane obligation does not compel the existence of a legal duty, the breach of which portends liability." (569–570) [full-text]
+- **Dissent (Carley, P.J., with Hunstein, C.J., and Benham, J.): the duty.** Quoting a 1956 Georgia Court of Appeals case: "“It is the duty of an innkeeper not only to furnish his guest or patron with shelter and comforts but also to exercise ordinary care to protect him from danger. [Cit.]”" (570). On the Restatement: "§ 314A applies when the innkeeper either “knows or has reason to know” that his guest is ill or injured" (571). [full-text]
+- **Dissent: the facts would go to a jury.** "The evidence in this case shows that the defendant motel was placed on notice of Mr. Rasnick's medication, his likely presence in the hotel room due to his earlier departure from work, his failure to respond to phone calls, and his wife's great concern. Under this evidence, a jury could find that the motel had reason to know that Mr. Rasnick was ill or injured, thereby triggering its duty to protect him from further danger." (572) [full-text]
+- **Dissent: appeal to the legislature.** "I further urge the General Assembly to close the gap in the common law resulting from the majority opinion's unnecessary limitation on the duties of an innkeeper and its inexplicable rejection of the application of § 314A to this case." (573) [full-text]
+- **Did the claim succeed?** No. Summary judgment for the motel stood: "Judgment affirmed." (570) [full-text]
+
+## Critical notes & threats
+
+- **The holding is narrower than "no duty to aid".** The majority refused a duty to *investigate or check* and expressly reserved the question whether a duty to render or summon aid exists (570). The scout's note that the court "declined to adopt subsection (2)" overstates it. The premises duty to guests is affirmed (567).
+- **Two wordings of § 314A(1)(a) in one report.** The majority's block quotation reads "to protect them from unreasonable risk of physical harm" (568). The dissent quotes the same clause as "to protect them against unreasonable risk of physical harm" (571), and so does the Colorado court in *Groh* (¶ 29, card groh2015westin). I did not read the Restatement and cannot say which is right, or whether "from" is a slip in the report or in the OCR. Anyone quoting § 314A must name the judgment quoted and check the page image of 289 Ga. 568.
+- **The report came from a relative, by telephone, and the guest asked for nothing.** The case is about a third party's report of a risk the court placed outside the host's duty. It is weaker authority against a channel from the guest about duties the host does owe (premises, goods).
+- **The court's workability objection is a published objection to any duty triggered by reports**: who may trigger it, about what, and at what cost to the guest's privacy (569). K7 has to say why its channel escapes that objection.
+- **The dissent's survey is second-hand.** Its statement that "A majority of jurisdictions have adopted the standard set forth in the Restatement (Second) of Torts § 314A" (570–571) is a quotation from a federal district court (*Hoff v. Elkhorn Bar*, D.N.D. 2009), which I did not read. The cases the majority lists at 568–569 (restaurants, a store, a pier, a lodge) are known to me only through the court's parentheticals. None may be cited from this card.
+- **OCR.** The CAP text prints "CAKLEY" for Carley, "•problem" at 568 and "hut" for "but" in n. 1. The majority spells one case "Newtown v. Candace" (567) and the dissent "Newton v. Candace" (570). None of these touches a quotation above.
+- **Later treatment not checked.** Whether the Georgia legislature or later courts changed the rule after 2011 was not checked. The Court of Appeals opinion (302 Ga. App. 260) was not read; the facts above are as this court restates them.
+
+## Where it bears on the argument
+
+- **K4 (legal content, two tiers): narrows; supports one sentence.** Georgia recognises the innkeeper's duty to keep premises reasonably safe (567) and stops there on these facts. The case refutes any unqualified statement that United States law imposes on innkeepers a duty to aid or attend to a guest. It supports K4's sentence that attending to the particular guest is not a legal duty, for Georgia, in the court's own words (569–570).
+- **K7 (channel from the guest): refutes the conclusion as a statement of Georgia law for this kind of harm; leaves P3 untested.** The motel had a channel (a telephone and an operator) and was told. The court found no wrong, because the underlying duty did not reach the guest's illness. The case attacks P1 for medical peril and does not address whether a holder must be able to learn of failures in duties it does owe. In the customary register it helps the paper: the court itself says the facts raise "issues of morality and humanity".
+- **K3 (grounds): narrows the dependence ground.** A guest alone in his room, far from home and unable to call for help, is the paper's picture of dependence; in Georgia that did not ground a duty to check. The absence of any undertaking by the motel is recorded in n. 1.
+- **K9 (mediation): a fact pattern only.** Five calls met a recorded message. The court drew nothing from that.
+
+**What the paper may say** (each for Georgia, naming the court):
+- An innkeeper in Georgia owes guests ordinary care to keep the premises reasonably safe (567).
+- The Supreme Court of Georgia held that a motel had no legal duty to investigate or check on a guest after his wife telephoned, said she was worried and asked that someone check on him (n. 1; 569–570), with three justices dissenting (570–573).
+- The court wrote that "a moral or humane obligation does not compel the existence of a legal duty" (570).
+- The court left open whether Georgia should adopt a duty to render or summon medical aid (570).
+- Restatement (Second) of Torts § 314A, as quoted in *Rasnick* at 568, places an innkeeper under "a similar duty to his guests" to the carrier's duty to protect passengers and to give first aid.
+- An operator hung up on the guest's wife and her later calls met a recorded message (n. 1; dissent, 572), as facts.
+- The dissent would have let a jury decide whether the motel "had reason to know" the guest was ill (572).
+
+**What the paper may not say:**
+- That Georgia rejected § 314A, or that an innkeeper in Georgia owes guests no duty of care.
+- That United States courts uniformly impose, or uniformly reject, a duty to aid guests; this card supports neither.
+- That the court held a hotel may ignore a guest's own request for help. The guest made none.
+- That the court ruled on automated answering or on the motel's telephone system.
+- That the vote was 4–3, without a source for a seven-member bench.
+- Anything on the authority of § 314A itself, its comments, or the cases the court lists from other states.
+- That the rule is current, without a check of later Georgia law.
+
+Card written by Claude (Fable 5.2), reader R4b, from the saved CAP text of the full opinion and dissent (sources/rasnick2011krishna/), on 11 Nov 2026, run rr-2026-11-k.
