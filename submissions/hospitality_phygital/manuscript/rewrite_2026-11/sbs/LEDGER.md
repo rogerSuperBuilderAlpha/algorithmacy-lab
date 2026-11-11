@@ -267,3 +267,696 @@
 - **Truth** ✅ v5 §1 ¶3, second half of the research question.
 
 **Section gate.** Introduction: four paragraphs, about 767 words by eye, against a budget of 700 ± 10% and the venue's 7–18% of the body. Inside both, at the top of the budget. Checked by count at assembly.
+
+---
+
+## The host's power and the host's obligation
+
+### S-027 · answers M.020 · 25w
+> The host's obligation is hard to see in commercial hospitality, in part because the trade has come to describe its own work as service.
+
+- **Form** ✅ 25w against 18; the section's opening claim with its reason, as M.020.
+- **Construction** ✅ 'its' has one antecedent, 'the trade'.
+- **Register** ✅ *hard to see*, *describe*: M.020's 'can be difficult to draw out … in part because'. Plain.
+- **Value** ✅ Why the obligation needs drawing out.
+- **Counterpart** ✅
+- **Truth** ✅ Golubovskaya card: service has become the dominant paradigm in commercial hospitality (p. 1283).
+
+### S-028 · answers M.021, M.022 · 30w
+> When Golubovskaya et al. asked twenty-two hotel frontline employees about their work, only six could define hospitality, and 'service' rather than 'hospitality' was their default perspective (2017: 1296).
+
+- **Form** ✅ 30w against 38 for the two.
+- **Construction** ✅ 'their' refers to the employees. Scholars as agents.
+- **Register** ✅ *asked*, *define*; numbers in words.
+- **Value** ✅ Makes the problem concrete.
+- **Counterpart** ✅ M.021–M.022 gloss and generalize; ours gives the evidence that does both.
+- **Truth** ✅ Card p. 1296: 'only the minority (6 of 22 participants)'; 'service' rather than 'hospitality' prevailed as the default perspective. The study was of upscale hotels in one region of Australia (card, p. 1300); not needed here.
+
+### S-029 · answers M.023, M.024 · 17w
+> The authors conclude that service-management terminology 'overrides hospitality within the commercial context' (Golubovskaya et al. 2017: 1299–1300).
+
+- **Form** ✅ Short verdict.
+- **Construction** ✅ 'The authors' names the agent of the previous sentence.
+- **Register** ✅ *conclude*: plain.
+- **Value** ✅ Their verdict in their words.
+- **Counterpart** ⚠️ M.023–M.024 name a field and its tendency; ours lets the study's authors do so, because 'the field' as agent is barred.
+- **Truth** ✅ Card pp. 1299–1300, quotation exact.
+
+### S-030 · answers M.025 · 17w
+> Hospitality scholars, in contrast, have long held that the host owes the guest something beyond the exchange.
+
+- **Form** ✅ The turn, as M.025's 'In contrast'.
+- **Construction** ✅ Scholars as subject.
+- **Register** ✅ *held*, *owes*. ❌ First attempt read 'have always held'; rejected as an overstatement about a body of writers (Reviewer 3.5, unsupported claims under a general subject). 'long' is defensible by the next three sentences.
+- **Value** ✅ Reaffirms the canon.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.1 ¶1 s1; notes `lynch2011`, `varley2018`.
+
+### S-031 · answers M.026 · 40w
+> The founding editorial of this journal finds, in the Greek, Roman and Enlightenment traditions that historians of hospitality study, a duty to the stranger that was sacred and reached beyond shelter to protection (Lynch et al. 2011).
+
+- **Form** ✅ 40w against 35; an instance from the journal.
+- **Construction** ✅ Long object held back to the end, where the next sentence can take up 'protection'.
+- **Register** ✅ *finds*, *reached*. ❌ First attempt followed the editorial's own wording too closely without quotation marks; rewritten as a paraphrase, since the repository copy gives no page for a quotation.
+- **Value** ✅ The obligation is old and is the journal's own.
+- **Counterpart** ✅ An instance, as M.026.
+- **Truth** ✅ Note `lynch2011`: historical accounts 'hark back to Greek and Roman or Enlightenment antecedents' (citing O'Gorman 2007; Still 2006), in which hospitality was a sacred obligation to accommodate and to protect the stranger.
+
+### S-032 · answers M.027 · 20w
+> Commercial houses made a similar promise: by O'Gorman's account, a traveller who crossed their threshold was guaranteed protection and refuge (2009).
+
+- **Form** ✅ 20w against 21.
+- **Construction** ✅ 'their' refers to 'commercial houses'.
+- **Register** ✅ *made a promise*, *crossed*, *guaranteed*. 'threshold' is the canon's word, used literally.
+- **Value** ✅ Carries the obligation into commerce.
+- **Counterpart** ✅
+- **Truth** ✅ O'Gorman card (pdf p. 11): crossing thresholds of commercial hospitality 'guaranteed and provided physical protection, sanctuary and security'. Paraphrased: author version, no VoR page.
+
+### S-033 · answers M.028 · 38w
+> Writing in this journal, Varley et al. (2018) put the point on King's (1995) authority: historically, the host was obliged to see to the guest's safety and comfort as well as to provide a place to stay.
+
+- **Form** ✅ 38w against 16; the instances summed in the journal's own words.
+- **Construction** ✅ Colon delivers the claim. No comma splice (M.028 has one).
+- **Register** ✅ *put the point*, *obliged*, *see to*.
+- **Value** ✅ The obligation stated on an authority the field knows.
+- **Counterpart** ✅ What the instances add up to.
+- **Truth** ✅ Varley card (§2 ¶2), on King 1995. King is cited as Varley et al. cite him; King's own text is held at abstract depth only, and v6 makes no claim about it beyond theirs.
+
+### S-034 · answers M.029 · 13w
+> Guests, Shryock writes, 'depend on their hosts for protection and respect' (2012: S23).
+
+- **Form** ✅ Short reason.
+- **Construction** ✅ Parenthetical reporting clause.
+- **Register** ✅ *depend*: the source's.
+- **Value** ✅ What the guest depends on.
+- **Counterpart** ✅ M.029's goods of the home, narrowed to two, from the source.
+- **Truth** ✅ Shryock card, S23.
+
+### S-035 · answers M.030 · 13w
+> To host, on these accounts, is to take the guest into one's charge.
+
+- **Form** ✅ Paragraph close on the claim.
+- **Construction** ✅ Infinitive subject; 'these accounts' points back to S-031 to S-034.
+- **Register** ✅ *take into one's charge*: plain idiom, and it is what *Woodland* later calls a relation of charge (S-127).
+- **Value** ✅ Hands 'charge' to the next paragraph.
+- **Counterpart** ✅ M.030 closes on the canon's claim; so does this.
+- **Truth** ✅ Our reading of the four sources, stated as such ('on these accounts').
+
+### S-036 · answers M.031 · 23w
+> In the classical law of hospitality the host commands: 'It is always the host who ordains, the guest who complies' (Pitt-Rivers 2012: 513).
+
+- **Form** ✅ 23w against 50; the canon in its words, with a shorter quotation (`OUTLINE.md`).
+- **Construction** ✅ Colon delivers the quotation.
+- **Register** ✅ *commands*: plain gloss before the source's *ordains*.
+- **Value** ✅ The host's power.
+- **Counterpart** ✅
+- **Truth** ✅ Pitt-Rivers card, p. 513.
+
+### S-037 · answers M.032 · 21w
+> Command brings duty with it: a host infringes the same law by failing 'to protect his guest' (Pitt-Rivers 2012: 516).
+
+- **Form** ✅ 21w against 33.
+- **Construction** ✅ Tail-head: 'commands' → 'Command'.
+- **Register** ✅ *brings*, *infringes* (the source's verb). ❌ First attempt added 'as surely as a guest who insults him'; cut as a flourish.
+- **Value** ✅ Power and duty together.
+- **Counterpart** ✅ GLOSS of the quotation.
+- **Truth** ✅ Card p. 516: 'If he fails to protect his guest or the honour of his guest'.
+
+### S-038 · answers M.033 · 23w
+> Shryock (2012: S25) draws the same connection from the other side, holding that 'sovereignty is manifest in the ability to act as host'.
+
+- **Form** ✅ 23w against 50.
+- **Construction** ✅ Scholar as subject.
+- **Register** ✅ *draws*, *holding*. 'from the other side': the connection runs from sovereignty to hosting.
+- **Value** ✅ The pairing from a second writer.
+- **Counterpart** ✅
+- **Truth** ✅ Card, S25.
+
+### S-039 · answers M.034 · 29w
+> Bulley (2015) adds that this power does not stop at the threshold: once the guest is inside, the host goes on policing and managing the distinctions that hospitality draws.
+
+- **Form** ✅ 29w against 20.
+- **Construction** ✅ 'this power' refers to the sovereignty of S-038.
+- **Register** ✅ *adds*, *policing*, *managing* (Bulley's verbs, paraphrased).
+- **Value** ✅ Power continues past the threshold.
+- **Counterpart** ✅ Closes the paragraph's evidence, as M.034's quotation does.
+- **Truth** ✅ Bulley card (MS p. 2 printed; PDF p. 3). Only the power half is Bulley's; the 'owes' half is not claimed for him (card, critical note). No page given: paraphrase.
+
+### S-040 · answers M.034 · 26w
+> We read these accounts together as saying that the party who admits the guest takes on the guest's safety for as long as the stay lasts.
+
+- **Form** ✅ The close, as our inference.
+- **Construction** ✅ 'these accounts' points to S-036 to S-039.
+- **Register** ✅ *read*, *admits*, *takes on*. First person marks our reading.
+- **Value** ✅ Our first step's ground.
+- **Counterpart** ⚠️ M.034 closes on a quotation; ours closes on our reading, because the inference is ours and must be marked as such.
+- **Truth** ✅ Marked as our reading; restores, with its proper ground, the half of v4's sentence that Bulley does not support (`RESPONSE_TO_EDITOR_v5.md`, item 1).
+
+### S-041 · answers M.035 · 16w
+> Yet the field is divided over whether a host who charges can be hospitable at all.
+
+- **Form** ✅ 16w against 31.
+- **Construction** ⚠️ 'the field' as subject, which the house rule discourages. Kept: the next five sentences name every party to the division.
+- **Register** ✅ *divided*, *charges*: plain.
+- **Value** ✅ The tension.
+- **Counterpart** ✅ 'Yet' opens the tension, as M.035.
+- **Truth** ✅ v5 §2.1 ¶1; Lashley and Slattery cards.
+
+### S-042 · answers M.036 · 21w
+> Lashley defines hospitableness as 'the willingness to be hospitable for its own sake, without any expectation of recompense or reciprocity' (2015: 1).
+
+- **Form** ✅ 21w against 32.
+- **Construction** ✅ Scholar as subject.
+- **Register** ✅ *defines*.
+- **Value** ✅ The first position.
+- **Counterpart** ✅ Names a term of the tension.
+- **Truth** ✅ Lashley card p. 1. He attributes the definition to Lashley and Morrison 2000 and Lashley et al. 2007; 'defines' is fair, since he restates it as his own.
+
+### S-043 · answers M.037, M.038 · 34w
+> Commercial hospitality, Lashley observes, is offered at a price and 'would be withdrawn if the payment could not be made', which is why some hold that it 'cannot deliver true hospitableness' (2015: 5).
+
+- **Form** ✅ 34w against 72 for the two.
+- **Construction** ✅ 'it' refers to 'commercial hospitality'.
+- **Register** ✅ *observes*, *hold*. ❌ First attempt read 'and so cannot deliver', which made the conclusion Lashley's; on p. 5 he reports it with citations to Ward and Martins, and Ritzer. Rewritten as 'some hold'.
+- **Value** ✅ The tension stated.
+- **Counterpart** ✅
+- **Truth** ✅ Card p. 5.
+
+### S-044 · answers M.040 · 20w
+> Slattery goes further: 'The buyers are not guests, they are customers. The relationship is not philanthropic it is economic' (2002: 21).
+
+- **Form** ✅ 20w against 28.
+- **Construction** ✅ Colon delivers two sentences of quotation, punctuation as printed.
+- **Register** ✅ *goes further*.
+- **Value** ✅ The denial at its plainest.
+- **Counterpart** ✅ 'And yet' becomes 'goes further': the second term fails differently.
+- **Truth** ✅ Slattery card p. 21.
+
+### S-045 · answers M.041 · 33w
+> Lynch et al. (2011) report a similar claim from Aramberri, for whom the people who meet in commercial tourism are better described as service providers and customers than as hosts and guests.
+
+- **Form** ✅ 33w against 19.
+- **Construction** ✅ 'whom' refers to Aramberri.
+- **Register** ✅ *report*, *described*.
+- **Value** ✅ The rival view, as the journal records it.
+- **Counterpart** ✅
+- **Truth** ✅ Note `lynch2011` ('Social control' ¶2). Reported, not cited direct; no reference to Aramberri is needed.
+
+### S-046 · answers M.042 · 45w
+> The journal's editors answered that hospitality still describes what passes between strangers within the commercial realm (Lynch et al. 2011), and Telfer, as reported by Lashley, holds that hospitable people offer hospitableness in hotels and bars 'beyond, and in spite of, the commercial transaction' (Lashley 2015: 5).
+
+- **Form** ✅ 45w against 36.
+- **Construction** ✅ No pronoun for Telfer; the source gives none.
+- **Register** ✅ *answered*, *describes*, *holds*, *offer*.
+- **Value** ✅ What keeps commerce inside hospitality.
+- **Counterpart** ✅ M.042's resolution of the paragraph.
+- **Truth** ✅ Note `lynch2011` ('hospitality remains a powerful term for describing social arrangements amongst strangers both within and beyond the commercial realm'); Lashley card p. 5 ('drawn to work in bars, hotels and restaurants, and offer hospitableness beyond, and in spite of, the commercial transaction').
+
+### S-047 · answers M.043 · 10w
+> The debate, on both sides, turns on the host's motive.
+
+- **Form** ✅ Short sum.
+- **Construction** ✅
+- **Register** ✅ *turns on*.
+- **Value** ✅ Names the shared premise.
+- **Counterpart** ✅ M.043 sums on 'thus'; ours is shorter.
+- **Truth** ✅ Our reading of S-042 to S-046.
+
+### S-048 · answers M.044 · 34w
+> Blain and Lashley set an obligation that is 'externally imposed' against hospitableness, with which it 'may be at odds', and look to secure the welcome by recruiting people with hospitable motives (2014: 2).
+
+- **Form** ✅ 34w against 17.
+- **Construction** ✅ 'it' refers to 'an obligation'.
+- **Register** ✅ *set against*, *secure*, *recruiting*.
+- **Value** ✅ The canon's own caution against an imposed duty.
+- **Counterpart** ✅
+- **Truth** ✅ Card p. 2: religious obligations 'may be at odds with Telfer's notion of hospitableness because the host is behaving in a way that has been externally imposed'; instrument for use in recruiting staff (card summary).
+
+### S-049 · answers M.046 · 45w
+> The instruments that follow identify 'individuals who are driven by a personal desire to be hospitable to others' (Lashley 2015: 1), and a recent study of hotel robots defines hospitableness as 'a host's disposition to care for a guest without expectation of reciprocity' (Liu et al. 2026: 2).
+
+- **Form** ✅ 45w against 40.
+- **Construction** ✅ Two parallel clauses.
+- **Register** ✅ *identify*, *defines*.
+- **Value** ✅ Shows motive measured in persons, even for robots.
+- **Counterpart** ✅ Where the difficulty comes from.
+- **Truth** ❌ Lashley card p. 1; Liu card p. 2. 'hotel robots' overstates the study, which used a designed video of a service robot (card p. 3). Rewritten.
+- **As written** > The instruments that follow identify 'individuals who are driven by a personal desire to be hospitable to others' (Lashley 2015: 1), and a recent study of service robots defines hospitableness as 'a host's disposition to care for a guest without expectation of reciprocity' (Liu et al. 2026: 2).
+
+### S-050 · answers M.045 · 34w
+> An account built on motive cannot follow the obligation under delegation, because a motive belongs to a person, cannot be handed on, and does not pass to the system that replaces the person.
+
+- **Form** ✅ 34w against 42; STEP-BEYOND, owned by the claim.
+- **Construction** ✅ Three predicates for one subject, 'a motive'.
+- **Register** ✅ *follow*, *belongs*, *handed on*, *pass*.
+- **Value** ✅ The first step's reason.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.1 ¶1, last three sentences.
+
+### S-051 · answers M.047 · 28w
+> We keep hospitableness for the quality with which a role is performed, which the hospitality literature describes in detail, and distinguish it from the source of the duty.
+
+- **Form** ✅ 28w against 41.
+- **Construction** ✅ 'which' refers to 'the quality'; 'it' to 'hospitableness'.
+- **Register** ✅ *keep*, *distinguish*. Rejected v5's 'so well' as praise without content.
+- **Value** ✅ The distinction the step rests on.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.1 ¶2, last sentence.
+
+### S-052 · answers M.048 · 36w
+> We argue instead that the commercial host's obligation is a role obligation: it has a content, a moment at which it comes into force, and a holder, and the law of innkeepers shows each of them.
+
+- **Form** ✅ 36w against 29.
+- **Construction** ✅ Colon delivers the three parts in the order the section takes them.
+- **Register** ✅ *argue*, *has*, *shows*.
+- **Value** ✅ The first step, stated.
+- **Counterpart** ✅ DEFINE announced, as M.048.
+- **Truth** ✅ v5 §1 ¶4; §2.
+- **Watch** The order announced here is content, moment, holder. S-053 opens with the role itself, then 1.6 content, 1.8 moment and holder. Delivered.
+
+### S-053 · answers M.049 · 19w
+> The obligation belongs to a role because the law attaches it to whoever receives travellers, whatever that party's motive.
+
+- **Form** ✅ 19w against 15.
+- **Construction** ✅ 'it' refers to 'the obligation'.
+- **Register** ✅ *belongs*, *attaches*, *receives*.
+- **Value** ✅ The role, with its reason.
+- **Counterpart** ✅ M.049's short definition with 'because'.
+- **Truth** ✅ v5 §2.1 ¶2.
+
+### S-054 · answers M.050 · 17w
+> Under the common law, those who followed a common calling were bound to serve all who came.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *followed*, *bound*, *serve*.
+- **Value** ✅ The first element.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.1 ¶2 s2; Burdick card; Lane v. Cotton card p. 484 (Holt's dissent on public trusts).
+
+### S-055 · answers M.051 · 33w
+> The duty narrowed over time until it attached 'only to common carriers by land and water (including ferrymen) and innkeepers' (Burdick 1911: 523), while the shopkeeper remained free to refuse (Wyman 1904: 159).
+
+- **Form** ✅ 33w against 50.
+- **Construction** ✅ No interruption between subject and verb.
+- **Register** ✅ *narrowed*, *attached*, *refuse*.
+- **Value** ✅ The narrowing and its contrast.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.1 ¶2; Burdick and Wyman cards.
+
+### S-056 · answers M.052 · 15w
+> The innkeeper's duties were, in Maese's words, 'fixed by law rather than by contract' (2015: 501).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ The role account compressed.
+- **Counterpart** ✅
+- **Truth** ✅ Maese card p. 501.
+
+### S-057 · answers M.053 · 24w
+> Bogen reads the English cases the same way, finding that it was 'English law, not the innkeeper's express commitment' that imposed them (1996: 75).
+
+- **Form** ✅ 24w against 32.
+- **Construction** ✅ Cleft 'it was … that'; 'them' refers to 'the innkeeper's duties'.
+- **Register** ✅ *reads*, *finding*, *imposed*.
+- **Value** ✅ A legal historian's reading.
+- **Counterpart** ✅ IMPORT, as M.053.
+- **Truth** ✅ Bogen card p. 75.
+
+### S-058 · answers M.054 · 25w
+> On this account the obligation neither depends on the host's motive nor lapses when the motive fails; it belongs to whoever occupies the role.
+
+- **Form** ✅ 25w against 45.
+- **Construction** ✅ 'it' refers to 'the obligation'.
+- **Register** ✅ *depends*, *lapses*, *belongs*, *occupies*. Two verbs where M.054 has nine.
+- **Value** ✅ What the role account does.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.1 ¶2.
+
+### S-059 · answers M.055 · 17w
+> The obligation also has a content, and the content is a bundle of duties rather than one.
+
+- **Form** ✅
+- **Construction** ✅ Tail-head on 'content'.
+- **Register** ✅ *bundle*: a dead figure, ordinary.
+- **Value** ✅ The second feature (Reviewer 3.11).
+- **Counterpart** ✅ 'But more than this' becomes 'also'.
+- **Truth** ✅ v5 §2.2 s1.
+
+### S-060 · answers M.056, M.039 · 30w
+> The innkeeper's historical duty was to provide 'bed, board, and hearth' (Sandoval-Strausz 2005: 63): to receive the traveller, to feed and shelter them, and to keep their belongings safe.
+
+- **Form** ✅ 30w against 24.
+- **Construction** ✅ Colon delivers three duties. 'them' and 'their' refer to 'the traveller'.
+- **Register** ✅ Concrete goods, as M.039's 'security, sustenance and shelter'.
+- **Value** ✅ The first duties.
+- **Counterpart** ✅ Both entries.
+- **Truth** ✅ Sandoval-Strausz card p. 63; Calye card fol. 33a (goods kept safe).
+
+### S-061 · answers M.057 · 37w
+> Calye's Case confined the innkeeper's strict liability to the guest's goods 'and not his person' (1584: fol. 33b), although later accounts report liability for harm to the guest as well (Bogen 1996: 82 n. 160; Maese 2015: 499).
+
+- **Form** ✅ 37w against 45.
+- **Construction** ✅ Concessive 'although' clause.
+- **Register** ✅ *confined*, *report*. No chain of opposites.
+- **Value** ✅ What the law covered.
+- **Counterpart** ✅
+- **Truth** ✅ Calye card fol. 33b ('ought to keep the goods and chattels of his guest, and not his person'); v5 §2.2 for Bogen and Maese.
+
+### S-062 · answers M.058 · 20w
+> Pitt-Rivers adds a duty the law did not carry: a host must 'show concern for their needs and wishes' (2012: 516).
+
+- **Form** ✅
+- **Construction** ✅ 'their' refers to the host's guests in the source; in our sentence it lacks an antecedent. ❌ Rewritten: 'a host must show concern for the guests' 'needs and wishes'' (manuscript form below).
+- **Register** ✅ *adds*, *carry*.
+- **Value** ✅ The duty of attention.
+- **Counterpart** ✅ A duty beyond the first.
+- **Truth** ✅ Card p. 516.
+- **As written** > Pitt-Rivers adds a duty the law did not carry: a host must show concern for the guests' 'needs and wishes' (2012: 516).
+
+### S-063 · answers M.059 · 25w
+> The commercial setting adds conditions of its own, since hotels work by 'standardized procedures and scripted interactions' that limit what employees may do (Golubovskaya et al. 2017: 1295).
+
+- **Form** ✅ 25w against 21.
+- **Construction** ✅ 'its own' refers to 'the commercial setting'.
+- **Register** ✅ *adds*, *work by*, *limit*.
+- **Value** ✅ The organization's conditions.
+- **Counterpart** ✅
+- **Truth** ✅ Card p. 1295 ('standardized procedures and scripted interactions which mitigate employee freedom and independence'). **Correction of v5**: v5 cited p. 1295 for 'offered at a price'; the price is Lashley's point (S-043), not Golubovskaya et al.'s at p. 1295.
+
+### S-064 · answers M.060 · 30w
+> None of these sources makes a negotiated exception something the guest is owed, and the exceptions the law recognized ran in the host's favour, as where loss arose from the guest's own fault (Calye's Case 1584: fol. 33a).
+
+- **Form** ✅ 30w against 8; a short verdict lengthened by its instance.
+- **Construction** ✅ 'these sources' points back to S-060 to S-063.
+- **Register** ✅ *makes*, *owed*, *recognized*.
+- **Value** ✅ Bounds what the guest is owed (Reviewer 3.11).
+- **Counterpart** ✅
+- **Truth** ✅ Calye card fol. 33a ('the innkeeper shall not be charged, for the fault is in the guest').
+
+### S-065 · answers M.061 · 27w
+> The welcome is therefore a set of duties, to receive, to sustain, to protect and to attend, held by a role and carried out within an organization.
+
+- **Form** ✅ 27w against 28.
+- **Construction** ✅ Four infinitives, each a duty named above.
+- **Register** ✅ *held*, *carried out*.
+- **Value** ✅ Closes the content.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.2, last sentence.
+
+### S-066 · answers M.062 · 20w
+> What separates hospitality from other services that may not turn a customer away is not this mechanism, which is general.
+
+- **Form** ✅
+- **Construction** ✅ 'this mechanism' points to the role obligation of 1.5.
+- **Register** ✅ *separates*, *turn away*.
+- **Value** ✅ Concedes first (Reviewer 2.4).
+- **Counterpart** ✅ Announces the contrast cases.
+- **Truth** ✅ v5 §2.5 s1.
+
+### S-067 · answers M.063 · 21w
+> A bank may not discriminate when a consumer applies for or uses a payment account (Payment Accounts Regulations 2015, reg. 18(1)).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ Plain.
+- **Value** ✅ First contrast.
+- **Counterpart** ✅ CONTRAST-CASE, as M.063.
+- **Truth** ✅ v5 §2.5.
+
+### S-068 · answers M.064 · 19w
+> No provider of services in Great Britain may discriminate by refusing a person the service (Equality Act 2010, s. 29(1)).
+
+- **Form** ✅
+- **Construction** ✅ Frame of S-067 varied.
+- **Register** ✅
+- **Value** ✅ Second contrast.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.5.
+
+### S-069 · answers M.065 · 23w
+> A hospital that takes part in Medicare must screen anyone who comes to its emergency department and asks (Emergency Medical Treatment and Labor Act 1986, § 1395dd(a)).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ Third contrast.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.5 for subsection (a). v5's further claim that the hospital's duty 'ends at stabilization' is **REFUSED**: it rests on a subsection no card covers.
+
+### S-070 · answers M.066 · 17w
+> Inaccessible decision-makers, weak appeals and costly exit trouble banking and online retail as much as hospitality.
+
+- **Form** ✅
+- **Construction** ✅ Three-part subject, each distinct.
+- **Register** ✅ *trouble*.
+- **Value** ✅ The concession Reviewer 2.4 asked for.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.5 s2.
+
+### S-071 · answers M.067 · 47w
+> What remains distinctive is narrower: among the common callings, the duty to receive all comers survived only for innkeepers and carriers (Burdick 1911: 523), and what the innkeeper received was the stranger's person and belongings, overnight, in a house that was not the stranger's own (Sandoval-Strausz 2005: 62–63).
+
+- **Form** ✅ 47w; M.067 was 48 in one sentence and v6 keeps it under fifty.
+- **Construction** ✅ Colon delivers two facts.
+- **Register** ✅ *remains*, *survived*, *received*.
+- **Value** ✅ What is distinctive.
+- **Counterpart** ✅ The case that matters most comes last.
+- **Truth** ✅ v5 §2.5.
+
+### S-072 · answers M.067 · 19w
+> The innkeeper's liability, moreover, reached beyond his own servants to 'other guests or any unidentified party' (Sandoval-Strausz 2005: 65).
+
+- **Form** ✅
+- **Construction** ✅ 'his' refers to the innkeeper; the period's own usage.
+- **Register** ✅ *reached*.
+- **Value** ✅ The depth of the charge.
+- **Counterpart** ✅
+- **Truth** ✅ Sandoval-Strausz card p. 65. ❌ First attempt restated Maese 2015: 501 from S-056, which would have said one thing twice; replaced.
+
+### S-073 · answers M.068 · 52w
+> In this sense we disagree with Slattery (2002: 21), for whom it is 'inaccurate and misleading' to treat the relationship between host and guest as the critical one in the hospitality business; we grant him the corporate context he describes, and argue that it changes who holds the host's role, not whether the role exists.
+
+- **Form** ⚠️ 52w against 20: the dispute carries a concession, which M.068 left to a note.
+- **Construction** ✅ 'him' and 'he' refer to Slattery; 'it' in the second clause to 'the corporate context'.
+- **Register** ✅ *disagree*, *grant*, *argue*. M.068's frame.
+- **Value** ✅ Marks the paper's position against a named rival.
+- **Counterpart** ✅
+- **Truth** ✅ Slattery card pp. 21, 25.
+
+### S-074 · answers M.069 · 10w
+> The role has a beginning as well as a content.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ Turns to the moment.
+- **Counterpart** ✅
+- **Truth** ✅
+
+### S-075 · answers M.070, M.072 · 18w
+> The obligation comes into force when a house holds itself out to travellers and a traveller presents themselves.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *comes into force*, *holds itself out*, *presents*.
+- **Value** ✅ The moment.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.3 ¶1 s1.
+
+### S-076 · answers M.071 · 38w
+> Arrival alone has never been enough: common inns, Calye's Case held, 'are instituted for passengers and wayfaring men' (1584: fol. 32b), and in Holt's dissent in Lane v. Cotton a full house excused refusal (1701: 485).
+
+- **Form** ✅ 38w against 17.
+- **Construction** ✅ Colon delivers two limits.
+- **Register** ✅ *held*, *excused*.
+- **Value** ✅ Bounds the moment.
+- **Counterpart** ✅
+- **Truth** ✅ Calye card fol. 32b; Lane v. Cotton card p. 485 ('If the Inn be full … the Action would not lie'), Holt CJ dissenting. **Correction of v5**: v5 quoted a neighbour 'who is no traveller' at fol. 32b. That wording is not on the checked card. v6 quotes the card's passage instead.
+
+### S-077 · answers M.073 (stands for M.081) · 50w
+> The Hotel Proprietors Act 1956 applies those duties to an establishment 'held out by the proprietor' as offering food, drink and, if required, a bed to 'any traveller presenting himself who appears able and willing to pay a reasonable sum … and who is in a fit state to be received' (s. 1(3)).
+
+- **Form** ✅ 50w; the statute in running text, under forty words a quotation.
+- **Construction** ✅ One elision, marked.
+- **Register** ✅ *applies*. The statute's words.
+- **Value** ✅ The moment, in law.
+- **Counterpart** ✅ Stands for the model's display.
+- **Truth** ✅ HPA card, s. 1(3).
+
+### S-078 · answers M.073 · 17w
+> The Act attaches those duties 'to the proprietor of such an hotel' and to no other person (s. 1(1)).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ The holder.
+- **Counterpart** ✅ Names the holder, as M.073 names the home.
+- **Truth** ✅ HPA card, s. 1(1) ('… attach to the proprietor of such an hotel and shall not attach to any other person').
+
+### S-079 · answers M.074 · 8w
+> But why was the innkeeper bound at all?
+
+- **Form** ✅ The one self-posed question.
+- **Construction** ✅
+- **Register** ✅ Plain.
+- **Value** ✅ A sub-question answered at once.
+- **Counterpart** ✅
+- **Truth** ✅
+
+### S-080 · answers M.075 · 26w
+> The legal history does not settle the question, and Bogen calls the explanation from holding out 'not so much a theory as a tautology' (1996: 52).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *settle*, *calls*.
+- **Value** ✅ First part of the answer.
+- **Counterpart** ✅
+- **Truth** ✅ Bogen card p. 52.
+
+### S-081 · answers M.076 · 37w
+> The most persuasive account we have found rests on the traveller's exposure: people on a journey, 'away from their home communities and in unfamiliar surroundings', were held to deserve a special legal status (Sandoval-Strausz 2005: 62–63).
+
+- **Form** ✅ 37w against 30.
+- **Construction** ✅ Colon delivers the account.
+- **Register** ✅ *rests on*, *held*. 'we have found' marks our search.
+- **Value** ✅ Second part.
+- **Counterpart** ✅
+- **Truth** ✅ Card pp. 62–63.
+
+### S-082 · answers M.077 · 22w
+> The duty, on this reading, answers to the condition of the person received rather than to the preference of the one receiving.
+
+- **Form** ✅
+- **Construction** ✅ One 'rather than' whose wrong half (motive) the section has just argued against.
+- **Register** ✅ *answers to*.
+- **Value** ✅ What the answer adds up to.
+- **Counterpart** ✅
+- **Truth** ✅ Our reading of S-081, marked.
+
+### S-083 · answers M.079 · 29w
+> To say that the law imposes the duty is not to say that the law explains it, or that it places today's hotels in any special legal category.
+
+- **Form** ✅
+- **Construction** ⚠️ 'it' twice: the first refers to 'the duty', the second to 'the law'. Each has one candidate in its clause.
+- **Register** ✅ GUARD in M.079's frame.
+- **Value** ✅ Heads off a misreading.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.3 ¶1 last sentence; §2.4 ¶1 on *Woodland*.
+
+### S-084 · answers M.080 · 21w
+> What the law does give is the moment at which the obligation comes into force and the party who holds it.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ Closes the paragraph on what the law supplies.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §2.3 ¶1.
+
+### S-085 · answers M.082 · 14w
+> Hospitality runs in two directions, and the guest has duties as well as claims.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *runs*.
+- **Value** ✅ Reviewer 3.10.
+- **Counterpart** ✅
+- **Truth** ✅ v5 §3.2 s1.
+
+### S-086 · answers M.083 · 37w
+> In Pitt-Rivers' classical rule the guest 'has no right other than to respect and no obligation other than to honour his host' (2012: 514), and a guest who 'makes claims or demands' usurps the host's place (2012: 515).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *usurps*: the source's verb.
+- **Value** ✅ The guest's side, classically.
+- **Counterpart** ✅ A quoted phrase, as M.083.
+- **Truth** ✅ Card pp. 514, 515.
+
+### S-087 · answers M.083 · 28w
+> In commercial hospitality the guest's duties narrow: in King's formulation, as Golubovskaya et al. report it, the guest's 'only obligation is to pay and behave reasonably' (2017: 1286).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *narrow*, *report*.
+- **Value** ✅ The commercial guest.
+- **Counterpart** ✅
+- **Truth** ✅ Golubovskaya card p. 1286; King cited as reported (card: secondary, not checked against King 1995).
+
+### S-088 · answers M.083 · 37w
+> The statutory traveller of 1956, able to pay and fit to be received, is already such a guest, and hotels ask guests to leave who will not follow the stay's rules after repeated requests (Xiang et al. 2022).
+
+- **Form** ✅
+- **Construction** ✅ 'such a guest' refers to S-087.
+- **Register** ✅ *ask to leave*, *follow*.
+- **Value** ✅ The law and practice match.
+- **Counterpart** ✅
+- **Truth** ✅ HPA s. 1(3) (S-077); Xiang card ('Only when guests do not abide by the ritual after repeated communications will they be asked to leave'). 'requests' paraphrases 'communications'.
+
+### S-089 · answers M.084 · 32w
+> The guest's side of the relation is therefore stated and conditional, and in the classical account a guest who fails it entitles the host to give up the role (Pitt-Rivers 2012: 517).
+
+- **Form** ✅
+- **Construction** ✅ 'it' refers to 'the guest's side'.
+- **Register** ✅ *stated*, *entitles*, *give up*.
+- **Value** ✅ The result.
+- **Counterpart** ⚠️ M.084 owns its result ('For me'); ours states it, because the result is Pitt-Rivers' as much as ours.
+- **Truth** ✅ Card p. 517.
+
+### S-090 · answers M.085 · 10w
+> The role has one further property: a firm can hold it.
+
+- **Form** ✅
+- **Construction** ✅ 'it' refers to 'the role'.
+- **Register** ✅
+- **Value** ✅ Prepares the assembled host.
+- **Counterpart** ✅ A further property, as M.085.
+- **Truth** ✅ v5 §2.3 ¶2.
+
+### S-091 · answers M.086 · 38w
+> Slattery observes that as economies develop, 'chains of hospitality businesses replace unaffiliated venues as the key operators in the industry' (2002: 24), and that the chains outsource services to suppliers, investors, consultants and internet companies (2002: 25).
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ *observes*, *outsource*.
+- **Value** ✅ The corporate holder, from the rival himself.
+- **Counterpart** ✅ IMPORT from another view, as M.086.
+- **Truth** ✅ Slattery card pp. 24, 25.
+
+### S-092 · answers M.087 · 31w
+> The holder may be the owner of a small commercial home, the proprietor of a hotel, the company that runs it day to day, or the brand under which it trades.
+
+- **Form** ✅ An untidy list of four, as M.087.
+- **Construction** ✅ 'it' twice, both 'a hotel'.
+- **Register** ✅ Plain nouns.
+- **Value** ✅ The range of holders.
+- **Counterpart** ✅
+- **Truth** ✅ Di Domenico and Lynch 2007; HPA s. 1(1); *Crinkley* para 7. That the brand can hold the role is our proposal, argued in 2.3.
+
+### S-093 · answers M.088 · 34w
+> Once the obligation belongs to whoever takes up the role of receiving travellers, it is not confined to the innkeeper in person, and holding out is how a party takes the role up.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅
+- **Value** ✅ The middle position, stated.
+- **Counterpart** ✅
+- **Truth** ✅ v5 abstract; §2.3 ¶2.
+
+### S-094 · answers M.089 · 19w
+> The next question is what becomes of the obligation when its holder hands the work of hosting to others.
+
+- **Form** ✅
+- **Construction** ✅
+- **Register** ✅ Plain statement of the next question; the question mark is kept for S-115.
+- **Value** ✅ The hook.
+- **Counterpart** ✅
+- **Truth** ✅
+
+**Section gate.** The host's power and the host's obligation: eleven paragraphs, about 1,790 words by eye, against a budget of 1,900 ± 10% and the venue's 12–30% for a grounding section. Inside both.
+
+**Amendments recorded in this section**
+- S-049 'hotel robots' → 'service robots'.
+- S-062 rewritten for a pronoun without an antecedent.
