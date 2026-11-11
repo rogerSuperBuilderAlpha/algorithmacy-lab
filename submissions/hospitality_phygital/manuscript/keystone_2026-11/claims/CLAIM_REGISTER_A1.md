@@ -4,7 +4,7 @@
 
 **Scope.** Sentence ids A-1 to A-6 and S-001 to S-026 of `manuscript/DRAFT_v6.md` (SHA-256 `8951cadf…537e7`, the hash frozen in K-D5). For every id the last 'As written' line of `rewrite_2026-11/sbs/LEDGER.md` matches the draft word for word (checked by script). The ledger's S-011 covers three sentences of v6; I label them S-011a, S-011b and S-011c.
 
-**How I judged.** I judged each row from the source's own text, never from a card or a ledger 'Truth' line. I did not open `CORRECTIONS_2026-11-11.md`, `VERIFICATION.md`, anything under `manuscript/reviews/`, or `CALIBRATION_RESULT.md`. Class numbers are the brief's: 1 population, 2 setting, 3 strength, 4 speaker, 5 scope, 6 design, 7 application, 8 version, 9 combination. Passages are pasted from the saved text with its locator.
+**How I judged.** I judged each row from the source's own text, never from a card or a ledger 'Truth' line. I did not read `CORRECTIONS_2026-11-11.md`, `VERIFICATION.md`, anything under `manuscript/reviews/`, or `CALIBRATION_RESULT.md`. Class numbers are the brief's: 1 population, 2 setting, 3 strength, 4 speaker, 5 scope, 6 design, 7 application, 8 version, 9 combination. Passages are pasted from the saved text with its locator.
 
 **Depth of reading, stated plainly.** For the open texts I read the passages that bear on each row and searched the whole file for terms that could refute it; I did not read every source cover to cover. Where a verdict would need a cover-to-cover read (`not in source`), I did not give it. The texts and what I read of each are listed under closing list 3.
 
@@ -206,7 +206,7 @@
 | S-011b.4 | … and as co-creators | Paraphrase | Xing and Zhang 2026, IJCHM 38(4): 1433–1452, title and Crossref abstract only. Closed. | Title: 'The algorithmic guest: AI as a co-creator in customer experience management'. The abstract does not use the word. | — | supported (abstract only) | minor | The support is the title alone. Read the article or drop the citation. |
 | S-011c.1 | Where the literature turns to governance it calls for human-first design | Paraphrase | Batat 2026, J. Services Marketing 40(4): 505–518, Crossref abstract only. Closed. | 'proposes a human-first logic grounded in "phygital phenomenology" by integrating technology without compromising experiential authenticity.' | — | supported (abstract only) | minor | None beyond obtaining the text. |
 | S-011c.2 | … and for contestable rules | Paraphrase | Shabnam et al. 2026, J. Services Marketing, published-online version, PDF p. 14, §7.2 (`shabnam2026tpsr/user_pdf/fulltext.pdf`) | 'Secondly, algorithmic governance must remain contestable. Digitally enforced rules should incorporate escalation pathways and human oversight to prevent rigid exclusion.' | — | supported | — | None. |
-| S-011c.3 | The literature does not say to whom these safeguards are owed or which of the firms behind a system owes them | Gap claim | Tested on Shabnam et al. 2026 (full text), Batat 2026 (abstract), the library, and the queries in closing list 4. Defeater texts read: Sharma and Mattila 2026, JHTR 50(6): 911, 915; Gursoy 2026, JHMM 35(2): 155–156, 160 (both saved, neither cited in v6). | Sharma and Mattila p. 911: 'who should be blamed? The restaurant company, the robotic manufacturer who provided the robot, or the algorithm creators who made it? Or was the manager on duty responsible…?' Gursoy p. 160: 'Algorithmic governance shifts authority from interpersonal judgment to computational logics, raising questions about accountability when harm, bias, or exclusion arise'. | — | partial | material | The gap survives only in a narrow form. Rewrite as: 'I found no work that states a duty owed to the guest or allocates it among the firms behind a system [databases, queries, date]', and engage the two papers that pose the question. Detail below. |
+| S-011c.3 | The literature does not say to whom these safeguards are owed or which of the firms behind a system owes them | Gap claim | Tested on Shabnam et al. 2026 (full text saved; I read §2 and §7 and searched the rest), Batat 2026 (abstract), the library, and the queries in closing list 4. Defeater texts read: Sharma and Mattila 2026, JHTR 50(6): 911, 915; Gursoy 2026, JHMM 35(2): 155–156, 160 (both saved, neither cited in v6). | Sharma and Mattila p. 911: 'who should be blamed? The restaurant company, the robotic manufacturer who provided the robot, or the algorithm creators who made it? Or was the manager on duty responsible…?' Gursoy p. 160: 'Algorithmic governance shifts authority from interpersonal judgment to computational logics, raising questions about accountability when harm, bias, or exclusion arise'. | — | partial | material | The gap survives only in a narrow form. Rewrite as: 'I found no work that states a duty owed to the guest or allocates it among the firms behind a system [databases, queries, date]', and engage the two papers that pose the question. Detail below. |
 
 - **S-011c.3, what the texts say.** Shabnam et al. address 'managers' and 'organisations' ('organisations should prioritise transparent artefact design', PDF p. 14) and policymakers, and name the beneficiary ('advancing consumer well-being'). They state no duty owed to the customer and do not divide the task among several firms. So 'without saying to whom … or which of the firms' is true of duty and of allocation, and misleading if read as 'the literature names neither an actor nor a beneficiary'.
 - **Limits of the evidence.** One of the two governance sources was read only in abstract, so its silence is unknown. 'The phygital literature' in (b) is built from service-robot and AI-encounter papers; on that same wide reading, hospitality papers on AI belong to it, and two of them ask the 'which party' question in terms of blame and liability (Sharma and Mattila 2026: 911, 915) or say that AI 'shifts responsibility' and 'authority' (Gursoy 2026: 155–156, 160). Neither answers it, and neither grounds it in what a host owes. That is the gap the paper can claim.
@@ -371,3 +371,126 @@
 - **Terms.** 'Answers to' is accountability to a forum (section 3); S-015's 'answering for' is liability. 'Guest' as above.
 - **Overgeneration.** A bank's customers could be said to 'remain customers' on the same terms; v6 concedes the mechanism is general.
 - **K claim.** K7 and K9.
+
+---
+
+## Closing lists
+
+### 1. Counts by verdict
+
+72 rows across 32 sentence ids.
+
+| Verdict | Rows | Severity |
+|---|---|---|
+| supported | 7 | — |
+| supported (abstract only) | 6 | 6 minor |
+| partial | 23 | 11 material, 12 minor |
+| not in source | 0 | — |
+| contradicted | 0 | — |
+| unverifiable | 1 | 1 minor |
+| valid | 4 | — |
+| valid with added premise | 9 | 2 material, 7 minor |
+| equivocal | 7 | 3 material, 4 minor (one of the material rows also undergenerates) |
+| overgenerates / undergenerates (as the main verdict) | 0 | — |
+| invalid | 6 | 2 fatal, 4 material |
+| signpost (no verdict) | 9 | — |
+
+Severity in all: 2 fatal, 20 material, 30 minor. Of the 26 rows that test an inference or a definition, 4 stand as written (three definitions and one summary).
+
+### 2. The fifteen rows that most endanger the paper
+
+1. **S-015.1** (fatal). 'Because the law attaches the duty to the role … the duty, and the answering for it, stay with the holder': attaching a duty to a role does not make it non-delegable, and for contractors the Occupiers' Liability Act 1957 s 2(4)(b) and Woodland paras 22, 24 and 25(3) say the opposite.
+2. **A-4.1** (fatal). The abstract states 'the work can be delegated and the duty cannot' as a rule and drops the body's hedge that Woodland's category may not include hotels.
+3. **S-014.2** (material). 'The law of innkeepers supplies all three': the content it supplies leaves out the guest's person (Calye), the holder it names excludes everyone but the proprietor (HPA 1956 s 1(1)), and it reaches inns only.
+4. **A-3.2** (material). The role obligation is claimed of 'the commercial host'; the argument moves from a customary obligation to a legal one and fails for restaurants, rentals and placed guests.
+5. **S-012.4** (material). 'The host's obligation is sought either in an injury or in a person's motive': two terms change sense, the dichotomy is not exhaustive, and Lashley (2015: 3–4) and the paper's next paragraph both locate the obligation elsewhere.
+6. **S-018.1** (material; twin A-6.2). The thesis says mediation 'rarely' removes the obligation and 'removes' the path; the paper has no frequency evidence and its own body says 'can … remove'.
+7. **S-023.2** (material). 'No way to say where it goes once no person does the hosting': Liu et al. (2026: 9), Sharma and Mattila (2026: 911, 915) and Gursoy (2026: 155–156, 160) have begun to say, and v6 cites only the first, for another point.
+8. **S-011c.3** (material). The gap in the phygital governance literature rests on one full text and one abstract, and two hospitality papers that pose the 'which party' question are missing from v6.
+9. **S-009.2** (material). Shryock's 'protect guests from harm' describes the Balga Bedouin's karim man; the sentence drops the setting, and Shryock (S31) separates karam from 'the hospitality offered to tourists'.
+10. **S-023.1** (material). The debate looks for hospitableness in motive; Lashley places the obligation in moral and religious systems (2015: 4). The sentence swaps the two.
+11. **S-012.2** (material). 'Ties it to harm' is true of Nissenbaum and Kong and false as a statement about algorithmic-accountability research; Lyons et al. (2021), in v6's own list, ground contestation in dignity and autonomy.
+12. **S-007.3** (material; twin A-2.1). 'Each … places the party who decides at a distance': in Garcia's sample the decider is the manager of a family-run hotel.
+13. **S-001.1** (material; twins A-1.1, A-1.2). 'Hands much of the work … from admission … to complaints': admission, room allocation and complaints have no source, and the paper's one admission case is constructed.
+14. **S-005.1** (material; twin A-1.3). 'Behind each of these stands a chain of vendors' rests on a paper about AI services at large that says 'often now'.
+15. **S-009.1** (material). 'On that view the host owes the guest more than a service': the editors report what historians say of ancient traditions; their own view states no duty.
+
+Next in line: A-4.3 and A-6.1 (material), each valid only with a premise the abstract does not state.
+
+### 3. Sources I could not read in full, and the rows that wait on them
+
+**Closed; abstract or less.**
+
+| Source | What I had | Rows that wait |
+|---|---|---|
+| Boo and Chua 2022 (10.1108/IJCHM-12-2021-1471) | Crossref abstract. Unpaywall, OpenAlex and Semantic Scholar report no open copy. | S-003.1 |
+| Germann Molz 2026 (10.1386/hosp_00107_1) | Crossref abstract. Unpaywall: closed. | S-010.4; and, as the nearest neighbour in the target journal, S-011c.3, S-023.2, A-6.2, S-018.1 |
+| Riordan 2024 (10.1386/hosp_00083_1) | Crossref abstract. Closed. | S-010.5 |
+| Brochado et al. 2026 (10.1108/JSM-09-2025-0709) | Crossref abstract. Closed. | S-011a.1 |
+| Li et al. 2021 (10.1016/j.ijhm.2021.102930) | Semantic Scholar abstract. Closed. | S-011b.3 |
+| Xing and Zhang 2026 (10.1108/IJCHM-07-2025-1138) | Title and Crossref abstract. Closed. | S-011b.4 |
+| Batat 2026 (10.1108/JSM-09-2025-0600) | Crossref abstract. Closed. | S-011c.1, S-011c.3 |
+| Telfer 1995, and the 2000 chapter | Nothing; closed (card records the attempts). Not cited in v6, but the debate that S-012.3 and S-023.1 characterize rests on her. | S-012.3, S-023.1; K2 |
+| Garcia et al. 2026, version of record (10.1287/mnsc.2022.03740) | Crossref record only. I read the CESifo working paper. | S-002.1; A-2.1 and S-007.3 use its pp. 2 and 10 |
+| Wirtz et al. 2022 (10.1177/10946705221130467); Kunz and Wirtz 2026 (10.4324/9781003643951-4) | Crossref records. The Sage PDF returned a bot challenge, which I did not try to pass; the chapter is closed. | S-011c.3 (possible defeaters) |
+
+**Read in a version other than the one cited.** Lynch et al. 2011, accepted manuscript without journal pages (S-008.1, S-008.2, S-009.1). Nissenbaum 1996, author's preprint with its own pagination (S-012.1, S-012.2). Lyons et al. 2021, arXiv copy (S-012.2). Calye's Case, 1777 edition of Coke's Reports by OCR, folio not re-checked (A-3.2, S-014.2).
+
+**Open texts read in part.** For these I read the passages named and searched the whole file; a second reader should not take my silence about the rest as a finding. Garcia WP (abstract, pp. 2–4, 9–11, 33). Belanche et al. (abstract, pp. 268, 273–277, 280–282, appendices). Bosma (pp. 602–605). Cobbe et al. (pp. 1187–1188, 1192–1193, and every hit for end-user, affected, visib-, customer). Lynch et al. (Introduction, 'Hospitality as social control', 'An agenda', 'Journal ambitions'). Shryock (S20–S21, S30–S31). Bialski (method statement, p. 257 and the pages either side). Germann Molz 2018 (method, pp. 241–244). Batat 2024 (pp. 1220, 1223, 1230, 1235, and every hit for smooth, seamless, fluid, personal). van Doorn et al. (abstract, p. 43). Shabnam et al. (abstract, §2, §7, and every hit for governance, accountab-, responsib-, contest-). Nissenbaum (pdf pp. 1–2, 11, 13). Kong (pp. 1–5). Lashley 2015 (pp. 1, 3–4, and every hit for obligation, duty, motive, instrument). Kropf et al. (abstract, pp. 6–7). Woodland (paras 7, 22–25); later treatment not checked, and Armes v Nottinghamshire [2017] UKSC 60 is saved and unread by me. HPA 1956 s 1. OLA 1957 s 2. Gursoy 2026 (pp. 155–157, 159–160, 162). Sharma and Mattila 2026 (pp. 908–909, 911, 915). Liu et al. 2026 (pp. 2, 7, 9). Pijls et al. 2017 (pp. 125–126). Tasci et al. 2021 (pp. 340–342). Slattery 2002 (pp. 22–23). Lyons et al. 2021 (arXiv p. 3).
+
+### 4. Gap and characterization claims, with the queries I ran
+
+All queries ran on 11 Nov 2026 and carried no author or project detail.
+
+**Query log.**
+
+- *Consensus* (20 records returned and read for each): Q1 'phygital service accountability: who is responsible to the customer for algorithmic decisions in hybrid physical-digital service'. Q2 'organizational hospitableness: hospitality organization as host, duty or obligation to guests beyond individual employee motive'. Q3 'hotel guests automated or AI decisions recourse: reaching a human with authority, accountability to guests in unmanned or smart hotels'. Q4 'algorithmic accountability as answerability owed to decision subjects regardless of harm: contestability, due process, right to human review'. Q5 'who is the host when hotels automate: host obligation, responsibility and hospitality without human hosts (robots, self-service, platforms)'. Q6 'hospitableness measurement scale organizational level hospitality culture scale firm-level hospitableness'. Q7 'hospitality studies host duty of care to guests assigned to hotel company or organization rather than individual host; role-based obligation of commercial hosts'.
+- *Crossref* (`query.bibliographic`, first 12 of each read; the ranking is loose and none of the first 12 bore on the claim): C1 'phygital accountability responsibility algorithmic governance customer' (719,542 matches). C2 'phygital service contestable escalation human oversight who is accountable' (4,368,470). C3 'organizational hospitableness host obligation duty firm level' (1,402,610). C4 'hotel guest algorithmic decision recourse human authority accountability' (4,247,672). C5 'hospitality host obligation algorithm delegation who answers to the guest' (1,687,008).
+- *Semantic Scholar*: 'algorithmic management hospitality guest complaint escalation' (160 matches, first 12 read, none on a guest's recourse). Three other queries failed with HTTP 429 after four tries each.
+- *OpenAlex*: every attempt returned HTTP 429.
+- *WebSearch*: W1 'phygital service research accountability "who is responsible" OR "responsibility" algorithmic decisions customers firm vendor'. W2 'hospitality theory "organisation as host" OR "organizational host" OR "corporate host" obligation to guests hospitableness beyond individual'. W3 'algorithmic accountability answerability "regardless of" harm OR "even without harm" OR "dignity" right to contest automated decision procedural justice'.
+- *Library*: `grep` of all 265 cards, held and rejected included, for phygital; responsib-, accountab-, owed, duty, liab-; vendor; chatbot, complaint, room allocation or assignment, risk scoring, instant book; hospitableness. Search summaries served as leads only; each text quoted in a row I opened myself.
+
+**The claims.**
+
+| Claim (row) | Queries | What I found |
+|---|---|---|
+| The phygital literature does not say to whom its safeguards are owed or which firm owes them (S-011c.3) | Q1, Q3, Q5; C1, C2; W1; library | I found no work that states a duty owed to the customer or guest, or that allocates such a duty among the firms behind a system, in the phygital service literature. I found two hospitality papers that pose the question of which party answers (Sharma and Mattila 2026: 911, 915; Gursoy 2026: 155–156, 160), both in terms of blame, liability and governance. Unread leads that could go further: Wirtz et al. 2022; Kunz and Wirtz 2026; Gustafsson 2026; Bakrim et al. 2025; Beckers and Teubner 2023. One of the two sources v6 cites for the governance turn is abstract-only. |
+| Algorithmic-accountability research ties answerability to harm (S-012.2) | Q4; W3; library | Refuted as a statement about the field. Lyons et al. (2021, arXiv p. 3) ground the ability to contest in 'human dignity and autonomy'; Yurrita et al. (2025, saved, abstract) speak of 'decision subjects' rights to dignity and autonomy'. Q4 returned a body of work on contestability, procedural justice and relational accountability (Metcalf et al. 2023; Novelli et al. 2023; Kinchin 2024; Henin and Le Métayer 2021), which I did not read. True of Nissenbaum and Kong. |
+| Hospitality research measures hospitableness as a motive of individual hosts (S-012.3) | Q2, Q6, Q7; C3; W2; library | True of Blain and Lashley's instrument (Lashley 2015: 1). Narrowed by Pijls et al. (2017: 125–126) and Tasci et al. (2021: 341). Unread leads on hospitality measured as an organization's culture: Dawson et al. 2011; Pizam 2020; Bandi Tanner et al. 2026. |
+| The commercial-hospitality debate looks for the obligation in motive and cannot say where it goes once no person hosts (S-023.1, S-023.2) | Q2, Q3, Q5, Q7; C5; W2; library | I found no hospitality scholar who assigns the host's duty to the guest to an organization and names its holder among several firms. I found work that says where hospitableness or responsibility goes when a machine hosts (Liu et al. 2026: 9; Sharma and Mattila 2026: 915; Gursoy 2026: 155–156). Unread leads: Koo and Kwon 2026 ('socio-hospitality' for machine-mediated contexts); van Rheede and Dekker 2016 ('host as shepherd'); Lashley 2014 (editorial on the host's duty to protect); Germann Molz 2026 (closed). |
+| No prior work makes the paper's argument for hospitality (A-6, S-018; K9's defeater) | Q3, Q5; C4; Semantic Scholar; library | I found no work that argues that algorithmic mediation leaves a host's duty in place and removes the guest's path to someone with authority. Nearest: Gursoy 2026: 157 ('human-led resolution' that preserves 'accountability'), 160; Germann Molz 2026 (abstract: 'erasing hosts'). The studies of unmanned hotels that Q3 returned measure acceptance, satisfaction and forgiveness. |
+| Hospitality scholars have long resisted the food-drink-bed definition (S-008.1) | Source text only | Lynch et al. report that this definition dominates academic discourse. Slattery (2002: 23) quotes Brotherton and Wood's definition of hospitality as 'a contemporaneous human exchange, which is voluntarily entered into', which names no duty. Both narrow K1. |
+
+### 5. Sources to drop, and leads to replace or add
+
+**Drop, replace or confine.**
+
+- **Boo and Chua 2022** (S-003.1). An adoption-intention survey read in abstract cannot carry 'verify identity at check-in' as a fact about hotels, nor the later claim that such a system 'does a clerical job'. I found no replacement; a source on deployed biometric check-in is needed. Xu et al. (card `xu2020facial`) is also abstract-only.
+- **Brochado et al. 2026** (S-011a.1). The abstract does not state the proposition. Drop the sentence or read the review.
+- **Xing and Zhang 2026** (S-011b.4). Title-only support. Drop or read.
+- **van Doorn et al. 2017** and **Li et al. 2021** (S-011b.2, S-011b.3). Keep, as service research on robots and AI encounters; they are not 'the literature on [phygital operation]'.
+- **Cobbe et al. 2023** (S-005). Keep for AI supply chains. It cannot carry a fact about hospitality systems or about what a guest meets.
+- **Shryock 2012** (S-009.2). Keep only with its setting; it supports the customary duty among the Balga and, at S31, cuts against carrying it into commerce.
+- **Lynch et al. 2011** (S-008.1, S-009.1). Keep for the editors' aim; do not cite it for a duty that hosts owe.
+
+**Leads** (record, and where I found it; 'read' means I opened the saved text).
+
+| Lead | Record | Where found | Bears on |
+|---|---|---|---|
+| Sharma and Mattila 2026, 'Rights and responsibilities of hospitality service robots', JHTR 50(6): 904–920 | 10.1177/10963480251393749 (Crossref) | Library (`sharmamattila2025rights`, full text saved); Q3, Q5, Q7. Read pp. 908–909, 911, 915. | S-011c.3, S-023.2: poses 'who should be blamed' among restaurant, manufacturer, algorithm maker and manager |
+| Gursoy 2026, 'Reconceptualizing customer experience co-creation…', JHMM 35(2): 151–165 | 10.1080/19368623.2025.2611513 (Crossref) | Library (`gursoy2026reconceptualizing`, full text saved); Q3, Q5. Read pp. 155–157, 160. | S-011c.3, S-023.2, A-6: AI 'shifts responsibility'; accountability 'when harm, bias, or exclusion arise' |
+| Tasci, Aktas and Acikgoz 2021, 'Cultural differences in hospitableness', THM 27(2): 339–361 | 10.20867/thm.27.2.6 (Crossref; open, CC BY-NC-SA) | Q6. Saved this session at `sources/tasci2021cultural/`. Read pp. 340–342. | S-012.3: how hospitableness has been measured |
+| Pijls et al. 2017, 'Measuring the experience of hospitality', IJHM 67: 125–133 | 10.1016/j.ijhm.2017.07.008 (Crossref) | Library (`pijls2017measuring`, saved). Read pp. 125–126. | S-012.3 |
+| Lyons, Velloso and Miller 2021 (already in v6's list) | 10.1145/3449180 (Crossref) | Library (saved arXiv copy). Read p. 3. | S-012.2: a ground other than harm |
+| Liu, Benckendorff and Walters 2026 (already in v6's list) | 10.1016/j.ijhm.2026.104640 | Library (saved). Read p. 9. | S-023.2 |
+| Wirtz, Kunz, Hartley and Tarbit 2022, 'Corporate digital responsibility in service firms and their ecosystems', J. Service Research 26(2): 173–190 | 10.1177/10946705221130467 (Crossref; Unpaywall lists it as hybrid open access) | Q1. Not read: the publisher PDF returned a bot challenge. | S-011c.3: responsibility across a service firm and its partners |
+| Kunz and Wirtz 2026, 'Corporate digital responsibility in tourism and hospitality', in *The Ethics of AI in Hospitality and Tourism*, pp. 57–71 | 10.4324/9781003643951-4 (Crossref) | Crossref search for the item above. Closed; not read. | S-011c.3, A-6 |
+| Gustafsson 2026, 'Unmanned, not unmanaged: phygital service design…', J. Services Marketing | 10.1108/jsm-09-2025-0693 (Crossref) | Q1. Not read. | S-011c.3; unstaffed formats in the phygital literature |
+| Bakrim et al. 2025, 'Navigating paradoxes in phygital systems', J. Macromarketing 46(3): 343–363 | 10.1177/02761467251409668 (Crossref) | Q1. Not read. | S-011b.1: a phygital paper on surveillance and exclusion, against 'smoother and more personal' |
+| Beckers and Teubner 2023, 'Human–algorithm hybrids as (quasi-)organizations?', J. Law and Society 50(1): 100–119 | 10.1111/jols.12412 (Crossref) | Q1. Not read. | S-012.1: accountability placed on a collective actor, not on designer or deployer |
+| Novelli, Taddeo and Floridi 2023, 'Accountability in artificial intelligence', AI & Society 39(4): 1871–1882 | 10.1007/s00146-023-01635-y (Crossref) | Q4. Not read. | S-012.2 |
+| Dawson, Abbott and Shoemaker 2011, 'The Hospitality Culture Scale', IJHM 30(2): 290–300; Pizam 2020, 'Hospitality as an organizational culture', JHTR 44(3): 431–438 | 10.1016/j.ijhm.2010.10.002; 10.1177/1096348020901806 (Crossref) | Q2, Q6. Not read. | S-012.3, S-023.1: hospitality measured at the level of the organization |
+| Koo and Kwon 2026, 'Three ages of hospitality reflection', IJCHM | 10.1108/ijchm-10-2025-1555 (Crossref; an erratum exists) | Q5. Not read. | S-023.2, A-6: hospitality as an ethical process in machine-mediated settings |
+| van Rheede and Dekker 2016, 'Hospitableness and sustainable development', RHM 6(1): 77–81; Lashley 2014, 'Editorial', RHM 4(1–2): iii–v | 10.2989/rhm.2016.6.1.10.1298; 10.1080/22243534.2014.11828306 (Crossref) | Q2, Q7. Not read. | S-023.1, K1, K2: the host's responsibility and duty in the hospitableness literature |
+| Slattery 2002: 23 (already in v6's list), quoting Brotherton and Wood | — | Library (saved). Read pp. 22–23. | S-008.1, K1: a canonical definition with no duty |

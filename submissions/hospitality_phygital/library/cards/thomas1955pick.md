@@ -65,7 +65,7 @@ Earl D. Thomas, a Black man, sued The Pick Hotels Corporation and others for dam
 - That the refused guest won, or recovered damages.
 - That the court applied the duty to receive to a walk-in traveller.
 - That this is the present law of Kansas or of the United States.
-- That the court said the duty is owed "to all members of the general public" in its own voice; that phrase summarises the pleading.
+- That the court said in its own voice that the innkeeper must "accommodate all members of the general public"; that phrase summarises the pleading (665).
 - That the duty is described as owed to the public and not to the guest: the court's phrase is a "relational duty", and the statute as it describes it gives damages "to the person or persons injured".
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved CAP text of the whole opinion (sources/thomas1955pick/), on 11 Nov 2026, run rr-2026-11-k.

@@ -58,13 +58,13 @@ Curtis Hoyt drank at a bowling alley and tavern in Guthrie Center, Iowa, taunted
 
 - **K4 (reception tier): supports for a bar, in Iowa.** A tavern owes a patron reasonable care for his safety, third parties' acts included (776–777). The duty is one of reasonable care and no more (780).
 - **K3 (grounds): supports, and narrows.** The reasons the court quotes match the paper's three grounds closely: a relationship "entered into voluntarily"; one that may "compromise a person's ability to self-protect, while leaving the actor in a superior position"; and a business that "holds its premises open to the public" (776–777). The same passage adds a fourth reason the paper does not list, benefit to the actor, and the list of relationships shows that none of these grounds is specific to hosts.
-- **K5 (directedness): supports.** The court's first reason is that "the relationship identifies a specific person to be protected" (777), and the patron sues in his own name.
+- **K5 (directedness): supports.** The court's first reason is that the relationship "identifies a specific person to be protected" (777), and the patron sues in his own name.
 - **K7: a lead only.** The dissent treats a patron's request for help as what made the later attack foreseeable in another case (783). That is one judge's description of a case not read here.
 
 **What the paper may say** (for Iowa, naming the court):
 - The Supreme Court of Iowa held that a tavern owes its patrons a duty of reasonable care, which extends to harm done by other patrons (776–777).
 - Restatement (Third) of Torts § 40, as quoted in *Hoyt* at 776, lists "an innkeeper with its guests" among special relationships that give rise to "a duty of reasonable care with regard to risks that arise within the scope of the relationship", beside carriers and businesses open to the public.
-- The court adopted, for taverns, the reasons that such a relationship "identifies a specific person to be protected", is commonly "entered into voluntarily", and may "compromise a person's ability to self-protect" (777).
+- The court adopted, for taverns, the reasons that such a relationship "identifies a specific person to be protected", is one "entered into voluntarily", and may "compromise a person's ability to self-protect" (777).
 - The duty is not strict liability (780).
 
 **What the paper may not say:**
