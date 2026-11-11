@@ -756,6 +756,8 @@
 - **Value** ✅ The depth of the charge.
 - **Counterpart** ✅
 - **Truth** ✅ Sandoval-Strausz card p. 65. ❌ First attempt restated Maese 2015: 501 from S-056, which would have said one thing twice; replaced.
+- **Correction after the reviewer pack (11 Nov 2026), C56** ❌ The strict liability concerns the obligation to safeguard guests' property; following 'person and belongings', the sentence read as liability for persons too. Source: full text, revision_2026-11/research/sources/sandovalstrausz2005travelers, p. 65.
+- **As written** > The innkeeper's liability for guests' goods, moreover, reached beyond his own servants to 'other guests or any unidentified party' (Sandoval-Strausz 2005: 65).
 
 ### S-073 · answers M.068 · 52w
 > In this sense we disagree with Slattery (2002: 21), for whom it is 'inaccurate and misleading' to treat the relationship between host and guest as the critical one in the hospitality business; we grant him the corporate context he describes, and argue that it changes who holds the host's role, not whether the role exists.
@@ -1669,6 +1671,8 @@
 > On these accounts good technology removes queues, repetition, uncertainty and wasted effort so that the guest moves through the journey without friction (Batat and Hammedi 2023).
 
 - **Form** ✅ **Construction** ✅ **Register** ✅ Stated fairly; v5's 'glides' rejected as a reach. **Value** ✅ **Counterpart** ✅ **Truth** ✅ v5 §7 ¶3.
+- **Correction after the reviewer pack (11 Nov 2026), C55** ❌ The list 'queues, repetition, uncertainty and wasted effort' is not in the source (full text searched); the source's own words now carry the point. Source: full text, revision_2026-11/research/sources/batathammedi2023ert, pp. 14, 18; card batathammedi2023ert.
+- **As written** > On these accounts 'flawless interactivity and connectivity' are needed to guarantee an enjoyable experience, and sensory technologies help by 'preventing disconnects' in a customer's journey (Batat and Hammedi 2023: 14, 18).
 
 ### S-158 · answers M.148 · 38w
 > The movement can as accurately be called a relay: physical moments become digital records, and digital rulings come back as physical facts, a key card that opens or does not, a price on the screen at the desk.
@@ -1772,6 +1776,8 @@
 > Authority over the rule drifts towards whoever designs, configures or controls it (Scott and Orlikowski 2012), often a vendor that keeps the right to 'change, withdraw, or cancel products and services at will' (Cobbe et al. 2023: 1195).
 
 - **Form** ✅ **Construction** ✅ 'it' refers to 'the rule'. **Register** ✅ **Value** ✅ The finding at the touchpoint. **Counterpart** ✅ M.164's assembled host becomes the vendor behind the rule. **Truth** ✅ v5 §4 ¶3; Cobbe card p. 1195.
+- **Correction after the reviewer pack (11 Nov 2026), C57** ❌ Scott and Orlikowski show accountability in travel redistributed from internal lines of authority to online reviews, not authority drifting to designers; Cobbe et al.'s quotation in the same sentence carries the claim. Source: card scottorlikowski2012accountability (full text).
+- **As written** > Authority over the rule drifts towards whoever designs, configures or controls it, often a vendor that keeps the right to 'change, withdraw, or cancel products and services at will' (Cobbe et al. 2023: 1195).
 
 ### S-176 · answers M.165 · 28w
 > Discretion acts on the single case and authority on the rule, so a guest can meet someone with the first and never reach anyone with the second.

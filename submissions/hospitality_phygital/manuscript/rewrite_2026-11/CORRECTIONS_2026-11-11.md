@@ -4,7 +4,7 @@
 
 **Basis.** `reviews/2026-11-11/SYNTHESIS.md`, section 5, the source-integrity ledger. Every item was re-checked against its card in `library/cards/` before the edit, and the card or page is named below. Items the synthesis marked VERIFY were not changed (list at the end).
 
-**Effect.** Body 8,385 → 8,775 words (limit 9,000). References 83 → 82: Xu et al. 2021, Möhlmann et al. 2021 and De Vos et al. 2024 removed; Boo and Chua 2022 and Ivanov and Webster 2024 added. Kaniadakis and Farmaki now carries its 2024 issue year and journal page. Seven sentences that the corrections lengthened were split without change of content (recorded in the ledger as 'Split for length').
+**Effect.** Body 8,385 → 8,775 words (limit 9,000), and 8,779 after the second round below. References 83 → 82, and 81 after the second round: Xu et al. 2021, Möhlmann et al. 2021 and De Vos et al. 2024 removed; Boo and Chua 2022 and Ivanov and Webster 2024 added. Kaniadakis and Farmaki now carries its 2024 issue year and journal page. Seven sentences that the corrections lengthened were split without change of content (recorded in the ledger as 'Split for length').
 
 **Checks after the corrections.** Ledger and manuscript agree sentence by sentence (280 body sentences in order; manuscript body identical to DRAFT_v6). `check_citations.py`: 113 citations, the one known Woodland flag. `preflight.py` on a numbered copy: 20 of 23, the known artefacts. The reviewer letter's 27 quotations of revised text all still match. `build_index.py --check`: OK.
 
@@ -442,6 +442,43 @@
 - **Now:** the obligation of hosting still has an address (Kong 2026: 3), and whether the guest can reach it.
 - **Words:** +3
 
+
+## Second round: the VERIFY items, checked against full texts (11 Nov 2026)
+
+Six of the ten items the cards could not settle were checked against full texts saved in the repository or open abstracts. Three needed correction; three are confirmed as written.
+
+### C55
+- **Why:** The list 'queues, repetition, uncertainty and wasted effort' is not in the source (full text searched); the source's own words now carry the point.
+- **Source:** full text, revision_2026-11/research/sources/batathammedi2023ert, pp. 14, 18; card batathammedi2023ert
+- **Was:** On these accounts good technology removes queues, repetition, uncertainty and wasted effort so that the guest moves through the journey without friction (Batat and Hammedi 2023).
+- **Now:** On these accounts 'flawless interactivity and connectivity' are needed to guarantee an enjoyable experience, and sensory technologies help by 'preventing disconnects' in a customer's journey (Batat and Hammedi 2023: 14, 18).
+
+### C56
+- **Why:** The strict liability concerns the obligation to safeguard guests' property; following 'person and belongings', the sentence read as liability for persons too.
+- **Source:** full text, revision_2026-11/research/sources/sandovalstrausz2005travelers, p. 65
+- **Was:** The innkeeper's liability, moreover, reached beyond his own servants to 'other guests or any unidentified party' (Sandoval-Strausz 2005: 65).
+- **Now:** The innkeeper's liability for guests' goods, moreover, reached beyond his own servants to 'other guests or any unidentified party' (Sandoval-Strausz 2005: 65).
+
+### C57
+- **Why:** Scott and Orlikowski show accountability in travel redistributed from internal lines of authority to online reviews, not authority drifting to designers; Cobbe et al.'s quotation in the same sentence carries the claim.
+- **Source:** card scottorlikowski2012accountability (full text)
+- **Was:** Authority over the rule drifts towards whoever designs, configures or controls it (Scott and Orlikowski 2012), often a vendor
+- **Now:** Authority over the rule drifts towards whoever designs, configures or controls it, often a vendor
+
+### Confirmed, no change
+- **Lynch et al. 2011.** All five attributions (the sacred duty that reached to protection; Aramberri; 'within and beyond the commercial realm'; micro- and macro-hosts after Robinson and Lynch 2007; the social lens) are in the repository copy. It has no journal pages, and v6 paraphrases, so no pinpoint is owed.
+- **Cheng et al. 2025.** The sample is 355 frontline service employees in Chinese hotels, so 'frontline hospitality employees' is accurate.
+- **Bulley 2015.** 'Assembled host' is in the accepted manuscript, used of the agencies that run a camp. A printed page is needed only if it is quoted.
+- **AI Act, Annex III 1(a).** It excludes biometric verification that only confirms identity, so a verifying check-in system is outside it, and the corrected sentence (C50) stands.
+
+### Still unconfirmed
+- **Morrison 2014.** The full text is not served (Annual Reviews returns a landing page). The abstract does not mention futility.
+- **Weaver 2026.** Closed; waiting on the Bentley sign-in.
+- **Hirschman 1970.** A book, held at metadata only.
+- **Batat 2026.** v6 now cites it only for the human-first design its title names.
+
+Scott and Orlikowski 2012 has left the reference list. If the authors want it back, it supports one claim: that online reviews moved accountability in travel away from internal lines of authority.
+
 ## Also changed
 
 - **Bibliography.** Darwall (2013) gains its place (Oxford; Crossref gives none, so the publisher's seat is used) and Baum and Laux (2026) theirs (Cham, from Crossref), which removes the stray ', :' from both entries. Ivanov and Webster's article number is now rendered.
@@ -451,7 +488,7 @@
 
 ## Not changed, and why
 
-**VERIFY: the cards cannot settle these.** Read the source, then keep, correct or cut.
+**VERIFY: the cards could not settle these.** Most are now resolved in the second round above; only the 'Still unconfirmed' items remain.
 - Cheng et al. 2025 and Morrison 2014: abstract only; the silence sentence in 'Three conditions and six questions'.
 - Calo and Rosenblat 2017: abstract only; it is now cited only for an asymmetry its abstract states.
 - Batat and Hammedi 2023: the 'queues, repetition, uncertainty and wasted effort' list is not on the full-text card.

@@ -39,3 +39,5 @@ rather than a description of an industry.
 ## Where it enters the manuscript
 
 Section 2, opening the hospitality-theory paragraph.
+
+Checked 11 Nov 2026 (Claude, Opus 5.5) against the Bournemouth repository copy (manuscript/rewrite_2026-11/journal/corpus/lynch2011/plain.txt; no journal pages, so cite without pinpoint): Greek, Roman and Enlightenment traditions in which hospitality 'entailed a sacred obligation not just to accommodate the guest, but to protect the stranger'; Aramberri's 'service providers' and 'customers' (citing Aramberri 2001: 746); hospitality 'remains a powerful term for describing social arrangements amongst strangers both within and beyond the commercial realm'; micro-hosts and macro-hosts 'such as the train company', 'as shown in Robinson and Lynch (2007)'; hospitality as 'a social lens' (after Lashley, Lynch and Morrison 2007). All five DRAFT_v6 attributions are confirmed.

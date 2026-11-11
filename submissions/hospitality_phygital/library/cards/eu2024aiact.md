@@ -58,3 +58,5 @@ The primary legal text. Article 86 gives a person affected by a decision a deplo
 Section 9 (new numbering), jurisdiction boundary condition; one sentence, with `bayamlioglu2022contest` (GDPR Art. 22) alongside. Any date printed must reflect the 2026 Omnibus.
 
 Fable-checked rr-2026-11 (2026-11-08): confirmed verifier_1 from EUR-Lex: Reg. (EU) 2026/1744 point (40) moves Annex III high-risk obligations to 2 Dec 2027 and Annex I to 2 Aug 2028; Art. 86 and Annex III unamended; Omnibus saved to sources/; frontmatter brought to the validator's allowed values (cluster, verified, flags, hold_rationale) and depth tags added; 11 original quotes re-checked on PDF pp. 54, 110, 123, 127.
+
+Checked 11 Nov 2026 in the saved Official Journal text: Annex III point 1(a) covers remote biometric identification and 'shall not include AI systems intended to be used for biometric verification the sole purpose of which is to confirm that a specific natural person is the person he or she claims to be'. A check-in system that only verifies identity is therefore outside point 1(a).

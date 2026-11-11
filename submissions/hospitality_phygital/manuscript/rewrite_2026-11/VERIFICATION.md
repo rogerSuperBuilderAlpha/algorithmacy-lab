@@ -84,3 +84,4 @@ The simulated reviewer pack (`reviews/2026-11-11/`, `SYNTHESIS.md`) found errors
 - **Ivanov and Webster (2024)**, held in the library, sorts hotel decisions by human involvement. It contradicts line 121's 'no study makes them for hospitality'.
 - **The quotation check above** tested wording, and wording holds: the copyeditor found all quotations exact. It did not test whether each paraphrase or case description matches its source, and that is where these errors sit.
 - **Corrected the same day** (`CORRECTIONS_2026-11-11.md`, D18): every item above, and the other confirmed rows of the pack's source-integrity ledger. After the corrections: ledger and manuscript agree; body 8,775 words; 82 references; citation check and preflight unchanged; letter quotations all match; library OK.
+- **Second round, same day.** Six VERIFY items checked; three corrected (C55–C57) and three confirmed. Body 8,779 words, 81 references; all checks re-run with the same results.

@@ -40,3 +40,5 @@ International-relations account of hospitality that argues host power does not e
 Section 1 (v4 numbering), the paragraph on responsibility for the welcome: "That responsibility does not end at the door. The host's power over the guest runs through the whole stay, and so does what the host owes (Bulley 2015)." Cite for the power half; the "owes" half needs either a second source or the authors' own warrant.
 
 Fable-checked rr-2026-11 (2026-11-08): all four quotes re-checked on PDF pp. 3, 11, 15; added the p. 7 qualification on 'owes'; PARTIAL stands.
+
+Located 11 Nov 2026 in the accepted manuscript (journal corpus plain.txt): agencies 'perform the role of an assembled host while being themselves guests' in the camp; 'the assembled hosts' (UNHCR and NGO staff) recur. A printed page is still needed before quoting.
