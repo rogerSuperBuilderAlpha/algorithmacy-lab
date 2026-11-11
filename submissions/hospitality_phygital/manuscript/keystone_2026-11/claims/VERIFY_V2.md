@@ -18,7 +18,7 @@
 
 **Verdict words.** AGREE: I reach the auditor's verdict and severity, and the action is sound. AGREE-WITH-NOTE: the fault and the severity stand, but the label, the locator, the reasoning or the action needs the note given. DISAGREE: my verdict or severity differs in a way that changes what the lead should do with the row.
 
-**Passages.** I rejoined words split at line ends, expanded ligatures and normalised quotation marks. Every passage the auditors pasted for a selected row sits at the locator given and reads as quoted, with three exceptions recorded at S-243.1 (A9), S-259.5 and S-278.2 (A10).
+**Passages.** I rejoined words split at line ends, expanded ligatures and normalised quotation marks. Every passage the auditors pasted for a selected row exists in the saved text and reads as quoted. Two need a note: one section label is wrong (S-243.1, A9) and one quotation is cut short in a way that changes its sense (S-259.5, A10). Morgan's pages are those of the accepted manuscript ('AM'), and the Chalmers and Galani page is a PDF page of the eprint, which carries a cover sheet.
 
 **Conflicts flagged.** (1) The repo `CLAUDE.md` and the arm's `AGENTS.md` say to branch, commit and push; the task and guard 11 say not to commit. I followed the task. (2) The arm's `AGENTS.md` asks for no first person in arm documents; the global style file and the registers use 'I' for the writer's own moves. I did the same. (3) My standing instructions discourage report files; the task names this file as the deliverable, so I wrote it and nothing else.
 
@@ -45,7 +45,7 @@
 | Lind et al. 1990 | `lind1990voice/user_pdf/fulltext.txt` | pp. 954–958 |
 | Pigac et al. 2026 | `pigac2026transparency/user_pdf/fulltext.txt` | pp. 284, 287, 291 |
 | Martin and Waldman 2023 | `martinwaldman2022legitimate/verifier2/mw.txt` | Study Design; Results on governance |
-| Chalmers and Galani 2004 (Glasgow eprint) | `chalmers2004seamful/gla_eprint.txt` | abstract; eprint p. 10 |
+| Chalmers and Galani 2004 (Glasgow eprint) | `chalmers2004seamful/gla_eprint.txt` | abstract; PDF p. 10 |
 | Garcia et al. (CESifo WP 10849, not the *Management Science* version) | `garcia2026strategic/text.txt` | abstract; pp. 2, 48 |
 | Chang et al. 2022 (accepted manuscript) | `chang2022unmanned/paged.txt` | abstract |
 | Di Domenico and Lynch 2007 | `didomenico2007host/user_pdf/fulltext.txt` | p. 322 |
@@ -174,7 +174,7 @@
 - **AGREE.** Strictly, art. 12(3) times the controller's report of the action taken, not the intervention; the auditor's phrase 'an outer limit for the controller's answer' is exact.
 
 **S-224.2** · **D** · auditor: partial, minor
-- Passage: § 2000a(a) and (b)(1), quoted above, identical in the LII and govinfo copies. The ADA repeats the carve-out: 'except for an establishment located within a building that contains not more than five rooms for rent or hire and that is actually occupied by the proprietor' (42 U.S.C. § 12181(7)(A)).
+- Passage: § 2000a(a) and (b)(1), quoted above, identical in the LII and govinfo copies. The ADA repeats the carve-out: 'except for an establishment located within a building that contains not more than five rooms for rent or hire and that is actually occupied by the proprietor of such establishment as the residence of such proprietor' (42 U.S.C. § 12181(7)(A)).
 - Mine: partial (classes 5, 3), minor. The rooms and the residence belong to the building; the clause is a definition inside one statute; 'United States public accommodation law' is wider than Title II.
 - **AGREE.** The material fault sits in S-224.4.
 
@@ -226,7 +226,7 @@ What does fail is the label, and the A9 auditor found that fault already at S-23
 ### Entries
 
 **S-250.3** · rule 1, **D** · auditor: contradicted, fatal
-- Passage: the five Bovens passages above (pp. 452–454), and 'the focus is more on ex post facto processes in governance than on ex ante inputs' (p. 467).
+- Passage: the Bovens passages above (pp. 452–454), and 'the focus is more on ex post facto processes in governance than on ex ante inputs' (p. 467).
 - Tests. Premises: Bovens' definition (p. 450); the paper's boundary (l. 105). Counter-model in both directions: a manager who must explain within minutes and cannot change the outcome gives Bovens' account in real time and fails l. 105; a night manager who silently reverses a lock-out meets l. 105 and gives no account. What must work in real time is authority.
 - Mine: equivocal ('accountability': account-giving in the premise, reachable authority in the conclusion), material.
 - **DISAGREE** on verdict and severity. Bovens does not deny that an account can be demanded before a decision takes effect; he gives a case of it and lists a veto among a forum's consequences. I agree with the action in part: keep Bovens for the account, with all seven elements, and name the power to reverse as the paper's own.
@@ -277,7 +277,7 @@ What does fail is the label, and the A9 auditor found that fault already at S-23
 - **AGREE.**
 
 **S-243.1** · rule 3 · auditor: partial, minor
-- Passage: 'Lastly, we suggest that designers may consider selectively and carefully revealing differences and limitations of systems, in ways that support social interaction i.e. seamful design' (Chalmers and Galani 2004, Glasgow eprint, p. 10).
+- Passage: 'Lastly, we suggest that designers may consider selectively and carefully revealing differences and limitations of systems, in ways that support social interaction i.e. seamful design' (Chalmers and Galani 2004, Glasgow eprint, PDF p. 10).
 - Mine: partial (classes 3, 5), minor.
 - **AGREE-WITH-NOTE.** The words are exact. The auditor places them in the Conclusion; in the eprint they close the design section, and the heading 'Conclusion' follows them on the same page.
 
@@ -507,4 +507,4 @@ No selected row that the auditor passed should have failed.
 
 ## Overall judgment
 
-The registers can be relied on for what the sources say and for ordinary rows: every passage I checked sits at its locator, and on 49 of 54 rows I reached the auditor's verdict and severity, with a note on 13. They cannot be relied on, without a second reading, for their gravest grades and for rows that set one text against a sentence or against another text: both 'contradicted, fatal' rows in A9 fail on Bovens' own pages, one clash in A10 rests on a shortened quotation (S-259.5), and one A10 row audits a proposition its sentence does not make (S-258.2). The passes are sound, with one minor miss in nine (T1.r5.c1), so the lead should re-read every `fatal`, `contradicted` and class 9 row before acting on it and can take the rest largely as written.
+The registers can be relied on for what the sources say and for ordinary rows: every passage I checked exists and reads as the auditor quotes it, and on 49 of 54 rows I reached the auditor's verdict and severity, with a note on 13. They cannot be relied on, without a second reading, for their gravest grades and for rows that set one text against a sentence or against another text: both 'contradicted, fatal' rows in A9 fail on Bovens' own pages, one clash in A10 rests on a shortened quotation (S-259.5), and one A10 row audits a proposition its sentence does not make (S-258.2). The passes are sound, with one minor miss in nine (T1.r5.c1), so the lead should re-read every `fatal`, `contradicted` and class 9 row before acting on it and can take the rest largely as written.
