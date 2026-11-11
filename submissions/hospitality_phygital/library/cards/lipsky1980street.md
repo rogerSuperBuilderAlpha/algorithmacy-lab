@@ -6,7 +6,7 @@ year: 1980
 doi: 
 venue: "Russell Sage Foundation"
 cluster: ai-automation
-status: cited
+status: held
 role: evidence
 used_by_sections: [3]
 claims: [discretion-redistribution]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; bibliographic data only. Cited for a canonical framing, not a specific finding."
 generated_run: 2026-08-08-library-build
 flags: []
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

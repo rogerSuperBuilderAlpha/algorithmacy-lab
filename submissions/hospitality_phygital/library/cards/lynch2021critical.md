@@ -6,7 +6,7 @@ year: 2021a
 doi: 10.1386/hosp_00044_1
 venue: "Hospitality & Society"
 cluster: hospitality-theory
-status: cited
+status: held
 role: evidence
 used_by_sections: [1, 2]
 claims: [hospitality-exceeds-service]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record. Full text read 7 August 2026 during the register measurement, from the publisher rendering; no copy is retained and Unpaywall reports the article closed with no open location, so the depth claim rests on that reading and cannot be re-checked from a held file."
 generated_run: 2026-08-08-library-build
 flags: [no-retained-copy]
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

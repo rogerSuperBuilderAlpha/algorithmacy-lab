@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1177/01461672241288338
 venue: "Personality and Social Psychology Bulletin"
 cluster: ai-automation
-status: held
+status: cited
 role: rival
 used_by_sections: [6]
 claims: [human-contact-conditional]

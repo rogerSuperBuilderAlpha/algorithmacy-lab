@@ -6,7 +6,7 @@ year: 2019
 doi: 10.1177/1461444819854731
 venue: "New Media & Society"
 cluster: mediation-sovereignty
-status: cited
+status: held
 role: evidence
 used_by_sections: [5]
 claims: [algorithmacy-observed]

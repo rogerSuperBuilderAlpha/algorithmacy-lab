@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1145/3637396
 venue: "Proceedings of the ACM on Human-Computer Interaction"
 cluster: mediation-sovereignty
-status: rejected
+status: cited
 role: evidence
 used_by_sections: [7]
 claims: [constructive-friction]

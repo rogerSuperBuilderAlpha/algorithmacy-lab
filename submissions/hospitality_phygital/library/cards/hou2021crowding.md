@@ -6,7 +6,7 @@ year: 2021
 doi: 10.1016/j.tourman.2020.104242
 venue: "Tourism Management"
 cluster: ai-automation
-status: cited
+status: held
 role: governor
 used_by_sections: [4, 6]
 claims: [human-contact-conditional]
@@ -16,6 +16,7 @@ verified_date: 2026-08-08
 source_basis: "Full text obtained 2026-08-08 via open access (8,930 words) and read; identity confirmed against title and author before use. Bibliographic details verified against the publisher record."
 generated_run: 2026-08-08-oa-full-text-pass
 flags: []
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

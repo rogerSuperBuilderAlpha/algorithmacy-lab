@@ -6,7 +6,7 @@ year: 2024
 doi: 10.1016/j.ijhm.2024.103928
 venue: "International Journal of Hospitality Management"
 cluster: ai-automation
-status: held
+status: cited
 role: rival
 used_by_sections: [3]
 claims: [host-question-unasked]

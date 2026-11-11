@@ -6,7 +6,7 @@ year: 2011
 doi: 10.1177/0263276411424420
 venue: "Theory, Culture & Society"
 cluster: mediation-sovereignty
-status: cited
+status: held
 role: evidence
 used_by_sections: [7]
 claims: [torque]
@@ -16,6 +16,7 @@ verified_date: 2026-08-07
 source_basis: "Crossref-verified against the publisher record; abstract read. Read-depth debt checked 2026-08-08: paywalled; needs institutional access. Retrieval route: https://doi.org/10.1177/0263276411424420. Automated acquisition returned NOT_FREE for all eight debts, which was a tool artefact — publishers block scripted fetching — and not a statement about availability."
 generated_run: 2026-08-08-library-build
 flags: [abstract-only-debt]
+hold_rationale: "Cited in the August draft; not in the reference list of v4 as submitted. Reconciled to v4 in rr-2026-11."
 ---
 
 ## Summary

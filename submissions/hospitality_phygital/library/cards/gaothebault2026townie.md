@@ -6,7 +6,7 @@ year: 2026
 doi: 10.1145/3788058
 venue: "Proceedings of the ACM on Human-Computer Interaction"
 cluster: ai-automation
-status: held
+status: cited
 role: evidence
 used_by_sections: [7]
 claims: [cultural-scripts]

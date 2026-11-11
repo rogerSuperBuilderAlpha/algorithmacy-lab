@@ -6,7 +6,7 @@ year: 2025
 doi: 10.1177/00472875231224238
 venue: "Journal of Travel Research"
 cluster: hospitality-theory
-status: held
+status: cited
 role: rival
 used_by_sections: [2]
 claims: [guest-obligation-untheorized]
