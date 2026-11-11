@@ -1306,6 +1306,7 @@
 - **Value** ✅ Credit returned.
 - **Counterpart** ✅
 - **Truth** ✅ Kropf card pp. 7, 9 ('the answerability of care robots is currently inconceivable'; thin and thick blame). 'blame stays with the humans' paraphrases thick blame lying with human actors (p. 10 in the card); **locator amended** to 7, 9–10 in the manuscript.
+- **As written** > Kropf et al. reach a compatible position from the ethics of care, holding that a robot can occupy a narrow role without accountability, that its answerability 'is currently inconceivable', and that blame stays with the humans who deploy it (2026: 7, 9–10).
 
 ### S-129 · answers M.126 · 33w
 > A machine can therefore perform the role of hosting, while the duty to the guest, and the answering for how it is performed, remain with the party that took the role up.
