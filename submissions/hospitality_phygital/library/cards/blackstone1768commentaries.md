@@ -42,7 +42,7 @@ In the third book, on private wrongs, Blackstone lists among contracts "implied 
 
 ## Critical notes & threats
 
-- **Two routes, not reconciled.** In book 3 the refused traveller sues. In book 4 the refusal is a common nuisance, and one page earlier Blackstone says common nuisances "are indictable only, and not actionable" (167). He does not cross-refer or explain how the traveller's action fits that sentence. A reader may infer that the traveller's particular loss gives him the action and the offence to the public gives the indictment; Blackstone does not say so here.
+- **Two routes, and how they fit.** In book 3 the refused traveller sues, "upon this universal assumpsit", in implied contract (164). In book 4 the refusal is a common nuisance, indictable (168). The sentence that common nuisances "are indictable only, and not actionable" (167) concerns suits for a common nuisance, not an action in assumpsit, so it does not contradict the traveller's action. Blackstone also cross-refers to his earlier treatment ("Vol. III. pag. 216.", note m) and states that nuisances "which when injurious to a private man are actionable, are, when detrimental to the public, punishable by public prosecution" (167). Vol. III p. 216 was not read.
 - **Two grounds, one per route.** The private action rests on the innkeeper's own act: he "hangs out a sign and opens his house", which the law reads as an "implied engagement". The public offence rests on the purpose of inns: to refuse is "to frustrate the end of their institution". The first is a holding-out ground; the second is not.
 - **The engagement is implied by law.** Blackstone says of this class that the undertaking was "never perhaps actually made" (161). The innkeeper's "assumpsit" is the law's construction of his conduct. It supports the view that holding out is how the role is taken up and that the law then supplies the content. It does not show that the innkeeper promised anything.
 - **"Or other victualler".** The sign passage is not confined to inns. Later English cases confine the duty to receive to inns (the scout reads *R v Rymer* that way; not read by me). Blackstone cannot be cited for "inns only".
@@ -71,3 +71,5 @@ In the third book, on private wrongs, Blackstone lists among contracts "implied 
 - Anything from Blackstone as present law, or as the law of any United States jurisdiction.
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved Avalon transcription of 3 Comm. 161–166 and 4 Comm. 167–168 (sources/blackstone1768commentaries/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'two routes, not reconciled' and 'does not cross-refer' overstated: the traveller's action is in assumpsit, and p. 167 cross-refers to vol. III p. 216 and states the general rule.

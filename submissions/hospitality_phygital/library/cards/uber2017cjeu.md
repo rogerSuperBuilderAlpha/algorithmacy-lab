@@ -80,9 +80,9 @@ A Barcelona taxi drivers' association sued Uber Systems Spain for unfair competi
 
 **What the paper may say on this source's authority**
 
-- The Court of Justice has held that an intermediation service is in principle separate from the service it arranges, but is part of that service where it forms an integral part of an overall service whose main component is the arranged service (paras 34, 40).
+- The Court of Justice held that Uber's intermediation service formed an integral part of an overall service whose main component was transport (para 40); the general rule in that form is the Court's restatement in *Airbnb Ireland*, para 50 (card airbnb2019cjeu).
 - The Court found Uber's service to be such a part because Uber selected the drivers, supplied an application without which the rides would not take place, and exercised decisive influence over the conditions of the service (para 39).
-- The facts the Court named for decisive influence were that Uber set at least the maximum fare, received the fare from the client before paying the driver, and exercised a certain control over vehicles, drivers and their conduct, which could lead to exclusion (para 39).
+- On "the information before the Court", "it appears, inter alia", that the facts the Court named for decisive influence were that Uber set at least the maximum fare, received the fare from the client before paying the driver, and exercised a certain control over vehicles, drivers and their conduct, which could lead to exclusion (para 39).
 - The Court described Uber as simultaneously offering urban transport services whose general operation it organises (para 38).
 - The case was brought by a taxi drivers' association and concerned whether Uber needed a licence (paras 13-15).
 
@@ -96,3 +96,5 @@ A Barcelona taxi drivers' association sued Uber Systems Spain for unfair competi
 - Anything on the Advocate General's reasoning. The Opinion was not read.
 
 Card written by a Claude (Fable 5.2) subagent, reader R5b, from the saved Publications Office text of the judgment read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 1 (the general rule is Airbnb para 50's restatement) and 3 (the Court's hedges) narrowed.

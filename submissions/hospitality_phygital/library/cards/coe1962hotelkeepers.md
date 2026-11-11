@@ -66,9 +66,9 @@ The convention, signed at Paris on 17 December 1962, obliges each contracting st
 
 **What the paper may say** (citing article):
 - A 1962 Council of Europe convention set common rules under which a hotel-keeper is liable for loss of or damage to the property of a guest who has sleeping accommodation at the hotel, up to a cap, and without the cap where he or a person for whom he is responsible was at fault (Annex, arts 1(1), 1(3), 4).
-- Under those rules a notice or prior agreement excluding the liability is void (Annex, art. 6).
-- The hotel-keeper is bound to receive a guest's valuables for safe custody (Annex, art. 2(2)).
-- The guest loses the protection unless he informs the hotel-keeper without undue delay after discovering the loss (Annex, art. 5).
+- Under those rules, subject to the state option in Convention art. 2(d), a notice or prior agreement excluding the liability is void (Annex, art. 6).
+- The hotel-keeper is bound to receive a guest's valuables for safe custody, unless they are dangerous or, given the hotel's size or standing, of excessive value or cumbersome (Annex, art. 2(2)).
+- Except in any case to which Article 4 applies, the guest loses the protection unless he informs the hotel-keeper without undue delay after discovering the loss (Annex, art. 5).
 - The convention is confined to property; it has no rule on the guest's person or on admission (title; Annex, arts 1–7).
 
 **What the paper may not say:**
@@ -79,3 +79,5 @@ The convention, signed at Paris on 17 December 1962, obliges each contracting st
 - That contractors' staff are persons "for whom he is responsible".
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved Council of Europe PDFs of the convention and annex, cross-read against the Tractatenblad and Minnesota copies (sources/coe1962hotelkeepers/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 2-4 narrowed (state option in art. 2(d); refusal grounds; the art. 4 exception). Status: in force since 15 Feb 1967, 17 ratifications or accessions as of 19 Mar 2014 (archived Treaty Office chart); the Netherlands never ratified.

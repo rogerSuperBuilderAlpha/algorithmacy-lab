@@ -63,17 +63,17 @@ Sidney Rasnick, 77, on a work assignment from Texas, was a paying guest at a mot
 ## Where it bears on the argument
 
 - **K4 (legal content, two tiers): narrows; supports one sentence.** Georgia recognises the innkeeper's duty to keep premises reasonably safe (567) and stops there on these facts. The case refutes any unqualified statement that United States law imposes on innkeepers a duty to aid or attend to a guest. It supports K4's sentence that attending to the particular guest is not a legal duty, for Georgia, in the court's own words (569–570).
-- **K7 (channel from the guest): refutes the conclusion as a statement of Georgia law for this kind of harm; leaves P3 untested.** The motel had a channel (a telephone and an operator) and was told. The court found no wrong, because the underlying duty did not reach the guest's illness. The case attacks P1 for medical peril and does not address whether a holder must be able to learn of failures in duties it does owe. In the customary register it helps the paper: the court itself says the facts raise "issues of morality and humanity".
-- **K3 (grounds): narrows the dependence ground.** A guest alone in his room, far from home and unable to call for help, is the paper's picture of dependence; in Georgia that did not ground a duty to check. The absence of any undertaking by the motel is recorded in n. 1.
+- **K7 (channel from the guest): narrows P1 for medical peril internal to the guest; does not refute C; leaves P3 untested.** The motel had a channel (a telephone and an operator) and was told. The court found no wrong, because the underlying duty did not reach the guest's illness. The case attacks P1 for medical peril and does not address whether a holder must be able to learn of failures in duties it does owe. In the customary register it helps the paper: the court itself says the facts raise "issues of morality and humanity".
+- **K3 (grounds): narrows the dependence ground.** A guest alone in his room, far from home and found the next morning 'unable to get up' (565), is the paper's picture of dependence; in Georgia that did not ground a duty to check. The absence of any undertaking by the motel is recorded in n. 1.
 - **K9 (mediation): a fact pattern only.** Five calls met a recorded message. The court drew nothing from that.
 
 **What the paper may say** (each for Georgia, naming the court):
 - An innkeeper in Georgia owes guests ordinary care to keep the premises reasonably safe (567).
-- The Supreme Court of Georgia held that a motel had no legal duty to investigate or check on a guest after his wife telephoned, said she was worried and asked that someone check on him (n. 1; 569–570), with three justices dissenting (570–573).
+- The Supreme Court of Georgia held that a motel had no legal duty to investigate or check on a guest, to determine whether he was in medical need for a condition unrelated to his stay, after his wife telephoned, said she was worried and asked that someone check on him (n. 1; 569–570), with three justices dissenting (570–573).
 - The court wrote that "a moral or humane obligation does not compel the existence of a legal duty" (570).
 - The court left open whether Georgia should adopt a duty to render or summon medical aid (570).
 - Restatement (Second) of Torts § 314A, as quoted in *Rasnick* at 568, places an innkeeper under "a similar duty to his guests" to the carrier's duty to protect passengers and to give first aid.
-- An operator hung up on the guest's wife and her later calls met a recorded message (n. 1; dissent, 572), as facts.
+- On the wife's testimony as the court recounts it, an operator hung up on her and her later calls met a recorded message (n. 1; dissent, 572). These are not found facts.
 - The dissent would have let a jury decide whether the motel "had reason to know" the guest was ill (572).
 
 **What the paper may not say:**
@@ -86,3 +86,5 @@ Sidney Rasnick, 77, on a work assignment from Texas, was a paying guest at a mot
 - That the rule is current, without a check of later Georgia law.
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved CAP text of the full opinion and dissent (sources/rasnick2011krishna/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 2 and 6 narrowed (medical need unrelated to the stay; the wife's testimony, not findings); the K7 headline now says the case narrows P1 and does not refute C; 'unable to call for help' replaced with the opinion's 'unable to get up' (565).

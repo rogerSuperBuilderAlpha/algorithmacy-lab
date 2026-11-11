@@ -64,7 +64,7 @@ Curtis Hoyt drank at a bowling alley and tavern in Guthrie Center, Iowa, taunted
 **What the paper may say** (for Iowa, naming the court):
 - The Supreme Court of Iowa held that a tavern owes its patrons a duty of reasonable care, which extends to harm done by other patrons (776–777).
 - Restatement (Third) of Torts § 40, as quoted in *Hoyt* at 776, lists "an innkeeper with its guests" among special relationships that give rise to "a duty of reasonable care with regard to risks that arise within the scope of the relationship", beside carriers and businesses open to the public.
-- The court adopted, for taverns, the reasons that such a relationship "identifies a specific person to be protected", is one "entered into voluntarily", and may "compromise a person's ability to self-protect" (777).
+- The court adopted, for taverns, the reasons that such a relationship "identifies a specific person to be protected", may "compromise a person's ability to self-protect", and often "benefit the actor" (777); voluntariness qualifies only the first reason ("especially when the relationship is entered into voluntarily").
 - The duty is not strict liability (780).
 
 **What the paper may not say:**
@@ -75,3 +75,5 @@ Curtis Hoyt drank at a bowling alley and tavern in Guthrie Center, Iowa, taunted
 - That the reasons quoted at 777 come from a named comment, until the letter is checked in print.
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved CAP text of the full opinion and dissent (sources/hoyt2013gutterz/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 3: voluntariness qualifies only the first reason; the benefit reason added. OCR doubt at 773 ('an altercation').

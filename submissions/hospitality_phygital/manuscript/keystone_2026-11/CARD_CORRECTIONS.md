@@ -56,3 +56,22 @@
 
 **Effect on ARGUMENT.md.** Step 1's description of Morrison and O'Gorman's method follows the narrowed card.
 
+## CV-B (United States, civil law, platforms): 14 cards, 0 FAIL; 656 quotations, 652 MATCH, 4 OCR-DOUBT
+
+| Card | What the verifier found | What I changed |
+|---|---|---|
+| `rasnick2011krishna` | The K7 headline ('refutes the conclusion') outruns the card's body, which says the case narrows P1 for medical peril; 'unable to call for help' is the card's inference; the operator's hanging up is the wife's testimony | Headline, 'may say' 2 and 6, and the K3 line corrected |
+| `hayman1987ramada` | *Crinkley* fn 3 reports both of *Hayman*'s grounds; 'required' does occur in the opinion; nine months, not a year | Corrected; later history added |
+| `blackstone1768commentaries` | 'Two routes, not reconciled' and 'does not cross-refer' overstate: the traveller's action is in assumpsit, and p. 167 cross-refers to vol. III p. 216 | Rewritten |
+| `airbnb2019cjeu` | AHTOP is an 'Association for professional tourism and accommodation'; the facts did not all come from the platform; the judgment is not silent on consumer law | Corrected |
+| `eu2022dsa` | The K7 bullet equates intermediaries with traders; three 'may say' sentences too wide | Corrected |
+| `bgb701` | The English translation is not official; three 'may say' sentences omit exceptions | Corrected |
+| `digest4_9` | 4.9.6.3 unreconciled with 4.9.2; 4.9.7.6 may make the father or master liable in full, not the son or slave | Reconciled by the two actions; caution added |
+| `hoyt2013gutterz`, `groh2015westin`, `thomas1955pick`, `coe1962hotelkeepers`, `mobil1995bransford`, `uber2017cjeu`, `eu2019p2b` | 'May say' sentences wider than the text | Narrowed |
+
+**Status facts CV-B established.** The 1962 convention (ETS 41) has been in force since 15 Feb 1967, with 17 ratifications or accessions as of 19 Mar 2014 (the UK, Ireland, Germany and France among them; the Netherlands never ratified). Regulation 2019/1150 is in force on the Publications Office record of 11 Nov 2026. *Hayman*'s later history is 'disc. rev. on additional issues denied, 320 N.C. 631'.
+
+**OCR doubts for the authors.** *Hoyt* at 773 ('an altercation'); *Groh* ¶¶ 4, 29, 40, 51 (repairs in brackets). Check against the printed reporter and the official 2015 CO 25 before quoting.
+
+**Effect on ARGUMENT.md.** Step 4 no longer says Blackstone leaves the two routes unexplained; *Thomas* keeps 'usually treated'; *Rasnick*'s hung-up call is the wife's testimony. The dossier already read *Rasnick* as narrowing P1, not refuting C.
+

@@ -97,7 +97,7 @@ A customer was beaten by an attendant at a Mobil Mini Mart petrol station that M
 - In Florida apparent agency requires a representation by the supposed principal, reliance on it by the third party, and a change of position in reliance (at 121).
 - The court receded from its earlier decision in Orlando Executive Park v. Robbins so far as that decision suggested that logos or trademarks alone can create an apparent agency (at 121).
 - The court treated the franchisor's ownership of the premises as irrelevant because it had leased them to an operator with actual control (at 121).
-- On apparent agency a brand cannot be liable unless the operator is, because there would be nothing to impute (at 121).
+- In a dictum "for the instruction of the courts below", in a garbled paragraph, the court said that on apparent agency a brand cannot be liable unless the operator is, because there would be nothing to impute (at 121).
 - One judge dissented, on the ground that the franchisor's contracts set and could enforce the standard of customer service (at 122-124).
 
 **What the paper may not say**
@@ -110,3 +110,5 @@ A customer was beaten by an attendant at a Mobil Mini Mart petrol station that M
 - That American courts in general reject brand-only apparent agency. This is one State's supreme court; Crinkley went the other way on its facts.
 
 Card written by a Claude (Fable 5.2) subagent, reader R5b, from the saved Caselaw Access Project text read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 5 is a dictum in a garbled paragraph.

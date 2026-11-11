@@ -58,8 +58,8 @@ Earl D. Thomas, a Black man, sued The Pick Hotels Corporation and others for dam
 
 **What the paper may say** (naming the court, the year and Kansas law):
 - In 1955 the Tenth Circuit, applying Kansas law, described the innkeeper's duty to provide accommodation as a common-law duty that "has never been abrogated", though it "may have been dormant or stale" (666).
-- The court treated the innkeeper–guest relationship as creating "a common law relational duty on the part of the innkeeper, the breach of which is redressible in tort", with the contract as the means of establishing the relationship (665–666).
-- A guest refused on arrival despite a reservation could sue both on that duty and on the contract; the tort claim was out of time and the contract claim was allowed to proceed (666).
+- The court said the contract is "usually treated" as the means of establishing an innkeeper–guest relationship that creates "a common law relational duty on the part of the innkeeper, the breach of which is redressible in tort", with the contract as the means of establishing the relationship (665–666).
+- On the facts pleaded, a guest refused on arrival despite a reservation sued on that duty, on the statute and on the contract; the common-law and statutory claims were out of time and the contract claim was held well pleaded (665-666).
 
 **What the paper may not say:**
 - That the refused guest won, or recovered damages.
@@ -69,3 +69,5 @@ Earl D. Thomas, a Black man, sued The Pick Hotels Corporation and others for dam
 - That the duty is described as owed to the public and not to the guest: the court's phrase is a "relational duty", and the statute as it describes it gives damages "to the person or persons injured".
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved CAP text of the whole opinion (sources/thomas1955pick/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 2 keeps 'usually treated'; 'may say' 3 states the facts as pleaded and the claims' fate.

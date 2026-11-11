@@ -69,10 +69,10 @@ Title 4.9 of the Digest gathers seven fragments of Ulpian, Gaius and Paul on the
 - **K8 and K7: supports the holder's answerability for staff; gives no support to a duty of continuing oversight.** The operator answers for those he employs "suo periculo" (4.9.7 pr.) and for those he places in a post (4.9.1.3). The stated fault is in selection (4.9.7.4). An agreed warning could remove the liability (4.9.7 pr.), which the modern civil-law texts forbid (cards bgb701, coe1962hotelkeepers).
 
 **What the paper may say** (as Roman law in Justinian's Digest, citing fragment and section):
-- The praetor's edict gave a guest an action against an innkeeper who did not restore what he had received, and the liability did not depend on fault, irresistible force apart (D. 4.9.1 pr.; 4.9.3.1).
+- The praetor's edict gave an action against an innkeeper who did not restore what he had received of anyone's ("cuiusque") in the course of his business, and the liability did not depend on fault, irresistible force apart (D. 4.9.1 pr.; 4.9.3.1).
 - Ulpian explains the edict by the traveller's need to trust the innkeeper with his things and by the risk of collusion with thieves, and says it is not harsh because innkeepers are free to receive no one (D. 4.9.1.1).
-- The innkeeper was paid for letting travellers stay and not for custody, and a guest lodged for nothing kept the action (D. 4.9.5 pr.; 4.9.6 pr.).
-- The innkeeper answered for the acts of other travellers (D. 4.9.2).
+- The innkeeper was paid for letting travellers stay and not for custody, and under the in factum action for loss wrongfully suffered a guest lodged for nothing kept the action (D. 4.9.5 pr.; 4.9.6 pr.).
+- Under the action on the receipt the innkeeper answered for the acts of travellers (D. 4.9.2); under the action for double he answered for those living at the inn but not for a transient guest such as a traveller (D. 4.9.6.3).
 - The title makes a ship's operator answer for the crew he took on at his own risk ("suo periculo") and treats ship, inn and stable together (D. 4.9.7 pr.; 4.9.7.6).
 
 **What the paper may not say:**
@@ -83,3 +83,5 @@ Title 4.9 of the Digest gathers seven fragments of Ulpian, Gaius and Paul on the
 - Scott's English as a quotation of the Digest, or any date for the texts, on this card's authority.
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved Latin text and Scott translation of the whole title (sources/digest4_9/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 1, 3 and 4 narrowed; 4.9.6.3 reconciled with 4.9.2 by the two actions. At 4.9.7.6 the one liable in full is probably the father or master (cf. 4.9.3.3); do not cite it for the son's or slave's personal liability.

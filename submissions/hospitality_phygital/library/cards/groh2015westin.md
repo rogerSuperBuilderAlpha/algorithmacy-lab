@@ -79,7 +79,7 @@ Jillian Groh, a registered guest at the Westin in downtown Denver, brought frien
 - The duty is not bounded by the property line and attaches to risks that arise while the innkeeper–guest relationship lasts, the eviction included (¶¶ 40–43).
 - The guests told the guards they were drunk and could not drive; a friend asked to wait in the lobby for a taxi; a guard refused (¶¶ 2, 7–8).
 - The court counted letting intoxicated guests wait in the lobby among "relatively low-cost options" open to a hotel (¶ 36).
-- The court confined its holding to hotels and said the special relationship is absent for taverns and restaurants (n. 7), and it refused to require a hotel to provide transport (¶ 38).
+- The court confined its holding to hotels and said the special relationship is absent for taverns and restaurants (n. 7), and it said it was not holding that hotels must provide safe transportation (¶ 38).
 - Restatement (Second) of Torts § 314A, as quoted in *Groh* at ¶ 29, puts an innkeeper under a duty to protect guests against unreasonable risk of physical harm and to give first aid to guests it knows or has reason to know are ill or injured; the court records that § 40 of the Restatement (Third) replaced it in 2012 (n. 4).
 
 **What the paper may not say:**
@@ -91,3 +91,5 @@ Jillian Groh, a registered guest at the Westin in downtown Denver, brought frien
 - Anything on the Restatements' own authority, or on the authority of the cases the court cites from other states.
 
 Card written by Claude (Fable 5.2), reader R4b, from the saved CAP text of the full opinion and dissent (sources/groh2015westin/), on 11 Nov 2026, run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 5: 'said it was not holding', not 'refused to require'. OCR repairs at ¶¶ 4, 29, 40, 51 should be checked against the official 2015 CO 25.

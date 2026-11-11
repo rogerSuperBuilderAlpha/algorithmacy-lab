@@ -24,7 +24,7 @@ Outline numbering (rr-2026-11-k, v6): section 3, 'Delegation and standing'; sect
 
 ## Summary
 
-A French association of hotels and professional tourism businesses (AHTOP) lodged a criminal complaint that Airbnb Ireland was acting as an estate agent without the licence French law (the Hoguet Law) requires. The investigating judge in Paris asked the Court of Justice whether Airbnb's service enjoys the freedom to provide information society services under Directive 2000/31 and whether the Hoguet Law could be enforced against it. The Grand Chamber answered that the service is an 'information society service'. It is a service of intermediation distinct from the accommodation it leads to, and it is not an integral part of an overall service whose main component is the provision of accommodation. The Court gave four reasons: the structured list of offers with search and comparison tools is the essential feature of the platform and is no mere accessory to accommodation; the platform is not indispensable to the provision of accommodation; Airbnb does not set or cap the rent; and its other services (listing format, photography, ratings, payment handling, damage guarantee, optional insurance) are ancillary. It contrasted Uber, which exercised decisive influence over the conditions of the transport service. On the second question the Court held that France could not enforce the Hoguet Law against Airbnb Ireland because it had not notified the measure under art. 3(4)(b) of the Directive. EU law; the reference came from a French criminal court.
+A French "Association for professional tourism and accommodation" (AHTOP, para 22) lodged a criminal complaint that Airbnb Ireland was acting as an estate agent without the licence French law (the Hoguet Law) requires. The investigating judge in Paris asked the Court of Justice whether Airbnb's service enjoys the freedom to provide information society services under Directive 2000/31 and whether the Hoguet Law could be enforced against it. The Grand Chamber answered that the service is an 'information society service'. It is a service of intermediation distinct from the accommodation it leads to, and it is not an integral part of an overall service whose main component is the provision of accommodation. The Court gave four reasons: the structured list of offers with search and comparison tools is the essential feature of the platform and is no mere accessory to accommodation; the platform is not indispensable to the provision of accommodation; Airbnb does not set or cap the rent; and its other services (listing format, photography, ratings, payment handling, damage guarantee, optional insurance) are ancillary. It contrasted Uber, which exercised decisive influence over the conditions of the transport service. On the second question the Court held that France could not enforce the Hoguet Law against Airbnb Ireland because it had not notified the measure under art. 3(4)(b) of the Directive. EU law; the reference came from a French criminal court.
 
 ## Key facts / verified quotes with loci
 
@@ -69,7 +69,7 @@ A French association of hotels and professional tourism businesses (AHTOP) lodge
 
 **What the judgment does not contain**
 
-- It says nothing about what a platform owes a guest, about liability for injury or loss during a stay, or about consumer law. The only liability discussed is the criminal liability of an unlicensed intermediary under the Hoguet Law and the ancillary civil claim of a trade association (paras 2, 22-24, 98). [full-text]
+- It says nothing about what a platform owes a guest or about liability for injury or loss during a stay. It decides nothing on consumer law, though it quotes the derogation ground 'the protection of consumers, including investors' (para 11) and applies the conditions of art. 3(4) (para 84). The only liability discussed is the criminal liability of an unlicensed intermediary under the Hoguet Law and the ancillary civil claim of a trade association (paras 2, 22-24, 98). [full-text]
 - The Court took the facts from the order for reference and from "the explanations provided by Airbnb Ireland" (para 20); it noted that the referring court had defined the context "briefly but precisely" (para 33) and that the Commission thought the order "vitiated by a lack of factual details" (para 32). [full-text]
 
 **Later treatment**
@@ -79,7 +79,7 @@ A French association of hotels and professional tourism businesses (AHTOP) lodge
 ## Critical notes & threats
 
 - **A classification, not an allocation of responsibility.** The question was which internal-market regime governs the platform. The Court's answer keeps Airbnb inside Directive 2000/31, the instrument that also carried the hosting exemption then in force (now in Regulation 2022/2065, art. 6; see card eu2022dsa). The judgment does not hold that Airbnb owes guests nothing. It holds that Airbnb is not the provider of the accommodation for the purpose of market-access rules.
-- **The facts are from 2012 to 2017 and came from the platform.** The complaint covered "11 April 2012 and 24 January 2017" (para 22). The Court's finding on price is framed as what "is not apparent" from the file (para 56). A platform that later set or capped prices, or chose which hosts or properties to list, would fall to be tested again on the Court's own criteria.
+- **The facts are from 2012 to 2017.** The complaint covered "11 April 2012 and 24 January 2017" (para 22). The Court's finding on price is framed as what "is not apparent" from the file (para 56). A platform that later set or capped prices, or chose which hosts or properties to list, would fall to be tested again on the Court's own criteria.
 - **The criteria are the paper's control ground under another name.** Who sets the price, who selects the provider and whether the tool is indispensable are the three things the Court weighed across this case and Uber. They match K8's 'the one that controls', applied to conditions of supply. They do not test what the guest was led to believe; that test arrives with art. 6(3) of the Digital Services Act.
 - **The host admits.** On the facts found, the guest's payment follows "if a host accepts a guest" (para 19), and ratings serve "for hosts to be fully informed of the reliability of the guests with whom they might engage" (para 60). Admission, on this record, is the host's decision, informed by the platform's data.
 - **The platform does hold out something.** Holding the guest's money until 24 hours after check-in gives "the guest assurance that the property exists" (para 19). The Court treated that as a tool for securing the transaction (para 62) and not as taking over the service.
@@ -94,11 +94,11 @@ A French association of hotels and professional tourism businesses (AHTOP) lodge
 **What the paper may say on this source's authority**
 
 - The Court of Justice has held that Airbnb's intermediation service is an information society service and is not an integral part of an overall service whose main component is the provision of accommodation (paras 57, 69).
-- The Court reached that view because Airbnb did not set or cap the rents, which it left "to the host alone" (para 56), and did not select the hosts or the accommodation offered (para 68).
+- The Court gave four reasons (paras 53-56, 68), among them that it was "not apparent" from the file that Airbnb set or capped the rents, which it left "to the host alone" (para 56), and that it did not select the hosts or the accommodation offered (para 68).
 - The Court treated the platform's listing format, photography, ratings, payment handling, damage guarantee and optional insurance as ancillary to intermediation (paras 58-64).
 - The Court contrasted Uber, which it had found to exercise decisive influence over the conditions under which drivers provided transport (paras 65-68).
 - On the facts before the Court, hosts and guests each contract with the platform for its use (para 21), the host accepts the guest (para 19) and the host sets the rent (para 56).
-- The case arose from a complaint by an association of hotel and tourism businesses that Airbnb was acting as an unlicensed estate agent (paras 22-24).
+- The case arose from a complaint by AHTOP, an "Association for professional tourism and accommodation" (para 22), that Airbnb was acting as an unlicensed estate agent (paras 22-24).
 
 **What the paper may not say**
 
@@ -110,3 +110,5 @@ A French association of hotels and professional tourism businesses (AHTOP) lodge
 - That the judgment is the present law on platform liability. The liability rules are now in Regulation (EU) 2022/2065.
 
 Card written by a Claude (Fable 5.2) subagent, reader R5b, from the saved Publications Office text of the judgment read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-B (`manuscript/keystone_2026-11/VERIFY_CARDS_B.md`): 'may say' 2 (four reasons; price 'not apparent') and 6 (AHTOP's name) narrowed; 'came from the platform' removed.
