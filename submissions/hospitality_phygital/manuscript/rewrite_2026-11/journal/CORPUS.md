@@ -52,4 +52,4 @@ One open text was not obtained: Minca (2026), 'Biopolitics, sovereign power and 
 
 ## What this means for the model
 
-`JOURNAL_MODEL.md` rests on **eight regular articles and two editorials read in full**, four of the ten from 2022 or later. The plan's target was twelve, with three on technology or commercial hosting; three of the seven meet that description (Bialski 2012; Germann Molz 2018; Varley et al. 2018). The gap is the closed list above. Also obtained on 10 Nov 2026: the open-access LNCS chapter of Baum and Laux (2026), outside the journal.
+`JOURNAL_MODEL.md` rests on **eight regular articles and two editorials read in full**, four of the ten from 2022 or later. The plan's target was twelve, with three on technology or commercial hosting; four of the eight meet that description (Bialski 2012; Germann Molz 2018; Varley et al. 2018; Baah et al. 2023). The gap is the closed list above. Also obtained on 10 Nov 2026: the open-access LNCS chapter of Baum and Laux (2026), outside the journal.
