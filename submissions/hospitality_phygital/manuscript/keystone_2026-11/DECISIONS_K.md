@@ -67,3 +67,11 @@ P6 and P7 are not run as full workstreams. The claim audit showed that the paper
 ### K-D10 · 11 Nov · A wrong number in a commit message
 The message of commit 7ad42b93 says the run produced 76 new cards. The count is **67 new cards and 6 upgraded** (332 cards in the library, 265 before the run). The message cannot be changed without rewriting pushed history, so the correction is recorded here.
 
+### K-D11 · 11 Nov · The run continues on Opus 5.5
+Fable 5.2 reached its usage limit at about 17:15 on 11 Nov. All eight agents then running stopped before writing any file: the five card verifiers (CV-A to CV-E), the novelty scout (P5) and readers R7 and R8. The authors switched the session to Opus 5.5 and said to continue.
+
+- **What changes.** The rest of the run, including the reruns of those eight agents, the hand-check of Tier 1 cards, `ARGUMENT.md`, the red team and DRAFT_v7, runs on Opus 5.5. The authors asked for Fable 5.2; this departs from that request, and the report says so.
+- **What does not change.** The briefs are the same, apart from the model named in each report's header line and a note that the earlier attempt left nothing.
+- **What was done on Fable 5.2.** Stages 0 to 2, the claim audit and its verification, the nine reader reports and the 67 new cards. The commit trailers show which model wrote each commit.
+- **A guard affected.** The standing rule for research-run cards asks for a hand-check by Fable. The hand-check is now done by Opus 5.5; if the authors want the Fable check, it can be re-run on the Tier 1 cards when Fable is available again.
+
