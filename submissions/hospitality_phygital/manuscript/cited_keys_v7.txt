@@ -1,0 +1,109 @@
+# DRAFTED BY CLAUDE (Opus 5.5), 11 Nov 2026, run rr-2026-11-k. Works cited in DRAFT_v7.md, one bib key per line, rendered by render_refs.py.
+# Cases and legislation are listed by hand in the draft (render_refs.py cannot format them); their keys are recorded below as comments.
+garcia2026strategic
+xu2024disciplined
+bosma2022platformed
+cobbe2023understanding
+ogorman2005modern
+ogorman2007discovering
+ogorman2007phenomenon
+morrison2008hospitality
+hemmington2007
+bulley2015ethics
+lynch2011theorizing
+robinson2007power
+petie2025exploring
+dogru2025service
+koo2026three
+batat2026psr
+batat2024phcx
+shabnam2026tpsr
+kong2026delegation
+kropf2026blame
+golubovskaya2017meaning
+pittrivers2012law
+moysidou2023theorizing
+lashley2015hospitality
+slattery2002finding
+blain2014hospitableness
+derrida2000hospitality
+westmoreland2008interruptions
+jeske2019special
+dagger2021political
+blackstone1768commentaries
+habib2022promises
+sandovalstrausz2005travelers
+king1995what
+wenar2025rights
+germannmolz2018scale
+brandt2017transfer
+herstein2023legal
+kiesewetter2015instrumental
+schumacher2016case
+min2020angry
+hindriks2025moral
+gelbrich2011metaanalysis
+fox2007uncertain
+hormio2018culpable
+lee2025robot
+pettit2007responsibility
+un2011guiding
+baum2026constitutive
+baum2026anticipatory
+jianu2025
+spektor2023designing
+bovens2007accountability
+xiang2022covid
+ostp2022blueprint
+tbscanada2019directive
+binesh2026ai
+wilsonnash2025captivity
+# --- Cases (listed by hand) ---
+# alnajar2019cumberland
+# airbnb2019cjeu
+# (americancyanamid1975ethicon: cut 12 Nov 2026)
+# armes2017uksc
+# barclays2020uksc
+# billops1978magness
+# calye1584case
+# constantine1944imperial
+# crinkley1988holiday
+# dma2020sshd
+# everett2011comojo
+# ferguson1987welsh
+# globaltech2011seb
+# gregg2005ukhl
+# groh2015westin
+# hayman1987ramada
+# kuoni2021uksc
+# maguire2006sefton
+# manifest2001unipolaris
+# mathews1976eldridge
+# mobil1995bransford
+# naylor2004payling
+# orlando1983robbins
+# rasnick2011krishna
+# rymer1877queen
+# schufa2023cjeu
+# thomas1955pick
+# wheat1966lacon
+# wong1995kwan
+# rr2025enfield
+# yl2007ukhl
+# --- Legislation and other legal sources (listed by hand) ---
+# digest4_9
+# eu2005ucpd
+# eu2015package
+# eu2022dsa
+# eu2024aiact
+# eu2024platformwork
+# eu2024product
+# eu2026package
+# ie1963hotel
+# uk1956hotel
+# uk1957occupiers
+# uk2010equality
+# uk2015consumer
+# uk2018package
+# uk2024dmcc
+# uk2025datause
