@@ -147,3 +147,24 @@ Abstract: Leveson 2000, Vaithilingam et al. 2025.
 - Rerun the failed gap-check legs (Scholar Gateway, OpenAlex, Semantic Scholar) before submission.
 - Uncarded leads: Dragan, Lee & Srinivasa 2013 and Szafir, Mutlu & Fong 2014 (legible robot motion,
   via Schulz); So et al. 2026; Hau 2026; Govind Reddy 2026 (sibling library, abstract).
+
+## Run 2, second day (2026-11-12)
+
+[Written by Claude (Opus 5.5, lead).]
+
+- **Gap check rerun** (`GAP_CHECK_2.md`, rerun section): OpenAlex ran (eight searches; citation snowballs
+  on L. Stark 2024, Pinhanez 2017, Lasseter 1987, Takayama 2011); no new close hit; verdict unchanged.
+  Scholar Gateway (access denied) and Semantic Scholar (HTTP 429) failed again.
+- **Four cards**: `szafir2014communication` (full), `dragan2014analysis` (full), `dragan2013legibility`
+  (abstract; full text paywalled on the ACM page), `zhang2026narrative` (upgraded to full). Writer:
+  subagent; S6 verifier batch D: 4 corrected; S7 hand-check by the lead: 4 index. Index rebuilt (91 cards,
+  0 malformed, 0 stale); DOIs 3/3 ok; quotations 41 found, 1 found-nospace.
+- **What changed the model:** no read study shows an anticipatory cue raising prediction accuracy
+  (Szafir 2014; Takayama 2011), so row 3's cue takes anticipation's function, not its form, and P4 has
+  no support yet. Dragan 2014's "confidently wrong" is a property of their model, not a measured result.
+  Zhang & Davis claim keyframing as new only within AI-assisted writing, and their generated material
+  can rewrite the writer's keys.
+- **Draft checks closed:** Hoerl p. 690, Dragicevic p. 2017, Takayama p. 74, Pinhanez pp. 31 and 34
+  (inferred from Crossref ranges and PDF page counts); Burrell and D. Stark references completed.
+  **Still open:** Kurian's version-of-record pages (ScienceDirect showed a CAPTCHA to the automated
+  browser); the TIES reference-style name (its link names none); the two failed search legs.

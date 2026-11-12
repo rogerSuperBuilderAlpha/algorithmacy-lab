@@ -38,3 +38,9 @@ page footer and Tan §5.5 in the arXiv text.
 
 `tools/check_dois.py` on the 14 run-2 cards with DOIs: 14 ok, title match 1.00 for each. It printed
 results and did not rewrite `DOI_CHECK.md`.
+
+### Run 2, second day (2026-11-12)
+
+`tools/quote_check.py` on `szafir2014communication`, `dragan2014analysis` and `zhang2026narrative`: 41
+found, 1 found-nospace (`zhang2026narrative`, a line break inside the quotation; supported).
+`dragan2013legibility` is an abstract card with no loci. `tools/check_dois.py`: 3/3 ok.
