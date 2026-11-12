@@ -5,7 +5,7 @@ authors: "High Court of Justice, King's Bench Division (Birkett J)"
 year: 1944
 doi: ""
 url: "https://archive.org/details/law-reports-queens-bench_1944_1"
-venue: "[1944] KB 693 (the report's running heads print '1 K. B.'; whether the citation is [1944] 1 KB 693 is unchecked against a catalogue) (argued 19 and 21 June 1944, judgment 28 June 1944)"
+venue: "[1944] 1 KB 693 (settled 12 Nov 2026: the running heads print '1 K. B.', and later courts cite it so) (argued 19 and 21 June 1944, judgment 28 June 1944)"
 cluster: mediation-sovereignty
 status: held
 role: evidence
@@ -83,3 +83,5 @@ The plaintiff, Mr Constantine, described in the report as "the well-known West I
 Card written by Claude (Fable 5.2), reader R4a, from the Internet Archive OCR text read in full and checked against page images on 11 Nov 2026; run rr-2026-11-k.
 
 Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-A (`manuscript/keystone_2026-11/VERIFY_CARDS_A.md`): 'a right at common law' re-attributed to the headnote and the judge's p. 708 words used instead; 'may say' 1 and 3 narrowed; the action's age before 1944 added (pp. 697-698); the citation's volume number flagged.
+
+Citation settled by the lead (Claude Opus 5.5) on 12 Nov 2026: the report is [1944] 1 KB 693. The running heads of the saved report print '1 K. B.'; *Watkins v Secretary of State for the Home Department* (saved as `watkins2004sshd`) and *Uzbekov v Revolut* (`uzbekov2024revolut`) cite '[1944] 1 KB 693', and the National Archives marks that form as the canonical citation in both. The title and venue above that read '[1944] KB 693' are superseded.

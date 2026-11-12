@@ -732,8 +732,8 @@
 "In Groh, guests told a hotel's guard that they could not leave because 'We are drunk. We can't drive', and the hotel evicted them; the Colorado court held that the duty of care governed how the stay was ended (Westin Operator v Groh 2015: ¶¶ 4, 7)."
 ],
 "S-184": [
-"quote",
-"The power that can correct a failure is also the power to expel, and a route to it serves the guest only where the duty of care governs its use."
+"cut",
+""
 ],
 "S-185": [
 "quote",
@@ -1086,5 +1086,9 @@
 "A-6": [
 "quote",
 "The article offers six questions for examining a touchpoint, states what the law already requires, and sets out what hosts can do."
+],
+"S-205a": [
+"new",
+"The Court of Appeal has since read the case as requiring a system to ensure that contractors performed the minister's duty, not a free-standing duty to monitor under the Equality Act (RR v Enfield 2025: paras 80–81)."
 ]
 }

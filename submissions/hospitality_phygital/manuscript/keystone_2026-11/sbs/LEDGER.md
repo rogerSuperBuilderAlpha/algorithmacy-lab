@@ -2156,3 +2156,21 @@ Two independent auditors checked every sentence of DRAFT_v7 against the saved fu
 - **S-072 (spelling).** 'toward' → 'towards' in the rewrite above.
 
 **Measured after the audit revisions.** Body 8,916 words by `wordcount.py` (8,974 by `preflight.py`, which counts the AI acknowledgment's placeholder). `check_citations.py`: citations OK.
+
+## Additions after reading the later Court of Appeal judgments on R (DMA) (12 Nov 2026)
+
+The four Court of Appeal judgments that cite *R (DMA)* were read from National Archives copies (`sources/dma2020sshd_later/`; cards `rr2025enfield`, `asy2024homeoffice`; note on `dma2020sshd`). None overrules or narrows the declaration on its facts. One reads it in the paper's own shape, and v7 now says so, paying for the sentence with a cut.
+
+### S-205a · M.187 · 33w · new
+> The Court of Appeal has since read the case as requiring a system to ensure that contractors performed the minister's duty, not a free-standing duty to monitor under the Equality Act (RR v Enfield 2025: paras 80–81).
+- Form ✅ A case-fact closing the *DMA* case; no outline row, since the judgment was read after the outline.
+- Construction ✅ 'the case' is *R (DMA)*, named in S-204; 'the minister's duty' the duty to provide accommodation.
+- Register ✅ *read*, *requiring*, *ensure*, *performed*.
+- Value ✅ Answers the debt the red team and the card recorded (four Court of Appeal judgments unread), and shows the monitoring requirement derived from a duty performed through contractors, which is the structure of the paper's step.
+- Counterpart ✅ M.187's case detail.
+- Truth ✅ `rr2025enfield` paras 80-81 (Lewis LJ; Whipple LJ and Vos MR agreeing): the Secretary of State 'needed to have a system in place that ensured that the contractors did provide the accommodation'; the courts 'were not deciding that there was some free standing duty to monitor, derived from section 149 of the 2010 Act'. Read by the lead in the saved XML; card not independently verified.
+
+- **S-184 ❌ → cut.** Was: > The power that can correct a failure is also the power to expel, and a route to it serves the guest only where the duty of care governs its use.
+  *Paid for S-205a. S-201 states the same point at the case ('the power reached was used against the guests, and the duty of care, not the route, governs that failure').*
+
+**Measured.** Body 8,923 by `wordcount.py`; 8,981 by `preflight.py`. `check_citations.py`: citations OK. *RR v Enfield* added to the Cases list and to `cited_keys_v7.txt`.

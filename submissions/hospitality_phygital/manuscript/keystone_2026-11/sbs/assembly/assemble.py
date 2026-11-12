@@ -27,6 +27,9 @@ for i in range(1,264):
     if i in heads: out.append(heads[i])
     t=f[f'S-{i:03d}']
     if t[0]!='cut': cur.append(t[1])
+    for sfx in 'abc':
+        x=f.get(f'S-{i:03d}{sfx}')
+        if x and x[0]!='cut': cur.append(x[1])
     if i in after: flush(); out.append(after[i])
 flush()
 body='\n\n'.join(out)+'\n'

@@ -11,7 +11,7 @@ Batat, Wided (2026), 'Phygital service research (PSR): Advancing FSR and TSR tow
 
 Baum, Kevin and Laux, Johann (2026b), 'Constitutive vs. corrective: A causal taxonomy of human runtime involvement in AI systems', in *Bridging the Gap Between AI and Reality*, Cham: Springer Nature Switzerland, pp. 115–130.
 
-Baum, Kevin, Kiener, Maximilian, Langer, Markus and Laux, Johann (2026a), *Anticipatory human oversight of agentic AI: A philosophical account*.
+Baum, Kevin, Kiener, Maximilian, Langer, Markus and Laux, Johann (2026a), *Anticipatory human oversight of agentic AI: A philosophical account*, https://doi.org/10.2139/ssrn.7497218.
 
 Binesh, Nasim and Syah, Ahmad (2026), 'AI ethics in hospitality and tourism: Theoretical perspectives, ethical beliefs, and actionable outcomes', *Frontiers in Artificial Intelligence*, 9, 1913343.
 
@@ -53,7 +53,7 @@ Herstein, Ori (2023), 'Legal rights', in Zalta, Edward N. and Nodelman, Uri (eds
 
 Hindriks, Frank A. (2025), 'The moral failures of collective agents: responsibility voids and control gaps', *Synthese*, 205:4.
 
-Hormio, Säde (2018), *Culpable ignorance in a collective setting*.
+Hormio, Säde (2018), *Culpable ignorance in a collective setting*, https://doi.org/10.31235/osf.io/85nbu.
 
 Jeske, Diane (2021), 'Special obligations', in Zalta, Edward N. (ed.), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
 
@@ -103,15 +103,15 @@ Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, 
 
 Slattery, Paul (2002), 'Finding the hospitality industry', *The Journal of Hospitality Leisure Sport and Tourism*, 1:1, pp. 19–28.
 
-Treasury Board of Canada Secretariat (2019), *Directive on automated decision-making*.
+Treasury Board of Canada Secretariat (2019), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
 
-United Nations, Office of the High Commissioner for Human Rights (2011), *Guiding principles on business and human rights: Implementing the United Nations "protect, respect and remedy" framework*.
+United Nations, Office of the High Commissioner for Human Rights (2011), *Guiding principles on business and human rights: Implementing the United Nations "protect, respect and remedy" framework*, https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf.
 
 Wenar, Leif and Cruft, Rowan (2025), 'Rights', in Zalta, Edward N. and Nodelman, Uri (eds), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
 
 Westmoreland, Mark W. (2008), 'Interruptions: Derrida and hospitality', *Kritike: An Online Journal of Philosophy*, 2:1, pp. 1–10.
 
-White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*.
+White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*, Washington, DC: The White House, https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf.
 
 Wilson-Nash, Carolyn, Angell, Rob, Qiu, Yuanming, Pavlopoulou, Ismini and Kolyperas, Dimitrios (2026), 'No app, no entry: Conceptualizing digital technology captivity in service access', *Psychology & Marketing*, 43:5, pp. 974–985.
 
@@ -135,7 +135,7 @@ Billops v Magness Construction Co (1978) 391 A.2d 196 (Del.).
 
 Calye's Case (1584) 8 Co Rep 32a, 77 ER 520.
 
-Constantine v Imperial Hotels Ltd [1944] KB 693.
+Constantine v Imperial Hotels Ltd [1944] 1 KB 693.
 
 Crinkley v Holiday Inns, Inc (1988) 844 F.2d 156 (4th Cir.).
 
@@ -162,6 +162,8 @@ Naylor (t/a Mainstreet) v Payling [2004] EWCA Civ 560.
 Orlando Executive Park, Inc v Robbins (1983) 433 So. 2d 491 (Fla.).
 
 R (DMA) v Secretary of State for the Home Department [2020] EWHC 3416 (Admin).
+
+R (RR) v London Borough of Enfield [2025] EWCA Civ 1390.
 
 R v Rymer (1877) 2 QBD 136.
 

@@ -81,9 +81,8 @@ The novelty search found no work that derives a guest's route to correction from
 | Hardimon 1994; Simmons 1996; Goodin 1985 | Why a role binds | Whether a chosen role binds by itself, and vulnerability as a unifying ground |
 | Koo and Kwon 2026; Dogru et al. 2025 | The introduction's neighbours (abstract only) | Whether hospitality research already makes the claim |
 | Dikeç 2002; Robinson and Lynch 2007 | Contestation; micro- and macro-hosts (credited through Lynch et al.) | The editors' wording against the version of record |
-| The four Court of Appeal judgments citing *R (DMA)* | Section 4, the placed-guest case | Whether later courts narrowed the monitoring duty |
 | Irish case law on the 1963 Act, s. 4 | Conclusion, fourth study | Whether the Irish safety duty reaches contractors |
-| Cards written by me, not independently verified: `wheat1966lacon`, `ostp2022blueprint`, `tbscanada2019directive`, `binesh2026ai` | Section 3 (*Wheat*); the conclusion's credits | Each was checked by me against its saved text; the Binesh and Syah record was wrong in authors and title until Crossref was checked, which is the case for an independent check |
+| Cards written by me: `wheat1966lacon`, `ostp2022blueprint`, `tbscanada2019directive`, `binesh2026ai`, `rr2025enfield`, `asy2024homeoffice` | Section 3 (*Wheat*); Section 4 (*RR v Enfield*); the conclusion's credits | The v7 claim audit checked the passages v7 uses from the first four. An independent verifier (CV-I) checks all six; see §8 |
 
 Ten minutes of library sign-in would clear the closed philosophy texts (`PAPERS_TO_GET.md`).
 
@@ -99,7 +98,7 @@ Two independent auditors checked every sentence of v7 against the saved full tex
 - **A copier defect.** The audit found five ledger rewrites that had not reached the draft, because the assembly script read only rewrites marked 'Rewritten:'. I searched the whole ledger for others and applied all five.
 - **Length.** The corrections added words, so six sentences that repeated others were cut. The body is 8,916 words.
 
-**Reference details for you.** The renderer prints only the title for preprints and institutional documents. Baum et al. (2026a) needs its arXiv number (2609.24242v1). Hormio (2018) is the preprint of *Acta Philosophica Fennica* 94: 7–34. The Treasury Board directive was read in its 24 June 2025 version. Garcia et al. (2026) needs the published page numbers, because only the CESifo working paper was read.
+**Reference details.** Fixed on 12 Nov: preprints and institutional documents now print their issuer and DOI or URL (§8). Still yours: Garcia et al. (2026) needs the published page numbers, since only the CESifo working paper was read and the publisher's site serves a bot check. Hormio (2018) is cited as the SocArXiv preprint whose pages the paper uses; the journal version (*Acta Philosophica Fennica* 94: 7–34) was not seen. The Treasury Board directive was read in its version of 24 June 2025.
 
 ## 6. Decisions that are yours
 
@@ -108,7 +107,7 @@ Two independent auditors checked every sentence of v7 against the saved full tex
 3. **The title.** v6's title is kept. 'Standing' no longer carries the argument. A title v7 would bear: *Who hosts the guest? The host's duty under algorithmic mediation in phygital hospitality*.
 4. **R2.4.** Decide whether to concede in the text that the argument reaches any relation in which a party performs through others for someone confined in its space (hospitals, care homes).
 5. **The editor's items v7 no longer meets.** Collective well-being and industry gains (v6's sentences were unsourced and are gone); the dual-place 'relay'; Riordan and the other September sources.
-6. **Citations to confirm in a library.** Whether *Constantine* is [1944] KB 693 or [1944] 1 KB 693. Whether *Calye's Case* is cited by its term (1584) or its report (Coke's Reports, 1604). Whether Telfer should have her own reference entries or stay 'as quoted in'.
+6. **Citations to confirm.** Whether *Calye's Case* is cited by its term (1584) or by its report in Coke's Reports. Whether Telfer should have her own reference entries or stay 'as quoted in'. (*Constantine* is settled: [1944] 1 KB 693; see §8.)
 7. **K-D12** (Internet Archive copies of open texts counted as open copies) and **K-D11** (Opus 5.5 after Fable's limit) are reversible: say if any card read that way should be re-read.
 8. **The read-aloud**, which is the last gate.
 
@@ -121,3 +120,12 @@ Two independent auditors checked every sentence of v7 against the saved full tex
 | `preflight.py` | Front matter passes; the remaining FAILs are known false positives (legal sources listed separately, nested quotation marks, the AI template, 'App.' read as 'pp.', 'enterprises') |
 | `build_index.py --check` | Library OK |
 | Letters | Every quotation of v7 copied by sentence id and matched string for string |
+
+## 8. Added on 12 Nov
+
+- **The four Court of Appeal judgments that cite *R (DMA)*** are read (National Archives copies in `sources/dma2020sshd_later/`). None overrules or narrows the declaration on its facts. *RR v Enfield* [2025] EWCA Civ 1390, paras 80–81 (Lewis LJ, with Whipple LJ and Vos MR agreeing), reads *DMA* as concerned with a duty the Secretary of State 'discharged ... through independent contractors': she 'needed to have a system in place that ensured that the contractors did provide the accommodation', and the courts were 'not deciding that there was some free standing duty to monitor'. That is the paper's own structure, a requirement derived from a duty performed through others, so v7 now says it in one sentence after the *DMA* case (S-205a). I paid for the sentence by cutting S-184, which repeated S-201. *ASY v Home Office* [2024] EWCA Civ 373 ties damages for breach of an Article 3 systems duty to the person's having notified the Home Office and not had 'a positive and prompt response' (para 97). I carded it as held, not cited. The other two judgments only list *DMA* among authorities.
+- ***Constantine* is [1944] 1 KB 693.** The report's running heads print '1 K. B.', two saved judgments cite it so, and the National Archives marks that form as canonical. The Cases list, the bibliography and the card are corrected.
+- **Online-only references.** `render_refs.py` printed only the title for preprints and institutional documents. It now adds the issuer and a DOI or URL, which the journal's examples allow for online-only sources (`JOURNAL_SPEC.md`). Five v7 entries change; in v6's rendered list only the legal entries change, and DRAFT_v6.md lists those by hand, so it is unaffected.
+- **Garcia et al.'s published pages.** One plain request to the publisher returned a bot check, so I stopped. The bot-check page was saved as `sources/garcia2026strategic/vor/vor.pdf`; a safety check blocked my removing it, so delete that file and folder yourself (the folder is gitignored).
+- **Independent verification of my six cards** (CV-I): I tried Fable 5.2 first, following your original instruction, but it is still at its usage limit (HTTP 429), so the check runs on Opus 5.5 under K-D11. Its report is `VERIFY_CARDS_I.md`.
+- Body 8,923 words by `wordcount.py` (8,981 by `preflight.py`); citations OK; the letters rebuilt, every quotation matching the draft.

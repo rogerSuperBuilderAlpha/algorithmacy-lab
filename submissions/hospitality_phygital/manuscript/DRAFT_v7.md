@@ -76,7 +76,7 @@ Automation can move that person without removing them: the automated hotels Xu a
 
 The end of the route need not always be a person, and the cases show when it must be. Where the arrangements can produce what the guest is owed, retrying cures a failure: at the automated hotels most failures of face recognition were cured by guests trying again, sometimes with advice from bystanders or staff (Xu and Greiffenhagen 2024: 5025, 5027, 5030). Where retrying cannot cure it, correction needs power to depart from the arrangements' output, as when a worker checked in by hand the 13 guests the kiosk could not process (5035). For failures of a documented type, a reachable power to override is a precaution a host can foresee needing, since a failure is foreseeable when its causal mechanism was known in advance (Kong 2026: 6). For a failure of no documented type Kong offers no support, treating it as 'the faultless accident' (2026: 7); there we offer only our reading, that the case the arrangements did not foresee is where a host's conditional laws meet what exceeds them. We therefore ask for a natural person at the end of the route where no configured process covers the type of failure and what is at stake warrants one. From 2 December 2027, European law requires that high-risk AI systems listed in Annex III let the people assigned to oversee them 'disregard, override or reverse the output', as appropriate and proportionate (Regulation (EU) 2024/1689, arts 14(4), 113, as amended by Regulation (EU) 2026/1744), and it leaves systems that only confirm a person's identity off that list (Annex III, point 1(a)).
 
-The person at the end of the route owes the guest care in using that power. In Groh, guests told a hotel's guard that they could not leave because 'We are drunk. We can't drive', and the hotel evicted them; the Colorado court held that the duty of care governed how the stay was ended (Westin Operator v Groh 2015: ¶¶ 4, 7). The power that can correct a failure is also the power to expel, and a route to it serves the guest only where the duty of care governs its use. The holder, for its part, owes the person at the end of the route real authority, which in the Helsinki hotel was unwritten. In the Glasgow hotels, staff told of a guest's deteriorating health the night before an attack lacked the knowledge to act, and an inquiry treated them as victims of management's decisions rather than as individually responsible (Petie et al. 2025). A route to someone without authority is not a route to correction, so on our account the holder must give that person power in writing, the training to use it, and protection from becoming the object of the route.
+The person at the end of the route owes the guest care in using that power. In Groh, guests told a hotel's guard that they could not leave because 'We are drunk. We can't drive', and the hotel evicted them; the Colorado court held that the duty of care governed how the stay was ended (Westin Operator v Groh 2015: ¶¶ 4, 7). The holder, for its part, owes the person at the end of the route real authority, which in the Helsinki hotel was unwritten. In the Glasgow hotels, staff told of a guest's deteriorating health the night before an attack lacked the knowledge to act, and an inquiry treated them as victims of management's decisions rather than as individually responsible (Petie et al. 2025). A route to someone without authority is not a route to correction, so on our account the holder must give that person power in writing, the training to use it, and protection from becoming the object of the route.
 
 The holder must also learn across cases: in the Glasgow hotels, the Government's evaluation found that a guest's queries had each been dealt with appropriately but should together have served as a warning sign (Petie et al. 2025). The UN Guiding Principles give a grievance channel the same second function: 'by analysing trends and patterns in complaints, business enterprises can also identify systemic problems and adapt their practices accordingly' (United Nations 2011: 32). Where several firms host together, each answers on these accounts for its own part (Kong 2026: 9), and a loose collection of firms is not itself an agent (Pettit 2007: 195). We propose that the party in control of the guest's space owes the duty to route a guest's report to the firm with power over the failing part, because that party is where the guest is. The one analogue we found is in occupiers' law, where the occupiers on the spot 'should have reported it to the Brewery Company' (Wheat v E Lacon 1966: 11).
 
@@ -95,7 +95,7 @@ The questions keep apart the power a report reaches and the use made of it, and 
 
 Four documented cases show the test at work, from automated check-in to accommodation for people placed by the state. At the automated hotels, guests whose identity or reservation the kiosk could not process found a worker who checked them in by hand, and when the kiosk was down for two days a worker met every arriving guest (Xu and Greiffenhagen 2024: 5021, 5035). On the test, the route existed and ended in a worker able to override the kiosk, but a guest the kiosk could not process found that worker only by seeking the worker out, so the touchpoint passes the third and fifth questions and fails the second. In Groh, the guests' report reached guards with power over the single case, who refused a friend's request to let the group wait in the lobby, an option the court counted among 'relatively low-cost options' (2015: ¶¶ 7–8, 36). The touchpoint passes the third question and fails the fourth, since the power reached was used against the guests, and the duty of care, not the route, governs that failure.
 
-In Rasnick, a guest's wife telephoned a motel repeatedly, and on her account one operator hung up and her later calls met a recorded message; a housekeeper found the guest the next morning unable to get up (Rasnick v Krishna Hospitality 2011: 565, n. 1; dissent at 572). The Georgia court held that the motel owed no legal duty to check on him (569–570), and the case lies outside the further duty, which concerns the host's own performance; it shows a report reaching an operator and going no further. In R (DMA), contractors housing people for the Home Secretary recorded them on a portal as having 'failed to travel', and one case was closed thirteen minutes after a charity e-mailed to ask about it (2020: paras 63, 77, 79). The court declared the minister in breach for failing properly to monitor provision, reasoning that she must be able to act 'at the time and in the individual case' (paras 236–241, 333), in a setting where inhuman or degrading treatment was imminent. The cases show that a route can exist and still fail at a different question in each, and that the questions locate where it fails.
+In Rasnick, a guest's wife telephoned a motel repeatedly, and on her account one operator hung up and her later calls met a recorded message; a housekeeper found the guest the next morning unable to get up (Rasnick v Krishna Hospitality 2011: 565, n. 1; dissent at 572). The Georgia court held that the motel owed no legal duty to check on him (569–570), and the case lies outside the further duty, which concerns the host's own performance; it shows a report reaching an operator and going no further. In R (DMA), contractors housing people for the Home Secretary recorded them on a portal as having 'failed to travel', and one case was closed thirteen minutes after a charity e-mailed to ask about it (2020: paras 63, 77, 79). The court declared the minister in breach for failing properly to monitor provision, reasoning that she must be able to act 'at the time and in the individual case' (paras 236–241, 333), in a setting where inhuman or degrading treatment was imminent. The Court of Appeal has since read the case as requiring a system to ensure that contractors performed the minister's duty, not a free-standing duty to monitor under the Equality Act (RR v Enfield 2025: paras 80–81). The cases show that a route can exist and still fail at a different question in each, and that the questions locate where it fails.
 
 ### When the route is owed, and the law's floor
 
@@ -157,7 +157,7 @@ Batat, Wided (2026), 'Phygital service research (PSR): Advancing FSR and TSR tow
 
 Baum, Kevin and Laux, Johann (2026b), 'Constitutive vs. corrective: A causal taxonomy of human runtime involvement in AI systems', in *Bridging the Gap Between AI and Reality*, Cham: Springer Nature Switzerland, pp. 115–130.
 
-Baum, Kevin, Kiener, Maximilian, Langer, Markus and Laux, Johann (2026a), *Anticipatory human oversight of agentic AI: A philosophical account*.
+Baum, Kevin, Kiener, Maximilian, Langer, Markus and Laux, Johann (2026a), *Anticipatory human oversight of agentic AI: A philosophical account*, https://doi.org/10.2139/ssrn.7497218.
 
 Binesh, Nasim and Syah, Ahmad (2026), 'AI ethics in hospitality and tourism: Theoretical perspectives, ethical beliefs, and actionable outcomes', *Frontiers in Artificial Intelligence*, 9, 1913343.
 
@@ -199,7 +199,7 @@ Herstein, Ori (2023), 'Legal rights', in Zalta, Edward N. and Nodelman, Uri (eds
 
 Hindriks, Frank A. (2025), 'The moral failures of collective agents: responsibility voids and control gaps', *Synthese*, 205:4.
 
-Hormio, Säde (2018), *Culpable ignorance in a collective setting*.
+Hormio, Säde (2018), *Culpable ignorance in a collective setting*, https://doi.org/10.31235/osf.io/85nbu.
 
 Jeske, Diane (2021), 'Special obligations', in Zalta, Edward N. (ed.), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
 
@@ -249,15 +249,15 @@ Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, 
 
 Slattery, Paul (2002), 'Finding the hospitality industry', *The Journal of Hospitality Leisure Sport and Tourism*, 1:1, pp. 19–28.
 
-Treasury Board of Canada Secretariat (2019), *Directive on automated decision-making*.
+Treasury Board of Canada Secretariat (2019), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
 
-United Nations, Office of the High Commissioner for Human Rights (2011), *Guiding principles on business and human rights: Implementing the United Nations "protect, respect and remedy" framework*.
+United Nations, Office of the High Commissioner for Human Rights (2011), *Guiding principles on business and human rights: Implementing the United Nations "protect, respect and remedy" framework*, https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf.
 
 Wenar, Leif and Cruft, Rowan (2025), 'Rights', in Zalta, Edward N. and Nodelman, Uri (eds), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
 
 Westmoreland, Mark W. (2008), 'Interruptions: Derrida and hospitality', *Kritike: An Online Journal of Philosophy*, 2:1, pp. 1–10.
 
-White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*.
+White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*, Washington, DC: The White House, https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf.
 
 Wilson-Nash, Carolyn, Angell, Rob, Qiu, Yuanming, Pavlopoulou, Ismini and Kolyperas, Dimitrios (2026), 'No app, no entry: Conceptualizing digital technology captivity in service access', *Psychology & Marketing*, 43:5, pp. 974–985.
 
@@ -281,7 +281,7 @@ Billops v Magness Construction Co (1978) 391 A.2d 196 (Del.).
 
 Calye's Case (1584) 8 Co Rep 32a, 77 ER 520.
 
-Constantine v Imperial Hotels Ltd [1944] KB 693.
+Constantine v Imperial Hotels Ltd [1944] 1 KB 693.
 
 Crinkley v Holiday Inns, Inc (1988) 844 F.2d 156 (4th Cir.).
 
@@ -308,6 +308,8 @@ Naylor (t/a Mainstreet) v Payling [2004] EWCA Civ 560.
 Orlando Executive Park, Inc v Robbins (1983) 433 So. 2d 491 (Fla.).
 
 R (DMA) v Secretary of State for the Home Department [2020] EWHC 3416 (Admin).
+
+R (RR) v London Borough of Enfield [2025] EWCA Civ 1390.
 
 R v Rymer (1877) 2 QBD 136.
 

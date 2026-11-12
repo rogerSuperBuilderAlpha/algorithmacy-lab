@@ -224,7 +224,15 @@ def render(kind, f, suffix=""):
         tail = f", pp. {pages}" if pages else ""
         return head + f"'{title}', *{clean(f.get('booktitle',''))}*{tail}."
 
-    return head + f"*{title}*."
+    # Other types (misc, techreport, unpublished): online-only documents and preprints. The journal's
+    # examples carry a DOI only for online-only sources (JOURNAL_SPEC.md), so these take the issuing
+    # body and a DOI, or failing that the URL. Until 12 Nov 2026 they printed the title alone.
+    issuer = clean(f.get("institution", "") or f.get("publisher", ""))
+    addr = clean(f.get("address", ""))
+    imp = f"{addr}: {issuer}" if addr and issuer else issuer
+    doi = clean(f.get("doi", ""))
+    loc = f"https://doi.org/{doi}" if doi else clean(f.get("url", ""))
+    return head + f"*{title}*" + (f", {imp}" if imp else "") + (f", {loc}" if loc else "") + "."
 
 
 def main():
