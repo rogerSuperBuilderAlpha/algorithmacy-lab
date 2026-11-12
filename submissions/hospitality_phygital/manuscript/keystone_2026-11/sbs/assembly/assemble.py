@@ -13,7 +13,7 @@ def block(h):
         if on and line.startswith('>'): out.append(line[2:] if line.startswith('> ') else '')
     return '\n'.join(out)
 starts={1,8,15,20, 25,34,40,49,55,62,70,79,87, 91,100,109,117,123,129,138,146,
-        152,156,162,169,175,182,188,194,197,202,207,215,225,228,234, 237,240,250,256,260}
+        152,156,162,169,175,182,188,194,197,202,207,215,225,234, 237,240,250,256,260}
 heads={1:'## Introduction',25:"## The host's power and the host's duty",91:"## Delegation and the guest's claim: Beyond the host in person?",
        152:'## Assembled hosts at the touchpoint',156:'### Where the person with power sits',175:'### Who must be at the end of the route',
        194:'### Six questions and four cases',207:"### When the route is owed, and the law's floor",225:'### Designing for correction during the stay',237:'## Conclusion'}

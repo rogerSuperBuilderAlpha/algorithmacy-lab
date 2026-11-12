@@ -2192,3 +2192,23 @@ All six cards the lead wrote passed with notes, and every quotation matched. Thr
 **Not adopted from CV-I:** quoting Lord Pearson's gloss on 'occupational control' in full (S-064). The sentence quotes his first clause exactly and uses it for no more than that clause says; the full gloss would add 17 words with the body 13 words from the ceiling on `preflight.py`'s count.
 
 **Measured.** Body 8,929 by `wordcount.py` (8,987 by `preflight.py`). `check_citations.py`: citations OK.
+
+## Addition for the editor's well-being and industry-gains requests (12 Nov 2026)
+
+The editor asked for impacts on individual and collective well-being and for industry gains and transition challenges. v6's sentences on both were unsourced (register S-276.2, S-277.1) and v7 had dropped them. Two cards already in the library, both read in full and independently verified in run rr-2026-11, carry one sentence on staff.
+
+### S-262a · M.232 · 52w · new
+> For staff, algorithmic management brings gains and costs: experts expect it to raise efficiency in hotels and to intensify work (Jianu et al. 2025: 1, 6), and many room attendants who found an algorithm's one-room-at-a-time setting stressful were able, working with management, to phase it out (Spektor et al. 2023: 629).
+- Form ⚠️ 52w, long for the paragraph; it pairs the gains with the costs in one sentence so that neither stands alone.
+- Construction ✅ 'it' is algorithmic management; the second 'it' is the one-room-at-a-time setting.
+- Register ✅ *brings*, *expect*, *raise*, *intensify*, *found*, *phase out*. 'Experts expect', not 'managers describe', because Jianu et al. is a Delphi forecast (card, 'may say').
+- Value ✅ Collective well-being (staff), industry gains (efficiency) and a transition challenge (intensified work), as the editor asked; the Spektor case also shows staff reaching someone with power over the rule.
+- Counterpart ✅ M.232's practice and well-being.
+- Truth ✅ `jianu2025`: the findings stress that algorithmic management's 'impact on productivity and process standardisation will intensify work demands' (p. 1); experts agreed that it 'brings increased efficiencies for managers, but it also demands higher efficiency levels from them' (p. 6); a Delphi panel of 22 recruited, largely UK-based (pp. 4, 12). `spektor2023designing`: one-room-at-a-time configurations 'many found stressful'; 'by working together with management, many were able to eventually phase out the one-room-at-a-time configuration' (p. 629). The 'many' of the two clauses may not be the same attendants; the sentence says no more than that many did each.
+
+- **S-226 ❌ → cut.** Was: > In an interview study, guests of luxury hotels said they wanted little explanation of the technology at check-in and fuller explanation afterwards, in feedback and loyalty apps (Pigac et al. 2026: 286, 291).
+  *Paid for S-262a. The interview study is an example of explaining at the interface, which S-225 states.*
+- **S-227 ❌ → cut.** Was: > Explaining a system when the guest can use the explanation improves the interaction, and settles nothing about who can correct a failure.
+  *Paid for S-262a with S-226. S-225 already sets the interface against the institution; S-225 now opens the next paragraph, on the institutional principles.*
+
+**Measured.** Body 8,925 by `wordcount.py` (8,983 by `preflight.py`). Pigac et al. leave the reference list; Jianu et al. and Spektor et al. join it. `check_citations.py`: citations OK.

@@ -20,7 +20,7 @@ for src,dst in [('letter_reviewers_template.md','submission/RESPONSE_TO_REVIEWER
         k=m.group(1); s=f[k][1]
         if s not in draft: bad.append((dst,k))
         return s
-    t=re.sub(r'\{\{((?:S|A)-\d+)\}\}',q,t)
+    t=re.sub(r'\{\{((?:S|A)-\d+[a-z]?)\}\}',q,t)
     assert '{{' not in t, re.findall(r'\{\{[^}]*\}\}',t)
     # capitalise a location that opens an italic 'Changed in' clause or a table cell
     t=t.replace("| 'Assembled","| In 'Assembled").replace("| 'Conclusion'","| In 'Conclusion'")

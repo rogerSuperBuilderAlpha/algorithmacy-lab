@@ -908,12 +908,12 @@
 "Some of what a guest needs can be given at the interface, and some only by the institution behind it."
 ],
 "S-226": [
-"quote",
-"In an interview study, guests of luxury hotels said they wanted little explanation of the technology at check-in and fuller explanation afterwards, in feedback and loyalty apps (Pigac et al. 2026: 286, 291)."
+"cut",
+""
 ],
 "S-227": [
-"quote",
-"Explaining a system when the guest can use the explanation improves the interaction, and settles nothing about who can correct a failure."
+"cut",
+""
 ],
 "S-228": [
 "audit-B",
@@ -1090,5 +1090,9 @@
 "S-205a": [
 "new",
 "The Court of Appeal has since read the case as requiring a system to ensure that contractors performed the minister's duty, not a free-standing duty to monitor under the Equality Act (RR v Enfield 2025: paras 80–81)."
+],
+"S-262a": [
+"new",
+"For staff, algorithmic management brings gains and costs: experts expect it to raise efficiency in hotels and to intensify work (Jianu et al. 2025: 1, 6), and many room attendants who found an algorithm's one-room-at-a-time setting stressful were able, working with management, to phase it out (Spektor et al. 2023: 629)."
 ]
 }

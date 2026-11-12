@@ -57,6 +57,8 @@ Hormio, Säde (2018), *Culpable ignorance in a collective setting*, https://doi.
 
 Jeske, Diane (2021), 'Special obligations', in Zalta, Edward N. (ed.), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
 
+Jianu, Brana, Ashton, Mark and Lugosi, Peter (2025), 'Integrating algorithmic management in hotels: Emerging challenges and opportunities for frontline managers', *International Journal of Hospitality Management*, 129, 104168.
+
 Kiesewetter, Benjamin (2015), 'Instrumental normativity: In defense of the transmission principle', *Ethics*, 125:4, pp. 921–946.
 
 King, Carol A. (1995), 'What is hospitality?', *International Journal of Hospitality Management*, 14:3–4, pp. 219–234.
@@ -89,8 +91,6 @@ Petie, Olivia, Phillimore, Jenny and Allsopp, Jennifer (2025), 'Exploring hospit
 
 Pettit, Philip (2007), 'Responsibility incorporated', *Ethics*, 117:2, pp. 171–201.
 
-Pigac, Tilen, Lee, Ada and Huang, Ava (2026), 'Navigating transparency in AI-powered luxury hospitality: A dynamic guest-centric approach', *Cornell Hospitality Quarterly*, 67:3, pp. 283–297.
-
 Pitt-Rivers, Julian (2012), 'The law of hospitality', *HAU: Journal of Ethnographic Theory*, 2:1, pp. 501–517.
 
 Robinson, Martha and Lynch, Paul (2007), 'The power of hospitality: A sociolinguistic analysis', in Lashley, Conrad, Lynch, Paul and Morrison, Alison (eds), *Hospitality: A Social Lens*, Oxford: Elsevier, pp. 141–154.
@@ -102,6 +102,8 @@ Schumacher, Satu and Komppula, Raija (2016), 'A case study on service recovery: 
 Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, Suh, Taewon and Li, Hairong (2026), 'Transformative phygital service research (TPSR): An agenda for future research', *Journal of Services Marketing*, pp. 1–17.
 
 Slattery, Paul (2002), 'Finding the hospitality industry', *The Journal of Hospitality Leisure Sport and Tourism*, 1:1, pp. 19–28.
+
+Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023), 'Designing for wellbeing: Worker-generated ideas on adapting algorithmic management in the hospitality industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
 
 Treasury Board of Canada Secretariat (2025), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
 

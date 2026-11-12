@@ -117,9 +117,7 @@ The law sets a floor beneath this boundary, reaching part of what the further du
 
 ### Designing for correction during the stay
 
-Some of what a guest needs can be given at the interface, and some only by the institution behind it. In an interview study, guests of luxury hotels said they wanted little explanation of the technology at check-in and fuller explanation afterwards, in feedback and loyalty apps (Pigac et al. 2026: 286, 291). Explaining a system when the guest can use the explanation improves the interaction, and settles nothing about who can correct a failure.
-
-The institutional principles follow from the further duty, and the first is a route the guest is told of and can use without a confrontation, in forms a disabled guest can use, since guests who feel low in power complain less (Min and Kim 2020: 2). The second is power at the end of the route, given in writing, with the training to use it. The third is learning across cases, so that single reports that together signal a failure are read together. The fourth, where several firms host together, is that one party, the party in control of the guest's space on our proposal, routes each report to the firm with power over the failing part. A small host meets these principles with a telephone number that the owner answers.
+Some of what a guest needs can be given at the interface, and some only by the institution behind it. The institutional principles follow from the further duty, and the first is a route the guest is told of and can use without a confrontation, in forms a disabled guest can use, since guests who feel low in power complain less (Min and Kim 2020: 2). The second is power at the end of the route, given in writing, with the training to use it. The third is learning across cases, so that single reports that together signal a failure are read together. The fourth, where several firms host together, is that one party, the party in control of the guest's space on our proposal, routes each report to the firm with power over the failing part. A small host meets these principles with a telephone number that the owner answers.
 
 We set these principles out as five stages a host can take in turn, in an order that is ours and is not a ranking by cost (Table 2). The fifth stage is accountability after the stay, in Bovens's sense of a relationship in which an actor must explain and justify its conduct to a forum that 'can pose questions and pass judgement' (2007: 450).
 
@@ -143,7 +141,7 @@ This is a conceptual paper, and its cases, all taken from published studies and 
 
 Four studies would test the argument where we found it thinnest, and the first would record how often hotel guests report a failure during the stay, to whom, and by what route. The second would compare recovery after a self-service or robot failure with and without an employee the guest can reach, a comparison no openly available hospitality study we found has made. The third would follow a guest's report through unstaffed hotels and rentals with self-check-in, recording who received the report, what that person could change, and how long correction took. The fourth is for legal scholarship: whether the Irish Act's safety duty makes a proprietor answer for contractors, and whether courts would count the lack of any route as a want of care.
 
-A host can act on the argument now, by putting the six questions to each touchpoint and telling guests, in forms every guest can use, whom to reach and how. The person a guest reaches needs power in writing, the training to use it and protection from being disciplined through guests' reports, since a route that ends in someone without power leaves the failure with the guest. For the guest's well-being, what matters is who bears a failure: without a route the guest bears it alone, and turning away from a service reached only through an app 'may carry a personal cost and loss' (Wilson-Nash et al. 2026: 979). The question for phygital hospitality is whether, in arrangements that spread a host's work across staff, firms and systems, a failure in a guest's case can still reach someone able to correct it, and for particular arrangements the answer is not yet known.
+A host can act on the argument now, by putting the six questions to each touchpoint and telling guests, in forms every guest can use, whom to reach and how. The person a guest reaches needs power in writing, the training to use it and protection from being disciplined through guests' reports, since a route that ends in someone without power leaves the failure with the guest. For the guest's well-being, what matters is who bears a failure: without a route the guest bears it alone, and turning away from a service reached only through an app 'may carry a personal cost and loss' (Wilson-Nash et al. 2026: 979). For staff, algorithmic management brings gains and costs: experts expect it to raise efficiency in hotels and to intensify work (Jianu et al. 2025: 1, 6), and many room attendants who found an algorithm's one-room-at-a-time setting stressful were able, working with management, to phase it out (Spektor et al. 2023: 629). The question for phygital hospitality is whether, in arrangements that spread a host's work across staff, firms and systems, a failure in a guest's case can still reach someone able to correct it, and for particular arrangements the answer is not yet known.
 
 ## Acknowledgment of the Use of Generative AI and AI-Assisted Technologies in the Writing Process
 
@@ -203,6 +201,8 @@ Hormio, Säde (2018), *Culpable ignorance in a collective setting*, https://doi.
 
 Jeske, Diane (2021), 'Special obligations', in Zalta, Edward N. (ed.), *The Stanford Encyclopedia of Philosophy*, Metaphysics Research Lab, Stanford University.
 
+Jianu, Brana, Ashton, Mark and Lugosi, Peter (2025), 'Integrating algorithmic management in hotels: Emerging challenges and opportunities for frontline managers', *International Journal of Hospitality Management*, 129, 104168.
+
 Kiesewetter, Benjamin (2015), 'Instrumental normativity: In defense of the transmission principle', *Ethics*, 125:4, pp. 921–946.
 
 King, Carol A. (1995), 'What is hospitality?', *International Journal of Hospitality Management*, 14:3–4, pp. 219–234.
@@ -235,8 +235,6 @@ Petie, Olivia, Phillimore, Jenny and Allsopp, Jennifer (2025), 'Exploring hospit
 
 Pettit, Philip (2007), 'Responsibility incorporated', *Ethics*, 117:2, pp. 171–201.
 
-Pigac, Tilen, Lee, Ada and Huang, Ava (2026), 'Navigating transparency in AI-powered luxury hospitality: A dynamic guest-centric approach', *Cornell Hospitality Quarterly*, 67:3, pp. 283–297.
-
 Pitt-Rivers, Julian (2012), 'The law of hospitality', *HAU: Journal of Ethnographic Theory*, 2:1, pp. 501–517.
 
 Robinson, Martha and Lynch, Paul (2007), 'The power of hospitality: A sociolinguistic analysis', in Lashley, Conrad, Lynch, Paul and Morrison, Alison (eds), *Hospitality: A Social Lens*, Oxford: Elsevier, pp. 141–154.
@@ -248,6 +246,8 @@ Schumacher, Satu and Komppula, Raija (2016), 'A case study on service recovery: 
 Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, Suh, Taewon and Li, Hairong (2026), 'Transformative phygital service research (TPSR): An agenda for future research', *Journal of Services Marketing*, pp. 1–17.
 
 Slattery, Paul (2002), 'Finding the hospitality industry', *The Journal of Hospitality Leisure Sport and Tourism*, 1:1, pp. 19–28.
+
+Spektor, Franchesca, Fox, Sarah E., Awumey, Ezra, Riordan, Christine A., Rho, Hye Jin, Kulkarni, Chinmay, Martinez-Lopez, Marlen, Stringam, Betsy, Begleiter, Ben and Forlizzi, Jodi (2023), 'Designing for wellbeing: Worker-generated ideas on adapting algorithmic management in the hospitality industry', *Proceedings of the 2023 ACM Designing Interactive Systems Conference (DIS '23)*, pp. 623–637.
 
 Treasury Board of Canada Secretariat (2025), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
 

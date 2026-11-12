@@ -183,11 +183,11 @@ The research question is stated in the introduction and answered in the conclusi
 
 **R3.18 and R3.19** — *"the well-being link is not clear at all. The reference to a 'direction of travel for research rather than a finished theory' also left me confused. The subsequent reference to the 'two levels' also needs clarification."*
 
-The well-being sentence now states the link for the individual guest, and the phrases you found confusing are gone.
+The well-being paragraph now states the link for the individual guest and for the staff who work at the touchpoint, each with its source, and the phrases you found confusing are gone.
 
-*Changed in {{L:S-262}}:* "{{S-262}}"
+*Changed in {{L:S-262}}:* "{{S-262}}" "{{S-262a}}"
 
-[AUTHORS: v7 makes no claim about communities, because nothing in the paper's evidence bears on them (the v6 claim was unsupported; claim register S-276.2). The editor asked about collective well-being; see the note to the editor.]
+[AUTHORS: v7 makes no claim about communities beyond staff, because nothing in the paper's evidence bears on them (the v6 claim was unsupported; claim register S-276.2).]
 
 **R3.20** — *"The final paragraph of section 8 on limitations and implications for future research also need to be more detailed and clearer in the agenda they suggest."*
 
@@ -221,7 +221,7 @@ Locations are DRAFT_v7's. 'HD' is 'The host's power and the host's duty'; 'DG' i
 | R1.2 | Host–guest negotiation | Must fix | Complaint as power; requests reaching power | DG ¶5; AH Power ¶2 | Done |
 | R1.3 | Remind what "the split" is | Must fix | Two powers named apart; term dropped | AH Power ¶1 | Done |
 | R1.4 | Purpose of the test; abstract | Must fix | Purpose, users, one question; abstract | AH Test ¶1 and after the list; Abstract | Done |
-| R1.5 | Which "framework" | Must fix | Instruments named | AH Design ¶3; whole text | Done |
+| R1.5 | Which "framework" | Must fix | Instruments named | AH Design ¶2; whole text | Done |
 | R1.6 | Proofread "it" / "this" | Must fix | Every antecedent checked, sentence by sentence | Whole text | **Pending (authors' read-aloud)** |
 | R2.1 | Origin, holder, non-transferability, several actors; Figure 1 | Must fix | Role specifies; three grounds bind; holder; delegation duty by duty; concurrent holders | HD ¶4–5, ¶9; DG ¶2–3 | Done; **Figure 1 pending** |
 | R2.2 | Theory of role obligation | Must fix | Point for point; the hospitality ground; distinguished from duty of control and service recovery | HD ¶5; DG ¶2–3, ¶5, ¶7; AH End ¶3 | Done |
@@ -240,11 +240,11 @@ Locations are DRAFT_v7's. 'HD' is 'The host's power and the host's duty'; 'DG' i
 | R3.10 | What guests owe | Must fix | The guest's side | HD ¶8 | Done |
 | R3.11 | Welcome as single duty | Must fix | Duties in two tiers | HD ¶7 | Done |
 | R3.12 | Parts 6–7 meander | Must fix | Five subsections of one section | AH | Done |
-| R3.13 | Roadmap and forum | Must fix | Forum defined; order not a ranking by cost | AH Design ¶3; Table 2 | Done |
+| R3.13 | Roadmap and forum | Must fix | Forum defined; order not a ranking by cost | AH Design ¶2; Table 2 | Done |
 | R3.14 | Table 2 explanation | Must fix | List with what it keeps apart | AH Test ¶1, list | Done |
 | R3.15–16 | Contributions | Must fix | Built from contributions; what is new | Introduction ¶3–4; Conclusion ¶2 | Done |
 | R3.17 | Emergent question; vocabulary | Must fix | One question; terms fixed | Introduction ¶1, ¶3; Conclusion ¶2 | Done |
-| R3.18–19 | Well-being; confusing phrases | Must fix | Link stated for the guest; phrases removed | Conclusion ¶5 | Done; **communities: authors decide** |
+| R3.18–19 | Well-being; confusing phrases | Must fix | Link stated for the guest and for staff; phrases removed | Conclusion ¶5 | Done; **communities beyond staff: authors decide** |
 | R3.20 | Limitations and agenda | Must fix | Limits; four studies | Conclusion ¶3–4 | Done |
 | R3.21 | Conclusion | Must fix | Answers the question in three findings | Conclusion ¶2 | Done |
 | R3.22 | Evidence | Must fix | Quotations and locators checked; independent claim audit applied; documented cases; abstract-only claims limited | Whole text; Conclusion ¶3 | Done; **Garcia et al. published pages pending** |
