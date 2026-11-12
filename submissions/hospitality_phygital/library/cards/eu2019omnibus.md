@@ -77,7 +77,7 @@ The 'modernisation' Directive amends four consumer directives. Three of its chan
 
 - Since 28 May 2022 an online marketplace must tell a consumer, before the consumer is bound, whether the third party offering the service is a trader and, if not, "that the consumer rights stemming from Union consumer protection law do not apply to the contract" (Directive 2011/83/EU, art. 6a(1)(b)-(c), inserted by Directive (EU) 2019/2161, art. 4(5); applied from 28 May 2022, art. 7(1)).
 - The marketplace must also say, where applicable, how obligations under the contract are shared between it and the supplier, "without prejudice to any responsibility" either has under other Union or national law (art. 6a(1)(d)).
-- A trader's listed means of communication must "enable the consumer to contact the trader quickly and communicate with him efficiently" (Directive 2011/83/EU, art. 6(1)(c), as replaced by Directive (EU) 2019/2161, art. 4(4)).
+- A trader's listed means of communication must "enable the consumer to contact the trader quickly and communicate with him efficiently" (Directive 2011/83/EU, art. 6(1)(c), as replaced by Directive (EU) 2019/2161, art. 4(4)). (Narrowed after CV-G: this is pre-contract information only.)
 
 **What the paper may not say**
 
@@ -86,3 +86,5 @@ The 'modernisation' Directive amends four consumer directives. Three of its chan
 - That CRD art. 6(1)(c) requires a person with power to correct performance, or a response within any time.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Official Journal text and the 2026 consolidation of Directive 2011/83/EU fetched from the EU Publications Office and read for the provisions named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): pre-contract information only.

@@ -76,16 +76,18 @@ The new Product Liability Directive replaces Directive 85/374/EEC with effect fr
 **What the paper may say on this source's authority**
 
 - Under Directive (EU) 2024/2853 software is a product (art. 4(1)), and recital 13 names "AI systems" among the examples.
-- Any natural person who suffers damage caused by a defective product is entitled to compensation (art. 5(1)), for death or personal injury, damage to property not used exclusively for professional purposes, and destruction or corruption of non-professional data (art. 6(1)), from the manufacturer (art. 8(1)(a)).
+- Any natural person who suffers damage caused by a defective product is entitled to compensation (art. 5(1)), for death or personal injury, damage to property not used exclusively for professional purposes, and destruction or corruption of non-professional data (art. 6(1)), from the manufacturer (art. 8(1)(a)). (Narrowed after CV-G: art. 6(1)(b) also excludes damage to the defective product itself.)
 - The Directive applies to products placed on the market or put into service after 9 December 2026 (art. 2(1)).
 - It does not apply to "services as such" (recital 17), and pure economic loss does not by itself trigger liability under it (recital 24).
 - A product is defective where it "does not provide the safety that a person is entitled to expect or that is required under Union or national law" (art. 7(1)).
 
 **What the paper may not say**
 
-- That a guest can sue a system vendor under this Directive for a refused entry, a lost booking or any other performance failure that causes no damage listed in art. 6(1).
+- That a guest can sue a system vendor under this Directive for a refused entry, a lost booking or any other performance failure that causes no damage listed in art. 6(1). (Narrowed after CV-G: a 'lost booking' may count as data damage under art. 6(1)(c) where data are destroyed or corrupted.)
 - That it applies to systems already in hotels before 9 December 2026, or that it is in force in Great Britain.
 - That a hotel's service is a product.
 - That the vendor's liability displaces the hotel's. The Directive leaves national contractual and fault-based liability unaffected (art. 2(4)(b)).
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Official Journal text fetched from the EU Publications Office and read for the provisions named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): art. 6(1)(b) and (c) points added.

@@ -67,7 +67,7 @@ Billops and others hired half of the Regency Ballroom at the Brandywine Hilton I
 **What the paper may say on this source's authority**
 
 - The Supreme Court of Delaware held that a franchisor may be the franchisee's principal "when the former controls, or has the right to control, the latter’s business", and that if the franchise agreement "allocates to the franchisor the right to exercise control over the daily operations of the franchise, an agency relationship exists" (at 197-198).
-- It held that a mandatory operating manual regulating, among other things, "front office procedures", "minimum guest room standards" and "staff procedures", with inspection and termination rights, raised a triable issue of actual agency between Hilton franchisors and a franchised inn (at 198).
+- It held that a mandatory operating manual regulating, among other things, "front office procedures", "minimum guest room standards" and "staff procedures", with inspection and termination rights, raised a triable issue of actual agency between Hilton franchisors and a franchised inn (at 198). (Narrowed after CV-G: the manual was 'in parts mandatory' and worked together with inspection and termination rights; 'staff procedures' may be part of a longer item; the court held only that the issue goes to trial.)
 - It held that a franchisor's manifestations "may be made to the community in general, for example, by way of advertising", and that reasonable reliance on them can ground apparent agency (at 198-199).
 
 **What the paper may not say**
@@ -77,3 +77,5 @@ Billops and others hired half of the Regency Ballroom at the Brandywine Hilton I
 - That it states the law of England or the EU.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Caselaw Access Project copy read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): the manual's mandatory parts and the holding (issue to trial) narrowed.

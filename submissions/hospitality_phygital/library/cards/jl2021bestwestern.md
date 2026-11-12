@@ -72,7 +72,7 @@ J.L. alleged that, aged seventeen, she was trafficked for commercial sex in room
 **What the paper may say on this source's authority**
 
 - In *J.L. v. Best Western International* the District of Colorado held, at the pleading stage, that allegations that a brand set rules of operation, made employment decisions, trained employees, set wages and hosted bookings were "sufficient to show an actual agency relationship" with the branded hotel (pg 36).
-- The court held that a brand's general knowledge of trafficking at hotels was "insufficient on its own" to show its participation in the trafficking of the plaintiff (pg 19).
+- The court held that a brand's general knowledge of trafficking at hotels was "insufficient on its own" to show its participation in the trafficking of the plaintiff (pg 19). (Narrowed after CV-G: use the court's words, 'commercial sex activity'.)
 - It held actual knowledge unpleaded because the plaintiff did not allege that hotel staff "heard and ignored her pleas or that she alerted any staff member to her need for help" (pg 35), and dismissed all claims against the brands with prejudice (pg 46).
 
 **What the paper may not say**
@@ -82,3 +82,5 @@ J.L. alleged that, aged seventeen, she was trafficked for commercial sex in room
 - That *A.B. v. Marriott* goes the other way on the elements of § 1595.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the govinfo copy of the order read for the parts named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): the court's words.

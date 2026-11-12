@@ -73,7 +73,7 @@ Dr Scott negligently told Mr Gregg that a lump under his arm was benign; it was 
 
 **What the paper may say on this source's authority**
 
-- In *Gregg v Scott* the House of Lords, by a majority, refused to treat the loss of a chance of a better medical outcome as actionable damage in negligence; the claimant must prove on the balance of probability that the negligence caused the adverse outcome (Lord Hoffmann, paras 79-80, 90; Baroness Hale, paras 193, 226; Lord Phillips, para 190).
+- In *Gregg v Scott* the House of Lords, by a majority, refused to treat the loss of a chance of a better medical outcome as actionable damage in negligence; the claimant must prove on the balance of probability that the negligence caused the adverse outcome (Lord Hoffmann, paras 79-80, 90; Baroness Hale, paras 193, 226; Lord Phillips, para 190). (Narrowed after CV-G: Lord Phillips left proportionate recovery open (para 190); Lord Hope's main ground, in dissent, was that the growth of the tumour was itself an injury.)
 - Lord Hoffmann distinguished cases turning on what the claimant or the defendant would have done, which must be proved on the balance of probability, from cases turning on what a third party would have done, where a lost chance may be valued (para 83).
 - Baroness Hale saw "no reason in principle why the change in approach should be limited to medical negligence" and declined it for personal injury (paras 225-226).
 - Lord Nicholls and Lord Hope dissented (paras 44, 59, 121).
@@ -85,3 +85,5 @@ Dr Scott negligently told Mr Gregg that a lump under his arm was benign; it was 
 - That Lord Phillips held proportionate recovery available; he said there "may be a case" for it (para 190).
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Internet Archive copy of the House of Lords' PDF of the opinions, read for the speeches and paragraphs named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): Lord Phillips's open question and Lord Hope's ground added.

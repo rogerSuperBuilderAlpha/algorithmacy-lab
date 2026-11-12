@@ -116,3 +116,13 @@
 | `moysidou2023theorizing` | The one complaint to Workaway was at admission, not during a stay | Narrowed (ARGUMENT.md does not use it) |
 | `kekstaite2022beyond`, `ogorman2007discovering`, `pettit2007responsibility` | Stale bib note; sample wording; p. 47 repetition; author-posting access | Notes added; K-D12 extended to authors' own postings |
 
+## CV-G (the R10 law cards): 12 items, 0 FAIL, 440 quotations all MATCH
+
+| Card | What the verifier found | What I changed |
+|---|---|---|
+| `uk2024dmcc` | Commencement: ss. 225-231 and 233 in force from 6 Apr 2025; ss. 232, 234 and 235 left out of S.I. 2025/272 and prospective in every text read; until s. 233 regulations, redress runs under Part 4A of the 2008 Regulations (s. 252, unread). The offence needs the unfair-practice test | Card narrowed; ARGUMENT.md 6.7 corrected |
+| `poole2019uksc` | Para 80's 'privately or under statutory powers' concerns a hospital; para 77 doubts, in a dictum, that placing a family creates the danger | Card narrowed; ARGUMENT.md Step 3 table corrected |
+| `gregg2005ukhl` | Lord Phillips left proportionate recovery open; Lord Hope's dissenting ground omitted | Card narrowed |
+| `billops1978magness` | The manual was in parts mandatory, with inspection and termination rights; the holding is only that the issue goes to trial | Card narrowed |
+| `orlando1983robbins`, `yl2007ukhl`, `jl2021bestwestern`, `eu2024product`, `eu2019omnibus`, `eu2005ucpd` | 'May say' sentences wider than the text | Narrowed |
+

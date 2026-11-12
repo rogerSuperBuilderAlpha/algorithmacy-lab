@@ -75,7 +75,7 @@ A mother and her two sons were placed by Poole Borough Council in a house next t
 - The Supreme Court held that "public authorities do not owe a duty of care at common law merely because they have statutory powers or duties, even if, by exercising their statutory functions, they could prevent a person from suffering harm" (para 65(2)).
 - Public authorities may owe a duty to protect from harm where private-law principles would impose one, "as for example where the authority has created the source of danger or has assumed a responsibility to protect the claimant from harm" (para 65(3)).
 - In Poole the council's investigating and monitoring of a family it had placed next to anti-social neighbours "did not involve the provision of a service to them on which they or their mother could be expected to rely", and it had not taken the children into its care (para 81).
-- A public body "which offers a service to the public often assumes a responsibility to those using the service", "whether operated privately or under statutory powers" (para 80).
+- A public body "which offers a service to the public often assumes a responsibility to those using the service", "whether operated privately or under statutory powers" (para 80). (Narrowed after CV-G: in para 80 'whether operated privately or under statutory powers' is said of a hospital. Para 77 doubts, in a dictum, that placing a family creates the danger.)
 
 **What the paper may not say**
 
@@ -85,3 +85,5 @@ A mother and her two sons were placed by Poole Borough Council in a house next t
 - That Poole decides any fact. It is a strike-out decision on pleadings.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the National Archives judgment read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): para 80's words are about a hospital; para 77's dictum added.

@@ -68,7 +68,7 @@ Robbins, a registered guest at a Howard Johnson motor lodge owned and operated b
 
 **What the paper may say on this source's authority**
 
-- The Supreme Court of Florida approved a verdict holding both a motel's owner-operator and its franchisor, Howard Johnson, liable to a guest attacked on the premises (at 492, 494).
+- The Supreme Court of Florida approved the district court of appeal's decision upholding liability of both a motel's owner-operator and its franchisor, Howard Johnson, to a guest attacked on the premises (at 492, 494). (Narrowed after CV-G: the Court approved the appeal court's decision, not 'a verdict'.)
 - It held the franchisor answerable on apparent agency, whose elements are "(1) a representation by the principal; (2) reliance on that representation by a third person; and (3) a change of position by the third person in reliance upon such representation to his detriment" (at 494).
 - The court noted that the franchisor, "rather than OEP, operated the restaurant, lounge, and adult theater at the motel", that "The complex was an integrated commercial enterprise", and that the franchisor's "direct participation was significant" (at 494).
 - A dissenting justice would have reversed for want of evidence that the omitted security measures would have prevented the assault (at 494-496, Boyd J).
@@ -80,3 +80,5 @@ Robbins, a registered guest at a Howard Johnson motor lodge owned and operated b
 - That the court resolved causation; only the dissent addresses it.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Caselaw Access Project copy read in full, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): 'approved a verdict' corrected.

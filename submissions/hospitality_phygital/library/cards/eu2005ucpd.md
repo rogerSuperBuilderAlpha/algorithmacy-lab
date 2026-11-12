@@ -89,9 +89,11 @@ The Unfair Commercial Practices Directive harmonises the law on commercial pract
 
 - That the Directive requires a host, or any trader, to provide a channel, a contact person or a person with power to correct performance. It contains no such requirement.
 - That art. 9(d) by itself makes a practice unlawful. It is a factor under art. 9 in the test of art. 8.
-- That it gives a remedy to a guest who is not a consumer, or who made no transactional decision (a business traveller; a non-contracting companion).
+- That it gives a remedy to a guest who is not a consumer, such as a business traveller. (Narrowed after CV-G: a companion who did not contract may still be a 'consumer'.)
 - That it governs injury to the guest. It concerns economic interests (art. 1) and leaves health and safety rules aside (art. 3(3)).
 - That it is the law of England. The UK implementing regulations were revoked by the DMCC Act 2024 (uk2024dmcc).
 - That Annex I point 27 reaches a hotel's failure to answer complaints. Its scope beyond insurance claims is not settled by the text.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Official Journal text and the 2022 and 2026 consolidations fetched from the EU Publications Office and read for the provisions named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): the non-contracting companion may be a consumer.

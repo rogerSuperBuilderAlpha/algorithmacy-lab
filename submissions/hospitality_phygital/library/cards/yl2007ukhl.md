@@ -73,7 +73,7 @@ YL, aged 84 and with Alzheimer's disease, lived in a care home run by Southern C
 **What the paper may say on this source's authority**
 
 - In *YL v Birmingham City Council* the House of Lords held, by three to two, that a private care home providing care and accommodation to a resident placed and largely funded by a local authority under the National Assistance Act 1948 was not performing "functions of a public nature" under s. 6(3)(b) of the Human Rights Act 1998 (Lord Mance, para 123; Lord Scott, para 33; Lord Neuberger, para 170).
-- The majority held that the resident kept her Convention rights against the local authority (Lord Neuberger, para 149; Lord Mance, para 118), which has "a continuing duty in respect of the suitability of a placement, once made" (Lord Mance, para 114).
+- Lord Neuberger and Lord Mance said that the resident kept her Convention rights against the local authority (Lord Neuberger, para 149; Lord Mance, para 118), which has, in a rider, "a continuing duty in respect of the suitability of a placement, once made" (Lord Mance, para 114). (Narrowed after CV-G: 'said', not 'the majority held'; para 114 is a rider.)
 - Lord Scott said that a private care home's duties to its residents are, "whether contractual or tortious, duties governed by private law" (para 29).
 - Lord Bingham and Baroness Hale dissented (paras 20, 73-75).
 
@@ -84,3 +84,5 @@ YL, aged 84 and with Alzheimer's disease, lived in a care home run by Southern C
 - That a placed resident has no rights against the provider. She has contractual and common-law rights (paras 28-29, 32, 118).
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from the Internet Archive copy of the House of Lords' PDF of the opinions, read for the speeches and paragraphs named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): 'said', not 'the majority held'; para 114 a rider.

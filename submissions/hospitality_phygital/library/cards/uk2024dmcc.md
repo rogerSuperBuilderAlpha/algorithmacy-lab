@@ -94,8 +94,8 @@ Chapter 1 of Part 4 replaced the Consumer Protection from Unfair Trading Regulat
 
 - In the United Kingdom, whether a commercial practice "requires a consumer to take onerous or disproportionate action in order to exercise rights that the consumer has in relation to a product" must be taken into account in deciding whether it is aggressive (Digital Markets, Competition and Consumers Act 2024, s. 228(2)(f)).
 - The Act treats a consumer's decision on "the exercise of contractual rights in relation to a product" as a transactional decision (s. 245(c)), and it is immaterial whether the practice occurs before, at or after the supply (s. 225(5)).
-- Aggressive practices are enforced by local weights and measures authorities and the CMA (s. 231) and are an offence (s. 237(3)).
-- A consumer's statutory rights of redress under the Act require that the prohibited practice was "a significant factor" in the decision to contract or to pay (s. 232(4)), and the rights are to be set by regulations (s. 233(1)).
+- Aggressive practices are enforced by local weights and measures authorities and the CMA (s. 231) and are an offence (s. 237(3)). (Narrowed after CV-G: the offence requires the practice to meet the unfair-practice test, s. 237(3).)
+- A consumer's statutory rights of redress under the Act require that the prohibited practice was "a significant factor" in the decision to contract or to pay (s. 232(4)), and the rights are to be set by regulations (s. 233(1)). (Narrowed after CV-G: ss. 225-231 and 233 have been in force since 6 Apr 2025, but S.I. 2025/272, reg. 2(3), left out ss. 232, 234 and 235, which every capture read still shows as prospective; until regulations under s. 233 come into force, a consumer's private redress runs under Part 4A of the 2008 Regulations, saved by s. 252, which was not read.)
 - The Act revoked the Consumer Protection from Unfair Trading Regulations 2008 (s. 251(1)).
 
 **What the paper may not say**
@@ -107,3 +107,5 @@ Chapter 1 of Part 4 replaced the Consumer Protection from Unfair Trading Regulat
 - That it protects business travellers.
 
 Card written by a Claude (Opus 5.5) subagent, reader R10, from Internet Archive captures of legislation.gov.uk (12 Dec 2025, 18 Feb 2026) read for the provisions named, on 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-G (`manuscript/keystone_2026-11/VERIFY_CARDS_G.md`): commencement stated (ss. 225-231, 233 in force from 6 Apr 2025; ss. 232, 234, 235 prospective); the offence's test added.
