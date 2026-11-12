@@ -516,3 +516,16 @@ charts and holds, which no carded work covers.
   Calder (2001), read in full, which carry them into interfaces. Thomas and Johnston are cited "as
   cited in Lasseter (1987)" until the book is read. No production source on model sheets has been
   read, so the "on model" cell of the opaque row is struck unless one is found.
+
+## The author's rulings (2026-11-12)
+
+Asked through four multiple-choice questions whose options I worded; the choices are his.
+
+| # | Question | His choice |
+|---|---|---|
+| R5 (D-a) | Rows of the model | "Keep opaque/co-optive/triadic" — the brief's triple as rows, glossed by the Lima generating properties; adaptivity rides on "triadic" |
+| R6 (D-b) | The added raincoat sentence (the agent shops and places the order) | "Keep the added sentence" |
+| R7 (D-l, D-m) | The labels "intent specification" and "idempotent interpretation" | "Keep both, contrast once" |
+| R8 | The HF700/PHD1750 course version | "Dec 15, ~5–6k words" — cut from the journal draft under the four course headings, Pass 2 kept as the introduction. The Dec 15 date came from a Drive note that looks AI-generated; he did not correct it. |
+
+The other defaults in `../../MODEL.md` §8 (D-c, D-d, D-e, D-f, D-g, D-h, D-i, D-j, D-k) still stand as defaults.

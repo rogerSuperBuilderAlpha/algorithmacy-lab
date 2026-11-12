@@ -29,6 +29,7 @@ algorithmacy's three competencies. Target: *Theoretical Issues in Ergonomics Sci
 | `MODEL.md` | Concept dossier: every construct with its wording history, the model (three rows, two rules), propositions P1–P7, evidence by read depth, and decisions D-a to D-m for Roger |
 | `OUTLINE_v2.md` | Journal structure; Pass 2 kept whole as the introduction |
 | `DRAFT_v1.md` | Full draft (~8,400 words with references, under TIES's 10,000); Roger's sentences verbatim, everything else marked [DRAFTED], flags and decisions in brackets |
+| `COURSE_v1.md` | HF700/PHD1750 course version (~5,000 words), cut from DRAFT_v1 under Perception, Action, Cognition, and Human factors and design; Pass 2 verbatim as the introduction; due 15 Dec (to confirm) |
 | `CITATION_AUDIT_2026-11-12.md` | Every reference checked against an external record and every quotation, number and page against its source; two fixes, no retraction notices |
 | `figures/figure1_model.svg` | Figure 1: the three rows, the selection rule and the held-back character layer (greyscale; image description in the draft) |
 | `venue/TIES.md`, `venue/IWC.md` | Submission facts read from the journals' pages |

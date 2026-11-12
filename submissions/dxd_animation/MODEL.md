@@ -438,8 +438,8 @@ paper must say that the second span is a proposed construct.
 
 | # | Question | My default |
 |---|---|---|
-| D-a | Rows on the brief's triple (opaque, co-optive, triadic) with generating properties as glosses, or rows on opacity, bindingness, adaptivity? | Brief's triple; adaptivity carried by row 3 |
-| D-b | Restate the raincoat case so the agent shops across retailers? | Yes, one marked sentence |
+| D-a | Rows on the brief's triple (opaque, co-optive, triadic) with generating properties as glosses, or rows on opacity, bindingness, adaptivity? | Brief's triple; adaptivity carried by row 3 **Ruled 12 Nov (R5): kept.** |
+| D-b | Restate the raincoat case so the agent shops across retailers? | Yes, one marked sentence **Ruled 12 Nov (R6): kept.** |
 | D-c | "Animator" as a seat several parties fill (after Stark)? | Yes |
 | D-d | The competencies belong to the person; the designer's expertise is knowing them (30 Sep thesis)? | Yes |
 | D-e | Drop apparent motion as the lock-in mechanism? | Yes, pending the Hoerl re-card |
@@ -449,5 +449,5 @@ paper must say that the second span is a proposed construct.
 | D-i | The model's name? | "the animator's model of DXD"; alternatives: "key-pose model", "decision animation" |
 | D-j | Which coordination-condition mapping, if the paper uses Okhuysen and Bechky? | Neither; the Lima derivation |
 | D-k | Use "twelve principles" anywhere? | No; Lasseter's eleven (Pinhanez, Ribeiro & Paiva and Schulz say twelve, citing Thomas & Johnston; the count waits on the book) |
-| D-l | "Intent specification" is already a term: Leveson (2000) for a kind of software specification; Vaithilingam et al. (2025) for a store of user intent kept by an AI. Keep the label with a one-sentence contrast, or rename (e.g., "traceable intent")? | Keep, with the contrast |
-| D-m | "Idempotent interpretation" appears once in mathematical logic (Das, De & Kuznetsov, arXiv 2512.19401, not carded), and a computing reader may take "idempotent" to describe the outputs, not the reading. Keep (R1) with the definition stated once, or rename (e.g., "stable attribution")? | Keep, per R1, defined once |
+| D-l | "Intent specification" is already a term: Leveson (2000) for a kind of software specification; Vaithilingam et al. (2025) for a store of user intent kept by an AI. Keep the label with a one-sentence contrast, or rename (e.g., "traceable intent")? | Keep, with the contrast **Ruled 12 Nov (R7): keep, with the contrast.** |
+| D-m | "Idempotent interpretation" appears once in mathematical logic (Das, De & Kuznetsov, arXiv 2512.19401, not carded), and a computing reader may take "idempotent" to describe the outputs, not the reading. Keep (R1) with the definition stated once, or rename (e.g., "stable attribution")? | Keep, per R1, defined once **Ruled 12 Nov (R7): keep, defined once.** |
