@@ -64,3 +64,20 @@ never answered.
 
 **Correction to OUTLINE.md:** OUTLINE ties the ELIZA effect to Stark p. 1667. Its definition is on
 **p. 1665** (§2.1). p. 1667 carries the user-as-animator sentence.
+
+## Library update, run dxda-lib-2026-11b (11 Nov 2026)
+
+> [DRAFTED by Claude (Opus 5.5), 2026-11-11.] What run 2 found for each flag. The flags above and your
+> text in `SOURCE.md` are unchanged; `DRAFT_v1.md` carries each flag as a bracketed note after your
+> sentence.
+
+| Flag | Update | Card(s) |
+|---|---|---|
+| F1 | Still no McLaren source. Lasseter (1987, p. 37), read in full, gives a citable craft statement of the same point: weight "depend[s] entirely on the spacing of the poses and not on the poses themselves". Noted in the draft, not substituted for your sentence. | `lasseter1987principles` |
+| F2, F3 | Unchanged. | — |
+| F4 | Unchanged; the draft treats "animator" as a seat several parties fill (MODEL D-c). | `stark2024animation` |
+| F5–F10 | Unchanged; carried as notes in the draft. | — |
+| F11 | **Resolved for the paper's purpose.** Lasseter (1987) states the animator's principles and is read in full; Chang & Ungar (1993) and Thomas & Calder (2001) carry them into interfaces, also in full. Chevalier et al. still do not describe the craft. Thomas & Johnston remain unread (a loan is needed). | `lasseter1987principles`, `chang1993animation`, `thomas2001applying` |
+| F12 | Hoerl (2015) now read in full: cinematic motion is not Wertheimer-type apparent motion, and the motion seen at normal speed is real. The draft drops apparent motion as a mechanism (MODEL D-e) and uses Hoerl only for "inspecting frames loses what the viewer needed", with the analogy to AI output marked as the paper's. | `hoerl2015seeing` |
+| new | **"Twelve principles"**: Lasseter lists eleven; Pinhanez, Ribeiro & Paiva and Schulz say twelve, citing Thomas & Johnston. The draft uses eleven. | `lasseter1987principles` |
+| new | **"Intent specification"** is already used by Leveson (2000) and Vaithilingam et al. (2025); the draft contrasts them (MODEL D-l). | `leveson2000intent`, `vaithilingam2025semantic` |
