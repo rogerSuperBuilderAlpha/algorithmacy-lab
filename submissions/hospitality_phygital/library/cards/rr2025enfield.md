@@ -17,12 +17,12 @@ verified_date: 2026-11-12
 source_basis: "Primary legal source (the validator has no legal tier, so 'verified' is used, as for dma2020sshd). Judgment fetched as Akoma Ntoso XML from the National Archives Find Case Law service on 12 Nov 2026 and saved at manuscript/revision_2026-11/research/sources/dma2020sshd_later/ewca_civ_2025_1390.xml (plain text beside it). Read: paras 1-3 (the appeal), 79-82 (the treatment of DXK and R (DMA)) and the agreements at paras 85-86. The rest of the judgment, on housing allocation and fresh evidence, was not read. Card written by the lead; not independently verified."
 generated_run: rr-2026-11-k
 flags: []
-hold_rationale: "Held because the Court of Appeal here reads R (DMA), the paper's placed-guest case, and reads it in the paper's own shape: where the Secretary of State discharged a duty through independent contractors, she 'needed to have a system in place that ensured that the contractors did provide the accommodation', and the courts 'were not deciding that there was some free standing duty to monitor'. It answers the debt recorded in CARD_CORRECTIONS.md (the four Court of Appeal judgments citing R (DMA)). The authors decide admission."
+hold_rationale: "Held because the Court of Appeal here reads R (DMA), the paper's placed-guest case, and reads it in the paper's own shape: where the Secretary of State discharged a duty through independent contractors, she 'needed to have a system in place that ensured that the contractors did provide the accommodation', and the courts 'were not deciding that there was some free standing duty to monitor, derived from section 149 of the 2010 Act'. It answers the debt recorded in CARD_CORRECTIONS.md (the four Court of Appeal judgments citing R (DMA)). The authors decide admission."
 ---
 
 ## Summary
 
-An appeal about a local authority's housing allocation scheme. The appellant argued that the authority's failure to monitor the scheme's effect on disabled households breached the public sector equality duty (Equality Act 2010, s. 149), relying on R (DXK) and R (DMA). The Court of Appeal held there was no breach. In doing so it explained what those two cases decided.
+An appeal about a local authority's housing allocation scheme. The appellant argued that the authority's failure to monitor the scheme's effect on disabled households breached the public sector equality duty (Equality Act 2010, s. 149), relying on R (DXK) and R (DMA). The judge below found a s. 149 breach in the failure to monitor but refused a remedy (para 4). The Court of Appeal held there was no breach and dismissed the appeal (paras 77, 82, 84). In doing so it explained what DXK and DMA decided.
 
 ## Key facts / verified quotes with loci
 
@@ -39,7 +39,7 @@ An appeal about a local authority's housing allocation scheme. The appellant arg
 
 ## Where it bears on the argument
 
-- **K7, by analogy in public law: supports the structure.** A duty-holder that performs through contractors needs the information and the system that let it discharge its own duty; there is no free-standing duty to monitor. That is the paper's claim that the further duty is a necessary means of performing a duty the host holds, not a separate duty of oversight.
+- **K7, by analogy in public law: supports the structure.** A duty-holder that performs through contractors needs the information and the system that let it discharge its own duty; there is no free-standing duty to monitor derived from s. 149. That is the paper's claim that the further duty is a necessary means of performing a duty the host holds, not a separate duty of oversight.
 
 **What the paper may say**
 
@@ -51,3 +51,5 @@ An appeal about a local authority's housing allocation scheme. The appellant arg
 - That it narrows R (DMA)'s declaration on its facts.
 
 Card written by Claude (Opus 5.5), the lead, 12 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 12 Nov 2026 after independent verification CV-I (`manuscript/keystone_2026-11/VERIFY_CARDS_I.md`): 'derived from section 149 of the 2010 Act' restored wherever the free-standing duty is mentioned; the summary now records the judge's finding and refusal of a remedy (para 4) and the dismissal (paras 77, 82, 84).

@@ -33,7 +33,7 @@ The Directive governs automated decision systems used by Canadian federal instit
 ## Critical notes & threats
 
 - Binds federal institutions only, for administrative decisions; says nothing of private firms or hospitality.
-- Ties a human's final decision to reversibility, not to a route from the person affected.
+- Ties a human's final decision to the impact level, which an algorithmic impact assessment sets (6.1.2; Appendix B) and whose descriptors turn on how reversible and lasting the impacts are. It also requires recourse that is 'timely, effective, and easy to access' (6.4.1.1) and the use of 'documented feedback ... to identify issues and take corrective actions' (6.3.4.1). It binds the institutions subject to the Policy on Service and Digital (8.1): it is not soft law.
 
 ## Where it bears on the argument
 
@@ -41,10 +41,15 @@ The Directive governs automated decision systems used by Canadian federal instit
 
 **What the paper may say**
 
-- Canada's Directive on Automated Decision-Making requires that the final decision be made by a human only where a decision's impacts are 'high, difficult to reverse' or 'very high, irreversible' (Treasury Board of Canada Secretariat 2019: Appendices B, C).
+- Canada's Directive on Automated Decision-Making requires that the final decision be made by a human only where a decision's impacts are 'high, difficult to reverse' or 'very high, irreversible' (Treasury Board of Canada Secretariat 2025: Appendices B, C).
 
 **What the paper may not say**
+
+- That the Directive gives the person affected no route: it requires recourse (6.4.1, 6.4.1.1).
+- That it is soft law, or that reversibility alone sets the level.
 
 - That it applies to hosts, to private firms, or outside Canadian federal administration.
 
 Card written by Claude (Opus 5.5), the lead, 11 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 12 Nov 2026 after independent verification CV-I (`manuscript/keystone_2026-11/VERIFY_CARDS_I.md`): the passages quoted are from the version of 24 June 2025, so the paper cites 2025 (in force since 1 April 2019); the level is set by the impact assessment, not by reversibility alone; the Directive requires recourse and the use of feedback, contrary to the earlier critical note; it binds federal institutions (8.1).

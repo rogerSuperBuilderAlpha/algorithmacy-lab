@@ -103,7 +103,7 @@ Shabnam, Saadia, Roy, Sanjit Kumar, Roten, Yonathan Silvain, Singh, Gaganpreet, 
 
 Slattery, Paul (2002), 'Finding the hospitality industry', *The Journal of Hospitality Leisure Sport and Tourism*, 1:1, pp. 19–28.
 
-Treasury Board of Canada Secretariat (2019), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
+Treasury Board of Canada Secretariat (2025), *Directive on automated decision-making*, https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592.
 
 United Nations, Office of the High Commissioner for Human Rights (2011), *Guiding principles on business and human rights: Implementing the United Nations "protect, respect and remedy" framework*, https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf.
 
@@ -111,7 +111,7 @@ Wenar, Leif and Cruft, Rowan (2025), 'Rights', in Zalta, Edward N. and Nodelman,
 
 Westmoreland, Mark W. (2008), 'Interruptions: Derrida and hospitality', *Kritike: An Online Journal of Philosophy*, 2:1, pp. 1–10.
 
-White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*, Washington, DC: The White House, https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf.
+White House Office of Science and Technology Policy (2022), *Blueprint for an AI bill of rights: Making automated systems work for the American people*, The White House, https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf.
 
 Wilson-Nash, Carolyn, Angell, Rob, Qiu, Yuanming, Pavlopoulou, Ismini and Kolyperas, Dimitrios (2026), 'No app, no entry: Conceptualizing digital technology captivity in service access', *Psychology & Marketing*, 43:5, pp. 974–985.
 
@@ -175,7 +175,7 @@ Thomas v Pick Hotels Corp (1955) 224 F.2d 664 (10th Cir.).
 
 Westin Operator, LLC v Groh 2015 CO 25, 347 P.3d 606 (Colo.).
 
-Wheat v E Lacon & Co Ltd [1966] AC 552.
+Wheat v E Lacon & Co Ltd [1966] UKHL 1, [1966] AC 552.
 
 Wong Mee Wan v Kwan Kin Travel Services Ltd [1995] UKPC 42.
 

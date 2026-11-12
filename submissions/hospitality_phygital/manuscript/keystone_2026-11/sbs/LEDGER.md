@@ -2174,3 +2174,21 @@ The four Court of Appeal judgments that cite *R (DMA)* were read from National A
   *Paid for S-205a. S-201 states the same point at the case ('the power reached was used against the guests, and the duty of care, not the route, governs that failure').*
 
 **Measured.** Body 8,923 by `wordcount.py`; 8,981 by `preflight.py`. `check_citations.py`: citations OK. *RR v Enfield* added to the Cases list and to `cited_keys_v7.txt`.
+
+## Revisions after the verification of the lead's cards (VERIFY_CARDS_I.md, 12 Nov 2026)
+
+All six cards the lead wrote passed with notes, and every quotation matched. Three v7 sentences change.
+
+- **S-109 ❌ → rewritten.** Was: > Several parties may hold the duty of care at once: of a brewery's inn where the manager's wife took in summer guests, Lord Denning said in the House of Lords that 'two or more may be "occupiers"', each owing care 'dependent on his degree of control' (Wheat v E Lacon 1966: 9).
+  Now: > Several parties may hold the duty of care at once: of a brewery-owned public house whose manager's wife took in paying summer guests, Lord Denning said that 'two or more may be "occupiers"', each owing care 'dependent on his degree of control' (Wheat v E Lacon 1966).
+  *CV-I: the judgment never calls the house an inn ('public house'; 'summer visitors'; 'paying guests', Lord Pearson p. 16); the page '9' is the House of Lords print on BAILII, not [1966] AC 552, so the case is cited by speech. 'In the House of Lords' dropped for length; the Cases list now gives [1966] UKHL 1, [1966] AC 552. Checked by the lead in the saved text.*
+- **S-193 ❌ → rewritten.** Was: > The one analogue we found is in occupiers' law, where the occupiers on the spot 'should have reported it to the Brewery Company' (Wheat v E Lacon 1966: 11).
+  Now: > The one analogue we found is in occupiers' law, where Lord Denning said that if the occupiers on the spot 'had realised the handrail was dangerous, they should have reported it to the Brewery Company' (Wheat v E Lacon 1966).
+  *CV-I: Lord Denning named and his condition restored ('If they had realised the handrail was dangerous, they should have reported it to the Brewery Company'); page dropped for the same reason as S-109. Checked by the lead in the saved text.*
+- **S-246 ❌ → rewritten.** Was: > For automated systems, the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and the Treasury Board of Canada Secretariat reserves the final administrative decision to a human where the decision's impacts are high and difficult or impossible to reverse (2019: Appendices B–C).
+  Now: > For automated systems, the White House Office of Science and Technology Policy asks for 'access to a person who can quickly consider and remedy problems' (2022: 46), and the Treasury Board of Canada Secretariat reserves the final administrative decision to a human where the decision's impacts are high and difficult or impossible to reverse (2025: Appendices B–C).
+  *CV-I: the quoted levels and the human-decision rule were read in the version of 24 June 2025, so the citation is (2025); the bibliography records that the Directive has been in force since 1 April 2019.*
+
+**Not adopted from CV-I:** quoting Lord Pearson's gloss on 'occupational control' in full (S-064). The sentence quotes his first clause exactly and uses it for no more than that clause says; the full gloss would add 17 words with the body 13 words from the ceiling on `preflight.py`'s count.
+
+**Measured.** Body 8,929 by `wordcount.py` (8,987 by `preflight.py`). `check_citations.py`: citations OK.

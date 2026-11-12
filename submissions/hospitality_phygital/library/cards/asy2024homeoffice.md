@@ -33,18 +33,20 @@ Claims for damages under the Human Rights Act by people with limited leave to re
 ## Critical notes & threats
 
 - Public law under the Human Rights Act; the duty is the state's, under Article 3.
-- Which judge gave the lead judgment, and the full disposal, were not recorded on this card.
+- The bench and disposal, as CV-I read them: Fraser LJ gave the judgment, Sir Nicholas Patten (para 110) and Bean LJ (para 111) agreeing; Ground 3 allowed (paras 103, 109), Ground 2 dismissed, the Respondent's Notice rejected (paras 98-99); the preliminary issue answered at para 104; remitted to HHJ Ralton (paras 107-108).
 
 ## Where it bears on the argument
 
-- **K7 and Table 1, by analogy: supports.** A duty to act on notice, promptly, before harm lands. The paper does not cite it; it is a lead for the authors if they want a second public-law instance.
+- **K7 and Table 1, by analogy: supports, narrowly.** The duty is a low-level systems duty 'to adopt administrative measures to prevent a person falling into' severe destitution (para 86), owed to these claimants (para 90). Notice enters only as a condition of damages under para 97(b); a claimant who suffered inhuman and degrading treatment recovers without it (paras 97(a), 104, 105(1)). The paper does not cite it; it is a lead for the authors if they want a second public-law instance.
 
 **What the paper may say**
 
-- If admitted: that the Court of Appeal tied damages for breach of an Article 3 systems duty to the claimant's having notified the Home Office and not received 'a positive and prompt response' (ASY 2024: para 97).
+- If admitted: that for a claimant who was at immediate risk but did not suffer inhuman and degrading treatment, the Court of Appeal made damages depend on having notified the Home Office and not received 'a positive and prompt response' (ASY 2024: para 97(b)).
 
 **What the paper may not say**
 
 - That it concerns private hosts or hospitality.
 
 Card written by Claude (Opus 5.5), the lead, 12 Nov 2026; run rr-2026-11-k.
+
+Corrected by the lead (Claude Opus 5.5) on 12 Nov 2026 after independent verification CV-I (`manuscript/keystone_2026-11/VERIFY_CARDS_I.md`): notice is a condition of damages only in limb (b) of para 97; the duty itself is to adopt administrative measures to prevent destitution (para 86); the bench and disposal are recorded.

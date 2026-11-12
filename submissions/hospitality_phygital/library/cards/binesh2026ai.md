@@ -22,7 +22,7 @@ hold_rationale: "Held as the nearest hospitality text to the paper's claim: prot
 
 ## Summary
 
-A scoping review of 32 studies on AI ethics in hospitality and tourism. On p. 10 it reads hotel personalisation as acting on inferred beliefs about guests and concludes that protecting autonomy requires contestability and real human override at the service encounter.
+A scoping review of 32 studies on AI ethics in hospitality and tourism. On p. 10 it reads hotel personalisation as acting on inferred beliefs about guests and argues, in its Discussion (§4.2.3), citing Tussyadiah (2020), that protecting autonomy requires contestability and real human override at the service encounter. Table 5 (p. 11) rates 'Biometric room entry and identity verification' as high risk requiring 'human oversight'; the Results report Fernández Mateo's view that where firms and customers cannot 'raise concerns and advocate for human oversight', human decisions 'will soon be overtaken by algorithmic ones'.
 
 ## Key facts / verified quotes with loci
 
@@ -39,7 +39,7 @@ A scoping review of 32 studies on AI ethics in hospitality and tourism. On p. 10
 
 **What the paper may say**
 
-- Binesh and Syah conclude from a review of hospitality studies that protecting guests' autonomy requires contestability and 'real human override at the service encounter' (2026: 10).
+- Binesh and Syah argue, in the Discussion of their review of hospitality studies, that protecting guests' autonomy requires contestability and 'real human override at the service encounter' (2026: 10).
 
 **What the paper may not say**
 
@@ -48,3 +48,5 @@ A scoping review of 32 studies on AI ethics in hospitality and tourism. On p. 10
 Card written by Claude (Opus 5.5), the lead, 11 Nov 2026; run rr-2026-11-k.
 
 Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after resolving the DOI in Crossref: the card first gave the authors as 'Faranak' Binesh and 'Arief' Syah and shortened the title; the record and the PDF's first page give Nasim Binesh and Ahmad Syah and the full title above. The quotation and locator are unchanged.
+
+Corrected by the lead (Claude Opus 5.5) on 12 Nov 2026 after independent verification CV-I (`manuscript/keystone_2026-11/VERIFY_CARDS_I.md`): the p. 10 sentence is the authors' argument in their Discussion, citing Tussyadiah (2020), not a conclusion drawn from the 32 studies; Table 5 and the Results passage on human oversight are added.

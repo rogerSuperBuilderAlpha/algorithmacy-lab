@@ -24,16 +24,16 @@ Section numbering (rr-2026-11-k): 2 What the law asks of the host; 3 Who holds t
 
 ## Summary
 
-A paying summer guest fell on the unlit back staircase of the private part of a brewery-owned inn, where the manager's wife took in guests for her own profit. He died. His widow sued the brewery as occupier under the Occupiers' Liability Act 1957. The House of Lords held that the brewery was an occupier of the private part, alongside the manager and his wife, and that more than one party may occupy premises at once, each owing care according to its control. The appeal failed because no negligence was proved.
+A paying summer guest fell on the unlit back staircase of the private part of a brewery-owned public house, where the manager's wife took in guests for her own profit. He died. His widow sued the brewery as occupier under the Occupiers' Liability Act 1957. The House of Lords held that the brewery was an occupier of the private part, alongside the manager and his wife, and that more than one party may occupy premises at once, each owing care according to its control. The appeal failed because no negligence was proved.
 
 ## Key facts / verified quotes with loci
 
 - The guests: "In the summer Mrs. Richardson took in guests for her private profit. Mr. and Mrs. Wheat and their family were summer guests of Mrs. Richardson" (Lord Denning, p. 8). [full-text]
 - Concurrent occupiers: "Two or more may be " occupiers ". And whenever this happens, each is under a duty to use care towards persons coming lawfully on to the premises, dependent on his degree of control. If each fails in his duty, each is liable to a visitor who is injured in consequence of his failure, but each may have a claim to contribution from the other." (Lord Denning, p. 9). [full-text]
 - "There is no difficulty in having more than one occupier at one and the same time, each of whom is under a duty of care to visitors." (Lord Denning, p. 10). [full-text]
-- Division of tasks between holders: the brewery "were entitled to leave those day-to-day matters to Mr. and Mrs. Richardson"; "If they had realised the handrail was dangerous, they should have reported it to the Brewery Company." (Lord Denning, p. 11). [full-text]
+- Division of tasks between holders: the brewery "were entitled to leave those day-to-day matters to Mr. and Mrs. Richardson"; "If they had realised the handrail was dangerous, they should have reported it to the Brewery Company." (Lord Denning, pp. 10-11). [full-text]
 - "The foundation of occupier's liability is occupational control, i.e. control associated with and arising from presence in and use of or activity in the premises." (Lord Pearson, p. 16). [full-text]
-- Outcome: all dismissed the appeal for want of proof of negligence (R10's reading; Viscount Dilhorne not read). [full-text]
+- Outcome: all five Lords held the brewery an occupier; four held the manager and his wife occupiers too, Viscount Dilhorne declining to decide that (p. 7); all five dismissed the appeal for want of proof of negligence (Viscount Dilhorne at p. 8, read by CV-I). [full-text]
 
 ## Critical notes & threats
 
@@ -48,8 +48,8 @@ A paying summer guest fell on the unlit back staircase of the private part of a 
 
 **What the paper may say**
 
-- In English law two or more parties may be occupiers of the same premises at once, each owing visitors care according to its degree of control, with contribution between them (*Wheat v E Lacon* [1966] AC 552, Lord Denning at pp. 9-10).
-- The case concerned a paying summer guest in rooms let in a brewery-owned inn (p. 8).
+- In English law two or more parties may be occupiers of the same premises at once, each owing visitors care according to its degree of control, with contribution between them (*Wheat v E Lacon* [1966] UKHL 1, [1966] AC 552, Lord Denning; pp. 9-10 of the House of Lords print on BAILII, not the AC pages).
+- The case concerned a paying summer guest whom the manager's wife took in, for her own profit, in the private part of a brewery-owned public house (p. 8; 'paying guests', Lord Pearson p. 16). The judgment never calls the house an inn.
 
 **What the paper may not say**
 
@@ -57,3 +57,5 @@ A paying summer guest fell on the unlit back staircase of the private part of a 
 - That it imposes any duty to keep a channel from the guest.
 
 Card written by Claude (Opus 5.5), the lead, from the saved archive copy and reader R10's notes, 11 Nov 2026; run rr-2026-11-k. Not independently verified by a card verifier.
+
+Corrected by the lead (Claude Opus 5.5) on 12 Nov 2026 after independent verification CV-I (`manuscript/keystone_2026-11/VERIFY_CARDS_I.md`): 'inn' replaced by 'public house'; the 'entitled to leave' locator is pp. 10-11; Viscount Dilhorne's speech, unread by R10, is now recorded (brewery occupier p. 6, reservation on the Richardsons p. 7, dismissal p. 8), so the House's holding on concurrent occupation is four of five Lords; page numbers are the House of Lords print on BAILII ([1966] UKHL 1), not [1966] AC 552. v7 now cites the case by speech, without pages, and gives Lord Denning's reporting sentence with its condition.
