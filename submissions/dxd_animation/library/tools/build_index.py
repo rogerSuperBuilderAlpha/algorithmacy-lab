@@ -43,6 +43,11 @@ FACETS = {
     "F9": "Interface animation in HCI",
     "F10": "Agent-mediated shopping and agentic commerce",
     "G": "Gap check: prior work framing LLM interfaces as animation",
+    # run 2 (dxda-lib-2026-11b), added 2026-11-11 for the model paper
+    "F11": "The animator's craft: principles, keys and in-betweens, timing, staging",
+    "F12": "Animation principles carried to interfaces, robots and agents",
+    "F13": "Competence and intuition under opaque, changing rules",
+    "G2": "Gap check 2: prior work selecting animation craft for decision design",
 }
 CLAIMS = {
     "c1": "a moving goal breaks conversion-era design",
@@ -54,6 +59,14 @@ CLAIMS = {
     "c7": "animation is triadic: viewer, character, animator",
     "c8": "DXD must apply the animator's methods",
     "c9": "gap: no prior work frames LLM interfaces as animation for decision design",
+    # run 2 (dxda-lib-2026-11b): claims of the model (../../MODEL.md)
+    "m1": "opaque row: idempotent interpretation; staging and labelled sources",
+    "m2": "co-optive row: intent specification; key poses and instructions to other hands",
+    "m3": "triadic row: intuitive governance tracking; anticipation and change between moves",
+    "m4": "transfer warrant: craft carries over only through an account of the receiver",
+    "m5": "dissociation: craft spent on the character versus craft spent on the decision",
+    "m6": "boundary: the model applies where an intermediary binds a counterpart",
+    "m7": "gap: no prior model selects animation craft through decision competencies",
 }
 
 

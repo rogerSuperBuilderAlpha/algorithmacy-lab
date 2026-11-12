@@ -94,3 +94,77 @@ verify and hand-check to move to full text. No browser needed.
 11. **Open from S1:** Albantakis is the IIT 4.0 paper; the Huq 2026 title does not match its record.
 12. **Pull request:** draft PR #878, branch `research/dxd-animation-library`, into `contrib`. Your
     approval is needed before it leaves draft.
+
+---
+
+# RUN_REPORT — run 2 (`dxda-lib-2026-11b`, 2026-11-11)
+
+> [Written by Claude (Opus 5.5, lead), 2026-11-11.] The model-paper pass (`../SOURCE.md`, Pass 3;
+> rulings in `triage/DECISIONS.md`, "Run 2").
+
+## What ran
+
+| Stage | Who | Output | Result |
+|---|---|---|---|
+| S0–S1 | lead | facets F11–F13, G2; claims m1–m7 (`tools/build_index.py`, `README.md`) | — |
+| S4 fetch | lead, through the author's Chrome session and arXiv/SciTePress | `~/iit-playground/dxd_animation_local/pdfs/` | 7 ACM papers, 2 arXiv papers, 1 SciTePress paper held; the three craft books need a loan (not obtained) |
+| S5 cards | lead (Lasseter, Chang & Ungar, Thomas & Calder, Pinhanez, Zhang & Davis, Leveson, Vaithilingam); three writer subagents (Ribeiro & Paiva, Takayama, Schulz, Gonzalez, Kurian, Lewis, Hoerl, May) | `cards/` | 15 cards new or rewritten |
+| S6 verify | three verifier subagents, batches A–C, none a writer | Verification sections | 6 verified, 9 corrected |
+| S7 hand-check | lead | Hand-check sections | 15/15 index |
+| S8 index | tools | `INDEX.md`, `TRACKER.tsv`, `references.bib`, `REFERENCES_APA.md` | 88 cards, 0 malformed, 0 stale; DOIs 14/14 ok; quotations 0 unsupported (`QUOTE_CHECK_NOTES.md`) |
+| S9 gap | subagent | `GAP_CHECK_2.md` | gap holds only narrowed (Pinhanez 2017; Zhang & Davis 2026; Kurian 2025); three search legs failed |
+
+Every agent ran on Opus 5.5 after the author's switch from Fable 5.2 (DECISIONS, "Run 2").
+
+## Read depth of the run-2 cards
+
+Full text: Lasseter 1987, Chang & Ungar 1993, Thomas & Calder 2001, Gonzalez 1996, Ribeiro & Paiva 2012,
+Takayama et al. 2011, Schulz et al. 2019, Kurian 2025 (arXiv submitted version), Lewis et al. 2026,
+Hoerl 2015 (Early View version of record), May et al. 2003, Pinhanez 2017. Partial: Zhang & Davis 2026.
+Abstract: Leveson 2000, Vaithilingam et al. 2025.
+
+## What changed the model
+
+1. **Takayama et al. 2011**: a robot's forethought raised viewers' sureness and the robot's appeal but
+   not correct readings. Row 3's cue must announce the rule, not show the character deliberating; P5
+   has its strongest datum.
+2. **Lasseter 1987**: eleven principles, not twelve; the timing chart as an instruction to the
+   in-betweener; the overshooting machine in-betweener and the keys that lock it; "The change must come
+   before, or after, the move" (p. 42).
+3. **Pinhanez 2017** and **Zhang & Davis 2026** already do parts of rows 2 and 3 (anticipation before a
+   binding charge; keyframes with LLM in-betweens). The novelty claim is narrowed to the selection by
+   decision competencies in a triadic setting.
+4. **Thomas & Calder 2001** do not show liking dissociated from performance (verifier); cited for "no
+   measured performance gain" only.
+5. **"Intent specification"** is used by Leveson 2000 and Vaithilingam et al. 2025; the paper contrasts
+   them.
+
+## For Roger
+
+- Decisions D-a to D-m (`../MODEL.md`, §8).
+- The three craft books (Thomas & Johnston; Williams; Whitaker & Halas) need an Internet Archive loan
+  or a library copy; until then Thomas & Johnston is cited only as quoted.
+- Rerun the failed gap-check legs (Scholar Gateway, OpenAlex, Semantic Scholar) before submission.
+- Uncarded leads: Dragan, Lee & Srinivasa 2013 and Szafir, Mutlu & Fong 2014 (legible robot motion,
+  via Schulz); So et al. 2026; Hau 2026; Govind Reddy 2026 (sibling library, abstract).
+
+## Run 2, second day (2026-11-12)
+
+[Written by Claude (Opus 5.5, lead).]
+
+- **Gap check rerun** (`GAP_CHECK_2.md`, rerun section): OpenAlex ran (eight searches; citation snowballs
+  on L. Stark 2024, Pinhanez 2017, Lasseter 1987, Takayama 2011); no new close hit; verdict unchanged.
+  Scholar Gateway (access denied) and Semantic Scholar (HTTP 429) failed again.
+- **Four cards**: `szafir2014communication` (full), `dragan2014analysis` (full), `dragan2013legibility`
+  (abstract; full text paywalled on the ACM page), `zhang2026narrative` (upgraded to full). Writer:
+  subagent; S6 verifier batch D: 4 corrected; S7 hand-check by the lead: 4 index. Index rebuilt (91 cards,
+  0 malformed, 0 stale); DOIs 3/3 ok; quotations 41 found, 1 found-nospace.
+- **What changed the model:** no read study shows an anticipatory cue raising prediction accuracy
+  (Szafir 2014; Takayama 2011), so row 3's cue takes anticipation's function, not its form, and P4 has
+  no support yet. Dragan 2014's "confidently wrong" is a property of their model, not a measured result.
+  Zhang & Davis claim keyframing as new only within AI-assisted writing, and their generated material
+  can rewrite the writer's keys.
+- **Draft checks closed:** Hoerl p. 690, Dragicevic p. 2017, Takayama p. 74, Pinhanez pp. 31 and 34
+  (inferred from Crossref ranges and PDF page counts); Burrell and D. Stark references completed.
+  **Still open:** Kurian's version-of-record pages (ScienceDirect showed a CAPTCHA to the automated
+  browser); the TIES reference-style name (its link names none); the two failed search legs.

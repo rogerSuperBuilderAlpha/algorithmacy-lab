@@ -11,43 +11,85 @@ pages: "35–44"
 doi: "10.1145/37401.37407"
 url: ""
 type: proceedings
-facets: [F1, F9]
-claims: [c8]
-role: method
+facets: [F1, F9, F11]
+claims: [c5, c8, m1, m2, m3, m4, m5]
+role: anchor
 load: load-bearing
-read_depth: abstract
-object_read: "Crossref record (crossref.json, sha256 d8e00182ecf4856d546afe46df5d84c19aa8101fb1e800ff39167c240ca8f58d, no abstract) and OpenAlex W2121378366 record with abstract (openalex.json, sha256 cee58df7217bc65f7964f70202055d8966dd85616bb8110b4be3d9d6b45c0b9d); local folder ~/iit-playground/dxd_animation_local/pdfs/lasseter1987principles/; original URL https://doi.org/10.1145/37401.37407; 2026-11-05. No full text: FETCH_LOG.tsv records HTTP 403."
-verified: verified
-verified_against: "crossref.json + openalex.json W2121378366 (sha256 recomputed); prior dxd_animator card; triage DECISIONS and F1-F2 row 75"
+read_depth: full_text
+object_read: "PDF of the SIGGRAPH '87 paper as printed in Computer Graphics 21(4), July 1987, pp. 35–44 (10 pp.), from the ACM Digital Library (dl.acm.org/doi/pdf/10.1145/37401.37407, page marked FREE ACCESS), obtained 2026-11-11 through the author's Chrome session; ~/iit-playground/dxd_animation_local/pdfs/lasseter1987principles/lasseter1987principles.pdf; sha256 b99cde55f501ee7588e78142443605f82d6ab7b14e8011d7274037bd0c40a730; read in full from the PDF and its reading-order text layer"
+verified: corrected
+verified_against: "19/19 loci in the reading-order and layout text layers of the ACM DL PDF (sha256 b99cde55...), PDF pp. 5–6 on page images; crossref.json (10.1145/37401.37407); Crossref record 10.1145/37402.37407; first page"
 prior_cards: [lasseter1987principles (dxd_animator)]
 status: candidate
 added: 2026-11-05
-run: dxda-lib-2026-11
+run: dxda-lib-2026-11b
 ---
 
 ## What it argues
-Abstract card. The full text was not read.
 
-The OpenAlex abstract says the paper "describes the basic principles of traditional 2D hand drawn animation and their application to 3D computer animation". After describing how these principles evolved, it details each one, "addressing their meanings in 2D hand drawn animation and their application to 3D computer animation". It aims to "demonstrate the importance of these principles to quality 3D computer animation". The abstract names no individual principle.
+John Lasseter, writing from Pixar in 1987, argues that the principles of hand-drawn character animation developed at the Disney studio apply to 3D keyframe computer animation, and that the new commercial keyframe systems "will also enable people to produce more bad computer animation" because their users do not know those principles (p. 35). He addresses system designers as well as animators (p. 35).
+
+He tells how the principles arose: Disney's drawing classes under Don Graham turned the analysis of action into named procedures, which "were isolated and named, analyzed and perfected" and taught "as rules of the trade" (p. 36). He then lists **eleven** numbered principles — squash and stretch; timing; anticipation; staging; follow through and overlapping action; straight ahead action and pose-to-pose action; slow in and out; arcs; exaggeration; secondary action; appeal (p. 36) — and treats each in its own subsection (§§2.1–2.11, pp. 36–42). A closing section on personality says personality "is not a principle unto itself, but the intelligent application of all of the principles" (p. 43). The paper lists no principle called "solid drawing" and does not say "twelve".
+
+He sorts the principles by medium. Timing, anticipation, staging, follow through, overlap, exaggeration and secondary action "apply in the same way" in drawn and computer animation; squash and stretch, slow in and out, arcs, appeal, straight-ahead and pose-to-pose keep their meaning but change their application (p. 36). In 3D, "Motion is achieved by setting keyframe poses and having the computer generate the inbetween frames" (p. 36).
+
+Four arguments matter for the paper.
+- **Timing lives between the poses.** The effect of weight "depend[s] entirely on the spacing of the poses and not on the poses themselves" (p. 37). Quoting Thomas and Johnston, he shows that the same two extreme drawings of a head read as a blow, a twitch, an order or an appraisal depending on how many in-betweens lie between them (p. 37–38).
+- **Anticipation and staging direct the viewer.** Anticipation prepares the audience and tells them *what* a character will do even when it does not show *why* (p. 38). Staging presents "an idea so it is completely and unmistakably clear", one idea at a time (p. 38).
+- **Pose-to-pose with in-betweens made by other hands.** The animator plans the poses, and a "timing chart" drawn beside the drawing tells "his assistant who will be doing the inbetweens later" where to place them (p. 40). In computer animation the machine is the in-betweener, and it misbehaves: spline in-betweens overshoot so that "the value will shoot in the wrong direction", and Lasseter fixes this by adding extra extremes that "locked" the spline (pp. 40–41). He concludes that keyframe animation cannot be approached "exactly as one would pose-to-pose hand drawn animation" (p. 40).
+- **Where a change goes.** A facial change during a major body move "will go unnoticed"; "The change must come before, or after, the move" (p. 42).
+
+He ends by saying "the first goal of the animator is to entertain" (p. 43).
 
 ## What the paper uses it for
-- c8 (method). The paper says DXD should apply the animator's methods. Lasseter is the bridge from hand-drawn craft to a computing medium, the best-placed source for a toolkit of animator's principles. Which principles, and whether any carry over from a drawn character to an interface, is not shown by the abstract. Lasseter writes about animating 3D characters, not interface design, so the move to DXD is the paper's.
+
+- **m2 (anchor).** Lasseter is the read source for the division of labour the intent-specification row needs: a key animator fixes the extreme poses and hands the in-betweens to another hand, with a written timing chart as the instruction (p. 40). In 3D keyframing the computer is that other hand, and its in-betweens go wrong in ways the animator must constrain by adding keys (pp. 40–41). The move to a person fixing a few commitments and an LLM or agent generating what lies between is the paper's, not Lasseter's.
+- **m3 (anchor).** Two loci carry the tracking row. Anticipation leads the audience "to expect it before it actually occurs" and settles *what* happens next without explaining *why* (p. 38), which fits a cue that does not explain the rule. A change made in the middle of a major move "will go unnoticed" (p. 42). Lasseter writes about a character's face during a body move; reading this onto a rule change during a task is the paper's step.
+- **m1 (support).** Staging, one idea at a time and in silhouette (pp. 38–39; [Verifier, S6: corrected from "p. 38"; the silhouette passage is on p. 39]), is the craft the opaque row draws on. The in-between table (pp. 37–38) shows that identical extreme poses carry different meanings according to what lies between them. [Lead, hand-check S7: narrowed after the verifier's note.] A film viewer sees those in-betweens, so the visible motion differs; the paper's use is that a user who sees only the extremes (what was asked and what came back) cannot tell which in-betweens produced them. That is an analogy to idempotent interpretation, not an instance of it. The table is Lasseter quoting Thomas and Johnston.
+- **c5 (support).** "depend entirely on the spacing of the poses and not on the poses themselves" (p. 37) is a read, citable statement that what happens between frames carries the meaning, close to the claim Pass 2 attributes to McLaren. It does not replace a McLaren source (CHECK F1); it is Lasseter's own claim, citing Whitaker and Halas [30].
+- **m4 (support, and a caution).** Lasseter addresses system designers (p. 35) and sorts principles into those that carry over unchanged and those whose application changes with the medium (p. 36). That is a precedent for the selection rule. He moves between two animation media, not from animation to interfaces.
+- **m5 (cuts against the craft).** The principles serve entertainment ("the first goal of the animator is to entertain", p. 43) and the illusion that a character thinks ("Without a thought process, the actions of a character are just a series of unrelated motions", p. 43). A designer who applies them to an AI interface may build exactly the thinking character that L. Stark and Maeda and L. Stark warn about. The paper must say which principles serve the decision and which serve the character.
+- **c8.** The run-1 claim that DXD should apply the animator's methods now has a read source for the methods themselves.
 
 ## Loci
-None.
+
+Matched against the reading-order text layer (`lasseter1987principles.readorder.txt`) and the PDF; page numbers are the printed *Computer Graphics* 21(4) page numbers (PDF p. 1 = p. 35). Inner double quotation marks are changed to single quotation marks.
+
+1. "Understanding these principles of traditional animation is essential to producing good computer animation. Such an understanding should also be important to the designers of the systems used by these animators." §1, p. 35.
+2. "Gradually, procedures were isolated and named, analyzed and perfected, and new artists were taught these practices as rules of the trade." §2, p. 36.
+3. "Timing, anticipation, staging, follow through, overlap, exaggeration, and secondary action apply in the same way for both types of animation." §2, p. 36.
+4. "Motion is achieved by setting keyframe poses and having the computer generate the inbetween frames." §2, p. 36.
+5. "The way an object behaves on the screen, the effect of weight that it gives, depend entirely on the spacing of the poses and not on the poses themselves." §2.2, p. 37 (Lasseter cites [30], Whitaker and Halas).
+6. "Each inbetween drawing added between these two 'extremes' gives a new meaning to the action." §2.2, p. 37 (Lasseter quoting Thomas and Johnston [26]; the table that follows runs to p. 38).
+7. "Proper timing is critical to making ideas readable." §2.2, p. 37.
+8. "Anticipation is also a device to catch the audience's eye, to prepare them for the next movement and lead them to expect it before it actually occurs." §2.3, p. 38.
+9. "The anticipatory moves may not show why he is doing something, but there is no question about what he is going to do next." §2.3, p. 38 (the words "why" and "what" are letter-spaced in the text layer, which marks emphasis in the print; Lasseter cites [26]).
+10. "Staging is the presentation of an idea so it is completely and unmistakably clear" §2.4, p. 38.
+11. "It is important, when staging an action, that only one idea be seen by the audience at a time." §2.4, p. 38.
+12. "Here the animator plans his actions, figures out just what drawings will be needed to animate the business, makes the drawings concentrating on the poses, relates them to each other in size and action, and then draws the inbetweens." §2.6, p. 40.
+13. "The animator indicates the placement of the inbetweens, the slow in or slow out, with a 'timing chart' drawn on the side of the drawing. This tells himself, or his assistant who will be doing the inbetweens later, how he wanted the timing to be and where he wanted the inbetween drawings placed." §2.7, p. 40.
+14. "The difficulty in controlling the inbetweens makes it incorrect to approach keyframe computer animation exactly as one would pose-to-pose hand drawn animation." §2.6, p. 40.
+15. "the value will shoot in the wrong direction just before (or just after) the large change in value." §2.7, p. 41.
+16. "A change in the middle of a major move will go unnoticed, and value intended will be lost." §2.10, p. 42.
+17. "The change must come before, or after, the move." §2.10, p. 42.
+18. "Without a thought process, the actions of a character are just a series of unrelated motions." §3, p. 43.
+19. "Whether it is generated by hand or by computer, the first goal of the animator is to entertain." §4, p. 43.
 
 ## Caution
-- Upgrade of the dxd_animator abstract-only card (not edited). That card gave the DOI 10.1145/37402.37407, the *ACM SIGGRAPH Computer Graphics* 21(4) record, and cited it as 21(4), 35-44. This card uses 10.1145/37401.37407, the SIGGRAPH '87 proceedings record, which is the one in the records read (Crossref and OpenAlex W2121378366). The triage file says 37402.37407 is a second Crossref record of the same paper, OpenAlex W2999276620, closed; that was not opened here. Both are said to give pp. 35–44, which both the records read here do for 37401.
-- The prior card also listed individual principles (squash and stretch, timing, anticipation, staging, follow-through, overlapping action, slow in and out, arcs, exaggeration, secondary action, appeal) and two "key claims", plus a Crossref citation count of 272. None of that appears in the records read this session, so it is not carried over; it stays unchecked until the text is read.
-- The Crossref record gives the container title "Proceedings of the 14th annual conference on Computer graphics and interactive techniques", issued 1987-08, publisher ACM.
-- Neither SOURCE.md nor OUTLINE.md cites the work, so status is candidate.
+
+- **Run 1 card superseded.** Run 1 carded this work at abstract depth from the Crossref and OpenAlex records; its S6 verification and S7 hand-check covered those records only and are removed from this file (git history keeps them). The full text now held supersedes it.
+- **Eleven, not twelve.** Lasseter numbers eleven principles (p. 36) and treats personality as their application, not a twelfth principle (p. 43). The list on the dxd_animator card (`../../dxd_animator/literature/library/cards/lasseter1987principles.md`) and any draft that says "twelve principles" should not cite Lasseter for the number. "Solid drawing" is not among his principles.
+- **Much of the craft content is Thomas and Johnston at second hand.** Lasseter cites Thomas and Johnston (1981) as [26] for staging, anticipation, squash and stretch, secondary action and appeal, and Whitaker and Halas (1981) as [30] for timing. Where the paper uses those passages it should cite them as Thomas and Johnston (1981), as cited in Lasseter (1987), until the book itself is read (`BROWSER_LIST.md` row 24).
+- **Practitioner claims about the eye.** Lasseter's statements about perception ("the eye smooths the motion out", p. 37; strobing) are a practitioner's, cited to no perception study. They do not settle the apparent-motion question (CHECK F12).
+- **OCR.** The text layer has OCR errors ("key/tame" for "keyframe", "fight" for "right", "pol3q3eA" for "popped"). The loci above were chosen from clean lines; each was found in the text layer.
+- **Section order.** In the text layer, the heading "2.7 SLOW IN AND OUT" precedes "2.6 STRAIGHT AHEAD ACTION AND POSE-TO-POSE ACTION" because of column order; the pose-to-pose passage (loci 12, 14) belongs to §2.6 and the timing-chart passage (locus 13) to §2.7, both on p. 40.
+- **DOI.** As the run-1 card recorded, a second record, 10.1145/37402.37407 (the *Computer Graphics* 21(4) printing), exists for the same paper. This card keeps 10.1145/37401.37407, the proceedings record the PDF was served under.
+- **Personal names and gender.** Lasseter writes "he" for the animator and the assistant throughout; the paper should not carry that over.
 
 ## Verification
-2026-11-05 · S6 verifier, batch b11 (opus; not the writer) · verdict: verified · checked: loci 0/0; author, 1987, title, proceedings container, pp. 35–44, DOI 37401.37407 match both records; abstract quotations match OpenAlex; prior card's 37402 DOI, 21(4), principle list and count 272 confirmed as described; depth abstract honest · changed: nothing
+
+2026-11-11 · S6 verifier, batch A (Opus 5.5; not the writer) · verdict: corrected · checked: 19/19 loci found (text layer; the PDF p. 6 page image confirms loci 12 and 14 in the left-column §2.6 and locus 13 in the right-column §2.7, and the p. 5 image places the silhouette passage on p. 39), every locator correct (PDF p. N = p. 34 + N), section labels correct; frontmatter vs crossref.json (Lasseter, 1987, proceedings of the 14th annual conference, pp. 35–44, 10.1145/37401.37407), the first page prints *Computer Graphics* 21(4), July 1987, and Crossref returns 10.1145/37402.37407 as the *ACM SIGGRAPH Computer Graphics* 21(4) record, pp. 35–44; sha256 recomputed and matches; full_text honest (10 pp. read); quotations and facts in the body: eleven numbered principles, no "solid drawing", "solid" or "twelve" anywhere in the text, [26] = Thomas and Johnston 1981 Abbeville, [30] = Whitaker and Halas 1981 Focal, the in-between table (none to ten in-betweens, pp. 37–38), "locked" (p. 41), "the eye smooths the motion out" and strobing (p. 37), the OCR examples; claim uses · changed: m1 bullet locator "(p. 38)" to "(pp. 38–39)" · for the lead: (1) m1 stretches the table. Viewers of the in-between table see different in-betweens between the same two extremes, so the readings differ because the visible motion differs; m1 concerns an output that looks the same whatever produced it, so the table fits m1 only if the two extremes alone count as the output. (2) c5: the "depend entirely" sentence, like each paragraph of §2.2 around it, ends on [30]; cite it as Lasseter drawing on Whitaker and Halas, as the Caution already advises for [26]. Loci 8–11 and 16–17 also end on [26]. (3) Takayama, Dooley and Ju (2011) quote this paper ([15]) for the "thinking character" and a mouse-trap passage; neither occurs in this PDF (see takayama2011expressing, Verification), so the paper must not cite Lasseter (1987) for them. (4) The dxd_animator card also lists eleven items, but it splits follow through from overlapping action and omits straight ahead and pose-to-pose; it does not say "twelve" or "solid drawing".
 
 ## Hand-check
 
-- 2026-11-05, Fable (S7). Verdict: **index**.
-- Checked: 0/0 loci (None; the three abstract phrases in 'What it argues' are verbatim from the OpenAlex abstract and cited as the abstract); author, 1987-08, title, SIGGRAPH '87 proceedings container, pp. 35–44, ACM, DOI 10.1145/37401.37407 and both sha256 values against crossref.json and openalex.json; the prior card's principle list and second DOI correctly left unchecked.
-- Changed: nothing.
-- For the author: the principle list the paper would need for c8 is not in any record read; full text through the library (browser list row 39).
+- 2026-11-11, Claude (Opus 5.5, lead; S7). Verdict: **index**. Writer: the lead; independent check: S6 verifier, batch A. Checked: the verifier's locator fix (silhouette on p. 39) against the PDF text; all 19 loci re-found by the lead when writing (scratchpad check). Changed: the m1 bullet narrowed to an analogy (the in-betweens a film viewer sees are what an agent's user does not see). For the author: Lasseter lists eleven principles, not twelve.
