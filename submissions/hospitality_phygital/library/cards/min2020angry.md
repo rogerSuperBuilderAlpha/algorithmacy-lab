@@ -46,7 +46,7 @@ A three-page research report in which Min and Kim summarise experiments built on
 
 ## Where it bears on the argument
 
-**K7, P4, first half: narrows (rival).** The guest's own report, which P4 treats as the timely signal, depends on the guest feeling able to make it. Angry guests who feel powerless stay silent, and the operator loses the chance "to hear from customers" (printed p. 2). The report does not refute that the guest's report is often the only signal; it shows that the signal is often not sent, and that the setting, staff included, affects whether it is.
+**K7, P4, first half: narrows (rival).** The guest's own report, which P4 treats as the timely signal, depends on the guest feeling able to make it. Angry guests who feel powerless complain less in public, and the operator loses the chance "to hear from customers" (printed p. 2). The report does not refute that the guest's report is often the only signal; it shows that the signal is often not sent, and that the setting, staff included, affects whether it is.
 
 **K7, P4, second half; K9: no bearing.**
 
@@ -56,10 +56,12 @@ A three-page research report in which Min and Kim summarise experiments built on
 
 **What it may not say**
 
-- Any effect size, sample size or share of customers who stay silent; the report gives none.
+- Any effect size, sample size or share of customers who do not complain; the report gives none.
 - That hotel guests were studied.
 - That most dissatisfied guests do not complain.
 
 Card written by a Claude (Opus 5.5) subagent (reader R8) from the full text saved in sources/min2020angry/, 11 Nov 2026, run rr-2026-11-k.
 
 Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after independent verification CV-F (`manuscript/keystone_2026-11/VERIFY_CARDS_F.md`): 'may say' 1 uses the source's words; the swap target is JBR 95: 93-102.
+
+Corrected by the lead (Claude Opus 5.5) on 11 Nov 2026 after the independent v7 claim audit (`manuscript/keystone_2026-11/VERIFY_V7_B.md`, item 6): the report says low-power participants 'complain less in public' (p. 2), not that they stay silent.

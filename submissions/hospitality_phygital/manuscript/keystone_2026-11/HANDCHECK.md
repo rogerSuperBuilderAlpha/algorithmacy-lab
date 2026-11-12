@@ -145,6 +145,23 @@ All found at the reported locator unless noted.
 | 111 | Binesh and Syah 2026, PDF p. 10 | 'contestability, meaning ways for guests to see, question, and correct the inferences held about them, plus real human override at the service encounter' | MATCH | Two-column text; continuity checked |
 | 112 | UN Guiding Principles, Commentary on 31(h), p. 35 | 'cannot, with legitimacy, both be the subject of complaints and unilaterally determine their outcome' | MATCH | Already on `un2011guiding` |
 
+## Batch 6 (11 Nov, passages the lead re-read to check the v7 claim audit before applying it)
+
+| # | Source | Passage | Verdict | Note |
+|---|---|---|---|---|
+| 113 | Garcia et al., CESifo WP 10849, p. 7; Table 4 | 'conditional on changing prices manually, a one-percent change ... leads, on average, to a 0.72 percent change'; 0.974 across all updates | MATCH | The condition was missing from v7 S-158 |
+| 114 | Xiang et al. 2022, Table 2; Stage II findings | Interviewee_H24, Security; 'after checking with hotel management, the hotel was willing to cover the cost' | MATCH | v7 S-164 and the card had 'desk' / 'front-office' |
+| 115 | Bosma 2022, p. 601 | 'Irena did not receive instructions from Thomas but from the Airbnb app' | MATCH | One co-host |
+| 116 | Baum and Laux 2026, LNCS chapter, pp. 120, 122 | §2.3 'Temporal Gradations Within HOTL' (p. 120); the emergency-braking example (p. 122) | MATCH | The arXiv pp. 6-8 passages, on the printed pages |
+| 117 | Regulation (EU) 2026/1744, art. 1(40)(b) | Art. 113(c) as replaced: Chapter III Sections 1-3 apply from '2 December 2027' (Annex III) and '2 August 2028' (Annex I) | MATCH | Saved Official Journal text |
+| 118 | Directive 2005/29/EC, art. 11a(1) | 'Consumers harmed by unfair commercial practices, shall have access to proportionate and effective remedies, including compensation' | MATCH | Consolidated text of 27.9.2026 |
+| 119 | Equality Act 2010, s. 20(11) | 'an auxiliary aid includes a reference to an auxiliary service' | MATCH | |
+| 120 | Herstein, SEP 'Legal Rights', §8.4, paras 1-2 | 'At times, rights justify correlative duties'; 'This dynamism arguably cuts against ... Hohfeldian correlativity'; Kramer, 'only inchoate' | MATCH | Directedness is now marked as the paper's step |
+| 121 | Bulley 2015, AM p. 10 | 'neither can successfully do so without ending the hospitable relation and casting the other out' | MATCH | Symmetric between host and guest |
+| 122 | *Crinkley*, para 9 | 'Holiday Inns was found vicariously liable on the basis of apparent agency' | MATCH | |
+| 123 | Directive (EU) 2015/2302, art. 13(3) | 'the organiser shall remedy the lack of conformity, unless that: (a) is impossible; or (b) entails disproportionate costs' | MATCH | Contradicted v7 S-122 as written |
+| 124 | Package Travel Regulations 2018, regs 7(10), 7(12), 35; Sch. 5, para. 4 (card) | The contact point enters by reg. 7(2), is not an implied condition, is enforced as an offence, and gives no civil action | MATCH (card) | 'A duty owed to the state' stands |
+
 ## Still to check
 
 - Any passage `ARGUMENT.md` uses that is not in the table above. Each is added here before the dossier goes to the red team.

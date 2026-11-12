@@ -105,7 +105,7 @@ We have revised the register throughout. Claims are stated plainly, the second-p
 
 **R3.2** — *"Opening with the anecdote, asking about how 'we talk' about technology (p2), stating that 'put that way, the answer is boring' (p2), arguing that the test 'condemns the first…blesses the second' (p13); pointing to the 'bite' of the six question (p13) and referring to 'sitting ducks' (p14) … The sentence on page 18 goes on for six lines."*
 
-All of these have been removed. The introduction opens on the systems at issue. [AUTHORS: the longest sentence in v7 runs to 57 words, and ten exceed fifty, most of them citation-heavy sentences in the conclusion and the law subsection. Recount after your revision before stating a figure here.]
+All of these have been removed. The introduction opens on the systems at issue. [AUTHORS: the longest sentence in v7 runs to 61 words, and fifteen exceed fifty, most of them carrying legal citations or the conclusion's credits. Recount after your revision before stating a figure here.]
 
 **R3.3** — *"The point on page 19 regarding the Airbnb experiment and its results, and the closing of the gap was difficult to comprehend."*
 
@@ -207,7 +207,7 @@ We checked every quotation and locator in the revision against the text of its s
 
 *Changed in {{L:S-253}}:* "{{S-253}}"
 
-[AUTHORS: an independent claim audit of v7 is recorded in keystone_2026-11/VERIFY_V7_A.md and VERIFY_V7_B.md. Do not send this paragraph until its fixes are made. Three texts the argument leans on were read only as others report them (Raz, Telfer, Derrida), and the conclusion says so (the third paragraph).]
+[AUTHORS: an independent claim audit of v7 (keystone_2026-11/VERIFY_V7_A.md and VERIFY_V7_B.md) found no quotation that does not match its source; every fix it listed is made in the draft (LEDGER.md, 'Revisions after the v7 claim audit'), apart from reference-list details recorded in keystone_2026-11/REPORT.md. Still yours: the published page numbers for Garcia et al. (2026), read only as the CESifo working paper. Three authors the argument leans on were read only as others report them (Raz, Telfer, Derrida), and the conclusion says so (the third paragraph).]
 
 ---
 
@@ -247,6 +247,6 @@ Locations are DRAFT_v7's. 'HD' is 'The host's power and the host's duty'; 'DG' i
 | R3.18–19 | Well-being; confusing phrases | Must fix | Link stated for the guest; phrases removed | Conclusion ¶5 | Done; **communities: authors decide** |
 | R3.20 | Limitations and agenda | Must fix | Limits; four studies | Conclusion ¶3–4 | Done |
 | R3.21 | Conclusion | Must fix | Answers the question in three findings | Conclusion ¶2 | Done |
-| R3.22 | Evidence | Must fix | Quotations and locators checked; documented cases; abstract-only claims limited | Whole text; Conclusion ¶3 | **Pending the v7 claim audit** |
+| R3.22 | Evidence | Must fix | Quotations and locators checked; independent claim audit applied; documented cases; abstract-only claims limited | Whole text; Conclusion ¶3 | Done; **Garcia et al. published pages pending** |
 
-Decisions waiting on you: R1.6 (read-aloud), R2.1 (Figure 1), R2.4 (whether to concede the argument's reach), R3.1 (the AI remark and the disclosure), R3.18–19 (communities) and R3.22 (the audit's fixes).
+Decisions waiting on you: R1.6 (read-aloud), R2.1 (Figure 1), R2.4 (whether to concede the argument's reach), R3.1 (the AI remark and the disclosure), R3.18–19 (communities) and R3.22 (Garcia et al.'s published pages).

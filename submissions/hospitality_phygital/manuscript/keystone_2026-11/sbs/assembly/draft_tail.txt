@@ -61,7 +61,7 @@ Kiesewetter, Benjamin (2015), 'Instrumental normativity: In defense of the trans
 
 King, Carol A. (1995), 'What is hospitality?', *International Journal of Hospitality Management*, 14:3–4, pp. 219–234.
 
-Kong, Kennedy Chun Yin (2026), 'The delegation illusion: why deploying autonomous AI agents does not diminish principal responsibility', *AI and Ethics*, 6:5.
+Kong, Kennedy Chun Yin (2026), 'The delegation illusion: why deploying autonomous AI agents does not diminish principal responsibility', *AI and Ethics*, 6:5, 518.
 
 Koo, Chulmo and Kwon, Jookyung (2026), 'Three ages of hospitality reflection: Origins, contemporary, and future', *International Journal of Contemporary Hospitality Management*, 38:8, pp. 2471–2486.
 
@@ -214,4 +214,6 @@ Package Travel and Linked Travel Arrangements Regulations 2018 (SI 2018/634).
 Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market for Digital Services (Digital Services Act).
 
 Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act), OJ L, 12.7.2024.
+
+Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI).
 

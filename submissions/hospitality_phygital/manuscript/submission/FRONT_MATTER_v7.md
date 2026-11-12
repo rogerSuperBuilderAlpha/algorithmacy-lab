@@ -17,9 +17,9 @@ The rules and limits are in [`../JOURNAL_SPEC.md`](../JOURNAL_SPEC.md). At uploa
 
 ## Abstract (100–200 words)
 
-*173 words by whitespace count; verify against Word's counter before upload. Copied from DRAFT_v7.md.*
+*177 words by whitespace count; verify against Word's counter before upload. Copied from DRAFT_v7.md.*
 
-Hosts now hand parts of the work of hosting, from pricing to check-in, to algorithmic systems, often assembled from services that several firms supply. The hospitality texts we read describe what a host owes and name hosting divided among several parties, but none says which party owes the guest what. We argue that the role of host specifies the duty, care for the guest's safety and in what the host undertook, and that holding out, reliance and control bind it to a particular party. When others do the work, what stays with the host depends on the duty, and several parties may hold the duty of care at once. During the stay, we argue, the guest's claim justifies a further duty to keep some timely means by which a failure in the guest's case reaches someone able to correct it, a person algorithmic mediation can move out of the guest's path. The article offers six questions for examining a touchpoint, states what the law already requires, and sets out what hosts can do.
+Hosts now hand parts of the work of hosting, from pricing to check-in, to algorithmic systems, which can be assembled from services that several firms supply. The hospitality texts we read in full describe what a host owes and name hosting divided among several parties, but none says which party owes the guest what. We argue that the role of host specifies the duty, care for the guest's safety and in what the host undertook, and that holding out, reliance and control bind it to a particular party. When others do the work, what stays with the host depends on the duty, and several parties may hold the duty of care at once. During the stay, we argue, the guest's claim justifies a further duty to keep some timely means by which a failure in the guest's case reaches someone able to correct it, a person algorithmic mediation can move out of the guest's path. The article offers six questions for examining a touchpoint, states what the law already requires, and sets out what hosts can do.
 
 ## Keywords (exactly six, one or two words each)
 
@@ -39,7 +39,7 @@ phygital hospitality; algorithmic mediation; host duties; assembled host; servic
 
 - A host's duty binds through holding out, reliance and control of the guest's space. `[83]`
 - When others do the work, what stays with the host depends on the particular duty. `[81]`
-- During the stay, the guest's claim justifies a duty to keep a route to correction. `[82]`
+- During the stay, the guest's claim justifies keeping timely means of correction. `[80]`
 - Automation can move the person able to correct a failure out of the guest's path. `[81]`
 - Six questions test whether a guest's report can reach someone able to correct it. `[81]`
 
