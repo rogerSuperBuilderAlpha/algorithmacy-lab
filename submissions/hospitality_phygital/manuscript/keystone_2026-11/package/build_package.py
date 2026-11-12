@@ -28,5 +28,5 @@ parts.append('# Part 5. The research report\n\n'+mark+clean((K/'REPORT.md').read
 parts.append('# Appendix A. Figure 1: every label and the sentence it rests on\n\n'+mark+clean((K/'figure1/README.md').read_text(encoding='utf-8')))
 parts.append('# Appendix B. The argument dossier (ARGUMENT.md)\n\n'+mark+clean((K/'ARGUMENT.md').read_text(encoding='utf-8')))
 out_md.write_text(PB.join(parts),encoding='utf-8')
-subprocess.run(['pandoc',str(out_md),'-f','markdown+pipe_tables+raw_attribute-tex_math_dollars','-o',str(out_docx),'--resource-path',str(M)],check=True)
+subprocess.run(['pandoc',str(out_md),'-f','markdown+pipe_tables+raw_attribute+lists_without_preceding_blankline-tex_math_dollars','-o',str(out_docx),'--resource-path',str(M)],check=True)
 print('written',out_docx)

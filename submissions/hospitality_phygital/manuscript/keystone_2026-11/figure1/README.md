@@ -1,6 +1,6 @@
-<!-- DRAFTED BY CLAUDE (Opus 5.5), 12 Nov 2026, run rr-2026-11-k. A proposed replacement for the submitted Figure 1, for the authors to judge. It is not in DRAFT_v7.md. -->
+<!-- DRAFTED BY CLAUDE (Opus 5.5), 12 Nov 2026, run rr-2026-11-k. The replacement for the submitted Figure 1; placed in DRAFT_v7.md on 12 Nov 2026, for the authors to confirm. -->
 
-# Figure 1, redrawn to v7's argument (proposal)
+# Figure 1, redrawn to v7's argument
 
 **Why.** Reviewer 2 (R2.1) asked where the host's obligation comes from, 'especially in Figure 1'. The submitted Figure 1 was captioned 'How hosting's functions migrate but its obligation does not' (DRAFT.md of 17 August 2026, commit 3e6828b1). That caption states the claim v7 withdraws: what stays with the host depends on the duty. This drawing replaces it with v7's account, in three panels:
 - A: what binds the duty and what it contains (Section 2);
@@ -14,14 +14,13 @@
 
 The drawing is in greyscale for print. The shading and dashes mark status: unshaded is the paper's reading of the field, the philosophy and the law; shaded is the paper's own step; dashed is a proposal.
 
-**Proposed caption (14 words).** *Figure 1. The host's duty, its holders, and the further duty during the stay.*
+**Caption (14 words).** *Figure 1. The host's duty, its holders, and the further duty during the stay.*
 
-**Proposed placement.**
-- Put the figure after the first paragraph of 'Assembled hosts at the touchpoint'.
-- Add '(Figure 1)' at the end of that paragraph's first sentence (S-152).
-- The caption and callout add about 16 words. The body is 8,925 by `wordcount.py` and 8,983 by `preflight.py`, which counts the AI acknowledgment's placeholder.
-- To stay within both counts, pay with the second clause of S-212: 'and an injunction protects a claimant against harm that damages could not make good (American Cyanamid v Ethicon 1975: 3)', about 18 words. *Mathews* carries the point alone. *American Cyanamid* would then leave the Cases list.
-- The R2.1 answer in the letter would then point to the figure.
+**Placement (done 12 Nov 2026).**
+- The figure follows the first paragraph of 'Assembled hosts at the touchpoint', and that paragraph's first sentence (S-152) ends '(Figure 1)'.
+- The second clause of S-212 (*American Cyanamid*, about 18 words) was cut to pay for the caption; *Mathews* carries the point alone, and *American Cyanamid* has left the Cases list.
+- The body is 8,921 words by `wordcount.py`.
+- The R2.1 answer in the letter points to the figure.
 
 **Every label, and the v7 sentence it rests on.**
 
