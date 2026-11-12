@@ -134,6 +134,17 @@ All found at the reported locator unless noted.
 | 105 | O'Gorman 2005, p. 146 | inns' reputation 'for bedbugs, discomfort, violence and danger' | MATCH | |
 | 106 | Digest 4.9.3.1 | 'reprimendae improbitatis hoc genus hominum' | MATCH | Pomponius as reported by Ulpian. Draft 1's English was a reader's gloss presented as quotation; draft 2 quotes the Latin and marks the gloss |
 
+## Batch 5 (11 Nov, the novelty passages from P5, re-read by the lead from the saved texts)
+
+| # | Source | Passage | Verdict | Note |
+|---|---|---|---|---|
+| 107 | OSTP 2022, p. 46 (also p. 7) | 'access to a person who can quickly consider and remedy problems you encounter' | MATCH | Printed page numbers match the PDF pages |
+| 108 | OSTP 2022, p. 50 | 'immediately available or, where possible, available before the harm occurs'; 'automated building access and other access systems' | MATCH | Under 'time-critical systems' |
+| 109 | Treasury Board of Canada Secretariat 2019, 5.1 | 'any automated decision system in production used to make an administrative decision or a related assessment about a client' | MATCH | Page as fetched 11 Nov 2026 |
+| 110 | Treasury Board of Canada Secretariat 2019, Apps B-C | Level III 'high, difficult to reverse and potentially ongoing'; Level IV 'very high, irreversible and perpetual'; 'The final decision must be made by a human.' | MATCH | Levels I-II: 'without direct human involvement' |
+| 111 | Binesh and Syah 2026, PDF p. 10 | 'contestability, meaning ways for guests to see, question, and correct the inferences held about them, plus real human override at the service encounter' | MATCH | Two-column text; continuity checked |
+| 112 | UN Guiding Principles, Commentary on 31(h), p. 35 | 'cannot, with legitimacy, both be the subject of complaints and unilaterally determine their outcome' | MATCH | Already on `un2011guiding` |
+
 ## Still to check
 
 - Any passage `ARGUMENT.md` uses that is not in the table above. Each is added here before the dossier goes to the red team.
